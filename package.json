@@ -2,7 +2,7 @@
   "name": "defence-exams-revision",
   "version": "1.0.0",
   "description": "Revision helper for Defence Examinations like NDA, CDS, and AFCAT",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js"
