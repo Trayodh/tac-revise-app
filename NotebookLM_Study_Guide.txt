@@ -1,0 +1,2882 @@
+DEFENCE EXAMS REVISION - COMPREHENSIVE STUDY GUIDE
+===================================================
+
+--- Acids, Bases & pH Indicators ---
+Subject: Chemistry (NDA/CDS)
+Chapter: Acids, Bases & Salts
+
+## 1. Theories of Acids and Bases
+- Arrhenius Theory : Acid: Releases hydrogen ions (H⁺) or hydronium ions (H₃O⁺) in aqueous solution (e.g., HCl, HNO₃).
+- Base: Releases hydroxyl ions (OH⁻) in aqueous solution (e.g., NaOH, KOH).
+- Bronsted-Lowry Theory : Acid: Proton (H⁺) donor.
+- Base: Proton (H⁺) acceptor.
+- Lewis Theory : Acid: Electron-pair acceptor (electron deficient, e.g., BF₃, AlCl₃, H⁺).
+- Base: Electron-pair donor (has lone pair, e.g., NH₃, H₂O, F⁻).
+
+## 2. pH Scale & Indicators
+- pH represents potential of Hydrogen. Formula: pH = -log[H⁺] or pH = -log[H₃O⁺] .
+- At 298 K: pH 7 is basic/alkaline.
+- Indicators Table: Indicator Acidic Color Basic Color Litmus Red Blue Phenolphthalein Colorless Deep Pink Methyl Orange Red/Orange Yellow
+
+Table Data:
+Indicator | Acidic Color | Basic Color
+Litmus | Red | Blue
+Phenolphthalein | Colorless | Deep Pink
+Methyl Orange | Red/Orange | Yellow
+
+## 3. Key Chemical Salts and Formulas
+- Baking Soda (Sodium Hydrogen Carbonate - NaHCO₃) : Prepared by Solvay process. Releases CO₂ on heating. Used in baking and soda-acid fire extinguishers.
+- Washing Soda (Sodium Carbonate Decahydrate - Na₂CO₃ · 10H₂O) : Used in glass, soap paper industries, and for removing permanent hardness of water.
+- Plaster of Paris (Calcium Sulphate Hemihydrate - CaSO₄ · ½H₂O) : Obtained by heating Gypsum (CaSO₄ · 2H₂O) at 373 K. Used for plastering fractured bones and making toys.
+- Bleaching Powder (Calcium Oxychloride - CaOCl₂) : Formed by action of chlorine on dry slaked lime [Ca(OH)₂]. Used as disinfectant for water and bleaching agent in textile industry.
+
+## High-Yield Formulas & Facts
+- pH = -log[H⁺]
+- Baking Soda: NaHCO₃
+- Washing Soda: Na₂CO₃·10H₂O
+- POP: CaSO₄·0.5H₂O
+- Gypsum: CaSO₄·2H₂O
+- Bleaching Powder: CaOCl₂
+
+
+--- Constitutional Amendments, Parts & Schedules ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Advanced Polity Structures & Bodies
+
+## High-Yield Formulas & Facts
+- Schedules: TEARS OF OLD PM
+
+
+--- Ancient Indian Culture ---
+Subject: History (CDS/NDA)
+Chapter: 3. Ancient India
+
+## 1. Literature & Philosophy
+- Sanskrit Drama: Kalidasa ( Abhijnanasakuntalam ), Shudraka ( Mrichchakatikam - Clay Cart), Vishakhadatta ( Mudrarakshasa ).
+- 6 Orthodox Schools (Shad-Darshana): Samkhya (Kapila), Yoga (Patanjali), Nyaya (Gautama), Vaisheshika (Kanada), Mimamsa (Jaimini), Vedanta (Badarayana).
+
+## High-Yield Formulas & Facts
+- Mrichchakatikam: Shudraka | Mudrarakshasa: Vishakhadatta | Yoga: Patanjali | Vaisheshika: Kanada
+
+
+--- Animal Kingdom Classification ---
+Subject: Biology (NDA/CDS)
+Chapter: Plant & Animal Kingdoms
+
+## High-Yield Formulas & Facts
+- Porifera: Cellular, sponges
+- Coelenterata: Cnidoblasts, Polyp/Medusa
+- Platyhelminthes: Flatworms
+- Aschelminthes: Roundworms
+- Annelida: Segmented
+- Arthropoda: Jointed, largest
+- Mollusca: Soft, shell
+- Echinodermata: Water vascular
+
+
+--- Architecture ---
+Subject: History (CDS/NDA)
+Chapter: 7. Art, Culture & Heritage
+
+## 🏛️ Indian Architecture
+The structural heritage of India, from ancient cave temples to medieval Islamic monuments.
+
+## 1. Temple Architecture Styles
+- Nagara Style (North India): Platform base, curved tower (**Shikhara**), assembly hall (*Mandapa*), no boundary walls. E.g., Kandariya Mahadeva (Khajuraho), Sun Temple (Konark).
+- Dravida Style (South India): Monumental gateway (**Gopuram**), stepped pyramidal tower (**Vimana**), temple tanks, high boundary walls. E.g., Brihadeshwara Temple (Thanjavur).
+- Vesara Style (Deccan): Hybrid of Nagara and Dravida, characterized by star-shaped platform (*Jagati*). E.g., Chennakeshava Temple (Belur).
+
+## 2. Indo-Islamic & Mughal Architecture
+- Introduced the arch, dome, minaret, mortar, and geometric designs (avoiding human figures).
+- **Delhi Sultanate:** Qutub Minar (Aibak/Iltutmish), Alai Darwaza (Alauddin Khilji), Tomb of Ghiyasuddin Tughlaq.
+- **Mughal Architecture:** - *Akbar:* Red sandstone structures. Humayun's Tomb (first double-dome), Fatehpur Sikri (Buland Darwaza, Panch Mahal). - *Shah Jahan:* White marble structures. Taj Mahal, Red Fort (Delhi), Moti Masjid (Agra). Pietra Dura (stone inlay work) reached peak.
+
+## 3. Stupas, Caves & Monuments
+- **Sanchi Stupa (MP):** Commemorated by Ashoka. Relics of Buddha inside semicircular mound with ornamental gateways (*Toranas*).
+- **Ajanta Caves:** 29 Buddhist rock-cut caves. Murals depicting Jataka tales.
+- **Ellora Caves:** 34 caves representing Hinduism, Buddhism, and Jainism. Cave 16 contains the monolithic rock-cut **Kailash Temple** built by Krishna I (Rashtrakuta).
+
+## High-Yield Formulas & Facts
+- Nagara: Shikhara | Dravida: Vimana & Gopurams | Vesara: Star-shaped/hybrid | Indo-Islamic: Arch & Dome
+
+
+--- 2D Figures: Area & Perimeter ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Mensuration
+
+## High-Yield Formulas & Facts
+- 2D Mensuration Formulas
+
+
+--- Bahmani Kingdom & Deccan Sultanates ---
+Subject: History (CDS/NDA)
+Chapter: 4. Medieval India
+
+## 🏰 Bahmani Kingdom & Deccan Sultanates
+The major Islamic state of Deccan, which continuously warred with Vijayanagara over the fertile Raichur Doab.
+
+## 1. Bahmani Kingdom (1347 - 1527)
+- Founded in 1347 by **Ala-ud-Din Bahman Shah** (also known as Hasan Gangu) in revolt against Muhammad bin Tughlaq.
+- Capital was initially Gulbarga, later shifted to Bidar. Mahmud Gawan (great prime minister) expanded power via administrative reforms.
+
+## 2. Split into Deccan Sultanates
+In the early 16th century, the Bahmani kingdom disintegrated into five independent sultanates:
+- Adil Shahis of Bijapur: Founded by Yusuf Adil Shah. Famous for building the **Gol Gumbaz** (largest dome in India, featuring a whispering gallery).
+- Nizam Shahis of Ahmadnagar: Malik Ahmad. Defended by Chand Bibi against Akbar's forces.
+- Qutb Shahis of Golconda: Quli Qutb Shah. Famous for Golconda Diamond mines. Built **Charminar** in Hyderabad.
+- Imad Shahis of Berar: Fathullah Imad-ul-Mulk.
+- Barid Shahis of Bidar: Qasim Barid.
+
+## High-Yield Formulas & Facts
+- Bahmani: Hasan Gangu (1347) | Gol Gumbaz: Bijapur (Adil Shah) | Charminar: Golconda
+
+
+--- Bhakti Movement ---
+Subject: History (CDS/NDA)
+Chapter: 4. Medieval India
+
+## 🙏 The Bhakti Movement
+A medieval socio-religious reform movement preaching personal devotion to God as the path to salvation, bypassing priests and caste barriers.
+
+## 1. Origins & Schools
+- Originated in South India (7th-9th century) led by **Alvars** (Vaishnavite saints) and **Nayanars** (Shaivite saints).
+- Spread to North India in the 14th century by **Ramananda**.
+- Saguna School (Worshipped God with Form): **Mirabai:** Devoted to Krishna; composed Bhajans in Rajasthani/Braj.
+- **Tulsidas:** Wrote *Ramcharitmanas* in Awadhi.
+- **Chaitanya Mahaprabhu:** Bengal; popularized Kirtan (musical chanting).
+- Nirguna School (Worshipped Formless God): **Kabir:** Disciple of Ramananda. Opposed rituals, caste system, idol worship. Expressed ideas in *Dohas* (couplets) compiled in *Bijak*.
+- **Guru Nanak:** Preached monotheism and equality.
+
+## High-Yield Formulas & Facts
+- Alvars: Vishnu | Nayanars: Shiva | Ramcharitmanas: Tulsidas | Kirtans: Chaitanya
+
+
+--- Joint Military Exercises of India ---
+Subject: Military GK & Aptitude
+Chapter: Exercises & Missile Systems
+
+## Bilateral Exercises List (High-Yield)
+Armed forces carry out exercises to practice tactical joint operations. Memorize the major ones:
+- United States : Yudh Abhyas (Army)
+- Vajra Prahar (Special Forces)
+- Cope India (Air Force)
+- Tarkash (Counter-terrorism joint drills)
+- France : Shakti (Army)
+- Varuna (Navy)
+- Garuda (Air Force)
+- Russia : Indra (Tri-services joint exercise)
+
+## High-Yield Formulas & Facts
+- US: Yudh Abhyas, Vajra Prahar
+- Nepal: Surya Kiran
+- France: Garuda(Air), Varuna(Navy), Shakti(Army)
+- Russia: Indra
+
+
+--- Ecology Basics & Pyramids ---
+Subject: Biology (NDA/CDS)
+Chapter: Ecology & Ecosystems
+
+## High-Yield Formulas & Facts
+- Lindeman's 10% Law: only 10% energy transferred to next level
+- Pyramids: Numbers (inverted in tree), Biomass (inverted in marine), Energy (ALWAYS upright)
+- Ecotone: transition zone between two ecosystems (e.g., Mangrove)
+
+
+--- British Expansion ---
+Subject: History (CDS/NDA)
+Chapter: 5. Modern India (Highest Priority)
+
+## 1. Battles & Alliances
+- Battle of Plassey (1757): Robert Clive defeated Siraj-ud-Daulah (Nawab of Bengal) due to Mir Jafar's betrayal. Started British political footprint.
+- Battle of Buxar (1764): Hector Munro defeated combined forces of Mir Qasim, Shuja-ud-Daulah, and Shah Alam II. Led to **Treaty of Allahabad (1765)** granting Diwani rights (tax collection) of Bengal, Bihar, Odisha to the Company.
+- Subsidiary Alliance: Lord Wellesley (Hyderabad first to sign in 1798).
+- Doctrine of Lapse: Lord Dalhousie (Satara, Jhansi, Nagpur, Sambalpur annexed). Awadh annexed on grounds of misgovernment (1856).
+
+## High-Yield Formulas & Facts
+- Plassey: 1757 | Buxar: 1764 | Allahabad Treaty: 1765 (Diwani rights) | Subsidiary: Wellesley | Lapse: Dalhousie
+
+
+--- Buddhism & Jainism ---
+Subject: History (CDS/NDA)
+Chapter: 3. Ancient India
+
+## 🧘 Buddhism & Jainism
+Heterodox religious movements that arose in the 6th century BCE as a reaction to Vedic ritualism and caste rigidity.
+
+## 1. Buddhism (Gautama Buddha: 563 - 483 BCE)
+- Born as Siddhartha in Lumbini (Nepal) to Shakya Chief Shuddhodana. Renounced home at 29 (Mahabhinishkramana). Attained Nirvana at Bodh Gaya under a Pipal tree. First sermon at Sarnath (Dhammachakkapavattana). Died at Kusinara (Mahaparinirvana).
+- Core Teachings: 4 Noble Truths (Arya Satyas), Eightfold Path (Ashtangika Marga), theory of no-soul (Anatta) and impermanence (Anicca).
+- Buddhist Councils: 1st Council (483 BCE): Rajgir. Presided by Mahakasyapa, patron Ajatashatru. Compiled Sutta Pitaka (Ananda) and Vinaya Pitaka (Upali).
+- 2nd Council (383 BCE): Vaishali. Presided by Sabakami, patron Kalasoka. Split into Sthaviravadins and Mahasanghikas.
+- 3rd Council (250 BCE): Pataliputra. Presided by Moggaliputta Tissa, patron Ashoka. Compiled Abhidhamma Pitaka.
+- 4th Council (72 CE): Kundalvana (Kashmir). Presided by Vasumitra/Ashvaghosha, patron **Kanishka**. Split Buddhism into **Hinayana** and **Mahayana**.
+
+## 2. Jainism (Vardhamana Mahavira: 599 - 527 BCE)
+- 24th Tirthankara (1st: Rishabhanatha, 23rd: Parshvanatha). Born at Kundagrama near Vaishali to Jnatrika Chief Siddhartha. Attained Kaivalya at Jrimbhikagrama. Died at Pavapuri.
+- Core Teachings: Tri-ratnas (Right Faith, Right Knowledge, Right Conduct). 5 Vows (Ahimsa, Satya, Asteya, Aparigraha, Brahmacharya - added by Mahavira). **Anekantavada / Syadvada** (theory of pluralism/relative truth). Extremely strict non-violence.
+- Sects: Split into **Digambaras** (sky-clad/naked, led by Bhadrabahu who migrated south during famine) and **Svetambaras** (white-clad, led by Sthulabhadra in Magadha).
+
+## High-Yield Formulas & Facts
+- 1st Buddhist Council: Rajgriha (Ajatashatru) | 3rd: Pataliputra (Ashoka) | 4th: Kashmir (Kanishka)
+
+
+--- National Awards & Honours ---
+Subject: Current Affairs & GK
+Chapter: Reports, Awards & Judgments
+
+## High-Yield Formulas & Facts
+- Bharat Ratna > Padma Vibhushan > Padma Bhushan > Padma Shri
+- PVC > MVC > VC (wartime)
+- Ashoka Chakra > KC > SC (peacetime)
+
+
+--- Economic Measures & Policy Packages ---
+Subject: Current Affairs & GK
+Chapter: Reports, Awards & Judgments
+
+## High-Yield Formulas & Facts
+- Atmanirbhar: ₹20L Cr (10% of GDP)
+- PLI: 14 sectors
+- NIP: ₹111L Cr infra
+- Gati Shakti: 16 ministries
+- ONORC: Aadhaar-linked PDS
+
+
+--- Landmark SC & HC Judgments ---
+Subject: Current Affairs & GK
+Chapter: Reports, Awards & Judgments
+
+## High-Yield Formulas & Facts
+- Kesavananda (1973): Basic Structure
+- Maneka Gandhi (1978): Art 21 expanded
+- Puttaswamy (2017): Right to Privacy
+- Bommai (1994): Art 356 judicial review
+
+
+--- National Policies & Missions ---
+Subject: Current Affairs & GK
+Chapter: Schemes, Policies & Summits
+
+## High-Yield Formulas & Facts
+- NEP 2020: 5+3+3+4 structure
+- Digital India: UPI 10B+ txns/mo
+- Make in India: 25 sectors
+- Start-Up India: 100+ unicorns
+
+
+--- India's International Relations & Forums ---
+Subject: Current Affairs & GK
+Chapter: Schemes, Policies & Summits
+
+## High-Yield Formulas & Facts
+- Quad: IN, US, JP, AU
+- BRICS+: 2024 expansion
+- G20 India: Sep 2023
+- ISA: India + France
+
+
+--- Important Reports & Indices ---
+Subject: Current Affairs & GK
+Chapter: Reports, Awards & Judgments
+
+## High-Yield Formulas & Facts
+- HDI: UNDP
+- GHI: Concern Worldwide
+- EoDB: World Bank (discontinued)
+- Gender Gap: WEF
+- CPI: Transparency Intl
+
+
+--- Major Government Schemes ---
+Subject: Current Affairs & GK
+Chapter: Schemes, Policies & Summits
+
+## High-Yield Formulas & Facts
+- PM-KISAN: ₹6000/yr
+- PM-JAY: ₹5L health cover
+- Jan Dhan: Zero balance a/c
+- MGNREGA: 100 days wage
+
+
+--- Science, Tech & Space Missions ---
+Subject: Current Affairs & GK
+Chapter: Reports, Awards & Judgments
+
+## High-Yield Formulas & Facts
+- ISRO: Shukrayaan-1 (Venus), Gaganyaan (Manned), Chandrayaan-4
+- Defence: INS Mahendragiri (stealth frigate), Agni-5 MIRV
+- AI: BharatGPT, Krutrim AI
+
+
+--- Major International Summits ---
+Subject: Current Affairs & GK
+Chapter: Schemes, Policies & Summits
+
+## High-Yield Formulas & Facts
+- COP21: Paris Agreement (2015)
+- G20: 85% of world GDP
+- G7: 7 advanced economies
+- WEF: Davos, Switzerland
+
+
+--- Carbon & its Compounds ---
+Subject: Chemistry (NDA/CDS)
+Chapter: Carbon Compounds & Numericals
+
+## High-Yield Formulas & Facts
+- Alkanes: CnH2n+2
+- Alkenes: CnH2n
+- Alkynes: CnH2n-2
+- Diamond: sp3, Graphite: sp2, Fullerene: C-60
+- Esterification: Acid+Alcohol -> Ester
+
+
+--- Cell Structure & Cell Division ---
+Subject: Biology (NDA/CDS)
+Chapter: Cell Biology & Genetics
+
+## 1. Cell Theory & Classification
+- Cell is the structural and functional unit of life, first discovered by Robert Hooke in 1665 (dead cork cell) and Leeuwenhoek in 1674 (living cell).
+- Cell Theory : Proposed by Schleiden and Schwann (1838-1839). Rudolf Virchow added: "Omnis cellula-e-cellula" (all cells arise from pre-existing cells).
+- Prokaryotic Cells : Lack a nuclear membrane and membrane-bound organelles (e.g., Bacteria, Blue-green algae). Possess 70S ribosomes.
+- Eukaryotic Cells : Have a well-defined nuclear envelope and organelles (e.g., Plants, Animals, Fungi). Possess 80S ribosomes.
+
+## 2. Vital Cell Organelles
+- Mitochondria : Double-membraned powerhouse of the cell. Site of aerobic cellular respiration and ATP generation. Contains its own DNA and 70S ribosomes.
+- Plastids (Chloroplasts) : Found only in plant cells. Kitchen of the cell, contains chlorophyll to perform photosynthesis. Possesses own circular DNA.
+- Ribosomes : Non-membrane bound protein factories. Found free in cytoplasm or attached to Rough Endoplasmic Reticulum (RER).
+- Lysosomes : Formed by Golgi apparatus. Known as Suicide Bags because they contain hydrolytic digestive enzymes that destroy worn-out organelles or the cell itself under stress.
+- Endoplasmic Reticulum (ER) : RER has ribosomes and synthesizes proteins; Smooth ER (SER) synthesizes lipids and detoxifies poisons/drugs.
+- Golgi Apparatus : Performs packaging, modification, and dispatching of materials.
+
+## 3. Cell Division (Mitosis vs Meiosis)
+- Mitosis (Equational Division) : Occurs in somatic cells for growth and repair. One diploid cell (2n) divides to produce two identical diploid (2n) daughter cells .
+- Meiosis (Reductional Division) : Occurs in germ cells to form gametes. One diploid cell (2n) divides to produce four non-identical haploid (n) daughter cells . Features crossing over in Prophase I (Pachytene stage) which induces variation.
+
+## High-Yield Formulas & Facts
+- Powerhouse: Mitochondria (ATP)
+- Suicide Bags: Lysosomes (hydrolytic enzymes)
+- Protein Factory: Ribosomes
+- Mitosis: Growth & Repair (2n -> 2n)
+- Meiosis: Gamete formation & Crossing Over (2n -> 4 cells of n)
+
+
+--- Measures of Central Tendency ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Statistics & Probability
+
+## 1. Mean, Median, Mode
+- Mean: Sum of observations / Number of observations.
+- Median: Middle value when sorted.
+- Empirical Relation: Mode = 3*Median - 2*Mean
+
+## High-Yield Formulas & Facts
+- <li><strong>Variance:</strong> sigma^2 = rac{sum (xi - mu)^2}{N}</li>
+- <li><strong>Standard Deviation:</strong> sigma = sqrt{Variance}</li>
+
+
+--- Chalcolithic Age ---
+Subject: History (CDS/NDA)
+Chapter: 2. Prehistoric India
+
+## ⛏️ The Chalcolithic Age
+The transition period from the Stone Age to the Metal Age, characterized by the joint use of Copper and Stone (Chalco = Copper; Lithic = Stone).
+
+## 1. Key Characteristics
+- Technology: First use of metals. Copper was the first metal used, followed by bronze. Stone tools (microliths) continued.
+- Economy: Mostly rural communities. Practiced farming (barley, wheat, lentils) and cattle rearing. Worshipped the Mother Goddess and the Bull.
+- Pottery: Characterized by **Black-and-Red Ware (BRW)**, painted with white designs.
+- Burials: Burial practices varied. In Maharashtra, children were buried in urns under house floors in a North-South direction.
+
+## 2. Major Chalcolithic Cultures
+- Ahar-Banas Culture (Rajasthan): Sites like Ahar and Gilund. Houses made of stone and mud. Copper smelting furnaces found.
+- Kayatha & Malwa Cultures (MP): Malwa pottery is considered the finest Chalcolithic pottery. Kayatha is situated on the Chambal river.
+- Jorwe Culture (Maharashtra): Most extensive. Sites: **Inamgaon** and Daimabad. Highly settled, fortified villages with social stratification (chiefs' houses vs commoners). Transitioned to the Iron Age.
+
+## High-Yield Formulas & Facts
+- Chalcolithic: Copper + Stone | Jorwe Culture: Inamgaon | Banas Culture: Ahar
+
+
+--- Everyday Chemistry, Fertilisers & Fuels ---
+Subject: Chemistry (NDA/CDS)
+Chapter: Everyday & Environmental Chemistry
+
+## High-Yield Formulas & Facts
+- Saponification: fat + NaOH -> soap + glycerol
+- NPK: Nitrogen, Phosphorus, Potassium
+- Glass: supercooled liquid (silicates)
+- Cement: gypsum (delays setting time), silicates & aluminates
+- Petroleum: LPG (butane + propane), CNG (methane)
+
+
+--- Mole Concept & Concentration Terms ---
+Subject: Chemistry (NDA/CDS)
+Chapter: Carbon Compounds & Numericals
+
+## High-Yield Formulas & Facts
+- Mole = mass/molar mass
+- Avogadro: 6.022 x 10^23
+- Molarity (M) = moles/vol(L) [Temp dependent]
+- Molality (m) = moles/masssolvent(kg) [Temp independent]
+- Normality (N) = Molarity * n-factor
+
+
+--- Circles & Polygons ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Geometry
+
+## High-Yield Formulas & Facts
+- Circle Theorems
+
+
+--- Citizenship (Art 5-11) ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Constitutional Framework
+
+## High-Yield Formulas & Facts
+- Part II, Articles 5-11
+- Single Citizenship: Borrowed from UK
+- Acquisition: Birth, Descent, Registration, Naturalization, Territory Incorporation
+- Loss: Renunciation, Termination, Deprivation
+
+
+--- Climatology: Climatic Zones & Clouds ---
+Subject: Geography (CDS/NDA)
+Chapter: Physical & World Geography
+
+## High-Yield Formulas & Facts
+- Cloud types: High, Middle, Low, Convective
+
+
+--- Cold War ---
+Subject: History (CDS/NDA)
+Chapter: 6. World History
+
+## ❄️ The Cold War & Decolonisation
+An era of ideological, military, and political tension between two superpowers (USA and USSR), coupled with the liberation of colonies in Asia and Africa.
+
+## 1. Ideological Rivalry
+- **USA (Western Bloc):** Capitalist, democratic.
+- **USSR (Eastern Bloc):** Communist, authoritarian.
+- **Military Blocs:** NATO (1949, led by USA) vs. Warsaw Pact (1955, led by USSR).
+- **Proxy Wars:** Fought indirectly in Korea (1950-53) and Vietnam (1955-75).
+- **Key Confrontations:** *Berlin Blockade (1948):* Soviets blocked West Berlin. Allied airlift broke the blockade. Berlin Wall built in 1961.
+- *Cuban Missile Crisis (1962):* Closest the world came to nuclear war. USSR placed missiles in Cuba; USA imposed naval blockade. Resolved when USSR withdrew missiles.
+- **Collapse:** Berlin Wall fell in 1989. The **Soviet Union (USSR) disintegrated** in December 1991, ending the Cold War.
+
+## 2. Decolonisation
+- The decline of European economic power post-WWII led to independence movements across Asia and Africa. India (1947), Indonesia (1949), Ghana (1957), Algeria (1962).
+- **Non-Aligned Movement (NAM):** Formed in Belgrade (1961) by leaders like Nehru (India), Nasser (Egypt), Tito (Yugoslavia), Sukarno (Indonesia), and Nkrumah (Ghana) to remain neutral and avoid joining either US or Soviet blocs.
+
+## High-Yield Formulas & Facts
+- NATO: 1949 | Warsaw Pact: 1955 | Cuban Missile Crisis: 1962 | Collapse of USSR: 1991
+
+
+--- Operational Commands of Services ---
+Subject: Military GK & Aptitude
+Chapter: Command Structures & Ranks
+
+## 1. Indian Army Commands (7)
+- Northern Command: Udhampur (J&K)
+- Western Command: Chandimandir (Haryana)
+- Eastern Command: Kolkata (West Bengal)
+- Southern Command: Pune (Maharashtra)
+- Central Command: Lucknow (Uttar Pradesh)
+- South Western Command: Jaipur (Rajasthan)
+- Army Training Command (ARTRAC): Shimla (Himachal Pradesh)
+
+## 2. Indian Air Force Commands (7)
+- Western Air Command: New Delhi
+- Eastern Air Command: Shillong (Meghalaya)
+- Central Air Command: Prayagraj (Uttar Pradesh)
+- Southern Air Command: Thiruvananthapuram (Kerala)
+- South Western Air Command: Gandhinagar (Gujarat)
+- Training Command: Bengaluru (Karnataka)
+- Maintenance Command: Nagpur (Maharashtra)
+
+## 3. Indian Navy Commands (3)
+- Western Naval Command: Mumbai (Maharashtra)
+- Eastern Naval Command: Visakhapatnam (Andhra Pradesh)
+- Southern Naval Command (Training Command): Kochi (Kerala)
+
+## 4. Tri-Services Unified Command
+- Andaman and Nicobar Command: Port Blair (Joint Command of Army, Navy, Air Force).
+- Strategic Forces Command (SFC): Handles India's tactical nuclear weapons stockpile.
+
+## High-Yield Formulas & Facts
+- Army Commands: 7 (Training at Shimla)
+- Air Force Commands: 7 (Maintenance at Nagpur)
+- Navy Commands: 3
+
+
+--- Complex Numbers ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Algebra & Complex Numbers
+
+## 1. Polar Form and Modulus
+A complex number z = x + iy has a modulus |z| = sqrt{x^2 + y^2}.
+- Argument: 	heta = an^{-1}(y/x)
+- De Moivre's Theorem: (cos heta + isin heta)^n = cos n	heta + isin n	heta
+
+## High-Yield Formulas & Facts
+- <li><strong>Cube roots of unity:</strong> 1, omega, omega^2 where 1 + omega + omega^2 = 0 and omega^3 = 1</li>
+
+
+--- Constitutional & Non-Constitutional Bodies ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Advanced Polity Structures & Bodies
+
+## High-Yield Formulas & Facts
+- Constitutional: Art 324 (EC), Art 280 (FC), Art 148 (CAG)
+
+
+--- Constitutional Development ---
+Subject: History (CDS/NDA)
+Chapter: 5. Modern India (Highest Priority)
+
+## 📜 Constitutional Development
+The evolution of India's administrative and legal framework through British parliamentary interventions.
+
+## 1. Company Regulation Acts
+- Regulating Act of 1773: First step by Parliament to supervise EIC. Governor of Bengal became GG of Bengal. Supreme Court at Calcutta set up.
+- Pitts India Act of 1784: Created a **Board of Control** in London to manage political affairs, establishing dual control.
+- Charter Act of 1813: Ended EIC's trade monopoly in India (except for tea and China trade). Allowed Christian missionaries.
+- Charter Act of 1833: Finished all commercial activities of EIC. GG of Bengal became **GG of India** (Bentinck).
+- Charter Act of 1853: Separated legislative and executive functions of GG's Council. Opened Civil Services to Indians.
+
+## 2. Crown Administration Acts
+- Government of India Act 1858: Abolished EIC. Indian administration transferred to **British Crown**. Created Secretary of State for India.
+- Indian Councils Act 1909 (Morley-Minto Reforms): Introduced **Separate Electorate for Muslims** (legalized communalism). Satyendra Prasad Sinha joined Viceroy's Council.
+- Government of India Act 1919 (Montagu-Chelmsford Reforms): Introduced **Dyarchy in Provinces** (Transferred/Reserved subjects). Bicameral legislature at Centre.
+- Government of India Act 1935: Proposed All-India Federation (never formed). Abolished dyarchy in provinces, introduced **Provincial Autonomy**. Set up Federal Court, RBI, and divided subjects into Federal, Provincial, and Concurrent lists.
+
+## High-Yield Formulas & Facts
+- 1773: Supreme Court | 1833: GG of India | 1909: Separate Electorate | 1919: Provincial Dyarchy | 1935: Provincial Autonomy
+
+
+--- Dance & Music ---
+Subject: History (CDS/NDA)
+Chapter: 7. Art, Culture & Heritage
+
+## 💃 Dance & Music
+The classical and folk performance heritage of India, preserving historical myths and regional identities.
+
+## 1. Eight Classical Dances
+
+Table Data:
+Dance | State | Key Characteristics
+Bharatnatyam | Tamil Nadu | Oldest classical dance. Devadasi origin. Solo performance, fire d
+Kathak | Uttar Pradesh | Storytelling, fast spins (*chakkars*), complex footwork. Nawab Wa
+Kathakali | Kerala | Dance-drama. Complex face makeup (Green: virtue; Red/Black: evil)
+Mohiniyattam | Kerala | Solo feminine dance. Story of Mohini (enchantress). White/Gold sa
+Kuchipudi | Andhra Pradesh | Tarangam (dancing on brass plates). Dancers sing and act.
+Odissi | Odisha | **Tribhanga posture** (three bends of body). Worshipped in temple
+Manipuri | Manipur | Vaishnavite themes (Raslila). Cylindrical skirt. Soft, flowing mo
+Sattriya | Assam | Introduced by **Srimanta Sankardev** in Vaishnavite monasteries.
+
+## 2. Classical Music Systems
+- Hindustani Music (North India): Heavy Persian/Central Asian influence. Divided into *Gharanas* (schools). Major styles: *Dhrupad* (dhruva/fixed, older), *Khayal* (imagination, popular).
+- Carnatic Music (South India): Purely indigenous system. Structured format based on *Kriti* (composition), *Raga* (melody), and *Tala* (rhythm). Trinity: Tyagaraja, Muthuswami Dikshitar, Syama Sastri.
+
+## High-Yield Formulas & Facts
+- 8 Classical Dances: Bharatnatyam (TN), Kathak (UP), Kathakali/Mohiniyattam (KL), Kuchipudi (AP), Odissi (OR), Manipuri (MN), Sattriya (AS)
+
+
+--- Data Interpretation: Tables, Bar & Pie Charts ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Statistics & Probability
+
+## High-Yield Formulas & Facts
+- DI Formulas
+
+
+--- Dating Systems ---
+Subject: History (CDS/NDA)
+Chapter: 1. Historiography & Historical Foundations
+
+## 📅 Dating Systems and Eras
+Different calendars and dating conventions have been used throughout Indian history to record time.
+
+## 1. General Terminology
+- BC (Before Christ) / BCE (Before Common Era): Counted backward. Year 500 BCE is older than 300 BCE.
+- AD (Anno Domini) / CE (Common Era): Counted forward from the birth of Christ.
+
+## 2. Key Historical Eras of India
+
+Table Data:
+Era Name | Start Date | Founder / Context | Significance
+Vikrama Era | 57 BCE | King Vikramaditya of Ujjain | Commemorated victory over Saka invaders.
+Saka Era | 78 CE | Kushana King Kanishka | Adopted as the **National Calendar of India** in 1957. Starts on 
+Gupta Era | 319 - 320 CE | Chandragupta I | Marks his accession to the throne and rise of Gupta power.
+Harsha Era | 606 CE | Harshavardhana of Kanauj | Commemorated his coronation.
+
+## High-Yield Formulas & Facts
+- Vikrama Era: 57 BCE | Saka Era: 78 CE (National Calendar) | Gupta Era: 319 CE
+
+
+--- Defence Organisations, Weapons & Agreements ---
+Subject: Military GK & Aptitude
+Chapter: Command Structures & Ranks
+
+## High-Yield Formulas & Facts
+- Organisations: DRDO (1958), HAL (1940), Border Roads (BRO - 1960)
+- Weapons: INS Vikrant (IAC-1), Tejas (LCA), Arjun (MBT)
+- Agreements: LEMOA (logistics), COMCASA (secure comms), BECA (geospatial), GSOMIA
+
+
+--- Delhi Sultanate ---
+Subject: History (CDS/NDA)
+Chapter: 4. Medieval India
+
+## ⚔️ The Delhi Sultanate (1206 - 1526)
+Five successive dynasties ruled Delhi before the Mughal era. Mnemonic: S ome K ings T ravel S lowly L ately.
+
+## 1. The Dynasties
+- **Firoz Shah Tughlaq (1351-1388):** Built canals for irrigation. Set up public welfare departments: *Diwan-i-Khairat* (charity), *Diwan-i-Bundagan* (slaves). Founded cities like Firozabad and Hissar.
+- Sayyid Dynasty (1414-1451): Founded by Khizr Khan.
+- Lodi Dynasty (1451-1526): Founded by Bahlul Lodi. Sikandar Lodi founded Agra (1504). **Ibrahim Lodi** was defeated by Babur in the **1st Battle of Panipat (1526)**, ending the Sultanate.
+
+## High-Yield Formulas & Facts
+- Chahalgani: Iltutmish | Market Reforms: Alauddin Khilji | Capital shift: Muhammad bin Tughlaq
+
+
+--- Differentiation Rules ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Calculus
+
+## 1. General Differentiation Rules
+- Product Rule : d/dx(u·v) = u'v + uv'
+- Quotient Rule : d/dx(u/v) = (u'v - uv') / v²
+- Chain Rule : d/dx(f(g(x))) = f'(g(x)) · g'(x)
+
+## 2. Derivatives of Algebraic & Exponential Functions
+- d/dx(xⁿ) = n·xⁿ⁻¹
+- d/dx(eˣ) = eˣ
+- d/dx(aˣ) = aˣ ln a (a > 0)
+- d/dx(ln x) = 1/x
+- d/dx(logₐ x) = 1 / (x ln a)
+
+## 3. Trigonometric Derivatives
+- d/dx(sin x) = cos x
+- d/dx(cos x) = -sin x
+- d/dx(tan x) = sec² x
+- d/dx(sec x) = sec x tan x
+- d/dx(cosec x) = -cosec x cot x
+- d/dx(cot x) = -cosec² x
+
+## 4. Inverse Trigonometric Derivatives
+- d/dx(sin⁻¹ x) = 1 / √(1 - x²)
+- d/dx(cos⁻¹ x) = -1 / √(1 - x²)
+- d/dx(tan⁻¹ x) = 1 / (1 + x²)
+- d/dx(cot⁻¹ x) = -1 / (1 + x²)
+- d/dx(sec⁻¹ x) = 1 / (|x|√(x² - 1))
+- d/dx(cosec⁻¹ x) = -1 / (|x|√(x² - 1))
+
+## High-Yield Formulas & Facts
+- (uv)' = u'v + uv'
+- (u/v)' = (u'v - uv')/v²
+- d/dx(aˣ) = aˣ·lna
+- d/dx(sin⁻¹x) = 1/√(1-x²)
+- d/dx(tan⁻¹x) = 1/(1+x²)
+
+
+--- Human Diseases & Pathogens ---
+Subject: Biology (NDA/CDS)
+Chapter: Health, Diseases & Nutrition
+
+## 1. Infectious Diseases Classification
+- Bacterial Diseases : Tuberculosis (TB): Caused by Mycobacterium tuberculosis . Prevented by BCG vaccine.
+- Typhoid: Caused by Salmonella typhi . Diagnosed by **Widal Test**.
+- Cholera: Caused by Vibrio cholerae (water-borne).
+- Viral Diseases : Dengue: Caused by Flavivirus. Spread by Aedes aegypti mosquito. Characterized by severe drop in platelet count.
+- Polio: Caused by Poliovirus. Vaccine developed by Jonas Salk (injected) and Albert Sabin (oral).
+- AIDS: Caused by HIV (Retrovirus). Diagnosed by ELISA Test .
+- Protozoan Diseases : Malaria: Caused by Plasmodium . Spread by female **Anopheles** mosquito vector. Quinine (from Cinchona bark) is used as treatment.
+- Kala-azar (Leishmaniasis): Spread by **Sandfly** vector.
+
+## 2. Nutritional Deficiency Diseases
+- Vitamins & Minerals Deficiency Chart : Vitamin / Chemical Common Name Deficiency Disease Vitamin A Retinol Night Blindness / Xerophthalmia Vitamin B1 Thiamine Beriberi Vitamin C Ascorbic Acid Scurvy (Bleeding gums) Vitamin D Calciferol Rickets (bow legs in kids)
+
+Table Data:
+Vitamin / Chemical | Common Name | Deficiency Disease
+Vitamin A | Retinol | Night Blindness / Xerophthalmia
+Vitamin B1 | Thiamine | Beriberi
+Vitamin C | Ascorbic Acid | Scurvy (Bleeding gums)
+Vitamin D | Calciferol | Rickets (bow legs in kids)
+
+## High-Yield Formulas & Facts
+- Typhoid: Widal Test
+- Malaria: Female Anopheles vector
+- Dengue: Aedes vector
+- Vit A (Retinol) -> Night Blindness
+- Vit B1 (Thiamine) -> Beriberi
+- Vit C (Ascorbic Acid) -> Scurvy
+- Vit D (Calciferol) -> Rickets
+
+
+--- DPSP & Fundamental Duties (Art 36-51A) ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Constitutional Framework
+
+## 1. Directive Principles of State Policy (Part IV)
+Borrowed from Ireland. Non-justiciable but fundamental in governance. Classified into three types:
+- Socialistic Principles : Article 38 (promote welfare, minimize inequalities), Article 39 (equal pay for equal work, distribute material resources), Article 39A (free legal aid).
+- Gandhian Principles : Article 40 (organize village panchayats), Article 43 (promote cottage industries), Article 46 (promote educational/economic interests of SCs, STs), Article 47 (prohibit intoxicating drinks/drugs).
+- Liberal-Intellectual Principles : Article 44 (Uniform Civil Code), Article 45 (early childhood care/education), Article 48 (organize agriculture/animal husbandry, prohibit slaughter), Article 50 (separate judiciary from executive), Article 51 (promote international peace).
+
+## 2. Fundamental Duties (Part IV-A)
+- Added by the **42nd Amendment Act (1976)** on the recommendation of the **Swaran Singh Committee** during Emergency.
+- Originally 10 duties, the **11th duty** was added by the **86th Amendment Act (2002)** (duty of parent/guardian to provide education to child aged 6-14).
+- Borrowed from USSR. Non-justiciable. Article 51A contains all 11 duties.
+
+## High-Yield Formulas & Facts
+- DPSP: Part IV (Art 36-51) | Borrowed from Ireland
+- Fundamental Duties: Part IV-A (Art 51A) | Swaran Singh Committee
+- 11th Duty: 86th Amendment (2002) for education 6-14 years.
+
+
+--- Early Medieval India ---
+Subject: History (CDS/NDA)
+Chapter: 4. Medieval India
+
+## 🛡️ Early Medieval India
+An era of regional fragmentation marked by the Tripartite Struggle and the rise of Rajput kingdoms.
+
+## 1. Tripartite Struggle (8th - 10th CE)
+A century-long struggle between three major empires to control **Kannauj** (symbol of sovereignty in North India, situated in the fertile Gangetic plains):
+- The Palas of Bengal: Founded by Gopala. Dharmapala founded **Vikramashila University** and revived Nalanda. Followed Mahayana Buddhism.
+- The Gurjara-Pratiharas: Ruled Western India/Rajasthan. Mihira Bhoja was the greatest ruler.
+- The Rashtrakutas: Ruled Deccan. Founded by Dantidurga. **Krishna I** carved the monolithic **Kailash Temple at Ellora (Cave 16)**. Patronised Amoghavarsha (wrote *Kavirajamarga*).
+
+## High-Yield Formulas & Facts
+- Vikramashila Univ: Dharmapala | Ellora Kailash Temple: Krishna I (Rashtrakuta)
+
+
+--- Earth Structure & Atmosphere ---
+Subject: Geography (CDS/NDA)
+Chapter: Physical & World Geography
+
+## High-Yield Formulas & Facts
+- Lapse Rate = 6.5°C/km
+
+
+--- Government Budget, GST & Fiscal Policy ---
+Subject: Economics (CDS/NDA)
+Chapter: Budgets, Trade & Economic Reforms
+
+## High-Yield Formulas & Facts
+- FD = Total Exp - Total Revenue (excl borrowings)
+- GST: 101st Amendment (Jul 2017)
+- 4 slabs: 5%, 12%, 18%, 28%
+- FRBM Act 2003
+
+
+--- Core Economic Concepts & Sectors ---
+Subject: Economics (CDS/NDA)
+Chapter: Introduction to Economics
+
+## 1. Sectors of the Economy
+- Primary Sector : Direct extraction of natural resources. Examples: Agriculture, forestry, mining, fishing.
+- Secondary Sector : Manufacturing and processing. Examples: Factories, construction, car assembly.
+- Tertiary Sector : Service sector. Examples: Banking, IT, education, tourism, military.
+- Quaternary Sector : Knowledge and research. Examples: R&D, information management.
+
+## 2. National Income Metrics
+- GDP (Gross Domestic Product) : Total monetary value of all finished goods and services produced within a country's borders in a specific time period.
+- GNP (Gross National Product) : GDP + Net Factor Income from Abroad (NFIA). Measures output of citizens globally.
+- Real vs Nominal GDP : Nominal is calculated at current market prices, whereas Real is adjusted for inflation (constant base year prices).
+
+## High-Yield Formulas & Facts
+- GNP = GDP + NFIA
+- Primary = Agriculture | Secondary = Industry | Tertiary = Services
+- Real GDP = Nominal GDP / GDP Deflator
+
+
+--- Poverty, Employment & Agriculture ---
+Subject: Economics (CDS/NDA)
+Chapter: Introduction to Economics
+
+## High-Yield Formulas & Facts
+- Poverty lines: Tendulkar (2009), Rangarajan (2014)
+- Unemployment: Disguised (zero marginal productivity - agriculture), Seasonal, Structural
+- Crops: Kharif (monsoon), Rabi (winter), Zaid (summer)
+- Green Rev: 1966-67, M.S. Swaminathan
+
+
+--- LPG Reforms, NITI Aayog & Financial Institutions ---
+Subject: Economics (CDS/NDA)
+Chapter: Budgets, Trade & Economic Reforms
+
+## High-Yield Formulas & Facts
+- 1991 LPG: Liberalization, Privatization, Globalization
+- NITI Aayog: Replaced Planning Commission (2015)
+- IBC 2016: 330-day resolution
+- SEBI 1992
+
+
+--- Trade Policy & Balance of Payments ---
+Subject: Economics (CDS/NDA)
+Chapter: Budgets, Trade & Economic Reforms
+
+## High-Yield Formulas & Facts
+- BoP = Current A/C + Capital A/C
+- CAD: India typically deficit (oil imports)
+- FDI: Long-term, FPI: Short-term
+- WTO: Founded 1995
+
+
+--- Economic Impact of British Rule ---
+Subject: History (CDS/NDA)
+Chapter: 5. Modern India (Highest Priority)
+
+## 💸 Economic Impact of British Rule
+Colonial policies transformed India from a major exporter of finished goods into a supplier of raw materials and a market for British manufactures.
+
+## 1. Three Land Revenue Systems
+- Permanent Settlement (Zamindari System): Lord Cornwallis (1793) in Bengal, Bihar, Odisha. Zamindars became owners of land. Tax rate fixed permanently; if not paid by sunset on due date, land was auctioned (**Sunset Law**). Extremely exploitative.
+- Ryotwari System: Thomas Munro and Alexander Reed (1820) in Madras, Bombay, Assam. Settlement made directly with the peasant (Ryot). Tax rate fixed at 50-60%, revised periodically.
+- Mahalwari System: Holt Mackenzie (1822) in Punjab, NW Province, Central India. Settlement made with the village community (Mahal). Individual peasants shared responsibility.
+
+## 2. High-Yield Economic Phenomena
+- De-industrialization: Heavy tariffs on Indian textiles in Britain, coupled with duty-free entry of British machine-made goods into India, destroyed India's famous handloom industries, leading to mass "ruralisation".
+- Drain of Wealth Theory: Pioneered by **Dadabhai Naoroji** in his book *Poverty and Un-British Rule in India* (1867). He demonstrated how Indian tax revenues and resources were sent to Britain (via home charges, military expenses, profits) without any equivalent material return, impoverishing India.
+- Commercialisation of Agriculture: Forced cultivation of cash crops (Indigo, Opium, Tea, Cotton) instead of foodgrains, leading to frequent, devastating famines (e.g., Great Bengal Famine of 1943).
+
+## High-Yield Formulas & Facts
+- Permanent Settlement: Cornwallis (Bengal) | Ryotwari: Munro (Madras) | Mahalwari: Mackenzie (North) | Drain Theory: Naoroji
+
+
+--- Wildlife Protection & Conservation Projects ---
+Subject: Environment & Ecology
+Chapter: Biodiversity & Wildlife Conservation
+
+## High-Yield Formulas & Facts
+- Project Tiger: 1973, 53 reserves, ~3000+ tigers
+- Project Elephant: 1992, 32 reserves
+- Project Cheetah: 2022, Kuno NP
+- 106 National Parks
+- 85+ Ramsar Sites
+
+
+--- Biodiversity Hotspots & Biosphere Reserves ---
+Subject: Environment & Ecology
+Chapter: Biodiversity & Wildlife Conservation
+
+## High-Yield Formulas & Facts
+- 36 global hotspots, 4 in India
+- Hotspot criteria: 1500 endemic plants + 70% habitat lost
+- 18 Biosphere Reserves in India
+
+
+--- Environmental Legislation & EIA ---
+Subject: Environment & Ecology
+Chapter: Climate, Laws & Renewable Energy
+
+## High-Yield Formulas & Facts
+- EPA 1986: Post-Bhopal umbrella law
+- Forest Conservation Act 1980
+- NGT Act 2010
+- EIA: Screening→Scoping→Public Consultation→Appraisal
+
+
+--- Pollution Control & Clean India Missions ---
+Subject: Environment & Ecology
+Chapter: Climate, Laws & Renewable Energy
+
+## High-Yield Formulas & Facts
+- Namami Gange: ₹20,000 Cr
+- NCAP: 40% PM reduction by 2025-26
+- BS-VI: 2020 (leapfrogged BS-V)
+- SUP Ban: 2022
+
+
+--- Renewable Energy & Green Initiatives ---
+Subject: Environment & Ecology
+Chapter: Climate, Laws & Renewable Energy
+
+## High-Yield Formulas & Facts
+- Target: 500 GW non-fossil by 2030
+- ISA: India + France (Gurugram HQ)
+- Green Hydrogen: 5 MMT by 2030
+- E20: 20% ethanol blending
+- FAME-II: EV subsidies
+
+
+--- Species in News & IUCN Red List ---
+Subject: Environment & Ecology
+Chapter: Biodiversity & Wildlife Conservation
+
+## High-Yield Formulas & Facts
+- IUCN: EX>EW>CR>EN>VU>NT>LC
+- GIB: Critically Endangered (~150)
+- Asiatic Lion: Gir only (~674)
+- Gangetic Dolphin: National Aquatic Animal
+
+
+--- Climate Change Treaties & India's NDCs ---
+Subject: Environment & Ecology
+Chapter: Climate, Laws & Renewable Energy
+
+## High-Yield Formulas & Facts
+- Paris Agreement (COP21, 2015): Limit to 1.5-2°C
+- Kyoto Protocol 1997: Binding for Annex I
+- Montreal Protocol 1987: Ozone
+- India Net Zero: 2070
+- Panchamrit: 500 GW RE by 2030
+
+
+--- Environmental Chemistry & Pollution ---
+Subject: Chemistry (NDA/CDS)
+Chapter: Everyday & Environmental Chemistry
+
+## High-Yield Formulas & Facts
+- Acid rain: pH < 5.6 (SO2 + NO2 -> H2SO4 + HNO3)
+- Smog: Classical (cool/humid) vs Photochemical (warm/sunny, PAN & Ozone)
+- Greenhouse: CO2, CH4, N2O, water vapor
+- BOD: Biochemical Oxygen Demand (higher BOD = more polluted water)
+
+
+--- Spotting Errors ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: UPSC Exam Practice Patterns
+
+## High-Yield Formulas & Facts
+- Error areas: Tense, article, preposition, subject-verb, pronoun, modifiers, conjunction, redundancy, parallelism
+
+
+--- European Arrival ---
+Subject: History (CDS/NDA)
+Chapter: 5. Modern India (Highest Priority)
+
+## 🚢 European Entry and British Expansion
+The search for spices led European powers to establish trading outposts in India, which eventually turned into territorial ambitions.
+
+## 1. Arrival Sequence (PEDDF)
+- **Portuguese (1498):** Vasco da Gama landed at Calicut. Francisco de Almeida (Blue Water Policy). Alfonso de Albuquerque captured Goa (1510) from Bijapur, making it the capital. Introduced printing press (1556) and tobacco.
+- **Dutch (1602):** First factory at Masulipatnam (1605). Displaced by British after the **Battle of Bedara (1759)**.
+- **English (1600):** Queen Elizabeth granted charter. Hawkins (1608) and Roe (1615) secured trading rights from Jahangir. First factory at Surat (1613).
+- **Danish (1616):** Settled at Tranquebar (TN) and Serampore (Bengal). Sold all holdings to British in 1845.
+- **French (1664):** Founded by Colbert under Louis XIV. First factory at Surat (1667). François Martin founded Pondicherry (1674). Carnatic Wars (Anglo-French rivalry) crushed French power, culminating in their defeat at the **Battle of Wandiwash (1760)**.
+
+## 2. Foundation of British Rule
+- Battle of Plassey (23 June 1757): Robert Clive defeated Nawab Siraj-ud-Daulah of Bengal. Clive bribed army chief **Mir Jafar**. Established EIC as a political force.
+- Battle of Buxar (22 Oct 1764): Hector Munro defeated joint forces of Nawab Mir Qasim of Bengal, Nawab Shuja-ud-Daulah of Awadh, and Mughal Emperor Shah Alam II. Led to **Treaty of Allahabad (1765)** where Clive secured **Diwani Rights** (tax collection rights) of Bengal, Bihar, and Odisha, starting the Dual Government.
+
+## High-Yield Formulas & Facts
+- Arrival: Portuguese (1498) -> Dutch (1602) -> English -> French (1664)
+- Goa Captured: 1510 (Albuquerque)
+
+
+--- IMF, WTO & Balance of Payments ---
+Subject: Economics (CDS/NDA)
+Chapter: Budgets, Trade & Economic Reforms
+
+## High-Yield Formulas & Facts
+- IMF: BoP crisis support
+- WTO: Replaced GATT (1995)
+- BoP: Current Account (deficit in India) + Capital Account
+- Forex: FCA + Gold + SDR (Paper Gold) + RTP
+
+
+--- Fill in the Blanks & Cloze Test ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: UPSC Exam Practice Patterns
+
+## High-Yield Formulas & Facts
+- Asked from: Articles, prepositions, verb forms, tenses, vocabulary, idiomatic usage, contextual logic
+
+
+--- Economic Planning & Five-Year Plans ---
+Subject: Economics (CDS/NDA)
+Chapter: Budgets, Trade & Economic Reforms
+
+## High-Yield Formulas & Facts
+- 1st Plan (1951-56): Harrod-Domar (agriculture)
+- 2nd Plan (1956-61): Mahalanobis (heavy industry)
+- 3rd Plan (1961-66): Gadgil (wars)
+- 5th Plan (1974-78): Garibi Hatao
+- 12th Plan (2012-17): last plan
+- NITI Aayog: 1 Jan 2015
+
+
+--- Freedom Movement ---
+Subject: History (CDS/NDA)
+Chapter: 5. Modern India (Highest Priority)
+
+## ⚔️ Indian National Movement
+The organized struggle for independence from British rule, divided into Moderate, Extremist, and Gandhian phases.
+
+## 1. Early Phases
+- Indian National Congress (INC) Founded (1885): Founded by retired civil servant **A.O. Hume**. First session held at Bombay (W.C. Bonnerjee President, attended by 72 delegates).
+- Moderate Phase (1885-1905): Led by Naoroji, Gokhale, Banerjea. Believed in constitutional methods (Triple Ps: Prayers, Petitions, Protests).
+- Extremist Phase (1905-1919): Led by **Lal-Bal-Pal** (Lajpat Rai, Tilak, Pal) and Aurobindo Ghosh. Preached self-reliance, boycott, and passive resistance. *Partition of Bengal (1905):* Announced by Lord Curzon. Triggered the **Swadeshi and Boycott Movement**.
+- *Surat Split (1907):* Congress split into Moderates and Extremists over methods.
+- *Lucknow Pact (1916):* Moderates/Extremists reunited. INC and Muslim League signed a joint pact.
+- *Home Rule League (1916):* Tilak and Annie Besant started separate leagues demanding home rule.
+
+## 2. Gandhian Era (1919 - 1947)
+- Gandhi returned from South Africa on **9 January 1915** (celebrated as Pravasi Bharatiya Divas).
+- Early Satyagrahas: Champaran (Bihar, 1917 - first civil disobedience against Indigo Tinkathia system), Ahmedabad Mill Strike (1918 - first hunger strike), Kheda (1918 - first non-cooperation). Mnemonic: **CAK** (Champaran, Ahmedabad, Kheda).
+- Rowlatt Act & Jallianwala Bagh (1919): Rowlatt Act allowed detention without trial. On 13 April 1919, General Dyer opened fire on a peaceful assembly at Jallianwala Bagh, Amritsar. Tagore renounced his Knighthood.
+- Non-Cooperation Movement (1920-1922): Launched alongside Khilafat movement. Called off by Gandhi in Feb 1922 after the **Chauri Chaura incident** (where a mob burned a police station, killing 22 policemen).
+- Quit India Movement (1942): Launched after the failure of the Cripps Mission. Gandhi gave the call **"Do or Die"** at Gowalia Tank, Bombay on 8 August 1942. Leaders were arrested overnight under *Operation Zero Hour*.
+
+## High-Yield Formulas & Facts
+- INC Founded: 1885 | Dandi March: March 12-April 6, 1930 | Quit India: Aug 8, 1942 | Chauri Chaura: Feb 1922
+
+
+--- Fundamental Rights (Art 12-35) ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Constitutional Framework
+
+## 1. Classification of Fundamental Rights
+Part III of the Constitution is called the **Magna Carta of India**.
+- Right to Equality (Articles 14-18) : Art 14: Equality before law & Equal protection of laws.
+- Art 15: Prohibition of discrimination.
+- Art 16: Equality of opportunity in public employment.
+- Art 17: Abolition of Untouchability.
+- Art 18: Abolition of Titles.
+- Right to Freedom (Articles 19-22) : Art 19: Guarantees 6 democratic freedoms (speech, assembly, association, movement, residence, profession).
+- Art 20: Protection in respect of conviction for offences (no ex-post facto law, no double jeopardy, no self-incrimination).
+- Art 21: Protection of Life and Personal Liberty.
+
+## 2. The Five Prerogative Writs
+- Habeas Corpus ('To have the body of'): Issued to release a person unlawfully detained. Can be issued against both public and private entities.
+- Mandamus ('We command'): Issued to direct a public authority to perform a duty they have failed or refused to do. Cannot be issued against the President, Governors, or private individuals.
+- Prohibition ('To forbid'): Issued by a higher court to a lower court or quasi-judicial body to prevent it from exceeding its jurisdiction. (Preventive only).
+- Certiorari ('To be certified'): Issued to quash the order of a lower court or transfer case to itself. (Preventive and Curative).
+- Quo Warranto ('By what authority'): Issued to inquire into the legality of the claim of a person to a public office, preventing illegal usurpation.
+
+## High-Yield Formulas & Facts
+- Art 19 -> 6 democratic freedoms.
+- Art 21 -> Protection of Life and Liberty.
+- Art 32 -> Supreme Court Writs.
+- Art 226 -> High Court Writs.
+
+
+--- Geopolitical Flashpoints & Indo-Pacific ---
+Subject: Geography (CDS/NDA)
+Chapter: Industries & Geopolitics
+
+## High-Yield Formulas & Facts
+- LAC: ~3488 km (3 sectors)
+- McMahon Line: 1914
+- SAGAR: Security And Growth for All in the Region
+- Siliguri Corridor: 22 km
+
+
+--- Major Industries & Industrial Corridors of India ---
+Subject: Geography (CDS/NDA)
+Chapter: Industries & Geopolitics
+
+## High-Yield Formulas & Facts
+- TISCO 1907: First Steel Plant
+- DMIC: Delhi-Mumbai Industrial Corridor
+- Chennai = Detroit of India
+- Bengaluru = Silicon Valley of India
+
+
+--- Geomorphology: Rocks, Plate Tectonics & Volcanism ---
+Subject: Geography (CDS/NDA)
+Chapter: Physical & World Geography
+
+## High-Yield Formulas & Facts
+- Seismic Waves: P-waves, S-waves
+
+
+--- Executives: PM, CM & Governor ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Union Government
+
+## High-Yield Formulas & Facts
+- Real: PM (Union), CM (State)
+- Nominal: President (Union), Governor (State)
+- Pardons: President (Art 72 - court martial & death sentence), Governor (Art 161 - no court martial/death sentence pardon)
+
+
+--- Emergency Provisions ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Advanced Polity Structures & Bodies
+
+## High-Yield Formulas & Facts
+- Part XVIII, Articles 352-360
+- National: Art 352 (approved 1 month, special majority)
+- State (President's Rule): Art 356 & 365 (approved 2 months)
+- Financial: Art 360 (approved 2 months, never declared)
+- FR Impact: Art 20 & 21 never suspended (Art 359)
+
+
+--- Governor-Generals & Viceroys ---
+Subject: History (CDS/NDA)
+Chapter: 5. Modern India (Highest Priority)
+
+## 🎩 Governor-Generals & Viceroys
+The administrative heads of British rule in India who designed expansionist and reformist policies.
+
+## 1. Governor-Generals of Bengal (1773 - 1833)
+- Warren Hastings (1773-1785): First GG of Bengal. Ended Dual Government. Established civil/criminal courts. Impeached in London (later acquitted).
+- Lord Cornwallis (1786-1793): Father of Civil Services in India. Introduced **Permanent Settlement (Zamindari)** in Bengal (1793). Created Cornwallis Code (separating judiciary and executive).
+- Lord Wellesley (1798-1805): Introduced **Subsidiary Alliance System** (Hyderabad first to sign in 1798). Called himself "Bengal Tiger".
+
+## 2. Governor-Generals of India (1833 - 1858)
+- Lord William Bentinck (1828-1835): First GG of India. Social Reforms: **Abolished Sati (1829, Regulation XVII)** with help of Raja Ram Mohan Roy. Suppressed Thuggee cult. Introduced English as medium of higher education (Macaulay's Minute 1835).
+
+## 3. Viceroys of India (1858 - 1947)
+- Lord Canning (1856-1862): First Viceroy. Suppressed 1857 Revolt. Ended East India Company rule (GoI Act 1858). Abolished Doctrine of Lapse. Introduced portfolio system.
+- Lord Lytton (1876-1880): Vernacular Press Act (1878 - censored local papers), Arms Act (1878). Grand Delhi Durbar (1877) amid famine.
+- Lord Ripon (1880-1884): Liberal Viceroy. Repealed Vernacular Press Act. Father of **Local Self-Government** in India. Passed first Factory Act (1881). Ilbert Bill Controversy (proposed allowing Indian judges to try Europeans). First synchronous census (1881).
+- Lord Curzon (1899-1905): Partitioned Bengal (1905) on communal lines, sparking Swadeshi movement. Established Archaeological Survey of India.
+- Lord Mountbatten (1947-1948): Last Viceroy. Planned partition (3rd June Plan). First GG of independent India.
+
+## High-Yield Formulas & Facts
+- Sati Abolished: 1829 (Bentinck) | Railways: 1853 (Dalhousie) | Local Self-Gov: Ripon | Bengal Partition: 1905 (Curzon)
+
+
+--- Gupta Period ---
+Subject: History (CDS/NDA)
+Chapter: 3. Ancient India
+
+## 👑 The Gupta Empire (Golden Age: 320 - 550 CE)
+An era of political unification, economic prosperity, and unmatched achievements in science, literature, and art.
+
+## 1. Key Rulers & Expansion
+- Chandragupta I (319 - 335 CE): First imperial ruler. Started the Gupta Era (319 CE). Married Licchavi princess Kumaradevi.
+- Samudragupta (335 - 380 CE): Called **"Napoleon of India"** by V.A. Smith due to his military campaigns. Military conquests recorded in the **Allahabad Pillar Inscription (Prayag Prasasti)** composed by his court poet **Harishena**. Performed Ashvamedha sacrifice. Issued gold coins depicting him playing the Veena.
+- Chandragupta II (Vikramaditya: 380 - 415 CE): Defeated Sakas, annexed Western India. Court adorned by **Navaratnas** (Nine Gems, including **Kalidasa** and **Varahamihira**). Chinese pilgrim **Fa-Hien** visited India during his reign.
+- Kumargupta: Founded the famous **Nalanda University**.
+- Skandagupta: Successfully repelled the invading **Hunas** (White Huns).
+
+## 2. Science, Literature & Golden Age Debate
+- Literature: Kalidasa (plays: *Abhijnanasakuntalam*, *Malavikagnimitram*; poems: *Meghaduta*, *Raghuvamsa*). Shudraka (*Mrichchakatikam*). Vishakhadatta (*Devichandraguptam*, *Mudrarakshasa*).
+- Science & Math: **Aryabhata** (wrote *Aryabhatiya*, calculated value of Pi, explained eclipses, proved Earth rotates on axis). **Varahamihira** (wrote *Brihat Samhita*, *Panchasiddhantika*). **Dhanvantari** (medicine).
+- The "Golden Age" Debate: While literature and science peaked, some historians argue that feudalism increased, foreign trade declined, and untouchability grew, questioning the "Golden" tag for the masses.
+
+## High-Yield Formulas & Facts
+- Napoleon of India: Samudragupta | Allahabad Prasasti: Harishena | Fa-Hien: Chandragupta II
+
+
+--- Heritage Sites ---
+Subject: History (CDS/NDA)
+Chapter: 7. Art, Culture & Heritage
+
+## 🏛️ UNESCO World Heritage Sites in India
+India is home to **42 UNESCO World Heritage Sites** (as of recent evaluations), safeguarding rich cultural and natural history.
+
+## 1. Classification
+- Cultural Sites (34): Man-made historical monuments. E.g., Sanchi Stupa, Taj Mahal, Ajanta/Ellora Caves, Group of Monuments at Hampi, Sun Temple at Konark, Khajuraho temples, Hill Forts of Rajasthan.
+- Natural Sites (7): Pristine ecosystems. E.g., Kaziranga National Park (Assam - one-horned rhinos), Sundarbans National Park (Bengal - mangroves, tigers), Western Ghats, Keoladeo National Park (Rajasthan - migratory birds).
+- Mixed Site (1): **Khangchendzonga National Park** (Sikkim). Holds both cultural significance for local tribes and unique alpine biodiversity.
+- Recent Inclusions: **Santiniketan (West Bengal):** University town founded by Rabindranath Tagore.
+- **Sacred Ensembles of the Hoysalas (Karnataka):** Star-shaped temples at Belur, Halebidu, and Somanathapura.
+
+## High-Yield Formulas & Facts
+- UNESCO count: 42 | Mixed: Khangchendzonga | Recent: Santiniketan, Hoysala temples
+
+
+--- Vital Human Systems & Organs ---
+Subject: Biology (NDA/CDS)
+Chapter: Human Physiology
+
+## 1. Circulatory System & Blood Components
+- Human Heart : 4-chambered (two auricles, two ventricles) showing double circulation. Normal pace maker is the Sino-Atrial (SA) Node .
+- Blood Composition : Plasma (55%) and Formed elements (45%): RBCs (Erythrocytes) : Lifespan ~120 days. Lack nucleus at maturity. Contain iron-rich hemoglobin to transport oxygen. Destroyed in the spleen (graveyard of RBCs).
+- WBCs (Leukocytes) : Part of immune system. Granulocytes (Neutrophils, Basophils, Eosinophils) and Agranulocytes (Lymphocytes, Monocytes).
+- Platelets (Thrombocytes) : Responsible for blood clotting (aided by Vitamin K and Calcium ions).
+- Blood Groups (ABO System) : Group O-negative: Universal Donor (lacks antigens).
+- Group AB-positive: Universal Recipient (lacks antibodies).
+
+## 2. Endocrine Glands & Gaseous / Digestive Systems
+- Endocrine Glands (Ductless Glands) : Secretions are called hormones. Pituitary Gland : Master gland, controls growth and other glands.
+- Thyroid Gland : Secretes thyroxine (needs Iodine; deficiency leads to Goitre).
+- Pancreas (Mixed Gland) : Islets of Langerhans secrete Insulin (Beta cells, lowers blood glucose) and Glucagon (Alpha cells, raises glucose). Deficiency of insulin causes Diabetes Mellitus.
+- Adrenal Gland : Secretes Adrenaline (fight-or-flight hormone, raises heart rate).
+- Digestive Enzymes : Saliva: Salivary Amylase (digests starch).
+- Stomach: Pepsin (digests proteins in acidic medium - HCl).
+- Pancreas: Trypsin (proteins), Lipase (fats), Amylase (carbohydrates).
+
+## High-Yield Formulas & Facts
+- Blood pH: 7.4 (Slightly alkaline)
+- RBC lifespan: 120 days
+- Universal Donor: O- | Recipient: AB+
+- Master Gland: Pituitary
+- Insulin: Beta-cells (lowers sugar)
+- Adrenaline: Emergency hormone
+
+
+--- Idioms & Phrases ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Vocabulary & Comprehension
+
+## High-Yield Formulas & Facts
+- Theme-based idioms (animal, color, action-related)
+
+
+--- Immunity & Vaccines ---
+Subject: Biology (NDA/CDS)
+Chapter: Health, Diseases & Nutrition
+
+## High-Yield Formulas & Facts
+- Innate: non-specific (skin, tears)
+- Acquired: specific (B-cells, T-cells)
+- Active: body makes antibodies (infection, vaccine)
+- Passive: ready-made antibodies (colostrum, anti-venom)
+- Vaccines: Live-attenuated (OPV, BCG), Inactivated (Covaxin, Salk), mRNA (Pfizer)
+
+
+--- High-Yield Special Articles Cheat Sheet ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Advanced Polity Structures & Bodies
+
+## High-Yield Formulas & Facts
+- Emergencies: 352, 356, 360
+
+
+--- Forests, Trees & Wetlands of India ---
+Subject: Geography (CDS/NDA)
+Chapter: Indian Geography
+
+## High-Yield Formulas & Facts
+- Wetlands (Ramsar Sites)
+
+
+--- National Parks of India (Map Guide) ---
+Subject: Geography (CDS/NDA)
+Chapter: Indian Geography
+
+## High-Yield Formulas & Facts
+- Key National Parks locations
+
+
+--- Mineral Resources & Types of Farming ---
+Subject: Geography (CDS/NDA)
+Chapter: Indian Geography
+
+## High-Yield Formulas & Facts
+- Mineral Belts of India
+
+
+--- Transport Routes: Highways & Waterways ---
+Subject: Geography (CDS/NDA)
+Chapter: Indian Geography
+
+## High-Yield Formulas & Facts
+- Highways & Waterways corridors
+
+
+--- Indus Valley Civilization ---
+Subject: History (CDS/NDA)
+Chapter: 3. Ancient India
+
+## 🌊 Indus Valley Civilization (IVC)
+Also known as the Harappan Civilization. India's first urban revolution, flourishing in the Bronze Age (~2500 BCE - 1900 BCE).
+
+## 1. Discovery & Chronology
+- First discovered in 1921 at **Harappa** by **Daya Ram Sahni** under John Marshall.
+- **Mohenjo-daro** discovered in 1922 by **R.D. Banerji**.
+- Dated via Carbon-14. Mature Phase: 2600 - 1900 BCE.
+
+## 2. Town Planning & Drainage (Exhaustively Tested)
+- Grid System: Streets cut each other at right angles, dividing the city into rectangular blocks.
+- Citadel & Lower Town: Most cities were divided into a raised Citadel (west, housing public buildings, elites) and a Lower Town (east, housing commoners). Exception: **Dholavira** had three divisions (Citadel, Middle, Lower).
+- Drainage System: Advanced underground covered drains made of burnt bricks, with manholes/soak pits at regular intervals. House drains connected directly to main street drains.
+- Building Material: Standardized burnt bricks with a ratio of **4:2:1** (length:breadth:thickness).
+
+## 3. Site-Wise High-Yield Facts
+
+Table Data:
+Site | Location & River | Key Discoveries & Signature Features
+Harappa | Punjab (Pak), Ravi | 6 Granaries in a row, stone symbols of Lingam and Yoni, coffin bu
+Mohenjo-daro | Sindh (Pak), Indus | Meaning: "Mound of the Dead". **Great Bath**, Great Granary, Bron
+Lothal | Gujarat, Bhogava | **Artificial Dockyard** (trade with Mesopotamia), double burials 
+Kalibangan | Rajasthan, Ghaggar | Meaning: "Black Bangles". **Ploughed field surface** (earliest ev
+Dholavira | Gujarat (Kutch) | Tripartite division, massive **water reservoirs**, stadium, billb
+Chanhudaro | Sindh (Pak), Indus | Only city **without a Citadel**. Bead-making factory, inkwell, li
+Surkotada | Gujarat | Only site containing actual **horse bones**. Pot burials.
+
+## 4. Economy, Script & Decline
+- Economy: Agriculture-based (wheat, barley, cotton - first to produce cotton globally, called Sindon by Greeks). Trade with Mesopotamia (called Meluhha in cuneiform texts).
+- Script & Seals: Pictographic script (undeciphered). Written in **Boustrophedon** style (right-to-left, then left-to-right). Seals mostly made of **steatite** (soapstone), rectangular/square showing animals.
+- Decline Theories: Aryan Invasion: Mortimer Wheeler (criticised now).
+- Floods: Marshall, S.R. Rao.
+- Ecological Imbalance / Drying of Rivers: Sood and Agrawal, Rafique Mughal.
+
+## High-Yield Formulas & Facts
+- Lothal: Dockyard | Kalibangan: Ploughed fields | Dholavira: Reservoirs | Harappa: Ravi
+
+
+--- Standard Integration Methods ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Calculus
+
+## 1. Fundamental Indefinite Integrals
+- ∫ xⁿ dx = xⁿ⁺¹/(n+1) + C (n ≠ -1)
+- ∫ 1/x dx = ln|x| + C
+- ∫ eˣ dx = eˣ + C
+- ∫ aˣ dx = aˣ/ln a + C
+- ∫ sin x dx = -cos x + C
+- ∫ cos x dx = sin x + C
+- ∫ sec² x dx = tan x + C
+- ∫ cosec² x dx = -cot x + C
+
+## 2. Logarithmic Trigonometric Integrals
+- ∫ tan x dx = ln|sec x| + C = -ln|cos x| + C
+- ∫ cot x dx = ln|sin x| + C
+- ∫ sec x dx = ln|sec x + tan x| + C
+- ∫ cosec x dx = ln|cosec x - cot x| + C = ln|tan(x/2)| + C
+
+## 3. Special Integrals (Substitution helper)
+- ∫ 1/(x² + a²) dx = (1/a) tan⁻¹(x/a) + C
+- ∫ 1/√(a² - x²) dx = sin⁻¹(x/a) + C
+- ∫ 1/√(x² ± a²) dx = ln|x + √(x² ± a²)| + C
+
+## 4. Integration by Parts & Definite Properties
+- ∫ u·v dx = u ∫ v dx - ∫ [ u' ∫ v dx ] dx (Choose u based on ILATE priority).
+- King's Property : ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx
+- ∫[a to b] f(x) dx = ∫[a to b] f(a+b-x) dx
+- ∫[-a to a] f(x) dx = 2∫[0 to a] f(x) dx (if f(x) is even); = 0 (if f(x) is odd).
+
+## High-Yield Formulas & Facts
+- ∫ u·v dx = u∫v dx - ∫(u'·∫v dx) dx
+- King's Property: ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx
+- Even/Odd Property: ∫[-a to a] f(x)dx = 0 if f(-x)=-f(x)
+
+
+--- International Institutions ---
+Subject: History (CDS/NDA)
+Chapter: 6. World History
+
+## 🇺🇳 International Institutions
+Global bodies created to manage international relations, trade, finance, and security.
+
+## 1. The United Nations (UN)
+- Established on **24 October 1945** (UN Day) to replace the League of Nations. Headquarters in New York.
+- Six Principal Organs: **General Assembly:** Deciding body where all member states have equal votes.
+- **Security Council:** Responsible for international peace. Has 15 members: 5 Permanent (P5 with veto power: USA, UK, France, Russia, China) and 10 non-permanent members elected for 2-year terms.
+- **International Court of Justice (ICJ):** Judicial body. Located at **The Hague, Netherlands**.
+- **Secretariat:** Executive branch, led by the Secretary-General.
+- Economic and Social Council (ECOSOC) and Trusteeship Council (suspended).
+
+## 2. Financial & Trade Bodies
+- Bretton Woods Twins (1944): Created at the Bretton Woods Conference: - *International Monetary Fund (IMF):* Manages balance of payments and exchange rates. - *World Bank (IBRD):* Provides long-term development loans.
+- World Trade Organization (WTO): Established on **1 January 1995**, replacing the General Agreement on Tariffs and Trade (GATT). Regulates global trade.
+
+## High-Yield Formulas & Facts
+- UN Founded: Oct 24, 1945 | Bretton Woods (1944): IMF & World Bank | WTO: Jan 1, 1995 (replaced GATT)
+
+
+--- Interwar Period ---
+Subject: History (CDS/NDA)
+Chapter: 6. World History
+
+## 📉 The Interwar Period (1919 - 1939)
+The twenty years between the two World Wars, marked by economic collapse and the rise of totalitarian dictators.
+
+## 1. Major Developments
+- League of Nations: Established in 1920 to maintain peace. Proved weak; could not halt invasions (e.g., Japan invading Manchuria 1931; Italy invading Ethiopia 1935).
+- Great Depression (1929): Began with the Wall Street stock market crash in USA. Led to worldwide decline in trade, high unemployment, and financial collapse, weakening democratic governments.
+- Rise of Dictators: **Fascism in Italy:** Benito Mussolini seized power in 1922. Promoted aggressive nationalism and corporate state.
+- **Nazism in Germany:** Adolf Hitler (Nazi Party) became Chancellor in 1933. Preached racial superiority, anti-Semitism, and rejected the Treaty of Versailles.
+- **Militarism in Japan:** Military leaders took control of government, expanding into China.
+
+## High-Yield Formulas & Facts
+- League of Nations: 1920 | Great Depression: 1929 | Hitler Chancellor: 1933
+
+
+--- Inverse Trigonometric Functions ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Trigonometry
+
+## 1. Principal Value Branches (PVB)
+The domain and range must be strictly memorized to solve standard NDA/CDS equations:
+- sin⁻¹ x : Domain = [-1, 1] , Range (PVB) = [-π/2, π/2]
+- cos⁻¹ x : Domain = [-1, 1] , Range (PVB) = [0, π]
+- tan⁻¹ x : Domain = ℝ , Range (PVB) = (-π/2, π/2)
+- cosec⁻¹ x : Domain = ℝ - (-1, 1) , Range (PVB) = [-π/2, π/2] - {0}
+- sec⁻¹ x : Domain = ℝ - (-1, 1) , Range (PVB) = [0, π] - {π/2}
+- cot⁻¹ x : Domain = ℝ , Range (PVB) = (0, π)
+
+## 2. Fundamental Properties
+- sin⁻¹(-x) = -sin⁻¹ x , cosec⁻¹(-x) = -cosec⁻¹ x , tan⁻¹(-x) = -tan⁻¹ x
+- cos⁻¹(-x) = π - cos⁻¹ x , sec⁻¹(-x) = π - sec⁻¹ x , cot⁻¹(-x) = π - cot⁻¹ x
+- sin⁻¹(1/x) = cosec⁻¹ x (for |x| ≥ 1)
+- cos⁻¹(1/x) = sec⁻¹ x (for |x| ≥ 1)
+- tan⁻¹(1/x) = cot⁻¹ x (for x > 0)
+
+## 3. Identities & Sums
+- sin⁻¹ x + cos⁻¹ x = π/2 (for x ∈ [-1, 1])
+- tan⁻¹ x + cot⁻¹ x = π/2 (for x ∈ ℝ)
+- cosec⁻¹ x + sec⁻¹ x = π/2 (for |x| ≥ 1)
+- tan⁻¹ x + tan⁻¹ y = tan⁻¹((x + y)/(1 - xy)) [if xy < 1]
+- tan⁻¹ x - tan⁻¹ y = tan⁻¹((x - y)/(1 + xy)) [if xy > -1]
+- 2tan⁻¹ x = sin⁻¹(2x/(1+x²)) = cos⁻¹((1-x²)/(1+x²)) = tan⁻¹(2x/(1-x²))
+
+## High-Yield Formulas & Facts
+- sin⁻¹x + cos⁻¹x = π/2
+- tan⁻¹x + tan⁻¹y = tan⁻¹((x+y)/(1-xy)) [xy < 1]
+- 2tan⁻¹x = sin⁻¹(2x/(1+x²)) = cos⁻¹((1-x²)/(1+x²))
+
+
+--- Integrated Judiciary: SC & HC ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Union Government
+
+## High-Yield Formulas & Facts
+- Supreme Court: Art 124 (Original 131, Appellate 132-136, Writ 32, Advisory 143)
+- High Courts: Art 214 (Writ 226)
+- Writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto
+
+
+--- Limits & Continuity ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Calculus
+
+## 1. Standard Limits
+These limits resolve common indeterminate forms instantly:
+- lim (x→0) sin(x)/x = 1
+- lim (x→0) tan(x)/x = 1
+- lim (x→0) (e^x - 1)/x = 1
+- lim (x→0) ln(1 + x)/x = 1
+- lim (x→a) (xⁿ - aⁿ)/(x - a) = n·aⁿ⁻¹
+- lim (x→0) (1 + x)^(1/x) = e
+- lim (x→∞) (1 + 1/x)ˣ = e
+
+## 2. L'Hopital's Rule
+For limits resulting in indeterminate forms like 0/0 or ∞/∞ :
+- Differentiate numerator and denominator separately: lim f(x)/g(x) = lim f'(x)/g'(x) .
+- Repeat if the result is still indeterminate and functions remain differentiable.
+
+## 3. Continuity & Differentiability
+- f(x) is continuous at x = c if: lim (x→c⁻) f(x) = lim (x→c⁺) f(x) = f(c) (LHL = RHL = Value).
+- f(x) is differentiable at x = c if: Left Hand Derivative (LHD) = Right Hand Derivative (RHD).
+- Important Property : Differentiability ⇒ Continuity. However, Continuity does NOT imply Differentiability (e.g., f(x) = |x| is continuous at x = 0, but not differentiable because of a sharp corner).
+
+## High-Yield Formulas & Facts
+- lim(x→0) sinx/x = 1
+- lim(x→a) (xⁿ - aⁿ)/(x - a) = n·aⁿ⁻¹
+- L'Hopital: lim f(x)/g(x) = lim f'(x)/g'(x)
+- LHL = RHL = f(c) for Continuity
+
+
+--- Lines, Angles & Triangles ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Geometry
+
+## High-Yield Formulas & Facts
+- Geometry Theorems
+
+
+--- Literature ---
+Subject: History (CDS/NDA)
+Chapter: 7. Art, Culture & Heritage
+
+## 📖 Literary Traditions of India
+The vast text corpus of India, preserving scientific, political, and philosophical achievements.
+
+## 1. Ancient Scripts & Texts
+- The Vedas: Rigveda (1028 hymns), Samaveda (music), Yajurveda (prose/ritual instructions), Atharvaveda (medicine/spells).
+- Epics: Ramayana (Valmiki) and Mahabharata (Vyasa).
+- Buddhist Canons (Tripitakas - in Pali): Sutta Pitaka (Buddha's discourses), Vinaya Pitaka (rules for monks), Abhidhamma Pitaka (philosophical analysis).
+- Jain Canons: Angas (written in Prakrit/Ardhamagadhi).
+- Sangam Literature (Tamil): Tolkappiyam (grammar), epics Silappatikaram and Manimekalai, and Tirukkural (moral guide by Tiruvalluvar).
+
+## High-Yield Formulas & Facts
+- Tripitakas: Pali (Buddhism) | Angas: Prakrit (Jainism) | Ashtadhyayi: Panini | Silappatikaram: Ilango Adigal
+
+
+--- Magadha Expansion ---
+Subject: History (CDS/NDA)
+Chapter: 3. Ancient India
+
+## 1. Dynasties
+- Haryanka Dynasty: Bimbisara (matrimonial alliances), Ajatashatru (patronised 1st Buddhist council).
+- Shishunaga Dynasty: Shifted capital to Vaishali, annexed Avanti.
+- Nanda Dynasty: Mahapadma Nanda (first empire builder, Ekarat), Dhana Nanda. Alexander the Great invaded India (326 BCE) during Dhana Nanda's reign, fought Battle of Hydaspes (Jhelum) with Porus.
+
+## High-Yield Formulas & Facts
+- Haryanka: Bimbisara | Nanda: Mahapadma Nanda | Hydaspes: 326 BCE (Alexander vs Porus)
+
+
+--- Mahajanapadas ---
+Subject: History (CDS/NDA)
+Chapter: 3. Ancient India
+
+## 👑 Mahajanapadas & Rise of Magadha
+The 6th century BCE marked the second urbanization in India, characterized by territorial consolidation and new religious movements.
+
+## 1. The 16 Mahajanapadas
+- Mentioned in Buddhist text Anguttara Nikaya and Jain text Bhagavati Sutra .
+- Monarchies: Magadha (strongest), Kosala (capital Ayodhya/Shravasti), Vatsa (Kausambi), Avanti (Ujjain).
+- Republics (Ganasanghas): **Vajji** (Vaishali, world's earliest republic, confederacy of 8 clans), Malla (Kusinara).
+
+## 2. Rise of Magadha
+Magadha rose to become the supreme power due to: large iron deposits (for weapons/tools), strategic capitals (Rajgir surrounded by hills; Pataliputra at river junctions), and first-time use of elephants in wars.
+- Haryanka Dynasty: **Bimbisara (544-492 BCE):** Founder. Expanded via matrimonial alliances (Kosala, Vaishali, Madra).
+- **Ajatashatru (492-460 BCE):** Killed his father Bimbisara. Annexed Kashi and Vaishali (used war engines *Mahasilakantaka* and *Rathamusala*). Patronised the **1st Buddhist Council** at Rajgir.
+- **Udayin:** Shifted the capital from Rajgir to **Pataliputra**.
+- Shishunaga Dynasty: Annexed Avanti, ending the long rivalry. Shifted capital to Vaishali. Kalasoka patronised the **2nd Buddhist Council** (383 BCE).
+- Nanda Dynasty: **Mahapadma Nanda:** First non-Kshatriya dynasty. Title: *Ekarat* (sole sovereign) and *Sarvakshatrantaka* (destroyer of Kshatriyas).
+- **Dhana Nanda:** Last ruler. Alexander the Great invaded North-West India (326 BCE, Battle of Hydaspes vs. Porus) during his reign, but Alexander's army refused to cross the Beas river fearing Nanda's massive army.
+
+## High-Yield Formulas & Facts
+- 16 States | Vajji: Republic (Vaishali capital) | Magadha: Strongest (Rajgir/Pataliputra)
+
+
+--- Borders, Capitals & Mapping ---
+Subject: Geography (CDS/NDA)
+Chapter: Indian Geography
+
+## High-Yield Formulas & Facts
+- Borders: Bangladesh (longest), Afghanistan (shortest)
+- Lines: Radcliffe (PK/BD), MacMahon (CN), Durand (AF)
+- Strategic: Malacca, Hormuz, Hambantota
+
+
+--- Marathas ---
+Subject: History (CDS/NDA)
+Chapter: 4. Medieval India
+
+## ⚔️ The Maratha Empire
+The Marathas rose as a formidable power in the Deccan, challenging Mughal supremacy and eventually dominating North India.
+
+## 1. Chhatrapati Shivaji Maharaj (1627 - 1680)
+- Born at Shivneri Fort. Captured major forts (Torna, Pratapgad, Purandar). Escaped Aurangzeb's house arrest in Agra (1666). Coronation at Raigad (1674), taking the title *Chhatrapati*.
+- Administration: **Ashtapradhan** (council of 8 ministers): - *Peshwa:* Prime Minister. - *Amatya:* Finance Minister. - *Senapati:* Military commander. - *Sumant / Dabir:* Foreign relations.
+- Revenue System: - *Chauth:* 1/4th (25%) of land revenue paid by neighboring states to escape Maratha raids. - *Sardeshmukhi:* Additional 10% tax claimed by Shivaji as supreme ruler.
+
+## 2. Peshwa Era (1713 - 1818)
+- Peshwas became the de-facto rulers of the empire, shifting capital to Pune. **Balaji Vishwanath (1713-1720):** Assisted Shahu in consolidating power.
+- **Baji Rao I (1720-1740):** Undefeated in 41 battles (Palhed, Bhopal). Captured Salsette and Bassein from Portuguese. Expanded empire to Delhi.
+- **Balaji Baji Rao (Nana Saheb: 1740-1761):** Maratha power peaked. **3rd Battle of Panipat (1761):** Maratha army under Sadashivrao Bhau was defeated by Afghan invader **Ahmad Shah Abdali**. This broke Maratha unity and halted expansion.
+
+## High-Yield Formulas & Facts
+- Shivaji Coronation: 1674 | Ashtapradhan: Shivaji council | Chauth: 25% tax | 3rd Panipat: 1761
+
+
+--- Mauryan Period ---
+Subject: History (CDS/NDA)
+Chapter: 3. Ancient India
+
+## 🛡️ The Mauryan Empire (322 - 185 BCE)
+India's first historical empire, establishing central control over most of the subcontinent.
+
+## 1. Rulers & Triumphs
+- Chandragupta Maurya (322 - 298 BCE): Overthrew Dhana Nanda with Chanakya's guidance. Defeated Seleucus Nicator (305 BCE), acquiring Baluchistan and Afghanistan. Megasthenes visited his court. Adopted Jainism under Bhadrabahu and died via *Sallekhana* (fasting) at Shravanabelagola.
+- Bindusara (298 - 273 BCE): Called *Amitraghata* (slayer of enemies). Received ambassadors from Syria (Deimachus) and Egypt (Dionysius). Patronised the Ajivika sect.
+- Ashoka (273 - 232 BCE): Coronation in 269 BCE. Kalinga War (261 BCE, detailed in **Major Rock Edict XIII**) caused immense casualties, prompting Ashoka to abandon war (*Bherighosha*) and adopt Dhamma (*Dhammaghosha*). Sent Buddhist missions to Sri Lanka (Mahinda/Sanghamitta).
+
+## 2. Ashokan Edicts & Dhamma
+- Edicts are classified into Major Rock Edicts (14), Minor Rock Edicts, Major Pillar Edicts (7), and Cave Inscriptions. Written mostly in Prakrit (Brahmi script).
+- **Major Rock Edict XIII:** Mentions Kalinga War and contemporary Hellenic kings (Antiochus, Ptolemy).
+- **Rummindei Pillar Inscription:** Marks Buddha's birthplace (Lumbini) and records Ashoka reducing land tax (*Bhaga*) to 1/8th.
+
+## 3. Administration & Economy
+- Highly centralized bureaucracy. King assisted by *Mantriparishad*. 7 limbs of state defined in Kautilya's **Saptanga Theory** (Swami, Amatya, Janapada, Durga, Kosha, Danda, Mitra).
+- Spy network of *Gudhapurushas* (Sanstha - stationary, Sanchari - wandering).
+- Tax: Land revenue (*Bhaga*) was usually 1/6th of produce. Punched-marked silver coins (*Panas*) were widely circulated.
+
+## High-Yield Formulas & Facts
+- Kalinga War: 261 BCE | Chanakya: Arthashastra | Megasthenes: Indica
+
+
+--- Metals, Ores, Alloys & Metallurgy ---
+Subject: Chemistry (NDA/CDS)
+Chapter: Metals & Metallurgy
+
+## High-Yield Formulas & Facts
+- Al: Bauxite, Cryolite
+- Fe: Hematite, Magnetite
+- Alloys: Brass (Cu+Zn), Bronze (Cu+Sn), Solder (Pb+Sn)
+- Flotation: Sulphides
+- Roasting (air) vs Calcination (no air)
+
+
+--- Integrated Guided Missile Program (IGMDP) ---
+Subject: Military GK & Aptitude
+Chapter: Exercises & Missile Systems
+
+## 1. The IGMDP Program
+Conceived by **Dr. A.P.J. Abdul Kalam** in 1983 to make India self-sufficient in missile technology. Formally completed in 2008.
+- P - Prithvi : Short-range surface-to-surface ballistic missile. First missile under IGMDP.
+- A - Agni : Medium to intercontinental range surface-to-surface ballistic missile. (Agni 1 to 5). Agni-5 is an ICBM with a range of 5000+ km.
+- T - Trishul : Short-range low-altitude surface-to-air missile. (Development closed, technology acts as feed).
+- N - Nag : Third-generation fire-and-forget anti-tank guided missile (ATGM). Has land and heliborne versions.
+- A - Akash : Medium-range surface-to-air missile with multi-target engagement capability. Guided by Rajendra radar.
+
+## 2. Crucial Cruise & Air Defence Missiles
+- BrahMos : Supersonic cruise missile jointly developed with Russia. Speed: **Mach 2.8 to 3.0** (World's fastest operational cruise missile).
+- Can be launched from submarine, ships, aircraft, or land.
+- Astra : Beyond Visual Range (BVR) air-to-air missile integrated onto Sukhoi Su-30MKI and Tejas.
+- K-Missile Series (K-15 Sagarika, K-4) : Submarine-launched ballistic missiles (SLBMs) designed for Arihant nuclear submarine class.
+- Helina (Dhruvastra) : Helicopter-launched version of the Nag anti-tank missile.
+
+## High-Yield Formulas & Facts
+- PATNA: Prithvi, Agni, Trishul, Nag, Akash
+- BrahMos Speed: Mach 2.8 - 3.0
+- Astra: Air-to-Air (BVR)
+- Helina: Helicopter ATGM
+
+
+--- Modifiers: Misplaced & Dangling ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Grammar & Usage
+
+## High-Yield Formulas & Facts
+- Modifiers must be placed adjacent to the words they modify; dangling modifiers lack logical subjects
+
+
+--- Mughal Empire ---
+Subject: History (CDS/NDA)
+Chapter: 4. Medieval India
+
+## 👑 The Mughal Empire (1526 - 1857)
+Established by Central Asian invaders, the Mughals built an extensive, culturally rich empire in India.
+
+## 1. Rulers & Triumphs
+- Babur (1526-1530): Defeated Ibrahim Lodi in **1st Battle of Panipat (1526)** using gunpowder and *Tulughma* (flanking) tactics. Defeated Rana Sanga in Battle of Khanwa (1527). Wrote autobiography *Tuzuk-i-Baburi* in Turkish.
+- Humayun (1530-1556): Defeated and exiled by Afghan leader **Sher Shah Suri** (who built Grand Trunk Road, introduced rupee currency, and Dahsala land reforms, ruling 1540-45). Humayun recaptured Delhi in 1555 but died falling from his library stairs.
+- Akbar (1556-1605): Crowned at 13. defeated Hemu in **2nd Battle of Panipat (1556)** with help of guardian Bairam Khan. *Reforms:* Introduced **Mansabdari System** (grading officers by Zat/rank and Sawar/cavalry). **Todar Mal's Dahsala** (land revenue system based on 10-year average crop yields).
+- *Religious Policy:* Abolished Jizya tax on non-Muslims (1564). Built **Ibadat Khana** (House of Worship) at Fatehpur Sikri. Promulgated **Din-i-Ilahi** (divine monotheism) in 1852.
+- Jahangir (1605-1627): Paintings peaked during his reign. Executed 5th Sikh Guru Arjan Dev. Captain Hawkins and Thomas Roe visited his court.
+- Shah Jahan (1628-1658): Golden Age of Architecture. Built Taj Mahal, Red Fort, Jama Masjid, Peacock Throne.
+- Aurangzeb (Alamgir: 1658-1707): Imprisoned his father Shah Jahan. Executed 9th Sikh Guru Tegh Bahadur. Re-imposed Jizya tax (1679). Annexed Bijapur (1686) and Golconda (1687). Called "Zinda Pir" (living saint) due to simple lifestyle.
+
+## High-Yield Formulas & Facts
+- 1st Panipat: 1526 | Mansabdari & Dahsala: Akbar | Jizya re-imposed: Aurangzeb (1679)
+
+
+--- Direct & Indirect Speech ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Grammar & Usage
+
+## High-Yield Formulas & Facts
+- Direct ↔ Indirect (Reporting verb, pronoun, tense, proximity words shifts)
+
+
+--- Newton's Laws of Motion ---
+Subject: Physics (NDA/CDS)
+Chapter: Mechanics & Motion
+
+## 1. Newton's First Law (Law of Inertia)
+- A body continues in its state of rest or uniform motion in a straight line unless compelled by an external unbalanced force.
+- Inertia is the inherent property of a body to resist change. Measured by **mass** (greater mass = greater inertia).
+- Types: Inertia of Rest (passengers fall backward when bus starts), Inertia of Motion (passengers fall forward when brakes applied), Inertia of Direction (umbrella protects from rain).
+
+## 2. Newton's Second Law (Law of Force)
+- The rate of change of momentum of a body is directly proportional to the applied force and takes place in the direction of the force.
+- Momentum: p = mv (vector quantity, unit: kg m/s).
+- Mathematical derivation: F = dp/dt = d(mv)/dt = m(dv/dt) = **ma** (Force = mass × acceleration).
+- Unit of Force: Newton (N). 1 N = 1 kg m/s² = 10⁵ Dynes.
+
+## 3. Newton's Third Law (Law of Action-Reaction)
+- To every action, there is always an equal and opposite reaction. Action and reaction act on **two different bodies**.
+- Examples: Recoil of a gun (backward force on shoulder), swimming (pushing water backward), flight of rockets (exhaust gases push downward, rocket moves up).
+
+## 4. Friction and Momentum Conservation
+- Law of Conservation of Linear Momentum : If no external force acts on a system, the total linear momentum remains constant. (m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂).
+- Friction : The opposing force that comes into play when a body moves or tries to move over another surface. Formula: f = μN (where μ is coefficient of friction, N is normal reaction).
+- Order of friction: **Static Friction > Limiting Friction > Kinetic Friction > Rolling Friction**. Rolling friction is the smallest.
+
+## High-Yield Formulas & Facts
+- F = ma
+- Momentum: p = mv
+- Friction: f = μN
+- Equations of Motion: v = u + at, s = ut + 0.5at², v² - u² = 2as
+
+
+--- One Word Substitutions ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Vocabulary & Comprehension
+
+## High-Yield Formulas & Facts
+- Root words & Categories (-cracy, -archy, -cide, -phobia, -phile, personalities)
+
+
+--- Ordering of Words & Sentences ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: UPSC Exam Practice Patterns
+
+## High-Yield Formulas & Facts
+- Strategies for jumbled words (S-V-O) and jumbled sentences (opening sentence, mandatory pairs, closing sentence, transitions)
+
+
+--- Paintings ---
+Subject: History (CDS/NDA)
+Chapter: 7. Art, Culture & Heritage
+
+## 🎨 Painting Traditions of India
+From ancient cave murals to royal miniature schools and tribal folk paintings.
+
+## 1. Murals & Miniatures
+- Mural Paintings: Giant paintings done on walls/rocks. Prominent at Ajanta Caves (Jataka tales, Fresco technique - painting on wet plaster) and Bagh.
+- Miniature Paintings: Small, detailed paintings on paper or palm leaves. - *Mughal School:* Introduced court scenes, portraits, hunting scenes. Reached peak under **Jahangir**. - *Rajput School:* Focused on religious themes (Radha-Krishna, Ramayana) and courtly lives. E.g., Kangra, Basohli, Kishangarh (famous painting *Bani Thani*).
+
+## 2. Folk Paintings
+- Madhubani Paintings (Bihar): Mithila region. Traditionally done by women using rice paste, twigs, fingers, and natural dyes. Displays nature, birds, fish, and deities. Has geographical indication (GI) tag.
+- Warli Paintings (Maharashtra): Tribal art using basic geometric shapes (triangles, circles, squares) made of white paste (rice flour) on mud/ochre walls, showing daily activities, crop cycles, and tarpa dance.
+- Pattachitra (Odisha): Scroll paintings on cloth or dried palm leaves. Displays tales of Lord Jagannath and Krishna.
+
+## High-Yield Formulas & Facts
+- Ajanta: Buddhist murals | Miniatures peak: Jahangir | Madhubani: Bihar | Warli: Maharashtra
+
+
+--- Local Self-Govt & Panchayati Raj ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Union Government
+
+## High-Yield Formulas & Facts
+- 73rd Amendment: Part IX, Sch 11 (29 subjects) - Rural Panchayats
+- 74th Amendment: Part IXA, Sch 12 (18 subjects) - Urban Municipalities
+- Balwant Rai Mehta: 3-tier system
+- Contest Age: 21 years
+- Reservation: 33% (1/3rd) for women
+
+
+--- Parliament of India (Art 79-122) ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Union Government
+
+## 1. Composition of Parliament
+Parliament consists of the **President**, the **Council of States (Rajya Sabha)**, and the **House of the People (Lok Sabha)**.
+- Rajya Sabha (Upper House) : Max strength: 250 (238 elected from States/UTs, 12 nominated by President from Art, Literature, Science, Social Service).
+- It is a **permanent body** and not subject to dissolution.
+- Members have a **6-year term**, with **one-third** retiring every second year.
+- Lok Sabha (Lower House) : Max strength: 550 (530 representing States, 20 representing Union Territories). (Anglo-Indian reserved seats abolished by 104th Amendment).
+- Normal term: **5 years**, can be dissolved earlier by the President.
+
+## 2. Key Parliamentary Terms
+- Quorum (Article 100) : Minimum number of members required to be present to conduct a meeting. It is **one-tenth** of the total number of members in each House (i.e., 55 in Lok Sabha, 25 in Rajya Sabha), including the presiding officer.
+- Joint Sitting (Article 108) : Called by the President to resolve deadlocks between LS and RS on **Ordinary Bills** or **Financial Bills**. Presided over by the **Speaker of the Lok Sabha**. (If Speaker is absent, the Deputy Speaker; if absent, the Deputy Chairman of Rajya Sabha).
+- **Note**: Joint sittings **cannot** be called for Money Bills or Constitutional Amendment Bills.
+
+## 3. Types of Bills & money Bills (Article 110)
+- Money Bill : Deals with taxation, borrowing, consolidated fund, etc. Can only be introduced in the **Lok Sabha** on the recommendation of the President.
+- The **Speaker's decision** on whether a bill is a money bill is final.
+- Rajya Sabha has restricted powers; it can only delay the bill for **14 days** and cannot reject or amend it.
+
+## High-Yield Formulas & Facts
+- Quorum = 1/10th of membership.
+- Joint Sitting = Art 108 (Presided by LS Speaker).
+- Money Bill = Art 110 (Certified by LS Speaker).
+
+
+--- Parts of Speech ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Grammar & Usage
+
+## High-Yield Formulas & Facts
+- Nouns, Pronouns, Verbs, Adverbs, Adjectives, Prepositions, Conjunctions, Interjections
+
+
+--- Percentages, Profit & Loss ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Arithmetic
+
+## High-Yield Formulas & Facts
+- Arithmetic Formulas
+
+
+--- Phrasal Verbs ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Vocabulary & Comprehension
+
+## High-Yield Formulas & Facts
+- High-frequency phrasal verbs (Break down/out, call off, carry out, come across, look into, put off)
+
+
+--- Electricity, Circuits & Magnetism ---
+Subject: Physics (NDA/CDS)
+Chapter: Electricity & Magnetism
+
+## High-Yield Formulas & Facts
+- Ohm's Law: V = I * R
+- Resistance: Series (Rs = R1+R2), Parallel (1/Rp = 1/R1 + 1/R2)
+- Power: P = V * I = I^2 * R
+- Force: F = q * (v x B)
+- Induction: Faraday's & Lenz's Laws
+
+
+--- Electromagnetic Waves & Spectrum ---
+Subject: Physics (NDA/CDS)
+Chapter: Waves & Acoustics
+
+## High-Yield Formulas & Facts
+- c = f * λ = 3 x 10^8 m/s
+- Spectrum order: Gamma > X-Ray > UV > Visible > IR > Micro > Radio
+
+
+--- Thermodynamics & Heat Transfer ---
+Subject: Physics (NDA/CDS)
+Chapter: Heat & Thermodynamics
+
+## High-Yield Formulas & Facts
+- Temp: C/5 = (F-32)/9 = (K-273)/5
+- Transfer: Conduction (solids), Convection (fluids), Radiation (no medium)
+- Laws: Zeroth (thermal equilibrium), 1st (conservation of energy), 2nd (entropy increases)
+
+
+--- Nuclear Physics & Radioactivity ---
+Subject: Physics (NDA/CDS)
+Chapter: Modern Physics & Units
+
+## High-Yield Formulas & Facts
+- Fission: heavy nucleus splits (U-235)
+- Fusion: light nuclei combine (H-isotopes in Sun)
+- Radioactivity: Alpha (He-nuclei), Beta (electrons), Gamma (photons)
+- Half-life: T1/2 = 0.693 / λ
+
+
+--- Sound Waves & Acoustics ---
+Subject: Physics (NDA/CDS)
+Chapter: Waves & Acoustics
+
+## High-Yield Formulas & Facts
+- v = sqrt(E/ρ)
+- Speed: Solid > Liquid > Gas
+- Decibel: Loudness unit
+- Echo distance: 17.2m
+- Doppler Effect
+
+
+--- SI Units & Everyday Physics ---
+Subject: Physics (NDA/CDS)
+Chapter: Modern Physics & Units
+
+## High-Yield Formulas & Facts
+- Base Units: m, kg, s, A, K, mol, cd
+- Derived: Newton (Force), Joule (Energy), Watt (Power), Pascal (Pressure)
+- Everyday: Raindrops (surface tension), Mirages (TIR), Sky blue (Rayleigh scattering)
+
+
+--- Plant Kingdom Classification ---
+Subject: Biology (NDA/CDS)
+Chapter: Plant & Animal Kingdoms
+
+## High-Yield Formulas & Facts
+- Thallophyta: Algae (no roots/stems/leaves)
+- Bryophyta: Amphibians of plant kingdom (Funaria/Moss)
+- Pteridophyta: First vascular plants (Ferns/Marsilea)
+- Gymnosperms: Naked seeds (Pinus/Cycas)
+- Angiosperms: Enclosed seeds, flowers, Monocots & Dicots
+
+
+--- Plant Reproduction & Hormones ---
+Subject: Biology (NDA/CDS)
+Chapter: Plant Physiology & Reproduction
+
+## High-Yield Formulas & Facts
+- Vegetative: Potato (stem), Bryophyllum (leaf)
+- Double Fertilization: Syngamy (2n Zygote) + Triple Fusion (3n Endosperm)
+- Auxin: Apical dominance, phototropism
+- Gibberellins: Stem growth, breaks seed dormancy
+- Cytokinin: Cell division, delays aging
+- ABA: Stress hormone, closes stomata
+- Ethylene: Gaseous hormone, fruit ripening
+
+
+--- Federal Structure & Centre-State Relations ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Federal Structure & Election Law
+
+## High-Yield Formulas & Facts
+- 7th Schedule: Union (97), State (66), Concurrent (47)
+- Art 263: Inter-State Council
+- Art 280: Finance Commission
+
+
+--- Representation of People Act & Election Commission ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Federal Structure & Election Law
+
+## High-Yield Formulas & Facts
+- RPA 1950: Electoral rolls
+- RPA 1951: Conduct of elections
+- 10th Schedule: Anti-Defection
+- Art 324: Election Commission
+
+
+--- Elections, Appointments & Terms of Office ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Advanced Polity Structures & Bodies
+
+## High-Yield Formulas & Facts
+- Ages: Pres (35), Gov (35), LS (25), RS (30)
+
+
+--- Post-Independence Consolidation ---
+Subject: History (CDS/NDA)
+Chapter: 5. Modern India (Highest Priority)
+
+## 🇮🇳 Post-Independence Consolidation
+The challenges of nation-building, border demarcations, princely states integration, and linguistic reorganization after 1947.
+
+## 1. Integration of Princely States
+Sardar Vallabhbhai Patel (Minister of States) and V.P. Menon successfully integrated 549 princely states. Three states presented exceptions:
+- Junagadh: Nawab wanted to join Pakistan, but the Hindu majority population rebelled. Integrated via **Plebiscite (February 1948)**.
+- Hyderabad: Nizam refused to join India. Nizam's irregular militia (Razakars) terrorized the population. Integrated via military action code-named **Operation Polo (September 1948)**.
+- Jammu & Kashmir: Ruler Hari Singh wanted to remain independent. In October 1947, Pakistani armed tribal raiders invaded. Hari Singh signed the **Instrument of Accession (26 Oct 1947)**, and Indian troops flew in to defend Srinagar.
+
+## 2. States Reorganization
+- Andhra Pradesh became the **first linguistic state** in 1953 following the death of Potti Sriramulu after a 56-day hunger strike.
+- **Dhar Commission (1948)** and **JVP Committee (1948 - Jawaharlal, Vallabhbhai, Pattabhi)** rejected language as basis of states.
+- Following Sriramulu's death, the government appointed the **Fazl Ali Commission (States Reorganization Commission, 1953)**. Its recommendations led to the **States Reorganization Act (1956)**, creating 14 states and 6 Union Territories.
+
+## High-Yield Formulas & Facts
+- Operation Polo: Hyderabad (1948) | 1st Linguistic State: Andhra (1953) | SRC 1956: Fazl Ali Commission
+
+
+--- Post-Mauryan India ---
+Subject: History (CDS/NDA)
+Chapter: 3. Ancient India
+
+## 🏺 Post-Mauryan Period
+Characterized by political fragmentation, rise of regional dynasties, and foreign invasions from Central Asia.
+
+## 1. Indigenous Dynasties
+- Sunga Dynasty (185 - 73 BCE): Pushyamitra Sunga, a Brahmin army chief, assassinated the last Maurya King Brihadratha. Patronised Patanjali (grammarian). Renovated Sanchi and Bharhut stupas.
+- Kanva Dynasty: Founded by Vasudeva Kanva. Short-lived.
+- Satavahanas (Andhras): Founded by Simuka. Ruled Deccan/Central India. Gautamiputra Satakarni (the greatest ruler, called 'sole Brahmin' in Nasik inscription). **Signature features:** Issued lead coins, patronised Prakrit (Hala wrote *Gathasaptasati*), pioneered **royal land grants** to Brahmins and Buddhist monks.
+
+## 2. Foreign Invasions
+- Indo-Greeks: First to invade. **Menander** (Milinda) was converted to Buddhism by Nagasena (recorded in text *Milindapanha* - Questions of Milinda). First to issue gold coins with inscriptions in India.
+- Sakas (Scythians): **Rudradaman I** (Western Kshatrapa) is famous for the **Junagadh Rock Inscription** (first major inscription in pure Sanskrit, records repair of Sudarshana Lake).
+- Kushanas: Central Asian tribe. **Kanishka (78 - 101 CE):** Founded the **Saka Era (78 CE)**. Organised the 4th Buddhist Council in Kashmir. Capital at Purushapura (Peshawar).
+- Patronised scholars: Ashvaghosha (wrote *Buddhacharita*), Nagarjuna (Einstein of India, Madhyamika philosophy), Charaka (court physician, *Charaka Samhita*).
+- Gandhara School (Greek influence, realistic Buddha) and Mathura School (indigenous, red sandstone Buddha) of art flourished.
+
+## High-Yield Formulas & Facts
+- Sunga founder: Pushyamitra | Saka Era: 78 CE (Kanishka) | Satavahana: Lead coins
+
+
+--- Preamble & Sources ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Constitutional Framework
+
+## 1. The Preamble Keywords
+The Preamble represents the summary or essence of the Constitution. Crucial aspects:
+- Keywords Order : Sovereign, Socialist, Secular, Democratic, Republic.
+- Amendment : Amended only once by the 42nd Amendment Act (1976) , which added three new words: Socialist, Secular, and Integrity .
+- Justiciability : It is non-justiciable (its provisions cannot be enforced in a court of law).
+- **Kesavananda Bharati Case (1973)**: Supreme Court declared that the Preamble is a part of the Constitution and can be amended under Article 368, but its 'basic structure' cannot be destroyed.
+
+## 2. Borrowed Sources of the Constitution
+- Govt of India Act 1935 : Federal structure, Office of Governor, Public Service Commissions, administrative details.
+- United Kingdom : Parliamentary system, Rule of Law, Legislative procedure, Single Citizenship, Cabinet system, Prerogative Writs, Bicameralism.
+- United States : Fundamental Rights, Independence of Judiciary, Judicial Review, Impeachment of President, removal of Supreme Court & High Court judges, post of Vice-President.
+- Ireland : Directive Principles of State Policy (DPSP), nomination of members to Rajya Sabha, method of election of President.
+- Canada : Federation with a strong Centre, vesting of residuary powers in the Centre, appointment of state governors by Centre, advisory jurisdiction of Supreme Court.
+- Australia : Concurrent List, freedom of trade and commerce, joint sitting of the two Houses of Parliament.
+- Weimar Republic (Germany) : Suspension of Fundamental Rights during Emergency.
+- USSR : Fundamental Duties (Article 51A), ideals of justice (social, economic, political) in the Preamble.
+
+## High-Yield Formulas & Facts
+- 42nd Amendment (1976) -> Added: Socialist, Secular, Integrity.
+- Preamble justiciable? No (Kesavananda Bharati Case 1973).
+
+
+--- The President of India (Art 52-62) ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Union Government
+
+## 1. Election of the President (Article 54)
+The President is elected not directly by the people, but by members of an **Electoral College** consisting of:
+- Elected members of both Houses of Parliament (Lok Sabha & Rajya Sabha).
+- Elected members of the Legislative Assemblies of the States (MLAs).
+- Elected members of the Legislative Assemblies of the Union Territories of Delhi and Puducherry (and Jammu & Kashmir).
+
+## 2. Impeachment of the President (Article 61)
+- The President can be removed from office for **'violation of the Constitution'**.
+- The impeachment charges can be initiated in **either House of Parliament**.
+- The charges must be signed by **one-fourth of the members** of the initiating House and a **14-day notice** must be given to the President.
+- To pass, the resolution must be approved by a majority of **not less than two-thirds of the total membership** of the House.
+- It is then investigated by the other House, and if passed there by a **2/3rd majority of the total membership**, the President stands removed.
+
+## 3. Veto Powers (Article 111)
+- Absolute Veto : Withholding assent to the Bill (the Bill ends and does not become law).
+- Suspensive Veto : Returning the Bill to Parliament for reconsideration. If Parliament passes the Bill again with or without amendments by a **simple majority**, the President **must** give assent. (Cannot be used for Money Bills).
+- Pocket Veto : Keeping the Bill pending on his desk indefinitely (taking no action). The Indian President has a larger pocket veto than the US President because the US President must return the bill within 10 days, while the Indian Constitution specifies no time limit.
+
+## 4. Pardon Powers (Article 72)
+The President has the power to grant pardons, reprieves, respites, or remissions of punishment, or to suspend, remit, or commute sentences in all cases involving Court Martial, offences against Union laws, and death sent
+
+## High-Yield Formulas & Facts
+- Electoral College = Elected MPs + Elected MLAs.
+- Impeachment = Art 61 (2/3 of Total Membership required).
+- Pardon Powers = Art 72.
+
+
+--- Punctuation Basics ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Grammar & Usage
+
+## High-Yield Formulas & Facts
+- Comma, Apostrophe, Colon, Semicolon usage and rules
+
+
+--- Quadratic Equations ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Algebra & Complex Numbers
+
+## 1. Nature of Roots
+For ax^2 + bx + c = 0, the discriminant D = b^2 - 4ac decides the roots:
+- D > 0: Real and distinct roots.
+- D = 0: Real and equal roots.
+- D < 0: Complex conjugate roots.
+
+## High-Yield Formulas & Facts
+- <li><strong>Sum of roots:</strong> alpha + eta = -b/a</li>
+- <li><strong>Product of roots:</strong> alphaeta = c/a</li>
+
+
+--- Equivalent Officer Ranks (Tri-Services) ---
+Subject: Military GK & Aptitude
+Chapter: Command Structures & Ranks
+
+## 1. Commissioned Officers Rank Structure
+Equivalent ranks in the three services are highly tested in CDS and AFCAT. Commissioned ranks from junior to senior levels:
+
+Table Data:
+Army | Navy | Air Force | Insignia Star Rating
+Lieutenant | Sub-Lieutenant | Flying Officer | Entry Rank
+Captain | Lieutenant | Flight Lieutenant | Junior Officer
+Major | Lieutenant Commander | Squadron Leader | Mid-Level Officer
+Lieutenant Colonel | Commander | Wing Commander | Selection Grade
+Colonel | Captain | Group Captain | Senior Level
+Brigadier | Commodore | Air Commodore | 1 Star
+Major General | Rear Admiral | Air Vice Marshal | 2 Star
+Lieutenant General | Vice Admiral | Air Marshal | 3 Star
+
+## 2. Honorary / Highest Ranks (5-Star Ranks)
+- Field Marshal (Army) : Ranks held by Sam Manekshaw and K.M. Cariappa.
+- Marshal of the Indian Air Force (IAF) : Rank held by Arjan Singh.
+- Admiral of the Fleet (Navy) : Peacetime equivalent five-star rank (no naval officer has received this yet).
+
+## High-Yield Formulas & Facts
+- Lieutenant = Sub-Lieutenant = Flying Officer
+- Colonel = Captain = Group Captain
+- General = Admiral = Air Chief Marshal
+
+
+--- Ratios, Proportions & Averages ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Arithmetic
+
+## High-Yield Formulas & Facts
+- Arithmetic Formulas
+
+
+--- RBI & Monetary Policy Tools ---
+Subject: Economics (CDS/NDA)
+Chapter: Monetary & Fiscal System
+
+## 1. Reserve Bank of India (RBI)
+Established on April 1, 1935 under the RBI Act (nationalized in 1949). Acts as the banker's bank and issues currency.
+
+## 2. Monetary Policy Committee (MPC) tools
+- Quantitative Tools (Control money volume): Repo Rate : The interest rate at which RBI lends money to commercial banks for short terms. Lowering Repo rate increases inflation.
+- Reverse Repo Rate : The rate at which banks park surplus funds with RBI.
+- Cash Reserve Ratio (CRR) : Percentage of deposits banks must keep as cash with RBI. No interest earned on this.
+- Statutory Liquidity Ratio (SLR) : Percentage of deposits banks must keep in liquid assets (Gold, Govt Securities) with themselves.
+- Qualitative Tools : Marginal requirements, moral suasion, credit rationing.
+
+## High-Yield Formulas & Facts
+- Repo Rate = Lending to Banks
+- CRR = Cash with RBI
+- SLR = Liquid assets with Bank
+- Reverse Repo < Repo Rate always
+
+
+--- Reactivity Series & Displacement ---
+Subject: Chemistry (NDA/CDS)
+Chapter: Metals & Metallurgy
+
+## High-Yield Formulas & Facts
+- Order: K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au
+- Mnemonic: Please Stop Calling Me A Careless Zebra...
+- Displacement: More reactive replaces less reactive
+
+
+--- Reading Comprehension ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Vocabulary & Comprehension
+
+## High-Yield Formulas & Facts
+- Main idea, detail, inference, tone, title finding strategies
+
+
+--- Reflection, Refraction & Lenses ---
+Subject: Physics (NDA/CDS)
+Chapter: Optics & Light
+
+## 1. Laws of Reflection & Mirror Formulas
+- First Law: The incident ray, the reflected ray, and the normal at the point of incidence all lie in the same plane.
+- Second Law: The angle of incidence is equal to the angle of reflection (i = r).
+- Mirror Formula : 1/f = 1/v + 1/u u = object distance (always negative).
+- v = image distance (positive for virtual, negative for real).
+- f = focal length (negative for concave, positive for convex).
+- Linear Magnification: m = -v/u = hᵢ/hₒ (m is negative for real and inverted, positive for virtual and erect).
+
+## 2. Refraction & Lens Formulas
+- Snell's Law : The ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant: sin i / sin r = constant = ₁μ₂ = μ₂/μ₁ .
+- Absolute Refractive Index: μ = c / v (where c is speed of light in vacuum, v is speed in medium).
+- Lens Formula : 1/f = 1/v - 1/u
+- Linear Magnification (Lens): m = v/u = hᵢ/hₒ
+- Power of a Lens (P) : Reciprocal of focal length in meters. P = 1 / f(in m) . Unit: Dioptre (D) . Convex lens: f is positive ⇒ P is positive.
+- Concave lens: f is negative ⇒ P is negative.
+
+## 3. Key Optical Phenomena
+- Total Internal Reflection (TIR) : Occurs when light travels from denser to rarer medium and the angle of incidence is greater than the critical angle (θc). Formula: **sin θc = 1/μ**
+- Applications: Optical fibers, sparkling of diamonds, mirages in deserts, endoscopes.
+- Dispersion : Splitting of white light into constituent colors (VIBGYOR) when passing through a prism due to different speeds of different wavelengths in glass. Red deviates least, violet deviates most.
+- Scattering of Light : Scattering intensity is inversely proportional to the fourth power of wavelength (Rayleigh Scattering: **I ∝ 1/λ⁴**). Explains why sky is blue (blue has short wavelength, scatters more) and sun appears red at sunrise/sunset.
+
+## High-Yield Formulas & Facts
+- Mirror Formula: 1/f = 1/v + 1/u
+- Lens Formula: 1/f = 1/v - 1/u
+- Lens Power: P = 1/f (dioptres)
+- Refractive Index: n = c/v
+
+
+--- Religion & Festivals ---
+Subject: History (CDS/NDA)
+Chapter: 7. Art, Culture & Heritage
+
+## 🕉️ Indian Philosophy & Festivals
+The intellectual schools of thought and cultural celebrations across communities in India.
+
+## 1. Six Orthodox Schools (Shad-Darshanas)
+- Samkhya (Sage Kapila): Oldest school. Dualism of Prakriti (matter) and Purusha (soul).
+- Yoga (Sage Patanjali): Focuses on physical and mental control as path to liberation.
+- Nyaya (Sage Gautama): Logicians. Stresses logical thinking and verification.
+- Vaisheshika (Sage Kanada): Introduced atom theory (*Anu*). Proved universe is made of physical elements.
+- Mimamsa (Sage Jaimini): Stresses the ritualistic teachings of the Vedas.
+- Vedanta (Sage Badarayana): Explores philosophical essence of Upanishads. Later divided into Advaita (monism of Adi Shankara) and Vishishtadvaita (Ramanuja).
+
+## 2. Regional Festivals
+- **Onam (Kerala):** Harvest festival, celebrates King Mahabali's return. Famous for Snake Boat Races (*Vallam Kali*).
+- **Pongal (Tamil Nadu):** 4-day harvest festival.
+- **Bihu (Assam):** 3 festivals (Rongali, Kongali, Bhogali) marking agricultural cycles.
+- **Hornbill Festival (Nagaland):** "Festival of Festivals", showcasing rich tribal heritage.
+
+## High-Yield Formulas & Facts
+- National Calendar: Saka Era (78 CE) | Onam: Kerala | Pongal: TN | Hornbill: Nagaland
+
+
+--- Revolt of 1857 ---
+Subject: History (CDS/NDA)
+Chapter: 5. Modern India (Highest Priority)
+
+## 🔥 The Revolt of 1857
+Often called India's First War of Independence. A massive armed uprising against East India Company rule.
+
+## 1. Causes of the Revolt
+- Political: Lord Dalhousie's Doctrine of Lapse and the annexation of Awadh (1856) on grounds of misgovernment alienated local rulers.
+- Economic: Heavy taxes on land and destruction of native handicrafts.
+- Social/Religious: Interference in social customs (abolishing Sati, Widow Remarriage Act) and fear of forced conversions by missionaries.
+- Military: Indian sepoys paid less than British, denied overseas allowance (*Batta*), and forced to travel across seas (violating caste rules).
+- Immediate: Introduction of the **Enfield Rifle** with grease paper cartridges containing pig and cow fat (offensive to Muslims and Hindus). **Mangal Pandey** of 34th NI shot his officer at Barrackpore (29 March 1857).
+
+## 2. Major Centers & Leaders
+
+Table Data:
+Center | Indian Leader | British Officer suppressing
+Delhi | Bahadur Shah II (nominal) / Bakht Khan (actual) | John Nicholson, Hudson
+Kanpur | Nana Saheb, Tantia Tope (Ramachandra Pandurang) | Colin Campbell
+Lucknow | Begum Hazrat Mahal | Colin Campbell, Havelock
+Jhansi | Rani Laxmibai | Hugh Rose (called her the only man among mutineers)
+Arrah (Bihar) | Kunwar Singh (80-year-old landlord) | William Taylor, Vincent Eyre
+
+## 3. Outcomes
+- Passed the **Government of India Act 1858**, which transferred Indian administration from the East India Company to the **British Crown**.
+- Governor-General's title changed to **Viceroy** (Canning was first).
+- Abolished the Doctrine of Lapse. British stopped expanding territories, focusing on indirect control.
+- **Army Reorganization:** Ratio of European to Indian soldiers increased. Regiments restructured on caste/religion lines ("Martial Races" theory) to prevent unity.
+
+## High-Yield Formulas & Facts
+- Barrackpore: Mangal Pandey | Meerut start: May 10, 1857 | Jhansi opponent: Hugh Rose | Result: GoI Act 1858
+
+
+--- Revolutions ---
+Subject: History (CDS/NDA)
+Chapter: 6. World History
+
+## 🇺🇸🇫🇷 Industrial & Political Revolutions
+Key global revolutions that shaped modern political ideologies and economic structures.
+
+## 1. American Revolution (1775 - 1783)
+- Causes: British taxation without representation (Stamp Act, Townshend Acts), trade restrictions.
+- Boston Tea Party (1773): Colonists dumped British tea into the harbor to protest tea tax.
+- Declaration of Independence: Drafted by Thomas Jefferson, adopted on **4 July 1776**.
+- Treaty of Paris (1783): Britain recognized the independence of the United States.
+
+## 2. French Revolution (1789)
+- Causes: Divison of French society into three estates (Clergy, Nobility, Commoners/Third Estate). Only the Third Estate paid taxes. Bankruptcy under Louis XVI.
+- Storming of the Bastille (14 July 1789): A fortress-prison, symbol of royal tyranny, was destroyed by a mob. Celebrated as France's National Day.
+- Motto: **"Liberty, Equality, Fraternity"**.
+- Result: Executed Louis XVI and Marie Antoinette, ended feudalism, established republic, and paved the way for Napoleon Bonaparte's rise.
+
+## 3. Russian Revolution (1917)
+- Overthrew the Tsarist autocracy. Caused by economic hardships of WWI, food shortages, and absolute rule of Tsar Nicholas II.
+- **February Revolution:** Forced the Tsar to abdicate; provisional government set up.
+- **October (Bolshevik) Revolution:** Led by **Vladimir Lenin**. Overthrew the provisional government, ending private property, establishing a socialist state (leading to the creation of the USSR in 1922).
+
+## 4. Industrial Revolution
+- Began in Britain in the mid-18th century. Transitioned from hand production to machine manufacturing.
+- Key inventions: James Watt's Steam Engine, Spinning Jenny, railway locomotives.
+- Impact: Rise of capitalism, urbanization, growth of working class, and colonial search for raw materials.
+
+## High-Yield Formulas & Facts
+- French: 1789 (Liberty, Equality, Fraternity) | American: 1776 (July 4) | Russian: 1917 (Lenin/Bolsheviks)
+
+
+--- Rock Art ---
+Subject: History (CDS/NDA)
+Chapter: 2. Prehistoric India
+
+## 🎨 Prehistoric Rock Art
+Prehistoric rock art provides invaluable insights into the daily life, beliefs, and cognitive evolution of early humans.
+
+## 1. Bhimbetka Caves (Madhya Pradesh)
+- Discovery: Discovered by archaeologist **V.S. Wakankar** in 1957. Located in Vindhya Range, MP.
+- UNESCO Status: Declared a UNESCO World Heritage site in 2003.
+- Artistic Styles: Displays continuous artistic activity from the Upper Paleolithic, Mesolithic, Neolithic, Chalcolithic, to Historical periods.
+- Themes & Pigments: Mainly depicts wild animals (bison, tigers, elephants), hunting scenes, community dances, battles, and family life.
+- **Colors:** Used mineral colors mixed with water/animal fat. **Red** (from hematite/geru for hunters) and **Green** (from chalcedony for dancers) are the most prominent.
+
+## High-Yield Formulas & Facts
+- Bhimbetka discoverer: V.S. Wakankar (1957) | Colors: Green (dance), Red (hunt)
+
+
+--- Schedules of the Constitution ---
+Subject: Indian Polity (CDS/NDA)
+Chapter: Constitutional Framework
+
+## Schedules Overview
+Originally, the Constitution had 8 schedules. Currently, there are 12 schedules .
+- T - Territories : Names of States and Union Territories and their territorial extent.
+- E - Emoluments : Provisions relating to the salaries, allowances, and privileges of President, Governors, Speaker, Judges, Comptroller and Auditor-General (CAG).
+- A - Affirmations & Oaths : Forms of Oaths or Affirmations for Union Ministers, MPs, Judges, CAG.
+- R - Rajya Sabha : Allocation of seats in the Rajya Sabha to the States and Union Territories.
+- S - Scheduled Areas : Provisions relating to the administration and control of scheduled areas and scheduled tribes.
+- O - Other Tribes : Administration of tribal areas in the states of **Assam, Meghalaya, Tripura, and Mizoram** (Mnemonic: ATM-M).
+- F - Federal Lists : Division of powers between the Union and the States (Union List, State List, Concurrent List).
+- O - Official Languages : 22 languages recognized by the Constitution. (Sindhi added by 21st, Konkani/Manipuri/Nepali by 71st, Bodo/Dogri/Maithili/Santhali by 92nd).
+
+## High-Yield Formulas & Facts
+- TEARS OF OLD PM:
+- 1-Territories, 2-Emoluments, 3-Affirmations, 4-RajyaSabha, 5-Scheduled, 6-OtherScheduled, 7-FederalLists, 8-Languages, 9-LandReforms, 10-Defection, 11-Panchayats, 12-Municipalities
+
+
+--- Sentence Improvement ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: UPSC Exam Practice Patterns
+
+## High-Yield Formulas & Facts
+- Improvement areas: Grammar, word choice, clarity, parallel structure, idiomatic usage, syntax correction
+
+
+--- Sentence Structure & Parallelism ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Grammar & Usage
+
+## High-Yield Formulas & Facts
+- Clauses, Phrases, Types of sentences, Parallelism
+
+
+--- Sikh History ---
+Subject: History (CDS/NDA)
+Chapter: 4. Medieval India
+
+## ☬ Sikh History & Gurus
+Sikhism evolved from a peaceful Bhakti movement to a highly militarized community in response to Mughal persecutions.
+
+## 1. The Ten Gurus
+- Guru Nanak Dev (1st): Founded Sikhism. Started **Langar** (free community kitchen) to break caste barriers.
+- Guru Angad (2nd): Standardized the **Gurmukhi script**.
+- Guru Ram Das (4th): Founded Amritsar on land gifted by Akbar.
+- Guru Arjan Dev (5th): Compiled the **Adi Granth**. Built the Golden Temple (Harmandir Sahib). Executed by **Jahangir**.
+- Guru Hargobind (6th): Built the **Akal Takht**. Militarized Sikhs, introduced *Miri* (temporal power) and *Piri* (spiritual power).
+- Guru Tegh Bahadur (9th): Executed by **Aurangzeb** at Delhi's Chandni Chowk for refusing to convert.
+- Guru Gobind Singh (10th): Founded the **Khalsa Panth** in 1699 at Anandpur Sahib. Introduced the 5 Ks. Declared **Guru Granth Sahib** as the permanent Guru.
+
+## 2. Maharaja Ranjit Singh & British Wars
+- Consolidated Punjab into a powerful empire. Signed the **Treaty of Amritsar (1809)** with Metcalfe/Minto, fixing Sutlej river as boundary.
+- **Anglo-Sikh Wars:** 1st War (1845-46): Ended with the **Treaty of Lahore** (Henry Hardinge GG).
+- 2nd War (1848-49): Under **Lord Dalhousie**. Punjab was annexed to the British Empire (1849).
+
+## High-Yield Formulas & Facts
+- Khalsa: 1699 (Gobind Singh) | Treaty of Amritsar: 1809 | Annexation of Punjab: 1849
+
+
+--- Socio-Religious Reform Movements ---
+Subject: History (CDS/NDA)
+Chapter: 5. Modern India (Highest Priority)
+
+## 🌱 Socio-Religious Reform Movements
+Movements in the 19th century aiming to reform social evils like caste, Sati, child marriage, and promote modern education.
+
+## 1. Reform Organizations
+- Brahmo Samaj (1828): Founded by **Raja Ram Mohan Roy** (Father of Indian Renaissance). Opposed idol worship, caste rigidity, and Sati (which was banned in 1829 due to his efforts). Promoted monotheism. Later split into Adi Brahmo Samaj (Debendranath Tagore) and Brahmo Samaj of India (Keshab Chandra Sen).
+- Arya Samaj (1875): Founded by **Swami Dayanand Saraswati** at Bombay. Motto: **"Go Back to Vedas"**. Wrote *Satyarth Prakash*. Opposed priesthood and idolatry. Started *Shuddhi* movement to reconvert people to Hinduism. Set up DAV schools.
+- Satyashodhak Samaj (1873): Founded by **Jyotirao Phule** in Maharashtra. Dedicated to the upliftment of lower castes and women. Wrote *Gulamgiri* (Slavery) and *Saraswati*. His wife Savitribai Phule started India's first school for girls.
+- Ramakrishna Mission (1897): Founded by **Swami Vivekananda** in honor of his Guru Ramakrishna Paramahansa. Vivekananda preached Practical Vedanta and humanitarian service. Gave the historic speech at Chicago's Parliament of Religions (1893).
+- Aligarh Movement (1875): Founded by **Sir Syed Ahmed Khan**. Opposed blind adherence to religion, promoted scientific education for Muslims. Founded Muhammadan Anglo-Oriental College (now Aligarh Muslim University). Wrote *Tahzib-ul-Akhlaq*.
+- Prarthana Samaj (1867): Founded by Atmaram Pandurang in Bombay, later led by M.G. Ranade. Focused on inter-caste dining, widow remarriage, and women's education.
+
+## High-Yield Formulas & Facts
+- Brahmo: Ram Mohan Roy | Arya: Dayanand Saraswati | Satyashodhak: Jyotirao Phule (Gulamgiri) | Aligarh: Syed Ahmed
+
+
+--- Sources of Indian History ---
+Subject: History (CDS/NDA)
+Chapter: 1. Historiography & Historical Foundations
+
+## 🏛️ Sources of Indian History
+Historians reconstruct the past using two primary categories of sources: Archaeological and Literary.
+
+## 1. Archaeological Sources (High-Yield)
+- Inscriptions (Epigraphy): The most reliable source. Ashokan Edicts: Written in Brahmi, Kharosthi, Greek, and Aramaic scripts. Deciphered by **James Prinsep** in 1837.
+- Allahabad Pillar Inscription (Prasasti): Composed in Sanskrit by Harishena, praising Gupta King Samudragupta.
+- Aihole Inscription: Written by Ravikirti, describing Chalukya King Pulakeshin II's victory over Harsha.
+- Uttaramerur Inscription: Details the self-governing village administration of the Imperial Cholas.
+- Coins (Numismatics): Tell us about economic health, trade relations, and kingly interests. Punch-marked coins (silver/copper) were the earliest.
+- **Indo-Greeks** were the first to issue coins with portraits and legends.
+- **Kushanas** issued the first large-scale gold coins in India.
+- **Guptas** issued the largest number of gold coins (Dinars). Samudragupta's coins show him playing the Veena.
+
+## 2. Literary Sources
+- Religious Texts: Vedas, Puranas, Epics (Ramayana, Mahabharata), Buddhist Tripitakas (Pali), and Jain Angas (Prakrit).
+- Secular Literature: Kautilya's Arthashastra (statecraft and administration).
+- Panini's Ashtadhyayi (earliest Sanskrit grammar).
+- Kalhana's Rajatarangini (12th century, history of Kashmir, India's first scientific historical work).
+- Foreign Accounts: **Greek:** Megasthenes ( Indica , Mauryan administration).
+- **Chinese:** Fa-Hien (Gupta period under Chandragupta II) and Hiuen Tsang (Harsha's reign, studied at Nalanda).
+- **Arab/Persian:** Al-Biruni ( Kitab-ul-Hind , 11th century culture and science), Ibn Battuta ( Rihla , Tughlaq period).
+
+## High-Yield Formulas & Facts
+- Epigraphy: Inscriptions | Numismatics: Coins | Rajatarangini: Kalhana (Kashmir history)
+
+
+--- South Indian Kingdoms ---
+Subject: History (CDS/NDA)
+Chapter: 3. Ancient India
+
+## ⚓ South Indian Kingdoms
+The history of South India is marked by the Sangam Age, followed by the Pallavas and Chalukyas, and later the mighty Cholas.
+
+## 1. The Sangam Age (3rd BCE - 3rd CE)
+- Assemblies (Sangams) of Tamil poets held under Pandyan patronage. Key literature: **Tolkappiyam** (grammar), epics **Silappatikaram** (Ilango Adigal) and **Manimekalai** (Shattanar).
+- Three kingdoms: Cheras (emblem: Bow), Cholas (emblem: Tiger, capital: Puhar, King Karikala built Grand Anicut), Pandyas (emblem: Fish, capital: Madurai).
+
+## 2. Pallavas & Chalukyas (6th - 8th CE)
+- Pallavas of Kanchi: Mahendravarman I, Narasimhavarman I (defeated Chalukya King Pulakeshin II, took title *Vatapikonda*). Built the rock-cut **Rathas of Mahabalipuram** (Shore Temple).
+- Chalukyas of Vatapi: Pulakeshin II. Defeated Harshavardhana on the banks of Narmada (recorded in Aihole inscription). Defeated by Narasimhavarman I.
+
+## 3. Imperial Cholas (9th - 12th CE)
+- Founded by Vijayalaya. Capital at Thanjavur.
+- **Rajaraja Chola I (985 - 1014 CE):** Built the grand **Brihadeshwara (Rajarajeshwara) Temple** at Thanjavur (tallest Vimana in India). Annexed northern Sri Lanka.
+- **Rajendra Chola I (1014 - 1044 CE):** Annexed entire Sri Lanka. Marched up to Ganges, took title *Gangaikonda Chola* and founded capital *Gangaikondacholapuram*. Sent naval expeditions to Southeast Asia (Srivijaya Kingdom), dominating the Bay of Bengal (called the "Chola Lake").
+- **Village Self-Government:** The **Uttaramerur Inscription** of Parantaka I (907-955 CE) details the working of local assemblies (*Ur* and *Sabha*). Members were elected by lottery (*Kudavolai* system) under strict eligibility rules.
+
+## High-Yield Formulas & Facts
+- Cholas: Brihadeshwara Temple (Tanjore) | Village administration: Uttaramerur inscription
+
+
+--- Stone Age ---
+Subject: History (CDS/NDA)
+Chapter: 2. Prehistoric India
+
+## 🗿 The Stone Age
+Prehistoric India is divided into Paleolithic, Mesolithic, and Neolithic ages based on stone tool technology and lifestyle shifts.
+
+## 1. Paleolithic (Old Stone Age): Up to 10,000 BCE
+- Lifestyle: Nomadic hunter-gatherers. Lived in caves and rock shelters. Fire was discovered but not widely controlled for cooking.
+- Tools: Large, unpolished stone tools made of **quartzite** (hence Paleolithic humans are called "Quartzite Men"). Hand-axes, cleavers, choppers.
+- Phases: Lower Paleolithic: Hand-axes, cleavers. Sites: Soan Valley (Punjab, Pakistan), Bori (Maharashtra).
+- Middle Paleolithic: Flake tools. Sites: Narmada Valley, Nevasa (Maharashtra).
+- Upper Paleolithic: Bone tools, blades. Coincided with modern humans (Homo sapiens). Sites: Kurnool caves (AP - evidence of ash).
+
+## 2. Mesolithic (Middle Stone Age): 10,000 BCE - 6,000 BCE
+- Climatic Shift: Transition to a warmer, drier climate, leading to changes in flora and fauna.
+- Tools: **Microliths** - extremely small, pointed stone tools (1-5 cm long) fitted onto wooden or bone handles (spears, arrows).
+- Lifestyle: Hunting-gathering transitioned to early animal domestication. Dog was the first animal domesticated.
+- Key Sites: **Bagor** (Rajasthan - earliest evidence of domestication), **Adamgarh** (MP), Langhnaj (Gujarat).
+
+## 3. Neolithic (New Stone Age): 6,000 BCE - 1,000 BCE
+- The Neolithic Revolution: Transition from food-gathering to **food-producing** (agriculture).
+- Lifestyle: Settled village life. Invention of the wheel, cultivation of wheat, barley, ragi, and rice. Domestication of sheep, goats, cattle. Production of hand-made and wheel-made pottery.
+- Key Sites: **Mehrgarh (Balochistan, Pakistan):** Earliest Neolithic site (~7000 BCE). Evidence of wheat/barley farming and mud-brick houses.
+- **Burzahom (Kashmir):** Unique pit-dwellings (caves dug in ground to escape cold) and practice of burying dogs with masters.
+- **Koldihwa (UP):** Earliest evidence of **rice cultivation** globally (~6000 BCE).
+- **Chirand (Bihar):** Large number of bone tools made of deer antlers.
+
+## High-Yield Formulas & Facts
+- Paleolithic: Quartzite, Bhimbetka | Mesolithic: Microliths, Bagor | Neolithic: Farming, Burzahom
+
+
+--- Straight Lines ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Coordinate Geometry (2D & 3D)
+
+## 1. Equations of a Line
+- Slope-Intercept: y = mx + c
+- Point-Slope: y - y1 = m(x - x1)
+- Normal Form: xcosalpha + ysinalpha = p
+
+## High-Yield Formulas & Facts
+- <li><strong>Distance from point to line:</strong> d = rac{|Ax1 + By1 + C|}{sqrt{A^2 + B^2}}</li>
+
+
+--- Subject-Verb Agreement ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Grammar & Usage
+
+## High-Yield Formulas & Facts
+- Singular/plural agreement, Collective nouns, Indefinite pronouns, Either/neither, neither-nor
+
+
+--- Sufi Movement ---
+Subject: History (CDS/NDA)
+Chapter: 4. Medieval India
+
+## ✨ The Sufi Movement
+The mystical movement within Islam, emphasizing direct union with God through love, music (Sama), and simple living.
+
+## 1. Key Orders (Silsilas) in India
+- Suhrawardi Order: Founded by Shihabuddin Suhrawardi. Active in Punjab/Sindh. Accepted state offices, wealthy order.
+- Naqshbandi Order: Founded by Khwaja Bahauddin Naqshbandi. Most orthodox and conservative order. Opposed music and liberal policies of Akbar. Supported by Aurangzeb.
+
+## High-Yield Formulas & Facts
+- Chishti: Moinuddin (Ajmer Dargah) | Sama: Sufi music | Naqshbandi: Orthodox (Aurangzeb support)
+
+
+--- 3D Solids: Surface Area & Volume ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Mensuration
+
+## High-Yield Formulas & Facts
+- 3D Mensuration Formulas
+
+
+--- Work, Power, Energy & Gravitation ---
+Subject: Physics (NDA/CDS)
+Chapter: Energy & Gravitation
+
+## 1. Work, Energy and Power
+- Work (W) : W = F · s · cos θ. (Scalar quantity, unit: Joule). Work is zero if force and displacement are perpendicular (θ = 90°), e.g., circular planetary orbits, porter holding luggage.
+- Kinetic Energy (KE) : Energy due to motion. KE = ½ m v² = p² / 2m (where p is momentum). If momentum is doubled, KE becomes four times.
+- Potential Energy (PE) : Energy due to position. PE = mgh .
+- Power (P) : Rate of doing work. P = W / t = F · v . Unit: Watt. 1 Horsepower (HP) = 746 Watts .
+
+## 2. Gravitation & Acceleration due to gravity (g)
+- Newton's Law: F = G M m / r² (where G = 6.67 × 10⁻¹¹ N m²/kg²; Universal Gravitational Constant).
+- Acceleration due to gravity: g = G M / R² (on Earth's surface, g ≈ 9.8 m/s²). g is independent of mass of the falling body.
+- Variations in 'g' : With Altitude (h): Decreases: g' = g(1 - 2h/R) .
+- With Depth (d): Decreases: g' = g(1 - d/R) . (At the centre of Earth, d = R ⇒ g = 0).
+- Due to shape of Earth: Earth is an oblate spheroid. Requator > Rpole. Since g ∝ 1/R², g is minimum at Equator, maximum at Poles .
+- Due to rotation: g decreases as rotation speed increases. (At equator g' = g - ω²R). If rotation stops, g at equator increases, while g at poles remains unchanged.
+
+## 3. Kepler's Laws & Escape Velocity
+- Kepler's 3rd Law (Law of Periods) : The square of time period of a planet is proportional to the cube of semi-major axis of its orbit: **T² ∝ r³**.
+- Escape Velocity (vₑ) : Minimum velocity required to escape gravitational pull. Formula: vₑ = √(2gR) = √(2GM/R) .
+- For Earth, escape velocity is **11.2 km/s**. For Moon, it is **2.38 km/s** (low gravity, hence no atmosphere on Moon).
+
+## High-Yield Formulas & Facts
+- Work: W = F·s·cosθ
+- KE = 0.5mv² = p²/2m
+- Power: P = W/t = F·v
+- 1 HP = 746 Watts
+- g = GM/R²
+- Escape Velocity: vₑ = √(2gR) ≈ 11.2 km/s
+
+
+--- Indian Geography (Rivers, Passes & Soils) ---
+Subject: Geography (CDS/NDA)
+Chapter: Indian Geography
+
+## High-Yield Formulas & Facts
+- Dakshin Ganga: Godavari
+
+
+--- Matrices and Determinants ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Algebra & Matrices
+
+## 1. Matrix Classifications
+- Symmetric Matrix : Aᵀ = A. Diagonal elements can be anything.
+- Skew-Symmetric Matrix : Aᵀ = -A. Diagonal elements must be zero . (aᵢᵢ = -aᵢᵢ ⇒ 2aᵢᵢ = 0 ⇒ aᵢᵢ = 0).
+- Orthogonal Matrix : A · Aᵀ = I. Also, det(A) = ±1.
+- Idempotent Matrix : A² = A.
+- Involutory Matrix : A² = I.
+- Nilpotent Matrix : Aᵏ = O (where k is the index of nilpotency).
+
+## 2. Determinant Laws
+- det(Aᵀ) = det(A)
+- det(AB) = det(A) · det(B)
+- det(kA) = kⁿ det(A) (for a matrix of order n × n).
+- det(A⁻¹) = 1 / det(A)
+- If any two rows/columns are interchanged, the sign of the determinant changes.
+- If all elements of a row/column are zero, the determinant is zero .
+
+## 3. Adjoint & Inverse Relations
+- A · adj(A) = adj(A) · A = |A| · I
+- |adj A| = |A|ⁿ⁻¹ (order n)
+- |adj(adj A)| = |A|^( (n-1)² )
+- adj(AB) = adj(B) · adj(A) (Reversal law)
+- A⁻¹ = adj(A) / |A| (only if |A| ≠ 0; non-singular matrix).
+- (Aᵀ)⁻¹ = (A⁻¹)ᵀ
+
+## High-Yield Formulas & Facts
+- |kA| = kⁿ|A|
+- |adj A| = |A|ⁿ⁻¹
+- |adj(adj A)| = |A|^((n-1)²)
+- A⁻¹ = adj(A)/|A|
+- (AB)ᵀ = BᵀAᵀ
+- (AB)⁻¹ = B⁻¹A⁻¹
+
+
+--- Ratios, Proportions & Percentages ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Numerical Aptitude
+
+## 1. Ratios and Proportions
+- Ratio: A comparison of two quantities: a/b or a : b.
+- Proportion: Equality of two ratios: a : b :: c : d ⇒ a / b = c / d . Product of extremes = Product of means (ad = bc).
+- Mean Proportional : Between a and b is **x = √(ab)**.
+- Third Proportional : To a and b is **x = b² / a**.
+- Fourth Proportional : To a, b, c is **x = bc / a**.
+
+## 2. Percentages
+- Percentage to Fraction: Divide by 100 (e.g., 20% = 20/100 = 1/5).
+- Fraction to Percentage: Multiply by 100 (e.g., 3/4 = 3/4 × 100 = 75%).
+- Percentage Increase/Decrease = [ (New Value - Original) / Original ] × 100
+
+## 3. Profit, Loss, and Discount
+- Gain = Selling Price (SP) - Cost Price (CP) (if SP > CP)
+- Loss = Cost Price (CP) - Selling Price (SP) (if CP > SP)
+- Gain % = (Gain / CP) × 100 (Profit and Loss are always calculated on CP unless stated otherwise).
+- Loss % = (Loss / CP) × 100
+- Assent Formulas: SP = CP × (100 + Gain%) / 100
+- SP = CP × (100 - Loss%) / 100
+- Discount : Calculated on Marked Price (MP). SP = MP - Discount.
+- Discount % = (Discount / MP) × 100
+
+## High-Yield Formulas & Facts
+- Gain% = (Gain/CP) * 100
+- Loss% = (Loss/CP) * 100
+- Discount% = (Discount/MP) * 100
+- Mean Proportional = √(ab)
+- Third Proportional = b²/a
+
+
+--- Time, Speed & Distance Formulas ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Numerical Aptitude
+
+## 1. General Speed, Time, and Distance Relationship
+- Speed = Distance / Time ⇒ Time = Distance / Speed ; Distance = Speed × Time
+- Unit Conversions: To convert from km/h to m/s: multiply by **5/18**. (e.g., 90 km/h = 90 × 5/18 = 25 m/s).
+- To convert from m/s to km/h: multiply by **18/5**.
+- Average Speed : Case A: A body covers two equal distances at speeds x km/h and y km/h. Average Speed = 2xy / (x + y) .
+- Case B: A body covers three equal distances at speeds x, y, and z km/h. Average Speed = 3xyz / (xy + yz + zx) .
+- General Case: **Total Distance Covered / Total Time Taken**.
+
+## 2. Relative Speed
+Speed of one body with respect to another moving body:
+- If two bodies move in the **same direction** with speeds u and v (where u > v), Relative Speed = u - v .
+- If two bodies move in **opposite directions**, Relative Speed = u + v .
+
+## 3. Trains and Platforms Problems
+- Train crossing a pole/man : The distance covered is equal to the length of the train itself. Time = Length of Train / Speed.
+- Train crossing a bridge/platform/tunnel : The distance covered is equal to the sum of lengths of train and platform. Time = (Length of Train + Length of Platform) / Speed.
+- Two trains crossing each other : The distance covered is always the sum of both lengths (L₁ + L₂). The speed used is the relative speed.
+
+## High-Yield Formulas & Facts
+- Speed = D/T
+- 1 km/h = 5/18 m/s
+- Average Speed = 2xy/(x+y)
+- Same direction: Speed₁ - Speed₂
+- Opposite direction: Speed₁ + Speed₂
+
+
+--- Chemical Bonding & Periodic Table ---
+Subject: Chemistry (NDA/CDS)
+Chapter: Chemical Bonding
+
+## 1. Types of Chemical Bonds
+- Electrovalent/Ionic Bond : Formed by complete transfer of electrons from electropositive metal to electronegative non-metal (e.g., NaCl, CaCl₂). Properties: High melting/boiling points, soluble in water, conduct electricity in molten/solution state.
+- Covalent Bond : Formed by equal sharing of electrons between non-metals (e.g., H₂, O₂, H₂O). Properties: Low melting/boiling points, insoluble in water (soluble in organic solvents), poor conductors.
+- Coordinate/Dative Bond : Special covalent bond where shared pair is donated by one atom (donor) and accepted by another (acceptor) (e.g., NH₄⁺, H₃O⁺).
+- Hydrogen Bond : Electrostatic force of attraction between hydrogen atom bonded to a highly electronegative atom (F, O, N) and another electronegative atom. Intermolecular H-bonding: Between different molecules (e.g., H₂O, HF). Explains why H₂O is liquid while H₂S is gas.
+- Intramolecular H-bonding: Within the same molecule (e.g., o-nitrophenol).
+
+## 2. Modern Periodic Table & Periodic Trends
+Developed by Henry Moseley, based on **Atomic Number**. Has 18 groups and 7 periods.
+- Atomic Radius : Across Period (Left to Right): **Decreases** due to increase in effective nuclear charge (pulls electrons closer).
+- Down Group (Top to Bottom): **Increases** due to addition of new electron shells.
+- Ionization Energy (IE) : Energy required to remove the outermost electron. Across Period: **Increases** (atomic size decreases, nuclear pull increases).
+- Down Group: **Decreases** (atomic size increases, easier to remove outer electron).
+- Electronegativity : Tendency of an atom to attract shared electron pair. Across Period: **Increases** (Fluorine is most electronegative).
+- Down Group: **Decreases**.
+- Metallic Character (Electropositivity) : Across Period: **Decreases**.
+- Down Group: **Increases** (Francium/Cesium are highly metallic).
+
+## High-Yield Formulas & Facts
+- Ionic Bond: Electron transfer
+- Covalent Bond: Electron sharing
+- H-Bonding: Strongest intermolecular attraction
+- Electronegativity: F > O > N > Cl
+
+
+--- Probability Theory & Bayes Theorem ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Probability & Statistics
+
+## 1. Basic Laws of Probability
+- Addition Rule: P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+- If events are mutually exclusive: P(A ∩ B) = 0 ⇒ P(A ∪ B) = P(A) + P(B)
+- Conditional Probability: P(A|B) = P(A ∩ B) / P(B) (where P(B) > 0)
+- Independent Events: P(A ∩ B) = P(A) · P(B) ⇒ P(A|B) = P(A)
+
+## 2. Bayes' Theorem
+Used to calculate posterior probability when partition events E₁, E₂...Eₙ are given:
+- P(Eᵢ|A) = [ P(Eᵢ) · P(A|Eᵢ) ] / [ Σ[j=1 to n] P(Eⱼ) · P(A|Eⱼ) ]
+
+## 3. Statistics & Measures of Central Tendency
+- Mean (x̄) : Average value. x̄ = (Σ xᵢ)/n.
+- Median : Middle value. If n is odd: ((n+1)/2)th term. If n is even: Mean of (n/2)th and (n/2 + 1)th terms.
+- Mode : Element with highest frequency.
+- Empirical Relation : Mode = 3 Median - 2 Mean
+
+## 4. Measures of Dispersion
+- Variance (σ²) : σ² = Σ(xᵢ - x̄)² / n = (Σ xᵢ² / n) - (x̄)²
+- Standard Deviation (σ) : σ = √Variance
+- Coefficient of Variation (CV) : CV = (σ / x̄) * 100 (measures relative consistency).
+
+## High-Yield Formulas & Facts
+- P(A|B) = P(A ∩ B) / P(B)
+- Mode = 3Median - 2Mean
+- Variance(σ²) = (Σx²/n) - (x̄)²
+- SD(σ) = √Variance
+- CV = (σ/x̄)·100
+
+
+--- High-Frequency Synonyms/Antonyms ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Vocabulary & Comprehension
+
+## High-Yield Formulas & Facts
+- Root word suffixes/prefixes (mal, bene, mis, anti, omni, phil, -cide, -phobia)
+
+
+--- Tenses & Consistency ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Grammar & Usage
+
+## High-Yield Formulas & Facts
+- Simple, Continuous, Perfect, Perfect Continuous (Present, Past, Future) + Conditionals
+
+
+--- Time, Speed, Distance & Work ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Arithmetic
+
+## High-Yield Formulas & Facts
+- Speed & Work Formulas
+
+
+--- Transformation of Sentences ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Grammar & Usage
+
+## High-Yield Formulas & Facts
+- Simple ↔ Compound ↔ Complex, Assertive ↔ Interrogative ↔ Exclamatory, Degree changes
+
+
+--- Trigonometric Identities & Values ---
+Subject: Mathematics (NDA/CDS)
+Chapter: Trigonometry
+
+## 1. Core Trigonometric Identities
+Pythagorean identities form the bedrock of trigonometric simplification:
+- sin²θ + cos²θ = 1 ⇒ sin²θ = 1 - cos²θ ; cos²θ = 1 - sin²θ
+- sec²θ - tan²θ = 1 (θ ≠ (2n+1)π/2) ⇒ sec²θ = 1 + tan²θ ; tan²θ = sec²θ - 1
+- cosec²θ - cot²θ = 1 (θ ≠ nπ) ⇒ cosec²θ = 1 + cot²θ ; cot²θ = cosec²θ - 1
+
+## 2. Sum & Difference Formulas
+Used to find values of angles like 15°, 75°, 105°, etc.:
+- sin(A ± B) = sin A cos B ± cos A sin B
+- cos(A ± B) = cos A cos B ∓ sin A sin B
+- tan(A ± B) = (tan A ± tan B) / (1 ∓ tan A tan B)
+- cot(A ± B) = (cot A cot B ∓ 1) / (cot B ± cot A)
+
+## 3. Multiple Angle Identities
+Essential for reducing powers in calculus integrations:
+- sin 2A = 2 sin A cos A = 2tan A / (1 + tan² A)
+- cos 2A = cos² A - sin² A = 2cos² A - 1 = 1 - 2sin² A = (1 - tan² A)/(1 + tan² A)
+- tan 2A = 2tan A / (1 - tan² A)
+- sin 3A = 3sin A - 4sin³ A
+- cos 3A = 4cos³ A - 3cos A
+- tan 3A = (3tan A - tan³ A) / (1 - 3tan² A)
+
+## 4. Product-to-Sum & Sum-to-Product
+Key transformations for calculus and equations:
+- 2 sin A cos B = sin(A + B) + sin(A - B)
+- 2 cos A sin B = sin(A + B) - sin(A - B)
+- 2 cos A cos B = cos(A + B) + cos(A - B)
+- 2 sin A sin B = cos(A - B) - cos(A + B)
+- sin C + sin D = 2 sin((C+D)/2) cos((C-D)/2)
+- sin C - sin D = 2 cos((C+D)/2) sin((C-D)/2)
+- cos C + cos D = 2 cos((C+D)/2) cos((C-D)/2)
+- cos C - cos D = -2 sin((C+D)/2) sin((C-D)/2)
+
+## High-Yield Formulas & Facts
+- sin(A+B) = sinA·cosB + cosA·sinB
+- cos(2A) = 2cos²A - 1 = 1 - 2sin²A
+- tan(2A) = 2tanA / (1 - tan²A)
+- sin(3A) = 3sinA - 4sin³A
+- cos(3A) = 4cos³A - 3cosA
+- 2sinA·cosB = sin(A+B) + sin(A-B)
+- sinC + sinD = 2sin((C+D)/2)cos((C-D)/2)
+
+
+--- The Universe & Solar System ---
+Subject: Geography (CDS/NDA)
+Chapter: Physical & World Geography
+
+## High-Yield Formulas & Facts
+- Cosmology Facts
+
+
+--- Vedic Age ---
+Subject: History (CDS/NDA)
+Chapter: 3. Ancient India
+
+## 🌾 The Vedic Age
+Reconstructed using the Vedas. Divided into Early Vedic (1500-1000 BCE) and Later Vedic (1000-600 BCE) periods.
+
+## 1. Early Vedic Period (1500 - 1000 BCE)
+- Geography: Settled in the **Sapta-Sindhu** region (Land of 7 Rivers: Indus, Saraswati, and 5 rivers of Punjab).
+- Polity: Tribal structure. King (Rajan) was not absolute, advised by assemblies: **Sabha** (council of elders), **Samiti** (general tribal assembly), and **Vidatha** (oldest folk assembly). Women attended Sabha/Vidatha.
+- Society & Economy: Pastoral economy. Cattle (Gau) was the main form of wealth (wars fought for cows called Gavisthi ). Society was egalitarian; caste system (Varna) was flexible, based on occupation, not birth.
+
+## 2. Later Vedic Period (1000 - 600 BCE)
+- Geography: Shifted eastward to the Gangetic Valley (Aryavarta). Use of iron (called Shyama Ayas ) cleared thick forests.
+- Polity: Territorial kingdoms (Janapadas) emerged. Royal power increased. Sabha and Samiti lost power; Vidatha was abolished. Women were no longer allowed to attend assemblies.
+- Society & Economy: Transition to an agrarian economy. Caste system became rigid and hereditary, split into 4 Varnas (Brahmins, Kshatriyas, Vaishyas, Shudras). 4 Ashramas (stages of life) emerged.
+
+## 3. Vedic Literature
+- Four Vedas: Rigveda (hymns), Samaveda (music/chants), Yajurveda (rituals), Atharvaveda (magic/spells).
+- Brahmanas: Prose texts explaining the rituals of the Vedas.
+- Aranyakas: Forest books dealing with mysticism and philosophy.
+- Upanishads: Philosophical texts (Vedanta). Total 108. **"Satyameva Jayate"** is in **Mundaka Upanishad**.
+
+## High-Yield Formulas & Facts
+- Rigveda oldest | Mundaka Upanishad: Satyameva Jayate | Early Vedic: pastoral | Later Vedic: iron farming
+
+
+--- Vijayanagara Empire ---
+Subject: History (CDS/NDA)
+Chapter: 4. Medieval India
+
+## 🏛️ The Vijayanagara Empire (1336 - 1646)
+The supreme Hindu kingdom of Southern India, acting as a bulwark against northern Sultanate expansions.
+
+## 1. History & Dynasties
+- Founded in 1336 by brothers **Harihara I & Bukka I** (Sangama Dynasty) on the southern bank of Tungabhadra River, inspired by sage Vidyaranya.
+- Four dynasties: Sangama, Saluva, Tuluva, and Aravidu.
+- **Battle of Talikota (1565):** Also known as Battle of Bannihatti. Combined forces of Deccan Sultanates (except Berar) defeated Vijayanagara army. Rama Raya was captured and executed. Capital Hampi was sacked.
+- **Foreign Travellers:** Nicolo de Conti (Italy, 1420), Abdur Razzaq (Persia, 1443), Domingo Paes (Portugal, 1520), Fernao Nuniz (Portugal, 1535).
+
+## High-Yield Formulas & Facts
+- Founded: 1336 (Harihara & Bukka) | Peak: Krishnadevaraya | Capital ruins: Hampi | Talikota: 1565
+
+
+--- Active & Passive Voice ---
+Subject: English (NDA/CDS/AFCAT)
+Chapter: Grammar & Usage
+
+## High-Yield Formulas & Facts
+- Active (S + V + O) ↔ Passive (O + helping verb + V3 + by S)
+
+
+--- What is History? ---
+Subject: History (CDS/NDA)
+Chapter: 1. Historiography & Historical Foundations
+
+## 📚 Meaning and Scope of History
+History is the systematic analysis of past human events, cultures, and structures. It is not a static list of dates, but a dynamic, interpretative science that examines cause-and-effect relationships over time.
+
+## 1. Core Foundations
+- Definition: The word comes from Greek Historia (inquiry/knowledge acquired by investigation). E.H. Carr defined it as "an unending dialogue between the present and the past."
+- Importance of Chronology: Establishes the exact sequence of events, helping to avoid anachronisms and trace the evolutionary progression of human society.
+- Cause and Effect: Every historical event has roots in economic, social, political, or geographical causes, and produces consequences that shape subsequent eras.
+- Periodisation of Indian History: Originally divided by colonial historians (like James Mill) into Hindu, Muslim, and British periods (a communal division). Modern historians classify it scientifically into Ancient, Medieval, and Modern periods.
+- Social, Economic & Cultural History: Shift from dynastic history (kings and wars) to social structures (caste, gender), economic patterns (trade routes, land revenue), and cultural expressions (art, religion).
+
+## High-Yield Formulas & Facts
+- Primary Sources: contemporary | Secondary Sources: later analysis
+
+
+--- World Geography: Mountains, Forests & Rivers ---
+Subject: Geography (CDS/NDA)
+Chapter: Physical & World Geography
+
+## High-Yield Formulas & Facts
+- Major Mountains & World Rivers
+
+
+--- Straits, Canals, Deserts & Seas ---
+Subject: Geography (CDS/NDA)
+Chapter: Physical & World Geography
+
+## High-Yield Formulas & Facts
+- Straits: Malacca, Gibraltar, Hormuz, Bab-el-Mandeb, Bering
+- Canals: Suez, Panama
+- Deserts: Sahara (hot), Atacama (driest), Gobi (cold)
+
+
+--- World War I ---
+Subject: History (CDS/NDA)
+Chapter: 6. World History
+
+## 💥 World War I (1914 - 1918)
+A global war fought mainly in Europe, changing map boundaries and destroying empires.
+
+## 1. Causes and Blocs
+- Causes: Imperialist competition, secret alliances, arms race, militarism, and rise of nationalism.
+- Immediate Cause: Assassination of **Archduke Franz Ferdinand** (heir to the Austro-Hungarian throne) in Sarajevo (Bosnia) on 28 June 1914 by Serbian nationalist Gavrilo Princip.
+- Alliances: - *Allied Powers:* Britain, France, Russia, Italy, Japan, and USA (entered 1917 after German submarines sank US ships). - *Central Powers:* Germany, Austria-Hungary, Ottoman Empire (Turkey), Bulgaria.
+
+## 2. Outcomes
+- Ended with Germany's surrender on 11 Nov 1918. Signed the **Treaty of Versailles (1919)**, placing the guilt of war on Germany, stripping its colonies, and imposing massive reparations.
+- Collpase of major empires: German, Austro-Hungarian, Russian (became USSR), and Ottoman (led to modern Turkey).
+- Created the **League of Nations (1920)** to prevent future wars (failed due to US absence and lack of military power).
+
+## High-Yield Formulas & Facts
+- WWI: 1914-1918 | Trigger: Sarajevo Assassination | End: Treaty of Versailles (1919)
+
+
+--- World War II ---
+Subject: History (CDS/NDA)
+Chapter: 6. World History
+
+## 💣 World War II (1939 - 1945)
+The most destructive conflict in human history, involving the majority of the world's nations.
+
+## 1. Causes and Outbreak
+- Causes: Failure of the League of Nations, rise of fascism/nazism, policy of appeasement (Britain/France letting Hitler annex territory), and German dissatisfaction with Versailles.
+- Immediate Cause: Germany's invasion of **Poland** on 1 September 1939. Britain and France declared war on Germany.
+- Alliances: - *Axis Powers:* Germany (Hitler), Italy (Mussolini), Japan (Tojo). - *Allied Powers:* Britain (Churchill), USSR (Stalin), USA (Roosevelt / Truman), China.
+
+## 2. Decisive Events & End
+- **Pearl Harbor (7 Dec 1941):** Japan attacked US naval base in Hawaii. Prompted USA to enter the war.
+- **Battle of Stalingrad (1942-43):** Turning point in Europe. Soviet Red Army defeated German forces.
+- **D-Day (6 June 1944):** Allied invasion of Normandy (France), liberating Western Europe.
+- **The Holocaust:** Systematic, state-sponsored genocide of 6 million Jews by Nazi Germany.
+- **End:** Germany surrendered in May 1945 (Hitler committed suicide). Japan surrendered after USA dropped atomic bombs: **"Little Boy"** on **Hiroshima** (6 August 1945) and **"Fat Man"** on **Nagasaki** (9 August 1945).
+
+## High-Yield Formulas & Facts
+- WWII: 1939-1945 | Trigger: Poland Invasion | Atomic Bombs: Hiroshima (Aug 6), Nagasaki (Aug 9, 1945)
+
+

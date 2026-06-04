@@ -1,0 +1,24 @@
+{
+    "id": "straight-lines",
+    "title": "Straight Lines",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Coordinate Geometry (2D & 3D)",
+    "chapterId": "2d-geometry",
+    "blocks": [
+        {
+            "heading": "1. Equations of a Line",
+            "intro": "",
+            "bullets": [
+                "Slope-Intercept: y = mx + c",
+                "Point-Slope: y - y1 = m(x - x1)",
+                "Normal Form: xcosalpha + ysinalpha = p"
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "<li><strong>Distance from point to line:</strong> d = \frac{|Ax1 + By1 + C|}{sqrt{A^2 + B^2}}</li>"
+    ],
+    "hasNotes": true
+}

@@ -1,0 +1,44 @@
+{
+    "id": "religion-festivals",
+    "title": "Religion & Festivals",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "chapterId": "art-culture-heritage",
+    "blocks": [
+        {
+            "heading": "\ud83d\udd49\ufe0f Indian Philosophy & Festivals",
+            "intro": "The intellectual schools of thought and cultural celebrations across communities in India.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Six Orthodox Schools (Shad-Darshanas)",
+            "intro": "",
+            "bullets": [
+                "Samkhya (Sage Kapila): Oldest school. Dualism of Prakriti (matter) and Purusha (soul).",
+                "Yoga (Sage Patanjali): Focuses on physical and mental control as path to liberation.",
+                "Nyaya (Sage Gautama): Logicians. Stresses logical thinking and verification.",
+                "Vaisheshika (Sage Kanada): Introduced atom theory (*Anu*). Proved universe is made of physical elements.",
+                "Mimamsa (Sage Jaimini): Stresses the ritualistic teachings of the Vedas.",
+                "Vedanta (Sage Badarayana): Explores philosophical essence of Upanishads. Later divided into Advaita (monism of Adi Shankara) and Vishishtadvaita (Ramanuja)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Regional Festivals",
+            "intro": "",
+            "bullets": [
+                "**Onam (Kerala):** Harvest festival, celebrates King Mahabali's return. Famous for Snake Boat Races (*Vallam Kali*).",
+                "**Pongal (Tamil Nadu):** 4-day harvest festival.",
+                "**Bihu (Assam):** 3 festivals (Rongali, Kongali, Bhogali) marking agricultural cycles.",
+                "**Hornbill Festival (Nagaland):** \"Festival of Festivals\", showcasing rich tribal heritage."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "National Calendar: Saka Era (78 CE) | Onam: Kerala | Pongal: TN | Hornbill: Nagaland"
+    ],
+    "hasNotes": true
+}

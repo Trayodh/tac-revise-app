@@ -1,0 +1,39 @@
+{
+    "id": "paintings",
+    "title": "Paintings",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "chapterId": "art-culture-heritage",
+    "blocks": [
+        {
+            "heading": "\ud83c\udfa8 Painting Traditions of India",
+            "intro": "From ancient cave murals to royal miniature schools and tribal folk paintings.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Murals & Miniatures",
+            "intro": "",
+            "bullets": [
+                "Mural Paintings: Giant paintings done on walls/rocks. Prominent at Ajanta Caves (Jataka tales, Fresco technique - painting on wet plaster) and Bagh.",
+                "Miniature Paintings: Small, detailed paintings on paper or palm leaves. - *Mughal School:* Introduced court scenes, portraits, hunting scenes. Reached peak under **Jahangir**. - *Rajput School:* Focused on religious themes (Radha-Krishna, Ramayana) and courtly lives. E.g., Kangra, Basohli, Kishangarh (famous painting *Bani Thani*)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Folk Paintings",
+            "intro": "",
+            "bullets": [
+                "Madhubani Paintings (Bihar): Mithila region. Traditionally done by women using rice paste, twigs, fingers, and natural dyes. Displays nature, birds, fish, and deities. Has geographical indication (GI) tag.",
+                "Warli Paintings (Maharashtra): Tribal art using basic geometric shapes (triangles, circles, squares) made of white paste (rice flour) on mud/ochre walls, showing daily activities, crop cycles, and tarpa dance.",
+                "Pattachitra (Odisha): Scroll paintings on cloth or dried palm leaves. Displays tales of Lord Jagannath and Krishna."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Ajanta: Buddhist murals | Miniatures peak: Jahangir | Madhubani: Bihar | Warli: Maharashtra"
+    ],
+    "hasNotes": true
+}

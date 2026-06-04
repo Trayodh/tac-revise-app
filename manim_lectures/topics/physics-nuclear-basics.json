@@ -1,0 +1,16 @@
+{
+    "id": "physics-nuclear-basics",
+    "title": "Nuclear Physics & Radioactivity",
+    "subject": "Physics (NDA/CDS)",
+    "subjectId": "physics",
+    "chapter": "Modern Physics & Units",
+    "chapterId": "physics-modern",
+    "blocks": [],
+    "formulas": [
+        "Fission: heavy nucleus splits (U-235)",
+        "Fusion: light nuclei combine (H-isotopes in Sun)",
+        "Radioactivity: Alpha (He-nuclei), Beta (electrons), Gamma (photons)",
+        "Half-life: T1/2 = 0.693 / \u03bb"
+    ],
+    "hasNotes": false
+}

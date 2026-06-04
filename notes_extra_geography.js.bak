@@ -1,0 +1,18 @@
+window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
+EXPANDED_NOTES_DATA["geography-pyq-trends-topic"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Geography PYQ Trends (NDA/CDS)
+  </h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">1. Physical Geography Focus</h4>
+  <ul>
+    <li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Atmospheric Layers:</strong> Question patterns focus on the properties of layers (e.g., radio waves reflected by Ionosphere, airplanes flying in Stratosphere).</li>
+    <li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Monsoon System:</strong> Causes of monsoon, advance/retreat branches, and winter rain in Coromandel coast (Northeast Monsoon).</li>
+    <li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Ocean Currents:</strong> Matching questions of warm vs cold currents (e.g., Humboldt, Gulf Stream, Labrador) and their impact on global climate.</li>
+  </ul>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">2. Mapping & Indian Geography</h4>
+  <ul>
+    <li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Mountain Passes:</strong> Strategic locations of passes like Zoji La, Nathu La, Shipki La, Khardung La.</li>
+    <li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Rivers & Tributaries:</strong> Left vs right bank tributaries of Ganga, Yamuna, Godavari, and Krishna.</li>
+  </ul>
+</div>`;
+

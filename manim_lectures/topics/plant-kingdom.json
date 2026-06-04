@@ -1,0 +1,17 @@
+{
+    "id": "plant-kingdom",
+    "title": "Plant Kingdom Classification",
+    "subject": "Biology (NDA/CDS)",
+    "subjectId": "biology",
+    "chapter": "Plant & Animal Kingdoms",
+    "chapterId": "biology-kingdoms",
+    "blocks": [],
+    "formulas": [
+        "Thallophyta: Algae (no roots/stems/leaves)",
+        "Bryophyta: Amphibians of plant kingdom (Funaria/Moss)",
+        "Pteridophyta: First vascular plants (Ferns/Marsilea)",
+        "Gymnosperms: Naked seeds (Pinus/Cycas)",
+        "Angiosperms: Enclosed seeds, flowers, Monocots & Dicots"
+    ],
+    "hasNotes": false
+}

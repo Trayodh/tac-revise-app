@@ -1,0 +1,43 @@
+{
+    "id": "buddhism-jainism",
+    "title": "Buddhism & Jainism",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "3. Ancient India",
+    "chapterId": "ancient-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83e\uddd8 Buddhism & Jainism",
+            "intro": "Heterodox religious movements that arose in the 6th century BCE as a reaction to Vedic ritualism and caste rigidity.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Buddhism (Gautama Buddha: 563 - 483 BCE)",
+            "intro": "",
+            "bullets": [
+                "Born as Siddhartha in Lumbini (Nepal) to Shakya Chief Shuddhodana. Renounced home at 29 (Mahabhinishkramana). Attained Nirvana at Bodh Gaya under a Pipal tree. First sermon at Sarnath (Dhammachakkapavattana). Died at Kusinara (Mahaparinirvana).",
+                "Core Teachings: 4 Noble Truths (Arya Satyas), Eightfold Path (Ashtangika Marga), theory of no-soul (Anatta) and impermanence (Anicca).",
+                "Buddhist Councils: 1st Council (483 BCE): Rajgir. Presided by Mahakasyapa, patron Ajatashatru. Compiled Sutta Pitaka (Ananda) and Vinaya Pitaka (Upali).",
+                "2nd Council (383 BCE): Vaishali. Presided by Sabakami, patron Kalasoka. Split into Sthaviravadins and Mahasanghikas.",
+                "3rd Council (250 BCE): Pataliputra. Presided by Moggaliputta Tissa, patron Ashoka. Compiled Abhidhamma Pitaka.",
+                "4th Council (72 CE): Kundalvana (Kashmir). Presided by Vasumitra/Ashvaghosha, patron **Kanishka**. Split Buddhism into **Hinayana** and **Mahayana**."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Jainism (Vardhamana Mahavira: 599 - 527 BCE)",
+            "intro": "",
+            "bullets": [
+                "24th Tirthankara (1st: Rishabhanatha, 23rd: Parshvanatha). Born at Kundagrama near Vaishali to Jnatrika Chief Siddhartha. Attained Kaivalya at Jrimbhikagrama. Died at Pavapuri.",
+                "Core Teachings: Tri-ratnas (Right Faith, Right Knowledge, Right Conduct). 5 Vows (Ahimsa, Satya, Asteya, Aparigraha, Brahmacharya - added by Mahavira). **Anekantavada / Syadvada** (theory of pluralism/relative truth). Extremely strict non-violence.",
+                "Sects: Split into **Digambaras** (sky-clad/naked, led by Bhadrabahu who migrated south during famine) and **Svetambaras** (white-clad, led by Sthulabhadra in Magadha)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "1st Buddhist Council: Rajgriha (Ajatashatru) | 3rd: Pataliputra (Ashoka) | 4th: Kashmir (Kanishka)"
+    ],
+    "hasNotes": true
+}

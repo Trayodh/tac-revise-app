@@ -1,0 +1,48 @@
+{
+    "id": "parliament",
+    "title": "Parliament of India (Art 79-122)",
+    "subject": "Indian Polity (CDS/NDA)",
+    "subjectId": "polity",
+    "chapter": "Union Government",
+    "chapterId": "union-executive",
+    "blocks": [
+        {
+            "heading": "1. Composition of Parliament",
+            "intro": "Parliament consists of the **President**, the **Council of States (Rajya Sabha)**, and the **House of the People (Lok Sabha)**.",
+            "bullets": [
+                "Rajya Sabha (Upper House) : Max strength: 250 (238 elected from States/UTs, 12 nominated by President from Art, Literature, Science, Social Service).",
+                "It is a **permanent body** and not subject to dissolution.",
+                "Members have a **6-year term**, with **one-third** retiring every second year.",
+                "Lok Sabha (Lower House) : Max strength: 550 (530 representing States, 20 representing Union Territories). (Anglo-Indian reserved seats abolished by 104th Amendment).",
+                "Normal term: **5 years**, can be dissolved earlier by the President."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Key Parliamentary Terms",
+            "intro": "",
+            "bullets": [
+                "Quorum (Article 100) : Minimum number of members required to be present to conduct a meeting. It is **one-tenth** of the total number of members in each House (i.e., 55 in Lok Sabha, 25 in Rajya Sabha), including the presiding officer.",
+                "Joint Sitting (Article 108) : Called by the President to resolve deadlocks between LS and RS on **Ordinary Bills** or **Financial Bills**. Presided over by the **Speaker of the Lok Sabha**. (If Speaker is absent, the Deputy Speaker; if absent, the Deputy Chairman of Rajya Sabha).",
+                "**Note**: Joint sittings **cannot** be called for Money Bills or Constitutional Amendment Bills."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Types of Bills & money Bills (Article 110)",
+            "intro": "",
+            "bullets": [
+                "Money Bill : Deals with taxation, borrowing, consolidated fund, etc. Can only be introduced in the **Lok Sabha** on the recommendation of the President.",
+                "The **Speaker's decision** on whether a bill is a money bill is final.",
+                "Rajya Sabha has restricted powers; it can only delay the bill for **14 days** and cannot reject or amend it."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Quorum = 1/10th of membership.",
+        "Joint Sitting = Art 108 (Presided by LS Speaker).",
+        "Money Bill = Art 110 (Certified by LS Speaker)."
+    ],
+    "hasNotes": true
+}

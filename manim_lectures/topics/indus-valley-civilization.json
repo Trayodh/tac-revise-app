@@ -1,0 +1,100 @@
+{
+    "id": "indus-valley-civilization",
+    "title": "Indus Valley Civilization",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "3. Ancient India",
+    "chapterId": "ancient-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83c\udf0a Indus Valley Civilization (IVC)",
+            "intro": "Also known as the Harappan Civilization. India's first urban revolution, flourishing in the Bronze Age (~2500 BCE - 1900 BCE).",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Discovery & Chronology",
+            "intro": "",
+            "bullets": [
+                "First discovered in 1921 at **Harappa** by **Daya Ram Sahni** under John Marshall.",
+                "**Mohenjo-daro** discovered in 1922 by **R.D. Banerji**.",
+                "Dated via Carbon-14. Mature Phase: 2600 - 1900 BCE."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Town Planning & Drainage (Exhaustively Tested)",
+            "intro": "",
+            "bullets": [
+                "Grid System: Streets cut each other at right angles, dividing the city into rectangular blocks.",
+                "Citadel & Lower Town: Most cities were divided into a raised Citadel (west, housing public buildings, elites) and a Lower Town (east, housing commoners). Exception: **Dholavira** had three divisions (Citadel, Middle, Lower).",
+                "Drainage System: Advanced underground covered drains made of burnt bricks, with manholes/soak pits at regular intervals. House drains connected directly to main street drains.",
+                "Building Material: Standardized burnt bricks with a ratio of **4:2:1** (length:breadth:thickness)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Site-Wise High-Yield Facts",
+            "intro": "",
+            "bullets": [],
+            "tableRows": [
+                [
+                    "Site",
+                    "Location & River",
+                    "Key Discoveries & Signature Features"
+                ],
+                [
+                    "Harappa",
+                    "Punjab (Pak), Ravi",
+                    "6 Granaries in a row, stone symbols of Lingam and Yoni, coffin bu"
+                ],
+                [
+                    "Mohenjo-daro",
+                    "Sindh (Pak), Indus",
+                    "Meaning: \"Mound of the Dead\". **Great Bath**, Great Granary, Bron"
+                ],
+                [
+                    "Lothal",
+                    "Gujarat, Bhogava",
+                    "**Artificial Dockyard** (trade with Mesopotamia), double burials "
+                ],
+                [
+                    "Kalibangan",
+                    "Rajasthan, Ghaggar",
+                    "Meaning: \"Black Bangles\". **Ploughed field surface** (earliest ev"
+                ],
+                [
+                    "Dholavira",
+                    "Gujarat (Kutch)",
+                    "Tripartite division, massive **water reservoirs**, stadium, billb"
+                ],
+                [
+                    "Chanhudaro",
+                    "Sindh (Pak), Indus",
+                    "Only city **without a Citadel**. Bead-making factory, inkwell, li"
+                ],
+                [
+                    "Surkotada",
+                    "Gujarat",
+                    "Only site containing actual **horse bones**. Pot burials."
+                ]
+            ]
+        },
+        {
+            "heading": "4. Economy, Script & Decline",
+            "intro": "",
+            "bullets": [
+                "Economy: Agriculture-based (wheat, barley, cotton - first to produce cotton globally, called Sindon by Greeks). Trade with Mesopotamia (called Meluhha in cuneiform texts).",
+                "Script & Seals: Pictographic script (undeciphered). Written in **Boustrophedon** style (right-to-left, then left-to-right). Seals mostly made of **steatite** (soapstone), rectangular/square showing animals.",
+                "Decline Theories: Aryan Invasion: Mortimer Wheeler (criticised now).",
+                "Floods: Marshall, S.R. Rao.",
+                "Ecological Imbalance / Drying of Rivers: Sood and Agrawal, Rafique Mughal."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Lothal: Dockyard | Kalibangan: Ploughed fields | Dholavira: Reservoirs | Harappa: Ravi"
+    ],
+    "hasNotes": true
+}

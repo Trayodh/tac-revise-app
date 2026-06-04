@@ -1,0 +1,20 @@
+Keyword 'Mauryan': 4 matches
+  Line 47: ge)**, and **Northern Black Polished Ware (NBPW - Mauryan)** act as chronological markers.</li>   </ul>    <h3>2. Literary Sources</h3>   <ul>     <li><strong>Religious Texts:</strong> Vedas, Puranas,
+  Line 62: <li>**Greek:** Megasthenes (<em>Indica</em>, Mauryan administration).</li>         <li>**Chinese:** Fa-Hien (Gupta period under Chandragupta II) and Hiuen Tsang (Harsha's reign, studied at Naland
+  Line 363: DED_NOTES_DATA["mauryan-period"] = `   <h2>🛡️ The Mauryan Empire (322 - 185 BCE)</h2>   <p>India's first historical empire, establishing central control over most of the subcontinent.</p>    <h3>1. Ru
+  Line 389: NOTES_DATA["post-mauryan-india"] = `   <h2>🏺 Post-Mauryan Period</h2>   <p>Characterized by political fragmentation, rise of regional dynasties, and foreign invasions from Central Asia.</p>    <h3>1.
+Keyword 'Gupta': 8 matches
+  Line 34: </em> Composed in Sanskrit by Harishena, praising Gupta King Samudragupta.</li>         <li><em>Aihole Inscription:</em> Written by Ravikirti, describing Chalukya King Pulakeshin II's victory over Har
+  Line 44: rge-scale gold coins in India.</li>         <li>**Guptas** issued the largest number of gold coins (Dinars). Samudragupta's coins show him playing the Veena.</li>       </ul>     </li>     <li><strong
+  Line 63: stration).</li>         <li>**Chinese:** Fa-Hien (Gupta period under Chandragupta II) and Hiuen Tsang (Harsha's reign, studied at Nalanda).</li>         <li>**Arab/Persian:** Al-Biruni (<em>Kitab-ul-H
+  Line 101: ing:8px; border:1px solid var(--border);"><strong>Gupta Era</strong></td>       <td style="padding:8px; border:1px solid var(--border);">319 - 320 CE</td>       <td style="padding:8px; border:1px soli
+  Line 104: );">Marks his accession to the throne and rise of Gupta power.</td>     </tr>     <tr>       <td style="padding:8px; border:1px solid var(--border);"><strong>Harsha Era</strong></td>       <td style="
+  Line 414: PANDED_NOTES_DATA["gupta-period"] = `   <h2>👑 The Gupta Empire (Golden Age: 320 - 550 CE)</h2>   <p>An era of political unification, economic prosperity, and unmatched achievements in science, literat
+  Line 419: 5 CE):</strong> First imperial ruler. Started the Gupta Era (319 CE). Married Licchavi princess Kumaradevi.</li>     <li><strong>Samudragupta (335 - 380 CE):</strong> Called **"Napoleon of India"** by
+  Line 1153: ijnanasakuntalam (Kalidasa):* Masterpiece play of Gupta era.       <br/>- *Mrichchakatikam (Shudraka):* "The Little Clay Cart" - social drama of ancient times.       <br/>- *Mudrarakshasa (Vishakhadat
+Keyword '1857': 5 matches
+  Line 535: al-empire"] = `   <h2>👑 The Mughal Empire (1526 - 1857)</h2>   <p>Established by Central Asian invaders, the Mughals built an extensive, culturally rich empire in India.</p>    <h3>1. Rulers & Triumph
+  Line 697: g (1856-1862):</strong> First Viceroy. Suppressed 1857 Revolt. Ended East India Company rule (GoI Act 1858). Abolished Doctrine of Lapse. Introduced portfolio system.</li>     <li><strong>Lord Lytton
+  Line 746: i>   </ul> `;  window.EXPANDED_NOTES_DATA["revolt-1857"] = `   <h2>🔥 The Revolt of 1857</h2>   <p>Often called India's First War of Independence. A massive armed uprising against East India Company ru
+  Line 747: TES_DATA["revolt-1857"] = `   <h2>🔥 The Revolt of 1857</h2>   <p>Often called India's First War of Independence. A massive armed uprising against East India Company rule.</p>    <h3>1. Causes of the R
+  Line 756: 34th NI shot his officer at Barrackpore (29 March 1857).</li>   </ul>    <h3>2. Major Centers & Leaders</h3>   <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">

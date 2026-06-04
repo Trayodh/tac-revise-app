@@ -1,0 +1,97 @@
+window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
+EXPANDED_NOTES_DATA["parts-of-speech"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Parts of Speech
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Nouns, Pronouns, Verbs, Adverbs, Adjectives, Prepositions, Conjunctions, Interjections</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["tenses-complete"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Tenses & Consistency
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Simple, Continuous, Perfect, Perfect Continuous (Present, Past, Future) + Conditionals</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["subject-verb-agreement"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Subject-Verb Agreement
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Singular/plural agreement, Collective nouns, Indefinite pronouns, Either/neither, neither-nor</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["sentence-structure"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Sentence Structure & Parallelism
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Clauses, Phrases, Types of sentences, Parallelism</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["voice-conversion"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Active & Passive Voice
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Active (S + V + O) ↔ Passive (O + helping verb + V3 + by S)</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["narration-speech"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Direct & Indirect Speech
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Direct ↔ Indirect (Reporting verb, pronoun, tense, proximity words shifts)</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["modifiers"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Modifiers: Misplaced & Dangling
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Modifiers must be placed adjacent to the words they modify; dangling modifiers lack logical subjects</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["punctuation-basics"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Punctuation Basics
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Comma, Apostrophe, Colon, Semicolon usage and rules</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["transformation-sentences"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Transformation of Sentences
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Simple ↔ Compound ↔ Complex, Assertive ↔ Interrogative ↔ Exclamatory, Degree changes</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["synonyms-antonyms-detailed"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> High-Frequency Synonyms/Antonyms
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Root word suffixes/prefixes (mal, bene, mis, anti, omni, phil, -cide, -phobia)</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["phrasal-verbs"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Phrasal Verbs
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">High-frequency phrasal verbs (Break down/out, call off, carry out, come across, look into, put off)</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["reading-comprehension"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Reading Comprehension
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Main idea, detail, inference, tone, title finding strategies</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["error-detection"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Spotting Errors
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Error areas:</strong> Tense, article, preposition, subject-verb, pronoun, modifiers, conjunction, redundancy, parallelism</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["sentence-improvement"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Sentence Improvement
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Improvement areas:</strong> Grammar, word choice, clarity, parallel structure, idiomatic usage, syntax correction</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["ordering-rearrangement"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Ordering of Words & Sentences
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Strategies for jumbled words (S-V-O) and jumbled sentences (opening sentence, mandatory pairs, closing sentence, transitions)</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["fill-blanks-cloze"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Fill in the Blanks & Cloze Test
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Asked from:</strong> Articles, prepositions, verb forms, tenses, vocabulary, idiomatic usage, contextual logic</li></ul>
+</div>`;
+

@@ -1,0 +1,16 @@
+{
+    "id": "econ-trade-bop",
+    "title": "Trade Policy & Balance of Payments",
+    "subject": "Economics (CDS/NDA)",
+    "subjectId": "economics",
+    "chapter": "Budgets, Trade & Economic Reforms",
+    "chapterId": "budget-trade-reforms",
+    "blocks": [],
+    "formulas": [
+        "BoP = Current A/C + Capital A/C",
+        "CAD: India typically deficit (oil imports)",
+        "FDI: Long-term, FPI: Short-term",
+        "WTO: Founded 1995"
+    ],
+    "hasNotes": false
+}

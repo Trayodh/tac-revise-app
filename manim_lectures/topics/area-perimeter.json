@@ -1,0 +1,13 @@
+{
+    "id": "area-perimeter",
+    "title": "2D Figures: Area & Perimeter",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Mensuration",
+    "chapterId": "mensuration",
+    "blocks": [],
+    "formulas": [
+        "2D Mensuration Formulas"
+    ],
+    "hasNotes": false
+}

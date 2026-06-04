@@ -1,0 +1,16 @@
+{
+    "id": "econ-budget-fiscal",
+    "title": "Government Budget, GST & Fiscal Policy",
+    "subject": "Economics (CDS/NDA)",
+    "subjectId": "economics",
+    "chapter": "Budgets, Trade & Economic Reforms",
+    "chapterId": "budget-trade-reforms",
+    "blocks": [],
+    "formulas": [
+        "FD = Total Exp - Total Revenue (excl borrowings)",
+        "GST: 101st Amendment (Jul 2017)",
+        "4 slabs: 5%, 12%, 18%, 28%",
+        "FRBM Act 2003"
+    ],
+    "hasNotes": false
+}

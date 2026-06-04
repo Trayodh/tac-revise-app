@@ -1,0 +1,17 @@
+{
+    "id": "carbon-compounds",
+    "title": "Carbon & its Compounds",
+    "subject": "Chemistry (NDA/CDS)",
+    "subjectId": "chemistry",
+    "chapter": "Carbon Compounds & Numericals",
+    "chapterId": "chemistry-carbon-numericals",
+    "blocks": [],
+    "formulas": [
+        "Alkanes: CnH2n+2",
+        "Alkenes: CnH2n",
+        "Alkynes: CnH2n-2",
+        "Diamond: sp3, Graphite: sp2, Fullerene: C-60",
+        "Esterification: Acid+Alcohol -> Ester"
+    ],
+    "hasNotes": false
+}

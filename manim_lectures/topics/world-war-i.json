@@ -1,0 +1,40 @@
+{
+    "id": "world-war-i",
+    "title": "World War I",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "6. World History",
+    "chapterId": "world-history-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udca5 World War I (1914 - 1918)",
+            "intro": "A global war fought mainly in Europe, changing map boundaries and destroying empires.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Causes and Blocs",
+            "intro": "",
+            "bullets": [
+                "Causes: Imperialist competition, secret alliances, arms race, militarism, and rise of nationalism.",
+                "Immediate Cause: Assassination of **Archduke Franz Ferdinand** (heir to the Austro-Hungarian throne) in Sarajevo (Bosnia) on 28 June 1914 by Serbian nationalist Gavrilo Princip.",
+                "Alliances: - *Allied Powers:* Britain, France, Russia, Italy, Japan, and USA (entered 1917 after German submarines sank US ships). - *Central Powers:* Germany, Austria-Hungary, Ottoman Empire (Turkey), Bulgaria."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Outcomes",
+            "intro": "",
+            "bullets": [
+                "Ended with Germany's surrender on 11 Nov 1918. Signed the **Treaty of Versailles (1919)**, placing the guilt of war on Germany, stripping its colonies, and imposing massive reparations.",
+                "Collpase of major empires: German, Austro-Hungarian, Russian (became USSR), and Ottoman (led to modern Turkey).",
+                "Created the **League of Nations (1920)** to prevent future wars (failed due to US absence and lack of military power)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "WWI: 1914-1918 | Trigger: Sarajevo Assassination | End: Treaty of Versailles (1919)"
+    ],
+    "hasNotes": true
+}

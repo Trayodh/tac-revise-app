@@ -1,0 +1,54 @@
+{
+    "id": "reflection-refraction",
+    "title": "Reflection, Refraction & Lenses",
+    "subject": "Physics (NDA/CDS)",
+    "subjectId": "physics",
+    "chapter": "Optics & Light",
+    "chapterId": "physics-optics",
+    "blocks": [
+        {
+            "heading": "1. Laws of Reflection & Mirror Formulas",
+            "intro": "",
+            "bullets": [
+                "First Law: The incident ray, the reflected ray, and the normal at the point of incidence all lie in the same plane.",
+                "Second Law: The angle of incidence is equal to the angle of reflection (i = r).",
+                "Mirror Formula : 1/f = 1/v + 1/u u = object distance (always negative).",
+                "v = image distance (positive for virtual, negative for real).",
+                "f = focal length (negative for concave, positive for convex).",
+                "Linear Magnification: m = -v/u = h\u1d62/h\u2092 (m is negative for real and inverted, positive for virtual and erect)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Refraction & Lens Formulas",
+            "intro": "",
+            "bullets": [
+                "Snell's Law : The ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant: sin i / sin r = constant = \u2081\u03bc\u2082 = \u03bc\u2082/\u03bc\u2081 .",
+                "Absolute Refractive Index: \u03bc = c / v (where c is speed of light in vacuum, v is speed in medium).",
+                "Lens Formula : 1/f = 1/v - 1/u",
+                "Linear Magnification (Lens): m = v/u = h\u1d62/h\u2092",
+                "Power of a Lens (P) : Reciprocal of focal length in meters. P = 1 / f(in m) . Unit: Dioptre (D) . Convex lens: f is positive \u21d2 P is positive.",
+                "Concave lens: f is negative \u21d2 P is negative."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Key Optical Phenomena",
+            "intro": "",
+            "bullets": [
+                "Total Internal Reflection (TIR) : Occurs when light travels from denser to rarer medium and the angle of incidence is greater than the critical angle (\u03b8c). Formula: **sin \u03b8c = 1/\u03bc**",
+                "Applications: Optical fibers, sparkling of diamonds, mirages in deserts, endoscopes.",
+                "Dispersion : Splitting of white light into constituent colors (VIBGYOR) when passing through a prism due to different speeds of different wavelengths in glass. Red deviates least, violet deviates most.",
+                "Scattering of Light : Scattering intensity is inversely proportional to the fourth power of wavelength (Rayleigh Scattering: **I \u221d 1/\u03bb\u2074**). Explains why sky is blue (blue has short wavelength, scatters more) and sun appears red at sunrise/sunset."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Mirror Formula: 1/f = 1/v + 1/u",
+        "Lens Formula: 1/f = 1/v - 1/u",
+        "Lens Power: P = 1/f (dioptres)",
+        "Refractive Index: n = c/v"
+    ],
+    "hasNotes": true
+}

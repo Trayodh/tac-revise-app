@@ -1,0 +1,23 @@
+{
+    "id": "ancient-indian-culture",
+    "title": "Ancient Indian Culture",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "3. Ancient India",
+    "chapterId": "ancient-india-tree",
+    "blocks": [
+        {
+            "heading": "1. Literature & Philosophy",
+            "intro": "",
+            "bullets": [
+                "Sanskrit Drama: Kalidasa ( Abhijnanasakuntalam ), Shudraka ( Mrichchakatikam - Clay Cart), Vishakhadatta ( Mudrarakshasa ).",
+                "6 Orthodox Schools (Shad-Darshana): Samkhya (Kapila), Yoga (Patanjali), Nyaya (Gautama), Vaisheshika (Kanada), Mimamsa (Jaimini), Vedanta (Badarayana)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Mrichchakatikam: Shudraka | Mudrarakshasa: Vishakhadatta | Yoga: Patanjali | Vaisheshika: Kanada"
+    ],
+    "hasNotes": true
+}

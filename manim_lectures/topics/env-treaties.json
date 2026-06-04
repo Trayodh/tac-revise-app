@@ -1,0 +1,17 @@
+{
+    "id": "env-treaties",
+    "title": "Climate Change Treaties & India's NDCs",
+    "subject": "Environment & Ecology",
+    "subjectId": "environment",
+    "chapter": "Climate, Laws & Renewable Energy",
+    "chapterId": "climate-laws-energy",
+    "blocks": [],
+    "formulas": [
+        "Paris Agreement (COP21, 2015): Limit to 1.5-2\u00b0C",
+        "Kyoto Protocol 1997: Binding for Annex I",
+        "Montreal Protocol 1987: Ozone",
+        "India Net Zero: 2070",
+        "Panchamrit: 500 GW RE by 2030"
+    ],
+    "hasNotes": false
+}

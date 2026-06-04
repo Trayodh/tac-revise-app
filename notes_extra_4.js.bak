@@ -1,0 +1,145 @@
+window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
+EXPANDED_NOTES_DATA["data-interpretation"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Data Interpretation: Tables, Bar & Pie Charts
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">DI Formulas</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["lines-angles-triangles"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Lines, Angles & Triangles
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Geometry Theorems</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["circles-polygons"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Circles & Polygons
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Circle Theorems</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["area-perimeter"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> 2D Figures: Area & Perimeter
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">2D Mensuration Formulas</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["surface-area-volume"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> 3D Solids: Surface Area & Volume
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">3D Mensuration Formulas</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["percentages-profit-loss"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Percentages, Profit & Loss
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Arithmetic Formulas</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["ratios-averages"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Ratios, Proportions & Averages
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Arithmetic Formulas</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["time-distance"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Time, Speed, Distance & Work
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Speed & Work Formulas</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["one-word-substitution"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> One Word Substitutions
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Root words & Categories (-cracy, -archy, -cide, -phobia, -phile, personalities)</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["idioms-phrases"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Idioms & Phrases
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Theme-based idioms (animal, color, action-related)</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["amendments-parts"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Constitutional Amendments, Parts & Schedules
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Schedules:</strong> TEARS OF OLD PM</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["important-articles"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> High-Yield Special Articles Cheat Sheet
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Emergencies:</strong> 352, 356, 360</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["positions-tenures"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Elections, Appointments & Terms of Office
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Ages:</strong> Pres (35), Gov (35), LS (25), RS (30)</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["constitutional-bodies"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Constitutional & Non-Constitutional Bodies
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Constitutional:</strong> Art 324 (EC), Art 280 (FC), Art 148 (CAG)</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["universe-solar-system"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> The Universe & Solar System
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Cosmology Facts</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["earth-atmosphere"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Earth Structure & Atmosphere
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Lapse Rate = 6.5°C/km</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["climatology-clouds"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Climatology: Climatic Zones & Clouds
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Cloud types:</strong> High, Middle, Low, Convective</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["geomorphology-rocks"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Geomorphology: Rocks, Plate Tectonics & Volcanism
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Seismic Waves:</strong> P-waves, S-waves</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["world-geography-mountains"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> World Geography: Mountains, Forests & Rivers
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Major Mountains & World Rivers</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["syl-geog"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Indian Geography (Rivers, Passes & Soils)
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;"><strong style="color: var(--text-primary);">Dakshin Ganga:</strong> Godavari</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["india-forests-wetlands"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Forests, Trees & Wetlands of India
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Wetlands (Ramsar Sites)</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["india-resources-farming"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Mineral Resources & Types of Farming
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Mineral Belts of India</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["india-transport-routes"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> Transport Routes: Highways & Waterways
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Highways & Waterways corridors</li></ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["india-national-parks"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>🔹</span> National Parks of India (Map Guide)
+  </h3><h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4><ul style="margin-left: 20px; list-style-type: disc; margin-bottom: 12px; color: var(--text-secondary);"><li style="margin-bottom: 8px; line-height: 1.6;">Key National Parks locations</li></ul>
+</div>`;
+

@@ -1,0 +1,15 @@
+{
+    "id": "ca-awards",
+    "title": "National Awards & Honours",
+    "subject": "Current Affairs & GK",
+    "subjectId": "current-affairs",
+    "chapter": "Reports, Awards & Judgments",
+    "chapterId": "reports-awards-judgments",
+    "blocks": [],
+    "formulas": [
+        "Bharat Ratna > Padma Vibhushan > Padma Bhushan > Padma Shri",
+        "PVC > MVC > VC (wartime)",
+        "Ashoka Chakra > KC > SC (peacetime)"
+    ],
+    "hasNotes": false
+}

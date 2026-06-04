@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Defence Exams Revision Workspace (NDA, CDS, AFCAT)</title>
+  <meta name="description" content="Tac-Revise — AI-powered revision platform for NDA, CDS, and AFCAT defence examinations.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>TAC</text></svg>">
+  <link rel="stylesheet" href="index.css?v=4">
+  <!-- MathJax Configuration + CDN for rendering LaTeX equations -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="logo-section">
+        <div class="logo-icon">TAC</div>
+        <div class="logo-text">TAC-REVISE</div>
+      </div>
+      
+      <!-- Persistent Exam Countdown Widget -->
+      <div class="countdown-widget" style="padding: 16px 20px; border-bottom: 1px solid var(--border); background-color: rgba(0, 0, 0, 0.15);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+          <span style="font-family: var(--font-logo); font-size: 0.7rem; font-weight: 700; letter-spacing: 1px; color: var(--danger);">MISSION COUNTDOWN</span>
+          <span class="countdown-pulse" style="width: 8px; height: 8px; border-radius: 50%; background-color: var(--accent); box-shadow: 0 0 8px var(--accent); display: inline-block;"></span>
+        </div>
+        <select id="countdown-exam-selector" style="width: 100%; padding: 6px; border-radius: 4px; background-color: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.8rem; font-family: var(--font-main); cursor: pointer; margin-bottom: 10px; outline: none;">
+          <option value="auto">Nearest Exam (Auto)</option>
+          <option value="afcat">AFCAT 2 2026</option>
+          <option value="nda">NDA 2 2026</option>
+          <option value="cds">CDS 2 2026</option>
+        </select>
+        <div id="sidebar-countdown-timer" style="font-family: var(--font-mono); font-size: 1rem; font-weight: 600; color: var(--danger); letter-spacing: 0.5px; text-align: center; background: rgba(0,0,0,0.3); padding: 8px; border-radius: 6px; border: 1px dashed var(--border);">
+          00d : 00h : 00m : 00s
+        </div>
+      </div>
+      
+      <!-- Persistent AI Token Quota Widget -->
+      <div class="token-widget" style="padding: 16px 20px; border-bottom: 1px solid var(--border); background-color: rgba(0, 0, 0, 0.15);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+          <span style="font-family: var(--font-logo); font-size: 0.7rem; font-weight: 700; letter-spacing: 1px; color: var(--text-secondary);">TACTICAL TOKENS</span>
+          <span id="sidebar-token-count" style="font-family: var(--font-mono); font-size: 0.8rem; font-weight: 600; color: var(--info);">50,000 / 50,000</span>
+        </div>
+        <div style="width: 100%; height: 6px; background-color: rgba(255,255,255,0.05); border-radius: 3px; overflow: hidden; margin-bottom: 8px;">
+          <div id="sidebar-token-bar" style="width: 100%; height: 100%; background: linear-gradient(90deg, var(--info), var(--accent)); border-radius: 3px; transition: width 0.3s ease;"></div>
+        </div>
+        <div style="font-size: 0.65rem; color: var(--text-muted); display: flex; justify-content: space-between; align-items: center;">
+          <span>Cost: Chat ~500 | OMR ~4k | Solver ~5k | AI Console: Free</span>
+          <span style="color: var(--accent); font-weight: 500;">Resets Daily</span>
+        </div>
+      </div>
+      
+      <nav class="nav-links">
+        <a class="nav-item active" data-screen="dashboard">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z" />
+          </svg>
+          Dashboard
+        </a>
+        
+        <a class="nav-item" data-screen="notes">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+          </svg>
+          Notes & Formulas
+        </a>
+
+        <a class="nav-item" data-screen="current-affairs">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 17.75V6.75A2.25 2.25 0 0 1 5.25 4.5h10.5a2.25 2.25 0 0 1 2.25 2.25v.75m-3 3h3" />
+          </svg>
+          Current Affairs
+        </a>
+
+        <a class="nav-item" data-screen="cbt-mock-hub">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.375M9 18h3.375m1.875-12h7.5M20.25 6H12m1.875 3h7.5M20.25 9H12m-9.75 9.75c0 .414.336.75.75.75h16.5a.75.75 0 0 0 .75-.75V6.75A.75.75 0 0 0 19.5 6H4.5a.75.75 0 0 0-.75.75v12.75Z" />
+          </svg>
+          CBT Practice & PYQs
+        </a>
+
+        <a class="nav-item" data-screen="ai-console">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 21l-.813-5.096L3 15l5.187-.813L9 9l.813 5.187L15 15l-5.187.813ZM18.25 5.25 18 8l-.25-2.75L15 5l2.75-.25L18 2l.25 2.75L21 5l-2.75.25ZM14.25 11.25l-.25 2.75-.25-2.75L11 11l2.75-.25.25-2.75.25 2.75L17 11l-2.75.25Z" />
+          </svg>
+          AI Revision Console
+        </a>
+
+        <a class="nav-item" data-screen="paper-solver">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+          </svg>
+          AI Paper Solver
+        </a>
+      </nav>
+
+      <div class="user-profile">
+        <div class="avatar" id="user-avatar">CD</div>
+        <div class="user-info">
+          <div class="user-name">Defence Cadet</div>
+          <div class="user-rank" id="user-rank">Lieutenant</div>
+        </div>
+      </div>
+    
+      <div style="display: flex; gap: 8px;">
+        <button class="theme-toggle-btn" id="theme-toggle" onclick="document.body.classList.toggle('light-mode');" style="flex: 1; padding: 12px 8px;">
+           Light/Dark
+        </button>
+        <button class="theme-toggle-btn" onclick="document.getElementById('theme-selector-modal').style.display='flex';" style="flex: 1; padding: 12px 8px;">
+           Colors
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Workspace -->
+    <main class="main-content">
+
+      <!-- SCREEN: DASHBOARD -->
+      <section id="screen-dashboard" class="screen active">
+        <h1>Command Centre</h1>
+        <p class="subtitle">Operational readiness and revision stats</p>
+
+        <!-- Summary Stats Grid -->
+        <div class="grid-cols-4">
+          <div class="metric-card">
+            
+            <div class="metric-data">
+              <span class="metric-value" id="stat-streak">0</span>
+              <span class="metric-label">Daily Streak</span>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            
+            <div class="metric-data">
+              <span class="metric-value" id="stat-syllabus">0%</span>
+              <span class="metric-label">Syllabus Covered</span>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            
+            <div class="metric-data">
+              <span class="metric-value" id="stat-formulas">0</span>
+              <span class="metric-label">Formulas Revised</span>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            
+            <div class="metric-data">
+              <span class="metric-value" id="stat-cbt-avg">0%</span>
+              <span class="metric-label">Avg CBT Score</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-cols-2">
+          <!-- Quick Study Launch -->
+          <div class="panel">
+            <div class="panel-title"> Concept & Formula Hub</div>
+            <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">
+              Jump directly back into revision notes and cheat sheets. Revision covers NDA Math, CDS General Knowledge, and AFCAT Military Aptitude.
+            </p>
+            <button class="btn-primary" onclick="switchScreen('notes')" style="width: auto; padding-left: 24px; padding-right: 24px;">Open Revision Notes</button>
+          </div>
+
+          <!-- CBT Analytics Widget -->
+          <div class="panel">
+            <div class="panel-title">Recent CBT Exercises</div>
+            <div id="dashboard-recent-cbt" style="color: var(--text-secondary); font-size: 0.9rem;">
+              <!-- Dynamic lists of scores -->
+              No tests taken yet. Launch CBT Mock Test Hub to start your revision.
+            </div>
+          </div>
+        </div>
+
+        <!-- AI Strategy Builder Panel -->
+        <div class="panel glow" style="margin-bottom: 24px; border-left: 4px solid var(--info); background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(14, 165, 233, 0.05) 100%);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 10px;">
+            <div class="panel-title" style="margin-bottom: 0;">AI Tactical Strategy Builder</div>
+            <button class="btn-primary" onclick="generateAiStrategy()" style="width: auto; padding-left: 16px; padding-right: 16px; font-size: 0.85rem; background: var(--info); border-color: var(--info);">
+              Generate Strategy Report
+            </button>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 16px;">
+            Uses Gemini AI to scan your Syllabus Mastery and CBT Scores. It will formulate a harsh but effective military-style study plan based exactly on your weak points.
+          </p>
+          <div class="ai-response-area" id="strategy-report-container" style="display: none; margin-top: 16px; padding: 16px; background: rgba(0,0,0,0.4); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+            <!-- AI strategy markdown goes here -->
+          </div>
+        </div>
+
+        <!-- Motivation Of The Day Panel -->
+        <div class="panel glow" style="margin-bottom: 24px; border-left: 4px solid var(--accent); background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(22, 163, 74, 0.05) 100%);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 10px;">
+            <div class="panel-title" style="margin-bottom: 0;">Motivation Of The Day: Tales of Bravery</div>
+            <span id="motivation-date" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 4px 8px; border-radius: 4px;"></span>
+          </div>
+          
+          <div id="motivation-content">
+            <h3 id="motivation-hero" style="color: var(--accent); font-size: 1.1rem; margin-bottom: 4px;"></h3>
+            <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px; font-weight: 500; font-family: var(--font-logo);">
+              <span id="motivation-award" style="color: #f59e0b; margin-right: 12px;"></span>
+              <span id="motivation-unit" style="margin-right: 12px;"></span>
+              <span id="motivation-year"></span>
+            </div>
+            <p id="motivation-story" style="font-style: italic; color: var(--text-primary); line-height: 1.6; font-size: 0.95rem; margin-bottom: 16px; border-left: 2px solid rgba(255,255,255,0.1); padding-left: 12px;"></p>
+          </div>
+          
+          <div style="display: flex; gap: 12px;">
+            <button class="btn-primary" onclick="showNextMotivation()" style="width: auto; font-size: 0.8rem; padding: 6px 16px;">Read Another Tale</button>
+          </div>
+        </div>
+
+        <!-- Monthly current affairs reminder -->
+        <div class="panel glow" style="margin-bottom: 32px;">
+          <div class="panel-title">Current Affairs - Operational Review</div>
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+            <p style="color: var(--text-secondary); font-size: 0.95rem; max-width: 700px;">
+              Review high-yield monthly news cards curated with key facts that are frequently tested in NDA, CDS, and AFCAT exams. <strong>Note:</strong> Monthly database is kept strictly local and wipes clean annually.
+            </p>
+            <button class="btn-primary" onclick="switchScreen('current-affairs')" style="width: auto; padding-left: 24px; padding-right: 24px;">Check Current Affairs</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN: NOTES & FORMULAS -->
+      <section id="screen-notes" class="screen">
+        <h1>Revision Notes & Formulas</h1>
+        <p class="subtitle">Detailed concept breakdowns and formula decks by subject, chapter, and topic</p>
+        
+        <div id="notes-progress-bar-container" class="notes-progress-panel"></div>
+        
+        <div class="exam-select-container">
+          <button class="exam-btn active" data-subject-filter="all">All Subjects</button>
+          <button class="exam-btn" data-subject-filter="mathematics">Mathematics (NDA/CDS)</button>
+          <button class="exam-btn" data-subject-filter="english">English (NDA/CDS/AFCAT)</button>
+          <button class="exam-btn" data-subject-filter="polity">Polity (CDS/NDA)</button>
+          <button class="exam-btn" data-subject-filter="history">History (CDS/NDA)</button>
+          <button class="exam-btn" data-subject-filter="geography">Geography (CDS/NDA)</button>
+          <button class="exam-btn" data-subject-filter="economics">Economics (CDS/NDA)</button>
+          <button class="exam-btn" data-subject-filter="physics">Physics (NDA/CDS)</button>
+          <button class="exam-btn" data-subject-filter="chemistry">Chemistry (NDA/CDS)</button>
+          <button class="exam-btn" data-subject-filter="biology">Biology (NDA/CDS)</button>
+          <button class="exam-btn" data-subject-filter="military-aptitude">Military Aptitude & GK (AFCAT/CDS)</button>
+        </div>
+        
+        <div class="deck-browser">
+          <!-- Accordion Subjects side list -->
+          <div class="topic-list">
+            <div class="notes-search-container">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="search-icon" style="width:16px; height:16px; color:var(--text-secondary);">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" />
+              </svg>
+              <input type="text" id="notes-search-input" placeholder="Search concepts, chapters...">
+            </div>
+            <div id="notes-accordion-list" style="overflow-y: auto; flex: 1; padding-right: 4px;">
+              <!-- Dynamic compilation of Subject -> Chapter -> Topic -->
+            </div>
+          </div>
+          
+          <!-- Detailed content viewing window -->
+          <div class="deck-viewer" id="deck-viewer-pane">
+            <div class="panel text-center" style="padding: 64px 20px;">
+              <span style="font-size: 3rem;"></span>
+              <h2 style="margin-top: 16px; margin-bottom: 8px;">Select a Topic to Start Revising</h2>
+              <p style="color: var(--text-secondary);">Choose any subject, chapter, and topic from the left browser pane to view detailed concept notes, derivations, and high-yield formulas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN: CURRENT AFFAIRS -->
+      <section id="screen-current-affairs" class="screen">
+        <h1>Current Affairs Hub</h1>
+        <p class="subtitle">High-yield pointers, monthly MCQ checks, and consolidated bilateral visit trackers</p>
+        
+        <!-- Tab selector for Current Affairs Hub -->
+        <div style="display: flex; gap: 12px; margin-top: 16px; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 12px;">
+          <button class="exam-btn active" id="btn-ca-mode-monthly" onclick="toggleCurrentAffairsMode('monthly')">Monthly Feed</button>
+          <button class="exam-btn" id="btn-ca-mode-visits" onclick="toggleCurrentAffairsMode('visits')">PM Visits & Bilateral Deals</button>
+          <button class="exam-btn" id="btn-ca-mode-fta" onclick="toggleCurrentAffairsMode('fta')">Trade Deals & FTAs</button>
+          <button class="exam-btn" id="btn-ca-mode-dates" onclick="toggleCurrentAffairsMode('dates')">Important Dates & Themes</button>
+        </div>
+
+        <div id="ca-monthly-feed-container" class="ca-layout">
+          <!-- Month list -->
+          <div class="month-sidebar" id="ca-month-list">
+            <!-- Rendered via JS: January to December -->
+          </div>
+          
+          <!-- Content window -->
+          <div class="ca-content" id="ca-content-pane">
+            <!-- Rendered Month Specific news pointers & Monthly check quiz -->
+          </div>
+        </div>
+
+        <!-- Standalone Visited & Incoming Pacts Panel -->
+        <div id="ca-visits-container" style="display: none;" class="panel">
+          <div class="panel-title" id="ca-visits-panel-title">International Visits & Bilateral Deals (2026)</div>
+          <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.9rem;">
+            A consolidated tracker of high-level state visits by the Prime Minister of India, incoming visits by foreign leaders, and the key bilateral agreements signed during 2026.
+          </p>
+          <div id="ca-visits-table-wrapper" style="overflow-x: auto;">
+             <!-- Visited and incoming deals table -->
+          </div>
+        </div>
+
+        <!-- Standalone Trade Deals & FTAs Panel -->
+        <div id="ca-fta-container" style="display: none;" class="panel">
+          <div class="panel-title" id="ca-fta-panel-title">Trade Deals &amp; Free Trade Agreements (2026)</div>
+          <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.9rem;">
+            A consolidated tracker of India's key concluded and under-negotiation FTAs, comprehensive economic partnerships, and strategic trade deals. This section refreshes after each CDS exam cycle.
+          </p>
+          <div id="ca-fta-table-wrapper" style="overflow-x: auto;">
+             <!-- Trade deals and FTA table rendered dynamically -->
+          </div>
+        </div>
+
+        <!-- Standalone Important Dates & Themes Panel -->
+        <div id="ca-dates-container" style="display: none;" class="panel">
+          <div class="panel-title" id="ca-dates-panel-title">Important Dates & Themes (2026)</div>
+          <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.9rem;">
+            A consolidated tracker of high-yield national and international dates and their officially declared themes for the year.
+          </p>
+          <div id="ca-dates-table-wrapper" style="overflow-x: auto;">
+             <!-- Important dates and themes table -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN: CBT MOCK TEST HUB -->
+      <section id="screen-cbt-mock-hub" class="screen">
+        <h1>CBT Practice Hub</h1>
+        <p class="subtitle">Prepare in real Computer-Based Test (CBT) environment using official marking patterns and timers</p>
+        
+        <div class="exam-select-container">
+          <button class="exam-btn active" data-exam-filter="all">All Exams</button>
+          <button class="exam-btn" data-exam-filter="NDA">NDA</button>
+          <button class="exam-btn" data-exam-filter="CDS">CDS</button>
+          <button class="exam-btn" data-exam-filter="AFCAT">AFCAT</button>
+        </div>
+        
+        <div class="exams-grid" id="exams-list-container">
+          <!-- CBT Exam Mock cards built dynamically -->
+        </div>
+      </section>
+
+      <!-- SCREEN: AI REVISION CONSOLE -->
+      <section id="screen-ai-console" class="screen">
+        <h1>AI Revision Console</h1>
+        <p class="subtitle">Generate targeted MCQ question sets or get comprehensive topic explanations powered by Gemini AI — completely free</p>
+        
+        <div class="ai-console">
+          <div class="panel">
+            <div class="panel-title">Enter Concept / Topic</div>
+            <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 0.9rem;">
+              Type any topic or concept name. Select <strong>Generate Questions</strong> for an MCQ set with solutions, or <strong>Solve Doubt</strong> for a comprehensive AI-generated explanation of the entire topic. Both modes are <span style="color: var(--accent); font-weight: 600;">completely free</span> — no tokens deducted.
+            </p>
+            
+            <div class="ai-suggestions" id="ai-suggestion-container">
+              <!-- Preset topic bubbles -->
+            </div>
+            
+            <div class="ai-query-box">
+  <div class="ai-query-input-row">
+    <input type="text" class="ai-input" id="ai-custom-topic-input" placeholder="e.g., Matrices and Determinants, Fundamental Rights Articles, Newton's Laws of Motion...">
+    <button class="ai-btn" id="ai-generate-btn">
+      <span>Run</span>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 18px; height: 18px;">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+      </svg>
+    </button>
+  </div>
+  <div class="ai-mode-selector">
+    <label><input type="radio" name="ai-mode" value="questions" checked> Generate Questions</label>
+    <label><input type="radio" name="ai-mode" value="solve"> Solve Doubt</label>
+  </div>
+</div>
+          </div>
+          
+          <!-- AI response layout -->
+          <div class="ai-response-area" id="ai-result-area">
+            <!-- Dynamic compiled questionnaire -->
+          </div>
+        </div>
+      </section>
+
+      
+
+      <!-- SCREEN: AI PAPER SOLVER -->
+      <section id="screen-paper-solver" class="screen">
+        <h1>AI Paper Solver & Evaluator</h1>
+        <p class="subtitle">Solve past exam papers or evaluate your completed OMR/answer sheets using Gemini AI.</p>
+
+        <!-- Mode Toggle Switch -->
+        <div style="display: flex; gap: 12px; margin-top: 16px; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 12px;">
+          <button class="exam-btn active" id="btn-mode-solve-paper" onclick="togglePaperSolverMode('solve')">Solve Question Paper</button>
+          <button class="exam-btn" id="btn-mode-evaluate-omr" onclick="togglePaperSolverMode('evaluate')">Evaluate Answer Sheet (OMR)</button>
+        </div>
+
+        <!-- Mode 1: Solve Question Paper -->
+        <div id="panel-solve-paper-container">
+          <div class="panel">
+            <div class="panel-title">Upload Exam Paper (PDF)</div>
+            <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 0.9rem;">
+              Upload your PDF file. The AI will extract the questions and generate the answers. Note: For very large exams (120+ questions), the AI may only solve a portion per run due to output length limits.
+            </p>
+
+            <!-- Range Configuration Options -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 20px; max-width: 500px; background: rgba(255,255,255,0.02); padding: 16px; border-radius: 8px; border: 1px solid var(--border);">
+              <div style="display: flex; flex-direction: column; gap: 6px;">
+                <label style="font-size: 0.75rem; font-weight: 700; color: var(--accent); letter-spacing: 0.5px;">SOLVE PAGE RANGE</label>
+                <select id="ai-paper-page-preset" style="padding: 8px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.85rem;" onchange="toggleCustomPageInput()">
+                  <option value="all">Solve All Pages (Max Questions)</option>
+                  <option value="1-5" selected>Pages 1 to 5 (Questions ~1-20)</option>
+                  <option value="6-10">Pages 6 to 10 (Questions ~20-40)</option>
+                  <option value="11-15">Pages 11 to 15 (Questions ~40-60)</option>
+                  <option value="16-20">Pages 16 to 20 (Questions ~60-80)</option>
+                  <option value="21-25">Pages 21 to 25 (Questions ~80-100)</option>
+                  <option value="26-30">Pages 26 to 30 (Questions ~100-120)</option>
+                  <option value="custom">Custom Page Range...</option>
+                </select>
+              </div>
+              <div id="ai-paper-custom-range-container" style="display: none; flex-direction: column; gap: 6px;">
+                <label style="font-size: 0.75rem; font-weight: 700; color: var(--accent); letter-spacing: 0.5px;">CUSTOM PAGES</label>
+                <div style="display: flex; gap: 8px; align-items: center; height: 100%;">
+                  <input type="number" id="ai-paper-start-page" placeholder="Start" min="1" value="1" style="width: 75px; padding: 8px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.85rem;" />
+                  <span style="color: var(--text-secondary); font-size: 0.85rem;">to</span>
+                  <input type="number" id="ai-paper-end-page" placeholder="End" min="1" value="5" style="width: 75px; padding: 8px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.85rem;" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Checkbox for Fast Answer Key Only -->
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 20px;">
+              <input type="checkbox" id="ai-paper-no-explanation" style="width: 18px; height: 18px; cursor: pointer; accent-color: var(--accent);" checked />
+              <label for="ai-paper-no-explanation" style="font-size: 0.9rem; color: var(--text-secondary); cursor: pointer; user-select: none; font-weight: 500;">
+                Fast Answer Key Only (No explanations, prevents token limit cut-offs)
+              </label>
+            </div>
+
+            <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 24px;">
+              <input type="file" id="ai-paper-upload" accept="application/pdf" style="padding: 8px; border: 1px solid var(--border); border-radius: 6px; background-color: var(--bg-tertiary); color: var(--text-primary); cursor: pointer; width: 100%; max-width: 400px;" />
+              <button class="ai-btn" id="ai-solve-paper-btn" style="white-space: nowrap;">
+                <span>Solve Paper</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 18px; height: 18px;">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="ai-response-area" id="paper-solver-result-area" style="display: none; margin-top: 20px;">
+              <!-- Rendered output -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Mode 2: Evaluate Answer Sheet (OMR) -->
+        <div id="panel-evaluate-omr-container" style="display: none;">
+          <div class="panel">
+            <div class="panel-title">Evaluate Answer Sheet (OMR / Marked Pages)</div>
+            <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.9rem;">
+              Upload a PDF or scan of your filled OMR sheet, or a list of marked answers (e.g., 1-a, 2-b). Specify the exam and subject, and let Gemini AI find the official answer key and score your attempt automatically.
+            </p>
+
+            <!-- Exam metadata inputs -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 20px; max-width: 600px;">
+              <div style="display: flex; flex-direction: column; gap: 6px;">
+                <label style="font-size: 0.75rem; font-weight: 700; color: var(--accent); letter-spacing: 0.5px;">TARGET EXAM NAME</label>
+                <input type="text" id="ai-eval-exam-name" placeholder="e.g., CDS 1 2026, NDA 2 2025, AFCAT 1 2026" style="padding: 10px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.85rem; font-family: var(--font-main); outline: none;" />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 6px;">
+                <label style="font-size: 0.75rem; font-weight: 700; color: var(--accent); letter-spacing: 0.5px;">SUBJECT / PAPER TYPE</label>
+                <select id="ai-eval-subject" style="padding: 10px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.85rem; font-family: var(--font-main); outline: none; cursor: pointer;">
+                  <option value="maths">Mathematics</option>
+                  <option value="gs-gat">General Studies / GAT</option>
+                  <option value="english">English</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- File Upload and Action -->
+            <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
+              <input type="file" id="ai-omr-upload" accept="application/pdf,image/*" style="padding: 8px; border: 1px solid var(--border); border-radius: 6px; background-color: var(--bg-tertiary); color: var(--text-primary); cursor: pointer; width: 100%; max-width: 400px;" />
+              <button class="ai-btn" id="ai-evaluate-omr-btn" style="white-space: nowrap;">
+                <span>Evaluate Answer Sheet</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 18px; height: 18px;">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="ai-response-area" id="omr-evaluation-result-area" style="display: none; margin-top: 20px;">
+              <!-- Rendered output -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- FULL SCREEN CBT LAYER PLAYER -->
+  <div class="cbt-overlay" id="cbt-player-overlay" style="display: none;">
+    <div class="cbt-header">
+      <div class="cbt-exam-title" id="cbt-active-title">NDA MATHEMATICS MOCK PAPER 1</div>
+      <div class="cbt-timer" id="cbt-active-timer">00:00:00</div>
+    </div>
+    
+    <div class="cbt-main">
+      <!-- Left side: Question and options -->
+      <div class="cbt-question-pane">
+        <div>
+          <div class="cbt-question-header">
+            <span id="cbt-question-index-label">Question 1 of 100</span>
+            <span id="cbt-marking-scheme-label">Correct: +2.5 | Incorrect: -0.83</span>
+          </div>
+          <div class="cbt-question-text" id="cbt-active-question-text">
+            What is the integration of cot(x) dx?
+          </div>
+          <div class="cbt-options-list" id="cbt-options-container">
+            <!-- Options A, B, C, D -->
+          </div>
+        </div>
+        
+        <!-- Controls for navigation inside pane -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 24px; gap: 12px; width: 100%;">
+          <button class="action-btn" id="cbt-btn-prev">← Previous</button>
+          <div style="display: flex; gap: 8px;">
+            <button class="action-btn" id="cbt-btn-clear">Clear Responsesnse</button>
+            <button class="action-btn" id="cbt-btn-mark-review"> Mark for Review</button>
+          </div>
+          <button class="btn-primary" id="cbt-btn-save-next" style="width: auto; padding-left: 24px; padding-right: 24px;">Save & Next →️</button>
+        </div>
+      </div>
+      
+      <!-- Right side: Palette and Legend -->
+      <aside class="cbt-control-pane">
+        <div>
+          <!-- Legend -->
+          <div class="legend-section">
+            <div class="legend-item">
+              <div class="legend-dot answered"></div>
+              <span>Answered</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-dot not-answered"></div>
+              <span>Not Answered</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-dot marked-review"></div>
+              <span>Marked for Review</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-dot not-visited"></div>
+              <span>Not Visited</span>
+            </div>
+          </div>
+          
+          <!-- Palette Grid -->
+          <div class="palette-section">
+            <div class="palette-title">Question Palette</div>
+            <div class="palette-grid" id="cbt-palette-grid-container">
+              <!-- Rendered palette boxes -->
+            </div>
+          </div>
+        </div>
+        
+        <!-- Side control buttons -->
+        <div style="padding: 20px; border-top: 1px solid var(--border); display: flex; flex-direction: column; gap: 8px;">
+          <button class="btn-warning" id="cbt-btn-submit-exam">Submit Exam</button>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- CBT REPORT OVERLAY VIEW -->
+  <div class="cbt-overlay" id="cbt-report-overlay" style="display: none; overflow-y: auto;">
+    <div class="cbt-header">
+      <div class="cbt-exam-title">CBT EXAM PERFORMANCE SHEET</div>
+      <button class="btn-secondary" onclick="closeCbtReport()">Back to Command Centre</button>
+    </div>
+    
+    <div style="padding: 32px 16px; max-width: 900px; margin: 0 auto; width: 100%;">
+      <div class="panel result-card">
+        <div class="result-header">
+          <h2 id="report-exam-title">NDA Mathematics Mock Paper 1</h2>
+          <div class="result-score-container">
+            <span class="result-score-value" id="report-final-score">82.5</span>
+            <span class="result-score-label">Net Score</span>
+          </div>
+          <p id="report-verdict" style="color: var(--accent); font-weight: 600; margin-top: 8px;">QUALIFIED (Cut-off surpassed)</p>
+        </div>
+        
+        <table class="result-table">
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Total Questions</td>
+              <td id="report-total-qs">120</td>
+            </tr>
+            <tr>
+              <td>Attempted</td>
+              <td id="report-attempted-qs">90</td>
+            </tr>
+            <tr>
+              <td>Correct Answers</td>
+              <td id="report-correct-qs">75 (Gain +187.5)</td>
+            </tr>
+            <tr>
+              <td>Incorrect Answers</td>
+              <td id="report-incorrect-qs">15 (Loss -12.45)</td>
+            </tr>
+            <tr>
+              <td>Accuracy</td>
+              <td id="report-accuracy">83.3%</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <div class="solution-review">
+          <h3 style="margin-bottom: 20px; font-family: var(--font-logo);">Corrections & Solutions Explanation</h3>
+          <div id="report-solutions-list">
+            <!-- Render solutions dynamically with explanations -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- AI DOUBT-SOLVING CHATBOT DRAWER -->
+  <div class="ai-chatbot-launcher" id="chatbot-launcher" onclick="toggleChatbot()">
+    <span class="launcher-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+    <span class="launcher-text">Ask Doubt AI</span>
+  </div>
+
+  <div class="ai-chatbot-drawer" id="chatbot-drawer">
+    <div class="chatbot-header">
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <span style="font-size: 1.4rem;">TAC</span>
+        <div>
+          <div class="chatbot-title">Doubt-Solving AI</div>
+          <div class="chatbot-subtitle">Expert Defence Exam Tutor</div>
+        </div>
+      </div>
+      <button class="chatbot-close-btn" onclick="toggleChatbot()">&times;</button>
+    </div>
+    
+    <div class="chatbot-messages" id="chatbot-messages-container">
+      <div class="chat-message system">
+        Hello Cadet! I am your AI Doubt Solver. Ask me any conceptual doubt about NDA Mathematics, CDS General Knowledge, or AFCAT Aptitude, and I will explain it in detail!
+      </div>
+    </div>
+    
+    <div class="chatbot-input-area">
+      <input type="text" id="chatbot-user-input" placeholder="Type your doubt here..." onkeydown="if(event.key === 'Enter') sendChatbotMessage()">
+      <button class="chatbot-send-btn" onclick="sendChatbotMessage()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width: 18px; height: 18px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- THEME SELECTOR MODAL -->
+  <div class="cbt-overlay" id="theme-selector-modal" style="display: none; align-items: center; justify-content: center; z-index: 10000; background: rgba(0,0,0,0.8);">
+    <div class="panel" style="max-width: 400px; width: 100%; position: relative;">
+      <button class="chatbot-close-btn" onclick="document.getElementById('theme-selector-modal').style.display='none'" style="position: absolute; top: 12px; right: 12px;">&times;</button>
+      <h2 style="font-family: var(--font-logo); font-size: 1.2rem; margin-bottom: 20px; text-align: center;"> Select Theme</h2>
+      
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <button class="exam-btn" onclick="applyTheme('default')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Tangerine & Oceanic Blue</span>
+          <div style="display: flex; gap: 4px;">
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #f97316;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #0ea5e9;"></div>
+          </div>
+        </button>
+        
+        <button class="exam-btn" onclick="applyTheme('cyberpunk')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Neon Cyberpunk</span>
+          <div style="display: flex; gap: 4px;">
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #ec4899;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #06b6d4;"></div>
+          </div>
+        </button>
+        
+        <button class="exam-btn" onclick="applyTheme('tactical')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Tactical Olive</span>
+          <div style="display: flex; gap: 4px;">
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #84cc16;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #eab308;"></div>
+          </div>
+        </button>
+
+        <button class="exam-btn" onclick="applyTheme('amethyst')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Royal Amethyst</span>
+          <div style="display: flex; gap: 4px;">
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #a855f7;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #10b981;"></div>
+          </div>
+        </button>
+
+        <button class="exam-btn" onclick="applyTheme('crimson')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Crimson Force</span>
+          <div style="display: flex; gap: 4px;">
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #dc2626;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #6366f1;"></div>
+          </div>
+        </button>
+
+        <button class="exam-btn" onclick="applyTheme('monochrome')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Monochrome Noir</span>
+          <div style="display: flex; gap: 4px;">
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #000000; border: 1px solid #ffffff;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #ffffff; border: 1px solid #000000;"></div>
+          </div>
+        </button>
+
+        <button class="exam-btn" onclick="applyTheme('vanguard-stealth')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Vanguard Stealth (Military)</span>
+          <div style="display: flex; gap: 4px;">
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #12170f; border: 1px solid #84cc16;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #84cc16; border: 1px solid #12170f;"></div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase_client.js"></script>
+  <script src="notes_extra.js?v=4"></script>
+  <script src="notes_extra_2.js?v=4"></script>
+  <script src="notes_extra_3.js?v=4"></script>
+  <script src="notes_extra_4.js?v=4"></script>
+  <script src="notes_extra_5.js?v=4"></script>
+  <script src="notes_extra_6.js?v=4"></script>
+  <script src="notes_extra_7.js?v=4"></script>
+  <script src="notes_extra_8.js?v=4"></script>
+  <script src="notes_extra_9.js?v=4"></script>
+  <script src="notes_extra_general_studies.js?v=4"></script>
+  <script src="english_vocab_db.js?v=1"></script>
+  <script src="notes_extra_english.js?v=4"></script>
+  <script src="notes_extra_history.js?v=4"></script>
+  <script src="notes_extra_geography.js?v=4"></script>
+  <script src="notes_extra_physical_geography.js?v=4"></script>
+  <script src="notes_extra_physics.js?v=4"></script>
+  <script src="notes_extra_chemistry.js?v=4"></script>
+  <script src="notes_extra_biology.js?v=4"></script>
+  <script src="notes_extra_afcat.js?v=4"></script>
+  <script src="notes_extra_afcat_reasoning.js?v=4"></script>
+  <script src="sarvam_browser.js"></script>
+  <script src="lecture_mode.js"></script>
+  <script src="notes_extra_10.js?v=4"></script>
+  <script src="notes_extra_economics.js?v=4"></script>
+  <script src="notes_extra_polity.js?v=4"></script>
+  <script src="pyq_trends.js"></script>
+  <script src="syllabus_data.js"></script>
+  <script src="ca_data.js"></script>
+  <script src="data.js?v=6"></script>
+  <script src="app.js?v=21"></script>
+</body>
+</html>

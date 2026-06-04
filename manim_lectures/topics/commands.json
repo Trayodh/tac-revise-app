@@ -1,0 +1,63 @@
+{
+    "id": "commands",
+    "title": "Operational Commands of Services",
+    "subject": "Military GK & Aptitude",
+    "subjectId": "military-aptitude",
+    "chapter": "Command Structures & Ranks",
+    "chapterId": "defence-structures",
+    "blocks": [
+        {
+            "heading": "1. Indian Army Commands (7)",
+            "intro": "",
+            "bullets": [
+                "Northern Command: Udhampur (J&K)",
+                "Western Command: Chandimandir (Haryana)",
+                "Eastern Command: Kolkata (West Bengal)",
+                "Southern Command: Pune (Maharashtra)",
+                "Central Command: Lucknow (Uttar Pradesh)",
+                "South Western Command: Jaipur (Rajasthan)",
+                "Army Training Command (ARTRAC): Shimla (Himachal Pradesh)"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Indian Air Force Commands (7)",
+            "intro": "",
+            "bullets": [
+                "Western Air Command: New Delhi",
+                "Eastern Air Command: Shillong (Meghalaya)",
+                "Central Air Command: Prayagraj (Uttar Pradesh)",
+                "Southern Air Command: Thiruvananthapuram (Kerala)",
+                "South Western Air Command: Gandhinagar (Gujarat)",
+                "Training Command: Bengaluru (Karnataka)",
+                "Maintenance Command: Nagpur (Maharashtra)"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Indian Navy Commands (3)",
+            "intro": "",
+            "bullets": [
+                "Western Naval Command: Mumbai (Maharashtra)",
+                "Eastern Naval Command: Visakhapatnam (Andhra Pradesh)",
+                "Southern Naval Command (Training Command): Kochi (Kerala)"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "4. Tri-Services Unified Command",
+            "intro": "",
+            "bullets": [
+                "Andaman and Nicobar Command: Port Blair (Joint Command of Army, Navy, Air Force).",
+                "Strategic Forces Command (SFC): Handles India's tactical nuclear weapons stockpile."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Army Commands: 7 (Training at Shimla)",
+        "Air Force Commands: 7 (Maintenance at Nagpur)",
+        "Navy Commands: 3"
+    ],
+    "hasNotes": true
+}

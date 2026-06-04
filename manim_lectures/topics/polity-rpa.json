@@ -1,0 +1,16 @@
+{
+    "id": "polity-rpa",
+    "title": "Representation of People Act & Election Commission",
+    "subject": "Indian Polity (CDS/NDA)",
+    "subjectId": "polity",
+    "chapter": "Federal Structure & Election Law",
+    "chapterId": "federal-rpa",
+    "blocks": [],
+    "formulas": [
+        "RPA 1950: Electoral rolls",
+        "RPA 1951: Conduct of elections",
+        "10th Schedule: Anti-Defection",
+        "Art 324: Election Commission"
+    ],
+    "hasNotes": false
+}

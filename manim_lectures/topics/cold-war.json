@@ -1,0 +1,43 @@
+{
+    "id": "cold-war",
+    "title": "Cold War",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "6. World History",
+    "chapterId": "world-history-tree",
+    "blocks": [
+        {
+            "heading": "\u2744\ufe0f The Cold War & Decolonisation",
+            "intro": "An era of ideological, military, and political tension between two superpowers (USA and USSR), coupled with the liberation of colonies in Asia and Africa.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Ideological Rivalry",
+            "intro": "",
+            "bullets": [
+                "**USA (Western Bloc):** Capitalist, democratic.",
+                "**USSR (Eastern Bloc):** Communist, authoritarian.",
+                "**Military Blocs:** NATO (1949, led by USA) vs. Warsaw Pact (1955, led by USSR).",
+                "**Proxy Wars:** Fought indirectly in Korea (1950-53) and Vietnam (1955-75).",
+                "**Key Confrontations:** *Berlin Blockade (1948):* Soviets blocked West Berlin. Allied airlift broke the blockade. Berlin Wall built in 1961.",
+                "*Cuban Missile Crisis (1962):* Closest the world came to nuclear war. USSR placed missiles in Cuba; USA imposed naval blockade. Resolved when USSR withdrew missiles.",
+                "**Collapse:** Berlin Wall fell in 1989. The **Soviet Union (USSR) disintegrated** in December 1991, ending the Cold War."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Decolonisation",
+            "intro": "",
+            "bullets": [
+                "The decline of European economic power post-WWII led to independence movements across Asia and Africa. India (1947), Indonesia (1949), Ghana (1957), Algeria (1962).",
+                "**Non-Aligned Movement (NAM):** Formed in Belgrade (1961) by leaders like Nehru (India), Nasser (Egypt), Tito (Yugoslavia), Sukarno (Indonesia), and Nkrumah (Ghana) to remain neutral and avoid joining either US or Soviet blocs."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "NATO: 1949 | Warsaw Pact: 1955 | Cuban Missile Crisis: 1962 | Collapse of USSR: 1991"
+    ],
+    "hasNotes": true
+}

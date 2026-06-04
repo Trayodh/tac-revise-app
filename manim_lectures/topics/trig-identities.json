@@ -1,0 +1,69 @@
+{
+    "id": "trig-identities",
+    "title": "Trigonometric Identities & Values",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Trigonometry",
+    "chapterId": "trigonometry",
+    "blocks": [
+        {
+            "heading": "1. Core Trigonometric Identities",
+            "intro": "Pythagorean identities form the bedrock of trigonometric simplification:",
+            "bullets": [
+                "sin\u00b2\u03b8 + cos\u00b2\u03b8 = 1 \u21d2 sin\u00b2\u03b8 = 1 - cos\u00b2\u03b8 ; cos\u00b2\u03b8 = 1 - sin\u00b2\u03b8",
+                "sec\u00b2\u03b8 - tan\u00b2\u03b8 = 1 (\u03b8 \u2260 (2n+1)\u03c0/2) \u21d2 sec\u00b2\u03b8 = 1 + tan\u00b2\u03b8 ; tan\u00b2\u03b8 = sec\u00b2\u03b8 - 1",
+                "cosec\u00b2\u03b8 - cot\u00b2\u03b8 = 1 (\u03b8 \u2260 n\u03c0) \u21d2 cosec\u00b2\u03b8 = 1 + cot\u00b2\u03b8 ; cot\u00b2\u03b8 = cosec\u00b2\u03b8 - 1"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Sum & Difference Formulas",
+            "intro": "Used to find values of angles like 15\u00b0, 75\u00b0, 105\u00b0, etc.:",
+            "bullets": [
+                "sin(A \u00b1 B) = sin A cos B \u00b1 cos A sin B",
+                "cos(A \u00b1 B) = cos A cos B \u2213 sin A sin B",
+                "tan(A \u00b1 B) = (tan A \u00b1 tan B) / (1 \u2213 tan A tan B)",
+                "cot(A \u00b1 B) = (cot A cot B \u2213 1) / (cot B \u00b1 cot A)"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Multiple Angle Identities",
+            "intro": "Essential for reducing powers in calculus integrations:",
+            "bullets": [
+                "sin 2A = 2 sin A cos A = 2tan A / (1 + tan\u00b2 A)",
+                "cos 2A = cos\u00b2 A - sin\u00b2 A = 2cos\u00b2 A - 1 = 1 - 2sin\u00b2 A = (1 - tan\u00b2 A)/(1 + tan\u00b2 A)",
+                "tan 2A = 2tan A / (1 - tan\u00b2 A)",
+                "sin 3A = 3sin A - 4sin\u00b3 A",
+                "cos 3A = 4cos\u00b3 A - 3cos A",
+                "tan 3A = (3tan A - tan\u00b3 A) / (1 - 3tan\u00b2 A)"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "4. Product-to-Sum & Sum-to-Product",
+            "intro": "Key transformations for calculus and equations:",
+            "bullets": [
+                "2 sin A cos B = sin(A + B) + sin(A - B)",
+                "2 cos A sin B = sin(A + B) - sin(A - B)",
+                "2 cos A cos B = cos(A + B) + cos(A - B)",
+                "2 sin A sin B = cos(A - B) - cos(A + B)",
+                "sin C + sin D = 2 sin((C+D)/2) cos((C-D)/2)",
+                "sin C - sin D = 2 cos((C+D)/2) sin((C-D)/2)",
+                "cos C + cos D = 2 cos((C+D)/2) cos((C-D)/2)",
+                "cos C - cos D = -2 sin((C+D)/2) sin((C-D)/2)"
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "sin(A+B) = sinA\u00b7cosB + cosA\u00b7sinB",
+        "cos(2A) = 2cos\u00b2A - 1 = 1 - 2sin\u00b2A",
+        "tan(2A) = 2tanA / (1 - tan\u00b2A)",
+        "sin(3A) = 3sinA - 4sin\u00b3A",
+        "cos(3A) = 4cos\u00b3A - 3cosA",
+        "2sinA\u00b7cosB = sin(A+B) + sin(A-B)",
+        "sinC + sinD = 2sin((C+D)/2)cos((C-D)/2)"
+    ],
+    "hasNotes": true
+}

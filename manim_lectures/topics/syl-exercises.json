@@ -1,0 +1,53 @@
+{
+    "id": "syl-exercises",
+    "title": "Work, Power, Energy & Gravitation",
+    "subject": "Physics (NDA/CDS)",
+    "subjectId": "physics",
+    "chapter": "Energy & Gravitation",
+    "chapterId": "energy-power-mechanics",
+    "blocks": [
+        {
+            "heading": "1. Work, Energy and Power",
+            "intro": "",
+            "bullets": [
+                "Work (W) : W = F \u00b7 s \u00b7 cos \u03b8. (Scalar quantity, unit: Joule). Work is zero if force and displacement are perpendicular (\u03b8 = 90\u00b0), e.g., circular planetary orbits, porter holding luggage.",
+                "Kinetic Energy (KE) : Energy due to motion. KE = \u00bd m v\u00b2 = p\u00b2 / 2m (where p is momentum). If momentum is doubled, KE becomes four times.",
+                "Potential Energy (PE) : Energy due to position. PE = mgh .",
+                "Power (P) : Rate of doing work. P = W / t = F \u00b7 v . Unit: Watt. 1 Horsepower (HP) = 746 Watts ."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Gravitation & Acceleration due to gravity (g)",
+            "intro": "",
+            "bullets": [
+                "Newton's Law: F = G M m / r\u00b2 (where G = 6.67 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2/kg\u00b2; Universal Gravitational Constant).",
+                "Acceleration due to gravity: g = G M / R\u00b2 (on Earth's surface, g \u2248 9.8 m/s\u00b2). g is independent of mass of the falling body.",
+                "Variations in 'g' : With Altitude (h): Decreases: g' = g(1 - 2h/R) .",
+                "With Depth (d): Decreases: g' = g(1 - d/R) . (At the centre of Earth, d = R \u21d2 g = 0).",
+                "Due to shape of Earth: Earth is an oblate spheroid. Requator > Rpole. Since g \u221d 1/R\u00b2, g is minimum at Equator, maximum at Poles .",
+                "Due to rotation: g decreases as rotation speed increases. (At equator g' = g - \u03c9\u00b2R). If rotation stops, g at equator increases, while g at poles remains unchanged."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Kepler's Laws & Escape Velocity",
+            "intro": "",
+            "bullets": [
+                "Kepler's 3rd Law (Law of Periods) : The square of time period of a planet is proportional to the cube of semi-major axis of its orbit: **T\u00b2 \u221d r\u00b3**.",
+                "Escape Velocity (v\u2091) : Minimum velocity required to escape gravitational pull. Formula: v\u2091 = \u221a(2gR) = \u221a(2GM/R) .",
+                "For Earth, escape velocity is **11.2 km/s**. For Moon, it is **2.38 km/s** (low gravity, hence no atmosphere on Moon)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Work: W = F\u00b7s\u00b7cos\u03b8",
+        "KE = 0.5mv\u00b2 = p\u00b2/2m",
+        "Power: P = W/t = F\u00b7v",
+        "1 HP = 746 Watts",
+        "g = GM/R\u00b2",
+        "Escape Velocity: v\u2091 = \u221a(2gR) \u2248 11.2 km/s"
+    ],
+    "hasNotes": true
+}

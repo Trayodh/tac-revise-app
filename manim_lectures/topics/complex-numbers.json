@@ -1,0 +1,23 @@
+{
+    "id": "complex-numbers",
+    "title": "Complex Numbers",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Algebra & Complex Numbers",
+    "chapterId": "algebra-complex",
+    "blocks": [
+        {
+            "heading": "1. Polar Form and Modulus",
+            "intro": "A complex number z = x + iy has a modulus |z| = sqrt{x^2 + y^2}.",
+            "bullets": [
+                "Argument: \theta = an^{-1}(y/x)",
+                "De Moivre's Theorem: (cos heta + isin heta)^n = cos n\theta + isin n\theta"
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "<li><strong>Cube roots of unity:</strong> 1, omega, omega^2 where 1 + omega + omega^2 = 0 and omega^3 = 1</li>"
+    ],
+    "hasNotes": true
+}

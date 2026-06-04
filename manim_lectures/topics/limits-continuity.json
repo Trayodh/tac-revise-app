@@ -1,0 +1,50 @@
+{
+    "id": "limits-continuity",
+    "title": "Limits & Continuity",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Calculus",
+    "chapterId": "calculus",
+    "blocks": [
+        {
+            "heading": "1. Standard Limits",
+            "intro": "These limits resolve common indeterminate forms instantly:",
+            "bullets": [
+                "lim (x\u21920) sin(x)/x = 1",
+                "lim (x\u21920) tan(x)/x = 1",
+                "lim (x\u21920) (e^x - 1)/x = 1",
+                "lim (x\u21920) ln(1 + x)/x = 1",
+                "lim (x\u2192a) (x\u207f - a\u207f)/(x - a) = n\u00b7a\u207f\u207b\u00b9",
+                "lim (x\u21920) (1 + x)^(1/x) = e",
+                "lim (x\u2192\u221e) (1 + 1/x)\u02e3 = e"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. L'Hopital's Rule",
+            "intro": "For limits resulting in indeterminate forms like 0/0 or \u221e/\u221e :",
+            "bullets": [
+                "Differentiate numerator and denominator separately: lim f(x)/g(x) = lim f'(x)/g'(x) .",
+                "Repeat if the result is still indeterminate and functions remain differentiable."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Continuity & Differentiability",
+            "intro": "",
+            "bullets": [
+                "f(x) is continuous at x = c if: lim (x\u2192c\u207b) f(x) = lim (x\u2192c\u207a) f(x) = f(c) (LHL = RHL = Value).",
+                "f(x) is differentiable at x = c if: Left Hand Derivative (LHD) = Right Hand Derivative (RHD).",
+                "Important Property : Differentiability \u21d2 Continuity. However, Continuity does NOT imply Differentiability (e.g., f(x) = |x| is continuous at x = 0, but not differentiable because of a sharp corner)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "lim(x\u21920) sinx/x = 1",
+        "lim(x\u2192a) (x\u207f - a\u207f)/(x - a) = n\u00b7a\u207f\u207b\u00b9",
+        "L'Hopital: lim f(x)/g(x) = lim f'(x)/g'(x)",
+        "LHL = RHL = f(c) for Continuity"
+    ],
+    "hasNotes": true
+}

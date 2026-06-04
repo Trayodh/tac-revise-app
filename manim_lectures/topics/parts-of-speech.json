@@ -1,0 +1,13 @@
+{
+    "id": "parts-of-speech",
+    "title": "Parts of Speech",
+    "subject": "English (NDA/CDS/AFCAT)",
+    "subjectId": "english",
+    "chapter": "Grammar & Usage",
+    "chapterId": "grammar-rules",
+    "blocks": [],
+    "formulas": [
+        "Nouns, Pronouns, Verbs, Adverbs, Adjectives, Prepositions, Conjunctions, Interjections"
+    ],
+    "hasNotes": false
+}

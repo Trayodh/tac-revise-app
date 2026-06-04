@@ -1,0 +1,58 @@
+{
+    "id": "syl-matrices",
+    "title": "Matrices and Determinants",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Algebra & Matrices",
+    "chapterId": "algebra-matrices",
+    "blocks": [
+        {
+            "heading": "1. Matrix Classifications",
+            "intro": "",
+            "bullets": [
+                "Symmetric Matrix : A\u1d40 = A. Diagonal elements can be anything.",
+                "Skew-Symmetric Matrix : A\u1d40 = -A. Diagonal elements must be zero . (a\u1d62\u1d62 = -a\u1d62\u1d62 \u21d2 2a\u1d62\u1d62 = 0 \u21d2 a\u1d62\u1d62 = 0).",
+                "Orthogonal Matrix : A \u00b7 A\u1d40 = I. Also, det(A) = \u00b11.",
+                "Idempotent Matrix : A\u00b2 = A.",
+                "Involutory Matrix : A\u00b2 = I.",
+                "Nilpotent Matrix : A\u1d4f = O (where k is the index of nilpotency)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Determinant Laws",
+            "intro": "",
+            "bullets": [
+                "det(A\u1d40) = det(A)",
+                "det(AB) = det(A) \u00b7 det(B)",
+                "det(kA) = k\u207f det(A) (for a matrix of order n \u00d7 n).",
+                "det(A\u207b\u00b9) = 1 / det(A)",
+                "If any two rows/columns are interchanged, the sign of the determinant changes.",
+                "If all elements of a row/column are zero, the determinant is zero ."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Adjoint & Inverse Relations",
+            "intro": "",
+            "bullets": [
+                "A \u00b7 adj(A) = adj(A) \u00b7 A = |A| \u00b7 I",
+                "|adj A| = |A|\u207f\u207b\u00b9 (order n)",
+                "|adj(adj A)| = |A|^( (n-1)\u00b2 )",
+                "adj(AB) = adj(B) \u00b7 adj(A) (Reversal law)",
+                "A\u207b\u00b9 = adj(A) / |A| (only if |A| \u2260 0; non-singular matrix).",
+                "(A\u1d40)\u207b\u00b9 = (A\u207b\u00b9)\u1d40"
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "|kA| = k\u207f|A|",
+        "|adj A| = |A|\u207f\u207b\u00b9",
+        "|adj(adj A)| = |A|^((n-1)\u00b2)",
+        "A\u207b\u00b9 = adj(A)/|A|",
+        "(AB)\u1d40 = B\u1d40A\u1d40",
+        "(AB)\u207b\u00b9 = B\u207b\u00b9A\u207b\u00b9"
+    ],
+    "hasNotes": true
+}

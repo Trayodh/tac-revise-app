@@ -1,0 +1,289 @@
+
+
+====================================================
+TOPIC: Work, Power, Energy & Gravitation (syl-exercises)
+====================================================
+
+              <h3>1. Work, Energy and Power</h3>
+              <ul>
+                <li><strong>Work (W)</strong>: W = F · s · cos θ. (Scalar quantity, unit: Joule).
+                  <ul>
+                    <li>Work is zero if force and displacement are perpendicular (θ = 90°), e.g., circular planetary orbits, porter holding luggage.</li>
+                  </ul>
+                </li>
+                <li><strong>Kinetic Energy (KE)</strong>: Energy due to motion. <strong>KE = ½ m v² = p² / 2m</strong> (where p is momentum).
+                  <ul>
+                    <li>If momentum is doubled, KE becomes four times.</li>
+                  </ul>
+                </li>
+                <li><strong>Potential Energy (PE)</strong>: Energy due to position. <strong>PE = mgh</strong>.</li>
+                <li><strong>Power (P)</strong>: Rate of doing work. <strong>P = W / t = F · v</strong>. Unit: Watt. <strong>1 Horsepower (HP) = 746 Watts</strong>.</li>
+              </ul>
+              
+              <h3>2. Gravitation & Acceleration due to gravity (g)</h3>
+              <ul>
+                <li>Newton's Law: <strong>F = G M m / r²</strong> (where G = 6.67 × 10⁻¹¹ N m²/kg²; Universal Gravitational Constant).</li>
+                <li>Acceleration due to gravity: <strong>g = G M / R²</strong> (on Earth's surface, g ≈ 9.8 m/s²).
+                  <ul>
+                    <li>g is independent of mass of the falling body.</li>
+                  </ul>
+                </li>
+                <li><strong>Variations in 'g'</strong>:
+                  <ul>
+                    <li>With Altitude (h): Decreases: <strong>g' = g(1 - 2h/R)</strong>.</li>
+                    <li>With Depth (d): Decreases: <strong>g' = g(1 - d/R)</strong>. (At the centre of Earth, d = R ⇒ g = 0).</li>
+                    <li>Due to shape of Earth: Earth is an oblate spheroid. R_equator > R_pole. Since g ∝ 1/R², <strong>g is minimum at Equator, maximum at Poles</strong>.</li>
+                    <li>Due to rotation: g decreases as rotation speed increases. (At equator g' = g - ω²R). If rotation stops, g at equator increases, while g at poles remains unchanged.</li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <h3>3. Kepler's Laws & Escape Velocity</h3>
+              <ul>
+                <li><strong>Kepler's 3rd Law (Law of Periods)</strong>: The square of time period of a planet is proportional to the cube of semi-major axis of its orbit: **T² ∝ r³**.</li>
+                <li><strong>Escape Velocity (vₑ)</strong>: Minimum velocity required to escape gravitational pull.
+                  <ul>
+                    <li>Formula: <strong>vₑ = √(2gR) = √(2GM/R)</strong>.</li>
+                    <li>For Earth, escape velocity is **11.2 km/s**. For Moon, it is **2.38 km/s** (low gravity, hence no atmosphere on Moon).</li>
+                  </ul>
+                </li>
+              </ul>
+            
+
+
+====================================================
+TOPIC: Electricity, Circuits & Magnetism (physics-electricity-magnetism)
+====================================================
+
+  <h3>1. Ohm's Law & Resistance</h3>
+  <ul>
+    <li><strong>Ohm's Law:</strong> Current ($I$) flowing through a conductor is directly proportional to the potential difference ($V$) across it, provided temperature and other physical conditions remain constant: $V = I \cdot R$.</li>
+    <li><strong>Factors Affecting Resistance ($R$):</strong>
+      <ul>
+        <li>$R = \rho \cdot \frac{L}{A}$ where $\rho$ is resistivity (depends only on material and temperature), $L$ is length, and $A$ is cross-sectional area.</li>
+        <li>Resistance of metals increases with temperature; resistance of semiconductors (silicon, germanium) decreases with temperature.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>2. Resistor Combinations</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Connection Type</th>
+      <th style="padding:8px; border:1px solid var(--border);">Equivalent Resistance Formula</th>
+      <th style="padding:8px; border:1px solid var(--border);">Current ($I$)</th>
+      <th style="padding:8px; border:1px solid var(--border);">Voltage ($V$)</th>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Series Connection</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">$R_{eq} = R_1 + R_2 + R_3$</td>
+      <td style="padding:8px; border:1px solid var(--border);">Same current through all resistors.</td>
+      <td style="padding:8px; border:1px solid var(--border);">Voltage divides: $V = V_1 + V_2 + V_3$.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Parallel Connection</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$</td>
+      <td style="padding:8px; border:1px solid var(--border);">Current divides: $I = I_1 + I_2 + I_3$.</td>
+      <td style="padding:8px; border:1px solid var(--border);">Same voltage across all resistors. (Used in household wiring).</td>
+    </tr>
+  </table>
+
+  <h3>3. Electromagnetism & Electromagnetic Induction</h3>
+  <ul>
+    <li><strong>Magnetic Effect of Current:</strong> Oersted discovered that current-carrying conductors produce magnetic fields. Right-hand thumb rule determines field direction around a straight wire.</li>
+    <li><strong>Faraday's Laws of EMI:</strong>
+      <ul>
+        <li>An electromotive force (emf) is induced in a circuit when the magnetic flux linking it changes over time.</li>
+        <li>The magnitude of induced emf is directly proportional to the rate of change of magnetic flux.</li>
+      </ul>
+    </li>
+    <li><strong>Lenz's Law:</strong> The direction of the induced current is such that it opposes the change in magnetic flux that produced it (based on **Conservation of Energy**).</li>
+  </ul>
+
+
+
+====================================================
+TOPIC: Thermodynamics & Heat Transfer (physics-heat)
+====================================================
+
+  <h3>1. Temperature Scales & Conversions</h3>
+  <p>Temperature measures the average kinetic energy of molecules. The three primary scales are:</p>
+  <ul>
+    <li><strong>Celsius (°C):</strong> Freezing point of water at 0°C, boiling point at 100°C.</li>
+    <li><strong>Fahrenheit (°F):</strong> Freezing point at 32°F, boiling point at 212°F.</li>
+    <li><strong>Kelvin (K):</strong> SI unit of temperature. Absolute zero is 0 K (-273.15°C).</li>
+    <li><strong>Conversion Formula:</strong> \frac{C}{5} = \frac{F - 32}{9} = \frac{K - 273.15}{5}</li>
+  </ul>
+
+  <h3>2. Modes of Heat Transfer</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Mode</th>
+      <th style="padding:8px; border:1px solid var(--border);">Mechanism</th>
+      <th style="padding:8px; border:1px solid var(--border);">Medium Requirement</th>
+      <th style="padding:8px; border:1px solid var(--border);">Everyday Examples</th>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Conduction</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Transfer through direct molecular collisions without actual movement of matter. Occurs mostly in solids.</td>
+      <td style="padding:8px; border:1px solid var(--border);">Requires a material medium.</td>
+      <td style="padding:8px; border:1px solid var(--border);">Heating a metal rod, ice melting in hand.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Convection</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Transfer by actual movement of fluid molecules (liquid or gas) forming convection currents.</td>
+      <td style="padding:8px; border:1px solid var(--border);">Requires a fluid medium.</td>
+      <td style="padding:8px; border:1px solid var(--border);">Boiling water, sea breeze & land breeze, hot air balloon.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Radiation</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Transfer via electromagnetic waves (infrared rays). Travels at the speed of light.</td>
+      <td style="padding:8px; border:1px solid var(--border);">No medium required (can travel in vacuum).</td>
+      <td style="padding:8px; border:1px solid var(--border);">Sunlight reaching Earth, heat from a campfire.</td>
+    </tr>
+  </table>
+
+  <h3>3. Laws of Thermodynamics</h3>
+  <ul>
+    <li><strong>Zeroth Law:</strong> If two systems are in thermal equilibrium with a third system, they are in thermal equilibrium with each other. This defines the concept of **temperature**.</li>
+    <li><strong>First Law (Conservation of Energy):</strong> Heat added to a system ($dQ$) equals the change in internal energy ($dU$) plus the work done by the system ($dW$): $dQ = dU + dW$.</li>
+    <li><strong>Second Law:</strong>
+      <ul>
+        <li><em>Kelvin-Planck statement:</em> It is impossible to construct an engine operating in a cycle that converts all absorbed heat into work.</li>
+        <li><em>Clausius statement:</em> Heat cannot flow spontaneously from a colder body to a hotter body.</li>
+        <li>Introduces the concept of **Entropy** (disorder of a system always increases).</li>
+      </ul>
+    </li>
+  </ul>
+
+
+
+====================================================
+TOPIC: Everyday Chemistry, Fertilisers & Fuels (chemistry-everyday-fertilisers)
+====================================================
+
+  <h3>1. Saponification (Soaps vs. Detergents)</h3>
+  <ul>
+    <li><strong>Saponification:</strong> The hydrolysis of fats/oils (triglycerides) with alkali (NaOH or KOH) to produce **Soap** and glycerol:
+      <br>$\text{Fat} + 3\text{NaOH} \rightarrow 3\text{Soap (Sodium Salt of Fatty Acid)} + \text{Glycerol}$.
+    </li>
+    <li><strong>Comparison:</strong>
+      <ul>
+        <li>**Soaps:** Sodium/Potassium salts of long-chain fatty acids (e.g., sodium stearate). **Biodegradable**, but form insoluble scum with calcium/magnesium ions in hard water.</li>
+        <li>**Detergents:** Sodium salts of long-chain alkyl hydrogen sulphates or alkyl benzene sulphonic acids. Clean effectively in both soft and **hard water** (do not form scum).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>2. Cement, Glass & Fuels</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Industrial Product</th>
+      <th style="padding:8px; border:1px solid var(--border);">Key Ingredients / Composition</th>
+      <th style="padding:8px; border:1px solid var(--border);">Chemical / Physical Role</th>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Cement</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Calcium silicates and aluminates, with **Gypsum ($CaSO_4 \cdot 2H_2O$)**.</td>
+      <td style="padding:8px; border:1px solid var(--border);">Gypsum is added to **slow down the setting time** of cement, allowing it to harden properly.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Glass</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Silica ($SiO_2$) mixed with sodium/calcium carbonates (silicates).</td>
+      <td style="padding:8px; border:1px solid var(--border);">A **supercooled liquid** or amorphous solid with no definite melting point.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>LPG (Liquefied Petroleum Gas)</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Mainly **Butane ($C_4H_{10}$)** and **Propane ($C_3H_8$)**.</td>
+      <td style="padding:8px; border:1px solid var(--border);">Contains **Ethyl Mercaptan ($C_2H_5SH$)** as an odorant to detect leaks.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>CNG (Compressed Natural Gas)</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Mainly **Methane ($CH_4$)** (approx. 80-90%).</td>
+      <td style="padding:8px; border:1px solid var(--border);">Clean fuel; produces less carbon emissions upon combustion.</td>
+    </tr>
+  </table>
+
+  <h3>3. Fertilizers</h3>
+  <ul>
+    <li>Provide essential nutrients: **Nitrogen (N)** for vegetative growth, **Phosphorus (P)** for root development, and **Potassium (K)** for overall disease resistance (**NPK ratio**).</li>
+    <li>**Urea ($\text{NH}_2\text{CONH}_2$):** Most common nitrogenous fertilizer (contains ~46% Nitrogen). Synthesized from ammonia and carbon dioxide.</li>
+  </ul>
+
+  <h3>4. Polymers & Plastics</h3>
+  <p>Polymers are macromolecular structures formed by joining repeating units called monomers:</p>
+  <ul>
+    <li><strong>Classification of Plastics:</strong>
+      <ul>
+        <li><strong>Thermoplastics:</strong> Linear polymers that soften easily on heating and harden on cooling, allowing them to be remolded repeatedly. E.g., **Polyethylene (Polythene)**, **PVC (Polyvinyl Chloride)**, Polystyrene.</li>
+        <li><strong>Thermosetting Plastics:</strong> Heavily cross-linked polymers that undergo chemical change on heating to form a permanent, infusible three-dimensional network. Cannot be remolded. E.g., **Bakelite** (used for electrical switches, handles of utensils), **Melamine** (fire-resistant, used for unbreakable dinnerware).</li>
+      </ul>
+    </li>
+    <li><strong>Common High-Yield Polymers:</strong>
+      <ul>
+        <li>**Teflon (PTFE):** Monomer is tetrafluoroethylene. Used as a non-stick coating for frying pans and gaskets.</li>
+        <li>**Nylon-6,6:** A condensation copolymer of adipic acid and hexamethylenediamine. Very strong synthetic fiber, used for ropes, bristles, and parachutes.</li>
+        <li>**Terylene (Dacron / Polyester):** Used in clothing and safety belts.</li>
+        <li>**Natural Rubber:** A polymer of **Isoprene (2-methyl-1,3-butadiene)**. Vulcanized by heating with **Sulfur** to improve elasticity and strength.</li>
+        <li>**Buna-S / Buna-N:** Synthetic rubbers used in vehicle tires.</li>
+      </ul>
+    </li>
+  </ul>
+
+
+
+====================================================
+TOPIC: Vital Human Systems & Organs (human-systems)
+====================================================
+
+  <h3>3. Endocrine Glands and Hormones</h3>
+  <ul>
+    <li><strong>Pituitary Gland (Master Gland)</strong>: Located at the base of the brain. Secretes:
+      <ul>
+        <li><em>Growth Hormone (GH)</em>: Regulates body growth.</li>
+        <li><em>Thyroid Stimulating Hormone (TSH)</em>: Stimulates thyroid gland.</li>
+        <li><em>Vasopressin (ADH)</em>: Regulates water reabsorption in kidneys.</li>
+      </ul>
+    </li>
+    <li><strong>Thyroid Gland</strong>: Located in the neck. Secretes <strong>Thyroxine</strong>, which regulates carbohydrate, protein, and fat metabolism. Requires <strong>Iodine</strong> for synthesis.</li>
+    <li><strong>Pancreas (Mixed Gland)</strong>: Contains endocrine cells in the Islets of Langerhans:
+      <ul>
+        <li><em>Beta-cells</em>: Secrete <strong>Insulin</strong>, which lowers blood glucose levels.</li>
+        <li><em>Alpha-cells</em>: Secrete <strong>Glucagon</strong>, which raises blood glucose levels.</li>
+      </ul>
+    </li>
+    <li><strong>Adrenal Gland</strong>: Located on top of the kidneys. Secretes <strong>Adrenaline</strong> (epinephrine), the "fight-or-flight" hormone, which increases heart rate, blood pressure, and respiratory rate during emergencies.</li>
+  </ul>
+
+  <h3>4. Highly Repeated PYQ: Biology (Vitamins & Plants)</h3>
+  <ul>
+    <li><strong>Vitamins & Deficiencies:</strong> Vitamin A (Night blindness), B1 (Beri-beri), C (Scurvy), D (Rickets), K (Blood coagulation failure). Water-soluble: B & C. Fat-soluble: A, D, E, K.</li>
+    <li><strong>Plant Hormones:</strong> <em>Auxins</em> (Cell elongation, phototropism), <em>Gibberellins</em> (Stem elongation), <em>Cytokinins</em> (Cell division), <em>Ethylene</em> (Fruit ripening), <em>Abscisic Acid</em> (Stress hormone, inhibits growth).</li>
+    <li><strong>Photosynthesis:</strong> Light reaction occurs in Grana (produces ATP & NADPH). Dark reaction occurs in Stroma (reduces CO₂ to glucose).</li>
+  </ul>
+
+  <div style="margin-top: 20px; border-top: 2px solid var(--border); padding-top: 15px;">
+    <h3>3. Key Human Body Systems</h3>
+    <p>Mastering human organ systems is crucial for GAT biology. Examine the anatomical overview of vital systems below:</p>
+    <img src="images/human_body_systems.png" alt="Human Body Systems Diagram" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border); margin: 16px 0; display: block;" />
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; font-size: 0.85rem; margin-top: 12px;">
+      <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px; border: 1px solid var(--border);">
+        <strong style="color: var(--primary);">🫀 Circulatory System</strong>
+        <p style="margin: 4px 0 0 0;">Double circulation separates oxygenated (left heart) and deoxygenated (right heart) blood. RBCs carry O₂ via hemoglobin. WBCs defend the body, and Platelets trigger clotting via coagulation cascades.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px; border: 1px solid var(--border);">
+        <strong style="color: var(--primary);">🧪 Digestive System</strong>
+        <p style="margin: 4px 0 0 0;">Food breaks down mechanically and chemically. Pepsin in the stomach digests proteins at pH ~1.5-2.0. Pancreatic juices (trypsin, amylase, lipase) digest proteins, carbs, and fats in the alkaline small intestine.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px; border: 1px solid var(--border);">
+        <strong style="color: var(--primary);">🫁 Respiratory System</strong>
+        <p style="margin: 4px 0 0 0;">Exchange of O₂ and CO₂ occurs at the **Alveoli** (microscopic air sacs). Hemoglobin has a 200x higher affinity for Carbon Monoxide (CO) than Oxygen, leading to carbon monoxide poisoning.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px; border: 1px solid var(--border);">
+        <strong style="color: var(--primary);">🧼 Excretory System</strong>
+        <p style="margin: 4px 0 0 0;">The kidney filters nitrogenous wastes. The functional unit is the **Nephron**. Ultrafiltration occurs in the Bowman's Capsule, and selective reabsorption of water/ions happens in the Henle's Loop.</p>
+      </div>
+    </div>
+  </div>
+

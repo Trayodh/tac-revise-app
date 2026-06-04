@@ -1,0 +1,80 @@
+{
+    "id": "revolt-1857",
+    "title": "Revolt of 1857",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "chapterId": "modern-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udd25 The Revolt of 1857",
+            "intro": "Often called India's First War of Independence. A massive armed uprising against East India Company rule.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Causes of the Revolt",
+            "intro": "",
+            "bullets": [
+                "Political: Lord Dalhousie's Doctrine of Lapse and the annexation of Awadh (1856) on grounds of misgovernment alienated local rulers.",
+                "Economic: Heavy taxes on land and destruction of native handicrafts.",
+                "Social/Religious: Interference in social customs (abolishing Sati, Widow Remarriage Act) and fear of forced conversions by missionaries.",
+                "Military: Indian sepoys paid less than British, denied overseas allowance (*Batta*), and forced to travel across seas (violating caste rules).",
+                "Immediate: Introduction of the **Enfield Rifle** with grease paper cartridges containing pig and cow fat (offensive to Muslims and Hindus). **Mangal Pandey** of 34th NI shot his officer at Barrackpore (29 March 1857)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Major Centers & Leaders",
+            "intro": "",
+            "bullets": [],
+            "tableRows": [
+                [
+                    "Center",
+                    "Indian Leader",
+                    "British Officer suppressing"
+                ],
+                [
+                    "Delhi",
+                    "Bahadur Shah II (nominal) / Bakht Khan (actual)",
+                    "John Nicholson, Hudson"
+                ],
+                [
+                    "Kanpur",
+                    "Nana Saheb, Tantia Tope (Ramachandra Pandurang)",
+                    "Colin Campbell"
+                ],
+                [
+                    "Lucknow",
+                    "Begum Hazrat Mahal",
+                    "Colin Campbell, Havelock"
+                ],
+                [
+                    "Jhansi",
+                    "Rani Laxmibai",
+                    "Hugh Rose (called her the only man among mutineers)"
+                ],
+                [
+                    "Arrah (Bihar)",
+                    "Kunwar Singh (80-year-old landlord)",
+                    "William Taylor, Vincent Eyre"
+                ]
+            ]
+        },
+        {
+            "heading": "3. Outcomes",
+            "intro": "",
+            "bullets": [
+                "Passed the **Government of India Act 1858**, which transferred Indian administration from the East India Company to the **British Crown**.",
+                "Governor-General's title changed to **Viceroy** (Canning was first).",
+                "Abolished the Doctrine of Lapse. British stopped expanding territories, focusing on indirect control.",
+                "**Army Reorganization:** Ratio of European to Indian soldiers increased. Regiments restructured on caste/religion lines (\"Martial Races\" theory) to prevent unity."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Barrackpore: Mangal Pandey | Meerut start: May 10, 1857 | Jhansi opponent: Hugh Rose | Result: GoI Act 1858"
+    ],
+    "hasNotes": true
+}

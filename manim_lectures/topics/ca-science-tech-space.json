@@ -1,0 +1,15 @@
+{
+    "id": "ca-science-tech-space",
+    "title": "Science, Tech & Space Missions",
+    "subject": "Current Affairs & GK",
+    "subjectId": "current-affairs",
+    "chapter": "Reports, Awards & Judgments",
+    "chapterId": "reports-awards-judgments",
+    "blocks": [],
+    "formulas": [
+        "ISRO: Shukrayaan-1 (Venus), Gaganyaan (Manned), Chandrayaan-4",
+        "Defence: INS Mahendragiri (stealth frigate), Agni-5 MIRV",
+        "AI: BharatGPT, Krutrim AI"
+    ],
+    "hasNotes": false
+}

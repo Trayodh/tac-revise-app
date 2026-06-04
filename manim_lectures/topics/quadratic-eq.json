@@ -1,0 +1,25 @@
+{
+    "id": "quadratic-eq",
+    "title": "Quadratic Equations",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Algebra & Complex Numbers",
+    "chapterId": "algebra-complex",
+    "blocks": [
+        {
+            "heading": "1. Nature of Roots",
+            "intro": "For ax^2 + bx + c = 0, the discriminant D = b^2 - 4ac decides the roots:",
+            "bullets": [
+                "D > 0: Real and distinct roots.",
+                "D = 0: Real and equal roots.",
+                "D < 0: Complex conjugate roots."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "<li><strong>Sum of roots:</strong> alpha + \beta = -b/a</li>",
+        "<li><strong>Product of roots:</strong> alpha\beta = c/a</li>"
+    ],
+    "hasNotes": true
+}

@@ -1,0 +1,1269 @@
+// notes_extra_history.js - Comprehensive History Notes for NDA, CDS, and AFCAT
+// Extensively maps all Historiography, Prehistoric, Ancient, Medieval, Modern, World History, and Art & Culture topics.
+
+window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
+window.EXPERT_REVISION_DATA = window.EXPERT_REVISION_DATA || {};
+
+// ==========================================
+// 1. HISTORIOGRAPHY & HISTORICAL FOUNDATIONS
+// ==========================================
+
+window.EXPANDED_NOTES_DATA["what-is-history"] = `
+  <h2>📚 Meaning and Scope of History</h2>
+  <p>History is the systematic analysis of past human events, cultures, and structures. It is not a static list of dates, but a dynamic, interpretative science that examines cause-and-effect relationships over time.</p>
+  
+  <h3>1. Core Foundations</h3>
+  <ul>
+    <li><strong>Definition:</strong> The word comes from Greek <em>Historia</em> (inquiry/knowledge acquired by investigation). E.H. Carr defined it as "an unending dialogue between the present and the past."</li>
+    <li><strong>Importance of Chronology:</strong> Establishes the exact sequence of events, helping to avoid anachronisms and trace the evolutionary progression of human society.</li>
+    <li><strong>Cause and Effect:</strong> Every historical event has roots in economic, social, political, or geographical causes, and produces consequences that shape subsequent eras.</li>
+    <li><strong>Periodisation of Indian History:</strong> Originally divided by colonial historians (like James Mill) into Hindu, Muslim, and British periods (a communal division). Modern historians classify it scientifically into <strong>Ancient, Medieval, and Modern</strong> periods.</li>
+    <li><strong>Social, Economic & Cultural History:</strong> Shift from dynastic history (kings and wars) to social structures (caste, gender), economic patterns (trade routes, land revenue), and cultural expressions (art, religion).</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["sources-indian-history"] = `
+  <h2>🏛️ Sources of Indian History</h2>
+  <p>Historians reconstruct the past using two primary categories of sources: Archaeological and Literary.</p>
+
+  <h3>1. Archaeological Sources (High-Yield)</h3>
+  <ul>
+    <li><strong>Inscriptions (Epigraphy):</strong> The most reliable source.
+      <ul>
+        <li><em>Ashokan Edicts:</em> Written in Brahmi, Kharosthi, Greek, and Aramaic scripts. Deciphered by **James Prinsep** in 1837.</li>
+        <li><em>Allahabad Pillar Inscription (Prasasti):</em> Composed in Sanskrit by Harishena, praising Gupta King Samudragupta.</li>
+        <li><em>Aihole Inscription:</em> Written by Ravikirti, describing Chalukya King Pulakeshin II's victory over Harsha.</li>
+        <li><em>Uttaramerur Inscription:</em> Details the self-governing village administration of the Imperial Cholas.</li>
+      </ul>
+    </li>
+    <li><strong>Coins (Numismatics):</strong> Tell us about economic health, trade relations, and kingly interests.
+      <ul>
+        <li>Punch-marked coins (silver/copper) were the earliest.</li>
+        <li>**Indo-Greeks** were the first to issue coins with portraits and legends.</li>
+        <li>**Kushanas** issued the first large-scale gold coins in India.</li>
+        <li>**Guptas** issued the largest number of gold coins (Dinars). Samudragupta's coins show him playing the Veena.</li>
+      </ul>
+    </li>
+    <li><strong>Monuments & Pottery:</strong> Cave temples (Ajanta/Ellora), stupas (Sanchi). Pottery sequences like **Ochre Coloured Pottery (OCP)**, **Painted Grey Ware (PGW - Iron Age)**, and **Northern Black Polished Ware (NBPW - Mauryan)** act as chronological markers.</li>
+  </ul>
+
+  <h3>2. Literary Sources</h3>
+  <ul>
+    <li><strong>Religious Texts:</strong> Vedas, Puranas, Epics (Ramayana, Mahabharata), Buddhist Tripitakas (Pali), and Jain Angas (Prakrit).</li>
+    <li><strong>Secular Literature:</strong> 
+      <ul>
+        <li>Kautilya's <em>Arthashastra</em> (statecraft and administration).</li>
+        <li>Panini's <em>Ashtadhyayi</em> (earliest Sanskrit grammar).</li>
+        <li>Kalhana's <em>Rajatarangini</em> (12th century, history of Kashmir, India's first scientific historical work).</li>
+      </ul>
+    </li>
+    <li><strong>Foreign Accounts:</strong>
+      <ul>
+        <li>**Greek:** Megasthenes (<em>Indica</em>, Mauryan administration).</li>
+        <li>**Chinese:** Fa-Hien (Gupta period under Chandragupta II) and Hiuen Tsang (Harsha's reign, studied at Nalanda).</li>
+        <li>**Arab/Persian:** Al-Biruni (<em>Kitab-ul-Hind</em>, 11th century culture and science), Ibn Battuta (<em>Rihla</em>, Tughlaq period).</li>
+      </ul>
+    </li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["dating-systems"] = `
+  <h2>📅 Dating Systems and Eras</h2>
+  <p>Different calendars and dating conventions have been used throughout Indian history to record time.</p>
+
+  <h3>1. General Terminology</h3>
+  <ul>
+    <li><strong>BC (Before Christ) / BCE (Before Common Era):</strong> Counted backward. Year 500 BCE is older than 300 BCE.</li>
+    <li><strong>AD (Anno Domini) / CE (Common Era):</strong> Counted forward from the birth of Christ.</li>
+  </ul>
+
+  <h3>2. Key Historical Eras of India</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Era Name</th>
+      <th style="padding:8px; border:1px solid var(--border);">Start Date</th>
+      <th style="padding:8px; border:1px solid var(--border);">Founder / Context</th>
+      <th style="padding:8px; border:1px solid var(--border);">Significance</th>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Vikrama Era</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">57 BCE</td>
+      <td style="padding:8px; border:1px solid var(--border);">King Vikramaditya of Ujjain</td>
+      <td style="padding:8px; border:1px solid var(--border);">Commemorated victory over Saka invaders.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Saka Era</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">78 CE</td>
+      <td style="padding:8px; border:1px solid var(--border);">Kushana King Kanishka</td>
+      <td style="padding:8px; border:1px solid var(--border);">Adopted as the **National Calendar of India** in 1957. Starts on Chaitra 1 (March 22 / 21 in leap years).</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Gupta Era</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">319 - 320 CE</td>
+      <td style="padding:8px; border:1px solid var(--border);">Chandragupta I</td>
+      <td style="padding:8px; border:1px solid var(--border);">Marks his accession to the throne and rise of Gupta power.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Harsha Era</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">606 CE</td>
+      <td style="padding:8px; border:1px solid var(--border);">Harshavardhana of Kanauj</td>
+      <td style="padding:8px; border:1px solid var(--border);">Commemorated his coronation.</td>
+    </tr>
+  </table>
+`;
+
+// ==========================================
+// 2. PREHISTORIC INDIA
+// ==========================================
+
+window.EXPANDED_NOTES_DATA["stone-age"] = `
+  <h2>🗿 The Stone Age</h2>
+  <p>Prehistoric India is divided into Paleolithic, Mesolithic, and Neolithic ages based on stone tool technology and lifestyle shifts.</p>
+
+  <h3>1. Paleolithic (Old Stone Age): Up to 10,000 BCE</h3>
+  <ul>
+    <li><strong>Lifestyle:</strong> Nomadic hunter-gatherers. Lived in caves and rock shelters. Fire was discovered but not widely controlled for cooking.</li>
+    <li><strong>Tools:</strong> Large, unpolished stone tools made of **quartzite** (hence Paleolithic humans are called "Quartzite Men"). Hand-axes, cleavers, choppers.</li>
+    <li><strong>Phases:</strong>
+      <ul>
+        <li><em>Lower Paleolithic:</em> Hand-axes, cleavers. Sites: Soan Valley (Punjab, Pakistan), Bori (Maharashtra).</li>
+        <li><em>Middle Paleolithic:</em> Flake tools. Sites: Narmada Valley, Nevasa (Maharashtra).</li>
+        <li><em>Upper Paleolithic:</em> Bone tools, blades. Coincided with modern humans (Homo sapiens). Sites: Kurnool caves (AP - evidence of ash).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>2. Mesolithic (Middle Stone Age): 10,000 BCE - 6,000 BCE</h3>
+  <ul>
+    <li><strong>Climatic Shift:</strong> Transition to a warmer, drier climate, leading to changes in flora and fauna.</li>
+    <li><strong>Tools:</strong> **Microliths** - extremely small, pointed stone tools (1-5 cm long) fitted onto wooden or bone handles (spears, arrows).</li>
+    <li><strong>Lifestyle:</strong> Hunting-gathering transitioned to early animal domestication. Dog was the first animal domesticated.</li>
+    <li><strong>Key Sites:</strong> **Bagor** (Rajasthan - earliest evidence of domestication), **Adamgarh** (MP), Langhnaj (Gujarat).</li>
+  </ul>
+
+  <h3>3. Neolithic (New Stone Age): 6,000 BCE - 1,000 BCE</h3>
+  <ul>
+    <li><strong>The Neolithic Revolution:</strong> Transition from food-gathering to **food-producing** (agriculture).</li>
+    <li><strong>Lifestyle:</strong> Settled village life. Invention of the wheel, cultivation of wheat, barley, ragi, and rice. Domestication of sheep, goats, cattle. Production of hand-made and wheel-made pottery.</li>
+    <li><strong>Key Sites:</strong>
+      <ul>
+        <li>**Mehrgarh (Balochistan, Pakistan):** Earliest Neolithic site (~7000 BCE). Evidence of wheat/barley farming and mud-brick houses.</li>
+        <li>**Burzahom (Kashmir):** Unique pit-dwellings (caves dug in ground to escape cold) and practice of burying dogs with masters.</li>
+        <li>**Koldihwa (UP):** Earliest evidence of **rice cultivation** globally (~6000 BCE).</li>
+        <li>**Chirand (Bihar):** Large number of bone tools made of deer antlers.</li>
+      </ul>
+    </li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["chalcolithic-age"] = `\n
+  <h2>⛏️ The Chalcolithic & Pottery Cultures</h2>
+  <p>The transition period from the Stone Age to the Metal Age, characterized by the joint use of Copper and Stone.</p>
+
+  <h3>1. Prehistoric Pottery Cultures Timeline</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Culture</th>
+      <th style="padding:8px; border:1px solid var(--border);">Period</th>
+      <th style="padding:8px; border:1px solid var(--border);">Pottery Types</th>
+    </tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Mehrgarh Culture</td><td style="padding:8px; border:1px solid var(--border);">7000-2600 BCE</td><td style="padding:8px; border:1px solid var(--border);">Red Ware, Black-on-Red Ware</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Indus Valley Civilization</td><td style="padding:8px; border:1px solid var(--border);">2600-1900 BCE</td><td style="padding:8px; border:1px solid var(--border);">Painted Grey Ware, Black Polished Ware</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Ochre Coloured Pottery Culture</td><td style="padding:8px; border:1px solid var(--border);">2000-1500 BCE</td><td style="padding:8px; border:1px solid var(--border);">Ochre Coloured Pottery (OCP)</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Malwa Culture</td><td style="padding:8px; border:1px solid var(--border);">1500-500 BCE</td><td style="padding:8px; border:1px solid var(--border);">Malwa Ware (Red and black pottery)</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Early Iron Age Cultures</td><td style="padding:8px; border:1px solid var(--border);">1200-600 BCE</td><td style="padding:8px; border:1px solid var(--border);">Northern Black Polished Ware, Painted Grey Ware (PGW)</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Megalithic Cultures</td><td style="padding:8px; border:1px solid var(--border);">1000-300 BCE</td><td style="padding:8px; border:1px solid var(--border);">Black and Red Ware</td></tr>
+  </table>
+
+  <h3>2. Major Chalcolithic Cultures</h3>
+  <ul>
+    <li><strong>Ahar-Banas Culture (Rajasthan: 2500-1500 BCE):</strong> Sites like Ahar and Gilund. Houses made of stone and mud. Copper smelting furnaces found.</li>
+    <li><strong>Jorwe Culture (Maharashtra: 1400-700 BCE):</strong> Most extensive. Sites: Inamgaon and Daimabad. Highly settled, fortified villages.</li>
+  </ul>
+\n`;
+
+window.EXPANDED_NOTES_DATA["rock-art"] = `
+  <h2>🎨 Prehistoric Rock Art</h2>
+  <p>Prehistoric rock art provides invaluable insights into the daily life, beliefs, and cognitive evolution of early humans.</p>
+
+  <h3>1. Bhimbetka Caves (Madhya Pradesh)</h3>
+  <ul>
+    <li><strong>Discovery:</strong> Discovered by archaeologist **V.S. Wakankar** in 1957. Located in Vindhya Range, MP.</li>
+    <li><strong>UNESCO Status:</strong> Declared a UNESCO World Heritage site in 2003.</li>
+    <li><strong>Artistic Styles:</strong> Displays continuous artistic activity from the Upper Paleolithic, Mesolithic, Neolithic, Chalcolithic, to Historical periods.</li>
+    <li><strong>Themes & Pigments:</strong>
+      <ul>
+        <li>Mainly depicts wild animals (bison, tigers, elephants), hunting scenes, community dances, battles, and family life.</li>
+        <li>**Colors:** Used mineral colors mixed with water/animal fat. **Red** (from hematite/geru for hunters) and **Green** (from chalcedony for dancers) are the most prominent.</li>
+      </ul>
+    </li>
+  </ul>
+`;
+
+// ==========================================
+// 3. ANCIENT INDIA
+// ==========================================
+
+window.EXPANDED_NOTES_DATA["indus-valley-civilization"] = `
+  <h2>🌊 Indus Valley Civilization (IVC)</h2>
+  <p>Also known as the Harappan Civilization. India's first urban revolution, flourishing in the Bronze Age (~2500 BCE - 1900 BCE).</p>
+
+  <h3>1. Discovery & Chronology</h3>
+  <ul>
+    <li>First discovered in 1921 at **Harappa** by **Daya Ram Sahni** under John Marshall.</li>
+    <li>**Mohenjo-daro** discovered in 1922 by **R.D. Banerji**.</li>
+    <li>Dated via Carbon-14. Mature Phase: 2600 - 1900 BCE.</li>
+  </ul>
+
+  <h3>2. Town Planning & Drainage (Exhaustively Tested)</h3>
+  <ul>
+    <li><strong>Grid System:</strong> Streets cut each other at right angles, dividing the city into rectangular blocks.</li>
+    <li><strong>Citadel & Lower Town:</strong> Most cities were divided into a raised Citadel (west, housing public buildings, elites) and a Lower Town (east, housing commoners). Exception: **Dholavira** had three divisions (Citadel, Middle, Lower).</li>
+    <li><strong>Drainage System:</strong> Advanced underground covered drains made of burnt bricks, with manholes/soak pits at regular intervals. House drains connected directly to main street drains.</li>
+    <li><strong>Building Material:</strong> Standardized burnt bricks with a ratio of **4:2:1** (length:breadth:thickness).</li>
+  </ul>
+
+  <h3>3. Site-Wise High-Yield Facts</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Site</th>
+      <th style="padding:8px; border:1px solid var(--border);">Location & River</th>
+      <th style="padding:8px; border:1px solid var(--border);">Key Discoveries & Signature Features</th>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Harappa</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Punjab (Pak), Ravi</td>
+      <td style="padding:8px; border:1px solid var(--border);">6 Granaries in a row, stone symbols of Lingam and Yoni, coffin burials (R-37 cemetery).</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Mohenjo-daro</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Sindh (Pak), Indus</td>
+      <td style="padding:8px; border:1px solid var(--border);">Meaning: "Mound of the Dead". **Great Bath**, Great Granary, Bronze Dancing Girl, Pashupati Seal, Bearded Priest.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Lothal</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Gujarat, Bhogava</td>
+      <td style="padding:8px; border:1px solid var(--border);">**Artificial Dockyard** (trade with Mesopotamia), double burials (male/female together), rice husk.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Kalibangan</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Rajasthan, Ghaggar</td>
+      <td style="padding:8px; border:1px solid var(--border);">Meaning: "Black Bangles". **Ploughed field surface** (earliest evidence), fire altars, camel bones.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Dholavira</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Gujarat (Kutch)</td>
+      <td style="padding:8px; border:1px solid var(--border);">Tripartite division, massive **water reservoirs**, stadium, billboard/signboard containing 10 large Harappan signs.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Chanhudaro</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Sindh (Pak), Indus</td>
+      <td style="padding:8px; border:1px solid var(--border);">Only city **without a Citadel**. Bead-making factory, inkwell, lipstick imprint on brick.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Surkotada</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Gujarat</td>
+      <td style="padding:8px; border:1px solid var(--border);">Only site containing actual **horse bones**. Pot burials.</td>
+    </tr>
+  </table>
+
+  <h3>4. Economy, Script & Decline</h3>
+  <ul>
+    <li><strong>Economy:</strong> Agriculture-based (wheat, barley, cotton - first to produce cotton globally, called <em>Sindon</em> by Greeks). Trade with Mesopotamia (called <em>Meluhha</em> in cuneiform texts).</li>
+    <li><strong>Script & Seals:</strong> Pictographic script (undeciphered). Written in **Boustrophedon** style (right-to-left, then left-to-right). Seals mostly made of **steatite** (soapstone), rectangular/square showing animals.</li>
+    <li><strong>Decline Theories:</strong>
+      <ul>
+        <li>Aryan Invasion: Mortimer Wheeler (criticised now).</li>
+        <li>Floods: Marshall, S.R. Rao.</li>
+        <li>Ecological Imbalance / Drying of Rivers: Sood and Agrawal, Rafique Mughal.</li>
+      </ul>
+    </li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["vedic-age"] = `
+  <h2>🌾 The Vedic Age</h2>
+  <p>Reconstructed using the Vedas. Divided into Early Vedic (1500-1000 BCE) and Later Vedic (1000-600 BCE) periods.</p>
+
+  <h3>1. Early Vedic Period (1500 - 1000 BCE)</h3>
+  <ul>
+    <li><strong>Geography:</strong> Settled in the **Sapta-Sindhu** region (Land of 7 Rivers: Indus, Saraswati, and 5 rivers of Punjab).</li>
+    <li><strong>Polity:</strong> Tribal structure. King (Rajan) was not absolute, advised by assemblies: **Sabha** (council of elders), **Samiti** (general tribal assembly), and **Vidatha** (oldest folk assembly). Women attended Sabha/Vidatha.</li>
+    <li><strong>Society & Economy:</strong> Pastoral economy. Cattle (Gau) was the main form of wealth (wars fought for cows called <em>Gavisthi</em>). Society was egalitarian; caste system (Varna) was flexible, based on occupation, not birth.</li>
+  </ul>
+
+  <h3>2. Later Vedic Period (1000 - 600 BCE)</h3>
+  <ul>
+    <li><strong>Geography:</strong> Shifted eastward to the Gangetic Valley (Aryavarta). Use of iron (called <em>Shyama Ayas</em>) cleared thick forests.</li>
+    <li><strong>Polity:</strong> Territorial kingdoms (Janapadas) emerged. Royal power increased. Sabha and Samiti lost power; Vidatha was abolished. Women were no longer allowed to attend assemblies.</li>
+    <li><strong>Society & Economy:</strong> Transition to an agrarian economy. Caste system became rigid and hereditary, split into 4 Varnas (Brahmins, Kshatriyas, Vaishyas, Shudras). 4 Ashramas (stages of life) emerged.</li>
+  </ul>
+
+  <h3>3. Vedic Literature</h3>
+  <ul>
+    <li><strong>Four Vedas:</strong> Rigveda (hymns), Samaveda (music/chants), Yajurveda (rituals), Atharvaveda (magic/spells).</li>
+    <li><strong>Brahmanas:</strong> Prose texts explaining the rituals of the Vedas.</li>
+    <li><strong>Aranyakas:</strong> Forest books dealing with mysticism and philosophy.</li>
+    <li><strong>Upanishads:</strong> Philosophical texts (Vedanta). Total 108. **"Satyameva Jayate"** is in **Mundaka Upanishad**.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["mahajanapadas"] = `\n
+  <h2>👑 Mahajanapadas & Rise of Magadha</h2>
+  <p>The 6th century BCE marked the second urbanization in India, characterized by territorial consolidation and new religious movements.</p>
+
+  <h3>1. The 16 Mahajanapadas</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Mahajanapada</th>
+      <th style="padding:8px; border:1px solid var(--border);">Capital</th>
+      <th style="padding:8px; border:1px solid var(--border);">Present-day</th>
+      <th style="padding:8px; border:1px solid var(--border);">Important Ruler</th>
+      <th style="padding:8px; border:1px solid var(--border);">River</th>
+    </tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Anga</td><td style="padding:8px; border:1px solid var(--border);">Champa</td><td style="padding:8px; border:1px solid var(--border);">Bhagalpur, Bihar</td><td style="padding:8px; border:1px solid var(--border);">Unknown</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Assaka/Asmaka</td><td style="padding:8px; border:1px solid var(--border);">Potana/Potali</td><td style="padding:8px; border:1px solid var(--border);">Maharashtra & Telangana</td><td style="padding:8px; border:1px solid var(--border);">Unknown</td><td style="padding:8px; border:1px solid var(--border);">Godavari</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Avanti/Malava</td><td style="padding:8px; border:1px solid var(--border);">Ujjayini/Mahishmati</td><td style="padding:8px; border:1px solid var(--border);">Western MP</td><td style="padding:8px; border:1px solid var(--border);">Chanda Pradyota Mahasena</td><td style="padding:8px; border:1px solid var(--border);">Narmada</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Chedi</td><td style="padding:8px; border:1px solid var(--border);">Shuktimati</td><td style="padding:8px; border:1px solid var(--border);">Bundelkhand, UP</td><td style="padding:8px; border:1px solid var(--border);">Shishupala</td><td style="padding:8px; border:1px solid var(--border);">Yamuna</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Gandhara</td><td style="padding:8px; border:1px solid var(--border);">Taxila</td><td style="padding:8px; border:1px solid var(--border);">Pakistan & Afghanistan</td><td style="padding:8px; border:1px solid var(--border);">Ambhi (Porus)</td><td style="padding:8px; border:1px solid var(--border);">Indus</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Kamboja</td><td style="padding:8px; border:1px solid var(--border);">Rajapura</td><td style="padding:8px; border:1px solid var(--border);">Parts of Afghanistan/Pak</td><td style="padding:8px; border:1px solid var(--border);">Unknown</td><td style="padding:8px; border:1px solid var(--border);">Swat</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Kashi</td><td style="padding:8px; border:1px solid var(--border);">Varanasi</td><td style="padding:8px; border:1px solid var(--border);">Uttar Pradesh</td><td style="padding:8px; border:1px solid var(--border);">Prasenajit</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Kaushambi</td><td style="padding:8px; border:1px solid var(--border);">Kausambi</td><td style="padding:8px; border:1px solid var(--border);">Allahabad, UP</td><td style="padding:8px; border:1px solid var(--border);">Udayana</td><td style="padding:8px; border:1px solid var(--border);">Yamuna</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Kuru</td><td style="padding:8px; border:1px solid var(--border);">Hastinapura</td><td style="padding:8px; border:1px solid var(--border);">Haryana & Delhi</td><td style="padding:8px; border:1px solid var(--border);">Sudas</td><td style="padding:8px; border:1px solid var(--border);">Yamuna</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Magadha</td><td style="padding:8px; border:1px solid var(--border);">Rajagriha/Pataliputra</td><td style="padding:8px; border:1px solid var(--border);">Bihar</td><td style="padding:8px; border:1px solid var(--border);">Bimbisara, Ajatashatru</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Matsya</td><td style="padding:8px; border:1px solid var(--border);">Virat Nagari</td><td style="padding:8px; border:1px solid var(--border);">Alwar, Rajasthan</td><td style="padding:8px; border:1px solid var(--border);">Unknown</td><td style="padding:8px; border:1px solid var(--border);">Chambal</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Panchala</td><td style="padding:8px; border:1px solid var(--border);">Ahichatra/Kampilya</td><td style="padding:8px; border:1px solid var(--border);">Uttarakhand & UP</td><td style="padding:8px; border:1px solid var(--border);">Chetaka, Drupada</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Surasena</td><td style="padding:8px; border:1px solid var(--border);">Mathura</td><td style="padding:8px; border:1px solid var(--border);">Uttar Pradesh</td><td style="padding:8px; border:1px solid var(--border);">Kamsa</td><td style="padding:8px; border:1px solid var(--border);">Yamuna</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Vajjis/Vrijji</td><td style="padding:8px; border:1px solid var(--border);">Vaishali</td><td style="padding:8px; border:1px solid var(--border);">Bihar</td><td style="padding:8px; border:1px solid var(--border);">Confederacy</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Malla</td><td style="padding:8px; border:1px solid var(--border);">Kushinagar/Pava</td><td style="padding:8px; border:1px solid var(--border);">Deoria, UP</td><td style="padding:8px; border:1px solid var(--border);">Republic</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+  </table>
+
+  <h3>2. Rise of Magadha</h3>
+  <p>Magadha rose to become the supreme power due to: large iron deposits (for weapons/tools), strategic capitals (Rajgir surrounded by hills; Pataliputra at river junctions), and first-time use of elephants in wars.</p>
+  <ul>
+    <li><strong>Haryanka Dynasty (600 - 413 BCE):</strong> 
+      <ul>
+        <li>**Bimbisara:** Founder. Expanded via matrimonial alliances. First king to have a standing army.</li>
+        <li>**Ajatashatru:** Killed his father Bimbisara. Conquered Vaishali using war engines *Mahasilakantaka* and *Rathamusala*. Patronised the **1st Buddhist Council** at Rajgir.</li>
+        <li>**Udayin:** Shifted the capital from Rajgir to **Pataliputra**.</li>
+      </ul>
+    </li>
+    <li><strong>Shishunaga Dynasty (412 - 345 BCE):</strong> Founded by Shishunaga. Shifted capital from Pataliputra to Vaishali. Kalasoka (Kakarvarna) patronised the **2nd Buddhist Council**.</li>
+    <li><strong>Nanda Dynasty (345 - 321 BCE):</strong>
+      <ul>
+        <li>**Mahapadma Nanda:** Took the title of *Ekarat*. First non-Kshatriya dynasty.</li>
+        <li>**Dhana Nanda:** Last ruler. Alexander the Great invaded North-West India during his reign. Overthrown by Chandragupta Maurya.</li>
+      </ul>
+    </li>
+  </ul>
+\n`;
+
+window.EXPANDED_NOTES_DATA["buddhism-jainism"] = `\n
+  <h2>🧘 Buddhism & Jainism</h2>
+  <p>Heterodox religious movements that arose in the 6th century BCE as a reaction to Vedic ritualism and caste rigidity.</p>
+
+  <h3>1. Buddhism (Gautama Buddha: 563 - 483 BCE)</h3>
+  <ul>
+    <li>Born as Siddhartha in Lumbini (Nepal). Renounced home at 29. Attained Enlightenment under Bodhi tree in Bodh Gaya. First sermon at Sarnath (First Turning of the Wheel of Dharma). Died at Kushinagar.</li>
+    <li><strong>Core Teachings:</strong> 4 Noble Truths, Eightfold Path, Middle Way. Three Jewels (Buddha, Dharma, Sangha).</li>
+    <li><strong>Literature:</strong> Tripitaka (Pali Canon), Mahayana Sutras, Jataka Tales.</li>
+  </ul>
+
+  <h3>2. Buddhist Schisms & Sects</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Aspect</th>
+      <th style="padding:8px; border:1px solid var(--border);">Mahayana Buddhism (Great Vehicle)</th>
+      <th style="padding:8px; border:1px solid var(--border);">Hinayana/Theravada (Lesser Vehicle)</th>
+    </tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Goal</td><td style="padding:8px; border:1px solid var(--border);">Buddhahood for all beings</td><td style="padding:8px; border:1px solid var(--border);">Personal enlightenment (Arhatship)</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Bodhisattvas</td><td style="padding:8px; border:1px solid var(--border);">Highly revered, active role</td><td style="padding:8px; border:1px solid var(--border);">Less emphasis on their role</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Scriptures</td><td style="padding:8px; border:1px solid var(--border);">Expanded canon (Sanskrit)</td><td style="padding:8px; border:1px solid var(--border);">Pali Canon (Tripitaka)</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Idol Worship</td><td style="padding:8px; border:1px solid var(--border);">Yes, Buddha as a deity</td><td style="padding:8px; border:1px solid var(--border);">No, Buddha as a teacher/guide</td></tr>
+  </table>
+
+  <h3>3. Jainism (Vardhamana Mahavira: 599 - 527 BCE)</h3>
+  <ul>
+    <li>24th Tirthankara. Born at Kundagrama (Vaishali). Renunciation at 30. Attained Kevala Jnana (omniscience) after 12 years. Died at Pawapuri.</li>
+    <li><strong>Core Teachings:</strong> Tri-ratnas (Right Faith, Right Knowledge, Right Conduct). 5 Vows (Ahimsa, Satya, Asteya, Aparigraha, Brahmacharya). **Anekantavada / Syadvada** (theory of multiple perspectives).</li>
+  </ul>
+
+  <h3>4. Jain Sects (Svetambar vs Digambar)</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Aspect</th>
+      <th style="padding:8px; border:1px solid var(--border);">Svetambar</th>
+      <th style="padding:8px; border:1px solid var(--border);">Digambar</th>
+    </tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Clothing</td><td style="padding:8px; border:1px solid var(--border);">White-clad monks/nuns</td><td style="padding:8px; border:1px solid var(--border);">Sky-clad (naked) monks</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Female Monks</td><td style="padding:8px; border:1px solid var(--border);">Allow ordination of women</td><td style="padding:8px; border:1px solid var(--border);">Do not believe women can attain Moksha directly</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Origin</td><td style="padding:8px; border:1px solid var(--border);">Teachings of Sthulabhadra</td><td style="padding:8px; border:1px solid var(--border);">Original teachings, led by Bhadrabahu</td></tr>
+  </table>
+\n`;
+
+window.EXPANDED_NOTES_DATA["mauryan-period"] = `\n
+  <h2>🛡️ The Mauryan Empire & Ashokan Edicts</h2>
+  <p>India's first historical empire, establishing central control over most of the subcontinent.</p>
+
+  <h3>1. Rulers & Triumphs</h3>
+  <ul>
+    <li><strong>Chandragupta Maurya (321 - 185 BCE):</strong> Overthrew Dhana Nanda with Chanakya. Defeated Selcus Nicator and married his daughter Helena. Adopted Jainism and committed Sallekhana.</li>
+    <li><strong>Bindusara:</strong> Called *Amitrochates* (slayer of enemies). Joined Ajivika Sect.</li>
+    <li><strong>Ashoka the Great:</strong> After Kalinga war, renounced violence. Spread Buddhism via missionaries and built stupas.</li>
+  </ul>
+
+  <h3>2. Comprehensive Ashokan Edicts</h3>
+  <p>Ashoka's inscriptions on pillars and rocks provided insights into governance, policies, and religious tolerance.</p>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Edict</th>
+      <th style="padding:8px; border:1px solid var(--border);">Key Description & Points</th>
+    </tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict I</td><td style="padding:8px; border:1px solid var(--border);">Prohibition of animal sacrifice, especially during festive seasons.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict II</td><td style="padding:8px; border:1px solid var(--border);">Medical treatment of humans/animals. Mentions Pandyas, Satyapuras, Keralaputras of South India.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict III</td><td style="padding:8px; border:1px solid var(--border);">Generosity to Brahmins. Yuktas, Pradeshikas, Rajukas ordered to spread Dhamma every 5 years.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict IV</td><td style="padding:8px; border:1px solid var(--border);">Dhammaghosha (sound of righteousness) over Bherighosha (sound of war).</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict V</td><td style="padding:8px; border:1px solid var(--border);">About Dhammamahamatras and treating slaves right.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict XIII</td><td style="padding:8px; border:1px solid var(--border);">Mentions victory over Kalinga, Ashoka's remorse, and interactions with Greek Kings.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Rummindei Inscription</td><td style="padding:8px; border:1px solid var(--border);">Mentions exemption from bali and reduced taxes for Lumbini (Buddha's birthplace).</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Allahabad (Schism) Edict</td><td style="padding:8px; border:1px solid var(--border);">Urges Sangha members to avoid causing divisions. Also contains Samudragupta's inscription.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Kandahar Inscription</td><td style="padding:8px; border:1px solid var(--border);">Famous bilingual edict in Greek and Aramaic.</td></tr>
+  </table>
+
+  <h3>3. Decline of the Mauryan Empire</h3>
+  <p>Weak successors, regional revolts, economic drain from military campaigns, and foreign invasions by Greeks, Sakas, and Parthians destabilized the empire.</p>
+\n`;
+
+window.EXPANDED_NOTES_DATA["post-mauryan-india"] = `\n
+  <h2>🏺 Post-Mauryan Dynasties & Foreign Invasions</h2>
+  <p>After the Mauryan decline, Magadha saw the rise of smaller dynasties, while the North-West faced foreign invasions.</p>
+
+  <h3>1. Indigenous Dynasties (185 BCE - 321 CE)</h3>
+  <ul>
+    <li><strong>Shunga Dynasty:</strong> Pushyamitra Shunga established the dynasty. Followed Brahminism. Vasumitra defeated Greek king Menander (conversation compiled in "Milindapanha").</li>
+    <li><strong>Kanva Dynasty:</strong> Founded by Vasudeva Kanva.</li>
+    <li><strong>Satavahanas:</strong> Founded by Simuka. Capital at Pratistanpura (later Amaravati). Gautamiputra Satakarni was a powerful ruler (Nashik inscription). Patrons of the Amaravati school of Art.</li>
+  </ul>
+
+  <h3>2. Central Asian Invasions & Impacts</h3>
+  <ul>
+    <li><strong>Indo-Greeks:</strong> First to introduce **Gold coins** in India. Introduced Hellenistic art in the north-west.</li>
+    <li><strong>Sakas / Scythians:</strong> Replaced Indo-Greeks. Ruled via Kshatrapas. **Rudradaman I** repaired the Sudarshan Lake (Junagarh inscription).</li>
+    <li><strong>Parthians:</strong> Originally from Iran. Famous ruler: Gondophernes (St. Thomas visited India during his reign).</li>
+    <li><strong>Kushans (Yuechis):</strong> Settled in lower Indus basin.
+      <ul>
+        <li>Kadphises I laid the foundation. Wima Kadphises issued large numbers of gold coins.</li>
+        <li>**Kanishka:** Issued highest metallic purity gold coins. Capitals at Peshawar and Mathura. Controlled the Silk Route. Patronised Buddhism.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>3. Cultural Impact of Central Asian Contacts</h3>
+  <ul>
+    <li>Introduced cavalry techniques: toe stirrups, reins, saddles.</li>
+    <li>Introduced turbans, tunics, trousers, and heavy long coats/boots.</li>
+    <li>**Satrap System:** Hereditary dual rule (father & son ruling jointly).</li>
+    <li>Rise of **Gandhara Art** (Greco-Roman, spiritual Buddha with half-closed eyes) and **Mathura Art** (indigenous, red sandstone).</li>
+  </ul>
+\n`;
+
+window.EXPANDED_NOTES_DATA["gupta-period"] = `
+  <h2>👑 The Gupta Empire (Golden Age: 320 - 550 CE)</h2>
+  <p>An era of political unification, economic prosperity, and unmatched achievements in science, literature, and art.</p>
+
+  <div style="text-align:center; margin: 15px 0;">
+    <img src="images/history_mauryan_gupta_map.png" alt="Mauryan vs Gupta Empire Territorial Extent" style="max-width:100%; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+    <p style="font-size:0.9em; color:#888; margin-top:5px;">Comparative Territorial Extent: Mauryan Empire vs Gupta Empire (Golden Age of Arts & Sciences).</p>
+  </div>
+
+  <h3>1. Key Rulers & Expansion</h3>
+  <ul>
+    <li><strong>Chandragupta I (319 - 335 CE):</strong> First imperial ruler. Started the Gupta Era (319 CE). Married Licchavi princess Kumaradevi.</li>
+    <li><strong>Samudragupta (335 - 380 CE):</strong> Called **"Napoleon of India"** by V.A. Smith due to his military campaigns. Military conquests recorded in the **Allahabad Pillar Inscription (Prayag Prasasti)** composed by his court poet **Harishena**. Performed Ashvamedha sacrifice. Issued gold coins depicting him playing the Veena.</li>
+    <li><strong>Chandragupta II (Vikramaditya: 380 - 415 CE):</strong> Defeated Sakas, annexed Western India. Court adorned by **Navaratnas** (Nine Gems, including **Kalidasa** and **Varahamihira**). Chinese pilgrim **Fa-Hien** visited India during his reign.</li>
+    <li><strong>Kumargupta:</strong> Founded the famous **Nalanda University**.</li>
+    <li><strong>Skandagupta:</strong> Successfully repelled the invading **Hunas** (White Huns).</li>
+  </ul>
+
+  <h3>2. Science, Literature & Golden Age Debate</h3>
+  <ul>
+    <li><strong>Literature:</strong> Kalidasa (plays: *Abhijnanasakuntalam*, *Malavikagnimitram*; poems: *Meghaduta*, *Raghuvamsa*). Shudraka (*Mrichchakatikam*). Vishakhadatta (*Devichandraguptam*, *Mudrarakshasa*).</li>
+    <li><strong>Science & Math:</strong> **Aryabhata** (wrote *Aryabhatiya*, calculated value of Pi, explained eclipses, proved Earth rotates on axis). **Varahamihira** (wrote *Brihat Samhita*, *Panchasiddhantika*). **Dhanvantari** (medicine).</li>
+    <li><strong>The "Golden Age" Debate:</strong> While literature and science peaked, some historians argue that feudalism increased, foreign trade declined, and untouchability grew, questioning the "Golden" tag for the masses.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = `
+  <h2>⚓ South Indian Kingdoms</h2>
+  <p>The history of South India is marked by the Sangam Age, followed by the Pallavas and Chalukyas, and later the mighty Cholas.</p>
+
+  <h3>1. The Sangam Age (3rd BCE - 3rd CE)</h3>
+  <ul>
+    <li>Assemblies (Sangams) of Tamil poets held under Pandyan patronage. Key literature: **Tolkappiyam** (grammar), epics **Silappatikaram** (Ilango Adigal) and **Manimekalai** (Shattanar).</li>
+    <li>Three kingdoms: Cheras (emblem: Bow), Cholas (emblem: Tiger, capital: Puhar, King Karikala built Grand Anicut), Pandyas (emblem: Fish, capital: Madurai).</li>
+  </ul>
+
+  <h3>2. Pallavas & Chalukyas (6th - 8th CE)</h3>
+  <ul>
+    <li><strong>Pallavas of Kanchi:</strong> Mahendravarman I, Narasimhavarman I (defeated Chalukya King Pulakeshin II, took title *Vatapikonda*). Built the rock-cut **Rathas of Mahabalipuram** (Shore Temple).</li>
+    <li><strong>Chalukyas of Vatapi:</strong> Pulakeshin II. Defeated Harshavardhana on the banks of Narmada (recorded in Aihole inscription). Defeated by Narasimhavarman I.</li>
+  </ul>
+
+  <h3>3. Imperial Cholas (9th - 12th CE)</h3>
+  <ul>
+    <li>Founded by Vijayalaya. Capital at Thanjavur.</li>
+    <li>**Rajaraja Chola I (985 - 1014 CE):** Built the grand **Brihadeshwara (Rajarajeshwara) Temple** at Thanjavur (tallest Vimana in India). Annexed northern Sri Lanka.</li>
+    <li>**Rajendra Chola I (1014 - 1044 CE):** Annexed entire Sri Lanka. Marched up to Ganges, took title *Gangaikonda Chola* and founded capital *Gangaikondacholapuram*. Sent naval expeditions to Southeast Asia (Srivijaya Kingdom), dominating the Bay of Bengal (called the "Chola Lake").</li>
+    <li>**Village Self-Government:** The **Uttaramerur Inscription** of Parantaka I (907-955 CE) details the working of local assemblies (*Ur* and *Sabha*). Members were elected by lottery (*Kudavolai* system) under strict eligibility rules.</li>
+  </ul>
+`;
+
+// ==========================================
+// 4. MEDIEVAL INDIA
+// ==========================================
+
+window.EXPANDED_NOTES_DATA["early-medieval-india"] = `
+  <h2>🛡️ Early Medieval India</h2>
+  <p>An era of regional fragmentation marked by the Tripartite Struggle and the rise of Rajput kingdoms.</p>
+
+  <h3>1. Tripartite Struggle (8th - 10th CE)</h3>
+  <p>A century-long struggle between three major empires to control **Kannauj** (symbol of sovereignty in North India, situated in the fertile Gangetic plains):</p>
+  <ul>
+    <li><strong>The Palas of Bengal:</strong> Founded by Gopala. Dharmapala founded **Vikramashila University** and revived Nalanda. Followed Mahayana Buddhism.</li>
+    <li><strong>The Gurjara-Pratiharas:</strong> Ruled Western India/Rajasthan. Mihira Bhoja was the greatest ruler.</li>
+    <li><strong>The Rashtrakutas:</strong> Ruled Deccan. Founded by Dantidurga. **Krishna I** carved the monolithic **Kailash Temple at Ellora (Cave 16)**. Patronised Amoghavarsha (wrote *Kavirajamarga*).</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["delhi-sultanate"] = `
+  <h2>⚔️ The Delhi Sultanate (1206 - 1526)</h2>
+  <p>Five successive dynasties ruled Delhi before the Mughal era. Mnemonic: <strong>S</strong>ome <strong>K</strong>ings <strong>T</strong>ravel <strong>S</strong>lowly <strong>L</strong>ately.</p>
+
+  <h3>1. The Dynasties</h3>
+  <ul>
+    <li><strong>Slave (Mamluk) Dynasty (1206-1290):</strong> Founded by **Qutb-ud-din Aibak** (started Qutub Minar, died playing Chaugan/polo). **Iltutmish** (real consolidator, introduced Silver *Tanka* & Copper *Jital* coins, created *Chahalgani* / group of 40 Turkish nobles, and *Iqta* system). **Raziya Sultan** (first and only female ruler). **Balban** (broke Chahalgani power, adopted policy of "Blood and Iron", introduced Persian festivals *Sajda* & *Paibos*).</li>
+    <li><strong>Khilji Dynasty (1290-1320):</strong> Founded by Jalaluddin Khilji.
+      <ul>
+        <li>**Alauddin Khilji (1296-1316):** Greatest ruler. Military reforms: Introduced branding of horses (*Dag*) and descriptive rolls of soldiers (*Chehra*), paid soldiers in cash. **Market Reforms:** Set up controlled markets (*Mandi*, *Sarai-i-Adl*), appointed inspectors (*Shahna-i-Mandi*), fixed prices. Built Alai Darwaza.</li>
+      </ul>
+    </li>
+    <li><strong>Tughlaq Dynasty (1320-1414):</strong> Founded by Ghiyasuddin Tughlaq.
+      <ul>
+        <li>**Muhammad bin Tughlaq (1325-1351):** An intellectual but hasty ruler. **Failures:** Shifted capital from Delhi to Daulatabad (Deogiri); introduced token copper currency (led to mass counterfeiting); raised taxes in Doab region during famine; planned failed Qarachil and Khurasan military expeditions.</li>
+        <li>**Firoz Shah Tughlaq (1351-1388):** Built canals for irrigation. Set up public welfare departments: *Diwan-i-Khairat* (charity), *Diwan-i-Bundagan* (slaves). Founded cities like Firozabad and Hissar.</li>
+      </ul>
+    </li>
+    <li><strong>Sayyid Dynasty (1414-1451):</strong> Founded by Khizr Khan.</li>
+    <li><strong>Lodi Dynasty (1451-1526):</strong> Founded by Bahlul Lodi. Sikandar Lodi founded Agra (1504). **Ibrahim Lodi** was defeated by Babur in the **1st Battle of Panipat (1526)**, ending the Sultanate.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["vijayanagara-empire"] = `
+  <h2>🏛️ The Vijayanagara Empire (1336 - 1646)</h2>
+  <p>The supreme Hindu kingdom of Southern India, acting as a bulwark against northern Sultanate expansions.</p>
+
+  <h3>1. History & Dynasties</h3>
+  <ul>
+    <li>Founded in 1336 by brothers **Harihara I & Bukka I** (Sangama Dynasty) on the southern bank of Tungabhadra River, inspired by sage Vidyaranya.</li>
+    <li>Four dynasties: Sangama, Saluva, Tuluva, and Aravidu.</li>
+    <li>**Krishnadevaraya (Tuluva Dynasty: 1509 - 1529 CE):** The greatest ruler. Adorned court with *Ashtadiggajas* (eight Telugu poets, including Tenali Ramakrishna). Wrote *Amuktamalyada* (Telugu book on statecraft) and *Jambavati Kalyanam* (Sanskrit). Maintained friendly relations with Portuguese Governor Albuquerque. Built Vittala and Hazara Ramaswamy Temples at Hampi.</li>
+    <li>**Battle of Talikota (1565):** Also known as Battle of Bannihatti. Combined forces of Deccan Sultanates (except Berar) defeated Vijayanagara army. Rama Raya was captured and executed. Capital Hampi was sacked.</li>
+    <li>**Foreign Travellers:** Nicolo de Conti (Italy, 1420), Abdur Razzaq (Persia, 1443), Domingo Paes (Portugal, 1520), Fernao Nuniz (Portugal, 1535).</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["bahmani-deccan-sultanates"] = `
+  <h2>🏰 Bahmani Kingdom & Deccan Sultanates</h2>
+  <p>The major Islamic state of Deccan, which continuously warred with Vijayanagara over the fertile Raichur Doab.</p>
+
+  <h3>1. Bahmani Kingdom (1347 - 1527)</h3>
+  <ul>
+    <li>Founded in 1347 by **Ala-ud-Din Bahman Shah** (also known as Hasan Gangu) in revolt against Muhammad bin Tughlaq.</li>
+    <li>Capital was initially Gulbarga, later shifted to Bidar. Mahmud Gawan (great prime minister) expanded power via administrative reforms.</li>
+  </ul>
+
+  <h3>2. Split into Deccan Sultanates</h3>
+  <p>In the early 16th century, the Bahmani kingdom disintegrated into five independent sultanates:</p>
+  <ul>
+    <li><strong>Adil Shahis of Bijapur:</strong> Founded by Yusuf Adil Shah. Famous for building the **Gol Gumbaz** (largest dome in India, featuring a whispering gallery).</li>
+    <li><strong>Nizam Shahis of Ahmadnagar:</strong> Malik Ahmad. Defended by Chand Bibi against Akbar's forces.</li>
+    <li><strong>Qutb Shahis of Golconda:</strong> Quli Qutb Shah. Famous for Golconda Diamond mines. Built **Charminar** in Hyderabad.</li>
+    <li><strong>Imad Shahis of Berar:</strong> Fathullah Imad-ul-Mulk.</li>
+    <li><strong>Barid Shahis of Bidar:</strong> Qasim Barid.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["mughal-empire"] = `
+  <h2>👑 The Mughal Empire (1526 - 1857)</h2>
+  <p>Established by Central Asian invaders, the Mughals built an extensive, culturally rich empire in India.</p>
+
+  <h3>1. Rulers & Triumphs</h3>
+  <ul>
+    <li><strong>Babur (1526-1530):</strong> Defeated Ibrahim Lodi in **1st Battle of Panipat (1526)** using gunpowder and *Tulughma* (flanking) tactics. Defeated Rana Sanga in Battle of Khanwa (1527). Wrote autobiography *Tuzuk-i-Baburi* in Turkish.</li>
+    <li><strong>Humayun (1530-1556):</strong> Defeated and exiled by Afghan leader **Sher Shah Suri** (who built Grand Trunk Road, introduced rupee currency, and Dahsala land reforms, ruling 1540-45). Humayun recaptured Delhi in 1555 but died falling from his library stairs.</li>
+    <li><strong>Akbar (1556-1605):</strong> Crowned at 13. defeated Hemu in **2nd Battle of Panipat (1556)** with help of guardian Bairam Khan.
+      <ul>
+        <li>*Reforms:* Introduced **Mansabdari System** (grading officers by Zat/rank and Sawar/cavalry). **Todar Mal's Dahsala** (land revenue system based on 10-year average crop yields).</li>
+        <li>*Religious Policy:* Abolished Jizya tax on non-Muslims (1564). Built **Ibadat Khana** (House of Worship) at Fatehpur Sikri. Promulgated **Din-i-Ilahi** (divine monotheism) in 1852.</li>
+      </ul>
+    </li>
+    <li><strong>Jahangir (1605-1627):</strong> Paintings peaked during his reign. Executed 5th Sikh Guru Arjan Dev. Captain Hawkins and Thomas Roe visited his court.</li>
+    <li><strong>Shah Jahan (1628-1658):</strong> Golden Age of Architecture. Built Taj Mahal, Red Fort, Jama Masjid, Peacock Throne.</li>
+    <li><strong>Aurangzeb (Alamgir: 1658-1707):</strong> Imprisoned his father Shah Jahan. Executed 9th Sikh Guru Tegh Bahadur. Re-imposed Jizya tax (1679). Annexed Bijapur (1686) and Golconda (1687). Called "Zinda Pir" (living saint) due to simple lifestyle.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["marathas"] = `
+  <h2>⚔️ The Maratha Empire</h2>
+  <p>The Marathas rose as a formidable power in the Deccan, challenging Mughal supremacy and eventually dominating North India.</p>
+
+  <h3>1. Chhatrapati Shivaji Maharaj (1627 - 1680)</h3>
+  <ul>
+    <li>Born at Shivneri Fort. Captured major forts (Torna, Pratapgad, Purandar). Escaped Aurangzeb's house arrest in Agra (1666). Coronation at Raigad (1674), taking the title *Chhatrapati*.</li>
+    <li><strong>Administration:</strong> **Ashtapradhan** (council of 8 ministers):
+      <br/>- *Peshwa:* Prime Minister.
+      <br/>- *Amatya:* Finance Minister.
+      <br/>- *Senapati:* Military commander.
+      <br/>- *Sumant / Dabir:* Foreign relations.
+    </li>
+    <li><strong>Revenue System:</strong>
+      <br/>- *Chauth:* 1/4th (25%) of land revenue paid by neighboring states to escape Maratha raids.
+      <br/>- *Sardeshmukhi:* Additional 10% tax claimed by Shivaji as supreme ruler.
+    </li>
+  </ul>
+
+  <h3>2. Peshwa Era (1713 - 1818)</h3>
+  <ul>
+    <li>Peshwas became the de-facto rulers of the empire, shifting capital to Pune.
+      <ul>
+        <li>**Balaji Vishwanath (1713-1720):** Assisted Shahu in consolidating power.</li>
+        <li>**Baji Rao I (1720-1740):** Undefeated in 41 battles (Palhed, Bhopal). Captured Salsette and Bassein from Portuguese. Expanded empire to Delhi.</li>
+        <li>**Balaji Baji Rao (Nana Saheb: 1740-1761):** Maratha power peaked. **3rd Battle of Panipat (1761):** Maratha army under Sadashivrao Bhau was defeated by Afghan invader **Ahmad Shah Abdali**. This broke Maratha unity and halted expansion.</li>
+      </ul>
+    </li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["sikh-history"] = `
+  <h2>☬ Sikh History & Gurus</h2>
+  <p>Sikhism evolved from a peaceful Bhakti movement to a highly militarized community in response to Mughal persecutions.</p>
+
+  <h3>1. The Ten Gurus</h3>
+  <ul>
+    <li><strong>Guru Nanak Dev (1st):</strong> Founded Sikhism. Started **Langar** (free community kitchen) to break caste barriers.</li>
+    <li><strong>Guru Angad (2nd):</strong> Standardized the **Gurmukhi script**.</li>
+    <li><strong>Guru Ram Das (4th):</strong> Founded Amritsar on land gifted by Akbar.</li>
+    <li><strong>Guru Arjan Dev (5th):</strong> Compiled the **Adi Granth**. Built the Golden Temple (Harmandir Sahib). Executed by **Jahangir**.</li>
+    <li><strong>Guru Hargobind (6th):</strong> Built the **Akal Takht**. Militarized Sikhs, introduced *Miri* (temporal power) and *Piri* (spiritual power).</li>
+    <li><strong>Guru Tegh Bahadur (9th):</strong> Executed by **Aurangzeb** at Delhi's Chandni Chowk for refusing to convert.</li>
+    <li><strong>Guru Gobind Singh (10th):</strong> Founded the **Khalsa Panth** in 1699 at Anandpur Sahib. Introduced the 5 Ks. Declared **Guru Granth Sahib** as the permanent Guru.</li>
+  </ul>
+
+  <h3>2. Maharaja Ranjit Singh & British Wars</h3>
+  <ul>
+    <li>Consolidated Punjab into a powerful empire. Signed the **Treaty of Amritsar (1809)** with Metcalfe/Minto, fixing Sutlej river as boundary.</li>
+    <li>**Anglo-Sikh Wars:**
+      <ul>
+        <li><em>1st War (1845-46):</em> Ended with the **Treaty of Lahore** (Henry Hardinge GG).</li>
+        <li><em>2nd War (1848-49):</em> Under **Lord Dalhousie**. Punjab was annexed to the British Empire (1849).</li>
+      </ul>
+    </li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["bhakti-movement"] = `
+  <h2>🙏 The Bhakti Movement</h2>
+  <p>A medieval socio-religious reform movement preaching personal devotion to God as the path to salvation, bypassing priests and caste barriers.</p>
+
+  <h3>1. Origins & Schools</h3>
+  <ul>
+    <li>Originated in South India (7th-9th century) led by **Alvars** (Vaishnavite saints) and **Nayanars** (Shaivite saints).</li>
+    <li>Spread to North India in the 14th century by **Ramananda**.</li>
+    <li><strong>Saguna School (Worshipped God with Form):</strong>
+      <ul>
+        <li>**Mirabai:** Devoted to Krishna; composed Bhajans in Rajasthani/Braj.</li>
+        <li>**Tulsidas:** Wrote *Ramcharitmanas* in Awadhi.</li>
+        <li>**Chaitanya Mahaprabhu:** Bengal; popularized Kirtan (musical chanting).</li>
+      </ul>
+    </li>
+    <li><strong>Nirguna School (Worshipped Formless God):</strong>
+      <ul>
+        <li>**Kabir:** Disciple of Ramananda. Opposed rituals, caste system, idol worship. Expressed ideas in *Dohas* (couplets) compiled in *Bijak*.</li>
+        <li>**Guru Nanak:** Preached monotheism and equality.</li>
+      </ul>
+    </li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["sufi-movement"] = `
+  <h2>✨ The Sufi Movement</h2>
+  <p>The mystical movement within Islam, emphasizing direct union with God through love, music (Sama), and simple living.</p>
+
+  <h3>1. Key Orders (Silsilas) in India</h3>
+  <ul>
+    <li><strong>Chishti Order:</strong> Founded in India by **Khwaja Moinuddin Chishti** (established dargah at Ajmer, visited by Akbar). 
+      <br/>- *Beliefs:* Highly liberal, integrated local yogic practices, stayed away from royal politics.
+      <br/>- *Saints:* Baba Farid (verses included in Guru Granth Sahib), Hazrat Nizamuddin Auliya (Delhi, called Mehboob-i-Ilahi), Sheikh Salim Chishti.
+    </li>
+    <li><strong>Suhrawardi Order:</strong> Founded by Shihabuddin Suhrawardi. Active in Punjab/Sindh. Accepted state offices, wealthy order.</li>
+    <li><strong>Naqshbandi Order:</strong> Founded by Khwaja Bahauddin Naqshbandi. Most orthodox and conservative order. Opposed music and liberal policies of Akbar. Supported by Aurangzeb.</li>
+  </ul>
+`;
+
+// ==========================================
+// 5. MODERN INDIA
+// ==========================================
+
+window.EXPANDED_NOTES_DATA["european-arrival"] = `
+  <h2>🚢 European Entry and British Expansion</h2>
+  <p>The search for spices led European powers to establish trading outposts in India, which eventually turned into territorial ambitions.</p>
+
+  <h3>1. Arrival Sequence (PEDDF)</h3>
+  <ol>
+    <li>**Portuguese (1498):** Vasco da Gama landed at Calicut. Francisco de Almeida (Blue Water Policy). Alfonso de Albuquerque captured Goa (1510) from Bijapur, making it the capital. Introduced printing press (1556) and tobacco.</li>
+    <li>**Dutch (1602):** First factory at Masulipatnam (1605). Displaced by British after the **Battle of Bedara (1759)**.</li>
+    <li>**English (1600):** Queen Elizabeth granted charter. Hawkins (1608) and Roe (1615) secured trading rights from Jahangir. First factory at Surat (1613).</li>
+    <li>**Danish (1616):** Settled at Tranquebar (TN) and Serampore (Bengal). Sold all holdings to British in 1845.</li>
+    <li>**French (1664):** Founded by Colbert under Louis XIV. First factory at Surat (1667). François Martin founded Pondicherry (1674). Carnatic Wars (Anglo-French rivalry) crushed French power, culminating in their defeat at the **Battle of Wandiwash (1760)**.</li>
+  </ol>
+
+  <h3>2. Foundation of British Rule</h3>
+  <ul>
+    <li><strong>Battle of Plassey (23 June 1757):</strong> Robert Clive defeated Nawab Siraj-ud-Daulah of Bengal. Clive bribed army chief **Mir Jafar**. Established EIC as a political force.</li>
+    <li><strong>Battle of Buxar (22 Oct 1764):</strong> Hector Munro defeated joint forces of Nawab Mir Qasim of Bengal, Nawab Shuja-ud-Daulah of Awadh, and Mughal Emperor Shah Alam II. Led to **Treaty of Allahabad (1765)** where Clive secured **Diwani Rights** (tax collection rights) of Bengal, Bihar, and Odisha, starting the Dual Government.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["governor-generals-viceroys"] = `
+  <h2>🎩 Governor-Generals & Viceroys</h2>
+  <p>The administrative heads of British rule in India who designed expansionist and reformist policies.</p>
+
+  <h3>1. Governor-Generals of Bengal (1773 - 1833)</h3>
+  <ul>
+    <li><strong>Warren Hastings (1773-1785):</strong> First GG of Bengal. Ended Dual Government. Established civil/criminal courts. Impeached in London (later acquitted).</li>
+    <li><strong>Lord Cornwallis (1786-1793):</strong> Father of Civil Services in India. Introduced **Permanent Settlement (Zamindari)** in Bengal (1793). Created Cornwallis Code (separating judiciary and executive).</li>
+    <li><strong>Lord Wellesley (1798-1805):</strong> Introduced **Subsidiary Alliance System** (Hyderabad first to sign in 1798). Called himself "Bengal Tiger".</li>
+  </ul>
+
+  <h3>2. Governor-Generals of India (1833 - 1858)</h3>
+  <ul>
+    <li><strong>Lord William Bentinck (1828-1835):</strong> First GG of India. Social Reforms: **Abolished Sati (1829, Regulation XVII)** with help of Raja Ram Mohan Roy. Suppressed Thuggee cult. Introduced English as medium of higher education (Macaulay's Minute 1835).</li>
+    <li><strong>Lord Dalhousie (1848-1856):</strong> Great expansionist.
+      <br/>- *Doctrine of Lapse:* Annexed Satara, Jhansi, Nagpur. Annexed Awadh (1856) on grounds of misgoverning.
+      <br/>- *Infrastructural Reforms:* First railway line (Bombay-Thane 1853). First telegraph line (Calcutta-Agra). Postal system reforms. Wood's Dispatch on education (1854). Passed Hindu Widow Remarriage Act (1856).
+    </li>
+  </ul>
+
+  <h3>3. Viceroys of India (1858 - 1947)</h3>
+  <ul>
+    <li><strong>Lord Canning (1856-1862):</strong> First Viceroy. Suppressed 1857 Revolt. Ended East India Company rule (GoI Act 1858). Abolished Doctrine of Lapse. Introduced portfolio system.</li>
+    <li><strong>Lord Lytton (1876-1880):</strong> Vernacular Press Act (1878 - censored local papers), Arms Act (1878). Grand Delhi Durbar (1877) amid famine.</li>
+    <li><strong>Lord Ripon (1880-1884):</strong> Liberal Viceroy. Repealed Vernacular Press Act. Father of **Local Self-Government** in India. Passed first Factory Act (1881). Ilbert Bill Controversy (proposed allowing Indian judges to try Europeans). First synchronous census (1881).</li>
+    <li><strong>Lord Curzon (1899-1905):</strong> Partitioned Bengal (1905) on communal lines, sparking Swadeshi movement. Established Archaeological Survey of India.</li>
+    <li><strong>Lord Mountbatten (1947-1948):</strong> Last Viceroy. Planned partition (3rd June Plan). First GG of independent India.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["constitutional-development"] = `
+  <h2>📜 Constitutional Development</h2>
+  <p>The evolution of India's administrative and legal framework through British parliamentary interventions.</p>
+
+  <h3>1. Company Regulation Acts</h3>
+  <ul>
+    <li><strong>Regulating Act of 1773:</strong> First step by Parliament to supervise EIC. Governor of Bengal became GG of Bengal. Supreme Court at Calcutta set up.</li>
+    <li><strong>Pitts India Act of 1784:</strong> Created a **Board of Control** in London to manage political affairs, establishing dual control.</li>
+    <li><strong>Charter Act of 1813:</strong> Ended EIC's trade monopoly in India (except for tea and China trade). Allowed Christian missionaries.</li>
+    <li><strong>Charter Act of 1833:</strong> Finished all commercial activities of EIC. GG of Bengal became **GG of India** (Bentinck).</li>
+    <li><strong>Charter Act of 1853:</strong> Separated legislative and executive functions of GG's Council. Opened Civil Services to Indians.</li>
+  </ul>
+
+  <h3>2. Crown Administration Acts</h3>
+  <ul>
+    <li><strong>Government of India Act 1858:</strong> Abolished EIC. Indian administration transferred to **British Crown**. Created Secretary of State for India.</li>
+    <li><strong>Indian Councils Act 1909 (Morley-Minto Reforms):</strong> Introduced **Separate Electorate for Muslims** (legalized communalism). Satyendra Prasad Sinha joined Viceroy's Council.</li>
+    <li><strong>Government of India Act 1919 (Montagu-Chelmsford Reforms):</strong> Introduced **Dyarchy in Provinces** (Transferred/Reserved subjects). Bicameral legislature at Centre.</li>
+    <li><strong>Government of India Act 1935:</strong> Proposed All-India Federation (never formed). Abolished dyarchy in provinces, introduced **Provincial Autonomy**. Set up Federal Court, RBI, and divided subjects into Federal, Provincial, and Concurrent lists.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["economic-impact-british"] = `
+  <h2>💸 Economic Impact of British Rule</h2>
+  <p>Colonial policies transformed India from a major exporter of finished goods into a supplier of raw materials and a market for British manufactures.</p>
+
+  <h3>1. Three Land Revenue Systems</h3>
+  <ul>
+    <li><strong>Permanent Settlement (Zamindari System):</strong> Lord Cornwallis (1793) in Bengal, Bihar, Odisha. Zamindars became owners of land. Tax rate fixed permanently; if not paid by sunset on due date, land was auctioned (**Sunset Law**). Extremely exploitative.</li>
+    <li><strong>Ryotwari System:</strong> Thomas Munro and Alexander Reed (1820) in Madras, Bombay, Assam. Settlement made directly with the peasant (Ryot). Tax rate fixed at 50-60%, revised periodically.</li>
+    <li><strong>Mahalwari System:</strong> Holt Mackenzie (1822) in Punjab, NW Province, Central India. Settlement made with the village community (Mahal). Individual peasants shared responsibility.</li>
+  </ul>
+
+  <h3>2. High-Yield Economic Phenomena</h3>
+  <ul>
+    <li><strong>De-industrialization:</strong> Heavy tariffs on Indian textiles in Britain, coupled with duty-free entry of British machine-made goods into India, destroyed India's famous handloom industries, leading to mass "ruralisation".</li>
+    <li><strong>Drain of Wealth Theory:</strong> Pioneered by **Dadabhai Naoroji** in his book *Poverty and Un-British Rule in India* (1867). He demonstrated how Indian tax revenues and resources were sent to Britain (via home charges, military expenses, profits) without any equivalent material return, impoverishing India.</li>
+    <li><strong>Commercialisation of Agriculture:</strong> Forced cultivation of cash crops (Indigo, Opium, Tea, Cotton) instead of foodgrains, leading to frequent, devastating famines (e.g., Great Bengal Famine of 1943).</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["revolt-1857"] = `
+  <h2>🔥 The Revolt of 1857</h2>
+  <p>Often called India's First War of Independence. A massive armed uprising against East India Company rule.</p>
+
+  <div style="text-align:center; margin: 15px 0;">
+    <img src="images/history_1857_revolt_map.png" alt="Centers of the 1857 Revolt" style="max-width:100%; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+    <p style="font-size:0.9em; color:#888; margin-top:5px;">Major Centers and Geographical Spread of the 1857 Uprising across Northern and Central India.</p>
+  </div>
+
+  <h3>1. Causes of the Revolt</h3>
+  <ul>
+    <li><strong>Political:</strong> Lord Dalhousie's Doctrine of Lapse and the annexation of Awadh (1856) on grounds of misgovernment alienated local rulers.</li>
+    <li><strong>Economic:</strong> Heavy taxes on land and destruction of native handicrafts.</li>
+    <li><strong>Social/Religious:</strong> Interference in social customs (abolishing Sati, Widow Remarriage Act) and fear of forced conversions by missionaries.</li>
+    <li><strong>Military:</strong> Indian sepoys paid less than British, denied overseas allowance (*Batta*), and forced to travel across seas (violating caste rules).</li>
+    <li><strong>Immediate:</strong> Introduction of the **Enfield Rifle** with grease paper cartridges containing pig and cow fat (offensive to Muslims and Hindus). **Mangal Pandey** of 34th NI shot his officer at Barrackpore (29 March 1857).</li>
+  </ul>
+
+  <h3>2. Major Centers & Leaders</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Center</th>
+      <th style="padding:8px; border:1px solid var(--border);">Indian Leader</th>
+      <th style="padding:8px; border:1px solid var(--border);">British Officer suppressing</th>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Delhi</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Bahadur Shah II (nominal) / Bakht Khan (actual)</td>
+      <td style="padding:8px; border:1px solid var(--border);">John Nicholson, Hudson</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Kanpur</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Nana Saheb, Tantia Tope (Ramachandra Pandurang)</td>
+      <td style="padding:8px; border:1px solid var(--border);">Colin Campbell</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Lucknow</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Begum Hazrat Mahal</td>
+      <td style="padding:8px; border:1px solid var(--border);">Colin Campbell, Havelock</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Jhansi</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Rani Laxmibai</td>
+      <td style="padding:8px; border:1px solid var(--border);">Hugh Rose (called her the only man among mutineers)</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Arrah (Bihar)</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Kunwar Singh (80-year-old landlord)</td>
+      <td style="padding:8px; border:1px solid var(--border);">William Taylor, Vincent Eyre</td>
+    </tr>
+  </table>
+
+  <h3>3. Outcomes</h3>
+  <ul>
+    <li>Passed the **Government of India Act 1858**, which transferred Indian administration from the East India Company to the **British Crown**.</li>
+    <li>Governor-General's title changed to **Viceroy** (Canning was first).</li>
+    <li>Abolished the Doctrine of Lapse. British stopped expanding territories, focusing on indirect control.</li>
+    <li>**Army Reorganization:** Ratio of European to Indian soldiers increased. Regiments restructured on caste/religion lines ("Martial Races" theory) to prevent unity.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["socio-religious-reform"] = `
+  <h2>🌱 Socio-Religious Reform Movements</h2>
+  <p>Movements in the 19th century aiming to reform social evils like caste, Sati, child marriage, and promote modern education.</p>
+
+  <h3>1. Reform Organizations</h3>
+  <ul>
+    <li><strong>Brahmo Samaj (1828):</strong> Founded by **Raja Ram Mohan Roy** (Father of Indian Renaissance). Opposed idol worship, caste rigidity, and Sati (which was banned in 1829 due to his efforts). Promoted monotheism. Later split into Adi Brahmo Samaj (Debendranath Tagore) and Brahmo Samaj of India (Keshab Chandra Sen).</li>
+    <li><strong>Arya Samaj (1875):</strong> Founded by **Swami Dayanand Saraswati** at Bombay. Motto: **"Go Back to Vedas"**. Wrote *Satyarth Prakash*. Opposed priesthood and idolatry. Started *Shuddhi* movement to reconvert people to Hinduism. Set up DAV schools.</li>
+    <li><strong>Satyashodhak Samaj (1873):</strong> Founded by **Jyotirao Phule** in Maharashtra. Dedicated to the upliftment of lower castes and women. Wrote *Gulamgiri* (Slavery) and *Saraswati*. His wife Savitribai Phule started India's first school for girls.</li>
+    <li><strong>Ramakrishna Mission (1897):</strong> Founded by **Swami Vivekananda** in honor of his Guru Ramakrishna Paramahansa. Vivekananda preached Practical Vedanta and humanitarian service. Gave the historic speech at Chicago's Parliament of Religions (1893).</li>
+    <li><strong>Aligarh Movement (1875):</strong> Founded by **Sir Syed Ahmed Khan**. Opposed blind adherence to religion, promoted scientific education for Muslims. Founded Muhammadan Anglo-Oriental College (now Aligarh Muslim University). Wrote *Tahzib-ul-Akhlaq*.</li>
+    <li><strong>Prarthana Samaj (1867):</strong> Founded by Atmaram Pandurang in Bombay, later led by M.G. Ranade. Focused on inter-caste dining, widow remarriage, and women's education.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["freedom-movement"] = `
+  <h2>⚔️ Indian National Movement</h2>
+  <p>The organized struggle for independence from British rule, divided into Moderate, Extremist, and Gandhian phases.</p>
+
+  <h3>1. Early Phases</h3>
+  <ul>
+    <li><strong>Indian National Congress (INC) Founded (1885):</strong> Founded by retired civil servant **A.O. Hume**. First session held at Bombay (W.C. Bonnerjee President, attended by 72 delegates).</li>
+    <li><strong>Moderate Phase (1885-1905):</strong> Led by Naoroji, Gokhale, Banerjea. Believed in constitutional methods (Triple Ps: Prayers, Petitions, Protests).</li>
+    <li><strong>Extremist Phase (1905-1919):</strong> Led by **Lal-Bal-Pal** (Lajpat Rai, Tilak, Pal) and Aurobindo Ghosh. Preached self-reliance, boycott, and passive resistance.
+      <ul>
+        <li>*Partition of Bengal (1905):* Announced by Lord Curzon. Triggered the **Swadeshi and Boycott Movement**.</li>
+        <li>*Surat Split (1907):* Congress split into Moderates and Extremists over methods.</li>
+        <li>*Lucknow Pact (1916):* Moderates/Extremists reunited. INC and Muslim League signed a joint pact.</li>
+        <li>*Home Rule League (1916):* Tilak and Annie Besant started separate leagues demanding home rule.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>2. Gandhian Era (1919 - 1947)</h3>
+  <ul>
+    <li>Gandhi returned from South Africa on **9 January 1915** (celebrated as Pravasi Bharatiya Divas).</li>
+    <li><strong>Early Satyagrahas:</strong> Champaran (Bihar, 1917 - first civil disobedience against Indigo Tinkathia system), Ahmedabad Mill Strike (1918 - first hunger strike), Kheda (1918 - first non-cooperation). Mnemonic: **CAK** (Champaran, Ahmedabad, Kheda).</li>
+    <li><strong>Rowlatt Act & Jallianwala Bagh (1919):</strong> Rowlatt Act allowed detention without trial. On 13 April 1919, General Dyer opened fire on a peaceful assembly at Jallianwala Bagh, Amritsar. Tagore renounced his Knighthood.</li>
+    <li><strong>Non-Cooperation Movement (1920-1922):</strong> Launched alongside Khilafat movement. Called off by Gandhi in Feb 1922 after the **Chauri Chaura incident** (where a mob burned a police station, killing 22 policemen).</li>
+    <li><strong>Civil Disobedience Movement (1930):</strong> Started with the **Dandi March** (Salt Satyagraha). Gandhi and 78 followers walked 240 miles from Sabarmati to Dandi (12 March - 6 April 1930) to break the salt monopoly.
+      <br/>- *Round Table Conferences (1930-32):* Gandhi attended only the 2nd RTC following the Gandhi-Irwin Pact (1931).
+      <br/>- *Poona Pact (1932):* Signed between Gandhi and B.R. Ambedkar, rejecting separate electorates for depressed classes, opting for reserved seats instead.
+    </li>
+    <li><strong>Quit India Movement (1942):</strong> Launched after the failure of the Cripps Mission. Gandhi gave the call **"Do or Die"** at Gowalia Tank, Bombay on 8 August 1942. Leaders were arrested overnight under *Operation Zero Hour*.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = `
+  <h2>🇮🇳 Post-Independence Consolidation</h2>
+  <p>The challenges of nation-building, border demarcations, princely states integration, and linguistic reorganization after 1947.</p>
+
+  <h3>1. Integration of Princely States</h3>
+  <p>Sardar Vallabhbhai Patel (Minister of States) and V.P. Menon successfully integrated 549 princely states. Three states presented exceptions:</p>
+  <ul>
+    <li><strong>Junagadh:</strong> Nawab wanted to join Pakistan, but the Hindu majority population rebelled. Integrated via **Plebiscite (February 1948)**.</li>
+    <li><strong>Hyderabad:</strong> Nizam refused to join India. Nizam's irregular militia (Razakars) terrorized the population. Integrated via military action code-named **Operation Polo (September 1948)**.</li>
+    <li><strong>Jammu & Kashmir:</strong> Ruler Hari Singh wanted to remain independent. In October 1947, Pakistani armed tribal raiders invaded. Hari Singh signed the **Instrument of Accession (26 Oct 1947)**, and Indian troops flew in to defend Srinagar.</li>
+  </ul>
+
+  <h3>2. States Reorganization</h3>
+  <ul>
+    <li>Andhra Pradesh became the **first linguistic state** in 1953 following the death of Potti Sriramulu after a 56-day hunger strike.</li>
+    <li>**Dhar Commission (1948)** and **JVP Committee (1948 - Jawaharlal, Vallabhbhai, Pattabhi)** rejected language as basis of states.</li>
+    <li>Following Sriramulu's death, the government appointed the **Fazl Ali Commission (States Reorganization Commission, 1953)**. Its recommendations led to the **States Reorganization Act (1956)**, creating 14 states and 6 Union Territories.</li>
+  </ul>
+`;
+
+// ==========================================
+// 6. WORLD HISTORY
+// ==========================================
+
+window.EXPANDED_NOTES_DATA["revolutions"] = `
+  <h2>🇺🇸🇫🇷 Industrial & Political Revolutions</h2>
+  <p>Key global revolutions that shaped modern political ideologies and economic structures.</p>
+
+  <h3>1. American Revolution (1775 - 1783)</h3>
+  <ul>
+    <li><strong>Causes:</strong> British taxation without representation (Stamp Act, Townshend Acts), trade restrictions.</li>
+    <li><strong>Boston Tea Party (1773):</strong> Colonists dumped British tea into the harbor to protest tea tax.</li>
+    <li><strong>Declaration of Independence:</strong> Drafted by Thomas Jefferson, adopted on **4 July 1776**.</li>
+    <li><strong>Treaty of Paris (1783):</strong> Britain recognized the independence of the United States.</li>
+  </ul>
+
+  <h3>2. French Revolution (1789)</h3>
+  <ul>
+    <li><strong>Causes:</strong> Divison of French society into three estates (Clergy, Nobility, Commoners/Third Estate). Only the Third Estate paid taxes. Bankruptcy under Louis XVI.</li>
+    <li><strong>Storming of the Bastille (14 July 1789):</strong> A fortress-prison, symbol of royal tyranny, was destroyed by a mob. Celebrated as France's National Day.</li>
+    <li><strong>Motto:</strong> **"Liberty, Equality, Fraternity"**.</li>
+    <li>Result: Executed Louis XVI and Marie Antoinette, ended feudalism, established republic, and paved the way for Napoleon Bonaparte's rise.</li>
+  </ul>
+
+  <h3>3. Russian Revolution (1917)</h3>
+  <ul>
+    <li>Overthrew the Tsarist autocracy. Caused by economic hardships of WWI, food shortages, and absolute rule of Tsar Nicholas II.</li>
+    <li>**February Revolution:** Forced the Tsar to abdicate; provisional government set up.</li>
+    <li>**October (Bolshevik) Revolution:** Led by **Vladimir Lenin**. Overthrew the provisional government, ending private property, establishing a socialist state (leading to the creation of the USSR in 1922).</li>
+  </ul>
+
+  <h3>4. Industrial Revolution</h3>
+  <ul>
+    <li>Began in Britain in the mid-18th century. Transitioned from hand production to machine manufacturing.</li>
+    <li>Key inventions: James Watt's Steam Engine, Spinning Jenny, railway locomotives.</li>
+    <li>Impact: Rise of capitalism, urbanization, growth of working class, and colonial search for raw materials.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["world-war-i"] = `
+  <h2>💥 World War I (1914 - 1918)</h2>
+  <p>A global war fought mainly in Europe, changing map boundaries and destroying empires.</p>
+
+  <h3>1. Causes and Blocs</h3>
+  <ul>
+    <li><strong>Causes:</strong> Imperialist competition, secret alliances, arms race, militarism, and rise of nationalism.</li>
+    <li><strong>Immediate Cause:</strong> Assassination of **Archduke Franz Ferdinand** (heir to the Austro-Hungarian throne) in Sarajevo (Bosnia) on 28 June 1914 by Serbian nationalist Gavrilo Princip.</li>
+    <li><strong>Alliances:</strong>
+      <br/>- *Allied Powers:* Britain, France, Russia, Italy, Japan, and USA (entered 1917 after German submarines sank US ships).
+      <br/>- *Central Powers:* Germany, Austria-Hungary, Ottoman Empire (Turkey), Bulgaria.
+    </li>
+  </ul>
+
+  <h3>2. Outcomes</h3>
+  <ul>
+    <li>Ended with Germany's surrender on 11 Nov 1918. Signed the **Treaty of Versailles (1919)**, placing the guilt of war on Germany, stripping its colonies, and imposing massive reparations.</li>
+    <li>Collpase of major empires: German, Austro-Hungarian, Russian (became USSR), and Ottoman (led to modern Turkey).</li>
+    <li>Created the **League of Nations (1920)** to prevent future wars (failed due to US absence and lack of military power).</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["world-war-ii"] = `
+  <h2>💣 World War II (1939 - 1945)</h2>
+  <p>The most destructive conflict in human history, involving the majority of the world's nations.</p>
+
+  <h3>1. Causes and Outbreak</h3>
+  <ul>
+    <li><strong>Causes:</strong> Failure of the League of Nations, rise of fascism/nazism, policy of appeasement (Britain/France letting Hitler annex territory), and German dissatisfaction with Versailles.</li>
+    <li><strong>Immediate Cause:</strong> Germany's invasion of **Poland** on 1 September 1939. Britain and France declared war on Germany.</li>
+    <li><strong>Alliances:</strong>
+      <br/>- *Axis Powers:* Germany (Hitler), Italy (Mussolini), Japan (Tojo).
+      <br/>- *Allied Powers:* Britain (Churchill), USSR (Stalin), USA (Roosevelt / Truman), China.
+    </li>
+  </ul>
+
+  <h3>2. Decisive Events & End</h3>
+  <ul>
+    <li>**Pearl Harbor (7 Dec 1941):** Japan attacked US naval base in Hawaii. Prompted USA to enter the war.</li>
+    <li>**Battle of Stalingrad (1942-43):** Turning point in Europe. Soviet Red Army defeated German forces.</li>
+    <li>**D-Day (6 June 1944):** Allied invasion of Normandy (France), liberating Western Europe.</li>
+    <li>**The Holocaust:** Systematic, state-sponsored genocide of 6 million Jews by Nazi Germany.</li>
+    <li>**End:** Germany surrendered in May 1945 (Hitler committed suicide). Japan surrendered after USA dropped atomic bombs: **"Little Boy"** on **Hiroshima** (6 August 1945) and **"Fat Man"** on **Nagasaki** (9 August 1945).</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["interwar-period"] = `
+  <h2>📉 The Interwar Period (1919 - 1939)</h2>
+  <p>The twenty years between the two World Wars, marked by economic collapse and the rise of totalitarian dictators.</p>
+
+  <h3>1. Major Developments</h3>
+  <ul>
+    <li><strong>League of Nations:</strong> Established in 1920 to maintain peace. Proved weak; could not halt invasions (e.g., Japan invading Manchuria 1931; Italy invading Ethiopia 1935).</li>
+    <li><strong>Great Depression (1929):</strong> Began with the Wall Street stock market crash in USA. Led to worldwide decline in trade, high unemployment, and financial collapse, weakening democratic governments.</li>
+    <li><strong>Rise of Dictators:</strong>
+      <ul>
+        <li>**Fascism in Italy:** Benito Mussolini seized power in 1922. Promoted aggressive nationalism and corporate state.</li>
+        <li>**Nazism in Germany:** Adolf Hitler (Nazi Party) became Chancellor in 1933. Preached racial superiority, anti-Semitism, and rejected the Treaty of Versailles.</li>
+        <li>**Militarism in Japan:** Military leaders took control of government, expanding into China.</li>
+      </ul>
+    </li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["cold-war"] = `
+  <h2>❄️ The Cold War & Decolonisation</h2>
+  <p>An era of ideological, military, and political tension between two superpowers (USA and USSR), coupled with the liberation of colonies in Asia and Africa.</p>
+
+  <h3>1. Ideological Rivalry</h3>
+  <ul>
+    <li>**USA (Western Bloc):** Capitalist, democratic.</li>
+    <li>**USSR (Eastern Bloc):** Communist, authoritarian.</li>
+    <li>**Military Blocs:** NATO (1949, led by USA) vs. Warsaw Pact (1955, led by USSR).</li>
+    <li>**Proxy Wars:** Fought indirectly in Korea (1950-53) and Vietnam (1955-75).</li>
+    <li>**Key Confrontations:**
+      <ul>
+        <li>*Berlin Blockade (1948):* Soviets blocked West Berlin. Allied airlift broke the blockade. Berlin Wall built in 1961.</li>
+        <li>*Cuban Missile Crisis (1962):* Closest the world came to nuclear war. USSR placed missiles in Cuba; USA imposed naval blockade. Resolved when USSR withdrew missiles.</li>
+      </ul>
+    </li>
+    <li>**Collapse:** Berlin Wall fell in 1989. The **Soviet Union (USSR) disintegrated** in December 1991, ending the Cold War.</li>
+  </ul>
+
+  <h3>2. Decolonisation</h3>
+  <ul>
+    <li>The decline of European economic power post-WWII led to independence movements across Asia and Africa. India (1947), Indonesia (1949), Ghana (1957), Algeria (1962).</li>
+    <li>**Non-Aligned Movement (NAM):** Formed in Belgrade (1961) by leaders like Nehru (India), Nasser (Egypt), Tito (Yugoslavia), Sukarno (Indonesia), and Nkrumah (Ghana) to remain neutral and avoid joining either US or Soviet blocs.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["international-institutions"] = `
+  <h2>🇺🇳 International Institutions</h2>
+  <p>Global bodies created to manage international relations, trade, finance, and security.</p>
+
+  <h3>1. The United Nations (UN)</h3>
+  <ul>
+    <li>Established on **24 October 1945** (UN Day) to replace the League of Nations. Headquarters in New York.</li>
+    <li><strong>Six Principal Organs:</strong>
+      <ul>
+        <li>**General Assembly:** Deciding body where all member states have equal votes.</li>
+        <li>**Security Council:** Responsible for international peace. Has 15 members: 5 Permanent (P5 with veto power: USA, UK, France, Russia, China) and 10 non-permanent members elected for 2-year terms.</li>
+        <li>**International Court of Justice (ICJ):** Judicial body. Located at **The Hague, Netherlands**.</li>
+        <li>**Secretariat:** Executive branch, led by the Secretary-General.</li>
+        <li>Economic and Social Council (ECOSOC) and Trusteeship Council (suspended).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>2. Financial & Trade Bodies</h3>
+  <ul>
+    <li><strong>Bretton Woods Twins (1944):</strong> Created at the Bretton Woods Conference:
+      <br/>- *International Monetary Fund (IMF):* Manages balance of payments and exchange rates.
+      <br/>- *World Bank (IBRD):* Provides long-term development loans.
+    </li>
+    <li><strong>World Trade Organization (WTO):</strong> Established on **1 January 1995**, replacing the General Agreement on Tariffs and Trade (GATT). Regulates global trade.</li>
+  </ul>
+`;
+
+// ==========================================
+// 7. ART, CULTURE & HERITAGE
+// ==========================================
+
+window.EXPANDED_NOTES_DATA["architecture"] = `
+  <h2>🏛️ Indian Architecture</h2>
+  <p>The structural heritage of India, from ancient cave temples to medieval Islamic monuments.</p>
+
+  <h3>1. Temple Architecture Styles</h3>
+  <ul>
+    <li><strong>Nagara Style (North India):</strong> Platform base, curved tower (**Shikhara**), assembly hall (*Mandapa*), no boundary walls. E.g., Kandariya Mahadeva (Khajuraho), Sun Temple (Konark).</li>
+    <li><strong>Dravida Style (South India):</strong> Monumental gateway (**Gopuram**), stepped pyramidal tower (**Vimana**), temple tanks, high boundary walls. E.g., Brihadeshwara Temple (Thanjavur).</li>
+    <li><strong>Vesara Style (Deccan):</strong> Hybrid of Nagara and Dravida, characterized by star-shaped platform (*Jagati*). E.g., Chennakeshava Temple (Belur).</li>
+  </ul>
+
+  <h3>2. Indo-Islamic & Mughal Architecture</h3>
+  <ul>
+    <li>Introduced the arch, dome, minaret, mortar, and geometric designs (avoiding human figures).</li>
+    <li>**Delhi Sultanate:** Qutub Minar (Aibak/Iltutmish), Alai Darwaza (Alauddin Khilji), Tomb of Ghiyasuddin Tughlaq.</li>
+    <li>**Mughal Architecture:** 
+      <br/>- *Akbar:* Red sandstone structures. Humayun's Tomb (first double-dome), Fatehpur Sikri (Buland Darwaza, Panch Mahal).
+      <br/>- *Shah Jahan:* White marble structures. Taj Mahal, Red Fort (Delhi), Moti Masjid (Agra). Pietra Dura (stone inlay work) reached peak.
+    </li>
+  </ul>
+
+  <h3>3. Stupas, Caves & Monuments</h3>
+  <ul>
+    <li>**Sanchi Stupa (MP):** Commemorated by Ashoka. Relics of Buddha inside semicircular mound with ornamental gateways (*Toranas*).</li>
+    <li>**Ajanta Caves:** 29 Buddhist rock-cut caves. Murals depicting Jataka tales.</li>
+    <li>**Ellora Caves:** 34 caves representing Hinduism, Buddhism, and Jainism. Cave 16 contains the monolithic rock-cut **Kailash Temple** built by Krishna I (Rashtrakuta).</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["paintings"] = `
+  <h2>🎨 Painting Traditions of India</h2>
+  <p>From ancient cave murals to royal miniature schools and tribal folk paintings.</p>
+
+  <h3>1. Murals & Miniatures</h3>
+  <ul>
+    <li><strong>Mural Paintings:</strong> Giant paintings done on walls/rocks. Prominent at Ajanta Caves (Jataka tales, Fresco technique - painting on wet plaster) and Bagh.</li>
+    <li><strong>Miniature Paintings:</strong> Small, detailed paintings on paper or palm leaves.
+      <br/>- *Mughal School:* Introduced court scenes, portraits, hunting scenes. Reached peak under **Jahangir**.
+      <br/>- *Rajput School:* Focused on religious themes (Radha-Krishna, Ramayana) and courtly lives. E.g., Kangra, Basohli, Kishangarh (famous painting *Bani Thani*).
+    </li>
+  </ul>
+
+  <h3>2. Folk Paintings</h3>
+  <ul>
+    <li><strong>Madhubani Paintings (Bihar):</strong> Mithila region. Traditionally done by women using rice paste, twigs, fingers, and natural dyes. Displays nature, birds, fish, and deities. Has geographical indication (GI) tag.</li>
+    <li><strong>Warli Paintings (Maharashtra):</strong> Tribal art using basic geometric shapes (triangles, circles, squares) made of white paste (rice flour) on mud/ochre walls, showing daily activities, crop cycles, and tarpa dance.</li>
+    <li><strong>Pattachitra (Odisha):</strong> Scroll paintings on cloth or dried palm leaves. Displays tales of Lord Jagannath and Krishna.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["dance-music"] = `
+  <h2>💃 Dance & Music</h2>
+  <p>The classical and folk performance heritage of India, preserving historical myths and regional identities.</p>
+
+  <h3>1. Eight Classical Dances</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Dance</th>
+      <th style="padding:8px; border:1px solid var(--border);">State</th>
+      <th style="padding:8px; border:1px solid var(--border);">Key Characteristics</th>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Bharatnatyam</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Tamil Nadu</td>
+      <td style="padding:8px; border:1px solid var(--border);">Oldest classical dance. Devadasi origin. Solo performance, fire dance elements.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Kathak</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Uttar Pradesh</td>
+      <td style="padding:8px; border:1px solid var(--border);">Storytelling, fast spins (*chakkars*), complex footwork. Nawab Wajid Ali Shah.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Kathakali</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Kerala</td>
+      <td style="padding:8px; border:1px solid var(--border);">Dance-drama. Complex face makeup (Green: virtue; Red/Black: evil).</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Mohiniyattam</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Kerala</td>
+      <td style="padding:8px; border:1px solid var(--border);">Solo feminine dance. Story of Mohini (enchantress). White/Gold saree.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Kuchipudi</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Andhra Pradesh</td>
+      <td style="padding:8px; border:1px solid var(--border);">Tarangam (dancing on brass plates). Dancers sing and act.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Odissi</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Odisha</td>
+      <td style="padding:8px; border:1px solid var(--border);">**Tribhanga posture** (three bends of body). Worshipped in temples.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Manipuri</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Manipur</td>
+      <td style="padding:8px; border:1px solid var(--border);">Vaishnavite themes (Raslila). Cylindrical skirt. Soft, flowing movements.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border:1px solid var(--border);"><strong>Sattriya</strong></td>
+      <td style="padding:8px; border:1px solid var(--border);">Assam</td>
+      <td style="padding:8px; border:1px solid var(--border);">Introduced by **Srimanta Sankardev** in Vaishnavite monasteries.</td>
+    </tr>
+  </table>
+
+  <h3>2. Classical Music Systems</h3>
+  <ul>
+    <li><strong>Hindustani Music (North India):</strong> Heavy Persian/Central Asian influence. Divided into *Gharanas* (schools). Major styles: *Dhrupad* (dhruva/fixed, older), *Khayal* (imagination, popular).</li>
+    <li><strong>Carnatic Music (South India):</strong> Purely indigenous system. Structured format based on *Kriti* (composition), *Raga* (melody), and *Tala* (rhythm). Trinity: Tyagaraja, Muthuswami Dikshitar, Syama Sastri.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["literature"] = `
+  <h2>📖 Literary Traditions of India</h2>
+  <p>The vast text corpus of India, preserving scientific, political, and philosophical achievements.</p>
+
+  <h3>1. Ancient Scripts & Texts</h3>
+  <ul>
+    <li><strong>The Vedas:</strong> Rigveda (1028 hymns), Samaveda (music), Yajurveda (prose/ritual instructions), Atharvaveda (medicine/spells).</li>
+    <li><strong>Epics:</strong> Ramayana (Valmiki) and Mahabharata (Vyasa).</li>
+    <li><strong>Buddhist Canons (Tripitakas - in Pali):</strong> Sutta Pitaka (Buddha's discourses), Vinaya Pitaka (rules for monks), Abhidhamma Pitaka (philosophical analysis).</li>
+    <li><strong>Jain Canons:</strong> Angas (written in Prakrit/Ardhamagadhi).</li>
+    <li><strong>Sanskrit Plays/Treatises:</strong>
+      <br/>- *Ashtadhyayi (Panini):* First scientific Sanskrit grammar.
+      <br/>- *Mahabhashya (Patanjali):* Commentary on Panini.
+      <br/>- *Abhijnanasakuntalam (Kalidasa):* Masterpiece play of Gupta era.
+      <br/>- *Mrichchakatikam (Shudraka):* "The Little Clay Cart" - social drama of ancient times.
+      <br/>- *Mudrarakshasa (Vishakhadatta):* Historical play showing Chandragupta Maurya's rise.
+    </li>
+    <li><strong>Sangam Literature (Tamil):</strong> Tolkappiyam (grammar), epics Silappatikaram and Manimekalai, and Tirukkural (moral guide by Tiruvalluvar).</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["religion-festivals"] = `
+  <h2>🕉️ Indian Philosophy & Festivals</h2>
+  <p>The intellectual schools of thought and cultural celebrations across communities in India.</p>
+
+  <h3>1. Six Orthodox Schools (Shad-Darshanas)</h3>
+  <ul>
+    <li><strong>Samkhya (Sage Kapila):</strong> Oldest school. Dualism of Prakriti (matter) and Purusha (soul).</li>
+    <li><strong>Yoga (Sage Patanjali):</strong> Focuses on physical and mental control as path to liberation.</li>
+    <li><strong>Nyaya (Sage Gautama):</strong> Logicians. Stresses logical thinking and verification.</li>
+    <li><strong>Vaisheshika (Sage Kanada):</strong> Introduced atom theory (*Anu*). Proved universe is made of physical elements.</li>
+    <li><strong>Mimamsa (Sage Jaimini):</strong> Stresses the ritualistic teachings of the Vedas.</li>
+    <li><strong>Vedanta (Sage Badarayana):</strong> Explores philosophical essence of Upanishads. Later divided into Advaita (monism of Adi Shankara) and Vishishtadvaita (Ramanuja).</li>
+  </ul>
+
+  <h3>2. Regional Festivals</h3>
+  <ul>
+    <li>**Onam (Kerala):** Harvest festival, celebrates King Mahabali's return. Famous for Snake Boat Races (*Vallam Kali*).</li>
+    <li>**Pongal (Tamil Nadu):** 4-day harvest festival.</li>
+    <li>**Bihu (Assam):** 3 festivals (Rongali, Kongali, Bhogali) marking agricultural cycles.</li>
+    <li>**Hornbill Festival (Nagaland):** "Festival of Festivals", showcasing rich tribal heritage.</li>
+  </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["heritage-sites"] = `
+  <h2>🏛️ UNESCO World Heritage Sites in India</h2>
+  <p>India is home to **42 UNESCO World Heritage Sites** (as of recent evaluations), safeguarding rich cultural and natural history.</p>
+
+  <h3>1. Classification</h3>
+  <ul>
+    <li><strong>Cultural Sites (34):</strong> Man-made historical monuments. E.g., Sanchi Stupa, Taj Mahal, Ajanta/Ellora Caves, Group of Monuments at Hampi, Sun Temple at Konark, Khajuraho temples, Hill Forts of Rajasthan.</li>
+    <li><strong>Natural Sites (7):</strong> Pristine ecosystems. E.g., Kaziranga National Park (Assam - one-horned rhinos), Sundarbans National Park (Bengal - mangroves, tigers), Western Ghats, Keoladeo National Park (Rajasthan - migratory birds).</li>
+    <li><strong>Mixed Site (1):</strong> **Khangchendzonga National Park** (Sikkim). Holds both cultural significance for local tribes and unique alpine biodiversity.</li>
+    <li><strong>Recent Inclusions:</strong>
+      <ul>
+        <li>**Santiniketan (West Bengal):** University town founded by Rabindranath Tagore.</li>
+        <li>**Sacred Ensembles of the Hoysalas (Karnataka):** Star-shaped temples at Belur, Halebidu, and Somanathapura.</li>
+      </ul>
+    </li>
+  </ul>
+`;
+
+console.log("Successfully loaded notes_extra_history.js!");

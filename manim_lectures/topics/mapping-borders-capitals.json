@@ -1,0 +1,15 @@
+{
+    "id": "mapping-borders-capitals",
+    "title": "Borders, Capitals & Mapping",
+    "subject": "Geography (CDS/NDA)",
+    "subjectId": "geography",
+    "chapter": "Indian Geography",
+    "chapterId": "geography-details",
+    "blocks": [],
+    "formulas": [
+        "Borders: Bangladesh (longest), Afghanistan (shortest)",
+        "Lines: Radcliffe (PK/BD), MacMahon (CN), Durand (AF)",
+        "Strategic: Malacca, Hormuz, Hambantota"
+    ],
+    "hasNotes": false
+}
