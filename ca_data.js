@@ -133,7 +133,7 @@ window.CA_DATES_DATA = [
   { date: "Jan 25", name: "National Voters' Day", theme: "\"Nothing Like Voting, I Vote For Sure\"", significance: "Marks the foundation day of the Election Commission of India (1950) to enhance electoral participation." },
   { date: "Jan 26", name: "Republic Day", theme: "\"Viksit Bharat\" (Developed India)", significance: "Marks the adoption of the Constitution of India in 1950." },
   // --- FEBRUARY ---
-  { date: "Feb 1",  name: "Indian Coast Guard Day", theme: "\null", significance: "Commemorates the establishment of the Coast Guard in 1977 to protect maritime interests." },
+  { date: "Feb 1",  name: "Indian Coast Guard Day", theme: "-", significance: "Commemorates the establishment of the Coast Guard in 1977 to protect maritime interests." },
   { date: "Feb 2",  name: "World Wetlands Day", theme: "\"Wetlands and Human Wellbeing\"", significance: "Marks the signing of the Ramsar Convention on Wetlands in 1971 to promote wetland conservation." },
   { date: "Feb 13", name: "World Radio Day", theme: "\"Radio: A century informing, entertaining and educating\"", significance: "Commemorates the anniversary of the first broadcast by United Nations Radio, highlighting radio as a medium for peace." },
   { date: "Feb 20", name: "World Day of Social Justice", theme: "\"Bridging Gaps, Building Alliances\"", significance: "Promotes international efforts in poverty eradication, gender equality, and social justice." },
@@ -152,7 +152,7 @@ window.CA_DATES_DATA = [
   { date: "May 3",  name: "World Press Freedom Day", theme: "\"A Press for the Planet: Journalism in the Face of the Environmental Crisis\"", significance: "Proclaimed to evaluate press freedom, defend media independence, and pay tribute to journalists." },
   { date: "May 8",  name: "World Red Cross Day", theme: "\"I give for humanity\"", significance: "Celebrates the humanitarian work and principles of the Red Cross and Red Crescent movements." },
   { date: "May 11", name: "National Technology Day", theme: "\"Sustainable Future for a Developed India\"", significance: "Marks the successful Pokhran-II nuclear tests (Operation Shakti) in 1998." },
-  { date: "May 21", name: "Anti-Terrorism Day", theme: "\null", significance: "Observed to spread the message of peace and humanity, marking the death anniversary of Rajiv Gandhi." },
+  { date: "May 21", name: "Anti-Terrorism Day", theme: "-", significance: "Observed to spread the message of peace and humanity, marking the death anniversary of Rajiv Gandhi." },
   { date: "May 22", name: "International Day for Biological Diversity", theme: "\"Be part of the Plan\"", significance: "Promotes biodiversity conservation, sustainable utilization, and fair sharing of genetic resources." },
   { date: "May 29", name: "International Day of UN Peacekeepers", theme: "\"Fit for the future, building better together\"", significance: "Honors military, police, and civilian personnel serving in UN peacekeeping operations worldwide." },
   // --- JUNE ---
@@ -161,7 +161,7 @@ window.CA_DATES_DATA = [
   { date: "Jun 29", name: "National Statistics Day", theme: "\"Alignment of State Indicator Framework with National Indicator Framework for Monitoring Sustainable Development Goals\"", significance: "Celebrates the birth anniversary of Professor Prasanta Chandra Mahalanobis, recognizing his role in India's planning." },
   // --- JULY ---
   { date: "Jul 11", name: "World Population Day", theme: "\"Unleashing the power of gender equality: Uplifting the voices of women and girls to unlock our world’s infinite possibilities\"", significance: "Raises global awareness on demographics, population growth, and reproductive health rights." },
-  { date: "Jul 26", name: "Kargil Vijay Diwas", theme: "\null", significance: "Honors the victory of the Indian Armed Forces in Operation Vijay (1999) and the sacrifices made by soldiers." },
+  { date: "Jul 26", name: "Kargil Vijay Diwas", theme: "-", significance: "Honors the victory of the Indian Armed Forces in Operation Vijay (1999) and the sacrifices made by soldiers." },
   // --- AUGUST ---
   { date: "Aug 15", name: "Independence Day", theme: "\"Viksit Bharat\"", significance: "Commemorates India's independence from British rule on 15 August 1947." },
   { date: "Aug 29", name: "National Sports Day", theme: "\"Sports as an enabler for an inclusive and fit society\"", significance: "Birth anniversary of hockey legend Major Dhyan Chand, promoting sports participation." },
@@ -173,19 +173,19 @@ window.CA_DATES_DATA = [
   { date: "Sep 21", name: "International Day of Peace", theme: "\"Actions for Peace: Our Ambition for the #GlobalGoals\"", significance: "Dedicated to strengthening the ideals of peace and promoting a non-violent world." },
   { date: "Sep 27", name: "World Tourism Day", theme: "\"Tourism and Peace\"", significance: "Focuses on the social, cultural, political, and economic value of tourism globally." },
   // --- OCTOBER ---
-  { date: "Oct 8",  name: "Indian Air Force Day", theme: "\null", significance: "Commemorates the official establishment of the Indian Air Force in 1932." },
+  { date: "Oct 8",  name: "Indian Air Force Day", theme: "-", significance: "Commemorates the official establishment of the Indian Air Force in 1932." },
   { date: "Oct 16", name: "World Food Day", theme: "\"Water is life, water is food. Leave no one behind\"", significance: "Commemorates the founding of the Food and Agriculture Organization (FAO) of the United Nations in 1945." },
-  { date: "Oct 24", name: "United Nations Day", theme: "\null", significance: "Marks the entry into force of the UN Charter in 1945, celebrating global cooperation." },
+  { date: "Oct 24", name: "United Nations Day", theme: "-", significance: "Marks the entry into force of the UN Charter in 1945, celebrating global cooperation." },
   { date: "Oct 31", name: "National Unity Day", theme: "\"Unity for Nation\"", significance: "Birth anniversary of Sardar Vallabhbhai Patel (Rashtriya Ekta Diwas), celebrating his role in national integration." },
   // --- NOVEMBER ---
   { date: "Nov 10", name: "World Science Day for Peace and Development", theme: "\"Building Trust in Science\"", significance: "Highlights the significant role of science in society and the need to engage the public on scientific issues." },
   { date: "Nov 19", name: "World Toilet Day", theme: "\"Accelerating Change\"", significance: "Raises global awareness and inspires action to tackle the global sanitation crisis." },
-  { date: "Nov 26", name: "Constitution Day", theme: "\null", significance: "Marks the historic adoption of the Constitution of India by the Constituent Assembly in 1949 (Samvidhan Divas)." },
+  { date: "Nov 26", name: "Constitution Day", theme: "-", significance: "Marks the historic adoption of the Constitution of India by the Constituent Assembly in 1949 (Samvidhan Divas)." },
   // --- DECEMBER ---
   { date: "Dec 1",  name: "World AIDS Day", theme: "\"Let Communities Lead\"", significance: "Global awareness day to fight HIV and support those affected." },
-  { date: "Dec 4",  name: "Indian Navy Day", theme: "\null", significance: "Celebrates the success of Operation Trident against Karachi harbor during the 1971 Indo-Pak war." },
-  { date: "Dec 7",  name: "Armed Forces Flag Day", theme: "\null", significance: "Observed to honor martyrs and the men in uniform, and collect funds for their welfare." },
+  { date: "Dec 4",  name: "Indian Navy Day", theme: "-", significance: "Celebrates the success of Operation Trident against Karachi harbor during the 1971 Indo-Pak war." },
+  { date: "Dec 7",  name: "Armed Forces Flag Day", theme: "-", significance: "Observed to honor martyrs and the men in uniform, and collect funds for their welfare." },
   { date: "Dec 10", name: "Human Rights Day", theme: "\"Freedom, Equality and Justice for All\"", significance: "Marks the adoption of the Universal Declaration of Human Rights in 1948 by the UN." },
-  { date: "Dec 16", name: "Vijay Diwas", theme: "\null", significance: "Commemorates India's historic victory over Pakistan in the 1971 war, leading to the liberation of Bangladesh." },
+  { date: "Dec 16", name: "Vijay Diwas", theme: "-", significance: "Commemorates India's historic victory over Pakistan in the 1971 war, leading to the liberation of Bangladesh." },
   { date: "Dec 23", name: "National Farmers' Day", theme: "\"Delivering Smart Solutions for Sustainable Food Security and Resilience\"", significance: "Birth anniversary of Chaudhary Charan Singh (Kisan Diwas), celebrating the contribution of India's farmers." },
 ];
