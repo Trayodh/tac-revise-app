@@ -714,22 +714,26 @@ function renderCurrentMonthAffairs() {
     <div style="height:1px; background:var(--border); margin-bottom:22px;"></div>
   `;
 
-  const TOPIC_COLORS = {
-    'Polity & Governance':    '#4f46e5',
-    'Economy & Finance':      '#0891b2',
-    'Defence & Security':     '#dc2626',
-    'Military Appointments':  '#b45309',
-    'International Relations':'#7c3aed',
-    'Environment & Ecology':  '#059669',
-    'Science & Technology':   '#d97706',
-    'Social Issues':          '#db2777',
-    'History & Culture':      '#92400e',
-    'Geography & Disasters':  '#0369a1',
-    'Awards & Appointments':  '#6d28d9',
-  };
+  function getTopicColor(topicStr, itemTopicColor) {
+    if (itemTopicColor && /^#[0-9A-Fa-f]{3,6}$/.test(itemTopicColor)) return itemTopicColor;
+    if (!topicStr) return '#64748b';
+    const t = topicStr.toLowerCase();
+    if (t.includes('polity') || t.includes('govern')) return '#4f46e5';
+    if (t.includes('econom') || t.includes('financ')) return '#0891b2';
+    if (t.includes('defence') || t.includes('securit') || t.includes('military')) return '#dc2626';
+    if (t.includes('appointment')) return '#b45309';
+    if (t.includes('international') || t.includes('relation') || t.includes('foreign')) return '#7c3aed';
+    if (t.includes('environ') || t.includes('ecolog') || t.includes('climat')) return '#059669';
+    if (t.includes('science') || t.includes('technolog') || t.includes('space')) return '#d97706';
+    if (t.includes('social') || t.includes('welfare')) return '#db2777';
+    if (t.includes('history') || t.includes('cultur') || t.includes('heritage')) return '#92400e';
+    if (t.includes('geograph') || t.includes('disaster')) return '#0369a1';
+    if (t.includes('award') || t.includes('sport')) return '#6d28d9';
+    return '#64748b';
+  }
 
   data.forEach(item => {
-    const topicColor = item.topicColor || TOPIC_COLORS[item.topic] || '#64748b';
+    const topicColor = getTopicColor(item.topic, item.topicColor);
     const topicLabel = (item.topic || 'General').toUpperCase();
     const mainText   = item.text || item.summary || '';
 
@@ -815,7 +819,7 @@ function renderCurrentMonthAffairs() {
     `;
 
     itemsWithMcq.forEach((item, index) => {
-      const topicColor = item.topicColor || TOPIC_COLORS[item.topic] || '#64748b';
+      const topicColor = getTopicColor(item.topic, item.topicColor);
       html += `
         <div style="margin-bottom:26px; padding-bottom:22px; ${index < itemsWithMcq.length - 1 ? 'border-bottom:1px solid var(--border);' : ''}" id="ca-mcq-${item.id}">
           <div style="display:flex; align-items:center; gap:6px; margin-bottom:10px;">
@@ -886,6 +890,109 @@ function checkCaMcq(itemId, selectedIdx, correctIdx, btnElement) {
   }
   
   explanationDiv.style.display = "block";
+}
+
+// ==========================================
+// 9.5. PYQ SEMANTIC SEARCH MODULE
+// ==========================================
+
+function executePyqSearch() {
+  const inputEl = document.getElementById("pyq-search-input");
+  const query = inputEl.value.trim().toLowerCase();
+  const resultsContainer = document.getElementById("pyq-search-results");
+  
+  if (!query) {
+    resultsContainer.style.display = "none";
+    return;
+  }
+  
+  // Search through CBT_EXAMS_DATABASE
+  let matchedQuestions = [];
+  CBT_EXAMS_DATABASE.forEach(exam => {
+    exam.questions.forEach((q, idx) => {
+      const qText = q.question.toLowerCase();
+      const optionsText = q.options.join(" ").toLowerCase();
+      if (qText.includes(query) || optionsText.includes(query)) {
+        matchedQuestions.push({
+          examTitle: exam.title,
+          examName: exam.exam,
+          questionObj: q,
+          qIndex: idx + 1
+        });
+      }
+    });
+  });
+  
+  resultsContainer.style.display = "block";
+  resultsContainer.innerHTML = "";
+  
+  if (matchedQuestions.length === 0) {
+    resultsContainer.innerHTML = `<div style="color: var(--text-secondary); text-align: center; padding: 20px;">No Past Year Questions matched "${query}".</div>`;
+    return;
+  }
+  
+  const displayLimit = Math.min(matchedQuestions.length, 20);
+  const titleHtml = `<div style="font-weight: 600; color: var(--accent); margin-bottom: 12px;">Found ${matchedQuestions.length} matches (showing top ${displayLimit}):</div>`;
+  
+  let cardsHtml = matchedQuestions.slice(0, displayLimit).map((match, i) => {
+    const q = match.questionObj;
+    const uid = 'pyq-' + Date.now() + '-' + i;
+    
+    let optionsHtml = '';
+    q.options.forEach((opt, optIdx) => {
+      const isCorrect = (optIdx === q.correct);
+      optionsHtml += `
+        <div style="padding: 8px; border: 1px solid var(--border); border-radius: 4px; margin-bottom: 4px; background: rgba(0,0,0,0.2);">
+          <span style="font-weight: 600; margin-right: 8px;">${String.fromCharCode(65 + optIdx)}.</span> ${opt}
+          <div class="pyq-ans-indicator ${uid}-ans" style="display: none; font-weight: 600; margin-top: 4px; ${isCorrect ? 'color: var(--accent);' : 'color: var(--danger);'}">
+            ${isCorrect ? '✓ CORRECT ANSWER' : '✗ INCORRECT'}
+          </div>
+        </div>
+      `;
+    });
+    
+    return `
+      <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin-bottom: 16px; position: relative;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+          <span style="font-family: var(--font-logo); font-size: 0.75rem; background: var(--accent); color: #000; padding: 2px 8px; border-radius: 4px; font-weight: 700;">${match.examName}</span>
+          <span style="font-size: 0.8rem; color: var(--text-secondary);">Source: ${match.examTitle} (Q.${match.qIndex})</span>
+        </div>
+        <div style="font-size: 1rem; color: var(--text-primary); margin-bottom: 16px; line-height: 1.5;">
+          ${q.question}
+        </div>
+        <div style="margin-bottom: 16px;">
+          ${optionsHtml}
+        </div>
+        <button class="btn-secondary" onclick="togglePyqAnswer('${uid}')" style="width: auto; padding: 6px 12px; font-size: 0.85rem;">Toggle Answer & Solution</button>
+        <div id="${uid}-sol" style="display: none; margin-top: 12px; padding: 12px; border-left: 3px solid var(--info); background: rgba(14, 165, 233, 0.05); color: var(--text-secondary); font-size: 0.9rem;">
+          <strong>Explanation:</strong><br/>
+          ${q.explanation || 'Self-explanatory or factual based on the core syllabus.'}
+        </div>
+      </div>
+    `;
+  }).join('');
+  
+  resultsContainer.innerHTML = titleHtml + cardsHtml;
+  
+  if (window.MathJax && window.MathJax.typesetPromise) {
+    window.MathJax.typesetPromise([resultsContainer]).catch(err => console.warn(err));
+  }
+}
+
+function togglePyqAnswer(uid) {
+  const indicators = document.querySelectorAll('.' + uid + '-ans');
+  const solDiv = document.getElementById(uid + '-sol');
+  
+  if (!solDiv) return;
+  const isCurrentlyVisible = solDiv.style.display === 'block';
+  
+  if (isCurrentlyVisible) {
+    indicators.forEach(el => el.style.display = 'none');
+    solDiv.style.display = 'none';
+  } else {
+    indicators.forEach(el => el.style.display = 'block');
+    solDiv.style.display = 'block';
+  }
 }
 
 // ==========================================
@@ -1694,6 +1801,28 @@ async function sendChatbotMessage() {
   container.appendChild(loadingEl);
   container.scrollTop = container.scrollHeight;
   
+  let contextText = "";
+  if (typeof selectedTopicId !== 'undefined' && selectedTopicId) {
+    const notesScreen = document.getElementById("screen-notes");
+    if (notesScreen && notesScreen.classList.contains("active")) {
+      if (typeof EXPANDED_NOTES_DATA !== 'undefined' && EXPANDED_NOTES_DATA[selectedTopicId]) {
+        contextText = EXPANDED_NOTES_DATA[selectedTopicId].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').substring(0, 3000);
+      } else if (typeof NOTES_DATABASE !== 'undefined') {
+        const subject = NOTES_DATABASE[selectedSubjectId];
+        const chapter = subject?.chapters.find(c => c.id === selectedChapterId);
+        const topic = chapter?.topics.find(t => t.id === selectedTopicId);
+        if (topic && topic.notes) {
+          contextText = topic.notes.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').substring(0, 3000);
+        }
+      }
+    }
+  }
+
+  let promptText = `You are an expert tutor for Indian Defence Examinations (NDA, CDS, AFCAT). Solve this user's doubt clearly, with mathematical derivations, step-by-step logic, or concise explanations depending on the question. Doubt: ${text}`;
+  if (contextText.length > 50) {
+    promptText += `\n\nCONTEXT (The user is currently reading this material):\n${contextText}\n\nUse this context to inform your answer if relevant. Format math with $ or $$.`;
+  }
+  
   try {
     const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
     let success = false;
@@ -1709,7 +1838,7 @@ async function sendChatbotMessage() {
             model: model,
             contents: [{
               parts: [{
-                text: `You are an expert tutor for Indian Defence Examinations (NDA, CDS, AFCAT). Solve this user's doubt clearly, with mathematical derivations, step-by-step logic, or concise explanations depending on the question. Doubt: ${text}`
+                text: promptText
               }]
             }]
           })
@@ -1741,6 +1870,10 @@ async function sendChatbotMessage() {
         .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
         .replace(/\n/g, '<br/>');
       replyEl.innerHTML = formattedText;
+      
+      if (window.MathJax && window.MathJax.typesetPromise) {
+        window.MathJax.typesetPromise([replyEl]).catch(err => console.warn("MathJax error:", err));
+      }
     } else {
       if (lastStatus === 429) {
         replyEl.innerHTML = "<span style='color:var(--warning);'> AI Quota Exhausted: The Gemini free-tier quota is temporarily fully utilized. Please try again in a few minutes or switch model settings.</span>";
@@ -1965,8 +2098,10 @@ function initAiPaperSolver() {
   if (evaluateOmrBtn && omrUpload && omrResultArea) {
     evaluateOmrBtn.addEventListener("click", async () => {
       const file = omrUpload.files[0];
-      if (!file) {
-        alert("Please select a PDF or Image scan of your answer sheet first.");
+      const omrText = document.getElementById("ai-omr-text") ? document.getElementById("ai-omr-text").value.trim() : "";
+      
+      if (!file && !omrText) {
+        alert("Please select a PDF/Image scan OR type your answers in the text area.");
         return;
       }
       if (typeof deductTokens === 'function') {
@@ -1994,7 +2129,11 @@ function initAiPaperSolver() {
 You are given:
 1. Target Exam: "${examName}"
 2. Subject / Paper Type: "${subjectType}"
-3. An uploaded document (which can be a filled OMR sheet, or a list/page of marked answers like "1. a, 2. b", etc.)
+3. An uploaded document (which may be a formal OMR bubble sheet OR a scanned handwritten list of answers on regular paper) OR a manually typed text list below.
+
+If a text list is provided below, use it. Otherwise, carefully read the candidate's answers from the uploaded document page-by-page. If the document is a handwritten list (like "1-a", "2: c", etc.), use your OCR vision to accurately extract the chosen option for each question number.
+Manually Typed Answers (if any):
+${omrText ? omrText : "None provided"}
 
 Your task is to:
 1. Identify the correct answers for the "${examName}" - "${subjectType}" paper. Rely on your pre-trained knowledge base of UPSC papers and national examinations to fetch/retrieve the official answer key for "${examName}" - "${subjectType}". If you do not have the exact key, generate a highly realistic, accurate expert-level answer key for this specific paper.
@@ -2025,12 +2164,8 @@ Produce a beautiful, production-ready grading report in HTML. The output should 
 
 Ensure the design is clean, readable, premium, and uses variables like var(--accent), var(--danger), var(--warning), var(--text-primary), var(--text-secondary), etc. Do NOT use any emojis or pictorial symbols anywhere in the HTML report. Keep it completely emoji-free and professional.`;
 
-      const reader = new FileReader();
-      reader.onload = async () => {
+      const executeEvaluation = async (base64Data = null, fileMime = null) => {
         try {
-          const base64Data = reader.result.split(',')[1];
-          const fileMime = file.type || "application/pdf";
-          
           const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
           let success = false;
           let resultText = "";
@@ -2038,24 +2173,23 @@ Ensure the design is clean, readable, premium, and uses variables like var(--acc
           
           for (const model of modelsToTry) {
             try {
+              const parts = [];
+              if (base64Data && fileMime) {
+                parts.push({
+                  inlineData: {
+                    mimeType: fileMime,
+                    data: base64Data
+                  }
+                });
+              }
+              parts.push({ text: promptText });
+              
               const response = await fetch('http://localhost:4000/api/gemini', {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                   model: model,
-                  contents: [{
-                    parts: [
-                      {
-                        inlineData: {
-                          mimeType: fileMime,
-                          data: base64Data
-                        }
-                      },
-                      {
-                        text: promptText
-                      }
-                    ]
-                  }]
+                  contents: [{ parts }]
                 })
               });
               
@@ -2126,7 +2260,18 @@ Ensure the design is clean, readable, premium, and uses variables like var(--acc
           omrResultArea.innerHTML = `<div style="color:var(--danger); padding:20px; text-align:center;">Error processing answer sheet. Please try again.</div>`;
         }
       };
-      reader.readAsDataURL(file);
+      
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = async () => {
+          const base64Data = reader.result.split(',')[1];
+          const fileMime = file.type || "application/pdf";
+          await executeEvaluation(base64Data, fileMime);
+        };
+        reader.readAsDataURL(file);
+      } else {
+        await executeEvaluation();
+      }
     });
   }
 }

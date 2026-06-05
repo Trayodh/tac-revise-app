@@ -19,9 +19,12 @@
   "type": "commonjs",
   "dependencies": {
     "@capacitor/android": "^8.4.0",
+    "@capacitor/app": "^8.1.0",
     "@capacitor/cli": "^8.4.0",
     "@capacitor/core": "^8.4.0",
+    "@capacitor/local-notifications": "^8.2.0",
     "browserify": "^17.0.1",
+    "dotenv": "^17.4.2",
     "esbuild": "^0.28.0",
     "pdf-parse": "^2.4.5",
     "puppeteer": "^25.1.0",

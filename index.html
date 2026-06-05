@@ -349,6 +349,26 @@
       <section id="screen-cbt-mock-hub" class="screen">
         <h1>CBT Practice Hub</h1>
         <p class="subtitle">Prepare in real Computer-Based Test (CBT) environment using official marking patterns and timers</p>
+
+        <!-- PYQ Semantic Search Widget -->
+        <div class="panel glow" style="margin-bottom: 24px; border-left: 4px solid var(--accent); background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(22, 163, 74, 0.05) 100%);">
+          <div class="panel-title" style="margin-bottom: 8px;">PYQ Semantic Search Engine</div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 16px;">
+            Instantly search across our entire database of Mock Exams and Past Year Questions. Find specific topics like "Ocean Currents" or "Integration" to practice targeted questions.
+          </p>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <input type="text" id="pyq-search-input" placeholder="e.g. Fundamental Rights, Matrices, River systems..." style="flex: 1; min-width: 200px; padding: 12px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.95rem; outline: none;" onkeydown="if(event.key === 'Enter') executePyqSearch()">
+            <button class="ai-btn" onclick="executePyqSearch()" style="width: auto; padding: 0 24px;">
+              <span>Search PYQs</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 18px; height: 18px;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" />
+              </svg>
+            </button>
+          </div>
+          <div id="pyq-search-results" style="margin-top: 16px; display: none;">
+            <!-- Rendered PYQ Flashcards -->
+          </div>
+        </div>
         
         <div class="exam-select-container">
           <button class="exam-btn active" data-exam-filter="all">All Exams</button>
@@ -477,7 +497,7 @@
           <div class="panel">
             <div class="panel-title">Evaluate Answer Sheet (OMR / Marked Pages)</div>
             <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.9rem;">
-              Upload a PDF or scan of your filled OMR sheet, or a list of marked answers (e.g., 1-a, 2-b). Specify the exam and subject, and let Gemini AI find the official answer key and score your attempt automatically.
+              Upload a PDF or image scan of your filled OMR sheet, OR a scanned handwritten list of answers (e.g. 1-a, 2-b) on paper. You can also type them manually below. Specify the exam and subject, and let Gemini AI score your attempt automatically.
             </p>
 
             <!-- Exam metadata inputs -->
@@ -497,8 +517,16 @@
             </div>
 
             <!-- File Upload and Action -->
-            <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
+            <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 12px;">
               <input type="file" id="ai-omr-upload" accept="application/pdf,image/*" style="padding: 8px; border: 1px solid var(--border); border-radius: 6px; background-color: var(--bg-tertiary); color: var(--text-primary); cursor: pointer; width: 100%; max-width: 400px;" />
+            </div>
+            
+            <div style="margin-bottom: 20px; max-width: 600px;">
+              <label style="font-size: 0.75rem; font-weight: 700; color: var(--accent); letter-spacing: 0.5px; display: block; margin-bottom: 6px;">OR TYPE YOUR ANSWERS HERE (e.g. 1. a, 2. c...)</label>
+              <textarea id="ai-omr-text" rows="3" placeholder="If you don't have a scanned OMR image, just type your answers here..." style="width: 100%; padding: 10px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.9rem; font-family: var(--font-mono); outline: none; resize: vertical;"></textarea>
+            </div>
+
+            <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
               <button class="ai-btn" id="ai-evaluate-omr-btn" style="white-space: nowrap;">
                 <span>Evaluate Answer Sheet</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 18px; height: 18px;">
@@ -781,5 +809,6 @@
   <script src="ca_data.js"></script>
   <script src="data.js?v=6"></script>
   <script src="app.js?v=21"></script>
+  <script src="notifications_bundle.js"></script>
 </body>
 </html>

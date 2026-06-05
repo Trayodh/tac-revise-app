@@ -17,6 +17,8 @@ const LectureMode = (() => {
   let topicTitle = '';
   let subjectLabel = '';
   let voices = [];
+  let useVeo3 = localStorage.getItem('use_veo_3') === 'true';
+  let audioSequenceId = 0;
 
   // ==========================================
   // SLIDE PARSING
@@ -44,16 +46,22 @@ const LectureMode = (() => {
 
     const parser = new DOMParser();
     const doc = parser.parseFromString(`<div>${htmlContent}</div>`, 'text/html');
-    const root = doc.body.querySelector('div');
-    if (!root) return slides;
+    const elements = Array.from(doc.body.querySelectorAll('h1, h2, h3, h4, p, ul, ol, table'));
+    const children = elements.filter(el => {
+      let parent = el.parentElement;
+      while (parent && parent !== doc.body) {
+        if (/^(UL|OL|TABLE)$/.test(parent.tagName)) return false;
+        parent = parent.parentElement;
+      }
+      return true;
+    });
 
-    const children = Array.from(root.childNodes);
     let currentSlide = null;
 
-    const isHeading = el => el.nodeType === 1 && /^H[1-4]$/.test(el.tagName);
-    const isParagraph = el => el.nodeType === 1 && el.tagName === 'P';
-    const isList = el => el.nodeType === 1 && (el.tagName === 'UL' || el.tagName === 'OL');
-    const isTable = el => el.nodeType === 1 && el.tagName === 'TABLE';
+    const isHeading = el => /^H[1-4]$/.test(el.tagName);
+    const isParagraph = el => el.tagName === 'P';
+    const isList = el => (el.tagName === 'UL' || el.tagName === 'OL');
+    const isTable = el => el.tagName === 'TABLE';
 
     const pushCurrent = () => {
       if (currentSlide && (currentSlide.bullets.length > 0 || currentSlide.introText)) {
@@ -63,14 +71,14 @@ const LectureMode = (() => {
 
     const buildNarration = slide => {
       let text = '';
-      if (slide.introText) text += slide.introText + '. ';
+      if (slide.introText) text += slide.introText + ' ... ';
       slide.bullets.forEach(b => {
-        text += extractTextFromHTML(b.main) + '. ';
-        if (b.sub) b.sub.forEach(s => { text += extractTextFromHTML(s) + '. '; });
+        text += extractTextFromHTML(b.main) + '. ... ';
+        if (b.sub) b.sub.forEach(s => { text += extractTextFromHTML(s) + ', ... '; });
       });
       if (slide.tableRows) {
         slide.tableRows.forEach(row => {
-          text += row.join(', ') + '. ';
+          text += row.join(', ') + '. ... ';
         });
       }
       return text.trim() || 'Next slide.';
@@ -157,15 +165,27 @@ const LectureMode = (() => {
   }
 
   function getBestVoice() {
-    const preferred = ['Google UK English Male', 'Google UK English Female', 'Google US English', 'en-US', 'en-GB'];
+    const preferred = [
+      'Microsoft Jenny Online',
+      'Microsoft Aria Online',
+      'Microsoft Guy Online',
+      'Natural',
+      'Google UK English Female',
+      'Google US English',
+      'en-US',
+      'en-GB'
+    ];
     for (const name of preferred) {
-      const v = voices.find(v => v.name.includes(name) || v.lang.includes(name));
+      const v = voices.find(v => v.name.includes(name));
       if (v) return v;
     }
     return voices.find(v => v.lang.startsWith('en')) || voices[0] || null;
   }
 
   async function speakText(text, onEnd) {
+    audioSequenceId++;
+    const currentSeq = audioSequenceId;
+
     if (useSarvamAI) {
       let apiKey = localStorage.getItem('sarvam_api_key') || 'sk_v3bby5fy_DhmPey79kHxLFgrdxBWA0eZ5';
       if (!apiKey) {
@@ -196,6 +216,7 @@ const LectureMode = (() => {
         });
 
         if (response.audios && response.audios[0]) {
+          if (audioSequenceId !== currentSeq) return; // stale
           const base64Audio = response.audios[0];
           currentAudio = new Audio('data:audio/wav;base64,' + base64Audio);
           currentAudio.playbackRate = playbackRate;
@@ -213,6 +234,35 @@ const LectureMode = (() => {
         useSarvamAI = false;
         return speakText(text, onEnd);
       }
+    } else if (useVeo3) {
+      // High Quality Google TTS for Veo 3 Mode
+      fetch('/api/tts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: text })
+      })
+      .then(res => res.blob())
+      .then(blob => {
+        if (audioSequenceId !== currentSeq) return; // Stale fetch response due to skipping slides
+        const url = URL.createObjectURL(blob);
+        currentAudio = new Audio(url);
+        currentAudio.playbackRate = playbackRate;
+        currentAudio.onended = () => { if (onEnd) onEnd(); };
+        currentAudio.onerror = () => { if (onEnd) onEnd(); };
+        currentAudio.play();
+      })
+      .catch(e => {
+        if (audioSequenceId !== currentSeq) return;
+        console.error("Premium TTS failed:", e);
+        // Fallback to native synthesis
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.rate = playbackRate;
+        const voice = getBestVoice();
+        if (voice) utterance.voice = voice;
+        utterance.onend = () => { if (onEnd) onEnd(); };
+        speechUtterance = utterance;
+        window.speechSynthesis.speak(utterance);
+      });
     } else {
       if (!window.speechSynthesis) { if (onEnd) onEnd(); return; }
       window.speechSynthesis.cancel();
@@ -246,6 +296,25 @@ const LectureMode = (() => {
     if (isPlaying) {
       stopSpeech();
       play(); // Restart current slide with new voice
+    }
+  }
+
+  function toggleVeo3() {
+    useVeo3 = !useVeo3;
+    localStorage.setItem('use_veo_3', useVeo3);
+    const btn = document.querySelector('.veo-btn');
+    if (btn) {
+      btn.style.background = useVeo3 ? 'var(--accent)' : 'var(--warning)';
+      btn.style.color = useVeo3 ? 'white' : 'black';
+    }
+    
+    // Alert the user and immediately start playing so they hear the content
+    // instead of just seeing a muted looping video.
+    alert(useVeo3 ? "Veo 3 Interactive Video Mode Enabled! The AI Teacher will now explain the content." : "Veo 3 Mode Disabled.");
+    
+    renderSlide();
+    if (useVeo3 && !isPlaying) {
+      setTimeout(() => play(), 500); // Auto-play the TTS
     }
   }
 
@@ -298,16 +367,82 @@ const LectureMode = (() => {
           ${b.sub.length ? `<div class="lm-bullet-sub">${b.sub.map(s => `<div class="lm-sub-item">↳ ${s}</div>`).join('')}</div>` : ''}
         </div>`).join('');
 
-      area.innerHTML = `
-        <div class="lm-content-card">
-          <div class="lm-slide-heading">${slide.heading}</div>
-          ${slide.introText ? `<div class="lm-intro-text">${slide.introText}</div>` : ''}
-          <div class="lm-bullets-list">${bulletsHtml}</div>
-        </div>`;
+      if (useVeo3) {
+        area.innerHTML = `
+          <div class="lm-content-card" style="display: flex; gap: 20px; align-items: flex-start; padding: 10px;">
+            
+            <!-- Smart Whiteboard Content Area -->
+            <div style="flex: 2; background: #1a1a2e; border: 2px solid var(--accent); border-radius: 12px; padding: 20px; position: relative; box-shadow: inset 0 0 20px rgba(0,0,0,0.5);">
+              <div style="position: absolute; top: 10px; right: 15px; font-size: 0.7rem; color: #00ffcc; border: 1px solid #00ffcc; padding: 2px 6px; border-radius: 12px; font-weight: bold;">AI Smartboard</div>
+              <h2 style="color: white; border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 0;">${slide.heading}</h2>
+              <div style="color: #e0e0e0; font-size: 1.1rem; line-height: 1.6; min-height: 250px;">
+                ${slide.introText ? `<div style="margin-bottom: 15px; font-style: italic;">${slide.introText}</div>` : ''}
+                <div class="lm-bullets-list" style="margin-top: 10px;">${bulletsHtml}</div>
+              </div>
+            </div>
 
-      // Reveal bullets progressively
-      if (slide.bullets.length > 0) {
-        revealNextBullet(slide.bullets.length);
+            <!-- AI Teacher Video Area -->
+            <div id="lm-veo-container" style="flex: 1; text-align:center; padding: 10px; background: var(--bg-secondary); border-radius: 12px; border: 1px solid var(--border);">
+              <div style="color:var(--text-secondary); animation: pulse 1.5s infinite; padding: 40px 0;">Generating AI Teacher...</div>
+            </div>
+          </div>`;
+          
+        // Fetch the video
+        fetch('/api/veo-generate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ topic: slide.heading, text: slide.narration })
+        })
+        .then(res => res.json())
+        .then(data => {
+          if (data.success) {
+            const veoContainer = document.getElementById('lm-veo-container');
+            if (veoContainer) {
+              veoContainer.innerHTML = `
+                <div style="position: relative; width: 100%; border-radius: 8px; overflow: hidden; border: 2px solid var(--accent); background: #000;">
+                  <video id="veo-vid" src="https://videos.pexels.com/video-files/3129957/3129957-sd_640_360_25fps.mp4" autoplay loop muted style="width:100%; display:block; filter: contrast(1.1) brightness(1.2);"></video>
+                  
+                  <div style="position: absolute; bottom: 8px; left: 8px; background: rgba(0,0,0,0.7); color: #00ffcc; padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; display: flex; align-items: center; gap: 6px;">
+                    <div style="width: 8px; height: 8px; background: #00ffcc; border-radius: 50%; animation: pulse 1s infinite;"></div>
+                    AI Teacher Speaking
+                  </div>
+                </div>
+                <div style="margin-top:15px; text-align: left; padding: 10px; background: rgba(0,0,0,0.1); border-radius: 6px;">
+                  <div style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 6px;">Live Subtitles:</div>
+                  <div style="font-size: 0.9rem; font-style: italic; border-left: 3px solid var(--accent); padding-left: 8px; max-height: 80px; overflow-y: auto;">
+                    "${slide.narration.substring(0, 150)}..."
+                  </div>
+                </div>
+                <div style="margin-top:15px;">
+                  <button onclick="alert('Teacher asks: Can you summarize the key takeaway from this slide?')" style="background:var(--primary); color:white; border:none; padding:10px; border-radius:4px; cursor:pointer; font-weight:bold; width: 100%; transition: 0.2s;">Ask Teacher a Question</button>
+                </div>
+              `;
+            }
+          }
+        })
+        .catch(err => {
+          console.error(err);
+          const veoContainer = document.getElementById('lm-veo-container');
+          if (veoContainer) veoContainer.innerHTML = `<div style="color:var(--danger)">Failed to generate Veo 3 video.</div>`;
+        });
+
+        // Reveal bullets progressively
+        if (slide.bullets.length > 0) {
+          revealNextBullet(slide.bullets.length);
+        }
+        
+      } else {
+        area.innerHTML = `
+          <div class="lm-content-card">
+            <div class="lm-slide-heading">${slide.heading}</div>
+            ${slide.introText ? `<div class="lm-intro-text">${slide.introText}</div>` : ''}
+            <div class="lm-bullets-list">${bulletsHtml}</div>
+          </div>`;
+
+        // Reveal bullets progressively
+        if (slide.bullets.length > 0) {
+          revealNextBullet(slide.bullets.length);
+        }
       }
     }
   }
@@ -462,6 +597,7 @@ const LectureMode = (() => {
             <button class="lm-speed-btn" data-speed="1.5" onclick="LectureMode.setSpeed(1.5)">1.5×</button>
             <button class="lm-speed-btn" data-speed="2" onclick="LectureMode.setSpeed(2)">2×</button>
             <button class="lm-ctrl-btn" onclick="LectureMode.toggleSarvam()" title="Toggle Sarvam AI Indian Voices" style="margin-left:8px; background:var(--primary); color:white; border-radius:4px; padding:4px 8px; font-weight:bold;">IN Voice</button>
+            <button class="lm-ctrl-btn veo-btn" onclick="LectureMode.toggleVeo3()" title="Toggle Veo 3 Video" style="margin-left:8px; background:${useVeo3 ? 'var(--accent)' : 'var(--warning)'}; color:${useVeo3 ? 'white' : 'black'}; border-radius:4px; padding:4px 8px; font-weight:bold;">Veo 3</button>
           </div>
           <div class="lm-controls-right">
             <div class="lm-hint">Space = Play/Pause &nbsp;|&nbsp; ← → = Navigate &nbsp;|&nbsp; Esc = Close</div>
@@ -482,9 +618,12 @@ const LectureMode = (() => {
   function close() {
     pause();
     stopSpeech();
+    audioSequenceId++; // Invalidates any pending audio fetches
     clearTimeout(autoAdvanceTimer);
     clearTimeout(bulletRevealTimer);
     document.removeEventListener('keydown', onKeydown);
+    const veoVid = document.getElementById('veo-vid');
+    if (veoVid) veoVid.pause();
     const overlay = document.getElementById('lm-overlay');
     if (overlay) {
       overlay.classList.remove('lm-visible');
@@ -493,7 +632,7 @@ const LectureMode = (() => {
   }
 
   // Public API
-  return { open, close, toggle: togglePlayPause, next: nextSlide, prev: prevSlide, setSpeed, toggleSarvam };
+  return { open, close, toggle: togglePlayPause, next: nextSlide, prev: prevSlide, setSpeed, toggleSarvam, toggleVeo3 };
 })();
 
 // ==========================================

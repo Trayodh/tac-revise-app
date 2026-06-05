@@ -1,4 +1,5 @@
-const GEMINI_API_KEY = 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
+require('dotenv').config();
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
 
 async function testSearchGrounding() {
   const currentModel = 'gemini-3-flash-preview';

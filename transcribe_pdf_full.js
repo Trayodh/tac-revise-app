@@ -1,6 +1,7 @@
 const fs = require('fs');
 
-const GEMINI_API_KEY = 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
+require('dotenv').config();
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
 const pdfPath = 'C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\gdrive_downloaded_file';
 
 // Order models starting with the most likely working and least overloaded models
