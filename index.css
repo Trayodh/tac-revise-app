@@ -2,10 +2,10 @@
 
 :root {
   --bg-primary: #344e41;
-  --bg-secondary: #3a5a40;
-  --bg-tertiary: #588157;
-  --bg-hover: #588157;
-  --border: rgba(255, 255, 255, 0.15);
+  --bg-secondary: rgba(58, 90, 64, 0.7);
+  --bg-tertiary: rgba(88, 129, 87, 0.6);
+  --bg-hover: rgba(88, 129, 87, 0.8);
+  --border: rgba(255, 255, 255, 0.4);
   --border-glow: rgba(14, 165, 233, 0.3);
   --text-primary: #ffffff;
   --text-secondary: #e2e8f0;
@@ -99,6 +99,29 @@
   --danger: #ef4444;          /* Alert Red */
 }
 
+[data-theme="zen-focus"] {
+  --bg-primary: #1e293b;      /* Deep Slate - reduces eye strain */
+  --bg-secondary: #0f172a;    /* Darker Slate for contrast */
+  --bg-tertiary: #334155;     /* Medium Slate */
+  --bg-hover: #475569;        /* Hover Slate */
+  
+  --border: rgba(148, 163, 184, 0.2); 
+  --border-glow: rgba(94, 234, 212, 0.2); /* Soft teal glow */
+  
+  --text-primary: #f8fafc;    /* Soft off-white */
+  --text-secondary: #cbd5e1;  /* Muted blue-grey */
+  --text-muted: #94a3b8;      /* Dimmed blue-grey */
+  
+  --accent: #5eead4;          /* Soft Teal - scientifically calming */
+  --accent-rgb: 94, 234, 212;
+  --accent-dark: #0f766e;     
+  --accent-light: #99f6e4;    
+  
+  --info: #38bdf8;            /* Soft Sky Blue */
+  --warning: #fbbf24;         /* Amber */
+  --danger: #f87171;          /* Desaturated Red */
+}
+
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -118,7 +141,8 @@
 
 body {
   font-family: var(--font-main);
-  background-color: var(--bg-primary);
+  font-weight: bold;
+  background-color: #243328;
   color: var(--text-primary);
   height: 100vh;
   overflow: hidden;
@@ -186,6 +210,7 @@ body {
   flex-direction: column;
   gap: 6px;
   flex-grow: 1;
+  overflow-y: auto;
 }
 
 .nav-item {
@@ -217,6 +242,7 @@ body {
   width: 20px;
   height: 20px;
   transition: var(--transition-fast);
+  stroke: var(--info);
 }
 
 .nav-item.active svg {
@@ -224,7 +250,7 @@ body {
 }
 
 .user-profile {
-  padding: 16px 20px;
+  padding: 12px 20px 6px 20px;
   border-top: 1px solid var(--border);
   display: flex;
   align-items: center;

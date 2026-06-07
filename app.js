@@ -52,6 +52,8 @@ function switchScreen(screenId) {
     renderCbtMockHub();
   } else if (screenId === "ai-console") {
     renderAiConsoleSuggestions();
+  } else if (screenId === "vocab-builder") {
+    renderVocabBuilder();
   }
 }
 
@@ -2937,7 +2939,15 @@ async function generateDetailedNotesOnDemand(subjectId, chapterId, topicId) {
     pyqText = `\n\nActual Questions, numerical patterns, and conceptual trends from the last 7 years (2020-2026) of UPSC CDS, NDA, and AFCAT exams for this topic: ${window.PYQ_TRENDS_DATA[topicId]}`;
   }
 
-  const prompt = `You are an expert tutor for Indian Defence Examinations. Provide a highly detailed, comprehensive explanation of the topic "${topic.title}" from the chapter "${chapter.title}" in ${subject.title}. Explain the entire topic from start to end. For theoretical subjects (like History, Polity, Geography, Biology), ensure you provide extensive theoretical background, underlying principles, and historical/conceptual context so the user fully grasps the complete picture before moving to facts. Make it easy to read with headings, bullet points, and clear examples.${syllabusText}${pyqText}\n\nEnsure the generated notes are extremely thorough and cover all aspects to the exact depth required to answer the aforementioned PYQ trends.
+  const prompt = `You are an elite academic tutor and strategist for Indian Defence Examinations (UPSC NDA, CDS, AFCAT). Your task is to provide an EXHAUSTIVE, highly detailed, and deep-dive explanation of the topic "${topic.title}" from the chapter "${chapter.title}" in ${subject.title}. 
+
+Explain the entire topic from start to end with maximum depth. Do not hold back on complexity.
+- For theoretical subjects (History, Polity, Geography, Biology), provide extensive theoretical background, underlying principles, graduate-level conceptual context, and historical timelines so the user grasps the complete picture. Include exceptions, edge cases, and nuanced constitutional/historical debates where applicable.
+- For quantitative subjects (Maths, Physics, Chemistry), provide full derivations of key formulas, step-by-step methodology, and advanced application scenarios.
+
+Make it easy to read with headings, bullet points, and clear examples. Aim for a comprehensive, textbook-level depth (1000+ words if necessary).${syllabusText}${pyqText}
+
+Ensure the generated notes are extremely thorough, leaving no stone unturned, covering all aspects to the absolute maximum depth required to answer the hardest possible questions from the aforementioned PYQ trends.
 
 Formatting Guidelines for maximum visual appeal:
 - For any memory aids or mnemonics, wrap them in: <div class="mnemonic-box"><strong>Mnemonic:</strong> description</div>
@@ -3161,4 +3171,191 @@ Format the response cleanly with markdown headings, bullet points, and strong mi
     container.className = "ai-response-area";
     container.innerHTML = `<p style="color: var(--danger);">Failed to connect to Strategy AI. Ensure your Node.js proxy server is running on port 4000.</p>`;
   }
+}
+
+// ==========================================
+// 15. ENGLISH VOCAB BUILDER MODULE
+// ==========================================
+
+let activeVocabWord = null;
+
+function renderVocabBuilder() {
+  if (!activeVocabWord) {
+    getWordOfTheDay();
+  } else {
+    displayVocabWord(activeVocabWord);
+  }
+}
+
+function getWordOfTheDay() {
+  if (typeof ENGLISH_VOCAB_DB === 'undefined' || ENGLISH_VOCAB_DB.length === 0) {
+    document.getElementById('vocab-word').innerText = "Database Offline";
+    return;
+  }
+  
+  // Create a predictable index based on today's date
+  const today = new Date();
+  const dateString = today.getFullYear() + "-" + today.getMonth() + "-" + today.getDate();
+  let hash = 0;
+  for (let i = 0; i < dateString.length; i++) {
+    hash = dateString.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  hash = Math.abs(hash);
+  
+  const index = hash % ENGLISH_VOCAB_DB.length;
+  activeVocabWord = ENGLISH_VOCAB_DB[index];
+  
+  const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  document.getElementById('vocab-date-label').innerText = today.toLocaleDateString('en-US', dateOptions);
+  
+  displayVocabWord(activeVocabWord);
+}
+
+function loadRandomWord() {
+  if (typeof ENGLISH_VOCAB_DB === 'undefined' || ENGLISH_VOCAB_DB.length === 0) return;
+  
+  const index = Math.floor(Math.random() * ENGLISH_VOCAB_DB.length);
+  activeVocabWord = ENGLISH_VOCAB_DB[index];
+  
+  document.getElementById('vocab-date-label').innerText = "Random Word Mode";
+  
+  displayVocabWord(activeVocabWord);
+}
+
+function displayVocabWord(wordObj) {
+  document.getElementById('vocab-word').innerText = wordObj.word.charAt(0).toUpperCase() + wordObj.word.slice(1);
+  document.getElementById('vocab-pos').innerText = wordObj.pos || 'Unknown POS';
+  document.getElementById('vocab-meaning').innerText = wordObj.meaning || 'No meaning provided.';
+  
+  const syns = wordObj.synonyms || wordObj.expected || 'None';
+  document.getElementById('vocab-synonyms').innerText = syns;
+  
+  const ants = wordObj.antonyms || 'None';
+  document.getElementById('vocab-antonyms').innerText = ants;
+}
+
+function startVocabQuiz() {
+  if (typeof ENGLISH_VOCAB_DB === 'undefined' || ENGLISH_VOCAB_DB.length < 20) {
+    alert("Vocab database is loading or offline.");
+    return;
+  }
+  
+  const quizContainer = document.getElementById('vocab-quiz-container');
+  quizContainer.innerHTML = '<p style="text-align: center; color: var(--text-secondary);">Generating high-yield drill...</p>';
+  
+  // Clear previous quiz state
+  window.vocabQuizState = {};
+  
+  // Pick 5 random questions
+  const questions = [];
+  while(questions.length < 5) {
+    const w = ENGLISH_VOCAB_DB[Math.floor(Math.random() * ENGLISH_VOCAB_DB.length)];
+    // Ensure word has synonyms/antonyms
+    if (!w.synonyms || w.synonyms === '—' || !w.antonyms || w.antonyms === '—') continue;
+    
+    // Type 0: Synonym, Type 1: Antonym
+    const type = Math.random() > 0.5 ? 'synonym' : 'antonym';
+    const correctAns = type === 'synonym' ? w.synonyms.split(',')[0].trim() : w.antonyms.split(',')[0].trim();
+    
+    // Pick 3 wrong options from other words
+    const options = [correctAns];
+    while(options.length < 4) {
+      const wrongW = ENGLISH_VOCAB_DB[Math.floor(Math.random() * ENGLISH_VOCAB_DB.length)];
+      if (wrongW.word !== w.word) {
+        let wrongAns = '';
+        if (type === 'synonym' && wrongW.synonyms && wrongW.synonyms !== '—') {
+          wrongAns = wrongW.synonyms.split(',')[0].trim();
+        } else if (type === 'antonym' && wrongW.antonyms && wrongW.antonyms !== '—') {
+          wrongAns = wrongW.antonyms.split(',')[0].trim();
+        } else {
+          wrongAns = wrongW.word;
+        }
+        
+        if (wrongAns && !options.includes(wrongAns)) {
+          options.push(wrongAns);
+        }
+      }
+    }
+    
+    // Shuffle options
+    options.sort(() => Math.random() - 0.5);
+    
+    questions.push({
+      word: w.word,
+      type: type,
+      options: options,
+      correct: correctAns
+    });
+  }
+  
+  // Render Quiz
+  let html = `<div style="background: rgba(0,0,0,0.2); padding: 16px; border-radius: 8px;">`;
+  questions.forEach((q, idx) => {
+    html += `
+      <div class="vocab-q-card" style="margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <div style="font-weight: 600; color: var(--text-primary); margin-bottom: 12px; font-size: 1.05rem;">
+          <span style="color: var(--accent); margin-right: 8px;">Q${idx+1}.</span> 
+          What is the closest <strong style="color: ${q.type === 'synonym' ? 'var(--info)' : 'var(--danger)'}; text-transform: uppercase;">${q.type}</strong> of the word <em>"${q.word.toUpperCase()}"</em>?
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+    `;
+    
+    q.options.forEach((opt, oIdx) => {
+      html += `
+        <button class="exam-btn vocab-opt-btn" id="vocab-opt-${idx}-${oIdx}" style="text-align: left; background: rgba(255,255,255,0.03);" onclick="checkVocabAnswer(${idx}, ${oIdx}, '${opt.replace(/'/g, "\\'")}', '${q.correct.replace(/'/g, "\\'")}')">
+          ${String.fromCharCode(65 + oIdx)}. ${opt}
+        </button>
+      `;
+    });
+    
+    html += `
+        </div>
+        <div id="vocab-feedback-${idx}" style="margin-top: 12px; font-size: 0.9rem; display: none;"></div>
+      </div>
+    `;
+  });
+  
+  html += `
+    <div style="text-align: center; margin-top: 20px;">
+      <button class="btn-primary" onclick="startVocabQuiz()" style="width: auto; padding: 10px 24px;">Generate New Drill</button>
+    </div>
+  </div>`;
+  
+  quizContainer.innerHTML = html;
+}
+
+window.vocabQuizState = {};
+
+function checkVocabAnswer(qIdx, oIdx, selectedOpt, correctOpt) {
+  // Prevent double clicking
+  if (window.vocabQuizState[qIdx]) return;
+  window.vocabQuizState[qIdx] = true;
+  
+  const isCorrect = selectedOpt === correctOpt;
+  const btn = document.getElementById(`vocab-opt-${qIdx}-${oIdx}`);
+  const feedback = document.getElementById(`vocab-feedback-${qIdx}`);
+  
+  // Disable all buttons in this question
+  for(let i=0; i<4; i++) {
+    const b = document.getElementById(`vocab-opt-${qIdx}-${i}`);
+    if(b) b.style.opacity = "0.5";
+    if(b && b.innerText.includes(correctOpt)) {
+      b.style.background = "rgba(34, 197, 94, 0.2)";
+      b.style.borderColor = "var(--accent)";
+      b.style.opacity = "1";
+    }
+  }
+  
+  if (isCorrect) {
+    btn.style.background = "rgba(34, 197, 94, 0.2)";
+    btn.style.borderColor = "var(--accent)";
+    feedback.innerHTML = `<span style="color: var(--accent); font-weight: 600;">Correct!</span>`;
+  } else {
+    btn.style.background = "rgba(239, 68, 68, 0.2)";
+    btn.style.borderColor = "var(--danger)";
+    btn.style.opacity = "1";
+    feedback.innerHTML = `<span style="color: var(--danger); font-weight: 600;">Incorrect.</span> The correct answer was <strong>${correctOpt}</strong>.`;
+  }
+  
+  feedback.style.display = "block";
 }

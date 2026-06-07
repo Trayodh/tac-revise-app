@@ -52602,6 +52602,42 @@ const AI_TOPIC_TEMPLATES = {
   }};
 
 // ==========================================
+// 5.5 RANK SYSTEM DEFINITIONS
+// ==========================================
+const RANK_SYSTEM = {
+  army: [
+    { rank: "Cadet", minXP: 0 },
+    { rank: "Lieutenant", minXP: 100 },
+    { rank: "Captain", minXP: 500 },
+    { rank: "Major", minXP: 1500 },
+    { rank: "Lt. Colonel", minXP: 3000 },
+    { rank: "Colonel", minXP: 5000 },
+    { rank: "Brigadier", minXP: 8000 },
+    { rank: "Major General", minXP: 12000 }
+  ],
+  airforce: [
+    { rank: "Cadet", minXP: 0 },
+    { rank: "Flying Officer", minXP: 100 },
+    { rank: "Flight Lieutenant", minXP: 500 },
+    { rank: "Squadron Leader", minXP: 1500 },
+    { rank: "Wing Commander", minXP: 3000 },
+    { rank: "Group Captain", minXP: 5000 },
+    { rank: "Air Commodore", minXP: 8000 },
+    { rank: "Air Vice Marshal", minXP: 12000 }
+  ],
+  navy: [
+    { rank: "Cadet", minXP: 0 },
+    { rank: "Sub-Lieutenant", minXP: 100 },
+    { rank: "Lieutenant", minXP: 500 },
+    { rank: "Lieutenant Commander", minXP: 1500 },
+    { rank: "Commander", minXP: 3000 },
+    { rank: "Captain", minXP: 5000 },
+    { rank: "Commodore", minXP: 8000 },
+    { rank: "Rear Admiral", minXP: 12000 }
+  ]
+};
+
+// ==========================================
 // 6. GLOBAL STATE MANAGEMENT & LOCALSTORAGE
 // ==========================================
 let STATE = {
@@ -52612,7 +52648,11 @@ let STATE = {
   readFormulasList: [], 
   cbtScores: [],        
   aiExpandedNotes: {},
-  currentScreen: "dashboard"
+  currentScreen: "dashboard",
+  userEmail: null,
+  branch: null,
+  xp: 0,
+  currentRank: "Cadet"
 };
 
 async function syncFromSupabase() {
@@ -52835,3 +52875,216 @@ function renderDashboardRecentCBT() {
   html += `</ul>`;
   container.innerHTML = html;
 }
+
+const ENGLISH_VOCAB_DB = [
+  {
+    word: 'abate',
+    pos: 'Verb',
+    meaning: 'To become less active, less intense, or less in amount.',
+    synonyms: 'diminish, decrease, subside, decline',
+    antonyms: 'intensify, increase, augment'
+  },
+  {
+    word: 'aberration',
+    pos: 'Noun',
+    meaning: 'A departure from what is normal, usual, or expected, typically an unwelcome one.',
+    synonyms: 'anomaly, deviation, abnormality, irregularity',
+    antonyms: 'normality, regularity, conformity'
+  },
+  {
+    word: 'abhor',
+    pos: 'Verb',
+    meaning: 'Regard with disgust and hatred.',
+    synonyms: 'detest, loathe, despise, execrate',
+    antonyms: 'love, admire, cherish'
+  },
+  {
+    word: 'abstruse',
+    pos: 'Adjective',
+    meaning: 'Difficult to understand; obscure.',
+    synonyms: 'obscure, arcane, esoteric, complex',
+    antonyms: 'clear, obvious, simple, lucid'
+  },
+  {
+    word: 'acrimonious',
+    pos: 'Adjective',
+    meaning: '(Typically of speech or debate) angry and bitter.',
+    synonyms: 'bitter, harsh, sarcastic, caustic',
+    antonyms: 'amicable, pleasant, sweet'
+  },
+  {
+    word: 'acumen',
+    pos: 'Noun',
+    meaning: 'The ability to make good judgments and take quick decisions.',
+    synonyms: 'astuteness, shrewdness, sharpness, acuity',
+    antonyms: 'ignorance, stupidity, inability'
+  },
+  {
+    word: 'alacrity',
+    pos: 'Noun',
+    meaning: 'Brisk and cheerful readiness.',
+    synonyms: 'eagerness, willingness, readiness, enthusiasm',
+    antonyms: 'apathy, reluctance, hesitation'
+  },
+  {
+    word: 'amalgamate',
+    pos: 'Verb',
+    meaning: 'Combine or unite to form one organization or structure.',
+    synonyms: 'combine, merge, unite, integrate',
+    antonyms: 'separate, divide, split'
+  },
+  {
+    word: 'ambiguous',
+    pos: 'Adjective',
+    meaning: 'Open to more than one interpretation; not having one obvious meaning.',
+    synonyms: 'equivocal, vague, obscure, unclear',
+    antonyms: 'clear, explicit, unambiguous'
+  },
+  {
+    word: 'ameliorate',
+    pos: 'Verb',
+    meaning: 'Make (something bad or unsatisfactory) better.',
+    synonyms: 'improve, enhance, better, upgrade',
+    antonyms: 'worsen, aggravate, exacerbate'
+  },
+  {
+    word: 'anomalous',
+    pos: 'Adjective',
+    meaning: 'Deviating from what is standard, normal, or expected.',
+    synonyms: 'abnormal, atypical, irregular, aberrant',
+    antonyms: 'normal, typical, regular, ordinary'
+  },
+  {
+    word: 'antipathy',
+    pos: 'Noun',
+    meaning: 'A deep-seated feeling of aversion.',
+    synonyms: 'hostility, antagonism, animosity, aversion',
+    antonyms: 'affinity, liking, sympathy'
+  },
+  {
+    word: 'arcane',
+    pos: 'Adjective',
+    meaning: 'Understood by few; mysterious or secret.',
+    synonyms: 'mysterious, secret, enigmatic, obscure',
+    antonyms: 'common, known, obvious'
+  },
+  {
+    word: 'articulate',
+    pos: 'Adjective / Verb',
+    meaning: 'Having or showing the ability to speak fluently and coherently.',
+    synonyms: 'eloquent, fluent, communicative, lucid',
+    antonyms: 'inarticulate, hesitant, unintelligible'
+  },
+  {
+    word: 'ascetic',
+    pos: 'Adjective / Noun',
+    meaning: 'Characterized by severe self-discipline and abstention from all forms of indulgence.',
+    synonyms: 'austere, abstinent, strict, puritanical',
+    antonyms: 'sybaritic, hedonistic, indulgent'
+  },
+  {
+    word: 'assuage',
+    pos: 'Verb',
+    meaning: 'Make (an unpleasant feeling) less intense.',
+    synonyms: 'relieve, ease, alleviate, mitigate',
+    antonyms: 'aggravate, intensify, provoke'
+  },
+  {
+    word: 'audacious',
+    pos: 'Adjective',
+    meaning: 'Showing a willingness to take surprisingly bold risks.',
+    synonyms: 'bold, daring, fearless, intrepid',
+    antonyms: 'timid, cowardly, cautious'
+  },
+  {
+    word: 'austere',
+    pos: 'Adjective',
+    meaning: 'Severe or strict in manner or attitude.',
+    synonyms: 'severe, stern, strict, harsh',
+    antonyms: 'genial, lenient, indulgent'
+  },
+  {
+    word: 'banal',
+    pos: 'Adjective',
+    meaning: 'So lacking in originality as to be obvious and boring.',
+    synonyms: 'trite, hackneyed, clichd, predictable',
+    antonyms: 'original, fresh, innovative'
+  },
+  {
+    word: 'belligerent',
+    pos: 'Adjective',
+    meaning: 'Hostile and aggressive.',
+    synonyms: 'hostile, aggressive, pugnacious, combative',
+    antonyms: 'peaceful, friendly, amicable'
+  },
+  {
+    word: 'benevolent',
+    pos: 'Adjective',
+    meaning: 'Well meaning and kindly.',
+    synonyms: 'kind, compassionate, generous, philanthropic',
+    antonyms: 'malevolent, unkind, cruel'
+  },
+  {
+    word: 'bolster',
+    pos: 'Verb',
+    meaning: 'Support or strengthen.',
+    synonyms: 'strengthen, support, reinforce, boost',
+    antonyms: 'undermine, weaken, hinder'
+  },
+  {
+    word: 'bombastic',
+    pos: 'Adjective',
+    meaning: 'High-sounding but with little meaning; inflated.',
+    synonyms: 'pompous, blustering, verbose, inflated',
+    antonyms: 'humble, quiet, reserved'
+  },
+  {
+    word: 'cacophony',
+    pos: 'Noun',
+    meaning: 'A harsh discordant mixture of sounds.',
+    synonyms: 'din, racket, noise, clamor',
+    antonyms: 'harmony, silence, peace'
+  },
+  {
+    word: 'candid',
+    pos: 'Adjective',
+    meaning: 'Truthful and straightforward; frank.',
+    synonyms: 'frank, outspoken, forthright, blunt',
+    antonyms: 'secretive, guarded, insincere'
+  },
+  {
+    word: 'capricious',
+    pos: 'Adjective',
+    meaning: 'Given to sudden and unaccountable changes of mood or behavior.',
+    synonyms: 'fickle, inconstant, variable, unpredictable',
+    antonyms: 'stable, consistent, reliable'
+  },
+  {
+    word: 'castigate',
+    pos: 'Verb',
+    meaning: 'Reprimand (someone) severely.',
+    synonyms: 'reprimand, rebuke, admonish, chastise',
+    antonyms: 'praise, commend, approve'
+  },
+  {
+    word: 'catalyst',
+    pos: 'Noun',
+    meaning: 'A person or thing that precipitates an event.',
+    synonyms: 'stimulus, impetus, prompt, spur',
+    antonyms: 'block, hindrance, preventative'
+  },
+  {
+    word: 'caustic',
+    pos: 'Adjective',
+    meaning: 'Sarcastic in a scathing and bitter way.',
+    synonyms: 'mordant, acerbic, bitter, scathing',
+    antonyms: 'mild, kind, sweet'
+  },
+  {
+    word: 'censure',
+    pos: 'Verb',
+    meaning: 'Express severe disapproval of (someone or something).',
+    synonyms: 'condemn, criticize, castigate, reprimand',
+    antonyms: 'praise, commend, approve'
+  }
+];
