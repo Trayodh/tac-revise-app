@@ -52648,6 +52648,292 @@ let STATE = {
   readFormulasList: [], 
   cbtScores: [],        
   aiExpandedNotes: {},
+  weaknessStats: {
+    "history-movement": { attempts: 10, incorrect: 6 },
+    "biology": { attempts: 5, incorrect: 4 }
+  },
+  srsData: {
+    "fundamental-rights": {
+      question: "Which Fundamental Right cannot be suspended even during a National Emergency?",
+      answer: "Articles 20 and 21 (Protection in respect of conviction and Right to Life).",
+      nextReview: Date.now() - 10000, // Due immediately
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "optics": {
+      question: "What is the formula for Magnification (m) of a spherical mirror?",
+      answer: "m = -v/u (where v is image distance and u is object distance)",
+      nextReview: Date.now() - 5000, // Due immediately
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "newton-laws": {
+      question: "What does Newton's Second Law state mathematically?",
+      answer: "F = ma (Force equals mass times acceleration), or the rate of change of momentum is proportional to the applied force.",
+      nextReview: Date.now() - 2000, // Due immediately
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "schedules-constitution": {
+      question: "Which Constitutional Schedule deals with the Anti-Defection Law?",
+      answer: "The 10th Schedule, added by the 52nd Amendment in 1985.",
+      nextReview: Date.now() + 86400000, // Due tomorrow
+      interval: 3,
+      repetitions: 1,
+      efactor: 2.5
+    },
+    "biology-suicide-bag": {
+      question: "Which cell organelle is known as the 'Suicide Bag'?",
+      answer: "Lysosome, because it contains hydrolytic enzymes that can digest the cell if it bursts.",
+      nextReview: Date.now() - 3600000, // Due 1 hour ago
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "history-dandi-march": {
+      question: "In which year did Mahatma Gandhi lead the Dandi March?",
+      answer: "1930. It marked the beginning of the Civil Disobedience Movement.",
+      nextReview: Date.now() - 7200000, // Due 2 hours ago
+      interval: 2,
+      repetitions: 1,
+      efactor: 2.6
+    },
+    "geography-coromandel-rain": {
+      question: "Which winds are responsible for winter rainfall on the Coromandel Coast?",
+      answer: "North-East Monsoon (Retreating Monsoon).",
+      nextReview: Date.now() + 172800000, // Due in 2 days
+      interval: 4,
+      repetitions: 2,
+      efactor: 2.5
+    },
+    "chemistry-plaster-of-paris": {
+      question: "What is the chemical formula for Plaster of Paris?",
+      answer: "CaSO₄ · 0.5H₂O (Calcium Sulphate Hemihydrate).",
+      nextReview: Date.now() - 14400000, // Due 4 hours ago
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.3
+    },
+    "ca-quad": {
+      question: "Which four countries make up the Quadrilateral Security Dialogue (Quad)?",
+      answer: "India, United States, Japan, and Australia.",
+      nextReview: Date.now() - 86400000, // Due yesterday
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "ca-gaganyaan": {
+      question: "What is the primary objective of ISRO's Gaganyaan mission?",
+      answer: "To demonstrate human spaceflight capability by sending a 3-member crew to a 400 km orbit for 3 days.",
+      nextReview: Date.now() + 86400000 * 3, // Due in 3 days
+      interval: 5,
+      repetitions: 2,
+      efactor: 2.7
+    },
+    "history-battle-of-plassey": {
+      question: "In which year did the Battle of Plassey take place?",
+      answer: "1757. It was fought between the British East India Company (led by Robert Clive) and the Nawab of Bengal (Siraj-ud-Daulah).",
+      nextReview: Date.now() - 3600000 * 5, // Due 5 hours ago
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "polity-fundamental-duties": {
+      question: "Which committee recommended the inclusion of Fundamental Duties in the Constitution?",
+      answer: "The Swaran Singh Committee. They were added by the 42nd Amendment Act in 1976.",
+      nextReview: Date.now() - 3600000 * 12, // Due 12 hours ago
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "geography-highest-peak": {
+      question: "Which is the highest mountain peak in India?",
+      answer: "Kangchenjunga (8,586 m), located in Sikkim. K2 (Godwin-Austen) is in PoK.",
+      nextReview: Date.now() + 86400000 * 5, // Due in 5 days
+      interval: 7,
+      repetitions: 3,
+      efactor: 2.6
+    },
+    "science-ph-blood": {
+      question: "What is the normal pH value of human blood?",
+      answer: "7.35 to 7.45 (Slightly alkaline).",
+      nextReview: Date.now() - 3600000 * 2, // Due 2 hours ago
+      interval: 2,
+      repetitions: 1,
+      efactor: 2.4
+    },
+    "defence-commands": {
+      question: "Where is the headquarters of the Southern Naval Command?",
+      answer: "Kochi, Kerala. It is the Training Command of the Indian Navy.",
+      nextReview: Date.now() - 3600000 * 24, // Due 1 day ago
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "maths-matrix-inverse": {
+      question: "What is the condition for a square matrix A to be invertible?",
+      answer: "Its determinant must be non-zero (det(A) ≠ 0).",
+      nextReview: Date.now() - 50000,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "polity-article-32": {
+      question: "Which Article did Dr. B.R. Ambedkar call 'the heart and soul of the Constitution'?",
+      answer: "Article 32 (Right to Constitutional Remedies).",
+      nextReview: Date.now() - 86400000 * 2, // Due 2 days ago
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "history-home-rule": {
+      question: "Who started the Home Rule League in India along with Bal Gangadhar Tilak?",
+      answer: "Annie Besant (in 1916).",
+      nextReview: Date.now() + 3600000 * 24,
+      interval: 2,
+      repetitions: 1,
+      efactor: 2.5
+    },
+    "geography-islands": {
+      question: "Which channel separates the Andaman Islands from the Nicobar Islands?",
+      answer: "Ten Degree Channel.",
+      nextReview: Date.now() - 3600000 * 48,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "physics-escape-velocity": {
+      question: "What is the escape velocity from the surface of the Earth?",
+      answer: "Approximately 11.2 km/s.",
+      nextReview: Date.now() - 3600000,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "chemistry-ozone": {
+      question: "What is the chemical formula of Ozone and which layer of the atmosphere contains it?",
+      answer: "O3, found in the Stratosphere.",
+      nextReview: Date.now() + 3600000 * 48,
+      interval: 3,
+      repetitions: 2,
+      efactor: 2.6
+    },
+    "english-idiom": {
+      question: "What is the meaning of the idiom 'To bite the bullet'?",
+      answer: "To endure a painful or difficult situation that is seen as unavoidable.",
+      nextReview: Date.now() - 3600000 * 5,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "current-affairs-g20": {
+      question: "What was the theme of India's G20 Presidency in 2023?",
+      answer: "Vasudhaiva Kutumbakam (One Earth, One Family, One Future).",
+      nextReview: Date.now() - 86400000,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "biology-vitamins": {
+      question: "Deficiency of which vitamin causes scurvy?",
+      answer: "Vitamin C (Ascorbic acid).",
+      nextReview: Date.now() + 86400000 * 3,
+      interval: 4,
+      repetitions: 2,
+      efactor: 2.4
+    },
+    "military-gallantry": {
+      question: "What is the highest peacetime gallantry award in India?",
+      answer: "Ashoka Chakra.",
+      nextReview: Date.now() - 10000,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "history-quit-india": {
+      question: "On what date was the Quit India Movement launched?",
+      answer: "August 8, 1942.",
+      nextReview: Date.now() - 3600000 * 3,
+      interval: 2,
+      repetitions: 1,
+      efactor: 2.5
+    },
+    "defence-cds": {
+      question: "Who was the first Chief of Defence Staff (CDS) of India?",
+      answer: "General Bipin Rawat.",
+      nextReview: Date.now() - 3600000 * 12,
+      interval: 3,
+      repetitions: 1,
+      efactor: 2.6
+    },
+    "science-light-year": {
+      question: "What physical quantity is measured in light-years?",
+      answer: "Distance (specifically astronomical distance).",
+      nextReview: Date.now() + 86400000,
+      interval: 5,
+      repetitions: 2,
+      efactor: 2.7
+    },
+    "geography-longest-river": {
+      question: "Which is the longest river in Peninsular India?",
+      answer: "The Godavari River (often called the Dakshin Ganga).",
+      nextReview: Date.now() - 86400000 * 4,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "polity-president-election": {
+      question: "Who participates in the election of the President of India?",
+      answer: "Elected members of both Houses of Parliament and elected members of the Legislative Assemblies of States and Union Territories (Delhi and Puducherry).",
+      nextReview: Date.now() - 5000,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "geography-islands-channel": {
+      question: "Which channel separates the Lakshadweep Islands from the Maldives?",
+      answer: "The Eight Degree Channel.",
+      nextReview: Date.now() - 100000,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "physics-sound-waves": {
+      question: "What type of waves are sound waves in air?",
+      answer: "Longitudinal mechanical waves.",
+      nextReview: Date.now() - 200000,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "history-din-i-ilahi": {
+      question: "Who founded the syncretic religion Din-i-Ilahi?",
+      answer: "Mughal Emperor Akbar.",
+      nextReview: Date.now() - 300000,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "polity-panchayati-raj": {
+      question: "Which Constitutional Amendment Act introduced the Panchayati Raj system?",
+      answer: "The 73rd Amendment Act, 1992.",
+      nextReview: Date.now() - 400000,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    },
+    "biology-dna-structure": {
+      question: "Who discovered the double-helix structure of DNA?",
+      answer: "James Watson and Francis Crick (with contributions from Rosalind Franklin).",
+      nextReview: Date.now() - 500000,
+      interval: 1,
+      repetitions: 0,
+      efactor: 2.5
+    }
+  },
   currentScreen: "dashboard",
   userEmail: null,
   branch: null,
@@ -52689,6 +52975,8 @@ async function syncFromSupabase() {
       
       const mergedSyllabus = { ...(STATE.syllabusProgress || {}), ...(cloudState.syllabusProgress || {}) };
       const mergedExpandedNotes = { ...(STATE.aiExpandedNotes || {}), ...(cloudState.aiExpandedNotes || {}) };
+      const mergedWeaknessStats = { ...(STATE.weaknessStats || {}), ...(cloudState.weaknessStats || {}) };
+      const mergedSrsData = { ...(STATE.srsData || {}), ...(cloudState.srsData || {}) };
       
       let mergedCbtScores = [...(STATE.cbtScores || [])];
       (cloudState.cbtScores || []).forEach(cloudScore => {
@@ -52705,6 +52993,8 @@ async function syncFromSupabase() {
         ...cloudState,
         syllabusProgress: mergedSyllabus,
         aiExpandedNotes: mergedExpandedNotes,
+        weaknessStats: mergedWeaknessStats,
+        srsData: mergedSrsData,
         cbtScores: mergedCbtScores,
         readFormulasList: mergedFormulas,
         readFormulasCount: mergedFormulas.length
@@ -52844,9 +53134,12 @@ function updateDashboardMetrics() {
   let rank = "Lieutenant";
   if (completedTopics > 10 || STATE.cbtScores.length > 8) rank = "Major";
   else if (completedTopics > 5 || STATE.cbtScores.length > 3) rank = "Captain";
-  document.getElementById("user-rank").innerText = rank;
+  const rankEl = document.getElementById("user-rank") || document.getElementById("profile-rank");
+  if (rankEl) rankEl.innerText = rank;
   
   renderDashboardRecentCBT();
+  if (typeof renderDashboardWeaknessHeatmap === 'function') renderDashboardWeaknessHeatmap();
+  if (typeof updateDashboardSrsQueue === 'function') updateDashboardSrsQueue();
 }
 
 function renderDashboardRecentCBT() {

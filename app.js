@@ -1231,10 +1231,19 @@ function submitCbtExam() {
     const ans = CBT_SESSION.answers[idx];
     if (ans !== null) {
       attemptedCount++;
+      
+      // Track weakness heuristically
+      const topicId = q.topicId || exam.id; // Fallback to exam.id
+      if (!STATE.weaknessStats[topicId]) {
+        STATE.weaknessStats[topicId] = { attempts: 0, incorrect: 0 };
+      }
+      STATE.weaknessStats[topicId].attempts++;
+
       if (ans === q.correct) {
         correctCount++;
       } else {
         incorrectCount++;
+        STATE.weaknessStats[topicId].incorrect++;
       }
     }
   });
@@ -3094,6 +3103,140 @@ function renderAiNotes(text, contentArea, btnCopy, btnDownload, title) {
   };
 }
 
+window.renderDashboardWeaknessHeatmap = function() {
+  const container = document.getElementById("dashboard-weakness-heatmap");
+  if (!container) return;
+  if (!STATE.weaknessStats || Object.keys(STATE.weaknessStats).length === 0) {
+    container.innerHTML = `<p style="color:var(--text-muted); font-size: 0.9rem;">No weakness data available yet. Take some CBT mocks!</p>`;
+    return;
+  }
+  
+  let html = "";
+  for (const [topicId, stats] of Object.entries(STATE.weaknessStats)) {
+    if (stats.attempts > 0) {
+      const errorRate = stats.incorrect / stats.attempts;
+      if (errorRate > 0) {
+        let color = "var(--warning)";
+        if (errorRate > 0.5) color = "var(--danger)";
+        
+        // Try to find topic title
+        let topicTitle = topicId;
+        if (typeof AI_TOPIC_TEMPLATES !== 'undefined' && AI_TOPIC_TEMPLATES[topicId]) {
+          topicTitle = AI_TOPIC_TEMPLATES[topicId].topic;
+        }
+        
+        html += `<div style="background: rgba(255,255,255,0.05); border-left: 3px solid ${color}; padding: 6px 12px; border-radius: 4px; font-size: 0.85rem; display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 48%; box-sizing: border-box;">
+          <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 70%;" title="${topicTitle}">${topicTitle}</span>
+          <span style="color: ${color}; font-weight: bold; font-family: var(--font-mono);">${Math.round(errorRate * 100)}% Error</span>
+        </div>`;
+      }
+    }
+  }
+  
+  if (html === "") {
+    container.innerHTML = `<p style="color:var(--text-muted); font-size: 0.9rem;">Great job! No major weaknesses detected.</p>`;
+  } else {
+    container.innerHTML = html;
+  }
+};
+
+window.updateDashboardSrsQueue = function() {
+  const countEl = document.getElementById("srs-due-count");
+  if (!countEl) return;
+  
+  let dueCount = 0;
+  const now = Date.now();
+  if (STATE.srsData) {
+    for (const [topicId, data] of Object.entries(STATE.srsData)) {
+      if (data.nextReview && data.nextReview <= now) {
+        dueCount++;
+      }
+    }
+  }
+  countEl.innerText = dueCount;
+  countEl.style.color = dueCount > 0 ? "var(--warning)" : "var(--info)";
+};
+
+let currentSrsQueue = [];
+let currentSrsIndex = 0;
+
+window.launchSrsReview = function() {
+  if (!STATE.srsData) STATE.srsData = {};
+  const now = Date.now();
+  currentSrsQueue = Object.keys(STATE.srsData).filter(tid => STATE.srsData[tid].nextReview <= now);
+  
+  if (currentSrsQueue.length === 0) {
+    alert("No items due for review! Excellent work.");
+    return;
+  }
+  
+  currentSrsIndex = 0;
+  document.getElementById('srs-review-modal').style.display = 'flex';
+  renderCurrentSrsItem();
+};
+
+function renderCurrentSrsItem() {
+  const topicId = currentSrsQueue[currentSrsIndex];
+  const srsData = STATE.srsData[topicId];
+  
+  // Try to find topic title and content
+  let topicTitle = topicId;
+  let questionContent = srsData.question || "Do you remember the key concepts for this topic?";
+  let answerContent = srsData.answer || "Review the notes for this topic to refresh your memory.";
+  
+  if (typeof AI_TOPIC_TEMPLATES !== 'undefined' && AI_TOPIC_TEMPLATES[topicId]) {
+    topicTitle = AI_TOPIC_TEMPLATES[topicId].topic;
+  }
+
+  document.getElementById('srs-progress').innerText = `${currentSrsIndex + 1} / ${currentSrsQueue.length}`;
+  document.getElementById('srs-topic-label').innerText = topicTitle;
+  document.getElementById('srs-question-text').innerHTML = questionContent;
+  document.getElementById('srs-answer-text').innerHTML = answerContent;
+  
+  // Reset UI state
+  document.getElementById('srs-answer-container').style.display = 'none';
+  document.getElementById('srs-controls-reveal').style.display = 'block';
+  document.getElementById('srs-controls-grade').style.display = 'none';
+}
+
+window.revealSrsAnswer = function() {
+  document.getElementById('srs-answer-container').style.display = 'block';
+  document.getElementById('srs-controls-reveal').style.display = 'none';
+  document.getElementById('srs-controls-grade').style.display = 'flex';
+};
+
+window.gradeSrsItem = function(quality) {
+  const topicId = currentSrsQueue[currentSrsIndex];
+  let srs = STATE.srsData[topicId];
+  const now = Date.now();
+  
+  srs.repetitions = (srs.repetitions || 0) + 1;
+  srs.efactor = Math.max(1.3, (srs.efactor || 2.5) + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02)));
+  
+  if (quality < 3) {
+      srs.repetitions = 0;
+      srs.interval = 1;
+  } else {
+      if (srs.repetitions === 1) srs.interval = 1;
+      else if (srs.repetitions === 2) srs.interval = 6;
+      else srs.interval = Math.round(srs.interval * srs.efactor);
+  }
+  
+  // Set next review to X days from now
+  srs.nextReview = now + srs.interval * 24 * 60 * 60 * 1000;
+  
+  saveState(); // Ensure state is persisted immediately
+  updateDashboardMetrics(); // update UI counters
+  currentSrsIndex++;
+  
+  if (currentSrsIndex < currentSrsQueue.length) {
+    renderCurrentSrsItem();
+  } else {
+    document.getElementById('srs-review-modal').style.display = 'none';
+    alert("SRS Review Complete! Scheduling metadata updated.");
+  }
+};
+
 // ==========================================
 // 12. AI TACTICAL STRATEGY BUILDER
 // ==========================================
@@ -3359,3 +3502,10 @@ function checkVocabAnswer(qIdx, oIdx, selectedOpt, correctOpt) {
   
   feedback.style.display = "block";
 }
+
+window.renderVocabBuilder = renderVocabBuilder;
+window.getWordOfTheDay = getWordOfTheDay;
+window.loadRandomWord = loadRandomWord;
+window.displayVocabWord = displayVocabWord;
+window.startVocabQuiz = startVocabQuiz;
+window.checkVocabAnswer = checkVocabAnswer;

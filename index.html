@@ -203,6 +203,34 @@
           </div>
         </div>
 
+        <div class="grid-cols-2" style="margin-bottom: 24px;">
+          <!-- Spaced Repetition Queue -->
+          <div class="panel glow" style="border-left: 4px solid var(--warning);">
+            <div class="panel-title">Spaced Repetition (SRS) Queue</div>
+            <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">
+              Topics due for memory reinforcement based on the SM-2 spaced repetition algorithm.
+            </p>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <div style="font-size: 0.9rem; color: var(--text-primary);">
+                Items Due: <span id="srs-due-count" style="font-size: 1.5rem; font-weight: bold; margin-left: 8px;">0</span>
+              </div>
+              <button class="btn-primary" onclick="launchSrsReview()" style="width: auto; padding: 10px 24px; background: var(--warning); border-color: var(--warning);">Start Review</button>
+            </div>
+          </div>
+
+          <!-- Weakness Heatmap -->
+          <div class="panel">
+            <div class="panel-title">Weakness Heatmap</div>
+            <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">
+              Topics where your error rate is highest based on past CBT performance.
+            </p>
+            <div id="dashboard-weakness-heatmap" style="display: flex; flex-wrap: wrap; gap: 8px;">
+              <!-- Dynamic weakness items injected via app.js -->
+              <p style="color:var(--text-muted); font-size: 0.9rem;">No weakness data available yet.</p>
+            </div>
+          </div>
+        </div>
+
         <!-- AI Strategy Builder Panel -->
         <div class="panel glow" style="margin-bottom: 24px; border-left: 4px solid var(--info); background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(14, 165, 233, 0.05) 100%);">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 10px;">
@@ -847,6 +875,42 @@
             <div style="width: 16px; height: 16px; border-radius: 50%; background: #5eead4;"></div>
           </div>
         </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SRS REVIEW MODAL -->
+  <div class="cbt-overlay" id="srs-review-modal" style="display: none; align-items: center; justify-content: center; z-index: 9999; background: rgba(0,0,0,0.85);">
+    <div class="panel" style="max-width: 500px; width: 100%; position: relative; padding: 30px;">
+      <button class="chatbot-close-btn" onclick="document.getElementById('srs-review-modal').style.display='none'" style="position: absolute; top: 12px; right: 12px;">&times;</button>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h2 style="font-family: var(--font-logo); font-size: 1.3rem; margin: 0; color: var(--warning);">Daily Briefing</h2>
+        <span id="srs-progress" style="font-family: var(--font-mono); font-size: 0.9rem; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 4px 8px; border-radius: 4px;">1 / 5</span>
+      </div>
+
+      <div style="margin-bottom: 24px;">
+        <div id="srs-topic-label" style="font-size: 0.8rem; font-weight: 700; color: var(--info); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">TOPIC NAME</div>
+        <div id="srs-question-text" style="font-size: 1.1rem; color: var(--text-primary); line-height: 1.5;">Question text goes here?</div>
+      </div>
+
+      <div id="srs-answer-container" style="display: none; margin-bottom: 24px; padding-top: 20px; border-top: 1px dashed var(--border);">
+        <div style="font-size: 0.8rem; font-weight: 700; color: var(--success); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">ANSWER / KEY CONCEPT</div>
+        <div id="srs-answer-text" style="font-size: 1rem; color: var(--text-secondary); line-height: 1.5;">Answer explanation goes here.</div>
+      </div>
+
+      <div id="srs-controls-reveal" style="text-align: center;">
+        <button class="btn-primary" onclick="revealSrsAnswer()" style="width: 100%; padding: 12px; font-size: 1.05rem;">Reveal Answer</button>
+      </div>
+
+      <div id="srs-controls-grade" style="display: none; flex-direction: column; gap: 12px;">
+        <p style="text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 4px;">How well did you remember this?</p>
+        <div style="display: flex; gap: 8px;">
+          <button id="srs-btn-again" class="action-btn" onclick="gradeSrsItem(1)" style="flex: 1; border-color: var(--danger); color: var(--danger);">Again (1)</button>
+          <button id="srs-btn-hard" class="action-btn" onclick="gradeSrsItem(3)" style="flex: 1; border-color: var(--warning); color: var(--warning);">Hard (3)</button>
+          <button id="srs-btn-good" class="action-btn" onclick="gradeSrsItem(4)" style="flex: 1; border-color: var(--info); color: var(--info);">Good (4)</button>
+          <button id="srs-btn-easy" class="action-btn" onclick="gradeSrsItem(5)" style="flex: 1; border-color: var(--success); color: var(--success);">Easy (5)</button>
+        </div>
       </div>
     </div>
   </div>

@@ -40,8 +40,8 @@ async function runTest() {
     }
   });
 
-  console.log("Navigating to http://localhost:8080...");
-  await page.goto('http://localhost:8080', { waitUntil: 'networkidle2' });
+  console.log("Navigating to http://localhost:4000...");
+  await page.goto('http://localhost:4000', { waitUntil: 'networkidle2' });
 
   console.log("Navigating to Paper Solver screen...");
   await page.evaluate(() => {
