@@ -18,19 +18,21 @@ let dailyNewsCache = { date: '', data: null };
 
 // UPSC topic categories aligned with UPSC Civil Services / NDA / CDS syllabus
 const UPSC_TOPIC_CATEGORIES = [
-  { name: 'Polity & Governance',      color: '#4f46e5', queries: ['India parliament', 'supreme court India', 'constitutional amendment India', 'government policy India'] },
-  { name: 'Economy & Finance',        color: '#0891b2', queries: ['RBI India economy', 'India GDP budget', 'GST India', 'stock market India finance'] },
-  { name: 'Defence & Security',       color: '#dc2626', queries: ['Indian army navy air force', 'defence ministry India', 'military exercise India', 'India nuclear missile'] },
+  { name: 'Polity & Governance',      color: '#4f46e5', queries: ['India parliament', 'supreme court India', 'constitutional amendment India', 'government policy India', 'India election commission', 'India law ministry'] },
+  { name: 'Economy & Finance',        color: '#0891b2', queries: ['RBI India economy', 'India GDP budget', 'GST India', 'stock market India finance', 'India inflation CPI', 'India exports imports trade balance'] },
+  { name: 'Defence & Security',       color: '#dc2626', queries: ['Indian army navy air force', 'defence ministry India', 'military exercise India', 'India nuclear missile', 'India border security', 'India defence procurement'] },
   { name: 'Military Appointments',    color: '#b45309', queries: ['India army chief appointment', 'COAS CNS CAS India appointed', 'Indian military general admiral marshal appointed', 'India defence secretary chairman chiefs staff'] },
-  { name: 'International Relations',  color: '#7c3aed', queries: ['India foreign policy', 'India bilateral agreement', 'India United Nations', 'India diplomacy'] },
-  { name: 'Environment & Ecology',    color: '#059669', queries: ['climate change India', 'environment pollution India', 'wildlife India', 'India forest conservation'] },
-  { name: 'Science & Technology',     color: '#d97706', queries: ['ISRO space India', 'India technology innovation', 'India AI research', 'India nuclear energy'] },
-  { name: 'Social Issues',            color: '#db2777', queries: ['India education scheme', 'India health scheme', 'India poverty scheme', 'India women empowerment'] },
-  { name: 'History & Culture',        color: '#92400e', queries: ['India heritage UNESCO', 'India cultural festival', 'India archaeology history', 'India art award'] },
-  { name: 'Geography & Disasters',    color: '#0369a1', queries: ['India disaster cyclone flood', 'India earthquake geography', 'India river dam project', 'India agriculture crop'] },
-  { name: 'Awards & Appointments',    color: '#6d28d9', queries: ['India appointment minister CEO', 'India award prize', 'India sports achievement', 'India Olympics'] },
+  { name: 'International Relations',  color: '#7c3aed', queries: ['India foreign policy', 'India bilateral agreement', 'India United Nations', 'India diplomacy', 'India ASEAN SAARC', 'India G20 SCO BRICS'] },
+  { name: 'Environment & Ecology',    color: '#059669', queries: ['climate change India', 'environment pollution India', 'wildlife India', 'India forest conservation', 'India biodiversity COP', 'India renewable energy solar wind'] },
+  { name: 'Science & Technology',     color: '#d97706', queries: ['ISRO space India', 'India technology innovation', 'India AI research', 'India nuclear energy', 'India semiconductor chip', 'India quantum computing'] },
+  { name: 'Social Issues',            color: '#db2777', queries: ['India education scheme', 'India health scheme', 'India poverty scheme', 'India women empowerment', 'India tribal welfare', 'India Ayushman Bharat'] },
+  { name: 'History & Culture',        color: '#92400e', queries: ['India heritage UNESCO', 'India cultural festival', 'India archaeology history', 'India art award', 'India yoga classical arts', 'India museum ancient site'] },
+  { name: 'Geography & Disasters',    color: '#0369a1', queries: ['India disaster cyclone flood', 'India earthquake geography', 'India river dam project', 'India agriculture crop', 'India NDMA disaster management', 'India monsoon drought'] },
+  { name: 'Awards & Appointments',    color: '#6d28d9', queries: ['India appointment minister CEO', 'India award prize', 'India Padma Bharat Ratna', 'India Nobel prize winner'] },
+  { name: 'Sports',                   color: '#0d9488', queries: ['India cricket hockey Olympics', 'India sports championship medal', 'India FIFA athletics', 'India chess tennis badminton'] },
 ];
 
+// PIB Ministry RSS feeds — covers most UPSC-relevant ministries
 const PIB_RSS_FEEDS = [
   'https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3',   // Ministry of Defence
   'https://pib.gov.in/RssMain.aspx?ModId=2&Lang=1&Regid=3',   // Prime Minister's Office
@@ -39,6 +41,13 @@ const PIB_RSS_FEEDS = [
   'https://pib.gov.in/RssMain.aspx?ModId=35&Lang=1&Regid=3',  // Ministry of Environment
   'https://pib.gov.in/RssMain.aspx?ModId=8&Lang=1&Regid=3',   // Ministry of Science
   'https://pib.gov.in/RssMain.aspx?ModId=37&Lang=1&Regid=3',  // Ministry of Health
+  'https://pib.gov.in/RssMain.aspx?ModId=23&Lang=1&Regid=3',  // Ministry of Home Affairs
+  'https://pib.gov.in/RssMain.aspx?ModId=10&Lang=1&Regid=3',  // Ministry of Commerce
+  'https://pib.gov.in/RssMain.aspx?ModId=11&Lang=1&Regid=3',  // Ministry of Agriculture
+  'https://pib.gov.in/RssMain.aspx?ModId=3&Lang=1&Regid=3',   // Ministry of Railways
+  'https://pib.gov.in/RssMain.aspx?ModId=22&Lang=1&Regid=3',  // Ministry of Education
+  'https://pib.gov.in/RssMain.aspx?ModId=31&Lang=1&Regid=3',  // Ministry of Space (ISRO)
+  'https://pib.gov.in/RssMain.aspx?ModId=18&Lang=1&Regid=3',  // Ministry of Petroleum
 ];
 
 // Dedicated Google News RSS feeds for military appointments (always fetched separately)
@@ -133,7 +142,7 @@ async function fetchAllNewsItems() {
   // Pin up to 6 military appointment items at the front, then fill with general items
   const pinned = militaryItems.slice(0, 6);
   const combined = [...pinned, ...allItems];
-  return combined.slice(0, 35); // slightly larger pool for Gemini
+  return combined.slice(0, 50); // larger pool for 12 topic categories
 }
 
 const MIME_TYPES = {
@@ -188,10 +197,10 @@ Below is a list of real news headlines and summaries from PIB (Press Information
 ${JSON.stringify(rawItems.map((it,i) => ({ n: i+1, title: it.title, desc: it.description, date: it.pubDate })))}
 
 Your task:
-1. Select the 15 to 20 most important and UPSC-relevant news items from the above list (covering all 11 UPSC topic areas listed below).
+1. Select the 18 to 22 most important and UPSC-relevant news items from the above list (covering all 12 UPSC topic areas listed below).
 2. For each selected item, generate a complete UPSC Current Affairs card.
 
-The 11 UPSC topic areas (assign each card to the most fitting one):
+The 12 UPSC topic areas (assign each card to the most fitting one):
 ${UPSC_TOPIC_CATEGORIES.map(t => `- ${t.name}`).join('\n')}
 
 SPECIAL RULE FOR 'Military Appointments':
@@ -207,10 +216,13 @@ SPECIAL RULE FOR 'Military Appointments':
 SPECIAL RULE FOR 'Economy & Finance':
 - You MUST include AT LEAST 2 cards with topic = 'Economy & Finance'. Ensure you extract any economic developments, RBI decisions, GDP data, or budget-related news.
 
+SPECIAL RULE FOR 'Sports':
+- You MUST include AT LEAST 1 card with topic = 'Sports'. Cover any significant sports event, tournament result, or athlete achievement from India.
+
 For each card, produce the following JSON object:
 {
   "id": "ca_live_N",
-  "topic": "<one of the 11 topic area names above>",
+  "topic": "<one of the 12 topic area names above>",
   "topicColor": "<hex color for topic, from this map: ${JSON.stringify(topicColorMap)}>",
   "summary": "<One clear sentence: what happened, who was involved, when and where.>",
   "text": "<2-3 sentence HTML-enhanced description. Use <strong> tags to highlight key names, organizations, dates, and figures. Use <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'> to highlight UPSC-critical facts like article numbers, rank designations, appointment dates, treaty names, committee names, statistics.>",
@@ -231,8 +243,8 @@ For each card, produce the following JSON object:
 
 Rules:
 - Return ONLY a raw JSON array of these objects. No markdown, no \`\`\`json fences.
-- Cover at least 8 different topic areas across your selection.
-- MANDATORY: Include at least 2 'Military Appointments' cards and at least 2 'Economy & Finance' cards.
+- Cover at least 9 different topic areas across your selection.
+- MANDATORY: Include at least 2 'Military Appointments' cards, at least 2 'Economy & Finance' cards, and at least 1 'Sports' card.
 - If a real news item is ambiguous, create the card based on the most probable UPSC-testable interpretation.
 - Use formal UPSC-coach language. Highlight key terms with HTML as instructed.
 - Do NOT use any emojis, icons, or pictorial characters anywhere in any fields of the JSON (such as summary, text, upscHighlights, strategicImportance, etc.). Keep the content completely emoji-free.`;
@@ -248,7 +260,7 @@ Rules:
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
                 contents: [{ parts: [{ text: prompt }] }],
-                generationConfig: { temperature: 0.1, maxOutputTokens: 16384, response_mime_type: 'application/json' }
+                generationConfig: { temperature: 0.1, maxOutputTokens: 20480, response_mime_type: 'application/json' }
               })
             });
             if (!gemRes.ok) continue;

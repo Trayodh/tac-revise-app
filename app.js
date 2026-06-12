@@ -582,6 +582,55 @@ function toggleFormulaReadStatus(topicId, button) {
 
 // 9. CURRENT AFFAIRS (CA) SCREEN MODULE
 // ==========================================
+
+/**
+ * Returns the current exam cycle bounds.
+ * Exam Cycles:
+ *   Cycle 1 (Apr → Sep): April, May, June, July, August, September
+ *   Cycle 2 (Oct → Mar): October, November, December, January, February, March
+ *
+ * Returns { cycleLabel, startMonth (0-indexed), startYear, endMonth (0-indexed), endYear, months[] }
+ * where months is an array of "Month YYYY" strings for the entire cycle.
+ */
+function getExamCycleBounds() {
+  const now = new Date();
+  const month = now.getMonth(); // 0=Jan … 11=Dec
+  const year  = now.getFullYear();
+
+  let cycleLabel, startMonth, startYear, endMonth, endYear;
+
+  if (month >= 3 && month <= 8) {
+    // April (3) to September (8)
+    cycleLabel  = `Apr ${year} — Sep ${year}`;
+    startMonth  = 3; startYear  = year;
+    endMonth    = 8; endYear    = year;
+  } else if (month >= 9) {
+    // October (9) to March of next year
+    cycleLabel  = `Oct ${year} — Mar ${year + 1}`;
+    startMonth  = 9; startYear  = year;
+    endMonth    = 2; endYear    = year + 1;
+  } else {
+    // January (0) to March (2) — tail of previous Oct cycle
+    cycleLabel  = `Oct ${year - 1} — Mar ${year}`;
+    startMonth  = 9; startYear  = year - 1;
+    endMonth    = 2; endYear    = year;
+  }
+
+  // Build ordered list of "Month YYYY" strings for this cycle
+  const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const months = [];
+  let m = startMonth, y = startYear;
+  while (true) {
+    months.push(`${monthNames[m]} ${y}`);
+    if (m === endMonth && y === endYear) break;
+    m++; if (m > 11) { m = 0; y++; }
+    if (months.length > 24) break; // safety valve
+  }
+
+  return { cycleLabel, startMonth, startYear, endMonth, endYear, months };
+}
+window.getExamCycleBounds = getExamCycleBounds;
+
 let activeCaMonth = "January 2026";
 
 
@@ -656,33 +705,48 @@ function renderCurrentAffairsHub() {
     fetchDailyCurrentAffairs();
     return;
   }
-  
-  const monthsList = document.getElementById("ca-month-list");
-  monthsList.innerHTML = "";
-  
-  const keys = Object.keys(CURRENT_AFFAIRS_DB);
-  // Only auto-select a month when the current selection is invalid (first load or after DB reset).
-  // Never override a user's explicit month click.
+
+  const cycle = getExamCycleBounds();
+
+  // Filter DB keys to only those within the current exam cycle
+  const allKeys  = Object.keys(CURRENT_AFFAIRS_DB);
+  const cycleKeys = allKeys.filter(k => cycle.months.includes(k));
+  // If no data falls in current cycle, fall back to all keys (graceful degradation)
+  const keys = cycleKeys.length > 0 ? cycleKeys : allKeys;
+
+  // Auto-select a month: prefer current month → first month in cycle → fallback first key
   if (!keys.includes(activeCaMonth)) {
     const currentMonthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
     if (keys.includes(currentMonthStr)) {
-      activeCaMonth = currentMonthStr;   // prefer today's month
+      activeCaMonth = currentMonthStr;
     } else if (keys.length > 0) {
-      activeCaMonth = keys[0];           // fallback to first available
+      activeCaMonth = keys[keys.length - 1]; // latest month in cycle
     }
   }
-  
-  keys.forEach(month => {
-    const item = document.createElement("div");
-    item.className = `month-item ${month === activeCaMonth ? 'active' : ''}`;
-    item.innerText = month;
-    item.addEventListener("click", () => {
-      activeCaMonth = month;
-      renderCurrentAffairsHub();
+
+  const monthsList = document.getElementById("ca-month-list");
+  monthsList.innerHTML = "";
+
+  // Cycle banner at top of sidebar
+  const banner = document.createElement("div");
+  banner.style.cssText = "padding: 8px 12px; margin-bottom: 10px; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; font-family: var(--font-mono); color: var(--accent); background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.2); border-radius: 5px; text-align: center;";
+  banner.textContent = `Exam Cycle: ${cycle.cycleLabel}`;
+  monthsList.appendChild(banner);
+
+  // Render only cycle-relevant months in sorted order
+  cycle.months
+    .filter(m => keys.includes(m))
+    .forEach(month => {
+      const item = document.createElement("div");
+      item.className = `month-item ${month === activeCaMonth ? 'active' : ''}`;
+      item.innerText = month;
+      item.addEventListener("click", () => {
+        activeCaMonth = month;
+        renderCurrentAffairsHub();
+      });
+      monthsList.appendChild(item);
     });
-    monthsList.appendChild(item);
-  });
-  
+
   renderCurrentMonthAffairs();
 }
 
@@ -708,7 +772,7 @@ function renderCurrentMonthAffairs() {
   let html = `
     <div style="margin-bottom:20px;">
       <h2 style="margin:0 0 4px; font-size:1.2rem; font-weight:700; letter-spacing:0.3px;">Current Affairs — ${activeCaMonth}</h2>
-      <p style="margin:0 0 12px; font-size:0.82rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:0.5px;">PIB + NEWS · AI-ENRICHED · ${data.length} ITEMS</p>
+      <p style="margin:0 0 12px; font-size:0.82rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:0.5px;">PIB + NEWS · AI-ENRICHED · ${data.length} ITEMS · CYCLE: ${getExamCycleBounds().cycleLabel}</p>
       <div style="display:flex; gap:5px; flex-wrap:wrap;">
         ${Object.entries(topicCounts).map(([t,c]) => `<span style="font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase;">${t}&thinsp;·&thinsp;${c}</span>`).join('')}
       </div>
@@ -730,7 +794,8 @@ function renderCurrentMonthAffairs() {
     if (t.includes('social') || t.includes('welfare')) return '#db2777';
     if (t.includes('history') || t.includes('cultur') || t.includes('heritage')) return '#92400e';
     if (t.includes('geograph') || t.includes('disaster')) return '#0369a1';
-    if (t.includes('award') || t.includes('sport')) return '#6d28d9';
+    if (t.includes('sport')) return '#0d9488';   // teal for Sports
+    if (t.includes('award')) return '#6d28d9';
     return '#64748b';
   }
 
@@ -2649,8 +2714,9 @@ function renderCaVisitsTable() {
   const visits = window.CA_VISITS_DATA || [];
 
   // Update panel header with current exam cycle
+  const cycle = getExamCycleBounds();
   const titleEl = document.getElementById("ca-visits-panel-title");
-  if (titleEl) titleEl.textContent = `International Visits & Bilateral Deals — ${meta.examCycle || "2026"} (Coverage: ${meta.coverageFrom || ""} to ${meta.coverageTo || ""})`;
+  if (titleEl) titleEl.textContent = `International Visits & Bilateral Deals — Exam Cycle: ${cycle.cycleLabel}`;
 
   if (visits.length === 0) {
     wrapper.innerHTML = `<p style="color: var(--text-secondary); padding: 20px;">No visit data loaded for this exam cycle. Update CA_VISITS_DATA in ca_data.js.</p>`;
@@ -2681,8 +2747,9 @@ function renderCaFtaTable() {
   const meta = window.CA_META   || {};
   const ftas = window.CA_FTA_DATA || [];
 
-  const titleEl = document.getElementById("ca-fta-panel-title");
-  if (titleEl) titleEl.textContent = `Trade Deals & FTAs — ${meta.examCycle || "2026"} (Last Refreshed: ${meta.lastRefreshed || ""})`;
+  const cycle2 = getExamCycleBounds();
+  const titleEl2 = document.getElementById("ca-fta-panel-title");
+  if (titleEl2) titleEl2.textContent = `Trade Deals & FTAs — Exam Cycle: ${cycle2.cycleLabel} (Last Refreshed: ${meta.lastRefreshed || ""})`;
 
   if (ftas.length === 0) {
     wrapper.innerHTML = `<p style="color: var(--text-secondary); padding: 20px;">No FTA data loaded. Update CA_FTA_DATA in ca_data.js.</p>`;

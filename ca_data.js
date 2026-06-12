@@ -3,11 +3,20 @@
 // =============================================================================
 // HOW TO UPDATE THIS FILE:
 //
-// AFTER EACH CDS EXAM:
-//   1. Update CA_META.examCycle to the next exam (e.g., "CDS II 2026")
+// EXAM CYCLE STRUCTURE:
+//   Cycle 1: April → September  (covers NDA I, CDS I, AFCAT I exams)
+//   Cycle 2: October → March    (covers NDA II, CDS II, AFCAT II exams)
+//
+// The Monthly Feed in the app automatically shows only months within the
+// current cycle — no manual filtering needed. After each exam, the UI
+// self-refreshes to the next cycle on the following month.
+//
+// AFTER EACH CDS / NDA / AFCAT EXAM:
+//   1. Update CA_META.examCycle to the next upcoming exam (e.g., "NDA I 2027")
 //   2. Update CA_META.lastRefreshed to today's date
-//   3. Clear CA_VISITS_DATA and CA_FTA_DATA arrays — replace with new entries
-//   4. Keep CA_DATES_DATA as-is but update `theme` fields for the current year
+//   3. Clear CA_VISITS_DATA and re-populate with visits from the NEW cycle only
+//   4. Keep CA_FTA_DATA — add new FTAs, mark status changes; old ones stay
+//   5. Keep CA_DATES_DATA — only update `theme` fields each year
 //
 // WHEN AI GETS NEW INFO:
 //   - Simply replace the relevant object in the array below
@@ -19,8 +28,9 @@
 window.CA_META = {
   examCycle: "CDS II 2026",        // UPDATE AFTER EACH EXAM
   lastRefreshed: "June 2026",      // UPDATE AFTER EACH REFRESH
-  coverageFrom: "January 2026",
-  coverageTo: "June 2026",
+  coverageFrom: "April 2026",      // Start of current cycle (Apr–Sep cycle)
+  coverageTo: "September 2026",    // End of current cycle
+  cycleNote: "Exam Cycle: Apr 2026 — Sep 2026 | Covers NDA I, CDS I, AFCAT I 2026",
 };
 
 // =============================================================================
@@ -45,30 +55,6 @@ window.CA_VISITS_DATA = [
     period: "Mid 2026",
     purpose: "India-Nordic Summit & Key Bilaterals.",
     deals: "Indo-Pacific Security & Defence Tech: Enhancing strategic autonomy, boosting Make in India in defence, and maritime cooperation in the Indian Ocean Region.",
-  },
-  {
-    visit: "PM Modi to Moscow, Russia",
-    period: "Jul 2026",
-    purpose: "22nd India-Russia Annual Summit.",
-    deals: "RELOS (Reciprocal Logistics Pact): Base replenishment access, localized manufacturing of Russian Su-30MKI/T-90 spare parts in India, Kudankulam NPP fuel supply, and $100B trade target by 2030.",
-  },
-  {
-    visit: "PM Modi to Washington, USA",
-    period: "Sep 2026",
-    purpose: "Quad Leaders' Summit & Bilateral Meetings.",
-    deals: "iCET Expansion: Partnerships in quantum and safe AI, formalization of $3B MQ-9B Predator drone procurement (31 units), NASA flight training for ISRO astronauts, and US CHIPS Act funding for testing fabs in India.",
-  },
-  {
-    visit: "Spanish PM Pedro Sanchez to India",
-    period: "Oct 2026",
-    purpose: "Inauguration of Vadodara C-295 assembly facility.",
-    deals: "Tata-Airbus private military aircraft plant inauguration, and rail infrastructure MoUs between Adif and Indian Railways.",
-  },
-  {
-    visit: "PM Modi to Singapore & Brunei",
-    period: "Nov 2026",
-    purpose: "Act East Policy Expansion.",
-    deals: "Semiconductor Supply Chain Partnership: MoU for tech/talent exchange and supply chain mapping, UPI-PayNow integration for cross-border remittance, and direct flight routes with Brunei.",
   },
 ];
 

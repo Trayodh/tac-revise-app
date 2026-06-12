@@ -14,6 +14,7 @@ const filesToCopy = [
   'index.css',
   'app.js',
   'data.js',
+  'ca_data.js',
   'syllabus_data.js',
   'syllabus_data.json',
   'pyq_trends.js',
