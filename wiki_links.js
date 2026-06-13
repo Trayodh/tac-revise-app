@@ -1,9 +1,185 @@
-// 1. Concept Glossary definition
+// AI Knowledge Graph Revision Ecosystem - Wiki Links and Dronacharya Integration
 let CONCEPT_GLOSSARY = [];
 let GLOSSARY_REGEX = null;
 let GLOSSARY_MAP = {};
 
-// Compiles a comprehensive glossary of terms from NOTES_DATABASE and academic extra terms
+// Caches for performance and rate limit prevention
+window.HOVER_CACHE = {};
+window.DRONACHARYA_CACHE = {}; // Key format: "topicName_level"
+let currentDoubtLevel = "L3"; // Default: Competitive Exam
+let activeHoverTimeout = null;
+let hoverTooltipEl = null;
+
+// Dynamic CSS Injection for Tooltips, Glassmorphism, and Relationship Graph
+const style = document.createElement('style');
+style.textContent = `
+  /* Wiki Links */
+  .wiki-link {
+    color: var(--accent) !important;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px dashed var(--accent);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 0 2px;
+    border-radius: 3px;
+  }
+  .wiki-link:hover {
+    background: rgba(168, 85, 247, 0.15);
+    border-bottom-style: solid;
+  }
+
+  /* Interactive Formula */
+  .formula-block {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    gap: 4px;
+  }
+  .formula-var {
+    color: #38bdf8 !important;
+    cursor: pointer;
+    text-decoration: underline;
+    font-style: italic;
+    transition: all 0.2s ease;
+  }
+  .formula-var:hover {
+    color: #60a5fa !important;
+    background: rgba(56, 189, 248, 0.15);
+    border-radius: 2px;
+  }
+
+  /* Hover Preview Popover Card */
+  .wiki-hover-popover {
+    position: absolute;
+    z-index: 1200;
+    width: 280px;
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(168, 85, 247, 0.3);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.7), 0 0 15px rgba(168, 85, 247, 0.15);
+    border-radius: 8px;
+    padding: 12px;
+    color: var(--text-primary);
+    font-family: var(--font-main);
+    font-size: 0.82rem;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+  .wiki-hover-popover.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  /* Level Switcher Style */
+  .level-btn {
+    flex: 1;
+    padding: 6px 4px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .level-btn.active {
+    background: rgba(168, 85, 247, 0.2);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* Bubble Graph */
+  .bubble-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 16px;
+  }
+  .bubble-node {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    padding: 8px;
+    font-size: 0.72rem;
+  }
+  .bubble-node:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+  }
+  .bubble-center {
+    width: 90px;
+    height: 90px;
+    background: rgba(168, 85, 247, 0.25);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 700;
+    z-index: 10;
+  }
+  .bubble-relation {
+    width: 70px;
+    height: 70px;
+  }
+  .bubble-parent { background: rgba(59, 130, 246, 0.2); border-color: #3b82f6; color: #93c5fd; }
+  .bubble-child { background: rgba(34, 197, 94, 0.2); border-color: #22c55e; color: #86efac; }
+  .bubble-sibling { background: rgba(234, 179, 8, 0.2); border-color: #eab308; color: #fef08a; }
+  .bubble-confused { background: rgba(239, 68, 68, 0.2); border-color: #ef4444; color: #fca5a5; }
+  .bubble-opposite { background: rgba(249, 115, 22, 0.2); border-color: #f97316; color: #ffedd5; }
+`;
+document.head.appendChild(style);
+
+// List of standard formulas that we auto-detect and build variables for
+const COMMON_FORMULAS = [
+  {
+    expr: "F = ma",
+    variables: { "F": "Force", "m": "Mass", "a": "Acceleration" }
+  },
+  {
+    expr: "E = mc^2",
+    variables: { "E": "Energy", "m": "Mass", "c": "Speed of Light" }
+  },
+  {
+    expr: "v = u + at",
+    variables: { "v": "Final Velocity", "u": "Initial Velocity", "a": "Acceleration", "t": "Time" }
+  },
+  {
+    expr: "p = mv",
+    variables: { "p": "Momentum", "m": "Mass", "v": "Velocity" }
+  },
+  {
+    expr: "V = IR",
+    variables: { "V": "Voltage", "I": "Current", "R": "Resistance" }
+  },
+  {
+    expr: "W = Fd",
+    variables: { "W": "Work Done", "F": "Force", "d": "Distance" }
+  }
+];
+
+// 1. Concept Glossary definition & Setup
 function initializeGlossary() {
   CONCEPT_GLOSSARY = [];
   GLOSSARY_MAP = {};
@@ -13,10 +189,7 @@ function initializeGlossary() {
       const subject = NOTES_DATABASE[subjectId];
       subject.chapters.forEach(chapter => {
         chapter.topics.forEach(topic => {
-          // Add the full topic title
           addGlossaryTerm(topic.title, topic.title);
-          
-          // Add a cleaned version of the title (e.g. without parentheses)
           let cleanTitle = topic.title.replace(/\s*\(.*?\)\s*/g, "").trim();
           addGlossaryTerm(cleanTitle, topic.title);
         });
@@ -24,7 +197,6 @@ function initializeGlossary() {
     }
   }
   
-  // Extra high-yield academic, historical, polity, and defence concepts
   const extraTerms = [
     "Federalism", "Central Government", "State Government", "Constitution", "Parliament", 
     "Judiciary", "Seventh Schedule", "Preamble", "Fundamental Rights", "DPSP", "President", 
@@ -55,10 +227,8 @@ function initializeGlossary() {
     addGlossaryTerm(term, term);
   });
 
-  // Sort terms by length descending to match longer multi-word phrases first
   CONCEPT_GLOSSARY.sort((a, b) => b.term.length - a.term.length);
 
-  // Compile regex
   const escapedTerms = CONCEPT_GLOSSARY.map(g => {
     GLOSSARY_MAP[g.term.toLowerCase()] = g.topic;
     return g.term.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
@@ -69,17 +239,12 @@ function initializeGlossary() {
   }
 }
 
-// Safely adds a term and its plural form to the glossary
 function addGlossaryTerm(term, topicName) {
   const t = term.trim();
   if (t.length < 3) return;
-  
-  // Add singular
   if (!CONCEPT_GLOSSARY.some(g => g.term.toLowerCase() === t.toLowerCase())) {
     CONCEPT_GLOSSARY.push({ term: t, topic: topicName });
   }
-  
-  // Add simple plural
   if (!t.endsWith('s')) {
     const plural = t + 's';
     if (!CONCEPT_GLOSSARY.some(g => g.term.toLowerCase() === plural.toLowerCase())) {
@@ -88,47 +253,55 @@ function addGlossaryTerm(term, topicName) {
   }
 }
 
-// Automatically wraps significant concept terms in wiki-link double brackets [[Topic]]
+// Intercepts and parses formulas to make variables interactive
+function parseFormulas(htmlString) {
+  if (!htmlString) return "";
+  let result = htmlString;
+  COMMON_FORMULAS.forEach(formula => {
+    const regex = new RegExp(`\\b${formula.expr.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')}\\b`, 'g');
+    result = result.replace(regex, () => {
+      let formulaHtml = `<span class="formula-block">`;
+      let parts = formula.expr.split('');
+      parts.forEach(char => {
+        if (formula.variables[char]) {
+          formulaHtml += `<a class="formula-var" onclick="triggerDoubtExplain('${formula.variables[char]}', this)">${char}</a>`;
+        } else {
+          formulaHtml += char;
+        }
+      });
+      formulaHtml += `</span>`;
+      return formulaHtml;
+    });
+  });
+  return result;
+}
+
 function autoLinkConcepts(htmlString) {
   if (!htmlString) return "";
-  
-  // Compile the glossary regex if not already done
   if (!GLOSSARY_REGEX) {
     initializeGlossary();
   }
-  
   if (!GLOSSARY_REGEX) return htmlString;
 
-  // Split content by:
-  // - HTML tags: <[^>]+>
-  // - MathJax block: \$\$.*?\$\$
-  // - MathJax inline: \$.*?\$ or \\\(.*?\\\) or \\\[.*?\\\]
-  // - Already established wiki-links: \[\[.*?\]\]
   const regex = /(<[^>]+>|\$\$.*?\$\$|\$.*?\$|\\\(.*?\\\)|\\\[.*?\\\]|\[\[.*?\]\])/gs;
   const parts = htmlString.split(regex);
   
   let insideLink = false;
-  
   for (let i = 0; i < parts.length; i++) {
     const part = parts[i];
     if (!part) continue;
-    
-    // Check if it's a tag, math equation, or existing wikilink
     if (part.match(regex)) {
       if (part.startsWith("<a ") || part.startsWith("<a\t") || part.startsWith("<a\n")) {
         insideLink = true;
       } else if (part.startsWith("</a>")) {
         insideLink = false;
       }
-      continue; // leave untouched
+      continue;
     }
-    
-    // If inside an <a> tag, do not auto-link
     if (insideLink) {
       continue;
     }
     
-    // Auto-link words in the plain text segment
     parts[i] = part.replace(GLOSSARY_REGEX, (match) => {
       const topic = GLOSSARY_MAP[match.toLowerCase()];
       if (topic) {
@@ -141,28 +314,146 @@ function autoLinkConcepts(htmlString) {
   return parts.join("");
 }
 
-// 2. Wikipedia Link Parser: Converts [[Concept Name]] to interactive doubt triggers
 function parseWikiLinks(text) {
   if (!text) return "";
   
-  // First, auto-link plain text concept occurrences to [[Topic|Label]]
   let linkedText = autoLinkConcepts(text);
-  
-  // Convert markdown double asterisks **text** to HTML strong tags
+  linkedText = parseFormulas(linkedText);
   let parsed = linkedText.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   
-  // Format standard [[Topic Name]] or [[Topic Name|Display Label]]
   return parsed.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (match, topicName, displayLabel) => {
     const label = displayLabel || topicName;
     const cleanTopic = topicName.trim().replace(/'/g, "\\'");
-    return `<a class="wiki-link" style="color: var(--accent); font-weight: 600; text-decoration: underline; cursor: pointer;" onclick="triggerDoubtExplain('${cleanTopic}')">${label}</a>`;
+    return `<a class="wiki-link" onclick="triggerDoubtExplain('${cleanTopic}', this)">${label}</a>`;
   });
 }
 
-// 3. Doubt Trigger Function: Renders the Dronacharya Interactive Popover Modal without leaving the page
+// Hover Learning Layer Integration
+function createHoverTooltipElement() {
+  if (hoverTooltipEl) return;
+  hoverTooltipEl = document.createElement('div');
+  hoverTooltipEl.className = 'wiki-hover-popover';
+  document.body.appendChild(hoverTooltipEl);
+
+  hoverTooltipEl.addEventListener('mouseenter', () => {
+    if (activeHoverTimeout) clearTimeout(activeHoverTimeout);
+  });
+  hoverTooltipEl.addEventListener('mouseleave', () => {
+    hideHoverTooltip();
+  });
+}
+
+function showHoverTooltip(element, termName) {
+  createHoverTooltipElement();
+  if (activeHoverTimeout) clearTimeout(activeHoverTimeout);
+
+  const rect = element.getBoundingClientRect();
+  const top = rect.top + window.scrollY - 10;
+  const left = rect.left + window.scrollX;
+
+  hoverTooltipEl.style.top = `${top - 120}px`;
+  hoverTooltipEl.style.left = `${left}px`;
+  hoverTooltipEl.classList.add('visible');
+
+  const cached = window.HOVER_CACHE[termName.toLowerCase()];
+  if (cached) {
+    renderHoverTooltipContent(termName, cached);
+    return;
+  }
+
+  hoverTooltipEl.innerHTML = `
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 70px;">
+      <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 20px; height: 20px; border-width: 2px;"></div>
+      <div style="font-size: 0.68rem; color: var(--accent); margin-top: 6px; font-family: var(--font-mono);">FETCHING PREVIEW</div>
+    </div>
+  `;
+
+  // Asynchronous background query
+  const queryPrompt = `Provide a very brief educational preview of the term "${termName}". Output strictly a JSON object with:
+  {
+    "definition": "<Clear, concise 1-2 sentence definition>",
+    "category": "<e.g., Biology, Defence Technology, Strategic Location, Ancient Indian History>",
+    "importance": "High/Medium/Low",
+    "frequency": "High/Medium/Low",
+    "difficulty": "Easy/Medium/Hard"
+  }
+  Ensure the response is strictly valid JSON only. Do not wrap in markdown fences. Keep language formal and emoji-free.`;
+
+  fetch('http://localhost:4000/api/gemini', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      model: 'gemini-2.5-flash',
+      contents: [{ parts: [{ text: queryPrompt }] }],
+      generationConfig: { response_mime_type: 'application/json', temperature: 0.1 }
+    })
+  }).then(res => res.json()).then(data => {
+    const rawText = data.candidates[0].content.parts[0].text;
+    const cleaned = rawText.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim();
+    const result = JSON.parse(cleaned);
+    window.HOVER_CACHE[termName.toLowerCase()] = result;
+    renderHoverTooltipContent(termName, result);
+  }).catch(err => {
+    console.error("Hover preview error:", err);
+    hoverTooltipEl.innerHTML = `
+      <div style="color: var(--text-muted); font-size: 0.75rem;">Preview unavailable for ${termName}</div>
+    `;
+  });
+}
+
+function renderHoverTooltipContent(termName, data) {
+  const getBadgeColor = (val) => {
+    if (val === 'High' || val === 'Hard') return 'background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3);';
+    if (val === 'Medium') return 'background: rgba(234, 179, 8, 0.15); color: #facc15; border: 1px solid rgba(234, 179, 8, 0.3);';
+    return 'background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3);';
+  };
+
+  hoverTooltipEl.innerHTML = `
+    <div style="font-weight: 700; color: var(--accent); margin-bottom: 6px; font-size: 0.88rem; text-transform: uppercase;">${termName}</div>
+    <div style="color: var(--text-muted); font-size: 0.68rem; margin-bottom: 8px; font-family: var(--font-mono);">${data.category}</div>
+    <div style="line-height: 1.4; color: var(--text-secondary); margin-bottom: 10px;">${data.definition}</div>
+    <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+      <span style="font-size: 0.65rem; font-weight: bold; padding: 2px 6px; border-radius: 4px; ${getBadgeColor(data.importance)}">IMP: ${data.importance}</span>
+      <span style="font-size: 0.65rem; font-weight: bold; padding: 2px 6px; border-radius: 4px; ${getBadgeColor(data.frequency)}">FREQ: ${data.frequency}</span>
+      <span style="font-size: 0.65rem; font-weight: bold; padding: 2px 6px; border-radius: 4px; ${getBadgeColor(data.difficulty)}">DIFF: ${data.difficulty}</span>
+    </div>
+  `;
+}
+
+function hideHoverTooltip() {
+  if (activeHoverTimeout) clearTimeout(activeHoverTimeout);
+  activeHoverTimeout = setTimeout(() => {
+    if (hoverTooltipEl) {
+      hoverTooltipEl.classList.remove('visible');
+    }
+  }, 300);
+}
+
+// Set up delegated hover listeners
+document.addEventListener('mouseover', (e) => {
+  const target = e.target.closest('.wiki-link, .formula-var');
+  if (target) {
+    const term = target.innerText || target.textContent;
+    if (term) {
+      if (activeHoverTimeout) clearTimeout(activeHoverTimeout);
+      activeHoverTimeout = setTimeout(() => {
+        showHoverTooltip(target, term.trim());
+      }, 250);
+    }
+  }
+});
+
+document.addEventListener('mouseout', (e) => {
+  const target = e.target.closest('.wiki-link, .formula-var');
+  if (target) {
+    hideHoverTooltip();
+  }
+});
+
+// 2. Ask Dronacharya Revision Console Implementation
 let doubtHistory = [];
 
-async function showDronacharyaQuickDoubt(topicName, pushToHistory = true) {
+async function showDronacharyaQuickDoubt(topicName, pushToHistory = true, contextText = "") {
   if (pushToHistory) {
     if (doubtHistory.length === 0 || doubtHistory[doubtHistory.length - 1] !== topicName) {
       doubtHistory.push(topicName);
@@ -192,15 +483,15 @@ async function showDronacharyaQuickDoubt(topicName, pushToHistory = true) {
     modal.style.display = 'flex';
   }
 
-  // Set default initial state
+  // Render initial loading state
   modal.innerHTML = `
     <div style="
       background: rgba(17, 24, 39, 0.95);
       border: 1px solid rgba(168, 85, 247, 0.2);
       border-radius: 12px;
       width: 90%;
-      max-width: 750px;
-      height: 80vh;
+      max-width: 850px;
+      height: 85vh;
       display: flex;
       flex-direction: column;
       box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7), 0 0 40px rgba(168, 85, 247, 0.1);
@@ -245,70 +536,71 @@ async function showDronacharyaQuickDoubt(topicName, pushToHistory = true) {
       
       <div style="flex: 1; display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 40px; text-align: center;">
         <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 40px; height: 40px; border-width: 3px; margin-bottom: 16px;"></div>
-        <div style="color: var(--accent); font-family: var(--font-mono); font-weight: bold; font-size: 0.9rem; letter-spacing: 1px;">DRONACHARYA IS ANALYZING CONCEPT</div>
-        <div style="color: var(--text-muted); font-size: 0.8rem; margin-top: 4px;">Retrieving primary official sources & structuring revision guidelines...</div>
+        <div style="color: var(--accent); font-family: var(--font-mono); font-weight: bold; font-size: 0.9rem; letter-spacing: 1px;">DRONACHARYA IS CONSTRUCTING KNOWLEDGE MATRIX [${currentDoubtLevel}]</div>
+        <div style="color: var(--text-muted); font-size: 0.8rem; margin-top: 4px;">Resolving context-aware terminology and dependencies...</div>
       </div>
     </div>
   `;
 
-  // Fetch the data
-  const prompt = `You are Dronacharya, the legendary military guru and expert tutor for Indian Defence Examinations (NDA, CDS, AFCAT, CAPF, UPSC). 
-Provide a comprehensive explanation for the concept: "${topicName}".
+  const cacheKey = `${topicName.toLowerCase()}_${currentDoubtLevel}`;
+  if (window.DRONACHARYA_CACHE[cacheKey]) {
+    renderDronacharyaModalContent(modal, topicName, window.DRONACHARYA_CACHE[cacheKey], contextText);
+    return;
+  }
+
+  // Generate Prompt satisfying all required fields (5 tabs)
+  const prompt = `You are Dronacharya, the legendary expert tutor for Indian Defence Examinations.
+Provide a comprehensive context-aware explanation for: "${topicName}" at explanation level: "${currentDoubtLevel}".
+The surrounding context text where this term was clicked is: "${contextText}". Correctly disambiguate the term if it has multiple meanings (e.g. "cell" in biology vs military vs technology).
+
 Generate your response as a valid JSON object matching this schema exactly:
 {
-  "quickExplanation": "<50-100 words explanation of what the concept is and why it matters. Keep it very clear and beginner-friendly.>",
-  "detailedExplanation": "<300-500 words deep-dive detailed explanation. Explain key mechanisms, background, and military/national context. Highlight critical points.>",
+  "quickDefinition": "<One clear sentence definition>",
+  "detailedExplanation": "<Detailed breakdown of the concept based on the level. Provide rich diagrams or structural points.>",
+  "whyItMatters": "<Practical and national/military significance of this concept>",
   "examRelevance": {
-    "NDA": "Very High/High/Medium/Low",
-    "CDS": "Very High/High/Medium/Low",
-    "AFCAT": "Very High/High/Medium/Low",
-    "UPSC": "Very High/High/Medium/Low",
-    "analysis": "<1-2 sentences on why this topic is tested in defence exams and what questions usually appear.>"
+    "NDA": "High/Medium/Low",
+    "CDS": "High/Medium/Low",
+    "AFCAT": "High/Medium/Low",
+    "UPSC": "High/Medium/Low",
+    "analysis": "<Specific analysis of topics tested in exams for this concept>"
   },
-  "conceptTree": {
-    "prerequisites": ["<Prerequisite Concept 1>", "<Prerequisite Concept 2>"],
-    "advancedTopics": ["<Advanced Topic 1>", "<Advanced Topic 2>"]
-  },
-  "relatedTopics": ["<Related Topic 1>", "<Related Topic 2>", "<Related Topic 3>", "<Related Topic 4>"],
+  "pyqs": [
+    {
+      "exam": "<Exam name e.g., CDS II 2024>",
+      "question": "<UPSC/Defence PYQ or premium simulated high-yield question>",
+      "options": ["<Option A>", "<Option B>", "<Option C>", "<Option D>"],
+      "correctIndex": 0,
+      "explanation": "<Explanation of why the option is correct>"
+    }
+  ],
+  "realWorldApplications": ["<Real-world application 1>", "<Real-world application 2>"],
+  "memoryTricks": ["<Mnemonic, shortcut or memory trick to remember key facts>"],
+  "commonMistakes": ["<Common mistake or conceptual gap related to this topic>"],
+  "visualExplanation": "<Structured ASCII, SVG, or Mermaid diagram representing the concept structure. Use newline \\n characters.>",
   "practiceQuestions": [
     {
-      "question": "<High-yield Prelims/CBT style question>",
-      "options": ["<A>", "<B>", "<C>", "<D>"],
-      "correctIndex": 0,
-      "explanation": "<Detailed feedback explaining why that option is correct.>"
-    },
-    {
-      "question": "<Second High-yield question>",
-      "options": ["<A>", "<B>", "<C>", "<D>"],
+      "question": "<Interactive practice question>",
+      "options": ["<Option A>", "<Option B>", "<Option C>", "<Option D>"],
       "correctIndex": 1,
-      "explanation": "<Explanation>"
-    },
-    {
-      "question": "<Third High-yield question>",
-      "options": ["<A>", "<B>", "<C>", "<D>"],
-      "correctIndex": 2,
-      "explanation": "<Explanation>"
+      "explanation": "<Detailed feedback explanation>"
     }
   ],
   "flashcards": [
     {
-      "front": "<Question or Term to recall 1>",
-      "back": "<Answer or definition 1>"
-    },
-    {
-      "front": "<Question or Term to recall 2>",
-      "back": "<Answer or definition 2>"
-    },
-    {
-      "front": "<Question or Term to recall 3>",
-      "back": "<Answer or definition 3>"
+      "front": "<Recall card front>",
+      "back": "<Recall card back>"
     }
-  ]
+  ],
+  "relations": {
+    "parent": ["<Parent Concept 1>", "<Parent Concept 2>"],
+    "child": ["<Subtopic 1>", "<Subtopic 2>"],
+    "sibling": ["<Related Sibling Concept 1>", "<Sibling 2>"],
+    "confused": ["<Frequently Confused Concept>"],
+    "opposite": ["<Contrasting or Opposite Concept>"]
+  }
 }
-
-- Keep the language professional, authoritative, and emoji-free.
-- Cover all military/defence aspects if applicable (e.g. if topic is related to defence tech, include weapons, operators, combat history).
-- Ensure the output is strictly valid JSON only. Do not wrap in markdown blocks like \`\`\`json.`;
+Keep language strictly formal, highly authoritative, and emoji-free. Return strictly the raw JSON without code block wrappers.`;
 
   try {
     const response = await fetch('http://localhost:4000/api/gemini', {
@@ -317,10 +609,7 @@ Generate your response as a valid JSON object matching this schema exactly:
       body: JSON.stringify({
         model: 'gemini-3-flash-preview',
         contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: {
-          response_mime_type: 'application/json',
-          temperature: 0.1
-        }
+        generationConfig: { response_mime_type: 'application/json', temperature: 0.1 }
       })
     });
 
@@ -330,13 +619,14 @@ Generate your response as a valid JSON object matching this schema exactly:
     const cleaned = resText.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim();
     const result = JSON.parse(cleaned);
     
-    renderDronacharyaModalContent(modal, topicName, result);
+    window.DRONACHARYA_CACHE[cacheKey] = result;
+    renderDronacharyaModalContent(modal, topicName, result, contextText);
   } catch (err) {
     console.error("Dronacharya doubt error:", err);
     modal.innerHTML = `
-      <div style="background: rgba(17, 24, 39, 0.95); border: 1px solid var(--danger); border-radius: 12px; width: 90%; max-width: 600px; padding: 24px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);">
-        <h3 style="color: var(--danger); margin-bottom: 12px;">Guru Uplink Interrupted</h3>
-        <p style="color: var(--text-secondary); margin-bottom: 20px;">Dronacharya is currently meditating or the tactical network is offline. ${err.message}</p>
+      <div style="background: rgba(17, 24, 39, 0.98); border: 1px solid var(--danger); border-radius: 12px; width: 90%; max-width: 600px; padding: 24px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7); text-align: center;">
+        <h3 style="color: var(--danger); margin-bottom: 12px;">Tactical Network Offline</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 20px;">Dronacharya uplink interrupted. ${err.message}</p>
         <button onclick="document.getElementById('dronacharya-quick-doubt-modal').style.display='none'" class="btn-primary">Acknowledge</button>
       </div>
     `;
@@ -345,21 +635,21 @@ Generate your response as a valid JSON object matching this schema exactly:
 
 function popDoubtHistory() {
   if (doubtHistory.length > 1) {
-    doubtHistory.pop(); // Pop current
-    const prev = doubtHistory.pop(); // Pop previous to reload it
+    doubtHistory.pop();
+    const prev = doubtHistory.pop();
     showDronacharyaQuickDoubt(prev, true);
   }
 }
 
-function renderDronacharyaModalContent(modal, topicName, data) {
+function renderDronacharyaModalContent(modal, topicName, data, contextText) {
   modal.innerHTML = `
     <div style="
       background: rgba(17, 24, 39, 0.98);
-      border: 1px solid rgba(168, 85, 247, 0.3);
+      border: 1px solid rgba(168, 85, 247, 0.35);
       border-radius: 12px;
       width: 92%;
-      max-width: 800px;
-      height: 82vh;
+      max-width: 850px;
+      height: 85vh;
       display: flex;
       flex-direction: column;
       box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 0 50px rgba(168, 85, 247, 0.15);
@@ -399,18 +689,18 @@ function renderDronacharyaModalContent(modal, topicName, data) {
         ">&times;</button>
       </div>
 
-      <!-- Tab bar -->
+      <!-- Tab bar (5 Tabs) -->
       <div id="dronacharya-tabs" style="
         display: flex;
         background: rgba(0,0,0,0.15);
         border-bottom: 1px solid rgba(255, 255, 255, 0.06);
         overflow-x: auto;
       ">
-        <button class="dron-tab active" data-tab="quick" style="flex: 1; padding: 12px 8px; border: none; border-bottom: 2px solid var(--accent); background: transparent; color: var(--text-primary); font-weight: 600; font-size: 0.82rem; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">Quick Info</button>
-        <button class="dron-tab" data-tab="detailed" style="flex: 1; padding: 12px 8px; border: none; border-bottom: 2px solid transparent; background: transparent; color: var(--text-muted); font-weight: 600; font-size: 0.82rem; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">Detailed Analysis</button>
-        <button class="dron-tab" data-tab="relevance" style="flex: 1; padding: 12px 8px; border: none; border-bottom: 2px solid transparent; background: transparent; color: var(--text-muted); font-weight: 600; font-size: 0.82rem; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">Exam Relevance</button>
-        <button class="dron-tab" data-tab="questions" style="flex: 1; padding: 12px 8px; border: none; border-bottom: 2px solid transparent; background: transparent; color: var(--text-muted); font-weight: 600; font-size: 0.82rem; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">Practice Qs</button>
-        <button class="dron-tab" data-tab="flashcards" style="flex: 1; padding: 12px 8px; border: none; border-bottom: 2px solid transparent; background: transparent; color: var(--text-muted); font-weight: 600; font-size: 0.82rem; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">Flashcards</button>
+        <button class="dron-tab active" data-tab="overview" style="flex: 1; padding: 12px 8px; border: none; border-bottom: 2px solid var(--accent); background: transparent; color: var(--text-primary); font-weight: 600; font-size: 0.8rem; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap;">Overview</button>
+        <button class="dron-tab" data-tab="exam" style="flex: 1; padding: 12px 8px; border: none; border-bottom: 2px solid transparent; background: transparent; color: var(--text-muted); font-weight: 600; font-size: 0.8rem; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap;">Exam & PYQs</button>
+        <button class="dron-tab" data-tab="visuals" style="flex: 1; padding: 12px 8px; border: none; border-bottom: 2px solid transparent; background: transparent; color: var(--text-muted); font-weight: 600; font-size: 0.8rem; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap;">Memory & Visuals</button>
+        <button class="dron-tab" data-tab="qna" style="flex: 1; padding: 12px 8px; border: none; border-bottom: 2px solid transparent; background: transparent; color: var(--text-muted); font-weight: 600; font-size: 0.8rem; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap;">Q&A & Flashcards</button>
+        <button class="dron-tab" data-tab="advanced" style="flex: 1; padding: 12px 8px; border: none; border-bottom: 2px solid transparent; background: transparent; color: var(--text-muted); font-weight: 600; font-size: 0.8rem; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap;">Advanced & Relations</button>
       </div>
 
       <!-- Tab Content Area -->
@@ -427,7 +717,7 @@ function renderDronacharyaModalContent(modal, topicName, data) {
         justify-content: space-between;
         align-items: center;
       ">
-        <span style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono);">SOURCE INTEGRITY: TIER 1 PIB & DEFENCE LAWS</span>
+        <span style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono);">SOURCE INTEGRITY: TIER 1 OFFICIAL INTEL</span>
         <button id="dronacharya-open-full-btn" class="btn-primary" style="padding: 6px 14px; font-size: 0.8rem; border-radius: 6px; font-weight: 600;">Open Full Topic Note</button>
       </div>
     </div>
@@ -442,11 +732,9 @@ function renderDronacharyaModalContent(modal, topicName, data) {
     backBtn.onclick = popDoubtHistory;
   }
 
-  // Handle Full Topic Note opening
+  // Handle Full Note Redirect
   fullBtn.onclick = () => {
     modal.style.display = 'none';
-    
-    // Check if we can find this topic in NOTES_DATABASE
     let foundSubjectId = null;
     let foundChapterId = null;
     let foundTopicId = null;
@@ -478,7 +766,7 @@ function renderDronacharyaModalContent(modal, topicName, data) {
         renderNotesBrowser();
       }
     } else {
-      // If not found, open AI Console and solve it
+      // Open AI Doubt solver
       if (typeof switchScreen === 'function') {
         switchScreen('ai-console');
       }
@@ -497,6 +785,7 @@ function renderDronacharyaModalContent(modal, topicName, data) {
     }
   };
 
+  // Tab Renderer switcher
   const switchTab = (tabName) => {
     tabs.forEach(t => {
       if (t.getAttribute('data-tab') === tabName) {
@@ -510,79 +799,87 @@ function renderDronacharyaModalContent(modal, topicName, data) {
       }
     });
 
-    if (tabName === 'quick') {
+    if (tabName === 'overview') {
       contentArea.innerHTML = `
-        <div style="font-size: 1.05rem; line-height: 1.8; color: var(--text-primary);">
-          ${parseWikiLinks(data.quickExplanation)}
-        </div>
-      `;
-    } else if (tabName === 'detailed') {
-      contentArea.innerHTML = `
-        <div style="font-size: 0.92rem; line-height: 1.75; color: var(--text-secondary);">
-          ${parseWikiLinks(data.detailedExplanation)}
-        </div>
-      `;
-    } else if (tabName === 'relevance') {
-      let treeHtml = "";
-      if (data.conceptTree) {
-        treeHtml = `
-          <div style="margin-top: 24px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.06);">
-            <h4 style="color: var(--accent); margin-bottom: 12px; font-size: 0.95rem;">Concept Tree Mapping</h4>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-              <div style="background: rgba(255,255,255,0.03); padding: 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.05);">
-                <div style="font-weight: bold; font-size: 0.78rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px;">Prerequisites</div>
-                <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-                  ${data.conceptTree.prerequisites.map(p => `<span style="font-size: 0.8rem; background: rgba(168,85,247,0.1); color: var(--accent); padding: 2px 8px; border-radius: 4px; border: 1px solid rgba(168,85,247,0.2); cursor: pointer;" onclick="showDronacharyaQuickDoubt('${p.replace(/'/g, "\\'")}', true)">${p}</span>`).join('')}
-                </div>
-              </div>
-              <div style="background: rgba(255,255,255,0.03); padding: 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.05);">
-                <div style="font-weight: bold; font-size: 0.78rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px;">Advanced Topics</div>
-                <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-                  ${data.conceptTree.advancedTopics.map(a => `<span style="font-size: 0.8rem; background: rgba(34,197,94,0.1); color: var(--success); padding: 2px 8px; border-radius: 4px; border: 1px solid rgba(34,197,94,0.2); cursor: pointer;" onclick="showDronacharyaQuickDoubt('${a.replace(/'/g, "\\'")}', true)">${a}</span>`).join('')}
-                </div>
-              </div>
-            </div>
+        <!-- Explanation Level Selector -->
+        <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; background: rgba(0,0,0,0.15); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+          <div style="font-size: 0.72rem; font-weight: bold; color: var(--accent); text-transform: uppercase; font-family: var(--font-mono);">Explanation Level Switcher</div>
+          <div style="display: flex; gap: 6px;">
+            <button class="level-btn ${currentDoubtLevel === 'L1' ? 'active' : ''}" data-lvl="L1">L1: Beginner</button>
+            <button class="level-btn ${currentDoubtLevel === 'L2' ? 'active' : ''}" data-lvl="L2">L2: School</button>
+            <button class="level-btn ${currentDoubtLevel === 'L3' ? 'active' : ''}" data-lvl="L3">L3: Exam</button>
+            <button class="level-btn ${currentDoubtLevel === 'L4' ? 'active' : ''}" data-lvl="L4">L4: University</button>
+            <button class="level-btn ${currentDoubtLevel === 'L5' ? 'active' : ''}" data-lvl="L5">L5: Expert</button>
           </div>
-        `;
-      }
+        </div>
 
-      contentArea.innerHTML = `
-        <div>
-          <h4 style="color: var(--accent); margin-bottom: 12px; font-size: 0.95rem;">Exam Importance Matrix</h4>
-          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px;">
-            <div style="background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.2); padding: 10px; border-radius: 6px; text-align: center;">
-              <div style="font-weight: bold; font-size: 0.75rem; color: #60a5fa; text-transform: uppercase;">NDA</div>
-              <div style="font-size: 1rem; font-weight: 700; margin-top: 4px; color: var(--text-primary);">${data.examRelevance.NDA}</div>
-            </div>
-            <div style="background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.2); padding: 10px; border-radius: 6px; text-align: center;">
-              <div style="font-weight: bold; font-size: 0.75rem; color: #4ade80; text-transform: uppercase;">CDS</div>
-              <div style="font-size: 1rem; font-weight: 700; margin-top: 4px; color: var(--text-primary);">${data.examRelevance.CDS}</div>
-            </div>
-            <div style="background: rgba(234,179,8,0.1); border: 1px solid rgba(234,179,8,0.2); padding: 10px; border-radius: 6px; text-align: center;">
-              <div style="font-weight: bold; font-size: 0.75rem; color: #facc15; text-transform: uppercase;">AFCAT</div>
-              <div style="font-size: 1rem; font-weight: 700; margin-top: 4px; color: var(--text-primary);">${data.examRelevance.AFCAT}</div>
-            </div>
-            <div style="background: rgba(249,115,22,0.1); border: 1px solid rgba(249,115,22,0.2); padding: 10px; border-radius: 6px; text-align: center;">
-              <div style="font-weight: bold; font-size: 0.75rem; color: #fb923c; text-transform: uppercase;">UPSC</div>
-              <div style="font-size: 1rem; font-weight: 700; margin-top: 4px; color: var(--text-primary);">${data.examRelevance.UPSC}</div>
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div>
+            <h4 style="color: var(--accent); margin-bottom: 6px; font-size: 0.95rem;">Quick Definition</h4>
+            <p style="font-size: 1.05rem; line-height: 1.6; color: var(--text-primary); font-weight: 500;">
+              ${parseWikiLinks(data.quickDefinition)}
+            </p>
+          </div>
+          <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 14px;">
+            <h4 style="color: var(--accent); margin-bottom: 6px; font-size: 0.95rem;">Detailed breakdown</h4>
+            <div style="font-size: 0.92rem; line-height: 1.75; color: var(--text-secondary);">
+              ${parseWikiLinks(data.detailedExplanation)}
             </div>
           </div>
-          <p style="font-size: 0.88rem; color: var(--text-secondary); background: rgba(0,0,0,0.12); padding: 12px; border-radius: 6px; border-left: 3px solid var(--accent); margin-bottom: 20px;">
-            <strong>Cadet Exam Note:</strong> ${data.examRelevance.analysis}
-          </p>
-          ${treeHtml}
+          <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 14px; background: rgba(168, 85, 247, 0.03); padding: 12px; border-radius: 6px; border-left: 3px solid var(--accent);">
+            <h4 style="color: var(--accent); margin-bottom: 4px; font-size: 0.95rem; margin-top: 0;">Why It Matters</h4>
+            <p style="font-size: 0.88rem; line-height: 1.6; color: var(--text-primary); margin: 0;">
+              ${parseWikiLinks(data.whyItMatters)}
+            </p>
+          </div>
         </div>
       `;
-    } else if (tabName === 'questions') {
+
+      // Bind Level buttons
+      contentArea.querySelectorAll('.level-btn').forEach(btn => {
+        btn.onclick = (e) => {
+          currentDoubtLevel = e.target.getAttribute('data-lvl');
+          showDronacharyaQuickDoubt(topicName, false, contextText);
+        };
+      });
+
+    } else if (tabName === 'exam') {
       contentArea.innerHTML = `
+        <h4 style="color: var(--accent); margin-bottom: 12px; font-size: 0.95rem;">Exam Importance matrix</h4>
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px;">
+          <div style="background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.2); padding: 10px; border-radius: 6px; text-align: center;">
+            <div style="font-weight: bold; font-size: 0.75rem; color: #60a5fa; text-transform: uppercase;">NDA</div>
+            <div style="font-size: 1rem; font-weight: 700; margin-top: 4px; color: var(--text-primary);">${data.examRelevance.NDA || 'Medium'}</div>
+          </div>
+          <div style="background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.2); padding: 10px; border-radius: 6px; text-align: center;">
+            <div style="font-weight: bold; font-size: 0.75rem; color: #4ade80; text-transform: uppercase;">CDS</div>
+            <div style="font-size: 1rem; font-weight: 700; margin-top: 4px; color: var(--text-primary);">${data.examRelevance.CDS || 'High'}</div>
+          </div>
+          <div style="background: rgba(234,179,8,0.1); border: 1px solid rgba(234,179,8,0.2); padding: 10px; border-radius: 6px; text-align: center;">
+            <div style="font-weight: bold; font-size: 0.75rem; color: #facc15; text-transform: uppercase;">AFCAT</div>
+            <div style="font-size: 1rem; font-weight: 700; margin-top: 4px; color: var(--text-primary);">${data.examRelevance.AFCAT || 'High'}</div>
+          </div>
+          <div style="background: rgba(249,115,22,0.1); border: 1px solid rgba(249,115,22,0.2); padding: 10px; border-radius: 6px; text-align: center;">
+            <div style="font-weight: bold; font-size: 0.75rem; color: #fb923c; text-transform: uppercase;">UPSC</div>
+            <div style="font-size: 1rem; font-weight: 700; margin-top: 4px; color: var(--text-primary);">${data.examRelevance.UPSC || 'High'}</div>
+          </div>
+        </div>
+        
+        <div style="font-size: 0.88rem; color: var(--text-secondary); background: rgba(0,0,0,0.12); padding: 12px; border-radius: 6px; border-left: 3px solid var(--accent); margin-bottom: 24px;">
+          <strong>Strategic Syllabus Relevance:</strong> ${data.examRelevance.analysis}
+        </div>
+
+        <h4 style="color: var(--accent); margin-bottom: 12px; font-size: 0.95rem;">Previous Year Questions (PYQs)</h4>
         <div style="display: flex; flex-direction: column; gap: 16px;">
-          <h4 style="color: var(--accent); margin: 0; font-size: 0.95rem;">Interactive Training Questions</h4>
-          ${data.practiceQuestions.map((q, idx) => `
+          ${(data.pyqs || []).map((q, idx) => `
             <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); padding: 16px; border-radius: 8px;">
-              <div style="font-weight: 600; margin-bottom: 10px; font-size: 0.9rem;">Q${idx+1}. ${q.question}</div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <span style="font-weight: bold; color: var(--accent); font-size: 0.8rem; text-transform: uppercase; font-family: var(--font-mono);">${q.exam || 'UPSC CDS'}</span>
+              </div>
+              <div style="font-weight: 600; margin-bottom: 10px; font-size: 0.9rem;">${q.question}</div>
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px;">
-                ${q.options.map((opt, oIdx) => `
-                  <button class="btn-option-${idx}-${oIdx}" onclick="checkQuickDoubtOption(${idx}, ${oIdx}, ${q.correctIndex})" style="
+                ${(q.options || []).map((opt, oIdx) => `
+                  <button class="btn-pyq-option-${idx}-${oIdx}" onclick="checkQuickDoubtOption('pyq-${idx}', ${oIdx}, ${q.correctIndex || 0})" style="
                     text-align: left;
                     padding: 8px 12px;
                     background: rgba(0, 0, 0, 0.2);
@@ -595,77 +892,283 @@ function renderDronacharyaModalContent(modal, topicName, data) {
                   ">${opt}</button>
                 `).join('')}
               </div>
-              <div id="qd-explanation-${idx}" style="display: none; font-size: 0.8rem; line-height: 1.5; color: var(--text-secondary); padding: 10px; background: rgba(0,0,0,0.15); border-radius: 5px; border-left: 2px solid var(--accent);">
+              <div id="qd-explanation-pyq-${idx}" style="display: none; font-size: 0.8rem; line-height: 1.5; color: var(--text-secondary); padding: 10px; background: rgba(0,0,0,0.15); border-radius: 5px; border-left: 2px solid var(--accent);">
                 <strong>Explanation:</strong> ${q.explanation}
               </div>
             </div>
           `).join('')}
         </div>
       `;
-    } else if (tabName === 'flashcards') {
+
+    } else if (tabName === 'visuals') {
       contentArea.innerHTML = `
         <div style="display: flex; flex-direction: column; gap: 16px;">
-          <h4 style="color: var(--accent); margin: 0; font-size: 0.95rem;">Rapid Recall Flashcards</h4>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;">
-            ${data.flashcards.map((f, idx) => `
-              <div onclick="flipQuickFlashcard(this)" style="
-                background: rgba(168, 85, 247, 0.05);
-                border: 1px solid rgba(168, 85, 247, 0.15);
-                border-radius: 8px;
-                height: 130px;
-                perspective: 1000px;
-                cursor: pointer;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                padding: 16px;
-                position: relative;
-                transition: transform 0.6s;
-                transform-style: preserve-3d;
-              ">
-                <div class="fc-front" style="
-                  backface-visibility: hidden;
-                  position: absolute;
-                  width: 100%;
-                  height: 100%;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  padding: 10px;
-                  color: var(--accent);
-                  font-weight: 600;
-                  font-size: 0.88rem;
-                ">
-                  ${f.front}
-                </div>
-                <div class="fc-back" style="
-                  backface-visibility: hidden;
-                  position: absolute;
-                  width: 100%;
-                  height: 100%;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  padding: 10px;
-                  color: var(--text-secondary);
-                  font-size: 0.82rem;
-                  transform: rotateY(180deg);
-                  background: rgba(0, 0, 0, 0.4);
-                  border-radius: 8px;
-                ">
-                  ${f.back}
-                </div>
-              </div>
-            `).join('')}
+          <div>
+            <h4 style="color: var(--accent); margin-bottom: 6px; font-size: 0.95rem;">Real-World Applications</h4>
+            <ul style="margin: 0; padding-left: 20px; font-size: 0.88rem; color: var(--text-secondary);">
+              ${(data.realWorldApplications || []).map(app => `<li style="margin-bottom: 4px;">${parseWikiLinks(app)}</li>`).join('')}
+            </ul>
+          </div>
+
+          <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 14px;">
+            <h4 style="color: var(--accent); margin-bottom: 6px; font-size: 0.95rem;">Memory Tricks & Mnemonics</h4>
+            <ul style="margin: 0; padding-left: 20px; font-size: 0.88rem; color: var(--text-secondary);">
+              ${(data.memoryTricks || []).map(trick => `<li style="margin-bottom: 4px; font-style: italic;">${parseWikiLinks(trick)}</li>`).join('')}
+            </ul>
+          </div>
+
+          <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 14px;">
+            <h4 style="color: var(--accent); margin-bottom: 6px; font-size: 0.95rem;">Common Mistakes & Conceptual Gaps</h4>
+            <ul style="margin: 0; padding-left: 20px; font-size: 0.88rem; color: var(--text-secondary);">
+              ${(data.commonMistakes || []).map(mistake => `<li style="margin-bottom: 4px;">${parseWikiLinks(mistake)}</li>`).join('')}
+            </ul>
+          </div>
+
+          <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 14px;">
+            <h4 style="color: var(--accent); margin-bottom: 6px; font-size: 0.95rem;">Visual Conceptual Diagram</h4>
+            <pre style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.08); padding: 12px; border-radius: 6px; font-family: monospace; font-size: 0.8rem; overflow-x: auto; color: #a855f7;">${data.visualExplanation || "No diagram available"}</pre>
           </div>
         </div>
       `;
+
+    } else if (tabName === 'qna') {
+      contentArea.innerHTML = `
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <!-- Practice Qs -->
+          <div>
+            <h4 style="color: var(--accent); margin-bottom: 12px; font-size: 0.95rem;">Interactive Practice Questions</h4>
+            <div style="display: flex; flex-direction: column; gap: 16px;">
+              ${(data.practiceQuestions || []).map((q, idx) => `
+                <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); padding: 16px; border-radius: 8px;">
+                  <div style="font-weight: 600; margin-bottom: 10px; font-size: 0.9rem;">Q${idx+1}. ${q.question}</div>
+                  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px;">
+                    ${(q.options || []).map((opt, oIdx) => `
+                      <button class="btn-option-${idx}-${oIdx}" onclick="checkQuickDoubtOption(${idx}, ${oIdx}, ${q.correctIndex || 0})" style="
+                        text-align: left;
+                        padding: 8px 12px;
+                        background: rgba(0, 0, 0, 0.2);
+                        border: 1px solid rgba(255, 255, 255, 0.08);
+                        color: var(--text-secondary);
+                        border-radius: 6px;
+                        cursor: pointer;
+                        font-size: 0.85rem;
+                        transition: all 0.2s ease;
+                      ">${opt}</button>
+                    `).join('')}
+                  </div>
+                  <div id="qd-explanation-${idx}" style="display: none; font-size: 0.8rem; line-height: 1.5; color: var(--text-secondary); padding: 10px; background: rgba(0,0,0,0.15); border-radius: 5px; border-left: 2px solid var(--accent);">
+                    <strong>Explanation:</strong> ${q.explanation}
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Flashcards -->
+          <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 14px;">
+            <h4 style="color: var(--accent); margin-bottom: 12px; font-size: 0.95rem;">Rapid Recall Flashcards</h4>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;">
+              ${(data.flashcards || []).map((f, idx) => `
+                <div onclick="flipQuickFlashcard(this)" style="
+                  background: rgba(168, 85, 247, 0.05);
+                  border: 1px solid rgba(168, 85, 247, 0.15);
+                  border-radius: 8px;
+                  height: 120px;
+                  perspective: 1000px;
+                  cursor: pointer;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  text-align: center;
+                  padding: 16px;
+                  position: relative;
+                  transition: transform 0.6s;
+                  transform-style: preserve-3d;
+                ">
+                  <div class="fc-front" style="
+                    backface-visibility: hidden;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px;
+                    color: var(--accent);
+                    font-weight: 600;
+                    font-size: 0.88rem;
+                  ">
+                    ${f.front}
+                  </div>
+                  <div class="fc-back" style="
+                    backface-visibility: hidden;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px;
+                    color: var(--text-secondary);
+                    font-size: 0.82rem;
+                    transform: rotateY(180deg);
+                    background: rgba(0, 0, 0, 0.4);
+                    border-radius: 8px;
+                  ">
+                    ${f.back}
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- AI Tutor Console -->
+          <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 14px; background: rgba(0,0,0,0.15); padding: 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.04);">
+            <h4 style="color: var(--accent); margin-bottom: 8px; font-size: 0.95rem; margin-top: 0;">Interactive AI Tutor Console</h4>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px;">
+              <button class="tutor-preset-btn level-btn" data-query="Explain this concept differently.">Explain Differently</button>
+              <button class="tutor-preset-btn level-btn" data-query="Explain this concept with Indian military examples.">Military Examples</button>
+              <button class="tutor-preset-btn level-btn" data-query="Explain this concept specifically for CDS exam importance.">For CDS</button>
+              <button class="tutor-preset-btn level-btn" data-query="Explain this concept like I am 10 years old.">Like I'm 10</button>
+              <button class="tutor-preset-btn level-btn" data-query="Give a clear real-world practical example of this concept.">Real-world Example</button>
+            </div>
+            <div id="ai-tutor-response-box" style="display: none; padding: 12px; background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.06); border-radius: 6px; font-size: 0.85rem; line-height: 1.6; color: var(--text-secondary);">
+              <!-- Tutor response loads here -->
+            </div>
+          </div>
+        </div>
+      `;
+
+      // Bind Tutor Presets
+      contentArea.querySelectorAll('.tutor-preset-btn').forEach(btn => {
+        btn.onclick = async (e) => {
+          const query = e.target.getAttribute('data-query');
+          const responseBox = contentArea.querySelector('#ai-tutor-response-box');
+          responseBox.style.display = 'block';
+          responseBox.innerHTML = `
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 14px; height: 14px; border-width: 2px;"></div>
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent);">GURU INSTRUCTING...</span>
+            </div>
+          `;
+          
+          const fullQuery = `Concept: "${topicName}". Context: "${contextText}". Level: "${currentDoubtLevel}". Request: "${query}"`;
+          try {
+            const apiRes = await fetch('http://localhost:4000/api/gemini', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                model: 'gemini-2.5-flash',
+                contents: [{ parts: [{ text: fullQuery }] }]
+              })
+            });
+            const resData = await apiRes.json();
+            const reply = resData.candidates[0].content.parts[0].text;
+            responseBox.innerHTML = parseWikiLinks(reply);
+          } catch(err) {
+            responseBox.innerHTML = `<span style="color: var(--danger);">Guru uplink failed: ${err.message}</span>`;
+          }
+        };
+      });
+
+    } else if (tabName === 'advanced') {
+      const rels = data.relations || { parent: [], child: [], sibling: [], confused: [], opposite: [] };
+      
+      contentArea.innerHTML = `
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div>
+            <h4 style="color: var(--accent); margin-bottom: 6px; font-size: 0.95rem;">Relationship Mapping</h4>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+              <div style="background: rgba(255,255,255,0.02); padding: 10px; border-radius: 6px;">
+                <span style="font-weight: bold; font-size: 0.72rem; color: #93c5fd; text-transform: uppercase;">Parent Concepts (Broader)</span>
+                <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+                  ${(rels.parent || []).map(p => `<span class="wiki-link" onclick="showDronacharyaQuickDoubt('${p.replace(/'/g, "\\'")}', true)">${p}</span>`).join('') || '<span style="color: var(--text-muted); font-size: 0.8rem;">None</span>'}
+                </div>
+              </div>
+              <div style="background: rgba(255,255,255,0.02); padding: 10px; border-radius: 6px;">
+                <span style="font-weight: bold; font-size: 0.72rem; color: #86efac; text-transform: uppercase;">Child Concepts (Subtopics)</span>
+                <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+                  ${(rels.child || []).map(c => `<span class="wiki-link" onclick="showDronacharyaQuickDoubt('${c.replace(/'/g, "\\'")}', true)">${c}</span>`).join('') || '<span style="color: var(--text-muted); font-size: 0.8rem;">None</span>'}
+                </div>
+              </div>
+              <div style="background: rgba(255,255,255,0.02); padding: 10px; border-radius: 6px;">
+                <span style="font-weight: bold; font-size: 0.72rem; color: #fef08a; text-transform: uppercase;">Sibling Concepts (Related)</span>
+                <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+                  ${(rels.sibling || []).map(s => `<span class="wiki-link" onclick="showDronacharyaQuickDoubt('${s.replace(/'/g, "\\'")}', true)">${s}</span>`).join('') || '<span style="color: var(--text-muted); font-size: 0.8rem;">None</span>'}
+                </div>
+              </div>
+              <div style="background: rgba(255,255,255,0.02); padding: 10px; border-radius: 6px;">
+                <span style="font-weight: bold; font-size: 0.72rem; color: #fca5a5; text-transform: uppercase;">Frequently Confused Concepts</span>
+                <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+                  ${(rels.confused || []).map(c => `<span class="wiki-link" onclick="showDronacharyaQuickDoubt('${c.replace(/'/g, "\\'")}', true)">${c}</span>`).join('') || '<span style="color: var(--text-muted); font-size: 0.8rem;">None</span>'}
+                </div>
+              </div>
+              <div style="background: rgba(255,255,255,0.02); padding: 10px; border-radius: 6px; grid-column: span 2;">
+                <span style="font-weight: bold; font-size: 0.72rem; color: #ffedd5; text-transform: uppercase;">Opposite / Contrasting Concepts</span>
+                <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+                  ${(rels.opposite || []).map(o => `<span class="wiki-link" onclick="showDronacharyaQuickDoubt('${o.replace(/'/g, "\\'")}', true)">${o}</span>`).join('') || '<span style="color: var(--text-muted); font-size: 0.8rem;">None</span>'}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Bubble Graph -->
+          <div>
+            <h4 style="color: var(--accent); margin: 0; font-size: 0.95rem;">Interactive Concept Relationship Graph</h4>
+            <div class="bubble-container" id="bubble-graph-area">
+              <!-- Rendered programmatically -->
+            </div>
+          </div>
+        </div>
+      `;
+
+      renderBubbleGraph(topicName, rels);
     }
-    
-    if (window.MathJax && typeof window.MathJax.typeset === 'function') {
-      window.MathJax.typeset();
-    }
+  };
+
+  // Render Interactive Bubble Relationship Graph
+  const renderBubbleGraph = (centerTopic, rels) => {
+    const area = document.getElementById('bubble-graph-area');
+    if (!area) return;
+
+    // Clear previous
+    area.innerHTML = '';
+
+    // Create central node
+    const centerNode = document.createElement('div');
+    centerNode.className = 'bubble-node bubble-center';
+    centerNode.innerText = centerTopic;
+    centerNode.style.top = '105px';
+    centerNode.style.left = 'calc(50% - 45px)';
+    area.appendChild(centerNode);
+
+    // Collect branching nodes
+    const branches = [];
+    if (rels.parent && rels.parent[0]) branches.push({ name: rels.parent[0], type: 'bubble-parent', relType: 'Parent' });
+    if (rels.child && rels.child[0]) branches.push({ name: rels.child[0], type: 'bubble-child', relType: 'Child' });
+    if (rels.sibling && rels.sibling[0]) branches.push({ name: rels.sibling[0], type: 'bubble-sibling', relType: 'Sibling' });
+    if (rels.confused && rels.confused[0]) branches.push({ name: rels.confused[0], type: 'bubble-confused', relType: 'Confused' });
+    if (rels.opposite && rels.opposite[0]) branches.push({ name: rels.opposite[0], type: 'bubble-opposite', relType: 'Opposite' });
+
+    // Setup coordinates relative to center
+    const angles = [0, 72, 144, 216, 288];
+    const distance = 110;
+
+    branches.forEach((b, i) => {
+      const angleRad = (angles[i] * Math.PI) / 180;
+      const x = Math.cos(angleRad) * distance + (area.clientWidth / 2) - 35;
+      const y = Math.sin(angleRad) * distance + 150 - 35;
+
+      const node = document.createElement('div');
+      node.className = `bubble-node bubble-relation ${b.type}`;
+      node.innerHTML = `<div style="font-size:0.6rem;opacity:0.75;text-transform:uppercase;">${b.relType}</div>${b.name}`;
+      node.style.left = `${x}px`;
+      node.style.top = `${y}px`;
+      node.onclick = () => {
+        showDronacharyaQuickDoubt(b.name, true, contextText);
+      };
+      area.appendChild(node);
+    });
   };
 
   // Bind tab click events
@@ -677,15 +1180,19 @@ function renderDronacharyaModalContent(modal, topicName, data) {
   });
 
   // Load initial tab
-  switchTab('quick');
+  switchTab('overview');
 }
 
-// Global helpers for interactive elements in Dronacharya popover
 window.checkQuickDoubtOption = function(qIdx, oIdx, correctIdx) {
   const container = document.getElementById(`qd-explanation-${qIdx}`);
-  const btns = document.querySelectorAll(`.btn-option-${qIdx}`);
+  const btns = document.querySelectorAll(`.btn-option-${qIdx}, .btn-pyq-option-${qIdx.replace('pyq-','')}-${oIdx}`);
   
-  btns.forEach((btn, idx) => {
+  // Handle both standard practice questions and PYQs
+  const targetBtns = qIdx.toString().startsWith('pyq-') 
+    ? document.querySelectorAll(`.btn-pyq-option-${qIdx.replace('pyq-','')}`)
+    : document.querySelectorAll(`.btn-option-${qIdx}`);
+
+  targetBtns.forEach((btn, idx) => {
     btn.disabled = true;
     if (idx === correctIdx) {
       btn.style.background = 'rgba(34, 197, 94, 0.15)';
@@ -698,8 +1205,9 @@ window.checkQuickDoubtOption = function(qIdx, oIdx, correctIdx) {
     }
   });
   
-  if (container) {
-    container.style.display = 'block';
+  const targetExplanation = document.getElementById(`qd-explanation-${qIdx}`);
+  if (targetExplanation) {
+    targetExplanation.style.display = 'block';
   }
 };
 
@@ -713,14 +1221,15 @@ window.flipQuickFlashcard = function(el) {
 
 window.popDoubtHistory = popDoubtHistory;
 window.showDronacharyaQuickDoubt = showDronacharyaQuickDoubt;
-
-function triggerDoubtExplain(topicName) {
-  showDronacharyaQuickDoubt(topicName, true);
-}
+window.triggerDoubtExplain = (topicName, element) => {
+  let contextText = "";
+  if (element && element.parentElement) {
+    contextText = element.parentElement.innerText || element.parentElement.textContent || "";
+  }
+  showDronacharyaQuickDoubt(topicName, true, contextText);
+};
 
 // 4. Expose functions to global context
 window.parseWikiLinks = parseWikiLinks;
-window.triggerDoubtExplain = triggerDoubtExplain;
 window.autoLinkConcepts = autoLinkConcepts;
 window.initializeGlossary = initializeGlossary;
-
