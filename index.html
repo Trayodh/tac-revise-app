@@ -53,9 +53,9 @@
         </div>
         <select id="countdown-exam-selector" style="width: 100%; padding: 6px; border-radius: 4px; background-color: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.8rem; font-family: var(--font-main); cursor: pointer; margin-bottom: 10px; outline: none;">
           <option value="auto">Nearest Exam (Auto)</option>
-          <option value="afcat">AFCAT 2 2026</option>
-          <option value="nda">NDA 2 2026</option>
-          <option value="cds">CDS 2 2026</option>
+          <option value="afcat">🔵 AFCAT 2 2026</option>
+          <option value="nda">⚪ NDA 2 2026</option>
+          <option value="cds">🟢 CDS 2 2026</option>
         </select>
         <div id="sidebar-countdown-timer" style="font-family: var(--font-mono); font-size: 1rem; font-weight: 600; color: var(--danger); letter-spacing: 0.5px; text-align: center; background: rgba(0,0,0,0.3); padding: 8px; border-radius: 6px; border: 1px dashed var(--border);">
           00d : 00h : 00m : 00s
@@ -92,25 +92,26 @@
           Notes & Formulas
         </a>
 
+
         <a class="nav-item" data-screen="current-affairs">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 17.75V6.75A2.25 2.25 0 0 1 5.25 4.5h10.5a2.25 2.25 0 0 1 2.25 2.25v.75m-3 3h3" />
           </svg>
-          Current Affairs
+          Daily Intel Briefing
         </a>
 
         <a class="nav-item" data-screen="cbt-mock-hub">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.375M9 18h3.375m1.875-12h7.5M20.25 6H12m1.875 3h7.5M20.25 9H12m-9.75 9.75c0 .414.336.75.75.75h16.5a.75.75 0 0 0 .75-.75V6.75A.75.75 0 0 0 19.5 6H4.5a.75.75 0 0 0-.75.75v12.75Z" />
           </svg>
-          CBT Practice & PYQs
+          Training Simulations
         </a>
 
         <a class="nav-item" data-screen="ai-console">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 21l-.813-5.096L3 15l5.187-.813L9 9l.813 5.187L15 15l-5.187.813ZM18.25 5.25 18 8l-.25-2.75L15 5l2.75-.25L18 2l.25 2.75L21 5l-2.75.25ZM14.25 11.25l-.25 2.75-.25-2.75L11 11l2.75-.25.25-2.75.25 2.75L17 11l-2.75.25Z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 21l-.813-5.096L3 15l5.187-.813L9 9l.813 5.187L15 15l-5.187.813ZM18.25 5.25 18 8l-.25-2.75L15 5l2.75-.25L18 2l.25 2.75L21 5l-2.75.25ZM14.25 11.25l-.25 2.75-.25-2.75L11 11l2.75-.25.25-2.75.25 2.75L17 11l-2.75.25ZM14.25 11.25l-.25 2.75-.25-2.75L11 11l2.75-.25.25-2.75.25 2.75L17 11l-2.75.25Z" />
           </svg>
-          AI Revision Console
+          Ask Dronacharya
         </a>
 
         <a class="nav-item" data-screen="paper-solver">
@@ -126,6 +127,7 @@
           </svg>
           English Vocab Builder
         </a>
+
       </nav>
 
 
@@ -147,6 +149,55 @@
       <section id="screen-dashboard" class="screen active">
         <h1>Command Centre</h1>
         <p class="subtitle">Operational readiness and revision stats</p>
+
+        <!-- Motivation Of The Day Panel -->
+        <div class="panel glow" style="margin-bottom: 24px; border: 2px solid var(--accent); border-left: 6px solid var(--accent); background: linear-gradient(135deg, rgba(0,0,0,0.25) 0%, rgba(34, 197, 94, 0.08) 100%); box-shadow: 0 0 25px rgba(34, 197, 94, 0.35);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 10px;">
+            <div class="panel-title" style="margin-bottom: 0;">Motivation Of The Day: Tales of Bravery</div>
+            <span id="motivation-date" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 4px 8px; border-radius: 4px;"></span>
+          </div>
+          
+          <div id="motivation-content">
+            <h3 id="motivation-hero" style="color: var(--accent); font-size: 1.1rem; margin-bottom: 4px;"></h3>
+            <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px; font-weight: 500; font-family: var(--font-logo);">
+              <span id="motivation-award" style="color: #f59e0b; margin-right: 12px;"></span>
+              <span id="motivation-unit" style="margin-right: 12px;"></span>
+              <span id="motivation-year"></span>
+            </div>
+            <p id="motivation-story" style="font-style: italic; color: var(--text-primary); line-height: 1.6; font-size: 0.95rem; margin-bottom: 16px; border-left: 2px solid rgba(255,255,255,0.1); padding-left: 12px;"></p>
+          </div>
+          
+          <div style="display: flex; gap: 12px;">
+            <button class="btn-primary" onclick="showNextMotivation()" style="width: auto; font-size: 0.8rem; padding: 6px 16px;">Read Another Tale</button>
+          </div>
+        </div>
+
+        <!-- Medals & Achievements HUD Panel -->
+        <div class="panel glow hud-panel radar-container" style="margin-bottom: 24px;">
+          <div class="panel-title" style="margin-bottom: 12px; color: var(--accent); font-family: var(--font-logo); position: relative; z-index: 2;">
+            <span>TACTICAL MEDALS & ACHIEVEMENTS</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 16px; position: relative; z-index: 2;">
+            Unlock Peacetime and Wartime commendations by completing syllabus targets, maintaining streaks, and scoring high in CBT practice.
+          </p>
+          <div class="medals-grid" id="dashboard-medals-grid" style="position: relative; z-index: 2;">
+            <!-- Dynamic medal badges injected via JS -->
+          </div>
+        </div>
+
+        <!-- Weekly Study Planner & Mission Scheduler Panel -->
+        <div class="panel glow" style="margin-bottom: 24px; border-left: 4px solid var(--accent); background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(34, 197, 94, 0.03) 100%);">
+          <div class="panel-title" style="margin-bottom: 12px; display:flex; justify-content:space-between; align-items:center;">
+            <span>WEEKLY MISSION SCHEDULER &amp; PLANNER</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">LOCAL DATA PERSISTENT</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 16px;">
+            Assign military-style daily study targets to schedule your revision. Click any day to edit target.
+          </p>
+          <div id="weekly-planner-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px;">
+            <!-- Rendered dynamically via JS -->
+          </div>
+        </div>
 
         <!-- Summary Stats Grid -->
         <div class="grid-cols-4">
@@ -218,15 +269,14 @@
             </div>
           </div>
 
-          <!-- Weakness Heatmap -->
+          <!-- Syllabus Mastery Heatmap -->
           <div class="panel">
-            <div class="panel-title">Weakness Heatmap</div>
+            <div class="panel-title">Syllabus Mastery Heatmap</div>
             <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">
-              Topics where your error rate is highest based on past CBT performance.
+              Real-time progress tracker mapping coverage and mastery across core subjects.
             </p>
-            <div id="dashboard-weakness-heatmap" style="display: flex; flex-wrap: wrap; gap: 8px;">
-              <!-- Dynamic weakness items injected via app.js -->
-              <p style="color:var(--text-muted); font-size: 0.9rem;">No weakness data available yet.</p>
+            <div id="dashboard-mastery-heatmap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 8px;">
+              <!-- Dynamic subject mastery blocks injected via JS -->
             </div>
           </div>
         </div>
@@ -247,36 +297,46 @@
           </div>
         </div>
 
-        <!-- Motivation Of The Day Panel -->
-        <div class="panel glow" style="margin-bottom: 24px; border-left: 4px solid var(--accent); background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(22, 163, 74, 0.05) 100%);">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 10px;">
-            <div class="panel-title" style="margin-bottom: 0;">Motivation Of The Day: Tales of Bravery</div>
-            <span id="motivation-date" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 4px 8px; border-radius: 4px;"></span>
-          </div>
-          
-          <div id="motivation-content">
-            <h3 id="motivation-hero" style="color: var(--accent); font-size: 1.1rem; margin-bottom: 4px;"></h3>
-            <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px; font-weight: 500; font-family: var(--font-logo);">
-              <span id="motivation-award" style="color: #f59e0b; margin-right: 12px;"></span>
-              <span id="motivation-unit" style="margin-right: 12px;"></span>
-              <span id="motivation-year"></span>
+        <!-- Custom Study Target Generator Panel -->
+        <div class="panel glow" style="margin-bottom: 24px; border-left: 4px solid var(--accent); background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(34,197,94,0.03) 100%);">
+          <div class="panel-title">Custom Study Target Generator</div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 16px;">
+            Set your available study hours and select your target subject to generate a structured, military-style revision breakdown.
+          </p>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; align-items: flex-end;">
+            <div style="display: flex; flex-direction: column; gap: 6px; flex: 1; min-width: 150px;">
+              <label style="font-size: 0.75rem; font-weight: 700; color: var(--accent); letter-spacing: 0.5px;">AVAILABLE HOURS</label>
+              <input type="number" id="target-hours-input" min="1" max="24" value="4" style="padding: 10px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.85rem; outline: none;">
             </div>
-            <p id="motivation-story" style="font-style: italic; color: var(--text-primary); line-height: 1.6; font-size: 0.95rem; margin-bottom: 16px; border-left: 2px solid rgba(255,255,255,0.1); padding-left: 12px;"></p>
+            <div style="display: flex; flex-direction: column; gap: 6px; flex: 1.5; min-width: 200px;">
+              <label style="font-size: 0.75rem; font-weight: 700; color: var(--accent); letter-spacing: 0.5px;">TARGET SUBJECT</label>
+              <select id="target-subject-select" style="padding: 10px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.85rem; outline: none; cursor: pointer;">
+                <option value="mathematics">Mathematics (NDA/CDS)</option>
+                <option value="polity">Polity (CDS/NDA)</option>
+                <option value="history">History (CDS/NDA)</option>
+                <option value="geography">Geography (CDS/NDA)</option>
+                <option value="economics">Economics (CDS/NDA)</option>
+                <option value="physics">Physics (NDA/CDS)</option>
+                <option value="chemistry">Chemistry (NDA/CDS)</option>
+                <option value="biology">Biology (NDA/CDS)</option>
+                <option value="english">English (NDA/CDS/AFCAT)</option>
+              </select>
+            </div>
+            <button class="btn-primary" onclick="generateCustomTargets()" style="width: auto; padding: 10px 24px;">Generate Targets</button>
           </div>
-          
-          <div style="display: flex; gap: 12px;">
-            <button class="btn-primary" onclick="showNextMotivation()" style="width: auto; font-size: 0.8rem; padding: 6px 16px;">Read Another Tale</button>
+          <div class="ai-response-area" id="custom-targets-output" style="display: none; margin-top: 16px; padding: 16px; background: rgba(0,0,0,0.4); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+            <!-- AI Targets generated here -->
           </div>
         </div>
 
         <!-- Monthly current affairs reminder -->
         <div class="panel glow" style="margin-bottom: 32px;">
-          <div class="panel-title">Current Affairs - Operational Review</div>
+          <div class="panel-title">Daily Intel Briefing - Operational Review</div>
           <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
             <p style="color: var(--text-secondary); font-size: 0.95rem; max-width: 700px;">
               Review high-yield monthly news cards curated with key facts that are frequently tested in NDA, CDS, and AFCAT exams. <strong>Note:</strong> Monthly database is kept strictly local and wipes clean annually.
             </p>
-            <button class="btn-primary" onclick="switchScreen('current-affairs')" style="width: auto; padding-left: 24px; padding-right: 24px;">Check Current Affairs</button>
+            <button class="btn-primary" onclick="switchScreen('current-affairs')" style="width: auto; padding-left: 24px; padding-right: 24px;">Check Daily Intel Briefing</button>
           </div>
         </div>
       </section>
@@ -311,6 +371,12 @@
               </svg>
               <input type="text" id="notes-search-input" placeholder="Search concepts, chapters...">
             </div>
+            <div style="display: flex; gap: 6px; padding: 0 16px 10px 16px; border-bottom: 1px solid var(--border); margin-bottom: 8px;">
+              <button class="exam-tag-filter active" data-exam-tag="all" style="flex:1; padding: 5px; border: 1px solid var(--border); background: rgba(255,255,255,0.05); color: var(--text-primary); border-radius: 4px; font-size: 0.7rem; font-family: var(--font-mono); cursor: pointer; text-align: center; transition: all 0.2s ease;">ALL</button>
+              <button class="exam-tag-filter" data-exam-tag="NDA" style="flex:1; padding: 5px; border: 1px solid rgba(239, 68, 68, 0.3); background: transparent; color: #ef4444; border-radius: 4px; font-size: 0.7rem; font-family: var(--font-mono); cursor: pointer; text-align: center; transition: all 0.2s ease;">NDA</button>
+              <button class="exam-tag-filter" data-exam-tag="CDS" style="flex:1; padding: 5px; border: 1px solid rgba(135, 169, 107, 0.3); background: transparent; color: #87a96b; border-radius: 4px; font-size: 0.7rem; font-family: var(--font-mono); cursor: pointer; text-align: center; transition: all 0.2s ease;">CDS</button>
+              <button class="exam-tag-filter" data-exam-tag="AFCAT" style="flex:1; padding: 5px; border: 1px solid rgba(56, 189, 248, 0.3); background: transparent; color: #38bdf8; border-radius: 4px; font-size: 0.7rem; font-family: var(--font-mono); cursor: pointer; text-align: center; transition: all 0.2s ease;">AFCAT</button>
+            </div>
             <div id="notes-accordion-list" style="overflow-y: auto; flex: 1; padding-right: 4px;">
               <!-- Dynamic compilation of Subject -> Chapter -> Topic -->
             </div>
@@ -327,12 +393,12 @@
         </div>
       </section>
 
-      <!-- SCREEN: CURRENT AFFAIRS -->
+      <!-- SCREEN: DAILY INTEL BRIEFING -->
       <section id="screen-current-affairs" class="screen">
-        <h1>Current Affairs Hub</h1>
+        <h1>Daily Intel Briefing Hub</h1>
         <p class="subtitle">High-yield pointers, monthly MCQ checks, and consolidated bilateral visit trackers</p>
         
-        <!-- Tab selector for Current Affairs Hub -->
+        <!-- Tab selector for Daily Intel Briefing Hub -->
         <div style="display: flex; gap: 12px; margin-top: 16px; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 12px;">
           <button class="exam-btn active" id="btn-ca-mode-monthly" onclick="toggleCurrentAffairsMode('monthly')">Monthly Feed</button>
           <button class="exam-btn" id="btn-ca-mode-visits" onclick="toggleCurrentAffairsMode('visits')">PM Visits & Bilateral Deals</button>
@@ -386,9 +452,9 @@
         </div>
       </section>
 
-      <!-- SCREEN: CBT MOCK TEST HUB -->
+      <!-- SCREEN: TRAINING SIMULATIONS -->
       <section id="screen-cbt-mock-hub" class="screen">
-        <h1>CBT Practice Hub</h1>
+        <h1>Training Simulations Hub</h1>
         <p class="subtitle">Prepare in real Computer-Based Test (CBT) environment using official marking patterns and timers</p>
 
         <!-- PYQ Semantic Search Widget -->
@@ -423,10 +489,10 @@
         </div>
       </section>
 
-      <!-- SCREEN: AI REVISION CONSOLE -->
+      <!-- SCREEN: ASK DRONACHARYA -->
       <section id="screen-ai-console" class="screen">
-        <h1>AI Revision Console</h1>
-        <p class="subtitle">Generate targeted MCQ question sets or get comprehensive topic explanations powered by Gemini AI — completely free</p>
+        <h1>Ask Dronacharya</h1>
+        <p class="subtitle">Generate targeted MCQ question sets or get comprehensive topic explanations powered by Dronacharya AI — completely free</p>
         
         <div class="ai-console">
           <div class="panel">
@@ -636,6 +702,8 @@
         </div>
       </section>
 
+
+
     </main>
   </div>
 
@@ -643,6 +711,13 @@
   <div class="cbt-overlay" id="cbt-player-overlay" style="display: none;">
     <div class="cbt-header">
       <div class="cbt-exam-title" id="cbt-active-title">NDA MATHEMATICS MOCK PAPER 1</div>
+      <div style="display: flex; align-items: center; gap: 8px; margin-left: auto; margin-right: 24px;">
+        <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); font-weight: bold; letter-spacing: 0.5px;">AUDIO COCKPIT HUD</span>
+        <label class="switch">
+          <input type="checkbox" id="cbt-audio-hud-toggle" onchange="toggleAudioHud(this.checked)">
+          <span class="slider round"></span>
+        </label>
+      </div>
       <div class="cbt-timer" id="cbt-active-timer">00:00:00</div>
     </div>
     
@@ -668,6 +743,7 @@
           <div style="display: flex; gap: 8px;">
             <button class="action-btn" id="cbt-btn-clear">Clear Responsesnse</button>
             <button class="action-btn" id="cbt-btn-mark-review"> Mark for Review</button>
+            <button class="action-btn" id="cbt-btn-scratchpad" onclick="toggleScratchpad()">Scratchpad</button>
           </div>
           <button class="btn-primary" id="cbt-btn-save-next" style="width: auto; padding-left: 24px; padding-right: 24px;">Save & Next →️</button>
         </div>
@@ -710,6 +786,24 @@
           <button class="btn-warning" id="cbt-btn-submit-exam">Submit Exam</button>
         </div>
       </aside>
+    </div>
+
+    <!-- Floating Canvas Scratchpad -->
+    <div id="cbt-scratchpad-container" style="display: none; position: absolute; top: 120px; right: 20px; width: 420px; height: 380px; background: rgba(10, 15, 10, 0.95); border: 2px solid var(--accent); border-radius: 8px; z-index: 100; box-shadow: 0 0 20px rgba(132, 204, 22, 0.4); flex-direction: column;">
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; border-bottom: 1px solid var(--border); background: rgba(0,0,0,0.6);">
+        <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent); font-weight: bold; letter-spacing: 0.5px;">TACTICAL SCRATCHPAD</span>
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <span style="font-size: 0.7rem; color: var(--text-secondary);">Size:</span>
+          <select id="scratchpad-size" style="background: rgba(0,0,0,0.5); color: white; border: 1px solid var(--border); font-size: 0.7rem; border-radius: 3px; cursor: pointer; padding: 2px;">
+            <option value="2">2px</option>
+            <option value="4" selected>4px</option>
+            <option value="6">6px</option>
+          </select>
+          <button onclick="clearScratchpad()" style="padding: 3px 10px; background: var(--danger); color: white; border: none; border-radius: 4px; font-size: 0.75rem; cursor: pointer; font-weight: bold;">Clear</button>
+          <button onclick="toggleScratchpad()" style="padding: 3px 10px; background: #475569; color: white; border: none; border-radius: 4px; font-size: 0.75rem; cursor: pointer; font-weight: bold;">Close</button>
+        </div>
+      </div>
+      <canvas id="cbt-scratchpad-canvas" style="flex: 1; cursor: crosshair; background: transparent;"></canvas>
     </div>
   </div>
 
@@ -771,10 +865,10 @@
       </div>
     </div>
   </div>
-  <!-- AI DOUBT-SOLVING CHATBOT DRAWER -->
+  <!-- AI DRONACHARYA CHATBOT DRAWER -->
   <div class="ai-chatbot-launcher" id="chatbot-launcher" onclick="toggleChatbot()">
     <span class="launcher-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
-    <span class="launcher-text">Ask Doubt AI</span>
+    <span class="launcher-text">Ask Dronacharya AI</span>
   </div>
 
   <div class="ai-chatbot-drawer" id="chatbot-drawer">
@@ -782,8 +876,8 @@
       <div style="display: flex; align-items: center; gap: 8px;">
         <span style="font-size: 1.4rem;">TAC</span>
         <div>
-          <div class="chatbot-title">Doubt-Solving AI</div>
-          <div class="chatbot-subtitle">Expert Defence Exam Tutor</div>
+          <div class="chatbot-title">Ask Dronacharya AI</div>
+          <div class="chatbot-subtitle">Dronacharya</div>
         </div>
       </div>
       <button class="chatbot-close-btn" onclick="toggleChatbot()">&times;</button>
@@ -791,7 +885,7 @@
     
     <div class="chatbot-messages" id="chatbot-messages-container">
       <div class="chat-message system">
-        Hello Cadet! I am your AI Doubt Solver. Ask me any conceptual doubt about NDA Mathematics, CDS General Knowledge, or AFCAT Aptitude, and I will explain it in detail!
+        Hello Cadet! I am Dronacharya, your AI guide. Ask me any conceptual doubt about NDA Mathematics, CDS General Knowledge, or AFCAT Aptitude, and I will explain it in detail!
       </div>
     </div>
     
@@ -813,58 +907,50 @@
       
       <div style="display: flex; flex-direction: column; gap: 12px;">
         <button class="exam-btn" onclick="applyTheme('default')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
-          <span>Tangerine & Oceanic Blue</span>
+          <span>Oceanic Guard (Default)</span>
           <div style="display: flex; gap: 4px;">
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #f97316;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #344e41;"></div>
             <div style="width: 16px; height: 16px; border-radius: 50%; background: #0ea5e9;"></div>
           </div>
         </button>
-        
-        <button class="exam-btn" onclick="applyTheme('cyberpunk')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
-          <span>Neon Cyberpunk</span>
+
+        <button class="exam-btn" onclick="applyTheme('woodland-camo')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Woodland Camo (Army)</span>
           <div style="display: flex; gap: 4px;">
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #ec4899;"></div>
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #06b6d4;"></div>
-          </div>
-        </button>
-        
-        <button class="exam-btn" onclick="applyTheme('tactical')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
-          <span>Tactical Olive</span>
-          <div style="display: flex; gap: 4px;">
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #84cc16;"></div>
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #eab308;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #242f22; border: 1px solid #84cc16;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #84cc16; border: 1px solid #242f22;"></div>
           </div>
         </button>
 
-        <button class="exam-btn" onclick="applyTheme('amethyst')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
-          <span>Royal Amethyst</span>
+        <button class="exam-btn" onclick="applyTheme('desert-camo')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Desert Camo (Infantry)</span>
           <div style="display: flex; gap: 4px;">
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #a855f7;"></div>
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #10b981;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #362d25; border: 1px solid #d97706;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #d97706; border: 1px solid #362d25;"></div>
           </div>
         </button>
 
-        <button class="exam-btn" onclick="applyTheme('crimson')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
-          <span>Crimson Force</span>
+        <button class="exam-btn" onclick="applyTheme('urban-camo')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Urban Camo (Special Ops)</span>
           <div style="display: flex; gap: 4px;">
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #dc2626;"></div>
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #6366f1;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #1b1e24; border: 1px solid #cbd5e1;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #cbd5e1; border: 1px solid #1b1e24;"></div>
           </div>
         </button>
 
-        <button class="exam-btn" onclick="applyTheme('monochrome')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
-          <span>Monochrome Noir</span>
+        <button class="exam-btn" onclick="applyTheme('arctic-camo')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Arctic Camo (Alpine)</span>
           <div style="display: flex; gap: 4px;">
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #000000; border: 1px solid #ffffff;"></div>
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #ffffff; border: 1px solid #000000;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #1e293b; border: 1px solid #38bdf8;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #38bdf8; border: 1px solid #1e293b;"></div>
           </div>
         </button>
 
-        <button class="exam-btn" onclick="applyTheme('vanguard-stealth')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
-          <span>Vanguard Stealth (Military)</span>
+        <button class="exam-btn" onclick="applyTheme('navy-camo')" style="display: flex; align-items: center; justify-content: space-between; text-align: left;">
+          <span>Navy Camo (Fleet)</span>
           <div style="display: flex; gap: 4px;">
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #12170f; border: 1px solid #84cc16;"></div>
-            <div style="width: 16px; height: 16px; border-radius: 50%; background: #84cc16; border: 1px solid #12170f;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #0f1d35; border: 1px solid #0ea5e9;"></div>
+            <div style="width: 16px; height: 16px; border-radius: 50%; background: #0ea5e9; border: 1px solid #0f1d35;"></div>
           </div>
         </button>
 
@@ -969,6 +1055,45 @@
     </div>
   </div>
 
+  <!-- SPACED REPETITION (SRS) REVIEW MODAL -->
+  <div class="cbt-overlay" id="srs-review-modal" style="display: none; align-items: center; justify-content: center; z-index: 1000;">
+    <div class="panel srs-modal-panel" style="max-width: 600px; width: 100%; padding: 28px; display: flex; flex-direction: column; gap: 20px; border: 2px solid var(--warning); box-shadow: 0 0 25px rgba(245, 158, 11, 0.25);">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span style="font-size: 1.5rem;">🧠</span>
+          <h2 style="margin: 0; color: var(--warning); font-family: var(--font-logo); font-size: 1.3rem; letter-spacing: 0.5px;">TACTICAL MEMORY DECK</h2>
+        </div>
+        <span id="srs-progress" style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 4px 8px; border-radius: 4px;">0 / 0</span>
+      </div>
+      
+      <div class="srs-card" style="background: rgba(0,0,0,0.3); border: 1px solid var(--border); border-radius: 8px; padding: 20px; min-height: 180px; display: flex; flex-direction: column; justify-content: center; position: relative;">
+        <span id="srs-topic-label" style="position: absolute; top: 12px; left: 16px; font-family: var(--font-mono); font-size: 0.65rem; font-weight: 700; color: var(--warning); text-transform: uppercase; letter-spacing: 1px; background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.2); padding: 2px 8px; border-radius: 3px;">TOPIC</span>
+        <div id="srs-question-text" style="font-size: 1.05rem; line-height: 1.6; color: var(--text-primary); text-align: center; margin-top: 15px;">Question Text</div>
+        
+        <div id="srs-answer-container" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px dashed rgba(255,255,255,0.1); text-align: center;">
+          <div style="font-family: var(--font-mono); font-size: 0.65rem; font-weight: 700; color: var(--success); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Memory Key</div>
+          <div id="srs-answer-text" style="font-size: 0.95rem; line-height: 1.55; color: var(--text-secondary);">Answer Text</div>
+        </div>
+      </div>
+      
+      <!-- Reveal controls -->
+      <div id="srs-controls-reveal" style="text-align: center;">
+        <button class="btn-primary" onclick="revealSrsAnswer()" style="background: var(--warning); border-color: var(--warning); padding: 12px 36px; font-weight: 600; width: 100%;">REVEAL MEMORY KEY</button>
+      </div>
+      
+      <!-- Grading controls (hidden initially) -->
+      <div id="srs-controls-grade" style="display: none; gap: 8px; justify-content: space-between;">
+        <button class="btn-secondary" onclick="gradeSrsItem(1)" style="flex: 1; border-color: #ef4444; color: #ef4444; background: rgba(239, 68, 68, 0.08); padding: 10px 0;">🔴 Forgot</button>
+        <button class="btn-secondary" onclick="gradeSrsItem(3)" style="flex: 1; border-color: #f59e0b; color: #f59e0b; background: rgba(245, 158, 11, 0.08); padding: 10px 0;">🟡 Hard</button>
+        <button class="btn-secondary" onclick="gradeSrsItem(5)" style="flex: 1; border-color: #10b981; color: #10b981; background: rgba(16, 185, 129, 0.08); padding: 10px 0;">🟢 Easy</button>
+      </div>
+      
+      <div style="text-align: center;">
+        <span style="font-size: 0.8rem; color: var(--text-muted); cursor: pointer; text-decoration: underline;" onclick="document.getElementById('srs-review-modal').style.display='none'">Abort Mission (Close)</span>
+      </div>
+    </div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="supabase_client.js"></script>
   <script src="notes_extra.js?v=4"></script>
@@ -1000,6 +1125,7 @@
   <script src="syllabus_data.js"></script>
   <script src="ca_data.js"></script>
   <script src="data.js?v=6"></script>
+  <script src="wiki_links.js"></script>
   <script src="app.js?v=21"></script>
   <script src="auth_logic.js"></script>
   <script src="notifications_bundle.js"></script>

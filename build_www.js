@@ -21,6 +21,7 @@ const filesToCopy = [
   'pyq_trends.json',
   'sarvamai.bundle.js',
   'sarvam_browser.js',
+  'wiki_links.js',
 ];
 
 const patternsToCopy = [

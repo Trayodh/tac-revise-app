@@ -76,6 +76,7 @@ let selectedChapterId = null;
 let selectedTopicId = null;
 let activeNotesTab = 'notes'; // 'notes' | 'formulas' | 'mindmap'
 let notesSearchQuery = '';
+let currentExamTagFilter = 'all'; // 'all' | 'NDA' | 'CDS' | 'AFCAT'
 let distractionFreeMode = false;
 
 function updateNotesProgressBar() {
@@ -135,10 +136,305 @@ function getFilteredTopicsList() {
   return list;
 }
 
+const TOPIC_WEIGHTAGE_MAP = {
+  // Mathematics
+  "trig-identities": "15 Qs (~37.5 Marks)",
+  "inverse-trig": "5 Qs (~12.5 Marks)",
+  "quadratic-eq": "6 Qs (~15 Marks)",
+  "complex-numbers": "6 Qs (~15 Marks)",
+  "straight-lines": "5 Qs (~12.5 Marks)",
+  "central-tendency": "6 Qs (~15 Marks)",
+  "data-interpretation": "5 Qs (~12.5 Marks)",
+  "limits-continuity": "5 Qs (~12.5 Marks)",
+  "differentiation": "8 Qs (~20 Marks)",
+  "integration": "10 Qs (~25 Marks)",
+  "syl-matrices": "9 Qs (~22.5 Marks)",
+  "syl-probability": "10 Qs (~25 Marks)",
+  "lines-angles-triangles": "6 Qs (~15 Marks)",
+  "circles-polygons": "5 Qs (~12.5 Marks)",
+  "area-perimeter": "6 Qs (~15 Marks)",
+  "surface-area-volume": "6 Qs (~15 Marks)",
+  "percentages-profit-loss": "5 Qs (~12.5 Marks)",
+  "ratios-averages": "5 Qs (~12.5 Marks)",
+  "time-distance": "6 Qs (~15 Marks)",
+  "syl-numerical-speed": "4 Qs (~10 Marks)",
+  "syl-numerical-ratios": "4 Qs (~10 Marks)",
+
+  // English
+  "parts-of-speech": "10 Qs (~8.3 Marks)",
+  "tenses-complete": "10 Qs (~8.3 Marks)",
+  "subject-verb-agreement": "10 Qs (~8.3 Marks)",
+  "sentence-structure": "5 Qs (~4.2 Marks)",
+  "voice-conversion": "10 Qs (~8.3 Marks)",
+  "narration-speech": "10 Qs (~8.3 Marks)",
+  "modifiers": "5 Qs (~4.2 Marks)",
+  "punctuation-basics": "5 Qs (~4.2 Marks)",
+  "transformation-sentences": "5 Qs (~4.2 Marks)",
+  "synonyms-antonyms-detailed": "20 Qs (~16.6 Marks)",
+  "one-word-substitution": "10 Qs (~8.3 Marks)",
+  "idioms-phrases": "10 Qs (~8.3 Marks)",
+  "phrasal-verbs": "5 Qs (~4.2 Marks)",
+  "reading-comprehension": "15 Qs (~12.5 Marks)",
+  "error-detection": "10 Qs (~8.3 Marks)",
+  "sentence-improvement": "10 Qs (~8.3 Marks)",
+  "ordering-rearrangement": "10 Qs (~8.3 Marks)",
+  "fill-blanks-cloze": "10 Qs (~8.3 Marks)",
+
+  // Polity
+  "preamble": "2 Qs (~1.7 Marks)",
+  "schedules": "2 Qs (~1.7 Marks)",
+  "fundamental-rights": "5 Qs (~4.2 Marks)",
+  "dpsp": "4 Qs (~3.3 Marks)",
+  "citizenship": "2 Qs (~1.7 Marks)",
+  "president": "3 Qs (~2.5 Marks)",
+  "parliament": "6 Qs (~5.0 Marks)",
+  "goverment-executives": "3 Qs (~2.5 Marks)",
+  "judiciary": "4 Qs (~3.3 Marks)",
+  "panchayati-raj": "2 Qs (~1.7 Marks)",
+  "amendments-parts": "3 Qs (~2.5 Marks)",
+  "important-articles": "3 Qs (~2.5 Marks)",
+  "positions-tenures": "2 Qs (~1.7 Marks)",
+  "constitutional-bodies": "3 Qs (~2.5 Marks)",
+  "governance-emergency": "2 Qs (~1.7 Marks)",
+  "polity-federal-structure": "2 Qs (~1.7 Marks)",
+  "polity-rpa": "2 Qs (~1.7 Marks)",
+
+  // History
+  "what-is-history": "1 Qs (~0.8 Marks)",
+  "sources-indian-history": "2 Qs (~1.7 Marks)",
+  "dating-systems": "1 Qs (~0.8 Marks)",
+  "stone-age": "2 Qs (~1.7 Marks)",
+  "chalcolithic-age": "2 Qs (~1.7 Marks)",
+  "rock-art": "1 Qs (~0.8 Marks)",
+  "indus-valley-civilization": "3 Qs (~2.5 Marks)",
+  "vedic-age": "2 Qs (~1.7 Marks)",
+  "mahajanapadas": "2 Qs (~1.7 Marks)",
+  "magadha-expansion": "2 Qs (~1.7 Marks)",
+  "buddhism-jainism": "4 Qs (~3.3 Marks)",
+  "mauryan-period": "3 Qs (~2.5 Marks)",
+  "post-mauryan-india": "2 Qs (~1.7 Marks)",
+  "gupta-period": "2 Qs (~1.7 Marks)",
+  "south-indian-kingdoms": "3 Qs (~2.5 Marks)",
+  "ancient-indian-culture": "2 Qs (~1.7 Marks)",
+  "early-medieval-india": "2 Qs (~1.7 Marks)",
+  "delhi-sultanate": "3 Qs (~2.5 Marks)",
+  "custom-history-topic": "3 Qs (~2.5 Marks)",
+  "vijayanagara-empire": "3 Qs (~2.5 Marks)",
+  "bahmani-deccan-sultanates": "2 Qs (~1.7 Marks)",
+  "mughal-empire": "4 Qs (~3.3 Marks)",
+  "marathas": "2 Qs (~1.7 Marks)",
+  "bhakti-movement": "2 Qs (~1.7 Marks)",
+  "sufi-movement": "2 Qs (~1.7 Marks)",
+  "sikh-history": "2 Qs (~1.7 Marks)",
+  "european-arrival": "2 Qs (~1.7 Marks)",
+  "british-expansion": "2 Qs (~1.7 Marks)",
+  "economic-impact-british": "2 Qs (~1.7 Marks)",
+  "socio-religious-reform": "3 Qs (~2.5 Marks)",
+  "revolt-1857": "3 Qs (~2.5 Marks)",
+  "governor-generals-viceroys": "4 Qs (~3.3 Marks)",
+  "constitutional-development": "3 Qs (~2.5 Marks)",
+  "freedom-movement": "8 Qs (~6.6 Marks)",
+  "post-independence-consolidation": "2 Qs (~1.7 Marks)",
+  "revolutions": "2 Qs (~1.7 Marks)",
+  "world-war-i": "2 Qs (~1.7 Marks)",
+  "interwar-period": "2 Qs (~1.7 Marks)",
+  "world-war-ii": "2 Qs (~1.7 Marks)",
+  "cold-war": "2 Qs (~1.7 Marks)",
+  "international-institutions": "2 Qs (~1.7 Marks)",
+  "architecture": "3 Qs (~2.5 Marks)",
+  "paintings": "2 Qs (~1.7 Marks)",
+
+  // Geography
+  "universe-solar-system": "3 Qs (~2.5 Marks)",
+  "earth-atmosphere": "3 Qs (~2.5 Marks)",
+  "climatology-clouds": "3 Qs (~2.5 Marks)",
+  "geomorphology-rocks": "4 Qs (~3.3 Marks)",
+  "world-geography-mountains": "5 Qs (~4.2 Marks)",
+  "world-geography-straits-deserts": "5 Qs (~4.2 Marks)",
+  "syl-geog": "6 Qs (~5.0 Marks)",
+  "india-forests-wetlands": "4 Qs (~3.3 Marks)",
+  "india-resources-farming": "4 Qs (~3.3 Marks)",
+  "india-transport-routes": "4 Qs (~3.3 Marks)",
+  "india-national-parks": "5 Qs (~4.2 Marks)",
+  "mapping-borders-capitals": "4 Qs (~3.3 Marks)",
+  "geog-industries": "3 Qs (~2.5 Marks)",
+  "geog-geopolitics": "3 Qs (~2.5 Marks)",
+  "geography-pyq-trends-topic": "Trend Analysis",
+
+  // Economics
+  "econ-concepts": "5 Qs (~4.2 Marks)",
+  "econ-poverty-employment": "4 Qs (~3.3 Marks)",
+  "rbi-monetary-policy": "6 Qs (~5.0 Marks)",
+  "econ-budget-fiscal": "5 Qs (~4.2 Marks)",
+  "econ-trade-bop": "4 Qs (~3.3 Marks)",
+  "econ-reforms": "3 Qs (~2.5 Marks)",
+  "five-year-plans": "3 Qs (~2.5 Marks)",
+  "external-sector-institutions": "3 Qs (~2.5 Marks)",
+  "econ-govt-schemes": "4 Qs (~3.3 Marks)",
+
+  // Physics
+  "reflection-refraction": "6 Qs (~5.0 Marks)",
+  "newtons-laws": "5 Qs (~4.2 Marks)",
+  "syl-exercises": "4 Qs (~3.3 Marks)",
+  "physics-sound": "3 Qs (~2.5 Marks)",
+  "physics-em-waves": "3 Qs (~2.5 Marks)",
+  "physics-heat": "4 Qs (~3.3 Marks)",
+  "physics-electricity-magnetism": "5 Qs (~4.2 Marks)",
+  "physics-nuclear-basics": "3 Qs (~2.5 Marks)",
+  "physics-units-everyday": "4 Qs (~3.3 Marks)",
+  "physics-pyq-trends-topic": "Trend Analysis",
+
+  // Chemistry
+  "acids-bases": "4 Qs (~3.3 Marks)",
+  "syl-numerical": "4 Qs (~3.3 Marks)",
+  "metals-alloys": "4 Qs (~3.3 Marks)",
+  "reactivity-series": "3 Qs (~2.5 Marks)",
+  "carbon-compounds": "3 Qs (~2.5 Marks)",
+  "chemistry-numericals": "3 Qs (~2.5 Marks)",
+  "chemistry-everyday-fertilisers": "4 Qs (~3.3 Marks)",
+  "environmental-chemistry": "3 Qs (~2.5 Marks)",
+
+  // Biology
+  "cell-structure": "4 Qs (~3.3 Marks)",
+  "human-systems": "6 Qs (~5.0 Marks)",
+  "diseases": "5 Qs (~4.2 Marks)",
+  "immunity-vaccines": "4 Qs (~3.3 Marks)",
+  "plant-kingdom": "3 Qs (~2.5 Marks)",
+  "animal-kingdom": "3 Qs (~2.5 Marks)",
+  "plant-reproduction": "3 Qs (~2.5 Marks)",
+  "biology-ecology-basics": "4 Qs (~3.3 Marks)",
+
+  // Military Aptitude
+  "rank-equivalence": "3 Qs (~7.5 Marks)",
+  "commands": "3 Qs (~7.5 Marks)",
+  "defence-organisations-weapons": "4 Qs (~10.0 Marks)",
+  "bilateral-exercises": "4 Qs (~10.0 Marks)",
+  "missiles-systems": "4 Qs (~10.0 Marks)",
+
+  // Current Affairs
+  "ca-schemes": "5 Qs (~4.2 Marks)",
+  "ca-relations": "5 Qs (~4.2 Marks)",
+  "ca-policies": "4 Qs (~3.3 Marks)",
+  "ca-summits": "4 Qs (~3.3 Marks)",
+  "ca-reports": "3 Qs (~2.5 Marks)",
+  "ca-judgments": "3 Qs (~2.5 Marks)",
+  "ca-awards": "3 Qs (~2.5 Marks)",
+  "ca-economic-measures": "3 Qs (~2.5 Marks)",
+  "ca-science-tech-space": "4 Qs (~3.3 Marks)",
+  "ca-upsc-master-framework": "Trend Analysis",
+
+  // Environment
+  "env-hotspots": "3 Qs (~2.5 Marks)",
+  "env-conservation": "3 Qs (~2.5 Marks)",
+  "env-species": "3 Qs (~2.5 Marks)",
+  "env-treaties": "4 Qs (~3.3 Marks)",
+  "env-laws": "3 Qs (~2.5 Marks)",
+  "env-renewable": "3 Qs (~2.5 Marks)",
+  "env-pollution": "3 Qs (~2.5 Marks)"
+};
+
+function getTopicWeightage(topicId, subjectId) {
+  if (TOPIC_WEIGHTAGE_MAP[topicId]) {
+    return TOPIC_WEIGHTAGE_MAP[topicId];
+  }
+  // Fallbacks based on subject
+  switch (subjectId) {
+    case 'mathematics':
+      return '4-6 Qs (~10-15 Marks)';
+    case 'english':
+      return '5-10 Qs (~4-8 Marks)';
+    case 'military-aptitude':
+      return '3-5 Qs';
+    default:
+      return '3-4 Qs (~2.5-3.3 Marks)';
+  }
+}
+
+function getTopicExams(topicId, subjectId) {
+  const syllabusText = window.OFFICIAL_SYLLABUS_DATA ? window.OFFICIAL_SYLLABUS_DATA[topicId] : null;
+  let exams = [];
+  if (syllabusText) {
+    const examMatch = syllabusText.match(/Exams:\s*([^.]+)/i);
+    if (examMatch) {
+      const text = examMatch[1].toLowerCase();
+      if (text.includes('all')) {
+        exams = ['NDA', 'CDS', 'AFCAT'];
+      } else {
+        if (text.includes('nda')) exams.push('NDA');
+        if (text.includes('cds')) exams.push('CDS');
+        if (text.includes('afcat')) exams.push('AFCAT');
+      }
+    }
+  }
+  
+  if (exams.length === 0) {
+    if (topicId.startsWith('acids-') || topicId === 'syl-numerical' || topicId === 'metals-alloys' || 
+        topicId === 'reactivity-series' || topicId === 'carbon-compounds' || topicId === 'chemistry-numericals' || 
+        topicId === 'chemistry-everyday-fertilisers' || topicId === 'environmental-chemistry') {
+      exams = ['NDA', 'CDS'];
+    } else if (subjectId === 'mathematics') {
+      if (['trig-identities', 'central-tendency'].includes(topicId)) {
+        exams = ['NDA', 'CDS', 'AFCAT'];
+      } else if (['inverse-trig', 'complex-numbers', 'limits-continuity', 'differentiation', 'integration'].includes(topicId)) {
+        exams = ['NDA'];
+      } else if (['syl-numerical-speed', 'syl-numerical-ratios'].includes(topicId)) {
+        exams = ['AFCAT'];
+      } else {
+        exams = ['NDA', 'CDS'];
+      }
+    } else if (subjectId === 'military-aptitude') {
+      if (topicId.startsWith('afcat-r-')) {
+        if (['afcat-r-clock-calendar', 'afcat-r-venn', 'afcat-r-fig-analogy', 'afcat-r-fig-class-series', 
+             'afcat-r-fig-completion', 'afcat-r-embedded', 'afcat-r-dot', 'afcat-r-cube-dice', 'afcat-r-fig-coding'].includes(topicId)) {
+          exams = ['AFCAT'];
+        } else {
+          exams = ['CDS', 'AFCAT'];
+        }
+      } else if (topicId.startsWith('syl-afcat-')) {
+        exams = ['AFCAT'];
+      } else {
+        exams = ['NDA', 'CDS', 'AFCAT'];
+      }
+    } else if (subjectId === 'english') {
+      if (['modifiers', 'transformation-sentences'].includes(topicId)) {
+        exams = ['CDS'];
+      } else if (['sentence-improvement', 'ordering-rearrangement'].includes(topicId)) {
+        exams = ['NDA', 'CDS'];
+      } else {
+        exams = ['NDA', 'CDS', 'AFCAT'];
+      }
+    } else {
+      exams = ['NDA', 'CDS', 'AFCAT'];
+    }
+  }
+  return exams;
+}
+
 function renderNotesBrowser() {
   const accordionList = document.getElementById("notes-accordion-list");
   if (!accordionList) return;
   accordionList.innerHTML = "";
+  
+  // Render Legend
+  const legendDiv = document.createElement("div");
+  legendDiv.style.display = "flex";
+  legendDiv.style.alignItems = "center";
+  legendDiv.style.justifyContent = "space-between";
+  legendDiv.style.padding = "8px 12px";
+  legendDiv.style.marginBottom = "12px";
+  legendDiv.style.background = "rgba(255, 255, 255, 0.02)";
+  legendDiv.style.border = "1px solid rgba(255, 255, 255, 0.05)";
+  legendDiv.style.borderRadius = "6px";
+  legendDiv.style.fontSize = "0.7rem";
+  legendDiv.style.fontFamily = "var(--font-mono)";
+  legendDiv.style.color = "var(--text-secondary)";
+  legendDiv.innerHTML = `
+    <span style="font-weight: 700; color: var(--text-muted);">EXAMS:</span>
+    <span style="display:flex; align-items:center; gap:4px;"><span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:#ef4444;"></span>NDA</span>
+    <span style="display:flex; align-items:center; gap:4px;"><span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:#87a96b;"></span>CDS</span>
+    <span style="display:flex; align-items:center; gap:4px;"><span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:#38bdf8;"></span>AFCAT</span>
+  `;
+  accordionList.appendChild(legendDiv);
   
   updateNotesProgressBar();
   
@@ -154,15 +450,18 @@ function renderNotesBrowser() {
     subject.chapters.forEach(chapter => {
       const filteredTopics = chapter.topics.filter(topic => {
         const query = notesSearchQuery.toLowerCase();
-        return topic.title.toLowerCase().includes(query) ||
-               (topic.notes && topic.notes.toLowerCase().includes(query)) ||
-               (topic.formulas && topic.formulas.toLowerCase().includes(query));
+        const exams = getTopicExams(topic.id, subjectId);
+        const matchesQuery = topic.title.toLowerCase().includes(query) ||
+                             (topic.notes && topic.notes.toLowerCase().includes(query)) ||
+                             (topic.formulas && topic.formulas.toLowerCase().includes(query));
+        const matchesExam = currentExamTagFilter === "all" || exams.includes(currentExamTagFilter);
+        return matchesQuery && matchesExam;
       });
       
-      if (filteredTopics.length > 0 || chapter.title.toLowerCase().includes(notesSearchQuery.toLowerCase())) {
+      if (filteredTopics.length > 0) {
         filteredChapters.push({
           ...chapter,
-          topics: filteredTopics.length > 0 ? filteredTopics : chapter.topics
+          topics: filteredTopics
         });
       }
     });
@@ -230,11 +529,25 @@ function renderNotesBrowser() {
         const isTopicCompleted = STATE.syllabusProgress[topic.id] === 'completed';
         const isTopicActive = selectedTopicId === topic.id;
         
+        // Get exams list and build dots
+        const exams = getTopicExams(topic.id, subjectId);
+        const examColors = {
+          'NDA': '#ef4444',
+          'CDS': '#87a96b',
+          'AFCAT': '#38bdf8'
+        };
+        const examDots = exams.map(exam => `
+          <span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:${examColors[exam] || '#ccc'}; flex-shrink: 0;" title="${exam}"></span>
+        `).join('');
+        
         topicLink.className = `topic-link ${isTopicActive ? 'active' : ''}`;
         topicLink.innerHTML = `
           <div style="display:flex; align-items:center; gap:8px; width:100%; justify-content:space-between;">
             <div style="display:flex; align-items:center; gap:8px; overflow:hidden;">
               <span class="topic-dot ${isTopicCompleted ? 'completed' : ''}"></span>
+              <div style="display:flex; align-items:center; gap:3px; flex-shrink:0;">
+                ${examDots}
+              </div>
               <span style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${topic.title}</span>
             </div>
             ${isTopicCompleted ? '<span style="font-size:0.75rem;"></span>' : ''}
@@ -275,6 +588,8 @@ document.querySelectorAll('[data-subject-filter]').forEach(btn => {
   });
 });
 
+
+
 function renderTopicView(subjectId, chapterId, topicId) {
   selectedSubjectId = subjectId;
   selectedChapterId = chapterId;
@@ -297,7 +612,15 @@ function renderTopicView(subjectId, chapterId, topicId) {
   const nextTopic = currentIdx < topicsList.length - 1 ? topicsList[currentIdx + 1] : null;
   
   // Render Breadcrumbs
-  const breadcrumbs = `<span style="color:var(--text-muted); font-size:0.8rem; font-family:var(--font-mono);">${subject.title} &gt; ${chapter.title}</span>`;
+  const weightageText = getTopicWeightage(topic.id, subjectId);
+  const breadcrumbs = `
+    <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+      <span style="color:var(--text-muted); font-size:0.8rem; font-family:var(--font-mono);">${subject.title} &gt; ${chapter.title}</span>
+      <span style="font-size: 0.7rem; font-family: var(--font-mono); font-weight: 700; color: var(--accent); border: 1px solid rgba(34, 197, 94, 0.3); padding: 1px 6px; border-radius: 4px; background: rgba(34, 197, 94, 0.08); text-transform: uppercase;">
+        Weightage: ${weightageText}
+      </span>
+    </div>
+  `;
   
   // Tab buttons
   const tabsHtml = `
@@ -333,13 +656,13 @@ function renderTopicView(subjectId, chapterId, topicId) {
     tabContentHtml = `
       <div class="tab-pane-content fade-in" style="height: 100%;">
         <div class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
-          ${mainNotesContent}
+          ${parseWikiLinks(mainNotesContent)}
           ${(!isPlaceholder && typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]) ? `
             <div class="expanded-notes" style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);">
               <div style="color: var(--accent); font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;">
                 [ Advanced Revision Data ]
               </div>
-              ${EXPANDED_NOTES_DATA[topic.id]}
+              ${parseWikiLinks(EXPANDED_NOTES_DATA[topic.id])}
             </div>
           ` : ''}
           ${(typeof window.EXPERT_REVISION_DATA !== 'undefined' && window.EXPERT_REVISION_DATA[topic.id]) ? `
@@ -347,7 +670,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
               <div style="color: var(--warning); font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;">
                 [ Expert Tactical Edge ]
               </div>
-              ${EXPERT_REVISION_DATA[topic.id]}
+              ${parseWikiLinks(EXPERT_REVISION_DATA[topic.id])}
             </div>
           ` : ''}
         </div>
@@ -371,26 +694,31 @@ function renderTopicView(subjectId, chapterId, topicId) {
     topic.mindmap.branches.forEach(branch => {
       let subnodesHtml = '';
       branch.subnodes.forEach(sub => {
-        subnodesHtml += `<div class="mindmap-subnode">${sub}</div>`;
+        const cleanSub = sub.replace(/'/g, "\\'");
+        subnodesHtml += `<div class="mindmap-subnode" onclick="triggerDoubtExplain('${cleanSub}')" style="cursor: pointer; padding: 8px 16px; margin: 4px; background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 6px; transition: all 0.2s ease; display: inline-block; color: var(--text-primary); font-size: 0.82rem; font-weight: 500;" onmouseover="this.style.background='rgba(34, 197, 94, 0.1)'; this.style.borderColor='var(--accent)'; this.style.transform='scale(1.02)'" onmouseout="this.style.background='rgba(255,255,255,0.03)'; this.style.borderColor='var(--border)'; this.style.transform='scale(1)'">${sub}</div>`;
       });
+      const cleanBranch = branch.title.replace(/'/g, "\\'");
       branchesHtml += `
-        <div class="mindmap-branch">
-          <div class="mindmap-node">${branch.title}</div>
-          <div class="mindmap-subnodes">
+        <div class="mindmap-branch" style="display: flex; flex-direction: column; align-items: center; border: 1px dashed rgba(255,255,255,0.08); border-radius: 12px; padding: 12px; background: rgba(0,0,0,0.15); min-width: 180px;">
+          <div class="mindmap-node" onclick="triggerDoubtExplain('${cleanBranch}')" style="cursor: pointer; padding: 10px 20px; background: linear-gradient(135deg, rgba(37, 99, 235, 0.2) 0%, rgba(34, 197, 94, 0.1) 100%); border: 1px solid rgba(37, 99, 235, 0.4); border-radius: 8px; font-weight: 700; font-family: var(--font-logo); font-size: 0.9rem; text-align: center; color: #fff; width: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: all 0.2s ease;" onmouseover="this.style.boxShadow='0 0 15px rgba(37,99,235,0.3)'; this.style.transform='scale(1.03)';" onmouseout="this.style.boxShadow='none'; this.style.transform='scale(1)';">${branch.title}</div>
+          <div class="mindmap-subnodes" style="display: flex; flex-direction: column; gap: 6px; width: 100%; margin-top: 10px;">
             ${subnodesHtml}
           </div>
         </div>
       `;
     });
     
+    const cleanRoot = topic.mindmap.root.replace(/'/g, "\\'");
     tabContentHtml = `
-      <div class="tab-pane-content fade-in" style="height: 100%;">
-        <div class="mindmap-tree scroll-x" style="padding: 20px 0; height: 100%; overflow-y: auto; box-sizing: border-box;">
-          <div class="mindmap-root">${topic.mindmap.root}</div>
-          <div class="mindmap-branches">
+      <div class="tab-pane-content fade-in" style="height: 100%; display: flex; flex-direction: column;">
+        <div class="mindmap-tree scroll-x" style="padding: 24px; height: 100%; overflow-y: auto; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; gap: 24px;">
+          <div class="mindmap-root" onclick="triggerDoubtExplain('${cleanRoot}')" style="cursor: pointer; padding: 14px 28px; background: linear-gradient(135deg, var(--accent-dark) 0%, var(--accent) 100%); border-radius: 12px; font-weight: 800; font-family: var(--font-logo); font-size: 1.15rem; color: var(--bg-primary); text-shadow: 0 1px 2px rgba(0,0,0,0.2); box-shadow: 0 0 20px rgba(34, 197, 94, 0.35); text-align: center; transition: all 0.3s ease; letter-spacing: 0.5px;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 28px rgba(34, 197, 94, 0.55)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(34, 197, 94, 0.35)';">${topic.mindmap.root}</div>
+          <div style="width: 2px; height: 20px; background: linear-gradient(to bottom, var(--accent), rgba(255,255,255,0.1));"></div>
+          <div class="mindmap-branches" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; width: 100%;">
             ${branchesHtml}
           </div>
         </div>
+        <div style="font-size: 0.72rem; color: var(--text-muted); text-align: center; font-family: var(--font-mono); margin-top: 8px; letter-spacing: 0.5px;">* CLICK ANY NODE IN THE GRAPH TO ASK GURU DRONACHARYA DIRECTLY *</div>
       </div>
     `;
   } else {
@@ -845,6 +1173,27 @@ function renderCurrentMonthAffairs() {
       `;
     }
 
+    // Source Transparency block
+    let sourceTransparencyBox = '';
+    if (item.originalSource) {
+      sourceTransparencyBox = `
+        <div style="margin-top:10px; padding:10px; background:rgba(34,197,94,0.04); border:1px solid rgba(34,197,94,0.15); border-radius:6px; display:flex; flex-direction:column; gap:6px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:6px;">
+            <div style="display:flex; align-items:center; gap:4px; font-size:0.65rem; font-weight:700; letter-spacing:0.8px; color:#4ade80; text-transform:uppercase; font-family:var(--font-mono);">
+              <span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:#4ade80; box-shadow:0 0 6px #4ade80;"></span> 
+              Official Source Verification
+            </div>
+            <span style="font-size:0.65rem; font-weight:700; padding:1px 6px; border-radius:3px; background:rgba(34,197,94,0.12); color:#4ade80; border:1px solid rgba(34,197,94,0.25); font-family:var(--font-mono); text-transform:uppercase;">${item.verificationStatus || 'VERIFIED'}</span>
+          </div>
+          <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap:6px; font-size:0.75rem; color:var(--text-secondary);">
+            <div><strong>Source:</strong> <span style="color:var(--text-primary);">${item.originalSource}</span></div>
+            <div><strong>Published:</strong> <span style="color:var(--text-primary); font-family:var(--font-mono);">${item.publicationDate || new Date().toISOString().split('T')[0]}</span></div>
+            ${item.relatedOfficialDocuments ? `<div><strong>Document Ref:</strong> <span style="color:var(--text-primary); font-style:italic;">${item.relatedOfficialDocuments}</span></div>` : ''}
+          </div>
+        </div>
+      `;
+    }
+
     // Legacy details fallback
     let legacyDetails = '';
     if (!item.upscHighlights && item.details) {
@@ -864,9 +1213,78 @@ function renderCurrentMonthAffairs() {
         <div style="display:flex; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
           <span style="font-family:var(--font-mono); font-size:0.65rem; font-weight:700; letter-spacing:0.8px; padding:3px 8px; border-radius:3px; background:${topicColor}1a; border:1px solid ${topicColor}44; color:${topicColor}; text-transform:uppercase; white-space:nowrap;">${topicLabel}</span>
         </div>
-        <div style="font-size:0.92rem; line-height:1.65; color:var(--text-primary); font-family:var(--font-main);">${mainText}</div>
-        ${upscBox}
+        <div style="font-size:0.92rem; line-height:1.65; color:var(--text-primary); font-family:var(--font-main);">${parseWikiLinks(mainText)}</div>
+        ${item.upscHighlights && item.upscHighlights.length > 0 ? `
+          <div style="margin-top:14px; padding:11px 14px; background:rgba(255,210,0,0.06); border:1px solid rgba(255,210,0,0.2); border-left:3px solid rgba(255,210,0,0.65); border-radius:0 5px 5px 0;">
+            <div style="display:flex; align-items:center; gap:5px; font-size:0.67rem; font-weight:700; letter-spacing:1px; color:rgba(255,200,50,0.85); margin-bottom:8px; text-transform:uppercase; font-family:var(--font-mono);">
+              <span style="color:rgba(255,200,50,0.85);">${SVG_FACTS}</span> UPSC Key Facts
+            </div>
+            <ul style="margin:0; padding-left:16px; display:flex; flex-direction:column; gap:5px; list-style:disc;">
+              ${item.upscHighlights.filter(h => h && h.length > 5).map(h => `<li style="font-size:0.86rem; color:var(--text-primary); line-height:1.55;">${parseWikiLinks(h)}</li>`).join('')}
+            </ul>
+          </div>
+        ` : ''}
         ${contextBox}
+        ${sourceTransparencyBox}
+        ${item.quickSummary ? `
+          <details style="margin-top: 12px; border: 1px solid rgba(168, 85, 247, 0.2); border-radius: 6px; background: rgba(168, 85, 247, 0.02); overflow: hidden;">
+            <summary style="padding: 10px 14px; font-weight: 700; font-size: 0.8rem; color: #c084fc; cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: space-between; outline: none; background: rgba(168, 85, 247, 0.05);">
+              <span>⚡ COMMAND INTEL: Click to expand UPSC Depth Analysis</span>
+            </summary>
+            <div style="padding: 16px; border-top: 1px solid rgba(168, 85, 247, 0.15); font-size: 0.88rem; line-height: 1.6; display: flex; flex-direction: column; gap: 14px; color: var(--text-secondary);">
+              <div>
+                <strong style="color: var(--accent); display: block; margin-bottom: 4px; font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">Quick Summary (50-100 words)</strong>
+                <div style="color: var(--text-primary); font-size: 0.9rem;">${parseWikiLinks(item.quickSummary)}</div>
+              </div>
+              
+              <div>
+                <strong style="color: var(--accent); display: block; margin-bottom: 4px; font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">Detailed Analysis (500-1000 words)</strong>
+                <div style="line-height: 1.65; white-space: pre-line;">${parseWikiLinks(item.detailedAnalysis)}</div>
+              </div>
+              
+              <div>
+                <strong style="color: var(--accent); display: block; margin-bottom: 4px; font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">Background Context</strong>
+                <div>${parseWikiLinks(item.backgroundContext)}</div>
+              </div>
+
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 4px;">
+                <div>
+                  <strong style="color: var(--accent); display: block; margin-bottom: 4px; font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">Key Stakeholders</strong>
+                  <ul style="padding-left: 16px; margin: 0; list-style: square;">
+                    ${item.stakeholders ? item.stakeholders.map(s => `<li>${parseWikiLinks(s)}</li>`).join('') : '<li>General</li>'}
+                  </ul>
+                </div>
+                <div>
+                  <strong style="color: var(--accent); display: block; margin-bottom: 4px; font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">Related Topics</strong>
+                  <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                    ${item.relatedTopics ? item.relatedTopics.map(t => `<span style="font-size: 0.75rem; background: rgba(255,255,255,0.05); padding: 2px 6px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.08);">${parseWikiLinks(t)}</span>`).join('') : 'None'}
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-top: 6px; padding-top: 10px; border-top: 1px dashed rgba(255,255,255,0.08);">
+                <strong style="color: var(--accent); display: block; margin-bottom: 6px; font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">Exam Relevance Matrix</strong>
+                <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; text-align: center; font-size: 0.72rem;">
+                  ${item.examRelevanceMatrix ? Object.entries(item.examRelevanceMatrix).map(([exam, importance]) => `
+                    <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); padding: 6px; border-radius: 4px;">
+                      <div style="font-weight: bold; color: var(--text-muted);">${exam}</div>
+                      <div style="color: ${importance.toLowerCase().includes('high') ? 'var(--danger)' : 'var(--text-primary)'}; font-weight: bold; margin-top: 2px;">${importance}</div>
+                    </div>
+                  `).join('') : ''}
+                </div>
+              </div>
+
+              ${item.potentialQuestions ? `
+                <div style="margin-top: 8px; padding: 12px; background: rgba(0,0,0,0.15); border-radius: 6px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; gap: 8px; font-size: 0.82rem;">
+                  <strong style="color: var(--info); font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">💡 Analytical Doubts & SSB Scenarios</strong>
+                  ${item.potentialQuestions.shortAnswers ? `<div><strong>Short Answer Qs:</strong><ul style="margin: 2px 0 0; padding-left: 16px;">${item.potentialQuestions.shortAnswers.map(q => `<li>${q}</li>`).join('')}</ul></div>` : ''}
+                  ${item.potentialQuestions.interviewQuestions ? `<div><strong>Personal Interview Qs:</strong><ul style="margin: 2px 0 0; padding-left: 16px;">${item.potentialQuestions.interviewQuestions.map(q => `<li>${q}</li>`).join('')}</ul></div>` : ''}
+                  ${item.potentialQuestions.ssbDiscussionTopics ? `<div><strong>SSB Group Discussion:</strong><ul style="margin: 2px 0 0; padding-left: 16px;">${item.potentialQuestions.ssbDiscussionTopics.map(t => `<li>${t}</li>`).join('')}</ul></div>` : ''}
+                </div>
+              ` : ''}
+            </div>
+          </details>
+        ` : ''}
         ${legacyDetails}
       </div>
     `;
@@ -1619,7 +2037,7 @@ Do not output any surrounding markdown formatting (no \`\`\`json, no \`\`\`), do
   area.innerHTML = html;
 }
 
-async function triggerAiSolveDoubt(templateKey, customQueryText = "") {
+async function triggerAiSolveDoubt(templateKey, customQueryText = "", contextText = "") {
   const area = document.getElementById("ai-result-area");
   area.style.display = "block";
   area.className = "ai-response-area loading";
@@ -1649,26 +2067,44 @@ async function triggerAiSolveDoubt(templateKey, customQueryText = "") {
     pyqText = `\n\nTake note of the following actual questions and trends from the last 7 years (2020-2026) of UPSC/AFCAT exams on this topic, and ensure they are addressed in the explanation: ${window.PYQ_TRENDS_DATA[templateKey]}`;
   }
 
-  const prompt = `You are an expert tutor for Indian Defence Examinations (NDA, CDS, AFCAT). 
+  let contextPrompt = "";
+  if (contextText) {
+    contextPrompt = `\n\nCONTEXT OF THE QUERY: The student clicked this term while studying/viewing: "${contextText}". You MUST use this context to resolve any ambiguity in the term.
+Specifically, adapt the explanation dynamically to the context:
+- For example, if the term is "NATO" and context is "History", explain its historical evolution (Cold War origin).
+- If context is "Current Affairs", explain its modern geopolitical significance.
+- If context is "Defence Studies", explain its military structure and doctrine.
+- If context is "International Relations", explain its diplomatic relevance.
+- Similarly, if they clicked "Cell" under a Biology topic, explain biological cells, whereas under a military/strategy topic, explain military planning cells. Make the entire explanation highly relevant to this specific context.`;
+  }
+
+  const prompt = `You are Guru Dronacharya, the legendary ancient tutor and guide, acting as the AI tutor for Indian Defence Examinations (NDA, CDS, AFCAT) and civil services exams. Speak with authority, deep wisdom, and encouraging pedagogical guidance.
 Your goal is to teach the user the topic "${topicName}" so exceptionally well that they are fully equipped to clear the exam with excellent marks.
-Structure your notes as a comprehensive educational guide. The provided previous year papers (PYQ trends) are there to help you understand the exact depth, level of detail, and formatting of notes that must be generated for this topic to ensure success.
+Structure your notes as a comprehensive educational guide.${contextPrompt}
+
+IMPORTANT REQUIREMENT: Throughout your response, wrap any important terms, sub-topics, historical dates, organizations, treaties, laws, equations, or doctrines in double square brackets, e.g. [[Constituent Assembly]] or [[Article 19]], so that they act as recursive clickable knowledge graph nodes. Generate at least 15-20 such inline links.
 
 Cover the following sections in your notes:
-1. Core concept and definition: Explain the fundamentals clearly, step-by-step, starting from first principles with intuitive language and/or analogies.
-2. Key principles, laws, or facts: Detailed explanations with mathematical derivations or logical breakdowns where applicable (use styled numbered points or bullet points).
-3. Important sub-topics and their significance: A deep dive into all nuances and related sub-concepts.
-4. Examples or applications: Show real-world scenarios or numerical problems, particularly those relevant to Defence Exams.
-5. Common exam traps, misconceptions, or memory tips/mnemonics.
+1. Level 1: Instant Definition:
+   - A concise one-line explanation of "${topicName}".
+2. Level 2: Detailed Concept Breakdown:
+   - What it is, Why it exists, How it works, Historical background, Key components, Advantages, and Limitations.
+3. Level 3: Exam-Oriented Notes:
+   - Specific relevance to UPSC, CDS, AFCAT, NDA, SSC, and State PSC exams.
+   - Frequently asked areas and common exam traps/misconceptions.
+4. Level 4: Memory Techniques:
+   - Mnemonics, short tricks, easy recall methods, and exam hacks. Wrap in <div class="mnemonic-box"><strong>Mnemonic:</strong> ...</div> or <div class="trap-box"><strong>Exam Trap:</strong> ...</div> or <div class="strategist-tip"><strong>Strategist Tip:</strong> ...</div>.
+5. Level 5: Related Concepts:
+   - Display 10-20 related terms as clickable AI knowledge links (e.g. [[Related Term 1]], [[Related Term 2]]).
+6. Topic Dependency Tree:
+   - Prerequisites (Foundational concepts to understand first, e.g. [[Prerequisite Concept]])
+   - Advanced Concepts (What to study next, e.g. [[Advanced Concept]])
+7. AI Follow-Up Learning:
+   - Common Doubts Students Ask (Generate 5 questions starting with Why, How, When, Where, What if, e.g., "[[Why is this concept vital for national security?]]" - make sure they are fully wrapped in double square brackets so the user can click them to run a follow-up doubt resolution).
+8. Visual Understanding:
+   - Present comparative tables, step-by-step text flowcharts, chronological timelines, or cause-and-effect diagrams to map out the concept structurally.
 
-Formatting Guidelines for maximum visual appeal:
-- For any memory aids or mnemonics, wrap them in: <div class="mnemonic-box"><strong>Mnemonic:</strong> description</div>
-- For common errors, traps, or misconceptions, wrap them in: <div class="trap-box"><strong>Common Exam Trap:</strong> explanation of the trap</div>
-- For high-level tips or strategic suggestions, wrap them in: <div class="strategist-tip"><strong>Strategist Tip:</strong> tip text</div>
-- Wrap formulas, equations, variables, or article numbers in <code> tags (e.g. <code>sin²Î¸ + cos²Î¸ = 1</code> or <code>Article 338B</code>).
-- Use tables (<table>, <tr>, <th>, <td>) to compare concepts or summarize facts.
-- Use lists (<ul>, <li>) for multiple points.
-
-Use clear, highly readable, and structured formatting with bold headings. Be extremely thorough, leaving out no details or formulas required to answer the exam questions. Make the content engaging and easy to learn. Do NOT use any emojis, icons, or pictorial characters anywhere in the response. Keep it completely emoji-free and professional.${syllabusText}${pyqText}`;
+Use bold headings, structured layout, and do NOT use any emojis, icons, or pictorial characters. Keep the content completely emoji-free and professional.${syllabusText}${pyqText}`;
 
   const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
   let replyText = "";
@@ -1697,7 +2133,6 @@ Use clear, highly readable, and structured formatting with bold headings. Be ext
     }
   }
 
-
   if (success) {
     let formattedText = replyText
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
@@ -1712,7 +2147,7 @@ Use clear, highly readable, and structured formatting with bold headings. Be ext
           <h3 style="font-family:var(--font-logo); color: var(--accent);"> AI Explanation: ${topicName}</h3>
           <span style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono)">POWERED BY GEMINI AI · FREE</span>
         </div>
-        <div style="font-size:0.92rem; line-height:1.8; color:var(--text-primary);">${formattedText}</div>
+        <div style="font-size:0.92rem; line-height:1.8; color:var(--text-primary);">${parseWikiLinks(formattedText)}</div>
       </div>
     `;
     if (window.MathJax && typeof window.MathJax.typeset === 'function') {
@@ -1894,7 +2329,20 @@ async function sendChatbotMessage() {
     }
   }
 
-  let promptText = `You are an expert tutor for Indian Defence Examinations (NDA, CDS, AFCAT). Solve this user's doubt clearly, with mathematical derivations, step-by-step logic, or concise explanations depending on the question. Doubt: ${text}`;
+  let promptText = `You are Dronacharya, the legendary ancient tutor and guide, acting as the AI tutor for cadets preparing for NDA, CDS, AFCAT, CAPF, SSC, and other competitive defence examinations. Speak with the authority, deep wisdom, and encouraging pedagogical guidance of Guru Dronacharya.
+Solve the user's doubt exhaustively using the following 8-step Doubt Resolution Framework. Do not give short answers:
+Step 1: Understand and state what the student is confused about.
+Step 2: Explain the concept in simple, beginner-friendly language.
+Step 3: Explain the same concept in detailed, comprehensive language.
+Step 4: Provide at least 3 simple examples and 3 real-world/defence applications.
+Step 5: Address and debunk common exam misconceptions or traps.
+Step 6: Outline or recommend diagrammatic elements (timelines, flowcharts, concept trees) or comparison tables.
+Step 7: Reference related concepts (e.g. [[Federalism]], [[Parliament]]) using Wikipedia double brackets.
+Step 8: Generate 3 practice MCQs/Scenario-based questions with answers and detailed reasoning to check understanding.
+
+- SOURCE INTEGRITY: Prioritize official, primary information (PIB, MoD, Supreme Court, Gazette of India, RBI, NITI Aayog, DRDO, ISRO, UN, etc.) over secondary coaching summaries.
+
+Doubt to solve: ${text}`;
   if (contextText.length > 50) {
     promptText += `\n\nCONTEXT (The user is currently reading this material):\n${contextText}\n\nUse this context to inform your answer if relevant. Format math with $ or $$.`;
   }
@@ -1945,7 +2393,7 @@ async function sendChatbotMessage() {
         .replace(/\*(.*?)\*/g, '<em>$1</em>')
         .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
         .replace(/\n/g, '<br/>');
-      replyEl.innerHTML = formattedText;
+      replyEl.innerHTML = parseWikiLinks(formattedText);
       
       if (window.MathJax && window.MathJax.typesetPromise) {
         window.MathJax.typesetPromise([replyEl]).catch(err => console.warn("MathJax error:", err));
@@ -2509,7 +2957,11 @@ function initCountdownTimer() {
   }
   const autoOption = selector.querySelector('option[value="auto"]');
   if (autoOption) {
-    autoOption.innerText = exams[nearestKeyVal].name + " (Nearest)";
+    let emoji = "";
+    if (nearestKeyVal === "nda") emoji = "⚪ ";
+    else if (nearestKeyVal === "cds") emoji = "🟢 ";
+    else if (nearestKeyVal === "afcat") emoji = "🔵 ";
+    autoOption.innerText = emoji + exams[nearestKeyVal].name + " (Nearest)";
   }
 
   selector.value = savedSelection;
@@ -2578,6 +3030,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initMotivationOfTheDay();
   switchScreen("dashboard");
   initAiPaperSolver();
+  initWeeklyPlanner();
   
   // Search Input for Notes & Formulas screen
   const searchInput = document.getElementById("notes-search-input");
@@ -2587,6 +3040,38 @@ document.addEventListener("DOMContentLoaded", () => {
       renderNotesBrowser();
     });
   }
+  
+  // Exam Tag Filters binding
+  document.querySelectorAll('.exam-tag-filter').forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll('.exam-tag-filter').forEach(b => {
+        b.classList.remove("active");
+        b.style.background = "transparent";
+        b.style.color = "";
+      });
+      btn.classList.add("active");
+      
+      const tag = btn.getAttribute("data-exam-tag");
+      currentExamTagFilter = tag;
+      
+      // Highlight selection based on exam color code
+      if (tag === 'NDA') {
+        btn.style.background = 'rgba(239, 68, 68, 0.15)';
+        btn.style.color = '#ef4444';
+      } else if (tag === 'CDS') {
+        btn.style.background = 'rgba(59, 130, 246, 0.15)';
+        btn.style.color = '#3b82f6';
+      } else if (tag === 'AFCAT') {
+        btn.style.background = 'rgba(234, 179, 8, 0.15)';
+        btn.style.color = '#eab308';
+      } else {
+        btn.style.background = 'rgba(255, 255, 255, 0.1)';
+        btn.style.color = 'var(--text-primary)';
+      }
+      
+      renderNotesBrowser();
+    });
+  });
 });
 
 
@@ -2730,9 +3215,9 @@ function renderCaVisitsTable() {
 
   const rows = visits.map(v =>
     `<tr style="border-bottom: 1px solid var(--border);">` +
-    td(`<strong>${v.visit}</strong>`) +
-    td(`<strong>${v.period}:</strong> ${v.purpose}`) +
-    td(v.deals) +
+    td(`<strong>${parseWikiLinks(v.visit)}</strong>`) +
+    td(`<strong>${v.period}:</strong> ${parseWikiLinks(v.purpose)}`) +
+    td(parseWikiLinks(v.deals)) +
     `</tr>`
   ).join("");
 
@@ -2769,10 +3254,10 @@ function renderCaFtaTable() {
 
   const rows = ftas.map(f =>
     `<tr style="border-bottom: 1px solid var(--border);">` +
-    `<td style="padding:10px; border:1px solid var(--border);"><strong>${f.deal}</strong></td>` +
-    `<td style="padding:10px; border:1px solid var(--border);"><span style="${statusColor(f.status)}">${f.status}</span></td>` +
-    `<td style="padding:10px; border:1px solid var(--border);">${f.scope}</td>` +
-    `<td style="padding:10px; border:1px solid var(--border); font-style:italic; color: var(--text-secondary);">${f.significance}</td>` +
+    `<td style="padding:10px; border:1px solid var(--border);"><strong>${parseWikiLinks(f.deal)}</strong></td>` +
+    `<td style="padding:10px; border:1px solid var(--border);"><span style="${statusColor(f.status)}">${parseWikiLinks(f.status)}</span></td>` +
+    `<td style="padding:10px; border:1px solid var(--border);">${parseWikiLinks(f.scope)}</td>` +
+    `<td style="padding:10px; border:1px solid var(--border); font-style:italic; color: var(--text-secondary);">${parseWikiLinks(f.significance)}</td>` +
     `</tr>`
   ).join("");
 
@@ -2798,27 +3283,148 @@ function renderCaDatesTable() {
   const year = new Date().getFullYear();
   const th = (txt, w) => `<th style="padding:12px; border:1px solid var(--border); text-align: left; width:${w};">${txt}</th>`;
   const headerRow = `<tr style="background-color: rgba(34,197,94,0.15); color: var(--accent); font-weight: bold; border-bottom: 2px solid var(--border);">` +
-    th("Date", "10%") + th("Day / Event", "25%") + th(`${year} Theme`, "25%") + th("Significance", "40%") + `</tr>`;
+    th("Date", "10%") + th("Day / Event", "25%") + th(`${year} Theme`, "25%") + th("Significance & Deep Analysis", "40%") + `</tr>`;
 
-  const rows = dates.map(d => {
+  const rows = dates.map((d, index) => {
     const themeCell = d.theme
-      ? `<strong>${d.theme}</strong>`
+      ? `<strong>${parseWikiLinks(d.theme)}</strong>`
       : `<span style="color: var(--text-muted); font-style: italic;">No official theme declared for ${year}</span>`;
+      
+    const significanceCell = `
+      <div>
+        <div style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 8px;">
+          ${parseWikiLinks(d.significance)}
+        </div>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+          <button onclick="streamDetailedDateAnalysis('${d.name.replace(/'/g, "\\'")}', '${d.date.replace(/'/g, "\\'")}', 'ca-date-deep-${index}')" class="btn-primary" style="padding: 4px 10px; font-size: 0.72rem; border-radius: 4px; display: inline-flex; align-items: center; gap: 4px; background: rgba(168, 85, 247, 0.15); border: 1px solid rgba(168, 85, 247, 0.3); color: #c084fc; cursor: pointer;">
+            🔍 Generate Cadet Deep Dive (10-15 Paragraphs)
+          </button>
+        </div>
+        <div id="ca-date-deep-${index}" style="display: none; margin-top: 10px; padding: 12px; background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.06); border-radius: 6px; font-size: 0.85rem; line-height: 1.6; color: var(--text-secondary);">
+          <!-- Dynamic stream -->
+        </div>
+      </div>
+    `;
+
     return `<tr style="border-bottom: 1px solid var(--border);">` +
       `<td style="padding:10px; border:1px solid var(--border);">${d.date}</td>` +
-      `<td style="padding:10px; border:1px solid var(--border);"><strong>${d.name}</strong></td>` +
+      `<td style="padding:10px; border:1px solid var(--border);"><strong>${parseWikiLinks(d.name)}</strong></td>` +
       `<td style="padding:10px; border:1px solid var(--border);">${themeCell}</td>` +
-      `<td style="padding:10px; border:1px solid var(--border);">${d.significance}</td>` +
+      `<td style="padding:10px; border:1px solid var(--border);">${significanceCell}</td>` +
       `</tr>`;
   }).join("");
 
   wrapper.innerHTML = `<table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.9rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
 }
 
+async function streamDetailedDateAnalysis(dateName, dateValue, containerId) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  
+  container.style.display = 'block';
+  container.innerHTML = `
+    <div style="display: flex; align-items: center; gap: 8px; color: var(--accent); font-family: var(--font-mono); font-size: 0.75rem;">
+      <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 14px; height: 14px; border-width: 2px;"></div>
+      DRONACHARYA IS CONSTRUCTING DEEP DIVE BRIEFING (10-15 PARAGRAPHS)...
+    </div>
+  `;
+
+  const prompt = `You are Dronacharya, the legendary military guru and expert tutor for Indian Defence Examinations (NDA, CDS, AFCAT, CAPF, UPSC).
+Provide a highly comprehensive, deep-dive explanation of the significance of the important date: "${dateName}" (observed on ${dateValue}).
+
+Detailed Notes on this date must not be short summaries. You MUST structure your explanation into 12 detailed sections, writing at least 10 to 15 well-written explanatory paragraphs in total:
+1. ORIGIN: Where and how this day originated.
+2. HISTORICAL BACKGROUND: The history behind it.
+3. PURPOSE: Why it was established.
+4. KEY EVENTS: Major milestones associated with it.
+5. INTERNATIONAL SIGNIFICANCE: Global impact.
+6. NATIONAL SIGNIFICANCE: Relevance to India.
+7. MILITARY SIGNIFICANCE: Strategic/operational military importance (if applicable, else general defence significance).
+8. ECONOMIC IMPACT: Trade, finance, budget impact of related policies.
+9. SOCIAL IMPACT: Societal changes or awareness.
+10. CURRENT RELEVANCE: Modern significance.
+11. INTERESTING FACTS: 3-5 unique, lesser-known facts.
+12. EXAM RELEVANCE: How it is tested in NDA/CDS/AFCAT/UPSC.
+
+Ensure you wrap important terms, sub-topics, agencies, or events in double square brackets, e.g. [[Ramsar Convention]] or [[Mahatma Gandhi]] or [[Operation Shakti]], so they act as interactive smart context links.
+Do not use any emojis in your response. Keep the tone professional, scholarly, and authoritative.`;
+
+  try {
+    const response = await fetch('http://localhost:4000/api/gemini', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'gemini-3-flash-preview',
+        stream: true,
+        contents: [{ parts: [{ text: prompt }] }]
+      })
+    });
+
+    if (!response.ok || !response.body) {
+      throw new Error("Failed to connect to Dronacharya Intelligence Server.");
+    }
+
+    container.innerHTML = `
+      <div style="border-bottom: 1px dashed rgba(255,255,255,0.1); padding-bottom: 6px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center;">
+        <span style="font-weight: bold; color: var(--accent); font-family: var(--font-mono); font-size: 0.75rem;">CADET BRIEFING: ${dateName}</span>
+        <button onclick="this.parentElement.parentElement.style.display='none'" style="background: transparent; border: none; color: var(--text-muted); cursor: pointer; font-size: 0.8rem;">[Hide]</button>
+      </div>
+      <div class="stream-text-area" style="max-height: 400px; overflow-y: auto; padding-right: 8px;"></div>
+    `;
+    const streamTextArea = container.querySelector('.stream-text-area');
+
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder('utf-8');
+    let buffer = "";
+    let finalText = "";
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      const chunk = decoder.decode(value, { stream: true });
+      buffer += chunk;
+
+      const lines = buffer.split('\n');
+      buffer = lines.pop();
+
+      for (const line of lines) {
+        if (line.startsWith('data: ')) {
+          try {
+            const dataStr = line.replace('data: ', '').trim();
+            if (dataStr && dataStr !== '[DONE]') {
+              const parsed = JSON.parse(dataStr);
+              if (parsed.candidates && parsed.candidates[0].content && parsed.candidates[0].content.parts[0]) {
+                finalText += parsed.candidates[0].content.parts[0].text;
+                
+                // Format paragraphs nicely
+                let formatted = finalText
+                  .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                  .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                  .replace(/\n\n/g, '<br/><br/>')
+                  .replace(/\n/g, '<br/>');
+
+                streamTextArea.innerHTML = parseWikiLinks(formatted);
+              }
+            }
+          } catch(e) {}
+        }
+      }
+    }
+
+    if (window.MathJax && typeof window.MathJax.typeset === 'function') {
+      window.MathJax.typeset();
+    }
+  } catch (err) {
+    container.innerHTML = `<span style="color: var(--danger); font-size: 0.8rem;">Guru uplink failed: ${err.message}</span>`;
+  }
+}
+
 window.toggleCurrentAffairsMode = toggleCurrentAffairsMode;
 window.renderCaVisitsTable = renderCaVisitsTable;
 window.renderCaFtaTable = renderCaFtaTable;
 window.renderCaDatesTable = renderCaDatesTable;
+
 
 // ==========================================
 // 14. MOTIVATION OF THE DAY (ARMED FORCES BRAVERY STORIES)
@@ -3015,21 +3621,58 @@ async function generateDetailedNotesOnDemand(subjectId, chapterId, topicId) {
     pyqText = `\n\nActual Questions, numerical patterns, and conceptual trends from the last 7 years (2020-2026) of UPSC CDS, NDA, and AFCAT exams for this topic: ${window.PYQ_TRENDS_DATA[topicId]}`;
   }
 
-  const prompt = `You are an elite academic tutor and strategist for Indian Defence Examinations (UPSC NDA, CDS, AFCAT). Your task is to provide an EXHAUSTIVE, highly detailed, and deep-dive explanation of the topic "${topic.title}" from the chapter "${chapter.title}" in ${subject.title}. 
+  const prompt = `You are Dronacharya, the legendary military guru and Academic Intelligence Engine of an AI-powered NDA, CDS, AFCAT, CAPF, and UPSC Examination Preparation Platform.
+Your task is to provide an EXHAUSTIVE, deep-dive, UPSC-level explanation of the topic "${topic.title}" from the chapter "${chapter.title}" in ${subject.title}. 
 
-Explain the entire topic from start to end with maximum depth. Do not hold back on complexity.
-- For theoretical subjects (History, Polity, Geography, Biology), provide extensive theoretical background, underlying principles, graduate-level conceptual context, and historical timelines so the user grasps the complete picture. Include exceptions, edge cases, and nuanced constitutional/historical debates where applicable.
-- For quantitative subjects (Maths, Physics, Chemistry), provide full derivations of key formulas, step-by-step methodology, and advanced application scenarios.
+Detailed Notes must not be short summaries. Ensure the output is comprehensive (minimum 1000 words, target 1500-2500 words) so a beginner can understand but an advanced aspirant finds it exam-ready.
 
-Make it easy to read with headings, bullet points, and clear examples. Aim for a comprehensive, textbook-level depth (1000+ words if necessary).${syllabusText}${pyqText}
+MANDATORY STRUCTURE: Organize the output strictly into these 19 numbered sections:
+1. INTRODUCTION: What it is, why it exists, basic principles, and exam relevance overview.
+2. HISTORICAL BACKGROUND: Complete historical context, origins, evolution, and major milestones.
+3. CORE CONCEPTS: Breakdown of the topic into individual core concepts with clear definitions, examples, and significance.
+4. TECHNICAL EXPLANATION: Detailed mechanisms, equations, scientific or structural parameters, and technical descriptions.
+5. IMPORTANT FACTS: Summary of key facts, comparative tables, data, and statistics.
+6. EXAM PERSPECTIVE: Focus areas for NDA/CDS/AFCAT/CAPF/UPSC, potential question patterns, high-yield areas.
+7. MILITARY RELEVANCE: Strategic, operational, and tactical relevance to the Indian Armed Forces (weapons, combat record, operators, comparisons, if applicable).
+8. CURRENT AFFAIRS RELEVANCE: Recent developments, news occurrences, policy decisions, or modern debates.
+9. ADVANTAGES: Detailed benefits, strengths, or pros of the concept/system.
+10. CHALLENGES: Weaknesses, issues, obstacles, criticisms, or constraints.
+11. FUTURE DEVELOPMENTS: Emerging trends, next-generation upgrades, future outlook.
+12. IMPORTANT PERSONALITIES: Names of key figures, scientists, military commanders, leaders, or philosophers associated with this topic.
+13. IMPORTANT ORGANISATIONS: Key agencies, ministries, research bodies, or international organizations.
+14. PREVIOUS YEAR QUESTION REFERENCES: Actual or representative question references from past NDA/CDS/AFCAT/UPSC papers.
+15. KEY TAKEAWAYS: Structured list of the 20 most critical facts and summary points.
+16. AI GENERATED REVISION NOTES: 1-Page revision sheet, 5-minute revision version, and last-minute exam notes.
+17. FLASHCARDS: At least 5 high-yield question-answer pairs for self-testing.
+18. MEMORY TRICKS: Mnemonic devices, memory aids, and common exam traps to avoid.
+19. FREQUENTLY ASKED QUESTIONS: At least 5 detailed Q&As addressing common student doubts.
 
-Ensure the generated notes are extremely thorough, leaving no stone unturned, covering all aspects to the absolute maximum depth required to answer the hardest possible questions from the aforementioned PYQ trends.
+MANDATORY KNOWLEDGE EXPANSION LAYER:
+At the very beginning or end of your note, include these structured sections:
+- CONCEPT TREE:
+  * Prerequisites: [List of 2-3 basic concepts needed beforehand, formatted as links like [[Concept Name]]].
+  * Advanced Topics: [List of 2-3 next-level concepts to study next, formatted as links like [[Concept Name]]].
+- EXAM MAPPING:
+  * NDA: [Very High / High / Medium / Low]
+  * CDS: [Very High / High / Medium / Low]
+  * AFCAT: [Very High / High / Medium / Low]
+  * UPSC: [Very High / High / Medium / Low]
+
+SOURCE INTEGRITY: Prioritize authentic, official, primary information (PIB, Ministry of Defence, Supreme Court, Gazette of India, RBI, NITI Aayog, DRDO, ISRO, United Nations, World Bank, etc.) over secondary coaching summaries.
+
+MILITARY & DEFENCE SPECIFICATION:
+If this is a defence or military-related topic (e.g. Rafale, Agni, Submarines), you MUST detail:
+- Technical specs, historical combat record, weaknesses, global operators, and comparative systems.
+- Automatically link critical related subnodes in double square brackets, e.g. [[Meteor Missile]], [[MICA]], [[AESA Radar]], [[Indian Air Force]], [[Dassault Aviation]], [[BVR Combat]].
+
+INTERACTIVE WIKI LINKING:
+Throughout the entire response, wrap any important terms, sub-topics, historical dates, organizations, treaties, laws, equations, or doctrines in double square brackets, e.g. [[Constituent Assembly]] or [[Article 19]], so they function as recursive clickable knowledge graph nodes. Generate at least 15-20 such inline links.
 
 Formatting Guidelines for maximum visual appeal:
-- For any memory aids or mnemonics, wrap them in: <div class="mnemonic-box"><strong>Mnemonic:</strong> description</div>
-- For common errors, traps, or misconceptions, wrap them in: <div class="trap-box"><strong>Common Exam Trap:</strong> explanation of the trap</div>
-- For high-level tips or strategic suggestions, wrap them in: <div class="strategist-tip"><strong>Strategist Tip:</strong> tip text</div>
-- Wrap formulas, equations, variables, or article numbers in <code> tags (e.g. <code>sin²Î¸ + cos²Î¸ = 1</code> or <code>Article 338B</code>).
+- Wrap memory aids or mnemonics in: <div class="mnemonic-box"><strong>Mnemonic:</strong> description</div>
+- Wrap common errors or traps in: <div class="trap-box"><strong>Common Exam Trap:</strong> explanation of the trap</div>
+- Wrap high-level tips in: <div class="strategist-tip"><strong>Strategist Tip:</strong> tip text</div>
+- Wrap formulas, equations, variables, or article numbers in <code> tags.
 - Use tables (<table>, <tr>, <th>, <td>) to compare concepts or summarize facts.
 - Use lists (<ul>, <li>) for multiple points.`;
   const model = 'gemini-3-flash-preview';
@@ -3142,7 +3785,7 @@ function renderAiNotes(text, contentArea, btnCopy, btnDownload, title) {
   contentArea.innerHTML = `
     <h3 style="color: var(--accent); margin-bottom: 20px;">Detailed AI Explanation</h3>
     <div id="ai-final-notes" style="line-height: 1.8; color: var(--text-primary); font-size: 0.95rem;">
-      ${formattedText}
+      ${parseWikiLinks(formattedText)}
     </div>
   `;
   
@@ -3576,3 +4219,837 @@ window.loadRandomWord = loadRandomWord;
 window.displayVocabWord = displayVocabWord;
 window.startVocabQuiz = startVocabQuiz;
 window.checkVocabAnswer = checkVocabAnswer;
+
+// ==========================================
+// TACTICAL SCRATCHPAD CANVAS DRAWING LOGIC
+// ==========================================
+let scratchpadIsDrawing = false;
+let scratchpadContext = null;
+let scratchpadCanvas = null;
+
+function initScratchpad() {
+  scratchpadCanvas = document.getElementById('cbt-scratchpad-canvas');
+  if (!scratchpadCanvas) return;
+  scratchpadContext = scratchpadCanvas.getContext('2d');
+  
+  const rect = scratchpadCanvas.getBoundingClientRect();
+  scratchpadCanvas.width = rect.width;
+  scratchpadCanvas.height = rect.height;
+  
+  scratchpadContext.strokeStyle = '#0ea5e9'; // Accent Sky Blue
+  scratchpadContext.lineWidth = 4;
+  scratchpadContext.lineCap = 'round';
+  scratchpadContext.lineJoin = 'round';
+  
+  // Mouse Event Listeners
+  scratchpadCanvas.addEventListener('mousedown', startDrawing);
+  scratchpadCanvas.addEventListener('mousemove', draw);
+  scratchpadCanvas.addEventListener('mouseup', stopDrawing);
+  scratchpadCanvas.addEventListener('mouseout', stopDrawing);
+  
+  // Touch Event Listeners for mobile/tablet support
+  scratchpadCanvas.addEventListener('touchstart', (e) => {
+    e.preventDefault();
+    const touch = e.touches[0];
+    const mouseEvent = new MouseEvent('mousedown', {
+      clientX: touch.clientX,
+      clientY: touch.clientY
+    });
+    scratchpadCanvas.dispatchEvent(mouseEvent);
+  });
+  scratchpadCanvas.addEventListener('touchmove', (e) => {
+    e.preventDefault();
+    const touch = e.touches[0];
+    const mouseEvent = new MouseEvent('mousemove', {
+      clientX: touch.clientX,
+      clientY: touch.clientY
+    });
+    scratchpadCanvas.dispatchEvent(mouseEvent);
+  });
+  scratchpadCanvas.addEventListener('touchend', (e) => {
+    e.preventDefault();
+    const mouseEvent = new MouseEvent('mouseup', {});
+    scratchpadCanvas.dispatchEvent(mouseEvent);
+  });
+}
+
+function startDrawing(e) {
+  scratchpadIsDrawing = true;
+  if (!scratchpadContext) return;
+  const rect = scratchpadCanvas.getBoundingClientRect();
+  scratchpadContext.beginPath();
+  scratchpadContext.moveTo(e.clientX - rect.left, e.clientY - rect.top);
+}
+
+function draw(e) {
+  if (!scratchpadIsDrawing || !scratchpadContext) return;
+  const rect = scratchpadCanvas.getBoundingClientRect();
+  
+  const sizeSelect = document.getElementById('scratchpad-size');
+  if (sizeSelect) {
+    scratchpadContext.lineWidth = parseInt(sizeSelect.value);
+  }
+  
+  scratchpadContext.lineTo(e.clientX - rect.left, e.clientY - rect.top);
+  scratchpadContext.stroke();
+}
+
+function stopDrawing() {
+  scratchpadIsDrawing = false;
+}
+
+function toggleScratchpad() {
+  const container = document.getElementById('cbt-scratchpad-container');
+  if (!container) return;
+  
+  if (container.style.display === 'none' || container.style.display === '') {
+    container.style.display = 'flex';
+    setTimeout(() => {
+      initScratchpad();
+    }, 100);
+  } else {
+    container.style.display = 'none';
+  }
+}
+
+function clearScratchpad() {
+  if (!scratchpadCanvas || !scratchpadContext) return;
+  scratchpadContext.clearRect(0, 0, scratchpadCanvas.width, scratchpadCanvas.height);
+}
+
+window.toggleScratchpad = toggleScratchpad;
+window.clearScratchpad = clearScratchpad;
+
+// =============================================================================
+// TACTICAL WAR ROOM & AUDIO HUD SYSTEMS
+// =============================================================================
+
+// Map Hotspot Data
+const MAP_BRIEFINGS = {
+  siachen: {
+    title: "Siachen Glacier (Operation Meghdoot)",
+    desc: "1. Siachen Glacier is the highest battlefield in the world, located in the eastern Karakoram range.\n2. In April 1984, India launched Operation Meghdoot to pre-empt Pakistan's troop movement.\n3. The military operation secured control of the entire glacier and its key passes.\n4. Saltoro Ridge, which guards the glacier from the west, is fully controlled by Indian posts.\n5. Important passes to remember: Bilafond La, Sia La, and Gyong La.\n6. Aspirants must study extreme high-altitude logistics, avalanche risks, and hypoxia effects.\n7. The region acts as a wedge between Pakistan-occupied Kashmir and Shaksgam Valley (China).\n8. Troops are deployed at altitudes exceeding 18,000 feet in freezing sub-zero conditions.\n9. Operation Meghdoot remains one of the most successful mountain warfare campaigns in history.\n10. The strategic control of Siachen prevents a joint militarized front by Pakistan and China."
+  },
+  kargil: {
+    title: "Kargil Sector (Operation Vijay)",
+    desc: "1. The Kargil War of 1999 was fought along the Line of Control (LoC) in Ladakh.\n2. Operation Vijay was launched to clear infiltrations from key peaks like Tiger Hill and Tololing.\n3. The conflict took place at extreme altitudes (11,000 to 18,000 feet) in rugged terrain.\n4. NH 1D (Srinagar-Leh Highway) was the primary target of Pakistani shelling from high heights.\n5. Defence exams cover Bofors artillery, MiG-29 air superiority, and Operation Safed Sagar (IAF).\n6. The war ended on 26th July 1999, commemorated annually as Kargil Vijay Diwas.\n7. It highlighted critical gaps in military intelligence, border surveillance, and UAV requirements.\n8. The Kargil Review Committee recommendations led to the creation of the Chief of Defence Staff (CDS).\n9. Captain Vikram Batra and Lt. Manoj Pandey were awarded Param Vir Chakra posthumously.\n10. Mountain warfare doctrine and artillery integration are key syllabus topics based on this war."
+  },
+  galwan: {
+    title: "Galwan Valley (Border Standoff)",
+    desc: "1. The Galwan River Valley in eastern Ladakh is located along the Line of Actual Control (LAC).\n2. A major military standoff occurred in June 2020, resulting in hand-to-hand combat casualties.\n3. The region is named after Ghulam Rasool Galwan, a Ladakhi explorer of the late 19th century.\n4. The valley is highly strategic as it lies close to the Darbuk-Shyok-Daulat Beg Oldie (DSDBO) road.\n5. The DSDBO road is critical for India to connect Leh to the Karakoram Pass.\n6. Border agreements like 1993, 1996, and 2005 disallow firing of weapons within 2 km of LAC.\n7. In exams, geography of Shyok river, Chang Chenmo range, and Pangong Tso are heavily featured.\n8. The standoff led to massive military mirror-deployments and infrastructure build-ups on both sides.\n9. Infrastructure upgrades include bridges, all-weather tunnels (like Atal Tunnel), and troop shelters.\n10. Understanding border management agencies (ITBP and Indian Army) is critical for defence papers."
+  },
+  chabahar: {
+    title: "Chabahar Port (Iran - Strategic Transit Node)",
+    desc: "1. Chabahar Port is located in southeastern Iran on the Gulf of Oman, outside the Persian Gulf.\n2. It provides India direct access to Afghanistan and Central Asia, bypassing Pakistan.\n3. India signed a tripartite agreement in 2016 to develop the port and the Chabahar-Zahedan railway.\n4. It serves as a key gateway for the International North-South Transport Corridor (INSTC).\n5. Strategically, it counterbalances China's development of Gwadar Port in Pakistan (72 km away).\n6. For the Indian Navy, it secures energy transit lanes in the Gulf of Oman and northern Arabian Sea.\n7. Afghanistan is connected via the Zaranj-Delaram highway built by India's Border Roads Organisation (BRO).\n8. It is India's first overseas port project, showing strategic depth in maritime foreign policy.\n9. Chabahar is a tax-free zone, facilitating duty-free trading, warehousing, and trade routes.\n10. Maritime diplomacy, maritime security, and security of Indian Ocean choke points are tested."
+  },
+  malacca: {
+    title: "Malacca Strait (Indian Ocean Choke Point)",
+    desc: "1. The Strait of Malacca is the primary maritime shipping channel between the Indian Ocean and South China Sea.\n2. Over 25% of global trade and energy passes through this narrow 1.5-mile choke point.\n3. The Andaman and Nicobar Command (ANC), India's only tri-service command, guards its western entrance.\n4. In the event of conflict, India's naval dominance at the strait poses a 'Malacca Dilemma' for China.\n5. Security patrols (like Coordinated Patrols - CORPAT) are held with Indonesia, Thailand, and Malaysia.\n6. The Navy utilizes strategic bases in Great Nicobar (INS Baaz) to monitor ship transits.\n7. Deep-sea cables, submarine paths, and sea lines of communication (SLOC) are monitored here.\n8. Piracy, maritime terrorism, and freedom of navigation are major regional security challenges.\n9. The strait is bordered by Singapore, Malaysia, and Indonesia, forming a key economic corridor.\n10. Geopolitics of the Indo-Pacific and maritime domain awareness (MDA) are regular CDS exam topics."
+  }
+};
+
+// Flashcard Decks Data
+const FLASHCARD_DECKS = {
+  important_dates: [
+    { q: "Pravasi Bharatiya Divas (Jan 9)", a: "Marks return of Mahatma Gandhi from South Africa in 1915; honors overseas Indian diaspora contributions." },
+    { q: "Indian Army Day (Jan 15)", a: "Marks Field Marshal K. M. Cariappa taking over command in 1949, transferring authority from British military." },
+    { q: "National Voters' Day (Jan 25)", a: "Marks the foundation day of the Election Commission of India in 1950, promoting democratic participation." },
+    { q: "National Technology Day (May 11)", a: "Commemorates the successful Pokhran-II nuclear tests in 1998 under Operation Shakti." },
+    { q: "Constitution Day (Nov 26)", a: "Commemorates the formal adoption of the Constitution by the Constituent Assembly in 1949." }
+  ],
+  military_operations: [
+    { q: "Operation Trident (1971)", a: "Decisive Indian Navy attack on Karachi harbor using missile boats, now celebrated as Navy Day on Dec 4." },
+    { q: "Operation Meghdoot (1984)", a: "Indian Army operation securing the strategic Siachen Glacier, preempting Pakistani troop movements." },
+    { q: "Operation Cactus (1988)", a: "India's airborne and naval military assistance securing the Maldives against a coup attempt by mercenaries." },
+    { q: "Operation Vijay (1999)", a: "Military campaign that successfully evicted infiltrators from Kargil, culminating on July 26." },
+    { q: "Operation Pawan (1987)", a: "Peacekeeping mandate of the IPKF in northern and eastern Sri Lanka to disarm militant groups." }
+  ],
+  strategic_weapons: [
+    { q: "BrahMos supersonic cruise missile", a: "Joint venture between DRDO (India) and NPO Mashinostroyeniya (Russia). Multi-platform, supersonic (~Mach 3)." },
+    { q: "Agni-V ballistic missile", a: "India's intercontinental ballistic missile (ICBM) with a solid-fueled range exceeding 5,000 km." },
+    { q: "S-400 Triumf air defence", a: "Mobile surface-to-air missile (SAM) defense system procured from Russia, covering range up to 400 km." },
+    { q: "INS Arihant (S73)", a: "India's lead ship of nuclear-powered ballistic missile submarines, completing the nuclear triad." },
+    { q: "Tejas LCA", a: "Indigenously developed delta-wing, single-engine multirole light combat aircraft developed by HAL." }
+  ],
+  defence_abbreviations: [
+    { q: "IGMDP", a: "Integrated Guided Missile Development Programme - conceived by Dr. Kalam (developed Prithvi, Trishul, Akash, Nag, Agni)." },
+    { q: "IDS", a: "Integrated Defence Staff - established in 2001 to promote synergy and coordination among the three service branches." },
+    { q: "MAD", a: "Mutual Assured Destruction - nuclear deterrence doctrine guaranteeing complete annihilation of both attacker and defender." },
+    { q: "EEZ", a: "Exclusive Economic Zone - sea zone over which a state has special rights (up to 200 nautical miles from coastline)." },
+    { q: "CORPAT", a: "Coordinated Patrol - bilateral maritime patrols held by the Indian Navy with neighboring friendly nations." }
+  ]
+};
+
+// Leitner Spaced Repetition State
+let leitnerState = {};
+let currentDeck = "important_dates";
+let currentCardIndex = -1;
+
+function initWarRoom() {
+  switchWarRoomTab('map');
+  loadFlashcardDeck();
+  initSimulatorCanvas();
+}
+
+function switchWarRoomTab(tabId) {
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    if (btn.id.startsWith('war-room-tab-')) {
+      btn.classList.remove('active');
+    }
+  });
+  const activeBtn = document.getElementById(`war-room-tab-${tabId}`);
+  if (activeBtn) activeBtn.classList.add('active');
+
+  document.querySelectorAll('.war-room-pane').forEach(pane => {
+    pane.classList.remove('active');
+  });
+  const activePane = document.getElementById(`pane-war-room-${tabId}`);
+  if (activePane) activePane.classList.add('active');
+
+  if (tabId === 'simulator') {
+    setTimeout(initSimulatorCanvas, 100);
+  }
+}
+
+// Map Hotspots
+function selectMapHotspot(id) {
+  const data = MAP_BRIEFINGS[id];
+  if (!data) return;
+
+  const titleEl = document.getElementById('map-briefing-title');
+  const contentEl = document.getElementById('map-briefing-content');
+  if (titleEl) titleEl.innerText = data.title;
+  if (contentEl) {
+    const listHtml = data.desc.split('\n').map(line => `<li style="margin-bottom: 8px; line-height:1.5; font-size:0.9rem;">${parseWikiLinks(line)}</li>`).join('');
+    contentEl.innerHTML = `
+      <ul style="list-style-type: none; padding-left: 0; text-align: left; margin: 0;">
+        ${listHtml}
+      </ul>
+    `;
+  }
+
+  // Visual feedback on Map hotspots
+  document.querySelectorAll('.map-hotspot').forEach(hotspot => {
+    hotspot.querySelector('circle:nth-child(2)').style.fill = hotspot.id === `hotspot-${id}` ? 'var(--accent)' : '';
+  });
+}
+
+// Leitner Spaced Repetition logic
+function loadFlashcardDeck() {
+  currentDeck = document.getElementById('flashcard-deck-selector').value;
+  
+  // Load levels from localStorage
+  const saved = localStorage.getItem('tac-leitner-boxes');
+  if (saved) {
+    try { leitnerState = JSON.parse(saved); } catch(e) { leitnerState = {}; }
+  } else {
+    leitnerState = {};
+  }
+
+  // Initialize missing cards to Box 1
+  FLASHCARD_DECKS[currentDeck].forEach(card => {
+    const key = `${currentDeck}_${card.q}`;
+    if (!leitnerState[key]) {
+      leitnerState[key] = 1;
+    }
+  });
+
+  saveLeitnerState();
+  updateLeitnerStats();
+  pickNextFlashcard();
+}
+
+function saveLeitnerState() {
+  localStorage.setItem('tac-leitner-boxes', JSON.stringify(leitnerState));
+}
+
+function updateLeitnerStats() {
+  const counts = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0};
+  FLASHCARD_DECKS[currentDeck].forEach(card => {
+    const key = `${currentDeck}_${card.q}`;
+    const box = leitnerState[key] || 1;
+    counts[box] = (counts[box] || 0) + 1;
+  });
+
+  const container = document.getElementById('leitner-stats-container');
+  if (container) {
+    container.innerHTML = Object.keys(counts).map(box => `
+      <div class="leitner-box-item">
+        <span>Box ${box} (${box === '1' ? 'Review Daily' : box === '5' ? 'Mastered' : 'Intermediate'})</span>
+        <span class="leitner-box-badge">${counts[box]} cards</span>
+      </div>
+    `).join('');
+  }
+}
+
+function pickNextFlashcard() {
+  const cards = FLASHCARD_DECKS[currentDeck];
+  
+  // Group cards by box
+  const boxes = {1: [], 2: [], 3: [], 4: [], 5: []};
+  cards.forEach((card, index) => {
+    const key = `${currentDeck}_${card.q}`;
+    const box = leitnerState[key] || 1;
+    boxes[box].push(index);
+  });
+
+  // Leitner weight probabilities: Box 1 (55%), Box 2 (25%), Box 3 (10%), Box 4 (7%), Box 5 (3%)
+  const roll = Math.random() * 100;
+  let targetBox = 1;
+  if (roll < 55) targetBox = 1;
+  else if (roll < 80) targetBox = 2;
+  else if (roll < 90) targetBox = 3;
+  else if (roll < 97) targetBox = 4;
+  else targetBox = 5;
+
+  let chosenPool = boxes[targetBox];
+  if (chosenPool.length === 0) {
+    // Fallback to any non-empty box
+    for (let b = 1; b <= 5; b++) {
+      if (boxes[b].length > 0) {
+        chosenPool = boxes[b];
+        break;
+      }
+    }
+  }
+
+  if (chosenPool && chosenPool.length > 0) {
+    currentCardIndex = chosenPool[Math.floor(Math.random() * chosenPool.length)];
+    const card = cards[currentCardIndex];
+    
+    // Reset Card Flip State
+    const cardEl = document.getElementById('war-room-flashcard');
+    if (cardEl) cardEl.parentElement.classList.remove('flipped');
+
+    document.getElementById('flashcard-front-text').innerText = card.q;
+    document.getElementById('flashcard-back-text').innerText = card.a;
+
+    // Show reveal button, hide grading
+    document.getElementById('flashcard-reveal-btn').style.display = 'block';
+    document.getElementById('flashcard-grading-controls').style.display = 'none';
+  }
+}
+
+function flipFlashcard() {
+  const cardEl = document.getElementById('war-room-flashcard');
+  if (cardEl) {
+    cardEl.parentElement.classList.toggle('flipped');
+  }
+}
+
+function revealFlashcard() {
+  const cardEl = document.getElementById('war-room-flashcard');
+  if (cardEl) {
+    cardEl.parentElement.classList.add('flipped');
+  }
+  document.getElementById('flashcard-reveal-btn').style.display = 'none';
+  document.getElementById('flashcard-grading-controls').style.display = 'flex';
+}
+
+function gradeFlashcard(boxAction) {
+  const cards = FLASHCARD_DECKS[currentDeck];
+  if (currentCardIndex === -1 || !cards[currentCardIndex]) return;
+
+  const card = cards[currentCardIndex];
+  const key = `${currentDeck}_${card.q}`;
+  let currentBox = leitnerState[key] || 1;
+
+  if (boxAction === 1) {
+    currentBox = 1; // Send back to box 1
+  } else if (boxAction === 2) {
+    currentBox = Math.min(5, currentBox + 1); // Upgrade box level
+  } else if (boxAction === 5) {
+    currentBox = 5; // Direct Mastery
+  }
+
+  leitnerState[key] = currentBox;
+  saveLeitnerState();
+  updateLeitnerStats();
+  pickNextFlashcard();
+}
+
+function resetLeitnerProgress() {
+  if (confirm("Reset spaced repetition memory state for this deck?")) {
+    FLASHCARD_DECKS[currentDeck].forEach(card => {
+      const key = `${currentDeck}_${card.q}`;
+      leitnerState[key] = 1;
+    });
+    saveLeitnerState();
+    updateLeitnerStats();
+    pickNextFlashcard();
+  }
+}
+
+// Interactive Weapons & Radar Simulator
+let simCanvas, simCtx;
+let simInterval = null;
+let missilePos = { x: 0, y: 0 };
+let missileVelocity = { x: 0, y: 0 };
+let isMissileFlying = false;
+let simPath = [];
+let simG = 0.08; // Custom gravity factor for canvas dimensions
+
+function initSimulatorCanvas() {
+  simCanvas = document.getElementById('weapons-sim-canvas');
+  if (!simCanvas) return;
+  simCtx = simCanvas.getContext('2d');
+  
+  // Set dimensions
+  const rect = simCanvas.getBoundingClientRect();
+  simCanvas.width = rect.width || 460;
+  simCanvas.height = rect.height || 320;
+  
+  drawSimulator();
+}
+
+function drawSimulator() {
+  if (!simCtx || !simCanvas) return;
+  simCtx.clearRect(0, 0, simCanvas.width, simCanvas.height);
+  
+  // Draw ground
+  simCtx.fillStyle = '#1e293b';
+  simCtx.fillRect(0, simCanvas.height - 20, simCanvas.width, 20);
+  
+  // Sliders values
+  const angle = parseInt(document.getElementById('input-sim-angle').value);
+  const velocityPct = parseInt(document.getElementById('input-sim-velocity').value);
+  const radarRadius = parseInt(document.getElementById('input-sim-radar').value);
+  
+  document.getElementById('label-sim-angle').innerText = `${angle}°`;
+  document.getElementById('label-sim-velocity').innerText = `${velocityPct}%`;
+  document.getElementById('label-sim-radar').innerText = `${radarRadius} km`;
+
+  // Draw early warning Radar Dome (centered at X=200)
+  const radarX = 220;
+  const radarY = simCanvas.height - 20;
+  
+  // Draw radar coverage zone
+  simCtx.beginPath();
+  simCtx.arc(radarX, radarY, radarRadius * 0.6, Math.PI, 0); // scale radius for canvas sizing
+  simCtx.fillStyle = 'rgba(22, 163, 74, 0.06)';
+  simCtx.fill();
+  simCtx.strokeStyle = 'rgba(22, 163, 74, 0.3)';
+  simCtx.lineWidth = 1.5;
+  simCtx.stroke();
+  
+  // Radar post
+  simCtx.fillStyle = 'var(--accent)';
+  simCtx.fillRect(radarX - 4, radarY - 10, 8, 10);
+  
+  // Draw Launch Platform
+  simCtx.fillStyle = '#64748b';
+  simCtx.fillRect(15, simCanvas.height - 30, 20, 10);
+
+  // Draw vector pointer line
+  const radians = (angle * Math.PI) / 180;
+  const ptrLen = 35;
+  simCtx.beginPath();
+  simCtx.moveTo(25, simCanvas.height - 30);
+  simCtx.lineTo(25 + Math.cos(radians) * ptrLen, simCanvas.height - 30 - Math.sin(radians) * ptrLen);
+  simCtx.strokeStyle = 'var(--warning)';
+  simCtx.lineWidth = 2;
+  simCtx.stroke();
+
+  // Draw trajectory trace
+  if (simPath.length > 1) {
+    simCtx.beginPath();
+    simCtx.moveTo(simPath[0].x, simPath[0].y);
+    for (let i = 1; i < simPath.length; i++) {
+      simCtx.lineTo(simPath[i].x, simPath[i].y);
+    }
+    simCtx.strokeStyle = 'rgba(251, 191, 36, 0.5)';
+    simCtx.lineWidth = 1.5;
+    simCtx.stroke();
+  }
+
+  // Draw Missile
+  if (isMissileFlying) {
+    simCtx.beginPath();
+    simCtx.arc(missilePos.x, missilePos.y, 4, 0, Math.PI * 2);
+    simCtx.fillStyle = 'var(--danger)';
+    simCtx.fill();
+    simCtx.shadowColor = 'var(--danger)';
+    simCtx.shadowBlur = 8;
+    
+    // Check if missile is in radar coverage dome
+    const distToRadar = Math.hypot(missilePos.x - radarX, missilePos.y - radarY);
+    if (distToRadar < (radarRadius * 0.6)) {
+      // Draw radar sweep beam intercepting the missile
+      simCtx.beginPath();
+      simCtx.moveTo(radarX, radarY);
+      simCtx.lineTo(missilePos.x, missilePos.y);
+      simCtx.strokeStyle = 'rgba(239, 68, 68, 0.4)';
+      simCtx.lineWidth = 1.5;
+      simCtx.stroke();
+      
+      document.getElementById('sim-status-label').innerText = "RADAR INTERCEPT ACTIVE";
+      document.getElementById('sim-status-label').style.color = "var(--danger)";
+    } else {
+      document.getElementById('sim-status-label').innerText = "FLIGHT IN PROGRESS";
+      document.getElementById('sim-status-label').style.color = "var(--warning)";
+    }
+    simCtx.shadowBlur = 0; // reset
+  }
+}
+
+// Cockpit Audio HUD & Verbal Speech Alerts
+let audioContext = null;
+let cockpitOsc = null;
+let cockpitGain = null;
+
+function toggleAudioHud(active) {
+  if (active) {
+    try {
+      audioContext = new (window.AudioContext || window.webkitAudioContext)();
+      
+      // Low cockpit engine rumble/drone
+      cockpitOsc = audioContext.createOscillator();
+      cockpitOsc.type = 'triangle';
+      cockpitOsc.frequency.setValueAtTime(55, audioContext.currentTime); // 55Hz G1 rumble
+      
+      cockpitGain = audioContext.createGain();
+      cockpitGain.gain.setValueAtTime(0.04, audioContext.currentTime); // low background volume
+      
+      cockpitOsc.connect(cockpitGain);
+      cockpitGain.connect(audioContext.destination);
+      cockpitOsc.start();
+      
+      announceVerbalHUD("Cockpit Audio HUD initialized. Tactical systems online.");
+    } catch (e) {
+      console.warn("AudioContext failed", e);
+    }
+  } else {
+    // Terminate audio nodes
+    if (cockpitOsc) {
+      try { cockpitOsc.stop(); } catch(e) {}
+      cockpitOsc.disconnect();
+    }
+    if (audioContext) {
+      audioContext.close();
+    }
+    audioContext = null;
+  }
+}
+
+function announceVerbalHUD(text) {
+  if ('speechSynthesis' in window) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.volume = 0.85;
+    utterance.rate = 1.05;
+    // Find an English male/robotic voice if available
+    const voices = window.speechSynthesis.getVoices();
+    const targetVoice = voices.find(v => v.lang.startsWith('en') && (v.name.includes('Google') || v.name.includes('Natural')));
+    if (targetVoice) utterance.voice = targetVoice;
+    
+    window.speechSynthesis.speak(utterance);
+  }
+}
+
+// Intercept timer updates in app.js and speak alarms
+setInterval(() => {
+  const activeOverlay = document.getElementById('cbt-player-overlay');
+  const toggle = document.getElementById('cbt-audio-hud-toggle');
+  if (activeOverlay && activeOverlay.style.display !== 'none' && toggle && toggle.checked) {
+    const timerText = document.getElementById('cbt-active-timer').innerText;
+    // Check for remaining time thresholds
+    if (timerText === "00:05:00") {
+      announceVerbalHUD("Warning Cadet. Five minutes remaining to complete mission parameters.");
+      triggerBeepAlert(880, 0.4);
+    } else if (timerText === "00:01:00") {
+      announceVerbalHUD("Alert: Critical warning. One minute remaining. Wrap up all calculations.");
+      triggerBeepAlert(1200, 0.8);
+    }
+  }
+}, 1000);
+
+function triggerBeepAlert(freq, duration) {
+  if (!audioContext) return;
+  const osc = audioContext.createOscillator();
+  const gain = audioContext.createGain();
+  osc.frequency.value = freq;
+  gain.gain.setValueAtTime(0.1, audioContext.currentTime);
+  osc.connect(gain);
+  gain.connect(audioContext.destination);
+  osc.start();
+  setTimeout(() => {
+    osc.stop();
+  }, duration * 1000);
+}
+
+// Export functions to global scope
+
+window.toggleAudioHud = toggleAudioHud;
+
+// Weekly Study Planner Logic
+function initWeeklyPlanner() {
+  const defaultPlan = {
+    "Monday": { subject: "Mathematics", topic: "Trigonometric Identities", completed: false },
+    "Tuesday": { subject: "English", topic: "Parts of Speech", completed: false },
+    "Wednesday": { subject: "Polity", topic: "Fundamental Rights", completed: false },
+    "Thursday": { subject: "History", topic: "Indus Valley Civilization", completed: false },
+    "Friday": { subject: "Geography", topic: "Earth & Atmosphere", completed: false },
+    "Saturday": { subject: "Science", topic: "Newton's Laws of Motion", completed: false },
+    "Sunday": { subject: "CBT Mock Exam", topic: "Full Length NDA/CDS Mock", completed: false }
+  };
+  
+  let plan = localStorage.getItem("tac-weekly-plan");
+  if (!plan) {
+    localStorage.setItem("tac-weekly-plan", JSON.stringify(defaultPlan));
+  }
+  renderWeeklyPlanner();
+}
+
+function renderWeeklyPlanner() {
+  const container = document.getElementById("weekly-planner-container");
+  if (!container) return;
+  
+  let plan = JSON.parse(localStorage.getItem("tac-weekly-plan"));
+  if (!plan) return;
+  
+  container.innerHTML = "";
+  
+  const daysOrder = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  
+  daysOrder.forEach(day => {
+    const dayData = plan[day];
+    const card = document.createElement("div");
+    card.style.background = "rgba(255, 255, 255, 0.03)";
+    card.style.border = dayData.completed ? "1px solid rgba(34, 197, 94, 0.3)" : "1px solid rgba(255, 255, 255, 0.05)";
+    card.style.borderRadius = "8px";
+    card.style.padding = "12px";
+    card.style.cursor = "pointer";
+    card.style.display = "flex";
+    card.style.flexDirection = "column";
+    card.style.justifyContent = "space-between";
+    card.style.transition = "all 0.2s ease";
+    card.style.minHeight = "110px";
+    card.style.position = "relative";
+    card.style.overflow = "hidden";
+    
+    // Hover effects
+    card.addEventListener("mouseenter", () => {
+      card.style.background = "rgba(255, 255, 255, 0.06)";
+      card.style.border = "1px solid var(--accent)";
+    });
+    card.addEventListener("mouseleave", () => {
+      card.style.background = "rgba(255, 255, 255, 0.03)";
+      card.style.border = dayData.completed ? "1px solid rgba(34, 197, 94, 0.3)" : "1px solid rgba(255, 255, 255, 0.05)";
+    });
+    
+    // Content
+    card.innerHTML = `
+      <div>
+        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); font-weight: 700; margin-bottom: 6px; text-transform: uppercase;">${day}</div>
+        <div style="font-weight: 600; font-size: 0.85rem; color: var(--text-primary); margin-bottom: 2px;">${dayData.subject}</div>
+        <div style="font-size: 0.75rem; color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 120px;" title="${dayData.topic}">${dayData.topic}</div>
+      </div>
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; gap:8px;">
+        <span style="font-size:0.65rem; color:${dayData.completed ? '#4ade80' : 'var(--text-muted)'}; font-family:var(--font-mono); font-weight:700;">
+          ${dayData.completed ? 'SUCCESS' : 'PENDING'}
+        </span>
+        <input type="checkbox" ${dayData.completed ? 'checked' : ''} onclick="event.stopPropagation(); toggleDayPlan('${day}')" style="cursor:pointer; width:14px; height:14px; accent-color:var(--accent);">
+      </div>
+    `;
+    
+    // Click to edit
+    card.addEventListener("click", () => {
+      editDayPlan(day);
+    });
+    
+    container.appendChild(card);
+  });
+}
+
+function toggleDayPlan(day) {
+  let plan = JSON.parse(localStorage.getItem("tac-weekly-plan"));
+  if (plan && plan[day]) {
+    plan[day].completed = !plan[day].completed;
+    localStorage.setItem("tac-weekly-plan", JSON.stringify(plan));
+    renderWeeklyPlanner();
+    
+    // Add XP reward for completing study plans!
+    if (plan[day].completed) {
+      if (typeof STATE !== 'undefined' && STATE.userProfile) {
+        STATE.userProfile.xp += 100;
+        localStorage.setItem('tac-revise-state', JSON.stringify(STATE));
+        initUserProfile();
+      }
+    }
+  }
+}
+
+function editDayPlan(day) {
+  let plan = JSON.parse(localStorage.getItem("tac-weekly-plan"));
+  if (!plan || !plan[day]) return;
+  
+  const currentSubject = plan[day].subject;
+  const currentTopic = plan[day].topic;
+  
+  const newSubject = prompt(`[MISSION RE-ASSIGNMENT] Enter Subject for ${day}:`, currentSubject);
+  if (newSubject === null) return; // cancelled
+  
+  const newTopic = prompt(`[MISSION RE-ASSIGNMENT] Enter Topic/Target details:`, currentTopic);
+  if (newTopic === null) return; // cancelled
+  
+  plan[day].subject = newSubject || "Rest Day";
+  plan[day].topic = newTopic || "No target assigned";
+  plan[day].completed = false; // Reset completed status on edit
+  
+  localStorage.setItem("tac-weekly-plan", JSON.stringify(plan));
+  renderWeeklyPlanner();
+}
+
+window.initWeeklyPlanner = initWeeklyPlanner;
+window.renderWeeklyPlanner = renderWeeklyPlanner;
+window.toggleDayPlan = toggleDayPlan;
+window.editDayPlan = editDayPlan;
+
+window.renderSyllabusMasteryHeatmap = function() {
+  const container = document.getElementById("dashboard-mastery-heatmap");
+  if (!container) return;
+  if (typeof NOTES_DATABASE === 'undefined') return;
+  
+  let html = "";
+  for (const [subjectId, subject] of Object.entries(NOTES_DATABASE)) {
+    let total = 0;
+    let completed = 0;
+    if (subject && subject.chapters) {
+      subject.chapters.forEach(c => {
+        if (c.topics) {
+          c.topics.forEach(t => {
+            total++;
+            if (STATE.syllabusProgress && STATE.syllabusProgress[t.id] === 'completed') {
+              completed++;
+            }
+          });
+        }
+      });
+    }
+    
+    const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
+    let color = "#ef4444"; // Red
+    if (pct >= 80) color = "#22c55e"; // Green
+    else if (pct >= 40) color = "#eab308"; // Yellow
+    else if (pct > 0) color = "#f97316"; // Orange
+    
+    const displayName = subject.title || subjectId.charAt(0).toUpperCase() + subjectId.slice(1);
+    
+    html += `
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border); padding: 10px; border-radius: 6px; text-align: center; display: flex; flex-direction: column; justify-content: space-between; align-items: center; min-height: 80px;">
+        <span style="font-size: 0.72rem; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; margin-bottom: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%;" title="${displayName}">${displayName}</span>
+        <div style="width: 100%; height: 6px; background: rgba(255,255,255,0.08); border-radius: 3px; overflow: hidden; margin-bottom: 8px;">
+          <div style="width: ${pct}%; height: 100%; background: ${color}; transition: width 0.3s ease;"></div>
+        </div>
+        <span style="font-family: var(--font-mono); font-size: 0.82rem; font-weight: bold; color: ${color};">${pct}%</span>
+      </div>
+    `;
+  }
+  
+  container.innerHTML = html;
+};
+
+window.generateCustomTargets = async function() {
+  const hours = document.getElementById("target-hours-input").value;
+  const subjectId = document.getElementById("target-subject-select").value;
+  const output = document.getElementById("custom-targets-output");
+  
+  if (!output) return;
+  output.style.display = "block";
+  output.innerHTML = `
+    <div style="text-align: center;">
+      <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 30px; height: 30px; border-width: 3px; margin: 0 auto 12px;"></div>
+      <p style="color: var(--accent); font-family: var(--font-logo); font-size: 0.85rem; font-weight: 600;">FORMULATING REVISION BLUEPRINT...</p>
+    </div>
+  `;
+  
+  // Collect subject specific info
+  const subject = NOTES_DATABASE[subjectId];
+  let topicsList = [];
+  if (subject && subject.chapters) {
+    subject.chapters.forEach(c => {
+      if (c.topics) {
+        c.topics.forEach(t => {
+          const status = (STATE.syllabusProgress && STATE.syllabusProgress[t.id]) || "uncompleted";
+          topicsList.push(`- ${t.title} (${status})`);
+        });
+      }
+    });
+  }
+  
+  const prompt = `You are a high-ranking Indian military strategist and academic advisor.
+The cadet wants to revise the subject "${subjectId.toUpperCase()}" during a ${hours}-hour study block.
+
+Below is their current syllabus progress for this subject:
+${topicsList.join('\n')}
+
+Develop an hourly, high-yield tactical revision blueprint for this ${hours}-hour study block. 
+Break down the allocation of time (e.g., 0-60 mins, 60-120 mins) and match them with specific topics, prioritizing their uncompleted topics. 
+For each block, provide:
+1. Revision objective
+2. High-yield terms or formulas to focus on (wrap key terms in Wikipedia brackets, e.g. [[Fundamental Rights]] or [[Matrices]])
+3. Strategic tip for memory retention
+
+Format with clean, bold headings and simple HTML line breaks. Do NOT use any emojis, icons, or pictorial characters. Keep the tone strictly professional, inspiring, and military-oriented.`;
+
+  try {
+    const response = await fetch('http://localhost:4000/api/gemini', {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        model: "gemini-2.5-flash",
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { temperature: 0.2 }
+      })
+    });
+    
+    if (response.ok) {
+      const data = await response.json();
+      if (data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts[0]) {
+        let text = data.candidates[0].content.parts[0].text;
+        let formattedText = text
+          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+          .replace(/\*(.*?)\*/g, '<em>$1</em>')
+          .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+          .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:12px 0 6px;">$1</h4>')
+          .replace(/\n/g, '<br/>');
+        
+        output.innerHTML = `
+          <h3 style="color: var(--accent); font-family: var(--font-logo); font-size: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 12px;">[ TACTICAL STUDY TARGET PLAN ]</h3>
+          <div style="line-height: 1.7; font-size: 0.9rem; color: var(--text-primary);">${parseWikiLinks(formattedText)}</div>
+        `;
+        return;
+      }
+    }
+    throw new Error("API call failed");
+  } catch(e) {
+    console.error(e);
+    output.innerHTML = `<p style="color: var(--danger);">Failed to formulate blueprint. Check server status and try again.</p>`;
+  }
+};
+
+// Decorate the updateDashboardMetrics global function to automatically render the new Mastery Heatmap
+if (typeof window.updateDashboardMetrics === 'function') {
+  const originalUpdateMetrics = window.updateDashboardMetrics;
+  window.updateDashboardMetrics = function() {
+    originalUpdateMetrics();
+    if (typeof renderSyllabusMasteryHeatmap === 'function') {
+      renderSyllabusMasteryHeatmap();
+    }
+  };
+} else {
+  // Fallback wrapper if loaded out-of-order
+  document.addEventListener("DOMContentLoaded", () => {
+    const originalUpdateMetrics = window.updateDashboardMetrics;
+    if (typeof originalUpdateMetrics === 'function') {
+      window.updateDashboardMetrics = function() {
+        originalUpdateMetrics();
+        if (typeof renderSyllabusMasteryHeatmap === 'function') {
+          renderSyllabusMasteryHeatmap();
+        }
+      };
+    }
+  });
+}
+
+
+

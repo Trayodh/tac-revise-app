@@ -25,78 +25,119 @@
   --font-logo: 'Outfit', sans-serif;
 }
 
-[data-theme="cyberpunk"] {
-  --accent: #ec4899;        /* Neon Pink */
-  --accent-rgb: 236, 72, 153;
-  --accent-dark: #be185d;
-  --accent-light: #f472b6;
-  --info: #06b6d4;          /* Cyber Cyan */
-}
-
-[data-theme="tactical"] {
-  --accent: #84cc16;        /* Olive Drab */
-  --accent-rgb: 132, 204, 22;
-  --accent-dark: #4d7c0f;
-  --accent-light: #a3e635;
-  --info: #eab308;          /* Desert Sand */
-}
-
-[data-theme="amethyst"] {
-  --accent: #a855f7;        /* Deep Purple */
-  --accent-rgb: 168, 85, 247;
-  --accent-dark: #7e22ce;
-  --accent-light: #c084fc;
-  --info: #10b981;          /* Emerald Green */
-}
-
-[data-theme="crimson"] {
-  --accent: #dc2626;        /* Crimson Red */
-  --accent-rgb: 220, 38, 38;
-  --accent-dark: #991b1b;
-  --accent-light: #ef4444;
-  --info: #6366f1;          /* Slate Blue */
-}
-
-[data-theme="monochrome"] {
-  --bg-primary: #000000;
-  --bg-secondary: #0a0a0a;
-  --bg-tertiary: #121212;
-  --bg-hover: #1e1e1e;
-  --border: #ffffff;
-  --border-glow: rgba(255, 255, 255, 0.5);
-  --text-primary: #ffffff;
-  --text-secondary: #e5e5e5;
-  --text-muted: #a0a0a0;
-  --accent: #ffffff;
-  --accent-rgb: 255, 255, 255;
-  --accent-dark: #cccccc;
-  --accent-light: #ffffff;
-  --info: #ffffff;
-  --warning: #ffffff;
-  --danger: #ffffff;
-}
-
-[data-theme="vanguard-stealth"] {
-  --bg-primary: #0a0d08;      /* Deep Stealth Green-Black */
-  --bg-secondary: #12170f;    /* Camo Shadow Green */
-  --bg-tertiary: #192115;     /* Tactical Army Green */
-  --bg-hover: #222d1d;        /* Active Camo Green */
+[data-theme="woodland-camo"] {
+  --bg-primary: #1b221a;      /* Woodland Shadow Black-Green */
+  --bg-secondary: #242f22;    /* Olive Drab Shade */
+  --bg-tertiary: #344230;     /* Forest Green Shade */
+  --bg-hover: #40523c;        /* Active Foliage */
   
-  --border: rgba(132, 204, 22, 0.18); /* Olive green border */
+  --border: rgba(132, 204, 22, 0.2); 
   --border-glow: rgba(132, 204, 22, 0.4);
   
-  --text-primary: #f1f5f1;    /* Off-white sage */
-  --text-secondary: #a7bfa7;  /* Muted sage */
-  --text-muted: #5e7a5e;      /* Sage grey */
+  --text-primary: #f1f5f1;    
+  --text-secondary: #a3b899;  /* Woodland Sage */
+  --text-muted: #68805f;      
   
-  --accent: #84cc16;          /* Tactical Olive Drab */
+  --accent: #84cc16;          /* Woodland Lime */
   --accent-rgb: 132, 204, 22;
-  --accent-dark: #3f6212;
+  --accent-dark: #4d7c0f;
   --accent-light: #bef264;
   
-  --info: #f59e0b;            /* High-Vis Amber */
-  --warning: #eab308;         /* Desert Yellow */
-  --danger: #ef4444;          /* Alert Red */
+  --info: #eab308;            
+  --warning: #f97316;         
+  --danger: #ef4444;          
+}
+
+[data-theme="desert-camo"] {
+  --bg-primary: #251e18;      /* Desert Sand Dust Black */
+  --bg-secondary: #362d25;    /* Coyote Brown Shade */
+  --bg-tertiary: #4d4035;     /* Khaki Sand Shade */
+  --bg-hover: #5e4f42;        /* Dune Tan */
+  
+  --border: rgba(217, 119, 6, 0.2); 
+  --border-glow: rgba(217, 119, 6, 0.4);
+  
+  --text-primary: #fefce8;    
+  --text-secondary: #dbcaaf;  /* Desert Tan */
+  --text-muted: #a8896c;      /* Earth Soil */
+  
+  --accent: #d97706;          /* Coyote Amber */
+  --accent-rgb: 217, 119, 6;
+  --accent-dark: #92400e;
+  --accent-light: #f59e0b;
+  
+  --info: #38bdf8;            
+  --warning: #f97316;         
+  --danger: #ef4444;          
+}
+
+[data-theme="urban-camo"] {
+  --bg-primary: #0f1115;      /* Urban Shadow Black */
+  --bg-secondary: #1b1e24;    /* Slate Grey Shade */
+  --bg-tertiary: #272c35;     /* Stealth Steel Shade */
+  --bg-hover: #333a46;        /* Active Concrete */
+  
+  --border: rgba(148, 163, 184, 0.25); 
+  --border-glow: rgba(148, 163, 184, 0.5);
+  
+  --text-primary: #f8fafc;    
+  --text-secondary: #94a3b8;  /* Urban Dust */
+  --text-muted: #64748b;      
+  
+  --accent: #cbd5e1;          /* Tactical Light Ash */
+  --accent-rgb: 203, 213, 225;
+  --accent-dark: #475569;
+  --accent-light: #f1f5f9;
+  
+  --info: #38bdf8;            
+  --warning: #fbbf24;         
+  --danger: #f87171;          
+}
+
+[data-theme="arctic-camo"] {
+  --bg-primary: #0f172a;      /* Arctic Midnight Blue */
+  --bg-secondary: #1e293b;    /* Tundra Grey Shade */
+  --bg-tertiary: #334155;     /* Glacier Ice Shade */
+  --bg-hover: #475569;        /* Active Snow */
+  
+  --border: rgba(248, 250, 252, 0.2); 
+  --border-glow: rgba(56, 189, 248, 0.4);
+  
+  --text-primary: #f8fafc;    
+  --text-secondary: #e2e8f0;  /* Glacier White */
+  --text-muted: #94a3b8;      
+  
+  --accent: #38bdf8;          /* Ice Blue */
+  --accent-rgb: 56, 189, 248;
+  --accent-dark: #0284c7;
+  --accent-light: #bae6fd;
+  
+  --info: #0ea5e9;            
+  --warning: #fbbf24;         
+  --danger: #f87171;          
+}
+
+[data-theme="navy-camo"] {
+  --bg-primary: #08101f;      /* Abyss Ocean Black */
+  --bg-secondary: #0f1d35;    /* Navy Digital Deck */
+  --bg-tertiary: #182f54;     /* Fleet Blue Shade */
+  --bg-hover: #203f6f;        /* Active Sonar Deck */
+  
+  --border: rgba(14, 165, 233, 0.25); 
+  --border-glow: rgba(14, 165, 233, 0.5);
+  
+  --text-primary: #f0f9ff;    
+  --text-secondary: #bae6fd;  /* Seafoam Teal */
+  --text-muted: #38bdf8;      
+  
+  --accent: #0ea5e9;          /* Fleet Blue */
+  --accent-rgb: 14, 165, 233;
+  --accent-dark: #0369a1;
+  --accent-light: #7dd3fc;
+  
+  --info: #00f5d4;            
+  --warning: #fbbf24;         
+  --danger: #f87171;          
 }
 
 [data-theme="zen-focus"] {
@@ -1061,12 +1102,26 @@ h1 {
   padding: 4px 10px;
   font-size: 0.8rem;
   border-radius: 4px;
-  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  display: inline-block;
 }
 
-.exam-type-badge.nda { background-color: rgba(239, 68, 68, 0.15); color: var(--danger); }
-.exam-type-badge.cds { background-color: rgba(59, 130, 246, 0.15); color: var(--info); }
-.exam-type-badge.afcat { background-color: rgba(245, 158, 11, 0.15); color: var(--warning); }
+.exam-type-badge.nda { 
+  background-color: rgba(239, 68, 68, 0.12); 
+  color: #ef4444; 
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+.exam-type-badge.cds { 
+  background-color: rgba(59, 130, 246, 0.12); 
+  color: #3b82f6; 
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+.exam-type-badge.afcat { 
+  background-color: rgba(234, 179, 8, 0.12); 
+  color: #eab308; 
+  border: 1px solid rgba(234, 179, 8, 0.3);
+}
 
 .exam-card-title {
   font-size: 1.25rem;
@@ -3038,3 +3093,299 @@ body.light-mode {
 .cbt-overlay {
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
+
+/* ==========================================
+   HUD STYLING & GLOWING EFFECTS
+   ========================================== */
+.hud-panel {
+  background: linear-gradient(135deg, rgba(16, 24, 16, 0.85) 0%, rgba(8, 12, 8, 0.95) 100%) !important;
+  border: 1px solid rgba(132, 204, 22, 0.3) !important;
+  box-shadow: 0 0 15px rgba(132, 204, 22, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.hud-glow-text {
+  text-shadow: 0 0 8px rgba(132, 204, 22, 0.6);
+  color: var(--accent) !important;
+}
+
+/* Scanning Radar Sweep animation */
+.radar-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.radar-container::after {
+  content: '';
+  position: absolute;
+  top: -150%;
+  left: -150%;
+  width: 300%;
+  height: 300%;
+  background: conic-gradient(from 0deg, rgba(132, 204, 22, 0) 0%, rgba(132, 204, 22, 0) 70%, rgba(132, 204, 22, 0.08) 95%, rgba(132, 204, 22, 0.15) 100%);
+  animation: radar-sweep-animation 6s linear infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@keyframes radar-sweep-animation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Medals & Badges layout */
+.medals-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+  margin-top: 12px;
+}
+
+.medal-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  text-align: center;
+  opacity: 0.25;
+  filter: grayscale(1);
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.medal-badge.unlocked {
+  opacity: 1;
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+
+.medal-badge.unlocked:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 8px var(--accent));
+}
+
+.medal-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+  transition: all 0.3s ease;
+}
+
+.medal-badge.unlocked .medal-icon {
+  background: linear-gradient(135deg, rgba(250, 204, 21, 0.2) 0%, rgba(234, 88, 12, 0.2) 100%);
+  border-color: #fbbf24;
+  box-shadow: 0 0 10px rgba(251, 191, 36, 0.4);
+}
+
+.medal-name {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  line-height: 1.2;
+}
+
+.medal-desc {
+  visibility: hidden;
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.95);
+  color: #fff;
+  text-align: center;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--accent);
+  font-size: 0.7rem;
+  width: 140px;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.medal-badge:hover .medal-desc {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* ==========================================
+   TACTICAL WAR ROOM CSS
+   ========================================== */
+.war-room-pane {
+  display: none;
+}
+.war-room-pane.active {
+  display: block;
+}
+
+/* Radar ping animations for map hotspots */
+.radar-ping {
+  transform-origin: center;
+  animation: map-ping-animation 2s ease-out infinite;
+}
+
+@keyframes map-ping-animation {
+  0% {
+    r: 6;
+    opacity: 0.8;
+  }
+  100% {
+    r: 24;
+    opacity: 0;
+  }
+}
+
+.map-hotspot:hover circle:nth-child(2) {
+  r: 9;
+  filter: drop-shadow(0 0 6px var(--accent));
+}
+
+.map-hotspot text {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.map-hotspot:hover text {
+  opacity: 1;
+}
+
+/* 3D Flipping Flashcards */
+.flashcard-container {
+  width: 100%;
+  height: 250px;
+  perspective: 1000px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.flashcard-container:hover .flashcard-inner {
+  box-shadow: 0 0 20px rgba(132, 204, 22, 0.25);
+}
+
+.flashcard-container.flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front, .flashcard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.flashcard-front {
+  background: linear-gradient(135deg, rgba(20, 24, 20, 0.95) 0%, rgba(10, 14, 10, 0.95) 100%);
+  border-color: rgba(132, 204, 22, 0.2);
+  color: var(--text-primary);
+}
+
+.flashcard-back {
+  background: linear-gradient(135deg, rgba(10, 18, 12, 0.98) 0%, rgba(5, 10, 5, 0.98) 100%);
+  border-color: rgba(34, 197, 94, 0.3);
+  color: var(--text-secondary);
+  transform: rotateY(180deg);
+}
+
+.flashcard-type-label {
+  position: absolute;
+  top: 16px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(132, 204, 22, 0.08);
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid rgba(132, 204, 22, 0.15);
+}
+
+.flashcard-hint {
+  position: absolute;
+  bottom: 16px;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#flashcard-front-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#flashcard-back-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Leitner Box Grid Boxes */
+.leitner-box-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0,0,0,0.2);
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+.leitner-box-badge {
+  background: rgba(255,255,255,0.06);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* SRS Modal Styling */
+.srs-modal-panel {
+  background: rgba(17, 24, 39, 0.95) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 12px;
+}
+
+.srs-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.srs-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+

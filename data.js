@@ -18,9 +18,9 @@ const NOTES_DATABASE = {
               <h3>1. Core Trigonometric Identities</h3>
               <p>Pythagorean identities form the bedrock of trigonometric simplification:</p>
               <ul>
-                <li><strong>sin²θ + cos²θ = 1</strong> ⇒ sin²θ = 1 - cos²θ ; cos²θ = 1 - sin²θ</li>
-                <li><strong>sec²θ - tan²θ = 1</strong> (θ ≠ (2n+1)π/2) ⇒ sec²θ = 1 + tan²θ ; tan²θ = sec²θ - 1</li>
-                <li><strong>cosec²θ - cot²θ = 1</strong> (θ ≠ nπ) ⇒ cosec²θ = 1 + cot²θ ; cot²θ = cosec²θ - 1</li>
+                <li>**sin²θ + cos²θ = 1** ⇒ sin²θ = 1 - cos²θ ; cos²θ = 1 - sin²θ</li>
+                <li>**sec²θ - tan²θ = 1** (θ ≠ (2n+1)π/2) ⇒ sec²θ = 1 + tan²θ ; tan²θ = sec²θ - 1</li>
+                <li>**cosec²θ - cot²θ = 1** (θ ≠ nπ) ⇒ cosec²θ = 1 + cot²θ ; cot²θ = cosec²θ - 1</li>
               </ul>
               
               <h3>2. Sum & Difference Formulas</h3>
@@ -86,12 +86,12 @@ const NOTES_DATABASE = {
               <h3>1. Principal Value Branches (PVB)</h3>
               <p>The domain and range must be strictly memorized to solve standard NDA/CDS equations:</p>
               <ul>
-                <li><strong>sin⁻¹ x</strong> : Domain = [-1, 1] , Range (PVB) = [-π/2, π/2]</li>
-                <li><strong>cos⁻¹ x</strong> : Domain = [-1, 1] , Range (PVB) = [0, π]</li>
-                <li><strong>tan⁻¹ x</strong> : Domain = ℝ , Range (PVB) = (-π/2, π/2)</li>
-                <li><strong>cosec⁻¹ x</strong> : Domain = ℝ - (-1, 1) , Range (PVB) = [-π/2, π/2] - {0}</li>
-                <li><strong>sec⁻¹ x</strong> : Domain = ℝ - (-1, 1) , Range (PVB) = [0, π] - {π/2}</li>
-                <li><strong>cot⁻¹ x</strong> : Domain = ℝ , Range (PVB) = (0, π)</li>
+                <li>**sin⁻¹ x** : Domain = [-1, 1] , Range (PVB) = [-π/2, π/2]</li>
+                <li>**cos⁻¹ x** : Domain = [-1, 1] , Range (PVB) = [0, π]</li>
+                <li>**tan⁻¹ x** : Domain = ℝ , Range (PVB) = (-π/2, π/2)</li>
+                <li>**cosec⁻¹ x** : Domain = ℝ - (-1, 1) , Range (PVB) = [-π/2, π/2] - {0}</li>
+                <li>**sec⁻¹ x** : Domain = ℝ - (-1, 1) , Range (PVB) = [0, π] - {π/2}</li>
+                <li>**cot⁻¹ x** : Domain = ℝ , Range (PVB) = (0, π)</li>
               </ul>
               
               <h3>2. Fundamental Properties</h3>
@@ -156,8 +156,8 @@ const NOTES_DATABASE = {
               </ul>
             `,
             formulas: `
-              <li><strong>Sum of roots:</strong> alpha + eta = -b/a</li>
-              <li><strong>Product of roots:</strong> alphaeta = c/a</li>
+              <li>**Sum of roots:** alpha + eta = -b/a</li>
+              <li>**Product of roots:** alphaeta = c/a</li>
             `
           },
           {
@@ -167,12 +167,12 @@ const NOTES_DATABASE = {
               <h3>1. Polar Form and Modulus</h3>
               <p>A complex number z = x + iy has a modulus |z| = sqrtx2 + y2.</p>
               <ul>
-                <li><strong>Argument:</strong> 	heta = 	an-1(y/x)</li>
-                <li><strong>De Moivre's Theorem:</strong> (cos 	heta + isin 	heta)n = cos n	heta + isin n	heta</li>
+                <li>**Argument:** 	heta = 	an-1(y/x)</li>
+                <li>**De Moivre's Theorem:** (cos 	heta + isin 	heta)n = cos n	heta + isin n	heta</li>
               </ul>
             `,
             formulas: `
-              <li><strong>Cube roots of unity:</strong> 1, omega, omega2 where 1 + omega + omega2 = 0 and omega3 = 1</li>
+              <li>**Cube roots of unity:** 1, omega, omega2 where 1 + omega + omega2 = 0 and omega3 = 1</li>
             `
           }
         ]
@@ -187,13 +187,13 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. Equations of a Line</h3>
               <ul>
-                <li><strong>Slope-Intercept:</strong> y = mx + c</li>
-                <li><strong>Point-Slope:</strong> y - y1 = m(x - x1)</li>
-                <li><strong>Normal Form:</strong> xcosalpha + ysinalpha = p</li>
+                <li>**Slope-Intercept:** y = mx + c</li>
+                <li>**Point-Slope:** y - y1 = m(x - x1)</li>
+                <li>**Normal Form:** xcosalpha + ysinalpha = p</li>
               </ul>
             `,
             formulas: `
-              <li><strong>Distance from point to line:</strong> d = |Ax1 + By1 + C|/sqrtA2 + B2</li>
+              <li>**Distance from point to line:** d = |Ax1 + By1 + C|/sqrtA2 + B2</li>
             `
           }
         ]
@@ -208,14 +208,14 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. Mean, Median, Mode</h3>
               <ul>
-                <li><strong>Mean:</strong> Sum of observations / Number of observations.</li>
-                <li><strong>Median:</strong> Middle value when sorted.</li>
-                <li><strong>Empirical Relation:</strong> Mode = 3*Median - 2*Mean</li>
+                <li>**Mean:** Sum of observations / Number of observations.</li>
+                <li>**Median:** Middle value when sorted.</li>
+                <li>**Empirical Relation:** Mode = 3*Median - 2*Mean</li>
               </ul>
             `,
             formulas: `
-              <li><strong>Variance:</strong> sigma2 = racsum (xi - mu)2N</li>
-              <li><strong>Standard Deviation:</strong> sigma = sqrtVariance</li>
+              <li>**Variance:** sigma2 = racsum (xi - mu)2N</li>
+              <li>**Standard Deviation:** sigma = sqrtVariance</li>
             `
           },
           {
@@ -244,27 +244,27 @@ const NOTES_DATABASE = {
               <h3>1. Standard Limits</h3>
               <p>These limits resolve common indeterminate forms instantly:</p>
               <ul>
-                <li><strong>lim (x→0) sin(x)/x = 1</strong></li>
-                <li><strong>lim (x→0) tan(x)/x = 1</strong></li>
-                <li><strong>lim (x→0) (e^x - 1)/x = 1</strong></li>
-                <li><strong>lim (x→0) ln(1 + x)/x = 1</strong></li>
-                <li><strong>lim (x→a) (xⁿ - aⁿ)/(x - a) = n·aⁿ⁻¹</strong></li>
-                <li><strong>lim (x→0) (1 + x)^(1/x) = e</strong></li>
-                <li><strong>lim (x→∞) (1 + 1/x)ˣ = e</strong></li>
+                <li>**lim (x→0) sin(x)/x = 1**</li>
+                <li>**lim (x→0) tan(x)/x = 1**</li>
+                <li>**lim (x→0) (e^x - 1)/x = 1**</li>
+                <li>**lim (x→0) ln(1 + x)/x = 1**</li>
+                <li>**lim (x→a) (xⁿ - aⁿ)/(x - a) = n·aⁿ⁻¹**</li>
+                <li>**lim (x→0) (1 + x)^(1/x) = e**</li>
+                <li>**lim (x→∞) (1 + 1/x)ˣ = e**</li>
               </ul>
               
               <h3>2. L'Hopital's Rule</h3>
-              <p>For limits resulting in indeterminate forms like <strong>0/0</strong> or <strong>∞/∞</strong>:</p>
+              <p>For limits resulting in indeterminate forms like **0/0** or **∞/∞**:</p>
               <ul>
-                <li>Differentiate numerator and denominator separately: <strong>lim f(x)/g(x) = lim f'(x)/g'(x)</strong>.</li>
+                <li>Differentiate numerator and denominator separately: **lim f(x)/g(x) = lim f'(x)/g'(x)**.</li>
                 <li>Repeat if the result is still indeterminate and functions remain differentiable.</li>
               </ul>
               
               <h3>3. Continuity & Differentiability</h3>
               <ul>
-                <li>f(x) is continuous at x = c if: <strong>lim (x→c⁻) f(x) = lim (x→c⁺) f(x) = f(c)</strong> (LHL = RHL = Value).</li>
+                <li>f(x) is continuous at x = c if: **lim (x→c⁻) f(x) = lim (x→c⁺) f(x) = f(c)** (LHL = RHL = Value).</li>
                 <li>f(x) is differentiable at x = c if: Left Hand Derivative (LHD) = Right Hand Derivative (RHD).</li>
-                <li><strong>Important Property</strong>: Differentiability ⇒ Continuity. However, Continuity does NOT imply Differentiability (e.g., f(x) = |x| is continuous at x = 0, but not differentiable because of a sharp corner).</li>
+                <li>**Important Property**: Differentiability ⇒ Continuity. However, Continuity does NOT imply Differentiability (e.g., f(x) = |x| is continuous at x = 0, but not differentiable because of a sharp corner).</li>
               </ul>
             `,
             formulas: `lim(x→0) sinx/x = 1\nlim(x→a) (xⁿ - aⁿ)/(x - a) = n·aⁿ⁻¹\nL'Hopital: lim f(x)/g(x) = lim f'(x)/g'(x)\nLHL = RHL = f(c) for Continuity`,
@@ -296,9 +296,9 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. General Differentiation Rules</h3>
               <ul>
-                <li><strong>Product Rule</strong>: d/dx(u·v) = u'v + uv'</li>
-                <li><strong>Quotient Rule</strong>: d/dx(u/v) = (u'v - uv') / v²</li>
-                <li><strong>Chain Rule</strong>: d/dx(f(g(x))) = f'(g(x)) · g'(x)</li>
+                <li>**Product Rule**: d/dx(u·v) = u'v + uv'</li>
+                <li>**Quotient Rule**: d/dx(u/v) = (u'v - uv') / v²</li>
+                <li>**Chain Rule**: d/dx(f(g(x))) = f'(g(x)) · g'(x)</li>
               </ul>
               
               <h3>2. Derivatives of Algebraic & Exponential Functions</h3>
@@ -388,8 +388,8 @@ const NOTES_DATABASE = {
               
               <h3>4. Integration by Parts & Definite Properties</h3>
               <ul>
-                <li><strong>∫ u·v dx = u ∫ v dx - ∫ [ u' ∫ v dx ] dx</strong> (Choose u based on <strong>ILATE</strong> priority).</li>
-                <li><strong>King's Property</strong>: ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx</li>
+                <li>**∫ u·v dx = u ∫ v dx - ∫ [ u' ∫ v dx ] dx** (Choose u based on **ILATE** priority).</li>
+                <li>**King's Property**: ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx</li>
                 <li>∫[a to b] f(x) dx = ∫[a to b] f(a+b-x) dx</li>
                 <li>∫[-a to a] f(x) dx = 2∫[0 to a] f(x) dx (if f(x) is even); = 0 (if f(x) is odd).</li>
               </ul>
@@ -429,12 +429,12 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. Matrix Classifications</h3>
               <ul>
-                <li><strong>Symmetric Matrix</strong>: Aᵀ = A. Diagonal elements can be anything.</li>
-                <li><strong>Skew-Symmetric Matrix</strong>: Aᵀ = -A. Diagonal elements must be <strong>zero</strong>. (aᵢᵢ = -aᵢᵢ ⇒ 2aᵢᵢ = 0 ⇒ aᵢᵢ = 0).</li>
-                <li><strong>Orthogonal Matrix</strong>: A · Aᵀ = I. Also, det(A) = ±1.</li>
-                <li><strong>Idempotent Matrix</strong>: A² = A.</li>
-                <li><strong>Involutory Matrix</strong>: A² = I.</li>
-                <li><strong>Nilpotent Matrix</strong>: Aᵏ = O (where k is the index of nilpotency).</li>
+                <li>**Symmetric Matrix**: Aᵀ = A. Diagonal elements can be anything.</li>
+                <li>**Skew-Symmetric Matrix**: Aᵀ = -A. Diagonal elements must be **zero**. (aᵢᵢ = -aᵢᵢ ⇒ 2aᵢᵢ = 0 ⇒ aᵢᵢ = 0).</li>
+                <li>**Orthogonal Matrix**: A · Aᵀ = I. Also, det(A) = ±1.</li>
+                <li>**Idempotent Matrix**: A² = A.</li>
+                <li>**Involutory Matrix**: A² = I.</li>
+                <li>**Nilpotent Matrix**: Aᵏ = O (where k is the index of nilpotency).</li>
               </ul>
               
               <h3>2. Determinant Laws</h3>
@@ -444,14 +444,14 @@ const NOTES_DATABASE = {
                 <li>det(kA) = kⁿ det(A) (for a matrix of order n × n).</li>
                 <li>det(A⁻¹) = 1 / det(A)</li>
                 <li>If any two rows/columns are interchanged, the sign of the determinant changes.</li>
-                <li>If all elements of a row/column are zero, the determinant is <strong>zero</strong>.</li>
+                <li>If all elements of a row/column are zero, the determinant is **zero**.</li>
               </ul>
               
               <h3>3. Adjoint & Inverse Relations</h3>
               <ul>
                 <li>A · adj(A) = adj(A) · A = |A| · I</li>
-                <li><strong>|adj A| = |A|ⁿ⁻¹</strong> (order n)</li>
-                <li><strong>|adj(adj A)| = |A|^( (n-1)² )</strong></li>
+                <li>**|adj A| = |A|ⁿ⁻¹** (order n)</li>
+                <li>**|adj(adj A)| = |A|^( (n-1)² )**</li>
                 <li>adj(AB) = adj(B) · adj(A) (Reversal law)</li>
                 <li>A⁻¹ = adj(A) / |A| (only if |A| ≠ 0; non-singular matrix).</li>
                 <li>(Aᵀ)⁻¹ = (A⁻¹)ᵀ</li>
@@ -501,22 +501,22 @@ const NOTES_DATABASE = {
               <h3>2. Bayes' Theorem</h3>
               <p>Used to calculate posterior probability when partition events E₁, E₂...Eₙ are given:</p>
               <ul>
-                <li><strong>P(Eᵢ|A) = [ P(Eᵢ) · P(A|Eᵢ) ] / [ Σ[j=1 to n] P(Eⱼ) · P(A|Eⱼ) ]</strong></li>
+                <li>**P(Eᵢ|A) = [ P(Eᵢ) · P(A|Eᵢ) ] / [ Σ[j=1 to n] P(Eⱼ) · P(A|Eⱼ) ]**</li>
               </ul>
               
               <h3>3. Statistics & Measures of Central Tendency</h3>
               <ul>
-                <li><strong>Mean (x̄)</strong>: Average value. x̄ = (Σ xᵢ)/n.</li>
-                <li><strong>Median</strong>: Middle value. If n is odd: ((n+1)/2)th term. If n is even: Mean of (n/2)th and (n/2 + 1)th terms.</li>
-                <li><strong>Mode</strong>: Element with highest frequency.</li>
-                <li><strong>Empirical Relation</strong>: <strong>Mode = 3 Median - 2 Mean</strong></li>
+                <li>**Mean (x̄)**: Average value. x̄ = (Σ xᵢ)/n.</li>
+                <li>**Median**: Middle value. If n is odd: ((n+1)/2)th term. If n is even: Mean of (n/2)th and (n/2 + 1)th terms.</li>
+                <li>**Mode**: Element with highest frequency.</li>
+                <li>**Empirical Relation**: **Mode = 3 Median - 2 Mean**</li>
               </ul>
               
               <h3>4. Measures of Dispersion</h3>
               <ul>
-                <li><strong>Variance (σ²)</strong>: σ² = Σ(xᵢ - x̄)² / n = (Σ xᵢ² / n) - (x̄)²</li>
-                <li><strong>Standard Deviation (σ)</strong>: σ = √Variance</li>
-                <li><strong>Coefficient of Variation (CV)</strong>: CV = (σ / x̄) * 100 (measures relative consistency).</li>
+                <li>**Variance (σ²)**: σ² = Σ(xᵢ - x̄)² / n = (Σ xᵢ² / n) - (x̄)²</li>
+                <li>**Standard Deviation (σ)**: σ = √Variance</li>
+                <li>**Coefficient of Variation (CV)**: CV = (σ / x̄) * 100 (measures relative consistency).</li>
               </ul>
             `,
             formulas: `P(A|B) = P(A ∩ B) / P(B)\nMode = 3Median - 2Mean\nVariance(σ²) = (Σx²/n) - (x̄)²\nSD(σ) = √Variance\nCV = (σ/x̄)·100`,
@@ -667,17 +667,17 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. General Speed, Time, and Distance Relationship</h3>
               <ul>
-                <li><strong>Speed = Distance / Time</strong> ⇒ Time = Distance / Speed ; Distance = Speed × Time</li>
+                <li>**Speed = Distance / Time** ⇒ Time = Distance / Speed ; Distance = Speed × Time</li>
                 <li>Unit Conversions:
                   <ul>
                     <li>To convert from km/h to m/s: multiply by **5/18**. (e.g., 90 km/h = 90 × 5/18 = 25 m/s).</li>
                     <li>To convert from m/s to km/h: multiply by **18/5**.</li>
                   </ul>
                 </li>
-                <li><strong>Average Speed</strong>:
+                <li>**Average Speed**:
                   <ul>
-                    <li>Case A: A body covers two equal distances at speeds x km/h and y km/h. Average Speed = <strong>2xy / (x + y)</strong>.</li>
-                    <li>Case B: A body covers three equal distances at speeds x, y, and z km/h. Average Speed = <strong>3xyz / (xy + yz + zx)</strong>.</li>
+                    <li>Case A: A body covers two equal distances at speeds x km/h and y km/h. Average Speed = **2xy / (x + y)**.</li>
+                    <li>Case B: A body covers three equal distances at speeds x, y, and z km/h. Average Speed = **3xyz / (xy + yz + zx)**.</li>
                     <li>General Case: **Total Distance Covered / Total Time Taken**.</li>
                   </ul>
                 </li>
@@ -686,15 +686,15 @@ const NOTES_DATABASE = {
               <h3>2. Relative Speed</h3>
               <p>Speed of one body with respect to another moving body:</p>
               <ul>
-                <li>If two bodies move in the **same direction** with speeds u and v (where u > v), Relative Speed = <strong>u - v</strong>.</li>
-                <li>If two bodies move in **opposite directions**, Relative Speed = <strong>u + v</strong>.</li>
+                <li>If two bodies move in the **same direction** with speeds u and v (where u > v), Relative Speed = **u - v**.</li>
+                <li>If two bodies move in **opposite directions**, Relative Speed = **u + v**.</li>
               </ul>
               
               <h3>3. Trains and Platforms Problems</h3>
               <ul>
-                <li><strong>Train crossing a pole/man</strong>: The distance covered is equal to the length of the train itself. Time = Length of Train / Speed.</li>
-                <li><strong>Train crossing a bridge/platform/tunnel</strong>: The distance covered is equal to the sum of lengths of train and platform. Time = (Length of Train + Length of Platform) / Speed.</li>
-                <li><strong>Two trains crossing each other</strong>: The distance covered is always the sum of both lengths (L₁ + L₂). The speed used is the relative speed.</li>
+                <li>**Train crossing a pole/man**: The distance covered is equal to the length of the train itself. Time = Length of Train / Speed.</li>
+                <li>**Train crossing a bridge/platform/tunnel**: The distance covered is equal to the sum of lengths of train and platform. Time = (Length of Train + Length of Platform) / Speed.</li>
+                <li>**Two trains crossing each other**: The distance covered is always the sum of both lengths (L₁ + L₂). The speed used is the relative speed.</li>
               </ul>
             `,
             formulas: `Speed = D/T\n1 km/h = 5/18 m/s\nAverage Speed = 2xy/(x+y)\nSame direction: Speed₁ - Speed₂\nOpposite direction: Speed₁ + Speed₂`,
@@ -727,14 +727,14 @@ const NOTES_DATABASE = {
               <h3>1. Ratios and Proportions</h3>
               <ul>
                 <li>Ratio: A comparison of two quantities: a/b or a : b.</li>
-                <li>Proportion: Equality of two ratios: a : b :: c : d ⇒ <strong>a / b = c / d</strong>.
+                <li>Proportion: Equality of two ratios: a : b :: c : d ⇒ **a / b = c / d**.
                   <ul>
                     <li>Product of extremes = Product of means (ad = bc).</li>
                   </ul>
                 </li>
-                <li><strong>Mean Proportional</strong>: Between a and b is **x = √(ab)**.</li>
-                <li><strong>Third Proportional</strong>: To a and b is **x = b² / a**.</li>
-                <li><strong>Fourth Proportional</strong>: To a, b, c is **x = bc / a**.</li>
+                <li>**Mean Proportional**: Between a and b is **x = √(ab)**.</li>
+                <li>**Third Proportional**: To a and b is **x = b² / a**.</li>
+                <li>**Fourth Proportional**: To a, b, c is **x = bc / a**.</li>
               </ul>
               
               <h3>2. Percentages</h3>
@@ -748,15 +748,15 @@ const NOTES_DATABASE = {
               <ul>
                 <li>Gain = Selling Price (SP) - Cost Price (CP) (if SP > CP)</li>
                 <li>Loss = Cost Price (CP) - Selling Price (SP) (if CP > SP)</li>
-                <li><strong>Gain % = (Gain / CP) × 100</strong> (Profit and Loss are always calculated on CP unless stated otherwise).</li>
-                <li><strong>Loss % = (Loss / CP) × 100</strong></li>
+                <li>**Gain % = (Gain / CP) × 100** (Profit and Loss are always calculated on CP unless stated otherwise).</li>
+                <li>**Loss % = (Loss / CP) × 100**</li>
                 <li>Assent Formulas:
                   <ul>
                     <li>SP = CP × (100 + Gain%) / 100</li>
                     <li>SP = CP × (100 - Loss%) / 100</li>
                   </ul>
                 </li>
-                <li><strong>Discount</strong>: Calculated on Marked Price (MP). SP = MP - Discount.</li>
+                <li>**Discount**: Calculated on Marked Price (MP). SP = MP - Discount.</li>
                 <li>Discount % = (Discount / MP) × 100</li>
               </ul>
             `,
@@ -1069,22 +1069,22 @@ const NOTES_DATABASE = {
               <h3>1. The Preamble Keywords</h3>
               <p>The Preamble represents the summary or essence of the Constitution. Crucial aspects:</p>
               <ul>
-                <li><strong>Keywords Order</strong>: Sovereign, Socialist, Secular, Democratic, Republic.</li>
-                <li><strong>Amendment</strong>: Amended only once by the <strong>42nd Amendment Act (1976)</strong>, which added three new words: <strong>Socialist, Secular, and Integrity</strong>.</li>
-                <li><strong>Justiciability</strong>: It is non-justiciable (its provisions cannot be enforced in a court of law).</li>
+                <li>**Keywords Order**: Sovereign, Socialist, Secular, Democratic, Republic.</li>
+                <li>**Amendment**: Amended only once by the **42nd Amendment Act (1976)**, which added three new words: **Socialist, Secular, and Integrity**.</li>
+                <li>**Justiciability**: It is non-justiciable (its provisions cannot be enforced in a court of law).</li>
                 <li>**Kesavananda Bharati Case (1973)**: Supreme Court declared that the Preamble is a part of the Constitution and can be amended under Article 368, but its 'basic structure' cannot be destroyed.</li>
               </ul>
               
               <h3>2. Borrowed Sources of the Constitution</h3>
               <ul>
-                <li><strong>Govt of India Act 1935</strong>: Federal structure, Office of Governor, Public Service Commissions, administrative details.</li>
-                <li><strong>United Kingdom</strong>: Parliamentary system, Rule of Law, Legislative procedure, Single Citizenship, Cabinet system, Prerogative Writs, Bicameralism.</li>
-                <li><strong>United States</strong>: Fundamental Rights, Independence of Judiciary, Judicial Review, Impeachment of President, removal of Supreme Court & High Court judges, post of Vice-President.</li>
-                <li><strong>Ireland</strong>: Directive Principles of State Policy (DPSP), nomination of members to Rajya Sabha, method of election of President.</li>
-                <li><strong>Canada</strong>: Federation with a strong Centre, vesting of residuary powers in the Centre, appointment of state governors by Centre, advisory jurisdiction of Supreme Court.</li>
-                <li><strong>Australia</strong>: Concurrent List, freedom of trade and commerce, joint sitting of the two Houses of Parliament.</li>
-                <li><strong>Weimar Republic (Germany)</strong>: Suspension of Fundamental Rights during Emergency.</li>
-                <li><strong>USSR</strong>: Fundamental Duties (Article 51A), ideals of justice (social, economic, political) in the Preamble.</li>
+                <li>**Govt of India Act 1935**: Federal structure, Office of Governor, Public Service Commissions, administrative details.</li>
+                <li>**United Kingdom**: Parliamentary system, Rule of Law, Legislative procedure, Single Citizenship, Cabinet system, Prerogative Writs, Bicameralism.</li>
+                <li>**United States**: Fundamental Rights, Independence of Judiciary, Judicial Review, Impeachment of President, removal of Supreme Court & High Court judges, post of Vice-President.</li>
+                <li>**Ireland**: Directive Principles of State Policy (DPSP), nomination of members to Rajya Sabha, method of election of President.</li>
+                <li>**Canada**: Federation with a strong Centre, vesting of residuary powers in the Centre, appointment of state governors by Centre, advisory jurisdiction of Supreme Court.</li>
+                <li>**Australia**: Concurrent List, freedom of trade and commerce, joint sitting of the two Houses of Parliament.</li>
+                <li>**Weimar Republic (Germany)**: Suspension of Fundamental Rights during Emergency.</li>
+                <li>**USSR**: Fundamental Duties (Article 51A), ideals of justice (social, economic, political) in the Preamble.</li>
               </ul>
             `,
             formulas: `42nd Amendment (1976) -> Added: Socialist, Secular, Integrity.\nPreamble justiciable? No (Kesavananda Bharati Case 1973).`,
@@ -1115,21 +1115,21 @@ const NOTES_DATABASE = {
             title: "Schedules of the Constitution",
             notes: `
               <h3>Schedules Overview</h3>
-              <p>Originally, the Constitution had 8 schedules. Currently, there are <strong>12 schedules</strong>.</p>
-              <p>Mnemonic to memorize: <strong>TEARS OF OLD PM</strong></p>
+              <p>Originally, the Constitution had 8 schedules. Currently, there are **12 schedules**.</p>
+              <p>Mnemonic to memorize: **TEARS OF OLD PM**</p>
               <ol>
-                <li><strong>T - Territories</strong>: Names of States and Union Territories and their territorial extent.</li>
-                <li><strong>E - Emoluments</strong>: Provisions relating to the salaries, allowances, and privileges of President, Governors, Speaker, Judges, Comptroller and Auditor-General (CAG).</li>
-                <li><strong>A - Affirmations & Oaths</strong>: Forms of Oaths or Affirmations for Union Ministers, MPs, Judges, CAG.</li>
-                <li><strong>R - Rajya Sabha</strong>: Allocation of seats in the Rajya Sabha to the States and Union Territories.</li>
-                <li><strong>S - Scheduled Areas</strong>: Provisions relating to the administration and control of scheduled areas and scheduled tribes.</li>
-                <li><strong>O - Other Tribes</strong>: Administration of tribal areas in the states of **Assam, Meghalaya, Tripura, and Mizoram** (Mnemonic: ATM-M).</li>
-                <li><strong>F - Federal Lists</strong>: Division of powers between the Union and the States (Union List, State List, Concurrent List).</li>
-                <li><strong>O - Official Languages</strong>: 22 languages recognized by the Constitution. (Sindhi added by 21st, Konkani/Manipuri/Nepali by 71st, Bodo/Dogri/Maithili/Santhali by 92nd).</li>
-                <li><strong>L - Land Reforms</strong>: Acts and regulations dealing with land reforms and abolition of the Zamindari system. (Added by **1st Amendment Act, 1951** to bypass judicial review).</li>
-                <li><strong>D - Defection</strong>: Anti-defection provisions for members of Parliament and State Legislatures. (Added by **52nd Amendment Act, 1985**).</li>
-                <li><strong>P - Panchayats</strong>: Powers, authority, and responsibilities of Panchayats. Contains 29 matters. (Added by **73rd Amendment Act, 1992**).</li>
-                <li><strong>M - Municipalities</strong>: Powers, authority, and responsibilities of Municipalities. Contains 18 matters. (Added by **74th Amendment Act, 1992**).</li>
+                <li>**T - Territories**: Names of States and Union Territories and their territorial extent.</li>
+                <li>**E - Emoluments**: Provisions relating to the salaries, allowances, and privileges of President, Governors, Speaker, Judges, Comptroller and Auditor-General (CAG).</li>
+                <li>**A - Affirmations & Oaths**: Forms of Oaths or Affirmations for Union Ministers, MPs, Judges, CAG.</li>
+                <li>**R - Rajya Sabha**: Allocation of seats in the Rajya Sabha to the States and Union Territories.</li>
+                <li>**S - Scheduled Areas**: Provisions relating to the administration and control of scheduled areas and scheduled tribes.</li>
+                <li>**O - Other Tribes**: Administration of tribal areas in the states of **Assam, Meghalaya, Tripura, and Mizoram** (Mnemonic: ATM-M).</li>
+                <li>**F - Federal Lists**: Division of powers between the Union and the States (Union List, State List, Concurrent List).</li>
+                <li>**O - Official Languages**: 22 languages recognized by the Constitution. (Sindhi added by 21st, Konkani/Manipuri/Nepali by 71st, Bodo/Dogri/Maithili/Santhali by 92nd).</li>
+                <li>**L - Land Reforms**: Acts and regulations dealing with land reforms and abolition of the Zamindari system. (Added by **1st Amendment Act, 1951** to bypass judicial review).</li>
+                <li>**D - Defection**: Anti-defection provisions for members of Parliament and State Legislatures. (Added by **52nd Amendment Act, 1985**).</li>
+                <li>**P - Panchayats**: Powers, authority, and responsibilities of Panchayats. Contains 29 matters. (Added by **73rd Amendment Act, 1992**).</li>
+                <li>**M - Municipalities**: Powers, authority, and responsibilities of Municipalities. Contains 18 matters. (Added by **74th Amendment Act, 1992**).</li>
               </ol>
             `,
             formulas: `TEARS OF OLD PM:\n1-Territories, 2-Emoluments, 3-Affirmations, 4-RajyaSabha, 5-Scheduled, 6-OtherScheduled, 7-FederalLists, 8-Languages, 9-LandReforms, 10-Defection, 11-Panchayats, 12-Municipalities`,
@@ -1162,7 +1162,7 @@ const NOTES_DATABASE = {
               <h3>1. Classification of Fundamental Rights</h3>
               <p>Part III of the Constitution is called the **Magna Carta of India**.</p>
               <ul>
-                <li><strong>Right to Equality (Articles 14-18)</strong>:
+                <li>**Right to Equality (Articles 14-18)**:
                   <ul>
                     <li>Art 14: Equality before law & Equal protection of laws.</li>
                     <li>Art 15: Prohibition of discrimination.</li>
@@ -1171,7 +1171,7 @@ const NOTES_DATABASE = {
                     <li>Art 18: Abolition of Titles.</li>
                   </ul>
                 </li>
-                <li><strong>Right to Freedom (Articles 19-22)</strong>:
+                <li>**Right to Freedom (Articles 19-22)**:
                   <ul>
                     <li>Art 19: Guarantees 6 democratic freedoms (speech, assembly, association, movement, residence, profession).</li>
                     <li>Art 20: Protection in respect of conviction for offences (no ex-post facto law, no double jeopardy, no self-incrimination).</li>
@@ -1180,25 +1180,25 @@ const NOTES_DATABASE = {
                     <li>Art 22: Protection against arrest and detention.</li>
                   </ul>
                 </li>
-                <li><strong>Right against Exploitation (Articles 23-24)</strong>:
+                <li>**Right against Exploitation (Articles 23-24)**:
                   <ul>
                     <li>Art 23: Prohibition of human trafficking and forced labour (begar).</li>
                     <li>Art 24: Prohibition of employment of children (below 14 years) in factories/mines.</li>
                   </ul>
                 </li>
-                <li><strong>Right to Freedom of Religion (Articles 25-28)</strong>:
+                <li>**Right to Freedom of Religion (Articles 25-28)**:
                   <ul>
                     <li>Art 25: Freedom of conscience, profession, practice, and propagation.</li>
                     <li>Art 26: Manage religious affairs.</li>
                   </ul>
                 </li>
-                <li><strong>Cultural and Educational Rights (Articles 29-30)</strong>:
+                <li>**Cultural and Educational Rights (Articles 29-30)**:
                   <ul>
                     <li>Art 29: Protection of language, script, and culture of minorities.</li>
                     <li>Art 30: Right of minorities to establish and administer educational institutions.</li>
                   </ul>
                 </li>
-                <li><strong>Right to Constitutional Remedies (Article 32)</strong>:
+                <li>**Right to Constitutional Remedies (Article 32)**:
                   <ul>
                     <li>Empowers the Supreme Court to issue writs to enforce Fundamental Rights. Dr. B.R. Ambedkar called Article 32 the 'Heart and Soul of the Constitution'.</li>
                   </ul>
@@ -1207,11 +1207,11 @@ const NOTES_DATABASE = {
               
               <h3>2. The Five Prerogative Writs</h3>
               <ul>
-                <li><strong>Habeas Corpus</strong> ('To have the body of'): Issued to release a person unlawfully detained. Can be issued against both public and private entities.</li>
-                <li><strong>Mandamus</strong> ('We command'): Issued to direct a public authority to perform a duty they have failed or refused to do. Cannot be issued against the President, Governors, or private individuals.</li>
-                <li><strong>Prohibition</strong> ('To forbid'): Issued by a higher court to a lower court or quasi-judicial body to prevent it from exceeding its jurisdiction. (Preventive only).</li>
-                <li><strong>Certiorari</strong> ('To be certified'): Issued to quash the order of a lower court or transfer case to itself. (Preventive and Curative).</li>
-                <li><strong>Quo Warranto</strong> ('By what authority'): Issued to inquire into the legality of the claim of a person to a public office, preventing illegal usurpation.</li>
+                <li>**Habeas Corpus** ('To have the body of'): Issued to release a person unlawfully detained. Can be issued against both public and private entities.</li>
+                <li>**Mandamus** ('We command'): Issued to direct a public authority to perform a duty they have failed or refused to do. Cannot be issued against the President, Governors, or private individuals.</li>
+                <li>**Prohibition** ('To forbid'): Issued by a higher court to a lower court or quasi-judicial body to prevent it from exceeding its jurisdiction. (Preventive only).</li>
+                <li>**Certiorari** ('To be certified'): Issued to quash the order of a lower court or transfer case to itself. (Preventive and Curative).</li>
+                <li>**Quo Warranto** ('By what authority'): Issued to inquire into the legality of the claim of a person to a public office, preventing illegal usurpation.</li>
               </ul>
             `,
             formulas: `Art 19 -> 6 democratic freedoms.\nArt 21 -> Protection of Life and Liberty.\nArt 32 -> Supreme Court Writs.\nArt 226 -> High Court Writs.`,
@@ -1244,9 +1244,9 @@ const NOTES_DATABASE = {
               <h3>1. Directive Principles of State Policy (Part IV)</h3>
               <p>Borrowed from Ireland. Non-justiciable but fundamental in governance. Classified into three types:</p>
               <ul>
-                <li><strong>Socialistic Principles</strong>: Article 38 (promote welfare, minimize inequalities), Article 39 (equal pay for equal work, distribute material resources), Article 39A (free legal aid).</li>
-                <li><strong>Gandhian Principles</strong>: Article 40 (organize village panchayats), Article 43 (promote cottage industries), Article 46 (promote educational/economic interests of SCs, STs), Article 47 (prohibit intoxicating drinks/drugs).</li>
-                <li><strong>Liberal-Intellectual Principles</strong>: Article 44 (Uniform Civil Code), Article 45 (early childhood care/education), Article 48 (organize agriculture/animal husbandry, prohibit slaughter), Article 50 (separate judiciary from executive), Article 51 (promote international peace).</li>
+                <li>**Socialistic Principles**: Article 38 (promote welfare, minimize inequalities), Article 39 (equal pay for equal work, distribute material resources), Article 39A (free legal aid).</li>
+                <li>**Gandhian Principles**: Article 40 (organize village panchayats), Article 43 (promote cottage industries), Article 46 (promote educational/economic interests of SCs, STs), Article 47 (prohibit intoxicating drinks/drugs).</li>
+                <li>**Liberal-Intellectual Principles**: Article 44 (Uniform Civil Code), Article 45 (early childhood care/education), Article 48 (organize agriculture/animal husbandry, prohibit slaughter), Article 50 (separate judiciary from executive), Article 51 (promote international peace).</li>
               </ul>
               
               <h3>2. Fundamental Duties (Part IV-A)</h3>
@@ -1302,7 +1302,7 @@ const NOTES_DATABASE = {
                 <li>Elected members of the Legislative Assemblies of the States (MLAs).</li>
                 <li>Elected members of the Legislative Assemblies of the Union Territories of Delhi and Puducherry (and Jammu & Kashmir).</li>
               </ol>
-              <p><strong>Note</strong>: Nominated members of Parliament and State Assemblies <strong>do not</strong> participate in the presidential election.</p>
+              <p>**Note**: Nominated members of Parliament and State Assemblies **do not** participate in the presidential election.</p>
               
               <h3>2. Impeachment of the President (Article 61)</h3>
               <ul>
@@ -1315,9 +1315,9 @@ const NOTES_DATABASE = {
               
               <h3>3. Veto Powers (Article 111)</h3>
               <ul>
-                <li><strong>Absolute Veto</strong>: Withholding assent to the Bill (the Bill ends and does not become law).</li>
-                <li><strong>Suspensive Veto</strong>: Returning the Bill to Parliament for reconsideration. If Parliament passes the Bill again with or without amendments by a **simple majority**, the President **must** give assent. (Cannot be used for Money Bills).</li>
-                <li><strong>Pocket Veto</strong>: Keeping the Bill pending on his desk indefinitely (taking no action). The Indian President has a larger pocket veto than the US President because the US President must return the bill within 10 days, while the Indian Constitution specifies no time limit.</li>
+                <li>**Absolute Veto**: Withholding assent to the Bill (the Bill ends and does not become law).</li>
+                <li>**Suspensive Veto**: Returning the Bill to Parliament for reconsideration. If Parliament passes the Bill again with or without amendments by a **simple majority**, the President **must** give assent. (Cannot be used for Money Bills).</li>
+                <li>**Pocket Veto**: Keeping the Bill pending on his desk indefinitely (taking no action). The Indian President has a larger pocket veto than the US President because the US President must return the bill within 10 days, while the Indian Constitution specifies no time limit.</li>
               </ul>
               
               <h3>4. Pardon Powers (Article 72)</h3>
@@ -1353,14 +1353,14 @@ const NOTES_DATABASE = {
               <h3>1. Composition of Parliament</h3>
               <p>Parliament consists of the **President**, the **Council of States (Rajya Sabha)**, and the **House of the People (Lok Sabha)**.</p>
               <ul>
-                <li><strong>Rajya Sabha (Upper House)</strong>:
+                <li>**Rajya Sabha (Upper House)**:
                   <ul>
                     <li>Max strength: 250 (238 elected from States/UTs, 12 nominated by President from Art, Literature, Science, Social Service).</li>
                     <li>It is a **permanent body** and not subject to dissolution.</li>
                     <li>Members have a **6-year term**, with **one-third** retiring every second year.</li>
                   </ul>
                 </li>
-                <li><strong>Lok Sabha (Lower House)</strong>:
+                <li>**Lok Sabha (Lower House)**:
                   <ul>
                     <li>Max strength: 550 (530 representing States, 20 representing Union Territories). (Anglo-Indian reserved seats abolished by 104th Amendment).</li>
                     <li>Normal term: **5 years**, can be dissolved earlier by the President.</li>
@@ -1370,8 +1370,8 @@ const NOTES_DATABASE = {
               
               <h3>2. Key Parliamentary Terms</h3>
               <ul>
-                <li><strong>Quorum (Article 100)</strong>: Minimum number of members required to be present to conduct a meeting. It is **one-tenth** of the total number of members in each House (i.e., 55 in Lok Sabha, 25 in Rajya Sabha), including the presiding officer.</li>
-                <li><strong>Joint Sitting (Article 108)</strong>: Called by the President to resolve deadlocks between LS and RS on **Ordinary Bills** or **Financial Bills**.
+                <li>**Quorum (Article 100)**: Minimum number of members required to be present to conduct a meeting. It is **one-tenth** of the total number of members in each House (i.e., 55 in Lok Sabha, 25 in Rajya Sabha), including the presiding officer.</li>
+                <li>**Joint Sitting (Article 108)**: Called by the President to resolve deadlocks between LS and RS on **Ordinary Bills** or **Financial Bills**.
                   <ul>
                     <li>Presided over by the **Speaker of the Lok Sabha**. (If Speaker is absent, the Deputy Speaker; if absent, the Deputy Chairman of Rajya Sabha).</li>
                     <li>**Note**: Joint sittings **cannot** be called for Money Bills or Constitutional Amendment Bills.</li>
@@ -1381,7 +1381,7 @@ const NOTES_DATABASE = {
               
               <h3>3. Types of Bills & money Bills (Article 110)</h3>
               <ul>
-                <li><strong>Money Bill</strong>: Deals with taxation, borrowing, consolidated fund, etc.
+                <li>**Money Bill**: Deals with taxation, borrowing, consolidated fund, etc.
                   <ul>
                     <li>Can only be introduced in the **Lok Sabha** on the recommendation of the President.</li>
                     <li>The **Speaker's decision** on whether a bill is a money bill is final.</li>
@@ -3080,17 +3080,17 @@ const NOTES_DATABASE = {
               
               <h3>1. Physical Geography & Climatology</h3>
               <ul>
-                <li><strong>Atmospheric Layers:</strong> Repeatedly tested (e.g., *Troposphere* has all weather phenomena, *Stratosphere* has ozone layer and is ideal for flying aircraft, *Ionosphere* reflects radio waves).</li>
-                <li><strong>Winds:</strong> Match-the-following questions on local winds (e.g., *Chinook* in USA, *Fohn* in Alps, *Harmattan* in West Africa, *Sirocco* in Sahara).</li>
-                <li><strong>Ocean Currents:</strong> Distinguishing between warm and cold currents (e.g., *Gulf Stream* and *Kuroshio* are warm; *Labrador*, *Canary*, and *Benguela* are cold). Cold current locations are highly tested.</li>
+                <li>**Atmospheric Layers:** Repeatedly tested (e.g., *Troposphere* has all weather phenomena, *Stratosphere* has ozone layer and is ideal for flying aircraft, *Ionosphere* reflects radio waves).</li>
+                <li>**Winds:** Match-the-following questions on local winds (e.g., *Chinook* in USA, *Fohn* in Alps, *Harmattan* in West Africa, *Sirocco* in Sahara).</li>
+                <li>**Ocean Currents:** Distinguishing between warm and cold currents (e.g., *Gulf Stream* and *Kuroshio* are warm; *Labrador*, *Canary*, and *Benguela* are cold). Cold current locations are highly tested.</li>
               </ul>
               
               <h3>2. Indian Geography (Highest Questions)</h3>
               <ul>
-                <li><strong>River Systems:</strong> East-flowing (Godavari, Krishna, Cauvery) vs. West-flowing (Narmada, Tapi, Mahi, Sabarmati) rivers. Tributaries are a favorite UPSC topic (e.g., *Chambal*, *Betwa*, *Sone* as tributaries of Yamuna/Ganga).</li>
-                <li><strong>Mountain Passes:</strong> Location of Himalayan passes (e.g., *Zoji La* in Ladakh, *Shipki La* in Himachal, *Nathu La* in Sikkim, *Lipulekh* in Uttarakhand).</li>
-                <li><strong>Soils of India:</strong> Black Soil (also called *Regur* soil, excellent for cotton, self-ploughing property) and Laterite Soil (formed by leaching, rich in iron oxides, found in Western Ghats and Northeast).</li>
-                <li><strong>Latitudes and Longitudes:</strong> States through which the *Tropic of Cancer* passes (8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram) and the *Indian Standard Meridian* (82°30' E, passing through 5 states: UP, MP, Chhattisgarh, Odisha, Andhra Pradesh).</li>
+                <li>**River Systems:** East-flowing (Godavari, Krishna, Cauvery) vs. West-flowing (Narmada, Tapi, Mahi, Sabarmati) rivers. Tributaries are a favorite UPSC topic (e.g., *Chambal*, *Betwa*, *Sone* as tributaries of Yamuna/Ganga).</li>
+                <li>**Mountain Passes:** Location of Himalayan passes (e.g., *Zoji La* in Ladakh, *Shipki La* in Himachal, *Nathu La* in Sikkim, *Lipulekh* in Uttarakhand).</li>
+                <li>**Soils of India:** Black Soil (also called *Regur* soil, excellent for cotton, self-ploughing property) and Laterite Soil (formed by leaching, rich in iron oxides, found in Western Ghats and Northeast).</li>
+                <li>**Latitudes and Longitudes:** States through which the *Tropic of Cancer* passes (8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram) and the *Indian Standard Meridian* (82°30' E, passing through 5 states: UP, MP, Chhattisgarh, Odisha, Andhra Pradesh).</li>
               </ul>
             `,
             formulas: "Tropic of Cancer: 8 States (Guj, Raj, MP, Cg, Jh, WB, TR, MZ)\\nStandard Meridian: 5 States (UP, MP, Cg, OD, AP)\\nRegur: Black Soil | Laterite: Leached Iron-rich",
@@ -3120,17 +3120,17 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. Sectors of the Economy</h3>
               <ul>
-                <li><strong>Primary Sector</strong>: Direct extraction of natural resources. Examples: Agriculture, forestry, mining, fishing.</li>
-                <li><strong>Secondary Sector</strong>: Manufacturing and processing. Examples: Factories, construction, car assembly.</li>
-                <li><strong>Tertiary Sector</strong>: Service sector. Examples: Banking, IT, education, tourism, military.</li>
-                <li><strong>Quaternary Sector</strong>: Knowledge and research. Examples: R&D, information management.</li>
+                <li>**Primary Sector**: Direct extraction of natural resources. Examples: Agriculture, forestry, mining, fishing.</li>
+                <li>**Secondary Sector**: Manufacturing and processing. Examples: Factories, construction, car assembly.</li>
+                <li>**Tertiary Sector**: Service sector. Examples: Banking, IT, education, tourism, military.</li>
+                <li>**Quaternary Sector**: Knowledge and research. Examples: R&D, information management.</li>
               </ul>
               
               <h3>2. National Income Metrics</h3>
               <ul>
-                <li><strong>GDP (Gross Domestic Product)</strong>: Total monetary value of all finished goods and services produced within a country's borders in a specific time period.</li>
-                <li><strong>GNP (Gross National Product)</strong>: GDP + Net Factor Income from Abroad (NFIA). Measures output of citizens globally.</li>
-                <li><strong>Real vs Nominal GDP</strong>: Nominal is calculated at current market prices, whereas Real is adjusted for inflation (constant base year prices).</li>
+                <li>**GDP (Gross Domestic Product)**: Total monetary value of all finished goods and services produced within a country's borders in a specific time period.</li>
+                <li>**GNP (Gross National Product)**: GDP + Net Factor Income from Abroad (NFIA). Measures output of citizens globally.</li>
+                <li>**Real vs Nominal GDP**: Nominal is calculated at current market prices, whereas Real is adjusted for inflation (constant base year prices).</li>
               </ul>
             `,
             formulas: `GNP = GDP + NFIA\nPrimary = Agriculture | Secondary = Industry | Tertiary = Services\nReal GDP = Nominal GDP / GDP Deflator`,
@@ -3177,15 +3177,15 @@ const NOTES_DATABASE = {
               
               <h3>2. Monetary Policy Committee (MPC) tools</h3>
               <ul>
-                <li><strong>Quantitative Tools</strong> (Control money volume):
+                <li>**Quantitative Tools** (Control money volume):
                   <ul>
-                    <li><strong>Repo Rate</strong>: The interest rate at which RBI lends money to commercial banks for short terms. Lowering Repo rate increases inflation.</li>
-                    <li><strong>Reverse Repo Rate</strong>: The rate at which banks park surplus funds with RBI.</li>
-                    <li><strong>Cash Reserve Ratio (CRR)</strong>: Percentage of deposits banks must keep as cash with RBI. No interest earned on this.</li>
-                    <li><strong>Statutory Liquidity Ratio (SLR)</strong>: Percentage of deposits banks must keep in liquid assets (Gold, Govt Securities) with themselves.</li>
+                    <li>**Repo Rate**: The interest rate at which RBI lends money to commercial banks for short terms. Lowering Repo rate increases inflation.</li>
+                    <li>**Reverse Repo Rate**: The rate at which banks park surplus funds with RBI.</li>
+                    <li>**Cash Reserve Ratio (CRR)**: Percentage of deposits banks must keep as cash with RBI. No interest earned on this.</li>
+                    <li>**Statutory Liquidity Ratio (SLR)**: Percentage of deposits banks must keep in liquid assets (Gold, Govt Securities) with themselves.</li>
                   </ul>
                 </li>
-                <li><strong>Qualitative Tools</strong>: Marginal requirements, moral suasion, credit rationing.</li>
+                <li>**Qualitative Tools**: Marginal requirements, moral suasion, credit rationing.</li>
               </ul>
             `,
             formulas: `Repo Rate = Lending to Banks\nCRR = Cash with RBI\nSLR = Liquid assets with Bank\nReverse Repo < Repo Rate always`,
@@ -3319,23 +3319,23 @@ const NOTES_DATABASE = {
               <ul>
                 <li>First Law: The incident ray, the reflected ray, and the normal at the point of incidence all lie in the same plane.</li>
                 <li>Second Law: The angle of incidence is equal to the angle of reflection (i = r).</li>
-                <li><strong>Mirror Formula</strong>: <strong>1/f = 1/v + 1/u</strong>
+                <li>**Mirror Formula**: **1/f = 1/v + 1/u**
                   <ul>
                     <li>u = object distance (always negative).</li>
                     <li>v = image distance (positive for virtual, negative for real).</li>
                     <li>f = focal length (negative for concave, positive for convex).</li>
                   </ul>
                 </li>
-                <li>Linear Magnification: <strong>m = -v/u = hᵢ/hₒ</strong> (m is negative for real and inverted, positive for virtual and erect).</li>
+                <li>Linear Magnification: **m = -v/u = hᵢ/hₒ** (m is negative for real and inverted, positive for virtual and erect).</li>
               </ul>
               
               <h3>2. Refraction & Lens Formulas</h3>
               <ul>
-                <li><strong>Snell's Law</strong>: The ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant: <strong>sin i / sin r = constant = ₁μ₂ = μ₂/μ₁</strong>.</li>
-                <li>Absolute Refractive Index: <strong>μ = c / v</strong> (where c is speed of light in vacuum, v is speed in medium).</li>
-                <li><strong>Lens Formula</strong>: <strong>1/f = 1/v - 1/u</strong></li>
-                <li>Linear Magnification (Lens): <strong>m = v/u = hᵢ/hₒ</strong></li>
-                <li><strong>Power of a Lens (P)</strong>: Reciprocal of focal length in meters. <strong>P = 1 / f(in m)</strong>. Unit: <strong>Dioptre (D)</strong>.
+                <li>**Snell's Law**: The ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant: **sin i / sin r = constant = ₁μ₂ = μ₂/μ₁**.</li>
+                <li>Absolute Refractive Index: **μ = c / v** (where c is speed of light in vacuum, v is speed in medium).</li>
+                <li>**Lens Formula**: **1/f = 1/v - 1/u**</li>
+                <li>Linear Magnification (Lens): **m = v/u = hᵢ/hₒ**</li>
+                <li>**Power of a Lens (P)**: Reciprocal of focal length in meters. **P = 1 / f(in m)**. Unit: **Dioptre (D)**.
                   <ul>
                     <li>Convex lens: f is positive ⇒ P is positive.</li>
                     <li>Concave lens: f is negative ⇒ P is negative.</li>
@@ -3345,14 +3345,14 @@ const NOTES_DATABASE = {
               
               <h3>3. Key Optical Phenomena</h3>
               <ul>
-                <li><strong>Total Internal Reflection (TIR)</strong>: Occurs when light travels from denser to rarer medium and the angle of incidence is greater than the critical angle (θ_c).
+                <li>**Total Internal Reflection (TIR)**: Occurs when light travels from denser to rarer medium and the angle of incidence is greater than the critical angle (θ_c).
                   <ul>
                     <li>Formula: **sin θ_c = 1/μ**</li>
                     <li>Applications: Optical fibers, sparkling of diamonds, mirages in deserts, endoscopes.</li>
                   </ul>
                 </li>
-                <li><strong>Dispersion</strong>: Splitting of white light into constituent colors (VIBGYOR) when passing through a prism due to different speeds of different wavelengths in glass. Red deviates least, violet deviates most.</li>
-                <li><strong>Scattering of Light</strong>: Scattering intensity is inversely proportional to the fourth power of wavelength (Rayleigh Scattering: **I ∝ 1/λ⁴**). Explains why sky is blue (blue has short wavelength, scatters more) and sun appears red at sunrise/sunset.</li>
+                <li>**Dispersion**: Splitting of white light into constituent colors (VIBGYOR) when passing through a prism due to different speeds of different wavelengths in glass. Red deviates least, violet deviates most.</li>
+                <li>**Scattering of Light**: Scattering intensity is inversely proportional to the fourth power of wavelength (Rayleigh Scattering: **I ∝ 1/λ⁴**). Explains why sky is blue (blue has short wavelength, scatters more) and sun appears red at sunrise/sunset.</li>
               </ul>
             `,
             formulas: `Mirror Formula: 1/f = 1/v + 1/u\nLens Formula: 1/f = 1/v - 1/u\nLens Power: P = 1/f (dioptres)\nRefractive Index: n = c/v`,
@@ -3398,7 +3398,7 @@ const NOTES_DATABASE = {
               <h3>2. Newton's Second Law (Law of Force)</h3>
               <ul>
                 <li>The rate of change of momentum of a body is directly proportional to the applied force and takes place in the direction of the force.</li>
-                <li>Momentum: <strong>p = mv</strong> (vector quantity, unit: kg m/s).</li>
+                <li>Momentum: **p = mv** (vector quantity, unit: kg m/s).</li>
                 <li>Mathematical derivation: F = dp/dt = d(mv)/dt = m(dv/dt) = **ma** (Force = mass × acceleration).</li>
                 <li>Unit of Force: Newton (N). 1 N = 1 kg m/s² = 10⁵ Dynes.</li>
               </ul>
@@ -3411,10 +3411,10 @@ const NOTES_DATABASE = {
               
               <h3>4. Friction and Momentum Conservation</h3>
               <ul>
-                <li><strong>Law of Conservation of Linear Momentum</strong>: If no external force acts on a system, the total linear momentum remains constant. (m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂).</li>
-                <li><strong>Friction</strong>: The opposing force that comes into play when a body moves or tries to move over another surface.
+                <li>**Law of Conservation of Linear Momentum**: If no external force acts on a system, the total linear momentum remains constant. (m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂).</li>
+                <li>**Friction**: The opposing force that comes into play when a body moves or tries to move over another surface.
                   <ul>
-                    <li>Formula: <strong>f = μN</strong> (where μ is coefficient of friction, N is normal reaction).</li>
+                    <li>Formula: **f = μN** (where μ is coefficient of friction, N is normal reaction).</li>
                     <li>Order of friction: **Static Friction > Limiting Friction > Kinetic Friction > Rolling Friction**. Rolling friction is the smallest.</li>
                   </ul>
                 </li>
@@ -3455,33 +3455,33 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. Work, Energy and Power</h3>
               <ul>
-                <li><strong>Work (W)</strong>: W = F · s · cos θ. (Scalar quantity, unit: Joule).
+                <li>**Work (W)**: W = F · s · cos θ. (Scalar quantity, unit: Joule).
                   <ul>
                     <li>Work is zero if force and displacement are perpendicular (θ = 90°), e.g., circular planetary orbits, porter holding luggage.</li>
                   </ul>
                 </li>
-                <li><strong>Kinetic Energy (KE)</strong>: Energy due to motion. <strong>KE = ½ m v² = p² / 2m</strong> (where p is momentum).
+                <li>**Kinetic Energy (KE)**: Energy due to motion. **KE = ½ m v² = p² / 2m** (where p is momentum).
                   <ul>
                     <li>If momentum is doubled, KE becomes four times.</li>
                   </ul>
                 </li>
-                <li><strong>Potential Energy (PE)</strong>: Energy due to position. <strong>PE = mgh</strong>.</li>
-                <li><strong>Power (P)</strong>: Rate of doing work. <strong>P = W / t = F · v</strong>. Unit: Watt. <strong>1 Horsepower (HP) = 746 Watts</strong>.</li>
+                <li>**Potential Energy (PE)**: Energy due to position. **PE = mgh**.</li>
+                <li>**Power (P)**: Rate of doing work. **P = W / t = F · v**. Unit: Watt. **1 Horsepower (HP) = 746 Watts**.</li>
               </ul>
               
               <h3>2. Gravitation & Acceleration due to gravity (g)</h3>
               <ul>
-                <li>Newton's Law: <strong>F = G M m / r²</strong> (where G = 6.67 × 10⁻¹¹ N m²/kg²; Universal Gravitational Constant).</li>
-                <li>Acceleration due to gravity: <strong>g = G M / R²</strong> (on Earth's surface, g ≈ 9.8 m/s²).
+                <li>Newton's Law: **F = G M m / r²** (where G = 6.67 × 10⁻¹¹ N m²/kg²; Universal Gravitational Constant).</li>
+                <li>Acceleration due to gravity: **g = G M / R²** (on Earth's surface, g ≈ 9.8 m/s²).
                   <ul>
                     <li>g is independent of mass of the falling body.</li>
                   </ul>
                 </li>
-                <li><strong>Variations in 'g'</strong>:
+                <li>**Variations in 'g'**:
                   <ul>
-                    <li>With Altitude (h): Decreases: <strong>g' = g(1 - 2h/R)</strong>.</li>
-                    <li>With Depth (d): Decreases: <strong>g' = g(1 - d/R)</strong>. (At the centre of Earth, d = R ⇒ g = 0).</li>
-                    <li>Due to shape of Earth: Earth is an oblate spheroid. R_equator > R_pole. Since g ∝ 1/R², <strong>g is minimum at Equator, maximum at Poles</strong>.</li>
+                    <li>With Altitude (h): Decreases: **g' = g(1 - 2h/R)**.</li>
+                    <li>With Depth (d): Decreases: **g' = g(1 - d/R)**. (At the centre of Earth, d = R ⇒ g = 0).</li>
+                    <li>Due to shape of Earth: Earth is an oblate spheroid. R_equator > R_pole. Since g ∝ 1/R², **g is minimum at Equator, maximum at Poles**.</li>
                     <li>Due to rotation: g decreases as rotation speed increases. (At equator g' = g - ω²R). If rotation stops, g at equator increases, while g at poles remains unchanged.</li>
                   </ul>
                 </li>
@@ -3489,10 +3489,10 @@ const NOTES_DATABASE = {
               
               <h3>3. Kepler's Laws & Escape Velocity</h3>
               <ul>
-                <li><strong>Kepler's 3rd Law (Law of Periods)</strong>: The square of time period of a planet is proportional to the cube of semi-major axis of its orbit: **T² ∝ r³**.</li>
-                <li><strong>Escape Velocity (vₑ)</strong>: Minimum velocity required to escape gravitational pull.
+                <li>**Kepler's 3rd Law (Law of Periods)**: The square of time period of a planet is proportional to the cube of semi-major axis of its orbit: **T² ∝ r³**.</li>
+                <li>**Escape Velocity (vₑ)**: Minimum velocity required to escape gravitational pull.
                   <ul>
-                    <li>Formula: <strong>vₑ = √(2gR) = √(2GM/R)</strong>.</li>
+                    <li>Formula: **vₑ = √(2gR) = √(2GM/R)**.</li>
                     <li>For Earth, escape velocity is **11.2 km/s**. For Moon, it is **2.38 km/s** (low gravity, hence no atmosphere on Moon).</li>
                   </ul>
                 </li>
@@ -3642,24 +3642,24 @@ const NOTES_DATABASE = {
               
               <h3>1. Optics & Light (Highest Questions)</h3>
               <ul>
-                <li><strong>Total Internal Reflection (TIR):</strong> Highly repeated questions on applications of TIR (e.g., *optical fibers*, *mirage in deserts*, *sparkling of diamonds*). Conditions for TIR (light must travel from denser to rarer medium, and angle of incidence must exceed critical angle) are frequently asked.</li>
-                <li><strong>Refractive Index & Speed of Light:</strong> Numerical and conceptual questions on refractive index (n = c/v). Knowing that speed of light is highest in vacuum and decreases in denser media (e.g., speed of light in water vs glass).</li>
-                <li><strong>Mirrors & Lenses:</strong> Convex mirrors used as rear-view mirrors (wide field of view, erect, virtual, diminished image) is a standard UPSC question. Human eye defects (Myopia: corrected by *concave* lens; Hypermetropia: corrected by *convex* lens) are tested in almost every exam.</li>
-                <li><strong>Scattering of Light:</strong> Rayleigh scattering (scattering intensity is inversely proportional to the fourth power of wavelength) explaining the *blue color of the sky* and *reddish appearance of the Sun at sunrise/sunset*.</li>
+                <li>**Total Internal Reflection (TIR):** Highly repeated questions on applications of TIR (e.g., *optical fibers*, *mirage in deserts*, *sparkling of diamonds*). Conditions for TIR (light must travel from denser to rarer medium, and angle of incidence must exceed critical angle) are frequently asked.</li>
+                <li>**Refractive Index & Speed of Light:** Numerical and conceptual questions on refractive index (n = c/v). Knowing that speed of light is highest in vacuum and decreases in denser media (e.g., speed of light in water vs glass).</li>
+                <li>**Mirrors & Lenses:** Convex mirrors used as rear-view mirrors (wide field of view, erect, virtual, diminished image) is a standard UPSC question. Human eye defects (Myopia: corrected by *concave* lens; Hypermetropia: corrected by *convex* lens) are tested in almost every exam.</li>
+                <li>**Scattering of Light:** Rayleigh scattering (scattering intensity is inversely proportional to the fourth power of wavelength) explaining the *blue color of the sky* and *reddish appearance of the Sun at sunrise/sunset*.</li>
               </ul>
               
               <h3>2. Mechanics & Motion</h3>
               <ul>
-                <li><strong>Newton's Laws & Inertia:</strong> Practical examples of inertia of rest, inertia of motion, and inertia of direction (e.g., passenger falling forward when a bus stops suddenly, dusting a carpet by beating it).</li>
-                <li><strong>Work, Power, and Energy:</strong> Work done is zero when displacement is perpendicular to the force (e.g., a coolie carrying load on his head walking horizontally). Kinetic Energy (K = p²/2m where p is momentum) and conservation of mechanical energy (potential energy + kinetic energy = constant).</li>
-                <li><strong>Gravitation:</strong> Value of acceleration due to gravity (g): maximum at poles, minimum at equator, zero at the center of the Earth, and decreases both as we go above the surface (altitude) or below the surface (depth).</li>
+                <li>**Newton's Laws & Inertia:** Practical examples of inertia of rest, inertia of motion, and inertia of direction (e.g., passenger falling forward when a bus stops suddenly, dusting a carpet by beating it).</li>
+                <li>**Work, Power, and Energy:** Work done is zero when displacement is perpendicular to the force (e.g., a coolie carrying load on his head walking horizontally). Kinetic Energy (K = p²/2m where p is momentum) and conservation of mechanical energy (potential energy + kinetic energy = constant).</li>
+                <li>**Gravitation:** Value of acceleration due to gravity (g): maximum at poles, minimum at equator, zero at the center of the Earth, and decreases both as we go above the surface (altitude) or below the surface (depth).</li>
               </ul>
 
               <h3>3. Electricity & Magnetism</h3>
               <ul>
-                <li><strong>Ohm's Law & Resistance:</strong> Factors affecting electrical resistance of a conductor (R = rho * L / A). Resistance is directly proportional to length and inversely proportional to area of cross-section. Numerical problems on series and parallel combinations.</li>
-                <li><strong>Joule's Heating & Safety Fuse:</strong> Commercial unit of electrical energy (1 kWh = 3.6 x 10^6 Joules). Safety fuse wire has **low melting point** and **high resistance**.</li>
-                <li><strong>Earth's Magnetism:</strong> Value of magnetic dip at the magnetic equator (0°) and at the magnetic poles (90°).</li>
+                <li>**Ohm's Law & Resistance:** Factors affecting electrical resistance of a conductor (R = rho * L / A). Resistance is directly proportional to length and inversely proportional to area of cross-section. Numerical problems on series and parallel combinations.</li>
+                <li>**Joule's Heating & Safety Fuse:** Commercial unit of electrical energy (1 kWh = 3.6 x 10^6 Joules). Safety fuse wire has **low melting point** and **high resistance**.</li>
+                <li>**Earth's Magnetism:** Value of magnetic dip at the magnetic equator (0°) and at the magnetic poles (90°).</li>
               </ul>
             `,
             formulas: "n = c / v\\nRayleigh Scattering: I \u221d 1 / \u03bb\u2074\\nResistance: R = \u03c1·L / A\\n1 kWh = 3.6 × 10\u2076 J\\nDip Angle: 0\u00b0 (Equator) | 90\u00b0 (Poles)",
@@ -3689,19 +3689,19 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. Theories of Acids and Bases</h3>
               <ul>
-                <li><strong>Arrhenius Theory</strong>:
+                <li>**Arrhenius Theory**:
                   <ul>
                     <li>Acid: Releases hydrogen ions (H⁺) or hydronium ions (H₃O⁺) in aqueous solution (e.g., HCl, HNO₃).</li>
                     <li>Base: Releases hydroxyl ions (OH⁻) in aqueous solution (e.g., NaOH, KOH).</li>
                   </ul>
                 </li>
-                <li><strong>Bronsted-Lowry Theory</strong>:
+                <li>**Bronsted-Lowry Theory**:
                   <ul>
                     <li>Acid: Proton (H⁺) donor.</li>
                     <li>Base: Proton (H⁺) acceptor.</li>
                   </ul>
                 </li>
-                <li><strong>Lewis Theory</strong>:
+                <li>**Lewis Theory**:
                   <ul>
                     <li>Acid: Electron-pair acceptor (electron deficient, e.g., BF₃, AlCl₃, H⁺).</li>
                     <li>Base: Electron-pair donor (has lone pair, e.g., NH₃, H₂O, F⁻).</li>
@@ -3711,7 +3711,7 @@ const NOTES_DATABASE = {
               
               <h3>2. pH Scale & Indicators</h3>
               <ul>
-                <li>pH represents potential of Hydrogen. Formula: <strong>pH = -log[H⁺]</strong> or <strong>pH = -log[H₃O⁺]</strong>.</li>
+                <li>pH represents potential of Hydrogen. Formula: **pH = -log[H⁺]** or **pH = -log[H₃O⁺]**.</li>
                 <li>At 298 K: pH < 7 is acidic; pH = 7 is neutral; pH > 7 is basic/alkaline.</li>
                 <li>Indicators Table:
                   <table style="width:100%; border-collapse:collapse; margin-top:8px; font-size:0.85rem;">
@@ -3741,10 +3741,10 @@ const NOTES_DATABASE = {
               
               <h3>3. Key Chemical Salts and Formulas</h3>
               <ul>
-                <li><strong>Baking Soda (Sodium Hydrogen Carbonate - NaHCO₃)</strong>: Prepared by Solvay process. Releases CO₂ on heating. Used in baking and soda-acid fire extinguishers.</li>
-                <li><strong>Washing Soda (Sodium Carbonate Decahydrate - Na₂CO₃ · 10H₂O)</strong>: Used in glass, soap paper industries, and for removing permanent hardness of water.</li>
-                <li><strong>Plaster of Paris (Calcium Sulphate Hemihydrate - CaSO₄ · ½H₂O)</strong>: Obtained by heating Gypsum (CaSO₄ · 2H₂O) at 373 K. Used for plastering fractured bones and making toys.</li>
-                <li><strong>Bleaching Powder (Calcium Oxychloride - CaOCl₂)</strong>: Formed by action of chlorine on dry slaked lime [Ca(OH)₂]. Used as disinfectant for water and bleaching agent in textile industry.</li>
+                <li>**Baking Soda (Sodium Hydrogen Carbonate - NaHCO₃)**: Prepared by Solvay process. Releases CO₂ on heating. Used in baking and soda-acid fire extinguishers.</li>
+                <li>**Washing Soda (Sodium Carbonate Decahydrate - Na₂CO₃ · 10H₂O)**: Used in glass, soap paper industries, and for removing permanent hardness of water.</li>
+                <li>**Plaster of Paris (Calcium Sulphate Hemihydrate - CaSO₄ · ½H₂O)**: Obtained by heating Gypsum (CaSO₄ · 2H₂O) at 373 K. Used for plastering fractured bones and making toys.</li>
+                <li>**Bleaching Powder (Calcium Oxychloride - CaOCl₂)**: Formed by action of chlorine on dry slaked lime [Ca(OH)₂]. Used as disinfectant for water and bleaching agent in textile industry.</li>
               </ul>
             `,
             formulas: `pH = -log[H⁺]\nBaking Soda: NaHCO₃\nWashing Soda: Na₂CO₃·10H₂O\nPOP: CaSO₄·0.5H₂O\nGypsum: CaSO₄·2H₂O\nBleaching Powder: CaOCl₂`,
@@ -3782,18 +3782,18 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. Types of Chemical Bonds</h3>
               <ul>
-                <li><strong>Electrovalent/Ionic Bond</strong>: Formed by complete transfer of electrons from electropositive metal to electronegative non-metal (e.g., NaCl, CaCl₂).
+                <li>**Electrovalent/Ionic Bond**: Formed by complete transfer of electrons from electropositive metal to electronegative non-metal (e.g., NaCl, CaCl₂).
                   <ul>
                     <li>Properties: High melting/boiling points, soluble in water, conduct electricity in molten/solution state.</li>
                   </ul>
                 </li>
-                <li><strong>Covalent Bond</strong>: Formed by equal sharing of electrons between non-metals (e.g., H₂, O₂, H₂O).
+                <li>**Covalent Bond**: Formed by equal sharing of electrons between non-metals (e.g., H₂, O₂, H₂O).
                   <ul>
                     <li>Properties: Low melting/boiling points, insoluble in water (soluble in organic solvents), poor conductors.</li>
                   </ul>
                 </li>
-                <li><strong>Coordinate/Dative Bond</strong>: Special covalent bond where shared pair is donated by one atom (donor) and accepted by another (acceptor) (e.g., NH₄⁺, H₃O⁺).</li>
-                <li><strong>Hydrogen Bond</strong>: Electrostatic force of attraction between hydrogen atom bonded to a highly electronegative atom (F, O, N) and another electronegative atom.
+                <li>**Coordinate/Dative Bond**: Special covalent bond where shared pair is donated by one atom (donor) and accepted by another (acceptor) (e.g., NH₄⁺, H₃O⁺).</li>
+                <li>**Hydrogen Bond**: Electrostatic force of attraction between hydrogen atom bonded to a highly electronegative atom (F, O, N) and another electronegative atom.
                   <ul>
                     <li>Intermolecular H-bonding: Between different molecules (e.g., H₂O, HF). Explains why H₂O is liquid while H₂S is gas.</li>
                     <li>Intramolecular H-bonding: Within the same molecule (e.g., o-nitrophenol).</li>
@@ -3804,25 +3804,25 @@ const NOTES_DATABASE = {
               <h3>2. Modern Periodic Table & Periodic Trends</h3>
               <p>Developed by Henry Moseley, based on **Atomic Number**. Has 18 groups and 7 periods.</p>
               <ul>
-                <li><strong>Atomic Radius</strong>:
+                <li>**Atomic Radius**:
                   <ul>
                     <li>Across Period (Left to Right): **Decreases** due to increase in effective nuclear charge (pulls electrons closer).</li>
                     <li>Down Group (Top to Bottom): **Increases** due to addition of new electron shells.</li>
                   </ul>
                 </li>
-                <li><strong>Ionization Energy (IE)</strong>: Energy required to remove the outermost electron.
+                <li>**Ionization Energy (IE)**: Energy required to remove the outermost electron.
                   <ul>
                     <li>Across Period: **Increases** (atomic size decreases, nuclear pull increases).</li>
                     <li>Down Group: **Decreases** (atomic size increases, easier to remove outer electron).</li>
                   </ul>
                 </li>
-                <li><strong>Electronegativity</strong>: Tendency of an atom to attract shared electron pair.
+                <li>**Electronegativity**: Tendency of an atom to attract shared electron pair.
                   <ul>
                     <li>Across Period: **Increases** (Fluorine is most electronegative).</li>
                     <li>Down Group: **Decreases**.</li>
                   </ul>
                 </li>
-                <li><strong>Metallic Character (Electropositivity)</strong>:
+                <li>**Metallic Character (Electropositivity)**:
                   <ul>
                     <li>Across Period: **Decreases**.</li>
                     <li>Down Group: **Increases** (Francium/Cesium are highly metallic).</li>
@@ -3971,26 +3971,26 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. Cell Theory & Classification</h3>
               <ul>
-                <li>Cell is the structural and functional unit of life, first discovered by <strong>Robert Hooke</strong> in 1665 (dead cork cell) and <strong>Leeuwenhoek</strong> in 1674 (living cell).</li>
-                <li><strong>Cell Theory</strong>: Proposed by Schleiden and Schwann (1838-1839). Rudolf Virchow added: "Omnis cellula-e-cellula" (all cells arise from pre-existing cells).</li>
-                <li><strong>Prokaryotic Cells</strong>: Lack a nuclear membrane and membrane-bound organelles (e.g., Bacteria, Blue-green algae). Possess 70S ribosomes.</li>
-                <li><strong>Eukaryotic Cells</strong>: Have a well-defined nuclear envelope and organelles (e.g., Plants, Animals, Fungi). Possess 80S ribosomes.</li>
+                <li>Cell is the structural and functional unit of life, first discovered by **Robert Hooke** in 1665 (dead cork cell) and **Leeuwenhoek** in 1674 (living cell).</li>
+                <li>**Cell Theory**: Proposed by Schleiden and Schwann (1838-1839). Rudolf Virchow added: "Omnis cellula-e-cellula" (all cells arise from pre-existing cells).</li>
+                <li>**Prokaryotic Cells**: Lack a nuclear membrane and membrane-bound organelles (e.g., Bacteria, Blue-green algae). Possess 70S ribosomes.</li>
+                <li>**Eukaryotic Cells**: Have a well-defined nuclear envelope and organelles (e.g., Plants, Animals, Fungi). Possess 80S ribosomes.</li>
               </ul>
               
               <h3>2. Vital Cell Organelles</h3>
               <ul>
-                <li><strong>Mitochondria</strong>: Double-membraned powerhouse of the cell. Site of aerobic cellular respiration and ATP generation. Contains its own DNA and 70S ribosomes.</li>
-                <li><strong>Plastids (Chloroplasts)</strong>: Found only in plant cells. Kitchen of the cell, contains chlorophyll to perform photosynthesis. Possesses own circular DNA.</li>
-                <li><strong>Ribosomes</strong>: Non-membrane bound protein factories. Found free in cytoplasm or attached to Rough Endoplasmic Reticulum (RER).</li>
-                <li><strong>Lysosomes</strong>: Formed by Golgi apparatus. Known as <strong>Suicide Bags</strong> because they contain hydrolytic digestive enzymes that destroy worn-out organelles or the cell itself under stress.</li>
-                <li><strong>Endoplasmic Reticulum (ER)</strong>: RER has ribosomes and synthesizes proteins; Smooth ER (SER) synthesizes lipids and detoxifies poisons/drugs.</li>
-                <li><strong>Golgi Apparatus</strong>: Performs packaging, modification, and dispatching of materials.</li>
+                <li>**Mitochondria**: Double-membraned powerhouse of the cell. Site of aerobic cellular respiration and ATP generation. Contains its own DNA and 70S ribosomes.</li>
+                <li>**Plastids (Chloroplasts)**: Found only in plant cells. Kitchen of the cell, contains chlorophyll to perform photosynthesis. Possesses own circular DNA.</li>
+                <li>**Ribosomes**: Non-membrane bound protein factories. Found free in cytoplasm or attached to Rough Endoplasmic Reticulum (RER).</li>
+                <li>**Lysosomes**: Formed by Golgi apparatus. Known as **Suicide Bags** because they contain hydrolytic digestive enzymes that destroy worn-out organelles or the cell itself under stress.</li>
+                <li>**Endoplasmic Reticulum (ER)**: RER has ribosomes and synthesizes proteins; Smooth ER (SER) synthesizes lipids and detoxifies poisons/drugs.</li>
+                <li>**Golgi Apparatus**: Performs packaging, modification, and dispatching of materials.</li>
               </ul>
               
               <h3>3. Cell Division (Mitosis vs Meiosis)</h3>
               <ul>
-                <li><strong>Mitosis (Equational Division)</strong>: Occurs in somatic cells for growth and repair. One diploid cell (2n) divides to produce <strong>two identical diploid (2n) daughter cells</strong>.</li>
-                <li><strong>Meiosis (Reductional Division)</strong>: Occurs in germ cells to form gametes. One diploid cell (2n) divides to produce <strong>four non-identical haploid (n) daughter cells</strong>. Features crossing over in Prophase I (Pachytene stage) which induces variation.</li>
+                <li>**Mitosis (Equational Division)**: Occurs in somatic cells for growth and repair. One diploid cell (2n) divides to produce **two identical diploid (2n) daughter cells**.</li>
+                <li>**Meiosis (Reductional Division)**: Occurs in germ cells to form gametes. One diploid cell (2n) divides to produce **four non-identical haploid (n) daughter cells**. Features crossing over in Prophase I (Pachytene stage) which induces variation.</li>
               </ul>
             `,
             formulas: `Powerhouse: Mitochondria (ATP)\nSuicide Bags: Lysosomes (hydrolytic enzymes)\nProtein Factory: Ribosomes\nMitosis: Growth & Repair (2n -> 2n)\nMeiosis: Gamete formation & Crossing Over (2n -> 4 cells of n)`,
@@ -4024,33 +4024,33 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. Circulatory System & Blood Components</h3>
               <ul>
-                <li><strong>Human Heart</strong>: 4-chambered (two auricles, two ventricles) showing double circulation. Normal pace maker is the <strong>Sino-Atrial (SA) Node</strong>.</li>
-                <li><strong>Blood Composition</strong>: Plasma (55%) and Formed elements (45%):
+                <li>**Human Heart**: 4-chambered (two auricles, two ventricles) showing double circulation. Normal pace maker is the **Sino-Atrial (SA) Node**.</li>
+                <li>**Blood Composition**: Plasma (55%) and Formed elements (45%):
                   <ul>
-                    <li><strong>RBCs (Erythrocytes)</strong>: Lifespan ~120 days. Lack nucleus at maturity. Contain iron-rich hemoglobin to transport oxygen. Destroyed in the spleen (graveyard of RBCs).</li>
-                    <li><strong>WBCs (Leukocytes)</strong>: Part of immune system. Granulocytes (Neutrophils, Basophils, Eosinophils) and Agranulocytes (Lymphocytes, Monocytes).</li>
-                    <li><strong>Platelets (Thrombocytes)</strong>: Responsible for blood clotting (aided by Vitamin K and Calcium ions).</li>
+                    <li>**RBCs (Erythrocytes)**: Lifespan ~120 days. Lack nucleus at maturity. Contain iron-rich hemoglobin to transport oxygen. Destroyed in the spleen (graveyard of RBCs).</li>
+                    <li>**WBCs (Leukocytes)**: Part of immune system. Granulocytes (Neutrophils, Basophils, Eosinophils) and Agranulocytes (Lymphocytes, Monocytes).</li>
+                    <li>**Platelets (Thrombocytes)**: Responsible for blood clotting (aided by Vitamin K and Calcium ions).</li>
                   </ul>
                 </li>
-                <li><strong>Blood Groups (ABO System)</strong>:
+                <li>**Blood Groups (ABO System)**:
                   <ul>
-                    <li>Group O-negative: <strong>Universal Donor</strong> (lacks antigens).</li>
-                    <li>Group AB-positive: <strong>Universal Recipient</strong> (lacks antibodies).</li>
+                    <li>Group O-negative: **Universal Donor** (lacks antigens).</li>
+                    <li>Group AB-positive: **Universal Recipient** (lacks antibodies).</li>
                   </ul>
                 </li>
               </ul>
               
               <h3>2. Endocrine Glands & Gaseous / Digestive Systems</h3>
               <ul>
-                <li><strong>Endocrine Glands (Ductless Glands)</strong>: Secretions are called hormones.
+                <li>**Endocrine Glands (Ductless Glands)**: Secretions are called hormones.
                   <ul>
-                    <li><strong>Pituitary Gland</strong>: Master gland, controls growth and other glands.</li>
-                    <li><strong>Thyroid Gland</strong>: Secretes thyroxine (needs Iodine; deficiency leads to Goitre).</li>
-                    <li><strong>Pancreas (Mixed Gland)</strong>: Islets of Langerhans secrete <strong>Insulin</strong> (Beta cells, lowers blood glucose) and <strong>Glucagon</strong> (Alpha cells, raises glucose). Deficiency of insulin causes Diabetes Mellitus.</li>
-                    <li><strong>Adrenal Gland</strong>: Secretes Adrenaline (fight-or-flight hormone, raises heart rate).</li>
+                    <li>**Pituitary Gland**: Master gland, controls growth and other glands.</li>
+                    <li>**Thyroid Gland**: Secretes thyroxine (needs Iodine; deficiency leads to Goitre).</li>
+                    <li>**Pancreas (Mixed Gland)**: Islets of Langerhans secrete **Insulin** (Beta cells, lowers blood glucose) and **Glucagon** (Alpha cells, raises glucose). Deficiency of insulin causes Diabetes Mellitus.</li>
+                    <li>**Adrenal Gland**: Secretes Adrenaline (fight-or-flight hormone, raises heart rate).</li>
                   </ul>
                 </li>
-                <li><strong>Digestive Enzymes</strong>:
+                <li>**Digestive Enzymes**:
                   <ul>
                     <li>Saliva: Salivary Amylase (digests starch).</li>
                     <li>Stomach: Pepsin (digests proteins in acidic medium - HCl).</li>
@@ -4090,21 +4090,21 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. Infectious Diseases Classification</h3>
               <ul>
-                <li><strong>Bacterial Diseases</strong>:
+                <li>**Bacterial Diseases**:
                   <ul>
                     <li>Tuberculosis (TB): Caused by <em>Mycobacterium tuberculosis</em>. Prevented by BCG vaccine.</li>
                     <li>Typhoid: Caused by <em>Salmonella typhi</em>. Diagnosed by **Widal Test**.</li>
                     <li>Cholera: Caused by <em>Vibrio cholerae</em> (water-borne).</li>
                   </ul>
                 </li>
-                <li><strong>Viral Diseases</strong>:
+                <li>**Viral Diseases**:
                   <ul>
-                    <li>Dengue: Caused by Flavivirus. Spread by <strong>Aedes aegypti</strong> mosquito. Characterized by severe drop in platelet count.</li>
+                    <li>Dengue: Caused by Flavivirus. Spread by **Aedes aegypti** mosquito. Characterized by severe drop in platelet count.</li>
                     <li>Polio: Caused by Poliovirus. Vaccine developed by Jonas Salk (injected) and Albert Sabin (oral).</li>
-                    <li>AIDS: Caused by HIV (Retrovirus). Diagnosed by <strong>ELISA Test</strong>.</li>
+                    <li>AIDS: Caused by HIV (Retrovirus). Diagnosed by **ELISA Test**.</li>
                   </ul>
                 </li>
-                <li><strong>Protozoan Diseases</strong>:
+                <li>**Protozoan Diseases**:
                   <ul>
                     <li>Malaria: Caused by <em>Plasmodium</em>. Spread by female **Anopheles** mosquito vector. Quinine (from Cinchona bark) is used as treatment.</li>
                     <li>Kala-azar (Leishmaniasis): Spread by **Sandfly** vector.</li>
@@ -4114,7 +4114,7 @@ const NOTES_DATABASE = {
               
               <h3>2. Nutritional Deficiency Diseases</h3>
               <ul>
-                <li><strong>Vitamins & Minerals Deficiency Chart</strong>:
+                <li>**Vitamins & Minerals Deficiency Chart**:
                   <table style="width:100%; border-collapse:collapse; margin-top:8px; font-size:0.85rem;">
                     <tr style="background-color:var(--bg-tertiary);">
                       <th style="padding:6px; border:1px solid var(--border);">Vitamin / Chemical</th>
@@ -4335,9 +4335,9 @@ const NOTES_DATABASE = {
               
               <h3>2. Honorary / Highest Ranks (5-Star Ranks)</h3>
               <ul>
-                <li><strong>Field Marshal (Army)</strong>: Ranks held by Sam Manekshaw and K.M. Cariappa.</li>
-                <li><strong>Marshal of the Indian Air Force (IAF)</strong>: Rank held by Arjan Singh.</li>
-                <li><strong>Admiral of the Fleet (Navy)</strong>: Peacetime equivalent five-star rank (no naval officer has received this yet).</li>
+                <li>**Field Marshal (Army)**: Ranks held by Sam Manekshaw and K.M. Cariappa.</li>
+                <li>**Marshal of the Indian Air Force (IAF)**: Rank held by Arjan Singh.</li>
+                <li>**Admiral of the Fleet (Navy)**: Peacetime equivalent five-star rank (no naval officer has received this yet).</li>
               </ul>
             `,
             formulas: `Lieutenant = Sub-Lieutenant = Flying Officer\nColonel = Captain = Group Captain\nGeneral = Admiral = Air Chief Marshal`,
@@ -4369,36 +4369,36 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. Indian Army Commands (7)</h3>
               <ul>
-                <li>Northern Command: <strong>Udhampur</strong> (J&K)</li>
-                <li>Western Command: <strong>Chandimandir</strong> (Haryana)</li>
-                <li>Eastern Command: <strong>Kolkata</strong> (West Bengal)</li>
-                <li>Southern Command: <strong>Pune</strong> (Maharashtra)</li>
-                <li>Central Command: <strong>Lucknow</strong> (Uttar Pradesh)</li>
-                <li>South Western Command: <strong>Jaipur</strong> (Rajasthan)</li>
-                <li>Army Training Command (ARTRAC): <strong>Shimla</strong> (Himachal Pradesh)</li>
+                <li>Northern Command: **Udhampur** (J&K)</li>
+                <li>Western Command: **Chandimandir** (Haryana)</li>
+                <li>Eastern Command: **Kolkata** (West Bengal)</li>
+                <li>Southern Command: **Pune** (Maharashtra)</li>
+                <li>Central Command: **Lucknow** (Uttar Pradesh)</li>
+                <li>South Western Command: **Jaipur** (Rajasthan)</li>
+                <li>Army Training Command (ARTRAC): **Shimla** (Himachal Pradesh)</li>
               </ul>
               
               <h3>2. Indian Air Force Commands (7)</h3>
               <ul>
-                <li>Western Air Command: <strong>New Delhi</strong></li>
-                <li>Eastern Air Command: <strong>Shillong</strong> (Meghalaya)</li>
-                <li>Central Air Command: <strong>Prayagraj</strong> (Uttar Pradesh)</li>
-                <li>Southern Air Command: <strong>Thiruvananthapuram</strong> (Kerala)</li>
-                <li>South Western Air Command: <strong>Gandhinagar</strong> (Gujarat)</li>
-                <li>Training Command: <strong>Bengaluru</strong> (Karnataka)</li>
-                <li>Maintenance Command: <strong>Nagpur</strong> (Maharashtra)</li>
+                <li>Western Air Command: **New Delhi**</li>
+                <li>Eastern Air Command: **Shillong** (Meghalaya)</li>
+                <li>Central Air Command: **Prayagraj** (Uttar Pradesh)</li>
+                <li>Southern Air Command: **Thiruvananthapuram** (Kerala)</li>
+                <li>South Western Air Command: **Gandhinagar** (Gujarat)</li>
+                <li>Training Command: **Bengaluru** (Karnataka)</li>
+                <li>Maintenance Command: **Nagpur** (Maharashtra)</li>
               </ul>
               
               <h3>3. Indian Navy Commands (3)</h3>
               <ul>
-                <li>Western Naval Command: <strong>Mumbai</strong> (Maharashtra)</li>
-                <li>Eastern Naval Command: <strong>Visakhapatnam</strong> (Andhra Pradesh)</li>
-                <li>Southern Naval Command (Training Command): <strong>Kochi</strong> (Kerala)</li>
+                <li>Western Naval Command: **Mumbai** (Maharashtra)</li>
+                <li>Eastern Naval Command: **Visakhapatnam** (Andhra Pradesh)</li>
+                <li>Southern Naval Command (Training Command): **Kochi** (Kerala)</li>
               </ul>
               
               <h3>4. Tri-Services Unified Command</h3>
               <ul>
-                <li>Andaman and Nicobar Command: <strong>Port Blair</strong> (Joint Command of Army, Navy, Air Force).</li>
+                <li>Andaman and Nicobar Command: **Port Blair** (Joint Command of Army, Navy, Air Force).</li>
                 <li>Strategic Forces Command (SFC): Handles India's tactical nuclear weapons stockpile.</li>
               </ul>
             `,
@@ -4452,7 +4452,7 @@ const NOTES_DATABASE = {
               <h3>Bilateral Exercises List (High-Yield)</h3>
               <p>Armed forces carry out exercises to practice tactical joint operations. Memorize the major ones:</p>
               <ul>
-                <li><strong>United States</strong>:
+                <li>**United States**:
                   <ul>
                     <li>Yudh Abhyas (Army)</li>
                     <li>Vajra Prahar (Special Forces)</li>
@@ -4460,26 +4460,26 @@ const NOTES_DATABASE = {
                     <li>Tarkash (Counter-terrorism joint drills)</li>
                   </ul>
                 </li>
-                <li><strong>France</strong>:
+                <li>**France**:
                   <ul>
                     <li>Shakti (Army)</li>
                     <li>Varuna (Navy)</li>
                     <li>Garuda (Air Force)</li>
                   </ul>
                 </li>
-                <li><strong>Russia</strong>:
+                <li>**Russia**:
                   <ul>
                     <li>Indra (Tri-services joint exercise)</li>
                   </ul>
                 </li>
-                <li><strong>United Kingdom</strong>:
+                <li>**United Kingdom**:
                   <ul>
                     <li>Ajeya Warrior (Army)</li>
                     <li>Konkan (Navy)</li>
                     <li>Indradhanush (Air Force)</li>
                   </ul>
                 </li>
-                <li><strong>Neighbours</strong>:
+                <li>**Neighbours**:
                   <ul>
                     <li>Surya Kiran (Nepal Army)</li>
                     <li>Sampriti (Bangladesh Army)</li>
@@ -4488,7 +4488,7 @@ const NOTES_DATABASE = {
                     <li>Hand-in-Hand (China Army)</li>
                   </ul>
                 </li>
-                <li><strong>Others</strong>:
+                <li>**Others**:
                   <ul>
                     <li>Nomadic Elephant (Mongolia Army)</li>
                     <li>Garuda Shakti (Indonesia Army)</li>
@@ -4527,26 +4527,26 @@ const NOTES_DATABASE = {
             notes: `
               <h3>1. The IGMDP Program</h3>
               <p>Conceived by **Dr. A.P.J. Abdul Kalam** in 1983 to make India self-sufficient in missile technology. Formally completed in 2008.</p>
-              <p>Mnemonic for the 5 core missiles: <strong>PATNA</strong></p>
+              <p>Mnemonic for the 5 core missiles: **PATNA**</p>
               <ul>
-                <li><strong>P - Prithvi</strong>: Short-range surface-to-surface ballistic missile. First missile under IGMDP.</li>
-                <li><strong>A - Agni</strong>: Medium to intercontinental range surface-to-surface ballistic missile. (Agni 1 to 5). Agni-5 is an ICBM with a range of 5000+ km.</li>
-                <li><strong>T - Trishul</strong>: Short-range low-altitude surface-to-air missile. (Development closed, technology acts as feed).</li>
-                <li><strong>N - Nag</strong>: Third-generation fire-and-forget anti-tank guided missile (ATGM). Has land and heliborne versions.</li>
-                <li><strong>A - Akash</strong>: Medium-range surface-to-air missile with multi-target engagement capability. Guided by Rajendra radar.</li>
+                <li>**P - Prithvi**: Short-range surface-to-surface ballistic missile. First missile under IGMDP.</li>
+                <li>**A - Agni**: Medium to intercontinental range surface-to-surface ballistic missile. (Agni 1 to 5). Agni-5 is an ICBM with a range of 5000+ km.</li>
+                <li>**T - Trishul**: Short-range low-altitude surface-to-air missile. (Development closed, technology acts as feed).</li>
+                <li>**N - Nag**: Third-generation fire-and-forget anti-tank guided missile (ATGM). Has land and heliborne versions.</li>
+                <li>**A - Akash**: Medium-range surface-to-air missile with multi-target engagement capability. Guided by Rajendra radar.</li>
               </ul>
               
               <h3>2. Crucial Cruise & Air Defence Missiles</h3>
               <ul>
-                <li><strong>BrahMos</strong>: Supersonic cruise missile jointly developed with Russia.
+                <li>**BrahMos**: Supersonic cruise missile jointly developed with Russia.
                   <ul>
                     <li>Speed: **Mach 2.8 to 3.0** (World's fastest operational cruise missile).</li>
                     <li>Can be launched from submarine, ships, aircraft, or land.</li>
                   </ul>
                 </li>
-                <li><strong>Astra</strong>: Beyond Visual Range (BVR) air-to-air missile integrated onto Sukhoi Su-30MKI and Tejas.</li>
-                <li><strong>K-Missile Series (K-15 Sagarika, K-4)</strong>: Submarine-launched ballistic missiles (SLBMs) designed for Arihant nuclear submarine class.</li>
-                <li><strong>Helina (Dhruvastra)</strong>: Helicopter-launched version of the Nag anti-tank missile.</li>
+                <li>**Astra**: Beyond Visual Range (BVR) air-to-air missile integrated onto Sukhoi Su-30MKI and Tejas.</li>
+                <li>**K-Missile Series (K-15 Sagarika, K-4)**: Submarine-launched ballistic missiles (SLBMs) designed for Arihant nuclear submarine class.</li>
+                <li>**Helina (Dhruvastra)**: Helicopter-launched version of the Nag anti-tank missile.</li>
               </ul>
             `,
             formulas: `PATNA: Prithvi, Agni, Trishul, Nag, Akash\nBrahMos Speed: Mach 2.8 - 3.0\nAstra: Air-to-Air (BVR)\nHelina: Helicopter ATGM`,
@@ -4585,21 +4585,21 @@ const NOTES_DATABASE = {
               <h3>1. Core Verbal Reasoning Topics</h3>
               <p>Verbal reasoning tests the ability to analyze and solve problems containing written/verbal content. Key concepts include:</p>
               <ul>
-                <li><strong>Analogy:</strong> Finding relationships between pairs of words, letters, or numbers (e.g., Doctor : Hospital :: Teacher : School).</li>
-                <li><strong>Classification (Odd One Out):</strong> Identifying the term that does not belong to the group (e.g., Apple, Banana, Potato, Orange -> Potato is a vegetable, others are fruits).</li>
-                <li><strong>Coding-Decoding:</strong> Decrypting rules applied to letters or words. Look for alphabet position values (A=1, Z=26) and reverse positions (A-Z, B-Y, etc., sum = 27).</li>
-                <li><strong>Blood Relations:</strong> Drawing family trees with symbols (+ for male, - for female, = for couples, vertical lines for generations) to solve relationship puzzles.</li>
-                <li><strong>Direction Sense:</strong> Always draw the cardinal directions (North, South, East, West) and solve using the Pythagoras theorem for shortest distance.</li>
-                <li><strong>Syllogism:</strong> Solving logical statements using Venn diagrams to check validity of conclusions.</li>
+                <li>**Analogy:** Finding relationships between pairs of words, letters, or numbers (e.g., Doctor : Hospital :: Teacher : School).</li>
+                <li>**Classification (Odd One Out):** Identifying the term that does not belong to the group (e.g., Apple, Banana, Potato, Orange -> Potato is a vegetable, others are fruits).</li>
+                <li>**Coding-Decoding:** Decrypting rules applied to letters or words. Look for alphabet position values (A=1, Z=26) and reverse positions (A-Z, B-Y, etc., sum = 27).</li>
+                <li>**Blood Relations:** Drawing family trees with symbols (+ for male, - for female, = for couples, vertical lines for generations) to solve relationship puzzles.</li>
+                <li>**Direction Sense:** Always draw the cardinal directions (North, South, East, West) and solve using the Pythagoras theorem for shortest distance.</li>
+                <li>**Syllogism:** Solving logical statements using Venn diagrams to check validity of conclusions.</li>
               </ul>
               
               <h3>2. Officer Intelligence Rating (OIR) Verbal Tests</h3>
               <p>OIR is the first test of SSB Stage 1. Common Verbal OIR patterns:</p>
               <ul>
-                <li><strong>Word Association & Jumbled Words:</strong> Unscrambling letters to form meaningful words and finding their category.</li>
-                <li><strong>Sentence Sequencing:</strong> Arranging words or sentences in logical or alphabetical order.</li>
-                <li><strong>Dictionary Order:</strong> Arranging words as they appear in a standard dictionary.</li>
-                <li><strong>Number/Letter Series:</strong> Identifying patterns of arithmetic progression, prime numbers, squares, or alternating sequences.</li>
+                <li>**Word Association & Jumbled Words:** Unscrambling letters to form meaningful words and finding their category.</li>
+                <li>**Sentence Sequencing:** Arranging words or sentences in logical or alphabetical order.</li>
+                <li>**Dictionary Order:** Arranging words as they appear in a standard dictionary.</li>
+                <li>**Number/Letter Series:** Identifying patterns of arithmetic progression, prime numbers, squares, or alternating sequences.</li>
               </ul>
             `,
             formulas: `A=1, B=2, ..., Z=26\nReverse pair: Sum of positions = 27\nOdd One Out rules\nPythagoras: H² = B² + P²\nFamily tree symbols`,
@@ -4628,11 +4628,11 @@ const NOTES_DATABASE = {
               <h3>1. Core Non-Verbal Reasoning Topics</h3>
               <p>Non-verbal reasoning tests the ability to analyze visual information and solve problems based on patterns, figures, and spatial relationships.</p>
               <ul>
-                <li><strong>Pattern Completion:</strong> Identifying the missing section of a larger geometric design or pattern.</li>
-                <li><strong>Figure Series & Analogy:</strong> Understanding how a shape changes (rotation, addition/deletion of elements, inversion) and predicting the next figure.</li>
-                <li><strong>Embedded Figures:</strong> Finding a small target shape hidden inside a more complex drawing.</li>
-                <li><strong>Paper Folding & Cutting:</strong> Visualizing how paper looks when folded and punched with holes, then unfolded (uses vertical/horizontal symmetry lines).</li>
-                <li><strong>Mirror and Water Images:</strong>
+                <li>**Pattern Completion:** Identifying the missing section of a larger geometric design or pattern.</li>
+                <li>**Figure Series & Analogy:** Understanding how a shape changes (rotation, addition/deletion of elements, inversion) and predicting the next figure.</li>
+                <li>**Embedded Figures:** Finding a small target shape hidden inside a more complex drawing.</li>
+                <li>**Paper Folding & Cutting:** Visualizing how paper looks when folded and punched with holes, then unfolded (uses vertical/horizontal symmetry lines).</li>
+                <li>**Mirror and Water Images:**
                   <ul>
                     <li>Mirror Image: Left-Right inversion (sides swap, top/bottom remain same).</li>
                     <li>Water Image: Top-Bottom inversion (top/bottom swap, left/right remain same).</li>
@@ -4643,14 +4643,14 @@ const NOTES_DATABASE = {
               <h3>2. SSB OIR Non-Verbal Intelligence Tests</h3>
               <p>Crucial for securing high OIR ratings (OIR-1 or OIR-2). Key patterns:</p>
               <ul>
-                <li><strong>Cube and Dice Tests:</strong> Identifying opposite faces of a folded dice, or predicting standard vs. non-standard dice properties.
+                <li>**Cube and Dice Tests:** Identifying opposite faces of a folded dice, or predicting standard vs. non-standard dice properties.
                   <ul>
                     <li>If two positions of a dice have one common number, rotate clockwise to find opposite pairs.</li>
                   </ul>
                 </li>
-                <li><strong>Block/Cube Counting:</strong> Counting the total number of blocks in a 3D stack (including hidden blocks supporting the upper layers).</li>
-                <li><strong>Figure Matrix:</strong> Solving a 3x3 grid of shapes by identifying horizontal and vertical rule transitions.</li>
-                <li><strong>Dot Situation:</strong> Finding the region in options that satisfies the exact same overlapping conditions of dots placed in the question figure.</li>
+                <li>**Block/Cube Counting:** Counting the total number of blocks in a 3D stack (including hidden blocks supporting the upper layers).</li>
+                <li>**Figure Matrix:** Solving a 3x3 grid of shapes by identifying horizontal and vertical rule transitions.</li>
+                <li>**Dot Situation:** Finding the region in options that satisfies the exact same overlapping conditions of dots placed in the question figure.</li>
               </ul>
             `,
             formulas: `Mirror: Left-Right flip\nWater: Top-Bottom flip\nDice rotation rules\nBlock counting: rows x columns x height\nSymmetry lines`,
@@ -5325,12 +5325,11 @@ const NOTES_DATABASE = {
 // 2. CURRENT AFFAIRS (CA) DATABASE
 // ==========================================
 let CURRENT_AFFAIRS_DB = {
-
   "January 2026": [
     {
       "id": "jan-1",
       "topic": "Joint Exercises",
-      "text": "Joint Military Exercise <strong>'Desert Cyclone'</strong> was conducted between the armies of <strong>India</strong> and the <strong>United Arab Emirates (UAE)</strong> in Rajasthan, focusing on desert warfare operations.",
+      "text": "Joint Military Exercise **'Desert Cyclone'** was conducted between the armies of **India** and the **United Arab Emirates (UAE)** in Rajasthan, focusing on desert warfare operations.",
       "details": {
         "winner": "India & UAE",
         "award": "Exercise Desert Cyclone",
@@ -5352,7 +5351,7 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "jan-2",
       "topic": "Naval Inductions",
-      "text": "The Indian Navy inducted its first indigenous medium-altitude long-endurance (MALE) drone, <strong>Drishti 10 Starliner</strong>, manufactured by Adani Defence and Aerospace.",
+      "text": "The Indian Navy inducted its first indigenous medium-altitude long-endurance (MALE) drone, **Drishti 10 Starliner**, manufactured by Adani Defence and Aerospace.",
       "details": {
         "winner": "Indian Navy",
         "award": "Drishti 10 Starliner Induction",
@@ -5374,7 +5373,7 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "jan-3",
       "topic": "National Security",
-      "text": "The post of <strong>Chief of Defence Staff (CDS)</strong> was created in India based on the recommendations of the Kargil Review Committee, serving as the permanent chairman of the Chiefs of Staff Committee.",
+      "text": "The post of **Chief of Defence Staff (CDS)** was created in India based on the recommendations of the Kargil Review Committee, serving as the permanent chairman of the Chiefs of Staff Committee.",
       "details": {
         "winner": "Indian Armed Forces",
         "award": "CDS Position Establishment",
@@ -5396,7 +5395,7 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "jan-4",
       "topic": "Sports Awards",
-      "text": "Novak Djokovic was named the <strong>Laureus World Sportsman of the Year</strong> for his stellar performances, capturing multiple Grand Slam titles in the previous season.",
+      "text": "Novak Djokovic was named the **Laureus World Sportsman of the Year** for his stellar performances, capturing multiple Grand Slam titles in the previous season.",
       "details": {
         "winner": "Novak Djokovic",
         "award": "Laureus World Sportsman of the Year",
@@ -5418,7 +5417,7 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "jan-5",
       "topic": "Science & Tech",
-      "text": "ISRO announced the launch timeline for the <strong>Gaganyaan-1</strong> mission, India's first manned spaceflight program aimed at sending a crew to low earth orbit.",
+      "text": "ISRO announced the launch timeline for the **Gaganyaan-1** mission, India's first manned spaceflight program aimed at sending a crew to low earth orbit.",
       "details": {
         "winner": "ISRO",
         "award": "Gaganyaan Mission Progress",
@@ -5440,7 +5439,7 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "jan-6",
       "topic": "World Politics",
-      "text": "Gabriel Attal was appointed as the new <strong>Prime Minister of France</strong>, becoming the youngest prime minister in the country's modern political history.",
+      "text": "Gabriel Attal was appointed as the new **Prime Minister of France**, becoming the youngest prime minister in the country's modern political history.",
       "details": {
         "winner": "Gabriel Attal",
         "award": "French Prime Minister Appointment",
@@ -5462,7 +5461,7 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "jan-7",
       "topic": "National Policy",
-      "text": "The Government of India commenced the phased implementation of the <strong>Digital Personal Data Protection (DPDP) Act</strong>, laying down the guidelines for the newly formed Data Protection Board of India (DPBI).",
+      "text": "The Government of India commenced the phased implementation of the **Digital Personal Data Protection (DPDP) Act**, laying down the guidelines for the newly formed Data Protection Board of India (DPBI).",
       "details": {
         "winner": "Ministry of Electronics & IT",
         "award": "DPDP Act Framework",
@@ -5484,7 +5483,7 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "jan-8",
       "topic": "International Relations",
-      "text": "The <strong>Shanghai Cooperation Organisation (SCO)</strong> held its heads of state security conference, emphasizing counter-terrorism, border security, and regional economic connectivity.",
+      "text": "The **Shanghai Cooperation Organisation (SCO)** held its heads of state security conference, emphasizing counter-terrorism, border security, and regional economic connectivity.",
       "details": {
         "winner": "SCO Member States",
         "award": "SCO Security Council Meet",
@@ -5506,7 +5505,7 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "jan-visit-macron",
       "topic": "Bilateral Visits",
-      "text": "French President <strong>Emmanuel Macron</strong> visited India as the Chief Guest for the 77th Republic Day, signing the <strong>Defence Industrial Roadmap</strong> to co-develop military hardware.",
+      "text": "French President **Emmanuel Macron** visited India as the Chief Guest for the 77th Republic Day, signing the **Defence Industrial Roadmap** to co-develop military hardware.",
       "details": {
         "winner": "India & France",
         "award": "State Visit",
@@ -5530,7 +5529,7 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "feb-1",
       "topic": "Defence Procurement",
-      "text": "The Ministry of Defence cleared a mega proposal to acquire <strong>97 additional LCA Tejas Mk-1A</strong> fighter jets from Hindustan Aeronautics Limited (HAL) for the Indian Air Force.",
+      "text": "The Ministry of Defence cleared a mega proposal to acquire **97 additional LCA Tejas Mk-1A** fighter jets from Hindustan Aeronautics Limited (HAL) for the Indian Air Force.",
       "details": {
         "winner": "Indian Air Force / HAL",
         "award": "LCA Tejas Mk-1A Order",
@@ -5887,12 +5886,6 @@ let CURRENT_AFFAIRS_DB = {
       "id": "apr-1",
       "topic": "Bilateral Drills",
       "text": "The 11th edition of the Joint Special Forces Exercise **'KHANJAR'** between **India** and **Kyrgyzstan** concluded at Bakloh, Himachal Pradesh.",
-      "details": {
-        "winner": "India & Kyrgyzstan",
-        "award": "Exercise Khanjar",
-        "nationality": "India & Kyrgyzstan (Held in HP)",
-        "summary": "Focused on exchange of experiences in counter-terrorism, hostage rescue, and operational tactics in mountainous terrain."
-      },
       "mcq": {
         "question": "Exercise 'KHANJAR' is a bilateral special forces training exercise conducted between India and which nation?",
         "options": [
@@ -5903,18 +5896,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Exercise Khanjar is the annual bilateral special forces joint training drill conducted between India and Kyrgyzstan."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: India & Kyrgyzstan",
+        "Key Initiative/Event: Exercise Khanjar",
+        "Location/Nationality: India & Kyrgyzstan (Held in HP)",
+        "Focused on exchange of experiences in counter-terrorism, hostage rescue, and operational tactics in mountainous terrain."
+      ],
+      "institutionalContext": "India & Kyrgyzstan",
+      "strategicImportance": "Exercise Khanjar is the annual bilateral special forces joint training drill conducted between India and Kyrgyzstan."
     },
     {
       "id": "apr-2",
       "topic": "Joint Drills",
       "text": "The bilateral naval exercise **'Varuna'** between the **Indian Navy** and **French Navy** was conducted in the Mediterranean Sea, involving aircraft carriers and guided destroyers.",
-      "details": {
-        "winner": "Indian Navy & French Navy",
-        "award": "Exercise Varuna",
-        "nationality": "India & France",
-        "summary": "A cornerstone of Indo-French strategic partnership, featuring advanced anti-submarine drills, tactical maneuvers, and combat simulations."
-      },
       "mcq": {
         "question": "Which bilateral naval exercise is conducted between the navies of India and France?",
         "options": [
@@ -5925,18 +5920,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Exercise Varuna is the annual bilateral maritime exercise conducted jointly by the Indian Navy and French Navy."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Indian Navy & French Navy",
+        "Key Initiative/Event: Exercise Varuna",
+        "Location/Nationality: India & France",
+        "A cornerstone of Indo-French strategic partnership, featuring advanced anti-submarine drills, tactical maneuvers, and combat simulations."
+      ],
+      "institutionalContext": "Indian Navy & French Navy",
+      "strategicImportance": "Exercise Varuna is the annual bilateral maritime exercise conducted jointly by the Indian Navy and French Navy."
     },
     {
       "id": "apr-3",
       "topic": "Arts & Music",
       "text": "Indian flute maestro **Rakesh Chaurasia** won two Grammy Awards at the prestigious ceremony in Los Angeles for his collaboration album 'As We Speak'.",
-      "details": {
-        "winner": "Rakesh Chaurasia",
-        "award": "Dual Grammy Awards",
-        "nationality": "Indian",
-        "summary": "Honored with Best Global Music Performance and Best Contemporary Instrumental Album, alongside banjo legend Béla Fleck and table maestro Zakir Hussain."
-      },
       "mcq": {
         "question": "Which instrument is Rakesh Chaurasia famous for playing, for which he won two Grammys?",
         "options": [
@@ -5947,18 +5944,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri)."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Rakesh Chaurasia",
+        "Key Initiative/Event: Dual Grammy Awards",
+        "Location/Nationality: Indian",
+        "Honored with Best Global Music Performance and Best Contemporary Instrumental Album, alongside banjo legend B\u00c3\u00a9la Fleck and table maestro Zakir Hussain."
+      ],
+      "institutionalContext": "Rakesh Chaurasia",
+      "strategicImportance": "Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri)."
     },
     {
       "id": "apr-4",
       "topic": "Defence Testing",
       "text": "Strategic Forces Command (SFC) successfully test-fired the new-generation nuclear-capable ballistic missile **Agni-Prime** from APJ Abdul Kalam Island off the coast of Odisha.",
-      "details": {
-        "winner": "SFC & DRDO",
-        "award": "Agni-Prime Test Success",
-        "nationality": "Indian (Indigenously Developed)",
-        "summary": "A two-stage canisterised solid propellant ballistic missile with a range capability of 1,000 to 2,000 km, exhibiting high accuracy."
-      },
       "mcq": {
         "question": "What is the approximate range of the Agni-Prime (Agni-P) ballistic missile successfully tested by the SFC?",
         "options": [
@@ -5969,18 +5968,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Agni-Prime is a medium-range canisterised ballistic missile with an operational range between 1,000 and 2,000 km."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: SFC & DRDO",
+        "Key Initiative/Event: Agni-Prime Test Success",
+        "Location/Nationality: Indian (Indigenously Developed)",
+        "A two-stage canisterised solid propellant ballistic missile with a range capability of 1,000 to 2,000 km, exhibiting high accuracy."
+      ],
+      "institutionalContext": "SFC & DRDO",
+      "strategicImportance": "Agni-Prime is a medium-range canisterised ballistic missile with an operational range between 1,000 and 2,000 km."
     },
     {
       "id": "apr-5",
       "topic": "Science & Tech",
       "text": "NASA announced that its **Lunar Gateway** space station program is progressing, with key modules developed in partnership with ESA and JAXA.",
-      "details": {
-        "winner": "NASA, ESA, JAXA",
-        "award": "Lunar Gateway Milestones",
-        "nationality": "International",
-        "summary": "A planned small space station in lunar orbit intended to serve as a solar-powered communication hub, science laboratory, and short-term habitation module."
-      },
       "mcq": {
         "question": "What is the primary mission objective of NASA's Lunar Gateway program?",
         "options": [
@@ -5991,18 +5992,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "The Lunar Gateway is an essential component of NASA's Artemis program, serving as a multi-purpose outpost orbiting the Moon to support long-term lunar exploration."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: NASA, ESA, JAXA",
+        "Key Initiative/Event: Lunar Gateway Milestones",
+        "Location/Nationality: International",
+        "A planned small space station in lunar orbit intended to serve as a solar-powered communication hub, science laboratory, and short-term habitation module."
+      ],
+      "institutionalContext": "NASA, ESA, JAXA",
+      "strategicImportance": "The Lunar Gateway is an essential component of NASA's Artemis program, serving as a multi-purpose outpost orbiting the Moon to support long-term lunar exploration."
     },
     {
       "id": "apr-6",
       "topic": "Science & Tech",
       "text": "The **Indian Space Promotion and Authorization Centre (IN-SPACe)** issued detailed guidelines for space activities, facilitating private sector participation in satellite ground stations.",
-      "details": {
-        "winner": "IN-SPACe",
-        "award": "Private Space Guidelines",
-        "nationality": "Indian",
-        "summary": "Acts as a single-window, independent nodal agency under the Department of Space to authorize and regulate private space sector activities in India."
-      },
       "mcq": {
         "question": "IN-SPACe, the space regulator for private companies, is headquartered in which Indian city?",
         "options": [
@@ -6013,18 +6016,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "IN-SPACe is headquartered in Bopal, Ahmedabad, Gujarat."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: IN-SPACe",
+        "Key Initiative/Event: Private Space Guidelines",
+        "Location/Nationality: Indian",
+        "Acts as a single-window, independent nodal agency under the Department of Space to authorize and regulate private space sector activities in India."
+      ],
+      "institutionalContext": "IN-SPACe",
+      "strategicImportance": "IN-SPACe is headquartered in Bopal, Ahmedabad, Gujarat."
     },
     {
       "id": "apr-7",
       "topic": "Environment",
       "text": "The Ministry of Environment, Forest and Climate Change notified the operational guidelines for the **Green Credit Programme (GCP)**, focusing on water conservation and afforestation.",
-      "details": {
-        "winner": "Ministry of Environment",
-        "award": "Green Credit Guidelines",
-        "nationality": "Indian",
-        "summary": "A market-based mechanism designed to incentivize voluntary environmental actions by individuals, communities, and private sectors through tradable green credits."
-      },
       "mcq": {
         "question": "The Green Credit Programme was globally launched by India during which event?",
         "options": [
@@ -6035,18 +6040,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "The Global Green Credit Initiative was launched by Prime Minister Narendra Modi at the UN Climate Change Conference (COP28) in Dubai in 2023."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Ministry of Environment",
+        "Key Initiative/Event: Green Credit Guidelines",
+        "Location/Nationality: Indian",
+        "A market-based mechanism designed to incentivize voluntary environmental actions by individuals, communities, and private sectors through tradable green credits."
+      ],
+      "institutionalContext": "Ministry of Environment",
+      "strategicImportance": "The Global Green Credit Initiative was launched by Prime Minister Narendra Modi at the UN Climate Change Conference (COP28) in Dubai in 2023."
     },
     {
       "id": "apr-8",
       "topic": "Economy",
       "text": "The National Payments Corporation of India (NPCI) expanded its international operations, officially launching **Unified Payments Interface (UPI)** services in Mauritius and Sri Lanka.",
-      "details": {
-        "winner": "NPCI International",
-        "award": "UPI Expansion",
-        "nationality": "Indian",
-        "summary": "Enables Indian tourists to make instant QR-code merchant payments in Mauritius and Sri Lanka, and allows local cross-border remittances."
-      },
       "mcq": {
         "question": "Which was the first European country to accept UPI payments at national landmarks (like the Eiffel Tower)?",
         "options": [
@@ -6057,7 +6064,15 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "France was the first European nation to accept UPI, starting at the Eiffel Tower, through an agreement with Lyra Network."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: NPCI International",
+        "Key Initiative/Event: UPI Expansion",
+        "Location/Nationality: Indian",
+        "Enables Indian tourists to make instant QR-code merchant payments in Mauritius and Sri Lanka, and allows local cross-border remittances."
+      ],
+      "institutionalContext": "NPCI International",
+      "strategicImportance": "France was the first European nation to accept UPI, starting at the Eiffel Tower, through an agreement with Lyra Network."
     }
   ],
   "May 2026": [
@@ -6065,12 +6080,6 @@ let CURRENT_AFFAIRS_DB = {
       "id": "may-1",
       "topic": "Space & Defence",
       "text": "ISRO partnered with SpaceX to launch India's heavy communications satellite, **GSAT-20 (GSAT-N2)**, onboard a Falcon 9 rocket from Cape Canaveral.",
-      "details": {
-        "winner": "ISRO & SpaceX",
-        "award": "GSAT-20 Launch Collaboration",
-        "nationality": "Indian / US Launch",
-        "summary": "GSAT-20 is a high-throughput Ka-band satellite weighing 4,700 kg, designed to provide high-speed internet connectivity to rural India."
-      },
       "mcq": {
         "question": "Which satellite series is specifically dedicated to military/civil communication, with GSAT-20 launched via a SpaceX Falcon 9?",
         "options": [
@@ -6081,18 +6090,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "The GSAT (Geosynchronous Satellite) series comprises India's indigenously developed communications satellites."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: ISRO & SpaceX",
+        "Key Initiative/Event: GSAT-20 Launch Collaboration",
+        "Location/Nationality: Indian / US Launch",
+        "GSAT-20 is a high-throughput Ka-band satellite weighing 4,700 kg, designed to provide high-speed internet connectivity to rural India."
+      ],
+      "institutionalContext": "ISRO & SpaceX",
+      "strategicImportance": "The GSAT (Geosynchronous Satellite) series comprises India's indigenously developed communications satellites."
     },
     {
       "id": "may-2",
       "topic": "Air Force Aviation",
       "text": "The Indian Air Force successfully integrated and fired the indigenous **Astra Mk-1 Beyond Visual Range (BVR)** air-to-air missile from Su-30MKI fighter jets.",
-      "details": {
-        "winner": "IAF & DRDO",
-        "award": "Astra Mk-1 Integration",
-        "nationality": "Indian (Indigenously Developed)",
-        "summary": "A state-of-the-art BVR air-to-air missile designed to engage and destroy highly maneuvering supersonic aerial targets at ranges up to 110 km."
-      },
       "mcq": {
         "question": "What type of missile is 'Astra Mk-1', developed by DRDO for the Indian Air Force?",
         "options": [
@@ -6103,18 +6114,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Astra is India's first indigenous Beyond Visual Range (BVR) Air-to-Air missile."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: IAF & DRDO",
+        "Key Initiative/Event: Astra Mk-1 Integration",
+        "Location/Nationality: Indian (Indigenously Developed)",
+        "A state-of-the-art BVR air-to-air missile designed to engage and destroy highly maneuvering supersonic aerial targets at ranges up to 110 km."
+      ],
+      "institutionalContext": "IAF & DRDO",
+      "strategicImportance": "Astra is India's first indigenous Beyond Visual Range (BVR) Air-to-Air missile."
     },
     {
       "id": "may-3",
       "topic": "Sports Awards",
       "text": "Neeraj Chopra clinched the gold medal at the prestigious **Doha Diamond League** meeting, executing a spectacular throw of 88.36 meters.",
-      "details": {
-        "winner": "Neeraj Chopra",
-        "award": "Diamond League Gold",
-        "nationality": "Indian",
-        "summary": "Solidified his top rank in global javelin throw, asserting dominance in the international athletic track and field circuit."
-      },
       "mcq": {
         "question": "Neeraj Chopra won the Olympic Gold Medal in Javelin Throw at which Olympic Games?",
         "options": [
@@ -6125,18 +6138,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Neeraj Chopra won the historic gold medal at the Tokyo 2020 Olympic Games (held in 2021) with a throw of 87.58m."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Neeraj Chopra",
+        "Key Initiative/Event: Diamond League Gold",
+        "Location/Nationality: Indian",
+        "Solidified his top rank in global javelin throw, asserting dominance in the international athletic track and field circuit."
+      ],
+      "institutionalContext": "Neeraj Chopra",
+      "strategicImportance": "Neeraj Chopra won the historic gold medal at the Tokyo 2020 Olympic Games (held in 2021) with a throw of 87.58m."
     },
     {
       "id": "may-4",
       "topic": "Environment",
       "text": "Scientists reported severe coral bleaching events in the **Great Barrier Reef** due to rising sea surface temperatures in the Coral Sea off Australia.",
-      "details": {
-        "winner": "Marine Biologists",
-        "award": "Reef Bleaching Warning",
-        "nationality": "International",
-        "summary": "Mass bleaching caused by thermal stress, leading to the expulsion of symbiotic algae (zooxanthellae) and threatening the reef ecosystem."
-      },
       "mcq": {
         "question": "The Great Barrier Reef is situated off the coast of which nation?",
         "options": [
@@ -6147,18 +6162,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Marine Biologists",
+        "Key Initiative/Event: Reef Bleaching Warning",
+        "Location/Nationality: International",
+        "Mass bleaching caused by thermal stress, leading to the expulsion of symbiotic algae (zooxanthellae) and threatening the reef ecosystem."
+      ],
+      "institutionalContext": "Marine Biologists",
+      "strategicImportance": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia."
     },
     {
       "id": "may-5",
       "topic": "Indian Administration",
       "text": "The **Central Consumer Protection Authority (CCPA)** issued strict guidelines targeting greenwashing and misleading environmental claims in advertising.",
-      "details": {
-        "winner": "CCPA / Govt of India",
-        "award": "Anti-Greenwashing Regulations",
-        "nationality": "Indian",
-        "summary": "Designed to protect consumers by mandating that businesses provide verifiable evidence and third-party audits for any 'eco-friendly' or 'organic' claims."
-      },
       "mcq": {
         "question": "Which statutory body or authority was newly approved to regulate consumer protection and enforce rights in India?",
         "options": [
@@ -6169,18 +6186,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "The Central Consumer Protection Authority (CCPA) was established under the Consumer Protection Act, 2019, to protect and enforce consumer rights."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: CCPA / Govt of India",
+        "Key Initiative/Event: Anti-Greenwashing Regulations",
+        "Location/Nationality: Indian",
+        "Designed to protect consumers by mandating that businesses provide verifiable evidence and third-party audits for any 'eco-friendly' or 'organic' claims."
+      ],
+      "institutionalContext": "CCPA / Govt of India",
+      "strategicImportance": "The Central Consumer Protection Authority (CCPA) was established under the Consumer Protection Act, 2019, to protect and enforce consumer rights."
     },
     {
       "id": "may-6",
       "topic": "National GK",
       "text": "The Union Government reconstituted the standing committee of the **Inter-State Council**, chaired by the Union Home Minister, to promote cooperative federalism.",
-      "details": {
-        "winner": "Inter-State Council",
-        "award": "Council Reconstitution",
-        "nationality": "Indian",
-        "summary": "A constitutional body established to support coordination, policy debates, and dispute resolution between the Center and States."
-      },
       "mcq": {
         "question": "Which Article of the Constitution of India provides for the establishment of an Inter-State Council?",
         "options": [
@@ -6191,18 +6210,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Article 263 of the Constitution provides for the setting up of an Inter-State Council by the President."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Inter-State Council",
+        "Key Initiative/Event: Council Reconstitution",
+        "Location/Nationality: Indian",
+        "A constitutional body established to support coordination, policy debates, and dispute resolution between the Center and States."
+      ],
+      "institutionalContext": "Inter-State Council",
+      "strategicImportance": "Article 263 of the Constitution provides for the setting up of an Inter-State Council by the President."
     },
     {
       "id": "may-7",
       "topic": "International Relations",
       "text": "India and Iran signed a long-term **Chabahar Port Bilateral Agreement**, allowing India to operate the Shahid Beheshti terminal for a period of 10 years.",
-      "details": {
-        "winner": "India IPGL & Iran Port Authority",
-        "award": "Chabahar Port 10-Year Contract",
-        "nationality": "India & Iran",
-        "summary": "A strategic port agreement circumventing Pakistan to access Central Asia and landlocked Afghanistan, linking to the INSTC corridor."
-      },
       "mcq": {
         "question": "Chabahar Port is located in which gulf/sea region?",
         "options": [
@@ -6213,18 +6234,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Chabahar Port is located on the Makran coast of Iran, along the Gulf of Oman, offering direct access to the Indian Ocean."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: India IPGL & Iran Port Authority",
+        "Key Initiative/Event: Chabahar Port 10-Year Contract",
+        "Location/Nationality: India & Iran",
+        "A strategic port agreement circumventing Pakistan to access Central Asia and landlocked Afghanistan, linking to the INSTC corridor."
+      ],
+      "institutionalContext": "India IPGL & Iran Port Authority",
+      "strategicImportance": "Chabahar Port is located on the Makran coast of Iran, along the Gulf of Oman, offering direct access to the Indian Ocean."
     },
     {
       "id": "may-8",
       "topic": "Science & Tech",
       "text": "The Union Cabinet approved the **IndiaAI Mission** budget of Rs 10,372 crore, focusing on building high-performance AI compute capacity through public-private partnerships.",
-      "details": {
-        "winner": "Digital India Corporation",
-        "award": "IndiaAI Mission Funding",
-        "nationality": "Indian",
-        "summary": "A national initiative to establish an AI compute infrastructure with 10,000+ GPUs, develop native LLMs, and fund AI startups."
-      },
       "mcq": {
         "question": "The IndiaAI Mission plans to establish a compute infrastructure of at least how many GPUs?",
         "options": [
@@ -6235,7 +6258,15 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "The mission aims to build a public-private AI compute capacity of 10,000 or more graphics processing units (GPUs) to support research."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Digital India Corporation",
+        "Key Initiative/Event: IndiaAI Mission Funding",
+        "Location/Nationality: Indian",
+        "A national initiative to establish an AI compute infrastructure with 10,000+ GPUs, develop native LLMs, and fund AI startups."
+      ],
+      "institutionalContext": "Digital India Corporation",
+      "strategicImportance": "The mission aims to build a public-private AI compute capacity of 10,000 or more graphics processing units (GPUs) to support research."
     }
   ],
   "June 2026": [
@@ -6243,12 +6274,6 @@ let CURRENT_AFFAIRS_DB = {
       "id": "jun-1",
       "topic": "Submarine Procurement",
       "text": "The Indian Navy successfully completed trials of the sixth Scorpene-class submarine, **Vagsheer**, under Project-75, preparing it for active deployment.",
-      "details": {
-        "winner": "Indian Navy & MDL",
-        "award": "Project-75 Scorpene Completed",
-        "nationality": "Indian (Mazagon Dock Shipbuilders)",
-        "summary": "Vagsheer is the final submarine built under the technology transfer agreement with France's Naval Group, featuring advanced acoustic silencing."
-      },
       "mcq": {
         "question": "Project-75 of the Indian Navy is related to the construction of which defense equipment?",
         "options": [
@@ -6259,18 +6284,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Project-75 is a program under which six conventional Scorpene-class diesel-electric submarines were constructed by Mazagon Dock."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Indian Navy & MDL",
+        "Key Initiative/Event: Project-75 Scorpene Completed",
+        "Location/Nationality: Indian (Mazagon Dock Shipbuilders)",
+        "Vagsheer is the final submarine built under the technology transfer agreement with France's Naval Group, featuring advanced acoustic silencing."
+      ],
+      "institutionalContext": "Indian Navy & MDL",
+      "strategicImportance": "Vagsheer is the final submarine built under the technology transfer agreement with France's Naval Group, featuring advanced acoustic silencing."
     },
     {
       "id": "jun-2",
       "topic": "Literature Awards",
       "text": "German author Jenny Erpenbeck won the **International Booker Prize** for her novel 'Kairos', translated into English by Michael Hofmann.",
-      "details": {
-        "winner": "Jenny Erpenbeck",
-        "award": "International Booker Prize",
-        "nationality": "German",
-        "summary": "Recognized for the outstanding work of fiction translated into English, exploring a destructive love affair in East Berlin during the fall of the GDR."
-      },
       "mcq": {
         "question": "Who was the author of the novel 'The Vegetarian' which won the International Booker Prize in the past?",
         "options": [
@@ -6281,18 +6308,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 0,
         "explanation": "Han Kang won the International Booker Prize for her novel 'The Vegetarian' in 2016."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Jenny Erpenbeck",
+        "Key Initiative/Event: International Booker Prize",
+        "Location/Nationality: German",
+        "Recognized for the outstanding work of fiction translated into English, exploring a destructive love affair in East Berlin during the fall of the GDR."
+      ],
+      "institutionalContext": "Jenny Erpenbeck",
+      "strategicImportance": "Recognized for the outstanding work of fiction translated into English, exploring a destructive love affair in East Berlin during the fall of the GDR."
     },
     {
       "id": "jun-3",
       "topic": "World Administration",
       "text": "The United Nations General Assembly elected five new non-permanent members to the **UN Security Council (UNSC)** for a two-year term.",
-      "details": {
-        "winner": "Elected UN Nations",
-        "award": "UNSC Non-Permanent Elections",
-        "nationality": "International",
-        "summary": "Elections held to replace outgoing members, maintaining the geographical balance of the 10 non-permanent members of the council."
-      },
       "mcq": {
         "question": "What is the total number of non-permanent members in the UN Security Council (UNSC)?",
         "options": [
@@ -6303,18 +6332,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "The UNSC consists of 15 members: 5 permanent members (P5) and 10 non-permanent members elected for two-year terms."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Elected UN Nations",
+        "Key Initiative/Event: UNSC Non-Permanent Elections",
+        "Location/Nationality: International",
+        "Elections held to replace outgoing members, maintaining the geographical balance of the 10 non-permanent members of the council."
+      ],
+      "institutionalContext": "Elected UN Nations",
+      "strategicImportance": "Elections held to replace outgoing members, maintaining the geographical balance of the 10 non-permanent members of the council."
     },
     {
       "id": "jun-4",
       "topic": "Defence Drills",
       "text": "The Indian Air Force prepared deployment assets for **'Tarang Shakti'**, planned as the largest multinational air combat exercise hosted on Indian soil.",
-      "details": {
-        "winner": "Indian Air Force",
-        "award": "Tarang Shakti Hosting Planning",
-        "nationality": "Indian (Multinational Drill)",
-        "summary": "Designed to host friendly foreign countries, enhancing air operations collaboration, defense diplomacy, and interoperability."
-      },
       "mcq": {
         "question": "Which is the largest multinational air combat exercise conducted by the Indian Air Force?",
         "options": [
@@ -6325,18 +6356,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 0,
         "explanation": "Tarang Shakti is the largest multinational air exercise hosted by the Indian Air Force."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Indian Air Force",
+        "Key Initiative/Event: Tarang Shakti Hosting Planning",
+        "Location/Nationality: Indian (Multinational Drill)",
+        "Designed to host friendly foreign countries, enhancing air operations collaboration, defense diplomacy, and interoperability."
+      ],
+      "institutionalContext": "Indian Air Force",
+      "strategicImportance": "Designed to host friendly foreign countries, enhancing air operations collaboration, defense diplomacy, and interoperability."
     },
     {
       "id": "jun-5",
       "topic": "National Security",
       "text": "The office of the **Chief of Defence Staff (CDS)** announced new directives to establish integrated theater commands, dividing India's defense sectors into geographic theaters.",
-      "details": {
-        "winner": "Chief of Defence Staff (CDS)",
-        "award": "Theaterisation Directives",
-        "nationality": "Indian",
-        "summary": "A major military reform merging individual army, air force, and navy commands into unified theater commands for joint warfighting."
-      },
       "mcq": {
         "question": "Which department in the Ministry of Defence is headed by the Chief of Defence Staff (CDS)?",
         "options": [
@@ -6347,18 +6380,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "The CDS acts as the head of the Department of Military Affairs (DMA), created in 2020."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Chief of Defence Staff (CDS)",
+        "Key Initiative/Event: Theaterisation Directives",
+        "Location/Nationality: Indian",
+        "A major military reform merging individual army, air force, and navy commands into unified theater commands for joint warfighting."
+      ],
+      "institutionalContext": "Chief of Defence Staff (CDS)",
+      "strategicImportance": "A major military reform merging individual army, air force, and navy commands into unified theater commands for joint warfighting."
     },
     {
       "id": "jun-6",
       "topic": "Environment",
       "text": "India aligned its national conservation programs with the **Kunming-Montreal Global Biodiversity Framework (GBF)**, aiming to protect 30% of land and sea by 2030 (30x30 Target).",
-      "details": {
-        "winner": "Ministry of Environment",
-        "award": "Biodiversity Framework Adoption",
-        "nationality": "Indian / UN",
-        "summary": "A global biodiversity pact adopted at COP15 in Montreal, containing 4 global goals and 23 targets to address the biodiversity crisis."
-      },
       "mcq": {
         "question": "The Kunming-Montreal Global Biodiversity Framework (GBF) targets restoring what percentage of degraded ecosystems by 2030?",
         "options": [
@@ -6369,18 +6404,20 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "Target 2 of the GBF mandates that at least 30% of degraded terrestrial, inland water, coastal, and marine ecosystems are under effective restoration by 2030."
-      }
+      },
+      "upscHighlights": [
+        "Subject/Authority: Ministry of Environment",
+        "Key Initiative/Event: Biodiversity Framework Adoption",
+        "Location/Nationality: Indian / UN",
+        "A global biodiversity pact adopted at COP15 in Montreal, containing 4 global goals and 23 targets to address the biodiversity crisis."
+      ],
+      "institutionalContext": "Ministry of Environment",
+      "strategicImportance": "A global biodiversity pact adopted at COP15 in Montreal, containing 4 global goals and 23 targets to address the biodiversity crisis."
     },
     {
       "id": "jun-7",
       "topic": "International GK",
-      "text": "The **Global Peace Summit on Ukraine** was hosted in Bürgenstock, Switzerland, with representatives from over 90 countries discussing sovereignty and nuclear security.",
-      "details": {
-        "winner": "Federal Council of Switzerland",
-        "award": "Global Peace Summit",
-        "nationality": "International",
-        "summary": "A multilateral peace conference aimed at finding diplomatic paths to end the conflict, focusing on food security, prisoner exchange, and nuclear plant safety."
-      },
+      "text": "The **Global Peace Summit on Ukraine** was hosted in B\u00c3\u00bcrgenstock, Switzerland, with representatives from over 90 countries discussing sovereignty and nuclear security.",
       "mcq": {
         "question": "Which of the following major international powers did NOT attend the Swiss peace summit in June 2024?",
         "options": [
@@ -6391,10 +6428,452 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "China declined to attend the summit, stating that peace negotiations must involve both Russia and Ukraine. Russia was not invited."
+      },
+      "upscHighlights": [
+        "Subject/Authority: Federal Council of Switzerland",
+        "Key Initiative/Event: Global Peace Summit",
+        "Location/Nationality: International",
+        "A multilateral peace conference aimed at finding diplomatic paths to end the conflict, focusing on food security, prisoner exchange, and nuclear plant safety."
+      ],
+      "institutionalContext": "Federal Council of Switzerland",
+      "strategicImportance": "A multilateral peace conference aimed at finding diplomatic paths to end the conflict, focusing on food security, prisoner exchange, and nuclear plant safety."
+    },
+    {
+      "id": "jun-8",
+      "topic": "Military Appointments",
+      "topicColor": "#b45309",
+      "summary": "General N. S. Raja Subramani assumed office as India's third Chief of Defence Staff (CDS) on May 31, 2026, succeeding General Anil Chauhan.",
+      "text": "General <strong>N. S. Raja Subramani</strong> formally assumed charge as the third <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Chief of Defence Staff (CDS)</mark> of India and Secretary of the Department of Military Affairs on <strong>May 31, 2026</strong>. He succeeds <strong>General Anil Chauhan</strong>, who completed his tenure. He previously served as the Military Adviser at the National Security Council Secretariat (NSCS).",
+      "quickSummary": "General N. S. Raja Subramani has taken over as the third Chief of Defence Staff (CDS) of India, succeeding Gen Anil Chauhan. He will head the Department of Military Affairs and focus on integration, jointness, and theatreisation of the Indian Armed Forces.",
+      "detailedAnalysis": "The appointment of General N. S. Raja Subramani as the third Chief of Defence Staff (CDS) marks a critical milestone in India's ongoing military modernization. The office of the CDS was established in 2020 based on recommendations of the Kargil Review Committee to act as the principal military adviser to the Defence Minister and head the newly created Department of Military Affairs (DMA). Gen Subramani's primary task will be to steer the theaterisation of the Indian Armed Forces, which aims to integrate 17 individual single-service commands into unified geographical commands. This structural reform is intended to optimize resource allocation, enhance joint warfighting capabilities, and promote indigenous defence manufacturing under Aatmanirbharta. Having served in key operational command positions (including GOC-in-C of Central Command and Vice Chief of Army Staff), his leadership is expected to accelerate these integration efforts amidst evolving geopolitical security challenges in the Indian Ocean Region and on the borders.",
+      "backgroundContext": "The post of CDS was created to resolve long-standing issues of coordination and jointness among the Army, Navy, and Air Force. The first CDS, General Bipin Rawat, assumed office in January 2020 but tragically passed away in a helicopter crash in December 2021. General Anil Chauhan was appointed as the second CDS in September 2022 and steered the initial planning phases of integrated theater commands. General Subramani's appointment ensures continuity in this critical defence reform cycle.",
+      "stakeholders": [
+        "Ministry of Defence",
+        "Indian Armed Forces",
+        "Department of Military Affairs"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Very High",
+        "CDS": "Very High",
+        "AFCAT": "Very High",
+        "CAPF": "High",
+        "UPSC": "Very High"
+      },
+      "relatedTopics": [
+        "[[Integrated Theater Commands]]",
+        "[[Department of Military Affairs]]",
+        "[[Chief of Defence Staff]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Explain the mandate of the Chief of Defence Staff (CDS) in India.",
+          "What are the major challenges in implementing Integrated Theater Commands?"
+        ],
+        "interviewQuestions": [
+          "What is your view on the theaterisation of the Indian Armed Forces? How will it impact joint operations?"
+        ],
+        "ssbDiscussionTopics": [
+          "Military Theaterisation: Is India ready for unified geographical commands?"
+        ]
+      },
+      "upscHighlights": [
+        "Gen N. S. Raja Subramani is a highly decorated officer from the Garhwal Rifles (commissioned in December 1985).",
+        "CDS acts as the permanent Chairman of the Chiefs of Staff Committee (CoSC) and heads the Department of Military Affairs.",
+        "The statutory basis for CDS is framed under the Army Rules, Navy Regulations, and Air Force Regulations, with the retirement age capped at 65 years."
+      ],
+      "institutionalContext": "Ministry of Defence & Department of Military Affairs",
+      "strategicImportance": "Directly relevant to UPSC/CDS syllabus topics under Defence Reforms, National Security, and Governance.",
+      "originalSource": "Press Information Bureau (PIB)",
+      "publicationDate": "2026-06-13",
+      "lastUpdatedDate": "2026-06-13",
+      "verificationStatus": "Verified (Official Primary Source)",
+      "relatedOfficialDocuments": "MoD Press Release on CDS Appointment",
+      "mcq": {
+        "question": "Which of the following statements is/are correct regarding the office of the Chief of Defence Staff (CDS) in India?\n1. The CDS acts as the head of the Department of Military Affairs (DMA) in the Ministry of Defence.\n2. The CDS exercises direct military command over the three service chiefs.",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "correct": 0,
+        "explanation": "Statement 1 is correct: the CDS heads the DMA. Statement 2 is incorrect: the CDS does not exercise military command over the service chiefs; the chiefs retain administrative control and command over their respective forces."
+      }
+    },
+    {
+      "id": "jun-9",
+      "topic": "Defence & Security",
+      "topicColor": "#dc2626",
+      "summary": "The 18th edition of the joint military exercise 'SURYAKIRAN' between India and Nepal commenced on June 9, 2026, in Saljhandi, Nepal.",
+      "text": "The 18th edition of <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Exercise SURYAKIRAN</mark>, a joint military exercise between <strong>India and Nepal</strong>, commenced on <strong>June 9, 2026</strong>, in <strong>Saljhandi, Rupandehi, Nepal</strong>. The two-week exercise focuses on counter-insurgency and disaster response operations.",
+      "quickSummary": "The 18th edition of Exercise SURYAKIRAN is a bilateral military exercise between the Indian Army and the Nepalese Army, held in Saljhandi, Nepal, to practice counter-terrorism and humanitarian assistance operations.",
+      "detailedAnalysis": "Exercise SURYAKIRAN is an annual bilateral exercise conducted alternately in India and Nepal. The 18th edition, commencing on June 9, 2026, involves troops from the Indian Army and the Nepalese Army training in simulated counter-insurgency and counter-terrorism scenarios in mountainous terrain, which is common to both nations. The training curriculum also heavily emphasizes Humanitarian Assistance and Disaster Relief (HADR) operations, focusing on search and rescue, medical assistance, and coordination during natural disasters like earthquakes and landslides. This exercise serves as a cornerstone of bilateral defence cooperation, enhancing tactical interoperability, mutual trust, and security coordination between the neighboring countries.",
+      "backgroundContext": "India and Nepal share a unique relationship characterized by open borders and deep cultural ties, governed by the 1950 Treaty of Peace and Friendship. The joint military exercises started in 2011 to build military-to-military cooperation, which is vital given the shared Himalayan geography and common disaster vulnerabilities.",
+      "stakeholders": [
+        "Indian Army",
+        "Nepalese Army",
+        "Ministry of Defence"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Very High",
+        "CDS": "Very High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Medium"
+      },
+      "relatedTopics": [
+        "[[Bilateral Military Exercises]]",
+        "[[India-Nepal Relations]]",
+        "[[HADR Operations]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Analyze the strategic significance of military cooperation between India and Nepal.",
+          "What is the role of joint exercises in improving HADR coordination?"
+        ],
+        "interviewQuestions": [
+          "How do bilateral military exercises like SURYAKIRAN help in strengthening India's Neighborhood First policy?"
+        ],
+        "ssbDiscussionTopics": [
+          "India-Nepal security ties: Geopolitical challenges and opportunities."
+        ]
+      },
+      "upscHighlights": [
+        "The exercise is hosted in Saljhandi, Rupandehi district, Nepal.",
+        "Focus areas include counter-insurgency in jungle/mountainous terrain and disaster response.",
+        "The SURYAKIRAN series is one of the longest-running bilateral exercises for the Indian Army."
+      ],
+      "institutionalContext": "Indian Army & Nepalese Army",
+      "strategicImportance": "Key topic under bilateral military exercises and relations with neighboring countries in the NDA and CDS syllabus.",
+      "originalSource": "Ministry of Defence (MoD)",
+      "publicationDate": "2026-06-13",
+      "lastUpdatedDate": "2026-06-13",
+      "verificationStatus": "Verified (Official Primary Source)",
+      "relatedOfficialDocuments": "Indian Army Press Release on SURYAKIRAN-XVIII",
+      "mcq": {
+        "question": "Exercise 'SURYAKIRAN' is a joint bilateral military training exercise conducted between India and which of the following countries?",
+        "options": [
+          "Sri Lanka",
+          "Bangladesh",
+          "Nepal",
+          "Bhutan"
+        ],
+        "correct": 2,
+        "explanation": "Exercise SURYAKIRAN is a joint bilateral military training exercise conducted annually between the armies of India and Nepal."
+      }
+    },
+    {
+      "id": "jun-10",
+      "topic": "International Relations",
+      "topicColor": "#7c3aed",
+      "summary": "Prime Minister Narendra Modi is scheduled to attend the 52nd G7 Summit in \u00c9vian-les-Bains, France, from June 15-17, 2026, as an outreach participant.",
+      "text": "Prime Minister Narendra Modi will participate in the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>52nd G7 Summit</mark> in <strong>\u00c9vian-les-Bains, France</strong>, from <strong>June 15\u201317, 2026</strong>. India attends as an invited partner nation, focusing on global supply chains, maritime security, and energy transition.",
+      "quickSummary": "India has been invited as an outreach country to the 52nd G7 Summit in France. PM Modi will represent India, highlighting maritime security and global governance reforms.",
+      "detailedAnalysis": "The G7 (Group of Seven) consists of the world's leading advanced economies: the US, UK, France, Germany, Italy, Japan, and Canada, along with the European Union. India is not a member but is regularly invited as a guest nation. The 52nd G7 Summit in \u00c9vian-les-Bains, France, is occurring against a backdrop of geopolitical challenges, including disruptions to maritime trade in the Red Sea (Bab el-Mandeb) and the Strait of Hormuz. India's outreach participation will highlight the global South's perspective on climate finance, supply chain resilience, and digital public infrastructure. Prime Minister Modi's agenda includes bilateral meetings with President Emmanuel Macron and other world leaders, advancing strategic partnerships in defence, technology transfer, and space cooperation.",
+      "backgroundContext": "The G7 was established in the 1970s to facilitate shared macroeconomic management. Over time, it has evolved to address security, environment, and development. India's persistent invitation to the summit reflects its growing status as a major global power and its role as a bridge between the developed world and the Global South.",
+      "stakeholders": [
+        "G7 Member Nations",
+        "Government of India",
+        "European Union"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Very High",
+        "AFCAT": "High",
+        "CAPF": "Very High",
+        "UPSC": "Very High"
+      },
+      "relatedTopics": [
+        "[[Group of Seven (G7)]]",
+        "[[India-France Relations]]",
+        "[[Global Supply Chains]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of G7 outreach invites for India's foreign policy?",
+          "Discuss the key geopolitical challenges discussed at the G7 Summit 2026."
+        ],
+        "interviewQuestions": [
+          "As an aspiring officer, how do you view India's role in G7 summits despite not being a formal member?"
+        ],
+        "ssbDiscussionTopics": [
+          "G7 vs. BRICS: Which forum is more strategically beneficial for India?"
+        ]
+      },
+      "upscHighlights": [
+        "The G7 was originally the G8 until Russia's membership was suspended in 2014 following the annexation of Crimea.",
+        "The 52nd G7 Summit is hosted by France at \u00c9vian-les-Bains.",
+        "Key outreach discussions center on artificial intelligence, security of sea lines of communication, and food security."
+      ],
+      "institutionalContext": "G7 Presidency (France) & Ministry of External Affairs",
+      "strategicImportance": "High-yield international relations topic covering global groupings and summits in competitive exams.",
+      "originalSource": "Ministry of External Affairs (MEA)",
+      "publicationDate": "2026-06-13",
+      "lastUpdatedDate": "2026-06-13",
+      "verificationStatus": "Verified (Official Primary Source)",
+      "relatedOfficialDocuments": "MEA Press Release on G7 Summit Participation",
+      "mcq": {
+        "question": "Which of the following countries is NOT a formal member of the Group of Seven (G7)?",
+        "options": [
+          "Canada",
+          "Italy",
+          "India",
+          "Japan"
+        ],
+        "correct": 2,
+        "explanation": "India is an invited guest nation (outreach participant) but is not a member of the G7. The members are Canada, France, Germany, Italy, Japan, the UK, and the USA, plus the EU."
+      }
+    },
+    {
+      "id": "jun-11",
+      "topic": "Economy & Finance",
+      "topicColor": "#0891b2",
+      "summary": "The RBI Monetary Policy Committee maintained the policy repo rate at 5.25% in its June 2026 meeting, focusing on inflation control.",
+      "text": "The Reserve Bank of India\u2019s <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Monetary Policy Committee (MPC)</mark> concluded its bi-monthly meeting on <strong>June 5, 2026</strong>, keeping the policy <strong>repo rate unchanged at 5.25%</strong>. The decision reflects a balanced approach to supporting GDP growth while steering retail inflation toward the 4% target.",
+      "quickSummary": "The RBI kept the repo rate steady at 5.25% in its June 2026 meeting. The committee decided to continue with its stance of withdrawal of accommodation.",
+      "detailedAnalysis": "The Monetary Policy Committee (MPC) of the Reserve Bank of India (RBI) voted to keep the policy repo rate unchanged at 5.25% during its meeting from June 3-5, 2026. The marginal standing facility (MSF) rate and the bank rate were also maintained at 5.50%, and the standing deposit facility (SDF) rate remained at 5.00%. The committee's stance remains focused on the 'withdrawal of accommodation' to align inflation with the medium-term target of 4.0% while supporting growth. Food inflation risks and global supply chain volatility continue to require close monitoring, although core inflation has shown signs of moderation. RBI projected real GDP growth for the financial year 2026-27 at 7.2%, supported by robust domestic economic activity, rural demand recovery, and sustained private sector investment.",
+      "backgroundContext": "The MPC is a statutory body constituted under Section 45ZB of the amended RBI Act, 1934. It is a 6-member committee (3 from RBI, 3 appointed by the Government) chaired by the RBI Governor. The primary goal is to maintain price stability while keeping inflation within the target band of 4% +/- 2%.",
+      "stakeholders": [
+        "Reserve Bank of India",
+        "Ministry of Finance",
+        "Indian Banking Sector"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Very High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "Very High"
+      },
+      "relatedTopics": [
+        "[[Monetary Policy Committee (MPC)]]",
+        "[[Repo Rate and Monetary Tools]]",
+        "[[Inflation targeting in India]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Explain the composition and statutory role of the Monetary Policy Committee (MPC).",
+          "Define the terms Repo Rate, SDF, and MSF. How do they control liquidity?"
+        ],
+        "interviewQuestions": [
+          "How does the RBI balance the trade-off between economic growth and inflation control in its monetary policy?"
+        ],
+        "ssbDiscussionTopics": [
+          "The impact of high interest rates on industrial growth and inflation control."
+        ]
+      },
+      "upscHighlights": [
+        "The MPC has 6 members. The RBI Governor has a casting vote in case of a tie.",
+        "Repo rate is the interest rate at which the RBI lends money to commercial banks in India.",
+        "SDF serves as the floor of the policy rate corridor and does not require collateral from the RBI."
+      ],
+      "institutionalContext": "Reserve Bank of India (RBI)",
+      "strategicImportance": "Core economics topic tested in CDS and UPSC under Macroeconomics and Monetary Policy.",
+      "originalSource": "Reserve Bank of India (RBI)",
+      "publicationDate": "2026-06-13",
+      "lastUpdatedDate": "2026-06-13",
+      "verificationStatus": "Verified (Official Primary Source)",
+      "relatedOfficialDocuments": "RBI Governor's Monetary Policy Statement, June 2026",
+      "mcq": {
+        "question": "Which of the following monetary tools serves as the floor of the policy rate corridor of the RBI and does not require the central bank to provide collateral in exchange?",
+        "options": [
+          "Marginal Standing Facility (MSF)",
+          "Repo Rate",
+          "Standing Deposit Facility (SDF)",
+          "Reverse Repo Rate"
+        ],
+        "correct": 2,
+        "explanation": "The Standing Deposit Facility (SDF), introduced in 2022, serves as the floor of the liquidity adjustment facility (LAF) corridor. It allows banks to deposit excess funds with the RBI without the RBI needing to pledge government securities as collateral."
+      }
+    },
+    {
+      "id": "jun-12",
+      "topic": "Defence & Security",
+      "topicColor": "#dc2626",
+      "summary": "The multi-national exercise 'PRAGATI 2026' was hosted by the Indian Army at Umroi, Meghalaya, involving troops from 12 nations.",
+      "text": "The Indian Army hosted the multinational training <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Exercise PRAGATI 2026</mark> at the <strong>Joint Training Node, Umroi, Meghalaya</strong>. Over 400 personnel from <strong>12 friendly nations</strong> participated in counter-insurgency and tactical integration drills.",
+      "quickSummary": "Exercise PRAGATI 2026 is a major multinational exercise hosted by India to practice counter-insurgency operations in mountainous and jungle terrain, fostering defence cooperation.",
+      "detailedAnalysis": "Exercise PRAGATI 2026 is a milestone in India's regional security cooperation and defence diplomacy. Held at the state-of-the-art Joint Training Node in Umroi, Meghalaya, it brought together military contingents from 12 countries: Bhutan, Cambodia, Indonesia, Laos, Malaysia, Maldives, Myanmar, Nepal, Philippines, Seychelles, Sri Lanka, and Vietnam. The training modules were designed to simulate joint operations in semi-mountainous and jungle environments, with a focus on counter-terrorism, tactical combat casualty care, and rescue operations. By sharing operational experiences and tactical drills, the participating nations enhanced their interoperability and joint capability to respond to sub-conventional security threats.",
+      "backgroundContext": "The Joint Training Node at Umroi has emerged as India's premier facility for hosting multinational and bilateral exercises under the Act East Policy. The facility is equipped with modern simulators, firing ranges, and tactical training environments, providing realistic combat practice.",
+      "stakeholders": [
+        "Indian Army",
+        "ASEAN and South Asian Partner Militaries",
+        "Ministry of Defence"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Very High",
+        "CDS": "Very High",
+        "AFCAT": "Very High",
+        "CAPF": "High",
+        "UPSC": "Medium"
+      },
+      "relatedTopics": [
+        "[[Umroi Joint Training Node]]",
+        "[[Act East Policy]]",
+        "[[Multinational Exercises]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Describe the significance of the Umroi Joint Training Node in India's defence diplomacy.",
+          "How does Exercise PRAGATI support India's Act East Policy?"
+        ],
+        "interviewQuestions": [
+          "What are the benefits of hosting multi-national military exercises in Northeast India from a security and regional alignment perspective?"
+        ],
+        "ssbDiscussionTopics": [
+          "Multinational military training: Strengthening regional security or increasing diplomatic friction?"
+        ]
+      },
+      "upscHighlights": [
+        "Participating nations include 12 countries from South Asia, Southeast Asia, and the Indian Ocean Region.",
+        "The exercise focuses on counter-terrorism and counter-insurgency operations in sub-conventional environments.",
+        "Umroi is a designated Joint Training Node built specifically to hold international military exercises."
+      ],
+      "institutionalContext": "Indian Army & Ministry of Defence",
+      "strategicImportance": "Highly relevant for defence examinations under joint exercises, regional groupings, and security cooperation.",
+      "originalSource": "Indian Army Press Release",
+      "publicationDate": "2026-06-13",
+      "lastUpdatedDate": "2026-06-13",
+      "verificationStatus": "Verified (Official Primary Source)",
+      "relatedOfficialDocuments": "Indian Army Media Briefing: Exercise PRAGATI 2026",
+      "mcq": {
+        "question": "Which of the following Indian military establishments hosts the multinational military training exercise 'PRAGATI 2026'?",
+        "options": [
+          "Joint Training Node, Umroi",
+          "Desert Warfare School, Jaisalmer",
+          "Counter-Insurgency and Jungle Warfare School, Vairengte",
+          "High Altitude Warfare School, Gulmarg"
+        ],
+        "correct": 0,
+        "explanation": "Exercise PRAGATI 2026 was hosted at the Joint Training Node in Umroi, Meghalaya, which is India's premier facility for hosting bilateral and multinational exercises."
+      }
+    },
+    {
+      "id": "jun-13",
+      "topic": "International Relations",
+      "topicColor": "#7c3aed",
+      "summary": "PM Narendra Modi visited France and the Slovak Republic, marking the first-ever state visit by an Indian Prime Minister to Slovakia.",
+      "text": "Prime Minister Narendra Modi undertook a state visit to <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>France and the Slovak Republic</mark> from <strong>June 13\u201315, 2026</strong>. This marks the <strong>first-ever state visit</strong> by an Indian Prime Minister to Slovakia, establishing new trade and security ties.",
+      "quickSummary": "PM Modi visited France and Slovak Republic, marking a historic diplomatic milestone as the first state visit by an Indian PM to Slovakia, enhancing bilateral and economic cooperation.",
+      "detailedAnalysis": "Prime Minister Narendra Modi's visit to France and the Slovak Republic from June 13\u201315, 2026, represents a significant diplomatic outreach in Central Europe. In Nice, France, PM Modi and President Emmanuel Macron co-inaugurated the 'Bharat Innovates' event, promoting startups, tech partnerships, and collaborative research. Subsequently, the Prime Minister proceeded to Bratislava, Slovakia, marking a historic first state visit by an Indian PM to the Central European country. The visit focused on expanding economic cooperation, semiconductor supply chains, defense manufacturing, and bilateral trade. Agreements were signed in sectors including renewable energy, cyber security, and cultural exchange, elevating India's diplomatic footprint in Central and Eastern Europe.",
+      "backgroundContext": "The Slovak Republic (Slovakia) became an independent state after the peaceful dissolution of Czechoslovakia in 1993. India was one of the first countries to recognize Slovakia. The visit aims to diversify India's partnerships within the European Union beyond traditional Western European allies.",
+      "stakeholders": [
+        "Ministry of External Affairs",
+        "Government of the Slovak Republic",
+        "Government of France"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Very High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Very High"
+      },
+      "relatedTopics": [
+        "[[India-Slovakia Bilateral Relations]]",
+        "[[India-France Relations]]",
+        "[[Central Europe Diplomacy]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Discuss the significance of the first state visit of an Indian Prime Minister to the Slovak Republic.",
+          "What are the major outcomes of the 'Bharat Innovates' event in Nice?"
+        ],
+        "interviewQuestions": [
+          "Why is India expanding its diplomatic reach in Central and Eastern Europe? How does it align with our global ambitions?"
+        ],
+        "ssbDiscussionTopics": [
+          "India's EU diplomacy: Diversifying partnerships beyond traditional Western European allies."
+        ]
+      },
+      "upscHighlights": [
+        "First state visit of an Indian Prime Minister to the Slovak Republic (Bratislava).",
+        "Co-inauguration of the 'Bharat Innovates' event in Nice, France, promoting technical cooperation.",
+        "Slovakia is a key member of the Visegrad Group (V4) and a major automotive and manufacturing hub in Europe."
+      ],
+      "institutionalContext": "Ministry of External Affairs (MEA)",
+      "strategicImportance": "High relevance for competitive exams under bilateral visits, European relations, and diplomatic milestones.",
+      "originalSource": "Ministry of External Affairs (MEA)",
+      "publicationDate": "2026-06-13",
+      "lastUpdatedDate": "2026-06-13",
+      "verificationStatus": "Verified (Official Primary Source)",
+      "relatedOfficialDocuments": "MEA Press Release on PM's Visit to France and Slovakia",
+      "mcq": {
+        "question": "Which of the following European nations recently hosted the first-ever state visit by an Indian Prime Minister in June 2026?",
+        "options": [
+          "Slovak Republic",
+          "Czech Republic",
+          "Hungary",
+          "Poland"
+        ],
+        "correct": 0,
+        "explanation": "Prime Minister Narendra Modi visited the Slovak Republic from June 13\u201315, 2026, marking the first-ever state visit by an Indian PM to Slovakia."
+      }
+    },
+    {
+      "id": "jun-14",
+      "topic": "Polity & Governance",
+      "topicColor": "#4f46e5",
+      "summary": "Prime Minister Narendra Modi chaired the 11th Governing Council meeting of NITI Aayog, focusing on district-level GDP estimates.",
+      "text": "Prime Minister Narendra Modi chaired the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>11th Governing Council meeting of NITI Aayog</mark> in New Delhi. The council discussed developing <strong>district-level GDP estimates</strong>, accelerating affordable energy adoption, and implementing inclusive governance.",
+      "quickSummary": "The 11th NITI Aayog Governing Council meeting, chaired by PM Modi and attended by state Chief Ministers, focused on competitive cooperative federalism, local economic indicators, and sustainable energy.",
+      "detailedAnalysis": "The 11th Governing Council meeting of NITI Aayog was chaired by Prime Minister Narendra Modi and attended by Chief Ministers of states, Lieutenant Governors of Union Territories, and Union Ministers. The central agenda of the 2026 meeting was to strengthen cooperative federalism and empower states as equal partners in national development. Key discussions focused on: (a) formulating district-level GDP estimates to enable localized economic planning, (b) accelerating energy transitions by expanding rural solar grids, and (c) streamlining the implementation of centrally sponsored schemes. The Prime Minister emphasized that district-level metrics are essential for targeted developmental interventions and for reducing regional economic disparities.",
+      "backgroundContext": "NITI Aayog (National Institution for Transforming India) replaced the Planning Commission in January 2015. It functions as a think tank promoting cooperative federalism. The Governing Council, chaired by the PM, is its apex decision-making body, ensuring that national policies are designed with active input from the states.",
+      "stakeholders": [
+        "NITI Aayog",
+        "State Governments",
+        "Central Cabinet Ministers"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Very High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "Very High"
+      },
+      "relatedTopics": [
+        "[[NITI Aayog Structure]]",
+        "[[Cooperative Federalism]]",
+        "[[Planning Commission vs NITI Aayog]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Explain the composition and objective of the Governing Council of NITI Aayog.",
+          "What are the benefits of formulating district-level GDP estimates for economic planning?"
+        ],
+        "interviewQuestions": [
+          "NITI Aayog is designed to foster cooperative federalism. In your view, how successful has it been in addressing center-state issues?"
+        ],
+        "ssbDiscussionTopics": [
+          "Cooperative Federalism: Is NITI Aayog a more effective body than the Planning Commission?"
+        ]
+      },
+      "upscHighlights": [
+        "The Governing Council includes all Chief Ministers of States and Lt. Governors of Union Territories.",
+        "The meeting emphasized district-level GDP estimates for decentralized planning.",
+        "NITI Aayog is a non-constitutional, non-statutory body created via a cabinet resolution."
+      ],
+      "institutionalContext": "NITI Aayog & Cabinet Secretariat",
+      "strategicImportance": "Core polity and governance topic heavily tested under federal bodies, policy planning, and cooperative federalism.",
+      "originalSource": "Press Information Bureau (PIB)",
+      "publicationDate": "2026-06-13",
+      "lastUpdatedDate": "2026-06-13",
+      "verificationStatus": "Verified (Official Primary Source)",
+      "relatedOfficialDocuments": "NITI Aayog Governing Council Official Communiqu\u00e9, June 2026",
+      "mcq": {
+        "question": "Which of the following statements is/are correct regarding NITI Aayog?\n1. It was established by an Act of Parliament in 2015.\n2. The Governing Council of NITI Aayog is chaired by the Prime Minister and includes all State Chief Ministers.",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "correct": 1,
+        "explanation": "Statement 1 is incorrect: NITI Aayog was established via a Cabinet Resolution, not an Act of Parliament (non-statutory). Statement 2 is correct: the Governing Council is chaired by the Prime Minister and includes all Chief Ministers of States and Lieutenant Governors of UTs."
       }
     }
-  ],
-};;;
+  ]
+};
 
 const CBT_EXAMS_DATABASE = [
   {
@@ -51997,16 +52476,96 @@ function updateDashboardMetrics() {
     document.getElementById("stat-cbt-avg").innerText = "0%";
   }
   
-  let rank = "Lieutenant";
-  if (completedTopics > 10 || STATE.cbtScores.length > 8) rank = "Major";
-  else if (completedTopics > 5 || STATE.cbtScores.length > 3) rank = "Captain";
-  const rankEl = document.getElementById("user-rank") || document.getElementById("profile-rank");
-  if (rankEl) rankEl.innerText = rank;
+  // Tactical XP and Military Rank Calculation
+  const streakXp = (STATE.streak || 0) * 100;
+  const syllabusXp = completedTopics * 150;
+  const cbtXp = (STATE.cbtScores || []).reduce((sum, r) => sum + Math.round((r.score / r.maxScore) * 1000), 0) + ((STATE.cbtScores || []).length * 500);
+  const formulaXp = (STATE.readFormulasCount || 0) * 50;
+  const totalXp = streakXp + syllabusXp + cbtXp + formulaXp;
+
+  const branch = STATE.branch || 'army';
+  const branchRanks = RANK_SYSTEM[branch] || RANK_SYSTEM.army;
+  const XP_THRESHOLDS = [0, 1000, 2500, 5000, 10000, 20000, 35000, 50000];
   
+  const RANKS = branchRanks.map((r, idx) => ({
+    name: r.rank,
+    min: XP_THRESHOLDS[idx] || (idx * 10000)
+  }));
+
+  let currentRankIndex = 0;
+  for (let i = 0; i < RANKS.length; i++) {
+    if (totalXp >= RANKS[i].min) {
+      currentRankIndex = i;
+    }
+  }
+  const currentRank = RANKS[currentRankIndex];
+  const nextRank = RANKS[currentRankIndex + 1] || null;
+  
+  let pctProgress = 100;
+  if (nextRank) {
+    const range = nextRank.min - currentRank.min;
+    const currentProgress = totalXp - currentRank.min;
+    pctProgress = Math.round((currentProgress / range) * 100);
+  }
+
+  const rankEl = document.getElementById("profile-rank");
+  if (rankEl) {
+    rankEl.innerText = `${currentRank.name} (${totalXp.toLocaleString()} XP)`;
+  }
+  
+  const branchEl = document.getElementById("profile-branch");
+  if (branchEl) {
+    if (nextRank) {
+      branchEl.innerText = `Next: ${nextRank.name} at ${nextRank.min.toLocaleString()} XP`;
+    } else {
+      branchEl.innerText = `Max Rank Achieved`;
+    }
+  }
+
+  const xpBarEl = document.getElementById("profile-xp-bar");
+  if (xpBarEl) {
+    xpBarEl.style.width = pctProgress + "%";
+  }
+  
+  // Update medals list
+  renderDashboardMedals(syllabusPct);
+
   renderDashboardRecentCBT();
   if (typeof renderDashboardWeaknessHeatmap === 'function') renderDashboardWeaknessHeatmap();
   if (typeof updateDashboardSrsQueue === 'function') updateDashboardSrsQueue();
 }
+
+function renderDashboardMedals(syllabusPct) {
+  const container = document.getElementById("dashboard-medals-grid");
+  if (!container) return;
+
+  const MEDALS = [
+    { id: 'iron-grit', name: 'Iron Grit', emoji: '🛡️', desc: 'Maintain a study streak of 3 or more days.', unlocked: (STATE.streak >= 3) },
+    { id: 'marksman', name: 'Marksman', emoji: '🎯', desc: 'Score 80% or higher on any CBT Mock Exam.', unlocked: (STATE.cbtScores && STATE.cbtScores.some(r => (r.score / r.maxScore) >= 0.8)) },
+    { id: 'syllabus-vet', name: 'Syllabus Vet', emoji: '🎗️', desc: 'Master 10% or more of the total syllabus.', unlocked: (syllabusPct >= 10) },
+    { id: 'elite-scholar', name: 'Elite Scholar', emoji: '📜', desc: 'Memorize 5 or more high-yield formulas.', unlocked: (STATE.readFormulasCount >= 5) },
+    { id: 'tactical-pioneer', name: 'Pioneer', emoji: '🚀', desc: 'Complete at least 1 CBT Mock Exam.', unlocked: (STATE.cbtScores && STATE.cbtScores.length >= 1) }
+  ];
+
+  let html = '';
+  MEDALS.forEach(medal => {
+    html += `
+      <div class="medal-badge ${medal.unlocked ? 'unlocked' : ''}" id="medal-${medal.id}">
+        <div class="medal-icon">${medal.emoji}</div>
+        <div class="medal-name">${medal.name}</div>
+        <div class="medal-desc">
+          **${medal.name}**<br/>
+          ${medal.desc}<br/>
+          <span style="color: ${medal.unlocked ? '#4ade80' : '#ef4444'}; font-weight: bold; font-size: 0.65rem;">
+            ${medal.unlocked ? 'UNLOCKED' : 'LOCKED'}
+          </span>
+        </div>
+      </div>
+    `;
+  });
+  container.innerHTML = html;
+}
+
 
 function renderDashboardRecentCBT() {
   const container = document.getElementById("dashboard-recent-cbt");
@@ -52022,7 +52581,7 @@ function renderDashboardRecentCBT() {
     html += `
       <li style="display:flex; justify-content:space-between; align-items:center; background-color:rgba(255,255,255,0.02); padding:8px 12px; border-radius:6px; border:1px solid var(--border);">
         <div>
-          <strong style="font-size:0.85rem;">r.examTitle</strong>
+          <strong style="font-size:0.85rem;">r.examTitle**
           <div style="font-size:0.75rem; color:var(--text-muted);">{r.date}</div>
         </div>
         <div style="font-family:var(--font-mono); font-weight:bold; color:pct >= 50 ? 'var(--accent)' : 'var(--danger)'">

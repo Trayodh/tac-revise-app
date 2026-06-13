@@ -6,6 +6,7 @@ require('dotenv').config();
 const PORT = process.env.PORT || 4000;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
 
+global.DOMMatrix = class {};
 const pdfParse = require('pdf-parse');
 
 // Basic in-memory rate limiter (15 requests per minute per IP)
@@ -197,7 +198,7 @@ Below is a list of real news headlines and summaries from PIB (Press Information
 ${JSON.stringify(rawItems.map((it,i) => ({ n: i+1, title: it.title, desc: it.description, date: it.pubDate })))}
 
 Your task:
-1. Select the 18 to 22 most important and UPSC-relevant news items from the above list (covering all 12 UPSC topic areas listed below).
+1. Select the 10 to 12 most important and UPSC-relevant news items from the above list (covering the most critical UPSC topic areas listed below).
 2. For each selected item, generate a complete UPSC Current Affairs card.
 
 The 12 UPSC topic areas (assign each card to the most fitting one):
@@ -226,6 +227,29 @@ For each card, produce the following JSON object:
   "topicColor": "<hex color for topic, from this map: ${JSON.stringify(topicColorMap)}>",
   "summary": "<One clear sentence: what happened, who was involved, when and where.>",
   "text": "<2-3 sentence HTML-enhanced description. Use <strong> tags to highlight key names, organizations, dates, and figures. Use <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'> to highlight UPSC-critical facts like article numbers, rank designations, appointment dates, treaty names, committee names, statistics.>",
+  "quickSummary": "<50-100 words quick summary of the current affair.>",
+  "detailedAnalysis": "<500-1000 words UPSC-level deep-dive analysis of the topic.>",
+  "backgroundContext": "<Detailed background context. Why the event happened, what led to it, and historical developments.>",
+  "stakeholders": [
+    "<Stakeholder 1 (Country, Org, Leader, Military Force, or Institution)>",
+    "<Stakeholder 2>"
+  ],
+  "examRelevanceMatrix": {
+    "NDA": "Very High/High/Medium/Low",
+    "CDS": "Very High/High/Medium/Low",
+    "AFCAT": "Very High/High/Medium/Low",
+    "CAPF": "Very High/High/Medium/Low",
+    "UPSC": "Very High/High/Medium/Low"
+  },
+  "relatedTopics": [
+    "[[Related Note 1]]",
+    "[[Related Note 2]]"
+  ],
+  "potentialQuestions": {
+    "shortAnswers": ["<Analytical short answer question 1>", "<Analytical short answer question 2>"],
+    "interviewQuestions": ["<Personal interview question related to this topic>"],
+    "ssbDiscussionTopics": ["<SSB group discussion topic derived from this news>"]
+  },
   "upscHighlights": [
     "<UPSC key fact 1>",
     "<UPSC key fact 2>",
@@ -233,21 +257,29 @@ For each card, produce the following JSON object:
   ],
   "institutionalContext": "<Name of the Ministry, Constitutional body, International org, or Treaty that governs this news>",
   "strategicImportance": "<Why does this matter for UPSC? 1-2 sentences on syllabus relevance.>",
+  "originalSource": "<Official primary source: e.g. Press Information Bureau, Ministry of Defence, Reserve Bank of India, Supreme Court of India, United Nations, etc.>",
+  "publicationDate": "${today}",
+  "lastUpdatedDate": "${today}",
+  "verificationStatus": "Verified (Official Primary Source)",
+  "relatedOfficialDocuments": "<PIB Press Release, Ministry Report, ECI Notification, or Supreme Court Judgment reference if available>",
   "mcq": {
     "question": "<A UPSC Prelims-style MCQ question. Not straightforward factual recall — make it analytical or based on related provisions, rank hierarchy, or historical context.>",
     "options": ["<A>", "<B>", "<C>", "<D>"],
-    "correct": <0 to 3>,
+    "correct": 0,
     "explanation": "<Detailed 2-3 sentence explanation referencing the correct UPSC-standard information.>"
   }
 }
 
 Rules:
 - Return ONLY a raw JSON array of these objects. No markdown, no \`\`\`json fences.
-- Cover at least 9 different topic areas across your selection.
+- Cover at least 10 different topic areas across your selection.
 - MANDATORY: Include at least 2 'Military Appointments' cards, at least 2 'Economy & Finance' cards, and at least 1 'Sports' card.
 - If a real news item is ambiguous, create the card based on the most probable UPSC-testable interpretation.
 - Use formal UPSC-coach language. Highlight key terms with HTML as instructed.
-- Do NOT use any emojis, icons, or pictorial characters anywhere in any fields of the JSON (such as summary, text, upscHighlights, strategicImportance, etc.). Keep the content completely emoji-free.`;
+- Do NOT use any emojis, icons, or pictorial characters anywhere in any fields of the JSON. Keep the content completely emoji-free.
+- SOURCE PRIORITIZATION: Prioritize raw updates from Tier 1 Primary Sources: Press Information Bureau (PIB), Ministry of Defence (MoD), Indian Armed Forces (Army, Navy, Air Force), DRDO, ISRO, Reserve Bank of India (RBI), Gazette of India, NITI Aayog, Ministry of External Affairs (MEA), Supreme Court, UN, World Bank, and other official international organizations. Do NOT use or reproduce content derived from secondary coaching institute summaries, blogs, or guides.
+- For Defence news, you MUST include details matching the Military and Defence Knowledge Layer: (a) Technical Specifications, (b) Historical Usage/Context/Background, (c) Combat Record/Significance, (d) Advantages/Weaknesses, (e) Global Operators, (f) Indian Relevance, (g) Future Upgrades, and (h) Comparison with Similar Systems. Automatically link related components in double brackets, e.g. [[Meteor Missile]] or [[MICA]].
+- JSON VALIDITY: Ensure that all quotes inside string fields are escaped as \\\" and that there are no unescaped control characters or trailing commas. Every string property must be properly enclosed in double quotes.`;
 
         const models = ['gemini-3-flash-preview', 'gemini-2.5-flash', 'gemini-2.0-flash'];
         let parsedJson = null;
@@ -260,7 +292,7 @@ Rules:
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
                 contents: [{ parts: [{ text: prompt }] }],
-                generationConfig: { temperature: 0.1, maxOutputTokens: 20480, response_mime_type: 'application/json' }
+                generationConfig: { temperature: 0.1, maxOutputTokens: 8192, response_mime_type: 'application/json' }
               })
             });
             if (!gemRes.ok) continue;
@@ -670,7 +702,7 @@ ${textPrompt}`;
   }
 
   // Static files server
-  let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : req.url.split('?')[0]);
+  let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : decodeURIComponent(req.url.split('?')[0]));
   
   // Basic security check: prevent path traversal outside workspace
   if (!filePath.startsWith(__dirname)) {
