@@ -519,6 +519,15 @@
     <label><input type="radio" name="ai-mode" value="questions" checked> Generate Questions</label>
     <label><input type="radio" name="ai-mode" value="solve"> Solve Doubt</label>
   </div>
+  <div class="ai-image-upload-row" id="ai-image-upload-container" style="display: none; margin-top: 12px; align-items: center; gap: 12px; border: 1px dashed var(--border); padding: 12px; border-radius: 8px; background: rgba(0,0,0,0.1);">
+    <label style="font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); white-space: nowrap; display: flex; align-items: center; gap: 6px;">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 18px; height: 18px; color: var(--accent);">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375 0 1 1-.75 0 .375 0 0 1 .75 0Z" />
+      </svg>
+      Attach Doubt Image (JPG, JPEG, PNG):
+    </label>
+    <input type="file" id="ai-doubt-image-input" accept="image/png, image/jpeg, image/jpg" style="padding: 6px; border: 1px solid var(--border); border-radius: 6px; background-color: var(--bg-tertiary); color: var(--text-primary); cursor: pointer; flex: 1; font-size: 0.85rem;">
+  </div>
 </div>
           </div>
           

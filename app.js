@@ -1851,10 +1851,22 @@ function renderAiConsoleSuggestions() {
   });
 }
 
+// Toggle image upload row depending on selected Ask Dronacharya mode
+document.querySelectorAll('input[name="ai-mode"]').forEach(radio => {
+  radio.addEventListener('change', (e) => {
+    const imgContainer = document.getElementById('ai-image-upload-container');
+    if (imgContainer) {
+      imgContainer.style.display = e.target.value === 'solve' ? 'flex' : 'none';
+    }
+  });
+});
+
 document.getElementById("ai-generate-btn").addEventListener("click", async () => {
   const query = document.getElementById("ai-custom-topic-input").value.trim();
-  if (!query) {
-    alert("Please enter a topic.");
+  const fileInput = document.getElementById("ai-doubt-image-input");
+  const hasImage = fileInput && fileInput.files && fileInput.files[0];
+  if (!query && !hasImage) {
+    alert("Please enter a topic or attach a doubt image.");
     return;
   }
   const mode = document.querySelector('input[name="ai-mode"]:checked').value;
@@ -2055,7 +2067,32 @@ async function triggerAiSolveDoubt(templateKey, customQueryText = "", contextTex
       <p style="font-size:0.9rem; color:var(--text-muted); margin-top:12px;"> AI is generating explanation...</p>
     </div>
   `;
-  area.className = "ai-response-area";
+   let imagePart = null;
+  const fileInput = document.getElementById("ai-doubt-image-input");
+  if (fileInput && fileInput.files && fileInput.files[0]) {
+    const file = fileInput.files[0];
+    try {
+      const base64Data = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          const result = reader.result;
+          const base64 = result.substring(result.indexOf(",") + 1);
+          resolve(base64);
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+      imagePart = {
+        inlineData: {
+          mimeType: file.type,
+          data: base64Data
+        }
+      };
+      console.log("[DRONACHARYA-DOUBT] Successfully parsed attached image:", file.name);
+    } catch (err) {
+      console.error("[DRONACHARYA-DOUBT] Error reading image file:", err);
+    }
+  }
 
   let syllabusText = "";
   if (templateKey && window.OFFICIAL_SYLLABUS_DATA && window.OFFICIAL_SYLLABUS_DATA[templateKey]) {
@@ -2078,11 +2115,15 @@ Specifically, adapt the explanation dynamically to the context:
 - Similarly, if they clicked "Cell" under a Biology topic, explain biological cells, whereas under a military/strategy topic, explain military planning cells. Make the entire explanation highly relevant to this specific context.`;
   }
 
-  const prompt = `You are Guru Dronacharya, the legendary ancient tutor and guide, acting as the AI tutor for Indian Defence Examinations (NDA, CDS, AFCAT) and civil services exams. Speak with authority, deep wisdom, and encouraging pedagogical guidance.
+  let prompt = `You are Guru Dronacharya, the legendary ancient tutor and guide, acting as the AI tutor for Indian Defence Examinations (NDA, CDS, AFCAT) and civil services exams. Speak with authority, deep wisdom, and encouraging pedagogical guidance.
 Your goal is to teach the user the topic "${topicName}" so exceptionally well that they are fully equipped to clear the exam with excellent marks.
-Structure your notes as a comprehensive educational guide.${contextPrompt}
+Structure your notes as a comprehensive educational guide.${contextPrompt}`;
 
-IMPORTANT REQUIREMENT: Throughout your response, wrap any important terms, sub-topics, historical dates, organizations, treaties, laws, equations, or doctrines in double square brackets, e.g. [[Constituent Assembly]] or [[Article 19]], so that they act as recursive clickable knowledge graph nodes. Generate at least 15-20 such inline links.
+  if (imagePart) {
+    prompt += `\n\nADDITIONAL INPUT: The student has attached an image containing a specific question or doubt related to "${topicName}". You must read and analyze the doubt from the attached image, solve it completely, and explain the solution with detailed step-by-step reasoning.`;
+  }
+
+  prompt += `\n\nIMPORTANT REQUIREMENT: Throughout your response, wrap any important terms, sub-topics, historical dates, organizations, treaties, laws, equations, or doctrines in double square brackets, e.g. [[Constituent Assembly]] or [[Article 19]], so that they act as recursive clickable knowledge graph nodes. Generate at least 15-20 such inline links.
 
 Cover the following sections in your notes:
 1. Level 1: Instant Definition:
@@ -2112,12 +2153,16 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
 
   for (const model of modelsToTry) {
     try {
+      const parts = [{ text: prompt }];
+      if (imagePart) {
+        parts.push(imagePart);
+      }
       const response = await fetch('http://localhost:4000/api/gemini', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           model: model,
-          contents: [{ parts: [{ text: prompt }] }]
+          contents: [{ parts: parts }]
         })
       });
       if (response.ok) {
