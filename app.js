@@ -2986,33 +2986,158 @@ function initCountdownTimer() {
     cds: { name: "CDS 2 2026", date: new Date("September 13, 2026 09:00:00").getTime() }
   };
 
+  // Hide native select dropdown
+  selector.style.display = "none";
+
+  // Build custom dropdown container
+  const customContainer = document.createElement("div");
+  customContainer.id = "custom-exam-dropdown-container";
+  customContainer.style.cssText = "position: relative; width: 100%; margin-bottom: 10px;";
+
+  const customBtn = document.createElement("div");
+  customBtn.id = "custom-exam-dropdown-btn";
+  customBtn.style.cssText = `
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    font-size: 0.82rem;
+    font-family: var(--font-main);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+  `;
+
+  const customList = document.createElement("div");
+  customList.id = "custom-exam-dropdown-list";
+  customList.style.cssText = `
+    display: none;
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    width: 100%;
+    background-color: #111827;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.5);
+    z-index: 100;
+    overflow: hidden;
+    box-sizing: border-box;
+  `;
+
+  customContainer.appendChild(customBtn);
+  customContainer.appendChild(customList);
+  selector.parentNode.insertBefore(customContainer, selector);
+
+  // Helper to resolve colors and labels dynamically
+  const getExamData = (val) => {
+    let color = "#ffffff";
+    let name = "Nearest Exam (Auto)";
+    if (val === "afcat") {
+      color = "#38bdf8"; // sky blue
+      name = "AFCAT 2 2026";
+    } else if (val === "cds") {
+      color = "#87a96b"; // olive green
+      name = "CDS 2 2026";
+    } else if (val === "nda") {
+      color = "#ffffff";
+      name = "NDA 2 2026";
+    } else if (val === "auto") {
+      const nowVal = Date.now();
+      let nearestKeyVal = "afcat";
+      let minDiffVal = Infinity;
+      for (const [key, info] of Object.entries(exams)) {
+        const diff = info.date - nowVal;
+        if (diff > 0 && diff < minDiffVal) {
+          minDiffVal = diff;
+          nearestKeyVal = key;
+        }
+      }
+      color = nearestKeyVal === "afcat" ? "#38bdf8" : (nearestKeyVal === "cds" ? "#87a96b" : "#ffffff");
+      name = exams[nearestKeyVal].name + " (Nearest)";
+    }
+    return { color, name };
+  };
+
+  // Re-render custom dropdown state
+  const renderCustomDropdown = () => {
+    const currentVal = selector.value;
+    const currentData = getExamData(currentVal);
+
+    customBtn.innerHTML = `
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <span style="width: 10px; height: 10px; border-radius: 50%; background-color: ${currentData.color}; display: inline-block; box-shadow: 0 0 6px ${currentData.color};"></span>
+        <span>${currentData.name}</span>
+      </div>
+      <span style="font-size: 0.6rem; color: var(--text-muted);">▼</span>
+    `;
+
+    // Populate option panel items
+    const options = ["auto", "afcat", "nda", "cds"];
+    customList.innerHTML = options.map(opt => {
+      const data = getExamData(opt);
+      return `
+        <div class="custom-dropdown-opt" data-val="${opt}" style="
+          padding: 8px 12px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          color: var(--text-secondary);
+          font-size: 0.8rem;
+          transition: background 0.2s ease;
+        ">
+          <span style="width: 10px; height: 10px; border-radius: 50%; background-color: ${data.color}; display: inline-block;"></span>
+          <span>${data.name}</span>
+        </div>
+      `;
+    }).join('');
+
+    // Add option click events
+    customList.querySelectorAll(".custom-dropdown-opt").forEach(optEl => {
+      optEl.addEventListener("mouseenter", () => {
+        optEl.style.backgroundColor = "rgba(255, 255, 255, 0.05)";
+        optEl.style.color = "var(--text-primary)";
+      });
+      optEl.addEventListener("mouseleave", () => {
+        optEl.style.backgroundColor = "transparent";
+        optEl.style.color = "var(--text-secondary)";
+      });
+      optEl.addEventListener("click", () => {
+        const val = optEl.getAttribute("data-val");
+        selector.value = val;
+        localStorage.setItem("tac_countdown_selection", val);
+        renderCustomDropdown();
+        customList.style.display = "none";
+        selector.dispatchEvent(new Event("change"));
+      });
+    });
+  };
+
+  // Toggle dropdown visibility
+  customBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const isVisible = customList.style.display === "block";
+    customList.style.display = isVisible ? "none" : "block";
+  });
+
+  document.addEventListener("click", () => {
+    customList.style.display = "none";
+  });
+
   // Load target exam selection from localStorage if saved
   const savedSelection = localStorage.getItem("tac_countdown_selection") || "auto";
-  
-  // Dynamically set default label of "auto" to the actual nearest exam name
-  const nowVal = Date.now();
-  let nearestKeyVal = "afcat";
-  let minDiffVal = Infinity;
-  for (const [key, info] of Object.entries(exams)) {
-    const diff = info.date - nowVal;
-    if (diff > 0 && diff < minDiffVal) {
-      minDiffVal = diff;
-      nearestKeyVal = key;
-    }
-  }
-  const autoOption = selector.querySelector('option[value="auto"]');
-  if (autoOption) {
-    let emoji = "";
-    if (nearestKeyVal === "nda") emoji = "⚪ ";
-    else if (nearestKeyVal === "cds") emoji = "🟢 ";
-    else if (nearestKeyVal === "afcat") emoji = "🔵 ";
-    autoOption.innerText = emoji + exams[nearestKeyVal].name + " (Nearest)";
-  }
-
   selector.value = savedSelection;
+  renderCustomDropdown();
 
   selector.addEventListener("change", (e) => {
     localStorage.setItem("tac_countdown_selection", e.target.value);
+    renderCustomDropdown();
     updateTimer();
   });
 
