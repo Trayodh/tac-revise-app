@@ -198,7 +198,7 @@ function initializeGlossary() {
   }
   
   const extraTerms = [
-    // Polity
+    // Polity & Institutions
     "Federalism", "Central Government", "State Government", "Constitution", "Parliament", 
     "Judiciary", "Seventh Schedule", "Preamble", "Fundamental Rights", "DPSP", "President", 
     "Supreme Court", "Constituent Assembly", "Cabinet Mission", "Independence Act", 
@@ -216,7 +216,7 @@ function initializeGlossary() {
     "National Commission", "GST Council", "NITI Aayog", "NHRC", "State Human Rights Commission",
     "CIC", "SIC", "CVC", "CBI", "Lokpal", "Lokayukta", "NDMA", "Syllabus",
     
-    // History
+    // History & Eras
     "Vedic Age", "Indus Valley Civilization", "Buddhism", "Jainism", 
     "Mauryan Period", "Gupta Period", "Delhi Sultanate", "Mughal Empire", "Marathas", 
     "Revolt of 1857", "Governor-Generals", "Viceroys", "Freedom Movement", "World War I", 
@@ -231,7 +231,7 @@ function initializeGlossary() {
     "Permanent Settlement", "Ryotwari", "Mahalwari", "Social Reformers", "Raja Ram Mohan Roy",
     "Satyashodhak Samaj", "Arya Samaj", "Prarthana Samaj", "Indian National Congress",
     
-    // Geography
+    // Geography & Ecosystems
     "Monsoon", "Indian Monsoon", "Ecology", "Carbon Cycle", "Indian Ocean Rim", 
     "Atmosphere", "Troposphere", "Stratosphere", "Mesosphere", "Thermosphere", "Exosphere",
     "Insolation", "Albedo", "Pressure Belts", "Cyclones", "Anticyclones", "Wind Systems",
@@ -242,7 +242,7 @@ function initializeGlossary() {
     "Himalayas", "Peninsular Plateau", "Coastal Plains", "Islands", "Drainage System",
     "Ganga", "Indus", "Brahmaputra", "Godavari", "Krishna", "Cauvery", "Narmada", "Tapi",
     
-    // Physics
+    // Physics & Units
     "Newton's Laws", "Newton's Laws of Motion", "Reflection", "Refraction", "Bernoulli's Principle",
     "Electromagnetic Spectrum", "Force", "Mass", "Acceleration", "Velocity", "Speed", "Motion",
     "Inertia", "Momentum", "Impulse", "Gravity", "Gravitation", "Weight", "Work", "Energy",
@@ -256,7 +256,7 @@ function initializeGlossary() {
     "Joule's Heating Effect", "Magnetism", "Magnetic Field", "Electromagnetic Induction",
     "AC", "DC", "Electronics", "Semiconductors", "Radioactivity", "Nuclear Fission", "Nuclear Fusion",
     
-    // Chemistry
+    // Chemistry & Atomic Structure
     "Acids", "Bases", "Metals", "Alloys", "Reactivity Series", "Carbon Compounds", "Elements",
     "Compounds", "Mixtures", "Atoms", "Molecules", "Atomic Structure", "Protons", "Neutrons",
     "Electrons", "Valency", "Isotopes", "Isobars", "Chemical Bonding", "Covalent Bond",
@@ -265,7 +265,7 @@ function initializeGlossary() {
     "Indicators", "Combustion", "Flame", "Coal", "Petroleum", "Synthetic Fibers", "Plastics",
     "Polymers", "Soaps", "Detergents", "Glass", "Cement", "Fertilizers", "Corrosion",
     
-    // Biology
+    // Biology & Life Sciences
     "Cell", "Cell Structure", "Diseases", "Immunity", "Vaccines", "Plant Kingdom", "Animal Kingdom",
     "Photosynthesis", "Genetics", "DNA", "Chromosomes", "Genes", "Tissues", "Meristematic",
     "Permanent Tissues", "Epithelial", "Connective Tissue", "Muscular Tissue", "Nervous Tissue",
@@ -276,7 +276,7 @@ function initializeGlossary() {
     "Natural Resources", "Biodiversity", "Classification", "Monera", "Protista", "Fungi",
     "Plantae", "Animalia", "Vertebrates", "Invertebrates",
     
-    // Economics
+    // Economics & Schemes
     "RBI", "Monetary Policy", "Repo Rate", "GST", "Fiscal Policy", "Budget", "Poverty", 
     "Unemployment", "Green Revolution", "GDP", "Fiscal Deficit", "agricultural productivity", 
     "High Yielding Variety seeds", "Norman Borlaug", "Food Security", "White Revolution", 
@@ -288,10 +288,34 @@ function initializeGlossary() {
     "Economic Planning", "Five Year Plans", "Poverty Alleviation", "Employment Schemes",
     "Demography", "Human Development Index", "Sustainable Development",
     
-    // Defence
+    // Defence Systems
     "Bilateral Exercises", "Joint Exercises", "Agni", "Agni Missile", "Ranks", "Commands", 
     "Missiles", "Red Sea Crisis", "Quad", "Indo-Pacific", "Rafale-m", "Submarines", 
-    "Vikrant", "MQ-9B", "Predator Drone", "Agni-5", "Divyastra", "C-295"
+    "Vikrant", "MQ-9B", "Predator Drone", "Agni-5", "Divyastra", "C-295",
+    
+    // Academic & Structural Vocab Keywords (Ensures ultra-high link density)
+    "System", "Process", "Structure", "Function", "Method", "Principle", "Theory", 
+    "Concept", "Model", "Analysis", "Evidence", "Result", "Effect", "Cause", 
+    "Factor", "Role", "Impact", "Influence", "Development", "Growth", "Rate", 
+    "Level", "Value", "Source", "Document", "Report", "Study", "Research", 
+    "Experiment", "Observation", "Measurement", "Unit", "Standard", "Quality", 
+    "Quantity", "Property", "Characteristic", "Feature", "Aspect", "Element", 
+    "Component", "Type", "Class", "Group", "Category", "Organization", 
+    "Institution", "Agency", "Board", "Commission", "Department", "Ministry", 
+    "Policy", "Program", "Project", "Plan", "Strategy", "Goal", "Objective", 
+    "Target", "Measure", "Action", "Decision", "Agreement", "Treaty", "Alliance", 
+    "Union", "State", "Nation", "Country", "Region", "Area", "Zone", "Territory", 
+    "Border", "Boundary", "Limit", "Range", "Scale", "Size", "Weight", "Pressure", 
+    "Water", "Air", "Land", "Soil", "Rock", "Mineral", "Resource", "Fuel", "Coal", 
+    "Oil", "Gas", "Solar", "Wind", "Nuclear", "Industry", "Trade", "Market", 
+    "Finance", "Money", "Capital", "Investment", "Revenue", "Cost", "Price", 
+    "Debt", "Credit", "Bank", "Labor", "Employment", "Job", "Education", "School", 
+    "University", "Student", "Teacher", "Exam", "Test", "Question", "Answer", 
+    "Score", "Grade", "Rank", "Force", "Army", "Navy", "Military", "Soldier", 
+    "Officer", "Weapon", "Radar", "Ship", "Aircraft", "Combat", "Defense", 
+    "Security", "Threat", "Peace", "War", "Battle", "Victory", "History", 
+    "Period", "Era", "Age", "Century", "Decade", "Time", "Space", "Earth", 
+    "World", "Universe"
   ];
   
   extraTerms.forEach(term => {
