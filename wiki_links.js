@@ -198,29 +198,100 @@ function initializeGlossary() {
   }
   
   const extraTerms = [
+    // Polity
     "Federalism", "Central Government", "State Government", "Constitution", "Parliament", 
     "Judiciary", "Seventh Schedule", "Preamble", "Fundamental Rights", "DPSP", "President", 
     "Supreme Court", "Constituent Assembly", "Cabinet Mission", "Independence Act", 
-    "British Parliament", "Westminster System", "Cell", "Cell Structure", "Newton's Laws", 
-    "Newton's Laws of Motion", "Reflection", "Refraction", "Bilateral Exercises", 
-    "Joint Exercises", "Agni", "Agni Missile", "Panchayati Raj", "Directive Principles", 
+    "British Parliament", "Westminster System", "Panchayati Raj", "Directive Principles", 
     "Fundamental Duties", "Emergency Provisions", "Amendments", "Governor", "CAG", 
     "Attorney General", "High Court", "Writs", "Habeas Corpus", "Mandamus", "Prohibition", 
     "Certiorari", "Quo Warranto", "Official Languages", "Anti-defection", "Panchayats", 
-    "Municipalities", "Vedic Age", "Indus Valley Civilization", "Buddhism", "Jainism", 
+    "Municipalities", "Sovereign", "Socialist", "Secular", "Democratic", "Republic",
+    "Justice", "Liberty", "Equality", "Fraternity", "Union Territories", "Citizenship",
+    "Lok Sabha", "Rajya Sabha", "Speaker", "Chairman", "Ordinance", "Bill", "Veto",
+    "Money Bill", "Finance Bill", "Joint Sitting", "No-Confidence Motion", "Prorogation",
+    "Dissolution", "Adjournment", "Question Hour", "Zero Hour", "Public Accounts Committee",
+    "Estimates Committee", "Judicial Review", "Judicial Activism", "PIL", "High Courts",
+    "Subordinate Courts", "Tribunals", "Election Commission", "UPSC", "SPSC", "Finance Commission",
+    "National Commission", "GST Council", "NITI Aayog", "NHRC", "State Human Rights Commission",
+    "CIC", "SIC", "CVC", "CBI", "Lokpal", "Lokayukta", "NDMA", "Syllabus",
+    
+    // History
+    "Vedic Age", "Indus Valley Civilization", "Buddhism", "Jainism", 
     "Mauryan Period", "Gupta Period", "Delhi Sultanate", "Mughal Empire", "Marathas", 
     "Revolt of 1857", "Governor-Generals", "Viceroys", "Freedom Movement", "World War I", 
-    "World War II", "Cold War", "Monsoon", "Indian Monsoon", "RBI", "Monetary Policy", 
-    "Repo Rate", "GST", "Fiscal Policy", "Budget", "Poverty", "Unemployment", "Acids", 
-    "Bases", "Metals", "Alloys", "Reactivity Series", "Carbon Compounds", "Diseases", 
-    "Immunity", "Vaccines", "Plant Kingdom", "Animal Kingdom", "Ecology", "Ranks", 
-    "Commands", "Missiles", "Red Sea Crisis", "Quad", "Indo-Pacific", "Rafale-m", 
-    "Submarines", "Vikrant", "MQ-9B", "Predator Drone", "Agni-5", "Divyastra", "C-295",
-    "Photosynthesis", "Green Revolution", "GDP", "NATO", "Battle of Plassey", "Bernoulli's Principle",
-    "Fiscal Deficit", "Electromagnetic Spectrum", "Indian Ocean Rim", "Carbon Cycle",
-    "agricultural productivity", "High Yielding Variety seeds", "Norman Borlaug", "Food Security",
-    "Irrigation", "Fertilizers", "White Revolution", "Genetic Improvement", "Plant Breeding",
-    "Genetics", "DNA", "Chromosomes", "Genes"
+    "World War II", "Cold War", "Battle of Plassey", "Battle of Buxar", "Non-Cooperation Movement",
+    "Civil Disobedience Movement", "Quit India Movement", "Swadeshi Movement", "Partition of Bengal",
+    "Rowlatt Act", "Jallianwala Bagh", "Khilafat Movement", "Simon Commission", "Nehru Report",
+    "Poona Pact", "Cripps Mission", "Quit India", "Cabinet Mission Plan", "Mountbatten Plan",
+    "Harappan", "Mohenjodaro", "Aryans", "Vedas", "Upanishads", "Ashoka", "Chandragupta",
+    "Samudragupta", "Harsha", "Cholas", "Pallavas", "Rashtrakutas", "Rajputs", "Alauddin Khilji",
+    "Muhammad bin Tughluq", "Babur", "Humayun", "Akbar", "Jahangir", "Shah Jahan", "Aurangzeb",
+    "Shivaji", "Peshwas", "East India Company", "Subsidiary Alliance", "Doctrine of Lapse",
+    "Permanent Settlement", "Ryotwari", "Mahalwari", "Social Reformers", "Raja Ram Mohan Roy",
+    "Satyashodhak Samaj", "Arya Samaj", "Prarthana Samaj", "Indian National Congress",
+    
+    // Geography
+    "Monsoon", "Indian Monsoon", "Ecology", "Carbon Cycle", "Indian Ocean Rim", 
+    "Atmosphere", "Troposphere", "Stratosphere", "Mesosphere", "Thermosphere", "Exosphere",
+    "Insolation", "Albedo", "Pressure Belts", "Cyclones", "Anticyclones", "Wind Systems",
+    "Ocean Currents", "Tides", "Coral Reefs", "El Nino", "La Nina", "Plate Tectonics",
+    "Earthquakes", "Volcanoes", "Rocks", "Weathering", "Erosion", "Rivers", "Glaciers",
+    "Landforms", "Soils", "Vegetation", "Forests", "Agriculture", "Crops", "Kharif", "Rabi",
+    "Zaid", "Irrigation", "Minerals", "Industries", "Population", "Urbanization", "Resources",
+    "Himalayas", "Peninsular Plateau", "Coastal Plains", "Islands", "Drainage System",
+    "Ganga", "Indus", "Brahmaputra", "Godavari", "Krishna", "Cauvery", "Narmada", "Tapi",
+    
+    // Physics
+    "Newton's Laws", "Newton's Laws of Motion", "Reflection", "Refraction", "Bernoulli's Principle",
+    "Electromagnetic Spectrum", "Force", "Mass", "Acceleration", "Velocity", "Speed", "Motion",
+    "Inertia", "Momentum", "Impulse", "Gravity", "Gravitation", "Weight", "Work", "Energy",
+    "Power", "Kinetic Energy", "Potential Energy", "Conservation of Energy", "Friction",
+    "Centripetal Force", "Centrifugal Force", "Pressure", "Density", "Buoyancy", "Surface Tension",
+    "Viscosity", "Elasticity", "Heat", "Temperature", "Thermodynamics", "Conduction",
+    "Convection", "Radiation", "Specific Heat", "Latent Heat", "Thermal Expansion",
+    "Light", "Mirrors", "Lenses", "Dispersion", "Scattering", "Interference", "Diffraction",
+    "Polarization", "Sound", "Frequency", "Wavelength", "Amplitude", "Velocity of Sound",
+    "Doppler Effect", "Electricity", "Charge", "Current", "Voltage", "Resistance", "Ohm's Law",
+    "Joule's Heating Effect", "Magnetism", "Magnetic Field", "Electromagnetic Induction",
+    "AC", "DC", "Electronics", "Semiconductors", "Radioactivity", "Nuclear Fission", "Nuclear Fusion",
+    
+    // Chemistry
+    "Acids", "Bases", "Metals", "Alloys", "Reactivity Series", "Carbon Compounds", "Elements",
+    "Compounds", "Mixtures", "Atoms", "Molecules", "Atomic Structure", "Protons", "Neutrons",
+    "Electrons", "Valency", "Isotopes", "Isobars", "Chemical Bonding", "Covalent Bond",
+    "Ionic Bond", "Chemical Reactions", "Oxidation", "Reduction", "Redox", "Catalyst",
+    "Periodic Table", "Periodic Trends", "Non-Metals", "Metalloids", "Salts", "pH Scale",
+    "Indicators", "Combustion", "Flame", "Coal", "Petroleum", "Synthetic Fibers", "Plastics",
+    "Polymers", "Soaps", "Detergents", "Glass", "Cement", "Fertilizers", "Corrosion",
+    
+    // Biology
+    "Cell", "Cell Structure", "Diseases", "Immunity", "Vaccines", "Plant Kingdom", "Animal Kingdom",
+    "Photosynthesis", "Genetics", "DNA", "Chromosomes", "Genes", "Tissues", "Meristematic",
+    "Permanent Tissues", "Epithelial", "Connective Tissue", "Muscular Tissue", "Nervous Tissue",
+    "Nutrition", "Respiration", "Transportation", "Excretion", "Control and Coordination",
+    "Nervous System", "Brain", "Spinal Cord", "Reflex Action", "Hormones", "Endocrine Glands",
+    "Reproduction", "Asexual Reproduction", "Sexual Reproduction", "Heredity", "Evolution",
+    "Our Environment", "Ecosystem", "Food Chain", "Food Web", "Trophic Levels", "Ozone Depletion",
+    "Natural Resources", "Biodiversity", "Classification", "Monera", "Protista", "Fungi",
+    "Plantae", "Animalia", "Vertebrates", "Invertebrates",
+    
+    // Economics
+    "RBI", "Monetary Policy", "Repo Rate", "GST", "Fiscal Policy", "Budget", "Poverty", 
+    "Unemployment", "Green Revolution", "GDP", "Fiscal Deficit", "agricultural productivity", 
+    "High Yielding Variety seeds", "Norman Borlaug", "Food Security", "White Revolution", 
+    "Inflation", "National Income", "GNP", "NDP", "NNP", "CPI", "WPI", "Banking System",
+    "Commercial Banks", "NPA", "Monetary Instruments", "Reverse Repo", "MSF", "Bank Rate",
+    "CRR", "SLR", "Open Market Operations", "Capital Market", "Money Market", "SEBI",
+    "Insurance", "IRDAI", "Public Finance", "Direct Taxes", "Indirect Taxes", "Subsidies",
+    "Balance of Payments", "FDI", "FII", "Exchange Rate", "WTO", "IMF", "World Bank",
+    "Economic Planning", "Five Year Plans", "Poverty Alleviation", "Employment Schemes",
+    "Demography", "Human Development Index", "Sustainable Development",
+    
+    // Defence
+    "Bilateral Exercises", "Joint Exercises", "Agni", "Agni Missile", "Ranks", "Commands", 
+    "Missiles", "Red Sea Crisis", "Quad", "Indo-Pacific", "Rafale-m", "Submarines", 
+    "Vikrant", "MQ-9B", "Predator Drone", "Agni-5", "Divyastra", "C-295"
   ];
   
   extraTerms.forEach(term => {
