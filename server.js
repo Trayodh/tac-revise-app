@@ -144,92 +144,84 @@ async function fetchAllNewsItems() {
   const pinned = militaryItems.slice(0, 6);
   const combined = [...pinned, ...allItems];
   return combined.slice(0, 50); // larger pool for 12 topic categories
-}
-
-const MIME_TYPES = {
-  '.html': 'text/html',
-  '.css': 'text/css',
-  '.js': 'text/javascript',
-  '.json': 'application/json',
-  '.png': 'image/png',
-  '.jpg': 'image/jpeg',
-  '.gif': 'image/gif',
-  '.svg': 'image/svg+xml',
-  '.ico': 'image/x-icon',
-  '.pdf': 'application/pdf'
-};
-
-const server = http.createServer((req, res) => {
-  // CORS Headers for API requests
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-
-  if (req.method === 'OPTIONS') {
-    res.writeHead(200);
-    res.end();
-    return;
-  }
-
-
-  // API Route: Comprehensive Daily Current Affairs (PIB + Google News, all UPSC topics)
-  if (req.url === '/api/daily-current-affairs' && req.method === 'GET') {
-    const today = new Date().toISOString().split('T')[0];
+}async function autoUpdateCurrentAffairs() {
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    console.log(`[AUTO-UPDATE] Starting daily current affairs update for ${today}...`);
+    const rawItems = await fetchAllNewsItems();
+    console.log(`[AUTO-UPDATE] Collected ${rawItems.length} raw news items.`);
     
-    if (dailyNewsCache.date === today && dailyNewsCache.data) {
-      console.log(`[PROXY] Serving Daily Current Affairs from cache for ${today}`);
-      res.writeHead(200, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify(dailyNewsCache.data));
-      return;
+    const topicColorMap = UPSC_TOPIC_CATEGORIES.reduce((acc, t) => { acc[t.name] = t.color; return acc; }, {});
+    
+    // Step 1: Select the 5 to 6 most important news items
+    const selectionPrompt = `You are a senior UPSC exam expert. Select the 5 to 6 most important and UPSC-relevant news items from this list:
+${JSON.stringify(rawItems.map((it,i) => ({ index: i, title: it.title, desc: it.description })))}
+
+Rules:
+- Assign each to one of these 12 topic areas: ${UPSC_TOPIC_CATEGORIES.map(t => t.name).join(', ')}
+- You MUST include at least 1 'Military Appointments' item (if not in the feed, use the most recent known Indian military chief appointment), at least 1 'Economy & Finance' item, and at least 1 'Sports' item.
+- Return ONLY a raw JSON array of objects with: { "index": <number or null>, "title": "<news title>", "topic": "<topic area name>", "topicColor": "<hex color from ${JSON.stringify(topicColorMap)}>" }.
+- Do not include markdown fences or any formatting other than valid JSON.`;
+
+    const models = ['gemini-2.5-flash', 'gemini-2.0-flash'];
+    let selectionList = null;
+
+    for (const model of models) {
+      try {
+        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
+        const gemRes = await fetch(apiUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: selectionPrompt }] }],
+            generationConfig: { temperature: 0.1, response_mime_type: 'application/json' }
+          })
+        });
+        if (!gemRes.ok) {
+          const errMsg = await gemRes.text();
+          console.warn(`[AUTO-UPDATE] Selection using model ${model} returned non-ok status ${gemRes.status}: ${errMsg}`);
+          continue;
+        }
+        const gemData = await gemRes.json();
+        const rawText = gemData?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+        const cleaned = rawText.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim();
+        selectionList = JSON.parse(cleaned);
+        break;
+      } catch(e) {
+        console.warn(`[AUTO-UPDATE] Selection using model ${model} failed:`, e.message);
+      }
     }
 
-    console.log(`[PROXY] Fetching fresh news from PIB + Google News for ${today}...`);
+    if (!selectionList || !Array.isArray(selectionList) || selectionList.length === 0) {
+      throw new Error('Failed to select news items');
+    }
 
-    (async () => {
-      try {
-        const rawItems = await fetchAllNewsItems();
-        console.log(`[PROXY] Collected ${rawItems.length} raw news items from all feeds.`);
+    console.log(`[AUTO-UPDATE] Selected ${selectionList.length} items for detail generation.`);
+    
+    // Step 2: Generate details for each selected item in parallel
+    const generatedCards = [];
+    const cardPromises = selectionList.map(async (selected, idx) => {
+      const originalItem = selected.index !== null ? rawItems[selected.index] : null;
+      const title = selected.title;
+      const topic = selected.topic;
+      const topicColor = selected.topicColor;
+      
+      const detailPrompt = `You are a senior UPSC exam expert. Generate a complete, highly detailed UPSC Current Affairs card for the following news item:
+Title: ${title}
+Description: ${originalItem ? originalItem.description : 'N/A'}
+Topic: ${topic}
+Topic Color: ${topicColor}
 
-        const topicColorMap = UPSC_TOPIC_CATEGORIES.reduce((acc, t) => { acc[t.name] = t.color; return acc; }, {});
-
-        const prompt = `You are a senior UPSC exam expert and IAS coach. Today is ${today}.
-
-Below is a list of real news headlines and summaries from PIB (Press Information Bureau) and various news sources:
-${JSON.stringify(rawItems.map((it,i) => ({ n: i+1, title: it.title, desc: it.description, date: it.pubDate })))}
-
-Your task:
-1. Select the 10 to 12 most important and UPSC-relevant news items from the above list (covering the most critical UPSC topic areas listed below).
-2. For each selected item, generate a complete UPSC Current Affairs card.
-
-The 12 UPSC topic areas (assign each card to the most fitting one):
-${UPSC_TOPIC_CATEGORIES.map(t => `- ${t.name}`).join('\n')}
-
-SPECIAL RULE FOR 'Military Appointments':
-- You MUST include AT LEAST 2 cards with topic = 'Military Appointments'.
-- If the news feed does not have recent appointment news, generate cards based on the most recent known Indian military appointments (e.g., current COAS, CNS, CAS, CDS, DG Assam Rifles, etc.).
-- For Military Appointments cards, the upscHighlights MUST include:
-  a) The full name, rank, and service branch of the appointee
-  b) Their predecessor's name
-  c) The constitutional/statutory basis for the appointment (e.g., 'Appointed by President of India under Article 53 as Supreme Commander of Armed Forces')
-  d) Any notable background: operations commanded, courses attended, previous postings, or decorations
-  e) The rank hierarchy context (e.g., 'COAS is a 4-star General — the highest rank in the Indian Army in peacetime')
-
-SPECIAL RULE FOR 'Economy & Finance':
-- You MUST include AT LEAST 2 cards with topic = 'Economy & Finance'. Ensure you extract any economic developments, RBI decisions, GDP data, or budget-related news.
-
-SPECIAL RULE FOR 'Sports':
-- You MUST include AT LEAST 1 card with topic = 'Sports'. Cover any significant sports event, tournament result, or athlete achievement from India.
-
-For each card, produce the following JSON object:
+Your generated card MUST follow this JSON schema exactly:
 {
-  "id": "ca_live_N",
-  "topic": "<one of the 12 topic area names above>",
-  "topicColor": "<hex color for topic, from this map: ${JSON.stringify(topicColorMap)}>",
+  "id": "ca_live_${today.replace(/-/g, '_')}_${idx}",
+  "topic": "${topic}",
+  "topicColor": "${topicColor}",
   "summary": "<One clear sentence: what happened, who was involved, when and where.>",
   "text": "<2-3 sentence HTML-enhanced description. Use <strong> tags to highlight key names, organizations, dates, and figures. Use <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'> to highlight UPSC-critical facts like article numbers, rank designations, appointment dates, treaty names, committee names, statistics.>",
-  "quickSummary": "<50-100 words quick summary of the current affair.>",
-  "detailedAnalysis": "<500-1000 words UPSC-level deep-dive analysis of the topic.>",
-  "backgroundContext": "<Detailed background context. Why the event happened, what led to it, and historical developments.>",
+  "quickSummary": "<30-50 words quick summary of the current affair.>",
+  "detailedAnalysis": "<150-250 words UPSC-level deep-dive analysis of the topic.>",
+  "backgroundContext": "<80-120 words background context. Why the event happened, what led to it, and historical developments.>",
   "stakeholders": [
     "<Stakeholder 1 (Country, Org, Leader, Military Force, or Institution)>",
     "<Stakeholder 2>"
@@ -271,54 +263,134 @@ For each card, produce the following JSON object:
 }
 
 Rules:
-- Return ONLY a raw JSON array of these objects. No markdown, no \`\`\`json fences.
-- Cover at least 10 different topic areas across your selection.
-- MANDATORY: Include at least 2 'Military Appointments' cards, at least 2 'Economy & Finance' cards, and at least 1 'Sports' card.
-- If a real news item is ambiguous, create the card based on the most probable UPSC-testable interpretation.
+- Return ONLY the raw JSON object. No markdown, no \`\`\`json fences.
 - Use formal UPSC-coach language. Highlight key terms with HTML as instructed.
 - Do NOT use any emojis, icons, or pictorial characters anywhere in any fields of the JSON. Keep the content completely emoji-free.
-- SOURCE PRIORITIZATION: Prioritize raw updates from Tier 1 Primary Sources: Press Information Bureau (PIB), Ministry of Defence (MoD), Indian Armed Forces (Army, Navy, Air Force), DRDO, ISRO, Reserve Bank of India (RBI), Gazette of India, NITI Aayog, Ministry of External Affairs (MEA), Supreme Court, UN, World Bank, and other official international organizations. Do NOT use or reproduce content derived from secondary coaching institute summaries, blogs, or guides.
-- For Defence news, you MUST include details matching the Military and Defence Knowledge Layer: (a) Technical Specifications, (b) Historical Usage/Context/Background, (c) Combat Record/Significance, (d) Advantages/Weaknesses, (e) Global Operators, (f) Indian Relevance, (g) Future Upgrades, and (h) Comparison with Similar Systems. Automatically link related components in double brackets, e.g. [[Meteor Missile]] or [[MICA]].
-- JSON VALIDITY: Ensure that all quotes inside string fields are escaped as \\\" and that there are no unescaped control characters or trailing commas. Every string property must be properly enclosed in double quotes.`;
+- If this is a Defence news topic, you MUST include details matching the Military and Defence Knowledge Layer: (a) Technical Specifications, (b) Historical Usage/Context/Background, (c) Combat Record/Significance, (d) Advantages/Weaknesses, (e) Global Operators, (f) Indian Relevance, (g) Future Upgrades, and (h) Comparison with Similar Systems. Automatically link related components in double brackets, e.g. [[Meteor Missile]] or [[MICA]].
+- JSON VALIDITY: Ensure that all quotes inside string fields are escaped as \\\" and that there are no unescaped control characters or trailing commas. Every string property must be properly enclosed in double quotes. Do NOT include actual literal line breaks or newlines inside any string properties; instead, escape them as \\n or use HTML tags. The entire response must be strictly valid JSON that can be parsed by JSON.parse().`;
 
-        const models = ['gemini-3-flash-preview', 'gemini-2.5-flash', 'gemini-2.0-flash'];
-        let parsedJson = null;
-
-        for (const model of models) {
-          try {
-            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
-            const gemRes = await fetch(apiUrl, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({
-                contents: [{ parts: [{ text: prompt }] }],
-                generationConfig: { temperature: 0.1, maxOutputTokens: 8192, response_mime_type: 'application/json' }
-              })
-            });
-            if (!gemRes.ok) continue;
-            const gemData = await gemRes.json();
-            const rawText = gemData?.candidates?.[0]?.content?.parts?.[0]?.text || '';
-            // Strip any accidental markdown fences
-            const cleaned = rawText.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim();
-            parsedJson = JSON.parse(cleaned);
-            console.log(`[PROXY] Successfully enriched ${parsedJson.length} CA items using model: ${model}`);
-            break;
-          } catch(e) {
-            console.warn(`[PROXY] Model ${model} failed:`, e.message);
+      for (const model of models) {
+        try {
+          const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
+          const gemRes = await fetch(apiUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text: detailPrompt }] }],
+              generationConfig: { temperature: 0.1, response_mime_type: 'application/json' }
+            })
+          });
+          if (!gemRes.ok) {
+            const errMsg = await gemRes.text();
+            console.warn(`[AUTO-UPDATE] Card generation for "${title}" using model ${model} returned non-ok status ${gemRes.status}: ${errMsg}`);
+            continue;
           }
+          const gemData = await gemRes.json();
+          const rawText = gemData?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+          const cleaned = rawText.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim();
+          const card = JSON.parse(cleaned);
+          generatedCards.push(card);
+          console.log(`[AUTO-UPDATE] Successfully generated card for "${title}" using ${model}`);
+          break;
+        } catch(e) {
+          console.warn(`[AUTO-UPDATE] Card generation for "${title}" failed using ${model}:`, e.message);
         }
+      }
+    });
 
-        if (!parsedJson || !Array.isArray(parsedJson) || parsedJson.length === 0) {
-          throw new Error('All Gemini models failed or returned empty data');
+    await Promise.all(cardPromises);
+
+    if (generatedCards.length === 0) {
+      throw new Error('Failed to generate details for any cards');
+    }
+
+    console.log(`[AUTO-UPDATE] Successfully generated ${generatedCards.length} cards.`);
+
+    const dataJsPath = path.join(__dirname, 'data.js');
+    if (fs.existsSync(dataJsPath)) {
+      let content = fs.readFileSync(dataJsPath, 'utf8');
+      const startIdx = content.indexOf('let CURRENT_AFFAIRS_DB =');
+      const endIdx = content.indexOf('const CBT_EXAMS_DATABASE =');
+      if (startIdx !== -1 && endIdx !== -1) {
+        const expr = content.substring(startIdx, endIdx).replace('let CURRENT_AFFAIRS_DB =', '').trim().replace(/;$/, '');
+        let db = eval('(' + expr + ')');
+        const monthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
+        if (!db[monthStr]) db[monthStr] = [];
+        
+        const existingIds = new Set(db[monthStr].map(item => item.id));
+        const existingTopics = new Set(db[monthStr].map(item => item.topic.toLowerCase()));
+        
+        let added = 0;
+        generatedCards.forEach(entry => {
+          if (!existingIds.has(entry.id) && !existingTopics.has(entry.topic.toLowerCase())) {
+            db[monthStr].unshift(entry);
+            added++;
+          }
+        });
+        
+        if (added > 0) {
+          const formattedDb = "let CURRENT_AFFAIRS_DB = " + JSON.stringify(db, null, 2) + ";\n\n";
+          const newContent = content.substring(0, startIdx) + formattedDb + content.substring(endIdx);
+          fs.writeFileSync(dataJsPath, newContent, 'utf8');
+          console.log(`[AUTO-UPDATE] Successfully saved ${added} new entries to data.js on disk.`);
+        } else {
+          console.log("[AUTO-UPDATE] No new unique entries to save.");
         }
+      }
+    }
 
-        dailyNewsCache = { date: today, data: parsedJson };
+    dailyNewsCache = { date: today, data: generatedCards };
+    return generatedCards;
+  } catch (err) {
+    console.error(`[AUTO-UPDATE] Daily current affairs update failed:`, err);
+    throw err;
+  }
+}
+
+const MIME_TYPES = {
+  '.html': 'text/html',
+  '.css': 'text/css',
+  '.js': 'text/javascript',
+  '.json': 'application/json',
+  '.png': 'image/png',
+  '.jpg': 'image/jpeg',
+  '.gif': 'image/gif',
+  '.svg': 'image/svg+xml',
+  '.ico': 'image/x-icon',
+  '.pdf': 'application/pdf'
+};
+
+const server = http.createServer((req, res) => {
+  // CORS Headers for API requests
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  if (req.method === 'OPTIONS') {
+    res.writeHead(200);
+    res.end();
+    return;
+  }
+
+
+  // API Route: Comprehensive Daily Current Affairs (PIB + Google News, all UPSC topics)
+  if (req.url === '/api/daily-current-affairs' && req.method === 'GET') {
+    const today = new Date().toISOString().split('T')[0];
+    
+    if (dailyNewsCache.date === today && dailyNewsCache.data) {
+      console.log(`[PROXY] Serving Daily Current Affairs from cache for ${today}`);
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(dailyNewsCache.data));
+      return;
+    }
+
+    (async () => {
+      try {
+        const parsedJson = await autoUpdateCurrentAffairs();
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify(parsedJson));
-
       } catch(err) {
         console.error('[PROXY] Error in daily-current-affairs:', err);
-        // Serve stale cache if available
         if (dailyNewsCache.data) {
           console.log('[PROXY] Serving stale cached data due to error.');
           res.writeHead(200, { 'Content-Type': 'application/json' });
@@ -733,4 +805,18 @@ server.headersTimeout = 601000;
 
 server.listen(PORT, () => {
   console.log(`Tac-Revise Server running at http://localhost:${PORT}`);
+  
+  // Trigger automated daily current affairs updates
+  console.log("[AUTO-UPDATE] Scheduling first update in 10 seconds...");
+  setTimeout(() => {
+    autoUpdateCurrentAffairs()
+      .then(() => console.log("[AUTO-UPDATE] Startup auto-update completed successfully."))
+      .catch(err => console.error("[AUTO-UPDATE] Startup auto-update failed:", err));
+  }, 10000);
+
+  setInterval(() => {
+    autoUpdateCurrentAffairs()
+      .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update completed successfully."))
+      .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update failed:", err));
+  }, 24 * 60 * 60 * 1000); // every 24 hours
 });
