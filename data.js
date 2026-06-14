@@ -24318,7 +24318,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-1",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock (TAC-REVISE Premium Mock)",
+    "title": "NDA GAT Mock",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -25653,7 +25653,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-1",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock (TAC-REVISE Premium Mock)",
+    "title": "CDS GK Mock",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -26988,7 +26988,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-2",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock Test 2 (TAC-REVISE Premium Mock)",
+    "title": "NDA GAT Mock Test 2",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -28323,7 +28323,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-2",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock Test 2 (TAC-REVISE Premium Mock)",
+    "title": "CDS GK Mock Test 2",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -29658,7 +29658,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-3",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock Test 3 (TAC-REVISE Premium Mock)",
+    "title": "NDA GAT Mock Test 3",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -30993,7 +30993,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-3",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock Test 3 (TAC-REVISE Premium Mock)",
+    "title": "CDS GK Mock Test 3",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -32328,7 +32328,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-4",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock Test 4 (TAC-REVISE Premium Mock)",
+    "title": "NDA GAT Mock Test 4",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -33663,7 +33663,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-4",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock Test 4 (TAC-REVISE Premium Mock)",
+    "title": "CDS GK Mock Test 4",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -34998,7 +34998,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-5",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock Test 5 (TAC-REVISE Premium Mock)",
+    "title": "NDA GAT Mock Test 5",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -36333,7 +36333,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-5",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock Test 5 (TAC-REVISE Premium Mock)",
+    "title": "CDS GK Mock Test 5",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -37668,7 +37668,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-6",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock Test 6 (TAC-REVISE Premium Mock)",
+    "title": "NDA GAT Mock Test 6",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -39003,7 +39003,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-6",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock Test 6 (TAC-REVISE Premium Mock)",
+    "title": "CDS GK Mock Test 6",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
