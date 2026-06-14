@@ -1,0 +1,585 @@
+import re
+
+file_path = r"c:\Users\Trayodh Khandalkar\.gemini\antigravity-ide\scratch\defence-exams-revision\ca_data.js"
+
+with open(file_path, "r", encoding="utf-8") as f:
+    content = f.read()
+
+# Define detailed 10-line significances for all dates
+detailed_data = {
+    "Pravasi Bharatiya Divas": """1. Pravasi Bharatiya Divas is celebrated on 9th January to mark the return of Mahatma Gandhi from South Africa to Ahmedabad in 1915.
+2. Mahatma Gandhi is considered the greatest 'Pravasi' who led India's freedom struggle and changed the course of national history.
+3. The day was established in 2003 under the Prime Ministership of Atal Bihari Vajpayee.
+4. It aims to recognize and honor the contributions of the overseas Indian community (NRIs and PIOs) to the development of India.
+5. In CDS and NDA exams, questions are frequently asked about Mahatma Gandhi's early returns and regional satyagrahas of 1917-18.
+6. The Ministry of External Affairs organizes biennial conventions to foster global networking among the Indian diaspora.
+7. During the event, the prestigious Pravasi Bharatiya Samman Awards are conferred by the President of India.
+8. It highlights India's soft power, global influence, and the strategic role of remittances in the Indian economy.
+9. For defence aspirants, understanding diaspora diplomacy is critical for topics related to international relations and geopolitics.
+10. The event reinforces connections between overseas Indians and their heritage, promoting collaborative growth and investments.""",
+
+    "National Youth Day": """1. National Youth Day is observed on 12th January to commemorate the birth anniversary of Swami Vivekananda.
+2. Swami Vivekananda was a great social reformer, philosopher, and disciple of Sri Ramakrishna Paramahansa.
+3. He famously represented India and Hinduism at the Parliament of the World's Religions in Chicago in 1893.
+4. His teachings emphasize physical strength, moral courage, spiritual growth, and dedication to the motherland.
+5. In defence exams, his quotes and life events are often asked in General Knowledge and English essays.
+6. The day was declared by the Government of India in 1984 and has been celebrated annually since 1985.
+7. It aims to inspire the youth of India to channel their energy towards national development and unity.
+8. Youth festivals, seminars, and speech competitions are organized across schools and colleges nationwide.
+9. Swami Vivekananda's message 'Arise, awake, and stop not till the goal is reached' serves as a beacon for defence aspirants.
+10. The celebration focuses on character-building and fostering leadership qualities among the future leaders of the nation.""",
+
+    "Indian Army Day": """1. Indian Army Day is celebrated on 15th January every year in recognition of Field Marshal K. M. Cariappa.
+2. On this day in 1949, he took over as the first Commander-in-Chief of the Indian Army from General Sir Francis Butcher.
+3. This transition marked the formal transfer of military authority from British command to independent India.
+4. The day honors the supreme sacrifices made by soldiers in protecting the nation's borders, peace, and security.
+5. Defence exams (NDA, CDS, AFCAT) heavily test the history, commands, and gallantry awards of the Indian Armed Forces.
+6. Parades, tactical drills, and exhibitions of advanced weaponry are organized at Delhi Cantonment and other command headquarters.
+7. The Param Vir Chakra, Maha Vir Chakra, and Vir Chakra awards are prominently highlighted on this occasion.
+8. It showcases the operational readiness, modernization, and indigenous weapon integrations of the army.
+9. Aspiring officers learn about the core values of the Indian Army: service before self, honor, and courage under fire.
+10. Tribute is paid to martyrs at the National War Memorial, reminding the nation of the high price of freedom.""",
+
+    "National Voters' Day": """1. National Voters' Day is celebrated on 25th January to mark the foundation day of the Election Commission of India.
+2. The Election Commission of India was established on this day in 1950 as a constitutional body under Article 324.
+3. The day was initiated in 2011 by the Ministry of Law and Justice to increase voter enrollment, especially among the youth.
+4. It aims to raise awareness about the importance of voting and maximizing enrollment in the democratic process.
+5. Polity questions in CDS and NDA exams frequently focus on the Election Commission, voter eligibility, and electoral reforms.
+6. Voters are reminded of their democratic rights and responsibilities, promoting ethical and informed voting.
+7. The National Awards for Best Electoral Practices are presented to state and district-level officers for outstanding poll conduct.
+8. New voters (18+) are handed their Elector Photo Identity Cards (EPIC) at special functions held across the country.
+9. The day reinforces the democratic values of equality, inclusivity, and the power of adult franchise.
+10. Active participation in elections is highlighted as a fundamental pillar of national governance and progress.""",
+
+    "Republic Day": """1. Republic Day is celebrated on 26th January to mark the day when the Constitution of India came into effect in 1950.
+2. Although India gained independence in 1947, it remained a Dominion under the British Crown until the adoption of the Constitution.
+3. The Constituent Assembly, led by Dr. B. R. Ambedkar, drafted the document over a period of 2 years, 11 months, and 17 days.
+4. The date 26th January was chosen to honor the Declaration of Purna Swaraj (Complete Independence) by the INC in 1930.
+5. In defence exams, constitution-making, key amendments, and schedules are major focus areas in the polity section.
+6. The grand parade on Kartavya Path showcases India's military might, cultural diversity, and technological advancements.
+7. The President of India, who is the Supreme Commander of the Armed Forces, takes the salute during the parade.
+8. Gallantry medals (Ashoka Chakra, Kirti Chakra) are awarded to brave soldiers and citizens by the President on this day.
+9. A foreign head of state is traditionally invited as the Chief Guest, reflecting India's diplomatic priorities.
+10. The celebrations conclude with the Beating Retreat ceremony on 29th January, symbolizing the end of Republic Day events.""",
+
+    "Indian Coast Guard Day": """1. Indian Coast Guard Day is celebrated on 1st February to mark the foundation of this maritime law enforcement force.
+2. The Indian Coast Guard (ICG) was formally established on this day in 1977 under the Coast Guard Act, 1978.
+3. It operates under the Ministry of Defence, working in close coordination with the Indian Navy and Fisheries Department.
+4. The ICG is responsible for protecting India's Exclusive Economic Zone (EEZ) and preventing maritime smuggling.
+5. Defence aspirants must study the role of ICG in coastal security, search and rescue (SAR), and marine pollution control.
+6. ICG plays a critical role in preventing illegal fishing, safeguarding offshore assets, and assisting during cyclones.
+7. Over the years, the force has grown to become the fourth largest coast guard in the world with state-of-the-art ships and aircraft.
+8. The day celebrates the professionalism and dedication of the coast guard personnel under the motto 'Vayam Rakshamah' (We Protect).
+9. Special seminars, community outreach programs, and maritime security demonstrations are held on this day.
+10. It highlights the strategic importance of maritime security in the Indian Ocean Region and the security of sea lanes.""",
+
+    "World Wetlands Day": """1. World Wetlands Day is observed on 2nd February to raise global awareness about the vital role of wetlands.
+2. It marks the date of the adoption of the Convention on Wetlands on 2nd February 1971 in the Iranian city of Ramsar.
+3. India became a contracting party to the Ramsar Convention in 1982 and has designated dozens of Ramsar sites.
+4. Wetlands are crucial ecosystems that act as water filters, flood buffers, and hosts to rich biodiversity.
+5. Geography and environment sections in CDS and NDA exams frequently ask about Ramsar sites, wetlands, and ecological conservation.
+6. These habitats are often described as 'Earth's Kidneys' due to their ability to purify water and store carbon.
+7. The day promotes actions for the conservation, restoration, and sustainable management of wetlands worldwide.
+8. Rapid urbanization, pollution, and climate change present major threats to these fragile water bodies.
+9. Special awareness campaigns, bird-watching tours, and clean-up drives are organized at Ramsar sites in India.
+10. Protecting wetlands is essential for global freshwater security, biodiversity preservation, and climate resilience.""",
+
+    "World Radio Day": """1. World Radio Day is celebrated on 13th February to highlight the importance of radio as a medium of communication.
+2. The day was proclaimed by UNESCO in 2011 and adopted by the United Nations General Assembly in 2012.
+3. It commemorates the anniversary of the establishment of United Nations Radio on 13th February 1946.
+4. Radio remains one of the most accessible, low-cost, and far-reaching communication technologies in the world.
+5. In GK sections, history of broadcasting in India (like All India Radio / Akashvani) and communication tech are tested.
+6. Radio plays a vital role during emergencies, natural disasters, and in providing educational broadcasts to remote areas.
+7. It acts as a platform for democratic discourse, promoting freedom of expression and diverse community voices.
+8. In India, public broadcasts like 'Mann Ki Baat' utilize radio to reach millions of citizens in regional languages.
+9. The day encourages broadcasters, community stations, and listeners to cooperate and improve accessibility.
+10. The celebration underscores radio's enduring legacy and its transition into the digital era via podcasts and online streams.""",
+
+    "World Day of Social Justice": """1. World Day of Social Justice is observed on 20th February to promote international efforts in social equality.
+2. It was declared by the United Nations General Assembly in 2007, with the first observance in 2009.
+3. The day focuses on tackling issues like poverty, exclusion, gender inequality, unemployment, and human rights violations.
+4. It emphasizes that social justice is an essential foundation for peaceful and prosperous coexistence within nations.
+5. In NDA/CDS polity and economics, concepts of justice, directive principles, and welfare state structures are highly relevant.
+6. The UN works with member states to create fair trade, decent work opportunities, and social protection floors.
+7. It calls for bridging social gaps, protecting marginalized groups, and ensuring equal access to resources.
+8. In India, constitutional provisions (Articles 14, 15, 38, 39) directly align with the goals of social justice.
+9. Seminars, workshops, and school campaigns are held to educate the public on legal aid and social security rights.
+10. Fostering social justice is presented as critical for global stability, preventing conflict, and sustainable development.""",
+
+    "National Science Day": """1. National Science Day is celebrated on 28th February to mark the discovery of the Raman Effect by Sir C. V. Raman.
+2. He discovered the inelastic scattering of light on this day in 1928, which won him the Nobel Prize in Physics in 1930.
+3. Sir C. V. Raman was the first Indian and Asian to receive a Nobel Prize in any branch of science.
+4. The day was designated by the Government of India in 1986 on the recommendation of the NCSTC.
+5. Science and physics sections in defence exams regularly feature questions on the Raman Effect, scattering, and optics.
+6. The day aims to popularize science, cultivate a scientific temper, and encourage research among the youth of India.
+7. Science exhibitions, quizzes, and laboratory open-houses are organized in schools, colleges, and national labs.
+8. The National Awards for Science Popularization are presented by the President of India on this occasion.
+9. It highlights the role of science and indigenous technologies in achieving national self-reliance (Atmanirbhar Bharat).
+10. The celebration honors the achievements of Indian scientists and inspires future generations to pursue scientific careers.""",
+
+    "World Wildlife Day": """1. World Wildlife Day is celebrated on 3rd March to celebrate and raise awareness of the world's wild fauna and flora.
+2. It marks the day of the adoption of CITES (Convention on International Trade in Endangered Species) in 1973.
+3. The UN General Assembly proclaimed this day in 2013 to protect endangered species from illegal trade.
+4. CITES is a legally binding treaty that ensures international trade does not threaten the survival of wild species.
+5. Geography and environment sections in defence exams regularly test wildlife sanctuaries, national parks, and CITES classifications.
+6. Poaching, habitat destruction, and illegal wildlife trafficking are highlighted as major threats to global biodiversity.
+7. India's efforts, such as Project Tiger, Project Elephant, and Project Cheetah, are showcased on this day.
+8. The day promotes sustainable development goals (SDGs), specifically Goal 15 (Life on Land) and Goal 14 (Life Below Water).
+9. Global campaigns and photography contests are organized to engage citizens in conservation efforts.
+10. Protecting wildlife is presented as essential for ecological balance, forest regeneration, and human survival.""",
+
+    "International Women's Day": """1. International Women's Day is celebrated on 8th March to recognize the achievements and rights of women globally.
+2. The day originated from labor movements in North America and Europe during the early 20th century.
+3. It was officially recognized by the United Nations in 1977, promoting gender equality and women's empowerment.
+4. The day focuses on issues like gender pay gaps, equal opportunities, safety, education, and reproductive rights.
+5. Questions on women's rights, landmark legal cases, and female figures in history appear in NDA/CDS GK papers.
+6. It celebrates the path-breaking contributions of women in politics, science, arts, business, and military services.
+7. In the Indian Armed Forces, the day highlights the growing role of female officers in combat support and command positions.
+8. Various social welfare schemes and awards (like the Nari Shakti Puraskar) are announced or presented on this day.
+9. It calls for concerted action to eliminate violence against women and promote inclusivity in decision-making.
+10. Fostering gender equality is celebrated as key to economic prosperity, peace, and sustainable national progress.""",
+
+    "International Day of Forests": """1. International Day of Forests is observed on 21st March to celebrate and protect all types of forest ecosystems.
+2. It was established by a resolution of the United Nations General Assembly on 28th November 2012.
+3. The day raises awareness about the importance of forests in biodiversity conservation, climate control, and water supply.
+4. Forests cover about 31% of the global land area, acting as critical carbon sinks and supporting millions of livelihoods.
+5. NDA/CDS geography sections test Indian forest reports, types of vegetation, and biosphere reserves.
+6. Deforestation, forest fires, and encroachment are discussed as major threats causing soil erosion and desertification.
+7. Tree-planting campaigns, educational programs, and community forestry workshops are organized globally.
+8. The day highlights the role of tribal communities and indigenous people in preserving forest ecosystems.
+9. Forest conservation is linked to achieving the goals of the Paris Agreement and the UN Decade on Ecosystem Restoration.
+10. Protecting woodlands is emphasized as a necessity to preserve biodiversity and combat global warming.""",
+
+    "World Water Day": """1. World Water Day is held on 22nd March to focus attention on the importance of freshwater and its conservation.
+2. The day was recommended at the 1992 UN Conference on Environment and Development (UNCED) in Rio de Janeiro.
+3. It has been celebrated annually since 1993, advocating for the sustainable management of freshwater resources.
+4. Currently, billions of people worldwide live without access to safe, clean drinking water and sanitation.
+5. In defence exams, water pollution, river basins, dams, and international water treaties are frequently tested topics.
+6. The day supports the achievement of Sustainable Development Goal 6: Water and Sanitation for all by 2030.
+7. It raises awareness about water scarcity, groundwater depletion, and the impact of climate change on water cycles.
+8. In India, programs like the Jal Jeevan Mission and Namami Gange are highlighted during the celebrations.
+9. Public campaigns, school competitions, and water-conservation pledge drives are organized across states.
+10. Efficient water management is projected as vital for food security, energy production, health, and global peace.""",
+
+    "World Meteorological Day": """1. World Meteorological Day is observed on 23rd March to highlight the contribution of meteorology to safety and welfare.
+2. It commemorates the entry into force of the Convention creating the World Meteorological Organization (WMO) in 1950.
+3. The WMO is a specialized agency of the United Nations focusing on weather, climate, and water resources.
+4. The day showcases the critical role of national meteorological and hydrological services in early warning systems.
+5. General Knowledge sections in NDA and CDS cover weather systems, monsoons, cyclones, and atmospheric layers.
+6. Weather forecasting is essential for disaster management, aviation, agriculture, maritime operations, and military planning.
+7. The day raises awareness about climate change, global warming, and the increasing frequency of extreme weather events.
+8. WMO coordinates global data-sharing, research, and weather monitoring across 193 member states and territories.
+9. Seminars, scientific exhibitions, and meteorological awards are organized at research centres on this day.
+10. Accurate climate and weather services are promoted as key to building resilient societies and sustainable economies.""",
+
+    "World Health Day": """1. World Health Day is celebrated on 7th April to draw attention to important global health priorities.
+2. It marks the anniversary of the founding of the World Health Organization (WMO) on 7th April 1948.
+3. The day has been celebrated since 1950, with a unique theme selected each year by the WHO.
+4. It aims to achieve Universal Health Coverage (UHC), ensuring everyone has access to quality healthcare without financial hardship.
+5. In defence exams, common diseases, vaccines, biology questions, and WHO programs are regular topics of testing.
+6. It focuses on addressing global health challenges like pandemics, mental health, sanitation, and clean water access.
+7. Health promotion campaigns, medical camps, and wellness webinars are organized by governments and NGOs.
+8. The day highlights the critical role of doctors, nurses, and healthcare workers in community welfare.
+9. In India, health initiatives like Ayushman Bharat are promoted to strengthen rural and urban healthcare structures.
+10. Investing in public health systems is emphasized as crucial for national security, economic stability, and human development.""",
+
+    "Civil Services Day": """1. Civil Services Day is celebrated on 21st April to appreciate the work of civil servants and renew their dedication.
+2. On this day in 1947, Sardar Vallabhbhai Patel addressed the first batch of Indian Administrative Service officers.
+3. He famously referred to civil servants as the 'Steel Frame of India' during his address at Metcalf House, Delhi.
+4. The first official celebration of Civil Services Day was organized in Vigyan Bhawan in 2006.
+5. Polity sections in CDS and NDA exams cover civil services, UPSC constitutional provisions (Articles 308-323), and reforms.
+6. The day is used by officers to introspect, discuss administrative reforms, and share best practices in governance.
+7. The Prime Minister's Awards for Excellence in Public Administration are presented to districts and central units.
+8. It promotes transparency, efficiency, citizen-centric administration, and reaching the last mile of development.
+9. Civil servants are encouraged to work with dedication to achieve the vision of a developed India (Viksit Bharat).
+10. The event underscores the critical role of administration in implementing government welfare schemes and maintaining order.""",
+
+    "World Earth Day": """1. World Earth Day is celebrated on 22nd April to demonstrate support for environmental protection.
+2. The first Earth Day was organized in 1970 in the United States by Senator Gaylord Nelson, engaging 20 million citizens.
+3. It led to the creation of the US Environmental Protection Agency and the passage of landmark environmental laws.
+4. Today, Earth Day is coordinated globally by the Earth Day Network, involving over 190 countries.
+5. Geography and ecology questions in NDA/CDS cover global warming, pollution, carbon footprint, and conservation treaties.
+6. The day raises awareness about deforestation, plastic pollution, climate change, and biodiversity loss.
+7. Tree-planting drives, clean-up campaigns, and eco-friendly workshops are organized by communities worldwide.
+8. It advocates for transitioning to renewable energy, reducing waste, and adopting sustainable lifestyles.
+9. Global accords, like the Paris Agreement on climate change, are frequently signed or highlighted on this day.
+10. Protecting the planet is presented as a collective responsibility to secure a healthy future for coming generations.""",
+
+    "World Press Freedom Day": """1. World Press Freedom Day is observed on 3rd May to celebrate the fundamental principles of press freedom.
+2. It was proclaimed by the United Nations General Assembly in 1993, following a recommendation from UNESCO.
+3. The day commemorates the anniversary of the Declaration of Windhoek, a statement of free press principles.
+4. It serves as an occasion to inform citizens of violations of press freedom and remind them of the right to expression.
+5. CDS and NDA polity sections cover Article 19(1)(a) of the Constitution, which guarantees the freedom of speech and expression.
+6. The day pays tribute to journalists who have lost their lives in the line of duty, reporting from conflict zones.
+7. The UNESCO/Guillermo Cano World Press Freedom Prize is awarded to individuals or organizations defending media freedom.
+8. It highlights the role of independent journalism in exposing corruption, holding power accountable, and upholding democracy.
+9. Censorship, media ownership, fake news, and safety of journalists are key topics of discussion on this day.
+10. A free and independent press is celebrated as a cornerstone of transparent, democratic, and just societies.""",
+
+    "World Red Cross Day": """1. World Red Cross Day is celebrated on 8th May to honor the humanitarian work of the Red Cross and Red Crescent.
+2. It marks the birth anniversary of Henry Dunant, the founder of the International Committee of the Red Cross (ICRC).
+3. Henry Dunant was the recipient of the first-ever Nobel Peace Prize in 1901 for his humanitarian efforts.
+4. The Red Cross provides assistance during armed conflicts, natural disasters, epidemics, and health emergencies.
+5. General Knowledge sections cover the history of international humanitarian law, Geneva Conventions, and world bodies.
+6. The movement operates under seven fundamental principles: humanity, impartiality, neutrality, independence, voluntary service, unity, and universality.
+7. Blood donation drives, first-aid training, and disaster response drills are organized by national societies.
+8. In India, the Indian Red Cross Society (established in 1920) coordinates health and relief services.
+9. The day recognizes the selfless service of millions of volunteers worldwide who assist vulnerable communities.
+10. It promotes international solidarity, peace, and the alleviation of human suffering without discrimination.""",
+
+    "National Technology Day": """1. National Technology Day is celebrated on 11th May to mark India's technological advancements and scientific achievements.
+2. On this day in 1998, India successfully conducted the Pokhran-II nuclear tests (Operation Shakti) in Rajasthan.
+3. The tests were led by scientific advisor Dr. A. P. J. Abdul Kalam and Prime Minister Atal Bihari Vajpayee.
+4. It also marks the flight of the first indigenous aircraft, Hansa-3, and the successful test firing of the Trishul missile.
+5. In defence exams, India's missile programs (IGMDP), nuclear doctrine, and defense technologies are major testing areas.
+6. The day was officially declared by Prime Minister Atal Bihari Vajpayee in 1998 to promote scientific temper.
+7. The Ministry of Science and Technology presents national awards to companies and technology innovators.
+8. Science exhibitions, lectures, and technology hackathons are organized in academic and research institutions.
+9. It highlights the role of technology in national security, self-reliance, and socio-economic development.
+10. The celebration inspires students to pursue science and technology careers, contributing to national innovation.""",
+
+    "Anti-Terrorism Day": """1. Anti-Terrorism Day is observed on 21st May to spread the message of peace, harmony, and humanity.
+2. It marks the death anniversary of former Prime Minister Rajiv Gandhi, who was assassinated on this day in 1991.
+3. He was assassinated during an election rally in Sriperumbudur, Tamil Nadu, by an LTTE suicide bomber.
+4. The day was officially designated by the government to raise awareness about the devastating impact of terrorism.
+5. Security agencies, counter-terror operations (like Operation Blue Star), and national security laws are tested in exams.
+6. Public offices, schools, and colleges take an anti-terrorism pledge to oppose all forms of violence and extremism.
+7. Special seminars and discussions on national security, intelligence sharing, and border protection are organized.
+8. It honors the sacrifices of police, paramilitary, and military personnel who lost their lives fighting terror.
+9. The day highlights the need for international cooperation to combat global terror networks and funding.
+10. Promoting national integration and unity is emphasized as the strongest shield against divisive and extremist forces.""",
+
+    "International Day for Biological Diversity": """1. International Day for Biological Diversity is celebrated on 22nd May to promote biodiversity conservation.
+2. The day was created by the Second Committee of the UN General Assembly on 29th December 1993.
+3. In 2000, the date was shifted to 22nd May to commemorate the adoption of the Convention on Biological Diversity (CBD) in 1992.
+4. The CBD is a multilateral treaty aimed at conserving biodiversity, sustainable use, and equitable benefit sharing.
+5. Environmental protocols (Cartagena, Nagoya), biodiversity hotspots, and Indian wildlife acts are tested in NDA/CDS.
+6. Biodiversity is crucial for ecosystem services, food security, medicine, agriculture, and economic stability.
+7. Habitat loss, invasive species, overexploitation, and pollution are highlighted as major drivers of biodiversity decline.
+8. Educational campaigns, forest walks, and species-monitoring projects are conducted by environment departments.
+9. India's Biological Diversity Act, 2002, and the role of National Biodiversity Authority (NBA) are showcased on this day.
+10. Conserving biodiversity is presented as vital for climate adaptation and maintaining global ecological balance.""",
+
+    "International Day of UN Peacekeepers": """1. International Day of UN Peacekeepers is observed on 29th May to honor the service and sacrifice of peacekeepers.
+2. It marks the day when the first UN peacekeeping mission, 'UN Truce Supervision Organization' (UNTSO), began operations in 1948.
+3. The day was established by a UN General Assembly resolution in 2002 to recognize the contribution of peacekeepers.
+4. UN peacekeepers (referred to as Blue Helmets) work in volatile regions to maintain peace, protect civilians, and support political transitions.
+5. Defence exams cover UN bodies, peacekeeping operations, and India's leading role as a troop contributor.
+6. India has historically been one of the largest contributors of military and police personnel to UN missions.
+7. The Dag Hammarskjöld Medal is posthumously awarded to peacekeepers who lost their lives in the line of duty.
+8. The day highlights the challenges of modern peacekeeping, including asymmetrical warfare, local politics, and funding shortages.
+9. Commemorative events and parades are held at UN Headquarters in New York and national military establishments.
+10. India's contribution of the first-ever all-female police unit to a UN mission (Liberia, 2007) is highly celebrated.""",
+
+    "World Environment Day": """1. World Environment Day is celebrated on 5th June to inspire global action for the protection of nature.
+2. It was established by the United Nations General Assembly in 1972 at the Stockholm Conference on the Human Environment.
+3. The first World Environment Day was celebrated in 1974 with the slogan 'Only One Earth'.
+4. It is hosted by a different country each year, which coordinates the official celebrations and selects the theme.
+5. Ecology and geography sections in NDA/CDS cover global summits, carbon credits, and environmental indicators.
+6. The day focuses on tackling major environmental crises like climate change, marine pollution, and wildlife crime.
+7. Tree-planting drives, plastic collection campaigns, and community workshops are organized globally.
+8. It urges governments, industries, and individuals to adopt sustainable green practices and reduce carbon emissions.
+9. In India, policy initiatives like LiFE (Lifestyle for Environment) are promoted to encourage eco-friendly habits.
+10. Restoring ecosystems and conserving resources are presented as essential to ensure a sustainable future.""",
+
+    "International Yoga Day": """1. International Yoga Day is observed on 21st June to promote the global practice of Yoga and its health benefits.
+2. The resolution to establish the day was proposed by PM Narendra Modi at the UN General Assembly in September 2014.
+3. The resolution was adopted with an overwhelming majority, co-sponsored by a record 175 member nations.
+4. The date 21st June was chosen because it is the Summer Solstice, the longest day of the year in the Northern Hemisphere.
+5. General Knowledge sections test the origin of Yoga, classic Indian philosophies, and national health initiatives.
+6. Yoga is recognized as an ancient physical, mental, and spiritual practice that originated in India.
+7. Mass Yoga demonstrations led by the Prime Minister are held at historical and public venues across India.
+8. The World Health Organization (WHO) has integrated Yoga into its global health and wellness strategies.
+9. The day promotes the message of harmony, mindfulness, stress reduction, and holistic physical well-being.
+10. It showcases India's rich cultural heritage, soft power, and contribution to global preventive healthcare.""",
+
+    "National Statistics Day": """1. National Statistics Day is celebrated on 29th June to recognize the importance of statistics in planning and development.
+2. It commemorates the birth anniversary of Professor Prasanta Chandra Mahalanobis, the father of modern Indian statistics.
+3. He founded the Indian Statistical Institute (ISI) in Kolkata in 1931 and established the National Sample Survey.
+4. Prof. Mahalanobis designed the second five-year plan of India, which focused on rapid industrialization and heavy industries.
+5. Economics sections in defence exams cover Five-Year Plans, planning commission history, and national income data.
+6. The day was designated by the Government of India in 2007 to popularize statistics among the public and policymakers.
+7. National awards in official statistics are presented to outstanding researchers and statistical officers.
+8. Seminars and panel discussions are organized by the Ministry of Statistics and Programme Implementation (MoSPI).
+9. It highlights the role of reliable data in formulating national policies, monitoring development, and tracking SDGs.
+10. Statistical methods are shown as essential tools for economic planning, census operations, and administrative decision-making.""",
+
+    "World Population Day": """1. World Population Day is observed on 11th July to focus attention on the urgency and importance of population issues.
+2. The day was established by the Governing Council of the United Nations Development Programme (UNDP) in 1989.
+3. It was inspired by the public interest in 'Five Billion Day' on 11th July 1987, the approximate date when the world's population reached 5 billion.
+4. The day raises awareness about family planning, gender equality, maternal health, and human rights.
+5. Geography and demographics questions in NDA/CDS focus on population density, sex ratio, census data, and demographic transition.
+6. It addresses the challenges of rapid population growth, resource depletion, and aging demographics in developed nations.
+7. Seminars, educational programs, and public debates on reproductive health and resource management are held.
+8. Governments use the day to review national population policies, healthcare access, and social welfare programs.
+9. The day highlights the empowerment of women and girls as key to unlocking demographic dividends.
+10. Balancing population growth with sustainable development is presented as critical for global peace and prosperity.""",
+
+    "Kargil Vijay Diwas": """1. Kargil Vijay Diwas is celebrated on 26th July to commemorate India's victory in the Kargil War of 1999.
+2. On this day, the Indian Armed Forces successfully recaptured the high outposts in Jammu and Kashmir that had been infiltrated by Pakistani forces.
+3. The military operation launched to evict the infiltrators was codenamed Operation Vijay.
+4. The war was fought at extremely high altitudes in freezing temperatures, displaying extraordinary military tactical skills.
+5. In defence exams, Kargil war history, key peaks (Tiger Hill, Tololing), gallantry award winners, and weapons are tested.
+6. The day honors the supreme sacrifice of 527 Indian soldiers who lost their lives during the two-month conflict.
+7. A grand memorial service is held at the Kargil War Memorial in Drass, attended by the military leadership.
+8. Iconic heroes like Captain Vikram Batra, Lieutenant Manoj Kumar Pandey, and Major Rajesh Adhikari are remembered.
+9. It highlights the importance of mountain warfare capabilities, military intelligence, and tri-service coordination.
+10. The celebrations include lighting of the Kargil Victory Flame and laying wreaths to pay tribute to the martyrs.""",
+
+    "Independence Day": """1. Independence Day is celebrated on 15th August to mark India's freedom from British colonial rule in 1947.
+2. The Indian Independence Act, passed by the UK Parliament in 1947, transferred legislative sovereignty to the Indian Constituent Assembly.
+3. The day marks the partition of British India into two independent dominions: India and Pakistan.
+4. On 15th August 1947, Prime Minister Jawaharlal Nehru raised the Indian national flag above the Lahori Gate of the Red Fort in Delhi.
+5. History sections in NDA/CDS cover the Indian national movement, partition history, and major viceroys.
+6. The Prime Minister delivers a speech from the ramparts of the Red Fort, summarizing national achievements and future goals.
+7. The national flag is hoisted across schools, offices, and residential communities, accompanied by national anthem singing.
+8. Armed forces organize parades, guard of honor ceremonies, and showcase advanced combat platforms.
+9. It honors the struggle and sacrifices of freedom fighters like Mahatma Gandhi, Subhas Chandra Bose, and Bhagat Singh.
+10. The day promotes national unity, patriotic pride, and dedication to the progress of the sovereign republic.""",
+
+    "National Sports Day": """1. National Sports Day is celebrated on 29th August to honor the legacy of hockey legend Major Dhyan Chand.
+2. It marks the birth anniversary of Major Dhyan Chand, who won gold medals for India in the 1928, 1932, and 1936 Olympics.
+3. Known as the 'Wizard of Hockey', his exceptional ball control and stickwork remain legendary worldwide.
+4. The day was designated by the Government of India in 2012 to promote sports and physical fitness.
+5. GK sections in defence exams cover sports trophies, major tournaments, Olympic achievements, and sports personalities.
+6. The President of India presents national sports awards (Major Dhyan Chand Khel Ratna, Arjuna Award, Dronacharya Award) on this day.
+7. Fitness campaigns, sports tournaments, and athletic meets are organized in schools and colleges nationwide.
+8. It highlights the role of sports in character-building, team spirit, national integration, and international prestige.
+9. In the military, sports participation is encouraged to maintain high physical fitness, combat readiness, and morale.
+10. The day inspires the youth to pursue active lifestyles and represent the nation in global sports platforms.""",
+
+    "National Teachers' Day": """1. National Teachers' Day is celebrated on 5th September to honor the contribution of teachers in nation-building.
+2. It commemorates the birth anniversary of Dr. Sarvepalli Radhakrishnan, India's second President and first Vice-President.
+3. Dr. Radhakrishnan was a highly respected philosopher, educationist, diplomat, and recipient of the Bharat Ratna.
+4. The celebration began in 1962 when his students requested to celebrate his birthday, and he suggested honoring teachers instead.
+5. In defence exams, the roles, history, and constitutional provisions related to education (Article 21A, Right to Education) are tested.
+6. The President of India presents the National Awards to Teachers to primary, secondary, and higher secondary educators.
+7. Students organize cultural performances, self-governance days, and express gratitude to their teachers.
+8. It highlights the role of educators in shaping values, knowledge, and career paths of future citizens.
+9. The day emphasizes the need to reform educational standards, support teachers, and ensure inclusive learning.
+10. Celebrating teachers is presented as vital for social progress, scientific advancement, and national development.""",
+
+    "International Literacy Day": """1. International Literacy Day is observed on 8th September to highlight literacy as a matter of dignity and human rights.
+2. The day was proclaimed by UNESCO on 14th October 1966 at the 14th session of UNESCO's General Conference.
+3. It has been celebrated annually since 1967 to advance the literacy agenda towards a more literate society.
+4. Despite progress, millions of youth and adults worldwide still lack basic reading, writing, and numeracy skills.
+5. General Knowledge sections test literacy rates in India (from the 2011 census), education policies, and demographics.
+6. Literacy is key to eradicating poverty, reducing child mortality, achieving gender equality, and ensuring sustainable development.
+7. Educational workshops, book distribution drives, and adult literacy classes are organized globally.
+8. The UNESCO International Literacy Prizes are awarded to outstanding projects combating illiteracy on this day.
+9. In India, programs like Saakshar Bharat and the National Literacy Mission are highlighted during the events.
+10. Fostering literacy is celebrated as the foundation for peace, community development, and economic growth.""",
+
+    "Engineers' Day": """1. Engineers' Day is celebrated on 15th September to mark the contributions of engineers to national infrastructure and growth.
+2. It commemorates the birth anniversary of Sir Mokshagundam Visvesvaraya, a pioneer in Indian engineering.
+3. Sir M. Visvesvaraya was a civil engineer, statesman, and the 19th Diwan of Mysore, receiving the Bharat Ratna in 1955.
+4. He designed the Krishna Raja Sagara Dam in Mysore and developed automatic floodgates at Khadakwasla Reservoir, Pune.
+5. Questions in exams cover scientific breakthroughs, dam projects, national engineering organizations, and tech developments.
+6. The day is celebrated across engineering institutions, research labs, and public works departments in India.
+7. Seminars, project exhibitions, and innovation hackathons are organized to showcase engineering solutions.
+8. It highlights the role of engineers in building transport networks, clean energy grids, digital systems, and space technology.
+9. In the military, the Corps of Engineers plays a vital role in combat support, bridge building, and border road construction.
+10. The celebration inspires students to pursue engineering disciplines to solve national challenges and promote industrialization.""",
+
+    "International Ozone Day": """1. International Ozone Day is observed on 16th September to raise awareness about the protection of the Ozone Layer.
+2. It commemorates the date of the signing of the Montreal Protocol on Substances that Deplete the Ozone Layer in 1987.
+3. The day was designated by the United Nations General Assembly in 1994 to promote global environmental protection.
+4. The Montreal Protocol is widely recognized as one of the most successful international environmental treaties.
+5. In science and geography sections, the ozone layer, UV radiation, CFCs, and atmospheric layers are highly tested.
+6. The ozone layer in the Stratosphere protects the Earth from harmful ultraviolet (UV) rays of the sun.
+7. The day advocates for phasing out ozone-depleting substances, such as chlorofluorocarbons (CFCs) and halons.
+8. The Kigali Amendment to the Montreal Protocol is highlighted, focusing on reducing hydrofluorocarbons (HFCs).
+9. Environmental seminars, science quiz competitions, and clean-tech campaigns are organized on this day.
+10. Protecting the ozone layer is presented as essential for preventing skin cancer, cataracts, and agricultural damage.""",
+
+    "International Day of Peace": """1. International Day of Peace is held on 21st September to strengthen the ideals of peace both within and among all nations.
+2. The day was established in 1981 by a resolution of the United Nations General Assembly.
+3. In 2001, the General Assembly voted to designate the day as a period of non-violence and cease-fire globally.
+4. The United Nations invites all nations and people to honor a cessation of hostilities and observe peace education.
+5. GK sections cover UN agencies, historical peace treaties, disarmament summits, and global security organizations.
+6. The Peace Bell is rung at UN Headquarters in New York to inaugurate the events of the day.
+7. It addresses the root causes of conflict, promoting social justice, human rights, and sustainable development.
+8. Peace education, interfaith dialogues, and international cooperation forums are organized worldwide.
+9. In India, the principles of non-violence (Ahimsa) pioneered by Mahatma Gandhi are highlighted on this day.
+10. Fostering global peace is presented as a prerequisite for human progress and achieving the Sustainable Development Goals.""",
+
+    "World Tourism Day": """1. World Tourism Day is celebrated on 27th September to foster awareness of the social and economic value of tourism.
+2. It marks the anniversary of the adoption of the Statutes of the World Tourism Organization (UNWTO) in 1970.
+3. The UNWTO established the day in 1980 to promote sustainable, accessible, and responsible global travel.
+4. Tourism is a major driver of economic growth, generating millions of jobs and promoting cultural exchange.
+5. Geography and economy sections cover historical monuments, UNESCO world heritage sites, and tourism statistics.
+6. The day highlights the need to minimize the environmental impact of tourism and preserve local cultures.
+7. Heritage walks, cultural festivals, and travel exhibitions are organized by tourism departments across states.
+8. It encourages the development of eco-tourism, rural tourism, and adventure sports infrastructure.
+9. In India, campaigns like 'Incredible India' and the promotion of heritage corridors are showcased.
+10. Responsible travel is presented as a bridge to peace, cultural understanding, and global community building.""",
+
+    "Indian Air Force Day": """1. Indian Air Force Day is celebrated on 8th October to commemorate the official establishment of the force.
+2. The Indian Air Force (IAF) was established on 8th October 1932 as an auxiliary air force of the British Empire.
+3. It was prefix-designated 'Royal' in 1945 in recognition of its services during World War II, dropping it in 1950.
+4. The IAF is the fourth largest air force in the world, responsible for securing Indian airspace and conducting aerial warfare.
+5. In defence exams, IAF command structure, fighter squadrons, missile integrations, and operations (like Operation Meghdoot) are tested.
+6. A grand parade and air show are organized at Hindon Air Force Station or selected national venues.
+7. Advanced aircraft, including Rafale, Su-30MKI, Tejas, and Apache helicopters, showcase aerial acrobatics.
+8. The day honors the bravery and professionalism of the air warriors under the motto 'Nabhah Sprisham Diptam' (Touch the Sky with Glory).
+9. Tribute is paid to the pioneers of the IAF, such as Air Marshal Subroto Mukerjee, the first Chief of the Air Staff.
+10. It highlights IAF's humanitarian assistance and disaster relief (HADR) operations in domestic and international crises.""",
+
+    "World Food Day": """1. World Food Day is observed on 16th October to raise awareness about global hunger and promote food security.
+2. It commemorates the founding anniversary of the Food and Agriculture Organization (FAO) of the United Nations in 1945.
+3. The day was established by FAO member countries at the organization's 20th General Conference in November 1979.
+4. Currently, millions of people worldwide suffer from chronic malnutrition, food insecurity, and hunger.
+5. Exams regularly cover agriculture, food security index, biotechnology in crops, and international food bodies (WFP, IFAD).
+6. The day supports Sustainable Development Goal 2 (Zero Hunger) by promoting sustainable agricultural practices.
+7. It calls for international action to reduce food waste, improve supply chains, and combat soil degradation.
+8. Food distribution campaigns, agricultural seminars, and nutrition workshops are organized by governments and NGOs.
+9. In India, national schemes like the National Food Security Act (NFSA) and PDS are highlighted during the events.
+10. Ensuring food security is presented as essential for public health, economic stability, and international security.""",
+
+    "United Nations Day": """1. United Nations Day is celebrated on 24th October to mark the anniversary of the entry into force of the UN Charter.
+2. On 24th October 1945, the UN Charter was ratified by the P5 and a majority of other signatory nations.
+3. The United Nations was established in the aftermath of World War II to prevent future global conflicts.
+4. The day has been celebrated since 1948, promoting the ideals of international peace, justice, and human rights.
+5. NDA/CDS GK sections regularly feature questions on UN organs (Security Council, ICJ, General Assembly) and protocols.
+6. The UN works across six official languages to coordinate global diplomacy, development, and humanitarian aid.
+7. Concerts, flag-hoisting ceremonies, and debates on global security are organized at UN offices and schools worldwide.
+8. It addresses modern challenges like climate change, poverty eradication, disarmament, and refugee protection.
+9. India was one of the founding members of the UN, signing the declaration in San Francisco in 1945.
+10. The day reinforces the collective commitment of 193 member states to the principles of multilateral diplomacy.""",
+
+    "National Unity Day": """1. National Unity Day (Rashtriya Ekta Diwas) is celebrated on 31st October to mark the birth anniversary of Sardar Vallabhbhai Patel.
+2. Sardar Patel was the first Deputy Prime Minister and Home Minister of independent India, serving from 1947 to 1950.
+3. He is known as the 'Iron Man of India' and the 'Patron Saint of India's Civil Servants' for his administrative leadership.
+4. He played a historic role in the integration of 562 princely states into the Indian Union after independence.
+5. History and polity sections test the integration of Hyderabad (Operation Polo), Junagadh, and Jammu & Kashmir.
+6. The day was introduced by the Government of India in 2014 to foster national integration, unity, and security.
+7. The 'Run for Unity' marathon is organized in cities, towns, and villages across the country.
+8. Police forces and paramilitary units hold march pasts and take the National Unity Pledge on this day.
+9. The Statue of Unity, the world's tallest statue (182 m) built in Gujarat, is the central venue of celebrations.
+10. The day honors Patel's vision, courage, and dedication in creating a united and strong sovereign nation.""",
+
+    "World Science Day for Peace and Development": """1. World Science Day for Peace and Development is celebrated on 10th November to highlight the role of science in society.
+2. The day was proclaimed by UNESCO in 2001 and has been celebrated globally since 2002.
+3. It aims to ensure that citizens are kept informed of scientific developments and the role of research.
+4. The day underscores the importance of science in solving global challenges and building sustainable peace.
+5. Science, technology policies, and international research agreements (like CERN, ITER) are tested in exams.
+6. It promotes national and international solidarity for shared science between countries to bridge tech gaps.
+7. Science exhibitions, open-house labs, and school contests are organized by scientific departments on this day.
+8. The UNESCO Kalinga Prize for the Popularization of Science is presented during the celebrations.
+9. It connects scientific discoveries to daily life, focusing on health, climate change, and resource management.
+10. Fostering scientific research is presented as critical for national development, education, and global cooperation.""",
+
+    "World Toilet Day": """1. World Toilet Day is observed on 19th November to inspire action to tackle the global sanitation crisis.
+2. The day was established by the World Toilet Organization in 2001 and officially declared by the UN in 2013.
+3. It aims to achieve Sustainable Development Goal 6, which calls for sanitation for all and ending open defecation.
+4. Currently, billions of people live without safely managed sanitation, causing severe health and environmental risks.
+5. NDA/CDS General Studies sections cover hygiene, waterborne diseases, public health policies, and environmental sanitation.
+6. Inadequate sanitation leads to the spread of diseases like cholera, typhoid, and dysentery, impacting rural health.
+7. In India, the Swachh Bharat Mission (launched in 2014) is highlighted for its role in constructing toilets.
+8. The day promotes the safety and dignity of women, who are disproportionately affected by the lack of private toilets.
+9. Seminars, hygiene awareness drives, and sanitation policy reviews are conducted by health departments.
+10. Safe sanitation systems are celebrated as essential for child survival, public health, and human dignity.""",
+
+    "Constitution Day": """1. Constitution Day (Samvidhan Divas) is celebrated on 26th November to commemorate the adoption of the Constitution.
+2. On 26th November 1949, the Constituent Assembly of India formally adopted the Constitution, which came into force in 1950.
+3. The day was declared by the government in 2015 to honor Dr. B. R. Ambedkar, the father of the Indian Constitution.
+4. Previously, the day was celebrated as National Law Day following a resolution by the Supreme Court Bar Association.
+5. Constitutional features, fundamental rights, preamble, directive principles, and amendments are heavily tested.
+6. The Preamble to the Constitution is read aloud in schools, colleges, and public offices across the country.
+7. Special sessions of Parliament and state assemblies are held to discuss constitutional values and democracy.
+8. Lectures, quizzes, and essay competitions on the Constitution are organized to educate citizens on their rights.
+9. It honors the contributions of the members of the Constituent Assembly, including Rajendra Prasad and Nehru.
+10. The celebration reinforces the democratic principles of justice, liberty, equality, and fraternity in India.""",
+
+    "World AIDS Day": """1. World AIDS Day is celebrated on 1st December to raise awareness about the fight against HIV/AIDS.
+2. The day was first conceived in August 1987 by James W. Bunn and Thomas Netter, public information officers for the WHO.
+3. It has been observed annually since 1988, becoming the first-ever global health day in history.
+4. The day aims to support people living with HIV, honor those who have died, and promote prevention research.
+5. In biology and science sections, HIV virus structure, transmission modes, diagnostics (ELISA), and drugs are covered.
+6. It addresses the social stigma and discrimination faced by individuals living with HIV, promoting human rights.
+7. Health clinics, red-ribbon campaigns, and free testing drives are organized by health agencies.
+8. The National AIDS Control Organisation (NACO) in India coordinates awareness, prevention, and treatment.
+9. The day urges increased funding, access to life-saving antiretroviral therapy (ART), and medical research.
+10. Global solidarity is highlighted as crucial to ending the AIDS epidemic as a public health threat by 2030.""",
+
+    "Indian Navy Day": """1. Indian Navy Day is celebrated on 4th December to recognize the achievements and role of the maritime force.
+2. It commemorates the success of Operation Trident, a highly successful attack on Karachi harbor during the 1971 Indo-Pak war.
+3. Operation Trident involved the first use of anti-ship missiles in the region, causing severe damage to Pakistani naval assets.
+4. The Indian Navy is responsible for securing India's maritime borders, EEZ, and strategic interests in the Indian Ocean.
+5. NDA/CDS exams regularly cover naval commands, missile destroyers, aircraft carriers (Vikrant, Vikramaditya), and sub-surface fleets.
+6. Grand celebrations and naval demonstrations are held at Gateway of India, Mumbai, and naval command bases.
+7. Elite Marine Commandos (MARCOS) display search-and-rescue, tactical boarding, and helicopter operations.
+8. The day pays tribute to naval martyrs and honors officers under the motto 'Sam No Varunah' (May the Lord of Water be auspicious unto us).
+9. It showcases the navy's growing capabilities in blue-water operations, anti-piracy, and humanitarian assistance.
+10. The role of the Navy in Indo-Pacific security and defending sea lanes of communication is highly emphasized.""",
+
+    "Armed Forces Flag Day": """1. Armed Forces Flag Day is observed on 7th December to honor the martyrs and soldiers in uniform.
+2. The day has been observed annually since 1949, designated by the Ministry of Defence committee.
+3. It aims to collect funds from citizens for the welfare of service personnel, veterans, and their families.
+4. The collected funds are managed by the Kendriya Sainik Board under the Armed Forces Flag Day Fund.
+5. Exams cover armed forces welfare schemes, Sainik Boards, rehabilitation programs, and the Ministry of Defence.
+6. Small flags in red, deep blue, and light blue (representing Army, Navy, Air Force) are distributed for donations.
+7. The day raises public awareness about the sacrifices made by soldiers in defending the nation's borders.
+8. Funds are utilized for the rehabilitation of war widows, disabled soldiers, and medical care of veterans.
+9. Commemorative events, band performances, and donation drives are organized by state Sainik Boards.
+10. Citizens are encouraged to contribute generously, expressing solidarity and gratitude to the armed forces.""",
+
+    "Human Rights Day": """1. Human Rights Day is observed on 10th December to advocate for the rights of all people globally.
+2. It commemorates the date when the United Nations General Assembly adopted the Universal Declaration of Human Rights (UDHR) in 1948.
+3. The UDHR is a milestone document that proclaims the inalienable rights which everyone is inherently entitled to.
+4. The day was officially established in 1950, following a UN General Assembly resolution inviting all states to celebrate it.
+5. NDA/CDS exams cover the UDHR, national and state human rights commissions (NHRC), and fundamental rights.
+6. The UDHR is the most translated document in the world, available in over 500 languages.
+7. Human rights conferences, award ceremonies, and photo exhibitions are held at UN centres and cities.
+8. It addresses modern challenges like discrimination, poverty, inequality, and human rights in conflict zones.
+9. In India, the Protection of Human Rights Act, 1993, establishes the statutory framework for human rights protection.
+10. Defending human rights is presented as essential for democracy, rule of law, and sustainable global peace.""",
+
+    "Vijay Diwas": """1. Vijay Diwas (Victory Day) is celebrated on 16th December to mark India's victory over Pakistan in the 1971 war.
+2. On this day, the Chief of Pakistani Forces, General A. A. K. Niazi, surrendered to the Indian Army and Mukti Bahini.
+3. Over 93,000 Pakistani soldiers surrendered, marking the largest military surrender in the world since World War II.
+4. The war lasted for 13 days and resulted in the liberation of East Pakistan, leading to the creation of Bangladesh.
+5. History sections in NDA/CDS cover the 1971 war, Shimla Agreement (1972), and heroes like Field Marshal Sam Manekshaw.
+6. The main ceremony is held at the National War Memorial in New Delhi, where the military leadership pays tribute.
+7. The Param Vir Chakra was awarded to Lance Naik Albert Ekka, Flying Officer Nirmal Jit Singh Sekhon, and others for their role.
+8. Joint celebrations are held by India and Bangladesh, highlighting their shared historical ties and strategic cooperation.
+9. It showcases the military planning, intelligence success, and jointmanship displayed by the Indian Armed Forces.
+10. The day celebrates the triumph of justice, human rights, and military professional excellence over oppression.""",
+
+    "National Farmers' Day": """1. National Farmers' Day (Kisan Diwas) is celebrated on 23rd December to recognize the contributions of farmers.
+2. It commemorates the birth anniversary of Chaudhary Charan Singh, the fifth Prime Minister of India.
+3. Chaudhary Charan Singh was a champion of peasant rights, introducing land reform acts and debt redemption bills.
+4. The day was established by the Government of India in 2001 to honor his dedication to the farming community.
+5. Economics and geography sections cover Indian agriculture, major crops, soil types, and farming welfare schemes.
+6. It raises awareness about the issues faced by farmers, such as climate change, water scarcity, and fair pricing.
+7. Agricultural seminars, exhibition of modern machinery, and workshops on organic farming are organized.
+8. The day highlights the role of farmers as the backbone of the Indian economy and food security system.
+9. In the military, the slogan 'Jai Jawan Jai Kisan' (coined by Lal Bahadur Shastri) is celebrated to honor both sectors.
+10. Promoting sustainable farming practices and digital technologies is emphasized to improve agricultural productivity."""
+}
+
+# Add detailedSignificance to each date in window.CA_DATES_DATA
+pattern = r"window\.CA_DATES_DATA = \[(.*?)\];"
+matches = re.search(pattern, content, re.DOTALL)
+if matches:
+    dates_block = matches.group(1)
+    
+    # Parse items in CA_DATES_DATA
+    for name, detailed in detailed_data.items():
+        # Escape the detailed text for JS string
+        escaped_detailed = detailed.replace('"', '\\"').replace('\n', '\\n')
+        
+        # Match from `name: "Name"` to the closing `}` at the end of the line
+        sub_pattern = rf"(name:\s*\"{name}\",[^\n\r]+?)\}}\s*,"
+        
+        def repl(m):
+            if "detailedSignificance" in m.group(1):
+                return m.group(0)
+            return f'{m.group(1)}, detailedSignificance: "{escaped_detailed}" }},'
+            
+        content = re.sub(sub_pattern, repl, content)
+
+with open(file_path, "w", encoding="utf-8") as f:
+    f.write(content)
+
+print("Successfully injected all detailedSignificance strings into ca_data.js!")
