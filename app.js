@@ -1490,44 +1490,78 @@ function renderCbtMockHub() {
   const container = document.getElementById("exams-list-container");
   container.innerHTML = "";
   
+  const subjectsMap = {
+    "Mathematics": [],
+    "English": [],
+    "General Studies & Aptitude": []
+  };
+
   CBT_EXAMS_DATABASE.forEach(exam => {
     if (activeExamFilter !== "all" && exam.exam !== activeExamFilter) {
       return;
     }
     
-    const card = document.createElement("div");
-    card.className = "exam-card panel";
-    card.innerHTML = `
-      <div class="exam-card-header">
-        <div>
-          <span class="exam-type-badge ${exam.exam.toLowerCase()}">${exam.exam}</span>
-          <h3 class="exam-card-title" style="margin-top:8px;">${exam.title}</h3>
-        </div>
-      </div>
-      
-      <div class="exam-meta">
-        <div class="meta-item">
-          <span>Duration:</span>
-          <span>${exam.duration} Mins</span>
-        </div>
-        <div class="meta-item">
-          <span>Questions:</span>
-          <span>${exam.questionsCount} Qs</span>
-        </div>
-        <div class="meta-item">
-          <span>Correct:</span>
-          <span>+${exam.rules.correctMarks}</span>
-        </div>
-        <div class="meta-item">
-          <span>Incorrect:</span>
-          <span>${exam.rules.incorrectMarks}</span>
-        </div>
-      </div>
-      
-      <button class="btn-primary" onclick="launchCbtPlayer('${exam.id}')">Start CBT Test</button>
-    `;
-    container.appendChild(card);
+    const sub = exam.subject.toLowerCase();
+    if (sub.includes("math")) {
+      subjectsMap["Mathematics"].push(exam);
+    } else if (sub.includes("english")) {
+      subjectsMap["English"].push(exam);
+    } else {
+      subjectsMap["General Studies & Aptitude"].push(exam);
+    }
   });
+
+  for (const [subjectName, list] of Object.entries(subjectsMap)) {
+    if (list.length === 0) continue;
+
+    // Subject Group Header (spans full grid width)
+    const sectionHeader = document.createElement("div");
+    sectionHeader.style.cssText = "grid-column: 1 / -1; margin-top: 24px; margin-bottom: 12px; border-bottom: 2px solid var(--border); padding-bottom: 6px; display: flex; align-items: center; gap: 8px;";
+    
+    let subIcon = "📚";
+    if (subjectName === "Mathematics") subIcon = "📐";
+    else if (subjectName === "English") subIcon = "✍️";
+    else subIcon = "🌍";
+
+    sectionHeader.innerHTML = `<h2 style="color: var(--accent); font-family: var(--font-logo); font-size: 1.1rem; margin: 0; letter-spacing: 0.5px; text-transform: uppercase;">${subIcon} ${subjectName} Papers</h2>`;
+    container.appendChild(sectionHeader);
+
+    // Subject Group Cards
+    list.forEach(exam => {
+      const card = document.createElement("div");
+      card.className = "exam-card panel";
+      card.innerHTML = `
+        <div class="exam-card-header">
+          <div>
+            <span class="exam-type-badge ${exam.exam.toLowerCase()}">${exam.exam}</span>
+            <h3 class="exam-card-title" style="margin-top:8px;">${exam.title}</h3>
+          </div>
+        </div>
+        
+        <div class="exam-meta">
+          <div class="meta-item">
+            <span>Duration:</span>
+            <span>${exam.duration} Mins</span>
+          </div>
+          <div class="meta-item">
+            <span>Questions:</span>
+            <span>${exam.questionsCount} Qs</span>
+          </div>
+          <div class="meta-item">
+            <span>Correct:</span>
+            <span>+${exam.rules.correctMarks}</span>
+          </div>
+          <div class="meta-item">
+            <span>Incorrect:</span>
+            <span>${exam.rules.incorrectMarks}</span>
+          </div>
+        </div>
+        
+        <button class="btn-primary" onclick="launchCbtPlayer('${exam.id}')">Start CBT Test</button>
+      `;
+      container.appendChild(card);
+    });
+  }
 }
 
 document.querySelectorAll('[data-exam-filter]').forEach(btn => {
