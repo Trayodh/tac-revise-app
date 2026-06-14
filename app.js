@@ -1555,6 +1555,13 @@ function launchCbtPlayer(examId) {
   
   CBT_SESSION.visited[0] = true; 
   document.getElementById("cbt-player-overlay").style.display = "flex";
+  
+  // Hide Ask Dronacharya Chatbot during test
+  const launcher = document.getElementById("chatbot-launcher");
+  if (launcher) launcher.style.display = "none";
+  const drawer = document.getElementById("chatbot-drawer");
+  if (drawer) drawer.style.display = "none";
+
   document.getElementById("cbt-active-title").innerText = exam.title;
   
   startCbtTimer();
@@ -1697,9 +1704,35 @@ document.getElementById("cbt-btn-mark-review").addEventListener("click", () => {
 });
 
 document.getElementById("cbt-btn-submit-exam").addEventListener("click", () => {
-  const confirmSubmit = confirm("Are you sure you want to submit the exam? This will close the player and show the corrections worksheet.");
-  if (confirmSubmit) {
-    submitCbtExam();
+  const exam = CBT_SESSION.examData;
+  let attemptedCount = 0;
+  exam.questions.forEach((q, idx) => {
+    if (CBT_SESSION.answers[idx] !== null) {
+      attemptedCount++;
+    }
+  });
+
+  const totalQuestions = exam.questions.length;
+  const isCompleted = attemptedCount === totalQuestions;
+
+  if (isCompleted) {
+    const confirmSubmit = confirm("You have completed all questions. Are you sure you want to end the test and view the performance report?");
+    if (confirmSubmit) {
+      // Restore chatbot icon
+      const launcher = document.getElementById("chatbot-launcher");
+      if (launcher) launcher.style.display = "flex";
+      submitCbtExam();
+    }
+  } else {
+    const confirmExit = confirm(`You have only attempted ${attemptedCount} out of ${totalQuestions} questions. Ending the test now will abort your attempt and return you to the Dashboard. Proceed?`);
+    if (confirmExit) {
+      if (CBT_SESSION.timerId) clearInterval(CBT_SESSION.timerId);
+      document.getElementById("cbt-player-overlay").style.display = "none";
+      // Restore chatbot icon
+      const launcher = document.getElementById("chatbot-launcher");
+      if (launcher) launcher.style.display = "flex";
+      switchScreen("dashboard");
+    }
   }
 });
 
