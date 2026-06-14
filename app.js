@@ -1770,45 +1770,154 @@ function submitCbtExam() {
   document.getElementById("report-incorrect-qs").innerText = `${incorrectCount} (Loss -${loss.toFixed(2)})`;
   document.getElementById("report-accuracy").innerText = accuracy + "%";
   
-  const solutionsContainer = document.getElementById("report-solutions-list");
-  solutionsContainer.innerHTML = "";
-  
+  // 1. Tactical Performance Heatmap Grid
+  const heatmapGrid = document.getElementById("report-heatmap-grid");
+  if (heatmapGrid) {
+    heatmapGrid.innerHTML = "";
+    exam.questions.forEach((q, idx) => {
+      const userAns = CBT_SESSION.answers[idx];
+      const isCorrect = userAns === q.correct;
+
+      const square = document.createElement("div");
+      square.style.cssText = `
+        height: 28px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: white;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+        background-color: ${userAns === null ? '#4b5563' : (isCorrect ? '#22c55e' : '#ef4444')};
+      `;
+      square.innerText = idx + 1;
+      square.title = `Question ${idx + 1}: ${userAns === null ? 'Unattempted' : (isCorrect ? 'Correct' : 'Incorrect')}`;
+
+      square.addEventListener("click", () => {
+        const targetEl = document.getElementById(`solution-question-${idx + 1}`);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          const originalBorder = targetEl.style.borderColor;
+          targetEl.style.borderColor = 'var(--accent)';
+          targetEl.style.boxShadow = '0 0 15px var(--accent)';
+          setTimeout(() => {
+            targetEl.style.borderColor = originalBorder;
+            targetEl.style.boxShadow = 'none';
+          }, 1500);
+        }
+      });
+
+      square.addEventListener("mouseenter", () => {
+        square.style.transform = "scale(1.15)";
+      });
+      square.addEventListener("mouseleave", () => {
+        square.style.transform = "scale(1)";
+      });
+
+      heatmapGrid.appendChild(square);
+    });
+  }
+
+  // 2. AI Error Reconciliation Analysis
+  const wrongAnswersInfo = [];
   exam.questions.forEach((q, idx) => {
     const userAns = CBT_SESSION.answers[idx];
-    const isCorrect = userAns === q.correct;
-    
-    const div = document.createElement("div");
-    div.className = `solution-item ${userAns === null ? '' : (isCorrect ? 'correct' : 'incorrect')}`;
-    
-    let userAnsText = userAns === null ? "UNATTEMPTED" : `${String.fromCharCode(65 + userAns)}. ${q.options[userAns]}`;
-    let correctAnsText = `${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}`;
-    
-    div.innerHTML = `
-      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-        <span class="solution-badge ${userAns === null ? '' : (isCorrect ? 'correct' : 'incorrect')}">
-          ${userAns === null ? 'Unattempted' : (isCorrect ? 'Correct' : 'Incorrect')}
-        </span>
-        <span style="font-family:var(--font-mono); font-size:0.8rem; color:var(--text-muted); font-weight:600;">Question ${idx + 1}</span>
-      </div>
-      <p style="font-weight:600; margin:10px 0;">${q.question}</p>
-      <div style="font-size:0.85rem; margin-bottom:8px;">
-        <div>Your Answer: <strong style="${userAns === null ? '' : (isCorrect ? 'color:var(--accent);' : 'color:var(--danger);')}">${userAnsText}</strong></div>
-        <div>Correct Answer: <strong style="color:var(--accent);">${correctAnsText}</strong></div>
-      </div>
-      <div class="solution-explanation">
-        <strong>Solution walkthrough:</strong><br>
-        ${q.explanation}
-      </div>
-    `;
-    solutionsContainer.appendChild(div);
+    if (userAns !== null && userAns !== q.correct) {
+      wrongAnswersInfo.push({
+        num: idx + 1,
+        question: q.question,
+        selected: q.options[userAns],
+        correctAnswer: q.options[q.correct]
+      });
+    }
   });
-  
+
+  const aiBox = document.getElementById("report-ai-reconciliation");
+  const aiText = document.getElementById("report-ai-analysis-text");
+  const aiSpinner = document.getElementById("report-ai-spinner");
+
+  if (aiBox && aiText) {
+    aiBox.style.display = "block";
+    if (wrongAnswersInfo.length === 0) {
+      if (aiSpinner) aiSpinner.style.display = "none";
+      aiText.innerHTML = "<strong>Congratulations Officer!</strong> You marked zero wrong answers. Complete tactical dominance achieved!";
+    } else {
+      if (aiSpinner) aiSpinner.style.display = "inline-block";
+      aiText.innerText = "Analyzing incorrect answers and formulating concept corrections...";
+
+      const prompt = `You are Dronacharya, the expert military tutor. A student just took the exam "${exam.title}" and got the following questions wrong:
+${JSON.stringify(wrongAnswersInfo.slice(0, 15))}
+
+Provide a brief error reconciliation analysis. 
+Identify the conceptual gaps, explain the core correction, and provide a brief memory trick or rule to prevent repeating these errors. 
+Format as HTML (use strong tags, subheadings, or bullet points). Keep it under 250 words, completely emoji-free, and highly authoritative.`;
+
+      fetch('http://localhost:4000/api/gemini', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: 'gemini-2.5-flash',
+          contents: [{ parts: [{ text: prompt }] }]
+        })
+      })
+      .then(res => res.json())
+      .then(data => {
+        const reply = data.candidates[0].content.parts[0].text;
+        if (aiSpinner) aiSpinner.style.display = "none";
+        aiText.innerHTML = parseWikiLinks(reply);
+      })
+      .catch(err => {
+        if (aiSpinner) aiSpinner.style.display = "none";
+        aiText.innerHTML = `<span style="color:var(--danger)">Guru AI analysis uplink timed out. Please review the solutions walkthrough below.</span>`;
+      });
+    }
+  }
+
+  // 3. Solutions Walkthrough List
+  const solutionsContainer = document.getElementById("report-solutions-list");
+  if (solutionsContainer) {
+    solutionsContainer.innerHTML = "";
+
+    exam.questions.forEach((q, idx) => {
+      const userAns = CBT_SESSION.answers[idx];
+      const isCorrect = userAns === q.correct;
+
+      const div = document.createElement("div");
+      div.className = `solution-item ${userAns === null ? '' : (isCorrect ? 'correct' : 'incorrect')}`;
+      div.id = `solution-question-${idx + 1}`;
+
+      let userAnsText = userAns === null ? "UNATTEMPTED" : `${String.fromCharCode(65 + userAns)}. ${q.options[userAns]}`;
+      let correctAnsText = `${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}`;
+
+      div.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+          <span class="solution-badge ${userAns === null ? '' : (isCorrect ? 'correct' : 'incorrect')}">
+            ${userAns === null ? 'Unattempted' : (isCorrect ? 'Correct' : 'Incorrect')}
+          </span>
+          <span style="font-family:var(--font-mono); font-size:0.8rem; color:var(--text-muted); font-weight:600;">Question ${idx + 1}</span>
+        </div>
+        <p style="font-weight:600; margin:10px 0;">${q.question}</p>
+        <div style="font-size:0.85rem; margin-bottom:8px;">
+          <div>Your Answer: <strong style="${userAns === null ? '' : (isCorrect ? 'color:var(--accent);' : 'color:var(--danger);')}">${userAnsText}</strong></div>
+          <div>Correct Answer: <strong style="color:var(--accent);">${correctAnsText}</strong></div>
+        </div>
+        <div class="solution-explanation">
+          <strong>Solution walkthrough:</strong><br>
+          ${q.explanation}
+        </div>
+      `;
+      solutionsContainer.appendChild(div);
+    });
+  }
+
   // Refresh current affairs after every exam
   if (typeof refreshCurrentAffairs === 'function') {
     const isNdaOrCds = exam.id.startsWith("nda-") || exam.id.startsWith("cds-");
     refreshCurrentAffairs(isNdaOrCds);
   }
-  
+
   document.getElementById("cbt-report-overlay").style.display = "block";
 }
 

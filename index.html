@@ -865,7 +865,31 @@
           </tbody>
         </table>
         
-        <div class="solution-review">
+        <!-- Interactive Question Grid Heatmap -->
+        <div class="heatmap-section" style="margin-top: 24px; padding: 16px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); border-radius: 8px;">
+          <h3 style="margin-bottom: 12px; font-family: var(--font-logo); font-size: 0.95rem; color: var(--accent); letter-spacing: 0.5px;">TACTICAL QUESTION PERFORMANCE HEATMAP</h3>
+          <div style="display: flex; gap: 12px; font-size: 0.72rem; color: var(--text-muted); margin-bottom: 12px; flex-wrap: wrap;">
+            <div style="display: flex; align-items: center; gap: 4px;"><span style="width: 12px; height: 12px; background: #22c55e; border-radius: 2px; display: inline-block;"></span> Correct</div>
+            <div style="display: flex; align-items: center; gap: 4px;"><span style="width: 12px; height: 12px; background: #ef4444; border-radius: 2px; display: inline-block;"></span> Incorrect</div>
+            <div style="display: flex; align-items: center; gap: 4px;"><span style="width: 12px; height: 12px; background: #4b5563; border-radius: 2px; display: inline-block;"></span> Unattempted</div>
+          </div>
+          <div id="report-heatmap-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(28px, 1fr)); gap: 6px; margin-bottom: 12px;">
+            <!-- Rendered squares -->
+          </div>
+        </div>
+
+        <!-- AI Corrections & Weakness Insight -->
+        <div id="report-ai-reconciliation" style="margin-top: 24px; padding: 16px; background: rgba(168, 85, 247, 0.05); border: 1px solid rgba(168, 85, 247, 0.2); border-radius: 8px;">
+          <h3 style="margin: 0 0 10px 0; font-family: var(--font-logo); font-size: 0.95rem; color: var(--accent); display: flex; align-items: center; gap: 8px;">
+            <div class="cbt-spinner" id="report-ai-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 14px; height: 14px; border-width: 2px; display: inline-block; margin-right: 6px;"></div>
+            🤖 DRONACHARYA AI ERROR RECONCILIATION
+          </h3>
+          <div id="report-ai-analysis-text" style="font-size: 0.88rem; line-height: 1.6; color: var(--text-secondary);">
+            Analyzing wrong answers and formulating corrective actions...
+          </div>
+        </div>
+        
+        <div class="solution-review" style="margin-top: 32px;">
           <h3 style="margin-bottom: 20px; font-family: var(--font-logo);">Corrections & Solutions Explanation</h3>
           <div id="report-solutions-list">
             <!-- Render solutions dynamically with explanations -->
