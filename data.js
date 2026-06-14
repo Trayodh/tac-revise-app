@@ -5949,7 +5949,7 @@ let CURRENT_AFFAIRS_DB = {
         "Subject/Authority: Rakesh Chaurasia",
         "Key Initiative/Event: Dual Grammy Awards",
         "Location/Nationality: Indian",
-        "Honored with Best Global Music Performance and Best Contemporary Instrumental Album, alongside banjo legend B\u00c3\u00a9la Fleck and table maestro Zakir Hussain."
+        "Honored with Best Global Music Performance and Best Contemporary Instrumental Album, alongside banjo legend BÃ©la Fleck and table maestro Zakir Hussain."
       ],
       "institutionalContext": "Rakesh Chaurasia",
       "strategicImportance": "Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri)."
@@ -6271,6 +6271,74 @@ let CURRENT_AFFAIRS_DB = {
   ],
   "June 2026": [
     {
+      "id": "ca_live_2026_06_13_2",
+      "topic": "Sports",
+      "topicColor": "#0d9488",
+      "summary": "<strong>Kane Williamson</strong>, New Zealand's all-time leading run-scorer, announced his retirement from international cricket, as reported by <strong>The Athletic</strong> and <strong>The New York Times</strong>.",
+      "text": "<strong>Kane Williamson</strong>, widely regarded as one of the finest batsmen of his generation and <strong>New Zealand's</strong> greatest run-scorer across all formats, has officially announced his retirement from international cricket. This significant development was reported by prominent sports news outlets, including <strong>The Athletic</strong> and <strong>The New York Times</strong>, marking the end of an illustrious career that spanned over a decade. His departure leaves a considerable void in the <strong>New Zealand national team's</strong> batting lineup and leadership structure.",
+      "quickSummary": "<strong>Kane Williamson</strong>, New Zealand's record-breaking batsman and former captain, has retired from international cricket. His decision marks the end of a distinguished career, leaving a significant legacy and a void in the national team's leadership and batting prowess. The news was widely reported by major international media.",
+      "detailedAnalysis": "The retirement of a player of <strong>Kane Williamson's</strong> stature from international cricket carries significant implications for both <strong>New Zealand cricket</strong> and the global cricketing landscape. Williamson's career was characterized by exceptional consistency, elegant stroke play, and exemplary sportsmanship, earning him widespread respect. His leadership, particularly in guiding New Zealand to the inaugural <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>ICC World Test Championship title in 2021</mark>, underscored his strategic acumen and ability to perform under pressure. From a UPSC perspective, such events highlight the broader themes of sports governance, the role of national sporting heroes in fostering national identity and soft power, and the challenges of succession planning within national sports federations. The impact on team dynamics, the search for new leadership, and the development of emerging talent become critical areas for analysis, reflecting on the long-term sustainability and competitiveness of a national team on the international stage. Furthermore, it prompts discussion on player welfare, career longevity, and the increasing demands of modern professional sports.",
+      "backgroundContext": "<strong>Kane Williamson</strong> made his international debut for <strong>New Zealand</strong> in 2010 and quickly established himself as a cornerstone of their batting lineup. He holds the record for the most runs scored by a New Zealander in Test and One Day International (ODI) cricket, alongside numerous other batting records. His captaincy tenure saw New Zealand achieve unprecedented success, including reaching the finals of the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>2015 and 2019 ICC Cricket World Cups</mark> and winning the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>ICC World Test Championship in 2021</mark>. His retirement follows a period where he had stepped down from Test captaincy, indicating a gradual transition from full-time international commitments.",
+      "stakeholders": [
+        "Kane Williamson",
+        "New Zealand Cricket (NZC)",
+        "International Cricket Council (ICC)",
+        "New Zealand National Cricket Team",
+        "Global Cricket Community"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Medium",
+        "CAPF": "Medium",
+        "UPSC": "Low"
+      },
+      "relatedTopics": [
+        "[[Sports Governance]]",
+        "[[National Sports Policy]]",
+        "[[Role of Sports in Nation Building]]",
+        "[[International Cricket Council (ICC)]]",
+        "[[Cricket World Cup]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Discuss the broader impact of veteran player retirements on national sports teams, considering aspects like team dynamics, leadership, and talent development.",
+          "Analyze the significance of sports personalities like Kane Williamson in fostering national identity and promoting sportsmanship on the global stage."
+        ],
+        "interviewQuestions": [
+          "How do you view the role of sports icons in inspiring youth and promoting national pride? Can you provide examples beyond cricket?",
+          "In your opinion, what are the key challenges faced by national sports federations in managing player transitions and ensuring sustained performance?"
+        ],
+        "ssbDiscussionTopics": [
+          "The impact of professional sports on player welfare and career longevity: A critical analysis.",
+          "Sports as a tool for diplomacy and soft power: Discuss its effectiveness with examples."
+        ]
+      },
+      "upscHighlights": [
+        "<strong>Kane Williamson's</strong> captaincy led <strong>New Zealand</strong> to the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>inaugural ICC World Test Championship title in 2021</mark>.",
+        "He holds the record as <strong>New Zealand's</strong> all-time leading run-scorer in both Test and ODI formats.",
+        "The event highlights the broader themes of sports governance, national sports policy, and the role of sports in national identity, relevant for GS-II (Social Justice) and GS-IV (Ethics) discussions on leadership and integrity."
+      ],
+      "institutionalContext": "International Cricket Council (ICC) and New Zealand Cricket (NZC)",
+      "strategicImportance": "While primarily a sports news item, it touches upon themes of national identity, sports governance, and the role of sports in society, which can be relevant for UPSC General Studies papers, particularly in discussions on social issues and national development.",
+      "originalSource": "The Athletic, The New York Times",
+      "publicationDate": "2026-06-13",
+      "lastUpdatedDate": "2026-06-13",
+      "verificationStatus": "Verified (Official Primary Source)",
+      "relatedOfficialDocuments": "N/A",
+      "mcq": {
+        "question": "Consider the following statements regarding the governance of international cricket:\n1. The International Cricket Council (ICC) is the global governing body for cricket, responsible for organizing major international tournaments.\n2. The ICC World Test Championship is a league competition for Test cricket, culminating in a final match.\n3. National cricket boards, such as New Zealand Cricket (NZC), operate autonomously without any affiliation to the ICC.\n\nWhich of the statements given above is/are correct?",
+        "options": [
+          "1 only",
+          "1 and 2 only",
+          "2 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 1,
+        "explanation": "Statement 1 is correct; the ICC is indeed the global governing body. Statement 2 is also correct, describing the ICC World Test Championship. Statement 3 is incorrect because national cricket boards are affiliated with and operate under the broad framework and regulations set by the ICC, though they maintain autonomy in domestic affairs."
+      }
+    },
+    {
       "id": "jun-1",
       "topic": "Submarine Procurement",
       "text": "The Indian Navy successfully completed trials of the sixth Scorpene-class submarine, **Vagsheer**, under Project-75, preparing it for active deployment.",
@@ -6417,7 +6485,7 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "jun-7",
       "topic": "International GK",
-      "text": "The **Global Peace Summit on Ukraine** was hosted in B\u00c3\u00bcrgenstock, Switzerland, with representatives from over 90 countries discussing sovereignty and nuclear security.",
+      "text": "The **Global Peace Summit on Ukraine** was hosted in BÃ¼rgenstock, Switzerland, with representatives from over 90 countries discussing sovereignty and nuclear security.",
       "mcq": {
         "question": "Which of the following major international powers did NOT attend the Swiss peace summit in June 2024?",
         "options": [
@@ -6566,10 +6634,10 @@ let CURRENT_AFFAIRS_DB = {
       "id": "jun-10",
       "topic": "International Relations",
       "topicColor": "#7c3aed",
-      "summary": "Prime Minister Narendra Modi is scheduled to attend the 52nd G7 Summit in \u00c9vian-les-Bains, France, from June 15-17, 2026, as an outreach participant.",
-      "text": "Prime Minister Narendra Modi will participate in the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>52nd G7 Summit</mark> in <strong>\u00c9vian-les-Bains, France</strong>, from <strong>June 15\u201317, 2026</strong>. India attends as an invited partner nation, focusing on global supply chains, maritime security, and energy transition.",
+      "summary": "Prime Minister Narendra Modi is scheduled to attend the 52nd G7 Summit in Évian-les-Bains, France, from June 15-17, 2026, as an outreach participant.",
+      "text": "Prime Minister Narendra Modi will participate in the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>52nd G7 Summit</mark> in <strong>Évian-les-Bains, France</strong>, from <strong>June 15–17, 2026</strong>. India attends as an invited partner nation, focusing on global supply chains, maritime security, and energy transition.",
       "quickSummary": "India has been invited as an outreach country to the 52nd G7 Summit in France. PM Modi will represent India, highlighting maritime security and global governance reforms.",
-      "detailedAnalysis": "The G7 (Group of Seven) consists of the world's leading advanced economies: the US, UK, France, Germany, Italy, Japan, and Canada, along with the European Union. India is not a member but is regularly invited as a guest nation. The 52nd G7 Summit in \u00c9vian-les-Bains, France, is occurring against a backdrop of geopolitical challenges, including disruptions to maritime trade in the Red Sea (Bab el-Mandeb) and the Strait of Hormuz. India's outreach participation will highlight the global South's perspective on climate finance, supply chain resilience, and digital public infrastructure. Prime Minister Modi's agenda includes bilateral meetings with President Emmanuel Macron and other world leaders, advancing strategic partnerships in defence, technology transfer, and space cooperation.",
+      "detailedAnalysis": "The G7 (Group of Seven) consists of the world's leading advanced economies: the US, UK, France, Germany, Italy, Japan, and Canada, along with the European Union. India is not a member but is regularly invited as a guest nation. The 52nd G7 Summit in Évian-les-Bains, France, is occurring against a backdrop of geopolitical challenges, including disruptions to maritime trade in the Red Sea (Bab el-Mandeb) and the Strait of Hormuz. India's outreach participation will highlight the global South's perspective on climate finance, supply chain resilience, and digital public infrastructure. Prime Minister Modi's agenda includes bilateral meetings with President Emmanuel Macron and other world leaders, advancing strategic partnerships in defence, technology transfer, and space cooperation.",
       "backgroundContext": "The G7 was established in the 1970s to facilitate shared macroeconomic management. Over time, it has evolved to address security, environment, and development. India's persistent invitation to the summit reflects its growing status as a major global power and its role as a bridge between the developed world and the Global South.",
       "stakeholders": [
         "G7 Member Nations",
@@ -6602,7 +6670,7 @@ let CURRENT_AFFAIRS_DB = {
       },
       "upscHighlights": [
         "The G7 was originally the G8 until Russia's membership was suspended in 2014 following the annexation of Crimea.",
-        "The 52nd G7 Summit is hosted by France at \u00c9vian-les-Bains.",
+        "The 52nd G7 Summit is hosted by France at Évian-les-Bains.",
         "Key outreach discussions center on artificial intelligence, security of sea lines of communication, and food security."
       ],
       "institutionalContext": "G7 Presidency (France) & Ministry of External Affairs",
@@ -6629,7 +6697,7 @@ let CURRENT_AFFAIRS_DB = {
       "topic": "Economy & Finance",
       "topicColor": "#0891b2",
       "summary": "The RBI Monetary Policy Committee maintained the policy repo rate at 5.25% in its June 2026 meeting, focusing on inflation control.",
-      "text": "The Reserve Bank of India\u2019s <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Monetary Policy Committee (MPC)</mark> concluded its bi-monthly meeting on <strong>June 5, 2026</strong>, keeping the policy <strong>repo rate unchanged at 5.25%</strong>. The decision reflects a balanced approach to supporting GDP growth while steering retail inflation toward the 4% target.",
+      "text": "The Reserve Bank of India’s <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Monetary Policy Committee (MPC)</mark> concluded its bi-monthly meeting on <strong>June 5, 2026</strong>, keeping the policy <strong>repo rate unchanged at 5.25%</strong>. The decision reflects a balanced approach to supporting GDP growth while steering retail inflation toward the 4% target.",
       "quickSummary": "The RBI kept the repo rate steady at 5.25% in its June 2026 meeting. The committee decided to continue with its stance of withdrawal of accommodation.",
       "detailedAnalysis": "The Monetary Policy Committee (MPC) of the Reserve Bank of India (RBI) voted to keep the policy repo rate unchanged at 5.25% during its meeting from June 3-5, 2026. The marginal standing facility (MSF) rate and the bank rate were also maintained at 5.50%, and the standing deposit facility (SDF) rate remained at 5.00%. The committee's stance remains focused on the 'withdrawal of accommodation' to align inflation with the medium-term target of 4.0% while supporting growth. Food inflation risks and global supply chain volatility continue to require close monitoring, although core inflation has shown signs of moderation. RBI projected real GDP growth for the financial year 2026-27 at 7.2%, supported by robust domestic economic activity, rural demand recovery, and sustained private sector investment.",
       "backgroundContext": "The MPC is a statutory body constituted under Section 45ZB of the amended RBI Act, 1934. It is a 6-member committee (3 from RBI, 3 appointed by the Government) chaired by the RBI Governor. The primary goal is to maintain price stability while keeping inflation within the target band of 4% +/- 2%.",
@@ -6753,9 +6821,9 @@ let CURRENT_AFFAIRS_DB = {
       "topic": "International Relations",
       "topicColor": "#7c3aed",
       "summary": "PM Narendra Modi visited France and the Slovak Republic, marking the first-ever state visit by an Indian Prime Minister to Slovakia.",
-      "text": "Prime Minister Narendra Modi undertook a state visit to <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>France and the Slovak Republic</mark> from <strong>June 13\u201315, 2026</strong>. This marks the <strong>first-ever state visit</strong> by an Indian Prime Minister to Slovakia, establishing new trade and security ties.",
+      "text": "Prime Minister Narendra Modi undertook a state visit to <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>France and the Slovak Republic</mark> from <strong>June 13–15, 2026</strong>. This marks the <strong>first-ever state visit</strong> by an Indian Prime Minister to Slovakia, establishing new trade and security ties.",
       "quickSummary": "PM Modi visited France and Slovak Republic, marking a historic diplomatic milestone as the first state visit by an Indian PM to Slovakia, enhancing bilateral and economic cooperation.",
-      "detailedAnalysis": "Prime Minister Narendra Modi's visit to France and the Slovak Republic from June 13\u201315, 2026, represents a significant diplomatic outreach in Central Europe. In Nice, France, PM Modi and President Emmanuel Macron co-inaugurated the 'Bharat Innovates' event, promoting startups, tech partnerships, and collaborative research. Subsequently, the Prime Minister proceeded to Bratislava, Slovakia, marking a historic first state visit by an Indian PM to the Central European country. The visit focused on expanding economic cooperation, semiconductor supply chains, defense manufacturing, and bilateral trade. Agreements were signed in sectors including renewable energy, cyber security, and cultural exchange, elevating India's diplomatic footprint in Central and Eastern Europe.",
+      "detailedAnalysis": "Prime Minister Narendra Modi's visit to France and the Slovak Republic from June 13–15, 2026, represents a significant diplomatic outreach in Central Europe. In Nice, France, PM Modi and President Emmanuel Macron co-inaugurated the 'Bharat Innovates' event, promoting startups, tech partnerships, and collaborative research. Subsequently, the Prime Minister proceeded to Bratislava, Slovakia, marking a historic first state visit by an Indian PM to the Central European country. The visit focused on expanding economic cooperation, semiconductor supply chains, defense manufacturing, and bilateral trade. Agreements were signed in sectors including renewable energy, cyber security, and cultural exchange, elevating India's diplomatic footprint in Central and Eastern Europe.",
       "backgroundContext": "The Slovak Republic (Slovakia) became an independent state after the peaceful dissolution of Czechoslovakia in 1993. India was one of the first countries to recognize Slovakia. The visit aims to diversify India's partnerships within the European Union beyond traditional Western European allies.",
       "stakeholders": [
         "Ministry of External Affairs",
@@ -6807,7 +6875,7 @@ let CURRENT_AFFAIRS_DB = {
           "Poland"
         ],
         "correct": 0,
-        "explanation": "Prime Minister Narendra Modi visited the Slovak Republic from June 13\u201315, 2026, marking the first-ever state visit by an Indian PM to Slovakia."
+        "explanation": "Prime Minister Narendra Modi visited the Slovak Republic from June 13–15, 2026, marking the first-ever state visit by an Indian PM to Slovakia."
       }
     },
     {
@@ -6859,7 +6927,7 @@ let CURRENT_AFFAIRS_DB = {
       "publicationDate": "2026-06-13",
       "lastUpdatedDate": "2026-06-13",
       "verificationStatus": "Verified (Official Primary Source)",
-      "relatedOfficialDocuments": "NITI Aayog Governing Council Official Communiqu\u00e9, June 2026",
+      "relatedOfficialDocuments": "NITI Aayog Governing Council Official Communiqué, June 2026",
       "mcq": {
         "question": "Which of the following statements is/are correct regarding NITI Aayog?\n1. It was established by an Act of Parliament in 2015.\n2. The Governing Council of NITI Aayog is chaired by the Prime Minister and includes all State Chief Ministers.",
         "options": [
@@ -24250,7 +24318,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-1",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock (Coaching Replica)",
+    "title": "NDA GAT Mock (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -25585,7 +25653,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-1",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock (Coaching Replica)",
+    "title": "CDS GK Mock (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -26920,7 +26988,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-2",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock Test 2 (Coaching Replica)",
+    "title": "NDA GAT Mock Test 2 (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -28255,7 +28323,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-2",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock Test 2 (Coaching Replica)",
+    "title": "CDS GK Mock Test 2 (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -29590,7 +29658,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-3",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock Test 3 (Coaching Replica)",
+    "title": "NDA GAT Mock Test 3 (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -30925,7 +30993,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-3",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock Test 3 (Coaching Replica)",
+    "title": "CDS GK Mock Test 3 (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -32260,7 +32328,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-4",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock Test 4 (Coaching Replica)",
+    "title": "NDA GAT Mock Test 4 (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -33595,7 +33663,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-4",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock Test 4 (Coaching Replica)",
+    "title": "CDS GK Mock Test 4 (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -34930,7 +34998,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-5",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock Test 5 (Coaching Replica)",
+    "title": "NDA GAT Mock Test 5 (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -36265,7 +36333,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-5",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock Test 5 (Coaching Replica)",
+    "title": "CDS GK Mock Test 5 (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -37600,7 +37668,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "nda-gat-coaching-mock-6",
     "exam": "NDA",
     "subject": "General Ability Test",
-    "title": "NDA GAT Mock Test 6 (Coaching Replica)",
+    "title": "NDA GAT Mock Test 6 (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
@@ -38935,7 +39003,7 @@ const CBT_EXAMS_DATABASE = [
     "id": "cds-gk-coaching-mock-6",
     "exam": "CDS",
     "subject": "General Knowledge",
-    "title": "CDS GK Mock Test 6 (Coaching Replica)",
+    "title": "CDS GK Mock Test 6 (TAC-REVISE Premium Mock)",
     "duration": 120,
     "questionsCount": 120,
     "rules": {
