@@ -1850,9 +1850,13 @@ function submitCbtExam() {
       const prompt = `You are Dronacharya, the expert military tutor. A student just took the exam "${exam.title}" and got the following questions wrong:
 ${JSON.stringify(wrongAnswersInfo.slice(0, 15))}
 
-Provide a brief error reconciliation analysis. 
-Identify the conceptual gaps, explain the core correction, and provide a brief memory trick or rule to prevent repeating these errors. 
-Format as HTML (use strong tags, subheadings, or bullet points). Keep it under 250 words, completely emoji-free, and highly authoritative.`;
+For each wrong question, your reconciliation analysis MUST:
+1. Mention the entire question text explicitly.
+2. Clearly state the correct answer option text.
+3. Identify the conceptual gap and explain the core correction.
+4. Give a brief, practical memory tip or mnemonic to avoid repeating this error.
+
+Format the output beautifully as structured HTML using subheadings, <strong> tags, and bulleted lists. Keep it completely emoji-free and highly authoritative.`;
 
       fetch('http://localhost:4000/api/gemini', {
         method: 'POST',
