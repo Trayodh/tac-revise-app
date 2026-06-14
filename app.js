@@ -1638,7 +1638,7 @@ function renderCbtActiveQuestion() {
   
   q.options.forEach((opt, optIdx) => {
     const optDiv = document.createElement("div");
-    optDiv.className = `cbt-option ${CBTSESSION.answers[currentIdx] === optIdx ? 'selected' : ''}`;
+    optDiv.className = `cbt-option ${CBT_SESSION.answers[currentIdx] === optIdx ? 'selected' : ''}`;
     optDiv.innerHTML = `
       <div class="option-badge">${String.fromCharCode(65 + optIdx)}</div>
       <div class="option-text">${opt}</div>
