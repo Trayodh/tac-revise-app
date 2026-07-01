@@ -1,264 +1,307 @@
-require('dotenv').config();
 const fs = require('fs');
+const https = require('https');
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+require('dotenv').config();
+// Securely loaded via environment context
+const API_KEY = process.env.GEMINI_API_KEY; 
+
 const CACHE_FILE = 'scratch/generated_questions.json';
 
-// Target list of exams to regenerate (mocks that are currently duplicates)
-const EXAMS_TO_REGENERATE = [
-  // NDA Mathematics: keep mock-1, regenerate 2-10
-  ...Array.from({ length: 9 }, (_, i) => ({ id: `nda-math-mock-${i + 2}`, exam: 'NDA', subject: 'Mathematics', mockNum: i + 2, count: 100 })),
-  // CDS Mathematics: keep mock-1, regenerate 2-10
-  ...Array.from({ length: 9 }, (_, i) => ({ id: `cds-math-mock-${i + 2}`, exam: 'CDS', subject: 'Mathematics', mockNum: i + 2, count: 100 })),
-  // NDA English: keep mock-1, regenerate 2-10
-  ...Array.from({ length: 9 }, (_, i) => ({ id: `nda-english-mock-${i + 2}`, exam: 'NDA', subject: 'English', mockNum: i + 2, count: 120 })),
-  // NDA General Studies: keep mock-1, regenerate 2-10
-  ...Array.from({ length: 9 }, (_, i) => ({ id: `nda-gs-mock-${i + 2}`, exam: 'NDA', subject: 'General Studies', mockNum: i + 2, count: 120 })),
-  // CDS English: keep mock-1, regenerate 2-10
-  ...Array.from({ length: 9 }, (_, i) => ({ id: `cds-english-mock-${i + 2}`, exam: 'CDS', subject: 'English', mockNum: i + 2, count: 120 })),
-  // CDS General Studies: keep mock-1, regenerate 2-10
-  ...Array.from({ length: 9 }, (_, i) => ({ id: `cds-gs-mock-${i + 2}`, exam: 'CDS', subject: 'General Studies', mockNum: i + 2, count: 120 })),
-  // AFCAT Combined: keep mock-1, 2, 3, regenerate 4-12
-  ...Array.from({ length: 9 }, (_, i) => ({ id: `afcat-combined-mock-${i + 4}`, exam: 'AFCAT', subject: 'Combined', mockNum: i + 4, count: 100 })),
-  // NDA GAT: keep mock-1, regenerate 2-6
-  ...Array.from({ length: 5 }, (_, i) => ({ id: `nda-gat-coaching-mock-${i + 2}`, exam: 'NDA', subject: 'General Ability Test', mockNum: i + 2, count: 120 })),
-  // CDS GK: keep mock-1, regenerate 2-6
-  ...Array.from({ length: 5 }, (_, i) => ({ id: `cds-gk-coaching-mock-${i + 2}`, exam: 'CDS', subject: 'General Knowledge', mockNum: i + 2, count: 120 }))
-];
-
-// Topic focuses mapping based on mock index to ensure diversity and comprehensive syllabus coverage
-const TOPIC_FOCUS = {
-  'Mathematics': {
-    2: 'Algebra: Sets, Relations, Functions, Logarithms, Progressions (AP/GP), Permutations & Combinations, Binomial Theorem',
-    3: 'Complex Numbers, Quadratic Equations, and Nature of Roots',
-    4: 'Matrices, Determinants, System of Linear Equations (Cramer\'s Rule), Adjoint and Inverse',
-    5: 'Trigonometry: Ratios, Identities, Properties of Triangles, Heights & Distances, and Inverse Trigonometric Functions',
-    6: 'Coordinate Geometry: Straight Lines, Circles, Parabola, Ellipse, Hyperbola (2D & 3D coordinate geometry)',
-    7: 'Differential Calculus: Limits, Continuity, Differentiability, Derivatives, Tangents/Normals, and Maxima/Minima',
-    8: 'Integral Calculus: Indefinite and Definite Integrals, Area under curves, and Ordinary Differential Equations',
-    9: 'Vector Algebra and Three-Dimensional Geometry',
-    10: 'Probability & Statistics: Measures of Central Tendency, Dispersion, Coefficient of Variation, Bayes\' Theorem, Binomial Distribution'
-  },
-  'English': {
-    2: 'Spotting Errors & Sentence Improvement focusing on Subject-Verb Agreement, Tenses, Pronouns, and Prepositions',
-    3: 'Synonyms & Antonyms from high-yield academic, defense, and news editorial vocabulary',
-    4: 'Idioms & Phrases, Phrasal Verbs, and Word Substitution',
-    5: 'Ordering of Words in a Sentence & Ordering of Sentences in a Paragraph (S1-S6 para-jumbles)',
-    6: 'Cloze Test & Fill in the Blanks focusing on Prepositions, Conjunctions, and Determiners',
-    7: 'Reading Comprehension with short and long passages, focusing on theme, tone, and inference-based questions',
-    8: 'Parts of Speech identification (Gerunds, Participles, Adverbs) and Sentence Transformation',
-    9: 'Active-Passive Voice conversion and Direct-Indirect Speech narration rules',
-    10: 'Mixed Full English Syllabus Mock containing all standard UPSC NDA/CDS formats'
-  },
-  'General Studies': {
-    2: 'Physics: Optics (mirrors, lenses, TIR), Mechanics (Newton\'s laws, work-energy), Electricity & Magnetism, Wave/Sound, Heat & Thermodynamics',
-    3: 'Chemistry: Acids & Bases, pH scale, Periodic Table trends, Chemical Bonding, Metals & Alloys, Carbon compounds, Everyday chemistry',
-    4: 'Biology: Cell Biology, Human Physiology Systems (Endocrine, Circulatory, Excretory), Plant & Animal Kingdoms, Diseases & Immunity, Ecology',
-    5: 'History: Ancient Indian History (Indus Valley, Vedic Age, Buddhism/Jainism, Mauryas, Guptas) and Art, Architecture & Culture',
-    6: 'History: Medieval India (Delhi Sultanate, Mughals, Vijayanagara) and Modern India (Revolt of 1857, British policies, Freedom struggle)',
-    7: 'Geography: Physical Geography (Universe, Earth structure, Atmosphere, Climatology, Geomorphology, Plate tectonics)',
-    8: 'Geography: Indian Geography (Rivers, Forests, Soils, National Parks) and World Geography strategic mappings (Straits, Deserts)',
-    9: 'Indian Polity: Constitutional Framework, Preamble, Fundamental Rights, Parliament, Judiciary, Local Governments, Emergency provisions',
-    10: 'Economics (RBI Monetary Policy, Budget, Sectors) & Current Affairs (Govt schemes, Space missions, Defence updates, International Summits)'
-  },
-  'General Ability Test': {
-    2: 'Physics (Optics & Mechanics) and Chemistry (Everyday chemistry, acids/bases)',
-    3: 'Biology (Cell, diseases) and History (Ancient/Medieval India)',
-    4: 'History (Modern India, World History) and Geography (Physical Geography)',
-    5: 'Geography (Indian/World Mapping) and Indian Polity (Rights, Parliament)',
-    6: 'Economics (Budget, RBI) and Current Affairs (Defence tech, space, summits)'
-  },
-  'General Knowledge': {
-    2: 'History (Ancient & Medieval India) and Art & Culture',
-    3: 'History (Modern Indian Freedom Struggle, British land revenue, Constitutional development)',
-    4: 'Geography (Physical, Indian, and World Geography mapping & resources)',
-    5: 'Polity (Fundamental Rights, Parliament, Judiciary, Local bodies, Amendments)',
-    6: 'Economics (National Income, RBI, Trade, Budget) and Current Affairs (Schemes, Bilateral exercises, Space)'
-  },
-  'Combined': {
-    4: 'Numerical Ability: Arithmetic, Percentages, Profit & Loss, Ratios, Partnerships, Averages',
-    5: 'Numerical Ability: Time & Work, Time & Distance, Speed, Relative Speed (Trains, Boats & Streams)',
-    6: 'Verbal Reasoning: Coding-Decoding, Blood Relations, Direction Sense, Syllogisms, Statement-Assumption',
-    7: 'Non-Verbal Reasoning: Series, Analogy, Classification, Pattern completion, Paper cutting/folding, Spatial ability',
-    8: 'English Verbal Ability: Error detection, Sentence improvement, Synonyms/Antonyms, Idioms & Phrases',
-    9: 'General Awareness: Indian History (Ancient to Modern) and Geography (Indian & World)',
-    10: 'General Awareness: Indian Polity, Basic Science (Physics, Chemistry, Biology), and Defence Organizations/Commands',
-    11: 'General Awareness: Current Affairs (Govt schemes, awards, space, exercises) and Military GK',
-    12: 'AFCAT Full-Length Mixed Syllabus Mock Test with balanced question distribution'
-  }
+const QUOTAS = {
+  "NDA-Mathematics": [
+    { topic: "Algebra & Vector Algebra", q: 38 },
+    { topic: "Calculus", q: 23 },
+    { topic: "Trigonometry", q: 20 },
+    { topic: "Analytical Geometry (2D & 3D)", q: 20 },
+    { topic: "Matrices & Determinants", q: 10 },
+    { topic: "Statistics & Probability", q: 9 }
+  ],
+  "NDA-GAT": [
+    { topic: "English Grammar & Usage", q: 18 },
+    { topic: "English Vocabulary", q: 13 },
+    { topic: "English Reading Comprehension", q: 10 },
+    { topic: "English Sentence Improvement & Rearrangement", q: 9 },
+    { topic: "Physics", q: 24 },
+    { topic: "Chemistry", q: 15 },
+    { topic: "General Science (Biology)", q: 10 },
+    { topic: "History, Freedom Movement & Polity", q: 20 },
+    { topic: "Geography", q: 20 },
+    { topic: "Current Affairs", q: 11 }
+  ],
+  "CDS-Mathematics": [
+    { topic: "Arithmetic", q: 38 },
+    { topic: "Algebra", q: 17 },
+    { topic: "Geometry", q: 17 },
+    { topic: "Trigonometry", q: 10 },
+    { topic: "Mensuration", q: 10 },
+    { topic: "Statistics", q: 8 }
+  ],
+  "CDS-English": [
+    { topic: "Vocabulary (Synonyms/Antonyms)", q: 22 },
+    { topic: "Grammar & Error Spotting", q: 28 },
+    { topic: "Sentence Improvement", q: 13 },
+    { topic: "Reading Comprehension", q: 18 },
+    { topic: "Ordering of Sentences/Words", q: 13 },
+    { topic: "Cloze Test & Fill in the Blanks", q: 26 }
+  ],
+  "CDS-General Knowledge": [
+    { topic: "Current Affairs & Static GK", q: 27 },
+    { topic: "Geography", q: 23 },
+    { topic: "History", q: 20 },
+    { topic: "Polity", q: 15 },
+    { topic: "Biology", q: 10 },
+    { topic: "Chemistry", q: 8 },
+    { topic: "Economics", q: 8 },
+    { topic: "Physics", q: 9 }
+  ],
+  "AFCAT-Combined": [
+    { topic: "English Reading Comprehension", q: 6 },
+    { topic: "English Vocabulary", q: 4 },
+    { topic: "English Error Detection", q: 3 },
+    { topic: "English Cloze Test", q: 3 },
+    { topic: "English Para Jumbles", q: 3 },
+    { topic: "English Fill in the Blanks", q: 6 },
+    { topic: "General Awareness (Current Affairs)", q: 5 },
+    { topic: "General Awareness (Defence)", q: 3 },
+    { topic: "General Awareness (Science)", q: 3 },
+    { topic: "General Awareness (History)", q: 3 },
+    { topic: "General Awareness (Geography)", q: 2 },
+    { topic: "General Awareness (Polity)", q: 2 },
+    { topic: "General Awareness (Sports/Misc)", q: 7 },
+    { topic: "AFCAT Numerical Ability (Simplification)", q: 3 },
+    { topic: "AFCAT Numerical Ability (Percentage)", q: 2 },
+    { topic: "AFCAT Numerical Ability (Profit & Loss)", q: 2 },
+    { topic: "AFCAT Numerical Ability (Ratio & Proportion)", q: 2 },
+    { topic: "AFCAT Numerical Ability (Time & Work)", q: 2 },
+    { topic: "AFCAT Numerical Ability (Time, Speed & Distance)", q: 2 },
+    { topic: "AFCAT Numerical Ability (Average, SI-CI, Mixture)", q: 7 },
+    { topic: "AFCAT Reasoning (Verbal Reasoning)", q: 10 },
+    { topic: "AFCAT Reasoning (Non-Verbal Reasoning)", q: 8 },
+    { topic: "AFCAT Reasoning (Spatial Ability)", q: 5 },
+    { topic: "AFCAT Reasoning (Pattern Recognition)", q: 4 },
+    { topic: "AFCAT Reasoning (Military Aptitude)", q: 3 }
+  ]
 };
 
-// Sleep helper
-const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+const examsToGenerate = [
+  ...Array.from({ length: 9 }, (_, i) => ({ exam: 'NDA', subject: 'Mathematics', id: `nda-math-mock-${i + 2}`, target: 120 })),
+  ...Array.from({ length: 9 }, (_, i) => ({ exam: 'NDA', subject: 'GAT', id: `nda-gat-mock-${i + 2}`, target: 150 })),
+  ...Array.from({ length: 9 }, (_, i) => ({ exam: 'CDS', subject: 'Mathematics', id: `cds-math-mock-${i + 2}`, target: 100 })),
+  ...Array.from({ length: 9 }, (_, i) => ({ exam: 'CDS', subject: 'English', id: `cds-english-mock-${i + 2}`, target: 120 })),
+  ...Array.from({ length: 9 }, (_, i) => ({ exam: 'CDS', subject: 'General Knowledge', id: `cds-gk-mock-${i + 2}`, target: 120 })),
+  ...Array.from({ length: 9 }, (_, i) => ({ exam: 'AFCAT', subject: 'Combined', id: `afcat-combined-mock-${i + 2}`, target: 100 }))
+];
 
-// Helper to query Gemini with retries
-async function queryGemini(prompt, retries = 8, delayMs = 10000) {
-  const targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
-  const payload = {
-    contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: {
-      responseMimeType: "application/json"
-    }
-  };
-
-  for (let attempt = 1; attempt <= retries; attempt++) {
-    try {
-      const res = await fetch(targetUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
-
-      if (res.ok) {
-        const parsed = await res.json();
-        if (parsed.candidates && parsed.candidates.length > 0 && parsed.candidates[0].content && parsed.candidates[0].content.parts.length > 0) {
-          let jsonText = parsed.candidates[0].content.parts[0].text;
-          
-          // Robust JSON array extraction
-          const startArr = jsonText.indexOf('[');
-          const endArr = jsonText.lastIndexOf(']');
-          if (startArr !== -1 && endArr !== -1 && endArr > startArr) {
-            jsonText = jsonText.substring(startArr, endArr + 1);
-          }
-          
-          // Remove potential comments
-          jsonText = jsonText.replace(/\/\/.*?\n/g, '\n').replace(/\/\*[\s\S]*?\*\//g, '');
-          
-          return JSON.parse(jsonText);
-        } else {
-          throw new Error("Empty response content from Gemini.");
-        }
-      } else if (res.status === 429 || res.status === 503 || res.status === 500) {
-        console.log(`[Rate Limit/Load] Attempt ${attempt}/${retries} failed with status ${res.status}. Waiting ${delayMs / 1000}s...`);
-        await sleep(delayMs);
-        delayMs *= 2; // Exponential backoff
-      } else {
-        const text = await res.text();
-        throw new Error(`HTTP Error ${res.status}: ${text}`);
-      }
-    } catch (e) {
-      console.log(`[Error] Attempt ${attempt}/${retries} threw: ${e.message}`);
-      if (attempt === retries) throw e;
-      await sleep(delayMs);
-      delayMs *= 2; // Also apply exponential backoff on exceptions
-    }
+function loadCache() {
+  if (fs.existsSync(CACHE_FILE)) {
+    return JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
   }
+  return {};
 }
 
+function saveCache(cache) {
+  fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
+}
+
+async function callGemini(prompt) {
+  return new Promise((resolve, reject) => {
+    const data = JSON.stringify({
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: { response_mime_type: "application/json" }
+    });
+
+    const options = {
+      hostname: 'generativelanguage.googleapis.com',
+      path: `/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`,
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(data) }
+    };
+
+    const req = https.request(options, (res) => {
+      let responseBody = '';
+      res.on('data', chunk => responseBody += chunk);
+      res.on('end', () => {
+        if (res.statusCode >= 200 && res.statusCode < 300) {
+          try {
+            const parsed = JSON.parse(responseBody);
+            let text = parsed.candidates[0].content.parts[0].text;
+            // Clean up common MathJax unescaped backslashes
+            // If the model writes rac instead of \frac inside a JSON string, JSON.parse crashes.
+            // We'll try to parse directly first, if it fails, we'll try a regex cleanup.
+            try {
+              resolve(JSON.parse(text));
+            } catch (e1) {
+              try {
+                // Regex to escape unescaped backslashes
+                let cleanedText = text.replace(/\\([^"\\/bfnrt])/g, '\\\\$1');
+                resolve(JSON.parse(cleanedText));
+              } catch (e2) {
+                reject(new Error("Failed to parse Gemini response: " + e1.message + " | " + e2.message));
+              }
+            }
+          } catch (e) {
+            reject(new Error("Failed to parse Gemini response: " + e.message));
+          }
+        } else {
+          reject(new Error(`API Error ${res.statusCode}: ${responseBody}`));
+        }
+      });
+    });
+
+    req.on('error', reject);
+    req.write(data);
+    req.end();
+  });
+}
+
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
 async function main() {
-  console.log("=== CBT Unique Question Generator Starting ===");
-  if (!GEMINI_API_KEY) {
-    console.error("Error: GEMINI_API_KEY is not defined in the environment.");
-    process.exit(1);
-  }
-
-  // Load progress cache
-  let cache = {};
-  if (fs.existsSync(CACHE_FILE)) {
-    try {
-      cache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
-      console.log(`Loaded cache with ${Object.keys(cache).length} exams.`);
-    } catch (e) {
-      console.log("Error reading cache file, starting fresh:", e.message);
+  console.log("=== STRICT WEIGHTAGE AI PYQ GENERATOR ENGINE ===");
+  let cache = loadCache();
+  
+  for (const examData of examsToGenerate) {
+    if (!cache[examData.id]) {
+      cache[examData.id] = [];
     }
-  }
-
-  // Loop through exams to generate questions
-  for (const target of EXAMS_TO_REGENERATE) {
-    const examKey = target.id;
-    if (cache[examKey] && cache[examKey].length === target.count) {
-      console.log(`Exam ${target.exam} ${target.subject} Mock ${target.mockNum} already complete in cache. Skipping.`);
+    
+    const quotaKey = `${examData.exam}-${examData.subject}`;
+    const quotas = QUOTAS[quotaKey];
+    if (!quotas) {
+      console.error(`Missing quotas for ${quotaKey}`);
+      continue;
+    }
+    
+    let generatedSoFar = cache[examData.id].length;
+    if (generatedSoFar >= examData.target) {
+      console.log(`Skipping ${examData.id} (Already fully generated)`);
       continue;
     }
 
-    console.log(`\nGenerating for: ${target.exam} - ${target.subject} (Mock ${target.mockNum}) - Need ${target.count} questions...`);
-    const focus = (TOPIC_FOCUS[target.subject] && TOPIC_FOCUS[target.subject][target.mockNum]) || 'Mixed Syllabus';
-    console.log(`Focus Area: ${focus}`);
+    console.log(`\n>>> Generating ${examData.id} (${generatedSoFar}/${examData.target} questions)`);
+    
+    // We figure out which topic we should generate next based on what's already generated.
+    // The easiest way is to re-evaluate the counts for each topic based on the currently generated array.
+    // But since the AI might output slightly vague topic names, we'll just track index loops strictly.
+    
+    // We'll wipe the cache for this specific exam if it doesn't match the new quota system exactly
+    // to be perfectly safe, or we can just linearly append. Since we just wiped EVERYTHING in a previous step,
+    // the array is completely empty anyway.
+    
+    let currentExamQuestions = cache[examData.id];
+    let topicIndex = 0;
+    let questionsGeneratedForCurrentTopic = 0;
 
-    let questionsList = cache[examKey] || [];
-    const batchSize = 20;
-
-    while (questionsList.length < target.count) {
-      const currentBatchCount = Math.min(batchSize, target.count - questionsList.length);
-      console.log(`Generating batch of ${currentBatchCount} questions (current: ${questionsList.length}/${target.count})...`);
-
-      const prompt = `Generate exactly ${currentBatchCount} unique, high-quality multiple-choice questions for the UPSC ${target.exam} ${target.subject} exam, Mock Test #${target.mockNum}.
-Target focus area: ${focus}.
-Make sure the questions match actual previous year papers (PYQs) from 2018-2025 in terms of style, language, parameters, and difficulty. DO NOT repeat any questions.
-
-Format the output strictly as a JSON array of objects. Do not include markdown code block formatting (no \`\`\`json). Just the raw JSON array.
-Each object must have exactly these keys:
-- "question": string (Professional, clear, no emoji. If math, use standard notation like ^, sqrt, etc.)
-- "options": array of exactly 4 strings
-- "correct": number (index of correct option 0-3)
-- "explanation": string (Step-by-step mathematical or conceptual explanation explaining why the correct option is right and others are wrong)
-
-All questions must be unique.`;
-
-      try {
-        const batchQuestions = await queryGemini(prompt);
-        if (Array.isArray(batchQuestions) && batchQuestions.length > 0) {
-          questionsList.push(...batchQuestions);
-          // Update cache
-          cache[examKey] = questionsList;
-          fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
-          console.log(`Successfully added ${batchQuestions.length} questions to cache.`);
-        } else {
-          console.log("Error: Batch questions was not a valid array, retrying batch...");
+    // Fast-forward topic index if we resumed
+    for (let i = 0; i < currentExamQuestions.length; i++) {
+        questionsGeneratedForCurrentTopic++;
+        if (questionsGeneratedForCurrentTopic >= quotas[topicIndex].q) {
+            topicIndex++;
+            questionsGeneratedForCurrentTopic = 0;
         }
-      } catch (err) {
-        console.error(`Failed to generate batch due to persistent errors: ${err.message}. Waiting 60 seconds before full retry of this batch...`);
-        await sleep(60000);
-        continue; // Retry without exiting
-      }
-
-      // 4 seconds delay to avoid RPM limits
-      await sleep(4000);
     }
-  }
 
-  console.log("\nAll questions generated in cache! Merging into data.js...");
-  const dataContent = fs.readFileSync('data.js', 'utf8');
-  const dbStart = dataContent.indexOf('const CBT_EXAMS_DATABASE =');
-  if (dbStart === -1) {
-    console.error("CBT_EXAMS_DATABASE not found in data.js!");
-    process.exit(1);
-  }
+    while (topicIndex < quotas.length && currentExamQuestions.length < examData.target) {
+        const topicObj = quotas[topicIndex];
+        const remainingForTopic = topicObj.q - questionsGeneratedForCurrentTopic;
+        
+        if (remainingForTopic <= 0) {
+            topicIndex++;
+            questionsGeneratedForCurrentTopic = 0;
+            continue;
+        }
+        
+        const batchSize = Math.min(5, remainingForTopic);
+        
+        console.log(`[${examData.id}] Generating ${batchSize} questions for topic: ${topicObj.topic}...`);
+        
+        const prompt = `You are a strict examiner for the UPSC and Indian Air Force (NDA, CDS, AFCAT).
+Generate exactly 5 extreme-difficulty, high-yield multiple-choice questions for the topic "${topicObj.topic}" to severely test the candidate's conceptual depth.
 
-  let firstBracket = dataContent.indexOf('[', dbStart);
-  let bracketCount = 0;
-  let arrayEndIndex = -1;
-  for (let j = firstBracket; j < dataContent.length; j++) {
-    if (dataContent[j] === '[') {
-      bracketCount++;
-    } else if (dataContent[j] === ']') {
-      bracketCount--;
-      if (bracketCount === 0) {
-        arrayEndIndex = j;
-        break;
-      }
+HARDCORE DIFFICULTY CONSTRAINTS:
+1. Multi-Concept Synthesis: If this is Math/Physics, at least 2 questions must combine multiple chapters (e.g., Integration + Trigonometry, or Matrices + Probability).
+2. Dense Multi-Statement Logic: If this is GAT/GK/English, at least 2 questions MUST use the 3-statement format (e.g., "Consider the following statements... Which is/are correct?").
+3. Negative Traps: At least 1 question must use constraints like "INCORRECT", "NOT", or "EXCEPT" capitalized.
+4. Distractor Engineering: The wrong options (distractors) MUST represent the exact answers a student would get if they made the most common calculation error or forgot an exception.
+5. NO direct, simple factual recall questions. Force the user to think critically.
+6. Absolutely NO EMOJIS anywhere.
+
+For each of the 5 questions, provide:
+1. The question text.
+2. 4 distinct options (a, b, c, d).
+3. The index of the correct option (0 for A, 1 for B, 2 for C, 3 for D).
+4. A highly detailed, step-by-step educational explanation that teaches the core concept and proves why the distractors are wrong.
+
+Your response must be a single JSON object in the following format:
+{
+  "questions": [
+    {
+      "q": "question text",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "correct": 0,
+      "explanation": "detailed explanation"
+    },
+    ... (exactly 5 questions)
+  ]
+}
+Output purely the JSON, with no markdown wrappers or other text.`;
+
+        let success = false;
+        let retries = 20;
+        let retryDelay = 15000;
+
+        while (!success && retries > 0) {
+          try {
+            let batchData = await callGemini(prompt);
+            
+            // Handle if the AI wrapped it in an object
+            let parsedBatch = batchData.questions || batchData;
+            
+            if (!Array.isArray(parsedBatch)) throw new Error("Not an array");
+            
+            // Limit to exact batch size requested so we don't overflow the quota
+            const validBatch = parsedBatch.slice(0, batchSize);
+            
+            const mappedBatch = validBatch.map((item, idx) => ({
+              id: examData.id + "-" + Date.now() + "-" + idx,
+              question: item.q || item.question,
+              options: item.options,
+              correct: item.correct,
+              explanation: item.explanation,
+              subject: examData.subject,
+              topic: topicObj.topic,
+              difficulty: "Hardcore"
+            }));
+            
+            currentExamQuestions.push(...mappedBatch);
+            questionsGeneratedForCurrentTopic += mappedBatch.length;
+            
+            saveCache(cache);
+            success = true;
+            await delay(5000); // Standard API pacing
+          } catch (e) {
+            if (e.message.includes('429') || e.message.includes('503')) {
+              console.log(`[API Limit/Unavailable] ${e.message} - Retrying in ${retryDelay/1000}s...`);
+              await delay(retryDelay);
+              retryDelay = Math.min(retryDelay * 1.5, 120000); // Max wait 2 minutes
+            } else {
+              console.log(`Error: ${e.message}, retrying in 10s...`);
+              await delay(10000); // Prevent infinite instant loops on unexpected errors
+            }
+            retries--;
+          }
+        }
+        
+        if (!success) {
+            console.error("Failed to generate batch after 20 retries. Halting to prevent infinite loops.");
+            process.exit(1);
+        }
     }
+    
+    console.log(`+++ Completed ${examData.id} +++`);
   }
-
-  const cbtExamsStr = dataContent.substring(firstBracket, arrayEndIndex + 1);
-  const CBT_EXAMS_DATABASE = eval('(' + cbtExamsStr + ')');
-
-  // Update CBT_EXAMS_DATABASE with cached questions
-  let updatedCount = 0;
-  CBT_EXAMS_DATABASE.forEach(exam => {
-    if (cache[exam.id]) {
-      exam.questions = cache[exam.id];
-      exam.questionsCount = cache[exam.id].length;
-      updatedCount++;
-    }
-  });
-
-  const updatedCbtExamsStr = JSON.stringify(CBT_EXAMS_DATABASE, null, 2);
-  const newContent = dataContent.substring(0, firstBracket) + updatedCbtExamsStr + dataContent.substring(arrayEndIndex + 1);
-  fs.writeFileSync('data.js', newContent);
-
-  console.log(`Successfully merged ${updatedCount} exams into data.js!`);
-  console.log("Generation complete!");
+  
+  console.log("=== ALL EXAMS STRICTLY GENERATED ===");
 }
 
 main();

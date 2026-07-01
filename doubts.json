@@ -1,0 +1,5432 @@
+[
+  {
+    "exam": "nda-math-v2-2",
+    "title": "NDA Mathematics Mock Test 2",
+    "qNum": 7,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The solution set for the quadratic inequation x x 2 5 6 0 − + ≥ is",
+    "options": [
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] 2 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-2",
+    "title": "NDA Mathematics Mock Test 2",
+    "qNum": 19,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If α β , and γ are the zeros of the polynomial f x ax bx cx d ( ) = + + + 2 2 , then α β γ 2 2 2 + + is equal to",
+    "options": [
+      "b ac a 2 2 −",
+      "b ac a 2 2 −",
+      "b ac b 2 2 2 +",
+      "b ac a 2 2 2 −"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "nda-math-v2-2",
+    "title": "NDA Mathematics Mock Test 2",
+    "qNum": 60,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The area of a sector of a circle of radius 36 cm is 72 2 π cm the length of the corresponding arc of the sector is",
+    "options": [
+      "π cm",
+      "3π cm",
+      "3π cm",
+      "4π cm"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-2",
+    "title": "NDA Mathematics Mock Test 2",
+    "qNum": 69,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If ∆is the area of a right angled triangle and b is one of the sides containing the right angle, then what is the length of the altitude on the hypotenuse?",
+    "options": [
+      "2 4 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 2 2 4 2 ∆ ∆ b b +"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-2",
+    "title": "NDA Mathematics Mock Test 2",
+    "qNum": 115,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If 7 3 4 2 2 cos sin θ θ + = and 0 2 < < θ π, then what is the value of tan θ?",
+    "options": [
+      "7",
+      "7 3",
+      "3",
+      "3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-3",
+    "title": "NDA Mathematics Mock Test 3",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If cotθ = 7 24 and π θ π < < 3 2 , then the value of cos sin θ θ − is",
+    "options": [
+      "19 25",
+      "18 25",
+      "17 25",
+      "18 25"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-3",
+    "title": "NDA Mathematics Mock Test 3",
+    "qNum": 46,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The minimum value of cos cos cos 2 2 2 x y z + − is",
+    "options": [
+      "−1",
+      "0",
+      "2",
+      "2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-3",
+    "title": "NDA Mathematics Mock Test 3",
+    "qNum": 60,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "ABCD is a parallelogram with AB and AD as adjacent sides. If ∠ = ° A 60 and AB AD = 2 , then the diagonal BD will be equal to",
+    "options": [
+      "2 AD",
+      "3AD",
+      "2 AD",
+      "3AD"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-4",
+    "title": "NDA Mathematics Mock Test 4",
+    "qNum": 34,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "sin cos cos sin π π π π 4 12 4 12 − is equal to",
+    "options": [
+      "1 2",
+      "3",
+      "3 2",
+      "1 2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-4",
+    "title": "NDA Mathematics Mock Test 4",
+    "qNum": 40,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If tan A = − 2 1, then the value of cosec A A ⋅sec is equal to",
+    "options": [
+      "1 2",
+      "2 2",
+      "2 2",
+      "3 2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-4",
+    "title": "NDA Mathematics Mock Test 4",
+    "qNum": 50,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The value of 2 2 2 4 + + cos θ is",
+    "options": [
+      "2 2 cos θ",
+      "2 2 cos θ",
+      "2 cos θ",
+      "2 2 cos θ"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-4",
+    "title": "NDA Mathematics Mock Test 4",
+    "qNum": 62,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A square and a rhombus have the same base and the rhombus is inclined at 30°. What is the ratio of area of the square to the area of the rhombus?",
+    "options": [
+      "2 : 1",
+      "2 : 1",
+      "1 : 1",
+      "2 : 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-5",
+    "title": "NDA Mathematics Mock Test 5",
+    "qNum": 17,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The solution set for the quadratic inequation x x 2 5 6 0 − + ≥ is",
+    "options": [
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] 2 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-5",
+    "title": "NDA Mathematics Mock Test 5",
+    "qNum": 29,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If α β , and γ are the zeros of the polynomial f x ax bx cx d ( ) = + + + 2 2 , then α β γ 2 2 2 + + is equal to",
+    "options": [
+      "b ac a 2 2 −",
+      "b ac a 2 2 −",
+      "b ac b 2 2 2 +",
+      "b ac a 2 2 2 −"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "nda-math-v2-5",
+    "title": "NDA Mathematics Mock Test 5",
+    "qNum": 117,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The value of cosec267 57 2 °+ ° sec – cot2 33°– tan2 23° is",
+    "options": [
+      "2 2",
+      "2",
+      "2",
+      "0"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-6",
+    "title": "NDA Mathematics Mock Test 6",
+    "qNum": 63,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The area of a sector of a circle of radius 36 cm is 72 2 π cm the length of the corresponding arc of the sector is",
+    "options": [
+      "π cm",
+      "3π cm",
+      "3π cm",
+      "4π cm"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-7",
+    "title": "NDA Mathematics Mock Test 7",
+    "qNum": 52,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If ∆is the area of a right angled triangle and b is one of the sides containing the right angle, then what is the length of the altitude on the hypotenuse?",
+    "options": [
+      "2 4 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 2 2 4 2 ∆ ∆ b b +"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-7",
+    "title": "NDA Mathematics Mock Test 7",
+    "qNum": 63,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "ABCD is a parallelogram with AB and AD as adjacent sides. If ∠ = ° A 60 and AB AD = 2 , then the diagonal BD will be equal to",
+    "options": [
+      "2 AD",
+      "3AD",
+      "2 AD",
+      "3AD"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-8",
+    "title": "NDA Mathematics Mock Test 8",
+    "qNum": 27,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The solution set for the quadratic inequation x x 2 5 6 0 − + ≥ is",
+    "options": [
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] 2 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-8",
+    "title": "NDA Mathematics Mock Test 8",
+    "qNum": 34,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Let p sin^2 α + q cos^2 α = m, q sin^2 β + p cos^2 β = n; p ≠ m, n and q ≠ m, n. What is (tan α / tan β)^2 equal to?",
+    "options": [
+      "((m - q)(n - q)) / ((m - p)(n - p))",
+      "-((m - q)(n - p)) / ((m - p)(n - q))",
+      "((m - q)(n - q)) / ((m - p)(n - p))",
+      "((m - q)(n - p)) / ((m - p)(n - q))"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-8",
+    "title": "NDA Mathematics Mock Test 8",
+    "qNum": 65,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A square and a rhombus have the same base and the rhombus is inclined at 30°. What is the ratio of area of the square to the area of the rhombus?",
+    "options": [
+      "2 : 1",
+      "2 : 1",
+      "1 : 1",
+      "2 : 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-8",
+    "title": "NDA Mathematics Mock Test 8",
+    "qNum": 87,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "What is 5 10 5 5 2 20 32 50 + − − + equal to?",
+    "options": [
+      "5",
+      "5 2",
+      "5 5",
+      "5"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-9",
+    "title": "NDA Mathematics Mock Test 9",
+    "qNum": 9,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If α β , and γ are the zeros of the polynomial f x ax bx cx d ( ) = + + + 2 2 , then α β γ 2 2 2 + + is equal to",
+    "options": [
+      "b ac a 2 2 −",
+      "b ac a 2 2 −",
+      "b ac b 2 2 2 +",
+      "b ac a 2 2 2 −"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "nda-math-v2-9",
+    "title": "NDA Mathematics Mock Test 9",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The value of 32 4 8 3 8 6 2 2 3 cot sec cos π π π    −    +    is equal to",
+    "options": [
+      "3",
+      "2 3",
+      "3",
+      "3 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-10",
+    "title": "NDA Mathematics Mock Test 10",
+    "qNum": 48,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A spherical balloon of radius r subtends angle 60° at the eye of an observer. If the angle of elevation of its centre is 60° and h is the height of the centre of the balloon, then which one of the following is correct?",
+    "options": [
+      "h r =",
+      "h r = 2",
+      "h r = 3",
+      "h r = 2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-10",
+    "title": "NDA Mathematics Mock Test 10",
+    "qNum": 66,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The area of a sector of a circle of radius 36 cm is 72 2 π cm the length of the corresponding arc of the sector is",
+    "options": [
+      "π cm",
+      "3π cm",
+      "3π cm",
+      "4π cm"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-10",
+    "title": "NDA Mathematics Mock Test 10",
+    "qNum": 116,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If ∆is the area of a right angled triangle and b is one of the sides containing the right angle, then what is the length of the altitude on the hypotenuse?",
+    "options": [
+      "2 4 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 2 2 4 2 ∆ ∆ b b +"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-11",
+    "title": "NDA Mathematics Mock Test 11",
+    "qNum": 35,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The value of cosec267 57 2 °+ ° sec – cot2 33°– tan2 23° is",
+    "options": [
+      "2 2",
+      "2",
+      "2",
+      "0"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-11",
+    "title": "NDA Mathematics Mock Test 11",
+    "qNum": 55,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If ∆is the area of a right angled triangle and b is one of the sides containing the right angle, then what is the length of the altitude on the hypotenuse?",
+    "options": [
+      "2 4 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 2 2 4 2 ∆ ∆ b b +"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-11",
+    "title": "NDA Mathematics Mock Test 11",
+    "qNum": 66,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "ABCD is a parallelogram with AB and AD as adjacent sides. If ∠ = ° A 60 and AB AD = 2 , then the diagonal BD will be equal to",
+    "options": [
+      "2 AD",
+      "3AD",
+      "2 AD",
+      "3AD"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-12",
+    "title": "NDA Mathematics Mock Test 12",
+    "qNum": 7,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The solution set for the quadratic inequation x x 2 5 6 0 − + ≥ is",
+    "options": [
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] 2 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-12",
+    "title": "NDA Mathematics Mock Test 12",
+    "qNum": 19,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If α β , and γ are the zeros of the polynomial f x ax bx cx d ( ) = + + + 2 2 , then α β γ 2 2 2 + + is equal to",
+    "options": [
+      "b ac a 2 2 −",
+      "b ac a 2 2 −",
+      "b ac b 2 2 2 +",
+      "b ac a 2 2 2 −"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "nda-math-v2-12",
+    "title": "NDA Mathematics Mock Test 12",
+    "qNum": 68,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A square and a rhombus have the same base and the rhombus is inclined at 30°. What is the ratio of area of the square to the area of the rhombus?",
+    "options": [
+      "2 : 1",
+      "2 : 1",
+      "1 : 1",
+      "2 : 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-13",
+    "title": "NDA Mathematics Mock Test 13",
+    "qNum": 48,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If sin cos θ θ + = 3, then what is tan cot θ θ + equal to?",
+    "options": [
+      "1",
+      "2",
+      "2",
+      "3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-13",
+    "title": "NDA Mathematics Mock Test 13",
+    "qNum": 49,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The value of cos sin 15 15 ° − ° is equal to",
+    "options": [
+      "1 3",
+      "1 2",
+      "1 2",
+      "3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-14",
+    "title": "NDA Mathematics Mock Test 14",
+    "qNum": 69,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The area of a sector of a circle of radius 36 cm is 72 2 π cm the length of the corresponding arc of the sector is",
+    "options": [
+      "π cm",
+      "3π cm",
+      "3π cm",
+      "4π cm"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-15",
+    "title": "NDA Mathematics Mock Test 15",
+    "qNum": 17,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The solution set for the quadratic inequation x x 2 5 6 0 − + ≥ is",
+    "options": [
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] 2 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-15",
+    "title": "NDA Mathematics Mock Test 15",
+    "qNum": 29,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If α β , and γ are the zeros of the polynomial f x ax bx cx d ( ) = + + + 2 2 , then α β γ 2 2 2 + + is equal to",
+    "options": [
+      "b ac a 2 2 −",
+      "b ac a 2 2 −",
+      "b ac b 2 2 2 +",
+      "b ac a 2 2 2 −"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "nda-math-v2-15",
+    "title": "NDA Mathematics Mock Test 15",
+    "qNum": 33,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If tan cot 6 2 θ θ = , where 0 6 2 < < θ π, then what is the value of sec 4θ ?",
+    "options": [
+      "2",
+      "2",
+      "2 3",
+      "4 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-15",
+    "title": "NDA Mathematics Mock Test 15",
+    "qNum": 37,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If 7 3 4 2 2 cos sin θ θ + = and 0 2 < < θ π, then what is the value of tan θ?",
+    "options": [
+      "7",
+      "7 3",
+      "3",
+      "3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-15",
+    "title": "NDA Mathematics Mock Test 15",
+    "qNum": 58,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If ∆is the area of a right angled triangle and b is one of the sides containing the right angle, then what is the length of the altitude on the hypotenuse?",
+    "options": [
+      "2 4 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 2 2 4 2 ∆ ∆ b b +"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-math-v2-15",
+    "title": "NDA Mathematics Mock Test 15",
+    "qNum": 69,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "ABCD is a parallelogram with AB and AD as adjacent sides. If ∠ = ° A 60 and AB AD = 2 , then the diagonal BD will be equal to",
+    "options": [
+      "2 AD",
+      "3AD",
+      "2 AD",
+      "3AD"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-1",
+    "title": "NDA GAT Mock Test 1",
+    "qNum": 27,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-1",
+    "title": "NDA GAT Mock Test 1",
+    "qNum": 31,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-1",
+    "title": "NDA GAT Mock Test 1",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-1",
+    "title": "NDA GAT Mock Test 1",
+    "qNum": 70,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "nda-gat-v2-1",
+    "title": "NDA GAT Mock Test 1",
+    "qNum": 75,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-1",
+    "title": "NDA GAT Mock Test 1",
+    "qNum": 107,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The ‘Sur Sagar’ is",
+    "options": [
+      "a medieval treatise on music composed by Tansen",
+      "a poetic work of Surdas",
+      "memories of Bahadur Shah Zafar",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-1",
+    "title": "NDA GAT Mock Test 1",
+    "qNum": 125,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The shadow of a tower standing on a level plane is found to be 50 m longer when the Sun’s elevation is 30°, then when it is 60°. What is the height of the tower?",
+    "options": [
+      "25 m",
+      "25 3 m",
+      "25 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-2",
+    "title": "NDA GAT Mock Test 2",
+    "qNum": 28,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-2",
+    "title": "NDA GAT Mock Test 2",
+    "qNum": 32,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-2",
+    "title": "NDA GAT Mock Test 2",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-2",
+    "title": "NDA GAT Mock Test 2",
+    "qNum": 76,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "nda-gat-v2-2",
+    "title": "NDA GAT Mock Test 2",
+    "qNum": 81,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-2",
+    "title": "NDA GAT Mock Test 2",
+    "qNum": 147,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The ‘Sur Sagar’ is",
+    "options": [
+      "a medieval treatise on music composed by Tansen",
+      "a poetic work of Surdas",
+      "memories of Bahadur Shah Zafar",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-3",
+    "title": "NDA GAT Mock Test 3",
+    "qNum": 29,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-3",
+    "title": "NDA GAT Mock Test 3",
+    "qNum": 33,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-3",
+    "title": "NDA GAT Mock Test 3",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-3",
+    "title": "NDA GAT Mock Test 3",
+    "qNum": 82,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "nda-gat-v2-4",
+    "title": "NDA GAT Mock Test 4",
+    "qNum": 30,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-4",
+    "title": "NDA GAT Mock Test 4",
+    "qNum": 34,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-4",
+    "title": "NDA GAT Mock Test 4",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-4",
+    "title": "NDA GAT Mock Test 4",
+    "qNum": 72,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-4",
+    "title": "NDA GAT Mock Test 4",
+    "qNum": 110,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The shadow of a tower standing on a level plane is found to be 50 m longer when the Sun’s elevation is 30°, then when it is 60°. What is the height of the tower?",
+    "options": [
+      "25 m",
+      "25 3 m",
+      "25 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-5",
+    "title": "NDA GAT Mock Test 5",
+    "qNum": 31,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-5",
+    "title": "NDA GAT Mock Test 5",
+    "qNum": 35,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-5",
+    "title": "NDA GAT Mock Test 5",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-5",
+    "title": "NDA GAT Mock Test 5",
+    "qNum": 73,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "nda-gat-v2-5",
+    "title": "NDA GAT Mock Test 5",
+    "qNum": 78,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-5",
+    "title": "NDA GAT Mock Test 5",
+    "qNum": 105,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The ‘Sur Sagar’ is",
+    "options": [
+      "a medieval treatise on music composed by Tansen",
+      "a poetic work of Surdas",
+      "memories of Bahadur Shah Zafar",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-6",
+    "title": "NDA GAT Mock Test 6",
+    "qNum": 32,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-6",
+    "title": "NDA GAT Mock Test 6",
+    "qNum": 36,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-6",
+    "title": "NDA GAT Mock Test 6",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-6",
+    "title": "NDA GAT Mock Test 6",
+    "qNum": 79,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "nda-gat-v2-6",
+    "title": "NDA GAT Mock Test 6",
+    "qNum": 115,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The shadow of a tower standing on a level plane is found to be 50 m longer when the Sun’s elevation is 30°, then when it is 60°. What is the height of the tower?",
+    "options": [
+      "25 m",
+      "25 3 m",
+      "25 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-7",
+    "title": "NDA GAT Mock Test 7",
+    "qNum": 33,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-7",
+    "title": "NDA GAT Mock Test 7",
+    "qNum": 37,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-7",
+    "title": "NDA GAT Mock Test 7",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-7",
+    "title": "NDA GAT Mock Test 7",
+    "qNum": 69,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-8",
+    "title": "NDA GAT Mock Test 8",
+    "qNum": 34,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-8",
+    "title": "NDA GAT Mock Test 8",
+    "qNum": 38,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-8",
+    "title": "NDA GAT Mock Test 8",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-8",
+    "title": "NDA GAT Mock Test 8",
+    "qNum": 70,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "nda-gat-v2-8",
+    "title": "NDA GAT Mock Test 8",
+    "qNum": 75,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-8",
+    "title": "NDA GAT Mock Test 8",
+    "qNum": 120,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The shadow of a tower standing on a level plane is found to be 50 m longer when the Sun’s elevation is 30°, then when it is 60°. What is the height of the tower?",
+    "options": [
+      "25 m",
+      "25 3 m",
+      "25 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-9",
+    "title": "NDA GAT Mock Test 9",
+    "qNum": 35,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-9",
+    "title": "NDA GAT Mock Test 9",
+    "qNum": 39,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-9",
+    "title": "NDA GAT Mock Test 9",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-9",
+    "title": "NDA GAT Mock Test 9",
+    "qNum": 76,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "nda-gat-v2-9",
+    "title": "NDA GAT Mock Test 9",
+    "qNum": 81,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-9",
+    "title": "NDA GAT Mock Test 9",
+    "qNum": 103,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The ‘Sur Sagar’ is",
+    "options": [
+      "a medieval treatise on music composed by Tansen",
+      "a poetic work of Surdas",
+      "memories of Bahadur Shah Zafar",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-9",
+    "title": "NDA GAT Mock Test 9",
+    "qNum": 144,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The shadow of a tower standing on a level plane is found to be 50 m longer when the Sun’s elevation is 30°, then when it is 60°. What is the height of the tower?",
+    "options": [
+      "25 m",
+      "25 3 m",
+      "25 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-10",
+    "title": "NDA GAT Mock Test 10",
+    "qNum": 36,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-10",
+    "title": "NDA GAT Mock Test 10",
+    "qNum": 40,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-10",
+    "title": "NDA GAT Mock Test 10",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-10",
+    "title": "NDA GAT Mock Test 10",
+    "qNum": 82,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "nda-gat-v2-10",
+    "title": "NDA GAT Mock Test 10",
+    "qNum": 125,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The shadow of a tower standing on a level plane is found to be 50 m longer when the Sun’s elevation is 30°, then when it is 60°. What is the height of the tower?",
+    "options": [
+      "25 m",
+      "25 3 m",
+      "25 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-11",
+    "title": "NDA GAT Mock Test 11",
+    "qNum": 37,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-11",
+    "title": "NDA GAT Mock Test 11",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-11",
+    "title": "NDA GAT Mock Test 11",
+    "qNum": 72,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-12",
+    "title": "NDA GAT Mock Test 12",
+    "qNum": 21,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-12",
+    "title": "NDA GAT Mock Test 12",
+    "qNum": 38,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-12",
+    "title": "NDA GAT Mock Test 12",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-12",
+    "title": "NDA GAT Mock Test 12",
+    "qNum": 73,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "nda-gat-v2-12",
+    "title": "NDA GAT Mock Test 12",
+    "qNum": 78,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-13",
+    "title": "NDA GAT Mock Test 13",
+    "qNum": 22,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-13",
+    "title": "NDA GAT Mock Test 13",
+    "qNum": 39,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-13",
+    "title": "NDA GAT Mock Test 13",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-13",
+    "title": "NDA GAT Mock Test 13",
+    "qNum": 79,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "nda-gat-v2-13",
+    "title": "NDA GAT Mock Test 13",
+    "qNum": 101,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The ‘Sur Sagar’ is",
+    "options": [
+      "a medieval treatise on music composed by Tansen",
+      "a poetic work of Surdas",
+      "memories of Bahadur Shah Zafar",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-13",
+    "title": "NDA GAT Mock Test 13",
+    "qNum": 110,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The shadow of a tower standing on a level plane is found to be 50 m longer when the Sun’s elevation is 30°, then when it is 60°. What is the height of the tower?",
+    "options": [
+      "25 m",
+      "25 3 m",
+      "25 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-13",
+    "title": "NDA GAT Mock Test 13",
+    "qNum": 146,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-14",
+    "title": "NDA GAT Mock Test 14",
+    "qNum": 23,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-14",
+    "title": "NDA GAT Mock Test 14",
+    "qNum": 40,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-14",
+    "title": "NDA GAT Mock Test 14",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-14",
+    "title": "NDA GAT Mock Test 14",
+    "qNum": 69,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-15",
+    "title": "NDA GAT Mock Test 15",
+    "qNum": 24,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-15",
+    "title": "NDA GAT Mock Test 15",
+    "qNum": 55,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-15",
+    "title": "NDA GAT Mock Test 15",
+    "qNum": 70,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "nda-gat-v2-15",
+    "title": "NDA GAT Mock Test 15",
+    "qNum": 75,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "nda-gat-v2-15",
+    "title": "NDA GAT Mock Test 15",
+    "qNum": 115,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The shadow of a tower standing on a level plane is found to be 50 m longer when the Sun’s elevation is 30°, then when it is 60°. What is the height of the tower?",
+    "options": [
+      "25 m",
+      "25 3 m",
+      "25 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-1",
+    "title": "CDS Mathematics Mock Test 1",
+    "qNum": 9,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "What is 5 10 5 5 2 20 32 50 + − − + equal to?",
+    "options": [
+      "5",
+      "5 2",
+      "5 5",
+      "5"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-1",
+    "title": "CDS Mathematics Mock Test 1",
+    "qNum": 50,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If α β , and γ are the zeros of the polynomial f x ax bx cx d ( ) = + + + 2 2 , then α β γ 2 2 2 + + is equal to",
+    "options": [
+      "b ac a 2 2 −",
+      "b ac a 2 2 −",
+      "b ac b 2 2 2 +",
+      "b ac a 2 2 2 −"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-math-v2-1",
+    "title": "CDS Mathematics Mock Test 1",
+    "qNum": 65,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Let p sin^2 α + q cos^2 α = m, q sin^2 β + p cos^2 β = n; p ≠ m, n and q ≠ m, n. What is (tan α / tan β)^2 equal to?",
+    "options": [
+      "((m - q)(n - q)) / ((m - p)(n - p))",
+      "-((m - q)(n - p)) / ((m - p)(n - q))",
+      "((m - q)(n - q)) / ((m - p)(n - p))",
+      "((m - q)(n - p)) / ((m - p)(n - q))"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-1",
+    "title": "CDS Mathematics Mock Test 1",
+    "qNum": 75,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The value of cosec267 57 2 °+ ° sec – cot2 33°– tan2 23° is",
+    "options": [
+      "2 2",
+      "2",
+      "2",
+      "0"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-2",
+    "title": "CDS Mathematics Mock Test 2",
+    "qNum": 78,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "ABCD is a parallelogram with AB and AD as adjacent sides. If ∠ = ° A 60 and AB AD = 2 , then the diagonal BD will be equal to",
+    "options": [
+      "2 AD",
+      "3AD",
+      "2 AD",
+      "3AD"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-2",
+    "title": "CDS Mathematics Mock Test 2",
+    "qNum": 83,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The area of a sector of a circle of radius 36 cm is 72 2 π cm the length of the corresponding arc of the sector is",
+    "options": [
+      "π cm",
+      "3π cm",
+      "3π cm",
+      "4π cm"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-2",
+    "title": "CDS Mathematics Mock Test 2",
+    "qNum": 89,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If ∆is the area of a right angled triangle and b is one of the sides containing the right angle, then what is the length of the altitude on the hypotenuse?",
+    "options": [
+      "2 4 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 2 2 4 2 ∆ ∆ b b +"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-3",
+    "title": "CDS Mathematics Mock Test 3",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The solution set for the quadratic inequation x x 2 5 6 0 − + ≥ is",
+    "options": [
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] 2 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-3",
+    "title": "CDS Mathematics Mock Test 3",
+    "qNum": 69,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The minimum value of cos cos cos 2 2 2 x y z + − is",
+    "options": [
+      "−1",
+      "0",
+      "2",
+      "2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-4",
+    "title": "CDS Mathematics Mock Test 4",
+    "qNum": 74,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "sin cos cos sin π π π π 4 12 4 12 − is equal to",
+    "options": [
+      "1 2",
+      "3",
+      "3 2",
+      "1 2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-4",
+    "title": "CDS Mathematics Mock Test 4",
+    "qNum": 81,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A square and a rhombus have the same base and the rhombus is inclined at 30°. What is the ratio of area of the square to the area of the rhombus?",
+    "options": [
+      "2 : 1",
+      "2 : 1",
+      "1 : 1",
+      "2 : 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-5",
+    "title": "CDS Mathematics Mock Test 5",
+    "qNum": 48,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If α β , and γ are the zeros of the polynomial f x ax bx cx d ( ) = + + + 2 2 , then α β γ 2 2 2 + + is equal to",
+    "options": [
+      "b ac a 2 2 −",
+      "b ac a 2 2 −",
+      "b ac b 2 2 2 +",
+      "b ac a 2 2 2 −"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-math-v2-6",
+    "title": "CDS Mathematics Mock Test 6",
+    "qNum": 12,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "What is 5 10 5 5 2 20 32 50 + − − + equal to?",
+    "options": [
+      "5",
+      "5 2",
+      "5 5",
+      "5"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-6",
+    "title": "CDS Mathematics Mock Test 6",
+    "qNum": 70,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If 7 3 4 2 2 cos sin θ θ + = and 0 2 < < θ π, then what is the value of tan θ?",
+    "options": [
+      "7",
+      "7 3",
+      "3",
+      "3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-6",
+    "title": "CDS Mathematics Mock Test 6",
+    "qNum": 89,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "ABCD is a parallelogram with AB and AD as adjacent sides. If ∠ = ° A 60 and AB AD = 2 , then the diagonal BD will be equal to",
+    "options": [
+      "2 AD",
+      "3AD",
+      "2 AD",
+      "3AD"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-7",
+    "title": "CDS Mathematics Mock Test 7",
+    "qNum": 43,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The solution set for the quadratic inequation x x 2 5 6 0 − + ≥ is",
+    "options": [
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] 2 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-7",
+    "title": "CDS Mathematics Mock Test 7",
+    "qNum": 62,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If cotθ = 7 24 and π θ π < < 3 2 , then the value of cos sin θ θ − is",
+    "options": [
+      "19 25",
+      "18 25",
+      "17 25",
+      "18 25"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-7",
+    "title": "CDS Mathematics Mock Test 7",
+    "qNum": 67,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If secθ = 13 5 , then 2 3 4 9 sin cos sin cos θ θ θ θ − − is equal to",
+    "options": [
+      "1 3 /",
+      "−3",
+      "3",
+      "3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-7",
+    "title": "CDS Mathematics Mock Test 7",
+    "qNum": 72,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If tan cot 6 2 θ θ = , where 0 6 2 < < θ π, then what is the value of sec 4θ ?",
+    "options": [
+      "2",
+      "2",
+      "2 3",
+      "4 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-7",
+    "title": "CDS Mathematics Mock Test 7",
+    "qNum": 75,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The value of 2 2 2 4 + + cos θ is",
+    "options": [
+      "2 2 cos θ",
+      "2 2 cos θ",
+      "2 cos θ",
+      "2 2 cos θ"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-7",
+    "title": "CDS Mathematics Mock Test 7",
+    "qNum": 79,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The area of a sector of a circle of radius 36 cm is 72 2 π cm the length of the corresponding arc of the sector is",
+    "options": [
+      "π cm",
+      "3π cm",
+      "3π cm",
+      "4π cm"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-7",
+    "title": "CDS Mathematics Mock Test 7",
+    "qNum": 85,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If ∆is the area of a right angled triangle and b is one of the sides containing the right angle, then what is the length of the altitude on the hypotenuse?",
+    "options": [
+      "2 4 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 2 2 4 2 ∆ ∆ b b +"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-9",
+    "title": "CDS Mathematics Mock Test 9",
+    "qNum": 46,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If α β , and γ are the zeros of the polynomial f x ax bx cx d ( ) = + + + 2 2 , then α β γ 2 2 2 + + is equal to",
+    "options": [
+      "b ac a 2 2 −",
+      "b ac a 2 2 −",
+      "b ac b 2 2 2 +",
+      "b ac a 2 2 2 −"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-math-v2-9",
+    "title": "CDS Mathematics Mock Test 9",
+    "qNum": 70,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The value of 32 4 8 3 8 6 2 2 3 cot sec cos π π π    −    +    is equal to",
+    "options": [
+      "3",
+      "2 3",
+      "3",
+      "3 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-9",
+    "title": "CDS Mathematics Mock Test 9",
+    "qNum": 77,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A square and a rhombus have the same base and the rhombus is inclined at 30°. What is the ratio of area of the square to the area of the rhombus?",
+    "options": [
+      "2 : 1",
+      "2 : 1",
+      "1 : 1",
+      "2 : 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-10",
+    "title": "CDS Mathematics Mock Test 10",
+    "qNum": 67,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If tan A = − 2 1, then the value of cosec A A ⋅sec is equal to",
+    "options": [
+      "1 2",
+      "2 2",
+      "2 2",
+      "3 2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-10",
+    "title": "CDS Mathematics Mock Test 10",
+    "qNum": 73,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A spherical balloon of radius r subtends angle 60° at the eye of an observer. If the angle of elevation of its centre is 60° and h is the height of the centre of the balloon, then which one of the following is correct?",
+    "options": [
+      "h r =",
+      "h r = 2",
+      "h r = 3",
+      "h r = 2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-11",
+    "title": "CDS Mathematics Mock Test 11",
+    "qNum": 15,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "What is 5 10 5 5 2 20 32 50 + − − + equal to?",
+    "options": [
+      "5",
+      "5 2",
+      "5 5",
+      "5"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-11",
+    "title": "CDS Mathematics Mock Test 11",
+    "qNum": 41,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The solution set for the quadratic inequation x x 2 5 6 0 − + ≥ is",
+    "options": [
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] 2 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-11",
+    "title": "CDS Mathematics Mock Test 11",
+    "qNum": 72,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The value of cos sin 15 15 ° − ° is equal to",
+    "options": [
+      "1 3",
+      "1 2",
+      "1 2",
+      "3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-11",
+    "title": "CDS Mathematics Mock Test 11",
+    "qNum": 74,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If sin cos θ θ + = 3, then what is tan cot θ θ + equal to?",
+    "options": [
+      "1",
+      "2",
+      "2",
+      "3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-11",
+    "title": "CDS Mathematics Mock Test 11",
+    "qNum": 85,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "ABCD is a parallelogram with AB and AD as adjacent sides. If ∠ = ° A 60 and AB AD = 2 , then the diagonal BD will be equal to",
+    "options": [
+      "2 AD",
+      "3AD",
+      "2 AD",
+      "3AD"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-11",
+    "title": "CDS Mathematics Mock Test 11",
+    "qNum": 90,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The area of a sector of a circle of radius 36 cm is 72 2 π cm the length of the corresponding arc of the sector is",
+    "options": [
+      "π cm",
+      "3π cm",
+      "3π cm",
+      "4π cm"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-12",
+    "title": "CDS Mathematics Mock Test 12",
+    "qNum": 81,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If ∆is the area of a right angled triangle and b is one of the sides containing the right angle, then what is the length of the altitude on the hypotenuse?",
+    "options": [
+      "2 4 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 4 2 4 2 ∆ ∆ b b +",
+      "2 2 2 4 2 ∆ ∆ b b +"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-13",
+    "title": "CDS Mathematics Mock Test 13",
+    "qNum": 44,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "If α β , and γ are the zeros of the polynomial f x ax bx cx d ( ) = + + + 2 2 , then α β γ 2 2 2 + + is equal to",
+    "options": [
+      "b ac a 2 2 −",
+      "b ac a 2 2 −",
+      "b ac b 2 2 2 +",
+      "b ac a 2 2 2 −"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-math-v2-13",
+    "title": "CDS Mathematics Mock Test 13",
+    "qNum": 71,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Let p sin^2 α + q cos^2 α = m, q sin^2 β + p cos^2 β = n; p ≠ m, n and q ≠ m, n. What is (tan α / tan β)^2 equal to?",
+    "options": [
+      "((m - q)(n - q)) / ((m - p)(n - p))",
+      "-((m - q)(n - p)) / ((m - p)(n - q))",
+      "((m - q)(n - q)) / ((m - p)(n - p))",
+      "((m - q)(n - p)) / ((m - p)(n - q))"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-13",
+    "title": "CDS Mathematics Mock Test 13",
+    "qNum": 88,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A square and a rhombus have the same base and the rhombus is inclined at 30°. What is the ratio of area of the square to the area of the rhombus?",
+    "options": [
+      "2 : 1",
+      "2 : 1",
+      "1 : 1",
+      "2 : 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-14",
+    "title": "CDS Mathematics Mock Test 14",
+    "qNum": 59,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The solution set for the quadratic inequation x x 2 5 6 0 − + ≥ is",
+    "options": [
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] [ , ] −∞ ∪ ∞ 2 3",
+      "[ , ] 2 3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-14",
+    "title": "CDS Mathematics Mock Test 14",
+    "qNum": 66,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The value of cosec267 57 2 °+ ° sec – cot2 33°– tan2 23° is",
+    "options": [
+      "2 2",
+      "2",
+      "2",
+      "0"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-math-v2-15",
+    "title": "CDS Mathematics Mock Test 15",
+    "qNum": 75,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The minimum value of cos cos cos 2 2 2 x y z + − is",
+    "options": [
+      "−1",
+      "0",
+      "2",
+      "2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-1",
+    "title": "CDS English Mock Test 1",
+    "qNum": 18,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in English paper",
+    "q": "Suppose chords AB and CD of a circle intersect at a point P inside the circle. Two right angled triangles ′ ′ ′ A P B and ′ ′ ′ C Q D are formed as shown in the figures below such that ′ ′ = A P AP, ′ ′ = B P BP, ′ ′ = C Q CP, ′ ′ = D Q DP and ∠′ ′ ′ = ° = ∠ ′ ′ ′ A P B C Q D 90 . Which of the following statements are not correct? I. ′ ′ ′ A P B and ′ ′ ′ C Q D are similar triangles but need not be congruent. II. ′ ′ ′ A P B and ′ ′ ′ C Q D are congruent triangles. III. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same area. IV. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same perimeter. Select the correct answer using the code given below.",
+    "options": [
+      "II and III",
+      "I and III",
+      "I, II and IV",
+      "I, II, III and IV"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-1",
+    "title": "CDS English Mock Test 1",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-1",
+    "title": "CDS English Mock Test 1",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-1",
+    "title": "CDS English Mock Test 1",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-1",
+    "title": "CDS English Mock Test 1",
+    "qNum": 116,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Feat\nB. Fate\nC. Fathom\nD. Faux pas\n\nList II:\n1. The development of events outside a person's control\n2. Used to measure depth of water\n3. An embarrassing mistake\n4. An achievement requiring great courage",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-2",
+    "title": "CDS English Mock Test 2",
+    "qNum": 24,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Noun\nB. Verb\nC. Interjection\nD. Adjective\n\nList II:\n1. Auditory\n2. Hear\n3. Hark\n4. Hearing",
+    "options": [
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-3, C-2, D-4",
+      "A-1, B-2, C-3, D-4",
+      "A-4, B-2, C-3, D-1"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-2",
+    "title": "CDS English Mock Test 2",
+    "qNum": 36,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Feat\nB. Fate\nC. Fathom\nD. Faux pas\n\nList II:\n1. The development of events outside a person's control\n2. Used to measure depth of water\n3. An embarrassing mistake\n4. An achievement requiring great courage",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-2",
+    "title": "CDS English Mock Test 2",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-2",
+    "title": "CDS English Mock Test 2",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-2",
+    "title": "CDS English Mock Test 2",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-3",
+    "title": "CDS English Mock Test 3",
+    "qNum": 8,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Hatch\nB. Haughty\nC. Gruff\nD. Gruelling\n\nList II:\n1. Rough and low in pitch\n2. Arrogant behaviour\n3. Tiring and demanding\n4. A door in an aircraft",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-3",
+    "title": "CDS English Mock Test 3",
+    "qNum": 37,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Malversation\nB. Conundrum\nC. Incessant\nD. Mulct\n\nList II:\n1. Continuing without a break\n2. Confusing problem\n3. Extracting money in the form of taxes\n4. Corrupt behaviour of a public servant",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-2, C-1, D-3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-3",
+    "title": "CDS English Mock Test 3",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-3",
+    "title": "CDS English Mock Test 3",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-3",
+    "title": "CDS English Mock Test 3",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-4",
+    "title": "CDS English Mock Test 4",
+    "qNum": 23,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in English paper",
+    "q": "Suppose chords AB and CD of a circle intersect at a point P inside the circle. Two right angled triangles ′ ′ ′ A P B and ′ ′ ′ C Q D are formed as shown in the figures below such that ′ ′ = A P AP, ′ ′ = B P BP, ′ ′ = C Q CP, ′ ′ = D Q DP and ∠′ ′ ′ = ° = ∠ ′ ′ ′ A P B C Q D 90 . Which of the following statements are not correct? I. ′ ′ ′ A P B and ′ ′ ′ C Q D are similar triangles but need not be congruent. II. ′ ′ ′ A P B and ′ ′ ′ C Q D are congruent triangles. III. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same area. IV. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same perimeter. Select the correct answer using the code given below.",
+    "options": [
+      "II and III",
+      "I and III",
+      "I, II and IV",
+      "I, II, III and IV"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-4",
+    "title": "CDS English Mock Test 4",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-4",
+    "title": "CDS English Mock Test 4",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-4",
+    "title": "CDS English Mock Test 4",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-4",
+    "title": "CDS English Mock Test 4",
+    "qNum": 107,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Feat\nB. Fate\nC. Fathom\nD. Faux pas\n\nList II:\n1. The development of events outside a person's control\n2. Used to measure depth of water\n3. An embarrassing mistake\n4. An achievement requiring great courage",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-5",
+    "title": "CDS English Mock Test 5",
+    "qNum": 29,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Noun\nB. Verb\nC. Interjection\nD. Adjective\n\nList II:\n1. Auditory\n2. Hear\n3. Hark\n4. Hearing",
+    "options": [
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-3, C-2, D-4",
+      "A-1, B-2, C-3, D-4",
+      "A-4, B-2, C-3, D-1"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-5",
+    "title": "CDS English Mock Test 5",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-5",
+    "title": "CDS English Mock Test 5",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-5",
+    "title": "CDS English Mock Test 5",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-6",
+    "title": "CDS English Mock Test 6",
+    "qNum": 1,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Feat\nB. Fate\nC. Fathom\nD. Faux pas\n\nList II:\n1. The development of events outside a person's control\n2. Used to measure depth of water\n3. An embarrassing mistake\n4. An achievement requiring great courage",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-6",
+    "title": "CDS English Mock Test 6",
+    "qNum": 13,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Hatch\nB. Haughty\nC. Gruff\nD. Gruelling\n\nList II:\n1. Rough and low in pitch\n2. Arrogant behaviour\n3. Tiring and demanding\n4. A door in an aircraft",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-6",
+    "title": "CDS English Mock Test 6",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-6",
+    "title": "CDS English Mock Test 6",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-6",
+    "title": "CDS English Mock Test 6",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-7",
+    "title": "CDS English Mock Test 7",
+    "qNum": 2,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Malversation\nB. Conundrum\nC. Incessant\nD. Mulct\n\nList II:\n1. Continuing without a break\n2. Confusing problem\n3. Extracting money in the form of taxes\n4. Corrupt behaviour of a public servant",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-2, C-1, D-3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-7",
+    "title": "CDS English Mock Test 7",
+    "qNum": 28,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in English paper",
+    "q": "Suppose chords AB and CD of a circle intersect at a point P inside the circle. Two right angled triangles ′ ′ ′ A P B and ′ ′ ′ C Q D are formed as shown in the figures below such that ′ ′ = A P AP, ′ ′ = B P BP, ′ ′ = C Q CP, ′ ′ = D Q DP and ∠′ ′ ′ = ° = ∠ ′ ′ ′ A P B C Q D 90 . Which of the following statements are not correct? I. ′ ′ ′ A P B and ′ ′ ′ C Q D are similar triangles but need not be congruent. II. ′ ′ ′ A P B and ′ ′ ′ C Q D are congruent triangles. III. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same area. IV. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same perimeter. Select the correct answer using the code given below.",
+    "options": [
+      "II and III",
+      "I and III",
+      "I, II and IV",
+      "I, II, III and IV"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-7",
+    "title": "CDS English Mock Test 7",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-7",
+    "title": "CDS English Mock Test 7",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-7",
+    "title": "CDS English Mock Test 7",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-8",
+    "title": "CDS English Mock Test 8",
+    "qNum": 34,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Noun\nB. Verb\nC. Interjection\nD. Adjective\n\nList II:\n1. Auditory\n2. Hear\n3. Hark\n4. Hearing",
+    "options": [
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-3, C-2, D-4",
+      "A-1, B-2, C-3, D-4",
+      "A-4, B-2, C-3, D-1"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-8",
+    "title": "CDS English Mock Test 8",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-8",
+    "title": "CDS English Mock Test 8",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-8",
+    "title": "CDS English Mock Test 8",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-9",
+    "title": "CDS English Mock Test 9",
+    "qNum": 6,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Feat\nB. Fate\nC. Fathom\nD. Faux pas\n\nList II:\n1. The development of events outside a person's control\n2. Used to measure depth of water\n3. An embarrassing mistake\n4. An achievement requiring great courage",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-9",
+    "title": "CDS English Mock Test 9",
+    "qNum": 18,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Hatch\nB. Haughty\nC. Gruff\nD. Gruelling\n\nList II:\n1. Rough and low in pitch\n2. Arrogant behaviour\n3. Tiring and demanding\n4. A door in an aircraft",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-9",
+    "title": "CDS English Mock Test 9",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-9",
+    "title": "CDS English Mock Test 9",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-9",
+    "title": "CDS English Mock Test 9",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-10",
+    "title": "CDS English Mock Test 10",
+    "qNum": 7,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Malversation\nB. Conundrum\nC. Incessant\nD. Mulct\n\nList II:\n1. Continuing without a break\n2. Confusing problem\n3. Extracting money in the form of taxes\n4. Corrupt behaviour of a public servant",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-2, C-1, D-3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-10",
+    "title": "CDS English Mock Test 10",
+    "qNum": 33,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in English paper",
+    "q": "Suppose chords AB and CD of a circle intersect at a point P inside the circle. Two right angled triangles ′ ′ ′ A P B and ′ ′ ′ C Q D are formed as shown in the figures below such that ′ ′ = A P AP, ′ ′ = B P BP, ′ ′ = C Q CP, ′ ′ = D Q DP and ∠′ ′ ′ = ° = ∠ ′ ′ ′ A P B C Q D 90 . Which of the following statements are not correct? I. ′ ′ ′ A P B and ′ ′ ′ C Q D are similar triangles but need not be congruent. II. ′ ′ ′ A P B and ′ ′ ′ C Q D are congruent triangles. III. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same area. IV. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same perimeter. Select the correct answer using the code given below.",
+    "options": [
+      "II and III",
+      "I and III",
+      "I, II and IV",
+      "I, II, III and IV"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-10",
+    "title": "CDS English Mock Test 10",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-10",
+    "title": "CDS English Mock Test 10",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-10",
+    "title": "CDS English Mock Test 10",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-11",
+    "title": "CDS English Mock Test 11",
+    "qNum": 39,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Noun\nB. Verb\nC. Interjection\nD. Adjective\n\nList II:\n1. Auditory\n2. Hear\n3. Hark\n4. Hearing",
+    "options": [
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-3, C-2, D-4",
+      "A-1, B-2, C-3, D-4",
+      "A-4, B-2, C-3, D-1"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-11",
+    "title": "CDS English Mock Test 11",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-11",
+    "title": "CDS English Mock Test 11",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-11",
+    "title": "CDS English Mock Test 11",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-11",
+    "title": "CDS English Mock Test 11",
+    "qNum": 120,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in English paper",
+    "q": "Suppose chords AB and CD of a circle intersect at a point P inside the circle. Two right angled triangles ′ ′ ′ A P B and ′ ′ ′ C Q D are formed as shown in the figures below such that ′ ′ = A P AP, ′ ′ = B P BP, ′ ′ = C Q CP, ′ ′ = D Q DP and ∠′ ′ ′ = ° = ∠ ′ ′ ′ A P B C Q D 90 . Which of the following statements are not correct? I. ′ ′ ′ A P B and ′ ′ ′ C Q D are similar triangles but need not be congruent. II. ′ ′ ′ A P B and ′ ′ ′ C Q D are congruent triangles. III. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same area. IV. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same perimeter. Select the correct answer using the code given below.",
+    "options": [
+      "II and III",
+      "I and III",
+      "I, II and IV",
+      "I, II, III and IV"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-12",
+    "title": "CDS English Mock Test 12",
+    "qNum": 11,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Feat\nB. Fate\nC. Fathom\nD. Faux pas\n\nList II:\n1. The development of events outside a person's control\n2. Used to measure depth of water\n3. An embarrassing mistake\n4. An achievement requiring great courage",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-12",
+    "title": "CDS English Mock Test 12",
+    "qNum": 23,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Hatch\nB. Haughty\nC. Gruff\nD. Gruelling\n\nList II:\n1. Rough and low in pitch\n2. Arrogant behaviour\n3. Tiring and demanding\n4. A door in an aircraft",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-12",
+    "title": "CDS English Mock Test 12",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-12",
+    "title": "CDS English Mock Test 12",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-12",
+    "title": "CDS English Mock Test 12",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-13",
+    "title": "CDS English Mock Test 13",
+    "qNum": 12,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Malversation\nB. Conundrum\nC. Incessant\nD. Mulct\n\nList II:\n1. Continuing without a break\n2. Confusing problem\n3. Extracting money in the form of taxes\n4. Corrupt behaviour of a public servant",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-2, C-1, D-3"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-13",
+    "title": "CDS English Mock Test 13",
+    "qNum": 38,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in English paper",
+    "q": "Suppose chords AB and CD of a circle intersect at a point P inside the circle. Two right angled triangles ′ ′ ′ A P B and ′ ′ ′ C Q D are formed as shown in the figures below such that ′ ′ = A P AP, ′ ′ = B P BP, ′ ′ = C Q CP, ′ ′ = D Q DP and ∠′ ′ ′ = ° = ∠ ′ ′ ′ A P B C Q D 90 . Which of the following statements are not correct? I. ′ ′ ′ A P B and ′ ′ ′ C Q D are similar triangles but need not be congruent. II. ′ ′ ′ A P B and ′ ′ ′ C Q D are congruent triangles. III. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same area. IV. ′ ′ ′ A P B and ′ ′ ′ C Q D are triangles of same perimeter. Select the correct answer using the code given below.",
+    "options": [
+      "II and III",
+      "I and III",
+      "I, II and IV",
+      "I, II, III and IV"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-13",
+    "title": "CDS English Mock Test 13",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-13",
+    "title": "CDS English Mock Test 13",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-13",
+    "title": "CDS English Mock Test 13",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-14",
+    "title": "CDS English Mock Test 14",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-14",
+    "title": "CDS English Mock Test 14",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-14",
+    "title": "CDS English Mock Test 14",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-14",
+    "title": "CDS English Mock Test 14",
+    "qNum": 117,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Hatch\nB. Haughty\nC. Gruff\nD. Gruelling\n\nList II:\n1. Rough and low in pitch\n2. Arrogant behaviour\n3. Tiring and demanding\n4. A door in an aircraft",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-15",
+    "title": "CDS English Mock Test 15",
+    "qNum": 4,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Noun\nB. Verb\nC. Interjection\nD. Adjective\n\nList II:\n1. Auditory\n2. Hear\n3. Hark\n4. Hearing",
+    "options": [
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-3, C-2, D-4",
+      "A-1, B-2, C-3, D-4",
+      "A-4, B-2, C-3, D-1"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-15",
+    "title": "CDS English Mock Test 15",
+    "qNum": 16,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Feat\nB. Fate\nC. Fathom\nD. Faux pas\n\nList II:\n1. The development of events outside a person's control\n2. Used to measure depth of water\n3. An embarrassing mistake\n4. An achievement requiring great courage",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-15",
+    "title": "CDS English Mock Test 15",
+    "qNum": 28,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "List I:\nA. Hatch\nB. Haughty\nC. Gruff\nD. Gruelling\n\nList II:\n1. Rough and low in pitch\n2. Arrogant behaviour\n3. Tiring and demanding\n4. A door in an aircraft",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-15",
+    "title": "CDS English Mock Test 15",
+    "qNum": 45,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-english-v2-15",
+    "title": "CDS English Mock Test 15",
+    "qNum": 55,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-english-v2-15",
+    "title": "CDS English Mock Test 15",
+    "qNum": 57,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-1",
+    "title": "CDS GK Mock Test 1",
+    "qNum": 5,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 times as much as each daughter receives and that each daughter should receive twice as much as their mother receives. What was the wife’s share?",
+    "options": [
+      "` 14000",
+      "` 12000",
+      "` 10000",
+      "` 9000"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-1",
+    "title": "CDS GK Mock Test 1",
+    "qNum": 12,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Under which one of the following conditions is the trigonometrical identity sin /( cos ) ( cos )/sin x x x x 1 1 + = − true?",
+    "options": [
+      "x is not a multiple of 360°",
+      "x is not an odd multiple of 180°",
+      "x is not a multiple of 180°",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-1",
+    "title": "CDS GK Mock Test 1",
+    "qNum": 21,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Which of the following is the correct ascending order of the given minerals in terms of their presence in the Earth's crust?\n1. Amphibolite\n2. Mica\n3. Pyroxene",
+    "options": [
+      "2, 3, 1",
+      "1, 2, 3",
+      "2, 1, 3",
+      "1, 3, 2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-1",
+    "title": "CDS GK Mock Test 1",
+    "qNum": 32,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following international events:\n1. Signing of the Simla Agreement\n2. Agra Summit between India and Pakistan\n3. Signing of the SAARC Charter at the First SAARC Summit\n4. India's first nuclear test\nWhich one of the following is the correct chronological order of the above events?",
+    "options": [
+      "1, 3, 4, 2",
+      "4, 1, 3, 2",
+      "1, 4, 3, 2",
+      "4, 1, 2, 3"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-1",
+    "title": "CDS GK Mock Test 1",
+    "qNum": 53,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Ashoka’s Kalinga War Codes",
+    "options": [
+      "2, 1, 3, 4",
+      "1, 3, 4, 2",
+      "3, 4, 1, 2",
+      "3, 4, 2, 1"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-1",
+    "title": "CDS GK Mock Test 1",
+    "qNum": 109,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-2",
+    "title": "CDS GK Mock Test 2",
+    "qNum": 8,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the multiplication 999 ´ = abc def 132 in decimal notation, where a b c d e , , , , and f are digits. What are the values of a b c d e , , , , and f , respectively?",
+    "options": [
+      "6, 6, 8, 6, 8, 7",
+      "8, 6, 8, 6, 7, 8",
+      "6, 8, 8, 7, 8, 6",
+      "8, 6, 8, 8, 6, 7"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-gk-v2-2",
+    "title": "CDS GK Mock Test 2",
+    "qNum": 14,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 times as much as each daughter receives and that each daughter should receive twice as much as their mother receives. What was the wife’s share?",
+    "options": [
+      "` 14000",
+      "` 12000",
+      "` 10000",
+      "` 9000"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-2",
+    "title": "CDS GK Mock Test 2",
+    "qNum": 26,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following statements:\n1. The Sharavati river creates Jog Falls.\n2. The Brahmani river is formed by the confluence of the Kosi and Sankh rivers.\n3. The Tamraparni is a river of Tirunelveli district of Tamil Nadu.\nHow many of the above statements is/are correct?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-2",
+    "title": "CDS GK Mock Test 2",
+    "qNum": 43,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following events:\n1. Launch of Non-Cooperation Movement\n2. All-India Khilafat Conference in Delhi\n3. Passing of the Rowlatt Act\n4. Jallianwala Bagh incident\nWhich one of the following is the correct chronological order (earliest to latest)?",
+    "options": [
+      "1, 2, 3, 4",
+      "3, 4, 2, 1",
+      "3, 2, 4, 1",
+      "2, 3, 4, 1"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-2",
+    "title": "CDS GK Mock Test 2",
+    "qNum": 84,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Arrange the formation of the following states in chronological order:\n1. Nagaland\n2. Haryana\n3. Sikkim\n4. Telangana\nSelect the correct sequence:",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "3, 1, 2, 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-2",
+    "title": "CDS GK Mock Test 2",
+    "qNum": 96,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A pipe with square cross-section is supplying water to a cistern which was initially empty. The area of cross-section is 4 cm2 and the nozzle velocity of water is 40m/s. The dimensions of the cistern 10 8 6 m m m × × . Then, the cistern will be full in",
+    "options": [
+      "9.5 h",
+      "9 h",
+      "8 h and 20 min",
+      "8 h"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-2",
+    "title": "CDS GK Mock Test 2",
+    "qNum": 99,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-3",
+    "title": "CDS GK Mock Test 3",
+    "qNum": 1,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Under which one of the following conditions is the trigonometrical identity sin /( cos ) ( cos )/sin x x x x 1 1 + = − true?",
+    "options": [
+      "x is not a multiple of 360°",
+      "x is not an odd multiple of 180°",
+      "x is not a multiple of 180°",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-3",
+    "title": "CDS GK Mock Test 3",
+    "qNum": 17,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the multiplication 999 ´ = abc def 132 in decimal notation, where a b c d e , , , , and f are digits. What are the values of a b c d e , , , , and f , respectively?",
+    "options": [
+      "6, 6, 8, 6, 8, 7",
+      "8, 6, 8, 6, 7, 8",
+      "6, 8, 8, 7, 8, 6",
+      "8, 6, 8, 8, 6, 7"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-gk-v2-3",
+    "title": "CDS GK Mock Test 3",
+    "qNum": 43,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following events:\n1. Muslim League Resolution for Pakistan\n2. Gandhi-Irwin Pact\n3. Dandi March\n4. Second Round Table Conference\nWhich one of the following is the correct chronological order of the given events (earliest to latest)?",
+    "options": [
+      "2, 3, 1, 4",
+      "3, 2, 4, 1",
+      "3, 4, 2, 1",
+      "2, 3, 4, 1"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-3",
+    "title": "CDS GK Mock Test 3",
+    "qNum": 44,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The ‘Sur Sagar’ is",
+    "options": [
+      "a medieval treatise on music composed by Tansen",
+      "a poetic work of Surdas",
+      "memories of Bahadur Shah Zafar",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-3",
+    "title": "CDS GK Mock Test 3",
+    "qNum": 70,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Ten observations 6, 14, 15, 17, x + 1, 2 13 x − , 30, 32, 34 and 43 are written in ascending order. The median of the data is 24. What is the value of x?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "24 Directions (Q. Nos. 91-94) Consider the following frequency distribution. e 2015 I Class Frequency 0-10 4 10-20 5 20-30 7 30-40 10 40-50 12 50-60 8 60-70 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-3",
+    "title": "CDS GK Mock Test 3",
+    "qNum": 96,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "The following table gives ‘less than’ type frequency distribution of income per day. Income (in `) less than Number of persons 1500 100 1250 80 1000 70 750 55 500 32 250 12 What is the modal class?",
+    "options": [
+      "250-500",
+      "500-750",
+      "750-1000",
+      "None of these"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-3",
+    "title": "CDS GK Mock Test 3",
+    "qNum": 112,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-4",
+    "title": "CDS GK Mock Test 4",
+    "qNum": 3,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 times as much as each daughter receives and that each daughter should receive twice as much as their mother receives. What was the wife’s share?",
+    "options": [
+      "` 14000",
+      "` 12000",
+      "` 10000",
+      "` 9000"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-4",
+    "title": "CDS GK Mock Test 4",
+    "qNum": 10,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Under which one of the following conditions is the trigonometrical identity sin /( cos ) ( cos )/sin x x x x 1 1 + = − true?",
+    "options": [
+      "x is not a multiple of 360°",
+      "x is not an odd multiple of 180°",
+      "x is not a multiple of 180°",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-4",
+    "title": "CDS GK Mock Test 4",
+    "qNum": 21,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following pairs with reference to world climate types and their characteristics:\n(Climate) : (Characteristic)\nI. Tropical wet : Winter dry season\nII. Mid-latitude steppe : Mid-latitude semi-arid or dry\nIII. Humid sub-tropical : No dry season, warm summer\nIV. Marine west coast : No dry season, severely cold summer\nHow many of the pairs given above is/are correctly matched?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-4",
+    "title": "CDS GK Mock Test 4",
+    "qNum": 22,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The shadow of a tower standing on a level plane is found to be 50 m longer when the Sun’s elevation is 30°, then when it is 60°. What is the height of the tower?",
+    "options": [
+      "25 m",
+      "25 3 m",
+      "25 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-4",
+    "title": "CDS GK Mock Test 4",
+    "qNum": 42,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following social movements:\n1. Chipko Movement\n2. Bardoli Satyagraha\n3. Satyashodhak Samaj\nWhich one of the following is the correct chronological order (starting with the earliest) of the launch of the above social movements?",
+    "options": [
+      "2, 1, 3",
+      "3, 1, 2",
+      "3, 2, 1",
+      "1, 2, 3"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-4",
+    "title": "CDS GK Mock Test 4",
+    "qNum": 53,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Arrange the following historical events in chronological order:\n1. August Offer\n2. Cripps Mission\n3. Wavell Plan\n4. Cabinet Mission\nSelect the correct sequence:",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "2, 3, 1, 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-4",
+    "title": "CDS GK Mock Test 4",
+    "qNum": 98,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A pipe with square cross-section is supplying water to a cistern which was initially empty. The area of cross-section is 4 cm2 and the nozzle velocity of water is 40m/s. The dimensions of the cistern 10 8 6 m m m × × . Then, the cistern will be full in",
+    "options": [
+      "9.5 h",
+      "9 h",
+      "8 h and 20 min",
+      "8 h"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-4",
+    "title": "CDS GK Mock Test 4",
+    "qNum": 101,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-5",
+    "title": "CDS GK Mock Test 5",
+    "qNum": 6,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the multiplication 999 ´ = abc def 132 in decimal notation, where a b c d e , , , , and f are digits. What are the values of a b c d e , , , , and f , respectively?",
+    "options": [
+      "6, 6, 8, 6, 8, 7",
+      "8, 6, 8, 6, 7, 8",
+      "6, 8, 8, 7, 8, 6",
+      "8, 6, 8, 8, 6, 7"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-gk-v2-5",
+    "title": "CDS GK Mock Test 5",
+    "qNum": 12,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 times as much as each daughter receives and that each daughter should receive twice as much as their mother receives. What was the wife’s share?",
+    "options": [
+      "` 14000",
+      "` 12000",
+      "` 10000",
+      "` 9000"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-5",
+    "title": "CDS GK Mock Test 5",
+    "qNum": 19,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Under which one of the following conditions is the trigonometrical identity sin /( cos ) ( cos )/sin x x x x 1 1 + = − true?",
+    "options": [
+      "x is not a multiple of 360°",
+      "x is not an odd multiple of 180°",
+      "x is not a multiple of 180°",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-5",
+    "title": "CDS GK Mock Test 5",
+    "qNum": 33,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Which of the following is the correct ascending order of the given minerals in terms of their presence in the Earth's crust?\n1. Amphibolite\n2. Mica\n3. Pyroxene",
+    "options": [
+      "2, 3, 1",
+      "1, 2, 3",
+      "2, 1, 3",
+      "1, 3, 2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-5",
+    "title": "CDS GK Mock Test 5",
+    "qNum": 47,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Ashoka’s Kalinga War Codes",
+    "options": [
+      "2, 1, 3, 4",
+      "1, 3, 4, 2",
+      "3, 4, 1, 2",
+      "3, 4, 2, 1"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-5",
+    "title": "CDS GK Mock Test 5",
+    "qNum": 59,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following events:\n1. Launch of Non-Cooperation Movement\n2. All-India Khilafat Conference in Delhi\n3. Passing of the Rowlatt Act\n4. Jallianwala Bagh incident\nWhich one of the following is the correct chronological order (earliest to latest)?",
+    "options": [
+      "1, 2, 3, 4",
+      "3, 4, 2, 1",
+      "3, 2, 4, 1",
+      "2, 3, 4, 1"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-5",
+    "title": "CDS GK Mock Test 5",
+    "qNum": 73,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Arrange the formation of the following states in chronological order:\n1. Nagaland\n2. Haryana\n3. Sikkim\n4. Telangana\nSelect the correct sequence:",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "3, 1, 2, 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-5",
+    "title": "CDS GK Mock Test 5",
+    "qNum": 79,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Ten observations 6, 14, 15, 17, x + 1, 2 13 x − , 30, 32, 34 and 43 are written in ascending order. The median of the data is 24. What is the value of x?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "24 Directions (Q. Nos. 91-94) Consider the following frequency distribution. e 2015 I Class Frequency 0-10 4 10-20 5 20-30 7 30-40 10 40-50 12 50-60 8 60-70 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-5",
+    "title": "CDS GK Mock Test 5",
+    "qNum": 98,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "The following table gives ‘less than’ type frequency distribution of income per day. Income (in `) less than Number of persons 1500 100 1250 80 1000 70 750 55 500 32 250 12 What is the modal class?",
+    "options": [
+      "250-500",
+      "500-750",
+      "750-1000",
+      "None of these"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-5",
+    "title": "CDS GK Mock Test 5",
+    "qNum": 108,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-6",
+    "title": "CDS GK Mock Test 6",
+    "qNum": 15,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the multiplication 999 ´ = abc def 132 in decimal notation, where a b c d e , , , , and f are digits. What are the values of a b c d e , , , , and f , respectively?",
+    "options": [
+      "6, 6, 8, 6, 8, 7",
+      "8, 6, 8, 6, 7, 8",
+      "6, 8, 8, 7, 8, 6",
+      "8, 6, 8, 8, 6, 7"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-gk-v2-6",
+    "title": "CDS GK Mock Test 6",
+    "qNum": 22,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following international events:\n1. Signing of the Simla Agreement\n2. Agra Summit between India and Pakistan\n3. Signing of the SAARC Charter at the First SAARC Summit\n4. India's first nuclear test\nWhich one of the following is the correct chronological order of the above events?",
+    "options": [
+      "1, 3, 4, 2",
+      "4, 1, 3, 2",
+      "1, 4, 3, 2",
+      "4, 1, 2, 3"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-6",
+    "title": "CDS GK Mock Test 6",
+    "qNum": 38,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following statements:\n1. The Sharavati river creates Jog Falls.\n2. The Brahmani river is formed by the confluence of the Kosi and Sankh rivers.\n3. The Tamraparni is a river of Tirunelveli district of Tamil Nadu.\nHow many of the above statements is/are correct?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-6",
+    "title": "CDS GK Mock Test 6",
+    "qNum": 59,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following events:\n1. Muslim League Resolution for Pakistan\n2. Gandhi-Irwin Pact\n3. Dandi March\n4. Second Round Table Conference\nWhich one of the following is the correct chronological order of the given events (earliest to latest)?",
+    "options": [
+      "2, 3, 1, 4",
+      "3, 2, 4, 1",
+      "3, 4, 2, 1",
+      "2, 3, 4, 1"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-6",
+    "title": "CDS GK Mock Test 6",
+    "qNum": 60,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The ‘Sur Sagar’ is",
+    "options": [
+      "a medieval treatise on music composed by Tansen",
+      "a poetic work of Surdas",
+      "memories of Bahadur Shah Zafar",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-6",
+    "title": "CDS GK Mock Test 6",
+    "qNum": 100,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A pipe with square cross-section is supplying water to a cistern which was initially empty. The area of cross-section is 4 cm2 and the nozzle velocity of water is 40m/s. The dimensions of the cistern 10 8 6 m m m × × . Then, the cistern will be full in",
+    "options": [
+      "9.5 h",
+      "9 h",
+      "8 h and 20 min",
+      "8 h"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-6",
+    "title": "CDS GK Mock Test 6",
+    "qNum": 103,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-7",
+    "title": "CDS GK Mock Test 7",
+    "qNum": 1,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 times as much as each daughter receives and that each daughter should receive twice as much as their mother receives. What was the wife’s share?",
+    "options": [
+      "` 14000",
+      "` 12000",
+      "` 10000",
+      "` 9000"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-7",
+    "title": "CDS GK Mock Test 7",
+    "qNum": 8,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Under which one of the following conditions is the trigonometrical identity sin /( cos ) ( cos )/sin x x x x 1 1 + = − true?",
+    "options": [
+      "x is not a multiple of 360°",
+      "x is not an odd multiple of 180°",
+      "x is not a multiple of 180°",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-7",
+    "title": "CDS GK Mock Test 7",
+    "qNum": 82,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Arrange the formation of the following states in chronological order:\n1. Nagaland\n2. Haryana\n3. Sikkim\n4. Telangana\nSelect the correct sequence:",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "3, 1, 2, 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-7",
+    "title": "CDS GK Mock Test 7",
+    "qNum": 100,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "The following table gives ‘less than’ type frequency distribution of income per day. Income (in `) less than Number of persons 1500 100 1250 80 1000 70 750 55 500 32 250 12 What is the modal class?",
+    "options": [
+      "250-500",
+      "500-750",
+      "750-1000",
+      "None of these"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-7",
+    "title": "CDS GK Mock Test 7",
+    "qNum": 111,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-8",
+    "title": "CDS GK Mock Test 8",
+    "qNum": 4,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the multiplication 999 ´ = abc def 132 in decimal notation, where a b c d e , , , , and f are digits. What are the values of a b c d e , , , , and f , respectively?",
+    "options": [
+      "6, 6, 8, 6, 8, 7",
+      "8, 6, 8, 6, 7, 8",
+      "6, 8, 8, 7, 8, 6",
+      "8, 6, 8, 8, 6, 7"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-gk-v2-8",
+    "title": "CDS GK Mock Test 8",
+    "qNum": 10,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 times as much as each daughter receives and that each daughter should receive twice as much as their mother receives. What was the wife’s share?",
+    "options": [
+      "` 14000",
+      "` 12000",
+      "` 10000",
+      "` 9000"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-8",
+    "title": "CDS GK Mock Test 8",
+    "qNum": 17,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Under which one of the following conditions is the trigonometrical identity sin /( cos ) ( cos )/sin x x x x 1 1 + = − true?",
+    "options": [
+      "x is not a multiple of 360°",
+      "x is not an odd multiple of 180°",
+      "x is not a multiple of 180°",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-8",
+    "title": "CDS GK Mock Test 8",
+    "qNum": 33,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following pairs with reference to world climate types and their characteristics:\n(Climate) : (Characteristic)\nI. Tropical wet : Winter dry season\nII. Mid-latitude steppe : Mid-latitude semi-arid or dry\nIII. Humid sub-tropical : No dry season, warm summer\nIV. Marine west coast : No dry season, severely cold summer\nHow many of the pairs given above is/are correctly matched?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-8",
+    "title": "CDS GK Mock Test 8",
+    "qNum": 34,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The shadow of a tower standing on a level plane is found to be 50 m longer when the Sun’s elevation is 30°, then when it is 60°. What is the height of the tower?",
+    "options": [
+      "25 m",
+      "25 3 m",
+      "25 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-8",
+    "title": "CDS GK Mock Test 8",
+    "qNum": 47,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Arrange the following historical events in chronological order:\n1. August Offer\n2. Cripps Mission\n3. Wavell Plan\n4. Cabinet Mission\nSelect the correct sequence:",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "2, 3, 1, 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-8",
+    "title": "CDS GK Mock Test 8",
+    "qNum": 63,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Ashoka’s Kalinga War Codes",
+    "options": [
+      "2, 1, 3, 4",
+      "1, 3, 4, 2",
+      "3, 4, 1, 2",
+      "3, 4, 2, 1"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-8",
+    "title": "CDS GK Mock Test 8",
+    "qNum": 68,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Ten observations 6, 14, 15, 17, x + 1, 2 13 x − , 30, 32, 34 and 43 are written in ascending order. The median of the data is 24. What is the value of x?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "24 Directions (Q. Nos. 91-94) Consider the following frequency distribution. e 2015 I Class Frequency 0-10 4 10-20 5 20-30 7 30-40 10 40-50 12 50-60 8 60-70 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-8",
+    "title": "CDS GK Mock Test 8",
+    "qNum": 102,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A pipe with square cross-section is supplying water to a cistern which was initially empty. The area of cross-section is 4 cm2 and the nozzle velocity of water is 40m/s. The dimensions of the cistern 10 8 6 m m m × × . Then, the cistern will be full in",
+    "options": [
+      "9.5 h",
+      "9 h",
+      "8 h and 20 min",
+      "8 h"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-9",
+    "title": "CDS GK Mock Test 9",
+    "qNum": 13,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the multiplication 999 ´ = abc def 132 in decimal notation, where a b c d e , , , , and f are digits. What are the values of a b c d e , , , , and f , respectively?",
+    "options": [
+      "6, 6, 8, 6, 8, 7",
+      "8, 6, 8, 6, 7, 8",
+      "6, 8, 8, 7, 8, 6",
+      "8, 6, 8, 8, 6, 7"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-gk-v2-9",
+    "title": "CDS GK Mock Test 9",
+    "qNum": 19,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 times as much as each daughter receives and that each daughter should receive twice as much as their mother receives. What was the wife’s share?",
+    "options": [
+      "` 14000",
+      "` 12000",
+      "` 10000",
+      "` 9000"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-9",
+    "title": "CDS GK Mock Test 9",
+    "qNum": 32,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following social movements:\n1. Chipko Movement\n2. Bardoli Satyagraha\n3. Satyashodhak Samaj\nWhich one of the following is the correct chronological order (starting with the earliest) of the launch of the above social movements?",
+    "options": [
+      "2, 1, 3",
+      "3, 1, 2",
+      "3, 2, 1",
+      "1, 2, 3"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-9",
+    "title": "CDS GK Mock Test 9",
+    "qNum": 53,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following events:\n1. Launch of Non-Cooperation Movement\n2. All-India Khilafat Conference in Delhi\n3. Passing of the Rowlatt Act\n4. Jallianwala Bagh incident\nWhich one of the following is the correct chronological order (earliest to latest)?",
+    "options": [
+      "1, 2, 3, 4",
+      "3, 4, 2, 1",
+      "3, 2, 4, 1",
+      "2, 3, 4, 1"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-9",
+    "title": "CDS GK Mock Test 9",
+    "qNum": 95,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-9",
+    "title": "CDS GK Mock Test 9",
+    "qNum": 102,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "The following table gives ‘less than’ type frequency distribution of income per day. Income (in `) less than Number of persons 1500 100 1250 80 1000 70 750 55 500 32 250 12 What is the modal class?",
+    "options": [
+      "250-500",
+      "500-750",
+      "750-1000",
+      "None of these"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-9",
+    "title": "CDS GK Mock Test 9",
+    "qNum": 107,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-10",
+    "title": "CDS GK Mock Test 10",
+    "qNum": 6,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Under which one of the following conditions is the trigonometrical identity sin /( cos ) ( cos )/sin x x x x 1 1 + = − true?",
+    "options": [
+      "x is not a multiple of 360°",
+      "x is not an odd multiple of 180°",
+      "x is not a multiple of 180°",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-10",
+    "title": "CDS GK Mock Test 10",
+    "qNum": 23,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Which of the following is the correct ascending order of the given minerals in terms of their presence in the Earth's crust?\n1. Amphibolite\n2. Mica\n3. Pyroxene",
+    "options": [
+      "2, 3, 1",
+      "1, 2, 3",
+      "2, 1, 3",
+      "1, 3, 2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-10",
+    "title": "CDS GK Mock Test 10",
+    "qNum": 34,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following international events:\n1. Signing of the Simla Agreement\n2. Agra Summit between India and Pakistan\n3. Signing of the SAARC Charter at the First SAARC Summit\n4. India's first nuclear test\nWhich one of the following is the correct chronological order of the above events?",
+    "options": [
+      "1, 3, 4, 2",
+      "4, 1, 3, 2",
+      "1, 4, 3, 2",
+      "4, 1, 2, 3"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-10",
+    "title": "CDS GK Mock Test 10",
+    "qNum": 53,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following events:\n1. Muslim League Resolution for Pakistan\n2. Gandhi-Irwin Pact\n3. Dandi March\n4. Second Round Table Conference\nWhich one of the following is the correct chronological order of the given events (earliest to latest)?",
+    "options": [
+      "2, 3, 1, 4",
+      "3, 2, 4, 1",
+      "3, 4, 2, 1",
+      "2, 3, 4, 1"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-10",
+    "title": "CDS GK Mock Test 10",
+    "qNum": 54,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The ‘Sur Sagar’ is",
+    "options": [
+      "a medieval treatise on music composed by Tansen",
+      "a poetic work of Surdas",
+      "memories of Bahadur Shah Zafar",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-10",
+    "title": "CDS GK Mock Test 10",
+    "qNum": 71,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Arrange the formation of the following states in chronological order:\n1. Nagaland\n2. Haryana\n3. Sikkim\n4. Telangana\nSelect the correct sequence:",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "3, 1, 2, 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-10",
+    "title": "CDS GK Mock Test 10",
+    "qNum": 77,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Ten observations 6, 14, 15, 17, x + 1, 2 13 x − , 30, 32, 34 and 43 are written in ascending order. The median of the data is 24. What is the value of x?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "24 Directions (Q. Nos. 91-94) Consider the following frequency distribution. e 2015 I Class Frequency 0-10 4 10-20 5 20-30 7 30-40 10 40-50 12 50-60 8 60-70 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-10",
+    "title": "CDS GK Mock Test 10",
+    "qNum": 104,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A pipe with square cross-section is supplying water to a cistern which was initially empty. The area of cross-section is 4 cm2 and the nozzle velocity of water is 40m/s. The dimensions of the cistern 10 8 6 m m m × × . Then, the cistern will be full in",
+    "options": [
+      "9.5 h",
+      "9 h",
+      "8 h and 20 min",
+      "8 h"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-11",
+    "title": "CDS GK Mock Test 11",
+    "qNum": 2,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the multiplication 999 ´ = abc def 132 in decimal notation, where a b c d e , , , , and f are digits. What are the values of a b c d e , , , , and f , respectively?",
+    "options": [
+      "6, 6, 8, 6, 8, 7",
+      "8, 6, 8, 6, 7, 8",
+      "6, 8, 8, 7, 8, 6",
+      "8, 6, 8, 8, 6, 7"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-gk-v2-11",
+    "title": "CDS GK Mock Test 11",
+    "qNum": 8,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 times as much as each daughter receives and that each daughter should receive twice as much as their mother receives. What was the wife’s share?",
+    "options": [
+      "` 14000",
+      "` 12000",
+      "` 10000",
+      "` 9000"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-11",
+    "title": "CDS GK Mock Test 11",
+    "qNum": 15,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Under which one of the following conditions is the trigonometrical identity sin /( cos ) ( cos )/sin x x x x 1 1 + = − true?",
+    "options": [
+      "x is not a multiple of 360°",
+      "x is not an odd multiple of 180°",
+      "x is not a multiple of 180°",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-11",
+    "title": "CDS GK Mock Test 11",
+    "qNum": 28,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following statements:\n1. The Sharavati river creates Jog Falls.\n2. The Brahmani river is formed by the confluence of the Kosi and Sankh rivers.\n3. The Tamraparni is a river of Tirunelveli district of Tamil Nadu.\nHow many of the above statements is/are correct?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-11",
+    "title": "CDS GK Mock Test 11",
+    "qNum": 63,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Arrange the following historical events in chronological order:\n1. August Offer\n2. Cripps Mission\n3. Wavell Plan\n4. Cabinet Mission\nSelect the correct sequence:",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "2, 3, 1, 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-11",
+    "title": "CDS GK Mock Test 11",
+    "qNum": 97,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-11",
+    "title": "CDS GK Mock Test 11",
+    "qNum": 104,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "The following table gives ‘less than’ type frequency distribution of income per day. Income (in `) less than Number of persons 1500 100 1250 80 1000 70 750 55 500 32 250 12 What is the modal class?",
+    "options": [
+      "250-500",
+      "500-750",
+      "750-1000",
+      "None of these"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-11",
+    "title": "CDS GK Mock Test 11",
+    "qNum": 110,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-12",
+    "title": "CDS GK Mock Test 12",
+    "qNum": 11,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the multiplication 999 ´ = abc def 132 in decimal notation, where a b c d e , , , , and f are digits. What are the values of a b c d e , , , , and f , respectively?",
+    "options": [
+      "6, 6, 8, 6, 8, 7",
+      "8, 6, 8, 6, 7, 8",
+      "6, 8, 8, 7, 8, 6",
+      "8, 6, 8, 8, 6, 7"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-gk-v2-12",
+    "title": "CDS GK Mock Test 12",
+    "qNum": 17,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 times as much as each daughter receives and that each daughter should receive twice as much as their mother receives. What was the wife’s share?",
+    "options": [
+      "` 14000",
+      "` 12000",
+      "` 10000",
+      "` 9000"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-12",
+    "title": "CDS GK Mock Test 12",
+    "qNum": 57,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Ashoka’s Kalinga War Codes",
+    "options": [
+      "2, 1, 3, 4",
+      "1, 3, 4, 2",
+      "3, 4, 1, 2",
+      "3, 4, 2, 1"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-12",
+    "title": "CDS GK Mock Test 12",
+    "qNum": 80,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Arrange the formation of the following states in chronological order:\n1. Nagaland\n2. Haryana\n3. Sikkim\n4. Telangana\nSelect the correct sequence:",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "3, 1, 2, 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-13",
+    "title": "CDS GK Mock Test 13",
+    "qNum": 4,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Under which one of the following conditions is the trigonometrical identity sin /( cos ) ( cos )/sin x x x x 1 1 + = − true?",
+    "options": [
+      "x is not a multiple of 360°",
+      "x is not an odd multiple of 180°",
+      "x is not a multiple of 180°",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-13",
+    "title": "CDS GK Mock Test 13",
+    "qNum": 20,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the multiplication 999 ´ = abc def 132 in decimal notation, where a b c d e , , , , and f are digits. What are the values of a b c d e , , , , and f , respectively?",
+    "options": [
+      "6, 6, 8, 6, 8, 7",
+      "8, 6, 8, 6, 7, 8",
+      "6, 8, 8, 7, 8, 6",
+      "8, 6, 8, 8, 6, 7"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-gk-v2-13",
+    "title": "CDS GK Mock Test 13",
+    "qNum": 23,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following pairs with reference to world climate types and their characteristics:\n(Climate) : (Characteristic)\nI. Tropical wet : Winter dry season\nII. Mid-latitude steppe : Mid-latitude semi-arid or dry\nIII. Humid sub-tropical : No dry season, warm summer\nIV. Marine west coast : No dry season, severely cold summer\nHow many of the pairs given above is/are correctly matched?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-13",
+    "title": "CDS GK Mock Test 13",
+    "qNum": 24,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The shadow of a tower standing on a level plane is found to be 50 m longer when the Sun’s elevation is 30°, then when it is 60°. What is the height of the tower?",
+    "options": [
+      "25 m",
+      "25 3 m",
+      "25 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-13",
+    "title": "CDS GK Mock Test 13",
+    "qNum": 47,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following events:\n1. Launch of Non-Cooperation Movement\n2. All-India Khilafat Conference in Delhi\n3. Passing of the Rowlatt Act\n4. Jallianwala Bagh incident\nWhich one of the following is the correct chronological order (earliest to latest)?",
+    "options": [
+      "1, 2, 3, 4",
+      "3, 4, 2, 1",
+      "3, 2, 4, 1",
+      "2, 3, 4, 1"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-13",
+    "title": "CDS GK Mock Test 13",
+    "qNum": 66,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Ten observations 6, 14, 15, 17, x + 1, 2 13 x − , 30, 32, 34 and 43 are written in ascending order. The median of the data is 24. What is the value of x?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "24 Directions (Q. Nos. 91-94) Consider the following frequency distribution. e 2015 I Class Frequency 0-10 4 10-20 5 20-30 7 30-40 10 40-50 12 50-60 8 60-70 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-13",
+    "title": "CDS GK Mock Test 13",
+    "qNum": 96,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A pipe with square cross-section is supplying water to a cistern which was initially empty. The area of cross-section is 4 cm2 and the nozzle velocity of water is 40m/s. The dimensions of the cistern 10 8 6 m m m × × . Then, the cistern will be full in",
+    "options": [
+      "9.5 h",
+      "9 h",
+      "8 h and 20 min",
+      "8 h"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-13",
+    "title": "CDS GK Mock Test 13",
+    "qNum": 99,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-13",
+    "title": "CDS GK Mock Test 13",
+    "qNum": 106,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The angles of elevation of the top of a tower from two points at distances p and q from the base and on the same straight line are 27º and 63º respectively. What is the height of the tower?",
+    "options": [
+      "pq",
+      "pq",
+      "pq 2",
+      "pq 2"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-14",
+    "title": "CDS GK Mock Test 14",
+    "qNum": 6,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 times as much as each daughter receives and that each daughter should receive twice as much as their mother receives. What was the wife’s share?",
+    "options": [
+      "` 14000",
+      "` 12000",
+      "` 10000",
+      "` 9000"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-14",
+    "title": "CDS GK Mock Test 14",
+    "qNum": 13,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Under which one of the following conditions is the trigonometrical identity sin /( cos ) ( cos )/sin x x x x 1 1 + = − true?",
+    "options": [
+      "x is not a multiple of 360°",
+      "x is not an odd multiple of 180°",
+      "x is not a multiple of 180°",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-14",
+    "title": "CDS GK Mock Test 14",
+    "qNum": 22,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following social movements:\n1. Chipko Movement\n2. Bardoli Satyagraha\n3. Satyashodhak Samaj\nWhich one of the following is the correct chronological order (starting with the earliest) of the launch of the above social movements?",
+    "options": [
+      "2, 1, 3",
+      "3, 1, 2",
+      "3, 2, 1",
+      "1, 2, 3"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-14",
+    "title": "CDS GK Mock Test 14",
+    "qNum": 35,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Which of the following is the correct ascending order of the given minerals in terms of their presence in the Earth's crust?\n1. Amphibolite\n2. Mica\n3. Pyroxene",
+    "options": [
+      "2, 3, 1",
+      "1, 2, 3",
+      "2, 1, 3",
+      "1, 3, 2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-14",
+    "title": "CDS GK Mock Test 14",
+    "qNum": 47,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following events:\n1. Muslim League Resolution for Pakistan\n2. Gandhi-Irwin Pact\n3. Dandi March\n4. Second Round Table Conference\nWhich one of the following is the correct chronological order of the given events (earliest to latest)?",
+    "options": [
+      "2, 3, 1, 4",
+      "3, 2, 4, 1",
+      "3, 4, 2, 1",
+      "2, 3, 4, 1"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-14",
+    "title": "CDS GK Mock Test 14",
+    "qNum": 48,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The ‘Sur Sagar’ is",
+    "options": [
+      "a medieval treatise on music composed by Tansen",
+      "a poetic work of Surdas",
+      "memories of Bahadur Shah Zafar",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-14",
+    "title": "CDS GK Mock Test 14",
+    "qNum": 96,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "The following table gives ‘less than’ type frequency distribution of income per day. Income (in `) less than Number of persons 1500 100 1250 80 1000 70 750 55 500 32 250 12 What is the modal class?",
+    "options": [
+      "250-500",
+      "500-750",
+      "750-1000",
+      "None of these"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-15",
+    "title": "CDS GK Mock Test 15",
+    "qNum": 9,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the multiplication 999 ´ = abc def 132 in decimal notation, where a b c d e , , , , and f are digits. What are the values of a b c d e , , , , and f , respectively?",
+    "options": [
+      "6, 6, 8, 6, 8, 7",
+      "8, 6, 8, 6, 7, 8",
+      "6, 8, 8, 7, 8, 6",
+      "8, 6, 8, 8, 6, 7"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "cds-gk-v2-15",
+    "title": "CDS GK Mock Test 15",
+    "qNum": 15,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 times as much as each daughter receives and that each daughter should receive twice as much as their mother receives. What was the wife’s share?",
+    "options": [
+      "` 14000",
+      "` 12000",
+      "` 10000",
+      "` 9000"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-15",
+    "title": "CDS GK Mock Test 15",
+    "qNum": 24,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following international events:\n1. Signing of the Simla Agreement\n2. Agra Summit between India and Pakistan\n3. Signing of the SAARC Charter at the First SAARC Summit\n4. India's first nuclear test\nWhich one of the following is the correct chronological order of the above events?",
+    "options": [
+      "1, 3, 4, 2",
+      "4, 1, 3, 2",
+      "1, 4, 3, 2",
+      "4, 1, 2, 3"
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "cds-gk-v2-15",
+    "title": "CDS GK Mock Test 15",
+    "qNum": 40,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Consider the following statements:\n1. The Sharavati river creates Jog Falls.\n2. The Brahmani river is formed by the confluence of the Kosi and Sankh rivers.\n3. The Tamraparni is a river of Tirunelveli district of Tamil Nadu.\nHow many of the above statements is/are correct?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "cds-gk-v2-15",
+    "title": "CDS GK Mock Test 15",
+    "qNum": 57,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Arrange the following historical events in chronological order:\n1. August Offer\n2. Cripps Mission\n3. Wavell Plan\n4. Cabinet Mission\nSelect the correct sequence:",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "2, 3, 1, 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-15",
+    "title": "CDS GK Mock Test 15",
+    "qNum": 69,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Arrange the formation of the following states in chronological order:\n1. Nagaland\n2. Haryana\n3. Sikkim\n4. Telangana\nSelect the correct sequence:",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "3, 1, 2, 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-15",
+    "title": "CDS GK Mock Test 15",
+    "qNum": 75,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "Ten observations 6, 14, 15, 17, x + 1, 2 13 x − , 30, 32, 34 and 43 are written in ascending order. The median of the data is 24. What is the value of x?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "24 Directions (Q. Nos. 91-94) Consider the following frequency distribution. e 2015 I Class Frequency 0-10 4 10-20 5 20-30 7 30-40 10 40-50 12 50-60 8 60-70 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-15",
+    "title": "CDS GK Mock Test 15",
+    "qNum": 98,
+    "type": "WRONG_SUBJECT",
+    "detail": "Math Q in GK paper",
+    "q": "A pipe with square cross-section is supplying water to a cistern which was initially empty. The area of cross-section is 4 cm2 and the nozzle velocity of water is 40m/s. The dimensions of the cistern 10 8 6 m m m × × . Then, the cistern will be full in",
+    "options": [
+      "9.5 h",
+      "9 h",
+      "8 h and 20 min",
+      "8 h"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-15",
+    "title": "CDS GK Mock Test 15",
+    "qNum": 101,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "The α-particles are",
+    "options": [
+      "high energy electrons",
+      "positively charged hydrogen ions",
+      "high energy X-ray radiations",
+      "double positively charged helium nuclei"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "cds-gk-v2-15",
+    "title": "CDS GK Mock Test 15",
+    "qNum": 109,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "A telegraph post gets broken at a point against a storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30° with the ground. What is the height of the post?",
+    "options": [
+      "40 3 m",
+      "20 3 m",
+      "40 3 m",
+      "30 m"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-1",
+    "title": "AFCAT Combined Mock Test 1",
+    "qNum": 1,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "Put out to pasture",
+    "options": [
+      "To retire or render redundant",
+      "To feed someone",
+      "To diminish importance",
+      "To incubate"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-1",
+    "title": "AFCAT Combined Mock Test 1",
+    "qNum": 65,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "Let p sin^2 α + q cos^2 α = m, q sin^2 β + p cos^2 β = n; p ≠ m, n and q ≠ m, n. What is (tan α / tan β)^2 equal to?",
+    "options": [
+      "((m - q)(n - q)) / ((m - p)(n - p))",
+      "-((m - q)(n - p)) / ((m - p)(n - q))",
+      "((m - q)(n - q)) / ((m - p)(n - p))",
+      "((m - q)(n - p)) / ((m - p)(n - q))"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-2",
+    "title": "AFCAT Combined Mock Test 2",
+    "qNum": 1,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "‘Spectator’ means",
+    "options": [
+      "glasses",
+      "onlookers",
+      "watchman",
+      "player"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-4",
+    "title": "AFCAT Combined Mock Test 4",
+    "qNum": 1,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "Twist of the knife",
+    "options": [
+      "Slicing through the difficulties that one faces in life",
+      "To accept defeat in the face of an enemy",
+      "The last thrust of a difficult operation",
+      "To make someone who is already feeling bad, feel worse with one's words or actions"
+    ],
+    "correct": 3
+  },
+  {
+    "exam": "afcat-v2-4",
+    "title": "AFCAT Combined Mock Test 4",
+    "qNum": 73,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "CaOCl2 Code A B C D",
+    "options": [
+      "4 1 2 3",
+      "4 2 1 3",
+      "3 2 1 4",
+      "3 1 2 4"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-5",
+    "title": "AFCAT Combined Mock Test 5",
+    "qNum": 2,
+    "type": "TRUNCATED",
+    "detail": "Broken question stem",
+    "q": "Sherly wants to know",
+    "options": [
+      "whether you are going",
+      "to Delhi today night.",
+      "No error",
+      ""
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "afcat-v2-5",
+    "title": "AFCAT Combined Mock Test 5",
+    "qNum": 2,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "Sherly wants to know",
+    "options": [
+      "whether you are going",
+      "to Delhi today night.",
+      "No error",
+      ""
+    ],
+    "correct": 2
+  },
+  {
+    "exam": "afcat-v2-6",
+    "title": "AFCAT Combined Mock Test 6",
+    "qNum": 70,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The value of 0 3467 0 1333 . . + is equal to",
+    "options": [
+      "0.48",
+      "0 4801 .",
+      "0 48 .",
+      "0.48"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-7",
+    "title": "AFCAT Combined Mock Test 7",
+    "qNum": 4,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "Our gardener, which is very lazy,",
+    "options": [
+      "says that",
+      "there will be no apples this year.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-9",
+    "title": "AFCAT Combined Mock Test 9",
+    "qNum": 51,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "Seldom and Often",
+    "options": [
+      "Seldom means hardly ever and often means time and again",
+      "Seldom means time and again and often means hardly ever",
+      "Seldom means never and often means not at all",
+      "Seldom means frequently and often means time and again"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-10",
+    "title": "AFCAT Combined Mock Test 10",
+    "qNum": 10,
+    "type": "BAD_OPTIONS",
+    "detail": "Empty option text",
+    "q": "The visitor’s to the zoo are requested,",
+    "options": [
+      "in the interest of all concerned,",
+      "not to carry sticks, stones or food inside and not to tease animals.",
+      "No error",
+      ""
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-10",
+    "title": "AFCAT Combined Mock Test 10",
+    "qNum": 64,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "The minimum value of cos cos cos 2 2 2 x y z + − is",
+    "options": [
+      "−1",
+      "0",
+      "2",
+      "2"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-13",
+    "title": "AFCAT Combined Mock Test 13",
+    "qNum": 5,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "Humming birds eat",
+    "options": [
+      "nectar",
+      "tree sap",
+      "insects",
+      "All of these"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-13",
+    "title": "AFCAT Combined Mock Test 13",
+    "qNum": 50,
+    "type": "DUPE_OPTIONS",
+    "detail": "Options contain duplicates",
+    "q": "10% of the inhabitants of a certain city left that city. Later on 10% of the remaining inhabitants of that city again left the city. What is the remaining percentage of population of that city?",
+    "options": [
+      "80%",
+      "80.4%",
+      "80.4%",
+      "81%"
+    ],
+    "correct": 0
+  },
+  {
+    "exam": "afcat-v2-14",
+    "title": "AFCAT Combined Mock Test 14",
+    "qNum": 7,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "He paused ______.",
+    "options": [
+      "with a few moments",
+      "for a few moments",
+      "by a few moments",
+      "into a few moments"
+    ],
+    "correct": 1
+  },
+  {
+    "exam": "afcat-v2-15",
+    "title": "AFCAT Combined Mock Test 15",
+    "qNum": 8,
+    "type": "TRUNCATED",
+    "detail": "Very short question text",
+    "q": "At the crossroads",
+    "options": [
+      "At important point of a decision",
+      "At an important point of journey",
+      "At the important road of a journey",
+      "At an important stage or decision "
+    ],
+    "correct": 0
+  }
+]

@@ -78,24 +78,24 @@ Include word problems that require setting up equations.
 Mix difficulty: 30% Easy, 50% Medium, 20% Hard.`
   },
 
-  // NDA English: 120 Qs as part of GAT Paper-II (Paper-II has 150 Qs: 50 English + remaining GS — but standalone English mock = 120)
+  // NDA English: 50 Qs as part of GAT Paper-II
   'nda-english': {
-    totalQs: 120,
+    totalQs: 50,
     topics: [
-      { name: 'Reading Comprehension (2 passages of 400-500 words each, 5-6 questions per passage based on inference, vocabulary in context, main idea, tone)', qs: 12 },
-      { name: 'Spotting Errors / Error Detection (Grammar errors in sentences divided into parts)', qs: 18 },
-      { name: 'Sentence Improvement / Correction (Replace underlined part with better alternative)', qs: 15 },
-      { name: 'Synonyms and Antonyms (Choose the word most similar/opposite in meaning)', qs: 18 },
-      { name: 'Idioms and Phrases (Meaning of given idiom/phrase)', qs: 10 },
-      { name: 'One Word Substitution (Single word for a given description)', qs: 10 },
-      { name: 'Fill in the Blanks / Cloze Test (Vocabulary and grammar in context)', qs: 12 },
-      { name: 'Sentence Ordering / Rearrangement (Arrange jumbled sentences into a coherent paragraph)', qs: 10 },
-      { name: 'Active-Passive Voice and Direct-Indirect Speech', qs: 8 },
-      { name: 'Tenses, Subject-Verb Agreement, Parts of Speech', qs: 7 }
+      { name: 'Reading Comprehension (1 passage of 400-500 words, 5 questions based on inference, vocabulary in context, main idea, tone)', qs: 5 },
+      { name: 'Spotting Errors / Error Detection (Grammar errors in sentences divided into parts)', qs: 8 },
+      { name: 'Sentence Improvement / Correction (Replace underlined part with better alternative)', qs: 6 },
+      { name: 'Synonyms and Antonyms (Choose the word most similar/opposite in meaning)', qs: 8 },
+      { name: 'Idioms and Phrases (Meaning of given idiom/phrase)', qs: 4 },
+      { name: 'One Word Substitution (Single word for a given description)', qs: 4 },
+      { name: 'Fill in the Blanks / Cloze Test (Vocabulary and grammar in context)', qs: 5 },
+      { name: 'Sentence Ordering / Rearrangement (Arrange jumbled sentences into a coherent paragraph)', qs: 4 },
+      { name: 'Active-Passive Voice and Direct-Indirect Speech', qs: 3 },
+      { name: 'Tenses, Subject-Verb Agreement, Parts of Speech', qs: 3 }
     ],
     correctMarks: 0.83,
-    incorrectMarks: -0.28,
-    duration: 120,
+    incorrectMarks: -0.27,
+    duration: 50,
     instructions: `You are generating an NDA English mock paper. The English section tests grammar, vocabulary, and comprehension at the Higher Secondary (12th) level.
 Reading comprehension passages should be 400-500 words each on diverse topics (science, history, philosophy, current events).
 Questions should NOT be trivially obvious — distractors should be plausible.
@@ -119,7 +119,7 @@ For error detection, include subtle errors (subject-verb agreement, tense consis
       { name: 'Cloze Test (Passage with blanks to fill)', qs: 7 }
     ],
     correctMarks: 0.83,
-    incorrectMarks: -0.28,
+    incorrectMarks: -0.27,
     duration: 120,
     instructions: `You are generating a CDS English mock paper. CDS English tests vocabulary, grammar, and comprehension at a graduate level — it's slightly harder than NDA English.
 Comprehension passages should cover topics like defence, governance, science, and abstract philosophy.
@@ -142,7 +142,7 @@ Vocabulary questions should test nuanced understanding — include words like 'p
       { name: 'Current Affairs & General Knowledge (Awards, Appointments, Sports, Science & Technology, International Events)', qs: 10 }
     ],
     correctMarks: 0.83,
-    incorrectMarks: -0.28,
+    incorrectMarks: -0.27,
     duration: 120,
     instructions: `You are generating an NDA General Studies mock paper. This is for the GAT (General Ability Test) Paper-II.
 CRITICAL RULE: This paper MUST NOT contain ANY pure Mathematics questions. No trigonometry, calculus, matrices, quadratic equations, polynomials, or algebra. 
@@ -171,7 +171,7 @@ At least 40% of questions should be analytical/application-based, not simple one
       { name: 'Defence Knowledge (Military Exercises, Weapons, Commands, Organizations)', qs: 6 }
     ],
     correctMarks: 0.83,
-    incorrectMarks: -0.28,
+    incorrectMarks: -0.27,
     duration: 120,
     instructions: `You are generating a CDS General Knowledge mock paper.
 CRITICAL RULE: This paper MUST NOT contain ANY pure Mathematics questions. No trigonometry, calculus, matrices, quadratic equations, polynomials, or algebra.

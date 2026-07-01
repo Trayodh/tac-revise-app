@@ -1,0 +1,1281 @@
+[
+  {
+    "question": "Neither of the men are available here.",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correct": 1,
+    "explanation": "The phrase 'Neither of the' is followed by a plural noun and a singular verb. 'Are' should be 'is'.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The students are eagerly awaiting for the results of their final exams.",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correct": 1,
+    "explanation": "The verb 'await' means 'wait for', so using 'for' after 'await' is redundant.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Childrens of schools and colleges are expected to follow certain rules and regulations.",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correct": 0,
+    "explanation": "'Children' is already the plural form of 'child', so 'Childrens' is incorrect.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "He has bought a scissors to shave his moustache.",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correct": 1,
+    "explanation": "'Scissors' is a plural noun and is always referred to as 'a pair of scissors'.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "How are you _______ in your new job? Are you enjoying it?",
+    "options": [
+      "keeping on",
+      "getting up",
+      "going on",
+      "carrying on"
+    ],
+    "correct": 3,
+    "explanation": "'Carrying on' means to continue or to keep doing something.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "I would like to go to the concert _______ I can find a babysitter.",
+    "options": [
+      "if",
+      "may",
+      "unless",
+      "because"
+    ],
+    "correct": 0,
+    "explanation": "'If' introduces a conditional clause, indicating that the desire to go depends on finding a babysitter.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "I _______ what it would be like to be inside a chocolate factory.",
+    "options": [
+      "have always wondered",
+      "am always wondered",
+      "have always wonder",
+      "have always wondering"
+    ],
+    "correct": 0,
+    "explanation": "The present perfect tense 'have always wondered' is correct here.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "His _______ comments about the murder made me shiver.",
+    "options": [
+      "callous",
+      "compassionate",
+      "benevolent",
+      "indurate"
+    ],
+    "correct": 0,
+    "explanation": "'Callous' refers to showing an insensitive and cruel disregard for others.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Dilemma",
+    "options": [
+      "Blessing",
+      "Benefit",
+      "Agreement",
+      "Quandary"
+    ],
+    "correct": 3,
+    "explanation": "'Quandary' means a state of uncertainty or perplexity, similar to a dilemma.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Blare",
+    "options": [
+      "Gurgle",
+      "Roar",
+      "Plash",
+      "Hum"
+    ],
+    "correct": 1,
+    "explanation": "'Blare' means a loud, harsh sound, similar to a 'roar'.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Decrepit",
+    "options": [
+      "Sturdy",
+      "Dilapidated",
+      "Uninterrupted",
+      "Stout"
+    ],
+    "correct": 1,
+    "explanation": "'Decrepit' means old and worn out, similar to 'dilapidated'.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Tyranny",
+    "options": [
+      "Autonomy",
+      "Oppression",
+      "Hatred",
+      "Mystery"
+    ],
+    "correct": 1,
+    "explanation": "'Tyranny' is cruel and oppressive government or rule, similar to 'oppression'.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Entice",
+    "options": [
+      "Authorize",
+      "Baffle",
+      "Repulse",
+      "Misplace"
+    ],
+    "correct": 2,
+    "explanation": "The question asks for a synonym, but the options provided are mostly antonyms or unrelated. Based on the provided answer key, the question is flawed, but option (c) is marked as the answer.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Scuffle",
+    "options": [
+      "Battle",
+      "Combat",
+      "Conflict",
+      "Truce"
+    ],
+    "correct": 3,
+    "explanation": "The question asks for a synonym, but the options provided are mostly synonyms. Based on the provided answer key, the question is flawed, but option (d) is marked as the answer.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "How did the work of Hipparchus contribute to the empirical approach in astronomy?",
+    "options": [
+      "He calculated the distance between the Earth and the Sun with high accuracy.",
+      "He developed the brightness scale still in use today and cataloged over 800 stars.",
+      "He discovered the elliptical orbits of planets and their retrograde motion.",
+      "He created the first detailed map of the constellations based on mythological stories."
+    ],
+    "correct": 1,
+    "explanation": "The passage states Hipparchus cataloged over 800 stars and developed the brightness scale.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following statements best describes how modern astronomy differs from ancient practices?",
+    "options": [
+      "Modern astronomy relies on astrology to predict celestial events.",
+      "Ancient astronomy was primarily theoretical, while modern astronomy is observational.",
+      "Ancient astronomy viewed the sky as a static array, while modern astronomy reveals dynamic phenomena like black holes and galaxies.",
+      "Modern astronomy focuses solely on planetary science, whereas ancient astronomy included all celestial objects."
+    ],
+    "correct": 2,
+    "explanation": "The passage highlights that ancient astronomers saw the sky as a static array, while modern astronomy reveals a dynamic universe.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following statements are correct based on the passage?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "All 1, 2, and 3",
+      "1 and 3 only"
+    ],
+    "correct": 2,
+    "explanation": "All three statements are supported by the passage.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The first-generation small modular reactors are expected to use low-enriched uranium in facilities assembled on-site with factory-made parts, to produce waste that can be handled using existing technologies and power that can be sold at economical rates.",
+    "options": [
+      "PSQR",
+      "RPSQ",
+      "PQRS",
+      "PRQS"
+    ],
+    "correct": 1,
+    "explanation": "The correct sequence is R-P-S-Q.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Between the eighth and eleventh centuries A.D., the Byzantine Empire staged an almost unparalleled economic and cultural revival, a recovery that is all the more striking because it followed a long period of severe internal decline.",
+    "options": [
+      "PSRQ",
+      "PQRS",
+      "RQPS",
+      "SRPQ"
+    ],
+    "correct": 0,
+    "explanation": "The correct sequence is P-S-R-Q.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "In the two decades between 1910 and 1930, over ten percent of the Black population of the United States left the South, where the preponderance of the Black population had been located, and migrated to northern states, with the largest number moving, it is claimed, between 1916 and 1918.",
+    "options": [
+      "QPRS",
+      "QRPS",
+      "RPQS",
+      "RPSQ"
+    ],
+    "correct": 1,
+    "explanation": "The correct sequence is Q-R-P-S.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The momentary triumph of debate is ___(X)___. This does not change the thoughts of the person in front of you.",
+    "options": [
+      "consequential",
+      "hollow",
+      "void",
+      "spatial"
+    ],
+    "correct": 1,
+    "explanation": "'Hollow' means without real value or significance.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "It is more effective to influence people with your work without saying ___(Y)___.",
+    "options": [
+      "something",
+      "anything",
+      "nothing",
+      "everything"
+    ],
+    "correct": 1,
+    "explanation": "'Without' is a negative preposition, so 'anything' is the correct choice.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "You cannot say for sure what effect it ___(Z)___ on the other person.",
+    "options": [
+      "have had",
+      "has had",
+      "had had",
+      "had"
+    ],
+    "correct": 3,
+    "explanation": "The sentence is in the past tense, so 'had' is appropriate.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Paint the town red",
+    "options": [
+      "To do something that makes it impossible to return to the previous situation later",
+      "To go out and enjoy yourself",
+      "A special and memorable day",
+      "To greatly impress a large number of people"
+    ],
+    "correct": 1,
+    "explanation": "'Paint the town red' means to go out and enjoy yourself.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Cool one’s heels",
+    "options": [
+      "To show impudent contempt",
+      "Win approval",
+      "To be kept waiting",
+      "To be useful"
+    ],
+    "correct": 2,
+    "explanation": "'Cool one's heels' means to be kept waiting.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Because it was the last day of class, the teachers _______.",
+    "options": [
+      "cut us down to size.",
+      "cut us some slack.",
+      "cut us out of the class.",
+      "cut us short."
+    ],
+    "correct": 1,
+    "explanation": "'Cut us some slack' means to be lenient or give someone a break.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Window : Panes :: Book : ?",
+    "options": [
+      "Cover",
+      "Novel",
+      "Glass",
+      "Pages"
+    ],
+    "correct": 3,
+    "explanation": "A window is made of panes, and a book is made of pages.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Pernicious : Malignant",
+    "options": [
+      "Harmful : Helpful",
+      "Noxious : Poisonous",
+      "Destructive : Constructive",
+      "Detrimental : Advantageous"
+    ],
+    "correct": 1,
+    "explanation": "Both pairs represent synonyms indicating extreme harm.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The fear of aging",
+    "options": [
+      "Claustrophobia",
+      "Gerascophobia",
+      "Thanatophobia",
+      "Acrophobia"
+    ],
+    "correct": 1,
+    "explanation": "'Gerascophobia' is the fear of aging.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "A lover of mankind",
+    "options": [
+      "Chauvinist",
+      "Altruist",
+      "Recluse",
+      "Termagant"
+    ],
+    "correct": 1,
+    "explanation": "'Altruist' is a lover of mankind.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "If the square of the sum of two numbers is 90 and square of their difference is 46, what is the product of the two numbers?",
+    "options": [
+      "11",
+      "22",
+      "30",
+      "32"
+    ],
+    "correct": 0,
+    "explanation": "(x+y)^2 - (x-y)^2 = 4xy. 90 - 46 = 44. 4xy = 44, so xy = 11.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "At what rate of compound interest per annum will a sum of ₹1200 become ₹1348.32 in 2 years?",
+    "options": [
+      "5%",
+      "6%",
+      "7.8%",
+      "8.5%"
+    ],
+    "correct": 1,
+    "explanation": "1348.32 = 1200(1 + R/100)^2. Solving gives R = 6%.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "If someone makes a profit of 30% by selling an article, then what would be the profit percent, if it will be calculated on the selling price instead of cost price?",
+    "options": [
+      "21.8%",
+      "20%",
+      "25%",
+      "23.07%"
+    ],
+    "correct": 3,
+    "explanation": "Profit = 30, CP = 100, SP = 130. Profit on SP = (30/130)*100 = 23.07%.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "A train covers a certain distance in 45 minutes. If its speed is reduced by 5 km/hr, it takes 3 minutes more to cover the same distance. The distance (in km) is:",
+    "options": [
+      "50",
+      "70",
+      "60",
+      "80"
+    ],
+    "correct": 2,
+    "explanation": "Using distance = speed * time, solving the equations gives distance = 60 km.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "If a : b = 3 : 5 and b : c = 7 : 8, then 2a : 3b : 7c is equal to ?",
+    "options": [
+      "42 : 105 : 320",
+      "15 : 21 : 35",
+      "6 : 15 : 40",
+      "30 : 21 : 350"
+    ],
+    "correct": 2,
+    "explanation": "a:b:c = 21:35:40. 2a:3b:7c = 42:105:280, which simplifies to 6:15:40.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "There are 4 semi-circular gardens on each side of a square-shaped pond with each side 21 m. The cost of fencing the entire plot at the rate of ₹12.50 per meter is",
+    "options": [
+      "₹1650",
+      "₹1750",
+      "₹1800",
+      "₹1900"
+    ],
+    "correct": 0,
+    "explanation": "Perimeter = 4 * (pi * r) = 4 * (22/7 * 21/2) = 132m. Cost = 132 * 12.5 = 1650.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "The average age of five persons is 28 yrs. If one of them is excluded the average decreases by 2 yrs. The age of the excluded person in yrs is:",
+    "options": [
+      "34",
+      "28",
+      "35",
+      "36"
+    ],
+    "correct": 3,
+    "explanation": "Sum = 5*28 = 140. New sum = 4*26 = 104. Excluded = 140 - 104 = 36.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Two kinds of daal at ₹18 and ₹24.8 per kg are mixed. In what ratio should they be mixed such that by selling at ₹30 per kg, a profit percentage of 50% is realized?",
+    "options": [
+      "12 : 5",
+      "12 : 7",
+      "4 : 7",
+      "3 : 7"
+    ],
+    "correct": 0,
+    "explanation": "CP = 30/1.5 = 20. Using alligation: (24.8-20)/(20-18) = 4.8/2 = 2.4 = 12:5.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "A shopkeeper bought 80 kg of rice at a discount of 10%, besides 1 kg rice was offered free to him on the purchase of every 20 kg rice. If he sells the rice at the marked price, his profit percentage will be",
+    "options": [
+      "16 2/3%",
+      "15.25%",
+      "8 1/3%",
+      "12%"
+    ],
+    "correct": 0,
+    "explanation": "CP = 72, Total rice = 84, SP = 84. Profit = 12. Profit % = (12/72)*100 = 16.66%.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The compound Interest on ₹8000 in 1 year at 4% per annum the interest being compounded half yearly is:",
+    "options": [
+      "₹752.45",
+      "₹632.65",
+      "₹323.20",
+      "₹783.45"
+    ],
+    "correct": 2,
+    "explanation": "A = 8000(1 + 0.02)^2 = 8323.20. Interest = 323.20.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Two equal amounts were borrowed at 5% and 4% simple interest. The total interest after years amounted to ₹405. What was the total amount borrowed?",
+    "options": [
+      "₹1075",
+      "₹1100",
+      "₹1125",
+      "₹1150"
+    ],
+    "correct": 2,
+    "explanation": "Assuming 4 years: (P*5*4)/100 + (P*4*4)/100 = 405. 36P/100 = 405. P = 1125.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Find the smallest 5-digit number divisible by 243.",
+    "options": [
+      "10345",
+      "11450",
+      "10106",
+      "10206"
+    ],
+    "correct": 3,
+    "explanation": "10000 / 243 = 41.15. 243 * 42 = 10206.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "If the price of the cooking gas rises by 15%, by what percent should a family reduce its consumption so as not to exceed the budget on cooking gas?",
+    "options": [
+      "12 1/23%",
+      "13 1/23%",
+      "14 1/23%",
+      "None of these"
+    ],
+    "correct": 1,
+    "explanation": "Reduction = (15/115)*100 = 13 1/23%.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "A is 50% more efficient as B. In one day, C can do half of the work done by A and B together. If C alone can do the work in 40 days, then A, B, and C together can do the work in how many days?",
+    "options": [
+      "44 3 days",
+      "43 3 days",
+      "40/3 days",
+      "50/3 days"
+    ],
+    "correct": 2,
+    "explanation": "A=3x, B=2x, C=2.5x. Total = 7.5x. C=2.5x=1/40. x=1/100. Total = 7.5/100 = 3/40. Days = 40/3.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "A sum of ₹8,400 is divided between Anuj and Brijesh such that Anuj's share at the end of 2 years is equal to Brijesh’s share at the end of 2 2/3 years at 15% p.a., interest compounded 8-monthly. What is Anuj’s share (in ₹) in the given sum?",
+    "options": [
+      "4,400",
+      "4,700",
+      "5,600",
+      "6000"
+    ],
+    "correct": 0,
+    "explanation": "Solving the compound interest equation for equal amounts gives Anuj's share as 4400.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "In a bag, there are 12 apples. Out of those 4 are rotten. If two apples are taken out at random from the bag, what is the probability to get exactly two rotten apples?",
+    "options": [
+      "2/15",
+      "1/11",
+      "1/15",
+      "5/12"
+    ],
+    "correct": 1,
+    "explanation": "Probability = (4C2) / (12C2) = 6 / 66 = 1/11.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "When the price of an item was reduced by 20%, its sales increased by x%. If there is an increase of 25% in the receipt of the revenue, then the value of x is :",
+    "options": [
+      "56.25%",
+      "53.84%",
+      "61.5%",
+      "55.75%"
+    ],
+    "correct": 0,
+    "explanation": "0.8 * (1 + x/100) = 1.25. 1 + x/100 = 1.5625. x = 56.25%.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "A can finish the work in 25 days while B can finish the work in 16 days. If A started the work alone and B joined him after 5 days. Find out the total time taken to finish the work.",
+    "options": [
+      "10 days",
+      "13 days",
+      "15 days",
+      "17 days"
+    ],
+    "correct": 1,
+    "explanation": "A does 20% in 5 days. Remaining 80%. A+B = 4% + 6.25% = 10.25%. 80/10.25 = 7.8 days. Total = 5 + 7.8 = 12.8 approx 13 days.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "A cow is tied by a rope of 42 feet length. If it grazes 154 sq feet per day then how much days it will take to grave the area fully?",
+    "options": [
+      "27 Days",
+      "32 Days",
+      "36 Days",
+      "40 Days"
+    ],
+    "correct": 2,
+    "explanation": "Area = pi * r^2 = 22/7 * 42 * 42 = 5544. Days = 5544 / 154 = 36.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "A retailer purchases a machine at a discount of 10% and sells it for ₹5940 at a profit of 10%. The amount of discount received by the retailer from the wholesaler was",
+    "options": [
+      "₹500",
+      "₹600",
+      "₹5500",
+      "₹650"
+    ],
+    "correct": 1,
+    "explanation": "CP = 5940/1.1 = 5400. MP = 5400/0.9 = 6000. Discount = 6000 - 5400 = 600.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "The rank of “Major” in the Indian Army is equivalent to which rank in the Indian Air Force?",
+    "options": [
+      "Wing Commander",
+      "Squadron Leader",
+      "Flight Lieutenant",
+      "Group Captain"
+    ],
+    "correct": 1,
+    "explanation": "Major in the Army is equivalent to Squadron Leader in the Air Force.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Match the List-I with List-II and select the correct answer using the code given below:",
+    "options": [
+      "A-2, B-1, C-3, D-4",
+      "A-3, B-4, C-1, D-2",
+      "A-2, B-1, C-4, D-3",
+      "A-2, B-4, C-1, D-3"
+    ],
+    "correct": 3,
+    "explanation": "Dalhousie-Lapse, Ripon-Local Self Govt, Curzon-Partition of Bengal, Bentinck-Sati.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following statements best describes the stellar day?",
+    "options": [
+      "The time it takes for the Earth to complete one orbit around the Sun.",
+      "The time it takes for the Earth to rotate once on its axis relative to the Sun.",
+      "The time it takes for the Earth to rotate once on its axis relative to distant stars.",
+      "The time between two consecutive sunrises."
+    ],
+    "correct": 2,
+    "explanation": "A stellar day (sidereal day) is the time for Earth to rotate once relative to distant stars.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Surya Kiran joint military exercise was commenced between India and which country?",
+    "options": [
+      "Myanmar",
+      "Nepal",
+      "Singapore",
+      "Oman"
+    ],
+    "correct": 1,
+    "explanation": "Surya Kiran is a joint military exercise between India and Nepal.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following statements with reference to INS Jatayu: 1. INS Jatayu is the new naval base established by the Indian Navy in the Lakshadweep Islands. 2. It will serve as a naval detachment there, enhancing the Indian Navy’s operational reach in the region.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 2,
+    "explanation": "Both statements are correct regarding INS Jatayu.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Who among the following became the new Prime Minister of Nepal in July 2024?",
+    "options": [
+      "Raj Sharma",
+      "Ram Chandra",
+      "Sher Bahadur Deuba",
+      "KP Sharma Oli"
+    ],
+    "correct": 3,
+    "explanation": "KP Sharma Oli was appointed Prime Minister of Nepal in July 2024.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Nalanda University built by the which of the following dynasties?",
+    "options": [
+      "Gupta Dynasty",
+      "Chola Dynasty",
+      "Kanva Dynasty",
+      "Chalukya Dynasty"
+    ],
+    "correct": 0,
+    "explanation": "Nalanda University was founded by the Gupta Dynasty.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following seas has the highest salinity?",
+    "options": [
+      "Red sea",
+      "Dead Sea",
+      "Mediterranean Sea",
+      "Black Sea"
+    ],
+    "correct": 1,
+    "explanation": "The Dead Sea has the highest salinity.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Recently added to the Ramsar List, the Nagi and Nakti Bird sanctuaries are situated in which state?",
+    "options": [
+      "Uttar Pradesh",
+      "Bihar",
+      "Rajasthan",
+      "Haryana"
+    ],
+    "correct": 1,
+    "explanation": "Nagi and Nakti Bird sanctuaries are in Bihar.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "What percentage of posts in the Supreme Court Bar Association (SCBA) must be reserved for women according to the recent Supreme Court directive?",
+    "options": [
+      "25%",
+      "40%",
+      "33%",
+      "50%"
+    ],
+    "correct": 2,
+    "explanation": "The Supreme Court mandated at least 33% reservation for women in the SCBA.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Under which ministry is the Namami Gange Programme implemented?",
+    "options": [
+      "Ministry of Environment, Forest, and Climate Change",
+      "Ministry of Water Resources, River Development, and Ganga Rejuvenation",
+      "Ministry of Urban Development",
+      "Ministry of Jal Shakti"
+    ],
+    "correct": 3,
+    "explanation": "Namami Gange is implemented under the Ministry of Jal Shakti.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "How many players can be on a basketball court?",
+    "options": [
+      "Four",
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    "correct": 1,
+    "explanation": "There are 5 players on a basketball team on the court.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which international alliance is heavily involved in the Orion 23 military exercise alongside the Indian Air Force?",
+    "options": [
+      "NATO",
+      "OPEC",
+      "BRICS",
+      "ASEAN"
+    ],
+    "correct": 0,
+    "explanation": "Orion 23 involved NATO troops.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which among the following sectors includes the industries where finished products are made from natural materials?",
+    "options": [
+      "Primary Sector",
+      "Secondary Sector",
+      "Tertiary Sector",
+      "Quaternary Sector"
+    ],
+    "correct": 1,
+    "explanation": "The secondary sector involves manufacturing finished products from natural materials.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "“Dunk” term is associated with which of the following sports?",
+    "options": [
+      "Table tennis",
+      "Golf",
+      "Volleyball",
+      "Basketball"
+    ],
+    "correct": 3,
+    "explanation": "A 'dunk' is a basketball term.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "What is the cultivation of woody plants called?",
+    "options": [
+      "Sericulture",
+      "Horticulture",
+      "Viticulture",
+      "Arboriculture"
+    ],
+    "correct": 3,
+    "explanation": "Arboriculture is the cultivation of woody plants.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Windmills primarily convert which type of energy into which other type of energy?",
+    "options": [
+      "Kinetic energy into Electrical energy",
+      "Solar energy into Thermal energy",
+      "Mechanical energy into Chemical energy",
+      "Potential energy into Nuclear energy"
+    ],
+    "correct": 0,
+    "explanation": "Windmills convert kinetic energy from wind into electrical energy.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The 46th Antarctic Treaty Consultative Meeting (ATCM) was organised in which of the following countries?",
+    "options": [
+      "Greenland",
+      "Norway",
+      "India",
+      "Switzerland"
+    ],
+    "correct": 2,
+    "explanation": "The 46th ATCM was hosted by India in Kochi.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following books was not written by an Indian author?",
+    "options": [
+      "The God of Small Things",
+      "The White Tiger",
+      "To Kill a Mockingbird",
+      "Midnight’s Children"
+    ],
+    "correct": 2,
+    "explanation": "'To Kill a Mockingbird' was written by Harper Lee, an American author.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "With reference to Ecosystem, consider the following statements: 1. Producer is a starting point of any Ecosystem. 2. Flow of nutrients in Ecosystem is cyclic. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 2,
+    "explanation": "Both statements are correct.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which is the first state in India to impose an agriculture tax?",
+    "options": [
+      "Uttar Pradesh",
+      "Bihar",
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "correct": 1,
+    "explanation": "Bihar was the first state to impose an agricultural tax.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "What is the length of the Atal Setu bridge in Maharashtra in kilometers?",
+    "options": [
+      "17.8 km",
+      "18.8 km",
+      "19.8 km",
+      "21.8 km"
+    ],
+    "correct": 3,
+    "explanation": "Atal Setu is 21.8 km long.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "What are the core values of the Indian Air Force (IAF)?",
+    "options": [
+      "Mission, Integrity, Excellence",
+      "Touch the Sky with Glory",
+      "Strength, Honor, Valor",
+      "Service Before Self"
+    ],
+    "correct": 0,
+    "explanation": "Mission, Integrity, Excellence are the core values of the IAF.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "INS Garuda is an Indian naval air station located in which Indian state?",
+    "options": [
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka",
+      "Andhra Pradesh"
+    ],
+    "correct": 1,
+    "explanation": "INS Garuda is located in Kochi, Kerala.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "“Sangeet Natak Akademi recognised Sattriya Nritya as one of the classical dance forms of India”, which among the following states represents the origin of the Sattriya Nritya dance form?",
+    "options": [
+      "Odisha",
+      "Manipur",
+      "Assam",
+      "West Bengal"
+    ],
+    "correct": 2,
+    "explanation": "Sattriya Nritya originated in Assam.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Identify the figure which satisfies the same condition of placement of dots as in given figure.",
+    "options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "(d)"
+    ],
+    "correct": 3,
+    "explanation": "Based on the dot placement analysis, option (d) is correct.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "In a certain code language, ‘SWISS’ is written as ‘HDRHH’, and ‘TABOO’ is written as ‘GZYLL’. How will ‘REHAB’ be written in that language?",
+    "options": [
+      "HHGAK",
+      "IGASH",
+      "IVSZY",
+      "BAHRE"
+    ],
+    "correct": 2,
+    "explanation": "The code uses opposite letters. R-I, E-V, H-S, A-Z, B-Y.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "In a certain code language, “ADD” is written as “8” and “SUB” is written as “41”. How is “MUL” written in that code language?",
+    "options": [
+      "44",
+      "45",
+      "43",
+      "42"
+    ],
+    "correct": 1,
+    "explanation": "Sum of place values minus 1. M(13)+U(21)+L(12) = 46. 46-1 = 45.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "If 23@5=56; 6@7=26; 5@2=14; then what is the value of 7 @ 5= ?",
+    "options": [
+      "26",
+      "24",
+      "19",
+      "52"
+    ],
+    "correct": 1,
+    "explanation": "(a+b)*2. (7+5)*2 = 24.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "In a certain coded language, Red is called Blue, Blue is called Black, Black is called White, White is called Yellow, Yellow is called Pink, Pink is called Brown, and Brown is called Orange. What will be the name of the movie “Sky is Pink” in the same coded language?",
+    "options": [
+      "Sky is Yellow",
+      "Sky is Orange",
+      "Sky is White",
+      "Sky is Brown"
+    ],
+    "correct": 3,
+    "explanation": "Pink is called Brown, so 'Sky is Pink' becomes 'Sky is Brown'.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Between 2 and 3 o’clock, at what time will the hands of the clock coincide.",
+    "options": [
+      "2:10 10/11",
+      "2:10 9/11",
+      "2:10 8/11",
+      "2:10 7/11"
+    ],
+    "correct": 0,
+    "explanation": "Angle = 0 = (60H - 11M)/2. 120 = 11M. M = 120/11 = 10 10/11.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "My parents’ wedding anniversary was celebrated on 4th December 2021 on Saturday, so what day will their anniversary be next year?",
+    "options": [
+      "Sunday",
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "correct": 0,
+    "explanation": "In consecutive non-leap years, the day shifts by one. Saturday + 1 = Sunday.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Kaliya is 13th from the left side and Gabbar is 20th from the right side in a row. They decided to interchange their positions, now Kaliya becomes 18th from the left side. What will Gabbar’s position from the right?",
+    "options": [
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
+    "correct": 2,
+    "explanation": "Total = 18 + 20 - 1 = 37. Gabbar's new position = 37 - 13 + 1 = 25.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Showing a man, a woman said, “his brother’s father is the only son of my grandfather”. How is the woman related to the man?",
+    "options": [
+      "Aunt",
+      "Sister",
+      "Daughter",
+      "Mother"
+    ],
+    "correct": 1,
+    "explanation": "The man's father is the woman's father. Therefore, she is his sister.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Select the Venn diagram that best illustrates the relationship between the following classes. Asia, India, Pakistan",
+    "options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "(d)"
+    ],
+    "correct": 1,
+    "explanation": "India and Pakistan are independent countries within Asia.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Select the Venn diagram that best illustrates the relationship between the three given classes. Advocate, Males, Husband",
+    "options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "(d)"
+    ],
+    "correct": 0,
+    "explanation": "All husbands are male, and some advocates are male/husbands.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "How many women are entrepreneurs but NOT mothers?",
+    "options": [
+      "21",
+      "74",
+      "50",
+      "46"
+    ],
+    "correct": 1,
+    "explanation": "The intersection of women and entrepreneurs excluding mothers is 74.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Arrange these letters of each group to make a meaningful word and then find the odd one out.",
+    "options": [
+      "RDAUSNO",
+      "EMOMCOROD",
+      "ANCEDOG",
+      "LARHSAM"
+    ],
+    "correct": 2,
+    "explanation": "Squadron, Commodore, Marshal are Air Force ranks. Decagon is a shape.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "If you arrange the following options, it will give you a meaningful word. Select the odd word from the given alternatives.",
+    "options": [
+      "EEWRSTA",
+      "KCTAEJ",
+      "EECFEL",
+      "ENBIAE"
+    ],
+    "correct": 2,
+    "explanation": "Sweater, Jacket, Beanie are woollen clothes. Fleece is a fabric.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the letter-cluster that is different.",
+    "options": [
+      "MN",
+      "GT",
+      "KP",
+      "L"
+    ],
+    "correct": 3,
+    "explanation": "MN, GT, KP are pairs of opposite letters. L is a single letter.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "In the following question, select the number which can be placed at the sign of question mark (?) from the given alternatives.",
+    "options": [
+      "3",
+      "4",
+      "8",
+      "14"
+    ],
+    "correct": 1,
+    "explanation": "8*6*2 = 96. 15*2*2 = 60. ?*5*6 = 120. ? = 4.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "In the following question, select the number which can be placed at the sign of question mark (?) from the given alternatives.",
+    "options": [
+      "20",
+      "19",
+      "16",
+      "18"
+    ],
+    "correct": 1,
+    "explanation": "Column sums: 2+5+7=14, 8+4+5=17, 6+9+4=19.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.",
+    "options": [
+      "192",
+      "252",
+      "72",
+      "198"
+    ],
+    "correct": 0,
+    "explanation": "x * 5 + x/3. 36 * 5 + 36/3 = 180 + 12 = 192.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Select the option that is related to the fifth term in the same way as the second term is related to the first term and the fourth term is related to the third term.",
+    "options": [
+      "EFBS",
+      "SBFE",
+      "SCFE",
+      "SBEF"
+    ],
+    "correct": 1,
+    "explanation": "Pattern involves shifting letters by +1 and crossing.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Select the related letter cluster from the given alternative.",
+    "options": [
+      "YBEH",
+      "DCBA",
+      "JHPS",
+      "XURO"
+    ],
+    "correct": 0,
+    "explanation": "Pattern involves +2, +4, +6, +8.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Vilas went from his home to his college. He started his journey facing east. First, he went 2 km straight; then he turned to his right and went 3 km: finally, he turned left and walked 4 km to reach his college. To which direction is Vilas’s home located in relation to his college?",
+    "options": [
+      "South-west",
+      "North-east",
+      "South-East",
+      "North-west"
+    ],
+    "correct": 3,
+    "explanation": "Plotting the path shows home is North-West of the college.",
+    "topicId": "afcat"
+  },
+  {
+    "question": "Select the number from among the given options that can replace the question mark (?) in the following series. 1, 6, 25, 76, ?, 154",
+    "options": [
+      "153",
+      "134",
+      "164",
+      "123"
+    ],
+    "correct": 0,
+    "explanation": "1*5+1=6, 6*4+1=25, 25*3+1=76, 76*2+1=153.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Select the number from the given alternatives that can replace the question mark (?) in the following series. 20, 21, 25, 34, ?, 75",
+    "options": [
+      "45",
+      "21",
+      "55",
+      "50"
+    ],
+    "correct": 0,
+    "explanation": "Differences are 1^2, 2^2, 3^2, 4^2. 34 + 16 = 50. Wait, 34 + 16 = 50. The option is 50.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which answer figure will complete the pattern in the question figure?",
+    "options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "(d)"
+    ],
+    "correct": 3,
+    "explanation": "Pattern completion logic.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which figure should replace the question mark (?) if the series were to be continued?",
+    "options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "(d)"
+    ],
+    "correct": 3,
+    "explanation": "Series continuation logic.",
+    "topicId": "afcat",
+    "exam": "AFCAT"
+  }
+]

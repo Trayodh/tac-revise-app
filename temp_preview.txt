@@ -1,0 +1,112 @@
+
+---
+_ (b)
+Let
+roots
+of
+the
+quadratic
+equation be a and b. Then,
+a
+b
++
+= 7
+… (i)
+a b
+⋅
+= 12
+… (ii)
+Put b
+a
+=
+−
+7
+into Eq.(ii), we get
+a
+a
+(
+)
+7
+12
+−
+=
+⇒
+7
+12
+2
+a
+a
+−
+=
+⇒
+a
+a
+2
+7
+12
+0
+−
++
+=
+⇒a
+a
+a
+2
+3
+4
+12
+0
+−
+−
++
+=
+⇒a a
+a
+(
+)
+(
+)
+−
+−
+−
+=
+3
+4
+3
+0
+⇒(
+) (
+)
+a
+a
+−
+−
+=
+3
+4
+0
+a = 3 or 4
+When, a = 3, b =
+−
+=
+7
+3
+4
+When, a = 4, b =
+−
+=
+7
+4
+3
+So, the smaller root is 3 and the
+bigger root is 4.
+According to the question,
+New roots are 1
+2
+4
+× ( )and2
+3
+× ( )i.e.,
+2 and 6.
+The resulting quadratic equation :
+x 2

@@ -1,34 +1,41 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
-EXPANDED_NOTES_DATA["what-is-history"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+EXPANDED_NOTES_DATA["what-is-history"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
     <span>•</span> What is History?
   </h3>
 
   <p style="line-height: 1.6; margin-bottom: 15px;">
-    History is not merely a chronological list of dates or a collection of stories about kings and battles. In the context of UPSC Defence examinations (NDA/CDS), History is defined as the <strong>systematic study of the human past</strong> based on the critical examination of evidence. It is the bridge between the past and the present, helping us understand the evolution of societies, political structures, and cultural identities.
+    History is not merely a chronological list of dates or a collection of stories about kings and battles. In the context of UPSC Defence examinations (NDA/CDS), History is defined as the <strong>systematic study of the human past</strong> based on the critical examination of evidence. It is the bridge between the past and the present, helping us understand the evolution of societies, political structures, and cultural identities. The provided study material on Ancient History exemplifies this by meticulously detailing the socio-economic, political, religious, and cultural aspects of various civilizations, from the Indus Valley to the Post-Gupta era, demonstrating how historical narratives are constructed from diverse sources.
   </p>
 
   <p style="line-height: 1.6; margin-bottom: 15px;">
-    The discipline relies on <strong>Historiography</strong>—the study of how history is written. Historians act as detectives; they do not "create" the past but reconstruct it using available sources. This reconstruction is subject to interpretation, which is why history is often described as a dialogue between the historian and the evidence. For exam purposes, you must distinguish between <em>what happened</em> (the event) and <em>how it is recorded</em> (the narrative).
+    The discipline relies on <strong>Historiography</strong>—the study of how history is written. Historians act as detectives; they do not "create" the past but reconstruct it using available sources. This reconstruction is subject to interpretation, which is why history is often described as a dialogue between the historian and the evidence. For exam purposes, you must distinguish between <em>what happened</em> (the event) and <em>how it is recorded</em> (the narrative). The varying theories on the decline of the Indus Valley Civilization (ecological factors, floods, shifts in river courses, possible invasion) or the Mauryan Empire (weak successors, regional revolts, economic drain, external invasions by Greeks, Sakas, Parthians) highlight this interpretive aspect, where different evidences and perspectives lead to different conclusions.
   </p>
 
   <p style="line-height: 1.6; margin-bottom: 15px;">
-    To master this subject, one must understand the <strong>Triad of Historical Inquiry</strong>: Evidence, Chronology, and Context. Without evidence, a claim is a myth; without chronology, it is a jumble of events; and without context, it lacks meaning. UPSC often tests your ability to categorize sources and understand the socio-economic conditions that drove historical shifts.
+    To master this subject, one must understand the <strong>Triad of Historical Inquiry</strong>: Evidence, Chronology, and Context. Without evidence, a claim is a myth; without chronology, it is a jumble of events; and without context, it lacks meaning. UPSC often tests your ability to categorize sources and understand the socio-economic conditions that drove historical shifts. The detailed accounts of settlements, economic activities, social structures, and religious practices across different periods in the study material provide the necessary context for understanding these historical shifts, such as the transition from pastoral to settled agricultural communities in the Vedic Age or the emergence of powerful monarchies during the Mahajanapadas.
   </p>
 
   <div style="margin: 20px 0;">
-    <h4 style="color: var(--text-primary); font-weight: 600; margin-bottom: 10px;">Core Components of Historical Analysis</h4>
+    <h4 style="color: var(--text-primary); font-weight: 600; margin-bottom: 10px;">Core Components of Historical Analysis (with examples from Ancient India)</h4>
     <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-      <li><strong>Archaeology:</strong> The study of human history through the excavation of sites and the analysis of physical remains (pottery, tools, monuments).</li>
-      <li><strong>Epigraphy:</strong> The study of inscriptions on stone, metal, or other permanent materials.</li>
-      <li><strong>Numismatics:</strong> The study of coins, which provides crucial data on trade, economy, and the extent of a ruler's empire.</li>
-      <li><strong>Literary Sources:</strong> Divided into <em>Indigenous</em> (Vedas, Puranas, Sangam literature) and <em>Foreign Accounts</em> (Travelogues of Megasthenes, Fa-Hien, Hiuen Tsang).</li>
+      <li><strong>Archaeology:</strong> The study of human history through the excavation of sites and the analysis of physical remains. The Indus Valley Civilization (IVC) is a prime example, with sites like Harappa (grid-like street patterns, well-built structures, steatite seals), Mohenjodaro (Great Bath, advanced drainage systems, priest King, Bronze Dancing Girl), Lothal (dockyard, warehouse complexes, bead-making workshop, rice husk), Dholavira (large-scale water management systems), and Rakhigarhi (largest IVC settlement with cemetery). Key excavators mentioned include R.D. Banerji, John Marshall, Ernest Mackay, S.R. Rao, and R.S. Bisht. Pottery cultures like Mehrgarh Culture (Red Ware, Black-on-Red Ware) and Early Iron Age Cultures (Northern Black Polished Ware, Painted Grey Ware) are also archaeological indicators.</li>
+      <li><strong>Epigraphy:</strong> The study of inscriptions on stone, metal, or other permanent materials. Ashokan Edicts (Major Rock Edicts I-XIV, Minor Rock Edicts) are crucial primary sources, providing insights into Ashoka's Dhamma, policies (e.g., prohibition of animal sacrifice, religious tolerance, welfare measures), and administration. Specific edicts like the Rummindei Inscription mention tax reductions for Lumbini, Buddha's birthplace, while the Allahabad-Kosam/Queens Edict contains Samudragupta's inscription. The Rabatak Inscription provides information about Kushan ruler Kanishka's rule.</li>
+      <li><strong>Numismatics:</strong> The study of coins, which provides crucial data on trade, economy, and the extent of a ruler's empire. The Early Vedic period had no known coinage system, relying on barter. The Later Vedic period saw the introduction of coins (punch-marked coins). The Kushans were among the first rulers in India to issue a large number of gold coins with high metallic purity, followed by the Guptas whose coins were minted with high-quality artwork, showcasing portraits of kings, deities, and economic prosperity.</li>
+      <li><strong>Literary Sources:</strong> Divided into <em>Indigenous</em> and <em>Foreign Accounts</em>.
+        <ul style="list-style-type: circle; padding-left: 20px;">
+          <li><strong>Indigenous:</strong> The Rigveda (oldest Vedic text), Samaveda, Yajurveda, and Atharvaveda are foundational for the Early and Later Vedic periods, along with Brahmanas, Aranyakas, and Upanishads. Buddhist literature includes the Tripitaka (Sutta, Vinaya, Abhidhamma), Mahayana Sutras, Tibetan Buddhist Texts, and Jataka Tales. Jain scriptures comprise the Agamas, Angas, and philosophical texts like Tattvartha Sutra by Acharya Umaswati. Sangam literature (Agattiyam, Tolkappiyam, Thirukkural, Silappatikaram, Manimekalai) provides insights into the Chera, Chola, and Pandya kingdoms. Gupta period saw rich Sanskrit literature by Kalidasa (Abhijnanasakuntalam, Raghuvamsha) and scientific texts by Varahamihira (Panchasiddhantika).</li>
+          <li><strong>Foreign Accounts:</strong> Megasthenes' Indica (for the Mauryan Empire and Sangam Age), and accounts by Chinese travelers like Hsuan Tsang (who visited India during Harsha's reign and wrote Si-Yu-Ki) offer external perspectives on Indian societies and events.</li>
+        </ul>
+      </li>
+      <li><strong>Art & Architecture:</strong> Monuments, sculptures, and paintings serve as invaluable historical records. Examples include the stupas and monasteries of the Mauryan period (Great Stupa at Sanchi, Ashokan Pillars), Gupta temple architecture (Nagara style, rock-cut caves like Ajanta, Udayagiri, Khandagiri, Dasavatara Temple in Deogarh), and Mughal Indo-Islamic architecture (Taj Mahal, Red Fort, Jama Masjid, Charbagh gardens, miniature paintings).</li>
     </ul>
   </div>
 
   <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
   <ul style="list-style-type: none; padding: 0;">
-    <li style="margin-bottom: 8px;"><strong>Primary Sources:</strong> Contemporary evidence (e.g., Ashokan Edicts, Harappan Seals, Coins).</li>
+    <li style="margin-bottom: 8px;"><strong>Primary Sources:</strong> Contemporary evidence (e.g., Ashokan Edicts, Harappan Seals, Gold Coins of Kushans/Guptas, Vedic texts, Sangam Literature).</li>
     <li style="margin-bottom: 8px;"><strong>Secondary Sources:</strong> Later analysis/interpretations (e.g., Modern textbooks, biographies written centuries later).</li>
     <li style="margin-bottom: 8px;"><strong>Herodotus:</strong> Known as the "Father of History" (Greek historian).</li>
     <li style="margin-bottom: 8px;"><strong>Chronology Markers:</strong> 
@@ -45,11 +52,102 @@ EXPANDED_NOTES_DATA["what-is-history"] = `<div class="revision-card" style="back
     </li>
   </ul>
 
-  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-radius: 6px; border: 1px solid rgba(255, 215, 0, 0.3);">
-    <strong style="color: #ffd700;">Strategic Exam Tip:</strong> UPSC often traps students by asking if "History is objective." Remember: History is <em>interpretative</em>. While facts (dates/names) are objective, the <em>significance</em> assigned to them is subjective. Always look for the "Why" behind the "What" in your preparation.
-  </div>
-</div>`;
+  <h4 style="color: var(--text-primary); font-weight: 600; margin-top: 20px; margin-bottom: 10px;">Comparative Analysis: Mauryan vs. Gupta Empires</h4>
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Understanding historical periods often involves comparative analysis to highlight unique characteristics and shared legacies. The Mauryan and Gupta empires, though distinct, offer valuable insights into ancient Indian governance, economy, and culture.
+  </p>
+  <table style="width: 100%; border-collapse: collapse; margin-top: 10px; border: 1px solid var(--border);">
+    <thead>
+      <tr style="background: rgba(255,255,255,0.1);">
+        <th style="padding: 10px; border: 1px solid var(--border); text-align: left; color: var(--accent);">Aspect</th>
+        <th style="padding: 10px; border: 1px solid var(--border); text-align: left; color: var(--accent);">Mauryan Empire</th>
+        <th style="padding: 10px; border: 1px solid var(--border); text-align: left; color: var(--accent);">Gupta Empire</th>
+        <th style="padding: 10px; border: 1px solid var(--border); text-align: left; color: var(--accent);">Similarities</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 8px; border: 1px solid var(--border);"><strong>Geographical Location</strong></td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Covered a larger extent of the Indian subcontinent, including present-day India, Pakistan, Bangladesh, and Afghanistan.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Primarily centred in northern and central India.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Both empires were centred in the Indian subcontinent.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid var(--border);"><strong>Administration</strong></td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Centralised administration with a highly organised bureaucracy (e.g., Mahamatra, Samaharta, Maha Dandanayaka, Sannidhata).</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Decentralised administration with regional and local governance; feudal in nature.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Both empires had administrative systems to govern their territories.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid var(--border);"><strong>Emperors</strong></td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Chandragupta Maurya, Ashoka the Great, Bindusara.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Chandragupta I, Samudragupta, Chandragupta II.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Shared the name "Chandragupta" among their emperors.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid var(--border);"><strong>Economy</strong></td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Thriving trade and commerce, extensive road networks, effective taxation system. Agriculture was the backbone.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Flourishing trade and commerce, development of guilds, gold coins (e.g., punch-marked coins in later phase). Agriculture remained important.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Both empires had robust economies with a focus on trade and commerce.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid var(--border);"><strong>Religion</strong></td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Ashoka promoted Buddhism; religious tolerance prevailed. Jainism also gained prominence (Chandragupta Maurya adopted Jainism).</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Religious tolerance; revival of Hinduism as the dominant religion.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Both empires exhibited religious tolerance and accommodated multiple faiths.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid var(--border);"><strong>Literature</strong></td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Ashoka's inscriptions in Prakrit language.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Rich Sanskrit literature, including plays, poetry, and scientific texts (e.g., Kalidasa, Varahamihira).</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Both empires contributed to the development of literature in ancient India.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid var(--border);"><strong>Art and Architecture</strong></td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Pillars with inscriptions, rock-cut caves, stupas, and palace complexes (e.g., Sanchi Stupa, Ashokan Pillars).</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Elaborate temple architecture (Nagara style), sculptures, and Ajanta Caves.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Both empires left a significant architectural legacy and patronised the arts.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid var(--border);"><strong>Decline</strong></td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Internal conflicts, external invasions, and economic decline.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Invasion of Hunas (White Huns), regional fragmentation, and weak rulers.</td>
+        <td style="padding: 8px; border: 1px solid var(--border);">Both empires faced challenges such as invasions and internal conflicts that led to their decline.</td>
+      </tr>
+    </tbody>
+  </table>
 
+  <h4 style="color: var(--text-primary); font-weight: 600; margin-top: 20px; margin-bottom: 10px;">Historical Periods in Ancient India (Timeline)</h4>
+  <div class="mermaid">
+    timeline
+      title Major Periods of Ancient Indian History
+      section Pre-Vedic & Early Civilizations
+        7000-2600 BCE: Mehrgarh Culture (Red Ware, Black-on-Red Ware)
+        2600-1900 BCE: Indus Valley Civilization (Urban Planning, Seals, Great Bath)
+      section Vedic Age
+        1500-1000 BCE: Early Vedic Period (Indo-Aryans, Rigveda, Pastoral Economy)
+        1000-600 BCE: Later Vedic Age (Gangetic Plains, Varna System, Upanishads, Rice Cultivation)
+      section Mahajanapadas & Early Empires
+        6th Century BCE: Rise of Buddhism (Gautama Buddha)
+        6th Century BCE: Rise of Jainism (Lord Mahavira)
+        600-321 BCE: 16 Mahajanapadas (Emergence of Kingdoms, Magadha's Rise)
+        600-413 BCE: Haryanka Dynasty (Bimbisara, Ajatashatru)
+        412-345 BCE: Shishunaga Dynasty (Kalashoka)
+        345-321 BCE: Nanda Dynasty (Mahapadma Nanda)
+        321-185 BCE: Mauryan Dynasty (Chandragupta Maurya, Ashoka the Great)
+      section Post-Mauryan & Classical Age
+        185-72 BCE: Shunga Dynasty (Pushyamitra Shunga)
+        73-28 BCE: Kanva Dynasty (Vasudeva Kanva)
+        1st Century AD: Satavahanas (Simuka, Gautamiputra Satakarni)
+        1st Century AD: Indo-Greeks, Sakas, Parthians, Kushans (Kanishka, Gold Coins)
+        240-550 CE: Gupta Dynasty (Chandragupta I, Samudragupta, Chandragupta II, Golden Age)
+      section Post-Gupta Era
+        550 CE onwards: Post-Gupta Dynasties (Maitrakas, Maukharis, Gaudas, Pushyabhutis - Harsha)
+  </div>
+
+  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-left: 4px solid #FFD700; border-radius: 4px;"><strong style="color: #FFD700;">Strategic Exam Tip:</strong> UPSC often traps students by asking if "History is objective." Remember: History is <em>interpretative</em>. While facts (dates/names) are objective, the <em>significance</em> assigned to them is subjective. Always look for the "Why" behind the "What" in your preparation. For Ancient History, focus on connecting specific archaeological findings, inscriptions, and literary accounts to the broader socio-economic and political context of the period. Understanding the sources for each major dynasty (e.g., Ashokan Edicts for Mauryans, Allahabad Pillar Inscription for Guptas) is crucial for source-based questions.</div>
+</div>
+`;
 EXPANDED_NOTES_DATA["sources-indian-history"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
     <span>•</span> Sources of Indian History
@@ -1558,47 +1656,308 @@ EXPANDED_NOTES_DATA["revolt-1857"] = `<div class="revision-card" style="backgrou
 
 EXPANDED_NOTES_DATA["governor-generals-viceroys"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Governor-Generals & Viceroys
+    <span>•</span> Governor-Generals & Viceroys of India
   </h3>
-
+  
   <p style="line-height: 1.6; margin-bottom: 15px;">
-    To master Modern Indian History for CDS/NDA, one must understand the evolution of the British administrative hierarchy. It began with the <strong>Governor of Bengal</strong> (Regulating Act, 1773), which elevated the post to <strong>Governor-General of Bengal</strong>. Following the Charter Act of 1833, this was expanded to the <strong>Governor-General of India</strong>, signifying centralized control over all British territories.
+    To master Modern Indian History for CDS/NDA, one must understand the evolution of the British administrative hierarchy. It began with the <strong>Governor of Bengal</strong> (Regulating Act, 1773), which elevated the post to <strong>Governor-General of Bengal</strong>. Following the Charter Act of 1833, this was expanded to the <strong>Governor-General of India</strong>, signifying centralized control over all British territories. The Government of India Act, 1858, transferred power to the British Crown, redesignating the post as the <strong>Viceroy</strong>.
   </p>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The turning point occurred after the Revolt of 1857. The Government of India Act, 1858, transferred power from the East India Company to the British Crown. Consequently, the Governor-General was designated as the <strong>Viceroy</strong> (the direct representative of the Monarch). While the Governor-General focused on administrative and commercial expansion, the Viceroy focused on political consolidation and managing the Princely States.
-  </p>
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 16px; color: var(--text-primary); font-weight: 600;">Detailed Timelines & Term Events (Warren Hastings to Mountbatten)</h4>
+  
+  <div class="gov-generals-accordion" style="display: flex; flex-direction: column; gap: 10px;">
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>1. Warren Hastings (1772 - 1785)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">GG of Bengal</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Passed the <strong>Regulating Act of 1773</strong>, transforming the Governor of Bengal into the <strong>Governor-General of Bengal</strong>.</li>
+          <li>Abolished the <strong>Dual System of Administration</strong> in Bengal (which had been introduced by Robert Clive).</li>
+          <li>Established the first <strong>Supreme Court at Calcutta</strong> (1774), with Sir Elijah Impey as the First Chief Justice.</li>
+          <li>Conducted the <strong>First Anglo-Maratha War (1775-82)</strong>, ending with the <strong>Treaty of Salbai</strong> (1782) which guaranteed 20 years of peace.</li>
+          <li>Fought the <strong>Second Anglo-Mysore War (1780-84)</strong> against Hyder Ali, resolved by the <strong>Treaty of Mangalore</strong> (1784).</li>
+          <li>Faced impeachment in the British Parliament (led by Edmund Burke) due to his controversial dealings with Chait Singh (Raja of Benaras) and the Begums of Oudh.</li>
+        </ul>
+      </div>
+    </details>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Exam questions frequently test your ability to associate specific reforms with the correct administrator. For instance, Lord Dalhousie is synonymous with the "Doctrine of Lapse" and infrastructure development, while Lord Ripon is remembered as the "Father of Local Self-Government." Understanding the <em>chronological order</em> of these figures is essential, as UPSC often asks to arrange them based on their tenure.
-  </p>
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>2. Lord Cornwallis (1786 - 1793)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">GG of Bengal</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Introduced the <strong>Permanent Settlement (Zamindari System)</strong> of Bengal (1793), fixing land revenue permanently.</li>
+          <li>Created the <strong>Cornwallis Code</strong> (1793), which separated revenue administration from judicial administration.</li>
+          <li>Regarded as the <strong>"Father of Civil Services in India"</strong> due to his reform of the administrative machinery and separation of commercial & political branches.</li>
+          <li>Fought the <strong>Third Anglo-Mysore War (1790-92)</strong>, defeating Tipu Sultan and signing the <strong>Treaty of Seringapatam</strong>, which ceded half of Tipu's territory.</li>
+          <li>Established lower courts and appellate courts (Provincial Courts of Appeal).</li>
+        </ul>
+      </div>
+    </details>
 
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Key Administrative Milestones</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-    <li><strong>Warren Hastings (1773-85):</strong> First Governor-General of Bengal; Abolished Dual System.</li>
-    <li><strong>Lord Cornwallis (1786-93):</strong> Permanent Settlement (Zamindari System); Father of Civil Services.</li>
-    <li><strong>Lord Wellesley (1798-1805):</strong> Subsidiary Alliance; "Tiger of Bengal."</li>
-    <li><strong>Lord William Bentinck (1828-35):</strong> First Governor-General of India; Abolition of Sati (1829).</li>
-    <li><strong>Lord Dalhousie (1848-56):</strong> Doctrine of Lapse; First Railway line (1853); Telegraph.</li>
-    <li><strong>Lord Canning (1856-62):</strong> First Viceroy; Revolt of 1857; Withdrawal of Doctrine of Lapse.</li>
-    <li><strong>Lord Ripon (1880-84):</strong> Local Self-Government; Hunter Commission (Education).</li>
-    <li><strong>Lord Curzon (1899-1905):</strong> Partition of Bengal (1905); Ancient Monuments Preservation Act.</li>
-  </ul>
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>3. Lord Wellesley (1798 - 1805)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">GG of Bengal</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Popularized the <strong>Subsidiary Alliance System</strong> (1798) to bring Indian princely states under British suzerainty. The <strong>Nizam of Hyderabad</strong> was the first to sign (1798), followed by Mysore, Tanjore, Awadh, and the Peshwa.</li>
+          <li>Fought the decisive <strong>Fourth Anglo-Mysore War (1799)</strong>, resulting in the death of Tipu Sultan and restoration of the Wodeyar dynasty.</li>
+          <li>Fought the <strong>Second Anglo-Maratha War (1803-05)</strong>, leading to the Treaty of Bassein (1802) and major Maratha defeats.</li>
+          <li>Established the <strong>Fort William College</strong> at Calcutta (1800) to train young British civil servants.</li>
+          <li>Described himself as the "Tiger of Bengal."</li>
+        </ul>
+      </div>
+    </details>
 
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 5px;">
-    <p style="margin: 5px 0;"><strong>Sati Abolished:</strong> 1829 (Bentinck)</p>
-    <p style="margin: 5px 0;"><strong>Railways:</strong> 1853 (Dalhousie)</p>
-    <p style="margin: 5px 0;"><strong>Local Self-Gov:</strong> Ripon</p>
-    <p style="margin: 5px 0;"><strong>Bengal Partition:</strong> 1905 (Curzon)</p>
-    <p style="margin: 5px 0;"><strong>First Viceroy:</strong> Lord Canning</p>
-    <p style="margin: 5px 0;"><strong>Last Viceroy:</strong> Lord Mountbatten</p>
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>4. Lord Hastings (1813 - 1823)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">GG of Bengal</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Abandoned Cornwallis's policy of non-intervention, adopting an active policy of British expansionism.</li>
+          <li>Fought the <strong>Anglo-Nepalese War (1814-16)</strong>, resulting in the <strong>Treaty of Sagauli</strong> (1816) which established the present boundary of Nepal and ceded Garhwal/Kumaon to the British.</li>
+          <li>Fought the <strong>Third Anglo-Maratha War (1817-18)</strong>, completely abolishing the office of the Peshwa and annexing his territories.</li>
+          <li>Suppressed the predatory <strong>Pindaris</strong> in Central India.</li>
+          <li>Witnessed the introduction of the <strong>Ryotwari Settlement</strong> in Madras by Thomas Munro (1820) and the <strong>Mahalwari Settlement</strong> in North India by Holt Mackenzie (1822).</li>
+        </ul>
+      </div>
+    </details>
+
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>5. Lord William Bentinck (1828 - 1835)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">GG of India</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Became the <strong>first Governor-General of India</strong> under the landmark <strong>Charter Act of 1833</strong>.</li>
+          <li>Enacted the historic <strong>Abolition of Sati Regulation (Regulation XVII of 1829)</strong>, with active support from Raja Ram Mohan Roy.</li>
+          <li>Suppressed the notorious gang of highway robbers known as the <strong>Thugs</strong> (led by Colonel William Sleeman).</li>
+          <li>Passed the <strong>English Education Act of 1835</strong> (guided by Macaulay's Minute on Education), making English the medium of instruction for higher education and replacing Persian as the official language of courts.</li>
+          <li>Established the first Medical College at Calcutta (1835).</li>
+          <li>Adopted a policy of non-annexation, with exceptions like Coorg and Mysore on grounds of misgovernance.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>6. Lord Dalhousie (1848 - 1856)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">GG of India</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Widely applied the imperialistic <strong>Doctrine of Lapse</strong> to annex Indian princely states that lacked natural male heirs. Annexed <strong>Satara (1848)</strong>, Jaitpur, Sambalpur, Baghat, Udaipur, <strong>Jhansi (1853)</strong>, and <strong>Nagpur (1854)</strong>.</li>
+          <li>Annexed the rich province of <strong>Oudh (Awadh)</strong> in 1856 on the controversial grounds of "chronic misgovernance" under Nawab Wajid Ali Shah.</li>
+          <li>Laid the first commercial <strong>Railway Line</strong> in India connecting Bombay and Thane (April 16, 1853).</li>
+          <li>Laid the first electric <strong>Telegraph Line</strong> connecting Calcutta and Agra.</li>
+          <li>Introduced the <strong>Post Office Act of 1854</strong>, establishing uniform postage rates and postage stamps in India.</li>
+          <li>Passed the <strong>Hindu Widows' Remarriage Act (1856)</strong>, draft prepared by him and passed under Canning, championed by Ishwar Chandra Vidyasagar.</li>
+          <li>Implemented <strong>Charles Wood's Education Despatch (1854)</strong>, known as the "Magna Carta of English Education in India," leading to universities in Calcutta, Bombay, and Madras.</li>
+          <li>Created the Public Works Department (PWD) to oversee canals, roads, and civil infrastructure.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>7. Lord Canning (1856 - 1862)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">GG & First Viceroy</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Faced the outbreak of the <strong>Revolt of 1857</strong> (Sepoy Mutiny), which he successfully suppressed.</li>
+          <li>Witnessed the historic passage of the <strong>Government of India Act of 1858</strong>, which abolished the East India Company's rule and transferred power directly to the British Crown.</li>
+          <li>Designated as the <strong>first Viceroy of India</strong> under the 1858 Act, acting as the direct representative of Queen Victoria.</li>
+          <li>Formally withdrew the controversial <strong>Doctrine of Lapse</strong>, reassuring princely states they would not be annexed.</li>
+          <li>Introduced the <strong>Portfolio System</strong> under the Indian Councils Act of 1861, laying the foundation of modern cabinet government.</li>
+          <li>Passed the <strong>Indian Penal Code (1860)</strong> drafted by Lord Macaulay.</li>
+          <li>Established Universities at Calcutta, Bombay, and Madras (1857).</li>
+        </ul>
+      </div>
+    </details>
+
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>8. Lord Lytton (1876 - 1880)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">Viceroy</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Faced the devastating <strong>Famine of 1876-78</strong> in Southern India, setting up the first Famine Commission under Richard Strachey.</li>
+          <li>Hosted the grand <strong>Delhi Durbar of 1877</strong>, proclaiming Queen Victoria as the <em>Empress of India (Kaiser-i-Hind)</em> while millions starved nearby.</li>
+          <li>Passed the highly repressive <strong>Vernacular Press Act of 1878</strong> (dubbed the "Gagging Act") to censor Indian language newspapers critical of the British administration.</li>
+          <li>Passed the <strong>Indian Arms Act of 1878</strong>, making it a criminal offense for Indians to carry arms without a license, while exempting Europeans.</li>
+          <li>Lowered the maximum age limit for the Civil Services examination from 21 to 19 years to discourage Indian candidates.</li>
+          <li>Fought the imperialistic <strong>Second Anglo-Afghan War (1878-80)</strong>.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>9. Lord Ripon (1880 - 1884)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">Viceroy</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>A highly popular administrator regarded as one of the most liberal Viceroys.</li>
+          <li>Repealed the repressive <strong>Vernacular Press Act</strong> (1882), restoring freedom of the native press.</li>
+          <li>Issued the historic <strong>Local Self-Government Resolution (1882)</strong>, earning him the title <strong>"Father of Local Self-Government in India"</strong>. He established Municipal Boards and District Boards.</li>
+          <li>Passed the <strong>First Factory Act of 1881</strong> to improve working conditions for factory labor (specifically banning employment of children under 7).</li>
+          <li>Conducted the <strong>first synchronous census of India (1881)</strong>, which has been repeated every 10 years.</li>
+          <li>Faced the controversial <strong>Ilbert Bill Crisis (1883)</strong>. The bill sought to allow Indian judges to try European offenders in criminal cases. Following fierce opposition from British residents, the bill was severely watered down.</li>
+          <li>Appointed the <strong>Hunter Education Commission</strong> (1882) to review primary and secondary education.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>10. Lord Curzon (1899 - 1905)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">Viceroy</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Enacted the highly controversial and politically charged <strong>Partition of Bengal (1905)</strong> on grounds of administrative convenience, which triggered the Swadeshi Movement.</li>
+          <li>Created the <strong>Ancient Monuments Preservation Act of 1904</strong> to restore and protect historical monuments (including the Taj Mahal).</li>
+          <li>Passed the <strong>Indian Universities Act of 1904</strong> (based on the Raleigh Commission recommendations) to bring universities under stricter government control.</li>
+          <li>Appointed a Famine Commission (MacDonnell Commission) and established the Department of Agriculture.</li>
+          <li>Created the North-West Frontier Province (NWFP) and sent the military Younghusband Expedition to Tibet (1904).</li>
+        </ul>
+      </div>
+    </details>
+
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>11. Lord Chelmsford (1916 - 1921)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">Viceroy</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Witnessed the signature of the <strong>Lucknow Pact (1916)</strong> between the INC and the Muslim League.</li>
+          <li>Appointed the Montagu-Chelmsford Commission, leading to the passage of the <strong>Government of India Act of 1919</strong>, which introduced "Dyarchy" (dual government) in the provinces.</li>
+          <li>Passed the repressive <strong>Rowlatt Act (1919)</strong>, which authorized arrest without warrant and detention without trial, triggering massive protests.</li>
+          <li>Overseer during the tragic <strong>Jallianwala Bagh Massacre</strong> in Amritsar (April 13, 1919) under General Dyer.</li>
+          <li>Saw the launch of the <strong>Non-Cooperation Movement</strong> and the <strong>Khilafat Movement</strong> under Mahatma Gandhi's leadership.</li>
+          <li>Appointed the Saddler University Commission (1917) to study education.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>12. Lord Irwin (1926 - 1931)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">Viceroy</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Faced the arrival of the all-British <strong>Simon Commission (1927)</strong>, which was boycotted across India, leading to the death of Lala Lajpat Rai.</li>
+          <li>Received the <strong>Nehru Report (1928)</strong> drafting a future constitution for India.</li>
+          <li>Witnessed the historic <strong>Lahore Session of the Congress (1929)</strong> under Nehru, which declared <strong>Purna Swaraj</strong> (Complete Independence) as the goal.</li>
+          <li>Faced the launch of the <strong>Civil Disobedience Movement</strong> with Mahatma Gandhi's <strong>Dandi March</strong> (March 12 - April 6, 1930) to break the salt law.</li>
+          <li>Signed the famous <strong>Gandhi-Irwin Pact (March 5, 1931)</strong>, under which the Congress agreed to suspend the Civil Disobedience Movement and participate in the Second Round Table Conference.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px 14px;">
+      <summary style="font-weight: 700; color: var(--accent); cursor: pointer; font-family: var(--font-mono); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; outline: none; list-style: none;">
+        <span>13. Lord Mountbatten (March 1947 - June 1948)</span>
+        <span style="font-size:0.75rem; color: var(--text-muted); padding: 2px 6px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">Last Viceroy</span>
+      </summary>
+      <div style="margin-top: 10px; line-height: 1.6; font-size: 0.9rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+        <strong>Key Events & Significance:</strong>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; display: flex; flex-direction: column; gap: 4px;">
+          <li>Served as the <strong>Last Viceroy of British India</strong> and the <strong>First Governor-General of independent India</strong>.</li>
+          <li>Announced the <strong>Mountbatten Plan / June 3rd Plan (1947)</strong>, outlining the partition of British India into two independent dominions: India and Pakistan.</li>
+          <li>Oversaw the passage of the <strong>Indian Independence Act of 1947</strong> in the British Parliament.</li>
+          <li>Appointed the Boundary Commission under <strong>Sir Cyril Radcliffe</strong> to demarcate the borders of India and Pakistan.</li>
+          <li>Assisted in the political integration of the princely states alongside Sardar Vallabhbhai Patel.</li>
+        </ul>
+      </div>
+    </details>
   </div>
 
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Strategic Exam Tips</h4>
-  <p style="line-height: 1.6;">
-    <strong>The "Trap" Alert:</strong> UPSC often confuses candidates between the <em>Governor-General of Bengal</em> and the <em>Governor-General of India</em>. Remember: <strong>Bentinck</strong> was the first GG of India (1833), while <strong>Hastings</strong> was the first GG of Bengal (1773). Always check if the question asks for the "First" or "Last" of a specific designation. Use the mnemonic <strong>"W-C-W-B-D-C"</strong> (Warren, Cornwallis, Wellesley, Bentinck, Dalhousie, Canning) to keep the early timeline straight.
-  </p>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Summary & Quick Revision Table</h4>
+  <div style="overflow-x: auto; margin-top:10px;">
+    <table style="width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.85rem; border: 1px solid var(--border);">
+      <thead>
+        <tr style="background: rgba(255,255,255,0.05); border-bottom: 1px solid var(--border); text-align: left;">
+          <th style="padding: 10px; border-right: 1px solid var(--border);">Lord / GG / Viceroy</th>
+          <th style="padding: 10px; border-right: 1px solid var(--border);">Tenure</th>
+          <th style="padding: 10px;">Key Administrative Contribution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Warren Hastings</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">1772–1785</td>
+          <td style="padding: 10px;">Regulating Act 1773, first GG of Bengal, Supreme Court Calcutta.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Lord Cornwallis</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">1786–1793</td>
+          <td style="padding: 10px;">Permanent Settlement (Zamindari) 1793, Civil Services Father.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Lord Wellesley</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">1798–1805</td>
+          <td style="padding: 10px;">Subsidiary Alliance System (Hyderabad first 1798).</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Lord William Bentinck</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">1828–1835</td>
+          <td style="padding: 10px;">Abolition of Sati 1829, Charter Act 1833, English Education.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Lord Dalhousie</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">1848–1856</td>
+          <td style="padding: 10px;">Doctrine of Lapse (annexed Jhansi/Nagpur), first Railways (1853), Wood's Despatch.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Lord Canning</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">1856–1862</td>
+          <td style="padding: 10px;">Revolt of 1857 suppressor, first Viceroy, Crown rule transition.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Lord Ripon</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">1880–1884</td>
+          <td style="padding: 10px;">Local Self-Gov Resolution 1882, First Census 1881, Ilbert Bill.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Lord Curzon</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">1899–1905</td>
+          <td style="padding: 10px;">Partition of Bengal 1905, Ancient Monuments Preservation Act.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Lord Mountbatten</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">1947–1948</td>
+          <td style="padding: 10px;">June 3rd Plan, Partition Executor, independence transition.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>`;
 
 EXPANDED_NOTES_DATA["constitutional-development"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
@@ -1720,8 +2079,158 @@ EXPANDED_NOTES_DATA["freedom-movement"] = `<div class="revision-card" style="bac
     <ul style="list-style-type: disc; padding-left: 20px; font-size: 13.5px; color: var(--text-secondary); line-height: 1.5;">
       <li>Brigadier-General Reginald Dyer blockaded the narrow exit gates and ordered troops to open fire on the unarmed gathering without warning. Firing continued for 10 minutes until ammunition was exhausted, killing hundreds.</li>
       <li>In protest, Rabindranath Tagore renounced his British Knighthood. Mahatma Gandhi returned his Kaiser-i-Hind gold medal.</li>
-      <li>Under public outrage, the British government appointed the <strong>Hunter Committee</strong> (1919) to investigate the incident. Indian National Congress also appointed its own parallel inquiry committee (featuring Motilal Nehru and C.R. Das).</li>
     </ul>
+  </div>
+</div>
+
+<div class="revision-card" style="background: rgba(20,20,30,0.45); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-top: 24px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); backdrop-filter: blur(8px);">
+  <h3 style="color: var(--accent); margin-bottom: 18px; border-bottom: 2px solid rgba(249, 115, 22, 0.3); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 700; font-family: var(--font-logo);">
+    <span>•</span> Indian National Congress (INC) Sessions Database
+  </h3>
+  
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The sessions of the Indian National Congress (INC) are highly tested in CDS and NDA history papers. Understand the years, venues, presidents, and specific historical significance of each session below.
+  </p>
+  
+  <div style="overflow-x: auto; margin-top: 10px;">
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.85rem; border: 1px solid var(--border);">
+      <thead>
+        <tr style="background: rgba(255,255,255,0.05); border-bottom: 2px solid var(--border); text-align: left;">
+          <th style="padding: 10px; border-right: 1px solid var(--border); width: 80px;">Year</th>
+          <th style="padding: 10px; border-right: 1px solid var(--border); width: 100px;">Venue</th>
+          <th style="padding: 10px; border-right: 1px solid var(--border); width: 180px;">President</th>
+          <th style="padding: 10px;">Historical Significance & Key Outcomes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1885</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Bombay</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">W. C. Bonnerjee</td>
+          <td style="padding: 10px;"><strong>First session of INC</strong>. Held at Gokuldas Tejpal Sanskrit College. Attended by 72 delegates from across India. Initiated constitutional reform demands.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1886</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Calcutta</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Dadabhai Naoroji</td>
+          <td style="padding: 10px;">Delegates rose to 436. Merged with Surendranath Banerjee's National Conference.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1887</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Madras</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Badruddin Tyabji</td>
+          <td style="padding: 10px;"><strong>First Muslim President</strong>. Appealed to other communities to join the national struggle.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1888</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Allahabad</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">George Yule</td>
+          <td style="padding: 10px;"><strong>First European/English President</strong>. Demonstrated growing appeal of the movement.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1896</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Calcutta</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Rahimtullah Sayani</td>
+          <td style="padding: 10px;">The national song <strong>'Vande Mataram'</strong> was sung for the first time by Rabindranath Tagore.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1905</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Benaras</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">G. K. Gokhale</td>
+          <td style="padding: 10px;">Formal proclamation of the <strong>Swadeshi Movement</strong> against the partition of Bengal. Expressed resentment against reactionary policies of Lord Curzon.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1906</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Calcutta</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Dadabhai Naoroji</td>
+          <td style="padding: 10px;">The word <strong>'Swaraj'</strong> (Self-government) was adopted as the goal of the Congress for the first time.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1907</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Surat</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Rash Behari Ghosh</td>
+          <td style="padding: 10px;">The historic <strong>Surat Split</strong>. Congress split into Moderates and Extremists over differences in Swadeshi movement methodologies.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1911</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Calcutta</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Bishan Narayan Dhar</td>
+          <td style="padding: 10px;">The national anthem <strong>'Jana Gana Mana'</strong> was sung for the first time.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1916</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Lucknow</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">A. C. Mazumdar</td>
+          <td style="padding: 10px;"><strong>Lucknow Pact</strong> signed between the Congress and the Muslim League. Also marked the <strong>reunion of Moderates and Extremists</strong> after 9 years of partition.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1917</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Calcutta</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Annie Besant</td>
+          <td style="padding: 10px;"><strong>First Woman President of INC</strong>. Highlights the rise of the Home Rule movement.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1920</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Nagpur</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">C. Vijayaraghavachariar</td>
+          <td style="padding: 10px;">Ratified the <strong>Non-Cooperation Movement</strong>. Adopted organizational changes, forming provincial congress committees on a linguistic basis.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1924</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Belgaum</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Mahatma Gandhi</td>
+          <td style="padding: 10px;">The <strong>only session presided over by Mahatma Gandhi</strong>.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1925</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Kanpur</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Sarojini Naidu</td>
+          <td style="padding: 10px;"><strong>First Indian Woman President of INC</strong>.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1929</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Lahore</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Jawaharlal Nehru</td>
+          <td style="padding: 10px;">Passed the historic <strong>'Purna Swaraj' (Complete Independence) Resolution</strong>. Tri-color flag hoisted on the banks of the Ravi River. Authorized the launch of Civil Disobedience. January 26 declared as Independence Day.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1931</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Karachi</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Vallabhbhai Patel</td>
+          <td style="padding: 10px;">Endorsed the Gandhi-Irwin Pact. Passed resolutions on <strong>Fundamental Rights</strong> and the <strong>National Economic Programme</strong> (drafted by Nehru).</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1937</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Faizpur</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Jawaharlal Nehru</td>
+          <td style="padding: 10px;">The <strong>first session of Congress to be held in a village</strong>, emphasizing rural mobilization.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1938</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Haripura</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Subhas Chandra Bose</td>
+          <td style="padding: 10px;">Set up the <strong>National Planning Committee</strong> under the chairmanship of Jawaharlal Nehru. Pushed for economic planning.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1939</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Tripuri</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Subhas Chandra Bose</td>
+          <td style="padding: 10px;">Bose was re-elected against Pattabhi Sitaramayya (supported by Gandhi). Due to ideological differences, Bose resigned and formed the <strong>Forward Bloc</strong>. Dr. Rajendra Prasad was appointed President.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1940</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Ramgarh</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">Abul Kalam Azad</td>
+          <td style="padding: 10px;">Azad began a 6-year continuous tenure as president due to World War II suspending regular sessions.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-family: var(--font-mono); font-weight:600;">1946</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border); font-weight:600;">Meerut</td>
+          <td style="padding: 10px; border-right: 1px solid var(--border);">J. B. Kripalani</td>
+          <td style="padding: 10px;">Session held on the eve of Independence. Kripalani was the president during the transfer of power.</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>`;
 

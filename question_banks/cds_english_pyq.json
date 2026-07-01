@@ -1,0 +1,3119 @@
+[
+  {
+    "question": "Directions: Select the most appropriate and relevant co-relationship of the second sentence to the first.\nS1: Failure is the stepping stone to success.\nS2: Successive failures are not however successive stepping stones to success.",
+    "options": [
+      "contradicts the wisdom of the first",
+      "contrasts the wisdom of the first",
+      "confirms the wisdom of the first",
+      "qualifies the wisdom of the first"
+    ],
+    "correct": 3,
+    "explanation": "The second sentence qualifies the first by adding a condition or limitation to the general wisdom of the first sentence.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: All human beings are created equal in every respect.\nS2: Some people are more equal than others.",
+    "options": [
+      "contradicts the first",
+      "corroborates the first",
+      "correlates to the first",
+      "coincides with the first"
+    ],
+    "correct": 0,
+    "explanation": "The second sentence directly contradicts the assertion of absolute equality made in the first sentence.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: The origin of the universe has been traced to the Big Bang.\nS2: There can be no knowledge of what existed before the Big Bang.",
+    "options": [
+      "contradicts the assertion made in the first",
+      "explains the basis behind the first",
+      "establishes limits on the assertion made in the first",
+      "confirms the assertion made in the first"
+    ],
+    "correct": 2,
+    "explanation": "The second sentence establishes limits on the assertion made in the first by stating that knowledge cannot go beyond the Big Bang.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: The highest clouds in the skies are the most fascinating.\nS2: We are most attracted to those things that are most out of our reach.",
+    "options": [
+      "reiterates the axiom stated in the first",
+      "annuls the axiom stated in the first",
+      "contradicts the axiom stated in the first",
+      "contrasts the assertion made in the first"
+    ],
+    "correct": 0,
+    "explanation": "The second sentence provides a general axiom that reiterates and explains the fascination mentioned in the first sentence.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: A four-stroke engine is more efficient than a two-stroke engine.\nS2: The two-stroke engine has been phased out to protect the environment.",
+    "options": [
+      "correlates to the first",
+      "contradicts the first",
+      "contrasts with the first",
+      "confirms the first"
+    ],
+    "correct": 0,
+    "explanation": "The second sentence correlates to the first by showing a real-world consequence of the efficiency difference mentioned in the first.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Bottled water is safer than tap water.\nS2: In many countries tap water is fed to babies.",
+    "options": [
+      "asserts the first",
+      "confirms the first",
+      "contrasts with the first",
+      "is an extension of the first"
+    ],
+    "correct": 2,
+    "explanation": "The second sentence contrasts with the first by showing that tap water is considered safe enough for babies in many countries, challenging the absolute safety claim of bottled water.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: The peacock is India's national bird.\nS2: The Great Indian Bustard is the state bird of Rajasthan.",
+    "options": [
+      "provides additional information to what is contained in the first",
+      "provides contradictory information to what is contained in the first",
+      "provides less information than what is contained in the first",
+      "provides escalatory information to what is contained in the first"
+    ],
+    "correct": 0,
+    "explanation": "The second sentence provides additional, related information about national/state birds.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Field games are generally more popular than individual sports.\nS2: Across the world tennis is more popular than hockey.",
+    "options": [
+      "reiterates the first",
+      "contradicts the first",
+      "contrasts with the first",
+      "reinforces the first"
+    ],
+    "correct": 1,
+    "explanation": "The second sentence contradicts the first because tennis (an individual sport) is stated to be more popular than hockey (a field game).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Forest cover is conducive to ecological recovery.\nS2: Unchecked urbanisation leads to environmental degradation.",
+    "options": [
+      "correlates to the first",
+      "disputes the first",
+      "contrasts with the first",
+      "contradicts the first"
+    ],
+    "correct": 0,
+    "explanation": "The second sentence correlates to the first by presenting the opposite ecological scenario (degradation due to urbanization vs. recovery due to forest cover).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Indians have been emigrating to countries across the world for centuries.\nS2: The Indian diaspora is a model of success across the world.",
+    "options": [
+      "corroborates the first",
+      "disputes the first",
+      "is a logical consequence of the first",
+      "has no logical dependence on the first"
+    ],
+    "correct": 2,
+    "explanation": "The success of the Indian diaspora (S2) is a logical consequence of centuries of emigration (S1).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Directions: Unjumble the sentence parts to find the correct sequence.\nand the outcome in cases selected in prior years' (P) / the suggestions received from the field (Q) / formations are reviewed by a cross functional (R) / committee to refine the scenarios and parameters (S)",
+    "options": [
+      "QPRS",
+      "PQRS",
+      "SQPR",
+      "RSQP"
+    ],
+    "correct": 0,
+    "explanation": "The correct sequence is QPRS: 'the suggestions received from the field and the outcome in cases selected in prior years' formations are reviewed by a cross functional committee to refine the scenarios and parameters.'",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "pollution control equipment broadly (P) / include wastewater treatment plants, (Q) / the various categories of water (R) / drinking water treatment plants and effluent treatment plants (S)",
+    "options": [
+      "PQRS",
+      "QSRP",
+      "RPQS",
+      "SRQP"
+    ],
+    "correct": 2,
+    "explanation": "The correct sequence is RPQS: 'the various categories of water pollution control equipment broadly include wastewater treatment plants, drinking water treatment plants and effluent treatment plants.'",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "facilitate the present and prospective entrepreneurs (P) / for manufacturing and service units (Q) / were notified in 2020, with guidelines to (R) / some new composite criteria of classification (S)",
+    "options": [
+      "RPQS",
+      "SQPR",
+      "SQRP",
+      "QSPR"
+    ],
+    "correct": 2,
+    "explanation": "The correct sequence is SQRP: 'some new composite criteria of classification for manufacturing and service units were notified in 2020, with guidelines to facilitate the present and prospective entrepreneurs.'",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "outside the formal education system (P) / the policy seeks to educate and (Q) / equip potential entrepreneurs, both within and (R) / in the entrepreneurship domain (S)",
+    "options": [
+      "PQRS",
+      "SRPQ",
+      "RSQP",
+      "SQRP"
+    ],
+    "correct": 3,
+    "explanation": "The correct sequence is SQRP: 'in the entrepreneurship domain the policy seeks to educate and equip potential entrepreneurs, both within and outside the formal education system.'",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "organizing Rozgar Melas across the nation for (P) / providing suitable job opportunities in the private sector to the youth (Q) / National Skill Development Corporation under the aegis of MSDE has been (R) / to give impetus to the employment initiatives in the country (S)",
+    "options": [
+      "SRQP",
+      "PQSR",
+      "RPQS",
+      "QSPR"
+    ],
+    "correct": 2,
+    "explanation": "The correct sequence is RPQS: 'National Skill Development Corporation under the aegis of MSDE has been organizing Rozgar Melas across the nation for providing suitable job opportunities in the private sector to the youth to give impetus to the employment initiatives in the country.'",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "to women-led development and the dream of New India (P) / India is moving from women's development (Q) / and an equal partner in the country's overall development (R) / is where women are empowered, strong (S)",
+    "options": [
+      "QPRS",
+      "QPSR",
+      "SQPR",
+      "PSRQ"
+    ],
+    "correct": 1,
+    "explanation": "The correct sequence is QPSR: 'India is moving from women's development to women-led development and the dream of New India is where women are empowered, strong and an equal partner in the country's overall development.'",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "to provide additional one crore LPG (P) / Ujjwala 2.0 was launched in 2021 (Q) / households under the Pradhan Mantri Ujjwala Yojana (R) / connections to adult women of poor (S)",
+    "options": [
+      "QSRP",
+      "SRPQ",
+      "PSQR",
+      "QPSR"
+    ],
+    "correct": 3,
+    "explanation": "The correct sequence is QPSR: 'Ujjwala 2.0 was launched in 2021 to provide additional one crore LPG connections to adult women of poor households under the Pradhan Mantri Ujjwala Yojana.'",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "process from the initial stage of planning (P) / environmental impact assessment (Q) / is a planning tool to integrate environmental (R) / concerns into the developmental (S)",
+    "options": [
+      "QSRP",
+      "QRSP",
+      "SPQR",
+      "QPSR"
+    ],
+    "correct": 1,
+    "explanation": "The correct sequence is QRSP: 'environmental impact assessment is a planning tool to integrate environmental concerns into the developmental process from the initial stage of planning.'",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "that may push the viewers to (P) / hours of content are shown in a way (Q) / think that they are watching a (R) / programme rather than an advertisement (S)",
+    "options": [
+      "QPRS",
+      "SQPR",
+      "SQRP",
+      "RSQP"
+    ],
+    "correct": 0,
+    "explanation": "The correct sequence is QPRS: 'hours of content are shown in a way that may push the viewers to think that they are watching a programme rather than an advertisement.'",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "engaged in performing visual and literary arts (P) / in the field of intangible heritage (Q) / the Ministry extends financial support to individuals, (R) / group of individuals and cultural organisations (S)",
+    "options": [
+      "RSPQ",
+      "QPSR",
+      "RQPS",
+      "PSQR"
+    ],
+    "correct": 0,
+    "explanation": "The correct sequence is RSPQ: 'the Ministry extends financial support to individuals, group of individuals and cultural organisations engaged in performing visual and literary arts in the field of intangible heritage.'",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Directions: Identify which part of speech the underlined word belongs to.\nHis happiness was obvious, as he had won unprecedented appreciation for his hard work. (Underlined: happiness)",
+    "options": [
+      "Collective noun",
+      "Abstract noun",
+      "Adjective",
+      "Common noun"
+    ],
+    "correct": 1,
+    "explanation": "'Happiness' is an abstract noun as it represents an emotion or state of being.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "I wonder if at times it rains to give us some respite from the dull moments of life. (Underlined: respite)",
+    "options": [
+      "Adverb",
+      "Conjunction",
+      "Noun",
+      "Participle"
+    ],
+    "correct": 2,
+    "explanation": "'Respite' is a noun meaning a short period of rest or relief from something difficult.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The manager expects every employee to do his duty. (Underlined: every)",
+    "options": [
+      "Infinite numeral adjective",
+      "Distributive numeral adjective",
+      "Demonstrative adjective",
+      "Definite numeral adjective"
+    ],
+    "correct": 1,
+    "explanation": "'Every' is a distributive numeral adjective as it refers to each individual of a class.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The righteous always emerge victorious. (Underlined: righteous)",
+    "options": [
+      "Plural Noun",
+      "Adverb",
+      "Determiner",
+      "Singular Noun"
+    ],
+    "correct": 0,
+    "explanation": "'The righteous' functions as a plural noun referring to righteous people as a class.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "It rained every day during the month of August. (Underlined: every day)",
+    "options": [
+      "Adverb",
+      "Pronoun",
+      "Conjunction",
+      "Adjective"
+    ],
+    "correct": 0,
+    "explanation": "'Every day' functions as an adverbial phrase of frequency (adverb).",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Directions: Fill in the blanks with the most appropriate discourse marker.\nI must, ________, ask for tolerance from the board.",
+    "options": [
+      "therefore",
+      "thus",
+      "for example",
+      "likely"
+    ],
+    "correct": 0,
+    "explanation": "'Therefore' is the correct discourse marker to show a logical conclusion.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "________ eloquent expression of this skepticism can be found in the high theory removed from the reality.",
+    "options": [
+      "Unengagingly",
+      "Somewhat",
+      "Indeed",
+      "Fortunate"
+    ],
+    "correct": 2,
+    "explanation": "'Indeed' is used to emphasize a statement or introduce a stronger point.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "I shall consider, ________, the narrow lines of argument articulated by philosophers.",
+    "options": [
+      "sui generis",
+      "in particular",
+      "matter of fact",
+      "serendipitously"
+    ],
+    "correct": 1,
+    "explanation": "'In particular' is used to focus on a specific point.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "________, issues of religious plurality are embedded in the relationship between different followers of the party.",
+    "options": [
+      "Somewhat",
+      "Significantly",
+      "Unexpectedly",
+      "Overmuch"
+    ],
+    "correct": 2,
+    "explanation": "'Unexpectedly' is a discourse marker used to introduce a surprising fact.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "________, we can take recourse to, what I call, an argument from ordinary life.",
+    "options": [
+      "Aggrievedly",
+      "Finally",
+      "Fatally",
+      "Acceptably"
+    ],
+    "correct": 1,
+    "explanation": "'Finally' is used to introduce the last point or conclusion.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Directions: Select the option that most appropriately describes the meaning and grammatical parts of both words.\nLose and Loose",
+    "options": [
+      "Lose is a verb meaning to misplace and loose is an adjective meaning slack or movable.",
+      "Lose is an adjective meaning slack or movable and loose is a verb meaning to misplace.",
+      "Lose is an adjective meaning to misplace and loose is a verb meaning slack or movable.",
+      "Lose is a verb meaning slack or movable and loose is an adjective meaning to misplace."
+    ],
+    "correct": 0,
+    "explanation": "'Lose' is a verb (to misplace) and 'loose' is an adjective (slack/not tight).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Anyway and Any way",
+    "options": [
+      "Anyway is an adverb meaning any manner or method. Any way is a phrase meaning regardless.",
+      "Anyway is a phrase meaning any manner or method. Any way is an adverb meaning regardless.",
+      "Anyway is an adverb meaning regardless. Any way is a phrase meaning any manner or method.",
+      "Anyway is a phrase meaning regardless. Any way is an adverb meaning any manner or method."
+    ],
+    "correct": 2,
+    "explanation": "'Anyway' is a single-word adverb meaning regardless. 'Any way' is a two-word phrase meaning any method or manner.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Allusion and Illusion",
+    "options": [
+      "Allusion is a noun that is an implied reference to something. Illusion is a noun that refers to a false idea.",
+      "Illusion is a noun that is an implied reference to something. Allusion is a noun that refers to a false idea.",
+      "Allusion is a verb that refers to an implied reference to something. Illusion is a verb that refers to a false idea.",
+      "Illusion is an adverb that refers to an implied reference to something. Allusion is an adjective that refers to a false idea."
+    ],
+    "correct": 0,
+    "explanation": "'Allusion' is an indirect reference, while 'illusion' is a deceptive appearance or false belief.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Appraise and Apprise",
+    "options": [
+      "Appraise is a verb meaning to inform about something. Apprise is a verb meaning to examine and form an opinion about something.",
+      "Appraise is a verb meaning to examine and form an opinion about something. Apprise is a verb meaning to inform about something.",
+      "Appraise is a noun meaning to inform about something. Apprise is a noun meaning to examine and form an opinion about something.",
+      "Appraise is an adverb meaning to examine and form an opinion about something. Apprise is a verb meaning to inform about something."
+    ],
+    "correct": 1,
+    "explanation": "'Appraise' means to assess the value or quality of, while 'apprise' means to inform or tell.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Climactic and Climatic",
+    "options": [
+      "Climactic is an adverb meaning moment of heightened excitement. Climatic is an adverb meaning climate of a particular area.",
+      "Climactic is an adjective meaning climate of a particular area. Climatic is an adjective meaning moment of heightened excitement.",
+      "Climactic is a verb meaning moment of heightened excitement. Climatic is a verb meaning climate of a particular area.",
+      "Climactic is an adjective meaning moment of heightened excitement. Climatic is an adjective meaning climate of a particular area."
+    ],
+    "correct": 3,
+    "explanation": "'Climactic' relates to a climax (heightened excitement), while 'climatic' relates to climate.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Directions: Select the sentence that makes correct use of the word.\nAdvice",
+    "options": [
+      "He adviced his friend to take a break from his hectic schedule.",
+      "The doctor's advice went unheeded by his patient.",
+      "The teacher repeatedly adviced her students to take safety precautions on the road.",
+      "Elders are often advising their children on various aspects of their heritage."
+    ],
+    "correct": 1,
+    "explanation": "'Advice' is a noun. The verb form is 'advise'. Option B correctly uses 'advice' as a noun.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Illicit",
+    "options": [
+      "The police put out a notice to illicit more information from the public.",
+      "Illicit trading in liquor became profitable during the prohibition.",
+      "The offer for new residential areas illicited a lukewarm response.",
+      "The news of the earthquake illicited a massive outpouring of help for the victims."
+    ],
+    "correct": 1,
+    "explanation": "'Illicit' means illegal or forbidden. Options A, C, and D should use 'elicit' (to draw out).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Effect",
+    "options": [
+      "The weather conditions began to effect his health.",
+      "Climate change will have long term effect on every aspect of planetary life.",
+      "The people of the town were deeply effected by the new laws that were passed by the government.",
+      "All creatures are effected by emotion."
+    ],
+    "correct": 1,
+    "explanation": "'Effect' is primarily a noun. Options A, C, and D require the verb 'affect'. Option B correctly uses 'effect' as a noun.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Brake",
+    "options": [
+      "Frequent disruptions caused the braking of the flow of the speaker.",
+      "The rapid swirling water caused the dam walls to brake.",
+      "The driver braked sharply to avoid a collision.",
+      "The young officer did not know how to brake the unwelcome news to the family."
+    ],
+    "correct": 2,
+    "explanation": "Option C correctly uses 'braked' as the past tense of the verb 'brake' (to slow down/stop a vehicle). Option D should use 'break'.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Incite",
+    "options": [
+      "He has a deep incite into various aspects of social formations.",
+      "The words of the speaker incited feelings of anger, sorrow and grief.",
+      "His research gave the audience an incite into market trends.",
+      "Since he was incite she decided to call out to him."
+    ],
+    "correct": 1,
+    "explanation": "'Incite' means to encourage or stir up (violent or unlawful behavior). Options A and C should use 'insight'.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Directions: Find the proper sequence of the four jumbled sentences (P, Q, R, S) between S1 and S6.\nS1: The Tungabhadra is the chief tributary of the Krishna formed by the union, near Kudali, of the two streams Tunga and Bhadra.\nS6: The Tungabhadra has served as a historic natural frontier right through the centuries.\nP: The river is perennial in character and comes down in frequent heavy rushes during the rains.\nQ: The rain-bearing river was dammed by the rulers of Vijayanagara near Hampi for watering the palaces and gardens of that great city.\nR: The united stream strikes in a north-easterly direction through Mysore and skirts the adjacent districts.\nS: The bed of both the headstreams of the Tungabhadra is rocky.",
+    "options": [
+      "PQSR",
+      "PRSQ",
+      "RSPQ",
+      "RQSP"
+    ],
+    "correct": 2,
+    "explanation": "The correct sequence is RSPQ. R follows S1 by describing the direction of the united stream. S describes the bed of the headstreams. P describes the perennial character of the river. Q describes the historical damming of the river.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: In July 1917, Prince Lvov was replaced by a socialist revolutionary Alexander Kerensky as the head of the provisional government.\nS6: In Russia the Soviets have been in existence since 1905, and the Soviet system played a especially important role under the Provisional Government.\nP: However, such a partial replacement failed to satisfy the Bolsheviks.\nQ: The revolutionaries did not want a parliamentary republic nor a bourgeois democracy but rather they wanted a soviet of workers, soldiers, and labourers.\nR: When the February Revolution broke out, the leader of the Bolsheviks, Lenin, was in Switzerland.\nS: He arrived in Russia in April 1917, and was followed by Trotsky.",
+    "options": [
+      "PQSR",
+      "PRSQ",
+      "QPSR",
+      "RQSP"
+    ],
+    "correct": 1,
+    "explanation": "The correct sequence is PRSQ. P directly follows S1 by commenting on the 'replacement'. R introduces Lenin's location, S follows with his arrival, and Q explains the revolutionaries' goals.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: The history of India's struggle for freedom is an enthralling one.\nS6: A more vibrant retelling is perhaps required of this tumultuous period of our history.\nP: It has all the drama and excitement of an epic tale.\nQ: And yet, in most history textbooks, what students encounter are facts, figures, names and numbers.\nR: As in epics, heroism was often accompanied by extreme sacrifice.\nS: Accounts of this period are loaded with tales of loyalty, allegiance, high ideals and peaceful protests.",
+    "options": [
+      "PQSR",
+      "SQRP",
+      "QPSR",
+      "PRSQ"
+    ],
+    "correct": 3,
+    "explanation": "The correct sequence is PRSQ. P compares the struggle to an epic tale. R continues the epic comparison. S describes the accounts of this period. Q contrasts this with textbook representations.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Louis XVI of the Bourbon family of Kings married the Austrian princess Marie Antoinette in 1770.\nS6: Remarkably nevertheless, under Louis XVI, France helped the thirteen American colonies to gain their independence from Britain.\nP: Furthermore, lenders, who gave the state credit, now began to charge 10 per cent interest on loans.\nQ: The ascension was preceded by a war that added more than a billion livre to a debt that had already risen to more than 2 billion livre.\nR: In 1774, Louis XVI ascended the throne of France at the age of 20.\nS: Long years of war had drained the financial resources of France.",
+    "options": [
+      "SRPQ",
+      "SQRP",
+      "RQSP",
+      "RSQP"
+    ],
+    "correct": 2,
+    "explanation": "The correct sequence is RQSP. R states his ascension in 1774. Q describes the war preceding the ascension. S explains the financial drain. P adds details about the lenders.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Montesquieu was a great philosopher of his time.\nS6: He supported constitutional monarchy in France like the English one.\nP: He wanted power to be shared between the king, the nobles, and the Third Estate.\nQ: In his book The Spirit of the Laws, he propagated the theory of separating powers into three branches of government — the Legislative, the Executive and the Judiciary.\nR: To prevent any one of the three classes from becoming too powerful, Montesquieu suggested the making of a new constitution based on checks and balances.\nS: If this was done, he argued, there would be no tyranny and the liberty of the individual could be safeguarded.",
+    "options": [
+      "PQSR",
+      "SQRP",
+      "QPRS",
+      "RSQP"
+    ],
+    "correct": 0,
+    "explanation": "The correct sequence is PQSR. P states his view on power sharing. Q introduces his book and separation of powers. S explains the outcome of this separation. R details the checks and balances.",
+    "topicId": "english"
+  },
+  {
+    "question": "S1: Glaciation has important effects on the landscape beyond the direct modifications created by ice erosion and deposition.\nS6: At the same time, ice advanced from the Welsh mountains into the Vale of Evesham and combined with northern ice to pond up a large proglacial lake covering much of the Midlands.\nP: One example is that glaciation frequently disrupts pre-existing drainage lines, initiating a new pattern persisting after the ice has disappeared.\nQ: The Midlands, what is now the Coventry/Warwick area, was formerly drained by the head waters of the River Soar, flowing into the Trent south of Nottingham.\nR: Two well-documented instances of such effects occur in England.\nS: During glaciation, the valleys of Soar and Trent were occupied by ice advancing from the north.",
+    "options": [
+      "PQSR",
+      "RPQS",
+      "SRPQ",
+      "RSQP"
+    ],
+    "correct": 1,
+    "explanation": "The correct sequence is RPQS. R introduces the two instances in England. P gives the example of drainage disruption. Q describes the specific Midlands drainage. S explains the glaciation of those valleys.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: The primary evidence for climate change that occurred many million years ago is the rocks and deposits themselves.\nS6: In other words, despite the clear legacy in many parts of the world of recent glaciation, the vast majority of sedimentary rocks were laid down in warm climatic conditions.\nP: Sediments and fossil in the poles tell us a great deal about the environment in which they were laid down.\nQ: We must, of course, bear in mind when interpreting this information that, because of the movement of the continents, no one latitude of the Earth has necessarily gone through such marked climatic vicissitudes.\nR: Nevertheless, even allowing for this factor, one of the most remarkable discoveries about the climate change of the past is that the two poles of the Earth have been free of ice for at least 90 per cent of the known history of the planet.\nS: We may find in close proximity to one another, coal deposits indicating the humid conditions of the tropics, red sandstones laid down in deserts and morainic materials reflecting polar conditions.",
+    "options": [
+      "PQSR",
+      "QSPR",
+      "SQRP",
+      "RSQP"
+    ],
+    "correct": 2,
+    "explanation": "The correct sequence is SQRP. S details the proximity of different deposits. Q cautions about continental drift. R presents the discovery about ice-free poles. P summarizes what sediments tell us.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Every geological period has been dominated by one particular form of life; as conditions changed to those of a new period, different types of organisms emerged into dominance.\nS6: The origin of completely new biological systems is comparatively rare, so consequently only a few major types have developed during the history of life.\nP: Individual shifts rely on opportunity, ecological access, and the development of a new adaptation.\nQ: Characteristically these shifts are rapid and are followed by a bout of adaptive radiation into the new ecological zone — for example, with the emergence of life on land.\nR: Within each period, natural selection has created a vast array of adaptive experiments culminating in a breakthrough to a new biological system that may cross the ecological barrier to the next period.\nS: Every breakthrough of shift in dominance is dependent on ones that have occurred before so that the process of evolution is progressive.",
+    "options": [
+      "PQSR",
+      "QSPR",
+      "RSPQ",
+      "RQPS"
+    ],
+    "correct": 0,
+    "explanation": "The correct sequence is PQSR. P explains individual shifts. Q describes the characteristics of these shifts. S links the shifts progressively. R explains natural selection within each period.",
+    "topicId": "english"
+  },
+  {
+    "question": "S1: The sun is the primary transmitter of energy for the processes of change on the Earth's surface and in the atmosphere.\nS6: Only a small part of insolation is absorbed and converted into thermal energy.\nP: Its rays are transmitted in various wavelengths of the solar spectrum, mainly in the ultraviolet, visible, and infrared bands.\nQ: When components of the solar spectrum reach the earth, the insolation is partially absorbed and converted to thermal energy.\nR: The amount of energy the earth receives from other celestial bodies is negligible by comparison.\nS: Radiant energy from the sun that strikes the earth is called insolation.",
+    "options": [
+      "PSQR",
+      "QSPR",
+      "SQRP",
+      "RSQP"
+    ],
+    "correct": 3,
+    "explanation": "The correct sequence is RSQP. R compares solar energy to other celestial bodies. S defines insolation. Q explains what happens when it reaches earth. P details the wavelengths.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Temperature indicates the relative degree of molecular activity, or heat, of a substance.\nS6: The boiling point of water under standard conditions is at 100 degrees Centigrade.\nP: Temperature is an index of sensible heat, not a direct measure of the quantity of energy.\nQ: Zero on this scale is the 'triple point' temperature, at which the gaseous, liquid, and solid states of water are at equilibrium under standard atmospheric pressure.\nR: If heat flows from one body to another, the former has the higher temperature.\nS: To indicate the temperature of a body, an arbitrary scale of reference is employed.",
+    "options": [
+      "QSRP",
+      "QSPR",
+      "SQRP",
+      "PRSQ"
+    ],
+    "correct": 2,
+    "explanation": "The correct sequence is SQRP. S introduces the scale of reference. Q defines zero on this scale. R explains heat flow. P defines temperature as an index.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Directions: Match List I (Parts of Speech) with List II (Word) and select the correct code.\nList I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Qualification\n2. Conditionally\n3. Qualify\n4. Qualifying",
+    "options": [
+      "A-2, B-4, C-3, D-1",
+      "A-1, B-2, C-3, D-4",
+      "A-1, B-3, C-2, D-4",
+      "A-2, B-3, C-4, D-1"
+    ],
+    "correct": 2,
+    "explanation": "Qualification is a Noun (A-1). Qualify is a Verb (B-3). Conditionally is an Adverb (C-2). Qualifying is an Adjective (D-4).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Error\n2. Erroneously\n3. Err\n4. Erroneous",
+    "options": [
+      "A-4, B-3, C-2, D-1",
+      "A-1, B-2, C-3, D-4",
+      "A-1, B-3, C-2, D-4",
+      "A-4, B-2, C-3, D-1"
+    ],
+    "correct": 2,
+    "explanation": "Error is a Noun (A-1). Err is a Verb (B-3). Erroneously is an Adverb (C-2). Erroneous is an Adjective (D-4).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Think\n2. Care\n3. Carefully\n4. Careful",
+    "options": [
+      "A-2, B-4, C-3, D-1",
+      "A-2, B-1, C-3, D-4",
+      "A-1, B-3, C-4, D-2",
+      "A-2, B-3, C-1, D-4"
+    ],
+    "correct": 1,
+    "explanation": "Care is a Noun (A-2). Think is a Verb (B-1). Carefully is an Adverb (C-3). Careful is an Adjective (D-4).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Dually\n2. Duplication\n3. Duplicate\n4. Duple",
+    "options": [
+      "A-1, B-4, C-3, D-2",
+      "A-1, B-3, C-4, D-2",
+      "A-2, B-3, C-1, D-4",
+      "A-2, B-1, C-3, D-4"
+    ],
+    "correct": 2,
+    "explanation": "Duplication is a Noun (A-2). Duplicate is a Verb (B-3). Dually is an Adverb (C-1). Duple is an Adjective (D-4).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Emanant\n2. Exodus\n3. Outward\n4. Exit",
+    "options": [
+      "A-1, B-3, C-4, D-2",
+      "A-4, B-2, C-3, D-1",
+      "A-2, B-3, C-4, D-1",
+      "A-1, B-4, C-3, D-2"
+    ],
+    "correct": 1,
+    "explanation": "Exit is a Noun (A-4). Exodus is a Verb (B-2). Outward is an Adverb (C-3). Emanant is an Adjective (D-1).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Extremely\n2. Spectatorial\n3. Spectator\n4. Spectate",
+    "options": [
+      "A-2, B-1, C-4, D-3",
+      "A-2, B-4, C-1, D-3",
+      "A-3, B-4, C-1, D-2",
+      "A-3, B-1, C-4, D-2"
+    ],
+    "correct": 2,
+    "explanation": "Spectator is a Noun (A-3). Spectate is a Verb (B-4). Extremely is an Adverb (C-1). Spectatorial is an Adjective (D-2).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Noun\nB. Verb\nC. Interjection\nD. Adjective\n\nList II:\n1. Auditory\n2. Hear\n3. Hark\n4. Hearing",
+    "options": [
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-3, C-2, D-4",
+      "A-1, B-2, C-3, D-4",
+      "A-4, B-2, C-3, D-1"
+    ],
+    "correct": 0,
+    "explanation": "Hearing is a Noun (A-4). Hear is a Verb (B-2). Hark is an Interjection (C-3). Auditory is an Adjective (D-1).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Knowing\n2. Know\n3. Knowingly\n4. Knowledge",
+    "options": [
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-3, C-2, D-4",
+      "A-1, B-2, C-3, D-4",
+      "A-4, B-3, C-2, D-1"
+    ],
+    "correct": 0,
+    "explanation": "Knowledge is a Noun (A-4). Know is a Verb (B-2). Knowingly is an Adverb (C-3). Knowing is an Adjective (D-1).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Cogitation\n2. Pensively\n3. Cogitate\n4. Cogitative",
+    "options": [
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-2, C-3, D-4",
+      "A-1, B-3, C-2, D-4",
+      "A-4, B-3, C-2, D-1"
+    ],
+    "correct": 2,
+    "explanation": "Cogitation is a Noun (A-1). Cogitate is a Verb (B-3). Pensively is an Adverb (C-2). Cogitative is an Adjective (D-4).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Intuitive\n2. Intuition\n3. Intuitively\n4. Intuit",
+    "options": [
+      "A-2, B-3, C-4, D-1",
+      "A-2, B-4, C-3, D-1",
+      "A-1, B-4, C-3, D-2",
+      "A-1, B-3, C-4, D-2"
+    ],
+    "correct": 1,
+    "explanation": "Intuition is a Noun (A-2). Intuit is a Verb (B-4). Intuitively is an Adverb (C-3). Intuitive is an Adjective (D-1).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Directions: Match List I (Word/Expression) with List II (Meaning) and select the correct code.\nList I:\nA. Ensue\nB. Morass\nC. Imbroglio\nD. Potpourri\n\nList II:\n1. Muddy ground\n2. Complex disputes\n3. Collection of different things\n4. To happen as a result",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1,
+    "explanation": "Ensue means to happen as a result (A-4). Morass is muddy ground (B-1). Imbroglio is a complex dispute (C-2). Potpourri is a collection of different things (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Malversation\nB. Conundrum\nC. Incessant\nD. Mulct\n\nList II:\n1. Continuing without a break\n2. Confusing problem\n3. Extracting money in the form of taxes\n4. Corrupt behaviour of a public servant",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-2, C-1, D-3"
+    ],
+    "correct": 0,
+    "explanation": "Malversation is corrupt behavior of a public servant (A-4). Conundrum is a confusing problem (B-2). Incessant means continuing without a break (C-1). Mulct means extracting money in the form of taxes/fines (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Impugn\nB. Spow\nC. Harangue\nD. Gibberish\n\nList II:\n1. Meaningless words\n2. Expressing doubts about something\n3. Flowing out of something in a forceful way\n4. Aggressive lecturing",
+    "options": [
+      "A-1, B-3, C-4, D-2",
+      "A-1, B-4, C-3, D-2",
+      "A-2, B-4, C-3, D-1",
+      "A-2, B-3, C-4, D-1"
+    ],
+    "correct": 3,
+    "explanation": "Impugn means expressing doubts about something (A-2). Spow means flowing out forcefully (B-3). Harangue is aggressive lecturing (C-4). Gibberish is meaningless words (D-1).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Caveat\nB. Amble\nC. Acolyte\nD. Archaic\n\nList II:\n1. Old-fashioned\n2. Warning\n3. Walking at a slow pace\n4. Ardent follower",
+    "options": [
+      "A-1, B-3, C-4, D-2",
+      "A-1, B-4, C-3, D-2",
+      "A-2, B-3, C-4, D-1",
+      "A-2, B-4, C-3, D-1"
+    ],
+    "correct": 2,
+    "explanation": "Caveat is a warning (A-2). Amble is walking at a slow pace (B-3). Acolyte is an ardent follower (C-4). Archaic is old-fashioned (D-1).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Kernel\nB. Brook\nC. Jinx\nD. Solace\n\nList II:\n1. Something that causes bad luck\n2. Small stream\n3. Something that gives feeling of comfort\n4. Soft part inside a seed",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 0,
+    "explanation": "Kernel is the soft part inside a seed (A-4). Brook is a small stream (B-2). Jinx causes bad luck (C-1). Solace gives comfort (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Feat\nB. Fate\nC. Fathom\nD. Faux pas\n\nList II:\n1. The development of events outside a person's control\n2. Used to measure depth of water\n3. An embarrassing mistake\n4. An achievement requiring great courage",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1,
+    "explanation": "Feat is an achievement requiring courage (A-4). Fate is events outside control (B-1). Fathom is used to measure water depth (C-2). Faux pas is an embarrassing mistake (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Semitic\nB. Seminary\nC. Send off\nD. Semblance\n\nList II:\n1. Similarity of appearance\n2. Training college for priests\n3. A family of languages that includes Hebrew\n4. Wish good luck to person leaving",
+    "options": [
+      "A-1, B-2, C-4, D-3",
+      "A-3, B-4, C-2, D-1",
+      "A-1, B-4, C-2, D-3",
+      "A-3, B-2, C-4, D-1"
+    ],
+    "correct": 3,
+    "explanation": "Semitic is a language family including Hebrew (A-3). Seminary is a training college for priests (B-2). Send off is wishing good luck (C-4). Semblance is similarity of appearance (D-1).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Hatch\nB. Haughty\nC. Gruff\nD. Gruelling\n\nList II:\n1. Rough and low in pitch\n2. Arrogant behaviour\n3. Tiring and demanding\n4. A door in an aircraft",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 0,
+    "explanation": "Hatch is a door in an aircraft (A-4). Haughty is arrogant behavior (B-2). Gruff is rough and low in pitch (C-1). Gruelling is tiring and demanding (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Extirpate\nB. Extol\nC. Extremity\nD. Expunge\n\nList II:\n1. Praise enthusiastically\n2. Farthest point\n3. To remove completely\n4. Destroy completely",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 2,
+    "explanation": "Extirpate means to destroy completely (A-4). Extol means to praise enthusiastically (B-1). Extremity is the farthest point (C-2). Expunge means to remove completely (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "List I:\nA. Devious\nB. Devolution\nC. Detriment\nD. Detract\n\nList II:\n1. Cause something to seem less valuable\n2. Skilful in using underhand tactics\n3. Transfer of power from higher to lower government\n4. The state of being harmed or damaged",
+    "options": [
+      "A-1, B-3, C-4, D-2",
+      "A-2, B-3, C-4, D-1",
+      "A-2, B-4, C-3, D-1",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1,
+    "explanation": "Devious means skillful in underhand tactics (A-2). Devolution is transfer of power (B-3). Detriment is being harmed or damaged (C-4). Detract means to make something seem less valuable (D-1).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Directions: Fill in the blanks in the following CLOZE passage.\nIt is increasingly 71. ________ that learning levels within many countries are highly unequal.",
+    "options": [
+      "recognized",
+      "recognize",
+      "recognizing",
+      "been recognized"
+    ],
+    "correct": 0,
+    "explanation": "'It is increasingly recognized' is the correct passive construction.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "This 72. ________ be happening because of institutional features of school systems, such as early streaming, regional diversity",
+    "options": [
+      "ought to",
+      "should",
+      "must",
+      "may"
+    ],
+    "correct": 3,
+    "explanation": "'May' expresses possibility.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "73. ________ expenditure or political engagement,",
+    "options": [
+      "on",
+      "in",
+      "for",
+      "with"
+    ],
+    "correct": 1,
+    "explanation": "'Diversity in expenditure' is the correct prepositional usage.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "74. ________ access to education, and non-equitable access to different types of providers.",
+    "options": [
+      "unequal",
+      "inequal",
+      "inequality",
+      "equal"
+    ],
+    "correct": 0,
+    "explanation": "'Unequal access' is the standard adjective form.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Among the developed countries, 75. ________ with more equal learning outcomes",
+    "options": [
+      "these",
+      "those",
+      "that",
+      "some"
+    ],
+    "correct": 1,
+    "explanation": "'Those' is used to refer to countries mentioned previously.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "76. ________ have better average learning outcomes,",
+    "options": [
+      "also",
+      "with",
+      "to",
+      "for"
+    ],
+    "correct": 0,
+    "explanation": "'Also' is used to add a supporting fact.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "77. ________ that appropriate interventions in the education sector may have positive effects on both equality and the quality of education.",
+    "options": [
+      "suggested",
+      "suggesting",
+      "have suggested",
+      "suggest"
+    ],
+    "correct": 3,
+    "explanation": "'Suggest' is the correct plural verb form agreeing with the plural subject 'outcomes'.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Economic inequality is associated with the distribution of 78. ________ skills among adults, although the direction of causation is unclear.",
+    "options": [
+      "numeracy",
+      "number",
+      "proficiency",
+      "calculation"
+    ],
+    "correct": 2,
+    "explanation": "'Proficiency skills' or 'proficiency' fits best in the context of overall skill distribution.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Arguably, 79. ________ society will ever reach total equality in the learning outcomes of every individual.",
+    "options": [
+      "no",
+      "any",
+      "few",
+      "some"
+    ],
+    "correct": 0,
+    "explanation": "'No society' is correct to express the negative assertion.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "80. ________ in learning outcomes may depend on individual ability and motivation, as well as the type of background one comes from and the types of resources one has access to.",
+    "options": [
+      "Difference",
+      "Different",
+      "Differentiated",
+      "Differences"
+    ],
+    "correct": 3,
+    "explanation": "'Differences' is the plural noun required to agree with the verb 'may depend'.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Directions: Select the most appropriate preposition or determiner.\nNot ________ metal is necessarily solid in its natural state.",
+    "options": [
+      "each",
+      "every",
+      "all",
+      "any"
+    ],
+    "correct": 1,
+    "explanation": "'Not every metal' is the correct singular determiner usage.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "The reminder has gone out on ________ occasions, requiring personnel to complete their personal files.",
+    "options": [
+      "further",
+      "several",
+      "untold",
+      "most"
+    ],
+    "correct": 1,
+    "explanation": "'Several occasions' is the standard idiomatic expression.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "It is important for people to work ________ their co-workers in the office to ensure maximum productivity.",
+    "options": [
+      "for",
+      "to",
+      "with",
+      "over"
+    ],
+    "correct": 2,
+    "explanation": "'Work with' is the correct preposition for collaboration.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "You can choose ________ shirt you like from the collection available in the shop.",
+    "options": [
+      "whatever",
+      "whatsoever",
+      "whichever",
+      "which"
+    ],
+    "correct": 2,
+    "explanation": "'Whichever' is used to express a choice among a limited set of options.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Depending on your preference, you can choose to complete either or ________ courses being offered by the university.",
+    "options": [
+      "some",
+      "many",
+      "any",
+      "both"
+    ],
+    "correct": 3,
+    "explanation": "'Either or both' is a standard correlative conjunction phrase.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Directions: Identify which of the sentences has/have the words been used correctly.\nDairy, Dreary, Diary\n1. She quietly stored all her sacred memories in her private dairy.\n2. The proceedings of the meeting went on and on and were quite dreary.\n3. They always bought their milk products from the local diary.",
+    "options": [
+      "1 and 3 only",
+      "2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 1,
+    "explanation": "Sentence 1 should use 'diary' instead of 'dairy'. Sentence 3 should use 'dairy' instead of 'diary'. Only sentence 2 is correct.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Braid, Beard, Brood\n1. The engineers were asked to braid the river by converting it into single body with the aid of an artificial dam.\n2. Wise men, they say, often sport a beard.\n3. Among certain avian species the males are known to brood the eggs laid by females.",
+    "options": [
+      "1 and 3 only",
+      "2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 3,
+    "explanation": "All three sentences use the words 'braid', 'beard', and 'brood' correctly in their respective contexts.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Lesion, Legion, Lesson\n1. The scan of the affected area indicated the presence of a life-threatening lesion.\n2. He had a legion of followers who hung on to his every word.\n3. It is important to lesson the burden of others as we venture through life.",
+    "options": [
+      "1 and 2 only",
+      "1 only",
+      "2 only",
+      "1, 2 and 3"
+    ],
+    "correct": 0,
+    "explanation": "Sentence 3 should use 'lessen' instead of 'lesson'. Sentences 1 and 2 are correct.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Depose, Deplore, Deport\n1. The director asked the actor to depose himself and instead act naturally.\n2. The people are enthusiastically declaring that they deplore the salutary impact of the decisions taken by the administration.\n3. Under extreme circumstances, the government can deport someone from a country.",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "2 only",
+      "3 only"
+    ],
+    "correct": 3,
+    "explanation": "Sentence 1 is incorrect ('depose' means to remove from office). Sentence 2 is contradictory ('deplore' means strong disapproval, while 'salutary' means beneficial). Only sentence 3 is correct.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Bate, Bait, Bade\n1. Those who had gathered for the unveiling were asked to bate their curiosity.\n2. They set the bait to capture the leopard for tagging.\n3. He reluctantly bade goodbye to his belongings.",
+    "options": [
+      "1, 2 and 3",
+      "2 and 3 only",
+      "1 only",
+      "2 only"
+    ],
+    "correct": 0,
+    "explanation": "All three sentences use the words 'bate' (moderate/restrain), 'bait' (lure), and 'bade' (past tense of bid) correctly.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Directions: Select the response that most appropriately describes the meaning of the idiom or proverb.\nSomeone's ears are flapping",
+    "options": [
+      "Someone in a state of intense agitation",
+      "Someone in a state of heightened excitement",
+      "Someone desperate to eavesdrop on a conversation",
+      "Someone embarrassed at being caught in the act of lying"
+    ],
+    "correct": 0,
+    "explanation": "The idiom 'ears are flapping' refers to someone listening intently, often in an agitated or overly eager manner.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Twist of the knife",
+    "options": [
+      "Slicing through the difficulties that one faces in life",
+      "To accept defeat in the face of an enemy",
+      "The last thrust of a difficult operation",
+      "To make someone who is already feeling bad, feel worse with one's words or actions"
+    ],
+    "correct": 3,
+    "explanation": "A 'twist of the knife' means to deliberately make someone's pain, grief, or difficult situation even worse.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Blow your own trumpet",
+    "options": [
+      "Be very loud in company",
+      "All sound and fury, signifying nothing",
+      "Excessively boastful of one's own achievements",
+      "Be scathing in one's criticism of others"
+    ],
+    "correct": 2,
+    "explanation": "To 'blow your own trumpet' means to boast about your own achievements or talents.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Get under someone's skin",
+    "options": [
+      "To fall intensely in love with someone",
+      "To cause intense liking in someone",
+      "To understand someone completely",
+      "To annoy or irritate someone intensely"
+    ],
+    "correct": 3,
+    "explanation": "To 'get under someone's skin' means to annoy or irritate them intensely.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Many hands make light work",
+    "options": [
+      "Many people working together can light a new path",
+      "Many people helping can help accomplish a task quickly",
+      "Many people working together can make work non-serious",
+      "Workers light up the work they undertake"
+    ],
+    "correct": 1,
+    "explanation": "This proverb means that a task is easy to accomplish when many people help.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "A bird in hand is worth two in the bush",
+    "options": [
+      "What's hidden is always a matter of speculation",
+      "What we have is always more valuable that what we have a chance of getting",
+      "A gift is always better kept close to oneself",
+      "What can happen is always better than what has happened"
+    ],
+    "correct": 1,
+    "explanation": "This proverb means it is better to keep what you have than to risk losing it by trying to get more.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Make heavy weather",
+    "options": [
+      "Cloud seeding",
+      "To pollute the air",
+      "To complain about wet and rainy conditions",
+      "Unnecessarily create difficulty in dealing with a task"
+    ],
+    "correct": 3,
+    "explanation": "To 'make heavy weather of something' means to find it more difficult or demanding than it really is.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Sweep under the carpet",
+    "options": [
+      "Maintain secrecy under any circumstance",
+      "Hide from general view",
+      "Keep a problem under wraps in the hope that it will be forgotten",
+      "Do a quick clean up job"
+    ],
+    "correct": 2,
+    "explanation": "To 'sweep something under the carpet' means to hide or ignore a problem in the hope that it will go away.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "A purple patch",
+    "options": [
+      "A beautiful valley of flowers",
+      "The final bloom of the season",
+      "A great run of luck or success or form",
+      "A bodily discolouration related to heredity"
+    ],
+    "correct": 2,
+    "explanation": "A 'purple patch' is a period of outstanding success or good luck.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Put out to pasture",
+    "options": [
+      "To retire or render redundant",
+      "To feed someone",
+      "To diminish importance",
+      "To incubate"
+    ],
+    "correct": 0,
+    "explanation": "To 'put someone out to pasture' means to force them to retire because they are considered too old or no longer useful.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Directions: Select the option that improves/corrects the underlined word in the sentence.\nThe opposing political parties nevertheless took a bilateral position in the national interest. (Underlined: bilateral)",
+    "options": [
+      "impartial",
+      "intermittent",
+      "perilous",
+      "bipartisan"
+    ],
+    "correct": 3,
+    "explanation": "'Bipartisan' is the correct term for cooperation between two opposing political parties.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Although she had sampled food from all the restaurants in the food court, she remained indefinite towards the culinary fare on offer. (Underlined: indefinite)",
+    "options": [
+      "imperious",
+      "indifferent",
+      "imperilled",
+      "disinvested"
+    ],
+    "correct": 1,
+    "explanation": "'Indifferent' means having no particular interest or sympathy; unconcerned.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The attitude of the whalers was marked by antipathy towards the marine life they had to encounter. (Underlined: antipathy)",
+    "options": [
+      "sympathy",
+      "empathy",
+      "indifference",
+      "animus"
+    ],
+    "correct": 3,
+    "explanation": "'Animus' means hostility or ill feeling, which is a strong synonym for antipathy.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The family was rendered diligent due to the crash in the share market. (Underlined: diligent)",
+    "options": [
+      "indigent",
+      "intransigent",
+      "indignant",
+      "apathetic"
+    ],
+    "correct": 0,
+    "explanation": "'Indigent' means extremely poor or needy, which fits the context of a stock market crash.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "He had cultivated such great temperance in his personality that he was impassioned in his dealing with the vicissitudes of life. (Underlined: impassioned)",
+    "options": [
+      "dispassionate",
+      "perfunctory",
+      "devolved",
+      "disambiguated"
+    ],
+    "correct": 0,
+    "explanation": "'Dispassionate' means not influenced by strong emotion, which aligns with 'temperance'.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The document was discerned to be a postscript, where clearly an earlier manuscript had been replaced by a new one. (Underlined: postscript)",
+    "options": [
+      "parchment",
+      "palimpsest",
+      "pastiche",
+      "montage"
+    ],
+    "correct": 1,
+    "explanation": "A 'palimpsest' is a manuscript page from which text has been scraped or washed off so that it can be used again.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "He was accused of simulism for having copied from someone else without due acknowledgement. (Underlined: simulism)",
+    "options": [
+      "sensationalism",
+      "institutionalism",
+      "plagiarism",
+      "spoonerism"
+    ],
+    "correct": 2,
+    "explanation": "'Plagiarism' is the practice of taking someone else's work or ideas and passing them off as one's own.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The domineering manager behaved in a paternal manner with his subordinates, not allowing them to decide for themselves. (Underlined: paternal)",
+    "options": [
+      "prim",
+      "petulant",
+      "presumptuous",
+      "paternalistic"
+    ],
+    "correct": 3,
+    "explanation": "'Paternalistic' describes a style of management that limits subordinates' freedom or responsibility.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Much to their disappointment, the team leader spared no more than a reflective glance at the draft plan drawn up by his team. (Underlined: reflective)",
+    "options": [
+      "perfunctory",
+      "precise",
+      "engaging",
+      "egregious"
+    ],
+    "correct": 0,
+    "explanation": "'Perfunctory' means carried out with a minimum of effort or reflection.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Her actions were considered salutary because they were done without good reason or cause. (Underlined: salutary)",
+    "options": [
+      "ingratiated",
+      "gratuitous",
+      "grating",
+      "gargantuan"
+    ],
+    "correct": 1,
+    "explanation": "'Gratuitous' means done without good reason; uncalled for.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Directions: Spot the error in the underlined parts of the sentence.\nIn his well-recognised stentorian yet amused voice (a) / the principal demanded an unique excuse (b) / from the student hauled up for alleged minor misdemeanor. (c) / No error (d)",
+    "options": [
+      "In his well-recognised stentorian yet amused voice",
+      "the principal demanded an unique excuse",
+      "from the student hauled up for alleged minor misdemeanor.",
+      "No error"
+    ],
+    "correct": 1,
+    "explanation": "'an unique' is incorrect because 'unique' starts with a consonant sound (/juː/). It should be 'a unique'.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "The visiting school children (a) / went around the lake (b) / during trip to the famous lake city. (c) / No error (d)",
+    "options": [
+      "The visiting school children",
+      "went around the lake",
+      "during trip to the famous lake city.",
+      "No error"
+    ],
+    "correct": 2,
+    "explanation": "'during trip' is grammatically incomplete. It should be 'during the trip' or 'during their trip'.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The unfair distribution (a) / of assets among the family members (b) / angered the more hardworking members of the familyowned firm. (c) / No error (d)",
+    "options": [
+      "The unfair distribution",
+      "of assets among the family members",
+      "angered the more hardworking members of the familyowned firm.",
+      "No error"
+    ],
+    "correct": 2,
+    "explanation": "Since the comparison is among multiple family members (more than two), the superlative degree 'most hardworking' should be used instead of 'more hardworking'.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Given the nature of the problem (a) / it was not unnatural for there to be (b) / bad blood among the two of them. (c) / No error (d)",
+    "options": [
+      "Given the nature of the problem",
+      "it was not unnatural for there to be",
+      "bad blood among the two of them.",
+      "No error"
+    ],
+    "correct": 2,
+    "explanation": "'among' is used for more than two people. For exactly two people, 'between' should be used ('between the two of them').",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "He emphasised the need for (a) / strict discipline and compliance (b) / among the newly-appointed staff. (c) / No error (d)",
+    "options": [
+      "He emphasised the need for",
+      "strict discipline and compliance",
+      "among the newly-appointed staff.",
+      "No error"
+    ],
+    "correct": 3,
+    "explanation": "The sentence is grammatically correct.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The officer marvelled (a) / at the low attendance (b) / remarking on the presence of less than twenty people at work. (c) / No error (d)",
+    "options": [
+      "The officer marvelled",
+      "at the low attendance",
+      "remarking on the presence of less than twenty people at work.",
+      "No error"
+    ],
+    "correct": 2,
+    "explanation": "'less than' is used for uncountable nouns. For countable nouns like 'people', 'fewer than' should be used.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The entire attention of the visiting (a) / dignitaries centred around (b) / the craftwork on display. (c) / No error (d)",
+    "options": [
+      "The entire attention of the visiting",
+      "dignitaries centred around",
+      "the craftwork on display.",
+      "No error"
+    ],
+    "correct": 1,
+    "explanation": "The idiom is 'centred on' or 'revolved around'. 'Centred around' is considered redundant or incorrect in formal English.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "A group of wayfaring tourists (a) / who had trudged for hundreds of kilometres (b) / has finally arrived at the destination. (c) / No error (d)",
+    "options": [
+      "A group of wayfaring tourists",
+      "who had trudged for hundreds of kilometres",
+      "has finally arrived at the destination.",
+      "No error"
+    ],
+    "correct": 3,
+    "explanation": "The sentence is grammatically correct. 'A group' is a collective singular subject, which correctly takes the singular verb 'has'.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The tumult among the gathered spectators (a) / rose to a crescendo (b) / upon the arrival of their most favourite superstar. (c) / No error (d)",
+    "options": [
+      "The tumult among the gathered spectators",
+      "rose to a crescendo",
+      "upon the arrival of their most favourite superstar.",
+      "No error"
+    ],
+    "correct": 2,
+    "explanation": "'most favourite' is redundant because 'favourite' already implies the highest degree of preference.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The listings on the menu that had been proffered by him (a) / were selected after meticulous care (b) / and discernment with regard to taste and preference. (c) / No error (d)",
+    "options": [
+      "The listings on the menu that had been proffered by him",
+      "were selected after meticulous care",
+      "and discernment with regard to taste and preference.",
+      "No error"
+    ],
+    "correct": 3,
+    "explanation": "The sentence is grammatically correct.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The information is available ______ the Internet.",
+    "options": [
+      "with",
+      "on",
+      "in",
+      "at"
+    ],
+    "correct": 1,
+    "explanation": "We use the preposition 'on' when referring to information found on the Internet or websites.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "I don't want ______ more vegetables.",
+    "options": [
+      "one",
+      "much",
+      "many",
+      "any"
+    ],
+    "correct": 3,
+    "explanation": "'Any' is used in negative sentences to refer to an indefinite quantity.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "What other sport do you play ______ hockey?",
+    "options": [
+      "beside",
+      "besides",
+      "instead",
+      "expect"
+    ],
+    "correct": 1,
+    "explanation": "'Besides' means 'in addition to' or 'apart from', which fits the context of playing other sports in addition to hockey.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "I called the office two or three times, but ______ time no one responded.",
+    "options": [
+      "all",
+      "some",
+      "any",
+      "each"
+    ],
+    "correct": 3,
+    "explanation": "'Each' is used to refer to every individual time the office was called.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "You can park on ______ side of the street.",
+    "options": [
+      "all",
+      "no",
+      "either",
+      "both"
+    ],
+    "correct": 2,
+    "explanation": "'Either' refers to one or the other of two sides of the street.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "I'm not speaking to Ravi. I've fallen ______ with him.",
+    "options": [
+      "away",
+      "back",
+      "out",
+      "through"
+    ],
+    "correct": 2,
+    "explanation": "The phrasal verb 'fall out' means to have an argument or disagreement with someone.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Dr. Kumar is very busy with her practice. She has ______ time for other things.",
+    "options": [
+      "few",
+      "a few",
+      "little",
+      "a little"
+    ],
+    "correct": 2,
+    "explanation": "'Little' is used with uncountable nouns (like time) to mean 'hardly any' or 'almost none'.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Harish wanted to report on the war ______ the danger involved.",
+    "options": [
+      "though",
+      "in spite of",
+      "although",
+      "even though"
+    ],
+    "correct": 1,
+    "explanation": "'In spite of' is a prepositional phrase followed by a noun phrase ('the danger involved') to show contrast.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "______ student could tell you where the college library is located.",
+    "options": [
+      "All",
+      "Some",
+      "Few",
+      "Any"
+    ],
+    "correct": 3,
+    "explanation": "'Any' is used here to mean 'it doesn't matter which student' because the library is easy to find.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The two groups entered ______ an agreement after a protracted discussion.",
+    "options": [
+      "unto",
+      "at",
+      "in",
+      "into"
+    ],
+    "correct": 3,
+    "explanation": "The idiom/phrasal verb is 'enter into an agreement'.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Select the option that is opposite in meaning to the underlined word: To him everything I did was considered contemptuous.",
+    "options": [
+      "condescending",
+      "patronising",
+      "arrogant",
+      "reverential"
+    ],
+    "correct": 3,
+    "explanation": "'Contemptuous' means showing deep hatred or disapproval. Its opposite is 'reverential', which means showing deep respect.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Select the option that is opposite in meaning to the underlined word: Social media trends are ephemeral.",
+    "options": [
+      "everlasting",
+      "evanescent",
+      "transient",
+      "fleeting"
+    ],
+    "correct": 0,
+    "explanation": "'Ephemeral' means lasting for a very short time. Its antonym is 'everlasting', which means lasting forever.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is opposite in meaning to the underlined word: As a person Mohan is generally considered to be parsimonious.",
+    "options": [
+      "frugal",
+      "sparing",
+      "partisan",
+      "extravagant"
+    ],
+    "correct": 3,
+    "explanation": "'Parsimonious' means very unwilling to spend money (stingy). Its opposite is 'extravagant', which means spending money excessively.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is opposite in meaning to the underlined word: Ramesh has a tempestuous relationship with his neighbours.",
+    "options": [
+      "tumultuous",
+      "belligerent",
+      "tranquil",
+      "riotous"
+    ],
+    "correct": 2,
+    "explanation": "'Tempestuous' means characterized by strong and turbulent or conflicting emotion. Its opposite is 'tranquil', meaning calm and peaceful.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is opposite in meaning to the underlined word: Arvind had an arduous task to attend to.",
+    "options": [
+      "strenuous and exacting",
+      "onerous and overbearing",
+      "difficult and exacerbating",
+      "easy and effortless"
+    ],
+    "correct": 3,
+    "explanation": "'Arduous' means involving or requiring strenuous effort; difficult and tiring. Its opposite is 'easy and effortless'.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is opposite in meaning to the underlined word: Malaika has been in a perpetual dilemma since the time she heard the disturbing news.",
+    "options": [
+      "eternal",
+      "transitory",
+      "continuous",
+      "unceasing"
+    ],
+    "correct": 1,
+    "explanation": "'Perpetual' means never ending or changing. Its opposite is 'transitory', which means temporary or lasting only a short time.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is opposite in meaning to the underlined word: They were distraught on receiving the news.",
+    "options": [
+      "flustered",
+      "composed",
+      "rattled",
+      "perturbed"
+    ],
+    "correct": 1,
+    "explanation": "'Distraught' means deeply upset and agitated. Its opposite is 'composed', which means calm and in control of one's feelings.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is opposite in meaning to the underlined word: She is considered to be demure by her family members.",
+    "options": [
+      "sedate",
+      "modest",
+      "brazen",
+      "solemn"
+    ],
+    "correct": 2,
+    "explanation": "'Demure' means reserved, modest, and shy. Its opposite is 'brazen', which means bold and without shame.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is opposite in meaning to the underlined word: What he got by way of a settlement was a pittance.",
+    "options": [
+      "bonanza",
+      "petty amount",
+      "instalment",
+      "miniscule amount"
+    ],
+    "correct": 0,
+    "explanation": "'Pittance' means a very small amount of money. Its opposite is 'bonanza', which means a large amount of wealth or a sudden stroke of good fortune.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is opposite in meaning to the underlined word: His academic papers often are viewed as being ponderous.",
+    "options": [
+      "profound",
+      "difficult",
+      "elegant",
+      "informative"
+    ],
+    "correct": 2,
+    "explanation": "'Ponderous' means slow and clumsy because of great weight, or dull and lacking grace. Its opposite is 'elegant', which means graceful and stylish.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Identify the meaning of the idiom/phrase: Mealy-mouthed",
+    "options": [
+      "Habituated to inflicting harsh words on others",
+      "Possessing exquisite culinary sensibilities",
+      "Lacking braveness to state things forthrightly",
+      "Exhibiting tendency for gluttony"
+    ],
+    "correct": 2,
+    "explanation": "'Mealy-mouthed' means afraid to speak frankly or straightforwardly.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the idiom/phrase: Live in each other's pockets",
+    "options": [
+      "To have a lot of money that is shared with others",
+      "To exchange wealth readily with each other",
+      "To live by borrowing from each other",
+      "To spend too much time together"
+    ],
+    "correct": 3,
+    "explanation": "To 'live in each other's pockets' means to be too close to each other or spend too much time together.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the idiom/phrase: Play possum",
+    "options": [
+      "Pretend to be dead",
+      "Take big risks",
+      "Behave in a stupid way",
+      "Be excessively happy"
+    ],
+    "correct": 0,
+    "explanation": "To 'play possum' means to pretend to be dead, asleep, or unaware to deceive someone.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the idiom/phrase: Work like a dog",
+    "options": [
+      "To work in the hope of reward",
+      "To work faithfully",
+      "To work very hard",
+      "To make a mess while working"
+    ],
+    "correct": 2,
+    "explanation": "To 'work like a dog' means to work extremely hard.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the idiom/phrase: Open a can of worms",
+    "options": [
+      "To create suspense about how things will turn out",
+      "To spark a situation that creates problems and complications",
+      "To create trouble by saying the right thing at the wrong time",
+      "To create something without anyone knowing about it"
+    ],
+    "correct": 1,
+    "explanation": "To 'open a can of worms' means to introduce a complicated situation that will cause a lot of problems.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the idiom/phrase: More than meets the eye",
+    "options": [
+      "A pleasant feast for the eyes beyond one's imagination",
+      "A beautiful spectacle unfolding before one's eyes",
+      "The disguised significance of something beyond the obvious",
+      "A pair of beautiful eyes"
+    ],
+    "correct": 2,
+    "explanation": "'More than meets the eye' means there are hidden facts, meanings, or complications beyond what is apparent.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the idiom/phrase: Hold the fort",
+    "options": [
+      "To reach high places",
+      "To breach all opposition",
+      "Be present at the precise moment when one is required",
+      "Be responsible on behalf of someone who is absent"
+    ],
+    "correct": 3,
+    "explanation": "To 'hold the fort' means to take responsibility for a situation or place while someone else is away.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the idiom/phrase: It's all Greek to me",
+    "options": [
+      "It is foreign to me",
+      "It appears classical to me",
+      "I can't understand it at all",
+      "It's frustrating because it is unfamiliar"
+    ],
+    "correct": 2,
+    "explanation": "'It's all Greek to me' is an idiom meaning that you cannot understand what is written or said at all.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the idiom/phrase: To close ranks",
+    "options": [
+      "To engage in fierce competition",
+      "To stop communicating with one's colleagues",
+      "To stop hiring people for new jobs",
+      "To unite in order to defend a common interest"
+    ],
+    "correct": 3,
+    "explanation": "To 'close ranks' means to unite and defend a group or common interest, especially when being criticized.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the idiom/phrase: Be under a cloud",
+    "options": [
+      "To be the object of suspicion",
+      "To be filled with gloom",
+      "To operate as an undercover agent",
+      "To hide one's misdeeds"
+    ],
+    "correct": 0,
+    "explanation": "To 'be under a cloud' means to be viewed with suspicion or distrust.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Determine which word class the underlined word belongs to: Who came first in the race?",
+    "options": [
+      "Preposition",
+      "Adjective",
+      "Adverb",
+      "Article"
+    ],
+    "correct": 2,
+    "explanation": "In this context, 'first' modifies the verb 'came', indicating when or in what position the action occurred, making it an adverb.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Determine which word class the underlined word belongs to: It is obligatory for all employees to wear protective clothing.",
+    "options": [
+      "Noun",
+      "Adjective",
+      "Adverb",
+      "Participle"
+    ],
+    "correct": 1,
+    "explanation": "'Obligatory' describes the state or nature of the requirement, acting as a predicate adjective.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Determine which word class the underlined word belongs to: Turn right at the end of the street.",
+    "options": [
+      "Adjective",
+      "Adverb",
+      "Noun",
+      "Preposition"
+    ],
+    "correct": 1,
+    "explanation": "'Right' modifies the verb 'Turn', indicating the direction of the action, so it is an adverb.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Determine which word class the underlined word belongs to: Swimming is good for health.",
+    "options": [
+      "Participle",
+      "Verb",
+      "Noun",
+      "Gerund"
+    ],
+    "correct": 3,
+    "explanation": "'Swimming' is a verb ending in -ing that functions as a noun (the subject of the sentence), which is a gerund.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Determine which word class the underlined word belongs to: My arms are aching terribly.",
+    "options": [
+      "Noun",
+      "Adjective",
+      "Adverb",
+      "Participle"
+    ],
+    "correct": 2,
+    "explanation": "'Terribly' modifies the verb 'aching', describing how they are aching, so it is an adverb.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Determine which word class the underlined word belongs to: The local council could not finance the project as planned.",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adverb",
+      "Participle"
+    ],
+    "correct": 1,
+    "explanation": "'Finance' is used here as an action word meaning to provide funding for, making it a verb.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Determine which word class the underlined word belongs to: We met a lot of interesting people during our winter holidays.",
+    "options": [
+      "Conjunction",
+      "Preposition",
+      "Article",
+      "Participle"
+    ],
+    "correct": 1,
+    "explanation": "'During' is a preposition used to show when something happens in relation to a period of time.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Determine which word class the underlined word belongs to: Vicky refused to join the trek to the hills because he is afraid of heights.",
+    "options": [
+      "Verb",
+      "Adverb",
+      "Noun",
+      "Adjective"
+    ],
+    "correct": 2,
+    "explanation": "'Heights' is a plural noun representing high places.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Determine which word class the underlined word belongs to: The number of boxes sold leapt from 19,400 to 33,542.",
+    "options": [
+      "Noun",
+      "Adjective",
+      "Adverb",
+      "Verb"
+    ],
+    "correct": 3,
+    "explanation": "'Leapt' is the past tense of the verb 'leap', indicating a sudden increase.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Determine which word class the underlined word belongs to: Amar ensured the timely delivery of the products.",
+    "options": [
+      "Adverb",
+      "Adjective",
+      "Noun",
+      "Preposition"
+    ],
+    "correct": 1,
+    "explanation": "'Timely' modifies the noun 'delivery', describing its characteristic, so it is an adjective.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Find the proper sequence of the four jumbled sentences (P, Q, R, S) between S1 and S6:\nS1: The lantana plant is not native to India.\nS6: However, eradicating lantana is a long and arduous process which can only be carried out of technical expertise and financial commitment.\nP: Since then, it has spread over six lakh square kilometres, covering fifty percent of the country's natural areas.\nQ: Research also shows that the lantana has invaded most pasture lands in the country.\nR: It was introduced in the country as an ornamental plant by the British in the 1800s.\nS: A 2020 estimate by researchers shows that the plant occupies forty percent of forests, including tiger reserves.",
+    "options": [
+      "QSRP",
+      "RPSQ",
+      "RQSP",
+      "SQPR"
+    ],
+    "correct": 1,
+    "explanation": "S1 introduces the plant. R explains how it was introduced in the 1800s. P follows with 'Since then' (referring to the 1800s introduction) and its spread. S provides a modern 2020 estimate of its forest coverage, and Q adds further research about pasture lands, leading to the conclusion in S6 about eradication.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Find the proper sequence of the jumbled sentences:\nS1: Biodiversity is crucial for the sustenance of life.\nS6: After all, products that benefit customers must also positively impact the environment.\nP: Corporations have a social responsibility to help navigate discourses on biodiversity and leverage opportunities for sustainable development.\nQ: Conserving biodiversity requires the urgent collaboration between, and involvement of, individuals and corporations.\nR: Further, customers' demand for greener products can be a catalyst for sustainability.\nS: Redesigning manufacturing processes, adopting new technologies, and shifting to a paperless environment are ways to achieve such development.",
+    "options": [
+      "QPRS",
+      "SPQR",
+      "PQRS",
+      "QPSR"
+    ],
+    "correct": 3,
+    "explanation": "S1 states the importance of biodiversity. Q introduces the need for collaboration between individuals and corporations. P elaborates on the corporate social responsibility. S details the specific ways ('such development' refers to sustainable development in P). R adds the customer perspective, linking to S6.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Find the proper sequence of the jumbled sentences:\nS1: Among the momentous watersheds through which human beings have passed since their appearance over 100,000 years ago, none has been more profound in its consequences than the shift to agriculture.\nS6: Unfortunately, such transformations disrupted delicate natural balances as humans sought enhanced control over their modes of subsistence.\nP: They did this by purposefully transforming landscapes with their agricultural fields and pastures.\nQ: They lived much like the way in which their own hominid predecessors had lived for millions of years, as integral components of the Earth's ecosystems.\nR: However, with the invention of practices of agriculture, these new farmers and herders began manipulating their surroundings to an unprecedented degree.\nS: Before that, for countless generations, nearly all humans had lived as hunters and gatherers, dwelling together in small, stable, nomadic bands that operated in close harmony with nature.",
+    "options": [
+      "RPQS",
+      "PRQS",
+      "RQSP",
+      "SQRP"
+    ],
+    "correct": 3,
+    "explanation": "S1 introduces the shift to agriculture. S describes the period 'Before that' (before agriculture). Q elaborates on how they lived during that pre-agricultural period. R introduces the contrast ('However, with the invention of practices of agriculture...'). P explains how they manipulated surroundings ('They did this by purposefully transforming landscapes...'), leading to S6.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Find the proper sequence of the jumbled sentences:\nS1: In an economic sense, feudalism refers to a kind of system of agricultural production.\nS6: Thus, feudalism went beyond economic aspects to cover the social and political aspects of life as well.\nP: In fact, the latter cultivated their own land as well as that of the lord.\nQ: It is based on the relationship between lords and peasants, who worked on the former's land.\nR: They also had judicial control over the peasants.\nS: The peasants also performed other labour for the lords, who in exchange provided military protection.",
+    "options": [
+      "QPSR",
+      "QSPR",
+      "SRQP",
+      "SQPR"
+    ],
+    "correct": 0,
+    "explanation": "S1 defines feudalism. Q introduces the relationship between lords and peasants. P details the cultivation of land by the peasants ('the latter'). S adds other forms of labor and military protection. R introduces the judicial control, leading to the conclusion in S6 that it went beyond economics.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Find the proper sequence of the jumbled sentences:\nS1: The Japanese empire was considered rich.\nS6: Soon, other developments such as the increased use of money and the creation of a stock market in rice show that the economy was developing in new ways.\nP: However, paying for these imports with gold and silver strained the economy and led the Tokugawa to put restrictions on the export of precious metals.\nQ: Over time, the silk from Nishijin came to be known as the best in the world.\nR: They also took steps to develop the silk industry in Nishijin in Kyoto so as to reduce imports.\nS: This was because it imported luxury goods like silk from China and textiles from India.",
+    "options": [
+      "QPSR",
+      "QSPR",
+      "SPRQ",
+      "SQPR"
+    ],
+    "correct": 2,
+    "explanation": "S1 states the empire was rich. S explains why ('This was because it imported luxury goods...'). P introduces the problem of paying for these imports with gold/silver. R explains the solution (developing local silk industry to reduce imports). Q describes the success of this local industry over time, leading to S6.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Find the proper sequence of the jumbled sentences:\nS1: A seasoned cricketer catches a cricket ball coming in with great speed far more easily than a novice, who can hurt his hands in the act.\nS6: The conclusion is clear: force not only depends on the change in momentum, but also on how fast the change is brought about.\nP: The novice, on the other hand, keeps his hands fixed and tries to catch the ball almost instantly.\nQ: One reason is that the seasoned cricketer allows a longer time for his hands to stop the ball.\nR: Consequently, he needs to provide a much greater force to stop the ball instantly, and this hurts.\nS: He does this by drawing his hands backward in the act of catching the ball.",
+    "options": [
+      "RSQP",
+      "QPSR",
+      "RPSQ",
+      "QSPR"
+    ],
+    "correct": 3,
+    "explanation": "S1 compares the seasoned cricketer and the novice. Q explains the reason for the seasoned cricketer's ease. S explains how he does this ('by drawing his hands backward'). P contrasts this with the novice ('on the other hand'). R explains the consequence for the novice, leading to S6.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Find the proper sequence of the jumbled sentences:\nS1: People fall down from staircases in different ways in different countries.\nS6: This is because for the Americans, their home is usually the only place where they regularly use the stairs.\nP: They rely, instead, on the ease and safety of lifts and escalators which are ubiquitous in such places.\nQ: This is not because the Japanese are more reckless staircase users, but simply because Americans don't much use the stairs in public places.\nR: Staircase injuries, therefore, happen mostly in the home.\nS: For instance, someone in Japan is far more likely to be hurt in a staircase fall in an office, department store or railway station than is anyone in the United States.",
+    "options": [
+      "QPRS",
+      "SPQR",
+      "SQRP",
+      "SQPR"
+    ],
+    "correct": 1,
+    "explanation": "S1 introduces different ways of falling. S gives a specific instance comparing Japan and the US. P explains why Americans don't use stairs in public places (relying on lifts/escalators). Q connects this to the comparison. R concludes that staircase injuries in the US happen mostly at home, leading to S6.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Identify the meaning of the word: Indolent",
+    "options": [
+      "Lazy",
+      "Bountiful",
+      "Indulgent",
+      "Poverty-stricken"
+    ],
+    "correct": 0,
+    "explanation": "'Indolent' means wanting to avoid activity or exertion; lazy.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Find the proper sequence of the jumbled sentences:\nS1: The word science originates from the Latin verb Scientia meaning \"to know\".\nS6: By the middle of the twentieth century, science had become a truly international enterprise, with many cultures and countries contributing to its rapid growth.\nP: Science, in a broad sense, is as old as the human species.\nQ: From the sixteenth century onwards, great strides were also made in science in Europe.\nR: The early civilisations of Egypt, India, China, Greece, Mesopotamia with others made vital contributions to its progress.\nS: The Sanskrit word Vijnana and the Arabic word Ilm convey a similar meaning, namely knowledge.",
+    "options": [
+      "QPRS",
+      "SPRQ",
+      "SQRP",
+      "SQPR"
+    ],
+    "correct": 1,
+    "explanation": "S1 defines the Latin origin. S provides parallel words in Sanskrit and Arabic. P transitions to the history of science as a human endeavor. R details early civilisations' contributions. Q moves forward to the sixteenth century onwards in Europe, leading to the 20th-century international enterprise in S6.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Find the proper sequence of the jumbled sentences:\nS1: Britain was the first country to experience modern industrialisation.\nS6: This gave people a wider choice of ways to spend their earnings and expanded the market for the sale of goods.\nP: Stability meant that the Kingdom had common laws, a single currency and a market that was not fragmented by local authorities levying taxes on goods that passed through their area, thus increasing their price.\nQ: It had been politically stable since the seventeenth century, with England, Wales and Scotland unified under a monarchy.\nR: By the end of the seventeenth century, money was widely used as the medium of exchange.\nS: As a consequence, a large section of the people received their income in the form of wages and salaries, rather than in goods.",
+    "options": [
+      "QPRS",
+      "QPSR",
+      "SQRP",
+      "SQPR"
+    ],
+    "correct": 1,
+    "explanation": "S1 introduces Britain's industrialisation. Q explains its political stability. P defines what 'stability' meant for the economy. R introduces the widespread use of money by the end of the 17th century. S explains the consequence of money usage (wages/salaries), leading to S6.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Find the proper sequence of the jumbled sentences:\nS1: William I had the land mapped, and distributed it in sections to one hundred eighty Norman nobles who had migrated with him to Britain.\nS6: Thus, Anglo-Saxon peasants became tenants of various levels of landholders.\nP: They could not, however, use their knights for private warfare, which was forbidden in England.\nQ: They soon began to gift some of their own lands to knights who would serve them just as they in turn served the king.\nR: They were obliged to supply a certain number of knights to the king.\nS: These noble lords became the chief tenants of the king and were expected to give him military help.",
+    "options": [
+      "PRQS",
+      "PSQR",
+      "SQRP",
+      "SRQP"
+    ],
+    "correct": 3,
+    "explanation": "S1 introduces the distribution of land to Norman nobles. S identifies these nobles as 'chief tenants' expected to give military help. R explains their obligation to supply knights. Q explains how they gifted land to these knights. P adds a restriction on the use of these knights, leading to the peasant tenancy structure in S6.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "In which of the sentences given below has/have the word(s) 'idyll, idle, idol' been used correctly?\n1. The writer's words conjure up the idol of a bountiful and peaceful land.\n2. An idle mind is the Devil's workshop.\n3. An immense idyll was found at the archaeological site yesterday.",
+    "options": [
+      "1 and 3 only",
+      "1, 2 and 3",
+      "2 and 3 only",
+      "2 only"
+    ],
+    "correct": 3,
+    "explanation": "Sentence 1 should use 'idyll' (a peaceful, happy scene). Sentence 3 should use 'idol' (an image or statue of a god). Only sentence 2 is correct.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "In which of the sentences given below has/have the word(s) 'insure, ensure, unsure' been used correctly?\n1. One should be wary of visiting websites they are unsure of.\n2. Meena says she always tries to insure that she has some loose cash in her handbag.\n3. Kewal was ensure of the possible consequences of his decision.",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 only",
+      "1, 2 and 3"
+    ],
+    "correct": 2,
+    "explanation": "Sentence 2 should use 'ensure' (to make certain). Sentence 3 should use 'unsure' (not certain). Only sentence 1 is correct.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Summer in Delhi is extremely hot.\nS2: Summer in Shimla is quite cold.\nThe second sentence:",
+    "options": [
+      "contradicts the assertion of the first",
+      "contrasts the assertion of the first",
+      "confirms the assertion of the first",
+      "qualifies the assertion of the first"
+    ],
+    "correct": 1,
+    "explanation": "The second sentence presents a contrasting climate condition (cold vs. hot) for a different location.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Bananas are a good source of potassium.\nS2: Doctors often recommend bananas to maintain healthy levels of potassium.\nThe second sentence:",
+    "options": [
+      "contradicts the assertion of the first",
+      "contrasts the assertion of the first",
+      "confirms the assertion of the first",
+      "qualifies the assertion of the first"
+    ],
+    "correct": 2,
+    "explanation": "The second sentence confirms and supports the assertion of the first by showing how medical professionals act on that fact.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Electric cars produce no exhaust emissions.\nS2: However, the electricity to charge them may come from fossil fuel sources.\nThe second sentence:",
+    "options": [
+      "contradicts the assertion of the first",
+      "contrasts the assertion of the first",
+      "confirms the assertion of the first",
+      "qualifies the assertion of the first"
+    ],
+    "correct": 3,
+    "explanation": "The second sentence qualifies (adds a limitation or condition to) the environmental benefit stated in the first sentence.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Match List I with List II and select the correct code:\nList I (Word/Expression):\nA. Fortuitous\nB. Fortitudinous\nC. Formidable\nD. Forlorn\n\nList II (Meaning):\n1. Exhibiting exceptional bravery\n2. Daunting\n3. Sad and solitary\n4. Happening by chance",
+    "options": [
+      "A-3, B-2, C-1, D-4",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4"
+    ],
+    "correct": 1,
+    "explanation": "Fortuitous = Happening by chance (A-4); Fortitudinous = Exhibiting exceptional bravery/fortitude (B-1); Formidable = Daunting (C-2); Forlorn = Sad and solitary (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Match List I with List II and select the correct code:\nList I (Word/Expression):\nA. Tautological\nB. Ontological\nC. Epistemological\nD. Epidemiological\n\nList II (Meaning):\n1. Related to knowledge\n2. Repetitious\n3. Related to diseases\n4. Related to existence",
+    "options": [
+      "A-3, B-1, C-4, D-2",
+      "A-3, B-4, C-1, D-2",
+      "A-2, B-4, C-1, D-3",
+      "A-2, B-1, C-4, D-3"
+    ],
+    "correct": 2,
+    "explanation": "Tautological = Repetitious (A-2); Ontological = Related to existence (B-4); Epistemological = Related to knowledge (C-1); Epidemiological = Related to diseases (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Match List I with List II and select the correct code:\nList I (Word/Expression):\nA. Epitaph\nB. Epistle\nC. Epithet\nD. Epigram\n\nList II (Meaning):\n1. Words written about a dead person\n2. An adjective to describe character or characteristic\n3. A short phrase expressing an idea in a clever way\n4. A formal letter",
+    "options": [
+      "A-1, B-4, C-2, D-3",
+      "A-1, B-2, C-4, D-3",
+      "A-3, B-4, C-2, D-1",
+      "A-3, B-2, C-4, D-1"
+    ],
+    "correct": 0,
+    "explanation": "Epitaph = Words written about a dead person (A-1); Epistle = A formal letter (B-4); Epithet = An adjective to describe character (C-2); Epigram = A short clever phrase (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Match List I with List II and select the correct code:\nList I (Word/Expression):\nA. Nihilism\nB. Fatalism\nC. Hedonism\nD. Egoism\n\nList II (Meaning):\n1. The belief that pleasure is the most important thing in life\n2. The fact of accepting that you cannot prevent something from happening\n3. The fact of thinking that you are better or more important than anyone else\n4. The denial of all reality",
+    "options": [
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "correct": 1,
+    "explanation": "Nihilism = The denial of all reality (A-4); Fatalism = Accepting that you cannot prevent something (B-2); Hedonism = Pleasure is most important (C-1); Egoism = Thinking you are better/more important (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "In which of the sentences given below has/have the word(s) 'crops, corps, corpse' been used correctly?\n1. What are the benefits of growing GM crops?\n2. The volunteer corps was organising a blood donation camp.\n3. He was sleeping like a corpse.",
+    "options": [
+      "2 and 3 only",
+      "2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 3,
+    "explanation": "All three sentences use the words correctly in their respective contexts: 'crops' (plants grown), 'corps' (organized group), and 'corpse' (dead body).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "In which of the sentences given below has/have the word(s) 'censer, censor, censure' been used correctly?\n1. The news reports have been heavily censored.\n2. The censure board must regulate the cinematic content.\n3. Incense was wafting out of the censer carried by the priest.",
+    "options": [
+      "1 and 2 only",
+      "3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 2,
+    "explanation": "Sentence 2 should use 'censor board' instead of 'censure board'. Sentences 1 and 3 are correct.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "In which of the sentences given below has/have the word(s) 'pair, pear, pare' been used correctly?\n1. My last pair of jeans don't fit any more.\n2. Dessert was a delicious pear custard.\n3. They had to pare the novel down to make it into a two-hour film.",
+    "options": [
+      "1 and 2 only",
+      "1 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 3,
+    "explanation": "All three sentences are correct: 'pair' (two of a kind), 'pear' (the fruit), and 'pare' (to trim or reduce).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "In which of the sentences given below has/have the word(s) 'fate, fete, faith' been used correctly?\n1. The working committee will meet to discuss the fete of the erring employee.\n2. The students organized a fate to felicitate the winners.\n3. The accused person has lost faith in the fairness of the judgement.",
+    "options": [
+      "2 and 3 only",
+      "1 and 3 only",
+      "3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 2,
+    "explanation": "Sentence 1 should use 'fate' (destiny/outcome). Sentence 2 should use 'fete' (a festival or celebration). Only sentence 3 is correct.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Choose the correct definition for the pair of words: Liable and Libel",
+    "options": [
+      "Liable means being legally responsible and Libel means publishing something that is false",
+      "Liable means publishing something that is false and Libel means being legally responsible",
+      "Liable means the willingness to understand and Libel means being generous",
+      "Liable means being generous and Libel means the willingness to understand"
+    ],
+    "correct": 0,
+    "explanation": "'Liable' means legally responsible, while 'libel' is a published false statement that is damaging to a person's reputation.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Choose the correct definition for the pair of words: Incredible and Incredulous",
+    "options": [
+      "Incredible means impossible to understand something and Incredulous means extremely grateful",
+      "Incredible means difficult to believe and Incredulous means not willing to believe something",
+      "Incredible means not willing to believe and Incredulous means difficult to believe something",
+      "Incredible means extremely grateful and Incredulous means impossible to understand something"
+    ],
+    "correct": 1,
+    "explanation": "'Incredible' means hard to believe or extraordinary, while 'incredulous' means skeptical or unwilling to believe.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Choose the correct definition for the pair of words: Climatic and Climactic",
+    "options": [
+      "Climatic means related to climate and Climactic means the most exciting part of a story or situation",
+      "Climatic means the most exciting part of a story or situation and Climactic means related to climate",
+      "Climatic means scientific study of climate and Climactic means climbing to the top of something",
+      "Climatic means climbing to the top of something and Climactic means the scientific study of climate"
+    ],
+    "correct": 0,
+    "explanation": "'Climatic' refers to weather/climate conditions, whereas 'climactic' refers to a climax or peak point.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Choose the correct definition for the pair of words: Cursor and Cursory",
+    "options": [
+      "Cursor means a handwriting type and Cursory means very rude",
+      "Cursor means very offensive and Cursory means related to custom",
+      "Cursor means very old norms and Cursory means invoking a curse",
+      "Cursor means a pointer and Cursory means something done in haste"
+    ],
+    "correct": 3,
+    "explanation": "A 'cursor' is a movable indicator on a screen, and 'cursory' means hasty and therefore not thorough.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Choose the correct definition for the pair of words: Affect and Effect",
+    "options": [
+      "Affect means the origin of something and Effect means the consequence of an action",
+      "Affect means to influence and Effect means the result of an action",
+      "Affect means to impact something and Effect means to reason",
+      "Affect means the consequence of something and Effect means to influence something"
+    ],
+    "correct": 1,
+    "explanation": "'Affect' is usually a verb meaning to influence, and 'effect' is usually a noun meaning the result of an action.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Choose the correct definition for the pair of words: Hard and Hardly",
+    "options": [
+      "Hard means difficult to a great degree and Hardly means scarcely",
+      "Hard means difficult and Hardly means very difficult",
+      "Hard means with great force and Hardly means ever so often",
+      "Hard means to a great degree and Hardly means never"
+    ],
+    "correct": 0,
+    "explanation": "'Hard' means solid, firm, or difficult, while 'hardly' is an adverb meaning scarcely or barely.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Choose the correct definition for the pair of words: Conscious and Conscience",
+    "options": [
+      "Conscious means brightness and Conscience means social awareness",
+      "Conscious means awareness and Conscience means being spiritually aware",
+      "Conscious means being able to perceive and Conscience means inner sense of right and wrong",
+      "Conscious means clarity of purpose and Conscience means perception"
+    ],
+    "correct": 2,
+    "explanation": "'Conscious' means awake and aware of one's surroundings, while 'conscience' is a person's moral sense of right and wrong.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "In which of the sentences given below has/have the word(s) 'bear, bare, bier' been used correctly?\n1. She could not bare the extreme heat of Delhi in the month of May.\n2. The walls of the store looked bear after the oil paintings had been sold.\n3. The body was placed on a bier before the funeral service.",
+    "options": [
+      "2 only",
+      "2 and 3",
+      "1 and 3",
+      "3 only"
+    ],
+    "correct": 3,
+    "explanation": "Sentence 1 should use 'bear' (to tolerate). Sentence 2 should use 'bare' (empty/uncovered). Only sentence 3 is correct ('bier' is a stand on which a corpse or coffin is placed).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "In which of the sentences given below has/have the word(s) 'tire, tier, tyre' been used correctly?\n1. The headmaster appealed to the students not to tier the new school master unnecessarily.\n2. Our guest could not visit us yesterday as his car's tyre got damaged.\n3. My uncle lives on the third tire of the building.",
+    "options": [
+      "3 only",
+      "2 and 3 only",
+      "2 only",
+      "1, 2 and 3"
+    ],
+    "correct": 2,
+    "explanation": "Sentence 1 should use 'tease' or 'tire' (weary). Sentence 3 should use 'tier' (level/floor). Only sentence 2 is correct.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "In which of the sentences given below has/have the word(s) 'cite, sight, site' been used correctly?\n1. The officer has left for her weekly inspection of the cite.\n2. The fresh flowers at the desk made for a pretty sight.\n3. Journalists should site their sources accurately.",
+    "options": [
+      "1 and 3 only",
+      "2 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "correct": 1,
+    "explanation": "Sentence 1 should use 'site' (location). Sentence 3 should use 'cite' (to quote or refer to). Only sentence 2 is correct.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "In which of the sentences given below has/have the word(s) 'raze, raise, rays' been used correctly?\n1. It is expected that the young executives will ask for a raze pretty soon.\n2. The plan proposes to raise the colonial building and construct a new memorial.\n3. The heat rays emanated from the infrared device.",
+    "options": [
+      "1 and 2 only",
+      "3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 1,
+    "explanation": "Sentence 1 should use 'raise' (increase in salary). Sentence 2 should use 'raze' (completely destroy). Only sentence 3 is correct.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Match List I with List II and select the correct code:\nList I (Word/Expression):\nA. Blizzard\nB. Tornado\nC. Thunderstorm\nD. Typhoons\n\nList II (Meaning):\n1. Tropical cyclones over the western Pacific Ocean\n2. A storm with thunder and lightning, and usually heavy rain\n3. Severe snowstorm with strong winds\n4. A violently rotating destructive column of air that extends from a thunderstorm to the ground",
+    "options": [
+      "A-3, B-4, C-2, D-1",
+      "A-1, B-2, C-4, D-3",
+      "A-3, B-2, C-4, D-1",
+      "A-1, B-4, C-2, D-3"
+    ],
+    "correct": 0,
+    "explanation": "Blizzard = Severe snowstorm (A-3); Tornado = Violently rotating column of air (B-4); Thunderstorm = Storm with thunder and lightning (C-2); Typhoons = Tropical cyclones over western Pacific (D-1).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Match List I with List II and select the correct code:\nList I (Word/Expression):\nA. Implication\nB. Complication\nC. Supplication\nD. Application\n\nList II (Meaning):\n1. The act of communicating with / praying to a deity\n2. A verbal or written request for an official purpose\n3. A meaning not clearly stated but which can be inferred\n4. A situation or condition that is complex or confused",
+    "options": [
+      "A-3, B-1, C-4, D-2",
+      "A-3, B-4, C-1, D-2",
+      "A-2, B-4, C-1, D-3",
+      "A-2, B-1, C-4, D-3"
+    ],
+    "correct": 1,
+    "explanation": "Implication = A meaning not clearly stated but inferred (A-3); Complication = A complex or confused situation (B-4); Supplication = Praying to a deity (C-1); Application = A request for an official purpose (D-2).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Identify the part of the sentence that contains an error:\nToday she was an accomplished (a) / singer because she had trained (b) / under an acclaimed guru in her youth. (c) / No error. (d)",
+    "options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "(d)"
+    ],
+    "correct": 3,
+    "explanation": "The sentence is grammatically correct and contains no errors.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Identify the part of the sentence that contains an error:\nEither my brothers (a) / or my friend (b) / are coming to receive me at the airport. (c) / No error. (d)",
+    "options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "(d)"
+    ],
+    "correct": 2,
+    "explanation": "When subject parts are joined by 'either... or', the verb agrees with the closer subject. Since 'my friend' is singular, the verb should be 'is coming' instead of 'are coming'.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Identify the part of the sentence that contains an error:\nThe pair of trousers (a) / you bought for me (b) / do not fit me. (c) / No error. (d)",
+    "options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "(d)"
+    ],
+    "correct": 2,
+    "explanation": "The subject is 'The pair' (singular), so the verb should be singular: 'does not fit me' instead of 'do not fit me'.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Identify the part of the sentence that contains an error:\nParidhi knew she still had to buy the groceries (a) / pick up dry-cleaning (b) / and prepare the presentation for the next day's meeting. (c) / No error. (d)",
+    "options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "(d)"
+    ],
+    "correct": 1,
+    "explanation": "To maintain parallel structure and clarity, it should be 'pick up the dry-cleaning' (using the definite article 'the' consistently with 'the groceries').",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Identify the part of the sentence that contains an error:\nThe spectators (a) / thronged the stadium to watch (b) / favourite star perform. (c) / No error. (d)",
+    "options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "(d)"
+    ],
+    "correct": 2,
+    "explanation": "The possessive pronoun 'their' is missing before 'favourite star'. It should be 'their favourite star perform'.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Based on the passage, the \"asphalt complex\" refers to:",
+    "options": [
+      "The inability of city dwellers to connect with nature",
+      "The complexity of urban life and air pollution",
+      "The causality between urban pollution and automobiles",
+      "The air pollution that results from the construction of asphalt roads"
+    ],
+    "correct": 0,
+    "explanation": "The passage describes the 'asphalt complex' as a psychological condition of being deprived of contact with the natural world due to urban environments.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the word: Iconoclast",
+    "options": [
+      "Person who criticises a cultural icon",
+      "Person who attracts a lot of attention",
+      "Person who does not adhere to accepted beliefs and traditions",
+      "Person who negates his own positions"
+    ],
+    "correct": 2,
+    "explanation": "An 'iconoclast' is a person who attacks or does not conform to established beliefs, customs, or institutions.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the word: Axiom",
+    "options": [
+      "Quality of being very similar or equal",
+      "Rule or principle that most people believe to be true",
+      "Rule that says how people should behave",
+      "The mathematical principle of being exactly equal"
+    ],
+    "correct": 1,
+    "explanation": "An 'axiom' is a statement or proposition that is regarded as being self-evidently true or universally accepted.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the word: Holistic",
+    "options": [
+      "Relating to complete systems rather than individual parts",
+      "Relating to a particular work in certain industries",
+      "Related to routine tasks",
+      "Related to holy rituals"
+    ],
+    "correct": 0,
+    "explanation": "'Holistic' refers to the belief that the parts of something are intimately interconnected and explicable only by reference to the whole.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the word: Obsequious",
+    "options": [
+      "Excessively confident about oneself in a way that annoys people",
+      "Overly eager to help or obey someone important",
+      "Too emotional or dramatic",
+      "Far too important and respected to be criticised"
+    ],
+    "correct": 1,
+    "explanation": "'Obsequious' means obedient or attentive to an excessive or servile degree.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the word: Pachyderm",
+    "options": [
+      "A thick-skinned mammal",
+      "A strong-corded silk fabric",
+      "A thick flour paste",
+      "Patchy skin"
+    ],
+    "correct": 0,
+    "explanation": "A 'pachyderm' is a very large mammal with thick skin, such as an elephant, rhinoceros, or hippopotamus.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the word: Ubiquitous",
+    "options": [
+      "Something with limited presence",
+      "Something with skewed presence",
+      "Something with wide presence",
+      "Something with selective presence"
+    ],
+    "correct": 2,
+    "explanation": "'Ubiquitous' means present, appearing, or found everywhere (wide presence).",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the word: Desiccate",
+    "options": [
+      "To remove salt from diet",
+      "To chop into little shards",
+      "To dry out items of consumption",
+      "To slice vegetables thinly"
+    ],
+    "correct": 2,
+    "explanation": "'Desiccate' means to remove the moisture from something, typically in order to preserve it.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the word: Deleterious",
+    "options": [
+      "Effecting a deletion",
+      "An untrue proposition",
+      "Causing harm or damage",
+      "The process of deletion"
+    ],
+    "correct": 2,
+    "explanation": "'Deleterious' means causing harm or damage.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Identify the meaning of the word: Equivocate",
+    "options": [
+      "To give equal weightage to both arguments",
+      "To advocate equally for both sides",
+      "To change sides frequently",
+      "To use vague language to conceal the truth"
+    ],
+    "correct": 3,
+    "explanation": "To 'equivocate' means to use ambiguous or vague language so as to conceal the truth or avoid committing oneself.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The passage draws attention to which one among the following?",
+    "options": [
+      "The need to build more and better roads",
+      "The need for ecologists to learn from psychologists",
+      "The need to ban cars in cities",
+      "The need to remain close to nature even within our cities"
+    ],
+    "correct": 3,
+    "explanation": "The passage emphasizes the psychological benefits of nature and the need to maintain contact with nature in urban environments.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The \"biophilia hypothesis\":",
+    "options": [
+      "Argues that psychological disorders are caused by biological organisms",
+      "Is the design of a biological experiment which studies families that live in cities",
+      "Formulates that separation from nature leads to infelicitous mental states",
+      "Describes a philosophy that studies humans in relation to natural phenomena"
+    ],
+    "correct": 2,
+    "explanation": "The biophilia hypothesis suggests that humans have an innate affinity for nature, and being deprived of it leads to psychological decline.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which one of the following includes the most appropriate and relevant set of keywords that match the concept of 'ecopsychology', as given in the passage?",
+    "options": [
+      "Wilson, automobile and city, deprivation of nature",
+      "Urban dwellers, ecologists, trees and flowers",
+      "Roszak, Pennsylvania, nature-induced recovery of patients",
+      "Well-being denial, human need, \"asphalt complex\""
+    ],
+    "correct": 2,
+    "explanation": "The passage mentions Theodore Roszak coining the term 'ecopsychology' and cites a study in Pennsylvania about patients recovering faster when looking at trees.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "In this passage, the word 'immanent' is closest in meaning to:",
+    "options": [
+      "Inevitable",
+      "Intentional",
+      "Serendipitous",
+      "Inherent"
+    ],
+    "correct": 3,
+    "explanation": "'Immanent' means existing or remaining within; inherent.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Choose the correct definition for the pair of words: Pontoon and Platoon",
+    "options": [
+      "Pontoon means a wooden platform and Platoon means a bamboo structure",
+      "Pontoon means a group of soldiers and Platoon means a series of bunkers",
+      "Pontoon means a temporary bridge and Platoon means a group of soldiers",
+      "Pontoon means a group of people and Platoon means a temporary bridge"
+    ],
+    "correct": 2,
+    "explanation": "A 'pontoon' is a flat-bottomed boat or hollow metal cylinder used to support a temporary bridge, and a 'platoon' is a subdivision of a company of soldiers.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Choose the correct definition for the pair of words: Invoke and Revoke",
+    "options": [
+      "Invoke means to invite trouble for doing something and Revoke means to repay debts",
+      "Invoke means to use the law to achieve something and Revoke means to officially cancel permission or agreement",
+      "Invoke means to use the law to achieve something and Revoke means to ignore legal procedures",
+      "Invoke means to usher newness and Revoke means to stick to tradition"
+    ],
+    "correct": 1,
+    "explanation": "'Invoke' means to cite or appeal to (someone or something) as an authority for an action, while 'revoke' means to officially cancel or annul.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Choose the correct definition for the pair of words: Imminent and Eminent",
+    "options": [
+      "Imminent means immobile and Eminent means extremely large",
+      "Imminent means extremely large and Eminent means immobile",
+      "Imminent means famous and respected, and Eminent means happening soon",
+      "Imminent means happening soon and Eminent means famous and respected"
+    ],
+    "correct": 3,
+    "explanation": "'Imminent' means about to happen soon, while 'eminent' means famous and respected within a particular sphere.",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Match List I with List II and select the correct code:\nList I (Word/Expression):\nA. Ascribe\nB. Prescribe\nC. Proscribe\nD. Inscribe\n\nList II (Meaning):\n1. Associate ownership or authorship with\n2. Carve, cut or etch into a material or surface\n3. Lay down a rule\n4. Officially forbid",
+    "options": [
+      "A-1, B-3, C-4, D-2",
+      "A-2, B-4, C-3, D-1",
+      "A-1, B-4, C-3, D-2",
+      "A-2, B-3, C-4, D-1"
+    ],
+    "correct": 0,
+    "explanation": "Ascribe = Associate ownership/authorship with (A-1); Prescribe = Lay down a rule (B-3); Proscribe = Officially forbid (C-4); Inscribe = Carve, cut or etch (D-2).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Match List I with List II and select the correct code:\nList I (Word/Expression):\nA. Pragmatist\nB. Promethean\nC. Promontory\nD. Prolix\n\nList II (Meaning):\n1. Using too many words\n2. Daringly original and creative\n3. A headland that juts into a large water body\n4. A person concerned with practical matters",
+    "options": [
+      "A-4, B-2, C-3, D-1",
+      "A-4, B-3, C-2, D-1",
+      "A-1, B-3, C-2, D-4",
+      "A-1, B-2, C-3, D-4"
+    ],
+    "correct": 0,
+    "explanation": "Pragmatist = A person concerned with practical matters (A-4); Promethean = Daringly original and creative (B-2); Promontory = A headland jutting into water (C-3); Prolix = Using too many words (D-1).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Match List I with List II and select the correct code:\nList I (Word/Expression):\nA. Bequeath\nB. Mortgage\nC. Endowment\nD. Lease\n\nList II (Meaning):\n1. To pledge property as a security\n2. To leave property for beneficiary via a will\n3. Agreement for use of property against rent\n4. To grant funds for running a socially-beneficial institution",
+    "options": [
+      "A-2, B-4, C-1, D-3",
+      "A-2, B-1, C-4, D-3",
+      "A-3, B-1, C-4, D-2",
+      "A-3, B-4, C-1, D-2"
+    ],
+    "correct": 1,
+    "explanation": "Bequeath = To leave property via a will (A-2); Mortgage = To pledge property as security (B-1); Endowment = To grant funds for an institution (C-4); Lease = Agreement for use of property against rent (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Match List I with List II and select the correct code:\nList I (Word/Expression):\nA. Incensed\nB. Incendiary\nC. Incautious\nD. Incandescent\n\nList II (Meaning):\n1. Designed to cause fires\n2. Unmindful of potential risks\n3. Giving out light when heated\n4. Enraged",
+    "options": [
+      "A-4, B-2, C-1, D-3",
+      "A-4, B-1, C-2, D-3",
+      "A-3, B-2, C-1, D-4",
+      "A-3, B-1, C-2, D-4"
+    ],
+    "correct": 1,
+    "explanation": "Incensed = Enraged (A-4); Incendiary = Designed to cause fires (B-1); Incautious = Unmindful of potential risks (C-2); Incandescent = Giving out light when heated (D-3).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Mount Everest is the tallest peak in the world.\nS2: K2 in the Karakoram Range is taller than Mount Everest.\nThe second sentence:",
+    "options": [
+      "contradicts the assertion of the first",
+      "contrasts the assertion of the first",
+      "confirms the assertion of the first",
+      "qualifies the assertion of the first"
+    ],
+    "correct": 0,
+    "explanation": "The second sentence directly contradicts the fact stated in the first sentence.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: True knowledge is true power.\nS2: A little knowledge however is a dangerous thing.\nThe second sentence:",
+    "options": [
+      "contradicts the assertion of the first",
+      "contrasts the assertion of the first",
+      "confirms the assertion of the first",
+      "qualifies the assertion of the first"
+    ],
+    "correct": 1,
+    "explanation": "The second sentence presents a contrasting perspective on knowledge (complete vs. incomplete knowledge).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Slow and steady wins the race.\nS2: Haste makes waste.\nThe second sentence:",
+    "options": [
+      "contradicts the assertion of the first",
+      "contrasts the assertion of the first",
+      "confirms the assertion of the first",
+      "qualifies the assertion of the first"
+    ],
+    "correct": 2,
+    "explanation": "Both proverbs convey the same underlying wisdom that rushing leads to failure, so the second sentence confirms the assertion of the first.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Many hands make light work.\nS2: Too many cooks spoil the broth.\nThe second sentence:",
+    "options": [
+      "contradicts the assertion of the first",
+      "contrasts the assertion of the first",
+      "confirms the assertion of the first",
+      "qualifies the assertion of the first"
+    ],
+    "correct": 1,
+    "explanation": "The two proverbs present contrasting views on group work (efficiency vs. confusion).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: The new laptop model is very desirable.\nS2: The battery life of the laptop could be better.\nThe second sentence:",
+    "options": [
+      "contradicts the assertion of the first",
+      "contrasts the assertion of the first",
+      "confirms the assertion of the first",
+      "qualifies the assertion of the first"
+    ],
+    "correct": 3,
+    "explanation": "The second sentence qualifies the desirability of the laptop by pointing out a specific limitation (battery life).",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Research shows exercise improves mood.\nS2: A 2022 study links daily walks to reduced depression.\nThe second sentence:",
+    "options": [
+      "contradicts the assertion of the first",
+      "contrasts the assertion of the first",
+      "confirms the assertion of the first",
+      "qualifies the assertion of the first"
+    ],
+    "correct": 2,
+    "explanation": "The second sentence provides specific scientific evidence that confirms the general assertion of the first sentence.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "S1: Some people doubt that God exists.\nS2: Belief in the existence of God is universal.\nThe second sentence:",
+    "options": [
+      "contradicts the assertion of the first",
+      "contrasts the assertion of the first",
+      "confirms the assertion of the first",
+      "qualifies the assertion of the first"
+    ],
+    "correct": 0,
+    "explanation": "The second sentence contradicts the first because if some people doubt God's existence, the belief cannot be truly universal.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is nearest in meaning to the underlined word: To say that the pandemic is done and dusted with would be an understatement.",
+    "options": [
+      "affecting politeness",
+      "underplaying significance",
+      "stating vociferously",
+      "practising subterfuge"
+    ],
+    "correct": 1,
+    "explanation": "An 'understatement' is a statement that describes something as smaller or less important than it really is (underplaying significance).",
+    "topicId": "english",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Select the option that is nearest in meaning to the underlined word: The coach was of the opinion that his erstwhile protégé was approaching the nadir of his career.",
+    "options": [
+      "all-time low",
+      "zenith",
+      "prime",
+      "steady-state"
+    ],
+    "correct": 0,
+    "explanation": "The 'nadir' is the lowest point in the fortunes of a person or organization (all-time low).",
+    "topicId": "english"
+  },
+  {
+    "question": "Select the option that is nearest in meaning to the underlined word: After the sudden demise of the director of the company, the employees felt stranded.",
+    "options": [
+      "liberated",
+      "marooned",
+      "aggrieved",
+      "passive"
+    ],
+    "correct": 1,
+    "explanation": "'Stranded' means left aground or helpless. 'Marooned' is the closest synonym, meaning left isolated or abandoned.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is nearest in meaning to the underlined word: The Professor assured us that her class lectures would be interspersed with practical demonstrations.",
+    "options": [
+      "isolated",
+      "explained",
+      "combined",
+      "supplied"
+    ],
+    "correct": 2,
+    "explanation": "'Interspersed' means scattered or placed here and there among other things. 'Combined' is the closest option representing integration.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is nearest in meaning to the underlined word: She was effusive in her praise.",
+    "options": [
+      "expressing approval while exhibiting strong feelings",
+      "dispassionate expression of approval",
+      "tranquil appraisal",
+      "soothing and encouraging"
+    ],
+    "correct": 0,
+    "explanation": "'Effusive' means expressing feelings of gratitude, pleasure, or approval in an unrestrained or heartfelt manner.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is nearest in meaning to the underlined word: It is ingenuous to suppose that money did play a part in his decision.",
+    "options": [
+      "naive",
+      "clever",
+      "erudite",
+      "probing"
+    ],
+    "correct": 0,
+    "explanation": "'Ingenuous' means innocent, unsuspecting, and naive.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is nearest in meaning to the underlined word: The advertisements were all posted in a conspicuous place.",
+    "options": [
+      "niche",
+      "venerable",
+      "noticeable",
+      "available"
+    ],
+    "correct": 2,
+    "explanation": "'Conspicuous' means standing out so as to be clearly visible; noticeable.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is nearest in meaning to the underlined word: Early humans may have had a rudimentary understanding of certain mathematical concepts.",
+    "options": [
+      "elementary",
+      "nuanced",
+      "radical",
+      "special"
+    ],
+    "correct": 0,
+    "explanation": "'Rudimentary' means involving or limited to basic principles; elementary.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is nearest in meaning to the underlined word: The poorly conducted workshop was a travesty of the initial vision document.",
+    "options": [
+      "mockery",
+      "complication",
+      "expansion",
+      "demonstration"
+    ],
+    "correct": 0,
+    "explanation": "A 'travesty' is a false, absurd, or distorted representation of something; a mockery.",
+    "topicId": "english",
+    "exam": "CDS"
+  },
+  {
+    "question": "Select the option that is nearest in meaning to the underlined word: The abstruse style of the speaker left the students disinterested and fidgety.",
+    "options": [
+      "academic",
+      "concise",
+      "erudite",
+      "recondite"
+    ],
+    "correct": 3,
+    "explanation": "'Abstruse' means difficult to understand; obscure. 'Recondite' is a direct synonym meaning little known or abstruse.",
+    "topicId": "english",
+    "exam": "CDS"
+  }
+]

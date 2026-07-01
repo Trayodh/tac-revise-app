@@ -13,7 +13,7 @@ const filesToCopy = [
   'index.html',
   'index.css',
   'app.js',
-  'data.js',
+  'supabase_client.js',
   'ca_data.js',
   'syllabus_data.js',
   'syllabus_data.json',
@@ -22,6 +22,11 @@ const filesToCopy = [
   'sarvamai.bundle.js',
   'sarvam_browser.js',
   'wiki_links.js',
+  'system_config.js',
+  'auth_logic.js',
+  'notifications_bundle.js',
+  'lecture_mode.js',
+  'sw.js'
 ];
 
 const patternsToCopy = [
@@ -36,6 +41,11 @@ items.forEach(item => {
   const destPath = path.join(destDir, item);
   
   if (fs.statSync(itemPath).isFile()) {
+    // Exclude our massive textbook source PDFs from Vercel deployment
+    if (item === 'pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf' || item === 'nda_material.pdf' || item === 'cds_material.pdf') {
+      return; 
+    }
+    
     if (filesToCopy.includes(item) || patternsToCopy.some(regex => regex.test(item))) {
       fs.copyFileSync(itemPath, destPath);
       console.log(`Copied ${item}`);
@@ -44,7 +54,7 @@ items.forEach(item => {
 });
 
 // Copy directories
-const dirsToCopy = ['images', 'math_notes', 'gs_notes', 'manim_lectures'];
+const dirsToCopy = ['images', 'math_notes', 'gs_notes', 'manim_lectures', 'js'];
 dirsToCopy.forEach(dir => {
   const sDir = path.join(srcDir, dir);
   const dDir = path.join(destDir, dir);

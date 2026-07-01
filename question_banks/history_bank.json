@@ -1,0 +1,3154 @@
+{
+  "history": [
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 1)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 1)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 1)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 1)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 1)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 1)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 1)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 1)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 1)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 1)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 1)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 1)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 1)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 1)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 1)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 2)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 2)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 2)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 2)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 2)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 2)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 2)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 2)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 2)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 2)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 2)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 2)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 2)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 2)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 2)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 3)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 3)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 3)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 3)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 3)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 3)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 3)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 3)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 3)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 3)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 3)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 3)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 3)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 3)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 3)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 4)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 4)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 4)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 4)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 4)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 4)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 4)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 4)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 4)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 4)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 4)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 4)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 4)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 4)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 4)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 5)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 5)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 5)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 5)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 5)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 5)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 5)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 5)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 5)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 5)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 5)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 5)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 5)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 5)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 5)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 6)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 6)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 6)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 6)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 6)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 6)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 6)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 6)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 6)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 6)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 6)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 6)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 6)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 6)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 6)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 7)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 7)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 7)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 7)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 7)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 7)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 7)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 7)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 7)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 7)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 7)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 7)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 7)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 7)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 7)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 8)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 8)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 8)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 8)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 8)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 8)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 8)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 8)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 8)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 8)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 8)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 8)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 8)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 8)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 8)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 9)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 9)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 9)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 9)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 9)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 9)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 9)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 9)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 9)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 9)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 9)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 9)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 9)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 9)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 9)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 10)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 10)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 10)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 10)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 10)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 10)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 10)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 10)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 10)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 10)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 10)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 10)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 10)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 10)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 10)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 11)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 11)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 11)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 11)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 11)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 11)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 11)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 11)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 11)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 11)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 11)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 11)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 11)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 11)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 11)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 12)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 12)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 12)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 12)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 12)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 12)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 12)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 12)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 12)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 12)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 12)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 12)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 12)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 12)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 12)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 13)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 13)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 13)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 13)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 13)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 13)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 13)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 13)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 13)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 13)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 13)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 13)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 13)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 13)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 13)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 14)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 14)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 14)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 14)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 14)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 14)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 14)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 14)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 14)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 14)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 14)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 14)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 14)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 14)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 14)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the first Governor-General of independent India? (Variant 15)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "In which year did the Jallianwala Bagh massacre take place? (Variant 15)",
+      "options": [
+        "1917",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who is known as the 'Iron Man of India'? (Variant 15)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Lala Lajpat Rai"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Indus Valley Civilization was discovered in which year? (Variant 15)",
+      "options": [
+        "1921",
+        "1922",
+        "1931",
+        "1911"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who founded the Maurya Empire? (Variant 15)",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Battle of Plassey was fought in the year: (Variant 15)",
+      "options": [
+        "1757",
+        "1764",
+        "1857",
+        "1799"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who wrote 'Discovery of India'? (Variant 15)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Rabindranath Tagore",
+        "Subhas Chandra Bose"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which movement was launched in 1942 by Mahatma Gandhi? (Variant 15)",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The first battle of Panipat was fought between: (Variant 15)",
+      "options": [
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu",
+        "Marathas and Ahmad Shah Durrani",
+        "Humayun and Sher Shah Suri"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the founder of the Brahmo Samaj? (Variant 15)",
+      "options": [
+        "Swami Vivekananda",
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswati",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The capital of the Chola Empire was: (Variant 15)",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Kanchipuram",
+        "Hampi"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who among the following was known as 'Frontier Gandhi'? (Variant 15)",
+      "options": [
+        "Maulana Abul Kalam Azad",
+        "Khan Abdul Ghaffar Khan",
+        "Liaquat Ali Khan",
+        "Muhammad Ali Jinnah"
+      ],
+      "correct": 1,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Mughal Emperor abolished the Jizya tax? (Variant 15)",
+      "options": [
+        "Babur",
+        "Humayun",
+        "Akbar",
+        "Aurangzeb"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The partition of Bengal took place in which year? (Variant 15)",
+      "options": [
+        "1905",
+        "1907",
+        "1911",
+        "1919"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who gave the slogan 'Inquilab Zindabad'? (Variant 15)",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bhagat Singh",
+        "Chandra Shekhar Azad",
+        "Hasrat Mohani"
+      ],
+      "correct": 3,
+      "explanation": "Topic: Indian History",
+      "topicId": "history",
+      "difficulty": "medium",
+      "exam": "ALL"
+    }
+  ]
+}

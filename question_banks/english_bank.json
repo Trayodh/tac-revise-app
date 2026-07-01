@@ -1,0 +1,4189 @@
+{
+  "english": [
+    {
+      "question": "Select the correctly spelt word. (Variant 1)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 1)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 1)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 1)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 1)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 1)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 1)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 1)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 1)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 1)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 1)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 1)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 1)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 1)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 1)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 1)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 1)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 1)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 1)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 1)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 2)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 2)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 2)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 2)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 2)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 2)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 2)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 2)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 2)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 2)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 2)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 2)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 2)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 2)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 2)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 2)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 2)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 2)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 2)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 2)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 3)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 3)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 3)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 3)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 3)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 3)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 3)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 3)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 3)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 3)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 3)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 3)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 3)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 3)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 3)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 3)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 3)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 3)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 3)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 3)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 4)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 4)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 4)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 4)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 4)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 4)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 4)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 4)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 4)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 4)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 4)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 4)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 4)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 4)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 4)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 4)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 4)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 4)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 4)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 4)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 5)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 5)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 5)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 5)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 5)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 5)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 5)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 5)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 5)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 5)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 5)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 5)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 5)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 5)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 5)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 5)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 5)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 5)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 5)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 5)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 6)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 6)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 6)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 6)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 6)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 6)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 6)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 6)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 6)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 6)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 6)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 6)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 6)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 6)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 6)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 6)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 6)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 6)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 6)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 6)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 7)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 7)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 7)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 7)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 7)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 7)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 7)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 7)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 7)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 7)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 7)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 7)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 7)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 7)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 7)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 7)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 7)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 7)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 7)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 7)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 8)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 8)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 8)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 8)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 8)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 8)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 8)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 8)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 8)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 8)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 8)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 8)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 8)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 8)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 8)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 8)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 8)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 8)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 8)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 8)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 9)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 9)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 9)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 9)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 9)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 9)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 9)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 9)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 9)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 9)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 9)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 9)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 9)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 9)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 9)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 9)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 9)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 9)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 9)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 9)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 10)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 10)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 10)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 10)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 10)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 10)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 10)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 10)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 10)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 10)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 10)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 10)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 10)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 10)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 10)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 10)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 10)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 10)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 10)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 10)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 11)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 11)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 11)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 11)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 11)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 11)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 11)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 11)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 11)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 11)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 11)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 11)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 11)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 11)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 11)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 11)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 11)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 11)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 11)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 11)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 12)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 12)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 12)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 12)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 12)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 12)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 12)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 12)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 12)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 12)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 12)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 12)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 12)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 12)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 12)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 12)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 12)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 12)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 12)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 12)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 13)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 13)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 13)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 13)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 13)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 13)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 13)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 13)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 13)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 13)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 13)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 13)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 13)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 13)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 13)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 13)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 13)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 13)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 13)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 13)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 14)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 14)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 14)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 14)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 14)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 14)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 14)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 14)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 14)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 14)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 14)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 14)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 14)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 14)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 14)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 14)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 14)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 14)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 14)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 14)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 15)",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodation"
+      ],
+      "correct": 1,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Neither of the boys have returned.' (Variant 15)",
+      "options": [
+        "Neither of",
+        "the boys",
+        "have returned.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'ABUNDANT'. (Variant 15)",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Meager"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'DILIGENT'. (Variant 15)",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Active",
+        "Careful"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To beat about the bush'? (Variant 15)",
+      "options": [
+        "To talk irrelevantly",
+        "To wander in the forest",
+        "To boast",
+        "To cut trees"
+      ],
+      "correct": 0,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'The scenery of Kashmir are very charming.' (Variant 15)",
+      "options": [
+        "The scenery",
+        "of Kashmir",
+        "are very charming.",
+        "No error"
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: He is completely blind ____ one eye. (Variant 15)",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: She has been living here ____ 2010. (Variant 15)",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "till"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'A piece of cake'? (Variant 15)",
+      "options": [
+        "A difficult task",
+        "An easy task",
+        "A sweet dish",
+        "A false promise"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Select the correctly spelt word. (Variant 15)",
+      "options": [
+        "Embarrass",
+        "Embarass",
+        "Embaras",
+        "Emberrass"
+      ],
+      "correct": 0,
+      "explanation": "Topic: spelling",
+      "topicId": "english",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'He is one of the best players who has played for India.' (Variant 15)",
+      "options": [
+        "He is one of",
+        "the best players",
+        "who has played",
+        "for India."
+      ],
+      "correct": 2,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'OBSTINATE'. (Variant 15)",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Docile",
+        "Friendly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'TRANSPARENT'. (Variant 15)",
+      "options": [
+        "Opaque",
+        "Clear",
+        "Lucid",
+        "Translucent"
+      ],
+      "correct": 0,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'Once in a blue moon'? (Variant 15)",
+      "options": [
+        "Frequently",
+        "Rarely",
+        "Never",
+        "Always"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: I prefer tea ____ coffee. (Variant 15)",
+      "options": [
+        "than",
+        "over",
+        "to",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Identify the part of the sentence that contains an error: 'Unless you do not work hard, you will fail.' (Variant 15)",
+      "options": [
+        "Unless you",
+        "do not work hard,",
+        "you will fail.",
+        "No error"
+      ],
+      "correct": 1,
+      "explanation": "Topic: error",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Fill in the blank: The committee ____ divided in their opinion. (Variant 15)",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Topic: grammar",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact synonym for 'CANDID'. (Variant 15)",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Deceptive",
+        "Sly"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Choose the exact antonym for 'BENEVOLENT'. (Variant 15)",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Sympathetic"
+      ],
+      "correct": 1,
+      "explanation": "Topic: vocab",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'? (Variant 15)",
+      "options": [
+        "To calm the situation",
+        "To worsen the situation",
+        "To cook food",
+        "To waste energy"
+      ],
+      "correct": 1,
+      "explanation": "Topic: idiom",
+      "topicId": "english",
+      "difficulty": "medium",
+      "exam": "ALL"
+    }
+  ]
+}

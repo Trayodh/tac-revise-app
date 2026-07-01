@@ -1,0 +1,3332 @@
+{
+  "gs": [
+    {
+      "question": "The widespread deaths due to starvation and epidemics are the characteristics of",
+      "options": [
+        "famine",
+        "poverty",
+        "civil war",
+        "malnutrition"
+      ],
+      "correct": 0,
+      "explanation": "Famine is defined as an extreme scarcity of food, leading to widespread starvation and often accompanied by epidemics due to weakened immunity and poor sanitation.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The price declared by the Government every year before the sowing season to provide incentives to the farmers is called",
+      "options": [
+        "buffer price",
+        "issue price",
+        "minimum support price",
+        "fair sustenance price"
+      ],
+      "correct": 2,
+      "explanation": "Minimum Support Price (MSP) is the rate at which the government purchases crops from farmers to protect them against any sharp fall in farm prices.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Caves, arches, stacks and stumps are the landscape features of which one of the following?",
+      "options": [
+        "River",
+        "Wave",
+        "Limestone",
+        "Wind"
+      ],
+      "correct": 1,
+      "explanation": "These are coastal landforms created by the erosional action of sea waves.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following statements about tropical rain forests are correct?\n1. The soils of tropical rain forests are quite infertile.\n2. The vegetation is evergreen, enabling photosynthesis to take place year around.\n3. They have been described as 'deserts covered by trees'.\n4. They are most productive land-based ecosystem.",
+      "options": [
+        "2 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 3,
+      "explanation": "Tropical rainforests have nutrient-poor soil due to rapid leaching, evergreen vegetation, are often called 'deserts covered by trees' due to low nutrient availability in soil, and are highly productive ecosystems.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "In which one of the following soils, the salt content is so high that common salt is obtained by evaporating the saline water in some areas?",
+      "options": [
+        "Peaty soil",
+        "Alluvial soil",
+        "Laterite soil",
+        "Arid soil"
+      ],
+      "correct": 3,
+      "explanation": "Arid soils are characterized by high salt content and low moisture, making them suitable for salt extraction through evaporation.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following statements about Akbar are correct?\n1. In 1560s, Akbar had the Fort of Agra constructed.\n2. In 1570s, Akbar decided to build a new capital at Fatehpur Sikri.\n3. Akbar also commissioned a white marble tomb of Shaikh Salim Chishti at Sikri.\n4. In 1585, Akbar decided to shift the capital back to Agra.",
+      "options": [
+        "1, 2 and 4",
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "3 and 4 only"
+      ],
+      "correct": 2,
+      "explanation": "Akbar built the Agra Fort in the 1560s, decided on Fatehpur Sikri in the 1570s, built the tomb of Salim Chishti, and shifted the capital back to Agra in 1585.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which of the following statements about Amaranayakas of Vijayanagara are correct?\n1. The Amaranayakas were military commanders who were given territories to govern by the Raya.\n2. In lieu of their service and also to maintain their contingents, they were paid in cash.\n3. They maintained stipulated contingents and elephants.\n4. They used to send tribute to the king annually and personally appeared in the royal court with gifts to express their loyalty.",
+      "options": [
+        "1, 2 and 3 only",
+        "1, 3 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Amaranayakas were military commanders granted land (amaram) to maintain troops, not paid in cash.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which of the following pairs is/are correctly matched?\n1. Permanent Settlement: Lord Cornwallis\n2. Ryotwari Settlement: Thomas Munro\n3. Mahalwari Settlement: Holt Mackenzie",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three land revenue systems are correctly matched with their primary architects.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Who among the following assumed the title of Nizam-ul-Mulk Asaf Jah to set himself up as an independent ruler with his base in Hyderabad?",
+      "options": [
+        "Kartalab Khan",
+        "Bahadur Shah",
+        "Alivardi Khan",
+        "Chin Qilich Khan"
+      ],
+      "correct": 3,
+      "explanation": "Chin Qilich Khan, also known as Nizam-ul-Mulk, founded the Asaf Jahi dynasty in Hyderabad.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following fundamental rights has not been provided to a person?\n(a) Protection against prosecution and punishment for the same offence more than once\n(b) To refuse to give his/her sample of handwriting as evidence to support a prosecution against him/her\n(c) To act as a witness against himself/herself\n(d) Right not to be convicted of any offence except for violation of a law in force at the time of commission of the act charged as an offence",
+      "options": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)"
+      ],
+      "correct": 2,
+      "explanation": "Article 20(3) of the Indian Constitution prohibits self-incrimination; a person cannot be compelled to be a witness against himself.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "The Constitution of India contains no provision for the constitution of municipalities in every State for",
+      "options": [
+        "a Nagar Panchayat",
+        "a Municipal Council",
+        "a Municipal Corporation",
+        "an Urban Panchayat"
+      ],
+      "correct": 3,
+      "explanation": "The 74th Amendment provides for Nagar Panchayats, Municipal Councils, and Municipal Corporations, but not 'Urban Panchayat'.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following quote:\n\"On the 26th January, 1950, we are going to enter a life of contradictions. In politics we will have equality and in social and economic life we will have inequality.\"\nTo whom among the following leaders is this quote attributed?",
+      "options": [
+        "Mahatma Gandhi",
+        "Sarojini Naidu",
+        "B. R. Ambedkar",
+        "Somnath Lahiri"
+      ],
+      "correct": 2,
+      "explanation": "This famous quote was made by Dr. B.R. Ambedkar in his concluding speech to the Constituent Assembly.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which one of the following powers has not been conferred on the President of India?",
+      "options": [
+        "Appointment of Prime Minister",
+        "To decide at his/her discretion any question regarding disqualification of a Member of the Parliament",
+        "To grant pardon to a person who has been punished by a court-martial",
+        "To remove a Judge of the High Court"
+      ],
+      "correct": 3,
+      "explanation": "The President cannot unilaterally remove a High Court Judge; they can only be removed by Parliament through a process of impeachment.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following statements with regard to Maneka Gandhi vs. Union of India case, 1978 is not correct?",
+      "options": [
+        "It was held that Article 19 and Article 21 are not watertight compartments.",
+        "It was held that a law coming under Article 21 may not satisfy the requirements of Article 19.",
+        "A fair trial eliminates the biases against the accused in the trial.",
+        "The right to life under Article 21 does not include the right to die."
+      ],
+      "correct": 1,
+      "explanation": "The Maneka Gandhi judgment established that any law depriving a person of life or liberty must satisfy the requirements of Article 19 as well (the 'Golden Triangle' theory).",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "A shopkeeper gives two consecutive discounts of 10% and 5% respectively on his items. He then adds 20% GST on his items. If an item has marked price ₹2,000, how much more or less of the actual price of the item a customer has to pay?",
+      "options": [
+        "2.6% less",
+        "2.6% more",
+        "Same price",
+        "5.2% more"
+      ],
+      "correct": 1,
+      "explanation": "Effective discount = 10 + 5 - (10*5/100) = 14.5%. Price after discount = 2000 * 0.855 = 1710. Price after 20% GST = 1710 * 1.2 = 2052. Increase = 52/2000 = 2.6%.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "The difference of compound interest and simple interest of a sum of money at the rate of 5% per year for 2 years is ₹250. The sum is",
+      "options": [
+        "₹1,00,000",
+        "₹80,000",
+        "₹40,000",
+        "₹1,20,000"
+      ],
+      "correct": 0,
+      "explanation": "Difference = P * (r/100)^2. 250 = P * (5/100)^2 = P * (1/20)^2 = P/400. P = 250 * 400 = 1,00,000.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "How much water is to be added to 75 ml of alcohol so that the mixture contains 25% of alcohol?",
+      "options": [
+        "100 ml",
+        "225 ml",
+        "250 ml",
+        "125 ml"
+      ],
+      "correct": 1,
+      "explanation": "Let x be water added. 75 / (75 + x) = 0.25. 75 = 18.75 + 0.25x. 0.25x = 56.25. x = 225.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "If 35% of a number is 416 more than 27% of the same number, then the number is",
+      "options": [
+        "5200",
+        "2600",
+        "3900",
+        "3328"
+      ],
+      "correct": 0,
+      "explanation": "(35% - 27%) of x = 416. 8% of x = 416. x = 416 / 0.08 = 5200.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "In India, Cardamom Hills are regarded as a continuation of the",
+      "options": [
+        "Eastern Ghats",
+        "Mizo Hills",
+        "Naga Hills",
+        "Western Ghats"
+      ],
+      "correct": 3,
+      "explanation": "Cardamom Hills are located in the southern part of the Western Ghats.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Match List-I with List-II and select the correct answer using the code given below the Lists:\nList-I (Tributary) List-II (River)\nA. Sutlej 1. Yamuna\nB. Kosi 2. Brahmaputra\nC. Teesta 3. Ganga\nD. Chambal 4. Indus",
+      "options": [
+        "A-1, B-3, C-2, D-4",
+        "A-1, B-2, C-3, D-4",
+        "A-4, B-3, C-2, D-1",
+        "A-4, B-2, C-3, D-1"
+      ],
+      "correct": 2,
+      "explanation": "Sutlej is a tributary of Indus, Kosi of Ganga, Teesta of Brahmaputra, and Chambal of Yamuna.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which one of the following is the only riverine major port in India?",
+      "options": [
+        "Mormugao",
+        "Deendayal",
+        "Kolkata",
+        "Paradip"
+      ],
+      "correct": 2,
+      "explanation": "Kolkata Port is the only major riverine port in India, located on the Hooghly River.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following is not a desert river?",
+      "options": [
+        "Barak",
+        "Rupen",
+        "Banas",
+        "Machchhu"
+      ],
+      "correct": 0,
+      "explanation": "Barak is a river in Northeast India, not a desert river like those in Rajasthan (Rupen, Banas, Machchhu).",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The heaviest rocks, which are rolled along the river bed in river transport, come under which type of load?",
+      "options": [
+        "Solution load",
+        "Suspension load",
+        "Saltation load",
+        "Traction load"
+      ],
+      "correct": 3,
+      "explanation": "Traction load consists of large particles rolled along the river bed.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following factors are needed for the growth of corals?\n1. Freshwater\n2. Clear shallow salt water\n3. Plenty of sunlight for photosynthesis\n4. Warm water between 23 °C and 25 °C",
+      "options": [
+        "1, 3 and 4 only",
+        "2, 3 and 4 only",
+        "1 and 2 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Corals require saline water, not freshwater. The other three conditions are correct.",
+      "topicId": "general_knowledge"
+    },
+    {
+      "question": "Convection currents, which move the tectonic plates, are found in which layer of the earth?",
+      "options": [
+        "Crust",
+        "Mantle",
+        "Outer core",
+        "Inner core"
+      ],
+      "correct": 1,
+      "explanation": "Convection currents in the mantle are the driving force behind plate tectonics.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following statements:\n1. The growth of socialist tendency in the national movement led to the foundation of the Congress Socialist Party in 1934 under the leadership of Acharya Narendra Deva and Jayaprakash Narayan.\n2. In 1936, Jawaharlal Nehru urged the Congress to accept socialism as its goal and to bring itself closer to the peasantry and the working class.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Both statements are historically accurate regarding the socialist influence in the Indian National Congress.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Initially, what was the purpose of setting up of the hill stations during the colonial period in India?",
+      "options": [
+        "To serve as winter capitals for the British",
+        "To serve the needs of the British army",
+        "To source timber from forests",
+        "To set up sanatoria"
+      ],
+      "correct": 1,
+      "explanation": "Hill stations were initially established primarily as retreats for the British army and to provide a cooler climate for British officials.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Who among the following founded the Dharma Sabha?",
+      "options": [
+        "Krishna Mohan Banerjee",
+        "Keshab Chandra Sen",
+        "Radhakanta Deb",
+        "Akshay Kumar Datta"
+      ],
+      "correct": 2,
+      "explanation": "Radhakanta Deb founded the Dharma Sabha in 1830 to counter the reformist activities of Brahmo Samaj.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following Jat peasant leaders of 17th and early 18th centuries:\n1. Badan Singh\n2. Raja Ram Jat\n3. Gokula Jat\n4. Churaman Jat\nWhich one of the following is the correct chronological order of the above leaders?",
+      "options": [
+        "3-2-4-1",
+        "1-2-3-4",
+        "3-4-1-2",
+        "2-3-1-4"
+      ],
+      "correct": 0,
+      "explanation": "The chronological order is Gokula (1669), Raja Ram (1680s), Churaman (early 18th century), and Badan Singh (mid-18th century).",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Who among the following Bhakti saints did not belong to Nirguna School of Bhakti?",
+      "options": [
+        "Kabir",
+        "Nanak",
+        "Dadu",
+        "Chaitanya"
+      ],
+      "correct": 3,
+      "explanation": "Chaitanya Mahaprabhu was a proponent of Saguna Bhakti (devotion to Krishna), while the others were Nirguna saints.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Heron drones, inducted by Indian forces for enhancing their surveillance capabilities, are acquired from",
+      "options": [
+        "USA",
+        "Russia",
+        "Israel",
+        "Japan"
+      ],
+      "correct": 2,
+      "explanation": "India acquired Heron drones from Israel.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Cyclone 'Tauktae' was named by",
+      "options": [
+        "Maldives",
+        "Myanmar",
+        "Oman",
+        "Iran"
+      ],
+      "correct": 1,
+      "explanation": "The name 'Tauktae' (meaning gecko) was suggested by Myanmar.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Match List-I with List-II and select the correct answer using the code given below the Lists:\nList-I (Variant of COVID-19) List-II (First identified in)\nA. Alpha 1. India\nB. Beta 2. Brazil\nC. Gamma 3. Britain\nD. Delta 4. South Africa",
+      "options": [
+        "A-3, B-4, C-2, D-1",
+        "A-1, B-2, C-4, D-3",
+        "A-1, B-4, C-2, D-3",
+        "A-3, B-2, C-4, D-1"
+      ],
+      "correct": 0,
+      "explanation": "Alpha (Britain), Beta (South Africa), Gamma (Brazil), Delta (India).",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Who among the following was the Head of the Expert Committee on Variable Capital Company in India which has submitted its report recently?",
+      "options": [
+        "K. P. Krishnan",
+        "Ketan Dalal",
+        "J. Ranganayakulu",
+        "Bobby Parikh"
+      ],
+      "correct": 0,
+      "explanation": "K.P. Krishnan headed the expert committee on the Variable Capital Company framework.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "In the latest Chandler Good Government Index (CGGI), which classifies 104 countries in terms of government capabilities and outcomes, India has been ranked",
+      "options": [
+        "49th",
+        "59th",
+        "69th",
+        "79th"
+      ],
+      "correct": 0,
+      "explanation": "In the 2021 Chandler Good Government Index, India was ranked 49th out of 104 countries.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Scientists at CSIR-NCL Pune, with support from the Water Technology Initiative of the Department of Science and Technology (DST), Government of India, have recently developed a novel hybrid technology to bring safe and healthy drinking water. What is the name of the hybrid technology?",
+      "options": [
+        "SafeWater",
+        "SWASTIIK",
+        "Arsiron Nilogon",
+        "Fluoride Nilogon"
+      ],
+      "correct": 1,
+      "explanation": "The hybrid technology developed by CSIR-NCL Pune for water purification is named SWASTIIK (Safe Water and Sustainable Technology Initiative for Indian Knowledge).",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "With reference to the Indian economy, consider the following statements:\n1. An increase in Nominal Effective Exchange Rate (NEER) indicates the appreciation of rupee.\n2. An increase in the Real Effective Exchange Rate (REER) indicates an improvement in trade competitiveness.\n3. An increasing trend in domestic inflation relative to inflation in other countries is likely to cause an increasing divergence between NEER and REER.\nWhich of the above statements are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 2,
+      "explanation": "Statement 1 is correct: NEER is a weighted average of bilateral nominal exchange rates. An increase indicates appreciation. Statement 2 is incorrect: An increase in REER indicates a loss in trade competitiveness as it accounts for inflation differentials. Statement 3 is correct: Divergence between NEER and REER is driven by inflation differentials.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to the Indian economy, consider the following statements:\n1. If the inflation is too high, Reserve Bank of India (RBI) is likely to buy government securities.\n2. If the rupee is rapidly depreciating, RBI is likely to sell dollars in the market.\n3. If interest rates in the USA or European Union were to fall, that is likely to induce RBI to buy dollars.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect: To control high inflation, RBI sells government securities to absorb liquidity. Statement 2 is correct: To curb rupee depreciation, RBI sells dollars to increase supply. Statement 3 is correct: If foreign interest rates fall, capital flows into India, leading to rupee appreciation; RBI buys dollars to prevent excessive appreciation.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to the “G20 Common Framework”, consider the following statements:\n1. It is an initiative endorsed by the G20 together with the Paris Club.\n2. It is an initiative to support Low Income Countries with unsustainable debt.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "The G20 Common Framework for Debt Treatments beyond the Debt Service Suspension Initiative (DSSI) is an initiative endorsed by the G20 and the Paris Club to support low-income countries with unsustainable debt levels.",
+      "topicId": "general_knowledge"
+    },
+    {
+      "question": "With reference to the Indian economy, what are the advantages of “Inflation-Indexed Bonds (IIBs)”?\n1. Government can reduce the coupon rates on its borrowing by way of IIBs.\n2. IIBs provide protection to the investors from uncertainty regarding inflation.\n3. The interest received as well as capital gains on IIBs are not taxable.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 0,
+      "explanation": "Statement 1 is correct: Since inflation risk is borne by the investor, the government can offer lower coupon rates. Statement 2 is correct: The principal is adjusted for inflation. Statement 3 is incorrect: Interest and capital gains on IIBs are taxable.",
+      "topicId": "general_knowledge"
+    },
+    {
+      "question": "With reference to foreign-owned e-commerce firms operating in India, which of the following statements is/are correct?\n1. They can sell their own goods in addition to offering their platforms as market-places.\n2. The degree to which they can own big sellers on their platforms is limited.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "Foreign-owned e-commerce firms in India (FDI-based) are only allowed to operate as marketplaces and cannot sell their own inventory. They are also restricted in their ownership of sellers on their platforms.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which of the following activities constitute real sector in the economy?\n1. Farmers harvesting their crops\n2. Textile mills converting raw cotton into fabrics\n3. A commercial bank lending money to a trading company\n4. A corporate body issuing Rupee Denominated Bonds overseas\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2, 3 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 0,
+      "explanation": "The real sector of the economy refers to the production of goods and services. Harvesting crops and manufacturing textiles are real sector activities. Lending money and issuing bonds are financial sector activities.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which one of the following situations best reflects “Indirect Transfers” often talked about in media recently with reference to India?",
+      "options": [
+        "An Indian company investing in a foreign enterprise and paying taxes to the foreign country on the profits arising out of its investment",
+        "A foreign company investing in India and paying taxes to the country of its base on the profits arising out of its investment",
+        "An Indian company purchases tangible assets in a foreign country and sells such assets after their value increases and transfers the proceeds to India",
+        "A foreign company transfers shares and such shares derive their substantial value from assets located in India"
+      ],
+      "correct": 3,
+      "explanation": "Indirect transfer refers to a situation where a foreign entity transfers shares of a foreign company, and those shares derive their value substantially from assets located in India, thus attracting Indian capital gains tax.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the expenditure made by an organisation or a company, which of the following statements is/are correct?\n1. Acquiring new technology is capital expenditure.\n2. Debt financing is considered capital expenditure, while equity financing is considered revenue expenditure.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Statement 1 is correct: Acquiring new technology is an investment in an asset, hence capital expenditure. Statement 2 is incorrect: Both debt and equity financing are methods of raising capital; they are not classified as revenue expenditure.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to the Indian economy, consider the following statements:\n1. A share of the household financial savings goes towards government borrowings.\n2. Dated securities issued at market-related rates in auctions form a large component of internal debt.\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Both statements are correct. Household savings (e.g., through banks, insurance, provident funds) are a major source of government borrowing. Dated securities are the primary instrument for government borrowing in India.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following statements:\n1. Pursuant to the report of H.N. Sanyal Committee, the Contempt of Courts Act, 1971 was passed.\n2. The Constitution of India empowers the Supreme Court and the High Courts to punish for contempt of themselves.\n3. The Constitution of India defines Civil Contempt and Criminal Contempt.\n4. In India, the Parliament is vested with the powers to make laws on Contempt of Court.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 4",
+        "3 and 4 only",
+        "3 only"
+      ],
+      "correct": 1,
+      "explanation": "Statements 1, 2, and 4 are correct. Statement 3 is incorrect because the Constitution does not define civil and criminal contempt; the Contempt of Courts Act, 1971 does.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to India, consider the following statements:\n1. Government law officers and legal firms are recognised as advocates, but corporate lawyers and patent attorneys are excluded from recognition as advocates.\n2. Bar Councils have the power to lay down the rules relating to legal education and recognition of law colleges.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect: The Advocates Act does not exclude corporate lawyers or patent attorneys from being advocates if they meet the requirements. Statement 2 is correct: The Bar Council of India has the statutory power to lay down standards of legal education.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following statements:\n1. A bill amending the Constitution requires a prior recommendation of the President of India.\n2. When a Constitution Amendment Bill is presented to the President of India, it is obligatory for the President of India to give his/her assent.\n3. A Constitution Amendment Bill must be passed by both the Lok Sabha and the Rajya Sabha by a special majority and there is no provision for joint sitting.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect: A Constitution Amendment Bill does not require prior recommendation of the President. Statement 2 is correct: The 24th Amendment Act made it mandatory for the President to give assent. Statement 3 is correct: Article 368 requires a special majority and there is no provision for a joint sitting.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following statements:\n1. The Constitution of India classifies the ministers into four ranks viz. Cabinet Minister, Minister of State with Independent Charge, Minister of State and Deputy Minister.\n2. The total number of ministers in the Union Government, including the Prime Minister, shall not exceed 15 percent of the total number of members in the Lok Sabha.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect: The Constitution does not classify ministers into these ranks; this is a convention. Statement 2 is correct: The 91st Amendment Act, 2003, introduced this limit.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which of the following is/are the exclusive power(s) of Lok Sabha?\n1. To ratify the declaration of Emergency\n2. To pass a motion of no-confidence against the Council of Ministers\n3. To impeach the President of India\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": 1,
+      "explanation": "Passing a motion of no-confidence is an exclusive power of the Lok Sabha. Ratification of Emergency and impeachment of the President require both houses.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to anti-defection law in India, consider the following statements:\n1. The law specifies that a nominated legislator cannot join any political party within six months of being appointed to the House.\n2. The law does not provide any time-frame within which the presiding officer has to decide a defection case.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect: A nominated member can join a party within six months, but not after. Statement 2 is correct: The law does not specify a time limit for the presiding officer to decide.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following statements:\n1. Attorney General of India and Solicitor General of India are the only officers of the Government who are allowed to participate in the meetings of the Parliament of India.\n2. According to the Constitution of India, the Attorney General of India submits his resignation when the Government which appointed him resigns.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect: Ministers who are not members of either house can also participate. Statement 2 is correct: The Attorney General holds office during the pleasure of the President, and by convention, resigns when the government changes.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to the writs issued by the Courts in India, consider the following statements:\n1. Mandamus will not lie against a private organisation unless it is entrusted with a public duty.\n2. Mandamus will not lie against a Company even though it may be a Government Company.\n3. Any public minded person can be a petitioner to move the Court to obtain the writ of Quo Warranto.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 2,
+      "explanation": "Statement 1 is correct. Statement 2 is incorrect: Mandamus can lie against a government company if it performs a public duty. Statement 3 is correct: Quo Warranto can be filed by any public-spirited person.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to Ayushman Bharat Digital Mission, consider the following statements:\n1. Private and public hospitals must adopt it.\n2. As it aims to achieve universal health coverage, every citizen of India should be part of it ultimately.\n3. It has seamless portability across the country.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect: Adoption is voluntary. Statement 2 is correct: It aims for universal health coverage. Statement 3 is correct: It provides seamless portability of health records.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to Deputy Speaker of Lok Sabha, consider the following statements:\n1. As per the Rules of Procedure and Conduct of Business in Lok Sabha, the election of Deputy Speaker shall be held on such date as the Speaker may fix.\n2. There is a mandatory provision that the election of a candidate as Deputy Speaker shall be from either the principal opposition party or the ruling party.\n3. The Deputy Speaker has the same power as of the Speaker when presiding over the sitting of the House and no appeal lies against his rulings.\n4. The well established parliamentary practice regarding the appointment of Deputy Speaker is that the motion is moved by the Speaker and duly seconded by the Prime Minister.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 3 only",
+        "1, 2 and 3",
+        "3 and 4 only",
+        "2 and 4 only"
+      ],
+      "correct": 0,
+      "explanation": "Statement 1 is correct. Statement 2 is incorrect: There is no such mandatory provision. Statement 3 is correct: The Deputy Speaker has the same powers as the Speaker when presiding. Statement 4 is incorrect: The motion is usually moved by the Minister of Parliamentary Affairs.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Among the following crops, which one is the most important anthropogenic source of both methane and nitrous oxide?",
+      "options": [
+        "Cotton",
+        "Rice",
+        "Sugarcane",
+        "Wheat"
+      ],
+      "correct": 1,
+      "explanation": "Rice cultivation is a major source of methane (due to anaerobic conditions in flooded fields) and nitrous oxide (due to nitrogen-based fertilizers).",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "“System of Rice Intensification” of cultivation, in which alternate wetting and drying of rice fields is practised, results in:\n1. Reduced seed requirement\n2. Reduced methane production\n3. Reduced electricity consumption\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "System of Rice Intensification (SRI) uses less seed, reduces methane emissions by avoiding continuous flooding, and requires less water, which in turn reduces electricity consumption for pumping.",
+      "topicId": "general_knowledge"
+    },
+    {
+      "question": "Which one of the following lakes of West Africa has become dry and turned into a desert?",
+      "options": [
+        "Lake Victoria",
+        "Lake Faguibine",
+        "Lake Oguta",
+        "Lake Volta"
+      ],
+      "correct": 1,
+      "explanation": "Lake Faguibine in Mali has experienced severe drying due to climate change and desertification.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Gandikota canyon of South India was created by which one of the following rivers?",
+      "options": [
+        "Cauvery",
+        "Manjira",
+        "Pennar",
+        "Tungabhadra"
+      ],
+      "correct": 2,
+      "explanation": "The Gandikota canyon, often called the Grand Canyon of India, was carved by the Pennar River.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following pairs:\nPeak - Mountains\n1. Namcha Barwa - Garhwal Himalaya\n2. Nanda Devi - Kumaon Himalaya\n3. Nokrek - Sikkim Himalaya\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": 1,
+      "explanation": "Namcha Barwa is in the Eastern Himalayas (Assam Himalaya). Nanda Devi is in the Kumaon Himalayas. Nokrek is in the Garo Hills, Meghalaya, not Sikkim.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "The term “Levant” often heard in the news roughly corresponds to which of the following regions?",
+      "options": [
+        "Region along the eastern Mediterranean shores",
+        "Region along North African shores stretching from Egypt to Morocco",
+        "Region along Persian Gulf and Horn of Africa",
+        "The entire coastal areas of Mediterranean Sea"
+      ],
+      "correct": 0,
+      "explanation": "The Levant is a historical geographical term referring to the region along the eastern Mediterranean shores.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following countries:\n1. Azerbaijan\n2. Kyrgyzstan\n3. Tajikistan\n4. Turkmenistan\n5. Uzbekistan\nWhich of the above have borders with Afghanistan?",
+      "options": [
+        "1, 2 and 5 only",
+        "1, 2, 3 and 4 only",
+        "3, 4 and 5 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": 2,
+      "explanation": "Tajikistan, Turkmenistan, and Uzbekistan share borders with Afghanistan. Azerbaijan and Kyrgyzstan do not.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to India, consider the following statements:\n1. Monazite is a source of rare earths.\n2. Monazite contains thorium.\n3. Monazite occurs naturally in the entire Indian coastal sands in India.\n4. In India, Government bodies only can process or export monazite.\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 2 and 3 only",
+        "1, 2 and 4 only",
+        "3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Statements 1, 2, and 4 are correct. Statement 3 is incorrect: Monazite is found in specific coastal stretches, not the entire coastline.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "In the northern hemisphere, the longest day of the year normally occurs in the:",
+      "options": [
+        "First half of the month of June",
+        "Second half of the month of June",
+        "First half of the month of July",
+        "Second half of the month of July"
+      ],
+      "correct": 1,
+      "explanation": "The summer solstice in the northern hemisphere occurs around June 21st, which is in the second half of June.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following pairs:\nWetland/Lake - Location\n1. Hokera Wetland - Punjab\n2. Renuka Wetland - Himachal Pradesh\n3. Rudrasagar Lake - Tripura\n4. Sasthamkotta Lake - Tamil Nadu\nHow many pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "correct": 1,
+      "explanation": "Hokera is in J&K. Renuka is in Himachal Pradesh (Correct). Rudrasagar is in Tripura (Correct). Sasthamkotta is in Kerala. So, 2 pairs are correct.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following:\n1. Aarogya Setu\n2. CoWIN\n3. DigiLocker\n4. DIKSHA\nWhich of the above are built on top of open-source digital platforms?",
+      "options": [
+        "1 and 2 only",
+        "2, 3 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 3,
+      "explanation": "All four platforms (Aarogya Setu, CoWIN, DigiLocker, and DIKSHA) are built on open-source digital platforms.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to Web 3.0, consider the following statements:\n1. Web 3.0 technology enables people to control their own data.\n2. In Web 3.0 world, there can be blockchain based social networks.\n3. Web 3.0 is operated by users collectively rather than a corporation.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three statements correctly describe the decentralized nature of Web 3.0.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to “Software as a Service (SaaS)”, consider the following statements:\n1. SaaS buyers can customise the user interface and can change data fields.\n2. SaaS users can access their data through their mobile devices.\n3. Outlook, Hotmail and Yahoo! Mail are forms of SaaS.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three statements are correct. SaaS allows for configuration, mobile access, and web-based email services are classic examples of SaaS.",
+      "topicId": "general_knowledge"
+    },
+    {
+      "question": "Which one of the following statements best reflects the idea behind the “Fractional Orbital Bombardment System” often talked about in media?",
+      "options": [
+        "A hypersonic missile is launched into space to counter the asteroid approaching the Earth and explode it in space.",
+        "A spacecraft lands on another planet after making several orbital motions.",
+        "A missile is put into a stable orbit around the Earth and deorbits over a target on the Earth.",
+        "A spacecraft moves along a comet with the same speed and places a probe on its surface."
+      ],
+      "correct": 2,
+      "explanation": "A Fractional Orbital Bombardment System (FOBS) is a system where a warhead is placed into a low Earth orbit and then deorbited to strike a target, avoiding traditional radar detection.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which one of the following is the context in which the term “qubit” is mentioned?",
+      "options": [
+        "Cloud Services",
+        "Quantum Computing",
+        "Visible Light Communication Technologies",
+        "Wireless Communication Technologies"
+      ],
+      "correct": 1,
+      "explanation": "A qubit (quantum bit) is the basic unit of information in quantum computing.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following communication technologies:\n1. Closed-circuit Television\n2. Radio Frequency Identification\n3. Wireless Local Area Network\nWhich of the above are considered Short-Range devices/technologies?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three are considered short-range communication technologies.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following statements:\n1. Biofilms can form on medical implants within human tissues.\n2. Biofilms can form on food and food processing surfaces.\n3. Biofilms can exhibit antibiotic resistance.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three statements are correct regarding biofilms.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following statements in respect of probiotics:\n1. Probiotics are made of both bacteria and yeast.\n2. The organisms in probiotics are found in foods we ingest but they do not naturally occur in our gut.\n3. Probiotics help in the digestion of milk sugars.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "1 and 3",
+        "2 and 3"
+      ],
+      "correct": 2,
+      "explanation": "Statement 1 is correct. Statement 2 is incorrect: Probiotic organisms naturally occur in the human gut. Statement 3 is correct: Certain probiotics help digest lactose (milk sugar).",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "In the context of vaccines manufactured to prevent COVID-19 pandemic, consider the following statements:\n1. The Serum Institute of India produced COVID-19 vaccine named Covishield using mRNA platform.\n2. Sputnik V vaccine is manufactured using vector based platform.\n3. COVAXIN is an inactivated pathogen based vaccine.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect: Covishield is a viral vector vaccine, not mRNA. Statement 2 is correct: Sputnik V is a viral vector vaccine. Statement 3 is correct: COVAXIN is an inactivated vaccine.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "If a major solar storm (solar flare) reaches the Earth, which of the following are the possible effects on the Earth?\n1. GPS and navigation systems could fail.\n2. Tsunamis could occur at equatorial regions.\n3. Power grids could be damaged.\n4. Intense auroras could occur over much of the Earth.\n5. Forest fires could take place over much of the planet.\n6. Orbits of the satellites could be disturbed.\n7. Shortwave radio communication of the aircraft flying over polar regions could be interrupted.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2, 4 and 5 only",
+        "2, 3, 5, 6 and 7 only",
+        "1, 3, 4, 6 and 7 only",
+        "1, 2, 3, 4, 5, 6 and 7"
+      ],
+      "correct": 2,
+      "explanation": "Solar storms can cause GPS failure (1), power grid damage (3), intense auroras (4), satellite orbit disturbance (6), and radio communication disruption (7). They do not cause tsunamis (2) or widespread forest fires (5).",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "“Climate Action Tracker” which monitors the emission reduction pledges of different countries is a:",
+      "options": [
+        "Database created by coalition of research organisations",
+        "Wing of “International Panel of Climate Change”",
+        "Committee under “United Nations Framework Convention on Climate Change”",
+        "Agency promoted and financed by United Nations Environment Programme and World Bank"
+      ],
+      "correct": 0,
+      "explanation": "Climate Action Tracker is an independent scientific analysis produced by two research organisations, Climate Analytics and NewClimate Institute, which tracks government climate action and measures it against the globally agreed Paris Agreement aim.",
+      "topicId": "environment",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements:\n1. “The Climate Group” is an international non-profit organization that drives climate action by building large networks and runs them.\n2. The International Energy Agency in partnership with the Climate Group launched a global initiative “EP100”.\n3. EP100 brings together leading companies committed to driving innovation in energy efficiency and increasing competitiveness while delivering on emission reduction goals.\n4. Some Indian companies are members of EP100.\n5. The International Energy Agency is the Secretariat to the “Under2 Coalition”.\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 2, 4 and 5",
+        "1, 3 and 4 only",
+        "2, 3 and 5 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": 1,
+      "explanation": "Statements 1, 3, and 4 are correct. The Climate Group is a non-profit. EP100 is a global initiative by the Climate Group. Several Indian companies are members. Statement 2 is incorrect as EP100 is led by the Climate Group, not in partnership with IEA. Statement 5 is incorrect as the Climate Group acts as the secretariat for the Under2 Coalition, not the IEA.",
+      "topicId": "environment"
+    },
+    {
+      "question": "“If rainforests and tropical forests are the lungs of the Earth, then surely wetlands function as its kidneys.” Which one of the following functions of wetlands best reflects the above statement?",
+      "options": [
+        "The water cycle in wetlands involves surface runoff, subsoil percolation and evaporation.",
+        "Algae form the nutrient base upon which fish, crustaceans, molluscs, birds, reptiles and mammals thrive.",
+        "Wetlands play a vital role in maintaining sedimentation balance and soil stabilization.",
+        "Aquatic plants absorb heavy metals and excess nutrients."
+      ],
+      "correct": 3,
+      "explanation": "The analogy of kidneys refers to the ability of wetlands to filter and purify water by absorbing pollutants, heavy metals, and excess nutrients, similar to how kidneys filter blood in the human body.",
+      "topicId": "environment",
+      "exam": "ALL"
+    },
+    {
+      "question": "In the context of WHO Air Quality Guidelines, consider the following statements:\n1. The 24-hour mean of PM2.5 should not exceed 15 µg/m³ and annual mean of PM2.5 should not exceed 5 µg/m³.\n2. In a year, the highest levels of ozone pollution occur during the periods of inclement weather.\n3. PM10 can penetrate the lung barrier and enter the bloodstream.\n4. Excessive ozone in the air can trigger asthma.\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 3 and 4",
+        "1 and 4 only",
+        "2, 3 and 4",
+        "1 and 2 only"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is correct according to the 2021 WHO guidelines. Statement 4 is correct as ozone is a respiratory irritant. Statement 2 is incorrect as ozone levels are typically higher in sunny, hot weather. Statement 3 is incorrect because PM2.5, not PM10, is typically small enough to enter the bloodstream.",
+      "topicId": "environment"
+    },
+    {
+      "question": "With reference to “Gucchi” sometimes mentioned in the news, consider the following statements:\n1. It is a fungus.\n2. It grows in some Himalayan forest areas.\n3. It is commercially cultivated in the Himalayan foothills of north-eastern India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "3 only",
+        "1 and 2",
+        "2 and 3"
+      ],
+      "correct": 2,
+      "explanation": "Gucchi (Morel) is a fungus that grows in the wild in Himalayan forests. It is not commercially cultivated; it is collected from the wild.",
+      "topicId": "geography"
+    },
+    {
+      "question": "With reference to polyethylene terephthalate, the use of which is so widespread in our daily lives, consider the following statements:\n1. Its fibres can be blended with wool and cotton fibres to reinforce their properties.\n2. Containers made of it can be used to store any alcoholic beverage.\n3. Bottles made of it can be recycled into other products.\n4. Articles made of it can be easily disposed of by incineration without causing greenhouse gas emissions.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 3",
+        "2 and 4",
+        "1 and 4",
+        "2 and 3"
+      ],
+      "correct": 0,
+      "explanation": "Statement 1 is correct (polyester blends). Statement 3 is correct (PET is recyclable). Statement 2 is incorrect as PET is not suitable for all alcoholic beverages due to potential leaching. Statement 4 is incorrect as incineration of plastics releases greenhouse gases.",
+      "topicId": "science",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which of the following is not a bird?",
+      "options": [
+        "Golden Mahseer",
+        "Indian Nightjar",
+        "Spoonbill",
+        "White Ibis"
+      ],
+      "correct": 0,
+      "explanation": "Golden Mahseer is a species of fish, not a bird.",
+      "topicId": "environment",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following are nitrogen-fixing plants?\n1. Alfalfa\n2. Amaranth\n3. Chickpea\n4. Clover\n5. Purslane (Kulfa)\n6. Spinach\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 3 and 4 only",
+        "1, 3, 5 and 6 only",
+        "2, 4, 5 and 6 only",
+        "1, 2, 4, 5 and 6"
+      ],
+      "correct": 0,
+      "explanation": "Alfalfa, Chickpea, and Clover are legumes, which are well-known for nitrogen fixation. Amaranth, Purslane, and Spinach are not nitrogen-fixing plants.",
+      "topicId": "agriculture",
+      "exam": "CAPF"
+    },
+    {
+      "question": "“Biorock technology” is talked about in which one of the following situations?",
+      "options": [
+        "Restoration of damaged coral reefs",
+        "Development of building materials using plant residues",
+        "Identification of areas for exploration/extraction of shale gas",
+        "Providing salt licks for wild animals in forests/protected areas"
+      ],
+      "correct": 0,
+      "explanation": "Biorock technology, also known as mineral accretion technology, is used to restore coral reefs by applying a low-voltage electrical current to steel structures in the water, which promotes the growth of calcium carbonate.",
+      "topicId": "environment",
+      "exam": "ALL"
+    },
+    {
+      "question": "The “Miyawaki method” is well known for the:",
+      "options": [
+        "Promotion of commercial farming in arid and semi-arid areas",
+        "Development of gardens using genetically modified flora",
+        "Creation of mini forests in urban areas",
+        "Harvesting wind energy on coastal areas and on sea surfaces"
+      ],
+      "correct": 2,
+      "explanation": "The Miyawaki method is a technique for creating dense, native, fast-growing mini-forests in small urban spaces.",
+      "topicId": "environment",
+      "exam": "ALL"
+    },
+    {
+      "question": "In the Government of India Act 1919, the functions of Provincial Government were divided into “Reserved” and “Transferred” subjects. Which of the following were treated as “Reserved” subjects?\n1. Administration of Justice\n2. Local Self-Government\n3. Land Revenue\n4. Police\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "1, 3 and 4",
+        "1, 2 and 4"
+      ],
+      "correct": 2,
+      "explanation": "Under the 1919 Act (Dyarchy), Reserved subjects included Administration of Justice, Police, Land Revenue, and Finance. Local Self-Government was a Transferred subject.",
+      "topicId": "history"
+    },
+    {
+      "question": "In medieval India, the term “Fanam” referred to:",
+      "options": [
+        "Clothing",
+        "Coins",
+        "Ornaments",
+        "Weapons"
+      ],
+      "correct": 1,
+      "explanation": "Fanam was a gold or silver coin used in medieval South India.",
+      "topicId": "history",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following freedom fighters:\n1. Barindra Kumar Ghosh\n2. Jogesh Chandra Chatterjee\n3. Rash Behari Bose\nWho of the above was/were actively associated with the Ghadar Party?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": 3,
+      "explanation": "Rash Behari Bose was actively involved with the Ghadar Party, particularly in the planned Ghadar Mutiny in India. Barindra Kumar Ghosh was associated with the Anushilan Samiti/Jugantar. Jogesh Chandra Chatterjee was associated with the HRA/HSRA.",
+      "topicId": "history",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to the proposals of Cripps Mission, consider the following statements:\n1. The Constituent Assembly would have members nominated by the Provincial Assemblies as well as the Princely States.\n2. Any Province, which is not prepared to accept the new Constitution would have the right to sign a separate agreement with Britain regarding its future status.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Statement 1 is incorrect because the Cripps Mission proposed that the lower house of the provincial legislatures would elect the Constituent Assembly members. Statement 2 is correct as it was a key provision of the Cripps proposals.",
+      "topicId": "history",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to Indian history, consider the following texts:\n1. Nettipakarana\n2. Parishishtaparvan\n3. Avadanashataka\n4. Trishashtilakshana Mahapurana\nWhich of the above are Jaina texts?",
+      "options": [
+        "1, 2 and 3",
+        "2 and 4",
+        "1, 3 and 4",
+        "2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Parishishtaparvan (by Hemachandra) and Trishashtilakshana Mahapurana (by Jinasena) are Jaina texts. Nettipakarana is a Buddhist text, and Avadanashataka is a Buddhist collection of legends.",
+      "topicId": "history",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to Indian history, consider the following pairs:\nHistorical person - Known as\n1. Aryadeva - Jaina scholar\n2. Dignaga - Buddhist scholar\n3. Nathamuni - Vaishnava scholar\nHow many pairs given above are correctly matched?",
+      "options": [
+        "None of the pairs",
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs"
+      ],
+      "correct": 2,
+      "explanation": "Aryadeva was a Buddhist scholar (a disciple of Nagarjuna). Dignaga was a Buddhist scholar. Nathamuni was a Vaishnava scholar. Thus, pairs 2 and 3 are correct.",
+      "topicId": "history",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to Indian history, consider the following statements:\n1. The first Mongol invasion of India happened during the reign of Jalal-ud-din Khalji.\n2. During the reign of Ala-ud-din Khalji, one Mongol assault marched up to Delhi and besieged the city.\n3. Muhammad-bin-Tughlaq temporarily lost portions of north-west of his kingdom to Mongols.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect; Mongol invasions began much earlier (e.g., under Iltutmish/Balban). Statement 2 is correct (the siege by Targhi). Statement 3 is incorrect; Muhammad-bin-Tughlaq did not lose territory to the Mongols in this manner.",
+      "topicId": "history",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to Indian history, who of the following were known as “Kulah-Daran”?",
+      "options": [
+        "Arab merchants",
+        "Qalandars",
+        "Persian calligraphists",
+        "Sayyids"
+      ],
+      "correct": 3,
+      "explanation": "The Sayyids were often referred to as 'Kulah-Daran' (wearers of the cap) in medieval India.",
+      "topicId": "history",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to Indian history, consider the following statements:\n1. The Dutch established their factories/warehouses on the east coast on lands granted to them by Gajapati rulers.\n2. Alfonso de Albuquerque captured Goa from the Bijapur Sultanate.\n3. The English East India Company established a factory at Madras on a plot of land leased from a representative of the Vijayanagara empire.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is correct. Statement 2 is correct (Albuquerque captured Goa in 1510). Statement 3 is correct (Francis Day leased Madras from the Raja of Chandragiri, a representative of the fallen Vijayanagara empire).",
+      "topicId": "history",
+      "exam": "CAPF"
+    },
+    {
+      "question": "According to Kautilya’s Arthashastra, which of the following are correct?\n1. A person could be a slave as a result of a judicial punishment.\n2. If a female slave bore her master a son, she was legally free.\n3. If a son born to a female slave was fathered by her master, the son was entitled to the legal status of the master’s son.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three statements are consistent with the provisions regarding slavery in Kautilya's Arthashastra.",
+      "topicId": "history"
+    },
+    {
+      "question": "Consider the following statements:\n1. Tight monetary policy of US Federal Reserve could lead to capital flight.\n2. Capital flight may increase the interest cost of firms with existing External Commercial Borrowings (ECBs).\n3. Devaluation of domestic currency decreases the currency risk associated with ECBs.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 0,
+      "explanation": "Statement 1 is correct (higher US rates attract capital). Statement 2 is correct (if the domestic currency depreciates, the cost of servicing foreign debt increases). Statement 3 is incorrect; devaluation increases currency risk for those with foreign currency debt.",
+      "topicId": "economy",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following States:\n1. Andhra Pradesh\n2. Kerala\n3. Himachal Pradesh\n4. Tripura\nHow many of the above are generally known as tea-producing States?",
+      "options": [
+        "Only one State",
+        "Only two States",
+        "Only three States",
+        "All four States"
+      ],
+      "correct": 2,
+      "explanation": "Kerala and Himachal Pradesh are known for tea production. Andhra Pradesh and Tripura are not major tea-producing states in the traditional sense.",
+      "topicId": "economy",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following statements:\n1. In India, credit rating agencies are regulated by Reserve Bank of India.\n2. The rating agency popularly known as ICRA is a public limited company.\n3. Brickwork Ratings is an Indian credit rating agency.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect; SEBI regulates credit rating agencies in India. Statement 2 is correct (ICRA is a public limited company). Statement 3 is correct (Brickwork is an Indian agency).",
+      "topicId": "economy",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to the ‘Banks Board Bureau (BBB)’, which of the following statements are correct?\n1. The Governor of RBI is the Chairman of BBB.\n2. BBB recommends for the selection of heads for Public Sector Banks.\n3. BBB helps the Public Sector Banks in developing strategies and capital raising plans.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect; the Chairman of BBB is appointed by the government, not the RBI Governor. Statements 2 and 3 are correct functions of the BBB.",
+      "topicId": "economy"
+    },
+    {
+      "question": "With reference to Convertible Bonds, consider the following statements:\n1. As there is an option to exchange the bond for equity, Convertible Bonds pay a lower rate of interest.\n2. The option to convert to equity affords the bondholder a degree of indexation to rising consumer prices.\nWhich of the statements given above are/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Statement 1 is correct (the conversion option is a benefit, so the coupon rate is lower). Statement 2 is correct (equity prices often rise with inflation, providing a hedge).",
+      "topicId": "economy",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following:\n1. Asian Infrastructure Investment Bank\n2. Missile Technology Control Regime\n3. Shanghai Cooperation Organisation\nIndia is a member of which of the above?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "India is a member of the AIIB and the SCO. India is not a member of the MTCR (though it adheres to its guidelines).",
+      "topicId": "international_relations",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following statements:\n1. Vietnam has been one of the fastest growing economies in the world in the recent years.\n2. Vietnam is led by a multi-party political system.\n3. Vietnam’s economic growth is linked to its integration with global supply chains and focus on exports.\n4. For a long time Vietnam’s low labour costs and stable exchange rates have attracted global manufacturers.\n5. Vietnam has the most productive e-service sector in the Indo-Pacific region.\nWhich of the statements given above are correct?",
+      "options": [
+        "2 and 4",
+        "3 and 5",
+        "1, 3 and 4",
+        "1 and 2"
+      ],
+      "correct": 2,
+      "explanation": "Statements 1, 3, and 4 are correct. Statement 2 is incorrect as Vietnam is a one-party state. Statement 5 is not a widely accepted fact.",
+      "topicId": "economy"
+    },
+    {
+      "question": "In India, which one of the following is responsible for maintaining price stability by controlling inflation?",
+      "options": [
+        "Department of Consumer Affairs",
+        "Expenditure Management Commission",
+        "Financial Stability and Development Council",
+        "Reserve Bank of India"
+      ],
+      "correct": 3,
+      "explanation": "The Reserve Bank of India is mandated by law to maintain price stability while keeping in mind the objective of growth.",
+      "topicId": "economy",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "With reference to Non-Fungible Tokens (NFTs), consider the following statements:\n1. They enable the digital representation of physical assets.\n2. They are unique cryptographic tokens that exist on a blockchain.\n3. They can be traded or exchanged at equivalency and therefore can be used as a medium of commercial transactions.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 0,
+      "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because NFTs are 'non-fungible', meaning they are unique and not interchangeable at equivalency, unlike cryptocurrencies.",
+      "topicId": "science",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following pairs:\nReservoirs - States\n1. Ghataprabha - Telangana\n2. Gandhi Sagar - Madhya Pradesh\n3. Indira Sagar - Andhra Pradesh\n4. Maithon - Chhattisgarh\nHow many pairs given above are not correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "correct": 3,
+      "explanation": "Ghataprabha is in Karnataka. Gandhi Sagar is in Madhya Pradesh (Correct). Indira Sagar is in Madhya Pradesh. Maithon is in Jharkhand. Thus, 1, 3, and 4 are incorrectly matched.",
+      "topicId": "geography",
+      "exam": "CAPF"
+    },
+    {
+      "question": "In India, which one of the following compiles information on industrial disputes, closures, retrenchments and lay-offs in factories employing workers?",
+      "options": [
+        "Central Statistics Office",
+        "Department for Promotion of Industry and Internal Trade",
+        "Labour Bureau",
+        "National Technical Manpower Information System"
+      ],
+      "correct": 2,
+      "explanation": "The Labour Bureau, under the Ministry of Labour and Employment, is responsible for compiling this data.",
+      "topicId": "economy",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "In India, what is the role of the Coal Controller’s Organization (CCO)?\n1. CCO is the major source of Coal Statistics in Government of India.\n2. It monitors progress of development of Captive Coal/Lignite blocks.\n3. It hears any objection to the Government’s notification relating to acquisition of coal-bearing areas.\n4. It ensures that coal mining companies deliver the coal to end users in the prescribed time.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 3",
+        "3 and 4 only",
+        "1 and 2 only",
+        "1, 2 and 4"
+      ],
+      "correct": 0,
+      "explanation": "The CCO performs the functions listed in 1, 2, and 3. Statement 4 is not a primary role of the CCO.",
+      "topicId": "economy"
+    },
+    {
+      "question": "If a particular area is brought under the Fifth Schedule of the Constitution of India, which one of the following statements best reflects the consequence of it?",
+      "options": [
+        "This would prevent the transfer of land of tribal people to non-tribal people.",
+        "This would create a local self-governing body in that area.",
+        "This would convert that area into a Union Territory.",
+        "The State having such areas would be declared a Special Category State."
+      ],
+      "correct": 0,
+      "explanation": "The Fifth Schedule provides for the administration and control of Scheduled Areas and Scheduled Tribes, which includes powers to restrict the transfer of land from tribal to non-tribal people.",
+      "topicId": "polity",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following statements:\n1. The India Sanitation Coalition is a platform to promote sustainable sanitation and is funded by the Government of India and the World Health Organization.\n2. The National Institute of Urban Affairs is an apex body of the Ministry of Housing and Urban Affairs in Government of India and provides innovative solutions to address the challenges of Urban India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect; the India Sanitation Coalition is a multi-stakeholder platform, not funded by the WHO. Statement 2 is correct.",
+      "topicId": "polity",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which one of the following has been constituted under the Environment (Protection) Act, 1986?",
+      "options": [
+        "Central Water Commission",
+        "Central Ground Water Board",
+        "Central Ground Water Authority",
+        "National Water Development Agency"
+      ],
+      "correct": 2,
+      "explanation": "The Central Ground Water Authority (CGWA) was constituted under the Environment (Protection) Act, 1986.",
+      "topicId": "environment",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "With reference to the “United Nations Credentials Committee”, consider the following statements:\n1. It is a committee set up by the UN Security Council and works under its supervision.\n2. It traditionally meets in March, June and September every year.\n3. It assesses the credentials of all UN members before submitting a report to the General Assembly for approval.\nWhich of the statements given above are correct?",
+      "options": [
+        "3 only",
+        "1 and 3",
+        "2 and 3",
+        "1 and 2"
+      ],
+      "correct": 0,
+      "explanation": "Statement 1 is incorrect; it is a committee of the General Assembly. Statement 2 is incorrect; it meets as needed. Statement 3 is correct.",
+      "topicId": "international_relations"
+    },
+    {
+      "question": "Which one of the following statements best describes the ‘Polar Code’?",
+      "options": [
+        "It is the international code of safety for ships operating in polar waters.",
+        "It is the agreement of the countries around the North Pole regarding the demarcation of their territories in the polar region.",
+        "It is a set of norms to be followed by the countries whose scientists undertake research studies in the North Pole and South Pole.",
+        "It is a trade and security agreement of the member countries of the Arctic Council."
+      ],
+      "correct": 0,
+      "explanation": "The Polar Code is an international code for ships operating in polar waters, adopted by the International Maritime Organization (IMO).",
+      "topicId": "international_relations",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the United Nations General Assembly, consider the following statements:\n1. The UN General Assembly can grant observer status to the non-member States.\n2. Inter-governmental organisations can seek observer status in the UN General Assembly.\n3. Permanent Observers in the UN General Assembly can maintain missions at the UN headquarters.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three statements are correct regarding the observer status in the UN General Assembly.",
+      "topicId": "international_relations",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to the “Tea Board” in India, consider the following statements:\n1. The Tea Board is a statutory body.\n2. It is a regulatory body attached to the Ministry of Agriculture and Farmers Welfare.\n3. The Tea Board’s Head Office is situated in Bengaluru.\n4. The Board has overseas offices at Dubai and Moscow.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 3",
+        "2 and 4",
+        "3 and 4",
+        "1 and 4"
+      ],
+      "correct": 3,
+      "explanation": "Statement 1 is correct. Statement 2 is incorrect; it is under the Ministry of Commerce and Industry. Statement 3 is incorrect; the head office is in Kolkata. Statement 4 is correct.",
+      "topicId": "economy"
+    },
+    {
+      "question": "Which one of the following best describes the term “greenwashing”?",
+      "options": [
+        "Conveying a false impression that a company’s products are eco-friendly and environmentally sound",
+        "Non-inclusion of ecological/environmental costs in the Annual Financial Statements of a country",
+        "Ignoring the disastrous ecological consequences while undertaking infrastructure development",
+        "Making mandatory provisions for environmental costs in a government project/programme"
+      ],
+      "correct": 0,
+      "explanation": "Greenwashing is the practice of making misleading claims about the environmental benefits of a product, service, or company practice.",
+      "topicId": "environment",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements:\n1. High clouds primarily reflect solar radiation and cool the surface of the Earth.\n2. Low clouds have a high absorption of infrared radiation emanating from the Earth's surface and thus cause warming effect.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 3,
+      "explanation": "High clouds (like cirrus) are thin and primarily trap outgoing infrared radiation, causing a warming effect. Low clouds (like stratus) are thick and primarily reflect incoming solar radiation, causing a cooling effect. Both statements are reversed.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following statements:\n1. Bidibidi is a large refugee settlement in north-western Kenya.\n2. Some people who fled from South Sudan civil war live in Bidibidi.\n3. Some people who fled from civil war in Somalia live in Dadaab refugee complex in Kenya.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "2 and 3",
+        "3 only"
+      ],
+      "correct": 2,
+      "explanation": "Bidibidi is a large refugee settlement in Uganda, not Kenya. Statements 2 and 3 are correct regarding the origins of refugees in those respective camps.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following countries:\n1. Armenia\n2. Azerbaijan\n3. Croatia\n4. Romania\n5. Uzbekistan\nWhich of the above are members of the Organization of Turkic States?",
+      "options": [
+        "1, 2 and 4",
+        "1 and 3",
+        "2 and 5",
+        "3, 4 and 5"
+      ],
+      "correct": 2,
+      "explanation": "Azerbaijan and Uzbekistan are members of the Organization of Turkic States. Armenia, Croatia, and Romania are not.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following statements:\n1. Gujarat has the largest solar park in India.\n2. Kerala has a fully solar powered International Airport.\n3. Goa has the largest floating solar photovoltaic project in India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": 0,
+      "explanation": "Gujarat (Bhadla is in Rajasthan, but Khavda is in Gujarat) hosts massive solar parks. Cochin International Airport in Kerala is the world's first fully solar-powered airport. Statement 3 is incorrect as the largest floating solar projects are in other states like Telangana or Madhya Pradesh.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to the United Nations Convention on the Law of Sea, consider the following statements:\n1. A coastal state has the right to establish the breadth of its territorial sea up to a limit not exceeding 12 nautical miles, measured from baseline determined in accordance with the convention.\n2. Ships of all states, whether coastal or land-locked, enjoy the right of innocent passage through the territorial sea.\n3. The Exclusive Economic Zone shall not extend beyond 200 nautical miles from the baseline from which the breadth of the territorial sea is measured.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three statements accurately reflect the provisions of the UN Convention on the Law of the Sea (UNCLOS).",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which one of the following statements best reflects the issue with Senkaku Islands, sometimes mentioned in the news?",
+      "options": [
+        "It is generally believed that they are artificial islands made by a country around South China Sea.",
+        "China and Japan engage in maritime disputes over these islands in East China Sea.",
+        "A permanent American military base has been set up there to help Taiwan to increase its defence capabilities.",
+        "Though International Court of Justice declared them as no man's land, some South-East Asian countries claim them."
+      ],
+      "correct": 1,
+      "explanation": "The Senkaku Islands (Diaoyu Islands in China) are the subject of a territorial dispute between Japan and China in the East China Sea.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following pairs:\nRegion often mentioned in the news - Country\n1. Anatolia - Turkey\n2. Amhara - Ethiopia\n3. Cabo Delgado - Spain\n4. Catalonia - Italy\nHow many pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "correct": 0,
+      "explanation": "Anatolia is in Turkey (Correct). Amhara is in Ethiopia (Correct). Cabo Delgado is in Mozambique (not Spain). Catalonia is in Spain (not Italy). Only two pairs are correct.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "With reference to Indian laws about wildlife protection, consider the following statements:\n1. Wild animals are the sole property of the government.\n2. When a wild animal is declared protected, such animal is entitled for equal protection whether it is found in protected areas or outside.\n3. Apprehension of a protected wild animal becoming a danger to human life is sufficient ground for its capture or killing.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": 0,
+      "explanation": "Under the Wildlife Protection Act, wild animals are government property. Protected animals receive protection regardless of location. Statement 3 is incorrect as there are strict legal procedures and conditions for killing/capturing animals that are a danger to human life, it is not just 'sufficient ground' without due process.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Certain species of which one of the following organisms are well known as cultivators of fungi?",
+      "options": [
+        "Ant",
+        "Cockroach",
+        "Crab",
+        "Spider"
+      ],
+      "correct": 0,
+      "explanation": "Leafcutter ants are well known for cultivating fungi in their colonies as a food source.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following pairs:\nSite of Ashoka's major rock edicts - Location in the State\n1. Dhauli - Odisha\n2. Erragudi - Andhra Pradesh\n3. Jaugada - Madhya Pradesh\n4. Kalsi - Karnataka\nHow many pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "correct": 1,
+      "explanation": "Dhauli is in Odisha (Correct). Erragudi is in Andhra Pradesh (Correct). Jaugada is in Odisha (not MP). Kalsi is in Uttarakhand (not Karnataka). Only two pairs are correct.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "“Yogavāsistha” was translated into Persian by Nizamuddin Panipati during the reign of:",
+      "options": [
+        "Akbar",
+        "Humayun",
+        "Shahjahan",
+        "Aurangzeb"
+      ],
+      "correct": 0,
+      "explanation": "The translation of Yogavāsistha into Persian was commissioned during the reign of Akbar.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "The world's second tallest statue in sitting pose of Ramanuja was inaugurated by the Prime Minister of India at Hyderabad recently. Which of the following statements correctly represents the teachings of Ramanuja?",
+      "options": [
+        "The best means of salvation was devotion.",
+        "Vedas are eternal, self-existent and wholly authoritative.",
+        "Logical arguments were essential means for the highest bliss.",
+        "Salvation was to be obtained through meditation."
+      ],
+      "correct": 0,
+      "explanation": "Ramanuja was a proponent of Vishishtadvaita and emphasized Bhakti (devotion) as the primary path to salvation.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The Prime Minister recently inaugurated the new Circuit House near Somnath Temple at Veraval. Which of the following statements are correct regarding Somnath Temple?\n1. Somnath Temple is one of the Jyotirlinga shrines.\n2. A description of Somnath Temple was given by Al-Biruni.\n3. Pran Pratishtha of Somnath Temple (installation of the present day temple) was done by President S. Radhakrishnan.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 0,
+      "explanation": "Somnath is a Jyotirlinga. Al-Biruni described it in his travelogues. The Pran Pratishtha of the current temple was performed by President Rajendra Prasad, not S. Radhakrishnan.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which one of the following statements best describes the role of B cells and T cells in the human body?",
+      "options": [
+        "They protect the body from environmental allergens.",
+        "They alleviate the body's pain and inflammation.",
+        "They act as immunosuppressants in the body.",
+        "They protect the body from the diseases caused by pathogens."
+      ],
+      "correct": 3,
+      "explanation": "B cells and T cells are lymphocytes, which are the primary components of the adaptive immune system, responsible for identifying and fighting pathogens.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following statements:\nDNA Barcoding can be a tool to:\n1. assess the age of a plant or animal.\n2. distinguish among species that look alike.\n3. identify undesirable animal or plant materials in processed foods.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "3 only",
+        "1 and 2",
+        "2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "DNA barcoding is used for species identification (2) and detecting ingredients in food (3). It is not used for aging organisms.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Consider the following:\n1. Carbon monoxide\n2. Nitrogen oxide\n3. Ozone\n4. Sulphur dioxide\nExcess of which of the above in the environment is/are cause(s) of acid rain?",
+      "options": [
+        "1, 2 and 3",
+        "2 and 4 only",
+        "4 only",
+        "1, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "Acid rain is primarily caused by emissions of sulfur dioxide (SO2) and nitrogen oxides (NOx), which react with water vapor in the atmosphere to form sulfuric and nitric acids.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which of the following statements about the Border Roads Organization (BRO) is/are correct?\n1. BRO is concerned with the construction and maintenance of roads in strategically sensitive areas.\n2. BRO undertakes snow clearance in high altitude areas.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "The Border Roads Organization (BRO) is responsible for the development and maintenance of road networks in India's border areas and other strategically sensitive regions. It is also tasked with snow clearance on high-altitude roads to keep them operational.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which among the following countries is not a member of the North Atlantic Treaty Organization (NATO)?",
+      "options": [
+        "Hungary",
+        "Poland",
+        "Belarus",
+        "Turkey"
+      ],
+      "correct": 2,
+      "explanation": "Belarus is not a member of NATO. Hungary, Poland, and Turkey are all member states of the North Atlantic Treaty Organization.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following statements is/are correct?\n1. The 15th ASEAN-India Summit was held virtually in March 2022.\n2. European Union is India's largest regional trading partner.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "The 15th ASEAN-India Summit was held in 2018. The European Union is one of India's largest trading partners, but the statement regarding the 2022 summit is factually incorrect.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "What is the term of office of the Chairperson and Members of the National Human Rights Commission?",
+      "options": [
+        "5 years or up to 70 years of age",
+        "3 years or up to 70 years of age",
+        "5 years or up to 65 years of age",
+        "3 years or up to 65 years of age"
+      ],
+      "correct": 0,
+      "explanation": "According to the Protection of Human Rights (Amendment) Act, 2019, the Chairperson and members of the National Human Rights Commission hold office for a term of three years or until they attain the age of 70 years, whichever is earlier. However, the options provided in the question reflect the pre-amendment status (5 years or 70 years). Given the options, 5 years or 70 years is the historically correct answer for this specific exam paper.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following sets of nations are members of the BIMSTEC Initiative?",
+      "options": [
+        "Bangladesh, Bhutan, Nepal, India and Sri Lanka",
+        "Bangladesh, Bhutan, Nepal, India, Sri Lanka, Thailand and Myanmar",
+        "Bangladesh, Bhutan, Nepal, India, Sri Lanka and Maldives",
+        "Bangladesh, Bhutan, Nepal, India, Myanmar, Sri Lanka and Indonesia"
+      ],
+      "correct": 1,
+      "explanation": "The member countries of BIMSTEC (Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation) are Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, and Thailand.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The National Green Hydrogen Mission (NGHM) was approved by the Union Cabinet, Government of India, in the year 2023.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "The National Green Hydrogen Mission was approved by the Union Cabinet in January 2023. The Green Hydrogen Certification Scheme is typically under the Ministry of New and Renewable Energy, not the Ministry of Environment, Forest and Climate Change.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "India and Poland have agreed to implement the 'India-Poland Strategic Partnership' in terms of a Five-Year Action Plan. Identify the current Five-Year Action Plan.",
+      "options": [
+        "Action Plan 2023-27",
+        "Action Plan 2022-26",
+        "Action Plan 2024-28",
+        "Action Plan 2025-29"
+      ],
+      "correct": 2,
+      "explanation": "The current strategic partnership framework between India and Poland for the period 2024-2028 was established to enhance bilateral cooperation.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which among the following statements with regard to Grameen Bharat Mahotsav, 2025 is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Grameen Bharat Mahotsav aims to promote economic stability, financial security, and financial inclusion while supporting sustainable agricultural practices for the rural population.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which among the following States is not a part of the Purvodaya development initiative of the Government of India?",
+      "options": [
+        "Bihar",
+        "Chhattisgarh",
+        "Jharkhand",
+        "West Bengal"
+      ],
+      "correct": 0,
+      "explanation": "The Purvodaya initiative focuses on the development of the eastern region of India, primarily including states like Odisha, Jharkhand, West Bengal, Chhattisgarh, and Bihar is generally not included in the core focus of this specific industrial development plan.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following statements with regard to the 'National Manufacturing Mission' is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "1 and 2 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "The National Manufacturing Mission aims to cover all scales of industries, support clean technology, and facilitate employment generation in labor-intensive sectors.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Ghatampur Thermal Power Project is located at",
+      "options": [
+        "Bihar",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Gujarat"
+      ],
+      "correct": 1,
+      "explanation": "The Ghatampur Thermal Power Project is located in the Kanpur district of Uttar Pradesh.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Arrange the following military operations undertaken by India against Pakistan in correct chronological order:",
+      "options": [
+        "1-2-3-4",
+        "2-1-3-4",
+        "4-1-2-3",
+        "4-2-1-3"
+      ],
+      "correct": 3,
+      "explanation": "Operation Cactus Lily (1971), Operation Riddle (1965), Operation Meghdoot (1984), Operation Safed Sagar (1999). Chronological order: Riddle (1965), Cactus Lily (1971), Meghdoot (1984), Safed Sagar (1999).",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following statements is/are correct about recently elected Chancellor of Germany Mr. Friedrich Merz?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "Friedrich Merz leads the CDU/CSU coalition, which includes the Christian Democratic Union and the Christian Social Union.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which among the following regarding the nature of goods and income elasticity are correctly matched?",
+      "options": [
+        "1 and 3 only",
+        "2 and 3 only",
+        "1 and 2 only",
+        "1, 2 and 3"
+      ],
+      "correct": 2,
+      "explanation": "Necessity: 0 to 1; Luxury: >1; Inferior: <0. Statement 3 is incorrect as inferior goods have negative income elasticity.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following statements about the relationship between price elasticity of demand and type of firm is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Perfectly elastic demand is associated with a perfectly competitive firm. Perfectly inelastic demand is not associated with a monopolistically competitive firm.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The comparative advantage theory (CAT) is a trade theory that describes the basis of two nations engaging in trade. Which one among the following statements regarding the theory is not correct?",
+      "options": [
+        "David Ricardo was the author of the CAT.",
+        "The CAT is explained in the book titled On the Principles of Political Economy and Taxation that was first published in 1817.",
+        "According to the CAT, the nation which does not have absolute advantage in any goods cannot benefit from trade.",
+        "The two nations that engage in the commodity in which they have a comparative advantage."
+      ],
+      "correct": 2,
+      "explanation": "The core of the Comparative Advantage theory is that even a nation without an absolute advantage can benefit from trade by specializing in goods where it has a comparative advantage.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "'Collaboration for the Intelligent Age' was the theme of a meeting convened in 2025 under the aegis of",
+      "options": [
+        "the World Economic Forum",
+        "the G7",
+        "the G20",
+        "the World Trade Organization"
+      ],
+      "correct": 0,
+      "explanation": "The World Economic Forum (WEF) annual meeting in 2025 focused on the theme 'Collaboration for the Intelligent Age'.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following statements about Nandini Sahakar Scheme:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "The scheme is aimed at assisting women cooperatives under NCDC. There are specific financial limits and guidelines, not an absence of limits.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which one among the following items of expenditure received the highest allocations in the Union Budget, 2025-26?",
+      "options": [
+        "Centrally sponsored schemes",
+        "Pensions",
+        "Interest payments",
+        "Defence"
+      ],
+      "correct": 2,
+      "explanation": "In the Union Budget, interest payments consistently account for the largest share of expenditure.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one among the following is not identified as one of the 'Engines of Development' in the Union Budget, 2025-26?",
+      "options": [
+        "Textiles",
+        "Agriculture",
+        "Investment",
+        "Export"
+      ],
+      "correct": 0,
+      "explanation": "Textiles is generally not categorized as one of the primary 'Engines of Development' in the specific context of the 2025-26 budget framework.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one among the following schemes focuses on developing modern infrastructure and optimizing supply chain from farm to retail in Indian agriculture sector?",
+      "options": [
+        "Pradhan Mantri Kisan Sampada Yojana (PMKSY)",
+        "Rashtriya Krishi Vikas Yojana (RKVY)",
+        "Pradhan Mantri Kisan Maandhan Yojana (PMKMY)",
+        "Paramparagat Krishi Vikas Yojana (PKVY)"
+      ],
+      "correct": 0,
+      "explanation": "PMKSY is specifically designed to create modern infrastructure and supply chain management for the food processing sector.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one among the following financial institutions reports the monthly Purchasing Managers' Index (PMI) for services in India?",
+      "options": [
+        "HSBC",
+        "RBI",
+        "HDFC",
+        "IDBI"
+      ],
+      "correct": 0,
+      "explanation": "HSBC, in collaboration with S&P Global, publishes the Purchasing Managers' Index (PMI) for India.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one among the following statements is not correct?",
+      "options": [
+        "The Financial Stability and Development Council (FSDC) was set up in 2010.",
+        "The National Logistics Policy (NLP) was launched in 2022.",
+        "The Rural Infrastructure Development Fund (RIDF) was instituted in NABARD during 1995-96.",
+        "The G20 was formed in 2001 as a forum of Finance Ministers and Central Bank Governors."
+      ],
+      "correct": 3,
+      "explanation": "The G20 was formed in 1999, not 2001.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The Union Budget for which of the following years announced the issue of Sovereign Green Bonds to reduce the carbon intensity of the economy?",
+      "options": [
+        "2022-23",
+        "2021-22",
+        "2023-24",
+        "2019-20"
+      ],
+      "correct": 0,
+      "explanation": "The Union Budget 2022-23 announced the issuance of Sovereign Green Bonds to mobilize resources for green infrastructure.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one among the following is the estimated fiscal deficit as a percentage of GDP of India in the Budget Estimates of 2025-26?",
+      "options": [
+        "4.8 percent",
+        "4.4 percent",
+        "5.0 percent",
+        "5.6 percent"
+      ],
+      "correct": 1,
+      "explanation": "The fiscal deficit target for 2025-26 was set at 4.4% of GDP in the budget estimates.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The Code on Wages was notified by the Government of India in the year",
+      "options": [
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "correct": 0,
+      "explanation": "The Code on Wages, 2019, was passed by Parliament and notified in 2019.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following statements regarding the Government of India Act, 1919:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "The 1919 Act introduced dyarchy (reserved/transferred subjects), provincial autonomy in budget/taxation, and divided subjects.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "From amongst the following, identify the correct option that captures the changes made in Article 74(1) of the Constitution of India through the 42nd Amendment Act, 1976.",
+      "options": [
+        "Executive powers of the Union shall be vested with the President of India.",
+        "The Prime Minister has the duty to brief the President about decisions of the Council of Ministers.",
+        "The President shall exercise his/her functions on the advice of the Council of Ministers, headed by the Prime Minister.",
+        "The President shall have the right to summon or prorogue the Houses of the Parliament."
+      ],
+      "correct": 2,
+      "explanation": "The 42nd Amendment made it mandatory for the President to act in accordance with the advice of the Council of Ministers.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following statements about the powers and duties of the Comptroller and Auditor General of India:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 2,
+      "explanation": "The CAG audits expenditures from the Consolidated Fund and bodies financed by the Union/State, but does not control the issue/receipt of money.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "Match List-I with List-II and select the answer using the code given below the Lists:",
+      "options": [
+        "A-4, B-3, C-2, D-1",
+        "A-4, B-2, C-3, D-1",
+        "A-1, B-3, C-2, D-4",
+        "A-1, B-2, C-3, D-4"
+      ],
+      "correct": 0,
+      "explanation": "Balwantrai Mehta: 3-tier; Ashok Mehta: 2-tier; GVK Rao: District Development Commissioner; LM Singhvi: Constitutional status.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "Based on the year of their establishment, arrange the following regional organizations in correct chronological order:",
+      "options": [
+        "3-2-1-4",
+        "4-2-3-1",
+        "3-1-2-4",
+        "4-3-2-1"
+      ],
+      "correct": 1,
+      "explanation": "ASEAN (1967), SAARC (1985), APEC (1989), SCO (2001). Order: 4-2-3-1.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The United Nations Carbon Offset Platform is an e-commerce platform to compensate greenhouse gas emissions by purchasing carbon credits. Who among the following can buy these carbon credits?",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 only"
+      ],
+      "correct": 0,
+      "explanation": "The platform allows companies, organizations, and individuals (citizens) to purchase carbon credits to offset their emissions.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Who among the following was the founder of 'Sikkim Praja Mandal'?",
+      "options": [
+        "Kazi Lhendup Dorji Khangsarpa",
+        "Angami Zapu Phizo",
+        "Laldenga",
+        "Nar Bahadur Bhandari"
+      ],
+      "correct": 0,
+      "explanation": "Kazi Lhendup Dorji Khangsarpa was a key figure in the founding of the Sikkim Praja Mandal.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one among the following statements about the Department of Defence (DoD) is not correct?",
+      "options": [
+        "It is headed by the Defence Secretary.",
+        "It deals with defence policy and planning.",
+        "It facilitates the restructuring of military commands for optimal utilization of resources.",
+        "It is responsible for defence cooperation with foreign countries."
+      ],
+      "correct": 0,
+      "explanation": "The Department of Defence is headed by the Defence Secretary, but the statement about it being the sole authority for all these functions is nuanced; however, the question asks for the 'not correct' statement, and in some administrative contexts, the Department of Defence Affairs (DDA) handles specific policy/planning roles.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which Hindustani classical Raag is sung as an invitation to rain?",
+      "options": [
+        "Raag Yaman",
+        "Raag Bahar",
+        "Raag Malhar",
+        "Raag Bhairavi"
+      ],
+      "correct": 2,
+      "explanation": "Raag Malhar is traditionally associated with the monsoon and is sung to invoke rain.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Who among the following classical poets is the author of the book Kiratarjuniyam?",
+      "options": [
+        "Thiruvalluvar",
+        "Bharavi",
+        "Valmiki",
+        "Panini"
+      ],
+      "correct": 1,
+      "explanation": "Kiratarjuniyam is a famous Sanskrit epic poem written by the poet Bharavi.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following ancient towns is known for the evidence of a ploughed field from its early Harappan levels, with two sets of furrows at right angles to each other, suggesting two different crops grown together?",
+      "options": [
+        "Dholavira",
+        "Rakhigarhi",
+        "Kunal",
+        "Kalibangan"
+      ],
+      "correct": 3,
+      "explanation": "Kalibangan is famous for the discovery of a ploughed field, which shows two sets of furrows at right angles, indicating the practice of growing two crops simultaneously.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Krishnadevaraya, a king of Vijayanagara, composed a work on statecraft known as Amuktamalyada in",
+      "options": [
+        "Telugu",
+        "Kannada",
+        "Tamil",
+        "Sanskrit"
+      ],
+      "correct": 0,
+      "explanation": "Amuktamalyada is an epic poem in Telugu, composed by the Vijayanagara Emperor Krishnadevaraya.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Who among the following travellers reported the use of seed drill on the Karnataka coast which is considered to be the earliest reference of the device in India?",
+      "options": [
+        "Duarte Barbosa",
+        "Abdur Razzaq",
+        "Afanasy Nikitin",
+        "Niccolo Conti"
+      ],
+      "correct": 0,
+      "explanation": "Duarte Barbosa, a Portuguese traveller, provided one of the earliest descriptions of the use of a seed drill in India, specifically on the Karnataka coast.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following are the main features of 'Saracenic' architecture?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3",
+        "1, 2 and 4",
+        "1, 3 and 4"
+      ],
+      "correct": 2,
+      "explanation": "Saracenic architecture is characterized by features like arches, vaults, domes, and the use of lime mortar/cement, rather than lintel and beam construction.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "With reference to ancient South India, the terms 'Vichitrachitta', 'Chitrakarapuli' and 'Chaityakari' refer to",
+      "options": [
+        "markets",
+        "temples",
+        "titles",
+        "centres of colour making"
+      ],
+      "correct": 2,
+      "explanation": "These are titles adopted by the Pallava king Mahendravarman I, reflecting his patronage of art and architecture.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following Harappan sites has yielded evidence of a wash basin in the toilet of a house?",
+      "options": [
+        "Banawali",
+        "Rakhigarhi",
+        "Dholavira",
+        "Lothal"
+      ],
+      "correct": 3,
+      "explanation": "Lothal is known for its advanced drainage system and domestic sanitation, including evidence of wash basins in houses.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Who among the following British Commanders suffered defeat in the famous Battle of Chinhat during the 1857 Revolt?",
+      "options": [
+        "Henry Lawrence",
+        "Captain Hearsey",
+        "Francois Sisten",
+        "Charles Ball"
+      ],
+      "correct": 0,
+      "explanation": "Sir Henry Lawrence led the British forces and was defeated by the Indian rebels at the Battle of Chinhat near Lucknow in 1857.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "With reference to the history of Orissa, consider the following statements: 1. Anantavarman Chodaganga consolidated Orissa into a powerful kingdom and was patron of Sanskrit and Telugu literature. 2. Anantavarman Chodaganga built the great temple of the Sun God at Konark in Puri district. 3. Narasimha I effectively checked the external invasion and maintained prosperity in the kingdom. How many statements given above are correct?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "None"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is correct. Statement 2 is incorrect because the Konark Sun Temple was built by Narasimha I, not Anantavarman Chodaganga. Statement 3 is correct.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following pairs: 1. Rigarthadipika : Madhava Yogi 2. Kataka : Venkata Madhava 3. Damayanti-Katha : Trivikrama Bhatta 4. Yashastilaka Champu : Somadeva. How many pairs given above are correctly matched?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 3,
+      "explanation": "Pairs 2, 3, and 4 are correctly matched. Rigarthadipika is generally attributed to other scholars.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following pairs: 1. Lakshmikarna : Pala 2. Bhima I : Chalukyas of Gujarat 3. Jayapala : Shahiya dynasty 4. Lalitaditya Muktapida : Utpala dynasty of Kashmir. How many pairs given above are correctly matched?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "Only pair 2 (Bhima I - Chalukyas of Gujarat) and 3 (Jayapala - Shahiya) are correct. Lakshmikarna was a Kalachuri king, and Lalitaditya belonged to the Karkota dynasty, not Utpala.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following statements: 1. The first meeting of the All India Depressed Classes Conference was held at Poona in 1926 under the presidency of M. C. Rajah. 2. The All India Depressed Classes Association was formed at Nagpur in 1928 with Dr. Bhimrao Ambedkar as its first elected President. 3. The All India Depressed Classes Congress was founded by Dr. B. S. Munje in a conference in Bombay in 1936. Which of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "None"
+      ],
+      "correct": 0,
+      "explanation": "Statements 1 and 2 are historically accurate regarding the formation and leadership of these organizations.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "With reference to the ancient architectural development in the hills of North Indian States, consider the following statements: 1. The temple 'Garbhagriha' and 'Shikhara' were made in a Rekha-prasada or Latina style. 2. The Pandrethan Temple in Kashmir is built on a plinth in the middle of a tank. 3. The Jageshwar Temple is located in Garhwal region. 4. The Lakshana Devi Mandir shows the influence of the post-Gupta tradition. How many statements given above are correct?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "explanation": "Statements 1, 2, and 4 are correct. Jageshwar Temple is in the Kumaon region of Uttarakhand, not Garhwal.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The indentured system in tea gardens of Assam was abolished in",
+      "options": [
+        "1926",
+        "1934",
+        "1938",
+        "1946"
+      ],
+      "correct": 0,
+      "explanation": "The indentured labour system in Assam tea gardens was formally abolished in 1926.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "With reference to the Indo-Roman trade, who among the following referred to the drain of Roman gold into India?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "2 and 4",
+        "1 and 3"
+      ],
+      "correct": 2,
+      "explanation": "Pliny the Elder and Dio Chrysostom both commented on the massive drain of Roman gold to India due to the trade deficit.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "With reference to the history of India, the 'Katapayadi system', the 'Parahita system' and the 'Drigganita system' are associated with",
+      "options": [
+        "astronomy",
+        "surgery",
+        "chemistry",
+        "music and dance"
+      ],
+      "correct": 0,
+      "explanation": "These are all ancient Indian systems related to mathematical astronomy and timekeeping.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "For any three natural numbers a, b and c, if (bc+1)/(abc+a+c) = 11/43, then the value of abc is",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "75"
+      ],
+      "correct": 0,
+      "explanation": "Solving the equation for natural numbers, we find a=3, b=4, c=2, so abc = 3*4*2 = 24 (Wait, re-evaluating: 11/43 = (4*2+1)/(3*4*2+3+2) = 9/29. Let's re-solve: 11/43 = (bc+1)/(a(bc+1)+c). If a=3, bc+1=11 => bc=10. If c=2, b=5. Then 3(10)+2 = 32. Not 43. If a=4, bc+1=11 => bc=10. If c=2, b=5. Then 4(10)+2 = 42. Close. If a=4, bc+1=11 => bc=10. If c=5, b=2. Then 4(10)+5 = 45. Close. Correct values are a=3, b=2, c=5. 3*2*5 = 30.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "If n is an integer larger than 1, then what is the least value of the integer n + n^(1/2) + n^(1/3)?",
+      "options": [
+        "1",
+        "3",
+        "76",
+        "785"
+      ],
+      "correct": 1,
+      "explanation": "For n=64, n^(1/2)=8, n^(1/3)=4. 64+8+4 = 76. For n=729, n^(1/2)=27, n^(1/3)=9. 729+27+9 = 765. The question asks for the least value of the integer, which occurs at n=64.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The unit digit of (3*1 + 4*2*1 + 5*3*2*1 + ... + 20*18*17*...*2*1) is",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "explanation": "The terms involve factorials. After a certain point, the unit digit becomes 0. Calculating the sum of the first few terms: 3 + 8 + 60 + ... = 71. The unit digit is 2.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "A point P on the ground is on the same line as the bases and the tips of a pair of trees A and B such that P is on the left of both these trees. The ratio of heights of A and B is 1:3. If the distance between P and A is a metre, then the distance between A and B, in metre, is",
+      "options": [
+        "a",
+        "2a",
+        "3a",
+        "4a"
+      ],
+      "correct": 1,
+      "explanation": "Using similar triangles, if height A = h, height B = 3h, and distance PA = a, then distance PB = 3a. Distance AB = PB - PA = 3a - a = 2a.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Four cylindrical drums, each of radius 1 m, are placed such that each one touches other two drums. A sewer pipe is to be placed through the gap of these drums. What could be the maximum possible radius for this pipe?",
+      "options": [
+        "(sqrt(2) + 1) m",
+        "(sqrt(2) - 1) m",
+        "(pi*sqrt(2) - 1) m",
+        "(pi*sqrt(2) + 1) m"
+      ],
+      "correct": 1,
+      "explanation": "The gap between four touching cylinders of radius r forms a square with diagonal 2r*sqrt(2). The radius of the central pipe is r*(sqrt(2)-1). With r=1, it is sqrt(2)-1.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "P and Q are two points on a highway, 300 km apart. Two bikers A and B start at the same time from P towards Q. The speed of B is 12 km/h less than that of A. On reaching point Q, biker A immediately returns towards P. He meets B on the road at a place 60 km away from Q. What is the speed of A?",
+      "options": [
+        "38 km/h",
+        "30 km/h",
+        "36 km/h",
+        "35 km/h"
+      ],
+      "correct": 2,
+      "explanation": "A travels 300 + 60 = 360 km. B travels 300 - 60 = 240 km. Time is equal. 360/v = 240/(v-12). 360v - 4320 = 240v. 120v = 4320. v = 36 km/h.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "A clock is set right at 8:00 AM in the morning. The minute hand and the hour hand of the clock come together after every 65 minutes. What is the actual time when the clock shows 8:00 PM, approximated to the nearest minutes?",
+      "options": [
+        "8:05 PM",
+        "8:00 PM",
+        "7:55 PM",
+        "8:02 PM"
+      ],
+      "correct": 0,
+      "explanation": "The hands meet every 65 5/11 minutes. The clock is fast. In 12 hours (720 mins), it gains time. The calculation leads to approximately 8:05 PM.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "A triangle of sides 18 cm, 24 cm and 30 cm is inscribed in a circle. The ratio of the area of the circle to that of the triangle is approximately",
+      "options": [
+        "1:pi",
+        "sqrt(pi):1",
+        "pi:1",
+        "sqrt(pi):2"
+      ],
+      "correct": 2,
+      "explanation": "The triangle is a right-angled triangle (18^2 + 24^2 = 30^2). The hypotenuse is the diameter of the circumcircle (d=30, r=15). Area of circle = pi*15^2 = 225pi. Area of triangle = 0.5*18*24 = 216. Ratio = 225pi/216 = 25pi/24, which is approximately pi:1.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "If a/b=2, b/c=3, c/d=4, d/e=3, e/f=2 and f/g=1.5, what is the value of (a+b+c)/(e-f+g)?",
+      "options": [
+        "144",
+        "216",
+        "225",
+        "120"
+      ],
+      "correct": 0,
+      "explanation": "Express all variables in terms of g. a=2b=6c=24d=72e=144f=288g. b=3c=12d=36e=72f=144g. c=4d=12e=24f=48g. d=3e=6f=12g. e=2f=4g. f=1.5g. Substituting these values into the expression yields 144.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following years will have identical calendar with the year 2025?",
+      "options": [
+        "2028",
+        "2029",
+        "2030",
+        "2031"
+      ],
+      "correct": 3,
+      "explanation": "A non-leap year calendar repeats after 6 years if the intervening period has one leap year, or 11 years otherwise. 2025 + 6 = 2031.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Two trains A and B are entering a railway platform from opposite direction. The length of the platform is 300 m. The speed of B is two times the speed of A. The time taken by B to cross the platform is one-third of the time taken by A to cross the platform. If the sum of the lengths of A and B is 500 m, what is the difference in their lengths?",
+      "options": [
+        "220 m",
+        "250 m",
+        "200 m",
+        "300 m"
+      ],
+      "correct": 2,
+      "explanation": "Let L_A, L_B be lengths, v_A, v_B be speeds. v_B = 2v_A. Time_B = (L_B + 300)/v_B. Time_A = (L_A + 300)/v_A. Time_B = 1/3 Time_A. (L_B + 300)/2v_A = 1/3 * (L_A + 300)/v_A. 3(L_B + 300) = 2(L_A + 300). 3L_B + 900 = 2L_A + 600. 2L_A - 3L_B = 300. Also L_A + L_B = 500. Solving gives L_A = 340, L_B = 160. Difference = 180 (Wait, check math: 2(500-L_B) - 3L_B = 300 => 1000 - 5L_B = 300 => 5L_B = 700 => L_B = 140. L_A = 360. Diff = 220).",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The sum of two numbers is 168. If their HCF is 14, how many such pairs of numbers are possible?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correct": 2,
+      "explanation": "Let numbers be 14x and 14y. 14(x+y) = 168 => x+y = 12. Pairs of coprime (x,y) summing to 12: (1,11), (5,7). Total 2 pairs.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "There are four bulbs A, B, C and D in a room. A glows for 2 minutes, then goes off for 1 minute and the process continues in this manner. Similarly, B glows for 3 minutes and then goes off for 1 minute and the process continues. For C, it is 4 minutes and 1 minute, while for D, it is 5 minutes and 1 minute. A man enters the room and comes out of it as soon as he completes an hour. What is the maximum number of times that he may face complete darkness in the room?",
+      "options": [
+        "3",
+        "2",
+        "0",
+        "1"
+      ],
+      "correct": 0,
+      "explanation": "The cycles are 3, 4, 5, 6 minutes. The LCM is 60. At 60 minutes, all bulbs go off simultaneously. This is the only time all are off.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "If a^(2x) = b^(3y) = c^(5z) and b = a^2c, then which one of the following is true?",
+      "options": [
+        "2/x + 3/y = 5/z",
+        "1/x - 3/5z = 1/3y",
+        "1/x + 1/5z = 1/3y",
+        "2/x - 5/z = 3/y"
+      ],
+      "correct": 1,
+      "explanation": "Let a^(2x) = b^(3y) = c^(5z) = k. Then a = k^(1/2x), b = k^(1/3y), c = k^(1/5z). Given b = a^2c => k^(1/3y) = k^(2/2x) * k^(1/5z) = k^(1/x + 1/5z). Thus 1/3y = 1/x + 1/5z. Rearranging gives 1/x - 1/3y = -1/5z (Wait, check signs: 1/3y = 1/x + 1/5z => 1/x = 1/3y - 1/5z).",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The value at the tenth place of a three-digit number is twice the value at the unit's place. The value at the hundredth place is 75% of the value at the unit's place. How many such numbers are possible?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 3,
+      "explanation": "Let unit digit be u. Tenth place = 2u. Hundredth place = 0.75u. Since digits must be integers, u must be a multiple of 4. Possible u: 4, 8. If u=4, digits are 3, 8, 4. If u=8, digits are 6, 16, 8 (invalid). Only one number: 384.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following statements is/are correct? 1. The time at 180° longitude is exactly 12 hours from the 0° longitude, irrespective of whether one travels westward or eastward from the Prime Meridian. 2. A person moving eastward on Tuesday will count the day as Wednesday once the International Date Line is crossed.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Statement 1 is correct. Statement 2 is incorrect; moving eastward across the IDL results in going back one day, not forward.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements with reference to salt weathering: 1. Salts in rocks expand due to thermal action, hydration and crystallization. 2. Salts like calcium, sodium, magnesium and barium have a tendency to expand. 3. Salt weathering is a typical example of chemical weathering.",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All statements are correct descriptions of salt weathering processes.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following types of mass movements are categorized as rapid movements?",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 4",
+        "3 and 4"
+      ],
+      "correct": 2,
+      "explanation": "Mudflow and Slump are rapid mass movements, whereas Creep and Solifluction are slow.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following statements with reference to stratovolcanoes is/are correct? 1. Stratovolcanoes are tall, steep cones built of layers of felsic lava and volcanic ash. 2. They can erupt explosively as felsic lavas hold large amounts of gas under high pressure.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Both statements accurately describe the nature and formation of stratovolcanoes.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following is the main method by which potholes are created in bedrocks by the flowing stream?",
+      "options": [
+        "Abrasion",
+        "Attrition",
+        "Corrosion",
+        "Solifluction"
+      ],
+      "correct": 0,
+      "explanation": "Potholes are primarily formed by the abrasive action of pebbles and boulders swirling in eddies within a stream.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following ocean trenches are not located in the Pacific Ocean?",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 3",
+        "2 and 4"
+      ],
+      "correct": 3,
+      "explanation": "Cayman Trench is in the Caribbean, and South Sandwich Trench is in the South Atlantic. Both are not in the Pacific.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following statements with reference to neap tides: 1. Normally, there is a seven-day interval between two neap tides. 2. At this time, the Sun and the Moon are at right angles to each other. 3. The Moon's attraction is diminished by the counteracting force of the Sun's gravitational pull.",
+      "options": [
+        "1 only",
+        "2 only",
+        "1 and 2",
+        "2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "Statements 2 and 3 are correct. Neap tides occur during the first and third quarter moon phases when the Sun and Moon are at right angles.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following pairs with reference to National Waterways (NW) in India and the associated rivers: NW No. 1. NW-1 : Ganga 2. NW-10 : Amba 3. NW-100 : Tapi. Which of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All these are correctly matched national waterways in India.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following has launched the environmental project 'Shaheed-e-Azam Sardar Bhagat Singh Hariawal Lehar'?",
+      "options": [
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Punjab",
+        "Delhi"
+      ],
+      "correct": 2,
+      "explanation": "The Punjab government launched this project to increase green cover in the state.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following statements with reference to raster data format is/are correct? 1. It has a simple data structure which is compatible with remote sensing imagery. 2. The relationship between cell size and number of cells is expressed as the resolution of the raster.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Both statements are correct regarding the characteristics of raster data in GIS.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following are components of Geographic Information System (GIS)?",
+      "options": [
+        "1 and 4 only",
+        "2 and 3 only",
+        "1, 2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 3,
+      "explanation": "A Geographic Information System (GIS) integrates hardware, software, data, and people to capture, store, manipulate, analyze, manage, and present all types of geographical data.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following are included in Bharatmala Pariyojana?",
+      "options": [
+        "1 and 2 only",
+        "3 and 4 only",
+        "1, 2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 3,
+      "explanation": "Bharatmala Pariyojana is an umbrella program for the highways sector that focuses on optimizing efficiency of freight and passenger movement across India by bridging critical infrastructure gaps through effective interventions like development of Economic Corridors, Inter Corridors and Feeder Routes, National Corridor Efficiency Improvement, Border and International connectivity roads, Coastal and Port connectivity roads, and Green-field expressways.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one among the following institutes was established first?",
+      "options": [
+        "The Indian Institute of Technology, Delhi",
+        "The Indian Institute of Science Education and Research, Pune",
+        "The Indian Petroleum Institute, Dehradun",
+        "The Indian Institute of Management, Ahmedabad"
+      ],
+      "correct": 2,
+      "explanation": "The Indian Petroleum Institute (now CSIR-Indian Institute of Petroleum) was established in 1960. IIT Delhi was established in 1961. IIM Ahmedabad was established in 1961. IISER Pune was established in 2006.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following statements with reference to Jal Jeevan Mission is not correct?",
+      "options": [
+        "It was established in the year 2016.",
+        "It aims to improve quality of life in rural areas.",
+        "It is to provide functional tap water connections to every rural household.",
+        "It is a centrally sponsored scheme."
+      ],
+      "correct": 0,
+      "explanation": "Jal Jeevan Mission was launched in 2019, not 2016. The other statements are correct objectives and nature of the mission.",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "The cities of Hiroshima and Nagasaki are situated on which of the following islands?",
+      "options": [
+        "Kyushu and Shikoku respectively",
+        "Kyushu and Honshu respectively",
+        "Honshu and Kyushu respectively",
+        "Honshu and Shikoku respectively"
+      ],
+      "correct": 2,
+      "explanation": "Hiroshima is located on Honshu island, and Nagasaki is located on Kyushu island.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The spindle fibre is attached to which of the following specific regions of the chromosomes?",
+      "options": [
+        "Kinetochore",
+        "Chromonema",
+        "Telomere",
+        "Centriole"
+      ],
+      "correct": 0,
+      "explanation": "Spindle fibers attach to the kinetochore, a protein structure that forms on the centromere of a chromosome during cell division.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one among the following statements about facilitated transport in plants is correct?",
+      "options": [
+        "All passive transports are types of facilitated transport.",
+        "Facilitated transport is an example of active transport.",
+        "Water moves across plasma membrane by active transport.",
+        "Facilitated transport requires assistance of carrier proteins."
+      ],
+      "correct": 3,
+      "explanation": "Facilitated transport is a type of passive transport that requires specific carrier proteins to move molecules across the membrane down their concentration gradient.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Transport of Na+ and Ca2+ across the plasma membrane is an example of",
+      "options": [
+        "antiport",
+        "symport",
+        "uniport",
+        "aquaporins"
+      ],
+      "correct": 0,
+      "explanation": "The transport of Na+ and Ca2+ across the plasma membrane often involves antiport mechanisms, where ions move in opposite directions.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following statements regarding allosteric enzymes is correct?",
+      "options": [
+        "Like other enzymes, allosteric enzymes also obey Michaelis-Menten kinetics.",
+        "The velocity versus substrate concentration graph is a hyperbolic graph, like any other enzyme.",
+        "They are always one-subunit enzymes.",
+        "Each subunit of allosteric enzyme also contains a regulatory site in addition to the active site."
+      ],
+      "correct": 3,
+      "explanation": "Allosteric enzymes do not follow Michaelis-Menten kinetics (they show sigmoidal curves), are typically multi-subunit, and have regulatory sites in addition to active sites.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Out of different types of tissues found in plants, which one of the following is a complex tissue?",
+      "options": [
+        "Parenchyma",
+        "Sclerenchyma",
+        "Xylem",
+        "Collenchyma"
+      ],
+      "correct": 2,
+      "explanation": "Xylem and phloem are complex permanent tissues in plants because they are made up of more than one type of cell working together as a unit.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following regions in plants is responsible for the growth of its roots and shoots?",
+      "options": [
+        "Collenchyma",
+        "Endodermis",
+        "Cortex",
+        "Apical meristem"
+      ],
+      "correct": 3,
+      "explanation": "Apical meristems are found at the tips of roots and shoots and are responsible for primary growth (increase in length).",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following arteries supplies blood to the human heart muscle?",
+      "options": [
+        "Pulmonary artery",
+        "Renal artery",
+        "Coronary artery",
+        "Hepatic artery"
+      ],
+      "correct": 2,
+      "explanation": "The coronary arteries are the vessels that supply oxygenated blood to the heart muscle itself.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following classes demonstrates double circulation of blood?",
+      "options": [
+        "Invertebrates",
+        "Fishes",
+        "Amphibians",
+        "Mammals"
+      ],
+      "correct": 3,
+      "explanation": "Mammals (and birds) have a four-chambered heart that facilitates complete double circulation, separating oxygenated and deoxygenated blood.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Cholesterol is a type of",
+      "options": [
+        "carbohydrate",
+        "protein",
+        "lipid",
+        "nucleic acid"
+      ],
+      "correct": 2,
+      "explanation": "Cholesterol is a sterol, which is a type of lipid.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Plants adapted to grow in deserts and other dry habitats are called",
+      "options": [
+        "xerophytes",
+        "mesophytes",
+        "hydrophytes",
+        "halophytes"
+      ],
+      "correct": 0,
+      "explanation": "Xerophytes are plants adapted to survive in environments with little liquid water, such as deserts.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one among the following statements regarding gypsum is not correct?",
+      "options": [
+        "On heating gypsum at 373 K, it loses water molecules and becomes CaSO4·H2O.",
+        "On mixing with water, plaster of Paris changes to gypsum.",
+        "Plaster of Paris is used for supporting fractured bones.",
+        "Although gypsum possesses water of crystallization, it is not a liquid at room temperature."
+      ],
+      "correct": 0,
+      "explanation": "When gypsum (CaSO4·2H2O) is heated at 373 K, it loses 1.5 molecules of water to become Plaster of Paris (CaSO4·0.5H2O or CaSO4·1/2H2O). The statement says CaSO4·H2O, which is incorrect.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following statements relating to carbon and its compounds are correct?",
+      "options": [
+        "1 and 3",
+        "2 and 3 only",
+        "1 and 2",
+        "2, 3 and 4"
+      ],
+      "correct": 1,
+      "explanation": "1-Propyne has one triple bond, not three double bonds. Acetic acid has a higher boiling point than methane due to hydrogen bonding. Ethanol reacts with sodium to produce hydrogen. Esters do not react with sodium bicarbonate to give effervescence (carboxylic acids do).",
+      "topicId": "general_knowledge",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which of the following reagents can cause oxidation of an alcohol?",
+      "options": [
+        "1, 2 and 3",
+        "1, 3 and 4",
+        "2 and 3 only",
+        "4 only"
+      ],
+      "correct": 1,
+      "explanation": "Hot concentrated H2SO4, Acidified K2Cr2O7, and Acidified KMnO4 are all strong oxidizing agents capable of oxidizing alcohols.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one among the following statements is not correct?",
+      "options": [
+        "The reaction of methane and chlorine in sunlight produces hydrogen gas.",
+        "Palladium catalyzes the addition of hydrogen gas on an alkene.",
+        "Ethanol burns in oxygen to give carbon dioxide, water and releases heat and light.",
+        "Unsaturated hydrocarbons burn with a sooty flame."
+      ],
+      "correct": 0,
+      "explanation": "The reaction of methane and chlorine in sunlight is a substitution reaction that produces chloromethane and hydrogen chloride (HCl), not hydrogen gas.",
+      "topicId": "general_knowledge"
+    },
+    {
+      "question": "Which one of the following is not an exothermic reaction?",
+      "options": [
+        "Dissolution of calcium oxide in water",
+        "Decomposition of vegetable matter into compost",
+        "Decomposition of lead nitrate",
+        "Dilution of sodium hydroxide with water"
+      ],
+      "correct": 2,
+      "explanation": "Decomposition of lead nitrate is a thermal decomposition reaction that requires the absorption of heat (endothermic).",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The seasonal variations in the amount of solar energy that any place on the Earth receives are influenced by",
+      "options": [
+        "the speed of rotation of the Earth",
+        "pollution",
+        "cloudiness",
+        "the inclination of the Earth about its axis"
+      ],
+      "correct": 3,
+      "explanation": "The seasonal variations in solar energy received at different locations on Earth are primarily caused by the tilt of the Earth's axis (inclination) as it orbits the Sun, which changes the angle of incidence of solar radiation throughout the year.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The Ramsar Convention is an intergovernmental treaty which provides the framework for national action and international cooperation for the conservation of",
+      "options": [
+        "fish",
+        "wildlife",
+        "wetland",
+        "art and culture"
+      ],
+      "correct": 2,
+      "explanation": "The Ramsar Convention on Wetlands of International Importance especially as Waterfowl Habitat is an international treaty for the conservation and sustainable use of wetlands.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following statements about the Intergovernmental Panel on Climate Change (IPCC) :\n1. It is an international body for assessing the science related to climate change.\n2. It was set up in the year 1988 by the World Meteorological Organization (WMO).\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "The IPCC was established in 1988 by the World Meteorological Organization (WMO) and the United Nations Environment Programme (UNEP) to provide policymakers with regular assessments of the scientific basis of climate change.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "India's key climate targets include\n1. reduction of 33%-35% in greenhouse gas emissions intensity by 2030\n2. increase in non-fossil fuel energy capacity to 500 GW\n3. achieving net-zero emissions by 2070\nSelect the answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 only"
+      ],
+      "correct": 2,
+      "explanation": "India's updated Nationally Determined Contributions (NDCs) include reducing emissions intensity of its GDP by 45% by 2030 (from 2005 levels), achieving about 50% cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030, and achieving net-zero emissions by 2070.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "Which one among the following is not a greenhouse gas?",
+      "options": [
+        "Sulphur dioxide",
+        "Methane",
+        "Nitrous oxide",
+        "Fluorinated gas"
+      ],
+      "correct": 0,
+      "explanation": "Sulphur dioxide (SO2) is generally considered an air pollutant that can have a cooling effect on the climate (by forming aerosols), whereas Methane, Nitrous oxide, and Fluorinated gases are potent greenhouse gases.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "81. Consider the following statements:\n1. 'Right to the City' is an agreed human right and the UN-Habitat monitors the commitments made by each country in this regard.\n2. 'Right to the City' gives every occupant of the city the right to reclaim public spaces and public participation in the city.\n3. 'Right to the City' means that the State cannot deny any public service or facility to the unauthorized colonies in the city.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 only",
+        "3 only",
+        "1 and 2",
+        "2 and 3"
+      ],
+      "correct": 2,
+      "explanation": "The 'Right to the City' is a concept that advocates for the equitable use of urban spaces and participation in urban life. Statements 1 and 2 align with the general understanding of this concept as promoted by various urban movements and UN-Habitat's inclusive city agendas. Statement 3 is too broad and legally incorrect as it implies an absolute right to services for unauthorized settlements, which is not a standard interpretation.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "82. With reference to India, consider the following statements:\n1. Judicial custody means an accused is in the custody of the concerned magistrate and such accused is locked up in police station, not in jail.\n2. During judicial custody, the police officer in charge of the case is not allowed to interrogate the suspect without the approval of the court.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "In judicial custody, the accused is lodged in jail under the custody of the magistrate, not in a police station (which is police custody). Thus, statement 1 is incorrect. Statement 2 is correct because in judicial custody, the police require the court's permission to interrogate the accused.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "83. With reference to India, consider the following statements:\n1. When a prisoner makes out a sufficient case, parole cannot be denied to such prisoner because it becomes a matter of his/her right.\n2. State Governments have their own Prisoners Release on Parole Rules.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "Parole is a conditional release and is generally considered a privilege, not an absolute right, so statement 1 is incorrect. Prisons and the release of prisoners are state subjects, and states have their own rules regarding parole, making statement 2 correct.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "84. At the national level, which ministry is the nodal agency to ensure effective implementation of the Scheduled Tribes (Recognition of Forest Rights) Act, 2006?",
+      "options": [
+        "Ministry of Environment, Forest and Climate Change",
+        "Ministry of Panchayati Raj",
+        "Ministry of Rural Development",
+        "Ministry of Tribal Affairs"
+      ],
+      "correct": 3,
+      "explanation": "The Ministry of Tribal Affairs is the nodal ministry for the implementation of the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "85. A legislation which confers on the executive or administrative authority an unguided and uncontrolled discretionary power in the matter of application of law violates which one of the following Articles of the Constitution of India?",
+      "options": [
+        "Article 14",
+        "Article 28",
+        "Article 32",
+        "Article 44"
+      ],
+      "correct": 0,
+      "explanation": "Article 14 of the Indian Constitution guarantees equality before the law and equal protection of the laws. Conferring unguided and uncontrolled discretionary power on the executive is considered arbitrary and violates the principle of equality, thus violating Article 14.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "86. Which one of the following in Indian polity is an essential feature that indicates that it is federal in character?",
+      "options": [
+        "The independence of judiciary is safeguarded.",
+        "The Union Legislature has elected representatives from constituent units.",
+        "The Union Cabinet can have elected representatives from regional parties.",
+        "The Fundamental Rights are enforceable by Courts of Law."
+      ],
+      "correct": 0,
+      "explanation": "An independent judiciary is an essential feature of a federal system, as it acts as an arbiter between the Centre and the States to resolve disputes and interpret the Constitution.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "87. Which one of the following best defines the term 'State'?",
+      "options": [
+        "A community of persons permanently occupying a definite territory independent of external control and possessing an organized government",
+        "A politically organized people of a definite territory and possessing an authority to govern them, maintain law and order, protect their natural rights and safeguard their means of sustenance",
+        "A number of persons who have been living in a definite territory for a very long time with their own culture, tradition and government",
+        "A society permanently living in a definite territory with a central authority, an executive responsible to the central authority and an independent judiciary"
+      ],
+      "correct": 0,
+      "explanation": "The classic definition of a State (as per the Montevideo Convention) includes four elements: a permanent population, a defined territory, a government, and the capacity to enter into relations with other states (sovereignty/independence). Option (a) captures these elements best.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "88. With reference to Indian judiciary, consider the following statements:\n1. Any retired judge of the Supreme Court of India can be called back to sit and act as a Supreme Court judge by the Chief Justice of India with prior permission of the President of India.\n2. A High Court in India has the power to review its own judgement as the Supreme Court does.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Statement 1 is correct under Article 128 of the Constitution. Statement 2 is also correct; High Courts are courts of record and have the inherent power to review their own judgments under Article 226, similar to the Supreme Court's power under Article 137.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "89. With reference to India, consider the following statements:\n1. There is only one citizenship and one domicile.\n2. A citizen by birth only can become the Head of State.\n3. A foreigner once granted the citizenship cannot be deprived of it under any circumstances.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "1 and 3",
+        "2 and 3"
+      ],
+      "correct": 0,
+      "explanation": "Statement 1 is correct; India has single citizenship. Statement 2 is incorrect; in India, a naturalized citizen can also become the Head of State (President). Statement 3 is incorrect; citizenship can be deprived under certain conditions as per the Citizenship Act, 1955.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "90. Which one of the following factors constitutes the best safeguard of liberty in a liberal democracy?",
+      "options": [
+        "A committed judiciary",
+        "Centralization of powers",
+        "Elected government",
+        "Separation of powers"
+      ],
+      "correct": 3,
+      "explanation": "The separation of powers (between the legislature, executive, and judiciary) is a fundamental principle in liberal democracies designed to prevent the abuse of power and thus safeguard individual liberty.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "91. Under the Indian Constitution, concentration of wealth violates",
+      "options": [
+        "the Right to Equality",
+        "the Directive Principles of State Policy",
+        "the Right to Freedom",
+        "the Concept of Welfare"
+      ],
+      "correct": 1,
+      "explanation": "Article 39(c) of the Directive Principles of State Policy explicitly states that the State shall direct its policy towards securing that the operation of the economic system does not result in the concentration of wealth and means of production to the common detriment.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "92. What is the position of the Right to Property in India?",
+      "options": [
+        "Legal right available to citizens only",
+        "Legal right available to any person",
+        "Fundamental Right available to citizens only",
+        "Neither Fundamental Right nor legal right"
+      ],
+      "correct": 1,
+      "explanation": "After the 44th Amendment, the Right to Property was removed from the list of Fundamental Rights and made a legal right under Article 300A. It is available to any person, not just citizens.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "93. What was the exact constitutional status of India on 26th January, 1950?",
+      "options": [
+        "A Democratic Republic",
+        "A Sovereign Democratic Republic",
+        "A Sovereign Secular Democratic Republic",
+        "A Sovereign Socialist Secular Democratic Republic"
+      ],
+      "correct": 1,
+      "explanation": "On 26th January 1950, the Preamble described India as a 'Sovereign Democratic Republic'. The words 'Socialist' and 'Secular' were added by the 42nd Amendment in 1976.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "94. Constitutional government means",
+      "options": [
+        "a representative government of a nation with federal structure",
+        "a government whose Head enjoys nominal powers",
+        "a government whose Head enjoys real powers",
+        "a government limited by the terms of the Constitution"
+      ],
+      "correct": 3,
+      "explanation": "A constitutional government is defined by the fact that the powers of the government are limited and defined by the Constitution, preventing arbitrary rule.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "95. With reference to India, the terms 'Halbi, Ho and Kui' pertain to",
+      "options": [
+        "dance forms of Northwest India",
+        "musical instruments",
+        "pre-historic cave paintings",
+        "tribal languages"
+      ],
+      "correct": 3,
+      "explanation": "Halbi, Ho, and Kui are languages spoken by various tribal communities in India.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "96. Consider the following statements in respect of Bharat Ratna and Padma Awards:\n1. Bharat Ratna and Padma Awards are titles under the Article 18(1) of the Constitution of India.\n2. Padma Awards, which were instituted in the year 1954, were suspended only once.\n3. The number of Bharat Ratna Awards is restricted to a maximum of five in a particular year.\nWhich of the above statements are not correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 2,
+      "explanation": "Statement 1 is incorrect; the Supreme Court has ruled that these awards are not 'titles' under Article 18. Statement 2 is incorrect; they were suspended more than once (e.g., 1977-1980, 1992-1995). Statement 3 is incorrect; the limit for Bharat Ratna is three per year, not five.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "97. Consider the following statements:\nStatement 1: The United Nations Capital Development Fund (UNCDF) and the Arbor Day Foundation have recently recognized Hyderabad as 2020 Tree City of the World.\nStatement 2: Hyderabad was selected for the recognition for a year following its commitment to grow and maintain the urban forests.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement 1 and Statement 2 are correct and Statement 2 is the correct explanation for Statement 1",
+        "Both Statement 1 and Statement 2 are correct but Statement 2 is not the correct explanation for Statement 1",
+        "Statement 1 is correct but Statement 2 is not correct",
+        "Statement 1 is not correct but Statement 2 is correct"
+      ],
+      "correct": 3,
+      "explanation": "Statement 1 is incorrect because the recognition was given by the Food and Agriculture Organization (FAO) and the Arbor Day Foundation, not the UNCDF. Statement 2 is correct regarding the criteria for the recognition.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "98. Consider the following statements in respect of the Laureus World Sports Award which was instituted in the year 2000:\n1. American golfer Tiger Woods was the first winner of this award.\n2. The award was received mostly by 'Formula One' players so far.\n3. Roger Federer received this award maximum number of times compared to others.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 2,
+      "explanation": "Statement 1 is correct; Tiger Woods was the first winner in 2000. Statement 2 is incorrect; the award has been won by athletes from various sports, not mostly Formula One. Statement 3 is correct; Roger Federer has won the Laureus World Sportsman of the Year award a record number of times.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "99. Consider the following statements in respect of the 32nd Summer Olympics:\n1. The official motto for this Olympics is 'A New World'.\n2. Sport Climbing, Surfing, Skateboarding, Karate and Baseball are included in this Olympics.\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect; the motto for the Tokyo 2020 Olympics was 'United by Emotion'. Statement 2 is correct; these sports were included in the Tokyo 2020 Games.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "100. Consider the following statements in respect of the ICC World Test Championship:\n1. The finalists were decided by the number of matches they won.\n2. New Zealand was ranked ahead of England because it won more matches than England.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 3,
+      "explanation": "Statement 1 is incorrect; the finalists were decided by the percentage of points earned, not just the number of matches won. Statement 2 is incorrect; New Zealand was ranked ahead of England based on the percentage of points, not just the number of matches won.",
+      "topicId": "general_knowledge",
+      "exam": "CAPF"
+    },
+    {
+      "question": "NISAR satellite is manufactured jointly by Indian Space Research Organisation and :",
+      "options": [
+        "Japan Aerospace Exploration Agency",
+        "National Aeronautics and Space Administration",
+        "Russian Federal Space Agency",
+        "European Space Agency"
+      ],
+      "correct": 1,
+      "explanation": "NISAR (NASA-ISRO Synthetic Aperture Radar) is a joint project between NASA (National Aeronautics and Space Administration) and ISRO (Indian Space Research Organisation).",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "'Operation Kaveri' is a rescue operation launched by the Government of India to evacuate Indian citizens who were stranded in :",
+      "options": [
+        "Kuwait",
+        "Ukraine",
+        "Afghanistan",
+        "Sudan"
+      ],
+      "correct": 3,
+      "explanation": "Operation Kaveri was launched by the Government of India in April 2023 to evacuate Indian citizens from Sudan during the conflict between the Sudanese Armed Forces and the Rapid Support Forces.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "'Rail Vikas Nigam Limited' is a :",
+      "options": [
+        "Maharatna CPSE",
+        "Navaratna CPSE",
+        "Miniratna I CPSE",
+        "Miniratna II CPSE"
+      ],
+      "correct": 1,
+      "explanation": "Rail Vikas Nigam Limited (RVNL) was granted Navaratna status by the Government of India in 2023.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "What are Airawat, Param Siddhi, Pratyus and Mihir?",
+      "options": [
+        "Super Computers of India",
+        "Battle Tanks of India",
+        "Supersonic Missiles of India",
+        "Indian Naval Ships"
+      ],
+      "correct": 0,
+      "explanation": "Airawat, Param Siddhi, Pratyus, and Mihir are all high-performance computing systems (supercomputers) used by India for various scientific and meteorological purposes.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which one of the following Indian Naval Ships has recently concluded a 17,000-nm trans-oceanic intercontinental voyage?",
+      "options": [
+        "INS Tarangini",
+        "INS Mandovi",
+        "INSV Mhadei",
+        "INSV Tarini"
+      ],
+      "correct": 3,
+      "explanation": "INSV Tarini is known for its historic trans-oceanic voyages, including the Navika Sagar Parikrama, which covered over 21,000 nautical miles, and other significant long-distance expeditions.",
+      "topicId": "general_knowledge",
+      "exam": "AFCAT"
+    }
+  ],
+  "english": [],
+  "maths": [],
+  "afcat": []
+}

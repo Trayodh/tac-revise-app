@@ -1,0 +1,1278 @@
+{
+  "ca": [
+    {
+      "question": "Which mission marked the joint Earth-observation effort between ISRO and NASA launched in 2025? (Variant 1)",
+      "options": [
+        "NISAR",
+        "Gaganyaan",
+        "SPADEX",
+        "Chandrayaan-4"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the Indian astronaut that participated in the Axiom Mission 4 to the ISS in 2025? (Variant 1)",
+      "options": [
+        "Rakesh Sharma",
+        "Shubhanshu Shukla",
+        "Ravish Malhotra",
+        "Gopi Thotakura"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which mission successfully demonstrated autonomous docking and undocking capabilities in orbit by ISRO? (Variant 1)",
+      "options": [
+        "Aditya-L1",
+        "Mangalyaan-2",
+        "SPADEX",
+        "XPoSat"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What was the record high value of indigenous defence production achieved by India in 2025-26? (Variant 1)",
+      "options": [
+        "₹1.00 lakh crore",
+        "₹1.50 lakh crore",
+        "₹1.78 lakh crore",
+        "₹2.00 lakh crore"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which initiative successfully engaged 676 startups and MSMEs by March 2026 to foster indigenous defence technology? (Variant 1)",
+      "options": [
+        "Make in India Defence",
+        "iDEX",
+        "SRIJAN",
+        "DEFEXPO"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "India is set to co-host the 2026 Men's T20 Cricket World Cup with which country? (Variant 1)",
+      "options": [
+        "Bangladesh",
+        "Sri Lanka",
+        "UAE",
+        "Australia"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who won the Major Dhyan Chand Khel Ratna award in 2025-26 for Chess? (Variant 1)",
+      "options": [
+        "Praggnanandhaa R",
+        "Gukesh D",
+        "Vidit Gujrathi",
+        "Viswanathan Anand"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who won the Major Dhyan Chand Khel Ratna award in 2025-26 for Hockey? (Variant 1)",
+      "options": [
+        "PR Sreejesh",
+        "Harmanpreet Singh",
+        "Manpreet Singh",
+        "Amit Rohidas"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which manual was introduced to streamline defence procurement and promote Atmanirbhar Bharat in 2025? (Variant 1)",
+      "options": [
+        "Defence Procurement Manual (DPM) 2025",
+        "Defence Acquisition Procedure (DAP) 2025",
+        "Make Procedure 2025",
+        "Strategic Partnership Model 2025"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which of the following is an upcoming major multi-sport event in 2026? (Variant 1)",
+      "options": [
+        "Summer Olympics, Paris",
+        "Commonwealth Games, Glasgow",
+        "Asian Games, Hangzhou",
+        "Winter Olympics, Beijing"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which country acquired Hangor-class submarines from China in 2025, planning a Bay of Bengal deployment? (Variant 1)",
+      "options": [
+        "Myanmar",
+        "Bangladesh",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was appointed as the next Chief of Army Staff (COAS) in June? (Variant 1)",
+      "options": [
+        "Upendra Dwivedi",
+        "Manoj Pande",
+        "Dhiraj Seth",
+        "Anil Chauhan"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which player surpassed Dilip Tirkey to become India's most-capped hockey player? (Variant 1)",
+      "options": [
+        "Manpreet Singh",
+        "Harmanpreet Singh",
+        "PR Sreejesh",
+        "Sardar Singh"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "India and which country adopted the Rules of Implementation for the Joint Crediting Mechanism under the Paris Agreement? (Variant 1)",
+      "options": [
+        "USA",
+        "France",
+        "Japan",
+        "Germany"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The RBI announced an auction of what amount for VRR to manage banking liquidity advance tax outflows? (Variant 1)",
+      "options": [
+        "₹50,000 crore",
+        "₹75,000 crore",
+        "₹1 lakh crore",
+        "₹1.5 lakh crore"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which mission marked the joint Earth-observation effort between ISRO and NASA launched in 2025? (Variant 2)",
+      "options": [
+        "NISAR",
+        "Gaganyaan",
+        "SPADEX",
+        "Chandrayaan-4"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the Indian astronaut that participated in the Axiom Mission 4 to the ISS in 2025? (Variant 2)",
+      "options": [
+        "Rakesh Sharma",
+        "Shubhanshu Shukla",
+        "Ravish Malhotra",
+        "Gopi Thotakura"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which mission successfully demonstrated autonomous docking and undocking capabilities in orbit by ISRO? (Variant 2)",
+      "options": [
+        "Aditya-L1",
+        "Mangalyaan-2",
+        "SPADEX",
+        "XPoSat"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What was the record high value of indigenous defence production achieved by India in 2025-26? (Variant 2)",
+      "options": [
+        "₹1.00 lakh crore",
+        "₹1.50 lakh crore",
+        "₹1.78 lakh crore",
+        "₹2.00 lakh crore"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which initiative successfully engaged 676 startups and MSMEs by March 2026 to foster indigenous defence technology? (Variant 2)",
+      "options": [
+        "Make in India Defence",
+        "iDEX",
+        "SRIJAN",
+        "DEFEXPO"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "India is set to co-host the 2026 Men's T20 Cricket World Cup with which country? (Variant 2)",
+      "options": [
+        "Bangladesh",
+        "Sri Lanka",
+        "UAE",
+        "Australia"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who won the Major Dhyan Chand Khel Ratna award in 2025-26 for Chess? (Variant 2)",
+      "options": [
+        "Praggnanandhaa R",
+        "Gukesh D",
+        "Vidit Gujrathi",
+        "Viswanathan Anand"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who won the Major Dhyan Chand Khel Ratna award in 2025-26 for Hockey? (Variant 2)",
+      "options": [
+        "PR Sreejesh",
+        "Harmanpreet Singh",
+        "Manpreet Singh",
+        "Amit Rohidas"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which manual was introduced to streamline defence procurement and promote Atmanirbhar Bharat in 2025? (Variant 2)",
+      "options": [
+        "Defence Procurement Manual (DPM) 2025",
+        "Defence Acquisition Procedure (DAP) 2025",
+        "Make Procedure 2025",
+        "Strategic Partnership Model 2025"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which of the following is an upcoming major multi-sport event in 2026? (Variant 2)",
+      "options": [
+        "Summer Olympics, Paris",
+        "Commonwealth Games, Glasgow",
+        "Asian Games, Hangzhou",
+        "Winter Olympics, Beijing"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which country acquired Hangor-class submarines from China in 2025, planning a Bay of Bengal deployment? (Variant 2)",
+      "options": [
+        "Myanmar",
+        "Bangladesh",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was appointed as the next Chief of Army Staff (COAS) in June? (Variant 2)",
+      "options": [
+        "Upendra Dwivedi",
+        "Manoj Pande",
+        "Dhiraj Seth",
+        "Anil Chauhan"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which player surpassed Dilip Tirkey to become India's most-capped hockey player? (Variant 2)",
+      "options": [
+        "Manpreet Singh",
+        "Harmanpreet Singh",
+        "PR Sreejesh",
+        "Sardar Singh"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "India and which country adopted the Rules of Implementation for the Joint Crediting Mechanism under the Paris Agreement? (Variant 2)",
+      "options": [
+        "USA",
+        "France",
+        "Japan",
+        "Germany"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The RBI announced an auction of what amount for VRR to manage banking liquidity advance tax outflows? (Variant 2)",
+      "options": [
+        "₹50,000 crore",
+        "₹75,000 crore",
+        "₹1 lakh crore",
+        "₹1.5 lakh crore"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which mission marked the joint Earth-observation effort between ISRO and NASA launched in 2025? (Variant 3)",
+      "options": [
+        "NISAR",
+        "Gaganyaan",
+        "SPADEX",
+        "Chandrayaan-4"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the Indian astronaut that participated in the Axiom Mission 4 to the ISS in 2025? (Variant 3)",
+      "options": [
+        "Rakesh Sharma",
+        "Shubhanshu Shukla",
+        "Ravish Malhotra",
+        "Gopi Thotakura"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which mission successfully demonstrated autonomous docking and undocking capabilities in orbit by ISRO? (Variant 3)",
+      "options": [
+        "Aditya-L1",
+        "Mangalyaan-2",
+        "SPADEX",
+        "XPoSat"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What was the record high value of indigenous defence production achieved by India in 2025-26? (Variant 3)",
+      "options": [
+        "₹1.00 lakh crore",
+        "₹1.50 lakh crore",
+        "₹1.78 lakh crore",
+        "₹2.00 lakh crore"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which initiative successfully engaged 676 startups and MSMEs by March 2026 to foster indigenous defence technology? (Variant 3)",
+      "options": [
+        "Make in India Defence",
+        "iDEX",
+        "SRIJAN",
+        "DEFEXPO"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "India is set to co-host the 2026 Men's T20 Cricket World Cup with which country? (Variant 3)",
+      "options": [
+        "Bangladesh",
+        "Sri Lanka",
+        "UAE",
+        "Australia"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who won the Major Dhyan Chand Khel Ratna award in 2025-26 for Chess? (Variant 3)",
+      "options": [
+        "Praggnanandhaa R",
+        "Gukesh D",
+        "Vidit Gujrathi",
+        "Viswanathan Anand"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who won the Major Dhyan Chand Khel Ratna award in 2025-26 for Hockey? (Variant 3)",
+      "options": [
+        "PR Sreejesh",
+        "Harmanpreet Singh",
+        "Manpreet Singh",
+        "Amit Rohidas"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which manual was introduced to streamline defence procurement and promote Atmanirbhar Bharat in 2025? (Variant 3)",
+      "options": [
+        "Defence Procurement Manual (DPM) 2025",
+        "Defence Acquisition Procedure (DAP) 2025",
+        "Make Procedure 2025",
+        "Strategic Partnership Model 2025"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which of the following is an upcoming major multi-sport event in 2026? (Variant 3)",
+      "options": [
+        "Summer Olympics, Paris",
+        "Commonwealth Games, Glasgow",
+        "Asian Games, Hangzhou",
+        "Winter Olympics, Beijing"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which country acquired Hangor-class submarines from China in 2025, planning a Bay of Bengal deployment? (Variant 3)",
+      "options": [
+        "Myanmar",
+        "Bangladesh",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was appointed as the next Chief of Army Staff (COAS) in June? (Variant 3)",
+      "options": [
+        "Upendra Dwivedi",
+        "Manoj Pande",
+        "Dhiraj Seth",
+        "Anil Chauhan"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which player surpassed Dilip Tirkey to become India's most-capped hockey player? (Variant 3)",
+      "options": [
+        "Manpreet Singh",
+        "Harmanpreet Singh",
+        "PR Sreejesh",
+        "Sardar Singh"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "India and which country adopted the Rules of Implementation for the Joint Crediting Mechanism under the Paris Agreement? (Variant 3)",
+      "options": [
+        "USA",
+        "France",
+        "Japan",
+        "Germany"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The RBI announced an auction of what amount for VRR to manage banking liquidity advance tax outflows? (Variant 3)",
+      "options": [
+        "₹50,000 crore",
+        "₹75,000 crore",
+        "₹1 lakh crore",
+        "₹1.5 lakh crore"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which mission marked the joint Earth-observation effort between ISRO and NASA launched in 2025? (Variant 4)",
+      "options": [
+        "NISAR",
+        "Gaganyaan",
+        "SPADEX",
+        "Chandrayaan-4"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the Indian astronaut that participated in the Axiom Mission 4 to the ISS in 2025? (Variant 4)",
+      "options": [
+        "Rakesh Sharma",
+        "Shubhanshu Shukla",
+        "Ravish Malhotra",
+        "Gopi Thotakura"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which mission successfully demonstrated autonomous docking and undocking capabilities in orbit by ISRO? (Variant 4)",
+      "options": [
+        "Aditya-L1",
+        "Mangalyaan-2",
+        "SPADEX",
+        "XPoSat"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What was the record high value of indigenous defence production achieved by India in 2025-26? (Variant 4)",
+      "options": [
+        "₹1.00 lakh crore",
+        "₹1.50 lakh crore",
+        "₹1.78 lakh crore",
+        "₹2.00 lakh crore"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which initiative successfully engaged 676 startups and MSMEs by March 2026 to foster indigenous defence technology? (Variant 4)",
+      "options": [
+        "Make in India Defence",
+        "iDEX",
+        "SRIJAN",
+        "DEFEXPO"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "India is set to co-host the 2026 Men's T20 Cricket World Cup with which country? (Variant 4)",
+      "options": [
+        "Bangladesh",
+        "Sri Lanka",
+        "UAE",
+        "Australia"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who won the Major Dhyan Chand Khel Ratna award in 2025-26 for Chess? (Variant 4)",
+      "options": [
+        "Praggnanandhaa R",
+        "Gukesh D",
+        "Vidit Gujrathi",
+        "Viswanathan Anand"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who won the Major Dhyan Chand Khel Ratna award in 2025-26 for Hockey? (Variant 4)",
+      "options": [
+        "PR Sreejesh",
+        "Harmanpreet Singh",
+        "Manpreet Singh",
+        "Amit Rohidas"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which manual was introduced to streamline defence procurement and promote Atmanirbhar Bharat in 2025? (Variant 4)",
+      "options": [
+        "Defence Procurement Manual (DPM) 2025",
+        "Defence Acquisition Procedure (DAP) 2025",
+        "Make Procedure 2025",
+        "Strategic Partnership Model 2025"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which of the following is an upcoming major multi-sport event in 2026? (Variant 4)",
+      "options": [
+        "Summer Olympics, Paris",
+        "Commonwealth Games, Glasgow",
+        "Asian Games, Hangzhou",
+        "Winter Olympics, Beijing"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which country acquired Hangor-class submarines from China in 2025, planning a Bay of Bengal deployment? (Variant 4)",
+      "options": [
+        "Myanmar",
+        "Bangladesh",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was appointed as the next Chief of Army Staff (COAS) in June? (Variant 4)",
+      "options": [
+        "Upendra Dwivedi",
+        "Manoj Pande",
+        "Dhiraj Seth",
+        "Anil Chauhan"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which player surpassed Dilip Tirkey to become India's most-capped hockey player? (Variant 4)",
+      "options": [
+        "Manpreet Singh",
+        "Harmanpreet Singh",
+        "PR Sreejesh",
+        "Sardar Singh"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "India and which country adopted the Rules of Implementation for the Joint Crediting Mechanism under the Paris Agreement? (Variant 4)",
+      "options": [
+        "USA",
+        "France",
+        "Japan",
+        "Germany"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The RBI announced an auction of what amount for VRR to manage banking liquidity advance tax outflows? (Variant 4)",
+      "options": [
+        "₹50,000 crore",
+        "₹75,000 crore",
+        "₹1 lakh crore",
+        "₹1.5 lakh crore"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which mission marked the joint Earth-observation effort between ISRO and NASA launched in 2025? (Variant 5)",
+      "options": [
+        "NISAR",
+        "Gaganyaan",
+        "SPADEX",
+        "Chandrayaan-4"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was the Indian astronaut that participated in the Axiom Mission 4 to the ISS in 2025? (Variant 5)",
+      "options": [
+        "Rakesh Sharma",
+        "Shubhanshu Shukla",
+        "Ravish Malhotra",
+        "Gopi Thotakura"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which mission successfully demonstrated autonomous docking and undocking capabilities in orbit by ISRO? (Variant 5)",
+      "options": [
+        "Aditya-L1",
+        "Mangalyaan-2",
+        "SPADEX",
+        "XPoSat"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What was the record high value of indigenous defence production achieved by India in 2025-26? (Variant 5)",
+      "options": [
+        "₹1.00 lakh crore",
+        "₹1.50 lakh crore",
+        "₹1.78 lakh crore",
+        "₹2.00 lakh crore"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which initiative successfully engaged 676 startups and MSMEs by March 2026 to foster indigenous defence technology? (Variant 5)",
+      "options": [
+        "Make in India Defence",
+        "iDEX",
+        "SRIJAN",
+        "DEFEXPO"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "India is set to co-host the 2026 Men's T20 Cricket World Cup with which country? (Variant 5)",
+      "options": [
+        "Bangladesh",
+        "Sri Lanka",
+        "UAE",
+        "Australia"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who won the Major Dhyan Chand Khel Ratna award in 2025-26 for Chess? (Variant 5)",
+      "options": [
+        "Praggnanandhaa R",
+        "Gukesh D",
+        "Vidit Gujrathi",
+        "Viswanathan Anand"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who won the Major Dhyan Chand Khel Ratna award in 2025-26 for Hockey? (Variant 5)",
+      "options": [
+        "PR Sreejesh",
+        "Harmanpreet Singh",
+        "Manpreet Singh",
+        "Amit Rohidas"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which manual was introduced to streamline defence procurement and promote Atmanirbhar Bharat in 2025? (Variant 5)",
+      "options": [
+        "Defence Procurement Manual (DPM) 2025",
+        "Defence Acquisition Procedure (DAP) 2025",
+        "Make Procedure 2025",
+        "Strategic Partnership Model 2025"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which of the following is an upcoming major multi-sport event in 2026? (Variant 5)",
+      "options": [
+        "Summer Olympics, Paris",
+        "Commonwealth Games, Glasgow",
+        "Asian Games, Hangzhou",
+        "Winter Olympics, Beijing"
+      ],
+      "correct": 1,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which country acquired Hangor-class submarines from China in 2025, planning a Bay of Bengal deployment? (Variant 5)",
+      "options": [
+        "Myanmar",
+        "Bangladesh",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Who was appointed as the next Chief of Army Staff (COAS) in June? (Variant 5)",
+      "options": [
+        "Upendra Dwivedi",
+        "Manoj Pande",
+        "Dhiraj Seth",
+        "Anil Chauhan"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which player surpassed Dilip Tirkey to become India's most-capped hockey player? (Variant 5)",
+      "options": [
+        "Manpreet Singh",
+        "Harmanpreet Singh",
+        "PR Sreejesh",
+        "Sardar Singh"
+      ],
+      "correct": 0,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "India and which country adopted the Rules of Implementation for the Joint Crediting Mechanism under the Paris Agreement? (Variant 5)",
+      "options": [
+        "USA",
+        "France",
+        "Japan",
+        "Germany"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The RBI announced an auction of what amount for VRR to manage banking liquidity advance tax outflows? (Variant 5)",
+      "options": [
+        "₹50,000 crore",
+        "₹75,000 crore",
+        "₹1 lakh crore",
+        "₹1.5 lakh crore"
+      ],
+      "correct": 2,
+      "explanation": "Current Affairs 2025-2026",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Exercise 'KHANJAR' is a bilateral special forces training exercise conducted between India and which nation?",
+      "options": [
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Uzbekistan",
+        "Tajikistan"
+      ],
+      "correct": 1,
+      "explanation": "[April 2026] Exercise Khanjar is the annual bilateral special forces joint training drill conducted between India and Kyrgyzstan.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which bilateral naval exercise is conducted between the navies of India and France?",
+      "options": [
+        "Simbex",
+        "Varuna",
+        "Indra",
+        "Konkan"
+      ],
+      "correct": 1,
+      "explanation": "[April 2026] Exercise Varuna is the annual bilateral maritime exercise conducted jointly by the Indian Navy and French Navy.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which instrument is Rakesh Chaurasia famous for playing, for which he won two Grammys?",
+      "options": [
+        "Sitar",
+        "Bansuri (Flute)",
+        "Tabla",
+        "Sarod"
+      ],
+      "correct": 1,
+      "explanation": "[April 2026] Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri).",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the approximate range of the Agni-Prime (Agni-P) ballistic missile successfully tested by the SFC?",
+      "options": [
+        "500 - 800 km",
+        "1000 - 2000 km",
+        "3000 - 4000 km",
+        "5000 km"
+      ],
+      "correct": 1,
+      "explanation": "[April 2026] Agni-Prime is a medium-range canisterised ballistic missile with an operational range between 1,000 and 2,000 km.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What is the primary mission objective of NASA's Lunar Gateway program?",
+      "options": [
+        "Deep space radio telescope installation",
+        "Orion spacecraft crew habitation in lunar orbit",
+        "Mapping Mars surface topography",
+        "Mining asteroids near Earth orbit"
+      ],
+      "correct": 1,
+      "explanation": "[April 2026] The Lunar Gateway is an essential component of NASA's Artemis program, serving as a multi-purpose outpost orbiting the Moon to support long-term lunar exploration.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "IN-SPACe, the space regulator for private companies, is headquartered in which Indian city?",
+      "options": [
+        "Bengaluru",
+        "Ahmedabad",
+        "Hyderabad",
+        "Thiruvananthapuram"
+      ],
+      "correct": 1,
+      "explanation": "[April 2026] IN-SPACe is headquartered in Bopal, Ahmedabad, Gujarat.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Green Credit Programme was globally launched by India during which event?",
+      "options": [
+        "COP26 Glasgow",
+        "COP27 Sharm El-Sheikh",
+        "COP28 Dubai",
+        "COP29 Baku"
+      ],
+      "correct": 2,
+      "explanation": "[April 2026] The Global Green Credit Initiative was launched by Prime Minister Narendra Modi at the UN Climate Change Conference (COP28) in Dubai in 2023.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which was the first European country to accept UPI payments at national landmarks (like the Eiffel Tower)?",
+      "options": [
+        "Germany",
+        "France",
+        "United Kingdom",
+        "Italy"
+      ],
+      "correct": 1,
+      "explanation": "[April 2026] France was the first European nation to accept UPI, starting at the Eiffel Tower, through an agreement with Lyra Network.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which satellite series is specifically dedicated to military/civil communication, with GSAT-20 launched via a SpaceX Falcon 9?",
+      "options": [
+        "EOS Series",
+        "GSAT Series",
+        "INSAT Series",
+        "Cartosat Series"
+      ],
+      "correct": 1,
+      "explanation": "[May 2026] The GSAT (Geosynchronous Satellite) series comprises India's indigenously developed communications satellites.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "What type of missile is 'Astra Mk-1', developed by DRDO for the Indian Air Force?",
+      "options": [
+        "Surface-to-Air Missile",
+        "Air-to-Air Beyond Visual Range Missile",
+        "Anti-Radiation Missile",
+        "Cruise Missile"
+      ],
+      "correct": 1,
+      "explanation": "[May 2026] Astra is India's first indigenous Beyond Visual Range (BVR) Air-to-Air missile.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Neeraj Chopra won the Olympic Gold Medal in Javelin Throw at which Olympic Games?",
+      "options": [
+        "Rio Olympics 2016",
+        "Tokyo Olympics 2020",
+        "Paris Olympics 2024",
+        "London Olympics 2012"
+      ],
+      "correct": 1,
+      "explanation": "[May 2026] Neeraj Chopra won the historic gold medal at the Tokyo 2020 Olympic Games (held in 2021) with a throw of 87.58m.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The Great Barrier Reef is situated off the coast of which nation?",
+      "options": [
+        "New Zealand",
+        "Australia",
+        "Indonesia",
+        "Philippines"
+      ],
+      "correct": 1,
+      "explanation": "[May 2026] The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which statutory body or authority was newly approved to regulate consumer protection and enforce rights in India?",
+      "options": [
+        "CCI",
+        "CCPA",
+        "FSSAI",
+        "IRDAI"
+      ],
+      "correct": 1,
+      "explanation": "[May 2026] The Central Consumer Protection Authority (CCPA) was established under the Consumer Protection Act, 2019, to protect and enforce consumer rights.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which Article of the Constitution of India provides for the establishment of an Inter-State Council?",
+      "options": [
+        "Article 262",
+        "Article 263",
+        "Article 280",
+        "Article 312"
+      ],
+      "correct": 1,
+      "explanation": "[May 2026] Article 263 of the Constitution provides for the setting up of an Inter-State Council by the President.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Chabahar Port is located in which gulf/sea region?",
+      "options": [
+        "Persian Gulf",
+        "Gulf of Oman",
+        "Red Sea",
+        "Aden Gulf"
+      ],
+      "correct": 1,
+      "explanation": "[May 2026] Chabahar Port is located on the Makran coast of Iran, along the Gulf of Oman, offering direct access to the Indian Ocean.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "The IndiaAI Mission plans to establish a compute infrastructure of at least how many GPUs?",
+      "options": [
+        "2,000",
+        "5,000",
+        "10,000",
+        "50,000"
+      ],
+      "correct": 2,
+      "explanation": "[May 2026] The mission aims to build a public-private AI compute capacity of 10,000 or more graphics processing units (GPUs) to support research.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    }
+  ]
+}

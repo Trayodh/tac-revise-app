@@ -1,0 +1,303 @@
+{
+  "gs": [
+    {
+      "question": "Consider the following statements regarding human eye defects:\n1. Myopia is a condition where image forms in front of the retina.\n2. It can be corrected using a concave lens.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Physics. Both statements accurately describe Myopia.",
+      "topicId": "physics",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements regarding human eye defects:\n1. Hypermetropia is a condition where image forms behind the retina.\n2. It can be corrected using a convex lens.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Physics. Both statements accurately describe Hypermetropia.",
+      "topicId": "physics",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements regarding human eye defects:\n1. Presbyopia is a condition where loss of accommodation with age.\n2. It can be corrected using a bifocal lens.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Physics. Both statements accurately describe Presbyopia.",
+      "topicId": "physics",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements regarding human eye defects:\n1. Astigmatism is a condition where uneven curvature of cornea.\n2. It can be corrected using a cylindrical lens.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Physics. Both statements accurately describe Astigmatism.",
+      "topicId": "physics",
+      "exam": "CDS"
+    },
+    {
+      "question": "Which of the following is the correct composition of the alloy 'Brass'?",
+      "options": [
+        "Copper and Zinc",
+        "Copper and Nickel",
+        "Iron and Carbon",
+        "Aluminum and Magnesium"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Chemistry. Brass is an alloy primarily composed of Copper and Zinc.",
+      "topicId": "chemistry",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which of the following is the correct composition of the alloy 'Bronze'?",
+      "options": [
+        "Copper and Tin",
+        "Copper and Nickel",
+        "Iron and Carbon",
+        "Aluminum and Magnesium"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Chemistry. Bronze is an alloy primarily composed of Copper and Tin.",
+      "topicId": "chemistry",
+      "exam": "CDS"
+    },
+    {
+      "question": "Which of the following is the correct composition of the alloy 'Solder'?",
+      "options": [
+        "Lead and Tin",
+        "Copper and Nickel",
+        "Iron and Carbon",
+        "Aluminum and Magnesium"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Chemistry. Solder is an alloy primarily composed of Lead and Tin.",
+      "topicId": "chemistry",
+      "exam": "CDS"
+    },
+    {
+      "question": "Which of the following is the correct composition of the alloy 'Stainless Steel'?",
+      "options": [
+        "Iron, Carbon, Chromium, and Nickel",
+        "Copper and Nickel",
+        "Iron and Carbon",
+        "Aluminum and Magnesium"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Chemistry. Stainless Steel is an alloy primarily composed of Iron, Carbon, Chromium, and Nickel.",
+      "topicId": "chemistry",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements about 'Malaria':\n1. It is primarily transmitted by Female Anopheles mosquito.\n2. The causative pathogen is a Plasmodium.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Biology. Malaria is transmitted by Female Anopheles mosquito and caused by Plasmodium.",
+      "topicId": "biology",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements about 'Dengue':\n1. It is primarily transmitted by Aedes aegypti mosquito.\n2. The causative pathogen is a Virus.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Biology. Dengue is transmitted by Aedes aegypti mosquito and caused by Virus.",
+      "topicId": "biology",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements about 'Cholera':\n1. It is primarily transmitted by Contaminated water/food.\n2. The causative pathogen is a Vibrio.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Biology. Cholera is transmitted by Contaminated water/food and caused by Vibrio cholerae.",
+      "topicId": "biology",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements about 'Tuberculosis':\n1. It is primarily transmitted by Airborne droplets.\n2. The causative pathogen is a Mycobacterium.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Biology. Tuberculosis is transmitted by Airborne droplets and caused by Mycobacterium tuberculosis.",
+      "topicId": "biology",
+      "exam": "CDS"
+    },
+    {
+      "question": "With reference to the Indian river system, consider the following statements regarding the Narmada river:\n1. It flows in rift valley.\n2. It drains into the Arabian Sea.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography. Both statements correctly describe the Narmada river.",
+      "topicId": "geography",
+      "exam": "CDS"
+    },
+    {
+      "question": "With reference to the Indian river system, consider the following statements regarding the Tapi river:\n1. It flows parallel to vindhyas.\n2. It drains into the Arabian Sea.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography. Both statements correctly describe the Tapi river.",
+      "topicId": "geography",
+      "exam": "CDS"
+    },
+    {
+      "question": "With reference to the Indian river system, consider the following statements regarding the Mahanadi river:\n1. It forms large delta.\n2. It drains into the Bay of Bengal.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography. Both statements correctly describe the Mahanadi river.",
+      "topicId": "geography",
+      "exam": "CDS"
+    },
+    {
+      "question": "With reference to the Indian river system, consider the following statements regarding the Godavari river:\n1. It largest peninsular river.\n2. It drains into the Bay of Bengal.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography. Both statements correctly describe the Godavari river.",
+      "topicId": "geography",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements regarding the fundamental laws of motion :\n1. Newton's first law defines inertia.\n2. The rate of change of momentum is proportional to the applied force.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Physics. Both are correct statements derived from Newton's laws.",
+      "topicId": "physics",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following pairs of historical events and their associated leaders :\n1. Bardoli Satyagraha - Sardar Vallabhbhai Patel\n2. Champaran Satyagraha - Mahatma Gandhi\n3. Ramakrishna Mission - Swami Vivekananda\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2, and 3"
+      ],
+      "correct": 3,
+      "explanation": "Topic: History. All pairs are correctly matched.",
+      "topicId": "history",
+      "exam": "CDS"
+    },
+    {
+      "question": "With reference to Economics, consider the following statements :\n1. 'Stagflation' is a situation where inflation is high, economic growth rate slows, and unemployment remains steadily high.\n2. 'Deflation' is a decrease in the general price level of goods and services.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements are basic economic definitions.",
+      "topicId": "economics",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements regarding computer memory :\n1. Cache memory is faster than Main Memory (RAM).\n2. ROM is volatile memory.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Computers. ROM is non-volatile.",
+      "topicId": "computers",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements about Acids and Bases :\n1. Acids turn blue litmus red.\n2. The pH of a neutral solution is exactly 7 at 25 degrees Celsius.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Chemistry. Both are correct basic principles.",
+      "topicId": "chemistry",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements about human physiology :\n1. The liver is the largest gland in the human body.\n2. Bile is secreted by the gallbladder.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Biology. Bile is secreted by the liver and stored in the gallbladder.",
+      "topicId": "biology",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements about Monsoons in India :\n1. The Southwest Monsoon brings the majority of rainfall to India.\n2. The retreating monsoon causes rainfall in the Coromandel coast.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography. Both statements correctly describe the Indian monsoon system.",
+      "topicId": "geography",
+      "exam": "CDS"
+    }
+  ]
+}

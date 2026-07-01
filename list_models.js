@@ -1,17 +1,1 @@
-const fs = require('fs');
-
-async function listModels() {
-  const apiKey = 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
-  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`);
-  
-  if (!response.ok) {
-    const txt = await response.text();
-    console.log(`listModels failed with ${response.status}: ${txt}`);
-  } else {
-    const data = await response.json();
-    console.log("Available models:");
-    data.models.forEach(m => console.log(m.name));
-  }
-}
-
-listModels();
+const https = require('https'); require('dotenv').config(); https.get('https://generativelanguage.googleapis.com/v1beta/models?key=' + process.env.GEMINI_API_KEY, (res) => { let data = ''; res.on('data', (chunk) => data += chunk); res.on('end', () => { const parsed = JSON.parse(data); console.log(parsed.models.map(m => m.name).filter(n => n.includes('flash'))); }); });

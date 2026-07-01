@@ -1,0 +1,1954 @@
+{
+  "gs": [
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V1)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V1)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V1)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V1)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V1)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V1)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V1)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V1)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V1)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V1)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V2)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V2)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V2)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V2)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V2)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V2)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V2)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V2)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V2)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V2)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V3)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V3)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V3)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V3)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V3)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V3)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V3)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V3)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V3)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V3)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V4)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V4)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V4)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V4)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V4)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V4)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V4)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V4)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V4)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V4)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V5)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V5)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V5)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V5)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V5)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V5)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V5)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V5)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V5)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V5)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V6)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V6)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V6)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V6)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V6)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V6)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V6)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V6)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V6)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V6)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V7)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V7)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V7)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V7)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V7)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V7)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V7)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V7)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V7)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V7)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V8)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V8)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V8)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V8)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V8)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V8)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V8)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V8)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V8)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V8)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V9)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V9)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V9)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V9)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V9)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V9)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V9)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V9)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V9)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V9)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V10)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V10)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V10)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V10)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V10)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V10)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V10)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V10)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V10)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V10)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V11)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V11)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V11)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V11)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V11)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V11)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V11)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V11)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V11)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V11)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V12)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V12)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V12)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V12)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V12)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V12)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V12)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V12)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V12)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V12)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V13)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V13)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V13)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V13)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V13)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V13)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V13)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V13)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V13)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V13)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V14)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V14)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V14)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V14)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V14)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V14)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V14)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V14)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V14)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V14)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court of India:\n1. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court.\n2. The 'Basic Structure Doctrine' was famously established in the Kesavananda Bharati case.\nWhich of the statements given above is/are correct? (2026 Trend V15)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Polity (CA Trends). Both Article 124 and the Kesavananda Bharati case are foundational to Indian Judiciary.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to recent defense acquisitions, consider the following statements:\n1. The MQ-9B Predator drones are procured from the United States.\n2. The C-295 aircraft final assembly line in Vadodara is India's first private sector military assembly facility.\nWhich of the statements given above is/are correct? (2026 Trend V15)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense CA. Both statements represent major 2026 defense milestones.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Biodiversity Hotspots in India:\n1. The Western Ghats and Sundaland are recognized as Biodiversity Hotspots.\n2. To qualify as a hotspot, a region must have at least 1500 endemic vascular plants.\nWhich of the statements given above is/are correct? (2026 Trend V15)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment. India has 4 hotspots: Himalayas, Indo-Burma, Western Ghats, Sundaland. Myers' criteria requires >1500 endemic plants.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Red Sea Crisis, the Bab-el-Mandeb Strait connects the Red Sea to which of the following bodies of water? (2026 Trend V15)",
+      "options": [
+        "Mediterranean Sea",
+        "Persian Gulf",
+        "Gulf of Aden",
+        "Black Sea"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Geography/CA. The Bab-el-Mandeb Strait connects the Red Sea to the Gulf of Aden and the Arabian Sea.",
+      "topicId": "geography",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements about ISRO's space missions:\n1. The LVM3 is India's heaviest launch vehicle.\n2. Aditya-L1 is designed to study the solar corona.\nWhich of the statements given above is/are correct? (2026 Trend V15)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Science & Tech. Both LVM3 and Aditya-L1 are critical recent ISRO milestones.",
+      "topicId": "physics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Project Cheetah', consider the following statements:\n1. African Cheetahs were translocated to Kuno National Park.\n2. The Cheetah is listed as 'Critically Endangered' on the IUCN Red List.\nWhich of the statements given above is/are correct? (2026 Trend V15)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "Topic: Environment. African cheetahs are 'Vulnerable', while Asiatic cheetahs are 'Critically Endangered'.",
+      "topicId": "biology",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding Economic Measures:\n1. The 'Digital Rupee' (e-Rupee) is issued by the Reserve Bank of India.\n2. Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects.\nWhich of the statements given above is/are correct? (2026 Trend V15)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Economics. Both statements align with recent Union Budget and RBI MPC trends.",
+      "topicId": "economics",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to the Environment Protection Act, 1986, consider the following:\n1. It serves as an 'umbrella' legislation for environmental protection in India.\n2. The 'EIA Notification 2006' was issued under the provisions of this Act.\nWhich of the statements given above is/are correct? (2026 Trend V15)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Environment Laws. The EPA 1986 is the parent act for the EIA framework.",
+      "topicId": "polity",
+      "exam": "ALL"
+    },
+    {
+      "question": "Consider the following statements regarding the 'Loss and Damage Fund':\n1. It was officially operationalized at COP28.\n2. It aims to provide financial assistance to vulnerable nations facing severe climate impacts.\nWhich of the statements given above is/are correct? (2026 Trend V15)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: International Treaties (CA). A major outcome of recent UNFCCC COP summits.",
+      "topicId": "current affairs",
+      "exam": "ALL"
+    },
+    {
+      "question": "With reference to 'Mission Divyastra', consider the following statements:\n1. It relates to the successful flight test of the Agni-V missile.\n2. It features Multiple Independently Targetable Re-entry Vehicle (MIRV) technology.\nWhich of the statements given above is/are correct? (2026 Trend V15)",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Topic: Defense Tech. Mission Divyastra was the first test of Agni-V with MIRV capability.",
+      "topicId": "physics",
+      "exam": "ALL"
+    }
+  ]
+}

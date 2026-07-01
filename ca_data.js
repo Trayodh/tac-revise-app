@@ -39,6 +39,49 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
+    visit: "BEL Artillery Fuses Contract",
+    period: "June 2026",
+    purpose: "Rs 5,336 crore deal for electronic fuses for artillery guns.",
+    deals: "Massive boost to Make in India and Atmanirbhar Bharat in defence manufacturing. Reduces import dependency for critical ammunition components.",
+  },
+  {
+    visit: "Indo-French Naval Exercise 'Varuna'",
+    period: "June 2026",
+    purpose: "21st edition bilateral exercise in the Arabian Sea.",
+    deals: "Focus on advanced anti-submarine warfare (ASW), air defence exercises, and interoperability to secure critical sea lanes in the Indian Ocean Region.",
+  },
+  {
+    visit: "Akash-NG Missile Test",
+    period: "June 2026",
+    purpose: "Successful flight test by DRDO from ITR Odisha.",
+    deals: "Validates the next-generation surface-to-air missile with an active electronically scanned array (AESA) radar. Enhances Indian Air Force's intercept capabilities against agile aerial threats.",
+  },
+  {
+    visit: "Indo-US Joint Special Forces Exercise 'Vajra Prahar'",
+    period: "April 2026",
+    purpose: "15th edition bilateral exercise at Special Forces Training School (SFTS), Bakloh.",
+    deals: "Focused on counter-terrorism operations, cross-border infiltration tactics, and special helicopter-borne operations. Enhances strategic partnership in the Indo-Pacific.",
+  },
+  {
+    visit: "DefConnect 2026 & iDEX Expansion",
+    period: "April 2026",
+    purpose: "Ministry of Defence launch of ADITI scheme (Acing Development of Innovative Technologies with iDEX).",
+    deals: "Rs 750 crore allocated for startups to develop niche military technologies, including swarm drones, secure quantum communications, and AI-based surveillance.",
+  },
+  {
+    visit: "BrahMos Supersonic Cruise Missile Export to Philippines",
+    period: "May 2026",
+    purpose: "First batch of BrahMos missiles delivered to the Philippine Marine Corps.",
+    deals: "Historic $375 million deal marking India's biggest defence export. Boosts India's image as a reliable defence exporter and strengthens deterrence in the South China Sea.",
+  },
+  {
+    visit: "Commissioning of INS Jatayu",
+    period: "May 2026",
+    purpose: "New naval base commissioned at Minicoy Island, Lakshadweep.",
+    deals: "Strategic base to monitor commercial shipping and secure sea lines of communication in the western Indian Ocean, countering the Maldives' shifting geopolitical stance.",
+  },
+
+  {
     visit: "French President Emmanuel Macron to India",
     period: "Jan 2026",
     purpose: "Republic Day Chief Guest & Bilateral Summit.",

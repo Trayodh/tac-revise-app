@@ -12,7 +12,7 @@ const pdfParse = require('pdf-parse');
 // Basic in-memory rate limiter (15 requests per minute per IP)
 const rateLimitMap = new Map();
 const RATE_LIMIT_WINDOW_MS = 60000;
-const MAX_REQUESTS_PER_WINDOW = 15;
+const MAX_REQUESTS_PER_WINDOW = 200;
 
 // Cache for Daily Current Affairs (keyed by date string)
 let dailyNewsCache = { date: '', data: null };
@@ -163,15 +163,24 @@ Rules:
 - Return ONLY a raw JSON array of objects with: { "index": <number or null>, "title": "<news title>", "topic": "<topic area name>", "topicColor": "<hex color from ${JSON.stringify(topicColorMap)}>" }.
 - Do not include markdown fences or any formatting other than valid JSON.`;
 
-    const models = ['gemini-2.5-flash', 'gemini-2.0-flash'];
+    const models = ['gemini-2.5-flash', 'gemini-3.5-flash', 'gemini-flash-lite-latest'];
     let selectionList = null;
 
     for (const model of models) {
       try {
-        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
+        const isOAuthToken = GEMINI_API_KEY.startsWith('ya29.');
+        const apiUrl = isOAuthToken 
+          ? `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`
+          : `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
+        
+        const headers = { 'Content-Type': 'application/json' };
+        if (isOAuthToken) {
+          headers['Authorization'] = `Bearer ${GEMINI_API_KEY}`;
+        }
+
         const gemRes = await fetch(apiUrl, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: headers,
           body: JSON.stringify({
             contents: [{ parts: [{ text: selectionPrompt }] }],
             generationConfig: { temperature: 0.1, response_mime_type: 'application/json' }
@@ -193,7 +202,13 @@ Rules:
     }
 
     if (!selectionList || !Array.isArray(selectionList) || selectionList.length === 0) {
-      throw new Error('Failed to select news items');
+      console.warn('[AUTO-UPDATE] Gemini selection failed or key is missing. Using fallback selection.');
+      selectionList = rawItems.slice(0, 6).map((item, idx) => ({
+        index: idx,
+        title: item.title,
+        topic: UPSC_TOPIC_CATEGORIES[idx % UPSC_TOPIC_CATEGORIES.length].name,
+        topicColor: UPSC_TOPIC_CATEGORIES[idx % UPSC_TOPIC_CATEGORIES.length].color
+      }));
     }
 
     console.log(`[AUTO-UPDATE] Selected ${selectionList.length} items for detail generation.`);
@@ -272,9 +287,12 @@ Rules:
       for (const model of models) {
         try {
           const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
+          
+          const headers = { 'Content-Type': 'application/json' };
+
           const gemRes = await fetch(apiUrl, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: headers,
             body: JSON.stringify({
               contents: [{ parts: [{ text: detailPrompt }] }],
               generationConfig: { temperature: 0.1, response_mime_type: 'application/json' }
@@ -301,7 +319,38 @@ Rules:
     await Promise.all(cardPromises);
 
     if (generatedCards.length === 0) {
-      throw new Error('Failed to generate details for any cards');
+      console.warn('[AUTO-UPDATE] Gemini card generation failed or key is missing. Using fallback cards.');
+      selectionList.forEach((selected, idx) => {
+        const originalItem = selected.index !== null ? rawItems[selected.index] : null;
+        generatedCards.push({
+          "id": `ca_live_${today.replace(/-/g, '_')}_fallback_${idx}`,
+          "topic": selected.topic,
+          "topicColor": selected.topicColor,
+          "summary": originalItem ? (originalItem.description.substring(0, 150) + '...') : 'Intelligence feed unavailable.',
+          "text": `<strong>${selected.title}</strong><br><br>${originalItem ? originalItem.description : 'No description available.'} <br><a href="${originalItem ? originalItem.link : '#'}" target="_blank" style="color:var(--accent);">Read Original Release</a>`,
+          "quickSummary": "Quick AI summary is currently offline due to an expired API key uplink.",
+          "detailedAnalysis": "Deep-dive analysis is currently offline. Please refer to official sources or read the full article by following the official link.",
+          "backgroundContext": "Background context is offline.",
+          "stakeholders": ["India", "Global Community"],
+          "examRelevanceMatrix": { "NDA": "Medium", "CDS": "Medium", "AFCAT": "Medium", "CAPF": "Medium", "UPSC": "Medium" },
+          "relatedTopics": [],
+          "potentialQuestions": { "shortAnswers": [], "interviewQuestions": [], "ssbDiscussionTopics": [] },
+          "upscHighlights": ["Standard news item (AI highlighting offline)"],
+          "institutionalContext": "Official Press Release / News",
+          "strategicImportance": "Please read the full official release for strategic context.",
+          "originalSource": "PIB / Government Source",
+          "publicationDate": today,
+          "lastUpdatedDate": today,
+          "verificationStatus": "Raw Feed (AI Unverified)",
+          "relatedOfficialDocuments": originalItem ? originalItem.link : "",
+          "mcq": {
+            "question": `Which of the following best describes the core subject of the recent news "${selected.title}"?`,
+            "options": ["A (Details missing due to offline AI)", "B", "C", "D"],
+            "correct": 0,
+            "explanation": "MCQ auto-generation requires an active AI uplink."
+          }
+        });
+      });
     }
 
     console.log(`[AUTO-UPDATE] Successfully generated ${generatedCards.length} cards.`);
@@ -443,7 +492,7 @@ const server = http.createServer((req, res) => {
       try {
         console.log(`[PROXY] Received request for Gemini API. Payload size: ${(body.length / 1024).toFixed(2)} KB`);
         const payload = JSON.parse(body);
-        let { model, contents, stream, generationConfig } = payload;
+        let { model, contents, stream, generationConfig, tools, systemInstruction } = payload;
         
         // Map older/unsupported models to currently supported ones
         if (model === 'gemini-1.5-flash') {
@@ -582,15 +631,9 @@ ${textPrompt}`;
         // Forward to Gemini API with a robust server-side fallback and retry loop
         const modelsToTry = [
           model,
-          'gemini-3-flash-preview',
-          'gemini-3-pro-preview',
-          'gemini-3.1-pro-preview',
           'gemini-2.5-flash',
-          'gemini-3.1-flash-lite',
-          'gemini-2.0-flash',
-          'gemini-2.0-flash-lite',
           'gemini-3.5-flash',
-          'gemini-2.5-pro'
+          'gemini-flash-lite-latest'
         ];
         // Remove duplicates and filter out nulls/undefined
         const uniqueModels = [...new Set(modelsToTry.filter(Boolean))];
@@ -603,8 +646,16 @@ ${textPrompt}`;
         for (let attempt = 1; attempt <= maxRetries; attempt++) {
           for (const currentModel of uniqueModels) {
             console.log(`[PROXY] Sending request to Gemini API (Attempt ${attempt}/${maxRetries}) using model: ${currentModel}...`);
-            const endpoint = stream ? ':streamGenerateContent?alt=sse&key=' : ':generateContent?key=';
-            const targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}${endpoint}${GEMINI_API_KEY}`;
+            const isOAuthToken = GEMINI_API_KEY.startsWith('ya29.');
+            const endpoint = stream ? ':streamGenerateContent?alt=sse' : ':generateContent';
+            const authQuery = isOAuthToken ? '' : (stream ? `&key=${GEMINI_API_KEY}` : `?key=${GEMINI_API_KEY}`);
+            const targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}${endpoint}${authQuery}`;
+            
+            const reqHeaders = { 'Content-Type': 'application/json' };
+            if (isOAuthToken) {
+              reqHeaders['Authorization'] = `Bearer ${GEMINI_API_KEY}`;
+            }
+
             const startTime = Date.now();
             const requestPayload = { 
               contents,
@@ -615,10 +666,13 @@ ${textPrompt}`;
               }
             };
 
+            if (tools) requestPayload.tools = tools;
+            if (systemInstruction) requestPayload.systemInstruction = systemInstruction;
+
             try {
               apiResponse = await fetch(targetUrl, {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
+                headers: reqHeaders,
                 body: JSON.stringify(requestPayload)
               });
               
@@ -774,6 +828,7 @@ ${textPrompt}`;
   }
 
   // Static files server
+  console.log(`[STATIC] ${req.method} ${req.url}`);
   let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : decodeURIComponent(req.url.split('?')[0]));
   
   // Basic security check: prevent path traversal outside workspace
@@ -793,15 +848,41 @@ ${textPrompt}`;
     const ext = path.extname(filePath).toLowerCase();
     const contentType = MIME_TYPES[ext] || 'application/octet-stream';
     
-    res.writeHead(200, { 'Content-Type': contentType });
-    const stream = fs.createReadStream(filePath);
-    stream.pipe(res);
+    res.writeHead(200, { 
+      'Content-Type': contentType,
+      'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+      'Pragma': 'no-cache',
+      'Expires': '0'
+    });
+    if (ext === '.html' || ext === '') {
+      let content = fs.readFileSync(filePath, 'utf8');
+      // Automatically bust the cache for all script/css tags in index.html
+      content = content.replace(/\?v=\d+/g, '?v=' + Date.now());
+      res.end(content);
+    } else {
+      const stream = fs.createReadStream(filePath);
+      stream.pipe(res);
+    }
   });
 });
 
 server.timeout = 600000; // 10 minutes
 server.keepAliveTimeout = 600000;
 server.headersTimeout = 601000;
+
+// ── Data Integrity Gate ──────────────────────────────────────────────
+// Validates the question database before allowing the server to start.
+// Catches duplicates, wrong-subject questions, garbled text, bad answers.
+const { runValidation } = require('./validate_questions');
+const validationResult = runValidation();
+
+if (!validationResult.success) {
+  console.error('\n[SERVER] ⛔ Server startup BLOCKED due to data integrity errors.');
+  console.error('[SERVER] Run `node validate_questions.js` for the full report.');
+  console.error('[SERVER] Fix the errors in data.js, then restart.\n');
+  process.exit(1);
+}
+// ─────────────────────────────────────────────────────────────────────
 
 server.listen(PORT, () => {
   console.log(`Tac-Revise Server running at http://localhost:${PORT}`);
@@ -820,3 +901,4 @@ server.listen(PORT, () => {
       .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update failed:", err));
   }, 24 * 60 * 60 * 1000); // every 24 hours
 });
+

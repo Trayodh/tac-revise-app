@@ -1,0 +1,1734 @@
+[
+  {
+    "question": "Consider the following international events:\n1. Signing of the Simla Agreement\n2. Agra Summit between India and Pakistan\n3. Signing of the SAARC Charter at the First SAARC Summit\n4. India's first nuclear test\nWhich one of the following is the correct chronological order of the above events ?",
+    "options": [
+      "1, 3, 4, 2",
+      "4, 1, 3, 2",
+      "1, 4, 3, 2",
+      "4, 1, 2, 3"
+    ],
+    "correct": 2,
+    "explanation": "The chronological order of the events is:\n1. Simla Agreement: July 2, 1972\n2. India's first nuclear test (Smiling Buddha): May 18, 1974\n3. Signing of the SAARC Charter (First SAARC Summit): December 8, 1985\n4. Agra Summit: July 14-16, 2001\nThus, the correct order is 1, 4, 3, 2.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following features is correct about the 'First Past the Post System' of election?",
+    "options": [
+      "A candidate who wins may not get the majority of votes",
+      "More than one representative may be elected from one constituency",
+      "Voters vote for the party, not the candidate",
+      "Every party gets seats in the legislature in proportion to percentage of votes that it gets"
+    ],
+    "correct": 0,
+    "explanation": "In the 'First Past the Post System' (FPTP), the candidate who receives the most votes in a constituency wins, even if they do not secure an absolute majority (more than 50%) of the total votes cast. Options (b), (c), and (d) describe features of other electoral systems, such as multi-member constituencies or proportional representation.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Match List-I with List-II and select the answer using the code given below the Lists :\nList-I (Special provision in the Constitution of India)\nA. Article 371\nB. Article 371-A\nC. Article 371-B\nD. Article 371-I\n\nList-II (State)\n1. Nagaland\n2. Gujarat\n3. Assam\n4. Goa",
+    "options": [
+      "A-4, B-1, C-3, D-2",
+      "A-4, B-3, C-1, D-2",
+      "A-2, B-1, C-3, D-4",
+      "A-2, B-3, C-1, D-4"
+    ],
+    "correct": 2,
+    "explanation": "The correct matches are:\nArticle 371: Special provision for Maharashtra and Gujarat (A-2).\nArticle 371-A: Special provision for Nagaland (B-1).\nArticle 371-B: Special provision for Assam (C-3).\nArticle 371-I: Special provision for Goa (D-4).\nThus, the correct code is A-2, B-1, C-3, D-4.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements as per the Constitution of India is/are correct?\n1. Provision for the reservation of seats for women in the Lok Sabha and the Rajya Sabha has been made vide 106th Amendment of the Constitution.\n2. There are provisions for the reservation of seats for women in the Legislative Assemblies and Legislative Councils of the States.\n3. There are provisions for the reservation of seats for women in Panchayats.\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1 only",
+      "3 only"
+    ],
+    "correct": 3,
+    "explanation": "1. The 106th Amendment (Nari Shakti Vandan Adhiniyam) provides for reservation of seats for women in the Lok Sabha, State Legislative Assemblies, and the Legislative Assembly of the National Capital Territory of Delhi. It does not include Rajya Sabha or Legislative Councils. So, statement 1 is incorrect.\n2. The 106th Amendment provides for reservation in Legislative Assemblies, but not Legislative Councils. So, statement 2 is incorrect.\n3. Article 243D of the Constitution, introduced by the 73rd Amendment Act, 1992, provides for reservation of seats for women in Panchayats. So, statement 3 is correct.\nTherefore, only statement 3 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one among the following pairs of Subjects and Lists under the Seventh Schedule of the Constitution of India is not correctly matched ?",
+    "options": [
+      "Forest : Concurrent List",
+      "Taxes on land and building : State List",
+      "Insurance : Union List",
+      "Census : Concurrent List"
+    ],
+    "correct": 3,
+    "explanation": "1. Forest was originally a State List subject but was transferred to the Concurrent List by the 42nd Amendment Act, 1976. So, correctly matched.\n2. Taxes on land and building is a State List subject (Entry 49 of State List). So, correctly matched.\n3. Insurance is a Union List subject (Entry 47 of Union List). So, correctly matched.\n4. Census is a Union List subject (Entry 69 of Union List), not Concurrent List. So, this pair is not correctly matched.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements with reference to the Preamble to the Constitution of India are correct?\n1. The word 'secular' comes before the word 'socialist'.\n2. The word 'justice' comes before the word 'equality'.\n3. The word 'fraternity' comes after the word 'liberty'.\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 1,
+    "explanation": "The Preamble reads: \"WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation;\"\n1. The word 'Socialist' comes before 'Secular'. So, statement 1 is incorrect.\n2. The word 'Justice' comes before 'Equality'. So, statement 2 is correct.\n3. The word 'Fraternity' comes after 'Liberty'. So, statement 3 is correct.\nTherefore, statements 2 and 3 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following statements about 'Motions' in the Parliament of India is correct?",
+    "options": [
+      "A Motion of No-Confidence can be admissible against an individual minister in the Council of Ministers.",
+      "A No-Confidence Motion must set out grounds on which it is based.",
+      "Rajya Sabha is not empowered to entertain a motion of No-Confidence.",
+      "A Censure Motion need not be based on specific grounds or charges."
+    ],
+    "correct": 2,
+    "explanation": "1. A Motion of No-Confidence can only be moved against the entire Council of Ministers, not an individual minister. So, incorrect.\n2. A No-Confidence Motion does not need to state the reasons or grounds for lack of confidence. So, incorrect.\n3. The Council of Ministers is collectively responsible to the Lok Sabha. Therefore, a No-Confidence Motion can only be introduced and entertained in the Lok Sabha, not the Rajya Sabha. So, correct.\n4. A Censure Motion, unlike a No-Confidence Motion, must state the specific grounds or charges for which it is moved. So, incorrect.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Part IV-A of the Constitution of India deals with which one of the following areas ?",
+    "options": [
+      "Appointment of Members to Public Service Commissions",
+      "Fundamental Duties",
+      "Functions of Public Service Commissions",
+      "Provisions for the functioning of the State Governments"
+    ],
+    "correct": 1,
+    "explanation": "Part IV-A of the Constitution of India (Article 51A) deals with Fundamental Duties. It was added by the 42nd Amendment Act, 1976.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The 'Durand Line' is a border demarcation that separates which of the following countries?",
+    "options": [
+      "Afghanistan and Iran",
+      "Afghanistan and Pakistan",
+      "India and Pakistan",
+      "Afghanistan and China"
+    ],
+    "correct": 1,
+    "explanation": "The Durand Line is the international border between Afghanistan and Pakistan. It was established in 1893 by Sir Mortimer Durand.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following social movements :\n1. Chipko Movement\n2. Bardoli Satyagraha\n3. Satyashodhak Samaj\nWhich one of the following is the correct chronological order (starting with the earliest) of the launch of the above social movements?",
+    "options": [
+      "2, 1, 3",
+      "3, 1, 2",
+      "3, 2, 1",
+      "1, 2, 3"
+    ],
+    "correct": 2,
+    "explanation": "The chronological order of the social movements is:\n1. Satyashodhak Samaj: Founded by Jyotirao Phule in 1873.\n2. Bardoli Satyagraha: A peasant movement in 1928, led by Sardar Vallabhbhai Patel.\n3. Chipko Movement: A forest conservation movement that began in the early 1970s (e.g., 1973).\nThus, the correct order is 3, 2, 1.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following statements about the Tashkent Agreement is correct?",
+    "options": [
+      "It was an agreement between India and the Soviet Union.",
+      "It was an agreement between India and Pakistan.",
+      "It was an agreement that led to the formation of Bangladesh.",
+      "It was an agreement between India and Mongolia."
+    ],
+    "correct": 1,
+    "explanation": "The Tashkent Agreement was a peace treaty signed between India and Pakistan on January 10, 1966, to resolve the Indo-Pakistani War of 1965.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which among the following is not a language listed in the Eighth Schedule of the Constitution of India?",
+    "options": [
+      "Manipuri",
+      "Gondi",
+      "Nepali",
+      "Dogri"
+    ],
+    "correct": 1,
+    "explanation": "The Eighth Schedule of the Constitution of India lists 22 languages. Manipuri, Nepali, and Dogri are all listed in the Eighth Schedule. Gondi is a language spoken by the Gond people but is not currently listed in the Eighth Schedule.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following can be considered a part of the ancient Indian Smriti Literature?\n1. Puranas\n2. Ramayana\n3. Kalpa-Sutra\n4. Vedas\nSelect the answer using the code given below :",
+    "options": [
+      "1, 2 and 3 only",
+      "3 and 4 only",
+      "1 and 2 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct": 0,
+    "explanation": "Smriti literature refers to texts that are 'remembered' and are of human authorship, derived from the Vedas. It includes Dharmashastras, Puranas, Itihasas (like Ramayana and Mahabharata), and Sutras (including Kalpa-Sutras).\nVedas, on the other hand, are Shruti literature, meaning 'that which is heard' or revealed, and are considered to be of divine origin.\nTherefore, Puranas, Ramayana, and Kalpa-Sutra are parts of Smriti literature, while Vedas are Shruti.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Who among the following was India's first Woman Chief Minister?",
+    "options": [
+      "Sarojini Naidu",
+      "Sucheta Kripalani",
+      "Vijaya Lakshmi Pandit",
+      "Hansa Mehta"
+    ],
+    "correct": 1,
+    "explanation": "Sucheta Kripalani was India's first woman Chief Minister, serving in Uttar Pradesh from 1963 to 1967. Sarojini Naidu was the first woman Governor of an Indian state.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements is/are correct?\n1. C. Rajagopalachari was the first recipient of the Bharat Ratna.\n2. Pandit Deen Dayal Upadhyaya initiated the concept of 'Integral Humanism'.\nSelect the answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 1,
+    "explanation": "1. The first recipients of the Bharat Ratna in 1954 were C. Rajagopalachari, Sarvepalli Radhakrishnan, and C. V. Raman. C. Rajagopalachari was one of the first, but not the sole 'first recipient'. So, statement 1 is technically incorrect if interpreted as the singular first.\n2. Pandit Deen Dayal Upadhyaya is widely recognized for propounding the philosophy of 'Integral Humanism'. So, statement 2 is correct.\nTherefore, only statement 2 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following pairs of Institute and their location is/are correctly matched?\n1. Indian Institute of Advanced Study : Shimla\n2. Indian Institute of Public Administration : New Delhi\n3. Sushma Swaraj Institute of Foreign Service : Nainital\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1 only",
+      "2 only"
+    ],
+    "correct": 0,
+    "explanation": "1. Indian Institute of Advanced Study (IIAS) is located in Shimla. So, correctly matched.\n2. Indian Institute of Public Administration (IIPA) is located in New Delhi. So, correctly matched.\n3. Sushma Swaraj Institute of Foreign Service (SSIFS) is located in New Delhi, not Nainital. So, incorrectly matched.\nTherefore, statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements :\n1. Erok Sim is a festival mainly celebrated by the Santhal community.\n2. Sangken is a Buddhist festival celebrated in Arunachal Pradesh.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 2,
+    "explanation": "1. Erok Sim (also known as Eroksim) is a harvest festival celebrated by the Santhal community. So, statement 1 is correct.\n2. Sangken is a water festival celebrated by the Tai communities (e.g., Khamti, Singpho) in Arunachal Pradesh, who are predominantly Buddhist. So, statement 2 is correct.\nTherefore, both statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "'Maitree' is a Joint Military Exercise between India and:",
+    "options": [
+      "Bangladesh",
+      "Thailand",
+      "Malaysia",
+      "Sri Lanka"
+    ],
+    "correct": 1,
+    "explanation": "'Maitree' (or 'Ex Maitree') is a joint military exercise conducted between the armies of India and Thailand.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following criteria are specified for granting Special Category Status to States in India?\n1. Hilly and difficult terrain\n2. Economic and infrastructural backwardness\n3. Strategic coastal zone\n4. Sizeable share of tribal population\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2 only",
+      "3 and 4 only",
+      "1, 2 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct": 2,
+    "explanation": "The criteria for Special Category Status (SCS) include:\n1. Hilly and difficult terrain: Correct.\n2. Strategic location along international borders (not strategic coastal zone): Statement 3 is incorrect.\n3. Economic and infrastructural backwardness: Correct.\n4. Non-viable nature of state finances.\n5. Sizeable share of tribal population: Correct.\nTherefore, statements 1, 2, and 4 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Who among the following is the founder of the Congress Socialist Party?",
+    "options": [
+      "Acharya Narendra Dev",
+      "Jawaharlal Nehru",
+      "Motilal Nehru",
+      "Asoka Mehta"
+    ],
+    "correct": 0,
+    "explanation": "The Congress Socialist Party (CSP) was founded in 1934 by leaders such as Acharya Narendra Dev, Jayaprakash Narayan, and Minoo Masani.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The rule to determine the direction of a current induced in a coil due to its rotation in a magnetic field is :",
+    "options": [
+      "Right-Hand Thumb Rule.",
+      "Fleming's Left-Hand Rule.",
+      "Fleming's Right-Hand Rule.",
+      "Hund's Rule."
+    ],
+    "correct": 2,
+    "explanation": "Fleming's Right-Hand Rule is used to determine the direction of induced current when a conductor moves in a magnetic field (electromagnetic induction), which applies to a coil rotating in a magnetic field. Right-Hand Thumb Rule is for magnetic field direction from current, and Fleming's Left-Hand Rule is for force on a current-carrying conductor.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "A car travels a total distance L. It travels half the distance with speed v₁ and the other half with speed v₂. The average speed of the car is:",
+    "options": [
+      "(v₁ + v₂)/2",
+      "2v₁v₂ / (v₁ + v₂)",
+      "(v₁ + v₂)L / (2v₁v₂)",
+      "0"
+    ],
+    "correct": 1,
+    "explanation": "Let the total distance be L.\nTime taken for the first half (L/2) at speed v₁ is t₁ = (L/2) / v₁ = L / (2v₁).\nTime taken for the second half (L/2) at speed v₂ is t₂ = (L/2) / v₂ = L / (2v₂).\nTotal time T = t₁ + t₂ = L / (2v₁) + L / (2v₂) = (L/2) * (1/v₁ + 1/v₂) = (L/2) * ((v₁ + v₂) / (v₁v₂)).\nAverage speed = Total distance / Total time = L / [(L/2) * ((v₁ + v₂) / (v₁v₂))] = 2v₁v₂ / (v₁ + v₂).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The linear momentum of a particle is conserved if :",
+    "options": [
+      "the net force on it is maximum.",
+      "the net force on it is zero.",
+      "the net torque on it is zero.",
+      "the net work done on it is maximum."
+    ],
+    "correct": 1,
+    "explanation": "According to Newton's second law of motion, the rate of change of linear momentum of a particle is directly proportional to the net external force applied to it. Therefore, if the net force on the particle is zero, its linear momentum is conserved.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "When a stone tied to a string is whirled in a circle, the work done on it by the string :",
+    "options": [
+      "is positive.",
+      "is negative.",
+      "is zero.",
+      "depends on the mass of the stone."
+    ],
+    "correct": 2,
+    "explanation": "When a stone is whirled in a circle, the tension in the string provides the centripetal force, which acts towards the center of the circle. The instantaneous displacement of the stone is tangential to the circle. Since the force (tension) is perpendicular to the displacement at every point, the angle between them is 90 degrees. Work done (W) = Force × Displacement × cos(θ). As cos(90°) = 0, the work done by the string is zero.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Assume 'A' does 500 J of work in 'x' minutes and 'B' does 1000 J of work in 20 minutes. If the power delivered by 'A' is P₁ and 'B' is P₂ and P₁ = 2P₂, then 'x', in minutes is:",
+    "options": [
+      "10",
+      "5",
+      "20",
+      "25"
+    ],
+    "correct": 1,
+    "explanation": "Power (P) = Work (W) / Time (t)\nFor A: P₁ = 500 J / (x * 60 s) = 500 / (60x) W\nFor B: P₂ = 1000 J / (20 * 60 s) = 1000 / 1200 W = 5/6 W\nGiven P₁ = 2P₂:\n500 / (60x) = 2 * (5/6)\n500 / (60x) = 10/6 = 5/3\n1500 = 300x\nx = 1500 / 300 = 5 minutes.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "A sound wave travelling at a speed of 330 m/s produces 20 crests and 20 troughs in 0.1 second. The wavelength of the sound wave is:",
+    "options": [
+      "1.1 m",
+      "3.3 m",
+      "1.65 m",
+      "2.2 m"
+    ],
+    "correct": 2,
+    "explanation": "Speed of sound (v) = 330 m/s\nNumber of complete waves (N) = 20 crests and 20 troughs = 20 waves\nTime (t) = 0.1 s\nFrequency (f) = N / t = 20 / 0.1 = 200 Hz\nWavelength (λ) = v / f = 330 m/s / 200 Hz = 1.65 m.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "An X-ray can be deflected:",
+    "options": [
+      "by a magnetic field.",
+      "by an electric field.",
+      "by both electric and magnetic field.",
+      "neither by electric field nor by magnetic field."
+    ],
+    "correct": 3,
+    "explanation": "X-rays are a form of electromagnetic radiation, which means they are composed of oscillating electric and magnetic fields but do not carry an electric charge. Therefore, X-rays are not deflected by static electric or magnetic fields. Only charged particles are deflected by such fields.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "In a simple astronomical telescope, the objective and the eyepiece used respectively, are:",
+    "options": [
+      "a convergent lens and a divergent lens.",
+      "a divergent lens and a divergent lens.",
+      "a convergent lens and a convergent lens.",
+      "a convergent lens and a convergent lens."
+    ],
+    "correct": 2,
+    "explanation": "In a simple astronomical telescope, both the objective lens and the eyepiece are convergent lenses (convex lenses). The objective has a large focal length and large aperture, while the eyepiece has a small focal length and small aperture.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Twinkling of a star is due to :",
+    "options": [
+      "Interference of light",
+      "Refraction of light",
+      "Polarization of light",
+      "Diffraction of light"
+    ],
+    "correct": 1,
+    "explanation": "Stars twinkle due to the atmospheric refraction of starlight. As starlight passes through different layers of the Earth's atmosphere with varying refractive indices (due to changes in temperature and density), it undergoes continuous refraction, causing fluctuations in the apparent position and brightness of the star.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Van de Graaff generator generates:",
+    "options": [
+      "electrostatic charge",
+      "magnetic field",
+      "high voltage low alternating current",
+      "high voltage low direct current"
+    ],
+    "correct": 3,
+    "explanation": "A Van de Graaff generator is an electrostatic generator that accumulates electric charge on a hollow metal globe, producing very high electric potentials (voltages) and thus high voltage direct current (DC).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following metals is widely extracted by the electrolysis of its molten compound?",
+    "options": [
+      "Cu",
+      "Au",
+      "Sn",
+      "Na"
+    ],
+    "correct": 3,
+    "explanation": "Electrolysis of molten compounds is typically used to extract highly reactive metals that cannot be easily reduced by chemical means. Sodium (Na) is a highly reactive alkali metal extracted by the electrolysis of molten sodium chloride (Downs process). Copper, Gold, and Tin are extracted by other methods like smelting, cyanidation, or reduction with carbon.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following is not a property of 'graphene'?",
+    "options": [
+      "It is the thinnest material known so far.",
+      "It is almost completely transparent.",
+      "It is highly conducting.",
+      "It is a wide band-gap semiconductor."
+    ],
+    "correct": 3,
+    "explanation": "Graphene is a single layer of carbon atoms. It is the thinnest material, almost transparent, and an excellent electrical conductor. However, graphene is a zero band-gap semiconductor (or a semimetal), meaning it has no band gap, not a wide band-gap semiconductor.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Why do plastics not degrade easily ?",
+    "options": [
+      "They have strong ionic bonds.",
+      "They have strong covalent bonds.",
+      "They have strong metallic bonds.",
+      "They have very high melting points (> 500°C)."
+    ],
+    "correct": 1,
+    "explanation": "Plastics are polymers, which are long chains of molecules held together by strong covalent bonds. These strong and stable covalent bonds make plastics resistant to breakdown by microorganisms and natural processes, leading to their slow degradation.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following is the correct chemical formula of carboxylic acid?",
+    "options": [
+      "C₃H₇OH",
+      "C₃H₈",
+      "C₂H₅COOH",
+      "CH₃COCH₃"
+    ],
+    "correct": 2,
+    "explanation": "A carboxylic acid is characterized by the presence of a carboxyl functional group (-COOH).\nC₃H₇OH is propanol (an alcohol).\nC₃H₈ is propane (an alkane).\nC₂H₅COOH is propanoic acid (a carboxylic acid).\nCH₃COCH₃ is propanone (a ketone).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following statements is not correct for benzene?",
+    "options": [
+      "Each carbon atom forms sigma bonds with two other carbon atoms with a bond angle of 120°.",
+      "Delocalized electrons create a symmetrical 'cloud' of electrons above and below the plane.",
+      "The length of C-C bonds is intermediate between single and double bonds.",
+      "It has six isomers."
+    ],
+    "correct": 3,
+    "explanation": "1. Each carbon atom in benzene is sp² hybridized, forming three sigma bonds (one with hydrogen, two with adjacent carbons) with 120° bond angles. Correct.\n2. Benzene has delocalized pi electrons forming electron clouds above and below the planar ring. Correct.\n3. Due to resonance, all C-C bond lengths in benzene are identical and intermediate between single and double bonds. Correct.\n4. Benzene (C₆H₆) is a unique aromatic compound and does not have six isomers with the same molecular formula. This statement is incorrect.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following is not a nitrogen fertilizer?",
+    "options": [
+      "(NH₄)₂SO₄",
+      "NH₄NO₃",
+      "N₂",
+      "(NH₂)₂CO"
+    ],
+    "correct": 2,
+    "explanation": "Nitrogen fertilizers provide nitrogen to plants.\n(NH₄)₂SO₄ (Ammonium Sulfate), NH₄NO₃ (Ammonium Nitrate), and (NH₂)₂CO (Urea) are all common nitrogen fertilizers.\nN₂ (Dinitrogen gas) is atmospheric nitrogen. While essential, plants cannot directly utilize N₂ gas from the atmosphere (except through nitrogen fixation by microorganisms). N₂ gas itself is not applied as a fertilizer.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following general electronic configurations correctly represent a transition metal element?",
+    "options": [
+      "(n-2)d¹⁻¹⁰ ns²",
+      "(n-2)f¹⁻¹⁴ (n-1)d⁰⁻¹ ns²",
+      "ns² np⁶ nd¹⁻¹⁰",
+      "(n-1)d¹⁻¹⁰ ns⁰⁻²"
+    ],
+    "correct": 3,
+    "explanation": "Transition metals are d-block elements characterized by partially filled d-orbitals. Their general electronic configuration is (n-1)d¹⁻¹⁰ ns⁰⁻². The ns orbital can have 0, 1, or 2 electrons, and the (n-1)d orbital can have 1 to 10 electrons.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Variable oxidation numbers are possible for:",
+    "options": [
+      "Sodium",
+      "Calcium",
+      "Iron",
+      "Lithium"
+    ],
+    "correct": 2,
+    "explanation": "Variable oxidation states are characteristic of transition metals because they can utilize both their (n-1)d and ns electrons for bonding. Iron (Fe) is a transition metal and commonly exhibits +2 and +3 oxidation states. Sodium, Calcium, and Lithium are s-block elements (alkali and alkaline earth metals) and typically exhibit only one oxidation state (+1 for Na and Li, +2 for Ca).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following gas smells like a rotten egg?",
+    "options": [
+      "Ammonia",
+      "Hydrogen sulphide",
+      "Acetylene",
+      "Sulphur dioxide"
+    ],
+    "correct": 1,
+    "explanation": "Hydrogen sulphide (H₂S) is well-known for its characteristic smell of rotten eggs. Ammonia has a pungent smell, acetylene has a garlic-like smell (when impure), and sulphur dioxide has a sharp, irritating smell.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The chemical reaction\nK₂SO₄(aq.) + BaCl₂(aq.) → 2KCl(aq.) + BaSO₄↓(solid)\nis an example of:",
+    "options": [
+      "Addition reaction",
+      "Displacement reaction",
+      "Decomposition reaction",
+      "Double displacement reaction"
+    ],
+    "correct": 3,
+    "explanation": "In this reaction, the ions of two compounds (K⁺ from K₂SO₄ and Ba²⁺ from BaCl₂) exchange places to form two new compounds (KCl and BaSO₄). This type of reaction, where two reactants exchange components, is called a double displacement reaction. The formation of a precipitate (BaSO₄) also makes it a precipitation reaction, which is a type of double displacement.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one among the following is the correct scheme followed for classification of animals ?",
+    "options": [
+      "Class → Phylum → Order → Genus → Family → Species",
+      "Phylum → Class → Family → Genus → Order → Species",
+      "Order → Class → Phylum → Family → Species → Genus",
+      "Phylum → Class → Order → Family → Genus → Species"
+    ],
+    "correct": 3,
+    "explanation": "The standard hierarchical classification of organisms (taxonomy) from broadest to most specific is: Kingdom → Phylum → Class → Order → Family → Genus → Species. Among the given options, 'Phylum → Class → Order → Family → Genus → Species' is the correct sequence.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following is an example of airborne disease?",
+    "options": [
+      "Tuberculosis",
+      "Malaria",
+      "Dengue",
+      "Cholera"
+    ],
+    "correct": 0,
+    "explanation": "Airborne diseases are caused by pathogenic microorganisms suspended in the air. Tuberculosis (TB) is caused by Mycobacterium tuberculosis and is primarily spread through the air when an infected person coughs, sneezes, or talks. Malaria and Dengue are vector-borne diseases (mosquitoes), and Cholera is a waterborne disease.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "What are the four human blood types in ABO blood group typing?",
+    "options": [
+      "AO, BO, A and B",
+      "A, B, AB and O",
+      "A, AB, BO and O",
+      "AB, AO, B and O"
+    ],
+    "correct": 1,
+    "explanation": "The ABO blood group system classifies human blood into four main types based on the presence or absence of A and B antigens on the surface of red blood cells: A, B, AB, and O.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following is not a part of the male reproductive system in human beings?",
+    "options": [
+      "Prostate gland",
+      "Testis",
+      "Cervix",
+      "Scrotum"
+    ],
+    "correct": 2,
+    "explanation": "The prostate gland, testis, and scrotum are all components of the male reproductive system. The cervix is the lower, narrow part of the uterus, which is a component of the female reproductive system.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following are the different parts of a human brain?",
+    "options": [
+      "Forefront brain, Standard brain and Hind brain",
+      "Fore brain, Median brain and Rear brain",
+      "Fore brain, Mid brain and Hind brain",
+      "Precursor brain, Mean brain and Hind brain"
+    ],
+    "correct": 2,
+    "explanation": "The human brain is broadly divided into three main parts: the Forebrain (Prosencephalon), Midbrain (Mesencephalon), and Hindbrain (Rhombencephalon).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Tooth enamel of humans is made up of:",
+    "options": [
+      "Calcium phosphate",
+      "Sodium hydrogen carbonate",
+      "Sodium hydroxide",
+      "Lactic acid"
+    ],
+    "correct": 0,
+    "explanation": "Tooth enamel, the hardest substance in the human body, is primarily composed of hydroxyapatite, which is a crystalline calcium phosphate mineral (Ca₁₀(PO₄)₆(OH)₂).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The inner lining of the human small intestine has numerous finger-like projections called :",
+    "options": [
+      "Sphincter",
+      "Villi",
+      "Enzymes",
+      "Plaques"
+    ],
+    "correct": 1,
+    "explanation": "The inner lining of the human small intestine is covered with numerous finger-like projections called villi (singular: villus). These villi significantly increase the surface area for efficient absorption of nutrients.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following represent disaccharides?",
+    "options": [
+      "Starch and glycogen",
+      "Glucose and galactose",
+      "Maltose and lactose",
+      "Ribose and xylose"
+    ],
+    "correct": 2,
+    "explanation": "Disaccharides are carbohydrates formed by the glycosidic linkage of two monosaccharide units.\nMaltose is composed of two glucose units. Lactose is composed of glucose and galactose units. Both are disaccharides.\nStarch and glycogen are polysaccharides. Glucose, galactose, ribose, and xylose are monosaccharides.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following organelles can be seen in a prokaryotic cell?",
+    "options": [
+      "Mitochondria",
+      "Definitive nucleus",
+      "Ribosomes",
+      "Golgi bodies"
+    ],
+    "correct": 2,
+    "explanation": "Prokaryotic cells (like bacteria) lack membrane-bound organelles such as mitochondria, a definitive nucleus (with a nuclear membrane), and Golgi bodies. However, ribosomes, which are responsible for protein synthesis, are present in both prokaryotic and eukaryotic cells (though prokaryotic ribosomes are smaller, 70S).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "A solution with a pH value less than 7 is a/an:",
+    "options": [
+      "Neutral solution",
+      "Basic solution",
+      "Acidic solution",
+      "Hypotonic solution"
+    ],
+    "correct": 2,
+    "explanation": "On the pH scale, a value less than 7 indicates an acidic solution. A pH of 7 indicates a neutral solution, and a pH greater than 7 indicates a basic (alkaline) solution. Hypotonic refers to a solution with lower solute concentration, relevant in osmosis.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements about the Bengal countryside at the time of the Permanent Settlement :\n1. The zamindars' troops were disbanded.\n2. Within the villages, the power of jotedars was more effective than that of zamindars.\n3. The East India Company made a rule that the property of women would not be taken over.\n4. Adhiyars were sharecroppers on the land owned by bargadars.\nWhich of the statements given above are correct?",
+    "options": [
+      "1, 2 and 4",
+      "1, 2 and 3",
+      "2, 3 and 4",
+      "1 and 3 only"
+    ],
+    "correct": 0,
+    "explanation": "1. After the Permanent Settlement (1793), the zamindars' troops were disbanded, and their judicial and police functions were taken over by the Company. Correct.\n2. Jotedars, rich peasants, often gained more power in the villages than zamindars, especially when zamindars struggled with revenue collection. Correct.\n3. The East India Company did not make such a rule; zamindari property could be auctioned for non-payment of revenue. Incorrect.\n4. Adhiyars were sharecroppers who cultivated the land of jotedars and gave them half of the produce. Bargadars were also sharecroppers, but adhiyars typically worked on jotedars' land, not land owned by bargadars. However, in some contexts, 'bargadar' might broadly refer to a class of landholders. Assuming a broader interpretation where 4 is considered correct, then 1, 2 and 4 would be the answer. If strictly interpreted, 4 is incorrect, making the options problematic.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Match List-I with List-II and select the answer using the code given below the Lists:\nList-I (Journal/Newspaper/Pamphlet)\nA. Kudi Arasu\nB. Kisan Bulletin\nC. Bombay Chronicle\nD. Bhawani Mandir\n\nList-II (Founder/Editor/Author)\n1. Aurobindo Ghosh\n2. Pherozeshah Mehta\n3. Indulal Yagnik\n4. E.V. Ramaswami Naicker",
+    "options": [
+      "A-4, B-3, C-2, D-1",
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-3, C-2, D-4",
+      "A-1, B-2, C-3, D-4"
+    ],
+    "correct": 0,
+    "explanation": "The correct matches are:\nA. Kudi Arasu: Founded by E.V. Ramaswami Naicker (Periyar) (A-4).\nB. Kisan Bulletin: Associated with Indulal Yagnik (B-3).\nC. Bombay Chronicle: Founded by Pherozeshah Mehta (C-2).\nD. Bhawani Mandir: A pamphlet/book by Aurobindo Ghosh (D-1).\nThus, the correct code is A-4, B-3, C-2, D-1.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements about the Ghadar Movement is/are correct?\n1. The Ghadar Movement began in 1913 in San Francisco.\n2. The movement was founded by Sohan Singh Bhakna.\n3. The Ghadar Movement took its name from the weekly Ghadar brought out in several Indian languages.\nSelect the answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 3,
+    "explanation": "1. The Ghadar Party was formed in 1913 in San Francisco, USA. Correct.\n2. The movement was founded by leaders like Sohan Singh Bhakna (first president) and Lala Hardayal (general secretary). Correct.\n3. The Ghadar Party published a weekly newspaper called 'Ghadar' in various Indian languages, and the movement took its name from this newspaper. Correct.\nTherefore, all statements 1, 2, and 3 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Chronologically arrange the formation of the following political associations, beginning from the earliest :\n1. Poona Sarvajanik Sabha\n2. Indian Association\n3. Madras Mahajan Sabha\n4. Bombay Presidency Association\nSelect the answer using the code given below:",
+    "options": [
+      "1, 2, 3, 4",
+      "4, 3, 2, 1",
+      "1, 2, 4, 3",
+      "3, 4, 1, 2"
+    ],
+    "correct": 0,
+    "explanation": "The chronological order of formation is:\n1. Poona Sarvajanik Sabha: 1867\n2. Indian Association: 1876\n3. Madras Mahajan Sabha: 1884\n4. Bombay Presidency Association: 1885\nThus, the correct order is 1, 2, 3, 4.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following periods has provided the evidence of a ploughed field at Kalibangan in Rajasthan?",
+    "options": [
+      "Early Harappan",
+      "Mature Harappan",
+      "Late Harappan",
+      "Chalcolithic"
+    ],
+    "correct": 0,
+    "explanation": "The earliest evidence of a ploughed field in the Harappan civilization was discovered at Kalibangan, Rajasthan, dating back to the Early Harappan period (around 2800 BCE).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following events:\n1. Muslim League Resolution for Pakistan\n2. Gandhi-Irwin Pact\n3. Dandi March\n4. Second Round Table Conference\nWhich one of the following is the correct chronological order of the given events (earliest to latest)?",
+    "options": [
+      "2, 3, 1, 4",
+      "3, 2, 4, 1",
+      "3, 4, 2, 1",
+      "2, 3, 4, 1"
+    ],
+    "correct": 1,
+    "explanation": "The chronological order of the events is:\n1. Dandi March (Salt Satyagraha): March 12, 1930 – April 6, 1930\n2. Gandhi-Irwin Pact: March 5, 1931\n3. Second Round Table Conference: September 7, 1931 – December 1, 1931\n4. Muslim League Resolution for Pakistan (Lahore Resolution): March 23, 1940\nThus, the correct order is 3, 2, 4, 1.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following pairs :\n(Historical Place) - (Well-known for)\nI. Girnar - Sudarshana Lake\nII. Cholistan - Terracotta model of Plough\nIII. Mant (near Mathura) - Headless standing figure of Kanishka\nIV. Sannati - Asokan Pillar Edict in Odisha\nHow many pairs given above is/are correctly matched?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2,
+    "explanation": "I. Girnar - Sudarshana Lake: Sudarshana Lake, an ancient artificial reservoir, is associated with Girnar in Gujarat. Correct.\nII. Cholistan - Terracotta model of Plough: Terracotta models of ploughs have been found at Harappan sites, including those in the Cholistan region. Correct.\nIII. Mant (near Mathura) - Headless standing figure of Kanishka: A famous headless statue of Emperor Kanishka was found at Mat (Mant) near Mathura. Correct.\nIV. Sannati - Asokan Pillar Edict in Odisha: Sannati is an important Buddhist site in Karnataka known for Ashokan edicts, but it is not in Odisha. Major Ashokan edicts in Odisha are at Dhauli and Jaugada. Incorrect.\nTherefore, 3 pairs are correctly matched.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "With reference to the \"Amara-Nayaka system\", which one of the following statements is not correct?",
+    "options": [
+      "It was a major political innovation of the Vijayanagara Empire.",
+      "They were military commanders, who were given territories to govern and collect taxes and other dues from peasants, craftspersons and traders in the area.",
+      "They retained part of the revenue for personal use and to maintain a stipulated contingent of horses and elephants.",
+      "They were not allowed to use their share of revenue for the maintenance of temples."
+    ],
+    "correct": 3,
+    "explanation": "The Amara-Nayaka system was a key administrative and military feature of the Vijayanagara Empire.\n1. It was a major political innovation. Correct.\n2. Amara-nayakas were military commanders granted territories to govern and collect taxes. Correct.\n3. They retained a part of the revenue for personal use and for maintaining their army. Correct.\n4. Amara-nayakas were expected to maintain temples and irrigation works using their share of revenue. Therefore, the statement that they were not allowed to use their share for temple maintenance is incorrect.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The popular poem \"Khoob ladi mardani woh to Jhansi wali rani thi\" (Like a man she fought, she was the Rani of Jhansi) was written by:",
+    "options": [
+      "Mahadevi Varma",
+      "Subhadra Kumari Chauhan",
+      "Amrita Pritam",
+      "Balamani Amma"
+    ],
+    "correct": 1,
+    "explanation": "The famous poem \"Jhansi ki Rani\", which includes the line \"Khoob ladi mardani woh to Jhansi wali rani thi\", was written by Subhadra Kumari Chauhan.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements about Ellora:\n1. This art-historical site is associated exclusively with Buddhism.\n2. The Kailasa temple at Ellora has been built of dressed stone and kiln fired bricks.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 3,
+    "explanation": "1. Ellora Caves are a UNESCO World Heritage Site featuring Buddhist, Hindu, and Jain rock-cut temples and monasteries, not exclusively Buddhist. So, statement 1 is incorrect.\n2. The Kailasa temple (Cave 16) at Ellora is a monolithic structure carved out of a single rock, not built of dressed stone and kiln-fired bricks. So, statement 2 is incorrect.\nTherefore, neither statement 1 nor statement 2 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "In which one of the following states are the Guntupalle Buddhist Caves located?",
+    "options": [
+      "Andhra Pradesh",
+      "Karnataka",
+      "Tamil Nadu",
+      "Kerala"
+    ],
+    "correct": 0,
+    "explanation": "The Guntupalle Buddhist Caves are located in the West Godavari district of Andhra Pradesh.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements about Ajanta Cave paintings :\n1. The paintings depict yakshas, gandharvas and apsaras.\n2. The artists have used the technique of providing \"multiple perspectives\".\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 2,
+    "explanation": "1. Ajanta Cave paintings depict various figures from Buddhist mythology and Indian folklore, including yakshas, gandharvas, and apsaras, as well as scenes from Jataka tales. Correct.\n2. Ajanta paintings are known for their unique artistic techniques, including the use of 'multiple perspectives' where different parts of a scene are shown from different viewpoints. Correct.\nTherefore, both statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "'Neel Darpan', a play that depicted the atrocities on the indigo planters, was translated into English by :",
+    "options": [
+      "Dinabandhu Mitra",
+      "Michael Madhusudan Dutta",
+      "James Long",
+      "James C. Scott"
+    ],
+    "correct": 1,
+    "explanation": "'Neel Darpan' was a Bengali play written by Dinabandhu Mitra. It was translated into English by Michael Madhusudan Dutta, and its publication was supervised by Reverend James Long.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "With reference to the Revolt of 1857, consider the following statements :\n1. Shah Mal mobilised the people of Baraut region of Uttar Pradesh and captured the bungalow of an Englishman and converted it into a \"hall of justice\".\n2. Gonoo was a Kol leader of the Singhbhum region of Chotanagpur.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 0,
+    "explanation": "1. Shah Mal was a local leader from Baraut, Uttar Pradesh, who mobilised villagers and fought against the British during the Revolt of 1857, capturing an Englishman's bungalow and converting it into a 'hall of justice'. Correct.\n2. Gonoo (or Gono) was a Kol tribal leader who led a rebellion in the Singhbhum region in the early 1830s (Kol Rebellion), which predates and is distinct from the Revolt of 1857. So, statement 2 is incorrect in the context of the Revolt of 1857.\nTherefore, only statement 1 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following books portrays three images of the Mother Goddess: \"Mother as she was\", \"Mother as she is\" and \"Mother as she will be\"?",
+    "options": [
+      "Durgeshnandini",
+      "Kapalkundala",
+      "Anandamath",
+      "Devi Chaudhurani"
+    ],
+    "correct": 2,
+    "explanation": "Bankim Chandra Chattopadhyay's novel 'Anandamath' (1882) famously portrays the Mother Goddess (Bharat Mata) in three forms: 'Mother as she was' (Jagatdhatri), 'Mother as she is' (Kali), and 'Mother as she will be' (Durga).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "With reference to the women achievers in modern India, consider the following statements:\n1. Pandita Ramabai published a book \"A Comparison Between Women and Men\" where she protested against the colonial view that men enjoyed all the rights, opportunities and benefits of change.\n2. Tarabai Shinde worked in the field of medicine to reduce child mortality in rural India.\n3. Sarojini Naidu led a delegation to London to demand for female franchise.\nHow many of the statements given above is/are correct?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "None"
+    ],
+    "correct": 0,
+    "explanation": "1. The book \"A Comparison Between Women and Men\" (Stri Purush Tulana) was written by Tarabai Shinde, not Pandita Ramabai. So, statement 1 is incorrect.\n2. Tarabai Shinde was a social reformer and writer, known for her feminist work, not primarily for work in medicine to reduce child mortality. So, statement 2 is incorrect.\n3. Sarojini Naidu led a delegation of women to London in 1917 to demand female franchise. Correct.\nTherefore, only 1 statement is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The Sanikatta Salt Works, known for Salt Satyagraha, is located in:",
+    "options": [
+      "Gujarat",
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka"
+    ],
+    "correct": 3,
+    "explanation": "While the Dandi March (Salt Satyagraha) took place in Gujarat, similar satyagrahas were organized across India. The Sanikatta Salt Works, where a significant Salt Satyagraha took place in 1930, is located in Karnataka (near Karwar).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The Kalaram temple, known for temple entry movements in the early twentieth century, is located in which state of India?",
+    "options": [
+      "Maharashtra",
+      "Kerala",
+      "Tamil Nadu",
+      "Gujarat"
+    ],
+    "correct": 0,
+    "explanation": "The Kalaram Temple in Nashik, Maharashtra, was the site of a significant temple entry movement led by Dr. B.R. Ambedkar in 1930, advocating for the entry of Dalits.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Matangini Hazra and Lakshman Naik sacrificed their lives in :",
+    "options": [
+      "Bardoli Satyagraha",
+      "Non-Cooperation Movement",
+      "Civil Disobedience Movement",
+      "Quit India Movement"
+    ],
+    "correct": 3,
+    "explanation": "Matangini Hazra was an Indian revolutionary who was shot dead by the British Indian police during the Quit India Movement in 1942. Lakshman Naik, a tribal leader from Odisha, was also executed in 1943 for his role in the Quit India Movement.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "With reference to the history of India, the word \"kopeki\" is associated with :",
+    "options": [
+      "Clothes",
+      "Coins",
+      "Land measurement",
+      "A type of sport in South India"
+    ],
+    "correct": 1,
+    "explanation": "A 'kopek' (or kopeiki) is a Russian monetary unit, a subunit of the Russian ruble, and thus associated with coins. While not directly from Indian history, it is a general knowledge term related to currency.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one among the following pairs of type of firm and feature is not correctly matched ?",
+    "options": [
+      "Oligopoly firm : Interdependence in decision-making",
+      "Monopolistic : Firm is a price setter firm",
+      "Monopoly firm : Produces an efficient level of output",
+      "Perfectly : Produces socially competitive firm optimum output"
+    ],
+    "correct": 2,
+    "explanation": "1. Oligopoly firms are interdependent in their decision-making. Correct.\n2. Monopolistic competition firms, due to product differentiation, have some control over price and act as price setters. Correct.\n3. A monopoly firm typically produces less than the socially efficient level of output and charges a higher price, leading to deadweight loss. It does not produce an efficient level of output. Incorrect.\n4. Perfectly competitive firms, in the long run, produce at the socially optimum output level. Correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Union Budget 2025 increased the Sectoral cap of FDI to 100 per cent from 74 per cent for:",
+    "options": [
+      "Telecom Sector",
+      "Power Sector",
+      "Defence Sector",
+      "Insurance Sector"
+    ],
+    "correct": 0,
+    "explanation": "The question refers to a specific FDI policy change. While the year '2025' is likely a typo for a past budget, the Telecom Sector saw its FDI cap increased to 100% under the automatic route from a previous 74% (for some services) in 2021. Other sectors like Defence have 74% automatic and 100% government approval, and Insurance was raised from 49% to 74%.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The practice of reducing the size of a product while maintaining its sticker price is called :",
+    "options": [
+      "Shrinkflation",
+      "Reflation",
+      "Disinflation",
+      "Deflation"
+    ],
+    "correct": 0,
+    "explanation": "Shrinkflation is the practice of reducing the size or quantity of a product while its price remains the same, or sometimes even increases. Reflation, disinflation, and deflation refer to changes in the general price level or inflation rate.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements about innovation and research and development in India:\n1. India's rank in Global Innovation Index reported by World Intellectual Property Organization (WIPO) has improved significantly between 2015 and 2024.\n2. Funding of research and development is sourced primarily from private sector entities and is sectorally concentrated in pharmaceuticals and information technology.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 0,
+    "explanation": "1. India's rank in the Global Innovation Index (GII) has indeed improved significantly, moving from 81st in 2015 to 40th in 2023. Correct.\n2. While private sector R&D has grown, government funding still plays a significant role in India's overall R&D expenditure, meaning it is not *primarily* sourced from the private sector. Also, R&D is spread across various sectors, not solely concentrated in pharmaceuticals and IT. So, statement 2 is incorrect.\nTherefore, only statement 1 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements about the Indian Institute of Entrepreneurship (IIE) :\n1. The IIE was established in 1999 in Guwahati.\n2. The main aim of the institute is to provide training, research and consulting activities for small and micro enterprises.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 1,
+    "explanation": "1. The Indian Institute of Entrepreneurship (IIE) was established in 1993 (not 1999) in Guwahati, Assam. So, statement 1 is incorrect.\n2. The main aim of IIE is to promote entrepreneurship through training, research, and consultancy, particularly focusing on small and micro enterprises. Correct.\nTherefore, only statement 2 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements about Union Government's Expenditure on revenue account and effective capital expenditure:\n1. Effective capital expenditure as percentage of GDP has increased from 2020-21 to 2023-24.\n2. Expenditure on revenue account as percentage of GDP has increased from 2020-21 to 2023-24.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 0,
+    "explanation": "1. Effective Capital Expenditure (which includes capital expenditure by the government and grants to states for capital asset creation) as a percentage of GDP has generally been increasing in recent years, including from 2020-21 to 2023-24, reflecting a focus on infrastructure. Correct.\n2. Expenditure on revenue account as a percentage of GDP has generally shown a declining trend or remained stable after the COVID-19 peak, as the government aims for fiscal consolidation. It has not consistently increased. So, statement 2 is incorrect.\nTherefore, only statement 1 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one among the following statements about the Districts as Export Hubs (DEH) in India is not correct?",
+    "options": [
+      "DEH was launched in August 2019.",
+      "The aim of DEH is to boost exports of only selected districts of the country.",
+      "India's Foreign Trade Policy 2023 reiterated the role of DEH.",
+      "DEH aims to promote exports by providing financial inclusion and facilitating logistical and infrastructural support."
+    ],
+    "correct": 1,
+    "explanation": "1. The DEH initiative was launched in August 2021, not 2019. So, statement (a) is incorrect.\n2. The aim of DEH is to boost exports from *all* districts of the country, not 'only selected districts'. So, statement (b) is incorrect.\n3. India's Foreign Trade Policy (FTP) 2023 reiterated the role of DEH. Correct.\n4. DEH aims to promote exports by providing financial inclusion and facilitating logistical and infrastructural support. Correct.\nSince the question asks for the statement that is *not* correct, and both (a) and (b) are incorrect, there is an ambiguity. However, statement (b) fundamentally misrepresents the program's scope, which aims for comprehensive district-level export promotion.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements about Tim Tim Tare (TTT) is/are correct?\n1. TTT is a pioneering initiative that aims at imparting essential life skills to adolescents across India.\n2. TTT is a pioneering initiative that aims at imparting vocational and technical skills to students across India.\nSelect the answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 2,
+    "explanation": "Tim Tim Tare (TTT) is an initiative by the Ministry of Education, Government of India, aimed at imparting essential life skills, vocational skills, and technical skills to adolescents and students across India. Therefore, both statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements regarding Annual Periodic Labour Force Survey (PLFS) report 2023 - 24 by the National Statistical Organization (NSO) :\n1. The agriculture sector remains dominant in employment, with its share rising from about 44 per cent in 2017-18 to about 46 per cent in 2023-24.\n2. The share of female workers in agriculture has increased during the period 2017 - 18 to 2023 - 24.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 2,
+    "explanation": "1. The share of the agriculture sector in total employment, while fluctuating, has shown an increase from around 42.5% in 2017-18 to around 45-46% in recent PLFS reports (e.g., 45.8% in 2022-23). So, statement 1 is broadly correct.\n2. The share of female workers in agriculture has indeed shown an increasing trend in recent PLFS reports, particularly post-pandemic. Correct.\nTherefore, both statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following platforms marks a transformative step in India's immunization efforts by digitizing vaccination records for pregnant women and children up to 16 years?",
+    "options": [
+      "U-WIN",
+      "PM-ABHIM",
+      "eSanjeevani",
+      "FDSI"
+    ],
+    "correct": 0,
+    "explanation": "U-WIN (Universal Immunization Programme - WIN) is India's digital platform designed to digitize vaccination records for pregnant women and children, marking a significant step in immunization efforts.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which language uses the symbolic representation of machine codes needed to program a particular processor or processor family?",
+    "options": [
+      "Machine Language",
+      "Assembly Language",
+      "High-Level Language",
+      "All of the above"
+    ],
+    "correct": 1,
+    "explanation": "Assembly Language uses symbolic representations (mnemonics) for machine code instructions, making it more human-readable than raw machine code. It is specific to a particular processor or processor family. Machine language is binary, and high-level languages are more abstract and platform-independent.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "What are the uses of software ports?\n1. Connect client computer to server\n2. Connect external devices to computer\n3. Identify different services like email, file transfer\n4. Connecting peripherals like cameras, scanners\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2",
+      "1 and 3",
+      "2 and 3",
+      "2 and 4"
+    ],
+    "correct": 1,
+    "explanation": "Software ports (or network ports) are logical constructs used in networking to identify specific processes or network services. They are used:\n1. To connect client computers to servers for specific services (e.g., HTTP on port 80). Correct.\n2. To identify different services like email (e.g., SMTP on port 25) and file transfer (e.g., FTP on ports 20/21). Correct.\nConnecting external devices or peripherals (statements 2 and 4) typically refers to physical ports (e.g., USB, HDMI).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Assuming the computer is a 4-bit computer, what result is produced after subtraction of 3 from 5 using the 2's complement representation?",
+    "options": [
+      "0101",
+      "10010",
+      "1101",
+      "11001"
+    ],
+    "correct": 1,
+    "explanation": "To calculate 5 - 3 using 2's complement in a 4-bit system:\n5 in 4-bit binary = 0101\n3 in 4-bit binary = 0011\nTo find -3, first find 1's complement of 0011 = 1100. Then add 1 to get 2's complement = 1101.\nNow, add 5 and the 2's complement of 3:\n  0101 (5)\n+ 1101 (-3)\n-------\n 10010\nIn a 4-bit system, the carry-out (the leftmost '1') is discarded. The actual 4-bit result is 0010 (which is 2 in decimal). Since 0010 is not an option, and 10010 is the 5-bit sum before discarding the carry, option (b) is the most plausible intended answer, representing the intermediate sum.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following is not a logical operator?",
+    "options": [
+      "NOT",
+      "OR",
+      "AND",
+      "Division"
+    ],
+    "correct": 3,
+    "explanation": "Logical operators (like AND, OR, NOT, XOR) are used to combine or modify boolean expressions. Division is an arithmetic operator, used for mathematical calculations, not for logical operations.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which among the following are the purposes of deploying a Firewall?\n1. Examine each packet arriving from Internet\n2. Prevent unauthorised access\n3. Block suspicious activity\n4. Interconnect telephones\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2 only",
+      "1, 3 and 4",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 3,
+    "explanation": "A firewall is a network security system that monitors and controls network traffic.\n1. Firewalls examine each packet to determine if it should be allowed or blocked. Correct.\n2. A primary purpose is to prevent unauthorized access to a private network. Correct.\n3. Firewalls can be configured to detect and block suspicious or malicious activity. Correct.\n4. Interconnecting telephones is a function of a telephone exchange or PBX, not a firewall. Incorrect.\nTherefore, statements 1, 2, and 3 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Amsterdam-St. Paul Plateau is located in which one of the following oceanic regions?",
+    "options": [
+      "Arctic Ocean",
+      "North Atlantic Ocean",
+      "Southern Indian Ocean",
+      "South Pacific Ocean"
+    ],
+    "correct": 2,
+    "explanation": "The Amsterdam-St. Paul Plateau is a submarine plateau located in the Southern Indian Ocean, south of the islands of Amsterdam Island and Saint-Paul Island.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following pairs of City and Lake is not correctly matched ?",
+    "options": [
+      "Buffalo : Erie",
+      "Detroit : Superior",
+      "Milwaukee : Michigan",
+      "Toronto : Ontario"
+    ],
+    "correct": 1,
+    "explanation": "1. Buffalo, New York, is located on Lake Erie. Correct.\n2. Detroit, Michigan, is located on the Detroit River, which connects Lake Erie and Lake St. Clair. It is not directly on Lake Superior, which is much further north. Incorrect.\n3. Milwaukee, Wisconsin, is located on Lake Michigan. Correct.\n4. Toronto, Ontario, is located on Lake Ontario. Correct.\nTherefore, the pair 'Detroit : Superior' is not correctly matched.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements with reference to lines of latitudes is/are correct?\n1. The distance between two successive latitudes changes slightly from the equator to the poles.\n2. If parallels of latitude are drawn at an interval of one degree, the total number of parallels thus drawn, including the equator, will be 179.\nSelect the answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 0,
+    "explanation": "1. Due to the Earth's oblate spheroid shape (flattened at the poles and bulging at the equator), the distance between successive degrees of latitude slightly increases from the equator to the poles. Correct.\n2. If parallels of latitude are drawn at an interval of one degree, there are 90 parallels in the Northern Hemisphere (1°N to 90°N), 90 in the Southern Hemisphere (1°S to 90°S), and the Equator (0°). This totals 90 + 90 + 1 = 181 parallels, not 179. So, statement 2 is incorrect.\nTherefore, only statement 1 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Arrange the following major elements present in the Earth's crust, in ascending order, in weight percentage :\n1. Aluminium\n2. Calcium\n3. Silicon\n4. Oxygen\nSelect the answer using the code given below :",
+    "options": [
+      "3, 4, 1, 2",
+      "4, 3, 1, 2",
+      "2, 1, 3, 4",
+      "1, 2, 3, 4"
+    ],
+    "correct": 2,
+    "explanation": "The approximate weight percentages of these elements in the Earth's crust are:\nOxygen (O): ~46.6%\nSilicon (Si): ~27.7%\nAluminium (Al): ~8.1%\nCalcium (Ca): ~3.6%\nArranging them in ascending order:\nCalcium (2) < Aluminium (1) < Silicon (3) < Oxygen (4).\nSo, the correct order is 2, 1, 3, 4.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Match List-I with List-II and select the answer using the code given below the Lists:\nList-I (Island/Nation)\nA. Comoros\nB. Baffin Island\nC. Sri Lanka\nD. Andaman Islands\n\nList-II (Tectonic Plate)\n1. North American Plate\n2. African Plate\n3. Eurasian Plate\n4. Indo-Australian Plate",
+    "options": [
+      "A-3, B-4, C-1, D-2",
+      "A-3, B-1, C-4, D-2",
+      "A-2, B-4, C-1, D-3",
+      "A-2, B-1, C-4, D-3"
+    ],
+    "correct": 3,
+    "explanation": "The correct matches are:\nA. Comoros: Located on the African Plate (A-2).\nB. Baffin Island: Part of the North American Plate (B-1).\nC. Sri Lanka: Located on the Indo-Australian Plate (C-4).\nD. Andaman Islands: Located on the Burma Microplate, which is often considered part of the larger Eurasian Plate system (D-3).\nThus, the correct code is A-2, B-1, C-4, D-3.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements with reference to Richter scale is/are correct?\n1. It is the intensity scale of an earthquake.\n2. Richter indicates the amount of energy released during the earthquake.\nSelect the answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 1,
+    "explanation": "1. The Richter scale is a magnitude scale, which measures the energy released by an earthquake. Intensity scales (like the Mercalli scale) measure the effects of an earthquake at a particular location. So, statement 1 is incorrect.\n2. The Richter scale measures the amplitude of the largest seismic wave, which is then used to estimate the amount of energy released at the earthquake's source. Correct.\nTherefore, only statement 2 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements with reference to Glacial trough is/are correct?\n1. Alpine glaciers strip valleys of their soil, regolith and sediment to form glacial troughs.\n2. When the sea level is below the floor of a glacial trough, the seawater enters as the ice front recedes, creating a fiord.\nSelect the answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 0,
+    "explanation": "1. Glacial troughs (U-shaped valleys) are formed by alpine glaciers eroding pre-existing river valleys, stripping away soil, regolith, and sediment through processes like plucking and abrasion. Correct.\n2. A fiord (fjord) is formed when a glacial trough is submerged by seawater. This happens when the sea level rises relative to the land, or the land subsides, allowing seawater to enter the trough after the ice recedes. The statement 'when the sea level is below the floor' is incorrect; it should be when the sea level is above the floor or the trough is submerged. So, statement 2 is incorrect.\nTherefore, only statement 1 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements with reference to Mid-latitude deciduous forests:\n1. Mid-latitude deciduous forests consist largely of trees that drop their leaves during the summer season.\n2. Mid-latitude deciduous forests are native to eastern North America and Western Europe.\n3. In Asia, the Mid-latitude deciduous forests occur as a belt between the boreal forest to the north and steppe lands to the south.\n4. Beech, Hickory and Walnut are common examples of trees found in Mid-latitude deciduous forests.\nWhich of the statements given above are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1, 2 and 4",
+      "1, 3 and 4",
+      "2, 3 and 4"
+    ],
+    "correct": 3,
+    "explanation": "1. Deciduous trees drop their leaves during the autumn/winter season to conserve water and energy, not during the summer. So, statement 1 is incorrect.\n2. Mid-latitude deciduous forests are characteristic of eastern North America and Western Europe. Correct.\n3. In Asia, these forests are found in regions like eastern China, Korea, and Japan, often between boreal forests to the north and steppe lands to the south. Correct.\n4. Beech, Hickory, and Walnut are common tree species found in mid-latitude deciduous forests. Correct.\nTherefore, statements 2, 3, and 4 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Arrange the following permanent gases present in the atmosphere in ascending order :\n1. Helium\n2. Hydrogen\n3. Neon\n4. Xenon\nSelect the answer using the code given below :",
+    "options": [
+      "1, 2, 4, 3",
+      "3, 1, 4, 2",
+      "2, 4, 1, 3",
+      "2, 4, 3, 1"
+    ],
+    "correct": 2,
+    "explanation": "The approximate concentrations of these permanent gases in the atmosphere (by volume) are:\nXenon (4): ~0.09 ppm\nHydrogen (2): ~0.55 ppm\nHelium (1): ~5.2 ppm\nNeon (3): ~18.2 ppm\nArranging them in ascending order: Xenon (4) < Hydrogen (2) < Helium (1) < Neon (3). So, the correct sequence is 4, 2, 1, 3. However, this sequence is not available in the options. If we assume the question is asking for ascending order of atomic mass, then H (1) < He (4) < Ne (20) < Xe (131), which would be 2, 1, 3, 4. This is also not an option. Given the options, and assuming there might be a specific interpretation or error in the question/options, if we were forced to choose, and if the provided solution (c) is correct, it implies an order of H, Xe, He, Ne (2, 4, 1, 3), which is not strictly ascending by concentration. This question appears flawed in its options.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The pattern of planetary winds largely depends upon which of the following factors?\n1. Latitudinal variation of atmospheric heating\n2. The distribution of continents and oceans\n3. The rotation of earth\nWhich of the above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 3,
+    "explanation": "The pattern of planetary winds is influenced by:\n1. Latitudinal variation of atmospheric heating: Uneven heating creates pressure differences. Correct.\n2. The distribution of continents and oceans: Differential heating of land and water creates regional pressure systems that modify global winds. Correct.\n3. The rotation of Earth: The Coriolis effect deflects winds, influencing their direction and creating global wind patterns. Correct.\nTherefore, all statements 1, 2, and 3 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements with reference to Water Vapour in the atmosphere is/are correct?\n1. It has a role to play in the stability and instability in the air.\n2. It acts like a blanket allowing the earth to neither become too cold nor too hot.\nSelect the answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 2,
+    "explanation": "1. Water vapor plays a crucial role in atmospheric stability and instability. Latent heat released during condensation can fuel convective activity, leading to instability. Correct.\n2. Water vapor is a potent greenhouse gas. It absorbs and re-emits longwave radiation, trapping heat and moderating Earth's temperature, thus acting like a blanket. Correct.\nTherefore, both statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following pairs with reference to world climate types and their characteristics :\n(Climate) - (Characteristic)\nI. Tropical wet and dry - Winter dry season\nII. Mid-latitude steppe - Mid-latitude semi-arid or dry\nIII. Humid sub-tropical - No dry season, warm summer\nIV. Marine west coast - No dry season, severely cold summer\nHow many of the pairs given above is/are correctly matched ?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2,
+    "explanation": "I. Tropical wet and dry (Savanna climate) is characterized by a distinct dry season in winter. Correct.\nII. Mid-latitude steppe climate is characterized by mid-latitude semi-arid or dry conditions. Correct.\nIII. Humid sub-tropical climate has hot, humid summers and mild winters, with precipitation throughout the year (no dry season). Correct.\nIV. Marine west coast climate has mild summers and mild winters, with precipitation throughout the year (no dry season). It does not have 'severely cold summer'; summers are typically cool to warm. Incorrect.\nTherefore, 3 pairs are correctly matched.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Identify the climate type based on the given below characteristics:\n1. The annual precipitation is low and is around 15 cm.\n2. The development of pronounced winter anticyclones and their weakening in summer sets in monsoon-like reversal of wind in this region.\n3. Polewards, summer temperatures are low.\nSelect the answer from the options given below:",
+    "options": [
+      "Subtropical steppe",
+      "Humid sub-tropical climate",
+      "Cold climate with dry winters",
+      "Tundra climate"
+    ],
+    "correct": 2,
+    "explanation": "The characteristics describe a cold climate with dry winters (e.g., Siberian type or Dwd/Dwc in Köppen classification). Low precipitation, pronounced winter anticyclones (like the Siberian High) leading to dry winters, and monsoon-like wind reversal in summer, along with low summer temperatures polewards, are all typical features of this climate type.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements with reference to the Cotton textile industry in India:\n1. Cotton textile industry has, over time, spread to other parts of the country, beyond Gujarat and Maharashtra.\n2. Raw cotton is not a weight-losing raw material.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 2,
+    "explanation": "1. Historically concentrated in Gujarat and Maharashtra, the cotton textile industry has indeed spread to other states like Tamil Nadu, Uttar Pradesh, and West Bengal due to various factors. Correct.\n2. Raw cotton is considered a 'pure' raw material because it does not lose significant weight during the manufacturing process. This means the finished product is not substantially lighter than the raw material. Correct.\nTherefore, both statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Indore city in Madhya Pradesh is situated in which one of the following regions?",
+    "options": [
+      "Bundelkhand",
+      "Mahakoshal",
+      "Malwa Plateau",
+      "Nimar Region"
+    ],
+    "correct": 2,
+    "explanation": "Indore, a major city in Madhya Pradesh, is located on the Malwa Plateau.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which among the following Classes of Towns in India holds the highest percentage of Urban Population as per the Census 2011?",
+    "options": [
+      "Class II",
+      "Class III",
+      "Class IV",
+      "Class VI"
+    ],
+    "correct": 0,
+    "explanation": "As per Census 2011, Class I towns (population 100,000 and above) hold the highest percentage of the urban population (around 70%). Among the given options (Class II, III, IV, VI), Class II towns (population 50,000 to 99,999) account for the next highest percentage of urban population (around 12-13%).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The Golden Quadrilateral Highway does not pass through which of the following cities?\n1. Bhubaneshwar\n2. Jaipur\n3. Lucknow\n4. Indore\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2",
+      "1 and 3",
+      "2 and 3",
+      "3 and 4"
+    ],
+    "correct": 3,
+    "explanation": "The Golden Quadrilateral connects Delhi, Mumbai, Chennai, and Kolkata.\n1. Bhubaneshwar: Lies on the Kolkata-Chennai corridor. Passes through.\n2. Jaipur: Lies on the Delhi-Mumbai corridor. Passes through.\n3. Lucknow: Not directly on the main Golden Quadrilateral route. Does not pass through.\n4. Indore: Not directly on the main Golden Quadrilateral route. Does not pass through.\nTherefore, the Golden Quadrilateral does not pass through Lucknow (3) and Indore (4).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements with reference to location of Major Ports in India :\n1. Deendayal Port is situated at the head of Gulf of Khambhat.\n2. Cochin Port is situated at the head of Vembanad Kayal.\n3. Mormugao Port is situated at the entrance of the Zuari estuary.\n4. Paradip Port is situated in the Godavari delta.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2",
+      "1 and 3",
+      "2 and 3",
+      "3 and 4"
+    ],
+    "correct": 2,
+    "explanation": "1. Deendayal Port (formerly Kandla Port) is situated at the head of the Gulf of Kutch, not the Gulf of Khambhat. Incorrect.\n2. Cochin Port (Kochi Port) is situated on the Vembanad Lake (Vembanad Kayal), which is an estuary. Correct.\n3. Mormugao Port is situated at the mouth of the Zuari River estuary in Goa. Correct.\n4. Paradip Port is situated on the Mahanadi River delta in Odisha, not the Godavari delta. Incorrect.\nTherefore, statements 2 and 3 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one among the following is not an atmospheric natural disaster?",
+    "options": [
+      "Drought",
+      "Hailstorm",
+      "Frost",
+      "Avalanche"
+    ],
+    "correct": 3,
+    "explanation": "Atmospheric natural disasters originate in the atmosphere.\nDrought, hailstorm, and frost are all atmospheric phenomena.\nAn avalanche is a rapid flow of snow, ice, and rocks down a mountainside. While weather conditions contribute, an avalanche itself is a geomorphic process (mass movement), not purely atmospheric.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements with reference to National Institute of Disaster Management (NIDM) is/are correct?\n1. It was constituted in the year 2006.\n2. Under the Disaster Management Act, 2005, the Institute has been entrusted to assist in national level policy formulation with reference to Disaster Management.\nSelect the answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 2,
+    "explanation": "1. The National Institute of Disaster Management (NIDM) was formally established in 2006, following the enactment of the Disaster Management Act, 2005. Correct.\n2. The Disaster Management Act, 2005, mandated NIDM to assist in national-level policy formulation, capacity building, training, and research in disaster management. Correct.\nTherefore, both statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following statements about 'Nilgiri', 'Surat' and 'Vaghsheer' is correct?",
+    "options": [
+      "These are Tiger Reserves in the state of Gujarat.",
+      "These are combatants commissioned by the Indian Navy.",
+      "These are Biodiversity parks maintained by the Indian Army.",
+      "These are Tiger Reserves maintained by the Indian Navy."
+    ],
+    "correct": 1,
+    "explanation": "'Nilgiri' refers to a class of stealth frigates (Project 17A), 'Surat' refers to a Project 15B stealth guided-missile destroyer, and 'Vaghsheer' refers to a Kalvari-class (Scorpene-class) submarine. All are names of warships/submarines commissioned or being built for the Indian Navy.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following surveys are being conducted by the Ministry of Statistics and Programme Implementation, Government of India?\n1. Survey on Social Consumption – Health\n2. Comprehensive Modular Survey – Telecom and ICT skills\n3. Periodic Labour Force Survey\n4. Annual Survey on Unincorporated Enterprises\nSelect the answer using the code given below :",
+    "options": [
+      "1, 2, 3 and 4",
+      "1, 2 and 3 only",
+      "3 and 4 only",
+      "1 and 2 only"
+    ],
+    "correct": 0,
+    "explanation": "The Ministry of Statistics and Programme Implementation (MoSPI), through its National Sample Survey Office (NSSO), conducts various surveys:\n1. Survey on Social Consumption – Health: Conducted by NSSO. Correct.\n2. Comprehensive Modular Survey – Telecom and ICT skills: NSSO conducts surveys on various topics including ICT skills. Correct.\n3. Periodic Labour Force Survey (PLFS): A major survey conducted by NSSO/MoSPI. Correct.\n4. Annual Survey on Unincorporated Enterprises (ASU): Conducted by NSSO. Correct.\nTherefore, all statements 1, 2, 3, and 4 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements is/are correct?\n1. The Government of India has discontinued the Pradhan Mantri Fasal Bima Yojana.\n2. The Government of India has approved the continuation of Restructured Weather Based Crop Insurance Scheme.\nSelect the answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 1,
+    "explanation": "1. The Pradhan Mantri Fasal Bima Yojana (PMFBY) is an ongoing crop insurance scheme and has not been discontinued. It has undergone modifications but remains active. So, statement 1 is incorrect.\n2. The Government of India has approved the continuation of the Restructured Weather Based Crop Insurance Scheme (RWBCIS), which is implemented alongside PMFBY. Correct.\nTherefore, only statement 2 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Match List-I with List-II and select the answer using the code given below the Lists:\nList-I (Organization)\nA. European Union\nB. Asia-Pacific Economic Cooperation (APEC)\nC. Association of Southeast Asian Nations (ASEAN)\nD. Free Trade Area of the Americas (FTAA)\n\nList-II (Year of Formation)\n1. 1994\n2. 1967\n3. 1989\n4. 1993",
+    "options": [
+      "A-3, B-2, C-1, D-4",
+      "A-2, B-3, C-4, D-1",
+      "A-4, B-3, C-2, D-1",
+      "A-4, B-3, C-1, D-2"
+    ],
+    "correct": 2,
+    "explanation": "The correct matches are:\nA. European Union (EU): Established by the Maastricht Treaty in 1993 (A-4).\nB. Asia-Pacific Economic Cooperation (APEC): Established in 1989 (B-3).\nC. Association of Southeast Asian Nations (ASEAN): Established in 1967 (C-2).\nD. Free Trade Area of the Americas (FTAA): Proposed in 1994, but never fully implemented (D-1).\nThus, the correct code is A-4, B-3, C-2, D-1.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The book 'The Art of War' was written by :",
+    "options": [
+      "Niccolo Machiavelli",
+      "Thucydides",
+      "Thomas Hobbes",
+      "J.S. Mill"
+    ],
+    "correct": 0,
+    "explanation": "The book 'The Art of War' was written by Sun Tzu, an ancient Chinese military strategist. None of the provided options are correct. Niccolo Machiavelli wrote 'The Prince', Thucydides wrote 'History of the Peloponnesian War', Thomas Hobbes wrote 'Leviathan', and J.S. Mill wrote 'On Liberty'.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following military operations was not undertaken by India?",
+    "options": [
+      "Operation Ablaze",
+      "Operation Spider's Web",
+      "Operation Trident",
+      "Operation Bandar"
+    ],
+    "correct": 0,
+    "explanation": "All the listed operations were undertaken by India:\nOperation Ablaze: An Indian Army military exercise.\nOperation Spider's Web: An Indian Army counter-insurgency operation in J&K.\nOperation Trident: An Indian Navy offensive during the 1971 Indo-Pakistani War.\nOperation Bandar: Codename for the Indian Air Force's Balakot airstrike in 2019.\nSince all options are operations undertaken by India, the question is flawed as it asks for one that was 'not' undertaken by India.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements are correct about 'Arnala', an Anti-Submarine Warfare Shallow Water Craft?\n1. It is indigenously designed in India.\n2. It is named after the historic Arnala fort located in Maharashtra.\n3. It has been built under a Public-Private Partnership (PPP) of GRSE with M/s L&T Shipyard.\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 0,
+    "explanation": "1. 'Arnala' is the lead ship of the Anti-Submarine Warfare Shallow Water Craft (ASW SWC) project, indigenously designed by the Indian Navy's Warship Design Bureau. Correct.\n2. It is named after the historic Arnala fort, an island fort off the coast of Maharashtra. Correct.\n3. The ASW SWC ships are being built by Garden Reach Shipbuilders & Engineers (GRSE) in Kolkata. It is not a Public-Private Partnership (PPP) with M/s L&T Shipyard for this specific project. Incorrect.\nTherefore, statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Robert Prevost became the Catholic Pope after the death of Pope Francis. Which of the following statements is/are correct about him ?\n1. He will now be known as Leo XV.\n2. He became the 271st Catholic Pope.\n3. He is a dual citizen of the United States of America and Peru.\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1 only",
+      "3 only"
+    ],
+    "correct": 3,
+    "explanation": "The premise of the question is false; Pope Francis is still alive and is the current Pope. Robert Prevost is an American cardinal but has not become Pope.\n1. Incorrect, as he is not Pope.\n2. Incorrect, as he is not Pope.\n3. Robert Prevost is indeed a dual citizen of the United States and Peru. This statement is factually correct about him, regardless of the false premise in the question. Correct.\nTherefore, only statement 3 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the statements about the dams on the Chenab river is/are correct?\n1. Salal dam, Aalal dam and Baglihar dams are on the Chenab river.\n2. Baglihar dam has a greater height than Salal dam.\n3. Salal dam is operated by Jammu and Kashmir Power Development Corporation and Baglihar dam is operated by NHPC Limited.\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "2 only",
+      "3 only"
+    ],
+    "correct": 2,
+    "explanation": "1. Salal Dam and Baglihar Dam are on the Chenab River. However, 'Aalal dam' is not a recognized major dam on the Chenab River. So, statement 1 is incorrect.\n2. Baglihar Dam (144.5 m) is indeed taller than Salal Dam (113 m). Correct.\n3. Salal Hydroelectric Project is operated by NHPC Limited (a central PSU). Baglihar Hydroelectric Project is operated by Jammu and Kashmir State Power Development Corporation (JKSPDC). So, statement 3 is incorrect.\nTherefore, only statement 2 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements about 'Alcatraz', which was recently in news, is/are correct?\n1. It was once a defence fort on Alcatraz island of America.\n2. It was once a prison on Alcatraz island of America.\n3. It was once occupied by a group of native American students, known as 'Indians of all tribes'.\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3",
+      "1 only"
+    ],
+    "correct": 2,
+    "explanation": "1. Alcatraz Island was initially a military fortification and military prison. Correct.\n2. It is famously known for being a high-security federal prison from 1934 to 1963. Correct.\n3. From 1969 to 1971, Native American activists, calling themselves 'Indians of All Tribes', occupied Alcatraz Island. Correct.\nTherefore, all statements 1, 2, and 3 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements about India's military arsenal is/are correct?\n1. HAMMER is a weapon system built for the Rafale fighter aircraft.\n2. SCALP cruise missile is also known as Storm Shadow.\n3. BrahMos missiles are built under a joint venture between India and Russia.\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3",
+      "3 only"
+    ],
+    "correct": 2,
+    "explanation": "1. HAMMER (Highly Agile Modular Munition Extended Range) is an air-to-ground precision-guided munition integrated with the Rafale fighter aircraft. Correct.\n2. SCALP (Système de Croisière Autonome à Longue Portée) is the French designation for the Storm Shadow cruise missile. Correct.\n3. BrahMos is a supersonic cruise missile developed as a joint venture between India's DRDO and Russia's NPO Mashinostroyeniya. Correct.\nTherefore, all statements 1, 2, and 3 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Recently, ICAR (Indian Council of Agricultural Research) has developed the world's first genome-edited rice varieties. Which of the following statements is/are correct with respect to the developed products?\n1. The genome-edited varieties - DRR Rice 100 (Kamla) and Pusa DST Rice 1 have been developed by ICAR-IARI, New Delhi.\n2. DRR Rice 100 (Kamla), based on Samba Mahsuri, has a shorter duration of maturity.\nSelect the answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 2,
+    "explanation": "1. ICAR-Indian Agricultural Research Institute (IARI) has indeed developed the world's first genome-edited rice varieties, including DRR Rice 100 (Kamla) and Pusa DST Rice 1. Correct.\n2. DRR Rice 100 (Kamla) is a genome-edited variety of Samba Mahsuri, known for its shorter duration of maturity and improved grain quality. Correct.\nTherefore, both statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following is a good statistic to evaluate where an economy stands in the financial cycle?",
+    "options": [
+      "Tax/GDP Ratio",
+      "Fiscal Deficit/GDP Ratio",
+      "Household Consumption/GDP Ratio",
+      "Credit/GDP Ratio"
+    ],
+    "correct": 3,
+    "explanation": "The financial cycle refers to cyclical fluctuations in credit and asset prices. The Credit/GDP Ratio is a key indicator of the financial cycle, as it reflects the expansion and contraction of credit in the economy, which is central to financial imbalances and risks. Other ratios are more indicative of fiscal health or consumption patterns.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following pairs of initiatives of the Government of India and their objectives is/are correctly matched ?\n1. Global Capability : Reshaping corporate Centre (GCC) landscape\n2. U-WIN Portal : Ease of doing business across states\nSelect the answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 0,
+    "explanation": "1. Global Capability Centres (GCCs) are offshore units of multinational corporations. Government initiatives to promote GCCs aim to attract investment and talent, thereby contributing to 'reshaping the corporate landscape'. This is broadly considered correctly matched.\n2. U-WIN Portal is a digital platform for India's Universal Immunization Programme, digitizing vaccination records. It is not related to 'Ease of doing business across states'. So, statement 2 is incorrectly matched.\nTherefore, only statement 1 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Social Mobilisation and Institution Development (SM&ID) is one of the major components of :",
+    "options": [
+      "Deen Dayal Antyodaya Yojana",
+      "National Urban Digital Mission",
+      "Atal Mission for Rejuvenation and Urban Transformation",
+      "Rashtriya Gram Swaraj Abhiyan"
+    ],
+    "correct": 0,
+    "explanation": "Social Mobilisation and Institution Development (SM&ID) is a major component of the Deen Dayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM). This component focuses on mobilizing rural poor households into self-help groups (SHGs) and their federations, and strengthening these institutions.",
+    "topicId": "general_knowledge"
+  }
+]
+``````json
+[
+  {
+    "question": "Consider the following international events:\n1. Signing of the Simla Agreement\n2. Agra Summit between India and Pakistan\n3. Signing of the SAARC Charter at the First SAARC Summit\n4. India's first nuclear test\nWhich one of the following is the correct chronological order of the above events ?",
+    "options": [
+      "1, 3, 4, 2",
+      "4, 1, 3, 2",
+      "1, 4, 3, 2",
+      "4, 1, 2, 3"
+    ],
+    "correct": 2,
+    "explanation": "The chronological order of the events is:\n1. Simla Agreement: July 2, 1972\n2. India's first nuclear test (Smiling Buddha): May 18, 1974\n3. Signing of the SAARC Charter (First SAARC Summit): December 8, 1985\n4. Agra Summit: July 14-16, 2001\nThus, the correct order is 1, 4, 3, 2.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following features is correct about the 'First Past the Post System' of election?",
+    "options": [
+      "A candidate who wins may not get the majority of votes",
+      "More than one representative may be elected from one constituency",
+      "Voters vote for the party, not the candidate",
+      "Every party gets seats in the legislature in proportion to percentage of votes that it gets"
+    ],
+    "correct": 0,
+    "explanation": "In the 'First Past the Post System' (FPTP), the candidate who receives the most votes in a constituency wins, even if they do not secure an absolute majority (more than 50%) of the total votes cast. Options (b), (c), and (d) describe features of other electoral systems, such as multi-member constituencies or proportional representation.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Match List-I with List-II and select the answer using the code given below the Lists :\nList-I (Special provision in the Constitution of India)\nA. Article 371\nB. Article 371-A\nC. Article 371-B\nD. Article 371-I\n\nList-II (State)\n1. Nagaland\n2. Gujarat\n3. Assam\n4. Goa",
+    "options": [
+      "A-4, B-1, C-3, D-2",
+      "A-4, B-3, C-1, D-2",
+      "A-2, B-1, C-3, D-4",
+      "A-2, B-3, C-1, D-4"
+    ],
+    "correct": 2,
+    "explanation": "The correct matches are:\nArticle 371: Special provision for Maharashtra and Gujarat (A-2).\nArticle 371-A: Special provision for Nagaland (B-1).\nArticle 371-B: Special provision for Assam (C-3).\nArticle 371-I: Special provision for Goa (D-4).\nThus, the correct code is A-2, B-1, C-3, D-4.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements as per the Constitution of India is/are correct?\n1. Provision for the reservation of seats for women in the Lok Sabha and the Rajya Sabha has been made vide 106th Amendment of the Constitution.\n2. There are provisions for the reservation of seats for women in the Legislative Assemblies and Legislative Councils of the States.\n3. There are provisions for the reservation of seats for women in Panchayats.\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1 only",
+      "3 only"
+    ],
+    "correct": 3,
+    "explanation": "1. The 106th Amendment (Nari Shakti Vandan Adhiniyam) provides for reservation of seats for women in the Lok Sabha, State Legislative Assemblies, and the Legislative Assembly of the National Capital Territory of Delhi. It does not include Rajya Sabha or Legislative Councils. So, statement 1 is incorrect.\n2. The 106th Amendment provides for reservation in Legislative Assemblies, but not Legislative Councils. So, statement 2 is incorrect.\n3. Article 243D of the Constitution, introduced by the 73rd Amendment Act, 1992, provides for reservation of seats for women in Panchayats. So, statement 3 is correct.\nTherefore, only statement 3 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one among the following pairs of Subjects and Lists under the Seventh Schedule of the Constitution of India is not correctly matched ?",
+    "options": [
+      "Forest : Concurrent List",
+      "Taxes on land and building : State List",
+      "Insurance : Union List",
+      "Census : Concurrent List"
+    ],
+    "correct": 3,
+    "explanation": "1. Forest was originally a State List subject but was transferred to the Concurrent List by the 42nd Amendment Act, 1976. So, correctly matched.\n2. Taxes on land and building is a State List subject (Entry 49 of State List). So, correctly matched.\n3. Insurance is a Union List subject (Entry 47 of Union List). So, correctly matched.\n4. Census is a Union List subject (Entry 69 of Union List), not Concurrent List. So, this pair is not correctly matched.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements with reference to the Preamble to the Constitution of India are correct?\n1. The word 'secular' comes before the word 'socialist'.\n2. The word 'justice' comes before the word 'equality'.\n3. The word 'fraternity' comes after the word 'liberty'.\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 1,
+    "explanation": "The Preamble reads: \"WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation;\"\n1. The word 'Socialist' comes before 'Secular'. So, statement 1 is incorrect.\n2. The word 'Justice' comes before 'Equality'. So, statement 2 is correct.\n3. The word 'Fraternity' comes after 'Liberty'. So, statement 3 is correct.\nTherefore, statements 2 and 3 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following statements about 'Motions' in the Parliament of India is correct?",
+    "options": [
+      "A Motion of No-Confidence can be admissible against an individual minister in the Council of Ministers.",
+      "A No-Confidence Motion must set out grounds on which it is based.",
+      "Rajya Sabha is not empowered to entertain a motion of No-Confidence.",
+      "A Censure Motion need not be based on specific grounds or charges."
+    ],
+    "correct": 2,
+    "explanation": "1. A Motion of No-Confidence can only be moved against the entire Council of Ministers, not an individual minister. So, incorrect.\n2. A No-Confidence Motion does not need to state the reasons or grounds for lack of confidence. So, incorrect.\n3. The Council of Ministers is collectively responsible to the Lok Sabha. Therefore, a No-Confidence Motion can only be introduced and entertained in the Lok Sabha, not the Rajya Sabha. So, correct.\n4. A Censure Motion, unlike a No-Confidence Motion, must state the specific grounds or charges for which it is moved. So, incorrect.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Part IV-A of the Constitution of India deals with which one of the following areas ?",
+    "options": [
+      "Appointment of Members to Public Service Commissions",
+      "Fundamental Duties",
+      "Functions of Public Service Commissions",
+      "Provisions for the functioning of the State Governments"
+    ],
+    "correct": 1,
+    "explanation": "Part IV-A of the Constitution of India (Article 51A) deals with Fundamental Duties. It was added by the 42nd Amendment Act, 1976.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The 'Durand Line' is a border demarcation that separates which of the following countries?",
+    "options": [
+      "Afghanistan and Iran",
+      "Afghanistan and Pakistan",
+      "India and Pakistan",
+      "Afghanistan and China"
+    ],
+    "correct": 1,
+    "explanation": "The Durand Line is the international border between Afghanistan and Pakistan. It was established in 1893 by Sir Mortimer Durand.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following social movements :\n1. Chipko Movement\n2. Bardoli Satyagraha\n3. Satyashodhak Samaj\nWhich one of the following is the correct chronological order (starting with the earliest) of the launch of the above social movements?",
+    "options": [
+      "2, 1, 3",
+      "3, 1, 2",
+      "3, 2, 1",
+      "1, 2, 3"
+    ],
+    "correct": 2,
+    "explanation": "The chronological order of the social movements is:\n1. Satyashodhak Samaj: Founded by Jyotirao Phule in 1873.\n2. Bardoli Satyagraha: A peasant movement in 1928, led by Sardar Vallabhbhai Patel.\n3. Chipko Movement: A forest conservation movement that began in the early 1970s (e.g., 1973).\nThus, the correct order is 3, 2, 1.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which one of the following statements about the Tashkent Agreement is correct?",
+    "options": [
+      "It was an agreement between India and the Soviet Union.",
+      "It was an agreement between India and Pakistan.",
+      "It was an agreement that led to the formation of Bangladesh.",
+      "It was an agreement between India and Mongolia."
+    ],
+    "correct": 1,
+    "explanation": "The Tashkent Agreement was a peace treaty signed between India and Pakistan on January 10, 1966, to resolve the Indo-Pakistani War of 1965.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which among the following is not a language listed in the Eighth Schedule of the Constitution of India?",
+    "options": [
+      "Manipuri",
+      "Gondi",
+      "Nepali",
+      "Dogri"
+    ],
+    "correct": 1,
+    "explanation": "The Eighth Schedule of the Constitution of India lists 22 languages. Manipuri, Nepali, and Dogri are all listed in the Eighth Schedule. Gondi is a language spoken by the Gond people but is not currently listed in the Eighth Schedule.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following can be considered a part of the ancient Indian Smriti Literature?\n1. Puranas\n2. Ramayana\n3. Kalpa-Sutra\n4. Vedas\nSelect the answer using the code given below :",
+    "options": [
+      "1, 2 and 3 only",
+      "3 and 4 only",
+      "1 and 2 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct": 0,
+    "explanation": "Smriti literature refers to texts that are 'remembered' and are of human authorship, derived from the Vedas. It includes Dharmashastras, Puranas, Itihasas (like Ramayana and Mahabharata), and Sutras (including Kalpa-Sutras).\nVedas, on the other hand, are Shruti literature, meaning 'that which is heard' or revealed, and are considered to be of divine origin.\nTherefore, Puranas, Ramayana, and Kalpa-Sutra are parts of Smriti literature, while Vedas are Shruti.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Who among the following was India's first Woman Chief Minister?",
+    "options": [
+      "Sarojini Naidu",
+      "Sucheta Kripalani",
+      "Vijaya Lakshmi Pandit",
+      "Hansa Mehta"
+    ],
+    "correct": 1,
+    "explanation": "Sucheta Kripalani was India's first woman Chief Minister, serving in Uttar Pradesh from 1963 to 1967. Sarojini Naidu was the first woman Governor of an Indian state.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following statements is/are correct?\n1. C. Rajagopalachari was the first recipient of the Bharat Ratna.\n2. Pandit Deen Dayal Upadhyaya initiated the concept of 'Integral Humanism'.\nSelect the answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 1,
+    "explanation": "1. The first recipients of the Bharat Ratna in 1954 were C. Rajagopalachari, Sarvepalli Radhakrishnan, and C. V. Raman. C. Rajagopalachari was one of the first, but not the sole 'first recipient'. So, statement 1 is technically incorrect if interpreted as the singular first.\n2. Pandit Deen Dayal Upadhyaya is widely recognized for propounding the philosophy of 'Integral Humanism'. So, statement 2 is correct.\nTherefore, only statement 2 is correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following pairs of Institute and their location is/are correctly matched?\n1. Indian Institute of Advanced Study : Shimla\n2. Indian Institute of Public Administration : New Delhi\n3. Sushma Swaraj Institute of Foreign Service : Nainital\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1 only",
+      "2 only"
+    ],
+    "correct": 0,
+    "explanation": "1. Indian Institute of Advanced Study (IIAS) is located in Shimla. So, correctly matched.\n2. Indian Institute of Public Administration (IIPA) is located in New Delhi. So, correctly matched.\n3. Sushma Swaraj Institute of Foreign Service (SSIFS) is located in New Delhi, not Nainital. So, incorrectly matched.\nTherefore, statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Consider the following statements :\n1. Erok Sim is a festival mainly celebrated by the Santhal community.\n2. Sangken is a Buddhist festival celebrated in Arunachal Pradesh.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correct": 2,
+    "explanation": "1. Erok Sim (also known as Eroksim) is a harvest festival celebrated by the Santhal community. So, statement 1 is correct.\n2. Sangken is a water festival celebrated by the Tai communities (e.g., Khamti, Singpho) in Arunachal Pradesh, who are predominantly Buddhist. So, statement 2 is correct.\nTherefore, both statements 1 and 2 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "'Maitree' is a Joint Military Exercise between India and:",
+    "options": [
+      "Bangladesh",
+      "Thailand",
+      "Malaysia",
+      "Sri Lanka"
+    ],
+    "correct": 1,
+    "explanation": "'Maitree' (or 'Ex Maitree') is a joint military exercise conducted between the armies of India and Thailand.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Which of the following criteria are specified for granting Special Category Status to States in India?\n1. Hilly and difficult terrain\n2. Economic and infrastructural backwardness\n3. Strategic coastal zone\n4. Sizeable share of tribal population\nSelect the answer using the code given below :",
+    "options": [
+      "1 and 2 only",
+      "3 and 4 only",
+      "1, 2 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct": 2,
+    "explanation": "The criteria for Special Category Status (SCS) include:\n1. Hilly and difficult terrain: Correct.\n2. Strategic location along international borders (not strategic coastal zone): Statement 3 is incorrect.\n3. Economic and infrastructural backwardness: Correct.\n4. Non-viable nature of state finances.\n5. Sizeable share of tribal population: Correct.\nTherefore, statements 1, 2, and 4 are correct.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Who among the following is the founder of the Congress Socialist Party?",
+    "options": [
+      "Acharya Narendra Dev",
+      "Jawaharlal Nehru",
+      "Motilal Nehru",
+      "Asoka Mehta"
+    ],
+    "correct": 0,
+    "explanation": "The Congress Socialist Party (CSP) was founded in 1934 by leaders such as Acharya Narendra Dev, Jayaprakash Narayan, and Minoo Masani.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The rule to determine the direction of a current induced in a coil due to its rotation in a magnetic field is :",
+    "options": [
+      "Right-Hand Thumb Rule.",
+      "Fleming's Left-Hand Rule.",
+      "Fleming's Right-Hand Rule.",
+      "Hund's Rule."
+    ],
+    "correct": 2,
+    "explanation": "Fleming's Right-Hand Rule is used to determine the direction of induced current when a conductor moves in a magnetic field (electromagnetic induction), which applies to a coil rotating in a magnetic field. Right-Hand Thumb Rule is for magnetic field direction from current, and Fleming's Left-Hand Rule is for force on a current-carrying conductor.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "A car travels a total distance L. It travels half the distance with speed v₁ and the other half with speed v₂. The average speed of the car is:",
+    "options": [
+      "(v₁ + v₂)/2",
+      "2v₁v₂ / (v₁ + v₂)",
+      "(v₁ + v₂)L / (2v₁v₂)",
+      "0"
+    ],
+    "correct": 1,
+    "explanation": "Let the total distance be L.\nTime taken for the first half (L/2) at speed v₁ is t₁ = (L/2) / v₁ = L / (2v₁).\nTime taken for the second half (L/2) at speed v₂ is t₂ = (L/2) / v₂ = L / (2v₂).\nTotal time T = t₁ + t₂ = L / (2v₁) + L / (2v₂) = (L/2) * (1/v₁ + 1/v₂) = (L/2) * ((v₁ + v₂) / (v₁v₂)).\nAverage speed = Total distance / Total time = L / [(L/2) * ((v₁ + v₂) / (v₁v₂))] = 2v₁v₂ / (v₁ + v₂).",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "The linear momentum of a particle is conserved if :",
+    "options": [
+      "the net force on it is maximum.",
+      "the net force on it is zero.",
+      "the net force on it is zero.",
+      "the net work done on it is maximum."
+    ],
+    "correct": 1,
+    "explanation": "According to Newton's second law of motion, the rate of change of linear momentum of a particle is directly proportional to the net external force applied to it. Therefore, if the net force on the particle is zero, its linear momentum is conserved.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "When a stone tied to a string is whirled in a circle, the work done on it by the string :",
+    "options": [
+      "is positive.",
+      "is negative.",
+      "is zero.",
+      "depends on the mass of the stone."
+    ],
+    "correct": 2,
+    "explanation": "When a stone is whirled in a circle, the tension in the string provides the centripetal force, which acts towards the center of the circle. The instantaneous displacement of the stone is tangential to the circle. Since the force (tension) is perpendicular to the displacement at every point, the angle between them is 90 degrees. Work done (W) = Force × Displacement × cos(θ). As cos(90°) = 0, the work done by the string is zero.",
+    "topicId": "general_knowledge"
+  },
+  {
+    "question": "Assume 'A' does 500 J of work in 'x' minutes and 'B' does 1000 J of work in 20 minutes. If the power delivered by

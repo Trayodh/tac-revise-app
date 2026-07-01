@@ -1,0 +1,22 @@
+{
+  "name": "TAC-Revise: Defence Exam Command Centre",
+  "short_name": "TAC-Revise",
+  "description": "Tactical AI-powered revision engine for NDA, CDS, and AFCAT.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e293b",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

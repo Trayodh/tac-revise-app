@@ -412,15 +412,52 @@ function autoLinkConcepts(htmlString) {
 function parseWikiLinks(text) {
   if (!text) return "";
   
-  let linkedText = autoLinkConcepts(text);
-  linkedText = parseFormulas(linkedText);
-  let parsed = linkedText.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  // Dedent text to prevent marked.js from treating indented HTML as code blocks
+  const indentMatches = text.match(/^[ \t]+(?=\S)/gm);
+  if (indentMatches) {
+    const minIndent = Math.min(...indentMatches.map(s => s.length));
+    if (minIndent > 0) {
+      const regex = new RegExp(`^[ \\t]{1,${minIndent}}`, 'gm');
+      text = text.replace(regex, '');
+    }
+  }
   
-  return parsed.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (match, topicName, displayLabel) => {
+  // 1. Intercept Mermaid blocks
+  let processed = text.replace(/```mermaid\n([\s\S]*?)```/g, function(match, code) {
+    return `<div class="mermaid" style="background: rgba(255,255,255,0.02); padding: 20px; border-radius: 8px; overflow-x: auto; text-align: center; margin: 15px 0; border: 1px solid rgba(255,255,255,0.05);">${code}</div>`;
+  });
+  
+  // 2. Parse Markdown (if marked is available)
+  if (typeof marked !== 'undefined') {
+    processed = marked.parse(processed);
+  } else {
+    // Fallback basic bolding and line breaks
+    processed = processed.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    processed = processed.replace(/\n/g, '<br/>');
+  }
+  
+  // 3. Parse custom wiki concepts and formulas
+  let linkedText = autoLinkConcepts(processed);
+  linkedText = parseFormulas(linkedText);
+  
+  // 4. Resolve wiki links [[Topic]] -> <a>
+  let parsed = linkedText.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (match, topicName, displayLabel) => {
     const label = displayLabel || topicName;
     const cleanTopic = topicName.trim().replace(/'/g, "\\'");
     return `<a class="wiki-link" onclick="triggerDoubtExplain('${cleanTopic}', this)">${label}</a>`;
   });
+  
+  // 5. Trigger Mermaid rendering asynchronously
+  setTimeout(() => {
+    if (typeof mermaid !== 'undefined') {
+      try { 
+        // Force mermaid to re-scan for new .mermaid elements
+        mermaid.init(undefined, document.querySelectorAll('.mermaid:not([data-processed="true"])')); 
+      } catch(e) { console.error("Mermaid init error:", e); }
+    }
+  }, 100);
+  
+  return parsed;
 }
 
 // Hover Learning Layer Integration
@@ -474,7 +511,7 @@ function showHoverTooltip(element, termName) {
   }
   Ensure the response is strictly valid JSON only. Do not wrap in markdown fences. Keep language formal and emoji-free.`;
 
-  fetch('http://localhost:4000/api/gemini', {
+  fetch('/api/gemini', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
@@ -672,7 +709,7 @@ Generate your response as a valid JSON object matching this schema exactly:
   "realWorldApplications": ["<Real-world application 1>", "<Real-world application 2>"],
   "memoryTricks": ["<Mnemonic, shortcut or memory trick to remember key facts>"],
   "commonMistakes": ["<Common mistake or conceptual gap related to this topic>"],
-  "visualExplanation": "<Structured ASCII, SVG, or Mermaid diagram representing the concept structure. Use newline \\n characters.>",
+  "visualExplanation": "<Structured ASCII, SVG, or Mermaid diagram representing the concept structure. ALWAYS use mermaid code blocks for complex hierarchies, processes, or visual representations. Use newline \\n characters.>",
   "practiceQuestions": [
     {
       "question": "<Interactive practice question>",
@@ -698,11 +735,11 @@ Generate your response as a valid JSON object matching this schema exactly:
 Keep language strictly formal, highly authoritative, and emoji-free. Return strictly the raw JSON without code block wrappers.`;
 
   try {
-    const response = await fetch('http://localhost:4000/api/gemini', {
+    const response = await fetch('/api/gemini', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'gemini-3-flash-preview',
+        model: 'gemini-2.5-flash',
         contents: [{ parts: [{ text: prompt }] }],
         generationConfig: { response_mime_type: 'application/json', temperature: 0.1 }
       })
@@ -1149,7 +1186,7 @@ function renderDronacharyaModalContent(modal, topicName, data, contextText) {
           
           const fullQuery = `Concept: "${topicName}". Context: "${contextText}". Level: "${currentDoubtLevel}". Request: "${query}"`;
           try {
-            const apiRes = await fetch('http://localhost:4000/api/gemini', {
+            const apiRes = await fetch('/api/gemini', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({

@@ -1,107 +1,1250 @@
 [
-  {"question":"Consider the following statements about the Indus Valley Civilization: 1. The Great Bath was found at Mohenjo-daro. 2. Lothal was a major port city with a dockyard. 3. The Indus people worshipped fire like the Vedic Aryans. Which of the statements given above is/are correct?","options":["1 and 2 only","2 and 3 only","1 and 3 only","1, 2 and 3"],"correct":0,"explanation":"The Great Bath was indeed found at Mohenjo-daro and Lothal had a dockyard. However, there is no evidence that Indus people worshipped fire — fire altars were found at Kalibangan but are not considered equivalent to Vedic fire worship."},
-  {"question":"With reference to the Mauryan administration, which of the following statements is/are correct? 1. Dhamma Mahamattas were appointed by Ashoka to propagate dhamma. 2. The empire was divided into provinces called Janapadas headed by Kumaras or Princes. 3. Megasthenes described a six-fold classification of Mauryan society.","options":["1 only","1 and 3 only","2 and 3 only","1, 2 and 3"],"correct":1,"explanation":"Dhamma Mahamattas were indeed appointed by Ashoka. Megasthenes described a seven-fold (not six-fold — actually he described six committees for city administration, but society was described as seven classes). The provinces were headed by Kumaras but were called Ahinsa/Chakras, not Janapadas. Statement 1 and 3 are correct regarding Mauryan administration."},
-  {"question":"The Saptanga Theory of State, which describes seven constituent elements of state (Swamin, Amatya, Janapada, Durga, Kosha, Danda, Mitra), was propounded in:","options":["Arthashastra by Kautilya","Manusmriti","Mudrarakshasa by Vishakhadatta","Nitisara by Kamandaka"],"correct":0,"explanation":"The Saptanga Theory was elaborated by Kautilya in his Arthashastra. The seven limbs are King (Swamin), Minister (Amatya), Territory (Janapada), Fort (Durga), Treasury (Kosha), Army (Danda), and Ally (Mitra)."},
-  {"question":"Consider the following pairs regarding the Delhi Sultanate: 1. Iqta System — Iltutmish 2. Market Reforms — Alauddin Khalji 3. Token Currency — Muhammad bin Tughlaq 4. Diwan-i-Arz — Balban. Which of the above pairs is/are correctly matched?","options":["1, 2 and 3 only","2, 3 and 4 only","1, 3 and 4 only","1, 2, 3 and 4"],"correct":0,"explanation":"The Iqta system was systematized by Iltutmish, Alauddin Khalji introduced market reforms, and Muhammad bin Tughlaq introduced token currency. However, Diwan-i-Arz (military department) was established by Balban but is more associated with the overall Sultanate administration. Pairs 1, 2, and 3 are correctly matched."},
-  {"question":"Which of the following Bhakti saints preached the concept of 'Nirguna Bhakti' (devotion to a formless God)? 1. Kabir 2. Guru Nanak 3. Chaitanya Mahaprabhu 4. Ravidas","options":["1, 2 and 4 only","1 and 2 only","2, 3 and 4 only","1, 2, 3 and 4"],"correct":0,"explanation":"Kabir, Guru Nanak, and Ravidas preached Nirguna Bhakti — devotion to a formless, attributeless God. Chaitanya Mahaprabhu was a Saguna Bhakti saint who worshipped Lord Krishna with form and attributes."},
-  {"question":"With reference to the Revolt of 1857, consider the following statements: 1. Mangal Pandey's revolt at Barrackpore preceded the main outbreak at Meerut. 2. The rebels proclaimed Bahadur Shah Zafar as the Emperor of India. 3. The revolt was primarily led by the educated middle class. Which of the above statements is/are correct?","options":["1 and 2 only","2 and 3 only","1 only","1, 2 and 3"],"correct":0,"explanation":"Mangal Pandey's incident occurred on 29 March 1857, before the Meerut outbreak on 10 May 1857. Bahadur Shah Zafar was proclaimed Emperor. However, the revolt was NOT led by the educated middle class — it was led by sepoys, zamindars, and traditional rulers. The middle class largely remained aloof."},
-  {"question":"The Ryotwari Settlement was introduced in which of the following regions? 1. Madras Presidency 2. Bombay Presidency 3. Bengal Presidency 4. Central Provinces","options":["1 and 2 only","1, 2 and 3","2 and 4 only","1, 2, 3 and 4"],"correct":0,"explanation":"The Ryotwari system was introduced by Thomas Munro in Madras Presidency and Mountstuart Elphinstone in Bombay Presidency. Bengal had the Permanent Settlement (Zamindari system), not Ryotwari."},
-  {"question":"Consider the following statements about the Indian National Congress sessions: 1. The first session was held in Bombay in 1885 under W.C. Bonnerjee. 2. The Surat Split of 1907 divided the Congress into Moderates and Extremists. 3. The Lucknow Pact of 1916 brought reunion of Moderates and Extremists. Which of the above statements is/are correct?","options":["1, 2 and 3","1 and 2 only","2 and 3 only","1 and 3 only"],"correct":0,"explanation":"All three statements are correct. The first INC session was in Bombay (1885) presided by W.C. Bonnerjee. The Surat Split (1907) divided the party. The Lucknow Pact (1916) reunited both factions and also saw the Congress-League agreement."},
-  {"question":"Arrange the following events of the Indian Freedom Movement in chronological order: 1. Jallianwala Bagh Massacre 2. Rowlatt Act 3. Non-Cooperation Movement 4. Chauri Chaura Incident. Select the correct answer:","options":["2-1-3-4","1-2-3-4","2-1-4-3","1-2-4-3"],"correct":0,"explanation":"Rowlatt Act (March 1919) → Jallianwala Bagh Massacre (April 1919) → Non-Cooperation Movement (1920-22) → Chauri Chaura Incident (February 1922). Gandhi withdrew the NCM after Chauri Chaura."},
-  {"question":"With reference to the Government of India Act, 1935, which of the following statements is/are correct? 1. It introduced provincial autonomy. 2. It established an All-India Federation including Princely States. 3. It abolished dyarchy in provinces but introduced it at the Centre.","options":["1 and 3 only","1 only","1, 2 and 3","2 and 3 only"],"correct":0,"explanation":"The Act introduced provincial autonomy (correct) and proposed abolishing dyarchy in provinces while introducing it at the Centre (correct). However, the All-India Federation was never realized because the required number of Princely States did not accede."},
-  {"question":"Which Article of the Indian Constitution abolishes untouchability?","options":["Article 14","Article 15","Article 17","Article 21"],"correct":2,"explanation":"Article 17 abolishes untouchability and forbids its practice in any form. Article 14 deals with equality before law, Article 15 with prohibition of discrimination, and Article 21 with protection of life and personal liberty."},
-  {"question":"Consider the following statements about the Rajya Sabha: 1. It is not subject to dissolution. 2. One-third of its members retire every two years. 3. The Vice-President of India is the ex-officio Chairman of the Rajya Sabha. Which is/are correct?","options":["1, 2 and 3","1 and 2 only","2 and 3 only","1 and 3 only"],"correct":0,"explanation":"All three statements are correct. The Rajya Sabha is a permanent body not subject to dissolution. One-third of members retire every 2 years. The Vice-President is its ex-officio Chairman as per Article 64."},
-  {"question":"Which Constitutional Amendment introduced the anti-defection law in India?","options":["42nd Amendment","44th Amendment","52nd Amendment","61st Amendment"],"correct":2,"explanation":"The 52nd Constitutional Amendment Act, 1985 added the Tenth Schedule to the Constitution, which contains provisions relating to disqualification on ground of defection — the anti-defection law."},
-  {"question":"The 73rd Constitutional Amendment Act is related to:","options":["Panchayati Raj Institutions","Municipalities","Fundamental Duties","Right to Education"],"correct":0,"explanation":"The 73rd Amendment (1992) added Part IX to the Constitution, providing constitutional status to Panchayati Raj Institutions. The 74th Amendment deals with Municipalities."},
-  {"question":"Consider the following statements about Fundamental Rights: 1. They are justiciable and can be enforced by courts. 2. Article 19 grants six freedoms to all persons residing in India. 3. Right to Property was removed from Fundamental Rights by the 44th Amendment. Which is/are correct?","options":["1 and 3 only","1, 2 and 3","1 only","2 and 3 only"],"correct":0,"explanation":"Fundamental Rights are justiciable (correct). Article 19 grants six freedoms but only to citizens, not to all persons (incorrect). Right to Property was made a legal right by the 44th Amendment (correct). So 1 and 3 are correct."},
-  {"question":"The Strait of Malacca connects which two bodies of water?","options":["South China Sea and Andaman Sea","Indian Ocean and Pacific Ocean","Bay of Bengal and South China Sea","Arabian Sea and Bay of Bengal"],"correct":0,"explanation":"The Strait of Malacca connects the Andaman Sea (Indian Ocean) to the South China Sea (Pacific Ocean). It is one of the world's most important shipping lanes."},
-  {"question":"Consider the following statements about Indian monsoon: 1. The southwest monsoon is caused by the shifting of the ITCZ. 2. The Somali Jet stream plays a role in the Indian monsoon. 3. The monsoon first hits the coast of Kerala around June 1. Which is/are correct?","options":["1, 2 and 3","1 and 3 only","2 and 3 only","1 and 2 only"],"correct":0,"explanation":"All three are correct. The southwest monsoon is driven by the northward shift of the ITCZ, the Somali (or Findlater) Jet brings moisture from the Indian Ocean, and the monsoon onset over Kerala is typically around June 1."},
-  {"question":"Which of the following rivers does NOT originate from the Western Ghats?","options":["Godavari","Krishna","Cauvery","Narmada"],"correct":3,"explanation":"Narmada originates from Amarkantak in Madhya Pradesh (Maikal range of Satpura), NOT from the Western Ghats. Godavari, Krishna, and Cauvery all originate from the Western Ghats."},
-  {"question":"The Siachen Glacier is located in which mountain range?","options":["Pir Panjal Range","Karakoram Range","Zanskar Range","Greater Himalayan Range"],"correct":1,"explanation":"The Siachen Glacier, the world's highest battleground, is located in the eastern Karakoram Range near the India-Pakistan Line of Control in the region of Ladakh."},
-  {"question":"Which National Park is famous for the one-horned Indian Rhinoceros?","options":["Jim Corbett National Park","Kaziranga National Park","Ranthambore National Park","Sundarbans National Park"],"correct":1,"explanation":"Kaziranga National Park in Assam is home to two-thirds of the world's one-horned Indian rhinoceros. It is a UNESCO World Heritage Site."},
-  {"question":"The SI unit of electric current is:","options":["Volt","Ohm","Ampere","Watt"],"correct":2,"explanation":"The SI unit of electric current is the Ampere (A), named after André-Marie Ampère. Volt is for potential difference, Ohm for resistance, and Watt for power."},
-  {"question":"Consider the following statements about nuclear fission: 1. It involves splitting of a heavy nucleus into lighter nuclei. 2. It releases a large amount of energy. 3. Nuclear fission is the principle used in nuclear reactors. Which is/are correct?","options":["1, 2 and 3","1 and 2 only","2 and 3 only","1 only"],"correct":0,"explanation":"All three statements are correct. Nuclear fission splits heavy atoms (like U-235) into lighter nuclei, releasing enormous energy. This principle powers nuclear reactors for electricity generation."},
-  {"question":"Total internal reflection occurs when light travels from:","options":["A denser medium to a rarer medium at an angle greater than the critical angle","A rarer medium to a denser medium","A denser medium to a rarer medium at any angle","Through vacuum only"],"correct":0,"explanation":"Total internal reflection occurs when light travels from a denser medium to a rarer medium and the angle of incidence exceeds the critical angle. This phenomenon is used in optical fibers and prisms."},
-  {"question":"The phenomenon of 'mirages' observed in deserts is due to:","options":["Reflection of light","Refraction and total internal reflection of light","Diffraction of light","Polarization of light"],"correct":1,"explanation":"Mirages are caused by refraction of light through layers of air at different temperatures, followed by total internal reflection. Hot air near the ground is less dense, bending light rays upward."},
-  {"question":"Which of the following is NOT a vector quantity?","options":["Displacement","Velocity","Speed","Acceleration"],"correct":2,"explanation":"Speed is a scalar quantity — it has only magnitude. Displacement, velocity, and acceleration are all vector quantities having both magnitude and direction."},
-  {"question":"The pH of pure water at 25°C is:","options":["0","5","7","14"],"correct":2,"explanation":"Pure water has a pH of 7 at 25°C, which is neutral. pH below 7 is acidic and above 7 is basic. This is because water auto-ionizes equally into H⁺ and OH⁻ ions."},
-  {"question":"Consider the following statements about acids and bases: 1. Hydrochloric acid is a strong acid. 2. Sodium hydroxide is a strong base. 3. Acetic acid is a strong acid. Which is/are correct?","options":["1 and 2 only","1, 2 and 3","2 and 3 only","1 only"],"correct":0,"explanation":"HCl is a strong acid and NaOH is a strong base — both completely dissociate in water. Acetic acid (CH₃COOH) is a weak acid as it only partially dissociates. So statements 1 and 2 are correct."},
-  {"question":"Which gas is commonly known as 'laughing gas'?","options":["Nitric Oxide (NO)","Nitrous Oxide (N₂O)","Nitrogen Dioxide (NO₂)","Carbon Monoxide (CO)"],"correct":1,"explanation":"Nitrous oxide (N₂O) is commonly known as laughing gas due to its euphoric effects when inhaled. It is used as an anesthetic in dentistry and surgery."},
-  {"question":"Baking soda is chemically:","options":["Sodium Carbonate","Sodium Bicarbonate","Sodium Chloride","Calcium Carbonate"],"correct":1,"explanation":"Baking soda is sodium bicarbonate (NaHCO₃). It is different from washing soda which is sodium carbonate (Na₂CO₃). It is used in cooking, cleaning, and as an antacid."},
-  {"question":"The hardest naturally occurring substance is:","options":["Platinum","Quartz","Diamond","Topaz"],"correct":2,"explanation":"Diamond, a crystalline form of carbon, is the hardest naturally occurring substance, scoring 10 on the Mohs hardness scale. It is used in cutting and drilling tools."},
-  {"question":"Which organelle is known as the 'powerhouse of the cell'?","options":["Nucleus","Ribosome","Mitochondria","Endoplasmic Reticulum"],"correct":2,"explanation":"Mitochondria are called the powerhouse of the cell because they produce ATP (adenosine triphosphate) through cellular respiration, providing energy for cell functions."},
-  {"question":"Consider the following statements about human blood: 1. Red blood cells (RBCs) carry oxygen using hemoglobin. 2. White blood cells (WBCs) are part of the immune system. 3. Platelets help in blood clotting. Which is/are correct?","options":["1, 2 and 3","1 and 2 only","2 and 3 only","1 only"],"correct":0,"explanation":"All three statements are correct. RBCs transport oxygen via hemoglobin, WBCs fight infections as part of immunity, and platelets (thrombocytes) are essential for blood clotting at wound sites."},
-  {"question":"Which vitamin deficiency causes Scurvy?","options":["Vitamin A","Vitamin B12","Vitamin C","Vitamin D"],"correct":2,"explanation":"Scurvy is caused by deficiency of Vitamin C (ascorbic acid). Symptoms include bleeding gums, weakness, and poor wound healing. It was historically common among sailors who lacked fresh fruits."},
-  {"question":"The causative pathogen of Malaria belongs to which genus?","options":["Salmonella","Plasmodium","Mycobacterium","Entamoeba"],"correct":1,"explanation":"Malaria is caused by protozoan parasites of the genus Plasmodium (P. falciparum, P. vivax, P. malariae, P. ovale), transmitted through the bite of infected female Anopheles mosquitoes."},
-  {"question":"Consider the following about photosynthesis: 1. It occurs in chloroplasts. 2. Carbon dioxide and water are converted into glucose and oxygen. 3. It is an exothermic process. Which is/are correct?","options":["1 and 2 only","1, 2 and 3","2 and 3 only","1 only"],"correct":0,"explanation":"Photosynthesis occurs in chloroplasts and converts CO₂ and H₂O into glucose and O₂. However, it is an endothermic process (absorbs energy from sunlight), not exothermic. Statements 1 and 2 are correct."},
-  {"question":"What is the primary function of the Reserve Bank of India?","options":["Collecting income tax","Regulating monetary policy and issuing currency","Auditing government accounts","Managing foreign trade"],"correct":1,"explanation":"The RBI is India's central bank, responsible for regulating monetary policy, issuing and managing currency, acting as banker to the government, and maintaining financial stability."},
-  {"question":"Consider the following about Goods and Services Tax (GST) in India: 1. It replaced multiple indirect taxes with a unified tax. 2. It was introduced through the 101st Constitutional Amendment. 3. GST Council decides the tax rates. Which is/are correct?","options":["1, 2 and 3","1 and 2 only","2 and 3 only","1 only"],"correct":0,"explanation":"All three are correct. GST (introduced July 2017) replaced excise duty, service tax, VAT, etc. The 101st Amendment enabled it. The GST Council (chaired by FM with state representatives) decides rates."},
-  {"question":"The fiscal deficit in a government budget indicates:","options":["Total revenue minus total expenditure","Borrowing requirement of the government","Trade deficit with other countries","Excess of exports over imports"],"correct":1,"explanation":"Fiscal deficit represents the total borrowing requirement of the government — the gap between total expenditure and total receipts excluding borrowing. It indicates how much the government needs to borrow."},
-  {"question":"Which of the following is NOT a greenhouse gas?","options":["Carbon Dioxide","Methane","Nitrogen","Nitrous Oxide"],"correct":2,"explanation":"Nitrogen (N₂) makes up about 78% of the atmosphere but is NOT a greenhouse gas. CO₂, CH₄ (methane), and N₂O (nitrous oxide) are all greenhouse gases that trap heat in the atmosphere."},
-  {"question":"The Ramsar Convention is related to:","options":["Conservation of wetlands","Protection of endangered species","Prevention of desertification","Reducing carbon emissions"],"correct":0,"explanation":"The Ramsar Convention (1971) is an international treaty for the conservation and sustainable use of wetlands. India has several Ramsar sites including Chilika Lake, Keoladeo Ghana, and Loktak Lake."},
-  {"question":"Consider the following statements about the Paris Agreement on Climate Change: 1. It aims to limit global warming to well below 2°C above pre-industrial levels. 2. India ratified the agreement in 2016. 3. It replaced the Kyoto Protocol entirely. Which is/are correct?","options":["1 and 2 only","1, 2 and 3","1 only","2 and 3 only"],"correct":0,"explanation":"The Paris Agreement aims to limit warming to well below 2°C (preferably 1.5°C). India ratified it in 2016. However, it did not replace the Kyoto Protocol entirely — it built upon the UNFCCC framework."},
-  {"question":"Which Indian missile is a submarine-launched ballistic missile (SLBM)?","options":["BrahMos","Agni-V","K-4 (Sagarika)","Prithvi-III"],"correct":2,"explanation":"The K-4 (Sagarika) is India's submarine-launched ballistic missile, designed to be launched from Arihant-class nuclear submarines. BrahMos is a cruise missile, Agni-V is land-based ICBM, and Prithvi-III is a naval variant."},
-  {"question":"Exercise 'Malabar' is a multilateral naval exercise between:","options":["India, USA, Japan, and Australia","India, France, and UK","India and Russia","India, Sri Lanka, and Maldives"],"correct":0,"explanation":"Exercise Malabar is a multilateral naval exercise involving India, USA, Japan, and Australia (the Quad nations). It began as a bilateral exercise between India and the US in 1992."},
-  {"question":"The Indian Air Force's Rafale fighter aircraft was procured from which country?","options":["Russia","United States","France","Sweden"],"correct":2,"explanation":"The Rafale is a twin-engine, multi-role fighter aircraft manufactured by Dassault Aviation of France. India procured 36 Rafale jets in a government-to-government deal."},
-  {"question":"Which command of the Indian Army is responsible for the Line of Actual Control with China?","options":["Western Command","Northern Command","Eastern Command","Central Command"],"correct":1,"explanation":"The Northern Command headquartered in Udhampur is responsible for the Line of Control with Pakistan in J&K and parts of LAC with China in Ladakh. The Eastern Command handles the eastern LAC sector."},
-  {"question":"ISRO's Chandrayaan-3 mission successfully landed near which lunar region?","options":["Lunar North Pole","Lunar Equator","Lunar South Pole","Far side of the Moon"],"correct":2,"explanation":"Chandrayaan-3's Vikram lander successfully soft-landed near the lunar south pole on August 23, 2023, making India the first country to land near the Moon's south pole."},
-  {"question":"The Nobel Peace Prize 2023 was awarded to:","options":["World Food Programme","Narges Mohammadi","UNICEF","International Atomic Energy Agency"],"correct":1,"explanation":"Iranian human rights activist Narges Mohammadi was awarded the 2023 Nobel Peace Prize for her fight against the oppression of women in Iran and her efforts to promote human rights and freedom."},
-  {"question":"Which country hosted the G20 Summit in 2023?","options":["Indonesia","India","Brazil","Saudi Arabia"],"correct":1,"explanation":"India hosted the G20 Summit in September 2023 in New Delhi under its presidency. The summit adopted the New Delhi Leaders' Declaration and admitted the African Union as a permanent member."},
-  {"question":"With reference to the Indian Constitution, the Directive Principles of State Policy are:","options":["Legally enforceable in courts","Non-justiciable but fundamental in governance","Applicable only to Union Government","Part of Fundamental Rights"],"correct":1,"explanation":"DPSPs (Part IV, Articles 36-51) are non-justiciable — they cannot be enforced by courts. However, they are fundamental in governance and the State is expected to apply them when making laws and policies."},
-  {"question":"The Coriolis effect causes winds to deflect:","options":["To the right in the Northern Hemisphere and to the left in the Southern Hemisphere","To the left in both hemispheres","To the right in both hemispheres","Only at the equator"],"correct":0,"explanation":"The Coriolis effect, caused by Earth's rotation, deflects moving objects (including wind) to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. It has no effect at the equator."},
-  {"question":"Which of the following pairs is correctly matched? 1. Wular Lake — Jammu & Kashmir 2. Loktak Lake — Manipur 3. Pulicat Lake — Kerala","options":["1 and 2 only","1, 2 and 3","2 and 3 only","1 only"],"correct":0,"explanation":"Wular Lake is in J&K (India's largest freshwater lake) and Loktak Lake is in Manipur (famous for floating phumdis). Pulicat Lake is in Andhra Pradesh/Tamil Nadu border, NOT Kerala."},
-  {"question":"A convex lens of focal length 20 cm produces a real image at 60 cm from the lens. The object distance is:","options":["30 cm","15 cm","40 cm","25 cm"],"correct":0,"explanation":"Using the lens formula 1/v - 1/u = 1/f, where v = 60 cm and f = 20 cm: 1/60 - 1/u = 1/20, giving 1/u = 1/60 - 1/20 = -2/60, so u = -30 cm. The object is 30 cm from the lens."},
-  {"question":"Sound travels fastest in which medium?","options":["Air","Water","Vacuum","Steel"],"correct":3,"explanation":"Sound travels fastest in solids like steel (~5,960 m/s) because molecules are closest together, followed by liquids like water (~1,480 m/s), then gases like air (~343 m/s). Sound cannot travel through vacuum."},
-  {"question":"Which of the following is an example of a lever of the second order?","options":["Scissors","Wheelbarrow","See-saw","Fishing rod"],"correct":1,"explanation":"A wheelbarrow is a second-order lever where the load is between the fulcrum (wheel) and the effort (handles). Scissors and see-saw are first-order levers, and a fishing rod is a third-order lever."},
-  {"question":"The Chipko Movement of 1973 was led by:","options":["Medha Patkar","Sunderlal Bahuguna","Baba Amte","Arundhati Roy"],"correct":1,"explanation":"The Chipko Movement, a forest conservation movement in the Garhwal Himalayas, was led by Sunderlal Bahuguna and Chandi Prasad Bhatt in 1973. Villagers hugged trees to prevent logging."},
-  {"question":"Which Schedule of the Indian Constitution deals with the allocation of subjects between Union and States?","options":["Sixth Schedule","Seventh Schedule","Eighth Schedule","Ninth Schedule"],"correct":1,"explanation":"The Seventh Schedule contains three lists — Union List, State List, and Concurrent List — that allocate legislative subjects between the Union and State governments."},
-  {"question":"Consider the following statements about the Election Commission of India: 1. It is a constitutional body established under Article 324. 2. The Chief Election Commissioner can be removed in the same manner as a Supreme Court judge. 3. It conducts elections for both Parliament and State Legislatures. Which is/are correct?","options":["1, 2 and 3","1 and 2 only","1 and 3 only","2 and 3 only"],"correct":0,"explanation":"All three statements are correct. The ECI is established under Article 324, the CEC's removal requires impeachment-like process, and it conducts elections for Parliament, State Legislatures, and the offices of President and Vice-President."},
-  {"question":"The ozone layer is primarily found in which layer of the atmosphere?","options":["Troposphere","Stratosphere","Mesosphere","Thermosphere"],"correct":1,"explanation":"The ozone layer is found in the stratosphere, approximately 15-35 km above Earth's surface. It absorbs most of the Sun's harmful ultraviolet radiation, protecting life on Earth."},
-  {"question":"Which metal is liquid at room temperature?","options":["Gallium","Mercury","Cesium","Bromine"],"correct":1,"explanation":"Mercury (Hg) is the only metal that is liquid at standard room temperature (25°C). Gallium melts at 29.76°C (just above room temperature), Cesium at 28.5°C, and Bromine is a non-metal liquid."},
-  {"question":"The National Green Tribunal (NGT) was established under which Act?","options":["Environment Protection Act, 1986","National Green Tribunal Act, 2010","Forest Conservation Act, 1980","Wildlife Protection Act, 1972"],"correct":1,"explanation":"The NGT was established under the National Green Tribunal Act, 2010 for effective and expeditious disposal of cases relating to environmental protection and conservation of forests and natural resources."},
-  {"question":"Consider the following statements about the Indian Navy: 1. The Indian Navy's motto is 'Sham No Varunah'. 2. INS Vikrant is India's first indigenous aircraft carrier. 3. The Indian Navy operates from three commands — Western, Eastern, and Southern. Which is/are correct?","options":["1, 2 and 3","2 and 3 only","1 and 2 only","1 only"],"correct":0,"explanation":"All are correct. The Navy's motto 'Sham No Varunah' means 'May the Lord of Water be auspicious unto us'. INS Vikrant (IAC-1) is India's first indigenously built aircraft carrier. The Navy has three commands headquartered at Mumbai, Visakhapatnam, and Kochi."},
-  {"question":"Fleming's Left Hand Rule is used to determine the direction of:","options":["Induced EMF","Force on a current-carrying conductor in a magnetic field","Magnetic field around a wire","Current in a circuit"],"correct":1,"explanation":"Fleming's Left Hand Rule determines the direction of force on a current-carrying conductor placed in a magnetic field. The thumb, forefinger, and middle finger represent force, field, and current respectively."},
-  {"question":"The element with atomic number 6 is:","options":["Nitrogen","Carbon","Oxygen","Boron"],"correct":1,"explanation":"Carbon has atomic number 6, meaning it has 6 protons in its nucleus. Boron is 5, Nitrogen is 7, and Oxygen is 8."},
-  {"question":"Which hormone is secreted by the pancreas to regulate blood sugar?","options":["Thyroxine","Adrenaline","Insulin","Estrogen"],"correct":2,"explanation":"Insulin is secreted by the beta cells of the Islets of Langerhans in the pancreas. It regulates blood sugar by facilitating glucose uptake by cells. Deficiency causes diabetes mellitus."},
-  {"question":"The Tropic of Cancer passes through how many Indian states?","options":["6","7","8","9"],"correct":2,"explanation":"The Tropic of Cancer (23.5°N) passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram."},
-  {"question":"Which of the following is NOT a fundamental duty under Article 51A of the Indian Constitution?","options":["To abide by the Constitution and respect the National Flag","To promote harmony and brotherhood","To pay taxes regularly","To develop scientific temper"],"correct":2,"explanation":"Paying taxes is a legal obligation but NOT listed as a fundamental duty under Article 51A. The duties include respecting the Constitution, promoting harmony, developing scientific temper, protecting the environment, etc."},
-  {"question":"The Battle of Plassey (1757) was fought between:","options":["British and Marathas","British and Siraj-ud-Daulah","British and Tipu Sultan","British and Hyder Ali"],"correct":1,"explanation":"The Battle of Plassey (June 23, 1757) was fought between the British East India Company led by Robert Clive and Siraj-ud-Daulah, the Nawab of Bengal. Mir Jafar's betrayal was key to British victory."},
-  {"question":"Which of the following rivers is known as the 'Sorrow of Bengal'?","options":["Brahmaputra","Damodar","Hooghly","Ganges"],"correct":1,"explanation":"The Damodar River was called the 'Sorrow of Bengal' due to its devastating floods in the lower Bengal region. The Damodar Valley Corporation (DVC) was set up in 1948 to control floods."},
-  {"question":"Consider the following about India's nuclear doctrine: 1. India maintains a 'No First Use' policy. 2. India conducted its first nuclear test (Smiling Buddha) in 1974. 3. The Pokhran-II tests were conducted in 1998. Which is/are correct?","options":["1, 2 and 3","1 and 2 only","2 and 3 only","1 only"],"correct":0,"explanation":"All three are correct. India's nuclear doctrine includes No First Use and minimum credible deterrence. India's first peaceful nuclear explosion (Smiling Buddha) was in May 1974, and Pokhran-II (Operation Shakti) was in May 1998."},
-  {"question":"Which of the following vitamins is water-soluble? 1. Vitamin A 2. Vitamin B 3. Vitamin C 4. Vitamin D","options":["2 and 3 only","1, 2 and 3","1 and 4 only","2, 3 and 4"],"correct":0,"explanation":"Vitamins B and C are water-soluble, meaning they dissolve in water and are not stored in the body. Vitamins A, D, E, and K are fat-soluble and can be stored in body fat and liver."},
-  {"question":"The term 'Fourth Estate' refers to:","options":["Judiciary","Executive","Press/Media","Legislature"],"correct":2,"explanation":"The 'Fourth Estate' refers to the press and media, which serve as an informal check on the three branches of government (legislature, executive, judiciary). The term highlights the media's role in democracy."},
-  {"question":"Who among the following was the first woman President of the Indian National Congress?","options":["Sarojini Naidu","Annie Besant","Aruna Asaf Ali","Vijaya Lakshmi Pandit"],"correct":1,"explanation":"Annie Besant became the first woman President of the Indian National Congress in 1917 at the Calcutta session. Sarojini Naidu was the first Indian woman to hold the position (1925 Kanpur session)."},
-  {"question":"Which planet is known as the 'Morning Star' or 'Evening Star'?","options":["Mars","Jupiter","Venus","Mercury"],"correct":2,"explanation":"Venus is called the Morning Star or Evening Star because it is visible in the sky just before sunrise and just after sunset. It is the brightest natural object in the night sky after the Moon."},
-  {"question":"Consider the following about the Preamble of the Indian Constitution: 1. The words 'Socialist' and 'Secular' were added by the 42nd Amendment. 2. The Preamble declares India as a sovereign, socialist, secular, democratic republic. 3. The Preamble is not enforceable in court. Which is/are correct?","options":["1, 2 and 3","1 and 2 only","2 and 3 only","1 only"],"correct":0,"explanation":"All three are correct. 'Socialist', 'Secular', and 'Integrity' were added by the 42nd Amendment (1976). The Preamble declares India's character. While not independently enforceable, it aids in interpretation of constitutional provisions."},
-  {"question":"Tides in the sea are primarily caused by:","options":["Rotation of the Earth","Wind patterns over oceans","Gravitational pull of the Moon and Sun","Volcanic activity on the ocean floor"],"correct":2,"explanation":"Tides are primarily caused by the gravitational attraction of the Moon (dominant effect) and the Sun on Earth's oceans. Spring tides occur when Sun, Moon, and Earth are aligned; neap tides when at right angles."},
-  {"question":"The chemical formula of quicklime is:","options":["CaCO₃","Ca(OH)₂","CaO","CaSO₄"],"correct":2,"explanation":"Quicklime is calcium oxide (CaO). It is produced by heating limestone (CaCO₃). When water is added to quicklime, it forms slaked lime Ca(OH)₂ in a highly exothermic reaction."},
-  {"question":"Which of the following diseases is caused by a virus? 1. Dengue 2. Tuberculosis 3. Malaria 4. COVID-19","options":["1 and 4 only","1, 2 and 4","1, 3 and 4","2 and 3 only"],"correct":0,"explanation":"Dengue (caused by Dengue virus) and COVID-19 (caused by SARS-CoV-2) are viral diseases. Tuberculosis is caused by the bacterium Mycobacterium tuberculosis, and Malaria by the protozoan Plasmodium."},
-  {"question":"The concept of 'Basic Structure' of the Constitution was established by the Supreme Court in which landmark case?","options":["Golaknath v. State of Punjab","Kesavananda Bharati v. State of Kerala","Maneka Gandhi v. Union of India","Minerva Mills v. Union of India"],"correct":1,"explanation":"In Kesavananda Bharati v. State of Kerala (1973), the Supreme Court held that Parliament can amend any part of the Constitution but cannot alter its 'basic structure'. This is a cornerstone of Indian constitutional law."},
-  {"question":"Which atmospheric layer is closest to the Earth's surface?","options":["Stratosphere","Troposphere","Mesosphere","Exosphere"],"correct":1,"explanation":"The troposphere is the lowest layer of the atmosphere, extending from the surface to about 12 km. It contains about 75% of atmospheric mass and is where weather phenomena occur."},
-  {"question":"The headquarters of the International Court of Justice is located at:","options":["New York, USA","Geneva, Switzerland","The Hague, Netherlands","Vienna, Austria"],"correct":2,"explanation":"The International Court of Justice (ICJ), the principal judicial organ of the United Nations, is located at the Peace Palace in The Hague, Netherlands."},
-  {"question":"With reference to the Gupta Empire, consider the following: 1. The Gupta period is called the 'Golden Age of India'. 2. Aryabhata, the famous mathematician, belonged to the Gupta period. 3. The decimal system was developed during this period. Which is/are correct?","options":["1, 2 and 3","1 and 2 only","1 only","2 and 3 only"],"correct":0,"explanation":"All three are correct. The Gupta period (4th-6th century CE) saw remarkable advancements in arts, science, and culture. Aryabhata (476 CE) was a Gupta-era mathematician. The concept of zero and decimal system were developed."},
-  {"question":"Which of the following is NOT a member of BRICS?","options":["Brazil","Indonesia","India","South Africa"],"correct":1,"explanation":"BRICS originally comprised Brazil, Russia, India, China, and South Africa. Indonesia was not part of the original BRICS grouping (though it was added in 2024 expansion along with other nations)."},
-  {"question":"The Comptroller and Auditor General (CAG) of India is appointed by:","options":["Prime Minister","Chief Justice of India","President of India","Speaker of Lok Sabha"],"correct":2,"explanation":"The CAG is appointed by the President of India under Article 148. The CAG audits all receipts and expenditure of the Central and State governments and is the guardian of the public purse."},
-  {"question":"Which pass connects Srinagar to Leh?","options":["Nathu La","Zoji La","Shipki La","Rohtang Pass"],"correct":1,"explanation":"Zoji La (at 3,528 m) is the mountain pass on NH-1D that connects Srinagar in the Kashmir Valley to Leh in Ladakh. Nathu La connects Sikkim to Tibet, and Shipki La connects Himachal Pradesh to Tibet."},
-  {"question":"Consider the following about India's space programme: 1. PSLV is primarily used for launching satellites into polar orbits. 2. GSLV uses cryogenic upper stage engine. 3. ISRO was founded in 1969. Which is/are correct?","options":["1, 2 and 3","1 and 2 only","2 and 3 only","1 only"],"correct":0,"explanation":"All three are correct. PSLV (Polar Satellite Launch Vehicle) is for polar/sun-synchronous orbits. GSLV (Geosynchronous SLV) uses indigenous cryogenic engine. ISRO was established on August 15, 1969."},
-  {"question":"Brass is an alloy of:","options":["Copper and Tin","Copper and Zinc","Iron and Carbon","Aluminium and Copper"],"correct":1,"explanation":"Brass is an alloy of copper and zinc. Bronze is copper and tin. Steel is iron and carbon. Duralumin is aluminium and copper."},
-  {"question":"The term 'Gross Domestic Product' (GDP) measures:","options":["Total value of goods produced by citizens abroad","Total market value of all final goods and services produced within a country in a year","Government revenue from taxes","Value of exports minus imports"],"correct":1,"explanation":"GDP measures the total market value of all final goods and services produced within the geographical boundaries of a country during a specific period (usually a year). It is the primary indicator of economic health."},
-  {"question":"Which blood group is known as the 'universal donor'?","options":["A","B","AB","O"],"correct":3,"explanation":"Blood group O negative is the universal donor because it lacks A, B antigens and Rh factor, so it can be transfused to any blood group without causing an immune reaction."},
-  {"question":"The Strait of Hormuz connects the Persian Gulf with:","options":["Red Sea","Arabian Sea via Gulf of Oman","Mediterranean Sea","Indian Ocean directly"],"correct":1,"explanation":"The Strait of Hormuz connects the Persian Gulf to the Gulf of Oman, which opens into the Arabian Sea. It is one of the world's most strategically important oil chokepoints."},
-  {"question":"Which Schedule of the Indian Constitution contains provisions for the administration of Tribal Areas?","options":["Fifth Schedule","Sixth Schedule","Ninth Schedule","Tenth Schedule"],"correct":1,"explanation":"The Sixth Schedule (Articles 244(2) and 275(1)) contains provisions for the administration of tribal areas in Assam, Meghalaya, Tripura, and Mizoram through Autonomous District Councils. The Fifth Schedule covers Scheduled Areas in other states."},
-  {"question":"Deficiency of iodine in the diet causes:","options":["Diabetes","Goitre","Anaemia","Rickets"],"correct":1,"explanation":"Iodine deficiency causes goitre — enlargement of the thyroid gland. The thyroid needs iodine to produce hormones T3 and T4. Iodized salt is used to prevent this deficiency disease."},
-  {"question":"Which among the following launched the 'Quit India Movement' in 1942?","options":["Subhas Chandra Bose","Mahatma Gandhi","Jawaharlal Nehru","Sardar Vallabhbhai Patel"],"correct":1,"explanation":"Mahatma Gandhi launched the Quit India Movement on August 8, 1942 at the Bombay session of the All India Congress Committee. His call of 'Do or Die' galvanized the nation against British rule."},
-  {"question":"Which of the following rivers flows through a rift valley?","options":["Ganges","Brahmaputra","Narmada","Godavari"],"correct":2,"explanation":"The Narmada River flows westward through a rift valley between the Vindhya and Satpura ranges. The Tapti is another west-flowing rift valley river. Most other peninsular rivers flow eastward."},
-  {"question":"Consider the following about missile systems of India: 1. Agni series are ballistic missiles. 2. BrahMos is a joint venture with Russia. 3. Akash is a surface-to-air missile. Which is/are correct?","options":["1, 2 and 3","1 and 2 only","1 and 3 only","2 and 3 only"],"correct":0,"explanation":"All are correct. Agni series (I to V) are surface-to-surface ballistic missiles. BrahMos is a supersonic cruise missile — a joint India-Russia venture. Akash is a medium-range SAM developed by DRDO."},
-  {"question":"The first Five Year Plan in India was based on which model?","options":["Mahalanobis Model","Harrod-Domar Model","Gandhian Model","Nehru-Mahalanobis Model"],"correct":1,"explanation":"The First Five Year Plan (1951-56) was based on the Harrod-Domar model and focused on agriculture, irrigation, and power. The Second Plan was based on the Mahalanobis model emphasizing industrialization."},
-  {"question":"Which Article of the Constitution provides for the Right to Constitutional Remedies?","options":["Article 19","Article 21","Article 32","Article 44"],"correct":2,"explanation":"Article 32 provides the Right to Constitutional Remedies, allowing citizens to approach the Supreme Court directly for enforcement of Fundamental Rights. Dr. Ambedkar called it the 'soul of the Constitution'."},
-  {"question":"The largest planet in the Solar System is:","options":["Saturn","Jupiter","Neptune","Uranus"],"correct":1,"explanation":"Jupiter is the largest planet in the Solar System with a diameter of about 139,820 km — more than 11 times Earth's diameter. It is a gas giant composed mainly of hydrogen and helium."},
-  {"question":"Which type of rock is marble?","options":["Igneous","Sedimentary","Metamorphic","Volcanic"],"correct":2,"explanation":"Marble is a metamorphic rock formed from the metamorphism of limestone (a sedimentary rock) under heat and pressure. Other metamorphic rocks include slate (from shale) and quartzite (from sandstone)."},
-  {"question":"The term 'Secular' in the Indian Constitution means:","options":["India has no religion","State treats all religions equally","Religion is prohibited in India","Only Hinduism is the state religion"],"correct":1,"explanation":"'Secular' in the Indian context means the State treats all religions equally and does not discriminate based on religion. It does not mean absence of religion — citizens have full freedom of religion under Articles 25-28."},
-  {"question":"Exercise RIMPAC, the world's largest international maritime exercise, is hosted by:","options":["India","Japan","United States","Australia"],"correct":2,"explanation":"RIMPAC (Rim of the Pacific) is the world's largest international maritime warfare exercise, hosted biennially by the United States Navy near Hawaii. India has participated in RIMPAC exercises."},
-  {"question":"What is the approximate speed of light in vacuum?","options":["3 × 10⁶ m/s","3 × 10⁸ m/s","3 × 10¹⁰ m/s","3 × 10⁴ m/s"],"correct":1,"explanation":"The speed of light in vacuum is approximately 3 × 10⁸ m/s (299,792,458 m/s exactly). This is a fundamental constant in physics denoted by 'c' and is the maximum speed possible in the universe."},
-  {"question":"The Simon Commission (1927) was boycotted by Indians because:","options":["It had no Indian member","It proposed partition of India","It recommended abolition of princely states","It increased taxes on Indians"],"correct":0,"explanation":"The Simon Commission was an all-British commission with no Indian member, appointed to review the working of the Government of India Act, 1919. Indians boycotted it under the slogan 'Simon Go Back'."},
-  {"question":"Which gland is known as the 'master gland' of the human body?","options":["Thyroid","Adrenal","Pituitary","Pineal"],"correct":2,"explanation":"The pituitary gland is called the master gland because it controls and regulates the functions of other endocrine glands by secreting hormones like TSH (thyroid), ACTH (adrenal), FSH/LH (gonads)."},
-  {"question":"Coral reefs are formed by:","options":["Accumulation of sand","Tiny marine organisms called coral polyps","Volcanic activity","Erosion of coastal rocks"],"correct":1,"explanation":"Coral reefs are underwater ecosystems built by colonies of tiny marine animals called coral polyps that secrete calcium carbonate to form hard skeletons. They are found in warm, shallow tropical waters."},
-  {"question":"The Indian Standard Time (IST) is based on the longitude of:","options":["80°E","82.5°E","85°E","90°E"],"correct":1,"explanation":"IST is 5 hours 30 minutes ahead of UTC, based on the 82.5°E longitude passing through Mirzapur (near Allahabad) in Uttar Pradesh. This ensures a uniform time across India."}
+  {
+    "question": "Consider the following statements about the Indus Valley Civilization: 1. The Great Bath was found at Mohenjo-daro. 2. Lothal was a major port city with a dockyard. 3. The Indus people worshipped fire like the Vedic Aryans. Which of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 0,
+    "explanation": "The Great Bath was indeed found at Mohenjo-daro and Lothal had a dockyard. However, there is no evidence that Indus people worshipped fire — fire altars were found at Kalibangan but are not considered equivalent to Vedic fire worship.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "With reference to the Mauryan administration, which of the following statements is/are correct? 1. Dhamma Mahamattas were appointed by Ashoka to propagate dhamma. 2. The empire was divided into provinces called Janapadas headed by Kumaras or Princes. 3. Megasthenes described a six-fold classification of Mauryan society.",
+    "options": [
+      "1 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correct": 1,
+    "explanation": "Dhamma Mahamattas were indeed appointed by Ashoka. Megasthenes described a seven-fold (not six-fold — actually he described six committees for city administration, but society was described as seven classes). The provinces were headed by Kumaras but were called Ahinsa/Chakras, not Janapadas. Statement 1 and 3 are correct regarding Mauryan administration.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Saptanga Theory of State, which describes seven constituent elements of state (Swamin, Amatya, Janapada, Durga, Kosha, Danda, Mitra), was propounded in:",
+    "options": [
+      "Arthashastra by Kautilya",
+      "Manusmriti",
+      "Mudrarakshasa by Vishakhadatta",
+      "Nitisara by Kamandaka"
+    ],
+    "correct": 0,
+    "explanation": "The Saptanga Theory was elaborated by Kautilya in his Arthashastra. The seven limbs are King (Swamin), Minister (Amatya), Territory (Janapada), Fort (Durga), Treasury (Kosha), Army (Danda), and Ally (Mitra).",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following pairs regarding the Delhi Sultanate: 1. Iqta System — Iltutmish 2. Market Reforms — Alauddin Khalji 3. Token Currency — Muhammad bin Tughlaq 4. Diwan-i-Arz — Balban. Which of the above pairs is/are correctly matched?",
+    "options": [
+      "1, 2 and 3 only",
+      "2, 3 and 4 only",
+      "1, 3 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct": 0,
+    "explanation": "The Iqta system was systematized by Iltutmish, Alauddin Khalji introduced market reforms, and Muhammad bin Tughlaq introduced token currency. However, Diwan-i-Arz (military department) was established by Balban but is more associated with the overall Sultanate administration. Pairs 1, 2, and 3 are correctly matched.",
+    "exam": "ALL"
+  },
+  {
+    "question": "Which of the following Bhakti saints preached the concept of 'Nirguna Bhakti' (devotion to a formless God)? 1. Kabir 2. Guru Nanak 3. Chaitanya Mahaprabhu 4. Ravidas",
+    "options": [
+      "1, 2 and 4 only",
+      "1 and 2 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct": 0,
+    "explanation": "Kabir, Guru Nanak, and Ravidas preached Nirguna Bhakti — devotion to a formless, attributeless God. Chaitanya Mahaprabhu was a Saguna Bhakti saint who worshipped Lord Krishna with form and attributes.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "With reference to the Revolt of 1857, consider the following statements: 1. Mangal Pandey's revolt at Barrackpore preceded the main outbreak at Meerut. 2. The rebels proclaimed Bahadur Shah Zafar as the Emperor of India. 3. The revolt was primarily led by the educated middle class. Which of the above statements is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 only",
+      "1, 2 and 3"
+    ],
+    "correct": 0,
+    "explanation": "Mangal Pandey's incident occurred on 29 March 1857, before the Meerut outbreak on 10 May 1857. Bahadur Shah Zafar was proclaimed Emperor. However, the revolt was NOT led by the educated middle class — it was led by sepoys, zamindars, and traditional rulers. The middle class largely remained aloof.",
+    "exam": "ALL"
+  },
+  {
+    "question": "The Ryotwari Settlement was introduced in which of the following regions? 1. Madras Presidency 2. Bombay Presidency 3. Bengal Presidency 4. Central Provinces",
+    "options": [
+      "1 and 2 only",
+      "1, 2 and 3",
+      "2 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct": 0,
+    "explanation": "The Ryotwari system was introduced by Thomas Munro in Madras Presidency and Mountstuart Elphinstone in Bombay Presidency. Bengal had the Permanent Settlement (Zamindari system), not Ryotwari.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following statements about the Indian National Congress sessions: 1. The first session was held in Bombay in 1885 under W.C. Bonnerjee. 2. The Surat Split of 1907 divided the Congress into Moderates and Extremists. 3. The Lucknow Pact of 1916 brought reunion of Moderates and Extremists. Which of the above statements is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only"
+    ],
+    "correct": 0,
+    "explanation": "All three statements are correct. The first INC session was in Bombay (1885) presided by W.C. Bonnerjee. The Surat Split (1907) divided the party. The Lucknow Pact (1916) reunited both factions and also saw the Congress-League agreement.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Arrange the following events of the Indian Freedom Movement in chronological order: 1. Jallianwala Bagh Massacre 2. Rowlatt Act 3. Non-Cooperation Movement 4. Chauri Chaura Incident. Select the correct answer:",
+    "options": [
+      "2-1-3-4",
+      "1-2-3-4",
+      "2-1-4-3",
+      "1-2-4-3"
+    ],
+    "correct": 0,
+    "explanation": "Rowlatt Act (March 1919) → Jallianwala Bagh Massacre (April 1919) → Non-Cooperation Movement (1920-22) → Chauri Chaura Incident (February 1922). Gandhi withdrew the NCM after Chauri Chaura.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "With reference to the Government of India Act, 1935, which of the following statements is/are correct? 1. It introduced provincial autonomy. 2. It established an All-India Federation including Princely States. 3. It abolished dyarchy in provinces but introduced it at the Centre.",
+    "options": [
+      "1 and 3 only",
+      "1 only",
+      "1, 2 and 3",
+      "2 and 3 only"
+    ],
+    "correct": 0,
+    "explanation": "The Act introduced provincial autonomy (correct) and proposed abolishing dyarchy in provinces while introducing it at the Centre (correct). However, the All-India Federation was never realized because the required number of Princely States did not accede.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which Article of the Indian Constitution abolishes untouchability?",
+    "options": [
+      "Article 14",
+      "Article 15",
+      "Article 17",
+      "Article 21"
+    ],
+    "correct": 2,
+    "explanation": "Article 17 abolishes untouchability and forbids its practice in any form. Article 14 deals with equality before law, Article 15 with prohibition of discrimination, and Article 21 with protection of life and personal liberty.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following statements about the Rajya Sabha: 1. It is not subject to dissolution. 2. One-third of its members retire every two years. 3. The Vice-President of India is the ex-officio Chairman of the Rajya Sabha. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only"
+    ],
+    "correct": 0,
+    "explanation": "All three statements are correct. The Rajya Sabha is a permanent body not subject to dissolution. One-third of members retire every 2 years. The Vice-President is its ex-officio Chairman as per Article 64.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which Constitutional Amendment introduced the anti-defection law in India?",
+    "options": [
+      "42nd Amendment",
+      "44th Amendment",
+      "52nd Amendment",
+      "61st Amendment"
+    ],
+    "correct": 2,
+    "explanation": "The 52nd Constitutional Amendment Act, 1985 added the Tenth Schedule to the Constitution, which contains provisions relating to disqualification on ground of defection — the anti-defection law.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The 73rd Constitutional Amendment Act is related to:",
+    "options": [
+      "Panchayati Raj Institutions",
+      "Municipalities",
+      "Fundamental Duties",
+      "Right to Education"
+    ],
+    "correct": 0,
+    "explanation": "The 73rd Amendment (1992) added Part IX to the Constitution, providing constitutional status to Panchayati Raj Institutions. The 74th Amendment deals with Municipalities.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following statements about Fundamental Rights: 1. They are justiciable and can be enforced by courts. 2. Article 19 grants six freedoms to all persons residing in India. 3. Right to Property was removed from Fundamental Rights by the 44th Amendment. Which is/are correct?",
+    "options": [
+      "1 and 3 only",
+      "1, 2 and 3",
+      "1 only",
+      "2 and 3 only"
+    ],
+    "correct": 0,
+    "explanation": "Fundamental Rights are justiciable (correct). Article 19 grants six freedoms but only to citizens, not to all persons (incorrect). Right to Property was made a legal right by the 44th Amendment (correct). So 1 and 3 are correct.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Strait of Malacca connects which two bodies of water?",
+    "options": [
+      "South China Sea and Andaman Sea",
+      "Indian Ocean and Pacific Ocean",
+      "Bay of Bengal and South China Sea",
+      "Arabian Sea and Bay of Bengal"
+    ],
+    "correct": 0,
+    "explanation": "The Strait of Malacca connects the Andaman Sea (Indian Ocean) to the South China Sea (Pacific Ocean). It is one of the world's most important shipping lanes.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following statements about Indian monsoon: 1. The southwest monsoon is caused by the shifting of the ITCZ. 2. The Somali Jet stream plays a role in the Indian monsoon. 3. The monsoon first hits the coast of Kerala around June 1. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1 and 2 only"
+    ],
+    "correct": 0,
+    "explanation": "All three are correct. The southwest monsoon is driven by the northward shift of the ITCZ, the Somali (or Findlater) Jet brings moisture from the Indian Ocean, and the monsoon onset over Kerala is typically around June 1.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following rivers does NOT originate from the Western Ghats?",
+    "options": [
+      "Godavari",
+      "Krishna",
+      "Cauvery",
+      "Narmada"
+    ],
+    "correct": 3,
+    "explanation": "Narmada originates from Amarkantak in Madhya Pradesh (Maikal range of Satpura), NOT from the Western Ghats. Godavari, Krishna, and Cauvery all originate from the Western Ghats.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Siachen Glacier is located in which mountain range?",
+    "options": [
+      "Pir Panjal Range",
+      "Karakoram Range",
+      "Zanskar Range",
+      "Greater Himalayan Range"
+    ],
+    "correct": 1,
+    "explanation": "The Siachen Glacier, the world's highest battleground, is located in the eastern Karakoram Range near the India-Pakistan Line of Control in the region of Ladakh.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which National Park is famous for the one-horned Indian Rhinoceros?",
+    "options": [
+      "Jim Corbett National Park",
+      "Kaziranga National Park",
+      "Ranthambore National Park",
+      "Sundarbans National Park"
+    ],
+    "correct": 1,
+    "explanation": "Kaziranga National Park in Assam is home to two-thirds of the world's one-horned Indian rhinoceros. It is a UNESCO World Heritage Site.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The SI unit of electric current is:",
+    "options": [
+      "Volt",
+      "Ohm",
+      "Ampere",
+      "Watt"
+    ],
+    "correct": 2,
+    "explanation": "The SI unit of electric current is the Ampere (A), named after André-Marie Ampère. Volt is for potential difference, Ohm for resistance, and Watt for power.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following statements about nuclear fission: 1. It involves splitting of a heavy nucleus into lighter nuclei. 2. It releases a large amount of energy. 3. Nuclear fission is the principle used in nuclear reactors. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "correct": 0,
+    "explanation": "All three statements are correct. Nuclear fission splits heavy atoms (like U-235) into lighter nuclei, releasing enormous energy. This principle powers nuclear reactors for electricity generation.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Total internal reflection occurs when light travels from:",
+    "options": [
+      "A denser medium to a rarer medium at an angle greater than the critical angle",
+      "A rarer medium to a denser medium",
+      "A denser medium to a rarer medium at any angle",
+      "Through vacuum only"
+    ],
+    "correct": 0,
+    "explanation": "Total internal reflection occurs when light travels from a denser medium to a rarer medium and the angle of incidence exceeds the critical angle. This phenomenon is used in optical fibers and prisms.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The phenomenon of 'mirages' observed in deserts is due to:",
+    "options": [
+      "Reflection of light",
+      "Refraction and total internal reflection of light",
+      "Diffraction of light",
+      "Polarization of light"
+    ],
+    "correct": 1,
+    "explanation": "Mirages are caused by refraction of light through layers of air at different temperatures, followed by total internal reflection. Hot air near the ground is less dense, bending light rays upward.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following is NOT a vector quantity?",
+    "options": [
+      "Displacement",
+      "Velocity",
+      "Speed",
+      "Acceleration"
+    ],
+    "correct": 2,
+    "explanation": "Speed is a scalar quantity — it has only magnitude. Displacement, velocity, and acceleration are all vector quantities having both magnitude and direction.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The pH of pure water at 25°C is:",
+    "options": [
+      "0",
+      "5",
+      "7",
+      "14"
+    ],
+    "correct": 2,
+    "explanation": "Pure water has a pH of 7 at 25°C, which is neutral. pH below 7 is acidic and above 7 is basic. This is because water auto-ionizes equally into H⁺ and OH⁻ ions.",
+    "exam": "ALL"
+  },
+  {
+    "question": "Consider the following statements about acids and bases: 1. Hydrochloric acid is a strong acid. 2. Sodium hydroxide is a strong base. 3. Acetic acid is a strong acid. Which is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "1, 2 and 3",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "correct": 0,
+    "explanation": "HCl is a strong acid and NaOH is a strong base — both completely dissociate in water. Acetic acid (CH₃COOH) is a weak acid as it only partially dissociates. So statements 1 and 2 are correct.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which gas is commonly known as 'laughing gas'?",
+    "options": [
+      "Nitric Oxide (NO)",
+      "Nitrous Oxide (N₂O)",
+      "Nitrogen Dioxide (NO₂)",
+      "Carbon Monoxide (CO)"
+    ],
+    "correct": 1,
+    "explanation": "Nitrous oxide (N₂O) is commonly known as laughing gas due to its euphoric effects when inhaled. It is used as an anesthetic in dentistry and surgery.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Baking soda is chemically:",
+    "options": [
+      "Sodium Carbonate",
+      "Sodium Bicarbonate",
+      "Sodium Chloride",
+      "Calcium Carbonate"
+    ],
+    "correct": 1,
+    "explanation": "Baking soda is sodium bicarbonate (NaHCO₃). It is different from washing soda which is sodium carbonate (Na₂CO₃). It is used in cooking, cleaning, and as an antacid.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The hardest naturally occurring substance is:",
+    "options": [
+      "Platinum",
+      "Quartz",
+      "Diamond",
+      "Topaz"
+    ],
+    "correct": 2,
+    "explanation": "Diamond, a crystalline form of carbon, is the hardest naturally occurring substance, scoring 10 on the Mohs hardness scale. It is used in cutting and drilling tools.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which organelle is known as the 'powerhouse of the cell'?",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Endoplasmic Reticulum"
+    ],
+    "correct": 2,
+    "explanation": "Mitochondria are called the powerhouse of the cell because they produce ATP (adenosine triphosphate) through cellular respiration, providing energy for cell functions.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following statements about human blood: 1. Red blood cells (RBCs) carry oxygen using hemoglobin. 2. White blood cells (WBCs) are part of the immune system. 3. Platelets help in blood clotting. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "correct": 0,
+    "explanation": "All three statements are correct. RBCs transport oxygen via hemoglobin, WBCs fight infections as part of immunity, and platelets (thrombocytes) are essential for blood clotting at wound sites.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which vitamin deficiency causes Scurvy?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correct": 2,
+    "explanation": "Scurvy is caused by deficiency of Vitamin C (ascorbic acid). Symptoms include bleeding gums, weakness, and poor wound healing. It was historically common among sailors who lacked fresh fruits.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The causative pathogen of Malaria belongs to which genus?",
+    "options": [
+      "Salmonella",
+      "Plasmodium",
+      "Mycobacterium",
+      "Entamoeba"
+    ],
+    "correct": 1,
+    "explanation": "Malaria is caused by protozoan parasites of the genus Plasmodium (P. falciparum, P. vivax, P. malariae, P. ovale), transmitted through the bite of infected female Anopheles mosquitoes.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following about photosynthesis: 1. It occurs in chloroplasts. 2. Carbon dioxide and water are converted into glucose and oxygen. 3. It is an exothermic process. Which is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "1, 2 and 3",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "correct": 0,
+    "explanation": "Photosynthesis occurs in chloroplasts and converts CO₂ and H₂O into glucose and O₂. However, it is an endothermic process (absorbs energy from sunlight), not exothermic. Statements 1 and 2 are correct.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "What is the primary function of the Reserve Bank of India?",
+    "options": [
+      "Collecting income tax",
+      "Regulating monetary policy and issuing currency",
+      "Auditing government accounts",
+      "Managing foreign trade"
+    ],
+    "correct": 1,
+    "explanation": "The RBI is India's central bank, responsible for regulating monetary policy, issuing and managing currency, acting as banker to the government, and maintaining financial stability.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following about Goods and Services Tax (GST) in India: 1. It replaced multiple indirect taxes with a unified tax. 2. It was introduced through the 101st Constitutional Amendment. 3. GST Council decides the tax rates. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "correct": 0,
+    "explanation": "All three are correct. GST (introduced July 2017) replaced excise duty, service tax, VAT, etc. The 101st Amendment enabled it. The GST Council (chaired by FM with state representatives) decides rates.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The fiscal deficit in a government budget indicates:",
+    "options": [
+      "Total revenue minus total expenditure",
+      "Borrowing requirement of the government",
+      "Trade deficit with other countries",
+      "Excess of exports over imports"
+    ],
+    "correct": 1,
+    "explanation": "Fiscal deficit represents the total borrowing requirement of the government — the gap between total expenditure and total receipts excluding borrowing. It indicates how much the government needs to borrow.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following is NOT a greenhouse gas?",
+    "options": [
+      "Carbon Dioxide",
+      "Methane",
+      "Nitrogen",
+      "Nitrous Oxide"
+    ],
+    "correct": 2,
+    "explanation": "Nitrogen (N₂) makes up about 78% of the atmosphere but is NOT a greenhouse gas. CO₂, CH₄ (methane), and N₂O (nitrous oxide) are all greenhouse gases that trap heat in the atmosphere.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Ramsar Convention is related to:",
+    "options": [
+      "Conservation of wetlands",
+      "Protection of endangered species",
+      "Prevention of desertification",
+      "Reducing carbon emissions"
+    ],
+    "correct": 0,
+    "explanation": "The Ramsar Convention (1971) is an international treaty for the conservation and sustainable use of wetlands. India has several Ramsar sites including Chilika Lake, Keoladeo Ghana, and Loktak Lake.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following statements about the Paris Agreement on Climate Change: 1. It aims to limit global warming to well below 2°C above pre-industrial levels. 2. India ratified the agreement in 2016. 3. It replaced the Kyoto Protocol entirely. Which is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "1, 2 and 3",
+      "1 only",
+      "2 and 3 only"
+    ],
+    "correct": 0,
+    "explanation": "The Paris Agreement aims to limit warming to well below 2°C (preferably 1.5°C). India ratified it in 2016. However, it did not replace the Kyoto Protocol entirely — it built upon the UNFCCC framework.",
+    "exam": "ALL"
+  },
+  {
+    "question": "Which Indian missile is a submarine-launched ballistic missile (SLBM)?",
+    "options": [
+      "BrahMos",
+      "Agni-V",
+      "K-4 (Sagarika)",
+      "Prithvi-III"
+    ],
+    "correct": 2,
+    "explanation": "The K-4 (Sagarika) is India's submarine-launched ballistic missile, designed to be launched from Arihant-class nuclear submarines. BrahMos is a cruise missile, Agni-V is land-based ICBM, and Prithvi-III is a naval variant.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Exercise 'Malabar' is a multilateral naval exercise between:",
+    "options": [
+      "India, USA, Japan, and Australia",
+      "India, France, and UK",
+      "India and Russia",
+      "India, Sri Lanka, and Maldives"
+    ],
+    "correct": 0,
+    "explanation": "Exercise Malabar is a multilateral naval exercise involving India, USA, Japan, and Australia (the Quad nations). It began as a bilateral exercise between India and the US in 1992.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Indian Air Force's Rafale fighter aircraft was procured from which country?",
+    "options": [
+      "Russia",
+      "United States",
+      "France",
+      "Sweden"
+    ],
+    "correct": 2,
+    "explanation": "The Rafale is a twin-engine, multi-role fighter aircraft manufactured by Dassault Aviation of France. India procured 36 Rafale jets in a government-to-government deal.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which command of the Indian Army is responsible for the Line of Actual Control with China?",
+    "options": [
+      "Western Command",
+      "Northern Command",
+      "Eastern Command",
+      "Central Command"
+    ],
+    "correct": 1,
+    "explanation": "The Northern Command headquartered in Udhampur is responsible for the Line of Control with Pakistan in J&K and parts of LAC with China in Ladakh. The Eastern Command handles the eastern LAC sector.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "ISRO's Chandrayaan-3 mission successfully landed near which lunar region?",
+    "options": [
+      "Lunar North Pole",
+      "Lunar Equator",
+      "Lunar South Pole",
+      "Far side of the Moon"
+    ],
+    "correct": 2,
+    "explanation": "Chandrayaan-3's Vikram lander successfully soft-landed near the lunar south pole on August 23, 2023, making India the first country to land near the Moon's south pole.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Nobel Peace Prize 2023 was awarded to:",
+    "options": [
+      "World Food Programme",
+      "Narges Mohammadi",
+      "UNICEF",
+      "International Atomic Energy Agency"
+    ],
+    "correct": 1,
+    "explanation": "Iranian human rights activist Narges Mohammadi was awarded the 2023 Nobel Peace Prize for her fight against the oppression of women in Iran and her efforts to promote human rights and freedom.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "With reference to the Indian Constitution, the Directive Principles of State Policy are:",
+    "options": [
+      "Legally enforceable in courts",
+      "Non-justiciable but fundamental in governance",
+      "Applicable only to Union Government",
+      "Part of Fundamental Rights"
+    ],
+    "correct": 1,
+    "explanation": "DPSPs (Part IV, Articles 36-51) are non-justiciable — they cannot be enforced by courts. However, they are fundamental in governance and the State is expected to apply them when making laws and policies.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Coriolis effect causes winds to deflect:",
+    "options": [
+      "To the right in the Northern Hemisphere and to the left in the Southern Hemisphere",
+      "To the left in both hemispheres",
+      "To the right in both hemispheres",
+      "Only at the equator"
+    ],
+    "correct": 0,
+    "explanation": "The Coriolis effect, caused by Earth's rotation, deflects moving objects (including wind) to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. It has no effect at the equator.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following pairs is correctly matched? 1. Wular Lake — Jammu & Kashmir 2. Loktak Lake — Manipur 3. Pulicat Lake — Kerala",
+    "options": [
+      "1 and 2 only",
+      "1, 2 and 3",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "correct": 0,
+    "explanation": "Wular Lake is in J&K (India's largest freshwater lake) and Loktak Lake is in Manipur (famous for floating phumdis). Pulicat Lake is in Andhra Pradesh/Tamil Nadu border, NOT Kerala.",
+    "exam": "ALL"
+  },
+  {
+    "question": "A convex lens of focal length 20 cm produces a real image at 60 cm from the lens. The object distance is:",
+    "options": [
+      "30 cm",
+      "15 cm",
+      "40 cm",
+      "25 cm"
+    ],
+    "correct": 0,
+    "explanation": "Using the lens formula 1/v - 1/u = 1/f, where v = 60 cm and f = 20 cm: 1/60 - 1/u = 1/20, giving 1/u = 1/60 - 1/20 = -2/60, so u = -30 cm. The object is 30 cm from the lens.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Sound travels fastest in which medium?",
+    "options": [
+      "Air",
+      "Water",
+      "Vacuum",
+      "Steel"
+    ],
+    "correct": 3,
+    "explanation": "Sound travels fastest in solids like steel (~5,960 m/s) because molecules are closest together, followed by liquids like water (~1,480 m/s), then gases like air (~343 m/s). Sound cannot travel through vacuum.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following is an example of a lever of the second order?",
+    "options": [
+      "Scissors",
+      "Wheelbarrow",
+      "See-saw",
+      "Fishing rod"
+    ],
+    "correct": 1,
+    "explanation": "A wheelbarrow is a second-order lever where the load is between the fulcrum (wheel) and the effort (handles). Scissors and see-saw are first-order levers, and a fishing rod is a third-order lever.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Chipko Movement of 1973 was led by:",
+    "options": [
+      "Medha Patkar",
+      "Sunderlal Bahuguna",
+      "Baba Amte",
+      "Arundhati Roy"
+    ],
+    "correct": 1,
+    "explanation": "The Chipko Movement, a forest conservation movement in the Garhwal Himalayas, was led by Sunderlal Bahuguna and Chandi Prasad Bhatt in 1973. Villagers hugged trees to prevent logging.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which Schedule of the Indian Constitution deals with the allocation of subjects between Union and States?",
+    "options": [
+      "Sixth Schedule",
+      "Seventh Schedule",
+      "Eighth Schedule",
+      "Ninth Schedule"
+    ],
+    "correct": 1,
+    "explanation": "The Seventh Schedule contains three lists — Union List, State List, and Concurrent List — that allocate legislative subjects between the Union and State governments.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following statements about the Election Commission of India: 1. It is a constitutional body established under Article 324. 2. The Chief Election Commissioner can be removed in the same manner as a Supreme Court judge. 3. It conducts elections for both Parliament and State Legislatures. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only"
+    ],
+    "correct": 0,
+    "explanation": "All three statements are correct. The ECI is established under Article 324, the CEC's removal requires impeachment-like process, and it conducts elections for Parliament, State Legislatures, and the offices of President and Vice-President.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The ozone layer is primarily found in which layer of the atmosphere?",
+    "options": [
+      "Troposphere",
+      "Stratosphere",
+      "Mesosphere",
+      "Thermosphere"
+    ],
+    "correct": 1,
+    "explanation": "The ozone layer is found in the stratosphere, approximately 15-35 km above Earth's surface. It absorbs most of the Sun's harmful ultraviolet radiation, protecting life on Earth.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": [
+      "Gallium",
+      "Mercury",
+      "Cesium",
+      "Bromine"
+    ],
+    "correct": 1,
+    "explanation": "Mercury (Hg) is the only metal that is liquid at standard room temperature (25°C). Gallium melts at 29.76°C (just above room temperature), Cesium at 28.5°C, and Bromine is a non-metal liquid.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The National Green Tribunal (NGT) was established under which Act?",
+    "options": [
+      "Environment Protection Act, 1986",
+      "National Green Tribunal Act, 2010",
+      "Forest Conservation Act, 1980",
+      "Wildlife Protection Act, 1972"
+    ],
+    "correct": 1,
+    "explanation": "The NGT was established under the National Green Tribunal Act, 2010 for effective and expeditious disposal of cases relating to environmental protection and conservation of forests and natural resources.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following statements about the Indian Navy: 1. The Indian Navy's motto is 'Sham No Varunah'. 2. INS Vikrant is India's first indigenous aircraft carrier. 3. The Indian Navy operates from three commands — Western, Eastern, and Southern. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "2 and 3 only",
+      "1 and 2 only",
+      "1 only"
+    ],
+    "correct": 0,
+    "explanation": "All are correct. The Navy's motto 'Sham No Varunah' means 'May the Lord of Water be auspicious unto us'. INS Vikrant (IAC-1) is India's first indigenously built aircraft carrier. The Navy has three commands headquartered at Mumbai, Visakhapatnam, and Kochi.",
+    "exam": "ALL"
+  },
+  {
+    "question": "Fleming's Left Hand Rule is used to determine the direction of:",
+    "options": [
+      "Induced EMF",
+      "Force on a current-carrying conductor in a magnetic field",
+      "Magnetic field around a wire",
+      "Current in a circuit"
+    ],
+    "correct": 1,
+    "explanation": "Fleming's Left Hand Rule determines the direction of force on a current-carrying conductor placed in a magnetic field. The thumb, forefinger, and middle finger represent force, field, and current respectively.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The element with atomic number 6 is:",
+    "options": [
+      "Nitrogen",
+      "Carbon",
+      "Oxygen",
+      "Boron"
+    ],
+    "correct": 1,
+    "explanation": "Carbon has atomic number 6, meaning it has 6 protons in its nucleus. Boron is 5, Nitrogen is 7, and Oxygen is 8.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which hormone is secreted by the pancreas to regulate blood sugar?",
+    "options": [
+      "Thyroxine",
+      "Adrenaline",
+      "Insulin",
+      "Estrogen"
+    ],
+    "correct": 2,
+    "explanation": "Insulin is secreted by the beta cells of the Islets of Langerhans in the pancreas. It regulates blood sugar by facilitating glucose uptake by cells. Deficiency causes diabetes mellitus.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Tropic of Cancer passes through how many Indian states?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct": 2,
+    "explanation": "The Tropic of Cancer (23.5°N) passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following is NOT a fundamental duty under Article 51A of the Indian Constitution?",
+    "options": [
+      "To abide by the Constitution and respect the National Flag",
+      "To promote harmony and brotherhood",
+      "To pay taxes regularly",
+      "To develop scientific temper"
+    ],
+    "correct": 2,
+    "explanation": "Paying taxes is a legal obligation but NOT listed as a fundamental duty under Article 51A. The duties include respecting the Constitution, promoting harmony, developing scientific temper, protecting the environment, etc.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Battle of Plassey (1757) was fought between:",
+    "options": [
+      "British and Marathas",
+      "British and Siraj-ud-Daulah",
+      "British and Tipu Sultan",
+      "British and Hyder Ali"
+    ],
+    "correct": 1,
+    "explanation": "The Battle of Plassey (June 23, 1757) was fought between the British East India Company led by Robert Clive and Siraj-ud-Daulah, the Nawab of Bengal. Mir Jafar's betrayal was key to British victory.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following rivers is known as the 'Sorrow of Bengal'?",
+    "options": [
+      "Brahmaputra",
+      "Damodar",
+      "Hooghly",
+      "Ganges"
+    ],
+    "correct": 1,
+    "explanation": "The Damodar River was called the 'Sorrow of Bengal' due to its devastating floods in the lower Bengal region. The Damodar Valley Corporation (DVC) was set up in 1948 to control floods.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following about India's nuclear doctrine: 1. India maintains a 'No First Use' policy. 2. India conducted its first nuclear test (Smiling Buddha) in 1974. 3. The Pokhran-II tests were conducted in 1998. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "correct": 0,
+    "explanation": "All three are correct. India's nuclear doctrine includes No First Use and minimum credible deterrence. India's first peaceful nuclear explosion (Smiling Buddha) was in May 1974, and Pokhran-II (Operation Shakti) was in May 1998.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following vitamins is water-soluble? 1. Vitamin A 2. Vitamin B 3. Vitamin C 4. Vitamin D",
+    "options": [
+      "2 and 3 only",
+      "1, 2 and 3",
+      "1 and 4 only",
+      "2, 3 and 4"
+    ],
+    "correct": 0,
+    "explanation": "Vitamins B and C are water-soluble, meaning they dissolve in water and are not stored in the body. Vitamins A, D, E, and K are fat-soluble and can be stored in body fat and liver.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The term 'Fourth Estate' refers to:",
+    "options": [
+      "Judiciary",
+      "Executive",
+      "Press/Media",
+      "Legislature"
+    ],
+    "correct": 2,
+    "explanation": "The 'Fourth Estate' refers to the press and media, which serve as an informal check on the three branches of government (legislature, executive, judiciary). The term highlights the media's role in democracy.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Who among the following was the first woman President of the Indian National Congress?",
+    "options": [
+      "Sarojini Naidu",
+      "Annie Besant",
+      "Aruna Asaf Ali",
+      "Vijaya Lakshmi Pandit"
+    ],
+    "correct": 1,
+    "explanation": "Annie Besant became the first woman President of the Indian National Congress in 1917 at the Calcutta session. Sarojini Naidu was the first Indian woman to hold the position (1925 Kanpur session).",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Venus",
+      "Mercury"
+    ],
+    "correct": 2,
+    "explanation": "Venus is called the Morning Star or Evening Star because it is visible in the sky just before sunrise and just after sunset. It is the brightest natural object in the night sky after the Moon.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following about the Preamble of the Indian Constitution: 1. The words 'Socialist' and 'Secular' were added by the 42nd Amendment. 2. The Preamble declares India as a sovereign, socialist, secular, democratic republic. 3. The Preamble is not enforceable in court. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "correct": 0,
+    "explanation": "All three are correct. 'Socialist', 'Secular', and 'Integrity' were added by the 42nd Amendment (1976). The Preamble declares India's character. While not independently enforceable, it aids in interpretation of constitutional provisions.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Tides in the sea are primarily caused by:",
+    "options": [
+      "Rotation of the Earth",
+      "Wind patterns over oceans",
+      "Gravitational pull of the Moon and Sun",
+      "Volcanic activity on the ocean floor"
+    ],
+    "correct": 2,
+    "explanation": "Tides are primarily caused by the gravitational attraction of the Moon (dominant effect) and the Sun on Earth's oceans. Spring tides occur when Sun, Moon, and Earth are aligned; neap tides when at right angles.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The chemical formula of quicklime is:",
+    "options": [
+      "CaCO₃",
+      "Ca(OH)₂",
+      "CaO",
+      "CaSO₄"
+    ],
+    "correct": 2,
+    "explanation": "Quicklime is calcium oxide (CaO). It is produced by heating limestone (CaCO₃). When water is added to quicklime, it forms slaked lime Ca(OH)₂ in a highly exothermic reaction.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following diseases is caused by a virus? 1. Dengue 2. Tuberculosis 3. Malaria 4. COVID-19",
+    "options": [
+      "1 and 4 only",
+      "1, 2 and 4",
+      "1, 3 and 4",
+      "2 and 3 only"
+    ],
+    "correct": 0,
+    "explanation": "Dengue (caused by Dengue virus) and COVID-19 (caused by SARS-CoV-2) are viral diseases. Tuberculosis is caused by the bacterium Mycobacterium tuberculosis, and Malaria by the protozoan Plasmodium.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The concept of 'Basic Structure' of the Constitution was established by the Supreme Court in which landmark case?",
+    "options": [
+      "Golaknath v. State of Punjab",
+      "Kesavananda Bharati v. State of Kerala",
+      "Maneka Gandhi v. Union of India",
+      "Minerva Mills v. Union of India"
+    ],
+    "correct": 1,
+    "explanation": "In Kesavananda Bharati v. State of Kerala (1973), the Supreme Court held that Parliament can amend any part of the Constitution but cannot alter its 'basic structure'. This is a cornerstone of Indian constitutional law.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which atmospheric layer is closest to the Earth's surface?",
+    "options": [
+      "Stratosphere",
+      "Troposphere",
+      "Mesosphere",
+      "Exosphere"
+    ],
+    "correct": 1,
+    "explanation": "The troposphere is the lowest layer of the atmosphere, extending from the surface to about 12 km. It contains about 75% of atmospheric mass and is where weather phenomena occur.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The headquarters of the International Court of Justice is located at:",
+    "options": [
+      "New York, USA",
+      "Geneva, Switzerland",
+      "The Hague, Netherlands",
+      "Vienna, Austria"
+    ],
+    "correct": 2,
+    "explanation": "The International Court of Justice (ICJ), the principal judicial organ of the United Nations, is located at the Peace Palace in The Hague, Netherlands.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "With reference to the Gupta Empire, consider the following: 1. The Gupta period is called the 'Golden Age of India'. 2. Aryabhata, the famous mathematician, belonged to the Gupta period. 3. The decimal system was developed during this period. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "1 only",
+      "2 and 3 only"
+    ],
+    "correct": 0,
+    "explanation": "All three are correct. The Gupta period (4th-6th century CE) saw remarkable advancements in arts, science, and culture. Aryabhata (476 CE) was a Gupta-era mathematician. The concept of zero and decimal system were developed.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following is NOT a member of BRICS?",
+    "options": [
+      "Brazil",
+      "Indonesia",
+      "India",
+      "South Africa"
+    ],
+    "correct": 1,
+    "explanation": "BRICS originally comprised Brazil, Russia, India, China, and South Africa. Indonesia was not part of the original BRICS grouping (though it was added in 2024 expansion along with other nations).",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Comptroller and Auditor General (CAG) of India is appointed by:",
+    "options": [
+      "Prime Minister",
+      "Chief Justice of India",
+      "President of India",
+      "Speaker of Lok Sabha"
+    ],
+    "correct": 2,
+    "explanation": "The CAG is appointed by the President of India under Article 148. The CAG audits all receipts and expenditure of the Central and State governments and is the guardian of the public purse.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which pass connects Srinagar to Leh?",
+    "options": [
+      "Nathu La",
+      "Zoji La",
+      "Shipki La",
+      "Rohtang Pass"
+    ],
+    "correct": 1,
+    "explanation": "Zoji La (at 3,528 m) is the mountain pass on NH-1D that connects Srinagar in the Kashmir Valley to Leh in Ladakh. Nathu La connects Sikkim to Tibet, and Shipki La connects Himachal Pradesh to Tibet.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following about India's space programme: 1. PSLV is primarily used for launching satellites into polar orbits. 2. GSLV uses cryogenic upper stage engine. 3. ISRO was founded in 1969. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "correct": 0,
+    "explanation": "All three are correct. PSLV (Polar Satellite Launch Vehicle) is for polar/sun-synchronous orbits. GSLV (Geosynchronous SLV) uses indigenous cryogenic engine. ISRO was established on August 15, 1969.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Brass is an alloy of:",
+    "options": [
+      "Copper and Tin",
+      "Copper and Zinc",
+      "Iron and Carbon",
+      "Aluminium and Copper"
+    ],
+    "correct": 1,
+    "explanation": "Brass is an alloy of copper and zinc. Bronze is copper and tin. Steel is iron and carbon. Duralumin is aluminium and copper.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The term 'Gross Domestic Product' (GDP) measures:",
+    "options": [
+      "Total value of goods produced by citizens abroad",
+      "Total market value of all final goods and services produced within a country in a year",
+      "Government revenue from taxes",
+      "Value of exports minus imports"
+    ],
+    "correct": 1,
+    "explanation": "GDP measures the total market value of all final goods and services produced within the geographical boundaries of a country during a specific period (usually a year). It is the primary indicator of economic health.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which blood group is known as the 'universal donor'?",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O"
+    ],
+    "correct": 3,
+    "explanation": "Blood group O negative is the universal donor because it lacks A, B antigens and Rh factor, so it can be transfused to any blood group without causing an immune reaction.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Strait of Hormuz connects the Persian Gulf with:",
+    "options": [
+      "Red Sea",
+      "Arabian Sea via Gulf of Oman",
+      "Mediterranean Sea",
+      "Indian Ocean directly"
+    ],
+    "correct": 1,
+    "explanation": "The Strait of Hormuz connects the Persian Gulf to the Gulf of Oman, which opens into the Arabian Sea. It is one of the world's most strategically important oil chokepoints.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which Schedule of the Indian Constitution contains provisions for the administration of Tribal Areas?",
+    "options": [
+      "Fifth Schedule",
+      "Sixth Schedule",
+      "Ninth Schedule",
+      "Tenth Schedule"
+    ],
+    "correct": 1,
+    "explanation": "The Sixth Schedule (Articles 244(2) and 275(1)) contains provisions for the administration of tribal areas in Assam, Meghalaya, Tripura, and Mizoram through Autonomous District Councils. The Fifth Schedule covers Scheduled Areas in other states.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Deficiency of iodine in the diet causes:",
+    "options": [
+      "Diabetes",
+      "Goitre",
+      "Anaemia",
+      "Rickets"
+    ],
+    "correct": 1,
+    "explanation": "Iodine deficiency causes goitre — enlargement of the thyroid gland. The thyroid needs iodine to produce hormones T3 and T4. Iodized salt is used to prevent this deficiency disease.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which among the following launched the 'Quit India Movement' in 1942?",
+    "options": [
+      "Subhas Chandra Bose",
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Sardar Vallabhbhai Patel"
+    ],
+    "correct": 1,
+    "explanation": "Mahatma Gandhi launched the Quit India Movement on August 8, 1942 at the Bombay session of the All India Congress Committee. His call of 'Do or Die' galvanized the nation against British rule.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which of the following rivers flows through a rift valley?",
+    "options": [
+      "Ganges",
+      "Brahmaputra",
+      "Narmada",
+      "Godavari"
+    ],
+    "correct": 2,
+    "explanation": "The Narmada River flows westward through a rift valley between the Vindhya and Satpura ranges. The Tapti is another west-flowing rift valley river. Most other peninsular rivers flow eastward.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Consider the following about missile systems of India: 1. Agni series are ballistic missiles. 2. BrahMos is a joint venture with Russia. 3. Akash is a surface-to-air missile. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only"
+    ],
+    "correct": 0,
+    "explanation": "All are correct. Agni series (I to V) are surface-to-surface ballistic missiles. BrahMos is a supersonic cruise missile — a joint India-Russia venture. Akash is a medium-range SAM developed by DRDO.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The first Five Year Plan in India was based on which model?",
+    "options": [
+      "Mahalanobis Model",
+      "Harrod-Domar Model",
+      "Gandhian Model",
+      "Nehru-Mahalanobis Model"
+    ],
+    "correct": 1,
+    "explanation": "The First Five Year Plan (1951-56) was based on the Harrod-Domar model and focused on agriculture, irrigation, and power. The Second Plan was based on the Mahalanobis model emphasizing industrialization.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which Article of the Constitution provides for the Right to Constitutional Remedies?",
+    "options": [
+      "Article 19",
+      "Article 21",
+      "Article 32",
+      "Article 44"
+    ],
+    "correct": 2,
+    "explanation": "Article 32 provides the Right to Constitutional Remedies, allowing citizens to approach the Supreme Court directly for enforcement of Fundamental Rights. Dr. Ambedkar called it the 'soul of the Constitution'.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The largest planet in the Solar System is:",
+    "options": [
+      "Saturn",
+      "Jupiter",
+      "Neptune",
+      "Uranus"
+    ],
+    "correct": 1,
+    "explanation": "Jupiter is the largest planet in the Solar System with a diameter of about 139,820 km — more than 11 times Earth's diameter. It is a gas giant composed mainly of hydrogen and helium.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which type of rock is marble?",
+    "options": [
+      "Igneous",
+      "Sedimentary",
+      "Metamorphic",
+      "Volcanic"
+    ],
+    "correct": 2,
+    "explanation": "Marble is a metamorphic rock formed from the metamorphism of limestone (a sedimentary rock) under heat and pressure. Other metamorphic rocks include slate (from shale) and quartzite (from sandstone).",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The term 'Secular' in the Indian Constitution means:",
+    "options": [
+      "India has no religion",
+      "State treats all religions equally",
+      "Religion is prohibited in India",
+      "Only Hinduism is the state religion"
+    ],
+    "correct": 1,
+    "explanation": "'Secular' in the Indian context means the State treats all religions equally and does not discriminate based on religion. It does not mean absence of religion — citizens have full freedom of religion under Articles 25-28.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Exercise RIMPAC, the world's largest international maritime exercise, is hosted by:",
+    "options": [
+      "India",
+      "Japan",
+      "United States",
+      "Australia"
+    ],
+    "correct": 2,
+    "explanation": "RIMPAC (Rim of the Pacific) is the world's largest international maritime warfare exercise, hosted biennially by the United States Navy near Hawaii. India has participated in RIMPAC exercises.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "What is the approximate speed of light in vacuum?",
+    "options": [
+      "3 × 10⁶ m/s",
+      "3 × 10⁸ m/s",
+      "3 × 10¹⁰ m/s",
+      "3 × 10⁴ m/s"
+    ],
+    "correct": 1,
+    "explanation": "The speed of light in vacuum is approximately 3 × 10⁸ m/s (299,792,458 m/s exactly). This is a fundamental constant in physics denoted by 'c' and is the maximum speed possible in the universe.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Simon Commission (1927) was boycotted by Indians because:",
+    "options": [
+      "It had no Indian member",
+      "It proposed partition of India",
+      "It recommended abolition of princely states",
+      "It increased taxes on Indians"
+    ],
+    "correct": 0,
+    "explanation": "The Simon Commission was an all-British commission with no Indian member, appointed to review the working of the Government of India Act, 1919. Indians boycotted it under the slogan 'Simon Go Back'.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Which gland is known as the 'master gland' of the human body?",
+    "options": [
+      "Thyroid",
+      "Adrenal",
+      "Pituitary",
+      "Pineal"
+    ],
+    "correct": 2,
+    "explanation": "The pituitary gland is called the master gland because it controls and regulates the functions of other endocrine glands by secreting hormones like TSH (thyroid), ACTH (adrenal), FSH/LH (gonads).",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "Coral reefs are formed by:",
+    "options": [
+      "Accumulation of sand",
+      "Tiny marine organisms called coral polyps",
+      "Volcanic activity",
+      "Erosion of coastal rocks"
+    ],
+    "correct": 1,
+    "explanation": "Coral reefs are underwater ecosystems built by colonies of tiny marine animals called coral polyps that secrete calcium carbonate to form hard skeletons. They are found in warm, shallow tropical waters.",
+    "exam": "AFCAT"
+  },
+  {
+    "question": "The Indian Standard Time (IST) is based on the longitude of:",
+    "options": [
+      "80°E",
+      "82.5°E",
+      "85°E",
+      "90°E"
+    ],
+    "correct": 1,
+    "explanation": "IST is 5 hours 30 minutes ahead of UTC, based on the 82.5°E longitude passing through Mirzapur (near Allahabad) in Uttar Pradesh. This ensures a uniform time across India.",
+    "exam": "AFCAT"
+  }
 ]

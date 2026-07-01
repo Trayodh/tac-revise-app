@@ -1,0 +1,236 @@
+TOTAL FLAGGED QUESTIONS: 22
+
+================================================================================
+EXAM: CDS GK Mock Test 1 (cds-gk-v2-1)
+================================================================================
+
+  Q65 [MATH in GK paper (math=3, gk=1)]
+  Topic: mixed
+  "Treaty of Srirangapatam Codes A B C D A B C D"
+  Options:
+    A) 2 1 4 3 ✓
+    B) 2 4 1 3
+    C) 3 4 1 2
+    D) 3 1 4 2
+
+  Q111 [MATH in GK paper (math=4, gk=0)]
+  Topic: mixed
+  "An amount is invested in a bank at compound rate of interest. The total amount, including interest, after first and third year is ` 1200 and ` 1587, r..."
+  Options:
+    A) Both I and II ✓
+    B) Only I
+    C) Only II
+    D) Neither I nor II
+
+  Q117 [MATH in GK paper (math=3, gk=0)]
+  Topic: general_knowledge
+  "The Code on Wages was notified by the Government of India in the year"
+  Options:
+    A) 2019 ✓
+    B) 2020
+    C) 2021
+    D) 2022
+
+================================================================================
+EXAM: CDS GK Mock Test 2 (cds-gk-v2-2)
+================================================================================
+
+  Q13 [MATH in GK paper (math=4, gk=0)]
+  Topic: mixed
+  "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 ..."
+  Options:
+    A) ` 14000
+    B) ` 12000
+    C) ` 10000 ✓
+    D) ` 9000
+
+  Q30 [MATH in GK paper (math=3, gk=0)]
+  Topic: mixed
+  "Sankosh Arrange the above rivers from West to East."
+  Options:
+    A) 2, 4, 3, 1 ✓
+    B) 2, 3, 4, 1
+    C) 4, 2, 3, 1
+    D) 3, 1, 2, 4
+
+  Q83 [MATH in GK paper (math=5, gk=0)]
+  Topic: mixed
+  "By selling an article for ` 110, a man losses 12%. For how much should he sell it to gain 8%?"
+  Options:
+    A) ` 120 ✓
+    B) ` 125
+    C) ` 135
+    D) ` 140
+
+  Q108 [MATH in GK paper (math=4, gk=0)]
+  Topic: mixed
+  "A conical cap has the base diameter 24 cm and height 16 cm. What is the cost of painting the surface of the cap at the rate of 70 paise per cm2?"
+  Options:
+    A) ` 520 ✓
+    B) ` 524
+    C) ` 528
+    D) ` 532
+
+  Q109 [MATH in GK paper (math=4, gk=0)]
+  Topic: mixed
+  "A sum compounded annually becomes 25 16 times of itself in 2 yr. Then, the rate of interest per annum is"
+  Options:
+    A) 25% ✓
+    B) 20%
+    C) 15%
+    D) 7 1 2 %
+
+================================================================================
+EXAM: CDS GK Mock Test 3 (cds-gk-v2-3)
+================================================================================
+
+  Q33 [MATH in GK paper (math=3, gk=0)]
+  Topic: mixed
+  "West-Pacific ocean Codes A B C D A B C D"
+  Options:
+    A) 1 2 3 4 ✓
+    B) 4 3 1 2
+    C) 3 4 1 2
+    D) 4 3 2 1
+
+================================================================================
+EXAM: CDS GK Mock Test 4 (cds-gk-v2-4)
+================================================================================
+
+  Q8 [MATH in GK paper (math=7, gk=0)]
+  Topic: mixed
+  "A person A sells a table costing ` 2000 to a person B and earns a profit of 6%. The person B sells it to another person C at a loss of 5%. At what pri..."
+  Options:
+    A) ` 2054 ✓
+    B) ` 2050
+    C) ` 2024
+    D) ` 2014
+
+  Q12 [MATH in GK paper (math=4, gk=0)]
+  Topic: mixed
+  "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 ..."
+  Options:
+    A) ` 14000
+    B) ` 12000
+    C) ` 10000 ✓
+    D) ` 9000
+
+  Q85 [MATH in GK paper (math=7, gk=0)]
+  Topic: mixed
+  "If an article is sold at a gain of 6% instead of a loss of 6%, the seller gets ` 6 more. What is the cost price of the article?"
+  Options:
+    A) ` 18
+    B) ` 36
+    C) ` 42
+    D) ` 50 ✓
+
+  Q110 [MATH in GK paper (math=4, gk=0)]
+  Topic: mixed
+  "A sum compounded annually becomes 25 16 times of itself in 2 yr. Then, the rate of interest per annum is"
+  Options:
+    A) 25% ✓
+    B) 20%
+    C) 15%
+    D) 7 1 2 %
+
+================================================================================
+EXAM: CDS GK Mock Test 6 (cds-gk-v2-6)
+================================================================================
+
+  Q90 [MATH in GK paper (math=3, gk=0)]
+  Topic: mixed
+  "Transport proteins D. Actin and myosin 4. Storage proteins Codes A B C D A B C D"
+  Options:
+    A) 1 3 4 2 ✓
+    B) 2 1 3 4
+    C) 3 1 4 2
+    D) 1 2 4 3
+
+================================================================================
+EXAM: CDS GK Mock Test 7 (cds-gk-v2-7)
+================================================================================
+
+  Q17 [MATH in GK paper (math=7, gk=0)]
+  Topic: mixed
+  "A person A sells a table costing ` 2000 to a person B and earns a profit of 6%. The person B sells it to another person C at a loss of 5%. At what pri..."
+  Options:
+    A) ` 2054 ✓
+    B) ` 2050
+    C) ` 2024
+    D) ` 2014
+
+  Q23 [MATH in GK paper (math=4, gk=0)]
+  Topic: mixed
+  "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 ..."
+  Options:
+    A) ` 14000
+    B) ` 12000
+    C) ` 10000 ✓
+    D) ` 9000
+
+  Q66 [MATH in GK paper (math=3, gk=0)]
+  Topic: general_knowledge
+  "Consider the following events:
+1. Muslim League Resolution for Pakistan
+2. Gandhi-Irwin Pact
+3. Dandi March
+4. Second Round Table Conference
+Which one..."
+  Options:
+    A) 2, 3, 1, 4
+    B) 3, 2, 4, 1 ✓
+    C) 3, 4, 2, 1
+    D) 2, 3, 4, 1
+
+  Q76 [MATH in GK paper (math=6, gk=0)]
+  Topic: mixed
+  "By selling an article for ` 247.50, Sonu get a profit of 12.5%. The cost of the article is"
+  Options:
+    A) ` 220 ✓
+    B) ` 205
+    C) ` 210
+    D) ` 200
+
+================================================================================
+EXAM: CDS GK Mock Test 8 (cds-gk-v2-8)
+================================================================================
+
+  Q22 [MATH in GK paper (math=4, gk=0)]
+  Topic: mixed
+  "A man who recently died left a sum of ` 390000 to be divided among his wife, five sons and four daughters. He directed that each son should receive 3 ..."
+  Options:
+    A) ` 14000
+    B) ` 12000
+    C) ` 10000 ✓
+    D) ` 9000
+
+  Q35 [MATH in GK paper (math=3, gk=0)]
+  Topic: mixed
+  "Match the following List I (Minerals) List I (Producing Centres in Map) A. Copper B. Mice C. Chromite D. Lignite Codes A B C D A B C D"
+  Options:
+    A) 2 4 1 3 ✓
+    B) 2 1 4 3
+    C) 3 1 4 2
+    D) 3 4 1 2
+
+  Q86 [MATH in GK paper (math=3, gk=0)]
+  Topic: mixed
+  "Transport proteins D. Actin and myosin 4. Storage proteins Codes A B C D A B C D"
+  Options:
+    A) 1 3 4 2 ✓
+    B) 2 1 3 4
+    C) 3 1 4 2
+    D) 1 2 4 3
+
+================================================================================
+EXAM: CDS GK Mock Test 9 (cds-gk-v2-9)
+================================================================================
+
+  Q73 [MATH in GK paper (math=5, gk=0)]
+  Topic: mixed
+  "A person bought two articles X and Y from a departmental store. The sum of prices before sales tax was ` 130. There was no sales tax on the article X ..."
+  Options:
+    A) ` 75 ✓
+    B) ` 85
+    C) ` 122
+    D) ` 125
