@@ -33,8 +33,8 @@ async function handleAuthAction() {
   
   try {
     if (isSignUpMode) {
-      if (supabaseClientInstance) {
-        const { data, error } = await supabaseClientInstance.auth.signUp({
+      if (window.supabaseClient) {
+        const { data, error } = await window.supabaseClient.auth.signUp({
           email: email,
           password: password,
         });
@@ -54,8 +54,8 @@ async function handleAuthAction() {
         document.getElementById('onboarding-modal').style.display = 'flex';
       }
     } else {
-      if (supabaseClientInstance) {
-        const { data, error } = await supabaseClientInstance.auth.signInWithPassword({
+      if (window.supabaseClient) {
+        const { data, error } = await window.supabaseClient.auth.signInWithPassword({
           email: email,
           password: password,
         });
