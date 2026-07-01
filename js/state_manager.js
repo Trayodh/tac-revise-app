@@ -174,9 +174,27 @@ function updateDashboardMetrics() {
     document.getElementById("stat-cbt-avg").innerText = "0%";
   }
   
-  let rank = "Lieutenant";
-  if (completedTopics > 10 || STATE.cbtScores.length > 8) rank = "Major";
-  else if (completedTopics > 5 || STATE.cbtScores.length > 3) rank = "Captain";
+  // Branch-aware rank progression
+  const RANK_LADDERS = {
+    army:     ['Cadet', 'Lieutenant', 'Captain', 'Major', 'Lieutenant Colonel', 'Colonel', 'Brigadier', 'General'],
+    navy:     ['Cadet', 'Sub Lieutenant', 'Lieutenant', 'Lieutenant Commander', 'Commander', 'Captain', 'Commodore', 'Admiral'],
+    airforce: ['Cadet', 'Flying Officer', 'Flight Lieutenant', 'Squadron Leader', 'Wing Commander', 'Group Captain', 'Air Commodore', 'Air Marshal'],
+  };
+  // Thresholds: [minCompletedTopics OR minCBTs] for each step up
+  const RANK_THRESHOLDS = [0, 1, 5, 10, 20, 35, 55, 80];
+
+  const branch = (STATE.activeProfile && STATE.activeProfile.branch) || 'army';
+  const ladder = RANK_LADDERS[branch] || RANK_LADDERS.army;
+
+  let rankIndex = 0;
+  for (let i = RANK_THRESHOLDS.length - 1; i >= 0; i--) {
+    if (completedTopics >= RANK_THRESHOLDS[i] || STATE.cbtScores.length >= RANK_THRESHOLDS[i]) {
+      rankIndex = i;
+      break;
+    }
+  }
+  const rank = ladder[Math.min(rankIndex, ladder.length - 1)];
+
   const rankEl = document.getElementById("profile-rank") || document.getElementById("user-rank");
   if (rankEl) rankEl.innerText = rank;
   
