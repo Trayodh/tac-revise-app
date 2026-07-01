@@ -802,48 +802,105 @@ function renderTopicView(subjectId, chapterId, topicId) {
       </div>
     `;
   } else if (activeNotesTab === 'formulas') {
+    const rawFormulas = (topic.formulas || '').trim();
+    const FCOLORS = ['#3b82f6','#22c55e','#f59e0b','#a78bfa','#f43f5e','#06b6d4','#fb923c','#84cc16'];
+    const lines = rawFormulas.split('\n').filter(l => l.trim());
+    let formulaCardsHtml = '';
+    let colorIdx = 0;
+    let currentCategory = null;
+    let cardItems = [];
+
+    const buildCard = () => {
+      if (!currentCategory && cardItems.length === 0) return;
+      const color = FCOLORS[colorIdx % FCOLORS.length];
+      colorIdx++;
+      const itemRows = cardItems.map(item =>
+        `<div class="formula-item" style="display:flex;align-items:flex-start;gap:10px;padding:9px 12px;margin-bottom:5px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);border-radius:7px;transition:background 0.18s,border-color 0.18s;" onmouseover="this.style.background='${color}12';this.style.borderColor='${color}50';" onmouseout="this.style.background='rgba(255,255,255,0.03)';this.style.borderColor='rgba(255,255,255,0.07)';">
+          <span style="color:${color};flex-shrink:0;margin-top:2px;">▸</span>
+          <code style="font-family:var(--font-mono);font-size:0.85rem;color:var(--text-primary);line-height:1.65;flex:1;white-space:pre-wrap;word-break:break-word;">${item}</code>
+          <button onclick="navigator.clipboard.writeText(this.dataset.f);this.textContent='✓';setTimeout(()=>this.textContent='⎘',1300);" data-f="${item.replace(/"/g,'&quot;')}" title="Copy" style="background:none;border:none;color:${color};cursor:pointer;font-size:0.9rem;flex-shrink:0;opacity:0.55;padding:2px 4px;border-radius:4px;transition:opacity 0.15s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.55'">⎘</button>
+        </div>`
+      ).join('');
+      formulaCardsHtml += `<div class="formula-category-card" style="margin-bottom:16px;border-left:3px solid ${color};border-radius:0 8px 8px 0;overflow:hidden;">
+        ${currentCategory ? `<div style="background:${color}18;padding:7px 13px;margin-bottom:7px;font-family:var(--font-mono);font-size:0.72rem;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:${color};">📌 ${currentCategory}</div>` : ''}
+        <div style="padding:0 4px 0 0;">${itemRows}</div>
+      </div>`;
+      cardItems = [];
+      currentCategory = null;
+    };
+
+    lines.forEach(line => {
+      const s = line.trim();
+      if (/^#{1,3}\s/.test(s) || (s.endsWith(':') && s.length < 60 && !s.includes('=') && !s.includes('→'))) {
+        buildCard();
+        currentCategory = s.replace(/^#{1,3}\s/, '').replace(/:$/, '');
+      } else {
+        cardItems.push(s);
+      }
+    });
+    buildCard();
+
+    if (!formulaCardsHtml) formulaCardsHtml = `<div style="color:var(--text-muted);font-family:var(--font-mono);font-size:0.85rem;text-align:center;padding:40px 0;">No formulas available for this topic yet.</div>`;
+
     tabContentHtml = `
-      <div class="tab-pane-content fade-in" style="display: flex; flex-direction: column; height: 100%;">
-        <div class="concept-formula-box scroll-y" style="flex: 1; white-space: pre-line; margin: 0 0 16px 0; overflow-y: auto;">
-          ${topic.formulas}
-        </div>
-        <div style="display:flex; justify-content:flex-end;">
-          <button class="action-btn ${isFormulaSaved ? 'active-green' : ''}" onclick="toggleFormulaReadStatus('${topic.id}', this)" style="padding: 10px 20px;">
-             ${isFormulaSaved ? 'Formula Memorized' : 'Mark Formula as Memorized'}
+      <div class="tab-pane-content fade-in" style="display:flex;flex-direction:column;height:100%;">
+        <div style="padding:8px 0 12px;display:flex;align-items:center;gap:10px;flex-shrink:0;">
+          <div style="position:relative;flex:1;">
+            <input id="formula-search-input" type="text" placeholder="🔍 Search formulas..." oninput="(function(q){var items=document.querySelectorAll('.formula-item');var lq=q.toLowerCase();items.forEach(function(el){el.style.display=(!lq||el.innerText.toLowerCase().includes(lq))?'':'none';});document.querySelectorAll('.formula-category-card').forEach(function(c){var v=[...c.querySelectorAll('.formula-item')].some(function(i){return i.style.display!=='none'});c.style.display=v?'':'none';});})(this.value)" style="width:100%;box-sizing:border-box;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:8px 12px 8px 14px;color:var(--text-primary);font-size:0.84rem;outline:none;font-family:var(--font-mono);">
+          </div>
+          <button class="action-btn ${isFormulaSaved ? 'active-green' : ''}" onclick="toggleFormulaReadStatus('${topic.id}', this)" style="padding:8px 14px;flex-shrink:0;white-space:nowrap;">
+            ${isFormulaSaved ? '✅ Memorized' : '☐ Mark Memorized'}
           </button>
         </div>
+        <div id="formula-cards-container" class="scroll-y" style="flex:1;overflow-y:auto;padding-right:4px;">
+          ${formulaCardsHtml}
+        </div>
+        <div style="font-size:0.7rem;color:var(--text-muted);font-family:var(--font-mono);text-align:center;padding-top:8px;flex-shrink:0;">💡 Click ⎘ to copy any formula · Hover to highlight</div>
       </div>
     `;
+
   } else if (activeNotesTab === 'mindmap' && topic.mindmap) {
+    const MM_COLORS = [
+      {bg: '#1e293b', border: '#3b82f6', sub: '#0f172a', subBorder: '#1e3a8a', text: '#bfdbfe'},
+      {bg: '#1e293b', border: '#22c55e', sub: '#0f172a', subBorder: '#064e3b', text: '#bbf7d0'},
+      {bg: '#1e293b', border: '#f59e0b', sub: '#0f172a', subBorder: '#78350f', text: '#fde68a'},
+      {bg: '#1e293b', border: '#ef4444', sub: '#0f172a', subBorder: '#7f1d1d', text: '#fecaca'}
+    ];
     let branchesHtml = '';
-    topic.mindmap.branches.forEach(branch => {
+    topic.mindmap.branches.forEach((branch, bi) => {
       let subnodesHtml = '';
       branch.subnodes.forEach(sub => {
         const cleanSub = sub.replace(/'/g, "\\'");
-        subnodesHtml += `<div class="mindmap-subnode" onclick="triggerDoubtExplain('${cleanSub}')" style="cursor: pointer; padding: 8px 16px; margin: 4px; background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 6px; transition: all 0.2s ease; display: inline-block; color: var(--text-primary); font-size: 0.82rem; font-weight: 500;" onmouseover="this.style.background='rgba(34, 197, 94, 0.1)'; this.style.borderColor='var(--accent)'; this.style.transform='scale(1.02)'" onmouseout="this.style.background='rgba(255,255,255,0.03)'; this.style.borderColor='var(--border)'; this.style.transform='scale(1)'">${sub}</div>`;
+        const c = MM_COLORS[bi % MM_COLORS.length];
+        subnodesHtml += `<div onclick="triggerDoubtExplain('${cleanSub}')" title="Ask Dronacharya: ${cleanSub}" style="cursor:pointer;padding:7px 11px;background:${c.sub};border:1px solid ${c.subBorder};border-radius:6px;font-size:0.79rem;font-weight:500;color:var(--text-primary);transition:all 0.17s ease;display:flex;align-items:center;gap:7px;" onmouseover="this.style.background='${c.bg}';this.style.borderColor='${c.border}';this.style.transform='translateX(5px)';this.style.color='${c.text}';" onmouseout="this.style.background='${c.sub}';this.style.borderColor='${c.subBorder}';this.style.transform='translateX(0)';this.style.color='var(--text-primary)';"><span style="width:5px;height:5px;border-radius:50%;background:${c.border};flex-shrink:0;"></span>${sub}</div>`;
       });
+      const c = MM_COLORS[bi % MM_COLORS.length];
       const cleanBranch = branch.title.replace(/'/g, "\\'");
       branchesHtml += `
-        <div class="mindmap-branch" style="display: flex; flex-direction: column; align-items: center; border: 1px dashed rgba(255,255,255,0.08); border-radius: 12px; padding: 12px; background: rgba(0,0,0,0.15); min-width: 180px;">
-          <div class="mindmap-node" onclick="triggerDoubtExplain('${cleanBranch}')" style="cursor: pointer; padding: 10px 20px; background: linear-gradient(135deg, rgba(37, 99, 235, 0.2) 0%, rgba(34, 197, 94, 0.1) 100%); border: 1px solid rgba(37, 99, 235, 0.4); border-radius: 8px; font-weight: 700; font-family: var(--font-logo); font-size: 0.9rem; text-align: center; color: #fff; width: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: all 0.2s ease;" onmouseover="this.style.boxShadow='0 0 15px rgba(37,99,235,0.3)'; this.style.transform='scale(1.03)';" onmouseout="this.style.boxShadow='none'; this.style.transform='scale(1)';">${branch.title}</div>
-          <div class="mindmap-subnodes" style="display: flex; flex-direction: column; gap: 6px; width: 100%; margin-top: 10px;">
+        <div style="display:flex;flex-direction:column;align-items:stretch;min-width:190px;max-width:230px;border:1px solid ${c.border}35;border-radius:12px;background:${c.bg};overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.2);transition:box-shadow 0.2s,transform 0.2s;" onmouseover="this.style.boxShadow='0 0 0 1px ${c.border}55,0 8px 28px rgba(0,0,0,0.35)';this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.2)';this.style.transform='translateY(0)';">
+          <div onclick="triggerDoubtExplain('${cleanBranch}')" title="Ask Dronacharya: ${cleanBranch}" style="cursor:pointer;padding:10px 13px;background:${c.border}20;border-bottom:1px solid ${c.border}35;font-weight:700;font-family:var(--font-logo);font-size:0.86rem;color:${c.text};letter-spacing:0.3px;transition:background 0.17s;" onmouseover="this.style.background='${c.border}35';" onmouseout="this.style.background='${c.border}20';">
+            ${branch.title}
+          </div>
+          <div style="display:flex;flex-direction:column;gap:5px;padding:9px;">
             ${subnodesHtml}
           </div>
-        </div>
-      `;
+        </div>`;
     });
     
     const cleanRoot = topic.mindmap.root.replace(/'/g, "\\'");
     tabContentHtml = `
-      <div class="tab-pane-content fade-in" style="height: 100%; display: flex; flex-direction: column;">
-        <div class="mindmap-tree scroll-x" style="padding: 24px; height: 100%; overflow-y: auto; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; gap: 24px;">
-          <div class="mindmap-root" onclick="triggerDoubtExplain('${cleanRoot}')" style="cursor: pointer; padding: 14px 28px; background: linear-gradient(135deg, var(--accent-dark) 0%, var(--accent) 100%); border-radius: 12px; font-weight: 800; font-family: var(--font-logo); font-size: 1.15rem; color: var(--bg-primary); text-shadow: 0 1px 2px rgba(0,0,0,0.2); box-shadow: 0 0 20px rgba(34, 197, 94, 0.35); text-align: center; transition: all 0.3s ease; letter-spacing: 0.5px;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 28px rgba(34, 197, 94, 0.55)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(34, 197, 94, 0.35)';">${topic.mindmap.root}</div>
-          <div style="width: 2px; height: 20px; background: linear-gradient(to bottom, var(--accent), rgba(255,255,255,0.1));"></div>
-          <div class="mindmap-branches" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; width: 100%;">
+      <div class="tab-pane-content fade-in" style="height:100%;display:flex;flex-direction:column;">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:0;padding:20px 16px 0;flex-shrink:0;">
+          <div onclick="triggerDoubtExplain('${cleanRoot}')" title="Ask Dronacharya: ${cleanRoot}" style="cursor:pointer;padding:13px 30px;background:linear-gradient(135deg,#065f46 0%,#22c55e 100%);border-radius:12px;font-weight:800;font-family:var(--font-logo);font-size:1.1rem;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.3);box-shadow:0 0 24px rgba(34,197,94,0.4);text-align:center;transition:all 0.3s ease;letter-spacing:0.5px;" onmouseover="this.style.transform='scale(1.04)';this.style.boxShadow='0 0 36px rgba(34,197,94,0.6)';" onmouseout="this.style.transform='scale(1)';this.style.boxShadow='0 0 24px rgba(34,197,94,0.4)';">🎯 ${topic.mindmap.root}</div>
+          <div style="width:2px;height:22px;background:linear-gradient(to bottom,#22c55e,rgba(255,255,255,0.1));"></div>
+          <div style="width:75%;height:1px;background:linear-gradient(to right,transparent,rgba(255,255,255,0.1) 20%,rgba(255,255,255,0.1) 80%,transparent);"></div>
+        </div>
+        <div class="scroll-y" style="flex:1;overflow-y:auto;padding:16px;">
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:14px;align-items:flex-start;">
             ${branchesHtml}
           </div>
         </div>
-        <div style="font-size: 0.72rem; color: var(--text-muted); text-align: center; font-family: var(--font-mono); margin-top: 8px; letter-spacing: 0.5px;">* CLICK ANY NODE IN THE GRAPH TO ASK GURU DRONACHARYA DIRECTLY *</div>
+        <div style="font-size:0.7rem;color:var(--text-muted);text-align:center;font-family:var(--font-mono);padding:8px;flex-shrink:0;letter-spacing:0.5px;">🎓 CLICK ANY NODE TO ASK GURU DRONACHARYA · Each branch has a unique color for memory association</div>
       </div>
     `;
   } else {
