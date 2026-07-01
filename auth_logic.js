@@ -96,10 +96,32 @@ function updateUserProfile(user) {
 
 // Check for existing session on load
 document.addEventListener('DOMContentLoaded', async () => {
+  let hasSession = false;
+
   if (window.supabaseClient) {
     const { data: { session } } = await window.supabaseClient.auth.getSession();
     if (session) {
       updateUserProfile(session.user);
+      hasSession = true;
+    }
+  }
+
+  // Fallback for offline mock profiles (if STATE is initialized and contains a profile)
+  if (!hasSession && typeof STATE !== 'undefined' && STATE.activeProfile && STATE.activeProfile.email) {
+    updateUserProfile(STATE.activeProfile);
+    hasSession = true;
+  }
+
+  if (!hasSession) {
+    // Show auth modal for new user automatically
+    const authModal = document.getElementById('auth-modal');
+    if (authModal) {
+      authModal.style.display = 'flex';
+      
+      // Ensure it defaults to "Sign Up" mode for new users
+      if (!isSignUpMode) {
+        toggleAuthMode();
+      }
     }
   }
 });
