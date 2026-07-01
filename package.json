@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "pipeline": "node run_pipeline.js"
+    "pipeline": "node run_pipeline.js",
+    "vercel-build": "node build_www.js"
   },
   "keywords": [
     "nda",
