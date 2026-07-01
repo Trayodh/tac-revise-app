@@ -4,7 +4,7 @@ const path = require('path');
 require('dotenv').config();
 
 const PORT = process.env.PORT || 4000;
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
 
 global.DOMMatrix = class {};
 const pdfParse = require('pdf-parse');

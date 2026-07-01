@@ -206,7 +206,7 @@
 body {
   font-family: var(--font-main);
   font-weight: bold;
-  background-color: #243328;
+  background-color: var(--bg-primary);
   color: var(--text-primary);
   height: 100vh;
   overflow: hidden;
