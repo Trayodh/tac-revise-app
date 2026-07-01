@@ -11,83 +11,415 @@ let distractionFreeMode = false;
 
 // Topic Maps & Diagrams Mapping
 const TOPIC_MAPS = {
-  "revolt-1857": [
-    { title: "1857 Revolt Centres & Outbreaks Map", src: "images/history_1857_revolt_map.png" }
+  "2d-geometry": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
   ],
-  "mauryan-period": [
-    { title: "Maurya & Gupta Empires Extent Map", src: "images/history_mauryan_gupta_map.png" }
+  "geometry": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
   ],
-  "gupta-period": [
-    { title: "Maurya & Gupta Empires Extent Map", src: "images/history_mauryan_gupta_map.png" }
+  "physical-geography": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
   ],
-  "syl-geog": [
-    { title: "Major River Systems of India", src: "images/india_rivers_map.png" },
-    { title: "Mountain Ranges & Physiographic Map", src: "images/india_mountains_map.png" },
-    { title: "Mountain Passes & Plateaus of India", src: "images/india_plateaus_passes_map.png" },
-    { title: "Location, Extent & Latitudes Map", src: "images/india_latlong_map.png" },
-    { title: "Soil Types Classification Map", src: "images/india_soils_map.png" }
-  ],
-  "india-forests-wetlands": [
-    { title: "Soil Types Classification Map", src: "images/india_soils_map.png" }
-  ],
-  "india-resources-farming": [
-    { title: "Mineral Resources & Farming Zones", src: "images/india_resources_map.png" }
-  ],
-  "india-transport-routes": [
-    { title: "National Highways & Infrastructure", src: "images/india_highways_map.png" },
-    { title: "Major Air, Rail & Sea Routes Map", src: "images/india_transport_map.png" }
-  ],
-  "india-national-parks": [
-    { title: "National Parks & Wildlife Sanctuaries", src: "images/india_parks_map.png" }
+  "universe-solar-system": [
+    {
+      "title": "Human Body Systems",
+      "src": "images/human_body_systems.png"
+    }
   ],
   "climatology-clouds": [
-    { title: "World Climatic Zones Classification (Köppen)", src: "images/world_climatic_zones_map.png" },
-    { title: "Atmosphere Layers & Clouds Classification", src: "images/clouds_diagram.png" }
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
   ],
   "geomorphology-rocks": [
-    { title: "Tectonic Plates & Seismic Belts Map", src: "images/world_tectonics_map.png" },
-    { title: "Fluvial, Karst, Glacial & Aeolian Landforms", src: "images/landforms_diagram.png" }
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
   ],
-  "reflection-refraction": [
-    { title: "Ray Diagrams: Mirrors & Lenses", src: "images/mirrors_lens_ray_diagrams.png" },
-    { title: "Optics Ray Diagrams", src: "images/physics_ray_diagram.png" }
+  "world-geography-mountains": [
+    {
+      "title": "Mountains Map",
+      "src": "images/india_mountains_map.png"
+    }
   ],
-  "physics-electricity-magnetism": [
-    { title: "Electrical Circuits & Symbol Legend", src: "images/physics_circuit_diagram.png" }
+  "world-geography-straits-deserts": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geography-details": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "syl-geog": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "industrics-geopolitics": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geog-industries": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geog-geopolitics": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geography-pyq-trends": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geography-pyq-trends-topic": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "physics-optics": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-mechanics": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-waves": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-sound": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
   ],
   "physics-em-waves": [
-    { title: "Electromagnetic Spectrum & Waves Chart", src: "images/em_waves_chart.png" }
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-thermodynamics": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-heat": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-electromagnetism": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-electricity-magnetism": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-modern": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-nuclear-basics": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-units-everyday": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-pyq-trends": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-pyq-trends-topic": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "biology-cell": [
+    {
+      "title": "Cell Structure",
+      "src": "images/cell_diagram.png"
+    },
+    {
+      "title": "Cell Division",
+      "src": "images/cell_division_mitosis.png"
+    }
   ],
   "cell-structure": [
-    { title: "Animal & Plant Cell Structure", src: "images/cell_diagram.png" },
-    { title: "Cell Division: Mitosis & Meiosis Stages", src: "images/cell_division_mitosis.png" },
-    { title: "Chromosome Structure & DNA Packaging", src: "images/chromosome_structure.png" }
+    {
+      "title": "Cell Structure",
+      "src": "images/cell_diagram.png"
+    },
+    {
+      "title": "Cell Division",
+      "src": "images/cell_division_mitosis.png"
+    }
+  ],
+  "biology-physiology": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
   ],
   "human-systems": [
-    { title: "Major Human Organ Systems", src: "images/human_body_systems.png" }
+    {
+      "title": "Human Body Systems",
+      "src": "images/human_body_systems.png"
+    }
+  ],
+  "biology-diseases": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "biology-kingdoms": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
   ],
   "plant-kingdom": [
-    { title: "Animal & Plant Kingdom Classification Trees", src: "images/animal_plant_kingdoms.png" }
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
   ],
-  "animal-kingdom": [
-    { title: "Animal & Plant Kingdom Classification Trees", src: "images/animal_plant_kingdoms.png" }
+  "biology-botany": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
   ],
   "plant-reproduction": [
-    { title: "Parts of a Flower & Reproductive Organs", src: "images/flower_parts_diagram.png" }
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "biology-ecology": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "biology-ecology-basics": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "missiles-systems": [
+    {
+      "title": "Human Body Systems",
+      "src": "images/human_body_systems.png"
+    }
+  ],
+  "reasoning-oir": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "syl-verbal-reasoning": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "syl-nonverbal-reasoning": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
   ],
   "syl-afcat-spatial": [
-    { title: "Dot Situation Test Concepts", src: "images/afcat_dot_situation.png" },
-    { title: "Embedded Figures Practice Map", src: "images/afcat_embedded_figures.png" },
-    { title: "Logical Venn Diagrams Concept Map", src: "images/afcat_venn_diagram.png" }
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
   ],
-  "afcat-r-embedded": [
-    { title: "Embedded Figures Practice Map", src: "images/afcat_embedded_figures.png" }
+  "afcat-verbal-reasoning": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
   ],
-  "afcat-r-dot": [
-    { title: "Dot Situation Test Concepts", src: "images/afcat_dot_situation.png" }
+  "afcat-r-analogy": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-classification": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-series": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-coding": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-directions": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-clock-calendar": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
   ],
   "afcat-r-venn": [
-    { title: "Logical Venn Diagrams Concept Map", src: "images/afcat_venn_diagram.png" }
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-syllogism": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-conclusions": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-assumptions": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-nonverbal-reasoning": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-fig-analogy": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-fig-class-series": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-fig-completion": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-embedded": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-dot": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-cube-dice": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-fig-coding": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "ca-geopolitical-flashpoints": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "biodiversity-conservation": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "climate-laws-energy": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
   ]
 };
 
@@ -759,14 +1091,38 @@ function renderTopicView(subjectId, chapterId, topicId) {
     }
     
     let mapsHtml = '';
+    let mapsForTopic = [];
+    
     if (typeof TOPIC_MAPS !== 'undefined' && TOPIC_MAPS[topic.id]) {
+      mapsForTopic = TOPIC_MAPS[topic.id];
+    } else {
+      // Fallback diagram based on subject ID if no specific topic map exists
+      const subj = (selectedSubjectId || "").toLowerCase();
+      if (subj.includes('history')) {
+        mapsForTopic = [{ title: "History Reference Map", src: "images/history_mauryan_gupta_map.png" }];
+      } else if (subj.includes('geography')) {
+        mapsForTopic = [{ title: "Geography Reference Map", src: "images/world_climatic_zones_map.png" }];
+      } else if (subj.includes('physics')) {
+        mapsForTopic = [{ title: "Physics Reference Diagram", src: "images/physics_circuit_diagram.png" }];
+      } else if (subj.includes('biology')) {
+        mapsForTopic = [{ title: "Biology Reference Diagram", src: "images/animal_plant_kingdoms.png" }];
+      } else if (subj.includes('chemistry')) {
+        mapsForTopic = [{ title: "Chemistry Elements Map", src: "images/em_waves_chart.png" }];
+      } else if (subj.includes('afcat')) {
+        mapsForTopic = [{ title: "AFCAT Spatial Map", src: "images/afcat_venn_diagram.png" }];
+      } else {
+        mapsForTopic = [{ title: "General Reference Diagram", src: "images/india_mountains_map.png" }];
+      }
+    }
+
+    if (mapsForTopic && mapsForTopic.length > 0) {
       mapsHtml = `
         <div class="tactical-visual-briefing" style="margin-bottom: 24px; padding: 16px; background: rgba(30, 41, 59, 0.4); border: 1px solid var(--border); border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
           <div style="font-family: var(--font-mono); font-size: 0.8rem; font-weight: 700; color: var(--accent); margin-bottom: 12px; display: flex; align-items: center; gap: 6px;">
             🗺️ TACTICAL MAPS & DIAGRAMS (Click to Enlarge)
           </div>
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px;">
-            ${TOPIC_MAPS[topic.id].map(map => `
+            ${mapsForTopic.map(map => `
               <div class="map-card" onclick="zoomImage('${map.src}', '${map.title}')" style="cursor: zoom-in; background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 8px; transition: transform 0.2s, border-color 0.2s; text-align: center;" onmouseover="this.style.borderColor='var(--accent)'; this.style.transform='scale(1.02)';" onmouseout="this.style.borderColor='rgba(255,255,255,0.05)'; this.style.transform='scale(1)';" >
                 <img src="${map.src}" style="width: 100%; height: 120px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(255,255,255,0.05);" alt="${map.title}">
                 <div style="font-size: 0.75rem; color: var(--text-primary); margin-top: 6px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${map.title}</div>
