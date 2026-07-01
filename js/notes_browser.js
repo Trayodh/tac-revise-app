@@ -11,369 +11,823 @@ let distractionFreeMode = false;
 
 // Topic Maps & Diagrams Mapping
 const TOPIC_MAPS = {
+  "trigonometry": [
+    {
+      "title": "Trigonometry Unit Circle & Values",
+      "src": "images/trigonometry_unit_circle.png"
+    }
+  ],
+  "trig-identities": [
+    {
+      "title": "Trigonometry Unit Circle & Identities",
+      "src": "images/trigonometry_unit_circle.png"
+    }
+  ],
+  "inverse-trig": [
+    {
+      "title": "Trigonometric Values & Identities",
+      "src": "images/trigonometry_unit_circle.png"
+    }
+  ],
   "2d-geometry": [
     {
-      "title": "World Climatic Zones",
-      "src": "images/world_climatic_zones_map.png"
+      "title": "2D Geometry & Mensuration",
+      "src": "images/mensuration_geometry_formulas.png"
     }
   ],
   "geometry": [
     {
-      "title": "World Climatic Zones",
-      "src": "images/world_climatic_zones_map.png"
+      "title": "Geometry Shapes & Formulas",
+      "src": "images/mensuration_geometry_formulas.png"
+    }
+  ],
+  "lines-angles-triangles": [
+    {
+      "title": "Lines, Angles & Triangle Properties",
+      "src": "images/mensuration_geometry_formulas.png"
+    }
+  ],
+  "circles-polygons": [
+    {
+      "title": "Circles & Polygon Formulas",
+      "src": "images/mensuration_geometry_formulas.png"
+    }
+  ],
+  "mensuration": [
+    {
+      "title": "Mensuration: Area, Volume & Surface Area",
+      "src": "images/mensuration_geometry_formulas.png"
+    }
+  ],
+  "area-perimeter": [
+    {
+      "title": "Area & Perimeter Formulas",
+      "src": "images/mensuration_geometry_formulas.png"
+    }
+  ],
+  "surface-area-volume": [
+    {
+      "title": "Surface Area & Volume of 3D Solids",
+      "src": "images/mensuration_geometry_formulas.png"
+    }
+  ],
+  "revolt-1857": [
+    {
+      "title": "1857 Revolt Centres & Outbreaks Map",
+      "src": "images/history_1857_revolt_map.png"
+    }
+  ],
+  "mauryan-period": [
+    {
+      "title": "Maurya & Gupta Empires Map",
+      "src": "images/history_mauryan_gupta_map.png"
+    }
+  ],
+  "gupta-period": [
+    {
+      "title": "Gupta Empire Extent Map",
+      "src": "images/history_mauryan_gupta_map.png"
+    }
+  ],
+  "mughal-period": [
+    {
+      "title": "Mughal Empire Territorial Extent",
+      "src": "images/mughal_empire_map.png"
+    }
+  ],
+  "medieval-history": [
+    {
+      "title": "Mughal Empire Map",
+      "src": "images/mughal_empire_map.png"
+    },
+    {
+      "title": "Maurya & Gupta Map",
+      "src": "images/history_mauryan_gupta_map.png"
+    }
+  ],
+  "ancient-history": [
+    {
+      "title": "Harappan Civilization Sites",
+      "src": "images/harappan_civilization_map.png"
+    },
+    {
+      "title": "Maurya & Gupta Empires",
+      "src": "images/history_mauryan_gupta_map.png"
+    }
+  ],
+  "indus-valley": [
+    {
+      "title": "Harappan / Indus Valley Civilization",
+      "src": "images/harappan_civilization_map.png"
+    }
+  ],
+  "harappan-period": [
+    {
+      "title": "Harappan Civilization & Key Sites",
+      "src": "images/harappan_civilization_map.png"
+    }
+  ],
+  "freedom-movement": [
+    {
+      "title": "Indian Freedom Movement 1857–1947",
+      "src": "images/freedom_movement_timeline.png"
+    }
+  ],
+  "independence-movement": [
+    {
+      "title": "Freedom Movement Timeline",
+      "src": "images/freedom_movement_timeline.png"
+    }
+  ],
+  "gandhi-movements": [
+    {
+      "title": "Freedom Movement Key Events",
+      "src": "images/freedom_movement_timeline.png"
+    }
+  ],
+  "modern-history": [
+    {
+      "title": "Freedom Movement Timeline",
+      "src": "images/freedom_movement_timeline.png"
+    },
+    {
+      "title": "1857 Revolt Map",
+      "src": "images/history_1857_revolt_map.png"
+    }
+  ],
+  "syl-geog": [
+    {
+      "title": "Major River Systems",
+      "src": "images/india_rivers_map.png"
+    },
+    {
+      "title": "Mountain Ranges",
+      "src": "images/india_mountains_map.png"
+    },
+    {
+      "title": "Plateaus & Passes",
+      "src": "images/india_plateaus_passes_map.png"
+    },
+    {
+      "title": "Location & Latitudes",
+      "src": "images/india_latlong_map.png"
+    },
+    {
+      "title": "Soil Types Map",
+      "src": "images/india_soils_map.png"
     }
   ],
   "physical-geography": [
     {
-      "title": "World Climatic Zones",
-      "src": "images/world_climatic_zones_map.png"
+      "title": "Physiographic Divisions of India",
+      "src": "images/india_mountains_map.png"
+    },
+    {
+      "title": "Tectonic Plates Map",
+      "src": "images/world_tectonics_map.png"
+    },
+    {
+      "title": "Landforms Diagram",
+      "src": "images/landforms_diagram.png"
     }
   ],
-  "universe-solar-system": [
+  "earth-atmosphere": [
     {
-      "title": "Human Body Systems",
-      "src": "images/human_body_systems.png"
+      "title": "Atmosphere Layers & Clouds",
+      "src": "images/clouds_diagram.png"
+    },
+    {
+      "title": "Climatic Zones (Köppen)",
+      "src": "images/world_climatic_zones_map.png"
     }
   ],
   "climatology-clouds": [
     {
-      "title": "World Climatic Zones",
+      "title": "World Climatic Zones (Köppen)",
       "src": "images/world_climatic_zones_map.png"
+    },
+    {
+      "title": "Atmosphere & Clouds",
+      "src": "images/clouds_diagram.png"
+    },
+    {
+      "title": "India Monsoon Patterns",
+      "src": "images/india_monsoon_patterns.png"
     }
   ],
   "geomorphology-rocks": [
     {
-      "title": "World Climatic Zones",
+      "title": "Tectonic Plates & Seismic Belts",
+      "src": "images/world_tectonics_map.png"
+    },
+    {
+      "title": "Landforms: Fluvial/Karst/Glacial",
+      "src": "images/landforms_diagram.png"
+    }
+  ],
+  "universe-solar-system": [
+    {
+      "title": "World Climatic Zones Reference",
       "src": "images/world_climatic_zones_map.png"
     }
   ],
   "world-geography-mountains": [
     {
-      "title": "Mountains Map",
+      "title": "Mountain Ranges Map",
       "src": "images/india_mountains_map.png"
+    },
+    {
+      "title": "Tectonic Plates Map",
+      "src": "images/world_tectonics_map.png"
     }
   ],
   "world-geography-straits-deserts": [
     {
-      "title": "World Climatic Zones",
+      "title": "World Climatic & Geographical Zones",
       "src": "images/world_climatic_zones_map.png"
+    },
+    {
+      "title": "Ocean Currents Map",
+      "src": "images/world_ocean_currents_map.png"
     }
   ],
   "geography-details": [
     {
-      "title": "World Climatic Zones",
+      "title": "World Ocean Currents",
+      "src": "images/world_ocean_currents_map.png"
+    },
+    {
+      "title": "Climatic Zones Map",
       "src": "images/world_climatic_zones_map.png"
     }
   ],
-  "syl-geog": [
+  "india-forests-wetlands": [
     {
-      "title": "World Climatic Zones",
-      "src": "images/world_climatic_zones_map.png"
+      "title": "Soil Types Map",
+      "src": "images/india_soils_map.png"
+    },
+    {
+      "title": "India National Parks",
+      "src": "images/india_parks_map.png"
     }
   ],
-  "industrics-geopolitics": [
+  "india-resources-farming": [
     {
-      "title": "World Climatic Zones",
-      "src": "images/world_climatic_zones_map.png"
+      "title": "Mineral Resources & Farming Zones",
+      "src": "images/india_resources_map.png"
+    }
+  ],
+  "india-transport-routes": [
+    {
+      "title": "National Highways & Infrastructure",
+      "src": "images/india_highways_map.png"
+    },
+    {
+      "title": "Air, Rail & Sea Routes",
+      "src": "images/india_transport_map.png"
+    }
+  ],
+  "india-national-parks": [
+    {
+      "title": "National Parks & Wildlife Sanctuaries",
+      "src": "images/india_parks_map.png"
+    }
+  ],
+  "mapping-borders-capitals": [
+    {
+      "title": "India Political Geography",
+      "src": "images/india_latlong_map.png"
     }
   ],
   "geog-industries": [
     {
-      "title": "World Climatic Zones",
-      "src": "images/world_climatic_zones_map.png"
+      "title": "Mineral Resources Map",
+      "src": "images/india_resources_map.png"
     }
   ],
   "geog-geopolitics": [
     {
-      "title": "World Climatic Zones",
+      "title": "World Political Geography",
+      "src": "images/world_climatic_zones_map.png"
+    },
+    {
+      "title": "Ocean Currents Map",
+      "src": "images/world_ocean_currents_map.png"
+    }
+  ],
+  "industrics-geopolitics": [
+    {
+      "title": "World Geopolitical Map",
       "src": "images/world_climatic_zones_map.png"
     }
   ],
   "geography-pyq-trends": [
     {
-      "title": "World Climatic Zones",
-      "src": "images/world_climatic_zones_map.png"
+      "title": "River Systems Map",
+      "src": "images/india_rivers_map.png"
+    },
+    {
+      "title": "Mountain Ranges Map",
+      "src": "images/india_mountains_map.png"
     }
   ],
-  "geography-pyq-trends-topic": [
+  "india-monsoon": [
     {
-      "title": "World Climatic Zones",
-      "src": "images/world_climatic_zones_map.png"
+      "title": "India Monsoon Patterns",
+      "src": "images/india_monsoon_patterns.png"
+    }
+  ],
+  "env-hotspots": [
+    {
+      "title": "Biodiversity Hotspots Map",
+      "src": "images/india_parks_map.png"
+    }
+  ],
+  "biodiversity-conservation": [
+    {
+      "title": "National Parks & Wildlife Map",
+      "src": "images/india_parks_map.png"
+    }
+  ],
+  "env-species": [
+    {
+      "title": "Animal & Plant Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
     }
   ],
   "physics-optics": [
     {
-      "title": "EM Waves Chart",
-      "src": "images/em_waves_chart.png"
+      "title": "Ray Diagrams: Mirrors & Lenses",
+      "src": "images/mirrors_lens_ray_diagrams.png"
+    },
+    {
+      "title": "Human Eye & Prism",
+      "src": "images/physics_ray_diagram.png"
+    }
+  ],
+  "reflection-refraction": [
+    {
+      "title": "Ray Diagrams: Mirrors & Lenses",
+      "src": "images/mirrors_lens_ray_diagrams.png"
+    },
+    {
+      "title": "Optics Ray Diagrams",
+      "src": "images/physics_ray_diagram.png"
     }
   ],
   "physics-mechanics": [
     {
-      "title": "EM Waves Chart",
-      "src": "images/em_waves_chart.png"
+      "title": "Newton's Laws & Free Body Diagrams",
+      "src": "images/newtons_laws_mechanics_diagram.png"
+    }
+  ],
+  "newtons-laws": [
+    {
+      "title": "Newton's Laws of Motion",
+      "src": "images/newtons_laws_mechanics_diagram.png"
+    }
+  ],
+  "energy-power-mechanics": [
+    {
+      "title": "Mechanics: Force, Energy & Power",
+      "src": "images/newtons_laws_mechanics_diagram.png"
     }
   ],
   "physics-waves": [
     {
-      "title": "EM Waves Chart",
+      "title": "EM Waves Spectrum",
       "src": "images/em_waves_chart.png"
+    },
+    {
+      "title": "Sound Waves Diagram",
+      "src": "images/sound_waves_diagram.png"
     }
   ],
   "physics-sound": [
     {
-      "title": "EM Waves Chart",
-      "src": "images/em_waves_chart.png"
+      "title": "Sound Waves & Doppler Effect",
+      "src": "images/sound_waves_diagram.png"
     }
   ],
   "physics-em-waves": [
     {
-      "title": "EM Waves Chart",
+      "title": "Electromagnetic Spectrum Chart",
       "src": "images/em_waves_chart.png"
     }
   ],
   "physics-thermodynamics": [
     {
-      "title": "EM Waves Chart",
-      "src": "images/em_waves_chart.png"
+      "title": "Thermodynamics & Heat Transfer",
+      "src": "images/thermodynamics_heat_diagram.png"
     }
   ],
   "physics-heat": [
     {
-      "title": "EM Waves Chart",
-      "src": "images/em_waves_chart.png"
+      "title": "Heat Transfer: Conduction/Convection/Radiation",
+      "src": "images/thermodynamics_heat_diagram.png"
     }
   ],
   "physics-electromagnetism": [
     {
-      "title": "EM Waves Chart",
-      "src": "images/em_waves_chart.png"
+      "title": "Electrical Circuits & Symbols",
+      "src": "images/physics_circuit_diagram.png"
     }
   ],
   "physics-electricity-magnetism": [
     {
-      "title": "EM Waves Chart",
-      "src": "images/em_waves_chart.png"
+      "title": "Electrical Circuits & Symbol Legend",
+      "src": "images/physics_circuit_diagram.png"
     }
   ],
   "physics-modern": [
     {
-      "title": "EM Waves Chart",
+      "title": "EM Spectrum & Nuclear Physics",
       "src": "images/em_waves_chart.png"
     }
   ],
   "physics-nuclear-basics": [
     {
-      "title": "EM Waves Chart",
+      "title": "Nuclear Physics & EM Waves",
       "src": "images/em_waves_chart.png"
     }
   ],
   "physics-units-everyday": [
     {
-      "title": "EM Waves Chart",
-      "src": "images/em_waves_chart.png"
+      "title": "Physics Reference Diagrams",
+      "src": "images/newtons_laws_mechanics_diagram.png"
     }
   ],
-  "physics-pyq-trends": [
+  "chemistry-substances": [
     {
-      "title": "EM Waves Chart",
-      "src": "images/em_waves_chart.png"
+      "title": "Atomic Structure & Periodic Table",
+      "src": "images/atomic_structure_periodic_table.png"
     }
   ],
-  "physics-pyq-trends-topic": [
+  "acids-bases": [
     {
-      "title": "EM Waves Chart",
-      "src": "images/em_waves_chart.png"
+      "title": "Chemical Bonding & pH Scale",
+      "src": "images/chemical_bonding_reactions.png"
+    }
+  ],
+  "chemistry-bonding": [
+    {
+      "title": "Chemical Bonding Types",
+      "src": "images/chemical_bonding_reactions.png"
+    },
+    {
+      "title": "Atomic Structure",
+      "src": "images/atomic_structure_periodic_table.png"
+    }
+  ],
+  "chemistry-metallurgy": [
+    {
+      "title": "Periodic Table & Reactivity",
+      "src": "images/atomic_structure_periodic_table.png"
+    }
+  ],
+  "metals-alloys": [
+    {
+      "title": "Periodic Table & Metal Properties",
+      "src": "images/atomic_structure_periodic_table.png"
+    }
+  ],
+  "reactivity-series": [
+    {
+      "title": "Chemical Bonding & Reactivity",
+      "src": "images/chemical_bonding_reactions.png"
+    }
+  ],
+  "carbon-compounds": [
+    {
+      "title": "Chemical Bonding & Organic Chemistry",
+      "src": "images/chemical_bonding_reactions.png"
+    }
+  ],
+  "chemistry-everyday-env": [
+    {
+      "title": "Chemistry & Environment",
+      "src": "images/chemical_bonding_reactions.png"
+    }
+  ],
+  "environmental-chemistry": [
+    {
+      "title": "Chemical Reactions & Environmental Impact",
+      "src": "images/chemical_bonding_reactions.png"
     }
   ],
   "biology-cell": [
     {
-      "title": "Cell Structure",
+      "title": "Animal & Plant Cell Structure",
       "src": "images/cell_diagram.png"
     },
     {
-      "title": "Cell Division",
+      "title": "Cell Division: Mitosis & Meiosis",
       "src": "images/cell_division_mitosis.png"
     }
   ],
   "cell-structure": [
     {
-      "title": "Cell Structure",
+      "title": "Cell Structure Diagram",
       "src": "images/cell_diagram.png"
     },
     {
       "title": "Cell Division",
       "src": "images/cell_division_mitosis.png"
+    },
+    {
+      "title": "Chromosome & DNA",
+      "src": "images/chromosome_structure.png"
     }
   ],
   "biology-physiology": [
     {
-      "title": "EM Waves Chart",
-      "src": "images/em_waves_chart.png"
+      "title": "Human Organ Systems",
+      "src": "images/human_body_systems.png"
+    },
+    {
+      "title": "Digestive System",
+      "src": "images/human_digestive_system.png"
+    },
+    {
+      "title": "Circulatory System",
+      "src": "images/human_circulatory_heart.png"
     }
   ],
   "human-systems": [
     {
-      "title": "Human Body Systems",
+      "title": "Major Human Organ Systems",
+      "src": "images/human_body_systems.png"
+    },
+    {
+      "title": "Digestive System",
+      "src": "images/human_digestive_system.png"
+    },
+    {
+      "title": "Nervous System",
+      "src": "images/human_nervous_system.png"
+    }
+  ],
+  "diseases": [
+    {
+      "title": "Human Immune & Disease Systems",
       "src": "images/human_body_systems.png"
     }
   ],
   "biology-diseases": [
     {
-      "title": "Kingdoms",
-      "src": "images/animal_plant_kingdoms.png"
+      "title": "Human Body Systems & Immunity",
+      "src": "images/human_body_systems.png"
+    }
+  ],
+  "immunity-vaccines": [
+    {
+      "title": "Human Immunity & Circulatory System",
+      "src": "images/human_circulatory_heart.png"
     }
   ],
   "biology-kingdoms": [
     {
-      "title": "Kingdoms",
+      "title": "Animal & Plant Kingdom Tree",
       "src": "images/animal_plant_kingdoms.png"
     }
   ],
   "plant-kingdom": [
     {
-      "title": "Kingdoms",
+      "title": "Plant Kingdom Classification",
+      "src": "images/animal_plant_kingdoms.png"
+    },
+    {
+      "title": "Parts of a Flower",
+      "src": "images/flower_parts_diagram.png"
+    }
+  ],
+  "animal-kingdom": [
+    {
+      "title": "Animal Kingdom Classification",
       "src": "images/animal_plant_kingdoms.png"
     }
   ],
   "biology-botany": [
     {
-      "title": "Kingdoms",
+      "title": "Plant Kingdom & Flower Parts",
       "src": "images/animal_plant_kingdoms.png"
+    },
+    {
+      "title": "Photosynthesis & Respiration",
+      "src": "images/photosynthesis_respiration_diagram.png"
     }
   ],
   "plant-reproduction": [
     {
-      "title": "Kingdoms",
-      "src": "images/animal_plant_kingdoms.png"
+      "title": "Parts of a Flower & Reproduction",
+      "src": "images/flower_parts_diagram.png"
+    },
+    {
+      "title": "Photosynthesis & Respiration",
+      "src": "images/photosynthesis_respiration_diagram.png"
     }
   ],
   "biology-ecology": [
     {
-      "title": "Kingdoms",
-      "src": "images/animal_plant_kingdoms.png"
+      "title": "Ecosystem & Food Chain",
+      "src": "images/india_parks_map.png"
     }
   ],
   "biology-ecology-basics": [
     {
-      "title": "Kingdoms",
-      "src": "images/animal_plant_kingdoms.png"
+      "title": "Ecosystem & Biodiversity Map",
+      "src": "images/india_parks_map.png"
     }
   ],
-  "missiles-systems": [
+  "constitution-basics": [
     {
-      "title": "Human Body Systems",
-      "src": "images/human_body_systems.png"
+      "title": "Indian Constitution Structure",
+      "src": "images/indian_constitution_structure.png"
     }
   ],
-  "reasoning-oir": [
+  "preamble": [
     {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
+      "title": "Constitutional Framework & Preamble",
+      "src": "images/indian_constitution_structure.png"
     }
   ],
-  "syl-verbal-reasoning": [
+  "schedules": [
     {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
+      "title": "Schedules of the Constitution",
+      "src": "images/indian_constitution_structure.png"
     }
   ],
-  "syl-nonverbal-reasoning": [
+  "fundamental-rights": [
     {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
+      "title": "Fundamental Rights & Constitutional Framework",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "dpsp": [
+    {
+      "title": "DPSP & Constitutional Articles",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "citizenship": [
+    {
+      "title": "Constitutional Structure & Citizenship",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "union-executive": [
+    {
+      "title": "Union Executive & Parliamentary System",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "president": [
+    {
+      "title": "President's Role in Parliament",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "parliament": [
+    {
+      "title": "Parliament of India Structure",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "judiciary": [
+    {
+      "title": "Indian Judiciary & Constitutional Framework",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "panchayati-raj": [
+    {
+      "title": "Local Self-Government Structure",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "polity-advanced": [
+    {
+      "title": "Advanced Constitutional Structures",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "amendments-parts": [
+    {
+      "title": "Constitutional Amendments & Parts",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "important-articles": [
+    {
+      "title": "High-Yield Constitutional Articles",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "federal-rpa": [
+    {
+      "title": "Federal Structure Diagram",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "polity-federal-structure": [
+    {
+      "title": "Federal Structure of India",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "governance-emergency": [
+    {
+      "title": "Emergency Provisions & Governance",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "constitutional-bodies": [
+    {
+      "title": "Constitutional Bodies Chart",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "goverment-executives": [
+    {
+      "title": "Government Executive Structure",
+      "src": "images/indian_constitution_structure.png"
+    }
+  ],
+  "economics-basics": [
+    {
+      "title": "GDP, Markets & Monetary Policy",
+      "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "econ-concepts": [
+    {
+      "title": "Economic Concepts & Market Structures",
+      "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "econ-poverty-employment": [
+    {
+      "title": "Economy: Employment & Poverty",
+      "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "monetary-fiscal": [
+    {
+      "title": "Monetary & Fiscal Policy Tools",
+      "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "rbi-monetary-policy": [
+    {
+      "title": "RBI Monetary Policy Instruments",
+      "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "budget-trade-reforms": [
+    {
+      "title": "Budget, Trade & Economic Reforms",
+      "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "econ-budget-fiscal": [
+    {
+      "title": "Fiscal Policy & Budget Structure",
+      "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "econ-trade-bop": [
+    {
+      "title": "Trade & Balance of Payments",
+      "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "econ-reforms": [
+    {
+      "title": "Economic Reforms since 1991",
+      "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "external-sector-institutions": [
+    {
+      "title": "Global Institutions & Trade",
+      "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "econ-govt-schemes": [
+    {
+      "title": "Government Economic Schemes",
+      "src": "images/economics_market_gdp_diagram.png"
     }
   ],
   "syl-afcat-spatial": [
     {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-verbal-reasoning": [
+      "title": "Dot Situation Test",
+      "src": "images/afcat_dot_situation.png"
+    },
     {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-analogy": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-classification": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-series": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-coding": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-directions": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-clock-calendar": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-venn": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-syllogism": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-conclusions": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-assumptions": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-nonverbal-reasoning": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-fig-analogy": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-fig-class-series": [
-    {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
-    }
-  ],
-  "afcat-r-fig-completion": [
+      "title": "Embedded Figures",
+      "src": "images/afcat_embedded_figures.png"
+    },
     {
       "title": "Venn Diagrams",
       "src": "images/afcat_venn_diagram.png"
@@ -381,67 +835,82 @@ const TOPIC_MAPS = {
   ],
   "afcat-r-embedded": [
     {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
+      "title": "Embedded Figures Practice",
+      "src": "images/afcat_embedded_figures.png"
     }
   ],
   "afcat-r-dot": [
     {
-      "title": "Venn Diagrams",
+      "title": "Dot Situation Test Concepts",
+      "src": "images/afcat_dot_situation.png"
+    }
+  ],
+  "afcat-r-venn": [
+    {
+      "title": "Logical Venn Diagrams",
       "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-fig-analogy": [
+    {
+      "title": "Figure Analogy & Pattern Recognition",
+      "src": "images/afcat_embedded_figures.png"
+    }
+  ],
+  "afcat-r-fig-class-series": [
+    {
+      "title": "Figure Classification & Series",
+      "src": "images/afcat_embedded_figures.png"
+    }
+  ],
+  "afcat-r-fig-completion": [
+    {
+      "title": "Figure Completion Concepts",
+      "src": "images/afcat_embedded_figures.png"
     }
   ],
   "afcat-r-cube-dice": [
     {
-      "title": "Venn Diagrams",
-      "src": "images/afcat_venn_diagram.png"
+      "title": "Cube & Dice Visual Reasoning",
+      "src": "images/afcat_dot_situation.png"
     }
   ],
   "afcat-r-fig-coding": [
     {
+      "title": "Figure Coding & Pattern Map",
+      "src": "images/afcat_embedded_figures.png"
+    }
+  ],
+  "afcat-nonverbal-reasoning": [
+    {
+      "title": "Non-Verbal Reasoning: Figures",
+      "src": "images/afcat_embedded_figures.png"
+    },
+    {
       "title": "Venn Diagrams",
       "src": "images/afcat_venn_diagram.png"
     }
   ],
-  "ca-geopolitical-flashpoints": [
+  "syl-nonverbal-reasoning": [
     {
-      "title": "World Climatic Zones",
-      "src": "images/world_climatic_zones_map.png"
+      "title": "Non-Verbal Reasoning Concepts",
+      "src": "images/afcat_embedded_figures.png"
     }
   ],
-  "biodiversity-conservation": [
+  "defence-structures": [
     {
-      "title": "Kingdoms",
-      "src": "images/animal_plant_kingdoms.png"
+      "title": "Defence Forces Structure",
+      "src": "images/indian_constitution_structure.png"
     }
   ],
-  "climate-laws-energy": [
+  "rank-equivalence": [
     {
-      "title": "World Climatic Zones",
-      "src": "images/world_climatic_zones_map.png"
+      "title": "Defence Ranks Equivalence Chart",
+      "src": "images/indian_constitution_structure.png"
     }
   ]
 };
 
-// Global Image Zoom Modal Function
-window.zoomImage = function(src, title) {
-  let modal = document.getElementById("image-zoom-modal");
-  if (!modal) {
-    modal = document.createElement("div");
-    modal.id = "image-zoom-modal";
-    modal.style.cssText = "display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.9); z-index: 99999; justify-content: center; align-items: center; flex-direction: column; cursor: zoom-out;";
-    modal.onclick = () => modal.style.display = "none";
-    modal.innerHTML = `
-      <img id="zoom-modal-img" src="" style="max-width: 90vw; max-height: 85vh; border-radius: 6px; box-shadow: 0 0 20px rgba(0,0,0,0.8); border: 2px solid var(--border);" />
-      <div id="zoom-modal-title" style="margin-top: 15px; color: white; font-family: var(--font-mono); font-weight: 600; font-size: 1rem; text-align: center;"></div>
-      <div style="color: var(--text-muted); font-size: 0.8rem; margin-top: 5px;">Click anywhere to dismiss</div>
-    `;
-    document.body.appendChild(modal);
-  }
-  document.getElementById("zoom-modal-img").src = src;
-  document.getElementById("zoom-modal-title").innerText = title;
-  modal.style.display = "flex";
-};
 
 function updateNotesProgressBar() {
   const container = document.getElementById("notes-progress-bar-container");
