@@ -13,6 +13,8 @@ const filesToCopy = [
   'index.html',
   'index.css',
   'app.js',
+  'data.js',
+  'english_vocab_db.js',
   'supabase_client.js',
   'ca_data.js',
   'syllabus_data.js',
