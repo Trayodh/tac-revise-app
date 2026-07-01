@@ -802,6 +802,15 @@ function renderTopicView(subjectId, chapterId, topicId) {
     });
   }
 
+  // Initialize Mermaid diagrams if any
+  setTimeout(() => {
+    if (window.mermaid && typeof window.mermaid.run === 'function') {
+      try { window.mermaid.run({ querySelector: '.mermaid' }); } catch(e) { console.warn(e); }
+    } else if (window.mermaid && typeof window.mermaid.init === 'function') {
+      try { window.mermaid.init(undefined, document.querySelectorAll('.mermaid')); } catch(e) { console.warn(e); }
+    }
+  }, 100);
+
   // Initialize dynamic vocabulary search vault if synonyms/antonyms topic is active
   if (topicId === 'synonyms-antonyms-detailed' && activeNotesTab === 'notes') {
     setTimeout(() => {
@@ -994,7 +1003,7 @@ function fetchDailyCurrentAffairs() {
     </div>`;
   }
 
-  fetch('http://localhost:4000/api/daily-current-affairs')
+  fetch('/api/daily-current-affairs')
     .then(res => res.json())
     .then(data => {
       if (Array.isArray(data)) {
@@ -1102,7 +1111,10 @@ function renderCurrentMonthAffairs() {
       <h2 style="margin:0 0 4px; font-size:1.2rem; font-weight:700; letter-spacing:0.3px;">Current Affairs — ${activeCaMonth}</h2>
       <p style="margin:0 0 12px; font-size:0.82rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:0.5px;">PIB + NEWS · AI-ENRICHED · ${data.length} ITEMS · CYCLE: ${getExamCycleBounds().cycleLabel}</p>
       <div style="display:flex; gap:5px; flex-wrap:wrap;">
-        ${Object.entries(topicCounts).map(([t,c]) => `<span style="font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase;">${t}&thinsp;·&thinsp;${c}</span>`).join('')}
+        ${Object.entries(topicCounts).map(([t,c]) => {
+          const safeTopic = (t || 'General').toUpperCase().replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
+          return `<span onclick="document.getElementById('topic-${safeTopic}')?.scrollIntoView({behavior: 'smooth', block: 'start'})" onmouseover="this.style.background='rgba(255,255,255,0.12)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'" style="cursor:pointer; font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase; transition:background 0.2s;">${t}&thinsp;·&thinsp;${c}</span>`;
+        }).join('')}
       </div>
     </div>
     <div style="height:1px; background:var(--border); margin-bottom:22px;"></div>
@@ -1127,9 +1139,18 @@ function renderCurrentMonthAffairs() {
     return '#64748b';
   }
 
+  let topicSeen = new Set();
   data.forEach(item => {
     const topicColor = getTopicColor(item.topic, item.topicColor);
     const topicLabel = (item.topic || 'General').toUpperCase();
+    const safeTopic = topicLabel.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
+    
+    let idAttr = '';
+    if (!topicSeen.has(safeTopic)) {
+      topicSeen.add(safeTopic);
+      idAttr = ` id="topic-${safeTopic}"`;
+    }
+    
     const mainText   = item.text || item.summary || '';
 
     // UPSC Key Facts block
@@ -1208,7 +1229,7 @@ function renderCurrentMonthAffairs() {
     }
 
     html += `
-      <div class="panel" style="margin-bottom:16px; border-left:3px solid ${topicColor}; padding:16px 18px; position:relative; overflow:hidden;">
+      <div${idAttr} class="panel" style="margin-bottom:16px; border-left:3px solid ${topicColor}; padding:16px 18px; position:relative; overflow:hidden;">
         <div style="position:absolute; top:0; right:0; width:100px; height:100px; background:radial-gradient(circle at top right, rgba(${hexToRgb(topicColor)},0.06), transparent 70%); pointer-events:none;"></div>
         <div style="display:flex; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
           <span style="font-family:var(--font-mono); font-size:0.65rem; font-weight:700; letter-spacing:0.8px; padding:3px 8px; border-radius:3px; background:${topicColor}1a; border:1px solid ${topicColor}44; color:${topicColor}; text-transform:uppercase; white-space:nowrap;">${topicLabel}</span>
@@ -1481,6 +1502,71 @@ function togglePyqAnswer(uid) {
 }
 
 // ==========================================
+// SUPABASE DATA INITIALIZATION
+// ==========================================
+window.CBT_EXAMS_DATABASE = [];
+window.isSupabaseLoaded = false;
+
+async function initSupabaseData() {
+  if (!window.supabaseClient) {
+    console.warn("Supabase client not initialized.");
+    return;
+  }
+  
+  try {
+    const mockHubContainer = document.getElementById("cbtMockList");
+    if (mockHubContainer) {
+      mockHubContainer.innerHTML = '<div style="padding: 20px;">Securely loading exam database from Supabase...</div>';
+    }
+    
+    // Fetch exams
+    const { data: exams, error: examsErr } = await window.supabaseClient.from('exams').select('*');
+    if (examsErr) throw examsErr;
+    
+    // Fetch questions
+    // In production with 10k+ questions, this should be paginated or loaded on-demand per exam
+    const { data: questions, error: questionsErr } = await window.supabaseClient.from('questions').select('*');
+    if (questionsErr) throw questionsErr;
+    
+    // Construct local object
+    window.CBT_EXAMS_DATABASE = exams.map(exam => {
+      return {
+        id: exam.id,
+        title: exam.title,
+        duration: exam.duration,
+        totalMarks: exam.total_marks,
+        instructions: exam.instructions || [],
+        sections: exam.sections || [],
+        negativeMarking: exam.negative_marking,
+        type: exam.type,
+        exam: exam.title.includes('NDA') ? 'NDA' : (exam.title.includes('AFCAT') ? 'AFCAT' : 'CDS'),
+        subject: exam.title.includes('Math') ? 'Mathematics' : (exam.title.includes('English') ? 'English' : 'General Studies & Aptitude'),
+        questions: questions.filter(q => q.exam_id === exam.id).map(q => ({
+          id: q.id,
+          question: q.question,
+          options: q.options,
+          correct: q.correct,
+          explanation: q.explanation,
+          topicId: q.topic_id
+        }))
+      };
+    });
+    
+    window.isSupabaseLoaded = true;
+    console.log("Successfully loaded CBT DB from Supabase. Exams:", window.CBT_EXAMS_DATABASE.length);
+    
+    // If the user is on the mock hub screen, re-render it now that data is available
+    if (document.getElementById("screen-cbt-mock-hub") && document.getElementById("screen-cbt-mock-hub").classList.contains("active")) {
+      renderCbtMockHub();
+    }
+  } catch (err) {
+    console.error("Failed to load data from Supabase:", err);
+  }
+}
+
+// ==========================================
+// 1. STATE MANAGEMENT & DOM ELEMENTS
+// =============================================================================
 // 10. CBT MOCK TEST ENGINE MODULE
 // ==========================================
 let activeExamFilter = "all";
@@ -1545,7 +1631,7 @@ function renderCbtMockHub() {
           </div>
           <div class="meta-item">
             <span>Questions:</span>
-            <span>${exam.questionsCount} Qs</span>
+            <span>${exam.questionsCount || (exam.questions ? exam.questions.length : 0)} Qs</span>
           </div>
           <div class="meta-item">
             <span>Correct:</span>
@@ -1925,7 +2011,7 @@ For each wrong question, your reconciliation analysis MUST:
 
 Format the output beautifully as structured HTML using subheadings, <strong> tags, and bulleted lists. Keep it completely emoji-free and highly authoritative.`;
 
-      fetch('http://localhost:4000/api/gemini', {
+      fetch('/api/gemini', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -2133,7 +2219,7 @@ Do not output any surrounding markdown formatting (no \`\`\`json, no \`\`\`), do
 
   for (const model of modelsToTry) {
     try {
-      const response = await fetch('http://localhost:4000/api/gemini', {
+      const response = await fetch('/api/gemini', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -2337,7 +2423,7 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
       if (imagePart) {
         parts.push(imagePart);
       }
-      const response = await fetch('http://localhost:4000/api/gemini', {
+      const response = await fetch('/api/gemini', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -2580,7 +2666,7 @@ Doubt to solve: ${text}`;
     
     for (const model of modelsToTry) {
       try {
-        const response = await fetch('http://localhost:4000/api/gemini', {
+        const response = await fetch('/api/gemini', {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -2725,7 +2811,7 @@ function initAiPaperSolver() {
           
           for (const model of modelsToTry) {
             try {
-              const response = await fetch('http://localhost:4000/api/gemini', {
+              const response = await fetch('/api/gemini', {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -2933,7 +3019,7 @@ Ensure the design is clean, readable, premium, and uses variables like var(--acc
               }
               parts.push({ text: promptText });
               
-              const response = await fetch('http://localhost:4000/api/gemini', {
+              const response = await fetch('/api/gemini', {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -3371,6 +3457,7 @@ function initCountdownTimer() {
 // 13. APP RUN SUITE - INITIALIZATION
 // ==========================================
 document.addEventListener("DOMContentLoaded", () => {
+  initSupabaseData();
   initAppState();
   initUserProfile();
   initCountdownTimer();
@@ -3700,7 +3787,7 @@ Ensure you wrap important terms, sub-topics, agencies, or events in double squar
 Do not use any emojis in your response. Keep the tone professional, scholarly, and authoritative.`;
 
   try {
-    const response = await fetch('http://localhost:4000/api/gemini', {
+    const response = await fetch('/api/gemini', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -4028,7 +4115,7 @@ Formatting Guidelines for maximum visual appeal:
   const model = 'gemini-3-flash-preview';
   
   try {
-    const response = await fetch('http://localhost:4000/api/gemini', {
+    const response = await fetch('/api/gemini', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -4142,6 +4229,15 @@ function renderAiNotes(text, contentArea, btnCopy, btnDownload, title) {
   if (window.MathJax && typeof window.MathJax.typeset === 'function') {
     window.MathJax.typeset();
   }
+
+  // Initialize Mermaid diagrams if any
+  setTimeout(() => {
+    if (window.mermaid && typeof window.mermaid.run === 'function') {
+      try { window.mermaid.run({ querySelector: '.mermaid' }); } catch(e) { console.warn(e); }
+    } else if (window.mermaid && typeof window.mermaid.init === 'function') {
+      try { window.mermaid.init(undefined, contentArea.querySelectorAll('.mermaid')); } catch(e) { console.warn(e); }
+    }
+  }, 100);
   
   // Show Action Buttons
   btnCopy.style.display = 'block';
@@ -4344,7 +4440,7 @@ Tell them exactly what they are failing at based on these numbers, what subjects
 Format the response cleanly with markdown headings, bullet points, and strong military phrasing. Keep it concise (under 250 words). Do NOT use any emojis in the response.`;
 
   try {
-    const response = await fetch('http://localhost:4000/api/gemini', {
+    const response = await fetch('/api/gemini', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] })
@@ -5342,7 +5438,7 @@ For each block, provide:
 Format with clean, bold headings and simple HTML line breaks. Do NOT use any emojis, icons, or pictorial characters. Keep the tone strictly professional, inspiring, and military-oriented.`;
 
   try {
-    const response = await fetch('http://localhost:4000/api/gemini', {
+    const response = await fetch('/api/gemini', {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -5798,236 +5894,77 @@ const AI_TOPIC_TEMPLATES = {
 };
 
 // ==========================================
-// 6. GLOBAL STATE MANAGEMENT & LOCALSTORAGE
+// 6. GLOBAL STATE MANAGEMENT & LOCALSTORAGE MOVED TO js/state_manager.js
 // ==========================================
-let STATE = {
-  streak: 0,
-  lastActiveDate: null,
-  syllabusProgress: {},  
-  readFormulasCount: 0,
-  readFormulasList: [], 
-  cbtScores: [],        
-  currentScreen: "dashboard"
-};
-
-async function syncFromSupabase() {
-  if (typeof supabaseClientInstance === 'undefined' || !supabaseClientInstance) {
-    console.log("Supabase client not initialized. Using offline mode.");
-    return;
-  }
-  try {
-    console.log("Attempting to sync state from Supabase cloud...");
-    const { data, error } = await supabaseClientInstance
-      .from('user_data')
-      .select('state')
-      .eq('user_id', 'default_cadet')
-      .maybeSingle();
-      
-    if (error) {
-      console.error("Supabase load error:", error.message);
-      return;
-    }
-    
-    if (data && data.state) {
-      console.log("Found cloud state. Merging state...");
-      STATE = { ...STATE, ...data.state };
-      localStorage.setItem("tac_revise_state_v1", JSON.stringify(STATE));
-      updateDashboardMetrics();
-      console.log("Cloud sync complete!");
-    } else {
-      console.log("No cloud state found. Initializing cloud database with current local state...");
-      await syncToSupabase();
-    }
-  } catch (err) {
-    console.error("Failed to sync from Supabase:", err);
-  }
-}
-
-async function syncToSupabase() {
-  if (typeof supabaseClientInstance === 'undefined' || !supabaseClientInstance) {
-    return;
-  }
-  try {
-    const { error } = await supabaseClientInstance
-      .from('user_data')
-      .upsert({ 
-        user_id: 'default_cadet', 
-        state: STATE, 
-        updated_at: new Date().toISOString() 
-      }, { onConflict: 'user_id' });
-      
-    if (error) {
-      console.error("Supabase upsert error:", error.message);
-    } else {
-      console.log("Cloud state auto-saved to Supabase.");
-    }
-  } catch (err) {
-    console.error("Failed to auto-save to Supabase:", err);
-  }
-}
-
-function initAppState() {
-  const localData = localStorage.getItem("tac_revise_state_v1");
-  if (localData) {
-    try {
-      STATE = { ...STATE, ...JSON.parse(localData) };
-    } catch (e) {
-      console.error("Error loading localStorage state:", e);
-    }
-  }
-  
-  checkStreak();
-  localStorage.setItem("tac_revise_state_v1", JSON.stringify(STATE));
-  updateDashboardMetrics();
-  
-  checkCurrentAffairsExpiry();
-  
-  // Trigger async cloud database sync
-  syncFromSupabase();
-}
-
-function saveState() {
-  localStorage.setItem("tac_revise_state_v1", JSON.stringify(STATE));
-  updateDashboardMetrics();
-  
-  // Trigger async cloud database save
-  syncToSupabase();
-}
-
-function checkStreak() {
-  const todayStr = new Date().toDateString();
-  
-  if (!STATE.lastActiveDate) {
-    STATE.streak = 1;
-    STATE.lastActiveDate = todayStr;
-  } else {
-    const lastDate = new Date(STATE.lastActiveDate);
-    const todayDate = new Date(todayStr);
-    
-    const diffTime = Math.abs(todayDate - lastDate);
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    
-    if (diffDays === 1) {
-      STATE.streak += 1;
-      STATE.lastActiveDate = todayStr;
-    } else if (diffDays > 1) {
-      STATE.streak = 1;
-      STATE.lastActiveDate = todayStr;
-    }
-  }
-}
-
-function checkCurrentAffairsExpiry() {
-  const currentYear = new Date().getFullYear();
-  const lastCheckedYear = localStorage.getItem("tac_ca_year_check");
-  
-  if (lastCheckedYear && parseInt(lastCheckedYear) < currentYear) {
-    console.log("New calendar year detected. Wiping local Current Affairs metrics.");
-    localStorage.setItem("tac_ca_year_check", currentYear.toString());
-  } else if (!lastCheckedYear) {
-    localStorage.setItem("tac_ca_year_check", currentYear.toString());
-  }
-}
-
-function updateDashboardMetrics() {
-  document.getElementById("stat-streak").innerText = STATE.streak + " Days";
-  
-  const totalTopics = SYLLABUS_DATABASE.reduce((sum, exam) => sum + exam.topics.length, 0);
-  let completedTopics = 0;
-  for (const topicId in STATE.syllabusProgress) {
-    if (STATE.syllabusProgress[topicId] === 'completed') {
-      completedTopics++;
-    }
-  }
-  const syllabusPct = totalTopics > 0 ? Math.round((completedTopics / totalTopics) * 100) : 0;
-  document.getElementById("stat-syllabus").innerText = syllabusPct + "%";
-  
-  document.getElementById("stat-formulas").innerText = STATE.readFormulasCount;
-  
-  if (STATE.cbtScores.length > 0) {
-    const totalPct = STATE.cbtScores.reduce((sum, record) => sum + (record.score / record.maxScore), 0);
-    const avgPct = Math.round((totalPct / STATE.cbtScores.length) * 100);
-    document.getElementById("stat-cbt-avg").innerText = avgPct + "%";
-  } else {
-    document.getElementById("stat-cbt-avg").innerText = "0%";
-  }
-  
-  let rank = "Lieutenant";
-  if (completedTopics > 10 || STATE.cbtScores.length > 8) rank = "Major";
-  else if (completedTopics > 5 || STATE.cbtScores.length > 3) rank = "Captain";
-  const rankEl = document.getElementById("profile-rank") || document.getElementById("user-rank");
-  if (rankEl) rankEl.innerText = rank;
-  
-  renderDashboardRecentCBT();
-  renderDashboardMedals();
-}
-
-function renderDashboardRecentCBT() {
-  const container = document.getElementById("dashboard-recent-cbt");
-  if (STATE.cbtScores.length === 0) {
-    container.innerHTML = `<p style="color:var(--text-muted);">No tests taken yet. Launch CBT Mock Test Hub to start your revision.</p>`;
-    return;
-  }
-  
-  let html = `<ul style="list-style:none; display:flex; flex-direction:column; gap:10px;">`;
-  const recent = STATE.cbtScores.slice(-3).reverse();
-  recent.forEach(r => {
-    const pct = Math.round((r.score / r.maxScore) * 100);
-    html += `
-      <li style="display:flex; justify-content:space-between; align-items:center; background-color:rgba(255,255,255,0.02); padding:8px 12px; border-radius:6px; border:1px solid var(--border);">
-        <div>
-          <strong style="font-size:0.85rem;">${r.examTitle}</strong>
-          <div style="font-size:0.75rem; color:var(--text-muted);">${r.date}</div>
-        </div>
-        <div style="font-family:var(--font-mono); font-weight:bold; color:${pct >= 50 ? 'var(--accent)' : 'var(--danger)'}">
-          ${r.score}/${r.maxScore} (${pct}%)
-        </div>
-      </li>
-    `;
-  });
-  html += `</ul>`;
-  container.innerHTML = html;
-}
-
-function renderDashboardMedals() {
-  const container = document.getElementById("dashboard-medals-grid");
-  if (!container) return;
-  
-  const ACHIEVEMENTS = [
-    { id: "streak-3", name: "3-Day Streak", desc: "Maintain a study streak of 3 days", icon: "🔥", check: (state) => state.streak >= 3 },
-    { id: "streak-7", name: "Weekly Warrior", desc: "Maintain a study streak of 7 days", icon: "👑", check: (state) => state.streak >= 7 },
-    { id: "cbt-first", name: "First Blood", desc: "Complete 1 CBT mock test", icon: "🎯", check: (state) => state.cbtScores && state.cbtScores.length >= 1 },
-    { id: "cbt-expert", name: "Marksman", desc: "Average CBT score of 80%+", icon: "🎖️", check: (state) => {
-        if (!state.cbtScores || state.cbtScores.length === 0) return false;
-        const totalPct = state.cbtScores.reduce((sum, record) => sum + (record.score / record.maxScore), 0);
-        return (totalPct / state.cbtScores.length) >= 0.8;
-    }},
-    { id: "syl-start", name: "Bootcamp", desc: "Complete at least 1 syllabus topic", icon: "📖", check: (state) => {
-        let completed = 0;
-        for (const k in state.syllabusProgress) {
-          if (state.syllabusProgress[k] === 'completed') completed++;
-        }
-        return completed >= 1;
-    }},
-    { id: "syl-half", name: "Squad Leader", desc: "Complete at least 5 syllabus topics", icon: "⚔️", check: (state) => {
-        let completed = 0;
-        for (const k in state.syllabusProgress) {
-          if (state.syllabusProgress[k] === 'completed') completed++;
-        }
-        return completed >= 5;
-    }}
-  ];
-  
-  container.innerHTML = ACHIEVEMENTS.map(ach => {
-    const unlocked = ach.check(STATE);
-    return `
-      <div class="medal-badge ${unlocked ? 'unlocked' : ''}">
-        <div class="medal-icon">${ach.icon}</div>
-        <div class="medal-name">${ach.name}</div>
-        <div class="medal-desc">${ach.desc} (${unlocked ? 'Unlocked' : 'Locked'})</div>
-      </div>
-    `;
-  }).join("");
-}
 
 // ==========================================
+// 7. ADVANCED MATH SOLVER LOGIC
+// ==========================================
+async function solveAdvancedMath() {
+  const inputEl = document.getElementById("advanced-solver-input");
+  const btnEl = document.getElementById("advanced-solver-btn");
+  const resultContainer = document.getElementById("advanced-solver-result-container");
+  const resultEl = document.getElementById("advanced-solver-result");
+
+  const questionText = inputEl.value.trim();
+  if (!questionText) {
+    alert("Please paste a math question first!");
+    return;
+  }
+
+  // Set loading state
+  btnEl.innerHTML = `<span class="spinner" style="width: 20px; height: 20px; border: 2px solid rgba(255,255,255,0.3); border-radius: 50%; border-top-color: #fff; animation: spin 1s ease-in-out infinite;"></span> Searching & Solving...`;
+  btnEl.disabled = true;
+  resultContainer.style.display = "none";
+  resultEl.innerHTML = "";
+
+  try {
+    const payload = {
+      model: "gemini-2.5-pro",
+      contents: [{ parts: [{ text: questionText }] }],
+      tools: [{ googleSearch: {} }],
+      systemInstruction: {
+        parts: [{ 
+          text: "You are an advanced mathematical solver. Your primary directive is to use Google Search to find the exact official solution to this exact question if it exists online (e.g., from platforms like Toppr, Doubtnut, Byjus, Brainly, etc.). If you find the solution online, provide it and cite the source. If you cannot find the exact question online, you must solve it mathematically step-by-step from scratch. Always format your final output beautifully in Markdown, preserving mathematical symbols."
+        }]
+      }
+    };
+
+    const res = await fetch('/api/gemini', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err.error || 'Failed to fetch solution');
+    }
+
+    const data = await res.json();
+    let textResult = '';
+    
+    if (data.candidates && data.candidates[0].content && data.candidates[0].content.parts) {
+      textResult = data.candidates[0].content.parts.map(p => p.text).join('\n');
+    } else {
+      throw new Error("Invalid response from API");
+    }
+
+    resultEl.innerHTML = marked.parse(textResult);
+    resultContainer.style.display = "block";
+    
+  } catch (error) {
+    console.error("Advanced Solver Error:", error);
+    resultEl.innerHTML = `<span style="color:var(--danger)"><strong>Error:</strong> ${error.message}</span>`;
+    resultContainer.style.display = "block";
+  } finally {
+    // Reset button
+    btnEl.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+      </svg>
+      Search & Solve
+    `;
+    btnEl.disabled = false;
+  }
+}
