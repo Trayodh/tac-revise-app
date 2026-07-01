@@ -848,9 +848,31 @@ function renderDronacharyaModalContent(modal, topicName, data, contextText) {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 10px;
       ">
-        <span style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono);">SOURCE INTEGRITY: TIER 1 OFFICIAL INTEL</span>
-        <button id="dronacharya-open-full-btn" class="btn-primary" style="padding: 6px 14px; font-size: 0.8rem; border-radius: 6px; font-weight: 600;">Open Full Topic Note</button>
+        <div style="display:flex; align-items:center; gap:10px; flex:1; min-width:0;">
+          <span style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono); white-space:nowrap;">SOURCE INTEGRITY: TIER 1 OFFICIAL INTEL</span>
+          <button id="dronacharya-tell-more-btn" style="
+            background: linear-gradient(135deg, rgba(168,85,247,0.15) 0%, rgba(59,130,246,0.15) 100%);
+            border: 1px solid rgba(168,85,247,0.4);
+            color: #c084fc;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+            font-family: var(--font-mono);
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+          " onmouseover="this.style.background='linear-gradient(135deg,rgba(168,85,247,0.3) 0%,rgba(59,130,246,0.3) 100%)';this.style.boxShadow='0 0 16px rgba(168,85,247,0.35)';" onmouseout="this.style.background='linear-gradient(135deg,rgba(168,85,247,0.15) 0%,rgba(59,130,246,0.15) 100%)';this.style.boxShadow='none';">
+            📖 Tell Me More
+          </button>
+        </div>
+        <button id="dronacharya-open-full-btn" class="btn-primary" style="padding: 6px 14px; font-size: 0.8rem; border-radius: 6px; font-weight: 600; white-space:nowrap;">Open Full Topic Note</button>
       </div>
     </div>
   `;
@@ -859,9 +881,31 @@ function renderDronacharyaModalContent(modal, topicName, data, contextText) {
   const tabs = modal.querySelectorAll('.dron-tab');
   const backBtn = modal.querySelector('#dronacharya-back-btn');
   const fullBtn = modal.querySelector('#dronacharya-open-full-btn');
+  const tellMoreBtn = modal.querySelector('#dronacharya-tell-more-btn');
 
   if (backBtn) {
     backBtn.onclick = popDoubtHistory;
+  }
+
+  // Handle "Tell Me More" — advance to next explanation level
+  const LEVEL_SEQUENCE = ['L1', 'L2', 'L3', 'L4', 'L5'];
+  const LEVEL_LABELS = { L1: 'L1: Beginner', L2: 'L2: School', L3: 'L3: Exam', L4: 'L4: University', L5: 'L5: Expert' };
+  if (tellMoreBtn) {
+    const currentIdx = LEVEL_SEQUENCE.indexOf(currentDoubtLevel);
+    const nextLevel = LEVEL_SEQUENCE[currentIdx + 1];
+    if (nextLevel) {
+      tellMoreBtn.title = `Deepen explanation to ${LEVEL_LABELS[nextLevel]}`;
+      tellMoreBtn.onclick = () => {
+        currentDoubtLevel = nextLevel;
+        showDronacharyaQuickDoubt(topicName, false, contextText);
+      };
+    } else {
+      // Already at max depth
+      tellMoreBtn.textContent = '✅ Max Depth Reached';
+      tellMoreBtn.disabled = true;
+      tellMoreBtn.style.opacity = '0.45';
+      tellMoreBtn.style.cursor = 'default';
+    }
   }
 
   // Handle Full Note Redirect
