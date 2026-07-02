@@ -71,6 +71,138 @@ const TOPIC_MAPS = {
       "src": "images/mensuration_geometry_formulas.png"
     }
   ],
+  "algebra-complex": [
+    {
+      "title": "Quadratic Equations & Complex Numbers",
+      "src": "images/algebra_quadratic_complex.png"
+    }
+  ],
+  "quadratic-eq": [
+    {
+      "title": "Quadratic Equations — Formula Reference",
+      "src": "images/algebra_quadratic_complex.png"
+    }
+  ],
+  "complex-numbers": [
+    {
+      "title": "Complex Numbers — Argand Diagram & De Moivre",
+      "src": "images/algebra_quadratic_complex.png"
+    }
+  ],
+  "straight-lines": [
+    {
+      "title": "Coordinate Geometry & Straight Lines",
+      "src": "images/coordinate_geometry.png"
+    }
+  ],
+  "statistics-prob": [
+    {
+      "title": "Statistics & Probability Reference",
+      "src": "images/statistics_probability.png"
+    }
+  ],
+  "central-tendency": [
+    {
+      "title": "Central Tendency — Mean, Median, Mode",
+      "src": "images/statistics_probability.png"
+    }
+  ],
+  "data-interpretation": [
+    {
+      "title": "Data Interpretation — Charts & Calculations",
+      "src": "images/statistics_probability.png"
+    }
+  ],
+  "calculus": [
+    {
+      "title": "Calculus — Limits, Derivatives & Integration",
+      "src": "images/calculus_limits_derivatives.png"
+    }
+  ],
+  "limits-continuity": [
+    {
+      "title": "Limits & Continuity Reference",
+      "src": "images/calculus_limits_derivatives.png"
+    }
+  ],
+  "differentiation": [
+    {
+      "title": "Differentiation — Rules & Applications",
+      "src": "images/calculus_limits_derivatives.png"
+    }
+  ],
+  "integration": [
+    {
+      "title": "Integration — Techniques & Applications",
+      "src": "images/calculus_limits_derivatives.png"
+    }
+  ],
+  "algebra-matrices": [
+    {
+      "title": "Matrices & Determinants",
+      "src": "images/algebra_quadratic_complex.png"
+    }
+  ],
+  "syl-matrices": [
+    {
+      "title": "Matrices & Determinants Reference",
+      "src": "images/algebra_quadratic_complex.png"
+    }
+  ],
+  "probability-stats": [
+    {
+      "title": "Probability & Statistics Chart",
+      "src": "images/statistics_probability.png"
+    }
+  ],
+  "syl-probability": [
+    {
+      "title": "Probability — Concepts & Formulas",
+      "src": "images/statistics_probability.png"
+    }
+  ],
+  "arithmetic": [
+    {
+      "title": "Arithmetic — Percentages, Profit & Loss",
+      "src": "images/arithmetic_percentages.png"
+    }
+  ],
+  "percentages-profit-loss": [
+    {
+      "title": "Percentages, Profit/Loss & Interest",
+      "src": "images/arithmetic_percentages.png"
+    }
+  ],
+  "ratios-averages": [
+    {
+      "title": "Ratios, Averages & Alligation",
+      "src": "images/arithmetic_percentages.png"
+    }
+  ],
+  "time-distance": [
+    {
+      "title": "Time, Speed, Distance & Work",
+      "src": "images/arithmetic_percentages.png"
+    }
+  ],
+  "quantitative-aptitude": [
+    {
+      "title": "Quantitative Aptitude Quick Reference",
+      "src": "images/arithmetic_percentages.png"
+    }
+  ],
+  "syl-numerical-speed": [
+    {
+      "title": "Number Speed & Accuracy Practice",
+      "src": "images/arithmetic_percentages.png"
+    }
+  ],
+  "syl-numerical-ratios": [
+    {
+      "title": "Ratios & Numerical Reasoning",
+      "src": "images/arithmetic_percentages.png"
+    }
+  ],
   "revolt-1857": [
     {
       "title": "1857 Revolt Centres & Outbreaks Map",
@@ -315,10 +447,14 @@ const TOPIC_MAPS = {
       "src": "images/world_ocean_currents_map.png"
     }
   ],
-  "industrics-geopolitics": [
+  "geography-pyq-trends-topic": [
     {
-      "title": "World Geopolitical Map",
-      "src": "images/world_climatic_zones_map.png"
+      "title": "River Systems Map",
+      "src": "images/india_rivers_map.png"
+    },
+    {
+      "title": "Mountain Ranges Map",
+      "src": "images/india_mountains_map.png"
     }
   ],
   "geography-pyq-trends": [
@@ -339,7 +475,7 @@ const TOPIC_MAPS = {
   ],
   "env-hotspots": [
     {
-      "title": "Biodiversity Hotspots Map",
+      "title": "Biodiversity Hotspots & National Parks",
       "src": "images/india_parks_map.png"
     }
   ],
@@ -353,6 +489,46 @@ const TOPIC_MAPS = {
     {
       "title": "Animal & Plant Kingdoms",
       "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "env-conservation": [
+    {
+      "title": "Environment Conservation — Laws & Treaties",
+      "src": "images/environment_laws_treaties.png"
+    },
+    {
+      "title": "National Parks Map",
+      "src": "images/india_parks_map.png"
+    }
+  ],
+  "climate-laws-energy": [
+    {
+      "title": "Environment — Laws, Treaties & Renewable Energy",
+      "src": "images/environment_laws_treaties.png"
+    }
+  ],
+  "env-treaties": [
+    {
+      "title": "International Environmental Treaties",
+      "src": "images/environment_laws_treaties.png"
+    }
+  ],
+  "env-laws": [
+    {
+      "title": "Indian Environmental Laws & Acts",
+      "src": "images/environment_laws_treaties.png"
+    }
+  ],
+  "env-renewable": [
+    {
+      "title": "Renewable Energy & Climate Change",
+      "src": "images/environment_laws_treaties.png"
+    }
+  ],
+  "env-pollution": [
+    {
+      "title": "Pollution Types & Environmental Impact",
+      "src": "images/environment_laws_treaties.png"
     }
   ],
   "physics-optics": [
@@ -457,6 +633,38 @@ const TOPIC_MAPS = {
       "src": "images/newtons_laws_mechanics_diagram.png"
     }
   ],
+  "physics-pyq-trends": [
+    {
+      "title": "Newton's Laws Reference",
+      "src": "images/newtons_laws_mechanics_diagram.png"
+    },
+    {
+      "title": "EM Spectrum",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-pyq-trends-topic": [
+    {
+      "title": "Physics PYQ Key Diagrams",
+      "src": "images/newtons_laws_mechanics_diagram.png"
+    },
+    {
+      "title": "Circuits Diagram",
+      "src": "images/physics_circuit_diagram.png"
+    }
+  ],
+  "syl-exercises": [
+    {
+      "title": "Physics Numerical Problems",
+      "src": "images/newtons_laws_mechanics_diagram.png"
+    }
+  ],
+  "syl-numerical": [
+    {
+      "title": "Physics Numericals Reference",
+      "src": "images/newtons_laws_mechanics_diagram.png"
+    }
+  ],
   "chemistry-substances": [
     {
       "title": "Atomic Structure & Periodic Table",
@@ -487,8 +695,8 @@ const TOPIC_MAPS = {
   ],
   "metals-alloys": [
     {
-      "title": "Periodic Table & Metal Properties",
-      "src": "images/atomic_structure_periodic_table.png"
+      "title": "Metals, Alloys & Reactivity Series",
+      "src": "images/chemistry_reactions_everyday.png"
     }
   ],
   "reactivity-series": [
@@ -513,6 +721,24 @@ const TOPIC_MAPS = {
     {
       "title": "Chemical Reactions & Environmental Impact",
       "src": "images/chemical_bonding_reactions.png"
+    }
+  ],
+  "chemistry-carbon-numericals": [
+    {
+      "title": "Chemistry Numericals & Carbon Compounds",
+      "src": "images/chemistry_reactions_everyday.png"
+    }
+  ],
+  "chemistry-numericals": [
+    {
+      "title": "Chemistry Reactions & Numericals",
+      "src": "images/chemistry_reactions_everyday.png"
+    }
+  ],
+  "chemistry-everyday-fertilisers": [
+    {
+      "title": "Chemistry in Daily Life — Fertilisers & Materials",
+      "src": "images/chemistry_reactions_everyday.png"
     }
   ],
   "biology-cell": [
@@ -753,6 +979,18 @@ const TOPIC_MAPS = {
       "src": "images/indian_constitution_structure.png"
     }
   ],
+  "positions-tenures": [
+    {
+      "title": "Positions, Tenures & Removal Process",
+      "src": "images/polity_elections_constitution.png"
+    }
+  ],
+  "polity-rpa": [
+    {
+      "title": "Representation of People Act & Elections",
+      "src": "images/polity_elections_constitution.png"
+    }
+  ],
   "economics-basics": [
     {
       "title": "GDP, Markets & Monetary Policy",
@@ -817,6 +1055,186 @@ const TOPIC_MAPS = {
     {
       "title": "Government Economic Schemes",
       "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "five-year-plans": [
+    {
+      "title": "India's Five Year Plans & NITI Aayog",
+      "src": "images/current_affairs_india.png"
+    }
+  ],
+  "govt-schemes": [
+    {
+      "title": "Government Schemes — Quick Reference",
+      "src": "images/current_affairs_india.png"
+    }
+  ],
+  "grammar-rules": [
+    {
+      "title": "English Grammar — Parts of Speech & Tenses",
+      "src": "images/english_grammar_chart.png"
+    }
+  ],
+  "parts-of-speech": [
+    {
+      "title": "8 Parts of Speech — Reference Card",
+      "src": "images/english_grammar_chart.png"
+    }
+  ],
+  "tenses-complete": [
+    {
+      "title": "Tense Chart — All 12 Tenses",
+      "src": "images/english_grammar_chart.png"
+    }
+  ],
+  "subject-verb-agreement": [
+    {
+      "title": "Subject-Verb Agreement Rules",
+      "src": "images/english_grammar_chart.png"
+    }
+  ],
+  "sentence-structure": [
+    {
+      "title": "Sentence Types & Structure",
+      "src": "images/english_sentence_skills.png"
+    }
+  ],
+  "voice-conversion": [
+    {
+      "title": "Active & Passive Voice Rules",
+      "src": "images/english_sentence_skills.png"
+    }
+  ],
+  "narration-speech": [
+    {
+      "title": "Direct & Indirect Speech Rules",
+      "src": "images/english_sentence_skills.png"
+    }
+  ],
+  "modifiers": [
+    {
+      "title": "Modifiers, Clauses & Phrases",
+      "src": "images/english_sentence_skills.png"
+    }
+  ],
+  "punctuation-basics": [
+    {
+      "title": "Punctuation & Grammar Rules",
+      "src": "images/english_grammar_chart.png"
+    }
+  ],
+  "transformation-sentences": [
+    {
+      "title": "Sentence Transformation Techniques",
+      "src": "images/english_sentence_skills.png"
+    }
+  ],
+  "vocabulary": [
+    {
+      "title": "Vocabulary — Synonyms, Antonyms & Idioms",
+      "src": "images/english_vocabulary_chart.png"
+    }
+  ],
+  "synonyms-antonyms-detailed": [
+    {
+      "title": "Synonyms & Antonyms Quick Reference",
+      "src": "images/english_vocabulary_chart.png"
+    }
+  ],
+  "one-word-substitution": [
+    {
+      "title": "One Word Substitution List",
+      "src": "images/english_vocabulary_chart.png"
+    }
+  ],
+  "idioms-phrases": [
+    {
+      "title": "Common Idioms & Phrases",
+      "src": "images/english_vocabulary_chart.png"
+    }
+  ],
+  "phrasal-verbs": [
+    {
+      "title": "Phrasal Verbs Reference",
+      "src": "images/english_vocabulary_chart.png"
+    }
+  ],
+  "reading-comprehension": [
+    {
+      "title": "Reading Comprehension Strategies",
+      "src": "images/english_grammar_chart.png"
+    }
+  ],
+  "exam-patterns": [
+    {
+      "title": "English Exam Pattern & Strategy",
+      "src": "images/english_grammar_chart.png"
+    }
+  ],
+  "error-detection": [
+    {
+      "title": "Error Detection — Grammar Rules",
+      "src": "images/english_grammar_chart.png"
+    }
+  ],
+  "sentence-improvement": [
+    {
+      "title": "Sentence Improvement Techniques",
+      "src": "images/english_sentence_skills.png"
+    }
+  ],
+  "ordering-rearrangement": [
+    {
+      "title": "Ordering & Rearrangement — Para Jumbles",
+      "src": "images/english_sentence_skills.png"
+    }
+  ],
+  "fill-blanks-cloze": [
+    {
+      "title": "Fill in the Blanks — Cloze Test Strategies",
+      "src": "images/english_vocabulary_chart.png"
+    }
+  ],
+  "defence-structures": [
+    {
+      "title": "Defence Forces Structure",
+      "src": "images/defence_organisations_weapons.png"
+    }
+  ],
+  "rank-equivalence": [
+    {
+      "title": "Defence Ranks Equivalence Chart",
+      "src": "images/defence_organisations_weapons.png"
+    }
+  ],
+  "commands": [
+    {
+      "title": "Military Commands & Structures",
+      "src": "images/defence_organisations_weapons.png"
+    }
+  ],
+  "defence-organisations-weapons": [
+    {
+      "title": "Defence Organisations, Missiles & Exercises",
+      "src": "images/defence_organisations_weapons.png"
+    }
+  ],
+  "tactical-defence-gk": [
+    {
+      "title": "Defence GK — Organisations & Exercises",
+      "src": "images/defence_organisations_weapons.png"
+    }
+  ],
+  "bilateral-exercises": [
+    {
+      "title": "India's Bilateral Military Exercises",
+      "src": "images/defence_organisations_weapons.png"
+    }
+  ],
+  "missiles-systems": [
+    {
+      "title": "Indian Missiles & Weapons Systems",
+      "src": "images/defence_organisations_weapons.png"
     }
   ],
   "syl-afcat-spatial": [
@@ -897,18 +1315,210 @@ const TOPIC_MAPS = {
       "src": "images/afcat_embedded_figures.png"
     }
   ],
-  "defence-structures": [
+  "reasoning-oir": [
     {
-      "title": "Defence Forces Structure",
-      "src": "images/indian_constitution_structure.png"
+      "title": "Verbal & Non-Verbal Reasoning",
+      "src": "images/reasoning_verbal_nonverbal.png"
     }
   ],
-  "rank-equivalence": [
+  "syl-verbal-reasoning": [
     {
-      "title": "Defence Ranks Equivalence Chart",
-      "src": "images/indian_constitution_structure.png"
+      "title": "Verbal Reasoning — Analogy, Series & Coding",
+      "src": "images/reasoning_verbal_nonverbal.png"
+    }
+  ],
+  "afcat-verbal-reasoning": [
+    {
+      "title": "Verbal Reasoning Reference Chart",
+      "src": "images/reasoning_verbal_nonverbal.png"
+    }
+  ],
+  "afcat-r-analogy": [
+    {
+      "title": "Analogy Types — Word, Number & Letter",
+      "src": "images/reasoning_verbal_nonverbal.png"
+    }
+  ],
+  "afcat-r-classification": [
+    {
+      "title": "Classification & Odd One Out",
+      "src": "images/reasoning_verbal_nonverbal.png"
+    }
+  ],
+  "afcat-r-series": [
+    {
+      "title": "Number & Letter Series Patterns",
+      "src": "images/reasoning_verbal_nonverbal.png"
+    }
+  ],
+  "afcat-r-coding": [
+    {
+      "title": "Coding-Decoding Methods",
+      "src": "images/reasoning_verbal_nonverbal.png"
+    }
+  ],
+  "afcat-r-directions": [
+    {
+      "title": "Direction Sense & Blood Relations",
+      "src": "images/reasoning_verbal_nonverbal.png"
+    }
+  ],
+  "afcat-r-clock-calendar": [
+    {
+      "title": "Clock & Calendar Problems",
+      "src": "images/reasoning_verbal_nonverbal.png"
+    }
+  ],
+  "afcat-r-syllogism": [
+    {
+      "title": "Syllogism & Logical Deduction",
+      "src": "images/reasoning_verbal_nonverbal.png"
+    }
+  ],
+  "afcat-r-conclusions": [
+    {
+      "title": "Conclusions & Inferences",
+      "src": "images/reasoning_verbal_nonverbal.png"
+    }
+  ],
+  "afcat-r-assumptions": [
+    {
+      "title": "Assumptions & Course of Action",
+      "src": "images/reasoning_verbal_nonverbal.png"
+    }
+  ],
+  "schemes-policies": [
+    {
+      "title": "Government Schemes & Policies",
+      "src": "images/current_affairs_india.png"
+    }
+  ],
+  "ca-schemes": [
+    {
+      "title": "Current Affairs — Govt Schemes 2024-25",
+      "src": "images/current_affairs_india.png"
+    }
+  ],
+  "ca-policies": [
+    {
+      "title": "Key Government Policies 2024-25",
+      "src": "images/current_affairs_india.png"
+    }
+  ],
+  "ca-summits": [
+    {
+      "title": "International Summits & Meetings",
+      "src": "images/current_affairs_world.png"
+    }
+  ],
+  "reports-awards-judgments": [
+    {
+      "title": "Reports, Awards & Key Judgments",
+      "src": "images/current_affairs_india.png"
+    }
+  ],
+  "ca-reports": [
+    {
+      "title": "Important Reports & Indices 2024-25",
+      "src": "images/current_affairs_india.png"
+    }
+  ],
+  "ca-judgments": [
+    {
+      "title": "Supreme Court Landmark Judgments",
+      "src": "images/current_affairs_india.png"
+    }
+  ],
+  "ca-awards": [
+    {
+      "title": "Awards & Honours 2024-25",
+      "src": "images/current_affairs_india.png"
+    }
+  ],
+  "ca-economic-measures": [
+    {
+      "title": "Economic Policy Measures 2024-25",
+      "src": "images/economics_market_gdp_diagram.png"
+    }
+  ],
+  "ca-science-tech-space": [
+    {
+      "title": "Space, Technology & Defence Acquisitions",
+      "src": "images/space_technology_defence.png"
+    }
+  ],
+  "ca-upsc-master-framework": [
+    {
+      "title": "Current Affairs Master Framework",
+      "src": "images/current_affairs_india.png"
+    }
+  ],
+  "global-events-defence": [
+    {
+      "title": "Global Affairs & Geopolitics",
+      "src": "images/current_affairs_world.png"
+    }
+  ],
+  "ca-geopolitical-flashpoints": [
+    {
+      "title": "Geopolitical Flashpoints & Conflicts",
+      "src": "images/current_affairs_world.png"
+    }
+  ],
+  "ca-defence-cooperation": [
+    {
+      "title": "India's Defence Cooperation",
+      "src": "images/defence_organisations_weapons.png"
+    }
+  ],
+  "ca-red-sea-crisis": [
+    {
+      "title": "Red Sea Crisis & Global Trade",
+      "src": "images/current_affairs_world.png"
+    }
+  ],
+  "ca-quad-indopacific": [
+    {
+      "title": "QUAD & Indo-Pacific Strategy",
+      "src": "images/current_affairs_world.png"
+    }
+  ],
+  "ca-defense-acquisitions": [
+    {
+      "title": "Defence Acquisitions & Technology",
+      "src": "images/space_technology_defence.png"
+    }
+  ],
+  "ca-icet-drones": [
+    {
+      "title": "iCET, Drones & Emerging Technology",
+      "src": "images/space_technology_defence.png"
+    }
+  ],
+  "ca-spain-c295": [
+    {
+      "title": "C-295 Aircraft & Defence Deals",
+      "src": "images/defence_organisations_weapons.png"
+    }
+  ],
+  "ca-space-nuclear": [
+    {
+      "title": "Space Missions & Nuclear Technology",
+      "src": "images/space_technology_defence.png"
+    }
+  ],
+  "ca-relations": [
+    {
+      "title": "India's International Relations",
+      "src": "images/current_affairs_world.png"
     }
   ]
+  "industrics-geopolitics": [
+    {
+      "title": "World Geopolitical Map",
+      "src": "images/current_affairs_world.png"
+    }
+  ],
 };
 
 
