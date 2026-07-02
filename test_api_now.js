@@ -5,11 +5,13 @@ async function testApi() {
   console.log("Testing API endpoint...");
   const token = process.env.GEMINI_API_KEY;
   try {
-    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${token}`, {
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${token}`;
+    
+    const headers = { "Content-Type": "application/json" };
+
+    const res = await fetch(url, {
       method: "POST",
-      headers: { 
-        "Content-Type": "application/json"
-      },
+      headers: headers,
       body: JSON.stringify({
         contents: [{ parts: [{ text: "Hello" }] }]
       })
