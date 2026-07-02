@@ -155,10 +155,37 @@ const NOTES_DATABASE = {
                 <li>D < 0: Complex conjugate roots.</li>
               </ul>
             `,
-            formulas: `
-              <li>**Sum of roots:** alpha + eta = -b/a</li>
-              <li>**Product of roots:** alphaeta = c/a</li>
-            `
+            formulas: `# Standard Form
+ax^2 + bx + c = 0 where a ≠ 0
+# Roots (Sridharacharya Formula)
+x = [-b ± √(b² - 4ac)] / 2a
+# Discriminant D = b² - 4ac
+D > 0 : Two real, distinct roots
+D = 0 : Two real, equal (repeated) roots
+D < 0 : Two complex conjugate roots
+# Sum & Product of Roots (α, β)
+Sum α + β = -b/a
+Product αβ = c/a
+Equation from roots: x² - (α+β)x + αβ = 0
+# Vertex of Parabola
+x-coordinate of vertex = -b / 2a
+Min value (a > 0) = c - b²/4a = -D/4a`
+ax² + bx + c = 0 (a ≠ 0)
+# Roots & Discriminant
+Roots: x = [-b ± √(b² - 4ac)] / 2a
+Discriminant (Δ) = b² - 4ac
+If Δ > 0: Real & distinct roots
+If Δ = 0: Real & equal roots
+If Δ < 0: Complex conjugate roots
+# Sum & Product of Roots
+If roots are α, β:
+Sum (α + β) = -b/a
+Product (αβ) = c/a
+Equation from roots: x² - (α+β)x + αβ = 0
+# Max/Min Value
+Occurs at x = -b/2a
+Min value (if a > 0) = -Δ/4a
+Max value (if a < 0) = -Δ/4a`
           },
           {
             id: "complex-numbers",
@@ -171,9 +198,37 @@ const NOTES_DATABASE = {
                 <li>**De Moivre's Theorem:** (cos 	heta + isin 	heta)n = cos n	heta + isin n	heta</li>
               </ul>
             `,
-            formulas: `
-              <li>**Cube roots of unity:** 1, omega, omega2 where 1 + omega + omega2 = 0 and omega3 = 1</li>
-            `
+            formulas: `# Algebraic Form
+z = a + ib, where i² = -1, i³ = -i, i⁴ = 1
+# Modulus & Argument
+|z| = √(a² + b²)
+arg(z) = θ = tan⁻¹(b/a)
+# Polar & Euler Form
+z = r(cosθ + i sinθ)  [Polar]
+z = r·e^(iθ)  [Euler]
+# Conjugate
+Conjugate of z = a+ib is z̄ = a - ib
+z · z̄ = |z|²
+# De Moivre Theorem
+(cosθ + i sinθ)^n = cos(nθ) + i sin(nθ)
+# Cube Roots of Unity
+1, ω, ω²  where ω = (-1+i√3)/2
+1 + ω + ω² = 0   |   ω³ = 1`
+Algebraic: z = a + ib (where i² = -1)
+Polar: z = r(cosθ + isinθ) = r cisθ
+Euler: z = re^(iθ)
+# Modulus & Argument
+Modulus |z| = √(a² + b²)
+Argument θ = tan⁻¹(b/a)
+# Conjugate
+If z = a + ib, then z̄ = a - ib
+z·z̄ = |z|²
+# De Moivre's Theorem
+(cosθ + isinθ)ⁿ = cos(nθ) + isin(nθ)
+# Cube Roots of Unity
+1, ω, ω² where ω = (-1 + i√3)/2
+1 + ω + ω² = 0
+ω³ = 1`
           }
         ]
       },
@@ -192,9 +247,35 @@ const NOTES_DATABASE = {
                 <li>**Normal Form:** xcosalpha + ysinalpha = p</li>
               </ul>
             `,
-            formulas: `
-              <li>**Distance from point to line:** d = |Ax1 + By1 + C|/sqrtA2 + B2</li>
-            `
+            formulas: `# Forms of Equation of Line
+Slope-Intercept: y = mx + c
+Point-Slope: y - y1 = m(x - x1)
+Two-Point: (y-y1)/(y2-y1) = (x-x1)/(x2-x1)
+Intercept Form: x/a + y/b = 1
+# Slope
+m = (y2 - y1)/(x2 - x1) = tan θ
+# Angle Between Two Lines
+tan θ = |m1 - m2| / |1 + m1·m2|
+Parallel: m1 = m2
+Perpendicular: m1 · m2 = -1
+# Distance Formulas
+Distance from point (x1,y1) to line ax+by+c=0:
+d = |ax1 + by1 + c| / √(a² + b²)
+Distance between parallel lines ax+by+c1=0 and ax+by+c2=0:
+d = |c1 - c2| / √(a² + b²)`
+Slope-Intercept: y = mx + c
+Point-Slope: y - y₁ = m(x - x₁)
+Two-Point: y - y₁ = [(y₂-y₁)/(x₂-x₁)](x - x₁)
+Intercept: x/a + y/b = 1
+Normal: x·cosα + y·sinα = p
+# Angles & Distance
+Angle between lines: tanθ = |(m₁ - m₂)/(1 + m₁m₂)|
+Distance from (x₁, y₁) to ax+by+c=0 is d = |ax₁+by₁+c|/√(a²+b²)
+Distance between parallel lines: d = |c₁ - c₂|/√(a²+b²)
+# Conditions
+Parallel lines: m₁ = m₂
+Perpendicular lines: m₁m₂ = -1
+Concurrent lines: Det of coefficients = 0`
           }
         ]
       },
@@ -213,20 +294,218 @@ const NOTES_DATABASE = {
                 <li>**Empirical Relation:** Mode = 3*Median - 2*Mean</li>
               </ul>
             `,
-            formulas: `
-              <li>**Variance:** sigma2 = racsum (xi - mu)2N</li>
-              <li>**Standard Deviation:** sigma = sqrtVariance</li>
-            `
+            formulas: `# Mean (Arithmetic Mean)
+AM = Sum of observations / n
+For grouped data: AM = Σ(f·x) / Σf
+Combined Mean = (n1·x̄1 + n2·x̄2) / (n1 + n2)
+# Median
+Middle value after sorting.
+For grouped: Median = L + [(N/2 - CF)/f] × h
+# Mode
+Most frequently occurring value.
+For grouped: Mode = L + [(f1 - f0)/(2f1 - f0 - f2)] × h
+# Empirical Relation
+Mode = 3 × Median - 2 × Mean
+# Other Means
+GM = (x1 × x2 × ... × xn)^(1/n)
+HM = n / (1/x1 + 1/x2 + ... + 1/xn)
+Inequality: AM ≥ GM ≥ HM
+# Dispersion
+Range = Max - Min
+Variance = Σ(x - x̄)² / n
+Standard Deviation SD = √Variance`
+Arithmetic Mean (AM) = Σx/n
+For grouped data: AM = Σfx / Σf
+Combined Mean = (n₁x̄₁ + n₂x̄₂) / (n₁ + n₂)
+# Median
+Middle value when sorted.
+For grouped data: Median = L + [(N/2 - CF)/f] × c
+# Mode
+Most frequent value.
+For grouped data: Mode = L + [(f₁ - f₀)/(2f₁ - f₀ - f₂)] × c
+# Empirical Relation
+Mode = 3(Median) - 2(Mean)
+# Geometric & Harmonic Mean
+GM = (x₁·x₂...xₙ)^(1/n)
+HM = n / (1/x₁ + 1/x₂ + ... + 1/xₙ)
+AM ≥ GM ≥ HM`
           },
           {
             id: "data-interpretation",
             title: "Data Interpretation: Tables, Bar & Pie Charts",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "DI Formulas",
+            formulas: `# Bar Charts & Histograms
+Used to compare discrete quantities or continuous ranges.
+# Pie Charts
+Total Angle = 360° | 1% = 3.6°
+Value = (Central Angle / 360°) × Total Value
+# Line Graphs
+Used to track changes over periods of time.
+Slope indicates rate of change.
+# Tables & Missing Data
+Focus on row/column totals. 
+Use given percentages/ratios to fill in blanks.
+# Core Calculations
+Percentage Increase = (Final - Initial) / Initial × 100
+Average = Sum / Total Count
+Ratio A:B = A/B`
+Used to compare discrete quantities or continuous ranges.
+# Pie Charts
+Total Angle = 360° | 1% = 3.6°
+Value = (Central Angle / 360°) × Total Value
+# Line Graphs
+Used to track changes over periods of time.
+Slope indicates rate of change.
+# Tables & Missing Data
+Focus on row/column totals. 
+Use given percentages/ratios to fill in blanks.
+# Core Calculations
+Percentage Increase = (Final - Initial) / Initial × 100
+Average = Sum / Total Count
+Ratio A:B = A/B`,
             mindmap: {
-              root: "DI",
-              branches: [
-                {title: "Charts", subnodes: ["Bar Charts", "Pie Charts", "Line Graphs"]},
+                    "root": "Data Interpretation",
+                    "branches": [
+                            {
+                                    "title": "Chart Types",
+                                    "subnodes": [
+                                            "Bar Chart",
+                                            "Pie Chart (1%=3.6°)",
+                                            "Line Graph",
+                                            "Mixed DI"
+                                    ]
+                            },
+                            {
+                                    "title": "Calculations",
+                                    "subnodes": [
+                                            "Averages",
+                                            "Percentage Change",
+                                            "Ratio & Proportions"
+                                    ]
+                            },
+                            {
+                                    "title": "Tables",
+                                    "subnodes": [
+                                            "Row/Column totals",
+                                            "Missing data",
+                                            "Two-way tables"
+                                    ]
+                            },
+                            {
+                                    "title": "Speed Tricks",
+                                    "subnodes": [
+                                            "Approximate",
+                                            "Check options first",
+                                            "Skip slow steps"
+                                    ]
+                            }
+                    ]
+            },
+                                  {
+                                            "title": "Slope & Angles",
+                                            "subnodes": [
+                                                      "Slope m = tanθ = Δy/Δx",
+                                                      "Angle tanθ = |(m₁-m₂)/(1+m₁m₂)|",
+                                                      "Parallel: m₁=m₂, Perp: m₁m₂=-1"
+                                            ]
+                                  },
+                                  {
+                                            "title": "Distances",
+                                            "subnodes": [
+                                                      "Point to Line ⊥ distance",
+                                                      "Distance between parallel lines"
+                                            ]
+                                  },
+                                  {
+                                            "title": "Triangle Centers",
+                                            "subnodes": [
+                                                      "Centroid (Medians)",
+                                                      "Orthocenter (Altitudes)",
+                                                      "Circumcenter (Perp. Bisectors)",
+                                                      "Incenter (Angle Bisectors)"
+                                            ]
+                                  }
+                        ]
+              },
+                                  {
+                                            "title": "Properties",
+                                            "subnodes": [
+                                                      "Modulus |z| = √(a²+b²)",
+                                                      "Argument θ = tan⁻¹(b/a)",
+                                                      "Conjugate z̄ = a - ib",
+                                                      "z·z̄ = |z|²"
+                                            ]
+                                  },
+                                  {
+                                            "title": "Theorems",
+                                            "subnodes": [
+                                                      "De Moivre's Theorem",
+                                                      "Triangle Inequality: |z₁+z₂| ≤ |z₁|+|z₂|"
+                                            ]
+                                  },
+                                  {
+                                            "title": "Roots of Unity",
+                                            "subnodes": [
+                                                      "1, ω, ω²",
+                                                      "Sum = 0: 1 + ω + ω² = 0",
+                                                      "Product = 1: ω³ = 1"
+                                            ]
+                                  }
+                        ]
+              },
+                                  {
+                                            "title": "Calculations",
+                                            "subnodes": [
+                                                      "Averages",
+                                                      "Ratios & Proportions",
+                                                      "Percentage Changes"
+                                            ]
+                                  },
+                                  {
+                                            "title": "Tables",
+                                            "subnodes": [
+                                                      "Cross-checking totals",
+                                                      "Finding missing data",
+                                                      "Mixed DI (Table + Pie)"
+                                            ]
+                                  },
+                                  {
+                                            "title": "Strategies",
+                                            "subnodes": [
+                                                      "Approximation for speed",
+                                                      "Read axes & units carefully",
+                                                      "Skip lengthy calculations"
+                                            ]
+                                  }
+                        ]
+              },
+                                  {
+                                            "title": "Lines",
+                                            "subnodes": [
+                                                      "Slope m = tanθ",
+                                                      "Point-Slope Form",
+                                                      "Parallel: m₁=m₂",
+                                                      "Perpendicular: m₁m₂=-1"
+                                            ]
+                                  },
+                                  {
+                                            "title": "Triangle Area",
+                                            "subnodes": [
+                                                      "½|determinant| formula",
+                                                      "Collinear if area=0",
+                                                      "Centroid = avg of vertices"
+                                            ]
+                                  },
+                                  {
+                                            "title": "Circles",
+                                            "subnodes": [
+                                                      "(x-h)²+(y-k)²=r²",
+                                                      "General form → centre",
+                                                      "Tangent ⊥ radius at contact"
+                                            ]
+                                  }
+                        ]
+              },
                 {title: "Calculations", subnodes: ["Percentage change", "Averages", "Ratios"]}
               ]
             }
@@ -330,14 +609,63 @@ const NOTES_DATABASE = {
                 <li>d/dx(cosec⁻¹ x) = -1 / (|x|√(x² - 1))</li>
               </ul>
             `,
-            formulas: `(uv)' = u'v + uv'\n(u/v)' = (u'v - uv')/v²\nd/dx(aˣ) = aˣ·lna\nd/dx(sin⁻¹x) = 1/√(1-x²)\nd/dx(tan⁻¹x) = 1/(1+x²)`,
+            formulas: `# Basic Differentiation Rules
+d/dx(c) = 0 | d/dx(xⁿ) = nxⁿ⁻¹ (Power Rule)
+d/dx(eˣ) = eˣ | d/dx(aˣ) = aˣ·ln a
+d/dx(ln x) = 1/x | d/dx(log_a x) = 1/(x·ln a)
+# Product & Quotient Rules
+Product: d/dx(uv) = u'v + uv'
+Quotient: d/dx(u/v) = (u'v - uv') / v²
+Chain Rule: d/dx[f(g(x))] = f'(g(x))·g'(x)
+# Trig Derivatives
+d/dx(sin x) = cos x | d/dx(cos x) = -sin x
+d/dx(tan x) = sec²x | d/dx(cot x) = -cosec²x
+d/dx(sec x) = sec x·tan x | d/dx(cosec x) = -cosec x·cot x
+# Inverse Trig Derivatives
+d/dx(sin⁻¹x) = 1/√(1-x²) | d/dx(cos⁻¹x) = -1/√(1-x²)
+d/dx(tan⁻¹x) = 1/(1+x²) | d/dx(cot⁻¹x) = -1/(1+x²)
+# Applications
+Maxima: f'(x)=0, f''(x)<0 | Minima: f'(x)=0, f''(x)>0
+Increasing: f'(x)>0 | Decreasing: f'(x)<0` = u'v + uv'\n(u/v)' = (u'v - uv')/v²\nd/dx(aˣ) = aˣ·lna\nd/dx(sin⁻¹x) = 1/√(1-x²)\nd/dx(tan⁻¹x) = 1/(1+x²)`,
             mindmap: {
-              root: "Differentiation",
-              branches: [
-                {
-                  title: "Methods",
-                  subnodes: ["Product Rule (uv)", "Quotient Rule (u/v)", "Chain Rule f(g(x))"]
-                },
+                    "root": "Differentiation",
+                    "branches": [
+                            {
+                                    "title": "Basic Rules",
+                                    "subnodes": [
+                                            "Power: nx^(n-1)",
+                                            "d(e^x)/dx = e^x",
+                                            "d(ln x)/dx = 1/x",
+                                            "Constant = 0"
+                                    ]
+                            },
+                            {
+                                    "title": "Trig Derivatives",
+                                    "subnodes": [
+                                            "d(sinx)=cosx",
+                                            "d(cosx)=-sinx",
+                                            "d(tanx)=sec²x",
+                                            "d(secx)=secx·tanx"
+                                    ]
+                            },
+                            {
+                                    "title": "Rules",
+                                    "subnodes": [
+                                            "Product Rule: u'v+uv'",
+                                            "Quotient Rule: (u'v-uv')/v²",
+                                            "Chain Rule: f'(g)·g'"
+                                    ]
+                            },
+                            {
+                                    "title": "Applications",
+                                    "subnodes": [
+                                            "Maxima: f'=0, f''<0",
+                                            "Minima: f'=0, f''>0",
+                                            "Increasing: f'>0"
+                                    ]
+                            }
+                    ]
+            },
                 {
                   title: "Trigonometric",
                   subnodes: ["sin x → cos x", "cos x → -sin x", "tan x → sec² x"]
@@ -394,14 +722,60 @@ const NOTES_DATABASE = {
                 <li>∫[-a to a] f(x) dx = 2∫[0 to a] f(x) dx (if f(x) is even); = 0 (if f(x) is odd).</li>
               </ul>
             `,
-            formulas: `∫ u·v dx = u∫v dx - ∫(u'·∫v dx) dx\nKing's Property: ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx\nEven/Odd Property: ∫[-a to a] f(x)dx = 0 if f(-x)=-f(x)`,
+            formulas: `# Standard Integrals
+∫xⁿ dx = xⁿ⁺¹/(n+1) + C (n ≠ -1) | ∫(1/x) dx = ln|x| + C
+∫eˣ dx = eˣ + C | ∫aˣ dx = aˣ/ln a + C
+∫sin x dx = -cos x + C | ∫cos x dx = sin x + C
+∫tan x dx = -ln|cos x| + C | ∫sec²x dx = tan x + C
+∫1/√(a²-x²) dx = sin⁻¹(x/a) + C
+∫1/(a²+x²) dx = (1/a)tan⁻¹(x/a) + C
+# Integration Techniques
+Substitution: u = g(x), du = g'(x)dx
+By Parts: ∫u dv = uv - ∫v du [ILATE: Inverse, Log, Algebra, Trig, Exp]
+Partial Fractions: For rational functions N(x)/D(x)
+# Definite Integral Properties
+∫ₐᵇ f(x)dx = ∫ₐᵇ f(a+b-x)dx
+∫₀ᵃ f(x)dx = ∫₀ᵃ f(a-x)dx
+∫₋ₐᵃ f(x)dx = 2∫₀ᵃ f(x)dx [if f(x) is even] or 0 [if f(x) is odd]
+# Applications
+Area under curve = |∫ₐᵇ f(x) dx|`·∫v dx) dx\nKing's Property: ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx\nEven/Odd Property: ∫[-a to a] f(x)dx = 0 if f(-x)=-f(x)`,
             mindmap: {
-              root: "Integration",
-              branches: [
-                {
-                  title: "Indefinite",
-                  subnodes: ["Power rule & ln x", "Trig integrations", "e^x and a^x rules"]
-                },
+                    "root": "Integration",
+                    "branches": [
+                            {
+                                    "title": "Standard Forms",
+                                    "subnodes": [
+                                            "∫x^n = x^(n+1)/(n+1)",
+                                            "∫e^x = e^x+C",
+                                            "∫sinx = -cosx+C",
+                                            "∫1/x = ln|x|+C"
+                                    ]
+                            },
+                            {
+                                    "title": "Techniques",
+                                    "subnodes": [
+                                            "Substitution (u-sub)",
+                                            "By Parts (ILATE)",
+                                            "Partial Fractions"
+                                    ]
+                            },
+                            {
+                                    "title": "Definite Integral",
+                                    "subnodes": [
+                                            "∫ₐᵇ f(a+b-x) property",
+                                            "Even: 2×half, Odd: 0",
+                                            "Area = |∫f(x)dx|"
+                                    ]
+                            },
+                            {
+                                    "title": "Inverse Trig",
+                                    "subnodes": [
+                                            "∫1/√(a²-x²) → sin⁻¹",
+                                            "∫1/(a²+x²) → tan⁻¹"
+                                    ]
+                            }
+                    ]
+            },
                 {
                   title: "Substitution",
                   subnodes: ["Trig substitutions", "Algebraic factors", "f'(x)/f(x) → ln|f(x)|"]
@@ -553,11 +927,56 @@ const NOTES_DATABASE = {
             id: "lines-angles-triangles",
             title: "Lines, Angles & Triangles",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Geometry Theorems",
+            formulas: `# Triangle Properties
+Angle sum = 180° | Exterior angle = sum of remote interior angles
+Pythagoras: a² + b² = c² (right triangle)
+Area = ½ × base × height = √[s(s-a)(s-b)(s-c)] [Heron's]
+Sine Rule: a/sinA = b/sinB = c/sinC = 2R
+Cosine Rule: a² = b² + c² - 2bc·cosA
+# Congruence (CPCT)
+SSS, SAS, ASA, AAS, RHS
+# Similarity
+AA, SAS, SSS similarity → ratio of areas = (ratio of sides)²
+# Parallel Lines
+Alternate angles equal | Co-interior angles supplementary
+Basic Proportionality (Thales): DE∥BC → AD/DB = AE/EC`,
             mindmap: {
-              root: "Geometry",
-              branches: [
-                {title: "Lines & Angles", subnodes: ["Parallel lines", "Corresponding angles"]},
+                    "root": "Lines, Angles & Triangles",
+                    "branches": [
+                            {
+                                    "title": "Angles",
+                                    "subnodes": [
+                                            "Supplementary = 180°",
+                                            "Complementary = 90°",
+                                            "Vertically opposite = equal"
+                                    ]
+                            },
+                            {
+                                    "title": "Parallel Lines",
+                                    "subnodes": [
+                                            "Alternate angles equal",
+                                            "Co-interior = 180°",
+                                            "Corresponding equal"
+                                    ]
+                            },
+                            {
+                                    "title": "Triangles",
+                                    "subnodes": [
+                                            "Angle sum = 180°",
+                                            "Pythagoras: a²+b²=c²",
+                                            "Exterior angle theorem"
+                                    ]
+                            },
+                            {
+                                    "title": "Congruence",
+                                    "subnodes": [
+                                            "SSS, SAS, ASA, AAS",
+                                            "RHS for right triangles",
+                                            "CPCT after congruence"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Triangles", subnodes: ["Congruency", "Similarity", "Centres"]}
               ]
             }
@@ -566,11 +985,58 @@ const NOTES_DATABASE = {
             id: "circles-polygons",
             title: "Circles & Polygons",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Circle Theorems",
+            formulas: `# Circle Theorems
+Angle at centre = 2 × angle at circumference (same arc)
+Angles in same segment are equal
+Angle in semicircle = 90° (Thales)
+Opposite angles of cyclic quadrilateral = 180°
+Tangent ⊥ radius at point of contact
+Two tangents from external point are equal in length
+# Arc & Sector
+Arc length = (θ/360) × 2πr
+Sector area = (θ/360) × πr²
+# Polygons
+Sum of interior angles of n-gon = (n-2) × 180°
+Each interior angle (regular) = (n-2)×180°/n
+Each exterior angle (regular) = 360°/n
+Sum of exterior angles = always 360°`,
             mindmap: {
-              root: "Circles & Polygons",
-              branches: [
-                {title: "Circles", subnodes: ["Tangents", "Chords", "Angles"]},
+                    "root": "Circles & Polygons",
+                    "branches": [
+                            {
+                                    "title": "Circle Theorems",
+                                    "subnodes": [
+                                            "Angle at centre = 2× circumference",
+                                            "Same segment angles equal",
+                                            "Semicircle = 90°"
+                                    ]
+                            },
+                            {
+                                    "title": "Tangent Properties",
+                                    "subnodes": [
+                                            "Tangent ⊥ radius",
+                                            "Equal tangents from ext. point",
+                                            "Alternate segment theorem"
+                                    ]
+                            },
+                            {
+                                    "title": "Arc & Sector",
+                                    "subnodes": [
+                                            "Arc = θ/360 × 2πr",
+                                            "Sector area = θ/360 × πr²",
+                                            "Segment = Sector - Triangle"
+                                    ]
+                            },
+                            {
+                                    "title": "Polygons",
+                                    "subnodes": [
+                                            "Int. angle sum = (n-2)×180°",
+                                            "Ext. angle sum = 360°",
+                                            "Regular polygon formulae"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Polygons", subnodes: ["Interior angles", "Diagonals"]}
               ]
             }
@@ -585,11 +1051,61 @@ const NOTES_DATABASE = {
             id: "area-perimeter",
             title: "2D Figures: Area & Perimeter",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "2D Mensuration Formulas",
+            formulas: `# 2D Shapes: Area
+Triangle = ½bh | Equilateral = (√3/4)a²
+Rectangle = l×b | Square = a²
+Circle = πr² | Semicircle = πr²/2
+Trapezoid = ½(a+b)h | Parallelogram = base × height
+Rhombus = ½d₁d₂
+# 2D Shapes: Perimeter
+Circle (circumference) = 2πr
+Rectangle = 2(l+b) | Square = 4a
+# 3D Shapes: Volume
+Cube = a³ | Cuboid = l×b×h
+Sphere = 4/3·πr³ | Hemisphere = 2/3·πr³
+Cylinder = πr²h | Cone = 1/3·πr²h
+# 3D Shapes: Surface Area (Total)
+Cube = 6a² | Cuboid = 2(lb+bh+hl)
+Sphere = 4πr² | Cylinder = 2πr(r+h)
+Cone = πr(r+l) where l = slant height = √(r²+h²)`,
             mindmap: {
-              root: "2D Mensuration",
-              branches: [
-                {title: "Triangles", subnodes: ["Heron's Formula", "Right-angled"]},
+                    "root": "Area & Perimeter",
+                    "branches": [
+                            {
+                                    "title": "Quadrilaterals",
+                                    "subnodes": [
+                                            "Rectangle: A=l×b, P=2(l+b)",
+                                            "Square: A=a², P=4a",
+                                            "Parallelogram: A=b×h",
+                                            "Rhombus: A=½d₁d₂"
+                                    ]
+                            },
+                            {
+                                    "title": "Triangles",
+                                    "subnodes": [
+                                            "A=½×b×h",
+                                            "Equilateral: A=√3/4×a²",
+                                            "Heron: A=√[s(s-a)(s-b)(s-c)]"
+                                    ]
+                            },
+                            {
+                                    "title": "Circles",
+                                    "subnodes": [
+                                            "Area = πr²",
+                                            "Circumference = 2πr",
+                                            "Semicircle area = πr²/2",
+                                            "Sector area = θ/360×πr²"
+                                    ]
+                            },
+                            {
+                                    "title": "Trapezoid",
+                                    "subnodes": [
+                                            "Area = ½(a+b)×h",
+                                            "Midsegment = ½(sum of parallel sides)"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Quadrilaterals", subnodes: ["Rhombus", "Trapezium", "Parallelogram"]},
                 {title: "Circles", subnodes: ["Area", "Perimeter", "Sector"]}
               ]
@@ -599,11 +1115,56 @@ const NOTES_DATABASE = {
             id: "surface-area-volume",
             title: "3D Solids: Surface Area & Volume",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "3D Mensuration Formulas",
+            formulas: `# Volume Formulas
+Cube = a³ | Cuboid = l × b × h
+Sphere = 4/3 × π × r³ | Hemisphere = 2/3 × π × r³
+Right Circular Cylinder = π × r² × h
+Right Circular Cone = 1/3 × π × r² × h
+Frustum of Cone = 1/3 × π × h × (R² + Rr + r²)
+# Total Surface Area
+Cube = 6a² | Cuboid = 2(lb + bh + hl)
+Sphere = 4πr² | Hemisphere (total) = 3πr²
+Cylinder = 2πr(r + h) | Cone = πr(r + l) [l = slant = √(r²+h²)]
+Frustum = π[R² + r² + l(R+r)] where l = √[h²+(R-r)²]
+# Lateral/Curved Surface Area
+Cylinder = 2πrh | Cone = πrl
+Sphere (hemisphere, curved) = 2πr²`,
             mindmap: {
-              root: "3D Mensuration",
-              branches: [
-                {title: "Standard Solids", subnodes: ["Cube", "Cuboid", "Cylinder", "Cone"]},
+                    "root": "Surface Area & Volume",
+                    "branches": [
+                            {
+                                    "title": "Cube & Cuboid",
+                                    "subnodes": [
+                                            "Cube V=a³, TSA=6a²",
+                                            "Cuboid V=lbh, TSA=2(lb+bh+hl)",
+                                            "Lateral SA = Perimeter×h"
+                                    ]
+                            },
+                            {
+                                    "title": "Sphere & Hemisphere",
+                                    "subnodes": [
+                                            "Sphere V=4/3πr³, SA=4πr²",
+                                            "Hemisphere V=2/3πr³, TSA=3πr²"
+                                    ]
+                            },
+                            {
+                                    "title": "Cylinder & Cone",
+                                    "subnodes": [
+                                            "Cylinder V=πr²h, TSA=2πr(r+h)",
+                                            "Cone V=⅓πr²h, TSA=πr(r+l)",
+                                            "l=slant=√(r²+h²)"
+                                    ]
+                            },
+                            {
+                                    "title": "Frustum",
+                                    "subnodes": [
+                                            "V=⅓πh(R²+Rr+r²)",
+                                            "l=√[h²+(R-r)²]",
+                                            "TSA=π[R²+r²+l(R+r)]"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Spherical", subnodes: ["Sphere", "Hemisphere"]},
                 {title: "Advanced", subnodes: ["Prism", "Pyramid"]}
               ]
@@ -619,11 +1180,60 @@ const NOTES_DATABASE = {
             id: "percentages-profit-loss",
             title: "Percentages, Profit & Loss",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Arithmetic Formulas",
+            formulas: `# Percentages
+x% of y = xy/100
+% increase = (Increase/Original) × 100
+% decrease = (Decrease/Original) × 100
+# Profit & Loss
+Profit = SP - CP | Loss = CP - SP
+Profit% = (Profit/CP) × 100 | Loss% = (Loss/CP) × 100
+SP = CP × (100+P%)/100 | CP = SP × 100/(100+P%)
+Discount = MP - SP | Discount% = (Discount/MP) × 100
+# Simple & Compound Interest
+SI = PRT/100 | A = P + SI
+CI: A = P(1 + R/100)ⁿ | CI = A - P
+Effective rate for half-yearly: R/2, n×2
+# Ratio & Proportion
+a:b = c:d → ad = bc (cross-multiply)
+Fourth proportional: a:b = c:x → x = bc/a
+Mean proportional of a and b = √(ab)`,
             mindmap: {
-              root: "Arithmetic I",
-              branches: [
-                {title: "Percentages", subnodes: ["Multipliers", "Successive change"]},
+                    "root": "Percentages & Profit/Loss",
+                    "branches": [
+                            {
+                                    "title": "Percentages",
+                                    "subnodes": [
+                                            "x% of y = xy/100",
+                                            "% increase = Increase/Original×100",
+                                            "Successive %: A then B = A+B+AB/100"
+                                    ]
+                            },
+                            {
+                                    "title": "Profit & Loss",
+                                    "subnodes": [
+                                            "P% = Profit/CP×100",
+                                            "SP = CP×(100+P%)/100",
+                                            "Discount = MP - SP"
+                                    ]
+                            },
+                            {
+                                    "title": "Interest",
+                                    "subnodes": [
+                                            "SI = PRT/100",
+                                            "CI = P(1+R/100)^n - P",
+                                            "Half-yearly: R/2, double n"
+                                    ]
+                            },
+                            {
+                                    "title": "Shortcuts",
+                                    "subnodes": [
+                                            "False weight trick",
+                                            "Dishonest dealer",
+                                            "2 items at same SP"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Profit & Loss", subnodes: ["Cost Price", "Selling Price", "Discount"]}
               ]
             }
@@ -632,11 +1242,61 @@ const NOTES_DATABASE = {
             id: "ratios-averages",
             title: "Ratios, Proportions & Averages",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Arithmetic Formulas",
+            formulas: `# Ratios & Proportions
+If a:b = c:d → ad = bc
+Fourth proportional: a:b = c:x → x = bc/a
+Mean proportional: a:x = x:b → x = √(ab)
+Compound ratio: (a:b) × (c:d) = ac:bd
+# Averages
+Average = Sum of observations / Number of observations
+If average of n numbers = A, and one number x is added: new avg = (nA + x)/(n+1)
+Weighted average = Σ(wᵢxᵢ) / Σwᵢ
+# Mixture & Alligation
+Alligation rule: cheaper:dearer = (dearer price - mean) : (mean - cheaper price)
+# Averages Shortcut
+If avg of first n natural numbers = (n+1)/2
+Sum of first n natural numbers = n(n+1)/2
+Sum of squares = n(n+1)(2n+1)/6
+Sum of cubes = [n(n+1)/2]²`,
             mindmap: {
-              root: "Arithmetic II",
-              branches: [
-                {title: "Ratios", subnodes: ["Proportion", "Partnership"]},
+                    "root": "Ratios & Averages",
+                    "branches": [
+                            {
+                                    "title": "Ratios",
+                                    "subnodes": [
+                                            "a:b::c:d → ad=bc",
+                                            "Fourth proportional",
+                                            "Compound ratio: ac:bd",
+                                            "Duplicate ratio = a²:b²"
+                                    ]
+                            },
+                            {
+                                    "title": "Averages",
+                                    "subnodes": [
+                                            "Sum/Count",
+                                            "Combined avg formula",
+                                            "Effect of adding value",
+                                            "Weighted average"
+                                    ]
+                            },
+                            {
+                                    "title": "Alligation",
+                                    "subnodes": [
+                                            "Cheaper:Dearer ratio",
+                                            "Rule: (dearer-mean):(mean-cheaper)",
+                                            "Mix milk/water type"
+                                    ]
+                            },
+                            {
+                                    "title": "Sequences",
+                                    "subnodes": [
+                                            "Sum 1..n = n(n+1)/2",
+                                            "Sum squares: n(n+1)(2n+1)/6",
+                                            "Sum cubes: [n(n+1)/2]²"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Averages", subnodes: ["Weighted average", "AP Averages"]}
               ]
             }
@@ -645,11 +1305,61 @@ const NOTES_DATABASE = {
             id: "time-distance",
             title: "Time, Speed, Distance & Work",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Speed & Work Formulas",
+            formulas: `# Speed, Time & Distance
+Speed = Distance / Time | Distance = Speed × Time | Time = Distance / Speed
+Average Speed = Total Distance / Total Time (NOT average of speeds)
+If two equal distances at s₁ and s₂: Average Speed = 2s₁s₂/(s₁+s₂)
+Conversion: km/hr to m/s → multiply by 5/18 | m/s to km/hr → multiply by 18/5
+# Relative Speed
+Same direction: Relative speed = |s₁ - s₂|
+Opposite direction: Relative speed = s₁ + s₂
+# Train Problems
+Time to cross a pole/person = Length of train / Speed of train
+Time to cross a platform = (Length of train + Length of platform) / Speed
+# Boats & Streams
+Downstream speed = Boat speed + Stream speed
+Upstream speed = Boat speed - Stream speed
+Speed of Boat in still water = ½(Downstream + Upstream)
+# Work
+Work = Rate × Time | Combined rate = 1/t₁ + 1/t₂
+If A takes 'a' days and B takes 'b' days: Together = ab/(a+b) days`,
             mindmap: {
-              root: "Arithmetic III",
-              branches: [
-                {title: "Time & Distance", subnodes: ["Relative speed", "Trains", "Boats"]},
+                    "root": "Time, Speed & Distance",
+                    "branches": [
+                            {
+                                    "title": "Basic",
+                                    "subnodes": [
+                                            "S = D/T",
+                                            "km/hr × 5/18 = m/s",
+                                            "Avg speed = 2s₁s₂/(s₁+s₂)"
+                                    ]
+                            },
+                            {
+                                    "title": "Relative Speed",
+                                    "subnodes": [
+                                            "Same dir: |s₁-s₂|",
+                                            "Opp dir: s₁+s₂",
+                                            "Train problems"
+                                    ]
+                            },
+                            {
+                                    "title": "Boats & Streams",
+                                    "subnodes": [
+                                            "Downstream = B+S",
+                                            "Upstream = B-S",
+                                            "Still water = ½(D+U)"
+                                    ]
+                            },
+                            {
+                                    "title": "Work & Time",
+                                    "subnodes": [
+                                            "Together = ab/(a+b)",
+                                            "Efficiency ∝ 1/time",
+                                            "Pipes and cisterns"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Time & Work", subnodes: ["Efficiency", "Pipes & Cisterns"]}
               ]
             }
@@ -812,11 +1522,65 @@ const NOTES_DATABASE = {
             id: "tenses-complete",
             title: "Tenses & Consistency",
             notes: "Detailed notes expanded in notes_extra_english.js",
-            formulas: "Simple, Continuous, Perfect, Perfect Continuous (Present, Past, Future) + Conditionals",
+            formulas: `# Tense Structure Reference
+Simple Present: Subject + V₁(+s/es) | Negative: do/does not + V₁
+Present Continuous: am/is/are + V₁+ing
+Present Perfect: has/have + V₃ (past participle)
+Present Perfect Continuous: has/have + been + V₁+ing + since/for
+Simple Past: Subject + V₂ | Negative: did not + V₁
+Past Continuous: was/were + V₁+ing
+Past Perfect: had + V₃ (before another past action)
+Past Perfect Continuous: had + been + V₁+ing
+Simple Future: will/shall + V₁
+Future Continuous: will/shall + be + V₁+ing
+Future Perfect: will + have + V₃
+Future Perfect Continuous: will + have + been + V₁+ing
+# Key Signal Words
+Present: always, often, usually, every day
+Past: yesterday, ago, last year, in 2020
+Perfect: already, just, yet, ever, never, since, for
+Future: tomorrow, next week, soon, by 2025`,
             mindmap: {
-              root: "Tenses",
-              branches: [
-                { title: "Time Markers", subnodes: ["since/for -> Perfect Continuous", "yesterday/ago -> Simple Past", "already/yet -> Present Perfect"] },
+                    "root": "Tenses",
+                    "branches": [
+                            {
+                                    "title": "Present Tenses",
+                                    "subnodes": [
+                                            "Simple: V1+s/es",
+                                            "Continuous: is/am/are+V1+ing",
+                                            "Perfect: has/have+V3",
+                                            "Perf. Continuous: have+been+ing"
+                                    ]
+                            },
+                            {
+                                    "title": "Past Tenses",
+                                    "subnodes": [
+                                            "Simple: V2",
+                                            "Continuous: was/were+ing",
+                                            "Perfect: had+V3",
+                                            "Perf. Continuous: had+been+ing"
+                                    ]
+                            },
+                            {
+                                    "title": "Future Tenses",
+                                    "subnodes": [
+                                            "Simple: will+V1",
+                                            "Continuous: will+be+ing",
+                                            "Perfect: will+have+V3",
+                                            "Going to (planned)"
+                                    ]
+                            },
+                            {
+                                    "title": "Signal Words",
+                                    "subnodes": [
+                                            "Since/For → Perfect",
+                                            "Yesterday/Ago → Past",
+                                            "Tomorrow/Next → Future",
+                                            "Always/Often → Present"
+                                    ]
+                            }
+                    ]
+            },
                 { title: "Conditionals", subnodes: ["Type 1: If + V1, will + V1", "Type 2: If + V2, would + V1", "Type 3: If + had + V3, would have + V3"] },
                 { title: "State Verbs", subnodes: ["Stative verbs (know, love) cannot be continuous"] }
               ]
@@ -1447,9 +2211,44 @@ const NOTES_DATABASE = {
             notes: "Detailed notes expanded in notes_extra_9.js",
             formulas: "73rd Amendment: Part IX, Sch 11 (29 subjects) - Rural Panchayats\n74th Amendment: Part IXA, Sch 12 (18 subjects) - Urban Municipalities\nBalwant Rai Mehta: 3-tier system\nContest Age: 21 years\nReservation: 33% (1/3rd) for women",
             mindmap: {
-              root: "Local Gov",
-              branches: [
-                {title: "Rural (73rd)", subnodes: ["Part IX", "Schedule 11 (29 items)", "Gram Sabha core"]},
+                    "root": "Panchayati Raj",
+                    "branches": [
+                            {
+                                    "title": "73rd Amendment (Rural)",
+                                    "subnodes": [
+                                            "3-tier: Gram/Block/District",
+                                            "5-year term",
+                                            "11th Schedule (29 subjects)",
+                                            "State Finance Commission"
+                                    ]
+                            },
+                            {
+                                    "title": "74th Amendment (Urban)",
+                                    "subnodes": [
+                                            "Municipal Corporation/Council",
+                                            "12th Schedule (18 subjects)",
+                                            "Ward Committees",
+                                            "Mayor as head"
+                                    ]
+                            },
+                            {
+                                    "title": "Key Bodies",
+                                    "subnodes": [
+                                            "State Election Commission",
+                                            "State Finance Commission",
+                                            "District Planning Committee"
+                                    ]
+                            },
+                            {
+                                    "title": "Reservations",
+                                    "subnodes": [
+                                            "1/3 seats for women",
+                                            "SC/ST proportional",
+                                            "50% in some states"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Urban (74th)", subnodes: ["Part IXA", "Schedule 12 (18 items)", "Municipalities"]},
                 {title: "Key Rules", subnodes: ["3-tier structure", "21 years minimum age", "33% women reservation"]}
               ]
@@ -1465,7 +2264,22 @@ const NOTES_DATABASE = {
             id: "amendments-parts",
             title: "Constitutional Amendments, Parts & Schedules",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Schedules: TEARS OF OLD PM",
+            formulas: `# 73rd Constitutional Amendment (1992) - Panchayati Raj
+Schedules: 11th Schedule - 29 subjects for Panchayats
+Duration of PR body: 5 years | Must be reconstituted within 6 months if dissolved early
+State Finance Commission: Formed every 5 years to review finances
+State Election Commission: Conducts PR elections (independent)
+# Three-Tier Structure
+Gram Panchayat: Village level | Panchayat Samiti: Block level | Zila Parishad: District level
+# 74th Amendment - Urban Local Bodies
+Schedules: 12th Schedule - 18 subjects
+Municipal Corporation (city) | Municipal Council (town) | Nagar Panchayat (transitional)
+Mayor: Head of Municipal Corporation | Ward Committees (>3 lakh pop)
+# Reservation
+1/3 seats reserved for women (some states 50%)
+Reservation for SC/ST proportional to population
+# Mnemonic: TEARS of OLD PM (11th Schedule Subjects)
+Transport, Education, Animal husbandry, Roads, Sanitation, Old people, Land, Development, Poverty, Markets`,
             mindmap: {
               root: "Amendments & Parts",
               branches: [
@@ -1479,11 +2293,69 @@ const NOTES_DATABASE = {
             id: "important-articles",
             title: "High-Yield Special Articles Cheat Sheet",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Emergencies: 352, 356, 360",
+            formulas: `# Emergency Provisions
+Art 352: National Emergency (Armed rebellion/external aggression) - 2/3 Parliament majority
+Art 356: President's Rule in State (failure of constitutional machinery)
+Art 360: Financial Emergency (financial stability threatened)
+# President
+Art 52-62: Office and election | Art 72: Pardoning Powers
+Art 123: Ordinance making power (when Parliament not in session)
+# Parliament
+Art 79-122: Parliament provisions | Art 108: Joint Sitting
+Art 110: Money Bill definition (Lok Sabha only)
+Art 111: President's assent/return of bill
+# Judiciary
+Art 124-147: Supreme Court | Art 214-231: High Courts
+Art 32: Right to Constitutional Remedies (Ambedkar: Heart & Soul of Constitution)
+Art 226: High Court writs | Art 136: SLP - Special Leave Petition
+# Fundamental Rights
+Art 12-35: Fundamental Rights | Art 14: Equality before law
+Art 19: 6 Freedoms | Art 21: Right to Life & Personal Liberty
+Art 22: Protection against arrest | Art 25-28: Religious freedom
+# DPSP
+Art 36-51: Directive Principles | Art 44: Uniform Civil Code
+Art 45: Early childhood care & education | Art 51A: Fundamental Duties (10+1)`,
             mindmap: {
-              root: "Key Articles",
-              branches: [
-                {title: "Art 371", subnodes: ["Special states provisions"]},
+                    "root": "Important Articles",
+                    "branches": [
+                            {
+                                    "title": "Emergency (352/356/360)",
+                                    "subnodes": [
+                                            "352: National Emergency",
+                                            "356: Presidents Rule",
+                                            "360: Financial Emergency",
+                                            "352 needs 2/3 majority"
+                                    ]
+                            },
+                            {
+                                    "title": "Fundamental Rights",
+                                    "subnodes": [
+                                            "Art 14: Equality",
+                                            "Art 19: 6 Freedoms",
+                                            "Art 21: Right to Life",
+                                            "Art 32: Constitutional Remedies"
+                                    ]
+                            },
+                            {
+                                    "title": "Parliament & President",
+                                    "subnodes": [
+                                            "Art 108: Joint Sitting",
+                                            "Art 110: Money Bill",
+                                            "Art 123: Ordinance Power",
+                                            "Art 72: Pardoning Power"
+                                    ]
+                            },
+                            {
+                                    "title": "DPSP & Duties",
+                                    "subnodes": [
+                                            "Art 44: Uniform Civil Code",
+                                            "Art 45: Child Education",
+                                            "Art 51A: 11 Duties",
+                                            "Art 21A: Right to Education"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Emergency", subnodes: ["National, President's, Financial"]},
                 {title: "Rajya Sabha", subnodes: ["Art 249, Art 312"]}
               ]
@@ -1493,11 +2365,64 @@ const NOTES_DATABASE = {
             id: "positions-tenures",
             title: "Elections, Appointments & Terms of Office",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Ages: Pres (35), Gov (35), LS (25), RS (30)",
+            formulas: `# Minimum Age Requirements
+President: 35 years | Vice President: 35 years
+Governor: 35 years | Lok Sabha member: 25 years
+Rajya Sabha member: 30 years | Supreme Court judge: No minimum age
+# Tenure & Terms
+President: 5 years (eligible for re-election)
+Vice President: 5 years | Governor: 5 years (pleasure of President)
+CJI/SC Judges: Till age 65 | HC Judges: Till age 62
+CAG: 6 years or till 65 (whichever earlier)
+CEC: 6 years or till 65 | Attorney General: Pleasure of President
+# Removal Process
+President: Impeachment by Parliament (2/3 majority + present & voting)
+SC/HC Judge: Address by both Houses (special majority) + President
+CEC: Same as SC judge (protected)
+Governor: Pleasure of President (no formal removal process needed)
+# Key Ages Mnemonic
+Pres/VP/Gov = 35 | LS = 25 | RS = 30 | SC/HC No min age
+SC retire 65 | HC retire 62 | PM/CM: No age limit`,
             mindmap: {
-              root: "Positions",
-              branches: [
-                {title: "Ages", subnodes: ["Min Age matrix"]},
+                    "root": "Positions & Tenures",
+                    "branches": [
+                            {
+                                    "title": "Minimum Age",
+                                    "subnodes": [
+                                            "President/VP/Governor: 35",
+                                            "Lok Sabha MP: 25",
+                                            "Rajya Sabha: 30",
+                                            "Judges: No minimum"
+                                    ]
+                            },
+                            {
+                                    "title": "Terms of Office",
+                                    "subnodes": [
+                                            "President/VP: 5 years",
+                                            "SC Judge: till 65",
+                                            "HC Judge: till 62",
+                                            "CAG: 6 yrs or 65"
+                                    ]
+                            },
+                            {
+                                    "title": "Removal Processes",
+                                    "subnodes": [
+                                            "President: Impeachment",
+                                            "CJI: Parliamentary address",
+                                            "CEC: Like SC judge",
+                                            "Governor: Pleasure of Pres"
+                                    ]
+                            },
+                            {
+                                    "title": "Key Numbers",
+                                    "subnodes": [
+                                            "Pres/VP/Gov = 35",
+                                            "LS=25, RS=30",
+                                            "SC retire 65, HC retire 62"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Terms", subnodes: ["CAG 6/65, CEC 6/65"]},
                 {title: "Oath/Resign", subnodes: ["Who administers / receives"]}
               ]
@@ -2866,11 +3791,64 @@ const NOTES_DATABASE = {
             id: "universe-solar-system",
             title: "The Universe & Solar System",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Cosmology Facts",
+            formulas: `# Universe & Solar System
+Age of Universe: ~13.8 billion years | Age of Earth: ~4.6 billion years
+Light Year: Distance light travels in 1 year = 9.46 × 10¹² km
+Nearest star: Proxima Centauri (4.24 light-years from Sun)
+# Solar System Order
+Planets (Mercury to Neptune): My Very Educated Mother Just Served Us Nachos
+Dwarf Planets: Pluto, Eris, Ceres, Makemake, Haumea
+Largest planet: Jupiter | Smallest: Mercury
+Hottest: Venus (greenhouse effect, ~465°C) | Coldest: Neptune
+Fastest orbit: Mercury (88 days) | Slowest: Neptune (165 years)
+# Earth's Motions
+Rotation: ~24 hours (causes day/night) | Revolution: ~365.25 days
+Axial tilt: 23.5° (causes seasons) | Perihelion (Jan): closest to Sun
+Aphelion (July): farthest from Sun
+# Moon
+Distance from Earth: ~384,400 km | Revolution: ~27.3 days (Sidereal)
+Lunar month (synodic): ~29.5 days | Same face always visible (synchronous rotation)`,
             mindmap: {
-              root: "Universe",
-              branches: [
-                {title: "Theories", subnodes: ["Big Bang", "Steady State"]},
+                    "root": "Universe & Solar System",
+                    "branches": [
+                            {
+                                    "title": "Solar System Order",
+                                    "subnodes": [
+                                            "My Very Educated Mother Just Served Us Nachos",
+                                            "Largest: Jupiter",
+                                            "Smallest: Mercury",
+                                            "Hottest: Venus"
+                                    ]
+                            },
+                            {
+                                    "title": "Earth Basics",
+                                    "subnodes": [
+                                            "Rotation: 24 hrs (day/night)",
+                                            "Revolution: 365.25 days",
+                                            "Axial tilt: 23.5°",
+                                            "Perihelion: Jan, Aphelion: Jul"
+                                    ]
+                            },
+                            {
+                                    "title": "Moon",
+                                    "subnodes": [
+                                            "Distance: 384400 km",
+                                            "Synodic month: 29.5 days",
+                                            "Spring tide: New/Full moon",
+                                            "Neap tide: Quarter moon"
+                                    ]
+                            },
+                            {
+                                    "title": "Space Agencies",
+                                    "subnodes": [
+                                            "ISRO: India (Bengaluru)",
+                                            "NASA: USA",
+                                            "ESA: Europe",
+                                            "Roscosmos: Russia"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Solar System", subnodes: ["Inner planets", "Outer planets", "Asteroid belt"]}
               ]
             }
@@ -2879,11 +3857,114 @@ const NOTES_DATABASE = {
             id: "earth-atmosphere",
             title: "Earth Structure & Atmosphere",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Lapse Rate = 6.5°C/km",
+            formulas: `# Earths Structure
+Radius: ~6371 km | Circumference: ~40075 km
+Layers: Crust > Mantle > Outer Core > Inner Core
+Crust: Oceanic (5-10 km) | Continental (30-70 km)
+# Atmosphere Layers
+Troposphere: 0-12 km (weather, lapse rate 6.5°C per km)
+Stratosphere: 12-50 km (ozone layer at 20-35 km)
+Mesosphere: 50-80 km (meteors burn here)
+Thermosphere: 80-700 km (Aurora Borealis, ISS)
+Exosphere: 700 km+ (fades into space)
+# Composition of Atmosphere
+Nitrogen: 78% | Oxygen: 21% | Argon: 0.9% | CO2: 0.04%
+# Key Numbers
+Standard Lapse Rate = 6.5°C per 1000 m
+Ozone Layer: 20-35 km (Stratosphere)
+Equator: 0° | Tropics: 23.5°N/S | Arctic Circle: 66.5°N`
+Radius: ~6,371 km | Circumference: ~40,075 km
+Layers: Crust → Mantle → Outer Core → Inner Core
+# Atmosphere Layers
+Troposphere: 0-12 km (weather occurs, lapse rate 6.5°C/km)
+Stratosphere: 12-50 km (ozone layer 20-35 km)
+Mesosphere: 50-80 km (meteors burn up)
+Thermosphere: 80-700 km (Aurora, ISS orbits)
+Exosphere: 700 km+
+# Composition
+Nitrogen 78%, Oxygen 21%, Argon 0.9%, Carbon Dioxide 0.04%`s Structure
+Radius: ~6,371 km | Circumference: ~40,075 km
+Layers: Crust → Mantle → Outer Core → Inner Core
+Crust: 5-70 km thick (oceanic vs continental)
+# Atmosphere Layers (height approx)
+Troposphere: 0-12 km (weather occurs, lapse rate 6.5°C/km)
+Stratosphere: 12-50 km (ozone layer 20-35 km)
+Mesosphere: 50-80 km (meteors burn up)
+Thermosphere: 80-700 km (Aurora, ISS orbits)
+Exosphere: 700 km+ (gradually fades to space)
+# Latitudes
+Equator: 0° | Tropics: 23.5°N/S | Arctic/Antarctic: 66.5°N/S
+# Key Atmospheric Facts
+Standard lapse rate = 6.5°C per 1000m ascent
+Composition: N₂ 78%, O₂ 21%, Ar 0.9%, CO₂ 0.04%
+Tropopause: Boundary between troposphere and stratosphere`,
             mindmap: {
-              root: "Earth & Atmosphere",
-              branches: [
-                {title: "Earth Layers", subnodes: ["Crust (SIAL)", "Mantle (Asthenosphere)", "Core (NIFE)"]},
+                    "root": "Earth & Atmosphere",
+                    "branches": [
+                            {
+                                    "title": "Earth Layers",
+                                    "subnodes": [
+                                            "Crust (5-70 km)",
+                                            "Mantle (silicate)",
+                                            "Outer Core (liquid Fe)",
+                                            "Inner Core (solid Fe)"
+                                    ]
+                            },
+                            {
+                                    "title": "Atmosphere",
+                                    "subnodes": [
+                                            "Troposphere (0-12 km)",
+                                            "Stratosphere (12-50 km)",
+                                            "Mesosphere (50-80 km)",
+                                            "Thermosphere (80-700 km)"
+                                    ]
+                            },
+                            {
+                                    "title": "Composition",
+                                    "subnodes": [
+                                            "N2: 78%",
+                                            "O2: 21%",
+                                            "Ar: 0.9%",
+                                            "CO2: 0.04%"
+                                    ]
+                            },
+                            {
+                                    "title": "Key Facts",
+                                    "subnodes": [
+                                            "Lapse rate 6.5°C/km",
+                                            "Ozone at 20-35 km",
+                                            "Equator 0°, Tropics 23.5°"
+                                    ]
+                            }
+                    ]
+            },
+                                  {
+                                            "title": "Atmosphere Layers",
+                                            "subnodes": [
+                                                      "Troposphere (0-12km)",
+                                                      "Stratosphere (12-50km)",
+                                                      "Mesosphere (50-80km)",
+                                                      "Thermosphere (80-700km)"
+                                            ]
+                                  },
+                                  {
+                                            "title": "Key Numbers",
+                                            "subnodes": [
+                                                      "Lapse rate 6.5°C/km",
+                                                      "Ozone at 20-35km",
+                                                      "Equator 0°, Tropics ±23.5°"
+                                            ]
+                                  },
+                                  {
+                                            "title": "Composition",
+                                            "subnodes": [
+                                                      "N₂ 78%, O₂ 21%",
+                                                      "Ar 0.9%, CO₂ 0.04%",
+                                                      "Variable: H₂O vapor"
+                                            ]
+                                  }
+                        ]
+              },
                 {title: "Atmosphere", subnodes: ["Troposphere", "Stratosphere", "Mesosphere", "Ionosphere"]}
               ]
             }
@@ -2892,11 +3973,63 @@ const NOTES_DATABASE = {
             id: "climatology-clouds",
             title: "Climatology: Climatic Zones & Clouds",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Cloud types: High, Middle, Low, Convective",
+            formulas: `# Cloud Classification (Height)
+High clouds (>6000m): Cirrus (wispy), Cirrostratus, Cirrocumulus
+Middle clouds (2000-6000m): Altocumulus, Altostratus
+Low clouds (<2000m): Stratus, Stratocumulus, Nimbostratus
+Convective (all heights): Cumulus (fair weather), Cumulonimbus (thunderstorm/anvil)
+# Rainfall Types
+Conventional: Heated air rises → thunder, lightning (equatorial)
+Orographic: Moist air forced over mountains (Windward: heavy, Leeward: rain shadow)
+Cyclonic/Frontal: Cold & warm air masses meet (temperate)
+# Climate Classification (Köppen Basics)
+A (Tropical): Hot, wet year-round (equatorial rainforests)
+B (Arid/Semi-arid): Low rainfall, high evaporation (deserts)
+C (Temperate): Mild winters (Mediterranean, subtropical)
+D (Continental): Cold winters, warm summers (boreal/taiga)
+E (Polar): Extremely cold, tundra and ice caps
+# India Seasons
+SW Monsoon: June-September | NE Monsoon: Oct-Dec (Tamil Nadu)
+Retreating Monsoon: Oct-Nov | Western Disturbances: Dec-Feb (NW India)`,
             mindmap: {
-              root: "Climatology",
-              branches: [
-                {title: "Climatic Zones", subnodes: ["Köppen classification", "Equatorial", "Monsoon"]},
+                    "root": "Climatology & Clouds",
+                    "branches": [
+                            {
+                                    "title": "Cloud Types",
+                                    "subnodes": [
+                                            "High: Cirrus, Cirrostratus",
+                                            "Middle: Alto-cumulus/stratus",
+                                            "Low: Stratus, Nimbostratus",
+                                            "Vertical: Cumulonimbus"
+                                    ]
+                            },
+                            {
+                                    "title": "Rainfall Types",
+                                    "subnodes": [
+                                            "Conventional (Equatorial)",
+                                            "Orographic (Mountain)",
+                                            "Cyclonic/Frontal (Temperate)"
+                                    ]
+                            },
+                            {
+                                    "title": "Koppen Zones",
+                                    "subnodes": [
+                                            "A: Tropical",
+                                            "B: Arid (Desert)",
+                                            "C: Temperate",
+                                            "D: Continental, E: Polar"
+                                    ]
+                            },
+                            {
+                                    "title": "India Seasons",
+                                    "subnodes": [
+                                            "SW Monsoon: Jun-Sep",
+                                            "NE Monsoon: Oct-Dec",
+                                            "Western Disturbances: Dec-Feb"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Clouds", subnodes: ["Cirrus", "Altocumulus", "Stratus", "Cumulonimbus"]}
               ]
             }
@@ -2905,11 +4038,63 @@ const NOTES_DATABASE = {
             id: "geomorphology-rocks",
             title: "Geomorphology: Rocks, Plate Tectonics & Volcanism",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Seismic Waves: P-waves, S-waves",
+            formulas: `# Seismic Waves
+P-waves (Primary): Travel through solid+liquid, fastest, compressional
+S-waves (Secondary): Travel through solid only, transverse
+L-waves (Surface): Slowest, cause maximum damage
+Shadow Zone: P-wave: 103°-143° | S-wave: >103° (liquid core)
+# Rock Classification
+Igneous: Formed by cooling of magma (Granite=intrusive, Basalt=extrusive)
+Sedimentary: Formed by deposition (Sandstone, Limestone, Coal)
+Metamorphic: Transformed by heat/pressure (Marble from Limestone, Quartzite from Sandstone)
+# Plate Boundaries
+Convergent: Plates collide → mountains/trenches (Himalayas, Mariana)
+Divergent: Plates separate → mid-ocean ridges (Mid-Atlantic)
+Transform: Plates slide past → earthquakes (San Andreas)
+# Landforms
+Fluvial: V-shaped valley, ox-bow lake, delta, flood plain
+Glacial: U-shaped valley, fjord, moraine, cirque
+Karst: Caves, stalagmites, stalactites (limestone dissolution)
+Aeolian: Dunes, yardang (wind erosion in deserts)`,
             mindmap: {
-              root: "Geomorphology",
-              branches: [
-                {title: "Rocks", subnodes: ["Igneous", "Sedimentary", "Metamorphic"]},
+                    "root": "Geomorphology & Rocks",
+                    "branches": [
+                            {
+                                    "title": "Seismic Waves",
+                                    "subnodes": [
+                                            "P-waves (fastest, all media)",
+                                            "S-waves (solid only)",
+                                            "L-waves (surface, most damage)",
+                                            "Shadow zones"
+                                    ]
+                            },
+                            {
+                                    "title": "Rock Types",
+                                    "subnodes": [
+                                            "Igneous: Granite, Basalt",
+                                            "Sedimentary: Sandstone, Coal",
+                                            "Metamorphic: Marble, Quartzite"
+                                    ]
+                            },
+                            {
+                                    "title": "Plate Tectonics",
+                                    "subnodes": [
+                                            "Convergent: mountains",
+                                            "Divergent: ridges",
+                                            "Transform: earthquakes"
+                                    ]
+                            },
+                            {
+                                    "title": "Landforms",
+                                    "subnodes": [
+                                            "Fluvial: V-valley, delta",
+                                            "Glacial: U-valley, fjord",
+                                            "Karst: caves, stalagmites",
+                                            "Aeolian: dunes"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Tectonic Plates", subnodes: ["Major plates", "Minor plates", "Boundaries"]},
                 {title: "Activity", subnodes: ["Volcanism", "Earthquakes (Shadow zones)"]}
               ]
@@ -2919,11 +4104,123 @@ const NOTES_DATABASE = {
             id: "world-geography-mountains",
             title: "World Geography: Mountains, Forests & Rivers",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Major Mountains & World Rivers",
+            formulas: `# Highest Peaks
+Everest (Himalayas): 8,849m (Highest in Asia/World)
+Aconcagua (Andes): 6,961m (Highest in S. America)
+Denali (Alaska): 6,190m (Highest in N. America)
+Kilimanjaro: 5,895m (Highest in Africa)
+Mont Blanc: 4,808m (Highest in Alps)
+# Major Ranges
+Andes (longest continental)
+Himalayas (highest)
+Rockies (N. America)
+Alps (Europe)
+# Indian Peaks
+K2 (Karakoram): 8,611m
+Kangchenjunga: 8,586m
+Anamudi: 2,695m (Highest in Peninsular India)`
+Everest (Himalayas): 8,849m (Highest in Asia/World)
+Aconcagua (Andes): 6,961m (Highest in S. America)
+Denali (Alaska): 6,190m (Highest in N. America)
+Kilimanjaro: 5,895m (Highest in Africa)
+Mont Blanc: 4,808m (Highest in Alps)
+# Major Ranges
+Andes (longest continental)
+Himalayas (highest)
+Rockies (N. America)
+Alps (Europe)
+# Indian Peaks
+K2 (Karakoram): 8,611m
+Kangchenjunga: 8,586m
+Anamudi: 2,695m (Highest in Peninsular India)`s Highest Peaks
+Mt. Everest (Himalayas): 8,849m - Highest
+K2 (Karakoram): 8,611m - 2nd highest
+Kangchenjunga (Himalayas): 8,586m - 3rd highest
+Aconcagua (Andes): 6,961m - Americas highest
+Kilimanjaro (Africa): 5,895m - Tallest in Africa
+Mont Blanc (Alps): 4,808m - Europe highest
+McKinley/Denali (Alaska): 6,190m - N. America
+# Major Mountain Ranges
+Himalayas: Asia | Andes: S. America | Alps: Europe
+Rockies: N. America | Urals: Russia/Europe border
+Great Dividing Range: Australia | Atlas: Africa
+# Indian Mountains
+Himadri (Great Himalayas): Highest, perennial snow
+Himachal (Middle Himalayas): Shimla, Kashmir
+Shiwalik (Outer Himalayas): Foothill ranges
+Aravalli: Oldest in India | Vindhya/Satpura: Central India
+Western Ghats (Sahyadri) | Eastern Ghats
+Highest in Deccan: Anai Mudi (2695m, Kerala)`,
             mindmap: {
-              root: "World Geography",
-              branches: [
-                {title: "Mountains", subnodes: ["Fold", "Block", "Volcanic"]},
+                    "root": "World Mountains",
+                    "branches": [
+                            {
+                                    "title": "Major Ranges",
+                                    "subnodes": [
+                                            "Himalayas (Asia)",
+                                            "Andes (S. America)",
+                                            "Rockies (N. America)",
+                                            "Alps (Europe)"
+                                    ]
+                            },
+                            {
+                                    "title": "Highest Peaks",
+                                    "subnodes": [
+                                            "Everest (8849m)",
+                                            "Aconcagua (6961m)",
+                                            "Kilimanjaro (5895m)",
+                                            "Denali (6190m)"
+                                    ]
+                            },
+                            {
+                                    "title": "India - Himalayas",
+                                    "subnodes": [
+                                            "Himadri (Great)",
+                                            "Himachal (Middle)",
+                                            "Shiwalik (Outer)",
+                                            "Karakoram & Ladakh"
+                                    ]
+                            },
+                            {
+                                    "title": "Peninsular India",
+                                    "subnodes": [
+                                            "Aravalli (Oldest)",
+                                            "Western Ghats",
+                                            "Eastern Ghats",
+                                            "Vindhya & Satpura"
+                                    ]
+                            }
+                    ]
+            },
+                                  {
+                                            "title": "Major Ranges",
+                                            "subnodes": [
+                                                      "Himalayas (Asia)",
+                                                      "Andes (South America)",
+                                                      "Alps (Europe)",
+                                                      "Rockies (North America)"
+                                            ]
+                                  },
+                                  {
+                                            "title": "India - Himalayas",
+                                            "subnodes": [
+                                                      "Himadri (Great Himalayas)",
+                                                      "Himachal (Middle)",
+                                                      "Shiwalik (Outer)",
+                                                      "Karakoram & Ladakh"
+                                            ]
+                                  },
+                                  {
+                                            "title": "India - Peninsular",
+                                            "subnodes": [
+                                                      "Aravalli (oldest)",
+                                                      "Vindhya & Satpura",
+                                                      "Western Ghats (Sahyadri)",
+                                                      "Eastern Ghats (discontinuous)"
+                                            ]
+                                  }
+                        ]
+              },
                 {title: "Forests", subnodes: ["Evergreen", "Deciduous", "Coniferous"]},
                 {title: "Rivers", subnodes: ["Nile", "Amazon", "Yangtze", "Mississippi"]}
               ]
@@ -2933,11 +4230,63 @@ const NOTES_DATABASE = {
             id: "world-geography-straits-deserts",
             title: "Straits, Canals, Deserts & Seas",
             notes: "Detailed notes expanded in notes_extra_9.js",
-            formulas: "Straits: Malacca, Gibraltar, Hormuz, Bab-el-Mandeb, Bering\nCanals: Suez, Panama\nDeserts: Sahara (hot), Atacama (driest), Gobi (cold)",
+            formulas: `# Important Straits (Separates → Connects)
+Strait of Gibraltar: Europe/Africa → Atlantic/Mediterranean
+Palk Strait: India/Sri Lanka | Hormuz: Iran/Oman → Persian Gulf/Arabian Sea
+Malacca: Malaysia/Indonesia → Pacific/Indian Ocean
+Bering Strait: Russia/Alaska → Arctic/Pacific
+Suez Canal: Red Sea ↔ Mediterranean (NOT a strait)
+# Important Deserts
+Hot Deserts: Sahara (largest, Africa), Arabian, Thar (India), Atacama (driest)
+Cold Deserts: Gobi (Mongolia/China), Ladakh (India), Antarctic (largest desert overall)
+# Key Facts
+Thar Desert: Rajasthan, India | Sambhar Lake (saltwater) within Thar
+Cold Desert in India: Ladakh, Spiti (Himachal Pradesh)
+# Passes (India)
+Karakoram Pass: J&K (highest motorable) | Zoji La: J&K (NH-1)
+Rohtang Pass: Himachal | Shipki La: India-China (HP)
+Nathu La: Sikkim-China | Bom Di La: Arunachal-China
+Lipulekh: Uttarakhand | Diphu: Arunachal`,
             mindmap: {
-              root: "World Geog",
-              branches: [
-                {title: "Straits & Canals", subnodes: ["Malacca Strait", "Gibraltar Strait", "Hormuz Strait", "Suez/Panama Canals"]},
+                    "root": "Straits & Deserts",
+                    "branches": [
+                            {
+                                    "title": "Important Straits",
+                                    "subnodes": [
+                                            "Gibraltar: Europe-Africa",
+                                            "Palk Strait: India-Lanka",
+                                            "Hormuz: Gulf entry",
+                                            "Malacca: SE Asia trade"
+                                    ]
+                            },
+                            {
+                                    "title": "Hot Deserts",
+                                    "subnodes": [
+                                            "Sahara (Africa, largest)",
+                                            "Arabian (W. Asia)",
+                                            "Thar (India, Rajasthan)",
+                                            "Atacama (driest)"
+                                    ]
+                            },
+                            {
+                                    "title": "Cold Deserts",
+                                    "subnodes": [
+                                            "Gobi (Mongolia/China)",
+                                            "Ladakh (India)",
+                                            "Antarctic (overall largest)"
+                                    ]
+                            },
+                            {
+                                    "title": "Mountain Passes (India)",
+                                    "subnodes": [
+                                            "Karakoram (J&K)",
+                                            "Rohtang (Himachal)",
+                                            "Nathu La (Sikkim)",
+                                            "Bom Di La (Arunachal)"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Deserts", subnodes: ["Sahara (Africa)", "Atacama (driest)", "Gobi (cold)"]}
               ]
             }
@@ -2966,11 +4315,63 @@ const NOTES_DATABASE = {
             id: "india-forests-wetlands",
             title: "Forests, Trees & Wetlands of India",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Wetlands (Ramsar Sites)",
+            formulas: `# Forest Types in India
+Tropical Evergreen: Annual rainfall >200cm, Western Ghats, NE India (Rosewood, Ebony)
+Tropical Deciduous (Monsoon): 100-200cm rainfall, most common (Teak, Sal, Sandalwood)
+Thorn & Scrub: <75cm rainfall, Rajasthan, Gujarat (Babool, Khair)
+Montane: Himalayan foothills (Oak, Rhododendron, Deodar)
+Mangrove: Coastal/deltaic (Sundarbans - largest mangrove; Sundari tree gives name)
+# Important Ramsar Wetlands (India)
+Chilika Lake (Odisha) - 1st Ramsar site in India
+Keoladeo Ghana (Rajasthan) - Bharatpur Bird Sanctuary
+Loktak Lake (Manipur) - Floating Islands (Phumdis)
+Wular Lake (J&K) - Largest freshwater lake in India
+Sambhar Lake (Rajasthan) - Largest saltwater lake in India
+Kolleru Lake (Andhra Pradesh)
+# Key Protected Areas
+Project Tiger (1973): 54 reserves | Project Elephant: 32 reserves
+# Forest Cover (approx)
+India: ~21.7% of geographical area is forest cover`,
             mindmap: {
-              root: "Forests & Wetlands",
-              branches: [
-                {title: "Forest Types", subnodes: ["Evergreen", "Deciduous (Teak/Sal)", "Mangroves"]},
+                    "root": "Forests & Wetlands",
+                    "branches": [
+                            {
+                                    "title": "Forest Types",
+                                    "subnodes": [
+                                            "Evergreen: >200cm rain",
+                                            "Deciduous: Teak, Sal",
+                                            "Thorn/Scrub: <75cm",
+                                            "Mangrove: coastal/delta"
+                                    ]
+                            },
+                            {
+                                    "title": "Ramsar Sites",
+                                    "subnodes": [
+                                            "Chilika (Odisha, 1st)",
+                                            "Keoladeo (Rajasthan)",
+                                            "Loktak (Manipur)",
+                                            "Wular (J&K)"
+                                    ]
+                            },
+                            {
+                                    "title": "Mangroves",
+                                    "subnodes": [
+                                            "Sundarbans (largest)",
+                                            "Sundari tree namesake",
+                                            "Bengal/Andaman/Gujarat"
+                                    ]
+                            },
+                            {
+                                    "title": "Wildlife Projects",
+                                    "subnodes": [
+                                            "Project Tiger (1973)",
+                                            "54 Tiger Reserves",
+                                            "Project Elephant",
+                                            "Crocodile Project"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Wetlands", subnodes: ["Ramsar Convention", "Chilika", "Keoladeo"]}
               ]
             }
@@ -2979,11 +4380,64 @@ const NOTES_DATABASE = {
             id: "india-resources-farming",
             title: "Mineral Resources & Types of Farming",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Mineral Belts of India",
+            formulas: `# Mineral Distribution
+Iron Ore: Jharkhand, Odisha (Singhbhum), Chhattisgarh (Bailadila)
+Coal: Jharkhand (Jharia - largest), West Bengal (Raniganj), MP, Odisha
+Petroleum: Assam (oldest), Mumbai High (largest offshore), Rajasthan
+Mica: Jharkhand (leading), Rajasthan, Andhra Pradesh
+Copper: Jharkhand (Singhbhum), Rajasthan (Khetri)
+Bauxite: Odisha, Jharkhand, MP, Gujarat
+# Agriculture - Key Crops
+Kharif (June-Nov): Rice, Maize, Cotton, Jute, Bajra, Jowar, Groundnut
+Rabi (Nov-April): Wheat, Barley, Mustard, Peas, Gram
+Zaid (Summer): Cucumber, Watermelon
+# Agricultural Revolutions
+Green (Wheat): 1960s, Punjab/Haryana | Blue (Fish): Inland fish
+White (Milk): Operation Flood, Amul | Yellow (Oilseeds)
+Pink (Shrimp/Meat) | Golden (Fruits/Honey) | Silver (Eggs)
+# Leading States
+Rice: WB, UP, Andhra | Wheat: UP, Punjab, Haryana
+Cotton: Gujarat, Maharashtra | Jute: WB (90%+)`,
             mindmap: {
-              root: "Resources & Farming",
-              branches: [
-                {title: "Mineral Belts", subnodes: ["Chhota Nagpur", "Western", "Southern"]},
+                    "root": "Resources & Farming",
+                    "branches": [
+                            {
+                                    "title": "Minerals",
+                                    "subnodes": [
+                                            "Iron: Jharkhand/Odisha",
+                                            "Coal: Jharia (largest)",
+                                            "Petroleum: Mumbai High",
+                                            "Mica: Jharkhand"
+                                    ]
+                            },
+                            {
+                                    "title": "Crops",
+                                    "subnodes": [
+                                            "Kharif: Rice, Cotton (Jun-Nov)",
+                                            "Rabi: Wheat, Mustard (Nov-Apr)",
+                                            "Zaid: Summer crops"
+                                    ]
+                            },
+                            {
+                                    "title": "Revolutions",
+                                    "subnodes": [
+                                            "Green: Wheat",
+                                            "White: Milk (Amul)",
+                                            "Blue: Fish",
+                                            "Yellow: Oilseeds"
+                                    ]
+                            },
+                            {
+                                    "title": "Leading States",
+                                    "subnodes": [
+                                            "Rice: WB, UP",
+                                            "Wheat: UP, Punjab",
+                                            "Cotton: Gujarat",
+                                            "Jute: West Bengal"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Farming", subnodes: ["Shifting", "Intensive", "Subsistence", "Jhuming"]}
               ]
             }
@@ -2992,11 +4446,64 @@ const NOTES_DATABASE = {
             id: "india-transport-routes",
             title: "Transport Routes: Highways & Waterways",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Highways & Waterways corridors",
+            formulas: `# National Highways
+Longest: NH-44 (Srinagar to Kanyakumari, ~4000km, formerly NH-7)
+NH-1: Delhi to Amritsar (renamed NH-44 in new system)
+Golden Quadrilateral: Delhi-Mumbai-Chennai-Kolkata (5846 km)
+# Waterways
+NW-1: Ganga (Allahabad to Haldia) - longest
+NW-2: Brahmaputra (Dhubri to Sadiya)
+NW-3: West Coast Canal (Kerala)
+# Ports
+Major Ports (12): Mumbai (largest), JNPT (busiest container), Chennai, Kolkata
+Ennore (Kamarajar), Kandla (largest by cargo volume), Vishakhapatnam (deepest)
+# Railways
+Largest employer in India | ~67,000+ route km
+Gauge: Broad (1676mm) standard in India
+# Airways
+IATA codes: DEL (Delhi), BOM (Mumbai), MAA (Chennai), BLR (Bengaluru)
+Busiest: Indira Gandhi International (Delhi)`,
             mindmap: {
-              root: "Transport",
-              branches: [
-                {title: "Highways", subnodes: ["NH44", "NH48", "Golden Quadrilateral"]},
+                    "root": "Transport Routes",
+                    "branches": [
+                            {
+                                    "title": "Highways",
+                                    "subnodes": [
+                                            "NH-44: Srinagar-Kanyakumari (longest)",
+                                            "Golden Quadrilateral (5846km)",
+                                            "N-S, E-W Corridor",
+                                            "Bharatmala Project"
+                                    ]
+                            },
+                            {
+                                    "title": "Waterways",
+                                    "subnodes": [
+                                            "NW-1: Ganga (longest)",
+                                            "NW-2: Brahmaputra",
+                                            "NW-3: West Coast Canal",
+                                            "Sagarmala Project"
+                                    ]
+                            },
+                            {
+                                    "title": "Ports",
+                                    "subnodes": [
+                                            "Mumbai (largest)",
+                                            "JNPT (busiest containers)",
+                                            "Kandla (largest by cargo)",
+                                            "Vizag (deepest)"
+                                    ]
+                            },
+                            {
+                                    "title": "Railways",
+                                    "subnodes": [
+                                            "~67000 route km",
+                                            "Broad gauge standard",
+                                            "Dedicated Freight Corridors",
+                                            "Bullet train planned"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Waterways", subnodes: ["NW1 (Ganga)", "NW2 (Brahmaputra)"]}
               ]
             }
@@ -3005,11 +4512,63 @@ const NOTES_DATABASE = {
             id: "india-national-parks",
             title: "National Parks of India (Map Guide)",
             notes: "Detailed notes expanded in notes_extra_4.js",
-            formulas: "Key National Parks locations",
+            formulas: `# Famous National Parks & Wildlife Sanctuaries
+Jim Corbett (Uttarakhand): 1st NP in India (1936), Tigers, Elephants
+Kaziranga (Assam): 70%+ world's one-horned rhino, UNESCO
+Sundarbans (WB/Bangladesh): Largest mangrove, Royal Bengal Tiger, UNESCO
+Gir (Gujarat): Only Asiatic Lions in wild
+Ranthambore (Rajasthan): Tiger reserve, historic fort
+Sariska (Rajasthan): Tiger reserve
+Bandipur (Karnataka): Tigers, Elephants, WHS
+Periyar (Kerala): Elephants, in Cardamom Hills
+Keoladeo/Bharatpur (Rajasthan): Bird sanctuary, UNESCO, Siberian Cranes
+Valley of Flowers (Uttarakhand): UNESCO, alpine flowers
+Manas (Assam): UNESCO, Project Tiger & Elephant
+Namdapha (Arunachal): Largest NP in Northeast
+# Project Tiger
+Launched: 1973 | Sites: 54 | High density: Madhya Pradesh
+# Conservation Status (IUCN)
+EX (Extinct) > EW > CR (Critically Endangered) > EN > VU > NT > LC`,
             mindmap: {
-              root: "National Parks",
-              branches: [
-                {title: "North", subnodes: ["Jim Corbett", "Dachigam"]},
+                    "root": "National Parks",
+                    "branches": [
+                            {
+                                    "title": "UNESCO World Heritage",
+                                    "subnodes": [
+                                            "Kaziranga (Rhino)",
+                                            "Sundarbans (Tiger)",
+                                            "Keoladeo (Birds)",
+                                            "Valley of Flowers",
+                                            "Manas (Assam)"
+                                    ]
+                            },
+                            {
+                                    "title": "Big Cats",
+                                    "subnodes": [
+                                            "Jim Corbett (1st NP)",
+                                            "Ranthambore (Tigers)",
+                                            "Gir (Asiatic Lions)",
+                                            "Sariska (Tigers)"
+                                    ]
+                            },
+                            {
+                                    "title": "Unique Wildlife",
+                                    "subnodes": [
+                                            "Kaziranga: Rhinos",
+                                            "Periyar: Elephants",
+                                            "Namdapha: Snow Leopard"
+                                    ]
+                            },
+                            {
+                                    "title": "Projects",
+                                    "subnodes": [
+                                            "Project Tiger (1973)",
+                                            "Project Elephant (1992)",
+                                            "54 Tiger Reserves"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "East/Northeast", subnodes: ["Kaziranga", "Sundarbans"]},
                 {title: "West/Central", subnodes: ["Gir", "Kanha", "Ranthambore"]},
                 {title: "South", subnodes: ["Bandipur", "Silent Valley"]}
@@ -3565,11 +5124,63 @@ const NOTES_DATABASE = {
             id: "physics-heat",
             title: "Thermodynamics & Heat Transfer",
             notes: "Detailed notes expanded in notes_extra_9.js",
-            formulas: "Temp: C/5 = (F-32)/9 = (K-273)/5\nTransfer: Conduction (solids), Convection (fluids), Radiation (no medium)\nLaws: Zeroth (thermal equilibrium), 1st (conservation of energy), 2nd (entropy increases)",
+            formulas: `# Laws of Thermodynamics
+Zeroth Law: If A=B and B=C thermally → A=C (defines temperature)
+First Law (Energy Conservation): Q = ΔU + W | Heat in = Internal energy + Work done
+Second Law (Entropy): Heat flows spontaneously from hot to cold; entropy always increases
+Third Law: Entropy → 0 as Temperature → 0 K (absolute zero)
+# Heat Transfer
+Conduction: Q/t = kA(T₁-T₂)/d [Fourier's Law]
+Convection: Heat carried by fluid flow
+Radiation: Q = σAεT⁴ [Stefan-Boltzmann] (no medium needed)
+# Ohm's Law & Electricity
+V = IR | P = VI = I²R = V²/R
+Series: Rₜ = R₁+R₂+... | Parallel: 1/Rₜ = 1/R₁+1/R₂+...
+# Temperature Scales
+°C = (°F - 32) × 5/9 | °F = °C × 9/5 + 32
+K = °C + 273.15 | Absolute zero = -273.15°C = 0 K
+# Specific Heat
+Water: 4200 J/kg·K | Ice: 2100 J/kg·K | Steel: ~500 J/kg·K
+Q = mcΔT | Latent Heat: Q = mL (no temperature change)`,
             mindmap: {
-              root: "Thermodynamics",
-              branches: [
-                {title: "Temp Scales", subnodes: ["Celsius", "Fahrenheit", "Kelvin (SI)"]},
+                    "root": "Thermodynamics & Heat",
+                    "branches": [
+                            {
+                                    "title": "Laws of Thermo",
+                                    "subnodes": [
+                                            "Zeroth: Thermal equilibrium",
+                                            "First: Q = ΔU + W",
+                                            "Second: Entropy increases",
+                                            "Third: S to 0 at T=0"
+                                    ]
+                            },
+                            {
+                                    "title": "Heat Transfer",
+                                    "subnodes": [
+                                            "Conduction (solid)",
+                                            "Convection (fluid)",
+                                            "Radiation (no medium)",
+                                            "Stefan-Boltzmann: σAεT⁴"
+                                    ]
+                            },
+                            {
+                                    "title": "Temperature Scales",
+                                    "subnodes": [
+                                            "K = °C + 273",
+                                            "°F = °C×9/5 + 32",
+                                            "Absolute zero: 0 K = -273.15°C"
+                                    ]
+                            },
+                            {
+                                    "title": "Specific Heat",
+                                    "subnodes": [
+                                            "Q = mcΔT",
+                                            "Latent heat Q = mL",
+                                            "Water: 4200 J/kg·K"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Heat Transfer", subnodes: ["Conduction (molecular contact)", "Convection (fluid currents)", "Radiation (EM waves)"]},
                 {title: "Laws", subnodes: ["Zeroth: Equilibrium", "1st: dQ = dU + dW", "2nd: Entropy direction"]}
               ]
@@ -3585,11 +5196,72 @@ const NOTES_DATABASE = {
             id: "physics-electricity-magnetism",
             title: "Electricity, Circuits & Magnetism",
             notes: "Detailed notes expanded in notes_extra_9.js",
-            formulas: "Ohm's Law: V = I * R\nResistance: Series (Rs = R1+R2), Parallel (1/Rp = 1/R1 + 1/R2)\nPower: P = V * I = I^2 * R\nForce: F = q * (v x B)\nInduction: Faraday's & Lenz's Laws",
+            formulas: `# Electricity
+Coulomb's Law: F = k|q₁q₂|/r²
+Electric Field: E = F/q
+Potential Difference: V = W/q
+Ohm's Law: V = IR
+Resistance: R = ρL/A
+Resistors in Series: R_eq = R₁ + R₂ + ...
+Resistors in Parallel: 1/R_eq = 1/R₁ + 1/R₂ + ...
+Power: P = VI = I²R = V²/R
+# Magnetism
+Magnetic field of straight wire: B = (μ₀I)/(2πr)
+Lorentz Force: F = q(E + v×B)
+Force on current-carrying wire: F = ILB sinθ
+Faraday's Law of Induction: ε = -N(ΔΦ/Δt)
+Lenz's Law: Induced current opposes change in flux.`
+Coulomb's Law: F = k|q₁q₂|/r²
+Electric Field: E = F/q
+Potential Difference: V = W/q
+Ohm's Law: V = IR
+Resistance: R = ρL/A
+Resistors in Series: R_eq = R₁ + R₂ + ...
+Resistors in Parallel: 1/R_eq = 1/R₁ + 1/R₂ + ...
+Power: P = VI = I²R = V²/R
+# Magnetism
+Magnetic field of straight wire: B = (μ₀I)/(2πr)
+Lorentz Force: F = q(E + v×B)
+Force on current-carrying wire: F = ILB sinθ
+Faraday's Law of Induction: ε = -N(ΔΦ/Δt)
+Lenz's Law: Induced current opposes change in flux.`s Law: V = I * R\nResistance: Series (Rs = R1+R2), Parallel (1/Rp = 1/R1 + 1/R2)\nPower: P = V * I = I^2 * R\nForce: F = q * (v x B)\nInduction: Faraday's & Lenz's Laws",
             mindmap: {
-              root: "Electromagnetism",
-              branches: [
-                {title: "Electrostatics", subnodes: ["Coulomb's Law", "Electric Field", "Capacitance"]},
+                    "root": "Electricity & Magnetism",
+                    "branches": [
+                            {
+                                    "title": "Electrostatics",
+                                    "subnodes": [
+                                            "Coulomb's Law",
+                                            "Electric Field (E=F/q)",
+                                            "Electric Potential (V=W/q)"
+                                    ]
+                            },
+                            {
+                                    "title": "Current Electricity",
+                                    "subnodes": [
+                                            "Ohm's Law (V=IR)",
+                                            "Series/Parallel Resistors",
+                                            "Electric Power (P=VI)"
+                                    ]
+                            },
+                            {
+                                    "title": "Magnetism",
+                                    "subnodes": [
+                                            "Magnetic field (B)",
+                                            "Lorentz Force",
+                                            "Force on current wire"
+                                    ]
+                            },
+                            {
+                                    "title": "Electromagnetism",
+                                    "subnodes": [
+                                            "Faraday's Law of Induction",
+                                            "Lenz's Law",
+                                            "AC Generators/Transformers"
+                                    ]
+                            }
+                    ]
+            },
                 {title: "Current & Circuits", subnodes: ["Ohm's Law (V=IR)", "Series / Parallel", "Joule's Heating"]},
                 {title: "Magnetism", subnodes: ["Lorentz Force", "Electromagnetic Induction", "Transformers"]}
               ]
@@ -4224,9 +5896,43 @@ const NOTES_DATABASE = {
             notes: "Detailed notes expanded in notes_extra_8.js",
             formulas: "Vegetative: Potato (stem), Bryophyllum (leaf)\nDouble Fertilization: Syngamy (2n Zygote) + Triple Fusion (3n Endosperm)\nAuxin: Apical dominance, phototropism\nGibberellins: Stem growth, breaks seed dormancy\nCytokinin: Cell division, delays aging\nABA: Stress hormone, closes stomata\nEthylene: Gaseous hormone, fruit ripening",
             mindmap: {
-              root: "Plant Reproduction",
-              branches: [
-                { title: "Reproduction Mode", subnodes: ["Asexual: Spores, vegetative propagation", "Sexual: Flowers, pollination (Self & Cross)"] },
+                    "root": "Plant Reproduction",
+                    "branches": [
+                            {
+                                    "title": "Asexual Methods",
+                                    "subnodes": [
+                                            "Vegetative propagation",
+                                            "Budding, Fragmentation",
+                                            "Spore formation",
+                                            "Apomixis"
+                                    ]
+                            },
+                            {
+                                    "title": "Sexual Reproduction",
+                                    "subnodes": [
+                                            "Pollination: Self vs Cross",
+                                            "Wind, Water, Insect pollination",
+                                            "Fertilisation in flowers"
+                                    ]
+                            },
+                            {
+                                    "title": "Flower Parts",
+                                    "subnodes": [
+                                            "Stamen (anther+filament)",
+                                            "Pistil (stigma+style+ovary)",
+                                            "Sepals & Petals"
+                                    ]
+                            },
+                            {
+                                    "title": "Seed & Fruit",
+                                    "subnodes": [
+                                            "Ovule → Seed",
+                                            "Ovary → Fruit",
+                                            "Dispersal: Wind, Water, Animal"
+                                    ]
+                            }
+                    ]
+            },
                 { title: "Double Fertilization", subnodes: ["Syngamy: Male gamete + Egg -> Zygote (2n)", "Triple Fusion: Male gamete + 2 Polar nuclei -> Endosperm (3n)"] },
                 { title: "Phytohormones", subnodes: ["Auxin: Apical dominance", "Gibberellin: Germination", "Cytokinin: Cell division", "ABA: Stress, close stomata", "Ethylene: Ripening (gaseous)"] }
               ]
@@ -4242,7 +5948,24 @@ const NOTES_DATABASE = {
             id: "biology-ecology-basics",
             title: "Ecology Basics & Pyramids",
             notes: "Detailed notes expanded in notes_extra_9.js",
-            formulas: "Lindeman's 10% Law: only 10% energy transferred to next level\nPyramids: Numbers (inverted in tree), Biomass (inverted in marine), Energy (ALWAYS upright)\nEcotone: transition zone between two ecosystems (e.g., Mangrove)",
+            formulas: `# Photosynthesis
+Light Reaction (Thylakoids): Water splits → O₂ released, ATP + NADPH produced
+Dark Reaction/Calvin Cycle (Stroma): CO₂ fixed using ATP+NADPH → Glucose
+Overall: 6CO₂ + 6H₂O + Light → C₆H₁₂O₆ + 6O₂
+C3 plants: 1st product 3-PGA (wheat, rice, oats, most plants)
+C4 plants: 1st product OAA, adapted to hot/dry (maize, sugarcane)
+CAM plants: Night CO₂ uptake (cactus, pineapple)
+# Transpiration
+Loss of water vapour through stomata (leaf pores)
+Guard cells control stomatal opening/closing
+# Plant Hormones (Phytohormones)
+Auxin: Cell elongation, apical dominance, fruit development
+Gibberellin: Stem elongation, seed germination, bolting
+Cytokinin: Cell division, delays senescence, lateral bud growth
+Abscisic Acid (ABA): Stress hormone, stomatal closure, dormancy
+Ethylene: Fruit ripening, leaf abscission (gaseous hormone)
+# Lindeman's Law (Ecology)
+10% Energy Transfer Rule: Only 10% of energy passes from one trophic level to next`s 10% Law: only 10% energy transferred to next level\nPyramids: Numbers (inverted in tree), Biomass (inverted in marine), Energy (ALWAYS upright)\nEcotone: transition zone between two ecosystems (e.g., Mangrove)",
             mindmap: {
               root: "Ecology",
               branches: [

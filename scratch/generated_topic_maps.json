@@ -1,0 +1,412 @@
+{
+  "2d-geometry": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geometry": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "physical-geography": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "universe-solar-system": [
+    {
+      "title": "Human Body Systems",
+      "src": "images/human_body_systems.png"
+    }
+  ],
+  "climatology-clouds": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geomorphology-rocks": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "world-geography-mountains": [
+    {
+      "title": "Mountains Map",
+      "src": "images/india_mountains_map.png"
+    }
+  ],
+  "world-geography-straits-deserts": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geography-details": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "syl-geog": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "industrics-geopolitics": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geog-industries": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geog-geopolitics": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geography-pyq-trends": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "geography-pyq-trends-topic": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "physics-optics": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-mechanics": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-waves": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-sound": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-em-waves": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-thermodynamics": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-heat": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-electromagnetism": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-electricity-magnetism": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-modern": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-nuclear-basics": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-units-everyday": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-pyq-trends": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "physics-pyq-trends-topic": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "biology-cell": [
+    {
+      "title": "Cell Structure",
+      "src": "images/cell_diagram.png"
+    },
+    {
+      "title": "Cell Division",
+      "src": "images/cell_division_mitosis.png"
+    }
+  ],
+  "cell-structure": [
+    {
+      "title": "Cell Structure",
+      "src": "images/cell_diagram.png"
+    },
+    {
+      "title": "Cell Division",
+      "src": "images/cell_division_mitosis.png"
+    }
+  ],
+  "biology-physiology": [
+    {
+      "title": "EM Waves Chart",
+      "src": "images/em_waves_chart.png"
+    }
+  ],
+  "human-systems": [
+    {
+      "title": "Human Body Systems",
+      "src": "images/human_body_systems.png"
+    }
+  ],
+  "biology-diseases": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "biology-kingdoms": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "plant-kingdom": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "biology-botany": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "plant-reproduction": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "biology-ecology": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "biology-ecology-basics": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "missiles-systems": [
+    {
+      "title": "Human Body Systems",
+      "src": "images/human_body_systems.png"
+    }
+  ],
+  "reasoning-oir": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "syl-verbal-reasoning": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "syl-nonverbal-reasoning": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "syl-afcat-spatial": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-verbal-reasoning": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-analogy": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-classification": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-series": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-coding": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-directions": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-clock-calendar": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-venn": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-syllogism": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-conclusions": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-assumptions": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-nonverbal-reasoning": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-fig-analogy": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-fig-class-series": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-fig-completion": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-embedded": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-dot": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-cube-dice": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "afcat-r-fig-coding": [
+    {
+      "title": "Venn Diagrams",
+      "src": "images/afcat_venn_diagram.png"
+    }
+  ],
+  "ca-geopolitical-flashpoints": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ],
+  "biodiversity-conservation": [
+    {
+      "title": "Kingdoms",
+      "src": "images/animal_plant_kingdoms.png"
+    }
+  ],
+  "climate-laws-energy": [
+    {
+      "title": "World Climatic Zones",
+      "src": "images/world_climatic_zones_map.png"
+    }
+  ]
+}
