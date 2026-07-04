@@ -1,4 +1,4 @@
-// Tac-Revise Application Logic
+﻿// Tac-Revise Application Logic
 // Dependencies: data.js (which contains NOTES_DATABASE, CURRENT_AFFAIRS_DB, etc.)
 // ==========================================
 // 0. STANDALONE AI INTERCEPTOR (For Android/Capacitor App Support)
@@ -99,7 +99,7 @@ window.fetch = async function() {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
-                        'Authorization': 'Bearer YOUR_GROQ_API_KEY_HERE'
+                        'Authorization': 'Bearer PROCESS_ENV_GROQ_KEY'
                     },
                     body: JSON.stringify(groqBody)
                 });
@@ -120,7 +120,7 @@ window.fetch = async function() {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
-                        'Authorization': 'Bearer YOUR_CEREBRAS_API_KEY_HERE'
+                        'Authorization': 'Bearer csk-rjky9dk6mdmdcm6myw6mk4mv5jht5rvktjy9m8dcttn3e6td'
                     },
                     body: JSON.stringify(cerebrasBody)
                 });
@@ -130,7 +130,7 @@ window.fetch = async function() {
             }
             else if (targetAI === 'gemini') {
                 // Requires the user to provide their Gemini Key
-                const GEMINI_KEY = 'YOUR_GEMINI_API_KEY_HERE'; 
+                const GEMINI_KEY = 'PROCESS_ENV_GEMINI_KEY'; 
                 if (GEMINI_KEY === 'YOUR_GEMINI_API_KEY_HERE') {
                     aiText = (isJsonRequired ? "{}" : "") + "\n\n**[SYSTEM ALERT]** Gemini API key missing! Please add your Gemini key to the app.js interceptor to generate Notes, PYQ Analysis, and Current Affairs.";
                 } else {
@@ -579,53 +579,6 @@ function getTopicExams(topicId, subjectId) {
   return exams;
 }
 
-// -- Drill-Down View Logic for Notes --
-window.openNotesSubject = function(subjectId) {
-  currentSubjectFilter = subjectId;
-  const subjData = NOTES_DATABASE[subjectId];
-  if (subjData) {
-    document.getElementById('notes-active-subject-title').innerText = subjData.title;
-  }
-  
-  // Update Views
-  document.querySelectorAll('#screen-notes .full-page-view').forEach(el => {
-    el.style.display = 'none';
-    el.classList.remove('active');
-  });
-  const chaptersView = document.getElementById('notes-view-chapters');
-  if(chaptersView) {
-    chaptersView.style.display = 'block';
-    chaptersView.classList.add('active');
-  }
-  
-  renderNotesBrowser();
-};
-
-window.backToNotesSubjects = function() {
-  currentSubjectFilter = 'all';
-  document.querySelectorAll('#screen-notes .full-page-view').forEach(el => {
-    el.style.display = 'none';
-    el.classList.remove('active');
-  });
-  const subjectsView = document.getElementById('notes-view-subjects');
-  if(subjectsView) {
-    subjectsView.style.display = 'block';
-    subjectsView.classList.add('active');
-  }
-};
-
-window.backToNotesChapters = function() {
-  document.querySelectorAll('#screen-notes .full-page-view').forEach(el => {
-    el.style.display = 'none';
-    el.classList.remove('active');
-  });
-  const chaptersView = document.getElementById('notes-view-chapters');
-  if(chaptersView) {
-    chaptersView.style.display = 'block';
-    chaptersView.classList.add('active');
-  }
-};
-
 function renderNotesBrowser() {
   const accordionList = document.getElementById("notes-accordion-list");
   if (!accordionList) return;
@@ -776,10 +729,6 @@ function renderNotesBrowser() {
           selectedTopicId = topic.id;
           document.querySelectorAll(".topic-link").forEach(l => l.classList.remove("active"));
           topicLink.classList.add("active");
-          
-          document.getElementById('notes-view-chapters').style.display = 'none';
-          document.getElementById('notes-view-content').style.display = 'block';
-          
           renderTopicView(subjectId, chapter.id, topic.id);
           renderNotesBrowser();
         });
@@ -788,17 +737,8 @@ function renderNotesBrowser() {
       content.appendChild(chapterDiv);
     });
     
-    // In drill-down mode, chapters should be open by default
-    content.style.maxHeight = "1000px";
-    header.classList.add("active");
-    
     header.addEventListener("click", () => {
-      header.classList.toggle("active");
-      if (header.classList.contains("active")) {
-        content.style.maxHeight = content.scrollHeight + "px";
-      } else {
-        content.style.maxHeight = "0px";
-      }
+      accordionGroup.classList.toggle("open");
     });
     
     accordionGroup.appendChild(header);
@@ -1152,32 +1092,32 @@ function toggleFormulaReadStatus(topicId, button) {
 /**
  * Returns the current exam cycle bounds.
  * Exam Cycles:
- *   Cycle 1 (Apr → Sep): April, May, June, July, August, September
- *   Cycle 2 (Oct → Mar): October, November, December, January, February, March
+ *   Cycle 1 (Apr ΓåÆ Sep): April, May, June, July, August, September
+ *   Cycle 2 (Oct ΓåÆ Mar): October, November, December, January, February, March
  *
  * Returns { cycleLabel, startMonth (0-indexed), startYear, endMonth (0-indexed), endYear, months[] }
  * where months is an array of "Month YYYY" strings for the entire cycle.
  */
 function getExamCycleBounds() {
   const now = new Date();
-  const month = now.getMonth(); // 0=Jan … 11=Dec
+  const month = now.getMonth(); // 0=Jan ΓÇª 11=Dec
   const year  = now.getFullYear();
 
   let cycleLabel, startMonth, startYear, endMonth, endYear;
 
   if (month >= 3 && month <= 8) {
     // April (3) to September (8)
-    cycleLabel  = `Apr ${year} — Sep ${year}`;
+    cycleLabel  = `Apr ${year} ΓÇö Sep ${year}`;
     startMonth  = 3; startYear  = year;
     endMonth    = 8; endYear    = year;
   } else if (month >= 9) {
     // October (9) to March of next year
-    cycleLabel  = `Oct ${year} — Mar ${year + 1}`;
+    cycleLabel  = `Oct ${year} ΓÇö Mar ${year + 1}`;
     startMonth  = 9; startYear  = year;
     endMonth    = 2; endYear    = year + 1;
   } else {
-    // January (0) to March (2) — tail of previous Oct cycle
-    cycleLabel  = `Oct ${year - 1} — Mar ${year}`;
+    // January (0) to March (2) ΓÇö tail of previous Oct cycle
+    cycleLabel  = `Oct ${year - 1} ΓÇö Mar ${year}`;
     startMonth  = 9; startYear  = year - 1;
     endMonth    = 2; endYear    = year;
   }
@@ -1215,7 +1155,7 @@ function fetchDailyCurrentAffairs() {
   
   // Auto-reset if a previous fetch got stuck for more than 90 seconds
   if (isFetchingDailyNews && Date.now() - fetchStartTime > 90000) {
-    console.warn('[CA] Fetch timeout — resetting flags and retrying...');
+    console.warn('[CA] Fetch timeout ΓÇö resetting flags and retrying...');
     isFetchingDailyNews = false;
   }
   if (isFetchingDailyNews || hasFetchedDailyNews) return;
@@ -1227,8 +1167,8 @@ function fetchDailyCurrentAffairs() {
     pane.innerHTML = `<div style="text-align: center; margin-top: 40px; padding: 30px;">
       <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 48px; height: 48px; border-width: 4px; margin: 0 auto 20px;"></div>
       <p style="color: var(--accent); font-family: var(--font-mono); letter-spacing: 1px; font-weight: 700; font-size: 0.95rem;">RETRIEVING INTELLIGENCE BRIEFING</p>
-      <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 8px;">Scanning PIB · Google News · 10 UPSC Topic Areas</p>
-      <p style="color: var(--text-muted); font-size: 0.8rem; margin-top: 6px;">AI enriching with UPSC highlights — this may take 15-30 seconds...</p>
+      <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 8px;">Scanning PIB ┬╖ Google News ┬╖ 10 UPSC Topic Areas</p>
+      <p style="color: var(--text-muted); font-size: 0.8rem; margin-top: 6px;">AI enriching with UPSC highlights ΓÇö this may take 15-30 seconds...</p>
     </div>`;
   }
 
@@ -1286,7 +1226,7 @@ function renderCurrentAffairsHub() {
   // If no data falls in current cycle, fall back to all keys (graceful degradation)
   const keys = cycleKeys.length > 0 ? cycleKeys : allKeys;
 
-  // Auto-select a month: prefer current month → first month in cycle → fallback first key
+  // Auto-select a month: prefer current month ΓåÆ first month in cycle ΓåÆ fallback first key
   if (!keys.includes(activeCaMonth)) {
     const currentMonthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
     if (keys.includes(currentMonthStr)) {
@@ -1297,12 +1237,11 @@ function renderCurrentAffairsHub() {
   }
 
   const monthsList = document.getElementById("ca-month-list");
-  if (!monthsList) return;
   monthsList.innerHTML = "";
 
-  // Cycle banner at top of grid (taking full width)
+  // Cycle banner at top of sidebar
   const banner = document.createElement("div");
-  banner.style.cssText = "grid-column: 1 / -1; padding: 8px 12px; margin-bottom: 10px; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; font-family: var(--font-mono); color: var(--accent); background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.2); border-radius: 5px; text-align: center;";
+  banner.style.cssText = "padding: 8px 12px; margin-bottom: 10px; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; font-family: var(--font-mono); color: var(--accent); background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.2); border-radius: 5px; text-align: center;";
   banner.textContent = `Exam Cycle: ${cycle.cycleLabel}`;
   monthsList.appendChild(banner);
 
@@ -1311,27 +1250,11 @@ function renderCurrentAffairsHub() {
     .filter(m => keys.includes(m))
     .forEach(month => {
       const item = document.createElement("div");
-      item.className = `subject-card ${month === activeCaMonth ? 'active' : ''}`;
-      if (month === activeCaMonth) {
-        item.style.cssText = "background: rgba(34,197,94,0.1); border: 1px solid var(--accent); padding: 15px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;";
-      } else {
-        item.style.cssText = "background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 15px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;";
-      }
-      
-      const monthParts = month.split(" ");
-      const mName = monthParts[0];
-      const yName = monthParts[1] || "";
-      
-      item.innerHTML = `
-        <h3 style="margin-bottom: 4px; font-size: 1.1rem;">${mName}</h3>
-        <div style="font-size: 0.8rem; color: var(--text-muted);">${yName}</div>
-      `;
-      
+      item.className = `month-item ${month === activeCaMonth ? 'active' : ''}`;
+      item.innerText = month;
       item.addEventListener("click", () => {
         activeCaMonth = month;
-        document.getElementById('ca-view-months').style.display = 'none';
-        document.getElementById('ca-view-content').style.display = 'block';
-        renderCurrentMonthAffairs();
+        renderCurrentAffairsHub();
       });
       monthsList.appendChild(item);
     });
@@ -1354,6 +1277,24 @@ function renderCurrentMonthAffairs() {
   const SVG_TARGET  = `<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>`;
   const SVG_QUIZ    = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>`;
 
+  // Topic distribution summary
+  const topicCounts = {};
+  data.forEach(item => { const t = item.topic || 'General'; topicCounts[t] = (topicCounts[t] || 0) + 1; });
+
+  let html = `
+    <div style="margin-bottom:20px;">
+      <h2 style="margin:0 0 4px; font-size:1.2rem; font-weight:700; letter-spacing:0.3px;">Current Affairs ΓÇö ${activeCaMonth}</h2>
+      <p style="margin:0 0 12px; font-size:0.82rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:0.5px;">PIB + NEWS ┬╖ AI-ENRICHED ┬╖ ${data.length} ITEMS ┬╖ CYCLE: ${getExamCycleBounds().cycleLabel}</p>
+      <div style="display:flex; gap:5px; flex-wrap:wrap;">
+        ${Object.entries(topicCounts).map(([t,c]) => {
+          const safeTopic = (t || 'General').toUpperCase().replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
+          return `<span onclick="document.getElementById('topic-${safeTopic}')?.scrollIntoView({behavior: 'smooth', block: 'start'})" onmouseover="this.style.background='rgba(255,255,255,0.12)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'" style="cursor:pointer; font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase; transition:background 0.2s;">${t}&thinsp;┬╖&thinsp;${c}</span>`;
+        }).join('')}
+      </div>
+    </div>
+    <div style="height:1px; background:var(--border); margin-bottom:22px;"></div>
+  `;
+
   function getTopicColor(topicStr, itemTopicColor) {
     if (itemTopicColor && /^#[0-9A-Fa-f]{3,6}$/.test(itemTopicColor)) return itemTopicColor;
     if (!topicStr) return '#64748b';
@@ -1372,30 +1313,6 @@ function renderCurrentMonthAffairs() {
     if (t.includes('award')) return '#6d28d9';
     return '#64748b';
   }
-
-  // Topic distribution summary
-  const topicCounts = {};
-  const topicColors = {};
-  data.forEach(item => { 
-    const t = item.topic || 'General'; 
-    topicCounts[t] = (topicCounts[t] || 0) + 1; 
-    if (!topicColors[t]) topicColors[t] = getTopicColor(item.topic, item.topicColor);
-  });
-
-  let html = `
-    <div style="margin-bottom:20px;">
-      <h2 style="margin:0 0 4px; font-size:1.2rem; font-weight:700; letter-spacing:0.3px;">Current Affairs — ${activeCaMonth}</h2>
-      <p style="margin:0 0 12px; font-size:0.82rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:0.5px;">PIB + NEWS · AI-ENRICHED · ${data.length} ITEMS · CYCLE: ${getExamCycleBounds().cycleLabel}</p>
-      <div style="display:flex; gap:5px; flex-wrap:wrap;">
-        ${Object.entries(topicCounts).map(([t,c]) => {
-          const safeTopic = (t || 'General').toUpperCase().replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
-          const tColor = topicColors[t] || '#ffffff';
-          return \`<span onclick="document.getElementById('topic-\${safeTopic}')?.scrollIntoView({behavior: 'smooth', block: 'start'})" onmouseover="this.style.background='rgba(255,255,255,0.12)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'" style="cursor:pointer; font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase; color:\${tColor}; transition:background 0.2s;">\${t}&thinsp;·&thinsp;\${c}</span>\`;
-        }).join('')}
-      </div>
-    </div>
-    <div style="height:1px; background:var(--border); margin-bottom:22px;"></div>
-  `;
 
   let topicSeen = new Set();
   data.forEach(item => {
@@ -1508,7 +1425,7 @@ function renderCurrentMonthAffairs() {
         ${item.quickSummary ? `
           <details style="margin-top: 12px; border: 1px solid rgba(168, 85, 247, 0.2); border-radius: 6px; background: rgba(168, 85, 247, 0.02); overflow: hidden;">
             <summary style="padding: 10px 14px; font-weight: 700; font-size: 0.8rem; color: #c084fc; cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: space-between; outline: none; background: rgba(168, 85, 247, 0.05);">
-              <span>⚡ COMMAND INTEL: Click to expand UPSC Depth Analysis</span>
+              <span>ΓÜí COMMAND INTEL: Click to expand UPSC Depth Analysis</span>
             </summary>
             <div style="padding: 16px; border-top: 1px solid rgba(168, 85, 247, 0.15); font-size: 0.88rem; line-height: 1.6; display: flex; flex-direction: column; gap: 14px; color: var(--text-secondary);">
               <div>
@@ -1555,7 +1472,7 @@ function renderCurrentMonthAffairs() {
 
               ${item.potentialQuestions ? `
                 <div style="margin-top: 8px; padding: 12px; background: rgba(0,0,0,0.15); border-radius: 6px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; gap: 8px; font-size: 0.82rem;">
-                  <strong style="color: var(--info); font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">💡 Analytical Doubts & SSB Scenarios</strong>
+                  <strong style="color: var(--info); font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">≡ƒÆí Analytical Doubts & SSB Scenarios</strong>
                   ${item.potentialQuestions.shortAnswers ? `<div><strong>Short Answer Qs:</strong><ul style="margin: 2px 0 0; padding-left: 16px;">${item.potentialQuestions.shortAnswers.map(q => `<li>${q}</li>`).join('')}</ul></div>` : ''}
                   ${item.potentialQuestions.interviewQuestions ? `<div><strong>Personal Interview Qs:</strong><ul style="margin: 2px 0 0; padding-left: 16px;">${item.potentialQuestions.interviewQuestions.map(q => `<li>${q}</li>`).join('')}</ul></div>` : ''}
                   ${item.potentialQuestions.ssbDiscussionTopics ? `<div><strong>SSB Group Discussion:</strong><ul style="margin: 2px 0 0; padding-left: 16px;">${item.potentialQuestions.ssbDiscussionTopics.map(t => `<li>${t}</li>`).join('')}</ul></div>` : ''}
@@ -1578,7 +1495,7 @@ function renderCurrentMonthAffairs() {
           <span style="color:var(--accent);">${SVG_QUIZ}</span>
           <h3 style="margin:0; font-size:1rem; font-weight:700; letter-spacing:0.3px;">UPSC Prelims Mock</h3>
         </div>
-        <p style="color:var(--text-muted); font-size:0.82rem; margin:0 0 20px; font-family:var(--font-mono); letter-spacing:0.4px; text-transform:uppercase;">Current Affairs MCQs — Analytical, not recall-based</p>
+        <p style="color:var(--text-muted); font-size:0.82rem; margin:0 0 20px; font-family:var(--font-mono); letter-spacing:0.4px; text-transform:uppercase;">Current Affairs MCQs ΓÇö Analytical, not recall-based</p>
         <div class="panel">
     `;
 
@@ -1709,7 +1626,7 @@ function executePyqSearch() {
         <div style="padding: 8px; border: 1px solid var(--border); border-radius: 4px; margin-bottom: 4px; background: rgba(0,0,0,0.2);">
           <span style="font-weight: 600; margin-right: 8px;">${String.fromCharCode(65 + optIdx)}.</span> ${opt}
           <div class="pyq-ans-indicator ${uid}-ans" style="display: none; font-weight: 600; margin-top: 4px; ${isCorrect ? 'color: var(--accent);' : 'color: var(--danger);'}">
-            ${isCorrect ? '✓ CORRECT ANSWER' : '✗ INCORRECT'}
+            ${isCorrect ? 'Γ£ô CORRECT ANSWER' : 'Γ£ù INCORRECT'}
           </div>
         </div>
       `;
@@ -1830,37 +1747,6 @@ async function initSupabaseData() {
 let activeExamFilter = "all";
 let CBT_SESSION = null; 
 
-// -- Drill-Down View Logic for CBT Mock Hub --
-window.openCbtExam = function(examId) {
-  activeExamFilter = examId;
-  document.getElementById('cbt-active-exam-title').innerText = examId + ' Mock Exams';
-  
-  document.querySelectorAll('#screen-cbt-mock-hub .full-page-view').forEach(el => {
-    el.style.display = 'none';
-    el.classList.remove('active');
-  });
-  const listView = document.getElementById('cbt-view-list');
-  if(listView) {
-    listView.style.display = 'block';
-    listView.classList.add('active');
-  }
-  
-  renderCbtMockHub();
-};
-
-window.backToCbtExams = function() {
-  activeExamFilter = 'all';
-  document.querySelectorAll('#screen-cbt-mock-hub .full-page-view').forEach(el => {
-    el.style.display = 'none';
-    el.classList.remove('active');
-  });
-  const examsView = document.getElementById('cbt-view-exams');
-  if(examsView) {
-    examsView.style.display = 'block';
-    examsView.classList.add('active');
-  }
-}; 
-
 function renderCbtMockHub() {
   const container = document.getElementById("exams-list-container");
   container.innerHTML = "";
@@ -1893,10 +1779,10 @@ function renderCbtMockHub() {
     const sectionHeader = document.createElement("div");
     sectionHeader.style.cssText = "grid-column: 1 / -1; margin-top: 24px; margin-bottom: 12px; border-bottom: 2px solid var(--border); padding-bottom: 6px; display: flex; align-items: center; gap: 8px;";
     
-    let subIcon = "📚";
-    if (subjectName === "Mathematics") subIcon = "📐";
-    else if (subjectName === "English") subIcon = "✍️";
-    else subIcon = "🌍";
+    let subIcon = "≡ƒôÜ";
+    if (subjectName === "Mathematics") subIcon = "≡ƒôÉ";
+    else if (subjectName === "English") subIcon = "Γ£ì∩╕Å";
+    else subIcon = "≡ƒîì";
 
     sectionHeader.innerHTML = `<h2 style="color: var(--accent); font-family: var(--font-logo); font-size: 1.1rem; margin: 0; letter-spacing: 0.5px; text-transform: uppercase;">${subIcon} ${subjectName} Papers</h2>`;
     container.appendChild(sectionHeader);
@@ -2745,7 +2631,7 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
       <div class="panel" style="margin-bottom:20px;">
         <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border); padding-bottom:12px; margin-bottom:20px;">
           <h3 style="font-family:var(--font-logo); color: var(--accent);"> AI Explanation: ${topicName}</h3>
-          <span style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono)">POWERED BY GEMINI AI · FREE</span>
+          <span style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono)">POWERED BY GEMINI AI ┬╖ FREE</span>
         </div>
         <div style="font-size:0.92rem; line-height:1.8; color:var(--text-primary);">${parseWikiLinks(formattedText)}</div>
       </div>
@@ -3629,7 +3515,7 @@ function initCountdownTimer() {
         <span style="width: 10px; height: 10px; border-radius: 50%; background-color: ${currentData.color}; display: inline-block; box-shadow: 0 0 6px ${currentData.color};"></span>
         <span>${currentData.name}</span>
       </div>
-      <span style="font-size: 0.6rem; color: var(--text-muted);">▼</span>
+      <span style="font-size: 0.6rem; color: var(--text-muted);">Γû╝</span>
     `;
 
     // Populate option panel items
@@ -3916,8 +3802,6 @@ function toggleCurrentAffairsMode(mode) {
 }
 window.toggleCurrentAffairsMode = toggleCurrentAffairsMode;
 
-let currentCaMode = 'monthly';
-
 
 function renderCaVisitsTable() {
   const wrapper = document.getElementById("ca-visits-table-wrapper");
@@ -3929,7 +3813,7 @@ function renderCaVisitsTable() {
   // Update panel header with current exam cycle
   const cycle = getExamCycleBounds();
   const titleEl = document.getElementById("ca-visits-panel-title");
-  if (titleEl) titleEl.textContent = `International Visits & Bilateral Deals — Exam Cycle: ${cycle.cycleLabel}`;
+  if (titleEl) titleEl.textContent = `International Visits & Bilateral Deals ΓÇö Exam Cycle: ${cycle.cycleLabel}`;
 
   if (visits.length === 0) {
     wrapper.innerHTML = `<p style="color: var(--text-secondary); padding: 20px;">No visit data loaded for this exam cycle. Update CA_VISITS_DATA in ca_data.js.</p>`;
@@ -3952,7 +3836,7 @@ function renderCaVisitsTable() {
   wrapper.innerHTML = `<table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.9rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
 }
 
-// Data-driven renderer — reads from window.CA_FTA_DATA in ca_data.js
+// Data-driven renderer ΓÇö reads from window.CA_FTA_DATA in ca_data.js
 function renderCaFtaTable() {
   const wrapper = document.getElementById("ca-fta-table-wrapper");
   if (!wrapper) return;
@@ -3962,7 +3846,7 @@ function renderCaFtaTable() {
 
   const cycle2 = getExamCycleBounds();
   const titleEl2 = document.getElementById("ca-fta-panel-title");
-  if (titleEl2) titleEl2.textContent = `Trade Deals & FTAs — Exam Cycle: ${cycle2.cycleLabel} (Last Refreshed: ${meta.lastRefreshed || ""})`;
+  if (titleEl2) titleEl2.textContent = `Trade Deals & FTAs ΓÇö Exam Cycle: ${cycle2.cycleLabel} (Last Refreshed: ${meta.lastRefreshed || ""})`;
 
   if (ftas.length === 0) {
     wrapper.innerHTML = `<p style="color: var(--text-secondary); padding: 20px;">No FTA data loaded. Update CA_FTA_DATA in ca_data.js.</p>`;
@@ -3992,7 +3876,7 @@ function renderCaFtaTable() {
   wrapper.innerHTML = `<table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.88rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
 }
 
-// Data-driven renderer — reads from window.CA_DATES_DATA in ca_data.js
+// Data-driven renderer ΓÇö reads from window.CA_DATES_DATA in ca_data.js
 function renderCaDatesTable() {
   const wrapper = document.getElementById("ca-dates-table-wrapper");
   if (!wrapper) return;
@@ -4001,7 +3885,7 @@ function renderCaDatesTable() {
   const dates = window.CA_DATES_DATA || [];
 
   const titleEl = document.getElementById("ca-dates-panel-title");
-  if (titleEl) titleEl.textContent = `Important Dates & Themes — ${meta.examCycle || "2026"}`;
+  if (titleEl) titleEl.textContent = `Important Dates & Themes ΓÇö ${meta.examCycle || "2026"}`;
 
   if (dates.length === 0) {
     wrapper.innerHTML = `<p style="color: var(--text-secondary); padding: 20px;">No dates data loaded. Update CA_DATES_DATA in ca_data.js.</p>`;
@@ -4025,7 +3909,7 @@ function renderCaDatesTable() {
         </div>
         <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
           <button onclick="streamDetailedDateAnalysis('${d.name.replace(/'/g, "\\'")}', '${d.date.replace(/'/g, "\\'")}', 'ca-date-deep-${index}')" class="btn-primary" style="padding: 4px 10px; font-size: 0.72rem; border-radius: 4px; display: inline-flex; align-items: center; gap: 4px; background: rgba(168, 85, 247, 0.15); border: 1px solid rgba(168, 85, 247, 0.3); color: #c084fc; cursor: pointer;">
-            🔍 Generate Cadet Deep Dive (10-15 Paragraphs)
+            ≡ƒöì Generate Cadet Deep Dive (10-15 Paragraphs)
           </button>
         </div>
         <div id="ca-date-deep-${index}" style="display: none; margin-top: 10px; padding: 12px; background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.06); border-radius: 6px; font-size: 0.85rem; line-height: 1.6; color: var(--text-secondary);">
@@ -4147,6 +4031,8 @@ Do not use any emojis in your response. Keep the tone professional, scholarly, a
     container.innerHTML = `<span style="color: var(--danger); font-size: 0.8rem;">Guru uplink failed: ${err.message}</span>`;
   }
 }
+
+window.toggleCurrentAffairsMode = toggleCurrentAffairsMode;
 window.renderCaVisitsTable = renderCaVisitsTable;
 window.renderCaFtaTable = renderCaFtaTable;
 window.renderCaDatesTable = renderCaDatesTable;
@@ -4762,51 +4648,6 @@ Format the response cleanly with markdown headings, bullet points, and strong mi
 }
 
 // ==========================================
-// 12. VOCAB BUILDER MODULE
-// ==========================================
-let vocabData = null;
-
-// -- Drill-Down View Logic for Vocab Builder --
-window.openVocabMode = function(mode) {
-  document.querySelectorAll('#screen-vocab-builder .full-page-view').forEach(el => {
-    el.style.display = 'none';
-    el.classList.remove('active');
-  });
-  
-  if (mode === 'word') {
-    const wordView = document.getElementById('vocab-view-word');
-    if(wordView) {
-      wordView.style.display = 'block';
-      wordView.classList.add('active');
-    }
-    // ensure word is loaded
-    if(document.getElementById('vocab-word').innerText === 'Loading...') {
-      loadRandomWord();
-    }
-  } else if (mode === 'quiz') {
-    const quizView = document.getElementById('vocab-view-quiz');
-    if(quizView) {
-      quizView.style.display = 'block';
-      quizView.classList.add('active');
-    }
-  }
-};
-
-window.backToVocabModes = function() {
-  document.querySelectorAll('#screen-vocab-builder .full-page-view').forEach(el => {
-    el.style.display = 'none';
-    el.classList.remove('active');
-  });
-  const modesView = document.getElementById('vocab-view-modes');
-  if (modesView) {
-    modesView.style.display = 'block';
-    modesView.classList.add('active');
-  }
-};
-
-let currentVocabQuizQuestions = [];
-
-// ==========================================
 // 15. ENGLISH VOCAB BUILDER MODULE
 // ==========================================
 
@@ -4884,7 +4725,7 @@ function startVocabQuiz() {
   while(questions.length < 5) {
     const w = ENGLISH_VOCAB_DB[Math.floor(Math.random() * ENGLISH_VOCAB_DB.length)];
     // Ensure word has synonyms/antonyms
-    if (!w.synonyms || w.synonyms === '—' || !w.antonyms || w.antonyms === '—') continue;
+    if (!w.synonyms || w.synonyms === 'ΓÇö' || !w.antonyms || w.antonyms === 'ΓÇö') continue;
     
     // Type 0: Synonym, Type 1: Antonym
     const type = Math.random() > 0.5 ? 'synonym' : 'antonym';
@@ -4896,9 +4737,9 @@ function startVocabQuiz() {
       const wrongW = ENGLISH_VOCAB_DB[Math.floor(Math.random() * ENGLISH_VOCAB_DB.length)];
       if (wrongW.word !== w.word) {
         let wrongAns = '';
-        if (type === 'synonym' && wrongW.synonyms && wrongW.synonyms !== '—') {
+        if (type === 'synonym' && wrongW.synonyms && wrongW.synonyms !== 'ΓÇö') {
           wrongAns = wrongW.synonyms.split(',')[0].trim();
-        } else if (type === 'antonym' && wrongW.antonyms && wrongW.antonyms !== '—') {
+        } else if (type === 'antonym' && wrongW.antonyms && wrongW.antonyms !== 'ΓÇö') {
           wrongAns = wrongW.antonyms.split(',')[0].trim();
         } else {
           wrongAns = wrongW.word;
@@ -5395,7 +5236,7 @@ function drawSimulator() {
   const velocityPct = parseInt(document.getElementById('input-sim-velocity').value);
   const radarRadius = parseInt(document.getElementById('input-sim-radar').value);
   
-  document.getElementById('label-sim-angle').innerText = `${angle}°`;
+  document.getElementById('label-sim-angle').innerText = `${angle}┬░`;
   document.getElementById('label-sim-velocity').innerText = `${velocityPct}%`;
   document.getElementById('label-sim-radar').innerText = `${radarRadius} km`;
 
@@ -5998,19 +5839,19 @@ const AI_TOPIC_TEMPLATES = {
         question: "If A is a square matrix of order 3 and |A| = 5, what is the value of |2A|?",
         options: ["10", "40", "20", "80"],
         correct: 1,
-        explanation: "For a matrix A of order n, the property is |kA| = kⁿ|A|. Here, n = 3, k = 2, and |A| = 5. So, |2A| = 2³ * 5 = 8 * 5 = 40. Option B is correct."
+        explanation: "For a matrix A of order n, the property is |kA| = kΓü┐|A|. Here, n = 3, k = 2, and |A| = 5. So, |2A| = 2┬│ * 5 = 8 * 5 = 40. Option B is correct."
       },
       {
         question: "If A and B are symmetric matrices of same order, then AB - BA is always a:",
         options: ["Symmetric matrix", "Skew-symmetric matrix", "Identity matrix", "Zero matrix"],
         correct: 1,
-        explanation: "Let X = AB - BA. Take transpose: Xᵀ = (AB - BA)ᵀ = (AB)ᵀ - (BA)ᵀ = BᵀAᵀ - AᵀBᵀ. Since A and B are symmetric, Aᵀ = A and Bᵀ = B. So Xᵀ = BA - AB = -(AB - BA) = -X. Since Xᵀ = -X, the matrix is skew-symmetric. Option B is correct."
+        explanation: "Let X = AB - BA. Take transpose: Xß╡Ç = (AB - BA)ß╡Ç = (AB)ß╡Ç - (BA)ß╡Ç = Bß╡ÇAß╡Ç - Aß╡ÇBß╡Ç. Since A and B are symmetric, Aß╡Ç = A and Bß╡Ç = B. So Xß╡Ç = BA - AB = -(AB - BA) = -X. Since Xß╡Ç = -X, the matrix is skew-symmetric. Option B is correct."
       },
       {
         question: "If the determinant of matrix [[x, 2], [3, x]] is 10, what are the possible values of x?",
-        options: ["±4", "±2", "±16", "0"],
+        options: ["┬▒4", "┬▒2", "┬▒16", "0"],
         correct: 0,
-        explanation: "Det = (x * x) - (2 * 3) = x² - 6. Set this to 10: x² - 6 = 10 => x² = 16 => x = ±4. Option A is correct."
+        explanation: "Det = (x * x) - (2 * 3) = x┬▓ - 6. Set this to 10: x┬▓ - 6 = 10 => x┬▓ = 16 => x = ┬▒4. Option A is correct."
       }
     ]
   },
@@ -6041,10 +5882,10 @@ const AI_TOPIC_TEMPLATES = {
         explanation: "Magnification m = -v/u. Since the image is real, m = -3. The object distance u = -10 cm. So, -3 = -v / (-10) => v = -30 cm. The negative sign implies the image is formed in front of the mirror. Option A is correct."
       },
       {
-        question: "What is the refractive index of a medium if the speed of light in it is 2 * 10⁸ m/s? (Speed of light in vacuum c = 3 * 10⁸ m/s)",
+        question: "What is the refractive index of a medium if the speed of light in it is 2 * 10Γü╕ m/s? (Speed of light in vacuum c = 3 * 10Γü╕ m/s)",
         options: ["1.5", "1.2", "2.0", "1.33"],
         correct: 0,
-        explanation: "Refractive index n = c / v. n = (3 * 10⁸) / (2 * 10⁸) = 1.5. Option A is correct."
+        explanation: "Refractive index n = c / v. n = (3 * 10Γü╕) / (2 * 10Γü╕) = 1.5. Option A is correct."
       }
     ]
   },
@@ -6095,7 +5936,7 @@ const AI_TOPIC_TEMPLATES = {
         question: "The coefficient of static friction is always:",
         options: ["Less than coefficient of kinetic friction", "Greater than coefficient of kinetic friction", "Equal to coefficient of kinetic friction", "Zero"],
         correct: 1,
-        explanation: "Static friction is generally higher than kinetic friction because surfaces interlock more deeply when stationary. Therefore, μs > μk. Option B is correct."
+        explanation: "Static friction is generally higher than kinetic friction because surfaces interlock more deeply when stationary. Therefore, ╬╝s > ╬╝k. Option B is correct."
       }
     ]
   },
@@ -6121,9 +5962,9 @@ const AI_TOPIC_TEMPLATES = {
     questions: [
       {
         question: "Which chemical compound is known as Plaster of Paris?",
-        options: ["CaSO₄ · 2H₂O", "CaSO₄ · 0.5H₂O", "Na₂CO₃ · 10H₂O", "NaHCO₃"],
+        options: ["CaSOΓéä ┬╖ 2HΓééO", "CaSOΓéä ┬╖ 0.5HΓééO", "NaΓééCOΓéâ ┬╖ 10HΓééO", "NaHCOΓéâ"],
         correct: 1,
-        explanation: "Plaster of Paris is Calcium Sulphate Hemihydrate (CaSO₄ · 0.5H₂O). Gypsum is CaSO₄ · 2H₂O. Option B is correct."
+        explanation: "Plaster of Paris is Calcium Sulphate Hemihydrate (CaSOΓéä ┬╖ 0.5HΓééO). Gypsum is CaSOΓéä ┬╖ 2HΓééO. Option B is correct."
       },
       {
         question: "What color is phenolphthalein indicator in a basic/alkaline solution?",

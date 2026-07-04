@@ -570,11 +570,11 @@ ${textPrompt}`;
         const requestPayload = { 
           model: 'gpt-oss-120b',
           messages: messages,
-          temperature: generationConfig.temperature || 0.1,
+          temperature: (generationConfig && generationConfig.temperature) ? generationConfig.temperature : 0.1,
           max_completion_tokens: 1500
         };
         
-        if (generationConfig.response_mime_type === 'application/json') {
+        if (generationConfig && generationConfig.response_mime_type === 'application/json') {
           requestPayload.response_format = { type: "json_object" };
         }
 

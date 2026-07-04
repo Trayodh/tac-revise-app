@@ -8468,11 +8468,11 @@ let CURRENT_AFFAIRS_DB = {
   ],
   "July 2026": [
     {
-      "id": "ca_live_2026_07_02_fallback_4",
+      "id": "ca_live_2026_07_04_fallback_4",
       "topic": "International Relations",
       "topicColor": "#7c3aed",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCY...",
-      "text": "<strong>Centre appoints Lt Gen Dhiraj Seth as next Chief of Army Staff - The Times of India</strong><br><br>&lt;a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCYVphTEloYXNFelFabG13WUxPaUxBTmhmczdJSkVSNmNyQVJXcTdYWmc2SGlPUHZ5aTlacnd1TWJOb0xpdk9CSTZBbXNtT25jWjk5YmRHclBjalNRLXBKVWJMVjhxb3Z2Q1lrcVQzTlBDMUVqaGViSHlIWlJJWmg4aF85dXFrQUkzT0UxVndNWEM1ejRr0gHYAUFVX3lxTFBWOUNRU3k1T3p2dGRFVXBFTjV1XzlFM1hwLVgwdFdLUy1QTzExSmN4UGJqRS1Vd1NVVXdLcFJTVGJYM1NfdlNhY1RkSXpibERQeHRwUzB6bF9ncFdUdDhCZ0dObEp1SW5DNkhQMDBuQTc0c3poOWU <br><a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCYVphTEloYXNFelFabG13WUxPaUxBTmhmczdJSkVSNmNyQVJXcTdYWmc2SGlPUHZ5aTlacnd1TWJOb0xpdk9CSTZBbXNtT25jWjk5YmRHclBjalNRLXBKVWJMVjhxb3Z2Q1lrcVQzTlBDMUVqaGViSHlIWlJJWmg4aF85dXFrQUkzT0UxVndNWEM1ejRr0gHYAUFVX3lxTFBWOUNRU3k1T3p2dGRFVXBFTjV1XzlFM1hwLVgwdFdLUy1QTzExSmN4UGJqRS1Vd1NVVXdLcFJTVGJYM1NfdlNhY1RkSXpibERQeHRwUzB6bF9ncFdUdDhCZ0dObEp1SW5DNkhQMDBuQTc0c3poOWU0OTZSSk1QSDJaSjZXNk5yOHIzZUhVOGEzSWZCNTlOOTc1QTFPcFBVSzFadFlyN2NWZWpuOUlpU09LMlFYemU0RVE3YlZaS0hYb1hnbzhBZHRaZ2tlNDBudVJseGtrYTViaQ?oc=5\" target=\"_blank\" style=\"color:var(--accent);\">Read Original Release</a>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOWEx1Sk5yUEU0djRmanBkRGhrWVkxaTF1a2Y0N2xhUDJ3YVZCVVhubHJtendabzNkTWtFRHdyX3VtR2xQS3VqZ...",
+      "text": "<strong>Lt Gen Dhiraj Seth Appointed Next Army Chief - Kashmir Life</strong><br><br>&lt;a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOWEx1Sk5yUEU0djRmanBkRGhrWVkxaTF1a2Y0N2xhUDJ3YVZCVVhubHJtendabzNkTWtFRHdyX3VtR2xQS3VqZmlRbEw5cHhIMDJjUUN4TzJIZ1hXbGc2c3pVWWFsazJSRkl1UFRXUHVuNHl4VktkaXlhUEZYWnk1eUxn?oc=5\" target=\"_blank\"&gt;Lt Gen Dhiraj Seth Appointed Next Army Chief&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;Kashmir Life&lt;/font&gt; <br><a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOWEx1Sk5yUEU0djRmanBkRGhrWVkxaTF1a2Y0N2xhUDJ3YVZCVVhubHJtendabzNkTWtFRHdyX3VtR2xQS3VqZmlRbEw5cHhIMDJjUUN4TzJIZ1hXbGc2c3pVWWFsazJSRkl1UFRXUHVuNHl4VktkaXlhUEZYWnk1eUxn?oc=5\" target=\"_blank\" style=\"color:var(--accent);\">Read Original Release</a>",
       "quickSummary": "Quick AI summary is currently offline due to an expired API key uplink.",
       "detailedAnalysis": "Deep-dive analysis is currently offline. Please refer to official sources or read the full article by following the official link.",
       "backgroundContext": "Background context is offline.",
@@ -8499,12 +8499,12 @@ let CURRENT_AFFAIRS_DB = {
       "institutionalContext": "Official Press Release / News",
       "strategicImportance": "Please read the full official release for strategic context.",
       "originalSource": "PIB / Government Source",
-      "publicationDate": "2026-07-02",
-      "lastUpdatedDate": "2026-07-02",
+      "publicationDate": "2026-07-04",
+      "lastUpdatedDate": "2026-07-04",
       "verificationStatus": "Raw Feed (AI Unverified)",
-      "relatedOfficialDocuments": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCYVphTEloYXNFelFabG13WUxPaUxBTmhmczdJSkVSNmNyQVJXcTdYWmc2SGlPUHZ5aTlacnd1TWJOb0xpdk9CSTZBbXNtT25jWjk5YmRHclBjalNRLXBKVWJMVjhxb3Z2Q1lrcVQzTlBDMUVqaGViSHlIWlJJWmg4aF85dXFrQUkzT0UxVndNWEM1ejRr0gHYAUFVX3lxTFBWOUNRU3k1T3p2dGRFVXBFTjV1XzlFM1hwLVgwdFdLUy1QTzExSmN4UGJqRS1Vd1NVVXdLcFJTVGJYM1NfdlNhY1RkSXpibERQeHRwUzB6bF9ncFdUdDhCZ0dObEp1SW5DNkhQMDBuQTc0c3poOWU0OTZSSk1QSDJaSjZXNk5yOHIzZUhVOGEzSWZCNTlOOTc1QTFPcFBVSzFadFlyN2NWZWpuOUlpU09LMlFYemU0RVE3YlZaS0hYb1hnbzhBZHRaZ2tlNDBudVJseGtrYTViaQ?oc=5",
+      "relatedOfficialDocuments": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWEx1Sk5yUEU0djRmanBkRGhrWVkxaTF1a2Y0N2xhUDJ3YVZCVVhubHJtendabzNkTWtFRHdyX3VtR2xQS3VqZmlRbEw5cHhIMDJjUUN4TzJIZ1hXbGc2c3pVWWFsazJSRkl1UFRXUHVuNHl4VktkaXlhUEZYWnk1eUxn?oc=5",
       "mcq": {
-        "question": "Which of the following best describes the core subject of the recent news \"Centre appoints Lt Gen Dhiraj Seth as next Chief of Army Staff - The Times of India\"?",
+        "question": "Which of the following best describes the core subject of the recent news \"Lt Gen Dhiraj Seth Appointed Next Army Chief - Kashmir Life\"?",
         "options": [
           "A (Details missing due to offline AI)",
           "B",
@@ -8516,7 +8516,7 @@ let CURRENT_AFFAIRS_DB = {
       }
     },
     {
-      "id": "ca_live_2026_07_02_fallback_2",
+      "id": "ca_live_2026_07_04_fallback_2",
       "topic": "Defence & Security",
       "topicColor": "#dc2626",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPUnAzMGlKd2Z6SzdSMkFucXhiYkdTZVpOczJwWHV3bjdJeHBYVFJ5WHFPYXRsWDFXbS05eWUwVDJ4VDFWdktCO...",
@@ -8547,8 +8547,8 @@ let CURRENT_AFFAIRS_DB = {
       "institutionalContext": "Official Press Release / News",
       "strategicImportance": "Please read the full official release for strategic context.",
       "originalSource": "PIB / Government Source",
-      "publicationDate": "2026-07-02",
-      "lastUpdatedDate": "2026-07-02",
+      "publicationDate": "2026-07-04",
+      "lastUpdatedDate": "2026-07-04",
       "verificationStatus": "Raw Feed (AI Unverified)",
       "relatedOfficialDocuments": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUnAzMGlKd2Z6SzdSMkFucXhiYkdTZVpOczJwWHV3bjdJeHBYVFJ5WHFPYXRsWDFXbS05eWUwVDJ4VDFWdktCOHVNSUFLOVdsaDNxdWx3bDY5X1FBS1pBZldjZ1JJRkg4Qzh1amlWYk1xX253TjJnUlBlNTk2ZUpPRFlleW9ndmVuSTg2S1lKa2pzY3dkVElSWHRxLWNQR0VncXZfSlNR0gGsAUFVX3lxTE1XVG16b1kzZThmUXNSdGdvODIwb1ZXTzNJREI5TGFaRXBZeDJob0Y4ZVVZQzRhb0FjNVlxaTdGZjhyZGpmSm05MGdVUWdpcndSOURJdTRwZndfeWZtN0hvcmtXdXRGcnlXeE9kMlZXbVBncFRQNHM1b2tQb0tTampsM1FCTjBUb1BRQVE2OUdiUW1zTGQ4dzVHa2M4TTFWYmRsbTUyWXNJMk1ubTc?oc=5",
       "mcq": {

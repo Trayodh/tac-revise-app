@@ -507,7 +507,27 @@ EXPANDED_NOTES_DATA["syl-probability"] = `<div class="revision-card" style="back
       3. <strong>Independence Check:</strong> If P(A ∩ B) = P(A)·P(B), the events are independent. If not, they are dependent.
     </p>
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+<div class="mermaid">
+flowchart TD
+    S[Sample Space (S)] --> A[Event A]
+    S --> B[Event B]
+    A -->|P(A)| PA[Probability P(A)]
+    B -->|P(B)| PB[Probability P(B)]
+    A & B -->|P(A∩B)| PAB[Joint Probability]
+    subgraph Conditional
+        direction LR
+        PB -->|Given B| PA_given_B[Conditional P(A|B)]
+        PA -->|Given A| PB_given_A[Conditional P(B|A)]
+    end
+    PA_given_B -->|Bayes' Theorem| PB_given_A
+    style S fill:#f9f9f9,stroke:#333,stroke-width:1px
+    style A fill:#e0f7fa,stroke:#006064,stroke-width:1px
+    style B fill:#ffe0b2,stroke:#e65100,stroke-width:1px
+    style Conditional fill:#fff3e0,stroke:#ff6f00,stroke-width:1px
+</div>
+`;
 
 EXPANDED_NOTES_DATA["syl-numerical-speed"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -546,7 +566,21 @@ EXPANDED_NOTES_DATA["syl-numerical-speed"] = `<div class="revision-card" style="
   <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 5px; margin-top: 20px;">
     <strong style="color: var(--accent);">Strategic Tip:</strong> For CDS/NDA, always look for the "Constant" variable in the question. If the distance is constant, use the ratio method (T1/T2 = S2/S1) to save time instead of calculating absolute values.
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+<div class="mermaid">
+flowchart TD
+    D[Distance] -->|Formula| S[Speed]
+    D -->|Formula| T[Time]
+    S -->|Convert km/h → m/s| C[× 5/18]
+    T -->|Convert sec → hr| CT[÷ 3600]
+    subgraph Rel[Relative Motion]
+        RS[Relative Speed] -->|Same direction| SR[Speed₁ − Speed₂]
+        RS -->|Opposite direction| SO[Speed₁ + Speed₂]
+    end
+    RS -->|Applied in trains/boats| Q[Problem Solving]
+</div>
+`;
 
 EXPANDED_NOTES_DATA["syl-numerical-ratios"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -585,5 +619,24 @@ EXPANDED_NOTES_DATA["syl-numerical-ratios"] = `<div class="revision-card" style=
   <div style="background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 6px; margin-top: 20px;">
     <strong style="color: var(--accent);">Strategic Tip:</strong> For NDA/CDS, avoid long algebraic equations. Use the <strong>"100 Assumption Method"</strong>. Assume the initial value is 100, apply the percentage changes step-by-step, and find the final value. This is significantly faster and less prone to calculation errors than using fractions.
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+<div class="mermaid">
+mindmap
+  root((Ratios, Proportions & Percentages))
+    Ratio
+      definition((a : b))
+    Proportion
+      definition((a : b :: c : d))
+      property((ad = bc))
+    Percentage
+      definition((fraction / 100))
+      conversion((Fraction ↔ %))
+    Applications
+      PL((Profit & Loss))
+      TW((Time & Work))
+      MA((Mixture & Alligation))
+      SI((Simple/Compound Interest))
+</div>
+`;
 

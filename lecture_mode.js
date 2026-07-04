@@ -654,4 +654,5 @@ function launchLectureMode(subjectId, chapterId, topicId) {
 
   const subjectLabel = `${subject.title} › ${chapter.title}`;
   LectureMode.open(html, topic.title, subjectLabel);
+  setTimeout(() => { if (window.mermaid) mermaid.init(undefined, document.querySelectorAll('.mermaid')); }, 200);
 }
