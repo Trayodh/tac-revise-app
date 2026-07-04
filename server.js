@@ -4,7 +4,7 @@ const path = require('path');
 require('dotenv').config();
 
 const PORT = process.env.PORT || 4000;
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
+const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || '';
 
 global.DOMMatrix = class {};
 const pdfParse = require('pdf-parse');
@@ -163,42 +163,34 @@ Rules:
 - Return ONLY a raw JSON array of objects with: { "index": <number or null>, "title": "<news title>", "topic": "<topic area name>", "topicColor": "<hex color from ${JSON.stringify(topicColorMap)}>" }.
 - Do not include markdown fences or any formatting other than valid JSON.`;
 
-    const models = ['gemini-flash-latest', 'gemini-2.5-flash', 'gemini-3.5-flash', 'gemini-flash-lite-latest'];
-    let selectionList = null;
+    try {
+      const apiUrl = 'https://api.cerebras.ai/v1/chat/completions';
+      const headers = { 
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${CEREBRAS_API_KEY}`
+      };
 
-    for (const model of models) {
-      try {
-        const isOAuthToken = GEMINI_API_KEY.startsWith('ya29.');
-        const apiUrl = isOAuthToken 
-          ? `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`
-          : `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
-        
-        const headers = { 'Content-Type': 'application/json' };
-        if (isOAuthToken) {
-          headers['Authorization'] = `Bearer ${GEMINI_API_KEY}`;
-        }
-
-        const gemRes = await fetch(apiUrl, {
-          method: 'POST',
-          headers: headers,
-          body: JSON.stringify({
-            contents: [{ parts: [{ text: selectionPrompt }] }],
-            generationConfig: { temperature: 0.1, response_mime_type: 'application/json' }
-          })
-        });
-        if (!gemRes.ok) {
-          const errMsg = await gemRes.text();
-          console.warn(`[AUTO-UPDATE] Selection using model ${model} returned non-ok status ${gemRes.status}: ${errMsg}`);
-          continue;
-        }
+      const gemRes = await fetch(apiUrl, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify({
+          model: 'gpt-oss-120b',
+          messages: [{ role: 'user', content: selectionPrompt }],
+          temperature: 0.1,
+          response_format: { type: "json_object" }
+        })
+      });
+      if (!gemRes.ok) {
+        const errMsg = await gemRes.text();
+        console.warn(`[AUTO-UPDATE] Selection using Cerebras returned non-ok status ${gemRes.status}: ${errMsg}`);
+      } else {
         const gemData = await gemRes.json();
-        const rawText = gemData?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+        const rawText = gemData?.choices?.[0]?.message?.content || '';
         const cleaned = rawText.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim();
         selectionList = JSON.parse(cleaned);
-        break;
-      } catch(e) {
-        console.warn(`[AUTO-UPDATE] Selection using model ${model} failed:`, e.message);
       }
+    } catch(e) {
+      console.warn(`[AUTO-UPDATE] Selection using Cerebras failed:`, e.message);
     }
 
     if (!selectionList || !Array.isArray(selectionList) || selectionList.length === 0) {
@@ -284,41 +276,36 @@ Rules:
 - If this is a Defence news topic, you MUST include details matching the Military and Defence Knowledge Layer: (a) Technical Specifications, (b) Historical Usage/Context/Background, (c) Combat Record/Significance, (d) Advantages/Weaknesses, (e) Global Operators, (f) Indian Relevance, (g) Future Upgrades, and (h) Comparison with Similar Systems. Automatically link related components in double brackets, e.g. [[Meteor Missile]] or [[MICA]].
 - JSON VALIDITY: Ensure that all quotes inside string fields are escaped as \\\" and that there are no unescaped control characters or trailing commas. Every string property must be properly enclosed in double quotes. Do NOT include actual literal line breaks or newlines inside any string properties; instead, escape them as \\n or use HTML tags. The entire response must be strictly valid JSON that can be parsed by JSON.parse().`;
 
-      for (const model of models) {
-        try {
-          const isOAuthToken = GEMINI_API_KEY.startsWith('ya29.');
-          const apiUrl = isOAuthToken 
-            ? `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`
-            : `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
-          
-          const headers = { 'Content-Type': 'application/json' };
-          if (isOAuthToken) {
-            headers['Authorization'] = `Bearer ${GEMINI_API_KEY}`;
-          }
+      try {
+        const apiUrl = 'https://api.cerebras.ai/v1/chat/completions';
+        const headers = { 
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${CEREBRAS_API_KEY}`
+        };
 
-          const gemRes = await fetch(apiUrl, {
-            method: 'POST',
-            headers: headers,
-            body: JSON.stringify({
-              contents: [{ parts: [{ text: detailPrompt }] }],
-              generationConfig: { temperature: 0.1, response_mime_type: 'application/json' }
-            })
-          });
-          if (!gemRes.ok) {
-            const errMsg = await gemRes.text();
-            console.warn(`[AUTO-UPDATE] Card generation for "${title}" using model ${model} returned non-ok status ${gemRes.status}: ${errMsg}`);
-            continue;
-          }
+        const gemRes = await fetch(apiUrl, {
+          method: 'POST',
+          headers: headers,
+          body: JSON.stringify({
+            model: 'gpt-oss-120b',
+            messages: [{ role: 'user', content: detailPrompt }],
+            temperature: 0.1,
+            response_format: { type: "json_object" }
+          })
+        });
+        if (!gemRes.ok) {
+          const errMsg = await gemRes.text();
+          console.warn(`[AUTO-UPDATE] Card generation for "${title}" using Cerebras returned non-ok status ${gemRes.status}: ${errMsg}`);
+        } else {
           const gemData = await gemRes.json();
-          const rawText = gemData?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+          const rawText = gemData?.choices?.[0]?.message?.content || '';
           const cleaned = rawText.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim();
           const card = JSON.parse(cleaned);
           generatedCards.push(card);
-          console.log(`[AUTO-UPDATE] Successfully generated card for "${title}" using ${model}`);
-          break;
-        } catch(e) {
-          console.warn(`[AUTO-UPDATE] Card generation for "${title}" failed using ${model}:`, e.message);
+          console.log(`[AUTO-UPDATE] Successfully generated card for "${title}" using Cerebras`);
         }
+      } catch(e) {
+        console.warn(`[AUTO-UPDATE] Card generation for "${title}" failed using Cerebras:`, e.message);
       }
     });
 
@@ -532,7 +519,7 @@ const server = http.createServer((req, res) => {
             const pdfRes = await parser.getText();
             const extractedText = pdfRes.text;
             
-            if (extractedText && extractedText.trim().length > 2000) {
+            if (extractedText && extractedText.trim().length > 20) {
               console.log(`[PROXY] Extracted ${extractedText.length} characters of text. Swapping base64 payload for text payload.`);
               
               const combinedText = `The following is the text content extracted from the exam paper PDF. Solve the questions. Provide the question, options, the correct answer, and a brief one-sentence explanation for each. DO NOT write long explanations so we can fit all questions within the model's output limit.
@@ -547,220 +534,84 @@ ${textPrompt}`;
                 parts: [{ text: combinedText }]
               }];
             } else {
-              console.log(`[PROXY] Extracted text is too short (${extractedText ? extractedText.trim().length : 0} chars). Uploading PDF to Gemini Files API...`);
-              
-              const isOAuthToken = GEMINI_API_KEY && !GEMINI_API_KEY.startsWith('AIzaSy');
-              const initUrl = isOAuthToken 
-                ? `https://generativelanguage.googleapis.com/upload/v1beta/files`
-                : `https://generativelanguage.googleapis.com/upload/v1beta/files?key=${GEMINI_API_KEY}`;
-              
-              const initHeaders = {
-                "X-Goog-Upload-Protocol": "resumable",
-                "X-Goog-Upload-Command": "start",
-                "X-Goog-Upload-Header-Content-Length": pdfBuffer.length.toString(),
-                "X-Goog-Upload-Header-Content-Type": "application/pdf",
-                "Content-Type": "application/json"
-              };
-              if (isOAuthToken) {
-                initHeaders['Authorization'] = `Bearer ${GEMINI_API_KEY}`;
-              }
-
-              // 1. Start Resumable Upload
-              const initResponse = await fetch(initUrl, {
-                method: "POST",
-                headers: initHeaders,
-                body: JSON.stringify({
-                  file: {
-                    displayName: "ExamPaper"
-                  }
-                })
-              });
-              
-              if (!initResponse.ok) {
-                const errTxt = await initResponse.text();
-                throw new Error(`Failed to initialize Files API upload: ${initResponse.status} ${errTxt}`);
-              }
-              
-              const uploadUrl = initResponse.headers.get("x-goog-upload-url");
-              if (!uploadUrl) {
-                throw new Error("Did not receive X-Goog-Upload-URL from Gemini Files API");
-              }
-              
-              // 2. Upload file content bytes
-              const uploadHeaders = {
-                "X-Goog-Upload-Offset": "0",
-                "X-Goog-Upload-Command": "upload, finalize",
-                "Content-Length": pdfBuffer.length.toString()
-              };
-              if (isOAuthToken) {
-                uploadHeaders['Authorization'] = `Bearer ${GEMINI_API_KEY}`;
-              }
-
-              const uploadResponse = await fetch(uploadUrl, {
-                method: "POST",
-                headers: uploadHeaders,
-                body: pdfBuffer
-              });
-              
-              if (!uploadResponse.ok) {
-                const errTxt = await uploadResponse.text();
-                throw new Error(`Failed to upload PDF data to Files API: ${uploadResponse.status} ${errTxt}`);
-              }
-              
-              const fileMeta = await uploadResponse.json();
-              const fileUri = fileMeta.file.uri;
-              console.log(`[PROXY] Successfully uploaded to Gemini Files API. File URI: ${fileUri}`);
-              
-              // 3. Poll file state to ensure it is ACTIVE
-              const fileGetUrl = isOAuthToken
-                ? `https://generativelanguage.googleapis.com/v1beta/${fileMeta.file.name}`
-                : `https://generativelanguage.googleapis.com/v1beta/${fileMeta.file.name}?key=${GEMINI_API_KEY}`;
-              
-              const pollHeaders = {};
-              if (isOAuthToken) {
-                pollHeaders['Authorization'] = `Bearer ${GEMINI_API_KEY}`;
-              }
-
-              let fileState = "PROCESSING";
-              for (let i = 0; i < 5; i++) {
-                const statusRes = await fetch(fileGetUrl, { headers: pollHeaders });
-                if (statusRes.ok) {
-                  const statusData = await statusRes.json();
-                  fileState = statusData.state;
-                  console.log(`[PROXY] File state check: ${fileState}`);
-                  if (fileState === "ACTIVE") {
-                    break;
-                  }
-                }
-                await new Promise(resolve => setTimeout(resolve, 2000));
-              }
-              
-              if (fileState !== "ACTIVE") {
-                console.warn(`[PROXY] File state is still ${fileState} after polling. Attempting call anyway.`);
-              }
-              
-              // 4. Swap inlineData for fileData referencing the uploaded file
-              contents[0].parts = contents[0].parts.map(part => {
-                if (part.inlineData && part.inlineData.mimeType === 'application/pdf') {
-                  return {
-                    fileData: {
-                      mimeType: "application/pdf",
-                      fileUri: fileUri
-                    }
-                  };
-                }
-                return part;
-              });
+              console.warn(`[PROXY] Extracted text is too short. PDF might be scanned/image-based.`);
             }
           } catch (pdfErr) {
-            console.error(`[PROXY] PDF parsing or Files API error (sending raw PDF instead):`, pdfErr);
+            console.error(`[PROXY] PDF parsing error:`, pdfErr);
           }
         }
         
-        // Forward to Gemini API with a robust server-side fallback and retry loop
-        const modelsToTry = [
-          model,
-          'gemini-flash-latest',
-          'gemini-2.5-flash',
-          'gemini-flash-lite-latest',
-          'gemini-3.5-flash',
-          'gemini-2.0-flash',
-          'gemini-2.0-flash-lite',
-          'gemini-pro-latest'
-        ];
-        // Remove duplicates and filter out nulls/undefined
-        const uniqueModels = [...new Set(modelsToTry.filter(Boolean))];
+        // Translate Gemini contents to OpenAI messages format for Cerebras
+        let messages = [];
+        if (systemInstruction && systemInstruction.parts && systemInstruction.parts[0].text) {
+          messages.push({ role: "system", content: systemInstruction.parts[0].text });
+        }
+        
+        if (contents && Array.isArray(contents)) {
+          contents.forEach(content => {
+            if (content.parts) {
+              let textContent = content.parts.map(p => p.text || '').join('\n');
+              messages.push({
+                role: content.role === 'model' ? 'assistant' : 'user',
+                content: textContent
+              });
+            }
+          });
+        }
+        
+        console.log(`[PROXY] Sending request to Cerebras API using model: gpt-oss-120b...`);
+        const targetUrl = `https://api.cerebras.ai/v1/chat/completions`;
+        const reqHeaders = { 
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${CEREBRAS_API_KEY}`
+        };
+
+        const startTime = Date.now();
+        const requestPayload = { 
+          model: 'gpt-oss-120b',
+          messages: messages,
+          temperature: generationConfig.temperature || 0.1,
+          max_completion_tokens: 1500
+        };
+        
+        if (generationConfig.response_mime_type === 'application/json') {
+          requestPayload.response_format = { type: "json_object" };
+        }
 
         let apiResponse = null;
         let data = null;
         let success = false;
-        const maxRetries = 3;
-
-        for (let attempt = 1; attempt <= maxRetries; attempt++) {
-          for (const currentModel of uniqueModels) {
-            console.log(`[PROXY] Sending request to Gemini API (Attempt ${attempt}/${maxRetries}) using model: ${currentModel}...`);
-            const isOAuthToken = GEMINI_API_KEY.startsWith('ya29.');
-            const endpoint = stream ? ':streamGenerateContent?alt=sse' : ':generateContent';
-            const authQuery = isOAuthToken ? '' : (stream ? `&key=${GEMINI_API_KEY}` : `?key=${GEMINI_API_KEY}`);
-            const targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}${endpoint}${authQuery}`;
+        
+        try {
+          apiResponse = await fetch(targetUrl, {
+            method: 'POST',
+            headers: reqHeaders,
+            body: JSON.stringify(requestPayload)
+          });
+          
+          const duration = ((Date.now() - startTime) / 1000).toFixed(2);
+          console.log(`[PROXY] Cerebras API returned status: ${apiResponse.status} in ${duration}s`);
+          
+          if (apiResponse.ok) {
+            const rawData = await apiResponse.json();
+            success = true;
             
-            const reqHeaders = { 'Content-Type': 'application/json' };
-            if (isOAuthToken) {
-              reqHeaders['Authorization'] = `Bearer ${GEMINI_API_KEY}`;
-            }
-
-            const startTime = Date.now();
-            const requestPayload = { 
-              contents,
-              generationConfig: {
-                maxOutputTokens: 65536,
-                temperature: 0.1,
-                ...generationConfig
-              }
-            };
-
-            if (tools) requestPayload.tools = tools;
-            if (systemInstruction) requestPayload.systemInstruction = systemInstruction;
-
-            try {
-              apiResponse = await fetch(targetUrl, {
-                method: 'POST',
-                headers: reqHeaders,
-                body: JSON.stringify(requestPayload)
-              });
-              
-              const duration = ((Date.now() - startTime) / 1000).toFixed(2);
-              console.log(`[PROXY] Gemini API (${currentModel}) returned status: ${apiResponse.status} in ${duration}s`);
-              
-              if (apiResponse.ok) {
-                if (stream) {
-                  res.writeHead(200, {
-                    'Content-Type': 'text/event-stream',
-                    'Cache-Control': 'no-cache',
-                    'Connection': 'keep-alive'
-                  });
-                  
-                  // Pipe the stream directly to the client
-                  for await (const chunk of apiResponse.body) {
-                    res.write(chunk);
-                  }
-                  res.end();
-                  return; // Exit completely after streaming
-                } else {
-                  data = await apiResponse.json();
-                  success = true;
-                  console.log(`[PROXY] Successful response from Gemini API using model: ${currentModel}`);
-                  if (data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts[0]) {
-                    const txt = data.candidates[0].content.parts[0].text || "";
-                    console.log(`[PROXY] Response text length: ${txt.length} characters`);
-                    console.log(`[PROXY] Response start: "${txt.substring(0, 150)}..."`);
-                    console.log(`[PROXY] Response end: "...${txt.substring(Math.max(0, txt.length - 150))}"`);
-                    if (data.candidates[0].finishReason) {
-                      console.log(`[PROXY] Finish reason: ${data.candidates[0].finishReason}`);
-                    }
-                  }
-                  break;
+            // Map Cerebras response back to Gemini format so frontend works unchanged
+            const aiText = rawData.choices?.[0]?.message?.content || "";
+            data = {
+              candidates: [
+                {
+                  content: { parts: [{ text: aiText }] },
+                  finishReason: "STOP"
                 }
-              } else {
-                data = await apiResponse.json();
-                console.error(`[PROXY] Gemini API (${currentModel}) error (Attempt ${attempt}/${maxRetries}):`, JSON.stringify(data));
-              }
-            } catch (err) {
-              console.error(`[PROXY] Exception during request for model ${currentModel} (Attempt ${attempt}/${maxRetries}):`, err);
-            }
+              ]
+            };
+          } else {
+            data = await apiResponse.json();
+            console.error(`[PROXY] Cerebras API error:`, JSON.stringify(data));
           }
-
-          if (success) {
-            break;
-          }
-
-          // If we reached here, all models in this attempt failed. 
-          // If we have more attempts, wait before trying again.
-          if (attempt < maxRetries) {
-            const delay = 1500 * attempt;
-            console.log(`[PROXY] All models failed on attempt ${attempt}. Waiting ${delay}ms before next attempt...`);
-            await new Promise(resolve => setTimeout(resolve, delay));
-          }
+        } catch (err) {
+          console.error(`[PROXY] Exception during request to Cerebras API:`, err);
         }
         
         if (success && apiResponse) {

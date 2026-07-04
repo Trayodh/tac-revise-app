@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tac-revise-v12';
+const CACHE_NAME = 'tac-revise-v16';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

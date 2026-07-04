@@ -169,23 +169,7 @@ Product αβ = c/a
 Equation from roots: x² - (α+β)x + αβ = 0
 # Vertex of Parabola
 x-coordinate of vertex = -b / 2a
-Min value (a > 0) = c - b²/4a = -D/4a`
-ax² + bx + c = 0 (a ≠ 0)
-# Roots & Discriminant
-Roots: x = [-b ± √(b² - 4ac)] / 2a
-Discriminant (Δ) = b² - 4ac
-If Δ > 0: Real & distinct roots
-If Δ = 0: Real & equal roots
-If Δ < 0: Complex conjugate roots
-# Sum & Product of Roots
-If roots are α, β:
-Sum (α + β) = -b/a
-Product (αβ) = c/a
-Equation from roots: x² - (α+β)x + αβ = 0
-# Max/Min Value
-Occurs at x = -b/2a
-Min value (if a > 0) = -Δ/4a
-Max value (if a < 0) = -Δ/4a`
+Min value (a > 0) = c - b²/4a = -D/4a`,
           },
           {
             id: "complex-numbers",
@@ -213,22 +197,7 @@ z · z̄ = |z|²
 (cosθ + i sinθ)^n = cos(nθ) + i sin(nθ)
 # Cube Roots of Unity
 1, ω, ω²  where ω = (-1+i√3)/2
-1 + ω + ω² = 0   |   ω³ = 1`
-Algebraic: z = a + ib (where i² = -1)
-Polar: z = r(cosθ + isinθ) = r cisθ
-Euler: z = re^(iθ)
-# Modulus & Argument
-Modulus |z| = √(a² + b²)
-Argument θ = tan⁻¹(b/a)
-# Conjugate
-If z = a + ib, then z̄ = a - ib
-z·z̄ = |z|²
-# De Moivre's Theorem
-(cosθ + isinθ)ⁿ = cos(nθ) + isin(nθ)
-# Cube Roots of Unity
-1, ω, ω² where ω = (-1 + i√3)/2
-1 + ω + ω² = 0
-ω³ = 1`
+1 + ω + ω² = 0   |   ω³ = 1`,
           }
         ]
       },
@@ -262,20 +231,7 @@ Perpendicular: m1 · m2 = -1
 Distance from point (x1,y1) to line ax+by+c=0:
 d = |ax1 + by1 + c| / √(a² + b²)
 Distance between parallel lines ax+by+c1=0 and ax+by+c2=0:
-d = |c1 - c2| / √(a² + b²)`
-Slope-Intercept: y = mx + c
-Point-Slope: y - y₁ = m(x - x₁)
-Two-Point: y - y₁ = [(y₂-y₁)/(x₂-x₁)](x - x₁)
-Intercept: x/a + y/b = 1
-Normal: x·cosα + y·sinα = p
-# Angles & Distance
-Angle between lines: tanθ = |(m₁ - m₂)/(1 + m₁m₂)|
-Distance from (x₁, y₁) to ax+by+c=0 is d = |ax₁+by₁+c|/√(a²+b²)
-Distance between parallel lines: d = |c₁ - c₂|/√(a²+b²)
-# Conditions
-Parallel lines: m₁ = m₂
-Perpendicular lines: m₁m₂ = -1
-Concurrent lines: Det of coefficients = 0`
+d = |c1 - c2| / √(a² + b²)`,
           }
         ]
       },
@@ -313,42 +269,13 @@ Inequality: AM ≥ GM ≥ HM
 # Dispersion
 Range = Max - Min
 Variance = Σ(x - x̄)² / n
-Standard Deviation SD = √Variance`
-Arithmetic Mean (AM) = Σx/n
-For grouped data: AM = Σfx / Σf
-Combined Mean = (n₁x̄₁ + n₂x̄₂) / (n₁ + n₂)
-# Median
-Middle value when sorted.
-For grouped data: Median = L + [(N/2 - CF)/f] × c
-# Mode
-Most frequent value.
-For grouped data: Mode = L + [(f₁ - f₀)/(2f₁ - f₀ - f₂)] × c
-# Empirical Relation
-Mode = 3(Median) - 2(Mean)
-# Geometric & Harmonic Mean
-GM = (x₁·x₂...xₙ)^(1/n)
-HM = n / (1/x₁ + 1/x₂ + ... + 1/xₙ)
-AM ≥ GM ≥ HM`
+Standard Deviation SD = √Variance`,
           },
           {
             id: "data-interpretation",
             title: "Data Interpretation: Tables, Bar & Pie Charts",
             notes: "Detailed notes expanded in notes_extra_4.js",
             formulas: `# Bar Charts & Histograms
-Used to compare discrete quantities or continuous ranges.
-# Pie Charts
-Total Angle = 360° | 1% = 3.6°
-Value = (Central Angle / 360°) × Total Value
-# Line Graphs
-Used to track changes over periods of time.
-Slope indicates rate of change.
-# Tables & Missing Data
-Focus on row/column totals. 
-Use given percentages/ratios to fill in blanks.
-# Core Calculations
-Percentage Increase = (Final - Initial) / Initial × 100
-Average = Sum / Total Count
-Ratio A:B = A/B`
 Used to compare discrete quantities or continuous ranges.
 # Pie Charts
 Total Angle = 360° | 1% = 3.6°
@@ -401,114 +328,6 @@ Ratio A:B = A/B`,
                             }
                     ]
             },
-                                  {
-                                            "title": "Slope & Angles",
-                                            "subnodes": [
-                                                      "Slope m = tanθ = Δy/Δx",
-                                                      "Angle tanθ = |(m₁-m₂)/(1+m₁m₂)|",
-                                                      "Parallel: m₁=m₂, Perp: m₁m₂=-1"
-                                            ]
-                                  },
-                                  {
-                                            "title": "Distances",
-                                            "subnodes": [
-                                                      "Point to Line ⊥ distance",
-                                                      "Distance between parallel lines"
-                                            ]
-                                  },
-                                  {
-                                            "title": "Triangle Centers",
-                                            "subnodes": [
-                                                      "Centroid (Medians)",
-                                                      "Orthocenter (Altitudes)",
-                                                      "Circumcenter (Perp. Bisectors)",
-                                                      "Incenter (Angle Bisectors)"
-                                            ]
-                                  }
-                        ]
-              },
-                                  {
-                                            "title": "Properties",
-                                            "subnodes": [
-                                                      "Modulus |z| = √(a²+b²)",
-                                                      "Argument θ = tan⁻¹(b/a)",
-                                                      "Conjugate z̄ = a - ib",
-                                                      "z·z̄ = |z|²"
-                                            ]
-                                  },
-                                  {
-                                            "title": "Theorems",
-                                            "subnodes": [
-                                                      "De Moivre's Theorem",
-                                                      "Triangle Inequality: |z₁+z₂| ≤ |z₁|+|z₂|"
-                                            ]
-                                  },
-                                  {
-                                            "title": "Roots of Unity",
-                                            "subnodes": [
-                                                      "1, ω, ω²",
-                                                      "Sum = 0: 1 + ω + ω² = 0",
-                                                      "Product = 1: ω³ = 1"
-                                            ]
-                                  }
-                        ]
-              },
-                                  {
-                                            "title": "Calculations",
-                                            "subnodes": [
-                                                      "Averages",
-                                                      "Ratios & Proportions",
-                                                      "Percentage Changes"
-                                            ]
-                                  },
-                                  {
-                                            "title": "Tables",
-                                            "subnodes": [
-                                                      "Cross-checking totals",
-                                                      "Finding missing data",
-                                                      "Mixed DI (Table + Pie)"
-                                            ]
-                                  },
-                                  {
-                                            "title": "Strategies",
-                                            "subnodes": [
-                                                      "Approximation for speed",
-                                                      "Read axes & units carefully",
-                                                      "Skip lengthy calculations"
-                                            ]
-                                  }
-                        ]
-              },
-                                  {
-                                            "title": "Lines",
-                                            "subnodes": [
-                                                      "Slope m = tanθ",
-                                                      "Point-Slope Form",
-                                                      "Parallel: m₁=m₂",
-                                                      "Perpendicular: m₁m₂=-1"
-                                            ]
-                                  },
-                                  {
-                                            "title": "Triangle Area",
-                                            "subnodes": [
-                                                      "½|determinant| formula",
-                                                      "Collinear if area=0",
-                                                      "Centroid = avg of vertices"
-                                            ]
-                                  },
-                                  {
-                                            "title": "Circles",
-                                            "subnodes": [
-                                                      "(x-h)²+(y-k)²=r²",
-                                                      "General form → centre",
-                                                      "Tangent ⊥ radius at contact"
-                                            ]
-                                  }
-                        ]
-              },
-                {title: "Calculations", subnodes: ["Percentage change", "Averages", "Ratios"]}
-              ]
-            }
           }
         ]
       },
@@ -626,7 +445,7 @@ d/dx(sin⁻¹x) = 1/√(1-x²) | d/dx(cos⁻¹x) = -1/√(1-x²)
 d/dx(tan⁻¹x) = 1/(1+x²) | d/dx(cot⁻¹x) = -1/(1+x²)
 # Applications
 Maxima: f'(x)=0, f''(x)<0 | Minima: f'(x)=0, f''(x)>0
-Increasing: f'(x)>0 | Decreasing: f'(x)<0` = u'v + uv'\n(u/v)' = (u'v - uv')/v²\nd/dx(aˣ) = aˣ·lna\nd/dx(sin⁻¹x) = 1/√(1-x²)\nd/dx(tan⁻¹x) = 1/(1+x²)`,
+            Increasing: f'(x)>0 | Decreasing: f'(x)<0`,
             mindmap: {
                     "root": "Differentiation",
                     "branches": [
@@ -663,9 +482,7 @@ Increasing: f'(x)>0 | Decreasing: f'(x)<0` = u'v + uv'\n(u/v)' = (u'v - uv')/v²
                                             "Minima: f'=0, f''>0",
                                             "Increasing: f'>0"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {
                   title: "Trigonometric",
                   subnodes: ["sin x → cos x", "cos x → -sin x", "tan x → sec² x"]
@@ -738,7 +555,7 @@ Partial Fractions: For rational functions N(x)/D(x)
 ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a-x)dx
 ∫₋ₐᵃ f(x)dx = 2∫₀ᵃ f(x)dx [if f(x) is even] or 0 [if f(x) is odd]
 # Applications
-Area under curve = |∫ₐᵇ f(x) dx|`·∫v dx) dx\nKing's Property: ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx\nEven/Odd Property: ∫[-a to a] f(x)dx = 0 if f(-x)=-f(x)`,
+            Area under curve = |∫ₐᵇ f(x) dx|`,
             mindmap: {
                     "root": "Integration",
                     "branches": [
@@ -773,9 +590,7 @@ Area under curve = |∫ₐᵇ f(x) dx|`·∫v dx) dx\nKing's Property: ∫[0 to 
                                             "∫1/√(a²-x²) → sin⁻¹",
                                             "∫1/(a²+x²) → tan⁻¹"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {
                   title: "Substitution",
                   subnodes: ["Trig substitutions", "Algebraic factors", "f'(x)/f(x) → ln|f(x)|"]
@@ -974,9 +789,7 @@ Basic Proportionality (Thales): DE∥BC → AD/DB = AE/EC`,
                                             "RHS for right triangles",
                                             "CPCT after congruence"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Triangles", subnodes: ["Congruency", "Similarity", "Centres"]}
               ]
             }
@@ -1034,9 +847,7 @@ Sum of exterior angles = always 360°`,
                                             "Ext. angle sum = 360°",
                                             "Regular polygon formulae"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Polygons", subnodes: ["Interior angles", "Diagonals"]}
               ]
             }
@@ -1103,9 +914,7 @@ Cone = πr(r+l) where l = slant height = √(r²+h²)`,
                                             "Area = ½(a+b)×h",
                                             "Midsegment = ½(sum of parallel sides)"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Quadrilaterals", subnodes: ["Rhombus", "Trapezium", "Parallelogram"]},
                 {title: "Circles", subnodes: ["Area", "Perimeter", "Sector"]}
               ]
@@ -1162,9 +971,7 @@ Sphere (hemisphere, curved) = 2πr²`,
                                             "l=√[h²+(R-r)²]",
                                             "TSA=π[R²+r²+l(R+r)]"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Spherical", subnodes: ["Sphere", "Hemisphere"]},
                 {title: "Advanced", subnodes: ["Prism", "Pyramid"]}
               ]
@@ -1231,9 +1038,7 @@ Mean proportional of a and b = √(ab)`,
                                             "Dishonest dealer",
                                             "2 items at same SP"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Profit & Loss", subnodes: ["Cost Price", "Selling Price", "Discount"]}
               ]
             }
@@ -1294,9 +1099,7 @@ Sum of cubes = [n(n+1)/2]²`,
                                             "Sum squares: n(n+1)(2n+1)/6",
                                             "Sum cubes: [n(n+1)/2]²"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Averages", subnodes: ["Weighted average", "AP Averages"]}
               ]
             }
@@ -1357,9 +1160,7 @@ If A takes 'a' days and B takes 'b' days: Together = ab/(a+b) days`,
                                             "Efficiency ∝ 1/time",
                                             "Pipes and cisterns"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Time & Work", subnodes: ["Efficiency", "Pipes & Cisterns"]}
               ]
             }
@@ -1578,12 +1379,10 @@ Future: tomorrow, next week, soon, by 2025`,
                                             "Tomorrow/Next → Future",
                                             "Always/Often → Present"
                                     ]
-                            }
+                            },
+                            { title: "Conditionals", subnodes: ["Type 1: If + V1, will + V1", "Type 2: If + V2, would + V1", "Type 3: If + had + V3, would have + V3"] },
+                            { title: "State Verbs", subnodes: ["Stative verbs (know, love) cannot be continuous"] }
                     ]
-            },
-                { title: "Conditionals", subnodes: ["Type 1: If + V1, will + V1", "Type 2: If + V2, would + V1", "Type 3: If + had + V3, would have + V3"] },
-                { title: "State Verbs", subnodes: ["Stative verbs (know, love) cannot be continuous"] }
-              ]
             }
           },
           {
@@ -2246,9 +2045,7 @@ Future: tomorrow, next week, soon, by 2025`,
                                             "SC/ST proportional",
                                             "50% in some states"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Urban (74th)", subnodes: ["Part IXA", "Schedule 12 (18 items)", "Municipalities"]},
                 {title: "Key Rules", subnodes: ["3-tier structure", "21 years minimum age", "33% women reservation"]}
               ]
@@ -2353,9 +2150,7 @@ Art 45: Early childhood care & education | Art 51A: Fundamental Duties (10+1)`,
                                             "Art 51A: 11 Duties",
                                             "Art 21A: Right to Education"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Emergency", subnodes: ["National, President's, Financial"]},
                 {title: "Rajya Sabha", subnodes: ["Art 249, Art 312"]}
               ]
@@ -2420,9 +2215,7 @@ SC retire 65 | HC retire 62 | PM/CM: No age limit`,
                                             "LS=25, RS=30",
                                             "SC retire 65, HC retire 62"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Terms", subnodes: ["CAG 6/65, CEC 6/65"]},
                 {title: "Oath/Resign", subnodes: ["Who administers / receives"]}
               ]
@@ -3846,9 +3639,7 @@ Lunar month (synodic): ~29.5 days | Same face always visible (synchronous rotati
                                             "ESA: Europe",
                                             "Roscosmos: Russia"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Solar System", subnodes: ["Inner planets", "Outer planets", "Asteroid belt"]}
               ]
             }
@@ -3872,32 +3663,7 @@ Nitrogen: 78% | Oxygen: 21% | Argon: 0.9% | CO2: 0.04%
 # Key Numbers
 Standard Lapse Rate = 6.5°C per 1000 m
 Ozone Layer: 20-35 km (Stratosphere)
-Equator: 0° | Tropics: 23.5°N/S | Arctic Circle: 66.5°N`
-Radius: ~6,371 km | Circumference: ~40,075 km
-Layers: Crust → Mantle → Outer Core → Inner Core
-# Atmosphere Layers
-Troposphere: 0-12 km (weather occurs, lapse rate 6.5°C/km)
-Stratosphere: 12-50 km (ozone layer 20-35 km)
-Mesosphere: 50-80 km (meteors burn up)
-Thermosphere: 80-700 km (Aurora, ISS orbits)
-Exosphere: 700 km+
-# Composition
-Nitrogen 78%, Oxygen 21%, Argon 0.9%, Carbon Dioxide 0.04%`s Structure
-Radius: ~6,371 km | Circumference: ~40,075 km
-Layers: Crust → Mantle → Outer Core → Inner Core
-Crust: 5-70 km thick (oceanic vs continental)
-# Atmosphere Layers (height approx)
-Troposphere: 0-12 km (weather occurs, lapse rate 6.5°C/km)
-Stratosphere: 12-50 km (ozone layer 20-35 km)
-Mesosphere: 50-80 km (meteors burn up)
-Thermosphere: 80-700 km (Aurora, ISS orbits)
-Exosphere: 700 km+ (gradually fades to space)
-# Latitudes
-Equator: 0° | Tropics: 23.5°N/S | Arctic/Antarctic: 66.5°N/S
-# Key Atmospheric Facts
-Standard lapse rate = 6.5°C per 1000m ascent
-Composition: N₂ 78%, O₂ 21%, Ar 0.9%, CO₂ 0.04%
-Tropopause: Boundary between troposphere and stratosphere`,
+Equator: 0° | Tropics: 23.5°N/S | Arctic Circle: 66.5°N`,
             mindmap: {
                     "root": "Earth & Atmosphere",
                     "branches": [
@@ -3935,10 +3701,8 @@ Tropopause: Boundary between troposphere and stratosphere`,
                                             "Ozone at 20-35 km",
                                             "Equator 0°, Tropics 23.5°"
                                     ]
-                            }
-                    ]
-            },
-                                  {
+                            },
+{
                                             "title": "Atmosphere Layers",
                                             "subnodes": [
                                                       "Troposphere (0-12km)",
@@ -3962,10 +3726,8 @@ Tropopause: Boundary between troposphere and stratosphere`,
                                                       "Ar 0.9%, CO₂ 0.04%",
                                                       "Variable: H₂O vapor"
                                             ]
-                                  }
-                        ]
-              },
-                {title: "Atmosphere", subnodes: ["Troposphere", "Stratosphere", "Mesosphere", "Ionosphere"]}
+                                  },
+{title: "Atmosphere", subnodes: ["Troposphere", "Stratosphere", "Mesosphere", "Ionosphere"]}
               ]
             }
           },
@@ -4027,9 +3789,7 @@ Retreating Monsoon: Oct-Nov | Western Disturbances: Dec-Feb (NW India)`,
                                             "NE Monsoon: Oct-Dec",
                                             "Western Disturbances: Dec-Feb"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Clouds", subnodes: ["Cirrus", "Altocumulus", "Stratus", "Cumulonimbus"]}
               ]
             }
@@ -4092,9 +3852,7 @@ Aeolian: Dunes, yardang (wind erosion in deserts)`,
                                             "Karst: caves, stalagmites",
                                             "Aeolian: dunes"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Tectonic Plates", subnodes: ["Major plates", "Minor plates", "Boundaries"]},
                 {title: "Activity", subnodes: ["Volcanism", "Earthquakes (Shadow zones)"]}
               ]
@@ -4118,39 +3876,7 @@ Alps (Europe)
 # Indian Peaks
 K2 (Karakoram): 8,611m
 Kangchenjunga: 8,586m
-Anamudi: 2,695m (Highest in Peninsular India)`
-Everest (Himalayas): 8,849m (Highest in Asia/World)
-Aconcagua (Andes): 6,961m (Highest in S. America)
-Denali (Alaska): 6,190m (Highest in N. America)
-Kilimanjaro: 5,895m (Highest in Africa)
-Mont Blanc: 4,808m (Highest in Alps)
-# Major Ranges
-Andes (longest continental)
-Himalayas (highest)
-Rockies (N. America)
-Alps (Europe)
-# Indian Peaks
-K2 (Karakoram): 8,611m
-Kangchenjunga: 8,586m
-Anamudi: 2,695m (Highest in Peninsular India)`s Highest Peaks
-Mt. Everest (Himalayas): 8,849m - Highest
-K2 (Karakoram): 8,611m - 2nd highest
-Kangchenjunga (Himalayas): 8,586m - 3rd highest
-Aconcagua (Andes): 6,961m - Americas highest
-Kilimanjaro (Africa): 5,895m - Tallest in Africa
-Mont Blanc (Alps): 4,808m - Europe highest
-McKinley/Denali (Alaska): 6,190m - N. America
-# Major Mountain Ranges
-Himalayas: Asia | Andes: S. America | Alps: Europe
-Rockies: N. America | Urals: Russia/Europe border
-Great Dividing Range: Australia | Atlas: Africa
-# Indian Mountains
-Himadri (Great Himalayas): Highest, perennial snow
-Himachal (Middle Himalayas): Shimla, Kashmir
-Shiwalik (Outer Himalayas): Foothill ranges
-Aravalli: Oldest in India | Vindhya/Satpura: Central India
-Western Ghats (Sahyadri) | Eastern Ghats
-Highest in Deccan: Anai Mudi (2695m, Kerala)`,
+Anamudi: 2,695m (Highest in Peninsular India)`,
             mindmap: {
                     "root": "World Mountains",
                     "branches": [
@@ -4189,10 +3915,8 @@ Highest in Deccan: Anai Mudi (2695m, Kerala)`,
                                             "Eastern Ghats",
                                             "Vindhya & Satpura"
                                     ]
-                            }
-                    ]
-            },
-                                  {
+                            },
+{
                                             "title": "Major Ranges",
                                             "subnodes": [
                                                       "Himalayas (Asia)",
@@ -4218,10 +3942,8 @@ Highest in Deccan: Anai Mudi (2695m, Kerala)`,
                                                       "Western Ghats (Sahyadri)",
                                                       "Eastern Ghats (discontinuous)"
                                             ]
-                                  }
-                        ]
-              },
-                {title: "Forests", subnodes: ["Evergreen", "Deciduous", "Coniferous"]},
+                                  },
+{title: "Forests", subnodes: ["Evergreen", "Deciduous", "Coniferous"]},
                 {title: "Rivers", subnodes: ["Nile", "Amazon", "Yangtze", "Mississippi"]}
               ]
             }
@@ -4284,9 +4006,7 @@ Lipulekh: Uttarakhand | Diphu: Arunachal`,
                                             "Nathu La (Sikkim)",
                                             "Bom Di La (Arunachal)"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Deserts", subnodes: ["Sahara (Africa)", "Atacama (driest)", "Gobi (cold)"]}
               ]
             }
@@ -4369,9 +4089,7 @@ India: ~21.7% of geographical area is forest cover`,
                                             "Project Elephant",
                                             "Crocodile Project"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Wetlands", subnodes: ["Ramsar Convention", "Chilika", "Keoladeo"]}
               ]
             }
@@ -4435,9 +4153,7 @@ Cotton: Gujarat, Maharashtra | Jute: WB (90%+)`,
                                             "Cotton: Gujarat",
                                             "Jute: West Bengal"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Farming", subnodes: ["Shifting", "Intensive", "Subsistence", "Jhuming"]}
               ]
             }
@@ -4501,9 +4217,7 @@ Busiest: Indira Gandhi International (Delhi)`,
                                             "Dedicated Freight Corridors",
                                             "Bullet train planned"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Waterways", subnodes: ["NW1 (Ganga)", "NW2 (Brahmaputra)"]}
               ]
             }
@@ -4566,9 +4280,7 @@ EX (Extinct) > EW > CR (Critically Endangered) > EN > VU > NT > LC`,
                                             "Project Elephant (1992)",
                                             "54 Tiger Reserves"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "East/Northeast", subnodes: ["Kaziranga", "Sundarbans"]},
                 {title: "West/Central", subnodes: ["Gir", "Kanha", "Ranthambore"]},
                 {title: "South", subnodes: ["Bandipur", "Silent Valley"]}
@@ -5178,9 +4890,7 @@ Q = mcΔT | Latent Heat: Q = mL (no temperature change)`,
                                             "Latent heat Q = mL",
                                             "Water: 4200 J/kg·K"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Heat Transfer", subnodes: ["Conduction (molecular contact)", "Convection (fluid currents)", "Radiation (EM waves)"]},
                 {title: "Laws", subnodes: ["Zeroth: Equilibrium", "1st: dQ = dU + dW", "2nd: Entropy direction"]}
               ]
@@ -5210,21 +4920,7 @@ Magnetic field of straight wire: B = (μ₀I)/(2πr)
 Lorentz Force: F = q(E + v×B)
 Force on current-carrying wire: F = ILB sinθ
 Faraday's Law of Induction: ε = -N(ΔΦ/Δt)
-Lenz's Law: Induced current opposes change in flux.`
-Coulomb's Law: F = k|q₁q₂|/r²
-Electric Field: E = F/q
-Potential Difference: V = W/q
-Ohm's Law: V = IR
-Resistance: R = ρL/A
-Resistors in Series: R_eq = R₁ + R₂ + ...
-Resistors in Parallel: 1/R_eq = 1/R₁ + 1/R₂ + ...
-Power: P = VI = I²R = V²/R
-# Magnetism
-Magnetic field of straight wire: B = (μ₀I)/(2πr)
-Lorentz Force: F = q(E + v×B)
-Force on current-carrying wire: F = ILB sinθ
-Faraday's Law of Induction: ε = -N(ΔΦ/Δt)
-Lenz's Law: Induced current opposes change in flux.`s Law: V = I * R\nResistance: Series (Rs = R1+R2), Parallel (1/Rp = 1/R1 + 1/R2)\nPower: P = V * I = I^2 * R\nForce: F = q * (v x B)\nInduction: Faraday's & Lenz's Laws",
+Lenz's Law: Induced current opposes change in flux.`,
             mindmap: {
                     "root": "Electricity & Magnetism",
                     "branches": [
@@ -5259,9 +4955,7 @@ Lenz's Law: Induced current opposes change in flux.`s Law: V = I * R\nResistance
                                             "Lenz's Law",
                                             "AC Generators/Transformers"
                                     ]
-                            }
-                    ]
-            },
+                            },
                 {title: "Current & Circuits", subnodes: ["Ohm's Law (V=IR)", "Series / Parallel", "Joule's Heating"]},
                 {title: "Magnetism", subnodes: ["Lorentz Force", "Electromagnetic Induction", "Transformers"]}
               ]
@@ -5930,10 +5624,8 @@ Lenz's Law: Induced current opposes change in flux.`s Law: V = I * R\nResistance
                                             "Ovary → Fruit",
                                             "Dispersal: Wind, Water, Animal"
                                     ]
-                            }
-                    ]
-            },
-                { title: "Double Fertilization", subnodes: ["Syngamy: Male gamete + Egg -> Zygote (2n)", "Triple Fusion: Male gamete + 2 Polar nuclei -> Endosperm (3n)"] },
+                            },
+{ title: "Double Fertilization", subnodes: ["Syngamy: Male gamete + Egg -> Zygote (2n)", "Triple Fusion: Male gamete + 2 Polar nuclei -> Endosperm (3n)"] },
                 { title: "Phytohormones", subnodes: ["Auxin: Apical dominance", "Gibberellin: Germination", "Cytokinin: Cell division", "ABA: Stress, close stomata", "Ethylene: Ripening (gaseous)"] }
               ]
             }
@@ -5965,7 +5657,7 @@ Cytokinin: Cell division, delays senescence, lateral bud growth
 Abscisic Acid (ABA): Stress hormone, stomatal closure, dormancy
 Ethylene: Fruit ripening, leaf abscission (gaseous hormone)
 # Lindeman's Law (Ecology)
-10% Energy Transfer Rule: Only 10% of energy passes from one trophic level to next`s 10% Law: only 10% energy transferred to next level\nPyramids: Numbers (inverted in tree), Biomass (inverted in marine), Energy (ALWAYS upright)\nEcotone: transition zone between two ecosystems (e.g., Mangrove)",
+10% Energy Transfer Rule: Only 10% of energy passes from one trophic level to next (Lindeman's 10% Law)\nPyramids: Numbers (inverted in tree), Biomass (inverted in marine), Energy (ALWAYS upright)\nEcotone: transition zone between two ecosystems (e.g., Mangrove)`,
             mindmap: {
               root: "Ecology",
               branches: [
@@ -8775,6 +8467,102 @@ let CURRENT_AFFAIRS_DB = {
     }
   ],
   "July 2026": [
+    {
+      "id": "ca_live_2026_07_02_fallback_4",
+      "topic": "International Relations",
+      "topicColor": "#7c3aed",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCY...",
+      "text": "<strong>Centre appoints Lt Gen Dhiraj Seth as next Chief of Army Staff - The Times of India</strong><br><br>&lt;a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCYVphTEloYXNFelFabG13WUxPaUxBTmhmczdJSkVSNmNyQVJXcTdYWmc2SGlPUHZ5aTlacnd1TWJOb0xpdk9CSTZBbXNtT25jWjk5YmRHclBjalNRLXBKVWJMVjhxb3Z2Q1lrcVQzTlBDMUVqaGViSHlIWlJJWmg4aF85dXFrQUkzT0UxVndNWEM1ejRr0gHYAUFVX3lxTFBWOUNRU3k1T3p2dGRFVXBFTjV1XzlFM1hwLVgwdFdLUy1QTzExSmN4UGJqRS1Vd1NVVXdLcFJTVGJYM1NfdlNhY1RkSXpibERQeHRwUzB6bF9ncFdUdDhCZ0dObEp1SW5DNkhQMDBuQTc0c3poOWU <br><a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCYVphTEloYXNFelFabG13WUxPaUxBTmhmczdJSkVSNmNyQVJXcTdYWmc2SGlPUHZ5aTlacnd1TWJOb0xpdk9CSTZBbXNtT25jWjk5YmRHclBjalNRLXBKVWJMVjhxb3Z2Q1lrcVQzTlBDMUVqaGViSHlIWlJJWmg4aF85dXFrQUkzT0UxVndNWEM1ejRr0gHYAUFVX3lxTFBWOUNRU3k1T3p2dGRFVXBFTjV1XzlFM1hwLVgwdFdLUy1QTzExSmN4UGJqRS1Vd1NVVXdLcFJTVGJYM1NfdlNhY1RkSXpibERQeHRwUzB6bF9ncFdUdDhCZ0dObEp1SW5DNkhQMDBuQTc0c3poOWU0OTZSSk1QSDJaSjZXNk5yOHIzZUhVOGEzSWZCNTlOOTc1QTFPcFBVSzFadFlyN2NWZWpuOUlpU09LMlFYemU0RVE3YlZaS0hYb1hnbzhBZHRaZ2tlNDBudVJseGtrYTViaQ?oc=5\" target=\"_blank\" style=\"color:var(--accent);\">Read Original Release</a>",
+      "quickSummary": "Quick AI summary is currently offline due to an expired API key uplink.",
+      "detailedAnalysis": "Deep-dive analysis is currently offline. Please refer to official sources or read the full article by following the official link.",
+      "backgroundContext": "Background context is offline.",
+      "stakeholders": [
+        "India",
+        "Global Community"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Medium",
+        "CAPF": "Medium",
+        "UPSC": "Medium"
+      },
+      "relatedTopics": [],
+      "potentialQuestions": {
+        "shortAnswers": [],
+        "interviewQuestions": [],
+        "ssbDiscussionTopics": []
+      },
+      "upscHighlights": [
+        "Standard news item (AI highlighting offline)"
+      ],
+      "institutionalContext": "Official Press Release / News",
+      "strategicImportance": "Please read the full official release for strategic context.",
+      "originalSource": "PIB / Government Source",
+      "publicationDate": "2026-07-02",
+      "lastUpdatedDate": "2026-07-02",
+      "verificationStatus": "Raw Feed (AI Unverified)",
+      "relatedOfficialDocuments": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCYVphTEloYXNFelFabG13WUxPaUxBTmhmczdJSkVSNmNyQVJXcTdYWmc2SGlPUHZ5aTlacnd1TWJOb0xpdk9CSTZBbXNtT25jWjk5YmRHclBjalNRLXBKVWJMVjhxb3Z2Q1lrcVQzTlBDMUVqaGViSHlIWlJJWmg4aF85dXFrQUkzT0UxVndNWEM1ejRr0gHYAUFVX3lxTFBWOUNRU3k1T3p2dGRFVXBFTjV1XzlFM1hwLVgwdFdLUy1QTzExSmN4UGJqRS1Vd1NVVXdLcFJTVGJYM1NfdlNhY1RkSXpibERQeHRwUzB6bF9ncFdUdDhCZ0dObEp1SW5DNkhQMDBuQTc0c3poOWU0OTZSSk1QSDJaSjZXNk5yOHIzZUhVOGEzSWZCNTlOOTc1QTFPcFBVSzFadFlyN2NWZWpuOUlpU09LMlFYemU0RVE3YlZaS0hYb1hnbzhBZHRaZ2tlNDBudVJseGtrYTViaQ?oc=5",
+      "mcq": {
+        "question": "Which of the following best describes the core subject of the recent news \"Centre appoints Lt Gen Dhiraj Seth as next Chief of Army Staff - The Times of India\"?",
+        "options": [
+          "A (Details missing due to offline AI)",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 0,
+        "explanation": "MCQ auto-generation requires an active AI uplink."
+      }
+    },
+    {
+      "id": "ca_live_2026_07_02_fallback_2",
+      "topic": "Defence & Security",
+      "topicColor": "#dc2626",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPUnAzMGlKd2Z6SzdSMkFucXhiYkdTZVpOczJwWHV3bjdJeHBYVFJ5WHFPYXRsWDFXbS05eWUwVDJ4VDFWdktCO...",
+      "text": "<strong>Lt. Gen. Dhiraj Seth appointed next Army Chief - The Hindu</strong><br><br>&lt;a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPUnAzMGlKd2Z6SzdSMkFucXhiYkdTZVpOczJwWHV3bjdJeHBYVFJ5WHFPYXRsWDFXbS05eWUwVDJ4VDFWdktCOHVNSUFLOVdsaDNxdWx3bDY5X1FBS1pBZldjZ1JJRkg4Qzh1amlWYk1xX253TjJnUlBlNTk2ZUpPRFlleW9ndmVuSTg2S1lKa2pzY3dkVElSWHRxLWNQR0VncXZfSlNR0gGsAUFVX3lxTE1XVG16b1kzZThmUXNSdGdvODIwb1ZXTzNJREI5TGFaRXBZeDJob0Y4ZVVZQzRhb0FjNVlxaTdGZjhyZGpmSm05MGdVUWdpcndSOURJdTRwZndfeWZtN0hvcmtXdXRGcnlXeE9kMlZXbVBncFRQNHM1b2tQb0tTampsM1FCTjBUb1BRQVE2OUdiUW1zTGQ4dzVHa2M4TTFWYmRsbTU <br><a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPUnAzMGlKd2Z6SzdSMkFucXhiYkdTZVpOczJwWHV3bjdJeHBYVFJ5WHFPYXRsWDFXbS05eWUwVDJ4VDFWdktCOHVNSUFLOVdsaDNxdWx3bDY5X1FBS1pBZldjZ1JJRkg4Qzh1amlWYk1xX253TjJnUlBlNTk2ZUpPRFlleW9ndmVuSTg2S1lKa2pzY3dkVElSWHRxLWNQR0VncXZfSlNR0gGsAUFVX3lxTE1XVG16b1kzZThmUXNSdGdvODIwb1ZXTzNJREI5TGFaRXBZeDJob0Y4ZVVZQzRhb0FjNVlxaTdGZjhyZGpmSm05MGdVUWdpcndSOURJdTRwZndfeWZtN0hvcmtXdXRGcnlXeE9kMlZXbVBncFRQNHM1b2tQb0tTampsM1FCTjBUb1BRQVE2OUdiUW1zTGQ4dzVHa2M4TTFWYmRsbTUyWXNJMk1ubTc?oc=5\" target=\"_blank\" style=\"color:var(--accent);\">Read Original Release</a>",
+      "quickSummary": "Quick AI summary is currently offline due to an expired API key uplink.",
+      "detailedAnalysis": "Deep-dive analysis is currently offline. Please refer to official sources or read the full article by following the official link.",
+      "backgroundContext": "Background context is offline.",
+      "stakeholders": [
+        "India",
+        "Global Community"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Medium",
+        "CAPF": "Medium",
+        "UPSC": "Medium"
+      },
+      "relatedTopics": [],
+      "potentialQuestions": {
+        "shortAnswers": [],
+        "interviewQuestions": [],
+        "ssbDiscussionTopics": []
+      },
+      "upscHighlights": [
+        "Standard news item (AI highlighting offline)"
+      ],
+      "institutionalContext": "Official Press Release / News",
+      "strategicImportance": "Please read the full official release for strategic context.",
+      "originalSource": "PIB / Government Source",
+      "publicationDate": "2026-07-02",
+      "lastUpdatedDate": "2026-07-02",
+      "verificationStatus": "Raw Feed (AI Unverified)",
+      "relatedOfficialDocuments": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUnAzMGlKd2Z6SzdSMkFucXhiYkdTZVpOczJwWHV3bjdJeHBYVFJ5WHFPYXRsWDFXbS05eWUwVDJ4VDFWdktCOHVNSUFLOVdsaDNxdWx3bDY5X1FBS1pBZldjZ1JJRkg4Qzh1amlWYk1xX253TjJnUlBlNTk2ZUpPRFlleW9ndmVuSTg2S1lKa2pzY3dkVElSWHRxLWNQR0VncXZfSlNR0gGsAUFVX3lxTE1XVG16b1kzZThmUXNSdGdvODIwb1ZXTzNJREI5TGFaRXBZeDJob0Y4ZVVZQzRhb0FjNVlxaTdGZjhyZGpmSm05MGdVUWdpcndSOURJdTRwZndfeWZtN0hvcmtXdXRGcnlXeE9kMlZXbVBncFRQNHM1b2tQb0tTampsM1FCTjBUb1BRQVE2OUdiUW1zTGQ4dzVHa2M4TTFWYmRsbTUyWXNJMk1ubTc?oc=5",
+      "mcq": {
+        "question": "Which of the following best describes the core subject of the recent news \"Lt. Gen. Dhiraj Seth appointed next Army Chief - The Hindu\"?",
+        "options": [
+          "A (Details missing due to offline AI)",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 0,
+        "explanation": "MCQ auto-generation requires an active AI uplink."
+      }
+    },
     {
       "id": "ca_live_2026_07_01_0",
       "topic": "Military Appointments",

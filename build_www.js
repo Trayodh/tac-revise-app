@@ -49,7 +49,18 @@ items.forEach(item => {
     }
     
     if (filesToCopy.includes(item) || patternsToCopy.some(regex => regex.test(item))) {
-      fs.copyFileSync(itemPath, destPath);
+      if (item === 'app.js') {
+        let appJsContent = fs.readFileSync(itemPath, 'utf8');
+        if (process.env.GROQ_API_KEY) {
+          appJsContent = appJsContent.replace(/PROCESS_ENV_GROQ_KEY/g, process.env.GROQ_API_KEY);
+        }
+        if (process.env.GEMINI_API_KEY) {
+          appJsContent = appJsContent.replace(/PROCESS_ENV_GEMINI_KEY/g, process.env.GEMINI_API_KEY);
+        }
+        fs.writeFileSync(destPath, appJsContent);
+      } else {
+        fs.copyFileSync(itemPath, destPath);
+      }
       console.log(`Copied ${item}`);
     }
   }

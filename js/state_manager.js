@@ -83,7 +83,7 @@ function initAppState() {
   const localData = localStorage.getItem("tac_revise_state_v1");
   if (localData) {
     try {
-      STATE = { ...STATE, ...JSON.parse(localData) };
+      let parsed = JSON.parse(localData); if (parsed) { STATE = { ...STATE, ...parsed }; }
     } catch (e) {
       console.error("Error loading localStorage state:", e);
     }
@@ -104,7 +104,7 @@ function initAppState() {
   
   // Trigger async cloud database sync
   syncFromSupabase();
-  syncDatabaseFromSupabase();
+  // syncDatabaseFromSupabase();
 }
 
 function saveState() {

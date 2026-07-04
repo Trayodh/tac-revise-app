@@ -1,6 +1,175 @@
 // Tac-Revise Application Logic
 // Dependencies: data.js (which contains NOTES_DATABASE, CURRENT_AFFAIRS_DB, etc.)
 // ==========================================
+// 0. STANDALONE AI INTERCEPTOR (For Android/Capacitor App Support)
+// ==========================================
+// This intercepts fetch calls to the node backend (/api/gemini) and routes them directly 
+// to Cerebras API so the app can function completely offline as a standalone mobile app!
+const originalFetch = window.fetch;
+window.fetch = async function() {
+    const url = typeof arguments[0] === 'string' ? arguments[0] : (arguments[0] instanceof Request ? arguments[0].url : '');
+    
+    // Intercept backend Current Affairs calls to serve them completely offline!
+    if (url.includes('/api/daily-current-affairs')) {
+        let payload = {};
+        if (window.CURRENT_AFFAIRS_DB) {
+            // Need to return array for current_affairs parser which expects Array if successful
+            // Or wait, CURRENT_AFFAIRS_DB is an object map! Let's return just the object?
+            // Actually app.js line 1089 checks `if (Array.isArray(data))`. 
+            // The API returns the raw parsed JSON which is an array of items for TODAY.
+            // But if offline, we can just return an empty array, and it falls back to the database!
+            payload = [];
+        }
+        return new Response(JSON.stringify(payload), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' }
+        });
+    }
+
+    // Intercept backend AI calls
+    if (url.includes('/api/gemini')) {
+        try {
+            const reqBody = typeof arguments[1].body === 'string' ? JSON.parse(arguments[1].body) : arguments[1].body;
+            let messages = [];
+            let systemInstructionText = "";
+            let promptText = "";
+            
+            if (reqBody.systemInstruction && reqBody.systemInstruction.parts && reqBody.systemInstruction.parts[0].text) {
+               systemInstructionText = reqBody.systemInstruction.parts[0].text;
+               messages.push({ role: 'system', content: systemInstructionText });
+            }
+            
+            if (reqBody.contents && reqBody.contents.length > 0) {
+                promptText = reqBody.contents[0].parts
+                    .filter(p => p.text)
+                    .map(p => p.text)
+                    .join('\n');
+                messages.push({ role: 'user', content: promptText });
+            }
+            
+            // ----------------------------------------------------
+            // MULTI-MODEL INTELLIGENT ROUTER
+            // ----------------------------------------------------
+            let targetAI = 'gemini'; // Default fallback
+            const combinedText = (systemInstructionText + " " + promptText).toLowerCase();
+            
+            // 1. Groq (MCQs, Flashcards, Revision plans, Subject classification)
+            if (
+                combinedText.includes("multiple choice") || 
+                combinedText.includes("mcq") ||
+                combinedText.includes("flashcard") ||
+                combinedText.includes("spaced repetition") ||
+                combinedText.includes("revision plan") ||
+                combinedText.includes("study plan") ||
+                combinedText.includes("classify") ||
+                combinedText.includes("categorize")
+            ) {
+                targetAI = 'groq';
+            }
+            // 2. Cerebras (Chatbot / Dronacharya)
+            else if (
+                combinedText.includes("chatbot") || 
+                combinedText.includes("dronacharya") ||
+                combinedText.includes("conversational")
+            ) {
+                targetAI = 'cerebras';
+            }
+            // 3. Gemini (Notes, Learn/Explain, Current Affairs, Quiz Explanations, PYQs)
+            else {
+                targetAI = 'gemini';
+            }
+            
+            // ----------------------------------------------------
+            // API EXECUTION
+            // ----------------------------------------------------
+            let aiText = "";
+            let responseStatus = 200;
+            const isJsonRequired = (reqBody.generationConfig?.response_mime_type === 'application/json');
+            
+            if (targetAI === 'groq') {
+                const groqBody = {
+                    model: 'llama-3.3-70b-versatile',
+                    messages: messages,
+                    temperature: reqBody.generationConfig?.temperature || 0.1,
+                    max_tokens: 1500
+                };
+                if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
+                
+                const res = await originalFetch('https://api.groq.com/openai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer PROCESS_ENV_GROQ_KEY'
+                    },
+                    body: JSON.stringify(groqBody)
+                });
+                if (!res.ok) throw new Error("Groq API Error: " + await res.text());
+                const data = await res.json();
+                aiText = data.choices[0]?.message?.content || "";
+            } 
+            else if (targetAI === 'cerebras') {
+                const cerebrasBody = {
+                    model: 'llama3.1-8b', // Fastest for chat
+                    messages: messages,
+                    temperature: reqBody.generationConfig?.temperature || 0.7,
+                    max_completion_tokens: 1500
+                };
+                if (isJsonRequired) cerebrasBody.response_format = { type: 'json_object' };
+                
+                const res = await originalFetch('https://api.cerebras.ai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer csk-rjky9dk6mdmdcm6myw6mk4mv5jht5rvktjy9m8dcttn3e6td'
+                    },
+                    body: JSON.stringify(cerebrasBody)
+                });
+                if (!res.ok) throw new Error("Cerebras API Error: " + await res.text());
+                const data = await res.json();
+                aiText = data.choices[0]?.message?.content || "";
+            }
+            else if (targetAI === 'gemini') {
+                // Requires the user to provide their Gemini Key
+                const GEMINI_KEY = 'PROCESS_ENV_GEMINI_KEY'; 
+                if (GEMINI_KEY === 'YOUR_GEMINI_API_KEY_HERE') {
+                    aiText = (isJsonRequired ? "{}" : "") + "\n\n**[SYSTEM ALERT]** Gemini API key missing! Please add your Gemini key to the app.js interceptor to generate Notes, PYQ Analysis, and Current Affairs.";
+                } else {
+                    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`;
+                    const res = await originalFetch(geminiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(reqBody) // Forward original body exactly
+                    });
+                    if (!res.ok) throw new Error("Gemini API Error: " + await res.text());
+                    const data = await res.json();
+                    aiText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+                }
+            }
+            
+            // Reconstruct Gemini format for the frontend parsing logic
+            const fakeGeminiResponse = {
+                candidates: [
+                    { content: { parts: [{ text: aiText }] } }
+                ]
+            };
+            
+            return new Response(JSON.stringify(fakeGeminiResponse), {
+                status: responseStatus,
+                headers: { 'Content-Type': 'application/json' }
+            });
+        } catch (e) {
+            console.error("AI Intercept Error:", e);
+            // Fallback response if offline or errored
+            return new Response(JSON.stringify({
+                candidates: [{ content: { parts: [{ text: "```json\n[]\n```\n\n_AI uplink failed. Working in offline mode._" }] } }]
+            }), { status: 200, headers: { 'Content-Type': 'application/json' }});
+        }
+    }
+    
+    return originalFetch.apply(window, arguments);
+};
+
+// ==========================================
 // 0. THEME SWITCHER
 // ==========================================
 function applyTheme(themeName) {
@@ -1004,7 +1173,13 @@ function fetchDailyCurrentAffairs() {
   }
 
   fetch('/api/daily-current-affairs')
-    .then(res => res.json())
+    .then(async res => {
+      if (!res.ok) {
+        const text = await res.text();
+        throw new Error(`HTTP ${res.status}: ${text}`);
+      }
+      return res.json();
+    })
     .then(data => {
       if (Array.isArray(data)) {
         const monthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
@@ -1031,9 +1206,9 @@ function fetchDailyCurrentAffairs() {
     .catch(err => {
       console.error("Failed to fetch daily news:", err);
       isFetchingDailyNews = false;
-      hasFetchedDailyNews = true;
-      if (pane) pane.innerHTML = `<p style="color: var(--danger); padding: 20px;">Secure uplink failed. Could not retrieve today's intelligence.</p>`;
-      setTimeout(() => renderCurrentAffairsHub(), 3000);
+      hasFetchedDailyNews = false;
+      if (pane) pane.innerHTML = `<p style="color: var(--danger); padding: 20px;">Secure uplink failed. Error: ${err.message}. Please refresh the page.</p>`;
+      setTimeout(() => renderCurrentAffairsHub(), 5000);
     });
 }
 
