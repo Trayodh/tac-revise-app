@@ -110,7 +110,7 @@ window.fetch = async function() {
             } 
             else if (targetAI === 'cerebras') {
                 const cerebrasBody = {
-                    model: 'llama3.1-8b',
+                    model: 'gpt-oss-120b',
                     messages: messages,
                     temperature: reqBody.generationConfig?.temperature || 0.7,
                     max_completion_tokens: 1500
