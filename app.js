@@ -66,7 +66,17 @@ window.fetch = async function() {
             ) {
                 targetAI = 'groq';
             }
-            // 3. Gemini (Notes, Learn/Explain, Current Affairs, Quiz Explanations, PYQs)
+            // 2. Cerebras (Chatbot / Dronacharya / Tell Me More)
+            else if (
+                !combinedText.includes("exhaustive, deep-dive") &&
+                !combinedText.includes("academic intelligence engine") &&
+                (combinedText.includes("chatbot") || 
+                 combinedText.includes("dronacharya") ||
+                 combinedText.includes("conversational"))
+            ) {
+                targetAI = 'cerebras';
+            }
+            // 3. Gemini (Detailed Notes, Learn/Explain, Current Affairs, Quiz Explanations, PYQs)
             else {
                 targetAI = 'gemini';
             }
