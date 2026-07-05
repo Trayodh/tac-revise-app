@@ -66,14 +66,6 @@ window.fetch = async function() {
             ) {
                 targetAI = 'groq';
             }
-            // 2. Cerebras (Chatbot / Dronacharya)
-            else if (
-                combinedText.includes("chatbot") || 
-                combinedText.includes("dronacharya") ||
-                combinedText.includes("conversational")
-            ) {
-                targetAI = 'cerebras';
-            }
             // 3. Gemini (Notes, Learn/Explain, Current Affairs, Quiz Explanations, PYQs)
             else {
                 targetAI = 'gemini';
