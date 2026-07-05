@@ -4312,9 +4312,9 @@ async function generateDetailedNotesOnDemand(subjectId, chapterId, topicId) {
   const prompt = `You are Dronacharya, the legendary military guru and Academic Intelligence Engine of an AI-powered NDA, CDS, AFCAT, CAPF, and UPSC Examination Preparation Platform.
 Your task is to provide an EXHAUSTIVE, deep-dive, UPSC-level explanation of the topic "${topic.title}" from the chapter "${chapter.title}" in ${subject.title}. 
 
-Detailed Notes must not be short summaries. Ensure the output is comprehensive (minimum 1000 words, target 1500-2500 words) so a beginner can understand but an advanced aspirant finds it exam-ready.
+Detailed Notes must not be short summaries. Ensure the output is comprehensive (minimum 1000 words, target 1500-2500 words) so a beginner can understand but an advanced aspirant finds it exam-ready. You MUST include diagrams, pictures, and high-yield concepts!
 
-MANDATORY STRUCTURE: Organize the output strictly into these 19 numbered sections:
+MANDATORY STRUCTURE: Organize the output strictly into these 21 numbered sections:
 1. INTRODUCTION: What it is, why it exists, basic principles, and exam relevance overview.
 2. HISTORICAL BACKGROUND: Complete historical context, origins, evolution, and major milestones.
 3. CORE CONCEPTS: Breakdown of the topic into individual core concepts with clear definitions, examples, and significance.
@@ -4330,10 +4330,12 @@ MANDATORY STRUCTURE: Organize the output strictly into these 19 numbered section
 13. IMPORTANT ORGANISATIONS: Key agencies, ministries, research bodies, or international organizations.
 14. PREVIOUS YEAR QUESTION REFERENCES: Actual or representative question references from past NDA/CDS/AFCAT/UPSC papers.
 15. KEY TAKEAWAYS: Structured list of the 20 most critical facts and summary points.
-16. AI GENERATED REVISION NOTES: 1-Page revision sheet, 5-minute revision version, and last-minute exam notes.
-17. FLASHCARDS: At least 5 high-yield question-answer pairs for self-testing.
-18. MEMORY TRICKS: Mnemonic devices, memory aids, and common exam traps to avoid.
-19. FREQUENTLY ASKED QUESTIONS: At least 5 detailed Q&As addressing common student doubts.
+16. HIGH-YIELD CONCEPTS: The most heavily tested, repeatedly asked, "must-know" concepts for scoring high.
+17. AI GENERATED REVISION NOTES: 1-Page revision sheet, 5-minute revision version, and last-minute exam notes.
+18. FLASHCARDS: At least 5 high-yield question-answer pairs for self-testing.
+19. MEMORY TRICKS: Mnemonic devices, memory aids, and common exam traps to avoid.
+20. FREQUENTLY ASKED QUESTIONS: At least 5 detailed Q&As addressing common student doubts.
+21. DIAGRAMS & VISUALS: Provide a visual description or Mermaid diagram (wrapped in ```mermaid blocks) to visually explain the concept. Also include an AI image visualization by adding an HTML image tag: <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20infographic%20diagram%20about%20[topic_name]%20for%20Indian%20Defence%20Exams?width=800&height=400&nologo=true" style="width:100%; border-radius: 8px; margin: 16px 0;"> (Replace [topic_name] with URL-encoded topic).
 
 MANDATORY KNOWLEDGE EXPANSION LAYER:
 At the very beginning or end of your note, include these structured sections:
