@@ -715,7 +715,10 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
           if (!GEMINI_KEY) {
              aiText = (isJsonRequired ? "{}" : "") + "\n\n**[SYSTEM ALERT]** Gemini API key missing from backend! Please add GEMINI_API_KEY to your environment variables.";
           } else {
-             const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`;
+             if (originalGeminiBody && originalGeminiBody.stream) {
+                 delete originalGeminiBody.stream;
+             }
+             const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_KEY}`;
              const res = await fetch(geminiUrl, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
