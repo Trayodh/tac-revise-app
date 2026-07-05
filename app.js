@@ -53,8 +53,15 @@ window.fetch = async function() {
             let targetAI = 'gemini'; // Default fallback
             const combinedText = (systemInstructionText + " " + promptText).toLowerCase();
             
-            // 1. Groq (MCQs, Flashcards, Revision plans, Subject classification)
+            // 0. Explicit Override for Detailed Notes -> Gemini
             if (
+                combinedText.includes("exhaustive, deep-dive") ||
+                combinedText.includes("academic intelligence engine")
+            ) {
+                targetAI = 'gemini';
+            }
+            // 1. Groq (MCQs, Flashcards, Revision plans, Subject classification)
+            else if (
                 combinedText.includes("multiple choice") || 
                 combinedText.includes("mcq") ||
                 combinedText.includes("flashcard") ||
@@ -68,15 +75,13 @@ window.fetch = async function() {
             }
             // 2. Cerebras (Chatbot / Dronacharya / Tell Me More)
             else if (
-                !combinedText.includes("exhaustive, deep-dive") &&
-                !combinedText.includes("academic intelligence engine") &&
-                (combinedText.includes("chatbot") || 
-                 combinedText.includes("dronacharya") ||
-                 combinedText.includes("conversational"))
+                combinedText.includes("chatbot") || 
+                combinedText.includes("dronacharya") ||
+                combinedText.includes("conversational")
             ) {
                 targetAI = 'cerebras';
             }
-            // 3. Gemini (Detailed Notes, Learn/Explain, Current Affairs, Quiz Explanations, PYQs)
+            // 3. Gemini (Notes, Learn/Explain, Current Affairs, Quiz Explanations, PYQs)
             else {
                 targetAI = 'gemini';
             }
@@ -6375,27 +6380,19 @@ async function solveAdvancedMath() {
     e.stopPropagation();
     
     if (selectedText) {
-      // 1. Switch to AI Console Screen
-      if (typeof switchScreen === 'function') {
-        switchScreen('ai-console');
+      // 1. Open Chatbot Drawer
+      const drawer = document.getElementById("chatbot-drawer");
+      if (drawer && !drawer.classList.contains("open") && typeof window.toggleChatbot === 'function') {
+        window.toggleChatbot();
       }
       
-      // 2. Set the input text
-      const inputEl = document.getElementById('ai-custom-topic-input');
-      if (inputEl) {
-        inputEl.value = selectedText;
-      }
-      
-      // 3. Select 'Solve Doubt' mode
-      const solveRadio = document.querySelector('input[name="ai-mode"][value="solve"]');
-      if (solveRadio) {
-        solveRadio.checked = true;
-      }
-      
-      // 4. Trigger generation
-      const generateBtn = document.getElementById('ai-generate-btn');
-      if (generateBtn) {
-        generateBtn.click();
+      // 2. Set the input text and send message
+      const chatbotInput = document.getElementById('chatbot-user-input');
+      if (chatbotInput) {
+        chatbotInput.value = `Can you explain: ${selectedText}`;
+        if (typeof window.sendChatbotMessage === 'function') {
+          window.sendChatbotMessage();
+        }
       }
       
       // Clean up
@@ -6404,3 +6401,122 @@ async function solveAdvancedMath() {
     }
   });
 })();
+
+// --- EXTRA QUESTION BANK LOGIC ---
+
+function showQuestionBank() {
+    // Hide all major sections
+    document.getElementById('dashboard-section')?.classList.add('hidden');
+    document.getElementById('mock-exam-section')?.classList.add('hidden');
+    document.getElementById('cbt-exam-section')?.classList.add('hidden');
+    document.getElementById('lecture-mode-section')?.classList.add('hidden');
+    
+    // Show bank section
+    const bankSection = document.getElementById('question-bank-section');
+    if (bankSection) {
+        bankSection.classList.remove('hidden');
+        renderQuestionBank('gs'); // Default load GS
+    }
+    
+    closeSidebar();
+}
+
+let currentBankSubject = 'gs';
+let currentBankPage = 0;
+const BANK_PAGE_SIZE = 50;
+
+function renderQuestionBank(subject) {
+    if (typeof EXTRA_QUESTION_BANK === 'undefined') {
+        alert("Extra question bank data is not loaded!");
+        return;
+    }
+    
+    currentBankSubject = subject;
+    currentBankPage = 0;
+    
+    // Update filters
+    document.querySelectorAll('.bank-filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.innerText.toLowerCase().includes(subject)) {
+            btn.classList.add('active');
+        }
+    });
+    
+    // Update counts
+    document.getElementById('count-gs').innerText = EXTRA_QUESTION_BANK.gs.length;
+    document.getElementById('count-english').innerText = EXTRA_QUESTION_BANK.english.length;
+    document.getElementById('count-maths').innerText = EXTRA_QUESTION_BANK.maths.length;
+    
+    const container = document.getElementById('bank-container');
+    container.innerHTML = ''; // Clear
+    
+    loadMoreBankQuestions();
+}
+
+function loadMoreBankQuestions() {
+    const container = document.getElementById('bank-container');
+    const pool = EXTRA_QUESTION_BANK[currentBankSubject] || [];
+    
+    const start = currentBankPage * BANK_PAGE_SIZE;
+    const end = Math.min(start + BANK_PAGE_SIZE, pool.length);
+    
+    for (let i = start; i < end; i++) {
+        const q = pool[i];
+        if (!q) continue;
+        
+        const card = document.createElement('div');
+        card.className = 'bank-card';
+        
+        // Options UI
+        let optionsHtml = '<div class="bank-options">';
+        (q.options || []).forEach((opt, idx) => {
+            const isCorrect = idx === q.correct;
+            optionsHtml += `<div class="bank-opt" data-correct="${isCorrect}">${String.fromCharCode(65 + idx)}. ${opt}</div>`;
+        });
+        optionsHtml += '</div>';
+        
+        card.innerHTML = `
+            <div class="bank-q-text">Q${i+1}. ${q.question}</div>
+            ${optionsHtml}
+            <button class="bank-reveal-btn" onclick="revealBankSolution(this)">Reveal Solution</button>
+            <div class="bank-solution" style="display: none;">
+                <strong>Correct Answer:</strong> ${String.fromCharCode(65 + q.correct)}<br><br>
+                ${q.explanation || 'No detailed explanation provided.'}
+            </div>
+        `;
+        
+        container.appendChild(card);
+    }
+    
+    currentBankPage++;
+    
+    const loadBtn = document.getElementById('load-more-btn');
+    if (end < pool.length) {
+        loadBtn.style.display = 'inline-block';
+    } else {
+        loadBtn.style.display = 'none';
+    }
+}
+
+function revealBankSolution(btn) {
+    const card = btn.parentElement;
+    const solutionDiv = card.querySelector('.bank-solution');
+    const opts = card.querySelectorAll('.bank-opt');
+    
+    // Highlight correct option
+    opts.forEach(opt => {
+        if (opt.getAttribute('data-correct') === 'true') {
+            opt.classList.add('correct');
+        }
+    });
+    
+    // Toggle solution visibility
+    if (solutionDiv.style.display === 'none') {
+        solutionDiv.style.display = 'block';
+        btn.innerText = 'Hide Solution';
+    } else {
+        solutionDiv.style.display = 'none';
+        btn.innerText = 'Reveal Solution';
+        opts.forEach(opt => opt.classList.remove('correct'));
+    }
+}
