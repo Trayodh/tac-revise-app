@@ -6336,7 +6336,7 @@ async function solveAdvancedMath() {
 // ==========================================
 // TELL ME MORE - TEXT SELECTION FEATURE
 // ==========================================
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
   const tooltip = document.getElementById('tell-me-more-tooltip');
   if (!tooltip) return;
 
@@ -6405,7 +6405,7 @@ async function solveAdvancedMath() {
       tooltip.style.display = 'none';
     }
   });
-})();
+});
 
 // --- EXTRA QUESTION BANK LOGIC ---
 
