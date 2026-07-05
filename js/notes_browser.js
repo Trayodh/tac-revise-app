@@ -1513,12 +1513,6 @@ const TOPIC_MAPS = {
       "src": "images/current_affairs_world.png"
     }
   ]
-  "industrics-geopolitics": [
-    {
-      "title": "World Geopolitical Map",
-      "src": "images/current_affairs_world.png"
-    }
-  ],
 };
 
 
