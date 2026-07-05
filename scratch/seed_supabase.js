@@ -21,8 +21,12 @@ const sandbox = {
 };
 vm.createContext(sandbox);
 
-// 1. Load data.js via require
-const { CURRENT_AFFAIRS_DB, CBT_EXAMS_DATABASE, NOTES_DATABASE } = require('../data.js');
+// 1. Load data.js in the sandbox
+let dataJsContent = fs.readFileSync('data.js', 'utf8');
+dataJsContent += '\n; window.CURRENT_AFFAIRS_DB = CURRENT_AFFAIRS_DB; window.CBT_EXAMS_DATABASE = CBT_EXAMS_DATABASE; window.NOTES_DATABASE = NOTES_DATABASE;\n';
+vm.runInContext(dataJsContent, sandbox);
+const { CURRENT_AFFAIRS_DB, CBT_EXAMS_DATABASE, NOTES_DATABASE } = sandbox.window;
+
 
 // 2. Load all notes_extra files in a sandbox to populate EXPANDED_NOTES_DATA
 const notesFiles = fs.readdirSync('.')

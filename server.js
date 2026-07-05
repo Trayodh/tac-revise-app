@@ -447,6 +447,86 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // API Route: Unified Multi-Model Chat proxy
+  if (req.url === '/api/chat' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const payload = JSON.parse(body);
+        const { targetAI, messages, isJsonRequired, temperature, originalGeminiBody } = payload;
+        let aiText = "";
+
+        if (targetAI === 'groq') {
+          const groqBody = {
+            model: 'llama-3.3-70b-versatile',
+            messages: messages,
+            temperature: temperature || 0.1,
+            max_tokens: 1500
+          };
+          if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
+
+          const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${process.env.GROQ_API_KEY || ''}`
+            },
+            body: JSON.stringify(groqBody)
+          });
+          if (!res.ok) throw new Error("Groq API Error: " + await res.text());
+          const data = await res.json();
+          aiText = data.choices?.[0]?.message?.content || "";
+        }
+        else if (targetAI === 'cerebras') {
+          const cerebrasBody = {
+            model: 'llama3.1-8b',
+            messages: messages,
+            temperature: temperature || 0.7,
+            max_completion_tokens: 1500
+          };
+          if (isJsonRequired) cerebrasBody.response_format = { type: 'json_object' };
+
+          const res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${CEREBRAS_API_KEY || ''}`
+            },
+            body: JSON.stringify(cerebrasBody)
+          });
+          if (!res.ok) throw new Error("Cerebras API Error: " + await res.text());
+          const data = await res.json();
+          aiText = data.choices?.[0]?.message?.content || "";
+        }
+        else if (targetAI === 'gemini') {
+          const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
+          if (!GEMINI_KEY) {
+             aiText = (isJsonRequired ? "{}" : "") + "\n\n**[SYSTEM ALERT]** Gemini API key missing from backend! Please add GEMINI_API_KEY to your environment variables.";
+          } else {
+             const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`;
+             const res = await fetch(geminiUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(originalGeminiBody)
+             });
+             if (!res.ok) throw new Error("Gemini API Error: " + await res.text());
+             const data = await res.json();
+             aiText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+          }
+        }
+
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ text: aiText }));
+      } catch (e) {
+        console.error("[PROXY] /api/chat error:", e);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: e.message }));
+      }
+    });
+    return;
+  }
+
 
   // API Route: Solve Paper or Chatbot proxy
   if (req.url.startsWith('/api/gemini') && req.method === 'POST') {

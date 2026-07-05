@@ -86,65 +86,29 @@ window.fetch = async function() {
             let responseStatus = 200;
             const isJsonRequired = (reqBody.generationConfig?.response_mime_type === 'application/json');
             
-            if (targetAI === 'groq') {
-                const groqBody = {
-                    model: 'llama-3.3-70b-versatile',
-                    messages: messages,
-                    temperature: reqBody.generationConfig?.temperature || 0.1,
-                    max_tokens: 1500
-                };
-                if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
-                
-                const res = await originalFetch('https://api.groq.com/openai/v1/chat/completions', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer YOUR_GROQ_API_KEY_HERE'
-                    },
-                    body: JSON.stringify(groqBody)
-                });
-                if (!res.ok) throw new Error("Groq API Error: " + await res.text());
-                const data = await res.json();
-                aiText = data.choices[0]?.message?.content || "";
-            } 
-            else if (targetAI === 'cerebras') {
-                const cerebrasBody = {
-                    model: 'llama3.1-8b', // Fastest for chat
-                    messages: messages,
-                    temperature: reqBody.generationConfig?.temperature || 0.7,
-                    max_completion_tokens: 1500
-                };
-                if (isJsonRequired) cerebrasBody.response_format = { type: 'json_object' };
-                
-                const res = await originalFetch('https://api.cerebras.ai/v1/chat/completions', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer YOUR_CEREBRAS_API_KEY_HERE'
-                    },
-                    body: JSON.stringify(cerebrasBody)
-                });
-                if (!res.ok) throw new Error("Cerebras API Error: " + await res.text());
-                const data = await res.json();
-                aiText = data.choices[0]?.message?.content || "";
+            // Route all AI traffic through the secure Vercel backend
+            const backendPayload = {
+                targetAI: targetAI,
+                messages: messages,
+                isJsonRequired: isJsonRequired,
+                temperature: reqBody.generationConfig?.temperature || 0.1,
+                // Pass original request body for Gemini (which uses a different format)
+                originalGeminiBody: targetAI === 'gemini' ? reqBody : null
+            };
+
+            const res = await originalFetch('/api/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(backendPayload)
+            });
+            
+            if (!res.ok) {
+                const errText = await res.text();
+                throw new Error("Backend API Error: " + errText);
             }
-            else if (targetAI === 'gemini') {
-                // Requires the user to provide their Gemini Key
-                const GEMINI_KEY = 'YOUR_GEMINI_API_KEY_HERE'; 
-                if (GEMINI_KEY === 'YOUR_GEMINI_API_KEY_HERE') {
-                    aiText = (isJsonRequired ? "{}" : "") + "\n\n**[SYSTEM ALERT]** Gemini API key missing! Please add your Gemini key to the app.js interceptor to generate Notes, PYQ Analysis, and Current Affairs.";
-                } else {
-                    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`;
-                    const res = await originalFetch(geminiUrl, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify(reqBody) // Forward original body exactly
-                    });
-                    if (!res.ok) throw new Error("Gemini API Error: " + await res.text());
-                    const data = await res.json();
-                    aiText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
-                }
-            }
+            
+            const data = await res.json();
+            aiText = data.text || "";
             
             // Reconstruct Gemini format for the frontend parsing logic
             const fakeGeminiResponse = {
@@ -1329,9 +1293,7 @@ function renderCurrentAffairsHub() {
       
       item.addEventListener("click", () => {
         activeCaMonth = month;
-        document.getElementById('ca-view-months').style.display = 'none';
-        document.getElementById('ca-view-content').style.display = 'block';
-        renderCurrentMonthAffairs();
+        renderCurrentAffairsHub();
       });
       monthsList.appendChild(item);
     });
@@ -3451,20 +3413,20 @@ function refreshCurrentAffairs(isNdaOrCds = false) {
   console.log(" Tactical Intelligence Update: Shuffling and resetting current affairs...");
   
   if (isNdaOrCds) {
-    console.log(" Post-Exam Prep Cycle: Erasing current affairs prior to the exam month (September 2026) and noting new ones...");
-    const oldMonths = ["January 2026", "February 2026", "March 2026", "April 2026", "May 2026", "June 2026", "July 2026", "August 2026"];
-    let erasedCount = 0;
-    oldMonths.forEach(m => {
-      if (CURRENT_AFFAIRS_DB[m]) {
-        delete CURRENT_AFFAIRS_DB[m];
-        erasedCount++;
-      }
-    });
+    console.log(" Post-Exam Prep Cycle logic triggered. (Erasure disabled by user request to keep April/May/June accessible).");
+    // const oldMonths = ["January 2026", "February 2026", "March 2026", "April 2026", "May 2026", "June 2026", "July 2026", "August 2026"];
+    // let erasedCount = 0;
+    // oldMonths.forEach(m => {
+    //   if (CURRENT_AFFAIRS_DB[m]) {
+    //     delete CURRENT_AFFAIRS_DB[m];
+    //     erasedCount++;
+    //   }
+    // });
     
-    // Show a visual alert of the cleanup
-    setTimeout(() => {
-      alert(" Post-Exam Cycle Initiated!\n\nOutdated current affairs (prior to September 2026) have been erased.\nYour study path is now updated with the next cycle's current affairs.");
-    }, 500);
+    // Show a visual alert of the cleanup (disabled)
+    // setTimeout(() => {
+    //   alert(" Post-Exam Cycle Initiated!\n\nOutdated current affairs (prior to September 2026) have been erased.\nYour study path is now updated with the next cycle's current affairs.");
+    // }, 500);
   }
   
   // 1. Fisher-Yates Shuffle current affairs items inside each month

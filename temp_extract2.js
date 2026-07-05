@@ -1,0 +1,1 @@
+const fs = require('fs'); const glob = require('glob'); glob.sync('*.js').forEach(file => { const content = fs.readFileSync(file, 'utf8'); let match; const regex = /<div class="mermaid">([\s\S]*?)<\/div>/g; while ((match = regex.exec(content)) !== null) { if (match[1].includes('&')) console.log(file + ' has & in mermaid'); } });
