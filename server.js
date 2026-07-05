@@ -447,6 +447,217 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+
+  // API Route: AI Router Orchestration
+  if (req.url === '/api/orchestrate' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const payload = JSON.parse(body);
+        const { task, context } = payload;
+        
+        const GROQ_API_KEY = process.env.GROQ_API_KEY;
+        const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || process.env.GROQ_API_KEY; // fallback if needed
+        const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+        
+        const systemPrompt = `
+# AI Router System Prompt
+
+You are the AI Router for a Defence Examination Preparation Platform.
+
+Your job is NOT to answer user requests.
+
+Your only responsibility is to determine which AI model(s) should perform the task.
+
+Available AI Providers:
+
+1. Gemini
+   Strengths:
+* Long-context reasoning
+* PDF analysis
+* Previous-year paper analysis
+* Educational explanations
+* Validation and quality review
+* Complex planning
+
+Weaknesses:
+* Limited free-tier requests
+* Use only when its strengths are required.
+
+2. Cerebras
+   Strengths:
+* Extremely fast responses
+* Note generation
+* Flashcards
+* Summaries
+* Current affairs summaries
+* Quick tutoring
+* General chat
+
+Weaknesses:
+* Do not use for deep document analysis unless required.
+
+3. Groq
+   Strengths:
+* Fast structured generation
+* MCQs
+* Model question papers
+* Quiz generation
+* Classification
+* JSON generation
+* Formatting tasks
+
+Weaknesses:
+* Do not use for long-document analysis when Gemini is more appropriate.
+
+Routing Rules:
+If the task involves:
+* Previous-year paper analysis -> Gemini
+* PDF understanding -> Gemini
+* Learning exam pattern -> Gemini
+* Note generation -> Cerebras
+* Flashcard generation -> Cerebras
+* Current affairs summary -> Cerebras
+* AI tutoring -> Cerebras
+* MCQ generation -> Groq
+* Model paper generation -> Groq
+* JSON formatting -> Groq
+* Topic classification -> Groq
+* Validation of generated paper -> Gemini
+
+If multiple steps are required, execute them sequentially.
+
+Example:
+User uploads previous-year papers.
+Step 1: Gemini analyses the papers and produces the examination blueprint.
+Step 2: Store the blueprint in the database.
+Step 3: Groq generates a new paper using the blueprint.
+Step 4: Gemini validates the generated paper.
+Step 5: Return only the validated paper.
+
+General Rules:
+* Always use the cheapest suitable AI.
+* Minimize Gemini usage whenever another provider can perform the task with comparable quality.
+* Never analyse the same uploaded document twice if a stored blueprint already exists.
+* Reuse cached outputs whenever possible.
+* If a task fails, retry once with the same provider. If it still fails, route it to another suitable provider.
+* If multiple independent tasks are requested, they may be executed in parallel.
+* Never expose routing decisions to the user.
+* Return only the final result requested by the user.
+
+TASK: ${task}
+
+OUTPUT FORMAT:
+Return ONLY a valid JSON object with a "plan" array containing objects with "step" (number), "provider" ("Gemini", "Cerebras", "Groq", or "Supabase"), and "action" (string describing what the provider must do). 
+For database storage steps, use provider "Supabase" and provide a "key" and "data_to_store" description in the action.
+`;
+
+        // 1. Call Groq to generate the plan
+        let planRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${GROQ_API_KEY}` },
+          body: JSON.stringify({
+            model: 'llama-3.1-8b-instant',
+            messages: [{ role: 'system', content: systemPrompt }],
+            response_format: { type: 'json_object' },
+            temperature: 0.1
+          })
+        });
+        
+        let planData = await planRes.json();
+        let planText = planData.choices[0].message.content;
+        let plan = JSON.parse(planText).plan;
+        
+        console.log("[ORCHESTRATOR] Generated Plan:", plan);
+        
+        // 2. Execute the plan sequentially
+        let accumulatedContext = context || "";
+        let finalResult = "";
+        
+        const SUPABASE_URL = process.env.SUPABASE_URL || 'https://usjzsdvsasjtsyzrvivx.supabase.co';
+        const SUPABASE_KEY = process.env.SUPABASE_SERVICE_KEY || process.env.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVzanpzZHZzYXNqdHN5enJ2aXZ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyNTUxMzksImV4cCI6MjA5NDgzMTEzOX0.8wLng1SDAhFPGvk5PQRu8XCqEWClpNPqHgEGpAx1vjk';
+        
+        for (const step of plan) {
+          console.log(`[ORCHESTRATOR] Executing step ${step.step}: ${step.provider} - ${step.action}`);
+          
+          let stepPrompt = `TASK OBJECTIVE: ${step.action}\n\nACCUMULATED CONTEXT SO FAR:\n${accumulatedContext}`;
+          
+          if (step.provider === 'Gemini') {
+            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                contents: [{ parts: [{ text: stepPrompt }] }]
+              })
+            });
+            let data = await res.json();
+            let output = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+            accumulatedContext += "\n\n--- Output from Gemini ---\n" + output;
+            finalResult = output;
+            
+          } else if (step.provider === 'Cerebras') {
+            let res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${CEREBRAS_API_KEY}` },
+              body: JSON.stringify({
+                model: 'llama3.1-8b',
+                messages: [{ role: 'user', content: stepPrompt }]
+              })
+            });
+            let data = await res.json();
+            let output = data.choices?.[0]?.message?.content || '';
+            accumulatedContext += "\n\n--- Output from Cerebras ---\n" + output;
+            finalResult = output;
+            
+          } else if (step.provider === 'Groq') {
+            let res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${GROQ_API_KEY}` },
+              body: JSON.stringify({
+                model: 'llama-3.1-8b-instant',
+                messages: [{ role: 'user', content: stepPrompt }]
+              })
+            });
+            let data = await res.json();
+            let output = data.choices?.[0]?.message?.content || '';
+            accumulatedContext += "\n\n--- Output from Groq ---\n" + output;
+            finalResult = output;
+            
+          } else if (step.provider === 'Supabase') {
+             // Store into Supabase dynamically
+             console.log("[ORCHESTRATOR] Storing intermediate artifact to Supabase...");
+             // A simple generic 'artifacts' table insert for intermediate storage
+             let res = await fetch(`${SUPABASE_URL}/rest/v1/artifacts`, {
+               method: 'POST',
+               headers: {
+                 'Content-Type': 'application/json',
+                 'apikey': SUPABASE_KEY,
+                 'Authorization': `Bearer ${SUPABASE_KEY}`
+               },
+               body: JSON.stringify({
+                 action_desc: step.action,
+                 content: finalResult
+               })
+             });
+             if(!res.ok) console.error("[ORCHESTRATOR] Supabase store failed", await res.text());
+             accumulatedContext += "\n\n--- Output stored in Database ---\n";
+          }
+        }
+        
+        // Return only the final result requested by the user
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ result: finalResult }));
+        
+      } catch (err) {
+        console.error("[ORCHESTRATOR] Error:", err);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
   // API Route: Unified Multi-Model Chat proxy
   if (req.url === '/api/chat' && req.method === 'POST') {
     let body = '';
