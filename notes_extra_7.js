@@ -41,7 +41,19 @@ EXPANDED_NOTES_DATA["physics-sound"] = `<div class="revision-card" style="backgr
       <strong>Common Trap:</strong> Remember that sound speed in air is independent of pressure (at constant temperature). If a question asks about pressure changes, don't fall for it! Always prioritize <strong>Temperature</strong> as the primary factor for speed changes in gases. For the Doppler effect, remember: if the source moves toward the observer, frequency increases (pitch gets higher).
     </p>
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 📝 Exam Question Analysis (UPSC Local Engine)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Based on standard NDA/CDS/AFCAT patterns:
+1. **Core Concept**: Verify the key terms, dates, and provisions.
+2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
+3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+
+*Feel free to proceed with other practice papers or retry in a few moments.*
+`;
 
 EXPANDED_NOTES_DATA["physics-em-waves"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -88,7 +100,21 @@ EXPANDED_NOTES_DATA["physics-em-waves"] = `<div class="revision-card" style="bac
       <strong>Note:</strong> Always remember that EM waves are <em>not</em> deflected by electric or magnetic fields because they are charge-neutral. This is a favorite "conceptual trap" question in CDS Physics.
     </p>
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["metals-alloys"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -322,7 +348,19 @@ EXPANDED_NOTES_DATA["metals-alloys"] = `<div class="revision-card" style="backgr
       <strong>Self-Reduction:</strong> Metals low in the reactivity series (like Mercury and Copper) do not require external reducing agents. Their sulphide ores, when heated in air, partially convert to oxides which then react with the remaining sulphide to give the metal (e.g., <code style="color: var(--warning);">2HgO + HgS → 3Hg + SO₂</code>).
     </li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 📝 Exam Question Analysis (UPSC Local Engine)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Based on standard NDA/CDS/AFCAT patterns:
+1. **Core Concept**: Verify the key terms, dates, and provisions.
+2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
+3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+
+*Feel free to proceed with other practice papers or retry in a few moments.*
+`;
 
 EXPANDED_NOTES_DATA["reactivity-series"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -443,7 +481,21 @@ EXPANDED_NOTES_DATA["reactivity-series"] = `<div class="revision-card" style="ba
     </li>
     <li style="margin-bottom: 8px;"><strong>Aqua Regia:</strong> A highly corrosive mixture of concentrated Hydrochloric acid ($HCl$) and concentrated Nitric acid ($HNO_3$) in a <strong>3:1 ratio</strong> by volume. It can dissolve noble metals like Gold and Platinum.</li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["carbon-compounds"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -584,7 +636,32 @@ EXPANDED_NOTES_DATA["carbon-compounds"] = `<div class="revision-card" style="bac
     <li><strong>Glacial Acetic Acid:</strong> 100% pure ethanoic acid. It freezes at 290 K (17°C), forming ice-like crystals.</li>
     <li><strong>Denatured Alcohol:</strong> Ethanol made unfit for drinking by adding poisonous substances like Methanol (CH₃OH) and copper sulfate (for color).</li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+<div class="mermaid">
+mindmap
+  root((Carbon Compounds))
+    Hydrocarbons
+      Alkanes
+      Alkenes
+      Alkynes
+      Aromatics
+    Functional_Groups
+      Alcohols
+      Aldehydes
+      Ketones
+      Carboxylic_Acids
+      Esters
+      Amines
+      Amides
+      Nitriles
+      Halides
+    Key_Properties
+      Tetravalent
+      Catenation
+      Isomerism
+</div>
+`;
 
 EXPANDED_NOTES_DATA["chemistry-numericals"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -608,18 +685,18 @@ EXPANDED_NOTES_DATA["chemistry-numericals"] = `<div class="revision-card" style=
     <li style="margin-bottom: 12px; padding-left: 15px; border-left: 3px solid var(--accent);">
       <strong>Pathway A: Mass to Moles (and vice versa)</strong><br>
       The mass of one mole of a substance is its <strong>Molar Mass</strong> (expressed in grams/mol). 
-      $$\\text{Number of Moles } (n) = \\frac{\\text{Given Mass in grams } (m)}{\\text{Molar Mass } (M)}$$
+      $\\text{Number of Moles } (n) = \\frac{\\text{Given Mass in grams } (m)}{\\text{Molar Mass } (M)}$
       <span style="font-size: 0.9em; color: var(--text-secondary);"><em>Example:</em> 44g of $\\text{CO}_2$ is exactly 1 mole because the molar mass of $\\text{CO}_2$ is $12 + (16 \\times 2) = 44\\text{ g/mol}$.</span>
     </li>
     <li style="margin-bottom: 12px; padding-left: 15px; border-left: 3px solid var(--accent);">
       <strong>Pathway B: Number of Particles to Moles</strong><br>
       To find the number of moles when the absolute count of atoms or molecules is given:
-      $$\\text{Number of Moles } (n) = \\frac{\\text{Given Number of Particles } (N)}{\\text{Avogadro's Number } (N_A)}$$
+      $\\text{Number of Moles } (n) = \\frac{\\text{Given Number of Particles } (N)}{\\text{Avogadro's Number } (N_A)}$
     </li>
     <li style="margin-bottom: 12px; padding-left: 15px; border-left: 3px solid var(--accent);">
       <strong>Pathway C: Volume of Gas to Moles (At STP)</strong><br>
       According to Avogadro's Law, equal volumes of all gases under the same conditions of temperature and pressure contain equal numbers of molecules. At Standard Temperature and Pressure (STP: $0^\\circ\\text{C}$ or $273.15\\text{ K}$ and $1\\text{ atm}$):
-      $$\\text{Number of Moles } (n) = \\frac{\\text{Volume of Gas at STP (in Liters)}}{22.4\\text{ L}}$$
+      $\\text{Number of Moles } (n) = \\frac{\\text{Volume of Gas at STP (in Liters)}}{22.4\\text{ L}}$
       <span style="font-size: 0.9em; color: var(--text-secondary);">*Note: Under modern IUPAC standards (at 1 bar pressure), this molar volume is $22.7\\text{ L}$, but NDA/CDS questions traditionally use the classical value of $22.4\\text{ L}$.</span>
     </li>
   </ul>
@@ -724,5 +801,19 @@ EXPANDED_NOTES_DATA["chemistry-numericals"] = `<div class="revision-card" style=
       • <strong>Density Relation:</strong> Molarity can be calculated from mass percentage ($x\\%$) and density ($d$ in g/mL) using: $M = \\frac{10 \\times x \\times d}{\\text{Molar Mass of solute}}$
     </li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 

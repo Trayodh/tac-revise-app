@@ -1390,7 +1390,7 @@ function renderCurrentMonthAffairs() {
         ${Object.entries(topicCounts).map(([t,c]) => {
           const safeTopic = (t || 'General').toUpperCase().replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
           const tColor = topicColors[t] || '#ffffff';
-          return \`<span onclick="document.getElementById('topic-\${safeTopic}')?.scrollIntoView({behavior: 'smooth', block: 'start'})" onmouseover="this.style.background='rgba(255,255,255,0.12)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'" style="cursor:pointer; font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase; color:\${tColor}; transition:background 0.2s;">\${t}&thinsp;·&thinsp;\${c}</span>\`;
+          return `<span onclick="document.getElementById('topic-${safeTopic}')?.scrollIntoView({behavior: 'smooth', block: 'start'})" onmouseover="this.style.background='rgba(255,255,255,0.12)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'" style="cursor:pointer; font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase; color:${tColor}; transition:background 0.2s;">${t}&thinsp;·&thinsp;${c}</span>`;
         }).join('')}
       </div>
     </div>

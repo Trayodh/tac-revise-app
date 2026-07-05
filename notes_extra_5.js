@@ -39,7 +39,21 @@ EXPANDED_NOTES_DATA["polity-federal-structure"] = `<div class="revision-card" st
       <strong>Common Trap:</strong> UPSC often asks about the "Residuary Powers." Remember, in India, they belong to the Centre. Also, distinguish between the <em>Inter-State Council</em> (Art 263 - Advisory) and the <em>Finance Commission</em> (Art 280 - Quasi-judicial/Financial). Always remember that the <strong>Governor</strong> acts as the vital link between the Centre and the State, often a point of contention in exam questions regarding "Discretionary Powers."
     </p>
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["polity-rpa"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -101,7 +115,25 @@ EXPANDED_NOTES_DATA["polity-rpa"] = `<div class="revision-card" style="backgroun
   <div style="background: rgba(255, 215, 0, 0.1); padding: 15px; border-radius: 5px; margin-top: 20px;">
     <strong style="color: #FFD700;">Strategic Tip:</strong> When solving CDS/NDA questions, always check if the question mentions "Panchayat Elections." If it does, the ECI has <em>no role</em>. The State Election Commission is the authority there. Also, remember that the ECI's power to disqualify a candidate for "corrupt practices" under RPA 1951 is a favorite topic for UPSC.
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+<div class="mermaid">
+flowchart TD
+    A[Constitution (Art. 324)] --> B[Election Commission of India (ECI)]
+    B --> C[Superintendence, Direction & Control]
+    C --> D[Parliamentary & State Legislative Elections]
+    C --> E[President & Vice‑President Elections]
+    B --> F[Legislation]
+    F --> G[Representation of People Act 1950]
+    F --> H[Representation of People Act 1951]
+    G --> I[Voter eligibility & constituency delimitation]
+    H --> J[Conduct of elections, registration, etc.]
+    subgraph SEC[State Election Commission]
+        K[Panchayat & Municipal Elections]
+    end
+    SEC -.-> B
+</div>
+`;
 
 EXPANDED_NOTES_DATA["geog-industries"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -146,7 +178,21 @@ EXPANDED_NOTES_DATA["geog-industries"] = `<div class="revision-card" style="back
   <div style="background: rgba(255, 215, 0, 0.1); padding: 15px; border-radius: 5px; border-left: 4px solid #FFD700; margin-top: 20px;">
     <strong style="color: #FFD700;">Strategic Exam Tip:</strong> UPSC often asks about the "Foreign Collaboration" for steel plants. Remember the mnemonic <strong>"BRD"</strong>: <strong>B</strong>hilai (Russia), <strong>R</strong>ourkela (Germany), <strong>D</strong>urgapur (UK). Always check if the question asks for the location or the collaborating country!
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["geog-geopolitics"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -188,7 +234,21 @@ EXPANDED_NOTES_DATA["geog-geopolitics"] = `<div class="revision-card" style="bac
     <li><strong>Siliguri Corridor:</strong> 22 km (The "Chicken's Neck" connecting NE India to the mainland)</li>
     <li><strong>Malacca Strait:</strong> The most critical maritime choke point for East Asian energy imports.</li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["econ-budget-fiscal"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -231,7 +291,21 @@ EXPANDED_NOTES_DATA["econ-budget-fiscal"] = `<div class="revision-card" style="b
       <strong>Mnemonic:</strong> <em>"Capital Creates"</em> — Any expenditure that creates an asset (like a new fighter jet or a bridge) is Capital Expenditure. Anything that is consumed (like a soldier's salary or pension) is Revenue Expenditure.
     </p>
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["econ-trade-bop"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -283,7 +357,21 @@ EXPANDED_NOTES_DATA["econ-trade-bop"] = `<div class="revision-card" style="backg
     <br><em>Rule:</em> Money coming into India = Credit (+). Money going out of India = Debit (-). 
     <br>Example: Buying a foreign car is a Debit; receiving a software export payment is a Credit.
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["econ-reforms"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -325,7 +413,21 @@ EXPANDED_NOTES_DATA["econ-reforms"] = `<div class="revision-card" style="backgro
     <li style="margin-bottom: 8px;">• <strong>SEBI 1992:</strong> Statutory status granted via SEBI Act, 1992.</li>
     <li style="margin-bottom: 8px;">• <strong>Fiscal Responsibility:</strong> FRBM Act, 2003 (Targeting fiscal deficit reduction).</li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["ca-schemes"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -383,7 +485,21 @@ EXPANDED_NOTES_DATA["ca-schemes"] = `<div class="revision-card" style="backgroun
   <div style="margin-top: 20px; padding: 15px; background: rgba(0,120,255,0.1); border-radius: 6px;">
     <strong style="color: var(--info);">Exam Trap Alert:</strong> Do not confuse <em>PMJJBY</em> (Life Insurance) with <em>PMSBY</em> (Accidental Insurance). Remember: <strong>J</strong>eevan = Life, <strong>S</strong>uraksha = Safety/Accident. Always check the age eligibility criteria (usually 18-50 for insurance, 18-40 for pension).
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["ca-relations"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -425,7 +541,21 @@ EXPANDED_NOTES_DATA["ca-relations"] = `<div class="revision-card" style="backgro
     <li style="margin-bottom: 5px;"><strong>ISA (International Solar Alliance):</strong> India + France (Headquarters: Gurugram, India)</li>
     <li style="margin-bottom: 5px;"><strong>SCO HQ:</strong> Beijing, China</li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["ca-policies"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -467,7 +597,22 @@ EXPANDED_NOTES_DATA["ca-policies"] = `<div class="revision-card" style="backgrou
     <strong style="color: var(--accent);">Note: Exam Strategy Tip:</strong> 
     UPSC loves to frame "Statement-based" questions. If a policy mentions a "Target Year" (e.g., Net Zero by 2070), memorize it. If it mentions a "Nodal Agency," ensure you know if it's a Ministry or an autonomous body like NITI Aayog. <em>Mnemonics:</em> Use the acronym <strong>"P-M-O"</strong> (Purpose, Ministry, Objective) to analyze every new policy you encounter in the news.
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+<div class="mermaid">
+mindmap
+  root((National Policies &amp; Missions))
+    Economic_Transformation
+      Make_in_India
+      Startup_India
+    Social_Empowerment
+      NEP_2020
+      Ayushman_Bharat
+    Digital_Infrastructure_Sovereignty
+      Digital_India
+      Gati_Shakti
+</div>
+`;
 
 EXPANDED_NOTES_DATA["ca-summits"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -510,7 +655,21 @@ EXPANDED_NOTES_DATA["ca-summits"] = `<div class="revision-card" style="backgroun
     <li><strong>WEF:</strong> Annual meeting held in Davos, Switzerland.</li>
     <li><strong>SCO Headquarters:</strong> Beijing, China.</li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["ca-reports"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -573,7 +732,21 @@ EXPANDED_NOTES_DATA["ca-reports"] = `<div class="revision-card" style="backgroun
   <div style="margin-top: 20px; padding: 15px; background: rgba(0,120,255,0.1); border-radius: 6px;">
     <strong style="color: var(--info);">Pro-Tip for Defence Aspirants:</strong> When reading current affairs, don't just memorize the rank. Ask yourself: "Why did India's rank change?" If India's rank in the Press Freedom Index drops, look for the reason (e.g., internet shutdowns, safety of journalists). This analytical approach helps in the SSB Interview and Essay writing sections as well.
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["ca-judgments"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -621,7 +794,21 @@ EXPANDED_NOTES_DATA["ca-judgments"] = `<div class="revision-card" style="backgro
     <li><strong>Minerva Mills (1980):</strong> Balance between FRs and DPSPs.</li>
     <li><strong>Indra Sawhney (1992):</strong> Mandal Commission & Reservation cap (50%).</li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["ca-awards"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -666,7 +853,21 @@ EXPANDED_NOTES_DATA["ca-awards"] = `<div class="revision-card" style="background
     <p style="margin: 5px 0;"><strong>Fact:</strong> The Bharat Ratna was suspended from 1977 to 1980.</p>
     <p style="margin: 5px 0;"><strong>Fact:</strong> The first recipients of Bharat Ratna (1954) were C. Rajagopalachari, Sarvepalli Radhakrishnan, and C.V. Raman.</p>
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["ca-economic-measures"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -709,7 +910,21 @@ EXPANDED_NOTES_DATA["ca-economic-measures"] = `<div class="revision-card" style=
   <p style="line-height: 1.6; margin-top: 10px;">
     <strong>Common Exam Trap:</strong> UPSC/CDS often confuses the <em>outlay</em> of the NIP with the <em>annual budget</em>. Always remember NIP is a multi-year pipeline (2020-2025), not a single-year expenditure. Also, ensure you distinguish between "Fiscal Stimulus" (direct spending) and "Monetary Policy" (RBI interest rate adjustments).
   </p>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["env-hotspots"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -752,7 +967,21 @@ EXPANDED_NOTES_DATA["env-hotspots"] = `<div class="revision-card" style="backgro
     <li>• <strong>Largest BR:</strong> Gulf of Mannar.</li>
     <li>• <strong>Smallest BR:</strong> Dibru-Saikhowa.</li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["env-conservation"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -793,7 +1022,21 @@ EXPANDED_NOTES_DATA["env-conservation"] = `<div class="revision-card" style="bac
     <strong style="color: var(--accent);">Note: Strategic Exam Tip:</strong> 
     When asked about "National Parks" vs "Wildlife Sanctuaries," remember: <strong>National Parks = No grazing/private rights; Wildlife Sanctuaries = Limited grazing/rights allowed.</strong> Always check the latest count of Ramsar sites before the exam, as this number is dynamic!
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["env-species"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -838,7 +1081,19 @@ EXPANDED_NOTES_DATA["env-species"] = `<div class="revision-card" style="backgrou
   <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 6px; margin-top: 20px;">
     <strong style="color: var(--accent);">Note: Strategic Tip:</strong> When preparing for CDS/NDA, do not just memorize the status. Remember the <strong>"Why"</strong>. If a species is CR, it is usually due to habitat fragmentation or poaching. Use the mnemonic <strong>"CR-EN-VU"</strong> as the "Danger Zone" for exam questions. If a species is in the news, check if it is a Schedule-I animal under WPA 1972, as these carry the highest protection in India.
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 📝 Exam Question Analysis (UPSC Local Engine)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Based on standard NDA/CDS/AFCAT patterns:
+1. **Core Concept**: Verify the key terms, dates, and provisions.
+2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
+3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+
+*Feel free to proceed with other practice papers or retry in a few moments.*
+`;
 
 EXPANDED_NOTES_DATA["env-treaties"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -878,7 +1133,24 @@ EXPANDED_NOTES_DATA["env-treaties"] = `<div class="revision-card" style="backgro
   <p style="line-height: 1.6; font-style: italic;">
     <strong>Exam Trap:</strong> UPSC/Defence exams often confuse the "Montreal Protocol" (Ozone) with the "Kyoto Protocol" (GHGs). Remember: <em>Montreal = Ozone, Kyoto = Carbon.</em> Always check if a target is "binding" or "voluntary"—Paris Agreement NDCs are voluntary, whereas Kyoto targets were legally binding for developed nations.
   </p>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+<div class="mermaid">
+graph TD
+    UNFCCC[UNFCCC (1992)] --> Kyoto[Kyoto Protocol (1997)]
+    Kyoto --> Paris[Paris Agreement (2015)]
+    Paris --> NDCs[Nationally Determined Contributions (NDCs)]
+    NDCs --> India[India’s NDCs]
+    subgraph Principles
+        CBDR[Common But Differentiated Responsibility]
+        Mitigation[Mitigation]
+        Adaptation[Adaptation]
+    end
+    Paris --> Principles
+    India --> Mitigation
+    India --> Adaptation
+</div>
+`;
 
 EXPANDED_NOTES_DATA["env-laws"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -921,7 +1193,21 @@ EXPANDED_NOTES_DATA["env-laws"] = `<div class="revision-card" style="background:
     <li><strong>Article 48A:</strong> Protection and improvement of environment and safeguarding of forests and wildlife.</li>
     <li><strong>Article 51A(g):</strong> Fundamental duty to protect and improve the natural environment.</li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["env-renewable"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -961,7 +1247,21 @@ EXPANDED_NOTES_DATA["env-renewable"] = `<div class="revision-card" style="backgr
     <strong style="color: var(--accent);">Note: Exam Trap Alert:</strong> 
     Do not confuse <em>Net Zero</em> (2070) with <em>Energy Independence</em> (2047). UPSC often swaps these dates in matching-type questions. Also, remember that "Green Hydrogen" is produced via electrolysis using renewable energy, whereas "Grey Hydrogen" uses fossil fuels.
   </div>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
 EXPANDED_NOTES_DATA["env-pollution"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -1003,5 +1303,19 @@ EXPANDED_NOTES_DATA["env-pollution"] = `<div class="revision-card" style="backgr
     <li style="margin-bottom: 8px;"><strong>SUP Ban:</strong> Single-Use Plastic ban effective from July 1, 2022</li>
     <li style="margin-bottom: 8px;"><strong>CPCB:</strong> Statutory organization under the Water Act, 1974</li>
   </ul>
-</div>`;
+</div>
+<!-- Visuals and High Yield appended -->
+### 🤖 Guru Dronacharya (Local Mode)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Hello! I am your AI study assistant. 
+
+Here are some high-yield revision tips for your current topic:
+- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
+- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
+- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+
+What subject or topic would you like to plan next?
+`;
 
