@@ -86,29 +86,63 @@ window.fetch = async function() {
             let responseStatus = 200;
             const isJsonRequired = (reqBody.generationConfig?.response_mime_type === 'application/json');
             
-            // Route all AI traffic through the secure Vercel backend
-            const backendPayload = {
-                targetAI: targetAI,
-                messages: messages,
-                isJsonRequired: isJsonRequired,
-                temperature: reqBody.generationConfig?.temperature || 0.1,
-                // Pass original request body for Gemini (which uses a different format)
-                originalGeminiBody: targetAI === 'gemini' ? reqBody : null
-            };
+            // DIRECT CLIENT-SIDE API CALLS
+            if (targetAI === 'groq') {
+                const groqBody = {
+                    model: 'llama-3.3-70b-versatile',
+                    messages: messages,
+                    temperature: reqBody.generationConfig?.temperature || 0.1,
+                    max_tokens: 1500
+                };
+                if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
 
-            const res = await originalFetch('/api/chat', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(backendPayload)
-            });
-            
-            if (!res.ok) {
-                const errText = await res.text();
-                throw new Error("Backend API Error: " + errText);
+                const res = await originalFetch('https://api.groq.com/openai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer PROCESS_ENV_GROQ_KEY'
+                    },
+                    body: JSON.stringify(groqBody)
+                });
+                if (!res.ok) throw new Error("Groq API Error: " + await res.text());
+                const data = await res.json();
+                aiText = data.choices?.[0]?.message?.content || "";
+            } 
+            else if (targetAI === 'cerebras') {
+                const cerebrasBody = {
+                    model: 'llama3.1-8b',
+                    messages: messages,
+                    temperature: reqBody.generationConfig?.temperature || 0.7,
+                    max_completion_tokens: 1500
+                };
+                if (isJsonRequired) cerebrasBody.response_format = { type: 'json_object' };
+
+                const res = await originalFetch('https://api.cerebras.ai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer PROCESS_ENV_CEREBRAS_KEY'
+                    },
+                    body: JSON.stringify(cerebrasBody)
+                });
+                if (!res.ok) throw new Error("Cerebras API Error: " + await res.text());
+                const data = await res.json();
+                aiText = data.choices?.[0]?.message?.content || "";
             }
-            
-            const data = await res.json();
-            aiText = data.text || "";
+            else { // Gemini
+                const geminiBody = reqBody;
+                if (geminiBody.stream) delete geminiBody.stream;
+                
+                const geminiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=PROCESS_ENV_GEMINI_KEY';
+                const res = await originalFetch(geminiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(geminiBody)
+                });
+                if (!res.ok) throw new Error("Gemini API Error: " + await res.text());
+                const data = await res.json();
+                aiText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+            }
             
             // Reconstruct Gemini format for the frontend parsing logic
             const fakeGeminiResponse = {
@@ -4299,6 +4333,26 @@ async function generateDetailedNotesOnDemand(subjectId, chapterId, topicId) {
     return;
   }
 
+  // Check Supabase first
+  if (window.supabaseClient) {
+    try {
+      const { data, error } = await window.supabaseClient
+        .from('notes')
+        .select('notes_content')
+        .eq('id', 'detailed-' + topicId)
+        .single();
+        
+      if (!error && data && data.notes_content) {
+        console.log("Loading AI notes from Supabase for", topicId);
+        localStorage.setItem(cacheKey, data.notes_content);
+        renderAiNotes(data.notes_content, contentArea, btnCopy, btnDownload, topic.title);
+        return;
+      }
+    } catch (err) {
+      console.warn("Failed to fetch detailed notes from Supabase", err);
+    }
+  }
+
   let syllabusText = "";
   if (window.OFFICIAL_SYLLABUS_DATA && window.OFFICIAL_SYLLABUS_DATA[topicId]) {
     syllabusText = `\n\nEnsure you exhaustively cover the following official UPSC/AFCAT syllabus requirements: ${window.OFFICIAL_SYLLABUS_DATA[topicId]}`;
@@ -6266,3 +6320,85 @@ async function solveAdvancedMath() {
     btnEl.disabled = false;
   }
 }
+
+// ==========================================
+// TELL ME MORE - TEXT SELECTION FEATURE
+// ==========================================
+(function() {
+  const tooltip = document.getElementById('tell-me-more-tooltip');
+  if (!tooltip) return;
+
+  let selectedText = "";
+
+  function checkSelection(e) {
+    // If clicking on the tooltip itself, do nothing here.
+    if (e.target && e.target.id === 'tell-me-more-tooltip') return;
+    
+    setTimeout(() => {
+      const selection = window.getSelection();
+      const text = selection.toString().trim();
+      
+      if (text.length > 0) {
+        selectedText = text;
+        const range = selection.getRangeAt(0);
+        const rect = range.getBoundingClientRect();
+        
+        tooltip.style.left = (rect.left + window.scrollX + (rect.width / 2)) + 'px';
+        tooltip.style.top = (rect.top + window.scrollY) + 'px';
+        tooltip.style.display = 'block';
+      } else {
+        selectedText = "";
+        tooltip.style.display = 'none';
+      }
+    }, 10);
+  }
+
+  document.addEventListener('mouseup', checkSelection);
+  document.addEventListener('touchend', checkSelection);
+  document.addEventListener('keyup', (e) => {
+    if (e.key === 'Escape') tooltip.style.display = 'none';
+  });
+
+  // Handle mousedown separately to prevent selection clearing if clicking the tooltip
+  document.addEventListener('mousedown', (e) => {
+    if (e.target && e.target.id === 'tell-me-more-tooltip') {
+      e.preventDefault(); 
+    } else {
+      tooltip.style.display = 'none';
+    }
+  });
+
+  tooltip.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    if (selectedText) {
+      // 1. Switch to AI Console Screen
+      if (typeof switchScreen === 'function') {
+        switchScreen('ai-console');
+      }
+      
+      // 2. Set the input text
+      const inputEl = document.getElementById('ai-custom-topic-input');
+      if (inputEl) {
+        inputEl.value = selectedText;
+      }
+      
+      // 3. Select 'Solve Doubt' mode
+      const solveRadio = document.querySelector('input[name="ai-mode"][value="solve"]');
+      if (solveRadio) {
+        solveRadio.checked = true;
+      }
+      
+      // 4. Trigger generation
+      const generateBtn = document.getElementById('ai-generate-btn');
+      if (generateBtn) {
+        generateBtn.click();
+      }
+      
+      // Clean up
+      window.getSelection().removeAllRanges();
+      tooltip.style.display = 'none';
+    }
+  });
+})();

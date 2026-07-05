@@ -3715,3 +3715,33 @@ h1 {
     padding-bottom: 70px;
   }
 }
+
+/* TELL ME MORE TOOLTIP */
+.tell-me-more-tooltip {
+  position: absolute;
+  display: none;
+  z-index: 10000;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+  pointer-events: auto;
+  user-select: none;
+  transform: translate(-50%, -100%);
+  margin-top: -10px;
+  animation: tooltipPop 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes tooltipPop {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+  100% { opacity: 1; transform: translate(-50%, -100%) scale(1); }
+}
+.tell-me-more-tooltip:hover {
+  filter: brightness(1.1);
+  transform: translate(-50%, -100%) scale(1.05);
+}
+

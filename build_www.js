@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
 
 const srcDir = __dirname;
 const destDir = path.join(__dirname, 'www');
@@ -56,6 +57,9 @@ items.forEach(item => {
         }
         if (process.env.GEMINI_API_KEY) {
           appJsContent = appJsContent.replace(/PROCESS_ENV_GEMINI_KEY/g, process.env.GEMINI_API_KEY);
+        }
+        if (process.env.CEREBRAS_API_KEY) {
+          appJsContent = appJsContent.replace(/PROCESS_ENV_CEREBRAS_KEY/g, process.env.CEREBRAS_API_KEY);
         }
         fs.writeFileSync(destPath, appJsContent);
       } else {

@@ -1,0 +1,152 @@
+{
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "पृथ्वी की उत्पत्ति का सि��्धांत और उसके प्रस्तुतकर्ता के 4. ज्वालामुखी शंकुओं के संबंध में निम्नलिखित कथनों पर निम्नलिखित युग्मों में से कौन-सा/कौन-से सही सुमेलित है/हैं ?",
+      "options": {
+        "A": "केवल 1",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_answer": "",
+      "subject": "Geography",
+      "chapter": "Physical & World Geography",
+      "topic": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+      "subtopic": "",
+      "difficulty": "Moderate",
+      "question_type": "Match Following",
+      "blooms_taxonomy": "Apply",
+      "knowledge_source": "Static GK",
+      "frequency": "Medium Frequency",
+      "keywords": [
+        "पृथ्वी की उत्पत्ति",
+        "ज्वालामुखी शंकु",
+        "सिद्धांत"
+      ],
+      "concept_tags": [
+        "Geomorphology",
+        "Volcanic Cones"
+      ],
+      "examiner_intent": "To test the ability to match theories with their propounders",
+      "distractor_analysis": {
+        "A": "Historical confusion",
+        "B": "Conceptual misunderstanding",
+        "C": "Close factual similarity",
+        "D": "Random distractor"
+      },
+      "confidence": 90
+    },
+    {
+      "question_number": 2,
+      "question": "आग्नेय शैल के संबंध में निम्नलिखित कथनों में से कौन-सा सही है ?",
+      "options": {
+        "A": "जब पृथ्वी के गहरे अभ्यंतर में मैग्मा ठंडी होती है, तब इसके परिणामस्वरूप सूक्ष्म-कणिक आग्नेय शैल की रचना होती है।",
+        "B": "बेसाल्ट एक प्रकार का अंतर्वेधी आग्नेय शैल है।",
+        "C": "आग्नेय शैल के सर्वाधिक खनिज सिलिकेट होते हैं।",
+        "D": "बहिर्वेधी आग्नेय शैलों में प्राय��� शिलीभवन होता है।"
+      },
+      "correct_answer": "",
+      "subject": "Geography",
+      "chapter": "Physical & World Geography",
+      "topic": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+      "subtopic": "",
+      "difficulty": "Easy",
+      "question_type": "Statement Based",
+      "blooms_taxonomy": "Remember",
+      "knowledge_source": "Static GK",
+      "frequency": "High Frequency",
+      "keywords": [
+        "आग्नेय शैल",
+        "मैग्मा",
+        "सिलिकेट"
+      ],
+      "concept_tags": [
+        "Igneous Rocks",
+        "Geomorphology"
+      ],
+      "examiner_intent": "To test the ability to recall facts about igneous rocks",
+      "distractor_analysis": {
+        "A": "Conceptual misunderstanding",
+        "B": "Close factual similarity",
+        "C": "Random distractor",
+        "D": "Historical confusion"
+      },
+      "confidence": 95
+    },
+    {
+      "question_number": 3,
+      "question": "बलकृत अपक्षय के बारे में निम्नलिखित कथनों पर विचार कीजिए :",
+      "options": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1, न ही 2"
+      },
+      "correct_answer": "",
+      "subject": "Geography",
+      "chapter": "Physical & World Geography",
+      "topic": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+      "subtopic": "",
+      "difficulty": "Moderate",
+      "question_type": "Statement Based",
+      "blooms_taxonomy": "Apply",
+      "knowledge_source": "Static GK",
+      "frequency": "Medium Frequency",
+      "keywords": [
+        "बलकृत अपक्षय",
+        "शैल",
+        "अपक्षय"
+      ],
+      "concept_tags": [
+        "Mechanical Weathering",
+        "Geomorphology"
+      ],
+      "examiner_intent": "To test the ability to analyze statements about mechanical weathering",
+      "distractor_analysis": {
+        "A": "Historical confusion",
+        "B": "Conceptual misunderstanding",
+        "C": "Close factual similarity",
+        "D": "Random distractor"
+      },
+      "confidence": 90
+    },
+    {
+      "question_number": 4,
+      "question": "कायांतरित शैलों के संबंध में निम्नलिखित कथनों पर विचार कीजिए :",
+      "options": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1, न ही 2"
+      },
+      "correct_answer": "",
+      "subject": "Geography",
+      "chapter": "Physical & World Geography",
+      "topic": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+      "subtopic": "",
+      "difficulty": "Moderate",
+      "question_type": "Statement Based",
+      "blooms_taxonomy": "Apply",
+      "knowledge_source": "Static GK",
+      "frequency": "Medium Frequency",
+      "keywords": [
+        "कायांतरित शैल",
+        "आग्नेय शैल",
+        "कायांतरण"
+      ],
+      "concept_tags": [
+        "Metamorphic Rocks",
+        "Geomorphology"
+      ],
+      "examiner_intent": "To test the ability to analyze statements about metamorphic rocks",
+      "distractor_analysis": {
+        "A": "Historical confusion",
+        "B": "Conceptual misunderstanding",
+        "C": "Close factual similarity",
+        "D": "Random distractor"
+      },
+      "confidence": 90
+    }
+  ]
+}
