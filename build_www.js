@@ -62,6 +62,10 @@ items.forEach(item => {
           appJsContent = appJsContent.replace(/PROCESS_ENV_CEREBRAS_KEY/g, process.env.CEREBRAS_API_KEY);
         }
         fs.writeFileSync(destPath, appJsContent);
+      } else if (item === 'index.html') {
+        let htmlContent = fs.readFileSync(itemPath, 'utf8');
+        htmlContent = htmlContent.replace(/\?v=\d+/g, '?v=' + Date.now());
+        fs.writeFileSync(destPath, htmlContent);
       } else {
         fs.copyFileSync(itemPath, destPath);
       }
