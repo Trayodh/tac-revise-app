@@ -121,13 +121,13 @@ EXPANDED_NOTES_DATA["what-is-history"] = `
   <div class="mermaid">
     timeline
       title Major Periods of Ancient Indian History
-      section Pre-Vedic & Early Civilizations
+      section Pre-Vedic and Early Civilizations
         7000-2600 BCE: Mehrgarh Culture (Red Ware, Black-on-Red Ware)
         2600-1900 BCE: Indus Valley Civilization (Urban Planning, Seals, Great Bath)
       section Vedic Age
         1500-1000 BCE: Early Vedic Period (Indo-Aryans, Rigveda, Pastoral Economy)
         1000-600 BCE: Later Vedic Age (Gangetic Plains, Varna System, Upanishads, Rice Cultivation)
-      section Mahajanapadas & Early Empires
+      section Mahajanapadas and Early Empires
         6th Century BCE: Rise of Buddhism (Gautama Buddha)
         6th Century BCE: Rise of Jainism (Lord Mahavira)
         600-321 BCE: 16 Mahajanapadas (Emergence of Kingdoms, Magadha's Rise)
@@ -135,7 +135,7 @@ EXPANDED_NOTES_DATA["what-is-history"] = `
         412-345 BCE: Shishunaga Dynasty (Kalashoka)
         345-321 BCE: Nanda Dynasty (Mahapadma Nanda)
         321-185 BCE: Mauryan Dynasty (Chandragupta Maurya, Ashoka the Great)
-      section Post-Mauryan & Classical Age
+      section Post-Mauryan and Classical Age
         185-72 BCE: Shunga Dynasty (Pushyamitra Shunga)
         73-28 BCE: Kanva Dynasty (Vasudeva Kanva)
         1st Century AD: Satavahanas (Simuka, Gautamiputra Satakarni)

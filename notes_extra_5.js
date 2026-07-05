@@ -120,16 +120,16 @@ EXPANDED_NOTES_DATA["polity-rpa"] = `<div class="revision-card" style="backgroun
 <div class="mermaid">
 flowchart TD
     A[Constitution (Art. 324)] --> B[Election Commission of India (ECI)]
-    B --> C[Superintendence, Direction & Control]
-    C --> D[Parliamentary & State Legislative Elections]
-    C --> E[President & Vice‑President Elections]
+    B --> C[Superintendence, Direction and Control]
+    C --> D[Parliamentary and State Legislative Elections]
+    C --> E[President and Vice‑President Elections]
     B --> F[Legislation]
     F --> G[Representation of People Act 1950]
     F --> H[Representation of People Act 1951]
-    G --> I[Voter eligibility & constituency delimitation]
+    G --> I[Voter eligibility and constituency delimitation]
     H --> J[Conduct of elections, registration, etc.]
     subgraph SEC[State Election Commission]
-        K[Panchayat & Municipal Elections]
+        K[Panchayat and Municipal Elections]
     end
     SEC -.-> B
 </div>
@@ -601,7 +601,7 @@ EXPANDED_NOTES_DATA["ca-policies"] = `<div class="revision-card" style="backgrou
 <!-- Visuals and High Yield appended -->
 <div class="mermaid">
 mindmap
-  root((National Policies &amp; Missions))
+  root((National Policies and Missions))
     Economic_Transformation
       Make_in_India
       Startup_India

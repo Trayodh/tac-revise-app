@@ -277,7 +277,7 @@ window.EXPANDED_NOTES_DATA["constitution-basics"] = `
 mindmap
   root((Indian Constitution))
     Parts
-      PartI[Part I: Union & Territories]
+      PartI[Part I: Union and Territories]
       PartII[Part II: Citizenship]
       PartIII[Part III: Fundamental Rights]
       PartIV[Part IV: Directive Principles]
@@ -290,7 +290,7 @@ mindmap
       PartX[Part X: Special Provisions]
       PartXI[Part XI: Elections]
     Schedules
-      ScheduleI[Schedule I: States & UTs]
+      ScheduleI[Schedule I: States and UTs]
       ScheduleII[Schedule II: Union Provisions]
       ScheduleIII[Schedule III: Forms of Govt]
       ScheduleIV[Schedule IV: Consolidated List]
@@ -519,10 +519,10 @@ flowchart TD
     TR -->|Food Security| ONORC[ONORC – Aadhaar‑linked PDS]
     PLI --> Impact1[Boost Manufacturing]
     Atma --> Impact2[Reduce Imports]
-    NIP --> Impact3[Build Roads & Ports]
+    NIP --> Impact3[Build Roads and Ports]
     Gati --> Impact4[Integrated Logistics]
     ONORC --> Impact5[Efficient Subsidy Delivery]
-    Impact1 & Impact2 & Impact3 & Impact4 & Impact5 --> GDP[Target: 10 % of GDP]
+    Impact1 and Impact2 and Impact3 and Impact4 and Impact5 --> GDP[Target: 10 % of GDP]
 </div>
 `;
 
@@ -1909,16 +1909,16 @@ window.EXPANDED_NOTES_DATA["ca-icet-drones"] = `
 <!-- Visuals and High Yield appended -->
 <div class="mermaid">
 graph TD
-    A[Initiative on Critical & Emerging Tech (iCET)] --> B[Semiconductor Ecosystem]
+    A[Initiative on Critical and Emerging Tech (iCET)] --> B[Semiconductor Ecosystem]
     A --> C[Defense Innovation (INDUS‑X)]
-    A --> D[Space & Quantum Collaboration]
+    A --> D[Space and Quantum Collaboration]
     C --> E[Start‑ups ↔ Defence Buyers]
     D --> F[NASA Training for Indian Astronauts]
     D --> G[Co‑development of Space Sensors]
     H[GE F414 Engine Co‑production Deal] --> I[80 % Technology Transfer to India]
-    H --> J[Power LCA‑Tejas Mk‑2 & AMCA]
-    K[US MQ‑9B Reaper Drone Deal] --> L[Joint Production & ToT]
-    K --> M[Enhanced ISR & Strike Capability]
+    H --> J[Power LCA‑Tejas Mk‑2 and AMCA]
+    K[US MQ‑9B Reaper Drone Deal] --> L[Joint Production and ToT]
+    K --> M[Enhanced ISR and Strike Capability]
     L --> N[Indigenous Drone Development Roadmap]
     A --> H
     A --> K

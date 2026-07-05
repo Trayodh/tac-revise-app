@@ -462,7 +462,7 @@ EXPANDED_NOTES_DATA["ratios-averages"] = `<div class="revision-card" style="back
 <!-- Visuals and High Yield appended -->
 <div class="mermaid">
 mindmap
-  root((Ratios & Averages))
+  root((Ratios and Averages))
     Ratios
       Definition
       Types
@@ -1435,7 +1435,7 @@ EXPANDED_NOTES_DATA["climatology-clouds"] = `<div class="revision-card" style="b
 <!-- Visuals and High Yield appended -->
 <div class="mermaid">
 mindmap
-  root((Climatology &amp; Clouds))
+  root((Climatology and Clouds))
     Climatic Zones
       Tropical
       Temperate

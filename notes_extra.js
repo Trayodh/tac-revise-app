@@ -515,7 +515,7 @@ flowchart TD
     S --> B[Event B]
     A -->|P(A)| PA[Probability P(A)]
     B -->|P(B)| PB[Probability P(B)]
-    A & B -->|P(A∩B)| PAB[Joint Probability]
+    A and B -->|P(A∩B)| PAB[Joint Probability]
     subgraph Conditional
         direction LR
         PB -->|Given B| PA_given_B[Conditional P(A|B)]
@@ -623,7 +623,7 @@ EXPANDED_NOTES_DATA["syl-numerical-ratios"] = `<div class="revision-card" style=
 <!-- Visuals and High Yield appended -->
 <div class="mermaid">
 mindmap
-  root((Ratios, Proportions & Percentages))
+  root((Ratios, Proportions and Percentages))
     Ratio
       definition((a : b))
     Proportion
@@ -633,9 +633,9 @@ mindmap
       definition((fraction / 100))
       conversion((Fraction ↔ %))
     Applications
-      PL((Profit & Loss))
-      TW((Time & Work))
-      MA((Mixture & Alligation))
+      PL((Profit and Loss))
+      TW((Time and Work))
+      MA((Mixture and Alligation))
       SI((Simple/Compound Interest))
 </div>
 `;
