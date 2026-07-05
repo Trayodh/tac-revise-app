@@ -4370,7 +4370,7 @@ async function generateDetailedNotesOnDemand(subjectId, chapterId, topicId) {
     pyqText = `\n\nActual Questions, numerical patterns, and conceptual trends from the last 7 years (2020-2026) of UPSC CDS, NDA, and AFCAT exams for this topic: ${window.PYQ_TRENDS_DATA[topicId]}`;
   }
 
-  const prompt = `You are Dronacharya, the legendary military guru and Academic Intelligence Engine of an AI-powered NDA, CDS, AFCAT, CAPF, and UPSC Examination Preparation Platform.
+  let prompt = `You are Dronacharya, the legendary military guru and Academic Intelligence Engine of an AI-powered NDA, CDS, AFCAT, CAPF, and UPSC Examination Preparation Platform.
 Your task is to provide an EXHAUSTIVE, deep-dive, UPSC-level explanation of the topic "${topic.title}" from the chapter "${chapter.title}" in ${subject.title}. 
 
 Detailed Notes must not be short summaries. Ensure the output is comprehensive (minimum 1000 words, target 1500-2500 words) so a beginner can understand but an advanced aspirant finds it exam-ready. You MUST include diagrams, pictures, and high-yield concepts!
@@ -4426,6 +4426,11 @@ Formatting Guidelines for maximum visual appeal:
 - Wrap formulas, equations, variables, or article numbers in <code> tags.
 - Use tables (<table>, <tr>, <th>, <td>) to compare concepts or summarize facts.
 - Use lists (<ul>, <li>) for multiple points.`;
+
+  if (subject.title && (subject.title.toLowerCase().includes("math") || subject.title.toLowerCase().includes("quant"))) {
+    prompt += `\n\nMATHEMATICS SPECIFICATION:\nSince this is a Mathematics topic, you MUST add a dedicated section at the very end titled "22. MATHEMATICS PRACTICE (PATHFINDER LEVEL)". In this section, provide exactly 3 fully solved examples (sums) and exactly 2 unsolved practice sums related to this topic. Ensure the difficulty matches the standard of the NDA/CDS Pathfinder textbook with solved papers.`;
+  }
+
   const model = 'gemini-3-flash-preview';
   
   try {
