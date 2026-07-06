@@ -38,21 +38,7 @@ EXPANDED_NOTES_DATA["syl-afcat-spatial"] = `<div class="revision-card" style="ba
   <div style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 6px;">
     <strong style="color: var(--accent);">Pro-Tip for AFCAT:</strong> Do not spend more than 30 seconds on a single non-verbal question. If the pattern isn't immediately obvious, mark it for review and move on. The AFCAT exam is a test of speed; your accuracy will naturally improve as you practice the "Component Tracking" method.
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPERT_REVISION_DATA["syl-afcat-spatial"] = `
 [Audio: "Welcome to the AFCAT Spatial and Non-Verbal Reasoning module. Let's break down the most common visual puzzles: Dot Situations, Venn Diagrams, and Embedded Figures."]
@@ -222,43 +208,7 @@ EXPANDED_NOTES_DATA["rank-equivalence"] = `<div class="revision-card" style="bac
     <li><strong>First and Only Marshal of the IAF:</strong> Arjan Singh (January 2002)</li>
     <li><strong>Active Star Ranks:</strong> 1-Star (Brigadier equivalent), 2-Star (Major General equivalent), 3-Star (Lieutenant General equivalent), 4-Star (General equivalent).</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-mindmap
-  root((Rank Equivalence))
-    Army
-      Lieutenant
-      Captain
-      Major
-      Lieutenant Colonel
-      Colonel
-      Brigadier
-      Major General
-      Lieutenant General
-      General
-    Navy
-      Sub Lieutenant
-      Lieutenant
-      Lieutenant Commander
-      Commander
-      Captain
-      Commodore
-      Rear Admiral
-      Vice Admiral
-      Admiral
-    Air Force
-      Flying Officer
-      Flight Lieutenant
-      Squadron Leader
-      Wing Commander
-      Group Captain
-      Air Commodore
-      Air Vice Marshal
-      Air Marshal
-      Air Chief Marshal
-</div>
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["commands"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -451,21 +401,7 @@ EXPANDED_NOTES_DATA["commands"] = `<div class="revision-card" style="background:
     <li><strong>Commanding Officer Rank:</strong> All 17 single-service commands are headed by 3-star officers (Lt. General / Air Marshal / Vice Admiral).</li>
     <li><strong>Only Command in the National Capital:</strong> Western Air Command (HQ New Delhi).</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["bilateral-exercises"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -627,19 +563,7 @@ EXPANDED_NOTES_DATA["bilateral-exercises"] = `<div class="revision-card" style="
     <li style="margin-bottom: 8px;"><strong>The Malabar Evolution:</strong> Started in 1992 as a bilateral exercise between India and the US. Japan joined as a permanent member in 2015, and Australia joined in 2020, turning it into a complete <strong>Quad</strong> military exercise.</li>
     <li style="margin-bottom: 8px;"><strong>MILAN Exercise:</strong> A biennial multilateral naval exercise conceived by the Indian Navy in 1995 at the Andaman and Nicobar Command. It has now transitioned to Visakhapatnam (Eastern Naval Command) to accommodate dozens of friendly foreign navies.</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 📝 Exam Question Analysis (UPSC Local Engine)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["missiles-systems"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -743,21 +667,7 @@ EXPANDED_NOTES_DATA["missiles-systems"] = `<div class="revision-card" style="bac
     <li style="margin-bottom: 6px;"><strong>Program Timeline:</strong> Conceived in 1983 | Completed in 2008</li>
     <li style="margin-bottom: 6px;"><strong>Akash Radar System:</strong> Rajendra Radar (3D Passive Electronically Scanned Array - PESA)</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["syl-verbal-reasoning"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -876,19 +786,7 @@ EXPANDED_NOTES_DATA["syl-verbal-reasoning"] = `<div class="revision-card" style=
     <li><strong>Family tree symbols:</strong> Male = <strong style="color: var(--accent);">(+)</strong>, Female = <strong style="color: var(--info);">(-)</strong>, Married Couple = <strong style="color: var(--accent);">&hArr;</strong>, Same Generation/Siblings = <strong style="color: var(--text-primary);">&mdash;</strong></li>
     <li><strong>Ranking Formula:</strong> <span style="color: var(--accent); font-weight: bold;">Total = Left + Right - 1</span></li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 📝 Exam Question Analysis (UPSC Local Engine)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -934,17 +832,5 @@ EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = `<div class="revision-card" sty
       <strong>The "Component Scan" Technique:</strong> Instead of looking at the whole figure, scan one element at a time (e.g., look only at the arrow, then only at the circle). This prevents cognitive overload and speeds up your identification of the pattern. <strong>Avoid the "Trap of Complexity":</strong> If a figure looks overly complicated, it usually follows a very simple rule (like alternating shading). Don't get intimidated by the visual noise.
     </p>
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 📝 Exam Question Analysis (UPSC Local Engine)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*
-`;
+</div>`;
 

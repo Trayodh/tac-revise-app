@@ -1,47 +1,194 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
-EXPANDED_NOTES_DATA["polity-federal-structure"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+EXPANDED_NOTES_DATA["polity-federal-structure"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Federal Structure & Centre-State Relations
+  </h3>
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The Indian Constitution is often described as <strong>"Quasi-Federal"</strong> (K.C. Wheare). While it establishes a federal system—meaning power is divided between the Centre and the States—it possesses a strong unitary bias. Think of it as a "partnership" where the Centre acts as the senior partner, ensuring national integrity while allowing states autonomy in local governance.
+  </p>
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The federal structure is anchored by the <strong>Seventh Schedule</strong>, which acts as the "rulebook" for power distribution. It prevents jurisdictional friction by clearly demarcating subjects into three lists. However, the Constitution provides "safety valves" (like Article 249 or 356) that allow the Centre to override states during emergencies or national interest, reinforcing the concept of <em>Cooperative Federalism</em>.
+  </p>
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Centre-State relations are broadly categorized into three dimensions: <strong>Legislative, Administrative, and Financial</strong>. Legislative relations (Articles 245-255) define the territorial and subject-matter jurisdiction. Administrative relations (Articles 256-263) ensure that state executive power does not impede the Centre's laws. Financial relations (Articles 268-293) are the most critical, as they determine the flow of funds, often mediated by the Finance Commission.
+  </p>
 
-EXPANDED_NOTES_DATA["polity-rpa"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Core Pillars of Federalism</h4>
+  <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 15px;">
+    <li><strong>Legislative Supremacy:</strong> The Union List prevails over the Concurrent List in case of conflict.</li>
+    <li><strong>Residuary Powers:</strong> Unlike the US (where they lie with states), in India, residuary powers lie with the <strong>Parliament</strong> (Article 248).</li>
+    <li><strong>Emergency Provisions:</strong> During a National Emergency (Art 352), the federal structure effectively transforms into a unitary one.</li>
+  </ul>
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li style="margin-bottom: 8px;"><strong>7th Schedule:</strong> Union List (100 items), State List (61 items), Concurrent List (52 items). <em>Note: Original counts were 97, 66, 47 respectively.</em></li>
+    <li style="margin-bottom: 8px;"><strong>Art 249:</strong> Power of Parliament to legislate on State List subjects in the national interest.</li>
+    <li style="margin-bottom: 8px;"><strong>Art 262:</strong> Adjudication of disputes relating to waters of inter-state rivers.</li>
+    <li style="margin-bottom: 8px;"><strong>Art 263:</strong> Inter-State Council (Established to coordinate between states).</li>
+    <li style="margin-bottom: 8px;"><strong>Art 280:</strong> Finance Commission (Constitutional body for tax devolution).</li>
+    <li style="margin-bottom: 8px;"><strong>Sarkaria Commission (1983):</strong> Set up to review Centre-State relations; recommended strengthening the Inter-State Council.</li>
+  </ul>
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+  <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 6px; margin-top: 20px;">
+    <strong style="color: var(--accent);">Note: Exam Strategy & Traps:</strong>
+    <p style="margin-top: 8px; font-size: 0.95em;">
+      <strong>Common Trap:</strong> UPSC often asks about the "Residuary Powers." Remember, in India, they belong to the Centre. Also, distinguish between the <em>Inter-State Council</em> (Art 263 - Advisory) and the <em>Finance Commission</em> (Art 280 - Quasi-judicial/Financial). Always remember that the <strong>Governor</strong> acts as the vital link between the Centre and the State, often a point of contention in exam questions regarding "Discretionary Powers."
+    </p>
+  </div>
+</div>`;
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+EXPANDED_NOTES_DATA["polity-rpa"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Representation of People Act & Election Commission
+  </h3>
 
-EXPANDED_NOTES_DATA["geog-industries"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The Election Commission of India (ECI) is the constitutional bedrock of Indian democracy, established under <strong>Article 324</strong>. It is an independent, permanent body responsible for the superintendence, direction, and control of the entire process for conduct of elections to Parliament, State Legislatures, and the offices of President and Vice-President. Unlike many other constitutional bodies, the ECI is not concerned with elections to Panchayats and Municipalities (which are handled by the State Election Commission).
+  </p>
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    To operationalize the constitutional mandate, the Parliament enacted two landmark legislations: the <strong>Representation of the People Act (RPA) of 1950</strong> and the <strong>RPA of 1951</strong>. Think of the 1950 Act as the "Preparatory Act"—it deals with the logistics of who can vote and how constituencies are delimited. Conversely, the 1951 Act is the "Operational Act"—it governs the actual conduct of elections, the qualification/disqualification of candidates, and the resolution of election disputes.
+  </p>
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The ECI functions as a quasi-judicial body when it settles disputes regarding the recognition of political parties and the allotment of symbols. Its independence is safeguarded by the security of tenure of the Chief Election Commissioner (CEC), who can only be removed in the same manner as a Judge of the Supreme Court. The other Election Commissioners can be removed only on the recommendation of the CEC.
+  </p>
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+  <div style="margin: 20px 0;">
+    <h4 style="color: var(--text-primary); font-weight: 600; margin-bottom: 10px;">Key Distinctions: RPA 1950 vs. RPA 1951</h4>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <thead>
+        <tr style="background: rgba(255,255,255,0.05);">
+          <th style="padding: 10px; border: 1px solid var(--border);">Feature</th>
+          <th style="padding: 10px; border: 1px solid var(--border);">RPA 1950</th>
+          <th style="padding: 10px; border: 1px solid var(--border);">RPA 1951</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px; border: 1px solid var(--border);"><strong>Focus</strong></td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Electoral Rolls & Delimitation</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Conduct of Elections</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid var(--border);"><strong>Scope</strong></td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Qualification of voters</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Qualification/Disqualification of MPs/MLAs</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid var(--border);"><strong>Disputes</strong></td>
+          <td style="padding: 10px; border: 1px solid var(--border);">N/A</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Election Petitions</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-EXPANDED_NOTES_DATA["geog-geopolitics"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: square; padding-left: 20px; line-height: 1.8;">
+    <li><strong>RPA 1950:</strong> Deals with the allocation of seats and delimitation of constituencies for elections to the House of the People and the State Legislative Assemblies.</li>
+    <li><strong>RPA 1951:</strong> Covers the actual conduct of elections, corrupt practices, and disqualification of members (e.g., conviction for certain offenses).</li>
+    <li><strong>10th Schedule:</strong> Anti-Defection Law; disqualification on grounds of defection is decided by the Presiding Officer (Speaker/Chairman), not the ECI.</li>
+    <li><strong>Art 324:</strong> Vests the power of superintendence, direction, and control of elections in the Election Commission.</li>
+    <li><strong>Composition:</strong> Originally a single-member body; became a multi-member body (1 CEC + 2 ECs) in 1993.</li>
+    <li><strong>Exam Trap:</strong> The ECI does <em>not</em> have the power to disqualify a member of Parliament directly; it gives an opinion to the President (for MPs) or Governor (for MLAs) under Article 103/192.</li>
+  </ul>
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+  <div style="background: rgba(255, 215, 0, 0.1); padding: 15px; border-radius: 5px; margin-top: 20px;">
+    <strong style="color: #FFD700;">Strategic Tip:</strong> When solving CDS/NDA questions, always check if the question mentions "Panchayat Elections." If it does, the ECI has <em>no role</em>. The State Election Commission is the authority there. Also, remember that the ECI's power to disqualify a candidate for "corrupt practices" under RPA 1951 is a favorite topic for UPSC.
+  </div>
+</div>`;
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+EXPANDED_NOTES_DATA["geog-industries"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Major Industries & Industrial Corridors of India
+  </h3>
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Industrial geography is a cornerstone of the CDS/NDA Geography syllabus. To understand India's industrial landscape, one must view it through the lens of <strong>Weber’s Theory of Industrial Location</strong>, which suggests that industries are located based on the minimization of transport costs for raw materials and finished goods. In India, this has historically led to the clustering of heavy industries near coal belts (Chota Nagpur Plateau) and light/tech industries near major urban hubs.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The core of India's industrial strength lies in the <strong>Iron & Steel sector</strong>, often called the "backbone of modern industry." These plants are typically located near the source of iron ore and coal (e.g., Jamshedpur, Bokaro, Rourkela). Conversely, the <strong>Cotton Textile industry</strong>, India's oldest organized industry, is "footloose" to an extent but historically concentrated in Mumbai and Ahmedabad due to humid climate and port access.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    In recent years, the government has shifted focus toward <strong>Industrial Corridors</strong>—integrated zones designed to boost manufacturing and exports. These corridors act as "economic arteries," connecting ports, industrial hubs, and urban centers via high-speed rail and road networks, effectively reducing the "logistics cost" which is a major hurdle for Indian manufacturing.
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Key Industrial Sectors & Corridors</h4>
+  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+    <li><strong>Iron & Steel:</strong> Primarily located in the "Steel Belt" (Jharkhand, Odisha, West Bengal, Chhattisgarh). Key plants: TISCO (Jamshedpur), IISCO (Burnpur), Rourkela (Odisha - German collaboration), Bhilai (Chhattisgarh - Soviet collaboration).</li>
+    <li><strong>Cotton Textiles:</strong> Mumbai is the "Cottonopolis of India." Ahmedabad is the "Manchester of India." Coimbatore is the "Manchester of South India."</li>
+    <li><strong>Industrial Corridors:</strong>
+      <ul>
+        <li><strong>DMIC (Delhi-Mumbai Industrial Corridor):</strong> The most ambitious project, passing through UP, Haryana, Rajasthan, MP, Gujarat, and Maharashtra.</li>
+        <li><strong>AKIC (Amritsar-Kolkata Industrial Corridor):</strong> Focuses on the Indo-Gangetic plain.</li>
+        <li><strong>CBIC (Chennai-Bengaluru Industrial Corridor):</strong> Focuses on electronics and automotive manufacturing.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li style="margin-bottom: 8px;">• <strong>TISCO 1907:</strong> First Steel Plant (Jamshedpur).</li>
+    <li style="margin-bottom: 8px;">• <strong>DMIC:</strong> Delhi-Mumbai Industrial Corridor (Largest).</li>
+    <li style="margin-bottom: 8px;">• <strong>Chennai:</strong> Detroit of India (Automobile hub).</li>
+    <li style="margin-bottom: 8px;">• <strong>Bengaluru:</strong> Silicon Valley of India (IT/Tech hub).</li>
+    <li style="margin-bottom: 8px;">• <strong>Bhilai Steel Plant:</strong> Established with USSR support (2nd Five Year Plan).</li>
+    <li style="margin-bottom: 8px;">• <strong>Rourkela Steel Plant:</strong> Established with West German support.</li>
+  </ul>
+
+  <div style="background: rgba(255, 215, 0, 0.1); padding: 15px; border-radius: 5px; border-left: 4px solid #FFD700; margin-top: 20px;">
+    <strong style="color: #FFD700;">Strategic Exam Tip:</strong> UPSC often asks about the "Foreign Collaboration" for steel plants. Remember the mnemonic <strong>"BRD"</strong>: <strong>B</strong>hilai (Russia), <strong>R</strong>ourkela (Germany), <strong>D</strong>urgapur (UK). Always check if the question asks for the location or the collaborating country!
+  </div>
+</div>`;
+
+EXPANDED_NOTES_DATA["geog-geopolitics"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Geopolitical Flashpoints & Indo-Pacific
+  </h3>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The Indo-Pacific is not merely a geographical region; it is the global center of gravity for 21st-century geopolitics. Stretching from the shores of East Africa to the Western Pacific, this region accounts for over 60% of global GDP and half of the world's maritime trade. For defence aspirants, understanding this region requires looking at it as a complex web of "Choke Points" (narrow channels where trade can be throttled) and "Strategic Alliances" (groupings like QUAD and AUKUS) that dictate the balance of power between rising and established hegemons.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Geopolitical flashpoints are areas where territorial disputes, resource competition, or ideological clashes threaten to escalate into conflict. In the Indo-Pacific, these are primarily maritime. The South China Sea, for instance, is a classic flashpoint due to the "Nine-Dash Line" claim by China, which overlaps with the Exclusive Economic Zones (EEZs) of Vietnam, Philippines, Malaysia, and Brunei. Control over these waters means control over vital Sea Lines of Communication (SLOCs) and potential undersea hydrocarbon reserves.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    India’s strategic posture in this region is defined by the "Act East Policy" and the vision of a "Free, Open, and Inclusive Indo-Pacific." India acts as a net security provider in the Indian Ocean Region (IOR). The primary challenge remains the "String of Pearls"—a network of Chinese-funded infrastructure projects (like Hambantota in Sri Lanka and Gwadar in Pakistan) that aim to encircle India. To counter this, India focuses on "SAGAR" (Security And Growth for All in the Region) and strengthening maritime domain awareness through partnerships.
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Key Strategic Concepts</h4>
+  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+    <li><strong>Choke Points:</strong> Malacca Strait (connects Indian Ocean to South China Sea), Strait of Hormuz (oil artery), and Bab-el-Mandeb (Red Sea entrance).</li>
+    <li><strong>QUAD:</strong> A strategic dialogue between India, USA, Japan, and Australia focused on maritime security and counter-terrorism.</li>
+    <li><strong>AUKUS:</strong> A trilateral security pact between Australia, UK, and USA, primarily focused on nuclear-powered submarines for Australia.</li>
+    <li><strong>EEZ (Exclusive Economic Zone):</strong> As per UNCLOS, a state has special rights regarding the exploration and use of marine resources up to 200 nautical miles from its coast.</li>
+  </ul>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Strategic Tips & Exam Traps</h4>
+  <ul style="list-style-type: square; padding-left: 20px; line-height: 1.8;">
+    <li><strong>Trap:</strong> Do not confuse the "Nine-Dash Line" (South China Sea) with the "Line of Actual Control" (India-China border).</li>
+    <li><strong>Mnemonic:</strong> Remember the QUAD members using <strong>"J-U-I-A"</strong> (Japan, USA, India, Australia).</li>
+    <li><strong>Focus:</strong> UPSC often asks about the location of specific islands (e.g., Spratly, Paracel) in the South China Sea. Always map them relative to the Philippines and Vietnam.</li>
+  </ul>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: none; padding-left: 0; line-height: 1.8;">
+    <li><strong>LAC:</strong> ~3488 km (3 sectors: Western, Middle, Eastern)</li>
+    <li><strong>McMahon Line:</strong> 1914 (Border between India and Tibet/China)</li>
+    <li><strong>SAGAR:</strong> Security And Growth for All in the Region</li>
+    <li><strong>Siliguri Corridor:</strong> 22 km (The "Chicken's Neck" connecting NE India to the mainland)</li>
+    <li><strong>Malacca Strait:</strong> The most critical maritime choke point for East Asian energy imports.</li>
+  </ul>
+</div>`;
 
 EXPANDED_NOTES_DATA["econ-budget-fiscal"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -84,21 +231,7 @@ EXPANDED_NOTES_DATA["econ-budget-fiscal"] = `<div class="revision-card" style="b
       <strong>Mnemonic:</strong> <em>"Capital Creates"</em> — Any expenditure that creates an asset (like a new fighter jet or a bridge) is Capital Expenditure. Anything that is consumed (like a soldier's salary or pension) is Revenue Expenditure.
     </p>
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["econ-trade-bop"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -150,21 +283,7 @@ EXPANDED_NOTES_DATA["econ-trade-bop"] = `<div class="revision-card" style="backg
     <br><em>Rule:</em> Money coming into India = Credit (+). Money going out of India = Debit (-). 
     <br>Example: Buying a foreign car is a Debit; receiving a software export payment is a Credit.
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["econ-reforms"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -206,21 +325,7 @@ EXPANDED_NOTES_DATA["econ-reforms"] = `<div class="revision-card" style="backgro
     <li style="margin-bottom: 8px;">• <strong>SEBI 1992:</strong> Statutory status granted via SEBI Act, 1992.</li>
     <li style="margin-bottom: 8px;">• <strong>Fiscal Responsibility:</strong> FRBM Act, 2003 (Targeting fiscal deficit reduction).</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["ca-schemes"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -278,21 +383,7 @@ EXPANDED_NOTES_DATA["ca-schemes"] = `<div class="revision-card" style="backgroun
   <div style="margin-top: 20px; padding: 15px; background: rgba(0,120,255,0.1); border-radius: 6px;">
     <strong style="color: var(--info);">Exam Trap Alert:</strong> Do not confuse <em>PMJJBY</em> (Life Insurance) with <em>PMSBY</em> (Accidental Insurance). Remember: <strong>J</strong>eevan = Life, <strong>S</strong>uraksha = Safety/Accident. Always check the age eligibility criteria (usually 18-50 for insurance, 18-40 for pension).
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["ca-relations"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -334,21 +425,7 @@ EXPANDED_NOTES_DATA["ca-relations"] = `<div class="revision-card" style="backgro
     <li style="margin-bottom: 5px;"><strong>ISA (International Solar Alliance):</strong> India + France (Headquarters: Gurugram, India)</li>
     <li style="margin-bottom: 5px;"><strong>SCO HQ:</strong> Beijing, China</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["ca-policies"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -390,22 +467,7 @@ EXPANDED_NOTES_DATA["ca-policies"] = `<div class="revision-card" style="backgrou
     <strong style="color: var(--accent);">Note: Exam Strategy Tip:</strong> 
     UPSC loves to frame "Statement-based" questions. If a policy mentions a "Target Year" (e.g., Net Zero by 2070), memorize it. If it mentions a "Nodal Agency," ensure you know if it's a Ministry or an autonomous body like NITI Aayog. <em>Mnemonics:</em> Use the acronym <strong>"P-M-O"</strong> (Purpose, Ministry, Objective) to analyze every new policy you encounter in the news.
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-mindmap
-  root((National Policies and Missions))
-    Economic_Transformation
-      Make_in_India
-      Startup_India
-    Social_Empowerment
-      NEP_2020
-      Ayushman_Bharat
-    Digital_Infrastructure_Sovereignty
-      Digital_India
-      Gati_Shakti
-</div>
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["ca-summits"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -448,21 +510,7 @@ EXPANDED_NOTES_DATA["ca-summits"] = `<div class="revision-card" style="backgroun
     <li><strong>WEF:</strong> Annual meeting held in Davos, Switzerland.</li>
     <li><strong>SCO Headquarters:</strong> Beijing, China.</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["ca-reports"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -525,21 +573,7 @@ EXPANDED_NOTES_DATA["ca-reports"] = `<div class="revision-card" style="backgroun
   <div style="margin-top: 20px; padding: 15px; background: rgba(0,120,255,0.1); border-radius: 6px;">
     <strong style="color: var(--info);">Pro-Tip for Defence Aspirants:</strong> When reading current affairs, don't just memorize the rank. Ask yourself: "Why did India's rank change?" If India's rank in the Press Freedom Index drops, look for the reason (e.g., internet shutdowns, safety of journalists). This analytical approach helps in the SSB Interview and Essay writing sections as well.
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["ca-judgments"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -587,21 +621,7 @@ EXPANDED_NOTES_DATA["ca-judgments"] = `<div class="revision-card" style="backgro
     <li><strong>Minerva Mills (1980):</strong> Balance between FRs and DPSPs.</li>
     <li><strong>Indra Sawhney (1992):</strong> Mandal Commission & Reservation cap (50%).</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["ca-awards"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -646,21 +666,7 @@ EXPANDED_NOTES_DATA["ca-awards"] = `<div class="revision-card" style="background
     <p style="margin: 5px 0;"><strong>Fact:</strong> The Bharat Ratna was suspended from 1977 to 1980.</p>
     <p style="margin: 5px 0;"><strong>Fact:</strong> The first recipients of Bharat Ratna (1954) were C. Rajagopalachari, Sarvepalli Radhakrishnan, and C.V. Raman.</p>
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["ca-economic-measures"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -703,21 +709,7 @@ EXPANDED_NOTES_DATA["ca-economic-measures"] = `<div class="revision-card" style=
   <p style="line-height: 1.6; margin-top: 10px;">
     <strong>Common Exam Trap:</strong> UPSC/CDS often confuses the <em>outlay</em> of the NIP with the <em>annual budget</em>. Always remember NIP is a multi-year pipeline (2020-2025), not a single-year expenditure. Also, ensure you distinguish between "Fiscal Stimulus" (direct spending) and "Monetary Policy" (RBI interest rate adjustments).
   </p>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["env-hotspots"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -760,21 +752,7 @@ EXPANDED_NOTES_DATA["env-hotspots"] = `<div class="revision-card" style="backgro
     <li>• <strong>Largest BR:</strong> Gulf of Mannar.</li>
     <li>• <strong>Smallest BR:</strong> Dibru-Saikhowa.</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["env-conservation"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -815,21 +793,7 @@ EXPANDED_NOTES_DATA["env-conservation"] = `<div class="revision-card" style="bac
     <strong style="color: var(--accent);">Note: Strategic Exam Tip:</strong> 
     When asked about "National Parks" vs "Wildlife Sanctuaries," remember: <strong>National Parks = No grazing/private rights; Wildlife Sanctuaries = Limited grazing/rights allowed.</strong> Always check the latest count of Ramsar sites before the exam, as this number is dynamic!
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["env-species"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -874,19 +838,7 @@ EXPANDED_NOTES_DATA["env-species"] = `<div class="revision-card" style="backgrou
   <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 6px; margin-top: 20px;">
     <strong style="color: var(--accent);">Note: Strategic Tip:</strong> When preparing for CDS/NDA, do not just memorize the status. Remember the <strong>"Why"</strong>. If a species is CR, it is usually due to habitat fragmentation or poaching. Use the mnemonic <strong>"CR-EN-VU"</strong> as the "Danger Zone" for exam questions. If a species is in the news, check if it is a Schedule-I animal under WPA 1972, as these carry the highest protection in India.
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 📝 Exam Question Analysis (UPSC Local Engine)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["env-treaties"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -926,24 +878,7 @@ EXPANDED_NOTES_DATA["env-treaties"] = `<div class="revision-card" style="backgro
   <p style="line-height: 1.6; font-style: italic;">
     <strong>Exam Trap:</strong> UPSC/Defence exams often confuse the "Montreal Protocol" (Ozone) with the "Kyoto Protocol" (GHGs). Remember: <em>Montreal = Ozone, Kyoto = Carbon.</em> Always check if a target is "binding" or "voluntary"—Paris Agreement NDCs are voluntary, whereas Kyoto targets were legally binding for developed nations.
   </p>
-</div>
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-graph TD
-    UNFCCC[UNFCCC (1992)] --> Kyoto[Kyoto Protocol (1997)]
-    Kyoto --> Paris[Paris Agreement (2015)]
-    Paris --> NDCs[Nationally Determined Contributions (NDCs)]
-    NDCs --> India[India’s NDCs]
-    subgraph Principles
-        CBDR[Common But Differentiated Responsibility]
-        Mitigation[Mitigation]
-        Adaptation[Adaptation]
-    end
-    Paris --> Principles
-    India --> Mitigation
-    India --> Adaptation
-</div>
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["env-laws"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -986,21 +921,7 @@ EXPANDED_NOTES_DATA["env-laws"] = `<div class="revision-card" style="background:
     <li><strong>Article 48A:</strong> Protection and improvement of environment and safeguarding of forests and wildlife.</li>
     <li><strong>Article 51A(g):</strong> Fundamental duty to protect and improve the natural environment.</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["env-renewable"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -1040,21 +961,7 @@ EXPANDED_NOTES_DATA["env-renewable"] = `<div class="revision-card" style="backgr
     <strong style="color: var(--accent);">Note: Exam Trap Alert:</strong> 
     Do not confuse <em>Net Zero</em> (2070) with <em>Energy Independence</em> (2047). UPSC often swaps these dates in matching-type questions. Also, remember that "Green Hydrogen" is produced via electrolysis using renewable energy, whereas "Grey Hydrogen" uses fossil fuels.
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["env-pollution"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -1096,19 +1003,5 @@ EXPANDED_NOTES_DATA["env-pollution"] = `<div class="revision-card" style="backgr
     <li style="margin-bottom: 8px;"><strong>SUP Ban:</strong> Single-Use Plastic ban effective from July 1, 2022</li>
     <li style="margin-bottom: 8px;"><strong>CPCB:</strong> Statutory organization under the Water Act, 1974</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 

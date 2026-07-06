@@ -1,80 +1,474 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
-EXPANDED_NOTES_DATA["citizenship"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+EXPANDED_NOTES_DATA["citizenship"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Citizenship (Art 5-11)
+  </h3>
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Citizenship defines the relationship between an individual and the State. In the Indian context, it is a legal status that grants specific rights (like the right to vote, hold public office, and protection by the state) while imposing certain duties. Unlike the USA, which follows a dual citizenship model (State and Federal), India follows a <strong>Single Citizenship</strong> model to promote national unity and integrity.
+  </p>
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The Constitution of India does not deal with the permanent problem of citizenship in a comprehensive way. It only identifies the persons who became citizens of India at the commencement of the Constitution (January 26, 1950). Articles 5 to 10 deal with citizenship at the time of commencement, while Article 11 empowers the Parliament to regulate the right of citizenship by law.
+  </p>
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    <strong>The Constitutional Provisions (Art 5-11):</strong>
+    <ul style="padding-left: 20px; margin-bottom: 15px;">
+      <li><strong>Art 5:</strong> Citizenship at the commencement of the Constitution (Domicile in India + born in India / either parent born in India / ordinarily resident for 5 years).</li>
+      <li><strong>Art 6:</strong> Rights of citizenship of certain persons who have migrated to India from Pakistan.</li>
+      <li><strong>Art 7:</strong> Rights of citizenship of certain migrants to Pakistan (who returned to India).</li>
+      <li><strong>Art 8:</strong> Rights of citizenship of certain persons of Indian origin residing outside India (PIOs).</li>
+      <li><strong>Art 9:</strong> Persons voluntarily acquiring citizenship of a foreign State shall not be citizens of India.</li>
+      <li><strong>Art 10:</strong> Continuance of the rights of citizenship (subject to any law made by Parliament).</li>
+      <li><strong>Art 11:</strong> Parliament has the power to regulate the right of citizenship by law (This led to the <strong>Citizenship Act, 1955</strong>).</li>
+    </ul>
+  </p>
 
-EXPANDED_NOTES_DATA["goverment-executives"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    <strong>Strategic Exam Insight:</strong> UPSC often tests the distinction between Constitutional provisions and the Citizenship Act, 1955. Remember, the Constitution only defines citizenship <em>at the commencement</em>. All subsequent matters regarding acquisition and loss are governed by the 1955 Act, which has been amended several times (notably in 1986, 2003, 2005, and 2019).
+  </p>
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: square; padding-left: 20px;">
+    <li><strong>Part II, Articles 5-11</strong></li>
+    <li><strong>Single Citizenship:</strong> Borrowed from UK (Westminster model).</li>
+    <li><strong>Acquisition (Citizenship Act, 1955):</strong> Birth, Descent, Registration, Naturalization, Territory Incorporation.</li>
+    <li><strong>Loss:</strong> Renunciation, Termination, Deprivation.</li>
+    <li><strong>Important Amendment:</strong> The Citizenship (Amendment) Act, 2019, provides citizenship to persecuted minorities (Hindu, Sikh, Buddhist, Jain, Parsi, Christian) from Afghanistan, Bangladesh, and Pakistan.</li>
+    <li><strong>Exam Trap:</strong> Article 9 is absolute—India does not allow dual citizenship. If you take a foreign passport, you automatically lose Indian citizenship.</li>
+  </ul>
+</div>`;
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+EXPANDED_NOTES_DATA["goverment-executives"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Executives: PM, CM & Governor
+  </h3>
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    In the Indian Parliamentary system, the executive is divided into two categories: the <strong>Nominal Executive</strong> (Head of State) and the <strong>Real Executive</strong> (Head of Government). The President and Governor serve as the constitutional heads, while the Prime Minister (PM) and Chief Minister (CM) exercise the actual powers vested in the executive branch. Understanding this distinction is the bedrock of Indian Polity for CDS and NDA exams.
+  </p>
 
-EXPANDED_NOTES_DATA["judiciary"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The <strong>Prime Minister</strong> is the leader of the majority party in the Lok Sabha and acts as the bridge between the President and the Cabinet. Their authority is derived from the confidence of the House. Similarly, the <strong>Chief Minister</strong> holds the same position at the state level, acting as the principal advisor to the Governor. The <strong>Governor</strong>, however, occupies a unique position as a dual-role functionary: they are the constitutional head of the state and simultaneously an agent of the Union Government, ensuring that state administration complies with the Constitution.
+  </p>
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The relationship between these offices is governed by specific constitutional articles. While the PM and CM are appointed by the President and Governor respectively (based on majority support), the Governor is appointed directly by the President. A critical area for exam questions is the <strong>Discretionary Power</strong> of the Governor, which is significantly wider than that of the President, as the President is bound by the advice of the Council of Ministers in almost all scenarios, whereas the Governor has specific constitutional mandates to act independently.
+  </p>
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Key Structural Comparison</h4>
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 0.95em;">
+    <thead>
+      <tr style="background: rgba(255,255,255,0.05);">
+        <th style="padding: 10px; border: 1px solid var(--border);">Feature</th>
+        <th style="padding: 10px; border: 1px solid var(--border);">Union Level</th>
+        <th style="padding: 10px; border: 1px solid var(--border);">State Level</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 10px; border: 1px solid var(--border);">Real Executive</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Prime Minister</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Chief Minister</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid var(--border);">Nominal Executive</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">President</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Governor</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid var(--border);">Appointment</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">By President</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">By President</td>
+      </tr>
+    </tbody>
+  </table>
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+    <li><strong>Real vs Nominal:</strong> Real: PM (Union), CM (State); Nominal: President (Union), Governor (State).</li>
+    <li><strong>Pardoning Powers:</strong> President (Art 72 - includes court martial & death sentence); Governor (Art 161 - no power over court martial or death sentence).</li>
+    <li><strong>Appointment Articles:</strong> PM (Art 75), CM (Art 164), Governor (Art 153-155).</li>
+    <li><strong>Discretionary Power:</strong> Governor has "Constitutional Discretion" (e.g., recommending President's Rule under Art 356), whereas the President has only "Situational Discretion."</li>
+    <li><strong>Age Requirement:</strong> PM/CM (if member of Lok Sabha/Assembly: 25; if Rajya Sabha/Council: 30); Governor: 35 years.</li>
+  </ul>
 
-EXPANDED_NOTES_DATA["panchayati-raj"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-left: 4px solid gold; border-radius: 4px;">
+    <strong>Strategic Exam Tip:</strong> UPSC frequently tests the "Governor's Discretion." Remember: The Governor can reserve a bill for the President's consideration (Art 200). This is a mandatory discretionary power. Do not confuse this with the President, who has no such "reservation" power.
+  </div>
+</div>`;
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+EXPANDED_NOTES_DATA["judiciary"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Integrated Judiciary: SC & HC
+  </h3>
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The Indian Judiciary is structured as a <strong>single, integrated hierarchy</strong> of courts. Unlike the federal systems of the USA, where state and federal courts operate independently, India follows a unified system where the Supreme Court (SC) sits at the apex, followed by High Courts (HC) in states, and subordinate courts below them. This integration ensures that the laws of the land are interpreted uniformly across the entire nation.
+  </p>
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The <strong>Supreme Court</strong> is the final interpreter of the Constitution and the highest court of appeal. It acts as the guardian of fundamental rights and the arbiter of disputes between the Centre and States. Its jurisdiction is vast, ranging from original jurisdiction (Art 131) to advisory jurisdiction (Art 143), making it the most powerful judicial body in the country.
+  </p>
 
-EXPANDED_NOTES_DATA["governance-emergency"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The <strong>High Courts</strong> function as the constitutional heads of the judiciary at the state level. While they are subordinate to the Supreme Court in terms of appellate hierarchy, they possess wider writ jurisdiction under Article 226 compared to the Supreme Court's Article 32. This is a crucial distinction: the SC can issue writs only for the enforcement of Fundamental Rights, whereas HCs can issue them for "any other purpose" as well.
+  </p>
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+  <div style="margin: 20px 0; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 6px;">
+    <h4 style="margin-top: 0;">Key Structural Differences</h4>
+    <ul style="list-style-type: square; padding-left: 20px; line-height: 1.8;">
+      <li><strong>Appointment:</strong> Judges of both SC and HC are appointed by the President under the Collegium system.</li>
+      <li><strong>Removal:</strong> Both can be removed by the President only on the grounds of 'proved misbehaviour or incapacity' via a special majority in Parliament.</li>
+      <li><strong>Independence:</strong> Security of tenure, fixed service conditions, and the power to punish for contempt ensure the judiciary remains insulated from executive pressure.</li>
+    </ul>
+  </div>
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="margin-bottom: 8px;"><strong>Supreme Court:</strong> Art 124 (Establishment), Art 131 (Original), Art 132-136 (Appellate), Art 32 (Writ), Art 143 (Advisory).</li>
+    <li style="margin-bottom: 8px;"><strong>High Courts:</strong> Art 214 (Establishment), Art 226 (Writ Jurisdiction - Wider than SC).</li>
+    <li style="margin-bottom: 8px;"><strong>Writs:</strong> 
+      <br><em>Habeas Corpus</em> (To have the body), <em>Mandamus</em> (We command), <em>Prohibition</em> (To forbid), <em>Certiorari</em> (To be certified/quashed), <em>Quo Warranto</em> (By what authority).
+    </li>
+    <li style="margin-bottom: 8px;"><strong>Retirement Age:</strong> SC Judges = 65 years; HC Judges = 62 years.</li>
+    <li style="margin-bottom: 8px;"><strong>Transfer of Judges:</strong> HC Judges can be transferred by the President after consultation with the Chief Justice of India (Art 222).</li>
+  </ul>
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+  <div style="margin-top: 20px; padding: 12px; background: rgba(255, 215, 0, 0.1); border: 1px solid #ffd700; border-radius: 4px;">
+    <strong>Note: Strategic Tip:</strong> UPSC loves to trap students on the "Writ Jurisdiction" comparison. Remember: <strong>Article 32 is a Fundamental Right itself</strong> (Right to Constitutional Remedies), whereas Article 226 is a constitutional power of the High Court. If a question asks which court has a wider scope for writs, the answer is always the High Court.
+  </div>
+</div>`;
 
-EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+EXPANDED_NOTES_DATA["panchayati-raj"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Local Self-Govt & Panchayati Raj
+  </h3>
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Local Self-Government is the management of local affairs by such local bodies who have been elected by the local people. In the Indian context, it represents the third tier of democracy, bringing governance to the grassroots level. The philosophy behind this is "Democratic Decentralization," which ensures that power is not concentrated in the hands of the Union or State governments alone, but is shared with the people who are most affected by local policies.
+  </p>
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The evolution of Panchayati Raj in India is a journey from the ancient 'Sabhas' and 'Samitis' to the constitutional status granted in 1992. Post-independence, several committees were formed to suggest models for rural development. The most significant was the Balwant Rai Mehta Committee (1957), which recommended the 'Democratic Decentralization' model. This was first implemented in Nagaur, Rajasthan, on October 2, 1959.
+  </p>
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The 73rd and 74th Constitutional Amendment Acts (CAA) are the bedrock of modern local governance. These acts provided constitutional status to Panchayats and Municipalities, making elections mandatory every five years, ensuring reservation for SCs/STs and women, and establishing State Election Commissions and State Finance Commissions to ensure financial and electoral autonomy.
+  </p>
 
-EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Evolutionary Committees (Chronological Order)</h4>
+  <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 15px;">
+    <li><strong>Balwant Rai Mehta (1957):</strong> Recommended 3-tier system (Gram, Block, District).</li>
+    <li><strong>Ashok Mehta (1977):</strong> Recommended 2-tier system (Zila Parishad & Mandal Panchayat).</li>
+    <li><strong>G.V.K. Rao (1985):</strong> Emphasized the role of bureaucracy; called them "grass without roots."</li>
+    <li><strong>L.M. Singhvi (1986):</strong> Recommended constitutional status for Panchayats.</li>
+  </ul>
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li style="margin-bottom: 8px;">• <strong>73rd Amendment:</strong> Part IX, Schedule 11 (29 subjects) - Rural Panchayats.</li>
+    <li style="margin-bottom: 8px;">• <strong>74th Amendment:</strong> Part IXA, Schedule 12 (18 subjects) - Urban Municipalities.</li>
+    <li style="margin-bottom: 8px;">• <strong>Balwant Rai Mehta:</strong> 3-tier system (Gram Panchayat, Panchayat Samiti, Zila Parishad).</li>
+    <li style="margin-bottom: 8px;">• <strong>Contest Age:</strong> 21 years (Minimum age to contest local body elections).</li>
+    <li style="margin-bottom: 8px;">• <strong>Reservation:</strong> 33% (1/3rd) for women (Mandatory); some states have increased this to 50%.</li>
+    <li style="margin-bottom: 8px;">• <strong>Article 243K:</strong> State Election Commission (Conducts elections to Panchayats).</li>
+    <li style="margin-bottom: 8px;">• <strong>Article 243I:</strong> State Finance Commission (Reviews financial position).</li>
+  </ul>
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+  <div style="background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 6px; margin-top: 20px;">
+    <strong style="color: var(--accent);">Note: Strategic Exam Tip:</strong> 
+    <p style="margin: 5px 0 0 0; font-size: 0.95em;">
+      In CDS/NDA exams, UPSC often tests the difference between the recommendations of the committees. Remember: <strong>Balwant Rai = 3-tier</strong>, <strong>Ashok Mehta = 2-tier</strong>. Also, note that the 73rd/74th amendments are not applicable to certain areas (e.g., Scheduled Areas under 5th Schedule), which are governed by the PESA Act, 1996.
+    </p>
+  </div>
+</div>`;
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+EXPANDED_NOTES_DATA["governance-emergency"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Emergency Provisions
+  </h3>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The Emergency Provisions are contained in <strong>Part XVIII</strong> of the Constitution of India, from <strong>Articles 352 to 360</strong>. These provisions were incorporated to enable the Central government to meet any abnormal situation effectively. The rationality behind the incorporation of these provisions is to safeguard the sovereignty, unity, integrity, and security of the country, the democratic political system, and the Constitution.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    During an emergency, the federal structure of the Constitution transforms into a <strong>unitary one</strong> without a formal amendment. The Central government becomes all-powerful, and the states go into the total control of the Centre. This unique feature is often described as the "safety valve" of the Indian Constitution, allowing it to survive extreme crises that might otherwise lead to its collapse.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    It is crucial to distinguish between the three types of emergencies: <strong>National Emergency</strong> (based on war, external aggression, or armed rebellion), <strong>President's Rule</strong> (failure of constitutional machinery in states), and <strong>Financial Emergency</strong> (threat to financial stability). Each has distinct triggers, parliamentary approval requirements, and impacts on the Fundamental Rights of citizens.
+  </p>
+
+  <div style="margin-top: 20px;">
+    <h4 style="color: var(--text-primary); font-weight: 600; margin-bottom: 10px;">Comparison Table: Emergency Types</h4>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 0.95em;">
+      <thead>
+        <tr style="background: rgba(255,255,255,0.05);">
+          <th style="padding: 10px; border: 1px solid var(--border);">Type</th>
+          <th style="padding: 10px; border: 1px solid var(--border);">Article</th>
+          <th style="padding: 10px; border: 1px solid var(--border);">Approval Time</th>
+          <th style="padding: 10px; border: 1px solid var(--border);">Majority Required</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px; border: 1px solid var(--border);">National</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">352</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">1 Month</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Special Majority</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid var(--border);">State</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">356</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">2 Months</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Simple Majority</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid var(--border);">Financial</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">360</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">2 Months</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Simple Majority</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+    <li><strong>Part XVIII, Articles 352-360</strong></li>
+    <li><strong>National Emergency (Art 352):</strong> Approved within 1 month by Special Majority. Can be extended indefinitely by 6-month increments.</li>
+    <li><strong>State Emergency (Art 356 & 365):</strong> Approved within 2 months by Simple Majority. Max duration 3 years.</li>
+    <li><strong>Financial Emergency (Art 360):</strong> Approved within 2 months by Simple Majority. Never declared in India.</li>
+    <li><strong>FR Impact:</strong> Art 358 (suspends Art 19 automatically during external emergency). Art 359 (President suspends enforcement of FRs, but <strong>Art 20 & 21 can never be suspended</strong>).</li>
+    <li><strong>44th Amendment (1978):</strong> Changed "Internal Disturbance" to "Armed Rebellion" for Art 352.</li>
+  </ul>
+
+  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-radius: 6px; border: 1px solid rgba(255, 215, 0, 0.3);">
+    <strong style="color: #ffd700;">Note: Exam Strategy Tip:</strong> UPSC often tests the difference between Art 358 and 359. Remember: 358 is automatic and applies only to Art 19, while 359 requires a Presidential Order and can cover any FR except 20 and 21. Always check if the question specifies "External" or "Internal" emergency, as Art 19 suspension only happens for External.
+  </div>
+</div>`;
+
+EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Straits, Canals, Deserts & Seas
+  </h3>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    In the context of Defence examinations like CDS and NDA, Geography is not just about memorizing maps; it is about understanding the <strong>strategic connectivity</strong> of the globe. A <strong>Strait</strong> is a narrow, naturally formed waterway that connects two larger bodies of water, acting as a "chokepoint" for global trade and naval movement. Conversely, a <strong>Canal</strong> is an artificial waterway constructed by humans to bypass long, treacherous routes, effectively acting as a shortcut for maritime logistics.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Understanding these features requires a spatial approach. When studying straits, always identify the two landmasses they separate and the two water bodies they connect. For instance, the Strait of Gibraltar separates Europe (Spain) from Africa (Morocco) and connects the Atlantic Ocean to the Mediterranean Sea. This is a classic UPSC favorite because of its geopolitical significance in controlling naval access to the Mediterranean.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Deserts are defined by their aridity, not just temperature. While we often associate deserts with heat (like the Sahara), many are "cold deserts" (like the Gobi), formed due to rain-shadow effects or high altitude. In exams, focus on the <strong>location</strong> (continent/country) and the <strong>type</strong> (Hot/Cold/Coastal). For example, the Atacama is the driest non-polar desert in the world, located in South America, primarily due to the cold Humboldt Current which prevents moisture from rising.
+  </p>
+
+  <div style="margin: 20px 0;">
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <thead>
+        <tr style="background: rgba(255,255,255,0.05);">
+          <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Feature</th>
+          <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Key Examples</th>
+          <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Strategic Importance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px; border: 1px solid var(--border);">Straits</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Malacca, Hormuz, Bering</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Naval chokepoints; trade routes.</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid var(--border);">Canals</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Suez, Panama, Kiel</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Drastic reduction in shipping distance.</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid var(--border);">Deserts</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Sahara, Atacama, Gobi</td>
+          <td style="padding: 10px; border: 1px solid var(--border);">Climate indicators; resource zones.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+    <li><strong>Straits:</strong> 
+      <ul>
+        <li><strong>Malacca:</strong> Connects Andaman Sea & South China Sea (World's busiest).</li>
+        <li><strong>Gibraltar:</strong> Connects Atlantic & Mediterranean (Key to Mediterranean access).</li>
+        <li><strong>Hormuz:</strong> Connects Persian Gulf & Gulf of Oman (Vital for global oil supply).</li>
+        <li><strong>Bab-el-Mandeb:</strong> Connects Red Sea & Gulf of Aden (Gateway to Suez).</li>
+        <li><strong>Bering:</strong> Connects Arctic & Pacific (Separates Asia from North America).</li>
+      </ul>
+    </li>
+    <li><strong>Canals:</strong>
+      <ul>
+        <li><strong>Suez:</strong> Connects Mediterranean & Red Sea (No locks, sea-level canal).</li>
+        <li><strong>Panama:</strong> Connects Atlantic & Pacific (Uses a lock system).</li>
+      </ul>
+    </li>
+    <li><strong>Deserts:</strong>
+      <ul>
+        <li><strong>Sahara:</strong> Largest hot desert (Africa).</li>
+        <li><strong>Atacama:</strong> Driest desert (South America - Chile).</li>
+        <li><strong>Gobi:</strong> Largest cold desert in Asia (China/Mongolia).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-left: 4px solid gold;">
+    <strong>Strategic Tip:</strong> UPSC often asks to arrange straits from North to South or East to West. Always visualize the map. For example, when moving from the Indian Ocean to the Mediterranean, the sequence is: <em>Bab-el-Mandeb -> Red Sea -> Suez Canal -> Mediterranean Sea -> Strait of Gibraltar.</em>
+  </div>
+</div>
+
+<div class="revision-card" style="background: rgba(20,20,30,0.45); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-top: 24px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); backdrop-filter: blur(8px);">
+  <h3 style="color: var(--accent); margin-bottom: 18px; border-bottom: 2px solid rgba(249, 115, 22, 0.3); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 700; font-family: var(--font-logo);">
+    <span></span> Global Geography Key Intersections & Chokepoints
+  </h3>
+  
+  <div style="margin-bottom: 20px;">
+    <h4 style="color: var(--accent); margin-bottom: 8px; font-size: 15px; font-weight: 600;">1. Countries passing through the Equator (0° Latitude)</h4>
+    <p style="font-size: 13.5px; line-height: 1.5; color: var(--text-secondary); margin-bottom: 8px;">
+      The equator intersects 13 countries globally across three continents:
+    </p>
+    <div style="background: rgba(10,10,15,0.3); border: 1px solid var(--border); padding: 12px; border-radius: 6px; font-size: 13.5px; color: var(--text-secondary); line-height: 1.6;">
+      • <strong>South America:</strong> Ecuador, Colombia, Brazil<br>
+      • <strong>Africa:</strong> Gabon, Republic of the Congo, Democratic Republic of the Congo, Uganda, Kenya, Somalia, Sao Tome and Principe<br>
+      • <strong>Asia:</strong> Maldives, Indonesia, Kiribati
+    </div>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <h4 style="color: var(--info); margin-bottom: 8px; font-size: 15px; font-weight: 600;">2. World Grasslands Mapping</h4>
+    <p style="font-size: 13.5px; line-height: 1.5; color: var(--text-secondary); margin-bottom: 8px;">
+      Grasslands are divided into tropical and temperate zones. UPSC regularly tests their locations:
+    </p>
+    <table style="width: 100%; border-collapse: collapse; color: var(--text-secondary); font-size: 13px; text-align: left; margin-top: 8px;">
+      <thead>
+        <tr style="border-bottom: 2px solid var(--border); background: rgba(255,255,255,0.04);">
+          <th style="padding: 8px; font-weight: 600; border: 1px solid var(--border); color: var(--text-primary);">Grassland Name</th>
+          <th style="padding: 8px; font-weight: 600; border: 1px solid var(--border); color: var(--text-primary);">Region / Location</th>
+          <th style="padding: 8px; font-weight: 600; border: 1px solid var(--border); color: var(--text-primary);">Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Prairies</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">North America (USA & Canada)</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">Temperate</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Pampas</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">South America (Argentina)</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">Temperate</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Savanna</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">Central & East Africa</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">Tropical</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Velds</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">Southern Africa (South Africa)</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">Temperate</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Steppes</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">Eurasia (Eastern Europe & Central Asia)</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">Temperate</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Downs</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">Australia</td>
+          <td style="padding: 8px; border: 1px solid var(--border);">Temperate</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 15px;">
+    <div style="background: rgba(10,10,15,0.3); border: 1px solid var(--border); padding: 14px; border-radius: 8px;">
+      <h4 style="color: var(--accent); margin-bottom: 6px; font-size: 14.5px; font-weight: 600;"> Aral Sea Boundaries</h4>
+      <p style="font-size: 13px; line-height: 1.5; color: var(--text-secondary);">
+        The <strong>Aral Sea</strong> is actually a landlocked endorheic lake. It lies in Central Asia, directly positioned between <strong>Kazakhstan</strong> to the north and <strong>Uzbekistan</strong> to the south. Once one of the largest lakes in the world, it has severely shrunk due to Soviet irrigation diversions.
+      </p>
+    </div>
+    
+    <div style="background: rgba(10,10,15,0.3); border: 1px solid var(--border); padding: 14px; border-radius: 8px;">
+      <h4 style="color: var(--info); margin-bottom: 6px; font-size: 14.5px; font-weight: 600;"> Strait of Gibraltar</h4>
+      <p style="font-size: 13px; line-height: 1.5; color: var(--text-secondary);">
+        A key maritime choke point connecting the <strong>Atlantic Ocean</strong> with the <strong>Mediterranean Sea</strong>. It separates the European continent (<strong>Spain</strong>) from the African continent (<strong>Morocco</strong>). The narrowest gap is only 14.3 kilometers wide.
+      </p>
+    </div>
+  </div>
+</div>`;
+
+EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Borders, Capitals & Mapping
+  </h3>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Understanding India's geopolitical landscape is a cornerstone of the Geography syllabus for CDS and NDA. India shares its land borders with seven sovereign nations, creating a complex web of strategic, historical, and cultural interactions. The "Borders" segment requires you to memorize not just the names of the countries, but the specific states they touch, the nature of the terrain, and the historical demarcation lines that define these boundaries.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Mapping is not merely about identifying locations; it is about spatial awareness. For the exam, you must visualize the "Seven Sisters" of the Northeast, the coastal states, and the strategic chokepoints in the Indian Ocean Region (IOR). UPSC frequently tests the "proximity" of capitals to borders or the sequence of states along a specific international boundary. Always correlate the political map with the physical map (e.g., how the Himalayas act as a natural barrier with China vs. the porous nature of the Indo-Nepal border).
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    When studying capitals and borders, focus on the "Strategic Depth." For instance, the Siliguri Corridor (Chicken's Neck) is a vital mapping point. Similarly, understanding the maritime boundaries—specifically the Exclusive Economic Zone (EEZ) and the UNCLOS (United Nations Convention on the Law of the Sea) guidelines—is essential for answering questions related to India's maritime neighbors like Sri Lanka, Maldives, and Indonesia.
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Key Border Data & Demarcation Lines</h4>
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+    <tr style="background: rgba(255,255,255,0.05);">
+      <th style="padding: 10px; border: 1px solid var(--border);">Country</th>
+      <th style="padding: 10px; border: 1px solid var(--border);">Border Length (Approx)</th>
+      <th style="padding: 10px; border: 1px solid var(--border);">Demarcation Line</th>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--border);">Bangladesh</td>
+      <td style="padding: 10px; border: 1px solid var(--border);">4,096 km (Longest)</td>
+      <td style="padding: 10px; border: 1px solid var(--border);">Radcliffe Line</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--border);">China</td>
+      <td style="padding: 10px; border: 1px solid var(--border);">3,488 km</td>
+      <td style="padding: 10px; border: 1px solid var(--border);">MacMahon Line (LAC)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--border);">Pakistan</td>
+      <td style="padding: 10px; border: 1px solid var(--border);">3,323 km</td>
+      <td style="padding: 10px; border: 1px solid var(--border);">Radcliffe Line (LOC)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--border);">Afghanistan</td>
+      <td style="padding: 10px; border: 1px solid var(--border);">106 km (Shortest)</td>
+      <td style="padding: 10px; border: 1px solid var(--border);">Durand Line</td>
+    </tr>
+  </table>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: square; padding-left: 20px; line-height: 1.8;">
+    <li><strong>Mnemonic for Neighbors:</strong> " बचपन में MBA किया" (Bangladesh, China, Pakistan, Nepal, Myanmar, Bhutan, Afghanistan).</li>
+    <li><strong>Strategic Chokepoints:</strong> Malacca Strait (Gateway to South China Sea), Hormuz (Oil transit), Hambantota (Sri Lanka - Debt trap/Strategic port).</li>
+    <li><strong>Exam Trap:</strong> Do not confuse the "Radcliffe Line" (India-Pakistan/India-Bangladesh) with the "Durand Line" (India-Afghanistan/Pakistan-Afghanistan).</li>
+    <li><strong>State-Border Fact:</strong> West Bengal is the only state that touches three countries: Bangladesh, Nepal, and Bhutan.</li>
+    <li><strong>Maritime Neighbors:</strong> India shares maritime boundaries with 7 countries: Maldives, Sri Lanka, Indonesia, Thailand, Myanmar, Bangladesh, and Pakistan.</li>
+  </ul>
+
+  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-radius: 5px; border-left: 4px solid gold;">
+    <strong style="color: gold;">Expert Tip:</strong> UPSC loves asking about the "Tri-junctions." Memorize the tri-junctions of India-China-Nepal (Lipulekh) and India-China-Bhutan (Doklam) as they are frequently in the news for geopolitical tensions.
+  </div>
+</div>`;
 
 EXPANDED_NOTES_DATA["econ-poverty-employment"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -128,21 +522,7 @@ EXPANDED_NOTES_DATA["econ-poverty-employment"] = `<div class="revision-card" sty
   <div style="margin-top: 20px; padding: 10px; background: rgba(255,255,255,0.05); border-radius: 5px; font-size: 0.9em; border-left: 3px solid #f39c12;">
     <strong>Strategic Insight:</strong> UPSC often asks about the "Green Revolution" in the context of regional disparity. Note that it was initially successful in Punjab, Haryana, and Western UP due to better irrigation infrastructure.
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["five-year-plans"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -185,21 +565,7 @@ EXPANDED_NOTES_DATA["five-year-plans"] = `<div class="revision-card" style="back
   <div style="background: rgba(255, 215, 0, 0.1); padding: 15px; border-radius: 5px; border-left: 4px solid #FFD700; margin-top: 20px;">
     <strong style="color: #FFD700;">Strategic Exam Tip:</strong> UPSC/CDS often tests the "Plan Holidays" and the "Rolling Plan" (1978-80). Remember that the Rolling Plan was introduced by the Janata Party government after terminating the 5th Plan. Always distinguish between the Planning Commission (Statutory/Constitutional status: None) and the NDC (Apex body for plan approval).
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["external-sector-institutions"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -239,21 +605,7 @@ EXPANDED_NOTES_DATA["external-sector-institutions"] = `<div class="revision-card
   <div style="margin-top: 20px; padding: 10px; border: 1px dashed var(--accent); border-radius: 4px; font-size: 0.9em; color: var(--text-secondary);">
     <strong>Strategic Tip:</strong> UPSC often asks about the components of Forex Reserves. Always remember the acronym <strong>"F-G-S-R"</strong> (FCA, Gold, SDR, RTP). If an option includes "Rupee coins" or "Commercial Bank reserves," it is incorrect.
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["physics-heat"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -293,21 +645,7 @@ EXPANDED_NOTES_DATA["physics-heat"] = `<div class="revision-card" style="backgro
     <strong style="color: var(--accent);">Strategic Exam Tip:</strong> 
     Watch out for questions on "Anomalous Expansion of Water." Remember, water has maximum density at 4°C. This is why aquatic life survives in frozen lakes—the bottom remains at 4°C while the top freezes. Also, always remember that <strong>Radiation</strong> is the fastest mode of heat transfer (speed of light).
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["physics-electricity-magnetism"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -350,21 +688,7 @@ EXPANDED_NOTES_DATA["physics-electricity-magnetism"] = `<div class="revision-car
   <div style="background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 6px; margin-top: 20px;">
     <strong style="color: var(--accent);">Strategic Tip:</strong> In NDA/CDS exams, always check if the resistors are in series or parallel before calculating. If you see a complex circuit, simplify it step-by-step from the innermost loop. Don't forget: <strong>Fuses</strong> are always connected in <strong>Series</strong> with the live wire to protect the circuit.
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["physics-nuclear-basics"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -405,21 +729,7 @@ EXPANDED_NOTES_DATA["physics-nuclear-basics"] = `<div class="revision-card" styl
   <div style="margin-top: 20px; padding: 10px; background: rgba(255,255,255,0.05); border-radius: 5px;">
     <p style="font-size: 0.9em; font-style: italic;"><strong>Strategic Tip:</strong> UPSC often asks about the "moderator" in nuclear reactors (Heavy Water or Graphite) and the "control rods" (Boron or Cadmium). Ensure you distinguish between these two functions!</p>
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["physics-units-everyday"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -481,27 +791,7 @@ EXPANDED_NOTES_DATA["physics-units-everyday"] = `<div class="revision-card" styl
     <strong style="color: #ffd700;">Note: Strategic Exam Tip:</strong> 
     Don't memorize every unit. Focus on the <em>Dimensional Formula</em> (M, L, T). If you know the formula (e.g., Pressure = Force/Area), you can derive the unit (MLT⁻² / L² = ML⁻¹T⁻²) instantly. This is a common "trap" question in CDS where they ask for the dimensional formula of constants like Gravitational Constant (G) or Planck's Constant (h).
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-mindmap
-  root((SI Units))
-    Base_Units
-      Length(m)
-      Mass(kg)
-      Time(s)
-      Electric_Current(A)
-      Temperature(K)
-      Amount_of_Substance(mol)
-      Luminous_Intensity(cd)
-    Derived_Units
-      Speed(m/s)
-      Acceleration(m/s^2)
-      Force(N)
-      Energy(J)
-      Power(W)
-</div>
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["chemistry-everyday-fertilisers"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -727,19 +1017,7 @@ EXPANDED_NOTES_DATA["chemistry-everyday-fertilisers"] = `<div class="revision-ca
       <strong>Plaster of Paris vs. Gypsum:</strong> Gypsum is $CaSO_4 \\cdot 2H_2O$; Plaster of Paris (POP) is $CaSO_4 \\cdot \\frac{1}{2}H_2O$ (Calcium Sulfate Hemihydrate).
     </li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 📝 Exam Question Analysis (UPSC Local Engine)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["environmental-chemistry"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -999,19 +1277,7 @@ EXPANDED_NOTES_DATA["environmental-chemistry"] = `<div class="revision-card" sty
       <strong>Itai-Itai Disease:</strong> Caused by Cadmium ($Cd$) poisoning.
     </li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 📝 Exam Question Analysis (UPSC Local Engine)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["immunity-vaccines"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -1216,21 +1482,7 @@ EXPANDED_NOTES_DATA["immunity-vaccines"] = `<div class="revision-card" style="ba
     <li><strong>MALT:</strong> Accounts for exactly 50% of the total lymphoid tissue in the human body.</li>
     <li><strong>Interferons:</strong> Cytokine barriers released specifically by virus-infected cells to protect healthy cells.</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["biology-ecology-basics"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -1374,19 +1626,7 @@ EXPANDED_NOTES_DATA["biology-ecology-basics"] = `<div class="revision-card" styl
       </ul>
     </li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 📝 Exam Question Analysis (UPSC Local Engine)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["defence-organisations-weapons"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -1523,19 +1763,7 @@ EXPANDED_NOTES_DATA["defence-organisations-weapons"] = `<div class="revision-car
     <li><strong style="color: var(--text-primary);">BrahMos Missile:</strong> Joint venture between DRDO (India) and NPO Mashinostroyeniya (Russia). It is a two-stage, supersonic cruise missile named after the Brahmaputra and Moskva rivers. Speed: Mach 2.8 to 3.0.</li>
     <li><strong style="color: var(--text-primary);">Project 75-I:</strong> The follow-on program to Project 75, aimed at building six advanced conventional submarines equipped with Air-Independent Propulsion (AIP) systems for extended underwater endurance.</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 📝 Exam Question Analysis (UPSC Local Engine)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["ca-science-tech-space"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -1576,297 +1804,5 @@ EXPANDED_NOTES_DATA["ca-science-tech-space"] = `<div class="revision-card" style
       <strong>Memory Trap:</strong> Do not confuse 'Agni-V' (Intercontinental Ballistic Missile) with 'Agni-P' (Prime - short-range, advanced). Always check the 'MIRV' tag in questions regarding Agni-5.
     </p>
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
+</div>`;
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
-
-
-// ===================== HIGH YIELD ADDITIONS =====================
-
-// 1. Append Everyday Devices to physics-units-everyday
-const everydayDevicesHtml = `
-  <h3>3. Everyday Devices & Working Principles</h3>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
-    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
-      <th style="padding:8px; border:1px solid var(--border);">Device</th>
-      <th style="padding:8px; border:1px solid var(--border);">Working Principle</th>
-      <th style="padding:8px; border:1px solid var(--border);">Energy Transformation</th>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid var(--border);"><strong>Dynamo / Generator</strong></td>
-      <td style="padding:8px; border:1px solid var(--border);">Electromagnetic Induction (Faraday's Law)</td>
-      <td style="padding:8px; border:1px solid var(--border);">Mechanical Energy &rarr; Electrical Energy</td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid var(--border);"><strong>Electric Motor</strong></td>
-      <td style="padding:8px; border:1px solid var(--border);">Magnetic force on a current-carrying conductor in a magnetic field</td>
-      <td style="padding:8px; border:1px solid var(--border);">Electrical Energy &rarr; Mechanical Energy</td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid var(--border);"><strong>Transformer</strong></td>
-      <td style="padding:8px; border:1px solid var(--border);">Mutual Induction (Step-up or Step-down AC voltage)</td>
-      <td style="padding:8px; border:1px solid var(--border);">Electrical Energy &rarr; Electrical Energy (Changes V & I, not power/freq)</td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid var(--border);"><strong>Microphone</strong></td>
-      <td style="padding:8px; border:1px solid var(--border);">Electromagnetic Induction or Capacitance change</td>
-      <td style="padding:8px; border:1px solid var(--border);">Sound Energy &rarr; Electrical Energy</td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid var(--border);"><strong>Loudspeaker</strong></td>
-      <td style="padding:8px; border:1px solid var(--border);">Magnetic force on a moving coil</td>
-      <td style="padding:8px; border:1px solid var(--border);">Electrical Energy &rarr; Sound Energy</td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid var(--border);"><strong>Solar Cell</strong></td>
-      <td style="padding:8px; border:1px solid var(--border);">Photovoltaic Effect (Semiconductor p-n junction)</td>
-      <td style="padding:8px; border:1px solid var(--border);">Light Energy &rarr; Electrical Energy</td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid var(--border);"><strong>Electric Bulb (Incandescent)</strong></td>
-      <td style="padding:8px; border:1px solid var(--border);">Joule's Heating Effect (Tungsten filament has high resistance & melting point)</td>
-      <td style="padding:8px; border:1px solid var(--border);">Electrical Energy &rarr; Heat & Light Energy</td>
-    </tr>
-  </table>
-`;
-EXPANDED_NOTES_DATA["physics-units-everyday"] = (EXPANDED_NOTES_DATA["physics-units-everyday"] || "") + everydayDevicesHtml;
-
-// 2. Append Atomic Structure & Matter to syl-numerical
-const atomicStructureHtml = `
-  <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);">
-    <h2>️ Atomic Structure & Classification of Matter</h2>
-    
-    <h3>1. Development of Atomic Models</h3>
-    <ul>
-      <li><strong>Thomson's Plum Pudding Model (1897):</strong> Atom is a sphere of positive charge with electrons embedded in it like seeds in a watermelon. Discovered the **Electron** (e/m ratio).</li>
-      <li><strong>Rutherford's Alpha Scattering Experiment (1911):</strong> Bombarded thin gold foil with alpha particles.
-        <ul>
-          <li>*Observations:* Most alpha particles passed straight through; a few deflected at small angles; 1 in 20,000 rebounded by 180°.</li>
-          <li>*Conclusions:* Most of the atom is empty space. All positive charge and mass are concentrated in a tiny central region called the **Nucleus**. Discovered the **Proton**.</li>
-        </ul>
-      </li>
-      <li><strong>Bohr's Model (1913):</strong> Electrons revolve around the nucleus only in certain discrete, non-radiating orbits called stationary shells (K, L, M, N). Energy is emitted/absorbed only when an electron jumps from one orbit to another.</li>
-      <li><strong>Subatomic Particles:</strong>
-        <ul>
-          <li>*Proton:* Positive charge ($+1.6 \\times 10^{-19}$ C), mass ~1 amu. Discovered by Rutherford/Goldstein.</li>
-          <li>*Neutron:* Neutral (no charge), mass ~1 amu. Discovered by **James Chadwick (1932)**.</li>
-          <li>*Electron:* Negative charge ($-1.6 \\times 10^{-19}$ C), mass ~1/1837 amu. Discovered by **J.J. Thomson**.</li>
-        </ul>
-      </li>
-    </ul>
-
-    <h3>2. Atomic Relations (Isotopes, Isobars, Isotones)</h3>
-    <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
-      <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
-        <th style="padding:8px; border:1px solid var(--border);">Relation</th>
-        <th style="padding:8px; border:1px solid var(--border);">Definition</th>
-        <th style="padding:8px; border:1px solid var(--border);">Examples</th>
-        <th style="padding:8px; border:1px solid var(--border);">Properties</th>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid var(--border);"><strong>Isotopes</strong></td>
-        <td style="padding:8px; border:1px solid var(--border);">Same Atomic Number ($Z$), different Mass Number ($A$). (Same protons, different neutrons).</td>
-        <td style="padding:8px; border:1px solid var(--border);">${'{}'}^1_1\\text{H} (Protium), ${'{}'}^2_1\\text{H} (Deuterium), ${'{}'}^3_1\\text{H} (Tritium).<br>${'{}'}^{12}_6\\text{C}, dots ${'{}'}^{14}_6\\text{C}.</td>
-        <td style="padding:8px; border:1px solid var(--border);">Same chemical properties (same electron count), different physical properties.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid var(--border);"><strong>Isobars</strong></td>
-        <td style="padding:8px; border:1px solid var(--border);">Same Mass Number ($A$), different Atomic Number ($Z$).</td>
-        <td style="padding:8px; border:1px solid var(--border);">${'{}'}^{40}_{18}\\text{Ar} and ${'{}'}^{40}_{20}\\text{Ca}.</td>
-        <td style="padding:8px; border:1px solid var(--border);">Different chemical and physical properties.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid var(--border);"><strong>Isotones</strong></td>
-        <td style="padding:8px; border:1px solid var(--border);">Same number of neutrons ($A - Z$).</td>
-        <td style="padding:8px; border:1px solid var(--border);">${'{}'}^{30}_{14}\\text{Si}, ${'{}'}^{31}_{15}\\text{P}, ${'{}'}^{32}_{16}\\text{S} (all have 16 neutrons).</td>
-        <td style="padding:8px; border:1px solid var(--border);">Different chemical and physical properties.</td>
-      </tr>
-    </table>
-
-    <h3>3. Elements, Compounds & Mixtures</h3>
-    <ul>
-      <li><strong>Element:</strong> Pure substance consisting of only one type of atom (e.g., Gold, Oxygen). Cannot be split by chemical means.</li>
-      <li><strong>Compound:</strong> Pure substance formed by chemical combination of two or more elements in a fixed ratio (e.g., Water $H_2O$, Carbon Dioxide $CO_2$). Constituents lose their individual properties.</li>
-      <li><strong>Mixture:</strong> Impure substance formed by physical mixing of two or more substances in any ratio (e.g., Air, Sand and salt). Constituents retain their properties.
-        <ul>
-          <li>*Homogeneous:* Uniform composition throughout (e.g., Salt solution, Alloys).</li>
-          <li>*Heterogeneous:* Non-uniform composition (e.g., Muddy water, Gunpowder).</li>
-        </ul>
-      </li>
-      <li><strong>Separation Techniques:</strong>
-        <ul>
-          <li>*Sublimation:* Separates volatile solids (Ammonium chloride, Camphor, Iodine, Naphthalene) from non-volatile solids.</li>
-          <li>*Fractional Distillation:* Separates miscible liquids with boiling point difference $< 25^\\circ$C (e.g., petroleum fractions, liquid air components).</li>
-          <li>*Centrifugation:* Separates insoluble suspended particles based on density (e.g., separating cream from milk).</li>
-          <li>*Chromatography:* Separates solutes based on differential adsorption on a stationary phase (e.g., separating pigments from ink).</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-`;
-EXPANDED_NOTES_DATA["syl-numerical"] = (EXPANDED_NOTES_DATA["syl-numerical"] || "") + atomicStructureHtml;
-
-// 3. Append Corrosion to metals-alloys
-const corrosionHtml = `
-  <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);">
-    <h2> Corrosion & Prevention</h2>
-    
-    <h3>1. Rusting of Iron</h3>
-    <ul>
-      <li>Corrosion of iron is an electrochemical process occurring in the presence of **Oxygen (Air)** and **Moisture (Water)**.</li>
-      <li>**Chemical Formula of Rust:** Hydrated Ferric Oxide &mdash; $\\text{Fe}_2\\text{O}_3 \\cdot x\\text{H}_2\\text{O}$ (reddish-brown flakey substance).</li>
-      <li>**Mass Change:** During rusting, the weight of the iron piece **increases** because oxygen and water combine with the metal.</li>
-      <li>**Factors Accelerating Rusting:** Presence of salts (saline/sea water increases conductivity), acidity, and impurities in iron.</li>
-    </ul>
-
-    <h3>2. Corrosion Prevention Methods</h3>
-    <ul>
-      <li><strong>Galvanization:</strong> Coating iron or steel with a thin protective layer of **Zinc (Zn)**. Even if the zinc coating is scratched, it acts as a sacrificial anode and corrodes instead of the iron.</li>
-      <li><strong>Tinning:</strong> Coating copper or brass utensils with Tin (Sn) to prevent food contamination by organic acids.</li>
-      <li><strong>Anodizing:</strong> Creating a thick oxide layer on the surface of **Aluminium** via electrolysis, making it highly corrosion-resistant.</li>
-      <li><strong>Alloying:</strong> Mixing iron with Chromium and Nickel to make **Stainless Steel**, which does not rust.</li>
-    </ul>
-  </div>
-`;
-EXPANDED_NOTES_DATA["metals-alloys"] = (EXPANDED_NOTES_DATA["metals-alloys"] || "") + corrosionHtml;
-
-// 4. Append Polymers & Plastics to chemistry-everyday-fertilisers
-const polymersHtml = `
-  <h3>4. Polymers & Plastics</h3>
-  <p>Polymers are macromolecular structures formed by joining repeating units called monomers:</p>
-  <ul>
-    <li><strong>Classification of Plastics:</strong>
-      <ul>
-        <li><strong>Thermoplastics:</strong> Linear polymers that soften easily on heating and harden on cooling, allowing them to be remolded repeatedly. E.g., **Polyethylene (Polythene)**, **PVC (Polyvinyl Chloride)**, Polystyrene.</li>
-        <li><strong>Thermosetting Plastics:</strong> Heavily cross-linked polymers that undergo chemical change on heating to form a permanent, infusible three-dimensional network. Cannot be remolded. E.g., **Bakelite** (used for electrical switches, handles of utensils), **Melamine** (fire-resistant, used for unbreakable dinnerware).</li>
-      </ul>
-    </li>
-    <li><strong>Common High-Yield Polymers:</strong>
-      <ul>
-        <li>**Teflon (PTFE):** Monomer is tetrafluoroethylene. Used as a non-stick coating for frying pans and gaskets.</li>
-        <li>**Nylon-6,6:** A condensation copolymer of adipic acid and hexamethylenediamine. Very strong synthetic fiber, used for ropes, bristles, and parachutes.</li>
-        <li>**Terylene (Dacron / Polyester):** Used in clothing and safety belts.</li>
-        <li>**Natural Rubber:** A polymer of **Isoprene (2-methyl-1,3-butadiene)**. Vulcanized by heating with **Sulfur** to improve elasticity and strength.</li>
-        <li>**Buna-S / Buna-N:** Synthetic rubbers used in vehicle tires.</li>
-      </ul>
-    </li>
-  </ul>
-`;
-EXPANDED_NOTES_DATA["chemistry-everyday-fertilisers"] = (EXPANDED_NOTES_DATA["chemistry-everyday-fertilisers"] || "") + polymersHtml;
-
-// 5. Append Blood Groups, Rh & Nutrition to diseases
-const bloodGroupsHtml = `
-  <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);">
-    <h2> Blood Groups, Rh Factor & Nutrition</h2>
-    
-    <h3>1. ABO Blood Group System</h3>
-    <p>Discovered by **Karl Landsteiner (1900)**. Based on the presence or absence of antigens A and B on the surface of Red Blood Cells (RBCs):</p>
-    <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
-      <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
-        <th style="padding:8px; border:1px solid var(--border);">Blood Group</th>
-        <th style="padding:8px; border:1px solid var(--border);">Antigen on RBC</th>
-        <th style="padding:8px; border:1px solid var(--border);">Antibody in Plasma</th>
-        <th style="padding:8px; border:1px solid var(--border);">Can Receive From</th>
-        <th style="padding:8px; border:1px solid var(--border);">Can Donate To</th>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid var(--border);"><strong>A</strong></td>
-        <td style="padding:8px; border:1px solid var(--border);">A</td>
-        <td style="padding:8px; border:1px solid var(--border);">Anti-B</td>
-        <td style="padding:8px; border:1px solid var(--border);">A, O</td>
-        <td style="padding:8px; border:1px solid var(--border);">A, AB</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid var(--border);"><strong>B</strong></td>
-        <td style="padding:8px; border:1px solid var(--border);">B</td>
-        <td style="padding:8px; border:1px solid var(--border);">Anti-A</td>
-        <td style="padding:8px; border:1px solid var(--border);">B, O</td>
-        <td style="padding:8px; border:1px solid var(--border);">B, AB</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid var(--border);"><strong>AB</strong></td>
-        <td style="padding:8px; border:1px solid var(--border);">A and B</td>
-        <td style="padding:8px; border:1px solid var(--border);">None</td>
-        <td style="padding:8px; border:1px solid var(--border);">A, B, AB, O (Universal Recipient)</td>
-        <td style="padding:8px; border:1px solid var(--border);">AB only</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid var(--border);"><strong>O</strong></td>
-        <td style="padding:8px; border:1px solid var(--border);">None</td>
-        <td style="padding:8px; border:1px solid var(--border);">Anti-A and Anti-B</td>
-        <td style="padding:8px; border:1px solid var(--border);">O only</td>
-        <td style="padding:8px; border:1px solid var(--border);">A, B, AB, O (Universal Donor)</td>
-      </tr>
-    </table>
-
-    <h3>2. Rh Factor Compatibility</h3>
-    <ul>
-      <li>**Rh Factor:** An antigen first discovered in the **Rhesus monkey**. Persons having it are Rh positive ($+$), others are Rh negative ($-$).</li>
-      <li>**Universal Donor:** **$\\text{O}^{-}$** (lacks A, B, and Rh antigens, so it never triggers an immune response in recipients).</li>
-      <li>**Universal Recipient:** **$\\text{AB}^{+}$** (has all antigens A, B, and Rh, so it has no antibodies to attack incoming blood).</li>
-      <li><strong>Erythroblastosis Fetalis:</strong> A fatal hemolytic condition in pregnancy occurring when an **Rh-negative mother** carries an **Rh-positive fetus**. During the first delivery, the mother's blood becomes sensitized to Rh antigens, producing antibodies. In subsequent pregnancies, these antibodies cross the placenta and destroy the fetus's RBCs. Prevented by administering anti-Rh antibodies (Rh0GAM) to the mother post-delivery.</li>
-    </ul>
-
-    <h3>3. Human Nutrition (Macro & Micronutrients)</h3>
-    <ul>
-      <li><strong>Carbohydrates:</strong> Main energy source. Comprise monosaccharides (glucose, fructose), disaccharides (sucrose, lactose), and polysaccharides (starch, glycogen, cellulose).</li>
-      <li><strong>Proteins:</strong> Bodybuilding blocks made of amino acids. Essential for growth and repair. Deficiency leads to **Kwashiorkor** (swollen belly) and **Marasmus** (severe wasting of muscle and fat).</li>
-      <li><strong>Fats:</strong> Concentrated energy reserves. Saturated fats (animal source, solid at room temp) vs Unsaturated fats (vegetable source, liquid at room temp).</li>
-      <li><strong>Micronutrients:</strong>
-        <ul>
-          <li>*Iron (Fe):* Essential constituent of **Hemoglobin** in RBCs. Deficiency causes **Anemia**.</li>
-          <li>*Calcium (Ca) & Phosphorus (P):* Required for healthy bones and teeth. Deficiency causes weak bones.</li>
-          <li>*Iodine (I):* Required by the thyroid gland to synthesize **Thyroxine** hormone. Deficiency causes **Goitre** (swelling of neck).</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-`;
-EXPANDED_NOTES_DATA["diseases"] = (EXPANDED_NOTES_DATA["diseases"] || "") + bloodGroupsHtml;
-
-// 6. Append Plant Tissues to plant-kingdom
-const plantTissuesHtml = `
-  <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);">
-    <h2> Plant Tissues & Anatomy</h2>
-    <p>Plant tissues are broadly classified based on their capability of cell division:</p>
-    
-    <h3>1. Meristematic Tissues</h3>
-    <p>Composed of actively dividing cells. Located in growing regions:</p>
-    <ul>
-      <li><strong>Apical Meristem:</strong> Present at the tips of stems and roots. Responsible for primary growth (increase in length).</li>
-      <li><strong>Lateral Meristem (Cambium):</strong> Located along the lateral sides of stems and roots. Responsible for secondary growth (increase in girth/thickness).</li>
-      <li><strong>Intercalary Meristem:</strong> Located at the base of leaves or internodes (e.g., in grasses). Helps regenerate parts eaten by herbivores.</li>
-    </ul>
-
-    <h3>2. Permanent Tissues</h3>
-    <p>Cells that have lost the power of division and assumed a definite shape and function:</p>
-    <ul>
-      <li><strong>Simple Permanent Tissues (Single cell type):</strong>
-        <ul>
-          <li><em>Parenchyma:</em> Thin-walled, living cells. Store food. If they contain chlorophyll, they are called **Chlorenchyma** (help in photosynthesis); if they have large air cavities in aquatic plants, they are called **Aerenchyma** (provide buoyancy).</li>
-          <li><em>Collenchyma:</em> Living cells with localized thickening of pectin at corners. Provide mechanical support and flexibility to young stems (allows bending without breaking).</li>
-          <li><em>Sclerenchyma:</em> Dead, long, narrow cells with thick walls reinforced with **Lignin**. Provide mechanical strength. E.g., Coconut husk (coir), hemp, stone cells in pears.</li>
-        </ul>
-      </li>
-      <li><strong>Complex Permanent Tissues (Multiple cell types working as a unit):</strong>
-        <ul>
-          <li><em>Xylem:</em> Conducts **water and minerals** unidirectionally (upward from roots to leaves). Composed of tracheids, vessels, xylem parenchyma (living), and xylem fibers (dead).</li>
-          <li><em>Phloem:</em> Conducts **food / organic solutes** bidirectionally (from leaves to other parts). Composed of sieve tubes, companion cells (regulate sieve tube function), phloem parenchyma, and phloem fibers (dead).</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-`;
-EXPANDED_NOTES_DATA["plant-kingdom"] = (EXPANDED_NOTES_DATA["plant-kingdom"] || "") + plantTissuesHtml;

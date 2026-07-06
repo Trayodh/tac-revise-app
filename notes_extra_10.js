@@ -15,28 +15,6 @@ window.EXPANDED_NOTES_DATA["algebra-complex"] = `
     <li><li><strong>Cube roots of unity:</strong> 1, omega, omega^2 where 1 + omega + omega^2 = 0 and omega^3 = 1</li></li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-mindmap
-  root((Complex Numbers))
-    Cartesian
-      x+iy
-    Polar
-      r∠θ
-      Modulus
-        r = sqrt(x^2 + y^2)
-      Argument
-        θ = atan2(y,x)
-    DeMoivre
-      (cosθ + i sinθ)^n = cos nθ + i sin nθ
-    Roots
-      nth roots
-      Cube roots of unity
-        1
-        ω
-        ω²
-</div>
 `;
 
 window.EXPANDED_NOTES_DATA["2d-geometry"] = `
@@ -48,28 +26,6 @@ window.EXPANDED_NOTES_DATA["2d-geometry"] = `
     <li>2D Mensuration Formulas</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-mindmap
-  root((2D Figures))
-    Triangle
-      Area((½ × base × height))
-      Perimeter((a + b + c))
-    Quadrilateral
-      Square
-        Area((side²))
-        Perimeter((4 × side))
-      Rectangle
-        Area((length × width))
-        Perimeter((2 × (l + w)))
-      Parallelogram
-        Area((base × height))
-        Perimeter((2 × (a + b)))
-    Circle
-      Area((π × r²))
-      Perimeter((2 π × r))
-</div>
 `;
 
 window.EXPANDED_NOTES_DATA["statistics-prob"] = `
@@ -110,20 +66,6 @@ window.EXPANDED_NOTES_DATA["statistics-prob"] = `
     <li>CV = (σ/x̄)·100</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["algebra-matrices"] = `
@@ -167,20 +109,6 @@ window.EXPANDED_NOTES_DATA["algebra-matrices"] = `
     <li>(AB)⁻¹ = B⁻¹A⁻¹</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["probability-stats"] = `
@@ -221,20 +149,6 @@ window.EXPANDED_NOTES_DATA["probability-stats"] = `
     <li>CV = (σ/x̄)·100</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["vocabulary"] = `
@@ -246,20 +160,6 @@ window.EXPANDED_NOTES_DATA["vocabulary"] = `
     <li>Main idea, detail, inference, tone, title finding strategies</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["constitution-basics"] = `
@@ -271,41 +171,6 @@ window.EXPANDED_NOTES_DATA["constitution-basics"] = `
     <li>Schedules: TEARS OF OLD PM</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-mindmap
-  root((Indian Constitution))
-    Parts
-      PartI[Part I: Union and Territories]
-      PartII[Part II: Citizenship]
-      PartIII[Part III: Fundamental Rights]
-      PartIV[Part IV: Directive Principles]
-      PartV[Part V: Union]
-      PartVI[Part VI: States]
-      PartVII[Part VII: (Repealed)]
-      PartVIII[Part VIII: Union Territories]
-      PartIX[Part IX: Panchayats]
-      PartIXA[Part IX‑A: Municipalities]
-      PartX[Part X: Special Provisions]
-      PartXI[Part XI: Elections]
-    Schedules
-      ScheduleI[Schedule I: States and UTs]
-      ScheduleII[Schedule II: Union Provisions]
-      ScheduleIII[Schedule III: Forms of Govt]
-      ScheduleIV[Schedule IV: Consolidated List]
-      ScheduleV[Schedule V: Temporary Provisions]
-      ScheduleVI[Schedule VI: Panchayat]
-      ScheduleVII[Schedule VII: Municipalities]
-      ScheduleVIII[Schedule VIII: Union Territories]
-      ScheduleIX[Schedule IX: Cooperative Societies]
-      ScheduleX[Schedule X: Official Languages]
-      ScheduleXI[Schedule XI: Panchayat Elections]
-      ScheduleXII[Schedule XII: Amendment Procedure]
-    Amendments
-      Process[Amendment Process]
-      Key[Key Amendments]
-</div>
 `;
 
 window.EXPANDED_NOTES_DATA["union-executive"] = `
@@ -320,20 +185,6 @@ window.EXPANDED_NOTES_DATA["union-executive"] = `
     <li>MGNREGA: 100 days wage</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["polity-advanced"] = `
@@ -345,20 +196,6 @@ window.EXPANDED_NOTES_DATA["polity-advanced"] = `
     <li>Constitutional: Art 324 (EC), Art 280 (FC), Art 148 (CAG)</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["federal-rpa"] = `
@@ -372,20 +209,6 @@ window.EXPANDED_NOTES_DATA["federal-rpa"] = `
     <li>Art 280: Finance Commission</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["physical-geography"] = `
@@ -397,20 +220,6 @@ window.EXPANDED_NOTES_DATA["physical-geography"] = `
     <li>Major Mountains & World Rivers</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["geography-details"] = `
@@ -422,20 +231,6 @@ window.EXPANDED_NOTES_DATA["geography-details"] = `
     <li>Dakshin Ganga: Godavari</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["industrics-geopolitics"] = `
@@ -450,20 +245,6 @@ window.EXPANDED_NOTES_DATA["industrics-geopolitics"] = `
     <li>Bengaluru = Silicon Valley of India</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["monetary-fiscal"] = `
@@ -478,20 +259,6 @@ window.EXPANDED_NOTES_DATA["monetary-fiscal"] = `
     <li>FRBM Act 2003</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["budget-trade-reforms"] = `
@@ -507,23 +274,6 @@ window.EXPANDED_NOTES_DATA["budget-trade-reforms"] = `
     <li>ONORC: Aadhaar-linked PDS</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-flowchart TD
-    B[Union Budget 2024‑25] --> TR[Trade Reforms]
-    TR -->|Fiscal Incentives| PLI[PLI Scheme (14 sectors)]
-    TR -->|Self‑reliance| Atma[Atmanirbhar ₹20L Cr]
-    TR -->|Infrastructure| NIP[NIP ₹111L Cr]
-    TR -->|Connectivity| Gati[Gati Shakti (16 ministries)]
-    TR -->|Food Security| ONORC[ONORC – Aadhaar‑linked PDS]
-    PLI --> Impact1[Boost Manufacturing]
-    Atma --> Impact2[Reduce Imports]
-    NIP --> Impact3[Build Roads and Ports]
-    Gati --> Impact4[Integrated Logistics]
-    ONORC --> Impact5[Efficient Subsidy Delivery]
-    Impact1 and Impact2 and Impact3 and Impact4 and Impact5 --> GDP[Target: 10 % of GDP]
-</div>
 `;
 
 window.EXPANDED_NOTES_DATA["physics-mechanics"] = `
@@ -562,20 +312,6 @@ window.EXPANDED_NOTES_DATA["physics-mechanics"] = `
     <li>Equations of Motion: v = u + at, s = ut + 0.5at², v² - u² = 2as</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["energy-power-mechanics"] = `
@@ -641,20 +377,6 @@ window.EXPANDED_NOTES_DATA["energy-power-mechanics"] = `
     <li>Escape Velocity: vₑ = √(2gR) ≈ 11.2 km/s</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["physics-waves"] = `
@@ -696,20 +418,6 @@ window.EXPANDED_NOTES_DATA["physics-waves"] = `
     <li>Doppler Effect</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["physics-thermodynamics"] = `
@@ -723,20 +431,6 @@ window.EXPANDED_NOTES_DATA["physics-thermodynamics"] = `
     <li>Laws: Zeroth (thermal equilibrium), 1st (conservation of energy), 2nd (entropy increases)</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["physics-electromagnetism"] = `
@@ -808,20 +502,6 @@ window.EXPANDED_NOTES_DATA["physics-electromagnetism"] = `
     <li>Induction: Faraday's & Lenz's Laws</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["physics-modern"] = `
@@ -835,20 +515,6 @@ window.EXPANDED_NOTES_DATA["physics-modern"] = `
     <li>Everyday: Raindrops (surface tension), Mirages (TIR), Sky blue (Rayleigh scattering)</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["chemistry-substances"] = `
@@ -894,20 +560,6 @@ window.EXPANDED_NOTES_DATA["chemistry-substances"] = `
     <li>Bleaching Powder: CaOCl₂</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["chemistry-bonding"] = `
@@ -969,18 +621,6 @@ window.EXPANDED_NOTES_DATA["chemistry-bonding"] = `
     <li>Electronegativity: F > O > N > Cl</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 📝 Exam Question Analysis (UPSC Local Engine)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*
 `;
 
 window.EXPANDED_NOTES_DATA["chemistry-metallurgy"] = `
@@ -996,39 +636,6 @@ window.EXPANDED_NOTES_DATA["chemistry-metallurgy"] = `
     <li>Roasting (air) vs Calcination (no air)</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-flowchart TD
-    A[Metallurgy] --> B[Metals]
-    A --> C[Ores]
-    A --> D[Extraction Methods]
-    A --> E[Alloys]
-
-    B --> B1[Aluminium (Al)]
-    B --> B2[Iron (Fe)]
-    B --> B3[Copper (Cu)]
-
-    C --> C1[Bauxite]
-    C --> C2[Cryolite]
-    C --> C3[Hematite]
-    C --> C4[Magnetite]
-
-    D --> D1[Roasting (air)]
-    D --> D2[Calcination (no air)]
-    D --> D3[Reduction (C/Al)]
-    D --> D4[Electrolysis]
-    D --> D5[Flotation (sulphides)]
-
-    E --> E1[Brass (Cu+Zn)]
-    E --> E2[Bronze (Cu+Sn)]
-    E --> E3[Solder (Pb+Sn)]
-
-    B1 --> C1
-    B1 --> C2
-    B2 --> C3
-    B2 --> C4
-</div>
 `;
 
 window.EXPANDED_NOTES_DATA["chemistry-carbon-numericals"] = `
@@ -1097,20 +704,6 @@ window.EXPANDED_NOTES_DATA["chemistry-carbon-numericals"] = `
     <li>Esterification: Acid+Alcohol -> Ester</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["chemistry-everyday-env"] = `
@@ -1126,20 +719,6 @@ window.EXPANDED_NOTES_DATA["chemistry-everyday-env"] = `
     <li>Petroleum: LPG (butane + propane), CNG (methane)</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["biology-cell"] = `
@@ -1228,20 +807,6 @@ window.EXPANDED_NOTES_DATA["biology-cell"] = `
     <li>Meiosis: Gamete formation & Crossing Over (2n -> 4 cells of n)</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["biology-physiology"] = `
@@ -1282,20 +847,6 @@ window.EXPANDED_NOTES_DATA["biology-physiology"] = `
     <li>Vit D (Calciferol) -> Rickets</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["biology-diseases"] = `
@@ -1336,20 +887,6 @@ window.EXPANDED_NOTES_DATA["biology-diseases"] = `
     <li>Vit D (Calciferol) -> Rickets</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["biology-kingdoms"] = `
@@ -1368,20 +905,6 @@ window.EXPANDED_NOTES_DATA["biology-kingdoms"] = `
     <li>Echinodermata: Water vascular</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["biology-botany"] = `
@@ -1447,20 +970,6 @@ window.EXPANDED_NOTES_DATA["biology-botany"] = `
     <li>Ethylene: Gaseous hormone, fruit ripening</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["biology-ecology"] = `
@@ -1502,20 +1011,6 @@ window.EXPANDED_NOTES_DATA["biology-ecology"] = `
     <li>Ecotone: transition zone between two ecosystems (e.g., Mangrove)</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["defence-structures"] = `
@@ -1549,42 +1044,6 @@ window.EXPANDED_NOTES_DATA["defence-structures"] = `
     <li>General = Admiral = Air Chief Marshal</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-mindmap
-  root((Commissioned Officer Ranks))
-    Army
-      Lieutenant
-      Captain
-      Major
-      Lieutenant Colonel
-      Colonel
-      Brigadier
-      Major General
-      Lieutenant General
-      General
-    Navy
-      Sub‑Lieutenant
-      Lieutenant
-      Lieutenant Commander
-      Commander
-      Captain
-      Commodore
-      Rear Admiral
-      Vice Admiral
-      Admiral
-    Air Force
-      Flying Officer
-      Flight Lieutenant
-      Squadron Leader
-      Wing Commander
-      Group Captain
-      Air Commodore
-      Air Vice Marshal
-      Air Marshal
-      Air Chief Marshal
-</div>
 `;
 
 window.EXPANDED_NOTES_DATA["tactical-defence-gk"] = `
@@ -1611,20 +1070,6 @@ window.EXPANDED_NOTES_DATA["tactical-defence-gk"] = `
     <li>Russia: Indra</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["schemes-policies"] = `
@@ -1639,20 +1084,6 @@ window.EXPANDED_NOTES_DATA["schemes-policies"] = `
     <li>Start-Up India: 100+ unicorns</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["reports-awards-judgments"] = `
@@ -1666,20 +1097,6 @@ window.EXPANDED_NOTES_DATA["reports-awards-judgments"] = `
     <li>Ashoka Chakra > KC > SC (peacetime)</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["biodiversity-conservation"] = `
@@ -1695,20 +1112,6 @@ window.EXPANDED_NOTES_DATA["biodiversity-conservation"] = `
     <li>85+ Ramsar Sites</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["climate-laws-energy"] = `
@@ -1724,20 +1127,6 @@ window.EXPANDED_NOTES_DATA["climate-laws-energy"] = `
     <li>FAME-II: EV subsidies</li>
   </ul>
 
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 
@@ -1769,20 +1158,6 @@ window.EXPANDED_NOTES_DATA["ca-red-sea-crisis"] = `
     <li><strong>Operation Prosperity Guardian:</strong> A US-led multinational security initiative launched under the aegis of the Combined Maritime Forces (CMF) to secure the Red Sea shipping corridor. India is not a formal member of this military coalition, choosing to run independent operations to maintain strategic autonomy.</li>
     <li><strong>Operation Aspides:</strong> A European Union naval security mission deployed to protect vessels in the region from attack.</li>
   </ul>
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["ca-quad-indopacific"] = `
@@ -1812,20 +1187,6 @@ window.EXPANDED_NOTES_DATA["ca-quad-indopacific"] = `
     <li><strong>Exercise Malabar:</strong> A high-tempo naval exercise that began as a bilateral India-US drill in 1992, subsequently expanding to include Japan and Australia, forming the military core of the Quad.</li>
     <li><strong>Exercise Milan:</strong> A biennial, multilateral naval exercise hosted by the Indian Navy, bringing together dozens of friendly foreign nations to practice interoperability.</li>
   </ul>
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["ca-defense-acquisitions"] = `
@@ -1856,20 +1217,6 @@ window.EXPANDED_NOTES_DATA["ca-defense-acquisitions"] = `
     <li><strong>LEMOA (Logistics Exchange Memorandum of Agreement):</strong> Signed with the United States in 2016.</li>
     <li><strong>Similar Agreements:</strong> Signed with France, Japan, Australia, Singapore, South Korea, and Vietnam.</li>
   </ul>
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["ca-icet-drones"] = `
@@ -1905,33 +1252,6 @@ window.EXPANDED_NOTES_DATA["ca-icet-drones"] = `
     </li>
     <li><strong>Capabilities:</strong> Over 35 hours of endurance, operational ceiling above 40,000 feet, and capacity to carry precision-guided missiles and laser-guided bombs.</li>
   </ul>
-
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-graph TD
-    A[Initiative on Critical and Emerging Tech (iCET)] --> B[Semiconductor Ecosystem]
-    A --> C[Defense Innovation (INDUS‑X)]
-    A --> D[Space and Quantum Collaboration]
-    C --> E[Start‑ups ↔ Defence Buyers]
-    D --> F[NASA Training for Indian Astronauts]
-    D --> G[Co‑development of Space Sensors]
-    H[GE F414 Engine Co‑production Deal] --> I[80 % Technology Transfer to India]
-    H --> J[Power LCA‑Tejas Mk‑2 and AMCA]
-    K[US MQ‑9B Reaper Drone Deal] --> L[Joint Production and ToT]
-    K --> M[Enhanced ISR and Strike Capability]
-    L --> N[Indigenous Drone Development Roadmap]
-    A --> H
-    A --> K
-</div>
-
-<h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Concepts</h4>
-<ul>
-    <li><strong>iCET launch (2023):</strong> Joint mechanism of India’s and US’s National Security Advisors to secure supply‑chain resilience in semiconductors, defence, space & quantum.</li>
-    <li><strong>GE F414‑INS6 co‑production:</strong> 80 % technology transfer; engines will power indigenous LCA‑Tejas Mk‑2 and the AMCA programme.</li>
-    <li><strong>MQ‑9B Reaper drone agreement:</strong> US supplies Reaper drones with joint production and technology transfer, boosting ISR, long‑range strike and aligning with iCET objectives.</li>
-    <li><strong>INDUS‑X challenges:</strong> Platform linking Indian defence startups with armed forces buyers, fostering rapid innovation.</li>
-    <li><strong>Strategic impact:</strong> Reduces critical technology bottlenecks, deepens Indo‑US defence industrial base, and enhances India’s autonomous combat‑air and unmanned‑air capabilities.</li>
-</ul>
 `;
 
 window.EXPANDED_NOTES_DATA["ca-spain-c295"] = `
@@ -1963,20 +1283,6 @@ window.EXPANDED_NOTES_DATA["ca-spain-c295"] = `
     <li><strong>STOL Capabilities:</strong> Features Short Take-Off and Landing (STOL) parameters, enabling operations from unpaved, semi-prepared runways in remote border areas (e.g., Advanced Landing Grounds in Ladakh and Arunachal Pradesh).</li>
     <li><strong>Engine:</strong> Powered by Pratt & Whitney Canada PW127G turboprop engines.</li>
   </ul>
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;
 
 window.EXPANDED_NOTES_DATA["ca-space-nuclear"] = `
@@ -2004,18 +1310,4 @@ window.EXPANDED_NOTES_DATA["ca-space-nuclear"] = `
     <li><strong>Mission Shakti:</strong> Completed in 2019, this test demonstrated India's kinetic intercept capability by destroying a live satellite in Low Earth Orbit (LEO) using an indigenously developed ASAT missile.</li>
     <li><strong>Defense Space Agency (DSA):</strong> A tri-services agency established to integrate space assets, coordinate satellite intelligence, and counter space threats, working in tandem with the Defense Space Research Organisation (DSRO).</li>
   </ul>
-
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
 `;

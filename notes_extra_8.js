@@ -195,21 +195,7 @@ EXPANDED_NOTES_DATA["plant-kingdom"] = `<div class="revision-card" style="backgr
       Gymnosperms have naked ovules exposed directly on micro/megasporophylls. Pollination is exclusively <strong>Anemophilous</strong> (carried out by wind). They have taproot systems, and some show symbiotic associations (e.g. mycorrhiza in <em>Pinus</em>, coralloid roots in <em>Cycas</em>).
     </p>
   </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["animal-kingdom"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -437,19 +423,7 @@ EXPANDED_NOTES_DATA["animal-kingdom"] = `<div class="revision-card" style="backg
       <strong>Pneumatic Bones:</strong> Found exclusively in Aves (birds) to facilitate flight by reducing body density.
     </li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 📝 Exam Question Analysis (UPSC Local Engine)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*
-`;
+</div>`;
 
 EXPANDED_NOTES_DATA["plant-reproduction"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
@@ -580,17 +554,5 @@ EXPANDED_NOTES_DATA["plant-reproduction"] = `<div class="revision-card" style="b
     <li style="margin-bottom: 8px; padding-left: 12px; border-left: 2px solid var(--accent);"><strong>ABA:</strong> Stress hormone, closes stomata</li>
     <li style="margin-bottom: 8px; padding-left: 12px; border-left: 2px solid var(--accent);"><strong>Ethylene:</strong> Gaseous hormone, fruit ripening</li>
   </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 📝 Exam Question Analysis (UPSC Local Engine)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*
-`;
+</div>`;
 
