@@ -889,25 +889,34 @@ function renderTopicView(subjectId, chapterId, topicId) {
   if (activeNotesTab === 'notes') {
     let mainNotesContent = topic.notes;
     let isPlaceholder = false;
+    let needsFetch = false;
+
+    window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
+
     if (typeof topic.notes === 'string' && topic.notes.trim().startsWith('Detailed notes expanded in')) {
       isPlaceholder = true;
-      if (typeof EXPANDED_NOTES_DATA !== 'undefined' && EXPANDED_NOTES_DATA[topic.id]) {
-        mainNotesContent = EXPANDED_NOTES_DATA[topic.id];
+      if (window.EXPANDED_NOTES_DATA[topic.id]) {
+        mainNotesContent = window.EXPANDED_NOTES_DATA[topic.id];
       } else {
-        mainNotesContent = `<div class="error-msg" style="color: var(--warning); padding: 12px; border: 1px dashed var(--warning); border-radius: 4px;">Notes are loading or currently being updated for this topic.</div>`;
+        needsFetch = true;
+        mainNotesContent = `<div id="async-notes-${topic.id}" style="padding: 20px; text-align: center; color: var(--accent);">
+          <div class="loader" style="border: 3px solid rgba(255,255,255,0.1); border-top-color: var(--accent); border-radius: 50%; width: 24px; height: 24px; animation: spin 1s linear infinite; margin: 0 auto 10px auto;"></div>
+          Fetching highly detailed notes from secure terminal...
+        </div>
+        <style>@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }</style>`;
       }
     }
     
     tabContentHtml = `
       <div class="tab-pane-content fade-in" style="height: 100%;">
         <div class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
-          ${parseWikiLinks(mainNotesContent)}
+          ${!needsFetch ? parseWikiLinks(mainNotesContent) : mainNotesContent}
           ${(!isPlaceholder && typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]) ? `
             <div class="expanded-notes" style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);">
               <div style="color: var(--accent); font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;">
                 [ Advanced Revision Data ]
               </div>
-              ${parseWikiLinks(EXPANDED_NOTES_DATA[topic.id])}
+              ${parseWikiLinks(window.EXPANDED_NOTES_DATA[topic.id])}
             </div>
           ` : ''}
           ${(typeof window.EXPERT_REVISION_DATA !== 'undefined' && window.EXPERT_REVISION_DATA[topic.id]) ? `
@@ -921,6 +930,37 @@ function renderTopicView(subjectId, chapterId, topicId) {
         </div>
       </div>
     `;
+
+    if (needsFetch) {
+      const SUPABASE_URL = "https://usjzsdvsasjtsyzrvivx.supabase.co";
+      const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVzanpzZHZzYXNqdHN5enJ2aXZ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyNTUxMzksImV4cCI6MjA5NDgzMTEzOX0.8wLng1SDAhFPGvk5PQRu8XCqEWClpNPqHgEGpAx1vjk";
+      
+      fetch(`${SUPABASE_URL}/rest/v1/notes?id=eq.${topic.id}&select=notes`, {
+          headers: {
+              'apikey': SUPABASE_ANON_KEY,
+              'Authorization': `Bearer ${SUPABASE_ANON_KEY}`
+          }
+      })
+      .then(r => r.json())
+      .then(data => {
+          const container = document.getElementById(`async-notes-${topic.id}`);
+          if (container) {
+              if (data && data.length > 0 && data[0].notes) {
+                  window.EXPANDED_NOTES_DATA[topic.id] = data[0].notes;
+                  container.outerHTML = parseWikiLinks(data[0].notes);
+              } else {
+                  container.innerHTML = '<div style="color:var(--warning)">Failed to fetch notes or notes not available yet. Please try again later.</div>';
+              }
+          }
+      })
+      .catch(e => {
+          console.error('Notes fetch error', e);
+          const container = document.getElementById(`async-notes-${topic.id}`);
+          if (container) {
+              container.innerHTML = '<div style="color:var(--warning)">Network error. Could not connect to databank.</div>';
+          }
+      });
+    }
   } else if (activeNotesTab === 'formulas') {
     tabContentHtml = `
       <div class="tab-pane-content fade-in" style="display: flex; flex-direction: column; height: 100%;">
@@ -2929,8 +2969,8 @@ async function sendChatbotMessage() {
   if (typeof selectedTopicId !== 'undefined' && selectedTopicId) {
     const notesScreen = document.getElementById("screen-notes");
     if (notesScreen && notesScreen.classList.contains("active")) {
-      if (typeof EXPANDED_NOTES_DATA !== 'undefined' && EXPANDED_NOTES_DATA[selectedTopicId]) {
-        contextText = EXPANDED_NOTES_DATA[selectedTopicId].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').substring(0, 3000);
+      if (typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[selectedTopicId]) {
+        contextText = window.EXPANDED_NOTES_DATA[selectedTopicId].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').substring(0, 3000);
       } else if (typeof NOTES_DATABASE !== 'undefined') {
         const subject = NOTES_DATABASE[selectedSubjectId];
         const chapter = subject?.chapters.find(c => c.id === selectedChapterId);
