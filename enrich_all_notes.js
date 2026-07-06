@@ -17,15 +17,15 @@ const MAPPINGS = [
 
 const PROMPT_TEMPLATE = `You are an expert UPSC defence exams (NDA/CDS) faculty member.
 I am providing you with a study material PDF and an existing short note on the topic "{TOPIC_NAME}".
-Your task is to significantly enrich this note using the provided PDF as your primary source of truth.
+Your task is to significantly enrich this note by ensuring proper extraction from the PDF. The PDF is your primary source of truth.
 
 Requirements:
 1. Output ONLY a valid HTML snippet representing the enriched note. Do not use markdown code block backticks (like \`\`\`html) around your entire output.
 2. The outer container must be: <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
 3. Include an <h3> title matching the topic.
-4. Add highly detailed paragraphs extracting all relevant facts, dates, concepts, and nuances from the PDF regarding this topic.
+4. Add highly detailed paragraphs extracting all relevant facts, dates, concepts, and nuances from the PDF regarding this topic. Do not just summarize. You must pull actual actionable data, specific numerical values, formulas, and deep-dive technical insights directly from the PDF.
 5. You MUST include at least one <div class="mermaid">...</div> block with a Mermaid.js diagram (e.g., flowchart, mindmap, timeline) that visually explains the concept or maps out the relationships. Ensure the Mermaid syntax is valid and unescaped.
-6. Include at least one Markdown/HTML table for comparative facts or structured data.
+6. Include at least two Markdown/HTML tables for comparative facts, structured data, or a "High-Yield Facts to Memorize" list.
 7. Add a "Strategic Exam Tip" box using this structure: <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-left: 4px solid #FFD700; border-radius: 4px;"><strong style="color: #FFD700;">Strategic Exam Tip:</strong> [Your tip here]</div>
 
 Here is the existing short note to guide you on what the topic is about:

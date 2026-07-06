@@ -41,7 +41,7 @@ If it contains educational content, current affairs, military knowledge, math, p
 Generate a JSON output containing:
 1. "title": A concise, formal title for the notes.
 2. "subject": The subject (e.g. 'gs', 'maths', 'english', 'afcat', 'current_affairs').
-3. "notes": A highly detailed, HTML-formatted study note summarizing the video. Use <strong> for emphasis, <ul> for lists. Translate all concepts into professional English.
+3. "notes": A highly detailed, HTML-formatted study note extracting all actual actionable data from the video. Do not just summarize. Extract all specific factual data, dates, numerical values, names, and formulas mentioned. Provide highly actionable study material packed with tables of important facts rather than just narrative text. Use <strong> for emphasis, <ul> for lists. Translate all concepts into professional English.
 4. "questions": An array of 10 highly challenging UPSC-style Multiple Choice Questions based on the video.
 Each question should be an object with "question" (string), "options" (array of 4 strings), "correct" (0-3 index), and "explanation" (detailed string).
 

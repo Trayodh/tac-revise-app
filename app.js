@@ -4384,7 +4384,7 @@ async function generateDetailedNotesOnDemand(subjectId, chapterId, topicId) {
 Your task is to provide an EXHAUSTIVE, deep-dive, UPSC-level explanation of the topic "${topic.title}" from the chapter "${chapter.title}" in ${subject.title}. 
 IMPORTANT: Your entire explanation MUST be exclusively in English. Do not write in Hindi or any other language.
 
-Detailed Notes must not be short summaries. Ensure the output is comprehensive (minimum 1000 words, target 1500-2500 words) so a beginner can understand but an advanced aspirant finds it exam-ready. You MUST include diagrams, pictures, and high-yield concepts!
+Detailed Notes must not be short summaries. Ensure proper extraction from the provided notes, syllabus, and PYQs to add actual actionable data. Extract all specific factual data, formulas, dates, numerical values, and exceptions. Provide highly actionable study material packed with tables of important facts rather than just narrative text. (minimum 1000 words, target 1500-2500 words). You MUST include diagrams, pictures, and high-yield concepts!
 
 MANDATORY INTRODUCTORY STRUCTURE:
 You must start your entire response with this exact HTML structure, filling in the dynamic parts:
