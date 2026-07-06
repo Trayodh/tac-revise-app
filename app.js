@@ -4380,11 +4380,26 @@ async function generateDetailedNotesOnDemand(subjectId, chapterId, topicId) {
     pyqText = `\n\nActual Questions, numerical patterns, and conceptual trends from the last 7 years (2020-2026) of UPSC CDS, NDA, and AFCAT exams for this topic: ${window.PYQ_TRENDS_DATA[topicId]}`;
   }
 
+  let topicNotesStr = topic.notes || 'No short notes provided, please generate from scratch.';
+  if (typeof topicNotesStr === 'string' && topicNotesStr.trim().startsWith('Detailed notes expanded in')) {
+    if (typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topicId]) {
+      topicNotesStr = window.EXPANDED_NOTES_DATA[topicId];
+    }
+  }
+  if (typeof topicNotesStr === 'string') {
+    topicNotesStr = topicNotesStr.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').substring(0, 3000);
+  }
+
   let prompt = `You are Dronacharya, the legendary military guru and Academic Intelligence Engine of an AI-powered NDA, CDS, AFCAT, CAPF, and UPSC Examination Preparation Platform.
 Your task is to provide an EXHAUSTIVE, deep-dive, UPSC-level explanation of the topic "${topic.title}" from the chapter "${chapter.title}" in ${subject.title}. 
 IMPORTANT: Your entire explanation MUST be exclusively in English. Do not write in Hindi or any other language.
 
 Detailed Notes must not be short summaries. Ensure proper extraction from the provided notes, syllabus, and PYQs to add actual actionable data. Extract all specific factual data, formulas, dates, numerical values, and exceptions. Provide highly actionable study material packed with tables of important facts rather than just narrative text. (minimum 1000 words, target 1500-2500 words). You MUST include diagrams, pictures, and high-yield concepts!
+
+Here are the existing short notes for this topic:
+${topicNotesStr}
+${syllabusText}
+${pyqText}
 
 MANDATORY INTRODUCTORY STRUCTURE:
 You must start your entire response with this exact HTML structure, filling in the dynamic parts:
