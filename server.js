@@ -31,6 +31,7 @@ const UPSC_TOPIC_CATEGORIES = [
   { name: 'Geography & Disasters',    color: '#0369a1', queries: ['India disaster cyclone flood', 'India earthquake geography', 'India river dam project', 'India agriculture crop', 'India NDMA disaster management', 'India monsoon drought'] },
   { name: 'Awards & Appointments',    color: '#6d28d9', queries: ['India appointment minister CEO', 'India award prize', 'India Padma Bharat Ratna', 'India Nobel prize winner'] },
   { name: 'Sports',                   color: '#0d9488', queries: ['India cricket hockey Olympics', 'India sports championship medal', 'India FIFA athletics', 'India chess tennis badminton'] },
+  { name: 'Important Days & Themes',  color: '#ec4899', queries: ['India important day theme', 'national international day observed', 'India day celebrated theme'] },
 ];
 
 // PIB Ministry RSS feeds — covers most UPSC-relevant ministries
@@ -153,13 +154,15 @@ async function fetchAllNewsItems() {
     
     const topicColorMap = UPSC_TOPIC_CATEGORIES.reduce((acc, t) => { acc[t.name] = t.color; return acc; }, {});
     
-    // Step 1: Select the 5 to 6 most important news items
-    const selectionPrompt = `You are a senior UPSC exam expert. Select the 5 to 6 most important and UPSC-relevant news items from this list:
+    // Step 1: Select the 7 to 8 most important news items
+    const selectionPrompt = `You are a senior UPSC exam expert. Select the 7 to 8 most important and UPSC-relevant news items from this list:
 ${JSON.stringify(rawItems.map((it,i) => ({ index: i, title: it.title, desc: it.description })))}
 
 Rules:
-- Assign each to one of these 12 topic areas: ${UPSC_TOPIC_CATEGORIES.map(t => t.name).join(', ')}
-- You MUST include at least 1 'Military Appointments' item (if not in the feed, use the most recent known Indian military chief appointment), at least 1 'Economy & Finance' item, and at least 1 'Sports' item.
+- Assign each to one of these topic areas: ${UPSC_TOPIC_CATEGORIES.map(t => t.name).join(', ')}
+- You MUST include at least 1 'Military Appointments' item (if not in the feed, use the most recent known Indian military chief appointment).
+- You MUST include at least 1 item about 'Bilateral Visits' or 'Trade Deals' (assign to 'International Relations' or 'Economy & Finance').
+- You MUST include at least 1 'Important Days & Themes' item.
 - Return ONLY a raw JSON array of objects with: { "index": <number or null>, "title": "<news title>", "topic": "<topic area name>", "topicColor": "<hex color from ${JSON.stringify(topicColorMap)}>" }.
 - Do not include markdown fences or any formatting other than valid JSON.`;
 
