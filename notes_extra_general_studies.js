@@ -104,16 +104,46 @@ function parseInlineMarkdown(text) {
   return res;
 }
 
-EXPANDED_NOTES_DATA["ca-upsc-master-framework"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+EXPANDED_NOTES_DATA["ca-upsc-master-framework"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> UPSC Core Current Affairs Syllabus Map
+  </h3>
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    In the context of Indian Defence Examinations (NDA, CDS, AFCAT), the "Reports, Awards & Judgments" segment is a high-frequency area that tests a candidate's awareness of national and international governance, judicial activism, and global recognition. UPSC does not merely ask for names; it tests the <strong>methodology, mandate, and impact</strong> of these entities. Understanding this syllabus map requires a systematic approach to categorizing information into institutional frameworks, thematic relevance, and constitutional significance.
+  </p>
 
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    <strong>Reports</strong> are analyzed based on the publishing body (e.g., World Bank, IMF, NITI Aayog) and the specific indices they release. For defence aspirants, reports related to <em>Global Peace Index, Human Development Index, and Military Expenditure (SIPRI)</em> are critical. You must identify the "Key Findings" and "India's Rank" rather than memorizing the entire document. Focus on the <strong>parameters</strong> used to calculate these indices, as UPSC often frames questions around the methodology (e.g., "Which of the following indicators is NOT used in the Global Hunger Index?").
+  </p>
 
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    <strong>Awards</strong> are categorized into civilian honors (Bharat Ratna, Padma Awards), literary/scientific prizes (Nobel, Booker, Abel), and defence-specific decorations (Param Vir Chakra, Shaurya Chakra). For <strong>Judgments</strong>, the focus remains on landmark Supreme Court rulings that interpret the Constitution. You must link these judgments to specific Articles (e.g., Right to Privacy under Article 21, Basic Structure Doctrine under Kesavananda Bharati case).
+  </p>
+
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Strategic Categorization</h4>
+  <ul style="list-style-type: square; padding-left: 20px; margin-bottom: 20px;">
+    <li style="margin-bottom: 8px;"><strong>Reports:</strong> Focus on the "Publisher" and "Primary Objective." (e.g., Ease of Doing Business - World Bank).</li>
+    <li style="margin-bottom: 8px;"><strong>Awards:</strong> Focus on the "Field of Excellence" and "First Recipient vs. Current Recipient."</li>
+    <li style="margin-bottom: 8px;"><strong>Judgments:</strong> Focus on the "Constitutional Article" and the "Bench Strength" (if relevant for landmark cases).</li>
+  </ul>
+
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: disc; padding-left: 20px;">
+    <li style="margin-bottom: 5px;"><strong>Polity:</strong> Art 1-395 (Focus on Fundamental Rights, DPSP, and Emergency Provisions).</li>
+    <li style="margin-bottom: 5px;"><strong>Economy:</strong> Repo Rate, CPI (Consumer Price Index), WPI (Wholesale Price Index).</li>
+    <li style="margin-bottom: 5px;"><strong>Environment:</strong> COP (Conference of Parties), Ramsar Sites (Wetlands of International Importance).</li>
+    <li style="margin-bottom: 5px;"><strong>Security:</strong> Cyber Security (CERT-In), Maritime Security (SAGAR Doctrine).</li>
+  </ul>
+
+  <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 6px; margin-top: 20px;">
+    <strong style="color: var(--accent);">Note: Pro-Tip for Memory:</strong> Use the <strong>"3-Layer Filter"</strong> method. 
+    1. <em>Layer 1:</em> Who released it? 
+    2. <em>Layer 2:</em> What is the core theme? 
+    3. <em>Layer 3:</em> How does it affect India's policy? 
+    Avoid rote memorization of dates; focus on the <strong>chronological sequence</strong> of major events instead.
+  </div>
+</div>`;
 
 
 
