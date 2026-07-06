@@ -43,7 +43,7 @@ def get_plain_text_len(html):
 
 def make_gemini_request(prompt, retries=6):
     payload = {
-        "model": "gemini-2.5-flash",
+        "model": "gemini-1.5-flash",
         "contents": [{"parts": [{"text": prompt}]}]
     }
     data = json.dumps(payload).encode("utf-8")

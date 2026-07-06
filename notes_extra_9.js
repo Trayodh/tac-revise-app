@@ -1,585 +1,80 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
-EXPANDED_NOTES_DATA["citizenship"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Citizenship (Art 5-11)
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Citizenship defines the relationship between an individual and the State. In the Indian context, it is a legal status that grants specific rights (like the right to vote, hold public office, and protection by the state) while imposing certain duties. Unlike the USA, which follows a dual citizenship model (State and Federal), India follows a <strong>Single Citizenship</strong> model to promote national unity and integrity.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The Constitution of India does not deal with the permanent problem of citizenship in a comprehensive way. It only identifies the persons who became citizens of India at the commencement of the Constitution (January 26, 1950). Articles 5 to 10 deal with citizenship at the time of commencement, while Article 11 empowers the Parliament to regulate the right of citizenship by law.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    <strong>The Constitutional Provisions (Art 5-11):</strong>
-    <ul style="padding-left: 20px; margin-bottom: 15px;">
-      <li><strong>Art 5:</strong> Citizenship at the commencement of the Constitution (Domicile in India + born in India / either parent born in India / ordinarily resident for 5 years).</li>
-      <li><strong>Art 6:</strong> Rights of citizenship of certain persons who have migrated to India from Pakistan.</li>
-      <li><strong>Art 7:</strong> Rights of citizenship of certain migrants to Pakistan (who returned to India).</li>
-      <li><strong>Art 8:</strong> Rights of citizenship of certain persons of Indian origin residing outside India (PIOs).</li>
-      <li><strong>Art 9:</strong> Persons voluntarily acquiring citizenship of a foreign State shall not be citizens of India.</li>
-      <li><strong>Art 10:</strong> Continuance of the rights of citizenship (subject to any law made by Parliament).</li>
-      <li><strong>Art 11:</strong> Parliament has the power to regulate the right of citizenship by law (This led to the <strong>Citizenship Act, 1955</strong>).</li>
-    </ul>
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    <strong>Strategic Exam Insight:</strong> UPSC often tests the distinction between Constitutional provisions and the Citizenship Act, 1955. Remember, the Constitution only defines citizenship <em>at the commencement</em>. All subsequent matters regarding acquisition and loss are governed by the 1955 Act, which has been amended several times (notably in 1986, 2003, 2005, and 2019).
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: square; padding-left: 20px;">
-    <li><strong>Part II, Articles 5-11</strong></li>
-    <li><strong>Single Citizenship:</strong> Borrowed from UK (Westminster model).</li>
-    <li><strong>Acquisition (Citizenship Act, 1955):</strong> Birth, Descent, Registration, Naturalization, Territory Incorporation.</li>
-    <li><strong>Loss:</strong> Renunciation, Termination, Deprivation.</li>
-    <li><strong>Important Amendment:</strong> The Citizenship (Amendment) Act, 2019, provides citizenship to persecuted minorities (Hindu, Sikh, Buddhist, Jain, Parsi, Christian) from Afghanistan, Bangladesh, and Pakistan.</li>
-    <li><strong>Exam Trap:</strong> Article 9 is absolute—India does not allow dual citizenship. If you take a foreign passport, you automatically lose Indian citizenship.</li>
-  </ul>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
+EXPANDED_NOTES_DATA["citizenship"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
 
 *Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
 
-Hello! I am your AI study assistant. 
+Based on standard NDA/CDS/AFCAT patterns:
+1. **Core Concept**: Verify the key terms, dates, and provisions.
+2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
+3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
 
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+*Feel free to proceed with other practice papers or retry in a few moments.*`;
 
-What subject or topic would you like to plan next?
-`;
-
-EXPANDED_NOTES_DATA["goverment-executives"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Executives: PM, CM & Governor
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In the Indian Parliamentary system, the executive is divided into two categories: the <strong>Nominal Executive</strong> (Head of State) and the <strong>Real Executive</strong> (Head of Government). The President and Governor serve as the constitutional heads, while the Prime Minister (PM) and Chief Minister (CM) exercise the actual powers vested in the executive branch. Understanding this distinction is the bedrock of Indian Polity for CDS and NDA exams.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The <strong>Prime Minister</strong> is the leader of the majority party in the Lok Sabha and acts as the bridge between the President and the Cabinet. Their authority is derived from the confidence of the House. Similarly, the <strong>Chief Minister</strong> holds the same position at the state level, acting as the principal advisor to the Governor. The <strong>Governor</strong>, however, occupies a unique position as a dual-role functionary: they are the constitutional head of the state and simultaneously an agent of the Union Government, ensuring that state administration complies with the Constitution.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The relationship between these offices is governed by specific constitutional articles. While the PM and CM are appointed by the President and Governor respectively (based on majority support), the Governor is appointed directly by the President. A critical area for exam questions is the <strong>Discretionary Power</strong> of the Governor, which is significantly wider than that of the President, as the President is bound by the advice of the Council of Ministers in almost all scenarios, whereas the Governor has specific constitutional mandates to act independently.
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Key Structural Comparison</h4>
-  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 0.95em;">
-    <thead>
-      <tr style="background: rgba(255,255,255,0.05);">
-        <th style="padding: 10px; border: 1px solid var(--border);">Feature</th>
-        <th style="padding: 10px; border: 1px solid var(--border);">Union Level</th>
-        <th style="padding: 10px; border: 1px solid var(--border);">State Level</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding: 10px; border: 1px solid var(--border);">Real Executive</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">Prime Minister</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">Chief Minister</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid var(--border);">Nominal Executive</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">President</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">Governor</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid var(--border);">Appointment</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">By President</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">By President</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-    <li><strong>Real vs Nominal:</strong> Real: PM (Union), CM (State); Nominal: President (Union), Governor (State).</li>
-    <li><strong>Pardoning Powers:</strong> President (Art 72 - includes court martial & death sentence); Governor (Art 161 - no power over court martial or death sentence).</li>
-    <li><strong>Appointment Articles:</strong> PM (Art 75), CM (Art 164), Governor (Art 153-155).</li>
-    <li><strong>Discretionary Power:</strong> Governor has "Constitutional Discretion" (e.g., recommending President's Rule under Art 356), whereas the President has only "Situational Discretion."</li>
-    <li><strong>Age Requirement:</strong> PM/CM (if member of Lok Sabha/Assembly: 25; if Rajya Sabha/Council: 30); Governor: 35 years.</li>
-  </ul>
-
-  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-left: 4px solid gold; border-radius: 4px;">
-    <strong>Strategic Exam Tip:</strong> UPSC frequently tests the "Governor's Discretion." Remember: The Governor can reserve a bill for the President's consideration (Art 200). This is a mandatory discretionary power. Do not confuse this with the President, who has no such "reservation" power.
-  </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
+EXPANDED_NOTES_DATA["goverment-executives"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
 
 *Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
 
-Hello! I am your AI study assistant. 
+Based on standard NDA/CDS/AFCAT patterns:
+1. **Core Concept**: Verify the key terms, dates, and provisions.
+2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
+3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
 
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+*Feel free to proceed with other practice papers or retry in a few moments.*`;
 
-What subject or topic would you like to plan next?
-`;
-
-EXPANDED_NOTES_DATA["judiciary"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Integrated Judiciary: SC & HC
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The Indian Judiciary is structured as a <strong>single, integrated hierarchy</strong> of courts. Unlike the federal systems of the USA, where state and federal courts operate independently, India follows a unified system where the Supreme Court (SC) sits at the apex, followed by High Courts (HC) in states, and subordinate courts below them. This integration ensures that the laws of the land are interpreted uniformly across the entire nation.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The <strong>Supreme Court</strong> is the final interpreter of the Constitution and the highest court of appeal. It acts as the guardian of fundamental rights and the arbiter of disputes between the Centre and States. Its jurisdiction is vast, ranging from original jurisdiction (Art 131) to advisory jurisdiction (Art 143), making it the most powerful judicial body in the country.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The <strong>High Courts</strong> function as the constitutional heads of the judiciary at the state level. While they are subordinate to the Supreme Court in terms of appellate hierarchy, they possess wider writ jurisdiction under Article 226 compared to the Supreme Court's Article 32. This is a crucial distinction: the SC can issue writs only for the enforcement of Fundamental Rights, whereas HCs can issue them for "any other purpose" as well.
-  </p>
-
-  <div style="margin: 20px 0; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 6px;">
-    <h4 style="margin-top: 0;">Key Structural Differences</h4>
-    <ul style="list-style-type: square; padding-left: 20px; line-height: 1.8;">
-      <li><strong>Appointment:</strong> Judges of both SC and HC are appointed by the President under the Collegium system.</li>
-      <li><strong>Removal:</strong> Both can be removed by the President only on the grounds of 'proved misbehaviour or incapacity' via a special majority in Parliament.</li>
-      <li><strong>Independence:</strong> Security of tenure, fixed service conditions, and the power to punish for contempt ensure the judiciary remains insulated from executive pressure.</li>
-    </ul>
-  </div>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: none; padding: 0;">
-    <li style="margin-bottom: 8px;"><strong>Supreme Court:</strong> Art 124 (Establishment), Art 131 (Original), Art 132-136 (Appellate), Art 32 (Writ), Art 143 (Advisory).</li>
-    <li style="margin-bottom: 8px;"><strong>High Courts:</strong> Art 214 (Establishment), Art 226 (Writ Jurisdiction - Wider than SC).</li>
-    <li style="margin-bottom: 8px;"><strong>Writs:</strong> 
-      <br><em>Habeas Corpus</em> (To have the body), <em>Mandamus</em> (We command), <em>Prohibition</em> (To forbid), <em>Certiorari</em> (To be certified/quashed), <em>Quo Warranto</em> (By what authority).
-    </li>
-    <li style="margin-bottom: 8px;"><strong>Retirement Age:</strong> SC Judges = 65 years; HC Judges = 62 years.</li>
-    <li style="margin-bottom: 8px;"><strong>Transfer of Judges:</strong> HC Judges can be transferred by the President after consultation with the Chief Justice of India (Art 222).</li>
-  </ul>
-
-  <div style="margin-top: 20px; padding: 12px; background: rgba(255, 215, 0, 0.1); border: 1px solid #ffd700; border-radius: 4px;">
-    <strong>Note: Strategic Tip:</strong> UPSC loves to trap students on the "Writ Jurisdiction" comparison. Remember: <strong>Article 32 is a Fundamental Right itself</strong> (Right to Constitutional Remedies), whereas Article 226 is a constitutional power of the High Court. If a question asks which court has a wider scope for writs, the answer is always the High Court.
-  </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
+EXPANDED_NOTES_DATA["judiciary"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
 
 *Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
 
-Hello! I am your AI study assistant. 
+Based on standard NDA/CDS/AFCAT patterns:
+1. **Core Concept**: Verify the key terms, dates, and provisions.
+2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
+3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
 
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+*Feel free to proceed with other practice papers or retry in a few moments.*`;
 
-What subject or topic would you like to plan next?
-`;
-
-EXPANDED_NOTES_DATA["panchayati-raj"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Local Self-Govt & Panchayati Raj
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Local Self-Government is the management of local affairs by such local bodies who have been elected by the local people. In the Indian context, it represents the third tier of democracy, bringing governance to the grassroots level. The philosophy behind this is "Democratic Decentralization," which ensures that power is not concentrated in the hands of the Union or State governments alone, but is shared with the people who are most affected by local policies.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The evolution of Panchayati Raj in India is a journey from the ancient 'Sabhas' and 'Samitis' to the constitutional status granted in 1992. Post-independence, several committees were formed to suggest models for rural development. The most significant was the Balwant Rai Mehta Committee (1957), which recommended the 'Democratic Decentralization' model. This was first implemented in Nagaur, Rajasthan, on October 2, 1959.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The 73rd and 74th Constitutional Amendment Acts (CAA) are the bedrock of modern local governance. These acts provided constitutional status to Panchayats and Municipalities, making elections mandatory every five years, ensuring reservation for SCs/STs and women, and establishing State Election Commissions and State Finance Commissions to ensure financial and electoral autonomy.
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Evolutionary Committees (Chronological Order)</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 15px;">
-    <li><strong>Balwant Rai Mehta (1957):</strong> Recommended 3-tier system (Gram, Block, District).</li>
-    <li><strong>Ashok Mehta (1977):</strong> Recommended 2-tier system (Zila Parishad & Mandal Panchayat).</li>
-    <li><strong>G.V.K. Rao (1985):</strong> Emphasized the role of bureaucracy; called them "grass without roots."</li>
-    <li><strong>L.M. Singhvi (1986):</strong> Recommended constitutional status for Panchayats.</li>
-  </ul>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li style="margin-bottom: 8px;">• <strong>73rd Amendment:</strong> Part IX, Schedule 11 (29 subjects) - Rural Panchayats.</li>
-    <li style="margin-bottom: 8px;">• <strong>74th Amendment:</strong> Part IXA, Schedule 12 (18 subjects) - Urban Municipalities.</li>
-    <li style="margin-bottom: 8px;">• <strong>Balwant Rai Mehta:</strong> 3-tier system (Gram Panchayat, Panchayat Samiti, Zila Parishad).</li>
-    <li style="margin-bottom: 8px;">• <strong>Contest Age:</strong> 21 years (Minimum age to contest local body elections).</li>
-    <li style="margin-bottom: 8px;">• <strong>Reservation:</strong> 33% (1/3rd) for women (Mandatory); some states have increased this to 50%.</li>
-    <li style="margin-bottom: 8px;">• <strong>Article 243K:</strong> State Election Commission (Conducts elections to Panchayats).</li>
-    <li style="margin-bottom: 8px;">• <strong>Article 243I:</strong> State Finance Commission (Reviews financial position).</li>
-  </ul>
-
-  <div style="background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 6px; margin-top: 20px;">
-    <strong style="color: var(--accent);">Note: Strategic Exam Tip:</strong> 
-    <p style="margin: 5px 0 0 0; font-size: 0.95em;">
-      In CDS/NDA exams, UPSC often tests the difference between the recommendations of the committees. Remember: <strong>Balwant Rai = 3-tier</strong>, <strong>Ashok Mehta = 2-tier</strong>. Also, note that the 73rd/74th amendments are not applicable to certain areas (e.g., Scheduled Areas under 5th Schedule), which are governed by the PESA Act, 1996.
-    </p>
-  </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
+EXPANDED_NOTES_DATA["panchayati-raj"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
 
 *Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
 
-Hello! I am your AI study assistant. 
+Based on standard NDA/CDS/AFCAT patterns:
+1. **Core Concept**: Verify the key terms, dates, and provisions.
+2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
+3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
 
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+*Feel free to proceed with other practice papers or retry in a few moments.*`;
 
-What subject or topic would you like to plan next?
-`;
-
-EXPANDED_NOTES_DATA["governance-emergency"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Emergency Provisions
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The Emergency Provisions are contained in <strong>Part XVIII</strong> of the Constitution of India, from <strong>Articles 352 to 360</strong>. These provisions were incorporated to enable the Central government to meet any abnormal situation effectively. The rationality behind the incorporation of these provisions is to safeguard the sovereignty, unity, integrity, and security of the country, the democratic political system, and the Constitution.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    During an emergency, the federal structure of the Constitution transforms into a <strong>unitary one</strong> without a formal amendment. The Central government becomes all-powerful, and the states go into the total control of the Centre. This unique feature is often described as the "safety valve" of the Indian Constitution, allowing it to survive extreme crises that might otherwise lead to its collapse.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    It is crucial to distinguish between the three types of emergencies: <strong>National Emergency</strong> (based on war, external aggression, or armed rebellion), <strong>President's Rule</strong> (failure of constitutional machinery in states), and <strong>Financial Emergency</strong> (threat to financial stability). Each has distinct triggers, parliamentary approval requirements, and impacts on the Fundamental Rights of citizens.
-  </p>
-
-  <div style="margin-top: 20px;">
-    <h4 style="color: var(--text-primary); font-weight: 600; margin-bottom: 10px;">Comparison Table: Emergency Types</h4>
-    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 0.95em;">
-      <thead>
-        <tr style="background: rgba(255,255,255,0.05);">
-          <th style="padding: 10px; border: 1px solid var(--border);">Type</th>
-          <th style="padding: 10px; border: 1px solid var(--border);">Article</th>
-          <th style="padding: 10px; border: 1px solid var(--border);">Approval Time</th>
-          <th style="padding: 10px; border: 1px solid var(--border);">Majority Required</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td style="padding: 10px; border: 1px solid var(--border);">National</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">352</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">1 Month</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Special Majority</td>
-        </tr>
-        <tr>
-          <td style="padding: 10px; border: 1px solid var(--border);">State</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">356</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">2 Months</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Simple Majority</td>
-        </tr>
-        <tr>
-          <td style="padding: 10px; border: 1px solid var(--border);">Financial</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">360</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">2 Months</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Simple Majority</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-    <li><strong>Part XVIII, Articles 352-360</strong></li>
-    <li><strong>National Emergency (Art 352):</strong> Approved within 1 month by Special Majority. Can be extended indefinitely by 6-month increments.</li>
-    <li><strong>State Emergency (Art 356 & 365):</strong> Approved within 2 months by Simple Majority. Max duration 3 years.</li>
-    <li><strong>Financial Emergency (Art 360):</strong> Approved within 2 months by Simple Majority. Never declared in India.</li>
-    <li><strong>FR Impact:</strong> Art 358 (suspends Art 19 automatically during external emergency). Art 359 (President suspends enforcement of FRs, but <strong>Art 20 & 21 can never be suspended</strong>).</li>
-    <li><strong>44th Amendment (1978):</strong> Changed "Internal Disturbance" to "Armed Rebellion" for Art 352.</li>
-  </ul>
-
-  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-radius: 6px; border: 1px solid rgba(255, 215, 0, 0.3);">
-    <strong style="color: #ffd700;">Note: Exam Strategy Tip:</strong> UPSC often tests the difference between Art 358 and 359. Remember: 358 is automatic and applies only to Art 19, while 359 requires a Presidential Order and can cover any FR except 20 and 21. Always check if the question specifies "External" or "Internal" emergency, as Art 19 suspension only happens for External.
-  </div>
-</div>
-<!-- Visuals and High Yield appended -->
-<div class="mermaid">
-flowchart TD
-    A[Emergency Provisions (Arts 352‑360)] --> B[Types of Emergency]
-    B --> C[National Emergency (Art 352)]
-    B --> D[President's Rule – State Emergency (Art 356)]
-    B --> E[Financial Emergency (Art 360)]
-
-    C --> C1[Trigger: War, external aggression, armed rebellion]
-    C --> C2[President issues proclamation]
-    C --> C3[Parliament must approve within 1 month]
-    C --> C4[Initial period 6 months, extendable]
-
-    D --> D1[Trigger: Failure of constitutional machinery in a state]
-    D --> D2[President issues proclamation on Governor’s advice]
-    D --> D3[State legislature may be dissolved or kept under President’s rule]
-
-    E --> E1[Trigger: Threat to financial stability of India]
-    E --> E2[President issues proclamation on Council of Ministers’ advice]
-    E --> E3[All money bills require Parliament’s approval]
-
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style C fill:#bbf,stroke:#333,stroke-width:1px
-    style D fill:#bbf,stroke:#333,stroke-width:1px
-    style E fill:#bbf,stroke:#333,stroke-width:1px
-</div>
-`;
-
-EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Straits, Canals, Deserts & Seas
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In the context of Defence examinations like CDS and NDA, Geography is not just about memorizing maps; it is about understanding the <strong>strategic connectivity</strong> of the globe. A <strong>Strait</strong> is a narrow, naturally formed waterway that connects two larger bodies of water, acting as a "chokepoint" for global trade and naval movement. Conversely, a <strong>Canal</strong> is an artificial waterway constructed by humans to bypass long, treacherous routes, effectively acting as a shortcut for maritime logistics.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Understanding these features requires a spatial approach. When studying straits, always identify the two landmasses they separate and the two water bodies they connect. For instance, the Strait of Gibraltar separates Europe (Spain) from Africa (Morocco) and connects the Atlantic Ocean to the Mediterranean Sea. This is a classic UPSC favorite because of its geopolitical significance in controlling naval access to the Mediterranean.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Deserts are defined by their aridity, not just temperature. While we often associate deserts with heat (like the Sahara), many are "cold deserts" (like the Gobi), formed due to rain-shadow effects or high altitude. In exams, focus on the <strong>location</strong> (continent/country) and the <strong>type</strong> (Hot/Cold/Coastal). For example, the Atacama is the driest non-polar desert in the world, located in South America, primarily due to the cold Humboldt Current which prevents moisture from rising.
-  </p>
-
-  <div style="margin: 20px 0;">
-    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
-      <thead>
-        <tr style="background: rgba(255,255,255,0.05);">
-          <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Feature</th>
-          <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Key Examples</th>
-          <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Strategic Importance</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td style="padding: 10px; border: 1px solid var(--border);">Straits</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Malacca, Hormuz, Bering</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Naval chokepoints; trade routes.</td>
-        </tr>
-        <tr>
-          <td style="padding: 10px; border: 1px solid var(--border);">Canals</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Suez, Panama, Kiel</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Drastic reduction in shipping distance.</td>
-        </tr>
-        <tr>
-          <td style="padding: 10px; border: 1px solid var(--border);">Deserts</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Sahara, Atacama, Gobi</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Climate indicators; resource zones.</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-    <li><strong>Straits:</strong> 
-      <ul>
-        <li><strong>Malacca:</strong> Connects Andaman Sea & South China Sea (World's busiest).</li>
-        <li><strong>Gibraltar:</strong> Connects Atlantic & Mediterranean (Key to Mediterranean access).</li>
-        <li><strong>Hormuz:</strong> Connects Persian Gulf & Gulf of Oman (Vital for global oil supply).</li>
-        <li><strong>Bab-el-Mandeb:</strong> Connects Red Sea & Gulf of Aden (Gateway to Suez).</li>
-        <li><strong>Bering:</strong> Connects Arctic & Pacific (Separates Asia from North America).</li>
-      </ul>
-    </li>
-    <li><strong>Canals:</strong>
-      <ul>
-        <li><strong>Suez:</strong> Connects Mediterranean & Red Sea (No locks, sea-level canal).</li>
-        <li><strong>Panama:</strong> Connects Atlantic & Pacific (Uses a lock system).</li>
-      </ul>
-    </li>
-    <li><strong>Deserts:</strong>
-      <ul>
-        <li><strong>Sahara:</strong> Largest hot desert (Africa).</li>
-        <li><strong>Atacama:</strong> Driest desert (South America - Chile).</li>
-        <li><strong>Gobi:</strong> Largest cold desert in Asia (China/Mongolia).</li>
-      </ul>
-    </li>
-  </ul>
-
-  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-left: 4px solid gold;">
-    <strong>Strategic Tip:</strong> UPSC often asks to arrange straits from North to South or East to West. Always visualize the map. For example, when moving from the Indian Ocean to the Mediterranean, the sequence is: <em>Bab-el-Mandeb -> Red Sea -> Suez Canal -> Mediterranean Sea -> Strait of Gibraltar.</em>
-  </div>
-</div>
-
-<div class="revision-card" style="background: rgba(20,20,30,0.45); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-top: 24px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); backdrop-filter: blur(8px);">
-  <h3 style="color: var(--accent); margin-bottom: 18px; border-bottom: 2px solid rgba(249, 115, 22, 0.3); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 700; font-family: var(--font-logo);">
-    <span></span> Global Geography Key Intersections & Chokepoints
-  </h3>
-  
-  <div style="margin-bottom: 20px;">
-    <h4 style="color: var(--accent); margin-bottom: 8px; font-size: 15px; font-weight: 600;">1. Countries passing through the Equator (0° Latitude)</h4>
-    <p style="font-size: 13.5px; line-height: 1.5; color: var(--text-secondary); margin-bottom: 8px;">
-      The equator intersects 13 countries globally across three continents:
-    </p>
-    <div style="background: rgba(10,10,15,0.3); border: 1px solid var(--border); padding: 12px; border-radius: 6px; font-size: 13.5px; color: var(--text-secondary); line-height: 1.6;">
-      • <strong>South America:</strong> Ecuador, Colombia, Brazil<br>
-      • <strong>Africa:</strong> Gabon, Republic of the Congo, Democratic Republic of the Congo, Uganda, Kenya, Somalia, Sao Tome and Principe<br>
-      • <strong>Asia:</strong> Maldives, Indonesia, Kiribati
-    </div>
-  </div>
-
-  <div style="margin-bottom: 20px;">
-    <h4 style="color: var(--info); margin-bottom: 8px; font-size: 15px; font-weight: 600;">2. World Grasslands Mapping</h4>
-    <p style="font-size: 13.5px; line-height: 1.5; color: var(--text-secondary); margin-bottom: 8px;">
-      Grasslands are divided into tropical and temperate zones. UPSC regularly tests their locations:
-    </p>
-    <table style="width: 100%; border-collapse: collapse; color: var(--text-secondary); font-size: 13px; text-align: left; margin-top: 8px;">
-      <thead>
-        <tr style="border-bottom: 2px solid var(--border); background: rgba(255,255,255,0.04);">
-          <th style="padding: 8px; font-weight: 600; border: 1px solid var(--border); color: var(--text-primary);">Grassland Name</th>
-          <th style="padding: 8px; font-weight: 600; border: 1px solid var(--border); color: var(--text-primary);">Region / Location</th>
-          <th style="padding: 8px; font-weight: 600; border: 1px solid var(--border); color: var(--text-primary);">Type</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr style="border-bottom: 1px solid var(--border);">
-          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Prairies</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">North America (USA & Canada)</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">Temperate</td>
-        </tr>
-        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
-          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Pampas</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">South America (Argentina)</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">Temperate</td>
-        </tr>
-        <tr style="border-bottom: 1px solid var(--border);">
-          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Savanna</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">Central & East Africa</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">Tropical</td>
-        </tr>
-        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
-          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Velds</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">Southern Africa (South Africa)</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">Temperate</td>
-        </tr>
-        <tr style="border-bottom: 1px solid var(--border);">
-          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Steppes</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">Eurasia (Eastern Europe & Central Asia)</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">Temperate</td>
-        </tr>
-        <tr style="border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02);">
-          <td style="padding: 8px; border: 1px solid var(--border); font-weight: 600; color: var(--text-primary);">Downs</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">Australia</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">Temperate</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 15px;">
-    <div style="background: rgba(10,10,15,0.3); border: 1px solid var(--border); padding: 14px; border-radius: 8px;">
-      <h4 style="color: var(--accent); margin-bottom: 6px; font-size: 14.5px; font-weight: 600;"> Aral Sea Boundaries</h4>
-      <p style="font-size: 13px; line-height: 1.5; color: var(--text-secondary);">
-        The <strong>Aral Sea</strong> is actually a landlocked endorheic lake. It lies in Central Asia, directly positioned between <strong>Kazakhstan</strong> to the north and <strong>Uzbekistan</strong> to the south. Once one of the largest lakes in the world, it has severely shrunk due to Soviet irrigation diversions.
-      </p>
-    </div>
-    
-    <div style="background: rgba(10,10,15,0.3); border: 1px solid var(--border); padding: 14px; border-radius: 8px;">
-      <h4 style="color: var(--info); margin-bottom: 6px; font-size: 14.5px; font-weight: 600;"> Strait of Gibraltar</h4>
-      <p style="font-size: 13px; line-height: 1.5; color: var(--text-secondary);">
-        A key maritime choke point connecting the <strong>Atlantic Ocean</strong> with the <strong>Mediterranean Sea</strong>. It separates the European continent (<strong>Spain</strong>) from the African continent (<strong>Morocco</strong>). The narrowest gap is only 14.3 kilometers wide.
-      </p>
-    </div>
-  </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
+EXPANDED_NOTES_DATA["governance-emergency"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
 
 *Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
 
-Hello! I am your AI study assistant. 
+Based on standard NDA/CDS/AFCAT patterns:
+1. **Core Concept**: Verify the key terms, dates, and provisions.
+2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
+3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
 
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+*Feel free to proceed with other practice papers or retry in a few moments.*`;
 
-What subject or topic would you like to plan next?
-`;
-
-EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Borders, Capitals & Mapping
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Understanding India's geopolitical landscape is a cornerstone of the Geography syllabus for CDS and NDA. India shares its land borders with seven sovereign nations, creating a complex web of strategic, historical, and cultural interactions. The "Borders" segment requires you to memorize not just the names of the countries, but the specific states they touch, the nature of the terrain, and the historical demarcation lines that define these boundaries.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Mapping is not merely about identifying locations; it is about spatial awareness. For the exam, you must visualize the "Seven Sisters" of the Northeast, the coastal states, and the strategic chokepoints in the Indian Ocean Region (IOR). UPSC frequently tests the "proximity" of capitals to borders or the sequence of states along a specific international boundary. Always correlate the political map with the physical map (e.g., how the Himalayas act as a natural barrier with China vs. the porous nature of the Indo-Nepal border).
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    When studying capitals and borders, focus on the "Strategic Depth." For instance, the Siliguri Corridor (Chicken's Neck) is a vital mapping point. Similarly, understanding the maritime boundaries—specifically the Exclusive Economic Zone (EEZ) and the UNCLOS (United Nations Convention on the Law of the Sea) guidelines—is essential for answering questions related to India's maritime neighbors like Sri Lanka, Maldives, and Indonesia.
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Key Border Data & Demarcation Lines</h4>
-  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
-    <tr style="background: rgba(255,255,255,0.05);">
-      <th style="padding: 10px; border: 1px solid var(--border);">Country</th>
-      <th style="padding: 10px; border: 1px solid var(--border);">Border Length (Approx)</th>
-      <th style="padding: 10px; border: 1px solid var(--border);">Demarcation Line</th>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">Bangladesh</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">4,096 km (Longest)</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Radcliffe Line</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">China</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">3,488 km</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">MacMahon Line (LAC)</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">Pakistan</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">3,323 km</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Radcliffe Line (LOC)</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">Afghanistan</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">106 km (Shortest)</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Durand Line</td>
-    </tr>
-  </table>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: square; padding-left: 20px; line-height: 1.8;">
-    <li><strong>Mnemonic for Neighbors:</strong> " बचपन में MBA किया" (Bangladesh, China, Pakistan, Nepal, Myanmar, Bhutan, Afghanistan).</li>
-    <li><strong>Strategic Chokepoints:</strong> Malacca Strait (Gateway to South China Sea), Hormuz (Oil transit), Hambantota (Sri Lanka - Debt trap/Strategic port).</li>
-    <li><strong>Exam Trap:</strong> Do not confuse the "Radcliffe Line" (India-Pakistan/India-Bangladesh) with the "Durand Line" (India-Afghanistan/Pakistan-Afghanistan).</li>
-    <li><strong>State-Border Fact:</strong> West Bengal is the only state that touches three countries: Bangladesh, Nepal, and Bhutan.</li>
-    <li><strong>Maritime Neighbors:</strong> India shares maritime boundaries with 7 countries: Maldives, Sri Lanka, Indonesia, Thailand, Myanmar, Bangladesh, and Pakistan.</li>
-  </ul>
-
-  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-radius: 5px; border-left: 4px solid gold;">
-    <strong style="color: gold;">Expert Tip:</strong> UPSC loves asking about the "Tri-junctions." Memorize the tri-junctions of India-China-Nepal (Lipulekh) and India-China-Bhutan (Doklam) as they are frequently in the news for geopolitical tensions.
-  </div>
-</div>
-<!-- Visuals and High Yield appended -->
-### 🤖 Guru Dronacharya (Local Mode)
+EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
 
 *Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
 
-Hello! I am your AI study assistant. 
+Based on standard NDA/CDS/AFCAT patterns:
+1. **Core Concept**: Verify the key terms, dates, and provisions.
+2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
+3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
 
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
+*Feel free to proceed with other practice papers or retry in a few moments.*`;
 
-What subject or topic would you like to plan next?
-`;
+EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `### 📝 Exam Question Analysis (UPSC Local Engine)
+
+*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
+
+Based on standard NDA/CDS/AFCAT patterns:
+1. **Core Concept**: Verify the key terms, dates, and provisions.
+2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
+3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
+
+*Feel free to proceed with other practice papers or retry in a few moments.*`;
 
 EXPANDED_NOTES_DATA["econ-poverty-employment"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">

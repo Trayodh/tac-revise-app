@@ -9,7 +9,6 @@ if (!fs.existsSync(destDir)) {
   fs.mkdirSync(destDir);
 }
 
-// Copy simple files
 const filesToCopy = [
   'index.html',
   'index.css',
@@ -29,7 +28,8 @@ const filesToCopy = [
   'auth_logic.js',
   'notifications_bundle.js',
   'lecture_mode.js',
-  'sw.js'
+  'sw.js',
+  'extra_bank_data.js'
 ];
 
 const patternsToCopy = [
