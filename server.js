@@ -835,82 +835,62 @@ ${textPrompt}`;
           }
         }
         
-        // Translate Gemini contents to OpenAI messages format for Cerebras
-        let messages = [];
-        if (systemInstruction && systemInstruction.parts && systemInstruction.parts[0].text) {
-          messages.push({ role: "system", content: systemInstruction.parts[0].text });
+        const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
+        if (!GEMINI_KEY) {
+          console.warn('[PROXY] Gemini API key missing.');
+          throw new Error("Gemini API key missing");
         }
-        
-        if (contents && Array.isArray(contents)) {
-          contents.forEach(content => {
-            if (content.parts) {
-              let textContent = content.parts.map(p => p.text || '').join('\n');
-              messages.push({
-                role: content.role === 'model' ? 'assistant' : 'user',
-                content: textContent
-              });
-            }
-          });
-        }
-        
-        console.log(`[PROXY] Sending request to Cerebras API using model: gpt-oss-120b...`);
-        const targetUrl = `https://api.cerebras.ai/v1/chat/completions`;
-        const reqHeaders = { 
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${CEREBRAS_API_KEY}`
-        };
 
-        const startTime = Date.now();
-        const requestPayload = { 
-          model: 'gpt-oss-120b',
-          messages: messages,
-          temperature: (generationConfig && generationConfig.temperature) ? generationConfig.temperature : 0.1,
-          max_completion_tokens: 1500
-        };
-        
-        if (generationConfig && generationConfig.response_mime_type === 'application/json') {
-          requestPayload.response_format = { type: "json_object" };
+        let targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`;
+        if (stream) {
+          targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse&key=${GEMINI_KEY}`;
         }
+
+        const geminiPayload = {
+          contents,
+          generationConfig,
+          tools,
+          systemInstruction
+        };
 
         let apiResponse = null;
-        let data = null;
         let success = false;
         
         try {
+          console.log(`[PROXY] Sending request to Gemini API: ${model}, Stream: ${!!stream}`);
           apiResponse = await fetch(targetUrl, {
             method: 'POST',
-            headers: reqHeaders,
-            body: JSON.stringify(requestPayload)
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(geminiPayload)
           });
           
-          const duration = ((Date.now() - startTime) / 1000).toFixed(2);
-          console.log(`[PROXY] Cerebras API returned status: ${apiResponse.status} in ${duration}s`);
-          
           if (apiResponse.ok) {
-            const rawData = await apiResponse.json();
             success = true;
-            
-            // Map Cerebras response back to Gemini format so frontend works unchanged
-            const aiText = rawData.choices?.[0]?.message?.content || "";
-            data = {
-              candidates: [
-                {
-                  content: { parts: [{ text: aiText }] },
-                  finishReason: "STOP"
-                }
-              ]
-            };
           } else {
-            data = await apiResponse.json();
-            console.error(`[PROXY] Cerebras API error:`, JSON.stringify(data));
+            console.error(`[PROXY] Gemini API Error Status:`, apiResponse.status);
           }
         } catch (err) {
-          console.error(`[PROXY] Exception during request to Cerebras API:`, err);
+          console.error(`[PROXY] Exception during request to Gemini API:`, err);
         }
         
         if (success && apiResponse) {
-          res.writeHead(apiResponse.status, { 'Content-Type': 'application/json' });
-          res.end(JSON.stringify(data));
+          if (stream) {
+            res.writeHead(200, {
+              'Content-Type': 'text/event-stream',
+              'Cache-Control': 'no-cache',
+              'Connection': 'keep-alive'
+            });
+            for await (const chunk of apiResponse.body) {
+              res.write(chunk);
+            }
+            res.end();
+            return;
+          } else {
+            const data = await apiResponse.json();
+            res.writeHead(200, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify(data));
+            return;
+          }
         } else {
           console.warn('[PROXY] Gemini API returned error/quota-exceeded. Serving premium local fallback.');
           
