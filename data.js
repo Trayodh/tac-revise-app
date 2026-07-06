@@ -116659,7 +116659,7 @@ const NOTES_DATABASE = {
           {
             "id": "data-interpretation",
             "title": "Data Interpretation: Tables, Bar & Pie Charts",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -116730,7 +116730,7 @@ const NOTES_DATABASE = {
           {
             "id": "lines-angles-triangles",
             "title": "Lines, Angles & Triangles",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -116738,7 +116738,7 @@ const NOTES_DATABASE = {
           {
             "id": "circles-polygons",
             "title": "Circles & Polygons",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -116752,7 +116752,7 @@ const NOTES_DATABASE = {
           {
             "id": "area-perimeter",
             "title": "2D Figures: Area & Perimeter",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -116760,7 +116760,7 @@ const NOTES_DATABASE = {
           {
             "id": "surface-area-volume",
             "title": "3D Solids: Surface Area & Volume",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -116774,7 +116774,7 @@ const NOTES_DATABASE = {
           {
             "id": "percentages-profit-loss",
             "title": "Percentages, Profit & Loss",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -116782,7 +116782,7 @@ const NOTES_DATABASE = {
           {
             "id": "ratios-averages",
             "title": "Ratios, Proportions & Averages",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -116790,7 +116790,7 @@ const NOTES_DATABASE = {
           {
             "id": "time-distance",
             "title": "Time, Speed, Distance & Work",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -116829,63 +116829,63 @@ const NOTES_DATABASE = {
           {
             "id": "parts-of-speech",
             "title": "Parts of Speech",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "tenses-complete",
             "title": "Tenses & Consistency",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "subject-verb-agreement",
             "title": "Subject-Verb Agreement",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "sentence-structure",
             "title": "Sentence Structure & Parallelism",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "voice-conversion",
             "title": "Active & Passive Voice",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "narration-speech",
             "title": "Direct & Indirect Speech",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "modifiers",
             "title": "Modifiers: Misplaced & Dangling",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "punctuation-basics",
             "title": "Punctuation Basics",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "transformation-sentences",
             "title": "Transformation of Sentences",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -116898,14 +116898,14 @@ const NOTES_DATABASE = {
           {
             "id": "synonyms-antonyms-detailed",
             "title": "High-Frequency Synonyms/Antonyms",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "one-word-substitution",
             "title": "One Word Substitutions",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -116913,21 +116913,21 @@ const NOTES_DATABASE = {
           {
             "id": "idioms-phrases",
             "title": "Idioms & Phrases",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "phrasal-verbs",
             "title": "Phrasal Verbs",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "reading-comprehension",
             "title": "Reading Comprehension",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -116940,28 +116940,28 @@ const NOTES_DATABASE = {
           {
             "id": "error-detection",
             "title": "Spotting Errors",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "sentence-improvement",
             "title": "Sentence Improvement",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ordering-rearrangement",
             "title": "Ordering of Words & Sentences",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "fill-blanks-cloze",
             "title": "Fill in the Blanks & Cloze Test",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117007,7 +117007,7 @@ const NOTES_DATABASE = {
           {
             "id": "citizenship",
             "title": "Citizenship (Art 5-11)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117034,21 +117034,21 @@ const NOTES_DATABASE = {
           {
             "id": "goverment-executives",
             "title": "Executives: PM, CM & Governor",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "judiciary",
             "title": "Integrated Judiciary: SC & HC",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "panchayati-raj",
             "title": "Local Self-Govt & Panchayati Raj",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117061,35 +117061,35 @@ const NOTES_DATABASE = {
           {
             "id": "amendments-parts",
             "title": "Constitutional Amendments, Parts & Schedules",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "important-articles",
             "title": "High-Yield Special Articles Cheat Sheet",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "positions-tenures",
             "title": "Elections, Appointments & Terms of Office",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "constitutional-bodies",
             "title": "Constitutional & Non-Constitutional Bodies",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "governance-emergency",
             "title": "Emergency Provisions",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117102,14 +117102,14 @@ const NOTES_DATABASE = {
           {
             "id": "polity-federal-structure",
             "title": "Federal Structure & Centre-State Relations",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "polity-rpa",
             "title": "Representation of People Act & Election Commission",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117127,7 +117127,7 @@ const NOTES_DATABASE = {
           {
             "id": "what-is-history",
             "title": "What is History?",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117135,7 +117135,7 @@ const NOTES_DATABASE = {
           {
             "id": "sources-indian-history",
             "title": "Sources of Indian History",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117143,7 +117143,7 @@ const NOTES_DATABASE = {
           {
             "id": "dating-systems",
             "title": "Dating Systems",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117157,7 +117157,7 @@ const NOTES_DATABASE = {
           {
             "id": "stone-age",
             "title": "Stone Age",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117165,7 +117165,7 @@ const NOTES_DATABASE = {
           {
             "id": "chalcolithic-age",
             "title": "Chalcolithic Age",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117173,7 +117173,7 @@ const NOTES_DATABASE = {
           {
             "id": "rock-art",
             "title": "Rock Art",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117187,7 +117187,7 @@ const NOTES_DATABASE = {
           {
             "id": "indus-valley-civilization",
             "title": "Indus Valley Civilization",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117195,7 +117195,7 @@ const NOTES_DATABASE = {
           {
             "id": "vedic-age",
             "title": "Vedic Age",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117203,7 +117203,7 @@ const NOTES_DATABASE = {
           {
             "id": "mahajanapadas",
             "title": "Mahajanapadas",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117211,7 +117211,7 @@ const NOTES_DATABASE = {
           {
             "id": "magadha-expansion",
             "title": "Magadha Expansion",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117219,7 +117219,7 @@ const NOTES_DATABASE = {
           {
             "id": "buddhism-jainism",
             "title": "Buddhism & Jainism",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117227,7 +117227,7 @@ const NOTES_DATABASE = {
           {
             "id": "mauryan-period",
             "title": "Mauryan Period",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117235,7 +117235,7 @@ const NOTES_DATABASE = {
           {
             "id": "post-mauryan-india",
             "title": "Post-Mauryan India",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117243,7 +117243,7 @@ const NOTES_DATABASE = {
           {
             "id": "gupta-period",
             "title": "Gupta Period",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117251,7 +117251,7 @@ const NOTES_DATABASE = {
           {
             "id": "south-indian-kingdoms",
             "title": "South Indian Kingdoms",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117259,7 +117259,7 @@ const NOTES_DATABASE = {
           {
             "id": "ancient-indian-culture",
             "title": "Ancient Indian Culture",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117273,7 +117273,7 @@ const NOTES_DATABASE = {
           {
             "id": "early-medieval-india",
             "title": "Early Medieval India",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117281,7 +117281,7 @@ const NOTES_DATABASE = {
           {
             "id": "delhi-sultanate",
             "title": "Delhi Sultanate",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117289,7 +117289,7 @@ const NOTES_DATABASE = {
           {
             "id": "vijayanagara-empire",
             "title": "Vijayanagara Empire",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117297,7 +117297,7 @@ const NOTES_DATABASE = {
           {
             "id": "bahmani-deccan-sultanates",
             "title": "Bahmani Kingdom & Deccan Sultanates",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117305,7 +117305,7 @@ const NOTES_DATABASE = {
           {
             "id": "mughal-empire",
             "title": "Mughal Empire",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117313,7 +117313,7 @@ const NOTES_DATABASE = {
           {
             "id": "marathas",
             "title": "Marathas",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117321,7 +117321,7 @@ const NOTES_DATABASE = {
           {
             "id": "bhakti-movement",
             "title": "Bhakti Movement",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117329,7 +117329,7 @@ const NOTES_DATABASE = {
           {
             "id": "sufi-movement",
             "title": "Sufi Movement",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117337,7 +117337,7 @@ const NOTES_DATABASE = {
           {
             "id": "sikh-history",
             "title": "Sikh History",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117351,7 +117351,7 @@ const NOTES_DATABASE = {
           {
             "id": "european-arrival",
             "title": "European Arrival",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117359,7 +117359,7 @@ const NOTES_DATABASE = {
           {
             "id": "british-expansion",
             "title": "British Expansion",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117367,7 +117367,7 @@ const NOTES_DATABASE = {
           {
             "id": "economic-impact-british",
             "title": "Economic Impact of British Rule",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117375,7 +117375,7 @@ const NOTES_DATABASE = {
           {
             "id": "socio-religious-reform",
             "title": "Socio-Religious Reform Movements",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117383,7 +117383,7 @@ const NOTES_DATABASE = {
           {
             "id": "revolt-1857",
             "title": "Revolt of 1857",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117391,7 +117391,7 @@ const NOTES_DATABASE = {
           {
             "id": "governor-generals-viceroys",
             "title": "Governor-Generals & Viceroys",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117399,7 +117399,7 @@ const NOTES_DATABASE = {
           {
             "id": "constitutional-development",
             "title": "Constitutional Development",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117407,7 +117407,7 @@ const NOTES_DATABASE = {
           {
             "id": "freedom-movement",
             "title": "Freedom Movement",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117415,7 +117415,7 @@ const NOTES_DATABASE = {
           {
             "id": "post-independence-consolidation",
             "title": "Post-Independence Consolidation",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117429,7 +117429,7 @@ const NOTES_DATABASE = {
           {
             "id": "revolutions",
             "title": "Revolutions",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117437,7 +117437,7 @@ const NOTES_DATABASE = {
           {
             "id": "world-war-i",
             "title": "World War I",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117445,7 +117445,7 @@ const NOTES_DATABASE = {
           {
             "id": "interwar-period",
             "title": "Interwar Period",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117453,7 +117453,7 @@ const NOTES_DATABASE = {
           {
             "id": "world-war-ii",
             "title": "World War II",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117461,7 +117461,7 @@ const NOTES_DATABASE = {
           {
             "id": "cold-war",
             "title": "Cold War",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117469,7 +117469,7 @@ const NOTES_DATABASE = {
           {
             "id": "international-institutions",
             "title": "International Institutions",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117483,7 +117483,7 @@ const NOTES_DATABASE = {
           {
             "id": "architecture",
             "title": "Architecture",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117491,7 +117491,7 @@ const NOTES_DATABASE = {
           {
             "id": "paintings",
             "title": "Paintings",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117499,7 +117499,7 @@ const NOTES_DATABASE = {
           {
             "id": "dance-music",
             "title": "Dance & Music",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117507,7 +117507,7 @@ const NOTES_DATABASE = {
           {
             "id": "literature",
             "title": "Literature",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117515,7 +117515,7 @@ const NOTES_DATABASE = {
           {
             "id": "religion-festivals",
             "title": "Religion & Festivals",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117523,7 +117523,7 @@ const NOTES_DATABASE = {
           {
             "id": "heritage-sites",
             "title": "Heritage Sites",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117537,7 +117537,7 @@ const NOTES_DATABASE = {
           {
             "id": "history-pyq-trends-topic",
             "title": "History PYQ Trends (NDA/CDS)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true,
             "hasDetailedNotes": true
@@ -117556,42 +117556,42 @@ const NOTES_DATABASE = {
           {
             "id": "universe-solar-system",
             "title": "The Universe & Solar System",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "earth-atmosphere",
             "title": "Earth Structure & Atmosphere",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "climatology-clouds",
             "title": "Climatology: Climatic Zones & Clouds",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "geomorphology-rocks",
             "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "world-geography-mountains",
             "title": "World Geography: Mountains, Forests & Rivers",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "world-geography-straits-deserts",
             "title": "Straits, Canals, Deserts & Seas",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117604,42 +117604,42 @@ const NOTES_DATABASE = {
           {
             "id": "syl-geog",
             "title": "Indian Geography (Rivers, Passes & Soils)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "india-forests-wetlands",
             "title": "Forests, Trees & Wetlands of India",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "india-resources-farming",
             "title": "Mineral Resources & Types of Farming",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "india-transport-routes",
             "title": "Transport Routes: Highways & Waterways",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "india-national-parks",
             "title": "National Parks of India (Map Guide)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "mapping-borders-capitals",
             "title": "Borders, Capitals & Mapping",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117652,14 +117652,14 @@ const NOTES_DATABASE = {
           {
             "id": "geog-industries",
             "title": "Major Industries & Industrial Corridors of India",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "geog-geopolitics",
             "title": "Geopolitical Flashpoints & Indo-Pacific",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117697,7 +117697,7 @@ const NOTES_DATABASE = {
           {
             "id": "econ-poverty-employment",
             "title": "Poverty, Employment & Agriculture",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117723,35 +117723,35 @@ const NOTES_DATABASE = {
           {
             "id": "econ-budget-fiscal",
             "title": "Government Budget, GST & Fiscal Policy",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "econ-trade-bop",
             "title": "Trade Policy & Balance of Payments",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "econ-reforms",
             "title": "LPG Reforms, NITI Aayog & Financial Institutions",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "five-year-plans",
             "title": "Economic Planning & Five-Year Plans",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "external-sector-institutions",
             "title": "IMF, WTO & Balance of Payments",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117764,7 +117764,7 @@ const NOTES_DATABASE = {
           {
             "id": "econ-govt-schemes",
             "title": "Key Welfare Schemes & Financial Inclusion",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117821,14 +117821,14 @@ const NOTES_DATABASE = {
           {
             "id": "physics-sound",
             "title": "Sound Waves & Acoustics",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "physics-em-waves",
             "title": "Electromagnetic Waves & Spectrum",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117841,7 +117841,7 @@ const NOTES_DATABASE = {
           {
             "id": "physics-heat",
             "title": "Thermodynamics & Heat Transfer",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117854,7 +117854,7 @@ const NOTES_DATABASE = {
           {
             "id": "physics-electricity-magnetism",
             "title": "Electricity, Circuits & Magnetism",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117867,14 +117867,14 @@ const NOTES_DATABASE = {
           {
             "id": "physics-nuclear-basics",
             "title": "Nuclear Physics & Radioactivity",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "physics-units-everyday",
             "title": "SI Units & Everyday Physics",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117931,14 +117931,14 @@ const NOTES_DATABASE = {
           {
             "id": "metals-alloys",
             "title": "Metals, Ores, Alloys & Metallurgy",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "reactivity-series",
             "title": "Reactivity Series & Displacement",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117951,14 +117951,14 @@ const NOTES_DATABASE = {
           {
             "id": "carbon-compounds",
             "title": "Carbon & its Compounds",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "chemistry-numericals",
             "title": "Mole Concept & Concentration Terms",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -117971,14 +117971,14 @@ const NOTES_DATABASE = {
           {
             "id": "chemistry-everyday-fertilisers",
             "title": "Everyday Chemistry, Fertilisers & Fuels",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "environmental-chemistry",
             "title": "Environmental Chemistry & Pollution",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118029,7 +118029,7 @@ const NOTES_DATABASE = {
           {
             "id": "immunity-vaccines",
             "title": "Immunity & Vaccines",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118042,14 +118042,14 @@ const NOTES_DATABASE = {
           {
             "id": "plant-kingdom",
             "title": "Plant Kingdom Classification",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "animal-kingdom",
             "title": "Animal Kingdom Classification",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118062,7 +118062,7 @@ const NOTES_DATABASE = {
           {
             "id": "plant-reproduction",
             "title": "Plant Reproduction & Hormones",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118075,7 +118075,7 @@ const NOTES_DATABASE = {
           {
             "id": "biology-ecology-basics",
             "title": "Ecology Basics & Pyramids",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118107,7 +118107,7 @@ const NOTES_DATABASE = {
           {
             "id": "defence-organisations-weapons",
             "title": "Defence Organisations, Weapons & Agreements",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118154,7 +118154,7 @@ const NOTES_DATABASE = {
           {
             "id": "syl-afcat-spatial",
             "title": "Spatial & Non-Verbal Reasoning (AFCAT)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118167,70 +118167,70 @@ const NOTES_DATABASE = {
           {
             "id": "afcat-r-analogy",
             "title": "Ch.1 — Analogy (Verbal Reasoning)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-classification",
             "title": "Ch.2 — Classification / Odd One Out (Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-series",
             "title": "Ch.3 — Series Completion (Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-coding",
             "title": "Ch.4 — Coding and Decoding (Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-directions",
             "title": "Ch.5 — Direction Sense Test (Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-clock-calendar",
             "title": "Ch.6 — Clock and Calendar (Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-venn",
             "title": "Ch.7 — Logical Venn Diagrams (Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-syllogism",
             "title": "Ch.8 — Syllogism (Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-conclusions",
             "title": "Ch.9 — Statements and Conclusions (Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-assumptions",
             "title": "Ch.10 — Statements and Assumptions (Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118243,49 +118243,49 @@ const NOTES_DATABASE = {
           {
             "id": "afcat-r-fig-analogy",
             "title": "Ch.11 — Figure Analogy (Non-Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-fig-class-series",
             "title": "Ch.12&13 — Figure Classification & Series (Non-Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-fig-completion",
             "title": "Ch.14 — Figure/Pattern Completion (Non-Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-embedded",
             "title": "Ch.15 — Embedded Figures (Non-Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-dot",
             "title": "Ch.16 — Dot Situation (Non-Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-cube-dice",
             "title": "Ch.17 — Cube and Dice (Non-Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "afcat-r-fig-coding",
             "title": "Ch.18 — Figure Coding (Non-Verbal)",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118303,28 +118303,28 @@ const NOTES_DATABASE = {
           {
             "id": "ca-schemes",
             "title": "Major Government Schemes",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-relations",
             "title": "India's International Relations & Forums",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-policies",
             "title": "National Policies & Missions",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-summits",
             "title": "Major International Summits",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118337,42 +118337,42 @@ const NOTES_DATABASE = {
           {
             "id": "ca-reports",
             "title": "Important Reports & Indices",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-judgments",
             "title": "Landmark SC & HC Judgments",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-awards",
             "title": "National Awards & Honours",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-economic-measures",
             "title": "Economic Measures & Policy Packages",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-science-tech-space",
             "title": "Science, Tech & Space Missions",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-upsc-master-framework",
             "title": "UPSC Core Current Affairs Syllabus Map",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118385,46 +118385,47 @@ const NOTES_DATABASE = {
           {
             "id": "ca-geopolitical-flashpoints",
             "title": "Global Geopolitical Flashpoints",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-defence-cooperation",
             "title": "Bilateral Defence Cooperation & Deals",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-red-sea-crisis",
             "title": "Red Sea Crisis & Maritime Security Ops",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-quad-indopacific",
             "title": "Indo-Pacific Security & Quad Dynamics",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-icet-drones",
             "title": "India-US Tech Cooperation & MQ-9B Drones",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "ca-spain-c295",
-            "title": "India-Spain Aerospace Cooperation & C-295 Project"
+            "title": "India-Spain Aerospace Cooperation & C-295 Project",
+            "hasNotes": false
           },
           {
             "id": "ca-space-nuclear",
             "title": "Strategic Space & Missile Advancements",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118442,21 +118443,21 @@ const NOTES_DATABASE = {
           {
             "id": "env-hotspots",
             "title": "Biodiversity Hotspots & Biosphere Reserves",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "env-conservation",
             "title": "Wildlife Protection & Conservation Projects",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "env-species",
             "title": "Species in News & IUCN Red List",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
@@ -118469,28 +118470,28 @@ const NOTES_DATABASE = {
           {
             "id": "env-treaties",
             "title": "Climate Change Treaties & India's NDCs",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "env-laws",
             "title": "Environmental Legislation & EIA",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "env-renewable",
             "title": "Renewable Energy & Green Initiatives",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           },
           {
             "id": "env-pollution",
             "title": "Pollution Control & Clean India Missions",
-            "hasNotes": true,
+            "hasNotes": false,
             "hasFormulas": true,
             "hasMindmap": true
           }
