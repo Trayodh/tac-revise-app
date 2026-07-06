@@ -75,7 +75,7 @@ items.forEach(item => {
 });
 
 // Copy directories
-const dirsToCopy = ['images', 'math_notes', 'gs_notes', 'manim_lectures', 'js'];
+const dirsToCopy = ['images', 'math_notes', 'gs_notes', 'manim_lectures', 'js', 'notes-data'];
 dirsToCopy.forEach(dir => {
   const sDir = path.join(srcDir, dir);
   const dDir = path.join(destDir, dir);
