@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tac-revise-v17';
+const CACHE_NAME = 'tac-revise-v22';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -12,13 +12,6 @@ const ASSETS_TO_CACHE = [
 ];
 
 self.addEventListener('install', event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(cache => {
-        console.log('Opened cache');
-        return cache.addAll(ASSETS_TO_CACHE);
-      })
-  );
   self.skipWaiting();
 });
 
@@ -27,26 +20,18 @@ self.addEventListener('activate', event => {
     caches.keys().then(cacheNames => {
       return Promise.all(
         cacheNames.map(cache => {
-          if (cache !== CACHE_NAME) {
-            console.log('Clearing old cache');
-            return caches.delete(cache);
-          }
+          console.log('Nuking cache:', cache);
+          return caches.delete(cache);
         })
       );
+    }).then(() => {
+      return self.registration.unregister();
     })
   );
   self.clients.claim();
 });
 
-// Cache-First Strategy for static assets, Network-First for others
 self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request)
-      .then(response => {
-        if (response) {
-          return response; // Return from cache
-        }
-        return fetch(event.request); // Fallback to network
-      })
-  );
+  // Pass through all requests to network
+  event.respondWith(fetch(event.request));
 });

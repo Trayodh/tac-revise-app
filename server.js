@@ -1067,6 +1067,22 @@ What subject or topic would you like to plan next?`;
       // Automatically bust the cache for all script/css tags in index.html
       content = content.replace(/\?v=\d+/g, '?v=' + Date.now());
       res.end(content);
+    } else if (filePath.endsWith('app.js')) {
+      // If the browser requests app2.js, serve the actual app.js from disk
+      if (filePath.endsWith('app2.js')) {
+        filePath = filePath.replace('app2.js', 'app.js');
+      }
+      let content = fs.readFileSync(filePath, 'utf8');
+      if (process.env.GROQ_API_KEY) {
+        content = content.replace(/PROCESS_ENV_GROQ_KEY/g, process.env.GROQ_API_KEY);
+      }
+      if (process.env.GEMINI_API_KEY) {
+        content = content.replace(/PROCESS_ENV_GEMINI_KEY/g, process.env.GEMINI_API_KEY);
+      }
+      if (process.env.CEREBRAS_API_KEY) {
+        content = content.replace(/PROCESS_ENV_CEREBRAS_KEY/g, process.env.CEREBRAS_API_KEY);
+      }
+      res.end(content);
     } else {
       const stream = fs.createReadStream(filePath);
       stream.pipe(res);

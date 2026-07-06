@@ -59,7 +59,7 @@ window.fetch = async function() {
             // ----------------------------------------------------
             // MULTI-MODEL INTELLIGENT ROUTER
             // ----------------------------------------------------
-            let targetAI = 'gemini'; // Default fallback
+            let targetAI = 'groq'; // Default fallback
             const combinedText = (systemInstructionText + " " + promptText).toLowerCase();
             
             // 0. Explicit Override for Detailed Notes -> Gemini
@@ -90,9 +90,9 @@ window.fetch = async function() {
             ) {
                 targetAI = 'cerebras';
             }
-            // 3. Gemini (Notes, Learn/Explain, Current Affairs, Quiz Explanations, PYQs)
+            // 3. Fallback (Notes, Learn/Explain, Current Affairs, Quiz Explanations, PYQs)
             else {
-                targetAI = 'gemini';
+                targetAI = 'groq';
             }
             
             // ----------------------------------------------------
@@ -149,7 +149,9 @@ window.fetch = async function() {
                 const geminiBody = reqBody;
                 if (geminiBody.stream) delete geminiBody.stream;
                 
-                const geminiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=PROCESS_ENV_GEMINI_KEY';
+                let urlModel = apiModel;
+                if (urlModel === 'gemini-1.5-flash' || urlModel === 'gemini-2.5-flash') urlModel = 'gemini-1.5-flash';
+                const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${urlModel}:generateContent?key=PROCESS_ENV_GEMINI_KEY`;
                 const res = await originalFetch(geminiUrl, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -175,7 +177,7 @@ window.fetch = async function() {
             console.error("AI Intercept Error:", e);
             // Fallback response if offline or errored
             return new Response(JSON.stringify({
-                candidates: [{ content: { parts: [{ text: "```json\n[]\n```\n\n_AI uplink failed. Working in offline mode._" }] } }]
+                candidates: [{ content: { parts: [{ text: "```json\n[]\n```\n\n_AI uplink failed (" + e.message + "). Working in offline mode._" }] } }]
             }), { status: 200, headers: { 'Content-Type': 'application/json' }});
         }
     }
@@ -984,8 +986,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
   `;
 
   //Detailed Notes button
-  const detailedNotesBtn = `
-    <button class="action-btn" onclick="generateDetailedNotesOnDemand('${subjectId}', '${chapterId}', '${topicId}')" style="background: rgba(168, 85, 247, 0.1); border: 1px solid rgba(168, 85, 247, 0.3); color: #c084fc; padding: 6px 12px; border-radius: 6px; font-weight: 500; cursor: pointer; display: flex; align-items: center; gap: 6px;" title="Explain the entire topic from start to end with AI">
+  const detailedNotesBtn = subjectId === 'english' ? '' : `\n    <button class="action-btn" onclick="generateDetailedNotesOnDemand('${subjectId}', '${chapterId}', '${topicId}')" style="background: rgba(168, 85, 247, 0.1); border: 1px solid rgba(168, 85, 247, 0.3); color: #c084fc; padding: 6px 12px; border-radius: 6px; font-weight: 500; cursor: pointer; display: flex; align-items: center; gap: 6px;" title="Explain the entire topic from start to end with AI">
       Detailed Notes
     </button>
   `;
@@ -2514,7 +2515,7 @@ Your response must be a single JSON object in the following format:
 }
 Do not output any surrounding markdown formatting (no \`\`\`json, no \`\`\`), do not output any other text. Output only the raw JSON. Do NOT use any emojis, icons, or pictorial characters anywhere in the questions, options, or explanations. Keep the content completely emoji-free.`;
 
-  const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+  const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
   let success = false;
   let generatedData = null;
 
@@ -2714,7 +2715,7 @@ Cover the following sections in your notes:
 
 Use bold headings, structured layout, and do NOT use any emojis, icons, or pictorial characters. Keep the content completely emoji-free and professional.${syllabusText}${pyqText}`;
 
-  const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+  const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
   let replyText = "";
   let success = false;
 
@@ -2960,7 +2961,7 @@ Doubt to solve: ${text}`;
   }
   
   try {
-    const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+    const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
     let success = false;
     let replyText = "";
     let lastStatus = 0;
@@ -3105,7 +3106,7 @@ function initAiPaperSolver() {
       reader.onload = async () => {
         try {
           const base64Data = reader.result.split(',')[1];
-          const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+          const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
           let success = false;
           let resultText = "";
           let lastStatus = 0;
@@ -3302,7 +3303,7 @@ Ensure the design is clean, readable, premium, and uses variables like var(--acc
 
       const executeEvaluation = async (base64Data = null, fileMime = null) => {
         try {
-          const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+          const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
           let success = false;
           let resultText = "";
           let lastStatus = 0;
@@ -4094,7 +4095,7 @@ Do not use any emojis in your response. Keep the tone professional, scholarly, a
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'gemini-3-flash-preview',
+        model: 'gemini-1.5-flash',
         stream: true,
         contents: [{ parts: [{ text: prompt }] }]
       })
@@ -4303,7 +4304,7 @@ async function generateDetailedNotesOnDemand(subjectId, chapterId, topicId) {
   const topic = chapter.topics.find(t => t.id === topicId);
   if (!topic) return;
 
-  const cacheKey = `tac_ai_notes_${topicId}`;
+  const cacheKey = `tac_ai_notes_v2_${topicId}`;
   
   let modal = document.getElementById('ai-detailed-notes-modal');
   if (!modal) {
@@ -4448,7 +4449,7 @@ Formatting Guidelines for maximum visual appeal:
     prompt += `\n\nMATHEMATICS SPECIFICATION:\nSince this is a Mathematics topic, you MUST add a dedicated section at the very end titled "22. MATHEMATICS PRACTICE (PATHFINDER LEVEL)". In this section, provide exactly 3 fully solved examples (sums) and exactly 2 unsolved practice sums related to this topic. Ensure the difficulty matches the standard of the NDA/CDS Pathfinder textbook with solved papers.`;
   }
 
-  const model = 'gemini-3-flash-preview';
+  const model = 'gemini-1.5-flash';
   
   try {
     const response = await fetch('/api/gemini', {
@@ -6580,7 +6581,7 @@ Return the response in this exact format:
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-                model: 'gemini-3-flash-preview',
+                model: 'gemini-1.5-flash',
                 stream: false,
                 contents: [{ parts: [{ text: prompt }] }]
             })
@@ -6617,3 +6618,6 @@ Return the response in this exact format:
         setTimeout(() => { btn.innerHTML = originalBtnText; }, 2000);
     }
 }
+
+
+
