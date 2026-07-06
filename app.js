@@ -9,6 +9,15 @@ const originalFetch = window.fetch;
 window.fetch = async function() {
     const url = typeof arguments[0] === 'string' ? arguments[0] : (arguments[0] instanceof Request ? arguments[0].url : '');
     
+    // If we are on the web (Vercel) and the build process did not inject the API key,
+    // bypass the offline interceptor and let the secure Node backend handle the request!
+    if (url.includes('/api/gemini') && 'PROCESS_ENV' + '_' + 'GEMINI_KEY' === 'PROCESS_ENV_GEMINI_KEY') {
+        // Additional check: we're not running inside a Capacitor standalone app
+        if (!window.Capacitor) {
+            return originalFetch.apply(window, arguments);
+        }
+    }
+    
     // Intercept backend Current Affairs calls to serve them completely offline!
     if (url.includes('/api/daily-current-affairs')) {
         let payload = {};
