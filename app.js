@@ -149,8 +149,8 @@ window.fetch = async function() {
                 const geminiBody = reqBody;
                 if (geminiBody.stream) delete geminiBody.stream;
                 
-                let urlModel = reqBody.model || 'gemini-1.5-flash';
-                if (urlModel === 'gemini-1.5-flash' || urlModel === 'gemini-2.5-flash') urlModel = 'gemini-1.5-flash';
+                let urlModel = reqBody.model || 'gemini-2.5-flash';
+                if (urlModel === 'gemini-1.5-flash' || urlModel === 'gemini-2.5-flash') urlModel = 'gemini-2.5-flash';
                 const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${urlModel}:generateContent?key=PROCESS_ENV_GEMINI_KEY`;
                 const res = await originalFetch(geminiUrl, {
                     method: 'POST',
