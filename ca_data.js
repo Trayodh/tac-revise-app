@@ -39,6 +39,18 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
+    visit: "PM Modi's State Visit to Indonesia",
+    period: "July 2026",
+    purpose: "State visit at the invitation of President Prabowo Subianto.",
+    deals: "Reaffirmed the Comprehensive Strategic Partnership. Discussions focused on regional security, trade, and cultural ties, including a visit to the Prambanan Temple complex."
+  },
+  {
+    visit: "Japanese PM Sanae Takaichi to India",
+    period: "July 2026",
+    purpose: "16th India-Japan Annual Summit.",
+    deals: "Signed multiple agreements enhancing defence and security cooperation, economic partnership (AI, semiconductors, green energy), and reaffirmed commitment to a Free and Open Indo-Pacific (FOIP)."
+  },
+  {
     visit: "BEL Artillery Fuses Contract",
     period: "June 2026",
     purpose: "Rs 5,336 crore deal for electronic fuses for artillery guns.",
