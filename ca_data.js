@@ -39,6 +39,36 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
+    visit: "Exercise PRAGATI 2026",
+    period: "May 2026",
+    purpose: "Multinational exercise hosted by the Indian Army at Umroi, Meghalaya.",
+    deals: "Involved over 400 personnel from 12 friendly nations, focusing on counter-terrorism and tactical operations in semi-mountainous and jungle terrain."
+  },
+  {
+    visit: "Exercise KHAAN QUEST 2026",
+    period: "June-July 2026",
+    purpose: "Multilateral peacekeeping exercise in Ulaanbaatar, Mongolia.",
+    deals: "Indian Army contingent participated alongside 17 other nations to refine peacekeeping skills under the UN Charter and boost interoperability."
+  },
+  {
+    visit: "DRDO Long Range Land Attack Cruise Missile (LRLACM) Test",
+    period: "June 2026",
+    purpose: "Successful flight test from Dr. APJ Abdul Kalam Island, Odisha.",
+    deals: "Indigenously developed missile featuring terrain-following and waypoint navigation capabilities, with an estimated range of 1,000–1,500 km."
+  },
+  {
+    visit: "DRDO Multi-Layered Ballistic Missile Defence (BMD) Test",
+    period: "June 2026",
+    purpose: "Successful consecutive flight tests of AD-1 and AD-2 interceptors.",
+    deals: "Demonstrated a multi-layered BMD system capable of neutralizing threats ranging up to Intercontinental Ballistic Missiles (ICBMs) across endo and exo-atmospheric ranges."
+  },
+  {
+    visit: "DRDO Naval Anti-Ship Missile-Medium Range (NASM-MR) Test",
+    period: "June 2026",
+    purpose: "Maiden flight test of the new maritime strike missile.",
+    deals: "Designed for maritime strike operations, featuring a range of approximately 300 km, sea-skimming capabilities, and advanced terminal guidance."
+  },
+  {
     visit: "PM Modi's State Visit to Indonesia",
     period: "July 2026",
     purpose: "State visit at the invitation of President Prabowo Subianto.",
