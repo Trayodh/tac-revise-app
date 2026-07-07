@@ -163,6 +163,29 @@
   --danger: #f87171;          /* Desaturated Red */
 }
 
+[data-theme="zen-2"] {
+  --bg-primary: #1E1E1E;
+  --bg-secondary: #2B2B2B;
+  --bg-tertiary: #363636;
+  --bg-hover: #404040;
+  
+  --border: rgba(126, 168, 190, 0.2); 
+  --border-glow: rgba(143, 175, 143, 0.2);
+  
+  --text-primary: #E8E6E3;
+  --text-secondary: #B0ADA9;
+  --text-muted: #8A8885;
+  
+  --accent: #8FAF8F;
+  --accent-rgb: 143, 175, 143;
+  --accent-dark: #6D8F6D;
+  --accent-light: #B2CCB2;
+  
+  --info: #7EA8BE;
+  --warning: #D4A373;
+  --danger: #E07A5F;
+}
+
 [data-theme="vajra"] {
   --bg-primary: #0a0a0a;      /* Deep Black */
   --bg-secondary: #171717;    /* Charcoal */
