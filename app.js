@@ -6464,8 +6464,10 @@ let currentBankPage = 0;
 const BANK_PAGE_SIZE = 50;
 
 function renderQuestionBank(subject) {
-    if (typeof EXTRA_QUESTION_BANK === 'undefined') {
-        alert("Extra question bank data is not loaded!");
+    if (typeof window.EXTRA_QUESTION_BANK === 'undefined') {
+        document.getElementById('count-gs').innerText = "ERR";
+        document.getElementById('count-english').innerText = "ERR";
+        document.getElementById('count-maths').innerText = "ERR";
         return;
     }
     
@@ -6480,10 +6482,14 @@ function renderQuestionBank(subject) {
         }
     });
     
-    // Update counts
-    document.getElementById('count-gs').innerText = EXTRA_QUESTION_BANK.gs.length;
-    document.getElementById('count-english').innerText = EXTRA_QUESTION_BANK.english.length;
-    document.getElementById('count-maths').innerText = EXTRA_QUESTION_BANK.maths.length;
+    // Update counts safely
+    try {
+        document.getElementById('count-gs').innerText = window.EXTRA_QUESTION_BANK.gs ? window.EXTRA_QUESTION_BANK.gs.length : "NO-GS";
+        document.getElementById('count-english').innerText = window.EXTRA_QUESTION_BANK.english ? window.EXTRA_QUESTION_BANK.english.length : "NO-EN";
+        document.getElementById('count-maths').innerText = window.EXTRA_QUESTION_BANK.maths ? window.EXTRA_QUESTION_BANK.maths.length : "NO-MA";
+    } catch (e) {
+        document.getElementById('count-gs').innerText = "EXC";
+    }
     
     const container = document.getElementById('bank-container');
     container.innerHTML = ''; // Clear
@@ -6493,7 +6499,7 @@ function renderQuestionBank(subject) {
 
 function loadMoreBankQuestions() {
     const container = document.getElementById('bank-container');
-    const pool = EXTRA_QUESTION_BANK[currentBankSubject] || [];
+    const pool = window.EXTRA_QUESTION_BANK && window.EXTRA_QUESTION_BANK[currentBankSubject] ? window.EXTRA_QUESTION_BANK[currentBankSubject] : [];
     
     const start = currentBankPage * BANK_PAGE_SIZE;
     const end = Math.min(start + BANK_PAGE_SIZE, pool.length);
