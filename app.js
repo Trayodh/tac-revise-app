@@ -1018,6 +1018,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
           <h2 style="font-family:var(--font-logo); font-size:1.4rem; letter-spacing:0.5px; color:#fff; text-shadow:0 0 10px rgba(255,255,255,0.05); white-space: nowrap; overflow: hidden; text-shadow: 0 0 8px rgba(34, 197, 94, 0.1);">${topic.title}</h2>
         </div>
         <div style="display:flex; align-items:center; gap:12px;">
+          ${liveContentBtn}
           ${lectureModeBtn}
           ${focusModeBtn}
           ${completeToggleBtn}
@@ -4556,6 +4557,326 @@ function formatTextChunk(text) {
     .replace(/\*(.*?)\*/g, '<em>$1</em>')
     .replace(/`/g, '')
     .replace(/\n/g, '<br/>');
+}
+
+function renderAiNotes(text, contentArea, btnCopy, btnDownload, title) {
+  let formattedText = text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+    .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+    .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:16px 0 8px;">$1</h4>')
+    .replace(/\n/g, '<br/>');
+
+  contentArea.innerHTML = `
+    <h3 style="color: var(--accent); margin-bottom: 20px;">Detailed AI Explanation</h3>
+    <div id="ai-final-notes" style="line-height: 1.8; color: var(--text-primary); font-size: 0.95rem;">
+      ${parseWikiLinks(formattedText)}
+    </div>
+  `;
+  
+  if (window.MathJax && typeof window.MathJax.typeset === 'function') {
+    window.MathJax.typeset();
+  }
+
+  // Initialize Mermaid diagrams if any
+  setTimeout(() => {
+    if (window.mermaid && typeof window.mermaid.run === 'function') {
+      try { window.mermaid.run({ querySelector: '.mermaid' }); } catch(e) { console.warn(e); }
+    } else if (window.mermaid && typeof window.mermaid.init === 'function') {
+      try { window.mermaid.init(undefined, contentArea.querySelectorAll('.mermaid')); } catch(e) { console.warn(e); }
+    }
+  }, 100);
+  
+  // Show Action Buttons
+  btnCopy.style.display = 'block';
+  btnCopy.onclick = () => {
+    navigator.clipboard.writeText(text);
+    btnCopy.innerText = "Copied Copied";
+    setTimeout(() => btnCopy.innerText = " Copy", 2000);
+  };
+  
+  // Basic mock for PDF download (In real app, would use html2pdf.js)
+  btnDownload.style.display = 'block';
+  btnDownload.onclick = () => {
+    const blob = new Blob([text], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${title.replace(/[^a-z0-9]/gi, '_').toLowerCase()}_notes.txt`;
+    a.click();
+  };
+}
+
+window.renderDashboardWeaknessHeatmap = function() {
+  const container = document.getElementById("dashboard-weakness-heatmap");
+  if (!container) return;
+  if (!STATE.weaknessStats || Object.keys(STATE.weaknessStats).length === 0) {
+    container.innerHTML = `<p style="color:var(--text-muted); font-size: 0.9rem;">No weakness data available yet. Take some CBT mocks!</p>`;
+    return;
+  }
+  
+  let html = "";
+  for (const [topicId, stats] of Object.entries(STATE.weaknessStats)) {
+    if (stats.attempts > 0) {
+      const errorRate = stats.incorrect / stats.attempts;
+      if (errorRate > 0) {
+        let color = "var(--warning)";
+        if (errorRate > 0.5) color = "var(--danger)";
+        
+        // Try to find topic title
+        let topicTitle = topicId;
+        if (typeof AI_TOPIC_TEMPLATES !== 'undefined' && AI_TOPIC_TEMPLATES[topicId]) {
+          topicTitle = AI_TOPIC_TEMPLATES[topicId].topic;
+        }
+        
+        html += `<div style="background: rgba(255,255,255,0.05); border-left: 3px solid ${color}; padding: 6px 12px; border-radius: 4px; font-size: 0.85rem; display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 48%; box-sizing: border-box;">
+          <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 70%;" title="${topicTitle}">${topicTitle}</span>
+          <span style="color: ${color}; font-weight: bold; font-family: var(--font-mono);">${Math.round(errorRate * 100)}% Error</span>
+        </div>`;
+      }
+    }
+  }
+  
+  if (html === "") {
+    container.innerHTML = `<p style="color:var(--text-muted); font-size: 0.9rem;">Great job! No major weaknesses detected.</p>`;
+  } else {
+    container.innerHTML = html;
+  }
+};
+
+window.updateDashboardSrsQueue = function() {
+  const countEl = document.getElementById("srs-due-count");
+  if (!countEl) return;
+  
+  let dueCount = 0;
+  const now = Date.now();
+  if (STATE.srsData) {
+    for (const [topicId, data] of Object.entries(STATE.srsData)) {
+      if (data.nextReview && data.nextReview <= now) {
+        dueCount++;
+      }
+    }
+  }
+  countEl.innerText = dueCount;
+  countEl.style.color = dueCount > 0 ? "var(--warning)" : "var(--info)";
+};
+
+let currentSrsQueue = [];
+let currentSrsIndex = 0;
+
+window.launchSrsReview = function() {
+  if (!STATE.srsData) STATE.srsData = {};
+  const now = Date.now();
+  currentSrsQueue = Object.keys(STATE.srsData).filter(tid => STATE.srsData[tid].nextReview <= now);
+  
+  if (currentSrsQueue.length === 0) {
+    alert("No items due for review! Excellent work.");
+    return;
+  }
+  
+  currentSrsIndex = 0;
+  document.getElementById('srs-review-modal').style.display = 'flex';
+  renderCurrentSrsItem();
+};
+
+function renderCurrentSrsItem() {
+  const topicId = currentSrsQueue[currentSrsIndex];
+  const srsData = STATE.srsData[topicId];
+  
+  // Try to find topic title and content
+  let topicTitle = topicId;
+  let questionContent = srsData.question || "Do you remember the key concepts for this topic?";
+  let answerContent = srsData.answer || "Review the notes for this topic to refresh your memory.";
+  
+  if (typeof AI_TOPIC_TEMPLATES !== 'undefined' && AI_TOPIC_TEMPLATES[topicId]) {
+    topicTitle = AI_TOPIC_TEMPLATES[topicId].topic;
+  }
+
+  document.getElementById('srs-progress').innerText = `${currentSrsIndex + 1} / ${currentSrsQueue.length}`;
+  document.getElementById('srs-topic-label').innerText = topicTitle;
+  document.getElementById('srs-question-text').innerHTML = questionContent;
+  document.getElementById('srs-answer-text').innerHTML = answerContent;
+  
+  // Reset UI state
+  document.getElementById('srs-answer-container').style.display = 'none';
+  document.getElementById('srs-controls-reveal').style.display = 'block';
+  document.getElementById('srs-controls-grade').style.display = 'none';
+}
+
+window.revealSrsAnswer = function() {
+  document.getElementById('srs-answer-container').style.display = 'block';
+  document.getElementById('srs-controls-reveal').style.display = 'none';
+  document.getElementById('srs-controls-grade').style.display = 'flex';
+};
+
+window.gradeSrsItem = function(quality) {
+  const topicId = currentSrsQueue[currentSrsIndex];
+  let srs = STATE.srsData[topicId];
+  const now = Date.now();
+  
+  srs.repetitions = (srs.repetitions || 0) + 1;
+  srs.efactor = Math.max(1.3, (srs.efactor || 2.5) + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02)));
+  
+  if (quality < 3) {
+      srs.repetitions = 0;
+      srs.interval = 1;
+  } else {
+      if (srs.repetitions === 1) srs.interval = 1;
+      else if (srs.repetitions === 2) srs.interval = 6;
+      else srs.interval = Math.round(srs.interval * srs.efactor);
+  }
+  
+  // Set next review to X days from now
+  srs.nextReview = now + srs.interval * 24 * 60 * 60 * 1000;
+  
+  saveState(); // Ensure state is persisted immediately
+  updateDashboardMetrics(); // update UI counters
+  currentSrsIndex++;
+  
+  if (currentSrsIndex < currentSrsQueue.length) {
+    renderCurrentSrsItem();
+  } else {
+    document.getElementById('srs-review-modal').style.display = 'none';
+    alert("SRS Review Complete! Scheduling metadata updated.");
+  }
+};
+
+// ==========================================
+// 12. AI TACTICAL STRATEGY BUILDER
+// ==========================================
+async function generateAiStrategy() {
+  const container = document.getElementById("strategy-report-container");
+  container.style.display = "block";
+  container.className = "ai-response-area loading";
+  container.innerHTML = `
+    <div style="text-align: center; margin-top: 20px;">
+      <div class="cbt-spinner" style="border-color: var(--info); border-top-color: transparent; width: 40px; height: 40px; border-width: 4px; margin: 0 auto 16px;"></div>
+      <p style="color: var(--info); font-family: var(--font-logo); letter-spacing: 1px; font-weight: 600;">ANALYZING CADET PROGRESS...</p>
+      <p style="color: var(--text-muted); font-size: 0.85rem;">Gemini AI is reviewing your syllabus mastery and CBT scores...</p>
+    </div>
+  `;
+
+  // Calculate Progress Metrics
+  let totalTopics = 0;
+  let completedTopics = 0;
+  for (const subjectId in NOTES_DATABASE) {
+    NOTES_DATABASE[subjectId].chapters.forEach(c => {
+      c.topics.forEach(t => {
+        totalTopics++;
+        if (STATE.syllabusProgress[t.id] === 'completed') completedTopics++;
+      });
+    });
+  }
+  const syllabusPct = totalTopics > 0 ? Math.round((completedTopics / totalTopics) * 100) : 0;
+  const formulasRead = STATE.readFormulasCount || 0;
+  
+  let cbtAvg = 0;
+  if (STATE.cbtScores && STATE.cbtScores.length > 0) {
+    const sum = STATE.cbtScores.reduce((acc, val) => acc + val, 0);
+    cbtAvg = Math.round(sum / STATE.cbtScores.length);
+  }
+
+  const promptText = `You are an expert, strict, and motivating military exam strategist for the NDA, CDS, and AFCAT exams.
+The user is a cadet preparing for these exams.
+Here is their current operational progress:
+- Syllabus Mastery: ${completedTopics} out of ${totalTopics} topics completed (${syllabusPct}%).
+- High-Yield Formulas Memorized: ${formulasRead}.
+- Average CBT Mock Test Score: ${cbtAvg}%.
+
+Provide a harsh but highly effective tactical action plan for the next 7 days. 
+Tell them exactly what they are failing at based on these numbers, what subjects they need to hammer hard, and how to improve.
+Format the response cleanly with markdown headings, bullet points, and strong military phrasing. Keep it concise (under 250 words). Do NOT use any emojis in the response.`;
+
+  try {
+    const response = await fetch('/api/gemini', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] })
+    });
+
+    if (!response.ok) throw new Error("Proxy error");
+
+    const data = await response.json();
+    let replyText = data.text || "No response received.";
+    
+    // Format Markdown
+    let formattedText = replyText
+      .replace(/\*\*(.*?)\*\*/g, '<strong style="color:var(--info);">$1</strong>')
+      .replace(/\*(.*?)\*/g, '<em>$1</em>')
+      .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:16px 0 8px; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:4px;">$1</h4>')
+      .replace(/\n/g, '<br/>');
+
+    container.className = "ai-response-area fade-in";
+    container.innerHTML = `
+      <div style="padding: 16px;">
+        <h3 style="color: var(--info); font-family: var(--font-logo); margin-bottom: 16px; letter-spacing: 1px;">[ STRATEGY UPLINK SECURED ]</h3>
+        <div style="line-height: 1.8;">${formattedText}</div>
+      </div>
+    `;
+  } catch (error) {
+    console.error("Strategy AI Error:", error);
+    container.className = "ai-response-area";
+    container.innerHTML = `<p style="color: var(--danger);">Failed to connect to Strategy AI. Ensure your Node.js proxy server is running on port 4000.</p>`;
+  }
+}
+
+// ==========================================
+// 12. VOCAB BUILDER MODULE
+// ==========================================
+let vocabData = null;
+
+// -- Drill-Down View Logic for Vocab Builder --
+window.openVocabMode = function(mode) {
+  document.querySelectorAll('#screen-vocab-builder .full-page-view').forEach(el => {
+    el.style.display = 'none';
+    el.classList.remove('active');
+  });
+  
+  if (mode === 'word') {
+    const wordView = document.getElementById('vocab-view-word');
+    if(wordView) {
+      wordView.style.display = 'block';
+      wordView.classList.add('active');
+    }
+    // ensure word is loaded
+    if(document.getElementById('vocab-word').innerText === 'Loading...') {
+      loadRandomWord();
+    }
+  } else if (mode === 'quiz') {
+    const quizView = document.getElementById('vocab-view-quiz');
+    if(quizView) {
+      quizView.style.display = 'block';
+      quizView.classList.add('active');
+    }
+  }
+};
+
+window.backToVocabModes = function() {
+  document.querySelectorAll('#screen-vocab-builder .full-page-view').forEach(el => {
+    el.style.display = 'none';
+    el.classList.remove('active');
+  });
+  const modesView = document.getElementById('vocab-view-modes');
+  if (modesView) {
+    modesView.style.display = 'block';
+    modesView.classList.add('active');
+  }
+};
+
+let currentVocabQuizQuestions = [];
+
+// ==========================================
+// 15. ENGLISH VOCAB BUILDER MODULE
+// ==========================================
+
+let activeVocabWord = null;
+
+function renderVocabBuilder() {
+  if (!activeVocabWord) {
+    getWordOfTheDay();
+  } else {
+    displayVocabWord(activeVocabWord);
+  }
 }
 
 function getWordOfTheDay() {
