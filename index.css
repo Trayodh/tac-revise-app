@@ -3745,3 +3745,120 @@ h1 {
   transform: translate(-50%, -100%) scale(1.05);
 }
 
+/* ==========================================================================
+   MOBILE RESPONSIVENESS & MEDIA QUERIES
+   ========================================================================== */
+
+/* Mobile Menu Toggle Button (Floating Action Button style) */
+.mobile-menu-toggle {
+  display: none; /* Hidden on desktop */
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  box-shadow: var(--shadow-lg), 0 0 15px rgba(14, 165, 233, 0.4);
+  z-index: 9999;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition-fast), background var(--transition-fast);
+}
+
+.mobile-menu-toggle:active {
+  transform: scale(0.95);
+}
+
+.mobile-menu-toggle svg {
+  width: 28px;
+  height: 28px;
+  transition: transform var(--transition-normal);
+}
+
+/* When sidebar is open, flip the arrow */
+body.sidebar-open .mobile-menu-toggle svg {
+  transform: rotate(180deg);
+}
+
+/* Sidebar Overlay */
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 9; /* Just below sidebar (10) */
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+
+body.sidebar-open .sidebar-overlay {
+  display: block;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  /* Show Mobile Elements */
+  .mobile-menu-toggle {
+    display: flex;
+  }
+
+  /* Make Main Content flexible and reduce padding */
+  .main-content {
+    padding: 16px;
+    width: 100vw;
+  }
+
+  /* Adjust Typography */
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+  .subtitle { font-size: 0.9rem; }
+
+  /* Transform Sidebar into an Off-Canvas Drawer */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    transform: translateX(-100%);
+    transition: transform var(--transition-normal);
+    box-shadow: var(--shadow-lg);
+  }
+
+  body.sidebar-open .sidebar {
+    transform: translateX(0);
+  }
+
+  /* Ensure tables and code blocks scroll horizontally instead of breaking layout */
+  .table-responsive, table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  pre, code {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further tweaks for very small screens */
+  .main-content {
+    padding: 12px;
+  }
+  .grid-2-col, .grid-3-col, .grid-4-col {
+    grid-template-columns: 1fr;
+  }
+}
+
+

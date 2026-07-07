@@ -6634,5 +6634,36 @@ Return the response in this exact format:
     }
 }
 
+// ==========================================
+// MOBILE RESPONSIVENESS LOGIC
+// ==========================================
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtn = document.getElementById("mobile-menu-toggle");
+  const overlay = document.getElementById("sidebar-overlay");
+  const sidebarLinks = document.querySelectorAll(".nav-item");
+
+  function toggleSidebar() {
+    document.body.classList.toggle("sidebar-open");
+  }
+
+  function closeSidebar() {
+    document.body.classList.remove("sidebar-open");
+  }
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener("click", toggleSidebar);
+  }
+  if (overlay) {
+    overlay.addEventListener("click", closeSidebar);
+  }
+
+  sidebarLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      // Small delay allows the visual click effect before sliding out
+      setTimeout(closeSidebar, 150);
+    });
+  });
+});
+
 
 
