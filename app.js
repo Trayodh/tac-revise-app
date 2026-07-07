@@ -6525,9 +6525,9 @@ function loadMoreBankQuestions() {
         card.innerHTML = `
             <div class="bank-q-text" id="bank-q-text-${i}">Q${i+1}. ${q.question}</div>
             ${optionsHtml}
-            <div style="margin-top: 15px;">
-                <button class="bank-reveal-btn" onclick="revealBankSolution(this)">Reveal Solution</button>
-                <button class="bank-reveal-btn up-armour-btn" onclick="upArmourQuestion(this, ${i})" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); margin-left: 10px; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: all 0.2s;">
+            <div style="margin-top: 15px; display: flex; gap: 10px;">
+                <button class="bank-reveal-btn" onclick="revealBankSolution(this)" style="margin-top: 0; flex: 1;">Reveal Solution</button>
+                <button class="bank-reveal-btn up-armour-btn" onclick="upArmourQuestion(this, ${i})" style="margin-top: 0; flex: 1; background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: white; border: none;">
                     Up-Armour It
                 </button>
             </div>
