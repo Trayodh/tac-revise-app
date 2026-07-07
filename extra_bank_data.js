@@ -1,4 +1,4 @@
-const EXTRA_QUESTION_BANK = {
+window.EXTRA_QUESTION_BANK = {
   "gs": [
     {
       "question": "[UP-ARMOURED] Consider the following statements regarding the physical geography of India:<br>Statement I: The Himalayas act as a climatic divide, protecting the subcontinent from the cold northern winds.<br>Statement II: The Peninsular Plateau is geologically older and more stable than the Himalayan region.<br>Statement III: The Western Ghats are continuous and can be crossed only through passes.<br><br>Which of the statements given above is/are correct?",
