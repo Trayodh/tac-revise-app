@@ -6528,7 +6528,7 @@ function loadMoreBankQuestions() {
             <div style="margin-top: 15px;">
                 <button class="bank-reveal-btn" onclick="revealBankSolution(this)">Reveal Solution</button>
                 <button class="bank-reveal-btn up-armour-btn" onclick="upArmourQuestion(this, ${i})" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); margin-left: 10px; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: all 0.2s;">
-                    <span class="material-symbols-outlined" style="font-size: 16px; vertical-align: text-bottom; margin-right: 4px;">military_tech</span>Up-Armour It
+                    Up-Armour It
                 </button>
             </div>
             <div class="bank-solution" style="display: none; margin-top: 15px;">
@@ -6580,7 +6580,7 @@ async function upArmourQuestion(btn, index) {
     if (!q) return;
 
     const originalBtnText = btn.innerHTML;
-    btn.innerHTML = '<span class="material-symbols-outlined" style="font-size: 16px; vertical-align: text-bottom; margin-right: 4px; animation: spin 1s linear infinite;">sync</span> Up-Armouring...';
+    btn.innerHTML = 'Up-Armouring...';
     btn.disabled = true;
 
     const prompt = `You are an expert UPSC/NDA/CDS exam setter. I have a simple multiple choice question. Your task is to "Up-Armour" this question, meaning make it significantly more difficult, analytical, and conceptual (e.g., using Statement I and Statement II, or multi-statement format common in UPSC exams).
@@ -6630,14 +6630,14 @@ Return the response in this exact format:
                 }
             }
             
-            btn.innerHTML = '<span class="material-symbols-outlined" style="font-size: 16px; vertical-align: text-bottom; margin-right: 4px;">verified</span> Up-Armoured';
+            btn.innerHTML = 'Up-Armoured';
             btn.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)';
         } else {
             throw new Error("Invalid format returned by AI");
         }
     } catch (err) {
         console.error("Up-armour failed", err);
-        btn.innerHTML = '<span class="material-symbols-outlined" style="font-size: 16px; vertical-align: text-bottom; margin-right: 4px;">error</span> Failed';
+        btn.innerHTML = 'Failed';
         btn.disabled = false;
         setTimeout(() => { btn.innerHTML = originalBtnText; }, 2000);
     }
