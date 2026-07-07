@@ -3861,4 +3861,10 @@ body.sidebar-open .sidebar-overlay {
   }
 }
 
+/* Fix long unbroken URLs from stretching containers */
+a, p, span, div, li, td {
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+}
+
 

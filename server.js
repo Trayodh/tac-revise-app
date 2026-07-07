@@ -160,9 +160,7 @@ ${JSON.stringify(rawItems.map((it,i) => ({ index: i, title: it.title, desc: it.d
 
 Rules:
 - Assign each to one of these topic areas: ${UPSC_TOPIC_CATEGORIES.map(t => t.name).join(', ')}
-- You MUST include at least 1 'Military Appointments' item (if not in the feed, use the most recent known Indian military chief appointment).
-- You MUST include at least 1 item about 'Bilateral Visits' or 'Trade Deals' (assign to 'International Relations' or 'Economy & Finance').
-- You MUST include at least 1 'Important Days & Themes' item.
+- Ensure the selected items are diverse across topics.
 - Return ONLY a raw JSON array of objects with: { "index": <number or null>, "title": "<news title>", "topic": "<topic area name>", "topicColor": "<hex color from ${JSON.stringify(topicColorMap)}>" }.
 - Do not include markdown fences or any formatting other than valid JSON.`;
 
