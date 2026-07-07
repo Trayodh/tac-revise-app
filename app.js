@@ -6488,7 +6488,8 @@ function renderQuestionBank(subject) {
     try {
         document.getElementById('count-gs').innerText = window.EXTRA_QUESTION_BANK.gs ? window.EXTRA_QUESTION_BANK.gs.length : "NO-GS";
         document.getElementById('count-english').innerText = window.EXTRA_QUESTION_BANK.english ? window.EXTRA_QUESTION_BANK.english.length : "NO-EN";
-        document.getElementById('count-maths').innerText = window.EXTRA_QUESTION_BANK.maths ? window.EXTRA_QUESTION_BANK.maths.length : "NO-MA";
+        document.getElementById('count-maths-nda').innerText = window.EXTRA_QUESTION_BANK.maths_nda ? window.EXTRA_QUESTION_BANK.maths_nda.length : "NO-NDA";
+        document.getElementById('count-maths-cds-afcat').innerText = window.EXTRA_QUESTION_BANK.maths_cds_afcat ? window.EXTRA_QUESTION_BANK.maths_cds_afcat.length : "NO-CDS";
     } catch (e) {
         document.getElementById('count-gs').innerText = "EXC";
     }
