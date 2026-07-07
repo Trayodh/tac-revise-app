@@ -1,915 +1,1692 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
-EXPANDED_NOTES_DATA["parts-of-speech"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+
+EXPANDED_NOTES_DATA["parts-of-speech"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Parts of Speech
+    Parts of Speech
   </h3>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In the context of NDA, CDS, and AFCAT examinations, "Parts of Speech" is the bedrock of the English language section. UPSC examiners frequently test your ability to identify the functional role of a word within a sentence. Remember, a word's part of speech is not fixed; it is determined by its <strong>function</strong> in a specific context. For example, the word "fast" can be an adjective ("a fast car"), an adverb ("he runs fast"), or a noun ("he kept the fast").
+  <p style="margin-bottom: 16px; line-height: 1.6;">
+    Understanding the [[Parts of Speech]] is the bedrock of English grammar, crucial for excelling in the NDA, CDS, and AFCAT examinations. Every word in a sentence plays a specific role, and identifying this role helps in [[Error Detection]], [[Sentence Improvement]], and [[Reading Comprehension]]. Mastering this concept allows you to dissect sentences, understand their structure, and apply grammatical rules effectively. There are eight primary [[Parts of Speech]] in English.
   </p>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    To master this, think of a sentence as a military unit. Every word has a specific rank and duty. If you misidentify the duty, you misinterpret the command. We categorize these into eight functional groups. Understanding these is not just about definitions, but about recognizing how words interact to create meaning, which is essential for "Spotting Errors" and "Sentence Improvement" questions.
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">1. Noun</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    A [[Noun]] is a word that names a person, place, thing, idea, quality, or action. It's the most fundamental building block of a sentence, often acting as the [[Subject]] or [[Object]].
+    <br/><br/>
+    <span style="color: var(--info);"><strong>Types of Nouns:</strong></span>
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+      <li><strong>[[Proper Noun]]:</strong> Specific names (e.g., <em>India, Rahul, Delhi</em>). Always capitalized.</li>
+      <li><strong>[[Common Noun]]:</strong> General names (e.g., <em>country, boy, city</em>).</li>
+      <li><strong>[[Abstract Noun]]:</strong> Ideas, qualities, or states (e.g., <em>freedom, happiness, knowledge</em>).</li>
+      <li><strong>[[Collective Noun]]:</strong> A group of people or things (e.g., <em>team, flock, army, committee</em>).</li>
+      <li><strong>[[Countable Noun]] vs. [[Uncountable Noun]]:</strong> Those that can be counted (<em>books, apples</em>) and those that cannot (<em>water, advice, information</em>).
+        <br/><span style="color: var(--warning);"><strong>Important Rule:</strong></span> Uncountable nouns usually do not take 'a/an' or plural forms and are used with singular verbs.</li>
+    </ul>
+    <strong>Examples:</strong>
+    <ul style="list-style-type: circle; margin-left: 30px; margin-bottom: 10px; line-height: 1.6;">
+      <li>The <em><span style="color: var(--accent);">soldier</span></em> showed great <em><span style="color: var(--accent);">courage</span></em> in the battle. (Common Noun, Abstract Noun)</li>
+      <li>Our <em><span style="color: var(--accent);">team</span></em> won the <em><span style="color: var(--accent);">championship</span></em>. (Collective Noun, Common Noun)</li>
+      <li><em><span style="color: var(--accent);">Mumbai</span></em> is a populous <em><span style="color: var(--accent);">city</span></em>. (Proper Noun, Common Noun)</li>
+    </ul>
   </p>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The core strategy for these exams is to look at the <strong>position</strong> of the word. Adjectives usually sit before nouns; adverbs often modify verbs, adjectives, or other adverbs; and prepositions act as bridges connecting nouns/pronouns to the rest of the sentence. By analyzing the surrounding words, you can deduce the part of speech even if you are unfamiliar with the specific vocabulary.
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">2. Pronoun</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    A [[Pronoun]] is a word used in place of a [[Noun]] to avoid repetition. It must agree with its [[Antecedent]] (the noun it replaces) in number, gender, and person.
+    <br/><br/>
+    <span style="color: var(--info);"><strong>Types of Pronouns:</strong></span>
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+      <li><strong>[[Personal Pronoun]]:</strong> Refers to specific persons or things (<em>I, you, he, she, it, we, they, me, him, her, us, them</em>).</li>
+      <li><strong>[[Possessive Pronoun]]:</strong> Shows ownership (<em>mine, yours, his, hers, ours, theirs</em>).</li>
+      <li><strong>[[Reflexive Pronoun]] / [[Emphatic Pronoun]]:</strong> Ends in -self or -selves (<em>myself, himself, yourselves</em>). Reflexive refers back to the subject; emphatic emphasizes the subject.</li>
+      <li><strong>[[Demonstrative Pronoun]]:</strong> Points out specific things (<em>this, that, these, those</em>).</li>
+      <li><strong>[[Interrogative Pronoun]]:</strong> Asks questions (<em>who, whom, whose, which, what</em>).</li>
+      <li><strong>[[Relative Pronoun]]:</strong> Introduces a dependent clause (<em>who, whom, whose, which, that</em>).
+        <br/><span style="color: var(--success);"><strong>Key Trick:</strong></span> 'Who' for people (subject), 'Whom' for people (object), 'Which' for things/animals, 'That' for both.</li>
+      <li><strong>[[Indefinite Pronoun]]:</strong> Refers to non-specific persons or things (<em>all, any, each, everyone, many, nobody, some</em>).
+        <br/><span style="color: var(--warning);"><strong>Important Rule:</strong></span> Indefinite pronouns like *everyone, everybody, no one, nobody, somebody, someone, each, either, neither* take a singular verb.</li>
+    </ul>
+    <strong>Examples:</strong>
+    <ul style="list-style-type: circle; margin-left: 30px; margin-bottom: 10px; line-height: 1.6;">
+      <li><em><span style="color: var(--accent);">She</span></em> submitted <em><span style="color: var(--accent);">her</span></em> project on time. (Personal Pronoun, Possessive Adjective/Pronoun)</li>
+      <li>The officer <em><span style="color: var(--accent);">himself</span></em> investigated the matter. (Emphatic Pronoun)</li>
+      <li><em><span style="color: var(--accent);">Who</span></em> is responsible for this? (Interrogative Pronoun)</li>
+    </ul>
   </p>
 
-  <ul style="list-style-type: none; padding: 0;">
-    <li style="margin-bottom: 10px;"><strong>1. Noun:</strong> The "Subject" or "Object" (Name of person, place, thing, or idea).</li>
-    <li style="margin-bottom: 10px;"><strong>2. Pronoun:</strong> The "Substitute" (He, she, it, they) used to avoid repetition.</li>
-    <li style="margin-bottom: 10px;"><strong>3. Verb:</strong> The "Action" or "State of Being" (The engine of the sentence).</li>
-    <li style="margin-bottom: 10px;"><strong>4. Adjective:</strong> The "Qualifier" (Describes or limits a noun/pronoun).</li>
-    <li style="margin-bottom: 10px;"><strong>5. Adverb:</strong> The "Modifier" (Describes how, when, where, or to what extent an action happens).</li>
-    <li style="margin-bottom: 10px;"><strong>6. Preposition:</strong> The "Relator" (Shows relationship in time, space, or direction).</li>
-    <li style="margin-bottom: 10px;"><strong>7. Conjunction:</strong> The "Connector" (Joins words, phrases, or clauses).</li>
-    <li style="margin-bottom: 10px;"><strong>8. Interjection:</strong> The "Emotion" (Expresses sudden feeling).</li>
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">3. Verb</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    A [[Verb]] is a word that describes an action, state, or occurrence. It is the heart of a sentence, indicating what the [[Subject]] does or what state it is in. Verbs are crucial for [[Subject-Verb Agreement]].
+    <br/><br/>
+    <span style="color: var(--info);"><strong>Types of Verbs:</strong></span>
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+      <li><strong>[[Main Verb]]:</strong> Expresses the main action or state (<em>run, eat, sleep, believe</em>).</li>
+      <li><strong>[[Auxiliary Verb]] / [[Helping Verb]]:</strong> Helps the main verb to express tense, mood, or voice (<em>be, have, do, can, may, must, will, shall</em>).</li>
+      <li><strong>[[Transitive Verb]]:</strong> Requires a direct [[Object]] to complete its meaning (e.g., <em>He <span style="color: var(--accent);">kicked</span> the ball.</em> 'ball' is the object).</li>
+      <li><strong>[[Intransitive Verb]]:</strong> Does not require a direct object (e.g., <em>The bird <span style="color: var(--accent);">sings</span>.</em>).</li>
+      <li><strong>[[Linking Verb]]:</strong> Connects the subject to a word that describes or renames it (e.g., <em>She <span style="color: var(--accent);">is</span> a doctor. He <span style="color: var(--accent);">feels</span> tired.</em> Common linking verbs: <em>be, seem, become, feel, taste, look</em>).</li>
+    </ul>
+    <strong>Examples:</strong>
+    <ul style="list-style-type: circle; margin-left: 30px; margin-bottom: 10px; line-height: 1.6;">
+      <li>The army <span style="color: var(--accent);">fought</span> bravely. (Main Verb, Intransitive)</li>
+      <li>They <span style="color: var(--accent);">are</span> preparing for the exam. (Auxiliary Verb, Main Verb)</li>
+      <li>The solution <span style="color: var(--accent);">seems</span> difficult. (Linking Verb)</li>
+    </ul>
+    <span style="color: var(--warning);"><strong>Common Error:</strong></span> Confusing transitive and intransitive verbs, or incorrect [[Verb Tense]] usage.
+  </p>
+
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">4. Adjective</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    An [[Adjective]] is a word that describes or modifies a [[Noun]] or [[Pronoun]]. It answers questions like "Which one?", "What kind?", or "How many?".
+    <br/><br/>
+    <span style="color: var(--info);"><strong>Placement:</strong></span> Adjectives usually come before the noun they modify (attributive) or after a linking verb (predicative).
+    <br/><br/>
+    <span style="color: var(--info);"><strong>Degrees of Comparison:</strong></span>
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+      <li><strong>Positive:</strong> (<em>tall, beautiful</em>)</li>
+      <li><strong>Comparative:</strong> (<em>taller, more beautiful</em>) - used to compare two things.</li>
+      <li><strong>Superlative:</strong> (<em>tallest, most beautiful</em>) - used to compare three or more things.
+        <br/><span style="color: var(--warning);"><strong>Important Rule:</strong></span> Do not use double comparatives or superlatives (e.g., 'more happier' or 'most highest' are incorrect).</li>
+    </ul>
+    <strong>Examples:</strong>
+    <ul style="list-style-type: circle; margin-left: 30px; margin-bottom: 10px; line-height: 1.6;">
+      <li>He is an <span style="color: var(--accent);">intelligent</span> student. (Describes 'student')</li>
+      <li>The <span style="color: var(--accent);">blue</span> uniform looks <span style="color: var(--accent);">smart</span>. (Describes 'uniform', describes 'uniform' via linking verb 'looks')</li>
+      <li>This is the <span style="color: var(--accent);">best</span> performance of the year. (Superlative Adjective)</li>
+    </ul>
+  </p>
+
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">5. Adverb</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    An [[Adverb]] is a word that modifies a [[Verb]], an [[Adjective]], or another [[Adverb]]. It answers questions like "How?", "When?", "Where?", "To what extent?", or "Why?". Many adverbs end in -ly, but not all (e.g., <em>fast, very, well, here</em>).
+    <br/><br/>
+    <span style="color: var(--info);"><strong>Types of Adverbs:</strong></span>
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+      <li><strong>Adverbs of Manner:</strong> (<em>quickly, carefully, well</em>)</li>
+      <li><strong>Adverbs of Time:</strong> (<em>now, yesterday, soon, always</em>)</li>
+      <li><strong>Adverbs of Place:</strong> (<em>here, there, upstairs, everywhere</em>)</li>
+      <li><strong>Adverbs of Degree/Extent:</strong> (<em>very, too, almost, hardly, fully</em>)</li>
+      <li><strong>Adverbs of Frequency:</strong> (<em>often, never, sometimes, usually</em>)</li>
+    </ul>
+    <strong>Examples:</strong>
+    <ul style="list-style-type: circle; margin-left: 30px; margin-bottom: 10px; line-height: 1.6;">
+      <li>She speaks <span style="color: var(--accent);">fluently</span>. (Modifies the verb 'speaks')</li>
+      <li>The operation was <span style="color: var(--accent);">extremely</span> difficult. (Modifies the adjective 'difficult')</li>
+      <li>He runs <span style="color: var(--accent);">very</span> <span style="color: var(--accent);">fast</span>. (''very'' modifies the adverb ''fast'', ''fast'' modifies the verb ''runs'')</li>
+    </ul>
+    <span style="color: var(--warning);"><strong>Common Confusion:</strong></span> Distinguishing between adjectives and adverbs. An adjective modifies a noun/pronoun; an adverb modifies verbs, adjectives, or other adverbs.
+    Example: <em>He is a <span style="color: var(--accent);">good</span> speaker.</em> ('good' is an adjective). <em>He speaks <span style="color: var(--accent);">well</span>.</em> ('well' is an adverb).
+  </p>
+
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">6. Preposition</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    A [[Preposition]] is a word or group of words used before a [[Noun]], [[Pronoun]], or [[Noun Phrase]] to show direction, time, place, location, spatial relationships, or to introduce an object.
+    <br/><br/>
+    <span style="color: var(--info);"><strong>Common Prepositions:</strong></span> <em>in, on, at, by, for, from, with, about, above, below, during, through, after, before, into, onto, towards</em>.
+    <br/><br/>
+    A preposition is always followed by an [[Object of Preposition]] (a noun or pronoun). The entire structure forms a [[Prepositional Phrase]].
+    <strong>Examples:</strong>
+    <ul style="list-style-type: circle; margin-left: 30px; margin-bottom: 10px; line-height: 1.6;">
+      <li>The book is <span style="color: var(--accent);">on</span> the table. ('on' shows place)</li>
+      <li>She went <span style="color: var(--accent);">to</span> the market. ('to' shows direction)</li>
+      <li>We will meet <span style="color: var(--accent);">at</span> 3 PM. ('at' shows time)</li>
+    </ul>
+    <span style="color: var(--warning);"><strong>High-Yield Tip:</strong></span> Correct usage of prepositions is a frequent testing point in error detection (e.g., "agree with a person," "agree to a proposal," "die of disease," "die for country").
+  </p>
+
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">7. Conjunction</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    A [[Conjunction]] is a word used to connect words, phrases, or clauses.
+    <br/><br/>
+    <span style="color: var(--info);"><strong>Types of Conjunctions:</strong></span>
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+      <li><strong>[[Coordinating Conjunctions]]:</strong> Connects elements of equal grammatical rank (FANBOYS: <em>For, And, Nor, But, Or, Yet, So</em>).
+        <br/><span style="color: var(--success);"><strong>Key Use:</strong></span> Connects independent clauses, nouns, adjectives, etc.</li>
+      <li><strong>[[Subordinating Conjunctions]]:</strong> Connects a [[Dependent Clause]] to an [[Independent Clause]] (e.g., <em>although, because, while, after, before, if, unless, when, since</em>).</li>
+      <li><strong>[[Correlative Conjunctions]]:</strong> Pairs of conjunctions that work together (e.g., <em>either...or, neither...nor, both...and, not only...but also</em>).
+        <br/><span style="color: var(--warning);"><strong>Important Rule:</strong></span> The elements joined by correlative conjunctions must be grammatically parallel.</li>
+    </ul>
+    <strong>Examples:</strong>
+    <ul style="list-style-type: circle; margin-left: 30px; margin-bottom: 10px; line-height: 1.6;">
+      <li>He is intelligent <span style="color: var(--accent);">and</span> hardworking. (Connects two adjectives)</li>
+      <li>She passed the exam <span style="color: var(--accent);">because</span> she studied diligently. (Subordinating conjunction)</li>
+      <li><span style="color: var(--accent);">Neither</span> the captain <span style="color: var(--accent);">nor</span> the players were happy. (Correlative conjunctions, maintaining parallel structure)</li>
+    </ul>
+  </p>
+
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">8. Interjection</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    An [[Interjection]] is a word or phrase that expresses a sudden strong feeling or emotion. They usually stand apart from the grammatical structure of the sentence and are often followed by an exclamation mark.
+    <br/><br/>
+    <strong>Examples:</strong>
+    <ul style="list-style-type: circle; margin-left: 30px; margin-bottom: 10px; line-height: 1.6;">
+      <li><span style="color: var(--accent);">Alas!</span> He failed the test.</li>
+      <li><span style="color: var(--accent);">Hurrah!</span> We won the match.</li>
+      <li><span style="color: var(--accent);">Oh,</span> I didn't see you there.</li>
+    </ul>
+  </p>
+
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">Context is Key: Words as Different Parts of Speech</h4>
+  <p style="margin-bottom: 16px; line-height: 1.6;">
+    One of the most crucial aspects for competitive exams is recognizing that many words can function as different [[Parts of Speech]] depending on their context and usage in a sentence. This often forms the basis for challenging [[Error Detection]] questions. Always analyze the word's role in the sentence, not just its standalone meaning.
+    <br/><br/>
+    <strong>Example 1: "Fast"</strong>
+    <ul style="list-style-type: circle; margin-left: 30px; margin-bottom: 10px; line-height: 1.6;">
+      <li>He drives a <span style="color: var(--accent);">fast</span> car. (Adjective modifying 'car')</li>
+      <li>He drives <span style="color: var(--accent);">fast</span>. (Adverb modifying the verb 'drives')</li>
+      <li>The soldiers had a religious <span style="color: var(--accent);">fast</span>. (Noun meaning a period of abstaining from food)</li>
+    </ul>
+    <strong>Example 2: "Like"</strong>
+    <ul style="list-style-type: circle; margin-left: 30px; margin-bottom: 10px; line-height: 1.6;">
+      <li>I <span style="color: var(--accent);">like</span> to read books. (Verb)</li>
+      <li>He is strong <span style="color: var(--accent);">like</span> his father. (Preposition)</li>
+      <li>The twins are so <span style="color: var(--accent);">like</span>. (Adjective)</li>
+    </ul>
+    <span style="color: var(--success);"><strong>Step-by-step approach:</strong></span>
+    <ol style="list-style-type: decimal; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+      <li>Identify the word in question.</li>
+      <li>Look at the words immediately surrounding it.</li>
+      <li>Determine what the word is modifying or what function it is performing (e.g., naming, describing, acting, connecting).</li>
+      <li>Based on its function, assign its part of speech.</li>
+    </ol>
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Rules & Facts</h4>
+  <ul style="list-style-type: square; margin-left: 20px; margin-bottom: 10px; line-height: 1.7;">
+    <li><span style="color: var(--warning);">Subject-Verb Agreement:</span> Ensure the [[Verb]] agrees with its [[Subject]] in number (singular/plural), especially with [[Collective Noun]]s, [[Indefinite Pronoun]]s, and phrases between subject and verb.</li>
+    <li><span style="color: var(--warning);">Pronoun-Antecedent Agreement:</span> [[Pronoun]]s must agree with their [[Antecedent]]s in number, gender, and person. Watch out for ambiguous antecedents.</li>
+    <li><span style="color: var(--warning);">Adjective vs. Adverb:</span> Often tested! Adjectives modify nouns/pronouns; adverbs modify verbs, adjectives, or other adverbs. Avoid using an adjective where an adverb is needed (e.g., "He performed good" should be "He performed well").</li>
+    <li><span style="color: var(--warning);">Parallelism with Conjunctions:</span> When using [[Coordinating Conjunctions]] or [[Correlative Conjunctions]], ensure the elements they connect are grammatically parallel (e.g., Noun and Noun, Verb and Verb phrase).</li>
+    <li><span style="color: var(--warning);">Prepositional Phrases:</span> Be meticulous with [[Preposition]] choice. Many verbs and nouns have fixed prepositions (e.g., 'fond of', 'account for', 'good at'). Learn common [[Fixed Prepositions]].</li>
+    <li><span style="color: var(--warning);">Uncountable Nouns:</span> Words like *information, advice, news, luggage, machinery, poetry* are typically uncountable and take singular verbs. Avoid 's' for plural and 'a/an' before them.</li>
+    <li><span style="color: var(--warning);">Degrees of Adjectives/Adverbs:</span> Do not use double comparatives or superlatives. Ensure correct comparison structure (e.g., 'than' after comparative, 'the' before superlative).</li>
+    <li><span style="color: var(--warning);">Usage of 'Who' vs. 'Whom':</span> 'Who' is a [[Subject]] pronoun (He/She); 'Whom' is an [[Object]] pronoun (Him/Her). This is a common error point for [[Relative Pronoun]]s and [[Interrogative Pronoun]]s.</li>
+  </ul>
+</div>
+`;
+
+EXPANDED_NOTES_DATA["tenses-complete"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    Tenses & Consistency
+  </h3>
+
+  <p style="margin-bottom: 15px; line-height: 1.6;">
+    Understanding [[Tense]] is fundamental to mastering English grammar for competitive examinations like NDA, CDS, and AFCAT. Tenses dictate when an [[Action Verb]] takes place. English primarily uses three main tenses: [[Present Tense]], [[Past Tense]], and [[Future Tense]]. Each of these main tenses is further divided into four aspects: [[Simple]], [[Continuous/Progressive]], [[Perfect]], and [[Perfect Continuous]], resulting in 12 basic tenses. A strong grasp of their correct usage and, crucially, [[Consistency of Tenses]] (also known as [[Sequence of Tenses]]) is vital for error detection, sentence improvement, and cloze tests.
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">I. The Twelve Tenses: Structures and Usage</h4>
+
+  <h5 style="color: var(--success); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">A. Present Tenses</h5>
+  <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">1. Simple Present Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> [[Subject]] + [[Base Verb]] (V1) / [[Base Verb]] + s/es (for 3rd person singular).
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Habitual actions]] or routines: <em>She <span style="color: var(--text-secondary);">goes</span> to the gym every morning.</em></li>
+        <li>[[Universal truths]] or facts: <em>The sun <span style="color: var(--text-secondary);">rises</span> in the east. Water <span style="color: var(--text-secondary);">boils</span> at 100°C.</em></li>
+        <li>Fixed schedules or programmes: <em>The train <span style="color: var(--text-secondary);">departs</span> at 7 PM.</em></li>
+        <li>Newspaper headlines, sports commentaries: <em>India <span style="color: var(--text-secondary);">wins</span> series.</em></li>
+      </ul>
+      <span style="color: var(--warning);">Important: Often used with adverbs of frequency like <em>always, often, usually, sometimes, never, every day, rarely.</em></span>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">2. Present Continuous Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> Subject + is/am/are + [[Verb-ing]] (Present Participle).
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Actions happening now]] or at the moment of speaking: <em>I <span style="color: var(--text-secondary);">am studying</span> for my NDA exam.</em></li>
+        <li>Temporary actions: <em>He <span style="color: var(--text-secondary);">is living</span> in Delhi for a month.</em></li>
+        <li>Developing trends: <em>The climate <span style="color: var(--text-secondary);">is changing</span> rapidly.</em></li>
+        <li>Annoying habits (with 'always', 'constantly'): <em>He <span style="color: var(--text-secondary);">is always complaining</span>.</em></li>
+      </ul>
+      <span style="color: var(--warning);">Important: <span style="font-weight: 600;">Stative Verbs</span> (verbs of senses, emotions, possession, mental states) are generally NOT used in continuous tenses. E.g., <em>I <span style="color: var(--text-secondary);">know</span> him</em> (not <em>I am knowing him</em>).</span>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">3. Present Perfect Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> Subject + has/have + [[Past Participle]] (V3).
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Actions completed recently]] with relevance to the present: <em>I <span style="color: var(--text-secondary);">have finished</span> my homework.</em> (The homework is done now).</li>
+        <li>Experiences or achievements: <em>She <span style="color: var(--text-secondary);">has visited</span> Goa many times.</em></li>
+        <li>[[Actions started in past and continuing to present]]: <em>I <span style="color: var(--text-secondary);">have lived</span> here for five years.</em> (Still living here).</li>
+      </ul>
+      <span style="color: var(--warning);">Keywords: <em>since, for, already, yet, just, ever, never, recently, lately, so far.</em></span>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">4. Present Perfect Continuous Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> Subject + has/have been + Verb-ing.
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Actions started in the past and continuing up to the present moment]], emphasizing duration: <em>He <span style="color: var(--text-secondary);">has been studying</span> for three hours.</em> (Still studying).</li>
+        <li>Actions with visible results in the present: <em>Her eyes are red because she <span style="color: var(--text-secondary);">has been crying</span>.</em></li>
+      </ul>
+    </li>
   </ul>
 
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  
-  <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
-    <tr style="background: rgba(255,255,255,0.05);">
-      <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Part of Speech</th>
-      <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Exam Identification Trick</th>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">Noun</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Can be preceded by 'a', 'an', or 'the'.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">Adjective</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Answers "What kind?", "Which one?", or "How many?".</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">Adverb</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Often ends in '-ly'; modifies verbs/adjectives.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">Preposition</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Followed by an object (Noun/Pronoun).</td>
-    </tr>
-  </table>
+  <h5 style="color: var(--success); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">B. Past Tenses</h5>
+  <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">5. Simple Past Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> Subject + [[Past Tense Verb]] (V2).
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Completed actions in the past]] at a specific time (explicit or implicit): <em>I <span style="color: var(--text-secondary);">visited</span> my hometown last week.</em></li>
+        <li>A series of completed actions in the past: <em>He <span style="color: var(--text-secondary);">woke up</span>, <span style="color: var(--text-secondary);">ate</span> breakfast, and <span style="color: var(--text-secondary);">left</span> for work.</em></li>
+      </ul>
+      <span style="color: var(--warning);">Keywords: <em>yesterday, ago, last (week/month/year), in 1990, when I was young, once.</em> If a specific past time is mentioned, use Simple Past, not Present Perfect.</span>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">6. Past Continuous Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> Subject + was/were + Verb-ing.
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Actions ongoing in the past]] at a specific point or over a period: <em>At 8 PM yesterday, I <span style="color: var(--text-secondary);">was watching</span> TV.</em></li>
+        <li>Two simultaneous actions in the past: <em>While I <span style="color: var(--text-secondary);">was cooking</span>, he <span style="color: var(--text-secondary);">was reading</span>.</em></li>
+        <li>Interrupted action in the past: <em>I <span style="color: var(--text-secondary);">was sleeping</span> when the phone rang.</em></li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">7. Past Perfect Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> Subject + had + Past Participle (V3).
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Action completed before another action in the past]]. It's the "earlier past": <em>When I arrived, the train <span style="color: var(--text-secondary);">had already left</span>.</em> (First the train left, then I arrived.)</li>
+      </ul>
+      <span style="color: var(--success);">Crucial for [[Sequence of Tenses]] when dealing with two past events. The earlier event takes Past Perfect.</span>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">8. Past Perfect Continuous Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> Subject + had been + Verb-ing.
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Action ongoing for a duration in the past before another past action]]: <em>He <span style="color: var(--text-secondary);">had been waiting</span> for an hour when she finally arrived.</em></li>
+      </ul>
+    </li>
+  </ul>
 
-  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-radius: 5px; border: 1px solid rgba(255, 215, 0, 0.3);">
-    <strong style="color: #FFD700;">Strategic Tip:</strong> In CDS/NDA exams, look for words ending in <em>-tion, -ment, -ness</em> (usually Nouns), <em>-able, -ful, -ous</em> (usually Adjectives), and <em>-ly</em> (usually Adverbs). However, always verify with the sentence context—never rely on suffixes alone!
-  </div>
-</div>`;
+  <h5 style="color: var(--success); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">C. Future Tenses</h5>
+  <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">9. Simple Future Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> Subject + will/shall + Base Verb.
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Actions in the future]]: <em>I <span style="color: var(--text-secondary);">will go</span> to Delhi tomorrow.</em></li>
+        <li>Predictions or promises: <em>It <span style="color: var(--text-secondary);">will rain</span> soon. I <span style="color: var(--text-secondary);">will help</span> you.</em></li>
+        <li>Spontaneous decisions: <em>Oh, the phone is ringing. I <span style="color: var(--text-secondary);">will answer</span> it.</em></li>
+      </ul>
+      <span style="color: var(--warning);">Note: "Going to" is used for planned future actions or when there is evidence that something is about to happen. <em>I <span style="color: var(--text-secondary);">am going to visit</span> my uncle next week. Look at those clouds; it <span style="color: var(--text-secondary);">is going to rain</span>.</em></span>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">10. Future Continuous Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> Subject + will/shall be + Verb-ing.
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Action ongoing at a specific time in the future]]: <em>This time tomorrow, I <span style="color: var(--text-secondary);">will be flying</span> to Mumbai.</em></li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">11. Future Perfect Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> Subject + will/shall have + Past Participle (V3).
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Action completed before a specific point in the future]]: <em>By next year, I <span style="color: var(--text-secondary);">will have completed</span> my degree.</em></li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong style="color: var(--accent);">12. Future Perfect Continuous Tense:</strong>
+      <br/> <span style="font-weight: 500;">Structure:</span> Subject + will/shall have been + Verb-ing.
+      <br/> <span style="font-weight: 500;">Usage:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li>[[Action ongoing for a duration up to a specific point in the future]]: <em>By 2025, I <span style="color: var(--text-secondary);">will have been working</span> here for ten years.</em></li>
+      </ul>
+    </li>
+  </ul>
 
-EXPANDED_NOTES_DATA["tenses-complete"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">II. Consistency & Sequence of Tenses (SOT)</h4>
+
+  <p style="margin-bottom: 15px; line-height: 1.6;">
+    [[Sequence of Tenses]] refers to the principle that the tense of a [[Subordinate Clause]] is determined by the tense of the [[Main Clause]]. This is a critical area for error detection in competitive exams.
+  </p>
+  <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--success);">Rule 1: Main Clause in Present or Future Tense</span>
+      <br/> If the [[Main Clause]] is in the [[Present Tense]] or [[Future Tense]], the [[Subordinate Clause]] can be in any tense (present, past, or future) as required by the meaning.
+      <br/> <em>Examples:</em>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li><em>He <span style="color: var(--text-secondary);">says</span> that he <span style="color: var(--text-secondary);">is busy</span>.</em> (Present + Present)</li>
+        <li><em>She <span style="color: var(--text-secondary);">will tell</span> me that she <span style="color: var(--text-secondary);">completed</span> the work.</em> (Future + Past)</li>
+        <li><em>I <span style="color: var(--text-secondary);">know</span> that he <span style="color: var(--text-secondary);">will succeed</span>.</em> (Present + Future)</li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--success);">Rule 2: Main Clause in Past Tense</span>
+      <br/> If the [[Main Clause]] is in the [[Past Tense]], the [[Subordinate Clause]] must generally also be in a past tense.
+      <br/> <em>Examples:</em>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li><em>He <span style="color: var(--text-secondary);">said</span> that he <span style="color: var(--text-secondary);">was</span> ill.</em> (Past + Past)</li>
+        <li><em>She <span style="color: var(--text-secondary);">told</span> me that she <span style="color: var(--text-secondary);">had completed</span> the work.</em> (Past + Past Perfect – for an earlier action)</li>
+      </ul>
+      <span style="color: var(--warning);">Exception: If the subordinate clause expresses a [[Universal truths]], a [[Habitual actions]], or a permanent fact, it remains in the Simple Present Tense, even if the main clause is in the Past Tense.</span>
+      <br/> <em>Examples:</em>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li><em>The teacher <span style="color: var(--text-secondary);">taught</span> that the earth <span style="color: var(--text-secondary);">revolves</span> around the sun.</em> (Past + Present Simple for universal truth)</li>
+        <li><em>He <span style="color: var(--text-secondary);">said</span> that honesty <span style="color: var(--text-secondary);">is</span> the best policy.</em> (Past + Present Simple for a proverb)</li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--success);">Rule 3: Conditional Sentences</span>
+      <br/> [[Conditional Sentences]] (If-clauses) follow specific tense patterns:
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li><span style="font-weight: 600;">Type 1 (Real/Probable):</span> If + Simple Present, Subject + will/shall + Base Verb.
+          <br/> <em>If it <span style="color: var(--text-secondary);">rains</span>, we <span style="color: var(--text-secondary);">will stay</span> home.</em></li>
+        <li><span style="font-weight: 600;">Type 2 (Unreal/Improbable):</span> If + Simple Past, Subject + would/could/might + Base Verb.
+          <br/> <em>If I <span style="color: var(--text-secondary);">had</span> wings, I <span style="color: var(--text-secondary);">would fly</span>.</em></li>
+        <li><span style="font-weight: 600;">Type 3 (Impossible Past):</span> If + Past Perfect, Subject + would/could/might + have + Past Participle (V3).
+          <br/> <em>If you <span style="color: var(--text-secondary);">had studied</span> harder, you <span style="color: var(--text-secondary);">would have passed</span> the exam.</em></li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Rules & Facts (NDA/CDS/AFCAT Focus)</h4>
+  <ul style="list-style-type: decimal; margin-left: 20px; margin-bottom: 10px; line-height: 1.6;">
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--success);">'Since' vs 'For':</span>
+      <br/> <span style="font-weight: 600;">Since</span> is used with a point in time (e.g., since 2010, since Monday, since morning).
+      <br/> <span style="font-weight: 600;">For</span> is used with a period of time (e.g., for two hours, for three days, for ages).
+      <br/> Both are typically used with [[Present Perfect Tense]] or [[Present Perfect Continuous Tense]].
+      <br/> <em>Example: I <span style="color: var(--text-secondary);">have been teaching</span> <span style="color: var(--warning);">since</span> 2015. / I <span style="color: var(--text-secondary);">have been teaching</span> <span style="color: var(--warning);">for</span> eight years.</em>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Past Perfect for Earlier Action:</span> When two actions occur in the past, the action that happened earlier must be in the [[Past Perfect Tense]] (had + V3), and the later action in the [[Simple Past Tense]].
+      <br/> <em>Example: The patient <span style="color: var(--text-secondary);">had died</span> before the doctor <span style="color: var(--text-secondary);">arrived</span>.</em> (First death, then arrival.)
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--success);">Adverbs of Time and Tense:</span>
+      <br/> <span style="font-weight: 600;">Simple Past:</span> <em>yesterday, last week, ago, in 1990.</em>
+      <br/> <span style="font-weight: 600;">Present Perfect:</span> <em>just, already, yet, ever, never, recently, lately, so far.</em>
+      <br/> <span style="font-weight: 600;">Simple Present:</span> <em>always, often, usually, sometimes, rarely, every day.</em>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">'No sooner...than' / 'Hardly/Scarcely...when':</span> These structures require the [[Past Perfect Tense]] in the first clause, often with inversion.
+      <br/> <em>Example: <span style="color: var(--text-secondary);">No sooner had</span> he <span style="color: var(--text-secondary);">entered</span> the room <span style="color: var(--warning);">than</span> the phone <span style="color: var(--text-secondary);">rang</span>.</em>
+      <br/> <em>Example: <span style="color: var(--text-secondary);">Hardly had</span> I <span style="color: var(--text-secondary);">reached</span> the station <span style="color: var(--warning);">when</span> the train <span style="color: var(--text-secondary);">departed</span>.</em>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--success);">'It is time / It is high time':</span> These phrases are usually followed by the [[Simple Past Tense]] to express that an action should have been done earlier or should be done immediately.
+      <br/> <em>Example: It is high time you <span style="color: var(--text-secondary);">started</span> studying seriously.</em> (Not 'start studying')
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Verbs of wishing/imagining (wish, as if, as though):</span> These often take the [[Simple Past Tense]] or [[Past Perfect Tense]] to express unreal or hypothetical situations in the present or past.
+      <br/> <em>Example: I wish I <span style="color: var(--text-secondary);">were</span> a bird.</em> (Not 'was')
+      <br/> <em>He talks as if he <span style="color: var(--text-secondary);">knew</span> everything.</em>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--success);">Direct and [[Indirect Speech]]:</span> When converting [[Direct Speech]] to Indirect Speech, the tense of the [[Reporting verbs]] in the main clause (e.g., 'said', 'told') dictates the tense changes in the reported clause.
+      <br/> <em>Example: Direct: He said, "I am going." Indirect: He said that he <span style="color: var(--text-secondary);">was going</span>.</em> (Present Continuous becomes Past Continuous)
+    </li>
+  </ul>
+</div>
+`;
+
+EXPANDED_NOTES_DATA["subject-verb-agreement"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Tenses & Consistency
+    Subject-Verb Agreement
   </h3>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Tense is the grammatical manifestation of time. In the context of NDA, CDS, and AFCAT examinations, "Tenses & Consistency" is not merely about identifying the time of an action, but about maintaining <strong>Sequence of Tenses</strong>. Consistency refers to the logical flow of time within a sentence; if a sentence begins in the past, it must generally remain in the past unless a specific time marker dictates otherwise.
+  <p style="margin-bottom: 15px; line-height: 1.6;">
+    [[Subject-Verb Agreement]] is a fundamental principle in English [[Grammar & Usage]] that ensures a [[sentence]] is grammatically correct and coherent. It dictates that the [[Verb]] in a sentence must always agree in number (singular or plural) with its [[Subject]]. This means if the [[Subject]] is [[singular]], the verb must be [[singular]]; if the subject is [[plural]], the verb must be [[plural]]. Mastering this concept is crucial for error detection and sentence correction questions in NDA, CDS, and AFCAT exams.
   </p>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The core of this topic lies in understanding the <strong>Aspect</strong> of the verb. While 'Tense' tells us <em>when</em> (Past, Present, Future), 'Aspect' tells us <em>how</em> the action is viewed (Simple/Indefinite, Continuous, Perfect, Perfect Continuous). Examiners often test your ability to spot "Tense Mismatch," where a sentence incorrectly mixes a past event with a present state without a valid logical bridge.
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Core Principles & Rules</h4>
+
+  <h5 style="color: var(--accent-light); margin-top: 15px; margin-bottom: 8px;">1. The Basic Rule: Singular Subjects Take Singular Verbs, Plural Subjects Take Plural Verbs</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6;">
+    This is the cornerstone. A [[singular subject]] requires a [[singular verb]], while a [[plural subject]] requires a [[plural verb]]. Remember that verbs in the present tense for singular subjects (he, she, it, or a singular noun) usually end in 's' or 'es'. Plural verbs do not have this 's' or 'es'.
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Example (Singular):</strong> The <span style="color: var(--success);">student</span> <span style="color: var(--success);">studies</span> diligently for the exam. (Student - singular noun, studies - singular verb)</li>
+      <li style="margin-bottom: 8px;"><strong>Example (Plural):</strong> The <span style="color: var(--success);">students</span> <span style="color: var(--success);">study</span> diligently for the exam. (Students - plural noun, study - plural verb)</li>
+      <li style="margin-bottom: 8px;"><strong>Example (Singular):</strong> My <span style="color: var(--success);">dog</span> <span style="color: var(--success);">barks</span> loudly.</li>
+      <li style="margin-bottom: 8px;"><strong>Example (Plural):</strong> My <span style="color: var(--success);">dogs</span> <span style="color: var(--success);">bark</span> loudly.</li>
+    </ul>
   </p>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    To master this, visualize the timeline. Simple tenses represent facts or habits. Continuous tenses represent ongoing processes. Perfect tenses represent completed actions with relevance to a specific point in time. Perfect Continuous tenses bridge the gap between the past and the present, emphasizing the duration of an action.
+  <h5 style="color: var(--accent-light); margin-top: 15px; margin-bottom: 8px;">2. Ignoring Intervening Phrases and Clauses</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6;">
+    One of the most common traps in competitive exams involves [[Intervening Phrases]] or clauses placed between the [[Subject]] and the [[Verb]]. The verb must always agree with the *actual* subject, not with any [[noun]] or [[pronoun]] in the intervening phrase.
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Correct:</strong> The <span style="color: var(--success);">captain</span>, along with his entire team, <span style="color: var(--warning);">is</span> attending the briefing. (The subject is 'captain' (singular), not 'team'.)</li>
+      <li style="margin-bottom: 8px;"><strong>Incorrect:</strong> The captain, along with his entire team, <span style="color: var(--warning);">are</span> attending the briefing.</li>
+      <li style="margin-bottom: 8px;"><strong>Correct:</strong> The <span style="color: var(--success);">box</span> of chocolates <span style="color: var(--warning);">is</span> on the table. ('Box' is singular, not 'chocolates'.)</li>
+      <li style="margin-bottom: 8px;"><strong>Correct:</strong> The <span style="color: var(--success);">books</span> which are on the top shelf <span style="color: var(--warning);">contain</span> valuable information. ('Books' is plural, not 'shelf'.)</li>
+    </ul>
+    <span style="color: var(--warning);">Important:</span> Always identify the true [[subject]] before determining the verb's form. Prepositional phrases like "of the boys," "in the box," "along with his friends" do not change the number of the subject.
   </p>
 
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  
-  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 0.95em;">
+  <h5 style="color: var(--accent-light); margin-top: 15px; margin-bottom: 8px;">3. Compound Subjects Connected by "And"</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6;">
+    When two or more [[Subject]]s are joined by "and," they generally form a [[Compound Subjects|plural subject]] and require a [[plural verb]].
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> <span style="color: var(--success);">Rohan</span> and <span style="color: var(--success);">Sita</span> <span style="color: var(--warning);">are</span> going to the market.</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> A <span style="color: var(--success);">pen</span> and a <span style="color: var(--success);">notebook</span> <span style="color: var(--warning);">were</span> found on the desk.</li>
+    </ul>
+    <span style="color: var(--warning);">Exception:</span> If the two subjects joined by "and" refer to the same person, thing, or are considered a single unit or idea, they take a [[singular verb]].
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> <span style="color: var(--success);">Bread and butter</span> <span style="color: var(--warning);">is</span> his favourite breakfast. (Considered a single meal/unit)</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> The <span style="color: var(--success);">principal and chairman</span> <span style="color: var(--warning);">is</span> present today. (Refers to one person holding both roles. If two people, it would be 'are'.)</li>
+    </ul>
+  </p>
+
+  <h5 style="color: var(--accent-light); margin-top: 15px; margin-bottom: 8px;">4. Subjects Connected by "Or," "Nor," "Either...or," "Neither...nor"</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6;">
+    When subjects are joined by "or," "nor," "either...or," or "neither...nor," the [[Verb]] agrees with the [[Subject]] closest to it. This is often called the <span style="color: var(--success);">"proximity rule"</span>.
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> Neither the students nor the <span style="color: var(--success);">teacher</span> <span style="color: var(--warning);">is</span> present. (Teacher is singular, closest to the verb)</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> Neither the teacher nor the <span style="color: var(--success);">students</span> <span style="color: var(--warning);">are</span> present. (Students is plural, closest to the verb)</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> Either my brother or my <span style="color: var(--success);">parents</span> <span style="color: var(--warning);">are</span> coming to pick me up.</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> Either my parents or my <span style="color: var(--success);">brother</span> <span style="color: var(--warning);">is</span> coming to pick me up.</li>
+    </ul>
+  </p>
+
+  <h5 style="color: var(--accent-light); margin-top: 15px; margin-bottom: 8px;">5. [[Indefinite Pronouns]]</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6;">
+    Some [[Indefinite Pronouns]] are always [[singular]], and others are always [[plural]].
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Always Singular:</strong> anyone, anybody, anything, everyone, everybody, everything, someone, somebody, something, no one, nobody, nothing, each, either, neither, one, much.
+        <ul style="margin-top: 5px; list-style-type: circle; padding-left: 15px;">
+          <li style="margin-bottom: 5px;"><strong>Example:</strong> <span style="color: var(--success);">Everyone</span> <span style="color: var(--warning);">is</span> expected to complete the task.</li>
+          <li style="margin-bottom: 5px;"><strong>Example:</strong> <span style="color: var(--success);">Each</span> of the candidates <span style="color: var(--warning);">has</span> submitted their resume.</li>
+          <li style="margin-bottom: 5px;"><strong>Example:</strong> <span style="color: var(--success);">Neither</span> of the two options <span style="color: var(--warning);">is</span> viable.</li>
+        </ul>
+      </li>
+      <li style="margin-bottom: 8px;"><strong>Always Plural:</strong> both, few, many, several.
+        <ul style="margin-top: 5px; list-style-type: circle; padding-left: 15px;">
+          <li style="margin-bottom: 5px;"><strong>Example:</strong> <span style="color: var(--success);">Both</span> of the answers <span style="color: var(--warning);">are</span> correct.</li>
+          <li style="margin-bottom: 5px;"><strong>Example:</strong> <span style="color: var(--success);">Many</span> students <span style="color: var(--warning);">have</span> opted for this course.</li>
+        </ul>
+      </li>
+      <li style="margin-bottom: 8px;"><strong>Singular or Plural (depend on context):</strong> all, any, most, none, some. These take a singular verb if they refer to a non-countable noun, and a plural verb if they refer to a countable noun.
+        <ul style="margin-top: 5px; list-style-type: circle; padding-left: 15px;">
+          <li style="margin-bottom: 5px;"><strong>Example:</strong> <span style="color: var(--success);">Some</span> of the water <span style="color: var(--warning);">is</span> polluted. (Water - non-countable)</li>
+          <li style="margin-bottom: 5px;"><strong>Example:</strong> <span style="color: var(--success);">Some</span> of the students <span style="color: var(--warning);">are</span> absent. (Students - countable)</li>
+        </ul>
+      </li>
+    </ul>
+  </p>
+
+  <h5 style="color: var(--accent-light); margin-top: 15px; margin-bottom: 8px;">6. [[Collective Nouns]]</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6;">
+    [[Collective Nouns]] (e.g., team, committee, family, audience, government, jury, army) can be either [[singular]] or [[plural]] depending on whether they act as a single unit or as individual members.
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Singular (acting as a unit):</strong> The <span style="color: var(--success);">team</span> <span style="color: var(--warning);">is</span> celebrating its victory. (The team as one entity)</li>
+      <li style="margin-bottom: 8px;"><strong>Plural (acting as individuals):</strong> The <span style="color: var(--success);">team</span> <span style="color: var(--warning);">are</span> arguing among themselves about the strategy. (Individual members of the team)</li>
+    </ul>
+    <span style="color: var(--warning);">Note:</span> In British English, collective nouns are more commonly treated as plural when referring to individual members. In American English, they are more often treated as singular unless the individual action is heavily emphasized. For exams, if ambiguity arises, assume singular unless individual action is explicit.
+  </p>
+
+  <h5 style="color: var(--accent-light); margin-top: 15px; margin-bottom: 8px;">7. Words like "as well as," "along with," "together with," "in addition to," "besides," "except"</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6;">
+    When a subject is followed by phrases introduced by these words, the [[Verb]] agrees with the first [[Subject]] (the one before these phrases). These phrases are considered [[Intervening Phrases]].
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> The <span style="color: var(--success);">teacher</span>, as well as the students, <span style="color: var(--warning);">is</span> preparing for the annual day.</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> The <span style="color: var(--success);">employees</span>, along with the manager, <span style="color: var(--warning);">have</span> decided to strike.</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> <span style="color: var(--success);">He</span>, besides his brother, <span style="color: var(--warning);">was</span> invited.</li>
+    </ul>
+  </p>
+
+  <h5 style="color: var(--accent-light); margin-top: 15px; margin-bottom: 8px;">8. Titles, Names, and Amounts</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6;">
+    Titles of books, movies, countries, or phrases denoting a sum of money or a period of time, even if they appear plural, are usually treated as [[singular]] units.
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> <span style="color: var(--success);">"Gulliver's Travels"</span> <span style="color: var(--warning);">is</span> a classic novel.</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> <span style="color: var(--success);">The United States</span> <span style="color: var(--warning);">is</span> a powerful nation.</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> <span style="color: var(--success);">Ten thousand rupees</span> <span style="color: var(--warning);">is</span> a large sum for him. (Amount as a single unit)</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> <span style="color: var(--success);">Five years</span> <span style="color: var(--warning);">is</span> a long time to wait. (Period as a single unit)</li>
+    </ul>
+  </p>
+
+  <h5 style="color: var(--accent-light); margin-top: 15px; margin-bottom: 8px;">9. [[Relative Pronouns]] (who, which, that)</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6;">
+    When a [[Relative Pronoun]] (who, which, that) is the [[Subject]] of a clause, the verb within that clause agrees with the [[Antecedent]] (the noun or pronoun it refers to) of the relative pronoun.
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> He is one of the <span style="color: var(--success);">students</span> who <span style="color: var(--warning);">excel</span> in mathematics. (Who refers to 'students' (plural), so 'excel' is plural)</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> This is the <span style="color: var(--success);">book</span> that <span style="color: var(--warning);">contains</span> all the answers. (That refers to 'book' (singular), so 'contains' is singular)</li>
+    </ul>
+    <span style="color: var(--warning);">Special Case: "One of the..."</span> Pay close attention to sentences like "He is one of the students who..." Here, "who" refers to "students" (plural), not "one". So the verb is plural.
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Correct:</strong> She is one of the <span style="color: var(--success);">girls</span> who <span style="color: var(--warning);">sing</span> beautifully.</li>
+    </ul>
+    However, if "only" precedes "one of the," the verb becomes singular because "who" refers to "one."
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Correct:</strong> She is the <span style="color: var(--success);">only one</span> of the girls who <span style="color: var(--warning);">sings</span> beautifully.</li>
+    </ul>
+  </p>
+
+  <h5 style="color: var(--accent-light); margin-top: 15px; margin-bottom: 8px;">10. Inverted Sentences (Beginning with "There is/are," "Here is/are")</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6;">
+    In [[Inverted Sentences]] where the [[Subject]] follows the [[Verb]] (e.g., sentences beginning with "there is/are," "here is/are"), the verb still agrees with the *actual* subject that comes after it.
+    <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> There <span style="color: var(--warning);">is</span> a <span style="color: var(--success);">book</span> on the shelf.</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> There <span style="color: var(--warning);">are</span> many <span style="color: var(--success);">books</span> on the shelf.</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> Here <span style="color: var(--warning);">comes</span> the <span style="color: var(--success);">bus</span>.</li>
+      <li style="margin-bottom: 8px;"><strong>Example:</strong> Here <span style="color: var(--warning);">come</span> the <span style="color: var(--success);">buses</span>.</li>
+    </ul>
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Rules & Facts</h4>
+  <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+    <li style="margin-bottom: 8px;"><strong>Rule 1: Prepositional Phrase Trap:</strong> Always identify the true [[Subject]] before a [[Prepositional Phrase]]. The [[Verb]] must agree with this main subject, not the [[noun]] in the phrase. (e.g., "The quality of the services <span style="color: var(--warning);">is</span> declining.")</li>
+    <li style="margin-bottom: 8px;"><strong>Rule 2: Indefinite Pronoun Focus:</strong> Remember that "Each," "Every," "Either," "Neither," "Anyone," "Everyone," "No one," "Somebody" are always [[singular]] and take a [[singular verb]]. (e.g., "Each of the boys <span style="color: var(--warning);">was</span> given a prize.")</li>
+    <li style="margin-bottom: 8px;"><strong>Rule 3: "Neither...nor" / "Either...or" Proximity:</strong> The [[Verb]] agrees with the [[Subject]] closest to it. This is a very common test point. (e.g., "Neither the manager nor the employees <span style="color: var(--warning);">are</span> satisfied.")</li>
+    <li style="margin-bottom: 8px;"><strong>Rule 4: "As well as" / "Along with" Clause:</strong> Phrases like "as well as," "along with," "together with," "in addition to" do NOT make a [[Subject]] plural. The verb agrees with the first subject. (e.g., "The Minister, along with his security personnel, <span style="color: var(--warning);">was</span> present.")</li>
+    <li style="margin-bottom: 8px;"><strong>Rule 5: Collective Nouns:</strong> Treat [[Collective Nouns]] as [[singular]] if they act as a unit; [[plural]] if individuals within the group are acting separately. Pay attention to context. (e.g., "The committee <span style="color: var(--warning);">has</span> submitted its report." vs. "The committee <span style="color: var(--warning);">are</span> divided on the issue.")</li>
+    <li style="margin-bottom: 8px;"><strong>Rule 6: Amounts and Distances:</strong> Sums of money, periods of time, or distances are considered [[singular]] when referred to as a single unit. (e.g., "Five kilometres <span style="color: var(--warning);">is</span> a long distance to walk.")</li>
+    <li style="margin-bottom: 8px;"><strong>Rule 7: "The Number" vs. "A Number":</strong> "The number of" is always [[singular]]. "A number of" is always [[plural]]. (e.g., "The number of applicants <span style="color: var(--warning);">is</span> increasing." vs. "A number of applicants <span style="color: var(--warning);">are</span> increasing.")</li>
+    <li style="margin-bottom: 8px;"><strong>Rule 8: Titles/Countries:</strong> Names of books, movies, countries (even plural-sounding ones) take a [[singular verb]]. (e.g., "The Philippines <span style="color: var(--warning);">is</span> an archipelago.")</li>
+  </ul>
+</div>
+`;
+
+EXPANDED_NOTES_DATA["sentence-structure"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    Sentence Structure & Parallelism
+  </h3>
+
+  <p style="margin-bottom: 15px; line-height: 1.6;">
+    Understanding [[Sentence Structure]] and [[Parallelism]] is fundamental for excelling in the English section of exams like NDA, CDS, and AFCAT. These concepts ensure clarity, conciseness, and grammatical correctness, which are heavily tested in [[Sentence Correction]], [[Error Detection]], and even [[Phrase Replacement]] questions. A well-structured sentence is easy to read and free from [[ambiguity]], while proper parallelism ensures balance and rhythm.
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">1. Basics of Sentence Structure</h4>
+  <p style="margin-bottom: 15px; line-height: 1.6;">
+    Every complete sentence must contain at least one [[Subject]] and one [[Predicate]] (which includes a [[Verb]] and any objects/complements). Sentences can be categorized based on their structural complexity:
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+      <li><b>[[Simple Sentence]]:</b> Contains one independent [[Clause]]. <br/> <em>Example: The dog barked.</em></li>
+      <li><b>[[Compound Sentence]]:</b> Contains two or more independent clauses, usually joined by a [[Coordinating Conjunction]] (e.g., and, but, or). <br/> <em>Example: The dog barked, and the cat hissed.</em></li>
+      <li><b>[[Complex Sentence]]:</b> Contains one independent clause and at least one dependent clause. <br/> <em>Example: Although the dog barked loudly, the cat remained calm.</em></li>
+      <li><b>[[Compound-Complex Sentence]]:</b> Contains two or more independent clauses and at least one dependent clause. <br/> <em>Example: Although the dog barked loudly, the cat remained calm, and the mouse hid in the corner.</em></li>
+    </ul>
+    A solid grasp of these structures helps identify the core components and potential errors in longer, more convoluted sentences.
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">2. Understanding Parallelism (Parallel Structure)</h4>
+  <p style="margin-bottom: 15px; line-height: 1.6;">
+    [[Parallelism]] (also known as [[Parallel Structure]]) is the principle that dictates that all items in a list, comparison, or series should share the same grammatical form. This means if you start with a [[Noun]], continue with nouns. If you start with a [[Gerund]], stick with gerunds. The goal is to create balance and rhythm in a sentence, making it easier to read and comprehend. Lack of parallelism often leads to awkward phrasing and grammatical errors.
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">3. Rules of Parallelism in Lists and Series</h4>
+  <p style="margin-bottom: 15px; line-height: 1.6;">
+    When you are listing three or more items, actions, or ideas, ensure that each element has the same grammatical construction. The [[first element]] in the series often sets the pattern.
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+      <li><strong>With Nouns:</strong>
+        <br/> <span style="color: var(--warning);">Incorrect:</span> He loves playing cricket, football, and <span style="color: var(--warning);">to swim</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> He loves playing cricket, football, and <span style="color: var(--success);">swimming</span>. (All [[Noun]]/[[Gerund]] forms)
+        <br/> <span style="color: var(--success);">Correct:</span> The qualities required are <span style="color: var(--success);">honesty, integrity, and diligence</span>.
+      </li>
+      <li><strong>With Verbs/Verb Forms:</strong>
+        <br/> <span style="color: var(--warning);">Incorrect:</span> She decided to study, to prepare, and <span style="color: var(--warning);">then took the exam</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> She decided <span style="color: var(--success);">to study, to prepare, and to take the exam</span>. (All [[Infinitive]] phrases)
+        <br/> <span style="color: var(--success);">Correct:</span> The manager asked employees to <span style="color: var(--success);">arrive on time, complete their tasks efficiently, and attend all meetings</span>.
+      </li>
+      <li><strong>With Adjectives/Adverbs:</strong>
+        <br/> <span style="color: var(--warning);">Incorrect:</span> The process was lengthy, complex, and <span style="color: var(--warning);">it involved many steps</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> The process was <span style="color: var(--success);">lengthy, complex, and intricate</span>. (All [[Adjective]]s)
+        <br/> <span style="color: var(--success);">Correct:</span> He performed his duties <span style="color: var(--success);">diligently, skillfully, and responsibly</span>. (All [[Adverb]]s)
+      </li>
+      <li><strong>With Phrases/Clauses:</strong>
+        <br/> <span style="color: var(--warning);">Incorrect:</span> The report covered finding solutions, proposing strategies, and <span style="color: var(--warning);">how to implement changes</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> The report covered <span style="color: var(--success);">finding solutions, proposing strategies, and implementing changes</span>. (All [[Gerund Phrase]]s)
+        <br/> <span style="color: var(--success);">Correct:</span> She believed <span style="color: var(--success);">that hard work pays off, that dedication is key, and that persistence leads to success</span>. (All [[Noun Clause]]s)
+      </li>
+    </ul>
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">4. Parallelism with Correlative Conjunctions</h4>
+  <p style="margin-bottom: 15px; line-height: 1.6;">
+    [[Correlative Conjunctions]] are pairs of conjunctions that work together to connect two equal grammatical items. The structure following the first part of the conjunction must be grammatically parallel to the structure following the second part. Common correlative conjunctions include:
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+      <li><strong>Both...and:</strong>
+        <br/> <span style="color: var(--warning);">Incorrect:</span> He is <span style="color: var(--warning);">both intelligent and also a hard worker</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> He is <span style="color: var(--success);">both intelligent and hardworking</span>. (Adjective || Adjective)
+      </li>
+      <li><strong>Not only...but also:</strong>
+        <br/> <span style="color: var(--warning);">Incorrect:</span> She <span style="color: var(--warning);">not only sings but also dances gracefully</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> She <span style="color: var(--success);">not only sings but also dances</span>. (Verb || Verb)
+        <br/> <span style="color: var(--success);">Correct:</span> He is <span style="color: var(--success);">not only a great leader but also an inspiring mentor</span>. (Noun Phrase || Noun Phrase)
+      </li>
+      <li><strong>Either...or:</strong>
+        <br/> <span style="color: var(--warning);">Incorrect:</span> You can <span style="color: var(--warning);">either study or you can go to the party</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> You can <span style="color: var(--success);">either study or go to the party</span>. (Verb || Verb)
+      </li>
+      <li><strong>Neither...nor:</strong>
+        <br/> <span style="color: var(--warning);">Incorrect:</span> They decided <span style="color: var(--warning);">neither to participate nor would they support the event</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> They decided <span style="color: var(--success);">neither to participate nor to support the event</span>. (Infinitive Phrase || Infinitive Phrase)
+      </li>
+      <li><strong>Whether...or:</strong>
+        <br/> <span style="color: var(--warning);">Incorrect:</span> I'm unsure <span style="color: var(--warning);">whether to stay or should I leave</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> I'm unsure <span style="color: var(--success);">whether to stay or to leave</span>. (Infinitive Phrase || Infinitive Phrase)
+      </li>
+    </ul>
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">5. Parallelism in Comparisons</h4>
+  <p style="margin-bottom: 15px; line-height: 1.6;">
+    When making comparisons, the items being compared must be grammatically similar. This often involves using words like "than" or "as."
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+      <li><span style="color: var(--warning);">Incorrect:</span> Learning a new language is harder <span style="color: var(--warning);">than to master an old one</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> Learning a new language is harder <span style="color: var(--success);">than mastering an old one</span>. (Gerund Phrase || Gerund Phrase)
+      </li>
+      <li><span style="color: var(--warning);">Incorrect:</span> Her dedication is as profound <span style="color: var(--warning);">as her intelligence is</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> Her dedication is as profound <span style="color: var(--success);">as her intelligence</span>. (Noun || Noun)
+      </li>
+      <li><span style="color: var(--warning);">Incorrect:</span> I prefer <span style="color: var(--warning);">reading books to watching television</span>.
+        <br/> <span style="color: var(--success);">Correct:</span> I prefer <span style="color: var(--success);">reading books to watching television</span>. (Gerund Phrase || Gerund Phrase)
+      </li>
+    </ul>
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Rules & Facts</h4>
+  <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+    <li>Always ensure that elements in a list or series maintain the same [[grammatical form]].</li>
+    <li>For [[Correlative Conjunctions]], the structures following each part must be strictly parallel.</li>
+    <li>In [[Comparisons]], make sure the items being compared are grammatically equivalent.</li>
+    <li>The [[first item]] in a parallel construction often dictates the structure for subsequent items.</li>
+    <li>Lack of parallelism is a common error in [[Sentence Correction]] and [[Error Detection]] questions in competitive exams.</li>
+    <li>Look out for lists, phrases connected by coordinating or correlative conjunctions, and comparative structures (\`than\`, \`as\`).</li>
+    <li>If one element is a [[Prepositional Phrase]], all parallel elements should also be prepositional phrases.</li>
+    <li>Improving parallelism enhances sentence clarity, readability, and overall grammatical correctness, reducing [[ambiguity]].</li>
+    <li>Mastering parallelism also indirectly helps with [[Verb Agreement]] and [[Pronoun Reference]], as consistent structure often implies consistent grammatical roles.</li>
+  </ul>
+</div>
+`;
+
+EXPANDED_NOTES_DATA["voice-conversion"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    Active & Passive Voice
+  </h3>
+
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    The "Voice" of a [[verb]] indicates whether the [[subject]] of the [[sentence]] performs or receives the [[action]]. Understanding [[Active Voice]] and [[Passive Voice]] is fundamental for constructing clear, grammatically correct sentences and is a frequently tested concept in NDA, CDS, and AFCAT English sections. Mastery involves not just identifying but also correctly converting sentences between these two forms across various [[tense]] structures.
+  </p>
+
+  <h4 style="color: var(--text-primary); margin-top: 20px; margin-bottom: 10px; font-weight: 600;">I. Understanding Active Voice</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    In the [[Active Voice]], the [[subject]] of the [[sentence]] performs the [[action]] expressed by the [[verb]]. It emphasizes the doer of the action. This is the most common and direct way of expressing an idea.
+  </p>
+  <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 12px;">
+    <li style="margin-bottom: 8px;"><strong>Structure:</strong> [[Subject]] + [[Verb]] + [[Object]]</li>
+    <li style="margin-bottom: 8px;"><strong>Example 1:</strong> <span style="color: var(--success);">The student</span> <em>wrote</em> <span style="color: var(--success);">an essay</span>. (Here, "The student" is the doer.)</li>
+    <li style="margin-bottom: 8px;"><strong>Example 2:</strong> <span style="color: var(--success);">She</span> <em>sings</em> <span style="color: var(--success);">a beautiful song</span>.</li>
+    <li style="margin-bottom: 8px;"><strong>Example 3:</strong> <span style="color: var(--success);">The mechanic</span> <em>repaired</em> <span style="color: var(--success);">the car</span>.</li>
+  </ul>
+
+  <h4 style="color: var(--text-primary); margin-top: 20px; margin-bottom: 10px; font-weight: 600;">II. Understanding Passive Voice</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    In the [[Passive Voice]], the [[subject]] of the [[sentence]] is acted upon, or receives the [[action]] of the [[verb]]. The focus shifts from the doer to the action itself or the receiver of the action. The original doer (or [[agent]]) may be mentioned at the end using '[[by]]', or it may be omitted if it's unknown, unimportant, or obvious.
+  </p>
+  <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 12px;">
+    <li style="margin-bottom: 8px;"><strong>Structure:</strong> [[Object]] (of active sentence) + form of '[[to be]]' verb + [[Past Participle]] (V3) + (by + [[Subject]] of active sentence / Agent)</li>
+    <li style="margin-bottom: 8px;"><strong>Example 1:</strong> <span style="color: var(--success);">An essay</span> <em>was written</em> <span style="color: var(--success);">by the student</span>. (The essay received the action.)</li>
+    <li style="margin-bottom: 8px;"><strong>Example 2:</strong> <span style="color: var(--success);">A beautiful song</span> <em>is sung</em> <span style="color: var(--success);">by her</span>.</li>
+    <li style="margin-bottom: 8px;"><strong>Example 3:</strong> <span style="color: var(--success);">The car</span> <em>was repaired</em> <span style="color: var(--success);">by the mechanic</span>.</li>
+  </ul>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    <span style="color: var(--warning);">Important Note:</span> Only [[transitive verbs]] (verbs that take an [[object]]) can be used in the [[Passive Voice]]. [[Intransitive verbs]] (verbs that do not take an object, e.g., 'sleep', 'happen', 'arrive') cannot be converted to passive.
+  </p>
+
+  <h4 style="color: var(--text-primary); margin-top: 20px; margin-bottom: 10px; font-weight: 600;">III. Step-by-Step Conversion Rules (Active to Passive)</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    Follow these steps to convert an [[Active Voice]] [[sentence]] into [[Passive Voice]]:
+  </p>
+  <ol style="list-style-type: decimal; margin-left: 20px; margin-bottom: 12px;">
+    <li style="margin-bottom: 8px;"><strong>Identify S-V-O:</strong> In the active sentence, identify the [[Subject]] (S), [[Verb]] (V), and [[Object]] (O).
+      <br /><em>Active:</em> <span style="color: var(--success);">The guard</span> (S) <em>opens</em> (V) <span style="color: var(--success);">the gate</span> (O).</li>
+    <li style="margin-bottom: 8px;"><strong>Swap Positions:</strong> The [[object]] of the active sentence becomes the new [[subject]] of the passive sentence. The [[subject]] of the active sentence becomes the [[object]] (or [[agent]]) of the passive sentence, usually preceded by '[[by]]'.
+      <br /><em>(New Subject):</em> The gate ... by the guard.</li>
+    <li style="margin-bottom: 8px;"><strong>Convert Main Verb:</strong> Change the main [[verb]] into its [[Past Participle]] form (V3).
+      <br /><em>(Main Verb):</em> open &rarr; opened.</li>
+    <li style="margin-bottom: 8px;"><strong>Add 'To Be' Verb:</strong> Add an appropriate form of the '[[to be]]' [[auxiliary verb]] (is, am, are, was, were, be, being, been) before the V3. This form must match the [[tense]] of the original active [[verb]] and agree with the new passive [[subject]].
+      <br /><em>Original Tense:</em> Simple [[Present Tense]] ("opens"). New [[subject]] "The gate" is singular. &rarr; "is"
+      <br /><em>(Putting it together):</em> The gate <em>is opened</em> by the guard.</li>
+    <li style="margin-bottom: 8px;"><strong>Add 'by' and Agent (Optional):</strong> If the doer of the [[action]] is important or specific, add '[[by]]' before the [[agent]] (original [[subject]]). If it's general, unknown, or obvious, you can omit 'by + agent'.
+      <br /><em>Final Passive:</em> The gate is opened by the guard.</li>
+  </ol>
+
+  <h4 style="color: var(--text-primary); margin-top: 20px; margin-bottom: 10px; font-weight: 600;">IV. Tense-Wise Conversion Rules</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    The [[auxiliary verb]] '[[to be]]' changes based on the [[tense]]. This is critical for accuracy.
+  </p>
+
+  <ul style="list-style-type: none; margin-left: 0; padding-left: 0;">
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">1. Simple Present Tense</strong>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> S + V1/V1s + O</li>
+        <li><strong>Passive:</strong> O + is/am/are + V3 + (by S)</li>
+        <li><em>Example:</em>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: Rahul writes a letter.</li>
+            <li>Passive: A letter <strong>is written</strong> by Rahul.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">2. Present Continuous Tense</strong>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> S + is/am/are + Ving + O</li>
+        <li><strong>Passive:</strong> O + is/am/are + <strong>being</strong> + V3 + (by S)</li>
+        <li><em>Example:</em>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: She is reading a book.</li>
+            <li>Passive: A book <strong>is being read</strong> by her.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">3. Present Perfect Tense</strong>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> S + has/have + V3 + O</li>
+        <li><strong>Passive:</strong> O + has/have + <strong>been</strong> + V3 + (by S)</li>
+        <li><em>Example:</em>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: They have finished the work.</li>
+            <li>Passive: The work <strong>has been finished</strong> by them.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">4. Simple Past Tense</strong>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> S + V2 + O</li>
+        <li><strong>Passive:</strong> O + was/were + V3 + (by S)</li>
+        <li><em>Example:</em>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: The police caught the thief.</li>
+            <li>Passive: The thief <strong>was caught</strong> by the police.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">5. Past Continuous Tense</strong>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> S + was/were + Ving + O</li>
+        <li><strong>Passive:</strong> O + was/were + <strong>being</strong> + V3 + (by S)</li>
+        <li><em>Example:</em>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: The children were playing games.</li>
+            <li>Passive: Games <strong>were being played</strong> by the children.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">6. Past Perfect Tense</strong>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> S + had + V3 + O</li>
+        <li><strong>Passive:</strong> O + had + <strong>been</strong> + V3 + (by S)</li>
+        <li><em>Example:</em>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: She had completed her homework.</li>
+            <li>Passive: Her homework <strong>had been completed</strong> by her.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">7. Simple Future Tense</strong>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> S + will/shall + V1 + O</li>
+        <li><strong>Passive:</strong> O + will/shall + <strong>be</strong> + V3 + (by S)</li>
+        <li><em>Example:</em>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: They will clean the house.</li>
+            <li>Passive: The house <strong>will be cleaned</strong> by them.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">8. Future Perfect Tense</strong>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> S + will/shall + have + V3 + O</li>
+        <li><strong>Passive:</strong> O + will/shall + <strong>have been</strong> + V3 + (by S)</li>
+        <li><em>Example:</em>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: He will have submitted the report.</li>
+            <li>Passive: The report <strong>will have been submitted</strong> by him.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    <span style="color: var(--warning);">Note:</span> The Future Continuous, Present Perfect Continuous, Past Perfect Continuous, and Future Perfect Continuous tenses are generally not used in the [[Passive Voice]] because their passive forms are grammatically awkward and rarely appear.
+  </p>
+
+  <h4 style="color: var(--text-primary); margin-top: 20px; margin-bottom: 10px; font-weight: 600;">V. Special Cases and Important Rules</h4>
+
+  <ul style="list-style-type: none; margin-left: 0; padding-left: 0;">
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">1. Sentences with Modals</strong>
+      <p style="margin-bottom: 5px; margin-top: 5px; line-height: 1.6;">When an active sentence contains a [[Modal]] [[auxiliary verb]] (can, could, may, might, must, should, would, etc.):</p>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> S + Modal + V1 + O</li>
+        <li><strong>Passive:</strong> O + Modal + <strong>be</strong> + V3 + (by S)</li>
+        <li><em>Example:</em>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: You must finish this task.</li>
+            <li>Passive: This task <strong>must be finished</strong> by you.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">2. Imperative Sentences</strong>
+      <p style="margin-bottom: 5px; margin-top: 5px; line-height: 1.6;">[[Imperative Sentences]] (commands, requests, advice) can be converted in a few ways:</p>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>For commands/orders (with an object):</strong>
+          <br />Passive: <strong>Let + O + be + V3</strong>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: Shut the door.</li>
+            <li>Passive: <strong>Let the door be shut.</strong></li>
+          </ul>
+        </li>
+        <li><strong>For advice/suggestions:</strong>
+          <br />Passive: <strong>O + should be + V3</strong>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: Help the poor.</li>
+            <li>Passive: The poor <strong>should be helped.</strong></li>
+          </ul>
+        </li>
+        <li><strong>For requests/commands (without object or emphasis on the recipient):</strong>
+          <br />Passive: <strong>You are requested/ordered/advised to + V1 (from active) + O</strong>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: Please help me.</li>
+            <li>Passive: <strong>You are requested to help me.</strong></li>
+            <li>Active: Stand up.</li>
+            <li>Passive: <strong>You are ordered to stand up.</strong></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">3. Sentences with Two Objects (Ditransitive Verbs)</strong>
+      <p style="margin-bottom: 5px; margin-top: 5px; line-height: 1.6;">If an active sentence has both a [[direct object]] and an [[indirect object]], either can become the new [[subject]] of the passive sentence.</p>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> My father gave me a gift. (me = indirect object, a gift = direct object)</li>
+        <li><strong>Passive 1 (Indirect Object as Subject):</strong> <strong>I was given</strong> a gift by my father.</li>
+        <li><strong>Passive 2 (Direct Object as Subject):</strong> <strong>A gift was given</strong> to me by my father.</li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">4. Interrogative Sentences (Questions)</strong>
+      <p style="margin-bottom: 5px; margin-top: 5px; line-height: 1.6;">The passive form of a question must also be a question. Maintain the question structure.</p>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Yes/No Questions:</strong>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: Did he break the glass?</li>
+            <li>Passive: <strong>Was the glass broken</strong> by him?</li>
+            <li>Active: Will you finish the work?</li>
+            <li>Passive: <strong>Will the work be finished</strong> by you?</li>
+          </ul>
+        </li>
+        <li><strong>Wh-Questions (Who/Whom/What/Where/When/Why/How):</strong>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: Who wrote this novel?</li>
+            <li>Passive: <strong>By whom was this novel written?</strong></li>
+            <li>Active: What did you see?</li>
+            <li>Passive: <strong>What was seen</strong> by you?</li>
+            <li>Active: Why did you not complete the assignment?</li>
+            <li>Passive: <strong>Why was the assignment not completed</strong> by you?</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">5. Sentences starting with "It is time to..."</strong>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> It is time to + V1 + O</li>
+        <li><strong>Passive:</strong> It is time for + O + to be + V3</li>
+        <li><em>Example:</em>
+          <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+            <li>Active: It is time to ring the bell.</li>
+            <li>Passive: <strong>It is time for the bell to be rung.</strong></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">6. Verbs of Perception (see, hear, feel, watch, etc.) + Infinitive</strong>
+      <p style="margin-bottom: 5px; margin-top: 5px; line-height: 1.6;">When verbs of perception are followed by a bare [[infinitive]] in active voice, the infinitive changes to 'to + V1' in passive voice.</p>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> We saw him cross the road.</li>
+        <li><strong>Passive:</strong> He <strong>was seen to cross</strong> the road by us.</li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <strong style="color: var(--accent);">7. [[Phrasal Verbs]]</strong>
+      <p style="margin-bottom: 5px; margin-top: 5px; line-height: 1.6;">The preposition or adverb associated with a [[phrasal verb]] must remain with the [[verb]] in the passive voice.</p>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+        <li><strong>Active:</strong> The doctor looked after the patient.</li>
+        <li><strong>Passive:</strong> The patient <strong>was looked after</strong> by the doctor.</li>
+        <li><strong>Active:</strong> They laughed at the clown.</li>
+        <li><strong>Passive:</strong> The clown <strong>was laughed at</strong> by them.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Rules & Facts</h4>
+  <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 12px; line-height: 1.6;">
+    <li style="margin-bottom: 8px;"><span style="color: var(--warning);">Core Rule:</span> The essence of [[Passive Voice]] is <strong>a form of '[[to be]]' verb + [[Past Participle]] (V3)</strong>. Never forget this structure.</li>
+    <li style="margin-bottom: 8px;">Only [[transitive verbs]] can have a passive form. [[Intransitive verbs]] (e.g., appear, die, sleep, happen) cannot be made passive.</li>
+    <li style="margin-bottom: 8px;">The [[auxiliary verb]] for continuous tenses in passive is '<strong>being</strong>' (e.g., is being done, was being written).</li>
+    <li style="margin-bottom: 8px;">The [[auxiliary verb]] for perfect tenses in passive is '<strong>been</strong>' (e.g., has been done, had been written).</li>
+    <li style="margin-bottom: 8px;">For [[Modals]], the structure is: <strong>Modal + be + V3</strong> (e.g., can be done, should be written).</li>
+    <li style="margin-bottom: 8px;">In [[Imperative Sentences]] starting with 'Let', the structure is: <strong>Let + Object + be + V3</strong>.</li>
+    <li style="margin-bottom: 8px;">The choice of '[[by]]' for the [[agent]] is crucial. For certain verbs, other prepositions might be used (e.g., known to, interested in, satisfied with, astonished at, surprised at).
+      <br /><em>Example:</em> He is known <strong>to</strong> me. (Not 'by me').</li>
+    <li style="margin-bottom: 8px;">Pronouns change form when moved from [[subject]] to [[object]] position (e.g., I &rarr; me, he &rarr; him, she &rarr; her, we &rarr; us, they &rarr; them).</li>
+    <li style="margin-bottom: 8px;">Pay close attention to [[Subject-Verb Agreement]] with the new [[subject]] in the passive sentence. If the new subject is plural, use plural auxiliary (e.g., 'are', 'were').</li>
+    <li style="margin-bottom: 8px;"><span style="color: var(--success);">Common Trap:</span> Questions with 'Who' in active voice become 'By whom' in passive. Questions with 'Whom' in active become 'Who' in passive.</li>
+  </ul>
+</div>
+`;
+
+EXPANDED_NOTES_DATA["narration-speech"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    Direct & Indirect Speech
+  </h3>
+
+  <p style="margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    Understanding [[Direct and Indirect Speech]], also known as [[Narration Change]], is fundamental for mastering English Grammar in Defence Exams like NDA, CDS, and AFCAT. This topic tests your ability to transform spoken or written words from their original form into a reported form, demonstrating command over [[tenses]], [[pronouns]], and [[sentence structure]]. Proficiency in this area is crucial for both error detection and sentence transformation questions.
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">I. What is Direct and Indirect Speech?</h4>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li style="margin-bottom: 8px;">
+      <strong>Direct Speech:</strong> Reproduces the exact words of the speaker, enclosed within [[Inverted Commas]] (" "). The [[Reporting Verb]] (e.g., said, asked) is followed by a comma, and the reported speech begins with a capital letter.
+      <br><span style="color: var(--accent-light);">Example:</span> He said, "I am going to Delhi."
+    </li>
+    <li>
+      <strong>Indirect Speech (Reported Speech):</strong> Reports what the speaker said without quoting their exact words. The [[Inverted Commas]] are removed, and a [[Conjunction]] (e.g., that, if, whether) often introduces the reported speech. [[Tenses]], [[Pronouns]], and [[Time and Place Expressions]] usually change. The overall sentence structure becomes that of a [[Declarative Sentence]].
+      <br><span style="color: var(--accent-light);">Example:</span> He said that he was going to Delhi.
+    </li>
+  </ul>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">II. General Rules for Conversion (Direct to Indirect Speech)</h4>
+
+  <p style="margin-bottom: 10px; line-height: 1.6; color: var(--text-primary);">
+    The conversion from Direct to Indirect Speech involves systematic changes across four main areas, especially when the [[Reporting Verb]] is in the [[Past Tense]].
+  </p>
+
+  <h5 style="color: var(--accent); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">1. Change in Reporting Verb</h5>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li style="margin-bottom: 8px;">
+      If the [[Reporting Verb]] 'said' is followed by an [[Object]] (e.g., 'said to me'), it changes to 'told'. If there's no object, 'said' remains 'said'.
+      <br><span style="color: var(--accent-light);">Direct:</span> He said to me, "You are late."
+      <br><span style="color: var(--accent-light);">Indirect:</span> He told me that I was late.
+      <br><span style="color: var(--accent-light);">Direct:</span> She said, "I am happy."
+      <br><span style="color: var(--accent-light);">Indirect:</span> She said that she was happy.
+    </li>
+    <li style="margin-bottom: 8px;">
+      For [[Interrogative Sentences]], 'said' changes to 'asked', 'enquired', 'demanded', 'wondered'.
+    </li>
+    <li style="margin-bottom: 8px;">
+      For [[Imperative Sentences]], 'said' changes to 'ordered', 'requested', 'advised', 'commanded', 'forbade', 'warned', 'begged'.
+    </li>
+    <li>
+      For [[Exclamatory Sentences]] or [[Optative Sentences]], 'said' changes to 'exclaimed with joy/sorrow/surprise', 'wished', 'prayed', 'blessed', 'cursed'.
+    </li>
+  </ul>
+
+  <h5 style="color: var(--accent); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">2. Removal of Inverted Commas and Addition of Conjunction</h5>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li style="margin-bottom: 8px;">
+      The [[Inverted Commas]] are always removed in indirect speech.
+    </li>
+    <li>
+      A suitable [[Conjunction]] is used to introduce the reported speech, depending on the type of sentence:
+      <br><span style="color: var(--success);">Declarative Sentences:</span> Use 'that'.
+      <br><span style="color: var(--accent-light);">Direct:</span> She said, "I like coffee."
+      <br><span style="color: var(--accent-light);">Indirect:</span> She said that she liked coffee.
+      <br><span style="color: var(--success);">Yes/No Interrogative Sentences:</span> Use 'if' or 'whether'.
+      <br><span style="color: var(--accent-light);">Direct:</span> He asked, "Are you coming?"
+      <br><span style="color: var(--accent-light);">Indirect:</span> He asked if I was coming.
+      <br><span style="color: var(--success);">Wh-Interrogative Sentences:</span> The 'Wh-word' (what, where, when, why, who, how) itself acts as the conjunction.
+      <br><span style="color: var(--accent-light);">Direct:</span> She asked, "Where do you live?"
+      <br><span style="color: var(--accent-light);">Indirect:</span> She asked where I lived.
+      <br><span style="color: var(--success);">Imperative Sentences:</span> Use 'to' (for positive commands/requests) or 'not to' (for negative) before the [[Infinitive Verb]].
+      <br><span style="color: var(--accent-light);">Direct:</span> The teacher said to him, "Open your book."
+      <br><span style="color: var(--accent-light);">Indirect:</span> The teacher ordered him to open his book.
+    </li>
+  </ul>
+
+  <h5 style="color: var(--accent); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">3. Change in Pronouns</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: var(--text-primary);">
+    [[Pronouns]] in the reported speech change according to the subject and object of the [[Reporting Verb]]. This is often simplified by the <span style="color: var(--warning);">"SON" rule</span>:
+  </p>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li style="margin-bottom: 8px;">
+      <strong>S - Subject:</strong> [[First Person Pronouns]] (I, we, my, our, me, us) in the reported speech change according to the [[Subject]] of the [[Reporting Verb]].
+      <br><span style="color: var(--accent-light);">Direct:</span> He said, "I am studying."
+      <br><span style="color: var(--accent-light);">Indirect:</span> He said that he was studying.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong>O - Object:</strong> [[Second Person Pronouns]] (you, your, yours) in the reported speech change according to the [[Object]] of the [[Reporting Verb]]. If no object is present, it is often implied (e.g., 'me').
+      <br><span style="color: var(--accent-light);">Direct:</span> She said to me, "You are intelligent."
+      <br><span style="color: var(--accent-light);">Indirect:</span> She told me that I was intelligent.
+      <br><span style="color: var(--accent-light);">Direct:</span> He said, "You should work hard." (Implied 'to me')
+      <br><span style="color: var(--accent-light);">Indirect:</span> He advised me that I should work hard.
+    </li>
+    <li>
+      <strong>N - No Change:</strong> [[Third Person Pronouns]] (he, she, it, they, him, her, them, his, hers, its, theirs) in the reported speech remain unchanged.
+      <br><span style="color: var(--accent-light);">Direct:</span> He said, "She is singing."
+      <br><span style="color: var(--accent-light);">Indirect:</span> He said that she was singing.
+    </li>
+  </ul>
+
+  <h5 style="color: var(--accent); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">4. Change in Tenses</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: var(--text-primary);">
+    This is often the most critical and complex part. <span style="color: var(--warning);">If the [[Reporting Verb]] is in the [[Past Tense]]</span>, the tense of the reported speech usually shifts to a corresponding past tense.
+  </p>
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: rgba(255,255,255,0.05); color: var(--text-primary);">
     <thead>
-      <tr style="background: rgba(255,255,255,0.05);">
-        <th style="padding: 10px; border: 1px solid var(--border);">Aspect</th>
-        <th style="padding: 10px; border: 1px solid var(--border);">Present</th>
-        <th style="padding: 10px; border: 1px solid var(--border);">Past</th>
-        <th style="padding: 10px; border: 1px solid var(--border);">Future</th>
+      <tr style="background-color: var(--accent); color: #fff;">
+        <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Direct Speech Tense</th>
+        <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Indirect Speech Tense</th>
+        <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Example</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="padding: 10px; border: 1px solid var(--border);"><strong>Simple</strong></td>
-        <td style="padding: 10px; border: 1px solid var(--border);">V1 / V1+s/es</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">V2</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">will/shall + V1</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Simple Present]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Simple Past]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: He said, "I play cricket." <br> Indirect: He said that he played cricket.</td>
       </tr>
       <tr>
-        <td style="padding: 10px; border: 1px solid var(--border);"><strong>Continuous</strong></td>
-        <td style="padding: 10px; border: 1px solid var(--border);">is/am/are + V-ing</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">was/were + V-ing</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">will be + V-ing</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Present Continuous]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Past Continuous]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: She said, "I am reading a book." <br> Indirect: She said that she was reading a book.</td>
       </tr>
       <tr>
-        <td style="padding: 10px; border: 1px solid var(--border);"><strong>Perfect</strong></td>
-        <td style="padding: 10px; border: 1px solid var(--border);">has/have + V3</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">had + V3</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">will have + V3</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Present Perfect]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Past Perfect]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: They said, "We have finished our work." <br> Indirect: They said that they had finished their work.</td>
       </tr>
       <tr>
-        <td style="padding: 10px; border: 1px solid var(--border);"><strong>Perf. Cont.</strong></td>
-        <td style="padding: 10px; border: 1px solid var(--border);">has/have been + V-ing</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">had been + V-ing</td>
-        <td style="padding: 10px; border: 1px solid var(--border);">will have been + V-ing</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Present Perfect Continuous]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Past Perfect Continuous]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: He said, "I have been waiting for an hour." <br> Indirect: He said that he had been waiting for an hour.</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Simple Past]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Past Perfect]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: She said, "I bought a car." <br> Indirect: She said that she had bought a car.</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Past Continuous]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Past Perfect Continuous]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: He said, "I was watching TV." <br> Indirect: He said that he had been watching TV.</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Past Perfect]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">No Change</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: She said, "I had completed the task." <br> Indirect: She said that she had completed the task.</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid var(--border);">[[Past Perfect Continuous]]</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">No Change</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: He said, "I had been living there." <br> Indirect: He said that he had been living there.</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid var(--border);">Will / Shall</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Would / Should</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: He said, "I will go." <br> Indirect: He said that he would go.</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid var(--border);">Can</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Could</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: She said, "I can swim." <br> Indirect: She said that she could swim.</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid var(--border);">May</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Might</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: He said, "It may rain." <br> Indirect: He said that it might rain.</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid var(--border);">Must</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Had to / Must</td>
+        <td style="padding: 10px; border: 1px solid var(--border);">Direct: She said, "I must leave." <br> Indirect: She said that she had to leave. (Use 'must' for permanent obligations, 'had to' for temporary ones).</td>
       </tr>
     </tbody>
   </table>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Strategic Exam Traps & Rules</h4>
-  <ul style="padding-left: 20px; line-height: 1.6;">
-    <li style="margin-bottom: 8px;"><strong>The "Since/For" Trap:</strong> Use 'Since' for a point of time (since 1990, since Monday) and 'For' for a duration (for 2 hours, for 5 years). If the sentence mentions a duration, it must be in a Perfect or Perfect Continuous tense.</li>
-    <li style="margin-bottom: 8px;"><strong>Conditional Consistency:</strong> In 'If' clauses, if the main clause is "would + V1", the 'If' clause must be in Simple Past (V2). If the main clause is "would have + V3", the 'If' clause must be in Past Perfect (had + V3).</li>
-    <li style="margin-bottom: 8px;"><strong>The "Past Marker" Rule:</strong> If a sentence contains specific past time markers (yesterday, last week, in 1947, ago), you <strong>must</strong> use Simple Past (V2). Using Present Perfect (has/have + V3) with these markers is a common error in spotting-the-error questions.</li>
-    <li style="margin-bottom: 8px;"><strong>Universal Truths:</strong> Regardless of the reporting verb being in the past, universal truths and scientific facts always remain in the Simple Present tense.</li>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: var(--text-primary);"><span style="color: var(--warning);">Important:</span> If the [[Reporting Verb]] is in the [[Present Tense]] (e.g., 'says', 'tells', 'asks') or [[Future Tense]] (e.g., 'will say', 'will tell'), the tense of the reported speech does NOT change.</p>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li><span style="color: var(--accent-light);">Direct:</span> He says, "I am happy."</li>
+    <li><span style="color: var(--accent-light);">Indirect:</span> He says that he is happy.</li>
   </ul>
 
-  <div style="background: rgba(255, 215, 0, 0.1); padding: 15px; border-radius: 6px; border-left: 4px solid #FFD700; margin-top: 20px;">
-    <strong style="color: #FFD700;">Pro-Tip for Defence Exams:</strong> Always look for the "Time Signal" first. Words like <em>'already', 'yet', 'so far', 'lately'</em> are strong indicators for Perfect Tense. Words like <em>'every day', 'seldom', 'usually'</em> are indicators for Simple Present. Identifying these signals is 80% of the battle.
-  </div>
-</div>`;
-
-EXPANDED_NOTES_DATA["subject-verb-agreement"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Subject-Verb Agreement
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Subject-Verb Agreement is the bedrock of English grammar in Defence examinations. At its core, the rule is simple: <strong>a singular subject must take a singular verb, and a plural subject must take a plural verb.</strong> Think of it as a "grammatical handshake"—the subject and the verb must agree on the number (singular or plural) to maintain the structural integrity of the sentence.
+  <h5 style="color: var(--accent); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">5. Change in Time and Place Expressions</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: var(--text-primary);">
+    Words indicating proximity in time and place are changed to words indicating distance, reflecting the shift from the original context to the reporting context.
   </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In NDA, CDS, and AFCAT papers, examiners often hide the subject behind long prepositional phrases or intervening clauses to confuse you. The golden rule to master this is to <strong>ignore the noise</strong>. Always identify the main subject (the noun performing the action) and strip away the modifiers (phrases starting with <em>of, with, along with, as well as, in addition to</em>). The verb must agree with the subject, not the noun closest to it.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Consider the sentence: "The quality of the apples <em>is</em> good." Many students mistakenly look at "apples" (plural) and choose "are." However, the subject is "quality" (singular), so "is" is correct. Mastering this requires training your eyes to look past the "distractors" to find the true subject.
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Core Rules & Structural Breakdown</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-    <li><strong>The "Proximity" Trap:</strong> When subjects are joined by <em>or, nor, either/or, neither/nor</em>, the verb agrees with the subject <strong>closest</strong> to it. (e.g., "Neither the captain nor the <em>players are</em> ready.")</li>
-    <li><strong>Collective Nouns:</strong> Words like <em>team, committee, jury, family</em> take a singular verb when acting as a single unit, but a plural verb when the members are acting individually.</li>
-    <li><strong>Indefinite Pronouns:</strong> Words like <em>everyone, somebody, nobody, each, either, neither</em> are strictly singular. Even if they sound plural, they demand a singular verb.</li>
-    <li><strong>The "And" Exception:</strong> If two nouns joined by "and" refer to the same person or idea (e.g., "Bread and butter <em>is</em> my favorite breakfast"), use a singular verb.</li>
-  </ul>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li style="margin-bottom: 8px;"><strong>1. The "Along With" Rule:</strong> Subject A + (with/along with/as well as/in addition to) + Subject B + <strong>Verb agrees with Subject A</strong>.</li>
-    <li style="margin-bottom: 8px;"><strong>2. The "Number" Rule:</strong> "A number of" + Plural Noun + <strong>Plural Verb</strong>; "The number of" + Plural Noun + <strong>Singular Verb</strong>.</li>
-    <li style="margin-bottom: 8px;"><strong>3. Distributive Pronouns:</strong> Each, Every, Either, Neither + Singular Noun + <strong>Singular Verb</strong>.</li>
-    <li style="margin-bottom: 8px;"><strong>4. Relative Pronouns:</strong> Who/Which/That + Verb (The verb must agree with the <em>antecedent</em> of the pronoun).</li>
-    <li style="margin-bottom: 8px;"><strong>5. Mathematical/Measurement Rule:</strong> Periods of time, sums of money, or distances, when considered as a <em>single unit</em>, take a singular verb (e.g., "Ten miles <em>is</em> a long way to walk").</li>
-  </ul>
-
-  <div style="background: rgba(255, 215, 0, 0.1); padding: 15px; border-radius: 5px; border: 1px dashed #ffd700; margin-top: 20px;">
-    <strong style="color: #ffd700;">Strategic Exam Tip:</strong> In the "Spotting Errors" section of the CDS/NDA paper, if you see a sentence starting with "Each of the..." or "One of the...", immediately check if the following noun is plural and the verb is singular. This is a classic, high-frequency pattern tested every year.
-  </div>
-</div>`;
-
-EXPANDED_NOTES_DATA["sentence-structure"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Sentence Structure & Parallelism
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In the context of NDA, CDS, and AFCAT examinations, "Sentence Structure" refers to the grammatical arrangement of words in a sentence. A sentence is not merely a collection of words; it is a logical unit consisting of a Subject and a Predicate. To master this, one must understand that a sentence must be balanced, clear, and concise. Parallelism is the most critical aspect of this, ensuring that items in a series or comparison follow the same grammatical form.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    <strong>Parallelism</strong> is the principle that parts of a sentence that perform the same function should have the same grammatical structure. If you are listing actions, they should all be verbs in the same tense. If you are listing nouns, they should all be nouns. Think of it like a mathematical equation: <em>(Noun + Noun + Noun)</em> is correct, but <em>(Noun + Verb + Adjective)</em> is a structural error. Examiners frequently test this by inserting a "mismatched" element in a list, which disrupts the flow and logic of the sentence.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    To identify these errors, always look for "trigger words" such as <em>and, or, but, not only... but also, either... or,</em> and <em>neither... nor</em>. These are known as correlative conjunctions. Whatever grammatical structure follows the first part of the pair must be identical to the structure following the second part. For example, if "not only" is followed by a prepositional phrase, "but also" must also be followed by a prepositional phrase.
-  </p>
-
-  <div style="margin: 20px 0; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 6px;">
-    <h4 style="margin-top: 0;">Core Components of Structure:</h4>
-    <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-      <li><strong>Phrase:</strong> A group of words without a subject-verb unit (e.g., "in the morning").</li>
-      <li><strong>Clause:</strong> A group of words containing a subject and a verb. Independent clauses can stand alone; dependent clauses cannot.</li>
-      <li><strong>Sentence Types:</strong> Simple (one independent clause), Compound (two independent clauses joined by a conjunction), and Complex (one independent + one or more dependent clauses).</li>
-    </ul>
-  </div>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: none; padding: 0;">
-    <li style="margin-bottom: 8px;"><strong>The Parallelism Rule:</strong> X + Conjunction + Y. If X is a Gerund (-ing), Y must be a Gerund. If X is an Infinitive (to + verb), Y must be an Infinitive.</li>
-    <li style="margin-bottom: 8px;"><strong>Correlative Conjunction Balance:</strong> <em>Either/Or, Neither/Nor, Not only/But also</em> must connect identical parts of speech.</li>
-    <li style="margin-bottom: 8px;"><strong>Comparison Symmetry:</strong> You cannot compare a person to an object. (e.g., "His salary is higher than a clerk" is wrong; it should be "His salary is higher than <em>that of</em> a clerk").</li>
-    <li style="margin-bottom: 8px;"><strong>The "List" Test:</strong> If you see a comma-separated list, check if every item starts with the same part of speech.</li>
-  </ul>
-
-  <div style="margin-top: 20px; padding: 15px; border: 1px dashed var(--accent); border-radius: 6px;">
-    <strong style="color: var(--accent);">Strategic Tip:</strong> When solving "Spotting the Error" questions in CDS/NDA, read the sentence aloud. Often, a lack of parallelism creates a "clunky" or "rhythmic" dissonance that your ear will catch even if your eyes miss the grammatical rule. Always verify the structure of the items linked by 'and'.
-  </div>
-</div>`;
-
-EXPANDED_NOTES_DATA["voice-conversion"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Active & Passive Voice
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In the context of Defence examinations like NDA and CDS, Voice is not just about changing sentence structures; it is about understanding the <strong>focus</strong> of the action. In <strong>Active Voice</strong>, the subject is the "doer" of the action (e.g., "The soldier fired the rifle"). Here, the emphasis is on the agent. In <strong>Passive Voice</strong>, the focus shifts to the receiver of the action (e.g., "The rifle was fired by the soldier"). The subject becomes the recipient, and the original doer is either moved to the end or omitted entirely.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    To master this for competitive exams, you must treat the verb as the heart of the sentence. The golden rule is that the <strong>tense of the sentence never changes</strong> during conversion. If the active sentence is in the Present Indefinite, the passive must remain in the Present Indefinite (using 'is/am/are'). If it is in the Past Perfect, it must remain in the Past Perfect (using 'had been').
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    A critical trap in UPSC-conducted exams is the <strong>Intransitive Verb</strong>. Remember: Only Transitive Verbs (verbs that take an object) can be converted into Passive Voice. If a sentence lacks an object (e.g., "He sleeps in the room"), it cannot be converted into passive voice because there is no receiver to bring to the front. Always identify the Subject, Verb, and Object before attempting the conversion.
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  
-  <ul style="list-style-type: none; padding: 0;">
-    <li style="margin-bottom: 10px; padding: 8px; background: rgba(255,255,255,0.05); border-radius: 4px;">
-      <strong>Core Formula:</strong> Active (S + V + O) ↔ Passive (O + helping verb + V3 + by + S)
-    </li>
-    <li style="margin-bottom: 10px; padding: 8px; background: rgba(255,255,255,0.05); border-radius: 4px;">
-      <strong>Tense Shift Table:</strong>
-      <table style="width: 100%; margin-top: 10px; border-collapse: collapse;">
-        <tr style="border-bottom: 1px solid #444;"><th>Active</th><th>Passive</th></tr>
-        <tr><td>V1 / V1+s/es</td><td>is/am/are + V3</td></tr>
-        <tr><td>V2</td><td>was/were + V3</td></tr>
-        <tr><td>has/have/had + V3</td><td>has/have/had + been + V3</td></tr>
-        <tr><td>will/shall + V1</td><td>will/shall + be + V3</td></tr>
-        <tr><td>is/am/are + V-ing</td><td>is/am/are + being + V3</td></tr>
-      </table>
-    </li>
-    <li style="margin-bottom: 10px; padding: 8px; background: rgba(255,255,255,0.05); border-radius: 4px;">
-      <strong>Exam Trap:</strong> "By" is not always used. Verbs like <em>know, oblige, contain, interest</em> take specific prepositions (e.g., "He is known <strong>to</strong> me," not "by me").
-    </li>
-    <li style="margin-bottom: 10px; padding: 8px; background: rgba(255,255,255,0.05); border-radius: 4px;">
-      <strong>Imperative Sentences:</strong> For commands, use "Let + Object + be + V3" (e.g., "Open the door" → "Let the door be opened").
-    </li>
-  </ul>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Strategic Tips for NDA/CDS</h4>
-  <ul style="padding-left: 20px;">
-    <li><strong>Elimination Method:</strong> In multiple-choice questions, first check the tense. If the active sentence is "He wrote a letter" (Past), eliminate any option that uses "is" or "will be."</li>
-    <li><strong>Pronoun Changes:</strong> Always remember the subject-to-object pronoun shift: I → Me, We → Us, He → Him, She → Her, They → Them.</li>
-    <li><strong>The 'Being' Rule:</strong> If the active sentence has a continuous tense (V-ing), the passive <strong>must</strong> contain the word "being." This is a common point of error in AFCAT exams.</li>
-  </ul>
-</div>`;
-
-EXPANDED_NOTES_DATA["narration-speech"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Direct & Indirect Speech
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Direct Speech is the act of quoting the exact words spoken by a person, enclosed within quotation marks. Indirect (or Reported) Speech, however, conveys the essence of what was said without necessarily using the exact words. In Defence exams like NDA and CDS, the focus is on the <strong>transformation mechanics</strong>—how the tense, pronouns, and time-indicators shift when the reporting verb is in the past tense.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Think of the Reporting Verb (e.g., "said to") as the <em>anchor</em>. If the anchor is in the Present or Future tense, the tense inside the quotation marks remains unchanged. However, if the anchor is in the Past tense, the "inner world" of the sentence must shift back in time to maintain logical consistency. This is the fundamental rule of "Backshifting."
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    When converting, we follow the <strong>SON Rule</strong> for pronouns: <strong>S</strong>ubject (1st person changes according to subject), <strong>O</strong>bject (2nd person changes according to object), and <strong>N</strong>o change (3rd person remains the same). Mastery of this, combined with the conversion of proximity words (like 'now' to 'then'), is the key to securing full marks in the English section.
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Core Transformation Rules</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-    <li><strong>Tense Shift:</strong> Present Simple → Past Simple; Present Continuous → Past Continuous; Present Perfect → Past Perfect.</li>
-    <li><strong>Modals:</strong> 'Can' becomes 'Could', 'May' becomes 'Might', 'Will/Shall' becomes 'Would/Should'.</li>
-    <li><strong>Interrogatives:</strong> Remove 'that'. Use 'if' or 'whether' for Yes/No questions, and retain the 'Wh-' word for open-ended questions. Always convert the sentence structure from Interrogative to Assertive (Subject + Verb).</li>
-    <li><strong>Imperatives:</strong> Use 'to' + infinitive (e.g., "He ordered me to sit down").</li>
-  </ul>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li style="margin-bottom: 8px;"><strong>Direct ↔ Indirect Shifts:</strong>
-      <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
-        <tr style="background: rgba(255,255,255,0.05);">
-          <th style="padding: 8px; border: 1px solid var(--border);">Direct</th>
-          <th style="padding: 8px; border: 1px solid var(--border);">Indirect</th>
-        </tr>
-        <tr>
-          <td style="padding: 8px; border: 1px solid var(--border);">Now</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">Then</td>
-        </tr>
-        <tr>
-          <td style="padding: 8px; border: 1px solid var(--border);">Here</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">There</td>
-        </tr>
-        <tr>
-          <td style="padding: 8px; border: 1px solid var(--border);">Today</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">That day</td>
-        </tr>
-        <tr>
-          <td style="padding: 8px; border: 1px solid var(--border);">Tomorrow</td>
-          <td style="padding: 8px; border: 1px solid var(--border);">The next day</td>
-        </tr>
-      </table>
-    </li>
-    <li style="margin-top: 15px;"><strong>Universal Truths:</strong> If the reported speech is a universal truth or habitual action, the tense <strong>never</strong> changes, regardless of the reporting verb.</li>
-    <li><strong>Exam Trap:</strong> Watch out for "Let's" in suggestions. It changes to "suggested that we should..."</li>
-    <li><strong>Pro-Tip:</strong> Always check the <em>Reporting Verb</em> first. If it is "says" or "will say," do not change the tense inside the quotes!</li>
-  </ul>
-</div>`;
-
-EXPANDED_NOTES_DATA["modifiers"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Modifiers: Misplaced & Dangling
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In English grammar, a <strong>modifier</strong> is a word, phrase, or clause that describes, clarifies, or provides more detail about another word in a sentence. Think of modifiers as "adjectives" or "adverbs" on steroids. For a sentence to be grammatically sound and logically clear, the modifier must be placed as close as possible to the word it is intended to describe. When this proximity is violated, we encounter two primary errors: <strong>Misplaced Modifiers</strong> and <strong>Dangling Modifiers</strong>.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    A <strong>Misplaced Modifier</strong> occurs when the modifier is present in the sentence but is positioned too far away from the word it modifies, causing the sentence to convey an unintended or absurd meaning. For example, saying "The man bought a dog with a long tail" is fine, but "The man bought a dog that was black with a long tail" creates ambiguity. In Defence exams like CDS and NDA, examiners often test this by placing phrases like "only," "almost," or "nearly" in the wrong spot.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    A <strong>Dangling Modifier</strong> is more severe. It occurs when the word being modified is entirely missing from the sentence. Usually, this happens with introductory participial phrases. If you start a sentence with "Walking down the street, the trees looked beautiful," the sentence implies that the <em>trees</em> were walking down the street. Since the subject (the person walking) is missing, the modifier is "dangling."
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Key Concepts & Identification</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-    <li><strong>The Proximity Rule:</strong> Modifiers must be placed adjacent to the words they modify. If you describe an action, place the modifier near the verb; if you describe a noun, place it near the noun.</li>
-    <li><strong>The Subject Match Test:</strong> For introductory phrases (e.g., "Having finished the exam..."), the subject of the main clause <em>must</em> be the person or thing that performed the action in the phrase.</li>
-    <li><strong>Common Culprits:</strong> Watch out for words like <em>only, almost, nearly, just,</em> and <em>hardly</em>. These are frequently misplaced in exam questions.</li>
-  </ul>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li style="margin-bottom: 8px;">• <strong>Rule 1:</strong> Modifiers must be placed adjacent to the words they modify; dangling modifiers lack logical subjects.</li>
-    <li style="margin-bottom: 8px;">• <strong>Rule 2:</strong> If a sentence starts with a participle (e.g., "Running," "Having eaten"), the very next word must be the subject performing that action.</li>
-    <li style="margin-bottom: 8px;">• <strong>Exam Trap:</strong> "Only" should be placed immediately before the word it limits. <em>"I only ate one apple"</em> (I didn't do anything else with it) vs. <em>"I ate only one apple"</em> (I didn't eat two).</li>
-    <li style="margin-bottom: 8px;">• <strong>Correction Strategy:</strong> If you find a dangling modifier, either change the subject of the main clause to match the modifier or rewrite the modifier as a full clause.</li>
-  </ul>
-
-  <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 6px; margin-top: 20px;">
-    <strong style="color: var(--accent);">Pro-Tip for NDA/CDS:</strong> When you see a sentence starting with a comma-separated phrase, immediately look at the noun following the comma. Ask yourself: "Can this noun perform the action in the phrase?" If the answer is "No," you have found your error.
-  </div>
-</div>`;
-
-EXPANDED_NOTES_DATA["punctuation-basics"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Punctuation Basics
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Punctuation is the structural framework of the English language. In Defence examinations like NDA and CDS, punctuation questions often appear in the "Spotting Errors" or "Sentence Improvement" sections. Think of punctuation as the traffic signals of a sentence: without them, the reader crashes into a wall of words, unable to discern where one thought ends and another begins. Mastery of these marks is not just about grammar; it is about precision—a trait highly valued in military leadership.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The core philosophy of punctuation is to provide clarity and rhythm. A comma acts as a brief pause, a semicolon acts as a bridge between two independent but related thoughts, and a colon acts as a gateway to an explanation or list. In competitive exams, examiners frequently test your ability to distinguish between the usage of a comma and a semicolon, or the correct placement of an apostrophe in possessive nouns.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    When approaching these questions, always look for the "Independent Clause" structure. If you have two complete sentences joined by a conjunction, you need a comma. If you have two complete sentences joined without a conjunction, you must use a semicolon or a period. Misplacing these marks often leads to "Comma Splices" or "Run-on Sentences," which are classic traps in the CDS English paper.
-  </p>
-
-  <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-    <li style="margin-bottom: 8px;"><strong>The Comma (,):</strong> Used to separate items in a list, set off introductory phrases, and join independent clauses with a coordinating conjunction (FANBOYS: For, And, Nor, But, Or, Yet, So).</li>
-    <li style="margin-bottom: 8px;"><strong>The Semicolon (;):</strong> Used to link two independent clauses that are closely related in theme without using a conjunction. It is stronger than a comma but weaker than a period.</li>
-    <li style="margin-bottom: 8px;"><strong>The Colon (:):</strong> Used to introduce a list, a formal quotation, or an explanation that follows an independent clause.</li>
-    <li style="margin-bottom: 8px;"><strong>The Apostrophe ('):</strong> Primarily used for possession (e.g., <em>Officer's mess</em>) and contractions (e.g., <em>don't</em>). Note: Never use an apostrophe for plural nouns unless they are possessive.</li>
-  </ul>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li style="margin-bottom: 6px;"><strong>Comma Rule:</strong> Independent Clause + [,] + FANBOYS + Independent Clause.</li>
-    <li style="margin-bottom: 6px;"><strong>Semicolon Rule:</strong> Independent Clause + [;] + Independent Clause (No conjunction needed).</li>
-    <li style="margin-bottom: 6px;"><strong>Apostrophe Trap:</strong> "Its" is possessive; "It's" is a contraction for "It is." In exams, "Its" never takes an apostrophe.</li>
-    <li style="margin-bottom: 6px;"><strong>Colon Fact:</strong> The text preceding a colon must always be a complete sentence. You cannot place a colon after a verb or a preposition.</li>
-    <li style="margin-bottom: 6px;"><strong>Strategic Tip:</strong> If you see a long sentence in the exam, read it aloud. Where you naturally pause, a comma is usually required. If you stop completely, a period or semicolon is likely needed.</li>
-  </ul>
-
-  <div style="margin-top: 20px; padding: 10px; background: rgba(255,255,255,0.05); border-radius: 4px; font-size: 0.9em; font-style: italic;">
-    <strong>Exam Insight:</strong> UPSC examiners love testing the "Possessive Plural" apostrophe. Remember: <em>The soldiers' barracks</em> (plural possessive) vs <em>The soldier's rifle</em> (singular possessive).
-  </div>
-</div>`;
-
-EXPANDED_NOTES_DATA["transformation-sentences"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Transformation of Sentences
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Transformation of sentences is the art of changing the grammatical structure of a sentence without altering its original meaning. In the context of NDA, CDS, and AFCAT examinations, this topic tests your ability to manipulate syntax while maintaining semantic integrity. It is not merely about rewriting; it is about understanding the logical relationship between clauses, the hierarchy of conjunctions, and the nuances of tone.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    To master this, you must view sentences as modular structures. A <strong>Simple sentence</strong> is a single independent clause (one subject-verb unit). A <strong>Compound sentence</strong> is two independent clauses joined by coordinating conjunctions (FANBOYS). A <strong>Complex sentence</strong> consists of one independent clause and at least one dependent clause (joined by subordinating conjunctions like 'because', 'although', 'if').
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The core strategy for transformation involves identifying the "pivot" of the sentence. For instance, when converting a 'Simple' sentence to a 'Complex' one, you often need to expand a phrase (like a prepositional phrase) into a full clause. Conversely, when moving from 'Complex' to 'Simple', you must condense a clause into a participle phrase or an infinitive phrase. Precision is key—if you change the tense or the subject's intent, the transformation is considered incorrect.
-  </p>
-
-  <div style="margin: 20px 0; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 6px;">
-    <h4 style="margin-top: 0; color: var(--accent);">Core Transformation Categories</h4>
-    <ul style="list-style-type: square; padding-left: 20px; line-height: 1.8;">
-      <li><strong>Structural:</strong> Simple ↔ Compound ↔ Complex.</li>
-      <li><strong>Functional:</strong> Assertive ↔ Interrogative ↔ Exclamatory.</li>
-      <li><strong>Comparative:</strong> Positive ↔ Comparative ↔ Superlative degrees.</li>
-      <li><strong>Voice/Narration:</strong> Active ↔ Passive (often integrated into structural transformation).</li>
-    </ul>
-  </div>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-    <li><strong>Simple to Complex:</strong> Replace a participle/prepositional phrase with a relative clause (who, which, that). <em>Example: "I saw a wounded bird" → "I saw a bird that was wounded."</em></li>
-    <li><strong>Compound to Complex:</strong> Replace coordinating conjunctions (and, but, or) with subordinating conjunctions (although, because, if). <em>Example: "Work hard and you will pass" → "If you work hard, you will pass."</em></li>
-    <li><strong>Assertive to Interrogative:</strong> If the assertive is positive, the interrogative must be negative, and vice versa. <em>Example: "Everyone likes success" → "Who does not like success?"</em></li>
-    <li><strong>Degree Changes:</strong> "No other" (Positive) ↔ "Any other" (Comparative) ↔ "The" (Superlative). <em>Example: "No other metal is as useful as iron" → "Iron is more useful than any other metal."</em></li>
-  </ul>
-
-  <div style="margin-top: 20px; padding: 15px; border: 1px dashed var(--accent); border-radius: 6px;">
-    <h4 style="margin-top: 0; color: var(--accent);">Strategic Exam Tips</h4>
-    <p style="margin-bottom: 5px;"><strong>The "Meaning First" Rule:</strong> Always read the original sentence and ask, "What is the core message?" If your transformed sentence adds or subtracts information, it is a trap.</p>
-    <p style="margin-bottom: 0;"><strong>Watch the Conjunctions:</strong> In CDS/NDA, examiners often swap 'and' for 'but' or 'because' for 'although'. Always check if the logical flow (cause-effect vs. contrast) remains consistent.</p>
-  </div>
-</div>`;
-
-EXPANDED_NOTES_DATA["synonyms-antonyms-detailed"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> High-Frequency Synonyms/Antonyms
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In the context of NDA, CDS, and AFCAT examinations, vocabulary is not merely about rote memorization; it is about <strong>contextual precision</strong>. UPSC examiners often select words that appear in editorial columns of national newspapers (like <em>The Hindu</em> or <em>The Indian Express</em>). A synonym is a word that shares a similar denotation, but the nuance—the "flavor" of the word—is what distinguishes a correct answer from a distractor.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    To master this, we use the <strong>"Root-Prefix-Suffix" (RPS) methodology</strong>. By breaking a word into its constituent parts, you can deduce the meaning of an unfamiliar term. For instance, if you encounter the word "Benevolent," identifying the root "Bene" (good) immediately tells you the word has a positive connotation, allowing you to eliminate negative-leaning options in a multiple-choice format.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The exam strategy for Synonyms/Antonyms relies on <strong>Elimination of Extremes</strong>. Often, two options are synonyms of each other, and one is the antonym. By identifying the "polarity" (positive or negative) of the target word, you can instantly discard 50% of the choices. Always look for the <em>closest</em> match; in UPSC papers, there is often a "near-synonym" that is technically more accurate than a broad synonym.
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Core Vocabulary Strategies</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-    <li><strong>The Contextual Anchor:</strong> Read the sentence provided in the question. The surrounding words often act as clues to the tone of the target word.</li>
-    <li><strong>The Polarity Check:</strong> Assign a (+) or (-) sign to the word. If the word is "Malevolent" (-), the synonym must also be (-).</li>
-    <li><strong>Avoid the "Sound-Alike" Trap:</strong> Examiners often include words that sound similar but have different meanings (e.g., <em>Affect</em> vs. <em>Effect</em>). Do not fall for phonetic traps.</li>
-  </ul>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
-    <tr style="background: rgba(255,255,255,0.05);">
-      <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Root/Affix</th>
-      <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Meaning</th>
-      <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Example</th>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);"><strong>Mal-</strong></td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Bad/Evil</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Malice, Malignant</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);"><strong>Bene-</strong></td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Good/Well</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Benefactor, Benefit</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);"><strong>Mis-</strong></td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Wrong/Hate</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Misnomer, Misanthrope</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);"><strong>Anti-</strong></td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Against</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Antipathy, Antidote</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);"><strong>Omni-</strong></td>
-      <td style="padding: 10px; border: 1px solid var(--border);">All</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Omnipotent, Omniscient</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);"><strong>-cide</strong></td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Killing</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Genocide, Homicide</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);"><strong>-phobia</strong></td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Fear</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Claustrophobia, Xenophobia</td>
-    </tr>
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: rgba(255,255,255,0.05); color: var(--text-primary);">
+    <thead>
+      <tr style="background-color: var(--accent); color: #fff;">
+        <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Direct</th>
+        <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Indirect</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="padding: 10px; border: 1px solid var(--border);">Now</td><td style="padding: 10px; border: 1px solid var(--border);">Then</td></tr>
+      <tr><td style="padding: 10px; border: 1px solid var(--border);">Today</td><td style="padding: 10px; border: 1px solid var(--border);">That day</td></tr>
+      <tr><td style="padding: 10px; border: 1px solid var(--border);">Yesterday</td><td style="padding: 10px; border: 1px solid var(--border);">The previous day / The day before</td></tr>
+      <tr><td style="padding: 10px; border: 1px solid var(--border);">Tomorrow</td><td style="padding: 10px; border: 1px solid var(--border);">The next day / The following day</td></tr>
+      <tr><td style="padding: 10px; border: 1px solid var(--border);">Last night/week/year</td><td style="padding: 10px; border: 1px solid var(--border);">The previous night/week/year</td></tr>
+      <tr><td style="padding: 10px; border: 1px solid var(--border);">Next week/month/year</td><td style="padding: 10px; border: 1px solid var(--border);">The following week/month/year</td></tr>
+      <tr><td style="padding: 10px; border: 1px solid var(--border);">Ago</td><td style="padding: 10px; border: 1px solid var(--border);">Before</td></tr>
+      <tr><td style="padding: 10px; border: 1px solid var(--border);">Here</td><td style="padding: 10px; border: 1px solid var(--border);">There</td></tr>
+      <tr><td style="padding: 10px; border: 1px solid var(--border);">This</td><td style="padding: 10px; border: 1px solid var(--border);">That</td></tr>
+      <tr><td style="padding: 10px; border: 1px solid var(--border);">These</td><td style="padding: 10px; border: 1px solid var(--border);">Those</td></tr>
+      <tr><td style="padding: 10px; border: 1px solid var(--border);">Come</td><td style="padding: 10px; border: 1px solid var(--border);">Go (if the direction implies movement away from the speaker)</td></tr>
+    </tbody>
   </table>
 
-  <p style="margin-top: 20px; font-style: italic; color: var(--accent);">
-    <strong>Pro-Tip:</strong> For CDS/NDA, maintain a "Word-Bank" notebook. Every time you encounter a word in a PYQ that you don't know, write it down with its root, a synonym, and an antonym. Review this list every Sunday.
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">III. Special Cases and Exceptions</h4>
+
+  <h5 style="color: var(--accent); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">1. Universal Truths, Habitual Facts, Proverbial Truths</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: var(--text-primary);">
+    <span style="color: var(--success);">The tense of the reported speech does NOT change</span> if it expresses a [[Universal Truth]], a [[Habitual Action]], a [[Scientific Fact]], or a [[Proverb]]. This is a common error point in competitive exams.
   </p>
-
-  <!-- Interactive Vocabulary Search Vault -->
-  <div class="panel" style="margin-top: 32px; border: 1px solid var(--border); border-radius: 12px; background: rgba(0,0,0,0.15); padding: 24px;">
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 12px;">
-      <h3 style="color: var(--accent); margin: 0; font-family: var(--font-logo); font-size: 1.2rem; text-transform: uppercase;">UPSC PYQ Vocabulary Vault</h3>
-      <span style="font-family: var(--font-mono); font-size: 0.8rem; background: rgba(255,255,255,0.05); padding: 4px 10px; border-radius: 4px; color: var(--info);" id="vocab-count-badge">0 Words Loaded</span>
-    </div>
-    <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 20px;">
-      Search and study 700+ vocabulary words directly compiled from the last 7 years of UPSC CDS, NDA, and AFCAT papers. Filter by year, exam, part of speech, or search keywords.
-    </p>
-    
-    <!-- Filters Bar -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 20px;">
-      <input type="text" id="vocab-search-input" onkeyup="filterVocabVault()" placeholder="Search word, meaning, synonym..." style="padding: 10px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.85rem; outline: none; font-family: var(--font-main);" />
-      
-      <select id="vocab-filter-exam" onchange="filterVocabVault()" style="padding: 10px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.85rem; outline: none; cursor: pointer; font-family: var(--font-main);">
-        <option value="all">All Exams / Years</option>
-        <option value="2026">2026</option>
-        <option value="2025">2025</option>
-        <option value="2024">2024</option>
-        <option value="2023">2023</option>
-        <option value="2022">2022</option>
-        <option value="2021">2021</option>
-        <option value="2020">2020</option>
-      </select>
-      
-      <select id="vocab-filter-pos" onchange="filterVocabVault()" style="padding: 10px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.85rem; outline: none; cursor: pointer; font-family: var(--font-main);">
-        <option value="all">All Parts of Speech</option>
-        <option value="Noun">Noun</option>
-        <option value="Verb">Verb</option>
-        <option value="Adjective">Adjective</option>
-        <option value="Adverb">Adverb</option>
-      </select>
-    </div>
-    
-    <!-- Vocabulary Grid List -->
-    <div id="vocab-vault-grid" style="display: grid; grid-template-columns: 1fr; gap: 16px; max-height: 450px; overflow-y: auto; padding-right: 8px;">
-      <!-- Rendered dynamically -->
-    </div>
-  </div>
-</div>`;
-
-EXPANDED_NOTES_DATA["phrasal-verbs"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Phrasal Verbs
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In the context of NDA, CDS, and AFCAT examinations, Phrasal Verbs are a critical component of the English syllabus. A phrasal verb is a combination of a <strong>verb</strong> and a <strong>particle</strong> (either a preposition or an adverb) that functions as a single semantic unit. Crucially, the meaning of a phrasal verb is often idiomatic—meaning it cannot be deduced by looking at the individual words alone. For instance, "give up" does not mean "to give something in an upward direction," but rather "to quit or surrender."
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Understanding phrasal verbs requires a shift from literal translation to contextual analysis. In defence exams, these are frequently tested in "Spotting Errors," "Sentence Improvement," and "Cloze Test" sections. The examiners often test your ability to distinguish between similar-looking phrasal verbs (e.g., <em>look after</em> vs. <em>look for</em>). Mastery comes from recognizing the "particle effect"—how changing the preposition (up, down, off, out, on) completely alters the core verb's intent.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    To approach these effectively, treat them as vocabulary units rather than grammar rules. When you encounter a phrasal verb, visualize the action. For example, "Call off" implies stopping something that was already in motion (like a meeting), whereas "Call out" implies shouting or challenging someone. Consistent practice with PYQs is essential because UPSC tends to repeat specific phrasal verbs that appear in official communication and military-related contexts.
-  </p>
-
-  <div style="margin-top: 20px;">
-    <h4 style="color: var(--text-primary); font-weight: 600; margin-bottom: 10px;">Strategic Classification</h4>
-    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
-      <thead>
-        <tr style="background: rgba(255,255,255,0.05);">
-          <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Category</th>
-          <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Example</th>
-          <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Meaning</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td style="padding: 10px; border: 1px solid var(--border);">Separable</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Turn off the light / Turn the light off</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Can place object between verb and particle.</td>
-        </tr>
-        <tr>
-          <td style="padding: 10px; border: 1px solid var(--border);">Inseparable</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Look after the child</td>
-          <td style="padding: 10px; border: 1px solid var(--border);">Object must follow the particle.</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-    <li><strong>Break down:</strong> To stop functioning (machinery) or to lose emotional control.</li>
-    <li><strong>Break out:</strong> To escape (prison) or the sudden start of something (war/epidemic).</li>
-    <li><strong>Call off:</strong> To cancel an event or arrangement.</li>
-    <li><strong>Carry out:</strong> To perform or execute a task or order (very common in military contexts).</li>
-    <li><strong>Come across:</strong> To find something or meet someone by chance.</li>
-    <li><strong>Look into:</strong> To investigate or examine the facts of a situation.</li>
-    <li><strong>Put off:</strong> To postpone an event to a later time.</li>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li><span style="color: var(--accent-light);">Direct:</span> The teacher said, "The Earth revolves around the Sun."</li>
+    <li><span style="color: var(--accent-light);">Indirect:</span> The teacher said that the Earth revolves around the Sun.</li>
+    <li><span style="color: var(--accent-light);">Direct:</span> He said, "Honesty is the best policy."</li>
+    <li><span style="color: var(--accent-light);">Indirect:</span> He said that honesty is the best policy.</li>
   </ul>
 
-  <div style="margin-top: 20px; padding: 15px; background: rgba(0, 123, 255, 0.1); border-radius: 6px;">
-    <strong style="color: var(--info);">Exam Trap Alert:</strong> Never confuse <em>"Look for"</em> (to search) with <em>"Look after"</em> (to take care of). UPSC often swaps these in sentence completion questions to test your attention to detail. Always read the entire sentence to identify the context before selecting the phrasal verb.
-  </div>
-</div>`;
-
-EXPANDED_NOTES_DATA["reading-comprehension"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Reading Comprehension
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Reading Comprehension (RC) in NDA, CDS, and AFCAT is not merely about reading a passage; it is a test of your ability to extract information, analyze logic, and interpret the author's intent under time pressure. Think of the passage as a battlefield: you are the commander, and your goal is to secure the "strategic objectives" (the answers) without getting bogged down in the "terrain" (unnecessary details).
+  <h5 style="color: var(--accent); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">2. Sentences with 'Must'</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: var(--text-primary);">
+    'Must' generally changes to 'had to' when it expresses an obligation that refers to a specific time or future action. However, if 'must' expresses a permanent rule, a continuing obligation, or a logical deduction, it remains 'must'.
   </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The fundamental concept is <strong>Active Reading</strong>. Most candidates read passively, letting words wash over them. To excel, you must read with a purpose. Before diving into the text, scan the questions. This creates a "search-and-retrieve" mindset. When you encounter a passage, identify the <em>Topic Sentence</em> (usually the first or last sentence of a paragraph) which acts as the anchor for the entire paragraph's argument.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In Defence exams, the passages often revolve around themes like geopolitics, history, environment, or social issues. The questions are designed to test your ability to distinguish between <em>explicit information</em> (stated directly) and <em>implicit information</em> (inferred from context). Avoid the "External Knowledge Trap"—never answer based on what you know about the topic; answer strictly based on what the author has provided in the text.
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Core Strategies for Success</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-    <li style="margin-bottom: 8px;"><strong>The Skim & Scan Technique:</strong> Skim the passage for the general theme (30 seconds), then scan for keywords related to the questions.</li>
-    <li style="margin-bottom: 8px;"><strong>Elimination Strategy:</strong> In multiple-choice questions, look for "Extreme Words" (e.g., <em>always, never, only, must</em>). These are often incorrect in inference-based questions.</li>
-    <li style="margin-bottom: 8px;"><strong>The "Evidence" Rule:</strong> If you cannot point to a specific line or phrase in the passage that justifies your answer, it is likely a distractor.</li>
-    <li style="margin-bottom: 8px;"><strong>Tone Identification:</strong> Pay attention to adjectives and verbs. Are they positive (laudatory), negative (critical), or neutral (objective)? This helps in answering "Author's Tone" questions.</li>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li><span style="color: var(--accent-light);">Direct:</span> He said, "I must finish this today."</li>
+    <li><span style="color: var(--accent-light);">Indirect:</span> He said that he had to finish that that day.</li>
+    <li><span style="color: var(--accent-light);">Direct:</span> The doctor said, "You must take your medicines regularly."</li>
+    <li><span style="color: var(--accent-light);">Indirect:</span> The doctor said that I must take my medicines regularly. (Continuing obligation)</li>
   </ul>
 
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li style="margin-bottom: 10px;"><strong>Main Idea Formula:</strong> (Topic + Author's Stance) = Main Idea. Look for this in the introductory or concluding paragraph.</li>
-    <li style="margin-bottom: 10px;"><strong>Detail Retrieval:</strong> Locate the keyword in the question, find it in the text, and read the sentence before and after it for context.</li>
-    <li style="margin-bottom: 10px;"><strong>Inference Logic:</strong> Inference = (What is stated) + (Logical deduction). It must be true based on the text, not just a possibility.</li>
-    <li style="margin-bottom: 10px;"><strong>Tone Mapping:</strong> 
-      <table style="width: 100%; border-collapse: collapse; margin-top: 5px;">
-        <tr><td style="border: 1px solid var(--border); padding: 5px;">Analytical</td><td style="border: 1px solid var(--border); padding: 5px;">Objective, logical, data-driven.</td></tr>
-        <tr><td style="border: 1px solid var(--border); padding: 5px;">Critical</td><td style="border: 1px solid var(--border); padding: 5px;">Highlighting flaws or shortcomings.</td></tr>
-        <tr><td style="border: 1px solid var(--border); padding: 5px;">Didactic</td><td style="border: 1px solid var(--border); padding: 5px;">Intended to teach or moralize.</td></tr>
-      </table>
+  <h5 style="color: var(--accent); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">3. Clauses with Unreal Past (Conditional Sentences)</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: var(--text-primary);">
+    When the reported speech contains a [[Conditional Sentence]] (Type 2 or 3, involving hypothetical situations), or expresses a wish with 'wish', the tense typically does not change.
+  </p>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li><span style="color: var(--accent-light);">Direct:</span> He said, "If I were rich, I would travel the world."</li>
+    <li><span style="color: var(--accent-light);">Indirect:</span> He said that if he were rich, he would travel the world.</li>
+    <li><span style="color: var(--accent-light);">Direct:</span> She said, "I wish I had a car."</li>
+    <li><span style="color: var(--accent-light);">Indirect:</span> She said that she wished she had a car.</li>
+  </ul>
+
+  <h5 style="color: var(--accent); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">4. Imperative Sentences (Commands, Requests, Advice)</h5>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li style="margin-bottom: 8px;">
+      Use [[Reporting Verbs]] that accurately reflect the tone: 'ordered', 'requested', 'advised', 'warned', 'forbade', 'begged', 'urged', 'suggested'.
     </li>
-    <li style="margin-top: 10px;"><strong>Title Finding:</strong> The title must be broad enough to cover the whole passage but specific enough to reflect the core argument. Avoid titles that focus on only one paragraph.</li>
+    <li style="margin-bottom: 8px;">
+      The imperative mood is converted into an [[Infinitive Phrase]] (to + base verb). For negative imperatives, use 'not to + base verb'.
+      <br><span style="color: var(--accent-light);">Direct:</span> The officer said to the soldiers, "March forward!"
+      <br><span style="color: var(--accent-light);">Indirect:</span> The officer commanded the soldiers to march forward.
+      <br><span style="color: var(--accent-light);">Direct:</span> She said to him, "Please help me."
+      <br><span style="color: var(--accent-light);">Indirect:</span> She requested him to help her.
+      <br><span style="color: var(--accent-light);">Direct:</span> He said to me, "Don't waste your time."
+      <br><span style="color: var(--accent-light);">Indirect:</span> He advised me not to waste my time.
+    </li>
   </ul>
 
-  <div style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 5px;">
-    <strong style="color: var(--accent);">Exam Trap Alert:</strong> Beware of "True but Irrelevant" options. An option might be a factual statement mentioned in the passage, but if it doesn't answer the specific question asked, it is a trap designed to waste your time.
-  </div>
-</div>`;
+  <h5 style="color: var(--accent); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">5. Interrogative Sentences (Questions)</h5>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li style="margin-bottom: 8px;">
+      The [[Reporting Verb]] changes to 'asked', 'enquired', 'wondered', 'demanded to know'.
+    </li>
+    <li style="margin-bottom: 8px;">
+      The [[Question Mark]] is replaced by a [[Full Stop]], and the sentence structure changes from interrogative to [[Declarative]] (Subject + Verb order).
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--success);">Yes/No Questions:</span> Use 'if' or 'whether' as the conjunction.
+      <br><span style="color: var(--accent-light);">Direct:</span> He said to me, "Do you speak English?"
+      <br><span style="color: var(--accent-light);">Indirect:</span> He asked me if I spoke English.
+    </li>
+    <li>
+      <span style="color: var(--success);">Wh-Questions:</span> The 'Wh-word' (who, what, when, where, why, how) itself acts as the conjunction.
+      <br><span style="color: var(--accent-light);">Direct:</span> She asked him, "What is your name?"
+      <br><span style="color: var(--accent-light);">Indirect:</span> She asked him what his name was.
+    </li>
+  </ul>
 
-EXPANDED_NOTES_DATA["error-detection"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h5 style="color: var(--accent); margin-top: 15px; margin-bottom: 8px; font-weight: 600;">6. Exclamatory and Optative Sentences</h5>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--success);">Exclamatory:</span> Change 'said' to 'exclaimed with joy/sorrow/surprise', 'cried out', 'wished', 'applauded'. Use 'that' as the conjunction. Convert the exclamation into a declarative statement.
+      <br><span style="color: var(--accent-light);">Direct:</span> She said, "Hurrah! We have won the match."
+      <br><span style="color: var(--accent-light);">Indirect:</span> She exclaimed with joy that they had won the match.
+      <br><span style="color: var(--accent-light);">Direct:</span> He said, "Alas! I am undone."
+      <br><span style="color: var(--accent-light);">Indirect:</span> He exclaimed with sorrow that he was undone.
+    </li>
+    <li>
+      <span style="color: var(--success);">Optative:</span> Change 'said' to 'wished', 'prayed', 'blessed', 'cursed'. Use 'that' as the conjunction. The modal 'may' often changes to 'might'.
+      <br><span style="color: var(--accent-light);">Direct:</span> He said, "May you live long!"
+      <br><span style="color: var(--accent-light);">Indirect:</span> He prayed that I might live long.
+      <br><span style="color: var(--accent-light);">Direct:</span> The old woman said, "May God bless you!"
+      <br><span style="color: var(--accent-light);">Indirect:</span> The old woman prayed that God might bless me.
+    </li>
+  </ul>
+
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Rules & Facts</h4>
+  <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.6; color: var(--text-primary);">
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Reporting Verb in Present/Future:</span> No change in the tense of the reported speech. This is a common trap in MCQ questions.
+      <br><span style="color: var(--accent-light);">Example:</span> He says, "I eat an apple." -> He says that he eats an apple.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Universal Truths/Habitual Actions:</span> The tense of reported speech remains unchanged, even if the reporting verb is in the past tense. Always look out for these exceptions.
+      <br><span style="color: var(--accent-light);">Example:</span> She said, "Water boils at 100°C." -> She said that water boils at 100°C.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Pronoun Changes (SON Rule):</span> Always correctly apply the SON rule (Subject for First Person, Object for Second Person, No change for Third Person) relative to the reporting verb's subject/object. Misapplication of this rule is a frequent error.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Imperative Sentences:</span> Convert to \`to + infinitive\` (positive) or \`not to + infinitive\` (negative). The reporting verb must clearly convey the command, request, or advice.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Interrogative Sentences:</span>
+      <ol style="margin-left: 20px; margin-top: 5px;">
+        <li style="margin-bottom: 4px;">Replace 'said to' with 'asked/enquired/wondered'.</li>
+        <li style="margin-bottom: 4px;">For Yes/No questions, use 'if' or 'whether' as the conjunction.</li>
+        <li style="margin-bottom: 4px;">For Wh-questions, the Wh-word itself acts as the conjunction.</li>
+        <li><span style="color: var(--warning);">Crucially, change the sentence structure from interrogative to declarative</span> (Subject + Verb order, removing auxiliary verbs like 'do/does/did').</li>
+      </ol>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Modal Verbs:</span> Remember the consistent changes: Can -> Could, May -> Might, Will -> Would, Shall -> Should. 'Must' often changes to 'had to' but can remain 'must' for permanent obligations or strong logical deductions.
+    </li>
+    <li>
+      <span style="color: var(--warning);">Time & Place Expressions:</span> Always remember to change words like 'now' to 'then', 'today' to 'that day', 'this' to 'that', 'here' to 'there', 'ago' to 'before', etc. Overlooking these changes is a common mistake that costs marks.
+    </li>
+  </ul>
+</div>
+`;
+
+EXPANDED_NOTES_DATA["modifiers"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Spotting Errors
+    Modifiers: Misplaced & Dangling
   </h3>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Spotting Errors is the backbone of the English section in NDA, CDS, and AFCAT examinations. UPSC tests your ability to identify grammatical inaccuracies in a sentence by breaking it into segments (A, B, C, and D). To master this, you must move beyond "reading for flow" and start "reading for structure." Think of a sentence as a mechanical engine: if one gear (part of speech) is misaligned, the entire machine fails to function correctly.
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    In English [[Grammar]], [[modifiers]] are words, phrases, or clauses that provide additional information about another [[word]] or [[phrase]] in a [[sentence]]. They act like descriptive labels, clarifying, explaining, or limiting the element they modify. Common types of [[modifiers]] include [[adjectives]], [[adverbs]], [[participial phrases]], [[prepositional phrases]], [[adjectival clauses]], and [[adverbial clauses]]. While essential for adding detail and precision, if a [[modifier]] is not placed correctly, it can lead to confusion, ambiguity, or even unintentional humour. This section will delve into two critical errors related to [[modifier]] placement: Misplaced Modifiers and Dangling Modifiers – concepts frequently tested in NDA, CDS, and AFCAT examinations.
   </p>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The fundamental approach is to perform a <strong>"Grammatical Scan."</strong> First, identify the Subject and the Verb. If they don't agree in number, you have found your error. Second, check the Tense consistency—does the sentence start in the past and end in the present without a logical reason? Third, look for "trigger words" (like 'each', 'every', 'neither', 'hardly') that dictate specific grammatical structures.
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Misplaced Modifiers</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    A <span style="color: var(--warning);">misplaced modifier</span> is a [[modifier]] that is positioned incorrectly in a [[sentence]], leading it to seem as though it modifies a [[word]] or [[phrase]] other than the one it was intended to modify. This often happens when the [[modifier]] is placed too far away from the [[word]] it describes, creating a logical disconnect. The [[subject]] being modified is usually present in the [[sentence]], but the placement of the [[modifier]] is faulty.
   </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Many aspirants fail because they rely on intuition. In competitive exams, intuition is often a trap set by the examiner. For instance, "The committee have decided" sounds correct to the ear, but it is grammatically incorrect because a collective noun acting as a single unit requires a singular verb ("has"). Always verify your choice against the core rules of syntax rather than how "natural" the sentence sounds.
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Core Error Categories</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-    <li style="margin-bottom: 8px;"><strong>Subject-Verb Agreement:</strong> The verb must match the subject in number (Singular/Plural). Watch out for phrases like "as well as," "along with," or "together with" which do not change the number of the main subject.</li>
-    <li style="margin-bottom: 8px;"><strong>Tense Consistency:</strong> Ensure the timeline of the sentence is logical. Avoid mixing past and present unless the context demands a shift.</li>
-    <li style="margin-bottom: 8px;"><strong>Pronoun Antecedents:</strong> Ensure pronouns (he, she, it, they) clearly refer to a specific noun mentioned earlier.</li>
-    <li style="margin-bottom: 8px;"><strong>Parallelism:</strong> Items in a list must share the same grammatical form (e.g., "He likes swimming, running, and to cycle" is wrong; it should be "He likes swimming, running, and cycling").</li>
+  <ul style="margin-bottom: 12px; padding-left: 20px;">
+    <li style="margin-bottom: 8px;">
+      <p style="font-weight: 600; color: var(--accent);">Rule:</p>
+      <p style="margin-top: 4px; line-height: 1.6;">Always place a [[modifier]] as close as possible to the [[word]] or [[phrase]] it is intended to modify. Proximity ensures clarity.</p>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <p style="font-weight: 600; color: var(--accent);">Examples:</p>
+      <ul style="list-style-type: disc; padding-left: 20px; margin-top: 8px;">
+        <li style="margin-bottom: 4px;">
+          <span style="font-weight: 500;">Incorrect:</span> <code style="background: rgba(var(--text-primary-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">She served coffee to the guests that was cold.</code> (Implies the guests were cold)
+        </li>
+        <li style="margin-bottom: 8px;">
+          <span style="font-weight: 500;">Correct:</span> <code style="background: rgba(var(--success-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">She served cold coffee to the guests.</code> (Clearly states the coffee was cold)
+        </li>
+        <li style="margin-bottom: 4px;">
+          <span style="font-weight: 500;">Incorrect:</span> <code style="background: rgba(var(--text-primary-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">I bought a used car from a dealer with a faulty engine.</code> (Suggests the dealer had a faulty engine)
+        </li>
+        <li style="margin-bottom: 8px;">
+          <span style="font-weight: 500;">Correct:</span> <code style="background: rgba(var(--success-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">I bought a used car with a faulty engine from a dealer.</code> (Clarifies the car had the faulty engine)
+        </li>
+        <li style="margin-bottom: 4px;">
+          <span style="font-weight: 500;">Incorrect:</span> <code style="background: rgba(var(--text-primary-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">He ate a sandwich with a satisfied grin.</code> (Implies the sandwich had a grin)
+        </li>
+        <li style="margin-bottom: 8px;">
+          <span style="font-weight: 500;">Correct:</span> <code style="background: rgba(var(--success-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">With a satisfied grin, he ate a sandwich.</code> (Clarifies who had the grin)
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <p style="font-weight: 600; color: var(--warning);">Special Case: Limiting Adverbs</p>
+      <p style="margin-top: 4px; line-height: 1.6;">
+        Be particularly careful with <span style="color: var(--warning);">limiting [[adverbs]]</span> such as "only," "almost," "nearly," "just," "merely," and "hardly." Their placement can drastically alter the [[sentence meaning]].
+      </p>
+      <ul style="list-style-type: disc; padding-left: 20px; margin-top: 8px;">
+        <li style="margin-bottom: 4px;">
+          <code style="background: rgba(var(--text-primary-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">Only I bought the book.</code> (No one else bought it.)
+        </li>
+        <li style="margin-bottom: 4px;">
+          <code style="background: rgba(var(--text-primary-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">I only bought the book.</code> (I didn't steal it; I just bought it.)
+        </li>
+        <li style="margin-bottom: 8px;">
+          <code style="background: rgba(var(--text-primary-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">I bought only the book.</code> (I bought nothing else.)
+        </li>
+      </ul>
+    </li>
   </ul>
 
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
-    <tr style="background: rgba(255,255,255,0.05);">
-      <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Category</th>
-      <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">Key Rule/Formula</th>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">Subject-Verb</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Neither/Either + Singular Verb.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">Articles</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Use 'a' before consonant sounds, 'an' before vowel sounds.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">Prepositions</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">"Between" takes "and"; "From" takes "to".</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid var(--border);">Redundancy</td>
-      <td style="padding: 10px; border: 1px solid var(--border);">Avoid "Return back" (use "Return") or "Repeat again" (use "Repeat").</td>
-    </tr>
-  </table>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Dangling Modifiers</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    A <span style="color: var(--success);">dangling modifier</span> is a [[modifier]] (often an [[introductory phrase]] or [[clause]]) whose intended [[subject]] is missing from the [[sentence]] or is not clearly stated. Because the actual [[subject]] is absent, the [[modifier]] seems to "dangle" without a clear [[word]] to describe, creating a nonsensical or illogical statement. This is a common error in NDA/CDS/AFCAT's [[Spotting Errors]] and [[Sentence Improvement]] sections.
+  </p>
+  <ul style="margin-bottom: 12px; padding-left: 20px;">
+    <li style="margin-bottom: 8px;">
+      <p style="font-weight: 600; color: var(--accent);">Rule:</p>
+      <p style="margin-top: 4px; line-height: 1.6;">The [[noun]] or [[pronoun]] that a [[dangling modifier]] describes must be explicitly stated immediately after the [[modifier]]. If it's an [[introductory phrase]], the [[subject]] of the [[main clause]] must be the one performing the action described by the [[modifier]].</p>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <p style="font-weight: 600; color: var(--accent);">Examples:</p>
+      <ul style="list-style-type: disc; padding-left: 20px; margin-top: 8px;">
+        <li style="margin-bottom: 4px;">
+          <span style="font-weight: 500;">Incorrect:</span> <code style="background: rgba(var(--text-primary-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">Walking through the park, a dog barked loudly.</code> (Implies the dog was walking)
+        </li>
+        <li style="margin-bottom: 8px;">
+          <span style="font-weight: 500;">Correct:</span> <code style="background: rgba(var(--success-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">Walking through the park, I heard a dog bark loudly.</code> (Clarifies 'I' was walking)
+        </li>
+        <li style="margin-bottom: 4px;">
+          <span style="font-weight: 500;">Incorrect:</span> <code style="background: rgba(var(--text-primary-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">To pass the exam, a lot of effort is required.</code> (Implies effort passes the exam)
+        </li>
+        <li style="margin-bottom: 8px;">
+          <span style="font-weight: 500;">Correct:</span> <code style="background: rgba(var(--success-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">To pass the exam, students need to put in a lot of effort.</code> (Clarifies 'students' need to pass)
+        </li>
+        <li style="margin-bottom: 4px;">
+          <span style="font-weight: 500;">Incorrect:</span> <code style="background: rgba(var(--text-primary-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">Having finished the report, the coffee machine broke down.</code> (Implies the coffee machine finished the report)
+        </li>
+        <li style="margin-bottom: 8px;">
+          <span style="font-weight: 500;">Correct:</span> <code style="background: rgba(var(--success-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">Having finished the report, I noticed the coffee machine broke down.</code> (Clarifies 'I' finished the report)
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <p style="font-weight: 600; color: var(--success);">How to Correct Dangling Modifiers:</p>
+      <ol style="list-style-type: decimal; padding-left: 20px; margin-top: 4px;">
+        <li style="margin-bottom: 4px;">
+          <span style="font-weight: 500;">Add the missing [[subject]]:</span> Ensure the [[noun]] or [[pronoun]] that performs the action of the [[modifier]] is immediately following it.
+        </li>
+        <li style="margin-bottom: 4px;">
+          <span style="font-weight: 500;">Rewrite the [[modifier]]:</span> Convert the [[dangling modifier]] into a [[subordinate clause]] with its own [[subject]] and [[verb]].
+          <ul style="list-style-type: circle; padding-left: 20px; margin-top: 8px;">
+            <li style="margin-bottom: 4px;">
+              <span style="font-weight: 500;">Original:</span> <code style="background: rgba(var(--text-primary-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">After running for an hour, the thirst was unbearable.</code>
+            </li>
+            <li style="margin-bottom: 8px;">
+              <span style="font-weight: 500;">Corrected:</span> <code style="background: rgba(var(--success-rgb), 0.1); padding: 2px 4px; border-radius: 4px;">After I ran for an hour, the thirst was unbearable.</code>
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </li>
+  </ul>
 
-  <div style="margin-top: 20px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-radius: 5px; border-left: 4px solid gold;">
-    <strong style="color: gold;">Pro-Tip for UPSC:</strong> Always look for the "Hidden Subject." UPSC often places long prepositional phrases between the subject and the verb to confuse you. 
-    <em>Example: "The quality of the apples (is/are) good."</em> The subject is 'quality' (singular), not 'apples' (plural). Ignore the prepositional phrase to find the truth!
-  </div>
-</div>`;
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Distinction and Exam Strategy</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    The key difference between a <span style="color: var(--warning);">misplaced modifier</span> and a <span style="color: var(--success);">dangling modifier</span> lies in the presence or absence of the [[subject]] being modified. A misplaced modifier's [[subject]] is present but the modifier is in the wrong place. A dangling modifier's [[subject]] is either missing entirely or is not clearly identified as the performer of the action in the introductory phrase.
+  </p>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    In competitive exams like NDA, CDS, and AFCAT, these errors are frequently tested in sections like [[Sentence Correction]], [[Spotting Errors]], and [[Sentence Improvement]]. When you encounter an [[introductory phrase]] or clause, always ask yourself: "Who or what is performing this action?" The answer should be the immediate [[subject]] of the [[main clause]] that follows. If not, you likely have a dangling modifier. For other [[modifiers]], visually check if they are directly adjacent to the [[word]] they logically describe.
+  </p>
 
-EXPANDED_NOTES_DATA["sentence-improvement"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Rules & Facts</h4>
+  <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 12px;">
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--accent);">Proximity is Key:</span> A [[modifier]] must clearly and logically describe the [[word]] or [[phrase]] it is intended to modify. Place it as close as possible to its target.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Misplaced vs. Dangling:</span> [[Misplaced modifiers]] are incorrectly positioned while their [[subject]] exists. [[Dangling modifiers]] lack a clear [[subject]] for the [[modifier]] to attach to.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Limiting [[Adverbs]]:</span> [[Adverbs]] like "only," "almost," "nearly," "just," "merely" are extremely sensitive to placement and can completely alter [[sentence meaning]]. Position them precisely before the [[word]] they modify.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--success);">Correcting Danglers:</span> To fix a [[dangling modifier]], either add the missing [[subject]] immediately after the [[modifier]], or rewrite the [[modifier]] into a [[subordinate clause]] with its own [[subject]] and [[verb]].
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--accent);">Check [[Introductory Phrases]]:</span> Always scrutinize [[introductory phrases]] (especially [[participial phrases]] beginning with -ing or -ed, or [[infinitive phrases]] starting with 'to') to ensure the [[subject]] immediately following them is the logical performer of the action.
+    </li>
+  </ul>
+</div>
+`;
+
+EXPANDED_NOTES_DATA["punctuation-basics"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Sentence Improvement
+    Punctuation Basics
   </h3>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    Sentence Improvement is a cornerstone of the English section in NDA, CDS, and AFCAT examinations. Unlike "Spotting Errors," where you simply identify a mistake, Sentence Improvement requires you to select the most grammatically accurate, concise, and stylistically appropriate version of a highlighted phrase. Think of it as a "surgical correction"—you are not just finding the wound; you are providing the best possible treatment to restore the sentence to its optimal form.
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    Punctuation marks are symbols that indicate the structure and organization of written language, guiding the reader through the text. They clarify meaning, avoid ambiguity, and ensure that [[sentences]] are easy to understand. In competitive examinations like NDA, CDS, and AFCAT, questions on punctuation often appear in the [[Spotting Errors]] or [[Sentence Improvement]] sections, testing your ability to identify correctly structured sentences and rectify common punctuation mistakes. Mastering punctuation is crucial for achieving high scores in the English section.
   </p>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The core philosophy behind these questions is to test your command over <strong>Standard Written English</strong>. The UPSC examiners look for precision. Often, a sentence may be grammatically "correct" but stylistically "clunky" or redundant. Your goal is to choose the option that conveys the intended meaning with the highest degree of clarity and adherence to formal grammar rules.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    To master this, you must approach each question by first identifying the "Error Category." Is it a Subject-Verb Agreement issue? A misplaced modifier? Or perhaps a misuse of a prepositional idiom? By categorizing the error, you narrow down the potential fixes. Always remember: if the original sentence is already perfect, the option "No Improvement" is your best friend. Do not force a change where none is needed.
-  </p>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Core Pillars of Improvement</h4>
-  <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-    <li><strong>Grammar:</strong> Ensuring Tense consistency, Subject-Verb agreement, and correct Pronoun usage.</li>
-    <li><strong>Word Choice (Diction):</strong> Selecting the precise word (e.g., "affect" vs. "effect," "complement" vs. "compliment").</li>
-    <li><strong>Clarity & Conciseness:</strong> Eliminating tautologies (e.g., "return back" is redundant; use "return").</li>
-    <li><strong>Parallel Structure:</strong> Ensuring items in a list or comparison follow the same grammatical form (e.g., "He likes swimming, running, and to cycle" should be "He likes swimming, running, and cycling").</li>
-    <li><strong>Idiomatic Usage:</strong> Recognizing fixed prepositional phrases (e.g., "abide by," "congratulate on").</li>
-  </ul>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: square; padding-left: 20px; line-height: 1.8;">
-    <li><strong>The "No Improvement" Trap:</strong> In 15-20% of UPSC questions, the sentence is already correct. Do not overthink; if you cannot find a specific grammatical rule being violated, trust the original.</li>
-    <li><strong>Comparison Rule:</strong> Always compare like with like. (e.g., "The climate of Delhi is better than Mumbai" is wrong; it should be "The climate of Delhi is better than <em>that of</em> Mumbai").</li>
-    <li><strong>The "Only" Placement:</strong> The word "only" should be placed immediately before the word it modifies. (e.g., "I only gave him ten rupees" vs. "I gave him only ten rupees").</li>
-    <li><strong>Syntax Correction:</strong> Ensure the Subject-Verb-Object order is maintained unless inversion is required for emphasis.</li>
-    <li><strong>Tense Sequence:</strong> If the main clause is in the past, the subordinate clause must generally follow suit (unless stating a universal truth).</li>
-  </ul>
-
-  <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 6px; margin-top: 20px;">
-    <strong style="color: var(--accent);">Pro-Tip for Defence Exams:</strong> 
-    When in doubt, look for the <em>shortest</em> option that retains the full meaning. UPSC values brevity. If two options are grammatically correct, the one that is more concise is almost always the intended answer.
-  </div>
-</div>`;
-
-EXPANDED_NOTES_DATA["ordering-rearrangement"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Ordering of Words & Sentences
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In UPSC Defence examinations like NDA and CDS, the "Ordering of Words" (Jumbled Words) and "Ordering of Sentences" (PQRS/Para-jumbles) sections test your command over syntactic structure and logical flow. These questions are not merely about grammar; they are about understanding the "DNA" of an English sentence. A sentence is a structured architecture where every component—Subject, Verb, Object, Adverbial, and Prepositional phrase—has a designated slot.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    To master <strong>Ordering of Words</strong>, think of it as a puzzle where the Subject-Verb-Object (SVO) framework acts as the anchor. Most sentences follow the pattern: <em>Subject + Verb + Object/Complement + Adjuncts (Time/Place/Manner)</em>. When you encounter jumbled words, first identify the main verb. Once the verb is located, ask "Who/What?" to find the subject, and "Whom/What?" to find the object. The remaining fragments (adjectives, prepositions) usually cluster around the nouns they modify.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    For <strong>Ordering of Sentences (PQRS)</strong>, the strategy shifts from grammar to "Cohesion and Coherence." UPSC examiners often use transition words, pronouns, and chronological markers to link ideas. You must look for "Mandatory Pairs"—two sentences that logically cannot be separated (e.g., a sentence introducing a person followed by a sentence using a pronoun like 'he' or 'she' to refer to that person). By identifying these links, you can eliminate incorrect options rapidly without reading every permutation.
-  </p>
-
-  <div style="margin-top: 20px;">
-    <h4 style="color: var(--text-primary); font-weight: 600; margin-bottom: 10px;">Core Methodologies</h4>
-    <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-      <li><strong>The S-V-O Anchor:</strong> Always locate the finite verb first. If there are multiple verbs, identify the main clause vs. the subordinate clause.</li>
-      <li><strong>The Pronoun Rule:</strong> A noun usually appears before the pronoun that replaces it (e.g., "The soldier" must appear before "he").</li>
-      <li><strong>Transition Markers:</strong> Words like 'However', 'Therefore', 'Moreover', and 'Consequently' act as bridges. If a sentence starts with 'However', it must follow a sentence that presents a contrasting idea.</li>
-      <li><strong>Chronological/Logical Flow:</strong> Look for time indicators (First, Then, Finally) or cause-effect relationships (Because, Since, Due to).</li>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">1. The Period (Full Stop) [.]</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    The period is perhaps the most fundamental punctuation mark. Its primary uses are:
+    <ul style="margin-left: 20px; margin-bottom: 12px; list-style-type: disc;">
+      <li style="margin-bottom: 6px;">
+        To mark the end of a [[declarative sentence]] (a statement).<br/>
+        <span style="color: var(--example);">Example:</span> The Indian Army is known for its bravery.<br/>
+        <span style="color: var(--example);">Example:</span> He completed his training successfully.
+      </li>
+      <li style="margin-bottom: 6px;">
+        To mark the end of an [[imperative sentence]] (a command or request) that is not an exclamation.<br/>
+        <span style="color: var(--example);">Example:</span> Please submit your assignments on time.<br/>
+        <span style="color: var(--example);">Example:</span> Close the door quietly.
+      </li>
+      <li style="margin-bottom: 6px;">
+        To follow most [[abbreviations]].<br/>
+        <span style="color: var(--example);">Example:</span> Dr. Sharma, Lt. Col. Singh, etc., M.P., A.M.
+      </li>
     </ul>
-  </div>
-
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: none; padding: 0;">
-    <li style="margin-bottom: 8px;"><strong>S-V-O Framework:</strong> Subject + Verb + Object + (Manner + Place + Time). Always place 'Time' at the end unless emphasizing it.</li>
-    <li style="margin-bottom: 8px;"><strong>Mandatory Pairs:</strong> Identify links like [Article 'The' + Noun] or [Noun + Relative Pronoun 'who/which/that'].</li>
-    <li style="margin-bottom: 8px;"><strong>Opening Sentence:</strong> Usually introduces the topic or a broad statement. Look for nouns that define the subject matter.</li>
-    <li style="margin-bottom: 8px;"><strong>Closing Sentence:</strong> Often contains a summary, a conclusion, or a final result (look for 'Thus', 'In conclusion', 'Finally').</li>
-    <li style="margin-bottom: 8px;"><strong>The 'Elimination' Strategy:</strong> In UPSC exams, you don't need to solve the whole sequence. Solve the first and last parts; often, only one option matches your findings.</li>
-  </ul>
-
-  <div style="background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 5px; margin-top: 20px;">
-    <strong style="color: var(--accent);">Pro-Tip:</strong> When stuck on PQRS, read the options provided. Often, the options themselves reveal the starting sentence (e.g., if three options start with 'S', you only need to verify if 'S' is a logical opener).
-  </div>
-</div>`;
-
-EXPANDED_NOTES_DATA["fill-blanks-cloze"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    <span>•</span> Fill in the Blanks & Cloze Test
-  </h3>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    In UPSC Defence examinations (NDA, CDS, AFCAT), "Fill in the Blanks" and "Cloze Tests" are not merely tests of vocabulary; they are rigorous assessments of your <strong>contextual logic</strong> and <strong>grammatical precision</strong>. While a single blank tests your ability to identify the most fitting word within a sentence, a Cloze Test (a passage with missing words) evaluates your ability to maintain thematic consistency and flow across a paragraph.
+    <span style="color: var(--warning);">Important:</span> A single space should follow a period that ends a sentence.
   </p>
 
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    To master these, you must treat the sentence as a puzzle. Before looking at the options, read the entire sentence to grasp the <em>tone</em> (is it formal, ironic, or scientific?) and the <em>logical direction</em> (is it a contrast, a cause-effect, or an elaboration?). Often, the sentence contains "clue words"—conjunctions like 'however', 'consequently', or 'although'—that dictate exactly what kind of word must fill the void.
-  </p>
-
-  <p style="line-height: 1.6; margin-bottom: 15px;">
-    The Cloze Test requires a "Macro-to-Micro" approach. First, read the passage for the gist. Then, analyze each blank individually. If a blank requires a verb, check the tense consistency of the surrounding sentences. If it requires a preposition, check for fixed collocations (e.g., 'abide by', 'rely on'). Never choose an option just because it sounds "fancy"; choose it because it is grammatically and contextually indispensable.
-  </p>
-
-  <div style="margin: 20px 0;">
-    <h4 style="color: var(--text-primary); font-weight: 600; margin-bottom: 10px;">Strategic Framework for Success</h4>
-    <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-      <li><strong>The Elimination Method:</strong> Always eliminate the "distractors"—words that are grammatically correct but contextually absurd.</li>
-      <li><strong>Collocation Check:</strong> Many questions test your knowledge of word pairings. If you see 'decision', look for 'make' or 'take'; if you see 'mistake', look for 'commit'.</li>
-      <li><strong>Tense & Mood:</strong> If the passage is in the past tense, ensure your choice doesn't shift the timeline of the narrative.</li>
-      <li><strong>Logical Connectors:</strong> Identify if the sentence is a continuation (and, moreover) or a contradiction (but, yet, despite).</li>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">2. The Comma [,]</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    The comma is often the most misused punctuation mark, but it's essential for clarity and proper [[sentence structure]].
+    <ul style="margin-left: 20px; margin-bottom: 12px; list-style-type: disc;">
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Separating Items in a List/Series:</span> Use commas to separate three or more items in a series. The comma before the final conjunction (e.g., "and," "or") in a list is called the [[Oxford Comma]] (or serial comma) and is generally preferred for clarity.<br/>
+        <span style="color: var(--example);">Example:</span> The syllabus includes Mathematics, General Ability, and English.<br/>
+        <span style="color: var(--example);">Example:</span> We need courage, discipline, and integrity to succeed.
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Separating Independent Clauses:</span> Use a comma before a [[coordinating conjunction]] (FANBOYS: For, And, Nor, But, Or, Yet, So) when it connects two [[independent clauses]].<br/>
+        <span style="color: var(--example);">Example:</span> He studied hard, <span style="color: var(--accent);">so</span> he passed the exam.<br/>
+        <span style="color: var(--example);">Example:</span> She wanted to join the navy, <span style="color: var(--accent);">but</span> her parents preferred the air force.
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">After Introductory Elements:</span> Use a comma after an introductory [[dependent clause]], phrase, or word.<br/>
+        <span style="color: var(--example);">Example:</span> <span style="color: var(--accent);">After completing the parade,</span> the cadets returned to their barracks.<br/>
+        <span style="color: var(--example);">Example:</span> <span style="color: var(--accent);">Although it was raining,</span> the mission continued.<br/>
+        <span style="color: var(--example);">Example:</span> <span style="color: var(--accent);">However,</span> the decision was final.
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Setting Off Non-essential Information:</span> Use commas to set off [[non-restrictive clauses]] or phrases that provide additional, but not essential, information to the sentence.<br/>
+        <span style="color: var(--example);">Example:</span> Captain Singh, <span style="color: var(--accent);">who is a veteran,</span> addressed the recruits.<br/>
+        <span style="color: var(--example);">Example:</span> My brother, <span style="color: var(--accent);">an aspiring officer,</span> trains daily.
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Direct Address:</span> Use commas to set off a name or term used in a [[direct address]].<br/>
+        <span style="color: var(--example);">Example:</span> Sir, <span style="color: var(--accent);">may I leave?</span><br/>
+        <span style="color: var(--example);">Example:</span> How are you, <span style="color: var(--accent);">Anjali?</span>
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Dates, Addresses, and Titles:</span>
+        <ul style="margin-left: 15px; margin-top: 5px; list-style-type: circle;">
+          <li><span style="color: var(--example);">Date:</span> December 15, 2023</li>
+          <li><span style="color: var(--example);">Address:</span> Delhi, India</li>
+          <li><span style="color: var(--example);">Title:</span> Dr. Rakesh Kumar, Ph.D., spoke at the seminar.</li>
+        </ul>
+      </li>
     </ul>
-  </div>
+    <span style="color: var(--warning);">Common Error Alert:</span> Do not use a comma to separate a [[subject]] from its [[verb]], or a [[verb]] from its [[object]]. This is known as a <span style="color: var(--error);">comma splice</span> if it incorrectly joins two independent clauses without a coordinating conjunction.
+    <br/><span style="color: var(--example);">Incorrect:</span> He ran fast, he won the race.
+    <br/><span style="color: var(--example);">Correct:</span> He ran fast; he won the race. (or: He ran fast, and he won the race.)
+  </p>
 
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
-  <ul style="list-style-type: none; padding: 0;">
-    <li style="margin-bottom: 8px;"><strong>Articles:</strong> Use 'a/an' for indefinite singular countable nouns; 'the' for specific, unique, or previously mentioned nouns.</li>
-    <li style="margin-bottom: 8px;"><strong>Prepositions:</strong> Focus on fixed prepositions (e.g., <em>Accused of, Congratulate on, Differ from, Interested in</em>).</li>
-    <li style="margin-bottom: 8px;"><strong>Verb Forms:</strong> Ensure Subject-Verb Agreement (Singular subject = Singular verb).</li>
-    <li style="margin-bottom: 8px;"><strong>Tenses:</strong> Watch for time markers (e.g., 'since'/'for' usually requires Perfect Tense; 'yesterday' requires Simple Past).</li>
-    <li style="margin-bottom: 8px;"><strong>Vocabulary:</strong> Focus on synonyms and antonyms that fit the specific register of the passage.</li>
-    <li style="margin-bottom: 8px;"><strong>Idiomatic Usage:</strong> Familiarize yourself with common Defence-related idioms (e.g., <em>'at the eleventh hour', 'turn a blind eye'</em>).</li>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">3. The Semicolon [;]</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    The semicolon indicates a pause that is stronger than a comma but weaker than a period.
+    <ul style="margin-left: 20px; margin-bottom: 12px; list-style-type: disc;">
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Connecting Closely Related Independent Clauses:</span> Use a semicolon to join two [[independent clauses]] that are closely related in meaning but not joined by a [[coordinating conjunction]].<br/>
+        <span style="color: var(--example);">Example:</span> The mission was difficult; it required extreme precision.<br/>
+        <span style="color: var(--example);">Example:</span> She loved to read; her favourite genre was historical fiction.
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">With Conjunctive Adverbs:</span> When connecting two independent clauses using a [[conjunctive adverb]] (e.g., however, therefore, moreover, consequently), use a semicolon before the adverb and a comma after it.<br/>
+        <span style="color: var(--example);">Example:</span> The weather was adverse; <span style="color: var(--accent);">however,</span> the team pushed forward.<br/>
+        <span style="color: var(--example);">Example:</span> He prepared thoroughly; <span style="color: var(--accent);">consequently,</span> he performed well.
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Separating Items in Complex Lists:</span> Use semicolons to separate items in a list when the items themselves contain commas.<br/>
+        <span style="color: var(--example);">Example:</span> The attendees included Dr. Sharma, Principal; Mr. Gupta, Head of Department; and Ms. Verma, Coordinator.
+      </li>
+    </ul>
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">4. The Colon [:]</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    The colon is used to introduce information that explains, exemplifies, or lists what precedes it.
+    <ul style="margin-left: 20px; margin-bottom: 12px; list-style-type: disc;">
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Introducing a List:</span> Use a colon after an [[independent clause]] that introduces a list.<br/>
+        <span style="color: var(--example);">Example:</span> We need three qualities for success: dedication, hard work, and perseverance.<br/>
+        <span style="color: var(--example);">Example:</span> The core subjects are: Physics, Chemistry, and Mathematics.
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Introducing an Explanation or Example:</span> Use a colon to introduce a statement that explains or clarifies the preceding clause.<br/>
+        <span style="color: var(--example);">Example:</span> He had one goal: to serve his nation.<br/>
+        <span style="color: var(--example);">Example:</span> The problem was clear: lack of resources.
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Introducing a Quotation:</span> Use a colon to introduce a formal or long quotation.<br/>
+        <span style="color: var(--example);">Example:</span> As Mahatma Gandhi said: "Be the change that you wish to see in the world."
+      </li>
+    </ul>
+    <span style="color: var(--warning);">Important:</span> The part before the colon must be a complete [[independent clause]]. Do not use a colon if the list, explanation, or example directly follows a verb or preposition.
+    <br/><span style="color: var(--example);">Incorrect:</span> My favourite colours are: blue, green, and red. (The verb "are" is followed directly by the list)
+    <br/><span style="color: var(--example);">Correct:</span> My favourite colours are blue, green, and red.
+    <br/><span style="color: var(--example);">Correct:</span> I like three colours: blue, green, and red.
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">5. The Apostrophe [']</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    The apostrophe has two main functions:
+    <ul style="margin-left: 20px; margin-bottom: 12px; list-style-type: disc;">
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Indicating Possession:</span>
+        <ul style="margin-left: 15px; margin-top: 5px; list-style-type: circle;">
+          <li>For singular [[nouns]] or indefinite pronouns, add \`'s\`.<br/>
+            <span style="color: var(--example);">Example:</span> The soldier's uniform, anyone's guess.</li>
+          <li>For plural nouns ending in 's', add only an apostrophe.<br/>
+            <span style="color: var(--example);">Example:</span> The students' books, the officers' mess.</li>
+          <li>For plural nouns not ending in 's', add \`'s\`.<br/>
+            <span style="color: var(--example);">Example:</span> The men's locker room, the children's play area.</li>
+        </ul>
+        <span style="color: var(--warning);">Important:</span> Do not use an apostrophe for possessive [[pronouns]] like 'its', 'hers', 'theirs', 'ours', 'yours'. "It's" means "it is" or "it has."
+        <br/><span style="color: var(--example);">Incorrect:</span> The dog wagged it's tail.
+        <br/><span style="color: var(--example);">Correct:</span> The dog wagged its tail.
+        <br/><span style="color: var(--example);">Correct:</span> It's a beautiful day.
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Indicating Contractions:</span> To show omitted letters in [[contractions]].<br/>
+        <span style="color: var(--example);">Example:</span> don't (do not), isn't (is not), we'll (we will).
+      </li>
+    </ul>
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">6. Quotation Marks [" "]</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    Quotation marks are used to enclose direct [[speech]] or text quoted from another source.
+    <ul style="margin-left: 20px; margin-bottom: 12px; list-style-type: disc;">
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Direct Speech:</span>
+        <ul style="margin-left: 15px; margin-top: 5px; list-style-type: circle;">
+          <li>Punctuation marks like commas and periods generally go inside the closing quotation mark in American English (which is often followed in competitive exams).<br/>
+            <span style="color: var(--example);">Example:</span> He said, "I am ready for the challenge."<br/>
+            <span style="color: var(--example);">Example:</span> "The exam was tough," she admitted.</li>
+          <li>Question marks and exclamation marks go inside if they are part of the quote, and outside if they are part of the surrounding sentence.<br/>
+            <span style="color: var(--example);">Example:</span> He asked, "Are you coming?" (Question is part of the quote)<br/>
+            <span style="color: var(--example);">Example:</span> Did he say, "I am ready"? (Question is not part of the quote)</li>
+        </ul>
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Titles of Short Works:</span> For titles of articles, short stories, poems, chapters, or songs.<br/>
+        <span style="color: var(--example);">Example:</span> I read the article "Future of Warfare."<br/>
+        <span style="color: var(--example);">Example:</span> My favourite song is "Vande Mataram."
+      </li>
+    </ul>
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">7. Hyphen [-] vs. Dash [—]</h4>
+  <p style="margin-bottom: 12px; line-height: 1.6;">
+    These are often confused but serve different purposes.
+    <ul style="margin-left: 20px; margin-bottom: 12px; list-style-type: disc;">
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Hyphen [-]:</span> Used to join words to form compound adjectives (when they precede the noun), compound numbers, or to divide words at the end of a line.<br/>
+        <span style="color: var(--example);">Compound Adjective:</span> A <span style="color: var(--accent);">well-trained</span> officer (before the noun).<br/>
+        <span style="color: var(--example);">Compound Number:</span> <span style="color: var(--accent);">Twenty-five</span> cadets.
+        <br/><span style="color: var(--warning);">Note:</span> If the compound adjective follows the noun, it is usually not hyphenated: "The officer was well trained."
+      </li>
+      <li style="margin-bottom: 6px;">
+        <span style="color: var(--success);">Em Dash [—]:</span> (Also called the long dash). Used for emphasis, to indicate a sudden break in thought, or to set off an explanatory phrase (similar to parentheses or commas, but stronger).<br/>
+        <span style="color: var(--example);">Example:</span> He revealed his plan — a bold, risky strategy — to the committee.<br/>
+        <span style="color: var(--example);">Example:</span> The decision was unanimous — everyone agreed.
+      </li>
+    </ul>
+  </p>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Rules & Facts</h4>
+  <ul style="margin-left: 20px; margin-bottom: 12px; list-style-type: disc;">
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Comma Splices:</span> A common error. Do NOT join two [[independent clauses]] with only a comma. Use a [[semicolon]], a [[period]], or a [[comma]] plus a [[coordinating conjunction]].
+      <br/><span style="color: var(--example);">Incorrect:</span> The exam was tough, I managed to score well.
+      <br/><span style="color: var(--example);">Correct:</span> The exam was tough; I managed to score well.
+      <br/><span style="color: var(--example);">Correct:</span> The exam was tough, but I managed to score well.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Apostrophe for Possession vs. Contraction:</span> Differentiate between 'its' (possessive) and 'it's' (it is/it has). Similarly, 'their' (possessive), 'there' (place), 'they're' (they are). This is a frequent error.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Colon Pre-requisite:</span> The clause before a colon must always be a complete [[independent clause]].
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Semicolon for Independent Clauses:</span> Use a semicolon to connect two closely related [[independent clauses]] that could stand alone as sentences, especially when no [[conjunction]] is used.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Comma for Non-essential Information:</span> Correctly identify [[non-restrictive clauses]] or phrases that add extra information and must be set off by commas.
+      <br/><span style="color: var(--example);">Essential:</span> Students <span style="color: var(--accent);">who study hard</span> succeed. (No commas)
+      <br/><span style="color: var(--example);">Non-essential:</span> My brother, <span style="color: var(--accent);">who studies hard,</span> will succeed. (Commas needed)
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Hyphenated Compound Adjectives:</span> Remember to hyphenate compound adjectives (e.g., "well-known author," "state-of-the-art facility") only when they precede the [[noun]] they modify.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <span style="color: var(--warning);">Quotation Mark Placement:</span> In most standard English (American English preferred in exams), periods and commas go INSIDE closing quotation marks.
+    </li>
   </ul>
-
-  </div>
-</div>`;
-
-// ==========================================
-// INTERACTIVE VOCABULARY VAULT ENGINE
-// ==========================================
-window.initVocabVault = function() {
-  const grid = document.getElementById("vocab-vault-grid");
-  if (!grid) return;
-  window.filterVocabVault();
-};
-
-window.filterVocabVault = function() {
-  const grid = document.getElementById("vocab-vault-grid");
-  const countBadge = document.getElementById("vocab-count-badge");
-  const searchInput = document.getElementById("vocab-search-input");
-  const filterExam = document.getElementById("vocab-filter-exam");
-  const filterPos = document.getElementById("vocab-filter-pos");
-  
-  if (!grid || !window.ENGLISH_VOCAB_DB) return;
-  
-  const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
-  const examFilter = filterExam ? filterExam.value : "all";
-  const posFilter = filterPos ? filterPos.value : "all";
-  
-  let filtered = window.ENGLISH_VOCAB_DB;
-  
-  if (query) {
-    filtered = filtered.filter(item => 
-      item.word.toLowerCase().includes(query) || 
-      item.meaning.toLowerCase().includes(query) ||
-      (item.synonyms && item.synonyms.toLowerCase().includes(query)) ||
-      (item.antonyms && item.antonyms.toLowerCase().includes(query))
-    );
-  }
-  
-  if (examFilter !== "all") {
-    filtered = filtered.filter(item => item.exam.includes(examFilter));
-  }
-  
-  if (posFilter !== "all") {
-    filtered = filtered.filter(item => {
-      const p = item.pos.toLowerCase();
-      if (posFilter === "Noun") return p.includes("noun");
-      if (posFilter === "Verb") return p.includes("verb");
-      if (posFilter === "Adjective") return p.includes("adj");
-      if (posFilter === "Adverb") return p.includes("adv");
-      return true;
-    });
-  }
-  
-  if (countBadge) {
-    countBadge.textContent = `${filtered.length} Words Found`;
-  }
-  
-  if (filtered.length === 0) {
-    grid.innerHTML = `<p style="color: var(--text-secondary); text-align: center; padding: 20px; font-family: var(--font-mono);">No vocabulary words match the selected filters.</p>`;
-    return;
-  }
-  
-  grid.innerHTML = filtered.map(item => {
-    let relatedHtml = "";
-    if (item.related) {
-      relatedHtml = `<div><span style="color: var(--accent); font-weight: 600;">Related CDS Words:</span> <span style="color: var(--text-secondary);">${item.related}</span></div>`;
-    }
-    let expectedHtml = "";
-    if (item.expected) {
-      expectedHtml = `<div><span style="color: #10b981; font-weight: 600;">Expected Next:</span> <span style="color: var(--text-secondary);">${item.expected}</span></div>`;
-    }
-    
-    return `
-      <div style="background: rgba(255,255,255,0.015); border: 1px solid var(--border); border-radius: 8px; padding: 16px; box-shadow: var(--shadow-sm); text-align: left; margin-bottom: 8px;">
-        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
-          <span style="font-family: var(--font-logo); font-size: 1.05rem; color: var(--accent); font-weight: 700; letter-spacing: 0.5px;">${item.word}</span>
-          <div style="display: flex; gap: 6px;">
-            ${item.pos ? `<span style="font-family: var(--font-mono); font-size: 0.65rem; background: rgba(14, 165, 233, 0.12); color: var(--info); padding: 2px 6px; border-radius: 3px;">${item.pos}</span>` : ''}
-            <span style="font-family: var(--font-mono); font-size: 0.65rem; background: rgba(255,255,255,0.05); color: var(--text-secondary); padding: 2px 6px; border-radius: 3px;">${item.exam}</span>
-          </div>
-        </div>
-        
-        <p style="color: var(--text-primary); font-size: 0.9rem; margin-bottom: 12px; font-weight: 500;">
-          ${item.meaning}
-        </p>
-        
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px; font-size: 0.8rem; border-top: 1px dashed rgba(255,255,255,0.05); padding-top: 10px; line-height: 1.4;">
-          ${item.synonyms ? `<div><span style="color: var(--warning); font-weight: 600;">Synonyms:</span> <span style="color: var(--text-secondary);">${item.synonyms}</span></div>` : ''}
-          ${item.antonyms ? `<div><span style="color: var(--info); font-weight: 600;">Antonyms:</span> <span style="color: var(--text-secondary);">${item.antonyms}</span></div>` : ''}
-          ${relatedHtml}
-          ${expectedHtml}
-        </div>
-      </div>
-    `;
-  }).join('');
-};
-
+</div>
+`;
