@@ -235,6 +235,8 @@ function switchScreen(screenId) {
     renderCurrentAffairsHub();
   } else if (screenId === "cbt-mock-hub") {
     renderCbtMockHub();
+  } else if (screenId === "question-bank") {
+    renderQuestionBank('gs');
   } else if (screenId === "ai-console") {
     renderAiConsoleSuggestions();
   } else if (screenId === "vocab-builder") {
