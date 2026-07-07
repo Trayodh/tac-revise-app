@@ -1018,7 +1018,6 @@ function renderTopicView(subjectId, chapterId, topicId) {
           <h2 style="font-family:var(--font-logo); font-size:1.4rem; letter-spacing:0.5px; color:#fff; text-shadow:0 0 10px rgba(255,255,255,0.05); white-space: nowrap; overflow: hidden; text-shadow: 0 0 8px rgba(34, 197, 94, 0.1);">${topic.title}</h2>
         </div>
         <div style="display:flex; align-items:center; gap:12px;">
-          ${liveContentBtn}
           ${lectureModeBtn}
           ${focusModeBtn}
           ${completeToggleBtn}
