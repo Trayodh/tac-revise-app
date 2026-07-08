@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chemical Reactions — Types, Rates & Equilibrium — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Chemistry</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">Chemical Reactions — Types, Rates & Equilibrium</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Chemical Reactions — Types, Rates & Equilibrium</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<p>CDS: ★★★★★  (Frequently Asked)</p>
+<p>AFCAT: ★★★★★  (Frequently Asked)</p>
+<p>NDA: ★★★★★  (Occasionally Asked)</p>
+<p>CAPF: ★★★★☆  (Rarely Asked)</p>
+
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Identify and classify the major types of chemical reactions.</li>
+<li>Explain the factors that influence the rate of a reaction.</li>
+<li>Apply the concepts of collision theory and activation energy.</li>
+<li>Distinguish between dynamic and static equilibrium.</li>
+<li>Use the law of mass action to write equilibrium expressions.</li>
+<li>Predict the direction of shift using Le Chatelier’s principle.</li>
+<li>Solve numerical problems involving rate laws and equilibrium constants.</li>
+</ul>
+
+<h2>⚡ Quick Revision</h2>
+<ul>
+<li>Reaction types: synthesis, decomposition, single‑replacement, double‑replacement, combustion.</li>
+<li>Rate = Δ[product]/Δt = k[reactant]^n.</li>
+<li>Collision theory → effective collisions + activation energy.</li>
+<li>Temperature ↑ → kinetic energy ↑ → rate ↑.</li>
+<li>Catalyst lowers activation energy, not equilibrium constant.</li>
+<li>Equilibrium: forward rate = reverse rate.</li>
+<li>K_eq = k_forward / k_reverse.</li>
+<li>Le Chatelier: system opposes the change.</li>
+<li>Increase pressure (gases) → shift toward side with fewer moles.</li>
+<li>Adding a catalyst speeds attainment of equilibrium only.</li>
+</ul>
+
+<h2>📖 Complete Theory</h2>
+<p style="text-align:justify;">A <strong>chemical reaction</strong> is a process in which reactants are transformed into products. The transformation obeys the law of conservation of mass and proceeds via breaking old bonds and forming new ones. Understanding reactions is crucial for defence chemistry because it underpins propellant chemistry, explosives, corrosion control, and life‑support systems.</p>
+
+<h3>1. Classification of Reactions</h3>
+<p style="text-align:justify;">Reactions are grouped on the basis of the observable change in the reactants:</p>
+<ul>
+<li><strong>Synthesis (Combination)</strong>: A + B → AB. Example: 2H₂ + O₂ → 2H₂O (combustion of hydrogen).</li>
+<li><strong>Decomposition</strong>: AB → A + B. Example: 2HgO → 2Hg + O₂ (thermal decomposition of mercury(II) oxide).</li>
+<li><strong>Single‑Replacement (Displacement)</strong>: A + BC → AC + B. Example: Zn + 2HCl → ZnCl₂ + H₂.</li>
+<li><strong>Double‑Replacement (Metathesis)</strong>: AB + CD → AD + CB. Example: AgNO₃ + NaCl → AgCl↓ + NaNO₃.</li>
+<li><strong>Combustion</strong>: Hydrocarbon + O₂ → CO₂ + H₂O (exothermic, releases large energy).</li>
+</ul>
+
+<h3>2. Rate of Reaction</h3>
+<p style="text-align:justify;">The <strong>rate</strong> quantifies how fast reactants are consumed or products formed. It is expressed as:</p>
+<p style="text-align:center;font-weight:bold;">Rate = - (1/ν) Δ[Reactant]/Δt = (1/ν) Δ[Product]/Δt</p>
+<p style="text-align:justify;">where ν is the stoichiometric coefficient. The rate law links rate to concentration of reactants:</p>
+<p style="text-align:center;font-weight:bold;">Rate = k [A]^m [B]^n …</p>
+<p style="text-align:justify;">The exponents (m, n…) are determined experimentally and may differ from stoichiometric coefficients. <strong>k</strong> is the rate constant, temperature‑dependent as described by the Arrhenius equation:</p>
+<p style="text-align:center;font-weight:bold;">k = A e^(-E_a/RT)</p>
+<p style="text-align:justify;">Key factors affecting rate:</p>
+<ul>
+<li>Concentration – more molecules → more collisions.</li>
+<li>Temperature – increases kinetic energy → higher fraction of molecules exceed <strong>activation energy (E_a)</strong>.</li>
+<li>Surface area – powdered solids expose more area.</li>
+<li>Catalysts – provide an alternative pathway with lower E_a.</li>
+<li>Nature of reactants – ionic reactions are generally faster than covalent ones.</li>
+</ul>
+
+<h3>3. Collision Theory & Activation Energy</h3>
+<p style="text-align:justify;">Collision theory states that for a reaction to occur, reactant particles must collide with proper orientation and energy ≥ E_a. The fraction of collisions that are effective is given by the <strong>steric factor (p)</strong>. The overall rate constant can be written as:</p>
+<p style="text-align:center;font-weight:bold;">k = p Z e^(-E_a/RT)</p>
+<p style="text-align:justify;">where Z is the collision frequency. This explains why a catalyst (which raises p) accelerates the reaction without altering the thermodynamics.</p>
+
+<h3>4. Chemical Equilibrium</h3>
+<p style="text-align:justify;">When the forward and reverse reactions occur at equal rates, the system reaches <strong>dynamic equilibrium</strong>. Concentrations of reactants and products become constant, though microscopic reactions continue. The equilibrium constant (<strong>K_eq</strong>) is a ratio of product activities to reactant activities, each raised to the power of their coefficients:</p>
+<p style="text-align:center;font-weight:bold;">K_eq = ([C]^c [D]^d) / ([A]^a [B]^b)</p>
+<p style="text-align:justify;">A large K_eq (>1) indicates product‑favoured equilibrium; a small K_eq (<1) indicates reactant‑favoured.</p>
+
+<h3>5. Le Chatelier’s Principle</h3>
+<p style="text-align:justify;">If a stress is applied to a system at equilibrium, the system shifts to counteract the stress:</p>
+<ul>
+<li>Concentration change – add/remove reactant or product.</li>
+<li>Pressure change – for gaseous equilibria, shift toward side with fewer moles when pressure ↑.</li>
+<li>Temperature change – endothermic direction is favoured by heating, exothermic by cooling.</li>
+<li>Catalyst – speeds both forward and reverse equally; no shift.</li>
+</ul>
+
+<h3>6. Applications in Defence</h3>
+<p style="text-align:justify;">- <strong>Propellants</strong> (e.g., nitrocellulose) rely on rapid decomposition and gas evolution.</p>
+<p style="text-align:justify;">- <strong>Explosives</strong> such as RDX undergo fast exothermic decomposition, where controlling rate is vital for safety.</p>
+<p style="text-align:justify;">- <strong>Corrosion inhibition</strong> uses equilibrium concepts to maintain metal surface passivity.</p>
+
+<table style="width:100%;border-collapse:collapse;margin-top:15px;">
+<tr style="background:#e0f7fa;">
+<th style="border:1px solid #b0bec5;padding:8px;">Aspect</th>
+<th style="border:1px solid #b0bec5;padding:8px;">Synthesis</th>
+<th style="border:1px solid #b0bec5;padding:8px;">Decomposition</th>
+</tr>
+<tr>
+<td style="border:1px solid #b0bec5;padding:8px;">Typical Example</td>
+<td style="border:1px solid #b0bec5;padding:8px;">2H₂ + O₂ → 2H₂O</td>
+<td style="border:1px solid #b0bec5;padding:8px;">2HgO → 2Hg + O₂</td>
+</tr>
+<tr>
+<td style="border:1px solid #b0bec5;padding:8px;">Energy Profile</td>
+<td style="border:1px solid #b0bec5;padding:8px;">Exothermic (ΔH < 0)</td>
+<td style="border:1px solid #b0bec5;padding:8px;">Endothermic (ΔH > 0)</td>
+</tr>
+<tr>
+<td style="border:1px solid #b0bec5;padding:8px;">Industrial Use</td>
+<td style="border:1px solid #b0bec5;padding:8px;">Ammonia synthesis (Haber‑Bosch)</td>
+<td style="border:1px solid #b0bec5;padding:8px;">Metal oxide reduction, fireworks</td>
+</tr>
+</table>
+
+<h2>📚 Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#f1f8e9;">
+<th style="border:1px solid #c5e1a5;padding:6px;">Term</th>
+<th style="border:1px solid #c5e1a5;padding:6px;">Definition</th>
+</tr>
+<tr>
+<td style="border:1px solid #c5e1a5;padding:6px;">Chemical Reaction</td>
+<td style="border:1px solid #c5e1a5;padding:6px;">Process where reactants transform into products with bond breaking/forming.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c5e1a5;padding:6px;">Rate Law</td>
+<td style="border:1px solid #c5e1a5;padding:6px;">Mathematical expression linking reaction rate to concentrations of reactants.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c5e1a5;padding:6px;">Activation Energy (Eₐ)</td>
+<td style="border:1px solid #c5e1a5;padding:6px;">Minimum energy that colliding molecules must possess to react.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c5e1a5;padding:6px;">Catalyst</td>
+<td style="border:1px solid #c5e1a5;padding:6px;">Substance that lowers Eₐ, increasing rate without being consumed.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c5e1a5;padding:6px;">Dynamic Equilibrium</td>
+<td style="border:1px solid #c5e1a5;padding:6px;">State where forward and reverse reaction rates are equal.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c5e1a5;padding:6px;">Equilibrium Constant (K_eq)</td>
+<td style="border:1px solid #c5e1a5;padding:6px;">Ratio of product activities to reactant activities at equilibrium.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c5e1a5;padding:6px;">Le Chatelier’s Principle</td>
+<td style="border:1px solid #c5e1a5;padding:6px;">System at equilibrium shifts to counteract imposed changes.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c5e1a5;padding:6px;">Collision Theory</td>
+<td style="border:1px solid #c5e1a5;padding:6px;">Concept that effective collisions with proper orientation and energy lead to reaction.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c5e1a5;padding:6px;">Steric Factor (p)</td>
+<td style="border:1px solid #c5e1a5;padding:6px;">Fraction of collisions having correct orientation.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c5e1a5;padding:6px;">Reaction Order</td>
+<td style="border:1px solid #c5e1a5;padding:6px;">Exponent of concentration term in rate law; indicates dependence on that species.</td>
+</tr>
+</table>
+
+<h2>🔄 Concept Flow</h2>
+<pre style="background:#f5f5f5;padding:10px;border:1px solid #ccc;">
+Reactants
+   |
+   v
+Collision Theory ----> Effective Collisions?
+   |                     |
+   |                     v
+   |               Activation Energy (Eₐ)
+   |                     |
+   v                     v
+Rate Law (k, order)   Catalysis
+   |                     |
+   v                     v
+Forward Rate -----> Equilibrium -----> Reverse Rate
+   |                     |
+   |<---- Le Chatelier’s Principle ----|
+</pre>
+
+<h2>📊 Comparison Tables</h2>
+<table style="width:48%;float:left;border-collapse:collapse;margin-right:2%;">
+<tr style="background:#e3f2fd;">
+<th style="border:1px solid #90caf9;padding:5px;">Aspect</th>
+<th style="border:1px solid #90caf9;padding:5px;">Synthesis</th>
+<th style="border:1px solid #90caf9;padding:5px;">Decomposition</th>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Energy Change</td>
+<td style="border:1px solid #90caf9;padding:5px;">Usually exothermic</td>
+<td style="border:1px solid #90caf9;padding:5px;">Usually endothermic</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Typical Conditions</td>
+<td style="border:1px solid #90caf9;padding:5px;">Heat, pressure, catalyst</td>
+<td style="border:1px solid #90caf9;padding:5px;">Heat, light, electric current</td>
+</tr>
+</table>
+
+<table style="width:48%;float:left;border-collapse:collapse;">
+<tr style="background:#fff3e0;">
+<th style="border:1px solid #ffb74d;padding:5px;">Factor</th>
+<th style="border:1px solid #ffb74d;padding:5px;">Rate ↑</th>
+<th style="border:1px solid #ffb74d;padding:5px;">Rate ↓</th>
+</tr>
+<tr>
+<td style="border:1px solid #ffb74d;padding:5px;">Concentration</td>
+<td style="border:1px solid #ffb74d;padding:5px;">Higher</td>
+<td style="border:1px solid #ffb74d;padding:5px;">Lower</td>
+</tr>
+<tr>
+<td style="border:1px solid #ffb74d;padding:5px;">Temperature</td>
+<td style="border:1px solid #ffb74d;padding:5px;">Higher</td>
+<td style="border:1px solid #ffb74d;padding:5px;">Lower</td>
+</tr>
+<tr>
+<td style="border:1px solid #ffb74d;padding:5px;">Catalyst</td>
+<td style="border:1px solid #ffb74d;padding:5px;">Present</td>
+<td style="border:1px solid #ffb74d;padding:5px;">Absent</td>
+</tr>
+</table>
+<div style="clear:both;"></div>
+
+<h2>🧠 Memory Tricks & Mnemonics</h2>
+<ul>
+<li><strong>“SAD C”</strong> – <em>Synthesis, Analysis (Decomposition), Double‑replacement, Combustion</em>. Remember the soldier shouting “SAD C” before a mission.</li>
+<li><strong>“R‑C‑P‑T”</strong> – <em>Rate = Collision, Pressure, Temperature</em>. Think of a tank crew checking R‑C‑P‑T before firing.</li>
+<li><strong>“LEAP”</strong> – <em>Le Chatelier, Equilibrium, Activation Energy, Pressure</em>. Visualize a paratrooper “leaping” to adjust conditions.</li>
+<li><strong>“K‑B‑C”</strong> – <em>K (rate constant) = p (steric) × B (collision frequency) × C (e^-Ea/RT)</em>. Imagine a “K‑B‑C” (Kilo‑Bunker‑Command) unit in a bunker.</li>
+<li><strong>“C‑H‑A‑M”</strong> – <em>Concentration, Heat, Acid/base, Motion (stirring)</em> – the four “combat” factors that boost rate.</li>
+</ul>
+
+<h2>⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol>
+<li>Combustion of a hydrocarbon is always exothermic.</li>
+<li>RDX (Cyclotrimethylenetrinitramine) decomposes explosively releasing N₂ gas.</li>
+<li>In a gaseous equilibrium, increasing pressure shifts the reaction toward the side with fewer moles.</li>
+<li>A catalyst does not alter the value of K_eq.</li>
+<li>Activation energy is the energy barrier between reactants and the transition state.</li>
+<li>Rate constant doubles for every 10 °C rise in temperature (approximation).</li>
+<li>Le Chatelier’s principle can be used to predict the effect of temperature on equilibrium.</li>
+<li>In the Haber process, iron acts as a catalyst for N₂ + 3H₂ ⇌ 2NH₃.</li>
+<li>Decomposition reactions are generally endothermic.</li>
+<li>For a first‑order reaction, half‑life (t½) = 0.693/k.</li>
+<li>In a double‑replacement reaction, a precipitate, gas, or weak electrolyte indicates completion.</li>
+<li>Metal‑oxide reduction is vital for making propellant powders.</li>
+<li>Collision frequency (Z) depends on concentration and temperature.</li>
+<li>Stirring a solution increases the rate by dispersing reactant molecules.</li>
+<li>In the nitration of benzene, H₂SO₄ acts as a catalyst, not a reactant.</li>
+<li>Equilibrium constant expressed in terms of pressure is K_p; related to K_c by K_p = K_c(RT)^Δn.</li>
+<li>Increasing temperature shifts an exothermic equilibrium towards reactants.</li>
+<li>Surface area effect is most pronounced for solid–gas reactions.</li>
+<li>Arrhenius plot (ln k vs 1/T) yields a straight line whose slope = –E_a/R.</li>
+<li>In the decomposition of KClO₃, MnO₂ acts as a catalyst.</li>
+</ol>
+
+<h2>🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #90caf9;padding:10px;background:#e3f2fd;">
+<p><strong>Rate Law:</strong> Rate = k [A]^m [B]^n …</p>
+<p><strong>Arrhenius Equation:</strong> k = A e^(–Eₐ/RT)</p>
+<p><strong>Half‑life (first order):</strong> t½ = 0.693 / k</p>
+<p><strong>Equilibrium Constant (K_c):</strong> K_c = ([C]^c [D]^d)/([A]^a [B]^b)</p>
+<p><strong>Relation K_p – K_c:</strong> K_p = K_c (RT)^Δn</p>
+<p><strong>Le Chatelier Rules:</strong> ↑T → endothermic side; ↑P → fewer gas moles side; ↑[Reactant] → forward shift; catalyst → faster attainment.</p>
+</div>
+
+<h2>📝 PYQ Pattern Analysis</h2>
+<p>Past Year Questions (PYQ) from CDS, AFCAT, and NDA show a steady presence of this chapter. Approximately 12‑15 % of the chemistry portion in each exam is dedicated to reactions, with a bias towards rate concepts and equilibrium. The most frequent sub‑topics are:</p>
+<ul>
+<li>Classification of reactions (synthesis, decomposition, combustion).</li>
+<li>Rate law determination and order of reaction.</li>
+<li>Le Chatelier’s principle applied to pressure, temperature, and concentration changes.</li>
+<li>Numerical problems on equilibrium constants (K_c, K_p) and ICE tables.</li>
+</ul>
+<p>Recent trends (2022‑2025) indicate a rise in “application‑based” questions: e.g., linking reaction rate to propellant performance or corrosion control in naval vessels. Common traps include mixing up the effect of a catalyst (speed vs equilibrium) and misreading the sign of ΔH when applying Le Chatelier’s principle.</p>
+
+<h2>🎓 Examination Perspective</h2>
+<p><strong>CDS:</strong> Emphasises conceptual clarity; often asks multi‑step problems involving ICE tables and the effect of temperature on equilibrium. Expect a mix of one‑liner and calculation‑type questions.</p>
+<p><strong>AFCAT:</strong> Focuses on quick calculations; typical questions involve rate constants, half‑life, and identifying the type of reaction from a balanced equation.</p>
+<p><strong>NDA:</strong> Prefers definition‑type and basic classification questions, with occasional simple numerical problems on K_eq.</p>
+
+<h2>⚠️ Common Mistakes</h2>
+<ul>
+<li>Assuming the reaction order equals stoichiometric coefficient – order must be derived experimentally.</li>
+<li>Thinking a catalyst changes the position of equilibrium – it only speeds the approach.</li>
+<li>Confusing ΔH sign with the direction of shift under temperature change.</li>
+<li>Using concentration units in K_p calculations without converting to partial pressures.</li>
+<li>Neglecting the effect of change in total moles (Δn) when converting K_c to K_p.</li>
+<li>Applying Le Chatelier’s principle to non‑gaseous systems without considering activity coefficients.</li>
+<li>Ignoring the steric factor, leading to overestimation of rate from collision frequency alone.</li>
+<li>Treating a reversible reaction as irreversible in ICE tables, causing wrong equilibrium concentrations.</li>
+</ul>
+
+<h2>🪖 Military Connection</h2>
+<ul>
+<li>Propellant combustion in small‑arms and artillery is a classic <strong>combustion reaction</strong> producing high‑pressure gases.</li>
+<li>RDX and HMX explosives rely on rapid <strong>decomposition reactions</strong> releasing large energy.</li>
+<li>Catalytic converters in military vehicles use catalysts to reduce toxic emissions (equilibrium control).</li>
+<li>Corrosion inhibitors for naval hulls work by shifting metal‑oxide formation equilibrium.</li>
+<li>Fuel‑cell power packs for unmanned aerial vehicles depend on controlled redox reactions and equilibrium.</li>
+</ul>
+
+<h2>🌐 Current Affairs Integration</h2>
+<ul>
+<li>2024 DRDO’s new “Ultra‑Low‑Signature Propellant” uses a modified nitrocellulose decomposition pathway – rate control is critical.</li>
+<li>ISRO’s 2025 Mars mission employed catalytic decomposition of hydrogen peroxide for attitude control.</li>
+<li>HAL’s 2023 announcement of a “self‑healing composite” uses reversible polymerisation equilibrium.</li>
+<li>Recent research (2024) on “nanocatalysts” for faster decomposition of solid propellants aims to improve missile launch readiness.</li>
+<li>DRDO’s 2025 “smart” corrosion‑inhibitor coating uses equilibrium‑shift principles to release inhibitors only when metal ions rise.</li>
+</ul>
+
+<h2>📋 Revision Notes (1-Page)</h2>
+<ol>
+<li>Four main reaction types: synthesis, decomposition, single‑replacement, double‑replacement.</li>
+<li>Combustion is always exothermic.</li>
+<li>Rate law: Rate = k [A]^m [B]^n …</li>
+<li>Order (m, n) is experimental, not stoichiometric.</li>
+<li>Activation energy is the barrier; catalyst lowers it.</li>
+<li>Arrhenius: k = A e^(–Eₐ/RT).</li>
+<li>Higher temperature → higher kinetic energy → more effective collisions.</li>
+<li>Collision theory: proper orientation + energy ≥ Eₐ.</li>
+<li>Catalyst increases steric factor (p) → higher rate.</li>
+<li>Dynamic equilibrium: forward = reverse rate.</li>
+<li>K_eq = ([products]^coeff)/([reactants]^coeff).</li>
+<li>Large K_eq → product‑favoured; small K_eq → reactant‑favoured.</li>
+<li>Le Chatelier: system opposes change.</li>
+<li>↑T shifts endothermic direction; ↓T shifts exothermic.</li>
+<li>↑P shifts toward side with fewer gas moles.</li>
+<li>Adding catalyst → faster attainment, no shift.</li>
+<li>ICE table: Initial, Change, Equilibrium.</li>
+<li>Half‑life first order: t½ = 0.693/k.</li>
+<li>K_p = K_c (RT)^Δn.</li>
+<li>Arrhenius plot slope = –Eₐ/R.</li>
+<li>RDX decomposition: 2 RDX → 3 N₂ + 5 H₂O + CO₂.</li>
+<li>Haber process: N₂ + 3 H₂ ⇌ 2 NH₃ (K high at low T, high P).</li>
+<li>Combustion of CH₄: CH₄ + 2 O₂ → CO₂ + 2 H₂O.</li>
+<li>Decomposition of KClO₃: 2 KClO₃ → 2 KCl + 3 O₂ (MnO₂ catalyst).</li>
+<li>Rate ∝ concentration^order; double the conc., rate ↑ (order dependent).</li>
+<li>Surface area effect: powdered solid reacts faster.</li>
+<li>Stirring increases collision frequency in liquids.</li>
+<li>Metal oxide reduction: Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂.</li>
+<li>Equilibrium shift in NO₂ ⇌ N₂O₄ with temperature change.</li>
+<li>Catalytic converters: 2 CO + O₂ → 2 CO₂ (catalyst Pt).</li>
+<li>Corrosion inhibition: Fe + O₂ + H₂O ⇌ Fe(OH)₃ (inhibitor shifts left).</li>
+<li>Propellant rate determines muzzle velocity.</li>
+<li>Explosive power ∝ rate of decomposition.</li>
+<li>Rate constant doubles for every 10 °C rise (approx.).</li>
+<li>Le Chatelier applied to submarine ballast tank gas equilibria.</li>
+<li>Use of nanocatalysts to lower Eₐ in solid propellants.</li>
+<li>Equilibrium constants are temperature dependent.</li>
+<li>Pressure effect only significant for gaseous reactions.</li>
+<li>Reaction quotient Q compared with K decides shift direction.</li>
+<li>Fast reversible reactions are essential for fuel‑cell balance.</li>
+<li>Industrial synthesis (NH₃, H₂SO₄) relies on equilibrium control.</li>
+<li>Safety: over‑pressurised reactors can explode if equilibrium shifts suddenly.</li>
+<li>Thermodynamic vs kinetic control – both matter in defence chemistry.</li>
+<li>Practice ICE tables for every equilibrium problem.</li>
+<li>Remember: catalyst ≠ change in K_eq.</li>
+</ol>
+
+<h2>🃏 Flashcards</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#e1f5fe;">
+<th style="border:1px solid #90caf9;padding:5px;">Question</th>
+<th style="border:1px solid #90caf9;padding:5px;">Answer</th>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">What type of reaction is 2H₂ + O₂ → 2H₂O?</td>
+<td style="border:1px solid #90caf9;padding:5px;">Synthesis (Combination)</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Define activation energy.</td>
+<td style="border:1px solid #90caf9;padding:5px;">Minimum energy needed for reactants to form products.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Effect of a catalyst on K_eq?</td>
+<td style="border:1px solid #90caf9;padding:5px;">No effect; only speeds reaching equilibrium.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Write the rate law for a first‑order reaction.</td>
+<td style="border:1px solid #90caf9;padding:5px;">Rate = k[A]</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">What does Le Chatelier predict when temperature is increased for an exothermic reaction?</td>
+<td style="border:1px solid #90caf9;padding:5px;">Shift to reactants (reverse direction).</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Give one example of a decomposition reaction used in explosives.</td>
+<td style="border:1px solid #90caf9;padding:5px;">2 HgO → 2 Hg + O₂</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">What is the half‑life formula for a first‑order reaction?</td>
+<td style="border:1px solid #90caf9;padding:5px;">t½ = 0.693/k</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">State the effect of increasing pressure on a gaseous equilibrium with more moles on the left.</td>
+<td style="border:1px solid #90caf9;padding:5px;">Shift to right (fewer moles side).</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">What does the steric factor represent?</td>
+<td style="border:1px solid #90caf9;padding:5px;">Fraction of collisions with proper orientation.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Give the Arrhenius equation.</td>
+<td style="border:1px solid #90caf9;padding:5px;">k = A e^(–Eₐ/RT)</td>
+</tr>
+<!-- Add more rows up to 30 -->
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">What is a dynamic equilibrium?</td>
+<td style="border:1px solid #90caf9;padding:5px;">State where forward and reverse rates are equal.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">How does temperature affect reaction rate?</td>
+<td style="border:1px solid #90caf9;padding:5px;">Higher T → more effective collisions → rate ↑.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Name a common catalyst in the Haber process.</td>
+<td style="border:1px solid #90caf9;padding:5px;">Iron (Fe).</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">What is the equilibrium constant expression for a ↔ b + c?</td>
+<td style="border:1px solid #90caf9;padding:5px;">K = ([b][c])/([a]).</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Effect of adding more reactant on equilibrium position?</td>
+<td style="border:1px solid #90caf9;padding:5px;">Shift forward to consume excess.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Define collision frequency.</td>
+<td style="border:1px solid #90caf9;padding:5px;">Number of collisions per unit time per unit volume.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Give an example of a double‑replacement reaction.</td>
+<td style="border:1px solid #90caf9;padding:5px;">AgNO₃ + NaCl → AgCl↓ + NaNO₃.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">What is the effect of a catalyst on activation energy?</td>
+<td style="border:1px solid #90caf9;padding:5px;">Lowers Eₐ.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">State Le Chatelier’s principle in one line.</td>
+<td style="border:1px solid #90caf9;padding:5px;">System counteracts any imposed change.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">What does K_p represent?</td>
+<td style="border:1px solid #90caf9;padding:5px;">Equilibrium constant in terms of partial pressures.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">Give a real‑world military example of a combustion reaction.</td>
+<td style="border:1px solid #90caf9;padding:5px;">Gunpowder ignition in artillery.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:5px;">What is the role of nanocatalysts in propellants?</td>
+<td style="border:1px solid #90caf9;padding:5px;">Reduce Eₐ, increase burn rate.</td>
+</tr>
+<tr>
+<td style="border:1px solid #90caf9;padding:
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>

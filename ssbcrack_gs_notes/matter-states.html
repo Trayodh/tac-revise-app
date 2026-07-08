@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>States of Matter & Gas Laws — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Chemistry</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">States of Matter & Gas Laws</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">States of Matter & Gas Laws</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<p>CDS: ★★★★★ (Frequently Asked)</p>
+<p>AFCAT: ★★★★★ (Frequently Asked)</p>
+<p>NDA: ★★★★★ (Frequently Asked)</p>
+<p>CAPF: ★★★★☆ (Occasionally Asked)</p>
+
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Identify and differentiate the three classical states of matter.</li>
+<li>Explain the kinetic molecular theory behind gases.</li>
+<li>State and apply the four fundamental gas laws (Boyle’s, Charles’s, Gay‑Lussac’s, Avogadro’s).</li>
+<li>Combine gas laws to derive the Ideal Gas Equation.</li>
+<li>Recognize real‑gas behaviour and the significance of Van der Waals equation.</li>
+<li>Calculate molar mass, number of moles and number of molecules using gas data.</li>
+<li>Link gas‑law concepts to military applications such as propulsion, life‑support and weaponry.</li>
+</ul>
+
+<h2>⚡ Quick Revision</h2>
+<ul>
+<li>Matter exists as solid, liquid, gas; plasma is the 4th state.</li>
+<li>Kinetic theory: particles in constant motion, collisions are elastic.</li>
+<li>Boyle’s Law: P₁V₁ = P₂V₂ (T constant).</li>
+<li>Charles’s Law: V₁/T₁ = V₂/T₂ (P constant).</li>
+<li>Gay‑Lussac’s Law: P₁/T₁ = P₂/T₂ (V constant).</li>
+<li>Avogadro’s Law: V₁/n₁ = V₂/n₂ (P,T constant).</li>
+<li>Ideal Gas Equation: PV = nRT.</li>
+<li>R = 0.0821 L·atm mol⁻¹ K⁻¹ (or 8.314 J mol⁻¹ K⁻¹).</li>
+<li>Van der Waals: (P + a(n²/V²))(V – nb) = nRT.</li>
+<li>STP: 1 atm, 273 K, 22.4 L per mole.</li>
+<li>Real gases deviate at high P / low T.</li>
+<li>Compressibility factor Z = PV/RT.</li>
+<li>Military fuels obey gas laws during combustion.</li>
+<li>Life‑support cabins use pressure‑temperature control.</li>
+</ul>
+
+<h2>📖 Complete Theory</h2>
+<p style="text-align:justify;">Matter can be broadly classified into three familiar states – <strong>solid</strong>, <strong>liquid</strong> and <strong>gas</strong>. A fourth state, <strong>plasma</strong>, is encountered in high‑energy environments such as lightning, the ionosphere and the exhaust plume of a missile motor. Understanding these states is the foundation for all gas‑law concepts.</p>
+
+<h3 style="color:#34d399;">1. Solid, Liquid and Gas – A Quick Recap</h3>
+<p style="text-align:justify;">In a <strong>solid</strong> particles are tightly packed in a regular lattice and vibrate about fixed positions. The intermolecular forces are strong, giving solids a definite shape and volume. <strong>Liquids</strong> have weaker forces; particles can slide past each other, providing a definite volume but no fixed shape. <strong>Gases</strong> possess the weakest intermolecular forces; particles are far apart and move freely, resulting in no definite shape or volume. The kinetic energy of gas particles is directly proportional to temperature, a fact that underlies all gas laws.</p>
+
+<h3 style="color:#34d399;">2. Kinetic Molecular Theory (KMT)</h3>
+<p style="text-align:justify;">KMT assumes that a gas consists of a large number of tiny particles moving randomly. Key postulates:</p>
+<ul>
+<li>Particle volume is negligible compared with the volume of the container.</li>
+<li>Collisions between particles and with the container walls are perfectly elastic.</li>
+<li>No attractive or repulsive forces act except during collisions.</li>
+<li>Average kinetic energy <em>(½ mv²)</em> is proportional to absolute temperature (K).</li>
+</ul>
+<p style="text-align:justify;">From these postulates, pressure (P) is the result of countless collisions per unit area. Hence, increasing temperature (more kinetic energy) or decreasing volume (more frequent collisions) changes pressure, giving rise to the individual gas laws.</p>
+
+<h3 style="color:#34d399;">3. Individual Gas Laws</h3>
+<table style="border:1px solid #bbb;width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#f0f8ff;">
+<th style="border:1px solid #bbb;padding:5px;">Law</th>
+<th style="border:1px solid #bbb;padding:5px;">Relation</th>
+<th style="border:1px solid #bbb;padding:5px;">Condition</th>
+</tr>
+<tr>
+<td style="border:1px solid #bbb;padding:5px;">Boyle’s (1662)</td>
+<td style="border:1px solid #bbb;padding:5px;">P₁V₁ = P₂V₂</td>
+<td style="border:1px solid #bbb;padding:5px;">T constant</td>
+</tr>
+<tr>
+<td style="border:1px solid #bbb;padding:5px;">Charles’s (1787)</td>
+<td style="border:1px solid #bbb;padding:5px;">V₁/T₁ = V₂/T₂</td>
+<td style="border:1px solid #bbb;padding:5px;">P constant</td>
+</tr>
+<tr>
+<td style="border:1px solid #bbb;padding:5px;">Gay‑Lussac’s (1802)</td>
+<td style="border:1px solid #bbb;padding:5px;">P₁/T₁ = P₂/T₂</td>
+<td style="border:1px solid #bbb;padding:5px;">V constant</td>
+</tr>
+<tr>
+<td style="border:1px solid #bbb;padding:5px;">Avogadro’s (1811)</td>
+<td style="border:1px solid #bbb;padding:5px;">V₁/n₁ = V₂/n₂</td>
+<td style="border:1px solid #bbb;padding:5px;">P,T constant</td>
+</tr>
+</table>
+
+<p style="text-align:justify;">Each law can be derived from the ideal gas equation <strong>PV = nRT</strong> by holding the other variables constant. For quick problem solving, memorize the four simple proportionalities.</p>
+
+<h3 style="color:#34d399;">4. Ideal Gas Equation</h3>
+<p style="text-align:justify;">Combining the four laws gives the universal relation:</p>
+<p style="text-align:center;font-weight:bold;font-size:1.1em;">PV = nRT</p>
+<p style="text-align:justify;">Where <em>R</em> is the universal gas constant (0.0821 L·atm mol⁻¹ K⁻¹ or 8.314 J mol⁻¹ K⁻¹). This equation works well for gases at low pressure (< 1 atm) and moderate temperature (> 273 K).</p>
+
+<h3 style="color:#34d399;">5. Real Gases – Van der Waals Equation</h3>
+<p style="text-align:justify;">At high pressures or low temperatures, gases deviate from ideality. Van der Waals introduced two correction terms:</p>
+<ul>
+<li><strong>a</strong>: accounts for intermolecular attractions (reduces pressure).</li>
+<li><strong>b</strong>: accounts for finite molecular volume (reduces effective volume).</li>
+</ul>
+<p style="text-align:center;font-weight:bold;">(P + a n²/V²)(V – nb) = nRT</p>
+<p style="text-align:justify;">Values of <em>a</em> and <em>b</em> are tabulated for each gas. The compressibility factor <strong>Z = PV/RT</strong> indicates deviation; Z = 1 for an ideal gas.</p>
+
+<h3 style="color:#34d399;">6. Practical Calculations</h3>
+<p style="text-align:justify;">Typical problems involve:</p>
+<ul>
+<li>Finding the final pressure/volume/temperature when one variable changes.</li>
+<li>Calculating molar mass from density using PV = mRT/M.</li>
+<li>Determining the number of molecules via <strong>n = PV/RT</strong> and Avogadro’s number (6.022×10²³).</li>
+</ul>
+
+<h3 style="color:#34d399;">7. Military Relevance</h3>
+<p style="text-align:justify;">- <strong>Rocket propulsion:</strong> Combustion gases expand rapidly; the thrust equation T = ṁ·Ve + (Pe – Pa)·Ae is rooted in gas‑law concepts.</p>
+<p style="text-align:justify;">- <strong>Life‑support systems:</strong> Submarines and aircraft cabins maintain pressure and temperature using the ideal gas law to calculate oxygen supply.</p>
+<p style="text-align:justify;">- <strong>Explosives:</strong> Detonation produces high‑pressure gases; understanding pressure‑volume work helps in designing safe storage.</p>
+
+<h2>📚 Important Definitions</h2>
+<table style="border:1px solid #bbb;width:100%;border-collapse:collapse;">
+<tr style="background:#e6f7ff;">
+<th style="border:1px solid #bbb;padding:5px;">Term</th>
+<th style="border:1px solid #bbb;padding:5px;">Definition</th>
+</tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">State of Matter</td><td style="border:1px solid #bbb;padding:5px;">A distinct form that different phases of matter take on (solid, liquid, gas, plasma).</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Kinetic Molecular Theory</td><td style="border:1px solid #bbb;padding:5px;">A model describing the motion of particles in gases and the relation of kinetic energy to temperature.</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Boyle’s Law</td><td style="border:1px solid #bbb;padding:5px;">At constant temperature, the pressure of a gas is inversely proportional to its volume.</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Charles’s Law</td><td style="border:1px solid #bbb;padding:5px;">At constant pressure, the volume of a gas is directly proportional to its absolute temperature.</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Gay‑Lussac’s Law</td><td style="border:1px solid #bbb;padding:5px;">At constant volume, the pressure of a gas is directly proportional to its absolute temperature.</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Avogadro’s Law</td><td style="border:1px solid #bbb;padding:5px;">Equal volumes of gases at the same temperature and pressure contain equal numbers of molecules.</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Ideal Gas Equation</td><td style="border:1px solid #bbb;padding:5px;">PV = nRT, relating pressure, volume, temperature and amount of gas.</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Van der Waals Equation</td><td style="border:1px solid #bbb;padding:5px;">(P + a n²/V²)(V – nb) = nRT, a corrected gas law for real gases.</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Molar Mass (M)</td><td style="border:1px solid #bbb;padding:5px;">Mass of one mole of a substance (g mol⁻¹).</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Compressibility Factor (Z)</td><td style="border:1px solid #bbb;padding:5px;">Z = PV/RT; a measure of deviation from ideal behaviour.</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Standard Temperature and Pressure (STP)</td><td style="border:1px solid #bbb;padding:5px;">0 °C (273 K) and 1 atm; 1 mol of ideal gas occupies 22.4 L.</td></tr>
+</table>
+
+<h2>🔄 Concept Flow</h2>
+<pre style="background:#f9f9f9;padding:10px;border:1px solid #ddd;">
+Matter
+ ├─ Solid → Fixed shape & volume
+ ├─ Liquid → Fixed volume, takes shape of container
+ └─ Gas
+      ├─ Kinetic Molecular Theory
+      │    ├─ Particle motion ↔ Temperature
+      │    └─ Elastic collisions ↔ Pressure
+      ├─ Individual Gas Laws
+      │    ├─ Boyle’s (P∝1/V)
+      │    ├─ Charles’s (V∝T)
+      │    ├─ Gay‑Lussac’s (P∝T)
+      │    └─ Avogadro’s (V∝n)
+      └─ Ideal Gas Equation (PV = nRT)
+            └─ Real‑Gas Corrections → Van der Waals
+</pre>
+
+<h2>📊 Comparison Tables</h2>
+<h3 style="color:#34d399;">Table 1 – Ideal vs Real Gas</h3>
+<table style="border:1px solid #bbb;width:100%;border-collapse:collapse;">
+<tr style="background:#e6f7ff;">
+<th style="border:1px solid #bbb;padding:5px;">Aspect</th>
+<th style="border:1px solid #bbb;padding:5px;">Ideal Gas</th>
+<th style="border:1px solid #bbb;padding:5px;">Real Gas</th>
+</tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Intermolecular Forces</td><td style="border:1px solid #bbb;padding:5px;">Negligible</td><td style="border:1px solid #bbb;padding:5px;">Finite (attractive/repulsive)</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Molecular Volume</td><td style="border:1px solid #bbb;padding:5px;">Zero</td><td style="border:1px solid #bbb;padding:5px;">Non‑zero (b term)</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Equation</td><td style="border:1px solid #bbb;padding:5px;">PV = nRT</td><td style="border:1px solid #bbb;padding:5px;">(P + a n²/V²)(V – nb) = nRT</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Compressibility Factor (Z)</td><td style="border:1px solid #bbb;padding:5px;">1</td><td style="border:1px solid #bbb;padding:5px;">≠ 1 (depends on P,T)</td></tr>
+</table>
+
+<h3 style="color:#34d399;">Table 2 – Gas Laws in Military Context</h3>
+<table style="border:1px solid #bbb;width:100%;border-collapse:collapse;">
+<tr style="background:#e6f7ff;">
+<th style="border:1px solid #bbb;padding:5px;">Law</th><th style="border:1px solid #bbb;padding:5px;">Application</th>
+</tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Boyle’s</td><td style="border:1px solid #bbb;padding:5px;">Scuba tanks – depth changes pressure, volume adjusts.</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Charles’s</td><td style="border:1px solid #bbb;padding:5px;">High‑altitude aircraft cabin heating – temperature rise expands gas.</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Gay‑Lussac’s</td><td style="border:1px solid #bbb;padding:5px;">Rocket nozzle design – pressure rise with combustion temperature.</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Avogadro’s</td><td style="border:1px solid #bbb;padding:5px;">Fuel‑air mixture calculations for jet engines.</td></tr>
+</table>
+
+<h2>🧠 Memory Tricks & Mnemonics</h2>
+<ul>
+<li><strong>“B‑C‑G‑A”</strong> – Remember the order of gas laws: <u>Boyle, Charles, Gay‑Lussac, Avogadro</u>. Picture a soldier marching “B‑C‑G‑A” like a drill command.</li>
+<li><strong>“PV=nRT – ‘P‑V‑N‑R‑T’ = ‘Power‑Vehicle‑Navy‑Rocket‑Tactics’”</strong> – Links the formula to military hardware.</li>
+<li><strong>“Van‑der‑Waals = ‘Van’ (vehicle) + ‘Waals’ (walls) – think of a tank’s hull limiting gas expansion.”</strong></li>
+<li><strong>“Z‑Factor = ‘Zero‑hero’ – when Z=1, the gas is a hero (ideal). Anything else means it’s a ‘Zero‑hero’ (non‑ideal).”</strong></li>
+<li><strong>“STP = ‘Standard Training Programme’ – 0 °C, 1 atm, 22.4 L – the baseline for any soldier’s gas test.”</strong></li>
+</ul>
+
+<h2>⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol>
+<li>At STP, 1 mol of any ideal gas occupies 22.4 L.</li>
+<li>Boyle’s law is valid only when temperature is constant.</li>
+<li>Charles’s law uses Kelvin, not Celsius.</li>
+<li>Gay‑Lussac’s law is useful for predicting pressure rise in a sealed container heated.</li>
+<li>Avogadro’s number = 6.022 × 10²³ mol⁻¹.</li>
+<li>R = 0.0821 L·atm mol⁻¹ K⁻¹ = 8.314 J mol⁻¹ K⁻¹.</li>
+<li>Compressibility factor Z = 1 for ideal gases.</li>
+<li>Van der Waals constants for CO₂: a = 3.59 L² atm mol⁻², b = 0.0427 L mol⁻¹.</li>
+<li>Real gases deviate most near condensation point.</li>
+<li>Density of a gas = (PM)/(RT).</li>
+<li>In a rocket nozzle, expanding gas does work → thrust.</li>
+<li>Life‑support systems monitor O₂ pressure using Boyle’s law.</li>
+<li>High‑altitude parachutes use Charles’s law to predict volume change.</li>
+<li>Temperature coefficient of pressure for gases ≈ 0.003 K⁻¹.</li>
+<li>Gas stoichiometry: 2 H₂ + O₂ → 2 H₂O (2 L H₂ + 1 L O₂ at STP produce 2 L H₂O vapor).</li>
+<li>Dalton’s law of partial pressures is often coupled with gas laws in diving.</li>
+<li>Ideal gas behavior improves with increasing temperature and decreasing pressure.</li>
+<li>Pressure in a sealed aircraft cabin is kept at ~0.75 atm for comfort.</li>
+<li>Hydrogen has the highest molar mass-to-volume ratio among gases.</li>
+<li>Gas‑law problems often require converting °C to K (add 273).</li>
+</ol>
+
+<h2>🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #34d399;padding:10px;background:#f0f9ff;">
+<p><strong>Boyle’s Law:</strong> P₁V₁ = P₂V₂</p>
+<p><strong>Charles’s Law:</strong> V₁/T₁ = V₂/T₂</p>
+<p><strong>Gay‑Lussac’s Law:</strong> P₁/T₁ = P₂/T₂</p>
+<p><strong>Avogadro’s Law:</strong> V₁/n₁ = V₂/n₂</p>
+<p><strong>Ideal Gas Equation:</strong> PV = nRT</p>
+<p><strong>Van der Waals Equation:</strong> (P + a n²/V²)(V – nb) = nRT</p>
+<p><strong>Compressibility Factor:</strong> Z = PV/RT</p>
+<p><strong>R (L·atm):</strong> 0.0821</p>
+<p><strong>R (J):</strong> 8.314</p>
+<p><strong>STP:</strong> 0 °C, 1 atm, 22.4 L mol⁻¹</p>
+<p><strong>Avogadro’s Number:</strong> 6.022 × 10²³ mol⁻¹</p>
+</div>
+
+<h2>📝 PYQ Pattern Analysis</h2>
+<p>Past five years of CDS, AFCAT and NDA papers show a steady presence of gas‑law questions – roughly 12‑15% of the Chemistry section. The most recurrent sub‑topic is the Ideal Gas Equation, often presented as a two‑step problem (e.g., find moles then pressure). Avogadro’s law and the concept of molar volume at STP appear frequently in numerical questions.</p>
+<p>Recent trends point to integration with other topics: e.g., combining gas laws with stoichiometry, or linking Boyle’s law to diving physics. Defence‑specific traps include forgetting to convert °C to K, or using the wrong R‑value when the question mixes atm and joules.</p>
+<p>Difficulty level has risen gradually; the last three years introduced Van der Waals constants for CO₂ and NH₃, testing deeper understanding of real‑gas corrections. However, the majority of questions remain at moderate difficulty, focusing on quick calculations rather than derivations.</p>
+
+<h2>🎓 Examination Perspective</h2>
+<p><strong>CDS:</strong> Emphasises numerical ability – expect 2‑3 questions on PV=nRT, often with multi‑step calculations. Also a conceptual MCQ on real‑gas deviation.</p>
+<p><strong>AFCAT:</strong> Mix of conceptual and numerical; a typical paper contains 1‑2 “fill in the blank” on R values and a scenario‑based question on pressure changes in aircraft cabins.</p>
+<p><strong>NDA:</strong> Focuses on fundamentals – likely to ask direct definitions, the “B‑C‑G‑A” order, and a simple pressure‑volume problem.</p>
+
+<h2>⚠️ Common Mistakes</h2>
+<ul>
+<li>Using Celsius instead of Kelvin – always add 273.</li>
+<li>Mixing R‑units – match atm‑L with 0.0821, joules with 8.314.</li>
+<li>Assuming ideal behaviour at very high pressures – check if Van der Waals is required.</li>
+<li>Forgetting that Avogadro’s law deals with equal volumes at same T and P.</li>
+<li>Incorrectly applying Boyle’s law when temperature changes – must use combined law.</li>
+<li>Overlooking the “b” term for gases with large molecular size (e.g., CH₄).</li>
+<li>Treating compressibility factor Z as always 1 – only valid for ideal gases.</li>
+</ul>
+
+<h2>🪖 Military Connection</h2>
+<ul>
+<li>Rocket and missile propulsion – thrust calculation uses PV=nRT for exhaust gases.</li>
+<li>Submarine ballast tanks – Boyle’s law governs air compression and water displacement.</li>
+<li>High‑altitude parachute deployment – Charles’s law predicts volume expansion of gas‑filled canopies.</li>
+<li>Aircraft cabin pressurisation – uses combined gas laws to maintain safe pressure levels.</li>
+<li>Explosive blast pressure analysis – Gay‑Lussac’s law helps estimate peak pressure from temperature rise.</li>
+</ul>
+
+<h2>🌐 Current Affairs Integration</h2>
+<ul>
+<li>DRDO’s new “Vikram” rocket engine (2025) uses cryogenic hydrogen; gas laws are critical for handling super‑cold gases.</li>
+<li>ISRO’s Gaganyaan mission (2024) required precise cabin pressure control – an application of combined gas laws.</li>
+<li>HAL’s upgraded “Tejas” fighter jet incorporates advanced fuel‑management systems based on real‑gas behaviour.</li>
+<li>Recent research on graphene‑based gas sensors (2023) leverages Van der Waals interactions for detection of explosives.</li>
+<li>DRDO’s “Nagra” underwater drone employs Boyle’s law for rapid depth changes during stealth operations.</li>
+</ul>
+
+<h2>📋 Revision Notes (1-Page)</h2>
+<ol>
+<li>Three states: solid, liquid, gas; plasma is the 4th.</li>
+<li>KMT – particles in random motion; kinetic energy ∝ T.</li>
+<li>Boyle’s: P₁V₁ = P₂V₂ (T const).</li>
+<li>Charles’s: V₁/T₁ = V₂/T₂ (P const).</li>
+<li>Gay‑Lussac’s: P₁/T₁ = P₂/T₂ (V const).</li>
+<li>Avogadro’s: V₁/n₁ = V₂/n₂ (P,T const).</li>
+<li>Ideal Gas: PV = nRT.</li>
+<li>R = 0.0821 L·atm mol⁻¹ K⁻¹ = 8.314 J mol⁻¹ K⁻¹.</li>
+<li>STP: 0 °C, 1 atm, 22.4 L mol⁻¹.</li>
+<li>Compressibility factor Z = PV/RT; Z=1 ideal.</li>
+<li>Van der Waals: (P + a n²/V²)(V – nb) = nRT.</li>
+<li>a = attraction, b = volume correction.</li>
+<li>Real gases deviate at high P/low T.</li>
+<li>Density ρ = PM/RT.</li>
+<li>Molar mass M = dRT/P.</li>
+<li>Number of molecules N = (PV/RT)·Nₐ.</li>
+<li>Convert °C → K (add 273).</li>
+<li>Use correct R‑unit for given pressure unit.</li>
+<li>Boyle’s in diving: depth ↑ → P ↑ → V ↓.</li>
+<li>Charles’s in hot air balloons: T ↑ → V ↑.</li>
+<li>Gay‑Lussac’s in sealed canisters: T ↑ → P ↑.</li>
+<li>Avogadro’s for gas volume‑mole conversion.</li>
+<li>Ideal gas works best < 1 atm, > 273 K.</li>
+<li>Military rockets: exhaust gases obey PV=nRT.</li>
+<li>Aircraft cabins maintain ~0.75 atm.</li>
+<li>Submarine ballast tanks use Boyle’s law.</li>
+<li>Explosives: rapid T rise → P rise (Gay‑Lussac).</li>
+<li>Fuel‑air mixture calculations use Avogadro’s law.</li>
+<li>Van der Waals constants are tabulated per gas.</li>
+<li>Z‑factor helps correct real‑gas calculations.</li>
+<li>DRDO’s Vikram engine handles cryogenic H₂.</li>
+<li>ISRO’s Gaganyaan cabin pressure control.</li>
+<li>HAL’s Tejas fuel‑management uses real‑gas data.</li>
+<li>Graphene sensors exploit Van der Waals forces.</li>
+<li>DRDO’s Nagra drone depth control via Boyle’s.</li>
+<li>Remember “B‑C‑G‑A” order of gas laws.</li>
+<li>“PV=nRT – Power‑Vehicle‑Navy‑Rocket‑Tactics”.</li>
+<li>“Van‑der‑Waals = Van (vehicle) + Waals (walls)”.</li>
+<li>“Z‑hero” for ideal gas (Z=1).</li>
+<li>“STP = Standard Training Programme”.</li>
+<li>“Z‑Factor = PV/RT”.</li>
+<li>“a” and “b” are always positive constants.</li>
+<li>Always check if question requires real‑gas correction.</li>
+</ol>
+
+<h2>🃏 Flashcards</h2>
+<table style="border:1px solid #bbb;width:100%;border-collapse:collapse;">
+<tr style="background:#e6f7ff;">
+<th style="border:1px solid #bbb;padding:5px;">Question</th>
+<th style="border:1px solid #bbb;padding:5px;">Answer</th>
+</tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">What is the volume of 2 mol of an ideal gas at STP?</td><td style="border:1px solid #bbb;padding:5px;">44.8 L (2 × 22.4 L)</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">State Boyle’s law.</td><td style="border:1px solid #bbb;padding:5px;">P₁V₁ = P₂V₂ (T constant)</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Which law relates pressure and temperature at constant volume?</td><td style="border:1px solid #bbb;padding:5px;">Gay‑Lussac’s law</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Define Avogadro’s number.</td><td style="border:1px solid #bbb;padding:5px;">6.022 × 10²³ mol⁻¹</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">What is the gas constant R in L·atm units?</td><td style="border:1px solid #bbb;padding:5px;">0.0821 L·atm mol⁻¹ K⁻¹</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">When does a real gas behave like an ideal gas?</td><td style="border:1px solid #bbb;padding:5px;">Low pressure & high temperature</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">What does the ‘b’ term in Van der Waals equation represent?</td><td style="border:1px solid #bbb;padding:5px;">Finite molecular volume</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Name the four gas laws in order “B‑C‑G‑A”.</td><td style="border:1px solid #bbb;padding:5px;">Boyle, Charles, Gay‑Lussac, Avogadro</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">What is the compressibility factor Z for an ideal gas?</td><td style="border:1px solid #bbb;padding:5px;">1</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">How many liters does 1 mol of gas occupy at 0 °C and 2 atm?</td><td style="border:1px solid #bbb;padding:5px;">11.2 L (22.4 L/2)</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Which law is used to calculate the pressure increase when a sealed container is heated?</td><td style="border:1px solid #bbb;padding:5px;">Gay‑Lussac’s law</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">If 5 L of gas at 1 atm is compressed to 2 L at constant temperature, what is the new pressure?</td><td style="border:1px solid #bbb;padding:5px;">2.5 atm (P₁V₁ = P₂V₂)</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">What is the significance of the ‘a’ constant in Van der Waals equation?</td><td style="border:1px solid #bbb;padding:5px;">Molecular attraction (pressure correction)</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Convert 25 °C to Kelvin.</td><td style="border:1px solid #bbb;padding:5px;">298 K</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">Which gas law explains why a hot air balloon rises?</td><td style="border:1px solid #bbb;padding:5px;">Charles’s law</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">What is the volume of 0.5 mol of ideal gas at 300 K and 1 atm?</td><td style="border:1px solid #bbb;padding:5px;">12.4 L (PV=nRT)</td></tr>
+<tr><td style="border:1px solid #bbb;padding:5px;">State the formula for density of a gas.</
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>

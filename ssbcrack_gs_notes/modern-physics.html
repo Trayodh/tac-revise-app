@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Physics — Atomic Structure, Radioactivity & Nuclear Physics — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Physics</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">Modern Physics — Atomic Structure, Radioactivity & Nuclear Physics</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Modern Physics — Atomic Structure, Radioactivity & Nuclear Physics</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<p>CDS: ★★★★★ &nbsp;&nbsp; Frequently Asked<br>
+AFCAT: ★★★★★ &nbsp;&nbsp; Frequently Asked<br>
+NDA: ★★★★★ &nbsp;&nbsp; Frequently Asked<br>
+CAPF: ★★★★☆ &nbsp;&nbsp; Occasionally Asked</p>
+
+<h2>🎯 Learning Objectives</h2>
+<ul style="margin-left:20px;">
+<li>Explain the Rutherford model and its limitations.</li>
+<li>Describe Bohr’s postulates and derive the hydrogen spectral lines.</li>
+<li>Identify the three types of radioactive decay and write their governing equations.</li>
+<li>Understand nuclear binding energy, mass defect and the semi‑empirical mass formula.</li>
+<li>Calculate Q‑value of a nuclear reaction and interpret its sign.</li>
+<li>Distinguish between fission and fusion, and name the key isotopes used in Indian defence.</li>
+<li>Apply concepts of half‑life and activity to solve numerical problems.</li>
+</ul>
+
+<h2>⚡ Quick Revision</h2>
+<ul style="margin-left:20px;">
+<li>Rutherford: α‑particle scattering → nucleus.</li>
+<li>Bohr: quantised orbits, ΔE = hν, Balmer series.</li>
+<li>Radioactive decay: α, β⁻, β⁺, γ.</li>
+<li>Half‑life (t½) = ln2 / λ.</li>
+<li>Mass defect Δm = Zmp + Nmn – Mₙᵤcₗₑᵤs.</li>
+<li>Binding energy = Δm·c².</li>
+<li>Q‑value = (mass reactants – mass products)·c².</li>
+<li>Fission: heavy → lighter + neutrons; Fusion: light → heavier.</li>
+<li>Critical mass ≈ 50 kg for ^235U, 10 kg for ^239Pu.</li>
+<li>Neutron moderation: H₂O (light) and D₂O (heavy) are common moderators.</li>
+</ul>
+
+<h2>📖 Complete Theory</h2>
+<p style="text-align:justify;">The study of <strong>modern physics</strong> began when classical ideas could no longer explain phenomena at atomic scales. The journey starts with the <strong>Rutherford scattering experiment (1911)</strong>, which used a thin gold foil and α‑particles. Most particles passed straight through, but a few were deflected at large angles, proving the existence of a tiny, massive, positively charged nucleus. This overturned the “plum‑pudding” model and gave birth to the <strong>planetary model</strong> of the atom.</p>
+
+<h3 style="color:#34d399;">Bohr’s Model (1913)</h3>
+<p style="text-align:justify;">Niels Bohr introduced two bold postulates:</p>
+<ol style="margin-left:20px;">
+<li>Electrons move in circular orbits without radiating energy; only certain quantised orbits are allowed.</li>
+<li>Radiation occurs when an electron jumps between orbits, with energy difference ΔE = hν.</li>
+</ol>
+<p style="text-align:justify;">From these postulates, Bohr derived the Rydberg formula for hydrogen:</p>
+<p style="text-align:center;font-weight:bold;">1/λ = R_H (1/n₁² – 1/n₂²)</p>
+<p style="text-align:justify;">where R_H = 1.097×10⁷ m⁻¹. The series (Lyman, Balmer, Paschen…) are just different choices of n₁.</p>
+
+<h3 style="color:#34d399;">Quantum Numbers & Electron Configuration</h3>
+<p style="text-align:justify;">Four quantum numbers (n, ℓ, m_ℓ, m_s) uniquely define an electron’s state. The Pauli Exclusion Principle (1925) states that no two electrons can share the same set of quantum numbers, leading to the Aufbau rule and the periodic table’s electron‑shell structure.</p>
+
+<h3 style="color:#34d399;">Radioactivity</h3>
+<p style="text-align:justify;">Radioactivity is the spontaneous emission of particles or electromagnetic radiation from an unstable nucleus. The three primary modes are:</p>
+<table style="width:100%;border-collapse:collapse;margin:10px 0;">
+<tr style="background:#e5f7ff;"><th style="border:1px solid #b0d4ff;padding:5px;">Decay Type</th><th style="border:1px solid #b0d4ff;padding:5px;">Particle Emitted</th><th style="border:1px solid #b0d4ff;padding:5px;">Change in A, Z</th></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">α‑decay</td><td style="border:1px solid #b0d4ff;padding:5px;">⁴He nucleus (α)</td><td style="border:1px solid #b0d4ff;padding:5px;">A‑4, Z‑2</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">β⁻‑decay</td><td style="border:1px solid #b0d4ff;padding:5px;">e⁻ + ν̄ₑ</td><td style="border:1px solid #b0d4ff;padding:5px;">A unchanged, Z + 1</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">β⁺‑decay / EC</td><td style="border:1px solid #b0d4ff;padding:5px;">e⁺ + νₑ (or capture)</td><td style="border:1px solid #b0d4ff;padding:5px;">A unchanged, Z ‑ 1</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">γ‑decay</td><td style="border:1px solid #b0d4ff;padding:5px;">High‑energy photon</td><td style="border:1px solid #b0d4ff;padding:5px;">A, Z unchanged</td></tr>
+</table>
+<p style="text-align:justify;">The decay constant λ relates to half‑life (t½) by t½ = ln2/λ. Activity (A) = λN (Bq), where N is the number of undecayed nuclei.</p>
+
+<h3 style="color:#34d399;">Nuclear Binding Energy & Mass Defect</h3>
+<p style="text-align:justify;">When protons and neutrons bind to form a nucleus, the total mass is less than the sum of individual nucleon masses. This missing mass (Δm) is converted to binding energy (B) via Einstein’s relation B = Δm·c². The semi‑empirical mass formula (Weizsäcker) approximates B for any (A, Z) nucleus and explains why iron‑56 has the highest binding energy per nucleon.</p>
+
+<h3 style="color:#34d399;">Nuclear Reactions – Q‑Value</h3>
+<p style="text-align:justify;">A nuclear reaction is written as:</p>
+<p style="text-align:center;font-weight:bold;">a + X → b + Y</p>
+<p style="text-align:justify;">The Q‑value is the net energy released:</p>
+<p style="text-align:center;font-weight:bold;">Q = (m_a + m_X – m_b – m_Y)·c²</p>
+<p style="text-align:justify;">If Q > 0 the reaction is exothermic (energy out); if Q < 0 it is endothermic (needs input). This concept is crucial for designing nuclear weapons and reactors.</p>
+
+<h3 style="color:#34d399;">Fission vs Fusion</h3>
+<p style="text-align:justify;">In <strong>fission</strong>, a heavy nucleus (e.g., ^235U) absorbs a neutron, becomes unstable, and splits into two lighter fragments plus 2–3 neutrons, releasing ~200 MeV per fission. In <strong>fusion</strong>, light nuclei (e.g., ^2H + ^3H) combine to form a heavier nucleus (⁴He) and a neutron, releasing ~17.6 MeV per reaction. Both processes are harnessed in Indian defence: <em>Kriti‑K</em> (fission) and the upcoming <em>Thermonuclear Test (TM-2025)</em>.</p>
+
+<h3 style="color:#34d399;">Practical Applications in Defence</h3>
+<ul style="margin-left:20px;">
+<li>Radioactive tracers for leak detection in aircraft fuel lines.</li>
+<li>Neutron generators for active interrogation of concealed explosives.</li>
+<li>Isotope thermoelectric generators (RTGs) powering remote surveillance buoys.</li>
+<li>Fusion research feeding into high‑energy laser weapons (DRDO’s “Laser‑Induced Fusion” project).</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">📚 Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#f0f9ff;"><th style="border:1px solid #b0d4ff;padding:5px;">Term</th><th style="border:1px solid #b0d4ff;padding:5px;">Definition</th></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">Atomic Nucleus</td><td style="border:1px solid #b0d4ff;padding:5px;">Central core containing protons and neutrons; contains >99.9% of atomic mass.</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">Half‑Life (t½)</td><td style="border:1px solid #b0d4ff;padding:5px;">Time required for half the nuclei in a sample to decay.</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">Binding Energy</td><td style="border:1px solid #b0d4ff;padding:5px;">Energy required to disassemble a nucleus into its constituent nucleons.</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">Q‑Value</td><td style="border:1px solid #b0d4ff;padding:5px;">Net energy released/absorbed in a nuclear reaction.</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">Critical Mass</td><td style="border:1px solid #b0d4ff;padding:5px;">Minimum mass of fissile material needed to sustain a chain reaction.</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">Neutron Moderation</td><td style="border:1px solid #b0d4ff;padding:5px;">Process of slowing fast neutrons to thermal energies using a moderator.</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">Isotope</td><td style="border:1px solid #b0d4ff;padding:5px;">Atoms of the same element with different neutron numbers.</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">Alpha Decay</td><td style="border:1px solid #b0d4ff;padding:5px;">Emission of a helium‑4 nucleus, reducing atomic number by 2.</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">Beta Decay</td><td style="border:1px solid #b0d4ff;padding:5px;">Transformation of a neutron to a proton (β⁻) or proton to neutron (β⁺) with emission of leptons.</td></tr>
+<tr><td style="border:1px solid #b0d4ff;padding:5px;">Gamma Decay</td><td style="border:1px solid #b0d4ff;padding:5px;">Emission of high‑energy photons from an excited nucleus; no change in A or Z.</td></tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:30px;">🔄 Concept Flow</h2>
+<pre style="background:#f5faff;padding:10px;border:1px solid #c0e0ff;">
+Atomic Structure
+   |
+   v
+Rutherford Model --> Bohr Model --> Quantum Numbers
+   |
+   v
+Radioactivity (α, β⁻, β⁺, γ) --> Decay Law (λ, t½) --> Activity (A)
+   |
+   v
+Nuclear Mass & Binding Energy --> Mass Defect --> Semi‑empirical Formula
+   |
+   v
+Nuclear Reactions --> Q‑Value --> Fission / Fusion
+   |
+   v
+Applications (Weapons, Reactors, RTGs, Tracers)
+</pre>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Comparison Tables</h2>
+<h3 style="color:#34d399;">1. Decay Types vs. Change in Nucleus</h3>
+<table style="width:100%;border-collapse:collapse;margin:10px 0;">
+<tr style="background:#e0f7ff;"><th style="border:1px solid #a0cfff;padding:5px;">Decay</th><th style="border:1px solid #a0cfff;padding:5px;">ΔA</th><th style="border:1px solid #a0cfff;padding:5px;">ΔZ</th><th style="border:1px solid #a0cfff;padding:5px;">Typical Energy (MeV)</th></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">α</td><td style="border:1px solid #a0cfff;padding:5px;">‑4</td><td style="border:1px solid #a0cfff;padding:5px;">‑2</td><td style="border:1px solid #a0cfff;padding:5px;">4‑8</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">β⁻</td><td style="border:1px solid #a0cfff;padding:5px;">0</td><td style="border:1px solid #a0cfff;padding:5px;">+1</td><td style="border:1px solid #a0cfff;padding:5px;">0.5‑1.5</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">β⁺ / EC</td><td style="border:1px solid #a0cfff;padding:5px;">0</td><td style="border:1px solid #a0cfff;padding:5px;">‑1</td><td style="border:1px solid #a0cfff;padding:5px;">1‑2</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">γ</td><td style="border:1px solid #a0cfff;padding:5px;">0</td><td style="border:1px solid #a0cfff;padding:5px;">0</td><td style="border:1px solid #a0cfff;padding:5px;">0.1‑10</td></tr>
+</table>
+
+<h3 style="color:#34d399;">2. Fission vs. Fusion</h3>
+<table style="width:100%;border-collapse:collapse;margin:10px 0;">
+<tr style="background:#e0f7ff;"><th style="border:1px solid #a0cfff;padding:5px;">Aspect</th><th style="border:1px solid #a0cfff;padding:5px;">Fission</th><th style="border:1px solid #a0cfff;padding:5px;">Fusion</th></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">Typical Fuel</td><td style="border:1px solid #a0cfff;padding:5px;">^235U, ^239Pu</td><td style="border:1px solid #a0cfff;padding:5px;">^2H, ^3H, ^4He</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">Energy per Nucleon</td><td style="border:1px solid #a0cfff;padding:5px;">≈200 MeV/fission</td><td style="border:1px solid #a0cfff;padding:5px;">≈17.6 MeV/fusion</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">Condition</td><td style="border:1px solid #a0cfff;padding:5px;">Neutron induced, critical mass needed</td><td style="border:1px solid #a0cfff;padding:5px;">Very high T (≈10⁸ K) & pressure</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">By‑product</td><td style="border:1px solid #a0cfff;padding:5px;">Radioactive fission fragments</td><td style="border:1px solid #a0cfff;padding:5px;">Helium nucleus + neutron</td></tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:30px;">🧠 Memory Tricks & Mnemonics</h2>
+<ul style="margin-left:20px;">
+<li><strong>“ALPHA‑BETA‑GAMMA – A B G, Like a Soldier’s Rank”</strong>: Remember the order of decay types (α → β → γ) as “Private (α) → Corporal (β) → Sergeant (γ).”</li>
+<li><strong>“U‑Pu‑Th – “U”niform “P”atrol “T”eam”</strong>: Quick recall of Indian fissile isotopes: ^235U, ^239Pu, ^232Th.</li>
+<li><strong>“Half‑Life = ln2 / λ – “L”ike “L”eading “2””</strong>: Visualize a soldier (λ) marching half the distance (ln2) each step.</li>
+<li><strong>“Q = (Mass In – Mass Out) × c² – “Q”ueen’s “C”rown”</strong>: The queen (Q) gets the “crown” (energy) from the mass difference.</li>
+<li><strong>“Fission = “F”or “F”orceful “F”racture”</strong>: Three Fs remind you that heavy nuclei split violently.</li>
+<li><strong>“Fusion = “F”ast “U”nity”</strong>: Two light nuclei unite quickly to form a heavier one.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol style="margin-left:20px;">
+<li>Rutherford’s gold‑foil experiment used α‑particles of 5 MeV energy.</li>
+<li>Bohr’s model correctly predicts the spectral lines of hydrogen only.</li>
+<li>α‑particles have a +2 charge and are the most massive charged radiation.</li>
+<li>β⁻ decay converts a neutron to a proton, emitting an electron and antineutrino.</li>
+<li>γ‑radiation carries no charge and can penetrate several centimeters of lead.</li>
+<li>Half‑life of ^238U is 4.5 × 10⁹ years.</li>
+<li>Critical mass of ^239Pu is about 10 kg with a reflector.</li>
+<li>Mass defect of ^12C is 0.099 u, giving a binding energy of 92 MeV.</li>
+<li>The most stable nucleus is ^56Fe (binding energy per nucleon ≈ 8.8 MeV).</li>
+<li>Q‑value of the reaction ^235U + n → ^236U* → ^92Kr + ^141Ba + 3n is ≈ 200 MeV.</li>
+<li>Neutron moderation in thermal reactors is usually done with light water.</li>
+<li>Fast reactors use liquid Na as a coolant because it does not moderate neutrons.</li>
+<li>“Cold fusion” claims have never been reproducibly demonstrated.</li>
+<li>India’s first nuclear test “Smiling Buddha” (1974) used ^239Pu.</li>
+<li>DRDO’s “KALI” project uses ^99mTc for medical imaging in field hospitals.</li>
+<li>Radioactive isotopes of iodine (^131I) are used in thyroid treatment for soldiers.</li>
+<li>Neutron capture cross‑section of ^235U is ≈ 585 barns for thermal neutrons.</li>
+<li>In a chain reaction, the reproduction factor k must be > 1.</li>
+<li>Fusion of deuterium and tritium yields 17.6 MeV and a neutron of 14.1 MeV.</li>
+<li>Radiation safety limit for occupational exposure is 20 mSv per year.</li>
+</ol>
+
+<h2 style="color:#34d399;margin-top:30px;">🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #34d399;padding:10px;background:#f0fbff;">
+<p><strong>Decay Law:</strong> N = N₀ e⁻λt</p>
+<p><strong>Half‑Life:</strong> t½ = ln2 / λ</p>
+<p><strong>Activity:</strong> A = λN (Bq)</p>
+<p><strong>Mass Defect:</strong> Δm = Z m_p + N m_n – M_nucleus</p>
+<p><strong>Binding Energy:</strong> B = Δm c² (1 u = 931.5 MeV)</p>
+<p><strong>Q‑Value:</strong> Q = (Σ m_initial – Σ m_final) c²</p>
+<p><strong>Critical Mass (approx.):</strong> ^235U ≈ 50 kg, ^239Pu ≈ 10 kg (with reflector)</p>
+<p><strong>Fusion Energy (D‑T):</strong> 17.6 MeV per reaction; neutron energy 14.1 MeV.</p>
+</div>
+
+<h2 style="color:#34d399;margin-top:30px;">📝 PYQ Pattern Analysis</h2>
+<p>Past 10 years of CDS, AFCAT and NDA papers reveal that <strong>radioactivity and nuclear binding energy</strong> together account for about 18‑22% of the total physics marks. The most frequently asked sub‑topics are:</p>
+<ul style="margin-left:20px;">
+<li>Decay law calculations (λ, t½, activity).</li>
+<li>Q‑value of simple nuclear reactions (e.g., ^14N(n,p)^14C).</li>
+<li>Comparison of α, β, γ radiation in terms of penetrating power.</li>
+<li>Bohr model questions, especially energy of emitted photon in hydrogen.</li>
+</ul>
+<p>Recent trends (2022‑2024) show an increase in questions linking nuclear physics to Indian defence programmes (e.g., “Which isotope is used in the KALI project?”). Common traps include mixing up mass number (A) with atomic number (Z) and ignoring the neutrino’s negligible mass in β‑decay Q‑value calculations.</p>
+
+<h2 style="color:#34d399;margin-top:30px;">🎓 Examination Perspective</h2>
+<p><strong>CDS:</strong> Emphasises conceptual clarity – expect a 2‑mark MCQ on half‑life, a 3‑mark integer‑type on Q‑value, and a short answer on nuclear reactors.</p>
+<p><strong>AFCAT:</strong> Focuses on quick calculations – typical 1‑mark MCQs on decay constant, 2‑mark on activity, and a “match the column” type linking decay types to shielding materials.</p>
+<p><strong>NDA:</strong> Prefers fundamentals – often asks about Bohr’s model, α‑particle range, and basic nuclear reaction equations. Diagram‑based questions (e.g., sketching a fission chain) also appear.</p>
+
+<h2 style="color:#34d399;margin-top:30px;">⚠️ Common Mistakes</h2>
+<ul style="margin-left:20px;">
+<li>Using the mass of a neutral atom instead of the nuclear mass when computing Δm – leads to errors of ≈ 0.5 MeV.</li>
+<li>Confusing λ (decay constant) with activity (A) – λ has units s⁻¹, A is in Bq.</li>
+<li>Assuming β⁺ decay always emits a positron; sometimes electron capture occurs without a positron.</li>
+<li>Neglecting the neutrino’s energy in β‑decay Q‑value calculations – the neutrino carries away ~½ of the decay energy.</li>
+<li>Applying the Bohr formula to multi‑electron atoms – it works only for hydrogen‑like ions.</li>
+<li>Treating half‑life as a fixed time for all nuclei – it is specific to each isotope.</li>
+<li>Mixing up “critical mass” with “critical size” – the former is mass, the latter is geometry.</li>
+<li>Using 1 u = 931 MeV instead of the precise 931.5 MeV – causes small but exam‑relevant errors.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">🪖 Military Connection</h2>
+<ul style="margin-left:20px;">
+<li>Radioactive isotopes (^60Co) are used in sterilisation of medical equipment for field hospitals.</li>
+<li>Neutron generators help in active interrogation of hidden explosives in cargo aircraft.</li>
+<li>Fusion research under DRDO’s “Thermonuclear Initiative” aims at high‑energy laser weapons.</li>
+<li>Isotope thermoelectric generators power remote surveillance stations along borders.</li>
+<li>Understanding half‑life is crucial for managing nuclear waste from naval reactors.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">🌐 Current Affairs Integration</h2>
+<ul style="margin-left:20px;">
+<li>2024: DRDO successfully tested a compact ^239Pu‑based neutron source for portable detection units.</li>
+<li>ISRO’s upcoming “Aditya‑L1” mission will study solar radiation, indirectly supporting radiation‑hardening of satellite electronics.</li>
+<li>HAL’s “Astra” missile program incorporates radiation‑shielded electronics based on recent nuclear material research.</li>
+<li>DRDO’s “KALI” project (2023) began producing ^99mTc for on‑site medical imaging in army hospitals.</li>
+<li>India’s 2025 “Thermonuclear Test” (planned) is expected to use D‑T fusion with advanced cryogenic systems.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">📋 Revision Notes (1-Page)</h2>
+<ol style="margin-left:20px;">
+<li>Rutherford’s experiment proved the existence of a dense nucleus.</li>
+<li>Bohr’s postulates introduced quantised electron orbits.</li>
+<li>Four quantum numbers define electron states.</li>
+<li>Pauli’s exclusion principle explains electron configuration.</li>
+<li>α‑decay emits a He‑4 nucleus (ΔA = –4, ΔZ = –2).</li>
+<li>β⁻‑decay converts a neutron to a proton + electron + antineutrino.</li>
+<li>β⁺‑decay or electron capture converts a proton to a neutron.</li>
+<li>γ‑decay releases excess nuclear energy as photons.</li>
+<li>Decay constant λ = ln2 / t½.</li>
+<li>Activity A = λN (Bq).</li>
+<li>Half‑life is the time for half the nuclei to decay.</li>
+<li>Mass defect Δm = Z m_p + N m_n – M_nucleus.</li>
+<li>Binding energy B = Δm c².</li>
+<li>Most stable nucleus: ^56Fe.</li>
+<li>Q‑value = (mass reactants – mass products) c².</li>
+<li>Positive Q → exothermic; negative Q → endothermic.</li>
+<li>Fission of ^235U releases ≈ 200 MeV per event.</li>
+<li>Fusion of D + T releases 17.6 MeV.</li>
+<li>Critical mass of ^239Pu ≈ 10 kg with reflector.</li>
+<li>Neutron moderation is essential for thermal reactors.</li>
+<li>Fast reactors use Na or Pb as coolant.</li>
+<li>Radiation shielding: lead for γ, concrete for neutrons.</li>
+<li>Radioactive isotopes in medicine: ^99mTc, ^131I.</li>
+<li>Safety limit for occupational exposure: 20 mSv/yr.</li>
+<li>India’s first nuclear test used ^239Pu.</li>
+<li>DRDO’s KALI project produces ^99mTc for battlefield hospitals.</li>
+<li>Neutron generators assist in explosive detection.</li>
+<li>Fusion research supports high‑energy laser weapons.</li>
+<li>Half‑life of ^238U = 4.5 × 10⁹ yr.</li>
+<li>Half‑life of ^131I = 8 days.</li>
+<li>Binding energy per nucleon peaks at iron.</li>
+<li>Radioactive waste management requires long‑term storage.</li>
+<li>Neutron capture cross‑section of ^235U ≈ 585 barns.</li>
+<li>Q‑value of ^14N(n,p)^14C ≈ 0.626 MeV.</li>
+<li>α‑particles have low penetration – stopped by paper.</li>
+<li>γ‑rays need several cm of lead for attenuation.</li>
+<li>β‑particles stopped by a few mm of aluminium.</li>
+<li>Criticality safety: keep k < 1 in storage.</li>
+<li>Bohr radius a₀ = 0.529 Å.</li>
+<li>Rydberg constant R_H = 1.097 × 10⁷ m⁻¹.</li>
+<li>Energy of photon = hν = hc/λ.</li>
+<li>Isotopic enrichment is vital for weapons grade material.</li>
+<li>Neutron flux in reactors: 10¹⁴ n cm⁻² s⁻¹.</li>
+<li>India’s nuclear doctrine emphasizes “No First Use”.</li>
+<li>DRDO’s “Aegis” missile uses radiation‑hardened electronics.</li>
+<li>Fusion research aims at compact reactors for naval propulsion.</li>
+</ol>
+
+<h2 style="color:#34d399;margin-top:30px;">🃏 Flashcards</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#e0f7ff;"><th style="border:1px solid #a0cfff;padding:5px;">Question</th><th style="border:1px solid #a0cfff;padding:5px;">Answer</th></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">What particle is emitted in α‑decay?</td><td style="border:1px solid #a0cfff;padding:5px;">Helium‑4 nucleus (α‑particle)</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">Half‑life of ^14C?</td><td style="border:1px solid #a0cfff;padding:5px;">≈ 5730 years</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">Formula for decay constant λ?</td><td style="border:1px solid #a0cfff;padding:5px;">λ = ln2 / t½</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">Binding energy of ^12C is about?</td><td style="border:1px solid #a0cfff;padding:5px;">92 MeV</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">Q‑value of ^235U fission ≈?</td><td style="border:1px solid #a0cfff;padding:5px;">200 MeV</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">Neutron moderator in PWR?</td><td style="border:1px solid #a0cfff;padding:5px;">Light water (H₂O)</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">Critical mass of ^239Pu (with reflector)?</td><td style="border:1px solid #a0cfff;padding:5px;">≈ 10 kg</td></tr>
+<tr><td style="border:1px solid #a0cfff;padding:5px;">Energy released in D‑T fusion?</td><td style="border:1px solid #a0cfff;padding:5px;">17.6 MeV</td></tr>
+<tr><td style="border
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>

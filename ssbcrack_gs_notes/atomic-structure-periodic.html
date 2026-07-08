@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atomic Structure & Periodic Table — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Chemistry</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">Atomic Structure & Periodic Table</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Atomic Structure & Periodic Table</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<ul style="margin-left:20px;">
+<li>CDS: ★★★★★ – Frequently asked (≈ 70% of chemistry papers contain at least one question).</li>
+<li>AFCAT: ★★★★★ – Regularly appears (especially in “Basic Concepts” section).</li>
+<li>NDA: ★★★★★ – Core chapter; asked in every cycle.</li>
+<li>CAPF: ★★★★☆ – Occasionally (mainly in General Science).</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">🎯 Learning Objectives</h2>
+<ul style="margin-left:20px;">
+<li>Identify the sub‑atomic particles and their charges.</li>
+<li>Explain the quantum model of the atom and the significance of quantum numbers.</li>
+<li>Distinguish between isotopes, isobars and isoelectrons.</li>
+<li>Construct electron configurations using the Aufbau principle, Hund’s rule and Pauli’s exclusion principle.</li>
+<li>Read and interpret the Periodic Table – groups, periods, blocks and trends.</li>
+<li>Compare atomic size, ionisation energy, electron affinity and electronegativity across periods and groups.</li>
+<li>Apply the concepts to solve typical defence‑exam problems (e.g., “Which element will form the strongest bond with fluorine?”).</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">⚡ Quick Revision</h2>
+<ul style="margin-left:20px;">
+<li>Atom = nucleus + electrons.</li>
+<li>Proton (+1), Neutron (0), Electron (–1).</li>
+<li>Atomic number = #protons; Mass number = protons + neutrons.</li>
+<li>Isotopes: same Z, different A.</li>
+<li>Quantum numbers: n, ℓ, mℓ, ms.</li>
+<li>Aufbau → 1s < 2s < 2p < 3s …</li>
+<li>Hund’s rule – maximize unpaired electrons.</li>
+<li>Pauli – no two electrons share same four quantum numbers.</li>
+<li>Groups = vertical families; Periods = horizontal rows.</li>
+<li>Left‑to‑right: atomic radius ↓, IE ↑, EN ↑.</li>
+<li>Top‑to‑bottom: atomic radius ↑, IE ↓, EN ↓.</li>
+<li>Block s: ns², Block p: np²‑⁶, Block d: (n‑1)d¹‑¹⁰, Block f: (n‑2)f¹‑¹⁴.</li>
+<li>Effective nuclear charge (Z_eff) = Z – σ.</li>
+<li>Ionisation energy trends explain metal‑non‑metal character.</li>
+<li>Electronegativity correlates with bond type (ionic, polar covalent, covalent).</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">📖 Complete Theory</h2>
+<p style="text-align:justify;">The atom, once thought to be indivisible, is now known to be a compact system of <strong>sub‑atomic particles</strong>. The positively charged <strong>proton</strong> and neutral <strong>neutron</strong> form the dense nucleus, while negatively charged <strong>electrons</strong> whirl around in defined energy regions called <strong>orbitals</strong>. The number of protons (atomic number, Z) uniquely identifies an element; the sum of protons and neutrons (mass number, A) gives its isotopic mass.</p>
+
+<h3 style="color:#34d399;margin-top:20px;">1. Quantum Mechanical Model</h3>
+<p style="text-align:justify;">Erwin Schrödinger’s wave equation replaced the planetary model with a probability cloud. Each electron is described by a set of <strong>quantum numbers</strong>:</p>
+<ul style="margin-left:20px;">
+<li><strong>n (principal)</strong> – energy level (1,2,3…).</li>
+<li><strong>ℓ (azimuthal)</strong> – shape of orbital (s, p, d, f).</li>
+<li><strong>mℓ (magnetic)</strong> – orientation in space.</li>
+<li><strong>ms (spin)</strong> – +½ or –½.</li>
+</ul>
+<p style="text-align:justify;">These numbers obey three rules:</p>
+<ol style="margin-left:20px;">
+<li><strong>Pauli Exclusion Principle</strong>: No two electrons in an atom can have identical sets of all four quantum numbers.</li>
+<li><strong>Hund’s Rule</strong>: Electrons occupy degenerate orbitals singly before pairing.</li>
+<li><strong>Aufbau Principle</strong>: Electrons fill lower‑energy orbitals first (1s → 2s → 2p → 3s …).</li>
+</ol>
+
+<h3 style="color:#34d399;margin-top:20px;">2. Electron Configuration & Notations</h3>
+<p style="text-align:justify;">The arrangement of electrons is written as a series of superscripts, e.g., <code>1s² 2s² 2p⁶ 3s² 3p⁴</code> for sulfur. The noble‑gas shorthand (<code>[Ne] 3s² 3p⁴</code>) shortens long strings and highlights valence electrons, which dictate chemical reactivity.</p>
+
+<h3 style="color:#34d399;margin-top:20px;">3. Periodic Table – Structure</h3>
+<p style="text-align:justify;">Dmitri Mendeleev’s table organised elements by atomic mass; modern tables use atomic number. Key features:</p>
+<ul style="margin-left:20px;">
+<li><strong>Groups (1‑18)</strong> – elements share valence‑shell configuration.</li>
+<li><strong>Periods (1‑7)</strong> – each period adds a new electron shell.</li>
+<li><strong>Blocks</strong> – s‑block (Groups 1‑2 + He), p‑block (Groups 13‑18), d‑block (Transition metals), f‑block (Lanthanides & Actinides).</li>
+</ul>
+
+<h3 style="color:#34d399;margin-top:20px;">4. Periodic Trends</h3>
+<p style="text-align:justify;">Understanding trends is vital for quick problem solving.</p>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#e5e7eb;">
+<th style="border:1px solid #cbd5e1;padding:8px;">Property</th>
+<th style="border:1px solid #cbd5e1;padding:8px;">Trend Across a Period</th>
+<th style="border:1px solid #cbd5e1;padding:8px;">Trend Down a Group</th>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;">Atomic Radius</td>
+<td style="border:1px solid #cbd5e1;padding:8px;">Decreases (Z_eff ↑)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;">Increases (more shells)</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;">Ionisation Energy (IE)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;">Increases (Z_eff ↑)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;">Decreases (shielding ↑)</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;">Electron Affinity</td>
+<td style="border:1px solid #cbd5e1;padding:8px;">Generally becomes more negative</td>
+<td style="border:1px solid #cbd5e1;padding:8px;">Becomes less negative</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;">Electronegativity</td>
+<td style="border:1px solid #cbd5e1;padding:8px;">Increases (Z_eff ↑)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;">Decreases (shielding ↑)</td>
+</tr>
+</table>
+
+<h3 style="color:#34d399;margin-top:20px;">5. Special Cases – Transition & Inner‑Transition Metals</h3>
+<p style="text-align:justify;">Transition metals (d‑block) exhibit variable oxidation states because of comparable energies of (n‑1)d and ns electrons. This explains the colourful complexes used in camouflage and signalling. Lanthanides and actinides (f‑block) have high shielding, leading to low IE and large atomic radii despite high Z.</p>
+
+<h3 style="color:#34d399;margin-top:20px;">6. Practical Relevance to Defence Exams</h3>
+<p style="text-align:justify;">Questions often test:</p>
+<ul style="margin-left:20px;">
+<li>Identification of ground‑state electron configuration.</li>
+<li>Predicting ion formation (cations from metals, anions from non‑metals).</li>
+<li>Comparing two elements for bond type with fluorine.</li>
+<li>Understanding why certain metals are chosen for aircraft alloys (e.g., high strength‑to‑weight ratio of Ti).</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">📚 Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#e5e7eb;">
+<th style="border:1px solid #cbd5e1;padding:8px;">Term</th>
+<th style="border:1px solid #cbd5e1;padding:8px;">Definition</th>
+</tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Atomic Number (Z)</td><td style="border:1px solid #cbd5e1;padding:8px;">Number of protons in the nucleus; uniquely identifies an element.</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Mass Number (A)</td><td style="border:1px solid #cbd5e1;padding:8px;">Sum of protons and neutrons in the nucleus.</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Isotope</td><td style="border:1px solid #cbd5e1;padding:8px;">Atoms of the same element (same Z) with different mass numbers.</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Effective Nuclear Charge (Z<sub>eff</sub>)</td><td style="border:1px solid #cbd5e1;padding:8px;">Net positive charge experienced by valence electrons; Z – σ (shielding constant).</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Ionisation Energy (IE)</td><td style="border:1px solid #cbd5e1;padding:8px;">Energy required to remove the outermost electron from a gaseous atom.</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Electron Affinity (EA)</td><td style="border:1px solid #cbd5e1;padding:8px;">Energy change when an electron is added to a neutral atom.</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Electronegativity (EN)</td><td style="border:1px solid #cbd5e1;padding:8px;">Ability of an atom to attract bonding electrons.</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Hund’s Rule</td><td style="border:1px solid #cbd5e1;padding:8px;">Electrons occupy degenerate orbitals singly before pairing.</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Pauli Exclusion Principle</td><td style="border:1px solid #cbd5e1;padding:8px;">No two electrons can share the same set of four quantum numbers.</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Aufbau Principle</td><td style="border:1px solid #cbd5e1;padding:8px;">Electrons fill lower‑energy orbitals before higher‑energy ones.</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Valence Electron</td><td style="border:1px solid #cbd5e1;padding:8px;">Electron(s) in the outermost shell; determine chemical behaviour.</td></tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:30px;">🔄 Concept Flow</h2>
+<pre style="background:#f3f4f6;padding:10px;border:1px solid #d1d5db;">
+Atomic Structure
+│
+├─ Sub‑atomic Particles (p⁺, n⁰, e⁻)
+│   └─ Mass Number, Atomic Number
+│
+├─ Quantum Model
+│   ├─ Quantum Numbers (n, ℓ, mℓ, ms)
+│   ├─ Rules (Pauli, Hund, Aufbau)
+│   └─ Electron Configuration
+│
+├─ Periodic Table
+│   ├─ Groups & Periods
+│   ├─ Blocks (s, p, d, f)
+│   └─ Trends (Radius, IE, EA, EN)
+│
+└─ Applications
+    ├─ Predict Ion Formation
+    ├─ Bond Type with F
+    └─ Material Choice for Defence (Ti, Al, Zr)
+</pre>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Comparison Tables</h2>
+<h3 style="color:#34d399;margin-top:15px;">Atomic Radius vs. Ionisation Energy</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#e5e7eb;">
+<th style="border:1px solid #cbd5e1;padding:8px;">Element</th>
+<th style="border:1px solid #cbd5e1;padding:8px;">Atomic Radius (pm)</th>
+<th style="border:1px solid #cbd5e1;padding:8px;">First IE (kJ/mol)</th>
+</tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Li</td><td style="border:1px solid #cbd5e1;padding:8px;">152</td><td style="border:1px solid #cbd5e1;padding:8px;">520</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Na</td><td style="border:1px solid #cbd5e1;padding:8px;">186</td><td style="border:1px solid #cbd5e1;padding:8px;">496</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">K</td><td style="border:1px solid #cbd5e1;padding:8px;">227</td><td style="border:1px solid #cbd5e1;padding:8px;">419</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">F</td><td style="border:1px solid #cbd5e1;padding:8px;">42</td><td style="border:1px solid #cbd5e1;padding:8px;">1681</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Cl</td><td style="border:1px solid #cbd5e1;padding:8px;">79</td><td style="border:1px solid #cbd5e1;padding:8px;">1251</td></tr>
+</table>
+
+<h3 style="color:#34d399;margin-top:15px;">s‑block vs. d‑block Metals</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#e5e7eb;">
+<th style="border:1px solid #cbd5e1;padding:8px;">Feature</th>
+<th style="border:1px solid #cbd5e1;padding:8px;">s‑block (Group 1 & 2)</th>
+<th style="border:1px solid #cbd5e1;padding:8px;">d‑block (Transition Metals)</th>
+</tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Typical Oxidation States</td><td style="border:1px solid #cbd5e1;padding:8px;">+1, +2</td><td style="border:1px solid #cbd5e1;padding:8px;">+2 to +7 (variable)</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Colour of Compounds</td><td style="border:1px solid #cbd5e1;padding:8px;">Usually colourless</td><td style="border:1px solid #cbd5e1;padding:8px;">Often coloured (d‑d transitions)</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Hardness</td><td style="border:1px solid #cbd5e1;padding:8px;">Soft (Li, Na) to moderately hard (Ca)</td><td style="border:1px solid #cbd5e1;padding:8px;">Hard, high melting point (Fe, Ti)</td></tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:30px;">🧠 Memory Tricks & Mnemonics</h2>
+<ul style="margin-left:20px;">
+<li><strong>“S‑P‑D‑F – Soldiers Patrol Daily Frontline”</strong> – Remember the order of orbital filling (s, p, d, f).</li>
+<li><strong>“Li Na K – Light Infantry, Na – Night‑watch, K – K9 Unit”</strong> – Alkali metals are highly reactive, think of “quick‑action troops”.</li>
+<li><strong>“F‑Cl‑Br‑I – Frontline Combatants, Bigger the soldier, weaker the bite”</strong> – Halogen reactivity decreases down the group (F most reactive).</li>
+<li><strong>“EN = Z_eff – Shield”</strong> – Electronegativity equals effective nuclear charge minus shielding; picture a soldier (EN) breaking through enemy shield (σ).</li>
+<li><strong>“Ti‑Al‑Mg – Tactical Air‑lift Materials”</strong> – Remember the three light‑weight metals used in aircraft (Titanium, Aluminium, Magnesium).</li>
+<li><strong>“C‑N‑O – Command, Navigation, Operations”</strong> – The three most electronegative non‑metals, crucial for “battle‑field communications”.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol style="margin-left:20px;">
+<li>Atomic number of uranium is 92.</li>
+<li>First ionisation energy of helium is the highest among all elements.</li>
+<li>Fluorine has the highest electronegativity (3.98 on Pauling scale).</li>
+<li>Elements in the same group have similar chemical properties due to identical valence‑electron configuration.</li>
+<li>The d‑block contains 10 groups (3‑12) and houses transition metals.</li>
+<li>Lanthanides are also called “rare‑earth elements”.</li>
+<li>Effective nuclear charge increases across a period.</li>
+<li>Atomic radius decreases across a period.</li>
+<li>First ionisation energy decreases down a group.</li>
+<li>Electron configuration of Cu is [Ar] 3d¹⁰ 4s¹ (an exception).</li>
+<li>Gold (Au) has an electron configuration ending in 5d¹⁰ 6s¹.</li>
+<li>Alkali metals form +1 cations; alkaline earth metals form +2 cations.</li>
+<li>Transition metals often form coloured complexes due to d‑d transitions.</li>
+<li>Hydrogen is placed separately because it shows properties of both Group 1 and Group 17.</li>
+<li>Isotopes of carbon: ¹²C (stable), ¹³C (stable), ¹⁴C (radioactive).</li>
+<li>Atomic number of chlorine is 17; its valence shell contains 7 electrons.</li>
+<li>Calcium (Ca) belongs to the s‑block and has a configuration [Ar] 4s².</li>
+<li>First ionisation energy of Na is lower than that of Mg, despite higher atomic number.</li>
+<li>Electronegativity trend: F > O > N > C > B > Si.</li>
+<li>Atomic radius of Francium is the largest among naturally occurring elements.</li>
+</ol>
+
+<h2 style="color:#34d399;margin-top:30px;">🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #34d399;padding:15px;background:#f0f9ff;margin-top:10px;">
+<ul style="margin-left:20px;">
+<li><strong>Z_eff = Z – σ</strong> (σ = shielding constant)</li>
+<li><strong>IE₁ ∝ Z_eff² / n²</strong> (First ionisation energy approximation)</li>
+<li><strong>EN (Pauling) = 0.102 × (Z_eff – σ)</strong> (rough estimate)</li>
+<li>Atomic radius trend: ↓ across a period, ↑ down a group.</li>
+<li>Electron configuration notation: [Noble gas] ns² np¹‑⁶ (nd/ (n‑1)d¹‑¹⁰) (nf/ (n‑2)f¹‑¹⁴).</li>
+<li>Hund’s rule – maximum multiplicity.</li>
+<li>Pauli – no two electrons share same quantum numbers.</li>
+</ul>
+</div>
+
+<h2 style="color:#34d399;margin-top:30px;">📝 PYQ Pattern Analysis</h2>
+<p style="text-align:justify;">Past Year Questions (PYQ) from CDS, AFCAT and NDA reveal a clear pattern: about 70% of chemistry questions stem from the “Atomic Structure & Periodic Table” chapter. The most recurring sub‑topics are electron configuration (especially anomalies like Cu, Cr), periodic trends (IE, EN, atomic radius) and the classification of elements (s‑block vs. d‑block). Questions are frequently presented in a “fill‑in‑the‑blank” format, asking for the correct configuration of a given element, or as a comparative statement (e.g., “Which element has a larger first IE, Mg or Al?”). Recent papers (2023‑2025) have introduced diagram‑based questions where candidates must locate an element on the Periodic Table based on its properties. Common traps include forgetting the (n‑1) rule for d‑orbitals and mixing up the order of filling between 4s and 3d.</p>
+
+<h2 style="color:#34d399;margin-top:30px;">🎓 Examination Perspective</h2>
+<p><strong>CDS:</strong> Emphasises conceptual clarity. Expect 2–3 MCQs on electron configuration, 1–2 on periodic trends, and a short‑answer on the significance of Z_eff. Questions often link chemistry with physics (e.g., “Which element is used in the alloy of aircraft wings?”).</p>
+<p><strong>AFCAT:</strong> Focuses on speed. Usually 3 quick‑fire MCQs on trends and a single “match the column” type on block classification. No essay‑type questions.</p>
+<p><strong>NDA:</strong> Covers the entire syllabus but gives higher weightage to fundamentals. Expect 4–5 MCQs on configurations, a diagram‑based question on the Periodic Table, and a fill‑in‑the‑blank on ionisation energy values.</p>
+
+<h2 style="color:#34d399;margin-top:30px;">⚠️ Common Mistakes</h2>
+<ul style="margin-left:20px;">
+<li>Confusing the order of 4s and 3d filling – remember 4s fills before 3d.</li>
+<li>Ignoring exceptions (Cu, Cr) and writing the textbook configuration.</li>
+<li>Assuming atomic radius always increases down a group; lanthanides contract (lanthanide contraction).</li>
+<li>Mixing up electronegativity trends with ionisation energy trends – they are related but not identical.</li>
+<li>Using atomic number instead of mass number while writing isotopic notation.</li>
+<li>Forgetting that helium belongs to the s‑block (1s²) despite being placed with noble gases.</li>
+<li>Over‑relying on memorised numbers; better to understand the underlying Z_eff concept.</li>
+<li>Neglecting the effect of shielding when comparing IE of elements in the same period.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">🪖 Military Connection</h2>
+<ul style="margin-left:20px;">
+<li>Titanium (Ti) alloys – high strength‑to‑weight ratio, used in aircraft frames and missile casings.</li>
+<li>Aluminium (Al) – primary material for transport aircraft and parachute rigs due to low density.</li>
+<li>Uranium (U) – nuclear reactors for submarines; understanding its isotopes is essential for fuel handling.</li>
+<li>Nickel (Ni) – component of stainless steel used in naval hulls; corrosion resistance linked to d‑electron configuration.</li>
+<li>Rare‑earth elements (e.g., Lanthanum, Cerium) – critical for high‑performance radar and communication systems.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">🌐 Current Affairs Integration</h2>
+<ul style="margin-left:20px;">
+<li>DRDO’s development of a new Ti‑Al alloy for stealth aircraft (2024) – hinges on atomic‑size and strength concepts.</li>
+<li>ISRO’s launch vehicle using “high‑purity aluminium” to reduce weight – ties back to s‑block properties.</li>
+<li>HAL’s contract to produce “lightweight magnesium‑based components” for UAVs – relies on low atomic mass and high specific strength.</li>
+<li>Recent IAEA report (2025) on “uranium enrichment techniques” – underscores importance of isotopic distinction.</li>
+<li>India’s acquisition of “rare‑earth free” magnet technology – connects to f‑block element scarcity.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">📋 Revision Notes (1-Page)</h2>
+<ol style="margin-left:20px;">
+<li>Atomic number = #protons; mass number = protons + neutrons.</li>
+<li>Isotopes: same Z, different A.</li>
+<li>Effective nuclear charge Z_eff = Z – σ.</li>
+<li>Electron configuration follows Aufbau → 1s² 2s² 2p⁶ …</li>
+<li>Exceptions: Cu = [Ar] 3d¹⁰ 4s¹, Cr = [Ar] 3d⁵ 4s¹.</li>
+<li>Hund’s rule – fill degenerate orbitals singly.</li>
+<li>Pauli – max two electrons per orbital with opposite spins.</li>
+<li>Groups = vertical families; same valence electrons.</li>
+<li>Periods = horizontal rows; each adds a shell.</li>
+<li>s‑block: Groups 1‑2 + He; ns¹‑².</li>
+<li>p‑block: Groups 13‑18; np¹‑⁶.</li>
+<li>d‑block: Transition metals; (n‑1)d¹‑¹⁰.</li>
+<li>f‑block: Lanthanides & Actinides; (n‑2)f¹‑¹⁴.</li>
+<li>Atomic radius ↓ across period, ↑ down group.</li>
+<li>First IE ↑ across period, ↓ down group.</li>
+<li>Electronegativity ↑ across period, ↓ down group.</li>
+<li>Fluorine highest EN (3.98).</li>
+<li>Helium belongs to s‑block (1s²).</li>
+<li>Ti, Al, Mg – key lightweight metals for defence.</li>
+<li>Uranium isotopes ²³⁵U (fissile) & ²³⁸U (fertile).</li>
+<li>Lanthanide contraction – similar radii for La‑Lu.</li>
+<li>Electron affinity most negative for Cl.</li>
+<li>Transition metal complexes are coloured (d‑d).</li>
+<li>Effective nuclear charge explains trend in IE.</li>
+<li>Shielding constant σ increases down a group.</li>
+<li>Group 1 metals form +1 cations; Group 2 form +2.</li>
+<li>Group 17 elements form –1 anions.</li>
+<li>Metallic bonding strength ↑ with ↑ Z_eff.</li>
+<li>Alloys: Ti‑Al‑V for aircraft, Ni‑Fe for ships.</li>
+<li>Rare‑earth elements critical for modern electronics.</li>
+<li>Atomic radius of Francium ≈ 260 pm (largest).</li>
+<li>First IE of He = 2372 kJ/mol (highest).</li>
+<li>Electron configuration of Fe = [Ar] 3d⁶ 4s².</li>
+<li>Electron configuration of Zn = [Ar] 3d¹⁰ 4s².</li>
+<li>Configuration of O = 1s² 2s² 2p⁴.</li>
+<li>Configuration of N = 1s² 2s² 2p³.</li>
+<li>Configuration of K = [Ar] 4s¹.</li>
+<li>Configuration of Ca = [Ar] 4s².</li>
+<li>Configuration of Na = [Ne] 3s¹.</li>
+<li>Configuration of Mg = [Ne] 3s².</li>
+<li>Configuration of Cl = [Ne] 3s² 3p⁵.</li>
+<li>Configuration of Br = [Ar] 4s² 3d¹⁰ 4p⁵.</li>
+<li>Configuration of I = [Kr] 5s² 4d¹⁰ 5p⁵.</li>
+<li>Configuration of Si = [Ne] 3s² 3p².</li>
+<li>Configuration of P = [Ne] 3s² 3p³.</li>
+<li>Configuration of S = [Ne] 3s² 3p⁴.</li>
+<li>Configuration of Ar = [Ne] 3s² 3p⁶.</li>
+<li>Configuration of Kr = [Ar] 4s² 3d¹⁰ 4p⁶.</li>
+<li>Configuration of Xe = [Kr] 5s² 4d¹⁰ 5p⁶.</li>
+<li>Configuration of Rn = [Xe] 6s² 4f¹⁴ 5d¹⁰ 6p⁶.</li>
+</ol>
+
+<h2 style="color:#34d399;margin-top:30px;">🃏 Flashcards</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#e5e7eb;">
+<th style="border:1px solid #cbd5e1;padding:8px;">Question</th>
+<th style="border:1px solid #cbd5e1;padding:8px;">Answer</th>
+</tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Atomic number of carbon?</td><td style="border:1px solid #cbd5e1;padding:8px;">6</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Electron configuration of Na?</td><td style="border:1px solid #cbd5e1;padding:8px;">[Ne] 3s¹</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">First IE of Li (kJ/mol)?</td><td style="border:1px solid #cbd5e1;padding:8px;">520</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Group of chlorine?</td><td style="border:1px solid #cbd5e1;padding:8px;">17 (halogens)</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Electronegativity of O?</td><td style="border:1px solid #cbd5e1;padding:8px;">3.44</td></tr>
+<tr><td style="border:1px solid #cbd5e1;padding:8px;">Atomic radius trend across a
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>

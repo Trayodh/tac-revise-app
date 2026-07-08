@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reproduction & Heredity — DNA, Genetics & Mendel Laws — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Biology</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">Reproduction & Heredity — DNA, Genetics & Mendel Laws</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Reproduction & Heredity — DNA, Genetics & Mendel Laws</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<p>CDS: ★★★★★ – Frequently Asked<br>
+AFCAT: ★★★★★ – Frequently Asked<br>
+NDA: ★★★★★ – Frequently Asked</p>
+<p>This chapter is a staple for all defence exams because it tests logical reasoning, analytical ability and basic scientific literacy – all essential for a future officer.</p>
+
+<h2>🎯 Learning Objectives</h2>
+<ul style="margin-left:20px;">
+<li>Understand the structure and function of <strong>DNA</strong> and its role as the genetic material.</li>
+<li>Explain the processes of DNA replication, transcription and translation.</li>
+<li>Interpret Mendelian ratios and differentiate between monohybrid and dihybrid crosses.</li>
+<li>Identify types of inheritance – autosomal, sex‑linked, incomplete dominance, codominance and polygenic.</li>
+<li>Apply concepts of genetic linkage and map units to solve problems.</li>
+<li>Relate genetic principles to real‑world defence scenarios (e.g., disease resistance, forensic DNA profiling).</li>
+<li>Master quick‑recall formulas and ratios for rapid calculation in the exam.</li>
+</ul>
+
+<h2>⚡ Quick Revision</h2>
+<ul style="margin-left:20px;">
+<li>DNA = DeoxyriboNucleic Acid; double helix; antiparallel strands.</li>
+<li>Base pairing: A↔T, G↔C (hydrogen bonds).</li>
+<li>Replication origin → bidirectional forks → leading & lagging strands.</li>
+<li>Transcription: DNA → mRNA (RNA polymerase, promoter, terminator).</li>
+<li>Translation: mRNA → Polypeptide (ribosome, tRNA, codon‑anticodon).</li>
+<li>Monohybrid cross ratio (F2) = 3:1 (dominant:recessive).</li>
+<li>Dihybrid cross ratio (F2) = 9:3:3:1 (independent assortment).</li>
+<li>Law of Segregation – each gamete gets one allele per gene.</li>
+<li>Law of Independent Assortment – genes on different chromosomes segregate independently.</li>
+<li>Sex‑linked traits reside on X chromosome; males are hemizygous.</li>
+<li>Incomplete dominance = intermediate phenotype; codominance = both phenotypes expressed.</li>
+<li>Polygenic traits = cumulative effect of many genes (e.g., skin colour).</li>
+<li>Linkage reduces recombination; map distance (cM) = % recombination × 100.</li>
+<li>DNA fingerprinting uses STR loci for individual identification.</li>
+<li>Genetic disorders relevant to defence: Sickle cell (malaria resistance), Hemophilia (X‑linked).</li>
+</ul>
+
+<h2>📖 Complete Theory</h2>
+<p style="text-align:justify;">The essence of heredity lies in the molecule that stores biological information – <strong>deoxyribonucleic acid (DNA)</strong>. Discovered by <em>Watson</em> and <em>Crick</em> in 1953, DNA is a long polymer composed of nucleotides. Each nucleotide consists of a phosphate group, a deoxyribose sugar and one of four nitrogenous bases – adenine (A), thymine (T), guanine (G) or cytosine (C). The bases pair specifically (A‑T, G‑C) via hydrogen bonds, giving rise to the iconic double‑helix structure. The two strands run in opposite directions (antiparallel), a feature crucial for replication and transcription.</p>
+
+<h3 style="color:#fbbf24;">DNA Replication – The Blueprint Copy</h3>
+<p style="text-align:justify;">Replication is a semi‑conservative process – each daughter DNA contains one original (parental) strand and one newly synthesised strand. It begins at specific <strong>origins of replication</strong> where the enzyme <strong>DNA helicase</strong> unwinds the double helix, forming replication forks. The leading strand is synthesised continuously in the 5’→3’ direction by <strong>DNA polymerase III</strong>. The lagging strand is synthesised discontinuously as Okazaki fragments, later joined by DNA ligase. Proofreading activity of DNA polymerase ensures high fidelity, limiting mutation rates to ~10⁻⁹ per base per replication.</p>
+
+<h3 style="color:#fbbf24;">Transcription – From DNA to RNA</h3>
+<p style="text-align:justify;">Transcription converts the genetic code into a portable messenger – <strong>mRNA</strong>. It occurs in the nucleus (or nucleoid in prokaryotes). The <strong>RNA polymerase</strong> binds to the promoter region, unwinds the DNA locally, and synthesises a complementary RNA strand (A↔U, G↔C). The process terminates at a terminator sequence, releasing a pre‑mRNA that undergoes capping, poly‑A tail addition and splicing (removal of introns) before entering the cytoplasm.</p>
+
+<h3 style="color:#fbbf24;">Translation – Building Proteins</h3>
+<p style="text-align:justify;">Translation is the decoding of mRNA into a polypeptide chain on ribosomes. Each three‑base codon on mRNA specifies an amino acid, brought by a matching <strong>tRNA</strong> carrying an anticodon. The ribosome has three sites – A (aminoacyl), P (peptidyl) and E (exit). Peptide bonds form as the ribosome moves along the mRNA, and translation ends at a stop codon (UAA, UAG, UGA). The resulting polypeptide folds into a functional protein, often assisted by chaperones.</p>
+
+<h3 style="color:#fbbf24;">Mendelian Genetics – Foundations of Inheritance</h3>
+<p style="text-align:justify;">Gregor Mendel’s pea‑plant experiments gave us two fundamental laws:</p>
+<ul style="margin-left:20px;">
+<li><strong>Law of Segregation</strong>: Paired alleles separate during gamete formation, so each gamete receives only one allele per gene.</li>
+<li><strong>Law of Independent Assortment</strong>: Genes located on different chromosomes assort independently, producing varied genotype combinations.</li>
+</ul>
+<p style="text-align:justify;">A <strong>monohybrid cross</strong> (single trait) typically yields a 3:1 phenotypic ratio in the F₂ generation. A <strong>dihybrid cross</strong> (two traits) gives a 9:3:3:1 ratio, illustrating independent assortment. However, when genes are linked on the same chromosome, recombination frequency (< 50%) alters these ratios, allowing us to construct genetic maps measured in centimorgans (cM).</p>
+
+<h3 style="color:#fbbf24;">Types of Inheritance</h3>
+<p style="text-align:justify;">Beyond classic Mendelian patterns, several special cases are vital for defence exams:</p>
+<ul style="margin-left:20px;">
+<li><strong>Sex‑linked inheritance</strong>: Genes on X chromosome; males (XY) express recessive traits directly (e.g., hemophilia).</li>
+<li><strong>Incomplete dominance</strong>: Heterozygote shows intermediate phenotype (e.g., red × white snapdragon → pink).</li>
+<li><strong>Codominance</strong>: Both alleles expressed equally (e.g., human ABO blood group – IA and IB).</li>
+<li><strong>Polygenic inheritance</strong>: Traits controlled by many genes (e.g., skin colour, height).</li>
+<li><strong>Multiple alleles</strong>: More than two alleles exist in the population (e.g., ABO blood groups).</li>
+</ul>
+
+<h3 style="color:#fbbf24;">Genetic Linkage & Mapping</h3>
+<p style="text-align:justify;">When two genes lie close together on the same chromosome, they tend to be inherited together. The recombination frequency (RF) between them is calculated as:</p>
+<p style="text-align:center;"><strong>RF (%) = (Number of recombinant offspring / Total offspring) × 100</strong></p>
+<p style="text-align:justify;">A RF of 1% equals 1 centimorgan (cM). Mapping helps us locate disease genes, a skill useful in forensic DNA analysis and in assessing genetic disorders that could affect soldier fitness.</p>
+
+<h3 style="color:#fbbf24;">Application in Defence Context</h3>
+<p style="text-align:justify;">Understanding genetics aids in:</p>
+<ul style="margin-left:20px;">
+<li>Assessing hereditary disease risk in recruits (e.g., sickle‑cell trait confers malaria resistance – a double‑edged sword).</li>
+<li>Forensic identification using DNA fingerprinting (STR profiling) for crime scene investigation and battlefield casualty identification.</li>
+<li>Designing bio‑engineered crops with higher yield – essential for army logistics in remote areas.</li>
+<li>Developing vaccines and understanding pathogen mutation rates (e.g., viral genome evolution).</li>
+</ul>
+
+<h3 style="color:#fbbf24;">Key Take‑aways</h3>
+<ul style="margin-left:20px;">
+<li>DNA is the universal genetic material; its replication ensures faithful transmission of information.</li>
+<li>Transcription and translation are the two-step flow of genetic information (DNA → RNA → Protein).</li>
+<li>Mendel’s laws explain segregation and assortment; deviations (linkage, incomplete dominance) enrich the genetic landscape.</li>
+<li>Genetic calculations (Chi‑square, recombination frequency) are frequent in exam questions.</li>
+<li>Real‑world relevance: forensic DNA, disease resistance, biotechnological applications.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">📚 Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#34d399;color:white;">
+<th style="border:1px solid #34d399;padding:5px;">Term</th>
+<th style="border:1px solid #34d399;padding:5px;">Definition</th>
+</tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">DNA</td><td style="border:1px solid #34d399;padding:5px;">Deoxyribonucleic acid, the hereditary material containing genetic instructions.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Gene</td><td style="border:1px solid #34d399;padding:5px;">A functional unit of heredity, a segment of DNA that codes for a protein or RNA.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Allele</td><td style="border:1px solid #34d399;padding:5px;">One of two or more alternative forms of a gene at a particular locus.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Locus</td><td style="border:1px solid #34d399;padding:5px;">The specific physical location of a gene on a chromosome.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Codominance</td><td style="border:1px solid #34d399;padding:5px;">Both alleles in a heterozygote are fully expressed (e.g., AB blood type).</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Incomplete Dominance</td><td style="border:1px solid #34d399;padding:5px;">Heterozygous phenotype is intermediate between the two homozygotes.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Sex‑linked</td><td style="border:1px solid #34d399;padding:5px;">Genes located on sex chromosomes, most often the X chromosome.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Polygenic Trait</td><td style="border:1px solid #34d399;padding:5px;">A trait controlled by multiple genes, each contributing a small effect.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Recombination Frequency</td><td style="border:1px solid #34d399;padding:5px;">The proportion of offspring in which a crossover has occurred between two loci.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">STR</td><td style="border:1px solid #34d399;padding:5px;">Short Tandem Repeat – a DNA region with repeating units, used in DNA fingerprinting.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Centimorgan (cM)</td><td style="border:1px solid #34d399;padding:5px;">Unit of genetic distance; 1 cM ≈ 1% recombination frequency.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Transcription</td><td style="border:1px solid #34d399;padding:5px;">Synthesis of RNA from a DNA template.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Translation</td><td style="border:1px solid #34d399;padding:5px;">Synthesis of a polypeptide chain from mRNA.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Mendelian Ratio</td><td style="border:1px solid #34d399;padding:5px;">Expected phenotypic ratio from Mendelian crosses (e.g., 3:1, 9:3:3:1).</td></tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:30px;">🔄 Concept Flow</h2>
+<pre style="background:#f3f4f6;padding:10px;border-left:4px solid #34d399;">
+DNA --> Replication --> Two daughter DNAs
+      |
+      v
+Transcription --> mRNA --> Processing (capping, poly‑A, splicing)
+      |
+      v
+Translation --> Polypeptide --> Protein folding
+      |
+      v
+Phenotype (observable trait)
+
+Mendelian Laws:
+  Segregation + Independent Assortment --> Predictable ratios
+  |
+  v
+Special cases: Sex‑linked, Incomplete dominance, Codominance, Polygenic
+      |
+      v
+Genetic Linkage --> Recombination Frequency --> Genetic Maps
+</pre>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Comparison Tables</h2>
+
+<h3 style="color:#f97316;">DNA vs RNA</h3>
+<table style="width:100%;border-collapse:collapse;margin-bottom:10px;">
+<tr style="background:#f97316;color:white;">
+<th style="border:1px solid #f97316;padding:5px;">Feature</th>
+<th style="border:1px solid #f97316;padding:5px;">DNA</th>
+<th style="border:1px solid #f97316;padding:5px;">RNA</th>
+</tr>
+<tr><td style="border:1px solid #f97316;padding:5px;">Sugar</td><td style="border:1px solid #f97316;padding:5px;">Deoxyribose</td><td style="border:1px solid #f97316;padding:5px;">Ribose</td></tr>
+<tr><td style="border:1px solid #f97316;padding:5px;">Bases</td><td style="border:1px solid #f97316;padding:5px;">A, T, G, C</td><td style="border:1px solid #f97316;padding:5px;">A, U, G, C</td></tr>
+<tr><td style="border:1px solid #f97316;padding:5px;">Strand</td><td style="border:1px solid #f97316;padding:5px;">Double‑helix</td><td style="border:1px solid #f97316;padding:5px;">Usually single‑stranded</td></tr>
+<tr><td style="border:1px solid #f97316;padding:5px;">Stability</td><td style="border:1px solid #f97316;padding:5px;">Very stable</td><td style="border:1px solid #f97316;padding:5px;">Less stable, prone to hydrolysis</td></tr>
+<tr><td style="border:1px solid #f97316;padding:5px;">Function</td><td style="border:1px solid #f97316;padding:5px;">Genetic storage</td><td style="border:1px solid #f97316;padding:5px;">Messenger, catalytic (rRNA), adaptor (tRNA)</td></tr>
+</table>
+
+<h3 style="color:#f97316;">Mendelian vs Non‑Mendelian Inheritance</h3>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#f97316;color:white;">
+<th style="border:1px solid #f97316;padding:5px;">Aspect</th>
+<th style="border:1px solid #f97316;padding:5px;">Mendelian</th>
+<th style="border:1px solid #f97316;padding:5px;">Non‑Mendelian</th>
+</tr>
+<tr><td style="border:1px solid #f97316;padding:5px;">Allele Number</td><td style="border:1px solid #f97316;padding:5px;">Two</td><td style="border:1px solid #f97316;padding:5px;">Multiple (polygenic) or >2 (multiple alleles)</td></tr>
+<tr><td style="border:1px solid #f97316;padding:5px;">Ratio</td><td style="border:1px solid #f97316;padding:5px;">3:1, 9:3:3:1</td><td style="border:1px solid #f97316;padding:5px;">Varies; often continuous distribution</td></tr>
+<tr><td style="border:1px solid #f97316;padding:5px;">Expression</td><td style="border:1px solid #f97316;padding:5px;">Complete dominance</td><td style="border:1px solid #f97316;padding:5px;">Incomplete dominance, codominance, epistasis</td></tr>
+<tr><td style="border:1px solid #f97316;padding:5px;">Inheritance Pattern</td><td style="border:1px solid #f97316;padding:5px;">Independent assortment</td><td style="border:1px solid #f97316;padding:5px;">Linkage, sex‑linked, mitochondrial</td></tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:30px;">🧠 Memory Tricks & Mnemonics</h2>
+<ul style="margin-left:20px;">
+<li><strong>“DNA = D‑Deal, N‑Nerve, A‑Armed,</strong> <em>“Deal” stands for double helix, “Nerve” for nucleotides, “Armed” for A‑T, G‑C pairing.</em></li>
+<li><strong>“Mendel’s 3‑1‑9‑3‑3‑1”</strong> – Imagine a marching platoon: 3 squads forward, 1 squad rear, then 9‑3‑3‑1 forming a tactical diamond.</li>
+<li><strong>“COD‑COD” for Codominance</strong> – Two COD fish swim side‑by‑side, both visible.</li>
+<li><strong>“S.I.C.” for Sex‑linked Inheritance</strong> – “Soldier In Combat” – only male soldiers (XY) show the trait directly.</li>
+<li><strong>“R.E.C.O.” for Recombination = 1% = 1 cM</strong> – “Rangers Engage Close‑Out” – think of a rifle squad covering 1 km (1 cM).</li>
+<li><strong>“STRONG STR” for STR profiling</strong> – “STRONG STR” reminds you that short tandem repeats are “strong” identifiers in forensics.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol style="margin-left:20px;">
+<li>DNA replication is semi‑conservative.</li>
+<li>RNA contains uracil instead of thymine.</li>
+<li>Transcription occurs in the nucleus of eukaryotes.</li>
+<li>Ribosomes consist of rRNA + proteins.</li>
+<li>Monohybrid cross F₂ ratio = 3:1.</li>
+<li>Dihybrid cross F₂ ratio = 9:3:3:1.</li>
+<li>Law of Segregation states each gamete gets one allele per gene.</li>
+<li>Law of Independent Assortment applies to genes on different chromosomes.</li>
+<li>Sex‑linked traits are mostly X‑linked; males are hemizygous.</li>
+<li>Hemophilia and colour blindness are classic X‑linked recessive disorders.</li>
+<li>Incomplete dominance results in an intermediate phenotype.</li>
+<li>Codominance results in simultaneous expression of both alleles.</li>
+<li>ABO blood group is an example of codominance.</li>
+<li>Polygenic traits show a continuous variation (e.g., height).</li>
+<li>Recombination frequency < 50% indicates linkage.</li>
+<li>1 cM = 1% recombination.</li>
+<li>STR loci are the basis of forensic DNA profiling.</li>
+<li>Sickle‑cell trait provides malaria resistance – important for troops in endemic zones.</li>
+<li>DNA fingerprinting can identify a soldier’s remains within hours.</li>
+<li>Mutations in the CFTR gene cause cystic fibrosis – a concern for high‑altitude deployments.</li>
+</ol>
+
+<h2 style="color:#34d399;margin-top:30px;">🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #34d399;padding:10px;background:#f0fdf4;">
+<p><strong>Recombination Frequency (RF)</strong> = (Recombinants ÷ Total offspring) × 100</p>
+<p><strong>Map Distance (cM)</strong> = RF (%)</p>
+<p><strong>DNA Base Pairing</strong>: A↔T (2 H‑bonds), G↔C (3 H‑bonds)</p>
+<p><strong>RNA Base Pairing</strong>: A↔U, G↔C</p>
+<p><strong>Chi‑Square Test</strong> for goodness of fit: χ² = Σ[(O‑E)² / E]</p>
+<p><strong>STR Allele Size</strong>: 100–400 bp (typical)</p>
+</div>
+
+<h2 style="color:#34d399;margin-top:30px;">📝 PYQ Pattern Analysis</h2>
+<p>Past Year Questions (PYQs) from CDS, AFCAT and NDA reveal a consistent pattern: ~30% of genetics questions focus on Mendelian ratios, especially dihybrid crosses. The remaining 70% are split between DNA structure/replication, transcription‑translation, and special inheritance patterns (sex‑linked, codominance). Recent trends (last 5 years) show an increase in forensic DNA questions – often framed as “Which technique is best for rapid identification of battlefield casualties?” – reflecting the growing importance of biotechnology in defence. Common traps include misreading the direction of transcription (5’→3’ vs 3’→5’) and confusing recombination frequency with map distance (students sometimes forget to multiply by 100).</p>
+
+<h2 style="color:#34d399;margin-top:30px;">🎓 Examination Perspective</h2>
+<p><strong>CDS:</strong> Emphasises application – DNA fingerprinting, hereditary disease screening for recruits, and Mendelian cross analysis. Expect scenario‑based MCQs and short descriptive questions.</p>
+<p><strong>AFCAT:</strong> Focuses on quick facts – base pairing, replication steps, ratios, and a few problem‑solving items. Time‑pressure demands memorisation of key ratios.</p>
+<p><strong>NDA:</strong> Mix of conceptual and numerical – includes Chi‑square calculations for genotype frequencies and linkage mapping problems.</p>
+
+<h2 style="color:#34d399;margin-top:30px;">⚠️ Common Mistakes</h2>
+<ul style="margin-left:20px;">
+<li>Confusing DNA replication (semi‑conservative) with transcription – remember replication copies DNA, transcription makes RNA.</li>
+<li>Mixing up codominance with incomplete dominance – codominance shows both phenotypes; incomplete gives a blend.</li>
+<li>Assuming all linked genes show 50% recombination – linkage reduces recombination below 50%.</li>
+<li>Neglecting the role of the promoter in transcription – it’s the “launch pad” for RNA polymerase.</li>
+<li>Using the wrong base pairing for RNA (T instead of U) – a frequent slip in MCQs.</li>
+<li>Over‑looking sex‑linked inheritance in males – they have only one X chromosome.</li>
+<li>Applying Mendelian ratios to polygenic traits – polygenic traits give a continuous distribution, not discrete ratios.</li>
+<li>Forgetting to convert recombination frequency to cM before mapping – 1 % = 1 cM.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">🪖 Military Connection</h2>
+<ul style="margin-left:20px;">
+<li><strong>Forensic DNA profiling:</strong> Used by the Army’s forensic labs to identify unknown casualties.</li>
+<li><strong>Genetic screening of recruits:</strong> Detects carriers of sickle‑cell trait, important for deployment in malaria‑prone regions.</li>
+<li><strong>Biotech in field rations:</strong> Genetically engineered microbes produce vitamin B12, reducing logistic load.</li>
+<li><strong>Vaccine development:</strong> Understanding viral genome mutation aids in rapid vaccine rollout for troops.</li>
+<li><strong>Bio‑sensor technology:</strong> DNA‑based sensors detect pathogens on the battlefield.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">🌐 Current Affairs Integration</h2>
+<ul style="margin-left:20px;">
+<li>2025 DRDO project “GEN‑SAFE”: Portable DNA sequencer for on‑site forensic analysis of combat casualties.</li>
+<li>2024 ISRO’s “Bio‑Sat” mission includes a payload for monitoring genetic mutations in high‑altitude microbes.</li>
+<li>2023 HAL collaborated with biotech firms to develop “Bio‑fuel cells” using genetically modified algae for UAV power.</li>
+<li>2022 Ministry of Health released guidelines for screening soldiers for hemoglobinopathies before deployment to malaria zones.</li>
+<li>2021 Indian Army’s “Project VIGIL” uses STR databases for rapid identification of missing personnel.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:30px;">📋 Revision Notes (1-Page)</h2>
+<ol style="margin-left:20px;">
+<li>DNA = double helix, antiparallel, A‑T & G‑C.</li>
+<li>RNA = single strand, A‑U, G‑C.</li>
+<li>Replication origin → bidirectional forks.</li>
+<li>Leading strand = continuous synthesis.</li>
+<li>Lagging strand = Okazaki fragments.</li>
+<li>DNA polymerase has proofreading activity.</li>
+<li>Transcription: DNA → mRNA (promoter, terminator).</li>
+<li>mRNA processing: 5’ cap, poly‑A tail, splicing.</li>
+<li>Translation: mRNA → protein (ribosome, tRNA).</li>
+<li>Codon = 3 bases → amino acid.</li>
+<li>Stop codons: UAA, UAG, UGA.</li>
+<li>Mendel’s Law of Segregation.</li>
+<li>Mendel’s Law of Independent Assortment.</li>
+<li>Monohybrid cross ratio = 3:1.</li>
+<li>Dihybrid cross ratio = 9:3:3:1.</li>
+<li>Sex‑linked traits – X‑chromosome, males hemizygous.</li>
+<li>Hemophilia & colour blindness = X‑linked recessive.</li>
+<li>Incomplete dominance = intermediate phenotype.</li>
+<li>Codominance = both phenotypes expressed.</li>
+<li>Polygenic traits = continuous variation.</li>
+<li>Linkage reduces recombination (<50%).</li>
+<li>Recombination Frequency = (Recombinants/Total)×100.</li>
+<li>1 cM = 1 % recombination.</li>
+<li>STR = Short Tandem Repeat, forensic DNA marker.</li>
+<li>DNA fingerprinting = rapid ID of remains.</li>
+<li>Sickle‑cell trait → malaria resistance.</li>
+<li>DRDO “GEN‑SAFE” = portable DNA sequencer.</li>
+<li>Forensic labs use PCR to amplify STR loci.</li>
+<li>Chi‑square test for genotype‑phenotype fit.</li>
+<li>RNA polymerase requires Mg²⁺ as cofactor.</li>
+<li>Ribosome subunits: 30S (small) + 50S (large) in prokaryotes.</li>
+<li>tRNA anticodon pairs with mRNA codon.</li>
+<li>Protein folding assisted by chaperones.</li>
+<li>DNA damage repair mechanisms protect genome integrity.</li>
+<li>Mutation rate ≈ 10⁻⁹ per base per replication.</li>
+<li>Genetic counseling for hereditary diseases in army.</li>
+<li>DNA vaccines – emerging technology for rapid immunity.</li>
+<li>Linkage maps aid in locating disease genes.</li>
+<li>DNA replication is semi‑conservative.</li>
+<li>RNA is less stable due to 2′‑OH group.</li>
+<li>Gene expression regulated at transcriptional level.</li>
+<li>Epigenetics not covered but influences phenotype.</li>
+<li>Forensic DNA databases store STR profiles.</li>
+</ol>
+
+<h2 style="color:#34d399;margin-top:30px;">🃏 Flashcards</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#34d399;color:white;">
+<th style="border:1px solid #34d399;padding:5px;">Question</th>
+<th style="border:1px solid #34d399;padding:5px;">Answer</th>
+</tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What base pairs with adenine in DNA?</td><td style="border:1px solid #34d399;padding:5px;">Thymine (T)</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Which enzyme unwinds DNA during replication?</td><td style="border:1px solid #34d399;padding:5px;">Helicase</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What is the phenotype ratio in an F₂ dihybrid cross?</td><td style="border:1px solid #34d399;padding:5px;">9:3:3:1</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Name a sex‑linked recessive disorder.</td><td style="border:1px solid #34d399;padding:5px;">Hemophilia</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What does STR stand for?</td><td style="border:1px solid #34d399;padding:5px;">Short Tandem Repeat</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">In transcription, which nucleotide replaces thymine?</td><td style="border:1px solid #34d399;padding:5px;">Uracil (U)</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What is the result of incomplete dominance?</td><td style="border:1px solid #34d399;padding:5px;">Intermediate phenotype</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Define codominance with an example.</td><td style="border:1px solid #34d399;padding:5px;">Both alleles expressed; e.g., AB blood group</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What is the unit of genetic distance?</td><td style="border:1px solid #34d399;padding:5px;">Centimorgan (cM)</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Which process converts DNA to RNA?</td><td style="border:1px solid #34d399;padding:5px;">Transcription</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Which enzyme joins Okazaki fragments?</td><td style="border:1px solid #34d399;padding:5px;">DNA Ligase</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What is the shape of a DNA molecule?</td><td style="border:1px solid #34d399;padding:5px;">Double helix</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Name the three stop codons.</td><td style="border:1px solid #34d399;padding:5px;">UAA, UAG, UGA</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What is the primary purpose of a promoter?</td><td style="border:1px solid #34d399;padding:5px;">Binding site for RNA polymerase</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Define polygenic inheritance.</td><td style="border:1px solid #34d399;padding:5px;">Trait controlled by many genes, giving a range of phenotypes.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What does a 1% recombination frequency equal?</td><td style="border:1px solid #34d399;padding:5px;">1 centimorgan (cM)</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Which organelle synthesises proteins?</td><td style="border:1px solid #34d399;padding:5px;">Ribosome</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What is
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>

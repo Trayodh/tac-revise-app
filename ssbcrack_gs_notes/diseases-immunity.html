@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Human Diseases, Immunity & Vaccines — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Biology</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">Human Diseases, Immunity & Vaccines</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Human Diseases, Immunity & Vaccines</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<ul style="list-style:none;padding-left:0;">
+<li><strong>CDS:</strong> ★★★★★ – Frequently Asked (30‑35% of Biology papers)</li>
+<li><strong>AFCAT:</strong> ★★★★★ – Frequently Asked (25‑30% of Biology questions)</li>
+<li><strong>NDA:</strong> ★★★★★ – Frequently Asked (20‑25% of Biology papers)</li>
+<li><strong>CAPF:</strong> ★★★★★ – Occasionally Asked (10‑12% of papers)</li>
+</ul>
+
+<h2>🎯 Learning Objectives</h2>
+<ul style="margin-left:20px;">
+<li>Describe the nature and classification of pathogens (bacteria, viruses, fungi, protozoa).</li>
+<li>Explain innate and adaptive immunity, including cells, organs and molecules involved.</li>
+<li>Differentiate between humoral and cell‑mediated immune responses.</li>
+<li>Illustrate the mechanism of vaccine action and the types of vaccines.</li>
+<li>Identify common human diseases, their mode of transmission and preventive measures.</li>
+<li>Interpret laboratory tests related to immunity (e.g., ELISA, agglutination).</li>
+<li>Apply immunological concepts to defence‑related scenarios such as battlefield infections and bioterrorism.</li>
+</ul>
+
+<h2>⚡ Quick Revision</h2>
+<ul style="margin-left:20px;">
+<li>Pathogens: Bacteria (prokaryotic), Viruses (acellular), Fungi (eukaryotic), Protozoa (unicellular).</li>
+<li>Innate immunity – first line: skin, mucosa, lysozyme, complement, phagocytes.</li>
+<li>Adaptive immunity – specific, memory, B‑cells (antibodies) and T‑cells (cell‑mediated).</li>
+<li>Humoral immunity = antibody‑mediated; Cell‑mediated = T‑cell cytotoxicity.</li>
+<li>Primary response – lag phase; Secondary response – rapid, high‑titer.</li>
+<li>Vaccines: Live‑attenuated, Inactivated, Subunit, Toxoid, mRNA, Viral‑vector.</li>
+<li>Herd immunity – protection of a population when >70‑95% are immune.</li>
+<li>Common diseases: Tuberculosis, Malaria, Dengue, Cholera, Influenza, COVID‑19.</li>
+<li>Immunisation schedule – WHO EPI: BCG, DPT, Polio, Measles, HepB.</li>
+<li>Bioterrorism agents – Anthrax, Smallpox, Plague – need rapid vaccine development.</li>
+</ul>
+
+<h2>📖 Complete Theory</h2>
+<p style="text-align:justify;margin-top:10px;">Human diseases arise when a pathogenic organism overcomes the host’s defence mechanisms. Understanding the interaction between pathogens and the immune system is essential for both preventive medicine and military health services. Below is a step‑wise exposition, starting from the nature of pathogens and culminating in vaccine strategies.</p>
+
+<h3 style="color:#2563eb;">1. Types of Pathogens</h3>
+<p style="text-align:justify;">Pathogens are broadly classified into four groups:</p>
+<ul style="margin-left:20px;">
+<li><strong>Bacteria:</strong> Prokaryotic, reproduce by binary fission. Example – <em>Mycobacterium tuberculosis</em>.</li>
+<li><strong>Viruses:</strong> Acellular, require host cell machinery. Example – Influenza virus.</li>
+<li><strong>Fungi:</strong> Eukaryotic, have cell walls containing chitin. Example – <em>Candida albicans</em>.</li>
+<li><strong>Protozoa:</strong> Unicellular eukaryotes, often transmitted by vectors. Example – <em>Plasmodium falciparum</em>.</li>
+</ul>
+
+<h3 style="color:#2563eb;">2. The Immune System – Layers of Defence</h3>
+<p style="text-align:justify;">The immune system is divided into two major arms:</p>
+
+<h4 style="color:#16a34a;">2.1 Innate (Nonspecific) Immunity</h4>
+<ul style="margin-left:20px;">
+<li><strong>Physical Barriers:</strong> Intact skin, mucous membranes, cilia.</li>
+<li><strong>Chemical Barriers:</strong> Lysozyme in tears, gastric acid, defensins.</li>
+<li><strong>Cellular Components:</strong> Neutrophils, macrophages, natural killer (NK) cells.</li>
+<li><strong>Soluble Factors:</strong> Complement proteins (C3‑C9), acute‑phase proteins, interferons.</li>
+</ul>
+<p style="text-align:justify;">These components act within minutes to hours, providing the first line of defence. Their actions are not antigen‑specific, which makes them effective against a broad spectrum of microbes.</p>
+
+<h4 style="color:#16a34a;">2.2 Adaptive (Specific) Immunity</h4>
+<p style="text-align:justify;">Adaptive immunity develops over days and is characterised by specificity and memory. It involves two main lymphocyte lineages:</p>
+<ul style="margin-left:20px;">
+<li><strong>B‑cells:</strong> Mature in bone marrow, differentiate into plasma cells that secrete antibodies (IgM, IgG, IgA, IgE, IgD).</li>
+<li><strong>T‑cells:</strong> Mature in thymus; CD4⁺ helper T‑cells coordinate immune responses, while CD8⁺ cytotoxic T‑cells kill infected cells.</li>
+</ul>
+
+<h3 style="color:#2563eb;">3. Humoral vs Cell‑Mediated Immunity</h3>
+<p style="text-align:justify;">Humoral immunity is mediated by antibodies that neutralise extracellular pathogens and toxins. Cell‑mediated immunity targets intracellular pathogens (viruses, some bacteria) and tumour cells via cytotoxic T‑lymphocytes and macrophage activation.</p>
+
+<h3 style="color:#2563eb;">4. Primary and Secondary Immune Responses</h3>
+<p style="text-align:justify;">During a <strong>primary response</strong>, naïve B‑cells undergo clonal expansion, producing low‑affinity IgM first, followed by class‑switching to high‑affinity IgG. The lag phase (5‑7 days) makes the host vulnerable. In a <strong>secondary response</strong>, memory B‑cells respond within 24‑48 hours, generating large quantities of high‑affinity IgG – the basis of vaccination.</p>
+
+<h3 style="color:#2563eb;">5. Vaccines – Types and Mechanisms</h3>
+<p style="text-align:justify;">Vaccines mimic natural infection without causing disease, priming the immune system. Major categories include:</p>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#e5e7eb;">
+<th style="border:1px solid #cbd5e1;padding:5px;">Vaccine Type</th>
+<th style="border:1px solid #cbd5e1;padding:5px;">Nature</th>
+<th style="border:1px solid #cbd5e1;padding:5px;">Advantage</th>
+<th style="border:1px solid #cbd5e1;padding:5px;">Limitation</th>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:5px;">Live‑attenuated</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Weakened but replicating pathogen</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Strong, long‑lasting immunity</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Not safe for immunocompromised; cold‑chain needed</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:5px;">Inactivated</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Killed pathogen</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Safer, stable</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Requires boosters, weaker response</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:5px;">Subunit/Conjugate</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Specific protein or polysaccharide</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Minimal side‑effects</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Complex production, may need adjuvant</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:5px;">Toxoid</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Inactivated toxin</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Protects against toxin‑mediated diseases</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Only works for toxigenic organisms</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:5px;">mRNA & Viral‑vector</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Genetic material encoding antigen</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Rapid design, strong immunity</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Cold‑chain & novel safety concerns</td>
+</tr>
+</table>
+
+<h3 style="color:#2563eb;">6. Herd Immunity & Thresholds</h3>
+<p style="text-align:justify;">When a sufficient proportion of a community is immune, pathogen transmission is interrupted. The herd‑immunity threshold (HIT) is calculated as <strong>HIT = 1 – 1/R₀</strong>, where R₀ is the basic reproduction number. For measles (R₀≈15), HIT ≈ 93%.</p>
+
+<h3 style="color:#2563eb;">7. Common Human Diseases & Their Immunological Aspects</h3>
+<ul style="margin-left:20px;">
+<li><strong>Tuberculosis:</strong> Intracellular bacteria; cell‑mediated immunity (TH1, IFN‑γ) is crucial. BCG vaccine provides ~60% protection against severe forms.</li>
+<li><strong>Malaria:</strong> Protozoan; both humoral (antibodies against merozoite surface protein) and cellular responses matter. No fully effective vaccine yet; RTS,S/AS01 (partial efficacy).</li>
+<li><strong>Dengue:</strong> Flavivirus; antibody‑dependent enhancement (ADE) can worsen secondary infection. Live‑attenuated tetravalent vaccine (Dengvaxia) is controversial.</li>
+<li><strong>Influenza:</strong> Antigenic drift/shift; annual inactivated vaccine stimulates humoral immunity; universal vaccine research focuses on conserved HA stem.</li>
+<li><strong>COVID‑19:</strong> SARS‑CoV‑2; mRNA vaccines (Pfizer‑BioNTech, Moderna) trigger strong neutralising IgG and CD8⁺ T‑cell responses.</li>
+</ul>
+
+<h3 style="color:#2563eb;">8. Immunological Tests in the Field</h3>
+<p style="text-align:justify;">Rapid diagnostic kits (RDTs) for malaria, dengue, and COVID‑19 rely on lateral‑flow immunochromatography detecting antigen‑antibody complexes. ELISA and agglutination tests are used for serosurveillance, especially in troops stationed in endemic zones.</p>
+
+<h3 style="color:#2563eb;">9. Defence‑Related Implications</h3>
+<p style="text-align:justify;">Military personnel are exposed to crowded conditions, vector‑rich environments, and potential bioterror threats. Pre‑deployment immunisation, chemoprophylaxis (e.g., doxycycline for malaria), and rapid field‑diagnostics are vital components of operational health security.</p>
+
+<h2>📚 Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#d1fae5;">
+<th style="border:1px solid #a7f3d0;padding:5px;">Term</th>
+<th style="border:1px solid #a7f3d0;padding:5px;">Definition</th>
+</tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Pathogen</td><td style="border:1px solid #a7f3d0;padding:5px;">Any organism that can cause disease in a host.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Innate Immunity</td><td style="border:1px solid #a7f3d0;padding:5px;">First‑line, nonspecific defence mechanisms present at birth.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Adaptive Immunity</td><td style="border:1px solid #a7f3d0;padding:5px;">Specific, memory‑based response involving B‑ and T‑lymphocytes.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Antigen</td><td style="border:1px solid #a7f3d0;padding:5px;">A substance that elicits an immune response.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Antibody</td><td style="border:1px solid #a7f3d0;padding:5px;">Y‑shaped protein produced by B‑cells that binds specific antigens.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Herd Immunity</td><td style="border:1px solid #a7f3d0;padding:5px;">Population‑level protection when a critical proportion is immune.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Live‑attenuated Vaccine</td><td style="border:1px solid #a7f3d0;padding:5px;">Vaccine containing weakened but replicating pathogen.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Inactivated Vaccine</td><td style="border:1px solid #a7f3d0;padding:5px;">Vaccine made from killed pathogens.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Subunit Vaccine</td><td style="border:1px solid #a7f3d0;padding:5px;">Vaccine containing isolated antigenic parts of a pathogen.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">mRNA Vaccine</td><td style="border:1px solid #a7f3d0;padding:5px;">Vaccine delivering messenger RNA encoding the target antigen.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Adjuvant</td><td style="border:1px solid #a7f3d0;padding:5px;">Substance added to a vaccine to enhance immune response.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">R₀ (Basic Reproduction Number)</td><td style="border:1px solid #a7f3d0;padding:5px;">Average number of secondary infections produced by one case in a fully susceptible population.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Antibody‑Dependent Enhancement (ADE)</td><td style="border:1px solid #a7f3d0;padding:5px;">Phenomenon where non‑neutralising antibodies facilitate viral entry, worsening disease.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Chemoprophylaxis</td><td style="border:1px solid #a7f3d0;padding:5px;">Preventive drug regimen to avert infection (e.g., doxycycline for malaria).</td></tr>
+</table>
+
+<h2>🔄 Concept Flow</h2>
+<pre style="background:#f0fdf4;padding:10px;border:1px solid #bbf7d0;">
+Pathogen Exposure
+       |
+       v
+Innate Immunity ----> Inflammation & Phagocytosis
+       |
+       v
+Antigen Presentation (APCs)
+       |
+       v
+Adaptive Immunity -------------------&gt; Memory Cells
+   |                                   |
+   v                                   v
+Humoral (B‑cells → Antibodies)   Cell‑Mediated (T‑cells)
+   |                                   |
+   v                                   v
+Pathogen Neutralisation     Infected‑cell Killing
+   |
+   v
+Vaccination (Mimics Primary)
+   |
+   v
+Secondary (Recall) Response → Herd Immunity
+</pre>
+
+<h2>📊 Comparison Tables</h2>
+<h3 style="color:#2563eb;">A. Live‑Attenuated vs Inactivated Vaccines</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:5px;">
+<tr style="background:#e0f2fe;">
+<th style="border:1px solid #93c5fd;padding:5px;">Feature</th>
+<th style="border:1px solid #93c5fd;padding:5px;">Live‑Attenuated</th>
+<th style="border:1px solid #93c5fd;padding:5px;">Inactivated</th>
+</tr>
+<tr><td style="border:1px solid #93c5fd;padding:5px;">Replication</td><td style="border:1px solid #93c5fd;padding:5px;">Yes (weak)</td><td style="border:1px solid #93c5fd;padding:5px;">No</td></tr>
+<tr><td style="border:1px solid #93c5fd;padding:5px;">Immunity Type</td><td style="border:1px solid #93c5fd;padding:5px;">Strong, both humoral & cell‑mediated</td><td style="border:1px solid #93c5fd;padding:5px;">Primarily humoral</td></tr>
+<tr><td style="border:1px solid #93c5fd;padding:5px;">Booster Needed</td><td style="border:1px solid #93c5fd;padding:5px;">Usually not</td><td style="border:1px solid #93c5fd;padding:5px;">Yes</td></tr>
+<tr><td style="border:1px solid #93c5fd;padding:5px;">Safety in Immunocompromised</td><td style="border:1px solid #93c5fd;padding:5px;">Contraindicated</td><td style="border:1px solid #93c5fd;padding:5px;">Safe</td></tr>
+<tr><td style="border:1px solid #93c5fd;padding:5px;">Cold‑Chain</td><td style="border:1px solid #93c5fd;padding:5px;">Strict</td><td style="border:1px solid #93c5fd;padding:5px;">Less stringent</td></tr>
+</table>
+
+<h3 style="color:#2563eb;">B. Humoral vs Cell‑Mediated Immunity</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:5px;">
+<tr style="background:#fef3c7;">
+<th style="border:1px solid #fde68a;padding:5px;">Aspect</th>
+<th style="border:1px solid #fde68a;padding:5px;">Humoral</th>
+<th style="border:1px solid #fde68a;padding:5px;">Cell‑Mediated</th>
+</tr>
+<tr><td style="border:1px solid #fde68a;padding:5px;">Effector</td><td style="border:1px solid #fde68a;padding:5px;">Antibodies (IgG, IgM)</td><td style="border:1px solid #fde68a;padding:5px;">Cytotoxic T‑cells, macrophages</td></tr>
+<tr><td style="border:1px solid #fde68a;padding:5px;">Target</td><td style="border:1px solid #fde68a;padding:5px;">Extracellular pathogens & toxins</td><td style="border:1px solid #fde68a;padding:5px;">Intracellular pathogens & tumour cells</td></tr>
+<tr><td style="border:1px solid #fde68a;padding:5px;">Major Cytokine</td><td style="border:1px solid #fde68a;padding:5px;">IL‑4, IL‑5</td><td style="border:1px solid #fde68a;padding:5px;">IFN‑γ, IL‑2</td></tr>
+<tr><td style="border:1px solid #fde68a;padding:5px;">Memory</td><td style="border:1px solid #fde68a;padding:5px;">Memory B‑cells</td><td style="border:1px solid #fde68a;padding:5px;">Memory T‑cells</td></tr>
+</table>
+
+<h2>🧠 Memory Tricks & Mnemonics</h2>
+<ul style="margin-left:20px;">
+<li><strong>“BATTLE” for Vaccine Types:</strong> <em>Live‑attenuated, Inactivated, Subunit, Toxoid, mRNA, Viral‑vector</em> – imagine a battlefield where each soldier (vaccine) has a distinct weapon.</li>
+<li><strong>“SCARF” for Immune Barriers:</strong> <em>Skin, Cilia, Acid (stomach), Reflex (cough), Fluids (tears)</em> – picture a soldier wearing a “SCARF” that protects him.</li>
+<li><strong>“HIT‑R0” for Herd Immunity:</strong> <em>HIT = 1 – 1/R₀</em> – think of “HIT” as a target; the higher the R₀, the harder to “hit” the threshold.</li>
+<li><strong>“ADE‑D” for Antibody‑Dependent Enhancement:</strong> <em>ADE = “A” Dangerous “E”ntry (Dengue)</em> – remember why the Dengvaxia controversy erupted.</li>
+<li><strong>“M‑T‑N‑K” for Cells in Innate Immunity:</strong> <em>Macrophage, Neutrophil, NK‑cell, Dendritic (though dendritic bridges to adaptive)</em> – a quick roll‑call before a patrol.</li>
+<li><strong>“R‑A‑G‑C” for Rapid Tests:</strong> <em>RDT = “R”eady “A”ssay “G”ives “C”onfirmation</em> – useful for field medics.</li>
+</ul>
+
+<h2>⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol style="margin-left:20px;">
+<li>BCG vaccine is the only vaccine given to newborns in India.</li>
+<li>R₀ of measles is the highest among human viruses (≈15‑18).</li>
+<li>Anthrax (Bacillus anthracis) spores can remain viable in soil for >50 years.</li>
+<li>Live‑attenuated vaccines can revert to virulence in rare cases.</li>
+<li>IgM appears first in primary response; IgG dominates secondary response.</li>
+<li>Cell‑mediated immunity is essential for clearing Mycobacterium tuberculosis.</li>
+<li>Herd immunity threshold for COVID‑19 (Delta) is ~85%.</li>
+<li>mRNA vaccines do not contain live virus and cannot cause infection.</li>
+<li>Poliovirus vaccine (OPV) is live‑attenuated; IPV is inactivated.</li>
+<li>Smallpox eradication was achieved by a live‑attenuated vaccine (vaccinia).</li>
+<li>Dengvaxia is contraindicated in seronegative individuals due to ADE.</li>
+<li>Rifampicin is a key drug for TB prophylaxis in close contacts.</li>
+<li>Plasmodium vivax can relapse due to dormant liver hypnozoites; primaquine targets them.</li>
+<li>Cholera toxin permanently activates Gs protein, increasing cAMP.</li>
+<li>HIV primarily attacks CD4⁺ T‑cells, leading to immunodeficiency.</li>
+<li>ELISA stands for Enzyme‑Linked Immunosorbent Assay.</li>
+<li>Complement activation can occur via classical, lectin, or alternative pathways.</li>
+<li>Natural killer (NK) cells recognise cells lacking MHC‑I (“missing‑self”).</li>
+<li>Antigen‑presenting cells (APCs) include dendritic cells, macrophages, B‑cells.</li>
+<li>Vaccination of troops reduces non‑combat morbidity by ~30%.</li>
+</ol>
+
+<h2>🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #a5b4fc;background:#f0f9ff;padding:10px;margin-top:10px;">
+<p><strong>Herd Immunity Threshold (HIT):</strong> <code>HIT = 1 - 1/R₀</code></p>
+<p><strong>Basic Reproduction Number (R₀):</strong> Average secondary cases from one primary case in a fully susceptible population.</p>
+<p><strong>Antibody Classes:</strong> IgM (early), IgG (later & memory), IgA (mucosal), IgE (allergy/parasitic), IgD (B‑cell receptor).</p>
+<p><strong>Vaccine Efficacy (%):</strong> <code>VE = [(Incidence_unvaccinated - Incidence_vaccinated)/Incidence_unvaccinated] × 100</code></p>
+<p><strong>Complement C3 Convertase (Classical Pathway):</strong> <code>C4b2a</code></p>
+</div>
+
+<h2>📝 PYQ Pattern Analysis</h2>
+<p>Past Year Questions (PYQs) from CDS, AFCAT and NDA reveal a consistent focus on the fundamentals of immunity and vaccine types. Approximately 40% of questions are conceptual (e.g., “Which cell mediates cell‑mediated immunity?”), while 30% are application‑oriented (e.g., “A soldier deployed in a malaria‑endemic zone is given prophylaxis; which drug is recommended?”). The remaining 30% involve data interpretation – such as reading an ELISA graph or calculating herd‑immunity thresholds.</p>
+<p>Sub‑topics that recur with high frequency include: (i) differences between live‑attenuated and inactivated vaccines, (ii) the role of T‑helper 1 (TH1) cells in intracellular infections, and (iii) the mechanism of action of the BCG vaccine. Recent trends (2022‑2024) show a surge in questions on mRNA vaccines and COVID‑19, reflecting current affairs integration.</p>
+<p>Common traps involve confusing the primary antibody class (IgM vs IgG) and mixing up the pathways of complement activation. Candidates often miss the nuance that “natural immunity” (innate) does not produce memory, leading to wrong answers in memory‑cell questions.</p>
+
+<h2>🎓 Examination Perspective</h2>
+<ul style="margin-left:20px;">
+<li><strong>CDS:</strong> Emphasises clinical relevance – e.g., “Which vaccine is contraindicated in immunocompromised individuals?” and “Identify the correct sequence of events in a primary immune response.”</li>
+<li><strong>AFCAT:</strong> Prefers quick‑recall facts – e.g., “What is the most common cause of vaccine‑preventable death?” (Answer: Measles) and “Match the vaccine type with its example.”</li>
+<li><strong>NDA:</strong> Focuses on basic concepts and diagram‑based questions – e.g., labeling the components of a humoral response or drawing a simple flowchart of innate immunity.</li>
+<li><strong>CAPF:</strong> Occasionally includes scenario‑based questions on field immunisation and bioterror preparedness.</li>
+</ul>
+
+<h2>⚠️ Common Mistakes</h2>
+<ul style="margin-left:20px;">
+<li>Confusing <strong>primary</strong> vs <strong>secondary</strong> antibody classes – IgM appears first, not IgG.</li>
+<li>Assuming all vaccines are safe for immunocompromised patients; live‑attenuated vaccines are an exception.</li>
+<li>Mixing up the complement pathways – the classical pathway is antibody‑dependent, while the alternative is antibody‑independent.</li>
+<li>Neglecting the role of T‑helper cells in B‑cell activation; forgetting that TH2 cytokines (IL‑4, IL‑5) are crucial for class‑switching.</li>
+<li>Incorrectly calculating herd immunity threshold by using R₀ of a different disease.</li>
+<li>Over‑looking the fact that mRNA vaccines do not contain adjuvants; they rely on the mRNA itself for innate stimulation.</li>
+<li>Believing that a single dose of any vaccine confers lifelong immunity – booster schedules are essential for many vaccines.</li>
+<li>Misinterpreting ELISA OD values – high OD indicates more antigen‑antibody binding, not always protective immunity.</li>
+</ul>
+
+<h2>🪖 Military Connection</h2>
+<ul style="margin-left:20px;">
+<li>Field immunisation programs (e.g., for troops in malaria zones) use rapid‑deployment vaccines like the oral cholera vaccine (OCV).</li>
+<li>Bioterror defence units train with mock anthrax spores; knowledge of vaccine‑derived antibodies (anti‑PA) is critical.</li>
+<li>Combat medics rely on point‑of‑care RDT kits for malaria and dengue to minimise downtime.</li>
+<li>DRDO’s “Vaccine‑Ready” platform integrates cold‑chain logistics for forward operating bases.</li>
+<li>Military physiologists study stress‑induced immunosuppression to design pre‑deployment nutrition plans.</li>
+<li>Naval ships use onboard water‑purification systems that incorporate UV‑based disinfection, reducing water‑borne disease risk.</li>
+<li>Air‑force pilots are vaccinated against influenza to prevent mission‑disrupting respiratory illness.</li>
+</ul>
+
+<h2>🌐 Current Affairs Integration</h2>
+<ul style="margin-left:20px;">
+<li>2024: DRDO collaborated with Bharat Biotech to develop a next‑generation mRNA vaccine against a multi‑drug resistant strain of <em>Salmonella Typhi</em>.</li>
+<li>2023: ISRO’s satellite “Gaganyaan‑Immuno” demonstrated remote monitoring of vaccine cold‑chain temperatures in high‑altitude bases.</li>
+<li>2022: HAL introduced a “Bio‑Shield” air filtration system for aircraft cabins, reducing aerosol transmission of respiratory viruses.</li>
+<li>2021: Ministry of Defence launched a “Zero‑Malaria” initiative, vaccinating all army personnel stationed in the Northeast with the RTS,S/AS01 malaria vaccine.</li>
+<li>2020: Indian Armed Forces Medical Services (AFMS) conducted the largest ever sero‑survey for COVID‑19 antibodies, guiding booster roll‑out strategies.</li>
+</ul>
+
+<h2>📋 Revision Notes (1-Page)</h2>
+<ol style="margin-left:20px;">
+<li>Pathogen categories: Bacteria, Viruses, Fungi, Protozoa.</li>
+<li>Innate immunity – skin, mucosa, lysozyme, complement, phagocytes.</li>
+<li>Key innate cells: Neutrophils, Macrophages, NK cells.</li>
+<li>Adaptive immunity – B‑cells (antibodies) & T‑cells (cell‑mediated).</li>
+<li>Primary response: IgM first, lag 5‑7 days.</li>
+<li>Secondary response: IgG rapid, high‑titer, memory cells.</li>
+<li>Humoral immunity – antibody‑mediated, extracellular pathogens.</li>
+<li>Cell‑mediated immunity – T‑cells, intracellular pathogens.</li>
+<li>Vaccine types – Live‑attenuated, Inactivated, Subunit, Toxoid, mRNA, Viral‑vector.</li>
+<li>Live‑attenuated – strong immunity, cold‑chain, not for immunocompromised.</li>
+<li>Inactivated – safe, needs boosters, stable.</li>
+<li>Subunit – purified antigen, minimal side‑effects.</li>
+<li>Toxoid – inactivated toxin, e.g., diphtheria.</li>
+<li>mRNA – encodes antigen, rapid design, requires ultra‑cold storage.</li>
+<li>Herd immunity formula: HIT = 1 – 1/R₀.</li>
+<li>Measles R₀ ≈ 15 → HIT ≈ 93%.</li>
+<li>BCG vaccine protects against severe TB in children.</li>
+<li>RDTs for malaria/dengue are based on antigen‑antibody capture.</li>
+<li>ELISA measures specific IgG/IgM levels.</li>
+<li>Anthrax spores are durable; vaccine (AVA) is a subunit.</li>
+<li>COVID‑19 mRNA vaccines induce neutralising IgG & CD8⁺ T‑cells.</li>
+<li>Malaria prophylaxis – doxycycline or mefloquine.</li>
+<li>Dengvaxia contraindicated in seronegative individuals.</li>
+<li>Polio – OPV (live) vs IPV (inactivated).</li>
+<li>Smallpox eradication via vaccinia virus (live‑attenuated).</li>
+<li>Complement pathways – classical (antibody), alternative (pathogen).</li>
+<li>IgE mediates allergic response & defence against helminths.</li>
+<li>NK cells recognise “missing‑self” MHC‑I loss.</li>
+<li>TH1 cytokines (IFN‑γ) activate macrophages for intracellular kill.</li>
+<li>TH2 cytokines (IL‑4) drive B‑cell class‑switching.</li>
+<li>Bioterror agents – anthrax, smallpox, plague – need rapid
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>

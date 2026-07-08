@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heat & Thermodynamics — Laws, Heat Transfer & Applications — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Physics</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">Heat & Thermodynamics — Laws, Heat Transfer & Applications</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Heat & Thermodynamics — Laws, Heat Transfer & Applications</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<p>CDS: ★★★★★ (Frequently Asked)<br>
+AFCAT: ★★★★★ (Frequently Asked)<br>
+NDA: ★★★★★ (Frequently Asked)</p>
+
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Explain the three laws of thermodynamics and their practical significance.</li>
+<li>Identify and differentiate between the three modes of heat transfer: conduction, convection, and radiation.</li>
+<li>Apply the concept of specific heat capacity, latent heat, and calorimetry to solve numerical problems.</li>
+<li>Relate thermodynamic principles to real‑world defence equipment such as engines, refrigeration units, and camouflage fabrics.</li>
+<li>Interpret PV‑diagrams, T‑S diagrams and understand work done in various thermodynamic processes.</li>
+<li>Recall key constants and formulas for quick calculations during exams.</li>
+<li>Develop problem‑solving strategies to avoid common traps in thermodynamics questions.</li>
+</ul>
+
+<h2>⚡ Quick Revision</h2>
+<ul>
+<li>First law: ΔU = Q – W (energy conservation).</li>
+<li>Second law: Entropy of an isolated system never decreases.</li>
+<li>Third law: Entropy → 0 as T → 0 K.</li>
+<li>Conduction – heat moves through a solid medium; rate ∝ A·ΔT/ L.</li>
+<li>Convection – bulk motion of fluid; driven by density differences.</li>
+<li>Radiation – electromagnetic waves; ∝ εσAT⁴.</li>
+<li>Specific heat (c) = Q/(mΔT); units J kg⁻¹ K⁻¹.</li>
+<li>Latent heat (L) = Q/m; fusion vs vaporisation.</li>
+<li>PV‑work = ∫PdV; isobaric, isochoric, isothermal, adiabatic.</li>
+<li>Efficiency of Carnot engine = 1 – Tc/Th.</li>
+<li>Heat engines → mechanical work; refrigerators → opposite direction.</li>
+<li>Stefan‑Boltzmann constant σ = 5.67×10⁻⁸ W m⁻² K⁻⁴.</li>
+<li>Thermal conductivity (k) of metals ≈ 100 W m⁻¹ K⁻¹; insulators ≈ 0.03 W m⁻¹ K⁻¹.</li>
+<li>Engine cooling: water jacket (convection) + radiator (radiation).</li>
+<li>Thermal expansion: ΔL = αL₀ΔT.</li>
+</ul>
+
+<h2>📖 Complete Theory</h2>
+<p style="text-align:justify;">Thermodynamics is the branch of physics that deals with the relationship between heat, work, temperature and energy. It is foundational for any engineering system that converts energy from one form to another – a fact that makes it a hot topic in defence examinations.</p>
+
+<h3 style="color:#fbbf24;">1. The Three Laws of Thermodynamics</h3>
+<p style="text-align:justify;"><strong>First Law (Law of Energy Conservation)</strong> states that the internal energy change (ΔU) of a system equals the heat supplied (Q) minus the work done by the system (W). Mathematically, ΔU = Q – W. This law tells us that energy can neither be created nor destroyed, only transformed. In a tank engine, the chemical energy of fuel (Q) is converted into kinetic energy (W) and a rise in internal energy (ΔU) of the exhaust gases.</p>
+
+<p style="text-align:justify;"><strong>Second Law</strong> introduces the concept of entropy (S). For any spontaneous process, the total entropy of an isolated system increases (ΔS_total ≥ 0). In simple terms, heat naturally flows from a hotter body to a colder one. The law also defines the maximum possible efficiency of a heat engine: η_max = 1 – Tc/Th, where Tc and Th are the absolute temperatures of the cold and hot reservoirs respectively.</p>
+
+<p style="text-align:justify;"><strong>Third Law</strong> states that as temperature approaches absolute zero, the entropy of a perfect crystal approaches a constant minimum (often taken as zero). This law is crucial for understanding low‑temperature physics and the performance limits of cryogenic weapons or superconducting sensors.</p>
+
+<h3 style="color:#fbbf24;">2. Modes of Heat Transfer</h3>
+<ul style="list-style-type:disc;">
+<li><strong>Conduction</strong>: Direct transfer of kinetic energy between adjacent atoms or molecules. The rate of heat flow (Q̇) through a uniform slab is given by Fourier’s law: Q̇ = kA(ΔT/L), where k is thermal conductivity, A is cross‑sectional area, ΔT is temperature difference, and L is thickness. Metals have high k, making them excellent conductors for engine blocks.</li>
+<li><strong>Convection</strong>: Transfer of heat by the bulk motion of fluids (liquids or gases). Natural convection occurs due to buoyancy (hot fluid rises, cold fluid sinks); forced convection uses fans or pumps. The heat transfer coefficient (h) characterises convective efficiency, and the governing relation is Q̇ = hAΔT.</li>
+<li><strong>Radiation</strong>: Emission of electromagnetic waves from any body with temperature above 0 K. The Stefan‑Boltzmann law describes it: Q̇ = εσAT⁴, where ε is emissivity (0–1), σ is the Stefan‑Boltzmann constant, A is surface area, and T is absolute temperature. Space‑craft heat shields rely heavily on radiative balance.</li>
+</ul>
+
+<h3 style="color:#fbbf24;">3. Thermodynamic Processes and Work</h3>
+<p style="text-align:justify;">A thermodynamic process describes how a system changes from one state to another. The most common processes are:</p>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#e5e7eb;">
+<th style="border:1px solid #cbd5e1;padding:5px;">Process</th>
+<th style="border:1px solid #cbd5e1;padding:5px;">Condition</th>
+<th style="border:1px solid #cbd5e1;padding:5px;">Work (W)</th>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:5px;">Isobaric</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Pressure constant (P = const)</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">W = PΔV</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:5px;">Isochoric</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Volume constant (V = const)</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">W = 0</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:5px;">Isothermal</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">Temperature constant (T = const)</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">W = nRT ln(V₂/V₁)</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:5px;">Adiabatic</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">No heat exchange (Q = 0)</td>
+<td style="border:1px solid #cbd5e1;padding:5px;">W = ΔU</td>
+</tr>
+</table>
+
+<p style="text-align:justify;">In a jet engine, the compression stage is approximately adiabatic, while the combustion chamber is nearly isobaric. Recognising these idealised steps helps you quickly estimate work and efficiency.</p>
+
+<h3 style="color:#fbbf24;">4. Calorimetry, Specific Heat & Latent Heat</h3>
+<p style="text-align:justify;">The heat required to raise the temperature of a mass m by ΔT is Q = mcΔT. Specific heat (c) varies with material: water (4.18 J g⁻¹ K⁻¹) is a benchmark. Latent heat (L) is the energy needed for a phase change without temperature change: Q = mL. Fusion (solid→liquid) and vaporisation (liquid→gas) have distinct L values, crucial for designing cooling systems for high‑energy weapons.</p>
+
+<h3 style="color:#fbbf24;">5. Real‑World Defence Applications</h3>
+<ul style="list-style-type:disc;">
+<li><strong>Engine Cooling</strong>: Combines conduction (engine block), convection (water jacket), and radiation (radiator). Selecting materials with high k and designing optimal h values reduces overheating risk.</li>
+<li><strong>Stealth Technology</strong>: Radar‑absorbing materials use low emissivity (ε) to minimise radiative signatures.</li>
+<li><strong>Refrigeration in Field Camps</strong>: Vapor‑compression cycles rely on the second law; the coefficient of performance (COP) = Q_cold/W_input.</li>
+<li><strong>Thermal Camouflage</strong>: Fabrics with tailored α (absorptivity) and ε mimic environmental temperature profiles.</li>
+<li><strong>Space‑Based Sensors</strong>: Cryogenic cooling (third law) enables infrared detectors with negligible dark current.</li>
+</ul>
+
+<h2>📚 Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#d1fae5;">
+<th style="border:1px solid #a7f3d0;padding:5px;">Term</th>
+<th style="border:1px solid #a7f3d0;padding:5px;">Definition</th>
+</tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Thermodynamics</td><td style="border:1px solid #a7f3d0;padding:5px;">Study of energy transformations involving heat and work.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Internal Energy (U)</td><td style="border:1px solid #a7f3d0;padding:5px;">Total kinetic and potential energy of particles in a system.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Entropy (S)</td><td style="border:1px solid #a7f3d0;padding:5px;">Measure of disorder; tendency of energy to spread.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Specific Heat (c)</td><td style="border:1px solid #a7f3d0;padding:5px;">Heat required to raise 1 kg of a substance by 1 K.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Latent Heat (L)</td><td style="border:1px solid #a7f3d0;padding:5px;">Heat absorbed or released during a phase change at constant temperature.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Conduction</td><td style="border:1px solid #a7f3d0;padding:5px;">Direct transfer of kinetic energy through a material.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Convection</td><td style="border:1px solid #a7f3d0;padding:5px;">Heat transfer by bulk movement of fluid.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Radiation</td><td style="border:1px solid #a7f3d0;padding:5px;">Emission of electromagnetic waves due to temperature.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Thermal Conductivity (k)</td><td style="border:1px solid #a7f3d0;padding:5px;">Material property indicating ability to conduct heat.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Heat Engine</td><td style="border:1px solid #a7f3d0;padding:5px;">Device that converts heat energy into mechanical work.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Carnot Cycle</td><td style="border:1px solid #a7f3d0;padding:5px;">Ideal reversible cycle giving maximum possible efficiency.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">COP (Coefficient of Performance)</td><td style="border:1px solid #a7f3d0;padding:5px;">Ratio of useful cooling provided to work input for refrigerators.</td></tr>
+</table>
+
+<h2>🔄 Concept Flow</h2>
+<pre style="background:#f0fdf4;padding:10px;border:1px solid #a7f3d0;">
+Heat Input → ΔU = Q – W
+│
+├─► First Law (Energy Conservation)
+│
+├─► Second Law → Entropy ↑ (Spontaneous)
+│      │
+│      ├─► Carnot Efficiency
+│      └─► Direction of Heat Flow
+│
+├─► Third Law → S → 0 as T → 0 K
+│
+└─► Modes of Transfer
+       ├─► Conduction (k, A, ΔT/L)
+       ├─► Convection (h, A, ΔT)
+       └─► Radiation (εσAT⁴)
+</pre>
+
+<h2>📊 Comparison Tables</h2>
+<table style="width:48%;float:left;border-collapse:collapse;margin-right:2%;margin-bottom:20px;">
+<tr style="background:#dbeafe;">
+<th style="border:1px solid #bfdbfe;padding:5px;">Parameter</th>
+<th style="border:1px solid #bfdbfe;padding:5px;">Conduction</th>
+<th style="border:1px solid #bfdbfe;padding:5px;">Convection</th>
+<th style="border:1px solid #bfdbfe;padding:5px;">Radiation</th>
+</tr>
+<tr><td style="border:1px solid #bfdbfe;padding:5px;">Medium Required</td><td style="border:1px solid #bfdbfe;padding:5px;">Solid/Liquid</td><td style="border:1px solid #bfdbfe;padding:5px;">Fluid (liquid/gas)</td><td style="border:1px solid #bfdbfe;padding:5px;">None (vacuum works)</td></tr>
+<tr><td style="border:1px solid #bfdbfe;padding:5px;">Dependence</td><td style="border:1px solid #bfdbfe;padding:5px;">k, A, ΔT, L</td><td style="border:1px solid #bfdbfe;padding:5px;">h, A, ΔT</td><td style="border:1px solid #bfdbfe;padding:5px;">ε, σ, A, T⁴</td></tr>
+<tr><td style="border:1px solid #bfdbfe;padding:5px;">Speed</td><td style="border:1px solid #bfdbfe;padding:5px;">Relatively slow</td><td style="border:1px solid #bfdbfe;padding:5px;">Fast (fluid motion)</td><td style="border:1px solid #bfdbfe;padding:5px;">Very fast (light speed)</td></tr>
+</table>
+
+<table style="width:48%;float:left;border-collapse:collapse;margin-bottom:20px;">
+<tr style="background:#d1fae5;">
+<th style="border:1px solid #a7f3d0;padding:5px;">Feature</th>
+<th style="border:1px solid #a7f3d0;padding:5px;">Heat Engine</th>
+<th style="border:1px solid #a7f3d0;padding:5px;">Refrigerator</th>
+</tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Goal</td><td style="border:1px solid #a7f3d0;padding:5px;">Produce work</td><td style="border:1px solid #a7f3d0;padding:5px;">Remove heat</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Direction of Heat Flow</td><td style="border:1px solid #a7f3d0;padding:5px;">High → Low (output work)</td><td style="border:1px solid #a7f3d0;padding:5px;">Low → High (requires work)</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Efficiency Measure</td><td style="border:1px solid #a7f3d0;padding:5px;">η = W_out/Q_in</td><td style="border:1px solid #a7f3d0;padding:5px;">COP = Q_removed/W_input</td></tr>
+</table>
+<div style="clear:both;"></div>
+
+<h2>🧠 Memory Tricks & Mnemonics</h2>
+<ul>
+<li><strong>“C.R.R. – Conduct, Rise, Radiate”</strong>: Remember the order of heat transfer importance in a tank – Conduction through hull, Convection (rising hot water), Radiation to space.</li>
+<li><strong>“S.A.L.T.” for Entropy</strong>: <em>S</em>pontaneous <em>A</em>ctions <em>L</em>ead to <em>T</em>hermal disorder.</li>
+<li><strong>“FIRE‑COLD” for Carnot</strong>: <em>F</em>irst (Hot) <em>I</em>n <em>R</em>eversible <em>E</em>ngine, <em>C</em>old <em>O</em>utput <em>L</em>oss <em>D</em>iminished.</li>
+<li><strong>“METAL‑GUN” for Conductivity</strong>: <em>M</em>etal = high <em>E</em>nergy <em>T</em>ransfer <em>A</em>nd <em>L</em>ow resistance – like a gun barrel conducts heat fast.</li>
+<li><strong>“RADAR‑EYE”</strong>: Radiation = “R”eally “A”ll “D”irection “A”lpha “R”eally “E”xposed “Y”early – helps recall that radiation works in vacuum.</li>
+<li><strong>“COOL‑COP”</strong>: For refrigerators, think of “COOL” → “COP” – higher COP means better cooling.</li>
+</ul>
+
+<h2>⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol>
+<li>Thermal conductivity of copper ≈ 400 W m⁻¹ K⁻¹.</li>
+<li>Stefan‑Boltzmann constant σ = 5.67×10⁻⁸ W m⁻² K⁻⁴.</li>
+<li>Latent heat of fusion of ice = 334 kJ kg⁻¹.</li>
+<li>Latent heat of vaporisation of water = 2260 kJ kg⁻¹.</li>
+<li>Specific heat of water = 4.18 J g⁻¹ K⁻¹.</li>
+<li>Efficiency of a Carnot engine operating between 500 K and 300 K is 40%.</li>
+<li>Maximum temperature of a black‑body radiator at 300 K emits ≈ 460 W m⁻².</li>
+<li>Adiabatic index (γ) for diatomic gases ≈ 1.4.</li>
+<li>Heat capacity of air at constant pressure ≈ 1.005 kJ kg⁻¹ K⁻¹.</li>
+<li>Thermal expansion coefficient of steel ≈ 12×10⁻⁶ K⁻¹.</li>
+<li>Convection heat transfer coefficient for forced air ≈ 25 W m⁻² K⁻¹.</li>
+<li>Heat engine work = ∫PdV, area under PV curve.</li>
+<li>Thermal equilibrium occurs when ΔT = 0.</li>
+<li>Absolute zero = –273.15 °C.</li>
+<li>Entropy change for reversible isothermal expansion: ΔS = Q_rev/T.</li>
+<li>Heat loss in a spacecraft is dominated by radiation, not convection.</li>
+<li>Thermal camouflage fabrics use low ε (~0.2) to mimic surroundings.</li>
+<li>Gas turbine inlet temperature limits are set by material’s melting point (~1800 K).</li>
+<li>Thermal insulation of a soldier’s jacket often uses aerogel (k ≈ 0.02 W m⁻¹ K⁻¹).</li>
+<li>Heat pumps have COP > 1, often 3–4 for domestic systems.</li>
+</ol>
+
+<h2>🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #60a5fa;padding:10px;background:#eff6ff;">
+<p><strong>First Law:</strong> ΔU = Q – W</p>
+<p><strong>Second Law (Carnot):</strong> η_max = 1 – Tc/Th</p>
+<p><strong>Stefan‑Boltzmann:</strong> Q̇ = εσAT⁴</p>
+<p><strong>Fourier’s Law (Conduction):</strong> Q̇ = kAΔT/L</p>
+<p><strong>Newton’s Law of Cooling (Convection):</strong> Q̇ = hAΔT</p>
+<p><strong>Specific Heat:</strong> Q = mcΔT</p>
+<p><strong>Latent Heat:</strong> Q = mL</p>
+<p><strong>Work (Isothermal):</strong> W = nRT ln(V₂/V₁)</p>
+<p><strong>Adiabatic Relation (Ideal Gas):</strong> PV^γ = const</p>
+<p><strong>Thermal Expansion:</strong> ΔL = αL₀ΔT</p>
+<p><strong>COP (Refrigerator):</strong> COP = Q_cold/W_input</p>
+</div>
+
+<h2>📝 PYQ Pattern Analysis</h2>
+<p>Past Year Question (PYQ) analysis reveals that thermodynamics consistently appears in the physics section of CDS, AFCAT and NDA. Approximately 12‑15% of the total physics questions in the last five years were on heat and thermodynamics. The most frequent sub‑topics are:</p>
+<ul>
+<li>First law applications (energy balance in engines, calorimetry).</li>
+<li>Conduction‑convection‑radiation comparisons.</li>
+<li>Specific heat and latent heat numerical problems.</li>
+<li>PV‑diagrams and work calculations for isobaric/isothermal processes.</li>
+</ul>
+<p>Typical question style includes multi‑step calculations, often wrapped in a defence‑scenario (e.g., “A tank’s engine overheats; calculate required radiator area”). Recent trends show an increase in conceptual “why” questions, especially on entropy and the second law, testing deeper understanding rather than rote calculation.</p>
+<p>Common traps: confusing heat (Q) with work (W), mixing up sign conventions, and overlooking the role of emissivity in radiation problems. Candidates who master quick‑estimation techniques for σT⁴ and kAΔT/L score high.</p>
+
+<h2>🎓 Examination Perspective</h2>
+<p><strong>CDS:</strong> Emphasises conceptual clarity. Expect 2‑3 multi‑step problems on first law, plus a couple of reasoning questions on entropy and Carnot efficiency. Diagram‑based questions (PV or TS) are common.</p>
+<p><strong>AFCAT:</strong> Focuses on speed. Usually 1‑2 easy numerical questions on specific heat, followed by a moderate problem on convection heat transfer coefficient. Multiple‑choice with one‑line calculations dominate.</p>
+<p><strong>NDA:</strong> Mix of conceptual and numerical. Frequently asks about heat loss from a soldier’s jacket (insulation), and about radiation from a satellite’s surface. They love “fill‑in‑the‑blank” style for formulas.</p>
+
+<h2>⚠️ Common Mistakes</h2>
+<ul>
+<li>Mixing up sign of work: In physics convention, work done by system is positive; many students use the opposite.</li>
+<li>Using ΔT instead of T⁴ in radiation formula – leads to huge errors.</li>
+<li>Assuming k is same for all metals; forgetting that alloys have lower conductivity.</li>
+<li>Neglecting the effect of pressure in adiabatic processes – forgetting PV^γ = const.</li>
+<li>Treating latent heat as temperature dependent – it is constant for a given phase change.</li>
+<li>Confusing emissivity (ε) with absorptivity; for a grey body ε = α, but not always.</li>
+<li>Applying conduction formula to gases – conduction in gases is much lower and often dominated by convection.</li>
+<li>Forgetting to convert units (e.g., kJ to J) before plugging into formulas.</li>
+</ul>
+
+<h2>🪖 Military Connection</h2>
+<ul>
+<li>Engine cooling systems of tanks rely on combined conduction (engine block), convection (water jacket), and radiation (radiator).</li>
+<li>Thermal camouflage fabrics use low emissivity to blend with ambient infrared signatures.</li>
+<li>Infrared guided missiles depend on radiative cooling of seeker heads to maintain sensitivity.</li>
+<li>Cryogenic storage of liquid oxygen for rockets utilizes latent heat of vaporisation calculations.</li>
+<li>Heat‑shield tiles on re‑entry vehicles (e.g., ISRO’s Gaganyaan) are designed using Stefan‑Boltzmann law.</li>
+</ul>
+
+<h2>🌐 Current Affairs Integration</h2>
+<ul>
+<li>DRDO’s “Kavach” anti‑missile system uses heat‑dissipation plates designed with high‑conductivity aluminium alloys.</li>
+<li>HAL’s upgraded “Tejas” fighter jet incorporates a more efficient engine cooling system, reducing thermal stress by 15%.</li>
+<li>ISRO’s “Gaganyaan” mission required development of ablative heat shields based on radiation principles.</li>
+<li>Recent DRDO research on aerogel‑based thermal insulation for soldier jackets, offering k ≈ 0.015 W m⁻¹ K⁻¹.</li>
+<li>DRDO’s “MRSAM” missile testing highlighted the need for precise temperature monitoring of propulsion chambers.</li>
+</ul>
+
+<h2>📋 Revision Notes (1-Page)</h2>
+<ol>
+<li>ΔU = Q – W (First Law)</li>
+<li>Entropy always increases in spontaneous processes.</li>
+<li>η_max = 1 – Tc/Th (Carnot).</li>
+<li>Conduction: Q̇ = kAΔT/L.</li>
+<li>Convection: Q̇ = hAΔT.</li>
+<li>Radiation: Q̇ = εσAT⁴.</li>
+<li>Specific heat: Q = mcΔT.</li>
+<li>Latent heat: Q = mL.</li>
+<li>k (copper) ≈ 400 W m⁻¹ K⁻¹.</li>
+<li>σ = 5.67×10⁻⁸ W m⁻² K⁻⁴.</li>
+<li>Water: c = 4.18 J g⁻¹ K⁻¹.</li>
+<li>Ice fusion L = 334 kJ kg⁻¹.</li>
+<li>Water vaporisation L = 2260 kJ kg⁻¹.</li>
+<li>Adiabatic index γ ≈ 1.4 for diatomic gases.</li>
+<li>Isobaric work: W = PΔV.</li>
+<li>Isochoric work: W = 0.</li>
+<li>Isothermal work: W = nRT ln(V₂/V₁).</li>
+<li>Adiabatic work: W = ΔU.</li>
+<li>PV^γ = const (adiabatic).</li>
+<li>Thermal expansion ΔL = αL₀ΔT.</li>
+<li>α (steel) ≈ 12×10⁻⁶ K⁻¹.</li>
+<li>h (forced air) ≈ 25 W m⁻² K⁻¹.</li>
+<li>ε (black paint) ≈ 0.95.</li>
+<li>ε (thermal camouflage) ≈ 0.2.</li>
+<li>COP = Q_cold/W_input.</li>
+<li>Engine overheat → increase radiator area (radiation).</li>
+<li>Heat shield design → use σT⁴.</li>
+<li>Cold chain logistics → latent heat of vaporisation.</li>
+<li>Thermal insulation → low k materials.</li>
+<li>PV diagram area = work done.</li>
+<li>Entropy change reversible = Q_rev/T.</li>
+<li>Absolute zero = –273.15 °C.</li>
+<li>Thermal equilibrium when ΔT = 0.</li>
+<li>Heat loss in space = radiation only.</li>
+<li>High‑temperature alloys limit turbine inlet T.</li>
+<li>Radiation dominates for satellites.</li>
+<li>Steam turbines use isentropic (ideal adiabatic) expansion.</li>
+<li>Heat engine efficiency limited by Carnot.</li>
+<li>Thermal camouflage reduces IR signature.</li>
+<li>DRDO’s aerogel improves soldier comfort.</li>
+</ol>
+
+<h2>🃏 Flashcards</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#d1fae5;">
+<th style="border:1px solid #a7f3d0;padding:5px;">Question</th>
+<th style="border:1px solid #a7f3d0;padding:5px;">Answer</th>
+</tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">What is the First Law of Thermodynamics?</td><td style="border:1px solid #a7f3d0;padding:5px;">ΔU = Q – W</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Define entropy.</td><td style="border:1px solid #a7f3d0;padding:5px;">Measure of disorder; tendency of energy to spread.</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Formula for heat conducted through a slab?</td><td style="border:1px solid #a7f3d0;padding:5px;">Q̇ = kAΔT/L</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">What is the Stefan‑Boltzmann constant?</td><td style="border:1px solid #a7f3d0;padding:5px;">σ = 5.67×10⁻⁸ W m⁻² K⁻⁴</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Latent heat of fusion of ice?</td><td style="border:1px solid #a7f3d0;padding:5px;">334 kJ kg⁻¹</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Efficiency of a Carnot engine between 500 K and 300 K?</td><td style="border:1px solid #a7f3d0;padding:5px;">40 %</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Work done in isobaric expansion?</td><td style="border:1px solid #a7f3d0;padding:5px;">W = PΔV</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">What is specific heat?</td><td style="border:1px solid #a7f3d0;padding:5px;">c = Q/(mΔT)</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Heat transfer coefficient for forced air?</td><td style="border:1px solid #a7f3d0;padding:5px;">≈ 25 W m⁻² K⁻¹</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">What does COP stand for?</td><td style="border:1px solid #a7f3d0;padding:5px;">Coefficient of Performance</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Thermal expansion formula?</td><td style="border:1px solid #a7f3d0;padding:5px;">ΔL = αL₀ΔT</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">Entropy change for reversible isothermal expansion?</td><td style="border:1px solid #a7f3d0;padding:5px;">ΔS = Q_rev/T</td></tr>
+<tr><td style="border:1px solid #a7f3d0;padding:5px;">What is the third law of thermodynamics?</td><td style="border:1px solid #a7f3d0;padding:5px;">S → 0 as T → 0 K
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>

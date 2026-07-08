@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chemical Bonding — Ionic, Covalent & Metallic Bonds — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Chemistry</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">Chemical Bonding — Ionic, Covalent & Metallic Bonds</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Chemical Bonding — Ionic, Covalent & Metallic Bonds</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<p>CDS: ★★★★★ &nbsp;&nbsp; Frequently Asked<br>
+AFCAT: ★★★★★ &nbsp;&nbsp; Frequently Asked<br>
+NDA: ★★★★★ &nbsp;&nbsp; Frequently Asked<br>
+CAPF: ★★★★☆ &nbsp;&nbsp; Occasionally Asked</p>
+
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Identify the fundamental differences between ionic, covalent and metallic bonding.</li>
+<li>Explain how lattice energy, bond polarity and electronegativity govern bond formation.</li>
+<li>Predict physical properties (melting point, conductivity, hardness) from bond type.</li>
+<li>Draw Lewis structures for simple covalent molecules and illustrate resonance.</li>
+<li>Apply the octet rule, VSEPR and hybridisation concepts to explain molecular geometry.</li>
+<li>Use the Born‑Haber cycle to calculate lattice energy of an ionic solid.</li>
+<li>Correlate metallic bonding with electrical and thermal conductivity in alloys.</li>
+</ul>
+
+<h2>⚡ Quick Revision</h2>
+<ul>
+<li>Ionic bonds: transfer of electrons, high lattice energy, solid crystals.</li>
+<li>Covalent bonds: sharing of electrons, molecular or network solids.</li>
+<li>Metallic bonds: delocalised electron sea, ductile, conductive.</li>
+<li>Electronegativity difference > 1.7 → ionic character.</li>
+<li>ΔEN 0.4‑1.7 → polar covalent; <0.4 → non‑polar covalent.</li>
+<li>Bond polarity ↔ dipole moment; higher polarity = higher boiling point.</li>
+<li>Lewis structures use dots for valence electrons; octet rule for main‑group elements.</li>
+<li>Resonance stabilises molecules like O₃, NO₃⁻.</li>
+<li>Hybridisation (sp, sp², sp³) explains bond angles.</li>
+<li>Born‑Haber cycle links sublimation, ionisation, electron affinity, lattice energy.</li>
+<li>Metallic radius = half the distance between nuclei in the lattice.</li>
+<li>Alloys: mixture of metals, often improve strength & corrosion resistance.</li>
+<li>Conductivity in metals due to free electrons; decreases with temperature rise.</li>
+<li>Melting point trend: ionic > metallic > covalent (molecular).</li>
+<li>Electrolytes: ionic compounds in water → conduct electricity.</li>
+</ul>
+
+<h2>📖 Complete Theory</h2>
+<p style="text-align:justify;">The concept of <strong>chemical bonding</strong> is the cornerstone of chemistry. In defence‑related examinations, a clear grasp of how atoms stick together helps you answer questions on material strength, explosives, and even electronic warfare. This chapter builds from the simplest electron‑transfer picture to the collective behaviour of electrons in a metal lattice.</p>
+
+<h3 style="color:#34d399;">1. Ionic Bonding</h3>
+<p style="text-align:justify;">When the electronegativity difference (ΔEN) between two atoms exceeds ~1.7, the more electronegative atom pulls an electron completely from the other. The donor becomes a cation (+) and the acceptor an anion (–). The resulting electrostatic attraction is the <strong>ionic bond</strong>. Classic examples are NaCl, MgO and KBr. Ionic solids form a regular three‑dimensional arrangement called a <strong>crystal lattice</strong>. The energy required to separate one mole of an ionic solid into gaseous ions is the <strong>lattice energy (U)</strong>, a key indicator of stability.</p>
+<p style="text-align:justify;">Key properties:</p>
+<ul>
+<li>High melting & boiling points (U is large).</li>
+<li>Hard and brittle – planes of ions can slip, causing fracture.</li>
+<li>Conduct electricity only when molten or dissolved (electrolytes).</li>
+<li>Soluble in polar solvents (water) due to ion–dipole interactions.</li>
+</ul>
+
+<h3 style="color:#34d399;">2. Covalent Bonding</h3>
+<p style="text-align:justify;">If ΔEN lies between 0.4 and 1.7, atoms share electrons rather than transfer them. This sharing creates a <strong>covalent bond</strong>. The simplest representation is the Lewis dot structure, where each dot stands for a valence electron. Atoms strive to achieve an octet (or duet for H and He). Covalent bonds can be:</p>
+<ul>
+<li><strong>Non‑polar</strong> – equal sharing (e.g., H₂, Cl₂).</li>
+<li><strong>Polar</strong> – unequal sharing, giving rise to a dipole (e.g., H₂O, NH₃).</li>
+</ul>
+<p style="text-align:justify;">Molecules may exhibit <strong>resonance</strong> when more than one Lewis structure can describe the electron distribution (e.g., O₃, NO₃⁻). Resonance stabilises the molecule by delocalising electrons over several atoms.</p>
+<p style="text-align:justify;">Hybridisation explains bond angles: sp³ (tetrahedral, 109.5°), sp² (trigonal planar, 120°), sp (linear, 180°). Covalent solids like diamond (C) and SiO₂ have a 3‑D network of strong bonds, giving them very high melting points.</p>
+
+<h3 style="color:#34d399;">3. Metallic Bonding</h3>
+<p style="text-align:justify;">Metals possess a sea of delocalised electrons that are not bound to any particular nucleus. The positively charged ion cores are embedded in this electron cloud, creating an attractive force called the <strong>metallic bond</strong>. This model explains why metals are:</p>
+<ul>
+<li>Good conductors of heat and electricity (free electrons transport energy).</li>
+<li>Highly malleable and ductile (layers can slide without breaking the bond).</li>
+<li>Shiny (electrons reflect incident light).</li>
+</ul>
+<p style="text-align:justify;">Alloys (e.g., steel, brass) are engineered by mixing different metals to tailor strength, corrosion resistance, and magnetic properties. The strength of a metallic bond depends on the number of delocalised electrons per atom and the size of the ion cores.</p>
+
+<h3 style="color:#34d399;">4. Comparative Overview</h3>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#e5f3ff;">
+<th style="border:1px solid #b3d4fc;padding:8px;">Feature</th>
+<th style="border:1px solid #b3d4fc;padding:8px;">Ionic</th>
+<th style="border:1px solid #b3d4fc;padding:8px;">Covalent</th>
+<th style="border:1px solid #b3d4fc;padding:8px;">Metallic</th>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:8px;">Electron Arrangement</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">Transfer → ions</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">Sharing → molecules</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">Delocalised sea</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #b3d4fc;padding:8px;">Typical ΔEN</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">>1.7</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">0.4‑1.7</td>
+<td style="border:1px solid #b3d4fc;padding:8px;"><1.0 (metal‑metal)</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:8px;">Melting Point</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">High</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">Variable (low‑high)</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">Medium‑High</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #b3d4fc;padding:8px;">Conductivity (solid)</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">None (unless molten)</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">None (except graphite)</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">Excellent</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:8px;">Solubility in Water</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">Good (most)</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">Variable (polar>non‑polar)</td>
+<td style="border:1px solid #b3d4fc;padding:8px;">Very low</td>
+</tr>
+</table>
+
+<h2>📚 Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#e5f3ff;">
+<th style="border:1px solid #b3d4fc;padding:6px;">Term</th>
+<th style="border:1px solid #b3d4fc;padding:6px;">Definition</th>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Ionic Bond</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Electrostatic attraction between oppositely charged ions formed by complete electron transfer.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #b3d4fc;padding:6px;">Lattice Energy (U)</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Energy released when one mole of gaseous ions forms an ionic solid.</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Covalent Bond</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Bond formed by sharing of electron pairs between atoms.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #b3d4fc;padding:6px;">Polar Covalent</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Unequal sharing of electrons leading to partial charges.</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Resonance</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Delocalisation of electrons over two or more Lewis structures.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #b3d4fc;padding:6px;">Hybridisation</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Mixing of atomic orbitals to form new hybrid orbitals (sp, sp², sp³).</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Metallic Bond</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Attraction between a lattice of positive ions and a sea of delocalised electrons.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #b3d4fc;padding:6px;">Electronegativity (EN)</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">A measure of an atom’s ability to attract electrons in a bond.</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Born‑Haber Cycle</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Thermodynamic cycle used to calculate lattice energy of an ionic solid.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #b3d4fc;padding:6px;">Alloy</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Mixture of two or more metals (or a metal with non‑metal) designed for specific properties.</td>
+</tr>
+</table>
+
+<h2>🔄 Concept Flow</h2>
+<pre style="background:#f0f9ff;padding:10px;border:1px solid #b3d4fc;">
+Electronegativity Difference
+        |
+   -----------------
+   |               |
+ΔEN > 1.7       0.4 < ΔEN < 1.7
+   |               |
+Ionic Bond      Covalent Bond
+   |               |
+Lattice Energy   Hybridisation
+   |               |
+Properties:      Properties:
+- High MP        - Variable MP
+- Brittle       - Usually non‑conductive
+- Electrolyte   - Polar/Non‑polar
+        |
+   Metallic Bond (ΔEN < 0.4, delocalised e⁻)
+        |
+Properties: Conductive, Malleable, Ductile
+</pre>
+
+<h2>📊 Comparison Tables</h2>
+<table style="width:100%;border-collapse:collapse;margin-bottom:10px;">
+<tr style="background:#e5f3ff;">
+<th style="border:1px solid #b3d4fc;padding:6px;">Aspect</th>
+<th style="border:1px solid #b3d4fc;padding:6px;">Ionic</th>
+<th style="border:1px solid #b3d4fc;padding:6px;">Covalent</th>
+<th style="border:1px solid #b3d4fc;padding:6px;">Metallic</th>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Bond Formation</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Electron transfer</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Electron sharing</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Electron sea</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #b3d4fc;padding:6px;">Typical Example</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">NaCl, MgO</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">H₂O, CH₄, SiO₂</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Fe, Cu, Al‑Alloy</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Electrical Conductivity (solid)</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">None</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">None (except graphite)</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">High</td>
+</tr>
+</table>
+
+<h2>🧠 Memory Tricks & Mnemonics</h2>
+<ul>
+<li><strong>“Ionic = IONic, IONic = IONic</strong>”: Remember that a full <em>ION</em> moves from metal to non‑metal – the word “IONic” already contains the word “ION”.</li>
+<li><strong>“COVALENT = CO-VA‑LENT, CO = Company, VA = Value, LENT = Lent (shared)”: Imagine two companies sharing the same “lent” (loan) – they share resources (electrons).</li>
+<li><strong>“METAL = ME + TALL”: A tall soldier (ME) can carry a heavy “load” (electron sea) without breaking – visualise a tall soldier marching with a sack of electrons.</li>
+<li><strong>“R‑E‑S‑O‑N‑A‑N‑C‑E” for Resonance: “R-Enemy‑S‑Only‑N‑A‑C‑E” – Even enemies (different structures) can share a common “ace” (electron) for stability.</li>
+<li><strong>“BORN‑HABER = BORN to HABIT”: Think of a newborn (BORN) habitually arranging its toys (ions) – the cycle of steps (sublimation, ionisation, etc.) is a habit.</li>
+</ul>
+
+<h2>⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol>
+<li>ΔEN > 1.7 generally leads to an ionic bond.</li>
+<li>Lattice energy is always exothermic for stable ionic solids.</li>
+<li>NaCl melts at 801 °C, a typical high melting point for ionic compounds.</li>
+<li>Diamond’s hardness is due to a 3‑D covalent network of sp³ bonds.</li>
+<li>Graphite conducts electricity because of delocalised π‑electrons (a metallic‑like feature).</li>
+<li>Aluminium alloys (e.g., Duralumin) are used in aircraft for high strength‑to‑weight ratio.</li>
+<li>Electronegativity of fluorine (3.98) is the highest among all elements.</li>
+<li>MgO has a lattice energy of ≈ 3790 kJ mol⁻¹, one of the highest for binary oxides.</li>
+<li>Transition metals often form metallic bonds with partially filled d‑orbitals, giving rise to colored compounds.</li>
+<li>Hydrogen bonding is a special case of strong polar covalent interaction, crucial in water’s high boiling point.</li>
+<li>Metals become superconductors below a critical temperature (e.g., Nb at 9.2 K).</li>
+<li>Alloys like stainless steel contain Cr to improve corrosion resistance – vital for naval vessels.</li>
+<li>Born‑Haber cycle can be used to estimate the enthalpy of formation of any ionic compound.</li>
+<li>In covalent molecules, bond dipole moments add vectorially to give a net dipole moment.</li>
+<li>Mercury is the only metal liquid at room temperature, owing to relativistic effects on its 6s electrons.</li>
+<li>Silicon, a semiconductor, forms covalent bonds in a diamond‑like lattice.</li>
+<li>Metallic bonding explains why the Earth’s core is liquid iron‑nickel alloy despite high pressure.</li>
+<li>Ammonia (NH₃) is a polar covalent molecule with a trigonal pyramidal shape (sp³).</li>
+<li>Bond energy of H–H is 436 kJ mol⁻¹; O=O double bond is 498 kJ mol⁻¹.</li>
+<li>Electrolytic dissociation of NaCl in water produces Na⁺ and Cl⁻, making the solution conductive.</li>
+</ol>
+
+<h2>🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #34d399;padding:10px;background:#e5f3ff;">
+<p><strong>1. Lattice Energy (U):</strong>  U = Σ (sublimation + ionisation + electron affinity + bond dissociation) – ΔH_f°</p>
+<p><strong>2. Electronegativity Difference (ΔEN):</strong> ΔEN = | EN_A – EN_B |</p>
+<p><strong>3. Bond Energy (D):</strong> D = Σ (bond dissociation energies of products) – Σ (bond dissociation energies of reactants)</p>
+<p><strong>4. Percent Ionic Character (%IC):</strong> %IC = (1 – e^(–0.25·(ΔEN)²))·100</p>
+<p><strong>5. Conductivity (σ) for metals:</strong> σ = n·e·μ  (n = electron concentration, e = charge, μ = mobility)</p>
+<p><strong>6. Boiling point trend:</strong> Ionic > Network Covalent > Molecular Covalent > Metallic (depends on electron sea). </p>
+</div>
+
+<h2>📝 PYQ Pattern Analysis</h2>
+<p>Past Year Questions (PYQs) from CDS, AFCAT and NDA consistently allocate 10‑15% of the chemistry section to bonding. The most frequent sub‑topic is “ionic compounds – lattice energy and solubility”, followed by “covalent structures – resonance and hybridisation”. Questions often appear in the form of numerical problems (Born‑Haber cycle) or conceptual MCQs (identifying bond type from ΔEN). Recent trends show a rise in “application‑oriented” questions where candidates must link bond type to material properties such as hardness of armour plates or conductivity of radar cables. Common traps involve confusing metallic conductivity with covalent (graphite) and overlooking the role of d‑orbitals in transition‑metal bonding.</p>
+
+<h2>🎓 Examination Perspective</h2>
+<p><strong>CDS:</strong> Emphasises the link between bond type and material strength (e.g., why steel is preferred for tank hulls). Expect numerical problems on lattice energy and qualitative questions on conductivity.</p>
+<p><strong>AFCAT:</strong> Focuses on rapid identification – ΔEN values, electronegativity trends, and simple stoichiometric calculations. Frequently asks about alloys used in aircraft.</p>
+<p><strong>NDA:</strong> Prefers conceptual clarity: Lewis structures, resonance, and hybridisation. Often includes diagram‑based questions (e.g., drawing the structure of CO₂).</p>
+
+<h2>⚠️ Common Mistakes</h2>
+<ul>
+<li>Assuming all metals are conductive – forgetting that some alloys (e.g., stainless steel) have lower conductivity.</li>
+<li>Mixing up lattice energy with enthalpy of formation; lattice energy is always exothermic for stable salts.</li>
+<li>Using ΔEN > 2.0 as the sole rule for ionic bonds – some compounds (e.g., BeCl₂) are covalent despite high ΔEN.</li>
+<li>Neglecting resonance in molecules like NO₃⁻, leading to incorrect bond order.</li>
+<li>Confusing metallic bond with covalent network (diamond) – both are strong, but only metals have free electrons.</li>
+<li>Forgetting that polar covalent molecules have dipole moments that affect boiling point.</li>
+<li>Applying the octet rule to transition metals without considering d‑electron participation.</li>
+<li>Over‑generalising that all ionic compounds are soluble in water – LiF is sparingly soluble.</li>
+</ul>
+
+<h2>🪖 Military Connection</h2>
+<ul>
+<li>Armor plating of tanks uses high‑lattice‑energy ionic ceramics (e.g., Al₂O₃) for hardness.</li>
+<li>Aircraft fuselage alloys (Duralumin) rely on metallic bonding for lightweight strength.</li>
+<li>Explosives like TNT involve covalent networks with high energy release upon bond rupture.</li>
+<li>Radar and communication cables depend on metallic conduction; copper’s sea‑electron model is essential.</li>
+<li>Fuel cells use ionic conductors (e.g., Nafion) where ion transport mimics ionic bond behaviour.</li>
+</ul>
+
+<h2>🌐 Current Affairs Integration</h2>
+<ul>
+<li>DRDO’s development of “Ultra‑light armour” uses aluminium‑magnesium alloys (metallic bonding) to reduce vehicle weight.</li>
+<li>ISRO’s launch vehicles employ carbon‑carbon composites (covalent network) for high‑temperature nozzle sections.</li>
+<li>HAL’s new fighter jet “AMCA” incorporates titanium alloys (metallic) for high‑strength airframe.</li>
+<li>Recent research on “graphene‑based supercapacitors” leverages the delocalised π‑electron system (metallic‑like).</li>
+<li>DRDO’s “Metal‑Organic Frameworks” (MOFs) for gas storage exploit ionic‑covalent hybrid bonds.</li>
+</ul>
+
+<h2>📋 Revision Notes (1-Page)</h2>
+<ol>
+<li>ΔEN > 1.7 → ionic bond.</li>
+<li>Lattice energy = energy released when gaseous ions form solid.</li>
+<li>Ionic solids: high MP, brittle, soluble in water, conductive only when molten.</li>
+<li>ΔEN 0.4‑1.7 → covalent bond.</li>
+<li>Non‑polar covalent: equal sharing (e.g., H₂).</li>
+<li>Polar covalent: dipole moment present (e.g., H₂O).</li>
+<li>Resonance stabilises molecules with multiple Lewis structures.</li>
+<li>Hybridisation: sp³ (tetrahedral), sp² (trigonal), sp (linear).</li>
+<li>Network covalent solids (diamond, SiO₂) have very high MP.</li>
+<li>Metallic bond: sea of delocalised electrons.</li>
+<li>Metals: high conductivity, malleable, ductile, shiny.</li>
+<li>Alloys improve strength, corrosion resistance, magnetic properties.</li>
+<li>Electronegativity highest for F (3.98).</li>
+<li>Born‑Haber cycle calculates lattice energy.</li>
+<li>Percent ionic character = (1 – e^(–0.25·ΔEN²))·100.</li>
+<li>Bond energy H–H = 436 kJ mol⁻¹; O=O = 498 kJ mol⁻¹.</li>
+<li>Graphite conducts via delocalised π‑electrons.</li>
+<li>Mercury liquid due to relativistic contraction of 6s orbital.</li>
+<li>Stainless steel = Fe + Cr (metallic + covalent contributions).</li>
+<li>Explosives release energy by breaking covalent bonds.</li>
+<li>Conductivity formula σ = n·e·μ.</li>
+<li>Metallic alloys (Duralumin) used in aircraft for weight saving.</li>
+<li>Al₂O₃ ceramic (ionic) used in armor for hardness.</li>
+<li>Water’s high boiling point due to hydrogen bonding (strong polar covalent).</li>
+<li>Electrolytes: ionic compounds in water → conductive.</li>
+<li>Silicon semiconductor: covalent network with band gap.</li>
+<li>ΔEN for Na–Cl = 2.23 → ionic.</li>
+<li>ΔEN for C–H = 0.35 → non‑polar covalent.</li>
+<li>ΔEN for C–O = 1.5 → polar covalent.</li>
+<li>Metallic bond strength ↑ with more delocalised electrons.</li>
+<li>Alloying can create intermetallic compounds with distinct properties.</li>
+<li>DRDO’s ultra‑light armor uses Al‑Mg alloys (metallic).</li>
+<li>ISRO’s carbon‑carbon composites (covalent network).</li>
+<li>HAL’s AMCA uses Ti‑alloys (metallic).</li>
+<li>Graphene supercapacitors rely on metallic‑like electron sea.</li>
+<li>MOFs combine ionic and covalent bonds for gas storage.</li>
+<li>Electrochemical cells depend on ionic conduction.</li>
+<li>High‑temperature turbines use ceramic (ionic) coatings.</li>
+<li>Hydrogen fuel cells involve polar covalent H–O bonds.</li>
+<li>Metallic bonding explains why copper wires are used in communications.</li>
+<li>Bond polarity influences solubility in water.</li>
+<li>Crystal lattice arrangement dictates mechanical strength.</li>
+<li>Thermal expansion differs among ionic, covalent, and metallic solids.</li>
+<li>Metallic glasses (amorphous metals) have unique properties.</li>
+<li>Understanding bond types aids material selection for defence equipment.</li>
+</ol>
+
+<h2>🃏 Flashcards</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#e5f3ff;">
+<th style="border:1px solid #b3d4fc;padding:6px;">Question</th>
+<th style="border:1px solid #b3d4fc;padding:6px;">Answer</th>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">What type of bond forms when ΔEN = 2.2?</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Ionic</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Name the bond in a copper wire.</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Metallic</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Which molecule exhibits resonance?</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">NO₃⁻</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Hybridisation of carbon in CH₄?</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">sp³</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Lattice energy is always…</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Exothermic</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Electronegativity highest element?</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Fluorine</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Metallic bond strength depends on…</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Number of delocalised electrons</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Which solid is a network covalent?</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Diamond</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">What is the formula for percent ionic character?</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">%IC = (1 – e^(–0.25·ΔEN²))·100</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Name a common alloy used in aircraft.</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Duralumin (Al‑Cu)</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Which bond type is present in NaCl?</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Ionic</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">What is the bond angle in H₂O?</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">104.5° (bent)</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Define lattice energy.</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Energy released when gaseous ions form a solid lattice.</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Which element forms a metallic bond but is liquid at RT?</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Mercury</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">What is the primary reason for high melting point of ionic compounds?</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Strong electrostatic forces (high lattice energy).</td>
+</tr>
+<tr>
+<td style="border:1px solid #b3d4fc;padding:6px;">Covalent bond between carbon atoms in graphite is…</td>
+<td style="border:1px solid #b3d4fc;padding:6px;">Strong σ‑bond with delocalised π‑electrons.</td>
+</
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>

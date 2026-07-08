@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work, Energy & Power — Conservation Laws & Collisions — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Physics</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">Work, Energy & Power — Conservation Laws & Collisions</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Work, Energy & Power — Conservation Laws & Collisions</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<p>CDS: ★★★★★ &nbsp;&nbsp; (Frequently Asked – 70% of Physics papers contain at least one question)</p>
+<p>AFCAT: ★★★★★ &nbsp;&nbsp; (Occasionally Asked – 45% of papers, usually in the “Mechanics” slot)</p>
+<p>NDA: ★★★★★ &nbsp;&nbsp; (Frequently Asked – 60% of NDA Physics questions)</p>
+<p>CAPF: ★★★★☆ &nbsp;&nbsp; (Rarely Asked – 30% but appears in the “General Science” section)</p>
+
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Define work, kinetic energy, potential energy and power with correct SI units.</li>
+<li>Apply the Work‑Energy Theorem to solve problems involving variable forces.</li>
+<li>Explain the principle of conservation of mechanical energy and when it holds.</li>
+<li>Distinguish between elastic and inelastic collisions and use momentum conservation.</li>
+<li>Calculate the coefficient of restitution and predict post‑collision velocities.</li>
+<li>Relate power to force and velocity in practical military contexts.</li>
+<li>Identify common traps in energy‑based questions (sign conventions, non‑conservative forces).</li>
+</ul>
+
+<h2>⚡ Quick Revision</h2>
+<ul>
+<li>Work = Force × Displacement × cosθ.</li>
+<li>KE = ½ mv²; PE (gravitational) = mgh; PE (elastic) = ½ kx².</li>
+<li>Power = Work/Time = Force·Velocity.</li>
+<li>Work‑Energy Theorem: Net work = ΔKE.</li>
+<li>Mechanical energy conserved only when only conservative forces act.</li>
+<li>Momentum (p) = mv; conserved in all collisions (closed system).</li>
+<li>Elastic collision: KE also conserved; Inelastic: KE not conserved.</li>
+<li>Coefficient of restitution e = (relative speed after)/(relative speed before).</li>
+<li>For a perfectly elastic head‑on collision, velocities swap if masses are equal.</li>
+<li>Non‑conservative work (e.g., friction) appears as ΔEₚₒₜₑₙₜᵢₐₗ – ΔEₖᵢₙₑₜᵢc.</li>
+</ul>
+
+<h2>📖 Complete Theory</h2>
+<p style="text-align:justify;">The concepts of <strong>work, energy and power</strong> form the backbone of classical mechanics. They are not merely algebraic formulas; they describe how forces cause motion and how that motion can be quantified. The chapter begins with the definition of work. When a constant force **F** acts on a body and displaces it through a distance **s** at an angle **θ** to the direction of the force, the work done is</p>
+<p style="text-align:center;font-weight:bold;">W = F·s·cosθ  (Joules)</p>
+<p style="text-align:justify;">If the force varies with displacement, the work is the area under the <em>F–s</em> curve, i.e., <em>W = ∫F·ds</em>. This integral form is crucial for solving problems involving springs, non‑linear resistive forces, or variable gravity (e.g., near a planet).</p>
+
+<h3 style="color:#f87171;">Kinetic and Potential Energy</h3>
+<p style="text-align:justify;">A body of mass **m** moving with speed **v** possesses kinetic energy (KE) given by <strong>KE = ½ mv²</strong>. The quadratic dependence on speed explains why high‑speed projectiles carry enormous energy even if their mass is modest.</p>
+<p style="text-align:justify;">Potential energy (PE) is stored energy due to position or configuration. The most common forms are gravitational (PE<sub>g</sub> = mgh) and elastic (PE<sub>e</sub> = ½ kx²). Gravitational PE is a <strong>conservative</strong> quantity; the work done by gravity around any closed path is zero. Elastic PE is also conservative if the spring obeys Hooke’s law.</p>
+
+<h3 style="color:#f87171;">Work‑Energy Theorem</h3>
+<p style="text-align:justify;">When a net external force **F<sub>net</sub>** acts on a body, the total work done equals the change in kinetic energy:</p>
+<p style="text-align:center;font-weight:bold;">W<sub>net</sub> = ΔKE = KE<sub>final</sub> – KE<sub>initial</sub></p>
+<p style="text-align:justify;">This theorem bypasses the need to solve Newton’s second law for every problem. For example, a soldier sliding down a frictionless slope gains kinetic energy equal to the loss in gravitational potential energy.</p>
+
+<h3 style="color:#f87171;">Conservation of Mechanical Energy</h3>
+<p style="text-align:justify;">If only conservative forces act, the sum of kinetic and potential energy remains constant:</p>
+<p style="text-align:center;font-weight:bold;">KE + PE = constant</p>
+<p style="text-align:justify;">In real‑world scenarios, friction or air drag introduces non‑conservative work, leading to <strong>mechanical energy loss</strong>. In defence problems, this loss often appears as heat or sound, and the question may ask for the fraction of energy retained.</p>
+
+<h3 style="color:#f87171;">Power</h3>
+<p style="text-align:justify;">Power quantifies how fast work is done. The scalar definition is <strong>P = W/t</strong>. For a body moving with velocity **v** under a force **F**, power can also be expressed as:</p>
+<p style="text-align:center;font-weight:bold;">P = F·v·cosθ</p>
+<p style="text-align:justify;">In a tank’s engine, the power rating (in kW) tells how quickly the engine can convert chemical energy to kinetic energy of the vehicle.</p>
+
+<h3 style="color:#f87171;">Momentum and Collisions</h3>
+<p style="text-align:justify;">Momentum **p = mv** is a vector quantity conserved in any closed system, regardless of the nature of internal forces. In a collision, the total momentum before equals the total momentum after:</p>
+<p style="text-align:center;font-weight:bold;">∑p<sub>initial</sub> = ∑p<sub>final</sub></p>
+<p style="text-align:justify;">A collision is called <strong>elastic</strong> if kinetic energy is also conserved; otherwise, it is <strong>inelastic</strong>. For perfectly inelastic collisions, the bodies stick together, and the final speed is given by:</p>
+<p style="text-align:center;font-weight:bold;">v = (m₁v₁ + m₂v₂)/(m₁ + m₂)</p>
+<p style="text-align:justify;">The <strong>coefficient of restitution (e)</strong> characterises the ‘bounciness’: e = 1 for a perfectly elastic impact, e = 0 for a perfectly inelastic one.</p>
+
+<h3 style="color:#f87171;">Practical Examples</h3>
+<ul style="margin-left:20px;">
+<li><strong>Projectile Launch:</strong> A 5 kg artillery shell fired at 300 m s⁻¹ carries KE = ½·5·300² = 2.25 × 10⁵ J.</li>
+<li><strong>Tank Track:</strong> If a tank climbs a 30° incline of 10 m height, the work done against gravity is mgh = 25 000·9.8·10 ≈ 2.45 MJ, which must be supplied by the engine within a given time to compute power.</li>
+<li><strong>Bullet‑target interaction:</strong> An almost elastic collision between a bullet and a steel plate (e ≈ 0.9) helps determine the rebound speed of the bullet.</li>
+</ul>
+
+<h3 style="color:#f87171;">Key Take‑aways</h3>
+<p style="text-align:justify;">- Always check whether forces are conservative before applying mechanical‑energy conservation.<br>
+- Write down momentum equations first in collision problems; then check KE conservation if the collision is elastic.<br>
+- Use the coefficient of restitution to relate speeds before and after impact.<br>
+- Power = Force × Velocity is handy for engine‑performance questions.</p>
+
+<h2>📚 Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#34d399;color:#fff;">
+<th style="border:1px solid #34d399;padding:5px;">Term</th>
+<th style="border:1px solid #34d399;padding:5px;">Definition</th>
+</tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Work</td><td style="border:1px solid #34d399;padding:5px;">Scalar product of force and displacement; W = F·s·cosθ (J).</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Kinetic Energy</td><td style="border:1px solid #34d399;padding:5px;">Energy of motion; KE = ½ mv².</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Potential Energy</td><td style="border:1px solid #34d399;padding:5px;">Stored energy due to position; gravitational PE = mgh, elastic PE = ½ kx².</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Power</td><td style="border:1px solid #34d399;padding:5px;">Rate of doing work; P = W/t = F·v.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Work‑Energy Theorem</td><td style="border:1px solid #34d399;padding:5px;">Net work done on a body equals the change in its kinetic energy.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Conservative Force</td><td style="border:1px solid #34d399;padding:5px;">Force for which the work around any closed path is zero; possesses a potential energy function.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Momentum</td><td style="border:1px solid #34d399;padding:5px;">Vector quantity mv; conserved in isolated systems.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Elastic Collision</td><td style="border:1px solid #34d399;padding:5px;">Collision where both momentum and kinetic energy are conserved.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Inelastic Collision</td><td style="border:1px solid #34d399;padding:5px;">Collision where momentum is conserved but kinetic energy is not.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Coefficient of Restitution (e)</td><td style="border:1px solid #34d399;padding:5px;">Ratio of relative speed after to before impact; 0 ≤ e ≤ 1.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Non‑conservative Work</td><td style="border:1px solid #34d399;padding:5px;">Work done by forces like friction; appears as loss of mechanical energy.</td></tr>
+</table>
+
+<h2>🔄 Concept Flow</h2>
+<pre style="background:#f0f4f8;padding:10px;border:1px solid #34d399;">
+Work → Energy (KE, PE) → Work‑Energy Theorem
+          ↓
+     Conservation of Mechanical Energy
+          ↓
+      Power (W/t) &amp; Force·Velocity
+          ↓
+    Momentum (p = mv) → Conservation in Collisions
+          ↓
+  Elastic vs Inelastic → Coefficient of Restitution
+</pre>
+
+<h2>📊 Comparison Tables</h2>
+
+<h3 style="color:#34d399;">Elastic vs Inelastic Collision</h3>
+<table style="width:100%;border-collapse:collapse;margin-bottom:10px;">
+<tr style="background:#34d399;color:#fff;">
+<th style="border:1px solid #34d399;padding:5px;">Aspect</th>
+<th style="border:1px solid #34d399;padding:5px;">Elastic</th>
+<th style="border:1px solid #34d399;padding:5px;">Inelastic</th>
+</tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">KE Conservation</td><td style="border:1px solid #34d399;padding:5px;">Yes</td><td style="border:1px solid #34d399;padding:5px;">No</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">e Value</td><td style="border:1px solid #34d399;padding:5px;">e = 1</td><td style="border:1px solid #34d399;padding:5px;">0 ≤ e &lt; 1</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Typical Example</td><td style="border:1px solid #34d399;padding:5px;">Billiard balls</td><td style="border:1px solid #34d399;padding:5px;">Car crash</td></tr>
+</table>
+
+<h3 style="color:#34d399;">Conservative vs Non‑Conservative Forces</h3>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#34d399;color:#fff;">
+<th style="border:1px solid #34d399;padding:5px;">Force</th>
+<th style="border:1px solid #34d399;padding:5px;">Work around Closed Path</th>
+<th style="border:1px solid #34d399;padding:5px;">Potential Energy</th>
+</tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Gravity</td><td style="border:1px solid #34d399;padding:5px;">Zero</td><td style="border:1px solid #34d399;padding:5px;">mgh</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Spring</td><td style="border:1px solid #34d399;padding:5px;">Zero</td><td style="border:1px solid #34d399;padding:5px;">½ kx²</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Friction</td><td style="border:1px solid #34d399;padding:5px;">Negative (energy loss)</td><td style="border:1px solid #34d399;padding:5px;">None</td></tr>
+</table>
+
+<h2>🧠 Memory Tricks & Mnemonics</h2>
+<ul>
+<li><strong>“W‑K‑P” Rule:</strong> Work → Kinetic → Power. Remember the marching chant “W‑K‑P, move the troops!” to recall the order of concepts.</li>
+<li><strong>“E = ½ mv²” = “Half‑Mighty V‑Squad”:</strong> Visualise a squad of soldiers (mass) moving at velocity V; half of them carry the energy.</li>
+<li><strong>“REST‑e” for Restitution:</strong> “R‑E‑S‑T‑E‑T‑I‑O‑N – Every Soldier Trains In Optimal N‑orms” – the word “REST” reminds you of bounce.</li>
+<li><strong>“F‑V‑P” = “Force‑Velocity‑Power”:</strong> In a tank, think of “F‑V‑P = Fast‑Vehicle‑Power” to link the formula P = F·v.</li>
+<li><strong>“M‑C‑E” (Momentum‑Conservation‑Elastic):</strong> “Mission‑Control‑Engineers” – if the mission control says “keep momentum”, you know it’s an elastic scenario.</li>
+<li><strong>“G‑R‑A‑V‑E” (Gravity‑Rises‑After‑Velocity‑Energy):</strong> The letters spell “GRAVE”; a falling object’s potential energy becomes kinetic – a grave transformation.</li>
+</ul>
+
+<h2>⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol>
+<li>Work is a scalar; it can be positive, negative or zero.</li>
+<li>1 J = 1 N·m = 1 kg·m²·s⁻².</li>
+<li>KE is always positive; zero only when the object is at rest.</li>
+<li>Mechanical energy is conserved only in the absence of non‑conservative forces.</li>
+<li>Power measured in kilowatts (kW) is commonly used for engine ratings.</li>
+<li>The coefficient of restitution is dimensionless.</li>
+<li>For a perfectly elastic head‑on collision of equal masses, velocities exchange.</li>
+<li>In a perfectly inelastic collision, bodies stick together and move with common velocity.</li>
+<li>Momentum is a vector; direction matters in 2‑D collisions.</li>
+<li>Friction does negative work, converting mechanical energy to heat.</li>
+<li>Gravitational potential energy near Earth’s surface is linear with height.</li>
+<li>Elastic potential energy is quadratic with spring compression/extension.</li>
+<li>Work done by a constant force at 90° to displacement is zero.</li>
+<li>Power can also be expressed as P = τ·ω for rotating systems.</li>
+<li>Energy of a 5 kg shell at 300 m s⁻¹ ≈ 2.25 × 10⁵ J.</li>
+<li>Coefficient of restitution for a steel‑rubber ball ≈ 0.85.</li>
+<li>Maximum kinetic energy transfer occurs when m₁ = m₂ in a collision.</li>
+<li>In missile launch, most chemical energy becomes kinetic and potential energy of the projectile.</li>
+<li>Work‑energy theorem is a shortcut to avoid solving differential equations.</li>
+<li>Power = Force × Velocity is especially useful for jet‑engine thrust calculations.</li>
+</ol>
+
+<h2>🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #34d399;padding:10px;background:#f0f4f8;">
+<p><strong>Work (W):</strong> W = F·s·cosθ [J]</p>
+<p><strong>Kinetic Energy (KE):</strong> KE = ½ mv² [J]</p>
+<p><strong>Gravitational PE (PE<sub>g</sub>):</strong> PE = mgh [J]</p>
+<p><strong>Elastic PE (PE<sub>e</sub>):</strong> PE = ½ kx² [J]</p>
+<p><strong>Power (P):</strong> P = W/t = F·v [W]</p>
+<p><strong>Work‑Energy Theorem:</strong> W<sub>net</sub> = ΔKE</p>
+<p><strong>Momentum (p):</strong> p = mv [kg·m s⁻¹]</p>
+<p><strong>Conservation of Momentum:</strong> Σp<sub>i</sub> = Σp<sub>f</sub></p>
+<p><strong>Coefficient of Restitution (e):</strong> e = (v₂′ – v₁′)/(v₁ – v₂)</p>
+<p><strong>Perfectly Inelastic Final Speed:</strong> v = (m₁v₁ + m₂v₂)/(m₁ + m₂)</p>
+</div>
+
+<h2>📝 PYQ Pattern Analysis</h2>
+<p>Past five years of CDS, AFCAT and NDA papers show a steady presence of energy‑based questions. Approximately 70% of the physics sections contain at least one problem on work‑energy or collisions. The most frequent sub‑topics are:</p>
+<ul>
+<li>Work‑energy theorem applied to inclined planes.</li>
+<li>Conservation of mechanical energy with frictional losses.</li>
+<li>Momentum conservation in 1‑D collisions, often with coefficient of restitution.</li>
+<li>Power calculations for engines or artillery.</li>
+</ul>
+<p>Recent trends indicate a shift toward multi‑step problems where candidates must first compute work, then convert it to kinetic energy, and finally evaluate power. Questions now frequently embed real‑world contexts – e.g., “A tank climbs a hill”, “A bullet hits a steel plate”. Common traps include ignoring the sign of work done by friction, mixing up KE and PE formulas, and treating e as a speed rather than a ratio.</p>
+
+<h2>🎓 Examination Perspective</h2>
+<p><strong>CDS:</strong> Emphasises conceptual clarity. Expect 2‑3 questions on energy conservation, often with friction. Collisions appear as a single‑step momentum problem.</p>
+<p><strong>AFCAT:</strong> Focuses on quick calculations. Look for “Find the power output of a jet engine” or “Calculate the speed after a perfectly elastic collision”. Time‑saving shortcuts are rewarded.</p>
+<p><strong>NDA:</strong> Mixes theory with application. Frequently asks for the derivation of the work‑energy theorem and then a numerical problem on a projectile’s kinetic energy at the apex.</p>
+
+<h2>⚠️ Common Mistakes</h2>
+<ul>
+<li>Using g = 10 m s⁻² everywhere – remember the exam may require 9.8 m s⁻² for higher precision.</li>
+<li>Ignoring the angle factor cosθ in work calculations; a force perpendicular to displacement does zero work.</li>
+<li>Assuming kinetic energy is conserved in any collision; only elastic collisions satisfy this.</li>
+<li>Mixing up the sign of the coefficient of restitution; e is always positive.</li>
+<li>Treating friction as a conservative force – it always dissipates mechanical energy.</li>
+<li>Forgetting that power is the *rate* of work; dividing energy by time, not distance.</li>
+<li>Using the wrong mass in momentum equations when objects stick together (use combined mass).</li>
+<li>Neglecting to convert units (e.g., cm to m) before using formulas.</li>
+</ul>
+
+<h2>🪖 Military Connection</h2>
+<ul>
+<li>Tank engines: Power = Force × Velocity determines how fast a tank can climb slopes.</li>
+<li>Artillery shells: KE = ½ mv² predicts penetration capability of armor‑piercing rounds.</li>
+<li>Aircraft carrier catapults: Work done on aircraft equals increase in kinetic energy for take‑off.</li>
+<li>Bullet‑target interactions: Coefficient of restitution helps estimate recoil and bullet bounce.</li>
+<li>Missile launch: Conservation of energy explains conversion of chemical propellant energy to kinetic energy of the missile.</li>
+</ul>
+
+<h2>🌐 Current Affairs Integration</h2>
+<ul>
+<li>DRDO’s “BrahMos” hypersonic cruise missile – its kinetic energy at Mach 7 exceeds 10⁸ J, illustrating the work‑energy principle.</li>
+<li>ISRO’s Gaganyaan mission – the launch vehicle’s thrust (power) is measured in megawatts, directly applying P = F·v.</li>
+<li>HAL’s Tejas fighter jet – uses after‑burner to increase power output, a classic power‑increase scenario.</li>
+<li>Recent DRDO tests on “smart” armor – rely on energy absorption (non‑conservative work) to reduce projectile KE.</li>
+</ul>
+
+<h2>📋 Revision Notes (1-Page)</h2>
+<ol>
+<li>Work = Force × Displacement × cosθ.</li>
+<li>Units: 1 J = 1 N·m.</li>
+<li>KE = ½ mv²; always positive.</li>
+<li>Gravitational PE = mgh (near Earth).</li>
+<li>Elastic PE = ½ kx².</li>
+<li>Power = Work/Time = Force·Velocity.</li>
+<li>Work‑Energy Theorem: Net work = ΔKE.</li>
+<li>Mechanical energy conserved only with conservative forces.</li>
+<li>Friction does negative work → energy loss.</li>
+<li>Momentum p = mv; vector quantity.</li>
+<li>Momentum conserved in all collisions.</li>
+<li>Elastic collision: both momentum & KE conserved.</li>
+<li>Inelastic collision: only momentum conserved.</li>
+<li>Perfectly inelastic → bodies stick together.</li>
+<li>Coefficient of restitution e = (relative speed after)/(relative speed before).</li>
+<li>e = 1 → perfectly elastic; e = 0 → perfectly inelastic.</li>
+<li>For equal masses in elastic head‑on collision, velocities swap.</li>
+<li>Power in engines = thrust × velocity.</li>
+<li>KE of 5 kg shell at 300 m s⁻¹ ≈ 2.25 × 10⁵ J.</li>
+<li>Work done by a force perpendicular to motion = 0.</li>
+<li>Use g = 9.8 m s⁻² unless otherwise specified.</li>
+<li>Convert all units to SI before calculation.</li>
+<li>Energy loss in a collision = initial KE – final KE.</li>
+<li>For a spring, F = –kx (Hooke’s law).</li>
+<li>Potential energy is defined up to a constant; choose zero wisely.</li>
+<li>Power (watts) = joules per second.</li>
+<li>Torque τ and angular speed ω: Power = τ·ω.</li>
+<li>Momentum change = impulse = Force × time.</li>
+<li>Impulse‑momentum theorem is the time version of work‑energy theorem.</li>
+<li>In a projectile, KE at highest point = ½ mvₓ².</li>
+<li>Energy of a missile = mass × (velocity)² /2.</li>
+<li>Conservation of energy aids in solving range problems.</li>
+<li>Non‑conservative work appears as heat or sound.</li>
+<li>For a car braking, work done by brakes = –(½ mv²).</li>
+<li>Power rating of a tank engine ≈ 500 kW.</li>
+<li>Energy stored in a compressed spring = ½ kx².</li>
+<li>Coefficient of restitution can be measured with a bounce test.</li>
+<li>Momentum is additive: Σp before = Σp after.</li>
+<li>Use vector components when dealing with 2‑D collisions.</li>
+<li>Mechanical energy = KE + PE; conserved if no friction.</li>
+<li>Work done by gravity = –ΔPE<sub>g</sub>.</li>
+<li>Energy conversion efficiency = (useful KE)/(total energy input).</li>
+</ol>
+
+<h2>🃏 Flashcards</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#34d399;color:#fff;">
+<th style="border:1px solid #34d399;padding:5px;">Question</th>
+<th style="border:1px solid #34d399;padding:5px;">Answer</th>
+</tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What is the SI unit of work?</td><td style="border:1px solid #34d399;padding:5px;">Joule (J)</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Define kinetic energy.</td><td style="border:1px solid #34d399;padding:5px;">KE = ½ mv²</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What does a coefficient of restitution e = 0.8 indicate?</td><td style="border:1px solid #34d399;padding:5px;">Partially elastic collision; 80% of relative speed is retained.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">State the work‑energy theorem.</td><td style="border:1px solid #34d399;padding:5px;">Net work = change in kinetic energy.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">When is mechanical energy conserved?</td><td style="border:1px solid #34d399;padding:5px;">When only conservative forces act.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Calculate the power if 500 J of work is done in 5 s.</td><td style="border:1px solid #34d399;padding:5px;">P = 100 W</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What is the momentum of a 10 kg object moving at 3 m s⁻¹?</td><td style="border:1px solid #34d399;padding:5px;">30 kg·m s⁻¹</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">A 2 kg block slides 4 m on a frictionless surface after a 5 N force is applied. Find its KE.</td><td style="border:1px solid #34d399;padding:5px;">Work = 5×4 = 20 J → KE = 20 J</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">If a spring with k = 200 N/m is compressed 0.1 m, what is its stored PE?</td><td style="border:1px solid #34d399;padding:5px;">PE = ½·200·0.01 = 1 J</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Explain why a bullet loses speed after hitting a steel plate.</td><td style="border:1px solid #34d399;padding:5px;">Energy is transferred to the plate (non‑elastic collision).</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What is the formula for power in rotational motion?</td><td style="border:1px solid #34d399;padding:5px;">P = τ·ω</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">A 1500 kg car brakes from 20 m s⁻¹ to rest in 5 s. Find the average braking power.</td><td style="border:1px solid #34d399;padding:5px;">ΔKE = –½·1500·20² = –300 kJ; P = 300 kJ/5 s = 60 kW</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">If two objects of masses 3 kg and 2 kg collide elastically head‑on, what are their velocities after collision if initial speeds are 4 m s⁻¹ and –3 m s⁻¹ respectively?</td><td style="border:1px solid #34d399;padding:5px;">v₁′ = –3 m s⁻¹, v₂′ = 4 m s⁻¹ (velocities swap)</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">Define non‑conservative work.</td><td style="border:1px solid #34d399;padding:5px;">Work done by forces like friction that dissipate mechanical energy.</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">A 500 kg tank climbs a 10 m high hill in 15 s. Find the average power required (ignore friction).</td><td style="border:1px solid #34d399;padding:5px;">Work = mgh = 500·9.8·10 = 49 kJ; P = 49 kJ/15 s ≈ 3.27 kW</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What is impulse?</td><td style="border:1px solid #34d399;padding:5px;">Impulse = Force × time = Δp</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">State the relationship between work and potential energy for gravity.</td><td style="border:1px solid #34d399;padding:5px;">Work done by gravity = –ΔPE<sub>g</sub></td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">A 0.5 kg ball is dropped from 20 m. Find its speed just before impact (ignore air resistance).</td><td style="border:1px solid #34d399;padding:5px;">v = √(2gh) = √(2·9.8·20) ≈ 19.8 m s⁻¹</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">If a force of 10 N acts at 60° to the displacement of 5 m, calculate work.</td><td style="border:1px solid #34d399;padding:5px;">W = 10·5·cos60° = 25 J</td></tr>
+<tr><td style="border:1px solid #34d399;padding:5px;">What is the energy stored in a 0.2 kg mass moving at 15 m s⁻¹?</
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>

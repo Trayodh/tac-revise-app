@@ -9001,6 +9001,61 @@ let CURRENT_AFFAIRS_DB = {
         "explanation": "Statement 1 is correct; NPCI is an initiative of RBI and IBA operating as a non-profit company under Section 8 of the Companies Act 2013. Statement 2 is incorrect; France was the first European Union member state to enable UPI payments (starting at the Eiffel Tower in early 2024). Statement 3 is correct; UPI is built over the IMPS infrastructure for real-time, round-the-clock settlement. Therefore, statements 1 and 3 are correct."
       }
     }
+,
+  "general-science": {
+    "title": "General Science (CDS/NDA/AFCAT)",
+    "chapters": [
+      {
+        "id": "gs-biology",
+        "title": "Biology — Human Body & Life Sciences",
+        "topics": [
+          { "id": "gs-cell-biology", "title": "Cell Biology — Structure, Organelles & Division" },
+          { "id": "gs-human-nutrition", "title": "Human Nutrition — Vitamins, Minerals & Deficiencies" },
+          { "id": "gs-digestive-system", "title": "Human Digestive System — Organs & Enzymes" },
+          { "id": "gs-circulatory-system", "title": "Human Circulatory System — Heart, Blood & Blood Groups" },
+          { "id": "gs-respiratory-system", "title": "Human Respiratory System — Lungs & High-Altitude Physiology" },
+          { "id": "gs-nervous-system", "title": "Human Nervous System — Brain, Spinal Cord & Reflex Action" },
+          { "id": "gs-endocrine-system", "title": "Human Endocrine System — Glands & Hormones" },
+          { "id": "gs-excretory-system", "title": "Human Excretory System — Kidneys & Nephron" },
+          { "id": "gs-musculoskeletal", "title": "Human Skeletal & Muscular System — Bones & Muscles" },
+          { "id": "gs-reproduction-heredity", "title": "Reproduction & Heredity — DNA, Genetics & Mendel Laws" },
+          { "id": "gs-diseases-immunity", "title": "Human Diseases, Immunity & Vaccines" },
+          { "id": "gs-plant-kingdom", "title": "Plant Kingdom — Classification, Photosynthesis & Hormones" },
+          { "id": "gs-animal-kingdom", "title": "Animal Kingdom — Classification & Characteristics" },
+          { "id": "gs-ecology-environment", "title": "Ecology & Environment — Food Chains, Biodiversity & Pollution" }
+        ]
+      },
+      {
+        "id": "gs-physics",
+        "title": "Physics — Laws & Applications",
+        "topics": [
+          { "id": "gs-units-measurement", "title": "Units, Dimensions & Measurement" },
+          { "id": "gs-laws-of-motion", "title": "Laws of Motion — Newton's Laws, Friction & Applications" },
+          { "id": "gs-work-energy-power", "title": "Work, Energy & Power — Conservation Laws & Collisions" },
+          { "id": "gs-gravitation", "title": "Gravitation — Kepler's Laws, Satellites & Escape Velocity" },
+          { "id": "gs-heat-thermodynamics", "title": "Heat & Thermodynamics — Laws & Heat Transfer" },
+          { "id": "gs-waves-sound", "title": "Waves & Sound — Properties, Doppler Effect & Applications" },
+          { "id": "gs-light-optics", "title": "Light & Optics — Reflection, Refraction & Optical Instruments" },
+          { "id": "gs-electricity-magnetism", "title": "Electricity & Magnetism — Circuits & Electromagnetic Induction" },
+          { "id": "gs-modern-physics", "title": "Modern Physics — Atomic Structure, Radioactivity & Nuclear Physics" }
+        ]
+      },
+      {
+        "id": "gs-chemistry",
+        "title": "Chemistry — Matter & Reactions",
+        "topics": [
+          { "id": "gs-matter-states", "title": "States of Matter & Gas Laws" },
+          { "id": "gs-atomic-structure-periodic", "title": "Atomic Structure & Periodic Table" },
+          { "id": "gs-chemical-bonding", "title": "Chemical Bonding — Ionic, Covalent & Metallic Bonds" },
+          { "id": "gs-chemical-reactions", "title": "Chemical Reactions — Types, Rates & Equilibrium" },
+          { "id": "gs-acids-bases-salts", "title": "Acids, Bases & Salts — pH & Neutralization" },
+          { "id": "gs-metals-nonmetals", "title": "Metals & Non-Metals — Properties, Reactivity & Uses" },
+          { "id": "gs-carbon-organic", "title": "Carbon & Organic Chemistry — Hydrocarbons & Polymers" },
+          { "id": "gs-everyday-chemistry", "title": "Everyday Chemistry — Food, Medicines, Fuels & Materials" }
+        ]
+      }
+    ]
+  }
   ]
 };
 

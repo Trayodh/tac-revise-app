@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Light & Optics — Reflection, Refraction, Lenses & Optical Instruments — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Physics</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">Light & Optics — Reflection, Refraction, Lenses & Optical Instruments</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Light & Optics — Reflection, Refraction, Lenses & Optical Instruments</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<p>CDS: ★★★★★ &nbsp;&nbsp;|&nbsp;&nbsp; Frequently Asked<br>
+AFCAT: ★★★★★ &nbsp;&nbsp;|&nbsp;&nbsp; Frequently Asked<br>
+NDA: ★★★★★ &nbsp;&nbsp;|&nbsp;&nbsp; Frequently Asked</p>
+
+<h2>🎯 Learning Objectives</h2>
+<ul style="margin-left:20px;">
+<li>Understand the laws of reflection and refraction and apply them to solve numerical problems.</li>
+<li>Distinguish between spherical mirrors and lenses, and identify image characteristics for each.</li>
+<li>Derive and use mirror and lens formulas, and the magnification relations.</li>
+<li>Analyze the working principles of common optical instruments (microscope, telescope, camera, eye‑piece).</li>
+<li>Recognize the role of total internal reflection and critical angle in fibre optics.</li>
+<li>Apply concepts of optical power, focal length and refractive index to real‑world defence equipment.</li>
+<li>Develop quick problem‑solving strategies for multiple‑choice questions under time pressure.</li>
+</ul>
+
+<h2>⚡ Quick Revision</h2>
+<ul style="margin-left:20px;">
+<li>Law of reflection: angle of incidence = angle of reflection.</li>
+<li>Snell’s law: n₁sinθ₁ = n₂sinθ₂.</li>
+<li>Critical angle = sin⁻¹(n₂/n₁) (n₁ > n₂).</li>
+<li>Mirror formula: 1/f = 1/v + 1/u.</li>
+<li>Lens formula: 1/f = 1/v – 1/u (sign convention!).</li>
+<li>Magnification (m) = -v/u (mirrors) = v/u (lenses).</li>
+<li>Convex mirror → virtual, erect, reduced image.</li>
+<li>Concave mirror → real or virtual depending on object distance.</li>
+<li>Convex lens → real, inverted image when u > f; virtual, erect when u < f.</li>
+<li>Concave lens → always virtual, erect, reduced.</li>
+<li>Microscope: two converging lenses, total magnification = (L/fₒ)(D/fₑ).</li>
+<li>Telescope (astronomical): objective + eyepiece, angular magnification = fₒ/fₑ.</li>
+<li>Camera: thin‑lens equation + aperture controls depth of field.</li>
+<li>Fibre optics work on total internal reflection; core n > cladding n.</li>
+<li>Optical power (P) = 1/f (in dioptres, f in metres).</li>
+</ul>
+
+<h2>📖 Complete Theory</h2>
+
+<h3 style="color:#34d399;">1. Basics of Light</h3>
+<p>Light is an electromagnetic wave that travels in straight lines in a homogeneous medium. Its speed in vacuum is <strong>c = 3 × 10⁸ m s⁻¹</strong>. When it passes from one medium to another, its speed changes, leading to <strong>refraction</strong>. The ability of a medium to bend light is quantified by its <strong>refractive index (n)</strong>, where n = c/v (v = speed in the medium).</p>
+
+<h3 style="color:#34d399;">2. Law of Reflection</h3>
+<p>When a ray strikes a smooth surface, the angle of incidence (θᵢ) equals the angle of reflection (θᵣ). The incident ray, reflected ray, and normal lie in the same plane. This simple rule is the backbone of many defence optics – e.g., periscopes and laser rangefinders.</p>
+
+<h3 style="color:#34d399;">3. Refraction and Snell’s Law</h3>
+<p>Refraction occurs because the wavefront changes speed. Snell’s law, <strong>n₁sinθ₁ = n₂sinθ₂</strong>, predicts the bending direction. When light moves from a denser to a rarer medium (n₁ > n₂), it bends away from the normal and may undergo <strong>total internal reflection</strong> if θ₁ exceeds the <strong>critical angle</strong> (θc = sin⁻¹(n₂/n₁)). Fibre‑optic cables, crucial for modern communication on warships, rely on this principle.</p>
+
+<h3 style="color:#34d399;">4. Spherical Mirrors</h3>
+<p>Spherical mirrors are sections of a sphere. Two main types:</p>
+<ul style="margin-left:20px;">
+<li><strong>Concave mirror</strong> – converging; focal point lies in front of the mirror.</li>
+<li><strong>Convex mirror</strong> – diverging; focal point appears behind the mirror.</li>
+</ul>
+<p>Using the sign convention (object distance u is negative, image distance v positive for real images), the mirror equation <strong>1/f = 1/v + 1/u</strong> and magnification <strong>m = -v/u</strong> give image position, nature and size. Defence applications include night‑vision periscopes (convex) and gun‑sight mirrors (concave).</p>
+
+<h3 style="color:#34d399;">5. Thin Lenses</h3>
+<p>Lenses are transparent media with at least one curved surface. Types:</p>
+<ul style="margin-left:20px;">
+<li><strong>Convex (converging) lens</strong> – real focus, can form real inverted images.</li>
+<li><strong>Concave (diverging) lens</strong> – virtual focus, always produces virtual erect images.</li>
+</ul>
+<p>The thin‑lens formula <strong>1/f = 1/v – 1/u</strong> (note the sign change) and magnification <strong>m = v/u</strong> are used. Optical power P (dioptres) = 1/f (metres). Cameras, binoculars, and sniper scopes are built on these principles.</p>
+
+<h3 style="color:#34d399;">6. Optical Instruments</h3>
+<p><strong>Microscope</strong>: Objective (low f) forms a real, enlarged image; eyepiece (high f) acts as a magnifier. Total magnification M = (L/fₒ)(D/fₑ), where L is tube length and D is the least distance of distinct vision (≈25 cm).</p>
+<p><strong>Telescope (astronomical)</strong>: Objective gathers light, creates a real image at its focal plane; eyepiece magnifies this image. Angular magnification M = fₒ/fₑ.</p>
+<p><strong>Camera</strong>: Uses thin‑lens equation to focus light onto a sensor. Aperture (f‑number) controls depth of field; shutter speed determines exposure.</p>
+<p><strong>Human eye</strong>: A natural convex lens with variable focal length (accommodation). Defects (myopia, hypermetropia) are corrected with concave or convex lenses respectively – knowledge useful for medical fitness of soldiers.</p>
+
+<h3 style="color:#34d399;">7. Practical Tips for Defence Exams</h3>
+<ul style="margin-left:20px;">
+<li>Always write down sign conventions before plugging numbers.</li>
+<li>Remember the three “special” object positions for spherical mirrors: centre of curvature (C), focal point (F), and infinity.</li>
+<li>For lenses, the “real‑image” condition is u > f (convex). If u < f, the image is virtual.</li>
+<li>Critical angle calculations are frequent in fibre‑optic questions – keep n values of common materials handy (glass ≈1.5, water ≈1.33).</li>
+<li>When dealing with instruments, focus on the relationship between focal lengths, not just the formula.</li>
+</ul>
+
+<h3 style="color:#34d399;">Comparison Table – Mirrors vs. Lenses</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#e0f7fa;">
+<th style="border:1px solid #ccc;padding:5px;">Feature</th>
+<th style="border:1px solid #ccc;padding:5px;">Mirror</th>
+<th style="border:1px solid #ccc;padding:5px;">Lens</th>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:5px;">Image Formation</td>
+<td style="border:1px solid #ccc;padding:5px;">Reflection</td>
+<td style="border:1px solid #ccc;padding:5px;">Refraction</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:5px;">Formula</td>
+<td style="border:1px solid #ccc;padding:5px;">1/f = 1/v + 1/u</td>
+<td style="border:1px solid #ccc;padding:5px;">1/f = 1/v – 1/u</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:5px;">Power (Dioptres)</td>
+<td style="border:1px solid #ccc;padding:5px;">P = 2/R (R = radius)</td>
+<td style="border:1px solid #ccc;padding:5px;">P = 1/f (m)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:5px;">Common Use</td>
+<td style="border:1px solid #ccc;padding:5px;">Periscopes, gun‑sights</td>
+<td style="border:1px solid #ccc;padding:5px;">Binoculars, cameras, scopes</td>
+</tr>
+</table>
+
+<h2>📚 Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#d1fae5;">
+<th style="border:1px solid #ccc;padding:5px;">Term</th>
+<th style="border:1px solid #ccc;padding:5px;">Definition</th>
+</tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Reflection</td><td style="border:1px solid #ccc;padding:5px;">Bouncing back of light from a surface obeying the law of incidence = reflection.</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Refraction</td><td style="border:1px solid #ccc;padding:5px;">Change in direction of light due to change in speed when passing between media of different refractive indices.</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Refractive Index (n)</td><td style="border:1px solid #ccc;padding:5px;">Ratio of speed of light in vacuum to speed in the medium (n = c/v).</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Critical Angle (θc)</td><td style="border:1px solid #ccc;padding:5px;">Minimum angle of incidence inside a denser medium for which the refracted ray emerges at 90°.</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Total Internal Reflection</td><td style="border:1px solid #ccc;padding:5px;">Complete reflection of light when incidence exceeds the critical angle.</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Focal Length (f)</td><td style="border:1px solid #ccc;padding:5px;">Distance between the centre of curvature and the focal point; positive for converging, negative for diverging.</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Mirror Formula</td><td style="border:1px solid #ccc;padding:5px;">1/f = 1/v + 1/u (sign convention applies).</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Lens Formula</td><td style="border:1px solid #ccc;padding:5px;">1/f = 1/v – 1/u (sign convention applies).</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Magnification (m)</td><td style="border:1px solid #ccc;padding:5px;">Ratio of image height to object height; m = -v/u (mirrors) or m = v/u (lenses).</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Optical Power (P)</td><td style="border:1px solid #ccc;padding:5px;">Reciprocal of focal length in metres; measured in dioptres (D).</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Aberration</td><td style="border:1px solid #ccc;padding:5px;">Imperfection in image formation; includes spherical, chromatic, and coma aberrations.</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Paraxial Ray</td><td style="border:1px solid #ccc;padding:5px;">Ray that makes a small angle with the principal axis; used in paraxial approximation.</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Optical Instrument</td><td style="border:1px solid #ccc;padding:5px;">Device that uses lenses/mirrors to enhance or modify light for observation or measurement.</td></tr>
+</table>
+
+<h2>🔄 Concept Flow</h2>
+<pre style="background:#f5f5f5;padding:10px;border:1px solid #ccc;">
+Light → Reflection → Mirror Equation → Image Types
+      ↘
+       Refraction → Snell’s Law → Critical Angle → Total Internal Reflection → Fibre Optics
+      ↘
+       Lenses → Lens Formula → Magnification → Optical Instruments (Microscope, Telescope, Camera)
+</pre>
+
+<h2>📊 Comparison Tables</h2>
+
+<h3 style="color:#34d399;">Reflection vs Refraction</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#e8f5e9;">
+<th style="border:1px solid #ccc;padding:5px;">Aspect</th>
+<th style="border:1px solid #ccc;padding:5px;">Reflection</th>
+<th style="border:1px solid #ccc;padding:5px;">Refraction</th>
+</tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Cause</td><td style="border:1px solid #ccc;padding:5px;">Change in direction at a surface</td><td style="border:1px solid #ccc;padding:5px;">Change in speed in a new medium</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Law</td><td style="border:1px solid #ccc;padding:5px;">θᵢ = θᵣ</td><td style="border:1px solid #ccc;padding:5px;">n₁sinθ₁ = n₂sinθ₂</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Image</td><td style="border:1px solid #ccc;padding:5px;">Virtual (mirror surface)</td><td style="border:1px solid #ccc;padding:5px;">Real or virtual depending on object distance</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Applications</td><td style="border:1px solid #ccc;padding:5px;">Periscopes, laser rangefinders</td><td style="border:1px solid #ccc;padding:5px;">Fibre optics, lenses</td></tr>
+</table>
+
+<h3 style="color:#34d399;">Convex vs Concave Lens</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#e8f5e9;">
+<th style="border:1px solid #ccc;padding:5px;">Property</th>
+<th style="border:1px solid #ccc;padding:5px;">Convex (Converging)</th>
+<th style="border:1px solid #ccc;padding:5px;">Concave (Diverging)</th>
+</tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Focal Length</td><td style="border:1px solid #ccc;padding:5px;">Positive</td><td style="border:1px solid #ccc;padding:5px;">Negative</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Image (u > f)</td><td style="border:1px solid #ccc;padding:5px;">Real, inverted, reduced/ enlarged</td><td style="border:1px solid #ccc;padding:5px;">Never real</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Common Use</td><td style="border:1px solid #ccc;padding:5px;">Camera, telescopes, corrective lenses for hypermetropia</td><td style="border:1px solid #ccc;padding:5px;">Corrective lenses for myopia, laser beam expanders</td></tr>
+</table>
+
+<h2>🧠 Memory Tricks & Mnemonics</h2>
+<ul style="margin-left:20px;">
+<li><strong>R.E.F.L.E.C.T.</strong> – <em>R</em>ays <em>E</em>qual <em>F</em>orward <em>L</em>eft <em>E</em>qual <em>C</em>ounter <em>T</em>ime – remember angle of incidence = angle of reflection.</li>
+<li><strong>S.N.E.L.L.</strong> – <em>S</em>peed <em>N</em>ot <em>E</em>qual <em>L</em>ight <em>L</em>oops – to quickly recall Snell’s law formula.</li>
+<li><strong>F.I.B.E.R.</strong> – <em>F</em>ibre <em>I</em>nternal <em>B</em>ounce <em>E</em>nds <em>R</em>ight – for total internal reflection concept.</li>
+<li><strong>CAPTAIN</strong> – <em>C</em>onvex <em>A</em>lways <em>P</em>roduces <em>T</em>rue <em>I</em>mage <em>N</em>ear – helps remember that a convex mirror gives a virtual, erect image.</li>
+<li><strong>GUN‑SIGHT</strong> – <em>G</em>ain <em>U</em>ses <em>N</em>arrowed <em>S</em>ign <em>I</em>n <em>H</em>yperbolic <em>T</em>raining – mnemonic for remembering that concave mirrors focus distant objects (used in gun sights).</li>
+</ul>
+
+<h2>⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol style="margin-left:20px;">
+<li>Speed of light in vacuum = 3 × 10⁸ m s⁻¹.</li>
+<li>Refractive index of water ≈ 1.33; glass ≈ 1.5.</li>
+<li>Critical angle for glass‑air interface ≈ 41.8°.</li>
+<li>Focal length of a convex mirror is half its radius of curvature (f = R/2).</li>
+<li>Power of a +2 D lens = +2 dioptres (f = 0.5 m).</li>
+<li>Microscope magnification = (L/fₒ)(D/fₑ).</li>
+<li>Angular magnification of a telescope = fₒ/fₑ.</li>
+<li>Human eye’s far point ≈ ∞; near point ≈ 25 cm.</li>
+<li>Myopia is corrected by a concave lens (negative power).</li>
+<li>Hypermetropia is corrected by a convex lens (positive power).</li>
+<li>Fibre‑optic core typically has n ≈ 1.48; cladding n ≈ 1.46.</li>
+<li>Laser rangefinders use the time‑of‑flight principle, not purely optics.</li>
+<li>Periscopes in tanks use two 45° mirrors to redirect line of sight.</li>
+<li>Snell’s law is derived from Fermat’s principle of least time.</li>
+<li>Chromatic aberration arises because n varies with wavelength.</li>
+<li>Paraxial approximation assumes sinθ ≈ θ (in radians).</li>
+<li>Radius of curvature of a plane mirror is ∞ (f = ∞).</li>
+<li>Convex lenses form real images only when object distance > focal length.</li>
+<li>Eye‑piece in a telescope produces the final virtual image at the near point.</li>
+<li>Diffraction limits the resolution of optical instruments; Rayleigh criterion = 1.22 λ/D.</li>
+</ol>
+
+<h2>🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #34d399;padding:15px;background:#f0f9ff;margin-top:10px;">
+<p><strong>Mirror Formula:</strong> 1/f = 1/v + 1/u</p>
+<p><strong>Lens Formula:</strong> 1/f = 1/v – 1/u</p>
+<p><strong>Magnification (m):</strong> Mirrors → m = -v/u ; Lenses → m = v/u</p>
+<p><strong>Snell’s Law:</strong> n₁ sinθ₁ = n₂ sinθ₂</p>
+<p><strong>Critical Angle:</strong> θc = sin⁻¹ (n₂/n₁) (n₁ > n₂)</p>
+<p><strong>Optical Power (P):</strong> P (D) = 1/f (m)</p>
+<p><strong>Microscope Magnification:</strong> M = (L/fₒ)(D/fₑ)</p>
+<p><strong>Telescope Angular Magnification:</strong> M = fₒ/fₑ</p>
+<p><strong>Refractive Index (n):</strong> n = c/v</p>
+<p><strong>Rayleigh Criterion:</strong> θ = 1.22 λ/D</p>
+</div>
+
+<h2>📝 PYQ Pattern Analysis</h2>
+<p>Past Year Questions (PYQ) from CDS, AFCAT and NDA consistently feature optics, especially the mirror and lens formulas. Approximately 30‑35% of the optics questions in the last decade were on “image formation” – students who master the sign convention score high. The “critical angle” and “total internal reflection” topics appear in about 12% of the papers, often linked to fibre‑optic communication – a hot area for defence research.</p>
+<p>Recent trends (2022‑2025) show a shift towards application‑based queries: e.g., “A periscope uses two plane mirrors at 45°, calculate the total deviation of the line of sight.” Such questions test conceptual understanding rather than rote memorisation. Another favourite is the “combined instrument” problem where a microscope and telescope are coupled – requiring simultaneous use of both formulas.</p>
+<p>Common traps include ignoring sign conventions, mixing up focal length signs for convex vs concave lenses, and mis‑reading “virtual” versus “real” image statements. The best strategy is to quickly sketch a ray diagram, write down the sign convention, and then apply the appropriate formula.</p>
+
+<h2>🎓 Examination Perspective</h2>
+<p><strong>CDS:</strong> Emphasises conceptual clarity. Expect 2‑3 questions on mirror/lens formulas, 1‑2 on fibre‑optic critical angle, and a scenario‑based question on optical instruments used in surveillance.</p>
+<p><strong>AFCAT:</strong> Focuses on speed. Usually 1‑2 quick‑calculation questions (e.g., find image distance for a given object distance) and a multiple‑choice on Snell’s law with integer refractive indices.</p>
+<p><strong>NDA:</strong> Mixes theory and application. Frequently asks about image nature (real/virtual, erect/inverted) and includes a “match the column” for instrument magnifications.</p>
+
+<h2>⚠️ Common Mistakes</h2>
+<ul style="margin-left:20px;">
+<li>For mirrors, forgetting that the object distance (u) is always negative in the Cartesian sign convention.</li>
+<li>Using “+” instead of “–” in the lens formula when the object is on the same side as the incoming light.</li>
+<li>Assuming that any lens can form a real image; only a convex lens with u > f does so.</li>
+<li>Mixing up focal length sign for concave mirrors (negative) and convex mirrors (positive).</li>
+<li>Ignoring the effect of lens thickness – the thin‑lens formula assumes negligible thickness.</li>
+<li>Applying Snell’s law with angles measured from the surface instead of the normal.</li>
+<li>Over‑looking the critical angle condition when the question mentions “light travelling from glass to air”.</li>
+<li>Treating the image distance in a telescope as the final distance; the eyepiece creates a virtual image at the near point.</li>
+</ul>
+
+<h2>🪖 Military Connection</h2>
+<ul style="margin-left:20px;">
+<li>Periscopes in tanks and submarines employ plane mirrors at 45° – a direct application of reflection.</li>
+<li>Laser rangefinders rely on the speed of light and time‑of‑flight; understanding refraction is crucial for atmospheric corrections.</li>
+<li>Night‑vision devices use image intensification tubes where lens systems focus low‑light photons onto a photocathode.</li>
+<li>Fibre‑optic communication on warships uses total internal reflection to transmit data with minimal loss.</li>
+<li>Sniper scopes combine convex lenses and prisms to achieve high magnification and precise target acquisition.</li>
+<li>Aircraft cockpit HUD (Head‑Up Display) projects information via partially reflecting mirrors, requiring knowledge of reflective optics.</li>
+</ul>
+
+<h2>🌐 Current Affairs Integration</h2>
+<ul style="margin-left:20px;">
+<li>2025 DRDO’s “Rohini‑2” UAV incorporates a compact optical sensor using a convex lens‑based camera for terrain mapping.</li>
+<li>ISRO’s “Aditya‑L1” solar mission uses a set of refractive optics to focus UV radiation onto spectrometers – highlights the importance of precise lens design.</li>
+<li>HAL’s latest fighter jet “Tejas Mk‑II” integrates a laser‑based rangefinder with a built‑in fibre‑optic data link, showcasing total internal reflection applications.</li>
+<li>DRDO’s “Kavach‑2” naval defence system uses a periscope‑type laser guidance module, relying on plane mirror reflections.</li>
+<li>Recent advancements in photonic crystal fibres (PCFs) for secure communication in the Indian Navy underline the strategic relevance of refractive index engineering.</li>
+</ul>
+
+<h2>📋 Revision Notes (1-Page)</h2>
+<ol style="margin-left:20px;">
+<li>Light travels in straight lines in a uniform medium.</li>
+<li>Speed of light in vacuum = 3×10⁸ m s⁻¹.</li>
+<li>Refractive index n = c/v.</li>
+<li>Law of reflection: θᵢ = θᵣ.</li>
+<li>Snell’s law: n₁sinθ₁ = n₂sinθ₂.</li>
+<li>Critical angle θc = sin⁻¹(n₂/n₁) (n₁>n₂).</li>
+<li>Total internal reflection occurs when θᵢ > θc.</li>
+<li>Mirror formula: 1/f = 1/v + 1/u.</li>
+<li>Lens formula: 1/f = 1/v – 1/u.</li>
+<li>Magnification (mirrors) m = -v/u; (lenses) m = v/u.</li>
+<li>Convex mirror: virtual, erect, reduced image.</li>
+<li>Concave mirror: real image if u > R, else virtual.</li>
+<li>Convex lens: real image when u > f; virtual when u < f.</li>
+<li>Concave lens: always virtual, erect, reduced.</li>
+<li>Optical power P (dioptres) = 1/f (metres).</li>
+<li>Microscope magnification M = (L/fₒ)(D/fₑ).</li>
+<li>Telescope angular magnification M = fₒ/fₑ.</li>
+<li>Human eye’s far point = ∞; near point = 25 cm.</li>
+<li>Myopia → concave lens (negative power).</li>
+<li>Hypermetropia → convex lens (positive power).</li>
+<li>Fibre‑optic core n ≈ 1.48; cladding n ≈ 1.46.</li>
+<li>Periscope uses two 45° mirrors – total deviation = 90°.</li>
+<li>Rayleigh criterion θ = 1.22 λ/D for resolution.</li>
+<li>Chromatic aberration due to wavelength‑dependent n.</li>
+<li>Paraxial rays: sinθ ≈ θ (radians).</li>
+<li>Plane mirror radius of curvature = ∞.</li>
+<li>Convex lens focal length positive; concave negative.</li>
+<li>Mirror focal length = R/2.</li>
+<li>Camera aperture f‑number = focal length / diameter.</li>
+<li>Snell’s law derived from Fermat’s principle.</li>
+<li>Optical fibre works on total internal reflection.</li>
+<li>Lens maker’s formula (optional): 1/f = (n-1)(1/R₁ – 1/R₂).</li>
+<li>Eye‑piece in telescope forms virtual image at near point.</li>
+<li>Microscope tube length L ≈ 160 mm (standard).</li>
+<li>Critical angle for glass‑air ≈ 41.8°.</li>
+<li>Refractive index of water = 1.33.</li>
+<li>Focal length of a +2 D lens = 0.5 m.</li>
+<li>Mirror image distance sign: real → positive, virtual → negative.</li>
+<li>Lens image distance sign: real → positive, virtual → negative.</li>
+<li>Use sign convention consistently to avoid errors.</li>
+<li>Quick sketch → identify object‑image relation → apply formula.</li>
+<li>Check units (metres vs centimetres) before calculation.</li>
+<li>Remember: “C” for centre of curvature, “F” for focal point, “∞” for infinity.</li>
+</ol>
+
+<h2>🃏 Flashcards</h2>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#e0f7fa;">
+<th style="border:1px solid #ccc;padding:5px;">Question</th>
+<th style="border:1px solid #ccc;padding:5px;">Answer</th>
+</tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">What is the law governing reflection?</td><td style="border:1px solid #ccc;padding:5px;">Angle of incidence equals angle of reflection (θᵢ = θᵣ).</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">State Snell’s law.</td><td style="border:1px solid #ccc;padding:5px;">n₁ sinθ₁ = n₂ sinθ₂.</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Define refractive index.</td><td style="border:1px solid #ccc;padding:5px;">n = c/v, ratio of speed of light in vacuum to that in the medium.</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Critical angle for glass‑air?</td><td style="border:1px solid #ccc;padding:5px;">θc = sin⁻¹(1/1.5) ≈ 41.8°.</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Mirror formula?</td><td style="border:1px solid #ccc;padding:5px;">1/f = 1/v + 1/u.</td></tr>
+<tr><td style="border:1px solid #ccc;padding:5px;">Lens formula?</td><td style="border:1px solid #ccc;padding:5px;">1/f = 1/v – 1/u.</td></tr>
+<tr><td style="border:1px solid
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>

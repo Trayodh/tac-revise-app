@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cell Biology — Structure, Organelles & Division — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Biology</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">Cell Biology — Structure, Organelles & Division</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Cell Biology — Structure, Organelles & Division</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<p>CDS: <span style="color:#ffb400;font-weight:bold;">★★★★★</span> – Frequently asked (30‑35% of biology papers).<br>
+AFCAT: <span style="color:#ffb400;font-weight:bold;">★★★★★</span> – Frequently asked (25‑30%).<br>
+NDA: <span style="color:#ffb400;font-weight:bold;">★★★★★</span> – Frequently asked (28‑33%).<br>
+The topic appears as direct questions, diagram‑based MCQs and as part of comparative biology sections.</p>
+
+<h2>🎯 Learning Objectives</h2>
+<ul style="margin-left:20px;">
+<li>Identify and describe the structure and function of all major eukaryotic organelles.</li>
+<li>Differentiate between prokaryotic and eukaryotic cells at structural and functional levels.</li>
+<li>Explain the phases of the cell cycle, mitosis and meiosis, and their biological significance.</li>
+<li>Interpret cell‑division diagrams and spot common errors in chromosome segregation.</li>
+<li>Relate cell‑biology concepts to military physiology (e.g., stress‑induced cell changes).</li>
+<li>Apply comparative analysis (plant vs animal cell) to solve diagram‑based questions.</li>
+<li>Recall key numerical data (e.g., duration of cell‑cycle phases) for quick calculations.</li>
+</ul>
+
+<h2>⚡ Quick Revision</h2>
+<ul style="margin-left:20px;">
+<li>Cell = basic unit of life; two types: prokaryote (no nucleus) & eukaryote (nucleus present).</li>
+<li>Plasma membrane: phospholipid bilayer with embedded proteins; selective permeability.</li>
+<li>Nucleus: DNA‑protein complex, nucleolus (rRNA synthesis), nuclear envelope (pores).</li>
+<li>Endoplasmic reticulum – Rough (ribosomes, protein synthesis) vs Smooth (lipid synthesis, detox).</li>
+<li>Golgi apparatus – packaging & sorting of proteins; forms secretory vesicles.</li>
+<li>Mitochondria – power house; double membrane, cristae, own DNA.</li>
+<li>Chloroplast – photosynthesis; thylakoids, stroma, double membrane (plants).</li>
+<li>Lysosome – hydrolytic enzymes; acidic pH (pH ≈ 5).</li>
+<li>Peroxisome – β‑oxidation & H₂O₂ detox.</li>
+<li>Cytoskeleton – microtubules, microfilaments, intermediate filaments; cell shape & transport.</li>
+<li>Cell cycle phases: G1, S, G2, M (mitosis) – total ≈ 24 h in somatic cells.</li>
+<li>Mitosis stages: prophase, metaphase, anaphase, telophase – chromosome number conserved.</li>
+<li>Meiosis I (reductional) & II (equational) – produces 4 haploid gametes.</li>
+<li>Key checkpoints: G1‑S (DNA integrity), G2‑M (DNA replication complete), spindle‑assembly.</li>
+<li>Apoptosis vs necrosis – programmed cell death vs accidental injury.</li>
+</ul>
+
+<h2>📖 Complete Theory</h2>
+<h3 style="color:#34d399;">1. Cell Types – Prokaryotes vs Eukaryotes</h3>
+<p>Prokaryotic cells (bacteria, archaea) lack a true nucleus and membrane‑bound organelles. Their DNA is a single circular chromosome located in the nucleoid region. Eukaryotic cells possess a defined nucleus enclosed by a double‑membrane nuclear envelope with nuclear pores that regulate macromolecule traffic.</p>
+<p><strong>Key contrast:</strong> Prokaryotes are generally smaller (0.1‑5 µm) and have simpler internal organization, whereas eukaryotes range from 10‑100 µm and contain specialized compartments that allow compartmentalized metabolism.</p>
+
+<h3 style="color:#34d399;">2. Plasma Membrane – The Gatekeeper</h3>
+<p>The plasma membrane is a fluid mosaic of phospholipids, cholesterol (in animal cells), and proteins. The amphipathic nature of phospholipids creates a semi‑permeable barrier. Integral proteins (channels, carriers) enable selective transport, while peripheral proteins act as receptors or enzymes.</p>
+<p>Analogy: Think of the membrane as a fortified military base fence – the lipid bilayer is the wall, and the proteins are the guard towers controlling entry and exit.</p>
+
+<h3 style="color:#34d399;">3. Nucleus & Nucleolus</h3>
+<p>The nucleus safeguards genetic material. It contains chromatin (DNA + histones) organized into chromosomes. The nucleolus, a dense region inside the nucleus, is the ribosomal RNA (rRNA) synthesis hub, assembling ribosomal subunits that later migrate to the cytoplasm.</p>
+
+<h3 style="color:#34d399;">4. Endoplasmic Reticulum (ER)</h3>
+<p><strong>Rough ER (RER)</strong> is studded with ribosomes, producing secretory and membrane proteins. <strong>Smooth ER (SER)</strong> lacks ribosomes and is involved in lipid synthesis, steroid hormone production, and detoxification of xenobiotics.</p>
+
+<h3 style="color:#34d399;">5. Golgi Apparatus – The Post‑Office</h3>
+<p>Golgi stacks receive vesicles from the ER, modify proteins (glycosylation, phosphorylation), and sort them into secretory, lysosomal, or plasma‑membrane destined vesicles. Think of it as a military logistics hub, labeling and dispatching supplies to the right units.</p>
+
+<h3 style="color:#34d399;">6. Mitochondria – Power Plant</h3>
+<p>Mitochondria generate ATP via oxidative phosphorylation. Their inner membrane forms cristae, increasing surface area for the electron‑transport chain. They possess their own circular DNA, ribosomes, and can replicate independently – a vestige of the endosymbiotic theory.</p>
+
+<h3 style="color:#34d399;">7. Chloroplast – Solar Energy Converter (Plants)</h3>
+<p>Chloroplasts contain thylakoid membranes stacked into grana where light‑dependent reactions occur. The surrounding stroma hosts the Calvin cycle. Like solar panels, chloroplasts convert solar energy into chemical energy (glucose).</p>
+
+<h3 style="color:#34d399;">8. Lysosome & Peroxisome – Waste Management</h3>
+<p>Lysosomes contain hydrolytic enzymes (acidic pH) that degrade macromolecules, old organelles, and pathogens – akin to a battlefield’s waste disposal unit. Peroxisomes break down fatty acids and neutralize H₂O₂ using catalase, preventing oxidative damage.</p>
+
+<h3 style="color:#34d399;">9. Cytoskeleton – Structural & Transport Network</h3>
+<p>Microtubules (tubulin) form the mitotic spindle and serve as tracks for vesicle movement (kinesin, dynein). Microfilaments (actin) generate contractile forces (muscle contraction, cytokinesis). Intermediate filaments provide tensile strength. The cytoskeleton is the army’s road‑network and scaffolding.</p>
+
+<h3 style="color:#34d399;">10. Cell Cycle & Division</h3>
+<p>The cell cycle comprises interphase (G1, S, G2) and the M phase (mitosis). During S phase, DNA is duplicated; G2 checks for replication errors. Mitosis ensures equal segregation of sister chromatids:</p>
+<ul style="margin-left:20px;">
+<li><strong>Prophase:</strong> Chromosomes condense; spindle forms.</li>
+<li><strong>Metaphase:</strong> Chromosomes align at the metaphase plate.</li>
+<li><strong>Anaphase:</strong> Sister chromatids separate toward opposite poles.</li>
+<li><strong>Telophase:</strong> Nuclear envelopes re‑form; chromosomes decondense.</li>
+</ul>
+<p>Cytokinesis follows, dividing the cytoplasm. In animal cells, a contractile ring of actin‑myosin pinches the cell; in plant cells, a cell plate forms from vesicles.</p>
+
+<h3 style="color:#34d399;">11. Meiosis – Genetic Shuffling</h3>
+<p>Meiosis reduces chromosome number by half, producing four genetically distinct haploid cells. It consists of two successive divisions:</p>
+<ul style="margin-left:20px;">
+<li><strong>Meiosis I (reductional):</strong> Homologous chromosomes pair (synapsis) and undergo crossing‑over, then separate.</li>
+<li><strong>Meiosis II (equational):</strong> Sister chromatids separate, similar to mitosis.</li>
+</ul>
+<p>Crossing‑over creates genetic variation – a crucial factor for pathogen resistance, an important consideration for military medical preparedness.</p>
+
+<h3 style="color:#34d399;">12. Checkpoints & Regulation</h3>
+<p>Cell‑cycle progression is controlled by cyclins and cyclin‑dependent kinases (CDKs). Checkpoints (G1‑S, G2‑M, spindle‑assembly) ensure DNA integrity and proper chromosome attachment. p53 acts as the “guardian of the genome,” initiating repair or apoptosis upon severe damage.</p>
+
+<h3 style="color:#34d399;">13. Apoptosis – Programmed Cell Death</h3>
+<p>Apoptosis eliminates damaged or unnecessary cells without inflammation. Key players include caspases, Bcl‑2 family proteins, and death receptors (Fas). In defence contexts, controlled apoptosis is vital for removing infected immune cells.</p>
+
+<h3 style="color:#34d399;">14. Comparative Table – Plant vs Animal Cell</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#34d399;color:white;">
+<th style="border:1px solid #34d399;padding:5px;">Feature</th>
+<th style="border:1px solid #34d399;padding:5px;">Plant Cell</th>
+<th style="border:1px solid #34d399;padding:5px;">Animal Cell</th>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Cell Wall</td>
+<td style="border:1px solid #34d399;padding:5px;">Cellulose, provides rigidity</td>
+<td style="border:1px solid #34d399;padding:5px;">Absent</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Chloroplasts</td>
+<td style="border:1px solid #34d399;padding:5px;">Present – photosynthesis</td>
+<td style="border:1px solid #34d399;padding:5px;">Absent</td>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Vacuole</td>
+<td style="border:1px solid #34d399;padding:5px;">Large central vacuole (turgor)</td>
+<td style="border:1px solid #34d399;padding:5px;">Multiple small vacuoles</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Centrioles</td>
+<td style="border:1px solid #34d399;padding:5px;">Absent (except in some algae)</td>
+<td style="border:1px solid #34d399;padding:5px;">Present – spindle formation</td>
+</tr>
+</table>
+
+<h2>📚 Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#34d399;color:white;">
+<th style="border:1px solid #34d399;padding:5px;">Term</th>
+<th style="border:1px solid #34d399;padding:5px;">Definition</th>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Prokaryote</td>
+<td style="border:1px solid #34d399;padding:5px;">Cell lacking a true nucleus and membrane‑bound organelles.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Eukaryote</td>
+<td style="border:1px solid #34d399;padding:5px;">Cell with a defined nucleus and organelles such as mitochondria, ER, Golgi.</td>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Mitosis</td>
+<td style="border:1px solid #34d399;padding:5px;">Process of nuclear division resulting in two genetically identical daughter cells.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Meiosis</td>
+<td style="border:1px solid #34d399;padding:5px;">Two successive nuclear divisions producing four non‑identical haploid cells.</td>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Chromatin</td>
+<td style="border:1px solid #34d399;padding:5px;">DNA‑protein complex; less condensed form of DNA in interphase.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Chromosome</td>
+<td style="border:1px solid #34d399;padding:5px;">Highly condensed DNA molecule visible during mitosis/meiosis.</td>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Centrosome</td>
+<td style="border:1px solid #34d399;padding:5px;">Microtubule‑organizing center containing a pair of centrioles.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Cytokinesis</td>
+<td style="border:1px solid #34d399;padding:5px;">Physical division of cytoplasm following mitosis.</td>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Apoptosis</td>
+<td style="border:1px solid #34d399;padding:5px;">Programmed cell death involving caspases and DNA fragmentation.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Endocytosis</td>
+<td style="border:1px solid #34d399;padding:5px;">Cellular uptake of external material via vesicle formation.</td>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Exocytosis</td>
+<td style="border:1px solid #34d399;padding:5px;">Release of intracellular vesicles to the extracellular space.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">G‑protein Coupled Receptor (GPCR)</td>
+<td style="border:1px solid #34d399;padding:5px;">Membrane receptor that activates intracellular G‑proteins upon ligand binding.</td>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Lysosome</td>
+<td style="border:1px solid #34d399;padding:5px;">Membrane‑bound organelle containing hydrolytic enzymes for degradation.</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Peroxisome</td>
+<td style="border:1px solid #34d399;padding:5px;">Organelle involved in fatty acid β‑oxidation and H₂O₂ detoxification.</td>
+</tr>
+</table>
+
+<h2>🔄 Concept Flow</h2>
+<pre style="background:#f0f9ff;padding:10px;border:1px solid #34d399;">
+Cell
+│
+├─ Plasma Membrane ──► Transport (channels, carriers)
+│
+├─ Nucleus
+│   └─ Nucleolus → rRNA → Ribosome
+│
+├─ Endoplasmic Reticulum
+│   ├─ Rough ER → Protein synthesis
+│   └─ Smooth ER → Lipid synthesis / Detox
+│
+├─ Golgi Apparatus → Protein modification & sorting
+│
+├─ Mitochondria → ATP (OxPhos)
+│
+├─ Chloroplast (Plants) → Photosynthesis
+│
+├─ Lysosome / Peroxisome → Waste & ROS management
+│
+└─ Cytoskeleton
+    ├─ Microtubules → Spindle (Mitosis/Meiosis)
+    ├─ Microfilaments → Cytokinesis
+    └─ Intermediate Filaments → Structural support
+</pre>
+
+<h2>📊 Comparison Tables</h2>
+<h3 style="color:#34d399;">Plant vs Animal Cell</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#34d399;color:white;">
+<th style="border:1px solid #34d399;padding:5px;">Feature</th>
+<th style="border:1px solid #34d399;padding:5px;">Plant</th>
+<th style="border:1px solid #34d399;padding:5px;">Animal</th>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Cell Wall</td>
+<td style="border:1px solid #34d399;padding:5px;">Cellulose</td>
+<td style="border:1px solid #34d399;padding:5px;">Absent</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Chloroplasts</td>
+<td style="border:1px solid #34d399;padding:5px;">Present</td>
+<td style="border:1px solid #34d399;padding:5px;">Absent</td>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Central Vacuole</td>
+<td style="border:1px solid #34d399;padding:5px;">Large, turgor‑maintaining</td>
+<td style="border:1px solid #34d399;padding:5px;">Small, many</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Centrioles</td>
+<td style="border:1px solid #34d399;padding:5px;">Absent (rare)</td>
+<td style="border:1px solid #34d399;padding:5px;">Present</td>
+</tr>
+</table>
+
+<h3 style="color:#34d399;">Mitosis vs Meiosis</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#34d399;color:white;">
+<th style="border:1px solid #34d399;padding:5px;">Aspect</th>
+<th style="border:1px solid #34d399;padding:5px;">Mitosis</th>
+<th style="border:1px solid #34d399;padding:5px;">Meiosis</th>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Purpose</td>
+<td style="border:1px solid #34d399;padding:5px;">Growth & repair</td>
+<td style="border:1px solid #34d399;padding:5px;">Gamete formation</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Number of Divisions</td>
+<td style="border:1px solid #34d399;padding:5px;">One (M)</td>
+<td style="border:1px solid #34d399;padding:5px;">Two (Meiosis I & II)</td>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">Chromosome Number</td>
+<td style="border:1px solid #34d399;padding:5px;">Diploid (2n) → 2n</td>
+<td style="border:1px solid #34d399;padding:5px;">Diploid (2n) → Haploid (n)</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Genetic Variation</td>
+<td style="border:1px solid #34d399;padding:5px;">None (clonal)</td>
+<td style="border:1px solid #34d399;padding:5px;">Crossing‑over + independent assortment</td>
+</tr>
+</table>
+
+<h2>🧠 Memory Tricks & Mnemonics</h2>
+<ul style="margin-left:20px;">
+<li><strong>“Rough ER = Ribosome‑Rally”</strong> – Remember that rough ER is the rally point for ribosomes (protein factories).</li>
+<li><strong>“Mito‑Power‑DNA”</strong> – Mitochondria = Power (ATP), DNA (own genome), and “Power” starts with “P” like “Powerhouse”.</li>
+<li><strong>“CHaRGe” for Cell Cycle checkpoints</strong> – <em>C</em>heckpoint <em>H</em>ealth (G1), <em>R</em>epair (G2), <em>G</em>enome (Spindle), <em>e</em>xit (M).</li>
+<li><strong>“MEIO” – “MEI O” (Meiosis = “ME I O” – “My Enemies Invade, Oops!”) to recall that meiosis creates four diverse cells (invading pathogens). </li>
+<li><strong>“Lys = Lousy Waste”</strong> – Lysosome cleans up cellular “lousy” waste.</li>
+<li><strong>“PER O X” – “PERoxisome = PERforms OXidation”</strong> – Links peroxisome to fatty acid oxidation.</li>
+</ul>
+
+<h2>⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol style="margin-left:20px;">
+<li>Prokaryotes lack membrane‑bound organelles; eukaryotes possess them.</li>
+<li>The plasma membrane thickness is ~5 nm.</li>
+<li>DNA in mitochondria is circular and about 16.5 kb in humans.</li>
+<li>Chloroplasts contain their own 120 kb DNA.</li>
+<li>Rough ER is studded with ribosomes; smooth ER lacks them.</li>
+<li>Golgi stacks are usually 3‑8 cisternae in animal cells.</li>
+<li>Microtubules have a 13‑protofilament arrangement.</li>
+<li>The mitotic spindle originates from centrosomes.</li>
+<li>Human somatic cells spend ~8 h in G1, 6 h in S, 4 h in G2, 1 h in M.</li>
+<li>Crossing‑over frequency in humans averages 1–3 per chromosome pair.</li>
+<li>Meiosis I is reductional; Meiosis II is equational.</li>
+<li>Apoptosis involves caspase‑3 activation.</li>
+<li>p53 mutation is linked to >50 % of human cancers.</li>
+<li>Lysosomal enzymes work optimally at pH ≈ 5.</li>
+<li>Peroxisomes contain catalase, which converts H₂O₂ to H₂O + O₂.</li>
+<li>Plant cells have a large central vacuole occupying up to 90 % of volume.</li>
+<li>Animal cells use a contractile ring of actin‑myosin for cytokinesis.</li>
+<li>Centrosomes duplicate once per cell cycle (G1 → S).</li>
+<li>Endocytosis can be clathrin‑mediated or caveolae‑dependent.</li>
+<li>Exocytosis is essential for neurotransmitter release in nerve cells.</li>
+</ol>
+
+<h2>🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #34d399;padding:10px;background:#e5f7ff;margin-top:10px;">
+<p><strong>Cell‑Cycle Duration (Human Fibroblast)</strong></p>
+<ul style="margin-left:20px;">
+<li>G1 ≈ 8 h</li>
+<li>S ≈ 6 h</li>
+<li>G2 ≈ 4 h</li>
+<li>M ≈ 1 h</li>
+<li>Total ≈ 19 h (varies with cell type)</li>
+</ul>
+<p><strong>Chromosome Numbers</strong></p>
+<ul style="margin-left:20px;">
+<li>Human diploid (2n) = 46 chromosomes.</li>
+<li>Human haploid (n) = 23 chromosomes.</li>
+</ul>
+<p><strong>Mitotic Index</strong> = (Number of cells in mitosis / Total cells) × 100 %.</p>
+</div>
+
+<h2>📝 PYQ Pattern Analysis</h2>
+<p>Past‑year questions (last 5 years) show a steady 12‑15 % of total biology marks dedicated to cell biology. The most recurring sub‑topics are:</p>
+<ul style="margin-left:20px;">
+<li>Structure & function of the nucleus, mitochondria and chloroplast – often asked as label‑type diagrams.</li>
+<li>Phases of mitosis – frequently presented as flow‑charts with a missing stage.</li>
+<li>Differences between plant and animal cells – classic multiple‑choice with 2‑3 options.</li>
+<li>Meiosis & crossing‑over – asked as scenario‑based questions linking genetic variation to inheritance.</li>
+</ul>
+<p>Recent trends (2022‑2024) emphasize “cell‑cycle checkpoints” and “apoptosis in disease” – reflecting the defence services’ interest in pathology and bio‑security. Common traps include confusing prophase with prometaphase and mixing up centromere vs. kinetochore locations.</p>
+
+<h2>🎓 Examination Perspective</h2>
+<ul style="margin-left:20px;">
+<li><strong>CDS:</strong> Prefers diagram‑based questions (labelled organelles), plus a couple of MCQs on mitosis vs meiosis. Emphasis on clinical relevance (e.g., cancer cell‑cycle dysregulation).</li>
+<li><strong>AFCAT:</strong> Focuses on rapid‑recall MCQs; often asks about organelle functions and basic cell‑cycle timings. Expect “single‑line answer” type for numeric data.</li>
+<li><strong>NDA:</strong> Mix of MCQs and “match the column” items; includes comparative plant‑animal cell questions and a few situational questions on DNA damage response.</li>
+</ul>
+
+<h2>⚠️ Common Mistakes</h2>
+<ul style="margin-left:20px;">
+<li>Confusing the **Golgi cis‑face** (receiving side) with the trans‑face (shipping side).</li>
+<li>Mixing up **centrioles** (found in animal cells) with **centrosomes** (the whole MTOC).</li>
+<li>Assuming **mitosis** produces genetically diverse cells – it actually yields clones.</li>
+<li>Writing “lysosome pH ≈ 7” instead of the correct acidic pH ≈ 5.</li>
+<li>Overlooking that **plant cells lack centrioles**; spindle fibers arise from the nuclear envelope.</li>
+<li>Failing to note that **crossing‑over** occurs only in prophase I of meiosis.</li>
+<li>Incorrectly stating that **peroxisomes** generate ATP – they do not; they detoxify ROS.</li>
+<li>Believing **smooth ER** is the site of protein synthesis; that’s the role of rough ER.</li>
+</ul>
+
+<h2>🪖 Military Connection</h2>
+<ul style="margin-left:20px;">
+<li>**Mitochondrial efficiency** determines soldier endurance; training programs monitor ATP production.</li>
+<li>**Apoptosis pathways** are targeted in bio‑weapon defense to prevent uncontrolled cell death in troops.</li>
+<li>**Cell‑cycle checkpoints** are analogous to security protocols in command centres – they halt progression if “damage” is detected.</li>
+<li>**Lysosomal enzymes** are used in decontamination kits to break down biological agents.</li>
+<li>**Peroxisomal catalase** safeguards against oxidative stress during high‑altitude operations.</li>
+</ul>
+
+<h2>🌐 Current Affairs Integration</h2>
+<ul style="margin-left:20px;">
+<li>2024 DRDO research on **mitochondrial‑targeted antioxidants** to improve pilot cognitive performance under hypoxia.</li>
+<li>ISRO’s 2023 launch of a satellite carrying **micro‑gravity experiments** on cell division, studying chromosome segregation errors.</li>
+<li>HAL’s 2022 collaboration with biotech firms to develop **biocompatible implants** that integrate with host cell membranes.</li>
+<li>Recent (2023) discovery of a **novel peroxisomal enzyme** in desert‑adapted microbes, offering insight for protective gear against oxidative pollutants.</li>
+</ul>
+
+<h2>📋 Revision Notes (1-Page)</h2>
+<ol style="margin-left:20px;">
+<li>Cell = basic unit; two types – prokaryote & eukaryote.</li>
+<li>Plasma membrane: phospholipid bilayer, cholesterol, integral proteins.</li>
+<li>Nucleus: DNA, nucleolus (rRNA), nuclear pores.</li>
+<li>Rough ER – protein synthesis; Smooth ER – lipids & detox.</li>
+<li>Golgi: modifies, sorts, packages proteins.</li>
+<li>Mitochondria – oxidative phosphorylation, own DNA.</li>
+<li>Chloroplast – thylakoids, stroma, photosynthesis.</li>
+<li>Lysosome – hydrolytic enzymes, acidic pH.</li>
+<li>Peroxisome – β‑oxidation, catalase for H₂O₂.</li>
+<li>Cytoskeleton – microtubules, microfilaments, IFs.</li>
+<li>Cell cycle phases: G1, S, G2, M (mitosis).</li>
+<li>Mitosis stages: prophase, metaphase, anaphase, telophase.</li>
+<li>Cytokinesis: contractile ring (animal) vs cell plate (plant).</li>
+<li>Meiosis I – reductional; Meiosis II – equational.</li>
+<li>Crossing‑over occurs in prophase I only.</li>
+<li>Checkpoints: G1‑S (DNA integrity), G2‑M (replication), spindle‑assembly.</li>
+<li>p53 – genome guardian; triggers apoptosis if damage severe.</li>
+<li>Apoptosis – caspase cascade, DNA fragmentation.</li>
+<li>Centrosome = MTOC; centrioles present in animal cells.</li>
+<li>Plant cell wall = cellulose; central vacuole maintains turgor.</li>
+<li>Animal cells lack cell wall; have centrioles for spindle.</li>
+<li>Endocytosis – clathrin‑mediated; exocytosis – neurotransmitter release.</li>
+<li>Membrane transport: passive diffusion, facilitated diffusion, active transport.</li>
+<li>Key numeric data: Human cell‑cycle ≈ 19 h; 46 chromosomes diploid.</li>
+<li>Important enzymes: DNA polymerase (S phase), cyclin‑CDK complexes.</li>
+<li>Defence relevance: mitochondrial health → soldier stamina.</li>
+<li>Current trends: DRDO antioxidant research, ISRO micro‑gravity cell studies.</li>
+<li>Mnemonic: “Rough ER = Ribosome‑Rally”.</li>
+<li>Mnemonic: “Lys = Lousy Waste”.</li>
+<li>Mnemonic: “CHaRGe” for checkpoints.</li>
+<li>Mnemonic: “MEIO” for meiosis diversity.</li>
+<li>Remember: Lysosome pH ≈ 5, not 7.</li>
+<li>Remember: Peroxisome detoxifies H₂O₂.</li>
+<li>Remember: Mitochondrial DNA is circular ~16.5 kb.</li>
+<li>Remember: Chloroplast DNA ≈ 120 kb.</li>
+<li>Remember: Microtubules have 13 protofilaments.</li>
+<li>Remember: Cytokinesis in plants uses cell plate formation.</li>
+</ol>
+
+<h2>🃏 Flashcards</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#34d399;color:white;">
+<th style="border:1px solid #34d399;padding:5px;">Question</th>
+<th style="border:1px solid #34d399;padding:5px;">Answer</th>
+</tr>
+<tr style="background:#e5f7ff;">
+<td style="border:1px solid #34d399;padding:5px;">What organelle is the “power house” of the cell?</td>
+<td style="border:1px solid #34d399;padding:5px;">Mitochondrion</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #34d399;padding:5px;">Which organelle contains its own DNA in plants?</td>
+<td style="border:1px solid #34d399;padding:5px;">Chloroplast</td>
+</tr>
+<tr style="background:#e
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>

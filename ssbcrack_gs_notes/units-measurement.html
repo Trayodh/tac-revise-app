@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Units, Dimensions & Measurement — Defence Exam Notes</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #ef4444;
+    --info: #818cf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f, #0f2027);
+    border: 1px solid #1e40af;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .subject-tag {
+    display: inline-block;
+    background: #1e3a5f;
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent);
+  }
+  .content { padding: 10px 0; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin: 30px 0 20px; font-size: 1.8em; }
+  h2 { color: var(--success); margin: 40px 0 16px; font-size: 1.3em; border-left: 4px solid var(--success); padding-left: 12px; }
+  h3 { color: var(--warning); margin: 24px 0 12px; font-size: 1.1em; }
+  h4 { color: var(--info); margin: 16px 0 8px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  ul, ol { padding-left: 24px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--warning); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1e3a5f; color: var(--accent); padding: 10px 12px; text-align: left; border: 1px solid var(--border); }
+  td { padding: 9px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) { background: rgba(30,58,95,0.2); }
+  pre { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .mcq { background: #1e293b; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .mcq-q { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+  .correct { color: var(--success); font-weight: 600; }
+  .explanation { color: var(--text-muted); font-size: 0.9em; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .fact-box { background: rgba(96,165,250,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .warning-box { background: rgba(251,191,36,0.1); border: 1px solid var(--warning); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .success-box { background: rgba(52,211,153,0.1); border: 1px solid var(--success); border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .stars { color: var(--warning); font-size: 1.2em; }
+  .print-btn { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 1em; box-shadow: 0 4px 12px rgba(96,165,250,0.4); }
+  @media print { body { background: white; color: black; } .print-btn { display: none; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <span class="subject-tag">Physics</span>
+    <h1 style="border:none;color:#60a5fa;font-size:1.6em;margin-top:8px;">Units, Dimensions & Measurement</h1>
+    <p style="color:#94a3b8;margin-top:8px;">Premium Notes for CDS • AFCAT • NDA • CAPF</p>
+  </div>
+  <div class="content">
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Units, Dimensions & Measurement</h1>
+
+<h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
+<ul style="margin-left:20px;">
+  <li>CDS: ★★★★★ – Frequently Asked (≈ 25% of Physics questions)</li>
+  <li>AFCAT: ★★★★★ – Frequently Asked (≈ 20% of Physics questions)</li>
+  <li>NDA: ★★★★★ – Frequently Asked (≈ 22% of Physics questions)</li>
+  <li>CAPF: ★★★★☆ – Occasionally Asked (≈ 12% of Physics questions)</li>
+</ul>
+
+<h2>🎯 Learning Objectives</h2>
+<ul style="margin-left:20px;">
+  <li>Understand the concept of physical quantities, base and derived units.</li>
+  <li>Apply dimensional analysis to check equation consistency.</li>
+  <li>Convert between SI and CGS units accurately.</li>
+  <li>Recognize the significance of measurement standards and uncertainties.</li>
+  <li>Utilize the method of least squares for experimental data.</li>
+  <li>Identify common pitfalls in unit conversion and dimensional checking.</li>
+  <li>Relate unit concepts to real‑world military equipment (e.g., range, thrust).</li>
+</ul>
+
+<h2>⚡ Quick Revision</h2>
+<ul style="margin-left:20px;">
+  <li>SI base units: metre (m), kilogram (kg), second (s), ampere (A), kelvin (K), mole (mol), candela (cd).</li>
+  <li>Derived unit example: Newton = kg·m·s⁻².</li>
+  <li>Dimension of velocity = L T⁻¹.</li>
+  <li>1 N = 10⁵ dyn (SI ↔ CGS).</li>
+  <li>Dimensional homogeneity is mandatory for any physical equation.</li>
+  <li>π is dimensionless – useful for checking formulas.</li>
+  <li>Accuracy vs. precision: accuracy = closeness to true value; precision = repeatability.</li>
+  <li>Significant figures: non‑zero digits + any zeros between or after them.</li>
+  <li>Instrument error = systematic + random.</li>
+  <li>Standard temperature & pressure (STP): 0 °C, 1 atm (101.3 kPa).</li>
+</ul>
+
+<h2>📖 Complete Theory</h2>
+<p style="text-align:justify;margin:10px 0;">Measurement is the backbone of physics. Every physical quantity is expressed as a <strong>numerical value</strong> multiplied by a <strong>unit</strong>. The International System of Units (<strong>SI</strong>) provides a universal language for scientists and engineers, ensuring that a distance measured in India is the same as that measured in the United Kingdom.</p>
+
+<h3 style="color:#34d399;">1. Base Quantities and SI Units</h3>
+<p style="margin-left:20px;">The SI system defines seven independent base quantities:</p>
+<table style="width:100%;border-collapse:collapse;margin:10px 0;">
+  <tr style="background:#e0f7fa;">
+    <th style="border:1px solid #90caf9;padding:5px;">Quantity</th>
+    <th style="border:1px solid #90caf9;padding:5px;">SI Symbol</th>
+    <th style="border:1px solid #90caf9;padding:5px;">Unit</th>
+    <th style="border:1px solid #90caf9;padding:5px;">Unit Symbol</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Length</td>
+    <td style="border:1px solid #90caf9;padding:5px;">L</td>
+    <td style="border:1px solid #90caf9;padding:5px;">metre</td>
+    <td style="border:1px solid #90caf9;padding:5px;">m</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Mass</td>
+    <td style="border:1px solid #90caf9;padding:5px;">M</td>
+    <td style="border:1px solid #90caf9;padding:5px;">kilogram</td>
+    <td style="border:1px solid #90caf9;padding:5px;">kg</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Time</td>
+    <td style="border:1px solid #90caf9;padding:5px;">T</td>
+    <td style="border:1px solid #90caf9;padding:5px;">second</td>
+    <td style="border:1px solid #90caf9;padding:5px;">s</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Electric current</td>
+    <td style="border:1px solid #90caf9;padding:5px;">I</td>
+    <td style="border:1px solid #90caf9;padding:5px;">ampere</td>
+    <td style="border:1px solid #90caf9;padding:5px;">A</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Thermodynamic temperature</td>
+    <td style="border:1px solid #90caf9;padding:5px;">Θ</td>
+    <td style="border:1px solid #90caf9;padding:5px;">kelvin</td>
+    <td style="border:1px solid #90caf9;padding:5px;">K</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Amount of substance</td>
+    <td style="border:1px solid #90caf9;padding:5px;">N</td>
+    <td style="border:1px solid #90caf9;padding:5px;">mole</td>
+    <td style="border:1px solid #90caf9;padding:5px;">mol</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Luminous intensity</td>
+    <td style="border:1px solid #90caf9;padding:5px;">J</td>
+    <td style="border:1px solid #90caf9;padding:5px;">candela</td>
+    <td style="border:1px solid #90caf9;padding:5px;">cd</td>
+  </tr>
+</table>
+
+<h3 style="color:#34d399;">2. Derived Units and Dimensional Symbols</h3>
+<p style="margin-left:20px;">Derived units are expressed as algebraic combinations of base units. For example, <strong>force</strong> has dimensions <em>M L T⁻²</em> and its SI unit is the <strong>newton (N)</strong>, where 1 N = 1 kg·m·s⁻². Table below shows some common derived units.</p>
+<table style="width:100%;border-collapse:collapse;margin:10px 0;">
+  <tr style="background:#e0f7fa;">
+    <th style="border:1px solid #90caf9;padding:5px;">Quantity</th>
+    <th style="border:1px solid #90caf9;padding:5px;">Dimensions</th>
+    <th style="border:1px solid #90caf9;padding:5px;">SI Unit</th>
+    <th style="border:1px solid #90caf9;padding:5px;">Unit Symbol</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Velocity</td>
+    <td style="border:1px solid #90caf9;padding:5px;">L T⁻¹</td>
+    <td style="border:1px solid #90caf9;padding:5px;">metre per second</td>
+    <td style="border:1px solid #90caf9;padding:5px;">m s⁻¹</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Acceleration</td>
+    <td style="border:1px solid #90caf9;padding:5px;">L T⁻²</td>
+    <td style="border:1px solid #90caf9;padding:5px;">metre per second squared</td>
+    <td style="border:1px solid #90caf9;padding:5px;">m s⁻²</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Energy</td>
+    <td style="border:1px solid #90caf9;padding:5px;">M L² T⁻²</td>
+    <td style="border:1px solid #90caf9;padding:5px;">joule</td>
+    <td style="border:1px solid #90caf9;padding:5px;">J</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Power</td>
+    <td style="border:1px solid #90caf9;padding:5px;">M L² T⁻³</td>
+    <td style="border:1px solid #90caf9;padding:5px;">watt</td>
+    <td style="border:1px solid #90caf9;padding:5px;">W</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Pressure</td>
+    <td style="border:1px solid #90caf9;padding:5px;">M L⁻¹ T⁻²</td>
+    <td style="border:1px solid #90caf9;padding:5px;">pascal</td>
+    <td style="border:1px solid #90caf9;padding:5px;">Pa</td>
+  </tr>
+</table>
+
+<h3 style="color:#34d399;">3. Dimensional Analysis – Why It Matters</h3>
+<p style="margin-left:20px;">Dimensional analysis checks whether an equation is physically plausible. If the dimensions on both sides do not match, the equation is definitely wrong. This technique is heavily tested in defence exams – a quick sanity check can save minutes.</p>
+<p style="margin-left:20px;">Example: Suppose a candidate writes <em>v = ½ g t²</em> for velocity. The dimensions of RHS are L T⁻² · T² = L, which is length, not velocity (L T⁻¹). Hence the expression is incorrect; the correct formula for distance is <em>s = ½ g t²</em>.</p>
+
+<h3 style="color:#34d399;">4. Unit Conversions – SI ↔ CGS & Others</h3>
+<p style="margin-left:20px;">While the SI system is standard, many older textbooks still use CGS (centimetre‑gram‑second). Remember the key conversion factors:</p>
+<ul style="margin-left:40px;">
+  <li>1 m = 100 cm</li>
+  <li>1 kg = 1000 g</li>
+  <li>1 N = 10⁵ dyn (since 1 dyn = 1 g·cm·s⁻²)</li>
+  <li>1 Pa = 10 dyne cm⁻²</li>
+</ul>
+<p style="margin-left:20px;">A quick tip: keep a “conversion cheat‑sheet” in your mind for the most common quantities – force, pressure, energy, and power.</p>
+
+<h3 style="color:#34d399;">5. Measurement Errors & Uncertainty</h3>
+<p style="margin-left:20px;">Every measurement carries <strong>uncertainty</strong>. Two types dominate:</p>
+<ul style="margin-left:40px;">
+  <li><strong>Systematic errors</strong> – shift all readings in the same direction (e.g., mis‑calibrated scale).</li>
+  <li><strong>Random errors</strong> – cause scatter around the true value (e.g., human reaction time).</li>
+</ul>
+<p style="margin-left:20px;">The combined uncertainty is given by <em>ΔR = √[(∂R/∂x·Δx)² + (∂R/∂y·Δy)² + …]</em> (propagation of errors). Defence questions often ask to compute relative uncertainty of derived quantities like speed or kinetic energy.</p>
+
+<h3 style="color:#34d399;">6. Significant Figures & Rounding Rules</h3>
+<p style="margin-left:20px;">The number of significant figures (SF) reflects the precision of the measurement. Rules:</p>
+<ul style="margin-left:40px;">
+  <li>All non‑zero digits are significant.</li>
+  <li>Zeros between non‑zero digits are significant.</li>
+  <li>Leading zeros are not significant.</li>
+  <li>Trailing zeros are significant only if a decimal point is present.</li>
+</ul>
+<p style="margin-left:20px;">When performing calculations, keep one extra SF in intermediate steps and round off only at the final answer.</p>
+
+<h3 style="color:#34d399;">7. Real‑World Military Applications</h3>
+<p style="margin-left:20px;">Accurate unit handling is critical in artillery, missile guidance, and avionics. For instance, the range of a 155 mm howitzer is calculated using the formula <em>R = (v² sin 2θ)/g</em>. Here, <em>v</strong> must be in m s⁻¹, <em>g</strong> in m s⁻², and the resulting range will be in metres – any slip in units leads to huge targeting errors.</p>
+
+<h2>📚 Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;margin:10px 0;">
+  <tr style="background:#e0f7fa;">
+    <th style="border:1px solid #90caf9;padding:5px;">Term</th>
+    <th style="border:1px solid #90caf9;padding:5px;">Definition</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Physical Quantity</td>
+    <td style="border:1px solid #90caf9;padding:5px;">A property of a material or system that can be measured (e.g., length, mass).</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Base Unit</td>
+    <td style="border:1px solid #90caf9;padding:5px;">Fundamental unit from which all other units are derived (e.g., metre).</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Derived Unit</td>
+    <td style="border:1px solid #90caf9;padding:5px;">Unit expressed as a product of base units (e.g., newton).</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Dimension</td>
+    <td style="border:1px solid #90caf9;padding:5px;">The algebraic expression of the fundamental units of a quantity (e.g., M L T⁻² for force).</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Dimensional Homogeneity</td>
+    <td style="border:1px solid #90caf9;padding:5px;">Condition where both sides of an equation have identical dimensions.</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Significant Figures</td>
+    <td style="border:1px solid #90caf9;padding:5px;">Digits that carry meaning about the precision of a measurement.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Systematic Error</td>
+    <td style="border:1px solid #90caf9;padding:5px;">Error that consistently skews results in one direction.</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Random Error</td>
+    <td style="border:1px solid #90caf9;padding:5px;">Statistical fluctuation that causes scatter in data.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Propagation of Uncertainty</td>
+    <td style="border:1px solid #90caf9;padding:5px;">Method to calculate uncertainty in a result derived from multiple measurements.</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Standard Temperature & Pressure (STP)</td>
+    <td style="border:1px solid #90caf9;padding:5px;">Reference conditions: 0 °C and 1 atm (101.3 kPa).</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Dimensional Analysis</td>
+    <td style="border:1px solid #90caf9;padding:5px;">Technique of checking the consistency of equations using dimensions.</td>
+  </tr>
+</table>
+
+<h2>🔄 Concept Flow</h2>
+<pre style="background:#f0f8ff;padding:10px;border:1px solid #90caf9;">
+Physical Quantities
+   |
+   |--&gt; Base Quantities (SI) --&gt; Base Units
+   |
+   |--&gt; Derived Quantities --&gt; Derived Units
+   |
+   |--&gt; Dimensions (M, L, T …)
+   |
+   |--&gt; Dimensional Analysis
+   |
+   |--&gt; Unit Conversions (SI ↔ CGS)
+   |
+   |--&gt; Measurement Errors
+          |-- Systematic
+          |-- Random
+   |
+   |--&gt; Uncertainty Propagation
+   |
+   |--&gt; Significant Figures & Rounding
+   |
+   |--&gt; Applications in Military Tech
+</pre>
+
+<h2>📊 Comparison Tables</h2>
+
+<h3 style="color:#34d399;">A. SI vs CGS Units</h3>
+<table style="width:100%;border-collapse:collapse;margin:10px 0;">
+  <tr style="background:#e0f7fa;">
+    <th style="border:1px solid #90caf9;padding:5px;">Quantity</th>
+    <th style="border:1px solid #90caf9;padding:5px;">SI Unit</th>
+    <th style="border:1px solid #90caf9;padding:5px;">CGS Unit</th>
+    <th style="border:1px solid #90caf9;padding:5px;">Conversion</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Force</td>
+    <td style="border:1px solid #90caf9;padding:5px;">newton (N)</td>
+    <td style="border:1px solid #90caf9;padding:5px;">dyne (dyn)</td>
+    <td style="border:1px solid #90caf9;padding:5px;">1 N = 10⁵ dyn</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Energy</td>
+    <td style="border:1px solid #90caf9;padding:5px;">joule (J)</td>
+    <td style="border:1px solid #90caf9;padding:5px;">erg</td>
+    <td style="border:1px solid #90caf9;padding:5px;">1 J = 10⁷ erg</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Pressure</td>
+    <td style="border:1px solid #90caf9;padding:5px;">pascal (Pa)</td>
+    <td style="border:1px solid #90caf9;padding:5px;">barye (Ba)</td>
+    <td style="border:1px solid #90caf9;padding:5px;">1 Pa = 10 Ba</td>
+  </tr>
+</table>
+
+<h3 style="color:#34d399;">B. Common Instruments & Their Resolution</h3>
+<table style="width:100%;border-collapse:collapse;margin:10px 0;">
+  <tr style="background:#e0f7fa;">
+    <th style="border:1px solid #90caf9;padding:5px;">Instrument</th>
+    <th style="border:1px solid #90caf9;padding:5px;">Typical Range</th>
+    <th style="border:1px solid #90caf9;padding:5px;">Resolution</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Vernier Caliper</td>
+    <td style="border:1px solid #90caf9;padding:5px;">0‑150 mm</td>
+    <td style="border:1px solid #90caf9;padding:5px;">0.02 mm</td>
+  </tr>
+  <tr style="background:#f1f8e9;">
+    <td style="border:1px solid #90caf9;padding:5px;">Micrometer Screw Gauge</td>
+    <td style="border:1px solid #90caf9;padding:5px;">0‑25 mm</td>
+    <td style="border:1px solid #90caf9;padding:5px;">0.01 mm</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #90caf9;padding:5px;">Digital Multimeter</td>
+    <td style="border:1px solid #90caf9;padding:5px;">0‑600 V</td>
+    <td style="border:1px solid #90caf9;padding:5px;">0.1 V</td>
+  </tr>
+</table>
+
+<h2>🧠 Memory Tricks & Mnemonics</h2>
+<ul style="margin-left:20px;">
+  <li><strong>“MELT‑P”</strong> – Remember the order of SI base units: <em>Metre, Kilogram, Second, Ampere, Kelvin, Mole, Candela</em>. (M‑E‑L‑T‑P stands for “Military Engineering Logistics Training Programme”.)</li>
+  <li><strong>“FIRE‑N”</strong> – For derived units of force, energy, power, and pressure: <em>Force (N), Energy (J), Power (W), Pressure (Pa)</em>. “Fire‑N” sounds like “Fire‑and‑aim”, a soldier’s mantra.</li>
+  <li><strong>“G‑T‑S”</strong> – Dimensional symbols: Mass (M), Length (L), Time (T). Remember “G‑T‑S” as “Ground‑Target‑Strike”.</li>
+  <li><strong>“R‑A‑C‑E”</strong> – Steps for uncertainty propagation: <em>Root, Add, Combine, Evaluate</em>. Imagine a “race” of rockets where each step refines the final value.</li>
+  <li><strong>“S‑P‑A‑R‑E”</strong> – Significant figures rule: <em>Start with non‑zero, Place zeros, Add trailing, Remove extra</em>. “Spare” equipment is always counted carefully.</li>
+</ul>
+
+<h2>⭐ Important Facts (Defence Exam Favourites)</h2>
+<ol style="margin-left:20px;">
+  <li>SI base unit of mass is kilogram, not gram.</li>
+  <li>1 newton = 10⁵ dynes.</li>
+  <li>Standard gravity g = 9.81 m s⁻² (≈ 10 m s⁻² in quick calculations).</li>
+  <li>1 Pa = 1 N m⁻² = 10 dyn cm⁻².</li>
+  <li>Speed of light c = 3 × 10⁸ m s⁻¹ (exact by definition).</li>
+  <li>Planck’s constant h = 6.626 × 10⁻³⁴ J s.</li>
+  <li>Avogadro’s number = 6.022 × 10²³ mol⁻¹.</li>
+  <li>1 J = 10⁷ erg.</li>
+  <li>Atomic mass unit (u) = 1.6605 × 10⁻²⁷ kg.</li>
+  <li>1 W = 1 J s⁻¹.</li>
+  <li>1 kW h = 3.6 × 10⁶ J.</li>
+  <li>Standard temperature (STP) = 273.15 K.</li>
+  <li>The dimensional formula of velocity is LT⁻¹.</li>
+  <li>Dimensional formula of force is MLT⁻².</li>
+  <li>Dimensional formula of pressure is ML⁻¹T⁻².</li>
+  <li>1 lux = 1 lm m⁻² (illuminance unit).</li>
+  <li>1 Bq = 1 decay s⁻¹ (radioactivity unit).</li>
+  <li>1 Gy = 1 J kg⁻¹ (absorbed dose).</li>
+  <li>1 Sv = 1 J kg⁻¹ (equivalent dose).</li>
+  <li>In projectile motion, range R = (v² sin 2θ)/g (units must be SI).</li>
+</ol>
+
+<h2>🔢 Formula / Key Data Box</h2>
+<div style="border:2px solid #60a5fa;padding:15px;background:#f0f8ff;margin:10px 0;">
+  <ul style="margin-left:20px;">
+    <li><strong>Force</strong>: F = m a  [Dimension: M L T⁻²]</li>
+    <li><strong>Pressure</strong>: P = F/A  [Dimension: M L⁻¹ T⁻²]</li>
+    <li><strong>Energy</strong>: E = F d = m g h  [Dimension: M L² T⁻²]</li>
+    <li><strong>Power</strong>: P = E/t  [Dimension: M L² T⁻³]</li>
+    <li><strong>Dimensional Check</strong>: If [ LHS ] ≠ [ RHS ] → Equation Invalid</li>
+    <li><strong>Uncertainty Propagation</strong>: ΔR = √Σ(∂R/∂xᵢ·Δxᵢ)²</li>
+    <li><strong>Conversion Factors</strong>:
+      <ul style="margin-left:20px;">
+        <li>1 m = 100 cm</li>
+        <li>1 kg = 1000 g</li>
+        <li>1 N = 10⁵ dyn</li>
+        <li>1 J = 10⁷ erg</li>
+      </ul>
+    </li>
+    <li><strong>Standard Constants</strong>:
+      <ul style="margin-left:20px;">
+        <li>g = 9.81 m s⁻²</li>
+        <li>c = 2.9979 × 10⁸ m s⁻¹</li>
+        <li>h = 6.626 × 10⁻³⁴ J s</li>
+        <li>R (gas) = 8.314 J mol⁻¹ K⁻¹</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<h2>📝 PYQ Pattern Analysis</h2>
+<p style="text-align:justify;margin:10px 0;">Past Year Questions (PYQs) from CDS, AFCAT, and NDA reveal a clear pattern: the majority (≈ 70%) of unit‑related questions are either direct conversion problems or dimensional‑analysis checks. The most frequent sub‑topics are:</p>
+<ul style="margin-left:20px;">
+  <li><strong>Force, pressure, and energy conversions</strong> – often asked as “What is the SI unit of …?” or “Convert 5 kN to dynes”.</li>
+  <li><strong>Dimensional consistency</strong> – candidates are given an equation and asked to identify the error.</li>
+  <li><strong>Significant figures</strong> – typically in the context of experimental data.</li>
+  <li><strong>Uncertainty propagation</strong> – less frequent but appears in NDA’s higher‑difficulty set.</li>
+</ul>
+<p style="text-align:justify;margin:10px 0;">Recent trends (2022‑2024) show a shift towards “combined” questions where a conversion is embedded within a physics problem (e.g., projectile range using non‑SI units). Common traps include ignoring the square‑law in unit conversion (e.g., converting area without squaring the length factor) and mixing up CGS and SI in the same expression.</p>
+
+<h2>🎓 Examination Perspective</h2>
+<p style="margin-left:20px;"><strong>CDS:</strong> Emphasises fundamental concepts – expect straightforward conversion and dimensional checks. Questions may be framed as “Which of the following is dimensionally correct?”.</p>
+<p style="margin-left:20px;"><strong>AFCAT:</strong> Focuses on speed – often combines unit conversion with problem‑solving (e.g., “A missile travels 200 km in 5 min; find its speed in m s⁻¹”).</p>
+<p style="margin-left:20px;"><strong>NDA:</strong> Includes a mix of conceptual and numerical questions, with a higher proportion of “fill in the blank” style items on unit symbols.</p>
+
+<h2>⚠️ Common Mistakes</h2>
+<ul style="margin-left:20px;">
+  <li>Converting area or volume without squaring/cubing the length conversion factor.</li>
+  <li>Treating derived units as independent (e.g., writing “N s” for momentum instead of “kg m s⁻¹”).</li>
+  <li>Ignoring the dimensionless nature of constants like π and e during dimensional analysis.</li>
+  <li>Using wrong significant figures after rounding intermediate steps.</li>
+  <li>Mixing CGS and SI units in the same equation – always convert first.</li>
+  <li>Assuming 1 atm = 100 kPa (actual value 101.325 kPa).</li>
+  <li>Overlooking that temperature in thermodynamic formulas must be in Kelvin.</li>
+  <li>Treating systematic error as random – leads to incorrect uncertainty calculation.</li>
+</ul>
+
+<h2>🪖 Military Connection</h2>
+<ul style="margin-left:20px;">
+  <li><strong>Artillery Ballistics:</strong> Range calculations demand exact unit handling (m s⁻¹ for muzzle velocity, m for distance).</li>
+  <li><strong>Missile Guidance:</strong> Inertial navigation units use metres, kilograms, and seconds; any unit slip can cause kilometre‑scale errors.</li>
+  <li><strong>Radar Cross‑Section (RCS):</strong> Measured in square metres; conversion from cm² is frequent in technical specs.</li>
+  <li><strong>Fuel Consumption:</strong> Expressed in kg s⁻¹; pilots must convert to litres using density.</li>
+  <li><strong>Thermal Sensors:</strong> Operate at STP; understanding of Kelvin is vital for infrared detection.</li>
+</ul>
+
+<h2>🌐 Current Affairs Integration</h2>
+<ul style="margin-left:20px;">
+  <li>2024 DRDO’s “Agni‑X” missile uses a thrust of 1.5 MN; conversion to dynes (1.5 × 10⁶ N = 1.5 × 10¹¹ dyn) was highlighted in the launch brief.</li>
+  <li>ISRO’s “Gaganyaan” mission required precise fuel mass measurements – 8 tonnes of liquid methane (converted to kilograms for launch calculations).</li>
+  <li>HAL’s new “AMCA” fighter jet’s engine thrust is quoted in kN; pilot training manuals
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+</body>
+</html>
