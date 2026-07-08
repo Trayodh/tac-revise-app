@@ -1,10 +1,10 @@
 require('dotenv').config();
 const fs = require('fs');
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY;
 
-if (!GEMINI_API_KEY) {
-  console.error("Missing GEMINI_API_KEY in .env");
+if (!CEREBRAS_API_KEY) {
+  console.error("Missing CEREBRAS_API_KEY in .env");
   process.exit(1);
 }
 
@@ -22,39 +22,55 @@ loadScript('data.js');
 const NOTES_DATABASE = window.NOTES_DATABASE;
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-async function generateWithGemini(promptText) {
-  const model = 'gemini-2.5-flash';
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
+async function generateWithGroq(promptText) {
+  const url = 'https://api.cerebras.ai/v1/chat/completions';
   
   let retries = 5;
   while (retries > 0) {
     try {
       const res = await fetch(url, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${CEREBRAS_API_KEY}`
+        },
         body: JSON.stringify({
-          contents: [{ parts: [{ text: promptText }] }]
+          model: 'gpt-oss-120b',
+          messages: [
+            { role: 'system', content: `You are a world-class expert tutor and author of Indian Defence Exam preparation books (NDA, CDS, AFCAT). Your notes are famous for being:
+1. DEEPLY DETAILED - Every concept explained from first principles with multiple real examples.
+2. EXAM-FOCUSED - You always cite which exact paper, year, and section a concept has appeared in.
+3. RICHLY STRUCTURED - You use h4 headers, colored spans, styled HTML tables, and bullet lists to maximise readability.
+4. UNIQUE - Every section is fresh and specific to the topic. You NEVER pad with generic text or repeat formulas in different sections.
+5. PURE HTML - You output raw HTML only. Never use markdown. Never wrap in code blocks. Always close all HTML tags properly.` },
+            { role: 'user', content: promptText }
+          ],
+          max_tokens: 5500,
+          temperature: 0.65
         })
       });
       
       const data = await res.json();
       if (!res.ok) {
         if (res.status === 429) {
-          console.log(`Rate limited! Waiting 60s...`);
-          await sleep(60000);
-          continue; // Don't decrement retries on rate limit
+          const retryAfter = parseInt(res.headers?.get?.('retry-after') || '20');
+          console.log(`Rate limited! Waiting ${retryAfter}s...`);
+          await sleep(retryAfter * 1000);
+          continue;
         }
         throw new Error(data.error?.message || JSON.stringify(data));
       }
       
-      let text = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+      // Cerebras reasoning models return content in message.content or message.reasoning
+      const msg = data.choices?.[0]?.message;
+      let text = msg?.content || msg?.reasoning || '';
       if (text.startsWith("```html")) text = text.substring(7);
       if (text.startsWith("```")) text = text.substring(3);
       if (text.endsWith("```")) text = text.substring(0, text.length - 3);
       return text.trim();
     } catch (err) {
       console.error(`Fetch error:`, err.message);
-      await sleep(10000);
+      await sleep(5000);
       retries--;
     }
   }
@@ -79,12 +95,14 @@ const fileMap = {
 async function run() {
   const tasks = [];
   
-  // Clear all target files to ensure fresh high-quality generation
+  // Initialize files only if they don't exist yet (preserves resume state)
   const uniqueFiles = [...new Set(Object.values(fileMap))];
   for (const file of uniqueFiles) {
-    const fileContent = `window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};\n`;
-    fs.writeFileSync(file, fileContent, 'utf8');
-    console.log(`Cleared and initialized ${file}`);
+    if (!fs.existsSync(file)) {
+      const fileContent = `window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};\n`;
+      fs.writeFileSync(file, fileContent, 'utf8');
+      console.log(`Initialized ${file}`);
+    }
   }
   
   for (const subjectId in NOTES_DATABASE) {
@@ -114,46 +132,84 @@ async function run() {
       }
     }
     
-    let prompt = `You are an expert tutor for Indian Defence Examinations (NDA, CDS, AFCAT).
-Your goal is to generate extremely detailed, high-quality study notes that teach the topic "${topic.title}" (under the chapter "${chapter.title}" in ${subject.title}).
+    let prompt = `Generate extremely detailed, premium study notes in raw HTML for the topic: "${topic.title}"
+Chapter: "${chapter.title}" | Subject: ${subject.title} | Exam: NDA / CDS / AFCAT
 
-The notes must be in raw HTML format, starting with:
+Start your output DIRECTLY with this opening tag (no preamble, no markdown):
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
     ${topic.title}
   </h3>
 
-And then strictly follow this structure:
+Then generate ALL of the following 8 mandatory sections IN ORDER. Do not skip any section:
 
-1. **Deep Conceptual Breakdown**: Minimum 800 words explaining the core concepts, historical background, or theoretical foundations in extreme detail. Provide multiple examples.
-2. **Interactive Wiki Linking**: You MUST wrap at least 15 important terms, formulas, treaties, or concepts in double square brackets, e.g. [[Fundamental Rights]], [[Mughal Empire]], [[Newton's Laws]], so they become clickable wiki links in our app.
-3. **Quick Revision Table**: 
-   <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Quick Revision</h4>
-   Provide a beautifully formatted HTML table summarizing the most important data points, dates, formulas, or facts. Use inline CSS to make the table look premium with borders and padding.
-4. **Mnemonics & Memory Aids**: Provide clever tricks, acronyms, or mnemonics to help remember complex information in this topic.
-5. **High-Yield Rules & Facts**: 
-   <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Rules & Facts</h4>
-   Include a list of AT LEAST 10 key rules, formulas, or facts heavily tested in NDA/CDS/AFCAT exams. Highlight important facts, names, or dates using <span style="color: var(--warning);">important text</span> or <span style="color: var(--success);">success text</span>.
-6. **PYQ Analysis & Trends**: Explain how this topic is typically tested in exams. What are the favorite areas of the examiners?
-7. **Common Pitfalls**: A list of frequent mistakes students make on this topic and how to avoid them.
+--- SECTION 1: DEEP CONCEPTUAL EXPLANATION ---
+Write 6-8 substantial paragraphs (minimum 600 words total) explaining this topic from first principles. Cover:
+- Historical origin and context if applicable
+- Core definitions and axioms with precise language
+- How each concept builds on the previous
+- 3-5 worked examples integrated into the explanation
+- Real-world applications in defence, science, or Indian context
+- Wrap at least 20 important terms, names, laws, or concepts in [[double square brackets]] to create wiki links
+- Highlight key terms using: <span style="color: var(--warning);">important</span> and <span style="color: var(--success);">key facts</span>
+
+--- SECTION 2: QUICK REVISION TABLE ---
+<h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Quick Revision Table</h4>
+Create a premium HTML table (min 8 rows) with borders and padding using inline CSS: style="border-collapse:collapse;width:100%;" for the table and style="border:1px solid var(--border);padding:10px;" for each td/th. Summarize the most important facts, dates, formulas, or comparisons specific to this topic.
+
+--- SECTION 3: MNEMONICS & MEMORY AIDS ---
+<h4 style="border-left: 3px solid var(--success); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Mnemonics & Memory Aids</h4>
+Provide 3-5 genuinely useful, creative mnemonics, acronyms, or memory tricks SPECIFIC to this topic. Explain each one clearly.
+
+--- SECTION 4: HIGH-YIELD RULES & FACTS ---
+<h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Rules & Facts</h4>
+Write EXACTLY 12 bullet points, each a distinct, exam-tested fact or formula. Each bullet must be DIFFERENT from the others — no repetition. Use <span style="color:var(--warning);"> for numbers/dates and <span style="color:var(--success);"> for key terms.
+
+--- SECTION 5: PYQ ANALYSIS & EXAM TRENDS ---
+<h4 style="border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">PYQ Analysis & Exam Trends</h4>
+Write 3-4 paragraphs explaining:
+- How frequently this topic appears in NDA/CDS/AFCAT papers
+- Which specific sub-topics examiners love to test
+- The typical difficulty and style of questions (direct formula, application, or conceptual)
+- Any recent trend shifts in the last 5 years
+
+--- SECTION 6: COMMON PITFALLS ---
+<h4 style="border-left: 3px solid var(--error, #ef4444); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Common Pitfalls</h4>
+List 5-7 specific mistakes students make on this exact topic. For each, explain WHY students make it and HOW to avoid it.
 `;
     if (isMath) {
-        prompt += `\n8. MATHEMATICS PRACTICE: Since this is a Mathematics topic, you MUST add a dedicated section at the very end titled "MATHEMATICS PRACTICE". Provide exactly 5 fully solved examples (sums) related to this topic. Ensure the difficulty matches the standard of the NDA/CDS exams.\n`;
+        prompt += `
+--- SECTION 7: PRACTICE PROBLEMS ---
+<h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Mathematics Practice</h4>
+Provide EXACTLY 5 fully solved problems graded from easy to hard (NDA/CDS standard). For each:
+- State the problem clearly
+- Show every step of the solution
+- Add a short insight about why this type appears in exams
+`;
     } else {
-        prompt += `\n8. PRACTICE MCQs: Provide exactly 3 multiple choice questions at the end with their correct answers and explanations.\n`;
+        prompt += `
+--- SECTION 7: PRACTICE MCQs ---
+<h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Practice MCQs</h4>
+Provide EXACTLY 5 multiple-choice questions (NDA/CDS/AFCAT level). For each:
+- Write the question stem
+- List options (A), (B), (C), (D)
+- State the correct answer
+- Give a 2-3 sentence explanation of why it's correct and why others are wrong
+`;
     }
 
     prompt += `
-Make sure the output is:
-- Extremely thorough and detailed (minimum 1200 words).
-- Beautifully structured with proper CSS/HTML tags, tables, and lists.
-- Do NOT use any emojis.
-- Valid HTML with all tags closed properly.
-- NO markdown code block wrappers (do NOT output \`\`\`html at the start).
-</div>
+Close with </div> as the very last line.
+
+FINAL QUALITY RULES:
+- Do NOT use any emojis
+- Do NOT use markdown (no **, no #, no *)
+- All HTML tags must be properly closed
+- No content should be generic or repeated across sections
+- Do NOT include any preamble or postamble — start with the <div> and end with </div>
 `;
 
-    const result = await generateWithGemini(prompt);
+    const result = await generateWithGroq(prompt);
     if (result) {
       // Escape backticks
       const escapedHTML = result.replace(/\\/g, '\\\\').replace(/\`/g, '\\`').replace(/\\$/g, '\\$');
@@ -164,7 +220,7 @@ Make sure the output is:
       console.log(`  Failed to generate for ${topic.id}`);
     }
     
-    await sleep(8000); // ~7.5 RPM - safely under 10 RPM limit
+    await sleep(1500); // Groq handles ~30+ RPM, 1.5s gap is plenty
   }
   
   console.log("ALL TOPICS GENERATED AND INJECTED!");
