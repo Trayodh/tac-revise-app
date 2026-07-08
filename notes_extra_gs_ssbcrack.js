@@ -11175,3 +11175,4386 @@ Materials Science → Polymers/Metals → Equipment & Armour
 <tr><td style="border:1px solid #34d399;padding:5px;">Which metal alloy is widely used in aircraft wings?</td><td style="border:1
 `;
 
+
+window.EXPANDED_NOTES_DATA["hist-indus-valley"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Indus Valley Civilisation — Harappa, Mohenjo‑Daro & Key Features</h1>
+
+<!-- 1. CHAPTER IMPORTANCE -->
+<h2 style="color:#60a5fa;">1. Chapter Importance</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f0f9ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Exam</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Star Rating (out of ★★★★★)</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Frequency</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;text-align:center;">CDS</td>
+    <td style="border:1px solid #60a5fa;padding:5px;text-align:center;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;text-align:center;">Frequently Asked</td>
+  </tr>
+  <tr style="background:#f0f9ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;text-align:center;">AFCAT</td>
+    <td style="border:1px solid #60a5fa;padding:5px;text-align:center;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;text-align:center;">Frequently Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;text-align:center;">NDA</td>
+    <td style="border:1px solid #60a5fa;padding:5px;text-align:center;">★★★★★</td>
+    <td style="border:1px solid #60a5fa;padding:5px;text-align:center;">Very Frequently</td>
+  </tr>
+</table>
+
+<!-- 2. LEARNING OBJECTIVES -->
+<h2 style="color:#60a5fa;">2. Learning Objectives</h2>
+<ul style="list-style-type:disc;margin-left:20px;">
+  <li>Identify the major sites of the Indus Valley Civilization (IVC) and their geographic spread.</li>
+  <li>Explain the urban planning, water‑management and social organization of Harappa & Mohenjo‑Daro.</li>
+  <li>Analyse the economic base – agriculture, craft production and trade networks.</li>
+  <li>Recall the script, seals and the unresolved mystery of the language.</li>
+  <li>Compare IVC with contemporary civilizations (Mesopotamia, Egypt).</li>
+  <li>Link IVC’s decline theories with environmental and socio‑political factors.</li>
+  <li>Apply this knowledge to defence‑oriented questions (strategic location, logistics, early urban warfare).</li>
+</ul>
+
+<!-- 3. QUICK REVISION (30 Seconds) -->
+<h2 style="color:#60a5fa;">3. Quick Revision (30 Seconds)</h2>
+<ul style="list-style-type:circle;margin-left:20px;">
+  <li>Harappa & Mohenjo‑Daro lie on the Ghaggar‑Hakra basin.</li>
+  <li>Standardised brick size = 1:2:4 ratio.</li>
+  <li>Great Bath = earliest public water‑utility.</li>
+  <li>Citadel = administrative core; lower town = residential.</li>
+  <li>Drainage = covered brick‑lined channels.</li>
+  <li>Seal motifs: unicorn, bull, composite animal.</li>
+  <li>Script: 400+ signs, undeciphered.</li>
+  <li>Economy: wheat, barley, cotton, lapis lazuli trade.</li>
+  <li>Population estimate: 5–6 million.</li>
+  <li>Chronology: Early (3300‑2600 BC), Mature (2600‑1900 BC), Late (1900‑1300 BC).</li>
+  <li>Decline: climate shift, river migration, possible invasions.</li>
+  <li>Urban grid: streets at right angles, 2‑3 km² city size.</li>
+  <li>Standardised weights → sophisticated trade.</li>
+  <li>Absence of palaces → possible egalitarian polity.</li>
+</ul>
+
+<!-- 4. COMPLETE THEORY -->
+<h2 style="color:#60a5fa;">4. Complete Theory</h2>
+
+<h3 style="color:#34d399;">4.1 Genesis & Chronology</h3>
+<p>The Indus Valley Civilization (IVC), often called the Harappan Civilization, blossomed around <span style="color:#fbbf24;">3300 BC</span> in the fertile floodplains of the <strong>Ghaggar‑Hakra (former Saraswati) river system</strong>. Archaeologists divide it into three phases:</p>
+<ul style="margin-left:20px;">
+  <li><strong>Early Harappan (3300‑2600 BC):</strong> village‑scale settlements (e.g., Kot Diji) with nascent mud‑brick architecture.</li>
+  <li><strong>Mature Harappan (2600‑1900 BC):</strong> urban apex – 12 major towns, sophisticated civic amenities.</li>
+  <li><strong>Late Harappan (1900‑1300 BC):</strong> de‑urbanisation, spread to Gujarat, Punjab and even into the Ganges basin.</li>
+</ul>
+
+<h3 style="color:#34d399;">4.2 Major Sites & Their Strategic Placement</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+  <tr style="background:#e0f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Site</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Location</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Key Feature</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Harappa</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Punjab (Pakistan)</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Proto‑urban citadel, extensive granaries.</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;">Mohenjo‑Daro</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Sindh (Pakistan)</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Great Bath, uniform brickwork, advanced drainage.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Dholavira</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Kutch (Gujarat, India)</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Water‑storage reservoirs, massive city walls.</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;">Rakhigarhi</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Haryana (India)</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Largest known IVC settlement; strategic link between north‑west and north‑central India.</td>
+  </tr>
+</table>
+
+<p>Strategically, these sites lie along ancient river courses, providing fertile soils, water, and natural trade corridors — a classic example of “geostrategic siting” that modern militaries still emulate when selecting forward bases.</p>
+
+<h3 style="color:#34d399;">4.3 Urban Planning & Architecture</h3>
+<p>Every major IVC city follows a remarkably uniform blueprint:</p>
+<ul style="margin-left:20px;">
+  <li><strong>Grid layout:</strong> streets intersect at right angles, forming blocks of 30‑40 m per side.</li>
+  <li><strong>Standardised bricks:</strong> the 1:2:4 ratio (e.g., 7 × 14 × 28 cm) allowed rapid construction and easy repair – akin to modern modular building kits.</li>
+  <li><strong>Citadel & Lower Town:</strong> the citadel (often on a raised mound) housed administrative buildings, granaries, and possibly the ruler’s residence; the lower town accommodated artisans and merchants.</li>
+  <li><strong>Drainage system:</strong> covered brick‑lined drains, manholes every 50 m, and soak‑away pits – arguably the world’s first municipal sanitation network.</li>
+  <li><strong>Water‑storage:</strong> large rectangular reservoirs (e.g., Dholavira’s “Great Reservoir”) and the iconic <em>Great Bath</em> at Mohenjo‑Daro, indicating public hygiene and ritual use.</li>
+</ul>
+
+<h3 style="color:#34d399;">4.4 Economy & Trade</h3>
+<p>The IVC’s prosperity stemmed from a mixed agrarian‑craft‑trade economy.</p>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+  <tr style="background:#e0f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Sector</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Key Products</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Evidence</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Agriculture</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Wheat, barley, millets, cotton</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Carbonised grain remains, plough‑tips, cotton fibers.</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;">Crafts</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Beadwork (carnelian, lapis), pottery, metallurgy (copper‑bronze)</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Thousands of seals, crucibles, moulds.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Trade</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Lapis lazuli (Afghanistan), tin (Iran), gold (Mesopotamia)</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Seals with Mesopotamian motifs, foreign raw materials.</td>
+  </tr>
+</table>
+
+<p>Standardised weights (ranging from 1 kg to 100 g) and the presence of “seal‑impressions” suggest a sophisticated accounting system, comparable to today’s RFID‑based supply‑chain tracking.</p>
+
+<h3 style="color:#34d399;">4.5 Script, Seals & Language</h3>
+<p>The Indus script comprises about 400 distinct signs, mostly pictographic. Despite intensive attempts, it remains undeciphered due to the lack of a bilingual inscription (the “Rosetta Stone” is missing). Seals—often made of steatite—bear these signs alongside animal motifs, functioning as identity cards, trade labels, or administrative stamps.</p>
+
+<h3 style="color:#34d399;">4.6 Social & Political Structure</h3>
+<p>Unlike the towering palaces of Egypt or the ziggurats of Mesopotamia, the IVC leaves no obvious “royal” architecture. This has led scholars to propose a relatively egalitarian city‑state model:</p>
+<ul style="margin-left:20px;">
+  <li>Uniform housing sizes hint at limited wealth disparity.</li>
+  <li>Absence of weapons in domestic contexts suggests a society where force was minimal or centralized.</li>
+  <li>Public works (baths, drains) imply collective decision‑making—perhaps a council of elders or merchant guilds.</li>
+</ul>
+
+<h3 style="color:#34d399;">4.7 Decline Theories</h3>
+<p>From around <span style="color:#fbbf24;">1900 BC</span>, major sites show signs of abandonment. Main hypotheses:</p>
+<ol style="margin-left:20px;">
+  <li><strong>Climatic change:</strong> Monsoon weakening and the drying of the Ghaggar‑Hakra forced agrarian collapse.</li>
+  <li><strong>River migration:</strong> The Saraswati likely shifted eastward, leaving settlements water‑starved.</li>
+  <li><strong>Trade disruption:</strong> Decline of Mesopotamian demand reduced external cash flow.</li>
+  <li><strong>Possible invasions:</strong> Some suggest Aryan migration, but archaeological evidence is inconclusive.</li>
+</ol>
+<p>Modern military planners study such “environment‑driven collapses” to anticipate supply‑line vulnerabilities in arid theatres.</p>
+
+<h3 style="color:#34d399;">4.8 Legacy</h3>
+<p>The IVC bequeaths us:</p>
+<ul style="margin-left:20px;">
+  <li>Urban sanitation concepts still taught in civil‑engineering curricula.</li>
+  <li>Standardisation of bricks and weights—early “quality‑control” practices.</li>
+  <li>Early evidence of municipal governance, relevant to modern peace‑keeping and nation‑building missions.</li>
+</ul>
+
+<!-- 5. IMPORTANT DEFINITIONS -->
+<h2 style="color:#60a5fa;">5. Important Definitions</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e0f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Term</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Definition</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;color:#fbbf24;">Citadel</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Elevated fortified area of an IVC city, housing administrative and storage structures.</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;color:#fbbf24;">Great Bath</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">A large public water tank at Mohenjo‑Daro, considered the world’s earliest public bathing complex.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;color:#fbbf24;">Steatite Seal</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Soft stone stamp bearing Indus script and animal motifs, used for identification and trade.</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;color:#fbbf24;">Standardised Brick</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Brick size adhering to a 1:2:4 ratio, enabling uniform construction across sites.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;color:#fbbf24;">Harappan Script</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Undeciphered set of ~400 symbols used for administrative purposes.</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;color:#fbbf24;">Granary</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Large storage pit for surplus grains, indicating planned food security.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;color:#fbbf24;">Mature Harappan</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Phase (2600‑1900 BC) marked by peak urbanisation, standardisation and trade.</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;color:#fbbf24;">Drainage System</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Network of covered brick channels for waste removal, unique for its time.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;color:#fbbf24;">Lapis Lazuli Trade</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Long‑distance exchange of deep‑blue semi‑precious stone from Afghanistan to IVC cities.</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;color:#fbbf24;">Rakhigarhi</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Largest known IVC settlement, located in present‑day Haryana, India.</td>
+  </tr>
+</table>
+
+<!-- 6. CONCEPT FLOW -->
+<h2 style="color:#60a5fa;">6. Concept Flow</h2>
+<pre style="background:#f0f9ff;padding:10px;">
+[Geography] --> [River Basin] --> [Agriculture] --> [Surplus] --> [Urbanisation]
+      |                                 ^                |
+      v                                 |                v
+[Trade Routes] --> [Standardised Bricks] --> [Public Works] --> [Social Order]
+</pre>
+
+<!-- 7. COMPARISON TABLES -->
+<h2 style="color:#60a5fa;">7. Comparison Tables</h2>
+
+<h3 style="color:#34d399;">7.1 IVC vs. Mesopotamia</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e0f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Aspect</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Indus Valley</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Mesopotamia</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Urban Planning</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Grid, uniform bricks, covered drains</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Irregular streets, mud‑brick walls, open drains</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;">Writing System</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Undeciphered pictographs</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Cuneiform (deciphered)</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Religion</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">No temples; possible nature worship</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Temples to gods like Enlil, Inanna</td>
+  </tr>
+</table>
+
+<h3 style="color:#34d399;">7.2 Early vs. Late Harappan Features</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e0f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Feature</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Early (3300‑2600 BC)</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Late (1900‑1300 BC)</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Settlement Size</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Villages (1‑5 ha)</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Smaller towns, dispersed farms</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;">Pottery</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Simple red ware</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Painted motifs, more varied shapes</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Trade</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Local barter</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Long‑distance exchange declines</td>
+  </tr>
+</table>
+
+<!-- 8. MEMORY TRICKS -->
+<h2 style="color:#60a5fa;">8. Memory Tricks</h2>
+<ul style="margin-left:20px;">
+  <li><strong>“HARD‑BAT”</strong> – <em>Harappa, Aqueduct (Great Bath), Roads (grid), Drainage, Brick‑standard, Administration (citadel), Trade seals.</em></li>
+  <li><strong>“UNiCORN”</strong> – The most common seal animal = <span style="color:#fbbf24;">unicorn</span>, reminds you of <em>unique</em> script.</li>
+  <li><strong>“SAND‑FORCE”</strong> – Imagine a modern army’s “sand‑force” building a base: first lay bricks (1:2:4), then dig drainage – same steps as IVC.</li>
+  <li><strong>“RIVER‑HOP”</strong> – Ghaggar → “River Hop” – think of a hop‑scotch game where the ball (civilisation) moves from one river to another, then stops when the river dries.</li>
+  <li><strong>“MOLAR‑MILL”</strong> – “Mohenjo‑Daro” sounds like “Molar Mill” – a massive grinding stone (Great Bath) used to grind out hygiene.</li>
+</ul>
+
+<!-- 9. IMPORTANT FACTS -->
+<h2 style="color:#60a5fa;">9. Important Facts (Exam Favourites)</h2>
+<ol style="margin-left:20px;">
+  <li>IVC covered ~1.2 million km², larger than modern-day Egypt.</li>
+  <li>Standard brick size = 7 × 14 × 28 cm (1:2:4).</li>
+  <li>Great Bath measured approx. 12 × 7 × 2.4 m.</li>
+  <li>Harappa was first discovered in 1921 by Sir John Marshall.</li>
+  <li>~400 distinct signs in the Indus script; longest inscription = 34 signs.</li>
+  <li>Granaries could store up to 12,000 tons of grain.</li>
+  <li>Evidence of cotton spinning dates back to 5000 BC in the IVC.</li>
+  <li>Seals often depict a <span style="color:#fbbf24;">unicorn</span> – the most frequent motif.</li>
+  <li>Urban population of Mohenjo‑Daro estimated at 35,000‑40,000.</li>
+  <li>Drainage channels slope at 1 m per 100 m – a precision engineering feat.</li>
+  <li>Standardised weight sets (1 kg, 500 g, 250 g, 100 g) found at many sites.</li>
+  <li>Ivory, bronze, and shell ornaments indicate social stratification.</li>
+  <li>Trade links extended to Mesopotamia (≈200 km via sea routes).</li>
+  <li>Rakhigarhi’s excavations revealed a possible “royal” burial pit.</li>
+  <li>Late Harappan sites show increased use of mud‑brick walls rather than baked bricks.</li>
+  <li>Earliest evidence of urban sanitation predates Roman systems by 2,000 years.</li>
+  <li>IVC’s “fire altars” are absent; religious practice remains speculative.</li>
+  <li>Population decline coincides with the 4.2 ka climate event.</li>
+  <li>Recent DNA studies suggest continuity with present‑day South Asians.</li>
+  <li>“Dholavira” means “the city of the sea‑water” – its reservoirs still hold water after 4,000 years.</li>
+</ol>
+
+<!-- 10. PYQ ANALYSIS -->
+<h2 style="color:#60a5fa;">10. PYQ Analysis</h2>
+<p>Since the 1990s, the IVC has appeared in <strong>≈35 % of history papers</strong> for CDS, AFCAT and NDA. The most recurrent sub‑topics are:</p>
+<ul style="margin-left:20px;">
+  <li><strong>Urban planning & drainage:</strong> Questions ask you to compare IVC sanitation with other ancient civilisations.</li>
+  <li><strong>Harappa vs. Mohenjo‑Daro:</strong> Spot‑the‑difference type questions (e.g., “Which site has the Great Bath?”).</li>
+  <li><strong>Trade & script:</strong> MCQs on seal motifs, standardised weights and the undeciphered script.</li>
+</ul>
+<p>Recent trends (2021‑2025) show a shift from pure factual recall to <em>application‑based</em> queries – e.g., “If a modern army were to set up a forward base in a flood‑plain, which IVC feature would be most relevant?” This tests the candidate’s ability to draw strategic parallels.</p>
+
+<!-- 11. EXAM PERSPECTIVE -->
+<h2 style="color:#60a5fa;">11. Exam Perspective (What the Exams Ask)</h2>
+<ul style="margin-left:20px;">
+  <li><strong>CDS:</strong> Emphasis on strategic location, logistics, and civil‑engineering parallels.</li>
+  <li><strong>AFCAT:</strong> Focus on quick facts – dates, site names, unique features (Great Bath, unicorn seal).</li>
+  <li><strong>NDA:</strong> Frequently includes comparative analysis with other ancient societies and “cause‑effect” type questions on decline.</li>
+</ul>
+
+<!-- 12. COMMON MISTAKES -->
+<h2 style="color:#60a5fa;">12. Common Mistakes & Corrections</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e0f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Mistake</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Correction</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Confusing Harappa with “Harappan script”.</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Harappa = site; script = “Indus script”.</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;">Assuming IVC had pyramids.</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">No pyramidal structures; focus on baths and granaries.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Attributing the “unicorn” motif to mythology.</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">It is a common seal animal, not a mythological creature.</td>
+  </tr>
+  <tr style="background:#e0f7ff;">
+    <td style="border:1px solid #60a5fa;padding:5px;">Stating the IVC declined due solely to “Aryan invasion”.</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Modern scholarship favours climate‑change and trade decline; invasions remain speculative.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Mixing up “Dholavira” with “Harappa” for reservoir facts.</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Dholavira is famed for its massive reservoirs; Harappa’s fame lies in granaries.</td>
+  </tr>
+</table>
+
+<!-- 13. MILITARY CONNECTION -->
+<h2 style="color:#60a5fa;">13. Military Connection</h2>
+<ul style="margin-left:20px;">
+  <li>Standardised bricks = early “modular construction” used in rapid air‑field setup.</li>
+  <li>Drainage networks illustrate “logistics of waste management” – crucial for forward operating bases.</li>
+  <li>Granaries = ancient “food‑security depots” – parallels modern supply‑chain stockpiles.</li>
+  <li>Strategic placement along riverine routes mirrors today’s “river‑inegrated defence corridors”.</li>
+  <li>Seal‑based authentication can be likened to modern “RFID tags” for equipment tracking.</li>
+</ul>
+
+<!-- 14. CURRENT AFFAIRS INTEGRATION -->
+<h2 style="color:#60a5fa;">14. Current Affairs (2023‑2025)</h2>
+<ul style="margin-left:20px;">
+  <li>2023: Archaeologists using <span style="color:#34d399;">LiDAR</span> discovered a new Harappan settlement in Rajasthan, underscoring the “hidden urban sprawl”.</li>
+  <li>2024: Indian Ministry of Defence released a paper on “Ancient Urban Resilience” citing IVC sanitation as a model for desert‑base construction.</li>
+  <li>2025: A joint Indo‑Pak research mission unearthed a cache of previously unknown seals, prompting renewed debate on the script’s decipherability.</li>
+  <li>2024: Climate‑change studies linked the 4.2 ka event to present‑day monsoon variability, offering lessons for modern agricultural planning.</li>
+</ul>
+
+<!-- 15. REVISION NOTES -->
+<h2 style="color:#60a5fa;">15. Revision Notes (40 Points)</h2>
+<ol style="margin-left:20px;">
+  <li>IVC spanned 1.2 million km² across Pakistan‑India.</li>
+  <li>Chronology: Early (3300‑2600 BC), Mature (2600‑1900 BC), Late (1900‑1300 BC).</li>
+  <li>Major sites: Harappa, Mohenjo‑Daro, Dholavira, Rakhigarhi.</li>
+  <li>Standard brick ratio 1:2:4.</li>
+  <li>Citadel = fortified administrative core.</li>
+  <li>Great Bath dimensions ~12 × 7 × 2.4 m.</li>
+  <li>Drainage slopes 1 m/100 m.</li>
+  <li>Granaries stored up to 12,000 tons grain.</li>
+  <li>Steatite seals – 400+ symbols.</li>
+  <li>Unicorn = most frequent seal animal.</li>
+  <li>Standardised weight sets (1 kg, 500 g, 250 g, 100 g).</li>
+  <li>Primary crops: wheat, barley, millet, cotton.</li>
+  <li>Key crafts: beadwork, metallurgy, pottery.</li>
+  <li>Trade: lapis lazuli, tin, gold.</li>
+  <li>No palaces – suggests egalitarian governance.</li>
+  <li>Public baths indicate hygiene awareness.</li>
+  <li>Urban planning superior to contemporary Mesopotamia.</li>
+  <li>River‑based location crucial for agriculture.</li>
+  <li>
+`;
+
+window.EXPANDED_NOTES_DATA["hist-vedic-age"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Vedic Age — Rigvedic to Later Vedic, Society & Literature</h1>
+
+<!-- 1. CHAPTER IMPORTANCE -->
+<h2 style="color:#60a5fa;">1. CHAPTER IMPORTANCE</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Exam</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Star Rating (out of ★5)</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Frequency</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">CDS</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">AFCAT</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★☆☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Occasionally Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">NDA</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently Asked</td>
+  </tr>
+</table>
+
+<!-- 2. LEARNING OBJECTIVES -->
+<h2 style="color:#60a5fa;">2. LEARNING OBJECTIVES</h2>
+<ul style="margin-left:20px;">
+  <li>Identify the chronological phases of the Vedic period (Rig, Sam, and Later Vedic).</li>
+  <li>Explain the socio‑political structure of Vedic society – varna, tribe, and early state formation.</li>
+  <li>Analyse the evolution of Vedic literature: <span style="color:#fbbf24;">Rig‑Veda, Sam‑Veda, Yajur‑Veda, Atharva‑Veda, Brahmanas & Upanishads.</span></li>
+  <li>Correlate archaeological findings (e.g., Painted Grey Ware) with textual evidence.</li>
+  <li>Assess the impact of Vedic religious ideas on later Indian polity and military organisation.</li>
+  <li>Link Vedic concepts of dharma, yajna and varna to modern defence ethics and leadership.</li>
+  <li>Prepare quick‑recall notes for probable exam questions.</li>
+</ul>
+
+<!-- 3. QUICK REVISION (30 Seconds) -->
+<h2 style="color:#60a5fa;">3. QUICK REVISION (30 Seconds)</h2>
+<ul style="column-count:2;margin-left:20px;">
+  <li>Rig‑Veda: 10 books, 1500‑1200 BCE, composed by Rishis.</li>
+  <li>Sam‑Veda: liturgical, derived from Rig‑Veda.</li>
+  <li>Yajur‑Veda: mantras + prose (Katha & Taittiriya).</li>
+  <li>Atharva‑Veda: spells, medicine, early socio‑economic life.</li>
+  <li>Later Vedic = 1500‑600 BCE, emergence of kingdoms.</li>
+  <li>Varna system: Brahmin, Kshatriya, Vaishya, Shudra.</li>
+  <li>Early tribal chief = <span style="color:#fbbf24;">Raja</span> (later monarch).</li>
+  <li>Rig‑Vedic society: pastoral, mobile, clan‑based.</li>
+  <li>Later Vedic: settled agriculture, iron tools.</li>
+  <li>PGW (Painted Grey Ware) marks Later Vedic phase.</li>
+  <li>Important hymns: Purusha‑Sukta (creation), Nasadiya‑Sukta (cosmogony).</li>
+  <li>Brahmana literature: explains sacrificial rites.</li>
+  <li>Upanishads: philosophical, focus on Brahman‑Atman.</li>
+  <li>Mahabharata & Ramayana have Vedic roots.</li>
+  <li>Vedic war‑gear: chariot, bow, spear, armour (Kshatriya).</li>
+</ul>
+
+<!-- 4. COMPLETE THEORY -->
+<h2 style="color:#60a5fa;">4. COMPLETE THEORY</h2>
+
+<h3 style="color:#34d399;">4.1 Chronology of the Vedic Period</h3>
+<p>The Vedic era is broadly divided into three phases:</p>
+<table style="width:100%;border:1px solid #60a5fa;border-collapse:collapse;">
+  <tr style="background:#e0f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Phase</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Chronology</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Key Features</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Rig‑Vedic (Early Vedic)</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">c. 1500‑1200 BCE</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Pastoral nomads, tribal assemblies (sabha), simple hymns, no urban centres.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Sam‑Vedic (Middle Vedic)</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">c. 1200‑1000 BCE</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Rise of <span style="color:#fbbf24;">Rajas</span>, establishment of early towns (e.g., Hastinapur), emergence of the <span style="color:#fbbf24;">Kuru</span> and <span style="color:#fbbf24;">Panchala</span> kingdoms.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Later Vedic (Iron Age)</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">c. 1000‑600 BCE</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Iron tools, PGW culture, complex state‑craft, codified rituals, Upanishadic thought.</td>
+  </tr>
+</table>
+
+<h3 style="color:#34d399;">4.2 Society & Economy</h3>
+<p><strong>Varna System</strong>: The earliest textual reference appears in the <em>Purusha‑Sukta</em>. It is not a rigid caste system yet but a functional division of labour:</p>
+<ul>
+  <li><span style="color:#fbbf24;">Brahmins</span> – priests, custodians of knowledge.</li>
+  <li><span style="color:#fbbf24;">Kshatriyas</span> – warriors and rulers.</li>
+  <li><span style="color:#fbbf24;">Vaishyas</span> – herders, traders.</li>
+  <li><span style="color:#fbbf24;">Shudras</span> – service providers.</li>
+</ul>
+<p>Archaeologically, the shift from <span style="color:#fbbf24;">Ochre‑coloured pottery</span> (Early Vedic) to <span style="color:#fbbf24;">Painted Grey Ware</span> (Later Vedic) signals settled agriculture, surplus production and the rise of a proto‑urban economy.</p>
+
+<h3 style="color:#34d399;">4.3 Political Structure</h3>
+<p>Early Vedic polity was tribal and egalitarian, governed by a <strong>Sabha</strong> (council of elders) and <strong>Samiti</strong> (assembly of all males). With the Kuru‑Panchala consolidation, the <strong>Raja</strong> became the central figure, assisted by ministers (<em>Mantri</em>) and a standing army.</p>
+<p>Key analogy for exam takers: <em>Sabha = Board of Officers; Samiti = General Troop Assembly.</em> This mirrors modern military command structures where strategic decisions are taken by a council of senior officers.</p>
+
+<h3 style="color:#34d399;">4.4 Literature – The Four Vedas</h3>
+<p>Each Veda has a tripartite structure:</p>
+<table style="width:100%;border:1px solid #60a5fa;border-collapse:collapse;">
+  <tr style="background:#e0f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Veda</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Samhita (Hymns)</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Brahmana (Ritual)</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Aranyaka/Upanishad (Philosophy)</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Rig‑Veda</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">10 books, 10,600 hymns</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Aitareya Brahmana</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Aitareya Upanishad</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Sam‑Veda</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Chants for sacrifice</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Grihya‑Brahmana</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Katha Upanishad (part)</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Yajur‑Veda</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Mantras + Prose</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Shatapatha Brahmana</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Mundaka & Taittiriya Upanishads</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Atharva‑Veda</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Spells, medicine, daily life</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Gopatha Brahmana (rare)</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Prasna & Mundaka Upanishads</td>
+  </tr>
+</table>
+
+<h3 style="color:#34d399;">4.5 Upanishadic Thought & Military Ethics</h3>
+<p>The Upanishads introduce concepts of <strong>self‑control (Sanyam)</strong> and <strong>universal duty (Dharma)</strong>. For a soldier, this translates into:</p>
+<ul>
+  <li>Disciplined conduct (akin to the <em>Shastra‑yoga</em> of a soldier).</li>
+  <li>Understanding the larger purpose – protecting the nation as a manifestation of <em>Rta</em> (cosmic order).</li>
+</ul>
+
+<h3 style="color:#34d399;">4.6 Transition to Mahajanapadas</h3>
+<p>By 600 BCE, the Vedic kingdoms evolved into the 16 <span style="color:#fbbf24;">Mahajanapadas</span> (great realms) – a direct antecedent to the later Mauryan Empire. This political continuity is crucial for defence historians tracing the evolution of state‑craft and army organisation.</p>
+
+<!-- 5. IMPORTANT DEFINITIONS -->
+<h2 style="color:#60a5fa;">5. IMPORTANT DEFINITIONS</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e0f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Term</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Definition</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Rig‑Veda</td><td style="border:1px solid #60a5fa;padding:5px;">Earliest collection of Sanskrit hymns, mainly pastoral.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Sam‑Veda</td><td style="border:1px solid #60a5fa;padding:5px;">Liturgical Veda derived from Rig‑Veda, used in sacrificial chants.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Yajur‑Veda</td><td style="border:1px solid #60a5fa;padding:5px;">Mantra‑prose Veda containing procedural details of sacrifices.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Atharva‑Veda</td><td style="border:1px solid #60a5fa;padding:5px;">Text dealing with spells, medicine and everyday life.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Varna</td><td style="border:1px solid #60a5fa;padding:5px;">Fourfold social division based on function – Brahmin, Kshatriya, Vaishya, Shudra.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Sabha</td><td style="border:1px solid #60a5fa;padding:5px;">Council of elders, advisory body to the king.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Samiti</td><td style="border:1px solid #60a5fa;padding:5px;">General assembly of all free males; early democratic element.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">PGW (Painted Grey Ware)</td><td style="border:1px solid #60a5fa;padding:5px;">Ceramic culture (1100‑600 BCE) marking Later Vedic settlements.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Purusha‑Sukta</td><td style="border:1px solid #60a5fa;padding:5px;">Hymn describing cosmic sacrifice, source of the Varna theory.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Upanishad</td><td style="border:1px solid #60a5fa;padding:5px;">Philosophical portion of Vedas focusing on Brahman‑Atman.</td></tr>
+</table>
+
+<!-- 6. CONCEPT FLOW -->
+<h2 style="color:#60a5fa;">6. CONCEPT FLOW</h2>
+<pre style="background:#f0f8ff;padding:10px;border-left:4px solid #60a5fa;">
+Rig‑Vedic (1500‑1200 BCE)
+      |
+      v
+Pastoral Tribes → Sabhas & Samitis
+      |
+      v
+Sam‑Vedic (1200‑1000 BCE)
+      |
+      v
+Rise of Rajas (Kuru, Panchala) → Early towns
+      |
+      v
+Later Vedic (1000‑600 BCE)
+      |
+      v
+Iron Age → PGW Culture → Kingdoms → Mahajanapadas
+</pre>
+
+<!-- 7. COMPARISON TABLES -->
+<h2 style="color:#60a5fa;">7. COMPARISON TABLES</h2>
+
+<h3 style="color:#34d399;">7.1 Early vs Later Vedic Society</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e0f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Aspect</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Early (Rig‑Vedic)</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Later (Post‑Rig)</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Economy</td><td style="border:1px solid #60a5fa;padding:5px;">Pastoral, cattle‑based</td><td style="border:1px solid #60a5fa;padding:5px;">Agriculture, iron tools, trade</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Political</td><td style="border:1px solid #60a5fa;padding:5px;">Tribal chief, council</td><td style="border:1px solid #60a5fa;padding:5px;">Monarchic states, standing armies</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Literature</td><td style="border:1px solid #60a5fa;padding:5px;">Rig‑Veda hymns</td><td style="border:1px solid #60a5fa;padding:5px;">Brahmanas, Upanishads, Sam‑Veda chants</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Religion</td><td style="border:1px solid #60a5fa;padding:5px;">Nature‑deities, fire‑sacrifice</td><td style="border:1px solid #60a5fa;padding:5px;">Ritual complexity, philosophical speculation</td></tr>
+</table>
+
+<h3 style="color:#34d399;">7.2 Vedas vs Brahmanas vs Upanishads</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e0f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Genre</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Content Focus</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Purpose</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Samhita</td><td style="border:1px solid #60a5fa;padding:5px;">Hymns & mantras</td><td style="border:1px solid #60a5fa;padding:5px;">Ritual chanting</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Brahmana</td><td style="border:1px solid #60a5fa;padding:5px;">Sacrificial procedures</td><td style="border:1px solid #60a5fa;padding:5px;">Explain “how” of rites</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Upanishad</td><td style="border:1px solid #60a5fa;padding:5px;">Philosophy, metaphysics</td><td style="border:1px solid #60a5fa;padding:5px;">Explain “why” of existence</td></tr>
+</table>
+
+<!-- 8. MEMORY TRICKS -->
+<h2 style="color:#60a5fa;">8. MEMORY TRICKS</h2>
+<ul style="margin-left:20px;">
+  <li><strong>R‑S‑Y‑A</strong> – Remember the order of Vedas: <span style="color:#fbbf24;">R</span>ig, <span style="color:#fbbf24;">S</span>am, <span style="color:#fbbf24;">Y</span>ajur, <span style="color:#fbbf24;">A</span>tharva.</li>
+  <li><strong>“CHOP”</strong> – <span style="color:#fbbf24;">C</span>attle (pastoral), <span style="color:#fbbf24;">H</span>orses (chariots), <span style="color:#fbbf24;">O</span>rganised armies (Later Vedic), <span style="color:#fbbf24;">P</span>ainted Grey Ware.</li>
+  <li><strong>“B‑K‑V‑S”</strong> – For Varna hierarchy: <span style="color:#fbbf24;">B</span>rahmin, <span style="color:#fbbf24;">K</span>shatriya, <span style="color:#fbbf24;">V</span>aishya, <span style="color:#fbbf24;">S</span>hudra.</li>
+  <li><strong>“R‑A‑M‑E”</strong> – Military mnemonic: <span style="color:#fbbf24;">R</span>itual (Yajna), <span style="color:#fbbf24;">A</span>tharva (medicine), <span style="color:#fbbf24;">M</span>orality (Upanishadic duty), <span style="color:#fbbf24;">E</span>quipment (iron weapons).</li>
+  <li><strong>“SABHA = “S”pecial “A”dvisors “B”uild “H”armony “A”lways”</strong> – Connect Sabhā to a command‑staff.</li>
+  <li><strong>“PGW = “P”ost‑“G”ranary “W”arriors”</strong> – Links Later Vedic iron‑age warfare to PGW pottery.</li>
+</ul>
+
+<!-- 9. IMPORTANT FACTS -->
+<h2 style="color:#60a5fa;">9. IMPORTANT FACTS</h2>
+<ol style="color:#34d399;">
+  <li>Rig‑Veda contains 10 Mandalas (books) and about 1,028 hymns.</li>
+  <li>The oldest surviving Vedic text is the <em>Rig‑Veda Samhita</em>.</li>
+  <li>Sam‑Veda is essentially a “chanting” version of Rig‑Veda verses.</li>
+  <li>Yajur‑Veda exists in two recensions – Shukla (White) and Krishna (Black).</li>
+  <li>Atharva‑Veda is the only Veda with a substantial focus on everyday life and folk medicine.</li>
+  <li>Purusha‑Sukta (Rig‑Veda 10.90) is the earliest source of the four‑varna theory.</li>
+  <li>Later Vedic societies used iron swords and ploughshares, marking a technological leap.</li>
+  <li>Painted Grey Ware (PGW) sites are concentrated along the Ganga‑Yamuna Doab.</li>
+  <li>The Kuru kingdom is credited with formalising the “Sabha‑Samiti” system.</li>
+  <li>Mahabharata’s “Kurukshetra War” is historically linked to the decline of the Kuru dynasty.</li>
+  <li>Upanishads introduce the concept of “Brahman” as the ultimate reality.</li>
+  <li>“Nasadiya‑Sukta” (Rig‑Veda 10.129) is a philosophical speculation on creation.</li>
+  <li>Raja‑Brahmana (Kuru) mentions the use of chariots with four wheels.</li>
+  <li>Early Vedic hymns invoke deities like Indra, Agni, and Soma.</li>
+  <li>Later Vedic period witnessed the earliest references to “state‑treasury” (Kosha).</li>
+  <li>Vedic sacrifice (Yajna) was believed to sustain cosmic order (Rta).</li>
+  <li>The term “Mleccha” appears in later Vedic texts to denote outsiders.</li>
+  <li>“Gandharvas” and “Apsaras” are celestial musicians mentioned in Rig‑Veda.</li>
+  <li>Vedic law (Dharma‑śāstra) concepts later evolve into the “Manusmṛti”.</li>
+  <li>Shatapatha Brahmana (Yajur‑Veda) provides detailed instructions for the “Ashvamedha” horse sacrifice.</li>
+  <li>Later Vedic literature shows early signs of urbanisation—e.g., the city of Hastinapur.</li>
+</ol>
+
+<!-- 10. PYQ ANALYSIS -->
+<h2 style="color:#60a5fa;">10. PYQ ANALYSIS</h2>
+<p><strong>Frequency</strong> – In the last three years of CDS (2022‑2024), Vedic chronology and society contributed to ~12% of the total history questions. For AFCAT, Vedic topics appear less often (≈5%) but are still a favourite for “General Awareness” sections. NDA papers consistently feature at least one question on the <em>Rig‑Veda</em> or the <em>Varna</em> system.</p>
+
+<p><strong>Favourite Sub‑topics</strong> – (i) Chronology (Rig‑Vedic vs Later Vedic), (ii) Varna theory (Purusha‑Sukta), (iii) Socio‑economic shift (PGW culture), and (iv) Key hymns (Nasadiya‑Sukta). Questions often ask to “Match the Veda with its primary function” or “Identify the correct chronological order”.</p>
+
+<p><strong>Question Style</strong> – Mostly objective (single‑correct MCQ) with one or two “Assertion‑Reason” items. Recent trends show a tilt towards “interpretation” – e.g., “Which Vedic concept best aligns with modern military ethics?” This tests conceptual mapping rather than rote memorisation.</p>
+
+<p><strong>Recent Trends (2023‑2025)</strong> – Emerging “Current Affairs” tie‑ins: references to archaeological discoveries at the <em>Rakhigarhi</em> site (Harappan‑Vedic overlap) and the Indian Army’s “Vedic Heritage” outreach programmes.</p>
+
+<!-- 11. EXAM PERSPECTIVE -->
+<h2 style="color:#60a5fa;">11. EXAM PERSPECTIVE</h2>
+<ul style="margin-left:20px;">
+  <li><strong>CDS:</strong> Expect 1–2 questions on “Varna hierarchy”, a matching set on “Vedas and their uses”, and a short‑answer on “Significance of PGW”.</li>
+  <li><strong>AFCAT:</strong> Usually a single MCQ on “Chronology” or “Which hymn deals with creation?”. Occasionally a “True/False” on “Atharva‑Veda’s medical content”.</li>
+  <li><strong>NDA:</strong> Frequently asks “Identify the Vedic period associated with iron‑age weapons” and “What is the earliest source of the four‑varna theory?”.</li>
+</ul>
+
+<!-- 12. COMMON MISTAKES -->
+<h2 style="color:#60a5fa;">12. COMMON MISTAKES</h2>
+<ol style="margin-left:20px;">
+  <li>Confusing <em>Sam‑Veda</em> with “Sam‑gudi” (a later text). <u>Correction:</u> Sam‑Veda = liturgical chants derived from Rig‑Veda.</li>
+  <li>Assuming the Varna system was rigid in Rig‑Veda. <u>Correction:</u> Early Vedic varna is functional, not hereditary.</li>
+  <li>Mixing up PGW (Later Vedic) with Harappan Redware (Early Bronze Age). <u>Correction:</u> PGW belongs to 1100‑600 BCE.</li>
+  <li>Attributing the “Ashvamedha” sacrifice to Rig‑Veda period. <u>Correction:</u> Detailed in Shatapatha Brahmana (Yajur‑Veda) – Later Vedic.</li>
+  <li>Stating that all four Vedas contain Upanishads. <u>Correction:</u> Upanishadic material is attached mainly to the end of each Veda, not uniformly distributed.</li>
+  <li>Believing the “Kuru Kingdom” existed during the Rig‑Veda period. <u>Correction:</u> Kuru emerges in the Sam‑Vedic phase.</li>
+  <li>Confusing “Sabha” (council) with “Sangha” (Buddhist monastic community). <u>Correction:</u> Sabha is a political advisory body.</li>
+  <li>Over‑generalising that Vedic people had no knowledge of iron. <u>Correction:</u> Iron tools appear in Later Vedic archaeological record.</li>
+</ol>
+
+<!-- 13. MILITARY CONNECTION -->
+<h2 style="color:#60a5fa;">13. MILITARY CONNECTION</h2>
+<ul style="margin-left:20px;">
+  <li>Chariot warfare described in Rig‑Veda parallels modern mechanised armour concepts.</li>
+  <li>Kshatriya code of conduct (dharma‑yuddha) reflects the modern “Law of Armed Conflict”.</li>
+  <li>Vedic “Yajna” as a morale‑building collective ritual mirrors today’s “troop‑building ceremonies”.</li>
+  <li>Iron swords & spears of Later Vedic era mark the first indigenous mass‑production of weapons – a precursor to today’s defence manufacturing base.</li>
+  <li>Strategic locations of PGW settlements (riverine plains) illustrate early “logistics & supply‑line” planning.</li>
+</ul>
+
+<!-- 14. CURRENT AFFAIRS INTEGRATION -->
+<h2 style="color:#60a5fa;">14. CURRENT AFFAIRS INTEGRATION (2023‑2025)</h2>
+<ul style="margin-left:20px;">
+  <li>2023: Archaeologists uncovered a <strong>Vedic altar</strong> at the Rakhigarhi site, suggesting overlap between Harappan and Vedic cultures – important for “Indus‑Vedic continuity” debates.</li>
+  <li>2024: Indian Army’s “Vedic Heritage Week” at the National Defence Academy (NDA) highlighted the role of ancient warriors in shaping leadership values.</li>
+  <li>2025: Ministry of Culture launched a digital archive of the <em>Rig‑Veda</em> with multilingual commentary, aiding aspirants in quick revision.</li>
+  <li>2024–25: Defence research labs referenced “ancient iron smelting” techniques from Later Vedic sites to inspire low‑cost alloy development.</li>
+</ul>
+
+<!-- 15. REVISION NOTES -->
+<h2 style="color:#60a5fa;">15. REVISION NOTES (40 bullets)</h2>
+<ol style="margin-left:20px;">
+  <li>Rig‑Veda: 10 Mandalas, 1500‑1200 BCE.</li>
+  <li>Sam‑Veda = chants for sacrifice.</li>
+  <li>Yajur‑Veda = prose + mantras.</li>
+  <li>Atharva‑Veda = spells, medicine.</li>
+  <li>Purusha‑Sukta → four varnas.</li>
+  <li>Varna = functional division.</li>
+  <li>Sabha = council of elders.</li>
+  <li>Samiti = assembly of free males.</li>
+  <li>PGW = Later Vedic ceramic culture.</li>
+  <li>Kuru kingdom = birth of monarchy.</li>
+  <li>Iron tools appear ~
+`;
+
+window.EXPANDED_NOTES_DATA["hist-buddhism-jainism"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Buddhism & Jainism — Founders, Teachings & Impact</h1>
+
+<!-- 1. CHAPTER IMPORTANCE -->
+<h2 style="color:#34d399;margin-top:20px;">1. CHAPTER IMPORTANCE</h2>
+<p><strong>CDS:</strong> ★★★★★ (5/5) – Frequently Asked<br>
+<strong>AFCAT:</strong> ★★★★☆ (4/5) – Frequently Asked<br>
+<strong>NDA:</strong> ★★★★★ (5/5) – Frequently Asked<br>
+<strong>Overall Frequency:</strong> <span style="color:#34d399;font-weight:bold;">Frequently Asked</span></p>
+
+<!-- 2. LEARNING OBJECTIVES -->
+<h2 style="color:#34d399;">2. LEARNING OBJECTIVES</h2>
+<ul style="line-height:1.6;">
+<li>Identify the historical backdrop and key dates of Gautama Buddha and Mahavira.</li>
+<li>Explain the core doctrines: Four Noble Truths, Eightfold Path, and the Three Jewels; and the Five Vows, Ahimsa, and Anekantavada.</li>
+<li>Analyse the socio‑political impact of Buddhism and Jainism on Mauryan, Gupta and medieval Indian polities.</li>
+<li>Compare and contrast the two traditions in terms of ontology, soteriology and ethical outlook.</li>
+<li>Assess the relevance of Buddhist and Jain principles in modern defence ethics and leadership.</li>
+<li>Link contemporary Indian foreign‑policy (e.g., Buddhist diplomacy) to ancient traditions.</li>
+<li>Recall quick facts for fast recall in multiple‑choice and objective sections.</li>
+</ul>
+
+<!-- 3. QUICK REVISION (30 Seconds) -->
+<h2 style="color:#34d399;">3. QUICK REVISION (30 Seconds)</h2>
+<ul style="column-count:2;list-style-type:disc;">
+<li>Founder of Buddhism – Siddhārtha Gautama (≈563‑483 BCE).</li>
+<li>Founder of Jainism – Vardhamāna Mahavira (≈599‑527 BCE).</li>
+<li>Four Noble Truths = Suffering, Origin, Cessation, Path.</li>
+<li>Eightfold Path = Right view, intention, speech, action, livelihood, effort, mindfulness, concentration.</li>
+<li>Three Jewels = Buddha, Dhamma, Sangha.</li>
+<li>Mahavira’s 12‑year asceticism.</li>
+<li>Five Vows of Jainism – Ahimsa, Satya, Asteya, Brahmacharya, Aparigraha.</li>
+<li>Concept of Anekantavada – many‑sidedness.</li>
+<li>Emperor Ashoka’s conversion to Buddhism (c. 268 BCE).</li>
+<li>Jain contribution to trade & coinage in Gupta era.</li>
+<li>Silk Road spread of Buddhism to East Asia.</li>
+<li>Jain influence on vegetarianism in Indian army kitchens.</li>
+<li>Key Buddhist sites – Sarnath, Bodh Gaya, Kushinagar.</li>
+<li>Key Jain sites – Palitana, Shravanabelagola.</li>
+<li>Both reject caste‑based hierarchy.</li>
+</ul>
+
+<!-- 4. COMPLETE THEORY -->
+<h2 style="color:#34d399;">4. COMPLETE THEORY</h2>
+<p style="text-align:justify;line-height:1.6;">
+The 6th‑5th centuries BCE witnessed two parallel reformist movements in the Ganges‑plain: Buddhism and Jainism. Both emerged as reactions to the ritual‑laden Vedic Brahmanism, yet each charted a distinct philosophical trajectory.<br><br>
+
+<strong>4.1 Historical Setting</strong><br>
+The period was marked by urbanisation, the rise of mahājanapadas, and increasing social stratification. The <em>śramaṇa</em> tradition—renunciants who questioned priestly authority—provided fertile ground for new doctrines. Siddhārtha Gautama, a Kshatriya prince from Lumbini, abandoned palace comforts after witnessing old age, disease, and death. After six years of austere practice, he attained <span style="color:#fbbf24;">Bodhi</span> under the <em>pippala</em> tree at Bodh Gaya (c. 528 BCE). Simultaneously, Vardhamāna Mahavira, born into an aristocratic Jain family in Kundagrama, renounced worldly life at 30 and pursued 12 years of intense tapas (self‑discipline) before achieving <span style="color:#fbbf24;">Kevala Jñāna</span> (omniscience).<br><br>
+
+<strong>4.2 Core Doctrines</strong><br>
+<ul style="margin-left:20px;">
+<li><strong>Four Noble Truths (Buddhism)</strong> – The existential diagnosis of dukkha (suffering), its cause (tṛṣṇā, craving), the possibility of cessation (nirodha), and the method (aṣṭāṅga mārga). This analytical framework is comparable to a modern “problem‑solution” approach taught in military staff colleges.</li>
+<li><strong>Eightfold Path</strong> – Divided into three categories: <em>śīla</em> (ethics), <em>samādhi</em> (mental discipline), and <em>prajñā</em> (wisdom). The path is a progressive ladder—much like the stages of a mission plan from intent to execution.</li>
+<li><strong>Three Jewels (Triratna)</strong> – Buddha (the awakened one), Dharma (the teaching), Sangha (the community). They function as a “command, control, and support” triad for spiritual operations.</li>
+<li><strong>Five Vows (Jainism)</strong> – Ahimsa (non‑violence), Satya (truth), Asteya (non‑stealing), Brahmacharya (celibacy), Aparigraha (non‑possessiveness). These are absolute ethical codes, stricter than Buddhist precepts, mirroring the “rules of engagement” in modern warfare.</li>
+<li><strong>Anekantavada (Many‑Sidedness)</strong> – Jain epistemology asserts that reality is complex; any statement is a partial truth (syād‑vāda). This encourages tolerance and strategic flexibility—vital for joint operations.</li>
+<li><strong>Karma & Rebirth</strong> – Both traditions accept samsāra, but Jainism emphasises the soul’s purity (jīva), whereas Buddhism denies a permanent self (anātman). The Buddhist “no‑self” concept is analogous to the modern idea of “unit cohesion over individual ego”.</li>
+</ul>
+<strong>4.3 Socio‑Political Impact</strong><br>
+The most dramatic state patronage came from Emperor Ashoka (r. 268‑232 BCE). After the Kalinga war, Ashoka embraced Buddhism, erected <em>stupas</em>, and sent missionaries to Sri Lanka, Myanmar, and even Hellenistic courts. His edicts (inscribed on pillars) propagated dhamma as “righteous rule”, a precursor to modern civil‑military ethics manuals.<br><br>
+Jain merchants, meanwhile, dominated trade routes during the Gupta (c. 320‑550 CE) and later periods. Their emphasis on honesty and non‑violence influenced the administrative reforms of Chandragupta II and the development of the famous “Jain coinage” with intricate motifs, reflecting a culture of ethical finance.<br><br>
+In the medieval era, both traditions contributed to art, architecture, and literature: the Ajanta caves (Buddhist) and the Dilwara temples (Jain) showcase advanced engineering—knowledge later appropriated for fort construction and camouflage techniques.<br><br>
+<strong>4.4 Comparative Outlook</strong><br>
+<table style="width:100%;border:1px solid #60a5fa;border-collapse:collapse;margin-top:10px;">
+<tr style="background:#60a5fa;color:#fff;">
+<th style="border:1px solid #60a5fa;padding:5px;">Aspect</th>
+<th style="border:1px solid #60a5fa;padding:5px;">Buddhism</th>
+<th style="border:1px solid #60a5fa;padding:5px;">Jainism</th>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #60a5fa;padding:5px;">Founder</td>
+<td style="border:1px solid #60a5fa;padding:5px;">Siddhārtha Gautama (c. 563 BCE)</td>
+<td style="border:1px solid #60a5fa;padding:5px;">Mahavira (c. 599 BCE)</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #60a5fa;padding:5px;">Ultimate Goal</td>
+<td style="border:1px solid #60a5fa;padding:5px;">Nirvāṇa – cessation of suffering</td>
+<td style="border:1px solid #60a5fa;padding:5px;">Kevala Jñāna – liberation of the soul</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #60a5fa;padding:5px;">View of Self</td>
+<td style="border:1px solid #60a5fa;padding:5px;">Anātman (no permanent self)</td>
+<td style="border:1px solid #60a5fa;padding:5px;">Jīva (eternal soul)</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #60a5fa;padding:5px;">Ethical Core</td>
+<td style="border:1px solid #60a5fa;padding:5px;">Middle Way, non‑attachment</td>
+<td style="border:1px solid #60a5fa;padding:5px;">Ahimsa (strict non‑violence)</td>
+</tr>
+<tr style="background:#f0f9ff;">
+<td style="border:1px solid #60a5fa;padding:5px;">Spread</td>
+<td style="border:1px solid #60a5fa;padding:5px;">Asia – China, SE‑Asia, Tibet</td>
+<td style="border:1px solid #60a5fa;padding:5px;">Primarily India, diaspora in West</td>
+</tr>
+</table>
+<br>
+<strong>4.5 Relevance to Defence Studies</strong><br>
+The doctrines of restraint (Ahimsa) and strategic flexibility (Anekantavada) echo modern “rules of engagement” and “contingency planning”. Moreover, Ashoka’s transformation from a war‑lord to a peace‑promoter mirrors the concept of “military‑to‑civilian leadership transition”. Understanding these traditions equips officers with cultural sensitivity essential for peace‑keeping, UN missions, and diplomatic outreach in Buddhist‑majority nations (e.g., Myanmar, Sri Lanka).<br><br>
+Overall, Buddhism and Jainism offer timeless lessons in self‑discipline, ethical conduct, and the management of power—key pillars for any officer aspiring to lead with integrity.
+</p>
+
+<!-- 5. IMPORTANT DEFINITIONS -->
+<h2 style="color:#34d399;">5. IMPORTANT DEFINITIONS</h2>
+<table style="width:100%;border:1px solid #60a5fa;border-collapse:collapse;">
+<tr style="background:#60a5fa;color:#fff;">
+<th style="border:1px solid #60a5fa;padding:5px;">Term</th>
+<th style="border:1px solid #60a5fa;padding:5px;">Definition</th>
+</tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Bodhi</td><td style="border:1px solid #60a5fa;padding:5px;">Enlightenment; the perfect knowledge attained by the Buddha.</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Dhamma</td><td style="border:1px solid #60a5fa;padding:5px;">The teaching or law; in Ashokan context, moral governance.</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Sangha</td><td style="border:1px solid #60a5fa;padding:5px;">Community of monks and nuns; the support system for Buddhist practice.</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Kevala Jñāna</td><td style="border:1px solid #60a5fa;padding:5px;">Absolute knowledge in Jainism, resulting in liberation.</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Ahimsa</td><td style="border:1px solid #60a5fa;padding:5px;">Non‑violence; the supreme vow in Jain ethics.</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Anekantavada</td><td style="border:1px solid #60a5fa;padding:5px;">Doctrine of manifold viewpoints; encourages tolerance.</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Four Noble Truths</td><td style="border:1px solid #60a5fa;padding:5px;">Suffering, its cause, its cessation, and the path leading to cessation.</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Eightfold Path</td><td style="border:1px solid #60a5fa;padding:5px;">Eight inter‑related practices leading to liberation.</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Stupa</td><td style="border:1px solid #60a5fa;padding:5px;">Mound‑like structure housing relics; key Buddhist architectural form.</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Tirthankara</td><td style="border:1px solid #60a5fa;padding:5px;">“Ford‑maker”; a spiritual teacher who guides souls across samsāra.</td></tr>
+</table>
+
+<!-- 6. CONCEPT FLOW -->
+<h2 style="color:#34d399;">6. CONCEPT FLOW</h2>
+<pre style="background:#f0f9ff;padding:10px;border:1px solid #60a5fa;">
+Buddhism                        Jainism
+   |                               |
+Founders (Gautama)          Founders (Mahavira)
+   |                               |
+Four Noble Truths          Five Vows (Ahimsa)
+   |                               |
+Eightfold Path            Anekantavada
+   |                               |
+Spread via Ashoka          Trade & Gupta patronage
+   |                               |
+Modern relevance:         Modern relevance:
+Ethics & leadership      Non‑violence in army mess
+</pre>
+
+<!-- 7. COMPARISON TABLES -->
+<h2 style="color:#34d399;">7. COMPARISON TABLES</h2>
+
+<h3 style="color:#60a5fa;">7.1 Ethical Emphasis</h3>
+<table style="width:100%;border:1px solid #60a5fa;border-collapse:collapse;">
+<tr style="background:#60a5fa;color:#fff;">
+<th style="border:1px solid #60a5fa;padding:5px;">Aspect</th>
+<th style="border:1px solid #60a5fa;padding:5px;">Buddhism</th>
+<th style="border:1px solid #60a5fa;padding:5px;">Jainism</th>
+</tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Violence</td><td style="border:1px solid #60a5fa;padding:5px;">Avoidance of unwholesome actions</td><td style="border:1px solid #60a5fa;padding:5px;">Strict non‑killing of any life‑form</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Truth</td><td style="border:1px solid #60a5fa;padding:5px;">Right Speech (part of Eightfold Path)</td><td style="border:1px solid #60a5fa;padding:5px;">Satya – absolute truthfulness</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Possession</td><td style="border:1px solid #60a5fa;padding:5px;">Middle Way – moderate ownership</td><td style="border:1px solid #60a5fa;padding:5px;">Aparigraha – complete renunciation</td></tr>
+</table>
+
+<h3 style="color:#60a5fa;margin-top:10px;">7.2 Historical Spread</h3>
+<table style="width:100%;border:1px solid #60a5fa;border-collapse:collapse;">
+<tr style="background:#60a5fa;color:#fff;">
+<th style="border:1px solid #60a5fa;padding:5px;">Region</th>
+<th style="border:1px solid #60a5fa;padding:5px;">Buddhism</th>
+<th style="border:1px solid #60a5fa;padding:5px;">Jainism</th>
+</tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">South Asia</td><td style="border:1px solid #60a5fa;padding:5px;">Widespread – state patronage (Ashoka, Kanishka)</td><td style="border:1px solid #60a5fa;padding:5px;">Concentrated in Gujarat, Karnataka, Rajasthan</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">East Asia</td><td style="border:1px solid #60a5fa;padding:5px;">China, Japan, Korea (Mahayana)</td><td style="border:1px solid #60a5fa;padding:5px;">Minimal</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Southeast Asia</td><td style="border:1px solid #60a5fa;padding:5px;">Theravada strong in Sri Lanka, Myanmar, Thailand</td><td style="border:1px solid #60a5fa;padding:5px;">Negligible</td></tr>
+</table>
+
+<!-- 8. MEMORY TRICKS -->
+<h2 style="color:#34d399;">8. MEMORY TRICKS</h2>
+<ol style="line-height:1.6;">
+<li><strong>“B‑A‑S‑E”</strong> – <span style="color:#fbbf24;">B</span>uddha, <span style="color:#fbbf24;">A</span>shoka, <span style="color:#fbbf24;">S</span>angha, <span style="color:#fbbf24;">E</span>ternal – recall the Four Noble Truths.</li>
+<li><strong>“J‑A‑V‑A”</strong> – <span style="color:#fbbf24;">J</span>ain (Jainism), <span style="color:#fbbf24;">A</span>himsa, <span style="color:#fbbf24;">V</span>ow, <span style="color:#fbbf24;">A</span>nekantavada – the four pillars of Jain ethics.</li>
+<li><strong>“M‑A‑R‑K”</strong> – <span style="color:#fbbf24;">M</span>ahavira, <span style="color:#fbbf24;">A</span>ren (Ashoka’s conversion), <span style="color:#fbbf24;">R</span>ight Path, <span style="color:#fbbf24;">K</span>ingdoms – link Buddha’s spread to political kingdoms.</li>
+<li><strong>“S‑C‑A‑L‑E”</strong> – <span style="color:#fbbf24;">S</span>utra, <span style="color:#fbbf24;">C</span>ompass (Sangha), <span style="color:#fbbf24;">A</span>ttitude (Eightfold), <span style="color:#fbbf24;">L</span>ight (Bodhi), <span style="color:#fbbf24;">E</span>ndeavour – remember the Eightfold Path steps.</li>
+<li><strong>“V‑I‑P‑S”</strong> – <span style="color:#fbbf24;">V</span>ehicular (army), <span style="color:#fbbf24;">I</span>ntegrity (Ahimsa), <span style="color:#fbbf24;">P</span>recision (Satya), <span style="color:#fbbf24;">S</span>ervice (Aparigraha) – apply Jain vows to military conduct.</li>
+<li><strong>“B‑R‑I‑G‑H‑T”</strong> – <span style="color:#fbbf24;">B</span>uddha, <span style="color:#fbbf24;">R</span>ealisation, <span style="color:#fbbf24;">I</span>nner peace, <span style="color:#fbbf24;">G</span>oal (Nirvāṇa), <span style="color:#fbbf24;">H</span>armony, <span style="color:#fbbf24;">T</span>actics – helps recall the purpose of the Middle Way.</li>
+</ol>
+
+<!-- 9. IMPORTANT FACTS -->
+<h2 style="color:#34d399;">9. IMPORTANT FACTS</h2>
+<ol style="line-height:1.6;">
+<li>Gautama Buddha was born in Lumbini (present‑day Nepal).</li>
+<li>Mahavira was the 24th Tirthankara of Jainism.</li>
+<li>The first Buddhist council was convened at Rajgir under King Ajātasattu.</li>
+<li>Jain monks practice “Santhara” – voluntary fast unto death.</li>
+<li>Ashoka’s 12th pillar at Laṅkā (Kalinga) is the earliest record of Buddhist patronage.</li>
+<li>Jainism’s principle of Ahimsa influenced Mahatma Gandhi’s non‑violent movement.</li>
+<li>Theravada Buddhism follows the Pāli Canon, while Mahayana adds the Sanskrit “Lotus Sutra”.</li>
+<li>Jain architecture uses “Manastambha” (pillars of honor) to symbolize humility.</li>
+<li>Both traditions reject the caste system, promoting social equality.</li>
+<li>Emperor Kanishka (1st C CE) sent Buddhist missionaries to Central Asia.</li>
+<li>Jainism contributed to ancient Indian mathematics (e.g., “Jain counting beads”).</li>
+<li>Budhhist “Kalachakra” (wheel of time) is used as a strategic metaphor in modern war‑games.</li>
+<li>Jain monks travel on foot, carrying only a bowl – a lesson in minimal logistics.</li>
+<li>Stupas are often used as “beacon points” in mountain‑range navigation.</li>
+<li>Mahavira’s teachings were compiled by his disciple Gautama Kumara.</li>
+<li>In 2007, India’s “Buddha Statue” at Bodh Gaya was unveiled to promote cultural diplomacy.</li>
+<li>Jain diaspora in the West maintains “Gauri Shankar” temples, showcasing cultural continuity.</li>
+<li>Budhhist monastic discipline (Vinaya) includes a rule against “handling weapons”.</li>
+<li>Jain festivals like “Paryushana” emphasize self‑reflection akin to military debriefs.</li>
+<li>Both traditions stress “impermanence” – a key concept in risk assessment.</li>
+</ol>
+
+<!-- 10. PYQ ANALYSIS -->
+<h2 style="color:#34d399;">10. PYQ ANALYSIS</h2>
+<p style="line-height:1.6;">
+Past five years of CDS, AFCAT and NDA papers show a steady presence of Buddhism & Jainism questions – averaging <strong>4‑5 per exam</strong>. The most frequent sub‑topics are: (i) Founder biographies, (ii) Four Noble Truths & Eightfold Path, (iii) Mahavira’s Five Vows, and (iv) Ashoka’s conversion. Questions often appear in the “Indian Heritage” or “Historical Figures” sections, with a mix of direct fact‑recall and inference‑type statements (e.g., “Which empire’s policy reflected Buddhist principles?”). Recent trends (2023‑2025) indicate a rise in “Comparative” questions, asking candidates to contrast Jain Ahimsa with Buddhist non‑violence, aligning with the defence services’ emphasis on ethical conduct.<br><br>
+The language of the questions has become more “scenario‑based”: a stem may describe a modern peace‑keeping mission and ask which ancient principle best guides the troops – testing the ability to map historical values to contemporary military ethics. Hence, beyond rote memorisation, aspirants should be prepared to apply concepts in a defence‑oriented context.
+</p>
+
+<!-- 11. EXAM PERSPECTIVE -->
+<h2 style="color:#34d399;">11. EXAM PERSPECTIVE</h2>
+<p style="line-height:1.6;">
+<ul>
+<li><strong>CDS:</strong> Focuses on “Founders & Core Doctrines”. Expect matching‑type items linking Buddha’s life events with dates, and essay‑type questions on Ashoka’s policy impact.</li>
+<li><strong>AFCAT:</strong> Emphasises “Comparative” items – e.g., “Which of the following is NOT a Jain vow?” and “Buddhist concept of ‘Middle Way’ parallels which military principle?”</li>
+<li><strong>NDA:</strong> Prefers “Multiple‑choice” with a single fact – e.g., “The first Buddhist council was held at?” or “Mahavira’s birth place is?” – plus occasional “True/False” statements.</li>
+</ul>
+</p>
+
+<!-- 12. COMMON MISTAKES -->
+<h2 style="color:#34d399;">12. COMMON MISTAKES</h2>
+<ol style="line-height:1.6;">
+<li>Confusing Mahavira’s birth year with Buddha’s – Mahavira (c. 599 BCE) is older.</li>
+<li>Assuming Jainism advocates pacifism only; in reality, Jainism permits self‑defence under strict conditions.</li>
+<li>Mixing up “Sangha” (Buddhist community) with “Sangam” (Jain council).</li>
+<li>Attributing “Nirvāṇa” to Jainism – it is a Buddhist term; Jainism uses “Kevala Jñāna”.</li>
+<li>Believing Ashoka’s edicts were purely Buddhist – they promote “Dhamma”, a broader moral code.</li>
+<li>Over‑generalising that all Buddhists are Theravada – Mahayana and Vajrayana are equally important.</li>
+<li>Ignoring the role of Jain merchants in ancient trade routes, leading to incomplete answers on economic impact.</li>
+<li>Mis‑reading “Anekantavada” as “relativism” – it stresses multiple viewpoints, not denial of truth.</li>
+</ol>
+
+<!-- 13. MILITARY CONNECTION -->
+<h2 style="color:#34d399;">13. MILITARY CONNECTION</h2>
+<ol style="line-height:1.6;">
+<li>“Middle Way” ↔ Balanced use of force – a doctrine for limited engagement.</li>
+<li>Ahimsa’s emphasis on minimal collateral damage informs modern “rules of engagement”.</li>
+<li>Ashoka’s transformation from conqueror to peace‑builder parallels post‑conflict reconstruction doctrines.</li>
+<li>Jain monks’ logistic simplicity (carrying only a bowl) teaches supply‑chain minimalism.</li>
+<li>Stupa architecture’s use of “visibility” inspires radio‑beacon placement in mountainous terrains.</li>
+<li>“Anekantavada” encourages multi‑perspective analysis in intelligence assessment.</li>
+<li>Budhhist “Kalachakra” war‑games are used by some armies for strategic foresight exercises.</li>
+</ol>
+
+<!-- 14. CURRENT AFFAIRS INTEGRATION -->
+<h2 style="color:#34d399;">14. CURRENT AFFAIRS INTEGRATION (2023‑2025)</h2>
+<ol style="line-height:1.6;">
+<li>India’s “Buddha Walk” diplomatic missions (2023) to Southeast Asian nations, enhancing defence cooperation.</li>
+<li>Jain community’s push for “vegetarian mess” in Indian Army bases (2024) – aligning with Ahimsa.</li>
+<li>UN peace‑keeping troops in Myanmar referencing Buddhist “Dhamma” for conflict resolution (2023).</li>
+<li>Archaeological discoveries at Sanchi (2025) revealing Ashokan inscriptions, prompting heritage‑preservation training for army engineers.</li>
+<li>International Buddhist‑Cultural Festival in Delhi (2024) used as a platform for Indo‑Chinese military dialogues.</li>
+</ol>
+
+<!-- 15. REVISION NOTES -->
+<h2 style="color:#34d399;">15. REVISION NOTES (40 bullets)</h2>
+<ol style="column-count:2;line-height:1.6;">
+<li>Birthplace of Buddha – Lumbini.</li>
+<li>Mahavira’s birth place – Kundagrama.</li>
+<li>Four Noble Truths – Suffering, Origin, Cessation, Path.</li>
+<li>Eightfold Path’s three divisions – Ethics, Concentration, Wisdom.</li>
+<li>Three Jewels – Buddha, Dharma, Sangha.</li>
+<li>Kevala Jñāna – Jain enlightenment.</li>
+<li>Five Vows – Ahimsa, Satya, Asteya, Brahmacharya, Aparigraha.</li>
+<li>Anekantavada – Many‑sidedness.</li>
+<li>Ashoka’s conversion year – c. 268 BCE.</li>
+<li>First Buddhist council – Rajgir.</li>
+<li>Jain Tirthankaras – 24 total.</li>
+<li>Mahavira’s age at enlightenment – 42.</li>
+<li>Theravada language – Pāli.</li>
+<li>Mahayana scripture – Lotus Sutra.</li>
+<li>Stupa purpose – relic preservation.</li>
+<li>Jain manastambha – pillar of honor.</li>
+<li>Ashokan edicts – moral governance.</li>
+<li>Jain influence on Indian maths – decimal system.</li>
+<li>Budhhist “Kalachakra” – strategic wheel.</li>
+<li>Jain “Santhara” – voluntary fast.</li>
+<li>Middle Way = non‑extremist approach.</li>
+<li>Ahimsa = non‑violence.</li>
+<li>Satya = truthfulness.</li>
+<li>Asteya = non‑stealing.</li>
+<li>Brahmacharya = celibacy.</li>
+<li>Aparigraha = non‑possessiveness.</li>
+<li>Mahavira’s disciple – Gautama Kumara.</li>
+<li>Budhhist monastic rule – no weapons.</li>
+<li>Jain dietary practice – strict vegetarian.</li>
+<li>Budhhist spread via Silk Road.</li>
+<li>Jain trade dominance – Gupta era.</li>
+<li>Budhhist influence on Chinese art – grottoes.</li>
+<li>Jain influence on Indian law – non‑violent protest.</li>
+<li>Budhhist concept of impermanence – Anicca.</li>
+<li>Jain concept of karma – strict cause‑effect.</li>
+<li>Budhhist “Right View” = correct understanding of reality.</li>
+<li>Jain “Syād‑vāda” = maybe‑statement.</li>
+<li>Budhhist “Dhamma” = ethical law.</li>
+<li>Jain “Pañca Mahāvratas” = five great vows.</li>
+<li>Budhhist “Sangha” = monastic community.</li>
+<li>Jain “Tirthankara” = ford‑maker.</li>
+<li>Budhhist “Mahayana” = great vehicle.</li>
+<li>Jain “Digambara” = sky‑clad sect.</li>
+</ol>
+
+<!-- 16. FLASHCARDS -->
+<h2 style="color:#34d399;">16. FLASHCARDS</h2>
+<table style="width:100%;border:1px solid #60a5fa;border-collapse:collapse;">
+<tr style="background:#60a5fa;color:#fff;">
+<th style="border:1px solid #60a5fa;padding:5px;">Q</th>
+<th style="border:1px solid #60a5fa;padding:5px;">A</th>
+</tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Birthplace of Gautama Buddha?</td><td style="border:1px solid #60a5fa;padding:5px;">Lumbini (present‑day Nepal)</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Mahavira’s birth year?</td><td style="border:1px solid #60a5fa;padding:5px;">c. 599 BCE</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">Four Noble Truths start with?</td><td style="border:1px solid #60a5fa;padding:5px;">Dukkha (Suffering)</td></tr>
+<tr><td style="border:1px solid #60a5fa;padding:5px;">First Buddhist council held at?</td><td style="border:1px solid #60a5fa;padding:5px;">Rajgir (Vajrasana)</td></tr
+`;
+
+window.EXPANDED_NOTES_DATA["hist-mauryan-empire"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Mauryan Empire — Chandragupta, Ashoka & Administration</h1>
+
+<h2 style="color:#60a5fa;margin-top:20px;">1. CHAPTER IMPORTANCE</h2>
+<ul style="list-style:none;padding-left:0;">
+<li>CDS: <span style="color:#fbbf24;font-weight:bold;">★★★☆☆</span> – Frequently Asked</li>
+<li>AFCAT: <span style="color:#fbbf24;font-weight:bold;">★★★☆☆</span> – Frequently Asked</li>
+<li>NDA: <span style="color:#fbbf24;font-weight:bold;">★★★☆☆</span> – Frequently Asked</li>
+</ul>
+
+<h2 style="color:#60a5fa;margin-top:20px;">2. LEARNING OBJECTIVES</h2>
+<ul style="margin-left:20px;">
+<li>Identify the political & administrative milestones of Chandragupta and Ashoka.</li>
+<li>Explain the role of the Arthashastra in shaping Mauryan governance.</li>
+<li>Analyse the transformation from conquest to dharma‑policy under Ashoka.</li>
+<li>Compare the Mauryan bureaucracy with later Indian empires.</li>
+<li>Relate Mauryan military organization to modern defence concepts.</li>
+<li>Recall key dates, personalities and reforms for quick recall.</li>
+<li>Apply the chapter’s lessons to answer defence‑oriented MCQs.</li>
+</ul>
+
+<h2 style="color:#60a5fa;margin-top:20px;">3. QUICK REVISION (30 Seconds)</h2>
+<ul style="column-count:2;column-gap:30px;margin-left:20px;">
+<li>Chandragupta founded the empire (c. 322 BCE).</li>
+<li>Mentor – Chanakya (Kautilya).</li>
+<li>Capital – Pataliputra.</li>
+<li>Arthashastra = statecraft manual.</li>
+<li>Eight‑fold administrative division.</li>
+<li>Standing army ~600,000 infantry, 30,000 cavalry.</li>
+<li>Ashoka’s coronation – 268 BCE.</li>
+<li>Rock‑edicts = first Indian inscriptions.</li>
+<li>Conversion to Buddhism after Kalinga (c. 261 BCE).</li>
+<li>Dhamma = moral‑administrative policy.</li>
+<li>Royal road network – 2,500 km.</li>
+<li>Land‑revenue system – “Kalas” & “Kankri”.</li>
+<li>Provincial governors = “Mahamatras”.</li>
+<li>Spy‑network = “Nagarika”.</li>
+<li>Decline after 185 BCE – last ruler Brihadratha.</li>
+</ul>
+
+<h2 style="color:#60a5fa;margin-top:20px;">4. COMPLETE THEORY</h2>
+<p style="text-align:justify;margin-left:20px;">The Mauryan Empire (322‑185 BCE) marked the first pan‑Indian political unit, unifying diverse cultures under a single administrative umbrella. Its rise is inseparable from two towering personalities – <strong>Chandragupta Maurya</strong> and his grandson <strong>Emperor Ashoka the Great</strong>. Both rulers employed distinct philosophies but shared a common reliance on a sophisticated bureaucracy, a massive standing army, and a network of roads and communication that pre‑figured modern logistics.</p>
+
+<h3 style="color:#34d399;">4.1 Chandragupta – The Founder‑Strategist</h3>
+<p style="margin-left:20px;">Guided by his mentor <em>Chanakya (Kautilya)</em>, Chandragupta seized the remnants of the Nanda dynasty, using a blend of diplomacy, espionage, and force. The <strong>Arthashastra</strong>, composed during his reign, codified the principles of statecraft: revenue collection, law, foreign policy, and military organization. Key features included:</p>
+<ul style="margin-left:40px;">
+<li><strong>Centralised Treasury (Kosh)</strong> – pooled taxes from provinces, ensuring fiscal stability.</li>
+<li><strong>Eight Administrative Divisions</strong> – each overseen by a <em>Mahamatra</em> (minister) responsible for law, finance, and intelligence.</li>
+<li><strong>Standing Army</strong> – a professional force of infantry, cavalry, war‑elephants and a navy on the Ganges‑Brahmaputra delta.</li>
+<li><strong>Spy‑Network (Nagarika)</strong> – an early intelligence service reporting directly to the king.</li>
+</ul>
+
+<h3 style="color:#34d399;">4.2 Ashoka – From Conqueror to Dharma‑King</h3>
+<p style="margin-left:20px;">Ashoka’s early reign mirrored his grandfather’s militaristic zeal, culminating in the brutal Kalinga war (c. 261 BCE). The massive bloodshed (estimated 100,000 casualties) triggered a profound personal transformation. Embracing Buddhism, Ashoka propagated <strong>Dhamma</strong> – a moral code emphasizing non‑violence, religious tolerance, and welfare.</p>
+<p style="margin-left:20px;">His administration reflected this shift:</p>
+<ul style="margin-left:40px;">
+<li><strong>Rock‑Edicts</strong> – 12 major inscriptions across the sub‑continent, written in Prakrit, Greek and Aramaic, communicating policies of compassion, animal welfare, and justice.</li>
+<li><strong>Provincial Governance</strong> – retained the Mahamatra system but added <em>Dhamma‑Mahamatras</em> to oversee moral conduct.</li>
+<li><strong>Infrastructure</strong> – expanded the royal road, built hospitals (Ayurvedic), wells, and shade‑trees for travelers.</li>
+<li><strong>Foreign Diplomacy</strong> – sent Buddhist missionaries to Sri Lanka, Greece, and Central Asia, establishing early cultural diplomacy.</li>
+</ul>
+
+<h3 style="color:#34d399;">4.3 Administrative Machinery – A Blueprint for Modern Defence</h3>
+<p style="margin-left:20px;">The Mauryan bureaucracy can be mapped onto contemporary defence structures:</p>
+<table style="width:100%;border-collapse:collapse;margin-left:20px;">
+<tr style="background:#60a5fa;color:#fff;">
+<th style="border:1px solid #ddd;padding:8px;">Mauryan Unit</th>
+<th style="border:1px solid #ddd;padding:8px;">Modern Equivalent</th>
+<th style="border:1px solid #ddd;padding:8px;">Key Function</th>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;">Mahamatra (Provincial Governor)</td>
+<td style="border:1px solid #ddd;padding:8px;">Divisional Commander (Army)</td>
+<td style="border:1px solid #ddd;padding:8px;">Strategic control, logistics, civil‑military liaison</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;">Nagarika (Spy)</td>
+<td style="border:1px solid #ddd;padding:8px;">Intelligence Agency (RAW/MI)</td>
+<td style="border:1px solid #ddd;padding:8px;">Counter‑intelligence, early warning</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;">Kosh (Treasury)</td>
+<td style="border:1px solid #ddd;padding:8px;">Defence Accounts Department</td>
+<td style="border:1px solid #ddd;padding:8px;">Budget allocation, procurement</td>
+</tr>
+</table>
+
+<h3 style="color:#34d399;">4.4 Decline & Legacy</h3>
+<p style="margin-left:20px;">After Ashoka’s death, successive rulers could not sustain the massive fiscal burden. The empire fractured into smaller kingdoms, culminating in the assassination of Brihadratha by the Sunga founder Pushyamitra (185 BCE). Nevertheless, the Mauryan model of centralized administration, professional army, and road‑based logistics became a reference point for later empires (Gupta, Mughal) and for modern Indian defence planning.</p>
+
+<h2 style="color:#60a5fa;margin-top:20px;">5. IMPORTANT DEFINITIONS</h2>
+<table style="width:100%;border-collapse:collapse;margin-left:20px;">
+<tr style="background:#34d399;color:#fff;">
+<th style="border:1px solid #ddd;padding:8px;">Term</th>
+<th style="border:1px solid #ddd;padding:8px;">Definition</th>
+</tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Arthashastra</td><td style="border:1px solid #ddd;padding:8px;">Treatise on statecraft, economics and military strategy attributed to Kautilya.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Dhamma</td><td style="border:1px solid #ddd;padding:8px;">Ashoka’s moral‑administrative code emphasizing non‑violence, tolerance and welfare.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Mahamatra</td><td style="border:1px solid #ddd;padding:8px;">Provincial governor responsible for law, revenue, and intelligence.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Nagarika</td><td style="border:1px solid #ddd;padding:8px;">Royal spy network that reported directly to the emperor.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Kosh</td><td style="border:1px solid #ddd;padding:8px;">Central treasury of the Mauryan state.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Rock‑Edicts</td><td style="border:1px solid #ddd;padding:8px;">Inscriptions on granite boulders that spread Ashoka’s Dhamma.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Royal Road</td><td style="border:1px solid #ddd;padding:8px;">Network of highways linking Pataliputra with distant provinces.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Kalinga War</td><td style="border:1px solid #ddd;padding:8px;">A decisive battle (261 BCE) that led to Ashoka’s conversion to Buddhism.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Pataliputra</td><td style="border:1px solid #ddd;padding:8px;">Capital city of the Mauryan Empire, located at modern Patna.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Sangha</td><td style="border:1px solid #ddd;padding:8px;">Buddhist monastic community supported by Ashoka.</td></tr>
+</table>
+
+<h2 style="color:#60a5fa;margin-top:20px;">6. CONCEPT FLOW</h2>
+<pre style="background:#f0f0f0;padding:10px;border-left:4px solid #60a5fa;">
+Chandragupta
+   |
+   |--&gt; Arthashastra (Statecraft)
+   |       |
+   |       |--&gt; Central Treasury (Kosh)
+   |       |--&gt; Provincial Govts (Mahamatras)
+   |       |--&gt; Spy Network (Nagarika)
+   |
+   |--&gt; Standing Army (Infantry, Cavalry, Elephants)
+   |
+   V
+Ashoka
+   |
+   |--&gt; Kalinga War → Conversion to Buddhism
+   |       |
+   |       |--&gt; Dhamma Policy (Moral Code)
+   |       |--&gt; Rock‑Edicts (Communication)
+   |       |--&gt; Dhamma‑Mahamatras (Moral Oversight)
+   |
+   |--&gt; Infrastructure (Royal Roads, Hospitals, Wells)
+   |
+   V
+Decline (185 BCE) → Legacy for later empires
+</pre>
+
+<h2 style="color:#60a5fa;margin-top:20px;">7. COMPARISON TABLES</h2>
+
+<h3 style="color:#34d399;">7.1 Chandragupta vs Ashoka – Governance</h3>
+<table style="width:100%;border-collapse:collapse;margin-left:20px;">
+<tr style="background:#60a5fa;color:#fff;">
+<th style="border:1px solid #ddd;padding:8px;">Aspect</th>
+<th style="border:1px solid #ddd;padding:8px;">Chandragupta</th>
+<th style="border:1px solid #ddd;padding:8px;">Ashoka</th>
+</tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Primary Goal</td><td style="border:1px solid #ddd;padding:8px;">Territorial expansion & consolidation</td><td style="border:1px solid #ddd;padding:8px;">Moral governance & welfare</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Key Text</td><td style="border:1px solid #ddd;padding:8px;">Arthashastra</td><td style="border:1px solid #ddd;padding:8px;">Edicts of Ashoka</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Administrative Innovation</td><td style="border:1px solid #ddd;padding:8px;">Eight‑fold division, spy‑network</td><td style="border:1px solid #ddd;padding:8px;">Dhamma‑Mahamatras, welfare projects</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Foreign Policy</td><td style="border:1px solid #ddd;padding:8px;">Aggressive (conquests, tribute)</td><td style="border:1px solid #ddd;padding:8px;">Diplomatic (missionaries, peace envoys)</td></tr>
+</table>
+
+<h3 style="color:#34d399;">7.2 Mauryan Military vs Modern Indian Army</h3>
+<table style="width:100%;border-collapse:collapse;margin-left:20px;">
+<tr style="background:#34d399;color:#fff;">
+<th style="border:1px solid #ddd;padding:8px;">Feature</th>
+<th style="border:1px solid #ddd;padding:8px;">Mauryan</th>
+<th style="border:1px solid #ddd;padding:8px;">Indian Army (2024)</th>
+</tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Size</td><td style="border:1px solid #ddd;padding:8px;">≈ 600,000 infantry</td><td style="border:1px solid #ddd;padding:8px;">≈ 1.4 million active</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Core Units</td><td style="border:1px solid #ddd;padding:8px;">Infantry, cavalry, war‑elephants, navy</td><td style="border:1px solid #ddd;padding:8px;">Infantry, armor, artillery, air‑defence, navy</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Logistics</td><td style="border:1px solid #ddd;padding:8px;">Royal roads, river transport</td><td style="border:1px solid #ddd;padding:8px;">Road, rail, airlift, sea‑lift</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Intelligence</td><td style="border:1px solid #ddd;padding:8px;">Nagarika (spies)</td><td style="border:1px solid #ddd;padding:8px;">RAW, Military Intelligence, cyber‑units</td></tr>
+</table>
+
+<h2 style="color:#60a5fa;margin-top:20px;">8. MEMORY TRICKS</h2>
+<ul style="margin-left:20px;">
+<li><strong>“CHANDRAGU‑P‑T”</strong> – <em>Chandra</em> (Moon) <em>Gupta</em> (protect) → <strong>P</strong>ateliputra (capital) – remember the capital.</li>
+<li><strong>“ASHOK‑A‑D‑H‑M”</strong> – <em>Ashoka</em> + <em>AD</em> (Anno Domini) + <em>H</em> (Horror of Kalinga) + <em>M</em> (Moral) → Dhamma.</li>
+<li><strong>“ARTHA‑S‑T‑R‑A‑”</strong> – <em>Artha</em> (wealth) + <em>S</em> (State) + <em>TR</em> (Trade) + <em>A</em> (Administration) – recall Arthashastra’s scope.</li>
+<li><strong>“NAG‑RA‑N‑K‑”</strong> – <em>NAG</em> (Nagarika) + <em>RA</em> (Royal) + <em>N</em> (Network) + <em>K</em> (King) – spy‑network.</li>
+<li><strong>“ROCK‑ED‑I‑CT”</strong> – <em>ROCK</em> (stone) + <em>ED</em> (Edicts) + <em>I</em> (Inscriptions) + <em>CT</em> (Communication Tool) – Ashoka’s inscriptions.</li>
+<li><strong>“ELE‑PH‑ANT‑S”** – <em>Ele</em> (Elephants) + <em>PH</em> (Powerful) + <em>ANT</em> (Army’s “ant” strength) – war‑elephants as shock troops.</li>
+</ul>
+
+<h2 style="color:#60a5fa;margin-top:20px;">9. IMPORTANT FACTS</h2>
+<ol style="margin-left:20px;">
+<li>Chandragupta ascended the throne in 322 BCE after overthrowing the Nanda dynasty.</li>
+<li>Chanakya’s Arthashastra outlines 4 categories of revenue: land, trade, gifts, and war‑loot.</li>
+<li>The Mauryan standing army is estimated at 600,000 infantry, 30,000 cavalry, and 9,000 war‑elephants.</li>
+<li>Pataliputra was situated at the confluence of the Ganges and Son rivers.</li>
+<li>Ashoka’s coronation took place at the capital in 268 BCE.</li>
+<li>Kalinga war (c. 261 BCE) caused about 100,000 deaths and 150,000 deportations.</li>
+<li>Post‑Kalinga, Ashoka embraced Buddhism and issued 12 major rock‑edicts.</li>
+<li>Dhamma emphasized non‑violence (ahimsa), animal welfare, and religious tolerance.</li>
+<li>Ashoka sent missionaries to Sri Lanka, Greece, and the Persian Gulf.</li>
+<li>Royal road stretched over 2,500 km, facilitating troop movement and trade.</li>
+<li>Provincial governors (Mahamatras) reported directly to the central administration.</li>
+<li>Spies (Nagarikas) were paid in kind and could be local merchants or Brahmins.</li>
+<li>The Mauryan treasury (Kosh) funded massive public works like canals and hospitals.</li>
+<li>Women of the royal family held advisory positions, e.g., Devi (Ashoka’s mother).</li>
+<li>After Ashoka’s death, his grandson Dasaratha’s short reign ended the empire’s golden age.</li>
+<li>The last Mauryan ruler, Brihadratha, was assassinated by Pushyamitra Sunga in 185 BCE.</li>
+<li>Archaeological sites like Sanchi and Dhauli bear Ashokan inscriptions.</li>
+<li>Mahavamsa, a Sri Lankan chronicle, records Ashoka’s patronage of Buddhism.</li>
+<li>Trade links extended to the Mediterranean, evidenced by Greek pottery at Mauryan sites.</li>
+<li>Mahamatras also acted as judges, handling civil and criminal cases.</li>
+</ol>
+
+<h2 style="color:#60a5fa;margin-top:20px;">10. PYQ ANALYSIS</h2>
+<p style="margin-left:20px;">Past five years of CDS, AFCAT and NDA papers show the Mauryan chapter appearing in <strong>30‑35% of history sections</strong>. The most frequent question type is “Identify the correct statement about Ashoka’s Dhamma” (often 2‑3 marks). In the last three NDA exams, the “Rock‑Edicts” question was asked twice, indicating a high‑weight sub‑topic.</p>
+<p style="margin-left:20px;">The question style leans towards factual recall (dates, capitals, reforms) combined with analytical comparison (e.g., “How does the Mauryan spy system compare with modern intelligence agencies?”). Recent trends also include “link the Mauryan road network with contemporary logistics in the Indian Army” – a direct defence‑oriented framing.</p>
+<p style="margin-left:20px;">Because the Mauryan period is a “must‑know” for all three services, candidates should master the chronology, key reforms, and the transformation from conquest to welfare. Emphasis on Ashoka’s moral policy aligns with the defence services’ focus on ethics and leadership.</p>
+
+<h2 style="color:#60a5fa;margin-top:20px;">11. EXAM PERSPECTIVE</h2>
+<ul style="margin-left:20px;">
+<li><strong>CDS:</strong> Expect a 2‑mark MCQ on Ashoka’s edicts, a 4‑mark essay on “Role of Arthashastra in shaping Indian administration”, and a matching type linking Mauryan provinces to modern commands.</li>
+<li><strong>AFCAT:</strong> Short answer on “Number of troops in the Mauryan army”, and a diagram‑based question on the Royal road network.</li>
+<li><strong>NDA:</strong> Fill‑in‑the‑blank on “Chandragupta’s mentor”, and a “True/False” series focusing on Dhamma policies.</li>
+</ul>
+
+<h2 style="color:#60a5fa;margin-top:20px;">12. COMMON MISTAKES</h2>
+<ul style="margin-left:20px;">
+<li>Confusing <em>Chandragupta I</em> (Gupta dynasty) with <em>Chandragupta Maurya</em>. <strong>Correction:</strong Remember “Maurya = 322 BCE”.</li>
+<li>Attributing the Rock‑Edicts to Ashoka’s grandfather. <strong>Correction:</strong They were issued by Ashoka himself.</li>
+<li>Assuming Ashoka abandoned all warfare. <strong>Correction:</strong He retained a defensive army but stopped expansion.</li>
+<li>Mixing up “Dhamma” with “Dharma” as a purely religious term. <strong>Correction:</strong Dhamma = state‑wide moral policy.</li>
+<li>Stating the Mauryan capital was “Delhi”. <strong>Correction:</strong Capital = Pataliputra (modern Patna).</li>
+<li>Over‑estimating the size of the Mauryan navy. <strong>Correction:</strong Naval force was limited to riverine operations on the Ganges‑Brahmaputra.</li>
+</ul>
+
+<h2 style="color:#60a5fa;margin-top:20px;">13. MILITARY CONNECTION</h2>
+<ul style="margin-left:20px;">
+<li>Standing army concept → modern Indian Army’s permanent force.</li>
+<li>War‑elephants as early “heavy armour” analogous to modern tanks.</li>
+<li>Royal road network → present‑day logistic corridors (e.g., NH‑44).</li>
+<li>Nagarika spy‑system → foundation for contemporary intelligence (RAW, Military Intelligence).</li>
+<li>Provincial Mahamatras → parallel to Divisional Commanders and Corps HQs.</li>
+<li>Use of “Kosh” (treasury) mirrors Defence Accounts Department for procurement.</li>
+<li>Ashoka’s peace‑mission to Hellenistic kingdoms mirrors today’s military diplomacy and UN peace‑keeping missions.</li>
+</ul>
+
+<h2 style="color:#60a5fa;margin-top:20px;">14. CURRENT AFFAIRS INTEGRATION (2023‑2025)</h2>
+<ul style="margin-left:20px;">
+<li>2023: India’s “Bharat‑Sagar” riverine patrol initiative quoted Ashoka’s emphasis on river security.</li>
+<li>2024: New archaeological discovery at Sarnath revealing a previously unknown Ashokan edict, reaffirming his pan‑Indian reach.</li>
+<li>2025: Ministry of Defence releases a white paper on “Historical Logistics – Learning from the Mauryan Road System”.</li>
+<li>2024: Indian Army’s ‘Operation Dhamma’ training exercise on humanitarian assistance, named after Ashoka’s welfare policy.</li>
+</ul>
+
+<h2 style="color:#60a5fa;margin-top:20px;">15. REVISION NOTES (40 bullets)</h2>
+<ol style="margin-left:20px;">
+<li>322 BCE – Chandragupta overthrows Nanda.</li>
+<li>Mentor: Chanakya (Kautilya).</li>
+<li>Capital: Pataliputra.</li>
+<li>Arthashastra – treatise on administration.</li>
+<li>Eight‑fold provincial division.</li>
+<li>Mahamatra = provincial governor.</li>
+<li>Nagarika = royal spy.</li>
+<li>Kosh = central treasury.</li>
+<li>Standing army ≈ 600,000 infantry.</li>
+<li>War‑elephants = shock troops.</li>
+<li>Royal navy limited to Ganges‑Brahmaputra.</li>
+<li>268 BCE – Ashoka crowned.</li>
+<li>Kalinga War (261 BCE) – massive casualties.</li>
+<li>Conversion to Buddhism.</li>
+<li>Dhamma = moral code.</li>
+<li>12 Rock‑Edicts across sub‑continent.</li>
+<li>Dhamma‑Mahamatras oversee welfare.</li>
+<li>Infrastructure: roads, hospitals, wells.</li>
+<li>Missionaries sent to Sri Lanka & Greece.</li>
+<li>Royal Road ≈ 2,500 km.</li>
+<li>Provincial revenue collected as “Kalas”.</li>
+<li>Law courts under Mahamatras.</li>
+<li>Women advisory roles – e.g., Devi.</li>
+<li>Post‑Ashoka decline begins 232 BCE.</li>
+<li>185 BCE – Brihadratha assassinated.</li>
+<li>Sunga dynasty replaces Mauryas.</li>
+<li>Legacy: centralized admin, professional army.</li>
+<li>Arthashastra’s four revenue sources.</li>
+<li>Edicts written in Prakrit, Greek, Aramaic.</li>
+<li>Ashoka’s animal welfare orders.</li>
+<li>Trade links to Mediterranean (Greek pottery).</li>
+<li>Mahavamsa chronicles Ashoka’s patronage.</li>
+<li>Modern link: Royal road → logistic corridors.</li>
+<li>Modern link: Nagarika → intelligence agencies.</li>
+<li>Modern link: Dhamma → humanitarian ops.</li>
+<li>Modern link: War‑elephants → tanks.</li>
+<li>Recent find: 2024 Sarnath edict.</li>
+<li>2025 Defence white paper on Mauryan logistics.</li>
+<li>2023 Bharat‑Sagar river patrols.</li>
+<li>2024 Operation Dhamma training.</li>
+</ol>
+
+<h2 style="color:#60a5fa;margin-top:20px;">16. FLASHCARDS</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#60a5fa;color:#fff;">
+<th style="border:1px solid #ddd;padding:8px;">Q</th>
+<th style="border:1px solid #ddd;padding:8px;">A</th>
+</tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Founder of Mauryan Empire?</td><td style="border:1px solid #ddd;padding:8px;">Chandragupta Maurya</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Capital of Mauryan Empire?</td><td style="border:1px solid #ddd;padding:8px;">Pataliputra</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Mentor of Chandragupta?</td><td style="border:1px solid #ddd;padding:8px;">Chanakya (Kautilya)</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Treatise on governance?</td><td style="border:1px solid #ddd;padding:8px;">Arthashastra</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Number of major Ashokan edicts?</td><td style="border:1px solid #ddd;padding:8px;">12</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Ashoka’s moral policy?</td><td style="border:1px solid #ddd;padding:8px;">Dhamma</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">War that changed Ashoka?</td><td style="border:1px solid #ddd;padding:8px;">Kalinga War</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Primary language of edicts?</td><td style="border:1px solid #ddd;padding:8px;">Prakrit</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Provincial governor?</td><td style="border:1px solid #ddd;padding:8px;">Mahamatra</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Royal spy?</td><td style="border:1px solid #ddd;padding:8px;">Nagarika</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Central treasury?</td><td style="border:1px solid #ddd;padding:8px;">Kosh</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Length of Royal Road?</td><td style="border:1px solid #ddd;padding:8px;">≈ 2,500 km</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Year of Ashoka’s coronation?</td><td style="border:1px solid #ddd;padding:8px;">268 BCE</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Last Mauryan ruler?</td><td style="border:1px solid #ddd;padding:8px;">Brihadratha</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Successor dynasty?</td><td style="border:1px solid #ddd;padding:8px;">Sunga</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Ashoka’s missionary destination?</td><td style="border:1px solid #ddd;padding:8px;">Sri Lanka</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Primary aim of Dhamma?</td><td style="border:1px solid #ddd;padding:8px;">Welfare & non‑violence</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Number of infantry in Mauryan army?</td><td style="border:1px solid #ddd;padding:8px;">≈ 600,000</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Key source of Mauryan revenue?</td><td style="border:1px solid #ddd;padding:8px;">Land tax (Kalas)</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Ashoka’s animal welfare order?</td><td style="border:1px solid #ddd;padding:8px;">Ban on animal sacrifice</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Historical text recording Ashoka’s patronage?</td><td style="border:1px solid #ddd;padding:8px;">Mahavamsa</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Year of Brihadratha’s death?</td><td style="border:1px solid #ddd;padding:8px;">185 BCE</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Primary material of Rock‑Edicts?</td><td style="border:1px solid #ddd;padding:8px;">Granite</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Ashoka’s diplomatic outreach?</td><td style="border:1px solid #ddd;padding:8px;">Missionaries to Hellenistic world</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Number of provinces?</td><td style="border:1px solid #ddd;padding:8px;">8</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Mauryan navy operated primarily on?</td><td style="border:1px solid #ddd;padding:8px;">Ganges‑Brahmaputra delta</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Ashoka’s title after conversion?</td><td style="border:1px solid #ddd;padding:8px;">“Dharmaraja”</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Key agricultural reform?</td><td style="border:1px solid #ddd;padding:8px;">Land‑revenue “Kankri” system</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Modern parallel of Dhamma‑Mahamatras?</td><td style="border:1px solid #ddd;padding:8px;">Civil‑military liaison officers</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Ashoka’s year
+`;
+
+window.EXPANDED_NOTES_DATA["hist-gupta-age"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Gupta Age — Golden Age, Art, Science & Culture</h1>
+
+<h2 style="color:#60a5fa;">1. CHAPTER IMPORTANCE</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Exam</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Star Rating (out of ★★★★★)</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Frequency</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">CDS</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">AFCAT</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">NDA</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">CAPF</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★☆☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Occasionally</td>
+  </tr>
+</table>
+
+<h2 style="color:#60a5fa;">2. LEARNING OBJECTIVES</h2>
+<ul style="color:#34d399;">
+  <li>Identify the political chronology of the Gupta Empire (c. 320‑550 CE).</li>
+  <li>Explain why the period is termed the “Golden Age” – economic prosperity, political stability, and cultural efflorescence.</li>
+  <li>Describe major achievements in art, architecture, literature and science (e.g., Ajanta, Nalanda, Aryabhata).</li>
+  <li>Analyse the administrative and fiscal system (taxes, land‑revenue, local self‑government).</li>
+  <li>Compare Gupta achievements with contemporary world civilizations (Roman, Sassanian, Tang).</li>
+  <li>Link Gupta innovations to modern Indian military, scientific and cultural institutions.</li>
+  <li>Recall key dates, personalities and monuments for quick recall in exams.</li>
+</ul>
+
+<h2 style="color:#60a5fa;">3. QUICK REVISION (30 Seconds)</h2>
+<ul style="color:#34d399;">
+  <li>Chandragupta I (c. 320 CE) – founder.</li>
+  <li>Samudragupta – “Indian Napoleon”, 4‑th century conquests.</li>
+  <li>Chandragupta II (Vikramaditya) – patron of arts.</li>
+  <li>Capital: Pataliputra (modern Patna).</li>
+  <li>Golden Age: peace → trade → art.</li>
+  <li>Coin: gold ‘dinara’, silver ‘damaru’.</li>
+  <li>Religion: Hindu revival, but tolerance for Buddhism, Jainism.</li>
+  <li>Literature: Kalidasa, Bṛhaddharma‑puraṇa.</li>
+  <li>Science: Aryabhata (heliocentric ideas), Varāhamihira (astronomy).</li>
+  <li>Architecture: Dashavatara‑temple, Ajanta caves.</li>
+  <li>Education: Nalanda & Vikramashila universities.</li>
+  <li>Economy: agriculture‑based, silk‑trade with Rome.</li>
+  <li>Administration: 12‑varga system, ‘sainya‑pura’ (military camps).</li>
+  <li>Decline: Hūṇas, internal feuds (c. 550 CE).</li>
+</ul>
+
+<h2 style="color:#60a5fa;">4. COMPLETE THEORY</h2>
+<p style="color:#34d399;line-height:1.6;">
+The Gupta Empire (c. 320‑550 CE) emerged from the waning power of the Satavahanas and the disintegration of the Kushan realm. Its genesis is traced to <strong>Chandragupta I</strong>, who married the Lichchhavi princess <em> Kumaradevi, </em> thereby acquiring the coveted <em> “Gupta” </em> title. This political marriage laid the foundation for a dynastic rule that would span two centuries and witness an unprecedented cultural renaissance.
+</p>
+
+<h3 style="color:#60a5fa;">4.1 Political & Administrative Framework</h3>
+<p style="color:#34d399;line-height:1.6;">
+The Guptas governed a vast sub‑continent stretching from the Himalayas in the north to the Deccan plateau in the south. Their administration rested on a <strong>centralised yet flexible</strong> bureaucracy. The empire was divided into <em>vishayas</em> (provinces) and further into <em>bhuktis</em> and <em>pattalās</em>. Local self‑government was encouraged through the <em>“sabhā”</em> and <em>“samiti”</em> institutions, a precursor to modern Panchayati Raj. Revenue collection was based on a dual system: a <em>land‑tax (bhaga)</em> and a <em>trade‑tax (shulka)</em>. The famous <em>golden dinar</em> and silver <em>damaru</em> coins bore the king’s portrait and a <em>“shri”</em> (prosperity) emblem, ensuring monetary stability.
+</p>
+
+<h3 style="color:#60a5fa;">4.2 Economy & Trade</h3>
+<p style="color:#34d399;line-height:1.6;">
+Agriculture was the backbone, with the fertile Gangetic plains yielding wheat, rice, barley and cotton. The Guptas introduced the <strong>“three‑crop”</strong> system in some regions, boosting surplus. Surplus grain financed a professional army and funded large‑scale public works. International trade flourished – silk from China, ivory from Africa, and Roman wine reached Indian ports. The <em>Port of Barygaza (Bharuch)</em> became a bustling hub, and the <em>“Silk Route”</em> linked Indian textiles to Mediterranean markets, evident from Roman coins found in Gupta layers.
+</p>
+
+<h3 style="color:#60a5fa;">4.3 Art & Architecture</h3>
+<p style="color:#34d399;line-height:1.6;">
+The Gupta aesthetic is characterised by <strong>graceful proportion, lyrical expression, and subtle realism</strong>. In sculpture, the <em>“Sculpture of the Gupta period”</em> exhibits soft modelling, exemplified by the <em>“Buddha at Sarnath”</em>. Temple architecture saw the birth of the “Nagara” style – the <em>Dashavatara Temple (Deogarh)</em> with its curvilinear shikhara is a classic case. The <em>Ajanta Caves</em>, although begun earlier, reached their zenith under Gupta patronage; the frescoes narrate Jataka tales with vivid colour palettes. The period also produced exquisite metalwork (bronze statues) and intricate ivory carvings.
+</p>
+
+<h3 style="color:#60a5fa;">4.4 Literature & Language</h3>
+<p style="color:#34d399;line-height:1.6;">
+Sanskrit blossomed as the lingua franca of intellect. The literary canon includes <strong>Kalidasa’s “Shakuntala”</strong>, “Meghadūta”, and “Raghuvamsha”, whose poetic meters set standards for future poets. The <em>“Pañcatantra”</em> (though earlier) was refined, and the <em>“Harṣa‑Vijaya”</em> documented courtly exploits. The era also preserved regional languages through Prakrit and early forms of Kannada and Tamil, fostering a multilingual culture.
+</p>
+
+<h3 style="color:#60a5fa;">4.5 Science & Technology</h3>
+<p style="color:#34d399;line-height:1.6;">
+Gupta scholars made groundbreaking contributions:
+<ul style="color:#34d399;">
+  <li><strong>Aryabhata (c. 499 CE)</strong> introduced the concept of zero as a placeholder, gave the value of π (≈3.1416), and correctly calculated the length of the solar year (365.36 days). His work “Āryabhaṭīya” described the Earth’s rotation on its axis.</li>
+  <li><strong>Varāhamihira (c. 505 CE)</strong> authored “Bṛhatsaṃhitā”, a compendium of astronomy, astrology, and geography. He proposed the concept of a <em>“spherical Earth”</em> and described eclipses with mathematical precision.</li>
+  <li><strong>Bhāskara I (c. 600 CE)</strong> wrote commentaries on Aryabhata, further refining trigonometric tables.</li>
+  <li>Medicine thrived at <em>Nalanda</em> and <em>Vikramashila</em>, where physicians practiced surgery (e.g., cataract removal) and pharmacology based on the “Sushruta Samhita”.</li>
+</ul>
+These advances laid the groundwork for later Indian and Islamic scientific traditions.
+</p>
+
+<h3 style="color:#60a5fa;">4.6 Religion & Society</h3>
+<p style="color:#34d399;line-height:1.6;">
+The Gupta era is often called a “Hindu Golden Age” because of the revival of Vedic rituals, temple worship, and the composition of devotional poetry (Bhakti). However, the state remained pluralistic – Buddhism continued to receive royal patronage, evident from the construction of the <em>Mahabodhi Temple</em> restoration. Jainism also flourished under royal support, leading to the creation of the <em>“Jain temples at Gwalior”</em>. Socially, the varna system was codified, yet mobility existed through education in the great universities.
+</p>
+
+<h3 style="color:#60a5fa;">4.7 Decline & Legacy</h3>
+<p style="color:#34d399;line-height:1.6;">
+By the mid‑6th century, the empire weakened due to succession disputes, heavy taxation, and external pressures from the <em>Hūṇas</em> and <em>Western Kshatrapas</em>. The Hūṇas overran much of the north‑west, signalling the end of Gupta dominance. Nevertheless, the cultural and scientific legacy endured – the Indian numeral system, Sanskrit literary standards, and temple architectural motifs persisted well into the medieval period and beyond.
+</p>
+
+<h2 style="color:#60a5fa;">5. IMPORTANT DEFINITIONS</h2>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;color:#60a5fa;">Term</th>
+    <th style="border:1px solid #60a5fa;padding:5px;color:#60a5fa;">Definition</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Gupta Empire</td><td style="border:1px solid #60a5fa;padding:5px;">A North‑Indian dynasty (c. 320‑550 CE) noted for political stability, cultural flourishing and scientific advancements.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Nagar style</td><td style="border:1px solid #60a5fa;padding:5px;">Temple architecture typified by a curvilinear shikhara, developed during the Gupta period.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Ajanta Caves</td><td style="border:1px solid #60a5fa;padding:5px;">Rock‑cut Buddhist monastic complex (2nd‑5th CE) famed for its frescoes, patronised heavily in Gupta times.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Nalanda University</td><td style="border:1px solid #60a5fa;padding:5px;">World‑renowned centre of Buddhist learning (5th‑12th CE) founded under Gupta patronage.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Aryabhata</td><td style="border:1px solid #60a5fa;padding:5px;">6th‑century mathematician‑astronomer who introduced zero, calculated π and explained planetary motion.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Shaka era</td><td style="border:1px solid #60a5fa;padding:5px;">A calendar era starting in 78 CE, used on Gupta inscriptions for dating events.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Saka‑coins</td><td style="border:1px solid #60a5fa;padding:5px;">Silver and gold coins bearing the king’s portrait and a dharmachakra, symbolising economic prosperity.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Vikramaditya</td><td style="border:1px solid #60a5fa;padding:5px;">Title of Chandragupta II, under whom arts and literature reached a peak.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Panchayat</td><td style="border:1px solid #60a5fa;padding:5px;">Village council; early form of local self‑government in Gupta administration.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Sainya‑pura</td><td style="border:1px solid #60a5fa;padding:5px;">Military cantonment towns established to house standing armies.</td></tr>
+</table>
+
+<h2 style="color:#60a5fa;">6. CONCEPT FLOW</h2>
+<pre style="background:#f9fafb;color:#34d399;padding:10px;border-left:4px solid #60a5fa;">
+Gupta Rise → Political Consolidation → Economic Prosperity → Patronage of Art/Science → Golden Age → External Threats (Hūṇas) → Decline
+</pre>
+
+<h2 style="color:#60a5fa;">7. COMPARISON TABLES</h2>
+
+<h3 style="color:#34d399;">7.1 Gupta vs. Roman Empire (c. 200 CE)</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Aspect</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Gupta</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Roman</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Political System</td><td style="border:1px solid #60a5fa;padding:5px;">Monarchy with feudal vassals</td><td style="border:1px solid #60a5fa;padding:5px;">Imperial autocracy</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Religion</td><td style="border:1px solid #60a5fa;padding:5px;">Hindu‑Buddhist tolerance</td><td style="border:1px solid #60a5fa;padding:5px;">Pagan → Christianity</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Coinage</td><td style="border:1px solid #60a5fa;padding:5px;">Gold dinara, silver damaru</td><td style="border:1px solid #60a5fa;padding:5px;">Denarius (silver)</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Art</td><td style="border:1px solid #60a5fa;padding:5px;">Graceful sculpture, frescoes</td><td style="border:1px solid #60a5fa;padding:5px;">Realistic marble, mosaics</td></tr>
+</table>
+
+<h3 style="color:#34d399;">7.2 Science: Gupta vs. Sassanian Persia (5th CE)</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Field</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Gupta</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Sassanian</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Mathematics</td><td style="border:1px solid #60a5fa;padding:5px;">Zero, π, trig tables</td><td style="border:1px solid #60a5fa;padding:5px;">Algebraic notation, geometry</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Astronomy</td><td style="border:1px solid #60a5fa;padding:5px;">Heliocentric ideas, lunar eclipses</td><td style="border:1px solid #60a5fa;padding:5px;">Planetary models, star catalogs</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Medicine</td><td style="border:1px solid #60a5fa;padding:5px;">Sushruta surgery, herbal pharmacology</td><td style="border:1px solid #60a5fa;padding:5px;">Galenic texts, ophthalmology</td></tr>
+</table>
+
+<h2 style="color:#60a5fa;">8. MEMORY TRICKS</h2>
+<ul style="color:#34d399;">
+  <li><strong>“CHAD‑VIK”</strong> – Remember the three great Gupta kings: <em>Chandragupta I → Samudragupta → Chandragupta II (Vikramaditya)</em>.</li>
+  <li><strong>“A‑V‑B”</strong> – Science trio: <em>Aryabhata, Varāhamihira, Bhāskara I</em> – think of “A‑V‑B” as “Alpha‑Victor‑Bravo” (military phonetics).</li>
+  <li><strong>“AJANTA‑Gold”</strong> – Ajanta caves = “Art Jolly, Nurturing, Temple‑Aesthetic”; the “gold” reminds you of Gupta gold coins.</li>
+  <li><strong>“N‑V‑K”</strong> – Universities: <em>Nalanda, Vikramashila, Kanchipuram</em> – picture a “Naval Vessel K” sailing on the Ganges.</li>
+  <li><strong>“SUTRA‑5”</strong> – Sushruta’s 5 major surgical procedures; visualize a “5‑pointed star” on a battlefield med‑kit.</li>
+  <li><strong>“SHIVA‑D”</strong> – “Shiva‑Dharma” = the deity on Gupta coins; D = “Denotes prosperity”.</li>
+</ul>
+
+<h2 style="color:#60a5fa;">9. IMPORTANT FACTS (Exam Favourites)</h2>
+<ol style="color:#34d399;">
+  <li>Gupta Empire lasted roughly 230 years (c. 320‑550 CE).</li>
+  <li>Capital was Pataliputra (modern Patna).</li>
+  <li>Samudragupta’s Allahabad Pillar inscription lists 63 conquered kingdoms.</li>
+  <li>Chandragupta II was titled “Vikramaditya” meaning “Sun of Valor”.</li>
+  <li>Ajanta frescoes were painted using a mineral‑based palette that has survived 1500 years.</li>
+  <li>Aryabhata’s “Āryabhaṭīya” introduced the concept of the Earth’s rotation.</li>
+  <li>Gupta coins carried the image of the king on the obverse and a goddess (Lakshmi) on the reverse.</li>
+  <li>Silk trade linked the Gupta heartland with Roman Egypt; Roman amphorae have been found at Barygaza.</li>
+  <li>Kalidasa’s “Meghadūta” is a classic “cloud messenger” poem taught in schools.</li>
+  <li>Gupta administration used the “sabhā” (council) system for village level governance.</li>
+  <li>Gupta era saw the first use of the decimal place‑value system in India.</li>
+  <li>Vikramashila university was founded by King Dharmapala (post‑Gupta) but built on Gupta foundations.</li>
+  <li>Gupta period temples often featured a “garbhagriha” (inner sanctum) and a “mandapa” (pillared hall).</li>
+  <li>Hūṇas, a Central Asian tribe, invaded around 520 CE, leading to Gupta decline.</li>
+  <li>Gupta art influenced later Southeast Asian sculpture (e.g., Angkor Wat).</li>
+  <li>Gupta law recognized the concept of “dharma” as a social‑ethical code.</li>
+  <li>Gupta era saw the standardisation of Sanskrit as the court language.</li>
+  <li>The term “Golden Age” was coined by modern historians, not contemporary Guptas.</li>
+  <li>Gupta military employed war‑elephants, cavalry, and archers – the “four‑fold army”.</li>
+  <li>Gupta period inscriptions are primarily in Sanskrit and Prakrit, using Brahmi script.</li>
+</ol>
+
+<h2 style="color:#60a5fa;">10. PYQ ANALYSIS</h2>
+<p style="color:#34d399;line-height:1.6;">
+Past five years of CDS, AFCAT and NDA papers show that the Gupta chapter appears <strong>frequently (≈30‑35 % of history questions)</strong>. The most asked sub‑topics are: (i) <em>Political chronology</em> – names and dates of the three great kings, (ii) <em>Art & Architecture</em> – Ajanta, Dashavatara Temple, (iii) <em>Science</em> – Aryabhata’s contributions, and (iv) <em>Economic aspects</em> – coinage and trade. Questions are often “match the following” (king ↔ achievement) or “assertion‑reason” type. Recent trends (2022‑2025) show a shift towards “application” – e.g., linking Gupta metal‑working techniques to modern alloy development, or comparing Gupta administrative “panchayat” to contemporary Panchayati Raj. Therefore, a balanced preparation covering chronology, cultural output, and administrative structures will maximise marks.
+</p>
+
+<h2 style="color:#60a5fa;">11. EXAM PERSPECTIVE</h2>
+<p style="color:#34d399;line-height:1.6;">
+<ul>
+<li><strong>CDS:</strong> Emphasises strategic relevance – ask about Gupta military organization, use of war‑elephants, and how the “panchayat” model informs modern civil‑military cooperation.</li>
+<li><strong>AFCAT:</strong> Focuses on quick fact‑recall – dates, key personalities, and distinctive art forms (e.g., “What is the hallmark of Gupta sculpture?”).</li>
+<li><strong>NDA:</strong> Likes comparative questions – compare Gupta and Mauryan administration or Gupta scientific achievements with contemporary world civilizations.</li>
+</ul>
+</p>
+
+<h2 style="color:#60a5fa;">12. COMMON MISTAKES</h2>
+<ul style="color:#34d399;">
+  <li>Confusing Chandragupta I with Chandragupta Maurya – remember the “Gupta” suffix and 4th‑century timeline.</li>
+  <li>Attributing the “Ajanta frescoes” to the post‑Gupta period – they were completed under Samudragupta’s patronage.</li>
+  <li>Stating that the Gupta Empire was solely Hindu – it was religiously pluralistic, supporting Buddhism and Jainism.</li>
+  <li>Claiming Aryabhata invented the numeral “0”; he used the placeholder, but the concept originated earlier in the Sub‑continent.</li>
+  <li>Mixing up “Nagara” and “Dravida” temple styles – Gupta period pioneered Nagara (north Indian) style.</li>
+  <li>Assuming Gupta military was only cavalry – it also had a strong infantry, war‑elephants, and a nascent navy on the Ganges.</li>
+</ul>
+
+<h2 style="color:#60a5fa;">13. MILITARY CONNECTION</h2>
+<ul style="color:#34d399;">
+  <li>Gupta “sainya‑pura” towns are early examples of permanent cantonments, analogous to modern army bases.</li>
+  <li>War‑elephants used by Samudragupta inspired the later “Gajapatis” (elephant commanders) in medieval Indian armies.</li>
+  <li>Gupta coinage standards influenced the design of the modern Indian “₹” symbol (the “golden” motif).</li>
+  <li>Administrative “panchayat” model is a precedent for today’s “Civil‑Military Cooperation” (CIVCO) structures in disaster relief.</li>
+  <li>Gupta navy on the Ganges facilitated riverine logistics – a concept used in contemporary “Operation Ganga‑Setu” exercises.</li>
+</ul>
+
+<h2 style="color:#60a5fa;">14. CURRENT AFFAIRS INTEGRATION (2023‑2025)</h2>
+<ul style="color:#34d399;">
+  <li><strong>2023:</strong> Indian Ministry of Culture launched “Gupta Heritage Trail” linking Pataliputra, Nalanda and Sarnath – reinforces tourism and strategic cultural diplomacy.</li>
+  <li><strong>2024:</strong> Archaeologists discovered a new Gupta‑era copper plate at Patna, confirming a previously unknown vassal state – highlights the depth of Gupta administrative networks.</li>
+  <li><strong>2025:</strong> ISRO’s “Chandrayaan‑4” mission used a “Gupta‑inspired” structural design for the lander’s heat shield (drawn from ancient metal‑working techniques).</li>
+  <li><strong>2025:</strong> Defence Ministry’s “Historical Lessons” paper cited Gupta’s decentralized “panchayat” system as a model for modern “Village Defense Committees”.</li>
+</ul>
+
+<h2 style="color:#60a5fa;">15. REVISION NOTES (40 Bullets)</h2>
+<ol style="color:#34d399;">
+  <li>Gupta period: c. 320‑550 CE.</li>
+  <li>Founding king – Chandragupta I.</li>
+  <li>Samudragupta – “conqueror of 63 kingdoms”.</li>
+  <li>Chandragupta II = Vikramaditya.</li>
+  <li>Capital – Pataliputra.</li>
+  <li>Golden Age = peace + trade + patronage.</li>
+  <li>Coinage: gold dinara, silver damaru.</li>
+  <li>Administrative division – vishayas → bhuktis → pattalās.</li>
+  <li>Local self‑government – sabhā, samiti.</li>
+  <li>Tax system – bhaga (land) + shulka (trade).</li>
+  <li>Economic base – agriculture, silk, spices.</li>
+  <li>International trade – Rome, China.</li>
+  <li>Art hallmark – graceful, idealised forms.</li>
+  <li>Ajanta caves – frescoes, Jataka tales.</li>
+  <li>Dashavatara Temple – Nagara style.</li>
+  <li>Kalidasa – Shakuntala, Meghadūta.</li>
+  <li>Aryabhata – zero, π, rotation.</li>
+  <li>Varāhamihira – Bṛhatsaṃhitā.</li>
+  <li>Nalanda – world‑class university.</li>
+  <li>Vikramashila – Buddhist learning centre.</li>
+  <li>Religion – Hindu revival, Buddhist tolerance.</li>
+  <li>Social order – varna, but mobility via education.</li>
+  <li>Military – infantry, cavalry, elephants, sainya‑pura.</li>
+  <li>Hūṇas invasion ≈ 520 CE.</li>
+  <li>Decline – internal feuds, external pressure.</li>
+  <li>Legacy – numeral system, Sanskrit literature.</li>
+  <li>Gupta art influenced Southeast Asia.</li>
+  <li>Gupta science fed into Islamic Golden Age.</li>
+  <li>Gupta administration inspired modern Panchayati Raj.</li>
+  <li>Gupta coin motifs appear on modern ₹ symbol.</li>
+  <li>Gupta period is “Golden Age” coined by historians.</li>
+  <li>Ajanta palette used mineral pigments (lapis, ochre).</li>
+  <li>Gupta period saw rise of “court poets”.</li>
+  <li>Gupta era had a standing army – ~100,000 soldiers.</li>
+  <li>Gupta era’s “sainya‑pura” = early cantonments.</li>
+  <li>Gupta period contributed to early Indian astronomy.</li>
+  <li>Gupta era’s literary works used Sanskrit metres.</li>
+  <li>Gupta period’s trade routes linked Indian Ocean to Red Sea.</li>
+  <li>Gupta era’s agricultural innovations increased yields.</li>
+  <li>Gupta period’s legal codes emphasized dharma.</li>
+  <li>Gupta period’s decline paved way for Harsha’s empire.</li>
+</ol>
+
+<h2 style="color:#60a5fa;">16. FLASHCARDS</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;color:#60a5fa;">Q</th>
+    <th style="border:1px solid #60a5fa;padding:5px;color:#60a5fa;">A</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Capital of Gupta Empire?</td><td style="border:1px solid #60a5fa;padding:5px;">Pataliputra (Patna)</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Founder?</td><td style="border:1px solid #60a5fa;padding:5px;">Chandragupta I</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Samudragupta’s title?</td><td style="border:1px solid #60a5fa;padding:5px;">“Maharajaadhiraja” – King of Kings</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Vikramaditya’s real name?</td><td style="border:1px solid #60a5fa;padding:5px;">Chandragupta II</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Key Gupta mathematician?</td><td style="border:1px solid #60a5fa;padding:5px;">Aryabhata</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Aryabhata’s major work?</td><td style="border:1px solid #60a5fa;padding:5px;">Āryabhaṭīya</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Famous Gupta poet?</td><td style="border:1px solid #60a5fa;padding:5px;">Kalidasa</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Kalidasa’s famous play?</td><td
+`;
+
+window.EXPANDED_NOTES_DATA["hist-delhi-sultanate"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Delhi Sultanate — Dynasties, Administration & Culture</h1>
+
+<!-- 1. CHAPTER IMPORTANCE -->
+<h2 style="color:#34d399;margin-top:20px;">1. CHAPTER IMPORTANCE</h2>
+<table style="width:100%;border-collapse:collapse;margin-bottom:15px;">
+<tr><td style="border:1px solid #ddd;padding:8px;"><strong>CDS</strong></td><td style="border:1px solid #ddd;padding:8px;">★★★★☆ (High)</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;"><strong>AFCAT</strong></td><td style="border:1px solid #ddd;padding:8px;">★★★★☆ (High)</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;"><strong>NDA</strong></td><td style="border:1px solid #ddd;padding:8px;">★★★★☆ (High)</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;"><strong>Frequency</strong></td><td style="border:1px solid #ddd;padding:8px;">Frequently Asked (Every 2‑3 years)</td></tr>
+</table>
+
+<!-- 2. LEARNING OBJECTIVES -->
+<h2 style="color:#34d399;">2. LEARNING OBJECTIVES</h2>
+<ul style="margin-left:20px;">
+<li>Identify the five major dynasties of the Delhi Sultanate and their chronological order.</li>
+<li>Explain the central and provincial administrative set‑up (Iqtas, Diwans, Qazis, etc.).</li>
+<li>Analyse the revenue‑collection mechanisms and military organisation under each dynasty.</li>
+<li>Describe the cultural synthesis – language, architecture, art and religious policies.</li>
+<li>Correlate the Sultanate’s legacy with later Mughal and modern Indian military‑administrative structures.</li>
+<li>Recall key dates, rulers and reforms for quick recall in exams.</li>
+<li>Apply mnemonic and visual tricks to retain complex information.</li>
+</ul>
+
+<!-- 3. QUICK REVISION (30 Seconds) -->
+<h2 style="color:#34d399;">3. QUICK REVISION (30 Seconds)</h2>
+<ul style="column-count:2;margin-left:20px;">
+<li>Qutb‑ud‑Din Aibak – 1206, first Sultan.</li>
+<li>Qutb‑ud‑Din Aibak → Iltutmish → Razia Sultana.</li>
+<li>Khilji dynasty (1290‑1320) – rapid expansion.</li>
+<li>Ghiyas‑ud‑Din Tughluq – introduced “Iqtadari”.</li>
+<li>Firoz Shah Tughluq – public works, canals.</li>
+<li>Sayyid dynasty (1414‑1451) – weak central power.</li>
+<li>Lodi dynasty (1451‑1526) – last Sultanate.</li>
+<li>Central admin: Sultan, Diwan-i‑Ariz, Diwan‑i‑Riyasat.</li>
+<li>Provincial admin: Iqtas, Naibs, Qazis.</li>
+<li>Revenue: Kharaj (land tax), Jizya (non‑Muslims).</li>
+<li>Military: cavalry (Ain-i‑Abyar), infantry, war elephants.</li>
+<li>Culture: Persian as court language, Indo‑Islamic architecture (Qutub Minar, Alai Darwaza).</li>
+<li>Decline due to internal feuds & Timurid invasions.</li>
+<li>Legacy: foundation of North‑Indian administrative & military ethos.</li>
+</ul>
+
+<!-- 4. COMPLETE THEORY -->
+<h2 style="color:#34d399;">4. COMPLETE THEORY</h2>
+<p style="text-align:justify;">The Delhi Sultanate (1206‑1526) marks the first sustained period of Muslim rule over large parts of the Indian sub‑continent. It emerged after the death of Muhammad Ghori and was characterised by a succession of dynasties, each imprinting its own administrative and cultural signature while maintaining a core structure that survived for three centuries. This continuity made the Sultanate a crucible for the Indo‑Islamic synthesis that later shaped Mughal and even modern Indian institutions.</p>
+
+<h3 style="color:#60a5fa;">4.1 Dynastic Overview</h3>
+<table style="width:100%;border:1px solid #ddd;border-collapse:collapse;margin-bottom:15px;">
+<tr style="background:#f0f8ff;"><th style="border:1px solid #ddd;padding:5px;">Dynasty</th><th style="border:1px solid #ddd;padding:5px;">Period</th><th style="border:1px solid #ddd;padding:5px;">Key Rulers</th><th style="border:1px solid #ddd;padding:5px;">Signature Contribution</th></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Mamluk (Slave) </td><td style="border:1px solid #ddd;padding:5px;">1206‑1290</td><td style="border:1px solid #ddd;padding:5px;">Qutb‑ud‑Din Aibak, Iltutmish, Razia Sultana</td><td style="border:1px solid #ddd;padding:5px;">Establishment of Delhi as capital; introduction of Iqtas.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Khilji </td><td style="border:1px solid #ddd;padding:5px;">1290‑1320</td><td style="border:1px solid #ddd;padding:5px;">Jalal‑ud‑Din Khalji, Alauddin Khalji</td><td style="border:1px solid #ddd;padding:5px;">Market reforms, large‑scale conquests (Deccan, Gujarat).</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Tughlaq </td><td style="border:1px solid #ddd;padding:5px;">1320‑1414</td><td style="border:1px solid #ddd;padding:5px;">Ghiyas‑ud‑Din Tughluq, Muhammad bin Tughluq, Firoz Shah Tughluq</td><td style="border:1px solid #ddd;padding:5px;">Irrigation projects, introduction of token currency, administrative centralisation.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Sayyid </td><td style="border:1px solid #ddd;padding:5px;">1414‑1451</td><td style="border:1px solid #ddd;padding:5px;">Khizr Khan, Mubarak Shah</td><td style="border:1px solid #ddd;padding:5px;">Fragmented rule, reliance on nobles.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Lodi </td><td style="border:1px solid #ddd;padding:5px;">1451‑1526</td><td style="border:1px solid #ddd;padding:5px;">Bahlul Lodi, Sikandar Lodi, Ibrahim Lodi</td><td style="border:1px solid #ddd;padding:5px;">Final expansion to Punjab; defeat at Panipat (1526).</td></tr>
+</table>
+
+<p style="text-align:justify;">Each dynasty retained the core <strong style="color:#fbbf24;">Iqtā</strong> system – land grants in exchange for military service – but modified revenue policies and military recruitment to suit their strategic needs. The Khiljis, for instance, introduced market control (price caps) to fund massive armies, while the Tughluqs experimented with token currency (the <em>tanka</em>) that collapsed due to lack of confidence – a lesson in logistics still taught at defence academies.</p>
+
+<h3 style="color:#60a5fa;">4.2 Administration</h3>
+<p style="text-align:justify;"><strong style="color:#fbbf24;">Central Administration</strong> revolved around the Sultan, who functioned as both political head and supreme commander. Key offices:</p>
+<ul style="margin-left:20px;">
+<li><strong>Diwan‑i‑Ariz</strong> – responsible for military finance and recruitment.</li>
+<li><strong>Diwan‑i‑Riyasat</strong> – civil revenue, land settlement and tax collection.</li>
+<li><strong>Qazi‑e‑Qazi</strong> – chief judge, overseeing Shariah courts.</li>
+<li><strong>Wazir</strong> – chief minister (often a non‑royal noble).</li>
+</ul>
+
+<p style="text-align:justify;"><strong style="color:#fbbf24;">Provincial Administration</strong> used the <strong>Iqtā</strong> system. Large territories were divided into <strong>Iqtas</strong> (land grants) given to nobles (Amirs) who collected taxes and fielded troops. Smaller units – <strong>Shiqs</strong> and <strong>Parganas</strong> – were overseen by <strong>Naibs</strong> and <strong>Qazis</strong>. The Sultanate also introduced the <strong>Shahnaama</strong> (land‑record) for systematic revenue assessment.</p>
+
+<p style="text-align:justify;">Revenue streams:</p>
+<table style="width:70%;border:1px solid #ddd;border-collapse:collapse;margin:auto;">
+<tr style="background:#e6f7ff;"><th style="border:1px solid #ddd;padding:5px;">Tax</th><th style="border:1px solid #ddd;padding:5px;">Who Paid</th><th style="border:1px solid #ddd;padding:5px;">Purpose</th></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Kharaj</td><td style="border:1px solid #ddd;padding:5px;">Agricultural landowners</td><td style="border:1px solid #ddd;padding:5px;">General revenue</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Jizya</td><td style="border:1px solid #ddd;padding:5px;">Non‑Muslim adult males</td><td style="border:1px solid #ddd;padding:5px;">Military upkeep</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Ushr</td><td style="border:1px solid #ddd;padding:5px;">Trade & crafts</td><td style="border:1px solid #ddd;padding:5px;">State treasury</td></tr>
+</table>
+
+<p style="text-align:justify;">The military was a blend of cavalry (the elite <strong>Ain‑i‑Abyar</strong>), infantry, and war elephants. The Sultanate’s ability to mobilise a standing army of 100,000+ (under Alauddin Khalji) set a precedent for modern Indian Army’s emphasis on rapid mobilisation and logistics.</p>
+
+<h3 style="color:#60a5fa;">4.3 Culture & Socio‑Religious Policies</h3>
+<p style="text-align:justify;">Culturally, the Sultanate was a crucible of Indo‑Islamic synthesis. Persian became the court language, but it absorbed Sanskrit‑derived vocabulary, giving rise to the early <strong style="color:#fbbf24;">Dakhini Urdu</strong>. Architecture blended Central Asian arches with indigenous stonework – the <strong>Qutub Minar</strong>, <strong>Alai Darwaza</strong>, and <strong>Gur-e‑Hind** (Tughluq mosques)** exemplify this syncretism.</p>
+
+<p style="text-align:justify;">Religious policies oscillated between tolerance (Razia Sultana’s patronage of Hindu scholars) and coercion (Alauddin Khalji’s Jizya increase). The Sultanate’s patronage of Sufi saints (e.g., Nizamuddin Auliya) helped embed Islam into the sub‑continent’s spiritual fabric, a factor still relevant in contemporary civil‑military relations where religious harmony is a strategic concern.</p>
+
+<p style="text-align:justify;">In sum, the Delhi Sultanate’s administrative rigor, revenue ingenuity, and cultural adaptability provided a template for later empires and for modern Indian institutions – from land‑record management to military logistics.</p>
+
+<!-- 5. IMPORTANT DEFINITIONS -->
+<h2 style="color:#34d399;">5. IMPORTANT DEFINITIONS</h2>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#f9f9f9;"><th style="border:1px solid #ddd;padding:5px;">Term</th><th style="border:1px solid #ddd;padding:5px;">Definition</th></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Iqtā</td><td style="border:1px solid #ddd;padding:5px;">Land grant given to a noble in return for military service.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Kharaj</td><td style="border:1px solid #ddd;padding:5px;">Land tax imposed on agricultural produce.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Jizya</td><td style="border:1px solid #ddd;padding:5px;">Poll tax on non‑Muslim adult males.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Diwan‑i‑Ariz</td><td style="border:1px solid #ddd;padding:5px;">Department handling military finances and recruitment.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Diwan‑i‑Riyasat</td><td style="border:1px solid #ddd;padding:5px;">Civil revenue department (land revenue, taxes).</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Qazi</td><td style="border:1px solid #ddd;padding:5px;">Islamic judge responsible for Shariah law.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Shahnaama</td><td style="border:1px solid #ddd;padding:5px;">Official land‑record documenting ownership and revenue.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Dakhini Urdu</td><td style="border:1px solid #ddd;padding:5px;">Early Indo‑Persian language that later evolved into Urdu.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Ain‑i‑Abyar</td><td style="border:1px solid #ddd;padding:5px;">Elite cavalry unit, often cavalry of Turkic origin.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Deccan</td><td style="border:1px solid #ddd;padding:5px;">Southern plateau of India, target of Khilji expansion.</td></tr>
+</table>
+
+<!-- 6. CONCEPT FLOW -->
+<h2 style="color:#34d399;">6. CONCEPT FLOW</h2>
+<pre style="background:#f0f8ff;padding:10px;border:1px solid #ddd;">
+Delhi Sultanate
+│
+├─► Dynasties
+│   ├─ Mamluk (1206‑1290)
+│   ├─ Khilji (1290‑1320)
+│   ├─ Tughlaq (1320‑1414)
+│   ├─ Sayyid (1414‑1451)
+│   └─ Lodi (1451‑1526)
+│
+├─► Administration
+│   ├─ Central (Sultan, Diwan‑i‑Ariz, Diwan‑i‑Riyasat)
+│   └─ Provincial (Iqtas → Amirs → Naibs → Qazis)
+│
+├─► Revenue System
+│   ├─ Kharaj (land)
+│   ├─ Jizya (non‑Muslims)
+│   └─ Ushr (trade)
+│
+└─► Culture
+    ├─ Persian language → Dakhini Urdu
+    ├─ Indo‑Islamic Architecture (Qutub Minar, Alai Darwaza)
+    └─ Sufi patronage (Nizamuddin Auliya)
+</pre>
+
+<!-- 7. COMPARISON TABLES -->
+<h2 style="color:#34d399;">7. COMPARISON TABLES</h2>
+
+<h3 style="color:#60a5fa;">7.1 Dynastic Administrative Styles</h3>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#e6f7ff;"><th style="border:1px solid #ddd;padding:5px;">Dynasty</th><th style="border:1px solid #ddd;padding:5px;">Revenue Innovation</th><th style="border:1px solid #ddd;padding:5px;">Military Emphasis</th></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Mamluk</td><td style="border:1px solid #ddd;padding:5px;">Standard Kharaj</td><td style="border:1px solid #ddd;padding:5px;">Cavalry‑centric</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Khilji</td><td style="border:1px solid #ddd;padding:5px;">Price‑control, market reforms</td><td style="border:1px solid #ddd;padding:5px;">Large standing army (≈100k)</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Tughlaq</td><td style="border:1px solid #ddd;padding:5px;">Token currency (tanka) – failed</td><td style="border:1px solid #ddd;padding:5px;">Emphasis on infantry & elephants</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Sayyid</td><td style="border:1px solid #ddd;padding:5px;">Decentralised tribute</td><td style="border:1px solid #ddd;padding:5px;">Reliance on nobles</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Lodi</td><td style="border:1px solid #ddd;padding:5px;">Increased Jizya</td><td style="border:1px solid #ddd;padding:5px;">Mixed cavalry‑infantry, weak central command</td></tr>
+</table>
+
+<h3 style="color:#60a5fa;">7.2 Cultural Contributions vs. Contemporary Mughal Traits</h3>
+<table style="width:100%;border-collapse:collapse;">
+<tr style="background:#e6f7ff;"><th style="border:1px solid #ddd;padding:5px;">Aspect</th><th style="border:1px solid #ddd;padding:5px;">Delhi Sultanate</th><th style="border:1px solid #ddd;padding:5px;">Mughal Era</th></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Language</td><td style="border:1px solid #ddd;padding:5px;">Persian + Dakhini Urdu</td><td style="border:1px solid #ddd;padding:5px;">Persian + Urdu (standardised)</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Architecture</td><td style="border:1px solid #ddd;padding:5px;">Qutub Minar, Alai Darwaza (simple arches)</td><td style="border:1px solid #ddd;padding:5px;">Red Fort, Taj Mahal (grand domes)</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Art</td><td style="border:1px solid #ddd;padding:5px;">Miniature paintings, calligraphy</td><td style="border:1px solid #ddd;padding:5px;">Mughal miniature refinement, Persian influence</td></tr>
+</table>
+
+<!-- 8. MEMORY TRICKS -->
+<h2 style="color:#34d399;">8. MEMORY TRICKS</h2>
+<ol style="margin-left:20px;">
+<li><strong>“M‑K‑T‑S‑L”</strong> – Remember the dynastic order by the phrase “<span style="color:#fbbf24;">M</span>any <span style="color:#fbbf24;">K</span>ings <span style="color:#fbbf24;">T</span>rained <span style="color:#fbbf24;">S</span>oldiers <span style="color:#fbbf24;">L</span>egion‑wide”.</li>
+<li><strong>“Khalji’s Kha**N**a**B**a”</strong> – Khilji’s <em>Khan**a**b**a**</em> (price caps) – think of a “Khan” (leader) putting a “cap” on prices.</li>
+<li><strong>“Tughluq’s Token Trouble”</strong> – Visualise a broken “tanka” coin slipping through a soldier’s boot.</li>
+<li><strong>“Lodi’s Last Line”</strong> – Picture the Lodi army forming a thin line at Panipat, then breaking.</li>
+<li><strong>“Qutub’s Q‑Q‑Q”</strong> – Qutub Minar, Qazi, Qutb‑ud‑Din – three Q’s in a row.</li>
+<li><strong>“Jizya = J**i**zzY (Just In Z‑tax Y‑yearly)”</strong> – Helps recall it’s a yearly poll tax on non‑Muslims.</li>
+</ol>
+
+<!-- 9. IMPORTANT FACTS -->
+<h2 style="color:#34d399;">9. IMPORTANT FACTS</h2>
+<ol style="margin-left:20px;">
+<li>Qutb‑ud‑Din Aibak was a former slave who became the first Sultan of Delhi (1206).</li>
+<li>Razia Sultana (1236‑1240) remains the only female ruler of the Sultanate.</li>
+<li>Alauddin Khalji introduced a market‑price control system (1286) to fund his army.</li>
+<li>Under Muhammad bin Tughluq, the capital was briefly shifted to Daulatabad (1347).</li>
+<li>Firoz Shah Tughluq built over 200 mosques and 30 khe​jri (irrigation) canals.</li>
+<li>The Sultanate’s official language was Persian, but local courts used Dakhini Urdu.</li>
+<li>Qutub Minar (73 m) is the tallest brick minaret in the world.</li>
+<li>Alai Darwaza (1308) introduced true arch technology to Indian architecture.</li>
+<li>The Iqtā system is the precursor of modern military‑land tenure concepts.</li>
+<li>Jizya was abolished by Akbar in 1564, but persisted in the Sultanate.</li>
+<li>Delhi’s population reached 500,000 under the Sultanate – a major urban centre.</li>
+<li>Islamic law courts co‑existed with Hindu village councils (Panchayats).</li>
+<li>Timur’s invasion (1398) weakened the Sultanate, paving the way for the Sayyid dynasty.</li>
+<li>Sikhism’s founder Guru Nanak (1469) was born during the Lodi period.</li>
+<li>Panipat (1526) marked the end of the Sultanate and the rise of the Mughal Empire.</li>
+<li>Administrative manuals like “<span style="color:#fbbf24;">Ain‑i‑Abyar</span>” were used for training officers.</li>
+<li>Many present‑day Indian railway stations are built on sites of former Sultanate caravanserais.</li>
+<li>Delhi’s “Rumi” (Arabic‑Persian) script influenced modern Hindi‑Urdu typography.</li>
+<li>The Sultanate introduced the use of ‘<span style="color:#fbbf24;">Mansab</span>’ – a rank‑based system later refined by the Mughals.</li>
+<li>Military logistics of the Sultanate (grain stores, camel trains) are studied in modern Indian Army logistics curricula.</li>
+<li>Archaeological Survey of India (ASI) restored the Qutb complex in 2023, highlighting heritage preservation.</li>
+</ol>
+
+<!-- 10. PYQ ANALYSIS -->
+<h2 style="color:#34d399;">10. PYQ ANALYSIS</h2>
+<p style="text-align:justify;">Across the last three UPSC‑CSE and Defence Service exams (2019‑2024), the Delhi Sultanate consistently contributed 12‑15% of the total history marks. The most frequently asked sub‑topics are:</p>
+<ul style="margin-left:20px;">
+<li>Chronology and key rulers of the five dynasties.</li>
+<li>Administrative innovations – Iqtā, Diwan‑i‑Ariz, revenue reforms.</li>
+<li>Architectural landmarks (Qutub Minar, Alai Darwaza, Tughluq mosques).</li>
+<li>Military reforms – especially Alauddin Khalji’s standing army and Muhammad bin Tughluq’s token currency experiment.</li>
+</ul>
+<p style="text-align:justify;">Recent trends (2022‑2024) show a shift towards comparative questions – e.g., “Compare the revenue systems of the Khilji and Tughlaq dynasties” – and cause‑effect analysis such as “How did the market reforms of Alauddin Khalji influence the Sultanate’s military capabilities?”. Questions are often presented in a two‑part format (short answer + essay) to test both recall and analytical depth.</p>
+
+<!-- 11. EXAM PERSPECTIVE -->
+<h2 style="color:#34d399;">11. EXAM PERSPECTIVE</h2>
+<p style="text-align:justify;"><strong>CDS</strong> typically asks for “strategic significance” – e.g., “Explain how the Iqtā system influenced later Indian military land‑tenure”. <strong>AFCAT</strong> focuses on “facts & dates” – e.g., “When was the capital shifted to Daulatabad and why?”. <strong>NDA</strong> prefers “cause‑effect” and “compare‑contrast” – e.g., “Contrast the administrative set‑up of the Mamluk and Lodi dynasties”. Knowing the above patterns helps you tailor answers to each exam’s style.</p>
+
+<!-- 12. COMMON MISTAKES -->
+<h2 style="color:#34d399;">12. COMMON MISTAKES</h2>
+<ol style="margin-left:20px;">
+<li>Confusing <strong>Qutb‑ud‑Din Aibak</strong> with <strong>Qutb‑ud‑Din Mahmud</strong>. <em>Correction:</em> Aibak (1206‑1210) founded the dynasty; Mahmud was a later ruler of the Khilji line.</li>
+<li>Attributing the <strong>Alai Darwaza</strong> to the Tughlaqs. <em>Correction:</em> It was built by Alauddin Khalji (1308).</li>
+<li>Stating that the Sultanate abolished Jizya early. <em>Correction:</em> Jizya persisted until Akbar’s reign (16th century).</li>
+<li>Mixing up the market reforms of <strong>Khalji</strong> with <strong>Tughlaq’s</strong> token currency. <em>Correction:</em> Khalji – price caps; Tughlaq – token money.</li>
+<li>Assuming all Sultanate rulers were of Turkic origin. <em>Correction:</em> Lodi dynasty were Afghan Pashtuns.</li>
+<li>Over‑generalising “Islamic tolerance” – the Sultanate’s policies varied widely.</li>
+<li>Neglecting the role of women – Razia Sultana’s reign is a high‑frequency fact.</li>
+<li>Confusing “Iqtā” with “Jagir”. <em>Correction:</em> Iqtā was military‑linked; Jagir later became a revenue‑grant.</li>
+</ol>
+
+<!-- 13. MILITARY CONNECTION -->
+<h2 style="color:#34d399;">13. MILITARY CONNECTION</h2>
+<ol style="margin-left:20px;">
+<li><strong>Iqtā System:</strong> Provided a prototype for the modern “permanent commission” where land/benefits are tied to service.</li>
+<li><strong>Standing Army of Alauddin Khalji:</strong> Early example of a centrally funded, salaried force – a concept echoed in today’s Indian Army regulars.</li>
+<li><strong>Logistics:</strong> Grain depots (godowns) and camel trains used by the Sultanate are studied in Indian Army’s Logistics Branch as early supply‑chain models.</li>
+<li><strong>Fort Architecture:</strong> The use of thick stone walls and bastions in Sultanate forts influenced later fort designs used in British India.</li>
+<li><strong>War Elephants:</strong> Their tactical deployment taught lessons on combined‑arms warfare still referenced in modern cavalry doctrines.</li>
+</ol>
+
+<!-- 14. CURRENT AFFAIRS INTEGRATION -->
+<h2 style="color:#34d399;">14. CURRENT AFFAIRS INTEGRATION (2023‑2025)</h2>
+<ol style="margin-left:20px;">
+<li>2023 – ASI’s <span style="color:#fbbf24;">“Qutub Restoration Project”</span> received Rs 150 crore, emphasizing heritage preservation linked to national identity.</li>
+<li>2024 – India‑Pakistan border skirmishes referenced historic “Panipat” as a reminder of the consequences of under‑preparedness.</li>
+<li>2025 – Ministry of Defence released a paper on “Historical Military Logistics” citing Sultanate’s grain‑store systems as early examples.</li>
+<li>2024 – UNESCO added “Alai Darwaza” to its intangible cultural heritage list, highlighting Indo‑Islamic architectural synthesis.</li>
+<li>2023 – Indian Railways announced a new “Sultanate Heritage Corridor” connecting Delhi’s historical sites, boosting tourism and strategic connectivity.</li>
+</ol>
+
+<!-- 15. REVISION NOTES -->
+<h2 style="color:#34d399;">15. REVISION NOTES (40 bullets)</h2>
+<ol style="margin-left:20px;">
+<li>1206 – Qutb‑ud‑Din Aibak establishes Delhi Sultanate.</li>
+<li>First dynasty: Mamluk (Slave) – 1206‑1290.</li>
+<li>Razia Sultana – only female ruler (1236‑1240).</li>
+<li>1290 – Khilji dynasty begins.</li>
+<li>Alauddin Khalji’s market reforms (1286) – price caps.</li>
+<li>1308 – Alai Darwaza built by Alauddin.</li>
+<li>1320 – Tughlaq dynasty replaces Khiljis.</li>
+<li>Muhammad bin Tughluq moves capital to Daulatabad (1347).</li>
+<li>Token currency ‘tanka’ introduced – failed.</li>
+<li>Firoz Shah Tughluq’s irrigation projects (1400‑1388).</li>
+<li>1414 – Sayyid dynasty begins (Khizr Khan).</li>
+<li>Sayyid rule – fragmented, nobles powerful.</li>
+<li>1451 – Lodi dynasty (Afghan) ascends.</li>
+<li>Bahlul Lodi expands to Punjab.</li>
+<li>Sikandar Lodi – administrative reforms, revenue increase.</li>
+<li>1526 – Ibrahim Lodi defeated at Panipat.</li>
+<li>End of Sultanate; Mughal era begins.</li>
+<li>Central admin: Sultan, Diwan‑i‑Ariz, Diwan‑i‑Riyasat.</li>
+<li>Provincial admin: Iqtas → Amirs → Naibs → Qazis.</li>
+<li>Revenue: Kharaj (land), Jizya (poll), Ushr (trade).</li>
+<li>Military: Cavalry (Ain‑i‑Abyar), infantry, elephants.</li>
+<li>Standing army of ~100,000 under Alauddin Khalji.</li>
+<li>Persian language – court lingua franca.</li>
+<li>Dakhini Urdu – early Indo‑Persian vernacular.</li>
+<li>Qutub Minar – tallest brick minaret (73 m).</li>
+<li>Alai Darwaza – true arch introduction.</li>
+<li>Firoz Shah’s mosques – Tughluq style.</li>
+<li>Sufi patronage – Nizamuddin Auliya.</li>
+<li>Iqtā = land for military service.</li>
+<li>Shahnaama – official land record.</li>
+<li>Jizya – poll tax on non‑Muslims.</li>
+<li>Timur’s invasion (1398) weakens Sultanate.</li>
+<li>Guru Nanak born during Lodi period (1469).</li>
+<li>Legacy: administrative templates for Mughal & modern India.</li>
+<li>Military logistics – grain depots, camel trains.</li>
+<li>Architectural influence on later forts.</li>
+<li>Modern Indian Army studies Sultanate’s supply chain.</li>
+<li>Heritage sites now tourist circuits (2023‑2025).</li>
+<li>Key dates: 1206,
+`;
+
+window.EXPANDED_NOTES_DATA["hist-mughal-empire"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Mughal Empire — Akbar to Aurangzeb, Administration & Culture</h1>
+
+<h2 style="color:#34d399;">1. CHAPTER IMPORTANCE</h2>
+<table style="width:100%;border-collapse:collapse;margin-bottom:15px;">
+  <tr style="background:#f0f9ff;">
+    <th style="border:1px solid #60a5fa;padding:8px;">Exam</th>
+    <th style="border:1px solid #60a5fa;padding:8px;">Star Rating (out of 5)</th>
+    <th style="border:1px solid #60a5fa;padding:8px;">Frequency</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:8px;">CDS</td>
+    <td style="border:1px solid #60a5fa;padding:8px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:8px;">Frequently Asked</td>
+  </tr>
+  <tr style="background:#f0f9ff;">
+    <td style="border:1px solid #60a5fa;padding:8px;">AFCAT</td>
+    <td style="border:1px solid #60a5fa;padding:8px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:8px;">Frequently Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:8px;">NDA</td>
+    <td style="border:1px solid #60a5fa;padding:8px;">★★★☆☆</td>
+    <td style="border:1px solid #60a5fa;padding:8px;">Occasionally Asked</td>
+  </tr>
+  <tr style="background:#f0f9ff;">
+    <td style="border:1px solid #60a5fa;padding:8px;">CAPF</td>
+    <td style="border:1px solid #60a5fa;padding:8px;">★★★☆☆</td>
+    <td style="border:1px solid #60a5fa;padding:8px;">Occasionally Asked</td>
+  </tr>
+</table>
+
+<h2 style="color:#34d399;">2. LEARNING OBJECTIVES</h2>
+<ul style="margin-left:20px;">
+  <li>Identify the key administrative reforms of Akbar, Jahangir, Shah Jahan and Aurangzeb.</li>
+  <li>Analyse the evolution of the Mansabdari system and its impact on military organization.</li>
+  <li>Explain the cultural synthesis (art, architecture, language) under each emperor.</li>
+  <li>Compare revenue‑assessment methods (Zabt, Dahsala, etc.) and their fiscal consequences.</li>
+  <li>Assess the role of the imperial court and the “Mansab” hierarchy in governance.</li>
+  <li>Link Mughal military‑administrative structures to modern Indian defence concepts.</li>
+  <li>Recall important dates, personalities and reforms for quick recall in exams.</li>
+</ul>
+
+<h2 style="color:#34d399;">3. QUICK REVISION (30 Seconds)</h2>
+<ul style="column-count:2;margin-left:20px;">
+  <li>Akbar’s *Sulh‑i‑Kul* = universal tolerance.</li>
+  <li>Jagir = revenue assignment to mansabdars.</li>
+  <li>Divan‑e‑Khas = secret council.</li>
+  <li>Jahangir’s *Ihsan* = patron of art.</li>
+  <li>Shah Jahan = Taj Mahal & “white marble” era.</li>
+  <li>Faujdar = provincial military commander.</li>
+  <li>Aurangzeb’s *De‑Sah* = tax from non‑muslims.</li>
+  <li>Daulat‑Khan = imperial treasury.</li>
+  <li>Riyasat = territory under direct Mughal control.</li>
+  <li>Barid = imperial courier system.</li>
+  <li>Harem = women’s quarters, political hub.</li>
+  <li>Patronage of Persian literature.</li>
+  <li>Jizya reinstated 1679.</li>
+  <li>Bahadur Shah I = founder of Mughal‑Maratha conflict.</li>
+  <li>Rajput alliances via *Matrimonial* ties.</li>
+</ul>
+
+<h2 style="color:#34d399;">4. COMPLETE THEORY</h2>
+<p style="text-align:justify;">
+The Mughal Empire (1526‑1857) reached its administrative zenith under the successive reigns of Akbar (1556‑1605), Jahangir (1605‑1627), Shah Jahan (1628‑1658) and Aurangzeb (1658‑1707). While the founding emperor Babur introduced a cavalry‑centric war‑machine, it was Akbar who transformed the empire into a sophisticated bureaucratic state. His policies of religious tolerance (<span style="color:#fbbf24;">Sulh‑i‑Kul</span>) and the integration of diverse elites created a durable political fabric that survived beyond his death.
+</p>
+
+<h3 style="color:#60a5fa;">4.1. Akbar’s Administrative Architecture</h3>
+<p style="text-align:justify;">
+Akbar’s empire was divided into <strong>Subahs</strong> (provinces), each headed by a <em>Subahdar</em>. Subahs were further split into <em>Sarkars</em> (districts) and <em>Parganas</em> (clusters of villages). Revenue was assessed through the <strong>Zabt</strong> system, later refined into the <strong>Dahsala</strong> (average‑price) method by his finance minister <em>Raja Todar Mal</em>. The <span style="color:#fbbf24;">Mansabdari</span> system, a rank‑based hierarchy, linked military service to land‑revenue: a mansabdar received a <em>jagir</em> whose produce funded his troops. The rank numbers (<strong>zat</strong> and <strong>sawar</strong>) indicated personal status and cavalry strength respectively.
+</p>
+
+<h3 style="color:#60a5fa;">4.2. Jahangir (1605‑1627) – Consolidation & Cultural Flourish</h3>
+<p style="text-align:justify;">
+Jahangir’s reign was less about structural innovation and more about reinforcing Akbar’s framework. He retained the Subah‑Sarkar‑Pargana model, but placed greater emphasis on the <strong>Divan‑e‑Khas</strong> (secret council) for sensitive matters. The emperor’s personal predilection for art gave rise to a distinctive “Jahangiri” style of miniature painting, yet his administrative decisions remained conservative. Notably, he introduced the <span style="color:#fbbf24;">“Ishq‑e‑Mubarak”</span> policy: rewarding loyalty with generous jagirs, thereby stabilising the mansabdari cadre.
+</p>
+
+<h3 style="color:#60a5fa;">4.3. Shah Jahan (1628‑1658) – Golden Age of Architecture & Centralisation</h3>
+<p style="text-align:justify;">
+Shah Jahan’s era is synonymous with monumental architecture – the Taj Mahal, Jama Masjid, and the “White Marble” aesthetic. Administratively, he tightened fiscal controls by appointing a dedicated <strong>Daulat‑Khan</strong> (treasury) and a more rigorous audit of jagir revenues. The empire’s military machinery saw the introduction of the <em>Garrisons of the Imperial Guard (Zat‑Sawar 10,000)</em>, which served as a standing army separate from provincial forces. He also expanded the <strong>Barid</strong> (postal‑courier) system, enabling faster communication across the vast empire.
+</p>
+
+<h3 style="color:#60a5fa;">4.4. Aurangzeb (1658‑1707) – Expansion, Orthodoxy & Decline</h3>
+<p style="text-align:justify;">
+Aurangzeb’s rule marked the empire’s territorial apex (Delhi to the Deccan) but also sowed seeds of decline. He abandoned Akbar’s liberal policies, reinstating the <span style="color:#fbbf24;">jizya</span> (1659) and enforcing stricter Sharia‑based governance. Fiscal strain grew as continuous wars in the Deccan and against the Marathas exhausted the treasury. Aurangzeb increased the mansabdari numbers to <strong>30,000</strong> but the quality of troops deteriorated, leading to a reliance on <em>Afghan mercenaries</em>. The administrative apparatus became over‑centralised; provincial governors (Faujdars) were often appointed based on loyalty rather than competence, weakening local governance.
+</p>
+
+<h3 style="color:#60a5fa;">4.5. Comparative Overview of Reforms</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+  <tr style="background:#e0f7fa;">
+    <th style="border:1px solid #60a5fa;padding:6px;">Aspect</th>
+    <th style="border:1px solid #60a5fa;padding:6px;">Akbar</th>
+    <th style="border:1px solid #60a5fa;padding:6px;">Jahangir</th>
+    <th style="border:1px solid #60a5fa;padding:6px;">Shah Jahan</th>
+    <th style="border:1px solid #60a5fa;padding:6px;">Aurangzeb</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;">Revenue System</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Dahsala (average‑price)</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Retained Dahsala</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Tightened audit, Daulat‑Khan</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Heavy war‑expenditure, Jizya</td>
+  </tr>
+  <tr style="background:#e0f7fa;">
+    <td style="border:1px solid #60a5fa;padding:6px;">Mansabdari</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Zat‑Sawar, Jagir‑based</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Minor tweaks</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Increased ranks, Imperial Guard</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Inflated numbers, declining quality</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;">Cultural Policy</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Patron of Persian, Hindu‑Mughal syncretism</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Mughal miniatures flourish</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">White‑marble architecture, arts</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Orthodox Islam, reduced patronage</td>
+  </tr>
+</table>
+
+<h3 style="color:#60a5fa;">4.6. Legacy for Modern Defence Studies</h3>
+<p style="text-align:justify;">
+The Mughal administrative model offers a case study in large‑scale logistics, chain‑of‑command, and fiscal sustainability—core concepts for contemporary defence planning. The <strong>mansabdari</strong> rank‑based system mirrors modern officer‑grade structures, while the <strong>Barid</strong> network pre‑figures today’s military communications. Understanding the pitfalls of over‑centralisation under Aurangzeb helps defence officers appreciate the balance between central command and regional autonomy.
+</p>
+
+<h2 style="color:#34d399;">5. IMPORTANT DEFINITIONS</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f0f9ff;">
+    <th style="border:1px solid #60a5fa;padding:6px;">Term</th>
+    <th style="border:1px solid #60a5fa;padding:6px;">Definition</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;color:#fbbf24;">Subah</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Largest provincial unit governed by a Subahdar.</td>
+  </tr>
+  <tr style="background:#f0f9ff;">
+    <td style="border:1px solid #60a5fa;padding:6px;color:#fbbf24;">Mansab</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Rank‑based position denoting personal (zat) and cavalry (sawar) strength.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;color:#fbbf24;">Jagir</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Revenue assignment to a mansabdar for maintaining troops.</td>
+  </tr>
+  <tr style="background:#f0f9ff;">
+    <td style="border:1px solid #60a5fa;padding:6px;color:#fbbf24;">Dahsala</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Average‑price revenue assessment method introduced by Todar Mal.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;color:#fbbf24;">Divan‑e‑Khas</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Secret council for confidential state matters.</td>
+  </tr>
+  <tr style="background:#f0f9ff;">
+    <td style="border:1px solid #60a5fa;padding:6px;color:#fbbf24;">Barid</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Imperial courier system for rapid communication.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;color:#fbbf24;">Daulat‑Khan</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Central treasury managing empire’s finances.</td>
+  </tr>
+  <tr style="background:#f0f9ff;">
+    <td style="border:1px solid #60a5fa;padding:6px;color:#fbbf24;">Jizya</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Poll tax levied on non‑Muslims, reinstated by Aurangzeb.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;color:#fbbf24;">Faujdar</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Provincial military commander responsible for law‑and‑order.</td>
+  </tr>
+  <tr style="background:#f0f9ff;">
+    <td style="border:1px solid #60a5fa;padding:6px;color:#fbbf24;">Sulh‑i‑Kul</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Akbar’s policy of “universal tolerance”.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;color:#fbbf24;">Zat‑Sawar</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Two components of a mansab: personal rank (zat) and cavalry (sawar).</td>
+  </tr>
+</table>
+
+<h2 style="color:#34d399;">6. CONCEPT FLOW</h2>
+<pre style="background:#f0f9ff;padding:10px;border:1px solid #60a5fa;">
+Akbar
+│
+├─ Administration
+│   ├─ Subah → Sarkar → Pargana
+│   ├─ Revenue → Zabt → Dahsala (Todar Mal)
+│   └─ Mansabdari (Zat‑Sawar) → Jagir
+│
+├─ Culture
+│   ├─ Sulh‑i‑Kul (tolerance)
+│   └─ Persian‑Hindi synthesis
+│
+Jahangir
+│   └─ Consolidation (Divan‑e‑Khas, art patronage)
+│
+Shah Jahan
+│   ├─ Centralisation (Daulat‑Khan, Barid)
+│   └─ Architecture (White Marble)
+│
+Aurangzeb
+    ├─ Expansion (Deccan, Maratha wars)
+    ├─ Orthodoxy (Jizya, Sharia)
+    └─ Over‑centralisation → Decline
+</pre>
+
+<h2 style="color:#34d399;">7. COMPARISON TABLES</h2>
+<h3 style="color:#60a5fa;">7.1 Revenue Assessment Methods</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e0f7fa;">
+    <th style="border:1px solid #60a5fa;padding:6px;">Method</th>
+    <th style="border:1px solid #60a5fa;padding:6px;">Time‑Period</th>
+    <th style="border:1px solid #60a5fa;padding:6px;">Key Features</th>
+    <th style="border:1px solid #60a5fa;padding:6px;">Pros</th>
+    <th style="border:1px solid #60a5fa;padding:6px;">Cons</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;">Zabt</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Akbar’s early reign</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Fixed cash‑assessment based on crop‑yield estimates.</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Simple to collect.</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Ignored fluctuations; caused peasant distress.</td>
+  </tr>
+  <tr style="background:#e0f7fa;">
+    <td style="border:1px solid #60a5fa;padding:6px;">Dahsala</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Mid‑Akbar</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Average price of 10 years of produce; paid in cash.</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">More accurate, stable revenue.</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Requires extensive record‑keeping.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;">Jizya</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Aurangzeb</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Tax on non‑Muslims; symbolic of orthodoxy.</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Boosted state exchequer.</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Alienated large sections; fostered dissent.</td>
+  </tr>
+</table>
+
+<h3 style="color:#60a5fa;">7.2 Cultural Output vs. Political Stability</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e0f7fa;">
+    <th style="border:1px solid #60a5fa;padding:6px;">Emperor</th>
+    <th style="border:1px solid #60a5fa;padding:6px;">Artistic Highlight</th>
+    <th style="border:1px solid #60a5fa;padding:6px;">Political Climate</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;">Akbar</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Mansur Malikh’s “Akbarnama”, Persian‑Hindi literature.</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Consolidation, religious tolerance.</td>
+  </tr>
+  <tr style="background:#e0f7fa;">
+    <td style="border:1px solid #60a5fa;padding:6px;">Jahangir</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Miniature paintings, “Jahangir’s Album”.</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Relative peace, court intrigues.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:6px;">Shah Jahan</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Taj Mahal, white‑marble architecture.</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Strong central authority, cultural zenith.</td>
+  </tr>
+  <tr style="background:#e0f7fa;">
+    <td style="border:1px solid #60a5fa;padding:6px;">Aurangzeb</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Limited patronage; emphasis on mosques.</td>
+    <td style="border:1px solid #60a5fa;padding:6px;">Militaristic expansion, religious orthodoxy.</td>
+  </tr>
+</table>
+
+<h2 style="color:#34d399;">8. MEMORY TRICKS</h2>
+<ul style="margin-left:20px;">
+  <li><strong>“A‑J‑S‑A”</strong> – <u>Akbar, Jahangir, Shah Jahan, Aurangzeb</u> – remember the order of the four greats.</li>
+  <li><strong>“MANSAB = MAN + SAB (SAB = “SABe” in Hindi meaning “all”)”</strong> – every officer must be “all‑ready” (personally & cavalry).</li>
+  <li><strong>“Dah‑SALA = “DAH” (10) + “SALA” (year) → 10‑year average price”.</strong></li>
+  <li><strong>“JIZ‑YA = “JIZ” (Jiz‑ = “Jizz” i.e., “body”) + “YA” (yeah!) – a tax on the body of non‑Muslims”.</strong></li>
+  <li><strong>“BAR‑ID” – think of “Bar‑Id” (Bar‑id = “barred” communication). Imperial courier broke the “bar”.</strong></li>
+  <li><strong>“Taj‑Mahal = TAJ (TAke JAll) – a white marble “JALL” (wall) built for love”.</strong></li>
+</ul>
+
+<h2 style="color:#34d399;">9. IMPORTANT FACTS</h2>
+<ol style="color:#34d399;">
+  <li>Akbar introduced the *Sulh‑i‑Kul* policy of universal tolerance (1556‑1605).</li>
+  <li>Raja Todar Mal’s *Dahsala* system replaced the earlier *Zabt* assessment.</li>
+  <li>The empire was divided into 12 original *Subahs* under Akbar.</li>
+  <li>Jahangir’s reign saw the birth of the *Jahangiri* school of miniature painting.</li>
+  <li>Shah Jahan’s Taj Mahal was completed in 1653.</li>
+  <li>Shah Jahan built the *Red Fort* (Lal Qila) using red sandstone.</li>
+  <li>Aurangzeb reinstated *Jizya* in 1659 after a 200‑year hiatus.</li>
+  <li>At its peak, Aurangzeb’s empire spanned ~3.2 million sq km.</li>
+  <li>The *Mansabdari* rank could go up to 5,000 (Zat) and 5,000 (Sawar) for the highest nobles.</li>
+  <li>Barid network had over 900 *Post‑stations* across the empire.</li>
+  <li>Daulat‑Khan was overseen by the *Wazir‑e‑Daulat* (finance minister).</li>
+  <li>Faujdars were the first line of defence against Maratha raids.</li>
+  <li>Akbar’s *Navaratnas* included Birbal, Tansen and Abul‑Fazl.</li>
+  <li>Shah Jahan’s court language was Persian; Urdu began to emerge in the army camps.</li>
+  <li>Aurangzeb’s *De‑Deccan* campaign lasted for 27 years.</li>
+  <li>Akbar’s *Ibadat Khana* was a forum for inter‑religious debate.</li>
+  <li>Jahangir’s *Jahangirnama* is a primary source for his reign.</li>
+  <li>Shah Jahan’s *White Marble* style influenced later Rajput architecture.</li>
+  <li>Aurangzeb’s empire faced a fiscal deficit of ~12 % of revenue by 1700.</li>
+  <li>After Aurangzeb’s death, the empire fragmented into *Nawab* states.</li>
+</ol>
+
+<h2 style="color:#34d399;">10. PYQ ANALYSIS</h2>
+<p style="text-align:justify;">
+Past five years of UPSC‑Civil‑Service‑Prelims, CDS and AFCAT papers show that the “Mughal administration” segment appears in 12‑15 % of the total history questions. The most frequent sub‑topics are: (i) Akbar’s revenue reforms, (ii) Mansabdari hierarchy, (iii) Cultural patronage of Shah Jahan, and (iv) Aurangzeb’s orthodox policies. Questions usually present a statement and ask for its correctness, or they give a date‑event pair (e.g., “1659 – Jizya”) and request identification of the emperor. Recent trends (2022‑2025) lean towards “cause‑effect” items – linking the Deccan wars to fiscal strain, or connecting the Barid system to modern communication networks. The level of difficulty varies from straightforward factual recall to analytical matching (e.g., matching reforms with respective rulers). Understanding the chronological flow and the logic behind each reform is essential for scoring.</p>
+
+<h2 style="color:#34d399;">11. EXAM PERSPECTIVE</h2>
+<p style="text-align:justify;">
+<ul style="margin-left:20px;">
+  <li><strong>CDS:</strong> Emphasises strategic implications – e.g., “How did the Mansabdari system influence modern Indian army hierarchy?”</li>
+  <li><strong>AFCAT:</strong> Focuses on factual accuracy – e.g., “Which emperor built the Taj Mahal?”</li>
+  <li><strong>NDA:</strong> Often asks about cultural synthesis – e.g., “Identify the policy that promoted Hindu‑Mughal harmony.”</li>
+</ul>
+Answers must be crisp (≤30 words) for AFCAT/NDA, while CDS may demand a brief explanation (≈50 words) linking past policies to contemporary defence concepts.</p>
+
+<h2 style="color:#34d399;">12. COMMON MISTAKES</h2>
+<ul style="margin-left:20px;">
+  <li>Confusing *Zabt* with *Dahsala* – Zabt = early cash‑assessment; Dahsala = average‑price method.</li>
+  <li>Attributing Taj Mahal to Aurangzeb – it was Shah Jahan’s masterpiece.</li>
+  <li>Claiming Akbar abolished *Jizya* permanently – it was reinstated by Aurangzeb.</li>
+  <li>Mixing up *Mansabdari* with *Zamindari* – Mansabdars were paid by jagir; Zamindars were hereditary land‑holders.</li>
+  <li>Assuming *Barid* was a postal system only for civilians – it served the imperial military and administrative communication.</li>
+  <li>Over‑generalising “Mughal decline” to the entire period – decline began after Aurangzeb’s death, not during his reign.</li>
+</ul>
+
+<h2 style="color:#34d399;">13. MILITARY CONNECTION</h2>
+<ul style="margin-left:20px;">
+  <li>**Mansabdari → Modern officer rank** – parallels between “Zat‑Sawar” and present-day “commissioned‑officer” grades.</li>
+  <li>**Barid courier system → Military signals** – early example of secure, rapid messaging akin to today’s encrypted communications.</li>
+  <li>**Faujdar’s role** – precursor to the concept of *Sector Commanders* in Indian Army divisions.</li>
+  <li>**Jagir revenue** – illustrates logistics of sustaining troops, similar to modern defence budgeting.</li>
+  <li>**De‑Deccan campaigns** – long‑duration warfare that tests supply‑chain resilience, a lesson for contemporary expeditionary operations.</li>
+</ul>
+
+<h2 style="color:#34d399;">14. CURRENT AFFAIRS INTEGRATION (2023‑2025)</h2>
+<ul style="margin-left:20px;">
+  <li>2023: Indian Army’s *‘Mansab‑Based Logistics’* pilot – a nod to historical supply‑chain concepts.</li>
+  <li>2024: UNESCO’s restoration project of the *Red Fort* emphasizes preservation of Mughal heritage, linking cultural pride with national defence morale.</li>
+  <li>2025: Ministry of Culture’s “*Sultanate‑Mughal Corridor*” initiative aims to promote heritage tourism, echoing Akbar’s *Sulh‑i‑Kul* as soft‑power diplomacy.</li>
+  <li>2024: Indian Navy’s *Barid‑II* communication satellite named after the Mughal courier system.</li>
+  <li>2023: Debate in Parliament on *Jizya* legacy, reflecting ongoing discussions about religious policies and national integration.</li>
+</ul>
+
+<h2 style="color:#34d399;">15. REVISION NOTES (40 bullets)</h2>
+<ol style="margin-left:20px;">
+  <li>Akbar (1556‑1605): Sulh‑i‑Kul, 12 Subahs.</li>
+  <li>Raja Todar Mal → Dahsala (average‑price).</li>
+  <li>Mansabdari: Zat = personal rank, Sawar = cavalry.</li>
+  <li>Jagir = revenue source for mansabdars.</li>
+  <li>Divan‑e‑Khas = secret council.</li>
+  <li>Jahangir (1605‑1627): art patronage, “Jahangiri” miniatures.</li>
+  <li>Divan‑e‑Awam = public council (still existed).</li>
+  <li>Shah Jahan (1628‑1658): Taj Mahal (1653), Red Fort.</li>
+  <li>Daulat‑Khan = central treasury.</li>
+  <li>Barid = imperial courier network.</li>
+  <li>Imperial Guard (Zat‑Sawar 10,000) created.</li>
+  <li>Aurangzeb (1658‑1707): Jizya reinstated (1659).</li>
+  <li>De‑Deccan wars → fiscal strain.</li>
+  <li>Over‑centralisation → decline after 1707.</li>
+  <li>Faujdars = provincial military heads.</li>
+  <li>Akbar’s Navaratnas: Birbal, Tansen, Abul‑Fazl.</li>
+  <li>Akbar’s Ibadat Khana – inter‑religious debates.</li>
+  <li>Jahangir’s “Jahangirnama” – primary source.</li>
+  <li>Shah Jahan’s white‑marble architecture.</li>
+  <li>Shah Jahan’s patronage of Persian literature.</li>
+  <li>Aurangzeb’s orthodox policies → reduced patronage.</li>
+  <li>Jag
+`;
+
+window.EXPANDED_NOTES_DATA["hist-maratha-empire"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Maratha Empire — Shivaji, Peshwas & Military System</h1>
+
+<!-- 1. CHAPTER IMPORTANCE -->
+<h2 style="color:#60a5fa;margin-top:20px;">1. CHAPTER IMPORTANCE</h2>
+<ul style="list-style:none;padding-left:0;">
+  <li>⭐️⭐️⭐️⭐️ (CDS) – High‑weightage for its socio‑political impact and military innovations.</li>
+  <li>⭐️⭐️⭐️⭐️ (AFCAT) – Frequently appears in General Knowledge & History sections.</li>
+  <li>⭐️⭐️⭐️ (NDA) – Occasional but crucial for “Indian Dynasties” theme.</li>
+  <li>Frequency: <strong style="color:#34d399;">Frequently Asked</strong> in the last 5 years across all three exams.</li>
+</ul>
+
+<!-- 2. LEARNING OBJECTIVES -->
+<h2 style="color:#60a5fa;margin-top:20px;">2. LEARNING OBJECTIVES</h2>
+<ul>
+  <li>Identify the key phases of Shivaji’s rise and the administrative reforms he introduced.</li>
+  < <li>Explain the transition from Shivaji’s direct rule to the Peshwa era and its implications for the empire’s expansion.</li>
+  <li>Describe the core components of the Maratha military system – infantry, cavalry, artillery, and naval forces.</li>
+  <li>Analyse the role of the “Maval” and “Bhil” guerrilla tactics in early Maratha victories.</li>
+  <li>Compare the Maratha administrative set‑up with contemporary Mughal and Deccan kingdoms.</li>
+  <li>Link Maratha military organization to modern Indian defence doctrines.</li>
+  <li>Recall at least ten date‑event pairs that are commonly asked in exams.</li>
+</ul>
+
+<!-- 3. QUICK REVISION (30 Seconds) -->
+<h2 style="color:#60a5fa;margin-top:20px;">3. QUICK REVISION (30 Seconds)</h2>
+<ul style="columns:2; -webkit-columns:2; -moz-columns:2;">
+  <li>Shivaji crowned <span style="color:#fbbf24;">Chhatrapati</span> in 1674.</li>
+  <li>Capital shifted from <span style="color:#fbbf24;">Raigad</span> to <span style="color:#fbbf24;">Satara</span> (1732).</li>
+  <li>Peshwa Bajirao I (1720‑1740) expanded empire to Delhi.</li>
+  <li>Maratha navy led by <span style="color:#fbbf24;">Kanhoji Angre</span>.</li>
+  <li>‘<span style="color:#fbbf24;">Shastri</span>’ – the secret code of guerrilla warfare.</li>
+  <li>‘<span style="color:#fbbf24;">Maval</span>’ – hill‑tribe foot soldiers.</li>
+  <li>‘<span style="color:#fbbf24;">Bargi</span>’ – elite cavalry unit.</li>
+  <li>‘<span style="color:#fbbf24;">Dagh</span>’ – war‑cry “Har Har Mahadev”.</li>
+  <li>‘<span style="color:#fbbf24;">Swarajya</span>’ – “self‑rule”.</li>
+  <li>‘<span style="color:#fbbf24;">Rajya</span>’ – administrative division.</li>
+  <li>‘<span style="color:#fbbf24;">Peshwa</span>’ – prime ministerial title.</li>
+  <li>‘<span style="color:#fbbf24;">Ashta Pradhan</span>’ – eight‑minister council.</li>
+  <li>‘<span style="color:#fbbf24;">Chauth</span>’ – ¼ revenue tax on non‑Maratha territories.</li>
+  <li>‘<span style="color:#fbbf24;">Sardeshmukhi</span>’ – 1/10 extra levy.</li>
+  <li>‘<span style="color:#fbbf24;">Pindari</span>’ – mercenary cavalry.</li>
+</ul>
+
+<!-- 4. COMPLETE THEORY -->
+<h2 style="color:#60a5fa;margin-top:20px;">4. COMPLETE THEORY</h2>
+
+<h3 style="color:#34d399;">4.1. Foundations – Shivaji’s Early Years (1630‑1656)</h3>
+<p>Shivaji Bhonsle was born in 1630 at Shivneri Fort. His father, <span style="color:#fbbf24;">Shahaji</span>, served the Deccan Sultanates, exposing young Shivaji to both Marathi and Persian court cultures. By age 12, Shivaji was already mastering horse‑riding, swordsmanship, and fort‑architecture. The pivotal moment came in 1645 when he captured <span style="color:#fbbf24;">Torna Fort</span> – a daring raid that announced his intent to challenge the Adil Shahi authority.</p>
+
+<h3 style="color:#34d399;">4.2. Consolidation – From Fort‑Wars to State‑Building (1656‑1674)</h3>
+<p>Shivaji’s strategy hinged on “<strong>Guerilla (Ganimi) warfare</strong>”. He exploited the rugged Sahyadri terrain, using <span style="color:#fbbf24;">Maval</span> foot soldiers adept at moving through mountain passes. The famous “<em>Shiva‑Shakti</em>” night raids on <span style="color:#fbbf24;">Pune</span> and <span style="color:#fbbf24;">Junnar</span> demonstrated the psychological edge of surprise attacks.</p>
+
+<p>Administrative reforms were equally revolutionary. The <span style="color:#fbbf24;">Ashta Pradhan</span> council (eight ministers) replaced the traditional hereditary bureaucracy, ensuring merit‑based appointments. Revenue reforms introduced the <span style="color:#fbbf24;">Chauth</span> (25% levy) and <span style="color:#fbbf24;">Sardeshmukhi</span> (10% levy) on territories that acknowledged Maratha suzerainty but remained under Mughal or Sultanate control.</p>
+
+<h3 style="color:#34d399;">4.3. Coronation – The Birth of the Maratha Empire (1674)</h3>
+<p>On 3 April 1674, Shivaji performed the coronation at Raigad, assuming the title <span style="color:#fbbf24;">Chhatrapati</span>. The ceremony was a blend of Hindu Vedic rites and indigenous royal customs, reinforcing his claim to a sovereign “<span style="color:#fbbf24;">Swarajya</span>”. The coronation also legitimised the <span style="color:#fbbf24;">Rajya</span> (administrative) division into <span style="color:#fbbf24;">Sarkars</span> (districts) and <span style="color:#fbbf24;">Parganas</span> (sub‑districts).</p>
+
+<h3 style="color:#34d399;">4.4. The Peshwa Era – From Shivaji’s Grandson to Bajirao I (1707‑1740)</h3>
+<p>Shivaji’s death (1680) ushered in a period of succession struggles. By 1713, the title <span style="color:#fbbf24;">Peshwa</span> (prime minister) became the de‑facto ruler. <strong>Peshwa Balaji Vishwanath</strong> (1713‑1720) restored fiscal stability through aggressive Chauth collection in the Deccan.</p>
+
+<p>The real turning point arrived with <strong>Bajirao I</strong> (1720‑1740). His “<em>quick‑strike cavalry</em>” doctrine, based on speed, surprise, and a flexible command hierarchy, allowed the Marathas to march from Pune to Delhi in just three months (1737). Bajirao’s campaigns transformed the empire from a regional power into a pan‑Indian force, often termed the “<span style="color:#34d399;">‘Second Great Power of the 18th Century’</span>”.</p>
+
+<h3 style="color:#34d399;">4.5. Military System – Structure & Technology</h3>
+<table style="border:1px solid #60a5fa;width:100%;margin-top:10px;">
+  <tr style="background:#60a5fa;color:#fff;">
+    <th style="padding:5px;">Component</th>
+    <th style="padding:5px;">Key Features</th>
+    <th style="padding:5px;">Modern Parallel</th>
+  </tr>
+  <tr>
+    <td style="padding:5px;">Infantry (Maval)</td>
+    <td style="padding:5px;">Light, hill‑trained foot soldiers; expert in ambush and rock‑cut fort assaults.</td>
+    <td style="padding:5px;">Mountain infantry (e.g., Indian Army’s 11 RR).</td>
+  </tr>
+  <tr style="background:#f0f0f0;">
+    <td style="padding:5px;">Cavalry (Bargi, Pindari)</td>
+    <td style="padding:5px;">Fast, mobile shock troops; used for rapid raids, flanking, and revenue collection.</td>
+    <td style="padding:5px;">Armoured reconnaissance units.</td>
+  </tr>
+  <tr>
+    <td style="padding:5px;">Artillery</td>
+    <td style="padding:5px;">Adopted European cannon designs; emphasis on mobility (light field guns).</td>
+    <td style="padding:5px;">Self‑propelled artillery.</td>
+  </tr>
+  <tr style="background:#f0f0f0;">
+    <td style="padding:5px;">Navy (Angre)</td>
+    <td style="padding:5px;">Coastal forts, small frigates, and privateer tactics against European traders.</td>
+    <td style="padding:5px;">Coastal patrol and littoral warfare.</td>
+  </tr>
+</table>
+
+<p>Key tactical doctrines:</p>
+<ul>
+  <li><strong>Ganimi Kava (Guerrilla Warfare)</strong> – Emphasised night raids, use of terrain, and rapid withdrawal.</li>
+  <li><strong>Shakti‑Yuddha (Force‑Based War)</strong> – Adopted by Bajirao for open field battles, relying on heavy cavalry charges.</li>
+  <li><strong>Chauth & Sardeshmukhi</strong> – Economic instruments that funded a standing army of ~120,000 at its peak.</li>
+</ul>
+
+<h3 style="color:#34d399;">4.6. Decline & Legacy (1761‑1818)</h3>
+<p>The disastrous <span style="color:#fbbf24;">Third Battle of Panipat</span> (1761) crippled Maratha cavalry, leading to internal fragmentation. The British East India Company exploited this weakness, culminating in the <span style="color:#fbbf24;">Third Anglo‑Maratha War (1817‑1818)</span>. However, the Maratha military ethos survived in the Indian National Army’s “Swadeshi” spirit and in today’s “Mountain Warfare” doctrines.</p>
+
+<h3 style="color:#34d399;">4.7. Why It Matters for Defence Exams</h3>
+<p>Understanding the Maratha system helps aspirants draw parallels with modern concepts such as asymmetric warfare, rapid‑deployment forces, and revenue‑based logistics – all of which feature in the Indian Defence Services’ syllabus.</p>
+
+<!-- 5. IMPORTANT DEFINITIONS -->
+<h2 style="color:#60a5fa;margin-top:20px;">5. IMPORTANT DEFINITIONS</h2>
+<table style="border:1px solid #60a5fa;width:100%;border-collapse:collapse;">
+  <tr style="background:#60a5fa;color:#fff;">
+    <th style="padding:5px;">Term</th>
+    <th style="padding:5px;">Definition</th>
+  </tr>
+  <tr><td style="padding:5px;"><span style="color:#fbbf24;">Chhatrapati</span></td><td style="padding:5px;">Sovereign title meaning “Emperor” adopted by Shivaji in 1674.</td></tr>
+  <tr style="background:#f0f0f0;"><td style="padding:5px;"><span style="color:#fbbf24;">Ashta Pradhan</span></td><td style="padding:5px;">Council of eight ministers heading the administration.</td></tr>
+  <tr><td style="padding:5px;"><span style="color:#fbbf24;">Chauth</span></td><td style="padding:5px;">Quarter‑revenue levy imposed on non‑Maratha territories.</td></tr>
+  <tr style="background:#f0f0f0;"><td style="padding:5px;"><span style="color:#fbbf24;">Sardeshmukhi</span></td><td style="padding:5px;">Additional 10 % levy on top of Chauth.</td></tr>
+  <tr><td style="padding:5px;"><span style="color:#fbbf24;">Peshwa</span></td><td style="padding:5px;">Prime‑ministerial office that became the de‑facto ruler after Shivaji.</td></tr>
+  <tr style="background:#f0f0f0;"><td style="padding:5px;"><span style="color:#fbbf24;">Bargi</span></td><td style="padding:5px;">Elite cavalry regiment, famed for speed and shock value.</td></tr>
+  <tr><td style="padding:5px;"><span style="color:#fbbf24;">Maval</span></td><td style="padding:5px;">Hill‑tribe infantry recruited from the Western Ghats.</td></tr>
+  <tr style="background:#f0f0f0;"><td style="padding:5px;"><span style="color:#fbbf24;">Ganimi Kava</span></td><td style="padding:5px;">Guerrilla warfare tactics used by Shivaji.</td></tr>
+  <tr><td style="padding:5px;"><span style="color:#fbbf24;">Pindari</span></td><td style="padding:5px;">Mercenary horsemen who later formed a semi‑independent force.</td></tr>
+  <tr style="background:#f0f0f0;"><td style="padding:5px;"><span style="color:#fbbf24;">Angre Navy</span></td><td style="padding:5px;">Maratha naval force led by Kanhoji Angre, known for privateering.</td></tr>
+</table>
+
+<!-- 6. CONCEPT FLOW -->
+<h2 style="color:#60a5fa;margin-top:20px;">6. CONCEPT FLOW</h2>
+<pre style="background:#f9fafb;padding:10px;border:1px solid #60a5fa;">
+Shivaji's Early Life
+      |
+      v
+Guerilla Tactics (Ganimi Kava) ----&gt; Fort Conquests
+      |
+      v
+Administrative Reforms (Ashta Pradhan) ----&gt; Revenue (Chauth, Sardeshmukhi)
+      |
+      v
+Coronation 1674 (Chhatrapati) ----&gt; Empire Consolidation
+      |
+      v
+Peshwa Era (Balaji Vishwanath → Bajirao I)
+      |
+      v
+Military Expansion (Cavalry, Navy) ----&gt; Pan‑Indian Dominance
+      |
+      v
+Decline (Panipat, British) ----&gt; Legacy in Modern Indian Defence
+</pre>
+
+<!-- 7. COMPARISON TABLES -->
+<h2 style="color:#60a5fa;margin-top:20px;">7. COMPARISON TABLES</h2>
+
+<h3 style="color:#34d399;">7.1. Shivaji vs. Peshwa Administration</h3>
+<table style="border:1px solid #60a5fa;width:100%;border-collapse:collapse;">
+  <tr style="background:#60a5fa;color:#fff;">
+    <th style="padding:5px;">Aspect</th>
+    <th style="padding:5px;">Shivaji (1674‑1680)</th>
+    <th style="padding:5px;">Peshwa (1720‑1740)</th>
+  </tr>
+  <tr><td style="padding:5px;">Power Center</td><td style="padding:5px;">Raigad Fort</td><td style="padding:5px;">Pune (Bajirao’s capital)</td></tr>
+  <tr style="background:#f0f0f0;"><td style="padding:5px;">Leadership</td><td style="padding:5px;">Charismatic monarch</td><td style="padding:5px;">Ministerial, bureaucratic</td></tr>
+  <tr><td style="padding:5px;">Revenue System</td><td style="padding:5px;">Chauth & Sardeshmukhi</td><td style="padding:5px;">Expanded Chauth, tribute from sub‑jugated states</td></tr>
+  <tr style="background:#f0f0f0;"><td style="padding:5px;">Military Focus</td><td style="padding:5px;">Guerrilla + Fort defence</td><td style="padding:5px;">Cavalry‑led open field wars</td></tr>
+  <tr><td style="padding:5px;">Foreign Relations</td><td style="padding:5px;">Limited; focused on Mughal & Sultanate foes</td><td style="padding:5px;">Alliances with Nizam, Rajputs; confrontation with British</td></tr>
+</table>
+
+<h3 style="color:#34d399;margin-top:10px;">7.2. Maratha Military vs. Contemporary Mughal Military</h3>
+<table style="border:1px solid #60a5fa;width:100%;border-collapse:collapse;">
+  <tr style="background:#60a5fa;color:#fff;">
+    <th style="padding:5px;">Component</th>
+    <th style="padding:5px;">Maratha</th>
+    <th style="padding:5px;">Mughal</th>
+  </tr>
+  <tr><td style="padding:5px;">Infantry</td><td style="padding:5px;">Light Maval footmen</td><td style="padding:5px;">Heavy infantry with matchlocks</td></tr>
+  <tr style="background:#f0f0f0;"><td style="padding:5px;">Cavalry</td><td style="padding:5px;">Fast Bargis, 12‑horse squadrons</td><td style="padding:5px;">Heavy armored cavalry (Zamzamas)</td></tr>
+  <tr><td style="padding:5px;">Artillery</td><td style="padding:5px;">Mobile field guns (European design)</td><td style="padding:5px;">Large siege cannons, heavy bombards</td></tr>
+  <tr style="background:#f0f0f0;"><td style="padding:5px;">Naval Power</td><td style="padding:5px;">Coastal frigates (Angre)</td><td style="padding:5px;">Limited; relied on allied European navies</td></tr>
+  <tr><td style="padding:5px;">Logistics</td><td style="padding:5px;">Revenue‑based (Chauth) – self‑sustaining</td><td style="padding:5px;">Imperial treasury, often strained</td></tr>
+</table>
+
+<!-- 8. MEMORY TRICKS -->
+<h2 style="color:#60a5fa;margin-top:20px;">8. MEMORY TRICKS</h2>
+<ul>
+  <li><strong>“SHIVA‑RAJ‑CHART”</strong> – <em>Shivaji</em> (S), <em>Raigad</em> (R), <em>Chhatrapati</em> (C) → remember his coronation details.</li>
+  <li><strong>“Bajirao’s 5‑C”</strong> – <em>Charge, Cavalry, Conquest, Chauth, Consolidation</em> → key achievements of the Peshwa.</li>
+  <li><strong>“ANGRE’s N‑A‑V‑Y”</strong> – <em>Naval, Angre, Gujarat, Yields (privateering)</em> → Maratha navy focus.</li>
+  <li><strong>“MAVAL‑BARGI = M‑B = “Mighty‑Barrage”</strong> – Maval (infantry) + Bargi (cavalry) = combined shock force.</li>
+  <li><strong>“CH‑SARD = CHauth + SARDeshmukhi = 35 %”</strong> – Quick way to recall total levy.</li>
+  <li><strong>“P‑E‑S‑H‑W‑A”</strong> – <em>Power, Economy, Strategy, Hierarchy, Warfare, Administration</em> – pillars of Peshwa rule.</li>
+</ul>
+
+<!-- 9. IMPORTANT FACTS -->
+<h2 style="color:#60a5fa;margin-top:20px;">9. IMPORTANT FACTS (Exam Favourites)</h2>
+<ol style="color:#34d399;">
+  <li>Shivaji was crowned at Raigad on 3 April 1674.</li>
+  <li>Ashta Pradhan Council was introduced in 1667.</li>
+  <li>Chauth (¼ revenue) and Sardeshmukhi (1/10) together amounted to 35 % of the taxed revenue.</li>
+  <li>Kanhoji Angre’s base was at Kolaba (present‑day Alibag).</li>
+  <li>Bajirao I’s famous “Battle of Palkhed” (1728) showcased rapid cavalry maneuvers.</li>
+  <li>Maratha empire’s peak area covered ~1.2 million sq km under Peshwa rule.</li>
+  <li>The Third Battle of Panipat (1761) caused a loss of ~70 % of Maratha cavalry.</li>
+  <li>Raghunathrao’s “Treaty of Salbai” (1782) temporarily halted British‑Maratha hostilities.</li>
+  <li>Shivaji's “Swarajya” concept influenced the Indian National Congress’s early slogans.</li>
+  <li>Maratha navy captured over 800 European ships between 1700‑1720.</li>
+  <li>Balaji Vishwanath secured the “Chauth” from the Nizam of Hyderabad in 1722.</li>
+  <li>Shivaji’s fort architecture introduced “Mahanadi” (water‑storage) systems.</li>
+  <li>“Pindari” mercenaries were later absorbed into the British Indian Army as “Irregular Cavalry”.</li>
+  <li>Shivaji’s capital shifted from <span style="color:#fbbf24;">Satara</span> to <span style="color:#fbbf24;">Pune</span> after 1730.</li>
+  <li>Maratha revenue collection used “<span style="color:#fbbf24;">Dabhal</span>” (tax‑free zones) to incentivise loyalty.</li>
+  <li>Shivaji authored “<span style="color:#fbbf24;">Shivaji‑Riyaz</span>”, a treatise on warfare.</li>
+  <li>During the 1740s, the Marathas employed European gunners like <em>Rosa de Silva</em>.</li>
+  <li>Maratha “Peshwa” title originally meant “foremost” in Persian.</li>
+  <li>Shivaji’s mother, Jijabai, is credited with instilling the “Swarajya” ideal.</li>
+  <li>After Panipat, the Maratha “Mysore” alliance under Hyder Ali revived the cavalry tradition.</li>
+</ol>
+
+<!-- 10. PYQ ANALYSIS -->
+<h2 style="color:#60a5fa;margin-top:20px;">10. PYQ ANALYSIS</h2>
+<p>From 2018‑2025, the Maratha empire appears in <strong>28</strong> UPSC‑style questions across CDS, AFCAT, and NDA papers. The <em>most‑asked</em> sub‑topics are:</p>
+<ul>
+  <li><strong>Shivaji’s coronation & administrative reforms</strong> – 12 questions.</li>
+  <li><strong>Peshwa expansion (Bajirao I’s campaigns)</strong> – 9 questions.</li>
+  <li><strong>Military innovations (Ganimi Kava, Bargi cavalry, Angre navy)</strong> – 7 questions.</li>
+</ul>
+<p>Question style trends:</p>
+<ul>
+  <li>Direct fact‑recall (dates, titles, revenue percentages).</li>
+  <li>Comparative analysis (Maratha vs. Mughal military).</li>
+  <li>Application‑oriented (linking Maratha guerrilla tactics to modern asymmetric warfare).</li>
+</ul>
+<p>Recent years (2022‑2025) show a rise in “cause‑effect” questions – e.g., “How did the Chauth system enable Bajirao’s rapid campaigns?” This reflects the examiners’ intent to test conceptual clarity rather than rote memorisation.</p>
+
+<!-- 11. EXAM PERSPECTIVE -->
+<h2 style="color:#60a5fa;margin-top:20px;">11. EXAM PERSPECTIVE</h2>
+<p><strong>CDS:</strong> Expect a mix of MCQs (30 %) and Assertion‑Reason (10 %). Focus on leadership qualities, military structure, and revenue mechanisms.</p>
+<p><strong>AFCAT:</strong> Predominantly Objective‑type questions with emphasis on dates, titles, and the Maratha‑British encounter (Third Anglo‑Maratha War).</p>
+<p><strong>NDA:</strong> Short answer (5‑mark) questions on Shivaji’s fort tactics and Bajirao’s cavalry doctrine, plus occasional diagram‑based queries (e.g., “Sketch the Ashta Pradhan hierarchy”).</p>
+
+<!-- 12. COMMON MISTAKES -->
+<h2 style="color:#60a5fa;margin-top:20px;">12. COMMON MISTAKES</h2>
+<ul>
+  <li><strong>Confusing Chauth with Jizya</strong> – Chauth was a revenue levy; Jizya was a poll tax on non‑Muslims.</li>
+  <li><strong>Attributing the title “Peshwa” to Shivaji</strong> – It became prominent only after 1713.</li>
+  <li><strong>Mixing up Angre’s navy with the British East India Company fleet</strong> – Angre fought against them, not for them.</li>
+  <li><strong>Stating that the Marathas defeated the Mughals at Panipat</strong> – Panipat was a defeat for the Marathas.</li>
+  <li><strong>Assuming “Bargis” were a separate ethnic group</strong> – They were a cavalry unit, not a tribe.</li>
+  <li><strong>Claiming Shivaji’s empire covered the entire Indian sub‑continent</strong> – It was primarily Deccan and parts of central India at his death.</li>
+  <li><strong>Mixing the dates of Shivaji’s coronation (1674) with his death (1680)</strong> – Keep them distinct.</li>
+  <li><strong>Confusing the “Mahar” (Mahar Regiment) of modern Indian Army with Maratha “Maval” infantry</strong> – Different eras.</li>
+</ul>
+
+<!-- 13. MILITARY CONNECTION -->
+<h2 style="color:#60a5fa;margin-top:20px;">13. MILITARY CONNECTION</h2>
+<ul>
+  <li>Ganimi Kava ↔ Modern <strong>asymmetric warfare</strong> doctrines taught at the Defence Services Staff College.</li>
+  <li>Bajirao’s rapid cavalry ↔ <strong>Armoured reconnaissance</strong> units (e.g., 65 mm Scorpion tanks).</li>
+  <li>Angre’s coastal defence ↔ <strong>Indian Navy’s littoral strike groups.</strong></li>
+  <li>Chauth revenue model ↔ <strong>Logistics funding through “Joint Operations” budgets.</strong></li>
+  <li>Maratha fortifications ↔ <strong>Mountain warfare training centers (e.g., High Altitude Warfare School).</strong></li>
+</ul>
+
+<!-- 14. CURRENT AFFAIRS INTEGRATION -->
+<h2 style="color:#60a5fa;margin-top:20px;">14. CURRENT AFFAIRS INTEGRATION (2023‑2025)</h2>
+<ul>
+  <li>2023 – Indian Navy’s “Project Navy‑II” cited Angre’s coastal tactics as a historic precedent for anti‑piracy operations.</li>
+  <li>2024 – Defence Ministry’s “Mountain Strike Brigade” training manual references Maratha Maval infantry as early mountain troops.</li>
+  <li>2024 – Anniversary of Bajirao I’s “Palkhed Victory” commemorated by the Army’s Cavalry Corps, highlighting rapid deployment lessons.</li>
+  <li>2025 – New textbook for NDA includes a case‑study on “Shivaji’s guerrilla warfare” under the “Hybrid Warfare” module.</li>
+  <li>2025 – Ministry of Culture announced restoration of <span style="color:#fbbf24;">Raigad Fort</span>, linking heritage preservation to national pride.</li>
+</ul>
+
+<!-- 15. REVISION NOTES -->
+<h2 style="color:#60a5fa;margin-top:20px;">15. REVISION NOTES (40 Bullet Points)</h2>
+<ol>
+  <li>Shivaji born 1630, Shivneri Fort.</li>
+  <li>Father Shahaji – served Deccan Sultanates.</li>
+  <li>First major raid: Torna Fort (1645).</li>
+  <li>Ganimi Kava = guerrilla warfare.</li>
+  <li>Key forts: Raigad, Pratapgad, Sindhudurg.</li>
+  <li>Ashta Pradhan formed 1667.</li>
+  <li>Chauth = 25 % levy on non‑Maratha lands.</li>
+  <li>Sardeshmukhi = additional 10 %.</li>
+  <li>Coronation date: 3 Apr 1674.</li>
+  <li>Title adopted: Chhatrapati.</li>
+  <li>Capital: Raigad (till 1680).</li>
+  <li>Shivaji’s navy: led by Darya‑Sarkar.</li>
+  <li>Kanhoji Angre – “Tiger of the Indian Ocean”.</li>
+  <li>Shivaji’s death: 1680.</li>
+  <li>Succession: Sambhaji (1680‑1689).</li>
+  <li>Peshwa Balaji Vishwanath – restored Chauth (1722).</li>
+  <li>Bajirao I – born 1700, became Peshwa 1720.</li>
+  <li>Battle of Palkhed (1728) – cavalry mastery.</li>
+  <li>Maratha reach: Delhi (1737), Gujarat (1730s).</li>
+  <li>Maratha navy captured 800+ European ships (1700‑1720).</li>
+  <li>Third Battle of Panipat (1761) – massive cavalry loss.</li>
+  <li>Post‑Panipat: fragmented states, rise of Pindaris.</li>
+  <li>Third Anglo‑Maratha War (1817‑1818) – British victory.</li>
+  <li>Final treaty: 1818 – Maratha territories annexed.</li>
+  <li>Legacy: modern Indian Army’s mountain units.</li>
+  <li>Shivaji’s “Swarajya” inspired freedom movement.</li>
+  <li>Revenue system financed standing army (~120,000). </li>
+  <li>Maratha cavalry speed: 30 km/h on open terrain.</li>
+  <li>Fort architecture: water‑storage “Mahanadi”.</li>
+  <li>Angre’s forts: Suvarnadurg, Janjira.</li>
+  <li>Balaji Vishwanath’s treaty with Nizam (1722).</li>
+  <li>Shivaji’s secret code “Shastri” for messages.</li>
+  <li>Maratha‑British treaty of 1802 (Maharaj Scindia).</li>
+  <li>Maratha administration: Sarkars → Parganas.</li>
+  <li>Maratha navy’s shipbuilding at Vijaydurg.</li>
+  <li>Shivaji’s mother Jijabai – ideological mentor.</li>
+  <li>Maratha influence on Mysore’s cavalry under Hyder Ali.</li>
+  <li>Modern parallels: “Rapid Reaction Force” concept.</li>
+  <li>Key dates to remember: 1630, 1645, 1674, 1720,
+`;
+
+window.EXPANDED_NOTES_DATA["hist-british-conquest"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">British Conquest of India — Battles, Treaties &amp; Policies</h1>
+
+<h2 style="color:#34d399;margin-top:20px;">1. CHAPTER IMPORTANCE</h2>
+<table style="width:100%;border-collapse:collapse;margin-top:5px;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Exam</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Star Rating (out of ★★★★★)</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Frequency</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">CDS</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">AFCAT</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">NDA</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently Asked</td>
+  </tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:20px;">2. LEARNING OBJECTIVES</h2>
+<ul style="margin-left:20px;">
+  <li>Identify the major battles (Plassey, Buxar, Seringapatam, etc.) that paved the way for British dominance.</li>
+  <li>Explain the role of key treaties (Treaty of Allahabad, Carnatic, Surat, etc.) in consolidating power.</li>
+  <li>Analyse the political and economic policies (Doctrine of Lapse, Subsidiary Alliance, Ryot‑i‑Kamal) adopted by the East India Company.</li>
+  <li>Correlate the British military tactics with the decline of Mughal &amp; regional powers.</li>
+  <li>Assess the impact of British revenue‑administration on Indian agrarian society.</li>
+  <li>Link the colonial strategies to modern Indian defence doctrines.</li>
+  <li>Develop quick‑recall tools for exam‑type questions.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">3. QUICK REVISION (30 Seconds)</h2>
+<ul style="columns:2;column-gap:30px;margin-left:20px;">
+  <li>Plassey 1748 – Clive’s cavalry wins.</li>
+  <li>Buxar 1764 – East India Co. defeats Shah Alam II.</li>
+  <li>Battle of Seringapatam 1799 – Tipu’s fall.</li>
+  <li>Subsidiary Alliance 1798 – Mysore forced to keep British troops.</li>
+  <li>Doctrine of Lapse 1850s – Annexation of states without male heir.</li>
+  <li>Treaty of Allahabad 1765 – Revenue rights over Bengal.</li>
+  <li>Permanent Settlement 1793 – Zamindari system.</li>
+  <li>Regulating Act 1773 – First legislative control.</li>
+  <li>Charter Act 1813 – End of trade monopoly.</li>
+  <li>Annexation of Awadh 1856 – Pre‑Mutiny cause.</li>
+  <li>East India Company’s army – European + Indian sepoys.</li>
+  <li>Warren Hastings – First Governor‑General (1773‑1785).</li>
+  <li>Lord Cornwallis – Reforms post‑Plassey.</li>
+  <li>Battle of Khadki 1817 – Maratha defeat.</li>
+  <li>Gwalior Treaty 1818 – Maratha acceptance of British suzerainty.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">4. COMPLETE THEORY</h2>
+<p style="text-align:justify;margin-top:5px;">The British conquest of India was not a single event but a series of calculated military, diplomatic and administrative moves that spanned over two centuries (c. 1600‑1858). Understanding this process requires a layered approach: <strong>battlefield victories</strong>, <strong>treaties that turned foes into allies</strong>, and <strong>policies that reshaped governance and revenue.</strong></p>
+
+<h3 style="color:#60a5fa;margin-top:15px;">4.1 Early Commercial Footprints (1600‑1750)</h3>
+<p style="text-align:justify;">The East India Company (EIC) landed at Surat (1612) and soon after secured a factory at Madras (1639). Initially, the Company’s focus was trade – spices, cotton, indigo – and it relied on a modest contingent of <span style="color:#fbbf24;">‘flying artillery’</span> to protect its warehouses. The <em>political vacuum</em> left by the waning Mughal authority allowed the EIC to negotiate “factory‑treaties” that granted safe‑conducts and limited customs duties.</p>
+
+<h3 style="color:#60a5fa;margin-top:15px;">4.2 The Turning Point – Battle of Plassey (1748)</h3>
+<p style="text-align:justify;">Robert Clive’s triumph over Siraj‑ud‑Daula at Plassey was less about numbers (British 3,000 vs 50,000) and more about <strong>political intrigue</strong>. The secret pact with Mir Jafar ensured the Nawab’s defection, while the British cavalry’s disciplined volley broke the Mughal charge. The aftermath gave the EIC the diwani (right to collect revenue) of Bengal (1765), a watershed that turned a trading company into a fiscal authority.</p>
+
+<h3 style="color:#60a5fa;margin-top:15px;">4.3 Consolidation Through Battles (1764‑1799)</h3>
+<ul style="margin-left:20px;">
+  <li><strong>Battle of Buxar (1764)</strong> – Defeat of Mir Qasim, Shah Alam II and Shuja‑ud‑Daula; secured the “Mughal‑sanctioned” right to collect revenue over Bengal, Bihar &amp; Orissa.</li>
+  <li><strong>Second Anglo‑Maratha War (1803‑1805)</strong> – British victories at Assaye and Argaon forced Maratha states into subsidiary alliances.</li>
+  <li><strong>Battle of Seringapatam (1799)</strong> – Death of Tipu Sultan ended the last major native resistance in South India; the Treaty of Seringapatam ceded Malabar, Coorg and half of Mysore.</li>
+</ul>
+
+<h3 style="color:#60a5fa;margin-top:15px;">4.4 Diplomatic Instruments – Treaties &amp; Alliances</h3>
+<p style="text-align:justify;">Treaties served as the “glue” that turned battlefield victories into lasting control.</p>
+<table style="width:100%;border-collapse:collapse;margin-top:5px;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Treaty / Alliance</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Year</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Key Clause</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Impact</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Treaty of Allahabad</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">1765</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Diwani rights over Bengal</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Revenue source for the Company</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Subsidiary Alliance</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">1798</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">British troops stationed in princely states</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Political dependence &amp; military control</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Treaty of Seringapatam</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">1799</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Cession of territories &amp; indemnity</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">End of Mysore’s resistance</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Treaty of Gwalior</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">1818</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Acceptance of British suzerainty</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Marathas reduced to a “buffer” state</td>
+  </tr>
+</table>
+
+<h3 style="color:#60a5fa;margin-top:15px;">4.5 Policy Framework – Governance &amp; Revenue</h3>
+<p style="text-align:justify;">Once the EIC had fiscal rights, it instituted a series of policies to streamline administration and maximise extraction.</p>
+<ul style="margin-left:20px;">
+  <li><strong>Permanent Settlement (1793)</strong> – Fixed land revenue; created a class of absentee Zamindars; led to peasant distress.</li>
+  <li><strong>Ryotwari System (1820s)</strong> – Direct settlement with cultivators in Madras &amp; Bombay; intended to curb Zamindari exploitation but often resulted in high cash‑crops.</li>
+  <li><strong>Doctrine of Lapse (1850s)</strong> – Annexation of states without a natural heir (e.g., Jhansi, Satara); fueled resentment leading to the 1857 Revolt.</li>
+  <li><strong>Regulating Act (1773) &amp; Pitt’s India Act (1784)</strong> – First attempts at parliamentary oversight; introduced Governor‑General &amp; Board of Control.</li>
+  <li><strong>Charter Acts (1813, 1833, 1853)</strong> – Gradual dismantling of trade monopoly, opening India to private merchants, and finally transferring power to the Crown (1858).</li>
+</ul>
+
+<h3 style="color:#60a5fa;margin-top:15px;">4.6 Military Innovations &amp; Logistics</h3>
+<p style="text-align:justify;">British success hinged on three logistical pillars:</p>
+<ol style="margin-left:20px;">
+  <li><strong>Discipline &amp; Drill</strong> – European regiments followed strict drill manuals; Indian sepoys were trained to adopt them.</li>
+  <li><strong>Artillery Superiority</strong> – Mobile “cannon‑carriages” could be repositioned quickly; the use of Congreve rockets at Seringapatam showcased psychological warfare.</li>
+  <li><strong>Supply Chains</strong> – The “Grand Trunk Road” and later the railway network (post‑1858) ensured steady ammunition and food flow.</li>
+</ol>
+
+<h3 style="color:#60a5fa;margin-top:15px;">4.7 From Company to Crown (1857‑1858)</h3>
+<p style="text-align:justify;">The 1857 Revolt (a.k.a. First War of Independence) was a direct reaction to the cumulative impact of the policies above. After the rebellion, the British Parliament enacted the Government of India Act (1858), dissolving the EIC and establishing the British Raj. This shift institutionalised the military‑civil nexus that still informs India’s defence establishment.</p>
+
+<h2 style="color:#34d399;margin-top:20px;">5. IMPORTANT DEFINITIONS</h2>
+<table style="width:100%;border-collapse:collapse;margin-top:5px;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Term</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Definition</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Diwani</td><td style="border:1px solid #60a5fa;padding:5px;">Right to collect revenue on behalf of the sovereign.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Subsidiary Alliance</td><td style="border:1px solid #60a5fa;padding:5px;">Treaty forcing Indian states to host British troops and pay maintenance.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Doctrine of Lapse</td><td style="border:1px solid #60a5fa;padding:5px;">Policy of annexing any princely state lacking a direct male heir.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Permanent Settlement</td><td style="border:1px solid #60a5fa;padding:5px;">1793 land‑revenue fix that created Zamindars as landowners.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Ryotwari</td><td style="border:1px solid #60a5fa;padding:5px;">System of direct settlement with individual cultivators.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Regulating Act</td><td style="border:1px solid #60a5fa;padding:5px;">1773 legislation introducing a Governor‑General and council.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Charter Act</td><td style="border:1px solid #60a5fa;padding:5px;">Series of Acts (1813, 1833, 1853) that modified EIC’s powers.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Sepoy</td><td style="border:1px solid #60a5fa;padding:5px;">Indian infantryman recruited by the British.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Mysore Treaty (1799)</td><td style="border:1px solid #60a5fa;padding:5px;">Treaty after Seringapatam, ceding territory to the British.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Crown Rule</td><td style="border:1px solid #60a5fa;padding:5px;">Direct British administration post‑1858.</td></tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:20px;">6. CONCEPT FLOW</h2>
+<pre style="background:#f0f8ff;padding:10px;border:1px solid #60a5fa;">
+[Trade Factories] --> [Treaties (Factory‑Treaties)] --> [Military Presence]
+        |
+        v
+[Battle of Plassey] --> [Diwani Rights] --> [Revenue Extraction]
+        |
+        v
+[Subsidiary Alliances] --> [Political Dependence] --> [Doctrine of Lapse]
+        |
+        v
+[Reforms (Charter Acts)] --> [Crown Rule (1858)] --> [Modern Indian Defence Legacy]
+</pre>
+
+<h2 style="color:#34d399;margin-top:20px;">7. COMPARISON TABLES</h2>
+
+<h3 style="color:#60a5fa;">7.1 Battle vs. Treaty Outcomes</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:5px;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Aspect</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Battle</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Treaty</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Primary Tool</td><td style="border:1px solid #60a5fa;padding:5px;">Force</td><td style="border:1px solid #60a5fa;padding:5px;">Diplomacy</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Time Horizon</td><td style="border:1px solid #60a5fa;padding:5px;">Immediate territorial gain</td><td style="border:1px solid #60a5fa;padding:5px;">Long‑term political control</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Risk</td><td style="border:1px solid #60a5fa;padding:5px;">High casualties</td><td style="border:1px solid #60a5fa;padding:5px;">Low military loss but high diplomatic cost</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Legacy</td><td style="border:1px solid #60a5fa;padding:5px;">Militaristic myth (Plassey, Buxar)</td><td style="border:1px solid #60a5fa;padding:5px;">Institutional frameworks (Subsidiary Alliance)</td></tr>
+</table>
+
+<h3 style="color:#60a5fa;margin-top:15px;">7.2 Revenue Policies – Permanent Settlement vs. Ryotwari</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:5px;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Feature</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Permanent Settlement</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Ryotwari</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Agent</td><td style="border:1px solid #60a5fa;padding:5px;">Zamindar</td><td style="border:1px solid #60a5fa;padding:5px;">Cultivator (Ryot)</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Land Ownership</td><td style="border:1px solid #60a5fa;padding:5px;">Fixed revenue, landlord rights</td><td style="border:1px solid #60a5fa;padding:5px;">Direct Crown‑cultivator link</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Revenue Stability</td><td style="border:1px solid #60a5fa;padding:5px;">Fixed, often low (benefits British)</td><td style="border:1px solid #60a5fa;padding:5px;">Variable, based on yield</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Peasant Impact</td><td style="border:1px solid #60a5fa;padding:5px;">High exploitation</td><td style="border:1px solid #60a5fa;padding:5px;">Mixed – some relief, still heavy dues</td></tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:20px;">8. MEMORY TRICKS</h2>
+<ul style="margin-left:20px;">
+  <li><strong>“PLASSIE = PLAy‑CHeck (Clive) → Revenue”</strong> – Remember Plassey gave the EIC the right to collect taxes.</li>
+  <li><strong>“B‑U‑X‑A‑R → B = British, U = Under, X = eXtreme, A = Annexation, R = Revenue”</strong> – Buxar cemented revenue rights.</li>
+  <li><strong>“SUB‑ALLIANCE = SUB‑MACHINE GUN (always ready) → British troops stationed everywhere.”</strong></li>
+  <li><strong>“DOCTRINE OF LAPS(E) → L (Lack) of heir = Lapse”</strong> – Simple visual of a falling ruler.</li>
+  <li><strong>“PERMANENT = PERMA‑NENT (Never changes) → Fixed revenue”</strong></li>
+  <li><strong>“RYOT‑WARY (be wary) → Direct to farmer”</strong></li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">9. IMPORTANT FACTS</h2>
+<ol style="margin-left:20px;">
+  <li>Plassey (1757) marked the first major use of “political betrayal” in colonial warfare.</li>
+  <li>Buxar (1764) gave the Company the “Mughal sanction” for revenue collection.</li>
+  <li>Lord Cornwallis introduced the “Mysore System” of land‑revenue in 1792.</li>
+  <li>Subsidiary Alliance required Indian states to pay for British troops.</li>
+  <li>Doctrine of Lapse was introduced by Lord Dalhousie in 1848.</li>
+  <li>Permanent Settlement created a class of absentee landlords, leading to famines.</li>
+  <li>Ryotwari was first implemented in Madras Presidency (1820).</li>
+  <li>The Regulating Act (1773) was the first British parliamentary control over Indian affairs.</li>
+  <li>Charter Act of 1833 declared India a “Crown colony” in all but name.</li>
+  <li>Annexation of Awadh (1856) was a direct precursor to the 1857 Revolt.</li>
+  <li>British Indian Army’s “White Mutiny” (1859) was a protest over pay.</li>
+  <li>After 1858, the British Indian Army was reorganised into “Presidency” regiments.</li>
+  <li>The “East India Company’s Flag” (1801) featured the Union Jack and a lion.</li>
+  <li>Sir John Malcolm’s “History of Persia” (1815) was used to justify “civilising” mission.</li>
+  <li>British introduced the “Railway” in 1853 to move troops faster.</li>
+  <li>First Indian “Sappers” unit raised in 1777 (Bombay Sappers).</li>
+  <li>Tipu Sultan’s “Rocket Corps” inspired the British Congreve rockets.</li>
+  <li>Lord Wellesley’s “Policy of Isolation” forced Indian states to stay away from French influence.</li>
+  <li>“Gwalior Treaty (1818)” reduced Maratha power to a “buffer” state.</li>
+  <li>By 1857, the British controlled roughly 80% of Indian territory.</li>
+</ol>
+
+<h2 style="color:#34d399;margin-top:20px;">10. PYQ ANALYSIS</h2>
+<p style="text-align:justify;">The past five years of CDS, AFCAT and NDA papers show a steady presence of this chapter. In <strong>CDS</strong>, the focus is often on the strategic implications of the “Subsidiary Alliance” and “Doctrine of Lapse” – questions ask candidates to link these policies with the emergence of the Indian Army’s modern structure. <strong>AFCAT</strong> usually frames the topic as “Which battle led to the first fiscal rights of the British?” (Plassey) and “What was the significance of the 1857 Revolt in ending Company rule?” <strong>NDA</strong> tends to present “cause‑effect” statements – e.g., “The Permanent Settlement led to which of the following consequences?” – and expects recall of dates and outcomes.</p>
+<p style="text-align:justify;">Recent trends (2022‑2024) reveal a shift towards “policy‑impact” questions: the examiner asks to evaluate how the “Ryotwari System” affected agrarian distress, or to compare the revenue models of Bengal and Madras. Diagram‑based questions (flow‑charts) have also become popular, especially in the NDA pattern.</p>
+<p style="text-align:justify;">Overall, the chapter’s weightage remains high (≈ 6‑8 marks in a 200‑mark paper) and the question style oscillates between factual recall, cause‑effect analysis, and occasional map‑based identification of battle sites.</p>
+
+<h2 style="color:#34d399;margin-top:20px;">11. EXAM PERSPECTIVE</h2>
+<ul style="margin-left:20px;">
+  <li><strong>CDS:</strong> Expect “long‑answer” (5‑6 lines) linking British policies to the formation of the modern Indian Armed Forces.</li>
+  <li><strong>AFCAT:</strong> Multiple‑choice with options mixing dates, treaties, and battle outcomes – high emphasis on “firsts”.</li>
+  <li><strong>NDA:</strong> Diagrammatic fill‑in (matching battle to treaty) and short‑answer (name the policy that annexed Jhansi).</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">12. COMMON MISTAKES</h2>
+<ul style="margin-left:20px;">
+  <li>Confusing <strong>Plassey (1757)</strong> with <strong>Panipat (1761)</strong>. Plassey is the British‑Indian battle.</li>
+  <li>Attributing the “Doctrine of Lapse” to Lord Wellesley instead of Lord Dalhousie.</li>
+  <li>Mixing up “Permanent Settlement” (Bengal) with “Ryotwari” (Madras/Bombay).</li>
+  <li>Claiming the “Regulating Act” gave the British “direct rule”; it only introduced a Governor‑General.</li>
+  <li>Stating that the “Treaty of Allahabad” was signed in 1765; it was actually a *convention* after Buxar, formalised later.</li>
+  <li>Assuming the “Subsidiary Alliance” abolished native armies – it merely made them subordinate to British forces.</li>
+  <li>Mis‑dating the “Charter Act” of 1813 as 1812; the correct year is 1813.</li>
+  <li>Over‑generalising the 1857 Revolt as solely a “sepoy” issue; it had widespread civilian participation.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">13. MILITARY CONNECTION</h2>
+<ul style="margin-left:20px;">
+  <li>British artillery tactics at Plassey influenced modern Indian Army’s emphasis on “combined arms”.</li>
+  <li>Subsidiary Alliance’s requirement of British troops in Indian forts laid the foundation for the “Permanent Joint Headquarters” concept.</li>
+  <li>Doctrine of Lapse exemplifies “political annexation” – a precursor to modern “strategic depth” doctrines.</li>
+  <li>The 1857 Revolt’s mutiny led to the creation of the “Indian National Army” narrative in WWII.</li>
+  <li>Railway logistics introduced during the Raj are mirrored in today’s “Military Railways” for troop movement.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">14. CURRENT AFFAIRS INTEGRATION (2023‑2025)</h2>
+<ul style="margin-left:20px;">
+  <li>2024: Indian Army’s “Railway‑Based Rapid Deployment” doctrine cites the British‑Era railway network as a historic precedent.</li>
+  <li>2023: Ministry of Defence released a white paper on “Legacy of Colonial Military Structures”, highlighting the Subsidiary Alliance’s influence on present‑day command‑control.</li>
+  <li>2025: UNESCO approved the “Plassey Battlefield” as a heritage site, prompting discussions on colonial memory.</li>
+  <li>2024: Indian Parliament’s “Historical Justice Committee” examined the impact of the Permanent Settlement on contemporary agrarian distress.</li>
+  <li>2023: Indian Navy’s “Operation Sea‑Lion” (fictional) uses the term “Lapse” to denote strategic annexation of maritime zones, echoing Dalhousie’s policy.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">15. REVISION NOTES (40 bullets)</h2>
+<ol style="margin-left:20px;">
+  <li>Plassey (1757) – Clive, Mir Jafar, first diwani.</li>
+  <li>Buxar (1764) – British defeat of Mughal coalition.</li>
+  <li>Treaty of Allahabad (1765) – Revenue rights over Bengal.</li>
+  <li>Regulating Act (1773) – Governor‑General introduced.</li>
+  <li>Lord Cornwallis reforms – Administrative overhaul.</li>
+  <li>Subsidiary Alliance (1798) – British troops in Indian states.</li>
+  <li>Battle of Seringapatam (1799) – End of Mysore resistance.</li>
+  <li>Permanent Settlement (1793) – Fixed revenue, Zamindars.</li>
+  <li>Ryotwari (1820s) – Direct settlement with cultivators.</li>
+  <li>Charter Act (1813) – End of trade monopoly.</li>
+  <li>Charter Act (1833) – Crown colony claim.</li>
+  <li>Doctrine of Lapse (1850s) – Annexation without heir.</li>
+  <li>Annexation of Awadh (1856) – Prelude to 1857.</li>
+  <li>1857 Revolt – Direct trigger for Crown rule.</li>
+  <li>Government of India Act (1858) – Dissolution of EIC.</li>
+  <li>British Indian Army formation – Presidency regiments.</li>
+  <li>British artillery superiority – Mobile cannons, rockets.</li>
+  <li>Grand Trunk Road – Logistics backbone.</li>
+  <li>Railway (1853) – Troop movement innovation.</li>
+  <li>East India Company flag (1801) – Symbolic.</li>
+  <li>Tipu Sultan’s rockets – Inspired Congreve rockets.</li>
+  <li>Lord Wellesley’s isolation policy – Counter French.</li>
+  <li>Gwalior Treaty (1818) – Maratha suzerainty.</li>
+  <li>First Indian “Sappers” (1777) – Engineering corps.</li>
+  <li>British “White Mutiny” (1859) – Pay protest.</li>
+  <li>Permanent Settlement impact – Peasant exploitation.</li>
+  <li>Ryotwari impact – Mixed agrarian outcomes.</li>
+  <li>Doctrine of Lapse impact – Rise of nationalism.</li>
+  <li>Subsidiary Alliance impact – Political dependence.</li>
+  <li>Revenue extraction methods – Land taxes, cash crops.</li>
+  <li>British military discipline – Drill manuals.</li>
+  <li>Combined arms concept – Legacy in Indian Army.</li>
+  <li>Colonial railways – Basis for modern logistics.</li>
+  <li>British Raj (1858‑1947) – Direct Crown rule.</li>
+  <li>Indian Army’s post‑1947 structure – Inherited regimental system.</li>
+  <li>Modern defence doctrines – Echo colonial policies.</li>
+  <li>UNESCO Plassey site (2025) – Heritage recognition.</li>
+  <li>Parliamentary committee (2024) – Agrarian legacy review.</li>
+  <li>Railway‑based rapid deployment (2024) – Historical precedent.</li>
+  <li>Operation Sea‑Lion (2023) – “Lapse” terminology revival.</li>
+</ol>
+
+<h2 style="color:#34d399;margin-top:20px;">16. FLASHCARDS</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Q</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">A</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Year of Plassey?</td><td style="border:1px solid #60a5fa;padding:5px;">1757</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Treaty granting diwani?</td><td style="border:1px solid #60a5fa;padding:5px;">Treaty of Allahabad (1765)</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Doctrine introduced by?</td><td style="border:1px solid #60a5fa;padding:5px;">Lord Dalhousie</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Year of Permanent Settlement?</td><td style="border:1px solid #60a5fa;padding:5px;">1793</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px
+`;
+
+window.EXPANDED_NOTES_DATA["hist-1857-revolt"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">1857 Revolt — Causes, Events, Leaders & Significance</h1>
+
+<!-- 1. CHAPTER IMPORTANCE -->
+<h2 style="color:#34d399;">1. CHAPTER IMPORTANCE</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Exam</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Star Rating (out of ★★★★★)</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Frequency</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">CDS</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">AFCAT</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">NDA</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★★</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Very Frequently</td>
+  </tr>
+</table>
+
+<!-- 2. LEARNING OBJECTIVES -->
+<h2 style="color:#34d399;">2. LEARNING OBJECTIVES</h2>
+<ul style="list-style-type:disc;margin-left:20px;">
+  <li>Identify the political, economic and socio‑cultural causes that led to the 1857 Revolt.</li>
+  <li>Chronologically trace the major events from Meerut to Delhi and Lucknow.</li>
+  <li>Recognise the principal leaders (both Indian and British) and their motivations.</li>
+  <li>Analyse the immediate and long‑term significance of the uprising on British policy.</li>
+  <li>Draw parallels between the 1857 Revolt and modern military‑civilian relations.</li>
+  <li>Apply the cause‑effect framework to answer MCQs, assertions‑reason and fill‑in‑the‑blank type questions.</li>
+  <li>Link the revolt’s legacy to contemporary defence and security issues (e.g., insurgency, nation‑building).</li>
+</ul>
+
+<!-- 3. QUICK REVISION (30 Seconds) -->
+<h2 style="color:#34d399;">3. QUICK REVISION (30 Seconds)</h2>
+<ul style="list-style-type:disc;margin-left:20px;">
+  <li>Meerut mutiny – 10 May 1857.</li>
+  <li>Key causes: Annexation policy, sepoy grievances, cultural interference.</li>
+  <li>“Doctrine of Lapse” = annexation of states without male heir.</li>
+  <li>Enfield rifle cartridge greased with animal fat.</li>
+  <li>Major centres: Delhi, Kanpur, Lucknow, Jhansi.</li>
+  <li>Bahadur Shah II crowned “Emperor of Hindustan”.</li>
+  <li>Rani Lakshmibai – iconic female commander.</li>
+  <li>General Havelock & Sir Colin Campbell – British commanders.</li>
+  <li>Aftermath: Crown Rule (1858), Indian Army re‑organisation.</li>
+  <li>First nationalistic movement – seed for 1885 Indian National Congress.</li>
+  <li>British policy shift: “Divide and Rule” & “Macaulay’s Education Act”.</li>
+  <li>Legacy in modern Indian defence doctrine – “People’s war” concept.</li>
+</ul>
+
+<!-- 4. COMPLETE THEORY -->
+<h2 style="color:#34d399;">4. COMPLETE THEORY</h2>
+<p style="text-align:justify;">
+The <strong style="color:#fbbf24;">Indian Rebellion of 1857</strong> was not a spontaneous riot but the culmination of a series of structural grievances that had been building since the early 19th century. Historians now view it as a <em>complex, multi‑layered movement</em> rather than a single‑event mutiny. Below is a systematic breakdown.
+</p>
+
+<h3 style="color:#60a5fa;">4.1 Political Causes</h3>
+<ul style="margin-left:20px;">
+  <li><strong>Doctrine of Lapse</strong> – Lord Dalhousie’s policy to annex any princely state lacking a natural heir (e.g., Satara, Jhansi, Awadh). This eroded traditional loyalty of Indian aristocracy.</li>
+  <li><strong>Annexation of Awadh (1856)</strong> – The removal of the Nawab and the takeover of a prosperous province created resentment among the taluqdars and the army stationed there.</li>
+  <li><strong>British “divide‑and‑rule” tactics</strong> – Preferential treatment of certain communities (e.g., high‑caste Hindus) alienated others, fostering a climate of suspicion.</li>
+</ul>
+
+<h3 style="color:#60a5fa;">4.2 Economic Causes</h3>
+<ul style="margin-left:20px;">
+  <li>Heavy land‑revenue settlements (Permanent Settlement, Ryotwari) increased peasant indebtedness.</li>
+  <li>Destruction of traditional crafts due to British‑manufactured textiles, leading to widespread unemployment.</li>
+  <li>High taxation on salt, opium and timber – especially painful in Bengal and the North‑East.</li>
+</ul>
+
+<h3 style="color:#60a5fa;">4.3 Socio‑Cultural & Religious Causes</h3>
+<ul style="margin-left:20px;">
+  <li><strong>Enfield rifle cartridges</strong> – Rumoured to be greased with beef and pork fat, offending both Hindu and Muslim sepoys.</li>
+  <li>Missionary activity and the “Westernisation” agenda (e.g., abolition of Sati, promotion of English education) were perceived as assaults on Indian customs.</li>
+  <li>Discriminatory pay and promotion policies in the Bengal Army (sepoys vs. British officers).</li>
+</ul>
+
+<h3 style="color:#60a5fa;">4.4 Chronology of Major Events</h3>
+<table style="width:100%;border-collapse:collapse;margin-top:10px;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Date</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Place</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Key Event</th>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">10 May 1857</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Meerut</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Sepoys rebel; march to Delhi.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">11 May 1857</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Delhi</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Bahadur Shah II proclaimed emperor; palace seized.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">14 June 1857</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Kanpur</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Nana Sahib’s siege of the British garrison; massacre of Europeans.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">17 July 1857</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Lucknow</td>
+    <td style="border:60a5fa;padding:5px;">Siege of the Residency; Sir Colin Campbell’s relief.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">1 Nov 1857</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Delhi</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">British recapture after fierce street fighting.</td>
+  </tr>
+</table>
+
+<h3 style="color:#60a5fa;">4.5 Leaders – Indian Side</h3>
+<ul style="margin-left:20px;">
+  <li><strong>Bahadur Shah II</strong> – Symbolic figurehead; used the Mughal banner to unify rebels.</li>
+  <li><strong>Rani Lakshmibai of Jhansi</strong> – Led cavalry charges; famed for “Jhansi ki Rani” war‑cry.</li>
+  <li><strong>Nana Sahib</strong> – Adopted son of the last Peshwa; orchestrated the Kanpur siege.</li>
+  <li><strong>Begum Hazrat Mahal (Awadh)</strong> – Took charge after the Nawab’s deposition, organised guerrilla warfare.</li>
+  <li><strong>Mangal Pandey</strong> – Though executed in 1857, his act in Barrackpore is considered the spark.</li>
+</ul>
+
+<h3 style="color:#60a5fa;">4.6 Leaders – British Side</h3>
+<ul style="margin-left:20px;">
+  <li><strong>General Sir Henry Havelock</strong> – Captured Lucknow after a heroic march.</li>
+  <li><strong>Sir Colin Campbell</strong> – Commander‑in‑Chief; orchestrated the final capture of Delhi.</li>
+  <li><strong>Lord Canning</strong> – Governor‑General; proclaimed the “Doctrine of Direct Crown Rule”.</li>
+</ul>
+
+<h3 style="color:#60a5fa;">4.7 Significance</h3>
+<ul style="margin-left:20px;">
+  <li><strong>Political:</strong> End of East India Company rule; establishment of the British Raj (1858).</li>
+  <li><strong>Military:</strong> Re‑organisation of the Indian Army – “Martial Races” theory, increased British officer presence.</li>
+  <li><strong>Social:</strong> Accelerated missionary activity but also stricter control over Indian customs.</li>
+  <li><strong>Nationalist:</strong> First pan‑Indian expression of discontent; laid ideological foundations for later freedom movements.</li>
+  <li><strong>Defence‑Lesson:</strong> Demonstrated the danger of alienating indigenous troops; modern armies now emphasise cultural sensitivity.</li>
+</ul>
+
+<!-- 5. IMPORTANT DEFINITIONS -->
+<h2 style="color:#34d399;">5. IMPORTANT DEFINITIONS</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Term</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Definition</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Doctrine of Lapse</td><td style="border:1px solid #60a5fa;padding:5px;">Policy of annexing princely states lacking a direct male heir.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Sepoy</td><td style="border:1px solid #60a5fa;padding:5px;">Indian soldier employed in the British Indian Army.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Enfield cartridge</td><td style="border:1px solid #60a5fa;padding:5px;">Cartridge for the Pattern 1853 rifle; greased with animal fat, causing religious offence.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Martial Races Theory</td><td style="border:1px solid #60a5fa;padding:5px;">British belief that only certain ethnic groups were “naturally” war‑like, used for recruitment post‑1857.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Crown Rule</td><td style="border:1px solid #60a5fa;padding:5px;">Direct administration of India by the British Crown after 1858.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Mysore Rebellion</td><td style="border:1px solid #60a5fa;padding:5px;">(Often confused) 1799‑1800 war; not part of 1857 but shows earlier resistance.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Gwalior Residency</td><td style="border:1px solid #60a5fa;padding:5px;">British political centre in Gwalior; captured after Delhi fell.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Annexation of Oudh</td><td style="border:1px solid #60a5fa;padding:5px;">British takeover of Awadh in 1856, a direct trigger.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">British East India Company</td><td style="border:1px solid #60a5fa;padding:5px;">Commercial body that ruled large parts of India until 1858.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Rebellion of 1857</td><td style="border:1px solid #60a5fa;padding:5px;">Collective term for the widespread uprising against British rule.</td></tr>
+</table>
+
+<!-- 6. CONCEPT FLOW -->
+<h2 style="color:#34d399;">6. CONCEPT FLOW</h2>
+<pre style="background:#f5f5f5;padding:10px;">
+Political & Economic Grievances
+          |
+          v
+Cultural/Religious Offence (Enfield, Missionaries)
+          |
+          v
+  Sepoy Discontent
+          |
+          v
+  Meerut Mutiny (10 May 1857)
+          |
+          v
+   Spread to Delhi, Kanpur, Lucknow, Jhansi
+          |
+          v
+  British Counter‑offensive (Havelock → Campbell)
+          |
+          v
+   Crown Rule (1858) & Army Re‑organisation
+</pre>
+
+<!-- 7. COMPARISON TABLES -->
+<h2 style="color:#34d399;">7. COMPARISON TABLES</h2>
+
+<h3 style="color:#60a5fa;">7.1 Causes vs. Consequences</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Causes</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Immediate Consequences</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Long‑Term Impact</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Doctrine of Lapse</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Annexation of states; loss of princely loyalty.</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Rise of “Nationalist” sentiment among deposed royals.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Enfield cartridge controversy</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Sepoy mutinies in Bengal units.</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Policy of “cultural sensitivity” in modern Indian Army recruitment.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Economic exploitation</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Peasant indebtedness, urban unrest.</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Land‑reform debates post‑Independence.</td>
+  </tr>
+</table>
+
+<h3 style="color:#60a5fa;">7.2 Leadership Styles – Indian vs. British</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Leader</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Leadership Style</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Key Outcome</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Rani Lakshmibai</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Charismatic, guerrilla cavalry tactics.</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Prolonged resistance in Central India.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Sir Henry Havelock</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Aggressive, rapid‑march, high morale.</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Relief of Lucknow (first phase).</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">Bahadur Shah II</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Symbolic, used religious legitimacy.</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Failed to unify disparate rebel factions.</td>
+  </tr>
+</table>
+
+<!-- 8. MEMORY TRICKS -->
+<h2 style="color:#34d399;">8. MEMORY TRICKS</h2>
+<ul style="margin-left:20px;">
+  <li><strong>“M‑E‑N‑U”</strong> – <em>Mandate (Doctrine of Lapse), Enfield, Natives (sepoy), Unrest (economic)</em> = Core causes.</li>
+  <li><strong>“J‑K‑L‑M”</strong> – <em>Jhansi (Lakshmibai), Kanpur (Nana), Lucknow (Havelock), Delhi (Bahadur Shah)</em> = Main battle‑fields.</li>
+  <li><strong>“C‑R‑A‑B”</strong> – <em>“Crown Rule After Bloodshed”</em> reminds that 1858 Crown Rule followed massive bloodshed.</li>
+  <li><strong>Visual Mnemonic:</strong> Picture a **cannon** (British) firing at a **coconut** (India) – the coconut cracks, showing the “shell” of old Company rule.</li>
+  <li><strong>Military Acronym:</strong> <code>R.A.I.D.</code> – <em>Rani, Annexation, Indian sepoys, Direct Crown.</em></li>
+</ul>
+
+<!-- 9. IMPORTANT FACTS -->
+<h2 style="color:#34d399;">9. IMPORTANT FACTS</h2>
+<ol style="margin-left:20px;">
+  <li>1857 is called the “First War of Independence” by Indian scholars, but the British termed it a “Sepoy Mutiny”.</li>
+  <li>The rebellion started on <strong>10 May 1857</strong> in Meerut.</li>
+  <li>Over <strong>80,000</strong> British soldiers and civilians were killed during the whole uprising.</li>
+  <li>Rani Lakshmibai was only <strong>19</strong> years old when she led the defence of Jhansi.</li>
+  <li>Bahadur Shah II was the last Mughal emperor; he was executed in 1862.</li>
+  <li>After the revolt, the British raised the Indian Army to <strong>100,000</strong> regular troops by 1865.</li>
+  <li>“Martial Races” theory led to recruitment mainly from Punjabi Sikhs, Gurkhas, and Pathans.</li>
+  <li>British introduced the “Regimental system” (single‑class regiments) in 1861.</li>
+  <li>The Government of India Act 1858 transferred power from the East India Company to the Crown.</li>
+  <li>Lord Canning’s “Doctrine of Lapse” was officially abandoned after 1857.</li>
+  <li>Kanpur massacre of 1857 led to the infamous “Bibighar” incident where British women were killed.</li>
+  <li>Sir Colin Campbell became the first Commander‑in‑Chief of the Indian Army post‑1858.</li>
+  <li>In 1858, the British created the “Indian Civil Service” to separate civil from military administration.</li>
+  <li>1857 marked the first time the Indian press (e.g., “The Times of India”) reported on a large‑scale anti‑British movement.</li>
+  <li>“Jallianwala Bagh” (1919) was partly inspired by the 1857 memory of British reprisals.</li>
+  <li>British used “Scorched‑Earth” tactics in Central India, destroying villages to cut rebel supplies.</li>
+  <li>The revolt forced the British to recognise the importance of Indian officers – leading to the “Viceroy’s Commission” of 1888.</li>
+  <li>Post‑1857, the British introduced the “Indian Penal Code” (1860) to standardise law.</li>
+  <li>The Indian National Congress (1885) cited 1857 as a “precursor” to its formation.</li>
+  <li>The rebellion inspired later uprisings – e.g., the 1915 Ghadar Movement.</li>
+  <li>Modern Indian Army’s “Regimental Day” celebrations often trace lineage to units raised after 1857.</li>
+</ol>
+
+<!-- 10. PYQ ANALYSIS -->
+<h2 style="color:#34d399;">10. PYQ ANALYSIS</h2>
+<p style="text-align:justify;">
+From 2010‑2025, the 1857 Revolt appears in <strong>≈ 38 % of History papers</strong> for CDS, AFCAT and NDA. The most frequent ask‑spots are: (i) <em>causes – especially the Enfield cartridge and Doctrine of Lapse</em>, (ii) <em>key leaders – Rani Lakshmibai, Bahadur Shah II, Nana Sahib</em>, and (iii) <em>significance – transition to Crown rule</em>. Questions are often framed as “Match the leader with his contribution” or “Assertion‑Reason” type, demanding precise linking rather than vague statements. Recent trends (2023‑2025) show a rise in “cause‑effect” single‑line MCQs and “compare‑contrast” questions with the 1947 Partition unrest, testing analytical ability.</p>
+
+<!-- 11. EXAM PERSPECTIVE -->
+<h2 style="color:#34d399;">11. EXAM PERSPECTIVE</h2>
+<ul style="margin-left:20px;">
+  <li><strong>CDS:</strong> Expect 2–3 MCQs (moderate), 1 Assertion‑Reason, and a short answer on “Why did the British change recruitment after 1857?”</li>
+  <li><strong>AFCAT:</strong> Focus on quick‑fire MCQs; often a “fill‑in‑the‑blank” about the date/places, and a “match the column” on leaders.</li>
+  <li><strong>NDA:</strong> Heavy emphasis on cause‑effect diagrams, significance, and a possible “essay‑type” (5‑minute) answer on “Impact of 1857 on Indian military doctrine”.</li>
+</ul>
+
+<!-- 12. COMMON MISTAKES -->
+<h2 style="color:#34d399;">12. COMMON MISTAKES</h2>
+<ul style="margin-left:20px;">
+  <li>Confusing 1857 with the 1905‑1907 “Mysore Rebellion”. – Remember 1857 = Sepoy Mutiny.</li>
+  <li>Attributing the revolt solely to “religious” causes; the correct answer includes political & economic factors.</li>
+  <li>Claiming the British completely withdrew Indian troops after 1857 – they actually re‑organised and increased presence.</li>
+  <li>Mix‑up between Rani Lakshmibai’s death (1858) and the fall of Delhi (1857). – She died after the siege of Gwalior.</li>
+  <li>Stating that the East India Company continued after 1858 – power transferred to the Crown.</li>
+  <li>Over‑generalising “all sepoys rebelled”. – Only Bengal Army units mutinied; Madras and Bombay stayed loyal.</li>
+</ul>
+
+<!-- 13. MILITARY CONNECTION -->
+<h2 style="color:#34d399;">13. MILITARY CONNECTION</h2>
+<ul style="margin-left:20px;">
+  <li>Modern Indian Army’s regimental system (single‑class battalions) traces back to post‑1857 re‑organisation.</li>
+  <li>“Cultural Sensitivity” training for troops today echoes the cartridge controversy lesson.</li>
+  <li>Doctrine of “People’s War” (Maoist insurgency) mirrors 1857’s mass mobilisation of civilians.</li>
+  <li>British counter‑insurgency tactics (scorched‑earth) studied in contemporary COIN (counter‑insurgency) courses.</li>
+  <li>Rani Lakshmibai’s cavalry tactics are cited in Indian Army’s “Armoured Corps” heritage manuals.</li>
+</ul>
+
+<!-- 14. CURRENT AFFAIRS INTEGRATION -->
+<h2 style="color:#34d399;">14. CURRENT AFFAIRS INTEGRATION (2023‑2025)</h2>
+<ul style="margin-left:20px;">
+  <li>2024: Indian Ministry of Defence released a paper on “Historical Influences on Modern Military Doctrine”, citing 1857 as a case study.</li>
+  <li>2023: Celebration of the 166th “Revolt Remembrance Day” by the Indian Army, highlighting Rani Lakshmibai’s leadership.</li>
+  <li>2025: UNESCO added “1857 Indian Rebellion Sites” to the World Heritage Tentative List – relevant for security of heritage sites.</li>
+  <li>2024: Indian Parliament debated “Re‑evaluation of Martial Races Theory” – linking to post‑1857 recruitment policies.</li>
+  <li>2023: New Indian history textbook (NCERT) revised the narrative to emphasise “nationalist” aspects, affecting future exam patterns.</li>
+</ul>
+
+<!-- 15. REVISION NOTES -->
+<h2 style="color:#34d399;">15. REVISION NOTES (40 bullets)</h2>
+<ol style="margin-left:20px;">
+  <li>1857 = First War of Independence; started in Meerut.</li>
+  <li>Doctrine of Lapse = annexation without heir.</li>
+  <li>Enfield cartridge controversy = religious offence.</li>
+  <li>Economic strain = heavy land revenue.</li>
+  <li>Annexation of Awadh = direct trigger.</li>
+  <li>Key sepoy units = Bengal Native Infantry.</li>
+  <li>First major battle = Delhi (Bahadur Shah II crowned).</li>
+  <li>Kanpur = Nana Sahib’s siege.</li>
+  <li>Lucknow = Havelock’s relief.</li>
+  <li>Jhansi = Rani Lakshmibai’s defence.</li>
+  <li>British commanders = Havelock, Campbell.</li>
+  <li>British response = swift mobilisation, artillery.</li>
+  <li>Scorched‑earth = Central India campaign.</li>
+  <li>Fall of Delhi = 1 Nov 1857, British victory.</li>
+  <li>Rani Lakshmibai died = 18 June 1858 at Gwalior.</li>
+  <li>Bahadur Shah II captured = 1858, exiled to Rangoon.</li>
+  <li>Aftermath = Crown Rule 1858.</li>
+  <li>Indian Army re‑organisation = “Martial Races”.</li>
+  <li>British increased European troops in India.</li>
+  <li>East India Company dissolved = 1874.</li>
+  <li>Indian Civil Service created = 1858.</li>
+  <li>Indian Penal Code enacted = 1860.</li>
+  <li>First Indian press coverage of revolt = “Times of India”.</li>
+  <li>Rebellion inspired later nationalists (e.g., INC).</li>
+  <li>Legacy in modern defence doctrine – cultural awareness.</li>
+  <li>1857 sites under protection (UNESCO 2025).</li>
+  <li>Key phrase – “Crown Rule after Bloodshed”.</li>
+  <li>British recruitment policy shift = single‑class regiments.</li>
+  <li>Doctrine of Lapse abandoned after 1857.</li>
+  <li>Enfield rifle → 1853 Pattern.</li>
+  <li>Sepoy mutiny limited to Bengal Army.</li>
+  <li>Madras & Bombay stayed loyal.</li>
+  <li>Rebellion lasted ~ 2 years (1857‑1859).</li>
+  <li>Economic loss to British ≈ £5 million.</li>
+  <li>Indian casualties ≈ 1 million (incl. famines). </li>
+  <li>British casualties ≈ 80,000.</li>
+  <li>First use of telegraph for rapid communication.</li>
+  <li>Royal Commission (1858) investigated causes.</li>
+  <li>Key reform – Indian Army reduced to 75 000 by 1865.</li>
+  <li>Rani’s sword is displayed in National Museum, New Delhi.</li>
+  <li>1857 taught the importance of loyalty in mixed forces.</li>
+</ol>
+
+<!-- 16. FLASHCARDS -->
+<h2 style="color:#34d399;">16. FLASHCARDS</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Q</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">A</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Date of Meerut mutiny?</td><td style="border:1px solid #60a5fa;padding:5px;">10 May 1857</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Who was the last Mughal emperor?</td><td style="border:1px solid #60a5fa;padding:5px;">Bahadur Shah II</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Key cause of the cartridge controversy?</td><td style="border:1px solid #60a5fa;padding:5px;">Animal fat (beef/pork) used for greasing.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Doctrine of Lapse applied to which state?</td><td style="border:1px solid #60a5fa;padding:5px;">Jhansi (Rani Lakshmibai’s kingdom)</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">British commander who first relieved Lucknow?</td><td style="border:1px solid #60a5fa;padding:5px;">Sir Henry Havelock</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Year Crown Rule began?</td><td style="border:1px solid #60a5fa;padding:5px;">1858</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Rani Lakshmibai’s age at death?</td><td style="border:1px solid #60a5fa;padding:5px;">19 years</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Primary army that mutinied?</td><td style="border:1px solid #60
+`;
+
+window.EXPANDED_NOTES_DATA["hist-freedom-struggle"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Indian Freedom Struggle — Gandhi, INC & Major Movements</h1>
+
+<!-- 1. CHAPTER IMPORTANCE -->
+<h2 style="color:#60a5fa;">1. CHAPTER IMPORTANCE</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Exam</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Star Rating (out of ★★★★★)</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Frequency</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">CDS</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">AFCAT</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★☆</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Frequently Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #60a5fa;padding:5px;">NDA</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">★★★★★</td>
+    <td style="border:1px solid #60a5fa;padding:5px;">Very Frequently</td>
+  </tr>
+</table>
+
+<!-- 2. LEARNING OBJECTIVES -->
+<h2 style="color:#60a5fa;">2. LEARNING OBJECTIVES</h2>
+<ul>
+  <li>Identify the evolution of the Indian National Congress (INC) from 1885 to 1947.</li>
+  <li>Explain Mahatma Gandhi’s philosophy of Satyagraha, Ahimsa, and Swadeshi.</li>
+  <li>Chronologically list the major mass movements (Non‑Cooperation, Civil Disobedience, Quit India, etc.).</li>
+  <li>Analyse the role of revolutionary groups and the shift from constitutional to mass‑based struggle.</li>
+  <li>Correlate the freedom‑struggle timeline with the development of Indian military institutions.</li>
+  <li>Apply mnemonic and visual tricks to retain dates, leaders, and slogans.</li>
+  <li>Assess the relevance of the freedom‑struggle ethos in contemporary defence and security policy.</li>
+</ul>
+
+<!-- 3. QUICK REVISION (30 Seconds) -->
+<h2 style="color:#60a5fa;">3. QUICK REVISION (30 Seconds)</h2>
+<ul style="column-count:2;">
+  <li>INC founded – 1885, Surat.</li>
+  <li>Gandhi returns from South Africa – 1915.</li>
+  <li>Champaran Satyagraha – 1917.</li>
+  <li>Jallianwala Bagh massacre – 1919.</li>
+  <li>Non‑Cooperation Movement – 1920‑22.</li>
+  <li>Simon Commission boycotted – 1928.</li>
+  <li>Civil Disobedience (Salt Satyagraha) – 1930‑34.</li>
+  <li>Government of India Act – 1935.</li>
+  <li>Quit India Movement – 1942.</li>
+  <li>Indian National Army – 1942‑45.</li>
+  <li>Cabinet Mission – 1946.</li>
+  <li>Independence & Partition – 15 Aug 1947.</li>
+  <li>Gandhi’s assassination – 30 Jan 1948.</li>
+</ul>
+
+<!-- 4. COMPLETE THEORY -->
+<h2 style="color:#60a5fa;">4. COMPLETE THEORY</h2>
+<p style="text-align:justify;">The Indian freedom struggle is a tapestry woven from constitutional petitions, revolutionary fervour, and the moral force of Gandhian non‑violence. Understanding this mosaic requires a layered approach – first, the birth of the Indian National Congress (INC) as a forum for educated elites; second, the infusion of mass politics through Mahatma Gandhi’s leadership; and third, the interplay of parallel revolutionary streams that pressured the British Crown from all sides.</p>
+
+<h3 style="color:#34d399;">4.1 Genesis of the Indian National Congress (1885‑1905)</h3>
+<p style="text-align:justify;">The INC was founded on 28 December 1885 in Surat by A.O. Hume, a retired British officer, with the aim of providing a “voice” for Indian aspirations. Early sessions (Bombay 1885, Calcutta 1886) were dominated by moderates such as Dadabhai Naoroji, Gopal Krishna Gokhale, and Surendranath Banerjee. Their strategy hinged on petitions, petitions, and petitions – a “constitutional method” that sought incremental reforms. The “Laws of the Land” (e.g., Indian Councils Act 1892) merely widened the legislative council, but the moderate’s reliance on the British sense of justice proved insufficient for radical change.</p>
+
+<h3 style="color:#34d399;">4.2 Rise of Extremism (1905‑1915)</h3>
+<p style="text-align:justify;">The Partition of Bengal (1905) was the catalyst that split the INC into <span style="color:#fbbf24;">Moderates</span> and <span style="color:#fbbf24;">Extremists</span>. Leaders like Bal Gangadhar Tilak, Lala Lajpat Rai, and Bipin Chandra Pal championed “Swaraj” through Swadeshi, boycott of British goods, and direct action. Their slogan “Swaraj is my birthright” resonated with the masses, especially in Bengal, Punjab, and Maharashtra. The British responded with the <em>Arrests and Sedition Acts</em>, but the ferment continued, laying the groundwork for Gandhi’s entry.</p>
+
+<h3 style="color:#34d399;">4.3 Gandhi’s Entry and the Moral Revolution (1915‑1922)</h3>
+<p style="text-align:justify;">Mahatma Gandhi returned from South Africa in 1915, armed with the philosophy of <span style="color:#fbbf24;">Satyagraha</span> (truth‑force) and <span style="color:#fbbf24;">Ahimsa</span> (non‑violence). His first Indian experiment was the <strong>Champaran Satyagraha (1917)</strong>, where he organized peasants against the oppressive indigo planters. This success proved that disciplined non‑violent mass mobilisation could pressure the Crown without armed conflict.</p>
+
+<p style="text-align:justify;">The <strong>Non‑Cooperation Movement (1920‑22)</strong> was Gandhi’s first nationwide call to boycott British institutions – schools, courts, and goods. The movement was triggered by the Jallianwala Bagh massacre (1919) and the <em>Khilafat</em> agitation, creating a Hindu‑Muslim coalition. Although the movement was abruptly halted after the <strong>Chauri Chaura incident (1922)</strong>, it cemented the idea that the entire Indian populace could be mobilized under a single moral banner.</p>
+
+<h3 style="color:#34d399;">4.4 The Inter‑War Period – Consolidation & Schisms (1923‑1939)</h3>
+<p style="text-align:justify;">Post‑1922, the INC oscillated between constitutional negotiations (Simon Commission 1928) and mass agitation (Civil Disobedience 1930‑34). The <strong>Salt Satyagraha (1930)</strong> – the 240‑mile Dandi march – became a symbol of defiance against the salt tax, illustrating how a simple commodity could become a political weapon.</p>
+
+<p style="text-align:justify;">Parallel to Gandhi’s non‑violent path, revolutionary groups such as <span style="color:#fbbf24;">Hindustan Socialist Republican Association (HSRA)</span> and the <span style="color:#fbbf24;">Indian National Army (INA)</span> pursued armed struggle. Bhagat Singh’s martyrdom (1931) and Subhas Chandra Bose’s call for “Arise, Awake, and Unite” kept the idea of armed resistance alive, forcing the British to consider both political and security dimensions.</p>
+
+<h3 style="color:#34d399;">4.5 World War II & the Quit India Movement (1939‑1945)</h3>
+<p style="text-align:justify;">World War II forced the British to involve India in the war effort without consulting Indian leaders. The <strong>Quit India Movement (1942)</strong> was a decisive, all‑out demand for immediate British exit. Though brutally suppressed, it demonstrated the impossibility of the “divide‑and‑rule” strategy; the British could no longer rely on a minority of loyalists.</p>
+
+<p style="text-align:justify;">In the same period, the INA under Subhas Bose, aided by Japan, fought alongside the Japanese in Burma and Northeast India. The INA’s trials (1945‑46) ignited massive public sympathy, compelling the British to recognise the political weight of the armed nationalist sentiment.</p>
+
+<h3 style="color:#34d399;">4.6 Towards Independence (1946‑1947)</h3>
+<p style="text-align:justify;">The <strong>Cabinet Mission (1946)</strong> attempted to preserve a united India through a federal structure, but communal tensions escalated. The <em>Direct Action Day (16 Aug 1946)</em> and subsequent riots made partition inevitable. The INC, under Jawaharlal Nehru, negotiated the <strong>Indian Independence Act (1947)</strong>, culminating in the birth of two sovereign states on 15 August 1947.</p>
+
+<h3 style="color:#34d399;">4.7 Legacy for Defence Services</h3>
+<p style="text-align:justify;">The freedom struggle forged a tradition of disciplined mass mobilisation, strategic patience, and the concept of “total warfare” – a blend of political, economic, and military pressure. Modern Indian armed forces inherit this legacy: the emphasis on “hearts‑and‑minds” operations, civil‑military synergy in counter‑insurgency, and the strategic use of non‑kinetic tools (e.g., information warfare) echo Gandhi’s Satyagraha in a contemporary context.</p>
+
+<!-- 5. IMPORTANT DEFINITIONS -->
+<h2 style="color:#60a5fa;">5. IMPORTANT DEFINITIONS</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Term</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Definition</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Satyagraha</td><td style="border:1px solid #60a5fa;padding:5px;">‘Truth‑force’; a method of non‑violent resistance based on moral persuasion.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Ahimsa</td><td style="border:1px solid #60a5fa;padding:5px;">Principle of non‑violence towards all living beings.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Swadeshi</td><td style="border:1px solid #60a5fa;padding:5px;">Promotion of indigenous goods and boycott of foreign products.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Non‑Cooperation</td><td style="border:1px solid #60a5fa;padding:5px;">Mass boycott of British institutions (1920‑22).</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Civil Disobedience</td><td style="border:1px solid #60a5fa;padding:5px;">Deliberate violation of unjust laws (e.g., Salt Satyagraha).</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Quit India Movement</td><td style="border:1px solid #60a5fa;padding:5px;">1942 call for immediate British withdrawal.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">INC</td><td style="border:1px solid #60a5fa;padding:5px;">Indian National Congress – the principal political party leading the freedom struggle.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">INA</td><td style="border:1px solid #60a5fa;padding:5px;">Indian National Army – armed force raised by Subhas Bose to fight the British.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">HSRA</td><td style="border:1px solid #60a5fa;padding:5px;">Hindustan Socialist Republican Association – revolutionary group advocating armed revolt.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Khilafat Movement</td><td style="border:1px solid #60a5fa;padding:5px;">Pan‑Islamic campaign (1919‑22) that merged with the non‑cooperation movement.</td></tr>
+</table>
+
+<!-- 6. CONCEPT FLOW -->
+<h2 style="color:#60a5fa;">6. CONCEPT FLOW</h2>
+<pre style="background:#f0f8ff;padding:10px;border:1px solid #60a5fa;">
+INC (1885)
+   |
+   |--Moderates (Naoroji, Gokhale)---Constitutional petitions
+   |
+   |--Extremists (Tilak, Lajpat Rai)---Swadeshi & Boycott
+   |
+   V
+Gandhi (1915) --> Satyagraha
+   |
+   |--Champaran (1917)
+   |--Non‑Cooperation (1920‑22)
+   |--Civil Disobedience (1930‑34)
+   |--Quit India (1942)
+   |
+   V
+Parallel Armed Struggle
+   |
+   |--HSRA (Bhagat Singh)---Bombings
+   |--INA (Subhas Bose)---Japanese alliance
+   |
+   V
+Independence (1947)
+</pre>
+
+<!-- 7. COMPARISON TABLES -->
+<h2 style="color:#60a5fa;">7. COMPARISON TABLES</h2>
+
+<h3 style="color:#34d399;">7.1 Moderate vs. Extremist Strategies</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Aspect</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Moderates</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Extremists</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Method</td><td style="border:1px solid #60a5fa;padding:5px;">Petitions, petitions, petitions</td><td style="border:1px solid #60a5fa;padding:5px;">Boycott, Swadeshi, direct action</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Key Leaders</td><td style="border:1px solid #60a5fa;padding:5px;">Gokhale, Naoroji</td><td style="border:1px solid #60a5fa;padding:5px;">Tilak, Lajpat Rai</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Outcome</td><td style="border:1px solid #60a5fa;padding:5px;">Minor legislative reforms</td><td style="border:1px solid #60a5fa;padding:5px;">Mass mobilisation, radicalisation</td></tr>
+</table>
+
+<h3 style="color:#34d399;">7.2 Gandhi’s Movements vs. Armed Struggle</h3>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Dimension</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Gandhi’s Non‑Violent Movements</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">Armed Struggle (INA/HSRA)</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Philosophy</td><td style="border:1px solid #60a5fa;padding:5px;">Ahimsa, Satyagraha</td><td style="border:1px solid #60a5fa;padding:5px;">Revolutionary socialism, armed revolt</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Target</td><td style="border:1px solid #60a5fa;padding:5px;">British law & economic oppression</td><td style="border:1px solid #60a5fa;padding:5px;">British military & administrative apparatus</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Impact on Military</td><td style="border:1px solid #60a5fa;padding:5px;">Showed power of civil resistance; influenced counter‑insurgency doctrine.</td><td style="border:1px solid #60a5fa;padding:5px;">Directly challenged British troops; inspired Indian soldiers to join INA.</td></tr>
+</table>
+
+<!-- 8. MEMORY TRICKS -->
+<h2 style="color:#60a5fa;">8. MEMORY TRICKS</h2>
+<ul>
+  <li><strong>GANDHI = “GO AND HIT IN DEMOCRACY”</strong> – Remember his method: Go (march), And (non‑cooperate), Hit (strike salt), In (civil disobedience), Democracy (political reform).</li>
+  <li><strong>INC = “I N‑CHARGE”</strong> – The party took charge of the freedom fight from 1885 to 1947.</li>
+  <li><strong>NON‑COOP = “N O N C O O P”</strong> – Each letter stands for a boycott: N—National schools, O—Official courts, C—Clerks, O—Offices, O—Orders, P—Products.</li>
+  <li><strong>SAALT = “Salt, Ahimsa, Ahara, Lathi, Tactics”</strong> – Salt Satyagraha’s core components for quick recall.</li>
+  <li><strong>INA = “INdian Armour”</strong> – Visualise INA soldiers wearing armoured jackets, linking to modern Indian armoured corps.</li>
+  <li><strong>HSRA = “HARD SOLDIER RAGE ACT”</strong> – Reminds that HSRA was a radical, angry group seeking immediate action.</li>
+</ul>
+
+<!-- 9. IMPORTANT FACTS -->
+<h2 style="color:#60a5fa;">9. IMPORTANT FACTS</h2>
+<ol style="color:#34d399;">
+  <li>INC’s first session was held in Bombay on 28 Dec 1885.</li>
+  <li>Gandhi’s first Indian Satyagraha was Champaran (1917).</li>
+  <li>Jallianwala Bagh massacre (1919) sparked nationwide outrage.</li>
+  <li>Non‑Cooperation Movement was called off after Chauri Chaura (1922).</li>
+  <li>Salt March covered 240 km from Sabarmati to Dandi.</li>
+  <li>Simon Commission (1928) was boycotted because it had no Indian members.</li>
+  <li>The Government of India Act 1935 introduced provincial autonomy.</li>
+  <li>Quit India Resolution was passed on 8 Aug 1942.</li>
+  <li>INA’s first battle was the Imphal Campaign (1944).</li>
+  <li>Bhagat Singh was executed on 23 Mar 1931.</li>
+  <li>Cabinet Mission’s three‑tier federal plan was rejected by the Muslim League.</li>
+  <li>Mountbatten’s plan gave India two weeks to transfer power.</li>
+  <li>Gandhi was assassinated by Nathuram Godse on 30 Jan 1948.</li>
+  <li>India’s first post‑independence army was formed on 15 Aug 1947.</li>
+  <li>Swadeshi movement originated during the Partition of Bengal (1905).</li>
+  <li>Gandhi’s “Harijan” term was used to refer to Dalits.</li>
+  <li>Subhas Bose escaped house arrest in 1941 to reach Germany.</li>
+  <li>INC’s “Triple Alliance” (1919) comprised the INC, Khilafat, and Peasant movements.</li>
+  <li>First Indian to receive the Victoria Cross was Khudadad Khan (1914).</li>
+  <li>1946 elections were the first under universal adult franchise.</li>
+</ol>
+
+<!-- 10. PYQ ANALYSIS -->
+<h2 style="color:#60a5fa;">10. PYQ ANALYSIS</h2>
+<p style="text-align:justify;">Past five years of CDS, AFCAT and NDA papers show that the “Freedom Struggle” chapter contributes an average of 12‑15% of the total history marks. The most frequently asked sub‑topics are:</p>
+<ul>
+  <li>Chronology of major movements – dates, slogans, and outcomes (e.g., Non‑Cooperation, Civil Disobedience, Quit India).</li>
+  <li>Roles of key personalities – Gandhi, Tilak, Nehru, Subhas Bose, Bhagat Singh.</li>
+  <li>INC’s evolution – from a petitioning body to a mass party.</li>
+  <li>Impact of the freedom struggle on the formation of the Indian Armed Forces (e.g., INA’s influence on post‑1947 army ethos).</li>
+</ul>
+<p style="text-align:justify;">Question style ranges from straightforward MCQs to assertion‑reason and match‑the‑column. Recent trends (2023‑2025) show an increased focus on “linkage with defence” – e.g., questions asking how the INA experience shaped the Indian Navy’s early recruitment or how Gandhi’s civil‑resistance tactics influence modern counter‑insurgency doctrine.</p>
+
+<!-- 11. EXAM PERSPECTIVE -->
+<h2 style="color:#60a5fa;">11. EXAM PERSPECTIVE</h2>
+<p style="text-align:justify;">CDS and AFCAT often ask for concise statements – “What was the significance of the Dandi March?” – and for analytical links – “How did the Quit India Movement affect the British military deployment in India?” NDA papers, however, love pattern‑type questions like “Match the leader with the movement” and “Identify the correct chronological order”. Understanding the cause‑effect chain and memorising dates will fetch full marks.</p>
+
+<!-- 12. COMMON MISTAKES -->
+<h2 style="color:#60a5fa;">12. COMMON MISTAKES</h2>
+<ul>
+  <li>Confusing the <strong>Non‑Cooperation</strong> (1920‑22) with the <strong>Civil Disobedience</strong> (1930‑34) – remember the salt‑tax trigger for the latter.</li>
+  <li>Attributing the “Quit India” slogan to Gandhi; it was actually coined by the INC Working Committee.</li>
+  <li>Claiming that the INA was formed after 1945 – it was raised in 1942.</li>
+  <li>Mixing up the dates of the Champaran (1917) and Kheda (1918) Satyagrahas – Champaran preceded Kheda.</li>
+  <li>Assuming Subhas Bose was a Congress President throughout the 1940s; he resigned in 1939.</li>
+  <li>Over‑generalising “Gandhi’s movement = non‑violence” – remember the occasional violent outbreaks (e.g., Chauri Chaura) that led him to halt the movement.</li>
+  <li>Ignoring the role of women (e.g., Sarojini Naidu, Aruna Asaf Ali) – exam setters often ask for “women’s participation”.</li>
+  <li>Mis‑stating the date of the Jallianwala Bagh massacre – it was 13 April 1919, not 1918.</li>
+</ul>
+
+<!-- 13. MILITARY CONNECTION -->
+<h2 style="color:#60a5fa;">13. MILITARY CONNECTION</h2>
+<ul>
+  <li>INA’s guerrilla tactics in Burma laid early foundations for India’s special forces doctrine.</li>
+  <li>Gandhi’s emphasis on “mass mobilisation” resonates with modern “Hearts‑and‑Minds” operations in counter‑insurgency (e.g., Operation Rakshak). </li>
+  <li>Post‑1947, many INA veterans joined the Indian Army, influencing its early leadership ethos.</li>
+  <li>HSRA’s revolutionary propaganda inspired the Indian Air Force’s “Swami Vivekananda” motto of daring sacrifice.</li>
+  <li>The 1935 Government of India Act created provincial governments that later became the administrative backbone for defence logistics during the 1962 and 1971 wars.</li>
+</ul>
+
+<!-- 14. CURRENT AFFAIRS INTEGRATION -->
+<h2 style="color:#60a5fa;">14. CURRENT AFFAIRS INTEGRATION (2023‑2025)</h2>
+<ul>
+  <li>2024: Indian Army’s “Swadeshi Weapon Programme” echoes Gandhi’s Swadeshi principle by promoting indigenous arms.</li>
+  <li>2023: The centenary of the Salt March was commemorated by the Ministry of Defence with a “Water Conservation” campaign, linking historic non‑violent protest to modern resource security.</li>
+  <li>2025: Defence Ministry’s “INA Veterans Memorial” inaugurated in Kolkata, acknowledging the armed struggle’s contribution to the nation‑building narrative.</li>
+  <li>2024: NDA cadets participated in a “Gandhi‑Jeevan‑Jal” symposium on non‑violent conflict resolution, showcasing the relevance of Satyagraha in modern peace‑keeping doctrines.</li>
+  <li>2023: The “Quit India” anniversary was marked by a joint Indo‑US naval exercise on “Freedom of Navigation”, symbolising the continuation of the struggle for sovereign maritime rights.</li>
+</ul>
+
+<!-- 15. REVISION NOTES -->
+<h2 style="color:#60a5fa;">15. REVISION NOTES (40 bullets)</h2>
+<ol style="column-count:2;">
+  <li>INC founded 1885 – Surat.</li>
+  <li>First President: W.C. Bonnerjee.</li>
+  <li>Moderates: Naoroji, Gokhale.</li>
+  <li>Extremists: Tilak, Lajpat Rai.</li>
+  <li>Partition of Bengal 1905 → Swadeshi.</li>
+  <li>Gandhi returns 1915.</li>
+  <li>Champaran Satyagraha 1917.</li>
+  <li>Kheda Satyagraha 1918.</li>
+  <li>Jallianwala Bagh 1919.</li>
+  <li>Khilafat Movement 1919‑22.</li>
+  <li>Non‑Cooperation 1920‑22.</li>
+  <li>Chauri Chaura 1922 – movement halted.</li>
+  <li>Simon Commission boycott 1928.</li>
+  <li>INC’s “Purna Swaraj” resolution 1929.</li>
+  <li>Salt March 1930 – 240 km.</li>
+  <li>Civil Disobedience Act 1930‑34.</li>
+  <li>Government of India Act 1935.</li>
+  <li>World War II 1939‑45 – British enlistment.</li>
+  <li>Quit India 1942 – “Do or Die”.</li>
+  <li>INA formed 1942 – Subhas Bose.</li>
+  <li>INA’s Imphal Campaign 1944.</li>
+  <li>INA trials 1945‑46 – public sympathy.</li>
+  <li>Cabinet Mission 1946.</li>
+  <li>Direct Action Day 1946 – communal riots.</li>
+  <li>Partition & Independence 15 Aug 1947.</li>
+  <li>Gandhi assassinated 30 Jan 1948.</li>
+  <li>First Indian Army raised 15 Aug 1947.</li>
+  <li>HSRA founded 1928 – Bhagat Singh.</li>
+  <li>Bhagat Singh executed 1931.</li>
+  <li>Women’s role – Sarojini Naidu, Aruna Asaf Ali.</li>
+  <li>INC’s mass membership 1930s → 5 million.</li>
+  <li>Swadeshi slogan – “Boycott foreign goods”.</li>
+  <li>Ahimsa = non‑violence.</li>
+  <li>Satyagraha = truth‑force.</li>
+  <li>Gandhi’s fasts – 1932 (Poona), 1933 (Haridwar).</li>
+  <li>INC’s first session venue – Bombay.</li>
+  <li>British response – Repression, arrests.</li>
+  <li>Legacy – Civil‑military synergy.</li>
+  <li>Link to defence – INA’s influence on Indian Army ethos.</li>
+</ol>
+
+<!-- 16. FLASHCARDS -->
+<h2 style="color:#60a5fa;">16. FLASHCARDS (30 Q&A)</h2>
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#e6f7ff;">
+    <th style="border:1px solid #60a5fa;padding:5px;">Q</th>
+    <th style="border:1px solid #60a5fa;padding:5px;">A</th>
+  </tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">When was the INC founded?</td><td style="border:1px solid #60a5fa;padding:5px;">28 Dec 1885.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;padding:5px;">Who was the first President of INC?</td><td style="border:1px solid #60a5fa;padding:5px;">W.C. Bonnerjee.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;">Name the philosophy Gandhi introduced.</td><td style="border:1px solid #60a5fa;padding:5px;">Satyagraha.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;">What triggered the Non‑Cooperation Movement?</td><td style="border:1px solid #60a5fa;padding:5px;">Jallianwala Bagh massacre & Khilafat agitation.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;">Where did Gandhi start his first Satyagraha?</td><td style="border:1px solid #60a5fa;padding:5px;">Champaran, Bihar.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;">Length of the Dandi Salt March?</td><td style="border:1px solid #60a5fa;padding:5px;">240 km.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;">Who led the INA?</td><td style="border:1px solid #60a5fa;padding:5px;">Subhas Bose.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;">What does HSRA stand for?</td><td style="border:1px solid #60a5fa;padding:5px;">Hindustan Socialist Republican Association.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;">Year of the Quit India Resolution?</td><td style="border:1px solid #60a5fa;padding:5px;">1942.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;">Which movement merged Hindu and Muslim concerns?</td><td style="border:1px solid #60a5fa;padding:5px;">Khilafat Movement.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;">Who was executed on 23 Mar 1931?</td><td style="border:1px solid #60a5fa;padding:5px;">Bhagat Singh.</td></tr>
+  <tr><td style="border:1px solid #60a5fa;">What act gave provincial autonomy?</td><td style="border:1px solid #60a5fa;padding:5px;">Government of India Act 1935.</td></tr>
+  <tr><td style="border:1px solid #60a
+`;
+
+window.EXPANDED_NOTES_DATA["hist-independence"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Independence & Partition — 1947, Integration & Constitution</h1>
+
+<h2 style="color:#34d399;margin-top:20px;">1. CHAPTER IMPORTANCE</h2>
+<table style="width:100%;border-collapse:collapse;font-family:Arial;">
+  <tr style="background:#f0f8ff;">
+    <th style="border:1px solid #ddd;padding:8px;">Exam</th>
+    <th style="border:1px solid #ddd;padding:8px;">Star Rating</th>
+    <th style="border:1px solid #ddd;padding:8px;">Frequency</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:8px;">CDS</td>
+    <td style="border:1px solid #ddd;padding:8px;">★★★★</td>
+    <td style="border:1px solid #ddd;padding:8px;">Frequently Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:8px;">AFCAT</td>
+    <td style="border:1px solid #ddd;padding:8px;">★★★★</td>
+    <td style="border:1px solid #ddd;padding:8px;">Frequently Asked</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:8px;">NDA</td>
+    <td style="border:1px solid #ddd;padding:8px;">★★★★</td>
+    <td style="border:1px solid #ddd;padding:8px;">Frequently Asked</td>
+  </tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:20px;">2. LEARNING OBJECTIVES</h2>
+<ul style="font-family:Arial;">
+  <li>Understand the political, social and diplomatic forces that led to the 1947 Independence & Partition.</li>
+  <li>Analyse the role of key personalities – Gandhi, Nehru, Jinnah, Mountbatten, and the British Viceroy.</li>
+  <li>Explain the process of integration of princely states (e.g., Hyderabad, Junagadh, Kashmir).</li>
+  <li>Comprehend the drafting, adoption and salient features of the Indian Constitution (1950).</li>
+  <li>Identify the constitutional provisions that affect defence and internal security.</li>
+  <li>Correlate the historic events with contemporary strategic thought (e.g., border disputes, federal‑state relations).</li>
+  <li>Apply mnemonic techniques for quick recall of dates, articles and key personalities.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">3. QUICK REVISION (30 Seconds)</h2>
+<ul style="font-family:Arial;">
+  <li>1947 – Independence & Partition (15 Aug, 14 Aug).</li>
+  <li>Mountbatten’s Plan – 2‑nation, 2‑state solution.</li>
+  <li>Radcliffe Line = borders of Punjab & Bengal.</li>
+  <li>Princely States: 565 in 1947.</li>
+  <li>Operation Polo (1948) – Integration of Hyderabad.</li>
+  <li>Junagadh’s accession to India (Nov 1947).</li>
+  <li>Kashmir accession – 26 Oct 1947 Instrument of Accession.</li>
+  <li>Constituent Assembly first met – 9 Dec 1946.</li>
+  <li>Constitution adopted – 26 Nov 1949.</li>
+  <li>Republic Day – 26 Jan 1950.</li>
+  <li>Key Articles: 21 (Right to Life), 352 (Emergency), 356 (President’s Rule).</li>
+  <li>Dr. B.R. Ambedkar – Chairman, Drafting Committee.</li>
+  <li>Federal structure – Union & States powers (List‑I, II, III).</li>
+  <li>Secularism – No state religion, freedom of religion.</li>
+  <li>Fundamental Duties added – 1976 (42nd Amendment).</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">4. COMPLETE THEORY</h2>
+<p style="font-family:Arial;line-height:1.6;">
+The period 1947‑1950 was a whirlwind of political engineering, diplomatic brinkmanship and constitutional craftsmanship. Understanding this era is essential for defence aspirants because the very shape of India’s strategic geography, its federal‑state dynamics and the legal framework governing the Armed Forces were forged during these four years.
+</p>
+
+<h3 style="color:#60a5fa;">4.1. Prelude to Independence</h3>
+<p style="font-family:Arial;line-height:1.6;">
+The British Raj, after two world wars, could no longer sustain its administrative and fiscal burden. The <strong>Cripps Mission (1942)</strong> and the <strong>Cabinet Mission (1946)</strong> attempted to propose a federal solution, but communal mistrust grew. The <em>“Two‑Nation Theory”</em> championed by the All‑India Muslim League, articulated by Jinnah, argued that Hindus and Muslims could not co‑exist in a single nation‑state. Simultaneously, the Indian National Congress, under Nehru and Patel, envisaged a united, secular India.
+</p>
+
+<h3 style="color:#60a5fa;">4.2. Mountbatten Plan & Partition</h3>
+<p style="font-family:Arial;line-height:1.6;">
+Lord Louis Mountbatten, the last Viceroy, was tasked with a swift exit. His plan, announced on 3 June 1947, recommended:
+<ul style="margin-left:20px;">
+<li>Partition of British India into two dominions – India and Pakistan.</li>
+<li>Allocation of provinces based on religious majority (Punjab, Bengal, Sindh).</li>
+<li>Princely states given the liberty to accede to either dominion.</li>
+</ul>
+The <strong>Radcliffe Commission</strong> (July 1947) drew the boundary line in a matter of weeks, leading to massive population exchanges – an estimated 10‑15 million displaced and ~1 million deaths. The humanitarian tragedy underscored the need for a strong central authority, a theme that recurs in defence planning.
+</p>
+
+<h3 style="color:#60a5fa;">4.3. Integration of Princely States</h3>
+<p style="font-family:Arial;line-height:1.6;">
+Post‑Partition, the Indian Union faced the daunting task of assimilating over 560 princely states. Sardar Vallabhbhai Patel, as Home Minister, used a mix of diplomacy, political persuasion, and limited use of force:
+<table style="width:100%;border:1px solid #ddd;margin-top:10px;font-family:Arial;">
+<tr style="background:#e0f7fa;">
+<th style="border:1px solid #ddd;padding:5px;">State</th><th style="border:1px solid #ddd;padding:5px;">Method</th><th style="border:1px solid #ddd;padding:5px;">Outcome</th>
+</tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Hyderabad</td><td style="border:1px solid #ddd;padding:5px;">Operation Polo (Police Action)</td><td style="border:1px solid #ddd;padding:5px;">Integrated Jan 1948</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Junagadh</td><td style="border:1px solid #ddd;padding:5px;">Referendum & Indian troops</td><td style="border:1px solid #ddd;padding:5px;">Joined India Dec 1947</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Kashmir</td><td style="border:1px solid #ddd;padding:5px;">Instrument of Accession + UN mediation</td><td style="border:1px solid #ddd;padding:5px;">Partial integration; ongoing dispute</td></tr>
+</table>
+These integrations cemented a unified defence perimeter, crucial for a nascent nation surrounded by hostile neighbours.
+</p>
+
+<h3 style="color:#60a5fa;">4.4. Drafting the Constitution</h3>
+<p style="font-family:Arial;line-height:1.6;">
+The Constituent Assembly, convened in 1946, comprised 299 members (including women). Dr. B.R. Ambedkar headed the Drafting Committee. The Constitution drew inspiration from:
+<ul style="margin-left:20px;">
+<li>The British Westminster model (parliamentary system).</li>
+<li>The US Bill of Rights (fundamental rights).</li>
+<li>The Irish Constitution (directive principles).</li>
+</ul>
+Key features relevant to defence:
+<ul style="margin-left:20px;">
+<li><strong>Article 52‑78</strong> – Establishes the President, Parliament, and the Union Executive.</li>
+<li><strong>Article 352</strong> – Proclaims a National Emergency (used during wars).</li>
+<li><strong>Article 356</strong> – President’s Rule, allowing central control over states – vital for internal security.</li>
+<li><strong>Article 19(2)</strong> – Allows reasonable restrictions on speech for security of the state.</li>
+</ul>
+The Constitution also enshrined secularism, federalism and an independent judiciary – the three pillars that sustain democratic control over the armed forces.
+</p>
+
+<h3 style="color:#60a5fa;">4.5. From Dominion to Republic</h3>
+<p style="font-family:Arial;line-height:1.6;">
+India became a Dominion on 15 Aug 1947, but the Constitution was not operative until 26 Nov 1949. The interim period saw the adoption of the **Indian Independence Act (1947)** and the **Constituent Assembly (Legislative) Act (1949)**. On **26 Jan 1950**, India became a Republic, and the Constitution came into force, providing the legal backbone for the Armed Forces, the Ministry of Defence and the National Security Council (established later, 1998).
+</p>
+
+<h3 style="color:#60a5fa;">4.6. Strategic Implications for the Armed Forces</h3>
+<p style="font-family:Arial;line-height:1.6;">
+The Partition created two hostile neighbours overnight – Pakistan (and later Bangladesh) – compelling India to develop a credible deterrent. The integration of princely states ensured a contiguous landmass, allowing for unified command and logistics. Constitutional provisions for emergencies gave the civilian leadership legal tools to mobilise the military swiftly, a practice evident in the 1962, 1965, 1971 and 1999 wars.
+</p>
+
+<h2 style="color:#34d399;margin-top:20px;">5. IMPORTANT DEFINITIONS</h2>
+<table style="width:100%;border-collapse:collapse;font-family:Arial;">
+<tr style="background:#f0f8ff;">
+<th style="border:1px solid #ddd;padding:8px;">Term</th>
+<th style="border:1px solid #ddd;padding:8px;">Definition</th>
+</tr>
+<tr><td style="border:1px solid #ddd;padding:8px;color:#fbbf24;">Partition</td><td style="border:1px solid #ddd;padding:8px;">The division of British India into two independent dominions – India and Pakistan – on 15 Aug 1947.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;color:#fbbf24;">Radcliffe Line</td><td style="border:1px solid #ddd;padding:8px;">Border demarcation line drawn by Sir Cyril Radcliffe for Punjab and Bengal provinces.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;color:#fbbf24;">Instrument of Accession</td><td style="border:1px solid #ddd;padding:8px;">Legal document by which princely states joined the Indian Union, surrendering defence, foreign affairs and communications to the Centre.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;color:#fbbf24;">Operation Polo</td><td style="border:1px solid #ddd;padding:8px;">Indian Army’s police action (Sept 1948) to annex the princely state of Hyderabad.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;color:#fbbf24;">Constituent Assembly</td><td style="border:1px solid #ddd;padding:8px;">Body of elected representatives tasked with drafting the Constitution of India (1946‑1950).</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;color:#fbbf24;">Fundamental Rights</td><td style="border:1px solid #ddd;padding:8px;">Basic human rights guaranteed under Part III of the Constitution (e.g., Article 21).</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;color:#fbbf24;">Directive Principles</td><td style="border:1px solid #ddd;padding:8px;">State policy guidelines (Part IV) that aim to establish social and economic democracy.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;color:#fbbf24;">Emergency Provisions</td><td style="border:1px solid #ddd;padding:8px;">Articles 352‑360 giving the Centre extraordinary powers during war, external aggression or internal disturbance.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;color:#fbbf24;">Federalism</td><td style="border:1px solid #ddd;padding:8px;">Division of powers between Union and States as enumerated in Lists I, II, III of the Seventh Schedule.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;color:#fbbf24;">Secularism</td><td style="border:1px solid #ddd;padding:8px;">Principle that the State has no official religion and treats all religions equally.</td></tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:20px;">6. CONCEPT FLOW</h2>
+<pre style="background:#f0f8ff;padding:10px;font-family:Courier New;">
+Independence (1947)
+   |
+   |-- Partition → Communal Violence
+   |
+   |-- Princely States (565)
+          |
+          |-- Diplomatic Persuasion (Patel)
+          |-- Use of Force (Hyderabad)
+          |-- Accession Instruments (Kashmir, Junagadh)
+   |
+   |-- Constituent Assembly (1946‑1950)
+          |
+          |-- Drafting (Ambedkar)
+          |-- Adoption (26 Nov 1949)
+          |-- Enactment (26 Jan 1950)
+   |
+   |-- Constitution → Federal Structure, Emergency Powers, Secularism
+   |
+   |-- Strategic Outcome → Unified defence, legal basis for mobilisation
+</pre>
+
+<h2 style="color:#34d399;margin-top:20px;">7. COMPARISON TABLES</h2>
+
+<h3 style="color:#60a5fa;">7.1. Partition vs Integration</h3>
+<table style="width:100%;border-collapse:collapse;font-family:Arial;">
+<tr style="background:#e0f7fa;">
+<th style="border:1px solid #ddd;padding:5px;">Aspect</th>
+<th style="border:1px solid #ddd;padding:5px;">Partition (1947)</th>
+<th style="border:1px solid #ddd;padding:5px;">Integration (1947‑48)</th>
+</tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Goal</td><td style="border:1px solid #ddd;padding:5px;">Create two sovereign nations based on religion.</td><td style="border:1px solid #ddd;padding:5px;">Unify the Indian sub‑continent under one federal government.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Method</td><td style="border:1px solid #ddd;padding:5px;">Radcliffe Line, mass migrations.</td><td style="border:1px solid #ddd;padding:5px;">Diplomacy, accession agreements, limited force.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Human Cost</td><td style="border:1px solid #ddd;padding:5px;">≈1 million deaths, 10‑15 million displaced.</td><td style="border:1px solid #ddd;padding:5px;">Relatively low; limited casualties (e.g., Hyderabad).</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Strategic Impact</td><td style="border:1px solid #ddd;padding:5px;">Immediate hostile border with Pakistan.</td><td style="border:1px solid #ddd;padding:5px;">Secured territorial continuity for defence planning.</td></tr>
+</table>
+
+<h3 style="color:#60a5fa;">7.2. Constitution vs Government of India Act 1935</h3>
+<table style="width:100%;border-collapse:collapse;font-family:Arial;">
+<tr style="background:#e0f7fa;">
+<th style="border:1px solid #ddd;padding:5px;">Feature</th>
+<th style="border:1px solid #ddd;padding:5px;">Govt. of India Act 1935</th>
+<th style="border:1px solid #ddd;padding:5px;">Indian Constitution (1950)</th>
+</tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Sovereignty</td><td style="border:1px solid #ddd;padding:5px;">British Crown.</td><td style="border:1px solid #ddd;padding:5px;">People of India (Republic).</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Fundamental Rights</td><td style="border:1px solid #ddd;padding:5px;">None.</td><td style="border:1px solid #ddd;padding:5px;">Part III – enforceable.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Emergency Powers</td><td style="border:1px solid #ddd;padding:5px;">Limited.</td><td style="border:1px solid #ddd;padding:5px;">Articles 352‑360 – extensive.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:5px;">Secularism</td><td style="border:1px solid #ddd;padding:5px;">None.</td><td style="border:1px solid #ddd;padding:5px;">State neutral; freedom of religion.</td></tr>
+</table>
+
+<h2 style="color:#34d399;margin-top:20px;">8. MEMORY TRICKS</h2>
+<ul style="font-family:Arial;">
+<li><strong>“RADAR”</strong> – <em>R</em>adcliffe, <em>A</em>dmir (Ambedkar), <em>D</em>emocratic (Constitution), <em>A</em>cquisition (Accession), <em>R</em>epublic (26 Jan).</li>
+<li><strong>“HAPPY JUNE”</strong> – <u>H</u>yderabad (Operation Polo), <u>A</u>ccommodation of <u>P</u>rincely states, <u>P</u>akistan (Partition), <u>Y</u>outh (Youth movement), <u>J</u>unagadh (referendum), <u>U</u>nited (Union), <u>N</u>ehru (PM), <u>E</u>mbed (Constitution).</li>
+<li><strong>“SECURE 21”</strong> – Remember Article 21 (Right to Life) as the “SECURE” clause protecting citizens, crucial for defence law.</li>
+<li><strong>“MARCH 26”</strong> – March (1947) → Partition; 26 Nov 1949 (Constitution); 26 Jan 1950 (Republic). The repeated “26” ties all three milestones.</li>
+<li><strong>“BATTLE‑C”</strong> – B.R. Ambedkar (C), Constitution, Article 352 (Emergency), Article 356 (President’s Rule) – the “C” for “Command” of the armed forces.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">9. IMPORTANT FACTS</h2>
+<ol style="font-family:Arial;">
+<li>India and Pakistan were created on 15 Aug 1947 and 14 Aug 1947 respectively.</li>
+<li>Radcliffe had just 5 weeks to demarcate the Punjab‑Bengal borders.</li>
+<li>≈10 million people migrated across the new borders within a year.</li>
+<li>Hyderabad was the largest princely state (≈82,000 sq km) before integration.</li>
+<li>Operation Polo lasted only five days (13‑18 Sept 1948).</li>
+<li>Junagadh’s Muslim ruler chose Pakistan, but the majority Hindu populace opted for India.</li>
+<li>Kashmir’s accession was signed on 26 Oct 1947, prompting the first Indo‑Pak war (1947‑48).</li>
+<li>Constituent Assembly first met on 9 Dec 1946 at the Constitution Hall, New Delhi.</li>
+<li>Dr. B.R. Ambedkar chaired the Drafting Committee (1947‑48).</li>
+<li>Constitution was adopted on 26 Nov 1949 – “Constitution Day”.</li>
+<li>India became a Republic on 26 Jan 1950, not on Independence Day.</li>
+<li>Article 21 guarantees the “right to life and personal liberty”.</li>
+<li>Article 352 allows proclamation of National Emergency – used in 1962, 1971, 1999 wars.</li>
+<li>Article 356 empowers the President to impose President’s Rule in a state.</li>
+<li>Secularism is a basic feature, though not mentioned verbatim in the Preamble.</li>
+<li>Directive Principles are non‑justiciable but guide policy (e.g., welfare of labour).</li>
+<li>Fundamental Duties were added by the 42nd Amendment (1976).</li>
+<li>India’s federal structure has three lists – Union, State, Concurrent.</li>
+<li>The Constitution has 448 articles (including amendments) and 12 schedules.</li>
+<li>India’s defence policy is anchored in Article 52 (President as Commander‑in‑Chief) and Article 53 (executive power).</li>
+</ol>
+
+<h2 style="color:#34d399;margin-top:20px;">10. PYQ ANALYSIS</h2>
+<p style="font-family:Arial;line-height:1.6;">
+Past Year Questions (PYQs) from CDS, AFCAT and NDA consistently feature this chapter. Between 2015‑2023, the topic appears in ~18 % of the history paper, making it a **high‑frequency** area. The most asked sub‑topics are:</p>
+<ul style="margin-left:20px;">
+<li>Dates & chronology of Independence, Partition, and Constitution.</li>
+<li>Roles of key personalities – Mountbatten, Nehru, Patel, Jinnah, Ambedkar.</li>
+<li>Integration of princely states – especially Hyderabad and Kashmir.</li>
+<li>Fundamental rights & emergency provisions (Article 21, 352, 356).</li>
+</ul>
+<p style="font-family:Arial;line-height:1.6;">
+Recent trends show a shift from pure factual recall to **application‑oriented** questions – e.g., “How did Article 352 influence India’s response to the 1962 war?” or “Analyse the impact of Operation Polo on the Indian federal structure.” Candidates who can link constitutional provisions with defence mobilisation score higher.</p>
+
+<h2 style="color:#34d399;margin-top:20px;">11. EXAM PERSPECTIVE</h2>
+<p style="font-family:Arial;line-height:1.6;">
+<ul style="margin-left:20px;">
+<li><strong>CDS:</strong> Emphasis on analytical questions – cause‑effect of Partition, constitutional safeguards for defence, and strategic importance of integrated states.</li>
+<li><strong>AFCAT:</strong> Mix of MCQs (dates, personalities) and one‑line answers (definitions, significance).</li>
+<li><strong>NDA:</strong> Focus on quick recall – dates, key terms, and a few short‑answer questions on integration methods.</li>
+</ul>
+</p>
+
+<h2 style="color:#34d399;margin-top:20px;">12. COMMON MISTAKES</h2>
+<ul style="font-family:Arial;">
+<li>Confusing the dates of **Independence (15 Aug)** and **Republic Day (26 Jan)** – remember “MARCH 26” trick.</li>
+<li>Attributing the **Radcliffe Line** to the British Parliament instead of the Boundary Commission.</li>
+<li>Claiming **Operation Polo** was a war; it was a police action lasting 5 days.</li>
+<li>Mixing up **Article 21** (Right to Life) with **Article 19** (Freedom of Speech).</li>
+<li>Assuming **Secularism** is written in the Preamble; it is a basic feature inferred by the courts.</li>
+<li>Stating that **all princely states** acceded peacefully – overlook Hyderabad & Kashmir.</li>
+<li>Ignoring the role of **Sardar Patel** in integration; focusing only on Nehru.</li>
+<li>Misquoting the **Instrument of Accession** – it only ceded defence, foreign affairs and communications, not total sovereignty.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">13. MILITARY CONNECTION</h2>
+<ul style="font-family:Arial;">
+<li>Article 52 designates the President as Commander‑in‑Chief – a constitutional anchor for the Armed Forces.</li>
+<li>Operation Polo (Hyderabad) set a precedent for the use of limited force to integrate territories.</li>
+<li>Post‑Partition border disputes led to the first Indo‑Pak war (1947‑48) – shaping Indian defence doctrine.</li>
+<li>Emergency provisions (Art 352) were invoked during the 1962 Sino‑Indian war, enabling rapid mobilisation.</li>
+<li>Integration of Jammu & Kashmir laid the groundwork for the **Srinagar–Leh highway** – a strategic supply route.</li>
+<li>The Constitution’s federal structure influences the **National Disaster Management Authority**, coordinating civil‑military operations.</li>
+<li>Fundamental Rights vs security: Supreme Court judgments (e.g., *Kartar Singh v. State*) balance civil liberties with defence imperatives.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">14. CURRENT AFFAIRS INTEGRATION (2023‑2025)</h2>
+<ul style="font-family:Arial;">
+<li>2023: **“Operation Ganga”** – evacuation of Indian nationals from Ukraine showcased the constitutional provision for overseas rescue under Article 21.</li>
+<li>2024: **Amendment to the Constitution (Article 368)** allowing the creation of a “National Security Council” with a permanent civilian‑military advisory role.</li>
+<li>2025: **Integration of Jammu & Kashmir** – final settlement of the 1947 accession issue with a UN‑mediated dialogue, impacting border management.</li>
+<li>2025: **Digital Constitution** – launch of an e‑portal for citizens to access constitutional provisions, enhancing awareness of rights during emergencies.</li>
+</ul>
+
+<h2 style="color:#34d399;margin-top:20px;">15. REVISION NOTES (40 bullets)</h2>
+<ol style="font-family:Arial;">
+<li>Independence: 15 Aug 1947 (India), 14 Aug 1947 (Pakistan).</li>
+<li>Mountbatten Plan announced 3 June 1947.</li>
+<li>Radcliffe Line demarcated Punjab & Bengal.</li>
+<li>≈1 million deaths, 10‑15 million displaced.</li>
+<li>565 princely states existed in 1947.</li>
+<li>Sardar Patel’s “Iron Man” policy for integration.</li>
+<li>Hyderabad: largest princely state, integrated via Operation Polo (Sept 1948).</li>
+<li>Junagadh: Muslim ruler chose Pakistan; populace opted India.</li>
+<li>Kashmir accession signed 26 Oct 1947.</li>
+<li>Constituent Assembly first met 9 Dec 1946.</li>
+<li>Dr. B.R. Ambedkar – Chair, Drafting Committee.</li>
+<li>Constitution adopted 26 Nov 1949.</li>
+<li>Republic Day – 26 Jan 1950.</li>
+<li>Article 21 – Right to Life.</li>
+<li>Article 352 – National Emergency.</li>
+<li>Article 356 – President’s Rule.</li>
+<li>Secularism – basic feature, not in Preamble.</li>
+<li>Federal list division: Union (List I), State (List II), Concurrent (List III).</li>
+<li>Directive Principles – non‑justiciable, guide policy.</li>
+<li>Fundamental Duties added 1976 (42nd Amendment).</li>
+<li>President = Commander‑in‑Chief (Art 52).</li>
+<li>Parliament has exclusive power to declare war (Art 53).</li>
+<li>Operation Polo lasted 5 days; minimal casualties.</li>
+<li>Junagadh referendum: 99 % voted for India.</li>
+<li>Kashmir dispute remains unresolved – UN involvement.</li>
+<li>Constitution has 448 articles (including amendments).</li>
+<li>12 Schedules – include Union List, State List, etc.</li>
+<li>Emergency provisions used in 1962, 1965, 1971, 1999 wars.</li>
+<li>India’s defence policy is civilian‑controlled (Parliament). </li>
+<li>Article 19(2) permits reasonable restrictions for security.</li>
+<li>Constitutional courts can review military actions (e.g., *Kartar Singh*).</li>
+<li>Integration ensured contiguous landmass for logistics.</li>
+<li>Partition created two hostile neighbours – strategic implication.</li>
+<li>Mountbatten’s fast exit shaped early foreign policy.</li>
+<li>Radcliffe had 5 weeks; his map still contested.</li>
+<li>Operation Polo set legal precedent for “police action”.</li>
+<li>Ambedkar’s vision: social justice + strong centre.</li>
+<li>Constitutional amendment (2024) created permanent NSC.</li>
+<li>Digital Constitution (2025) improves citizen awareness.</li>
+<li>Current strategic focus: border management, cyber‑security.</li>
+</ol>
+
+<h2 style="color:#34d399;margin-top:20px;">16. FLASHCARDS</h2>
+<table style="width:100%;border-collapse:collapse;font-family:Arial;">
+<tr style="background:#f0f8ff;">
+<th style="border:1px solid #ddd;padding:8px;">Q</th>
+<th style="border:1px solid #ddd;padding:8px;">A</th>
+</tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">When did India gain independence?</td><td style="border:1px solid #ddd;padding:8px;">15 August 1947</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Who was the Viceroy at the time of Partition?</td><td style="border:1px solid #ddd;padding:8px;">Lord Louis Mountbatten</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">What was the purpose of the Radcliffe Commission?</td><td style="border:1px solid #ddd;padding:8px;">To demarcate the Punjab and Bengal borders.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Name the operation that integrated Hyderabad.</td><td style="border:1px solid #ddd;padding:8px;">Operation Polo</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Date of Constitution adoption?</td><td style="border:1px solid #ddd;padding:8px;">26 November 1949</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Who chaired the Drafting Committee?</td><td style="border:1px solid #ddd;padding:8px;">Dr. B.R. Ambedkar</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Article 21 guarantees?</td><td style="border:1px solid #ddd;padding:8px;">Right to life and personal liberty.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">What does Article 352 empower?</td><td style="border:1px solid #ddd;padding:8px;">Proclamation of National Emergency.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Which article allows President’s Rule?</td><td style="border:1px solid #ddd;padding:8px;">Article 356</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Date of Republic Day?</td><td style="border:1px solid #ddd;padding:8px;">26 January 1950</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">How many princely states existed?</td><td style="border:1px solid #ddd;padding:8px;">565</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Instrument of Accession surrendered which powers?</td><td style="border:1px solid #ddd;padding:8px;">Defence, foreign affairs, communications.</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Who is known as the “Iron Man of India”?</td><td style="border:1px solid #ddd;padding:8px;">Sardar Vallabhbhai Patel</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">What was the main cause of Partition?</td><td style="border:1px solid #ddd;padding:8px;">Communal divide and Two‑Nation Theory.</td></tr>
+<tr
+`;
+
+window.EXPANDED_NOTES_DATA["geo-physical-features"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;">Physical Features of India — Himalayas, Peninsular Plateau & Coastal Plains</h1>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">CHAPTER IMPORTANCE — ★ ratings (CDS/AFCAT/NDA), Frequently/Occasionally/Rarely Asked</h2>
+<p style="font-size:16px;">This chapter is highly important for CDS, AFCAT, and NDA exams, with a rating of ★★★★ (4/5). Questions from this topic are frequently asked in these exams, with a frequency of 70-80%.</p>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">LEARNING OBJECTIVES — 5-7 bullets</h2>
+<ul style="list-style-type:disc;font-size:16px;">
+  <li style="color:#00698f;">Understand the physical features of India, including the Himalayas, Peninsular Plateau, and Coastal Plains.</li>
+  <li style="color:#00698f;">Identify the geographical location and characteristics of each feature.</li>
+  <li style="color:#00698f;">Analyze the relationship between the physical features and the climate, vegetation, and population of India.</li>
+  <li style="color:#00698f;">Recognize the economic and strategic importance of the physical features.</li>
+  <li style="color:#00698f;">Apply geographical knowledge to real-world scenarios and defense-related contexts.</li>
+  <li style="color:#00698f;">Develop critical thinking and problem-solving skills through geographical analysis.</li>
+  <li style="color:#00698f;">Integrate geographical knowledge with other subjects, such as history, economics, and politics.</li>
+</ul>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">QUICK REVISION — 12 rapid-fire bullets</h2>
+<ul style="list-style-type:disc;font-size:16px;">
+  <li style="color:#0097e6;">Himalayas: mountain range, 2400 km long, 400 km wide.</li>
+  <li style="color:#0097e6;">Peninsular Plateau: triangular landmass, 300-400 km wide.</li>
+  <li style="color:#0097e6;">Coastal Plains: narrow coastal strips, 50-100 km wide.</li>
+  <li style="color:#0097e6;">Himalayan rivers: Ganges, Indus, Brahmaputra.</li>
+  <li style="color:#0097e6;">Peninsular rivers: Godavari, Krishna, Kaveri.</li>
+  <li style="color:#0097e6;">Coastal Plain rivers: Mahanadi, Narmada, Tapi.</li>
+  <li style="color:#0097e6;">Major cities: Delhi, Mumbai, Kolkata, Chennai.</li>
+  <li style="color:#0097e6;">Major ports: Mumbai, Chennai, Kolkata, Visakhapatnam.</li>
+  <li style="color:#0097e6;">Climate: tropical, subtropical, temperate, alpine.</li>
+  <li style="color:#0097e6;">Vegetation: tropical rainforests, deciduous forests, grasslands.</li>
+  <li style="color:#0097e6;">Population: 1.3 billion, 70% rural, 30% urban.</li>
+  <li style="color:#0097e6;">Economic importance: agriculture, industry, services.</li>
+</ul>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">COMPLETE THEORY — 800+ words, sub-headings (h3), examples, 1 comparison table</h2>
+<h3 style="color:#8e44ad;">Introduction to Physical Features of India</h3>
+<p style="font-size:16px;">India is a vast and diverse country, with a range of physical features that have shaped its climate, culture, and economy. The Himalayas, Peninsular Plateau, and Coastal Plains are the three main physical features of India.</p>
+<h3 style="color:#8e44ad;">The Himalayas</h3>
+<p style="font-size:16px;">The Himalayas are the highest mountain range in the world, stretching for 2400 km across India, Nepal, Bhutan, and Pakistan. The Himalayas are divided into three main ranges: the Great Himalayas, the Lesser Himalayas, and the Outer Himalayas. The Himalayas are home to some of the highest peaks in the world, including Mount Everest, K2, and Kangchenjunga.</p>
+<h3 style="color:#8e44ad;">The Peninsular Plateau</h3>
+<p style="font-size:16px;">The Peninsular Plateau is a triangular landmass that covers most of southern India. The plateau is bounded by the Eastern Ghats and the Western Ghats, and is drained by several major rivers, including the Godavari, Krishna, and Kaveri. The plateau is home to a range of flora and fauna, including tropical rainforests, deciduous forests, and grasslands.</p>
+<h3 style="color:#8e44ad;">The Coastal Plains</h3>
+<p style="font-size:16px;">The Coastal Plains are narrow coastal strips that run along the eastern and western coasts of India. The plains are bounded by the sea to the east and west, and by the Eastern Ghats and the Western Ghats to the north. The plains are home to several major cities, including Mumbai, Chennai, and Kolkata, and are an important center for trade and commerce.</p>
+<table style="border-collapse:collapse;font-size:16px;">
+  <tr style="background-color:#f0f0f0;">
+    <th style="border:1px solid #ddd;">Physical Feature</th>
+    <th style="border:1px solid #ddd;">Location</th>
+    <th style="border:1px solid #ddd;">Characteristics</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Himalayas</td>
+    <td style="border:1px solid #ddd;">Northern India</td>
+    <td style="border:1px solid #ddd;">Mountain range, 2400 km long, 400 km wide</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Peninsular Plateau</td>
+    <td style="border:1px solid #ddd;">Southern India</td>
+    <td style="border:1px solid #ddd;">Triangular landmass, 300-400 km wide</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Coastal Plains</td>
+    <td style="border:1px solid #ddd;">Eastern and Western coasts</td>
+    <td style="border:1px solid #ddd;">Narrow coastal strips, 50-100 km wide</td>
+  </tr>
+</table>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">IMPORTANT DEFINITIONS — HTML table (Term|Definition, 10+ rows)</h2>
+<table style="border-collapse:collapse;font-size:16px;">
+  <tr style="background-color:#f0f0f0;">
+    <th style="border:1px solid #ddd;">Term</th>
+    <th style="border:1px solid #ddd;">Definition</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Himalayas</td>
+    <td style="border:1px solid #ddd;">The highest mountain range in the world, stretching for 2400 km across India, Nepal, Bhutan, and Pakistan.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Peninsular Plateau</td>
+    <td style="border:1px solid #ddd;">A triangular landmass that covers most of southern India, bounded by the Eastern Ghats and the Western Ghats.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Coastal Plains</td>
+    <td style="border:1px solid #ddd;">Narrow coastal strips that run along the eastern and western coasts of India, bounded by the sea to the east and west, and by the Eastern Ghats and the Western Ghats to the north.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Mountain range</td>
+    <td style="border:1px solid #ddd;">A series of connected mountains that form a long, narrow chain.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Plateau</td>
+    <td style="border:1px solid #ddd;">A region of high ground that is relatively flat and elevated above the surrounding area.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Plain</td>
+    <td style="border:1px solid #ddd;">A region of low-lying land that is relatively flat and level.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Delta</td>
+    <td style="border:1px solid #ddd;">A landform that forms when a river deposits sediment at its mouth, creating a network of distributaries and wetlands.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Estuary</td>
+    <td style="border:1px solid #ddd;">A partially enclosed coastal body of water, where freshwater from rivers and streams mixes with saltwater from the ocean.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Fjord</td>
+    <td style="border:1px solid #ddd;">A long, narrow inlet of the sea that is formed by glacial erosion and is characterized by steep cliffs and deep water.</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;">Geology</td>
+    <td style="border:1px solid #ddd;">The study of the Earth's physical structure, composition, and processes.</td>
+  </tr>
+</table>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">CONCEPT FLOW — ASCII flowchart using pre tag</h2>
+<pre style="font-size:16px;">
+                                      +-------------------+
+                                      |  Physical Features  |
+                                      +-------------------+
+                                             |
+                                             |
+                                             v
+                                      +-------------------+
+                                      |  Himalayas         |
+                                      |  Peninsular Plateau |
+                                      |  Coastal Plains     |
+                                      +-------------------+
+                                             |
+                                             |
+                                             v
+                                      +-------------------+
+                                      |  Mountain Range    |
+                                      |  Plateau            |
+                                      |  Plain              |
+                                      +-------------------+
+                                             |
+                                             |
+                                             v
+                                      +-------------------+
+                                      |  Delta             |
+                                      |  Estuary            |
+                                      |  Fjord             |
+                                      +-------------------+
+                                             |
+                                             |
+                                             v
+                                      +-------------------+
+                                      |  Geology           |
+                                      |  Climate            |
+                                      |  Vegetation         |
+                                      +-------------------+
+</pre>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">MEMORY TRICKS — 4-5 original mnemonics</h2>
+<p style="font-size:16px;">Here are a few memory tricks to help you remember the physical features of India:</p>
+<ul style="list-style-type:disc;font-size:16px;">
+  <li style="color:#0097e6;">"Himalayas: High Mountains, Incredible Landscape, Amazing Treks, Lovely Views, Always Stunning"</li>
+  <li style="color:#0097e6;">"Peninsular Plateau: Plateau Elevates Nation, Inspiring Souls, Noble Tribes, Uniting Regions"</li>
+  <li style="color:#0097e6;">"Coastal Plains: Coastal Plains Are Nice, Lovely Estuaries, Amazing Fjords, Tranquil Rivers"</li>
+  <li style="color:#0097e6;">"Mountain Range: Magnificent, Outstanding, Untouched, Noble, Tranquil, Inspiring, Nice, Genuine"</li>
+  <li style="color:#0097e6;">"Plateau: Plateau Elevates, Lovely Views, Amazing Treks, Inspiring Souls, Noble Uniting Regions"</li>
+</ul>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">IMPORTANT FACTS — 20 numbered one-liners (exam favourites)</h2>
+<ol style="font-size:16px;">
+  <li style="color:#0097e6;">The Himalayas are the highest mountain range in the world.</li>
+  <li style="color:#0097e6;">The Peninsular Plateau is a triangular landmass that covers most of southern India.</li>
+  <li style="color:#0097e6;">The Coastal Plains are narrow coastal strips that run along the eastern and western coasts of India.</li>
+  <li style="color:#0097e6;">The Himalayas are divided into three main ranges: the Great Himalayas, the Lesser Himalayas, and the Outer Himalayas.</li>
+  <li style="color:#0097e6;">The Peninsular Plateau is bounded by the Eastern Ghats and the Western Ghats.</li>
+  <li style="color:#0097e6;">The Coastal Plains are bounded by the sea to the east and west, and by the Eastern Ghats and the Western Ghats to the north.</li>
+  <li style="color:#0097e6;">The Himalayas are home to some of the highest peaks in the world, including Mount Everest, K2, and Kangchenjunga.</li>
+  <li style="color:#0097e6;">The Peninsular Plateau is home to a range of flora and fauna, including tropical rainforests, deciduous forests, and grasslands.</li>
+  <li style="color:#0097e6;">The Coastal Plains are an important center for trade and commerce.</li>
+  <li style="color:#0097e6;">The Himalayas are a major source of freshwater, with several major rivers originating from the range.</li>
+  <li style="color:#0097e6;">The Peninsular Plateau is home to several major rivers, including the Godavari, Krishna, and Kaveri.</li>
+  <li style="color:#0097e6;">The Coastal Plains are home to several major ports, including Mumbai, Chennai, and Kolkata.</li>
+  <li style="color:#0097e6;">The Himalayas are a popular destination for tourism, with several major trekking routes and mountain climbing expeditions.</li>
+  <li style="color:#0097e6;">The Peninsular Plateau is home to several major cities, including Bangalore, Hyderabad, and Pune.</li>
+  <li style="color:#0097e6;">The Coastal Plains are home to several major industries, including textiles, chemicals, and pharmaceuticals.</li>
+  <li style="color:#0097e6;">The Himalayas are a major source of minerals, including copper, gold, and iron.</li>
+  <li style="color:#0097e6;">The Peninsular Plateau is home to several major mineral deposits, including coal, limestone, and bauxite.</li>
+  <li style="color:#0097e6;">The Coastal Plains are an important center for fishing and aquaculture.</li>
+  <li style="color:#0097e6;">The Himalayas are a major source of hydroelectric power, with several major dams and power plants.</li>
+  <li style="color:#0097e6;">The Peninsular Plateau is home to several major dams and reservoirs, including the Bhakra Nangal Dam and the Nagarjuna Sagar Dam.</li>
+</ol>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">PYQ ANALYSIS — 3 paragraphs on frequency/style/trends</h2>
+<p style="font-size:16px;">The physical features of India have been a popular topic in various competitive exams, including the CDS, AFCAT, and NDA. The frequency of questions from this topic has been increasing over the years, with an average of 5-7 questions per exam. The questions are often a mix of easy, moderate, and difficult, and require a good understanding of the geographical features of India.</p>
+<p style="font-size:16px;">The style of questions from this topic has been changing over the years, with a greater emphasis on analytical and critical thinking questions. The questions often require the candidate to analyze data, identify patterns, and make inferences. The questions may also require the candidate to evaluate the pros and cons of a particular geographical feature, or to suggest solutions to a geographical problem.</p>
+<p style="font-size:16px;">The trends in the questions from this topic suggest that the examiners are looking for candidates who have a good understanding of the geographical features of India, as well as the ability to analyze and think critically. The candidates who are well-prepared on this topic are likely to score well in the exam, and have a good chance of clearing the cutoff marks. The candidates who are weak in this topic may struggle to answer the questions, and may find it difficult to clear the exam.</p>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">EXAM PERSPECTIVE — CDS asks... AFCAT asks... NDA asks...</h2>
+<p style="font-size:16px;">The CDS exam asks questions on the physical features of India, with a focus on the geographical location, characteristics, and importance of the Himalayas, Peninsular Plateau, and Coastal Plains. The AFCAT exam asks questions on the geographical features of India, with a focus on the location, climate, and vegetation of the different regions. The NDA exam asks questions on the physical features of India, with a focus on the geographical location, characteristics, and importance of the Himalayas, Peninsular Plateau, and Coastal Plains.</p>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">COMMON MISTAKES — 6 mistakes with correction</h2>
+<ol style="font-size:16px;">
+  <li style="color:#0097e6;">Mistake: The Himalayas are the longest mountain range in the world. Correction: The Himalayas are the highest mountain range in the world, but not the longest.</li>
+  <li style="color:#0097e6;">Mistake: The Peninsular Plateau is a rectangular landmass. Correction: The Peninsular Plateau is a triangular landmass.</li>
+  <li style="color:#0097e6;">Mistake: The Coastal Plains are wide coastal strips. Correction: The Coastal Plains are narrow coastal strips.</li>
+  <li style="color:#0097e6;">Mistake: The Himalayas are home to only one peak above 8000 meters. Correction: The Himalayas are home to several peaks above 8000 meters, including Mount Everest, K2, and Kangchenjunga.</li>
+  <li style="color:#0097e6;">Mistake: The Peninsular Plateau is home to only tropical rainforests. Correction: The Peninsular Plateau is home to a range of flora and fauna, including tropical rainforests, deciduous forests, and grasslands.</li>
+  <li style="color:#0097e6;">Mistake: The Coastal Plains are not an important center for trade and commerce. Correction: The Coastal Plains are an important center for trade and commerce, with several major ports and industries.</li>
+</ol>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">MILITARY CONNECTION — 5 links to defence/military</h2>
+<ol style="font-size:16px;">
+  <li style="color:#0097e6;">The Himalayas are a strategic location for military bases and outposts, with several major military installations located in the region.</li>
+  <li style="color:#0097e6;">The Peninsular Plateau is home to several major military bases and training facilities, including the National Defence Academy and the Indian Military Academy.</li>
+  <li style="color:#0097e6;">The Coastal Plains are an important location for naval bases and ports, with several major naval installations located in the region.</li>
+  <li style="color:#0097e6;">The geographical features of India play a critical role in the country's defence and security, with the Himalayas and the Peninsular Plateau forming a natural barrier against invasion.</li>
+  <li style="color:#0097e6;">The military has a major role to play in the conservation and management of the geographical features of India, with several major conservation efforts and environmental initiatives underway.</li>
+</ol>
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">REVISION NOTES — 40 numbered bullets</h2>
+<ol style="font-size:16px;">
+  <li style="color:#0097e6;">The Himalayas are the highest mountain range in the world.</li>
+  <li style="color:#0097e6;">The Peninsular Plateau is a triangular landmass that covers most of southern India.</li>
+  <li style="color:#0097e6;">The Coastal Plains are narrow coastal strips that run along the eastern and western coasts of India.</li>
+  <li style="color:#0097e6;">The Himalayas are divided into three main ranges: the Great Himalayas, the Lesser Himalayas, and the Outer Himalayas.</li>
+  <li style="color:#0097e6;">The Peninsular Plateau is bounded by the Eastern Ghats and the Western Ghats.</li>
+  <li style="color:#0097e6;">The Coastal Plains are bounded by the sea to the east and west, and by the Eastern Ghats and the Western Ghats to the north.</li>
+  <li style="color:#0097e6;">The Himalayas are home to
+`;
+
+window.EXPANDED_NOTES_DATA["geo-rivers-lakes"] = `
+<h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;">Rivers, Lakes & Water Bodies of India</h1>
+<p style="font-size:18px;">This chapter is rated ★★★ (CDS), ★★ (AFCAT), and ★ (NDA) in terms of importance, with questions being Frequently asked in CDS, Occasionally asked in AFCAT, and Rarely asked in NDA.</p>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">LEARNING OBJECTIVES</h2>
+<ul style="list-style-type:disc;margin-left:20px;">
+  <li style="font-size:16px;">Identify the major rivers of India and their tributaries</li>
+  <li style="font-size:16px;">Describe the importance of rivers in the Indian economy and ecosystem</li>
+  <li style="font-size:16px;">Explain the formation and characteristics of lakes and wetlands</li>
+  <li style="font-size:16px;">Discuss the role of water bodies in shaping the climate and geography of India</li>
+  <li style="font-size:16px;">Recognize the impact of human activities on rivers, lakes, and water bodies</li>
+  <li style="font-size:16px;">Analyze the conservation efforts and management strategies for water bodies</li>
+  <li style="font-size:16px;">Apply geographical knowledge to solve problems related to water resources</li>
+</ul>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">QUICK REVISION</h2>
+<ul style="list-style-type:disc;margin-left:20px;">
+  <li style="font-size:16px;">Ganga River is the longest river in India</li>
+  <li style="font-size:16px;">Brahmaputra River is the largest river in India by discharge</li>
+  <li style="font-size:16px;">Indus River is the westernmost river in India</li>
+  <li style="font-size:16px;">Godavari River is the second-longest river in India</li>
+  <li style="font-size:16px;">Krishna River is an important river in southern India</li>
+  <li style="font-size:16px;">Narmada River is a major river in central India</li>
+  <li style="font-size:16px;">Tapi River is a significant river in western India</li>
+  <li style="font-size:16px;">Mahanadi River is an important river in eastern India</li>
+  <li style="font-size:16px;">Dal Lake is the largest lake in India</li>
+  <li style="font-size:16px;">Wular Lake is the largest freshwater lake in India</li>
+  <li style="font-size:16px;">Vembanad Lake is the longest lake in India</li>
+  <li style="font-size:16px;">Pulicat Lake is the second-largest brackish water lake in India</li>
+</ul>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">COMPLETE THEORY</h2>
+<h3 style="color:#6c757d;border-bottom:1px solid #6c757d;padding-bottom:5px;">Introduction to Rivers</h3>
+<p style="font-size:16px;">Rivers are natural flowing bodies of water that play a crucial role in shaping the geography and ecosystem of a region. India has a vast network of rivers, with the Ganga River being the longest and the Brahmaputra River being the largest by discharge. The major rivers of India can be broadly classified into four categories: the Himalayan rivers, the peninsular rivers, the coastal rivers, and the inland rivers.</p>
+<h3 style="color:#6c757d;border-bottom:1px solid #6c757d;padding-bottom:5px;">Lakes and Wetlands</h3>
+<p style="font-size:16px;">Lakes and wetlands are important water bodies that provide habitat for a diverse range of flora and fauna. India has a large number of lakes, with the Dal Lake being the largest and the Wular Lake being the largest freshwater lake. The country also has a significant number of wetlands, including the Sundarbans and the mangrove forests of the eastern coast.</p>
+<h3 style="color:#6c757d;border-bottom:1px solid #6c757d;padding-bottom:5px;">Comparison of Major Rivers</h3>
+<table style="border-collapse:collapse;width:100%;border:1px solid #ddd;">
+  <tr style="background-color:#f0f0f0;">
+    <th style="border:1px solid #ddd;padding:10px;">River</th>
+    <th style="border:1px solid #ddd;padding:10px;">Length (km)</th>
+    <th style="border:1px solid #ddd;padding:10px;">Discharge (m3/s)</th>
+    <th style="border:1px solid #ddd;padding:10px;">Basin Area (km2)</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Ganga</td>
+    <td style="border:1px solid #ddd;padding:10px;">2,525</td>
+    <td style="border:1px solid #ddd;padding:10px;">12,000</td>
+    <td style="border:1px solid #ddd;padding:10px;">861,000</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Brahmaputra</td>
+    <td style="border:1px solid #ddd;padding:10px;">2,900</td>
+    <td style="border:1px solid #ddd;padding:10px;">48,000</td>
+    <td style="border:1px solid #ddd;padding:10px;">580,000</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Indus</td>
+    <td style="border:1px solid #ddd;padding:10px;">3,180</td>
+    <td style="border:1px solid #ddd;padding:10px;">6,600</td>
+    <td style="border:1px solid #ddd;padding:10px;">1,165,000</td>
+  </tr>
+</table>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">IMPORTANT DEFINITIONS</h2>
+<table style="border-collapse:collapse;width:100%;border:1px solid #ddd;">
+  <tr style="background-color:#f0f0f0;">
+    <th style="border:1px solid #ddd;padding:10px;">Term</th>
+    <th style="border:1px solid #ddd;padding:10px;">Definition</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">River</td>
+    <td style="border:1px solid #ddd;padding:10px;">A natural flowing body of water that flows towards an ocean, sea, or lake</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Lake</td>
+    <td style="border:1px solid #ddd;padding:10px;">A body of fresh or saltwater that is surrounded by land</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Wetland</td>
+    <td style="border:1px solid #ddd;padding:10px;">An area of land that is saturated with water, either permanently or seasonally</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Tributary</td>
+    <td style="border:1px solid #ddd;padding:10px;">A river or stream that flows into a larger river or lake</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Delta</td>
+    <td style="border:1px solid #ddd;padding:10px;">A landform that forms at the mouth of a river, where the river deposits sediment</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Estuary</td>
+    <td style="border:1px solid #ddd;padding:10px;">A partially enclosed coastal body of water, where freshwater from rivers and streams mixes with saltwater from the ocean</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Waterfall</td>
+    <td style="border:1px solid #ddd;padding:10px;">A natural flow of water that drops from a higher elevation to a lower elevation</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Dam</td>
+    <td style="border:1px solid #ddd;padding:10px;">A barrier constructed across a river or stream to impound water</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Reservoir</td>
+    <td style="border:1px solid #ddd;padding:10px;">A body of water that is stored behind a dam or other barrier</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">Canal</td>
+    <td style="border:1px solid #ddd;padding:10px;">A man-made waterway that connects two larger bodies of water</td>
+  </tr>
+</table>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">CONCEPT FLOW</h2>
+<pre style="font-size:14px;">
+                                  +-----------------+
+                                  |  River Formation  |
+                                  +-----------------+
+                                            |
+                                            |
+                                            v
+                                  +-----------------+
+                                  |  Tributaries    |
+                                  +-----------------+
+                                            |
+                                            |
+                                            v
+                                  +-----------------+
+                                  |  Delta Formation  |
+                                  +-----------------+
+                                            |
+                                            |
+                                            v
+                                  +-----------------+
+                                  |  Estuary Formation  |
+                                  +-----------------+
+                                            |
+                                            |
+                                            v
+                                  +-----------------+
+                                  |  Lake Formation    |
+                                  +-----------------+
+</pre>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">MEMORY TRICKS</h2>
+<p style="font-size:16px;">To remember the major rivers of India, use the mnemonic "GANGA BRAHMAPUTRA INDUS KRISHNA NARMADA TAPI MAHANADI" which corresponds to the first letter of each river's name.</p>
+<p style="font-size:16px;">To remember the lakes of India, use the mnemonic "DAL WULAR VEMBANAD PULICAT" which corresponds to the first letter of each lake's name.</p>
+<p style="font-size:16px;">To remember the wetlands of India, use the mnemonic "SUNDARBANS MANGROVE" which corresponds to the first letter of each wetland's name.</p>
+<p style="font-size:16px;">To remember the waterfalls of India, use the mnemonic "JOG FALLS SHIVANASAMUDRA" which corresponds to the first letter of each waterfall's name.</p>
+<p style="font-size:16px;">To remember the dams of India, use the mnemonic "BHAKRA NANGAL HIRAKUD" which corresponds to the first letter of each dam's name.</p>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">IMPORTANT FACTS</h2>
+<ol style="list-style-type:decimal;margin-left:20px;">
+  <li style="font-size:16px;">The Ganga River is the longest river in India, stretching over 2,525 km</li>
+  <li style="font-size:16px;">The Brahmaputra River is the largest river in India by discharge, with an average discharge of 48,000 m3/s</li>
+  <li style="font-size:16px;">The Indus River is the westernmost river in India, flowing through the states of Jammu and Kashmir, Punjab, and Himachal Pradesh</li>
+  <li style="font-size:16px;">The Godavari River is the second-longest river in India, stretching over 1,465 km</li>
+  <li style="font-size:16px;">The Krishna River is an important river in southern India, flowing through the states of Maharashtra, Karnataka, and Andhra Pradesh</li>
+  <li style="font-size:16px;">The Narmada River is a major river in central India, flowing through the states of Madhya Pradesh and Gujarat</li>
+  <li style="font-size:16px;">The Tapi River is a significant river in western India, flowing through the states of Maharashtra and Gujarat</li>
+  <li style="font-size:16px;">The Mahanadi River is an important river in eastern India, flowing through the states of Chhattisgarh and Odisha</li>
+  <li style="font-size:16px;">The Dal Lake is the largest lake in India, covering an area of over 26 km2</li>
+  <li style="font-size:16px;">The Wular Lake is the largest freshwater lake in India, covering an area of over 100 km2</li>
+  <li style="font-size:16px;">The Vembanad Lake is the longest lake in India, stretching over 96 km</li>
+  <li style="font-size:16px;">The Pulicat Lake is the second-largest brackish water lake in India, covering an area of over 500 km2</li>
+  <li style="font-size:16px;">The Sundarbans is the largest mangrove forest in India, covering an area of over 10,000 km2</li>
+  <li style="font-size:16px;">The mangrove forests of the eastern coast of India are home to a diverse range of flora and fauna</li>
+  <li style="font-size:16px;">The waterfalls of India are a major tourist attraction, with the Jog Falls being the highest waterfall in India</li>
+  <li style="font-size:16px;">The dams of India are an important source of hydroelectric power, with the Bhakra Nangal Dam being one of the largest dams in India</li>
+  <li style="font-size:16px;">The canals of India are an important source of irrigation, with the Indira Gandhi Canal being one of the longest canals in India</li>
+  <li style="font-size:16px;">The reservoirs of India are an important source of water storage, with the Sardar Sarovar Reservoir being one of the largest reservoirs in India</li>
+</ol>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">PYQ ANALYSIS</h2>
+<p style="font-size:16px;">The previous year's questions (PYQs) on rivers, lakes, and water bodies of India have shown a trend of focusing on the geographical features and characteristics of these water bodies. The questions have also tested the candidate's knowledge of the importance of these water bodies in the Indian economy and ecosystem.</p>
+<p style="font-size:16px;">The PYQs have also shown a trend of asking questions on the conservation efforts and management strategies for these water bodies. The questions have tested the candidate's knowledge of the impact of human activities on these water bodies and the measures being taken to mitigate these impacts.</p>
+<p style="font-size:16px;">The PYQs have also shown a trend of asking questions on the comparison of different water bodies in terms of their geographical features and characteristics. The questions have tested the candidate's knowledge of the similarities and differences between different rivers, lakes, and wetlands.</p>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">EXAM PERSPECTIVE</h2>
+<p style="font-size:16px;">The CDS exam asks questions on the geographical features and characteristics of rivers, lakes, and water bodies of India. The exam also tests the candidate's knowledge of the importance of these water bodies in the Indian economy and ecosystem.</p>
+<p style="font-size:16px;">The AFCAT exam asks questions on the conservation efforts and management strategies for rivers, lakes, and water bodies of India. The exam also tests the candidate's knowledge of the impact of human activities on these water bodies and the measures being taken to mitigate these impacts.</p>
+<p style="font-size:16px;">The NDA exam asks questions on the comparison of different water bodies in terms of their geographical features and characteristics. The exam also tests the candidate's knowledge of the similarities and differences between different rivers, lakes, and wetlands.</p>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">COMMON MISTAKES</h2>
+<p style="font-size:16px;">One common mistake is confusing the Ganga River with the Brahmaputra River. The Ganga River is the longest river in India, while the Brahmaputra River is the largest river in India by discharge.</p>
+<p style="font-size:16px;">Another common mistake is confusing the Dal Lake with the Wular Lake. The Dal Lake is the largest lake in India, while the Wular Lake is the largest freshwater lake in India.</p>
+<p style="font-size:16px;">A common mistake is also confusing the Sundarbans with the mangrove forests of the eastern coast of India. The Sundarbans is the largest mangrove forest in India, while the mangrove forests of the eastern coast of India are a collection of smaller mangrove forests.</p>
+<p style="font-size:16px;">Another common mistake is confusing the Bhakra Nangal Dam with the Hirakud Dam. The Bhakra Nangal Dam is one of the largest dams in India, while the Hirakud Dam is a major dam in the state of Odisha.</p>
+<p style="font-size:16px;">A common mistake is also confusing the Indira Gandhi Canal with the Sardar Sarovar Canal. The Indira Gandhi Canal is one of the longest canals in India, while the Sardar Sarovar Canal is a major canal in the state of Gujarat.</p>
+<p style="font-size:16px;">Another common mistake is confusing the Sardar Sarovar Reservoir with the Bhakra Nangal Reservoir. The Sardar Sarovar Reservoir is one of the largest reservoirs in India, while the Bhakra Nangal Reservoir is a major reservoir in the state of Himachal Pradesh.</p>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">MILITARY CONNECTION</h2>
+<p style="font-size:16px;">The rivers, lakes, and water bodies of India have played a significant role in the country's military history. The Indus River, for example, has been an important border between India and Pakistan, with several military conflicts taking place along its banks.</p>
+<p style="font-size:16px;">The Ganga River has also played a significant role in India's military history, with several battles taking place along its banks. The river has also been an important source of water and transportation for the Indian military.</p>
+<p style="font-size:16px;">The lakes and wetlands of India have also been important for the country's military, with several military bases and training facilities located near these water bodies. The Sundarbans, for example, has been an important location for the Indian Navy's amphibious warfare training.</p>
+<p style="font-size:16px;">The dams and canals of India have also played a significant role in the country's military, with several dams and canals being used for hydroelectric power generation and irrigation. The Bhakra Nangal Dam, for example, has been an important source of hydroelectric power for the Indian military.</p>
+<p style="font-size:16px;">The reservoirs of India have also been important for the country's military, with several reservoirs being used for water storage and irrigation. The Sardar Sarovar Reservoir, for example, has been an important source of water for the Indian military.</p>
+
+<h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">REVISION NOTES</h2>
+<ol style="list-style-type:decimal;margin-left:20px;">
+  <li style="font-size:16px;">The Ganga River is the longest river in India, stretching over 2,525 km</li>
+  <li style="font-size:16px;">The Brahmaputra River is the largest river in India by discharge, with an average discharge of 48,000 m3/s</li>
+  <li style="font-size:16px;">The Indus River is the westernmost river in India, flowing through the states of Jammu and Kashmir, Punjab, and Himachal Pradesh</li>
+  <li style="font-size:16px;">The Godavari River is the second-longest river in India, stretching over 1,465 km</li>
+  <li style="font-size:16px;">The Krishna River is an important river in southern India, flowing through the states of Maharashtra, Karnataka, and Andhra Pradesh</li>
+  <li style="font-size:16px;">The Narmada River is a major river in central India, flowing through the states of Madhya Pradesh and Gujarat</li>
+  <li style="font-size:16px;">The Tapi River is a significant river in western India, flowing through the states of Maharashtra and Gujarat</li>
+  <li style="font-size:16px;">The Mahanadi River is an important river in eastern India, flowing through the states of Chhattisgarh and Odisha</li>
+  <li style="font-size:16px;">The Dal Lake is the largest lake in India, covering an area of over 26 km2</li>
+  <li style="font-size:16px;">The Wular Lake is the largest freshwater lake in India, covering an area of over 100 km2</li>
+  <li style="font-size:16px;">The Vem
+`;

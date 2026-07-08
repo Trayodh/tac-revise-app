@@ -9009,54 +9009,157 @@ let CURRENT_AFFAIRS_DB = {
         "id": "gs-biology",
         "title": "Biology — Human Body & Life Sciences",
         "topics": [
-          { "id": "gs-cell-biology", "title": "Cell Biology — Structure, Organelles & Division" },
-          { "id": "gs-human-nutrition", "title": "Human Nutrition — Vitamins, Minerals & Deficiencies" },
-          { "id": "gs-digestive-system", "title": "Human Digestive System — Organs & Enzymes" },
-          { "id": "gs-circulatory-system", "title": "Human Circulatory System — Heart, Blood & Blood Groups" },
-          { "id": "gs-respiratory-system", "title": "Human Respiratory System — Lungs & High-Altitude Physiology" },
-          { "id": "gs-nervous-system", "title": "Human Nervous System — Brain, Spinal Cord & Reflex Action" },
-          { "id": "gs-endocrine-system", "title": "Human Endocrine System — Glands & Hormones" },
-          { "id": "gs-excretory-system", "title": "Human Excretory System — Kidneys & Nephron" },
-          { "id": "gs-musculoskeletal", "title": "Human Skeletal & Muscular System — Bones & Muscles" },
-          { "id": "gs-reproduction-heredity", "title": "Reproduction & Heredity — DNA, Genetics & Mendel Laws" },
-          { "id": "gs-diseases-immunity", "title": "Human Diseases, Immunity & Vaccines" },
-          { "id": "gs-plant-kingdom", "title": "Plant Kingdom — Classification, Photosynthesis & Hormones" },
-          { "id": "gs-animal-kingdom", "title": "Animal Kingdom — Classification & Characteristics" },
-          { "id": "gs-ecology-environment", "title": "Ecology & Environment — Food Chains, Biodiversity & Pollution" }
+          { "id": "gs-cell-biology", "title": "Cell Biology — Structure, Organelles & Division", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-human-nutrition", "title": "Human Nutrition — Vitamins, Minerals & Deficiencies", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-digestive-system", "title": "Human Digestive System — Organs & Enzymes", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-circulatory-system", "title": "Human Circulatory System — Heart, Blood & Blood Groups", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-respiratory-system", "title": "Human Respiratory System — Lungs & High-Altitude Physiology", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-nervous-system", "title": "Human Nervous System — Brain, Spinal Cord & Reflex Action", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-endocrine-system", "title": "Human Endocrine System — Glands & Hormones", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-excretory-system", "title": "Human Excretory System — Kidneys & Nephron", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-musculoskeletal", "title": "Human Skeletal & Muscular System — Bones & Muscles", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-reproduction-heredity", "title": "Reproduction & Heredity — DNA, Genetics & Mendel Laws", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-diseases-immunity", "title": "Human Diseases, Immunity & Vaccines", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-plant-kingdom", "title": "Plant Kingdom — Classification, Photosynthesis & Hormones", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-animal-kingdom", "title": "Animal Kingdom — Classification & Characteristics", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-ecology-environment", "title": "Ecology & Environment — Food Chains, Biodiversity & Pollution", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" }
         ]
       },
       {
         "id": "gs-physics",
         "title": "Physics — Laws & Applications",
         "topics": [
-          { "id": "gs-units-measurement", "title": "Units, Dimensions & Measurement" },
-          { "id": "gs-laws-of-motion", "title": "Laws of Motion — Newton's Laws, Friction & Applications" },
-          { "id": "gs-work-energy-power", "title": "Work, Energy & Power — Conservation Laws & Collisions" },
-          { "id": "gs-gravitation", "title": "Gravitation — Kepler's Laws, Satellites & Escape Velocity" },
-          { "id": "gs-heat-thermodynamics", "title": "Heat & Thermodynamics — Laws & Heat Transfer" },
-          { "id": "gs-waves-sound", "title": "Waves & Sound — Properties, Doppler Effect & Applications" },
-          { "id": "gs-light-optics", "title": "Light & Optics — Reflection, Refraction & Optical Instruments" },
-          { "id": "gs-electricity-magnetism", "title": "Electricity & Magnetism — Circuits & Electromagnetic Induction" },
-          { "id": "gs-modern-physics", "title": "Modern Physics — Atomic Structure, Radioactivity & Nuclear Physics" }
+          { "id": "gs-units-measurement", "title": "Units, Dimensions & Measurement", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-laws-of-motion", "title": "Laws of Motion — Newton's Laws, Friction & Applications", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-work-energy-power", "title": "Work, Energy & Power — Conservation Laws & Collisions", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-gravitation", "title": "Gravitation — Kepler's Laws, Satellites & Escape Velocity", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-heat-thermodynamics", "title": "Heat & Thermodynamics — Laws & Heat Transfer", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-waves-sound", "title": "Waves & Sound — Properties, Doppler Effect & Applications", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-light-optics", "title": "Light & Optics — Reflection, Refraction & Optical Instruments", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-electricity-magnetism", "title": "Electricity & Magnetism — Circuits & Electromagnetic Induction", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-modern-physics", "title": "Modern Physics — Atomic Structure, Radioactivity & Nuclear Physics", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" }
         ]
       },
       {
         "id": "gs-chemistry",
         "title": "Chemistry — Matter & Reactions",
         "topics": [
-          { "id": "gs-matter-states", "title": "States of Matter & Gas Laws" },
-          { "id": "gs-atomic-structure-periodic", "title": "Atomic Structure & Periodic Table" },
-          { "id": "gs-chemical-bonding", "title": "Chemical Bonding — Ionic, Covalent & Metallic Bonds" },
-          { "id": "gs-chemical-reactions", "title": "Chemical Reactions — Types, Rates & Equilibrium" },
-          { "id": "gs-acids-bases-salts", "title": "Acids, Bases & Salts — pH & Neutralization" },
-          { "id": "gs-metals-nonmetals", "title": "Metals & Non-Metals — Properties, Reactivity & Uses" },
-          { "id": "gs-carbon-organic", "title": "Carbon & Organic Chemistry — Hydrocarbons & Polymers" },
-          { "id": "gs-everyday-chemistry", "title": "Everyday Chemistry — Food, Medicines, Fuels & Materials" }
+          { "id": "gs-matter-states", "title": "States of Matter & Gas Laws", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-atomic-structure-periodic", "title": "Atomic Structure & Periodic Table", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-chemical-bonding", "title": "Chemical Bonding — Ionic, Covalent & Metallic Bonds", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-chemical-reactions", "title": "Chemical Reactions — Types, Rates & Equilibrium", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-acids-bases-salts", "title": "Acids, Bases & Salts — pH & Neutralization", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-metals-nonmetals", "title": "Metals & Non-Metals — Properties, Reactivity & Uses", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-carbon-organic", "title": "Carbon & Organic Chemistry — Hydrocarbons & Polymers", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "gs-everyday-chemistry", "title": "Everyday Chemistry — Food, Medicines, Fuels & Materials", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" }
         ]
       }
     ]
   }
   ]
+,
+  "premium-history": {
+    "title": "Indian History (CDS/NDA/AFCAT)",
+    "chapters": [
+      {
+        "id": "premium-history-ancient",
+        "title": "Ancient India",
+        "topics": [
+          { "id": "hist-indus-valley", "title": "Indus Valley Civilisation", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "hist-vedic-age", "title": "Vedic Age", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "hist-buddhism-jainism", "title": "Buddhism & Jainism", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "hist-mauryan-empire", "title": "Mauryan Empire", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "hist-gupta-age", "title": "Gupta Age — The Golden Age", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" }
+        ]
+      },
+      {
+        "id": "premium-history-medieval",
+        "title": "Medieval India",
+        "topics": [
+          { "id": "hist-delhi-sultanate", "title": "Delhi Sultanate", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "hist-mughal-empire", "title": "Mughal Empire", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "hist-maratha-empire", "title": "Maratha Empire", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" }
+        ]
+      },
+      {
+        "id": "premium-history-modern",
+        "title": "Modern India",
+        "topics": [
+          { "id": "hist-british-conquest", "title": "British Conquest of India", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "hist-1857-revolt", "title": "1857 Revolt", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "hist-freedom-struggle", "title": "Indian Freedom Struggle", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "hist-independence", "title": "Independence & Partition", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" }
+        ]
+      }
+    ]
+  },
+  "premium-geography": {
+    "title": "Indian Geography (CDS/NDA/AFCAT)",
+    "chapters": [
+      {
+        "id": "premium-geo-india",
+        "title": "Indian Geography",
+        "topics": [
+          { "id": "geo-physical-features", "title": "Physical Features of India", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "geo-rivers-lakes", "title": "Rivers, Lakes & Water Bodies", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "geo-climate-seasons", "title": "Climate & Seasons of India", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "geo-soils-agriculture", "title": "Soils & Agriculture", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "geo-forests-wildlife", "title": "Forests, Wildlife & National Parks", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "geo-minerals-industries", "title": "Minerals, Energy & Industries", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" }
+        ]
+      },
+      {
+        "id": "premium-geo-world",
+        "title": "World Geography",
+        "topics": [
+          { "id": "geo-transport-trade", "title": "Transport, Trade & India Neighbours", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "geo-world-physical", "title": "World Physical Geography", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "geo-world-climate", "title": "World Climate Zones & Biomes", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" }
+        ]
+      }
+    ]
+  },
+  "premium-polity": {
+    "title": "Indian Polity & Governance (CDS)",
+    "chapters": [
+      {
+        "id": "premium-polity-constitution",
+        "title": "Constitution & Rights",
+        "topics": [
+          { "id": "pol-constitution-making", "title": "Making of Indian Constitution", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "pol-fundamental-rights", "title": "Fundamental Rights", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "pol-dpsp-duties", "title": "DPSPs & Fundamental Duties", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" }
+        ]
+      },
+      {
+        "id": "premium-polity-governance",
+        "title": "Governance & Institutions",
+        "topics": [
+          { "id": "pol-parliament", "title": "Parliament of India", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "pol-president-pm", "title": "President, VP & Prime Minister", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "pol-judiciary", "title": "Supreme Court & Judicial Review", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "pol-federalism", "title": "Federalism & Emergency Provisions", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "pol-elections-evm", "title": "Elections & Political Parties", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" }
+        ]
+      }
+    ]
+  },
+  "premium-economics": {
+    "title": "Indian Economy & Economics (CDS)",
+    "chapters": [
+      {
+        "id": "premium-eco-main",
+        "title": "Indian Economy",
+        "topics": [
+          { "id": "eco-gdp-national-income", "title": "GDP & National Income", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "eco-banking-rbi", "title": "Banking System & RBI", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "eco-budget-fiscal", "title": "Union Budget & Fiscal Policy", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "eco-trade-forex", "title": "International Trade & Forex", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" },
+          { "id": "eco-govt-schemes", "title": "Government Schemes & Policies", "notes": "Detailed notes expanded in EXPANDED_NOTES_DATA" }
+        ]
+      }
+    ]
+  }
 };
 
 const CBT_EXAMS_DATABASE = [
