@@ -1129,7 +1129,6 @@ window.EXPANDED_NOTES_DATA["climate-laws-energy"] = `
 
 `;
 
-
 window.EXPANDED_NOTES_DATA["ca-red-sea-crisis"] = `
   <h3>Red Sea Crisis & Maritime Security Operations</h3>
   <p>Subject: Current Affairs & GK</p>
