@@ -218,12 +218,17 @@
   --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   scrollbar-width: thin;
   scrollbar-color: var(--border) var(--bg-primary);
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -232,6 +237,8 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   height: 100vh;
+  height: -webkit-fill-available;
+  height: 100dvh;
   overflow: hidden;
   display: flex;
   -webkit-font-smoothing: antialiased;
@@ -386,7 +393,10 @@ body {
 .main-content {
   flex: 1;
   height: 100vh;
+  height: 100dvh;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
   padding: 32px;
   position: relative;
   background: radial-gradient(circle at top right, rgba(34, 197, 94, 0.03), transparent 400px),
@@ -412,15 +422,20 @@ body {
 
 /* Typography elements */
 h1 {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
   font-weight: 700;
   margin-bottom: 8px;
   letter-spacing: -0.5px;
 }
 
+h2 {
+  font-size: clamp(1.25rem, 3.5vw, 1.75rem);
+  font-weight: 600;
+}
+
 .subtitle {
   color: var(--text-secondary);
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
   margin-bottom: 24px;
 }
 
@@ -1907,7 +1922,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  min-width: 650px;
+  width: 100%;
   padding: 10px 0;
 }
 
@@ -1927,6 +1942,7 @@ h1 {
 .mindmap-branches {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
   width: 100%;
 }
@@ -2017,6 +2033,7 @@ h1 {
 
 .topic-tab-bar {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   border-bottom: 1px solid var(--border);
   padding-bottom: 2px;
@@ -2682,8 +2699,9 @@ h1 {
 .ai-chatbot-drawer {
   position: fixed;
   top: 0;
-  right: -420px;
-  width: 400px;
+  right: -100vw;
+  width: 100%;
+  max-width: 400px;
   height: 100%;
   background: rgba(17, 24, 39, 0.85);
   backdrop-filter: blur(20px);
@@ -2904,8 +2922,10 @@ h1 {
   position: fixed;
   bottom: 90px;
   right: 24px;
-  width: 380px;
+  width: calc(100vw - 48px);
+  max-width: 380px;
   height: 500px;
+  max-height: calc(100vh - 120px);
   background-color: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -3839,10 +3859,7 @@ body.sidebar-open .sidebar-overlay {
     width: 100vw;
   }
 
-  /* Adjust Typography */
-  h1 { font-size: 1.5rem; }
-  h2 { font-size: 1.25rem; }
-  .subtitle { font-size: 0.9rem; }
+  /* Typography handled by clamp() globally */
 
   /* Transform Sidebar into an Off-Canvas Drawer */
   .sidebar {
@@ -3868,7 +3885,13 @@ body.sidebar-open .sidebar-overlay {
     -webkit-overflow-scrolling: touch;
   }
   
-  pre, code {
+  pre {
+    overflow-x: auto;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  code {
     white-space: pre-wrap;
     word-break: break-word;
   }

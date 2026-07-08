@@ -39,6 +39,12 @@ async function handleAuthAction() {
           password: password,
         });
         if (error) throw error;
+        if (!data.session) {
+          alert('Sign up successful! Please check your email to confirm your account before signing in.');
+          toggleAuthMode(); // switch to sign in view
+          return;
+        }
+
         if (typeof STATE !== 'undefined') {
           STATE.activeProfile = { email: email };
           if (typeof saveState === 'function') saveState();
@@ -61,10 +67,21 @@ async function handleAuthAction() {
         });
         if (error) throw error;
         alert('Sign in successful!');
+        if (typeof STATE !== 'undefined') {
+          STATE.activeProfile = { email: email };
+          if (typeof saveState === 'function') saveState();
+        }
         document.getElementById('auth-modal').style.display = 'none';
         updateUserProfile(data.user);
+        if (typeof syncFromSupabase === 'function') {
+          syncFromSupabase();
+        }
       } else {
         alert('Offline mode: Sign in mocked.');
+        if (typeof STATE !== 'undefined') {
+          STATE.activeProfile = { email: email };
+          if (typeof saveState === 'function') saveState();
+        }
         document.getElementById('auth-modal').style.display = 'none';
         updateUserProfile({ email: email });
       }

@@ -55,6 +55,15 @@
       document.head.appendChild(style);
     }
 
+    // Prevent clicking the tooltip from clearing the text selection
+    tooltip.addEventListener('mousedown', (e) => {
+      e.preventDefault();
+    });
+    tooltip.addEventListener('touchstart', (e) => {
+      // Don't prevent default on touchstart for now as it might block clicks,
+      // but if we do, we need to handle touchend.
+    });
+
     document.body.appendChild(tooltip);
     return tooltip;
   }
@@ -65,7 +74,7 @@
   }
 
   // ----- Show tooltip at (x, y) with selectedText + context -----
-  function showTooltip(x, y, selectedText, contextText) {
+  function showTooltip(x, y, selectedText, contextData) {
     const tip = getOrCreateTooltip();
     tip.style.display = 'flex';
     tip.style.animation = 'none';
@@ -92,10 +101,10 @@
       if (window.getSelection) {
           window.getSelection().removeAllRanges();
       }
-      if (typeof window.showDronacharyaQuickDoubt === 'function') {
-        window.showDronacharyaQuickDoubt(selectedText.trim(), true, contextText);
-      } else if (typeof window.triggerDoubtExplain === 'function') {
-        window.triggerDoubtExplain(selectedText.trim());
+      if (typeof window.initiateTellMeMore === 'function') {
+        window.initiateTellMeMore(contextData);
+      } else if (typeof window.showDronacharyaQuickDoubt === 'function') {
+        window.showDronacharyaQuickDoubt(selectedText.trim(), true, contextData.contextText);
       }
     };
   }
@@ -107,6 +116,8 @@
     const sel = window.getSelection();
     const text = sel ? sel.toString().trim() : '';
 
+    console.log('[TellMeMore] Selection detected. Length:', text.length, text.substring(0, 20));
+
     // Ignore very short or very long selections
     if (!text || text.length < 3 || text.length > 400) {
       hideTimer = setTimeout(hideTooltip, 300);
@@ -114,16 +125,25 @@
     }
 
     // Only activate inside the notes/topic viewer area
-    const target = event.target || document.activeElement;
-    const inNotesArea = target && (
-      target.closest('.notes-text') || 
-      target.closest('.tab-pane-content') || 
-      target.closest('.topic-tab-body') || 
-      target.closest('.topic-viewer-card') || 
-      target.closest('#screen-notes') || 
-      target.closest('.concept-formula-box')
-    );
+    let target = event.target || document.activeElement;
+    if (target && target.nodeType === Node.TEXT_NODE) {
+      target = target.parentElement;
+    }
     
+    let inNotesArea = false;
+    if (target && typeof target.closest === 'function') {
+      inNotesArea = (
+        target.closest('.notes-text') || 
+        target.closest('.tab-pane-content') || 
+        target.closest('.topic-tab-body') || 
+        target.closest('.topic-viewer-card') || 
+        target.closest('#screen-notes') || 
+        target.closest('.concept-formula-box')
+      );
+    }
+    
+    console.log('[TellMeMore] inNotesArea:', !!inNotesArea, 'target:', target);
+
     if (!inNotesArea) {
       hideTimer = setTimeout(hideTooltip, 300);
       return;
@@ -131,27 +151,120 @@
 
     // Get surrounding paragraph context for disambiguation
     let contextText = '';
+    let chapter = '', topic = '', subtopic = '', sectionHeading = '', previousHeading = '', nextHeading = '';
     try {
       const range = sel.getRangeAt(0);
-      const container = range.commonAncestorContainer;
-      const paraEl = container.nodeType === Node.TEXT_NODE
-        ? container.parentElement && container.parentElement.closest('p, li, div, td, h3, h4')
-        : container && container.closest('p, li, div, td, h3, h4');
-      if (paraEl) contextText = paraEl.innerText || paraEl.textContent || '';
+      let container = range.commonAncestorContainer;
+      if (container && container.nodeType === Node.TEXT_NODE) {
+          container = container.parentElement;
+      }
+      const node = (container && typeof container.closest === 'function') 
+        ? container.closest('p, li, div, td, h3, h4') || container 
+        : container;
+        
+      if (node) {
+        contextText = node.innerText || node.textContent || '';
+      }
+
+      // Find headings by traversing up and previous
+      let current = node;
+      while (current && current !== document.body) {
+          let sibling = current.previousElementSibling;
+          while (sibling) {
+              if (!sectionHeading && sibling.matches && sibling.matches('h1, h2, h3, h4, h5, .topic-title, .chapter-title, .section-title')) {
+                  sectionHeading = sibling.innerText || sibling.textContent;
+              } else if (!previousHeading && sectionHeading && sibling.matches && sibling.matches('h1, h2, h3, h4, h5, .topic-title')) {
+                  previousHeading = sibling.innerText || sibling.textContent;
+              }
+              sibling = sibling.previousElementSibling;
+          }
+          current = current.parentElement;
+      }
+      
+      // Find next heading
+      current = node;
+      while (current && current !== document.body) {
+          let sibling = current.nextElementSibling;
+          while (sibling) {
+              if (!nextHeading && sibling.matches && sibling.matches('h1, h2, h3, h4, h5, .topic-title, .section-title')) {
+                  nextHeading = sibling.innerText || sibling.textContent;
+                  break;
+              }
+              sibling = sibling.nextElementSibling;
+          }
+          if (nextHeading) break;
+          current = current.parentElement;
+      }
+
+      const chEl = node ? node.closest('[data-chapter]') : null;
+      if (chEl) chapter = chEl.getAttribute('data-chapter');
+      else {
+          const h1 = document.querySelector('h1');
+          if (h1) chapter = h1.innerText || h1.textContent;
+      }
     } catch (_) {}
 
-    // Position at mouse location
-    const x = event.clientX ?? (event.changedTouches?.[0]?.clientX ?? 0);
-    const y = event.clientY ?? (event.changedTouches?.[0]?.clientY ?? 0);
+    const contextData = {
+        selectedText: text,
+        contextText: contextText,
+        pageName: document.title,
+        chapter: chapter || 'Current Subject',
+        topic: window.currentActiveTopic || '',
+        subtopic: subtopic || '',
+        sectionHeading: sectionHeading || '',
+        previousHeading: previousHeading || '',
+        nextHeading: nextHeading || '',
+        sourceURL: window.location.href,
+        userLanguage: navigator.language || 'en-US',
+        timestamp: new Date().toISOString()
+    };
 
-    showTooltip(x, y, text, contextText);
+    // Position based on selection bounding rect instead of mouse event
+    // This is much more robust for double clicks, long presses, and keyboard selection.
+    let x = 0, y = 0;
+    try {
+      const range = sel.getRangeAt(0);
+      const rect = range.getBoundingClientRect();
+      x = rect.left + (rect.width / 2);
+      y = rect.top; // Above the selection
+    } catch(e) {
+      if (event && event.clientX) {
+        x = event.clientX;
+        y = event.clientY;
+      }
+    }
+
+    if (x === 0 && y === 0) {
+      hideTimer = setTimeout(hideTooltip, 300);
+      return;
+    }
+
+    showTooltip(x, y, text, contextData);
   }
 
-  // ----- Listen for mouse up (covers both double-click and drag selection) -----
-  document.addEventListener('mouseup', handleSelectionChange);
+  // ----- Use selectionchange for primary trigger -----
+  // It is the most reliable event across all platforms (iOS, Android, Desktop)
+  document.addEventListener('selectionchange', (e) => {
+    // Debounce slightly to allow selection to finish
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(() => {
+      const sel = window.getSelection();
+      if (!sel || !sel.toString().trim()) {
+        hideTooltip();
+      } else {
+        handleSelectionChange(e);
+      }
+    }, 300);
+  });
+
+  // Keep mouseup/touchend as backups for quick taps that might not trigger selectionchange again
+  document.addEventListener('mouseup', (e) => {
+    if (window.getSelection().toString().trim()) handleSelectionChange(e);
+  });
   
-  // also handle touchend for mobile
-  document.addEventListener('touchend', handleSelectionChange);
+  document.addEventListener('touchend', (e) => {
+    if (window.getSelection().toString().trim()) handleSelectionChange(e);
+  });
 
   // ----- Hide on click elsewhere or escape -----
   document.addEventListener('mousedown', (e) => {
@@ -165,13 +278,5 @@
     if (e.key === 'Escape') hideTooltip();
   });
 
-  // ----- Hide when selection is cleared -----
-  document.addEventListener('selectionchange', () => {
-    const sel = window.getSelection();
-    if (!sel || !sel.toString().trim()) {
-      hideTimer = setTimeout(hideTooltip, 250);
-    }
-  });
-
-  console.log('[TellMeMore] Text-selection AI explainer initialized.');
+  console.log('[TellMeMore] Text-selection AI explainer initialized. (Using robust selectionchange)');
 })();

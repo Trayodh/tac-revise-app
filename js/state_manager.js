@@ -13,16 +13,19 @@ let STATE = {
 };
 
 async function syncFromSupabase() {
-  if (typeof supabaseClientInstance === 'undefined' || !supabaseClientInstance) {
+  if (!window.supabaseClient) {
     console.log("Supabase client not initialized. Using offline mode.");
     return;
   }
   try {
+    const { data: { session } } = await window.supabaseClient.auth.getSession();
+    if (!session) return;
+    
     console.log("Attempting to sync state from Supabase cloud...");
-    const { data, error } = await supabaseClientInstance
+    const { data, error } = await window.supabaseClient
       .from('user_data')
       .select('state')
-      .eq('user_id', 'default_cadet')
+      .eq('user_id', session.user.id)
       .maybeSingle();
       
     if (error) {
@@ -41,7 +44,7 @@ async function syncFromSupabase() {
         STATE = { ...STATE, ...cloudState };
         STATE.currentScreen = localScreen; // Preserve active screen state
         localStorage.setItem("tac_revise_state_v1", JSON.stringify(STATE));
-        updateDashboardMetrics();
+        if (typeof updateDashboardMetrics === 'function') updateDashboardMetrics();
         console.log("Cloud sync complete!");
       } else {
         console.log("Local state is newer than cloud. Syncing local state to cloud...");
@@ -57,14 +60,17 @@ async function syncFromSupabase() {
 }
 
 async function syncToSupabase() {
-  if (typeof supabaseClientInstance === 'undefined' || !supabaseClientInstance) {
+  if (!window.supabaseClient) {
     return;
   }
   try {
-    const { error } = await supabaseClientInstance
+    const { data: { session } } = await window.supabaseClient.auth.getSession();
+    if (!session) return;
+    
+    const { error } = await window.supabaseClient
       .from('user_data')
       .upsert({ 
-        user_id: 'default_cadet', 
+        user_id: session.user.id, 
         state: STATE, 
         updated_at: new Date().toISOString() 
       }, { onConflict: 'user_id' });

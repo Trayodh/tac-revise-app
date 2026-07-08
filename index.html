@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>Defence Exams Revision Workspace (NDA, CDS, AFCAT)</title>
   <meta name="description" content="Tac-Revise — AI-powered revision platform for NDA, CDS, and AFCAT defence examinations.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>TAC</text></svg>">
@@ -507,6 +507,7 @@
           <button class="exam-btn" id="btn-ca-mode-visits" onclick="toggleCurrentAffairsMode('visits')">PM Visits & Bilateral Deals</button>
           <button class="exam-btn" id="btn-ca-mode-fta" onclick="toggleCurrentAffairsMode('fta')">Trade Deals & FTAs</button>
           <button class="exam-btn" id="btn-ca-mode-dates" onclick="toggleCurrentAffairsMode('dates')">Important Dates & Themes</button>
+          <button class="exam-btn" id="btn-ca-mode-awards" onclick="toggleCurrentAffairsMode('awards')">Awards & Honours</button>
         </div>
 
         <div id="ca-monthly-feed-container" class="ca-layout">
@@ -551,6 +552,17 @@
           </p>
           <div id="ca-dates-table-wrapper" style="overflow-x: auto;">
              <!-- Important dates and themes table -->
+          </div>
+        </div>
+
+        <!-- Standalone Awards & Honours Panel -->
+        <div id="ca-awards-container" style="display: none;" class="panel">
+          <div class="panel-title" id="ca-awards-panel-title">Awards & Honours (2026)</div>
+          <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.9rem;">
+            A consolidated tracker of major national and international awards, recipients, and their categories.
+          </p>
+          <div id="ca-awards-table-wrapper" style="overflow-x: auto;">
+             <!-- Awards table rendered dynamically -->
           </div>
         </div>
       </section>
@@ -1009,7 +1021,7 @@
     </div>
 
     <!-- Floating Canvas Scratchpad -->
-    <div id="cbt-scratchpad-container" style="display: none; position: absolute; top: 120px; right: 20px; width: 420px; height: 380px; background: rgba(10, 15, 10, 0.95); border: 2px solid var(--accent); border-radius: 8px; z-index: 100; box-shadow: 0 0 20px rgba(132, 204, 22, 0.4); flex-direction: column;">
+    <div id="cbt-scratchpad-container" style="display: none; position: absolute; top: 120px; right: 20px; width: 90vw; max-width: 420px; height: 380px; background: rgba(10, 15, 10, 0.95); border: 2px solid var(--accent); border-radius: 8px; z-index: 100; box-shadow: 0 0 20px rgba(132, 204, 22, 0.4); flex-direction: column;">
       <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; border-bottom: 1px solid var(--border); background: rgba(0,0,0,0.6);">
         <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent); font-weight: bold; letter-spacing: 0.5px;">TACTICAL SCRATCHPAD</span>
         <div style="display: flex; gap: 8px; align-items: center;">

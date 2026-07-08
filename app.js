@@ -244,6 +244,29 @@ function switchScreen(screenId) {
   }
 }
 
+window.tellMeMoreHistoryStack = [];
+
+window.initiateTellMeMore = function(contextData) {
+  // Save scroll position and screen
+  const mainScrollY = window.scrollY;
+  const currentScreenId = STATE.currentScreen;
+  
+  window.tellMeMoreHistoryStack.push({
+    screen: currentScreenId,
+    scrollY: mainScrollY,
+  });
+
+  // Navigate to AI Console
+  switchScreen('ai-console');
+
+  // Trigger AI context
+  if (typeof window.startTellMeMoreAI === 'function') {
+    setTimeout(() => window.startTellMeMoreAI(contextData), 100);
+  } else {
+    console.warn("startTellMeMoreAI function is not defined.");
+  }
+};
+
 // Bind Navigation Click Handlers
 document.querySelectorAll(".nav-item").forEach(item => {
   item.addEventListener("click", (e) => {
@@ -1441,7 +1464,7 @@ function renderCurrentMonthAffairs() {
     let contextBox = '';
     if (item.institutionalContext || item.strategicImportance) {
       contextBox = `
-        <div style="margin-top:10px; display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+        <div style="margin-top:10px; display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:8px;">
           ${item.institutionalContext ? `
           <div style="padding:9px 11px; background:rgba(${hexToRgb(topicColor)},0.07); border-radius:5px; border:1px solid rgba(${hexToRgb(topicColor)},0.18);">
             <div style="display:flex; align-items:center; gap:4px; font-size:0.65rem; font-weight:700; letter-spacing:0.8px; color:${topicColor}; margin-bottom:4px; text-transform:uppercase; font-family:var(--font-mono);">
@@ -1534,7 +1557,7 @@ function renderCurrentMonthAffairs() {
                 <div>${parseWikiLinks(item.backgroundContext)}</div>
               </div>
 
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 4px;">
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-top: 4px;">
                 <div>
                   <strong style="color: var(--accent); display: block; margin-bottom: 4px; font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">Key Stakeholders</strong>
                   <ul style="padding-left: 16px; margin: 0; list-style: square;">
@@ -3544,9 +3567,9 @@ function initCountdownTimer() {
   if (!selector || !display) return;
 
   const exams = {
-    afcat: { name: "AFCAT 2 2026", date: new Date("August 8, 2026 10:00:00").getTime() },
-    nda: { name: "NDA 2 2026", date: new Date("September 13, 2026 10:00:00").getTime() },
-    cds: { name: "CDS 2 2026", date: new Date("September 13, 2026 09:00:00").getTime() }
+    afcat: { name: "AFCAT 2 2026", date: new Date("2026-08-08T10:00:00").getTime() },
+    nda: { name: "NDA 2 2026", date: new Date("2026-09-13T10:00:00").getTime() },
+    cds: { name: "CDS 2 2026", date: new Date("2026-09-13T09:00:00").getTime() }
   };
 
   // Hide native select dropdown
@@ -3897,13 +3920,16 @@ function toggleCurrentAffairsMode(mode) {
   const visitsContainer  = document.getElementById("ca-visits-container");
   const ftaContainer     = document.getElementById("ca-fta-container");
   const datesContainer   = document.getElementById("ca-dates-container");
+  const awardsContainer  = document.getElementById("ca-awards-container");
+
   const btnMonthly = document.getElementById("btn-ca-mode-monthly");
   const btnVisits  = document.getElementById("btn-ca-mode-visits");
   const btnFta     = document.getElementById("btn-ca-mode-fta");
   const btnDates   = document.getElementById("btn-ca-mode-dates");
+  const btnAwards  = document.getElementById("btn-ca-mode-awards");
 
-  [monthlyContainer, visitsContainer, ftaContainer, datesContainer].forEach(el => { if (el) el.style.display = "none"; });
-  [btnMonthly, btnVisits, btnFta, btnDates].forEach(btn => { if (btn) btn.classList.remove("active"); });
+  [monthlyContainer, visitsContainer, ftaContainer, datesContainer, awardsContainer].forEach(el => { if (el) el.style.display = "none"; });
+  [btnMonthly, btnVisits, btnFta, btnDates, btnAwards].forEach(btn => { if (btn) btn.classList.remove("active"); });
 
   if (mode === "monthly") {
     if (monthlyContainer) monthlyContainer.style.display = "flex";
@@ -3920,6 +3946,10 @@ function toggleCurrentAffairsMode(mode) {
     if (datesContainer) datesContainer.style.display = "block";
     if (btnDates) btnDates.classList.add("active");
     renderCaDatesTable();
+  } else if (mode === "awards") {
+    if (awardsContainer) awardsContainer.style.display = "block";
+    if (btnAwards) btnAwards.classList.add("active");
+    renderCaAwardsTable();
   }
 }
 window.toggleCurrentAffairsMode = toggleCurrentAffairsMode;
@@ -3954,6 +3984,36 @@ function renderCaVisitsTable() {
     td(`<strong>${parseWikiLinks(v.visit)}</strong>`) +
     td(`<strong>${v.period}:</strong> ${parseWikiLinks(v.purpose)}`) +
     td(parseWikiLinks(v.deals)) +
+    `</tr>`
+  ).join("");
+
+  wrapper.innerHTML = `<table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.9rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
+}
+
+function renderCaAwardsTable() {
+  const wrapper = document.getElementById("ca-awards-table-wrapper");
+  if (!wrapper) return;
+
+  const awards = window.CA_AWARDS_DATA || [];
+
+  if (awards.length === 0) {
+    wrapper.innerHTML = `<p style="color: var(--text-secondary); padding: 20px;">No awards data loaded. Update CA_AWARDS_DATA in ca_data.js.</p>`;
+    return;
+  }
+
+  const th = (txt) => `<th style="padding:12px; border:1px solid var(--border); text-align: left;">${txt}</th>`;
+  const td = (txt) => `<td style="padding:10px; border:1px solid var(--border);">${txt}</td>`;
+  const headerRow = `<tr style="background-color: rgba(34,197,94,0.15); color: var(--accent); font-weight: bold; border-bottom: 2px solid var(--border);">` +
+    th("Award Name") + th("Category of Work") + th("Work Name") + th("Recipient") + th("Recipient's Country") + th("Giving Country") + `</tr>`;
+
+  const rows = awards.map(a =>
+    `<tr style="border-bottom: 1px solid var(--border);">` +
+    td(`<strong>${parseWikiLinks(a.awardName || "")}</strong>`) +
+    td(parseWikiLinks(a.categoryOfWork || "")) +
+    td(parseWikiLinks(a.workName || "")) +
+    td(`<strong>${parseWikiLinks(a.recipient || "")}</strong>`) +
+    td(parseWikiLinks(a.recipientCountry || "")) +
+    td(parseWikiLinks(a.givingCountry || "")) +
     `</tr>`
   ).join("");
 
@@ -4988,7 +5048,7 @@ function startVocabQuiz() {
           <span style="color: var(--accent); margin-right: 8px;">Q${idx+1}.</span> 
           What is the closest <strong style="color: ${q.type === 'synonym' ? 'var(--info)' : 'var(--danger)'}; text-transform: uppercase;">${q.type}</strong> of the word <em>"${q.word.toUpperCase()}"</em>?
         </div>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px;">
     `;
     
     q.options.forEach((opt, oIdx) => {
@@ -6511,7 +6571,7 @@ function loadMoreBankQuestions() {
         let optionsHtml = '<div class="bank-options">';
         (q.options || []).forEach((opt, idx) => {
             const isCorrect = idx === q.correct;
-            optionsHtml += `<div class="bank-opt" data-correct="${isCorrect}">${String.fromCharCode(65 + idx)}. ${opt}</div>`;
+            optionsHtml += `<div class="bank-opt" data-correct="${isCorrect}" onclick="handleBankOptionClick(this)">${String.fromCharCode(65 + idx)}. ${opt}</div>`;
         });
         optionsHtml += '</div>';
         
@@ -6544,7 +6604,7 @@ function loadMoreBankQuestions() {
 }
 
 function revealBankSolution(btn) {
-    const card = btn.parentElement;
+    const card = btn.closest('.bank-card');
     const solutionDiv = card.querySelector('.bank-solution');
     const opts = card.querySelectorAll('.bank-opt');
     
@@ -6563,6 +6623,43 @@ function revealBankSolution(btn) {
         solutionDiv.style.display = 'none';
         btn.innerText = 'Reveal Solution';
         opts.forEach(opt => opt.classList.remove('correct'));
+    }
+}
+
+function handleBankOptionClick(optElement) {
+    const container = optElement.closest('.bank-options');
+    if (container.classList.contains('answered')) return; // Already answered
+    
+    container.classList.add('answered'); // Prevent further clicks
+    
+    const isCorrect = optElement.getAttribute('data-correct') === 'true';
+    
+    if (isCorrect) {
+        optElement.classList.add('correct');
+    } else {
+        optElement.classList.add('incorrect');
+        // Find and highlight the correct option
+        const options = container.querySelectorAll('.bank-opt');
+        options.forEach(opt => {
+            if (opt.getAttribute('data-correct') === 'true') {
+                opt.classList.add('correct');
+            }
+        });
+    }
+    
+    // Disable hover effects after answered
+    const allOptions = container.querySelectorAll('.bank-opt');
+    allOptions.forEach(opt => {
+        opt.style.cursor = 'default';
+    });
+    
+    // Automatically reveal solution
+    const card = optElement.closest('.bank-card');
+    const solution = card.querySelector('.bank-solution');
+    const revealBtn = card.querySelector('.bank-reveal-btn');
+    if (solution && solution.style.display === 'none') {
+        solution.style.display = 'block';
+        if (revealBtn) revealBtn.innerText = 'Hide Solution';
     }
 }
 

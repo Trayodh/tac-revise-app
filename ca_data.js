@@ -42,82 +42,122 @@ window.CA_VISITS_DATA = [
     visit: "PM Modi's State Visit to Indonesia",
     period: "July 2026",
     purpose: "State visit at the invitation of President Prabowo Subianto.",
-    deals: "Reaffirmed the Comprehensive Strategic Partnership. Discussions focused on regional security, trade, and cultural ties, including a visit to the Prambanan Temple complex."
+    deals: "Reaffirmed the Comprehensive Strategic Partnership. Signed agreements on maritime security, defense (BrahMos and Astra missiles), critical minerals, technology, and food security. PM Modi was conferred with Indonesia's highest honor, the 'Bintang Adipurna'."
+  },
+  {
+    visit: "PM Modi to Australia",
+    period: "July 2026",
+    purpose: "Bilateral meeting with PM Anthony Albanese in Melbourne.",
+    deals: "Focused on strengthening the Comprehensive Strategic Partnership, defense, security, trade, investment, and emerging technologies."
+  },
+  {
+    visit: "PM Modi's State Visit to New Zealand",
+    period: "July 2026",
+    purpose: "State visit at the invitation of PM Christopher Luxon.",
+    deals: "First state visit by an Indian PM to New Zealand in four decades, focusing on enhancing bilateral relations and Indo-Pacific cooperation."
   },
   {
     visit: "Japanese PM Sanae Takaichi to India",
     period: "July 2026",
     purpose: "16th India-Japan Annual Summit.",
-    deals: "Signed multiple agreements enhancing defence and security cooperation, economic partnership (AI, semiconductors, green energy), and reaffirmed commitment to a Free and Open Indo-Pacific (FOIP)."
+    deals: "Focused on defense, security, and the 'Japan-India Cooperative Biogas for Growth Initiative'."
   },
   {
-    visit: "BEL Artillery Fuses Contract",
+    visit: "PM Modi's State Visit to Seychelles",
     period: "June 2026",
-    purpose: "Rs 5,336 crore deal for electronic fuses for artillery guns.",
-    deals: "Massive boost to Make in India and Atmanirbhar Bharat in defence manufacturing. Reduces import dependency for critical ammunition components.",
+    purpose: "State Visit.",
+    deals: "Strengthened maritime security and capacity building in the Indian Ocean region."
   },
   {
-    visit: "Indo-French Naval Exercise 'Varuna'",
+    visit: "PM Modi to France and Slovakia",
     period: "June 2026",
-    purpose: "21st edition bilateral exercise in the Arabian Sea.",
-    deals: "Focus on advanced anti-submarine warfare (ASW), air defence exercises, and interoperability to secure critical sea lanes in the Indian Ocean Region.",
+    purpose: "Bilateral Visits.",
+    deals: "Elevated bilateral relationship with Slovakia to a 'Comprehensive Partnership'. Strengthened strategic ties with France."
   },
   {
-    visit: "Akash-NG Missile Test",
-    period: "June 2026",
-    purpose: "Successful flight test by DRDO from ITR Odisha.",
-    deals: "Validates the next-generation surface-to-air missile with an active electronically scanned array (AESA) radar. Enhances Indian Air Force's intercept capabilities against agile aerial threats.",
-  },
-  {
-    visit: "Indo-US Joint Special Forces Exercise 'Vajra Prahar'",
-    period: "April 2026",
-    purpose: "15th edition bilateral exercise at Special Forces Training School (SFTS), Bakloh.",
-    deals: "Focused on counter-terrorism operations, cross-border infiltration tactics, and special helicopter-borne operations. Enhances strategic partnership in the Indo-Pacific.",
-  },
-  {
-    visit: "DefConnect 2026 & iDEX Expansion",
-    period: "April 2026",
-    purpose: "Ministry of Defence launch of ADITI scheme (Acing Development of Innovative Technologies with iDEX).",
-    deals: "Rs 750 crore allocated for startups to develop niche military technologies, including swarm drones, secure quantum communications, and AI-based surveillance.",
-  },
-  {
-    visit: "BrahMos Supersonic Cruise Missile Export to Philippines",
+    visit: "President of Myanmar to India",
     period: "May 2026",
-    purpose: "First batch of BrahMos missiles delivered to the Philippine Marine Corps.",
-    deals: "Historic $375 million deal marking India's biggest defence export. Boosts India's image as a reliable defence exporter and strengthens deterrence in the South China Sea.",
+    purpose: "Official Visit.",
+    deals: "Discussions on border security, connectivity projects, and bilateral cooperation."
   },
   {
-    visit: "Commissioning of INS Jatayu",
-    period: "May 2026",
-    purpose: "New naval base commissioned at Minicoy Island, Lakshadweep.",
-    deals: "Strategic base to monitor commercial shipping and secure sea lines of communication in the western Indian Ocean, countering the Maldives' shifting geopolitical stance.",
-  },
-
-  {
-    visit: "French President Emmanuel Macron to India",
-    period: "Jan 2026",
-    purpose: "Republic Day Chief Guest & Bilateral Summit.",
-    deals: "Defence Industrial Roadmap: Co-designing and co-production of military hardware (advanced helicopter and combat aircraft engines), space launch partnerships, and a new consulate in Marseille.",
-  },
-  {
-    visit: "PM Modi to Abu Dhabi, UAE",
+    visit: "PM Modi to Malaysia",
     period: "Feb 2026",
-    purpose: "Strategic Bilateral Summit & CEPA Review.",
-    deals: "Comprehensive Economic Partnership Agreement (CEPA) Review: Strengthening defence ties, joint naval exercises in the Arabian Sea, UPI expansion across UAE, and maritime security partnerships.",
-  },
-  {
-    visit: "PM Modi to Europe (Germany, Denmark, France)",
-    period: "Mid 2026",
-    purpose: "India-Nordic Summit & Key Bilaterals.",
-    deals: "Indo-Pacific Security & Defence Tech: Enhancing strategic autonomy, boosting Make in India in defence, and maritime cooperation in the Indian Ocean Region.",
-  },
-  {
-    visit: "PM Modi to France and Slovak Republic",
-    period: "June 2026",
-    purpose: "52nd G7 Summit (Outreach) & Slovakia First State Visit.",
-    deals: "Co-inauguration of the 'Bharat Innovates' event in Nice (tech partnerships); bilateral agreements in Bratislava on semiconductor supply chains, renewable energy, and cyber security.",
-  },
+    purpose: "Bilateral Visit.",
+    deals: "Strengthened Comprehensive Strategic Partnership with Prime Minister Anwar Ibrahim."
+  }
 ];
+
+// =============================================================================
+// SECTION: AWARDS & HONOURS
+// =============================================================================
+window.CA_AWARDS_DATA = [
+  {
+    awardName: "Padma Vibhushan",
+    categoryOfWork: "Art",
+    workName: "Contribution to Indian Cinema",
+    recipient: "Dharmendra Singh Deol (Posthumous)",
+    recipientCountry: "India",
+    givingCountry: "India"
+  },
+  {
+    awardName: "Padma Vibhushan",
+    categoryOfWork: "Public Affairs",
+    workName: "Distinguished Public Service",
+    recipient: "K.T. Thomas",
+    recipientCountry: "India",
+    givingCountry: "India"
+  },
+  {
+    awardName: "Padma Vibhushan",
+    categoryOfWork: "Art",
+    workName: "Contribution to Hindustani Classical Music",
+    recipient: "N. Rajam",
+    recipientCountry: "India",
+    givingCountry: "India"
+  },
+  {
+    awardName: "Padma Vibhushan",
+    categoryOfWork: "Public Affairs",
+    workName: "Distinguished Public Service",
+    recipient: "V.S. Achuthanandan (Posthumous)",
+    recipientCountry: "India",
+    givingCountry: "India"
+  },
+  {
+    awardName: "Bintang Adipurna",
+    categoryOfWork: "Diplomacy and Bilateral Relations",
+    workName: "Strengthening India-Indonesia ties",
+    recipient: "Narendra Modi",
+    recipientCountry: "India",
+    givingCountry: "Indonesia"
+  },
+  {
+    awardName: "UN Military Gender Advocate of the Year",
+    categoryOfWork: "Military Peacekeeping",
+    workName: "Advancing gender equality in UN operations",
+    recipient: "Major Abhilasha Barak",
+    recipientCountry: "India",
+    givingCountry: "United Nations"
+  },
+  {
+    awardName: "Dag Hammarskjöld Medal",
+    categoryOfWork: "Military Peacekeeping",
+    workName: "Supreme sacrifice in UN peacekeeping missions",
+    recipient: "Havildar Sanjay Singh & Constable Sushil Kumar Khadka",
+    recipientCountry: "India",
+    givingCountry: "United Nations"
+  },
+  {
+    awardName: "AIAA Goddard Astronautics Award",
+    categoryOfWork: "Space Exploration",
+    workName: "Chandrayaan-3 Mission",
+    recipient: "ISRO",
+    recipientCountry: "India",
+    givingCountry: "United States (AIAA)"
+  }
+];
+;
 
 // =============================================================================
 // SECTION B: TRADE DEALS & FREE TRADE AGREEMENTS (FTAs)

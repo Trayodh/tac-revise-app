@@ -420,4 +420,215 @@ function checkAiConsoleQuestion(qIdx, selectedIdx, correctIdx, btnElement) {
   explanationDiv.style.display = "block";
 }
 
-// ==========================================
+// ==========================================
+// TELL ME MORE AI FEATURE
+// ==========================================
+
+window.startTellMeMoreAI = async function(contextData) {
+    const area = document.getElementById("ai-result-area");
+    area.style.display = "block";
+    area.className = "ai-response-area loading";
+    
+    // Add Back Button and Header
+    const headerHtml = `
+      <div style="margin-bottom: 20px;">
+        <button onclick="handleTellMeMoreBack()" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--text-primary); padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; font-family: var(--font-mono); margin-bottom: 15px; transition: background 0.2s;">
+          &larr; Back to Reading
+        </button>
+        <div class="panel" style="margin-bottom:20px; border-left: 4px solid var(--accent); background: rgba(168, 85, 247, 0.05);">
+          <div style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Selected Text</div>
+          <blockquote style="margin: 0; font-size: 1rem; color: var(--text-primary); font-style: italic;">
+            "${contextData.selectedText}"
+          </blockquote>
+        </div>
+      </div>
+    `;
+    
+    area.innerHTML = headerHtml + `
+      <div class="panel">
+        <h3 style="font-family:var(--font-logo); color: var(--accent);"> AI Explanation: Tell Me More</h3>
+        <p style="font-size:0.9rem; color:var(--text-muted); margin-top:12px;"> AI is analyzing context and generating deep explanation...</p>
+      </div>
+    `;
+
+    const prompt = `Explain the following study material in detail.
+Selected Text:
+"${contextData.selectedText}"
+
+Context:
+- Page Name: ${contextData.pageName}
+- Chapter: ${contextData.chapter}
+- Topic: ${contextData.topic}
+- Subtopic: ${contextData.subtopic}
+- Section Heading: ${contextData.sectionHeading}
+- Previous Heading: ${contextData.previousHeading}
+- Next Heading: ${contextData.nextHeading}
+- Surrounding Paragraph: ${contextData.contextText}
+
+Your explanation should include:
+- Simple explanation
+- Deep explanation
+- Background knowledge
+- Why this is important
+- Real-life examples
+- Analogies
+- Mnemonics
+- Common mistakes
+- Exam relevance (JEE/NEET/CDS/AFCAT/etc. depending on subject)
+- Frequently asked questions
+- Connections with previous and upcoming topics
+- Related concepts
+- Advanced insights
+- Summary
+- Practice questions if appropriate
+
+If the selected text is incomplete or ambiguous, use the surrounding context to infer the intended meaning rather than explaining it in isolation. Make sure to wrap keywords in double square brackets like [[Keyword]] for recursive learning.`;
+
+    const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash"];
+    let replyText = "";
+    let success = false;
+  
+    for (const model of modelsToTry) {
+      try {
+        const response = await fetch('/api/gemini', {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ model: model, contents: [{ parts: [{text: prompt}] }] })
+        });
+        if (response.ok) {
+          const resData = await response.json();
+          if (resData.candidates && resData.candidates[0] && resData.candidates[0].content && resData.candidates[0].content.parts[0]) {
+            replyText = resData.candidates[0].content.parts[0].text;
+            success = true;
+            break;
+          }
+        }
+      } catch (err) {
+        console.error("Gemini API error:", err);
+      }
+    }
+
+    area.className = "ai-response-area";
+    
+    if (success) {
+      let formattedText = replyText
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+        .replace(/^#{1,3} (.+)$/gm, '<h4 style="color: var(--accent); margin:16px 0 8px;">$1</h4>')
+        .replace(/\n/g, '<br/>');
+
+      const toolbarHtml = getAiActionToolbarHtml();
+
+      area.innerHTML = headerHtml + `
+        <div class="panel" style="margin-bottom:20px;" id="ai-explanation-content">
+          <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border); padding-bottom:12px; margin-bottom:20px;">
+            <h3 style="font-family:var(--font-logo); color: var(--accent);"> AI Explanation</h3>
+            <span style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono)">POWERED BY GEMINI AI</span>
+          </div>
+          <div style="font-size:0.92rem; line-height:1.8; color:var(--text-primary);" id="ai-explanation-text">${parseWikiLinks(formattedText)}</div>
+          ${toolbarHtml}
+        </div>
+      `;
+      
+      // Store raw text for TTS and Copy
+      area.dataset.rawResponse = replyText;
+      area.dataset.contextDataStr = JSON.stringify(contextData);
+
+      if (window.MathJax && typeof window.MathJax.typeset === 'function') {
+        window.MathJax.typeset();
+      }
+    } else {
+      area.innerHTML = headerHtml + `
+        <div class="panel" style="border:1px solid #ef4444; background:rgba(239, 68, 68, 0.1);">
+          <h3 style="color:#ef4444;">Generation Failed</h3>
+          <p>Please try again later. The AI service may be temporarily unavailable.</p>
+        </div>
+      `;
+    }
+};
+
+window.handleTellMeMoreBack = function() {
+    const lastState = window.tellMeMoreHistoryStack.pop();
+    if (lastState) {
+        switchScreen(lastState.screen);
+        setTimeout(() => {
+            window.scrollTo({ top: lastState.scrollY, behavior: 'smooth' });
+        }, 50);
+    } else {
+        switchScreen('notes');
+    }
+};
+
+window.getAiActionToolbarHtml = function() {
+  return `
+    <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; padding-top: 15px; border-top: 1px dashed rgba(255,255,255,0.1);">
+      <button onclick="aiActionCopy()" class="exam-btn" style="padding: 6px 12px; font-size: 0.8rem; flex-grow: 1;">📋 Copy</button>
+      <button onclick="aiActionTTS()" class="exam-btn" style="padding: 6px 12px; font-size: 0.8rem; flex-grow: 1;">🔊 Listen</button>
+      <button onclick="aiActionSave()" class="exam-btn" style="padding: 6px 12px; font-size: 0.8rem; flex-grow: 1;">⭐ Save</button>
+      <button onclick="aiActionShare()" class="exam-btn" style="padding: 6px 12px; font-size: 0.8rem; flex-grow: 1;">📤 Share</button>
+      <button onclick="aiActionPDF()" class="exam-btn" style="padding: 6px 12px; font-size: 0.8rem; flex-grow: 1;">📄 Export PDF</button>
+      <button onclick="aiActionRegenerate()" class="exam-btn" style="padding: 6px 12px; font-size: 0.8rem; flex-grow: 1;">🔄 Regenerate</button>
+    </div>
+  `;
+};
+
+window.aiActionCopy = function() {
+  const area = document.getElementById("ai-result-area");
+  if (area && area.dataset.rawResponse) {
+    navigator.clipboard.writeText(area.dataset.rawResponse).then(() => alert('Copied to clipboard!'));
+  }
+};
+
+window.aiActionTTS = function() {
+  const area = document.getElementById("ai-result-area");
+  if (area && area.dataset.rawResponse) {
+    if (window.speechSynthesis.speaking) {
+      window.speechSynthesis.cancel();
+      return;
+    }
+    const utterance = new SpeechSynthesisUtterance(area.dataset.rawResponse);
+    window.speechSynthesis.speak(utterance);
+  }
+};
+
+window.aiActionSave = function() {
+  const area = document.getElementById("ai-result-area");
+  if (area && area.dataset.rawResponse) {
+    let saved = JSON.parse(localStorage.getItem('saved_explanations') || '[]');
+    saved.push({
+      date: new Date().toISOString(),
+      text: area.dataset.rawResponse,
+      context: area.dataset.contextDataStr
+    });
+    localStorage.setItem('saved_explanations', JSON.stringify(saved));
+    alert('Saved to Bookmarks!');
+  }
+};
+
+window.aiActionShare = function() {
+  const area = document.getElementById("ai-result-area");
+  if (area && area.dataset.rawResponse && navigator.share) {
+    navigator.share({
+      title: 'Ask Dronacharya Explanation',
+      text: area.dataset.rawResponse
+    }).catch(console.error);
+  } else {
+    window.aiActionCopy();
+  }
+};
+
+window.aiActionPDF = function() {
+  window.print(); // Simple PDF export via print dialog
+};
+
+window.aiActionRegenerate = function() {
+  const area = document.getElementById("ai-result-area");
+  if (area && area.dataset.contextDataStr) {
+    try {
+      const data = JSON.parse(area.dataset.contextDataStr);
+      window.startTellMeMoreAI(data);
+    } catch(e) {}
+  }
+};
+
