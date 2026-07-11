@@ -50,5 +50,18 @@
     ],
     "has_mcqs": true,
     "has_answers": true
+  },
+  {
+    "subject": "Physics",
+    "topic": "Physics Core & Optics",
+    "file_path": "output\\modules\\Physics\\01_Physics_Optics.md",
+    "start_page": 579,
+    "end_page": 611,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "extra_subjects_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
   }
 ]
