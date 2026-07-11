@@ -151,6 +151,14 @@
           <span style="display:block; font-size:0.6rem; font-weight:700; color:#f59e0b; letter-spacing:0.08em; margin-top:2px;">BETA</span>
         </a>
 
+        <a class="nav-item" data-screen="pathfinder-elite">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+          </svg>
+          Pathfinder Elite
+          <span style="display:block; font-size:0.6rem; font-weight:700; color:#ef4444; letter-spacing:0.08em; margin-top:2px;">NEW</span>
+        </a>
+
         <a class="nav-item" data-screen="ai-console">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 21l-.813-5.096L3 15l5.187-.813L9 9l.813 5.187L15 15l-5.187.813ZM18.25 5.25 18 8l-.25-2.75L15 5l2.75-.25L18 2l.25 2.75L21 5l-2.75.25ZM14.25 11.25l-.25 2.75-.25-2.75L11 11l2.75-.25.25-2.75.25 2.75L17 11l-2.75.25ZM14.25 11.25l-.25 2.75-.25-2.75L11 11l2.75-.25.25-2.75.25 2.75L17 11l-2.75.25Z" />
@@ -946,6 +954,20 @@
         </div>
       </section>
 
+      <!-- Pathfinder Elite Screen -->
+      <section id="pathfinder-elite-screen" class="screen" style="display: none;">
+        <header class="dashboard-header">
+          <div>
+            <h2>Pathfinder Elite Engine</h2>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">High-Yield Synthesis Modules & Mock Exams.</p>
+          </div>
+        </header>
+        <div id="elite-container" style="padding: 20px;">
+           <div id="elite-loading" style="display: none;">Initializing Elite Engine...</div>
+           <div id="elite-content"></div>
+        </div>
+      </section>
+
     </main>
   </div>
 
@@ -1504,6 +1526,7 @@
   
   <!-- TELL ME MORE TOOLTIP -->
   <div id="tell-me-more-tooltip" class="tell-me-more-tooltip">✨ Tell Me More</div>
+  <script src="elite_frontend.js"></script>
 </body>
 </html>
 

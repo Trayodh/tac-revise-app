@@ -13,6 +13,7 @@ const filesToCopy = [
   'index.html',
   'index.css',
   'app.js',
+  'elite_frontend.js',
   'notes_generated.js',
   'data.js',
   'english_vocab_db.js',

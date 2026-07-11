@@ -397,6 +397,8 @@ function switchScreen(screenId) {
     renderAiConsoleSuggestions();
   } else if (screenId === "vocab-builder") {
     renderVocabBuilder();
+  } else if (screenId === "pathfinder-elite") {
+    if (window.loadEliteDashboard) window.loadEliteDashboard();
   }
   updateBreadcrumbs();
 }
