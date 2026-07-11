@@ -1,0 +1,612 @@
+{
+  "subjects": {
+    "Mathematics": {
+      "topics": [
+        {
+          "id": "3_CDS_Solved_Paper_2020_II",
+          "title": "CDS Solved Paper 2020 II",
+          "start_page": 3,
+          "end_page": 39,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "40_CDS_Solved_Paper_2020_I",
+          "title": "CDS Solved Paper 2020 I",
+          "start_page": 40,
+          "end_page": 78,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "1_CDS_Solved_Paper_2019_II",
+          "title": "CDS Solved Paper 2019 II",
+          "start_page": 1,
+          "end_page": 40,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "41_CDS_Solved_Paper_2019_I",
+          "title": "CDS Solved Paper 2019 I",
+          "start_page": 41,
+          "end_page": 82,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "1_CDS_Solved_Paper_2018_II",
+          "title": "CDS Solved Paper 2018 II",
+          "start_page": 1,
+          "end_page": 37,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "3_Number_System",
+          "title": "Number System",
+          "start_page": 3,
+          "end_page": 19,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "20_Sequence_and_Series",
+          "title": "Sequence and Series",
+          "start_page": 20,
+          "end_page": 24,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "25_HCF_and_LCM_of_Numbers",
+          "title": "HCF and LCM of Numbers",
+          "start_page": 25,
+          "end_page": 31,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "32_Decimal_Fractions",
+          "title": "Decimal Fractions",
+          "start_page": 32,
+          "end_page": 37,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "38_Square_Roots_and_Cube_Roots",
+          "title": "Square Roots and Cube Roots",
+          "start_page": 38,
+          "end_page": 46,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "47_Time_and_Distance",
+          "title": "Time and Distance",
+          "start_page": 47,
+          "end_page": 59,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "60_Time_and_Work",
+          "title": "Time and Work",
+          "start_page": 60,
+          "end_page": 68,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "69_Percentage",
+          "title": "Percentage",
+          "start_page": 69,
+          "end_page": 76,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "77_Simple_Interest",
+          "title": "Simple Interest",
+          "start_page": 77,
+          "end_page": 82,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "83_Compound_Interest",
+          "title": "Compound Interest",
+          "start_page": 83,
+          "end_page": 91,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "92_Profit_and_Loss",
+          "title": "Profit and Loss",
+          "start_page": 92,
+          "end_page": 100,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "101_Ratio_and_Proportion",
+          "title": "Ratio and Proportion",
+          "start_page": 101,
+          "end_page": 112,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "113_Logarithm",
+          "title": "Logarithm",
+          "start_page": 113,
+          "end_page": 119,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "120_Algebraic_Operations",
+          "title": "Algebraic Operations",
+          "start_page": 120,
+          "end_page": 131,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "132_HCF_and_LCM_of_Polynomials",
+          "title": "HCF and LCM of Polynomials",
+          "start_page": 132,
+          "end_page": 138,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "139_Rational_Expressions",
+          "title": "Rational Expressions",
+          "start_page": 139,
+          "end_page": 143,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "144_Linear_Equations",
+          "title": "Linear Equations",
+          "start_page": 144,
+          "end_page": 159,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "160_Quadratic_Equations_and_Inequalities",
+          "title": "Quadratic Equations and Inequalities",
+          "start_page": 160,
+          "end_page": 182,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "183_Set_Theory",
+          "title": "Set Theory",
+          "start_page": 183,
+          "end_page": 193,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "194_Trigonometric_Ratios",
+          "title": "Trigonometric Ratios",
+          "start_page": 194,
+          "end_page": 224,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "225_Height_and_Distance",
+          "title": "Height and Distance",
+          "start_page": 225,
+          "end_page": 236,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "237_Lines_and_Angles",
+          "title": "Lines and Angles",
+          "start_page": 237,
+          "end_page": 247,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "248_Triangles",
+          "title": "Triangles",
+          "start_page": 248,
+          "end_page": 271,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "272_Quadrilateral_and_Polygon",
+          "title": "Quadrilateral and Polygon",
+          "start_page": 272,
+          "end_page": 286,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "287_Circle",
+          "title": "Circle",
+          "start_page": 287,
+          "end_page": 310,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "311_Area_and_Perimeter_of_Plane_figures",
+          "title": "Area and Perimeter of Plane figures",
+          "start_page": 311,
+          "end_page": 335,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "336_Surface_Area_and_Volume_of_solids",
+          "title": "Surface Area and Volume of solids",
+          "start_page": 336,
+          "end_page": 362,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        },
+        {
+          "id": "363_Statistics",
+          "title": "Statistics",
+          "start_page": 363,
+          "end_page": 384,
+          "enrichment_dir": "math_notes",
+          "enrichment_hint": "formulas"
+        }
+      ]
+    },
+    "General English": {
+      "topics": [
+        {
+          "id": "387_Spotting_the_Errors",
+          "title": "Spotting the Errors",
+          "start_page": 387,
+          "end_page": 434,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "grammar vocab"
+        },
+        {
+          "id": "435_Vocabulary",
+          "title": "Vocabulary",
+          "start_page": 435,
+          "end_page": 451,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "grammar vocab"
+        },
+        {
+          "id": "452_Synonyms",
+          "title": "Synonyms",
+          "start_page": 452,
+          "end_page": 462,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "grammar vocab"
+        },
+        {
+          "id": "463_Antonyms",
+          "title": "Antonyms",
+          "start_page": 463,
+          "end_page": 474,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "grammar vocab"
+        },
+        {
+          "id": "475_Idioms_and_Phrases",
+          "title": "Idioms and Phrases",
+          "start_page": 475,
+          "end_page": 482,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "grammar vocab"
+        },
+        {
+          "id": "483_Sentence_Completion",
+          "title": "Sentence Completion",
+          "start_page": 483,
+          "end_page": 499,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "grammar vocab"
+        },
+        {
+          "id": "500_Sentence_Improvement",
+          "title": "Sentence Improvement",
+          "start_page": 500,
+          "end_page": 514,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "grammar vocab"
+        },
+        {
+          "id": "515_Ordering_of_Words_and_Sentences",
+          "title": "Ordering of Words and Sentences",
+          "start_page": 515,
+          "end_page": 543,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "grammar vocab"
+        },
+        {
+          "id": "544_Comprehension",
+          "title": "Comprehension",
+          "start_page": 544,
+          "end_page": 576,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "grammar vocab"
+        }
+      ]
+    },
+    "General Science": {
+      "topics": [
+        {
+          "id": "579_Energy_and_Power",
+          "title": "Energy and Power",
+          "start_page": 579,
+          "end_page": 586,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "587_Rotational_Motion_and_Gravitation",
+          "title": "Rotational Motion and Gravitation",
+          "start_page": 587,
+          "end_page": 589,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "590_Properties_of_Matter",
+          "title": "Properties of Matter",
+          "start_page": 590,
+          "end_page": 592,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "593_Heat_and_Thermodynamics",
+          "title": "Heat and Thermodynamics",
+          "start_page": 593,
+          "end_page": 596,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "596_Oscillations_and_Waves",
+          "title": "Oscillations and Waves",
+          "start_page": 596,
+          "end_page": 599,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "600_Optics",
+          "title": "Optics",
+          "start_page": 600,
+          "end_page": 606,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "606_Electric_Current",
+          "title": "Electric Current",
+          "start_page": 606,
+          "end_page": 609,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "609_Modern_Physics",
+          "title": "Modern Physics",
+          "start_page": 609,
+          "end_page": 611,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "632_Matter",
+          "title": "Matter",
+          "start_page": 632,
+          "end_page": 634,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "634_Atomic_Structure",
+          "title": "Atomic Structure",
+          "start_page": 634,
+          "end_page": 636,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "636_Radioactivity",
+          "title": "Radioactivity",
+          "start_page": 636,
+          "end_page": 637,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "638_Chemical_Bonding_and_Redox_Reactions",
+          "title": "Chemical Bonding and Redox Reactions",
+          "start_page": 638,
+          "end_page": 640,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "640_Gas_Laws_and_Solutions",
+          "title": "Gas Laws and Solutions",
+          "start_page": 640,
+          "end_page": 641,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "642_Acids__Bases_and_Salts",
+          "title": "Acids, Bases and Salts",
+          "start_page": 642,
+          "end_page": 643,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "644_Surface_Chemistry",
+          "title": "Surface Chemistry",
+          "start_page": 644,
+          "end_page": 645,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "645_Electrochemistry",
+          "title": "Electrochemistry",
+          "start_page": 645,
+          "end_page": 647,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "647_Inorganic_Chemistry",
+          "title": "Inorganic Chemistry",
+          "start_page": 647,
+          "end_page": 654,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "654_Organic_Chemistry",
+          "title": "Organic Chemistry",
+          "start_page": 654,
+          "end_page": 656,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "656_Man_Made_Materials",
+          "title": "Man-Made Materials",
+          "start_page": 656,
+          "end_page": 658,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "658_Environment_and_its_Pollution",
+          "title": "Environment and its Pollution",
+          "start_page": 658,
+          "end_page": 659,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "682_Cell___The_Unit_of_Life",
+          "title": "Cell : The Unit of Life",
+          "start_page": 682,
+          "end_page": 686,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "686_Classification_of_Plants_and_Animals",
+          "title": "Classification of Plants and Animals",
+          "start_page": 686,
+          "end_page": 690,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "691_Evolution_of_Life",
+          "title": "Evolution of Life",
+          "start_page": 691,
+          "end_page": 697,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "697_Plant_Morphology_and_Physiology",
+          "title": "Plant Morphology and Physiology",
+          "start_page": 697,
+          "end_page": 704,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "704_Animal_Physiology",
+          "title": "Animal Physiology",
+          "start_page": 704,
+          "end_page": 723,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "723_Human_Health_and_Diseases",
+          "title": "Human Health and Diseases",
+          "start_page": 723,
+          "end_page": 726,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        },
+        {
+          "id": "726_Applied_Biology",
+          "title": "Applied Biology",
+          "start_page": 726,
+          "end_page": 731,
+          "enrichment_dir": "extra_subjects_notes",
+          "enrichment_hint": "science diagrams"
+        }
+      ]
+    },
+    "General Studies": {
+      "topics": [
+        {
+          "id": "753_History",
+          "title": "History",
+          "start_page": 753,
+          "end_page": 852,
+          "enrichment_dir": "gs_notes",
+          "enrichment_hint": "history geo polity eco maps"
+        },
+        {
+          "id": "853_Geography",
+          "title": "Geography",
+          "start_page": 853,
+          "end_page": 946,
+          "enrichment_dir": "gs_notes",
+          "enrichment_hint": "history geo polity eco maps"
+        },
+        {
+          "id": "947_Indian_Polity",
+          "title": "Indian Polity",
+          "start_page": 947,
+          "end_page": 1005,
+          "enrichment_dir": "gs_notes",
+          "enrichment_hint": "history geo polity eco maps"
+        },
+        {
+          "id": "1006_Indian_Economy",
+          "title": "Indian Economy",
+          "start_page": 1006,
+          "end_page": 1049,
+          "enrichment_dir": "gs_notes",
+          "enrichment_hint": "history geo polity eco maps"
+        },
+        {
+          "id": "1050_General_Knowledge",
+          "title": "General Knowledge",
+          "start_page": 1050,
+          "end_page": 1092,
+          "enrichment_dir": "gs_notes",
+          "enrichment_hint": "history geo polity eco maps"
+        }
+      ]
+    }
+  }
+}

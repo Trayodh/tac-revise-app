@@ -1048,6 +1048,12 @@ function renderTopicView(subjectId, chapterId, topicId) {
   const weightageText = generateWeightageText(subject, chapter);
   const breadcrumbs = `
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap;">
+      <span style="color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-sans); display: flex; align-items: center; gap: 6px;">
+        <span style="color: var(--text-secondary);">${subject.title}</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.5"><path d="m9 18 6-6-6-6"/></svg>
+        <span style="color: var(--text-secondary);">${chapter.title}</span>
+      </span>
+      <span style="margin: 0 4px; color: var(--border);">|</span>
       <span style="font-size: 0.75rem; font-family: var(--font-mono); font-weight: 700; color: var(--accent); border: 1px solid rgba(34, 197, 94, 0.3); padding: 4px 8px; border-radius: 6px; background: rgba(34, 197, 94, 0.08); text-transform: uppercase;">
         Weightage: ${weightageText}
       </span>
@@ -1172,13 +1178,6 @@ function renderTopicView(subjectId, chapterId, topicId) {
     </button>
   `;
 
-  //Focus Mode toggle button
-  const focusModeBtn = `
-    <button class="tactical-action-btn ${distractionFreeMode ? 'active' : ''}" onclick="toggleFocusReadingMode()">
-      <span>${distractionFreeMode ? 'Standard View' : 'Focus Mode'}</span>
-    </button>
-  `;
-  
   // Navigation footer
   const navFooterHtml = `
     <div class="topic-navigation-footer">
@@ -1204,7 +1203,6 @@ function renderTopicView(subjectId, chapterId, topicId) {
         </div>
         <div style="display:flex; align-items:center; gap:8px; flex-wrap: wrap;">
           ${lectureModeBtn}
-          ${focusModeBtn}
           ${completeToggleBtn}
         </div>
       </div>
