@@ -37,5 +37,18 @@
     ],
     "has_mcqs": true,
     "has_answers": true
+  },
+  {
+    "subject": "English",
+    "topic": "Comprehension",
+    "file_path": "output\\modules\\English\\09_Comprehension.md",
+    "start_page": 544,
+    "end_page": 576,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "extra_subjects_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
   }
 ]
