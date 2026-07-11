@@ -1045,11 +1045,10 @@ function renderTopicView(subjectId, chapterId, topicId) {
   const nextTopic = currentIdx < topicsList.length - 1 ? topicsList[currentIdx + 1] : null;
   
   // Render Breadcrumbs
-  const weightageText = getTopicWeightage(topic.id, subjectId);
+  const weightageText = generateWeightageText(subject, chapter);
   const breadcrumbs = `
-    <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-      <span style="color:var(--text-muted); font-size:0.8rem; font-family:var(--font-mono);">${subject.title} &gt; ${chapter.title}</span>
-      <span style="font-size: 0.7rem; font-family: var(--font-mono); font-weight: 700; color: var(--accent); border: 1px solid rgba(34, 197, 94, 0.3); padding: 1px 6px; border-radius: 4px; background: rgba(34, 197, 94, 0.08); text-transform: uppercase;">
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap;">
+      <span style="font-size: 0.75rem; font-family: var(--font-mono); font-weight: 700; color: var(--accent); border: 1px solid rgba(34, 197, 94, 0.3); padding: 4px 8px; border-radius: 6px; background: rgba(34, 197, 94, 0.08); text-transform: uppercase;">
         Weightage: ${weightageText}
       </span>
     </div>
@@ -1057,15 +1056,15 @@ function renderTopicView(subjectId, chapterId, topicId) {
   
   // Tab buttons
   const tabsHtml = `
-    <div class="topic-tab-bar">
-      <button class="tab-btn ${activeNotesTab === 'notes' ? 'active' : ''}" onclick="setNotesTab('notes')">
+    <div class="topic-tab-bar" style="display: flex; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 2px;">
+      <button class="tab-btn ${activeNotesTab === 'notes' ? 'active' : ''}" onclick="setNotesTab('notes')" style="white-space: nowrap;">
         Concept Notes
       </button>
-      <button class="tab-btn ${activeNotesTab === 'formulas' ? 'active' : ''}" onclick="setNotesTab('formulas')">
+      <button class="tab-btn ${activeNotesTab === 'formulas' ? 'active' : ''}" onclick="setNotesTab('formulas')" style="white-space: nowrap;">
         High-Yield Formulas
       </button>
       ${topic.mindmap ? `
-        <button class="tab-btn ${activeNotesTab === 'mindmap' ? 'active' : ''}" onclick="setNotesTab('mindmap')">
+        <button class="tab-btn ${activeNotesTab === 'mindmap' ? 'active' : ''}" onclick="setNotesTab('mindmap')" style="white-space: nowrap;">
           Concept Mindmap
         </button>
       ` : ''}
@@ -1198,12 +1197,12 @@ function renderTopicView(subjectId, chapterId, topicId) {
   
   viewerPane.innerHTML = `
     <div class="topic-viewer-card panel ${distractionFreeMode ? 'fullscreen-mode' : ''}">
-      <div class="topic-viewer-header">
-        <div style="display:flex; flex-direction:column; gap:4px; max-width: 60%; overflow: hidden;">
+      <div class="topic-viewer-header" style="flex-wrap: wrap; gap: 12px;">
+        <div style="display:flex; flex-direction:column; gap:4px; flex: 1; min-width: 0;">
           ${breadcrumbs}
-          <h2 style="font-family:var(--font-logo); font-size:1.4rem; letter-spacing:0.5px; color:#fff; text-shadow:0 0 10px rgba(255,255,255,0.05); white-space: nowrap; overflow: hidden; text-shadow: 0 0 8px rgba(34, 197, 94, 0.1);">${topic.title}</h2>
+          <h2 style="font-family:var(--font-logo); font-size:1.4rem; letter-spacing:0.5px; color:#fff; text-shadow:0 0 10px rgba(255,255,255,0.05); line-height: 1.3; margin: 0;">${topic.title}</h2>
         </div>
-        <div style="display:flex; align-items:center; gap:12px;">
+        <div style="display:flex; align-items:center; gap:8px; flex-wrap: wrap;">
           ${lectureModeBtn}
           ${focusModeBtn}
           ${completeToggleBtn}
