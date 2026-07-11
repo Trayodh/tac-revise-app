@@ -24,5 +24,18 @@
     ],
     "has_mcqs": true,
     "has_answers": true
+  },
+  {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "file_path": "output\\modules\\English\\02_Vocabulary.md",
+    "start_page": 435,
+    "end_page": 451,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "extra_subjects_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
   }
 ]
