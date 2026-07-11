@@ -11,5 +11,18 @@
     ],
     "has_mcqs": true,
     "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "CDS Solved Paper 2019 II",
+    "file_path": "output\\modules\\Mathematics\\1_CDS_Solved_Paper_2019_II.md",
+    "start_page": 1,
+    "end_page": 40,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
   }
 ]
