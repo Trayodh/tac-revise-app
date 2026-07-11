@@ -3,18 +3,17 @@ import json
 import fitz
 import time
 from dotenv import load_dotenv
-from google import genai
-from google.genai import types
+from groq import Groq
 from pydantic import BaseModel, Field
 from tenacity import retry, wait_exponential, stop_after_attempt
-from typing import List, Optional, Dict, Literal
+from typing import List, Optional, Literal
 
 # Load Environment Variables
 load_dotenv()
-api_key = os.environ.get("GEMINI_API_KEY")
+api_key = os.environ.get("GROQ_API_KEY")
 if not api_key:
-    raise ValueError("GEMINI_API_KEY environment variable not set.")
-client = genai.Client(api_key=api_key)
+    raise ValueError("GROQ_API_KEY environment variable not set.")
+client = Groq(api_key=api_key)
 
 # ---------------------------------------------------------------------------
 # SCHEMA DEFINITION
@@ -30,7 +29,7 @@ class BaseQuestion(BaseModel):
     question_text: str = Field(description="The text of the question.")
     options: Options = Field(description="The 4 options (A, B, C, D).")
     correct_option: Optional[str] = Field(description="The correct option letter (A, B, C, or D). Leave null if unknown.")
-    explanation: Optional[str] = Field(description="A brief explanation for why the answer is correct.")
+    explanation: Optional[str] = Field(description="A detailed step-by-step explanation for why the answer is correct. Explain the mathematical or logical reasoning clearly.")
 
 class StandaloneQuestion(BaseQuestion):
     type: Literal["standalone_question"] = "standalone_question"
@@ -54,26 +53,29 @@ CRITICAL RULES:
 1. Identify if a question is a "standalone_question" or part of a "passage_block". 
 2. A "passage_block" is used when multiple questions share the same context (e.g., Reading Comprehension, Data Interpretation, or shared directions). The shared text MUST go in `context_text`, and the related questions MUST go in `child_questions`.
 3. NEVER orphan a child question. If it refers to a passage, it must be inside a `passage_block`.
-4. Determine the correct answer if you can, and provide a short explanation. If you cannot, leave it null.
+4. Determine the correct answer if you can, and provide a detailed step-by-step explanation. If you cannot, leave it null.
 5. Extract the 4 options cleanly without prefixing them with A), B), etc. in the value itself.
 """
 
 @retry(wait=wait_exponential(multiplier=2, min=5, max=60), stop=stop_after_attempt(5))
 def parse_chunk_via_llm(raw_text: str) -> list:
-    """Passes raw text to Gemini and enforces the Pydantic schema."""
-    response = client.models.generate_content(
-        model='gemini-2.5-flash',
-        contents=f"Parse the following exam text:\n\n{raw_text}",
-        config=types.GenerateContentConfig(
-            system_instruction=SYSTEM_PROMPT,
-            temperature=0.1,
-            response_mime_type="application/json",
-            response_schema=QuestionChunk,
-        )
+    """Passes raw text to Groq and enforces the Pydantic schema."""
+    
+    schema_str = json.dumps(QuestionChunk.model_json_schema(), indent=2)
+    sys_prompt = f"{SYSTEM_PROMPT}\n\nOUTPUT FORMAT:\nYou must output valid JSON matching exactly this schema:\n{schema_str}"
+    
+    response = client.chat.completions.create(
+        model='llama-3.3-70b-versatile',
+        messages=[
+            {"role": "system", "content": sys_prompt},
+            {"role": "user", "content": f"Parse the following exam text into JSON:\n\n{raw_text}"}
+        ],
+        response_format={"type": "json_object"},
+        temperature=0.1,
     )
     
     # Parse the returned JSON text into a dict
-    data = json.loads(response.text)
+    data = json.loads(response.choices[0].message.content)
     return data.get("questions", [])
 
 def extract_raw_text(pdf_path: str) -> str:
@@ -102,74 +104,63 @@ def chunk_paper_by_sections(raw_text: str, chunk_size=3000) -> list:
 # ROUTING AND EXECUTION
 # ---------------------------------------------------------------------------
 
-def determine_output_file(pdf_name: str, folder_name: str) -> str:
-    """Routes the PDF to the correct JSON file based on its name and folder."""
+def determine_output_file(pdf_name: str) -> str:
+    """Routes the PDF to the correct JSON file based on its name."""
     pdf_lower = pdf_name.lower()
-    folder_lower = folder_name.lower()
     
-    if "nda" in folder_lower or "nda" in pdf_lower:
+    if "nda" in pdf_lower:
         if "math" in pdf_lower: return "nda_maths.json"
         else: return "nda_gat.json"
         
-    elif "cds" in folder_lower or "cds" in pdf_lower:
+    elif "cds" in pdf_lower:
         if "math" in pdf_lower: return "cds_maths.json"
         elif "english" in pdf_lower: return "cds_english.json"
         else: return "cds_gs.json"
         
-    elif "afcat" in folder_lower or "afcat" in pdf_lower:
+    elif "afcat" in pdf_lower:
         return "afcat.json"
         
     else:
         return "misc_papers.json"
 
-def process_exam_folder(target_folders: list):
+def process_root_pdfs():
     output_dir = "output/papers"
     os.makedirs(output_dir, exist_ok=True)
     
-    for folder in target_folders:
-        if not os.path.exists(folder):
-            print(f"Skipping {folder} (does not exist)")
-            continue
+    pdf_files = [f for f in os.listdir('.') if f.lower().endswith('.pdf')]
+    
+    for pdf_file in pdf_files:
+        out_filename = determine_output_file(pdf_file)
+        out_filepath = os.path.join(output_dir, out_filename)
+        
+        print(f"Processing {pdf_file} -> {out_filepath}")
+        
+        # Load existing data to prevent cross-contamination / overwrites
+        existing_data = {"exam_type": out_filename.split('_')[0].upper(), "questions": []}
+        if os.path.exists(out_filepath):
+            with open(out_filepath, 'r', encoding='utf-8') as f:
+                try:
+                    existing_data = json.load(f)
+                except json.JSONDecodeError:
+                    pass
+        
+        raw_text = extract_raw_text(pdf_file)
+        chunks = chunk_paper_by_sections(raw_text)
+        
+        for idx, chunk in enumerate(chunks):
+            print(f"  Parsing chunk {idx+1}/{len(chunks)} for {pdf_file}...")
+            try:
+                parsed_questions = parse_chunk_via_llm(chunk)
+                existing_data["questions"].extend(parsed_questions)
+                time.sleep(2) # Rate limit
+            except Exception as e:
+                print(f"  Error parsing chunk {idx+1}: {e}")
+                
+        # Save back to specific file
+        with open(out_filepath, 'w', encoding='utf-8') as f:
+            json.dump(existing_data, f, indent=2)
             
-        for root, _, files in os.walk(folder):
-            for file in files:
-                if not file.lower().endswith(".pdf"):
-                    continue
-                    
-                pdf_path = os.path.join(root, file)
-                out_filename = determine_output_file(file, folder)
-                out_filepath = os.path.join(output_dir, out_filename)
-                
-                print(f"Processing {pdf_path} -> {out_filepath}")
-                
-                # Load existing data to prevent cross-contamination / overwrites
-                existing_data = {"exam_type": out_filename.split('_')[0].upper(), "questions": []}
-                if os.path.exists(out_filepath):
-                    with open(out_filepath, 'r', encoding='utf-8') as f:
-                        try:
-                            existing_data = json.load(f)
-                        except json.JSONDecodeError:
-                            pass
-                
-                raw_text = extract_raw_text(pdf_path)
-                chunks = chunk_paper_by_sections(raw_text)
-                
-                for idx, chunk in enumerate(chunks):
-                    print(f"  Parsing chunk {idx+1}/{len(chunks)}...")
-                    try:
-                        parsed_questions = parse_chunk_via_llm(chunk)
-                        existing_data["questions"].extend(parsed_questions)
-                        time.sleep(2) # Rate limit
-                    except Exception as e:
-                        print(f"  Error parsing chunk {idx+1}: {e}")
-                        
-                # Save back to specific file
-                with open(out_filepath, 'w', encoding='utf-8') as f:
-                    json.dump(existing_data, f, indent=2)
-                    
-                print(f"Completed {pdf_path}. Saved to {out_filepath}")
+        print(f"Completed {pdf_file}. Saved to {out_filepath}")
 
 if __name__ == "__main__":
-    # Test on a specific folder
-    target_folders = ["NDA Papers", "CDS Papers", "AFCAT Papers", "PYQ Papers"]
-    process_exam_folder(target_folders)
+    process_root_pdfs()

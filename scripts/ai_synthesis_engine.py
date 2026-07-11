@@ -5,8 +5,7 @@ import time
 import subprocess
 import fitz  # PyMuPDF
 from dotenv import load_dotenv
-from google import genai
-from google.genai import types
+from groq import Groq
 from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type
 from prompts import SYSTEM_PROMPT, build_synthesis_prompt
 
@@ -19,10 +18,10 @@ PDF_PATH = "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf"
 
 # Initialize Gemini Client
 load_dotenv()
-api_key = os.environ.get("GEMINI_API_KEY")
+api_key = os.environ.get("GROQ_API_KEY")
 if not api_key:
-    raise ValueError("GEMINI_API_KEY environment variable not set.")
-client = genai.Client(api_key=api_key)
+    raise ValueError("GROQ_API_KEY environment variable not set.")
+client = Groq(api_key=api_key)
 
 def extract_pdf_pages(doc, start_page, end_page):
     """Extracts text from a 1-based page range."""
@@ -60,16 +59,16 @@ def find_enrichment_text(enrichment_dir, hint):
     return combined_text[:20000] if combined_text else "No specific external notes matched."
 
 @retry(wait=wait_exponential(multiplier=2, min=5, max=60), stop=stop_after_attempt(5))
-def call_gemini(prompt):
-    response = client.models.generate_content(
-        model='gemini-2.5-flash',
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            system_instruction=SYSTEM_PROMPT,
-            temperature=0.4,
-        )
+def call_groq(prompt):
+    response = client.chat.completions.create(
+        model='llama-3.3-70b-versatile',
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.4,
     )
-    return response.text
+    return response.choices[0].message.content
 
 def main():
     with open('scripts/taxonomy_map.json', 'r') as f:
@@ -115,7 +114,7 @@ def main():
             
             try:
                 # 3. AI Generation with Retry
-                output_text = call_gemini(prompt)
+                output_text = call_groq(prompt)
                 
                 # Write output markdown
                 with open(file_path, "w", encoding="utf-8") as out_f:

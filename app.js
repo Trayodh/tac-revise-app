@@ -6612,8 +6612,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const range = selection.getRangeAt(0);
         const rect = range.getBoundingClientRect();
         
-        tooltip.style.left = (rect.left + window.scrollX + (rect.width / 2)) + 'px';
-        tooltip.style.top = (rect.top + window.scrollY) + 'px';
+        // Use fixed positioning so scrolling doesn't detach the tooltip
+        tooltip.style.left = (rect.left + (rect.width / 2)) + 'px';
+        tooltip.style.top = (rect.top) + 'px';
         tooltip.style.display = 'block';
       } else {
         selectedText = "";
@@ -6627,6 +6628,14 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('keyup', (e) => {
     if (e.key === 'Escape') tooltip.style.display = 'none';
   });
+
+  window.addEventListener('scroll', () => {
+    if (tooltip.style.display === 'block') {
+      tooltip.style.display = 'none';
+      window.getSelection().removeAllRanges();
+      selectedText = "";
+    }
+  }, true);
 
   // Handle mousedown separately to prevent selection clearing if clicking the tooltip
   document.addEventListener('mousedown', (e) => {
