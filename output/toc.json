@@ -9,5 +9,8 @@
   ],
   "Physics": [
     "output\\modules\\Physics\\01_Physics_Optics.md"
+  ],
+  "Chemistry": [
+    "output\\modules\\Chemistry\\01_Chemistry_Core.md"
   ]
 }

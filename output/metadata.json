@@ -63,5 +63,18 @@
     ],
     "has_mcqs": true,
     "has_answers": true
+  },
+  {
+    "subject": "Chemistry",
+    "topic": "Chemistry Core",
+    "file_path": "output\\modules\\Chemistry\\01_Chemistry_Core.md",
+    "start_page": 632,
+    "end_page": 659,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "extra_subjects_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
   }
 ]
