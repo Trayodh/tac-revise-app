@@ -209,6 +209,18 @@ if (savedTheme) {
 // ==========================================
 // 7. SCREEN SWITCHER & NAVIGATION
 // ==========================================
+
+window.backToNotesSubjects = function() {
+  currentSubjectFilter = 'all';
+  const subjectsView = document.getElementById('notes-view-subjects');
+  const chaptersView = document.getElementById('notes-view-chapters');
+  const contentView = document.getElementById('notes-view-content');
+  if (subjectsView) subjectsView.style.display = 'block';
+  if (chaptersView) chaptersView.style.display = 'none';
+  if (contentView) contentView.style.display = 'none';
+  renderNotesBrowser();
+};
+
 function switchScreen(screenId) {
   if (typeof distractionFreeMode !== 'undefined' && distractionFreeMode) {
     toggleFocusReadingMode();
@@ -622,6 +634,9 @@ function getTopicExams(topicId, subjectId) {
 
 // -- Drill-Down View Logic for Notes --
 window.openNotesSubject = function(subjectId) {
+  if (STATE.currentScreen !== 'notes') {
+    switchScreen('notes');
+  }
   currentSubjectFilter = subjectId;
   const subjData = NOTES_DATABASE[subjectId];
   if (subjData) {
@@ -830,13 +845,21 @@ function renderNotesBrowser() {
     });
     
     // In drill-down mode, chapters should be open by default
-    content.style.maxHeight = "1000px";
-    header.classList.add("active");
+    if (Object.keys(NOTES_DATABASE).length === 1 || currentSubjectFilter !== 'all') {
+      header.classList.add("active");
+      accordionGroup.classList.add("open");
+      setTimeout(() => {
+        if (header.classList.contains("active")) {
+          content.style.maxHeight = Math.max(content.scrollHeight, 5000) + "px";
+        }
+      }, 50);
+    }
     
     header.addEventListener("click", () => {
-      header.classList.toggle("active");
-      if (header.classList.contains("active")) {
-        content.style.maxHeight = content.scrollHeight + "px";
+      const isActive = header.classList.toggle("active");
+      accordionGroup.classList.toggle("open", isActive);
+      if (isActive) {
+        content.style.maxHeight = Math.max(content.scrollHeight, 5000) + "px";
       } else {
         content.style.maxHeight = "0px";
       }
@@ -844,8 +867,8 @@ function renderNotesBrowser() {
     
     accordionGroup.appendChild(header);
     accordionGroup.appendChild(content);
+    
     accordionList.appendChild(accordionGroup);
-    accordionGroup.classList.add("open");
   }
 }
 

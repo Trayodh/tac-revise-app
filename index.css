@@ -665,6 +665,8 @@ h2 {
   display: none;
   padding-left: 8px;
   margin-top: 4px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
 }
 
 .accordion-group.open .accordion-content {

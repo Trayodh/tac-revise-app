@@ -1,17 +1,27 @@
 const puppeteer = require('puppeteer');
 
-(async () => {
-  const browser = await puppeteer.launch({ headless: 'new' });
+async function run() {
+  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
   const page = await browser.newPage();
   
-  page.on('console', msg => console.log('PAGE LOG:', msg.text()));
-  page.on('pageerror', error => console.log('PAGE ERROR:', error.message));
-  page.on('requestfailed', request => console.log('REQUEST FAILED:', request.url(), request.failure().errorText));
-
-  await page.goto('http://localhost:8080');
+  page.on('console', msg => console.log(`[CONSOLE] ${msg.text()}`));
+  page.on('pageerror', err => console.log(`[PAGE ERROR] ${err.toString()}`));
   
-  // Wait a bit to let scripts execute
-  await new Promise(r => setTimeout(r, 2000));
+  await page.goto('file:///' + __dirname.replace(/\\/g, '/') + '/index.html', { waitUntil: 'networkidle0' });
   
+  console.log("Page loaded. Clicking 'Notes'...");
+  await page.evaluate(() => {
+    switchScreen('notes');
+  });
+  
+  await new Promise(r => setTimeout(r, 1000));
+  console.log("Clicking 'Mathematics' subject...");
+  await page.evaluate(() => {
+    openNotesSubject('mathematics');
+  });
+  
+  await new Promise(r => setTimeout(r, 1000));
+  console.log("Test finished.");
   await browser.close();
-})();
+}
+run().catch(console.error);
