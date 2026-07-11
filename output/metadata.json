@@ -37,5 +37,18 @@
     ],
     "has_mcqs": true,
     "has_answers": true
+  },
+  {
+    "subject": "General Science",
+    "topic": "Properties of Matter",
+    "file_path": "output\\modules\\General Science\\590_Properties_of_Matter.md",
+    "start_page": 590,
+    "end_page": 592,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "extra_subjects_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
   }
 ]
