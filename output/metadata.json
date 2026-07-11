@@ -1,23 +1,10 @@
 [
   {
     "subject": "Mathematics",
-    "topic": "CDS Solved Paper 2020 II",
-    "file_path": "output\\modules\\Mathematics\\3_CDS_Solved_Paper_2020_II.md",
-    "start_page": 3,
-    "end_page": 39,
-    "derived_total_pages": 5,
-    "source_notes_ingested": [
-      "math_notes"
-    ],
-    "has_mcqs": true,
-    "has_answers": true
-  },
-  {
-    "subject": "Mathematics",
-    "topic": "CDS Solved Paper 2019 II",
-    "file_path": "output\\modules\\Mathematics\\1_CDS_Solved_Paper_2019_II.md",
-    "start_page": 1,
-    "end_page": 40,
+    "topic": "Sequence and Series",
+    "file_path": "output\\modules\\Mathematics\\20_Sequence_and_Series.md",
+    "start_page": 20,
+    "end_page": 24,
     "derived_total_pages": 5,
     "source_notes_ingested": [
       "math_notes"
