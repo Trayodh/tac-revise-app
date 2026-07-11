@@ -1,812 +1,812 @@
 [
-  {
-    "subject": "Mathematics",
-    "chapter": "Number System",
-    "file_path": "Pathfinder/01_Mathematics/number_system.pdf",
-    "start_page": 3,
-    "end_page": 19,
-    "total_pages": 17,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Sequence and Series",
-    "file_path": "Pathfinder/01_Mathematics/sequence_and_series.pdf",
-    "start_page": 20,
-    "end_page": 24,
-    "total_pages": 5,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "HCF and LCM of Numbers",
-    "file_path": "Pathfinder/01_Mathematics/hcf_and_lcm_of_numbers.pdf",
-    "start_page": 25,
-    "end_page": 31,
-    "total_pages": 7,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Decimal Fractions",
-    "file_path": "Pathfinder/01_Mathematics/decimal_fractions.pdf",
-    "start_page": 32,
-    "end_page": 37,
-    "total_pages": 6,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Square Roots and Cube Roots",
-    "file_path": "Pathfinder/01_Mathematics/square_roots_and_cube_roots.pdf",
-    "start_page": 38,
-    "end_page": 46,
-    "total_pages": 9,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Time and Distance",
-    "file_path": "Pathfinder/01_Mathematics/time_and_distance.pdf",
-    "start_page": 47,
-    "end_page": 59,
-    "total_pages": 13,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Time and Work",
-    "file_path": "Pathfinder/01_Mathematics/time_and_work.pdf",
-    "start_page": 60,
-    "end_page": 68,
-    "total_pages": 9,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Percentage",
-    "file_path": "Pathfinder/01_Mathematics/percentage.pdf",
-    "start_page": 69,
-    "end_page": 76,
-    "total_pages": 8,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Simple Interest",
-    "file_path": "Pathfinder/01_Mathematics/simple_interest.pdf",
-    "start_page": 77,
-    "end_page": 82,
-    "total_pages": 6,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Compound Interest",
-    "file_path": "Pathfinder/01_Mathematics/compound_interest.pdf",
-    "start_page": 83,
-    "end_page": 91,
-    "total_pages": 9,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Profit and Loss",
-    "file_path": "Pathfinder/01_Mathematics/profit_and_loss.pdf",
-    "start_page": 92,
-    "end_page": 100,
-    "total_pages": 9,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Ratio and Proportion",
-    "file_path": "Pathfinder/01_Mathematics/ratio_and_proportion.pdf",
-    "start_page": 101,
-    "end_page": 112,
-    "total_pages": 12,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Logarithm",
-    "file_path": "Pathfinder/01_Mathematics/logarithm.pdf",
-    "start_page": 113,
-    "end_page": 119,
-    "total_pages": 7,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Algebraic Operations",
-    "file_path": "Pathfinder/01_Mathematics/algebraic_operations.pdf",
-    "start_page": 120,
-    "end_page": 131,
-    "total_pages": 12,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "HCF and LCM of Polynomials",
-    "file_path": "Pathfinder/01_Mathematics/hcf_and_lcm_of_polynomials.pdf",
-    "start_page": 132,
-    "end_page": 138,
-    "total_pages": 7,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Rational Expressions",
-    "file_path": "Pathfinder/01_Mathematics/rational_expressions.pdf",
-    "start_page": 139,
-    "end_page": 143,
-    "total_pages": 5,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Linear Equations",
-    "file_path": "Pathfinder/01_Mathematics/linear_equations.pdf",
-    "start_page": 144,
-    "end_page": 159,
-    "total_pages": 16,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Quadratic Equations and Inequalities",
-    "file_path": "Pathfinder/01_Mathematics/quadratic_equations_and_inequalities.pdf",
-    "start_page": 160,
-    "end_page": 182,
-    "total_pages": 23,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Set Theory",
-    "file_path": "Pathfinder/01_Mathematics/set_theory.pdf",
-    "start_page": 183,
-    "end_page": 193,
-    "total_pages": 11,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Measurements of Angles and Trigonometric Ratios",
-    "file_path": "Pathfinder/01_Mathematics/measurements_of_angles_and_trigonometric_ratios.pdf",
-    "start_page": 194,
-    "end_page": 224,
-    "total_pages": 31,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Height and Distance",
-    "file_path": "Pathfinder/01_Mathematics/height_and_distance.pdf",
-    "start_page": 225,
-    "end_page": 236,
-    "total_pages": 12,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Lines and Angles",
-    "file_path": "Pathfinder/01_Mathematics/lines_and_angles.pdf",
-    "start_page": 237,
-    "end_page": 247,
-    "total_pages": 11,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Triangles",
-    "file_path": "Pathfinder/01_Mathematics/triangles.pdf",
-    "start_page": 248,
-    "end_page": 271,
-    "total_pages": 24,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Quadrilateral and Polygon",
-    "file_path": "Pathfinder/01_Mathematics/quadrilateral_and_polygon.pdf",
-    "start_page": 272,
-    "end_page": 286,
-    "total_pages": 15,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Circle",
-    "file_path": "Pathfinder/01_Mathematics/circle.pdf",
-    "start_page": 287,
-    "end_page": 310,
-    "total_pages": 24,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Area and Perimeter of Plane Figures",
-    "file_path": "Pathfinder/01_Mathematics/area_and_perimeter_of_plane_figures.pdf",
-    "start_page": 311,
-    "end_page": 335,
-    "total_pages": 25,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Surface Area and Volume of Solids",
-    "file_path": "Pathfinder/01_Mathematics/surface_area_and_volume_of_solids.pdf",
-    "start_page": 336,
-    "end_page": 362,
-    "total_pages": 27,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Mathematics",
-    "chapter": "Statistics",
-    "file_path": "Pathfinder/01_Mathematics/statistics.pdf",
-    "start_page": 363,
-    "end_page": 384,
-    "total_pages": 22,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "English",
-    "chapter": "Spotting the Errors",
-    "file_path": "Pathfinder/02_English/spotting_the_errors.pdf",
-    "start_page": 387,
-    "end_page": 434,
-    "total_pages": 48,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "English",
-    "chapter": "Vocabulary",
-    "file_path": "Pathfinder/02_English/vocabulary.pdf",
-    "start_page": 435,
-    "end_page": 451,
-    "total_pages": 17,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "English",
-    "chapter": "Synonyms",
-    "file_path": "Pathfinder/02_English/synonyms.pdf",
-    "start_page": 452,
-    "end_page": 462,
-    "total_pages": 11,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "English",
-    "chapter": "Antonyms",
-    "file_path": "Pathfinder/02_English/antonyms.pdf",
-    "start_page": 463,
-    "end_page": 474,
-    "total_pages": 12,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "English",
-    "chapter": "Idioms and Phrases",
-    "file_path": "Pathfinder/02_English/idioms_and_phrases.pdf",
-    "start_page": 475,
-    "end_page": 482,
-    "total_pages": 8,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "English",
-    "chapter": "Sentence Completion",
-    "file_path": "Pathfinder/02_English/sentence_completion.pdf",
-    "start_page": 483,
-    "end_page": 499,
-    "total_pages": 17,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "English",
-    "chapter": "Sentence Improvement",
-    "file_path": "Pathfinder/02_English/sentence_improvement.pdf",
-    "start_page": 500,
-    "end_page": 514,
-    "total_pages": 15,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "English",
-    "chapter": "Ordering of Words and Sentences",
-    "file_path": "Pathfinder/02_English/ordering_of_words_and_sentences.pdf",
-    "start_page": 515,
-    "end_page": 543,
-    "total_pages": 29,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "English",
-    "chapter": "Comprehension",
-    "file_path": "Pathfinder/02_English/comprehension.pdf",
-    "start_page": 544,
-    "end_page": 576,
-    "total_pages": 33,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Physics",
-    "chapter": "Measurement Motion Work Energy and Power",
-    "file_path": "Pathfinder/03_Physics/measurement_motion_work_energy_and_power.pdf",
-    "start_page": 579,
-    "end_page": 586,
-    "total_pages": 8,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Physics",
-    "chapter": "Rotational Motion and Gravitation",
-    "file_path": "Pathfinder/03_Physics/rotational_motion_and_gravitation.pdf",
-    "start_page": 587,
-    "end_page": 589,
-    "total_pages": 3,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Physics",
-    "chapter": "Properties of Matter",
-    "file_path": "Pathfinder/03_Physics/properties_of_matter.pdf",
-    "start_page": 590,
-    "end_page": 592,
-    "total_pages": 3,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Physics",
-    "chapter": "Heat and Thermodynamics",
-    "file_path": "Pathfinder/03_Physics/heat_and_thermodynamics.pdf",
-    "start_page": 593,
-    "end_page": 596,
-    "total_pages": 4,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Physics",
-    "chapter": "Oscillations and Waves",
-    "file_path": "Pathfinder/03_Physics/oscillations_and_waves.pdf",
-    "start_page": 596,
-    "end_page": 599,
-    "total_pages": 4,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Physics",
-    "chapter": "Optics",
-    "file_path": "Pathfinder/03_Physics/optics.pdf",
-    "start_page": 600,
-    "end_page": 606,
-    "total_pages": 7,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Physics",
-    "chapter": "Electric Current",
-    "file_path": "Pathfinder/03_Physics/electric_current.pdf",
-    "start_page": 606,
-    "end_page": 609,
-    "total_pages": 4,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Physics",
-    "chapter": "Modern Physics",
-    "file_path": "Pathfinder/03_Physics/modern_physics.pdf",
-    "start_page": 609,
-    "end_page": 611,
-    "total_pages": 3,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Physics",
-    "chapter": "Master Question Core",
-    "file_path": "Pathfinder/03_Physics/master_question_core.pdf",
-    "start_page": 612,
-    "end_page": 631,
-    "total_pages": 20,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Matter",
-    "file_path": "Pathfinder/04_Chemistry/matter.pdf",
-    "start_page": 632,
-    "end_page": 634,
-    "total_pages": 3,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Atomic Structure",
-    "file_path": "Pathfinder/04_Chemistry/atomic_structure.pdf",
-    "start_page": 634,
-    "end_page": 636,
-    "total_pages": 3,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Radioactivity",
-    "file_path": "Pathfinder/04_Chemistry/radioactivity.pdf",
-    "start_page": 636,
-    "end_page": 637,
-    "total_pages": 2,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Chemical Bonding and Redox Reactions",
-    "file_path": "Pathfinder/04_Chemistry/chemical_bonding_and_redox_reactions.pdf",
-    "start_page": 638,
-    "end_page": 640,
-    "total_pages": 3,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Gas Laws and Solutions",
-    "file_path": "Pathfinder/04_Chemistry/gas_laws_and_solutions.pdf",
-    "start_page": 640,
-    "end_page": 641,
-    "total_pages": 2,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Acids Bases and Salts",
-    "file_path": "Pathfinder/04_Chemistry/acids_bases_and_salts.pdf",
-    "start_page": 642,
-    "end_page": 643,
-    "total_pages": 2,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Chemical Thermodynamics and Surface Chemistry",
-    "file_path": "Pathfinder/04_Chemistry/chemical_thermodynamics_and_surface_chemistry.pdf",
-    "start_page": 644,
-    "end_page": 645,
-    "total_pages": 2,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Electrochemistry",
-    "file_path": "Pathfinder/04_Chemistry/electrochemistry.pdf",
-    "start_page": 645,
-    "end_page": 647,
-    "total_pages": 3,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Inorganic Chemistry",
-    "file_path": "Pathfinder/04_Chemistry/inorganic_chemistry.pdf",
-    "start_page": 647,
-    "end_page": 654,
-    "total_pages": 8,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Organic Chemistry",
-    "file_path": "Pathfinder/04_Chemistry/organic_chemistry.pdf",
-    "start_page": 654,
-    "end_page": 656,
-    "total_pages": 3,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Man Made Materials",
-    "file_path": "Pathfinder/04_Chemistry/man_made_materials.pdf",
-    "start_page": 656,
-    "end_page": 658,
-    "total_pages": 3,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Environment and its Pollution",
-    "file_path": "Pathfinder/04_Chemistry/environment_and_its_pollution.pdf",
-    "start_page": 658,
-    "end_page": 659,
-    "total_pages": 2,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Chemistry",
-    "chapter": "Master Question Core",
-    "file_path": "Pathfinder/04_Chemistry/master_question_core.pdf",
-    "start_page": 660,
-    "end_page": 681,
-    "total_pages": 22,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Biology",
-    "chapter": "Cell The Unit of Life",
-    "file_path": "Pathfinder/05_Biology/cell_the_unit_of_life.pdf",
-    "start_page": 682,
-    "end_page": 686,
-    "total_pages": 5,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Biology",
-    "chapter": "Classification of Plants and Animals",
-    "file_path": "Pathfinder/05_Biology/classification_of_plants_and_animals.pdf",
-    "start_page": 686,
-    "end_page": 690,
-    "total_pages": 5,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Biology",
-    "chapter": "Genetics and Molecular Biology and Evolution of Life",
-    "file_path": "Pathfinder/05_Biology/genetics_and_molecular_biology_and_evolution_of_life.pdf",
-    "start_page": 691,
-    "end_page": 697,
-    "total_pages": 7,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Biology",
-    "chapter": "Plant Morphology and Physiology",
-    "file_path": "Pathfinder/05_Biology/plant_morphology_and_physiology.pdf",
-    "start_page": 697,
-    "end_page": 704,
-    "total_pages": 8,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Biology",
-    "chapter": "Animal Physiology",
-    "file_path": "Pathfinder/05_Biology/animal_physiology.pdf",
-    "start_page": 704,
-    "end_page": 723,
-    "total_pages": 20,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Biology",
-    "chapter": "Human Health and Diseases",
-    "file_path": "Pathfinder/05_Biology/human_health_and_diseases.pdf",
-    "start_page": 723,
-    "end_page": 726,
-    "total_pages": 4,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Biology",
-    "chapter": "Applied Biology",
-    "file_path": "Pathfinder/05_Biology/applied_biology.pdf",
-    "start_page": 726,
-    "end_page": 731,
-    "total_pages": 6,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Biology",
-    "chapter": "Master Question Core",
-    "file_path": "Pathfinder/05_Biology/master_question_core.pdf",
-    "start_page": 732,
-    "end_page": 750,
-    "total_pages": 19,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "History",
-    "chapter": "Ancient India Core and MCQs",
-    "file_path": "Pathfinder/06_History/ancient_india_core_and_mcqs.pdf",
-    "start_page": 753,
-    "end_page": 774,
-    "total_pages": 22,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "History",
-    "chapter": "Medieval India Sultanate and MCQs",
-    "file_path": "Pathfinder/06_History/medieval_india_sultanate_and_mcqs.pdf",
-    "start_page": 775,
-    "end_page": 792,
-    "total_pages": 18,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "History",
-    "chapter": "Modern India National Movement and MCQs",
-    "file_path": "Pathfinder/06_History/modern_india_national_movement_and_mcqs.pdf",
-    "start_page": 793,
-    "end_page": 831,
-    "total_pages": 39,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "History",
-    "chapter": "World History and Revision MCQs",
-    "file_path": "Pathfinder/06_History/world_history_and_revision_mcqs.pdf",
-    "start_page": 832,
-    "end_page": 852,
-    "total_pages": 21,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Geography",
-    "chapter": "World Geography Cosmology and MCQs",
-    "file_path": "Pathfinder/07_Geography/world_geography_cosmology_and_mcqs.pdf",
-    "start_page": 853,
-    "end_page": 891,
-    "total_pages": 39,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Geography",
-    "chapter": "Indian Geography Resources and MCQs",
-    "file_path": "Pathfinder/07_Geography/indian_geography_resources_and_mcqs.pdf",
-    "start_page": 892,
-    "end_page": 929,
-    "total_pages": 38,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Geography",
-    "chapter": "Environmental Geography and MCQs",
-    "file_path": "Pathfinder/07_Geography/environmental_geography_and_mcqs.pdf",
-    "start_page": 930,
-    "end_page": 946,
-    "total_pages": 17,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Polity",
-    "chapter": "Constitutional Framework Rights and MCQs",
-    "file_path": "Pathfinder/08_Polity/constitutional_framework_rights_and_mcqs.pdf",
-    "start_page": 947,
-    "end_page": 971,
-    "total_pages": 25,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Polity",
-    "chapter": "Union Executive Judiciary and MCQs",
-    "file_path": "Pathfinder/08_Polity/union_executive_judiciary_and_mcqs.pdf",
-    "start_page": 972,
-    "end_page": 990,
-    "total_pages": 19,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Polity",
-    "chapter": "State Local Governance and Master MCQs",
-    "file_path": "Pathfinder/08_Polity/state_local_governance_and_master_mcqs.pdf",
-    "start_page": 991,
-    "end_page": 1005,
-    "total_pages": 15,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Economy",
-    "chapter": "Macroeconomics Five Year Plans and MCQs",
-    "file_path": "Pathfinder/09_Economy/macroeconomics_five_year_plans_and_mcqs.pdf",
-    "start_page": 1006,
-    "end_page": 1022,
-    "total_pages": 17,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Economy",
-    "chapter": "Banking Inflation Public Finance and MCQs",
-    "file_path": "Pathfinder/09_Economy/banking_inflation_public_finance_and_mcqs.pdf",
-    "start_page": 1023,
-    "end_page": 1038,
-    "total_pages": 16,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Economy",
-    "chapter": "Economic Sectors and Master Revision MCQs",
-    "file_path": "Pathfinder/09_Economy/economic_sectors_and_master_revision_mcqs.pdf",
-    "start_page": 1039,
-    "end_page": 1049,
-    "total_pages": 11,
-    "has_mcqs": true,
-    "has_answer_key": true
-  },
-  {
-    "subject": "Current_Affairs",
-    "chapter": "General Knowledge Static Review",
-    "file_path": "Pathfinder/10_Current_Affairs/general_knowledge_static_review.pdf",
-    "start_page": 1050,
-    "end_page": 1092,
-    "total_pages": 43,
-    "has_mcqs": true,
-    "has_answer_key": true
-  }
+    {
+        "subject": "Mathematics",
+        "topic_name": "Number System",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Number_System.md",
+        "start_page": 3,
+        "end_page": 19,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Number_System.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Sequence and Series",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Sequence_and_Series.md",
+        "start_page": 20,
+        "end_page": 24,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Sequence_and_Series.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "HCF and LCM of Numbers",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\HCF_and_LCM_of_Numbers.md",
+        "start_page": 25,
+        "end_page": 31,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "HCF_and_LCM_of_Numbers.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Decimal Fractions",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Decimal_Fractions.md",
+        "start_page": 32,
+        "end_page": 37,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Decimal_Fractions.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Square Roots and Cube Roots",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Square_Roots_and_Cube_Roots.md",
+        "start_page": 38,
+        "end_page": 46,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Square_Roots_and_Cube_Roots.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Time and Distance",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Time_and_Distance.md",
+        "start_page": 47,
+        "end_page": 59,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Time_and_Distance.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Time and Work",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Time_and_Work.md",
+        "start_page": 60,
+        "end_page": 68,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Time_and_Work.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Percentage",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Percentage.md",
+        "start_page": 69,
+        "end_page": 76,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Percentage.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Simple Interest",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Simple_Interest.md",
+        "start_page": 77,
+        "end_page": 82,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Simple_Interest.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Compound Interest",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Compound_Interest.md",
+        "start_page": 83,
+        "end_page": 91,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Compound_Interest.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Profit and Loss",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Profit_and_Loss.md",
+        "start_page": 92,
+        "end_page": 100,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Profit_and_Loss.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Ratio and Proportion",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Ratio_and_Proportion.md",
+        "start_page": 101,
+        "end_page": 112,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Ratio_and_Proportion.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Logarithm",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Logarithm.md",
+        "start_page": 113,
+        "end_page": 119,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Logarithm.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Algebraic Operations",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Algebraic_Operations.md",
+        "start_page": 120,
+        "end_page": 131,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Algebraic_Operations.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "HCF and LCM of Polynomials",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\HCF_and_LCM_of_Polynomials.md",
+        "start_page": 132,
+        "end_page": 138,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "HCF_and_LCM_of_Polynomials.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Rational Expressions",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Rational_Expressions.md",
+        "start_page": 139,
+        "end_page": 143,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Rational_Expressions.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Linear Equations",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Linear_Equations.md",
+        "start_page": 144,
+        "end_page": 159,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Linear_Equations.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Quadratic Equations and Inequalities",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Quadratic_Equations_and_Inequalities.md",
+        "start_page": 160,
+        "end_page": 182,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Quadratic_Equations_and_Inequalities.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Set Theory",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Set_Theory.md",
+        "start_page": 183,
+        "end_page": 193,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Set_Theory.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Measurements of Angles and Trigonometric Ratios",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Measurements_of_Angles_and_Trigonometric_Ratios.md",
+        "start_page": 194,
+        "end_page": 224,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Measurements_of_Angles_and_Trigonometric_Ratios.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Height and Distance",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Height_and_Distance.md",
+        "start_page": 225,
+        "end_page": 236,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Height_and_Distance.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Lines and Angles",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Lines_and_Angles.md",
+        "start_page": 237,
+        "end_page": 247,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Lines_and_Angles.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Triangles",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Triangles.md",
+        "start_page": 248,
+        "end_page": 271,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Triangles.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Quadrilateral and Polygon",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Quadrilateral_and_Polygon.md",
+        "start_page": 272,
+        "end_page": 286,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Quadrilateral_and_Polygon.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Circle",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Circle.md",
+        "start_page": 287,
+        "end_page": 310,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Circle.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Area and Perimeter of Plane Figures",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Area_and_Perimeter_of_Plane_Figures.md",
+        "start_page": 311,
+        "end_page": 335,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Area_and_Perimeter_of_Plane_Figures.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Surface Area and Volume of Solids",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Surface_Area_and_Volume_of_Solids.md",
+        "start_page": 336,
+        "end_page": 362,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Surface_Area_and_Volume_of_Solids.md"
+    },
+    {
+        "subject": "Mathematics",
+        "topic_name": "Statistics",
+        "file_path": "Pathfinder_Elite/modules\\Mathematics\\Statistics.md",
+        "start_page": 363,
+        "end_page": 384,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Statistics.md"
+    },
+    {
+        "subject": "English",
+        "topic_name": "Spotting the Errors",
+        "file_path": "Pathfinder_Elite/modules\\English\\Spotting_the_Errors.md",
+        "start_page": 387,
+        "end_page": 434,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Spotting_the_Errors.md"
+    },
+    {
+        "subject": "English",
+        "topic_name": "Vocabulary",
+        "file_path": "Pathfinder_Elite/modules\\English\\Vocabulary.md",
+        "start_page": 435,
+        "end_page": 451,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Vocabulary.md"
+    },
+    {
+        "subject": "English",
+        "topic_name": "Synonyms",
+        "file_path": "Pathfinder_Elite/modules\\English\\Synonyms.md",
+        "start_page": 452,
+        "end_page": 462,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Synonyms.md"
+    },
+    {
+        "subject": "English",
+        "topic_name": "Antonyms",
+        "file_path": "Pathfinder_Elite/modules\\English\\Antonyms.md",
+        "start_page": 463,
+        "end_page": 474,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Antonyms.md"
+    },
+    {
+        "subject": "English",
+        "topic_name": "Idioms and Phrases",
+        "file_path": "Pathfinder_Elite/modules\\English\\Idioms_and_Phrases.md",
+        "start_page": 475,
+        "end_page": 482,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Idioms_and_Phrases.md"
+    },
+    {
+        "subject": "English",
+        "topic_name": "Sentence Completion",
+        "file_path": "Pathfinder_Elite/modules\\English\\Sentence_Completion.md",
+        "start_page": 483,
+        "end_page": 499,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Sentence_Completion.md"
+    },
+    {
+        "subject": "English",
+        "topic_name": "Sentence Improvement",
+        "file_path": "Pathfinder_Elite/modules\\English\\Sentence_Improvement.md",
+        "start_page": 500,
+        "end_page": 514,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Sentence_Improvement.md"
+    },
+    {
+        "subject": "English",
+        "topic_name": "Ordering of Words and Sentences",
+        "file_path": "Pathfinder_Elite/modules\\English\\Ordering_of_Words_and_Sentences.md",
+        "start_page": 515,
+        "end_page": 543,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Ordering_of_Words_and_Sentences.md"
+    },
+    {
+        "subject": "English",
+        "topic_name": "Comprehension",
+        "file_path": "Pathfinder_Elite/modules\\English\\Comprehension.md",
+        "start_page": 544,
+        "end_page": 576,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Comprehension.md"
+    },
+    {
+        "subject": "Physics",
+        "topic_name": "Measurement Motion Work Energy and Power",
+        "file_path": "Pathfinder_Elite/modules\\Physics\\Measurement_Motion_Work_Energy_and_Power.md",
+        "start_page": 579,
+        "end_page": 586,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Measurement_Motion_Work_Energy_and_Power.md"
+    },
+    {
+        "subject": "Physics",
+        "topic_name": "Rotational Motion and Gravitation",
+        "file_path": "Pathfinder_Elite/modules\\Physics\\Rotational_Motion_and_Gravitation.md",
+        "start_page": 587,
+        "end_page": 589,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Rotational_Motion_and_Gravitation.md"
+    },
+    {
+        "subject": "Physics",
+        "topic_name": "Properties of Matter",
+        "file_path": "Pathfinder_Elite/modules\\Physics\\Properties_of_Matter.md",
+        "start_page": 590,
+        "end_page": 592,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Properties_of_Matter.md"
+    },
+    {
+        "subject": "Physics",
+        "topic_name": "Heat and Thermodynamics",
+        "file_path": "Pathfinder_Elite/modules\\Physics\\Heat_and_Thermodynamics.md",
+        "start_page": 593,
+        "end_page": 596,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Heat_and_Thermodynamics.md"
+    },
+    {
+        "subject": "Physics",
+        "topic_name": "Oscillations and Waves",
+        "file_path": "Pathfinder_Elite/modules\\Physics\\Oscillations_and_Waves.md",
+        "start_page": 596,
+        "end_page": 599,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Oscillations_and_Waves.md"
+    },
+    {
+        "subject": "Physics",
+        "topic_name": "Optics",
+        "file_path": "Pathfinder_Elite/modules\\Physics\\Optics.md",
+        "start_page": 600,
+        "end_page": 606,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Optics.md"
+    },
+    {
+        "subject": "Physics",
+        "topic_name": "Electric Current",
+        "file_path": "Pathfinder_Elite/modules\\Physics\\Electric_Current.md",
+        "start_page": 606,
+        "end_page": 609,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Electric_Current.md"
+    },
+    {
+        "subject": "Physics",
+        "topic_name": "Modern Physics",
+        "file_path": "Pathfinder_Elite/modules\\Physics\\Modern_Physics.md",
+        "start_page": 609,
+        "end_page": 611,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Modern_Physics.md"
+    },
+    {
+        "subject": "Physics",
+        "topic_name": "Master Question Core",
+        "file_path": "Pathfinder_Elite/modules\\Physics\\Master_Question_Core.md",
+        "start_page": 612,
+        "end_page": 631,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Master_Question_Core.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Matter",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Matter.md",
+        "start_page": 632,
+        "end_page": 634,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Matter.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Atomic Structure",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Atomic_Structure.md",
+        "start_page": 634,
+        "end_page": 636,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Atomic_Structure.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Radioactivity",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Radioactivity.md",
+        "start_page": 636,
+        "end_page": 637,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Radioactivity.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Chemical Bonding and Redox Reactions",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Chemical_Bonding_and_Redox_Reactions.md",
+        "start_page": 638,
+        "end_page": 640,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Chemical_Bonding_and_Redox_Reactions.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Gas Laws and Solutions",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Gas_Laws_and_Solutions.md",
+        "start_page": 640,
+        "end_page": 641,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Gas_Laws_and_Solutions.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Acids Bases and Salts",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Acids_Bases_and_Salts.md",
+        "start_page": 642,
+        "end_page": 643,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Acids_Bases_and_Salts.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Chemical Thermodynamics and Surface Chemistry",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Chemical_Thermodynamics_and_Surface_Chemistry.md",
+        "start_page": 644,
+        "end_page": 645,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Chemical_Thermodynamics_and_Surface_Chemistry.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Electrochemistry",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Electrochemistry.md",
+        "start_page": 645,
+        "end_page": 647,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Electrochemistry.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Inorganic Chemistry",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Inorganic_Chemistry.md",
+        "start_page": 647,
+        "end_page": 654,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Inorganic_Chemistry.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Organic Chemistry",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Organic_Chemistry.md",
+        "start_page": 654,
+        "end_page": 656,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Organic_Chemistry.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Man Made Materials",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Man_Made_Materials.md",
+        "start_page": 656,
+        "end_page": 658,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Man_Made_Materials.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Environment and its Pollution",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Environment_and_its_Pollution.md",
+        "start_page": 658,
+        "end_page": 659,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Environment_and_its_Pollution.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Master Question Core",
+        "file_path": "Pathfinder_Elite/modules\\Chemistry\\Master_Question_Core.md",
+        "start_page": 660,
+        "end_page": 681,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Master_Question_Core.md"
+    },
+    {
+        "subject": "Biology",
+        "topic_name": "Cell The Unit of Life",
+        "file_path": "Pathfinder_Elite/modules\\Biology\\Cell_The_Unit_of_Life.md",
+        "start_page": 682,
+        "end_page": 686,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Cell_The_Unit_of_Life.md"
+    },
+    {
+        "subject": "Biology",
+        "topic_name": "Classification of Plants and Animals",
+        "file_path": "Pathfinder_Elite/modules\\Biology\\Classification_of_Plants_and_Animals.md",
+        "start_page": 686,
+        "end_page": 690,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Classification_of_Plants_and_Animals.md"
+    },
+    {
+        "subject": "Biology",
+        "topic_name": "Genetics and Molecular Biology and Evolution of Life",
+        "file_path": "Pathfinder_Elite/modules\\Biology\\Genetics_and_Molecular_Biology_and_Evolution_of_Life.md",
+        "start_page": 691,
+        "end_page": 697,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Genetics_and_Molecular_Biology_and_Evolution_of_Life.md"
+    },
+    {
+        "subject": "Biology",
+        "topic_name": "Plant Morphology and Physiology",
+        "file_path": "Pathfinder_Elite/modules\\Biology\\Plant_Morphology_and_Physiology.md",
+        "start_page": 697,
+        "end_page": 704,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Plant_Morphology_and_Physiology.md"
+    },
+    {
+        "subject": "Biology",
+        "topic_name": "Animal Physiology",
+        "file_path": "Pathfinder_Elite/modules\\Biology\\Animal_Physiology.md",
+        "start_page": 704,
+        "end_page": 723,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Animal_Physiology.md"
+    },
+    {
+        "subject": "Biology",
+        "topic_name": "Human Health and Diseases",
+        "file_path": "Pathfinder_Elite/modules\\Biology\\Human_Health_and_Diseases.md",
+        "start_page": 723,
+        "end_page": 726,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Human_Health_and_Diseases.md"
+    },
+    {
+        "subject": "Biology",
+        "topic_name": "Applied Biology",
+        "file_path": "Pathfinder_Elite/modules\\Biology\\Applied_Biology.md",
+        "start_page": 726,
+        "end_page": 731,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Applied_Biology.md"
+    },
+    {
+        "subject": "Biology",
+        "topic_name": "Master Question Core",
+        "file_path": "Pathfinder_Elite/modules\\Biology\\Master_Question_Core.md",
+        "start_page": 732,
+        "end_page": 750,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Master_Question_Core.md"
+    },
+    {
+        "subject": "History",
+        "topic_name": "Ancient India Core and MCQs",
+        "file_path": "Pathfinder_Elite/modules\\History\\Ancient_India_Core_and_MCQs.md",
+        "start_page": 753,
+        "end_page": 774,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Ancient_India_Core_and_MCQs.md"
+    },
+    {
+        "subject": "History",
+        "topic_name": "Medieval India Sultanate and MCQs",
+        "file_path": "Pathfinder_Elite/modules\\History\\Medieval_India_Sultanate_and_MCQs.md",
+        "start_page": 775,
+        "end_page": 792,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Medieval_India_Sultanate_and_MCQs.md"
+    },
+    {
+        "subject": "History",
+        "topic_name": "Modern India National Movement and MCQs",
+        "file_path": "Pathfinder_Elite/modules\\History\\Modern_India_National_Movement_and_MCQs.md",
+        "start_page": 793,
+        "end_page": 831,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Modern_India_National_Movement_and_MCQs.md"
+    },
+    {
+        "subject": "History",
+        "topic_name": "World History and Revision MCQs",
+        "file_path": "Pathfinder_Elite/modules\\History\\World_History_and_Revision_MCQs.md",
+        "start_page": 832,
+        "end_page": 852,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "World_History_and_Revision_MCQs.md"
+    },
+    {
+        "subject": "Geography",
+        "topic_name": "World Geography Cosmology and MCQs",
+        "file_path": "Pathfinder_Elite/modules\\Geography\\World_Geography_Cosmology_and_MCQs.md",
+        "start_page": 853,
+        "end_page": 891,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "World_Geography_Cosmology_and_MCQs.md"
+    },
+    {
+        "subject": "Geography",
+        "topic_name": "Indian Geography Resources and MCQs",
+        "file_path": "Pathfinder_Elite/modules\\Geography\\Indian_Geography_Resources_and_MCQs.md",
+        "start_page": 892,
+        "end_page": 929,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Indian_Geography_Resources_and_MCQs.md"
+    },
+    {
+        "subject": "Geography",
+        "topic_name": "Environmental Geography and MCQs",
+        "file_path": "Pathfinder_Elite/modules\\Geography\\Environmental_Geography_and_MCQs.md",
+        "start_page": 930,
+        "end_page": 946,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Environmental_Geography_and_MCQs.md"
+    },
+    {
+        "subject": "Polity",
+        "topic_name": "Constitutional Framework Rights and MCQs",
+        "file_path": "Pathfinder_Elite/modules\\Polity\\Constitutional_Framework_Rights_and_MCQs.md",
+        "start_page": 947,
+        "end_page": 971,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Constitutional_Framework_Rights_and_MCQs.md"
+    },
+    {
+        "subject": "Polity",
+        "topic_name": "Union Executive Judiciary and MCQs",
+        "file_path": "Pathfinder_Elite/modules\\Polity\\Union_Executive_Judiciary_and_MCQs.md",
+        "start_page": 972,
+        "end_page": 990,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Union_Executive_Judiciary_and_MCQs.md"
+    },
+    {
+        "subject": "Polity",
+        "topic_name": "State Local Governance and Master MCQs",
+        "file_path": "Pathfinder_Elite/modules\\Polity\\State_Local_Governance_and_Master_MCQs.md",
+        "start_page": 991,
+        "end_page": 1005,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "State_Local_Governance_and_Master_MCQs.md"
+    },
+    {
+        "subject": "Economy",
+        "topic_name": "Macroeconomics Five Year Plans and MCQs",
+        "file_path": "Pathfinder_Elite/modules\\Economy\\Macroeconomics_Five_Year_Plans_and_MCQs.md",
+        "start_page": 1006,
+        "end_page": 1022,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Macroeconomics_Five_Year_Plans_and_MCQs.md"
+    },
+    {
+        "subject": "Economy",
+        "topic_name": "Banking Inflation Public Finance and MCQs",
+        "file_path": "Pathfinder_Elite/modules\\Economy\\Banking_Inflation_Public_Finance_and_MCQs.md",
+        "start_page": 1023,
+        "end_page": 1038,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Banking_Inflation_Public_Finance_and_MCQs.md"
+    },
+    {
+        "subject": "Economy",
+        "topic_name": "Economic Sectors and Master Revision MCQs",
+        "file_path": "Pathfinder_Elite/modules\\Economy\\Economic_Sectors_and_Master_Revision_MCQs.md",
+        "start_page": 1039,
+        "end_page": 1049,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "Economic_Sectors_and_Master_Revision_MCQs.md"
+    },
+    {
+        "subject": "Current_Affairs",
+        "topic_name": "General Knowledge Static Review",
+        "file_path": "Pathfinder_Elite/modules\\Current_Affairs\\General_Knowledge_Static_Review.md",
+        "start_page": 1050,
+        "end_page": 1092,
+        "derived_total_pages": 4,
+        "has_answers": true,
+        "filename": "General_Knowledge_Static_Review.md"
+    }
 ]

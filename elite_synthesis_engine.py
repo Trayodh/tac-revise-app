@@ -20,50 +20,19 @@ MOCKS_DIR = "Pathfinder_Elite/mocks"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(MOCKS_DIR, exist_ok=True)
 
-CURRICULUM = [
-    {
-        "subject": "Physics",
-        "topic_name": "Optics & The Human Eye",
-        "pathfinder_pages": (600, 606),
-        "insight_pages": (43, 44),
-        "ssbcrack_pages": (40, 77)
-    },
-    {
-        "subject": "Physics",
-        "topic_name": "Thermodynamics & Waves",
-        "pathfinder_pages": (593, 599),
-        "insight_pages": (47, 51),
-        "ssbcrack_pages": (40, 77)
-    },
-    {
-        "subject": "Chemistry",
-        "topic_name": "Matter & Atomic Structure",
-        "pathfinder_pages": (632, 636),
-        "insight_pages": None,
-        "ssbcrack_pages": (77, 112)
-    },
-    {
-        "subject": "Biology",
-        "topic_name": "Cell Biology & Human Physiology",
-        "pathfinder_pages": (682, 686),
-        "insight_pages": None,
-        "ssbcrack_pages": (113, 150)
-    },
-    {
-        "subject": "Geography",
-        "topic_name": "Earthquakes, Volcanoes, & Wind Systems",
-        "pathfinder_pages": (853, 891),
-        "insight_pages": (24, 25),
-        "ssbcrack_pages": None
-    },
-    {
-        "subject": "Geography",
-        "topic_name": "Oceanography & Salinity",
-        "pathfinder_pages": (892, 929),
-        "insight_pages": (28, 31),
-        "ssbcrack_pages": None
-    }
-]
+from generate_taxonomy import TAXONOMY_MAP
+
+CURRICULUM = []
+for subject_key, chapters in TAXONOMY_MAP.items():
+    subject_name = subject_key.split("_", 1)[1] if "_" in subject_key else subject_key
+    for ch in chapters:
+        CURRICULUM.append({
+            "subject": subject_name,
+            "topic_name": ch["chapter"],
+            "pathfinder_pages": ch["range"],
+            "insight_pages": None,
+            "ssbcrack_pages": None
+        })
 
 def extract_text_from_pdf(pdf_path, start_page, end_page):
     if not os.path.exists(pdf_path):
