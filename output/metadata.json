@@ -11,5 +11,18 @@
     ],
     "has_mcqs": true,
     "has_answers": true
+  },
+  {
+    "subject": "English",
+    "topic": "Spotting the Errors",
+    "file_path": "output\\modules\\English\\01_Spotting_the_Errors.md",
+    "start_page": 387,
+    "end_page": 434,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "extra_subjects_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
   }
 ]
