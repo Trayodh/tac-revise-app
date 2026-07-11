@@ -24,5 +24,18 @@
     ],
     "has_mcqs": true,
     "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Decimal Fractions",
+    "file_path": "output\\modules\\Mathematics\\32_Decimal_Fractions.md",
+    "start_page": 32,
+    "end_page": 37,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
   }
 ]
