@@ -75,23 +75,36 @@ items.forEach(item => {
   }
 });
 
-// Copy directories
+// Copy directories recursively (basic implementation)
+function copyDirRecursiveSync(src, dest) {
+  if (!fs.existsSync(dest)) {
+    fs.mkdirSync(dest, { recursive: true });
+  }
+  const entries = fs.readdirSync(src, { withFileTypes: true });
+  for (let entry of entries) {
+    const srcPath = path.join(src, entry.name);
+    const destPath = path.join(dest, entry.name);
+    if (entry.isDirectory()) {
+      copyDirRecursiveSync(srcPath, destPath);
+    } else {
+      fs.copyFileSync(srcPath, destPath);
+    }
+  }
+}
+
 const dirsToCopy = ['images', 'math_notes', 'gs_notes', 'manim_lectures', 'js'];
 dirsToCopy.forEach(dir => {
   const sDir = path.join(srcDir, dir);
   const dDir = path.join(destDir, dir);
   if (fs.existsSync(sDir)) {
-    if (!fs.existsSync(dDir)) fs.mkdirSync(dDir);
-    const subItems = fs.readdirSync(sDir);
-    subItems.forEach(sub => {
-      const subS = path.join(sDir, sub);
-      const subD = path.join(dDir, sub);
-      if (fs.statSync(subS).isFile()) {
-        fs.copyFileSync(subS, subD);
-      }
-    });
+    copyDirRecursiveSync(sDir, dDir);
     console.log(`Copied dir ${dir}`);
   }
 });
+
+if (fs.existsSync(path.join(srcDir, 'Pathfinder_Premium'))) {
+  copyDirRecursiveSync(path.join(srcDir, 'Pathfinder_Premium'), path.join(destDir, 'Pathfinder_Premium'));
+  console.log('Copied dir Pathfinder_Premium');
+}
 
 console.log('Done copying to www');

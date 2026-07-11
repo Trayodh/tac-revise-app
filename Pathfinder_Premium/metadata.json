@@ -1,0 +1,94 @@
+[
+    {
+        "subject": "Physics",
+        "topic_name": "Optics & The Human Eye",
+        "file_path": "Pathfinder_Premium/modules\\Physics\\Optics_and_The_Human_Eye.md",
+        "start_page": 600,
+        "end_page": 606,
+        "derived_total_pages": 4,
+        "fused_sources": [
+            "Pathfinder",
+            "Insight_SSB",
+            "SSBCrack"
+        ],
+        "has_mcqs": true,
+        "has_answers": true,
+        "filename": "Optics_and_The_Human_Eye.md"
+    },
+    {
+        "subject": "Physics",
+        "topic_name": "Thermodynamics & Waves",
+        "file_path": "Pathfinder_Premium/modules\\Physics\\Thermodynamics_and_Waves.md",
+        "start_page": 593,
+        "end_page": 599,
+        "derived_total_pages": 3,
+        "fused_sources": [
+            "Pathfinder",
+            "Insight_SSB",
+            "SSBCrack"
+        ],
+        "has_mcqs": true,
+        "has_answers": true,
+        "filename": "Thermodynamics_and_Waves.md"
+    },
+    {
+        "subject": "Chemistry",
+        "topic_name": "Matter & Atomic Structure",
+        "file_path": "Pathfinder_Premium/modules\\Chemistry\\Matter_and_Atomic_Structure.md",
+        "start_page": 632,
+        "end_page": 636,
+        "derived_total_pages": 3,
+        "fused_sources": [
+            "Pathfinder",
+            "SSBCrack"
+        ],
+        "has_mcqs": true,
+        "has_answers": true,
+        "filename": "Matter_and_Atomic_Structure.md"
+    },
+    {
+        "subject": "Biology",
+        "topic_name": "Cell Biology & Human Physiology",
+        "file_path": "Pathfinder_Premium/modules\\Biology\\Cell_Biology_and_Human_Physiology.md",
+        "start_page": 682,
+        "end_page": 686,
+        "derived_total_pages": 3,
+        "fused_sources": [
+            "Pathfinder",
+            "SSBCrack"
+        ],
+        "has_mcqs": true,
+        "has_answers": true,
+        "filename": "Cell_Biology_and_Human_Physiology.md"
+    },
+    {
+        "subject": "Geography",
+        "topic_name": "Earthquakes, Volcanoes, & Wind Systems",
+        "file_path": "Pathfinder_Premium/modules\\Geography\\Earthquakes_Volcanoes_and_Wind_Systems.md",
+        "start_page": 853,
+        "end_page": 891,
+        "derived_total_pages": 3,
+        "fused_sources": [
+            "Pathfinder",
+            "Insight_SSB"
+        ],
+        "has_mcqs": false,
+        "has_answers": false,
+        "filename": "Earthquakes_Volcanoes_and_Wind_Systems.md"
+    },
+    {
+        "subject": "Geography",
+        "topic_name": "Oceanography & Salinity",
+        "file_path": "Pathfinder_Premium/modules\\Geography\\Oceanography_and_Salinity.md",
+        "start_page": 892,
+        "end_page": 929,
+        "derived_total_pages": 3,
+        "fused_sources": [
+            "Pathfinder",
+            "Insight_SSB"
+        ],
+        "has_mcqs": false,
+        "has_answers": false,
+        "filename": "Oceanography_and_Salinity.md"
+    }
+]
