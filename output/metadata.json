@@ -1,91 +1,13 @@
 [
   {
     "subject": "Mathematics",
-    "topic": "Statistics",
-    "file_path": "output\\modules\\Mathematics\\28_Statistics.md",
-    "start_page": 363,
-    "end_page": 384,
+    "topic": "CDS Solved Paper 2020 II",
+    "file_path": "output\\modules\\Mathematics\\3_CDS_Solved_Paper_2020_II.md",
+    "start_page": 3,
+    "end_page": 39,
     "derived_total_pages": 5,
     "source_notes_ingested": [
       "math_notes"
-    ],
-    "has_mcqs": true,
-    "has_answers": true
-  },
-  {
-    "subject": "English",
-    "topic": "Spotting the Errors",
-    "file_path": "output\\modules\\English\\01_Spotting_the_Errors.md",
-    "start_page": 387,
-    "end_page": 434,
-    "derived_total_pages": 5,
-    "source_notes_ingested": [
-      "extra_subjects_notes"
-    ],
-    "has_mcqs": true,
-    "has_answers": true
-  },
-  {
-    "subject": "English",
-    "topic": "Vocabulary",
-    "file_path": "output\\modules\\English\\02_Vocabulary.md",
-    "start_page": 435,
-    "end_page": 451,
-    "derived_total_pages": 5,
-    "source_notes_ingested": [
-      "extra_subjects_notes"
-    ],
-    "has_mcqs": true,
-    "has_answers": true
-  },
-  {
-    "subject": "English",
-    "topic": "Comprehension",
-    "file_path": "output\\modules\\English\\09_Comprehension.md",
-    "start_page": 544,
-    "end_page": 576,
-    "derived_total_pages": 5,
-    "source_notes_ingested": [
-      "extra_subjects_notes"
-    ],
-    "has_mcqs": true,
-    "has_answers": true
-  },
-  {
-    "subject": "Physics",
-    "topic": "Physics Core & Optics",
-    "file_path": "output\\modules\\Physics\\01_Physics_Optics.md",
-    "start_page": 579,
-    "end_page": 611,
-    "derived_total_pages": 5,
-    "source_notes_ingested": [
-      "extra_subjects_notes"
-    ],
-    "has_mcqs": true,
-    "has_answers": true
-  },
-  {
-    "subject": "Chemistry",
-    "topic": "Chemistry Core",
-    "file_path": "output\\modules\\Chemistry\\01_Chemistry_Core.md",
-    "start_page": 632,
-    "end_page": 659,
-    "derived_total_pages": 5,
-    "source_notes_ingested": [
-      "extra_subjects_notes"
-    ],
-    "has_mcqs": true,
-    "has_answers": true
-  },
-  {
-    "subject": "Biology",
-    "topic": "Cell Biology",
-    "file_path": "output\\modules\\Biology\\01_Biology_Cell.md",
-    "start_page": 682,
-    "end_page": 731,
-    "derived_total_pages": 5,
-    "source_notes_ingested": [
-      "extra_subjects_notes"
     ],
     "has_mcqs": true,
     "has_answers": true

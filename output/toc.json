@@ -1,19 +1,5 @@
 {
   "Mathematics": [
-    "output\\modules\\Mathematics\\28_Statistics.md"
-  ],
-  "English": [
-    "output\\modules\\English\\01_Spotting_the_Errors.md",
-    "output\\modules\\English\\02_Vocabulary.md",
-    "output\\modules\\English\\09_Comprehension.md"
-  ],
-  "Physics": [
-    "output\\modules\\Physics\\01_Physics_Optics.md"
-  ],
-  "Chemistry": [
-    "output\\modules\\Chemistry\\01_Chemistry_Core.md"
-  ],
-  "Biology": [
-    "output\\modules\\Biology\\01_Biology_Cell.md"
+    "output\\modules\\Mathematics\\3_CDS_Solved_Paper_2020_II.md"
   ]
 }
