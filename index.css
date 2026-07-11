@@ -3927,6 +3927,13 @@ a, p, span, div, li, td {
   transition: color 0.2s ease, opacity 0.2s ease;
   padding: 4px 6px;
   border-radius: 4px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 .breadcrumb-link:hover {
   color: var(--text-primary);
