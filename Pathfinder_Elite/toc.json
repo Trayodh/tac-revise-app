@@ -1,16 +1,103 @@
 {
-    "Physics": [
-        "Optics & The Human Eye",
-        "Thermodynamics & Waves"
-    ],
-    "Chemistry": [
-        "Matter & Atomic Structure"
-    ],
-    "Biology": [
-        "Cell Biology & Human Physiology"
-    ],
-    "Geography": [
-        "Earthquakes, Volcanoes, & Wind Systems",
-        "Oceanography & Salinity"
-    ]
+  "Mathematics": [
+    "Number System",
+    "Sequence and Series",
+    "HCF and LCM of Numbers",
+    "Decimal Fractions",
+    "Square Roots and Cube Roots",
+    "Time and Distance",
+    "Time and Work",
+    "Percentage",
+    "Simple Interest",
+    "Compound Interest",
+    "Profit and Loss",
+    "Ratio and Proportion",
+    "Logarithm",
+    "Algebraic Operations",
+    "HCF and LCM of Polynomials",
+    "Rational Expressions",
+    "Linear Equations",
+    "Quadratic Equations and Inequalities",
+    "Set Theory",
+    "Measurements of Angles and Trigonometric Ratios",
+    "Height and Distance",
+    "Lines and Angles",
+    "Triangles",
+    "Quadrilateral and Polygon",
+    "Circle",
+    "Area and Perimeter of Plane Figures",
+    "Surface Area and Volume of Solids",
+    "Statistics"
+  ],
+  "English": [
+    "Spotting the Errors",
+    "Vocabulary",
+    "Synonyms",
+    "Antonyms",
+    "Idioms and Phrases",
+    "Sentence Completion",
+    "Sentence Improvement",
+    "Ordering of Words and Sentences",
+    "Comprehension"
+  ],
+  "Physics": [
+    "Measurement Motion Work Energy and Power",
+    "Rotational Motion and Gravitation",
+    "Properties of Matter",
+    "Heat and Thermodynamics",
+    "Oscillations and Waves",
+    "Optics",
+    "Electric Current",
+    "Modern Physics",
+    "Master Question Core"
+  ],
+  "Chemistry": [
+    "Matter",
+    "Atomic Structure",
+    "Radioactivity",
+    "Chemical Bonding and Redox Reactions",
+    "Gas Laws and Solutions",
+    "Acids Bases and Salts",
+    "Chemical Thermodynamics and Surface Chemistry",
+    "Electrochemistry",
+    "Inorganic Chemistry",
+    "Organic Chemistry",
+    "Man Made Materials",
+    "Environment and its Pollution",
+    "Master Question Core"
+  ],
+  "Biology": [
+    "Cell The Unit of Life",
+    "Classification of Plants and Animals",
+    "Genetics and Molecular Biology and Evolution of Life",
+    "Plant Morphology and Physiology",
+    "Animal Physiology",
+    "Human Health and Diseases",
+    "Applied Biology",
+    "Master Question Core"
+  ],
+  "History": [
+    "Ancient India Core and MCQs",
+    "Medieval India Sultanate and MCQs",
+    "Modern India National Movement and MCQs",
+    "World History and Revision MCQs"
+  ],
+  "Geography": [
+    "World Geography Cosmology and MCQs",
+    "Indian Geography Resources and MCQs",
+    "Environmental Geography and MCQs"
+  ],
+  "Polity": [
+    "Constitutional Framework Rights and MCQs",
+    "Union Executive Judiciary and MCQs",
+    "State Local Governance and Master MCQs"
+  ],
+  "Economy": [
+    "Macroeconomics Five Year Plans and MCQs",
+    "Banking Inflation Public Finance and MCQs",
+    "Economic Sectors and Master Revision MCQs"
+  ],
+  "Current_Affairs": [
+    "General Knowledge Static Review"
+  ]
 }

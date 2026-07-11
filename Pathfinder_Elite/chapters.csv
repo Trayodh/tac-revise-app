@@ -1,7 +1,82 @@
-Subject,Topic,Start Page,End Page,File Name,Total Pages,Contains Answers
-Physics,Optics & The Human Eye,600,606,Optics_and_The_Human_Eye.md,4,True
-Physics,Thermodynamics & Waves,593,599,Thermodynamics_and_Waves.md,4,True
-Chemistry,Matter & Atomic Structure,632,636,Matter_and_Atomic_Structure.md,4,True
-Biology,Cell Biology & Human Physiology,682,686,Cell_Biology_and_Human_Physiology.md,4,True
-Geography,"Earthquakes, Volcanoes, & Wind Systems",853,891,Earthquakes_Volcanoes_and_Wind_Systems.md,4,True
-Geography,Oceanography & Salinity,892,929,Oceanography_and_Salinity.md,4,True
+Subject,Chapter,Start Page,End Page,File Name,Total Pages,Contains Answers
+Mathematics,Number System,3,19,number_system.pdf,17,YES
+Mathematics,Sequence and Series,20,24,sequence_and_series.pdf,5,YES
+Mathematics,HCF and LCM of Numbers,25,31,hcf_and_lcm_of_numbers.pdf,7,YES
+Mathematics,Decimal Fractions,32,37,decimal_fractions.pdf,6,YES
+Mathematics,Square Roots and Cube Roots,38,46,square_roots_and_cube_roots.pdf,9,YES
+Mathematics,Time and Distance,47,59,time_and_distance.pdf,13,YES
+Mathematics,Time and Work,60,68,time_and_work.pdf,9,YES
+Mathematics,Percentage,69,76,percentage.pdf,8,YES
+Mathematics,Simple Interest,77,82,simple_interest.pdf,6,YES
+Mathematics,Compound Interest,83,91,compound_interest.pdf,9,YES
+Mathematics,Profit and Loss,92,100,profit_and_loss.pdf,9,YES
+Mathematics,Ratio and Proportion,101,112,ratio_and_proportion.pdf,12,YES
+Mathematics,Logarithm,113,119,logarithm.pdf,7,YES
+Mathematics,Algebraic Operations,120,131,algebraic_operations.pdf,12,YES
+Mathematics,HCF and LCM of Polynomials,132,138,hcf_and_lcm_of_polynomials.pdf,7,YES
+Mathematics,Rational Expressions,139,143,rational_expressions.pdf,5,YES
+Mathematics,Linear Equations,144,159,linear_equations.pdf,16,YES
+Mathematics,Quadratic Equations and Inequalities,160,182,quadratic_equations_and_inequalities.pdf,23,YES
+Mathematics,Set Theory,183,193,set_theory.pdf,11,YES
+Mathematics,Measurements of Angles and Trigonometric Ratios,194,224,measurements_of_angles_and_trigonometric_ratios.pdf,31,YES
+Mathematics,Height and Distance,225,236,height_and_distance.pdf,12,YES
+Mathematics,Lines and Angles,237,247,lines_and_angles.pdf,11,YES
+Mathematics,Triangles,248,271,triangles.pdf,24,YES
+Mathematics,Quadrilateral and Polygon,272,286,quadrilateral_and_polygon.pdf,15,YES
+Mathematics,Circle,287,310,circle.pdf,24,YES
+Mathematics,Area and Perimeter of Plane Figures,311,335,area_and_perimeter_of_plane_figures.pdf,25,YES
+Mathematics,Surface Area and Volume of Solids,336,362,surface_area_and_volume_of_solids.pdf,27,YES
+Mathematics,Statistics,363,384,statistics.pdf,22,YES
+English,Spotting the Errors,387,434,spotting_the_errors.pdf,48,YES
+English,Vocabulary,435,451,vocabulary.pdf,17,YES
+English,Synonyms,452,462,synonyms.pdf,11,YES
+English,Antonyms,463,474,antonyms.pdf,12,YES
+English,Idioms and Phrases,475,482,idioms_and_phrases.pdf,8,YES
+English,Sentence Completion,483,499,sentence_completion.pdf,17,YES
+English,Sentence Improvement,500,514,sentence_improvement.pdf,15,YES
+English,Ordering of Words and Sentences,515,543,ordering_of_words_and_sentences.pdf,29,YES
+English,Comprehension,544,576,comprehension.pdf,33,YES
+Physics,Measurement Motion Work Energy and Power,579,586,measurement_motion_work_energy_and_power.pdf,8,YES
+Physics,Rotational Motion and Gravitation,587,589,rotational_motion_and_gravitation.pdf,3,YES
+Physics,Properties of Matter,590,592,properties_of_matter.pdf,3,YES
+Physics,Heat and Thermodynamics,593,596,heat_and_thermodynamics.pdf,4,YES
+Physics,Oscillations and Waves,596,599,oscillations_and_waves.pdf,4,YES
+Physics,Optics,600,606,optics.pdf,7,YES
+Physics,Electric Current,606,609,electric_current.pdf,4,YES
+Physics,Modern Physics,609,611,modern_physics.pdf,3,YES
+Physics,Master Question Core,612,631,master_question_core.pdf,20,YES
+Chemistry,Matter,632,634,matter.pdf,3,YES
+Chemistry,Atomic Structure,634,636,atomic_structure.pdf,3,YES
+Chemistry,Radioactivity,636,637,radioactivity.pdf,2,YES
+Chemistry,Chemical Bonding and Redox Reactions,638,640,chemical_bonding_and_redox_reactions.pdf,3,YES
+Chemistry,Gas Laws and Solutions,640,641,gas_laws_and_solutions.pdf,2,YES
+Chemistry,Acids Bases and Salts,642,643,acids_bases_and_salts.pdf,2,YES
+Chemistry,Chemical Thermodynamics and Surface Chemistry,644,645,chemical_thermodynamics_and_surface_chemistry.pdf,2,YES
+Chemistry,Electrochemistry,645,647,electrochemistry.pdf,3,YES
+Chemistry,Inorganic Chemistry,647,654,inorganic_chemistry.pdf,8,YES
+Chemistry,Organic Chemistry,654,656,organic_chemistry.pdf,3,YES
+Chemistry,Man Made Materials,656,658,man_made_materials.pdf,3,YES
+Chemistry,Environment and its Pollution,658,659,environment_and_its_pollution.pdf,2,YES
+Chemistry,Master Question Core,660,681,master_question_core.pdf,22,YES
+Biology,Cell The Unit of Life,682,686,cell_the_unit_of_life.pdf,5,YES
+Biology,Classification of Plants and Animals,686,690,classification_of_plants_and_animals.pdf,5,YES
+Biology,Genetics and Molecular Biology and Evolution of Life,691,697,genetics_and_molecular_biology_and_evolution_of_life.pdf,7,YES
+Biology,Plant Morphology and Physiology,697,704,plant_morphology_and_physiology.pdf,8,YES
+Biology,Animal Physiology,704,723,animal_physiology.pdf,20,YES
+Biology,Human Health and Diseases,723,726,human_health_and_diseases.pdf,4,YES
+Biology,Applied Biology,726,731,applied_biology.pdf,6,YES
+Biology,Master Question Core,732,750,master_question_core.pdf,19,YES
+History,Ancient India Core and MCQs,753,774,ancient_india_core_and_mcqs.pdf,22,YES
+History,Medieval India Sultanate and MCQs,775,792,medieval_india_sultanate_and_mcqs.pdf,18,YES
+History,Modern India National Movement and MCQs,793,831,modern_india_national_movement_and_mcqs.pdf,39,YES
+History,World History and Revision MCQs,832,852,world_history_and_revision_mcqs.pdf,21,YES
+Geography,World Geography Cosmology and MCQs,853,891,world_geography_cosmology_and_mcqs.pdf,39,YES
+Geography,Indian Geography Resources and MCQs,892,929,indian_geography_resources_and_mcqs.pdf,38,YES
+Geography,Environmental Geography and MCQs,930,946,environmental_geography_and_mcqs.pdf,17,YES
+Polity,Constitutional Framework Rights and MCQs,947,971,constitutional_framework_rights_and_mcqs.pdf,25,YES
+Polity,Union Executive Judiciary and MCQs,972,990,union_executive_judiciary_and_mcqs.pdf,19,YES
+Polity,State Local Governance and Master MCQs,991,1005,state_local_governance_and_master_mcqs.pdf,15,YES
+Economy,Macroeconomics Five Year Plans and MCQs,1006,1022,macroeconomics_five_year_plans_and_mcqs.pdf,17,YES
+Economy,Banking Inflation Public Finance and MCQs,1023,1038,banking_inflation_public_finance_and_mcqs.pdf,16,YES
+Economy,Economic Sectors and Master Revision MCQs,1039,1049,economic_sectors_and_master_revision_mcqs.pdf,11,YES
+Current_Affairs,General Knowledge Static Review,1050,1092,general_knowledge_static_review.pdf,43,YES
