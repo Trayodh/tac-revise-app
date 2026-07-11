@@ -12,5 +12,8 @@
   ],
   "Chemistry": [
     "output\\modules\\Chemistry\\01_Chemistry_Core.md"
+  ],
+  "Biology": [
+    "output\\modules\\Biology\\01_Biology_Cell.md"
   ]
 }

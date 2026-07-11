@@ -76,5 +76,18 @@
     ],
     "has_mcqs": true,
     "has_answers": true
+  },
+  {
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "file_path": "output\\modules\\Biology\\01_Biology_Cell.md",
+    "start_page": 682,
+    "end_page": 731,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "extra_subjects_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
   }
 ]
