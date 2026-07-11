@@ -1,6 +1,6 @@
 [
     {
-        "id": "PHY-OPT-6394",
+        "id": "PHY-OPT-7407",
         "subject": "Physics",
         "topic": "Optics & The Human Eye",
         "stem": "Sample high-yield question 1 regarding Optics & The Human Eye?",
@@ -10,11 +10,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "A",
         "rationale": "Detailed rationale for question 1 explaining why the chosen option correctly applies to Optics & The Human Eye."
     },
     {
-        "id": "PHY-OPT-4845",
+        "id": "PHY-OPT-1987",
         "subject": "Physics",
         "topic": "Optics & The Human Eye",
         "stem": "Sample high-yield question 2 regarding Optics & The Human Eye?",
@@ -28,7 +28,7 @@
         "rationale": "Detailed rationale for question 2 explaining why the chosen option correctly applies to Optics & The Human Eye."
     },
     {
-        "id": "PHY-OPT-3800",
+        "id": "PHY-OPT-4215",
         "subject": "Physics",
         "topic": "Optics & The Human Eye",
         "stem": "Sample high-yield question 3 regarding Optics & The Human Eye?",
@@ -38,11 +38,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "C",
         "rationale": "Detailed rationale for question 3 explaining why the chosen option correctly applies to Optics & The Human Eye."
     },
     {
-        "id": "PHY-OPT-7770",
+        "id": "PHY-OPT-5479",
         "subject": "Physics",
         "topic": "Optics & The Human Eye",
         "stem": "Sample high-yield question 4 regarding Optics & The Human Eye?",
@@ -52,11 +52,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "C",
+        "answer": "A",
         "rationale": "Detailed rationale for question 4 explaining why the chosen option correctly applies to Optics & The Human Eye."
     },
     {
-        "id": "PHY-OPT-4980",
+        "id": "PHY-OPT-5745",
         "subject": "Physics",
         "topic": "Optics & The Human Eye",
         "stem": "Sample high-yield question 5 regarding Optics & The Human Eye?",
@@ -66,11 +66,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "A",
         "rationale": "Detailed rationale for question 5 explaining why the chosen option correctly applies to Optics & The Human Eye."
     },
     {
-        "id": "PHY-OPT-8531",
+        "id": "PHY-OPT-6653",
         "subject": "Physics",
         "topic": "Optics & The Human Eye",
         "stem": "Sample high-yield question 6 regarding Optics & The Human Eye?",
@@ -80,11 +80,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "C",
+        "answer": "D",
         "rationale": "Detailed rationale for question 6 explaining why the chosen option correctly applies to Optics & The Human Eye."
     },
     {
-        "id": "PHY-OPT-4677",
+        "id": "PHY-OPT-7682",
         "subject": "Physics",
         "topic": "Optics & The Human Eye",
         "stem": "Sample high-yield question 7 regarding Optics & The Human Eye?",
@@ -94,11 +94,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "A",
         "rationale": "Detailed rationale for question 7 explaining why the chosen option correctly applies to Optics & The Human Eye."
     },
     {
-        "id": "PHY-OPT-1081",
+        "id": "PHY-OPT-4839",
         "subject": "Physics",
         "topic": "Optics & The Human Eye",
         "stem": "Sample high-yield question 8 regarding Optics & The Human Eye?",
@@ -108,11 +108,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "D",
         "rationale": "Detailed rationale for question 8 explaining why the chosen option correctly applies to Optics & The Human Eye."
     },
     {
-        "id": "PHY-OPT-1175",
+        "id": "PHY-OPT-7555",
         "subject": "Physics",
         "topic": "Optics & The Human Eye",
         "stem": "Sample high-yield question 9 regarding Optics & The Human Eye?",
@@ -122,11 +122,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "B",
         "rationale": "Detailed rationale for question 9 explaining why the chosen option correctly applies to Optics & The Human Eye."
     },
     {
-        "id": "PHY-OPT-5509",
+        "id": "PHY-OPT-5786",
         "subject": "Physics",
         "topic": "Optics & The Human Eye",
         "stem": "Sample high-yield question 10 regarding Optics & The Human Eye?",
@@ -140,7 +140,7 @@
         "rationale": "Detailed rationale for question 10 explaining why the chosen option correctly applies to Optics & The Human Eye."
     },
     {
-        "id": "PHY-THE-9691",
+        "id": "PHY-THE-9946",
         "subject": "Physics",
         "topic": "Thermodynamics & Waves",
         "stem": "Sample high-yield question 1 regarding Thermodynamics & Waves?",
@@ -150,11 +150,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "B",
         "rationale": "Detailed rationale for question 1 explaining why the chosen option correctly applies to Thermodynamics & Waves."
     },
     {
-        "id": "PHY-THE-8862",
+        "id": "PHY-THE-9439",
         "subject": "Physics",
         "topic": "Thermodynamics & Waves",
         "stem": "Sample high-yield question 2 regarding Thermodynamics & Waves?",
@@ -164,11 +164,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "A",
         "rationale": "Detailed rationale for question 2 explaining why the chosen option correctly applies to Thermodynamics & Waves."
     },
     {
-        "id": "PHY-THE-2503",
+        "id": "PHY-THE-4502",
         "subject": "Physics",
         "topic": "Thermodynamics & Waves",
         "stem": "Sample high-yield question 3 regarding Thermodynamics & Waves?",
@@ -178,11 +178,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "A",
+        "answer": "B",
         "rationale": "Detailed rationale for question 3 explaining why the chosen option correctly applies to Thermodynamics & Waves."
     },
     {
-        "id": "PHY-THE-9292",
+        "id": "PHY-THE-8972",
         "subject": "Physics",
         "topic": "Thermodynamics & Waves",
         "stem": "Sample high-yield question 4 regarding Thermodynamics & Waves?",
@@ -192,11 +192,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "C",
+        "answer": "D",
         "rationale": "Detailed rationale for question 4 explaining why the chosen option correctly applies to Thermodynamics & Waves."
     },
     {
-        "id": "PHY-THE-8454",
+        "id": "PHY-THE-7024",
         "subject": "Physics",
         "topic": "Thermodynamics & Waves",
         "stem": "Sample high-yield question 5 regarding Thermodynamics & Waves?",
@@ -210,7 +210,7 @@
         "rationale": "Detailed rationale for question 5 explaining why the chosen option correctly applies to Thermodynamics & Waves."
     },
     {
-        "id": "PHY-THE-1592",
+        "id": "PHY-THE-3769",
         "subject": "Physics",
         "topic": "Thermodynamics & Waves",
         "stem": "Sample high-yield question 6 regarding Thermodynamics & Waves?",
@@ -220,11 +220,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "C",
+        "answer": "A",
         "rationale": "Detailed rationale for question 6 explaining why the chosen option correctly applies to Thermodynamics & Waves."
     },
     {
-        "id": "PHY-THE-8763",
+        "id": "PHY-THE-8230",
         "subject": "Physics",
         "topic": "Thermodynamics & Waves",
         "stem": "Sample high-yield question 7 regarding Thermodynamics & Waves?",
@@ -238,7 +238,7 @@
         "rationale": "Detailed rationale for question 7 explaining why the chosen option correctly applies to Thermodynamics & Waves."
     },
     {
-        "id": "PHY-THE-8755",
+        "id": "PHY-THE-3634",
         "subject": "Physics",
         "topic": "Thermodynamics & Waves",
         "stem": "Sample high-yield question 8 regarding Thermodynamics & Waves?",
@@ -252,7 +252,7 @@
         "rationale": "Detailed rationale for question 8 explaining why the chosen option correctly applies to Thermodynamics & Waves."
     },
     {
-        "id": "PHY-THE-5202",
+        "id": "PHY-THE-1264",
         "subject": "Physics",
         "topic": "Thermodynamics & Waves",
         "stem": "Sample high-yield question 9 regarding Thermodynamics & Waves?",
@@ -266,7 +266,7 @@
         "rationale": "Detailed rationale for question 9 explaining why the chosen option correctly applies to Thermodynamics & Waves."
     },
     {
-        "id": "PHY-THE-1805",
+        "id": "PHY-THE-8639",
         "subject": "Physics",
         "topic": "Thermodynamics & Waves",
         "stem": "Sample high-yield question 10 regarding Thermodynamics & Waves?",
@@ -276,11 +276,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "C",
+        "answer": "A",
         "rationale": "Detailed rationale for question 10 explaining why the chosen option correctly applies to Thermodynamics & Waves."
     },
     {
-        "id": "CHE-MAT-7871",
+        "id": "CHE-MAT-5561",
         "subject": "Chemistry",
         "topic": "Matter & Atomic Structure",
         "stem": "Sample high-yield question 1 regarding Matter & Atomic Structure?",
@@ -290,11 +290,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "D",
         "rationale": "Detailed rationale for question 1 explaining why the chosen option correctly applies to Matter & Atomic Structure."
     },
     {
-        "id": "CHE-MAT-7420",
+        "id": "CHE-MAT-4750",
         "subject": "Chemistry",
         "topic": "Matter & Atomic Structure",
         "stem": "Sample high-yield question 2 regarding Matter & Atomic Structure?",
@@ -308,7 +308,7 @@
         "rationale": "Detailed rationale for question 2 explaining why the chosen option correctly applies to Matter & Atomic Structure."
     },
     {
-        "id": "CHE-MAT-2791",
+        "id": "CHE-MAT-6691",
         "subject": "Chemistry",
         "topic": "Matter & Atomic Structure",
         "stem": "Sample high-yield question 3 regarding Matter & Atomic Structure?",
@@ -322,7 +322,7 @@
         "rationale": "Detailed rationale for question 3 explaining why the chosen option correctly applies to Matter & Atomic Structure."
     },
     {
-        "id": "CHE-MAT-5548",
+        "id": "CHE-MAT-9969",
         "subject": "Chemistry",
         "topic": "Matter & Atomic Structure",
         "stem": "Sample high-yield question 4 regarding Matter & Atomic Structure?",
@@ -332,11 +332,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "D",
         "rationale": "Detailed rationale for question 4 explaining why the chosen option correctly applies to Matter & Atomic Structure."
     },
     {
-        "id": "CHE-MAT-6670",
+        "id": "CHE-MAT-7491",
         "subject": "Chemistry",
         "topic": "Matter & Atomic Structure",
         "stem": "Sample high-yield question 5 regarding Matter & Atomic Structure?",
@@ -350,7 +350,7 @@
         "rationale": "Detailed rationale for question 5 explaining why the chosen option correctly applies to Matter & Atomic Structure."
     },
     {
-        "id": "CHE-MAT-1808",
+        "id": "CHE-MAT-5342",
         "subject": "Chemistry",
         "topic": "Matter & Atomic Structure",
         "stem": "Sample high-yield question 6 regarding Matter & Atomic Structure?",
@@ -360,11 +360,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "C",
         "rationale": "Detailed rationale for question 6 explaining why the chosen option correctly applies to Matter & Atomic Structure."
     },
     {
-        "id": "CHE-MAT-5402",
+        "id": "CHE-MAT-5584",
         "subject": "Chemistry",
         "topic": "Matter & Atomic Structure",
         "stem": "Sample high-yield question 7 regarding Matter & Atomic Structure?",
@@ -374,11 +374,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "B",
         "rationale": "Detailed rationale for question 7 explaining why the chosen option correctly applies to Matter & Atomic Structure."
     },
     {
-        "id": "CHE-MAT-8753",
+        "id": "CHE-MAT-7963",
         "subject": "Chemistry",
         "topic": "Matter & Atomic Structure",
         "stem": "Sample high-yield question 8 regarding Matter & Atomic Structure?",
@@ -388,11 +388,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "B",
         "rationale": "Detailed rationale for question 8 explaining why the chosen option correctly applies to Matter & Atomic Structure."
     },
     {
-        "id": "CHE-MAT-3605",
+        "id": "CHE-MAT-1734",
         "subject": "Chemistry",
         "topic": "Matter & Atomic Structure",
         "stem": "Sample high-yield question 9 regarding Matter & Atomic Structure?",
@@ -402,11 +402,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "A",
         "rationale": "Detailed rationale for question 9 explaining why the chosen option correctly applies to Matter & Atomic Structure."
     },
     {
-        "id": "CHE-MAT-3358",
+        "id": "CHE-MAT-3543",
         "subject": "Chemistry",
         "topic": "Matter & Atomic Structure",
         "stem": "Sample high-yield question 10 regarding Matter & Atomic Structure?",
@@ -420,7 +420,7 @@
         "rationale": "Detailed rationale for question 10 explaining why the chosen option correctly applies to Matter & Atomic Structure."
     },
     {
-        "id": "BIO-CEL-6885",
+        "id": "BIO-CEL-5622",
         "subject": "Biology",
         "topic": "Cell Biology & Human Physiology",
         "stem": "Sample high-yield question 1 regarding Cell Biology & Human Physiology?",
@@ -430,11 +430,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "A",
+        "answer": "B",
         "rationale": "Detailed rationale for question 1 explaining why the chosen option correctly applies to Cell Biology & Human Physiology."
     },
     {
-        "id": "BIO-CEL-1146",
+        "id": "BIO-CEL-6940",
         "subject": "Biology",
         "topic": "Cell Biology & Human Physiology",
         "stem": "Sample high-yield question 2 regarding Cell Biology & Human Physiology?",
@@ -444,11 +444,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "A",
         "rationale": "Detailed rationale for question 2 explaining why the chosen option correctly applies to Cell Biology & Human Physiology."
     },
     {
-        "id": "BIO-CEL-6195",
+        "id": "BIO-CEL-9329",
         "subject": "Biology",
         "topic": "Cell Biology & Human Physiology",
         "stem": "Sample high-yield question 3 regarding Cell Biology & Human Physiology?",
@@ -458,11 +458,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "B",
         "rationale": "Detailed rationale for question 3 explaining why the chosen option correctly applies to Cell Biology & Human Physiology."
     },
     {
-        "id": "BIO-CEL-8153",
+        "id": "BIO-CEL-3635",
         "subject": "Biology",
         "topic": "Cell Biology & Human Physiology",
         "stem": "Sample high-yield question 4 regarding Cell Biology & Human Physiology?",
@@ -472,11 +472,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "A",
+        "answer": "B",
         "rationale": "Detailed rationale for question 4 explaining why the chosen option correctly applies to Cell Biology & Human Physiology."
     },
     {
-        "id": "BIO-CEL-3022",
+        "id": "BIO-CEL-6241",
         "subject": "Biology",
         "topic": "Cell Biology & Human Physiology",
         "stem": "Sample high-yield question 5 regarding Cell Biology & Human Physiology?",
@@ -486,11 +486,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "C",
         "rationale": "Detailed rationale for question 5 explaining why the chosen option correctly applies to Cell Biology & Human Physiology."
     },
     {
-        "id": "BIO-CEL-2941",
+        "id": "BIO-CEL-1063",
         "subject": "Biology",
         "topic": "Cell Biology & Human Physiology",
         "stem": "Sample high-yield question 6 regarding Cell Biology & Human Physiology?",
@@ -504,7 +504,7 @@
         "rationale": "Detailed rationale for question 6 explaining why the chosen option correctly applies to Cell Biology & Human Physiology."
     },
     {
-        "id": "BIO-CEL-2614",
+        "id": "BIO-CEL-3999",
         "subject": "Biology",
         "topic": "Cell Biology & Human Physiology",
         "stem": "Sample high-yield question 7 regarding Cell Biology & Human Physiology?",
@@ -518,7 +518,7 @@
         "rationale": "Detailed rationale for question 7 explaining why the chosen option correctly applies to Cell Biology & Human Physiology."
     },
     {
-        "id": "BIO-CEL-9585",
+        "id": "BIO-CEL-5611",
         "subject": "Biology",
         "topic": "Cell Biology & Human Physiology",
         "stem": "Sample high-yield question 8 regarding Cell Biology & Human Physiology?",
@@ -532,7 +532,7 @@
         "rationale": "Detailed rationale for question 8 explaining why the chosen option correctly applies to Cell Biology & Human Physiology."
     },
     {
-        "id": "BIO-CEL-6397",
+        "id": "BIO-CEL-8254",
         "subject": "Biology",
         "topic": "Cell Biology & Human Physiology",
         "stem": "Sample high-yield question 9 regarding Cell Biology & Human Physiology?",
@@ -542,11 +542,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "A",
         "rationale": "Detailed rationale for question 9 explaining why the chosen option correctly applies to Cell Biology & Human Physiology."
     },
     {
-        "id": "BIO-CEL-6827",
+        "id": "BIO-CEL-3738",
         "subject": "Biology",
         "topic": "Cell Biology & Human Physiology",
         "stem": "Sample high-yield question 10 regarding Cell Biology & Human Physiology?",
@@ -556,11 +556,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "C",
+        "answer": "D",
         "rationale": "Detailed rationale for question 10 explaining why the chosen option correctly applies to Cell Biology & Human Physiology."
     },
     {
-        "id": "GEO-EAR-4165",
+        "id": "GEO-EAR-9101",
         "subject": "Geography",
         "topic": "Earthquakes, Volcanoes, & Wind Systems",
         "stem": "Sample high-yield question 1 regarding Earthquakes, Volcanoes, & Wind Systems?",
@@ -574,7 +574,7 @@
         "rationale": "Detailed rationale for question 1 explaining why the chosen option correctly applies to Earthquakes, Volcanoes, & Wind Systems."
     },
     {
-        "id": "GEO-EAR-9991",
+        "id": "GEO-EAR-7353",
         "subject": "Geography",
         "topic": "Earthquakes, Volcanoes, & Wind Systems",
         "stem": "Sample high-yield question 2 regarding Earthquakes, Volcanoes, & Wind Systems?",
@@ -588,7 +588,7 @@
         "rationale": "Detailed rationale for question 2 explaining why the chosen option correctly applies to Earthquakes, Volcanoes, & Wind Systems."
     },
     {
-        "id": "GEO-EAR-6868",
+        "id": "GEO-EAR-5476",
         "subject": "Geography",
         "topic": "Earthquakes, Volcanoes, & Wind Systems",
         "stem": "Sample high-yield question 3 regarding Earthquakes, Volcanoes, & Wind Systems?",
@@ -598,11 +598,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "A",
+        "answer": "C",
         "rationale": "Detailed rationale for question 3 explaining why the chosen option correctly applies to Earthquakes, Volcanoes, & Wind Systems."
     },
     {
-        "id": "GEO-EAR-7075",
+        "id": "GEO-EAR-7521",
         "subject": "Geography",
         "topic": "Earthquakes, Volcanoes, & Wind Systems",
         "stem": "Sample high-yield question 4 regarding Earthquakes, Volcanoes, & Wind Systems?",
@@ -616,7 +616,7 @@
         "rationale": "Detailed rationale for question 4 explaining why the chosen option correctly applies to Earthquakes, Volcanoes, & Wind Systems."
     },
     {
-        "id": "GEO-EAR-3282",
+        "id": "GEO-EAR-6251",
         "subject": "Geography",
         "topic": "Earthquakes, Volcanoes, & Wind Systems",
         "stem": "Sample high-yield question 5 regarding Earthquakes, Volcanoes, & Wind Systems?",
@@ -626,11 +626,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "A",
         "rationale": "Detailed rationale for question 5 explaining why the chosen option correctly applies to Earthquakes, Volcanoes, & Wind Systems."
     },
     {
-        "id": "GEO-EAR-1914",
+        "id": "GEO-EAR-8013",
         "subject": "Geography",
         "topic": "Earthquakes, Volcanoes, & Wind Systems",
         "stem": "Sample high-yield question 6 regarding Earthquakes, Volcanoes, & Wind Systems?",
@@ -640,11 +640,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "B",
         "rationale": "Detailed rationale for question 6 explaining why the chosen option correctly applies to Earthquakes, Volcanoes, & Wind Systems."
     },
     {
-        "id": "GEO-EAR-3750",
+        "id": "GEO-EAR-4703",
         "subject": "Geography",
         "topic": "Earthquakes, Volcanoes, & Wind Systems",
         "stem": "Sample high-yield question 7 regarding Earthquakes, Volcanoes, & Wind Systems?",
@@ -654,11 +654,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "C",
         "rationale": "Detailed rationale for question 7 explaining why the chosen option correctly applies to Earthquakes, Volcanoes, & Wind Systems."
     },
     {
-        "id": "GEO-EAR-3705",
+        "id": "GEO-EAR-7304",
         "subject": "Geography",
         "topic": "Earthquakes, Volcanoes, & Wind Systems",
         "stem": "Sample high-yield question 8 regarding Earthquakes, Volcanoes, & Wind Systems?",
@@ -672,7 +672,7 @@
         "rationale": "Detailed rationale for question 8 explaining why the chosen option correctly applies to Earthquakes, Volcanoes, & Wind Systems."
     },
     {
-        "id": "GEO-EAR-1085",
+        "id": "GEO-EAR-9836",
         "subject": "Geography",
         "topic": "Earthquakes, Volcanoes, & Wind Systems",
         "stem": "Sample high-yield question 9 regarding Earthquakes, Volcanoes, & Wind Systems?",
@@ -682,11 +682,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "A",
         "rationale": "Detailed rationale for question 9 explaining why the chosen option correctly applies to Earthquakes, Volcanoes, & Wind Systems."
     },
     {
-        "id": "GEO-EAR-5646",
+        "id": "GEO-EAR-8913",
         "subject": "Geography",
         "topic": "Earthquakes, Volcanoes, & Wind Systems",
         "stem": "Sample high-yield question 10 regarding Earthquakes, Volcanoes, & Wind Systems?",
@@ -696,11 +696,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "A",
         "rationale": "Detailed rationale for question 10 explaining why the chosen option correctly applies to Earthquakes, Volcanoes, & Wind Systems."
     },
     {
-        "id": "GEO-OCE-2426",
+        "id": "GEO-OCE-5088",
         "subject": "Geography",
         "topic": "Oceanography & Salinity",
         "stem": "Sample high-yield question 1 regarding Oceanography & Salinity?",
@@ -710,11 +710,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "C",
         "rationale": "Detailed rationale for question 1 explaining why the chosen option correctly applies to Oceanography & Salinity."
     },
     {
-        "id": "GEO-OCE-4510",
+        "id": "GEO-OCE-6734",
         "subject": "Geography",
         "topic": "Oceanography & Salinity",
         "stem": "Sample high-yield question 2 regarding Oceanography & Salinity?",
@@ -724,11 +724,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "A",
         "rationale": "Detailed rationale for question 2 explaining why the chosen option correctly applies to Oceanography & Salinity."
     },
     {
-        "id": "GEO-OCE-5713",
+        "id": "GEO-OCE-2235",
         "subject": "Geography",
         "topic": "Oceanography & Salinity",
         "stem": "Sample high-yield question 3 regarding Oceanography & Salinity?",
@@ -742,7 +742,7 @@
         "rationale": "Detailed rationale for question 3 explaining why the chosen option correctly applies to Oceanography & Salinity."
     },
     {
-        "id": "GEO-OCE-7728",
+        "id": "GEO-OCE-8615",
         "subject": "Geography",
         "topic": "Oceanography & Salinity",
         "stem": "Sample high-yield question 4 regarding Oceanography & Salinity?",
@@ -752,11 +752,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "D",
+        "answer": "C",
         "rationale": "Detailed rationale for question 4 explaining why the chosen option correctly applies to Oceanography & Salinity."
     },
     {
-        "id": "GEO-OCE-2057",
+        "id": "GEO-OCE-5802",
         "subject": "Geography",
         "topic": "Oceanography & Salinity",
         "stem": "Sample high-yield question 5 regarding Oceanography & Salinity?",
@@ -766,11 +766,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "A",
+        "answer": "D",
         "rationale": "Detailed rationale for question 5 explaining why the chosen option correctly applies to Oceanography & Salinity."
     },
     {
-        "id": "GEO-OCE-3078",
+        "id": "GEO-OCE-8938",
         "subject": "Geography",
         "topic": "Oceanography & Salinity",
         "stem": "Sample high-yield question 6 regarding Oceanography & Salinity?",
@@ -780,11 +780,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "C",
         "rationale": "Detailed rationale for question 6 explaining why the chosen option correctly applies to Oceanography & Salinity."
     },
     {
-        "id": "GEO-OCE-4078",
+        "id": "GEO-OCE-4602",
         "subject": "Geography",
         "topic": "Oceanography & Salinity",
         "stem": "Sample high-yield question 7 regarding Oceanography & Salinity?",
@@ -798,7 +798,7 @@
         "rationale": "Detailed rationale for question 7 explaining why the chosen option correctly applies to Oceanography & Salinity."
     },
     {
-        "id": "GEO-OCE-7859",
+        "id": "GEO-OCE-1348",
         "subject": "Geography",
         "topic": "Oceanography & Salinity",
         "stem": "Sample high-yield question 8 regarding Oceanography & Salinity?",
@@ -808,11 +808,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "A",
+        "answer": "C",
         "rationale": "Detailed rationale for question 8 explaining why the chosen option correctly applies to Oceanography & Salinity."
     },
     {
-        "id": "GEO-OCE-3464",
+        "id": "GEO-OCE-5784",
         "subject": "Geography",
         "topic": "Oceanography & Salinity",
         "stem": "Sample high-yield question 9 regarding Oceanography & Salinity?",
@@ -822,11 +822,11 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "B",
+        "answer": "D",
         "rationale": "Detailed rationale for question 9 explaining why the chosen option correctly applies to Oceanography & Salinity."
     },
     {
-        "id": "GEO-OCE-3689",
+        "id": "GEO-OCE-8370",
         "subject": "Geography",
         "topic": "Oceanography & Salinity",
         "stem": "Sample high-yield question 10 regarding Oceanography & Salinity?",
@@ -836,7 +836,7 @@
             "[C] Concept parameter 3",
             "[D] Concept parameter 4"
         ],
-        "answer": "A",
+        "answer": "C",
         "rationale": "Detailed rationale for question 10 explaining why the chosen option correctly applies to Oceanography & Salinity."
     }
 ]

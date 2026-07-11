@@ -1,53 +1,54 @@
-# Cell Biology & Human Physiology\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 682 ---\n47. Crack someone up To make someone laugh.
-48. Cross your fingers To hope that something
-happens the way you want it to.
-49. Cry over spilt milk To regret in vain about what
-cannot be undone or rectified.
-50. Cry wolf Intentionally raise a false alarm.
-51. Cup of joe A cup of coffee.
-52. Curiosity kills the cat Being inquisitive can lead
-you into a dangerous situation.
-53. Cut to the chase Leave out all the unnecessary
-details and get to the main point.
-54. Dark horse Someone who unexpectedly wins a
-competition.
-55. A dead ringer for someone/ something Someone
-or something that looks exactly like someone or
-something else.
-56. Devil’s advocate Someone who argues against a
-cause or position either for the sake of argument or
-to help determine its validity.
-57. Dog days of summer The hottest days of the
-summer season.
-58. Don’t count your chickens before they
-hatch Don’t make plans based on future events
-that might not happen.
-59. Don’t look a gift horse in the mouth When
-someone gives you a gift, accept it graciously.
-60. Don’t put all your eggs in one basket To not put
-all your resources in one area.
-61. Down to the wire Until the last possible moment.
-62. Drastic times call for drastic measures When
-you are extremely desperate you need to take
-extremely desperate actions.
-63. Drive someone up the wall To irritate and/or
-annoy someone very much.
-64. Dropping like flies A large number of people
-either falling ill or dying.
-65. Dry run Rehearsal; a dummy run or show.
-66. Elvis has left the building The show has come to
-an end; it’s all over.
-67. Ethnic cleansing Killing of a certain ethnic or
-religious group on a massive scale.
-68. Every cloud has a silver lining There is
-something good even in an unpleasant situation.
-69. Everything but the kitchen sink Almost
-everything imaginable.
-70. Feeding frenzy A situation in which people try to
-get as much as possible of something, for example
-information about an event, especially in an
-unpleasant way.
-7\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Cell Biology & Human Physiology based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+# Cell Biology & Human Physiology\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 682 ---\nVERB
+A verb is a word (such as jump, think, happen or exist)
+that is usually one of the main parts of a sentence and that
+expresses an action, an occurence, or a state of being.
+Classification of Verbs
+Verbs can be classified as following
+1. Main Verbs
+Main verbs have meanings related to actions, events and
+states. Most verbs in English are main verbs. e.g. go, show,
+exist, etc.
+Main verbs can be divided into two categories; transitive
+and intransitive which are as follow
+(i) Transitive Verbs
+A transitive verb is a verb that can take a direct object.
+e.g.
+(ii) Intransitive Verbs
+An Intransitive verb has two characteristics. First, it is an
+action verb expressing a double activity like arrive, go, lie,
+sneeze, sit, die, etc. Second, unlike a transitive verb, it will
+not have a direct object receiving the action.
+Intransitive verbs have the pattern N + V (Noun + Verb).
+The clause is complete without anything else.
+e.g.
+– John smiled.
+– Nothing happened.
+Here, ‘smiled’ and ‘happened’ are intransitive verbs.
+Linking Verbs
+Some main verbs are called Linking Verbs. These verbs are
+not followed by objects. Instead they are followed by
+phrases which give extra information about the subject.
+Linking verbs include appear, feel, look, seem sound, smell,
+taste, become, etc.
+e.g.
+– A face appeared at the window.
+In this sentence, ‘appeared’ is the linking verb and ‘at the
+window’ is the phrase.
+2. Auxiliary Verbs
+Auxiliary verbs can be divided into two categories; primary
+and modal auxiliary verbs, which are as follow
+(i) Primary Auxiliary Verbs
+Primary auxiliary verbs can further be divided as following
+i. Verbs ‘to be’ : is, am, are, was, were, will be, shall be
+ii. Verbs ‘to have’ : have, has, had
+iii. Verbs ‘to do’ : do, does, did
+(ii) Modal Auxiliary Verbs
+Modal auxiliary verb denote the mood/mode of the
+subject. They are can, could, may, might, should, used to,
+need, dare, etc.
+Tenses
+There are three basic tenses : Present, Past and Future.
+These can fu\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Cell Biology & Human Physiology based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
         Cellular Architecture:
         [Cell Membrane] -> [Cytoplasm] -> [Nucleus]
                                |-> [Mitochondria] (ATP)

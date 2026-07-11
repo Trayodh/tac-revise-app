@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY", "mock_key"))
 
-PATHFINDER_PDF = "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf"
+PATHFINDER_PDF = "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf"
 INSIGHT_SSB_PDF = "insight_ssb_cheat_codes.pdf"
 SSBCRACK_PDF = "general_science_ssbcrack.pdf"
 
