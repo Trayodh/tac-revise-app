@@ -210,6 +210,140 @@ if (savedTheme) {
 // 7. SCREEN SWITCHER & NAVIGATION
 // ==========================================
 
+window.updateBreadcrumbs = function() {
+  const container = document.getElementById('global-breadcrumbs');
+  const list = document.getElementById('breadcrumb-list');
+  const schema = document.getElementById('breadcrumb-schema');
+  
+  if (!container || !list) return;
+  
+  let breadcrumbs = [];
+  
+  // Base Home
+  breadcrumbs.push({ label: 'Home', action: () => switchScreen('dashboard') });
+  
+  const screenId = typeof STATE !== 'undefined' ? STATE.currentScreen : 'dashboard';
+  
+  // Mapping of screens to base names
+  const screenNames = {
+    'notes': 'Study Material',
+    'current-affairs': 'Current Affairs',
+    'cbt-mock-hub': 'Mock Tests',
+    'ai-console': 'Ask Dronacharya',
+    'paper-solver': 'Paper Solver',
+    'vocab-builder': 'Vocab Builder',
+    'advanced-solver': 'Advanced Solver',
+    'question-bank': 'Question Bank'
+  };
+  
+  if (screenId !== 'dashboard' && screenNames[screenId]) {
+    breadcrumbs.push({ label: screenNames[screenId], action: () => switchScreen(screenId) });
+  }
+  
+  // Handle specifics for Notes / Study Material
+  if (screenId === 'notes') {
+    if (typeof currentSubjectFilter !== 'undefined' && currentSubjectFilter !== 'all' && typeof NOTES_DATABASE !== 'undefined' && NOTES_DATABASE[currentSubjectFilter]) {
+      const subject = NOTES_DATABASE[currentSubjectFilter];
+      breadcrumbs.push({ label: subject.title, action: () => {
+         const subjectsView = document.getElementById('notes-view-subjects');
+         const chaptersView = document.getElementById('notes-view-chapters');
+         const contentView = document.getElementById('notes-view-content');
+         if (chaptersView) chaptersView.style.display = 'block';
+         if (contentView) contentView.style.display = 'none';
+         if (subjectsView) subjectsView.style.display = 'none';
+         updateBreadcrumbs();
+      }});
+      
+      const contentView = document.getElementById('notes-view-content');
+      
+      if (contentView && contentView.style.display === 'block') {
+         // We are in a specific topic
+         if (typeof selectedChapterId !== 'undefined' && typeof selectedTopicId !== 'undefined') {
+            const chapter = subject.chapters.find(c => c.id === selectedChapterId);
+            if (chapter) {
+               breadcrumbs.push({ label: chapter.title, action: () => {
+                 const chaptersView = document.getElementById('notes-view-chapters');
+                 const contentView = document.getElementById('notes-view-content');
+                 if (chaptersView) chaptersView.style.display = 'block';
+                 if (contentView) contentView.style.display = 'none';
+                 updateBreadcrumbs();
+               }}); 
+               
+               const topic = chapter.topics.find(t => t.id === selectedTopicId);
+               if (topic) {
+                  breadcrumbs.push({ label: topic.title, action: null }); 
+               }
+            }
+         }
+      }
+    }
+  }
+  
+  // Render HTML
+  if (breadcrumbs.length <= 1) {
+    container.style.display = 'none'; // Only Home, don't show
+    if (schema) schema.textContent = '{}';
+    return;
+  }
+  
+  container.style.display = 'block';
+  list.innerHTML = '';
+  
+  const schemaList = [];
+  const origin = window.location.origin;
+  const path = window.location.pathname;
+  
+  const svgChevron = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>`;
+  
+  breadcrumbs.forEach((item, index) => {
+    const isLast = index === breadcrumbs.length - 1;
+    const li = document.createElement('li');
+    li.className = 'breadcrumb-item' + (isLast ? ' active' : '');
+    if (isLast) li.setAttribute('aria-current', 'page');
+    
+    const element = isLast ? document.createElement('span') : document.createElement('a');
+    element.className = 'breadcrumb-link';
+    element.textContent = item.label;
+    
+    if (!isLast && item.action) {
+      element.href = '#';
+      element.addEventListener('click', (e) => {
+        e.preventDefault();
+        item.action();
+      });
+    }
+    
+    li.appendChild(element);
+    
+    if (!isLast) {
+      const sep = document.createElement('span');
+      sep.className = 'breadcrumb-separator';
+      sep.innerHTML = svgChevron;
+      sep.setAttribute('aria-hidden', 'true');
+      li.appendChild(sep);
+    }
+    
+    list.appendChild(li);
+    
+    schemaList.push({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.label,
+      "item": isLast ? origin + path : origin + path + "#" + encodeURIComponent(item.label)
+    });
+  });
+  
+  // Render Schema
+  if (schema) {
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": schemaList
+    };
+    schema.textContent = JSON.stringify(jsonLd, null, 2);
+  }
+};
+
 window.backToNotesSubjects = function() {
   currentSubjectFilter = 'all';
   const subjectsView = document.getElementById('notes-view-subjects');
@@ -219,6 +353,7 @@ window.backToNotesSubjects = function() {
   if (chaptersView) chaptersView.style.display = 'none';
   if (contentView) contentView.style.display = 'none';
   renderNotesBrowser();
+  updateBreadcrumbs();
 };
 
 function switchScreen(screenId) {
@@ -254,6 +389,7 @@ function switchScreen(screenId) {
   } else if (screenId === "vocab-builder") {
     renderVocabBuilder();
   }
+  updateBreadcrumbs();
 }
 
 window.tellMeMoreHistoryStack = [];
@@ -655,6 +791,7 @@ window.openNotesSubject = function(subjectId) {
   }
   
   renderNotesBrowser();
+  updateBreadcrumbs();
 };
 
 window.backToNotesSubjects = function() {
@@ -668,6 +805,8 @@ window.backToNotesSubjects = function() {
     subjectsView.style.display = 'block';
     subjectsView.classList.add('active');
   }
+  renderNotesBrowser();
+  updateBreadcrumbs();
 };
 
 window.backToNotesChapters = function() {
@@ -838,6 +977,7 @@ function renderNotesBrowser() {
           
           renderTopicView(subjectId, chapter.id, topic.id);
           renderNotesBrowser();
+          if (typeof updateBreadcrumbs === 'function') updateBreadcrumbs();
         });
         chapterDiv.appendChild(topicLink);
       });

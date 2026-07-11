@@ -26,6 +26,10 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <!-- Mermaid.js for drawing flowcharts, timelines, and concept maps -->
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <!-- SEO Breadcrumb Schema -->
+  <script type="application/ld+json" id="breadcrumb-schema">
+    {}
+  </script>
   <script>
     if (typeof mermaid !== 'undefined') {
       mermaid.initialize({
@@ -186,9 +190,16 @@
       </div>
     </aside>
 
-    <!-- Main Workspace -->
+    <!-- Main Content Area -->
     <main class="main-content">
-
+      
+      <!-- GLOBAL BREADCRUMBS -->
+      <nav id="global-breadcrumbs" class="breadcrumb-nav" aria-label="Breadcrumb" style="display: none;">
+        <ol class="breadcrumb-list" id="breadcrumb-list">
+          <!-- Dynamic breadcrumbs will be injected here -->
+        </ol>
+      </nav>
+  
       <!-- SCREEN: DASHBOARD -->
       <section id="screen-dashboard" class="screen active">
         <h1>Command Centre</h1>
