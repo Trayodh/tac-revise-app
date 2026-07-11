@@ -107,4 +107,9 @@ if (fs.existsSync(path.join(srcDir, 'Pathfinder_Premium'))) {
   console.log('Copied dir Pathfinder_Premium');
 }
 
+if (fs.existsSync(path.join(srcDir, 'Pathfinder_Elite'))) {
+  copyDirRecursiveSync(path.join(srcDir, 'Pathfinder_Elite'), path.join(destDir, 'Pathfinder_Elite'));
+  console.log('Copied dir Pathfinder_Elite');
+}
+
 console.log('Done copying to www');
