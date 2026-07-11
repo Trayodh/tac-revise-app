@@ -1,0 +1,15 @@
+[
+  {
+    "subject": "Mathematics",
+    "topic": "Statistics",
+    "file_path": "output\\modules\\Mathematics\\28_Statistics.md",
+    "start_page": 363,
+    "end_page": 384,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  }
+]
