@@ -5,7 +5,7 @@ import time
 import subprocess
 import fitz  # PyMuPDF
 from dotenv import load_dotenv
-from groq import Groq
+import google.generativeai as genai
 from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type
 from prompts import SYSTEM_PROMPT, build_synthesis_prompt
 
@@ -18,10 +18,11 @@ PDF_PATH = "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf"
 
 # Initialize Gemini Client
 load_dotenv()
-api_key = os.environ.get("GROQ_API_KEY")
+api_key = os.environ.get("GEMINI_API_KEY")
 if not api_key:
-    raise ValueError("GROQ_API_KEY environment variable not set.")
-client = Groq(api_key=api_key)
+    raise ValueError("GEMINI_API_KEY environment variable not set.")
+genai.configure(api_key=api_key)
+model = genai.GenerativeModel('gemini-2.5-flash', system_instruction=SYSTEM_PROMPT)
 
 def extract_pdf_pages(doc, start_page, end_page):
     """Extracts text from a 1-based page range."""
@@ -59,16 +60,12 @@ def find_enrichment_text(enrichment_dir, hint):
     return combined_text[:20000] if combined_text else "No specific external notes matched."
 
 @retry(wait=wait_exponential(multiplier=2, min=5, max=60), stop=stop_after_attempt(5))
-def call_groq(prompt):
-    response = client.chat.completions.create(
-        model='llama-3.3-70b-versatile',
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0.4,
+def call_llm(prompt):
+    response = model.generate_content(
+        prompt,
+        generation_config=genai.types.GenerationConfig(temperature=0.4)
     )
-    return response.choices[0].message.content
+    return response.text
 
 def main():
     with open('scripts/taxonomy_map.json', 'r') as f:
@@ -110,11 +107,15 @@ def main():
             # 2. Context Enrichment
             enrichment_text = find_enrichment_text(enrichment_dir, hint)
             
+            # TRUNCATE to avoid Groq 8k context limit and TPM rate limits
+            textbook_text = textbook_text[:12000]
+            enrichment_text = enrichment_text[:8000]
+            
             prompt = build_synthesis_prompt(title, textbook_text, enrichment_text)
             
             try:
                 # 3. AI Generation with Retry
-                output_text = call_groq(prompt)
+                output_text = call_llm(prompt)
                 
                 # Write output markdown
                 with open(file_path, "w", encoding="utf-8") as out_f:
@@ -151,10 +152,12 @@ def main():
                     writer.writerows(csv_rows)
 
                 print(f"Successfully generated {file_path}")
+                time.sleep(5) # Respect Gemini 15 RPM limit
                 
                 # Push to Git / Vercel
                 try:
-                    subprocess.run(["git", "add", file_path, os.path.join(OUTPUT_DIR, "metadata.json"), os.path.join(OUTPUT_DIR, "toc.json"), os.path.join(OUTPUT_DIR, "chapters.csv")], check=True)
+                    subprocess.run(["python", "scripts/compile_notes.py"], check=True)
+                    subprocess.run(["git", "add", file_path, os.path.join(OUTPUT_DIR, "metadata.json"), os.path.join(OUTPUT_DIR, "toc.json"), os.path.join(OUTPUT_DIR, "chapters.csv"), "www/notes_generated.js"], check=True)
                     subprocess.run(["git", "commit", "-m", f"Auto-generated module: {title}"], check=True)
                     subprocess.run(["git", "push"], check=True)
                     print(f"Pushed {title} to Vercel!")

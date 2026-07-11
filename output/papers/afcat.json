@@ -1,0 +1,1335 @@
+{
+  "exam_type": "AFCAT.JSON",
+  "questions": [
+    {
+      "type": "standalone_question",
+      "question_text": "What is the age limit for candidates holding valid and current Commercial Pilot License issued by DGCA (India) for Flying Branch?",
+      "options": {
+        "A": "20 to 24 years",
+        "B": "20 to 26 years",
+        "C": "20 to 28 years",
+        "D": "20 to 30 years"
+      },
+      "correct_option": "B",
+      "explanation": "The age limit for candidates holding valid and current Commercial Pilot License issued by DGCA (India) for Flying Branch is relaxable up to 26 years."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the minimum percentage of marks required in Maths and Physics at 10+2 level for Flying Branch?",
+      "options": {
+        "A": "50%",
+        "B": "55%",
+        "C": "60%",
+        "D": "65%"
+      },
+      "correct_option": "C",
+      "explanation": "The minimum percentage of marks required in Maths and Physics at 10+2 level for Flying Branch is 60%."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the duration of training for Flying and Ground Duty (Technical) Branches at Air Force Academy?",
+      "options": {
+        "A": "52 weeks",
+        "B": "64 weeks",
+        "C": "74 weeks",
+        "D": "84 weeks"
+      },
+      "correct_option": "C",
+      "explanation": "The duration of training for Flying and Ground Duty (Technical) Branches at Air Force Academy is 74 weeks."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the stipend received by Flight Cadets during the last one year of training?",
+      "options": {
+        "A": "Rs. 40,000/- per month",
+        "B": "Rs. 50,000/- per month",
+        "C": "Rs. 56,100/- per month",
+        "D": "Rs. 60,000/- per month"
+      },
+      "correct_option": "C",
+      "explanation": "The stipend received by Flight Cadets during the last one year of training is Rs. 56,100/- per month."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the meaning of the word 'Affluent'?",
+      "options": {
+        "A": "Prosperous",
+        "B": "Self-obsessed",
+        "C": "Genuine",
+        "D": "Agitation"
+      },
+      "correct_option": "A",
+      "explanation": "The word 'Affluent' means having a lot of money or resources."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the meaning of the word 'Pilfer'?",
+      "options": {
+        "A": "Fearless",
+        "B": "Steal",
+        "C": "Unlawful",
+        "D": "Subjugation"
+      },
+      "correct_option": "B",
+      "explanation": "The word 'Pilfer' means to steal something, especially in a sneaky or dishonest way."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the meaning of the word 'Debacle'?",
+      "options": {
+        "A": "Victory",
+        "B": "Accomplishment",
+        "C": "Notoriety",
+        "D": "Failure"
+      },
+      "correct_option": "D",
+      "explanation": "The word 'Debacle' means a complete failure or a situation that has become very bad."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the opposite of the word 'Mitigate'?",
+      "options": {
+        "A": "Restful",
+        "B": "Exalted",
+        "C": "Aggravate",
+        "D": "Enumerate"
+      },
+      "correct_option": "C",
+      "explanation": "The word 'Mitigate' means to make something less severe or unpleasant, so the opposite is 'Aggravate', which means to make something worse."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the opposite of the word 'Luscious'?",
+      "options": {
+        "A": "Unappetizing",
+        "B": "Delicious",
+        "C": "Ardent",
+        "D": "Twisted"
+      },
+      "correct_option": "A",
+      "explanation": "The word 'Luscious' means very tasty or appealing, so the opposite is 'Unappetizing', which means not appealing to eat."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the opposite of the word 'Allure'?",
+      "options": {
+        "A": "Egotistic",
+        "B": "Attract",
+        "C": "Repel",
+        "D": "Overcome"
+      },
+      "correct_option": "C",
+      "explanation": "The word 'Allure' means to attract or tempt someone, so the opposite is 'Repel', which means to push away or reject."
+    },
+    {
+      "type": "passage_block",
+      "context_text": "Some people believe that they are masters of their own fate. Other people see themselves as pawns of fats, believing that what happens to them in their lives is due to luck or chance. The first type, those who believe that they control their destinies, have been labelled internals, whereas the latter, who see their lives as being controlled by outside forces, have been called externals. Internals search more actively for information before making a decision, are more motivated to achieve, and make a greater attempt to control their environment. Externals, however, are more compliant and willing to follow directions. Therefore, internals do well on sophisticated tasks which include most, managerial and professional jobs that require complex information processing and learning. In addition, internals are more suited to jobs that require initiative and independence of action. Almost all successful sales people, for instance are internals. In contrast, externals should do well on jobs that are well structured and routine and in which success depends heavily on complying with the directions of others.",
+      "child_questions": [
+        {
+          "question_text": "Which one of the following is not correct?",
+          "options": {
+            "A": "Internals have more confidence in their ability",
+            "B": "Internals are more enterprising",
+            "C": "Internals go in for routine jobs",
+            "D": "Internals are more inquisitive"
+          },
+          "correct_option": "C",
+          "explanation": "According to the passage, internals are more suited to jobs that require initiative and independence of action, not routine jobs."
+        },
+        {
+          "question_text": "Which one of these is correct?",
+          "options": {
+            "A": "Internals seek jobs which call for more initiative",
+            "B": "Internals seek jobs which are full of fun and enjoyment",
+            "C": "Internals believe in receiving guidance and direction from superiors only",
+            "D": "Internals believe in destiny"
+          },
+          "correct_option": "A",
+          "explanation": "According to the passage, internals are more suited to jobs that require initiative and independence of action."
+        }
+      ]
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What does the phrase 'The sight of the accident made my flesh creep' mean?",
+      "options": {
+        "A": "Worried me",
+        "B": "Frightened me",
+        "C": "Confused me",
+        "D": "Drew my attention"
+      },
+      "correct_option": "B",
+      "explanation": "The phrase means that the sight of the accident frightened or scared the speaker."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What does the phrase 'I just paid him a left-handed compliment' mean?",
+      "options": {
+        "A": "An honest",
+        "B": "A well deserved",
+        "C": "An insincere",
+        "D": "A flattering"
+      },
+      "correct_option": "C",
+      "explanation": "The phrase means that the speaker gave an insincere or backhanded compliment, which is not genuinely meant."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What does the phrase 'The party stalwarts have advised the President to take it lying down for a while' mean?",
+      "options": {
+        "A": "To show no reaction",
+        "B": "To take rest",
+        "C": "To be on the defensive",
+        "D": "To be cautious"
+      },
+      "correct_option": "A",
+      "explanation": "The phrase means that the party stalwarts have advised the President to not react or respond to the situation for the time being."
+    },
+    {
+      "type": "passage_block",
+      "context_text": "The much-awaited New Year is finally here. While you might have made plans to exercise daily, read 20 books before the year ends, splurge less on clothes or learn to play a musical instrument, but have you spared a thought about your personal life? In case, you are still figuring out what all you can do to climb up the corporate ladder in 2020, we have got you covered. We have compiled a list of six small changes that can make a huge difference in your career. Apart from increasing your daily productivity and managing the stress level at workplace, these habits would also help you to achieve a better work-life balance.",
+      "child_questions": [
+        {
+          "question_text": "What word fits the blank in the sentence 'While you might have made _______ to exercise daily...'?",
+          "options": {
+            "A": "Plans",
+            "B": "Reports",
+            "C": "Expenses",
+            "D": "Resolutions"
+          },
+          "correct_option": "D",
+          "explanation": "The word 'resolutions' fits the context of making plans or promises to oneself for the new year."
+        },
+        {
+          "question_text": "What word fits the blank in the sentence '...or learn to _______ a musical instrument'?",
+          "options": {
+            "A": "Play",
+            "B": "Make",
+            "C": "Teach",
+            "D": "Perform"
+          },
+          "correct_option": "A",
+          "explanation": "The word 'play' is the most suitable option as it is a common verb used in the context of learning a musical instrument."
+        }
+      ]
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "If in a certain code language \u2018NAME\u2019 is written as \u2018OYPA\u2019, then how will \u2018TEAM\u2019 be coded in that language?",
+      "options": {
+        "A": "UCDI",
+        "B": "UCID",
+        "C": "UICD",
+        "D": "UDCI"
+      },
+      "correct_option": "A",
+      "explanation": "The pattern of the code is each letter is shifted 1 position forward in the alphabet, so N becomes O, A becomes B, M becomes N, and E becomes F, but since the answer choices do not include F, we can assume the pattern is each letter is shifted 1 position forward in the alphabet, with A wrapping around to the end, so A becomes B, and the last letter of the alphabet Z would become A. Using this pattern, T becomes U, E becomes F, A becomes B, and M becomes N, so TEAM becomes UCDN, but since UCDN is not an answer choice, we can try another method. If we look at the answer choices, we can see that they are all similar, so we can try to find a pattern. If we compare the given code, NAME becomes OYPA, we can see that N becomes O, A becomes Y, M becomes P, and E becomes A. Using this pattern, T becomes U, E becomes C, A becomes D, and M becomes I, so TEAM becomes UCDI."
+    },
+    {
+      "type": "passage_block",
+      "context_text": "Directions (Q. Nos. 79 and 80) What comes in place of question mark in the following letter series?",
+      "child_questions": [
+        {
+          "question_text": "ABC, PQR, DEF, STU, ?",
+          "options": {
+            "A": "GKL",
+            "B": "VWX",
+            "C": "GHI",
+            "D": "IJK"
+          },
+          "correct_option": "C",
+          "explanation": "The pattern of the series is the alphabet is split into two, the first half is A-M and the second half is N-Z. The series starts with the first three letters of the first half, then the first three letters of the second half, then the next three letters of the first half, then the next three letters of the second half, and so on. So the series would be ABC, PQR, DEF, STU, GHI."
+        },
+        {
+          "question_text": "XWA, VTC, SPF, OKJ, ?",
+          "options": {
+            "A": "JDN",
+            "B": "JEO",
+            "C": "LPN",
+            "D": "JDP"
+          },
+          "correct_option": "B",
+          "explanation": "The pattern of the series is each letter is shifted 1 position backward in the alphabet, with A wrapping around to the end, so A becomes Z, and the last letter of the alphabet Z would become A. Using this pattern, X becomes W, W becomes V, A becomes Z and then it wraps around to A, so XWA becomes VTC, then VTC becomes SPF, then SPF becomes OKJ, then OKJ becomes JEO."
+        }
+      ]
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is?",
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "18",
+        "D": "25"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "In a certain store, the profit is 320% of the cost. If the cost increases by 25% but the selling price remains constant, approximately what percentage of the selling price is the profit?",
+      "options": {
+        "A": "30%",
+        "B": "70%",
+        "C": "100%",
+        "D": "250%"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "If A x = % of y and B y = % of x, then which of the following is true?",
+      "options": {
+        "A": "A is smaller than B",
+        "B": "A is greater than B",
+        "C": "None of these",
+        "D": "If x is smaller than y, then A is greater than B"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "If 20% of a b = , then b% of 20 is the same as",
+      "options": {
+        "A": "4% of a",
+        "B": "5% of a",
+        "C": "20% of a",
+        "D": "None of these"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Seats for Mathematics, Physics and Biology in a school are in the ratio 5 : 7 : 8. There is a proposal to increase these seats by 40%, 50% and 75% respectively. What will be the ratio of increased seats?",
+      "options": {
+        "A": "2 : 3 : 4",
+        "B": "6 : 7 : 8",
+        "C": "6 : 8 : 9",
+        "D": "None of these"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Salaries of Ravi and Sumit are in the ratio 2 : 3. If the salary of each is increased by ` 4000, the new ratio becomes 40 : 57. What is Sumit\u2019s salary?",
+      "options": {
+        "A": "` 17000",
+        "B": "` 20000",
+        "C": "` 25500",
+        "D": "` 38000"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "In a mixture 60 L, the ratio of milk and water is 2 : 1. If this ratio is to be 1 : 2, then the quantity of water to be further added is",
+      "options": {
+        "A": "20 L",
+        "B": "30 L",
+        "C": "40 L",
+        "D": "60 L"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "There is 60% increase in an amount in 6 yr at simple interest. What will be the compound interest of ` 12000 after 3 yr at the same rate?",
+      "options": {
+        "A": "` 2160",
+        "B": "` 3120",
+        "C": "` 3972",
+        "D": "` 6240"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "The sum of ages of 5 children born at the intervals of 3 yr each is 50 yr. What is the age of the youngest child?",
+      "options": {
+        "A": "4 yr",
+        "B": "5 yr",
+        "C": "8 yr",
+        "D": "10 yr"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "An accurate clock shows 8 o\u2019clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o\u2019clock in the afternoon?",
+      "options": {
+        "A": "144\u00b0",
+        "B": "150\u00b0",
+        "C": "168\u00b0",
+        "D": "180\u00b0"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "The average weight of 8 person\u2019s increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person?",
+      "options": {
+        "A": "76 kg",
+        "B": "76.5 kg",
+        "C": "85 kg",
+        "D": "Data inadequate"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Present ages of Sameer and Anand are in the ratio of 5 : 4 respectively. Three years hence, the ratio of their ages will become 11 : 9 respectively. What is Anand\u2019s present age in years?",
+      "options": {
+        "A": "24 yr",
+        "B": "27 yr",
+        "C": "40 yr",
+        "D": "Cannot be determined"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "If a b \u2212 = 3 and a b 2 2 29 + = , find the value of ab.",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "15",
+        "D": "18"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What should come in place of both x in the equation x x 128 162 = ?",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "144",
+        "D": "196"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for ` 3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?",
+      "options": {
+        "A": "` 375",
+        "B": "` 400",
+        "C": "` 600",
+        "D": "` 750"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "A man complete a journey in 10 h. He travels first half of the journey at the rate of 21 km/h and second half at the rate of 24 km/h. Find the total journey (in km).",
+      "options": {
+        "A": "220",
+        "B": "224",
+        "C": "245",
+        "D": "278"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Two trains running in opposite directions, one at 25 km/h and the other at 30 km/h, take 12 seconds to cross each other. What is the length of the two trains combined?",
+      "options": {
+        "A": "100 m",
+        "B": "110 m",
+        "C": "120 m",
+        "D": "130 m"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for ` 3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?",
+      "options": {
+        "A": "` 375",
+        "B": "` 400",
+        "C": "` 600",
+        "D": "` 750"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "A man complete a journey in 10 h. He travels first half of the journey at the rate of 21 km/h and second half at the rate of 24 km/h. Find the total journey (in km).",
+      "options": {
+        "A": "220",
+        "B": "224",
+        "C": "245",
+        "D": "278"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Two trains running in opposite directions cross a man standing on the platform in 27 s and 17 s respectively and they cross each other in 23 s. The ratio of their speeds is?",
+      "options": {
+        "A": "1 : 3",
+        "B": "3 : 2",
+        "C": "2 : 3",
+        "D": "None of these"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "The value of 01 01 01 002 002 002 02 02 02 004 004 0 . . . . . . . . . . . . \u00d7 \u00d7 + \u00d7 \u00d7 \u00d7 \u00d7 + \u00d7 \u00d7 04 is",
+      "options": {
+        "A": "0.0125",
+        "B": "25",
+        "C": "0.25",
+        "D": "0.125"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "The ratio between the perimeter and the breadth of a rectangle is 5 : 1. If the area of the rectangle is 216 sq. cm what is the length of the rectangle?",
+      "options": {
+        "A": "24 cm",
+        "B": "18 cm",
+        "C": "16 cm",
+        "D": "None of these"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "If 5 2 5 1 1 3 2 x x x + + = , then the value of x x + \uf8eb \uf8ed\uf8ec \uf8f6 \uf8f8\uf8f7 1 2 is",
+      "options": {
+        "A": "15",
+        "B": "10",
+        "C": "20",
+        "D": "5"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "passage_block",
+      "context_text": "Directions (Q.Nos. 21-25) Three of the words will be in the same classification, the remaining one will not be. Your answer will be the one word that does not belong in the same classification as the others.",
+      "child_questions": [
+        {
+          "type": "standalone_question",
+          "question_text": "Parsley, Basil, Dill, Mayonnaise",
+          "options": {
+            "A": "Parsley",
+            "B": "Basil",
+            "C": "Dill",
+            "D": "Mayonnaise"
+          },
+          "correct_option": null,
+          "explanation": null
+        },
+        {
+          "type": "standalone_question",
+          "question_text": "Tulip, Rose, Bud, Daisy",
+          "options": {
+            "A": "Tulip",
+            "B": "Rose",
+            "C": "Bud",
+            "D": "Daisy"
+          },
+          "correct_option": null,
+          "explanation": null
+        },
+        {
+          "type": "standalone_question",
+          "question_text": "Rye, Sourdough, Pumpernickel, Loaf",
+          "options": {
+            "A": "Rye",
+            "B": "Sourdough",
+            "C": "Pumpernickel",
+            "D": "Loaf"
+          },
+          "correct_option": null,
+          "explanation": null
+        },
+        {
+          "type": "standalone_question",
+          "question_text": "Scythe, Knife, Pliers, Saw",
+          "options": {
+            "A": "Scythe",
+            "B": "Knife",
+            "C": "Pliers",
+            "D": "Saw"
+          },
+          "correct_option": null,
+          "explanation": null
+        },
+        {
+          "type": "standalone_question",
+          "question_text": "Biology, Chemistry, Theology, Zoology",
+          "options": {
+            "A": "Biology",
+            "B": "Chemistry",
+            "C": "Theology",
+            "D": "Zoology"
+          },
+          "correct_option": null,
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the unit of (a) Mass (b) Work (c) Length (d) Energy",
+      "options": {
+        "A": "Mass",
+        "B": "Work",
+        "C": "Length",
+        "D": "Energy"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Dravidian Art associated with (a) Sangam period (b) Mughal period (c) Gupta period (d) Maurya period",
+      "options": {
+        "A": "Sangam period",
+        "B": "Mughal period",
+        "C": "Gupta period",
+        "D": "Maurya period"
+      },
+      "correct_option": null,
+      "explanation": null
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Where is UNIDO headquarters?",
+      "options": {
+        "A": "New York",
+        "B": "Brussels",
+        "C": "Vienna",
+        "D": "Rome"
+      },
+      "correct_option": "C",
+      "explanation": "UNIDO headquarters is located in Vienna, Austria."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "How many players are there in Kabaddi?",
+      "options": {
+        "A": "Six",
+        "B": "Eleven",
+        "C": "Five",
+        "D": "Seven"
+      },
+      "correct_option": "A",
+      "explanation": "A standard Kabaddi team consists of 7 players."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Which rivers flow into the Arabian Sea?",
+      "options": {
+        "A": "Ganga",
+        "B": "Narmada",
+        "C": "Tapti",
+        "D": "Both (b) and (c)"
+      },
+      "correct_option": "D",
+      "explanation": "The Narmada and Tapti rivers flow into the Arabian Sea."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Who wrote the book 'Mother India'?",
+      "options": {
+        "A": "Katherine Mayo",
+        "B": "Jawaharlal Nehru",
+        "C": "Mahatma Gandhi",
+        "D": "Rabindranath Tagore"
+      },
+      "correct_option": "A",
+      "explanation": "Katherine Mayo wrote the book 'Mother India', which was critical of Hindu society and culture."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the term 'Mallet' associated with?",
+      "options": {
+        "A": "Hockey",
+        "B": "Football",
+        "C": "Cricket",
+        "D": "Polo"
+      },
+      "correct_option": "D",
+      "explanation": "The term 'Mallet' is associated with the sport of Polo, which is a horseback mounted team sport."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Who was the first man to take a hat-trick in the World Cup?",
+      "options": {
+        "A": "Chetan Sharma",
+        "B": "Kapil Dev",
+        "C": "Sunil Gavaskar",
+        "D": "Sachin Tendulkar"
+      },
+      "correct_option": "A",
+      "explanation": "Chetan Sharma was the first man to take a hat-trick in the World Cup, achieving this feat in the 1987 World Cup."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the capital of Barbados?",
+      "options": {
+        "A": "Bridgetown",
+        "B": "Havana",
+        "C": "Kingston",
+        "D": "Port of Spain"
+      },
+      "correct_option": "A",
+      "explanation": "The capital of Barbados is Bridgetown."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the main objective of the United Nations Organisation (UNO)?",
+      "options": {
+        "A": "To promote international peace and security",
+        "B": "To promote economic development",
+        "C": "To promote social justice",
+        "D": "To promote environmental protection"
+      },
+      "correct_option": "A",
+      "explanation": "The main objective of the United Nations Organisation (UNO) is to promote international peace and security, develop friendly relations among nations, achieve international cooperation, and be a centre for harmonising the actions of nations."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the official language of the Union as per Article 343 of the Indian Constitution?",
+      "options": {
+        "A": "English",
+        "B": "Hindi",
+        "C": "Tamil",
+        "D": "Bengali"
+      },
+      "correct_option": "B",
+      "explanation": "As per Article 343 of the Indian Constitution, the official language of the Union shall be Hindi in Devanagari script."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the Preamble of the Indian Constitution based on?",
+      "options": {
+        "A": "The Objective Resolution moved by Jawaharlal Nehru",
+        "B": "The Constitution of the United States",
+        "C": "The Constitution of the United Kingdom",
+        "D": "The Constitution of France"
+      },
+      "correct_option": "A",
+      "explanation": "The Preamble of the Indian Constitution is based on the Objective Resolution moved by Jawaharlal Nehru in the Constituent Assembly on 13th December, 1946."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the Irani Trophy related to?",
+      "options": {
+        "A": "Cricket",
+        "B": "Hockey",
+        "C": "Football",
+        "D": "Tennis"
+      },
+      "correct_option": "A",
+      "explanation": "The Irani Trophy is related to cricket, and is a tournament played between the incumbent Ranji Trophy winners and the Rest of India Team."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Which of the following countries does the Tropic of Cancer not pass through?",
+      "options": {
+        "A": "India",
+        "B": "China",
+        "C": "Iran",
+        "D": "United Arab Emirates"
+      },
+      "correct_option": "C",
+      "explanation": "The Tropic of Cancer does not pass through Iran."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Who was the first musician to be awarded the Bharat Ratna?",
+      "options": {
+        "A": "M. S. Subbulakshmi",
+        "B": "Lata Mangeshkar",
+        "C": "Asha Bhosle",
+        "D": "Kishore Kumar"
+      },
+      "correct_option": "A",
+      "explanation": "M. S. Subbulakshmi was the first musician to be awarded the Bharat Ratna, India's highest civilian honour."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Who was related to the Kakori Conspiracy?",
+      "options": {
+        "A": "Ram Prasad Bismil",
+        "B": "Bhagat Singh",
+        "C": "Chandrashekhar Azad",
+        "D": "Ashfaqullah Khan"
+      },
+      "correct_option": "A",
+      "explanation": "Ram Prasad Bismil was related to the Kakori Conspiracy, which was an armed robbery that took place on 9th August, 1925."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Who built the Buland Darwaza?",
+      "options": {
+        "A": "Akbar",
+        "B": "Babur",
+        "C": "Humayun",
+        "D": "Shah Jahan"
+      },
+      "correct_option": "A",
+      "explanation": "The Buland Darwaza was built by Mughal Emperor Akbar to commemorate his victory over Gujarat."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the capital of Ghana?",
+      "options": {
+        "A": "Accra",
+        "B": "Lagos",
+        "C": "Cairo",
+        "D": "Nairobi"
+      },
+      "correct_option": "A",
+      "explanation": "The capital of Ghana is Accra."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the Khyber Pass?",
+      "options": {
+        "A": "A mountain pass in the Khyber Pakhtunkhwa province of Pakistan",
+        "B": "A mountain pass in the Himalayas",
+        "C": "A mountain pass in the Karakoram range",
+        "D": "A mountain pass in the Hindu Kush range"
+      },
+      "correct_option": "A",
+      "explanation": "The Khyber Pass is a mountain pass in the Khyber Pakhtunkhwa province of Pakistan, which connects the town of Landi Kotal to the Valley of Peshawar at Jamrud."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the novel 'Gone with the Wind' about?",
+      "options": {
+        "A": "The American Civil War",
+        "B": "The French Revolution",
+        "C": "The Russian Revolution",
+        "D": "The struggles of a young woman during the American Civil War"
+      },
+      "correct_option": "D",
+      "explanation": "The novel 'Gone with the Wind' is about the struggles of a young woman, Scarlett O'Hara, during the American Civil War and the Reconstruction era."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is a nautical mile equal to?",
+      "options": {
+        "A": "1000 meters",
+        "B": "1852 meters",
+        "C": "1609 meters",
+        "D": "1200 meters"
+      },
+      "correct_option": "B",
+      "explanation": "A nautical mile is equal to 1852 meters."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is Dravidian Art associated with?",
+      "options": {
+        "A": "The Indus Valley Civilization",
+        "B": "The Sangam period",
+        "C": "The Pallava dynasty",
+        "D": "The Chola dynasty"
+      },
+      "correct_option": "B",
+      "explanation": "Dravidian Art is associated with the Sangam period, which was from the first century BCE to the end of the 2nd century CE in South India."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the United Nations Industrial Development Organisation (UNIDO)?",
+      "options": {
+        "A": "A specialized agency of the United Nations that promotes industrial development",
+        "B": "A specialized agency of the United Nations that promotes economic development",
+        "C": "A specialized agency of the United Nations that promotes social development",
+        "D": "A specialized agency of the United Nations that promotes environmental protection"
+      },
+      "correct_option": "A",
+      "explanation": "The United Nations Industrial Development Organisation (UNIDO) is a specialized agency of the United Nations that promotes industrial development for poverty reduction, inclusive globalisation and environmental sustainability."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "How many players are there in a team in the sport of Kabaddi?",
+      "options": {
+        "A": "5 players",
+        "B": "6 players",
+        "C": "7 players",
+        "D": "8 players"
+      },
+      "correct_option": "C",
+      "explanation": "There are 7 players in a team in the sport of Kabaddi."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Which of the following rivers flows into the Arabian Sea?",
+      "options": {
+        "A": "Ganga",
+        "B": "Narmada",
+        "C": "Godavari",
+        "D": "Krishna"
+      },
+      "correct_option": "B",
+      "explanation": "The Narmada river flows into the Arabian Sea."
+    },
+    {
+      "type": "passage_block",
+      "context_text": "To eat and not be eaten\u2014that\u2019s the imperative of a caterpillar\u2019s existence. The leaf roller reduces its risks of being picked off by predators by silking together a temporary shelter in which to feed and rest. Adopting a different line of defense, the jelly slug extrudes a sticky tranlucent coating that may foul the mouth-parts of marauding ants. For its part, the aquatic larva, by its watery element, fashions a portable hideout from fragments of aquatic leaves. Cutting a serpentine trail as it feeds on tender young levels, the minute citrus leaf miner spends its entire larval life inside its host plant, thus keeping its appetising body safely under wraps.",
+      "child_questions": [
+        {
+          "type": "standalone_question",
+          "question_text": "Which varieties of caterpillars 'build' shelters to protect themselves?",
+          "options": {
+            "A": "Leaf roller and aquatic larva",
+            "B": "Leaf roller and jelly slug",
+            "C": "Jelly slug and aquatic larva",
+            "D": "Jelly slug and citrus leaf miner"
+          },
+          "correct_option": "A",
+          "explanation": "The leaf roller and aquatic larva are the varieties of caterpillars that 'build' shelters to protect themselves."
+        },
+        {
+          "type": "standalone_question",
+          "question_text": "Which one of the following caterpillars produces a sticky covering?",
+          "options": {
+            "A": "Leaf roller",
+            "B": "Jelly slug",
+            "C": "Aquatic larva",
+            "D": "Citrus leaf miner"
+          },
+          "correct_option": "B",
+          "explanation": "The jelly slug is the caterpillar that produces a sticky covering."
+        }
+      ]
+    },
+    {
+      "type": "passage_block",
+      "context_text": "How to express your ideas so that the reader will understand? It\u2019s good to write as if you were having a conversation with the reader. Use complete sentences and liven up your text with examples. A good practice is to raise questions and examine upon the topic from different perspectives. The benefits of good preparation will become apparent at this stage at the latest. Remember that if you try to collect information and think about the style and content at the same time, it is very unlikely that you will not succeed with either the style or the content. It will be difficult to get a proper flow, with the text proceeding smoothly from start to finish. Sometimes it\u2019s best to start from the easiest or most important part and then work through the more difficult parts at a later stage.",
+      "child_questions": [
+        {
+          "type": "standalone_question",
+          "question_text": "What is the best way to express your ideas in writing?",
+          "options": {
+            "A": "To write as if you were having a conversation with the reader",
+            "B": "To write in a formal tone",
+            "C": "To write in a technical tone",
+            "D": "To write in a persuasive tone"
+          },
+          "correct_option": "A",
+          "explanation": "The best way to express your ideas in writing is to write as if you were having a conversation with the reader."
+        },
+        {
+          "type": "standalone_question",
+          "question_text": "What is a good practice when writing?",
+          "options": {
+            "A": "To raise questions and examine upon the topic from different perspectives",
+            "B": "To use complex sentences and jargon",
+            "C": "To use short sentences and simple language",
+            "D": "To use a formal tone and avoid examples"
+          },
+          "correct_option": "A",
+          "explanation": "A good practice when writing is to raise questions and examine upon the topic from different perspectives."
+        }
+      ]
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Spektr-RG space telescope is a joint venture of which of the following countries?",
+      "options": {
+        "A": "India and France",
+        "B": "France and USA",
+        "C": "Russia and Germany",
+        "D": "India and China"
+      },
+      "correct_option": "C",
+      "explanation": "The Spektr-RG telescope is a joint venture of Russia and Germany that was launched on 13th July, 2019."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Who is considered the \u2018Father of Indian Revolutionary Ideas\u2019?",
+      "options": {
+        "A": "Raja Rammohan Roy",
+        "B": "Aurobindo Ghosh",
+        "C": "Bipin Chandra Pal",
+        "D": "MG Ranade"
+      },
+      "correct_option": "C",
+      "explanation": "Bipin Chandra Pal is considered as the \u2018Father of Indian Revolutionary Ideas\u2019."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "The Khilafat Movement was merged with which movement?",
+      "options": {
+        "A": "Quit India Movement",
+        "B": "Non-Cooperation Movement",
+        "C": "Civil Disobedience Movement",
+        "D": "Swadeshi Movement"
+      },
+      "correct_option": "B",
+      "explanation": "Gandhiji in order to get the support of Muslim community merged his Non-Cooperation Movement with Khilafat Movement."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Who is known as the \u2018Female Don Bradman\u2019 in the Cricketing World?",
+      "options": {
+        "A": "Meghann Moira Lanning",
+        "B": "Katherine Helen Brunt",
+        "C": "Jhulan Goswami",
+        "D": "Elizabeth Rebecca Wilson"
+      },
+      "correct_option": "D",
+      "explanation": "Elizabeth Rebecca Wilson was a former Australian cricket player who was popularly known as the \u2018Female Don Bradman\u2019."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "The capital of Columbia is",
+      "options": {
+        "A": "Lisbon",
+        "B": "Seville",
+        "C": "Bogota",
+        "D": "Lima"
+      },
+      "correct_option": "C",
+      "explanation": "Bogota is the capital of Columbia."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "NASA will launch its Mars Rover in 2020 from which launching vehicle?",
+      "options": {
+        "A": "Atlas V-541",
+        "B": "Atlas V-550",
+        "C": "GSLV MIC-III",
+        "D": "PSLV-C47"
+      },
+      "correct_option": "A",
+      "explanation": "NASA will launch its Mars Rover in 2020 from Atlas V-541."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Who is the winner of UEFA champions league 2019?",
+      "options": {
+        "A": "Spain",
+        "B": "Brazil",
+        "C": "Portugal",
+        "D": "England"
+      },
+      "correct_option": "D",
+      "explanation": "The winner of UEFA champions league 2019 is England."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Which of the following metal is used for making aeroplane parts?",
+      "options": {
+        "A": "Silver",
+        "B": "Aluminium",
+        "C": "Iron",
+        "D": "Zinc"
+      },
+      "correct_option": "B",
+      "explanation": "Aluminium is used for making aeroplane parts."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "The Kailasa Temple in Ellora caves was built by which dynasty?",
+      "options": {
+        "A": "Satvahana",
+        "B": "Rashtrakuta",
+        "C": "Pallavas",
+        "D": "Chalukyas"
+      },
+      "correct_option": "B",
+      "explanation": "The Kailasa Temple in Ellora caves was built by Rashtrakuta dynasty."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Which of the following desert is not located in Asian Continent?",
+      "options": {
+        "A": "Sahara Desert",
+        "B": "Gobi Desert",
+        "C": "Thar Desert",
+        "D": "Taklamakan Desert"
+      },
+      "correct_option": "A",
+      "explanation": "Sahara Desert is not located in Asian Continent."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Which radioactive material is used to treat cancer?",
+      "options": {
+        "A": "Cobalt-60",
+        "B": "Thorium",
+        "C": "Uranium",
+        "D": "Caesium"
+      },
+      "correct_option": "A",
+      "explanation": "Cobalt-60 is used to treat cancer."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "The 2024 Summer Olympics will be held in?",
+      "options": {
+        "A": "Tokyo",
+        "B": "Qatar",
+        "C": "Paris",
+        "D": "London"
+      },
+      "correct_option": "C",
+      "explanation": "The 2024 Summer Olympics will be held in Paris."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Who was the founder of INA?",
+      "options": {
+        "A": "Mohan Singh",
+        "B": "Subhash Chandra Bose",
+        "C": "Rash Behari Bose",
+        "D": "C R Das"
+      },
+      "correct_option": "A",
+      "explanation": "Mohan Singh was the founder of INA."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "Kamaljeet Sandhu won gold medal in which sports event?",
+      "options": {
+        "A": "Commonwealth Games",
+        "B": "Bangkok Asian Games",
+        "C": "Summer Olympic Games",
+        "D": "World Boxing Championships"
+      },
+      "correct_option": "B",
+      "explanation": "Kamaljeet Sandhu won gold medal in Bangkok Asian Games."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the name of India\u2019s surface to surface ballistic missile with 5000 km range which is developed by DRDO?",
+      "options": {
+        "A": "Brahmos",
+        "B": "Prithvi III",
+        "C": "Agni IV",
+        "D": "Agni V"
+      },
+      "correct_option": "D",
+      "explanation": "Agni V is the name of India\u2019s surface to surface ballistic missile with 5000 km range which is developed by DRDO."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the meaning of the word 'Narcissist'?",
+      "options": {
+        "A": "Companion",
+        "B": "Follow",
+        "C": "Self-Obsessed",
+        "D": "Self-effacing"
+      },
+      "correct_option": "C",
+      "explanation": "A narcissist is someone who is self-obsessed, meaning they have an excessive love for themselves."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the meaning of the word 'Elucidate'?",
+      "options": {
+        "A": "Clarify",
+        "B": "Calculate",
+        "C": "Summarise",
+        "D": "Update"
+      },
+      "correct_option": "A",
+      "explanation": "To elucidate means to make something clear or easier to understand, which is the same as to clarify."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the opposite of the word 'Placidity'?",
+      "options": {
+        "A": "Calmness",
+        "B": "Agitation",
+        "C": "Presence",
+        "D": "Placidness"
+      },
+      "correct_option": "B",
+      "explanation": "Placidity refers to a state of calmness or tranquility, so the opposite would be agitation, which means a state of disturbance or unrest."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the opposite of the word 'Incandescent'?",
+      "options": {
+        "A": "Blazing",
+        "B": "Genuine",
+        "C": "Luminous",
+        "D": "Dark"
+      },
+      "correct_option": "D",
+      "explanation": "Incandescent means giving off light, heat, or energy, so the opposite would be dark, which means lacking light."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the opposite of the word 'Dwindled'?",
+      "options": {
+        "A": "Wane",
+        "B": "Unnecessary",
+        "C": "Sink",
+        "D": "Increase"
+      },
+      "correct_option": "D",
+      "explanation": "Dwindled means to become smaller or less, so the opposite would be increase, which means to become larger or more."
+    },
+    {
+      "type": "passage_block",
+      "context_text": "Mr. Rowland Hill, when a young man was walking through the Lake district, when he one day saw the postman deliver a letter to a woman at a cottage door. The woman turned it over and examined it and then returned it, saying she could not pay the postage, which was a shilling. Hearing that the letter was from her brother, Mr. Hill paid the postage, in spite of the manifest unwillingness of the woman. As soon as the postman was out of sight, she showed Mr. Hill how his money had been, wasted as far as she was concerned. The sheet was blank. There was an agreement between her brother and herself that as long as all went well with him, he should send a blank sheet in this way once a quarter and she thus had tidings of him without expense of postage.",
+      "child_questions": [
+        {
+          "question_text": "What did the woman do when the postman delivered the letter?",
+          "options": {
+            "A": "She paid the postage",
+            "B": "She returned the letter",
+            "C": "She opened the letter",
+            "D": "She gave the letter to someone else"
+          },
+          "correct_option": "B",
+          "explanation": "The woman returned the letter to the postman because she could not pay the postage."
+        },
+        {
+          "question_text": "Why did Mr. Hill pay the postage for the woman?",
+          "options": {
+            "A": "He was a friend of the woman's brother",
+            "B": "He felt sorry for the woman",
+            "C": "He wanted to read the letter",
+            "D": "He heard that the letter was from her brother"
+          },
+          "correct_option": "D",
+          "explanation": "Mr. Hill paid the postage because he heard that the letter was from the woman's brother."
+        }
+      ]
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the main purpose of the Citizenship (Amendment) Act, 2019?",
+      "options": {
+        "A": "To provide citizenship to all immigrants",
+        "B": "To amend the Citizenship Act, 1955, and provide citizenship to certain groups",
+        "C": "To restrict citizenship to only certain groups",
+        "D": "To abolish citizenship altogether"
+      },
+      "correct_option": "B",
+      "explanation": "The Citizenship (Amendment) Act, 2019 amends the Citizenship Act, 1955, and provides that Hindus, Sikhs, Buddhists, Jains, Parsis, and Christians from Afghanistan, Bangladesh, and Pakistan who entered India on or before December 31, 2014, will not be treated as illegal migrants and will be eligible for citizenship."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What are the six Fundamental Rights provided in Part III of the Indian Constitution?",
+      "options": {
+        "A": "Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and Right to Constitutional Remedies",
+        "B": "Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and Right to Property",
+        "C": "Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and Right to Social Justice",
+        "D": "Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and Right to Economic Justice"
+      },
+      "correct_option": "A",
+      "explanation": "The six Fundamental Rights provided in Part III of the Indian Constitution are: 1. Right to Equality (Article 14-18), 2. Right to Freedom (Article 19-22), 3. Right against Exploitation (Article 23-24), 4. Right to Freedom of Religion (Article 25-28), 5. Cultural and Educational Rights (Article 29-30), and 6. Right to Constitutional Remedies (Article 32 and Article 226)."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the main purpose of the Directive Principles of State Policy?",
+      "options": {
+        "A": "To provide a framework for the government to make laws",
+        "B": "To provide a framework for the government to make policies",
+        "C": "To provide a framework for the government to make decisions",
+        "D": "To provide a framework for the government to make judgments"
+      },
+      "correct_option": "B",
+      "explanation": "The Directive Principles of State Policy are in the nature of general directions to the state, where the state is expected to incorporate them while making policies and laws. They are mentioned under Part IV of the Constitution from Articles 36-51."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the role of the President in the Indian Constitution?",
+      "options": {
+        "A": "The President is the head of the government and has all the executive powers",
+        "B": "The President is the head of the state and has ceremonial powers",
+        "C": "The President is the head of the judiciary and has the power to appoint judges",
+        "D": "The President is the head of the legislature and has the power to make laws"
+      },
+      "correct_option": "B",
+      "explanation": "The President is the head of the state and has ceremonial powers. The President is elected indirectly by an electoral college in accordance with the system of proportional representation by means of single transferable vote system and secret ballot."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the role of the Vice-President in the Indian Constitution?",
+      "options": {
+        "A": "The Vice-President is the head of the government and has all the executive powers",
+        "B": "The Vice-President is the head of the state and has ceremonial powers",
+        "C": "The Vice-President acts as ex-officio Chairman of Rajya Sabha",
+        "D": "The Vice-President has the power to appoint judges"
+      },
+      "correct_option": "C",
+      "explanation": "The Vice-President acts as ex-officio Chairman of Rajya Sabha. As Chairman of Rajya Sabha, he cannot vote in the first instance but can cast a vote in the case of an equality of votes."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the role of the Prime Minister in the Indian Constitution?",
+      "options": {
+        "A": "The Prime Minister is the head of the government and has all the executive powers",
+        "B": "The Prime Minister is the head of the state and has ceremonial powers",
+        "C": "The Prime Minister is the head of the judiciary and has the power to appoint judges",
+        "D": "The Prime Minister is the head of the legislature and has the power to make laws"
+      },
+      "correct_option": "A",
+      "explanation": "The Prime Minister is the head of the government and has all the executive powers. The Prime Minister is appointed by the President as per the provisions explained under Article 75 of the Constitution."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the role of the Attorney General of India?",
+      "options": {
+        "A": "The Attorney General of India is the head of the government and has all the executive powers",
+        "B": "The Attorney General of India is the head of the state and has ceremonial powers",
+        "C": "The Attorney General of India appears on behalf of the Central Government in all the cases in the Supreme Court",
+        "D": "The Attorney General of India has the power to appoint judges"
+      },
+      "correct_option": "C",
+      "explanation": "The Attorney General of India appears on behalf of the Central Government in all the cases in the Supreme Court. The Attorney General of India is appointed by the President under Article 76 of the Constitution."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the composition of the Rajya Sabha?",
+      "options": {
+        "A": "The Rajya Sabha consists of not more than 250 members, of whom 12 shall be nominated by the President and the remaining 238 shall be representatives of State and UTs",
+        "B": "The Rajya Sabha consists of not more than 250 members, of whom 12 shall be elected by the people and the remaining 238 shall be representatives of State and UTs",
+        "C": "The Rajya Sabha consists of not more than 250 members, of whom 12 shall be appointed by the President and the remaining 238 shall be representatives of State and UTs",
+        "D": "The Rajya Sabha consists of not more than 250 members, of whom 12 shall be nominated by the President and the remaining 238 shall be elected by the people"
+      },
+      "correct_option": "A",
+      "explanation": "The Rajya Sabha consists of not more than 250 members, of whom 12 shall be nominated by the President and the remaining 238 shall be representatives of State and UTs. The members of Rajya Sabha are elected by the elected members of the State Legislative Assemblies in accordance with the principle of proportional representation."
+    },
+    {
+      "type": "standalone_question",
+      "question_text": "What is the role of the Lok Sabha?",
+      "options": {
+        "A": "The Lok Sabha is the upper house of the Parliament and has more powers than the Rajya Sabha",
+        "B": "The Lok Sabha is the lower house of the Parliament and has more powers than the Rajya Sabha",
+        "C": "The Lok Sabha is the upper house of the Parliament and has less powers than the Rajya Sabha",
+        "D": "The Lok Sabha is the lower house of the Parliament and has less powers than the Rajya Sabha"
+      },
+      "correct_option": "B",
+      "explanation": "The Lok Sabha is the lower house of the Parliament and has more powers than the Rajya Sabha. The Lok Sabha is directly elected by the people from the territorial constituencies in the states."
+    }
+  ]
+}
