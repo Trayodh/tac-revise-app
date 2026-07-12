@@ -1055,7 +1055,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
   const nextTopic = currentIdx < topicsList.length - 1 ? topicsList[currentIdx + 1] : null;
   
   // Render Breadcrumbs
-  const weightageText = generateWeightageText(subject, chapter);
+  const weightageText = (typeof generateWeightageText === 'function') ? generateWeightageText(subject, chapter) : (chapter.weightage || 'High-Yield');
   const breadcrumbs = `
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap;">
       <span style="color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-sans); display: flex; align-items: center; gap: 6px;">
