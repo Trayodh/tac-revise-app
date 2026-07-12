@@ -23,9 +23,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
 
         // Inject into NOTES_DATABASE
+        const db = typeof NOTES_DATABASE !== 'undefined' ? NOTES_DATABASE : window.NOTES_DATABASE;
+        
         for (const mod of eliteData) {
             const dbKey = subjectKeyMap[mod.subject];
-            if (!dbKey || !window.NOTES_DATABASE || !window.NOTES_DATABASE[dbKey]) continue;
+            if (!dbKey || !db || !db[dbKey]) continue;
 
             const modPath = `/Pathfinder_Elite/modules/${mod.subject}/${mod.filename}`;
             const fileRes = await fetch(modPath);
@@ -34,14 +36,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             const htmlContent = marked.parse(mdText);
 
             // Find or create Elite chapter
-            let eliteChapter = window.NOTES_DATABASE[dbKey].chapters.find(c => c.id === 'elite_updates');
+            let eliteChapter = db[dbKey].chapters.find(c => c.id === 'elite_updates');
             if (!eliteChapter) {
                 eliteChapter = {
                     id: 'elite_updates',
                     title: 'Pathfinder Elite Updates',
                     topics: []
                 };
-                window.NOTES_DATABASE[dbKey].chapters.unshift(eliteChapter);
+                db[dbKey].chapters.unshift(eliteChapter);
             }
 
             eliteChapter.topics.push({
