@@ -11,5 +11,213 @@
     ],
     "has_mcqs": true,
     "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "CDS Solved Paper 2019 II",
+    "file_path": "output\\modules\\Mathematics\\1_CDS_Solved_Paper_2019_II.md",
+    "start_page": 1,
+    "end_page": 40,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "CDS Solved Paper 2019 I",
+    "file_path": "output\\modules\\Mathematics\\41_CDS_Solved_Paper_2019_I.md",
+    "start_page": 41,
+    "end_page": 82,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "CDS Solved Paper 2018 II",
+    "file_path": "output\\modules\\Mathematics\\1_CDS_Solved_Paper_2018_II.md",
+    "start_page": 1,
+    "end_page": 37,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Number System",
+    "file_path": "output\\modules\\Mathematics\\3_Number_System.md",
+    "start_page": 3,
+    "end_page": 19,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Sequence and Series",
+    "file_path": "output\\modules\\Mathematics\\20_Sequence_and_Series.md",
+    "start_page": 20,
+    "end_page": 24,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "HCF and LCM of Numbers",
+    "file_path": "output\\modules\\Mathematics\\25_HCF_and_LCM_of_Numbers.md",
+    "start_page": 25,
+    "end_page": 31,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Decimal Fractions",
+    "file_path": "output\\modules\\Mathematics\\32_Decimal_Fractions.md",
+    "start_page": 32,
+    "end_page": 37,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Square Roots and Cube Roots",
+    "file_path": "output\\modules\\Mathematics\\38_Square_Roots_and_Cube_Roots.md",
+    "start_page": 38,
+    "end_page": 46,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Time and Distance",
+    "file_path": "output\\modules\\Mathematics\\47_Time_and_Distance.md",
+    "start_page": 47,
+    "end_page": 59,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Time and Work",
+    "file_path": "output\\modules\\Mathematics\\60_Time_and_Work.md",
+    "start_page": 60,
+    "end_page": 68,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Percentage",
+    "file_path": "output\\modules\\Mathematics\\69_Percentage.md",
+    "start_page": 69,
+    "end_page": 76,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Simple Interest",
+    "file_path": "output\\modules\\Mathematics\\77_Simple_Interest.md",
+    "start_page": 77,
+    "end_page": 82,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Compound Interest",
+    "file_path": "output\\modules\\Mathematics\\83_Compound_Interest.md",
+    "start_page": 83,
+    "end_page": 91,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Profit and Loss",
+    "file_path": "output\\modules\\Mathematics\\92_Profit_and_Loss.md",
+    "start_page": 92,
+    "end_page": 100,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Ratio and Proportion",
+    "file_path": "output\\modules\\Mathematics\\101_Ratio_and_Proportion.md",
+    "start_page": 101,
+    "end_page": 112,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Logarithm",
+    "file_path": "output\\modules\\Mathematics\\113_Logarithm.md",
+    "start_page": 113,
+    "end_page": 119,
+    "derived_total_pages": 5,
+    "source_notes_ingested": [
+      "math_notes"
+    ],
+    "has_mcqs": true,
+    "has_answers": true
   }
 ]

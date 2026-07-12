@@ -14,7 +14,8 @@ OUTPUT_DIR = "output"
 MODULES_DIR = os.path.join(OUTPUT_DIR, "modules")
 os.makedirs(MODULES_DIR, exist_ok=True)
 
-PDF_PATH = "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf"
+PDF_PATH = "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf"
+PAGE_OFFSET = 286
 
 # Initialize Gemini Client
 load_dotenv()
@@ -27,8 +28,8 @@ model = genai.GenerativeModel('gemini-2.5-flash', system_instruction=SYSTEM_PROM
 def extract_pdf_pages(doc, start_page, end_page):
     """Extracts text from a 1-based page range."""
     text = ""
-    # fitz is 0-indexed, so we subtract 1
-    for i in range(start_page - 1, end_page):
+    # fitz is 0-indexed, so we subtract 1. Plus the physical page offset of 286.
+    for i in range(start_page - 1 + PAGE_OFFSET, end_page + PAGE_OFFSET):
         try:
             page = doc.load_page(i)
             text += page.get_text("text") + "\n"
@@ -154,16 +155,6 @@ def main():
                 print(f"Successfully generated {file_path}")
                 time.sleep(5) # Respect Gemini 15 RPM limit
                 
-                # Push to Git / Vercel
-                try:
-                    subprocess.run(["python", "scripts/compile_notes.py"], check=True)
-                    subprocess.run(["git", "add", file_path, os.path.join(OUTPUT_DIR, "metadata.json"), os.path.join(OUTPUT_DIR, "toc.json"), os.path.join(OUTPUT_DIR, "chapters.csv"), "www/notes_generated.js"], check=True)
-                    subprocess.run(["git", "commit", "-m", f"Auto-generated module: {title}"], check=True)
-                    subprocess.run(["git", "push"], check=True)
-                    print(f"Pushed {title} to Vercel!")
-                except Exception as e:
-                    print(f"Git push failed for {title}: {e}")
-                
             except Exception as e:
                 print(f"Failed to generate {title} after retries: {e}")
                 
@@ -179,7 +170,16 @@ def main():
         if os.environ.get("TEST_RUN", "False") == "True":
             break
 
-    print("\nSynthesis complete.")
+    print("\nSynthesis complete. Compiling notes...")
+    try:
+        subprocess.run(["python", "scripts/compile_notes.py"], check=True)
+        print("Committing and pushing to Vercel...")
+        subprocess.run(["git", "add", "output/modules", "output/metadata.json", "output/toc.json", "output/chapters.csv", "www/notes_generated.js"], check=True)
+        subprocess.run(["git", "commit", "-m", "Auto-generated modules and compiled notes"], check=False) # Check=False in case there are no changes
+        subprocess.run(["git", "push"], check=True)
+        print("Successfully deployed to Vercel!")
+    except Exception as e:
+        print(f"Compile or Deployment failed: {e}")
 
 if __name__ == "__main__":
     main()
