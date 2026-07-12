@@ -190,7 +190,7 @@ function initializeGlossary() {
       subject.chapters.forEach(chapter => {
         chapter.topics.forEach(topic => {
           addGlossaryTerm(topic.title, topic.title);
-          let cleanTitle = topic.title.replace(/\s*\(.*?\)\s*/g, "").trim();
+          let cleanTitle = (topic.title || "").replace(/\s*\(.*?\)\s*/g, "").trim();
           addGlossaryTerm(cleanTitle, topic.title);
         });
       });
@@ -335,9 +335,9 @@ function initializeGlossary() {
 }
 
 function addGlossaryTerm(term, topicName) {
-  const t = term.trim();
+  const t = (term || '').trim();
   if (t.length < 3) return;
-  if (!CONCEPT_GLOSSARY.some(g => g.term.toLowerCase() === t.toLowerCase())) {
+  if (!CONCEPT_GLOSSARY.some(g => (g.term || '').toLowerCase() === t.toLowerCase())) {
     CONCEPT_GLOSSARY.push({ term: t, topic: topicName });
   }
   if (!t.endsWith('s')) {
@@ -442,8 +442,8 @@ function parseWikiLinks(text) {
   
   // 4. Resolve wiki links [[Topic]] -> <a>
   let parsed = linkedText.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (match, topicName, displayLabel) => {
-    const label = displayLabel || topicName;
-    const cleanTopic = topicName.trim().replace(/'/g, "\\'");
+    const label = displayLabel || topicName || "";
+    const cleanTopic = (topicName || "").trim().replace(/'/g, "\\'");
     return `<a class="wiki-link" onclick="triggerDoubtExplain('${cleanTopic}', this)">${label}</a>`;
   });
   
@@ -569,6 +569,7 @@ document.addEventListener('mouseover', (e) => {
     if (term) {
       if (activeHoverTimeout) clearTimeout(activeHoverTimeout);
       activeHoverTimeout = setTimeout(() => {
+        term = term || '';
         showHoverTooltip(target, term.trim());
       }, 250);
     }

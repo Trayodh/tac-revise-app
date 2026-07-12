@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        const metadataRes = await fetch('/Pathfinder_Elite/metadata.json');
+        const metadataRes = await fetch('Pathfinder_Elite/metadata.json');
         if (!metadataRes.ok) throw new Error('Could not fetch metadata.json');
         const eliteData = await metadataRes.json();
         
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const dbKey = subjectKeyMap[mod.subject];
             if (!dbKey || !db || !db[dbKey]) continue;
 
-            const modPath = `/Pathfinder_Elite/modules/${mod.subject}/${mod.filename}`;
+            const modPath = `Pathfinder_Elite/modules/${mod.subject}/${mod.filename}`;
             const fileRes = await fetch(modPath);
             if (!fileRes.ok) continue;
             const mdText = await fileRes.text();
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (typeof renderNotesBrowser === 'function') renderNotesBrowser();
 
         // Load Question Armoury
-        const qRes = await fetch('/Pathfinder_Elite/question_armoury.json');
+        const qRes = await fetch('Pathfinder_Elite/question_armoury.json');
         if (qRes.ok) {
             const armoury = await qRes.json();
             if (!window.EXTRA_QUESTION_BANK) window.EXTRA_QUESTION_BANK = {};

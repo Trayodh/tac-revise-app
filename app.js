@@ -1423,7 +1423,7 @@ function fetchDailyCurrentAffairs() {
       console.error("Failed to fetch daily news:", err);
       isFetchingDailyNews = false;
       hasFetchedDailyNews = false;
-      if (pane) pane.innerHTML = `<p style="color: var(--danger); padding: 20px;">Secure uplink failed. Error: ${err.message}. Please refresh the page.</p>`;
+      if (pane) pane.innerHTML = `<p style="color: var(--danger); padding: 20px;">Secure uplink failed. Error: <pre style="white-space: pre-wrap;">${err.stack}</pre> Please refresh the page.</p>`;
       setTimeout(() => renderCurrentAffairsHub(), 5000);
     });
 }

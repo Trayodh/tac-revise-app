@@ -1,333 +1,181 @@
-# Inorganic Chemistry\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 647 ---\n362
-CDS Pathfinder
-=
-×
-+
-×
-+
-×
-2 12
-5
-5
-16
-16
-12
-(
-)
-=
-+
-+
-2 60
-80
-192
-(
-)
-=
-×
-2
-332 = 664 sq units
-Hence, the total surface area of cuboid is
-664 sq units.
-140. (c) Given, radius of vessel, ( )r = 4 cm
-and radius of sphere ( )
-R = 3 cm
-Let height of vessel be h cm, then volume
-of vessel= πr h
-2
-=
-=
-π
-π
-(
-)
-4
-16
-2 h
-h
-and volume of sphere = 4
-3
-3
-πR
-= 36π
-Let H be the rise in water level
-∴Volume of water displaced
-= volume of sphere
-⇒16π H = 36π ⇒H =
-=
-36
-16
-2 25
-.
-cm
-141. (c) Volume of paint required
-=
-×
-×
-×
-+
-2
-3
-2
-0 0001
-(
-.
-)
-2
-2
-1 75
-0 0001
-×
-×
-×
-+
-(
-.
-.
-)
-2
-3
-1 75
-0 0001
-×
-×
-×
-(
-.
-.
-)
-=
-+
-+
-0 0012
-0 0007
-0 00105
-.
-.
-.
-= 0 00295
-.
-m3
-Volume of cubical box = 103.
-= 1000 cm3 = 0 001
-.
-m3
-∴Boxes required =
-≈
-0 00295
-0 001
-3
-.
-.
-.
-142. (d) Let the sides of a cube be l cm.
-Then, 6
-13254
-2l
-=
-⇒
-l2
-13254
-6
-2209
-=
-=
-⇒l = 47
-∴Length of diagonal = l 3 = 47 3 cm
-143. (b) Let the height of cylindrical
-portion be h.
-Then, 2
-3
-3312
-3
-2
-π
-π
-π
-r
-r
-h
-+
-=
-⇒
-π
-π
-r
-r
-h
-2 2
-3
-3312
-+
-
-
-
-=
-⇒12
-12 2
-3
-12
-3312
-×
-×
-+
-
-
-
-=
-h
-⇒
-8
-23
-+
-=
-h
-⇒h = 15m
-Q Surface area of hemisphere
-Surface area of cylinder
-= 2
-2
-2
-π
-π
-r
-rh
-=
-=
-=
-r
-h
-12
-15
-4
-5
-∴
-r h
-:
-= 4 5
-:
-144. (a) Let the length of water tank be lm.
-volume of tank =
-×
-×
-=
-l
-l
-l
-l 3
-volume of water tank after taking out
-water
-=
-×
-×
-−
-=
-−
-l
-l
-l
-l
-l
-(
-)
-(
-)
-2
-2
-2
-∴l
-l
-l
-3
-2
-128
-2
-−
-=
-−
-(
-)
-⇒
-2
-128
-2l
-=
-⇒l2
-64
-=
-⇒l = 8 m
-So, volume of cubical tank
-=
-=
-8
-512
-3
-m3.
-145. (b) Let the sides of the cuboid be l b
-,
-and h respectively.
-Volume of cuboid,
-V
-l
-b
-h
-=
-×
-×
-…(i)
-Given, x
-lb
-=
-, y
-bh
-=
-and z
-lh
-=
-∴
-xyz
-lb
-bh
-lh
-=
-×
-×
-=
-=
-(
-)
-lbh
-V
-2
-2 [using Eq. (i)]
-146. (a) On each face, we can draw four right
-angled triangles by choosing one vertex
-to serve as the right angled and two
-adjacent vertices. Since there are six
-faces, you can form 6
-4
-24
-×
-=
-triangles.
-147. (a) Let the area of each rectangle be A.
-Then, breadth of R1, R2 and
-R
-A
-x
-A
-x
-A
-x
-3
-1
-2
-3
-are
-and
-,
-respectively
-Cylinder is formed by joining parallel
-side of\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Inorganic Chemistry based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Chapter Overview**
+_*Inorganic Chemistry - The Study of Inorganic Compounds*_
+====================================================================
+
+Inorganic chemistry is the branch of chemistry that deals with the study of inorganic compounds. These compounds are typically derived from mineral sources and are typically found in nature. Inorganic chemistry encompasses a wide range of topics including the properties and preparation of inorganic compounds, their reactions, and their applications in various fields.
+
+### 1.1 Mechanics of Inorganic Compounds
+
+Inorganic compounds are typically formed through the combination of elements in their elemental state. The properties of these compounds are determined by the arrangement of their electrons and the types of bonds that form between them.
+
+#### 1.1.1 Types of Inorganic Compounds
+
+Inorganic compounds can be classified into two main types: metallic and nonmetallic compounds. Metallic compounds are typically formed through the combination of metals and nonmetals, while nonmetallic compounds are formed through the combination of nonmetals.
+
+### 1.2 Preparation Methods for Inorganic Compounds
+
+Inorganic compounds can be prepared through various methods, including the oxidation of metals, the reaction of acids and bases, and the precipitation of salts.
+
+#### 1.2.1 Preparation of Metallic Compounds
+
+Metallic compounds can be prepared through the oxidation of metals. This is typically done through the reaction of a metal with an acid or a base.
+
+```latex
+$$\text{Zn} + 2\text{HCl} \rightarrow \text{ZnCl}_2 + \text{H}_2$$
+```
+
+### 1.3 Properties of Inorganic Compounds
+
+Inorganic compounds have a variety of properties that are determined by their chemical structure. These properties can include their melting points, boiling points, and solubilities in different solvents.
+
+### 1.4 Applications of Inorganic Compounds
+
+Inorganic compounds have a wide range of applications in various fields. These include their use in the synthesis of semiconductors, the preparation of pharmaceuticals, and the development of fertilizers.
+
+***
+
+### 2.1 High-Yield Concepts
+
+High-yield concepts are critical to understanding inorganic chemistry. These concepts include the preparation methods for inorganic compounds, their properties, and their applications.
+
+#### 2.1.1 Concept Parameter 1
+
+Concept parameter 1 is the preparation of inorganic compounds through the oxidation of metals.
+
+```latex
+$$\text{2Al} + \text{3CuSO}_4 \rightarrow \text{3Cu} + \text{Al}_2\text{SO}_4$$
+```
+
+### High-Yield Questions
+
+#### Q1
+A high-yield question regarding Inorganic Chemistry?
+
+#### [A] Concept parameter 1
+#### [B] Concept parameter 2
+#### [C] Concept parameter 3
+#### [D] Concept parameter 4
+
+Correct Option: D
+
+#### Explanation
+The correct option is D because it represents the concept parameter of the reaction between a metal and a nonmetal to form an ionic compound.
+
+#### Q2
+A high-yield question regarding Inorganic Chemistry?
+
+#### [A] Concept parameter 1
+#### [B] Concept parameter 2
+#### [C] Concept parameter 3
+#### [D] Concept parameter 4
+
+Correct Option: C
+
+#### Explanation
+The correct option is C because it represents the concept parameter of the preparation of a metallic compound through the reduction of a salt.
+
+#### Q3
+A high-yield question regarding Inorganic Chemistry?
+
+#### [A] Concept parameter 1
+#### [B] Concept parameter 2
+#### [C] Concept parameter 3
+#### [D] Concept parameter 4
+
+Correct Option: D
+
+#### Explanation
+The correct option is D because it represents the concept parameter of the reaction between a metal and a nonmetal to form an ionic compound.
+
+#### Q4
+A high-yield question regarding Inorganic Chemistry?
+
+#### [A] Concept parameter 1
+#### [B] Concept parameter 2
+#### [C] Concept parameter 3
+#### [D] Concept parameter 4
+
+Correct Option: A
+
+#### Explanation
+The correct option is A because it represents the concept parameter of the preparation of a metallic compound through the reduction of a salt.
+
+#### Q5
+A high-yield question regarding Inorganic Chemistry?
+
+#### [A] Concept parameter 1
+#### [B] Concept parameter 2
+#### [C] Concept parameter 3
+#### [D] Concept parameter 4
+
+Correct Option: A
+
+#### Explanation
+The correct option is A because it represents the concept parameter of the reaction between a metal and a nonmetal to form an ionic compound.
+
+#### Q6
+A high-yield question regarding Inorganic Chemistry?
+
+#### [A] Concept parameter 1
+#### [B] Concept parameter 2
+#### [C] Concept parameter 3
+#### [D] Concept parameter 4
+
+Correct Option: A
+
+#### Explanation
+The correct option is A because it represents the concept parameter of the preparation of a metallic compound through the reduction of a salt.
+
+#### Q7
+A high-yield question regarding Inorganic Chemistry?
+
+#### [A] Concept parameter 1
+#### [B] Concept parameter 2
+#### [C] Concept parameter 3
+#### [D] Concept parameter 4
+
+Correct Option: B
+
+#### Explanation
+The correct option is B because it represents the concept parameter of the reaction between a metal and a nonmetal to form an ionic compound.
+
+#### Q8
+A high-yield question regarding Inorganic Chemistry?
+
+#### [A] Concept parameter 1
+#### [B] Concept parameter 2
+#### [C] Concept parameter 3
+#### [D] Concept parameter 4
+
+Correct Option: B
+
+#### Explanation
+The correct option is B because it represents the concept parameter of the preparation of a metallic compound through the reduction of a salt.
+
+#### Q9
+A high-yield question regarding Inorganic Chemistry?
+
+#### [A] Concept parameter 1
+#### [B] Concept parameter 2
+#### [C] Concept parameter 3
+#### [D] Concept parameter 4
+
+Correct Option: B
+
+#### Explanation
+The correct option is B because it represents the concept parameter of the reaction between a metal and a nonmetal to form an ionic compound.
+
+#### Q10
+A high-yield question regarding Inorganic Chemistry?
+
+#### [A] Concept parameter 1
+#### [B] Concept parameter 2
+#### [C] Concept parameter 3
+#### [D] Concept parameter 4
+
+Correct Option: B
+
+#### Explanation
+The correct option is B because it represents the concept parameter of the preparation of a metallic compound through the reduction of a salt.
+
+***

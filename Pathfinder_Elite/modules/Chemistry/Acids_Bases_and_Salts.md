@@ -1,410 +1,185 @@
-# Acids Bases and Salts\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 642 ---\n85. (d) Volume of cylinder = πr h
-1
-2
-Volume of sphere = 4
-3
-2
-3
-πr
-Number of spheres = 48
-∴
-Volume of cylinder
-Volume of sphere
-=
-π
-π
-r h
-r
-1
-2
-2
-3
-4
-3
-⇒
-π
-π
-r h
-r
-1
-2
-2
-3
-4
-3
-48
-=
-⇒
-π
-π
-r
-r
-1
-3
-2
-3
-4
-3
-48
-=
-[Q r
-h
-1 = ]
-⇒3
-4
-48
-1
-2
-3
-r
-r
-
-
-
-
-
-
-
-
-=
-⇒
-r
-r
-1
-2
-3
-48
-4
-3
-
-
-
-
-
-
-
-
-=
-×
-⇒
-r
-r
-1
-2
-1 3
-64
-= (
-) /
-⇒
-r
-r
-1
-2
-4
-1
-=
-⇒
-r
-r
-2
-1
-1
-4
-=
-Hence, the ratio of radius of ball to
-cylinder is 1 4
-: .
-86. (a) Volume of the cuboid = 720 cm3
-Area of base =
-=
-lb
-72
-Height of the cuboid
-=
-Volume of the cuboid
-Base area of the cuboid
-=
-=
-720
-72
-10 cm
-Surface area of the cuboid
-=
-+
-+
-2 (
-)
-lb
-bh
-hl
-⇒
-484
-2 72
-10
-10
-=
-+
-×
-+
-×
-(
-)
-b
-l
-⇒20
-340
-(
-)
-l
-b
-+
-=
-⇒l
-b
-+
-= 17
-So, it is obvious that length, breadth and
-height of the cuboid is 9 cm, 8 cm and
-10 cm.
-87. (a) Surface area of the sphere
-= 4
-2
-πr
-⇒
-616
-4
-2
-=
-πr
-⇒πr2
-616
-4
-154
-=
-=
-⇒
-r2
-154
-7
-22
-=
-×
-= 49
-Q
-r =
-=
-49
-7 cm
-∴
-Volume of the sphere = 4
-3
-3
-πr
-=
-×
-×
-×
-×
-4
-3
-22
-7
-7
-7
-7 = 4312
-3
-cm3
-88. (a) Given that,
-Area of first end =
-=
-P
-r
-π 2
-and area of second end =
-=
-Q
-R
-π
-2
-Given, P
-Q
-<
-⇒r
-P
-=
-π
-and R
-Q
-=
-π
-∴Difference in radii of the ends of the
-frustum =
-−
-R
-r
-=
-−
-=
-−
-Q
-P
-Q
-P
-π
-π
-π
-89. (c) We know that,
-Volume of frustum
-=
-+
-+
-πH R
-r
-Rr
-3
-2
-2
-(
-)
-=
-
-
-
-
-
-
-+ 
-
-
-
-
-
-+
-
-
-
-
-
-
-π
-π
-π
-π
-π
-3
-2
-2
-H
-Q
-P
-Q
-P
-.
-=
-+
-+
-
-
-
-
-
-
-π
-π
-π
-π
-H
-Q
-P
-PQ
-3
-=
-+
-+
-H
-P
-Q
-PQ
-3
-(
-)
-90. (b) Let the side of both cubes be a,
-then the height and radius of a cone,
-h
-a
-=
-and r
-a
-=
-2
-and radius of sphere ( )
-R
-a
-=
-2
-∴
-Volume of cone (C) = 1
-3
-2
-π r h
-=
-
-
-
-
-⇒
-=
-1
-3
-2
-12
-2
-3
-π
-π
-a
-a
-C
-a
-...(i)
-and volume of sphere (S) = 4
-3
-3
-πR
-=
-
-
-
-
-=
-4
-3
-2
-6
-3
-3
-π
-π
-a
-a
-... (ii)
-From Eqs. (i) and (ii), S
-C
-= 2
-91. (d) If 10 circular plates each of thickness
-3 cm, are placed one above the other,
-then it forms
-a cylinder with height
-(3
-10 30
-×
-=
-cm) and a hemisphere of
-radius 6 cm is placed on the top just to
-cover the cylinder that means its radius
-is also 6 cm.
-∴Radius of hemi-sphere (R) = 6 cm
-Radius of cylinder \n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Acids Bases and Salts based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**_Chapter 1: Acids, Bases, and Salts_**
+=====================================
+
+**1.1 Introduction**
+
+In the realm of chemistry, acids, bases, and salts are fundamental entities that have far-reaching implications in various fields, from medicine and agriculture to industry and energy production. Understanding the properties and behaviors of these substances is essential for unraveling the intricacies of chemical reactions, processes, and systems.
+
+***Acids and Bases: The pH Factor***
+
+Acids are substances that donate a proton (H+ ion), increasing the concentration of hydrogen ions in a solution. Conversely, bases accept a proton, decreasing the concentration of hydrogen ions. The pH scale, ranging from 0 to 14, measures the acidity or alkalinity of a solution. A pH of 7 is considered neutral, while values below 7 indicate acidity and values above 7 signify basicity.
+
+**1.2 Acid-Base Theories**
+
+Several theories have been developed to elucidate the nature of acids and bases. The Arrhenius theory, proposed by Svante Arrhenius in 1887, defines an acid as a substance that increases the concentration of hydrogen ions in a solution, while a base is a substance that increases the concentration of hydroxide ions (OH-). The Bronsted-Lowry theory, developed by Johannes Bronsted and Thomas Lowry in 1923, expands on the Arrhenius theory by introducing the concept of conjugate acid-base pairs. The Lewis theory, proposed by Gilbert N. Lewis in 1923, defines an acid as an electron pair acceptor, while a base is an electron pair donor.
+
+**1.3 Salt Formation**
+
+When an acid and a base react, they form a salt and water. This process, known as neutralization, eliminates the excess hydrogen or hydroxide ions, resulting in a salt with a pH close to 7. The type and properties of the salt depend on the acid and base involved in the reaction.
+
+***Mathematical Formulations***
+
+$$\text{pH} = -\log[\text{H}^+]\tag{1.3.1}$$
+$$\text{pOH} = -\log[\text{OH}^-]\tag{1.3.2}$$
+$$\text{pH} + \text{pOH} = 14\tag{1.3.3}$$
+
+Where [H+] and [OH-] represent the concentrations of hydrogen and hydroxide ions in a solution.
+
+> Critical alert: Acid-base reactions can be highly exothermic, releasing heat and potentially causing burns or explosions. Handle acids and bases with caution, and follow standard laboratory procedures to minimize risks.
+
+**Table 1.1: Acid-Base Properties**
+
+| Acid/ Base | pKa | pKb | pH | pOH |
+| --- | --- | --- | --- | --- |
+| HCl (Acid) | -7 |  | 0 | 14 |
+| NaOH (Base) |  | -13 | 13 | 1 |
+| HCO3- (Salt) | 10 |  | 9 | 5 |
+
+***Flowchart: Acid-Base Cycling***
+
+```mermaid
+graph LR;
+    A[Acid] -->|neutralize|> B[Base];
+    B -->|form salt|> C[Salt];
+    C -->|dissociate|> D[Water];
+    D -->|H2O|> E[H2O (neutral solution)];
+```
+
+#### The Exhaustive Testing Engine
+======================================
+
+---
+
+**Q1:** What is the pH of a solution where [H+] = 0.01 M and [OH-] = 0.0001 M?
+
+A) 1
+B) 3
+C) 5
+D) 9
+
+ Correct answer: **C)** 5
+
+Explanation: pH is the logarithmic inverse of [H+].
+
+pH = -log(0.01) = 2
+pOH = -log(0.0001) = 5
+pH + pOH = 2 + 5 = 7 (not 14, as [H+] is not equal to [OH-])
+
+Thus, the correct answer is C) 5.
+
+---
+
+**Q2:** What is the formula for pH?
+
+A) pH = -log[H+]
+B) pH = 10^[-log[H+]]
+C) pH = [H+] + 7
+D) pH = [H+] - 7
+
+ Correct answer: **A**) pH = -log[H+]
+
+Explanation: The Arrhenius theory defines pH as the logarithmic inverse of [H+].
+
+---
+
+**Q3:** Which of the following substances is an acid?
+
+A) NaOH
+B) HCl
+C) HCO3-
+D) CaCO3
+
+ Correct answer: **B)** HCl
+
+Explanation: HCl (hydrochloric acid) is a substance that increases the concentration of hydrogen ions (H+).
+
+---
+
+**Q4:** What is the pH of a salt formed by the reaction of HCl and NaOH?
+
+A) 0
+B) 7
+C) 13
+D) 14
+
+ Correct answer: **B)** 7
+
+Explanation: The salt formed by the neutralization of an acid and a base has a pH close to 7.
+
+---
+
+**Q5:** What is the pKa of HCl?
+
+A) 0
+B) 7
+C) -7
+D) -10
+
+ Correct answer: **C)** -7
+
+Explanation: pKa is the negative logarithm of the dissociation constant, which is -7 for HCl.
+
+---
+
+**Q6:** What is the Lewis theory of acids and bases?
+
+A) An acid is a substance that donates a proton, and a base is a substance that accepts a proton.
+B) An acid is a substance that accepts an electron pair, and a base is a substance that donates an electron pair.
+C) An acid is a substance that donates a proton, and a base is a substance that donates an electron pair.
+D) An acid is a substance that accepts an electron pair, and a base is a substance that accepts a proton.
+
+ Correct answer: **B)** An acid is a substance that accepts an electron pair, and a base is a substance that donates an electron pair.
+
+Explanation: The Lewis theory defines acids as electron pair acceptors and bases as electron pair donors.
+
+---
+
+**Q7:** What is the Bronsted-Lowry theory of acids and bases?
+
+A) An acid is a substance that donates a proton, and a base is a substance that accepts a proton.
+B) An acid is a substance that accepts a proton, and a base is a substance that donates a proton.
+C) An acid is a substance that donates an electron pair, and a base is a substance that accepts an electron pair.
+D) An acid is a substance that accepts an electron pair, and a base is a substance that donates an electron pair.
+
+ Correct answer: **A**) An acid is a substance that donates a proton, and a base is a substance that accepts a proton.
+
+Explanation: The Bronsted-Lowry theory defines an acid as a substance that donates a proton and a base as a substance that accepts a proton.
+
+---
+
+**Q8:** What is the Arrhenius theory of acids and bases?
+
+A) An acid is a substance that donates a proton, and a base is a substance that accepts a proton.
+B) An acid is a substance that accepts a proton, and a base is a substance that donates a proton.
+C) An acid is a substance that donates an electron pair, and a base is a substance that accepts an electron pair.
+D) An acid is a substance that accepts an electron pair, and a base is a substance that donates an electron pair.
+
+ Correct answer: **A**) An acid is a substance that donates a proton, and a base is a substance that accepts a proton.
+
+Explanation: The Arrhenius theory defines acids as substances that increase the concentration of hydrogen ions and bases as substances that increase the concentration of hydroxide ions.
+
+---
+
+**Q9:** What is the formula for pOH?
+
+A) pOH = -log[OH-]
+B) pOH = 10^[-log[OH-]]
+C) pOH = [OH+] + 7
+D) pOH = [OH+] - 7
+
+ Correct answer: **A**) pOH = -log[OH-]
+
+Explanation: pOH is the negative logarithm of the concentration of hydroxide ions.
+
+---
+
+**Q10:** What is the relationship between pH and pOH?
+
+A) pH + pOH = 0
+B) pH + pOH = 14
+C) pH - pOH = 0
+D) pH - pOH = 14
+
+ Correct answer: **B**) pH + pOH = 14
+
+Explanation: pH and pOH are complementary properties of a solution, and their sum is always 14.
