@@ -397,8 +397,6 @@ function switchScreen(screenId) {
     renderAiConsoleSuggestions();
   } else if (screenId === "vocab-builder") {
     renderVocabBuilder();
-  } else if (screenId === "pathfinder-elite") {
-    if (window.loadEliteDashboard) window.loadEliteDashboard();
   }
   updateBreadcrumbs();
 }
@@ -971,6 +969,7 @@ function renderNotesBrowser() {
                 ${examDots}
               </div>
               <span style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${topic.title}</span>
+              ${topic.isEliteUpdate ? '<span class="badge elite-badge">ELITE UPDATE</span>' : ''}
             </div>
             ${isTopicCompleted ? '<span style="font-size:0.75rem;"></span>' : ''}
           </div>
@@ -6756,7 +6755,10 @@ function loadMoreBankQuestions() {
         optionsHtml += '</div>';
         
         card.innerHTML = `
-            <div class="bank-q-text" id="bank-q-text-${i}">Q${i+1}. ${q.question}</div>
+            <div class="bank-q-text" id="bank-q-text-${i}">
+                Q${i+1}. ${q.question}
+                ${q.isEliteUpdate ? '<span class="badge elite-badge" style="vertical-align: middle; margin-left: 10px;">ELITE UPDATE</span>' : ''}
+            </div>
             ${optionsHtml}
             <div style="margin-top: 15px; display: flex; gap: 10px;">
                 <button class="bank-reveal-btn" onclick="revealBankSolution(this)" style="margin-top: 0; flex: 1;">Reveal Solution</button>
