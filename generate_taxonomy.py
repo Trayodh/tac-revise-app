@@ -109,7 +109,13 @@ TAXONOMY_MAP = {
         {"chapter": "Economic Sectors and Master Revision MCQs", "range": (1039, 1049), "type": "Economy"}
     ],
     "10_Current_Affairs": [
-        {"chapter": "General Knowledge Static Review", "range": (1050, 1092), "type": "General Knowledge"}
+        {"chapter": "General Knowledge Static Review", "range": (1050, 1092), "type": "General Knowledge"},
+        {"chapter": "January 2026 Defence Updates", "range": (1093, 1093), "type": "Current Affairs"},
+        {"chapter": "February 2026 Geopolitics", "range": (1093, 1093), "type": "Current Affairs"},
+        {"chapter": "March 2026 Strategic Affairs", "range": (1093, 1093), "type": "Current Affairs"},
+        {"chapter": "April 2026 Military Exercises", "range": (1093, 1093), "type": "Current Affairs"},
+        {"chapter": "May 2026 Defence Updates", "range": (1093, 1093), "type": "Current Affairs"},
+        {"chapter": "June 2026 Geopolitics", "range": (1093, 1093), "type": "Current Affairs"}
     ]
 }
 

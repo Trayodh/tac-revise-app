@@ -1,29 +1,618 @@
-**English Revision Notes: Sentence Completion**
-
-**Page 1: Trigonometric Ratios and Their Identities**
-
-### Important Formulas and Identities
-
-- **sin^2(A) + cos^2(A) = 1**
-- **cosec(A) = 1/sin(A), sec(A) = 1/cos(A), cot(A) = 1/tan(A)**
-- **tan(A) = sin(A)/cos(A)**
-
-### Examples and Solutions
-
-#### Example 1: Value of sec(θ)sin(secθ)90° − θ
-
-*   Given: sec(θ)sin(secθ)90° − θ
-*   Solution: sec(θ)sin(secθ)90° − θ = cosecθ × sin2θ = 2sin2θ = 2sinθcosθ
-*   Hence, the correct answer is (c) 2
-
-#### Example 2: Value of sin cos sin cos 135° - θ and 120° + θ
-*   Given: sin(cos(sin(135° - θ)) + cos(120° + θ))
-*   Solution: sin(cos(sin(135° - θ)) + cos(120° + θ)) = 1/2 * (cos(45° - θ)) + 1/2 * ( - cos(60° + θ))
-*   = 1/2 * (cos45°cosθ + sin45°sinθ) + 1/2 * (-cos60°cosθ - sin60°sinθ)
-*   = 1/2 * (1/ √2) × (sin45° + cos45° ) - 1/2 * 1/2 × (cos(θ - 30°)
-**Page 2:** 
-= 1/2√2( sin(π/4) + cos(π/4)) -1/4 cos(θ - 30°)
-Now substituting the values of  sin(π/4) and cos(π/4) to be √2/2, then
-= (1/2√2( √2/2 + √2/2)) -1/4 cos(θ - 30°)
-= (1/2 -1/4 cos(θ - 30°))
-So, sin cos sin cos 135° - θ and 120° + θ = ( 1/2 - 1/4 cos(θ - 30°))
+# Sentence Completion\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 483 ---\nEXAMPLE 11. What is the value of
+sec(
+)sin sec
+90
+45
+°−
+°
+θ
+θ
+?
+a. 1
+b.
+3
+2
+c.
+2
+d.
+3
+Sol. c. Given, sec (
+)sin sec
+90
+45
+°−
+°
+θ
+θ
+=
+×
+×
+cosec θ
+θ
+sin
+2
+=
+×
+×
+1
+2
+sin
+sin
+θ
+θ
+=
+2
+EXAMPLE 12. The value of
+sin
+cos
+sin
+cos
+135
+120
+135
+120
+° −
+°
+° +
+° is
+a. 2
+3 2
++
+b. 2
+3 2
+−
+c. 3
+2 2
+−
+d. 3
+2 2
++
+Sol. d. sin
+sin (
+)
+135
+180
+45
+° =
+° −
+° =
+° =
+sin 45
+1
+2
+cos
+cos (
+)
+120
+180
+60
+° =
+° −
+° = −
+° = −
+cos 60
+1
+2
+∴sin
+cos
+sin
+cos
+135
+120
+135
+120
+1
+2
+1
+2
+1
+2
+1
+2
+° −
+°
+° +
+° =
+−−
+
+
+
+
++
+−
+
+
+
+
+=
++
+−
+×
++
++
+2
+1
+2
+1
+2
+1
+2
+1
+=
++
+−
+=
++
++
+(
+)
+2
+1
+2
+1
+2
+1
+2
+2
+2
+=
++
+3
+2
+2
+Sum, Difference and Product Formulae
+• sin (
+)
+sin
+cos
+cos
+sin
+A
+B
+A
+B
+A
+B
++
+=
++
+• sin (
+)
+sin
+cos
+cos
+sin
+A
+B
+A
+B
+A
+B
+−
+=
+−
+• cos (
+)
+cos
+cos
+sin
+sin
+A
+B
+A
+B
+A
+B
++
+=
+−
+• cos (
+)
+cos
+cos
+sin
+sin
+A
+B
+A
+B
+A
+B
+−
+=
++
+• tan (
+)
+tan
+tan
+tan
+tan
+A
+B
+A
+B
+A
+B
++
+=
++
+−
+1
+• tan (
+)
+tan
+tan
+tan
+tan
+A
+B
+A
+B
+A
+B
+−
+=
+−
++
+1
+• cot (
+)
+cot
+cot
+cot
+cot
+A
+B
+A
+B
+A
+B
++
+=
+−
++
+1
+• cot (
+)
+cot
+cot
+cot
+cot
+A
+B
+A
+B
+B
+A
+−
+=
++
+−
+1
+• sin (
+)sin (
+)
+sin
+sin
+A
+B
+A
+B
+A
+B
++
+−
+=
+−
+2
+2
+=
+−
+cos
+cos
+2
+2
+B
+A
+• cos (
+)cos (
+)
+A
+B
+A
+B
++
+−
+=
+−
+=
+−
+cos
+sin
+cos
+sin
+2
+2
+2
+2
+A
+B
+B
+A
+• 2sin
+cos
+sin (
+)
+sin (
+)
+A
+B
+A
+B
+A
+B
+=
++
++
+−
+• 2cos
+sin
+sin (
+)
+sin (
+)
+A
+B
+A
+B
+A
+B
+=
++
+−
+−
+• 2cos
+cos
+cos (
+)
+cos (
+)
+A
+B
+A
+B
+A
+B
+=
++
++
+−
+• 2sin
+sin
+cos (
+)
+cos (
+)
+A
+B
+A
+B
+A
+B
+=
+−
+−
++
+• sin
+sin
+sin (
+) cos (
+)
+A
+B
+A
+B
+A
+B
++
+=
++
+⋅
+−
+2
+2
+2
+• sin
+sin
+sin (
+) cos (
+)
+A
+B
+A
+B
+A
+B
+−
+=
+−
+⋅
++
+2
+2
+2
+• cos
+cos
+cos (
+) cos (
+)
+A
+B
+A
+B
+A
+B
++
+=
++
+⋅
+−
+2
+2
+2
+• cos
+cos
+sin (
+) sin (
+)
+A
+B
+A
+B
+A
+B
+−
+= −
++
+⋅
+−
+2
+2
+2
+=
++
+⋅
+−
+2
+2
+2
+sin (
+) sin (
+)
+A
+B
+B
+A
+• tan
+tan
+sin (
+)
+cos
+cos
+A
+B
+A
+B
+A
+B
++
+=
++
+• tan
+tan
+sin (
+)
+cos
+cos
+A
+B
+A
+B
+A
+B
+−
+=
+−
+• cot
+cot
+sin (
+)
+sin
+sin
+A
+B
+A
+B
+A
+B
++
+=
++
+• cot
+cot
+sin (
+)
+sin
+sin
+A
+B
+B
+A
+A
+B
+−
+=
+−
+EXAMPLE 13. If A
+B
+−
+= π
+3, then the value of
+cos
+cos
+sin
+sin
+A
+B
+A
+B
++
+is
+a. 1/2
+b. 1
+c. 3/2
+d. None of these
+Sol. a. cos
+cos
+sin
+sin
+A
+B
+A
+B
++
+=
+−
+cos (
+)
+A
+B
+=
+
+
+
+
+cos
+π
+3
+= 1
+2
+Q A
+B
+−
+=
+
+
+
+
+π
+3
+EXAMPLE 14. The value of
+3
+23
+23
+2
+co\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Sentence Completion based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

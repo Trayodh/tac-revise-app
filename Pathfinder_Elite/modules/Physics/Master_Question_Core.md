@@ -1,106 +1,354 @@
-I'll create a highly structured revision note for Physics based on the given problem.
-
-**Page 1: Problem Solving and Quadrilaterals**
-
-**A. Introduction to Quadrilaterals**
-
-- A quadrilateral is a two-dimensional shape with four sides.
-- It can be defined as any four-sided polygon.
-
-**B. Area of Quadrilateral**
-
-- To find the area of a quadrilateral, we can divide it into two triangles.
-- The area of the quadrilateral is the sum of the areas of the two triangles.
-
-**C. Formula for Area of Triangle**
-
-- The area of a triangle can be calculated using the formula:
-  ∆ = (Base × Height) / 2
-- Where Base is the length of one side of the triangle, and Height is the perpendicular distance from the base to the opposite vertex.
-
-**D. Problem and Its Solution**
-
-- Source 1: A quadrilateral is drawn such that ∆ABC, ∆ADC, and ∆ABD, ∆ACD form two pairs of congruent triangles.
-  - Solution: 
-    To find the area of ∆ABC + Area of ∆ADC, we can use the formula for the area of a triangle.
-    The given area of the quadrilateral is 306 cm^2 = 180 + 126 cm^2.
-    This shows that when we add the areas of the two triangles, we get the area of the quadrilateral.
-
-**E. Summary of Key Points**
-
-- A quadrilateral can be divided into two triangles.
-- The area of a quadrilateral is the sum of the areas of the two triangles.
-- We can calculate the area of a triangle using the formula ∆ = (Base × Height) / 2.
-
-**Page 2: Circles and Perimeter**
-
-**A. Introduction to Circles**
-
-- A circle is a circular shape with no corners or edges.
-- It is a two-dimensional shape that is defined by its center and a radius.
-
-**B. Area and Perimeter of Circle**
-
-- The area of a circle is given by the formula A = πr^2.
-- The perimeter of a circle is given by the formula P = 2πr.
-
-**C. Problem and Its Solution**
-
-- Source 1: The circumference of the wheel is equal to the distance covered in one revolution by a point on the wheel's edge, which is 220 cm.
-- Solution:
-  Let the radius of the wheel be 'r'. 
-  Then the circumference C = 2πr, where C = 220 cm.
-  To find the radius, we can set up an equation: 2πr = 220.
-  Solving for 'r', we get r = 220 / (2π) = 220 / (2 × 22 / 7) = 70 cm.
-
-**D. Summary of Key Points**
-
-- A circle has no corners or edges.
-- The area and perimeter of a circle can be calculated using specific formulas.
-- The distance covered in one revolution by a point on the wheel's edge is equal to the circumference of the wheel.
-
-**Page 3: Multiple Choice Questions and Their Solutions**
-
-**A. Multiple Choice Questions**
-
-1. Find the value of x in the equation:
-   r^2 + (r - 14)^2 = x - r^2.
-
-2. A wheel completes one full revolution every 1000 seconds. How many seconds will it take to complete 100 revolutions?
-
-   a) 50,000
-   b) 200,000
-   c) 1,000,000
-   d) 2,000,000
-
-**B. Solution to Multiple Choice Question 1**
-
-To solve the equation:
-   r^2 + (r - 14)^2 = x - r^2
-   We expand the LHS to simplify and solve.
-
-**C. Solution to Multiple Choice Question 2**
-
-Given that a wheel completes one full revolution every 1000 seconds, 
-to find the time for 100 revolutions, we multiply the time per revolution by 100.
-   Time per revolution = 1,000 s.
-   Time for 100 revolutions = 100 × 1,000 = 1,000,000 s.
-   or
-   Option c) 1,000,000 s.
-
-**Page 4: Additional Information and Review Questions**
-
-**A. Additional Information**
-
-- The concept of radius and diameter of a circle is crucial in the study of circles.
-- The sum of the areas of two circles with radii x and y is x^2 + y^2.
-
-**B. Review Questions**
-
-1. What is the area of the quadrilateral ABCD if the area of triangle ABC and triangle ADC are 126 and 180 respectively?
-
-2. A person covers a distance of 2500 m in 25 minutes using a wheel. If the circumference of the wheel is 2 meters, what is the distance covered in one revolution?
-
-3. A wheel with a radius of 70 cm makes a full rotation every 100 seconds. Find the speed in meters per second when 1000 revolutions are made in 1000 seconds.
-
-Answers to the questions can be generated upon request.
+# Master Question Core\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 612 ---\n∆=
+s s
+a
+s
+b
+s
+c
+( –
+)( –
+)( – )
+=
+42 42
+41 42
+28 42
+15
+(
+–
+)(
+–
+)(
+–
+)
+=
+×
+×
+×
+42
+1
+14
+27
+=
+×
+×
+=
+14
+3
+3
+126 cm2
+∴Area
+of
+quadrilateral = Area
+of
+∆ABC + Area of ∆ADC
+=
++
+180
+126 = 306 cm2
+23. (c) Distance covered in one revolution
+=
+×
+×
+11
+1000
+100
+5000
+= 220 cm
+∴The circumference of the wheel
+= 220 cm
+Let the diameter be ‘D’.
+Then, πD = 220 ⇒22
+7
+220
+×
+=
+D
+∴
+D =
+×
+=
+220
+7
+22
+70 cm
+24. (a) Let radius of given circles be x cm
+and (
+)
+14 −x cm.
+∴Sum of areas of circle
+=
++
+−
+[
+(
+) ]
+π
+π
+x
+x
+2
+2
+14
+130
+14
+2
+2
+π
+π
+π
+=
++
+−
+x
+x
+(
+)
+[by condition]
+⇒
+130
+2
+28
+196
+2
+=
+−
++
+x
+x
+⇒
+x
+x
+2
+14
+33
+0
+−
++
+=
+⇒
+(
+)(
+)
+x
+x
+−
+−
+=
+11
+3
+0
+⇒
+x = 11 or x = 3
+So, the radii of circles are 11 cm and
+3 cm.
+25. (d) Angle inscribed by minute hand in
+60 min =
+°
+360 .
+Angle inscribed in 35 min =
+° ×
+360
+60
+35
+=
+°
+210
+given, r = 12 cm
+∴Area swept by the minute-hand in
+35 min
+= Area of sector with r = 12 cm
+and θ =
+°
+210
+=
+×
+×
+×
+
+
+
+
+22
+7
+12
+12
+210
+360
+cm2 = 264 cm2
+26. (b) Area of the shaded region
+= (Area of sector with r = 7 cm,θ =
+°
+30 )
+−(Area of sector with r = 3 5. cm,
+θ =
+°
+30 )
+=
+×
+×
+×
+
+
+
+
+
+
+22
+7
+7
+7
+30
+360
+−
+×
+×
+×
+
+
+
+
+
+22
+7
+7
+2
+7
+2
+30
+360
+cm2
+=
+−
+
+
+
+
+=
+77
+6
+77
+24
+cm
+77
+8
+cm
+2
+2
+27. (d) Area of field = 1 hec
+10000 m2
+=
+∴
+side =
+10000 m = 100 m
+Q
+Side of other field = 102% of 100
+= 102
+∴
+Area of the field
+=
+×
+=
+102
+102
+10404 m2
+Thus, difference of area
+=
+−
+(
+)
+10404
+10000 m2
+= 404 m2
+28. (c) Let diameter of the circle be 2r.
+∴Area of the circle = πr2
+Diameter is increased by 100%
+New diameter = 4r
+and new area = 4
+2
+πr
+Q Increase in area =
+−
+4
+2
+2
+π
+π
+r
+r = 3
+2
+πr
+∴Increase percentage in area
+=
+×
+
+
+
+
+
+
+=
+3
+100
+300
+2
+2
+π
+π
+r
+r
+%
+%
+Short trick Area is increased by
+=
++
+
+
+
+
+
+
+2
+100
+2
+x
+x
+% =
+×
++
+
+
+
+
+
+
+2
+100
+100
+100
+2
+%
+=
++
+(
+)%
+200
+100
+= 300%
+29. (c) Area of trapezium = 1 2
+/
+(Sum of parallel sides)
+× Distance between them
+=
++
+×
+1 2 25
+15
+7
+/ (
+)
+= 140 cm2
+30. (b) Since, diagonal of rhombus bisect
+each other and perpendicular to eac\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Master Question Core based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

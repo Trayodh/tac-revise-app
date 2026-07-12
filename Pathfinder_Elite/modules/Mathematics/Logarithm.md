@@ -1,39 +1,82 @@
-**Chapter Overview: _Logarithm Fundamentals_**
-=================================================================
-
-In the realm of mathematics, logarithms have been instrumental in simplifying complex expressions and providing a powerful tool for solving equations. The concept of logarithms has far-reaching applications in various disciplines, including physics, engineering, economics, and more.
-
-### 1.1 The Birth of Logarithms
-
-The term "logarithm" was coined by Scottish mathematician John Napier in the early 17th century. Napier's work on logarithms stemmed from his efforts to simplify multiplication and division operations. He recognized that by using logarithmic scales, he could represent products and quotients as sums and differences, thereby streamlining mathematical calculations.
-
-### 1.2 Logarithmic Functions
-
-A logarithmic function, denoted as log(x), represents the inverse operation of exponentiation. In essence, if y = x^b, then log(y) = b. This means that if we have a number x and we want to find the exponent to which a base (e.g., 10) must be raised to obtain x, the logarithmic function provides the solution.
-
-$$\log_{a}{x} = y \iff a^y = x$$
-
-where a is the base and x is the input number.
-
-### 1.3 Properties of Logarithmic Functions
-
-Logarithmic functions exhibit several properties that make them useful in various mathematical and scientific applications:
-
-*   **One-to-one correspondence**: Logarithmic functions have a unique input-output relationship, ensuring that each input corresponds to a distinct output.
-*   **Monotonicity**: Logarithmic functions are monotonically increasing or decreasing, meaning that as the input increases, the output also increases, and vice versa.
-*   **Invertibility**: Logarithmic functions have inverse functions, which can be used to "undo" the logarithmic operation.
-
-### 1.4 Logarithmic Scales
-
-Logarithmic scales are essential in various areas of science, such as physics, biology, and economics, where exponential growth or decay occurs. Logarithmic scales help to:
-
-*   **Visualize data**: By using a logarithmic scale, we can compress large ranges of values into a more manageable and visually insightful format.
-*   **Analyze trends**: Logarithmic scales reveal subtle patterns and relationships that might be hidden in raw data.
-
-### 1.5 Real-World Applications of Logarithms
-
-Logarithms have an array of practical applications in fields such as:
-
-*   **Sound and music**: Logarithmic scales are used to measure sound levels (decibels) and musical notes (octaves).
-*   **Finance**: In finance, logarithmic functions are used to calculate returns on investments, compute interest rates, and model economic growth.
-*   **Biology and ecology**: Logarithmic scales help researchers understand population growth, spread of diseases, and ecosystem dynamics.
+# Logarithm\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 113 ---\n4. Which one of the following
+statements about Indian economy
+during 2019-20 is not correct?
+(a) There has been deceleration in
+growth rate.
+(b) There has been sluggish growth in
+tax revenue relative to the Budget
+Estimates.
+(c) Fiscal deficit as percentage of
+GDP has been as per the Budget
+Estimates.
+(d) The non-tax revenue registered a
+considerably higher growth.
+_ (c) There has been deceleration in
+growth rate in Indian Economy during
+2019-20. There has been sluggish
+growth in tax revenue relative to the
+Budget Estimates. Fiscal deficit as
+percentage of GDP has been more
+than the Budget Estimates. The
+non-tax revenue registered a
+considerable growth.
+5. As per the Budget Estimates of
+expenditure on major subsidies
+during 2019-20, the maximum
+expenditure was likely to be on
+(a) urea subsidy
+(b) petroleum subsidy
+(c) food subsidy
+(d) fertilizer subsidy
+_ (c) In 2019-20, the total expenditure
+on subsidies is estimated to increase
+to ` 3,38,949 crore (13.3%) over the
+revised estimate of 2018-19. This is
+owing to an increase in expenditure
+on petroleum, fertilizer, food and other
+interest subsidies.
+Subsidies in 2019-20 (` crore)
+Subsidy
+Budget
+2019-20
+Food subsidy
+184220
+Fertilizer subsidy
+79996
+Petroleum subsidy
+37478
+Other subsidies
+37255
+Total
+338949
+Hence, option (c) is correct.
+6. Which one of the following Indian
+places receives minimum rainfall
+in a year?
+(a) Jodhpur
+(b) Leh
+(c) New Delhi
+(d) Bengaluru
+_ (b) Leh receives minimum rainfall in a
+year among the given option. The
+average annual rainfall is only 102
+mm (4.02 inches).
+The annual average rainfall of the
+other given places are
+Jodhpur – 363 mm
+New Delhi – 617 mm
+Bengaluru – 970 mm
+7. Timber vegetation is generally not
+found in which of the following
+regions?
+(a) Subtropical region
+(b) Temperate region
+(c) Alpine region
+(d) Tundra region
+_ (d) Timber vegetation is generally not
+found in Tundra region. The Tundra is
+a treeless  polar desert found in the
+high latitudes in the polar reg\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Logarithm based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

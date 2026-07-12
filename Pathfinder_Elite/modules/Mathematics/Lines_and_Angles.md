@@ -1,43 +1,118 @@
-I can see that the provided sources do not contain information related to Mathematics: Lines and Angles. It appears to be a passage about Indian Politics and the Constitution. 
-
-However, I can generate a 4-page highly structured revision note on Mathematics: Lines and Angles based on general knowledge and textbook resources. Here it is:
-
-**Page 1: Introduction and Types of Angles**
-
-1. **Introduction**: Lines and angles are fundamental concepts in geometry.
-2. **What is a Line?**: A line is a set of points extending infinitely in two directions.
-3. **Types of Angles**:
-	* **Acute Angle**: An angle less than 90 degrees.
-	* **Right Angle**: An angle exactly 90 degrees.
-	* **Obtuse Angle**: An angle greater than 90 degrees but less than 180 degrees.
-	* **Straight Angle**: An angle exactly 180 degrees.
-	* **Reflex Angle**: An angle greater than 180 degrees but less than 360 degrees.
-
-**Page 2: Angle Measurement and Relationships**
-
-1. **Measuring Angles**: Angles can be measured using protractors or in degrees.
-2. **Types of Angle Relationships**:
-	* **Supplementary Angles**: Two angles that add up to 180 degrees.
-	* **Complementary Angles**: Two angles that add up to 90 degrees.
-	* **Adjacent Angles**: Two angles that share a common side.
-	* **Vertical Angles**: Two angles that are opposite each other and form an 'X'.
-3. **Example 1**: ∠A = 60°, ∠B = 120°. Are they supplementary or complementary angles? Solution: ∠A + ∠B = 180°, therefore they are supplementary angles.
-
-**Page 3: Angle Properties and Theorems**
-
-1. **Angle Properties**:
-	* **Angle Sum Property**: The sum of the interior angles in a triangle is always 180°.
-	* **Angle Bisector Theorem**: An angle bisector divides the opposite side into two segments that are proportional to the other two sides.
-2. **Important Theorems**:
-	* **Alternate Interior Angles Theorem**: If two lines intersect, then the alternate interior angles are equal.
-	* **Corresponding Angles Theorem**: If two lines are cut by a transversal, then the corresponding angles are equal.
-
-**Page 4: Problems and Practice**
-
-1. **Example 2**: In a triangle, ∠A = 60° and ∠B = 80°. What is the measure of ∠C? Solution: ∠A + ∠B + ∠C = 180°, therefore ∠C = 40°.
-2. **Practice Exercises**:
-	* Find the measure of the vertical angle of ∠A.
-	* Check if the given angles are supplementary or complementary.
-	* Solve the problems using angle properties and theorems.
-
-Please note that this revision note is a generic outline and may not cover the specific topics and content from the textbooks or class notes used in your course.
+# Lines and Angles\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 237 ---\n(d) One-twelfth of all members shall
+be elected by graduates residing
+in the state
+_ (c)
+The
+Constitution
+as
+provided
+autonomy to state to have unicameral
+and bicameral legislature, 7 out of 28
+states
+have
+bicameral
+legislature,
+Legislative Assembly and Council.
+The Legislative Council is the Upper
+House where members are indirectly
+elected.
+The maximum strength of the council
+is fixed at one-third of the total
+strength of assembly and minimum is
+fixed at 40.
+Manner of Election
+One-third
+By Local Bodies and
+Authorities
+One-third
+By Legislative Assemblies
+One-twelfth By Graduates
+One twelfth By Teachers
+One-sixth
+Nominated by Governor
+Hence, option (c) is incorrect.
+35. Which one of the following is not
+correct about the Panchayats as
+laid
+down
+in
+Part
+IX
+of
+the
+Constitution of India?
+(a) The Chairperson of a Panchayat
+needs to be directly elected by
+people in order to exercise the right
+to vote in the Panchayat meetings
+(b) The State Legislature has the right
+to decide whether or not offices of
+the
+Chairpersons
+in
+the
+Panchayats are reserved for SCs,
+STs or women
+(c) Unless dissolved earlier, every
+Panchayat continues of a period
+of five years
+(d) The State Legislature may by law
+make
+provisions
+for
+audit
+of
+accounts of the Panchayats
+_ (a)
+The
+Part
+IX
+was
+inserted
+in
+Constitution
+through
+the
+73rd
+Amendment Act.
+Important Features
+The Chairman of a Panchayat shall be
+elected in such a manner as the State
+Legislature determines. So statement
+(a) is not correct.
+Rest all statements are true. It also
+provided
+one-third
+reservation
+of
+seats for women in State Finance
+Commission,
+State
+Election
+Commission etc.
+36. Which one of the following is not
+correct
+about
+Administrative
+Tribunals?
+(a) The
+Parliament
+may
+be
+law
+Constitute
+Administrative
+Tribunals both at the Union and
+State levels
+(b) Tribunals may look into disputes
+and complaints with respect to
+recruitment
+and
+conditions
+of
+service of persons appointed to
+public services
+(c) Tribunals establis\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Lines and Angles based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

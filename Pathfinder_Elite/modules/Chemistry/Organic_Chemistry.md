@@ -1,92 +1,238 @@
-**Page 1: Descriptive Statistics**
-
-**I. Measures of Central Tendency**
-
-1. **Mean**: The average value of a data set, calculated by summing all values and dividing by the number of values.
-   * Formula: Mean = ( Σx ) / n
-2. **Median**: The middle value of a data set when it is ordered from smallest to largest.
-   * Formula: Median = (( n + 1 ) / 2)th term
-3. **Mode**: The value that appears most frequently in a data set.
-   * Formula: Mode = l + [( ∑f ) / ( f_m - f_{m-1} )] × h, where l is the modal class, f_m is the frequency of the modal class, and f_{m-1} is the frequency of the class preceding the modal class.
-
-**II. Calculation of Mode**
-
-* Example: Find the mode of the class interval 40-50, where maximum frequency is 28.
- * f1 = 10, f2 = 20, f3 = 28, l = 40, and h = 10
- * Mode = l + [( f1 + f2 + f3 ) / ( 2f2 + f1 - f3 )] × h
- * Mode = 40 + [( 10 + 20 + 28 ) / ( 2 × 20 + 10 - 28 )] × 10
- * Mode = 40 + [ 58 / ( 40 - 28 )] × 10
- * Mode = 40 + [ 58 / 12 ] × 10
- * Mode = 40 + [ 4.83 ] × 10
- * Mode = 40 + 48.3
- * Mode ≈ 88.3
-
-**III. Relation between Mean, Median, and Mode**
-
-* The empirical relationship between the three measures of central tendency is given by:
- * Mode = 3 ( Median ) - 2 ( Mean )
- * In case mean = median = mode, then distribution is:
- * symmetrical, unimodal, and single-peaked.
-
----
-
-**Page 2: Central Limit Theorem (CLT)**
-
-**I. Central Limit Theorem (CLT)**
-
-1. **What is CLT?**: The CLT states that the distribution of the mean of a sample of independent and identically distributed random variables will be approximately normal with mean (μ) and standard deviation (σ) as the sample size increases.
-
-**II. Key Takeaways from CLT**
-
-* The distribution of the sample mean is approximately normal.
-* The mean of the sample mean is the same as the population mean (μ).
-* The standard deviation of the sample mean is less than the standard deviation of the population.
-
-**III. Conditions for CLT to Hold**
-
-* The data should be a random sample from the population.
-* The data should be independent.
-* The sample should be sufficiently large (n ≥ 30).
-
----
-
-**Page 3: Organic Chemistry Basics**
-
-**I. What is Organic Chemistry?**
-
-1. **Definition**: Organic chemistry is the study of the structure, properties, reactions, and synthesis of organic compounds, which are typically based on carbon.
-2. **Key Concepts**: Functional groups, isomerism, aromaticity, stereochemistry, and reaction mechanisms.
-
-**II. Functional Groups**
-
-* **What are functional groups?**: A functional group is a specific group of atoms within a molecule that gives it unique properties and reactivity.
-* **Types of functional groups**: include alkyl halides, alcohols, aldehydes, ketones, carboxylic acids, and amines.
-
-**III. Isomerism**
-
-* **What is isomerism?**: Isomerism is the ability of two or more different compounds to have the same molecular formula.
-* **Types of isomerism**: structural isomerism, stereoisomerism, and tautomerism.
-
----
-
-**Page 4: Organic Reactions**
-
-**I. Types of Organic Reactions**
-
-1. **Addition reactions**: addition of a single reactant to a double bond.
-2. **Elimination reactions**: removal of a leaving group from a reactant.
-3. **Substitution reactions**: replacement of a leaving group with a new group.
-
-**II. Examples of Organic Reactions**
-
-* **Example 1: Alkene reaction with HBr**
- + HBr → 
-* **Example 2: Alkane reaction with HCl**
- + HCl → 
-* **Example 3: Esterification reaction**
- + HCl → 
-
-**III. Reaction Mechanisms**
-
-* **What is a reaction mechanism?**: A step-by-step description of how a reaction takes place.
-* **Types of reaction mechanisms**: concerted, stepwise, and radical.
+# Organic Chemistry\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 654 ---\nSol. c. Here, maximum frequency is 28. Thus, the class
+40-50 is the modal class. Here, f
+f
+f
+1
+0
+2
+28
+12
+20
+=
+=
+=
+,
+,
+,
+l = 40 and h = 10
+∴
+Mode = +
+−
+−
+−
+
+
+
+×
+l
+f
+f
+f
+f
+f
+h
+1
+0
+1
+0
+2
+2
+=
++
+−
+×
+−
+−
+40
+10 28
+12
+2
+28
+12
+20
+(
+)
+(
+)
+=
++
+×
+=
+40
+10
+16
+24
+40
+6666
++ .
+= 4667
+.
+(approx)
+Relation between Mean, Median and Mode
+The empirical relationship between the three measures
+of central tendency is given by
+Mode = 3 (Median) −2 (Mean)
+In case, mean = median = mode, then distribution is said
+to be symmetric distribution.
+EXAMPLE 18. If in a frequency distribution, the mean
+and median are 20 and 21 respectively, then its mode
+is approximate by
+a. 24
+b. 23
+c. 25
+d. None of these
+Sol. b. Here, mean = 20 and median = 21
+Mode =
+×
+3
+Median −
+×
+2
+Mean =
+−
+63
+40 = 23
+Some Useful Formulae
+If x1, x2, …, xn are n observations with their mean M,
+then deviation d i is given by d
+M
+i
+i
+=
+−
+|
+|
+x
+.
+• Mean deviation for individual series is given by Σ |
+|
+d
+n
+i .
+• Mean deviation for discrete series is given by Σ
+Σ
+f
+d
+f
+i
+i
+i
+|
+|.
+• Standard deviation ( )
+σ for ungrouped data is given by
+σ =
+Σ |
+|
+d
+n
+i
+2
+.
+• Standard
+variation
+for
+grouped
+data
+is
+given
+by
+σ =
+Σf d
+n
+i
+i
+|
+|2
+• Variance = σ 2
+• Coefficient of variation =
+×
+Standard deviation
+Mean
+100
+• Coefficient of mean deviation =
+×
+Mean deviation
+Mean
+100
+EXAMPLE 19. The mean deviation of the data, 3, 5, 6,
+7, 8, 10, 11, 14 is
+a. 4
+b. 3.25
+c. 2.75
+d. 2.4
+Sol. c.Mean =
++
++
++
++
++
++
++
+3
+5
+6
+7
+8
+10
+11 14
+8
+=
+=
+64
+8
+8
+∴Σ δ =
+−
++
+−
++
+−
++
+−
++
+−
+3 8
+5 8
+6
+8
+7
+8
+8
+8
++
+−
++
+−
++
+−
+|
+|
+10
+8
+11 8
+14
+8 = 22
+∴Mean deviation =
+=
+=
+Σδ
+n
+22
+8
+2 75
+.
+Graphical Representation of Data
+There are many ways of picturing a frequency
+distribution of continuous type which are discussed
+below
+1. Bar Graph
+In a bar graph, bars of uniform width are drawn with
+various heights. The heights of a bar represents the
+frequency of observation.
+2. Histogram
+A histogram is the graphical representation of a
+frequency distribution in the form of the \n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Organic Chemistry based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

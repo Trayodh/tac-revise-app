@@ -1,94 +1,105 @@
-**Revision Notes: Biology - Human Health and Diseases**
-
-**Page 1: Introduction to Human Health and Disease**
-
-1. **Definition of Health and Disease**
-- Health: A state of complete physical, mental, and social well-being.
-- Disease: A condition of abnormal functioning of the body, brain, or nervous system, often caused by infection, injury, or genetics.
-
-2. **Factors Affecting Human Health**
-- Genetics: Determines susceptibility to certain diseases.
-- Lifestyle: Diet, exercise, and smoking habits.
-- Environmental Factors: Pollution, climate change.
-- Social and Economic Factors: Income, education.
-
-**Key Terms**
-- Antagonism: A strong feeling of dislike or hatred.
-- Antipathy: A strong feeling of dislike.
-- Antithesis: The direct or exact opposite.
-
-**Important Concepts**
-- Health and wellness are closely linked.
-- Prevention is better than cure.
-
-**Page 2: Infectious Diseases**
-
-1. **Transmission of Infectious Diseases**
-- Airborne: Respiratory diseases like TB.
-- Waterborne: Diarrheal diseases like cholera.
-- Vector-borne: Mosquito-borne diseases like malaria.
-
-2. **Types of Infectious Diseases**
-- Bacterial: Typhoid, Tuberculosis.
-- Viral: HIV, Influenza.
-- Fungal: Ringworm, Athlete's foot.
-
-3. **Control of Infectious Diseases**
-- Vaccination: Prevention through vaccination.
-- Isolation and Quarantine: Containment.
-- Treatment: Antibiotics, antiviral medications.
-
-**Key Terms**
-- Synonyms (as per Source 1): Hate, Prejudice (Antagonism), Aversion, Dislike (Antipathy), Counterpart, Converse (Antithesis).
-
-**Important Concepts**
-- Vaccination is an effective tool against infectious diseases.
-- Personal hygiene is key to preventing the spread of diseases.
-
-**Page 3: Non-Communicable Diseases**
-
-1. **Causes of Non-Communicable Diseases**
-- Genetics: Family history of diseases.
-- Lifestyle: Smoking, diet, lack of exercise.
-- Environmental Factors: Pollution, UV radiation.
-
-2. **Types of Non-Communicable Diseases**
-- Cardiovascular: Heart disease, stroke.
-- Cancer: Lung, breast, colon.
-- Diabetes: Type 1, Type 2.
-
-3. **Prevention and Treatment of Non-Communicable Diseases**
-- Lifestyle changes: Diet, exercise, quit smoking.
-- Screening and diagnosis: Early detection.
-- Treatment: Medications, surgery.
-
-**Key Terms**
-- Antonym (as per Source 1): Love, Affection (Antagonism).
-
-**Important Concepts**
-- Early detection and treatment improve outcomes for non-communicable diseases.
-- Lifestyle changes can prevent or delay onset of non-communicable diseases.
-
-**Page 4: Immune System and Defense Against Diseases**
-
-1. **Functions of the Immune System**
-- Recognize and respond to pathogens: T-cells, B-cells.
-- Protect against infections: White blood cells, mucus.
-
-2. **Mechanisms of Immune Defense**
-- Innate immunity: Non-specific response.
-- Adaptive immunity: Specific response.
-- Immunological memory: Vaccination.
-
-3. **Immunodeficiency and Autoimmune Diseases**
-- Conditions where the immune system fails to function: HIV, cancer.
-- Conditions where the immune system attacks healthy tissue: Rheumatoid arthritis, lupus.
-
-**Key Terms**
-- Aphorism (as per Source 1).
-
-**Important Concepts**
-- The immune system plays a vital role in defending against diseases.
-- Understanding the immune system helps in developing treatments and preventing diseases.
-
-Note: I have extracted relevant information from the provided sources and structured it into 4 pages of revision notes on Biology - Human Health and Diseases. I have also added key terms and important concepts to summarize the main ideas.
+# Human Health and Diseases\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 723 ---\n438
+CDS Pathfinder
+Antagonism A strong feeling of
+dislike or hatred
+Synonyms
+Hate, Prejudice
+Antonyms
+Love, Affection
+G Man cannot be an antagonist as he
+has to live in the society.
+Antipathy A strong feeling of dislike
+Synonyms
+Aversion, Dislike
+Antonyms
+Affinity, Cordiality
+G Pakistan’s antipathy is open to
+India.
+Antithesis The direct or exact opposite
+Synonyms
+Counterpart, Converse
+Antonym
+Same
+G It seems that he has decided to be
+in antithesis of my opinion.
+Aphorism A short, wise and true
+statement
+Synonyms
+Adage, Maxim
+Antonyms
+Nonsense, Absurdity
+G “Honesty is the best policy” is a
+very practical aphorism.
+Aplomb Confidence and style
+Synonyms
+Assurance, Poise
+Antonyms
+Gaucheness,
+Discomposure
+G Continuous failure had a great
+effect on his aplomb.
+Apocryphal Well-known but
+probably not true
+Synonyms
+Fictitious, Made-up
+Antonyms
+Authentic, Real
+G Existence of God is an apocryphal
+fact to the people world wide.
+Apogee Most successful part of
+something
+Synonyms
+The top, Apex
+Antonyms
+Bottom, Base
+G Romance is the apogee of a
+relationship.
+Appease to make someone pleased or
+less angry by giving or saying
+something they desire
+Synonyms
+To pacify, Placate
+Antonyms
+Annoy, Irritate
+G His appeasing behaviour is always
+appreciated.
+Append To add something to the end
+of a writing
+Synonyms
+Add, Attach
+Antonyms
+Disjoin, Detach
+G It is always advisible to append the
+hints to a mathematical problem.
+Apportion To divide something
+among people
+Synonyms
+Distribute, Allocate
+Antonyms
+Keep, Withhold
+G The property of the deceased man
+was apportioned between his two
+sons.
+Babble To talk or say something in a
+quick, confused, excited or silly way
+Synonyms
+Chatter, Bumble
+Antonyms
+Quiet, Sense
+G He seems to be babbling.
+Badger To try to make someone do
+something by asking them many
+times
+Synonyms
+Pester, Bother, Torment
+Antonyms
+Aid, Delight
+G The peon had to be badgered to get
+the form signed by the principal.
+Baleful Full of evil intentions,
+menacing
+Synonyms
+\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Human Health and Diseases based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

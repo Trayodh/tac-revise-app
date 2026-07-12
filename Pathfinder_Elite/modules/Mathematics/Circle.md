@@ -1,57 +1,49 @@
-**Page 1: Definition and Properties of a Circle**
-
-1. Definition:
-    - A circle is a set of all points that are equidistant from a fixed point called the center.
-    - The center is the point from which the distances to all points on the circle are the same.
-    - The distance from the center to any point on the circle is the radius.
-
-2. Symbols:
-    - O: Center of the circle
-    - r: Radius of the circle
-    - ∅: Diameter of the circle
-    - Circumference: The distance around the circle.
-
-3. Properties:
-    - The line joining the center to any point on the circle is a radius.
-    - The circumference is the perimeter of the circle.
-    - The diameter is twice the radius.
-
-**Key Points to Remember:**
-- A circle is a set of points equidistant from a fixed point.
-- The radius is the distance from the center to any point on the circle.
-- The diameter is twice the radius.
-- The circumference is the distance around the circle.
-
-
-**Illustration:**
-Draw a circle and label its center (O), radius (r), and diameter (∅).
-
-
-**Page 2: Circumference and Area of a Circle**
-
-1. Circumference:
-    - The formula for the circumference of a circle is C = 2πr.
-    - Where C is the circumference and r is the radius.
-
-2. Area:
-    - The formula for the area of a circle is A = πr^2.
-    - Where A is the area and r is the radius.
-
-3. Key Points to Remember:
-    - The formula for the circumference is C = 2πr.
-    - The formula for the area is A = πr^2.
-
-
-**Illustration:**
-Find the circumference and area of a circle with a radius of 5cm.
-
-
-**Problem:**
-Find the circumference of a circle with a diameter of 14cm.
-
-
-**Solution:** 
-- First, find the radius (r) by dividing the diameter by 2.
-- r = 14 ÷ 2 = 7cm
-- Then use the formula for the circumference: C = 2πr
-- C = 2 * 3.14 * 7 = 44cm
+# Circle\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 287 ---\n\n--- PAGE 288 ---\nNUMBER SYSTEM
+Numbers are collection of certain symbols or figures called digits. The common number system in use
+is decimal number system. In this system, we use ten symbols each representing a digit. These are 0, 1,
+2, 3, 4, 5, 6, 7, 8, and 9. A combination of these figures representing a number is called a numeral.
+Types of Numbers
+1. Natural numbers
+Numbers which are used for counting i.e. 1, 2, 3, 4, ... are called natural numbers.
+The set of natural numbers is denoted by ‘ N ’. Smallest natural number is 1 but we cannot find the
+largest natural number as successor of every natural number is again a natural number.
+2. Whole numbers Natural numbers including zero are known as whole numbers. The set of whole
+numbers is denoted by W.
+• Every natural number is a whole number.
+• Zero (0) is the only whole number which is not a natural number.
+3. Even numbers
+The numbers which are divisible by 2 are called as even numbers. e.g 2, 4, 6, 8, 10,
+… . In general these are represented by 2 m, where m
+N
+∈
+.
+4. Odd numbers
+The number which are not divisible by 2 are called as odd numbers. e.g. 1, 3, 5, 7,
+9, … . In general, these are represented by (
+)
+2
+1
+m−
+, where m
+N
+∈
+.
+5. Prime numbers
+Those numbers which are divisible by 1 and the number itself are known as prime
+numbers. e.g. 2, 3, 5, 7,..., etc. are prime numbers.
+• If a number is not divisible by any of the prime numbers upto square root of that number, then it is a prime
+number.
+• 2 is the only even number which is prime.
+• The prime numbers upto 100 are : 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71,
+73, 79, 83, 89 and 97 i.e. there are 25 prime numbers upto 100.
+3
+MATHEMATICS
+Quadratic Equations and Inequalities
+01
+NUMBER SYSTEM
+Generally (10-12) questions have been asked from this chapter. Questions, from this section usually
+test your basic knowledge of numbers and are mostly based on various properties of multiplication
+and division. A good\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Circle based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

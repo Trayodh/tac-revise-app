@@ -1,91 +1,121 @@
-**Page 1: Introduction and Sequence of Events**
-
-**Height and Distance - Sequence of Events**
-
-In Mathematics, height and distance problems involve finding the length of an object or the distance between two points using trigonometric ratios. This section will focus on understanding sequence of events and how it relates to mathematical problems.
-
-**Example 1:**
-The correct sequence of events is:
-- (a) QRSP is incorrect because (Q) is a point after the event described.
-- (b) QPSR is the correct sequence.
-- (c) SQRP is incorrect because (S) declared a fact that happens before (R) but in the context of this problem, the sequence provided is correct and does not directly conflict with given options which makes SQRP not a correct representation of sequence of events.
-- (d) RSQP is incorrect because (R) happens before (S).
-
-**Example 2:**
-The correct sequence of events is:
-- (a) QRSP is incorrect because the sequence provided is in the context of before and after the events described.
-- (b) QPSR is incorrect because the events described do not align.
-- (c) SQRP is the correct sequence.
-- (d) SQPR is incorrect because the correct sequence in this context is SQRP.
-
-**Page 2: Trigonometry Basics**
-
-**Height and Distance - Trigonometry Basics**
-
-Trigonometry is a branch of mathematics that deals with the relationship between the sides and angles of triangles. Key concepts in trigonometry include:
-
-**1. Angles**
-- Angles can be measured in degrees or radians
-- Key angles include acute angles, right angles, and obtuse angles
-
-**2. Trigonometric Ratios**
-- Sine (sin): defined as the ratio of the length of the opposite side to the length of the hypotenuse
-- Cosine (cos): defined as the ratio of the length of the adjacent side to the length of the hypotenuse
-- Tangent (tan): defined as the ratio of the length of the opposite side to the length of the adjacent side
-
-**3. SOH-CAH-TOA**
-- SOH: sine equals opposite over hypotenuse
-- CAH: cosine equals adjacent over hypotenuse
-- TOA: tangent equals opposite over adjacent
-
-**4. Important Formulas**
-
-- sin(a) = opposite/hypotenuse
-- cos(a) = adjacent/hypotenuse
-- tan(a) = opposite/adjacent
-
-**Page 3: Real-World Applications**
-
-**Height and Distance - Real-World Applications**
-
-Trigonometry has various real-world applications in fields such as:
-
-**1. Engineering**
-- Building design
-- Bridge construction
-- Calculating stress on structures
-
-**2. Surveying**
-- Measuring distances and angles
-- Calculating height of objects
-
-**3. Aviation**
-- Calculating distance and altitude
-- Navigation
-
-**4. Physics and Astronomy**
-- Calculating distances and velocities
-- Understanding celestial mechanics
-
-**Page 4: Practice Problems and Solutions**
-
-**Height and Distance - Practice Problems and Solutions**
-
-**Practice Problem 1:**
-A building is 50 meters tall and casts a shadow 30 meters long. Find the height of a nearby building if the angle of elevation is 60 degrees.
-
-**Solution:**
-- Use trigonometric ratios to set up an equation
-- sin(60°) = opposite/hypotenuse
-- sin(60°) = (50/30) = x/30
-- x = 25
-
-**Practice Problem 2:**
-A tree is 20 meters tall and breaks off a branch 10 meters from the ground. What is the distance from the tree to the point where the branch broke off if the angle of elevation is 30 degrees?
-
-**Solution:**
-- Use trigonometric ratios to set up an equation
-- tan(30°) = opposite/adjacent
-- tan(30°) = (20/10) = x/y
-- x = 10√3
-- Therefore, the distance is 10√3 meters.
+# Height and Distance\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 225 ---\nclosed till further orders
+(R)
+declared the institution
+(S)
+The correct sequence should be
+(a) QRSP
+(b) QPSR
+(c) SQRP
+(d) RSQP
+_ (b) QPSR is the correct sequence.
+34. brushed past the latter’s pet dog
+(P)
+stabbed to death by a man
+(Q)
+after his vehicle accidentally
+(R)
+a cargo van driver was allegedly
+(S)
+The correct sequence should be
+(a) QRSP
+(b) QPSR
+(c) SQRP
+(d) SQPR
+_ (c) SQRP is the correct sequence.
+35. an earthquake and tsunami
+(P)
+the disaster mitigation agency
+(Q)
+said that the death toll from
+(R)
+in Indonesia has crossed 1500
+(S)
+The correct sequence should be
+(a) PQSR (b) RPSQ (c) SQRP (d) QRPS
+_ (d) QRPS is the correct sequence.
+36. scientists say they have developed a
+new
+(P)
+illnesses such as heart disease and
+cancer
+(Q)
+DNA tool that uses machine
+learning to accurately
+(R)
+predict people’s height and assess
+their risk for serious
+(S)
+The correct sequence should be
+(a) PRSQ
+(b) RPSQ
+(c) PSRQ
+(d) QRPS
+_ (a) PRSQ is the correct sequence.
+37. a
+rare
+evergreen
+tree
+in
+the
+Southern-Western Ghats
+(P)
+researchers have found that
+(Q)
+common white-footed ants are the
+best pollinators of
+(R)
+bees might be the best known
+pollinators but
+(S)
+The correct sequence should be
+(a) PRSQ
+(b) SQRP
+(c) QSRP
+(d) PQRS
+_ (b) SQRP is the correct sequence.
+38. say from their forties onwards
+(P)
+it is thus a good idea
+(Q)
+and continue to exercise early enough
+(R)
+for senior citizens to start
+(S)
+The correct sequence should be
+(a) PRSQ
+(b) QRSP
+(c) QSRP
+(d) PQRS
+_ (c) QSRP is the correct sequence.
+39. scientists have determined
+(P)
+injury in animals and humans
+(Q)
+that is linked to the severity of
+spinal cord
+(R)
+a gene signature
+(S)
+The correct sequence should be
+(a) PSRQ
+(b) QRPS
+(c) QSPR
+(d) PQRS
+_ (a) PSRQ is the correct sequence.
+40. like a muscle and repeating the process
+(P)
+and stable reading circuit
+(Q)
+helps the child build a strong
+(R)
+the brain works
+(S)
+The correct sequence should be
+(a) QSRP
+(b) SPRQ
+(c) QSPR
+(d) RQPS
+_ (b) SPRQ is the correct s\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Height and Distance based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

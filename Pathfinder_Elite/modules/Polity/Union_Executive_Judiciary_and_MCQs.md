@@ -1,90 +1,51 @@
-**Polity: Union Executive, Judiciary, and MCQs Revision Notes**
-
-**Page 1: Union Executive**
-
-1. **Introduction to the Union Executive**
-    - The Union Executive is the highest executive authority in India.
-    - It is headed by the President and consists of the Council of Ministers.
-- **Powers and Functions**
-    - The President appoints the Prime Minister, who is the head of the Council of Ministers.
-    - The Prime Minister advises the President on matters of state and governance.
-    - The Council of Ministers is responsible for administering the government.
-- **Key Points**
-    - President: Head of the Union Executive; Ceremonial Head; Not the Head of the Government.
-    - Prime Minister: Head of the Government; Adviser to the President.
-    - Council of Ministers: Responsible for administration of the government.
-
-2. **Powers and Functions of the President**
-    - Ceremonial Head: Symbolic Head of the State.
-    - Executive Power: Appoints the Prime Minister and Council of Ministers.
-    - Legislative Power: Presents the Budget to the Lok Sabha.
-    - Dismissal of the Council of Ministers: Can dismiss the Council of Ministers.
-- **Key Points**
-    - President's term: 5 years or until the next General Election.
-    - Removal: President can be removed by a two-thirds majority in both Houses.
-
-**Page 2: Union Judiciary**
-
-1. **Introduction to the Union Judiciary**
-    - The Union Judiciary is the highest judicial authority in India.
-    - It is headed by the Chief Justice of India and consists of the Supreme Court and subordinate courts.
-2. **Structure and Functions**
-    - Supreme Court: Highest Court of Appeal; Constitutional Jurisdiction.
-    - High Courts: Second-highest Court; Executive Jurisdiction.
-    - District Courts: Lowest Court; Original Jurisdiction.
-
-3. **Jurisdiction of the Supreme Court**
-    - Original Jurisdiction: The Supreme Court has original jurisdiction to try cases and controversies.
-    - Appellate Jurisdiction: The Supreme Court has the power of review and appeal.
-- **Key Points**
-    - Appointment of Judges: By the President after consultation with the Chief Justice.
-    - Tenure: Judges hold office until the age of 65.
-
-**Page 3: Union Judiciary (Cont'd)**
-
-1. **Independent Judiciary**
-    - The Judiciary is supposed to be independent of the other two branches of government.
-    - Judges are not to be swayed by personal or political considerations.
-- **Judicial Review**
-    - The Supreme Court has the power to review government actions.
-    - Government policies and laws can be challenged in the Supreme Court.
-
-2. **Constitutional Remedies**
-    - The Supreme Court has the power to issue writs and orders.
-    - Writs can be used to enforce individual rights and liberties.
-
-**Page 4: Multiple Choice Questions (MCQs)**
-
-**Instructions:** Choose the correct answer from the options provided.
-
-1. The Union Executive is headed by:
-    a. Prime Minister
-    b. President
-    c. Council of Ministers
-    d. Lok Sabha Speaker
-
-Answer: b. President
-
-2. The power to appoint and dismiss judges is vested in:
-    a. President
-    b. Prime Minister
-    c. Chief Justice of India
-    d. Lok Sabha Speaker
-
-Answer: a. President
-
-3. The Supreme Court has the power to:
-    a. Review government actions
-    b. Enforce individual rights and liberties
-    c. Appoint and dismiss judges
-    d. All of the above
-
-Answer: d. All of the above
-
-4. The term of the President of India is:
-    a. 5 years
-    b. Until the next General Election
-    c. Until the age of 65
-    d. Lifetime tenure
-
-Answer: b. Until the next General Election
+# Union Executive Judiciary and MCQs\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 972 ---\n687
+GENERAL SCIENCE
+Biology
+• Nomenclature means providing distinct and proper
+names to organisms, so that they can be easily recognised
+and differentiated from others. The two codes for
+nomenclature are
+– ICBN International Code of Botanical Nomenclature
+– ICZN International Code of Zoological Nomenclature
+• Binomial nomenclature was given by Linnaeus. It is the
+system of nomenclature using two terms, the first
+indicating the genus and the second one indicating the
+species, e.g. Mangifera indica (mango).
+– The categories used in classification are kingdom,
+phylum, class, order, family, genus and species.
+– Genus and species terms were proposed by John
+Ray.
+– The smallest unit of classification is species.
+• Living organisms have been classified by different
+scientists. Some of the main classification systems are:
+(i) Two system classification was given by Linnaeus
+in 1758. It was the first classification. He divided
+all the living organisms into two kingdoms. These
+are Plantae and Animalia.
+(ii) Copeland designed four kingdom classification
+system in 1956.
+(iii) Whittaker gave five kingdom classification system
+in 1969.
+CLASSIFICATION OF PLANTS
+Many systems for classifying the plant kingdom have been
+formulated by various researchers and scientists, from time
+to time. Scientist Eichler has classified the plant kingdom
+into two main groups.
+1. Cryptogamae
+These plants never bear flowers and seeds. These are the most
+primitive. This division includes three main groups:
+(i) Thallophyta
+These are the simplest and primitive plants. Plant body is
+an undifferentiated mass of cells called as thallus. They lack
+vascular tissues.
+This group includes algae and lichens (a symbiotic
+combination of an alga with a fungus).
+(a) Algae These are plant-like organisms that are usually
+photosynthetic and aquatic in nature.
+These are chlorophyll containing thallophytes, in
+which vascular tissue (xylem and phloem) are absent.
+Some examples are as follow:
+– Chlorella u\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Union Executive Judiciary and MCQs based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

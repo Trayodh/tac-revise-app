@@ -1,73 +1,55 @@
-I'll create a 4-page highly structured revision note for Biology: Cell - The Unit of Life. 
-
-**Page 1: Cell Structure and Function**
-
-**I. Cell Structure**
-
-- **Definition**: The basic unit of life, smallest unit that can still be considered living
-- **Cell Size**: varies from 1-100 micrometers in size
-- **Cell Shape**: varies depending on the type of cell
-- **Cell Components**:
-  - **Plasma Membrane**: thin layer of lipid and protein molecules
-  - **Cytoplasm**: jelly-like substance inside the cell
-  - **Nucleus**: genetic material stored in a membrane-bound organelle
-
-**II. Cell Function**
-
-- **Metabolism**: chemical reactions that occur within a cell to maintain life
-- **Cell Division**: the process by which a cell divides into two daughter cells
-- **Cell Communication**: the process by which cells communicate with each other
-
-**Page 2: Cell Theory and Prokaryotes**
-
-**I. Cell Theory**
-
-- **Definition**: the theory that all living organisms are composed of cells
-- **Key Points**:
-  - All living organisms are composed of cells
-  - Cells are the basic units of life
-  - All cells arise from pre-existing cells
-
-**II. Prokaryotes**
-
-- **Definition**: a type of cell that lacks a nucleus and other membrane-bound organelles
-- **Characteristics**:
-  - Lack of nucleus and other membrane-bound organelles
-  - Simpler in structure than eukaryotic cells
-  - Examples: bacteria and archaea
-
-**Page 3: Eukaryotes and Cell Organization**
-
-**I. Eukaryotes**
-
-- **Definition**: a type of cell that has a nucleus and other membrane-bound organelles
-- **Characteristics**:
-  - Presence of nucleus and other membrane-bound organelles
-  - More complex in structure than prokaryotic cells
-  - Examples: plants, animals, and fungi
-
-**II. Cell Organization**
-
-- **Definition**: the internal structure and organization of a cell
-- **Key Points**:
-  - Plasma membrane: controls movement of substances in and out of the cell
-  - Cytoplasm: site of metabolic processes
-  - Nucleus: site of genetic material
-
-**Page 4: Cell Transport and Cell Signaling**
-
-**I. Cell Transport**
-
-- **Definition**: the movement of substances across the plasma membrane
-- **Types**:
-  - **Passive transport**: movement of substances without the use of energy
-  - **Active transport**: movement of substances using energy
-
-**II. Cell Signaling**
-
-- **Definition**: the process by which cells communicate with each other
-- **Types**:
-  - **Paracrine signaling**: local communication between cells
-  - **Endocrine signaling**: communication between cells via hormones
-
-Note: This is a basic revision note, and there may be additional points to consider depending on your specific syllabus and exam.
+# Cell The Unit of Life\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 682 ---\nVERB
+A verb is a word (such as jump, think, happen or exist)
+that is usually one of the main parts of a sentence and that
+expresses an action, an occurence, or a state of being.
+Classification of Verbs
+Verbs can be classified as following
+1. Main Verbs
+Main verbs have meanings related to actions, events and
+states. Most verbs in English are main verbs. e.g. go, show,
+exist, etc.
+Main verbs can be divided into two categories; transitive
+and intransitive which are as follow
+(i) Transitive Verbs
+A transitive verb is a verb that can take a direct object.
+e.g.
+(ii) Intransitive Verbs
+An Intransitive verb has two characteristics. First, it is an
+action verb expressing a double activity like arrive, go, lie,
+sneeze, sit, die, etc. Second, unlike a transitive verb, it will
+not have a direct object receiving the action.
+Intransitive verbs have the pattern N + V (Noun + Verb).
+The clause is complete without anything else.
+e.g.
+– John smiled.
+– Nothing happened.
+Here, ‘smiled’ and ‘happened’ are intransitive verbs.
+Linking Verbs
+Some main verbs are called Linking Verbs. These verbs are
+not followed by objects. Instead they are followed by
+phrases which give extra information about the subject.
+Linking verbs include appear, feel, look, seem sound, smell,
+taste, become, etc.
+e.g.
+– A face appeared at the window.
+In this sentence, ‘appeared’ is the linking verb and ‘at the
+window’ is the phrase.
+2. Auxiliary Verbs
+Auxiliary verbs can be divided into two categories; primary
+and modal auxiliary verbs, which are as follow
+(i) Primary Auxiliary Verbs
+Primary auxiliary verbs can further be divided as following
+i. Verbs ‘to be’ : is, am, are, was, were, will be, shall be
+ii. Verbs ‘to have’ : have, has, had
+iii. Verbs ‘to do’ : do, does, did
+(ii) Modal Auxiliary Verbs
+Modal auxiliary verb denote the mood/mode of the
+subject. They are can, could, may, might, should, used to,
+need, dare, etc.
+Tenses
+There are three basic tenses : Present, Past and Future.
+These can fu\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Cell The Unit of Life based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Cellular Architecture:
+        [Cell Membrane] -> [Cytoplasm] -> [Nucleus]
+                               |-> [Mitochondria] (ATP)
+        \n```\n\n

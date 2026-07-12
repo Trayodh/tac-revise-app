@@ -1,83 +1,130 @@
-**Page 1: Revision Notes for History: Ancient India Core**
-
-**Chapter 1: Mauryan Empire (321-185 BCE)**
-
-* **Key Figures:**
-	+ Chandragupta Maurya: Founder of the Mauryan Empire
-	+ Bindusara: Son of Chandragupta Maurya and successor to the throne
-	+ Ashoka: Grandson of Bindusara and one of the most important rulers of the Mauryan Empire
-* **Key Features:**
-	+ Bimetallic standard: Both gold and silver coins were used
-	+ Standardized weights and measures: The Mauryans introduced a uniform system of weights and measures
-	+ Development of art and architecture: The Mauryans patronized art and architecture, and their works are still admired today
-* **Key Events:**
-	+ Conquest of Kalinga: Ashoka's military victory over the kingdom of Kalinga marked a turning point in his reign
-	+ Edicts of Ashoka: Ashoka issued a series of edicts that promoted non-violence, tolerance, and the rule of law
-
-**Page 2: Revision Notes for History: Ancient India Core**
-
-**Chapter 2: Guptas and Other Successor States (320-550 CE)**
-
-* **Key Figures:**
-	+ Samudragupta: Powerful ruler of the Gupta Empire
-	+ Chandragupta II: Grandson of Samudragupta and a notable ruler of the Gupta Empire
-	+ Harsha: A powerful ruler who unified many states and established a vast empire
-* **Key Features:**
-	+ Economic prosperity: The Guptas and other successor states experienced a period of economic prosperity, marked by trade and commerce
-	+ Cultural achievements: The Guptas and other successor states made significant contributions to art, architecture, and literature
-	+ Development of science and technology: The Guptas and other successor states made significant advances in science and technology
-* **Key Events:**
-	+ Conquest of Sindh: Samudragupta conquered the kingdom of Sindh and extended Gupta control over the region
-	+ Establishment of the Harsha Empire: Harsha established a vast empire that stretched from eastern to central India
-
-**Page 3: Revision Notes for History: Ancient India Core**
-
-**Chapter 3: Medieval India (550-1526 CE)**
-
-* **Key Figures:**
-	+ Alauddin Khalji: A powerful ruler who expanded the Delhi Sultanate
-	+ Muhammad bin Tughlaq: A notable ruler of the Delhi Sultanate who introduced a new system of currency
-	+ Akbar: A powerful Mughal emperor who expanded the Mughal Empire and introduced new policies
-* **Key Features:**
-	+ Muslim invasions: The Delhi Sultanate and the Mughal Empire were established by Muslim rulers who invaded India
-	+ Economic prosperity: The Delhi Sultanate and the Mughal Empire experienced a period of economic prosperity, marked by trade and commerce
-	+ Cultural achievements: The Delhi Sultanate and the Mughal Empire made significant contributions to art, architecture, and literature
-* **Key Events:**
-	+ Conquest of Delhi: Alauddin Khalji conquered Delhi and extended the Delhi Sultanate over the region
-	+ Introduction of the rupee: Muhammad bin Tughlaq introduced a new system of currency, the rupee
-
-**Page 4: Revision Notes for History: Ancient India Core**
-
-**Multiple Choice Questions**
-
-* **1**: Which of the following was a feature of Mauryan administration? (Source 1 Q. 35)
-	+ (b) Unenviable
-	+ (c) Inviolable
-	+ (d) Impracticable
-	**Answer: (d) Impracticable**
-* **2**: Which of the following was a cultural achievement of the Guptas? (Source 1 Q. 36)
-	+ (a) Back-biting
-	+ (b) Condemnation
-	+ (c) Flattery
-	+ (d) Praise
-	**Answer: (d) Praise**
-* **3**: Which of the following was a key event in the reign of Ashoka? (Source 1 Q. 38)
-	+ (a) Conquest of Kalinga
-	+ (b) Establishment of the Mauryan Empire
-	+ (c) Edicts of Ashoka
-	+ (d) Death of Ashoka
-	**Answer: (a) Conquest of Kalinga**
-* **4**: Which of the following was a feature of the Delhi Sultanate? (Source 1 Q. 4)
-	+ (a) Clear
-	+ (b) Pleasant
-	+ (c) Profound
-	+ (d) Sufficient
-	**Answer: (d) Sufficient**
-* **5**: Which of the following was a notable ruler of the Mughal Empire? (Source 1 Q. 2)
-	+ (a) Akbar
-	+ (b) Babur
-	+ (c) Humayun
-	+ (d) Aurangzeb
-	**Answer: (a) Akbar**
-
-**Note:** The MCQs are based on the provided text and may not be comprehensive or entirely accurate.
+# Ancient India Core and MCQs\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 753 ---\n34. VAGUE
+(a) Clear
+(b) Pleasant
+(c) Profound
+(d) Sufficient
+2013 (I)
+35. His partners felt that it was a
+VIABLE business proposition.
+(a) Enviable
+(b) Unenviable
+(c) Inviolable
+(d) Impracticable
+36. The usual ADULATION of
+officers must end.
+(a) Back-biting
+(b) Condemnation
+(c) Flattery
+(d) Praise
+37. There is an OBSCURE cave on
+the other side of the hill.
+(a) Well-known
+(b) Infamous
+(c) Notorious
+(d) Admired
+38. Her IMPETUOUS behaviour
+was attributed to her
+upbringing.
+(a) Rash
+(b) Poised
+(c) Sluggish
+(d) Aggressive
+39. All these measures will
+AUGMENT employment.
+(a) Diminish
+(b) Circumscribe
+(c) Restrain
+(d) Constrain
+40. The two friends were DISTINCT
+in everything; dress manners,
+hair-style and food-habits.
+(a) Opposite
+(b) Different
+(c) Uniform
+(d) Similar
+41. The man at the gate had a
+FORBIDDING appearance.
+(a) Handsome
+(b) Lenient
+(c) Filthy
+(d) Mild
+42. This is a TRIVIAL matter.
+(a) Important
+(b) Small
+(c) Easy
+(d) Difficult
+43. Everybody called it a LAVISH
+party.
+(a) Big
+(b) Wasteful
+(c) Frugal
+(d) Expensive
+44. Popular fiction in a sense has
+ENRICHED world literature.
+(a) Devalued
+(b) Undervalued
+(c) Depreciated
+(d) Impoverished
+45. Her manner has always been
+HOSTILE to him.
+(a) Sincere
+(b) Friendly
+(c) Fair
+(d) Good
+46. The speaker was irritated with
+his PUERILE questions.
+(a) Impertinent
+(b) Serious
+(c) Inane
+(d) Irrelevant
+2013 (II)
+47. LAUDATORY
+(a) Laughable
+(b) Derogatory
+(c) Abusive
+(d) Detriment
+48. PERTINENT
+(a) Eloquent
+(b) Distant
+(c) Relevant
+(d) Irrelevant
+49. COLOSSAL
+(a) Fragile
+(b) Small
+(c) Colourful
+(d) Impressive
+50. INDISPENSABLE
+(a) Tolerable
+(b) Superfluous
+(c) Expensive
+(d) Hostile
+51. VINDICTIVE
+(a) Forgiving
+(b) Humane
+(c) Polite
+(d) Liberal
+52. FRIVOLOUS
+(a) Amusing
+(b) Serious
+(c) Confusing
+(d) Teasing
+53. TRANSIENT
+(a) Lasting
+(b) Moving
+(c) Persistent
+(d) Abiding
+54. APPARENT
+(a) Real
+(b) Significant
+(c) Unimportant
+(d) Vague
+55. SLACKEN
+(a) Weaken
+(b) Intensify
+(c) Quicken
+(d) Provoke
+56. ZEAL
+(a) Intoleranc\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Ancient India Core and MCQs based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

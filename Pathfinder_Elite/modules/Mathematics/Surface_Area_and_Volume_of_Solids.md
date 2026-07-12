@@ -1,92 +1,113 @@
-**Page 1: Revision Notes on Surface Area and Volume of Solids**
-
-**1. Introduction**
-
-* **Definition:** Surface area and volume are two important concepts in solid geometry that describe the size and shape of a three-dimensional object.
-* **Key Points:**
-	+ Surface area: The total area of the surface of a 3D object.
-	+ Volume: The amount of space inside a 3D object.
-
-**2. Surface Area Formulae**
-
-* **General Formula:** SA = 2lw + 2lh + 2wh
-	+ Where SA = surface area, l = length, w = width, h = height
-* **Specific Formulae:**
-	+ SA of a cube = 6s^2 (where s = side length)
-	+ SA of a cuboid = 2(lw + lh + wh)
-
-**3. Volume Formulae**
-
-* **General Formula:** V = lwh
-	+ Where V = volume, l = length, w = width, h = height
-* **Specific Formulae:**
-	+ V of a cube = s^3 (where s = side length)
-	+ V of a cuboid = length × width × height
-
-**4. Formulae for Common Shapes**
-
-* **Sphere:** SA = 4πr^2, V = (4/3)πr^3
-* **Cylinder:** SA = 2πr(l + r), V = πr^2h
-* **Pyramid:** SA = l(4r + l), V = (1/3)lwh (where l is diagonal of base)
-
-**Page 2: Revision Notes on Surface Area and Volume of Solids (continued)**
-
-**5. Problems on Surface Area**
-
-* **Example 1:** Find the surface area of a cube with side length 6 cm.
-	+ Solution: SA = 6(6)^2 = 216 cm^2
-* **Example 2:** Find the surface area of a cuboid with length 10 cm, width 5 cm, and height 3 cm.
-	+ Solution: SA = 2(10 × 5 + 10 × 3 + 5 × 3) = 2(50 + 30 + 15) = 2(95) = 190 cm^2
-
-**6. Problems on Volume**
-
-* **Example 1:** Find the volume of a cube with side length 8 cm.
-	+ Solution: V = (8)^3 = 512 cm^3
-* **Example 2:** Find the volume of a cuboid with length 12 cm, width 8 cm, and height 6 cm.
-	+ Solution: V = 12 × 8 × 6 = 576 cm^3
-
-**7. Real-World Applications**
-
-* **Example 1:** Calculate the surface area and volume of a water tank with inner dimensions 10 m × 5 m × 2 m.
-	+ Solution: SA = 2(10 × 5 + 10 × 2 + 5 × 2) = 2(50 + 20 + 10) = 2(80) = 160 m^2, V = 10 × 5 × 2 = 100 m^3
-* **Example 2:** Calculate the surface area and volume of a spherical storage tank with radius 5 m.
-	+ Solution: SA = 4π(5)^2 = 314 m^2, V = (4/3)π(5)^3 = 523.6 m^3
-
-**Page 3: Revision Notes on Surface Area and Volume of Solids (continued)**
-
-**8. Formulae for Composite Solids**
-
-* **Compound shapes:** Find surface area and volume by adding parts
-* **Tessellations:** Find surface area and volume by dividing into basic shapes
-
-**9. Problems on Composite Solids**
-
-* **Example 1:** Find the surface area of a composite solid made up of a cube and a pyramid.
-	+ Solution: SA = surface area of cube + surface area of pyramid
-* **Example 2:** Find the volume of a composite solid made up of a sphere and a cylinder.
-	+ Solution: V = volume of sphere + volume of cylinder
-
-**10. Real-World Applications**
-
-* **Example 1:** Calculate the surface area and volume of a bridge made from a triangular prism.
-	+ Solution: SA = 2(10 × 5 + 10 × 3 + 5 × 3) = 190 m^2, V = 10 × 5 × 3 = 150 m^3
-* **Example 2:** Calculate the surface area and volume of a storage container made from a cylindrical shape.
-	+ Solution: SA = 2π(10) + 2π(5) = 60π m^2, V = π(10)^2(5) = 1500π m^3
-
-**Page 4: Revision Notes on Surface Area and Volume of Solids (continued)**
-
-**11. Summary of Key Points**
-
-* **Surface Area:** SA = 2lw + 2lh + 2wh (for a general shape), SA = 6s^2 (for a cube)
-* **Volume:** V = lwh (for a general shape), V = s^3 (for a cube)
-* **Surface Area and Volume Formulae:** SA and V for sphere, cylinder, pyramid
-
-**12. Tips for Practicing**
-
-* **Example problems:** Practice solving example problems to become familiar with surface area and volume formulae
-* **Real-world applications:** Apply surface area and volume to real-world problems for practical experience
-
-**13. Common Mistakes**
-
-* **Incorrect units:** Ensure that units are correct when calculating surface area and volume
-* **Rounding errors:** Be careful when rounding intermediate results to avoid large errors in final answers.
+# Surface Area and Volume of Solids\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 336 ---\n1. A car completes a journey in 6 h with a speed of
+50
+km/h.
+At
+what
+speed
+must
+it
+travel
+to
+complete the journey in 5 h?
+(a) 60 km/h
+(b) 55 km/h
+(c) 45 km/h
+(d) 61 km/h
+2. Kiran covers a certain distance at 80 km/h and
+returns back to the same point at 20 km/h. Then,
+the average speed during the whole journey is
+(a) 35 km/h
+(b) 32 km/h
+(c) 30 km/h
+(d) 28 km/h
+3. Normally Sarita takes 3 h to travel between two
+stations with a constant speed. One day her
+speed was reduced by 12 km/h and she took
+45 min more to complete the journey. Then, the
+distance between the two stations is
+(a) 60 km
+(b) 120 km
+(c) 180 km
+(d) 95 km
+4. Rani goes to school at 10 km/h and reaches the
+school 6 min late. Next day, she covers this
+distance at 12 km/h and reaches the school
+9 min earlier than the scheduled time. What is
+the distance of her school from her house?
+(a) 16 km
+(b) 12 km
+(c) 10 km
+(d) 15 km
+5. A man travels first 50 km at 25 km/h next 40 km
+at 20 km/h and then 90 km at 15 km/h. His
+average speed (in m/s) for the whole journey is
+(a) 18
+(b) 5
+(c) 10
+(d) 36
+6. A boy is running at a speed of p km/h to cover a
+distance of 1 km. But due to the slippery ground,
+his speed is reduced by q km/h (
+)
+p
+q
+>
+. If he
+takes r h to cover the distance, then
+(a) 1
+r
+pq
+p
+q
+=
++
+(b) 1
+r
+p
+q
+=
++
+(c) r
+p
+q
+=
+−
+(d) 1
+r
+p
+q
+=
+−
+7. A train passes telegraph post in 40 s moving at a
+rate of 36 km/h. Then, the length of the train is
+(a) 400 m
+(b) 500 m
+(c) 450 m
+(d) 395 m
+8. A person can run around a circular path of
+radius 21 m in 44 s. In what time will the same
+person run a distance of 3 km?
+(a) 18 min 40 s
+(b) 16 min 30 s
+(c) 18 min 30 s
+(d) 16 min 40 s
+9. A car is ahead of a scooter by 30 km. Car goes at
+the rate of 50 km/h and the scooter goes at the
+rate of 60 km/h. The scooter overtakes the car
+after
+(a) 3 h
+(b) 3.5 h
+(c) 4 h
+(d) 3 1
+4
+h
+10. Two towns A
+B
+and
+are 250 km apart. A bus
+starts from A to B at 6 : 00 am at a speed of
+40 km/h. At the same time another bus starts
+fro\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Surface Area and Volume of Solids based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

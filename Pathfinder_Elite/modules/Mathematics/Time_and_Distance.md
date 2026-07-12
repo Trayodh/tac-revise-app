@@ -1,197 +1,262 @@
-**_Chapter Overview: Time and Distance Concepts_**
-
-In the domain of competitive defense services entrance examinations, the subject of mathematics plays a pivotal role. Time and distance, an essential area within this subject, requires a deep understanding of various conceptual frameworks and mathematical techniques to tackle complex problems with ease.
-
-### **1.1 Introduction to Time and Distance**
-
-Time and distance are fundamental components in numerous real-world scenarios, including navigation, transportation, and physical sciences. In the realm of mathematics, the concepts of time and distance form the basis for solving various types of problems, such as calculating speed, time, and distance under different conditions.
-
-#### 1.1.1 The Role of Divisibility in Time and Distance Problems
-
-Divisibility is a crucial concept in mathematics that enables us to simplify complex problems and identify the required solution. In the context of time and distance problems, divisibility helps us determine the factors that contribute to the overall result.
-
-```latex
-Let N = 413283P759387, where N is divisible by 13.
-We need to find the value of P.
-Using the property of divisibility, we can rewrite N as:
-N = 413283P759387 = T + P, where T is the product of two numbers.
-```
-
-#### 1.1.2 The Role of Modular Arithmetic in Time and Distance Problems
-
-Modular arithmetic is a mathematical technique that simplifies complex calculations by considering the remainders of numbers when divided by a certain modulus. In the context of time and distance problems, modular arithmetic helps us calculate the remainders of various expressions.
-
-```latex
-For example, let's consider the expression 21000000 mod 7.
-We can use modular arithmetic to simplify the calculation:
-21000000 mod 7 = ((2 * 10^8) mod 7) mod 7.
-Using the properties of modular arithmetic, we can further simplify the expression:
-((2 * 10^8) mod 7) mod 7 = ((2 * 3^6) mod 7) mod 7.
-```
-
-### **1.2 Mechanics of Time and Distance Problems**
-
-Time and distance problems often involve the manipulation of various mathematical expressions. Understanding the underlying mechanics of these expressions is crucial to tackling complex problems with ease.
-
-#### 1.2.1 The Role of Algebraic Manipulations in Time and Distance Problems
-
-Algebraic manipulations are an essential tool in solving time and distance problems. By applying various algebraic techniques, we can simplify complex expressions and identify the required solution.
-
-```latex
-For example, let's consider the expression (x + y)^2 mod 6.
-Using algebraic manipulations, we can simplify the expression:
-(x + y)^2 mod 6 = ((x + y) mod 6)^2 mod 6.
-```
-
-### **_Edge Cases and High-Frequency Trends_**
-
-In the context of time and distance problems, edge cases refer to scenarios that deviate from the standard conditions. Understanding these scenarios is crucial to tackling complex problems with ease.
-
-Edge cases:
-
-*   What if the modulus is a multiple of the divisor?
-*   What if the dividend is a multiple of the modulus?
-
-High-frequency trends:
-
-*   How do time and distance problems relate to physics and navigation?
-*   How can we apply time and distance concepts to real-world scenarios?
-
-### **_Critical Alerts_**
-
-In the context of time and distance problems, critical alerts refer to scenarios that require immediate attention. Understanding these scenarios is crucial to tackling complex problems with ease.
-
-Critical alerts:
-
-*   What if the problem involves negative numbers?
-*   What if the problem involves fractions or decimals?
-
-### **_Practice Questions and Explanation_**
-
-Here are some practice questions along with their explanations:
-
-#### Q1: What is the remainder when 21000000 is divided by 7?
-
-A) 1
-B) 2
-C) 4
-D) 6
-
-Explanation: We can use modular arithmetic to simplify the calculation:
-21000000 mod 7 = ((2 * 10^8) mod 7) mod 7.
-Using the properties of modular arithmetic, we can further simplify the expression:
-((2 * 10^8) mod 7) mod 7 = ((2 * 3^6) mod 7) mod 7.
-
-#### Q2: How many pairs of (x, y) can be chosen from the set {2, 3, 6, 8, 9} such that x + y = 2, where x ≠ y?
-
-A) Zero
-B) One
-C) Two
-D)  Three
-
-Explanation: We can rewrite the equation x + y = 2 as x - y = 0.
-However, this equation has no solution for x ≠ y.
-Therefore, there are zero pairs of (x, y) that satisfy the given conditions.
-
-#### Q3: A product of three expressions is given: (a + 1)(a + 2)(a + 3).
-How many terms are there in this expression?
-
-A) 3
-B) 4
-C) 5
-D) 6
-
-Explanation: We can expand the expression (a + 1)(a + 2)(a + 3) to get:
-(a + 1)(a + 2)(a + 3) = a(a + 1)(a + 2) + 3a(a + 1) + 3(a + 1).
-
-#### Q4: Consider the expression (x + y) mod 6.
-How can we simplify this expression?
-
-A) Using modular arithmetic
-B) Using algebraic manipulations
-C) Using geometric transformations
-D) Using trigonometric identities
-
-Explanation: We can use modular arithmetic to simplify the expression:
-(x + y) mod 6 = ((x + y) mod 6)^2 mod 6.
-
-#### Q5: A number has the form N = 413283P759387, where N is divisible by 13.
-What is the value of P?
-
-A) 3
-B) 6
-C) 7
-D) 8
-
-Explanation: We can use the property of divisibility to rewrite N as:
-N = 413283P759387 = T + P.
-
-#### Q6: Consider the expression (x + y)^2 mod 6.
-How can we simplify this expression?
-
-A) Using modular arithmetic
-B) Using algebraic manipulations
-C) Using geometric transformations
-D) Using trigonometric identities
-
-Explanation: We can use algebraic manipulations to simplify the expression:
-(x + y)^2 mod 6 = ((x + y) mod 6)^2 mod 6.
-
-#### Q7: A number has the form N = (a + 1)(a + 2)(a + 3).
-What is the value of a?
-
-A) 1
-B) 2
-C) 3
-D) 4
-
-Explanation: We can expand the expression N = (a + 1)(a + 2)(a + 3) to get:
-N = a(a + 1)(a + 2) + 3a(a + 1) + 3(a + 1).
-
-#### Q8: Consider the expression (x + 1) + (x + 2) + (x + 3) + ... + (x + 10).
-How many terms are there in this expression?
-
-A) 10
-B) 11
-C) 12
-D) 13
-
-Explanation: We can rewrite the expression as:
-(x + 1) + (x + 2) + (x + 3) + ... + (x + 10) = 10(x + 1) + (2 + 3 + ... + 10).
-
-#### Q9: A number is divisible by 7, but with a remainder of 2.
-What is the minimum value of the number?
-
-A) 7
-B) 14
-C) 21
-D) 28
-
-Explanation: We can rewrite the number as:
-N = 7k + 2, where k is a positive integer.
-Since N is divisible by 7, we must have 7k + 2 = 7(k + 1 - 1) + 2.
-Therefore, the minimum value of N is k = 1, which gives N = 7*1 + 2 = 9.
-However, N must be a multiple of 7, so we must choose k such that 7k = 7.
-The minimum such k is 6, which gives N = 7*7 + 2 = 51.
-
-#### Q10: Consider the expression (x - y) + (y - x).
-What is the value of this expression?
-
-A) 0
-B) 1
-C) 2
-D) 3
-
-Explanation: We can rewrite the expression as:
-(x - y) + (y - x) = (x - y) + (- (x - y)).
-Using the property of addition, we get:
-(x - y) + (- (x - y)) = 0.
-
-#### **_Practice Question Pool_**
-Here is the list of questions with their correct answers and explanations.
-
-| Number | Question | Correct Answer | Explanation |
-| --- | --- | --- | --- |
-| 1 | What is the remainder when 21000000 is divided by 7? | B) 2 | modular arithmetic |
-| 2 | How many pairs of (x, y) can be chosen from the set {2, 3, 6, 8, 9} such that x + y = 2, where x ≠ y? | A) Zero | lack of solutions to x - y = 0 |
-| 3 | A product of three expressions is given: (a + 
+# Time and Distance\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 47 ---\n1. If the number 413283 759387
+P
+is
+divisible by 13, then what is the
+value of P ?
+(a) 3
+(b) 6
+(c) 7
+(d) 8
+_ (d) Given, dividend
+= 413283P759387
+and divisor = 13
+Let N =
+⇒(
+)
+n n n
+11 12 13 – (
+)
+(
+)
+n n n
+n n n
+8 9 11
+5 6 7
++
+– (
+)
+(
+)
+n n n
+n
+2 3 4
+1
++
+= T
+If T is divisible by 13 then the whole
+number N will be divisible by 13.
+N = 4132 83P759 387
+Here, T
+P
+=
+−
++
+387
+759
+83
+−
++
+132
+4
+=
+−
+83
+500
+P
+At P = 3
+⇒T =
+−
+=
+833
+500
+333
+333 is not divisible by 13.
+At P = 6
+⇒T =
+−
+=
+836
+500
+336
+336 is not divisible by 13.
+At P = 7 ⇒T =
+−
+=
+837
+500
+337
+337 is not divisible by 13.
+At P = 8
+⇒T =
+−
+=
+838
+500
+338
+338
+13
+26
+÷
+=
+.
+Hence, the given number will be
+divisible by 13 when P = 8.
+2. What is the remainder when
+21000000 is divided by 7?
+(a) 1
+(b) 2
+(c) 4
+(d) 6
+_ (b) Given,
+21000000 is divided by 7.
+2
+2
+2
+2 2
+1000000
+1
+999999
+3 333333
+=
+×
+=
+(
+)
+= 2 8 333333
+( )
+…(i)
+All the 8’s will be divided by 7
+which will give remainder as 1 for
+each 8
+7
+÷ . Then all the remainders
+will be multiplied and the result will
+be again divided by 7.
+∴2
+2 8
+1000000
+333333
+=
+( )
+2 8 333333
+( )
+is divided by 7
+2 1 333333
+=
+( )
+is divided by 7
+=
+×
+÷
+2
+1
+7
+=
+÷
+2
+7
+Hence, the remainder will be 2
+when 21000000 is divided by 7.
+3. How many pairs of ( , )
+x y can be
+chosen from the set {2, 3, 6, 8, 9}
+such that x
+y
+y
+x
++
+= 2, where x
+y
+≠?
+(a) Zero
+(b) One
+(c) Two
+(d)  Three
+_ (a) Given set,
+( ,
+)
+{ , , , , }
+x y ∈2 3 6 8 9
+x
+y
+y
+x
++
+= 2, where x
+y
+≠
+⇒
+x
+y
+y x
+2
+2
+2
++
+⋅
+=
+⇒
+x
+y
+xy
+2
+2
+2
++
+=
+⇒x
+y
+xy
+2
+2
+2
+0
++
+−
+=
+⇒
+(
+)
+x
+y
+−
+=
+2
+0
+⇒
+x
+y
+−
+= 0
+⇒
+x
+y
+=
+But it is given that x
+y
+≠
+.
+Hence, the required number of
+pairs will be zero.
+4. Consider the pairs of prime numbers
+( , )
+m n between 50 and 100 such that
+m
+n
+−
+= 6. How many such pairs are
+there?
+(a) 2
+(b) 3
+(c) 4
+(d) 5
+_ (d) Given,
+( ,
+)
+m n is a pair of prime numbers
+between 50 and 100 such that
+m
+n
+−
+= 6.
+Prime numbers between 50 and 100
+are the following :
+53, 59, 61, 67, 71, 73, 79, 83, 89, 97.
+Since, m
+n
+−
+= 6
+∴Pairs will be (59, 53\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Time and Distance based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

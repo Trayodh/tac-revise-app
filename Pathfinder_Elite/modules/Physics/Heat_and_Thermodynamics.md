@@ -1,94 +1,316 @@
-**Physics Revision Note: Heat and Thermodynamics**
-
-**Page 1**
-
-I. **Kinetic Theory of Gases**
-
-- **Postulates:**
-  - Gases are composed of tiny particles called molecules.
-  - The molecules are far apart from each other.
-  - The molecules are in constant random motion.
-  - The attractive and repulsive forces between the molecules are negligible.
-  - The molecules collide with each other and the walls of the container.
-
-II. **Gas Laws**
-
-- **Boyle's Law:** P1V1 = P2V2 (Constant temperature and pressure)
-- **Charles' Law:** V1 / T1 = V2 / T2 (Constant pressure and volume)
-- **Gay-Lussac's Law:** P1 / T1 = P2 / T2 (Constant volume and temperature)
-- **Ideal Gas Law (PV = nRT)**
-
-III. **Thermodynamics**
-
-- **Zeroth Law of Thermodynamics:** If two systems are in thermal equilibrium with a third system, then they are also in thermal equilibrium with each other.
-
-[**End of Page 1**]
-
----
-
-**Page 2**
-
-IV. **Heat Transfer**
-
-- **Conduction:** Heat transfer through direct contact between particles.
-- **Convection:** Heat transfer through the movement of fluids.
-- **Radiation:** Heat transfer through electromagnetic waves.
-
-V. **Heat Capacity and Specific Heat Capacity**
-
-- **Heat Capacity:** Q = mcΔT (The amount of heat energy required to change the temperature of a substance by 1°C)
-- **Specific Heat Capacity:** c = Q / (mΔT) (The amount of heat energy required to change the temperature of 1 kg of a substance by 1°C)
-
-VI. **Thermal Expansion**
-
-- **Linear Expansion:** ΔL = αL0ΔT (Linear expansion of a substance when heated or cooled)
-- **Volume Expansion:** ΔV = βV0ΔT (Volume expansion of a substance when heated or cooled)
-
-[**End of Page 2**]
-
----
-
-**Page 3**
-
-VII. **First Law of Thermodynamics**
-
-- **Law of Conservation of Energy:** Energy cannot be created or destroyed, only converted from one form to another.
-- **Mathematical Representation:** ΔE = Q - W (Change in energy = heat added - work done)
-
-VIII. **Types of Work**
-
-- **Isobaric Work:** Work done against a constant pressure
-- **Isochoric Work:** Work done against a constant volume
-- **Adiabatic Work:** Work done without heat transfer
-
-IX. **Second Law of Thermodynamics**
-
-- **Law of Entropy:** The total entropy of an isolated system will always increase over time.
-
-[**End of Page 3**]
-
----
-
-**Page 4**
-
-X. **Heat Engines**
-
-- **Efficiency:** The ratio of work done to heat input
-- **Thermal Efficiency:** η = W / Q (Efficiency of a heat engine)
-- **Carnot Cycle:** The most efficient possible cycle for converting heat energy into work
-
-XI. **Conclusion**
-
-- The kinetic theory of gases and gas laws are fundamental to understanding thermodynamics.
-- Heat transfer can occur through conduction, convection, and radiation.
-- The first and second laws of thermodynamics are essential to understanding energy conversion and entropy.
-
-[**End of Page 4**]
-
----
-
-**Recommendations for Further Reading:**
-
-- For additional practice problems and examples, refer to the provided sources.
-- For a more in-depth understanding of the topics, refer to a comprehensive Physics textbook.
-- For review and practice, use online resources and study materials.
+# Heat and Thermodynamics\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 593 ---\n308
+CDS Pathfinder
+69. (a) In ∆OBC , we have
+∠
++ ∠
++ ∠
+=
+°
+OBC
+OCB
+BOC
+180
+⇒
+y
+y
+t
++
++
+=
+°
+180 ⇒t
+y
+=
+°−
+180
+2
+Now,z
+t
+=
+°−
+360
+⇒z
+y
+=
+°−
+°−
+360
+180
+2
+(
+)
+⇒2
+180
+2
+x
+y
+=
+°+
+⇒2
+2
+180
+x
+y
+−
+=
+°
+[
+]
+Qz
+x
+= 2
+⇒
+x
+y
+−
+=
+°
+90
+⇒∠
+−∠
+=
+°
+BAC
+OBC
+90
+70. (b) In right angled ∆OTQ ,
+OT
+OQ
+TQ
+2
+2
+2
+=
++
+⇒(
+)
+( )
+(
+)
+13
+5
+2
+2
+2
+=
++ TQ
+⇒TQ2
+169
+25
+144
+=
+−
+=
+⇒TQ= 12cm
+In right angled ∆TEB,
+TB
+EB
+TE
+2
+2
+2
+=
++
+Q (
+)
+EB
+BQ
+=
+⇒(
+)
+12
+2
+2
+2
+−
+=
++
+x
+BQ
+TE
+⇒144
+24
+8
+2
+2
+2
++
+−
+=
++
+x
+x
+x
+( )
+⇒144
+24
+64
+2
+2
++
+−
+=
++
+x
+x
+x
+⇒
+24
+80
+x =
+⇒x =
+=
+20
+6
+10
+3
+cm
+∴
+AB
+EB
+= 2
+= 2x =
+×
+2
+10
+3
+= 20
+3
+cm
+Hence, the length of AB is 20
+3
+cm.
+71. (b)
+The
+locus
+obtained
+is
+the
+circumference of the circle concentric
+with the given circle and having radius
+equal to the distance of the chords from
+the centre.
+72. (c) Statements I and II are both correct,
+because the locus of points which are
+equidistant from two parallel lines is a
+line parallel to both of them and lie mid
+way between them.
+Also, it is true that the perpendicular
+distances of any point on this locus line
+from two original parallel lines are equal.
+further, no point outside this locus line
+has this property.
+73. (d)
+Since, secants
+LA and
+BN are
+intersecting at an exterior point M, then
+LM
+AM
+BM
+NM
+×
+=
+×
+⇒
+MA
+MB
+MN
+LM
+=
+< 1
+74. (b) The perpendicular bisector of the
+chord of a circle always passes through
+the centre. So, statement I is wrong.
+The angle in a semi-circle is a right
+angle. So, statement II is correct.
+75. (d) Here, CA
+CD
+CB
+=
+=
+= 25 cm
+and DP = 18 cm
+In right angled ∆ACP,
+CP
+CD
+PD
+=
+−
+=
+−
+25
+18 = 7cm
+Now, AC
+CP
+AP
+2
+2
+2
+=
++
+[by pythagoras theorem]
+∴
+AP
+AC
+CP
+=
+−
+=
+−
+2
+2
+2
+2
+25
+7
+(
+)
+( )
+=
+−
+625
+49 =
+576 = 24 cm
+Similarly, PB = 24 cm
+∴
+AB
+AP
+PB
+=
++
+=
++
+=
+24
+24
+48 cm
+76. (c) When two chords of a circle are
+intersect internally, then they are divided
+in a proportion.
+i.e.
+PX
+PY
+PZ
+PT
+⋅
+=
+⋅
+In ∆PXZ and ∆PTY, ∠
+= ∠
+ZPX
+YPT
+[vertically opposite angles]
+∠
+= ∠
+PZX
+PYT
+[angles in same segment]
+∠
+= ∠
+PXZ
+PTY
+[angles in same se\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Heat and Thermodynamics based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

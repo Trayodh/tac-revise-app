@@ -1,91 +1,73 @@
-**Indian Geography Revision Notes**
-
-**Page 1: Water and Mineral Resources**
-
-1. **Introduction**
-   - Water is a vital resource in India, covering about 14.8% of its geographical area.
-   - India's per capita water availability (1,100 m3) is among the lowest in the world.
-
-2. **Water Resources**
-   - Rivers:
-     - India has a long coastline and many rivers like Ganga, Brahmaputra, and Krishna.
-     - These rivers are the main source of drinking water and irrigation.
-     - Major dams: Bhakra Dam, Hirakud Dam, and Indira Gandhi Canal.
-   - Groundwater:
-     - India is one of the largest consumers of groundwater, mainly for agriculture.
-     - Overexploitation has led to lowering of water tables in many areas.
-
-3. **Mineral Resources**
-   - Coal: India is the 5th largest coal producer in the world, with Chhattisgarh, Jharkhand, and Odisha being major coal-bearing states.
-   - Iron Ore: Odisha, Jharkhand, and Chhattisgarh are major producers of iron ore.
-   - Bauxite: Gujarat and Odisha are the major bauxite-producing states.
-
-**Page 2: Forests and Wildlife**
-
-1. **Forests**
-   - Forests cover about 21.7% of India's geographical area.
-   - Types of forests: Tropical evergreen, deciduous, and tropical dry.
-   - Major forest areas: Western Ghats, Eastern Ghats, and the Himalayas.
-
-2. **Wildlife**
-   - India is home to various wildlife species, including Bengal tigers, elephants, and lions.
-   - Major wildlife sanctuaries and national parks: Sundarbans, Kaziranga, and Corbett National Park.
-   - India is one of the 12 megadiverse countries in the world.
-
-**Page 3: Agriculture and Industry**
-
-1. **Agriculture**
-   - Agriculture is the main occupation of more than 50% of India's population.
-   - Rice and wheat are the main crops in India.
-   - India is the largest producer of milk, sugar, and spices in the world.
-
-2. **Industry**
-   - Major industrial belts:
-     - Mumbai-Pune belt (automobiles and textiles)
-     - Chhattisgarh and Odisha (steel and coal)
-     - Gujarat and Maharashtra (chemicals and petrochemicals)
-   - India has a large manufacturing sector, with a growing emphasis on electronics and IT.
-
-**Page 4: Questions and Answers**
-
-**MCQs:**
-
-1. Which state is the largest producer of iron ore in India?
-   a. Odisha
-   b. Jharkhand
-   c. Chhattisgarh
-   d. Andhra Pradesh
-
-Answer: a. Odisha
-
-2. Which of the following rivers is not a major source of drinking water?
-   a. Ganga
-   b. Brahmaputra
-   c. Krishna
-   d. Narmada
-
-Answer: d. Narmada
-
-3. Which of the following is not a type of forest found in India?
-   a. Tropical evergreen
-   b. Deciduous
-   c. Tropical dry
-   d. Tropical savanna
-
-Answer: d. Tropical savanna
-
-4. Which of the following is the main occupation of more than 50% of India's population?
-   a. Industry
-   b. Agriculture
-   c. Services
-   d. Mining
-
-Answer: b. Agriculture
-
-5. Which of the following states is the largest producer of milk in India?
-   a. Punjab
-   b. Haryana
-   c. Gujarat
-   d. Maharashtra
-
-Answer: c. Gujarat
+# Indian Geography Resources and MCQs\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 892 ---\n• There are two types of electric current (i) Alternating
+current (AC) and (ii) Direct current (DC).
+• Alternating current is used in houses and factories and its
+frequency is 50 Hz.
+• Ordinary DC ammeter and DC voltmeter cannot
+measure alternating current/voltages. They record zero
+reading, when used in AC circuits, because average value
+of alternating current/voltage over a full cycle is zero.
+Galvanometer
+It is a device used to detect and measure electric current in
+a circuit. It can measure current up to 10 6
+−A.
+A galvanometer can be converted into a voltmeter by
+connecting a very high resistance in its series.
+² Note Conventionally the direction of electric current is opposite to
+that of electrons. Since, electrons flow from negative terminal of a
+cell to its positive terminal, electric current flows from positive
+terminal to negative terminal.
+Capacitor
+A capacitor or condenser is a device over which a large
+amount of charge can be stored.
+• Capacitance of capacitor (C)
+Charge
+Potential
+=
+(
+)
+(
+)
+Q
+V
+• Its unit is coulomb/volt or farad.
+• A capacitor is used in several electrical devices having an
+electric motor and in several electronic circuits.
+OHM’S LAW
+If the physical circumstances of the conductor. (length,
+temperature, etc) remains constant then the current flowing
+through the conductor is directly proportional to the
+potential difference across its ends.
+i.e.
+I
+V
+∝
+or
+V
+IR
+=
+, where R is resistance.
+Resistance
+The resistance of a conductor is directly proportional to its
+length and inversely proportional to its cross-sectional area.
+If l and A are respectively length and cross-sectional area of
+a conductor and R is its resistance, then
+R
+l
+A
+∝
+⇒R
+l
+A
+= ρ
+Unit of resistance is ohm (
+)
+Ω.
+where, ρ is a constant of material of conductor is called
+specific resistance or resistivity. Its SI unit is ohm-metre.
+• On increasing the temperature of the metal, its resistance
+increases.
+• Those materials whose electrical conductivity lies in
+b\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Indian Geography Resources and MCQs based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

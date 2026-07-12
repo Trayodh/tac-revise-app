@@ -1,4 +1,4 @@
-Subject,Topic,Start Page,End Page,File Name,Total Pages,Contains Answers
+Subject,Chapter,Start Page,End Page,File Name,Total Pages,Contains Answers
 Mathematics,Number System,3,19,Number_System.md,4,True
 Mathematics,Sequence and Series,20,24,Sequence_and_Series.md,4,True
 Mathematics,HCF and LCM of Numbers,25,31,HCF_and_LCM_of_Numbers.md,4,True
@@ -80,3 +80,9 @@ Economy,Macroeconomics Five Year Plans and MCQs,1006,1022,Macroeconomics_Five_Ye
 Economy,Banking Inflation Public Finance and MCQs,1023,1038,Banking_Inflation_Public_Finance_and_MCQs.md,4,True
 Economy,Economic Sectors and Master Revision MCQs,1039,1049,Economic_Sectors_and_Master_Revision_MCQs.md,4,True
 Current_Affairs,General Knowledge Static Review,1050,1092,General_Knowledge_Static_Review.md,4,True
+Current_Affairs,January 2026 Defence Updates,1093,1093,January_2026_Defence_Updates.md,4,True
+Current_Affairs,February 2026 Geopolitics,1093,1093,February_2026_Geopolitics.md,4,True
+Current_Affairs,March 2026 Strategic Affairs,1093,1093,March_2026_Strategic_Affairs.md,4,True
+Current_Affairs,April 2026 Military Exercises,1093,1093,April_2026_Military_Exercises.md,4,True
+Current_Affairs,May 2026 Defence Updates,1093,1093,May_2026_Defence_Updates.md,4,True
+Current_Affairs,June 2026 Geopolitics,1093,1093,June_2026_Geopolitics.md,4,True

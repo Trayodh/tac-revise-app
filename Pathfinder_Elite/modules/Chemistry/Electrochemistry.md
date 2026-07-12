@@ -1,67 +1,310 @@
-**Chemistry: Electrochemistry Revision Notes**
-
-**Page 1: Introduction and Definitions**
-
-1. **Electrochemistry**: Branch of chemistry that deals with the relationship between chemical energy and electrical energy.
-
-2. **Electrochemistry definitions**:
-    - **Oxidation**: loss of electrons (reduction in oxidation state)
-        * Example: Zn → Zn²⁺ + 2e⁻
-    - **Reduction**: gain of electrons (increase in oxidation state)
-        * Example: Cu²⁺ + 2e⁻ → Cu
-    - **Electrode**: a material through which electron flow occurs. 
-        * **Anode**: negative electrode where oxidation occurs
-        * **Cathode**: positive electrode where reduction occurs
-
-3. **Electrochemical cells**: devices that convert chemical energy into electrical energy or vice versa. 
-    * **Galvanic cell (or voltaic cell)**: generates an electric potential difference through spontaneous redox reactions
-    * **Electrolytic cell**: uses electrical energy to drive a redox reaction and often results in the deposition of a metal
-
-**Page 2: Electrochemical Cells**
-
-1. **Galvanic Cells**:
-    * Example: Zinc-Copper (Zn/Cu) cell
-    * Components: zinc anode, copper cathode, salt bridge, and Cu²⁺ solution
-
-2. **Standard Electrode Potentials (SEPs)**:
-    * Defined as the potential difference measured under standard conditions (1 atm, 25°C)
-    * Example: SEP of zinc anode is -0.76V and Cu cathode is 0.34V
-
-3. **Salt Bridge**:
-    * Allows ions to move between two half-cells, maintaining charge balance
-    * Can be replaced by a porous membrane or an electrolyte solution
-
-**Page 3: Electrolysis**
-
-1. **Electrolysis of water**:
-    * Requires a strong electrolyte like H₂SO₄ or KOH
-    * Oxidation: 2H₂O → O₂ + 4H⁺ + 4e⁻ at anode
-    * Reduction: 4H⁺ + 4e⁻ → 2H₂ at cathode
-
-2. **Electrolysis of metals**:
-    * Involves the reduction of metal ions to deposit the metal
-    * Example: electrolysis of copper ions in CuSO₄ solution
-    * Cathode: Cu²⁺ + 2e⁻ → Cu
-    * Anode: No significant oxidation reaction
-
-3. **Electroplating**:
-    * Involves depositing a thin layer of metal ions onto a conductor
-    * Example: gold plating for jewelry
-
-**Page 4: Electrochemical Applications**
-
-1. **Batteries**:
-    * Examples: lead-acid, nickel-cadmium, and lithium-ion batteries
-    * Battery types: primary (disposable) and secondary (rechargeable)
-
-2. **Fuel Cells**:
-    * Convert chemical energy from fuels into electrical energy
-    * Types: alkaline fuel cells, solid oxide fuel cells, and phosphoric acid fuel cells
-
-3. **Electrochemical Sensors**:
-    * Monitor the presence of specific ions or molecules
-    * Examples: pH indicator paper, chlorine dioxide sensor
-
----
-
-Note: Based on given information, please note that no source 2 information was provided. However, this 4-page revision note can be used as a basic template for your studies. Please ensure to fill in information from your textbooks and other reliable sources.
+# Electrochemistry\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 645 ---\n121. (c) Let ABC be a right angled triangle.
+Then, hypotenuse, AC = 25 cm
+Let
+AB = 3x and BC = 4x
+Thus, AC
+AB
+BC
+2
+2
+2
+=
++
+[by pythagoras theorem]
+⇒
+(
+)
+(
+)
+(
+)
+25
+3
+4
+2
+2
+2
+=
++
+x
+x
+⇒
+(
+)
+25
+9
+16
+2
+2
+2
+=
++
+x
+x
+⇒
+25
+2
+= x
+⇒x = 5
+∴
+AB = 15 cm and BC = 20 cm
+Now, ∆ABC revolves about AC, so it
+forms two cones ABD and BCD.
+Since, ∆AEB and ∆ABC are similar.
+∴
+BE
+BC
+AB
+AC
+=
+⇒BE
+20
+15
+25
+=
+⇒
+BE =
+×
+=
+15
+20
+25
+12 cm
+So, radius of the base of cone
+= BE = 12 cm
+In right angled ∆AEB,
+AE
+AB
+BE
+=
+−
+(
+)
+(
+)
+2
+2
+=
+−
+(
+)
+(
+)
+15
+12
+2
+2
+=
+−
+225
+144 =
+81 = 9 cm
+So, height of cone ABD
+AE
+=
+= 9 cm
+∴Height of cone BCD
+AC
+AE
+=
+−
+=
+−
+25
+9 = 16 cm
+Now, volume of cone ABD
+r h
+= 1
+3
+2
+π
+=
+×
+1
+3
+12
+9
+2
+π(
+)
+= 432π cm3
+and volume of cone
+BCD =
+×
+1
+3
+12
+16
+2
+π (
+)
+= 768π cm3
+∴Required volume of double cone
+=
++
+432
+768
+π
+π = 1200π
+=
+×
+1200
+3 14
+.
+[Q π = 3 14
+.
+]
+= 3768 cm3
+122. (d) Q Surface area of cone ABD
+r
+= π l
+=
+×
+×
+π
+12
+15 = 180π cm2
+and surface area of cone
+BCD =
+×
+×
+π
+12
+20 = 240π cm2
+∴Required surface area of double cone
+=
++
+180
+240
+π
+π = 420π
+=
+×
+420
+3 14
+.
+= 13188. cm2
+123. (c) Let side of a cube be x.
+Then, surface area of cube = 6 2
+x
+If the side of cube is increased by 100%.
+Then, new side of cube =
++
+x
+100% of x
+=
++
+x
+x = 2x
+∴New surface area of cube = 6 2
+2
+(
+)
+x
+=
+×
+6
+4 2
+x
+= 24 2
+x
+Now, increase percentage in surface area
+=
+−
+×
+24
+6
+6
+100
+2
+2
+2
+x
+x
+x
+=
+×
+18
+6
+100 = 300%
+124. (a) Let radius of the sphere be r.
+Since, cylinder circumscri-
+bes a sphere.
+∴Radius of the base of
+cylinder = r and
+height
+of cylinder = 2r
+= Diameter of sphere
+Now, volume of sphere = 4
+3
+3
+πr
+and volume of cylinder
+=
+=
+=
+π
+π
+π
+r h
+r
+r
+r
+2
+2
+3
+2
+2
+(
+)
+∴Required ratio =
+4
+3
+2
+3
+3
+π
+π
+r
+r
+=
+×
+4
+3
+2
+=
+=
+2
+3
+2 : 3
+125. (a) Given, diameter of
+the base of the conical
+portion = 12 cm
+∴Radius of conical
+portion = 6 cm
+Radius of hemisphere
+= 6 cm and height of
+conical portion = 8 cm
+∴Slant height of conical portion
+=
++
+=
++
+6
+8
+36
+64
+2
+2
+[Q l =
++
+r
+h
+2
+2 ]
+=
+100 = 10 cm
+Now, total surface area of\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Electrochemistry based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

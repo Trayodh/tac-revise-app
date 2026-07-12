@@ -1,43 +1,76 @@
-I'll create 4 pages of highly structured revision notes for Mathematics: Quadratic Equations and Inequalities. However, I don't see any information about quadratic equations or inequalities in the provided sources. Please provide Source 2, or let me create a general outline for quadratic equations and inequalities.
-
-**Page 1: Introduction and General Form of a Quadratic Equation**
-
-1. **Definition of a Quadratic Equation**: A quadratic equation is a polynomial equation of degree two, which means the highest power of the variable is two. It can be written in the form ax^2 + bx + c = 0, where a, b, and c are constants, and a ≠ 0.
-2. **General Form of a Quadratic Equation**: ax^2 + bx + c = 0, where a, b, and c are real numbers, and a ≠ 0.
-3. **Examples**:
-	* x^2 + 4x + 4 = 0
-	* 3x^2 - 2x - 1 = 0
-4. **Key Terms**:
-	* **Roots**: The values of x that satisfy the equation.
-	* **Coefficients**: The numbers in front of the variables (a, b, and c).
-	* **Constant Term**: The number at the end of the equation (c).
-
-**Page 2: Solving Quadratic Equations by Factoring**
-
-1. **Introduction**: When the equation is in the form ax^2 + bx + c = 0, and we can express it as a product of two binomials, we can use the factoring method to solve it.
-2. **Factoring**: Express the quadratic equation as a product of two binomials, in the form (x - p)(x - q) = 0, where p and q are the roots of the equation.
-3. **Examples**:
-	* x^2 + 4x + 4 = 0 becomes (x + 2)^2 = 0
-	* 3x^2 - 2x - 1 = 0 becomes (3x - 1)(x + 1) = 0
-4. **Solving for x**: From (x - p)(x - q) = 0, we can find x by setting each factor equal to zero and solving for x.
-
-**Page 3: Solving Quadratic Equations by Quadratic Formula**
-
-1. **Introduction**: When the equation is not easily factored, we can use the quadratic formula to find the roots of the equation.
-2. **Quadratic Formula**: x = (-b ± √(b^2 - 4ac)) / 2a
-3. **Interpretation**:
-	* **Discriminant** (b^2 - 4ac): If it is positive, there are two real roots.
-	* **Complex roots**: If the discriminant is negative, the roots will be a complex pair.
-4. **Examples**:
-	* Use the quadratic formula to solve the equations in Page 1.
-
-**Page 4: Quadratic Inequalities and Review**
-
-1. **Quadratic Inequalities**: An inequality in which the quadratic expression is replaced by a less-than-or-equal-to or greater-than-or-equal-to symbol.
-2. **Solving Quadratic Inequalities**: 
-	* **Graphical Method**: Graph the related function and use shading to solve the inequality.
-	* **Algebraic Method**: Write the inequality in the form (x - p)(x - q) ≥ 0, and solve it by considering the signs of the factors.
-3. **Review**:
-	* **Key Concepts**: Solving quadratic equations and inequalities by factoring, quadratic formula, and graphing. 
-
-Please provide the second source to add more specific information to this note.
+# Quadratic Equations and Inequalities\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 160 ---\n84. ‘Gandhi Solar Park’ is located at
+(a) New York
+(b) Vladivostok
+(c) Thimphu
+(d) Houston
+_ (a) ‘Gandhi Solar Park’ is located at
+New York (UN headquarters). This
+park was inaugurated by PM
+Narendra Modi alongwith other world
+leaders, commemorating the 150th
+birth anniversary of Mahatma Gandhi.
+Gandhi Solar Park is a first of its kind
+symbolic effort by India at the UN. It
+has 50 KW capacity, and a gesture
+by India that it is willing to go beyond
+the talk on climate change.
+85. Who among the following was the
+first to arrive in Africa as traders
+that eventually led to European
+colonisation of Africa?
+(a) French
+(b) Spanish
+(c) Portuguese
+(d) Dutch
+_ (c) Portuguese were the first to arrive
+in Africa as traders that eventually led
+to European colonisation of Africa.
+They first reached Africa as explorers
+under Henry the Navigator. Initially,
+the Europeans colonised the areas
+which were un-inhabited like cape
+varde region.
+86. The college of Military Engineering
+affiliated to Jawaharlal Nehru
+University is situated at
+(a) New Delhi
+(b) Dehradun
+(c) Nainital
+(d) Pune
+_ (d) The college of Military Engineering
+affiliated to Jawaharlal Nehru University
+is situated at Pune. It was established
+in 1943 as School of Military
+Engineering at Roorkee and later
+moved to Pune in 1948. This was done
+in view of increased responsibilities
+and in keeping with the higher status of
+the degree of Engineering courses
+being conducted by the school. The
+institute is the premier technical
+training institution of the Corps of
+Engineers of the Indian Army.
+87. Which of the following statements
+with regard to Coal India Limited
+(CIL) is/are true?
+1. CIL has its headquarters at Kolkata.
+2. CIL operates through 82 mining
+area spread over twenty provincial
+States of India.
+3. CIL
+is
+the
+single
+largest
+coal
+producing company in the world.
+Select the correct answer using the
+codes given below.
+(a) Only 1
+(b) 1 and 3
+(c) 2 and 3
+(d) 1, 2 and 3
+_ (b) Only statements 1 and 3 regardi\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Quadratic Equations and Inequalities based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

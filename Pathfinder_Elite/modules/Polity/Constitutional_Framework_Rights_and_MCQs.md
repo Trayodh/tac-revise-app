@@ -1,135 +1,104 @@
-**Page 1: Introduction to Polity - Constitutional Framework Rights**
-
-**1.0 Overview**
-
-- Constitutional Framework provides the foundation for governance in a country.
-- India's Constitution is a blend of parliamentary and presidential systems with federal and unitary elements.
-- It has three schedules and 22 parts.
-
-**1.1 Sources of the Indian Constitution**
-
-- The Constitution is based on three main sources:
-  1. **The Government of India Act 1935**: It provided the framework for the Indian Constitution and served as a model for some clauses.
-  2. **The United Nations Charter**: The Preamble and Article 51 of the Indian Constitution are inspired by the UN Charter.
-  3. **Resolutions of the Constituent Assembly**: The Assembly's resolutions are reflected in various provisions of the Constitution.
-
-**1.2 Features of the Indian Constitution**
-
-- **Bicameralism**: Two houses of parliament: Lok Sabha and Rajya Sabha.
-- **Federal System**: Power is divided between the Centre and states.
-- **Directive Principles of State Policy (DPSP)**: Guiding principles for the government to follow.
-- **Emergency Provisions**: Power to impose emergency in case of national crisis.
-
-**1.3 Rights and Fundamental Liberties**
-
-- **Part III**: Fundamental Rights.
-- **Part IV**: Directive Principles of State Policy.
-- **Part V**: The Union.
-
-**2.0 Questions to Consider**
-
-1. What are the main sources of the Indian Constitution?
-2. What are the features of the Indian Constitution?
-3. What are the main rights and liberties guaranteed in the Constitution?
-
-**Page 2: Rights and Fundamental Liberties**
-
-**2.0 Part III - Fundamental Rights**
-
-- **Article 14-18**: Right to equality.
-- **Article 19-22**: Right to freedom and liberty.
-- **Article 23-25**: Prohibition against traffic in human beings.
-- **Article 26-35**: Right to freedom of conscience.
-- **Article 36**: Right of protection of life and personal liberty.
-
-- **Article 32**: Remedies for enforcement of the rights.
-- **Article 33**: Power to the State to modify certain rights.
-
-**2.1 Important Fundamental Rights**
-
-- **Right to Equality**: Ensures equality before law (Article 14) and non-discrimination (Article 15).
-- **Right to Freedom**: Includes freedom of speech, assembly, and movement (Article 19).
-- **Right to Freedom of Religion**: Ensures freedom of conscience and profession (Article 25).
-
-**2.2 Limitations of Fundamental Rights**
-
-- **Article 32(1)**: Fundamental rights are not available to citizens who are involved in antinational activities.
-- **Article 31**: Limitations on right to life and personal liberty.
-- **Article 35**: Prohibition against traffic in human beings.
-
-**3.0 Questions to Consider**
-
-1. What are the main articles that guarantee the right to equality and freedom in the Constitution?
-2. What are the limitations of fundamental rights?
-3. What is the significance of Article 32?
-
-**Page 3: Directive Principles of State Policy (DPSP)**
-
-**3.0 Part IV - Directive Principles of State Policy**
-
-- **Article 36-51**: DPSP is a set of guiding principles for the government to follow.
-- **Article 39**: Equality of opportunity for all citizens.
-- **Article 41**: Right to work.
-- **Article 43**: Participate in the economic development of India.
-
-- **Article 45**: Provision for early childhood care and education.
-- **Article 48**: Protection of the environment.
-- **Article 50**: Promote unity and integrity of the nation.
-
-**3.1 Importance of DPSP**
-
-- **Enabling Clause**: Makes the realization of the fundamental rights possible.
-- **Guiding Clause**: Provides guidance for the government in its decision-making process.
-- **Supplementing Clause**: Fills in the gaps in the fundamental rights.
-
-**3.2 Relationship between Fundamental Rights and DPSP**
-
-- **Hegemony Theory**: DPSP is an extension of the fundamental rights.
-- **Separation Theory**: DPSP is separate from the fundamental rights.
-
-**4.0 Questions to Consider**
-
-1. What are the main articles of the DPSP?
-2. How do DPSP relate to the fundamental rights?
-3. What are the implications of Hegemony Theory and Separation Theory?
-
-**Page 4: Answers and MCQs**
-
-**1.1 Answers to Revision**
-
-1. The main sources of the Indian Constitution are:
-   (a) The Government of India Act 1935.
-   (b) The United Nations Charter.
-   (c) Resolutions of the Constituent Assembly.
-
-2. The features of the Indian Constitution include:
-   (a) Bicameralism.
-   (b) Federal System.
-   (c) Directive Principles of State Policy (DPSP).
-   (d) Emergency Provisions.
-
-3. The main rights and liberties guaranteed in the Constitution include:
-   (a) Right to Equality.
-   (b) Right to Freedom and Liberty.
-   (c) Right to Freedom of Conscience.
-   (d) All of the above.
-
-**4.0 MCQs for Revision**
-
-1. Which of the following is a fundamental right guaranteed by the Constitution?
-   - (a) Right to Equality.
-   - (b) Right to Freedom and Liberty.
-   - (c) Right to Freedom of Conscience.
-   - (d) All of the above.
-
-Answer: (d) All of the above.
-
-2. Which of the following is not a correct statement about the Indian Constitution?
-   - (a) It is based on the Government of India Act 1935.
-   - (b) It has 22 parts.
-   - (c) It provides for parliamentary and presidential systems.
-   - (d) It has a single house of parliament.
-
-Answer: (d) It has a single house of parliament.
-
-**Note**: These questions are based on the provided sources for the Polity: Constitutional Framework Rights and MCQs revision notes.
+# Constitutional Framework Rights and MCQs\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 947 ---\n662
+CDS Pathfinder
+Codes
+A B C D
+A
+B C D
+(a) 1
+2
+4
+3
+(b) 3
+1
+5
+4
+(c) 5
+2
+1
+4
+(d) 3
+1
+2
+4
+41. Which one among the following
+statements about an atom is not
+correct?
+e 2012 I
+(a) Atom always combine to form
+molecules
+(b) Atoms are the basic units from
+which molecules and ions are
+formed
+(c) Atoms are always neutral in nature
+(d) Atoms aggregate in large numbers
+to form the matter that we can
+see, feel and touch
+42. Which one among the following is
+not a correct statement?
+e 2013 II
+(a) Cathode rays are negatively
+charged particles
+(b) Cathode rays are produced from all
+the gases
+(c) Electrons are basic constituents of
+all the atoms
+(d) Hydrogen ions do not contain any
+proton
+43. In tritium (T), the number of
+protons (p) and neutrons (n)
+respectively, are
+e 2014 II
+(a) 1 p and 1 n
+(b) 1 p and 2 n
+(c) 1 p and 3 n
+(d) 2 p and 1 n
+44. The distribution of electrons into
+different orbits of an atom, as
+suggested by Bohr, is
+e 2014 II
+(a) 2 electrons in the K-orbit, 6
+electrons in the L-orbit, 18 electrons
+in the M-orbit
+(b) 2 electrons in the K-orbit, 8
+electrons in the L-orbit, 32 electrons
+in the M-orbit
+(c) 2 electrons in the K-orbit, 8
+electrons in the L-orbit, 18 electrons
+in the M-orbit
+(d) 2 electrons in the K-orbit, 8
+electrons in the L-orbit, 16 electrons
+in the M-orbit
+45. Who among the following
+proposed that atom is indivisible?
+e 2015 I
+(a) Dalton
+(b) Berzelius
+(c) Rutherford
+(d) Avogadro
+46. The atomic theory of matter was
+first proposed by
+e 2015 II
+(a) John Dalton
+(b) Rutherford
+(c) J.J. Thomson
+(d) Niels Bohr
+47. Which one of the following
+statements is not correct?
+e 2016 II
+(a) Atoms of different elements may
+have same mass numbers
+(b) Atoms of an element may have
+different mass numbers
+(c) All the atoms of an element have
+same number of protons
+(d) All the atoms of an element will
+always have same number of
+neutrons
+Radioactivity
+48. In which categories did Marie Curie
+win her two different Nobel Prizes?
+(a) Physics and Chemistry
+(b) \n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Constitutional Framework Rights and MCQs based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

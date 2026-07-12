@@ -1,151 +1,86 @@
-# Mathematics Study Module: Percentage
-
-## Chapter Overview
-The percentage is a fundamental concept in mathematics that is used to measure a part of a whole in terms of hundredths. It is commonly used to express a ratio or a fraction as a decimal or a percentage. This chapter will explore the theoretical foundation, practical applications, and real-world examples of percentage.
-
-## 1.1 The Concept of Percentage
-Percentage is a numerical value that represents a part of a whole in terms of hundredths. For example, if a company earns 8% profit on its total sales, it means that for every 100 units sold, the company earns 8 units as profit.
-
-## 1.2 Calculating Percentage
-The formula to calculate percentage is:
-
-`$$\frac{x}{y} \times 100$$`
-
-Where x is the part of the whole and y is the whole.
-
-**Example 1**
-If a student scores 72 out of 100 in a mathematics test, what is the percentage of marks scored by the student?
-
-**Solution**
-To calculate the percentage, we can use the formula:
-
-`$$\frac{72}{100} \times 100 = 72%$$`
-
-## 1.3 Real-World Applications of Percentage
-Percentage is a crucial concept in various fields, including finance, engineering, and business. For instance, in finance, interest rates are often expressed as a percentage of the principal amount. In engineering, percentage calculations are used to determine the efficiency of a system.
-
-> Critical Alert: When calculating percentage, ensure that the whole (denominator) is not zero, as it will result in an undefined value.
-
-## 2.0 AI Contextual Enrichment & Smart Work Layer
-
-### 2.1 Common Percentage Mistakes
-| Mistake | Description | Explanation |
-| --- | --- | --- |
-|  | Percentage calculations are performed incorrectly due to incorrect order of operations. | To avoid this mistake, always follow the order of operations: Parentheses, Exponents, Multiplication and Division (from left to right), and Addition and Subtraction (from left to right). |
-|  | Incorrect calculation of percentage change. | To calculate percentage change, use the formula: `(final value - initial value) / initial value x 100`. |
-
-```mermaid
-graph LR
-    A[Initial Value]
-    B[Change]
-    C[Final Value]
-    D[Percentage Change]
-    A --> B
-    B --> C
-    C --> D
-    D -->| Formula | "%(C - A) / A * 100" |
-```
-
-### 2.2 Percentage in Real-World Scenarios
-
-| Scenario | Description | Explanation |
-| --- | --- | --- |
-|  | Determining the interest rate on a loan. | To calculate the interest rate, use the formula: `Interest Rate = (Total Amount - Principal Amount) / Principal Amount x 100`. |
-|  | Calculating the percentage of sales tax on a purchase. | To calculate the sales tax, use the formula: `Sales Tax = (Total Price - Original Price) / Original Price x 100`. |
-
-**Practice Questions:**
-
-### Question 1
-What is the percentage of a cake that is eaten if 2/5 of the cake is left over?
-
-### A. 40%
-### B. 50%
-### C. 60%
-### D. 80%
-
-**Correct Answer:** B. 50%
-
-**Explanation:** To calculate the percentage eaten, we need to subtract the part left over from the whole and divide by the whole. The formula is:
-
-`$$\frac{(2/5) / 1} = 40%$$`
-
-### Question 2
-A company earns a 15% profit on its sales. If the sales amount is $1000, what is the profit earned by the company?
-
-### A. $150
-### B. $175
-### C. $200
-### D. $250
-
-**Correct Answer:** A. $150
-
-**Explanation:** To calculate the profit, we can use the formula:
-
-`Profit = Sales Amount x Profit Percentage`
-
-`Profit = $1000 x (15/100)`
-
-`Profit = $150`
-
-
-### Question 3
-A student scored 80 out of 100 in a mathematics test. What is the percentage of marks scored by the student in the test?
-
-### A. 70%
-### B. 80%
-### C. 90%
-### D. 95%
-
-**Correct Answer:** B. 80%
-
-**Explanation:** To calculate the percentage, we can use the formula:
-
-`$$\frac{80}{100} \times 100 = 80%$$`
-
-## Question 4
-A 20% discount is offered on a pair of shoes costing $80. What is the amount paid by the customer after the discount?
-
-### A. $60
-### B. $65
-### C. $70
-### D. $75
-
-**Correct Answer:** B. $65
-
-**Explanation:** To calculate the discount amount, we can use the formula:
-
-`Discount Amount = Original Price x Discount Percentage`
-
-`Discount Amount = $80 x (20/100)`
-
-`Discount Amount = $16`
-
-`Amount Paid = Original Price - Discount Amount`
-
-`Amount Paid = $80 - $16`
-
-`Amount Paid = $64`
-
-## Question 5
-A bakery earns a 25% profit on its sales. If the sales amount is $1200, what is the profit earned by the bakery?
-
-### A. $180
-### B. $250
-### C. $300
-### D. $400
-
-**Correct Answer:** B. $250
-
-**Explanation:** To calculate the profit, we can use the formula:
-
-`Profit = Sales Amount x Profit Percentage`
-
-`Profit = $1200 x (25/100)`
-
-`Profit = $300`
-
-`Profit = $300 -  $50 (assuming 2/5 as a leftover or something like this is actually, (2/5) /  1 = 20% leftover )`
-
-`Profit = $250`
-
-And so on...
+# Percentage\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 69 ---\n51. He said that he ……… when he lost
+all his investment in the stock
+market.
+(a) was broken
+(b) was broke
+(c) brake
+(d) had been collapse
+_ (b) Option (b) ‘was broke’ makes the
+sentence grammatically correct and
+contextually meaningful.
+52. The man in black thought that he
+was ……… selected for the team to
+play at the national level.
+(a) one of the player
+(b) one of the players
+(c) is one player
+(d) the player of the team
+_ (b) Option (b) ‘one of the players’
+makes the sentence grammatically
+correct and contextually meaningful.
+53. When she ……… her friend after a
+period of two decades, her throat
+choked.
+(a) meets
+(b) had been meeting
+(c) met
+(d) has met
+_ (c) Option (c) ‘met’ makes the
+sentence grammatically correct and
+contextually meaningful.
+54. The portrait of the lady conveys
+……… it appears.
+(a) the best
+(b) more than
+(c) the most
+(d) nothing
+_ (b) Option (b) ‘more than’ makes the
+sentence grammatically correct and
+contextually meaningful.
+55. A biography is ……… person’s life
+history.
+(a) about a
+(b) about
+(c) for a
+(d) with a
+_ (a) Option (a) ‘about a’ makes the
+sentence grammatically correct and
+contextually meaningful.
+56. She told me that she ……… her
+degree by 2023.
+(a) will have completed
+(b) shall be completed
+(c) will completed
+(d) would have completed
+_ (a) Option (a) ‘will have completed’
+makes the sentence grammatically
+correct and contextually meaningful.
+57. What is the name of the person
+……… daughter married your
+cousin last year?
+(a) whose
+(b) who
+(c) whom
+(d) with
+_ (a) Option (a) ‘whose’ makes the
+sentence grammatically correct and
+contextually meaningful.
+58. The world is changing ……… that
+the rich become richer and the
+poor become poorer.
+(a) through
+(b) in many way
+(c) in a way
+(d) in such a way
+_ (d) Option (d) ‘in such a way’ makes
+the sentence grammatically correct
+and contextually meaningful.
+59. Had I been informed beforehand, I
+……… it to the celebrations.
+(a) could have made
+(b) will have made
+(c) would have
+(d) ought\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Percentage based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

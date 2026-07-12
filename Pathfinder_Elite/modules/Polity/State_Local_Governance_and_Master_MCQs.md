@@ -1,77 +1,51 @@
-I can't provide a 4-page highly structured revision note for Polity: State, Local Governance and Master MCQs using the provided sources, as they seem to be unrelated. However, I can provide a highly structured revision note for Polity: State and Local Governance based on general information and common syllabus topics. Please let me know if any specific topic from the syllabus needs to be covered.
-
-**Revision Notes for Polity: State and Local Governance**
-
-**Page 1: Overview of Indian Polity and the State**
-
-1. **Indian Constitution**:
-	* Adopted on November 26, 1949
-	* Came into effect on January 26, 1950
-	* Fundamental rights and duties, principles of state policy
-	* Seven Union lists, three State lists, and two Concurrent lists
-2. **Definition of State**:
-	* A state is a distinct area of government authority
-	* Comprises a territory and a population
-	* A state can have its own government, laws, and institutions
-3. **Objectives of the State**:
-	* Protect national security
-	* Maintain law and order
-	* Foster social justice and welfare
-	* Promote economic development
-
-**Page 2: Structure of the State**
-
-1. **Union Government**:
-	* Headed by the President
-	* Council of Ministers headed by the Prime Minister
-	* Lok Sabha (Lower House), Rajya Sabha (Upper House)
-	* Supreme Court (Highest Court of the land)
-2. **State Government**:
-	* Headed by the Governor
-	* Council of Ministers headed by the Chief Minister
-	* State Legislative Assembly (Vidhan Sabha), State Legislative Council (Vidhan Parishad)
-	* State High Court (Highest Court of the State)
-3. **Local Governments**:
-	* Panchayats (Rural areas), Municipalities (Urban areas)
-	* Three-Tier system (Gram Panchayat, Mandal Panchayat, Zilla Panchayat in rural areas)
-
-**Page 3: Local Governance**
-
-1. **Panchayats**:
-	* Elected at the village level
-	* Gram Sabha (Village Assembly)
-	* Panchayat Samiti (Mandal Panchayat)
-	* Zilla Panchayat (District Panchayat)
-2. **Municipalities**:
-	* Elected at the urban area level
-	* Municipal Corporation
-	* Municipal Committee
-	* Nagar Parishad (Municipal Council)
-3. **Funding of Local Governments**:
-	* Share of taxes, fees, and grants from State and Union Governments
-
-**Page 4: Master MCQs**
-
-1. **What is the name of the Indian Constitution**:
- A) The Constitution of India
- B) The Indian Bill of Rights
- C) The Directive Principles of State Policy
- D) The Seven-Sigma Principles
-
-Answer: A) The Constitution of India
-
-2. **Who is the head of the Union Government**:
- A) Prime Minister
- B) President
- C) Vice President
- D) Speaker of the Lok Sabha
-
-Answer: B) President
-
-3. **What is the term for the governing body of a village**:
- A) Panchayat
- B) Mandal Panchayat
- C) Zilla Panchayat
- D) Gram Sabha
-
-Answer: A) Panchayat
+# State Local Governance and Master MCQs\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 991 ---\n706
+CDS Pathfinder
+Minerals (Inorganic Salts)
+The metals, non-metals and their salts are called minerals.
+They form about 4% of our body weight. Minerals are
+generally of two types:
+(a) Macronutrients (needed by body in large amount),
+e.g. calcium (Ca), phosphorus (P), potassium (K),
+sulphur (S), sodium (Na), chlorine (Cl) and
+magnesium (Mg).
+(b) Micronutrients (needed by body in small amounts),
+e.g. iodine (I), iron (Fe), zinc (Zn), manganese (Mn),
+copper (Cu), cobalt (Co), fluorine (F), molybdenum
+(Mo) and selenium (Se).
+Sources of Minerals
+These are obtained from the food and drink consumed
+by animals. These are also present in milk, eggs, meat,
+fruits, vegetables and tables salts.
+Vitamins
+Vitamins are the compounds essential for the metabolic
+activities of our body, but in very small quantities. These do
+not provide energy, but control energy yielding reactions of
+our body. The term ‘vitamin’ was coined by Casimir Funk.
+On the basis of solubility, vitamins are of two types:
+(a) Fat soluble vitamin, i.e. Vitamin-A, D, E and K.
+(b) Water soluble vitamin, i.e. Vitamin-B complex and C.
+Our body can synthesise vitamin-D and K.
+Fat Soluble Vitamins
+Fat in diet is essential otherwise these vitamins will not be
+absorbed.
+Vitamin-A (Retinol)
+• Steenbock (1919) discovered the vitamin-A and Karrear
+(1931) determined the structure of vitamin-A.
+• It is also called as antiinfective vitamin.
+• It is necessary for healthy eye sight (normal vision).
+• It is destroyed by strong light.
+• The main sources are yellow or green leafy vegetables
+(spinach), carrot, papaya, ripe mango, maize, milk, ghee,
+cod liver oil, etc.
+• Deficiency causes night blindness (patient cannot see
+the object in dim light) and xerophthalmia or
+keratomalacia (dryness and wrinkleness of outer layer
+of eyeball).
+Vitamin-D (Calciferol)
+• It is called poorman’s vitamin and is a sterol
+derivative.
+• Its formation takes place under the skin in the
+presence of sunlight thats why also called as\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for State Local Governance and Master MCQs based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

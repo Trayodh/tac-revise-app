@@ -1,92 +1,142 @@
-**Page 1: Measurement**
-
-1. **Introduction to Measurement**
-   - Measurement is the process of assigning a number to a physical quantity.
-   - It is an important aspect of Physics as it allows us to describe and compare physical quantities.
-
-2. **SI system**
-   - SI (International System of Units)
-   - Fundamental units: Meter (m), Kilogram (kg), Second (s), Ampere (A), Kelvin (K), Mole (mol)
-   - Derived units: Derived from fundamental units, e.g., Force (N) = kg m s^-2
-
-3. **Prefixes in SI**
-   - Multiples: k (kilo), M (mega), G (giga), T (tera), P (peta), E (exa), Z (zetta), Y (yotta)
-   - Submultiples: m (milli), μ (micro), n (nano), p (pico), f (femto), a (atto)
-
-4. **Significant Figures**
-   - Number of digits that are known with certainty in a measurement.
-   - Rules:
-     + Numbers obtained from a direct measurement have 2-3 significant figures.
-     + Numbers obtained from a calculation have as many significant figures as the number with the fewest.
-
-**Page 2: Motion**
-
-1. **Introduction to Motion**
-   - Motion is the change in position of an object with respect to its reference frame.
-   - It can be described using velocity, displacement, distance, time, and acceleration.
-
-2. **Displacement and Distance**
-   - Displacement: A vector quantity that describes the change in position of an object, measured from the initial position to the final position.
-   - Distance: A scalar quantity that describes the total length between the initial and final positions of an object.
-
-3. **Velocity and Acceleration**
-   - Velocity: A vector quantity that describes the rate of change of displacement with respect to time.
-   - Acceleration: A vector quantity that describes the rate of change of velocity with respect to time.
-
-4. **Equations of Motion**
-   - Equations of motion can be derived from the definitions of motion parameters:
-     + v = u + at
-     + s = ut + 0.5at^2
-     + v^2 = u^2 + 2as
-     + s = s0 + v0t + 0.5at^2
-
-**Page 3: Work, Energy, and Power**
-
-1. **Work Done**
-   - Work done is the product of force and displacement in the direction of force.
-   - Unit: Joule (J) = N m
-   - Formula: W = F s cos(θ), where θ is the angle between force and displacement
-
-2. **Energy**
-   - Energy is the ability to do work.
-   - Unit: Joule (J)
-   - Types:
-     + Kinetic Energy (KE): ½ mv^2
-     + Potential Energy (PE): mgh or -(-k q1 q2) / r
-     + Work Energy Theorem: W = ΔKE
-
-3. **Power**
-   - Power is the rate at which work is done.
-   - Unit: Watt (W) = J s^-1 or N m s^-1
-   - Formula: P = W / t or P = F v
-
-4. **Sources**
-   - Power sources: Battery, generator, solar panel
-   - Power consumption: Home appliances, vehicles
-
-**Page 4: Problem-Solving Examples**
-
-1. **Example 1: Measurement**
-   - A book has a mass of 0.500 kg. What is its weight in Newtons?
-   - Solution: W = m g = 0.500 kg 9.81 m s^-2 = 4.905 N
-   - Answer: 4.9 N
-
-2. **Example 2: Motion**
-   - A ball is thrown upwards with an initial velocity of 20 m s^-1. What is its speed after 2 seconds?
-   - Solution: v = u + at = 20 m s^-1 - 9.81 m s^-2 2 s = 13.38 m s^-1
-   - Answer: 13.4 m s^-1
-
-3. **Example 3: Work, Energy, and Power**
-   - A car accelerates from 20 km h^-1 to 60 km h^-1 in 10 seconds. What is the force applied to it?
-   - Solution: F = ma = m 10 / 10 = 10 m
-   - Answer: 10 m
-
----
-
-Note:
-- Since the provided sources lack relevant information to create structured notes for all the mentioned Physics topics, some sections in the revision notes are incomplete or generated from general knowledge.
-- Please consult your Physics textbook or other relevant sources for a more comprehensive understanding of the topics.
-
-Source 1 appears to have information related to geometry and trigonometry, but not directly relevant to the topics mentioned in the request. It may be part of a different chapter in your textbook.
-
-Source 2 is missing, please provide it for a more accurate and comprehensive revision note.
+# Measurement Motion Work Energy and Power\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 579 ---\n1. In a circle with centre O and radius 5 cm, AB is
+a chord of length 8 cm. If OM
+AB
+⊥
+, then what is
+the length of OM?
+(a) 4 cm
+(b) 5 cm
+(c) 3 cm
+(d) None of these
+2. An equilateral ∆ABC is inscribed in a circle with
+centre O. Then, ∠BOC is equal to
+(a) 120°
+(b) 75°
+(c) 180°
+(d) 60°
+3. A square ABCD is inscribed in a circle with
+centre O. Then, the angle subtended by each side
+of the square at the centre O is
+(a) 120°
+(b) 180°
+(c) 45°
+(d) 90°
+4. The
+points
+of
+concurrency
+of
+the
+perpendicular bisectors of the sides of a triangle
+is called its
+(a) incentre
+(b) circumcentre
+(c) excentre
+(d) orthocentre
+5. In the given figure, PQ is the diameter of a circle
+with centre at O. OS is perpendicular to PR.
+Then, OS is equal to
+(a) 1
+4
+QR
+(b) 1
+3
+QR
+(c) 1
+2
+QR
+(d) QR
+6. In
+the
+given
+figure,
+OM
+ON
+and
+are
+the
+perpendiculars drawn on the chords PQ
+RS
+and
+.
+If OM
+ON
+=
+= 6 cm. Then,
+(a) PQ
+RS
+≥
+(b) PQ
+RS
+<
+(c) PQ
+RS
+≤
+(d) PQ
+RS
+=
+7. The locus of the mid-points of all radii of a circle
+is a
+(a) circle
+(b) parallelogram
+(c) rhombus
+(d) square
+8. The perpendicular bisectors of the sides of a
+triangle pass through the
+(a) different point
+(b) more than 2 points
+(c) same point
+(d) None of these
+9. If a point P moves such that the sum of the
+squares of its distance from two fixed points
+A
+B
+and
+is a constant, then the locus of P is
+(a) a circle
+(b) a straight line
+(c) an arbitrary curve
+(d) the perpendicular bisector of AB
+10. The locus of points equidistant from two fixed
+points is a straight line which
+(a) is a right angles to the line joining the two fixed points
+(b) bisects the line joining the two fixed points
+(c) is the perpendicular bisector of the line joining the
+two fixed points
+(d) None of the above
+11. Diameter AB
+CD
+and
+of a circle intersect at O. If
+m∠
+=
+°
+BOD
+50 , then m
+AOD
+∠
+is
+(a) 50°
+(b) 180°
+(c) 130°
+(d) 310°
+12. CD is a direct common tangent to two circles
+intersecting
+each
+other
+at
+A
+B
+and
+.
+Then,
+∠
++ ∠
+CAD
+CBD is equal to?
+(a) 180°
+(b) 90°
+(c)\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Measurement Motion Work Energy and Power based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

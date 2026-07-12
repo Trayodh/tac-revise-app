@@ -1,78 +1,264 @@
-**Page 1: Ordering of Words in Sentences**
-
-**I. Introduction**
-
-- Ordering of words in sentences refers to the arrangement of words in a sentence to convey meaning.
-- It is essential to use correct word order to express ourselves effectively.
-
-**II. Types of Word Order**
-
-- **Statement Sentence**: Begins with the subject and ends with the object.
-  - Example: The dog is chasing the cat.
-- **Question Sentence**: Begins with the auxiliary verb to form a question.
-  - Example: Is the dog chasing the cat?
-- **Negative Sentence**: Begins with a negative word to form a statement with a negative meaning.
-  - Example: The dog is not chasing the cat.
-
-**III. Word Order in Clauses**
-
-- **Simple Clause**: Subject + Verb + Object
-  - Example: The dog runs quickly.
-- **Compound Clause**: Subject + Verb + Conjunction + Subject + Verb
-  - Example: The dog runs quickly, and the cat jumps high.
-- **Complex Clause**: Subject + Verb + Subordinate Clause
-  - Example: The dog runs quickly because it is happy.
-
-**Page 2: Ordering of Words in Sentences (continued)**
-
-**IV. Modifying Words**
-
-- **Adjectives**: Modify nouns or pronouns
-  - Example: The big dog is happy.
-- **Adverbs**: Modify verbs, adjectives, or other adverbs
-  - Example: The dog runs quickly.
-- **Prepositions**: Show the relationship between words or phrases
-  - Example: The book is on the table.
-
-**V. Tenses in Verb Order**
-
-- **Simple Past**: Verb + Past Tense (e.g., walked, talked)
-  - Example: I walked to school.
-- **Present Perfect**: Auxiliary Verb + Past Participle (e.g., have walked, have talked)
-  - Example: I have walked to school before.
-- **Future Simple**: Auxiliary Verb + Will + Base Form (e.g., will walk, will talk)
-  - Example: I will walk to school tomorrow.
-
-**Page 3: Ordering of Sentences**
-
-**VI. Types of Sentence Connection**
-
-- **Coordinating Conjunctions**: Join two equal sentences
-  - Example: I went to the store, and I bought milk.
-- **Subordinating Conjunctions**: Connect a dependent and an independent clause
-  - Example: I went to the store because I needed milk.
-- **Correlative Conjunctions**: Join two equal sentences using a pair of conjunctions
-  - Example: I went to the store, but I didn't buy milk.
-
-**VII. Types of Sentence Structure**
-
-- **Simple Sentence**: One independent clause
-  - Example: I went to the store.
-- **Compound Sentence**: Two or more independent clauses
-  - Example: I went to the store, and I bought milk.
-- **Complex Sentence**: One independent clause and one dependent clause
-  - Example: I went to the store because I needed milk.
-
-**Page 4: Ordering of Sentences (continued)**
-
-**VIII. Emphasis and Stress**
-
-- **Emphasis**: Highlight a particular word or phrase
-  - Example: I **never** ate at that restaurant.
-- **Stress**: Emphasize a syllable in a word
-  - Example: I went to the **store**.
-
-**IX. Conclusion**
-
-- Ordering of words and sentences is essential for effective communication.
-- Understanding different types of word order and sentence structure will help you to convey your message clearly and accurately.
+# Ordering of Words and Sentences\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 515 ---\n42. The angles of elevation of the top of a tower from
+two points P and Q at distance m2 and n2
+respectively, from the base and in the same
+straight line with it are complementary. The
+height of the tower is
+e 2015 I
+(a) (
+) /
+mn 1 2
+(b) mn1 2
+/
+(c) m
+n
+1 2
+/
+(d) mn
+43. A pole is standing erect on the ground which is
+horizontal, The tip of the pole is tied tight with a
+rope of length
+12 m to a point on the ground. If
+the rope is making 30° with the horizontal, then
+the height of the pole is
+e 2015 II
+(a) 2 3 m
+(b) 3 2 m
+(c) 3 m
+(d)
+3 m
+44. An aeroplane flying at a height of 3000 m passes
+vertically above another aeroplane at an instant,
+when the angles of elevation of the two planes
+from some point on the ground are 60° and 45°,
+respectively. Then, the vertical distance between
+the two planes is
+e 2015 II
+(a) 1000 (
+)
+3
+1
+−
+m
+(b) 1000 3 m
+(c) 1000 3
+3
+(
+)
+−
+m
+(d) 3000 3 m
+45. Two observers are stationed due North of a
+tower (of height x m) at a distance y m from each
+other.
+The
+angles
+of
+elevation
+of
+the
+tower
+observed by them are 30° and 45°, respectively.
+Then, x
+y
+/
+is equal to
+e 2016 I
+(a)
+2
+1
+2
+−
+(b)
+3
+1
+2
+−
+(c)
+3
+1
+2
++
+(d) 1
+230
+CDS Pathfinder
+ANSWERS
+1
+c
+2
+a
+3
+c
+4
+c
+5
+c
+6
+b
+7
+b
+8
+d
+9
+d
+10
+b
+11
+c
+12
+b
+13
+d
+14
+a
+15
+a
+16
+b
+17
+c
+18
+c
+19
+c
+20
+b
+21
+c
+22
+a
+23
+a
+24
+a
+25
+b
+26
+a
+27
+d
+28
+c
+29
+c
+30
+b
+31
+a
+32
+c
+33
+a
+34
+c
+35
+c
+36
+b
+37
+b
+38
+c
+39
+d
+40
+c
+41
+c
+42
+d
+43
+d
+44
+c
+45
+c
+HINTS AND SOLUTIONS 
+1. (c) Let the height of the tree be h m.
+∴BC
+h
+=
+m and AB = 16 m
+In right angled ∆ABC,
+tan 60
+16
+° =
+=
+BC
+AB
+h ⇒
+3
+16
+= h
+⇒
+h = 16 3 m
+Hence, the height of the tree is 16 3 m.
+2. (a) In right angled
+∆PBT, tan 45° = h
+y
+⇒
+1 = h
+y
+∴
+y
+h
+=
+…(i)
+and in right angled ∆PTA ,
+tan30° = h
+x
+⇒x =
+3h
+…(ii)
+∴Required distance, AB
+x
+y
+=
++
+x +
+=
++
+y
+h
+h
+3
+=
++
+h (
+)
+3
+1 m
+3. (c) Let height of the building be h m
+and
+distance
+between
+building
+and
+tower be x m.
+∴
+AB
+h
+=
+m
+and
+BC = x m
+In right angled ∆ADE,
+tan 30° = ED
+AD
+⇒
+1
+3
+75
+=
+−h
+x
+⇒
+x =
+−
+75 3
+3
+h
+…(i)
+and in right angle\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Ordering of Words and Sentences based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n

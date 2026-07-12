@@ -1,102 +1,375 @@
-**Page 1: Chemical Thermodynamics**
-
-**Revision Notes: Chemical Thermodynamics and Surface Chemistry**
-
-**I. Thermodynamic Systems and Properties**
-
-* System: A portion of universe where changes occur
-* Surroundings: Part of universe outside the system
-* Boundary: Surface separating the system from the surroundings
-* Properties:
-	+ State functions: Properties that depend only on the state of the system (e.g., temperature, pressure, volume)
-	+ Path functions: Properties that depend on the path followed in reaching the final state (e.g., work, heat)
-
-**II. Laws of Thermodynamics**
-
-* Zeroth Law of Thermodynamics: If two systems are in thermal equilibrium with a third system, they are also in thermal equilibrium with each other
-* First Law of Thermodynamics: Energy cannot be created or destroyed, only converted from one form to another (ΔE = Q - W)
-* Second Law of Thermodynamics: The total entropy of an isolated system always increases over time
-* Third Law of Thermodynamics: As the temperature of a system approaches absolute zero, its entropy approaches a minimum value
-
-**III. Thermodynamic Processes**
-
-* Isothermal process: Constant temperature
-* Adiabatic process: No heat transfer
-* Isobaric process: Constant pressure
-* Isometric process: Constant volume
-
-**IV. Thermodynamic Cycles**
-
-* Carnot cycle: Idealized cycle that demonstrates the principles of thermodynamics
-* Refrigeration cycle: Cycle used to transfer heat from a colder body to a hotter body
-
-**Page 2: Thermodynamic Functions**
-
-**I. Internal Energy**
-
-* Internal energy (U): Total energy of a system
-* ΔE = Q - W (First Law of Thermodynamics)
-
-**II. Enthalpy**
-
-* Enthalpy (H): Total energy of a system plus the energy associated with the pressure and volume of the system
-* dH = dQ - dW (First Law of Thermodynamics)
-
-**III. Entropy**
-
-* Entropy (S): Measure of disorder or randomness in a system
-* ΔS = ΔQ / T (Second Law of Thermodynamics)
-
-**IV. Free Energy**
-
-* Free energy (G): Energy available to do work in a system
-* ΔG = ΔH - TΔS (Third Law of Thermodynamics)
-
-**Page 3: Surface Chemistry**
-
-**I. Surface Tension**
-
-* Surface tension (γ): Force per unit length acting along a surface
-* γ = Force / Length
-
-**II. Curved Surface Area**
-
-* Curved surface area (A): Measure of the surface area of a curved surface
-* A = πrl (for a cone)
-* A = 2πr^2 (for a cylinder)
-
-**III. Surface Energy**
-
-* Surface energy (ΔG): Energy associated with the formation of a surface
-* ΔG = γA
-
-**IV. Wettability**
-
-* Wettability: Ability of a liquid to spread on a surface
-* Contact angle: Measure of the wettability of a surface
-
-[Insert example from Source 1]
-
-**Example: Painting a Cap**
-
-A cylindrical cap of radius 12 cm and height 20 cm needs to be painted. The cost of painting the surface of the cap is given by the formula:
-
-Cost = 0.70 × π × r × l
-
-where r is the radius of the cap and l is the slant height of the cap.
-
-Using the formula given in Source 1, the slant height of the cap is:
-
-l = √(r^2 + h^2)
-
-where r is the radius of the cap and h is the height of the cap.
-
-Substituting the values given in the problem, we have:
-
-l = √(12^2 + 20^2) = √(144 + 400) = √544 = 23.34 cm
-
-Now, we can substitute the values of r and l into the formula for the cost of painting the surface of the cap:
-
-Cost = 0.70 × π × 12 × 23.34 = 527.41
-
-Therefore, the cost of painting the surface of the cap is approximately `528.
+# Chemical Thermodynamics and Surface Chemistry\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 644 ---\nCurved surface area = πrl
+=
+×
+×
+22
+7
+12
+20 cm2
+Cost of painting the surface of the cap
+=
+×
+×
+×
+22
+7
+12
+20
+0.70 = ` 528
+109. (b) Slant height, l
+h
+r
+=
++
+2
+2
+=
++
+(
+)
+( )
+24
+7
+2
+2 =
++
+576
+49
+=
+625 = 25
+Total surface area =
++
+πr l
+r
+(
+)
+=
+×
++
+22
+7
+7 25
+7
+(
+)
+=
+×
+×
+22
+7
+7
+32 = 704 cm2
+110. (c) Radius of cone, r =
+=
+24
+2
+12 cm
+Slant height of the cone, l =
++
+5
+12
+2
+2
+=
++
+25
+144 =
+169 = 13 m
+Curved surface area for conical portion
+= πrl =
+×
+×
+22
+7
+12
+13 = 3432
+7
+m2
+111. (d) Curved surface area of cylinder
+=
+=
+2π rh
+x
+Volume of cylinder =
+=
+πr h
+y
+2
+⇒
+2
+2
+π
+π
+rh
+r h
+y
+= x ⇒r
+y
+=
+2
+x
+Also,
+h
+r
+=
+x
+2π
+∴Required ratio =
+=
+h
+r
+r
+y
+x
+x
+2
+2
+π
+=
+⋅
+×
+x
+x
+x
+2
+2
+2
+π
+y
+y
+=
+x3
+2
+8πy
+So, the ratio is not independent of xor y.
+112. (a) Let common radius be r cm.
+Then, height of cylinder = h
+and
+height of cone =
+′h
+∴Volume of the complete structure
+=
+′ +
++
+1
+3
+2
+3
+2
+2
+3
+π
+π
+π
+r h
+r h
+r
+=
+′ +
++
+
+
+
+
+πr
+h
+h
+r
+2
+3
+2
+3
+=
++
++
+×
+
+
+
+
+π (
+)
+3 5
+28
+3
+6 5
+2
+3
+3 5
+2
+.
+.
+.
+.
+=
+×
+×
+×
+π
+3 5
+3 5
+9 76
+.
+.
+.
+= 37586
+3
+.
+cm
+Hence, volume (V ) of the structure lies
+between 370
+3
+cm
+and 380
+3
+cm .
+113. (b) Given, radius of cone =
+=
+6
+2
+3 cm
+and height of cone = 4 cm
+Now, curved surface area = πrl
+where,l
+r
+h
+=
++
+=
++
+=
+2
+2
+2
+2
+3
+4
+5 cm
+∴Curved surface area =
+×
+×
+π
+3
+5 = 15π
+=
+×
+≈
+15
+22
+7
+47 cm2
+114. (d) Volume of clay required
+=
+
+
+
+
+−
+
+
+
+
+
+
+
+
+×
+π
+5 1
+2
+45
+2
+21
+2
+2
+.
+.
+=
+−
+×
+π [( .
+)
+( .
+) ]
+255
+2 25
+21
+2
+2
+=
+×
+×
+π ( .
+.
+03
+48
+21
+)
+= 30 24
+.
+π cm2
+115. (a) Surface area of cube which can be
+painted = 6 (Side)2 =
+=
+6 2
+24
+2
+( )
+cm2
+Now, surface area of cuboid which can
+be painted
+=
++
++
+2(
+)
+lb
+bh
+lh
+=
++
++
+2 2
+6
+3
+(
+) = 22 cm2
+Total surface area of both cube and cuboid
+=
++
+22
+24 =
+<
+46 cm
+54 cm
+2
+2
+Hence, both cube and cuboid can be
+painted.
+116. (b) Let the cone is divided into two parts
+by a line l.
+In ∆AOB and ∆ACD, ∆
+∆
+AOB
+ACD
+~
+By basic proportionality theorem,
+CD
+r
+=
+2
+, since AC
+h
+=
+2
+Now, ratio = Volume of original cone
+Volume of smaller cone
+=
+
+
+
+
+\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Chemical Thermodynamics and Surface Chemistry based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+        Conceptual Schema:
+        [Concept A] ---> [Process B] ---> [Outcome C]
+        \n```\n\n
