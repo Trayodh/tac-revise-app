@@ -4,12 +4,11 @@ import csv
 import re
 import fitz  # PyMuPDF
 import random
-from google import genai
-from google.genai import types
+from groq import Groq
 from dotenv import load_dotenv
 
 load_dotenv()
-client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY", "mock_key"))
+client = Groq(api_key=os.environ.get("GROQ_API_KEY", "mock_key"))
 
 PATHFINDER_PDF = "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf"
 INSIGHT_SSB_PDF = "insight_ssb_cheat_codes.pdf"
@@ -176,12 +175,70 @@ def synthesize_module_and_extract_questions(topic, armoury):
     questions = parse_mcqs_from_text(ssbcrack_text, topic['subject'], topic['topic_name'])
     armoury.extend(questions)
 
-    # Generate Notes
-    prompt = f"Generate a 4-page highly structured revision note for {topic['subject']}: {topic['topic_name']} using these sources.\\nSource 1:{pathfinder_text[:500]}\\nSource 2:{insight_text[:500]}"
-    try:
-        response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt)
-        output_md = response.text
-    except Exception:
+    import time
+    
+    # Format MCQs to include in the prompt for AI to generate explanations
+    mcqs_formatted = ""
+    if questions:
+        mcqs_formatted += "MCQs to include and explain in Page 5:\n"
+        for i, q in enumerate(questions):
+            mcqs_formatted += f"Q{i+1}: {q['stem']}\n"
+            for opt in q['options']:
+                mcqs_formatted += f"  {opt}\n"
+            mcqs_formatted += f"Correct Option: {q['answer']}\n\n"
+            
+    # Constructing the FINAL MASTER PROMPT
+    prompt = f"""You are an elite educational content architect, textbook author, and algorithmic test-design engineer specializing in competitive defense services entrance examinations (NDA, CDS, and AFCAT).
+
+Your primary mandate is to synthesize the following source files into a beautifully composed, immersive textbook library module.
+
+Subject: {topic['subject']}
+Topic: {topic['topic_name']}
+
+SOURCE 1 (Core Base - Pathfinder):
+{pathfinder_text[:4000]}
+
+SOURCE 2 (High-Yield Triggers - Insight SSB):
+{insight_text[:2000]}
+
+{mcqs_formatted}
+
+### 1. NOTES SECTION ARCHITECTURE: THE IMMERSIVE TEXTBOOK PROSE STANDARD
+Create a high-quality study module exactly 4 to 5 pages long.
+- The Anti-Bullet Rule: You are strictly forbidden from writing the foundational layers as a basic, bulleted list. Core theory must be delivered in immersive, narrative textbook prose that explains background context, systemic logic, and real-world tactical applications.
+
+Pages 1–2: Foundational Theory Core (Source: Pathfinder)
+- Layout: Start with a formal italicized Chapter Overview. Organize deep themes using explicit H2 and H3 markdown segments (e.g., `## 1.2 Mechanics of Atmospheric Pressure Systems`).
+- Mathematical/Technical Formulae: Display mathematical proofs and physical laws strictly using standalone, centralized LaTeX blocks to maintain professional formatting (e.g., `$$\oint B \cdot dA = 0$$`).
+
+Pages 3–4: AI Contextual Enrichment & Smart Work Layer (Source: Insight SSB)
+- Incorporate critical alerts, edge cases, and high-frequency trends inside markdown blockquotes (`>`).
+- Synthesize complex datasets into highly structured, clean markdown tables instead of bulleted lists.
+- Generate detailed, structurally accurate text-maps, flowcharts, or high-fidelity ASCII diagrams to visually anchor complex cycles (inside a `mermaid` or `text` code block).
+
+Page 5+: The Exhaustive Testing Engine
+- Amalgamate all practice questions provided above.
+- Provide the full question, the options, the correct answer, and GENERATE your own step-by-step detailed explanation for why the correct option is correct.
+- Strict Anti-Orphan Constraint: The complete question pool and their detailed answer explanations must be appended inside this exact same file.
+
+OUTPUT FORMAT: Return ONLY the markdown output. Do NOT wrap in triple backticks.
+"""
+    output_md = ""
+    
+    for attempt in range(3):
+        try:
+            time.sleep(3) # Stay under Groq 30 RPM limit
+            response = client.chat.completions.create(
+                messages=[{"role": "user", "content": prompt}],
+                model="llama-3.1-8b-instant"
+            )
+            output_md = response.choices[0].message.content
+            break
+        except Exception as e:
+            print(f"Groq API failed (attempt {attempt+1}): {e}")
+            time.sleep(5)
+            
+    if not output_md:
         output_md = fallback_revision_notes(topic, pathfinder_text, insight_text)
         
     subj_dir = os.path.join(OUTPUT_DIR, topic['subject'])

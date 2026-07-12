@@ -366,10 +366,6 @@ window.backToNotesSubjects = function() {
 };
 
 function switchScreen(screenId) {
-  if (typeof distractionFreeMode !== 'undefined' && distractionFreeMode) {
-    toggleFocusReadingMode();
-  }
-
   STATE.currentScreen = screenId;
   
   document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
@@ -938,9 +934,9 @@ function renderNotesBrowser() {
       });
       
       chapterDiv.innerHTML = `
-        <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.75rem; color:var(--text-muted); font-weight:600; text-transform:uppercase; margin-left:12px; margin-bottom:6px;">
-          <span>${chapter.title}</span>
-          <span style="font-family:var(--font-mono); font-size:0.7rem;">${completedChTopics}/${totalChTopics}</span>
+        <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.75rem; color:var(--text-muted); font-weight:600; text-transform:uppercase; margin-left:12px; margin-bottom:6px; gap:8px;">
+          <span style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex:1;" title="${chapter.title}">${chapter.title}</span>
+          <span style="font-family:var(--font-mono); font-size:0.7rem; flex-shrink:0;">${completedChTopics}/${totalChTopics}</span>
         </div>
       `;
       
@@ -1064,7 +1060,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
         <span style="color: var(--text-secondary);">${chapter.title}</span>
       </span>
       <span style="margin: 0 4px; color: var(--border);">|</span>
-      <span style="font-size: 0.75rem; font-family: var(--font-mono); font-weight: 700; color: var(--accent); border: 1px solid rgba(34, 197, 94, 0.3); padding: 4px 8px; border-radius: 6px; background: rgba(34, 197, 94, 0.08); text-transform: uppercase;">
+      <span style="font-size: 0.75rem; font-family: var(--font-mono); font-weight: 700; color: var(--accent); border: 1px solid rgba(34, 197, 94, 0.3); padding: 4px 8px; border-radius: 6px; background: rgba(34, 197, 94, 0.08); text-transform: uppercase; white-space: nowrap; flex-shrink: 0;">
         Weightage: ${weightageText}
       </span>
     </div>
@@ -1073,17 +1069,15 @@ function renderTopicView(subjectId, chapterId, topicId) {
   // Tab buttons
   const tabsHtml = `
     <div class="topic-tab-bar" style="display: flex; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 2px;">
-      <button class="tab-btn ${activeNotesTab === 'notes' ? 'active' : ''}" onclick="setNotesTab('notes')" style="white-space: nowrap;">
+      <button class="tab-btn ${activeNotesTab === 'notes' ? 'active' : ''}" onclick="setNotesTab('notes')" style="white-space: nowrap; flex-shrink: 0;">
         Concept Notes
       </button>
-      <button class="tab-btn ${activeNotesTab === 'formulas' ? 'active' : ''}" onclick="setNotesTab('formulas')" style="white-space: nowrap;">
+      <button class="tab-btn ${activeNotesTab === 'formulas' ? 'active' : ''}" onclick="setNotesTab('formulas')" style="white-space: nowrap; flex-shrink: 0;">
         High-Yield Formulas
       </button>
-      ${topic.mindmap ? `
-        <button class="tab-btn ${activeNotesTab === 'mindmap' ? 'active' : ''}" onclick="setNotesTab('mindmap')" style="white-space: nowrap;">
-          Concept Mindmap
-        </button>
-      ` : ''}
+      <button class="tab-btn ${activeNotesTab === 'mindmap' ? 'active' : ''}" onclick="setNotesTab('mindmap')" style="white-space: nowrap; flex-shrink: 0; display: ${topic.mindmap ? 'block' : 'none'};">
+        Visual Mindmap
+      </button>
     </div>
   `;
   
@@ -1276,47 +1270,6 @@ function navigateToTopic(subjectId, chapterId, topicId) {
   renderNotesBrowser();
 }
 
-function toggleFocusReadingMode() {
-  distractionFreeMode = !distractionFreeMode;
-  
-  const deckBrowser = document.querySelector(".deck-browser");
-  const sidebar = document.querySelector(".sidebar");
-  const topicList = document.querySelector(".topic-list");
-  const filterContainer = document.querySelector(".exam-select-container");
-  const mainHeader = document.querySelector("#screen-notes h1");
-  const mainSub = document.querySelector("#screen-notes .subtitle");
-  const progressPanel = document.getElementById("notes-progress-bar-container");
-  
-  if (distractionFreeMode) {
-    if (sidebar) sidebar.style.display = "none";
-    if (topicList) topicList.style.display = "none";
-    if (progressPanel) progressPanel.style.display = "none";
-    if (filterContainer) filterContainer.style.display = "none";
-    if (mainHeader) mainHeader.style.display = "none";
-    if (mainSub) mainSub.style.display = "none";
-    
-    if (deckBrowser) {
-      deckBrowser.style.gridTemplateColumns = "1fr";
-      deckBrowser.style.height = "calc(100vh - 60px)";
-    }
-  } else {
-    if (sidebar) sidebar.style.display = "flex";
-    if (topicList) topicList.style.display = "flex";
-    if (progressPanel) progressPanel.style.display = "block";
-    if (filterContainer) filterContainer.style.display = "flex";
-    if (mainHeader) mainHeader.style.display = "block";
-    if (mainSub) mainSub.style.display = "block";
-    
-    if (deckBrowser) {
-      deckBrowser.style.gridTemplateColumns = "280px 1fr";
-      deckBrowser.style.height = "calc(100vh - 180px)";
-    }
-  }
-  
-  if (selectedSubjectId && selectedChapterId && selectedTopicId) {
-    renderTopicView(selectedSubjectId, selectedChapterId, selectedTopicId);
-  }
-}
 
 function toggleSyllabusTopicStatus(topicId, button) {
   const currentStatus = STATE.syllabusProgress[topicId];

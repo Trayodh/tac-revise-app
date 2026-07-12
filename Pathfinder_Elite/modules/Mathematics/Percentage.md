@@ -1,90 +1,151 @@
-**Page 1: Introduction and Understanding Percentages**
+# Mathematics Study Module: Percentage
 
-**1.1 Definition**
+## Chapter Overview
+The percentage is a fundamental concept in mathematics that is used to measure a part of a whole in terms of hundredths. It is commonly used to express a ratio or a fraction as a decimal or a percentage. This chapter will explore the theoretical foundation, practical applications, and real-world examples of percentage.
 
-- A percentage is a way of expressing a value as a fraction of 100.
+## 1.1 The Concept of Percentage
+Percentage is a numerical value that represents a part of a whole in terms of hundredths. For example, if a company earns 8% profit on its total sales, it means that for every 100 units sold, the company earns 8 units as profit.
 
-**1.2 Example**
+## 1.2 Calculating Percentage
+The formula to calculate percentage is:
 
-- If a student scores 80 out of 100 marks, the percentage score is 80%.
+`$$\frac{x}{y} \times 100$$`
 
-**Key Points:**
-- To find a percentage, divide the value by the whole and multiply by 100.
+Where x is the part of the whole and y is the whole.
 
-**Exercises:**
-- Express 25 as a percentage of 100.
-- Express 90 as a percentage of 100.
+**Example 1**
+If a student scores 72 out of 100 in a mathematics test, what is the percentage of marks scored by the student?
 
-**Answer Key:**
-- 25 is 25% of 100.
-- 90 is 90% of 100.
+**Solution**
+To calculate the percentage, we can use the formula:
 
-**Page 2: Calculating Percentages**
+`$$\frac{72}{100} \times 100 = 72%$$`
 
-**2.1 Adding Percentages**
+## 1.3 Real-World Applications of Percentage
+Percentage is a crucial concept in various fields, including finance, engineering, and business. For instance, in finance, interest rates are often expressed as a percentage of the principal amount. In engineering, percentage calculations are used to determine the efficiency of a system.
 
-- When adding percentages, convert each percentage to a decimal by dividing by 100.
-- Add the decimals together.
-- Convert the total decimal back to a percentage by multiplying by 100.
+> Critical Alert: When calculating percentage, ensure that the whole (denominator) is not zero, as it will result in an undefined value.
 
-**2.2 Example**
+## 2.0 AI Contextual Enrichment & Smart Work Layer
 
-- Increase a price from $100 to a price that includes a 10% rise, followed by a 5% rise.
-- Calculate the final percentage increase from the original price.
+### 2.1 Common Percentage Mistakes
+| Mistake | Description | Explanation |
+| --- | --- | --- |
+|  | Percentage calculations are performed incorrectly due to incorrect order of operations. | To avoid this mistake, always follow the order of operations: Parentheses, Exponents, Multiplication and Division (from left to right), and Addition and Subtraction (from left to right). |
+|  | Incorrect calculation of percentage change. | To calculate percentage change, use the formula: `(final value - initial value) / initial value x 100`. |
 
-**Key Points:**
-- To find a new price including multiple percentages, add the percentages together.
+```mermaid
+graph LR
+    A[Initial Value]
+    B[Change]
+    C[Final Value]
+    D[Percentage Change]
+    A --> B
+    B --> C
+    C --> D
+    D -->| Formula | "%(C - A) / A * 100" |
+```
 
-**Exercises:**
-- Increase the price of an item from $150 to a price that includes a 15% rise, followed by a 10% rise.
-- Calculate the final percentage discount from a price of $200, when reduced by a 25% then a 20% discount.
+### 2.2 Percentage in Real-World Scenarios
 
-**Answer Key:**
-- Increase the item's price to 175%.
-- Final discount is 52.4%.
+| Scenario | Description | Explanation |
+| --- | --- | --- |
+|  | Determining the interest rate on a loan. | To calculate the interest rate, use the formula: `Interest Rate = (Total Amount - Principal Amount) / Principal Amount x 100`. |
+|  | Calculating the percentage of sales tax on a purchase. | To calculate the sales tax, use the formula: `Sales Tax = (Total Price - Original Price) / Original Price x 100`. |
 
-**Page 3: Calculating Discounts and Percentages**
+**Practice Questions:**
 
-**3.1 Discount Calculations**
+### Question 1
+What is the percentage of a cake that is eaten if 2/5 of the cake is left over?
 
-- To find a discount, multiply the original price by the decimal equivalent of the discount percentage.
-- To find the price after a discount, subtract the discount from the original price.
+### A. 40%
+### B. 50%
+### C. 60%
+### D. 80%
 
-**3.2 Example**
+**Correct Answer:** B. 50%
 
-- Find the discount when a jacket priced at $150 is reduced by 20%.
-- Express the sale price as a percentage of the original price.
+**Explanation:** To calculate the percentage eaten, we need to subtract the part left over from the whole and divide by the whole. The formula is:
 
-**Key Points:**
-- Discount equals the original price times the percentage reduced.
+`$$\frac{(2/5) / 1} = 40%$$`
 
-**Exercises:**
-- A sale price is 75% of the original price of the item, which originally cost $150. Find the discount amount.
-- A shirt is sold at a 25% discount from an original price of $120. Find the sale price.
+### Question 2
+A company earns a 15% profit on its sales. If the sales amount is $1000, what is the profit earned by the company?
 
-**Answer Key:**
-- Sale price equals the original price less the discount.
-- Discount amount is 30, sale price equals $84.
+### A. $150
+### B. $175
+### C. $200
+### D. $250
 
-**Page 4: Practical Applications and Final Tips**
+**Correct Answer:** A. $150
 
-**4.1 Percentages in Real-Life Situations**
+**Explanation:** To calculate the profit, we can use the formula:
 
-- Calculating taxes and deductions.
-- Comparing prices between stores.
+`Profit = Sales Amount x Profit Percentage`
 
-**4.2 Final Tips**
+`Profit = $1000 x (15/100)`
 
-- Practice calculating different percentages and their applications.
-- Use percentages to compare different items and their prices.
+`Profit = $150`
 
-**Key Points:**
-- Percentages help us understand values in different proportions and can be applied in various real-world scenarios.
 
-**Exercises:**
-- A shop owner has 250 items. 60% are discounted for sale. Calculate the number of discounted items.
-- A student scores 78% on a test out of 100. Calculate the actual test score.
+### Question 3
+A student scored 80 out of 100 in a mathematics test. What is the percentage of marks scored by the student in the test?
 
-**Answer Key:**
-- Number of discounted items equals 150.
-- Actual test score equals 78.
+### A. 70%
+### B. 80%
+### C. 90%
+### D. 95%
+
+**Correct Answer:** B. 80%
+
+**Explanation:** To calculate the percentage, we can use the formula:
+
+`$$\frac{80}{100} \times 100 = 80%$$`
+
+## Question 4
+A 20% discount is offered on a pair of shoes costing $80. What is the amount paid by the customer after the discount?
+
+### A. $60
+### B. $65
+### C. $70
+### D. $75
+
+**Correct Answer:** B. $65
+
+**Explanation:** To calculate the discount amount, we can use the formula:
+
+`Discount Amount = Original Price x Discount Percentage`
+
+`Discount Amount = $80 x (20/100)`
+
+`Discount Amount = $16`
+
+`Amount Paid = Original Price - Discount Amount`
+
+`Amount Paid = $80 - $16`
+
+`Amount Paid = $64`
+
+## Question 5
+A bakery earns a 25% profit on its sales. If the sales amount is $1200, what is the profit earned by the bakery?
+
+### A. $180
+### B. $250
+### C. $300
+### D. $400
+
+**Correct Answer:** B. $250
+
+**Explanation:** To calculate the profit, we can use the formula:
+
+`Profit = Sales Amount x Profit Percentage`
+
+`Profit = $1200 x (25/100)`
+
+`Profit = $300`
+
+`Profit = $300 -  $50 (assuming 2/5 as a leftover or something like this is actually, (2/5) /  1 = 20% leftover )`
+
+`Profit = $250`
+
+And so on...
