@@ -1,99 +1,85 @@
-# Decimal Fractions\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 32 ---\n95. P : of corruption everywhere
-Q : to ease out
-R : the monster
-S : it is the duty of the government
-The correct sequence is
-(a) S Q R P
-(b) Q R S P
-(c) P R S Q
-(d) Q R P S
-_ (a) S Q R P
-96. P : made the movement
-Q : the poor visibility
-R : of the vehicles
-S : quite difficult
-The correct sequence is
-(a) Q R P S
-(b) R S P Q
-(c) Q R S P
-(d) P R S Q
-_ (a) Q R P S
-97. P : Mohan clearly
-Q : I couldn’t see
-R : only a few yards ahead
-S : though he was
-The correct sequence is
-(a) R Q S P
-(b) R S P Q
-(c) P R S Q
-(d) S R Q P
-_ (d) S R Q P
-98. P : both winter and summer
-Q : extreme
-R : are truly
-S : here in India
-The correct sequence is
-(a) R P S Q
-(b) S R Q P
-(c) S P R Q
-(d) P S R Q
-_ (c) S P R Q
-99. P : get crystallised
-Q : the self and world view
-R : and physical space where basic
-ideas of
-S : public culture is a mental
-The correct sequence is
-(a) R Q P S
-(b) S R Q P
-(c) S R P Q
-(d) Q R S P
-_ (b) S R Q P
-100. P : that he ordered
-Q : the post was
-R : the first job he performed on
-reaching
-S : my release from jail
-The correct sequence is
-(a) R P S Q
-(b) R S P Q
-(c) P R S Q
-(d) R Q P S
-_ (d) R Q P S
-Directions (Q. Nos. 101-110) The
-following questions have one part of
-the
-sentence
-followed
-by
-four
-alternatives. Complete the sentences by
-choosing the correct alternative.
-101. I asked two people the way to the
-station
-(a) but neither of them could help me
-(b) however none of them could show
-me the way
-(c) yet they had doubts about the
-station
-(d) nevertheless they couldn’t guide me
-_ (a) I asked two people the way to the
-station but neither of them could help
-me.
-102. The room was very warm
-(a) because the AC  was set to
-moderate temperature
-(b) though the AC was set to very  cold
-(c) since the AC was not very warm in
-its temperature setting
-(d) since the AC was in a very low
-temperature setting
-_ (b) The room was very warm though
-the AC was set to very cold.
-103. We could leave today or we could
-leave tomorrow
-(a) preferring what you want
-(b) as you prefer o\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Decimal Fractions based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: Decimal Fractions - Fundamentals**
+
+**1.1 Definition of Decimal Fractions**
+- A decimal fraction is a rational number that can be expressed in the form p/q where q ≠ 0.
+- To express a rational number in decimal form, we divide the numerator by the denominator.
+
+**Example 1:**
+- Convert 3/4 into a decimal fraction.
+- 3/4 = 0.75 ( Divide 3 by 4 to get 0.75)
+
+**1.2 Types of Decimal Fractions**
+- Terminating decimal fractions: These fractions have decimal expansions that end.
+- Non-terminating decimal fractions: These fractions have decimal expansions that do not end.
+
+**Example 2:**
+- 1/9 has a terminating decimal expansion of 0.111...
+- 1/2 has a repeating decimal expansion of 0.5
+
+**1.3 Key Concepts**
+- Equivalent fractions: Fractions that have the same value.
+- Simplifying fractions: Expressing a fraction in its simplest form.
+
+**Example 3:**
+- Simplify 6/8 = 3/4
+- Equivalent fractions 2/3 and 4/6 have the same value.
+
+**Page 2: Decimal Fractions - Operations**
+
+**2.1 Adding and Subtracting Decimal Fractions**
+- Ensure the denominators are the same.
+- Add or subtract the numerators as required.
+
+**Example 4:**
+- 1/4 + 3/4 = 4/4 = 1
+- 2/3 - 1/3 = 1/3
+
+**2.2 Multiplying and Dividing Decimal Fractions**
+- Multiply the numerators and denominators individually.
+- Divide the numerator by the denominator to simplify.
+
+**Example 5:**
+- 2/3 × 3/4 = 6/12 = 1/2
+- 3/4 ÷ 1/4 = 3
+
+**2.3 Key Concepts**
+- Comparing decimal fractions: Comparing numbers represented as decimal fractions.
+- Ordering decimal fractions: Arranging numbers represented as decimal fractions in ascending or descending order.
+
+**Example 6:**
+- Compare 1/2 and 1/3 using decimal fractions: 0.5 vs 0.333... (1/2 is greater than 1/3)
+- Order the decimal fractions: 1/4, 1/5, 2/5 in ascending order: 0.25, 0.2, 0.4
+
+**Page 3: Word Problems Involving Decimal Fractions**
+
+**3.1 Solving Word Problems**
+- Read the question carefully.
+- Represent the problem in the form of an equation.
+- Solve the equation.
+
+**Example 7:**
+- A bookshelf has 3.5 meters of wood. If you already have 2.2 meters, how much more wood will you need to buy?
+- Represent the problem in the form of an equation: 3.5 - 2.2 = 1.3
+
+**3.2 Key Concepts**
+- Understanding of decimal fractions in real-world contexts.
+- Using decimal fractions to represent quantities in everyday situations.
+
+**Example 8:**
+- Calculate the total cost of buying 1.5 kilograms of apples at $2.50 per kilogram.
+- Represent the problem in the form of an equation: 1.5 × $2.50 = $3.75
+
+**Page 4: Practice Exercises**
+
+**4.1 Exercises**
+1. Simplify 2.5/0.5
+2. Add 3.2/4 and 2/3
+3. Multiply 1/4 and 3/2
+4. Order the following decimal fractions in ascending order: 0.4, 0.2, 1/4
+
+**4.2 Solutions**
+1. 5
+2. 13/12
+3. 3/8
+4. 0.2, 1/4, 0.4
+5. More sources and practice problems for additional assistance.

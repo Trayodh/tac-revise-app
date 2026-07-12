@@ -1,86 +1,90 @@
-# Percentage\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 69 ---\n51. He said that he ……… when he lost
-all his investment in the stock
-market.
-(a) was broken
-(b) was broke
-(c) brake
-(d) had been collapse
-_ (b) Option (b) ‘was broke’ makes the
-sentence grammatically correct and
-contextually meaningful.
-52. The man in black thought that he
-was ……… selected for the team to
-play at the national level.
-(a) one of the player
-(b) one of the players
-(c) is one player
-(d) the player of the team
-_ (b) Option (b) ‘one of the players’
-makes the sentence grammatically
-correct and contextually meaningful.
-53. When she ……… her friend after a
-period of two decades, her throat
-choked.
-(a) meets
-(b) had been meeting
-(c) met
-(d) has met
-_ (c) Option (c) ‘met’ makes the
-sentence grammatically correct and
-contextually meaningful.
-54. The portrait of the lady conveys
-……… it appears.
-(a) the best
-(b) more than
-(c) the most
-(d) nothing
-_ (b) Option (b) ‘more than’ makes the
-sentence grammatically correct and
-contextually meaningful.
-55. A biography is ……… person’s life
-history.
-(a) about a
-(b) about
-(c) for a
-(d) with a
-_ (a) Option (a) ‘about a’ makes the
-sentence grammatically correct and
-contextually meaningful.
-56. She told me that she ……… her
-degree by 2023.
-(a) will have completed
-(b) shall be completed
-(c) will completed
-(d) would have completed
-_ (a) Option (a) ‘will have completed’
-makes the sentence grammatically
-correct and contextually meaningful.
-57. What is the name of the person
-……… daughter married your
-cousin last year?
-(a) whose
-(b) who
-(c) whom
-(d) with
-_ (a) Option (a) ‘whose’ makes the
-sentence grammatically correct and
-contextually meaningful.
-58. The world is changing ……… that
-the rich become richer and the
-poor become poorer.
-(a) through
-(b) in many way
-(c) in a way
-(d) in such a way
-_ (d) Option (d) ‘in such a way’ makes
-the sentence grammatically correct
-and contextually meaningful.
-59. Had I been informed beforehand, I
-……… it to the celebrations.
-(a) could have made
-(b) will have made
-(c) would have
-(d) ought\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Percentage based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: Introduction and Understanding Percentages**
+
+**1.1 Definition**
+
+- A percentage is a way of expressing a value as a fraction of 100.
+
+**1.2 Example**
+
+- If a student scores 80 out of 100 marks, the percentage score is 80%.
+
+**Key Points:**
+- To find a percentage, divide the value by the whole and multiply by 100.
+
+**Exercises:**
+- Express 25 as a percentage of 100.
+- Express 90 as a percentage of 100.
+
+**Answer Key:**
+- 25 is 25% of 100.
+- 90 is 90% of 100.
+
+**Page 2: Calculating Percentages**
+
+**2.1 Adding Percentages**
+
+- When adding percentages, convert each percentage to a decimal by dividing by 100.
+- Add the decimals together.
+- Convert the total decimal back to a percentage by multiplying by 100.
+
+**2.2 Example**
+
+- Increase a price from $100 to a price that includes a 10% rise, followed by a 5% rise.
+- Calculate the final percentage increase from the original price.
+
+**Key Points:**
+- To find a new price including multiple percentages, add the percentages together.
+
+**Exercises:**
+- Increase the price of an item from $150 to a price that includes a 15% rise, followed by a 10% rise.
+- Calculate the final percentage discount from a price of $200, when reduced by a 25% then a 20% discount.
+
+**Answer Key:**
+- Increase the item's price to 175%.
+- Final discount is 52.4%.
+
+**Page 3: Calculating Discounts and Percentages**
+
+**3.1 Discount Calculations**
+
+- To find a discount, multiply the original price by the decimal equivalent of the discount percentage.
+- To find the price after a discount, subtract the discount from the original price.
+
+**3.2 Example**
+
+- Find the discount when a jacket priced at $150 is reduced by 20%.
+- Express the sale price as a percentage of the original price.
+
+**Key Points:**
+- Discount equals the original price times the percentage reduced.
+
+**Exercises:**
+- A sale price is 75% of the original price of the item, which originally cost $150. Find the discount amount.
+- A shirt is sold at a 25% discount from an original price of $120. Find the sale price.
+
+**Answer Key:**
+- Sale price equals the original price less the discount.
+- Discount amount is 30, sale price equals $84.
+
+**Page 4: Practical Applications and Final Tips**
+
+**4.1 Percentages in Real-Life Situations**
+
+- Calculating taxes and deductions.
+- Comparing prices between stores.
+
+**4.2 Final Tips**
+
+- Practice calculating different percentages and their applications.
+- Use percentages to compare different items and their prices.
+
+**Key Points:**
+- Percentages help us understand values in different proportions and can be applied in various real-world scenarios.
+
+**Exercises:**
+- A shop owner has 250 items. 60% are discounted for sale. Calculate the number of discounted items.
+- A student scores 78% on a test out of 100. Calculate the actual test score.
+
+**Answer Key:**
+- Number of discounted items equals 150.
+- Actual test score equals 78.

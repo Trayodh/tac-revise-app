@@ -1,402 +1,88 @@
-# Chemical Bonding and Redox Reactions\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 638 ---\n36. (b) Let r1 and r2 be the radii of two spheres.
-Q
-4
-3
-4
-3
-8
-1
-1
-3
-2
-3
-π
-π
-r
-r
-=
-⇒
-r
-r
-1
-2
-2
-1
-=
-∴Ratio of their surface areas =
-4
-4
-1
-2
-2
-2
-π
-π
-r
-r
-= 
-
-
-
-=
-2
-1
-4 1
-2
-:
-37. (d) Area of the field =
-×
-Length
-Breadth
-=
-×
-=
-12
-10
-120 m2
-Area of the pit’s surface =
-×
-=
-5
-4
-20 m2
-Area on which the Earth is to be spread
-=
-−
-=
-120
-20
-100 cm2
-Volume of Earth dug out
-=
-×
-×
-=
-5
-4
-2
-40 cm3
-∴Level of field raised =
-=
-40
-100
-2
-5
-m
-=
-×
-=
-2
-5
-100
-40 cm
-38. (a) Edge of cube = 9 cm
-For rectangular vessel,
-Length = 15 cm and breadth = 12 cm
-Let the rise in the water level is x cm.
-Volume of cube =
-=
-×
-×
-9
-9
-9
-9
-3
-cm3
-Volume of water risen in the vessel
-=
-×
-×
-15
-12
-x cm3
-⇒
-15
-12
-9
-9
-9
-×
-×
-=
-×
-×
-x
-∴
-x =
-×
-×
-×
-=
-=
-9
-9
-9
-15
-12
-81
-20
-4 05
-.
-cm
-39. (b) The maximum diameter of a sphere
-in a cube is of 3 m.
-∴Volume of sphere,V1
-4
-3
-=
-π (1.5) 3
-= 4.5
-m3
-π
-Volume of cube,
-V2
-3
-3
-=
-=
-( )
-27 m3
-and
-Volume of solid left =
-−
-V
-V
-2
-1
-=
-−
-(27
-4.5 ) m3
-π
-40. (c) Length of water flowing in 1h = 10 km
-∴Length of the water flowing in 1
-2
-h
-= 5 km = 5000 m
-Area of pipe
-=
-=
-=
-40
-40
-10000
-1
-250
-2
-2
-2
-cm
-m
-m
-∴Volume of water flowing in 1
-2
-h
-=
-×
-=
-5000
-1
-250
-20
-3
-m
-Area of bottom of tank
-=
-×
-=
-80
-40
-3200
-2
-m
-∴Depth of water
-=
-=
-=
-Volume
-Area
-20
-3200
-1
-160
-m
-=
-×
-=
-1
-160
-100
-5
-8
-cm
-cm
-41. (c) Given radius of balls = 1 cm
-Volume of each ball =
-×
-×
-×
-×
-4
-3
-1
-1
-1
-π
-= 4
-3
-π cm3
-∴Volume of 4 balls
-=
-×
-=
-4
-4
-3
-16
-3
-π
-π cm3
-Volume of water increased
-= Volume of balls
-⇒Area of base × height = 16
-3
-π
-⇒
-π
-π
-×
-×
-×
-=
-5
-5
-16
-3
-h
-∴
-h =
-×
-=
-16
-3
-25
-16
-75
-cm
-42. (c) Given, height of the cone = 30 cm
-∴Volume of original cone (
-)
-AOB
-= 1
-3
-2
-πR H
-=
-×
-×
-1
-3
-30
-2
-πR
-= 10
-2
-πR cm3
-Volume of small cone OCD
-= 1
-27
-of volume cone AOB
-⇒
-1
-3
-1
-27
-10
-2
-2
-π
-π
-r h
-R
-=
-×
-⇒h
-R
-r
-=
-×
-10
-27
-3
-2
-2
-π
-π
-⇒h
-R
-r
-=
-
-
-
-
-10
-9
-2
-Q R
-r
-h
-= 30
-[
-~
-]
-Q ∆
-∆
-OQB
-OPD
-∴h
-h
-h
-=
-
-
-
-
-=
-×
-10
-9
-30
-10
-9
-900
-2
-2
-⇒h 3
-10
-100
-=
-×
-⇒h =
-=
-1000
-10
-3
-cm
-∴Required height
-=
-−
-=
-−
-=
-H
-h
-30
-10
-20 cm
-43. (a) Let r be the radius of cylin\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Chemical Bonding and Redox Reactions based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: Introduction to Chemical Bonding and Redox Reactions**
+
+**1.1 Definition of Chemical Bonding**
+
+* Chemical bonding: The attractive and repulsive forces between atoms that lead to the formation of molecules.
+* Key concepts: Electronegativity, ionization energy, electron affinity, and valence electrons.
+
+**Key Terms:**
+
+* Electronegativity ( EN ): The ability of an atom to attract electrons in a covalent bond.
+* Ionization energy (IE): The energy required to remove an electron from an atom.
+* Electron affinity (EA): The energy released when an electron is added to an atom.
+* Valence electrons: The electrons in the outermost energy level of an atom.
+
+**1.2 Types of Chemical Bonds**
+
+* **Ionic Bonding:** Formed between two atoms with large differences in electronegativity.
+* **Covalent Bonding:** Formed between two atoms with similar electronegativity.
+* **Metallic Bonding:** Formed in metals, where electrons are delocalized.
+
+**Key Features:**
+
+* Ionic bonds: Electrons are transferred between atoms, resulting in the formation of ions.
+* Covalent bonds: Electrons are shared between atoms.
+* Metallic bonds: Electrons are delocalized, allowing for free movement.
+
+**Page 2: Factors Influencing Chemical Bonding**
+
+**2.1 Electronegativity and Bond Polarity**
+
+* Electronegativity affects the polarity of a bond: Higher electronegativity difference leads to more polar bonds.
+* Polar bonds: Bonds with unequal electron sharing due to difference in electronegativity.
+
+**2.2 Ionization Energy and Electron Affinity**
+
+* Ionization energy affects the tendency to lose electrons: Higher IE makes it harder to lose electrons.
+* Electron affinity affects the tendency to gain electrons: Higher EA makes it easier to gain electrons.
+
+**Key Relationships:**
+
+* Electronegativity influences the strength and polarity of a bond.
+* Ionization energy and electron affinity affect the tendency to form bonds.
+
+**Page 3: Redox Reactions**
+
+**3.1 Definition of Redox Reactions**
+
+* Redox reactions: Reactions involving the transfer of electrons, resulting in a change in oxidation state.
+
+**Key Concepts:**
+
+* Oxidation: Loss of electrons or increase in oxidation state.
+* Reduction: Gain of electrons or decrease in oxidation state.
+* Oxidation state: The number of electrons lost or gained by an atom.
+
+**3.2 Balancing Redox Equations**
+
+* Half-reaction method: Balancing half-reactions separately and then combining them.
+* Oxidation state method: Balancing oxidation and reduction half-reactions together.
+
+**Key Steps:**
+
+* Identify the oxidizing and reducing agents.
+* Balance half-reactions separately.
+* Combine balanced half-reactions to form the net ionic equation.
+
+**Page 4: Important Redox Reaction Types**
+
+**4.1 Synthesis and Decomposition Reactions**
+
+* Synthesis reaction: Two or more substances combine to form a new compound.
+* Decomposition reaction: A single compound breaks down into two or more substances.
+
+**4.2 Displacement Reactions**
+
+* Displacement reaction: A more reactive compound displaces a less reactive compound.
+* Types of displacement reactions: Single displacement, double displacement.
+
+**Key Features:**
+
+* Synthesis reactions involve the formation of a new compound.
+* Decomposition reactions involve the breakdown of a compound.
+* Displacement reactions involve the replacement of one ion with another.
+
+Sources: 
+
+1. Page 638 from a Chemistry textbook (Source 1)
+2. A combination of relevant topics from both sources (Source 2)

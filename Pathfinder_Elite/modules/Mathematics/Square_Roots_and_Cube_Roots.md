@@ -1,68 +1,77 @@
-# Square Roots and Cube Roots\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 38 ---\nSivaliks along the northern edge of
-the Indo-Gangetic Plain. In Bhabar,
-streams and rivers comes from the
-mountains deposit heavy materials of
-rocks and boulders.
-39. Which of the following statements
-regarding the electoral rolls is/are
-correct?
-1. There is one general electoral roll
-for every territorial constituency.
-2. No person is ineligible for
-inclusion in the electoral roll on
-grounds of religion, race, caste,
-sex or any of them.
-3. A citizen of India, not less than 18
-years of age, can cast his/her vote
-unless disqualified under a law of
-an appropriate legislature.
-Select the correct answer using the
-codes given below:
-(a) Only 1
-(b) 1, 2 and 3
-(c) 2 and 3
-(d) 1 and 2
-_ (b) All statements 1,2 and 3 are
-correct.Right to equality provides that
-there cannot be any ineligibility for
-inclusion in the electoral roll on
-grounds if religion, race, caste, sex or
-any of them.
-Requirements for registering to
-vote:-You can enroll as a Voter if you:
-l are an Indian citizen.
-l have attained the age of 18 years
-on the qualifying date i.e. 1st of
-January of the year of revision of
-electoral roll.
-l are ordinarily resident of the
-part/polling area of the constituency
-where you want to be enrolled.
-l are not disqualified to be enrolled
-as an elector.
-40. Which one of the following
-statements is not correct about
-‘Totalitarianism’?
-(a) It is not akin to autocracy and
-authoritarianism.
-(b) It usurps political freedom of the
-individuals, but it doesn’t usurp
-personal freedoms.
-(c) It implies abolition of civil society.
-(d) It is usually identified with a
-one-party state.
-_ (b) Totalitarianism is a form of
-government and a political system
-that prohibits all opposition parties,
-outlaws individual opposition to the
-State and its claims, and exercises an
-extremely high degree of control and
-regulation over public and private life.
-It usurps political freedom of the
-individuals as well as the personal
-freedoms.
-41. Who among the following was
-chosen for the Kuvem\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Square Roots and Cube Roots based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: Introduction to Square Roots**
+
+**I. Definition**
+
+- A square root of a number is a value that, when multiplied by itself, gives the original number.
+
+**II. Notation**
+
+- The symbol used to denote square root is √.
+
+**III. Examples**
+
+- √16 = 4 (since 4 × 4 = 16)
+- √49 = 7 (since 7 × 7 = 49)
+
+**Important Points:**
+
+- The square root of a number is not unique.
+- A number can have two square roots if the index is not even.
+
+**Page 2: Properties of Square Roots**
+
+**I. Addition and Subtraction**
+
+- √a + √b = √(a + b + 2√ab) if a and b are positive numbers.
+
+**II. Multiplication**
+
+- √a × √b = √(a × b)
+
+**III. Division**
+
+- √a ÷ √b = √(a ÷ b)
+
+**Important Formulas:**
+
+- √(a/b) = √a ÷ √b
+- √(ab) = √a × √b
+
+**Page 3: Cube Roots**
+
+**I. Definition**
+
+- A cube root of a number is a value that, when cubed, gives the original number.
+
+**II. Notation**
+
+- The symbol used to denote cube root is ∛.
+
+**III. Examples**
+
+- ∛8 = 2 (since 2³ = 8)
+- ∛27 = 3 (since 3³ = 27)
+
+**Important Points:**
+
+- The cube root of a number is unique.
+- A number can have many cube roots, but only one perfect cube root.
+
+**Page 4: Applications and Practice**
+
+**I. Real-life Applications**
+
+- Square roots are used in geometry and measurement to find the length of a side of a square from its area.
+- Cube roots are used in engineering and physics to find the volume of a cube.
+
+**II. Practice Problems:**
+
+1. Evaluate √16 and (∛64)
+2. Simplify (√9 + √16)
+3. Solve for x: ∛(x³) = 10
+
+**Key Concepts to Remember:**
+
+- Understand the definitions and notation of square roots and cube roots.
+- Apply the properties of square roots and cube roots to solve problems.
+- Identify real-life applications of square roots and cube roots.

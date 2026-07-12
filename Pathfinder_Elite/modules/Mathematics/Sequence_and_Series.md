@@ -1,428 +1,105 @@
-# Sequence and Series\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 20 ---\n73. Let work done by (
-)
-3
-1
-n −
-men in
-(
-)
-2
-1
-n +
-days be x and work done
-by (
-)
-3
-1
-n +
-men in (
-)
-4
-3
-n −
-days be
-y. If x y
-:
-:
-= 6 11, then what is the
-value n ?
-(a) 6
-(b) 7
-(c) 8
-(d) 9
-_ (b) Let all the men do the same
-amount of work in one day and one
-day work of each men = 1unit; we get
-Amount of work done by(
-)
-3
-1
-n −
-men
-in (
-)
-2
-1
-n +
-days
-=
-=
-−
-+
-x
-n
-n
-(
-) (
-)
-3
-1 2
-1 units of work.
-Similarly, amount of work done by
-(
-)
-3
-1
-n +
-men in (
-)
-4
-3
-n −
-days
-=
-=
-+
-−
-y
-n
-n
-(
-) (
-)
-3
-1 4
-3 units of work.
-According to the question,
-x
-y
-= 6
-11
-⇒
-(
-) (
-)
-(
-) (
-)
-3
-1 2
-1
-3
-1 4
-3
-6
-11
-n
-n
-n
-n
-−
-+
-+
-−
-=
-⇒6
-3
-2
-1
-12
-9
-4
-3
-6
-11
-2
-2
-n
-n
-n
-n
-n
-n
-+
-−
-−
-−
-+
-−
-=
-⇒
-6
-1
-12
-5
-3
-6
-11
-2
-2
-n
-n
-n
-n
-+
-−
-−
-−
-=
-⇒
-66
-11
-11
-72
-30
-18
-2
-2
-n
-n
-n
-n
-+
-−
-=
-−
-−
-⇒
-0
-6
-41
-7
-2
-=
-−
-−
-n
-n
-⇒6
-42
-7
-0
-2
-n
-n
-n
-−
-+
-−
-=
-⇒6
-7
-1
-7
-0
-n n
-n
-(
-)
-(
-)
-−
-+
-−
-=
-⇒
-(
-) (
-)
-n
-n
-−
-+
-=
-7
-6
-1
-0
-n = 7, n ≠−1
-6
-[Qnumber of men can’t be negative]
-Hence, the value of n is 7.
-74. If ay
-bx
-c
-cx
-az
-b
-bz
-cy
-a
-−
-=
-−
-=
-−
-,
-then which of the following is/are
-correct ?
-1. x
-a
-y
-b
-=
-2. x
-y
-z
-a
-b
-c
-z
-c
-+
-+
-+
-+
-=
-Select the correct answer using
-the code given below:
-(a) 1 only
-(b) 2 only
-(c) Both 1 and 2
-(d) Neither 1 nor 2
-_ (c) Let
-ay
-bx
-c
-cx
-az
-b
-bz
-cy
-a
-k
-−
-=
-−
-=
-−
-=
-… (i)
-In the given condition we know that
-a b
-,
-and c can not be zero.
-From Eq. (i), we get
-ay
-bx
-ck
-−
-=
-… (ii)
-cx
-az
-bk
-−
-=
-… (iii)
-bz
-cy
-ak
-−
-=
-… (iv)
-Multiplying Eq. (ii) by c, we get
-acy
-bcx
-c k
-−
-=
-2
-… (v)
-Multiplying Eq. (iii) by b, we get
-bcx
-abz
-b k
-−
-=
-2
-… (vi)
-Multiplying Eq. (iv) by a, we get
-abz
-acy
-a k
-−
-=
-2
-… (vii)
-Adding Eq. (v), Eq. (vi) and Eq. (vii),
-we get
-acy
-bcx
-bcx
-abz
-abz
-−
-+
-−
-+
-−
-=
-+
-+
-acy
-k a
-b
-c
-(
-)
-2
-2
-2
-⇒0
-2
-2
-2
-=
-+
-+
-k a
-b
-c
-(
-)
-Since, a b
-,
-and c are not zero.
-∴k = 0
-Put k = 0 into Eq. (ii), Eq (iii) and Eq.
-(iv), we get
-*1) ay
-bx
-=
-⇒x
-a
-y
-b
-=
-… (viii)
-*2) cx
-az
-=
-⇒x
-a
-z
-c
-=
-… (ix)
-*3) bz
-cy
-=
-⇒z
-c
-y
-b
-=
-… (x)
-Eq. (viii) says x
-a
-y
-b
-=
-is correct.
-Now,
-From Eq. (ix), x
-z a
-c
-=
-⋅
-and from Eq.
-(x), y
-z b
-c
-=
-⋅
-Put into \n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Sequence and Series based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: Sequence and Series Revision Notes**
+
+**1. Introduction to Sequence and Series**
+
+- **Definition:** A sequence is an ordered list of numbers. A series is the sum of the terms in a sequence.
+- **Examples:**
+    - Arithmetic sequence: 1, 3, 5, 7, 9 ...
+    - Geometric sequence: 2, 4, 8, 16, 32 ...
+    - Arithmetic series: 1 + 3 + 5 + 7 + 9 ...
+    - Geometric series: 2 + 4 + 8 + 16 + 32 ...
+
+**2. Arithmetic Sequence**
+
+- **Definition:** A sequence in which each term is obtained by adding a fixed constant to the previous term.
+- **Formula:** a, a + d, a + 2d, a + 3d, ...
+    - where a is the first term and d is the common difference.
+- **Example:** 1, 3, 5, 7, 9 ...
+
+**3. Geometric Sequence**
+
+- **Definition:** A sequence in which each term is obtained by multiplying the previous term by a fixed number.
+- **Formula:** a, ar, ar², ar³, ...
+    - where a is the first term and r is the common ratio.
+- **Example:** 2, 4, 8, 16, 32 ...
+
+**4. Arithmetic Series**
+
+- **Definition:** The sum of the terms of an arithmetic sequence.
+- **Formula:** S = n/2 (2a + (n-1)d)
+    - where S is the sum, n is the number of terms, a is the first term, and d is the common difference.
+
+**5. Geometric Series**
+
+- **Definition:** The sum of the terms of a geometric sequence.
+- **Formula:** S = a(1 - rⁿ) / (1 - r)
+    - where S is the sum, a is the first term, r is the common ratio, and n is the number of terms.
+
+**Page 2: Sequence and Series Revision Notes**
+
+**6. Work Done by Workers**
+
+- **Problem:** Let the work done by (3/1)^(n-2) men in (2/1)^(n+1) days be x and the work done by (3/1)^(n+3) men in (4/1)^(n-3) days be y. If x/y = 6/11, then what is the value of n?
+    - We are given one day work of each men = 1 unit.
+    - Then, we get Amount of work done by (3/1)^(n-2) men in (2/1)^(n+1) days = x = (n)(3/1)^(n-1)(2/1) units of work.
+    - Similarly, amount of work done by (3/1)^(n+3) men in (4/1)^(n-3) days = y = (n)(3/1)^n(4/1)^(n-2) units of work.
+    - x/y = 6/11 => ((n)(3/1)^(n-1)(2/1)) / ((n)(3/1)^n(4/1)^(n-2)) = 6/11
+    - Simplifying, we get 3/4 = 6/11 => 33/44 = 1 => 3/4 = (n+1) / (n+3) => 3n + 3 = 4n + 12 => n = 9
+
+**7. Conclusion**
+
+- Sequence and series are important concepts in mathematics with various applications.
+- Arithmetic and geometric sequences and series are used in various fields like finance, engineering, and physics.
+- The formula for the sum of an arithmetic and geometric series are essential to solve problems related to sequence and series.
+
+**Page 3: Sequence and Series Revision Notes**
+
+**8. Formula for Sum of Series**
+
+- **Arithmetic Series:** S = n/2 (2a + (n-1)d)
+- **Geometric Series:** S = a(1 - rⁿ) / (1 - r)
+- **Example:** Find the sum of the first 5 terms of the series 2, 4, 8, 16, 32 ...
+    - First, find the sum of the series: S = 2 + 4 + 8 + 16 + 32 = 62
+    - Then, use the geometric series formula: S = a(1 - rⁿ) / (1 - r) => 62 = 2(1 - (2)^5) / (1 - 2) => 62 = 2(1 - 32) / (-1) => 62 = 2( -31) / (-1) => 62 = 62
+
+**9. Formula for nth Term of Sequence**
+
+- **Arithmetic Sequence:** a_n = a + (n-1)d
+- **Geometric Sequence:** a_n = a * r^(n-1)
+- **Example:** Find the 5th term of the sequence 2, 4, 8, 16, 32 ...
+    - First, find the first term: a = 2
+    - Then, find the common ratio: r = 2
+    - Now, find the 5th term: a_5 = a * r^(n-1) => a_5 = 2 * 2^4 => a_5 = 2 * 16 => a_5 = 32
+
+**Page 4: Sequence and Series Revision Notes**
+
+**10. Conclusion**
+
+- Sequence and series are essential concepts in mathematics.
+- We learned about arithmetic and geometric sequences and series, and how to use the formulas to solve problems related to sequence and series.
+- Remember the formulas for the sum of an arithmetic and geometric series, and the formula for the nth term of a sequence.
+
+**Revision Tips**
+
+- Make sure to read the problem carefully and identify the type of sequence or series it is.
+- Use the formulas to solve the problem.
+- Check your answer to make sure it is reasonable and correct.
+
+**Practice Problems**
+
+- Practice problems are available in the following exercises:
+    - Exercise 1: Find the sum of the first 5 terms of the series 3, 9, 27, 81, 243 ...
+    - Exercise 2: Find the nth term of the sequence 1, 4, 16, 64, 256 ...
+    - Exercise 3: Find the sum of the first 5 terms of the series 2, 6, 18, 54, 162 ...
+
+**Revision Schedule**
+
+- Study sequence and series for the next 3 days.
+- Review each day to make sure you understand the concepts.
+- Practice problems and exercises to reinforce your understanding.
+
+**Important Formulas**
+
+- Arithmetic series: S = n/2 (2a + (n-1)d)
+- Geometric series: S = a(1 - rⁿ) / (1 - r)
+- nth term of a sequence: a_n = a + (n-1)d (arithmetic sequence) or a_n = a * r^(n-1) (geometric sequence)

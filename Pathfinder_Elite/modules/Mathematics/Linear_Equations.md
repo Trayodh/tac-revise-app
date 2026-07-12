@@ -1,74 +1,63 @@
-# Linear Equations\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 144 ---\n40. Call it a day
-(a) End of the day
-(b) Completion of work
-(c) Stop doing something
-(d) A beautiful day
-_ (b) The idiom ‘call it a day’ means ‘the
-completion of work’.
-Directions (Q. Nos. 41-50) In this
-section each item consists of six
-sentences of a passage. The first and
-the sixth sentences are given in the
-beginning are S1 and S6. The middle
-four sentences in each have been
-jumbled up and labelled as P, Q, R
-and S. You are required to find out
-the proper sequence of the four
-sentences and mark your response
-accordingly on Answer Sheet.
-41. S1 : Chinua Achebe was born in 1930
-and educated at the Government
-College in Umuahia, Nigeria.
-S6 : Chinua Achebe has written over
-twenty books, including novels,
-stories, essays and collections of
-poetry, and won the Nobel Prize
-for literature.
-P : During the Civil War in Nigeria,
-he worked for the Biafran
-government service.
-Q : After the War, he was appointed
-Senior Research Fellow at the
-University of Nigeria, Nsukka.
-R : He joined the Nigerian
-Broadcasting Company in Lagos
-in 1954, later becoming its
-Director of External Broadcasting.
-S : He received a BA from London
-University in 1953 and in 1956 he
-studied broadcasting in London at
-the BBC.
-The correct sequence should be
-(a) SRPQ
-(b) RPQS
-(c) PQRS
-(d) QRSP
-_ (a) The correct and meaningful
-paragraph is given by SRPQ.
-42. S1 : “Every person carries in his head
-a mental model of the world-a
-subjective representation of
-external reality,” writes Alvin
-Toffler in Future Shock.
-S6 : When we begin to think we can
-do so only because our mind is
-already filled with all sorts of
-ideas with which to think.
-P : It organises our knowledge and
-gives us a place from which to argue.
-Q : This mental model is, he says,
-like a giant filing cabinet.
-R : It contains a slot for every item
-of information coming to us.
-S : As E.F. Schumacher says, “When
-we think, we do not just think; we
-think ideas.”
-The correct sequence should be
-(a) PSRQ
-(b) SPRQ
-(c) QRPS
-(d) RQPS
-_ (c\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Linear Equations based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+I'll create a structured revision note on Mathematics: Linear Equations using the sources you've provided. However, I'll skip the first source as it's irrelevant to Mathematics: Linear Equations.
+
+**Revision Note**
+
+**Page 1**
+
+**1. Introduction to Linear Equations**
+
+* Definition: A linear equation is a mathematical statement that states that one quantity is equal to another quantity with a certain operation (addition, subtraction, multiplication, or division).
+* General form of a linear equation: ax + b = c, where a, b, and c are constants and x is a variable.
+
+**Key Terminology:**
+
+* Coefficient: a constant that is multiplied by the variable x.
+* Constant term: a constant that is added or subtracted from the coefficient.
+* Variable: a quantity that can change value.
+
+**Examples:**
+
+* 2x + 3 = 5 (a linear equation in one variable)
+* x - 2y = 3 (a linear equation in two variables)
+
+**Page 2**
+
+**2. Solving Linear Equations**
+
+* Method 1: Addition and Subtraction Method
+ * Step 1: Write the equation in the correct form.
+ * Step 2: Add or subtract like terms to isolate the variable.
+* Method 2: Multiplication and Division Method
+ * Step 1: Write the equation in the correct form.
+ * Step 2: Multiply or divide both sides by a coefficient to isolate the variable.
+
+**Examples:**
+
+* 2x + 5 = 11 -> x = 3 (using the addition and subtraction method)
+* x/3 = 4 -> x = 12 (using the multiplication and division method)
+
+**Page 3**
+
+**3. Types of Linear Equations**
+
+* Linear Equations in One Variable (ax + b = c):
+ * Constant equations (e.g. 2x = 6)
+ * Fractional equations (e.g. x/2 = 3)
+* Linear Equations in Two Variables (ax - by = c):
+ * Simple equations (e.g. x - 2y = 3)
+ * Compound equations (e.g. x + y = 5 and x - y = 2)
+
+**Page 4**
+
+**4. Applications of Linear Equations**
+
+* Algebra: used to solve mathematical problems involving linear equations.
+* Physics: used to describe motion and other physical phenomena.
+* Finance: used to model business operations and investments.
+
+**Conclusion:**
+
+* Linear equations are a fundamental concept in mathematics and have numerous applications in various fields.
+* Understanding linear equations is essential for solving a wide range of mathematical problems.
+
+Source 2 is not provided; I used general sources to create the above notes. Let me know if you need further clarification or if you can provide additional sources.

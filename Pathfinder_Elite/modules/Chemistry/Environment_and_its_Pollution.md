@@ -1,94 +1,42 @@
-# Environment and its Pollution\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 658 ---\n32. Square diagrams are drawn to represent the
-following data
-Country
-Pakistan
-India
-Myanmar
-China
-Labour Production
-(in `)
-36
-81
-25
-100
-Using the scale 1 cm 2 = ` 25 what is the length
-of the representative square for India?
-(a) 1.8 cm
-(b) 1.2 cm
-(c) 1 cm
-(d) 2 cm
-33. The standard deviation of 7, 9, 11, 13, 15 is
-(a) 2.4
-(b) 2.5
-(c) 2.7
-(d) 2.82
-34. The total number of cellphones sold for Motorola,
-Samsung and Sony was 45664. The number of
-cellphones sold for these companies were in the
-ratio 3:5:8 respectively. If these data were
-shown on a pie chart, calculate the angle
-represented by the number of cellphones sold by
-Motorola.
-(a) 75°
-(b) 67.5°
-(c) 70°
-(d) 74.5°
-35. If the population figures are given for each State
-of India, then the data can be classified as
-(a) qualitative
-(b) quantitative
-(c) chronological
-(d) geographical
-36. Which one of the following represents statistical
-data?
-(a) The names of all owners of shops located in a
-shopping complex
-(b) A list giving the names of all States of India
-(c) A list of all European countries and their respective
-capital cities
-(d) The volume of a rainfall in certain geographical area,
-recorded every month for 24 consecutive months
-37. Prime numbers are the numbers which comes in
-the table of 1 and itself only.
-I. The
-mean
-of
-first
-seven
-prime
-numbers
-is
-greater than their median.
-II. Mean is always greater than median.
-Select the correct option from the options given
-below
-(a) Only I
-(b) Only II
-(c) Both I and II
-(d) Neither I nor II
-38. Consider the following statements in respect of a
-histogram
-I. The histogram consists of vertical rectangular
-bars with a common base such that there is no
-gap between consecutive bars.
-II. The height of the rectangle is determined by the
-frequency of the class it represents.
-Which
-of
-the
-statements
-given
-above
-is/are
-correct?
-(a) Only I
-(b) Only II
-(c) Both I and II
-(d) Neither I nor II
-39. Consider the following statements in respect of
-histogram
-I. Histogram
-is\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Environment and its Pollution based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: Environment and its Pollution Revision Notes**
+
+**I. Introduction to Environmental Pollution**
+
+* Definition: The contamination of the environment by pollutants, which can harm living organisms and ecosystems.
+* Types of Environmental Pollution:
+	+ Air Pollution: Release of pollutants into the air, such as greenhouse gases, particulate matter, and acid rain.
+	+ Water Pollution: Release of pollutants into water bodies, such as industrial waste, agricultural runoff, and sewage.
+	+ Soil Pollution: Release of pollutants into the soil, such as heavy metals, pesticides, and industrial waste.
+	+ Noise Pollution: Excessive noise that can harm living organisms and ecosystems.
+
+**II. Causes of Environmental Pollution**
+
+* Human activities that contribute to environmental pollution:
+	+ Industrial processes
+	+ Energy production and consumption
+	+ Transportation
+	+ Agriculture and land use
+* Natural sources of environmental pollution:
+	+ Volcanic eruptions
+	+ Earthquakes
+	+ Wildfires
+
+**III. Effects of Environmental Pollution**
+
+* Direct effects:
+	+ Harm to human health
+	+ Damage to crops and agricultural productivity
+	+ Impact on biodiversity and ecosystems
+* Indirect effects:
+	+ Climate change
+	+ Soil degradation
+	+ Loss of ecosystem services
+
+**IV. Case Studies**
+
+* **Example 1:** Labour production in Pakistan, India, Myanmar, and China (Source 1, page 658)
+	+ Use scale 1 cm = ` 25 to calculate the length of the representative square for India
+	+ Length of representative square for India = (81 `/ 25) = 3.24, however, the answer is found as follows
+	+ First square has 36, second is 81, and the ratio between both squares is 81/36 which is 2.25 
+   - Using ratio as 81/25/36 = 2.25 1 = 2.25/2.25 = 1 cm so, 4th part or 81/36  would equal 2.25 * square 1 so 1 * 2.25 = 2.25
+		- As this is not the answer the scale can also be used 81 is 3 squares on the scale and since the scale is 25 ` so it equals  81 is 3*25 =75 so 1 box is 25 ` and the number is ` which is ` so number 25 ` is `25 ` which is equivalent to the length of ` box * 25/25  = 25/1 = 25 ` (25/1) = 25 (25/1) = 25 so 25 is equivalent to = 75 which is 3 boxes.

@@ -1,642 +1,184 @@
-# Sentence Improvement\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 500 ---\n215
-MATHEMATICS
-Measurements of Angles and Trigonometric Ratios
-63. (a)
-(
-sin
-cos
-)(sin
-cos
-)
-cos
-)(sin
-1
-2
-2
-3
-−
-−
-−
-A
-A
-A
-A
-A
-A
-A
-(sec
-cosec
-A
-A
-+ cos
-)
-3
-=
-−
-−
-−
-
-
-
-
-(
-sin
-cos
-)(sin
-cos
-)
-cos
-cos
-sin
-(si
-1
-1
-1
-2
-2
-A
-A
-A
-A
-A
-A
-A
-n
-cos
-)
-(sin
-cos
-sin
-cos
-)
-A
-A
-A
-A
-A
-A
-+
-+
-−
-
-
-
-
-
-
-
-
-
-
-2
-2
-=
-−
-⋅
-×
-+
-−
-[(
-sin
-cos
-)(sin
-cos
-)
-(sin
-cos
-) (sin
-cos
-)]
-[
-1
-A
-A
-A
-A
-A
-A
-A
-A
-cos
-(sin
-cos
-)(sin
-cos
-)
-(
-sin
-cos
-)]
-sin
-A
-A
-A
-A
-A
-A
-A
-A
-−
-+
-−
-=
-1
-64. (c) (
-tan
-) (
-tan
-)
-1
-1
-+
-+
-A
-B
-=
-+
-+
-° −
-(
-tan
-) [
-tan (
-)]
-1
-1
-45
-A
-A
-=
-+
-+
-°−
-+
-°
-
-
-
-
-(
-tan
-)
-tan
-tan
-tan
-tan
-1
-1
-45
-1
-45
-A
-A
-A
-(Q A
-B
-+
-=
-°
-45 )
-=
-+
-+
-−
-+
-
-
-
-
-(
-tan
-)
-tan
-tan
-1
-1
-1
-1
-A
-A
-A
-=
-+
-+
-+
-−
-+
-
-
-
-
-(
-tan
-)
-tan
-tan
-tan
-1
-1
-1
-1
-A
-A
-A
-A
-=
-+
-+
-
-
-
-
-(
-tan
-)
-tan
-1
-2
-1
-A
-A
-= 2
-65. (a) Q cos
-cos
-sin (
-) sin (
-)
-A
-B
-A
-B
-B
-A
-−
-=
-+
-⋅
-−
-2
-2
-2
-and sin
-sin
-sin (
-) cos (
-)
-A
-B
-A
-B
-A
-B
-+
-=
-+
-⋅
-−
-2
-2
-2
-∴cos
-cos
-sin
-sin
-sin(
-)sin(
-)
-sin(
-)c
-2
-2
-2
-2
-2
-2
-B
-A
-B
-A
-A
-B
-A
-B
-A
-B
-−
-+
-=
-+
-−
-+
-os(
-)
-A
-B
-−
-=
-−
-tan (
-)
-A
-B
-66. (d) sec
-tan
-2
-2
-7
-x
-x
-+
-=
-(Q sec2 x
-x
-=
-+
-1
-2
-tan
-)
-1
-7
-2
-2
-+
-+
-=
-tan
-tan
-x
-x
-⇒1
-2
-7
-2
-+
-=
-tan x
-⇒
-2
-6
-2
-tan x =
-⇒tan
-tan
-x =
-=
-°
-3
-60
-∴
-x =
-°
-60
-67. (a) cos
-sin
-3
-3
-θ
-θ
-+
-=
-+
-
-
-
-
-2
-1
-2
-3
-1
-2
-3
-cos
-sin
-θ
-θ
-=
-°
-+
-°
-2
-45
-3
-45
-3
-(sin
-cos
-cos
-sin
-)
-θ
-θ =
-° +
-2
-45
-3
-[sin (
-)]
-θ
-cos3θ +
-3θ
-sin
-is maximum when sin(
-)
-45
-3
-°+ θ is maximum
-The maximum value of sin (
-)
-sin
-45
-3
-1
-90
-° +
-=
-=
-°
-θ
-⇒
-45
-3
-90
-° +
-=
-°
-θ
-⇒θ =
-°
-15
-68. (c) sin
-sin
-sin
-2
-2
-2
-x +
-+
-y
-z =
-+
-+
-(sin
-sin
-sin )
-x
-y
-z 2
-⇒
-sin
-sin
-sin
-sin
-x
-y
-y
-z
-+
-+
-=
-sin
-sin
-z
-x
-0
-[Q(
-)
-a
-b
-c
-+
-+
-2 =
-+
-+
-+
-+
-+
-a
-b
-c
-ab
-bc
-ca
-2
-2
-2
-2 (
-)]
-On dividing both sides by sin
-sin
-sin
-x
-y
-z
-⇒
-1
-1
-1
-0
-sin
-sin
-sin
-x
-+
-+
-=
-y
-z
-69. (d) Given,
-sin
-sin
-x
-x
-+
-=
-2
-1
-…(i)
-⇒
-sin
-sin
-x
-x
-=
-−
-1
-2
-= cos2 x
-(Q sin
-cos
-2
-2
-1
-x
-x
-+
-= )
-∴cos
-cos
-(sin
-)
-sin
-2
-4
-2
-x
-x
-x
-x
-+
-=
-+
-= 1
-[from Eq. (i)]
-70. (a) (cos
-cos
-)
-cos
-35
-85
-155
-° +
-° +
-°
-=
-°
-° +
-° −
-°
-2
-60
-25
-180
-25
-cos
-cos
-cos (
-)
-=
-×
-° −
-°
-2
-1
-2
-25
-25
-cos
-cos
-=
-° −
-° =
-cos
-cos
-25
-25
-0
-71. (a) Refer t\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Sentence Improvement based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: Sentence Improvement Techniques**
+
+**I. Active Voice and Passive Voice**
+
+- **Active Voice**: The subject performs the action (e.g., "John eats an apple.")
+- **Passive Voice**: The action is performed on the subject (e.g., "An apple is eaten by John.")
+- When to use:
+  - Active voice is generally more engaging and easier to read.
+  - Passive voice is used to:
+    - Emphasize the recipient of the action
+    - To be more formal
+    - To hide the subject
+- **Passive Voice Exercise**:
+  - Original: "The manager was given a promotion by the board."
+  - Improved: "The board gave the manager a promotion."
+
+**II. Word Choice and Replacement**
+
+- **Synonyms and antonyms**: Using words with similar or opposite meanings (e.g., 'big' and 'small')
+- **Figurative language**: Using words to create vivid and engaging descriptions (e.g., 'a sea of green')
+- **Word choice**: Avoid:
+  - Clichés: Overused expressions (e.g., 'it's raining cats and dogs')
+  - Jargon: Specialized language not familiar to all readers
+- **Word Choice Exercise**:
+  - Original: "The manager was very good at his job."
+  - Improved: "The manager demonstrated exceptional skill in his role."
+
+**III. Grammar and Syntax**
+
+- **Subject-verb agreement**: Ensuring the subject and verb agree in number
+- **Tenses**: Using the correct verb tense to create a coherent narrative
+- **Cohesion**: Using transition words and phrases to connect ideas
+- **Grammar and Syntax Exercise**:
+  - Original: "The company was having many problem at the time."
+  - Improved: "The company was facing numerous problems at the time."
+
+**IV. Clarity and Conciseness**
+
+- **Simple sentences**: Using short, direct sentences for clarity
+- **Compound and complex sentences**: Using multiple clauses to create more interest
+- **Avoiding ambiguity**: Using clear and concise language to avoid confusion
+- **Clarity and Conciseness Exercise**:
+  - Original: "The manager, who was very good at his job, was also very intelligent."
+  - Improved: "The manager, known for his exceptional skill, was also highly intelligent."
+
+**V. Idiomatic Expressions and Colloquialisms**
+
+- **Idiomatic expressions**: Using common phrases to create natural language
+- **Colloquialisms**: Using informal language that sounds natural in conversation
+- **Avoiding formal language**: Using language that sounds natural and conversational
+- **Idiomatic Expressions and Colloquialisms Exercise**:
+  - Original: "The company will certainly make a lot of profit from this venture."
+  - Improved: "The company is likely to rake in a significant profit from this venture."
+
+**Page 2: Sentence Improvement Techniques**
+
+**I. Using Modifiers to Improve Sentence Clarity**
+
+- **Adjectives and adverbs**: Using words to describe nouns and verbs
+- **Modifier placement**: Placing modifiers near the word they describe
+- **Using modifiers to improve sentence clarity**: Avoid ambiguous modifiers
+- **Modifier Exercise**:
+  - Original: "Having worked hard, the manager was given a promotion."
+  - Improved: "The manager, who had worked hard, was given a promotion."
+
+**II. Avoiding Jargon and Technical Language**
+
+- **Defining technical terms**: Explaining specialized language for clarity
+- **Avoiding jargon**: Using language that is accessible to all readers
+- **Using clear and concise language**: Creating a narrative that is easy to understand
+- **Avoiding Jargon Exercise**:
+  - Original: "The manager's performance was evaluated using a SWOT analysis."
+  - Improved: "The manager's strengths, weaknesses, opportunities, and threats were assessed."
+
+**III. Using Transitions and Connectors to Improve Cohesion**
+
+- **Transition words**: Using words to connect ideas and create a cohesive narrative
+- **Connectors**: Using words to signal relationships between ideas
+- **Using transitions and connectors**: Creating a narrative that flows smoothly
+- **Transition and Connector Exercise**:
+  - Original: "The manager was very good at his job. He was also very intelligent."
+  - Improved: "The manager was very good at his job, and he was also surprisingly intelligent."
+
+**IV. Using Examples to Improve Explanation**
+
+- **Using concrete examples**: Providing specific details to illustrate a point
+- **Creating clear explanations**: Using language that is easy to understand
+- **Using examples**: Creating a narrative that is engaging and relatable
+- **Example Exercise**:
+  - Original: "The company uses a variety of strategies to increase profits."
+  - Improved: "The company uses a range of strategies, including cost-cutting measures, to increase profits."
+
+**V. Avoiding Plagiarism and Clichés**
+
+- **Citing sources**: Giving credit to authors and creators
+- **Avoiding plagiarism**: Using original language and ideas
+- **Avoiding clichés**: Using fresh and engaging language
+- **Plagiarism and Clichés Exercise**:
+  - Original: "This city is a melting pot of cultures."
+  - Improved: "The city is home to a vibrant and diverse community."
+
+**Page 3: Sentence Improvement Techniques**
+
+**I. Using Parallel Structure to Improve Clarity**
+
+- **Parallel structure**: Using similar structure in multiple clauses
+- **Creating parallel structure**: Using the same verb or verb structure
+- **Using parallel structure**: Creating a narrative that is clear and concise
+- **Parallel Structure Exercise**:
+  - Original: "The manager is very good at his job, and he is also very intelligent, and he is also very dedicated."
+  - Improved: "The manager is very good at his job, very intelligent, and very dedicated."
+
+**II. Avoiding Ambiguity and Double Meaning**
+
+- **Avoiding ambiguity**: Using language that is clear and concise
+- **Double meaning**: Using words or phrases with multiple meanings
+- **Using clear language**: Creating a narrative that is easy to understand
+- **Ambiguity and Double Meaning Exercise**:
+  - Original: "The bank manager is very good with investments, but he is also very conservative."
+  - Improved: "The bank manager is skilled at investing, but he tends to be cautious."
+
+**III. Using Relative Clauses to Improve Explanation**
+
+- **Relative clauses**: Using clauses to describe nouns
+- **Creating clear explanations**: Using language that is easy to understand
+- **Using relative clauses**: Creating a narrative that is engaging and relatable
+- **Relative Clause Exercise**:
+  - Original: "The manager who was very good at his job was also very intelligent."
+  - Improved: "The manager, who was known for his exceptional skill, was also highly intelligent."
+
+**IV. Using Modal Verbs to Improve Clarity**
+
+- **Modal verbs**: Using verbs to express degrees of certainty or possibility
+- **Using modal verbs**: Creating a narrative that is clear and concise
+- **Modal Verbs Exercise**:
+  - Original: "The manager may be very good at his job, but he is not sure."
+  - Improved: "The manager is uncertain about his abilities, but he may be very good at his job."
+
+**V. Avoiding Wordiness and Using Active Voice**
+
+- **Wordiness**: Using too many words to express an idea
+- **Using active voice**: Creating a narrative that is direct and engaging
+- **Avoiding wordiness**: Using language that is concise and clear
+- **Wordiness and Active Voice Exercise**:
+  - Original: "The manager was given a lot of money and resources to achieve his goals."
+  - Improved: "The manager received a substantial budget to achieve his objectives."
+
+**Page 4: Sentence Improvement Techniques**
+
+**I. Using Transitions to Improve Cohesion**
+
+- **Transitions**: Using words or phrases to connect ideas and create a cohesive narrative
+- **Creating clear connections**: Using language that is easy to understand
+- **Using transitions**: Creating a narrative that flows smoothly
+- **Transition Exercise**:
+  - Original: "The company has a lot of money to spend on marketing. It has also hired a lot of new staff."
+  - Improved: "The company has a substantial marketing budget, and it has also increased its staff numbers significantly."
+
+**II. Using Modality to Improve Ambiguity and Clarity**
+
+- **Modality**: Using verbs and phrases to express degrees of possibility or necessity
+- **Avoiding ambiguity**: Using language that is clear and concise
+- **Using modality**: Creating a narrative that is engaging and relatable
+- **Modality Exercise**:
+  - Original: "The manager may be able to achieve his goals, but he is not sure."
+  - Improved: "The manager is uncertain about his chances of success."
+
+**III. Using Subordinate Clauses to Improve Clarity**
+
+- **Subordinate clauses**: Using clauses to provide extra information
+- **Creating clear explanations**: Using language that is easy to understand
+- **Using subordinate clauses**: Creating a narrative that is engaging and relatable
+- **Subordinate Clause Exercise**:
+  - Original: "The manager was very good at his job, and he also worked very hard."
+  - Improved: "The manager was very good at his job, which he achieved through his hard work."
+
+**IV. Avoiding Jargon and Technical Language**
+
+- **Defining technical terms**: Explaining specialized language for clarity
+- **Avoiding jargon**: Using language that is accessible to all readers
+- **Using clear language**: Creating a narrative that is easy to understand
+- **Avoiding Jargon Exercise**:
+  - Original: "The manager's performance was evaluated using a SWOT analysis, which revealed his strengths and weaknesses."
+  - Improved: "

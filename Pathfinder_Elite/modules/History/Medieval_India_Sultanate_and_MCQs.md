@@ -1,53 +1,86 @@
-# Medieval India Sultanate and MCQs\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 775 ---\n490
-CDS Pathfinder
-PASSAGE 9
-One day while I was discussing a new strategy to locate the wild dogs, a forest guard at Sariska informed me that about
-15-16metres to the right of Pandupole road, a Chital lay killed apparently by wild dogs. This was difficult to
-112. (a) presume because wild dogs usually do not leave 113. (a) behind any kill. They finish it 114. (a) up to the bone.
-(b) believe
-(b) away
-(b) over
-(c) know
-(c) after
-(c) off
-Still an examination would 115. (a) prove interesting information and vital clues about the 116. (a) predator. So, I
-(b) reveal
-(b) chital
-(c) involves
-(c) locator
-proceeded in the direction pointed 117. (a) out by the guard, Scanning the area, I 118. (a) found across the dead Chital.
-(b) to
-(b) located
-(c) man-eater
-(c) came
-The 119. (a) body had been opened but not 120. (a) now eaten. Its owner had 121. (a) probably dressed the dinner
-(b) corpse
-(b) yet
-(b) surely
-(c) carcass
-(c) at all
-(c) really
-ready for eating. I looked about for marks and 122. (a) when I found them, the marks 123. (a) frankly indicated the
-(b) where
-(b) openly
-(c) which
-(c) clearly
-presence of a canine. But 124. (a) what Jackals or wild dogs? Since, Jackals were active in Sariska independently
-(b) which
-(c) two
-125. (a) having
-Chital-kills, the actual presence, 126. (a) about the wild dogs still remained doubtful.
-(b) hunting
-(b) of
-(c) making
-(c) regarding
-Directions (Q. Nos. 127-162) In each of the following passages, there are blanks each of which has been numbered.
-These numbers are given below the passage and against each, some words are suggested, one of which fits the blank
-appropriately. Find out the appropriate words.
-PASSAGE 10
-After months of colder weather, the days get longer, the buds …(127)… in the trees, birds sing and the world …(128)… a
-green dress. Spring passes …(129)… summer. Everyone knows that summer will not …(130)… forever. The power of all
-the wisest men and women in the world cannot keep it for us. The corn becomes \n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Medieval India Sultanate and MCQs based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: Sultanate Period Overview**
+
+**I. Introduction**
+
+- The Sultanate period in Medieval India began with the establishment of the Delhi Sultanate in 1206.
+- It marked the end of the Gupta Empire and the start of Muslim rule in India.
+
+**II. Key Features of Sultanate Rule**
+
+- **Administrative Reforms**: The Sultanate period saw significant administrative reforms, including the establishment of a well-organized civil service and a strong military system.
+- **Economic Development**: Trade and commerce flourished during the Sultanate period, with the establishment of a strong network of trade routes and the development of new industries.
+- **Cultural Achievements**: The Sultanate period saw a significant cultural flowering, with the establishment of many institutions of learning and art, including the madrasas and the Sufi shrines.
+
+**III. Notable Sultans**
+
+- **Qutb-ud-din Aybak**: The founder of the Delhi Sultanate, known for his military conquests and his establishment of a strong administrative system.
+- **Alauddin Khalji**: A skilled administrator who introduced a new system of land revenue and established a strong military system.
+- **Muhammad bin Tughlaq**: A scholar-king who introduced a new system of currency and attempted to shift the capital to Daulatabad.
+
+**Page 2: Important Events of Sultanate Period**
+
+**I. The Conquests of the Delhi Sultanate**
+
+- ** conquest of North India**: The Delhi Sultanate conquered much of North India, including the kingdoms of Gujarat, Malwa, and Bengal.
+- **the Battle of Tarain**: A decisive battle in which the Delhi Sultanate defeated the Rajputs and secured their place in North India.
+
+**II. Important Administrative Reforms**
+
+- **The Mansabdari System**: A system of land revenue introduced by Alauddin Khalji, in which each landholder was required to provide a certain number of soldiers in exchange for his land.
+- **The Jagir System**: A system of land assignment introduced by the Tughlaq dynasty, in which land was assigned to military officials in exchange for their service.
+
+**III. Important Cultural Achievements**
+
+- **The madrasas**: Institutions of learning that were established during the Sultanate period, in which students were taught Islamic law, literature, and theology.
+- **The Sufi shrines**: Places of worship and devotional practice that were established during the Sultanate period, in which Sufis prayed and practiced their devotions.
+
+**Page 3: Important Sultans and their Rule**
+
+**I. Qutb-ud-din Aybak**
+
+- **Rule**: 1192-1210
+- **Key Achievements**: Established the Delhi Sultanate, introduced a new system of land revenue, and conquered much of North India.
+
+**II. Alauddin Khalji**
+
+- **Rule**: 1296-1316
+- **Key Achievements**: Introduced the Mansabdari System, established a strong military system, and conquered much of South India.
+
+**III. Muhammad bin Tughlaq**
+
+- **Rule**: 1325-1351
+- **Key Achievements**: Introduced a new system of currency, attempted to shift the capital to Daulatabad, and established a strong administrative system.
+
+**Page 4: MCQs**
+
+1. Who was the founder of the Delhi Sultanate?
+a) Qutb-ud-din Aybak
+b) Alauddin Khalji
+c) Muhammad bin Tughlaq
+d) Iltutmish
+
+Answer: a) Qutb-ud-din Aybak
+
+2. What was the name of the system of land revenue introduced by Alauddin Khalji?
+a) Mansabdari System
+b) Jagir System
+c) Rajput System
+d) Sultanate System
+
+Answer: a) Mansabdari System
+
+3. What was the name of the place of worship and devotional practice established during the Sultanate period?
+a) Madrasa
+b) Sufi Shrine
+c) Mosque
+d) Church
+
+Answer: b) Sufi Shrine
+
+4. Who introduced a new system of currency and attempted to shift the capital to Daulatabad?
+a) Qutb-ud-din Aybak
+b) Alauddin Khalji
+c) Muhammad bin Tughlaq
+d) Iltutmish
+
+Answer: c) Muhammad bin Tughlaq

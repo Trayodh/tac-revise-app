@@ -1,66 +1,96 @@
-# Simple Interest\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 77 ---\nas: a medium of exchange, a unit of
-account, a store of value and
-sometimes, a standard of deferred
-payment. Any item or verifiable record
-that fulfils these functions can be
-considered as money.
-26. The situation where the
-equilibrium level of real GDP falls
-short of potential GDP is known as
-(a) Recessionary gap
-(b) Inflationary gap
-(c) Demand-side inflation
-(d) Supply-side inflation
-_ (a) A recessionary gap, or
-contractionary gap, refers to the
-difference between actual and
-potential production in an economy. It
-basically occurs when the countries
-real GDP is lower than the GDP at its
-full employment.
-27. The excess of total expenditure of
-Government over its total receipts,
-excluding borrowings, is known as
-(a) Primary deficit (b) Fiscal deficit
-(c) Current deficit (d) Capital deficit
-_ (b) Fiscal Deficit is the difference
-between the total income of the
-government (total taxes and non-debt
-capital receipts) and its total
-expenditure. A recurring high fiscal
-deficit means that the government
-has been spending beyond its
-means.
-28. Exchange rates state the value of
-one currency in terms of other
-currencies. Which one of the
-following statements with respect
-to the exchange rate of currency is
-correct ?
-(a) Floating exchange rates are rates
-in which the Governments interfere
-by buying or selling their
-currencies.
-(b) Fixed exchange rates are rates set
-by Government decisions and
-maintained by Government
-actions.
-(c) Under the Bretton Woods System,
-the exchange rates are floated in
-terms of rise or fall in price of gold.
-(d) Under the classical gold standard,
-the exchange rates are fixed in
-terms of price of dollar.
-_ (b) Exchange rates state the value of
-one currency in terms of other
-currencies. Fixed exchange rates are
-rates set by government decisions
-and maintained by government
-actions. Most exchange rates are free
-floating and will rite or fall based on
-supply and demand in the market
-while some currencies are not free
-floating and have re\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Simple Interest based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: Introduction and Key Concepts**
+
+**Simple Interest Formula**
+
+- **Principal (P)**: The initial amount borrowed or invested.
+- **Rate (R)**: The rate of interest per time period, expressed as a decimal.
+- **Time (T)**: The time period over which the interest is calculated, in the same units as the rate.
+- **Simple Interest (I)**: The interest earned on the principal over a given period of time.
+
+**Simple Interest Formula:**
+
+I = P × R × T
+
+**Where:**
+
+- P is the principal amount
+- R is the rate of interest per time period
+- T is the time period over which the interest is calculated
+
+**Example:**
+
+Suppose you invest $100 at an interest rate of 5% per year for 2 years.
+
+Using the simple interest formula: I = $100 × 0.05 × 2
+I = $10
+
+So, the interest earned over 2 years is $10.
+
+**Page 2: Real-World Applications and Calculations**
+
+**Problem 1:**
+
+John borrowed $500 from a bank at an interest rate of 4% per year. How much will he have to pay after 3 years?
+
+- **Principal (P)** = $500
+- **Rate (R)** = 4% = 0.04
+- **Time (T)** = 3 years
+
+Using the simple interest formula: I = P × R × T
+I = $500 × 0.04 × 3
+I = $60
+
+The amount John will have to pay after 3 years is the principal + interest.
+= $500 + $60
+= $560
+
+**Problem 2:**
+
+A person invests $750 at an interest rate of 6% per year for 4 years. How much will they have after 4 years?
+
+- **Principal (P)** = $750
+- **Rate (R)** = 6% = 0.06
+- **Time (T)** = 4 years
+
+Using the simple interest formula: I = P × R × T
+I = $750 × 0.06 × 4
+I = $180
+
+The amount they will have after 4 years is the principal + interest.
+= $750 + $180
+= $930
+
+**Page 3: Interest Rate and Time Period Calculations**
+
+**Problem 3:**
+
+A company borrowed $150,000 at an interest rate of 8% per year. If the interest earned over 5 years is $24,000, what was the principal amount borrowed?
+
+- **Interest (I)** = $24,000
+- **Rate (R)** = 8% = 0.08
+- **Time (T)** = 5 years
+
+Using the simple interest formula: I = P × R × T
+$24,000 = P × 0.08 × 5
+$24,000 = P × 0.4
+
+Dividing both sides by 0.4: P = $24,000 / 0.4
+P = $60,000
+
+**Problem 4:**
+
+A person invested $200 at an interest rate of 3% per year. If the interest earned over 10 years is $15, what is the rate of interest per time period?
+
+- **Interest (I)** = $15
+- **Principal (P)** = $200
+- **Time (T)** = 10 years
+
+Using the simple interest formula: I = P × R × T
+$15 = $200 × R × 10
+$15 = $2000R
+
+Dividing both sides by 2000: R = $15 / 2000
+R = 0.0075
+R = 0.75%
+
+To convert to a percentage: R = 0.75%

@@ -1,294 +1,80 @@
-# Optics\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 600 ---\nLet altitude of triangular field be x m
-and base of field = 3x m
-Again, area of the field =
-×
-×
-1
-2
-Base
-Altitude
-=
-×
-×
-1
-2
-3x
-x = 3
-2
-2
-x
-...(ii)
-From Eqs. (i) and (ii), we get
-3
-2
-135000
-2
-x
-=
-∴
-x2
-135000
-2
-3
-90000
-=
-×
-=
-⇒
-x = 300 m
-So,
-base =
-=
-×
-=
-3
-3
-300
-900
-x
-m
-and altitude =
-=
-x
-300 m
-EXAMPLE 13. The perimeter of a right triangle is
-12 cm. The hypotenuse is 5 cm. The other two sides
-and area of the triangle are
-a. 3, 4 and 6 cm2
-b. 4, 3 and 12 cm2
-c. 6, 2 and 6 cm2
-d. None of these
-Sol. a. Let other two sides of a right triangle be a cm and b cm
-such that a
-b
-> .
-Given, perimeter of a right angled triangle = 12cm
-∴
-a
-b
-+
-+
-=
-5
-12
-⇒
-a
-b
-+
-= 7 cm
-…(i)
-Also, by pythagoras theorem,
-a
-b
-2
-2
-25
-+
-=
-Also, (
-)
-(
-)
-(
-)
-a
-b
-a
-b
-a
-b
-+
-+
-−
-=
-+
-2
-2
-2
-2
-2
-(
-)
-(
-)
-(
-)
-a
-b
-a
-b
-a
-b
-−
-=
-+
-−
-+
-2
-2
-2
-2
-2
-⇒
-(
-)
-(
-)
-( )
-a
-b
-−
-=
-−
-2
-2
-2 25
-7
-=
-−
-50
-49 = 1
-∴
-a
-b
-−
-= 1
-[Q a
-b
-> ]..(ii)
-On solving Eqs. (i) and (ii), we get
-a
-b
-=
-=
-4
-3
-cm and
-cm
-∴Area of triangle = 1
-2 × Base × Altitudes
-⇒
-1
-2
-3
-4
-×
-×
-= 6
-2
-cm
-ISOSCELES TRIANGLE
-Let sides of an isosceles triangle are a, b and b, then
-(i) Perimeter of isosceles triangle
-=
-+
-+
-a
-b
-b =
-+
-a
-b
-2 units
-(ii) Area of isosceles triangle
-=
-−
-−
-=
-−
-(
-)(
-(
-)
-s
-b
-s s
-a
-a
-b
-a
-1
-4
-4 2
-2 sq units
-where, a = Base and b = Equal sides and
-s = semi−perimeter
-(iii) Area of a right isosceles triangle, in which equal sides
-from a right angle is given by
-Area = 1
-2
-a2 sq units
-(iv) If θ is the angle between two equal sides of isosceles
-triangle, then
-Area of triangle = 1
-2
-2
-a sinθ
-EXAMPLE 14. The perimeter of an isosceles triangle
-is 32 cm while equal sides together measure 20 cm.
-Then, area of an isosceles triangle is
-a. 48 cm2
-b. 84 cm2
-c. 44 cm2
-d. 41 cm2
-Sol. a. Let third side of an isosceles triangle be a cm.
-Given, b = 10 cm
-∴Perimeter of isosceles triangle =
-+
-+
-a
-b
-b =
-+
-a
-b
-2
-⇒
-32
-2 10
-20
-=
-+
-×
-=
-+
-a
-a
-⇒32
-20
-–
-= a
-∴
-a = 12 cm
-Now, area of an isosceles triangle
-= 1
-4
-4
-2
-2
-a
-b
-a
-–
-=
-×
-×
-1
-4
-12 4
-10
-12
-2
-2
-–
-= 3 400
-144
-–
-=
-×
-=
-3 \n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Optics based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Optical Lens Confluences:
-        [Light Source] ---> (Convex Lens) ---> [Focal Point] ---> (Retina)
-                              | Focuses Light
-        \n```\n\n
+**Page 1: Introduction to Optics and Reflection**
+
+**Key Concepts:**
+
+1. **Refraction**: The bending of light as it passes from one medium to another.
+2. **Reflection**: The bouncing back of light from a surface.
+3. **Specular reflection**: Shining reflection from a smooth surface.
+4. **Diffuse reflection**: Scattering of light in different directions.
+
+**Important Equations:**
+
+1. **Snell's Law**: n1sin(θ1) = n2sin(θ2), where n1 and n2 are the refractive indices of the two media, and θ1 and θ2 are the angles of incidence and refraction.
+2. **Law of Reflection**: θi = θr, where θi is the angle of incidence and θr is the angle of reflection.
+
+**Example 13 Solution:**
+
+* Given: Perimeter of right triangle = 12 cm, Hypotenuse = 5 cm
+* We know that a + b + c = 12 cm (perimeter), where c is the hypotenuse
+* a2 + b2 = c2 (Pythagorean theorem), where a and b are the other two sides
+* Let a = 3x, b = 4x, c = 5x (from page 600, altitudes and base relationship)
+* Substitute a = 3x, b = 4x, and c = 5x into the equation a + b + c = 12 cm
+* 3x + 4x + 5x = 12 cm
+* 12x = 12 cm
+* x = 12 cm / 12 = 1
+* a = 3x = 3 cm, b = 4x = 4 cm, c = 5 cm
+* But we know that the hypotenuse is 5 cm, so c = 5 cm is correct.
+* Now, calculate the area of the triangle using the formula A = (1/2)ab
+* A = (1/2)(3)(4) = 6 cm^2
+
+**Key Point:** The area of the triangle is 6 cm^2.
+
+---
+
+**Page 2: Refraction, Dispersion, and Total Internal Reflection**
+
+**Key Concepts:**
+
+1. **Refraction**: The bending of light as it passes from one medium to another.
+2. **Dispersion**: The spreading of light into its component colors.
+3. **Total Internal Reflection**: The complete reflection of light when it hits a surface at a very shallow angle.
+
+**Important Equations:**
+
+1. **Snell's Law**: n1sin(θ1) = n2sin(θ2), where n1 and n2 are the refractive indices of the two media, and θ1 and θ2 are the angles of incidence and refraction.
+2. **Refraction formula**: n1sin(θ1) = n2sin(θ2) = const.
+
+**Key Point:** When a light ray passes from a denser medium to a rarer medium, it bends away from the normal, and when it passes from a rarer medium to a denser medium, it bends towards the normal.
+
+---
+
+**Page 3: Images Formed by Mirrors and Lenses**
+
+**Key Concepts:**
+
+1. **Real and Virtual Images**: Real images are formed when light rays converge, while virtual images are formed when light rays diverge.
+2. **Convex and Concave Lenses**: Convex lenses converge light rays, while concave lenses diverge light rays.
+3. **Mirror Equations**: f = R/2 (focal length of a convex mirror), f = R (focal length of a concave mirror).
+
+**Important Equations:**
+
+1. **Lens equation**: 1/f = 1/do + 1/di (where f is the focal length, do is the object distance, and di is the image distance).
+2. **Mirror equation**: 1/do = 1/di + 1/f (where f is the focal length, do is the object distance, and di is the image distance).
+
+**Key Point:** Mirrors and lenses can form real and virtual images, depending on the position of the object and the nature of the mirror or lens.
+
+---
+
+**Page 4: Optical Instruments and Optical Communication Systems**
+
+**Key Concepts:**
+
+1. **Telescopes and Microscopes**: Telescopes are used to magnify distant objects, while microscopes are used to magnify small objects.
+2. **Fiber Optics and Light-Emitting Diodes (LEDs)**: Fiber optics transmit data as light signals, while LEDs emit light to transmit data.
+
+**Important Equations:**
+
+1. **Telescope equation**: m = f/o (where m is the magnification, f is the focal length of the objective lens, and o is the focal length of the eyepiece lens).
+2. **Microscope equation**: m = o/e (where m is the magnification, o is the focal length of the objective lens, and e is the focal length of the eyepiece lens).
+
+**Key Point:** Optical instruments, such as telescopes and microscopes, use lenses and mirrors to magnify objects and light up small details. Fiber optics and LEDs are used for optical communication systems.

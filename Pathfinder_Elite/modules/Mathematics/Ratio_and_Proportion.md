@@ -1,301 +1,76 @@
-# Ratio and Proportion\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 101 ---\n_ (b) Area of segment of a circle of
-radius r subtending an angle θ at the
-centre
-= Area of sector −Area of ∆OAB
-= 1
-2
-1
-2
-2
-2
-r
-r
-θ
-θ
-−
-sin
-=
-−
-1
-2
-2r (
-sin )
-θ
-θ
-=
-−
-
-
-
-
-1
-2
-2
-2
-2
-2r
-θ
-θ
-θ
-sin
-cos
-Q sin
-sin
-cos
-θ
-θ
-θ
-=
-
-
-
-
-2
-2
-2
-87. ABC is a triangle right-angled at
-C. Let P be any point on AC and
-Q be any point on BC. Which of
-the following statements is/are
-correct?
-1. AQ
-BP
-AB
-PQ
-2
-2
-2
-2
-+
-=
-+
-2. AB
-PQ
-= 2
-Select the correct answer using
-the code given below :
-(a) only 1
-(b) only 2
-(c) Both 1 and 2
-(d) Neither 1 nor 2
-_ (a) Given, ABC is a right angled atC
-and P andQ any point on AC and BC
-respectively.
-In ∆AQC
-AQ
-QC
-AC
-2
-2
-2
-=
-+
-…(i)
-In ∆BPC,
-BP
-BC
-PC
-2
-2
-2
-=
-+
-…(ii)
-Adding Eqs. (i) and (ii),
-AQ
-BP
-QC
-AC
-BC
-PC
-2
-2
-2
-2
-2
-2
-+
-=
-+
-+
-+
-AQ
-BP
-AC
-BC
-QC
-2
-2
-2
-2
-2
-+
-=
-+
-+
-+
-=
-+
-PC
-AB
-PQ
-2
-2
-2
-∴Ist statement is correct.
-If P and Q are mid-point of AC and
-BC respectively, then AB
-PQ
-= 2
-∴2nd statement is incorrect.
-88. Four circular coins of equal
-radius are placed with their
-centres coinciding with four
-vertices of a square. Each coin
-touches two other coins. If the
-uncovered area of the square is
-42
-2
-cm , then what is the radius
-of each coin? (Assume π = 22
-7
-)
-(a) 5 cm
-(b) 7 cm
-(c) 10 cm
-(d) 14 cm
-_ (b) Let radius of coins = r
-∴Sides of square = 2r
-Area of shaded region
-= Area of square
-−Area of four quadrants
-=
-−
-(
-)
-2
-2
-2
-r
-r
-π
-=
-−
-4 2
-2
-r
-r
-π
-=
-−
-
-
-
-=
-r
-r
-2
-2
-4
-22
-7
-6
-7
-⇒6
-7
-42
-2r
-=
-⇒r2
-49
-=
-⇒
-r = 7 cm
-89. The radii of the flat circular
-faces of a bucket are x and 2x. If
-the height of the bucket is 3x,
-what is the capacity of the
-bucket?
-(Assume π = 22
-7
-)
-(a) 11 3
-x
-(b) 22
-3
-x
-(c) 44 3
-x (d)55 3
-x
-_ (b) Given,
-Radius of flat circular faces of a
-bucket are x and 2x and height of
-bucket is 3x.
-Volume of bucket
-=
-+
-+
-1
-3
-2
-2
-πh R
-r
-Rr
-(
-)
-∴Capacity of bucket
-=
-+
-+
-1
-3
-3
-2
-2
-2
-2
-π(
-) {(
-)
-( )
-(
-) ( ))}
-x
-x
-x
-x
-x
-=
-+
-+
-πx
-x
-x
-x
-(
-)
-4
-2
-2
-2
-2
-= 7
-3
-πx
-=
-×
-7
-22
-7
-3
-x
-= 22
-3
-x
-90. If p q r s
-, , , and t represent length,
-breadth, he\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Ratio and Proportion based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: Introduction to Ratio and Proportion**
+
+**1.1 Definitions:**
+- A ratio is a comparison of two quantities, often represented as a fraction.
+- Proportion means that two ratios are equal.
+
+**1.2 Types of Ratios:**
+- Simple ratio (e.g. a:b)
+- Compound ratio (e.g. a:b = c:d)
+- Direct proportion (as one quantity increases, the other increases at a constant rate)
+- Indirect proportion (as one quantity increases, the other decreases at a constant rate)
+
+**1.3 Example:**
+- If a recipe requires 2 cups of flour for 3 persons and you want to make enough for 6 persons, calculate the amount of flour required.
+- Solution: 2/3 = x/6, where x is the amount of flour required for 6 persons.
+- Cross multiply: 2 * 6 = 3 * x
+- Solve for x: x = 4 cups of flour
+
+**1.4 Key Concepts to Remember:**
+- Ratios can be simplified by dividing both terms by a common factor.
+- A ratio of two quantities is equivalent to a proportion.
+
+---
+
+**Page 2: Ratio and Proportion - Formulas and Theorems**
+
+**2.1 Formulas:**
+- Area of a sector of a circle = (θ / 360) * πr^2
+- Area of a segment of a circle = (θ / 360) * πr^2 - (1/2) * r^2 * sin(θ)
+- Source 1: area of segment of a circle = 1/2 * r^2 * (2θ / π) - (1/2) * r^2 * sin(θ)
+
+**2.2 Theorems:**
+- Pythagorean Theorem: a^2 + b^2 = c^2 (in a right-angled triangle)
+- Similar Triangles: the ratio of corresponding sides of similar triangles is the same
+
+**2.3 Example:**
+- Use the Pythagorean Theorem to find the length of the hypotenuse of a right-angled triangle with legs of length 3 and 4.
+- Solution: c^2 = 3^2 + 4^2, where c is the length of the hypotenuse.
+
+**2.4 Key Concepts to Remember:**
+- The Pythagorean Theorem can be used to find the length of the hypotenuse of a right-angled triangle.
+- Similar triangles have proportional sides.
+
+---
+
+**Page 3: Triangle Theorems and Properties**
+
+**3.1 Theorem 1:**
+- In a right-angled triangle, the sum of the squares of the two shorter sides is equal to the square of the hypotenuse.
+
+**3.2 Theorem 2:**
+- In a right-angled triangle, the altitude from the right angle to the hypotenuse divides the triangle into two smaller triangles, each of which is similar to the original triangle.
+
+**3.3 Example:**
+- Use Theorem 2 to prove that the ratio of the areas of two similar triangles is equal to the ratio of the squares of their corresponding sides.
+
+**3.4 Key Concepts to Remember:**
+- Theorems can be used to prove geometric relationships.
+- Similar triangles have proportional sides.
+
+---
+
+**Page 4: Solution to Problem from Source 1 and Practice Questions**
+
+**4.1 Solution to Problem:**
+- Source 1: Problem 11 (page 101) states that ABC is a triangle right-angled at C, and P and Q are points on AC and BC, respectively. The statement "ABPQ = AB^2" is true.
+- Proof: using similar triangles, we can show that the ratio of the areas of ∆ABP and ∆PQC is equal to the ratio of the corresponding sides.
+
+**4.2 Practice Questions:**
+
+- 1. Prove that if a line is drawn from a vertex of a triangle to the midpoint of the opposite side, then it bisects the angle.
+- 2. If a triangle has side lengths 4, 5, and 6, what is the area of the triangle?
+
+**4.3 Key Concepts to Remember:**
+- Practice problems can help reinforce your understanding of geometric concepts.
+- Theorems can be used to prove geometric relationships.

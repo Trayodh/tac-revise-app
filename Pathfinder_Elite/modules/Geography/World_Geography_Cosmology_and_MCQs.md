@@ -1,57 +1,90 @@
-# World Geography Cosmology and MCQs\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 853 ---\n568
-CDS Pathfinder
-141. The painter was able to produce that strange
-smile on Mona Lisa’s face by
-(a) delicate changes on the surface of cheeks below
-the eyes
-(b) using bright colours
-(c) using a painting knife
-(d) looking constantly at a smiling model while
-painting
-142. The author of the above passage has examined
-‘Mona Lisa’ from
-(a) an idealistic angle
-(b) an imaginary point of view
-(c) a purely artistic angle
-(d) a scientific and realistic standpoint
-PASSAGE 39
-It is possible to give wedding presents, birthday and
-Christmas presents, without any thought of
-affection at all, they can be ordered by postcard; but
-the unbirthday present demands the nicest care. It
-is therefore the best of all and it is the only kind to
-which the golden rule of present-giving imperatively
-applies. The golden rule which insists that you must
-never give to another person anything that you
-would not rather keep: nothing that does not cost
-you a pang to part from. It would be better if this
-rule governed the choice also of those other three
-varieties of gifts, but they can be less exacting.
-143. The author says that wedding, birthday and
-Christmas presents
-(a) are always indicators of the giver’s affection
-(b) may not always be given with any thought of
-affection
-(c) are given only to flatter the recipient
-(d) are given only to fulfil an obligation
-144. ‘They can be ordered by postcard’ means that
-(a) the present may only be a postcard
-(b) the present would be an expensive one
-(c) the choice does not involve much care
-(d) the present would not be worth giving
-145. The ‘unbirthday’ present is the best of all because
-(a) it cannot be ordered by postcard
-(b) it means giving expensive presents
-(c) its choice needs the utmost care
-(d) other occasions are better than birthdays for
-giving presents
-146. A ‘golden rule’ is a rule which
-(a) brings profit
-(b) is very important
-(c) is very difficult
-(d) is very easy
-147. The writer is of the view that one should give a
-present t\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for World Geography Cosmology and MCQs based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: World Cosmology**
+
+1. **Introduction to World Cosmology**
+    - Definition: World cosmology refers to the study of the Earth's place in the universe, encompassing the study of the Earth's position, movement, and relationships with other celestial bodies.
+    - Importance: Understanding world cosmology is essential in Geography as it helps in understanding the Earth's spatial relationships, climate, and geological processes.
+
+2. **Earth's Position in the Universe**
+    - Earth is the third planet in our solar system.
+    - Our solar system is part of the Milky Way galaxy.
+    - The Milky Way galaxy is part of the Local Group of galaxies.
+    - Major components: Sun, planets, dwarf planets, asteroids, comets, and other objects.
+
+3. **Key Features of Earth's Surface**
+    - 71% water, 29% land.
+    - Seven continents: Africa, Asia, Australia, Europe, North America, South America, and Antarctica.
+    - Four oceanic divisions: Pacific, Atlantic, Indian, and Arctic.
+
+4. **Geological Features**
+    - Mountains, valleys, rivers, and ocean basins.
+    - Processes: weathering, erosion, plate tectonics, and volcanism.
+
+**Page 2: World Geography**
+
+1. **Introduction to World Geography**
+    - Definition: World geography refers to the study of the Earth's physical and human environments, encompassing the study of countries, regions, and cultural systems.
+    - Importance: Understanding world geography is essential in Geography as it helps in understanding the interactions between people and the physical environment.
+
+2. **Geographical Regions**
+    - Climatic regions: tropical, temperate, and polar.
+    - Topical regions: deserts, savannas, and tundra.
+    - Cultural regions: developed countries, developing countries, and tribal regions.
+
+3. **Geographical Features**
+    - Physical features: ocean, river, desert, mountain, and valley.
+    - Natural resources: fossil fuels, forest, water, and minerals.
+
+
+4. **Human-Environment Interactions**
+    - Population growth: natural increase vs. migration.
+    - Urbanization: population density and population growth.
+    - Food production and consumption: types of food, production methods, and nutrition requirements.
+
+
+**Page 3: Cosmology MCQs**
+
+1. **What is the definition of world cosmology?**
+    - a) Study of Earth's climate
+    - b) Study of Earth's position in the universe
+    - c) Study of human migration
+    - d) Study of economic systems
+
+**Answer: b) Study of Earth's position in the universe**
+
+2. **Which of the following is the major component of our solar system?**
+    - a) Moons
+    - b) Asteroids
+    - c) Sun
+    - d) Comets
+
+**Answer: c) Sun**
+
+3. **Which type of geographical region is characterized by high temperatures and low rainfall?**
+    - a) Tropical
+    - b) Temperate
+    - c) Desert
+    - d) Polar
+
+**Answer: c) Desert**
+
+4. **What is the study of Earth's geological features called?**
+    - a) Geomorphology
+    - b) Climatology
+    - c) Hydrology
+    - d) Meteorology
+
+**Answer: a) Geomorphology**
+
+**Page 4: Cosmology Additional Topics**
+
+1. **Earth's Rotation and Revolution**
+    - Definition: Earth's rotation and revolution refer to its spin on its axis and orbital path around the Sun.
+    - Importance: Understanding Earth's rotation and revolution is essential in Geography as it helps in understanding the distribution of time zones and the changing seasons.
+
+2. **Day and Night Cycles**
+    - Definition: Day and night cycles refer to the Earth's rotation causing the Sun to appear to rise in the east and set in the west.
+    - Importance: Understanding day and night cycles is essential in Geography as it helps in understanding the Earth's time and calendar systems.
+
+3. **Seasonal Changes**
+    - Definition: Seasonal changes refer to the variations in temperature and daylight that occur throughout the year.
+    - Importance: Understanding seasonal changes is essential in Geography as it helps in understanding the agricultural cycle and the distribution of weather patterns.

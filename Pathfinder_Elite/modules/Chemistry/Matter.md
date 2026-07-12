@@ -1,97 +1,57 @@
-# Matter\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 632 ---\n101. A cylindrical tube open at both ends is made of
-metal. The internal diameter of the tube is 6 cm
-and length of the tube is 10 cm. If the thickness
-of the metal used is 1 cm, then the outer curved
-surface area of the tube is
-e 2013 I
-(a) 140π cm2
-(b) 146 5. π cm2
-(c) 70π cm2
-(d) None of these
-102. From a solid wooden right circular cylinder, a
-right circular cone whose radius and height are
-same as the radius and height of the cylinder,
-respectively is carved out. What is the ratio of
-the volume of the utilised wood to that of the
-wasted wood?
-e 2013 I
-(a) 1 : 2
-(b) 2 : 1
-(c) 2 : 3
-(d) 1 : 3
-103. If the heights and the areas of the base of a right
-circular cone and a pyramid with square base
-are the same, then they have
-e 2013 I
-(a) same volume and same surface area
-(b) same surface area but different volumes
-(c) same volume but different surface areas
-(d) different volumes and different surface areas
-104. The volume of a right circular cone of height
-3 cm and slant height 5 cm is
-e 2013 I
-(a) 49.3 cm3
-(b) 50.3 cm3
-(c) 52 cm3
-(d) 53 cm3
-105. A bucket is of a height 25 cm. Its top and bottom
-radii are 20 cm and 10 cm, respectively. Its
-capacity (in L) is
-e 2013 I
-(a) 17 5
-3
-. π
-(b) 17 5. π
-(c) 20 π
-(d) 25 π
-106. The height of a cylinder is 15 cm. The lateral
-surface area is 660 cm2. Its volume is
-e 2013 II
-(a) 1155 cm3 (b) 1215 cm3 (c) 1230 cm3 (d) 2310 cm3
-107. The
-diameter
-of
-the
-Moon
-is
-approximately
-one-fourth of the diameter of the Earth. What is
-the ratio (approximate) of their volumes? e 2013 II
-(a) 1 16
-:
-(b) 1 64
-:
-(c) 1 4
-:
-(d) 1 128
-:
-108. A conical cap has the base diameter 24 cm and
-height 16 cm. What is the cost of painting the
-surface
-of
-the
-cap
-at
-the
-rate
-of
-70
-paise
-per cm2?
-e 2013 II
-(a) ` 520
-(b) ` 524
-(c) ` 528
-(d) ` 532
-109. What is the whole surface area of a cone of base
-radius 7 cm and height 24 cm?
-e 2013 II
-(a) 654 cm2
-(b) 704 cm2
-(c) 724 cm2
-(d) 964 cm2
-110. A tent is in the form of a right circular cylinder
-surmoun\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Matter based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+**Page 1: Properties of Matter**
+
+1. **Definition of Matter**: Matter is anything that has mass and occupies space.
+2. **Types of Matter**:
+	* Pure substances (elements and compounds)
+	* Mixtures
+3. **Purity of Substances**: Measures of purity:
+	- Percentage yield
+	- Percentage purity
+	- Percentage recovery
+4. **Physical and Chemical Changes**: 
+	- Physical changes: Changes in state (e.g., solid to liquid) without changing the substance's identity
+	- Chemical changes: Formation of a new substance with different properties
+
+**Page 2: States of Matter**
+
+1. **States of Matter**:
+	- Solid: Has a fixed shape and volume
+	- Liquid: Has a fixed volume, but takes the shape of its container
+	- Gas: Has neither a fixed shape nor a fixed volume
+2. **Properties of States of Matter**:
+	- Solids: Incompressible, rigid
+	- Liquids: Incompressible, fluid
+	- Gases: Compressible, expandable
+3. **Phase Changes**:
+	- Melting: Solid to liquid
+	- Boiling: Liquid to gas
+	- Condensation: Gas to liquid
+	- Sublimation: Solid to gas
+	- Deposition: Gas to solid
+
+**Page 3: Surface Areas**
+
+1. **Surface Area of a Cylinder**:
+	- Curved surface area: 2πrh
+	- Total surface area: 2πrh + 2πr^2
+2. **Surface Area of a Cone**:
+	- Curved surface area: πrl
+	- Total surface area: πrl + πr^2
+3. **Example from Source 1**:
+	- A cylindrical tube with internal diameter 6 cm and length 10 cm has a metal thickness of 1 cm. The outer curved surface area of the tube is: 
+		+ Inner radius: 3 cm (half of the internal diameter)
+		+ Outer radius: 4 cm (inner radius + thickness)
+		+ Outer curved surface area: 2π × 4 × 10 = 80π cm^2 (not in options)
+	Source 1 answer (2013 I) - (b) 146.5π cm2 doesn't seem possible from the given data.
+ 
+**Page 4: Problems and Solutions**
+
+1. **Problem-Solving Strategies**:
+	- Identify the type of problem (e.g., surface area, volume, pressure)
+	- Choose the right formula and apply the given values
+	- Check the units and ensure the answer makes sense
+2. **Solving a Cylindrical Tube Problem (continued from Source 1)**:
+	- Outer diameter: 8 cm (internal diameter + 2 × thickness)
+	- Outer radius: 4 cm (half of the outer diameter)
+	- Outer curved surface area: 2π × 4 × 10 = 80π cm^2 (not in options)
+	Source 1 answer (2013 I) - There isn't an option which aligns with the outer curved surface area of the tube as calculated.
