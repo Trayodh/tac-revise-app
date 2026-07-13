@@ -1,4 +1,12 @@
-# Electric Current\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 606 ---\n38. The
+# Electric Current
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 606 ---
+38. The
 lengths
 of
 two
@@ -162,7 +170,19 @@ Which of the following statement(s) are correct?
 44. What is the area of rectangle R?
 I. The length of rectangle R is twice the width.
 II. The area of rectangle R is twice the perimeter.
-(a) Statement I alone\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Electric Current based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+(a) Statement I alone
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Electric Current based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

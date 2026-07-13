@@ -1,4 +1,12 @@
-# Set Theory\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 183 ---\nblank space and indicate your response
+# Set Theory
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 183 ---
+blank space and indicate your response
 on the Answer Sheet accordingly.
 CLOZE COMPREHENSION 1
 The founders of the Indian Republic
@@ -89,7 +97,19 @@ society who believes in free will’.
 a’ is the correct choice as the word
 ‘within’ is used to indicate enclosure
 or containment.
-23. (a) ‘Br\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Set Theory based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+23. (a) ‘Br
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Set Theory based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

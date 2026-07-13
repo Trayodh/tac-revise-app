@@ -1,4 +1,12 @@
-# Rotational Motion and Gravitation\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 587 ---\n302
+# Rotational Motion and Gravitation
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 587 ---
+302
 CDS Pathfinder
 HINTS AND SOLUTIONS 
 1. (c) Given,OA = 5 cm,AM
@@ -256,7 +264,19 @@ OF
 289
 64
 2
-\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Rotational Motion and Gravitation based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Rotational Motion and Gravitation based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

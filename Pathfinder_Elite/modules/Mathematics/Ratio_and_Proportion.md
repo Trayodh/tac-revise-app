@@ -1,4 +1,12 @@
-# Ratio and Proportion\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 101 ---\n_ (b) Area of segment of a circle of
+# Ratio and Proportion
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 101 ---
+_ (b) Area of segment of a circle of
 radius r subtending an angle θ at the
 centre
 = Area of sector −Area of ∆OAB
@@ -295,7 +303,19 @@ x
 x
 90. If p q r s
 , , , and t represent length,
-breadth, he\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Ratio and Proportion based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+breadth, he
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Ratio and Proportion based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

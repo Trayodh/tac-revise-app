@@ -1,4 +1,12 @@
-# Statistics\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 363 ---\nSol. d. Given, SI = ` 400, R = 10%
+# Statistics
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 363 ---
+Sol. d. Given, SI = ` 400, R = 10%
 and T = 1 month = 1
 12 yr
 SI =
@@ -283,7 +291,19 @@ A t
 11%
 Rule 3 At the same rate of simple interest, if a sum of
 money becomes n1 times of itself in t1yr and n2 times in
-t 2 years, then\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Statistics based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+t 2 years, then
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Statistics based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

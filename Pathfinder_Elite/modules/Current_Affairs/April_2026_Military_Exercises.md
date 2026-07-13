@@ -1,4 +1,12 @@
-# April 2026 Military Exercises\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 1093 ---\n808
+# April 2026 Military Exercises
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 1093 ---
+808
 CDS Pathfinder
 OTHER IMPORTANT EVENTS
 G At Jhansi, Rani Laxmibai, the widow queen of Raja
@@ -44,7 +52,19 @@ Prarthana Samaj
 • Mahadev Gobind Ranade along with Dr Atmaram
 Pandurang reorganised Paramhansa Sabha under the
 guidance of Keshab Chandra Sen and founded Prarthana
-Samaj in 1867. It was primaril\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for April 2026 Military Exercises based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+Samaj in 1867. It was primaril
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for April 2026 Military Exercises based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

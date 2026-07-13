@@ -1,4 +1,12 @@
-# Modern Physics\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 609 ---\n92. The sides of a triangular field are 41 m, 40 m
+# Modern Physics
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 609 ---
+92. The sides of a triangular field are 41 m, 40 m
 and 9 m. The number of rose beds that can be
 prepared in the field if each rose bed, on an
 average, needs 900 cm2 space, is
@@ -106,7 +114,19 @@ the triangle. The perimeter of
 the square is
 given by
 e 2015 II
-(a)\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Modern Physics based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+(a)
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Modern Physics based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

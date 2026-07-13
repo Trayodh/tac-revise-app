@@ -1,4 +1,12 @@
-# Lines and Angles\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 237 ---\n(d) One-twelfth of all members shall
+# Lines and Angles
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 237 ---
+(d) One-twelfth of all members shall
 be elected by graduates residing
 in the state
 _ (c)
@@ -112,7 +120,19 @@ conditions
 of
 service of persons appointed to
 public services
-(c) Tribunals establis\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Lines and Angles based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+(c) Tribunals establis
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Lines and Angles based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

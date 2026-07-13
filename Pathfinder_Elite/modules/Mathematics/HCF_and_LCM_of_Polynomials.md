@@ -1,4 +1,12 @@
-# HCF and LCM of Polynomials\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 132 ---\nTrained convicts from jail B
+# HCF and LCM of Polynomials
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 132 ---
+Trained convicts from jail B
 =
 ×
 903
@@ -177,7 +185,19 @@ Convicts who offered company
 placement from jail D = 416
 Trained convicts of jail E = 544
 ∴Half of the trained convicts = 272
-Convicts who\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for HCF and LCM of Polynomials based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+Convicts who
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for HCF and LCM of Polynomials based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

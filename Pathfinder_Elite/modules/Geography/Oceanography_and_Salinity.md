@@ -1,4 +1,12 @@
-# Oceanography & Salinity\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 892 ---\n• There are two types of electric current (i) Alternating
+# Oceanography & Salinity
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 892 ---
+• There are two types of electric current (i) Alternating
 current (AC) and (ii) Direct current (DC).
 • Alternating current is used in houses and factories and its
 frequency is 50 Hz.
@@ -67,7 +75,13 @@ specific resistance or resistivity. Its SI unit is ohm-metre.
 • On increasing the temperature of the metal, its resistance
 increases.
 • Those materials whose electrical conductivity lies in
-b\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n\n--- PAGE 28 ---\nshop.ssbcrack.com
+b
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+
+--- PAGE 28 ---
+shop.ssbcrack.com
 MCQs                                                                             GENERAL SCIENCE                                                                     MCQs 
 27 | P a g e                                                           shop.ssbcrack.com         
  No water should be allowed to collect in ditches or other open spaces to prevent mosquito 
@@ -98,7 +112,14 @@ Symptoms
 Prevention and Cure 
  Polio vaccine drop (oral polio vaccine, OPV) is  given to children at certain intervals. 
 PNEUMONIA 
- Pathogen – diplococcus pneumoniae\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+ Pathogen – diplococcus pneumoniae
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

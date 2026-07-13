@@ -1,4 +1,12 @@
-# Measurement Motion Work Energy and Power\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 579 ---\n1. In a circle with centre O and radius 5 cm, AB is
+# Measurement Motion Work Energy and Power
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 579 ---
+1. In a circle with centre O and radius 5 cm, AB is
 a chord of length 8 cm. If OM
 AB
 ⊥
@@ -136,7 +144,19 @@ CAD
 CBD is equal to?
 (a) 180°
 (b) 90°
-(c)\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Measurement Motion Work Energy and Power based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+(c)
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Measurement Motion Work Energy and Power based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

@@ -1,4 +1,12 @@
-# Idioms and Phrases\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 475 ---\n49. State which of the sets given below are infinite set?
+# Idioms and Phrases
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 475 ---
+49. State which of the sets given below are infinite set?
 I. Set of all concentric circles.
 II. { :
 x x is a multiple of 2, x is an integer.}
@@ -111,7 +119,19 @@ e 2012 II
 (b) 10
 (c) 7
 (d) 6
-5\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Idioms and Phrases based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+5
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Idioms and Phrases based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

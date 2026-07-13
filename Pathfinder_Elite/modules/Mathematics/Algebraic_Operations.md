@@ -1,4 +1,12 @@
-# Algebraic Operations\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 120 ---\nand drug maker Astra Zeneca (Anglo-
+# Algebraic Operations
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 120 ---
+and drug maker Astra Zeneca (Anglo-
 Swedish pharma major).
 SII is the world’s largest vaccine
 manufacturer by the number of
@@ -76,7 +84,19 @@ Uruguay is not located on Tropic of
 Capricorn.
 60. Match List-I with List-II and select
 the correct answer using the codes
-given below the\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Algebraic Operations based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+given below the
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Algebraic Operations based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

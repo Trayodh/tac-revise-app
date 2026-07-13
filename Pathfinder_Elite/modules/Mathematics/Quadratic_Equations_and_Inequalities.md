@@ -1,4 +1,12 @@
-# Quadratic Equations and Inequalities\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 160 ---\n84. ‘Gandhi Solar Park’ is located at
+# Quadratic Equations and Inequalities
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 160 ---
+84. ‘Gandhi Solar Park’ is located at
 (a) New York
 (b) Vladivostok
 (c) Thimphu
@@ -70,7 +78,19 @@ codes given below.
 (b) 1 and 3
 (c) 2 and 3
 (d) 1, 2 and 3
-_ (b) Only statements 1 and 3 regardi\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Quadratic Equations and Inequalities based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+_ (b) Only statements 1 and 3 regardi
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Quadratic Equations and Inequalities based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

@@ -1,4 +1,12 @@
-# Simple Interest\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 77 ---\nas: a medium of exchange, a unit of
+# Simple Interest
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 77 ---
+as: a medium of exchange, a unit of
 account, a store of value and
 sometimes, a standard of deferred
 payment. Any item or verifiable record
@@ -60,7 +68,19 @@ actions. Most exchange rates are free
 floating and will rite or fall based on
 supply and demand in the market
 while some currencies are not free
-floating and have re\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Simple Interest based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+floating and have re
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Simple Interest based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

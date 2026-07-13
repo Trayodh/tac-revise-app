@@ -1,4 +1,12 @@
-# Spotting the Errors\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 387 ---\nTypes of Ratios
+# Spotting the Errors
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 387 ---
+Types of Ratios
 1. Compound Ratio
 When two or more ratios are
 multiplied together, they are said to be compound
@@ -250,7 +258,19 @@ a. 1 : 2
 b. 2 : 3
 c. 1 : 1
 d. 4 : 9
-Sol. c. The d\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Spotting the Errors based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+Sol. c. The d
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Spotting the Errors based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

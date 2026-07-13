@@ -1,4 +1,12 @@
-# Decimal Fractions\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 32 ---\n95. P : of corruption everywhere
+# Decimal Fractions
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 32 ---
+95. P : of corruption everywhere
 Q : to ease out
 R : the monster
 S : it is the duty of the government
@@ -93,7 +101,19 @@ the AC was set to very cold.
 103. We could leave today or we could
 leave tomorrow
 (a) preferring what you want
-(b) as you prefer o\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Decimal Fractions based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+(b) as you prefer o
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Decimal Fractions based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

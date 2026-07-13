@@ -1,4 +1,12 @@
-# HCF and LCM of Numbers\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 25 ---\n94. Sheela can stitch a suit in 2 days,
+# HCF and LCM of Numbers
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 25 ---
+94. Sheela can stitch a suit in 2 days,
 while Meena can stitch a suit in
 11
 2
@@ -308,7 +316,19 @@ How many days did he work?
 (b) 21
 (c) 24
 (d) 25
-_ (c) Let the person work for x d\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for HCF and LCM of Numbers based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+_ (c) Let the person work for x d
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for HCF and LCM of Numbers based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

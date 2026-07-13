@@ -1,4 +1,12 @@
-# Earthquakes, Volcanoes, & Wind Systems\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 853 ---\n568
+# Earthquakes, Volcanoes, & Wind Systems
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 853 ---
+568
 CDS Pathfinder
 141. The painter was able to produce that strange
 smile on Mona Lisa’s face by
@@ -51,7 +59,13 @@ giving presents
 (c) is very difficult
 (d) is very easy
 147. The writer is of the view that one should give a
-present t\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n\n--- PAGE 24 ---\nshop.ssbcrack.com
+present t
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+
+--- PAGE 24 ---
+shop.ssbcrack.com
 MCQs                                                                             GENERAL SCIENCE                                                                     MCQs 
 23 | P a g e                                                           shop.ssbcrack.com         
 Other endocrine glands: 
@@ -76,9 +90,16 @@ less light to enter.
 enables us to see distant objects clearly. To focus on nearer objects, the lens becomes thick 
 to decrease its focal length. But there is a limit. The minimum distance of clear vision is 25 
 cm. Below this distance, we cannot see things clearly. 
- \n\n## Page 4: Visual Anchors\n\n```mermaid\n
+ 
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Atmospheric / Tectonic Boundaries:
         [Lithosphere] ---> [Asthenosphere] ---> (Magma Chamber)
              | Fault Line
         (Epicenter) ---> (( Seismic Waves ))
-        \n```\n\n
+        
+```
+

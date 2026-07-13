@@ -1,4 +1,12 @@
-# Compound Interest\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 83 ---\n_ (d) The commission is responsible
+# Compound Interest
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 83 ---
+_ (d) The commission is responsible
 for superintendence, direction and
 control of the preparation of electoral
 rolls and conducting elections for the
@@ -61,7 +69,19 @@ legislative assemblies.
 fundamental rights is/are available
 to non-citizens?
 1. Freedom of speech
-2.\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Compound Interest based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+2.
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Compound Interest based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

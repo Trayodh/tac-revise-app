@@ -26,7 +26,9 @@ Gamma decay is the emission of high-energy photons (gamma rays) from the nucleus
 
 $$\begin{aligned}
 & \text{α decay: } \ _{Z}X^{A} \rightarrow \ _{Z-2} Y^{A-4} + \ _{2}He^{4} \\
-& \text{β decay: } \ _{Z}X^{A} \rightarrow \ _{Z+1}Y^{A} + e^{-} + \bar{\nu} \text{ or } \ _{Z-1}Y^{A} + e^{+} + \nu \\
+& \text{β decay: } \ _{Z}X^{A} \rightarrow \ _{Z+1}Y^{A} + e^{-} + \bar{
+u} \text{ or } \ _{Z-1}Y^{A} + e^{+} + 
+u \\
 & \text{γ decay: } \ _{Z}X^{A} \rightarrow \ _{Z}Y^{A} + \gamma \\
 \end{aligned}$$
 

@@ -1,4 +1,12 @@
-# Optics & The Human Eye\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 600 ---\nLet altitude of triangular field be x m
+# Optics & The Human Eye
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 600 ---
+Let altitude of triangular field be x m
 and base of field = 3x m
 Again, area of the field =
 ×
@@ -287,7 +295,13 @@ a
 =
 ×
 =
-3 \n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n\n--- PAGE 43 ---\nshop.ssbcrack.com
+3 
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+
+--- PAGE 43 ---
+shop.ssbcrack.com
 MCQs                                                                             GENERAL SCIENCE                                                                     MCQs 
 42 | P a g e                                                           shop.ssbcrack.com         
 [C] Newton-second 
@@ -319,8 +333,15 @@ when the ice melts away completely?
 [B] The level of water will go down 
 [C] The level of water will remain unchanged 
 [D] The level of water will first increase then come to the previous on 
-Answer: B [The level of water will go down]- There are two\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+Answer: B [The level of water will go down]- There are two
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Optical Lens Confluences:
         [Light Source] ---> (Convex Lens) ---> [Focal Point] ---> (Retina)
                               | Focuses Light
-        \n```\n\n
+        
+```
+

@@ -1,4 +1,12 @@
-# Square Roots and Cube Roots\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 38 ---\nSivaliks along the northern edge of
+# Square Roots and Cube Roots
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 38 ---
+Sivaliks along the northern edge of
 the Indo-Gangetic Plain. In Bhabar,
 streams and rivers comes from the
 mountains deposit heavy materials of
@@ -62,7 +70,19 @@ It usurps political freedom of the
 individuals as well as the personal
 freedoms.
 41. Who among the following was
-chosen for the Kuvem\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Square Roots and Cube Roots based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+chosen for the Kuvem
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Square Roots and Cube Roots based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

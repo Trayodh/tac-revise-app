@@ -1,4 +1,12 @@
-# Synonyms\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 452 ---\n167
+# Synonyms
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 452 ---
+167
 MATHEMATICS
 Quadratic Equations and Inequalities
 • Pick a number from each interval and test it in the
@@ -289,7 +297,19 @@ x
 x
 +
 −
-\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Synonyms based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Synonyms based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

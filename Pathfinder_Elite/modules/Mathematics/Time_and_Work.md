@@ -1,4 +1,12 @@
-# Time and Work\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 60 ---\nLet ABC and DEF are the isosceles
+# Time and Work
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 60 ---
+Let ABC and DEF are the isosceles
 triangles whose vertical angles are
 equal.
 ⇒
@@ -327,7 +335,19 @@ QN
 equal to?
 (a) 10 cm
 (b) 11 cm
-(c) \n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Time and Work based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+(c) 
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Time and Work based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

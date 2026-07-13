@@ -1,4 +1,12 @@
-# Vocabulary\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 435 ---\nEXAMPLE 17. The area of a rectangle is decreased
+# Vocabulary
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 435 ---
+EXAMPLE 17. The area of a rectangle is decreased
 by 28 m2, if the length is increased by 2 m and the
 breadth is decreased by 2 m. The area of a rectangle
 is increased by 33 m 2, if the length is decreased by
@@ -260,7 +268,19 @@ is
 two variables has a unique solution if their graphs
 (a) are coincident
 (b) are parallel
-(c)\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Vocabulary based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+(c)
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Vocabulary based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

@@ -1,4 +1,12 @@
-# Height and Distance\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 225 ---\nclosed till further orders
+# Height and Distance
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 225 ---
+closed till further orders
 (R)
 declared the institution
 (S)
@@ -115,7 +123,19 @@ The correct sequence should be
 (b) SPRQ
 (c) QSPR
 (d) RQPS
-_ (b) SPRQ is the correct s\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Height and Distance based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+_ (b) SPRQ is the correct s
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Height and Distance based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

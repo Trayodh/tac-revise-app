@@ -1,4 +1,12 @@
-# Profit and Loss\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 92 ---\n17. A 60-page book hasn lines per
+# Profit and Loss
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 92 ---
+17. A 60-page book hasn lines per
 page. If the number of lines were
 reduced by 3 in each page, the
 number of pages would have to be
@@ -267,7 +275,19 @@ P
 n
 n
 =
-+ 1, where Pn is\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Profit and Loss based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
++ 1, where Pn is
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Profit and Loss based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

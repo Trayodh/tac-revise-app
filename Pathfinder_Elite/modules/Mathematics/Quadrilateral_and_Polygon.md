@@ -1,4 +1,12 @@
-# Quadrilateral and Polygon\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 272 ---\n1. Two reactants in a flask at room
+# Quadrilateral and Polygon
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 272 ---
+1. Two reactants in a flask at room
 temperature are producing bubbles of
 a gas that turn limewater milky. The
 reactants could be
@@ -128,7 +136,19 @@ g
 →
 ↑
 When magnesium reacts with hydrochloric
-a\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Quadrilateral and Polygon based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+a
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Quadrilateral and Polygon based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

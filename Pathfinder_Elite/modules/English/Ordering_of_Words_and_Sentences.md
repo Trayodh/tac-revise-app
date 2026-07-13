@@ -1,4 +1,12 @@
-# Ordering of Words and Sentences\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 515 ---\n42. The angles of elevation of the top of a tower from
+# Ordering of Words and Sentences
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 515 ---
+42. The angles of elevation of the top of a tower from
 two points P and Q at distance m2 and n2
 respectively, from the base and in the same
 straight line with it are complementary. The
@@ -258,7 +266,19 @@ x =
 3
 h
 …(i)
-and in right angle\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Ordering of Words and Sentences based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+and in right angle
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Ordering of Words and Sentences based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

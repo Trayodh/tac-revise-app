@@ -1,4 +1,12 @@
-# Measurements of Angles and Trigonometric Ratios\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 194 ---\n(b) It endeavours to safeguard and
+# Measurements of Angles and Trigonometric Ratios
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 194 ---
+(b) It endeavours to safeguard and
 protect interests of the, Muslim
 world in the spirit of promoting
 international peace and harmony
@@ -98,7 +106,19 @@ is
 an
 Indigenous Aircraft Carrier 1 which is
 expected to enter the service in 2023.
-15. ‘Triples’ is a new forma\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Measurements of Angles and Trigonometric Ratios based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+15. ‘Triples’ is a new forma
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Measurements of Angles and Trigonometric Ratios based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

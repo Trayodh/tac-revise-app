@@ -1,4 +1,14 @@
-# Circle\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 287 ---\n\n--- PAGE 288 ---\nNUMBER SYSTEM
+# Circle
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 287 ---
+
+--- PAGE 288 ---
+NUMBER SYSTEM
 Numbers are collection of certain symbols or figures called digits. The common number system in use
 is decimal number system. In this system, we use ten symbols each representing a digit. These are 0, 1,
 2, 3, 4, 5, 6, 7, 8, and 9. A combination of these figures representing a number is called a numeral.
@@ -43,7 +53,19 @@ Quadratic Equations and Inequalities
 NUMBER SYSTEM
 Generally (10-12) questions have been asked from this chapter. Questions, from this section usually
 test your basic knowledge of numbers and are mostly based on various properties of multiplication
-and division. A good\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Circle based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+and division. A good
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Circle based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

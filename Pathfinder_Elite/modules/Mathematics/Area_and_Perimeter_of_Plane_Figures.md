@@ -1,4 +1,12 @@
-# Area and Perimeter of Plane Figures\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 311 ---\nEXAMPLE 1. The LCM of 30, 250, 490 is
+# Area and Perimeter of Plane Figures
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 311 ---
+EXAMPLE 1. The LCM of 30, 250, 490 is
 a. 46750
 b. 36750
 c. 26750
@@ -217,7 +225,19 @@ leaves no remainder is 2.
 Highest Common Factor (HCF)
 1. Common Factor
 A common factor of two or more
-numbers is a number which divides each of t\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Area and Perimeter of Plane Figures based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+numbers is a number which divides each of t
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Area and Perimeter of Plane Figures based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

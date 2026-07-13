@@ -1,4 +1,12 @@
-# Antonyms\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 463 ---\nAlso, α2
+# Antonyms
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 463 ---
+Also, α2
 1
 = −
 +
@@ -590,7 +598,19 @@ x
 5
 ,
 , but x ≠−5
-[Q integers \n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Antonyms based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+[Q integers 
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Antonyms based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

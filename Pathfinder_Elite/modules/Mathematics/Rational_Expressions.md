@@ -1,4 +1,12 @@
-# Rational Expressions\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 139 ---\n52
+# Rational Expressions
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 139 ---
+52
 CDS Solved Paper 2020 (I)
 _ (a) In right angled triangle ABCD,
 AB
@@ -364,7 +372,19 @@ APBOA −area of ∆ABO
 )
 π
 sq units
-93. In the given fig\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Rational Expressions based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+93. In the given fig
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Rational Expressions based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

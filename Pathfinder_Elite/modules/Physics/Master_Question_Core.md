@@ -1,4 +1,12 @@
-# Master Question Core\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 612 ---\n∆=
+# Master Question Core
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 612 ---
+∆=
 s s
 a
 s
@@ -348,7 +356,19 @@ x
 )
 = 140 cm2
 30. (b) Since, diagonal of rhombus bisect
-each other and perpendicular to eac\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Master Question Core based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+each other and perpendicular to eac
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Master Question Core based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

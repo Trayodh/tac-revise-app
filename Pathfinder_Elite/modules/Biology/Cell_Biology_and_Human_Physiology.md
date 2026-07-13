@@ -1,4 +1,12 @@
-# Cell Biology & Human Physiology\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 682 ---\nVERB
+# Cell Biology & Human Physiology
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 682 ---
+VERB
 A verb is a word (such as jump, think, happen or exist)
 that is usually one of the main parts of a sentence and that
 expresses an action, an occurence, or a state of being.
@@ -48,8 +56,20 @@ subject. They are can, could, may, might, should, used to,
 need, dare, etc.
 Tenses
 There are three basic tenses : Present, Past and Future.
-These can fu\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Cell Biology & Human Physiology based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+These can fu
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Cell Biology & Human Physiology based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Cellular Architecture:
         [Cell Membrane] -> [Cytoplasm] -> [Nucleus]
                                |-> [Mitochondria] (ATP)
-        \n```\n\n
+        
+```
+

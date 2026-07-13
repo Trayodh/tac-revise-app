@@ -1,4 +1,12 @@
-# Surface Area and Volume of Solids\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 336 ---\n1. A car completes a journey in 6 h with a speed of
+# Surface Area and Volume of Solids
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 336 ---
+1. A car completes a journey in 6 h with a speed of
 50
 km/h.
 At
@@ -107,7 +115,19 @@ and
 are 250 km apart. A bus
 starts from A to B at 6 : 00 am at a speed of
 40 km/h. At the same time another bus starts
-fro\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Surface Area and Volume of Solids based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+fro
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Surface Area and Volume of Solids based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

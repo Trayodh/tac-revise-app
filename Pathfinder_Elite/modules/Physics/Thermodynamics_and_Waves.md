@@ -1,4 +1,12 @@
-# Thermodynamics & Waves\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 593 ---\n308
+# Thermodynamics & Waves
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 593 ---
+308
 CDS Pathfinder
 69. (a) In ∆OBC , we have
 ∠
@@ -310,7 +318,13 @@ PYT
 = ∠
 PXZ
 PTY
-[angles in same se\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n\n--- PAGE 47 ---\nshop.ssbcrack.com
+[angles in same se
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+
+--- PAGE 47 ---
+shop.ssbcrack.com
 MCQs                                                                             GENERAL SCIENCE                                                                     MCQs 
 46 | P a g e                                                           shop.ssbcrack.com         
 32. The power we use at Home has a frequency of 60Hz. What would be the period of the sine 
@@ -352,7 +366,14 @@ molecules?
 [D] Electric Geyser 
 Answer: B [Microwave Oven] 
  
-37. Which among the following is the most common ca\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+37. Which among the following is the most common ca
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

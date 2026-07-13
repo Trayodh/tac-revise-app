@@ -1,4 +1,12 @@
-# Number System\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 3 ---\nAll Rights Reserved
+# Number System
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 3 ---
+All Rights Reserved
 ARIHANT PUBLICATIONS (INDIA) LIMITED
 © Publisher
 No part of this publication may be re-produced, stored in a retrieval system or by any means, 
@@ -25,7 +33,9 @@ Published by Arihant Publications (India) Ltd.
 For further information about the books published by Arihant, log on to
 www.arihantbooks.com or e-mail at info@arihantbooks.com
 Follow us on
-\n--- PAGE 4 ---\nCONTENTS 
+
+--- PAGE 4 ---
+CONTENTS 
 CDS Solved Paper 2021 II 
 1-41
 CDS Solved Paper 2021 I 
@@ -71,7 +81,19 @@ MATHEMATICS
 120-131
  15. HCF and LCM of Polynomials  
 132-138
-\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Number System based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Number System based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

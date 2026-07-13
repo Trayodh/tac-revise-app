@@ -1,4 +1,12 @@
-# Optics\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 600 ---\nLet altitude of triangular field be x m
+# Optics
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 600 ---
+Let altitude of triangular field be x m
 and base of field = 3x m
 Again, area of the field =
 ×
@@ -287,8 +295,20 @@ a
 =
 ×
 =
-3 \n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Optics based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+3 
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Optics based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Optical Lens Confluences:
         [Light Source] ---> (Convex Lens) ---> [Focal Point] ---> (Retina)
                               | Focuses Light
-        \n```\n\n
+        
+```
+

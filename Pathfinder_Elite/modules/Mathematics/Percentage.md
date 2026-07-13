@@ -1,4 +1,12 @@
-# Percentage\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 69 ---\n51. He said that he ……… when he lost
+# Percentage
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 69 ---
+51. He said that he ……… when he lost
 all his investment in the stock
 market.
 (a) was broken
@@ -80,7 +88,19 @@ and contextually meaningful.
 (a) could have made
 (b) will have made
 (c) would have
-(d) ought\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Percentage based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+(d) ought
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Percentage based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

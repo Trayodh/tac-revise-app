@@ -1,4 +1,12 @@
-# Triangles\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 248 ---\n1. The highest four-digit number
+# Triangles
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 248 ---
+1. The highest four-digit number
 which is divisible by each of the
 numbers 16, 36, 45, 48 is
 (a) 9180
@@ -317,7 +325,19 @@ five-digit
 number
 XY235
 is
-divisible by 3 whe\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Triangles based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+divisible by 3 whe
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Triangles based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

@@ -1,4 +1,12 @@
-# Oscillations and Waves\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 596 ---\nArea of the plane figure is the amount of surface enclosed by its boundary. It is measured in square
+# Oscillations and Waves
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 596 ---
+Area of the plane figure is the amount of surface enclosed by its boundary. It is measured in square
 units. The perimeter of plane figure is total length of the sides enclosing the figure. Unit of Perimeter is
 same as the unit of sides of a given figure.
 SQUARE
@@ -166,7 +174,9 @@ D
 a
 a
 a
-\n--- PAGE 597 ---\n312
+
+--- PAGE 597 ---
+312
 CDS Pathfinder
 x
 x
@@ -236,7 +246,19 @@ square =
 RECTANGLE
 Let l and b be the length and breadth of a rectangle
 respectively, then
-(i) Area of rectangle = \n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Oscillations and Waves based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+(i) Area of rectangle = 
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Oscillations and Waves based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+

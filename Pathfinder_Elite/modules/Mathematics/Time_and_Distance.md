@@ -1,4 +1,12 @@
-# Time and Distance\n\n## Pages 1-2: The Base Framework (Pathfinder)\n\n**Core Theory & Definitions**\n\n\n--- PAGE 47 ---\n1. If the number 413283 759387
+# Time and Distance
+
+## Pages 1-2: The Base Framework (Pathfinder)
+
+**Core Theory & Definitions**
+
+
+--- PAGE 47 ---
+1. If the number 413283 759387
 P
 is
 divisible by 13, then what is the
@@ -256,7 +264,19 @@ Since, m
 n
 −
 = 6
-∴Pairs will be (59, 53\n\n## Page 3: High-Yield Trigger Layer (Insight SSB)\n\n> [!TIP]\n> Standard High-Yield triggers for Time and Distance based on PYQ analysis.\n\n## Page 4: Visual Anchors\n\n```mermaid\n
+∴Pairs will be (59, 53
+
+## Page 3: High-Yield Trigger Layer (Insight SSB)
+
+> [!TIP]
+> Standard High-Yield triggers for Time and Distance based on PYQ analysis.
+
+## Page 4: Visual Anchors
+
+```mermaid
+
         Conceptual Schema:
         [Concept A] ---> [Process B] ---> [Outcome C]
-        \n```\n\n
+        
+```
+
