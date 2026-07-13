@@ -128615,4 +128615,671 @@ const CBT_EXAMS_DATABASE = [
     }
   ]
 }
+,
+  {
+  "id": "mock-gs-musculoskeletal",
+  "exam": "CDS",
+  "subject": "General Science",
+  "title": "Skeletal & Muscular System — Practice Test",
+  "topic": "Biology",
+  "duration": 35,
+  "questionsCount": 50,
+  "rules": {
+    "correctMarks": 1,
+    "incorrectMarks": -0.33,
+    "examType": "CDS"
+  },
+  "questions": [
+    {
+      "question": "",
+      "options": {
+        "a": "206",
+        "b": "270",
+        "c": "230",
+        "d": "220"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To provide support and protection for the body's vital organs",
+        "b": "To facilitate movement and locomotion",
+        "c": "To produce blood cells",
+        "d": "To store energy"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Fibrous joint",
+        "b": "Cartilaginous joint",
+        "c": "Synovial joint",
+        "d": "Ball-and-socket joint"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Sliding filament theory",
+        "b": "Muscle contraction theory",
+        "c": "Neuromuscular transmission theory",
+        "d": "Energy production theory"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To resorb old bone",
+        "b": "To lay down new bone matrix",
+        "c": "To produce blood cells",
+        "d": "To store energy"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Osteoblast",
+        "b": "Osteoclast",
+        "c": "Osteocyte",
+        "d": "Chondrocyte"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "ATP",
+        "b": "Glycolysis",
+        "c": "Oxidative phosphorylation",
+        "d": "Phosphocreatine"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Muscle fatigue",
+        "b": "Muscle soreness",
+        "c": "Muscle strain",
+        "d": "Muscle cramp"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Type I",
+        "b": "Type IIa",
+        "c": "Type IIb",
+        "d": "Type III"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Type I",
+        "b": "Type IIa",
+        "c": "Type IIb",
+        "d": "Type III"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Endochondral ossification",
+        "b": "Intramembranous ossification",
+        "c": "Bone remodeling",
+        "d": "Bone resorption"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Endochondral ossification",
+        "b": "Intramembranous ossification",
+        "c": "Bone remodeling",
+        "d": "Bone resorption"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hyaline cartilage",
+        "b": "Fibrocartilage",
+        "c": "Elastic cartilage",
+        "d": "Articular cartilage"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Synovial fluid",
+        "b": "Blood",
+        "c": "Lymph",
+        "d": "Cerebrospinal fluid"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Tendon",
+        "b": "Ligament",
+        "c": "Fascia",
+        "d": "Aponeurosis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Tendon",
+        "b": "Ligament",
+        "c": "Fascia",
+        "d": "Aponeurosis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Origin",
+        "b": "Insertion",
+        "c": " Belly",
+        "d": "Tendon"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Origin",
+        "b": "Insertion",
+        "c": "Belly",
+        "d": "Tendon"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Origin",
+        "b": "Insertion",
+        "c": "Belly",
+        "d": "Tendon"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Skeletal muscle fiber",
+        "b": "Cardiac muscle fiber",
+        "c": "Smooth muscle fiber",
+        "d": "Intermediate muscle fiber"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Skeletal muscle fiber",
+        "b": "Cardiac muscle fiber",
+        "c": "Smooth muscle fiber",
+        "d": "Intermediate muscle fiber"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Skeletal muscle fiber",
+        "b": "Cardiac muscle fiber",
+        "c": "Smooth muscle fiber",
+        "d": "Intermediate muscle fiber"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypertrophy",
+        "b": "Atrophy",
+        "c": "Muscle fatigue",
+        "d": "Muscle soreness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypertrophy",
+        "b": "Atrophy",
+        "c": "Muscle fatigue",
+        "d": "Muscle soreness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Muscle fatigue",
+        "b": "Muscle soreness",
+        "c": "Delayed onset muscle soreness",
+        "d": "Muscle cramp"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Muscle spasm",
+        "b": "Muscle cramp",
+        "c": "Muscle twitch",
+        "d": "Muscle tremor"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Comminuted fracture",
+        "b": "Transverse fracture",
+        "c": "Oblique fracture",
+        "d": "Spiral fracture"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Comminuted fracture",
+        "b": "Transverse fracture",
+        "c": "Oblique fracture",
+        "d": "Spiral fracture"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Comminuted fracture",
+        "b": "Transverse fracture",
+        "c": "Oblique fracture",
+        "d": "Spiral fracture"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Comminuted fracture",
+        "b": "Transverse fracture",
+        "c": "Oblique fracture",
+        "d": "Spiral fracture"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Fibrous joint",
+        "b": "Cartilaginous joint",
+        "c": "Synovial joint",
+        "d": "Ball-and-socket joint"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Fibrous joint",
+        "b": "Cartilaginous joint",
+        "c": "Synovial joint",
+        "d": "Ball-and-socket joint"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Fibrous joint",
+        "b": "Cartilaginous joint",
+        "c": "Synovial joint",
+        "d": "Ball-and-socket joint"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Type I",
+        "b": "Type II",
+        "c": "Fast-twitch",
+        "d": "Slow-twitch"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Type I",
+        "b": "Type II",
+        "c": "Fast-twitch",
+        "d": "Slow-twitch"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Type I",
+        "b": "Type II",
+        "c": "Fast-twitch",
+        "d": "Slow-twitch"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypertrophy",
+        "b": "Atrophy",
+        "c": "Muscle fatigue",
+        "d": "Muscle soreness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypertrophy",
+        "b": "Atrophy",
+        "c": "Muscle fatigue",
+        "d": "Muscle soreness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Isotonic contraction",
+        "b": "Isometric contraction",
+        "c": "Concentric contraction",
+        "d": "Eccentric contraction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Isotonic contraction",
+        "b": "Isometric contraction",
+        "c": "Concentric contraction",
+        "d": "Eccentric contraction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Isotonic contraction",
+        "b": "Isometric contraction",
+        "c": "Concentric contraction",
+        "d": "Eccentric contraction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Isotonic contraction",
+        "b": "Isometric contraction",
+        "c": "Concentric contraction",
+        "d": "Eccentric contraction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Type I",
+        "b": "Type II",
+        "c": "Fast-twitch",
+        "d": "Slow-twitch"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Type I",
+        "b": "Type II",
+        "c": "Fast-twitch",
+        "d": "Slow-twitch"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypertrophy",
+        "b": "Atrophy",
+        "c": "Muscle fatigue",
+        "d": "Mitochondrial biogenesis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Isotonic contraction",
+        "b": "Isometric contraction",
+        "c": "Concentric contraction",
+        "d": "Plyometric contraction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Isotonic contraction",
+        "b": "Isometric contraction",
+        "c": "Concentric contraction",
+        "d": "Eccentric contraction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Isotonic contraction",
+        "b": "Isometric contraction",
+        "c": "Concentric contraction",
+        "d": "Plyometric contraction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Isotonic contraction",
+        "b": "Isometric contraction",
+        "c": "Concentric contraction",
+        "d": "Plyometric contraction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Isotonic contraction",
+        "b": "Isometric contraction",
+        "c": "Concentric contraction",
+        "d": "Plyometric contraction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-musculoskeletal"
+    }
+  ]
+}
 ];

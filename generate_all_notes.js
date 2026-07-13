@@ -1,12 +1,18 @@
 require('dotenv').config();
 const fs = require('fs');
+const { GoogleGenAI } = require('@google/genai');
+const metadata = require('./Pathfinder_Elite/metadata.json');
+const { execSync } = require('child_process');
+const stringSimilarity = require('string-similarity');
 
-const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
-if (!CEREBRAS_API_KEY) {
-  console.error("Missing CEREBRAS_API_KEY in .env");
+if (!GEMINI_API_KEY) {
+  console.error("Missing GEMINI_API_KEY in .env");
   process.exit(1);
 }
+
+const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
 global.window = {};
 const loadScript = (filename) => {
@@ -22,55 +28,51 @@ loadScript('data.js');
 const NOTES_DATABASE = window.NOTES_DATABASE;
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-async function generateWithGroq(promptText) {
-  const url = 'https://api.cerebras.ai/v1/chat/completions';
+async function generateWithGemini(promptText) {
+  const model = 'gemini-flash-latest';
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
   
   let retries = 5;
   while (retries > 0) {
     try {
       const res = await fetch(url, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${CEREBRAS_API_KEY}`
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          model: 'gpt-oss-120b',
-          messages: [
-            { role: 'system', content: `You are a world-class expert tutor and author of Indian Defence Exam preparation books (NDA, CDS, AFCAT). Your notes are famous for being:
+          contents: [{ parts: [{ text: promptText }] }],
+          generationConfig: {
+            temperature: 0.65,
+          },
+          systemInstruction: {
+            parts: [{ text: `You are a world-class expert tutor and author of Indian Defence Exam preparation books (NDA, CDS, AFCAT). Your notes are famous for being:
 1. DEEPLY DETAILED - Every concept explained from first principles with multiple real examples.
 2. EXAM-FOCUSED - You always cite which exact paper, year, and section a concept has appeared in.
 3. RICHLY STRUCTURED - You use h4 headers, colored spans, styled HTML tables, and bullet lists to maximise readability.
-4. UNIQUE - Every section is fresh and specific to the topic. You NEVER pad with generic text or repeat formulas in different sections.
-5. PURE HTML - You output raw HTML only. Never use markdown. Never wrap in code blocks. Always close all HTML tags properly.` },
-            { role: 'user', content: promptText }
-          ],
-          max_tokens: 5500,
-          temperature: 0.65
+4. TEXTBOOK ACCURATE - CRITICAL RULE: Use the EXACT lines and explanations from the provided Pathfinder text whenever possible. Only use your AI capabilities to improve the formatting, structure the notes beautifully, or add clarity. DO NOT hallucinate external facts if they contradict the source.
+5. PURE HTML - You output raw HTML only. Never use markdown. Never wrap in code blocks. Always close all HTML tags properly.` }]
+          }
         })
       });
       
       const data = await res.json();
       if (!res.ok) {
         if (res.status === 429) {
-          const retryAfter = parseInt(res.headers?.get?.('retry-after') || '20');
-          console.log(`Rate limited! Waiting ${retryAfter}s...`);
-          await sleep(retryAfter * 1000);
+          console.log(`Rate limited! Retrying in 20s...`);
+          await sleep(20000);
+          retries--;
           continue;
         }
         throw new Error(data.error?.message || JSON.stringify(data));
       }
       
-      // Cerebras reasoning models return content in message.content or message.reasoning
-      const msg = data.choices?.[0]?.message;
-      let text = msg?.content || msg?.reasoning || '';
+      let text = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
       if (text.startsWith("```html")) text = text.substring(7);
       if (text.startsWith("```")) text = text.substring(3);
       if (text.endsWith("```")) text = text.substring(0, text.length - 3);
       return text.trim();
-    } catch (err) {
-      console.error(`Fetch error:`, err.message);
-      await sleep(5000);
+    } catch (e) {
+      console.log(`Error generating: ${e.message}. Retrying...`);
+      await sleep(10000); // 10 seconds between retries to avoid rate limits
       retries--;
     }
   }
@@ -142,15 +144,38 @@ async function run() {
     if (subjectId === 'economics') mappedSubject = 'indian_economy';
     if (subjectId === 'english') mappedSubject = 'general_english';
 
-    try { source1Text = fs.readFileSync(`pdf_chunks/${mappedSubject}_pathfinder.txt`, 'utf8'); } catch(e){}
+    // Fuzzy match chapter to metadata
+    let metaMatch = null;
+    let bestMatch = { rating: 0 };
+    if (metadata.length > 0) {
+      const topicNames = metadata.map(m => m.topic_name.toLowerCase().replace(' core and mcqs', ''));
+      const matches = stringSimilarity.findBestMatch(chapter.title.toLowerCase(), topicNames);
+      bestMatch = matches.bestMatch;
+      if (bestMatch.rating > 0.4) {
+         metaMatch = metadata[matches.bestMatchIndex];
+      }
+    }
+
+    if (metaMatch) {
+      console.log(`  Mapped to PDF Pages: ${metaMatch.start_page} - ${metaMatch.end_page}`);
+      try {
+        source1Text = execSync(`python extract_chapter.py ${metaMatch.start_page} ${metaMatch.end_page}`).toString('utf8');
+      } catch(e) {
+        console.error("  Error extracting pages:", e.message);
+      }
+    } else {
+      console.log(`  No exact page mapping found for "${chapter.title}", falling back to chunks.`);
+      try { source1Text = fs.readFileSync(`pdf_chunks/${mappedSubject}_pathfinder.txt`, 'utf8').substring(0, 30000); } catch(e){}
+    }
+
     try { source2Text = fs.readFileSync(`pdf_chunks/${mappedSubject}_insight_ssb.txt`, 'utf8'); } catch(e){}
     try { source3Text = fs.readFileSync(`pdf_chunks/general_science_ssbcrack.txt`, 'utf8'); } catch(e){}
 
-    let prompt = `Generate extremely detailed, premium study notes in raw HTML for the topic: "${topic.title}"
+    let prompt = `Generate highly focused, premium study notes in raw HTML for the topic: "${topic.title}"
 Chapter: "${chapter.title}" | Subject: ${subject.title} | Exam: NDA / CDS / AFCAT
 
 [SOURCE 1: PATHFINDER]
-${source1Text.substring(0, 15000)}
+${source1Text}
 
 [SOURCE 2: INSIGHT SSB]
 ${source2Text.substring(0, 5000)}
@@ -164,64 +189,42 @@ Based on the 3 sources above, start your output DIRECTLY with this opening tag (
     ${topic.title}
   </h3>
 
-Then generate ALL of the following 8 mandatory sections IN ORDER. Do not skip any section:
+CRITICAL RULE: The source text extracted from the PDF is messy. It contains theory, practice exercises, "PREVIOUS YEARS QUESTIONS", and "ANSWERS". 
+YOUR DIRECTIVE: You must completely IGNORE the "PREVIOUS YEARS QUESTIONS", "ANSWERS", and "HINTS AND SOLUTIONS" sections. They are garbage for this purpose. 
+ONLY extract the core theory to form the Notes, and extract actual practice/solved examples to form the MCQs.
 
---- SECTION 1: DEEP CONCEPTUAL EXPLANATION ---
-Write 6-8 substantial paragraphs (minimum 600 words total) explaining this topic from first principles. Cover:
+Then generate exactly 2 mandatory sections IN ORDER. Do not skip any section:
+
+--- SECTION 1: CORE NOTES ---
+Write 4-5 concise paragraphs explaining this topic from first principles. Keep it highly focused.
 - Historical origin and context if applicable
-- Core definitions and axioms with precise language
-- How each concept builds on the previous
-- 3-5 worked examples integrated into the explanation
-- Real-world applications in defence, science, or Indian context
-- Wrap at least 20 important terms, names, laws, or concepts in [[double square brackets]] to create wiki links
+- Core definitions, formulas, and rules
+- Wrap at least 20 important terms in [[double square brackets]] to create wiki links
 - Highlight key terms using: <span style="color: var(--warning);">important</span> and <span style="color: var(--success);">key facts</span>
-
---- SECTION 2: QUICK REVISION TABLE ---
-<h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Quick Revision Table</h4>
-Create a premium HTML table (min 8 rows) with borders and padding using inline CSS: style="border-collapse:collapse;width:100%;" for the table and style="border:1px solid var(--border);padding:10px;" for each td/th. Summarize the most important facts, dates, formulas, or comparisons specific to this topic.
-
---- SECTION 3: MNEMONICS & MEMORY AIDS ---
-<h4 style="border-left: 3px solid var(--success); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Mnemonics & Memory Aids</h4>
-Provide 3-5 genuinely useful, creative mnemonics, acronyms, or memory tricks SPECIFIC to this topic. Explain each one clearly.
-
---- SECTION 4: HIGH-YIELD RULES & FACTS ---
-<h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Rules & Facts</h4>
-Write EXACTLY 12 bullet points, each a distinct, exam-tested fact or formula. Each bullet must be DIFFERENT from the others — no repetition. Use <span style="color:var(--warning);"> for numbers/dates and <span style="color:var(--success);"> for key terms.
-
---- SECTION 5: PYQ ANALYSIS & EXAM TRENDS ---
-<h4 style="border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">PYQ Analysis & Exam Trends</h4>
-Write 3-4 paragraphs explaining:
-- How frequently this topic appears in NDA/CDS/AFCAT papers
-- Which specific sub-topics examiners love to test
-- The typical difficulty and style of questions (direct formula, application, or conceptual)
-- Any recent trend shifts in the last 5 years
-
---- SECTION 6: COMMON PITFALLS ---
-<h4 style="border-left: 3px solid var(--error, #ef4444); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Common Pitfalls</h4>
-List 5-7 specific mistakes students make on this exact topic. For each, explain WHY students make it and HOW to avoid it.
 `;
     if (isMath) {
         prompt += `
---- SECTION 7: PRACTICE PROBLEMS ---
+--- SECTION 2: PRACTICE PROBLEMS (MCQs) ---
 <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Mathematics Practice</h4>
-Provide EXACTLY 5 fully solved problems graded from easy to hard (NDA/CDS standard). For each:
+Extract exactly 3 practice problems from the text (do NOT take from Previous Years Questions). 
+For each:
 - State the problem clearly
-- Show every step of the solution
-- Add a short insight about why this type appears in exams
+- Show the step-by-step solution
 `;
     } else {
         prompt += `
---- SECTION 7: PRACTICE MCQs ---
+--- SECTION 2: PRACTICE MCQs ---
 <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Practice MCQs</h4>
-Provide EXACTLY 5 multiple-choice questions (NDA/CDS/AFCAT level). For each:
+Extract exactly 3 multiple-choice questions from the text (do NOT take from Previous Years Questions).
+For each:
 - Write the question stem
 - List options (A), (B), (C), (D)
-- State the correct answer
-- Give a 2-3 sentence explanation of why it's correct and why others are wrong
+- State the correct answer with a 2-3 sentence explanation
 `;
     }
 
     prompt += `
+Ensure the total length is strictly around 2 to 3 pages (approx. 800-1000 words).
 Close with </div> as the very last line.
 
 FINAL QUALITY RULES:
@@ -232,7 +235,7 @@ FINAL QUALITY RULES:
 - Do NOT include any preamble or postamble — start with the <div> and end with </div>
 `;
 
-    const result = await generateWithGroq(prompt);
+    const result = await generateWithGemini(prompt);
     if (result) {
       // Escape backticks
       const escapedHTML = result.replace(/\\/g, '\\\\').replace(/\`/g, '\\`').replace(/\\$/g, '\\$');
@@ -243,7 +246,7 @@ FINAL QUALITY RULES:
       console.log(`  Failed to generate for ${topic.id}`);
     }
     
-    await sleep(1500); // Groq handles ~30+ RPM, 1.5s gap is plenty
+    await sleep(2500); // 2.0 Flash handles 1500 RPD and 15 RPM. 2.5s is safe
   }
   
   console.log("ALL TOPICS GENERATED AND INJECTED!");
