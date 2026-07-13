@@ -1,94 +1,18 @@
-# Linear Equations
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">LINEAR EQUATIONS</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-## Pages 1-2: The Base Framework (Pathfinder)
+LINEAR EQUATIONS Generally (3-5) questions have been definitely asked from this chapter in CDS examination. Beside this, the linear equations are also applicable in solving various word problems related to number system, mensuration, time and work, etc. A linear equation is an equation for a straight line. So, the equation which has degree 1, i.e., which has linear power of the variables, is called a linear equation.
 
-**Core Theory & Definitions**
+LINEAR EQUATIONS IN ONE VARIABLE A linear equation in one variable is an equation which can be written in the form of ax = 0, or ax = , where a, b, c are real numbers with a ≠0.
+
+e.g.
+
+, 2 and t are linear equations in one variable. Solving a linear Equation in One Variable 1. Simplify both sides of the equation.
+
+2. Use the addition and subtraction properites to get all variables of terms on the LHS and all constant terms on the RHS.
+
+3. Simplify and divide both sides of the equation by the coefficient of the variable.
 
 
---- PAGE 144 ---
-40. Call it a day
-(a) End of the day
-(b) Completion of work
-(c) Stop doing something
-(d) A beautiful day
-_ (b) The idiom ‘call it a day’ means ‘the
-completion of work’.
-Directions (Q. Nos. 41-50) In this
-section each item consists of six
-sentences of a passage. The first and
-the sixth sentences are given in the
-beginning are S1 and S6. The middle
-four sentences in each have been
-jumbled up and labelled as P, Q, R
-and S. You are required to find out
-the proper sequence of the four
-sentences and mark your response
-accordingly on Answer Sheet.
-41. S1 : Chinua Achebe was born in 1930
-and educated at the Government
-College in Umuahia, Nigeria.
-S6 : Chinua Achebe has written over
-twenty books, including novels,
-stories, essays and collections of
-poetry, and won the Nobel Prize
-for literature.
-P : During the Civil War in Nigeria,
-he worked for the Biafran
-government service.
-Q : After the War, he was appointed
-Senior Research Fellow at the
-University of Nigeria, Nsukka.
-R : He joined the Nigerian
-Broadcasting Company in Lagos
-in 1954, later becoming its
-Director of External Broadcasting.
-S : He received a BA from London
-University in 1953 and in 1956 he
-studied broadcasting in London at
-the BBC.
-The correct sequence should be
-(a) SRPQ
-(b) RPQS
-(c) PQRS
-(d) QRSP
-_ (a) The correct and meaningful
-paragraph is given by SRPQ.
-42. S1 : “Every person carries in his head
-a mental model of the world-a
-subjective representation of
-external reality,” writes Alvin
-Toffler in Future Shock.
-S6 : When we begin to think we can
-do so only because our mind is
-already filled with all sorts of
-ideas with which to think.
-P : It organises our knowledge and
-gives us a place from which to argue.
-Q : This mental model is, he says,
-like a giant filing cabinet.
-R : It contains a slot for every item
-of information coming to us.
-S : As E.F. Schumacher says, “When
-we think, we do not just think; we
-think ideas.”
-The correct sequence should be
-(a) PSRQ
-(b) SPRQ
-(c) QRPS
-(d) RQPS
-_ (c
-
-## Page 3: High-Yield Trigger Layer (Insight SSB)
-
-> [!TIP]
-> Standard High-Yield triggers for Linear Equations based on PYQ analysis.
-
-## Page 4: Visual Anchors
-
-```mermaid
-
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        
-```
-
+</div>

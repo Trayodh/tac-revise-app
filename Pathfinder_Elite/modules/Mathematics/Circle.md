@@ -1,71 +1,42 @@
-# Circle
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">CIRCLE</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-## Pages 1-2: The Base Framework (Pathfinder)
+Circle CIRCLE Usually (3-6) questions have been asked from this chapter. Generally questions are asked from the topics related to theorem of circle, tangent to a circle and locus. Chord A circle is a curved figure consisting of all points in a plane that are at a fixed distance from a fixed point. The fixed point is called centre and the fixed distance is called radius of the circle. A chord is a line segment whose end points lie on the circle. A diameter is the longest chord in a circle.
 
-**Core Theory & Definitions**
+• Circles are simple closed curves which divide the plane into two regions : an interior and an exterior.
+
+• In the given figure, O is the centre of circle, OA is the radius of the circle and AB is the diameter of the circle.
+
+Here, in the given figure PQ is a chord and AB is the diameter of the circle which is the longest chord of that circle. RADIUS Secant Radius is the fixed distance between the centre of the circle and the points lying on the circle. A line which intersect the circle at two points is called secant of the circle.
+
+Here, in the figure AB is a secant cutting the circle at two distinct points as C and Here, in the given figure OA OB OC and all are having fixed distance, so they are known as radius of the circle. It is denoted by r. Arc Diameter Any part of a circle between two points is called an arc of the circle. Any two points, say A and B of a circle divide it into two parts called arcs. The smaller arc APB is called minor arc and larger arc AQB is called major arc.
+
+Diameter is any line segment that passes through the centre of the circle and whose end points lie on the circle. The diameter of a circle is twice the radius. Here, AB CD and are the diameters of the circle. AB CD OA = 2( OB OC OD A circle can have an infinite number of diameters.
+
+It is usually denoted by APB and AQB.
+
+Semi Circle Here, in the given figure GBH is a tangent touching the circle at a single point B. A diameter divides the circle into two equal parts. Each of the two is called a semi-circle. Length of tangent The distance between external point P from which tangent is drawn and the point of contact of the tangent is called length of tangent.
+
+In the above figure, RPSR and RQSR are semi-circles. Properties of Tangent To a Circle Segment • Only two tangents can be drawn from a point outside the circle. Minor Segment • Only one tangent can be drawn through a point lying on the circle.
+
+The area enclosed by an arc and its corresponding chord is called a segment of the circle. Major Segment • No tangent can be drawn from a point lying inside the circle.
+
+• The segment containing the minor arc is called minor segment.
+
+• A tangent at any point of a circle is perpendicular to the radius through the point of contact.
+
+• The segment containing the major arc is called major segment.
+
+Sector Sector Relative Position of two Circles The area enclosed by any two radii and the arc determined by the end points of the radii is called a sector of the circle. Circumference O´ O´ r1 r2 O´ r1 r2 (i) (ii) (iii) The length of the complete circle is called its circumference. Circumference = Radius of the circle or Diameter of the circle O´ O´ Concentric Circles (iv) (v) C4 C3 C2 C1 Two circles will (i) be disjoint, when OO ′ > 2.
+
+(ii) be touching externally, when OO ′ = 2.
+
+(iii) be intersecting when OO ′ < 2.
+
+(iv) be touching internally, when OO ′ = (v) one of the circle will lie inside the other, when OO ′ < 1 . Two or more circles having the same centre are called concentric circles. Here, in the given figure C and C4 are known as concentric circles as they have a common centre ‘O’.
+
+An infinite number of circles can be drawn with same centre. Tangent A tangent to a circle is a straight line that touches the circle at a single point.
 
 
---- PAGE 287 ---
-
---- PAGE 288 ---
-NUMBER SYSTEM
-Numbers are collection of certain symbols or figures called digits. The common number system in use
-is decimal number system. In this system, we use ten symbols each representing a digit. These are 0, 1,
-2, 3, 4, 5, 6, 7, 8, and 9. A combination of these figures representing a number is called a numeral.
-Types of Numbers
-1. Natural numbers
-Numbers which are used for counting i.e. 1, 2, 3, 4, ... are called natural numbers.
-The set of natural numbers is denoted by ‘ N ’. Smallest natural number is 1 but we cannot find the
-largest natural number as successor of every natural number is again a natural number.
-2. Whole numbers Natural numbers including zero are known as whole numbers. The set of whole
-numbers is denoted by W.
-• Every natural number is a whole number.
-• Zero (0) is the only whole number which is not a natural number.
-3. Even numbers
-The numbers which are divisible by 2 are called as even numbers. e.g 2, 4, 6, 8, 10,
-… . In general these are represented by 2 m, where m
-N
-∈
-.
-4. Odd numbers
-The number which are not divisible by 2 are called as odd numbers. e.g. 1, 3, 5, 7,
-9, … . In general, these are represented by (
-)
-2
-1
-m−
-, where m
-N
-∈
-.
-5. Prime numbers
-Those numbers which are divisible by 1 and the number itself are known as prime
-numbers. e.g. 2, 3, 5, 7,..., etc. are prime numbers.
-• If a number is not divisible by any of the prime numbers upto square root of that number, then it is a prime
-number.
-• 2 is the only even number which is prime.
-• The prime numbers upto 100 are : 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71,
-73, 79, 83, 89 and 97 i.e. there are 25 prime numbers upto 100.
-3
-MATHEMATICS
-Quadratic Equations and Inequalities
-01
-NUMBER SYSTEM
-Generally (10-12) questions have been asked from this chapter. Questions, from this section usually
-test your basic knowledge of numbers and are mostly based on various properties of multiplication
-and division. A good
-
-## Page 3: High-Yield Trigger Layer (Insight SSB)
-
-> [!TIP]
-> Standard High-Yield triggers for Circle based on PYQ analysis.
-
-## Page 4: Visual Anchors
-
-```mermaid
-
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        
-```
-
+</div>

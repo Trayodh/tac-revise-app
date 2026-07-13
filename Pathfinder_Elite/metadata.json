@@ -7,7 +7,9 @@
         "end_page": 19,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Number_System.md"
+        "filename": "Number_System.md",
+        "target_id": "number-system",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -17,7 +19,9 @@
         "end_page": 24,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Sequence_and_Series.md"
+        "filename": "Sequence_and_Series.md",
+        "target_id": "sequence-and-series",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -27,7 +31,9 @@
         "end_page": 31,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "HCF_and_LCM_of_Numbers.md"
+        "filename": "HCF_and_LCM_of_Numbers.md",
+        "target_id": "hcf-and-lcm-of-numbers",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -37,7 +43,9 @@
         "end_page": 37,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Decimal_Fractions.md"
+        "filename": "Decimal_Fractions.md",
+        "target_id": "decimal-fractions",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -47,7 +55,9 @@
         "end_page": 46,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Square_Roots_and_Cube_Roots.md"
+        "filename": "Square_Roots_and_Cube_Roots.md",
+        "target_id": "square-roots-and-cube-roots",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -57,7 +67,9 @@
         "end_page": 59,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Time_and_Distance.md"
+        "filename": "Time_and_Distance.md",
+        "target_id": "time-and-distance",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -67,7 +79,9 @@
         "end_page": 68,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Time_and_Work.md"
+        "filename": "Time_and_Work.md",
+        "target_id": "time-and-work",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -77,7 +91,9 @@
         "end_page": 76,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Percentage.md"
+        "filename": "Percentage.md",
+        "target_id": "percentage",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -87,7 +103,9 @@
         "end_page": 82,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Simple_Interest.md"
+        "filename": "Simple_Interest.md",
+        "target_id": "simple-interest",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -97,7 +115,9 @@
         "end_page": 91,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Compound_Interest.md"
+        "filename": "Compound_Interest.md",
+        "target_id": "compound-interest",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -107,7 +127,9 @@
         "end_page": 100,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Profit_and_Loss.md"
+        "filename": "Profit_and_Loss.md",
+        "target_id": "profit-and-loss",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -117,7 +139,9 @@
         "end_page": 112,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Ratio_and_Proportion.md"
+        "filename": "Ratio_and_Proportion.md",
+        "target_id": "ratio-and-proportion",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -127,7 +151,9 @@
         "end_page": 119,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Logarithm.md"
+        "filename": "Logarithm.md",
+        "target_id": "logarithm",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -137,7 +163,9 @@
         "end_page": 131,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Algebraic_Operations.md"
+        "filename": "Algebraic_Operations.md",
+        "target_id": "algebraic-operations",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -147,7 +175,9 @@
         "end_page": 138,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "HCF_and_LCM_of_Polynomials.md"
+        "filename": "HCF_and_LCM_of_Polynomials.md",
+        "target_id": "hcf-and-lcm-of-polynomials",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -157,7 +187,9 @@
         "end_page": 143,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Rational_Expressions.md"
+        "filename": "Rational_Expressions.md",
+        "target_id": "rational-expressions",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -167,7 +199,9 @@
         "end_page": 159,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Linear_Equations.md"
+        "filename": "Linear_Equations.md",
+        "target_id": "linear-equations",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -177,7 +211,9 @@
         "end_page": 182,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Quadratic_Equations_and_Inequalities.md"
+        "filename": "Quadratic_Equations_and_Inequalities.md",
+        "target_id": "quadratic-equations-and-inequalities",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -187,7 +223,9 @@
         "end_page": 193,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Set_Theory.md"
+        "filename": "Set_Theory.md",
+        "target_id": "set-theory",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -197,7 +235,9 @@
         "end_page": 224,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Measurements_of_Angles_and_Trigonometric_Ratios.md"
+        "filename": "Measurements_of_Angles_and_Trigonometric_Ratios.md",
+        "target_id": "measurements-of-angles-and-trigonometric-ratios",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -207,7 +247,9 @@
         "end_page": 236,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Height_and_Distance.md"
+        "filename": "Height_and_Distance.md",
+        "target_id": "height-and-distance",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -217,7 +259,9 @@
         "end_page": 247,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Lines_and_Angles.md"
+        "filename": "Lines_and_Angles.md",
+        "target_id": "lines-and-angles",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -227,7 +271,9 @@
         "end_page": 271,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Triangles.md"
+        "filename": "Triangles.md",
+        "target_id": "triangles",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -237,7 +283,9 @@
         "end_page": 286,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Quadrilateral_and_Polygon.md"
+        "filename": "Quadrilateral_and_Polygon.md",
+        "target_id": "quadrilateral-and-polygon",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -247,7 +295,9 @@
         "end_page": 310,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Circle.md"
+        "filename": "Circle.md",
+        "target_id": "circle",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -257,7 +307,9 @@
         "end_page": 335,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Area_and_Perimeter_of_Plane_Figures.md"
+        "filename": "Area_and_Perimeter_of_Plane_Figures.md",
+        "target_id": "area-and-perimeter-of-plane-figures",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -267,7 +319,9 @@
         "end_page": 362,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Surface_Area_and_Volume_of_Solids.md"
+        "filename": "Surface_Area_and_Volume_of_Solids.md",
+        "target_id": "surface-area-and-volume-of-solids",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Mathematics",
@@ -277,7 +331,9 @@
         "end_page": 384,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Statistics.md"
+        "filename": "Statistics.md",
+        "target_id": "statistics",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "English",
@@ -287,7 +343,9 @@
         "end_page": 434,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Spotting_the_Errors.md"
+        "filename": "Spotting_the_Errors.md",
+        "target_id": "spotting-the-errors",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "English",
@@ -297,7 +355,9 @@
         "end_page": 451,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Vocabulary.md"
+        "filename": "Vocabulary.md",
+        "target_id": "vocabulary",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "English",
@@ -307,7 +367,9 @@
         "end_page": 462,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Synonyms.md"
+        "filename": "Synonyms.md",
+        "target_id": "synonyms",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "English",
@@ -317,7 +379,9 @@
         "end_page": 474,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Antonyms.md"
+        "filename": "Antonyms.md",
+        "target_id": "antonyms",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "English",
@@ -327,7 +391,9 @@
         "end_page": 482,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Idioms_and_Phrases.md"
+        "filename": "Idioms_and_Phrases.md",
+        "target_id": "idioms-and-phrases",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "English",
@@ -337,7 +403,9 @@
         "end_page": 499,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Sentence_Completion.md"
+        "filename": "Sentence_Completion.md",
+        "target_id": "sentence-completion",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "English",
@@ -347,7 +415,9 @@
         "end_page": 514,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Sentence_Improvement.md"
+        "filename": "Sentence_Improvement.md",
+        "target_id": "sentence-improvement",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "English",
@@ -357,7 +427,9 @@
         "end_page": 543,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Ordering_of_Words_and_Sentences.md"
+        "filename": "Ordering_of_Words_and_Sentences.md",
+        "target_id": "ordering-of-words-and-sentences",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "English",
@@ -367,7 +439,9 @@
         "end_page": 576,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Comprehension.md"
+        "filename": "Comprehension.md",
+        "target_id": "comprehension",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Physics",
@@ -377,7 +451,9 @@
         "end_page": 586,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Measurement_Motion_Work_Energy_and_Power.md"
+        "filename": "Measurement_Motion_Work_Energy_and_Power.md",
+        "target_id": "measurement-motion-work-energy-and-power",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Physics",
@@ -387,7 +463,9 @@
         "end_page": 589,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Rotational_Motion_and_Gravitation.md"
+        "filename": "Rotational_Motion_and_Gravitation.md",
+        "target_id": "rotational-motion-and-gravitation",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Physics",
@@ -397,7 +475,9 @@
         "end_page": 592,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Properties_of_Matter.md"
+        "filename": "Properties_of_Matter.md",
+        "target_id": "properties-of-matter",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Physics",
@@ -407,7 +487,9 @@
         "end_page": 596,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Heat_and_Thermodynamics.md"
+        "filename": "Heat_and_Thermodynamics.md",
+        "target_id": "heat-and-thermodynamics",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Physics",
@@ -417,7 +499,9 @@
         "end_page": 599,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Oscillations_and_Waves.md"
+        "filename": "Oscillations_and_Waves.md",
+        "target_id": "oscillations-and-waves",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Physics",
@@ -427,7 +511,9 @@
         "end_page": 606,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Optics.md"
+        "filename": "Optics.md",
+        "target_id": "optics",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Physics",
@@ -437,7 +523,9 @@
         "end_page": 609,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Electric_Current.md"
+        "filename": "Electric_Current.md",
+        "target_id": "electric-current",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Physics",
@@ -447,7 +535,9 @@
         "end_page": 611,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Modern_Physics.md"
+        "filename": "Modern_Physics.md",
+        "target_id": "modern-physics",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Physics",
@@ -457,7 +547,9 @@
         "end_page": 631,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Master_Question_Core.md"
+        "filename": "Master_Question_Core.md",
+        "target_id": "master-question-core",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -467,7 +559,9 @@
         "end_page": 634,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Matter.md"
+        "filename": "Matter.md",
+        "target_id": "matter",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -477,7 +571,9 @@
         "end_page": 636,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Atomic_Structure.md"
+        "filename": "Atomic_Structure.md",
+        "target_id": "atomic-structure",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -487,7 +583,9 @@
         "end_page": 637,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Radioactivity.md"
+        "filename": "Radioactivity.md",
+        "target_id": "radioactivity",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -497,7 +595,9 @@
         "end_page": 640,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Chemical_Bonding_and_Redox_Reactions.md"
+        "filename": "Chemical_Bonding_and_Redox_Reactions.md",
+        "target_id": "chemical-bonding-and-redox-reactions",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -507,7 +607,9 @@
         "end_page": 641,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Gas_Laws_and_Solutions.md"
+        "filename": "Gas_Laws_and_Solutions.md",
+        "target_id": "gas-laws-and-solutions",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -517,7 +619,9 @@
         "end_page": 643,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Acids_Bases_and_Salts.md"
+        "filename": "Acids_Bases_and_Salts.md",
+        "target_id": "acids-bases-and-salts",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -527,7 +631,9 @@
         "end_page": 645,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Chemical_Thermodynamics_and_Surface_Chemistry.md"
+        "filename": "Chemical_Thermodynamics_and_Surface_Chemistry.md",
+        "target_id": "chemical-thermodynamics-and-surface-chemistry",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -537,7 +643,9 @@
         "end_page": 647,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Electrochemistry.md"
+        "filename": "Electrochemistry.md",
+        "target_id": "electrochemistry",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -547,7 +655,9 @@
         "end_page": 654,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Inorganic_Chemistry.md"
+        "filename": "Inorganic_Chemistry.md",
+        "target_id": "inorganic-chemistry",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -557,7 +667,9 @@
         "end_page": 656,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Organic_Chemistry.md"
+        "filename": "Organic_Chemistry.md",
+        "target_id": "organic-chemistry",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -567,7 +679,9 @@
         "end_page": 658,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Man_Made_Materials.md"
+        "filename": "Man_Made_Materials.md",
+        "target_id": "man-made-materials",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -577,7 +691,9 @@
         "end_page": 659,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Environment_and_its_Pollution.md"
+        "filename": "Environment_and_its_Pollution.md",
+        "target_id": "environment-and-its-pollution",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Chemistry",
@@ -587,7 +703,9 @@
         "end_page": 681,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Master_Question_Core.md"
+        "filename": "Master_Question_Core.md",
+        "target_id": "master-question-core",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Biology",
@@ -597,7 +715,9 @@
         "end_page": 686,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Cell_The_Unit_of_Life.md"
+        "filename": "Cell_The_Unit_of_Life.md",
+        "target_id": "cell-the-unit-of-life",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Biology",
@@ -607,7 +727,9 @@
         "end_page": 690,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Classification_of_Plants_and_Animals.md"
+        "filename": "Classification_of_Plants_and_Animals.md",
+        "target_id": "classification-of-plants-and-animals",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Biology",
@@ -617,7 +739,9 @@
         "end_page": 697,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Genetics_and_Molecular_Biology_and_Evolution_of_Life.md"
+        "filename": "Genetics_and_Molecular_Biology_and_Evolution_of_Life.md",
+        "target_id": "genetics-and-molecular-biology-and-evolution-of-life",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Biology",
@@ -627,7 +751,9 @@
         "end_page": 704,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Plant_Morphology_and_Physiology.md"
+        "filename": "Plant_Morphology_and_Physiology.md",
+        "target_id": "plant-morphology-and-physiology",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Biology",
@@ -637,7 +763,9 @@
         "end_page": 723,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Animal_Physiology.md"
+        "filename": "Animal_Physiology.md",
+        "target_id": "animal-physiology",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Biology",
@@ -647,7 +775,9 @@
         "end_page": 726,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Human_Health_and_Diseases.md"
+        "filename": "Human_Health_and_Diseases.md",
+        "target_id": "human-health-and-diseases",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Biology",
@@ -657,7 +787,9 @@
         "end_page": 731,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Applied_Biology.md"
+        "filename": "Applied_Biology.md",
+        "target_id": "applied-biology",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Biology",
@@ -667,7 +799,9 @@
         "end_page": 750,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Master_Question_Core.md"
+        "filename": "Master_Question_Core.md",
+        "target_id": "master-question-core",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "History",
@@ -677,7 +811,9 @@
         "end_page": 774,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Ancient_India_Core_and_MCQs.md"
+        "filename": "Ancient_India_Core_and_MCQs.md",
+        "target_id": "ancient-india-core-and-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "History",
@@ -687,7 +823,9 @@
         "end_page": 792,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Medieval_India_Sultanate_and_MCQs.md"
+        "filename": "Medieval_India_Sultanate_and_MCQs.md",
+        "target_id": "medieval-india-sultanate-and-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "History",
@@ -697,7 +835,9 @@
         "end_page": 831,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Modern_India_National_Movement_and_MCQs.md"
+        "filename": "Modern_India_National_Movement_and_MCQs.md",
+        "target_id": "modern-india-national-movement-and-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "History",
@@ -707,7 +847,9 @@
         "end_page": 852,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "World_History_and_Revision_MCQs.md"
+        "filename": "World_History_and_Revision_MCQs.md",
+        "target_id": "world-history-and-revision-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Geography",
@@ -717,7 +859,9 @@
         "end_page": 891,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "World_Geography_Cosmology_and_MCQs.md"
+        "filename": "World_Geography_Cosmology_and_MCQs.md",
+        "target_id": "world-geography-cosmology-and-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Geography",
@@ -727,7 +871,9 @@
         "end_page": 929,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Indian_Geography_Resources_and_MCQs.md"
+        "filename": "Indian_Geography_Resources_and_MCQs.md",
+        "target_id": "indian-geography-resources-and-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Geography",
@@ -737,7 +883,9 @@
         "end_page": 946,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Environmental_Geography_and_MCQs.md"
+        "filename": "Environmental_Geography_and_MCQs.md",
+        "target_id": "environmental-geography-and-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Polity",
@@ -747,7 +895,9 @@
         "end_page": 971,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Constitutional_Framework_Rights_and_MCQs.md"
+        "filename": "Constitutional_Framework_Rights_and_MCQs.md",
+        "target_id": "constitutional-framework-rights-and-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Polity",
@@ -757,7 +907,9 @@
         "end_page": 990,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Union_Executive_Judiciary_and_MCQs.md"
+        "filename": "Union_Executive_Judiciary_and_MCQs.md",
+        "target_id": "union-executive-judiciary-and-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Polity",
@@ -767,7 +919,9 @@
         "end_page": 1005,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "State_Local_Governance_and_Master_MCQs.md"
+        "filename": "State_Local_Governance_and_Master_MCQs.md",
+        "target_id": "state-local-governance-and-master-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Economy",
@@ -777,7 +931,9 @@
         "end_page": 1022,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Macroeconomics_Five_Year_Plans_and_MCQs.md"
+        "filename": "Macroeconomics_Five_Year_Plans_and_MCQs.md",
+        "target_id": "macroeconomics-five-year-plans-and-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Economy",
@@ -787,7 +943,9 @@
         "end_page": 1038,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Banking_Inflation_Public_Finance_and_MCQs.md"
+        "filename": "Banking_Inflation_Public_Finance_and_MCQs.md",
+        "target_id": "banking-inflation-public-finance-and-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Economy",
@@ -797,7 +955,9 @@
         "end_page": 1049,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "Economic_Sectors_and_Master_Revision_MCQs.md"
+        "filename": "Economic_Sectors_and_Master_Revision_MCQs.md",
+        "target_id": "economic-sectors-and-master-revision-mcqs",
+        "target_chapter": "arithmetic"
     },
     {
         "subject": "Current_Affairs",
@@ -807,6 +967,8 @@
         "end_page": 1092,
         "derived_total_pages": 4,
         "has_answers": true,
-        "filename": "General_Knowledge_Static_Review.md"
+        "filename": "General_Knowledge_Static_Review.md",
+        "target_id": "general-knowledge-static-review",
+        "target_chapter": "arithmetic"
     }
 ]

@@ -1,213 +1,184 @@
-**Chapter Overview: Organic Chemistry Fundamentals**
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">ORGANIC CHEMISTRY</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-*Organic chemistry deals with the study of carbon-based compounds, their properties, and their reactions. This chapter aims to cover the fundamental concepts of organic chemistry, including the empirical relationship between mean, median, and mode, statistical analysis, and graphical representation of data.*
+Common name Chemical name Formula Uses Salt cake Sodium sulphate Na 2SO 4 It used in the manufacture of glass, ceramic glazes, soaps and sodium salts. Tear gas Chloropicrin CCl 3NO 2 (or chloro compounds or NH 3) It is used as a riot control agent. Vinegar Acetic acid CH 3COOH It is mainly used as cooking ingredient or in pickling.
 
-## 1. Empirical Relationship Between Mean, Median, and Mode
+Washing soda Sodium carbonate decahydrate Na 2CO 3 ⋅10 H 2O (i) It is used in manufacturing of glass borax, paper etc. (ii) To remove parmanent hardness of water.
 
-In statistics, the mean, median, and mode are three measures of central tendency. The empirical relationship between these measures is given by the formula:
+Water glass Sodium silicate Na 2SiO 3.
 
-Mode = 3(Median) - 2(Mean)
+It is used as coagulant/deflocculant agent in wastewater treatment places. White vitriol Zinc sulphate ZnSO 4 ⋅7 H 2O It is used for preserving skins and wood, in the electro deposition of zinc etc. ORGANIC COMPOUNDS – First member is C2H4, (CH CH2 2== ) known as ethylene or ethene.
 
-This relationship holds true for any distribution. In case the mean and median are equal, the distribution is said to be a symmetric distribution.
+– Ethene is used in the manufacture of plastics, for artificial ripening of fruits (banana, apple and orange), as an anaesthesia etc. (ii) Alkynes or Acetylenes (—C≡≡C—) – General formula C H Type formula R—C≡≡C—H • Chemistry of hydrocarbons and their derivatives are called organic compounds which deal with an organic chemistry.
 
-### Example 18: Finding the Mode
+• Urea (NH CONH ) was the first organic compound prepared in laboratory. It was prepared by Wohler.
 
-If the mean and median of a frequency distribution are 20 and 21 respectively, then find the approximate value of the mode.
+• Acetic acid (CH COOH) was the first organic compound synthesised from its elements by Kolbe.
 
-$$ Mode = 3 \times Median - 2 \times Mean $$
+• Main sources of organic compounds are plants, animals, coal and petroleum.
 
-Plugging in the given values, we get:
+– Common name Acetylene, IUPAC name Alkynes. HYDROCARBONS – Acetylene (C H 2) is the first member of the series. Hydrocarbons are the compounds made up of carbon and hydrogen only. These are of two types:
 
-$$ Mode = 3 \times 21 - 2 \times 20 $$
-$$ Mode = 63 - 40 $$
-$$ Mode = 23 $$
+– It is used in oxyacetylene torch and for welding in acetylene lamps. 1.Saturated Hydrocarbons or Paraffins or Alkanes (Contain C—C Bond) – Alkynes can be distinguished from alkenes by the reaction with Tollen’s reagent (ammoniacal silver nitrate).
 
-## 2. Statistical Analysis
+• General formula C H 2 + 2 where, n = 1 2 3 , , , ...
 
-In statistical analysis, we often come across the concept of mean deviation, which is the average deviation of the data from the mean.
+Aromatic Hydrocarbons • General formula CnH2 n − • Common name Arenes • Most of these compounds contain benzene ring. e.g.
 
-### Mean Deviation for Individual Series
+benzene, toluene, naphthalene, etc.
 
-The mean deviation for an individual series is given by:
+• Benzene (C6H6) was first synthesised by Berthelot. It is used in the production of various organic compounds, as a solvent and fuel in motor vehicle when mixed with petrol, etc.
 
-$$ \text{Mean Deviation} = \frac{\sum |d_i|}{n} $$
+• All the carbon atoms in alkanes are sp3-hybridised. They show chain isomerism.
 
-where $d_i$ is the deviation of each data point from the mean, and $n$ is the number of data points.
+• Methane, CH4 is the first and least reactive member of the series. Its source is wet and marshy land. It is also present in the air exhaled by animals whose food contains cellulose.
 
-### Mean Deviation for Discrete Series
+• Cavities in coal contains 90% methane. It is called fire-damp. It is responsible for the explosions occurring in coal mines.
 
-The mean deviation for a discrete series is given by:
+• It is used as a gaseous fuel, for preparing carbon black and in the preparation of variety of organic compounds.
 
-$$ \text{Mean Deviation} = \frac{\sum f \cdot |d_i|}{\sum f} $$
+2. Unsaturated Hydrocarbons Contains Bond or Hydrocarbon Derivatives 1. Haloalkanes These further are of two types :
 
-where $f$ is the frequency of each class, and $d_i$ is the deviation of each class from the mean.
+• General formula C H 2 + 1 ⋅X (where, X = Cl, Br, I) (i) Alkenes or Olefins Type formula These are of three types:
 
-## 3. Graphical Representation of Data
+Primary alkyl halide, R—CH2—X R2 – General formula C H Type formula R == CH CH 2 Secondary alkyl halide, R1 CH – Common name Alkylene, IUPAC name Alkenes. GENERAL SCIENCE R2 Tertiary alkyl halide, R1 R3 • Ethanol changes the colour of sodium or potassium dichromate from orange to green. It is also used in the manufacture of paints, varnishes, in making transparent soop in the preparation of chloroform, as a fuel in internal combustion engines. It is used in alcoholic drinks, whisky, wine, beer, etc.
 
-Graphical representation of data is a visual way of depicting the frequency distribution of a set of data. There are several types of graphical representations, including bar graphs, histograms, frequency polygons, and ogives.
+• Common name Alkyl halide; IUPAC name Haloalkane.
 
-### Bar Graphs
+3. Ethers • General formula C H + 2 • Trihalo methane are called haloforms, e.g.
 
-A bar graph is a graphical representation of a set of data, where the height of each bar represents the frequency of the data.
+chloroform (CHCl ) 3 , iodoform (CHI ) 3 , etc.
 
-### Histograms
+• Common name Dialkyl ether • IUPAC name Alkoxy alkane • Ethers behave like Lewis bases.
 
-A histogram is a graphical representation of a frequency distribution, where the base of each rectangle represents the class interval, and the height of each rectangle represents the frequency of the class.
+• Diethyl ether ( C H OC H 5 is used as an industrial solvent and also as an anaesthesia.
 
-> **Edge Case:** If the class intervals are not of the same size, the histogram may not be accurately represented.
+• Chloroform oxidises to COCl2 (carbonyl chloride or phosgene gas) in the presence of air and light.
 
-### Frequency Polygons
+So, it is kept in closed dark coloured bottles and mixed with ethyl alcohol which acts as negative catalyst and form non-poisonous, ethyl carbonate with COCl2.
 
-A frequency polygon is a graphical representation of a frequency distribution, where the mid-points of each rectangle are connected to form a line.
+4. Aldehydes • Chloroform is used as a general anaesthetic.
 
-> **Critical Alert:** Frequency polygons should only be used for continuous data.
+• General formula C H CHO + 1 or C H O • IUPAC name Alkanal • Chloropicrin (CCl NO ) is used as an insecticide and also called tear gas. Carbon tetrachloride CCl4 is used for extinguishing fire under the name pyrene.
 
-## 4. Ogives (Cumulative Frequency Curves)
+• 40% solution of formaldehyde is called formalin and used in the preservation of dead animals.
 
-An ogive is a graphical representation of a frequency distribution, where the upper or lower class limits are plotted along the x-axis, and the cumulative frequencies are plotted along the y-axis.
+• Benzaldehyde is almond extract.
 
-> **High-Frequency Trend:** Ogives are often used to visualize the cumulative frequency distribution of a set of data.
+• Paraldehyde (a carbonyl compound) is used as a hypnotic.
 
-**Practice Questions**
+• Ethylene dibromide is added to petrol in place of tetraethyl lead to save the environment from lead pollution.
 
-Q1. Sample high-yield question 1 regarding Organic Chemistry?
-  [A] Concept parameter 1
-  [B] Concept parameter 2
-  [C] Concept parameter 3
-  [D] Concept parameter 4
-Correct Option: C
+• Eugenol is an active component of clove oil.
 
-Q2. Sample high-yield question 2 regarding Organic Chemistry?
-  [A] Concept parameter 1
-  [B] Concept parameter 2
-  [C] Concept parameter 3
-  [D] Concept parameter 4
-Correct Option: B
+5. Ketones • Chlorofluorocarbons (freons or CFC) are used as refrigerants. They contain carbon, chlorine, hydrogen and fluorine and destroy the ozone layer.
 
-Q3. Sample high-yield question 3 regarding Organic Chemistry?
-  [A] Concept parameter 1
-  [B] Concept parameter 2
-  [C] Concept parameter 3
-  [D] Concept parameter 4
-Correct Option: C
+• General formula C H or ( C H 1 2 • IUPAC name Alkanone.
 
-Q4. Sample high-yield question 4 regarding Organic Chemistry?
-  [A] Concept parameter 1
-  [B] Concept parameter 2
-  [C] Concept parameter 3
-  [D] Concept parameter 4
-Correct Option: A
+2. Alcohols • General formula C H OH + 1 • Ketones containing — COCH 3 (methyl ketonic group) gives yellow colour (iodoform) in iodoform test.
 
-Q5. Sample high-yield question 5 regarding Organic Chemistry?
-  [A] Concept parameter 1
-  [B] Concept parameter 2
-  [C] Concept parameter 3
-  [D] Concept parameter 4
-Correct Option: B
+• Acetone (CH COCH 3) is the first member of this class.
 
-Q6. Sample high-yield question 6 regarding Organic Chemistry?
-  [A] Concept parameter 1
-  [B] Concept parameter 2
-  [C] Concept parameter 3
-  [D] Concept parameter 4
-Correct Option: C
+• Common name Alkyl alcohol; IUPAC name Alkanol.
 
-Q7. Sample high-yield question 7 regarding Organic Chemistry?
-  [A] Concept parameter 1
-  [B] Concept parameter 2
-  [C] Concept parameter 3
-  [D] Concept parameter 4
-Correct Option: D
+• Acetone is used as nail polish remover. However, now-a-days, acetone free removers are in common use. Its main ingredient is ethyl acetate or butyl acetate.
 
-Q8. Sample high-yield question 8 regarding Organic Chemistry?
-  [A] Concept parameter 1
-  [B] Concept parameter 2
-  [C] Concept parameter 3
-  [D] Concept parameter 4
-Correct Option: A
+• Primary alcohol is R—CH2OH, secondary alcohol is R2CH OH and tertiary alcohol is R3C—OH.
 
-Q9. Sample high-yield question 9 regarding Organic Chemistry?
-  [A] Concept parameter 1
-  [B] Concept parameter 2
-  [C] Concept parameter 3
-  [D] Concept parameter 4
-Correct Option: A
+• Methyl Ethyl Ketone (MEK) is used as paint stripper.
 
-Q10. Sample high-yield question 10 regarding Organic Chemistry?
-  [A] Concept parameter 1
-  [B] Concept parameter 2
-  [C] Concept parameter 3
-  [D] Concept parameter 4
-Correct Option: C
+• Lucas reagent (conc. HCl + anhydrous ZnCl2) is used to distinguish between primary, sec and tert-alcohols.
 
-**Detailed Answer Explanations**
+• Aldehydes and ketones having α-hydrogen atom give aldol condensation. Such carbonyl compounds which have α-hydrogen atom undergo condensation in the presence of dilute base to form aldol.
 
-Q1: Sample high-yield question 1 regarding Organic Chemistry?
+6. Carboxylic Acids • CH OH is produced by the destructive distillation of wood, hence also known as, wood spirit, methyl alcohol, methanol or carbinol. It is used as a solvent for paints and varnishes, in making dyes, drugs, perfumes and also used as motor fuel with petrol.
 
-Correct Option: C
+• General formula C H COOH + 1 or C H 2; IUPAC name Alkanoic acid.
 
-Explanation: The correct option is C because it is a fundamental concept in Organic Chemistry.
+• First member of the carboxylic acid series is formic acid, HCOOH, which is present in ant’s or bee’s sting.
 
-Q2: Sample high-yield question 2 regarding Organic Chemistry?
+• The destructive distillation of wood yields wood gas (gaseous), tar (liquid), charcoal (solid residue), methyl alcohol (liquid) and acetic acid (vinegar).
 
-Correct Option: B
+• HCOOH is the strongest acid among the carboxylic acids.
 
-Explanation: The correct option is B because it is a crucial concept in Organic Chemistry that helps in understanding the structure and properties of molecules.
+• CH COOH is the ethanoic or acetic acid (vinegar).
 
-Q3: Sample high-yield question 3 regarding Organic Chemistry?
+• Various products obtained by the destructive distillation of coal are coal gas (H2 + CH4 + CO), ammoniacal liquor, coal tar and coke.
 
-Correct Option: C
+• Vinegar contains 6-10 % acetic acid. Acetic acid is used in the manufacture of rubber from latex and casein from milk. It is used for coagulation.
 
-Explanation: The correct option is C because it is a key concept in Organic Chemistry that helps in understanding the reaction mechanisms and pathways.
+• Lactic acid is α-hydroxy propanoic acid. It is present in milk and provides it sour taste.
 
-Q4: Sample high-yield question 4 regarding Organic Chemistry?
+• CH CH OH is ethyl alcohol or ethanol or grain alcohol. It is made unfit for drinking purpose by adding methanol or pyridine. Such alcohol is called methylated spirit or denatured alcohol.
 
-Correct Option: A
+• Citric acid is a hydroxy tricarboxylic acid. It is present in citrus fruits.
 
-Explanation: The correct option is A because it is a fundamental concept in Organic Chemistry that helps in understanding the properties and behavior of molecules.
+• Oxalic acid removes rust stains.
 
-Q5: Sample high-yield question 5 regarding Organic Chemistry?
+• Salicylic acid is used to prepare aspirin (o-acetyl salicylic acid).
 
-Correct Option: B
+• These are used in making artificial perfumes, flavours and essence used in cold drinks, ice-creams, etc.
 
-Explanation: The correct option is B because it is a critical concept in Organic Chemistry that helps in understanding the spectroscopic properties of molecules.
+• Sodium benzoate is used as a food preservative.
 
-Q6: Sample high-yield question 6 regarding Organic Chemistry?
+• These have characteristic sweet fruity smell.
 
-Correct Option: C
+7. Esters Ester Flavour Ester Flavour Amyl acetate Banana Isoamyl valerate Apple Octyl acetate Orange Methyl butyrate Pineapple • General formula C H COO or C H O • IUPAC name Alkyl alkanoate.
 
-Explanation: The correct option is C because it is a foundational concept in Organic Chemistry that helps in understanding the thermodynamics and kinetics of reactions.
+MAN-MADE MATERIALS SOAPS Soaps are the sodium or potassium salts of long chain carboxylic (fatty) acids (RCOONa) e.g. sodium palmitate (C H COON a), sodium stearate ( C H COONa and sodium oleate (C H COONa ) etc. Animal fat or vegetable oil, sodium hydroxide, sodium chloride act as the raw materials for the manufacture of ordinary soap. The process of making soap is called saponification.
 
-Q7: Sample high-yield question 7 regarding Organic Chemistry?
+• Soaps do not form lather with hard water due to the formation of scum.
 
-Correct Option: D
+• When the medium is acidic, soaps form insoluble long chain fatty acids and hence, lost their cleansing action.
 
-Explanation: The correct option is D because it is a fundamental concept in Organic Chemistry that helps in understanding the molecular structure and properties.
+DETERGENTS • These are also called “soap-less” soaps as they do not contain any soap.
 
-Q8: Sample high-yield question 8 regarding Organic Chemistry?
+3. Semi-synthetic Polymers These are synthesised by man from natural substances, e.g. rayon (a polymer of cellulose nitrate) is also called artificial silk due to its silk like appearance.
 
-Correct Option: A
+On the basis of intermolecular forces, these are classified as:
 
-Explanation: The correct option is A because it is a key concept in Organic Chemistry that helps in understanding the reaction mechanisms and pathways.
+1. Elastomers In these polymers, the polymer chains are held together by weak van der Waals’ forces, e.g.
 
-Q9: Sample high-yield question 9 regarding Organic Chemistry?
+vulcanised rubber.
 
-Correct Option: A
+2. Fibres In this type, polymer chains are attached with one another through H-bonds, e.g. nylon-6,6.
 
-Explanation: The correct option is A because it is a foundational concept in Organic Chemistry that helps in understanding the properties and behavior of molecules.
+3. Thermoplastics In these, the intermolecular forces are intermediate of elastomers and fibres. These are soften on heating and become hard on cooling, e.g.
 
-Q10: Sample high-yield question 10 regarding Organic Chemistry?
+polystyrene, polythene, PVC, etc.
 
-Correct Option: C
+4. Thermosetting These are highly cross-linked, hard, non-fusible and insoluble polymers. These can only be moulded into desired shape on heating once. e.g.
 
-Explanation: The correct option is C because it is a critical concept in Organic Chemistry that helps in understanding the spectroscopic properties of molecules.
+bakelite (phenol-formaldehyde resin), melamine, etc.
 
-```mermaid
-graph LR
-    A1 -->|Concept|> A2
-    A2 -->|Definition|> A3
-    A3 -->|Examples|> A4
-    A4 -->|Key Term|> A5
-    A5 -->|Formula|> A6
-    A6 -->|Explanation|> A7
-```
+• These are the long chain benzene sulphonic acid or the sodium salt of the long chain alkyl hydrogen sulphate.
+
+Some Important Synthetic Polymers • Polyethylene (polythene) The monomer units are ethylene molecules. It is frequently used in making coats, milk cartons and electrical insulation.
+
+• Long chain hydrocarbons, sulphuric acid and sodium hydroxide are the raw materials for the manufacturing of detergents.
+
+• These are non-biodegradable and cause water pollution However, straight chain detergents are biodegradable.
+
+• They form lather with soft as well as hard water.
+
+• Polystyrene The monomer units are styrene molecules.
+
+It is a white thermoplastic material and is used for making toys, combs, lining material for refrigerators and TV cabinets. Polymers • Teflon (Polytetrafluoroethylene) The monomer unit is tetrafluoroethylene molecule. It is very tough material. It is a bad conductor of electricity and is used in coating utensils, making seals, baskets, pipes, flooring, etc. A polymer is a compound of high molecular weight formed by the union of a large number of molecules of one or two types of low molecular weight (known as monomers) and the process involving the formation of a polymer is called polymerisation.
+
+• Polyvinyl Chloride (PVC) The monomer units are vinyl chloride molecules. PVC is a hard, horny material.
+
+It is resistant to chemicals as well as heat. It is used for making raincoats, hand bags, electrical insulators and floor covering.
+
+• Nylon or Nylon-6, 6 It was first fully synthetic fibre and has good elasticity, low water absorption and wrinkle resistant. It has also high tensile strength. It is used in making fishing nets, tyre cord, parachute fabrics, ropes, etc.
+
+Types of Polymers On the basis of their origin, the polymers are classified in the following manner:
+
+1. Natural Polymers These are found in nature, e.g.
+
+cellulose, starch, rubber, wool ,silk etc.
+
+2. Synthetic Polymers These are prepared in the laboratory by synthetic means, e.g. polythene, nylon, orlon, dacron, etc.
+
+
+</div>

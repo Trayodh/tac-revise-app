@@ -1,638 +1,158 @@
-# Sentence Completion
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">SENTENCE COMPLETION</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-## Pages 1-2: The Base Framework (Pathfinder)
+Sentence Completion SENTENCE COMPLETION Generally, 10 to 15 questions based on sentence completion are asked in CDS exam. The question can be based on a sentence or paragraph format. The candidate has to choose to fill the blank from the given options. Sentence completion comprises of filling up of the gaps given in a particular sentence individually or in a passage. The sentence has a blank and is followed by four options. A candidate has to pick the correct option to fill the blank in order to make the sentence meaningful and grammatically correct. A candidate should read the given sentence first and try to deduce the meaning of the statement. After that, the inferred meaning should be matched with the given options. The closest inferential word is to be selected as the choice.
 
-**Core Theory & Definitions**
+Language Skills Required for Sentence Completion Sentence completion becomes a great ease when a student is well-versed in these areas of languages Using correct adjective forms Words followed by prepositions Idioms, phrases and phrasal verbs Noun and its forms Using the correct verb form Apart from all these, a good command over vocabulary also helps a candidate in solving questions on Sentence Completion correctly. SENTENCE COMPLETION EXERCISE SINGLE SENTENCE COMPLETION SET1 10. We are not sure, if their business is strictly ……… . (a) prudent (b) honest (c) judicious (d) legitimate 19. The majority of village folk in India are illiterate and ……… superstitious.
+
+(a) overtly (b) delicately (c) stubbornly (d) covertly Directions (Q.Nos. 1-57) Pick out the most effective word from the given words to fill in the blank to make the sentence meaningfully complete.
+
+20. I must admit that my parents stood by me in my times of ……… .
+
+(a) passion (b) duress (c) involvement (d) criticism 1. The two sisters look so ……… that it is difficult to tell one from the other. (a) same (b) similar (c) identical (d) alike 11. The claims made by the manufacturer of the product are so extravagant that only the ……… will accept them on face value. (a) cynical (b) gullible (c) rich (d) indifferent 21. Even, if it rains all day I will not be able to ……… my journey.
+
+(a) put by (b) put out (c) put off (d) put away 2. Since one cannot read every book, one should be content with making a ……… selection. (a) normal (b) standard (c) sample (d) judicious 12. Justice should be ……… even-handedly. (a) discharged (b) performed (c) declared (d) administered 22. Help yourself ……… whatever you can use without wasting.
+
+(a) with (b) to (c) in (d) for 3. Success comes to those, who are vigilant not to permit ……… from the chosen path. (a) diversion (b) deviation (c) obstruction (d) alienation 23. Indigenous products are now comparable ……… imported goods in quality. (a) against (b) to (c) than (d) from 13. The leader of the opposition party condemned the communal riots in ……… terms.
+
+(a) unambiguous (b) unparliamentary (c) unequivocal (d) uncontrollable 4. His actions had ……… pain and suffering on thousands of people. (a) deplored (b) eliminated (c) affected (d) inflicted 14. They should spend less time ……… about and more with their children. (a) gallivanting (b) gravitating (c) frisking (d) flirting 24. The Director pointed out in favour of the manager that the profitability of the plant had ……… since he had taken over.
+
+(a) added (b) arisen (c) increased (d) declined 5. He has good ……… over the famous world languages. (a) authority (b) expertise (c) hold (d) command 25. Madan ……… the first prize in this competition. (a) have won (b) win (c) has won (d) is winning 15. The government’s handling of the situation led to ……… violations of human rights.
+
+(a) tumultuous (b) obvious (c) ostensible (d) flagrant 6. The lions in the Gir forest are protected as they come under ……… species. (a) dangerous (b) engendered (c) enamoured (d) endangered 16. A bullet ……… his cheek. (a) grazed (b) glazed (c) grasped (d) screamed 26. In large cities, people are cut ……… from nature.
+
+(a) down (b) out (c) off (d) away 7. People, who have an ……… reputation are often avoided by the rest. (a) unsteady (b) unsavory (c) unsafe (d) unsatisfied 27. As a general rule, politicians do not ……… centre stage. (a) foster (b) forbid (c) forgive (d) forsake 17. The injured man was still groggy and could only give a ……… account of the accident.
+
+(a) garish (b) gangling (c) garbled (d) garrulous 8. My father was too ……… to push open the heavy door. (a) timid (b) faint (c) feeble (d) faltering 18. The teacher’s counsel had a ……… effect on the mischievous student’s conduct. (a) memorable (b) salutary (c) sudden (d) forceful 28. We cannot go on strike every year. Now, that we have gone on strike we must ……… this issue.
+
+(a) canvass (b) cross (c) clinch (d) culminate 9. He does not suffer from any ……… disease at all. (a) acute (b) chronic (c) temporary (d) irregular Sentence Completion 49. The non-cooperative attitude of the members can only ……… the image of the society. (a) spoil (b) improve (c) degrade (d) defame 29. Indications are that the government is ……… to the prospect of granting bonus to the striking employees.
+
+(a) relieved (b) aligned (c) obliged (d) reconciled 38. The Earth is at present in great danger of becoming uninhabitable because of ……… environmental pollution, which is going on at an incredibly rapid pace. (a) gigantic (b) inhuman (c) stupendous (d) colossal 50. Our friends are not able to take us in their car; we must make ……… arrangements to go to the airport. (a) alternative (b) another (c) alternate (d) possible 30. I was totally ……… by his line of thinking and could not put forth any argument.
+
+(a) refuted (b) non-plussed (c) degraded (d) exhausted 39. It was indeed unreasonable ……… him to leave this job and start business. (a) in (b) with (c) upon (d) of 51. Many ……… decisions were taken at the meeting. (a) hectic (b) historic (c) historical (d) historinic 31. The ……… study on import of natural gas from Iran through pipeline would be completed shortly.
+
+(a) natural (b) economic (c) feasibility (d) calculated 40. Rohit behaves strangely at times and therefore, nobody gets ……… with him. (a) about (b) through (c) along (d) up 52. We had to pay more taxi fare because the driver brought us by a ……… route. (a) circular (b) circumscribed (c) longest (d) circuitous 32. Man is ………, however, he is more in need of mental companionship than of physical companionship.
+
+(a) biological (b) egoistic (c) gregarious (d) democratic 41. It was difficult to remove my feet as it had got stuck ……… in the mud. (a) fairly (b) greatly (c) widely (d) firmly 53. The team was well trained and strong, but somehow their ……… was low. (a) feeling (b) moral (c) consciousness (d) morale 42. Due to security reasons, we were ……… entry to the assembly hall.
+
+(a) stopped (b) denied (c) warned (d) rejected 33. Shivalal ……… classical music. He always prefers Bhimsen Joshi to Asha Bhonsale and Pandit Jasraj to Kumar Sanu. (a) adores (b) cares (c) cultivates (d) apprehends 54. The ……… brought against the ministry was rejected by a vast majority in the Lower House of Parliament.
+
+(a) bill (b) motion (c) decree (d) suit 43. ……… the arrival of the police, nobody went near the victim. (a) Unless (b) Although (c) Even (d) Till 34. He is the best man for this job.
+
+He has mental ……… to carry it out.
+
+(a) adroitness (b) durability (c) persuasion (d) predilection 55. Owing to the power cut in the area, factories are being forced to ……… men. (a) throw away (b) send off (c) put off (d) lay off 44. The car in which the minister was travelling ……… with an accident. (a) hit (b) drove (c) crashed (d) met 35. We still have not given our ……… to conduct the survey of natural resources in our state.
+
+(a) consent (b) request (c) provision (d) projection 45. Divya always ……… the permission of her father before going for movies. (a) seeking (b) seeks (c) sought (d) seeker 56. In a changing and ……… unstructured business environment, creativity and innovation are being ……… demanded of executives. (a) highly, extremely (b) progressively, increasingly (c) increasingly, moderately (d) excessively, rapidly 36. His party is solely to be blamed for the political ……… in the country.
+
+(a) revival (b) degradation (c) stalemate (d) devaluation 46. It ……… that Punit will not be selected for the post. (a) feels (b) looks (c) believes (d) seems 47. Namrata was found to ……… the required qualifications for the job. (a) contain (b) disclose (c) posses (d) acquire 57. Moreover, a fact finding mission ……… by BSN to India in January this year strongly recommended that the French group should do it alone and not hand over ……… to an Indian Partner.
+
+(a) organised, papers (b) constituted, authority (c) sponsored, power (d) dispatched, control 48. I purposely ……… meet you during my last visit to Kashmir. (a) didn’t (b) won’t (c) hadn’t (d) wouldn’t 37. Now, the management graduate can expect to have a prosperous life on a ……… income without having to depend on finding a place in family business having to tend the paternal estates. (a) professional (b) regular (c) meaningful (d) dependable SENTENCE COMPLETION IN PASSAGE SET2 Directions (Q. Nos. 1-126) In the following passage at certain points you are given a choice of three words, one of which fits the meaning of the passage. Choose the word which best fits the meaning of the passage and mark the corresponding letter viz (a), (b) or (c).
+
+PASSAGE 1 The Panchatantra is a compilation of inter-woven series of tales in prose and poetry, mostly animal fables. It was 1. (a) compiled in Sanskrit (Hindu) and Pali (Buddhist). The compilation, 2. (a) tributed to Pandit Vishnu Sharma, is (b) sampled (b) treated (c) labelled (c) attributed considered by most 3. (a) soldiers to be dated 4. (a) round 3rd century BCE.Through cross border mutations, adaptations (b) scholars (b) around (c) sources (c) found and translations, the Panchantantra remains the 5. (a) more popular work of 6. (a) diction, especially 7. (a) between (b) most (b) literature (b) upon (c) host (c) creatures (c) among storytellers. Tales of this 8. (a) ancient Indian work, the original 9. (a) texts of which is now long lost, portray the origins (b) relevant (b) message (c) gracious (c) branch of the 10. (a) subcontinents language and primitive 11. (a) lifestyle - apart from 12. (a) their objectives, according to its (b) subcontinent’s (b) freestyle (b) its (c) sub-continent’s (c) profile (c) theirs own 13. (a) narrator, to illustrate the primary Hindu 14. (a) principals of nïti the 15. (a) wise conduct of life. The (b) narration (b) principle (b) well (c) narrative (c) principles (c) wan Panchatantra 16. (a) consisted of 5 parts, apart from a 17. (a) brief introductory narrative. (b) consisting (b) breif (c) consists (c) briefly PASSAGE 2 I participated last week in a day long festival of ideas and conversation on gender empowerment. It was a 18. (a) panelist (b) panels (c) panel discussion 19. (a) with Sharmila Tagore, moderated by a professor 20. (a) in media studies. The discussion was titled, (b) while (b) on (c) among (c) of ‘Taming of the Heroine’. While 21. (a) no of us had been 22. (a) tamed, we had enough 23. (a) storeys to share about (b) either (b) blamed (b) story (c) neither (c) tames (c) stories navigating 24. (a) over the boys club in the film 25. (a) industry. Though what stayed with 26. (a) I was a disturbing (b) under (b) industrious (b) my (c) through (c) trust (c) me 27. (a) on hand question by a 28. (a) women in the audience - “Will our 29. (a) being strong hurt our 30. (a) feminine?” (b) off (b) woman (b) beings (b) family (c) over (c) womans (c) be (c) feminity Being feminine is a burden that 31. (a) most women carry, be it a newsreader or a head of 32. (a) states. At all times we (b) more (b) stately (c) much (c) state Sentence Completion 33. (a) most exhibit our feminity in what we wear and how we 34. (a) behaves. Even more so the 35. (a) motion of beauty (b) must (b) behaved (b) notion (c) mostly (c) behave (c) potion and what it is to be a 36. (a) woman gets more 37. (a) and more standardised. (b) women (b) or (c) man (c) if PASSAGE 3 Remember that epic commercial in which an Indian buys the East India Company. He steps out of a long car and 38. (a) survey this long building, which (just so there is no confusion) is emblazoned 39. (a) in the sign ‘East India (b) surveyed (b) with (c) surveys (c) on Company’. An obsequious 40. (a) looks white dude sidles up and 41. (a) asks him, “Sir, Why did you purchase (b) looking (b) asking (c) looked (c) asked 42. (a) these company?” And our hero replies,“200 years 43. (a) early, this company purchased my country. Today, I (b) this (b) earlier (c) that (c) ago purchased this 44. (a) companies.” And then he 45. (a) popped Rajnigandha Pan Masala into 46. (a) he mouth. Clearly (b) accompany (b) pops (b) mine (c) company (c) poppy (c) his inspired 47. (a) by this brilliant 48. (a) peace of copy, 49. (a) a makers of another pan masala have gone 50. (a) ahead (b) from (b) pieces (b) an (b) below (c) on (c) piece (c) the (c) beyond and purchased an ex-James Bond to 51. (a) sail their brand of poison to 52. (a) India still foolish enough to aspire (b) sell (b) Indians (c) sold (c) India’s 53. (a) too the outdated Bond fantasy. The resultant 54. (a) films has all the appeal of the gobi-aloo topped Pizza and (b) till (b) film (c) to (c) filmed reminds 55. (a) me somehow of those 56. (a) noble Siberian huskies one sometimes sees being dragged 57. (a) along the (b) my (b) noblest (b) on (c) I (c) nobler (c) upon pavement by drivers.
+
+PASSAGE 4 A child was standing on a street corner. He leaned with one shoulder against a high board-fence and swayed the other to and fro, while kicking carelessly at the gravel. Sunshine beat upon the cobbles, and a 58. (a) lazier summer wind raised (b) lazy (c) crazy yellow dust which trailed 59. (a) on clouds down the avenue. Clattering trucks moved with indistinctness 60. (a) through (b) in (b) into (c) into (c) along it. The child 61. (a) stand dreamily gazing. After a time a little dark-brown dog came trotting 62. (a) in an intent air (b) stood (b) with (c) stole (c) on down the sidewalk. A short 63. (a) rope was dragging from his 64. (a) nape. Occasionally he trod 65. (a) upon the end of (b) rock (b) head (b) on (c) roll (c) neck (c) in it and stumbled. He stopped opposite the child, and the 66. (a) too regarded each other. The dog hesitated for a (b) to (c) two 67. (a) movement, but he made some little advances with his tail. The child put 68. (a) on his hand and called (b) moments (b) out (c) moment (c) off 69. (a) himself. In an apologetic 70. (a) manner the dog came close, and the two had 71. (a) an interchange of friendly (b) his (b) mannered (b) a (c) him (c) manners (c) the pattings and 72. (a) waggles.
+
+(b) waggle.
+
+(c) wag.
+
+PASSAGE 5 In recent years I’ve come across a number of instances in which students have developed devices and apps to help seniors and the disabled. But I was 73. (a) genuine impressed by a creation of a 12 74. (a) years old. Emma Yang was (b) genuinely (b) ear (c) gainly (c) year 75. (a) one of the recipients of the “Ten under Twenty” 76. (a) renovation awards announced at this year’s CE Week (b) ones (b) convocation (c) only (c) innovation conference 77. (a) on New York. Her creation, called Timeless, is 78. (a) a app that serves to help Alzheimer’s (b) at (b) an (c) in (c) at 79. (a) patient, their caregivers, and 80. (a) there families. Emma was inspired to create “Timeless” 81. (a) to her (b) patience (b) those (b) by (c) patients (c) their (c) as frustration in trying to connect with 82. (a) his grandmother who lives in Hong Kong.“When I 83. (a) were 8 years old, (b) hers (b) is (c) her (c) was my grandmother thought 84. (a) my was 13. And then one day she forgot my 85. (a) birthday. My grandma suffers (b) I (b) birthdays (c) me (c) berthday 86. (a) with Alzheimer’s disease. She lives in Hong Kong and we live in New York. The 87. (a) distances makes it hard (b) on (b) distant (c) from (c) distance to stay engaged with her’’. PASSAGE 6 Once there lived a pious Brahmin in a village. He used to 88. (a) perform religious rituals. On one occasion he was (b) performs (c) performing rewarded with a cow by a rich man for his 89. (a) serviced. The Brahmin started to bring the cow to his home. On the (b) servitude (c) service way, three rogues saw the Brahmin bringing 90. (a) a cow. They 91. (a) were lazy and wanted to cheat the Brahmin so (b) an (b) was (c) the (c) her Sentence Completion that they could 92. (a) took away the cow. They hatched a plan. The first person approached the Brahmin and said, (b) takes (c) take ”Are you a washer-man that you are pulling a donkey?” The Brahmin was annoyed 93. (a) on being mistaken for a (b) off (c) at washer-man. He went on. A little later he was met by the second of the rogues. The second person asked him why being a brahmin he needed to 94. (a) push a pig. Now, the Brahmin was confused but he went on. Some distance later he was (b) pulled (c) pull met by the third person who asked him why he was pulling along a wild animal. Now, the Brahmin was 95. (a) totally (b) total (c) totaled confused and also afraid. He thought that it was a devil animal which took different forms. He ran away leaving the cow 96. (a) besides. The three 97. (a) tricksters laughed at the Brahmin. (b) behind (b) trickers (c) beside (c) trickster PASSAGE 7 At that time, The White House was as serene as a resort hotel out of season. The corridors were 98. (a) striking (b) hollow (c) empty in the various offices. 99. (a) Quiet gray men on waistcoats talked to one another in low-pitched voices. The only color (b) Faded (c) Loud or choler, curiously enough, was provided by the President Eisenhower himself. Apparently, his 100. (a) laughter was (b) curiosity (c) temper easily set off; he scowled when he 101. (a) paced the corridors.
+
+(b) strolled (c) stalked PASSAGE 8 Someone 102. (a) pointed at the door. A lady opened it. A stranger was standing at the 103. (a) fence He said, “Madam, (b) knocked (b) gate (c) looked (c) compound please excuse me for 104. (a) disturbing you. May I ask you something ? I 105. (a) wait by your house everyday on my (b) harassing (b) watch (c) asking (c) pass 106. (a) office to work, I have 107. (a) decided that every day you hit your son on 108. (a) your head with a loaf of (b) steps (b) felt (b) his (c) way (c) noticed (c) my bread.’’ The lady replied, ‘‘Yes, that’s 109. (a) right.’’ The stranger asked, ‘‘ This morning, I saw you 110. (a) feeding (b) obvious (b) bestowing (c) surprising (c) hitting him with a chocolate. Why 111. (a) bread? The lady replied, ‘‘ Today is his birthday. Therefore, I hit him with a sweet (b) then (c) so thing.’’ PASSAGE 9 One day while I was discussing a new strategy to locate the wild dogs, a forest guard at Sariska informed me that about 15-16metres to the right of Pandupole road, a Chital lay killed apparently by wild dogs. This was difficult to 112. (a) presume because wild dogs usually do not leave 113. (a) behind any kill. They finish it 114. (a) up to the bone. (b) believe (b) away (b) over (c) know (c) after (c) off Still an examination would 115. (a) prove interesting information and vital clues about the 116. (a) predator. So, I (b) reveal (b) chital (c) involves (c) locator proceeded in the direction pointed 117. (a) out by the guard, Scanning the area, I 118. (a) found across the dead Chital. (b) to (b) located (c) man-eater (c) came The 119. (a) body had been opened but not 120. (a) now eaten. Its owner had 121. (a) probably dressed the dinner (b) corpse (b) yet (b) surely (c) carcass (c) at all (c) really ready for eating. I looked about for marks and 122. (a) when I found them, the marks 123. (a) frankly indicated the (b) where (b) openly (c) which (c) clearly presence of a canine. But 124. (a) what Jackals or wild dogs? Since, Jackals were active in Sariska independently (b) which (c) two 125. (a) having Chital-kills, the actual presence, 126. (a) about the wild dogs still remained doubtful.
+
+(b) hunting (b) of (c) making (c) regarding Directions (Q. Nos. 127-162) In each of the following passages, there are blanks each of which has been numbered. These numbers are given below the passage and against each, some words are suggested, one of which fits the blank appropriately. Find out the appropriate words. PASSAGE 10 After months of colder weather, the days get longer, the buds …(127)… in the trees, birds sing and the world …(128)… a green dress. Spring passes …(129)… summer. Everyone knows that summer will not …(130)… forever. The power of all the wisest men and women in the world cannot keep it for us. The corn becomes ripe, the leaves turn brown and then drop to the ground, …(131)… the world changes its green dress for a dress of autumn colours.
+
+127. (a) fall off (b) take up (c) put off (d) come out 128. (a) looks after (b) puts on (c) carries on (d) comes round 129. (a) into (b) by (c) from (d) on 130. (a) forego (b) evaluate (c) succumb (d) last 131. (a) yet (b) therefore (c) since (d) and PASSAGE 11 Throughout the ages, birds have been a source of wonder to all who have …(132)… their soaring flight or listened to their sweet song. …(133)… a group, birds are …(134)…, they are the only animals covered …(135)… feathers. This evolutionary development …(136)… birds from all other animals.
+
+132. (a) verified (b) supported (c) claimed (d) observed 133. (a) Like (b) Just (c) Still (d) As 134. (a) unique (b) common (c) mundane (d) indifferent 135. (a) by (b) on (c) with (d) as 136. (a) has been separated (b) separates (c) separated (d) was separated Sentence Completion 148. (a) make (b) create (c) cook (d) prepare 149. (a) instead (b) from (c) however (d) else 150. (a) no (b) not (c) neither (d) either 151. (a) lived (b) else (c) take/accept/put up with (d) must 152. (a) chapter (b) lesson (c) teaching (d) power PASSAGE 12 A century ago the process of choosing a career was a much simpler matter than it is today. A boy often followed in his father’s footsteps. His sister learned the household skills that …(137)… her to become a wife and mother. Now-a-days young people grow up in a much free society …(138)… they enjoy almost unlimited career opportunities. In recent years there …(139)… an enormous increase in the kinds of vocations from which it is possible to choose. In addition, many of the barriers to career opportunity that existed only a few decades ago, such as …(140)… based on sex or religion or ethnic origins are …(141)… disappearing.
+
+137. (a) had prepared (b) may prepare (c) was prepared (d) would prepare 138. (a) where (b) when (c) why (d) whom 139. (a) had been (b) has been (c) will be (d) would have been 140. (a) judgement (b) perception (c) goodwill (d) discrimination 141. (a) rapidly (b) incessantly (c) categorically (d) vigilantly PASSAGE 14 The guitar has a long history. The Ancient Egyptians …(153)… simple stringed instruments and the Greeks and the Romans also made music …(154)… plucking strings by their fingers. The first true guitar music came during the 15th …(155)… in Spain. At first it was an …(156)… for poor people and travelling musicians, but soon rich people all …(157)… Europe were learning to play the guitar.
+
+The guitar travelled far and fast. When Cortes reached Mexico in the 16th century he had a guitar player …(158)… his soldiers. A century later, the guitar was …(159)… played all over South America. The Spanish Americans made some changes to the instrument and developed their …(160)… style of playing. In North America new …(161)… of music, jazz and popular music especially, led to new kinds of guitar. In the modern world there are four main …(162)… of guitar: the classical, the flamenco, the steel stringed and electric guitars.
+
+153. (a) have (b) carried (c) covered (d) played 154. (a) with (b) before (c) from (d) by 155. (a) century (b) history (c) generation (d) class 156. (a) implements (b) device (c) gadget (d) instrument PASSAGE 13 Once there was an old woman who …(142)… in a shoe.
+
+This must have been very cramped and difficult because living …(143)… a shoe is not very comfortable, I expect. One day, she went out and there …(144)… some children playing in the street nearby where she lived. They began shouting …(145)… her. “You silly old woman, why do you live in a shoe?”. They shouted and other things like that. They were very insulting …(146)… the old woman. I don’t know, why the old woman had to live in a shoe, but she …(147)… have been very poor and it was not nice to …(148)… fun of the poor woman because she was so hard up that she had nowhere …(149)… to live. But children can be very cruel sometimes and this case was …(150)… exception. However, on this occasion the old woman didn’t just …(151)… their insults meekly, but became very angry and shouted “I will teach you a …(152)…”, she chased them with a cane.
+
+157. (a) around (b) in (c) over (d) about 142. (a) make (b) must (c) lived (d) else 158. (a) without (b) with (c) before (d) in front of 143. (a) whether (b) in (c) despite (d) within 159. (a) creature (b) individual (c) over all (d) being 144. (a) were (b) was (c) are (d) had 160. (a) hold (b) have (c) posses (d) own 145. (a) below (b) under (c) upon (d) at 161. (a) style (b) kinds/types (c) category (d) class 146. (a) till (b) to (c) until (d) based on 162. (a) made of (b) created of (c) kinds/types (d) made up of 147. (a) ought to (b) need not (c) might (d) must QUESTIONS FROM CDS EXAM (2012-2016) SINGLE SENTENCE COMPLETION SET1 2015 (II) Directions (Q.Nos. 1-30) Pick out the most effective word from the given words to fill in the blank to make the sentence meaningfully complete.
+
+11. We must not …… the real and important advances science has made.
+
+(a) oppose (b) question (c) ignore (d) doubt 2013 (I) 12. These trousers are too long, ..... the length please. (a) diminish (b) lessen (c) curtail (d) reduce 1. An accomplice is a partner in ............. (a) business (b) crime (c) construction (d) gambling 13. ‘‘What did you think of the film?’’ ‘‘……, I didn’t like it very much.’’ (a) To be honest (b) Being honest (c) To be fair (d) In honesty 2. A person, who pretends to be what he is not is called an ...........
+
+(a) imbiber (b) impresario (c) imitator (d) imposter 3. His .......... nature would not let him leave his office before 5 pm. (a) honest (b) selfish (c) unscrupulous (d) conscientious 14. He …… in this school since 2010. (a) studied (b) was studying (c) has been studying (d) had studied 4. The committee’s appeal to the people for money ......... little response.
+
+(a) evoked (b) provided (c) provoked (d) prevented 15. ‘‘His parents died when he was young.’’ ‘‘I think that’s why he has …… problems.’’ (a) too many (b) so many (c) any more (d) much more 5. Too many skyscrapers ......... the view along the beach. (a) reveal (b) obstruct (c) make (d) clear 6. Though he has several interim plans, his ......... aim is to become a billionaire. (a) absolute (b) determined (c) only (d) ultimate 16. ...... if he is willing to fit in with the plans of the group.
+
+(a) There is no objection to him joining the party (b) There is no objection on his joining the party (c) There is no objection to his joining the party (d) There was no objection for his joining the party 2014 (I) 7. It is necessary to .......... that adequate standards are maintained. (a) insure (b) influence (c) ensure (d) control 17. Having secured the highest marks in the class, ...... . (a) the college had offered him a scholarship (b) he was offered a scholarship by the college (c) a scholarship was offered him by the college (d) a college scholarship had been offered to him 8. Many of the city’s narrow streets have been .........
+
+(a) distinguished (b) widened (c) doubled (d) rehabilitated 18. After they …… lunch, the boys ran outside. (a) have eaten (b) had eaten (c) were eating (d) would eat 9. Only the Chairman ..... to the proposal to build more houses. (a) avoided (b) admitted (c) prevented (d) objected 19. As he was …… and had saved enough money, his family escaped misery when he died suddenly.
+
+(a) prudent (b) preparatory (c) persistent (d) providential 20. Some mysteries remain in desert research: especially relating to why some regions, once fertile, are now …… . (a) blossoming (b) cultivable (c) barren (d) irrigated 10. He hoped to bring the ..... to a satisfactory conclusion. (a) quarrel (b) negotiations (c) conflicts (d) concession Sentence Completion 2016 (I) 21. The mounting pressure was so overwhelming that he ultimately ........ to her wish.
+
+(a) yielded in (b) gave in (c) cowed in (d) agreed in 26. Socrates was ........ of spreading discontent among young men of Athens and of trying to destroy their faith in the old Gods. (a) rebuked (b) disparaged (c) accused (d) demonised 22. Authority ........when it is not supported by the moral purity of its user. (a) prevails (b) entails (c) crumbles (d) waits 27. The robbers fell ........ amongst themselves over the sharing of the loot.
+
+(a) out (b) through (c) off (d) across 23. In a developing country like India some industries will have to be brought within public ........ and control, for otherwise rapid growth of the economy may be impossible. (a) perspective (b) hegemony (c) observation (d) ownership 28. A really sophisticated person would never be ........ enough to think that he is always right.
+
+(a) reverent (b) naive (c) articulate (d) humble 29. Speeding and blocking are traffic offences which lead to ........ accidents. (a) troublesome (b) final (c) great (d) gruesome 24. Gandhi ji conceived of the idea of channelising the powerful currents of the united mass movement so as to give the utmost impetus to the national ........
+
+for independence.
+
+(a) struggle (b) conflict (c) onslaught (d) march 30. Creative people are often ........ with their own uniqueness. (a) obsessed (b) deranged (c) unbalanced (d) dissatisfied 25. Because of his ........ habits, he could not save much money. (a) extravagant (b) frugal (c) unsavoury (d) bad SENTENCE COMPLETION IN PASSAGE SET2 Directions (Q. Nos. 1-149) In the following passage at certain points you are given a choice of three words, one of which fits the meaning of the passage. Choose the word which best fits the meaning of the passage and mark the corresponding letter viz (a), (b) or (c).
+
+2012 (I) PASSAGE 1 According to a report in yesterday’s newspaper 1. (a) once police dog was taken to Raj Bhavan 2. (a) at Monday. (b) a (b) next (c) new (c) on This was to trace the 3. (a) killers of the ‘very important horse’ which 4. (a) has reported missing on Sunday. The (b) dogs (b) were (c) police (c) was dog picked 5. (a) on the scent on some traces of 6. (a) those and ran a few yards before losing the 7. (a) bet. (b) at (b) blood (b) track (c) up (c) report (c) game The police have launched a vigorous 8. (a) search into the whole affair. They have 9. (a) given up the services of a (b) investigation (b) requisitioned (c) campaign (c) report forensic expert, 10. (a) a fingerprint expert and a photographer. 11. (a) There are now fourteen horses at Raj Bhavan.
+
+(b) an (b) We (c) two (c) So 12.
+
+(a) who are kept in a large shed near the gate. (b) where (c) which 2012 (II) PASSAGE 2 There has been quite some talk in recent times about the status of women in our society, some of it sentimental and some of it, angry. But the status of women 13. (a) can be improved only if we join 14. (a) ourselves earnestly to achieve the (b) shall (b) heads (c) should (c) hands desired 15. (a) goal. Obviously, it cannot be done merely through 16. (a) enforcing legislation. It requires an intelligent (b) intention.
+
+(b) enacting (c) wish.
+
+(c) passing and sympathetic 17. (a) presentation of each others problems and a 18. (a) consent to give up pointless claims (b) understanding (b) co-operation (c) vision (c) willingness 19. (a) of superiority. The delicate adjustment can be achieved not 20. (a) by conflict, but by peaceful and dispassionate (b) about (b) through (c) over (c) from 21. (a) behaviour, in other words, through frank and courteous 22. (a) discussion. The problem can be solved only (b) confrontation, (b) bargaining.
+
+(c) means, (c) argument.
+
+23. (a) through mutual understanding and not through insistence on a 24. (a) vital observance of a code of (b) by (b) hard (c) from (c) rigid 25. (a) agreement. If we truly desire a solution to this 26. (a) difficult problem, we should be prepared for (b) conduct.
+
+(b) doubtful (c) rights.
+
+(c) small 27. (a) one compromise. The system cannot be changed overnight. There 28. (a) was a great need for patience in (b) a (b) is (c) no (c) has been 29. (a) dealing with this complex matter. Problems are 30. (a) immensely solved through the application of 31. (a) brain (b) handling (b) best (b) wisdom (c) tackling (c) rarely (c) theory and certainly not through angry 32. (a) enmity. At every step in our life, we 33. (a) understand, then why should we (b) hostility.
+
+(b) compromise, (c) conflicts.
+
+(c) discuss, take up rigid stand in matters which concern us intimately? 2013 (II) PASSAGE 3 A young man riding a motor-cycle approached a policeman in a market place and sought his assistance in reaching a particular locality. The policeman gave him some 34. (a) instructions and the motor-cyclist left. He 35. (a) reached (b) directions (b) came (c) advice (c) went back after some time and 36. (a) asked the policeman that he could not 37. (a) find the place. The policeman got the (b) convinced (b) hit (c) told (c) see 38. (a) idea to help him and agreed to 39. (a) start with the motor-cyclist. On reaching the 40. (a) station the (b) inclination (b) go (b) destination (c) urge (c) proceed (c) spot motor-cyclist left in a hurry leaving the policeman on the road. The policeman was surprised and returned to his spot. A little later, a senior police officer reached the place and took the policeman to task for dereliction of duty. Sentence Completion PASSAGE 4 Picasso is considered by many as the greatest painter of the modern age. There are stories and legends about him. Once, on a beach in Southern France, a little boy, obviously sent by his parents, approached Picasso 41. (a) with a (b) by (c) on sheet of paper and begged for a small autographed drawing. Picasso 42. (a) painted for a moment, then tore up the (b) thought (c) stood paper, took 43. (a) back colour crayons, drew designs on the boy’s chest 44. (a) near neck and signed his ‘work’ and sent (b) some (b) and (c) aside (c) to the youngster 45. (a) after to his parents.
+
+(b) again (c) back 2014 (I) PASSAGE 5 One of the most interesting new books published recently is ‘Spaceship’ by Professor EC Walker. Our Earth he says 46. (a) is like a spaceship, and all the 400 million people 47. (a) over Earth are passengers on it. And we are (b) have been (b) on (c) will be (c) upon heading 48. (a) about a disaster. The levels of atmospheric pollution 49. (a) increasing in the cities and industrial areas (b) to (b) arriving (c) towards (c) coming of the world could in time change the weather patterns of the Earth, raising the temperature 50. (a) in the whole (b) of (c) for planet. If this rose a few 51. (a) degrees the deserts of the world would expand to double their size. The polar ice caps (b) steps (c) miles would start melting. If the polar ice caps melted, the 52. (a) water level all over the world would rise 53. (a) in about (b) ice (b) by (c) sea (c) to 60 m. Professor Walker’s 54. (a) idea is not at all about gloom and doom. He admits that the 55. (a) ideas he describes (b) thought (b) solutions (c) book (c) changes could take thousands of years. PASSAGE 6 Sometimes, the messages are sent with 56. (a) many accompanying words and we speak in 57. (a) body language alone. (b) few (b) signal (c) no (c) foreign But, what gestures make 58. (a) with body language? Most of us are 59. (a) easy with the common hand gestures.
+
+(b) up (b) familiar (c) into (c) efficient Some 60. (a) students cannot talk without using their hands. 61. (a) We reach out as they explain almost (b) people (b) Arms (c) officers (c) They 62. (a) exacting their words, emphasising and exaggerating and 63. (a) teaching with their hands. Other people hardly (b) shaping (b) holding (c) changing (c) punctuating 64. (a) adjust their hands at all when they 65. (a) lecture.
+
+(b) use (b) unite.
+
+(c) wave (c) talk.
+
+2014 (II) PASSAGE 7 We know that the average depth of the sea is about two and a half miles, but in few places it is very deep indeed—over six miles. The air presses upon our bodies with a weight of about fifteen pounds to the square inch at 66. (a) sea-water (b) sea-level (c) sea-bed We are used to this air pressure and 67. (a) do not notice it. In the sea this 68. (a) weight is doubled at a depth of (b) did (b) volume (c) does (c) pressure thirty-five feet, and it 69. (a) expands at this rate for greater depths. In the great deeps 70. (a) off the Philippine (b) decreases (b) of (c) increases (c) on Islands, a man would be squeezed and utterly crushed by a pressure of 71. (a) severe tons per square inch. The pressure (b) several (c) sheer near the ocean floor is 72. (a) such great that, if you were to weigh a piece of wood and 73. (a) measure it to a (b) not (b) follow (c) so (c) lower great depth and then pull it 74. (a) up again it would no longer float, 75. (a) but it would have become waterlogged. (b) off (b) for (c) down (c) when All the tiny wood cells and cavities 76. (a) should have burst and become filled with water. We 77. (a) know that (b) could (b) have known (c) would (c) are knowing animals live at a depth of three miles and more we wonder 78. (a) why this can be. The bodies of animals down (b) how (c) what 79. (a) here are almost entirely filled with water, and 80. (a) this saves them from being crushed. However, many of (b) where (b) these (c) there (c) thus 81. (a) such animals contain some gases as well, for 82. (a) then they are captured in nets and drawn 83. (a) on the surface (b) those (b) since (b) to (c) there (c) when (c) from these gases expand so much that the animal 84. (a) immediately explodes. Its body is torn to shreds as it 85. (a) bursts.
+
+(b) eventually (b) jumps.
+
+(c) actually (c) lands.
+
+2015 (I) PASSAGE 8 We all like listening to the person who is good 86. (a) on telling stories and he will always be a 87. (a) popular member of (b) at (b) good (c) by (c) necessary any company. The art 88. (a) on good story-telling covers much more than 89. (a) describing up fabulous adventures; it (b) of (b) making (c) at (c) showing Sentence Completion includes telling 90. (a) about the doings of living people or 91. (a) insignificant men and women of the past, (b) by (b) dead (c) for (c) famous 92. (a) in your own travels and adventures and 93. (a) experiences about the books you have read 94. (a) either the (b) about (b) desires (b) all (c) through (c) worries (c) and films you have seen. Practising 95. (a) an art of story-telling can be very 96. (a) useful too. It will help you to (b) a (b) dangerous (c) the (c) contagious 97. (a) listen clearly and logically, to sort out 98. (a) her ideas to express yourself clearly and 99. (a) timidly, to gain and (b) remember (b) their (b) effectively, (c) think (c) your (c) bluntly hold the attention 100. (a) at others. It will help you to 101. (a) shake off shyness and self-consciousness, and give (b) on (b) lay (c) of (c) hit 102. (a) she that feeling of freedom 103. (a) then is so important to 104. (a) success in life. (b) you (b) what (b) victory (c) I (c) which (c) gain 2015 (II) PASSAGE 9 What 105. (a) can happen to them after us? This most 106. (a) joyous question continually torments the parents of these (b) will (b) distressing (c) must (c) distracting 107. (a) unethical children. So they are mainly interested in 108. (a) providing some kind of vocational training for them. (b) unnatural (b) making (c) unfortunate (c) giving 109. (a) But special schools for such children, spread all 110. (a) above the world, lay emphasis on vocational training.
+
+(b) Yet (b) under (c) Hence (c) over 111. (a) However, they are taught to make paper bags, 112. (a) dubious wall hangings etc. This, of course, is quite (b) Accordingly, (b) simple (c) Similarly, (c) clumsy 113. (a) agreeable and admirable. But what about play and 114. (a) sport.
+
+(b) astute (b) game.
+
+(c) additional (c) grounds.
+
+PASSAGE 10 Galileo used mathematical calculation as well as observation of nature and was the first astronomer to use a telescope. With an instrument of his own 115. (a) experiment, Galileo observed Jupiter and four of 116. (a) the Moons, the phases of (b) construction, (b) their (c) calculation, (c) its Venus and the spots on the Sun. His 117. (a) observing and calculations confirmed that Copernicus and Kepler were (b) observations (c) observed right. He saw 118. (a) by his own eyes and made other people 119. (a) to see too that the Earth was not the fixed center (b) from (b) see (c) with (c) seeing of 120. (a) an universe as Ptolemy had said. Galileo 121. (a) instead made some important discoveries in mechanics. (b) a (b) also (c) the (c) therefore He did not 122. (a) as legend says drop cannon balls from the Leaning Tower of Pisa 123. (a) having proved that all (b) as stories say (b) proving (c) as people say (c) to prove bodies fall at the 124. (a) same speed, but he did roll balls 125. (a) downside a slope to show that the 126. (a) track (b) equal (b) down over (b) distance (c) similar (c) down (c) path a body falls is proportionate 127. (a) to the square of the time it takes to fall. Galileo also noticed the regular (b) of (c) with 128. (a) swings of the lamps in Pisa Cathedral; 129. (a) these gave him the idea of the pendulum, a device that (b) swinging (b) this (c) swaying (c) those enabled him to make the clock a scientific instrument for the first time. 2016 (I) PASSAGE 11 I was engaged in many activities and I wanted a proper reconciliation between my activity and thought. Thought without 130. (a) wish is undeveloped thought. Action without 131. (a) thought is folly. Of course we 132. (a) never act on some (b) action (b) wish (b) belatedly (c) idea (c) idea (c) sometimes impulse or 133. (a) peaceful urge. If suddenly you throw 134. (a) no brick at me and my 135. (a) hand goes up in front (b) uncontrollable (b) an (c) wrist (c) indisputable (c) a (c) finger to 136. (a) stimulate myself, it is an automatic, 137. (a) uncontrollable action and not a result 138. (a) to deliberate thought.
+
+(b) rescue (b) instinctive (b) in (c) protect (c) impulsive (c) of Our living is 139. (a) made by a series of automatic 140. (a) thoughts from morning till night. Anything 141. (a) we do (b) conditioned (b) actions (b) I (c) developed (c) wishes (c) they outside that common range of 142. (a) thoughts however, has to be 143. (a) proceeded by some measure of thinking. (b) ideas (b) preceded (c) actions (c) followed 144. (a) Some more action and thought are 145. (a) developed and integrated, the more effective 146. (a) they become (b) If (b) allied (b) thoughts (c) The (c) hostile (c) we and the happier you 147. (a) appear. There will then be no inner 148. (a) reconciliation between a wish to do something (b) develop.
+
+(b) conflict (c) grow.
+
+(c) inflict and 149. (a) inability to act. (b) probability (c) plausibility Sentence Completion ANSWERS Sentence Completion Exercise Set 1 - Single Sentence Completion Set 2 - Sentence Completion in Passage Questions from CDS Exam (2012-16) Set 1 - Single Sentence Completion Set 2 - Sentence Completion in Passage
 
 
---- PAGE 483 ---
-EXAMPLE 11. What is the value of
-sec(
-)sin sec
-90
-45
-°−
-°
-θ
-θ
-?
-a. 1
-b.
-3
-2
-c.
-2
-d.
-3
-Sol. c. Given, sec (
-)sin sec
-90
-45
-°−
-°
-θ
-θ
-=
-×
-×
-cosec θ
-θ
-sin
-2
-=
-×
-×
-1
-2
-sin
-sin
-θ
-θ
-=
-2
-EXAMPLE 12. The value of
-sin
-cos
-sin
-cos
-135
-120
-135
-120
-° −
-°
-° +
-° is
-a. 2
-3 2
-+
-b. 2
-3 2
-−
-c. 3
-2 2
-−
-d. 3
-2 2
-+
-Sol. d. sin
-sin (
-)
-135
-180
-45
-° =
-° −
-° =
-° =
-sin 45
-1
-2
-cos
-cos (
-)
-120
-180
-60
-° =
-° −
-° = −
-° = −
-cos 60
-1
-2
-∴sin
-cos
-sin
-cos
-135
-120
-135
-120
-1
-2
-1
-2
-1
-2
-1
-2
-° −
-°
-° +
-° =
-−−
-
-
-
-
-+
-−
-
-
-
-
-=
-+
-−
-×
-+
-+
-2
-1
-2
-1
-2
-1
-2
-1
-=
-+
-−
-=
-+
-+
-(
-)
-2
-1
-2
-1
-2
-1
-2
-2
-2
-=
-+
-3
-2
-2
-Sum, Difference and Product Formulae
-• sin (
-)
-sin
-cos
-cos
-sin
-A
-B
-A
-B
-A
-B
-+
-=
-+
-• sin (
-)
-sin
-cos
-cos
-sin
-A
-B
-A
-B
-A
-B
-−
-=
-−
-• cos (
-)
-cos
-cos
-sin
-sin
-A
-B
-A
-B
-A
-B
-+
-=
-−
-• cos (
-)
-cos
-cos
-sin
-sin
-A
-B
-A
-B
-A
-B
-−
-=
-+
-• tan (
-)
-tan
-tan
-tan
-tan
-A
-B
-A
-B
-A
-B
-+
-=
-+
-−
-1
-• tan (
-)
-tan
-tan
-tan
-tan
-A
-B
-A
-B
-A
-B
-−
-=
-−
-+
-1
-• cot (
-)
-cot
-cot
-cot
-cot
-A
-B
-A
-B
-A
-B
-+
-=
-−
-+
-1
-• cot (
-)
-cot
-cot
-cot
-cot
-A
-B
-A
-B
-B
-A
-−
-=
-+
-−
-1
-• sin (
-)sin (
-)
-sin
-sin
-A
-B
-A
-B
-A
-B
-+
-−
-=
-−
-2
-2
-=
-−
-cos
-cos
-2
-2
-B
-A
-• cos (
-)cos (
-)
-A
-B
-A
-B
-+
-−
-=
-−
-=
-−
-cos
-sin
-cos
-sin
-2
-2
-2
-2
-A
-B
-B
-A
-• 2sin
-cos
-sin (
-)
-sin (
-)
-A
-B
-A
-B
-A
-B
-=
-+
-+
-−
-• 2cos
-sin
-sin (
-)
-sin (
-)
-A
-B
-A
-B
-A
-B
-=
-+
-−
-−
-• 2cos
-cos
-cos (
-)
-cos (
-)
-A
-B
-A
-B
-A
-B
-=
-+
-+
-−
-• 2sin
-sin
-cos (
-)
-cos (
-)
-A
-B
-A
-B
-A
-B
-=
-−
-−
-+
-• sin
-sin
-sin (
-) cos (
-)
-A
-B
-A
-B
-A
-B
-+
-=
-+
-⋅
-−
-2
-2
-2
-• sin
-sin
-sin (
-) cos (
-)
-A
-B
-A
-B
-A
-B
-−
-=
-−
-⋅
-+
-2
-2
-2
-• cos
-cos
-cos (
-) cos (
-)
-A
-B
-A
-B
-A
-B
-+
-=
-+
-⋅
-−
-2
-2
-2
-• cos
-cos
-sin (
-) sin (
-)
-A
-B
-A
-B
-A
-B
-−
-= −
-+
-⋅
-−
-2
-2
-2
-=
-+
-⋅
-−
-2
-2
-2
-sin (
-) sin (
-)
-A
-B
-B
-A
-• tan
-tan
-sin (
-)
-cos
-cos
-A
-B
-A
-B
-A
-B
-+
-=
-+
-• tan
-tan
-sin (
-)
-cos
-cos
-A
-B
-A
-B
-A
-B
-−
-=
-−
-• cot
-cot
-sin (
-)
-sin
-sin
-A
-B
-A
-B
-A
-B
-+
-=
-+
-• cot
-cot
-sin (
-)
-sin
-sin
-A
-B
-B
-A
-A
-B
-−
-=
-−
-EXAMPLE 13. If A
-B
-−
-= π
-3, then the value of
-cos
-cos
-sin
-sin
-A
-B
-A
-B
-+
-is
-a. 1/2
-b. 1
-c. 3/2
-d. None of these
-Sol. a. cos
-cos
-sin
-sin
-A
-B
-A
-B
-+
-=
-−
-cos (
-)
-A
-B
-=
-
-
-
-
-cos
-π
-3
-= 1
-2
-Q A
-B
-−
-=
-
-
-
-
-π
-3
-EXAMPLE 14. The value of
-3
-23
-23
-2
-co
-
-## Page 3: High-Yield Trigger Layer (Insight SSB)
-
-> [!TIP]
-> Standard High-Yield triggers for Sentence Completion based on PYQ analysis.
-
-## Page 4: Visual Anchors
-
-```mermaid
-
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        
-```
-
+</div>

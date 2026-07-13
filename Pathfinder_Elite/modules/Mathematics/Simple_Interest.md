@@ -1,86 +1,12 @@
-# Simple Interest
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">SIMPLE INTEREST</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-## Pages 1-2: The Base Framework (Pathfinder)
+SIMPLE INTEREST Regularly (1-2) questions have been asked from this chapter. Generally direct formula based questions are asked from this chapter and hence making it easy to score area. INTEREST When money is borrowed by a person, then customarily the money lender used to charge some extra money in lieu of the money lent by him. This extra money earned by the money lender is called interest. Some terms related to interest are given below Principal (P) The money which is borrowed from a money lender, is called Principal.
 
-**Core Theory & Definitions**
+Amount (A) The sum of the principal and the interest is called Amount i.e. Amount (A) = Principal ( ) P + Interest ( ) I . Rate (R) It is the rate at which the interest is charged on Principal. Time (T) The time period, for which the money is lent or deposited or borrowed, is called Time.
+
+SIMPLE INTEREST If the interest is calculated on the original Principal for any length of time, then it is called simple interest. Simple Interest ( SI = Principal Rate Time or SI = R T Amount ( A = Principal ( ) P + Interest ( ) I and P RT Where, A →Amount R→Rate of simple Interest T →Time
 
 
---- PAGE 77 ---
-as: a medium of exchange, a unit of
-account, a store of value and
-sometimes, a standard of deferred
-payment. Any item or verifiable record
-that fulfils these functions can be
-considered as money.
-26. The situation where the
-equilibrium level of real GDP falls
-short of potential GDP is known as
-(a) Recessionary gap
-(b) Inflationary gap
-(c) Demand-side inflation
-(d) Supply-side inflation
-_ (a) A recessionary gap, or
-contractionary gap, refers to the
-difference between actual and
-potential production in an economy. It
-basically occurs when the countries
-real GDP is lower than the GDP at its
-full employment.
-27. The excess of total expenditure of
-Government over its total receipts,
-excluding borrowings, is known as
-(a) Primary deficit (b) Fiscal deficit
-(c) Current deficit (d) Capital deficit
-_ (b) Fiscal Deficit is the difference
-between the total income of the
-government (total taxes and non-debt
-capital receipts) and its total
-expenditure. A recurring high fiscal
-deficit means that the government
-has been spending beyond its
-means.
-28. Exchange rates state the value of
-one currency in terms of other
-currencies. Which one of the
-following statements with respect
-to the exchange rate of currency is
-correct ?
-(a) Floating exchange rates are rates
-in which the Governments interfere
-by buying or selling their
-currencies.
-(b) Fixed exchange rates are rates set
-by Government decisions and
-maintained by Government
-actions.
-(c) Under the Bretton Woods System,
-the exchange rates are floated in
-terms of rise or fall in price of gold.
-(d) Under the classical gold standard,
-the exchange rates are fixed in
-terms of price of dollar.
-_ (b) Exchange rates state the value of
-one currency in terms of other
-currencies. Fixed exchange rates are
-rates set by government decisions
-and maintained by government
-actions. Most exchange rates are free
-floating and will rite or fall based on
-supply and demand in the market
-while some currencies are not free
-floating and have re
-
-## Page 3: High-Yield Trigger Layer (Insight SSB)
-
-> [!TIP]
-> Standard High-Yield triggers for Simple Interest based on PYQ analysis.
-
-## Page 4: Visual Anchors
-
-```mermaid
-
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        
-```
-
+</div>

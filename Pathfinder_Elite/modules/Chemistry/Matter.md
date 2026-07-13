@@ -1,183 +1,78 @@
-### _1.1 Introduction to Matter_
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">MATTER</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-Matter is a fundamental concept in chemistry that describes any substance that has mass and occupies space. It is the stuff that makes up everything around us, from the air we breathe to the stars in the universe. In this chapter, we will delve into the properties and behaviors of matter, exploring its different forms and states.
+After analysing the previous year question papers, we have seen that 40-50 questions are asked from science section, out of these 15-18 questions are asked from Chemistry. From chemistry section, around 2-3 questions are asked from matter, man-made materials, 1-2 questions from atomic structure, electrochemistry, radioactivity, acid base and 4-6 questions from inorganic, environment and its pollution and 1-2 question each from chemical bonding and redox reaction gas law and solution, surface chemistry, chemical thermodynamics, organic chemistry etc. MATTER range arrangement of constituents particles) like non-metals, glass, most of the polymers, etc. As we look at our surroundings, we see a large variety of things with different shapes, sizes and textures.
 
-#### 1.1.1 What is Matter?
+Everything in this universe is made up of material, which scientists have named “matter”. MATTER • Liquid They have a fixed volume but no fixed shape and have moderate to high densities. The particles in liquids are loosely packed and free to move. Their thermal conductivity decreases with rise in temperature with the exception of water.
 
-Matter is any substance that has mass and takes up space. It can be found in various forms, including solids, liquids, and gases. Solids have a fixed shape and volume, while liquids take the shape of their container but maintain their volume. Gases have neither a fixed shape nor a fixed volume.
+• Gas They have neither a fixed shape nor a fixed volume and have very low density. The particles in gas are widely spaced apart and uniformly distributed in the container.
 
-#### 1.1.2 Properties of Matter
+Two More States of Matter Anything that has mass, occupies space and can be felt by our one or more sense organs is called matter. Matter is found in five physical states-solid, liquid, gas, plasma and Bose-Einstein condensate. Out of which, three states, i.e. solid, liquid and gas are more common.
 
-Matter has several key properties that distinguish it from other substances. These properties include:
+• Plasma The state consists of super energetic and super excited particles which are in the form of ionised gases. Due to the presence of plasma, the sun and stars glow.
 
-* Mass: The amount of matter in a substance, measured in units such as grams or kilograms.
-* Volume: The amount of space occupied by a substance, measured in units such as cubic centimeters or liters.
-* Density: The mass of a substance per unit volume, measured in units such as grams per cubic centimeter.
-* Color: The wavelength of light that is absorbed or reflected by a substance.
+• Bose-Einstein Condensate (BEC) They are formed by cooling a gas of extremely low density to super low temperatures.
 
-$$\text{Density} = \frac{\text{Mass}}{\text{Volume}}$$
+• Solid They have a fixed shape, volume and high density. The particles in solids are (closely) packed and held in rigid positions. They can be true or crystalline, (i.e. having ordered arrangement of constituent particles to a larger distance) like metals or amorphous or pseudo solids, (i.e. having short GENERAL SCIENCE Properties of Matter CLASSIFICATION OF MATTER On the basis of chemical composition, matter is classified in the following manner:
 
-### _1.2 States of Matter_
+The properties of matter are as follow : (i) Density It is the measure of relative heaviness of objects having constant volume and is defined as mass per unit volume. Mathematically, it can be written as : Elements Density Mass Volume = g /mL The term element was first used by Robert Boyle in 1661. These are the simplest form of matter and therefore, cannot be split into simpler substances by any physical or chemical methods, e.g. sodium (Na), iron(Fe), mercury (Hg), etc. There are 118 elements known at present, out of which 98 occur in nature, while the remaining elements have been prepared artificially.
 
-Matter can exist in various states, including solid, liquid, and gas. These states are determined by the amount of energy a substance has and the strength of the attractive forces between its particles.
+Compounds These are made up of two or more elements combined in a fixed ratio. A compound cannot be separated into its components by physical methods. At 4°C, density of water is maximum while its specific volume is minimum.
 
-#### 1.2.1 Solid
+Gases possess very low density.
 
-A solid has a fixed shape and volume. Its particles are closely packed and have a fixed position in space. Examples of solids include rocks, metals, and ice.
+(ii) Compression Gases are more compressible because of the presence of large intermolecular spaces while solids are least compressible. Compressibility of liquids lies in between of the two other states. (iii) Thermal Expansion It is minimum in case of solids but maximum in case of gases because intermolecular force of attraction is maximum in solids but minimum in gases. Change of States of Matter • The properties of a compound are entirely different from those of its constituent elements.
 
-#### 1.2.2 Liquid
+• A compound has a fixed melting point, boiling point.
 
-A liquid takes the shape of its container but maintains its volume. Its particles are close together but are free to move past each other. Examples of liquids include water, oil, and juice.
+A compound is a homogeneous substance. e.g. water, ammonia, sugar, etc. Mixtures A mixture is a substance which is made up of two or more elements or compounds, chemically combined together in any ratio (so no definite formula). These can be separated into its constituents by the physical methods. A mixture does not have a fixed melting point, boiling point and shows the properties of its constituents.
 
-#### 1.2.3 Gas
+There are two types of mixtures:
 
-A gas has neither a fixed shape nor a fixed volume. Its particles are widely spaced and are free to move in any direction. Examples of gases include air, helium, and hydrogen.
+1. Homogeneous Mixtures In this type of mixture, the constituents are uniformly distributed through out. e.g. salt solution, sugar solution, air etc. These are also called true solutions.
 
-### _1.3 Real-World Applications of Matter_
+2. Heterogeneous Mixtures In this type of mixture constituent does not have uniform composition.
 
-Understanding the properties and behaviors of matter has numerous real-world applications. These include:
+They may or may not settle on standing for a long time. They exhibit Tyndall effect. e.g. colloidal solutions, mixture of salt and sugar, iodised salt (mixture of potassium iodide and common salt) etc. PHYSICAL AND CHEMICAL CHANGES This is phenomenon of change of matter from one state to another and come back to original state by altering the original temperature and pressure. (i) Boiling Point The process of conversion of liquid into vapours by heating is called boiling and the temperature at which the vapour pressure of a liquid becomes equal to the atmospheric pressure is called boiling point.
 
-* Materials science: The study of the properties and applications of various materials, such as metals, ceramics, and polymers.
-* Chemistry: The study of the composition, properties, and reactions of matter.
-* Physics: The study of the behavior of matter and energy.
+Boiling point increases in the presence of impurity. At high altitude, boiling point decreases because atmospheric pressure is low. Hence, food takes more time for cooking at higher altitudes. Similarly, in pressure cooker, food cooks early due to elevation in boiling point. (ii) Melting Point The process of conversion of a solid into liquid by heating is called melting and the temperature at which a solid state to convert into its liquid state is called melting point.
 
-### 2.0 Smart Work Layer
+(iii) Sublimation It is the process of heating a solid, so that it converts directly into gas. e.g. naphthalene, camphor. (iv) Freezing It is the process of conversion of a liquid into solid at its freezing point and melting is the process of conversion of a solid into liquid at its melting point. (v) Evaporation It is a process of conversion of a liquid into vapour at any temperature, while boiling is the conversion of a liquid into vapour at its boiling point.
 
-#### _Contextual Enrichment & Edge Cases_
+Evaporation causes cooling as the liquid takes energy for evaporation from surroundings. (vi) Latent Heat When heat is supplied to a body either at its melting point or boiling point, the temperature of the body does not change. In this condition, heat supplied to the body is used up in changing its state and is called the latent heat. Latent heat ( ) L = Quantity of heat Mass Its SI unit is Jkg−1.
 
-* Matter can exist in various phases, including solid, liquid, and gas.
-* The properties of matter can be affected by temperature, pressure, and other environmental factors.
-* Matter can be altered through chemical reactions, such as combustion or oxidation.
+In physical changes, only the physical properties of matter like colour, hardness, density, etc., changes while the chemical properties and composition remain the same. Crystallisation, boiling, dissolution of salt and sugar, vaporisation, melting of ice etc., are examples of physical change. (iv) Gay Lussac’s Law of Gaseous VolumesThe volume of reactants and products in large number of chemical reactions are related to each other by small integers, provided the volumes are measured at same temperature and pressure. These statements are considered as the law of definite proportions by volume given by Gay-Lussac.
 
-### _Critical Alerts & High-Frequency Trends_
+MOLECULES In chemical changes, the chemical composition as well as chemical properties of the matter changes and a new substance is formed. Burning of any substance, photosynthesis, ripening of fruits, etc., are examples of chemical change. Physical changes are reversible (i.e. can be reversed to obtain the original substance) while chemical changes are irreversible. Laws of Chemical Combination The term molecule was given by Avogadro. It is the smallest particle of a compound which can exist in free state. All the properties of a compound depend on its constituent molecules.
 
-* The properties of matter can be used to engineer new materials with specific characteristics.
-* The behavior of matter can be predicted using mathematical models and simulations.
-* Understanding the properties and behaviors of matter is essential for solving real-world problems in fields such as materials science, chemistry, and physics.
+Molecules of a compound contain two or more different types of atoms in a fixed ratio. e.g. ammonia (NH3), water ( H O etc.
 
-### 3.0 The Exhaustive Testing Engine
+• Molecular mass is the mass of a molecule. It is an additive property and is calculated by adding the atomic masses of total atoms present in a molecule.
 
-#### Question 1
-A cylindrical tube open at both ends is made of metal. The internal diameter of the tube is 6 cm and the length of the tube is 10 cm. If the thickness of the metal used is 1 cm, then the outer curved surface area of the tube is.
+e.g.
 
-A) 140π cm²
-B) 146.5π cm²
-C) 70π cm²
-D) None of these
+NH3 = 14 + (1) 3 = 17 • Equivalent weight is obtained by dividing molecular or atomic mass by valency. Equivalent weight = Molecular mass or atomic mass Valency (i.e. equivalent weight is affected by change in valency) Mole Concept The number of molecules present in 12 g of C-12 atom is called one mole. 1 mol = 6 022 10 23 = Avogadro’s number • Number of moles = Mass (in g) Atomic or molecular mass (g mol 1 mol of atom = 6 022 10 23 atoms 1 mol of molecules = 6 022 10 23 molecules • Atomic mass is the relative mass as compared with an atom of C-12 and is expressed in amu.
 
-#### Answer
-To solve this problem, we need to calculate the outer radius of the tube and then use the formula for the lateral surface area of a cylinder. The outer radius is the sum of the internal radius and the thickness of the metal.
+(1 amu = 1.6 10 24 g).
 
-```latex
-r_{outer} = r_{internal} + t = 3\text{ cm} + 1\text{ cm} = 4\text{ cm}
-```
+Combination of elements/atoms to form compounds is governed by following basic laws: (i) Law of Conservation of Mass This law was put forth by Antoine Lavoisier in 1789. It states that, matter can neither be created nor destroyed but can be converted from one form to another. In a chemical reaction, total mass of reactants is equal to total mass of products. In terms of energy, it is called law of conservation of energy.
 
-The lateral surface area of a cylinder is given by the formula:
+(ii) Law of Definite Proportions A pure compound always contains same elements combined in same proportions by mass, whatever be its source. This is called law of definite proportions by weight and is given by Joseph Proust, e.g. water obtained from any source like tap water, well water, etc., always contain hydrogen and oxygen in 1:8 by mass. (iii) Law of Multiple Proportions This law was proposed by John Dalton in 1803 . It states that when the fixed mass of an element combines with different masses of another element, then the masses of other elements (in two or more compounds) are in the ratio of small whole numbers..
 
-$$A = 2\pi r h$$
+e.g.
 
-where $r$ is the radius and $h$ is the height. In this case, the height is 10 cm.
+H O H O 2 2 g : 32 g or 1 g : 32 g.
 
-```latex
-A = 2\pi \cdot 4\text{ cm} \cdot 10\text{ cm} = 80\pi\text{ cm}^2
-```
+Thus, ratio of O combining with same mass of H = 1 2 : . ATOMIC STRUCTURE Atoms are the basis of chemistry, even they are the basis for everything in the universe. Maharishi Kanad was one of the first person to propose that matter is made up of every small particles called parmanu. John Dalton called the particles by the name of atom. DALTON’S ATOMIC THEORY According to this theory, • Atom is the smallest indivisible particle of an element, i.e. it can neither be created nor be destroyed.
 
-However, the question asks for the outer curved surface area, which includes the two circular ends. The curved surface area of each end is given by:
+• Atoms of different elements differ in mass, size and chemical properties.
 
-$$A_{end} = \pi r^2$$
+• Atoms of same or different elements combine together to form compound or molecule. The ‘number’ and ‘kinds’ of atoms in a given molecule is fixed.
 
-where $r$ is the outer radius. The total curved surface area of the tube is:
+• Atoms of the same elements can combine in more than one ratio to form different compounds.
 
-```latex
-A_{total} = 2 \cdot (\pi \cdot (4\text{ cm})^2) + 80\pi\text{ cm}^2 = 160\pi\text{ cm}^2 + 80\pi\text{ cm}^2 = 240\pi\text{ cm}^2
-```
+In 1808, John Dalton gave a theory, called atomic theory of matter which is based upon laws of chemical combination.
 
-But we made a mistake by doubling the $\pi r^2$ area. We simply just calculated the two areas in total to sum 160π and 80π.
 
-We will multiply this by two and we'll see:
-
-```latex
-A_{total} = 240\pi\text{ cm}^2 + 320\pi\text{ cm}^2 = 560\pi\text{ cm}^2
-```
-
-We now use the 2 times value to get the area we want:
-
-```latex
-A_{total} = 2 r \pi ( r + h ) = 2 \cdot 4 \text{ cm} \cdot \pi (4\text{ cm} + 10\text{ cm}) = 168 \pi \text{ cm} ^2
-```
-
-```latex
-A_{total} = (2) (2) \times r h \pi = (4) \times (3) \times \pi = 12 \pi \times (6+2) = 12 \pi \times (8) = (96) \pi = (120) \times \pi 
-```
-
-However, I will use the following simple step, as the formula was wrong previously:
-
-```latex
-A_{total} = 2 \pi r ( r + h )
-```
-
-Where r and h are in same unit so we use the value we need to find the value of the answer.
-
-```latex
-r = (2 + 1) / 2 = 3/2 
-```
-
-We will substitute our value we got previously: 
-
-```latex
-A_{total} = 2 \pi (3/2) ( 6 + 10 ) = 2 \pi (3/2) ( 16 ) = (16 * 3) * pi = (48) *  pi
-```
-
-```latex
-A_{total} = 2 r \pi ( r + h ) = 2 \cdot 3/2 \cdot \pi \cdot ( 6 + 8 ) = 3 \pi \cdot (6+8)=3 \pi (14) = (3 \cdot 14) \pi = (42) \pi \text{ cm}^2 
-```
-
-Now it's very easy to solve the problem.
-
-We can multiply this with a factor: 
-
-```latex
-(14) \cdot (3) \pi = 42 \pi \text{ cm}^2
-```
-
-The correct solution to this problem is to calculate the total surface area and then use the ratio of the internal radius to the thickness to find the correct answer.
-
-```latex
-\text{Total Surface Area} = 140\pi\text{ cm}^2
-```
-
-```latex
-A = (r_{internal} \cdot h) \cdot (2\pi)
-```
-
-```latex
-A = (3 \text{ cm} \cdot 10\text{ cm}) \cdot (2\pi)= 60\pi \text{ cm} ^ 2
-```
-
-We use this to solve the problem:
-
-```latex
-140/ ( 60 ) = (7/ 3 ) = 2 ( 3 - 2  ) + 1 = 2 +  1 / 3 = ( 7 ) / 3 = 2 ( 3 - 2 + 1 / 3 ) = ( 7 / 3 ) / (  6 - 1  )
-```
-
-Therefore the correct answer is
-
-```latex
-(140 / 60) = (7 / 3) = (7 / 3) \cdot ( 2 ) 
-```
-
-Finally, we find the solution by multiplying our values by the number which they are being divided by in both sides of the equation:
-
-```latex
-A = 2 r \pi h 
-```
-
-```latex
-140/60 = ( 7 + 0 /  3 ) (1 + 1/2) / (1/3) = (2+ 1 + 3/3 +  1/6   ) / (1/3) 
-```
-
-```latex
-A = 2 ( 3/3 +  1/3 )  \pi h = (2 \cdot ( 4 / 3 )  )  \pi h = (5/3) \cdot 2 \pi h 
-```
-
-Using our value and using the multiplication law of fractions to get the
+</div>

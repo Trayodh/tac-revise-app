@@ -1,131 +1,478 @@
-**Chapter Overview: Environmental Geography**
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">ENVIRONMENTAL GEOGRAPHY AND MCQS</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-_*Understanding the Complex Interactions Between Human and Natural Systems_*
+There are two types of biomass pyramids, which are as follow : Functioning of Ecosystem The main functions of an ecosystem are as follow : Food Chain i. Upright Pyramid An upright pyramid is one where the combined weight of producers is larger than the combined weight of consumers. e.g. forest ecosystem.
 
-Environmental geography is a multidisciplinary field that seeks to understand the intricate relationships between human societies and the natural environment. It examines the ways in which human activities impact the environment, and conversely, how environmental factors shape human societies and economies.
+ii. Inverted Pyramid An inverted pyramid is one where the combined weight of producers is smaller than the combined weight of consumers. e.g. an aquatic ecosystem.
 
-## 1. Definition of Environmental Geography
+• The feeding of one organism upon another in a sequence of food transfer is known as a food chain. Another definition is that it is the chain of transfer of energy (which typically comes from the Sun) from one organism to another. A simple food chain is like the following Grass>Insect>Frogs>Snake>Hawk • Except in deep-sea hydrothermal ecosystems, all food chains start with photosynthesis and end with decay.
 
-Environmental geography is an interdisciplinary field that draws on concepts and methods from geography, ecology, economics, sociology, and politics to study the complex interactions between human and natural systems. It seeks to understand how human activities such as deforestation, urbanization, and land degradation affect the environment, and how environmental factors such as climate change, natural disasters, and resource depletion shape human societies and economies.
+Pyramid of Numbers The pyramid of numbers represents the number of organisms in each trophic level. Food Web • A network of food chains or feeding relationships by which energy and nutrients are passed on from one species of living organism to another is called Food Web.
 
-## 1.1 Key Concepts in Environmental Geography
+• Upright, partly upright and inverted are the three types of pyramids of numbers. An aquatic ecosystem is an example of upright pyramid where the number of organisms becomes fewer and fewer higher up in the pyramid.
 
-### 1.1.1 Ecosystem Services
+• A food web is represented by a graphical description of feeding relationships among species in an ecological community, e.g. of who eats whom. It is also a means of showing how energy and materials (e.g. carbon) flow through a community of species as a result of these feeding relationships.
 
-Ecosystem services refer to the various benefits that humans derive from natural ecosystems, including air and water filtration, soil formation, and climate regulation. These services are essential for human well-being and can be affected by human activities such as deforestation, pollution, and overfishing.
+• A forest ecosystem is an example of a partially upright pyramid, as fewer producers support more primary consumers, but there are less secondary and tertiary consumers.
 
-$$
-\text{Ecosystem Services = } \int_{0}^{T} \text{Benefits from Natural Ecosystems} \, dt
-$$
+• An inverted pyramid of numbers is one where the number of organisms depending on the lower levels grows closer toward the apex. e.g. a parasitic food chain.
 
-### 1.1.2 Urban Heat Island Effect
+Lion Jackal Goat Wild cat Kite Rabbit Pyramid of Energy The pyramid of energy represents the total amount of energy consumed by each trophic level. An energy pyramid is always upright as the total amount of energy available for utilisation in layer above is less than the energy available in the lower levels. This happens because during energy transfer from lower to higher levels, some energy is always lost. Energy is also lost at every level in the form of heat, respiration etc. Snake Food Web in a Forest Mouse Green Plant Poducer Ecosystem Productivity The productivity of an ecosystem refers to the rate of production, i.e. the amount of organic matter accumulated per unit area in unit time. It is of following types • Trophic Levels Trophic levels are the feeding position in a food chain such as primary producers, herbivore, primary carnivore etc. Generally, green plants form the first trophic level, the producers. Herbivores form the second trophic level, while carnivores and omnivores form the third and even the fourth trophic levels.
 
-The urban heat island effect refers to the phenomenon where built-up areas experience higher temperatures than surrounding rural areas due to the absorption and retention of heat by urban infrastructure. This effect is exacerbated by urban sprawl, lack of green spaces, and high levels of air pollution.
+• Gross Primary Productivity (GPP) It is minus energy utilised in respiration.
 
-## 1.2 Case Studies in Environmental Geography
+NPP = GPP – R • Net Primary Productivity (NPP) It is the amount of chemical energy, that is generated by primary producer in a given period of time. It is also defined as rate of production of organic matter. NPP is the available biomass for consumption to heterotrophs.
 
-### 1.2.1 Deforestation in the Amazon Rainforest
+• Ecological Pyramids An ecological pyramid is a graphical representation designed to show the number of organisms, energy relationships and biomass of an ecosystem. They are also called Eltonian pyramids after Charles Elton, who developed the concept of ecological pyramids.
 
-The Amazon rainforest is one of the most biodiverse ecosystems on the planet, providing essential ecosystem services such as air and water filtration, and carbon sequestration. However, deforestation and land degradation have resulted in significant losses of biodiversity, soil erosion, and increased greenhouse gas emissions.
+• Secondary Productivity (SP) It is the rate of energy storage at consumer level.
 
-> **Key Takeaway:** Deforestation in the Amazon rainforest has severe consequences for the environment, including loss of biodiversity, soil erosion, and increased greenhouse gas emissions.
+• Pyramid of Biomass A pyramid of biomass is a representation of the amount of energy contained in biomass, at different tropic levels for a particular time. It is measured in grams per square metre or calories per sq m.
 
-### 1.2.2 Climate Change and Migration
+• Net Productivity (NP) It is the rate of storage of organic matter not used by the heterotrophs or consumers.
 
-Climate change is projected to trigger mass migration of people from low-lying coastal areas, drought-prone regions, and areas vulnerable to increased frequency and severity of natural disasters. This can lead to social, economic, and cultural disruptions, as well as increased competition for resources and infrastructure in receiving areas.
+GENERAL STUDIES Causes and Sources • Air pollution is caused by various type of pollutants. Petroleum refineries release poisonous gases like sulphur dioxide, nitrogen oxides etc. Ecological Niche It is the role, position a species has in its environment. A species niche include all of its interaction with biotic and abiotic factor of its environment.
 
-| Country | Projected Migration (2020-2050) |
-| :------ | :---------------------------- |
-| Bangladesh | 20.4 million |
-| Vietnam | 11.4 million |
-| Ghana | 6.2 million |
-| Ethiopia | 5.7 million |
+• Dust is produced from cement factories and from stone crushers and hot mix plant releases suspended particulate matter more than five times the safety limits by industrial standards.
 
-```mermaid
-graph LR;
-    A[Climate Change] --> B[Migration];
-    B --> C[Social Disruptions];
-    C --> D[Economic Disruptions];
-    D --> E[Cultural Disruptions];
-```
+• The thermal power plant produce deadly pollutants such as fly ash, hydrocarbons etc. In urban areas, automobiles are the chief sources of pollution.
 
-## 2. Testing Engine
+Ecological Succession It is a natural process by which different groups or communities colonise the same area over a period of time in a definite sequence. It can also be defined as series of stages one after the other, by which a group of organisms living in a community reaches its final stable state or climax. POLLUTION • The ever increasing traffic density has aggravated the existing problem of air pollution. Automobiles mainly produce pollutants like unburnt hydrocarbons, CO2, NO2, lead oxides etc. Effects of Air Pollution • Effect on Human Health Introduction of contaminants or impurities into the natural environment is called pollution. Pollutant or contaminant may be natural or foreign substance.
 
-### Question 1:
+Pollution cause adverse changes in the nature and in long term affects the life on Earth. – Irritation of eyes, nose, throat, damage to lungs when inhaled.
 
-Sample high-yield question 1 regarding Environmental Geography and MCQs?
+– Acute and chronic asthma.
 
-A) Concept parameter 1
-B) Concept parameter 2
-C) Concept parameter 3
-D) Concept parameter 4
+Environmental Pollution – Brochitis and emphysema (as a result of synergy between SO2 and suspended particulate matter).
 
-Correct Option: A
+– Lung cancer.
 
-Explanation:
+Environmental pollution is the effect of undesirable changes in our surroundings that have harmful effects on plants, animals and human beings. Primary Pollutants • Acid Deposition The process by which acidic air pollutants, generally sulphur dioxide and nitrogen oxides are deposited on the Earth. Much of this deposition occurs when the pollutants condense in water and fall to the Earth as precipitation, known generally as acid rain. Acid deposition causes changes in the pH of water and soil, leading to a host of environmental problems.
 
-This question tests the reader's understanding of the fundamental concepts in environmental geography. The correct option, A) Concept parameter 1, is a key concept in the field, related to the interactions between human societies and natural environments.
+• A primary pollutant is an air pollutant emitted directly from a source. A secondary pollutant is not directly emitted as such, but forms when other pollutants (primary pollutants) react in the atmosphere.
 
-### Question 2:
+• Sulphur dioxide, Nitrogen oxides, Carbon monoxide, CFCs, CO2, Suspended Particulate Matter (SPM) etc are primary pollutants.
 
-Sample high-yield question 2 regarding Environmental Geography and MCQs?
+• Wet Deposition It refers to acidic rain, fog and snow. If, the acid chemicals in the air are blown into areas where the weather is wet, the acids can fall to the ground in the form of rain, snow, fog or mist.
 
-A) Concept parameter 1
-B) Concept parameter 2
-C) Concept parameter 3
-D) Concept parameter 4
+Secondary Pollutants These are derived from primary pollutants. The examples of secondary pollutants are as follow • Dry Deposition In areas where the weather is dry, the acid chemicals may become incorporated into dust or smoke and fall to the ground through dry deposition, sticking to the ground, buildings, homes, cars and trees.
 
-Correct Option: D
+• Particulate matter formed from gaseous primary pollutants and compounds in photochemical smog, such as nitrogen dioxide.
 
-Explanation:
+• Ground level ozone ( O3 formed from NO and Volatile Organic Compounds (VOCs).
 
-This question tests the reader's ability to analyze complex datasets and identify high-frequency trends. The correct option, D) Concept parameter 4, is a critical concept in environmental geography, related to the impact of human activities on the environment.
+2. Noise Pollution Noise can be described as sound without agreeable musical quality or as an unwanted or undesired sound. Thus, noise can be taken as a group of loud, non-harmonious sounds or vibrations that are unpleasant and irritating to ear.
 
-### Question 3:
+• Peroxyacetyl Nitrate (PAN) similarly formed from NO Sources of Noise Pollution 2 and VOCs.
 
-Sample high-yield question 3 regarding Environmental Geography and MCQs?
+Kinds of Pollution • The noise pollution has two sources, i.e. industrial and non-industrial. The industrial sources includes the noise from various industries and big machines working at a very high speed and high noise intensity.
 
-A) Concept parameter 1
-B) Concept parameter 2
-C) Concept parameter 3
-D) Concept parameter 4
+1. Air Pollution Presence of contaminants released by human activities into the Earth's atmosphere having potential of causing harm to property or the precious lives of plants, animals or humans.
 
-Correct Option: D
+• Non-industrial source of noise includes the noise created by road traffic, aircraft, railroads, construction, industry, noise in buildings and consumer products, loud speakers, sirens etc.
 
-Explanation:
+Effects of Noise Pollution • e-Waste Treatment Environmentally sound e-waste treatment technology is identified at three levels, which are as follow :
 
-This question tests the reader's understanding of the key concepts in environmental geography, including ecosystem services and urban heat island effect. The correct option, D) Concept parameter 4, is a critical concept in environmental geography, related to the impact of urbanization on the environment.
+• It decreases the hearing efficiency in humans. There should be cool and calm atmosphere during the pregnancy. Unpleasant sounds make a lady of irritative nature. Sudden noise causes abortion in females.
 
-...
+• The noises are recognised as major contributing factors in accelerating the already existing tensions of modern living. These tensions result in certain disease like enhanced blood pressure or mental illness etc.
 
-### Question 9:
+• Noise pollution damages the nervous system of animals.
 
-Sample high-yield question 9 regarding Environmental Geography and MCQs?
+Animal loses the control of its mind.
 
-A) Concept parameter 1
-B) Concept parameter 2
-C) Concept parameter 3
-D) Concept parameter 4
+i. In this level treatment includes decontamination, dismantling and segregation. ii. This treatment includes shredding and special treatment processes like electromagnetic separation, eddy current separation and density separation using water. iii. This treatment includes recovery of metals and disposal of hazardous e-waste fraction, including plastics with flame retardants, CFCs, capacitors, mercury, lead and other items. All three levels of e-waste treatment are based on material flow.
 
-Correct Option: B
+• Loud noise is very dangerous to buildings, bridges and monuments. It creates waves which strike the walls and put the building in danger condition. It weakens the structure of buildings.
 
-Explanation:
+3. Radioactive Pollution Radioactive pollution, like any other kind of pollution, is the release of radioactive elements into the environment.
 
-This question tests the reader's ability to analyze complex datasets and identify high-frequency trends. The correct option, B) Concept parameter 2, is a critical concept in environmental geography, related to the impact of human activities on the environment.
+Radioactive element omits high energy waves which can cause mutation in the DNA of living organisms.
 
-### Question 10:
+4. Water Pollution According to definition of WHO, “water pollution occurs when foreign materials either from natural or other sources are added to water supplies and may be harmful to life, because of their toxicity, reduction of normal oxygen level of water, aesthetically unsuitable effects and spread of epidemic diseases”.
 
-Sample high-yield question 10 regarding Environmental Geography and MCQs?
+Causes of Radioactive Pollution Sources of Water Pollution Sources of water pollution are as follow :
 
-A) Concept parameter 1
-B) Concept parameter 2
-C) Concept parameter 3
-D) Concept parameter 4
+• There are many causes of radioactive pollution, which can significantly harm the environment.
 
-Correct Option: B
+• Industrial effluents.
 
-Explanation:
+• Industrial wastes derived from chemical industries, thermal power plants and nuclear power stations.
 
-This question tests the reader's understanding of the key concepts in environmental geography, including ecosystem services and urban heat island effect. The correct option, B) Concept parameter 2, is a critical concept in environmental geography, related to the impact of urbanization on the environment.
+• Production of nuclear weapons, decommissioning of nuclear weapons, mining of radioactive ore, coal ash, medical waste, nuclear power plants are important source of radioactive pollution.
 
-...
+• Sewage and other waste.
+
+• Agricultural discharges.
+
+Radioactive Waste Management Types of Water Pollution Following techniques are effective in radioactive waste management Water pollution can be classified as :
+
+• Surface Water Pollution Rivers, lakes and ponds constitute surface water.
+
+• Geological Disposal This is effectively, the burying of radioactive material. Rooms are then excavated at the bottom of geological formation and radioactive material is stored here until it has decayed enough to not be dangerous any more.
+
+• River Water Pollution It poses a serious problem.
+
+Urban sewer drainage and industrial effluents are two major sources of river pollution. Soil erosion causes siltation of lakes.
+
+• Transmutation Transmutation of radioactive waste is the process of consuming this radioactive waste and turning it into less harmful waste. This is currently not used very often due to high coasts.
+
+• Sea Water Pollution It occurs near coastal waters due to dumping of pollutants. Pollution at deep sea is caused by leakage of oil due to ship wreckage. Oil spills have caused great harm to sea life in recent past.
+
+• Re-Use of Radioactive Waste Some radioactive isotopes, such as strontium-90 and caesium-137 are able to be extracted for use in other industries such as food irradiation.
+
+e-Waste • Ground Water Pollution Contamination of ground water takes place through pollutants like nitrates, phosphorus, potash, insecticides, pesticides etc. These pollutants reach into the ground water and make water polluted.
+
+• Effects of Water Pollution The water we drink is a crucial component for healthy living. Clean water is essential for health. Use of contaminated water is a major reason for various water borne diseases like Cholera, Typhoid, Hepatits-B etc.
+
+• It comprises of wastes generated from used electronic devices and household appliances, which are no longer suitable for their original intended use and are best suited only for recovery, recycling or disposal such as computers, mobiles or cell phones, personal stereos and large household appliances such as refrigerators, air-conditioners.
+
+GENERAL STUDIES • The effects of water pollution are not only devastating to people, but also to animals, fish and birds. Polluted water is unsuitable for drinking, recreating, agriculture and industry. It diminishes the aesthetic quality of lakes and rivers. More seriously, contaminated water destroys aquatic life and reduces its reproductive ability. Eventually, it is a hazard to human health. ii. Species Diversity It refers to the variety of species in a specific area. The diversity of species can be measured through its richness, abundance and types.
+
+iii. Ecosystem Diversity The broad differences between ecosystem types and the diversity of habitats and ecological processes occurring within each ecosystem type constitute the ecosystem diversity.
+
+5. Thermal Pollution Measurement of Biodiversity Biodiversity is an important measure of ecosystem health.
+
+Biodiversity can be measured and monitored at several spatial scales.
+
+• This pollution is the degradation of water quality by any process that changes ambient water temperature. A common cause of thermal pollution is the use of water as a coolant, storm water by power plants and industrial manufactures.
+
+• Alpha Diversity It is used to measure richness and evenness of individuals within a habitat unit.
+
+• Beta Diversity Beta diversity is distinct from alpha diversity as it is expression of diversity between habitats.
+
+• When water used as a coolant is returned to the natural environment at a higher temperature, the change in temperature decreases oxygen supply and affects ecosystem composition. Thermal pollution is a crucial source of global warming.
+
+• Gamma Diversity It is used to measure diversity of habitats within a landscape or region.
+
+6. Marine Pollution • Point Diversity It refers to diversity on the smallest scale such as the diversity of microhabitat or sample taken from within a homogenous habitat.
+
+• It refers to the emptying of chemicals or other particles into the ocean and its harmful effects. These chemicals enter into food chain when they are taken up by plankton and benthos.
+
+Biodiversity Hotspots • UNCLOS gives special attention to protection and preservation of marine environment. It covers main sources of ocean pollution, which are as follow – Land based and coastal activities • A biodiversity hotspot is a bio-geographic region with a significant reservoir of biodiversity that is under threat from humans. This concept was put forward by Norman Myers. – Continental shelf drilling – Potential sea bed mining – Ocean dumping • To qualify as a biodiversity hotspot, a region must meet two strict criterias. It must contain atleast 0.5% or 1500 species of vascular plants as endemic and it has to have lost atleast 70% of its primary vegetation. – Vessel source pollution – Pollution from or through the atmosphere.
+
+BIODIVERSITY • Around the world, 25 areas qualify under this definition. These sites support nearly 60% of the world’s plant, bird, mammal, reptile and amphibian species, with a very high share of endemic species. Threats to Biodiversity It refers to the variety and abundance of organisms living in a particular region. In other words, biodiversity is the variability among living and non-living organism and ecological complexes of which they are part, including diversity within and between species and ecosystems. Levels of Biodiversity • The unsustainable harvesting of natural resources, including plants, animals and marine species and the degradation or fragmentation of ecosystems through land conversion for agriculture, forest clearing etc.
+
+Invasive non-native or alien species being introduced to ecosystems to which they are not adapted. Biodiversity can be observed at three levels, which are as follows :
+
+• Pollution from chemical contaminants certainly poses a further threat to species and ecosystems. A changing global climate threatens species and ecosystems. The distribution of species is largely determined by climate, as the distribution of ecosystems and plant vegetation zones.
+
+i. Genetic Diversity It means the variation found in the genes within a species. Each individual of every species have different genetic composition. Within a species there may also be discrete populations with distinctive genes. Conservation of Biodiversity Conservation of biodiversity is important to International Union for Conservation (IUCN) • prevent the loss of genetic diversity of a species.
+
+• save a species from becoming extinct.
+
+• protect ecosystems damage and degradation.
+
+• IUCN is an international organisation dedicated to finding pragmatic solutions to our most pressing environment and development challenges.
+
+Conservation Strategies Conservation effects can be grouped into following two categories, which are as follow • The organisation publishes the IUCN red list compiling information from a network of conservation organisations to rate which species are most endangered. The IUCN Red List Classification Extinct (EX) No individuals remaining. Extinct in the Wild (EW) Known only to survive in captivity.
+
+Critically Endangered (CR) Extremely high risk of extinction in the wild. Endangered (EN) High risk of extinction in the wild. i. In situ (on site) conservation included to protection of plants and animals with their natural habitats or in protected areas. Protected areas are land or sea dedicated to protect and maintain biodiversity.
+
+ii. Ex-situ (off site) conservation of plants and animals outside the natural habitat. These include botanical gardens, gene banks of seed, tissue culture and cryopreservation. Vulnerable (VU) High risk of endangerment in the wild. Near Threatened (NT) Likely to become endangered in near future.
+
+Least Concern (LC) Lowest risk, does not qualify for a ‘more at risk category’. Data Deficient (DD) Data not enough to make an assessment of its risk of extinction. Not Evaluated (NE) Has not been evaluated against the criteria.
+
+International Efforts to Protect the Biodiversity Critical Ecosystem Partnership Fund (CEPF) is a global programme that provides funding and technical assistance to non-governmental organisations and other private sector partners to protect critical ecosystems. They focus on biodiversity hot-spots. Man and Biosphere Programme (MAB) The Convention on Biological Diversity (CBD) The Convention on Biological Diversity (CBD) is an international legally binding treaty. The convention has three main goals, which are as follow :
+
+• MAB of UNESCO was established in 1971 to promote interdisciplinary approaches to management, research and education in ecosystem conservation and sustainable use of natural resources.
+
+i. Conservation of biodiversity.
+
+ii. Sustainable use of its components.
+
+iii. Fair and equitable sharing of benefits arising from genetic resources.
+
+• Earlier focus of MAB programme was protection of designated area, but in 1990's after Rio Summit focus shifted towards promoting interactions of mankind with nature in terms of sustainable living, income generation and reducing poverty.
+
+Cartagena Protocol in Biosafety MAB-Network • Total membership has reached 669 biosphere reserves in 120 countries. It was created in 1971.
+
+• On 29th January, 2000, the Conference of the Parties (CoP) to the convention on biological diversity adopted a supplementary agreement to the convention known as the cartagena protocol on biosafety.
+
+• Benefits gained from being part of network include access to a shared base of knowledge and incentives to integrate conservational practices.
+
+• The protocol seeks to protect biological diversity from the potential risks posed by living modified organisms resulting from modern biotechnology.
+
+Conservation of Biodiversity in India Several important steps have been taken by the Indian Government including enactment of laws for in-situ and ex-situ conservation of endangered and valuable plants and animal, creation of biosphere reserves, national parks, sanctuaries, world heritage sites, zoological parks are some of the important steps in this direction which have been described briefly as below The Nagoya Protocol on Access and Benefit-Sharing The Nagoya Protocol on Access to genetic resources and the fair and equitable sharing of benefits arising from their utilisation to the convention on biological diversity is an international agreement which aims at sharing the benefits arising from the utilisation of genetic resources in a fair and equitable way. GENERAL STUDIES Endangered Species of India Birds Great Indian Bustard, Forest Owlet, Vulture, Bengal Florican, Himalayan Quail, Siberian Crane • Wetlands consist primarily of hydric soil, which supports aquatic plants. Wetlands play a number of roles in the environment, principally water purification, flood control and shoreline stability. Mammals Flying Squirrel, Red Panda, Pygmy Hog, Kondana Rat Snow Leopard, Asiatic Lion, One-Horned Rhinoceros • Wetlands are also considered the most biologically diverse of all ecosystems, serving as home to a wide range of plant and animal life.
+
+Reptiles Gharial, Hawksbill Turtle, River Terrapin, Sispara Day Gecko Amphibians Flying Frog, Tiger Toad Ramsar Convention Wildlife Conservation in India Project Year Project Year • The Ramsar convention is an international treaty signed in Ramsar, Iran for conservation and wise use of wetlands. The agreement was signed on 2nd February, 1971 and came into force from 21st December, 1975. Project Hangul Project Manipur Thamin Project Gir Project Rhino Project Tiger Project Elephant • It is one of the oldest specific conventions that deal not only with the conservation of the wetlands, but also its wise use. India joined Ramsar Convention in 1981 and this convention is in force in India since, 1982. Project Olive Riddey Turtles Project Red Panda Ramsar Wetlands and their State Crocodile Breeding Scheme Project Vulture S. No.
+
+Wetland State 01.
+
+Kolleru Lake Andhra Pradesh 02.
+
+Deepor Beel Assam 03.
+
+Nalsarovar Gujarat 04.
+
+Pong Dam Lake Himachal Pradesh 05.
+
+Renuka Wetland Himachal Pradesh Tiger Conservation ‘The Project Tiger’ was launched in India in 1972 as conservation programme for saving the Indian Tiger. Project Tiger Scheme has been under implementation since, 1973 as a Centrally Sponsored Scheme of Government of India.
+
+06.
+
+Chandertal Wetland Himachal Pradesh Important Tiger Reserves 07.
+
+Hokera Wetland Jammu and Kashmir 08.
+
+Surinsar-Mansar Lake Jammu and Kashmir Name of Tiger Reserve State Name of Tiger Reserve State 09. Tsomoriri Jammu and Kashmir Kaziranga Assam Periyar Kerala 10. Wular Lake Jammu and Kashmir Manas Assam Dudhwa Uttar Pradesh 11.
+
+Thrissur Kole Kerala Nameri Assam Simplipal Odisha 12.
+
+Vembanad-Kol Wetland Kerala 13.
+
+Sasthamkotta Lake Kerala Namdapha Arunachal Pradesh Ranthambore Rajasthan 14. Ashtamudi Wetland Kerala Melghat Maharashtra 15. Bhoj Wetland Madhya Pradesh Nagarjunsagar Andhra Pradesh- Telangana 16.
+
+Loktak Lake Manipur Valmiki Bihar Sariska Rajasthan 17. Chilika Odisha Indravati Chhattisgarh Pench Madhya Pradesh 18.
+
+Bhitarkanika Mangrove Odisha 19.
+
+East Calcutta Wetlands West Bengal Bandipur Karnataka Bori, Satpura, Pachmari Madhya Pradesh 20. Ropar Punjab Palamau Jharkhand Sathyamanglam Tamil Nadu 21. Kanjili Punjab Nagarhole Karnataka Kawal Telangana 22.
+
+Harika Lake Punjab Corbett Uttarakhand Mukundra Hills Rajasthan 23. Keoladeo National Park Rajasthan Kanha Madhya Pradesh 24.
+
+Sambar Lake Rajasthan 25.
+
+Point Calimere Wildlife and Bird Sanctuary Tamil Nadu Wetlands 26.
+
+Rudrasagar Lake Tripura 27.
+
+Upper Ganga River (Brijghat to Narora Stretch) Uttar Pradesh • A wetland is a land area that is saturated with water, either permanently or seasonally, such that it takes on the characteristics of a distinct ecosystem. Kaziranga National Park Assam One horned rhinoceros, gaur, elephant, leopard and wild buffalo National Park and Wildlife Sanctuaries Kanchenjunga National Park Sikkim Snow leopard, musk deer and Himalayan boar Nagarhole National Park Karnataka • There are 105 National Parks and 551 Wildlife Sanctuaries covering an area of more than 15.67 million ha in the country. Namdapha Sanctuary Arunachal Pradesh Elephant, panther, sambhar, tiger, cheetal and king cobra • Madhya Pradesh and Andaman and Nicobar Islands have the maximum number of National Parks (9 each).
+
+Pachmarhi Sanctuary Madhya Pradesh Tiger, panther, boar, sambhar, nilgai and barking deer Simlipal Sanctuary Odisha Elephant, tiger, leopard, gaur and cheetal • Andaman and Nicobar Islands has 96 (maximum in India) and Maharashtra has 36 wildlife sanctuaries. Difference between National Park, Sanctuary and Biosphere Reserve Sunderban Tiger Reserve West Bengal Tiger, deer, wild boar, crocodile and Gangetic dolphin National Park Sanctuary Biosphere Reserve Sonai Rupa Sanctuary Assam Elephant, sambhar, wild boar and one-horned rhinoceros Tungabhadra Sanctuary Karnataka Panther, cheetal, sloth bear and four-horned antelope A reserved area for preservation of endangered species. Valvadore National Park Gujarat Wolf and black buck Multipurpose protected area to preserve genetic diversity in representative ecosystem.
+
+A reserved area for preservation of its natural vegetation, wildlife and natural beauty. Vedanthangal Bird Sanctuary Tamil Nadu Important bird sanctuary Boundaries are fixed by legislation.
+
+Boundaries are not sacrosanct.
+
+Boundaries are fixed by legislation.
+
+Wild Ass Sanctuary Gujarat Wild ass, wolf, nilgai and chinkara Important Sanctuaries and National Parks Biosphere Reserves in India Name Location Reserve For Achanakmar Sanctuary Chhattisgarh Tiger, boar, cheetal, sambhar and bison Bandhavgarh National Park Madhya Pradesh Tiger, panther, cheetal, nilgai and wild boar • The biosphere reserve programme was launched by the UNESCO in 1971, under the aegis of its Man and Biosphere (M&B) programme, to provide a global network of protected areas for conserving natural communities. Bandipur Sanctuary Karnataka and Tamil Nadu Elephant, tiger, panther, sambhar, deer and birds • There are 18 biosphere reserves in India of which of 10 recognised by UNESCO. Banerghatta National Park Karnataka Elephant, cheetal, deer and grey partridge and green pigeon Biosphere Reserves of India Bhadra Sanctuary Karnataka Elephant, cheetal, panther, sambhar and wild boar Name States Type Area (km2) Great Rann of Kutch Gujarat Desert Chandraprabha Sanctuary Uttar Pradesh Gir lions, cheetal and sambhar Gulf of Mannar (UNESCO) Tamil Nadu Coasts Corbett National Park Uttarakhand Tiger, leopard, elephant and sambhar (named in memory of Jim Corbett) Sunderbans (UNESCO) West Bengal Gangetic Delta Dachigam Sanctuary Jammu and Kashmir Kashmiri stag Cold Desert Himachal Pradesh Western Himalayas Nanda Devi (UNESCO) Uttarakhand West Himalayas Dandeli Sanctuary Karnataka Tiger, panther, elephant, cheetal, sambhar and wild boar Western Ghats Nilgiri (UNESCO) Tamil Nadu, Kerala and Karnataka Dudhwa National Park Uttar Pradesh Tiger, panther, sambhar, cheetal, nilgai and barking deer Dihang-Dibang Arunachal Pradesh East Himalayas Gandhi Sagar Sanctuary Madhya Pradesh Cheetal, sambhar, chinkara and wild birds Pachmarhi (UNESCO) Madhya Pradesh Semi-Arid Ghana Bird Sanctuary Rajasthan Water birds, black-buck, cheetal and sambhar Seshachalam Hills Andhra Pradesh Eastern Ghats 4755.997 Gir Forest Gujarat India’s biggest wildlife sanctuary famous for gir lions Simlipal (UNESCO) Odisha Deccan Peninsula 4374 Gautam Buddha Sanctuary Bihar Tiger, leopard, sambhar, cheetal and barking deer Madhya Pradesh, Chhattisgarh Maikala Range Achanakamar- Amarkantak (UNESCO) Jaldapara Sanctuary West Bengal Rhinoceros GENERAL STUDIES Name States Type Area (km2) • Climate change would impact on agricultural and forestry management.
+
+Manas Assam East Himalayas Khanchenjunga (UNESCO) Sikkim East Himalayas Agasthyamalai (UNESCO) Kerala, Tamil Nadu Western Ghats • Rising sea levels and heavy storm damage would severely affect coastlines. Sea levels are increasing at about 2 mm per year. A 1m rise in sea level over the 21st century would mean sub-mergence of some low-lying island nations and displacement of a large number of people. Great Nicobar (UNESCO) Andaman and Nicobar Islands Islands Dibru-Saikhowa Assam East Himalayas • Infectious disease would become more common as global temperatures rise. Panna (UNESCO) Madhya Pradesh Catchment area of Ken river Global Warming Nokrek (UNESCO) Meghalaya East Himalayas • This refers to an increase in average global temperature.
+
+Natural events and human activities are believed to be contributing to an increase in average global temperature. CONTEMPORARY ENVIRONMENTAL ISSUES Climate Change • This is caused primarily by increases in ‘greenhouse’ gases such as carbon dioxide ( CO2 , methane nitrous oxide etc. Greenhouse Effect • The term ‘greenhouse’ is used in conjunction with the phenomenon known as the Greenhouse Effect.
+
+• Changes in the average weather for a particular location leads to climate change. It result from both natural processes such as the change in the Sun's strength and also from human activities, through the build-up of greenhouse gases.
+
+• The atmospheric concentrations of these gases have increased significantly, since, pre-industrial times largely because of fossil fuel usage, decrease in forest cover etc resulting in climate change.
+
+• Six main greenhouse gases are Carbon Dioxide ( CO2 , Methane ( CH4 (which is 20 times as potent a greenhouse gas as carbon dioxide) and Nitrous Oxide N O , plus three fluorinated industrial gases:
+
+Hydrofluorocarbons (HFCs), Perfluorocarbons (PFCs) and Sulphur Hexafluoride ( SF6 .
+
+• It is now a global concern that the climatic changes occurring today have been speeded up because of man's activities.
+
+Causes of Climate Change The causes of climate change can be divided into two categories, which are as follow : i. Natural Causes The Earth’s climate is influenced and changed through natural causes like volcanic eruptions, ocean current, the Earth’s orbital changes and solar variations. ii. Man-Made Causes Burning of fossil fuels, deforestation, mining, industrialisation etc are man-made causes of climate change.
+
+Effects of Climate Change • Climate changes can severely affect human societies, agriculture and the natural ecosystem, terrestrial and aquatic ecosystem, which provide many goods and services on which we rely, would be severely affected.
+
+• Combined with oxidation of high latitude peat lands, release of the carbon stores would add greatly to the CO2 content in the atmosphere. Thus, the effects of warming themselves would cause more warming.
+
+Impact of Global Warming Extreme Weather Patterns Most scientists believe that the warming of the climate will lead to more extreme weather patterns. Such as, more hurricanes and drought, longer spells of dry heat or intense rain (depending on where you are in the world). Rising Sea Levels Water expands when heated and sea levels are expected to rise due to climate change. Rising sea levels will also result as the polar caps begin to melt. Rising sea levels is already affecting many small Islands.
+
+Ocean Acidification Oceans are able to absorb some of the excess CO2 released by human activity. This has helped to keep the planet cooler. But, due to it pH level of water become low, which affects marine life especially to coral and animals having calcium shell. Global Dimming Inter-Governmental Panel on Climate Change (IPCC). This is the leading international body for the assessment of climate change. It was established by the United Nations Environment Programme (UNEP) and the World Meteorological Organisation (WMO) in 1988 to provide the world with a clear scientific view on the current state of knowledge in climate change and its potential environmental and socio-economic impacts.
+
+• Many wild plants and animal species found today can be forced out of their present area of growth/habitats as climate warms.
+
+United Nations Framework Convention on Climate Change (UNFCCC) appeared during the Southern hemisphere’s spring (October and November) and then filled in. Soon after the Antarctic hole was found, Canadian scientists discovered that the ozone layer above the Arctic is also thinning significantly.
+
+• The United Nations Framework Convention on Climate Change (UNFCCC), signed by over 150 countries at the Rio Earth Summit in 1992. The main purposes of this protocol was to – provide mandatory targets on greenhouse gas emissions for the world's leading economies, all of whom accepted it at the time.
+
+• The highest latitudes; the North and South poles experience the greatest amount of ozone loss, during their spring. Ozone depletion is most pronounced in the Antarctic. But ozone depletion, to a lesser degree, now occurs in the mid latitudes. e.g. the amount of stratospheric ozone over the Northern hemisphere has been dropping by 4% per decade.
+
+– provide flexibility in how countries meet their targets. Impacts of Ozone Layer Depletion – further recognise that commitments under the protocol would vary from country to country. Kyoto Protocol • Stratospheric ozone filters out most of the Sun's potentially harmful shortwave Ultraviolet (UV) radiation.
+
+If this ozone becomes depleted, then more UV rays will reach the Earth. Exposure to higher amounts of UV radiation could have serious impacts on human beings, animals and plants, such as the following • The Kyoto Protocol, 1997 to the UNFCCC is an international treaty that sets binding obligations on industrialised countries to reduce emissions of greenhouse gases. – Impact on Human Life More skin cancers, sunburns and premature aging of the skin. UV radiation can damage several parts of the eye, including the lens, cornea, retina and conjunctiva. Cataracts (a clouding of the lens) are the major cause of blindness in the world.
+
+• The protocol recognises that developed countries are principally responsible for the current high levels of greenhouse gas emissions in the atmosphere, as a result of more than 150 years of industrial activity and places a heavier burden on developed nations under the principle of common, but differentiated responsibilities.
+
+Paris Agreement – Agriculture, Forestry and Natural Ecosystems Several of the world's major crop species are particularly vulnerable to increased UV, resulting in reduced growth, photosynthesis and flowering.
+
+• It is dealing with Green House Gas (GHG) emmissions mitigation, adaptation and finance from year 2020.
+
+– These species include wheat, rice, barley, oats, corn, soyabeans, peas, tomatoes, cucumbers, cauliflower, broccoli and carrots.
+
+• This agreement has been signed by 191 countries and 61 countries have even ratified it. This agreement will come into force when 55 countries that emits 55% GHG ratify it.
+
+Hole in Ozone Layer – Damage to Marine Life In particular, plankton (tiny organisms in the surface layer of oceans) are threatened by increased UV radiation. Decreases in plankton could disrupt the fresh and saltwater food chains and lead to a species shift in canadian waters. Loss of biodiversity in our oceans, rivers and lakes could reduce fish yields for commercial and sport-fisheries.
+
+• The ozone layer lies in the stratosphere, in the upper level of our atmosphere. The ozone in it is spread very sparsely.
+
+• Stratospheric ozone filters out most of the Sun's potentially harmful shortwave Ultraviolet (UV) radiation.
+
+– Impacts on Animals In domestic animals, UV over exposure may cause eye and skin cancers. Species of marine animals in their development stage (e.g. young fish, shrimp larvae and crab larvae) have been threatened in recent years by the increased UV radiation under the Antarctic ozone hole.
+
+• This ozone has become depleted, due to the release of such ozone-depleting substances such as Chlorofluorocarbons (CFCs). When stratospheric ozone is depleted, more UV rays reach the Earth.
+
+– Impacts on Materials Wood, plastic, rubber, fabrics and many construction materials are degraded by UV radiation. The economic impact of replacing and/or protecting materials could be significant. The Main Ozone Depleting Substances (ODSs) • Exposure to higher amounts of UV radiation could have serious impacts on human beings, animals and plants. The main ozone of depleting substances are as follow :
+
+Depletion of the Stratospheric Ozone Layer (Ozone Depletion) • Chlorofluorocarbons (CFCs) The most widely used ODS, accounting for over 80% of total stratospheric ozone depletion. Used as coolants in refrigerators, freezers and air conditioners in buildings and cars manufactured before 1995.
+
+• In 1985, a group of scientists made an unsettling discovery, a marked decrease in stratospheric ozone over the South pole, in the Antarctic. The depletion GENERAL STUDIES from the core of the plan, representing multi-pronged, long termed and integrated strategies for achieving goals in the context of climate change. The eight missions are as follow :
+
+Found in industrial solvents, dry cleaning agents and hospital sterilants. Also used in foam products such as soft-foam padding (e.g. cushions and mattresses) and rigid foam (e.g. home insulation).
+
+• Halons Used in some fire extinguishers, in cases where materials and equipment would be destroyed by water or other fire extinguisher chemicals.
+
+• Methyl Chloroform Used mainly in industry for vapour decreasing, some aerosols, cold cleaning, adhesives and chemical processing.
+
+• Carbon Tetrachloride Used in solvents and some fire extinguishers.
+
+• Hydrochlorofluoro Carbons (HCFCs) HCFCs have become major, transitional substitutes for CFCs. They are much less harmful to stratospheric ozone than CFCs are, but HCFCs, still cause some ozone destruction and are potent greenhouse gases.
+
+Montreal Protocol • Ozone depletion has generated worldwide concern leading to the adoption of montreal protocol which was signed in 1987. This protocol bans the production of CFCs, halons and other ozone depleting chemicals such as carbon tetrachloride and trichloroethane.
+
+• Since 1987, more than 150 countries have signed an international agreement on the montreal protocol, which called for a phased reduction in the release of CFCs, such that the yearly amount added to the atmosphere in 1999, would be half that of 1986. Modifications of that treaty called for a complete ban on CFCs, which began in January, 1996.
+
+Environment Related Important International Agreements/Conference UN Conference on the Human Environment Stockholm (1972) Convention on Migratory Species Bonn (1979) Convention for the Protection of the Ozone Layer Vienna (1985) Protocol on Substances that Deplete the Ozone Layer Montreal (1987) Convention on the Transboundary Movement of Hazardous Wastes Basel (1989) Earth Summit (UN Conference on Environment and Development) Rio-de-Janeiro (1992) i. National Solar Mission The NAPCC aims to promote the development and use of solar energy for power generation and other uses, with the ultimate objective of making solar competitive with fossil-based energy options. ii. National Mission for Enhanced Energy Efficiency The NAPCC recommends mandating specific energy consumption decreases in large energy-consuming industries, with a system for companies to trade energy-saving certificates, financing for public-private partnerships to reduce energy consumption. iii. National Mission on Sustainable Habitat The NAPCC also aims at promoting energy efficiency as a core component of urban planning by extending the existing Energy Conservation Building Code, strengthening the enforcement of automotive fuel economy standards, and using pricing measures to encourage the purchase of efficient vehicles and incentives for the use of public transportation.
+
+iv. National Water Mission The NAPCC sets a goal of a 20% improvement in water use efficiency through pricing and other measures to deal with water scarcity as a result of climate change. v. National Mission for Sustaining the Himalayan Ecosystem This particular mission sets the goal to prevent melting of the Himalayan glaciers and to protect biodiversity in the Himalayan region. vi. Green India Mission The NAPCC also aims at afforestation of 6 million hectares of degraded forest lands and expanding forest cover from 23 to 33% of India’s territory.
+
+vii. National Mission for Sustainable Agriculture The NAPCC aims to support climate adaptation in agriculture through the development of climate-resilient crops, expansion of weather insurance mechanisms and agricultural practices. viii. National Mission on Strategic Knowledge for Climate Change To gain a better understanding of climate science, impacts, and challenges, the plan envisions a new Climate Science Research Fund, improved climate modeling, and increased international collaboration. Sustainable Development Convention on Prior Informed Consent Rotterdam (1998) UN Conference on Sustainable Development Rio-de-Janeiro (2012) Nagoya Protocol on Genetic Resources Nagoya (2010) Convention on Biological Diversity (CBD-CoP-11) Hyderabad (2012) UN Climate Change Conference (CoP-20) Lima (2014) Paris Climate Conference (CoP-21) Paris (2015) • Sustainable development is the development that meets the need of the present generation without compromising the ability of future generations to meet their needs.
+
+• It is an organising principle for human life on a finite planet. It put forward or desirable future state for human societies, in which living conditions and resource use meet human needs without undermining the sustainability of natural systems and environment.
+
+National Action Plan on Climate Change (NAPCC) National Action Plan on Climate Change (NAPCC) is a comprehensive action plan which outlines measures on climate change related adaptation and mitigation while simultaneously advancing development. The eight missions PRACTICE EXERCISE 1. Match the following 5. Which one of the following pairs is not correctly matched? List II (Major Sources) List I (Green House Gases) National Park State (a) Kanha National Park Madhya Pradesh (b) Sultanpur National Park : Haryana (c) Ranthambhore National Park Gujarat 9. Proper disposal of hazardous toxic waste is essential as exposure to it can causes serious problems to the health. Which is potentially the safest means of disposing of the most toxic wastes:
+
+organic solvents, chlorinated hydrocarbons and oil-base compounds (including PCBs are dioxins)? (a) Municipal incineration (b) Industrial high temperature incineration (c) Landfills (d) None of the above A. Carbon dioxide 1. Enteric fermentation in cattle B. Methane 2. Burning of fossil fuels C. Chlorofluoro carbons 3. Mercury compounds in waste water D. Nitrous oxide 4. Nylon production 5. Air-conditioners and refrigeration units (d) Bandipur National Park Karnataka 6. In the context of ecosystem productivity, marine upwelling zones are important as they increases the marine productivity by bringing the 1. decomposer micro-organisms to the surface.
+
+2. nutrient to the surface.
+
+3. bottom dwelling organisms to the surface.
+
+Which of the statement(s) given above is/are correct? (a) 1 and 2 (b) Only 2 (c) 2 and 3 (d) Only 3 10. Consider the following statement(s) 1. The boundaries of a National Park are defined by legislation.
+
+2. A biosphere reserve is declared to conserve a few specific species of flora and fauna.
+
+3. In a wildlife sanctuary, limited biotic interference is permitted.
+
+Which of the statement(s) given above is/are correct? (a) Only 1 (b) 2 and 3 (c) 1 and 3 (d) All of these 7. Which of the following air (s) of projects are related with environmental problems? 11. Which among the following is the most abundant Green House Gas (GHG) in the Earth’s atmosphere? (a) Carbon dioxide (b) Water vapour (c) Sulphur dioxide (d) Tropospheric ozone Codes A B C D A B C D (a) 2 1 (b) 3 2 4 1 (c) 3 4 (d) 1 2 3 5 2. What is the primary reason for targeting ‘biodiversity hotspots’ for conservation? (a) To protect all areas of threatened species would not allow for new species to develop (b) Because the hotspots are Earth-biologically richest and most endangered terrestrial eco-regions (c) They are areas where people do not live and conservation would therefore not be effecting the economic development of the area (d) They are the only areas where species are seriously threatened in the world 1. River Valley Project : Water body induced 2. Mining Project : Groundwater and surface water pollution 3. Thermal power project : Degradation of land Which of the pair(s) given above is/are correctly matched? (a) Only 1 (b) 2 and 3 (c) 1 and 2 (d) All of these 12. The ranking of countries as the highest per capita emitters of carbon dioxide in the world, takes into account their annual CO2 emissions from 1. burning of fossil fuels.
+
+2. cement manufacture.
+
+3. land use such as deforestation.
+
+Which of the statement(s) given above is/are correct? (a) Only 1 (b) 1 and 2 (c) 1 and 3 (d) All of these 3. The United Nations Framework Conventions on Climate Change (UNFCCC) is an international treaty drawn at (a) United Nations Conference on the Human Environment, Stockholm, (b) UN Conference on Environment and Development, Rio de Janeiro, (c) World Summit on Sustainable Development, Johannesburg, 2002 (d) UN Climate Change Conference Copenhagen, 2009 8. Which of the following is not a major positive feedback mechanism in which the activity of humans to increase global climate temperature leads to an even further increases? (a) Tropical deforestation causes warming and drying so that remaining forests begin to decline (b) Global warming causes snow to melt in polar regions and therefore increases global albedo (c) Global warming causes increased rainfall, plant growth and photosynthesis (d) Global warming causes increased CO2 release from biomass decomposition 13. Below are the environmental benefits of organic farming 1. It aims to produce food while establishing an ecological balance to prevent soil fertility or pest problems.
+
+2. It permits the use of GMOs.
+
+3. It produces more biodiversity than other farming systems.
+
+4. It improves the water retention capacity of the soil.
+
+Which of the statements given above are correct? (a) 1, 2 and 4 (b) 1 and 4 (c) 1, 3 and 4 (d) All of these 4. The Chinkara (Gazella Bennettii) or Indian Gazelle is found in (a) Rajasthan, North-Western and central parts of India (b) North-East (c) Northernmost Himalayas (d) South India GENERAL STUDIES 14. The concept of sustainable development relates to (a) consumption levels (b) exhaustible resources (c) social equity (d) intergenerational equity 3. It influence the micro-climate of the locality in addition to checking of underground salt water intrusion on an adjacent brackish water environment through interface pressure. Which of the statement(s) given above is/are correct? (a) Only 3 (b) 2 and 3 (c) Only 1 (d) All of these 26. Which among the following processes helps in evolution? 1. Natural selection 2. Adaptation 3. Mutation 4. Reproductive isolation Select the correct answer using the codes given below. (a) 1, 2 and 3 (b) 2, 3 and 4 (c) 2 and 3 (d) All of these 27. Match the following List I List II 15. The mass nesting of the Olive Ridley sea turtles in India occurs at (a) Sunderbans (b) Gahirmatha marine sanctuary (c) Mangalajodi wetlands (d) Pulicat lake A. Acid Rain 1. Nitrogen B. Automobile Smoke 2. Carbon dioxide 21. Which one of the following comes under the in-situ approaches of conserving biodiversity in India? (a) Sacred plants (b) Botanical gardens (c) Seed banks (d) Biosphere reserves C. Ozone Depletion 3. Nitrogen oxide D. Global Warming 4. Oxide of sulphur 5. Chlorofluorocarbon 16. Which one of the following is not a part of India’s National Action Plan on Climate Change (NAPCC)? (a) National Mission on Sustainable Habitat (b) National Water Mission (c) National Mission on Pollution Control (d) National Mission for Sustainable Agriculture 22. The CERES principles are (a) codes for protection of salmon fisheries (b) a set of voluntary environmental standards for businesses (c) anti-pollution codes that were adopted at the first Earth Summit in 1992 (d) designed to eliminate the production of greenhouse gases Codes A B C D A B C D (a) 4 2 (b) 4 3 1 2 (c) 4 3 (d) 4 3 2 1 28. Which of the following pairs is correctly matched of an endangered animal and a National Park? (a) Great Indian Bustard : Keoladeo National Park 23. Among the following greenhouse gases, the emission of which one of the following is entirely anthropogenic? (a) Chlorofluorocarbons (b) Methane (c) Nitrous oxide (d) Hydrogen sulphide 17. Wind erosion is one of the key causes of desertification and occurs when soil is left bare of vegetation. State the major cause of wind erosion in arid and semi-arid lands where this problem is most severe.
+
+(a) Cleaning of land for agriculture (b) Overgrazing by livestock (c) Deforestation (d) Forest fires (b) Lion : Corbett National Park (c) Rhinoceros : Kaziranga National Park (d) Wild Ass : Dudhwa National Park 29. Endosulfan, a pesticide which was banned by the Supreme Court of India, is listed under (a) Rotterdam convention (b) Stockholm convention (c) Bonn convention (d) Ramsar convention 18. A high Biological Oxygen Demand (BOD) value in aquatic environment is indicative of (a) a pollution free system (b) a highly polluted system due to excess of nutrients (c) a highly polluted system due to abundant heterotrophs (d) A highly pure water with abundant of autotrophs 24. Environmental Kuznets curve (a) a semi-circle curve suggesting increase in per capita income increases the pollution (b) a U-shaped curve suggesting the level of development and carbon emission (c) suggest a U-shaped relationship between the carbon emission and ozone layer depletion (d) suggest a bell-shaped relationship between the concentration of certain pollution emission and per capita real GDP 19. Genetic diversity in agricultural crops is threatened by (a) introduction of high yielding varieties (b) intensive use of fertilizers (c) extensive inter cropping (d) intensive use of bio-pesticides 20. Consider the following statement(s) about wetland(s) 1. It plays an important role in pollution abatement.
+
+2. It is a habitat of endangered and rare species of birds, animals, plants and insects.
+
+30. Black carbon has emerged as a major contributor to global climate change. In the context of it, consider the following statement(s) 1. Black carbon particles strongly absorb sunlight and give soot its black colour.
+
+2. It is produced both naturally and by human activities.
+
+3. Primary sources include emissions from diesel engines and cooking stoves.
+
+4. It remains in the atmosphere continuously for more than a month.
+
+Which of the statement(s) given above is/are correct? (a) 1, 3 and 4 (b) 1, 2 and 3 (c) 2, 3 and 4 (d) All of these 25. The 1987 Montreal Protocol was signed for which of the following reasons? (a) To phase out the use of CFC’s, found to be causing depletion of the ozone layer (b) To ban nuclear testing in tropical oceans (c) Shifting from fossil fuel use to more renewable energy source to reduce the anthropogenic greenhouse effect (d) To stop the global trade in products made from endangered tigers 42. Which of the following wires are correctly matched? (a) human beings are not allowed to enter (b) people are an integral part of the system (c) plants are paid greater attention than the animals (d) living organisms are brought from all over the world and preserved for posterity 31. The niche of an animal is best defined as (a) the number of individuals of the species, the environment will support (b) the same as its habitat (c) all the ways an animal fits into its environment (d) the specific part for which organism is best suited Tiger Reserves Locations 1.
+
+Udanti Sitanadi : Rajasthan 2.
+
+Dandeli Anashi : Chhattisgarh 3.
+
+Sariska : Odisha 4.
+
+Satkosia : Karnataka Codes (a) 1 and 2 (b) 1, 2 and 4 (c) 2, 3 and 4 (d) None of these 32. Biodiversity manifests itself at different diversities at following level 1. Environmental diversity 2. Species diversity 3. Genetic diversity 4. Ecosystem diversity Select the correct answer using the codes given below. (a) 1, 2 and 3 (b) 2, 3 and 4 (c) 1 and 4 (d) All of these 38. The broad objectives of the Ministry of Environment and Forest are 1. afforestation and regeneration of degraded areas.
+
+2. prevention and control of pollution.
+
+3. protection of the environment.
+
+4. ensuring the welfare of the animals.
+
+Select the correct answer using the codes given below. (a) 2 and 3 (b) 1 and 2 (c) 1 and 3 (d) All of these 33. The use of micro-organism metabolism to remove pollutants such as oil spills the water bodies is known as (a) biomagnification (b) bioremediation (c) biomethanation (d) bioreduction 43. The Access and Benefit Sharing (ABS) Protocol adopted by COP-10 at Nagoya is regarding the fair and equitable sharing of benefits arising from the use of (a) the genetic resources of the Earth (b) Exclusive Economic Zones (EEZs) (c) marine and coastal areas significant for ‘eco-tourism’ (d) technology transfer mechanisms for Clean Energy Development 44. Consider the following wetland(s) 1. Point Calimere (Tamil Nadu) 2. Sambar (Rajasthan) 3. Loktak (Manipur) 4. Harike (Punjab) Which of the given above wetland(s) of India have been included in the International Ramsar Convention list? (a) Only 2 (b) 1, 2 and 3 (c) 2 and 3 (d) All of these 34. Climate change may have an impact on the following (a) agriculture, natural terrestrial ecosystems and water resources (b) air quality, oceans and coastal zones (c) energy and human health (d) All of the above 39. Due to their extensive rice cultivation, some regions may be contributing to global warming. To what possible reason/reasons is this attributable? 1. The anaerobic conditions associated with rice cultivation cause the emission of methane.
+
+2. When nitrogen based fertilizers are used, nitrous oxide is emitted from the cultivated soil.
+
+Select the correct answer using the codes given below. (a) Only 1 (b) Only 2 (c) Both 1 and 2 (d) Neither 1 nor 2 45. Which among the following are the major reasons behind preferring Eucalyptus tree in the planned forestation process? 1. Plantation grows very fast.
+
+2. Plantation makes the soil more fertile.
+
+3. Wood from Eucalyptus tree is easily converted into pulp for Paper Industry.
+
+Select the correct answer using the codes given below. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) All of these 35. The effects of global warming are 1. The sea level may rise.
+
+2. It will prevent the stirring up of the oceans.
+
+3. Fish population will migrate towards the Tropics.
+
+4. Precipitation will be frequent.
+
+Select the correct answer using the codes given below. (a) 1, 2 and 4 (b) 1 and 3 (c) 1 and 4 (d) All of these 46. The ‘pond bloom’ of blue-green algae which causes the death of fishes and cattles produces the toxin of (a) ammonia (b) hydroxylamine (c) carbohydrates (d) fatty acids 40. Hazardous waste is generated mainly by the industrial sector. It not only causes harm to the environment, but also leads to health problems. A small percentage of the hazardous waste is also generated in the house. One of the following is a hazardous waste that is generated in the house. Name it. (a) Paper (b) Leftover foodstuff (c) Old batteries (d) Plastic bags 36. In India, we find mangoes with different flavours, colours, fibre-content, sugar content and even shelf-life. The large variation is on account of (a) species diversity (b) induced mutations (c) genetic diversity (d) hybridisation 47. A balanced ecosystem is one in which the (a) number of organisms at all levels are equals (b) amount of energy synthesised and utilised is equal (c) amount of biomass at all trophic levels levels is equal (d) organisms are interdependent on each other 41. Municipal waste is disposed in the open dumps, landfills, sanitary landfills and is also burnt in large furnaces. This method is known as (a) incineration (b) blast furnace (c) waste furnace (d) All of these 37. Biosphere reserves differ from national parks and wildlife sanctuaries because in the former GENERAL STUDIES 48. Match the following List I (Major Biomes) List II (Physical Characteristics) 59. Eutrophication of lakes is a consequential effect of the accumulation of (a) silt load (b) sewage (c) nitrates and phosphates (d) vegetation A. The Northern most of the Temperate Formations 1. Floristically poor (i.e. a continuous belt across North America and Northern Eurasia) B. Arctic Tundra Vegetation 2. Boreal forest 2. Sanctuaries are concerned with conservation of the habitat of a particular species.
+
+3. Biosphere reserves are connected with the habitat of a particular wild animal.
+
+Which of the statement(s) given above is/are correct? (a) 1 and 3 (b) Only 2 (c) 1 and 2 (d) All of these 4. Savanna woodland C. Marine 3. Pelagic division D. The Terrestrial Biomes of the Tropics 5. Soviet steppe and North American prairie 54. Which one of the following pairs of geographical areas show maximum biodiversity in our country? (a) Sunderbans and Rann of Kutch (b) Eastern Ghats and Paschim Banga (c) Eastern Himalayas and Western Ghat (d) Kerala and Punjab 60. India is party to 1. United Nation Framework Convention on Climate Change (UNFCCC).
+
+2. Convention on Biological Diversity.
+
+3. Convention on Conservation of Migratory Species of Wild Animals.
+
+4. Convention on World Heritage.
+
+Select the correct answer using the codes given below. (a) 1 and 3 (b) 1 and 4 (c) 1, 2 and 4 (d) All of these 61. Which one of the following zones of the atmosphere is rich in ozone gas? (a) Mesosphere (b) Troposphere (c) Stratosphere (d) Ionosphere Codes A B C D A B C D (a) 2 4 (b) 2 1 3 4 (c) 4 3 (d) 4 1 3 2 49. The functioning of an ecosystem involves (a) flow of energy and circulation of nutrients (b) an increasing simplicity of relations (c) increasing animal populations (d) increasing number of trees and bushes etc 55. The first research project programme, which focused on the EI Nino-Southern Oscillation and its predictability was called (a) Climate Variability and Predictability (b) Global Energy and Water Cycle Experiment (GEWEX) (c) Global Change and Terrestrial Ecosystem (GCTE) (d) Tropical Ocean and Global Atmosphere (TOGA) 62. Mangroves are salt-tolerant forest ecosystems. Name the largest mangrove forests in the world that constitute 7% of the world's mangroves, house a variety of wildlife sanctuaries and are also a potential site to harness tidal energy. (a) The Sunderbans in Paschim Banga (b) Musser forests in Eucador (c) The Mekong Delta in Vietnam (d) None of the above 50. The term used for the conservation of ecosystems and natural habitats and the maintenance and recovery of viable populations of species in their natural surroundings is (a) core conservation (b) in-situ conservation (c) ex-situ conservation (d) peripheral conservation 56. In which of the following the maximum plant diversity is found? (a) Tropical evergreen forests (b) Tropical moist deciduous forests (c) Sub-tropical mountain forests (d) Temperate moist forests 51. Which of the following is not one of the major environment problems resulting from human interference in the nitrogen cycle? (a) Eutrophication (b) Nitrous oxide release increases global warming (c) Increased acid rain (d) Stratospheric ozone depletion 63. Name the gas released from landfills, decaying organic matter under shallow water in marshes and bogs, flooded paddy fields, by ruminant animals and termites and by the burning of biomass. A molecule of this gas has 21 times more global warming potential than a molecule of CO2.
+
+(a) Sulphur dioxide (b) Methane (c) Ammonia (d) Nitrous oxide 64. Match the following List I (Biosphere Reserves) List II (Places) 57. Consider the following characteristic(s), with reference to a freshwater lake 1. Richness in nutrients.
+
+2. Rapid turnover of phytoplankton.
+
+3. Depletion of dissolved oxygen.
+
+Which of the above is/are observed in a lake after its eutrophication? (a) Only 1 (b) 1 and 2 (c) Only 3 (d) All of these 52. Atmospheric ozone layer, which protect us from UV-B and C is getting depleted most by addition of (a) chlorofluorocarbon (b) carbon monoxide (c) carbon dioxide (d) sulphur dioxide A.
+
+Manas 1. Meghalaya B.
+
+Pachmarhi 2. Assam C.
+
+Nokrek 3. Madhya Pradesh D.
+
+Achanakmar Amarkantak 4. Chhattisgarh 58. Which one of the following terms describes not only the physical space occupied by an organism, but also its functional role in the community of organisms? (a) Ecotone (b) Ecological niche (c) Habitat (d) Home range Codes A B C D A B C D (a) 4 3 (b) 2 1 3 4 (c) 4 1 (d) 2 3 1 4 53. Consider the following statement(s) 1. National Parks are a special category of protected areas of land and sea coasts where people are an integral part of the system.
+
+67. Kanha National Park belongs to which one among the following bio-geographical areas in the world? (a) Tropical Sub-humid forests (b) Tropical Humid forests (c) Tropical Dry forests (d) Tropical Moist forests 68. Match the following List I (Regions) List II (Characteristic Vegetations) 70. Which one of the following statement(s) on biosphere reserves is not correct? (a) In 1973, UNESCO launched a worldwide programme on man and biosphere (b) Biosphere reserves promote research on ecological conservation (c) Nanda Devi Biosphere Reserve is located in Madhya Pradesh (d) Biosphere reserves are multipurpose protected areas to preserve the genetic diversity in ecosystems 65. Which of the following statement(s) regarding ozone layer within the atmosphere is/are correct? 1. It absorbs most of the ultraviolet radiation found in the Sun’s rays.
+
+2. Chlorofluorocarbons are serious threat to the ozone layer.
+
+Select the correct answer using the codes given below. (a) Only 1 (b) Only 2 (c) Both 1 and 2 (d) Neither 1 nor 2 66. Match the following A. Selvas 1. Mosses and lichens B. Savanas 2. Epiphytes C. Tundra 3. Tropophytes D. Monsoon lands 4. Grasses and trees List II (Annual Rainfall Received) List I (Natural Vegetations of India) A. Tropical evergreen forests 1. 100-200 cm B. Tropical deciduous forests 2. Above 200 cm C. Tropical dry forests 3. Less than 50 cm D. Arid forests 4. Above 300 cm 5. 50-100 cm 71. Consider the following statements 1. Jim Corbett National Park is the oldest National Park of India.
+
+2. It was one of the nine Tiger Reserves created at the launch of the Project Tiger in 1973.
+
+3. Initially it was named as ‘Hailey National Park’.
+
+Which of the statements given above are correct? (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) All of the above Codes A B C D A B C D (a) 1 2 (b) 4 3 1 5 (c) 2 1 (d) 2 1 3 4 Codes A B C D A B C D (a) 3 1 (b) 3 4 1 2 (c) 2 4 1 (d) 2 1 4 3 69. Which one of the following is the correct sequence of the given tiger reserves of India from North to South? (a) Dudwa-Kanha-Indravati-Bandipur (b) Kanha-Bandipur-Dudwa-Indravati (c) Indravati-Kanha-Dudwa-Bandipur (d) Dudwa-Kanha-Bandipur-Indravati QUESTIONS FROM CDS EXAM (2012-2016) 2012 (I) 3. Over 90% of the world’s biomass is in (a) tropical rain forests (b) freshwater wetlands (c) topsoils (d) oceans 4. Match the following 6. Carbon dioxide is called a greenhouse gas because (a) its concentration remains always higher than other gases (b) it is used in photosynthesis (c) it absorbs infrared radiation (d) it emits visible radiation List I (Tiger Reserves) List II (States) A. Indravati 1. Karnataka B. Periyar 2. Odisha C. Simlipal 3. Kerala D. Bandipur 4. Chhattisgarh 7. Consider the following statements 1. Ozone is mostly found in the stratosphere.
+
+2. Ozone layer lies 25 to 30 km above the surface of the Earth.
+
+3. Ozone absorbs ultraviolet radiation from the Sun.
+
+4. Ozone layer has no significance for life on the Earth.
+
+Which of the statements given above are correct? (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 3 and 4 1. What is the major role of a greenhouse gas that contributes to temperature rise of the Earth’s surface? (a) Transparent to both incoming sunlight and outgoing infrared radiation (b) Stops both incoming sunlight and outgoing infrared radiation (c) Lets outgoing infrared radiation pass through but stops incoming sunlight (d) Lets incoming sunlight pass through but stops outgoing infrared radiation 2. Which one among the following statements is not correct? (a) Trophic dynamics represents the transfer of energy from one trophic level to another in a food chain (b) In deeper parts of oceans, primary production remains almost nil (c) The primary consumers are called autotrophs (d) The decomposes are called saprotrophs Codes A B C D A B C D (a) 1 2 (b) 1 3 2 4 (c) 4 3 (d) 4 2 5. Which one among the following is a source of methane emission into the atmosphere? (a) Automobile exhaust fume (b) Industrial chimney (c) Mining (d) Wetland GENERAL STUDIES 2013 (I) Select the correct answer using the codes given below. (a) 1 and 3 (b) Only 2 (c) Only 3 (d) All of these 8. In wildlife conservation which one among the following best defines an ‘endemic species’? (a) When the critical number of a species declines in a forest due to parasitic attack (b) A species which is cosmopolitan and can be commonly found in biosphere (c) An endangered species which is found in a few restricted areas on the Earth (d) A species confined to a particular region and not found anywhere else 18. The vegetation type characterised by (i) a large expanse of grassland with scattered trees and shrubs, (ii) lying between tropical rain forest and tropical steppes and deserts and (iii) flat-topped trees, is called (a) mid-latitude broad-leaf mixed forest (b) temperate rain forest (c) tropical savanna (d) mid-latitude grassland 2012 (II) 9. Match the following 13. Which of the following statement(s) regarding recycling is/are correct? 1. Recycling is just the collection and separation of the waste materials.
+
+2. Recycling is the collection and separation of the materials from the waste stream and their subsequent processing to produce a marketable product.
+
+3. Recycling leads to reduction of waste disposal cost.
+
+Select the correct answer using the codes given below. (a) Only 1 (b) 1 and 2 (c) 2 and 3 (d) 1 and 3 19. Biodiversity is richer in (a) tropical regions (b) polar regions (c) temperate regions (d) oceans List II (States) List I (Biosphere Reserves) 2014 (II) A. Nilgiri 1. Odisha B. Manas 2. Madhya Pradesh C. Panchmarhi 3. Tamil Nadu D. Similipal 4. Assam 14. Which of the following gases in the atmosphere is/are responsible for acid rains? 1. Oxides of sulphur 2. Oxides of nitrogen 3. Oxides of carbon Select the correct answer using the codes given below. (a) 1 and 2 (b) 1 and 3 (c) Only 2 (d) All of these 2013 (II) 20. The Equatorial region has no other season except summer. What could be the reason? 1. The length of day and night is more or less equal over the year.
+
+2. The Earth’s rotational velocity is maximum at the Equator.
+
+3. The Coriolis force is zero at the Equator.
+
+Select the correct answer using the codes given below. (a) Only 1 (b) 1 and 2 (c) 2 and 3 (d) All of the above 15. Which one among the following is responsible for formation of ‘Ozone Holes’ in the stratosphere? (a) Benzopyrene (b) Hydrocarbons (c) Chloro fluoro carbons (d) UV radiation 2015 (I) 21. Match the following Codes A B C D A B C D (a) 3 2 (b) 1 4 2 3 (c) 3 4 (d) 1 2 4 3 10. The variability among living organisms from all sources including terrestrial, marine and other ecosystems and the ecological complexes of which they are part which includes diversity within species, between species of ecosystems refers to (a) geographical diversity (b) zoological diversity (c) ecological diversity (d) biological diversity List I (Types of Grass) List II (Countries) A. Llanos 1. Australia B. Prairies 2. Venezuela C. Pampas 3. USA D. Downs 4. Argentina 11. Ozone holes are more pronounced at the (a) Equator (b) Tropic of Cancer (c) Tropic of Capricorn (d) Poles 16. Consider the following sanctuaries of India 1. Periyar 2. Dachigam 3. Sariska 4. Kanha Which one among the following is the correct sequence of location of the above sanctuaries from South to North? (a) 1, 4, 2, 3 (b) 4, 1, 3, 2 (c) 1, 4, 3, 2 (d) 3, 1, 4, 2 2014 (I) Codes A B C D A B C D (a) 1 4 (b) 1 3 4 2 (c) 2 4 (d) 2 3 4 1 22. Ozone layer of the Earth’s atmosphere is important for living organisms because it (a) prevents entry of ultra-violet rays (b) prevents entry of X-rays (c) maintains level of oxygen on the Earth (d) prevents acid rain on the Earth 17. Which of the following method(s) is/are suitable for soil conservation in hilly region? 1. Terracing and contour bunding 2. Shifting cultivation 3. Contour ploughing 12. The variability among living organisms from all sources including terrestrial, marine and other ecosystems and the ecological complexes of which they are part which includes diversity within species, between species of ecosystems refers to (a) geographical diversity (b) zoological diversity (c) ecological diversity (d) biological diversity 23. Match the following 26. Match the following List I (Sanctuaries) List II (States) List I (Plants) List II (Natural Vegetation Types) A. Sharavati Valley 1. Gujarat B. Satkosia Gorge 2. Goa C. Pirotan Island 3. Odisha D. Bhagwan Mahavir 4. Karnataka A. Ebony 1. Moist deciduous B. Shisham 2. Himalayan moist C. Walnut 3. Alpine D. Birch 4. Tropical evergreen 2. The most dramatic regional LPI decrease occurred in Africa. Select the correct answer using the codes given below.
+
+(a) Only 1 (b) Only 2 (c) Both 1 and 2 (d) Neither 1 nor 2 2015 (II) 25. Match the following List I (Lakes) List II (Types) Codes A B C D A B C D (a) 4 1 (b) 4 2 1 3 (c) 3 2 (d) 3 1 2 4 27. ‘Rio + 20’ is the short name for (a) Millennium Development Goals (b) United Nations Conference on Sustainable Development (c) Earth Summit (d) Post-2015 Development Agenda A. Ashtamudi Kayal 1. Residual (Sweet water) B. Himayat Sagar 2. Lagoon C. Dal Lake 3. Glacial D. Tsomgo Lake 4. Artificial (Sweet water) 2016 (I) Codes A B C D A B C D (a) 2 1 (b) 4 1 3 2 (c) 4 3 (d) 2 3 1 4 24. Which of the following statement(s) is/are correct with regard to the Living Planet Report-2014 (Species and Spaces, People and Places) released by World Wildlife Fund (WWF)? 1. The Living Planet Index (LPI), which measures more than 10000 representative populations of mammals, birds, reptiles, amphibians and fish, has declined by 52% since 1970. Codes A B C D A B C D (a) 2 4 (b) 2 1 4 3 (c) 3 1 (d) 3 4 1 2 28. The Mahatma Gandhi National Marine Park is located in (a) Pirotan Island (b) Rameswaram (c) Ganga Sagar Island (d) Port Blair ANSWERS Practice Exercise Questions from CDS Exam (2012-16)
+
+
+</div>

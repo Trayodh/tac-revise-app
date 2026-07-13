@@ -1,162 +1,80 @@
-### Atomic Structure Study Module
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">ATOMIC STRUCTURE</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-#### Formal Chapter Overview
-_*The Atomic Structure Fundamentals - Navigating the Quantum Realm*_
+(iv) Gay Lussac’s Law of Gaseous VolumesThe volume of reactants and products in large number of chemical reactions are related to each other by small integers, provided the volumes are measured at same temperature and pressure. These statements are considered as the law of definite proportions by volume given by Gay-Lussac. MOLECULES In chemical changes, the chemical composition as well as chemical properties of the matter changes and a new substance is formed. Burning of any substance, photosynthesis, ripening of fruits, etc., are examples of chemical change. Physical changes are reversible (i.e. can be reversed to obtain the original substance) while chemical changes are irreversible.
 
-Atomic structure is the foundation of the study of chemistry, as it explains the properties and behavior of elements. At its core, atomic structure is the arrangement of protons, neutrons, and electrons within the atom. Understanding the atomic structure is crucial in explaining the periodic table, chemical reactions, and the behavior of atoms in various states.
+Laws of Chemical Combination The term molecule was given by Avogadro. It is the smallest particle of a compound which can exist in free state. All the properties of a compound depend on its constituent molecules. Molecules of a compound contain two or more different types of atoms in a fixed ratio. e.g. ammonia (NH3), water ( H O etc.
 
-#### 1.0 Atomic Model Evolution
-The study of atomic structure dates back to ancient Greece, where philosophers attempted to explain the composition of matter. Through the centuries, the understanding of atomic structure has evolved significantly, from the early atomic model proposed by Dalton to the modern atomic model.
+• Molecular mass is the mass of a molecule. It is an additive property and is calculated by adding the atomic masses of total atoms present in a molecule.
 
-#### 1.1 Atomic Components
-An atom consists of three primary components: protons, neutrons, and electrons. Protons and neutrons reside in the nucleus, while electrons orbit the nucleus in energy levels or electron shells.
+e.g.
 
-#### 1.2 Electron Shell Model
-The electron shell model explains the arrangement of electrons in an atom. Electrons occupy specific energy levels or shells around the nucleus, with each shell having a limited capacity. The outermost shell is the valence shell, which determines the chemical properties of an element.
+NH3 = 14 + (1) 3 = 17 • Equivalent weight is obtained by dividing molecular or atomic mass by valency. Equivalent weight = Molecular mass or atomic mass Valency (i.e. equivalent weight is affected by change in valency) Mole Concept The number of molecules present in 12 g of C-12 atom is called one mole. 1 mol = 6 022 10 23 = Avogadro’s number • Number of moles = Mass (in g) Atomic or molecular mass (g mol 1 mol of atom = 6 022 10 23 atoms 1 mol of molecules = 6 022 10 23 molecules • Atomic mass is the relative mass as compared with an atom of C-12 and is expressed in amu.
 
-#### 1.3 Electron Configuration
-Electron configuration is the arrangement of electrons in an atom. It is used to explain the chemical properties of elements and their position in the periodic table.
+(1 amu = 1.6 10 24 g).
 
-### 2.0 Quantum Mechanics
+Combination of elements/atoms to form compounds is governed by following basic laws: (i) Law of Conservation of Mass This law was put forth by Antoine Lavoisier in 1789. It states that, matter can neither be created nor destroyed but can be converted from one form to another. In a chemical reaction, total mass of reactants is equal to total mass of products. In terms of energy, it is called law of conservation of energy.
 
-Quantum mechanics is a branch of physics that deals with the behavior of matter and energy at an atomic and subatomic level. It explains the principles of wave-particle duality, superposition, and entanglement.
+(ii) Law of Definite Proportions A pure compound always contains same elements combined in same proportions by mass, whatever be its source. This is called law of definite proportions by weight and is given by Joseph Proust, e.g. water obtained from any source like tap water, well water, etc., always contain hydrogen and oxygen in 1:8 by mass. (iii) Law of Multiple Proportions This law was proposed by John Dalton in 1803 . It states that when the fixed mass of an element combines with different masses of another element, then the masses of other elements (in two or more compounds) are in the ratio of small whole numbers..
 
-$$\Psi(r,t) = \psi(x,t) \cdot \phi(y,t) \cdot \chi(z,t)$$
+e.g.
 
-The wave function, ψ(r,t), is a mathematical representation of a quantum state. It is used to calculate the probability of finding a particle in a particular state.
+H O H O 2 2 g : 32 g or 1 g : 32 g.
 
-#### 2.1 Wave-Particle Duality
-Wave-particle duality explains the behavior of particles at the atomic and subatomic level. Particles, such as electrons and photons, can exhibit both wave-like and particle-like properties.
+Thus, ratio of O combining with same mass of H = 1 2 : . ATOMIC STRUCTURE Atoms are the basis of chemistry, even they are the basis for everything in the universe. Maharishi Kanad was one of the first person to propose that matter is made up of every small particles called parmanu. John Dalton called the particles by the name of atom. DALTON’S ATOMIC THEORY According to this theory, • Atom is the smallest indivisible particle of an element, i.e. it can neither be created nor be destroyed.
 
-#### 2.2 Superposition
-Superposition is a fundamental principle of quantum mechanics. It states that a quantum system can exist in multiple states simultaneously.
+• Atoms of different elements differ in mass, size and chemical properties.
 
-### 3.0 Applications of Atomic Structure
+• Atoms of same or different elements combine together to form compound or molecule. The ‘number’ and ‘kinds’ of atoms in a given molecule is fixed.
 
-Understanding atomic structure has far-reaching implications in various fields. It is used in the development of new materials, the creation of medical treatments, and the understanding of the behavior of atoms in various states.
+• Atoms of the same elements can combine in more than one ratio to form different compounds.
 
-> The discovery of atomic structure has led to significant advancements in the field of chemistry. It has enabled the development of new materials, medical treatments, and technologies.
+In 1808, John Dalton gave a theory, called atomic theory of matter which is based upon laws of chemical combination. GENERAL SCIENCE Atom and Molecule Properties of Subatomic Particles The properties of subatomic particles are as follow :
 
-| Element | Atomic Number | Electron Configuration |
-| --- | --- | --- |
-| Hydrogen | 1 | 1s^1 |
-| Helium | 2 | 1s^2 |
-| Oxygen | 8 | 1s^2 2s^2 2p^4 |
+• Electron ( −1 0 It is negatively charged particle. It was discovered by J. J. Thomson in 1897.
 
-#### 3.1 Electron Transfer
-Electron transfer occurs when an electron is transferred from one atom to another. It is a fundamental process in chemical reactions.
+Charge on electron = − 1 6 10 19 Mass of electron = 9 1 10 31 Atom is the smallest particle of the element that can exist independently and retain all its capable of independent chemical reactions. Atoms are made up of subatomic particles like electrons, protons, neutrons, meson, positron, etc. A molecule is the smallest particle of an element or a compound existence under ordinary conditions. The magnitude of negative charge on electron was determined by Millikan in his oil drop experiment.
 
-#### 3.2 Chemical Bonding
-Chemical bonding occurs when two or more atoms share or exchange electrons. It is a critical concept in understanding the properties of elements and compounds.
+Properties of Atom The properties of atom are as follow:
 
-### The Exhaustive Testing Engine
+• Proton ( It was discovered by E. Goldstein. It is positively charged particle.
 
-#### Q1:
-Sample high-yield question 1 regarding Atomic Structure?
-[A] Concept parameter 1
-[B] Concept parameter 2
-[C] Concept parameter 3
-[D] Concept parameter 4
-Correct Option: B
+Charge on proton 1 6 10 19C Mass of proton ( 1 6 −kg • Atomic Number For an element, it is the number of protons present inside the nucleus of its atom. Atomic number (Z) = number of protons = number of electrons (in case of neutral atom) • Neutron ( It was discovered by Chadwick. It has neutral particle, i.e having no charge. Mass of neutron = 1 6 10 27 kg Hydrogen and protium is the only atom that does not possess neutrons.
 
-Answer Explanation:
-The correct option is B because atomic structure is the foundation of chemistry, and understanding it is crucial in explaining the properties and behavior of elements. Atomic structure includes the arrangement of protons, neutrons, and electrons within the atom, which determines the chemical properties of an element.
+Subatomic Particles Particle Discoverer Charge Mass • Mass Number It is the total number of protons and neutrons (i.e nucleons) present in one atom of an element. Mass number (A) = number of protons + number of neutrons = atomic number + number of neutrons = number of electrons + number of neutrons Electron Thomson Representation of an Atom Proton Rutherford Neutron Chadwick Mass number or atomic mass Meson Yukawa , ,0 273.8 Positron Anderson Neutrino Fermi 20 04 Symbol of the atom Atomic number NUCLEUS Discovery of Subatomic Particles The subatomic particles are discovered in many ways: Atom consists of a heavy and positively charged part at its centre, called the nucleus (dia = 10 4m). Nucleus was discovered by Rutherford by α-particle scattering experiment. The negatively charged electrons revolve around the nucleus in well defined orbits. A nucleus consists of positively charged protons and electrically neutral neutrons.
 
-#### Q2:
-Sample high-yield question 2 regarding Atomic Structure?
-[A] Concept parameter 1
-[B] Concept parameter 2
-[C] Concept parameter 3
-[D] Concept parameter 4
-Correct Option: A
+Cathode Rays These rays travel in straight line and cast shadows of metallic object placed in their path. In the presence of electrical or magnetic field, the behaviour of cathode rays are similar to that of negatively charged particles, called electrons. The first precise measurement of the charge on the electron was made by Robert A. Millikan in 1909. Planck’s Quantum Theory (Particle Nature of Electromagnetic Radiation) The radiant energy which is emited or absorbed discontinovsly in the form of small discrete packets of energy known as quantum and in care of light, the quantum of energy is called photon.
 
-Answer Explanation:
-The correct option is A because atomic model evolution is a significant aspect of understanding atomic structure. The study of atomic structure dates back to ancient Greece, where philosophers attempted to explain the composition of matter. Through the centuries, the understanding of atomic structure has evolved significantly, from the early atomic model proposed by Dalton to the modern atomic model.
+c = νλ Anode Rays hc where, h = Planck’s constant = 6 63 10 34 J-s In 1886, Engen Goldstein discovered the canal rays. These rays travel in straight line and can also produce mechanical effects. These are positively charged, i.e.
 
-#### Q3:
-Sample high-yield question 3 regarding Atomic Structure?
-[A] Concept parameter 1
-[B] Concept parameter 2
-[C] Concept parameter 3
-[D] Concept parameter 4
-Correct Option: B
+made up of protons.
 
-Answer Explanation:
-The correct option is B because electron shell model explains the arrangement of electrons in an atom. Electrons occupy specific energy levels or shells around the nucleus, with each shell having a limited capacity. The outermost shell is the valence shell, which determines the chemical properties of an element.
+E = Energy of photon or quantum If n is the number of quanta of a particular frequency and ET be the total energy, then E nh T = ν. The energy possessed by one mole of quanta (or photon), i.e. Avogadro’s number (N0) of quanta, is called one Einstein of energy i.e., 1 • A shell can have a maximum of 2 2 n electrons (where, n = number of shells). e.g. the maximum number of electrons in K (or first) shell = 2 1 ( ) L (or second) shell = 2 2 ( ) and so on.
 
-#### Q4:
-Sample high-yield question 4 regarding Atomic Structure?
-[A] Concept parameter 1
-[B] Concept parameter 2
-[C] Concept parameter 3
-[D] Concept parameter 4
-Correct Option: C
+• The outermost shell cannot have more than 8 electrons.
 
-Answer Explanation:
-The correct option is C because electron configuration is the arrangement of electrons in an atom. It is used to explain the chemical properties of elements and their position in the periodic table.
+• Electrons enter in the new shell only after filling the previous one completely.
 
-#### Q5:
-Sample high-yield question 5 regarding Atomic Structure?
-[A] Concept parameter 1
-[B] Concept parameter 2
-[C] Concept parameter 3
-[D] Concept parameter 4
-Correct Option: B
+Quantum Numbers Einstein of energy ( ) N h hc Different Atomic Species (i) Isotopes Atoms of the same element having the same atomic number ( ) Z but different mass number ( A are called isotopes, e.g. 1 H (protium), 1 (deuterium or heavy hydrogen) and 1 H (tritium) are isotopes of hydrogen.
 
-Answer Explanation:
-The correct option is B because quantum mechanics is a branch of physics that deals with the behavior of matter and energy at an atomic and subatomic level. It explains the principles of wave-particle duality, superposition, and entanglement.
+C , 6 C , 6 are isotopes of carbon.
 
-#### Q6:
-Sample high-yield question 6 regarding Atomic Structure?
-[A] Concept parameter 1
-[B] Concept parameter 2
-[C] Concept parameter 3
-[D] Concept parameter 4
-Correct Option: B
+Quantum numbers are just like address of electrons. There are four types of quantum numbers which are given below (i) Principal quantum number ( ) , , , , n = 1 2 3 4 O , 8 O , 8 are isotopes of oxygen. Ne , 10 Ne , 10 Ne are isotopes of neon.
 
-Answer Explanation:
-The correct option is B because wave-particle duality explains the behavior of particles at the atomic and subatomic level. Particles, such as electrons and photons, can exhibit both wave-like and particle-like properties.
+(ii) Azimuthal quantum number ( )l = 0 to n −1 for a given value of n. (iii) Magnetic quantum number (m or ml) = −1 to + 1 including ‘0’ for a given value of m. (ii) Isobars Atoms of different elements having the same mass number ( A but different atomic number ( ) Z are called isobars, e.g. 1 and 2 He ; 18 Ar , 19 and Ca ; 52 Te Ba and 54 Xe , etc.
 
-#### Q7:
-Sample high-yield question 7 regarding Atomic Structure?
-[A] Concept parameter 1
-[B] Concept parameter 2
-[C] Concept parameter 3
-[D] Concept parameter 4
-Correct Option: D
+(iv) Spin quantum number (s or ms ) = + for a given value of m . Electronic Configuration (iii) Isoelectronic Species Species having the same number of electrons but different nuclear charge are known as isoelectronic species. They also have same bond order. e.g. Mg 2+ and Na +, etc., are isoelectronic species as both have 10 electrons.
 
-Answer Explanation:
-The correct option is D because superposition is a fundamental principle of quantum mechanics. It states that a quantum system can exist in multiple states simultaneously.
+(iv) Isotones These have the same number of neutrons. e.g. Bohr-Bury Scheme It is the arrangement of electrons in various shells, sub-shells and orbitals in an atom. It is written as 2,8,8,18,32. e.g. the electronic configuration of Sodium ( Na11 2, 8, 1, Calcium (Ca 20) 2, 8, 8, It shows the distribution of electrons in different shells, i.e.
 
-#### Q8:
-Sample high-yield question 8 regarding Atomic Structure?
-[A] Concept parameter 1
-[B] Concept parameter 2
-[C] Concept parameter 3
-[D] Concept parameter 4
-Correct Option: C
+orbitals or paths of different and definite energies in which the electrons revolve. According to this scheme, RADIOACTIVITY The spontaneous emission of invisible radiations by disintegration of heavy elements into comparatively lighter elements is called radioactivity. The invisible rays emitted by radioactive elements consists of the following particles: (i) Alpha (α) particles, i.e. 2 He (+ 2 unit charge and mass four units) They are deflected towards negative plate in the electric and magnetic field and have very high ionising power. All heavy elements and a few of lighter elements have naturally occuring isotopes, which possess the property of radioactivity.
 
-Answer Explanation:
-The correct option is C because electron transfer occurs when an electron is transferred from one atom to another. It is a fundamental process in chemical reactions.
+These isotopes have unstable nuclei and attain stability through the phenomenon of radioactivity. The unstability results in the emission of a complex type of powerful radiations known as alpha ( ) α , beta ( ) β and gamma ( ) γ rays. → α- particle RADIOACTIVITY (ii) Beta (β) particles, i.e. electrons (−1 charge and zero mass) They are deflected towards positive plate in the electric and magnetic field.
 
-#### Q9:
-Sample high-yield question 9 regarding Atomic Structure?
-[A] Concept parameter 1
-[B] Concept parameter 2
-[C] Concept parameter 3
-[D] Concept parameter 4
-Correct Option: B
+Radioactivity was discovered by a French physicist Henri Becquerel in 1896. However, the term radioactivity was given by Marie Curie, the scientist who got Nobel Prize twice (for physics and chemistry).
 
-Answer Explanation:
-The correct option is B because chemical bonding occurs when two or more atoms share or exchange electrons. It is a critical concept in understanding the properties of elements and compounds.
+→ β−particle
 
-#### Q10:
-Sample high-yield question 10 regarding Atomic Structure?
-[A] Concept parameter 1
-[B] Concept parameter 2
-[C] Concept parameter 3
-[D] Concept parameter 4
-Correct Option: B
 
-Answer Explanation:
-The correct option is B because the electron shell model explains the arrangement of electrons in an atom. Electrons occupy specific energy levels or shells around the nucleus, with each shell having a limited capacity. The outermost shell is the valence shell, which determines the chemical properties of an element.
+</div>

@@ -1,178 +1,72 @@
-# _Environment and its Pollution: Understanding the Science and Math Behind the Challenges_
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">ENVIRONMENT AND ITS POLLUTION</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-## _Chapter Overview_
+Renewable and Non-renewable Resources black because of the presence of unburned carbon particles. Middle region is yellow luminous due to partial combustion. Outermost region is blue due to complete combustion of fuel which is the hottest part of the flame.
 
-The Earth's environment is facing increasing pressure from human activities, leading to pollution and degradation of our ecosystems. Understanding the science and math behind environmental pollution is crucial for developing effective solutions to mitigate its impacts. This chapter will delve into the fundamentals of environmental pollution, exploring the various types, causes, and effects of pollution, as well as the mathematical models and statistical tools used to analyze and predict pollution trends.
+Paint • Natural resources such as coal, petroleum and natural gas take thousands of years to from naturally and cannot be replaced as fast as they are being consumed. It is a non-renewable resource.
 
-## 1. _Mechanics of Atmospheric Pressure Systems_
+• Natural resources such as solar energy, water and fisheries are renewable resources.
 
-Atmospheric pressure is a critical factor in understanding environmental pollution. The weight of the atmosphere exerts pressure on the Earth's surface, which varies with altitude and temperature. The atmospheric pressure system can be represented mathematically using the following formula:
+It is a mixture of four ingredients, viz, binder, solvent, pigment and additives (like driers, plasticisers, emulsifiers, corrosion inhibitors, etc).
 
-$$\oint B \cdot dA = 0$$
+• Binders are polymers (resins) forming a continuous film on the surface of the substrate. These are responsible for good adhesion. Resins, chlorinated rubber, latex (PVA) are the examples of binders.
 
-where $B$ is the magnetic field and $dA$ is the area element.
+Petroleum It is dark oily liquid also called rock oil, mineral oil, crude oil or black gold. On fractional distillation, it gives different substances at different temperatures.
 
-## 1.1 _Atmospheric Pressure and Pollution_
+• Solvent (water or organic solvents like toluene, ketone, alcohol, etc.,) is a medium where all other ingredients of paint are dispersed in molecular form (true solutions) or as colloidal dispersion (emulsions).
 
-Atmospheric pressure influences the spread of pollutants in the air. When pollutants are released into the atmosphere, they can be dispersed by wind and atmospheric pressure. Understanding the mechanics of atmospheric pressure systems is essential for predicting and mitigating the impacts of air pollution.
+• Pigments are responsible for imparting colour to the paint.
 
-## 1.2 _Types of Atmospheric Pressure Systems_
+It may also protect the substrate from UV light. Biogas or Gobar Gas The gaseous mixture obtained by the degradation of animal and plant wastes by anaerobic microorganisms in the presence of water is called biogas. It is a convenient fuel for domestic use. It is used for street lighting.
 
-There are several types of atmospheric pressure systems, including:
+• Constituents of biogas are methane (45-70%), carbon dioxide, hydrogen, hydrogen sulphide.
 
-* **High-pressure systems**: characterized by high atmospheric pressure and clear skies.
-* **Low-pressure systems**: characterized by low atmospheric pressure and inclement weather.
+• Ultramarine blue is the natural pigment made up of semiprecious mineral lapis lazuli. It is resistant towards fading.
 
-## 2. _Mathematical Modeling of Environmental Pollution_
+Pigment added Colour of paint • Gobar gas is produced by the fermentation of cow dung. It contains CH4 (main component), CO2 and H2. Chromium oxide Green Vermillion or cuprous oxide Red Cobalt oxide Blue ² Note Bagasse is the fibrous matter remains after sugarcane stacks are crushed to extract their juice. It is used as a biofuel and as a substitute for wood in many tropical and subtropical countries for the production of pulp, paper, board, etc. Titanium dioxide White Benzidine yellow Yellow to red Flame Iron (II) oxide Black A flame is a region where combustion of gaseous substances take place. Innermost region of flame is ENVIRONMENT AND ITS POLLUTION Air Pollution Air • Composition of air is nitrogen (78.084%), oxygen (20.946%), argon (0.934%), carbon dioxide (0.033%) and small amount of other gases. Region of air present around the earth is called atmosphere.
 
-Mathematical models are essential tools for analyzing and predicting environmental pollution trends. These models can simulate the behavior of pollutants in the environment, taking into account factors such as wind direction, atmospheric pressure, and population density.
+• Main layers from the surface of earth towards upward (a) Troposphere (b) Stratosphere (c) Mesosphere (d) Thermosphere • Most of the atmospheric air is present in troposphere.
 
-## 2.1 _Regression Analysis_
+• Ozone layer present in the stratospheric region (at a height of about 20 to 40 km) protects the living beings from the harmful UV radiations coming from the sun. Due to high concentration of ozone, this region is also known as ozonosphere.
 
-Regression analysis is a statistical tool used to model the relationship between variables. In environmental pollution, regression analysis can be used to predict the impact of pollutants on ecosystems and human health.
+It is due to the presence of foreign undesirable substances in air. The substance which causes pollution is known as pollutant. Main air pollutants are SO2, CO, nitrogen oxides, particulates, etc. Carbon monoxide CO combines with the haemoglobin of the blood about 300 times more readily as compared to oxygen and forms a stable carboxyhaemoglobin complex due to which supply of oxygen is restricted which results in headache, nervousness, asphyxia and even death in some cases.
 
-## 2.2 _Time Series Analysis_
+Major gaseous air pollutants:
 
-Time series analysis is a statistical tool used to analyze data that varies over time. In environmental pollution, time series analysis can be used to predict trends in pollution levels and identify patterns in data.
+(a) Oxides of carbon (b) Oxides of nitrogen (c) Oxides of sulphur (d) Hydrocarbon (esp CH4) • In 1775, French scientist Lavoisier performed experiments on composition of air. GENERAL SCIENCE – Burning of sulphur alongwith coal results in the formation of oxides of sulphur as SO → O2 SO SO → Methyl isocyanate (CH NC) is responsible for the Bhopal gas tragedy (in 1984). In which thousands of people were killed. It was a case of serious air pollution in which MIC (Methyl Isocyanate) gas released from a pesticide manufacturing plant of union carbide. when sulphur trioxide ( SO3 reacts with water of douds it forms acid, hence causes acid rain SO H SO → Smog The word smog is derived from smoke and fog. It is of two types :
 
-## 3. _Statistical Tools for Environmental Pollution Analysis_
+1. Classical Smog It is also called London smog. It is formed in cool humid climate and is reducing in nature.
 
-Statistical tools are essential for analyzing and interpreting environmental pollution data. These tools can help identify trends, patterns, and correlations in data, allowing policymakers and researchers to develop effective solutions to environmental problems.
+2. Photochemical Smog It is also called Los Angeles smog. It is formed in warm, dry and sunny climate and is oxidising in nature.
 
-## 3.1 _Descriptive Statistics_
+– Acid rain damages the marble buildings (Taj Mahal) and monuments, corrodes metal pipes and results in several diseases. Acid rain reacts which buildings made from limestone and causes its decomposition CaCO H SO → CaSO CO H O • Ozone Layer Depletion Thinning of ozone layer because of its reaction with chlorine free radicals usually generated by chlorofluorocarbons is called ozone layer depletion. Particulates These are minute solid particles and liquid droplets dispersed in air such as mists, dusts, smoke , etc.
 
-Descriptive statistics, such as mean, median, and mode, are used to summarize and describe environmental pollution data.
+Diseases Caused by Particulates Disease Cause – Hypochlorous acid and chlorine on photochemical decomposition also produce nascent chlorine (Cl • or chlorine free radical) which causes ozone depletion in the following manner: Pneumoconiosis Coal dust HOCl ( ) ( ) ( ) → Cl Silicosis Silica (from ceramics, glass and pottery industry) Cl2 ( ) ( ) → Cl Black lung disease Coal mines CF Cl Cl → CF White lung disease Textile industries Asbestosis Asbestos Byssinosis Cotton fibre dust – The released chlorine free radical reacts with ozone breaking it into molecular oxygen. Cl ClO → ClO Cl → Melanosis Hyperpigmentation due to increased concentration of melanin Water Pollution Consequences of Air Pollution Water pollution is due to the presence of foreign substances, i.e water pollutants in water.
 
-## 3.2 _Inferential Statistics_
+• Cholera, dysentery, typhoid, etc., are water-borne diseases caused by bacteria.
 
-Inferential statistics, such as hypothesis testing and confidence intervals, are used to make inferences about population parameters based on sample data.
+• Greenhouse effect It is the heating up of earth and its objects due to trapping of infrared radiations (IR) by greenhouse gases present in atmosphere like CO2, CH4, NO, O3, chlorofluorocarbon and water vapours.
 
-## 4. _Real-World Applications of Environmental Pollution Analysis_
+• Mercury causes minimata disease, chromium and arsenic causes cancer and cadmium causes itai-itai disease.
 
-Understanding the science and math behind environmental pollution is crucial for developing effective solutions to environmental problems. In this section, we will explore real-world applications of environmental pollution analysis, including:
+• Presence of excessive fluoride leads to dental fluorosis, i.e.
 
-* **Air pollution monitoring**: using statistical tools to analyze air quality data and predict pollution trends.
-* **Water pollution modeling**: using mathematical models to simulate the behavior of pollutants in water ecosystems.
-* **Waste management**: using descriptive statistics to analyze waste disposal data and inform policy decisions.
+developmental disturbance of dental enamel.
 
-## 5. _Practice Questions_
+• Global Warming It is due to increased concentration of greenhouse gases. It may lead to melting of ice caps and glaciers, spreading of several infectious diseases like malaria, sleeping sickness, etc.
 
-### Practice Question 1
-What type of atmospheric pressure system is typically characterized by high atmospheric pressure and clear skies?
+• The usual effect of agricultural run off due to the excessive increase of nutrients such as nitrogen, phosphorus etc., in an ecosystem like ponds or results in excessive algal growth in affected water bodies. It is called eutrophication.
 
-A) High-pressure system
-B) Low-pressure system
-C) Frontal system
-D) Cyclonic system
+• Since, the late 19th century, the temperature of atmosphere increases due to the increase in CO2 concentration which is responsible for the expansion of water in the ocean.
 
-Correct answer: A) High-pressure system
+• For clean water, DO (Dissolved Oxygen) is 5-6 ppm and BOD (Biochemical Oxygen Demand) is less than 5 ppm.
 
-**Explanation:** High-pressure systems are typically characterized by high atmospheric pressure and clear skies.
+• Recycling, sewage treatment, incineration are some strategy to control water pollution.
 
-### Practice Question 2
-What statistical tool is used to model the relationship between variables in environmental pollution analysis?
+• Acid Rain The pH of normal rain water is 5.6-6.5 due to the dissolution of carbon dioxide from the atmosphere. When the pH of rain water is below 5, it is called acid rain (by Robert Augus).
 
-A) Regression analysis
-B) Time series analysis
-C) Descriptive statistics
-D) Inferential statistics
+² Presbycusis is gradual hearing loss in both ears that commonly occurs in aged people but noise pollution also lead to it. – The main cause of acid rain is oxides of sulphur and nitrogen (H SO 4 and HNO3).
 
-Correct answer: A) Regression analysis
 
-**Explanation:** Regression analysis is a statistical tool used to model the relationship between variables in environmental pollution analysis.
-
-### Practice Question 3
-What type of data is typically used to analyze environmental pollution trends?
-
-A) Qualitative data
-B) Quantitative data
-C) Categorical data
-D) Numerical data
-
-Correct answer: B) Quantitative data
-
-**Explanation:** Quantitative data is typically used to analyze environmental pollution trends.
-
-### Practice Question 4
-What mathematical model is used to simulate the behavior of pollutants in water ecosystems?
-
-A) Regression model
-B) Time series model
-C) Air quality model
-D) Water pollution model
-
-Correct answer: D) Water pollution model
-
-**Explanation:** Water pollution models are used to simulate the behavior of pollutants in water ecosystems.
-
-### Practice Question 5
-What statistical tool is used to analyze data that varies over time in environmental pollution analysis?
-
-A) Regression analysis
-B) Time series analysis
-C) Descriptive statistics
-D) Inferential statistics
-
-Correct answer: B) Time series analysis
-
-**Explanation:** Time series analysis is a statistical tool used to analyze data that varies over time in environmental pollution analysis.
-
-### Practice Question 6
-What type of atmospheric pressure system is typically characterized by low atmospheric pressure and inclement weather?
-
-A) High-pressure system
-B) Low-pressure system
-C) Frontal system
-D) Cyclonic system
-
-Correct answer: B) Low-pressure system
-
-**Explanation:** Low-pressure systems are typically characterized by low atmospheric pressure and inclement weather.
-
-### Practice Question 7
-What type of data is typically used to describe environmental pollution data in statistics?
-
-A) Qualitative data
-B) Quantitative data
-C) Categorical data
-D) Numerical data
-
-Correct answer: B) Quantitative data
-
-**Explanation:** Quantitative data is typically used to describe environmental pollution data in statistics.
-
-### Practice Question 8
-What statistical tool is used to make inferences about population parameters based on sample data in environmental pollution analysis?
-
-A) Regression analysis
-B) Time series analysis
-C) Descriptive statistics
-D) Inferential statistics
-
-Correct answer: D) Inferential statistics
-
-**Explanation:** Inferential statistics is a statistical tool used to make inferences about population parameters based on sample data in environmental pollution analysis.
-
-### Practice Question 9
-What type of mathematical model is used to simulate the behavior of pollutants in the air?
-
-A) Regression model
-B) Time series model
-C) Air quality model
-D) Water pollution model
-
-Correct answer: C) Air quality model
-
-**Explanation:** Air quality models are used to simulate the behavior of pollutants in the air.
-
-### Practice Question 10
-What statistical tool is used to analyze and predict trends in environmental pollution data?
-
-A) Regression analysis
-B) Time series analysis
-C) Descriptive statistics
-D) Inferential statistics
-
-Correct answer: B) Time series analysis
-
-**Explanation:** Time series analysis is a statistical tool used to analyze and predict trends in environmental pollution data.
+</div>

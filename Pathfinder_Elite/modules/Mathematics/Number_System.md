@@ -1,99 +1,66 @@
-# Number System
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">NUMBER SYSTEM</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-## Pages 1-2: The Base Framework (Pathfinder)
+Quadratic Equations and Inequalities NUMBER SYSTEM Generally (10-12) questions have been asked from this chapter. Questions, from this section usually test your basic knowledge of numbers and are mostly based on various properties of multiplication and division. A good number of statement based questions have been asked from this chapter. NUMBER SYSTEM Numbers are collection of certain symbols or figures called digits. The common number system in use is decimal number system. In this system, we use ten symbols each representing a digit. These are 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. A combination of these figures representing a number is called a numeral. Types of Numbers 1. Natural numbers Numbers which are used for counting i.e. 1, 2, 3, 4, ... are called natural numbers.
 
-**Core Theory & Definitions**
+The set of natural numbers is denoted by ‘ N ’. Smallest natural number is 1 but we cannot find the largest natural number as successor of every natural number is again a natural number.
 
+2. Whole numbers Natural numbers including zero are known as whole numbers. The set of whole numbers is denoted by W.
 
---- PAGE 3 ---
-All Rights Reserved
-ARIHANT PUBLICATIONS (INDIA) LIMITED
-© Publisher
-No part of this publication may be re-produced, stored in a retrieval system or by any means, 
-electronic, mechanical, photocopying, recording, scanning, web or otherwise without the written 
-permission of the publisher. Arihant has obtained all the information in this book from the sources 
-believed to be reliable and true. However, Arihant or its editors or authors or illustrators don’t take 
-any responsibility for the absolute accuracy of any information published and the damage or loss 
-suffered thereupon.
-All disputes subject to Meerut (UP) jurisdiction only.
-Administrative & Production Offices
-Regd. Office
-‘Ramchhaya’ 4577/15, Agarwal Road, Darya Ganj, New Delhi -110002 
-Tele: 011- 47630600, 43518550
-Head Office
-Kalindi, TP Nagar, Meerut (UP) - 250002
-Tel: 0121-7156203, 7156204
-Sales & Support Offices
-Agra, Ahmedabad, Bengaluru, Bareilly, Chennai, Delhi, Guwahati, 
-Hyderabad, Jaipur, Jhansi, Kolkata, Lucknow, Nagpur & Pune.
-ISBN   
-978-93-25798-01-4
-PO No : TXT-XX-XXXXXXX-X-XX
-Published by Arihant Publications (India) Ltd. 
-For further information about the books published by Arihant, log on to
-www.arihantbooks.com or e-mail at info@arihantbooks.com
-Follow us on
+• Every natural number is a whole number.
 
---- PAGE 4 ---
-CONTENTS 
-CDS Solved Paper 2021 II 
-1-41
-CDS Solved Paper 2021 I 
-42-82
-CDS Solved Paper 2020 II 
-3-39
-CDS Solved Paper 2020 I 
-40-78
-CDS Solved Paper 2019 II 
-1-40
-CDS Solved Paper 2019 I 
-41-82
-CDS Solved Paper 2018 II 
-1-37
-MATHEMATICS
- 1. Number System   
-3-19
- 2. Sequence and Series  
-20-24
- 3. HCF and LCM of Numbers  
-25-31
- 4. Decimal Fractions  
-32-37
- 5. Square Roots and Cube Roots  
-38-46
- 6. Time and Distance  
-47-59
- 7. Time and Work  
-60-68
- 8. Percentage  
-69-76
- 9. Simple Interest  
-77-82
- 10. Compound Interest  
-83-91
- 11. Profit and Loss  
-92-100
- 12. Ratio and Proportion  
-101-112
- 13. Logarithm  
-113-119
- 14. Algebraic Operations 
-120-131
- 15. HCF and LCM of Polynomials  
-132-138
+• Zero (0) is the only whole number which is not a natural number.
+
+3. Even numbers The numbers which are divisible by 2 are called as even numbers. e.g 2, 4, 6, 8, 10, … . In general these are represented by 2 m, where m 4. Odd numbers The number which are not divisible by 2 are called as odd numbers. e.g. 1, 3, 5, 7, 9, … . In general, these are represented by ( m− , where m 5. Prime numbers Those numbers which are divisible by 1 and the number itself are known as prime numbers. e.g. 2, 3, 5, 7,..., etc. are prime numbers.
+
+• If a number is not divisible by any of the prime numbers upto square root of that number, then it is a prime number.
+
+• 2 is the only even number which is prime.
+
+• The prime numbers upto 100 are : 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 and 97 i.e. there are 25 prime numbers upto 100.
+
+The set of rational numbers is represented by ‘Q’.
+
+e.g. 3 , , are rational numbers.
+
+6. Coprime numbers Two natural numbers x and are said to be coprime, if they do not have any common divisor other than 1.
+
+e.g. (9, 2), (5, 6), (11, 15) are the pairs of coprime numbers.
+
+• The decimal expansion of every rational number is either terminating or non-terminating repeating.
+
+e.g. 1 0 2 1 0 333 . , ..., 8 0 181818 ... etc.
+
+• If x and are any two coprimes, a number p is divisible by x as well as by y, then the number is also divisible by xy.
+
+• Coprime are also called as relatively prime numbers.
+
+• The recurring decimal have been given a short notation as 0 3333 0 3 0 181818 0 18 . , • Twin primes Twin primes are pair of primes which differ by 2. e.g. (3, 5), (7, 9), (11, 13) etc.
+
+Note • Zero is a rational number, since we can write 0 0 1 / .
+
+• Every natural number, whole number and integer is a rational number.
+
+7. Composite numbers A composite number is any number greater than one that is not a prime number.
+
+e.g. 4, 6, 8, 9, … all are composite numbers.
+
+• ‘1’ is neither prime nor composite.
+
+IRRATIONAL NUMBERS INTEGERS The number which cannot be expressed in the form p q / , where p and both are integers and q ≠0 are known as irrational numbers. The irrational numbers when expressed in decimal form are in non-terminating and non-repeating form. e.g.
+
+, 0.101005001, etc.
+
+• Here, it is notable that exact value of π is not 22 or The collection of positive numbers, negative numbers and zero are called integers. The set of integers is denoted by Z or I.
+
+Thus, Z or I = {. . . , , , , , , , . . .} 1 0 1 2 3 4 is the set of integers. Every natural number and whole number is a part of integer. So, N ⊂. 3.14, as 22 is a rational number while π is irrational. Types of Integers Integers are of three types IMPORTANT FACTS 1. If a , where a and are rational and and are irrational, then a and (i) Positive Integers It is a set of all positive numbers.
+
+It is denoted by I+ , I+ = { , , , , ...} 1 2 3 4 2. The sum or difference of a rational and an irrational number is irrational number. (ii) Negative Integers It is a set of all negative numbers. It is denoted by I−, I−= {..., 3. The product of rational and irrational number is also an irrational number.
+
+(iii) Non-negative Integers An integer that is either 0 or positive is called non-negative integer. { , , , , ...} 0 1 2 3 Note ‘0’ is neither positive nor negative.
+
+4. If we add, subtract, multiply or divide two irrational numbers, we may get an irrational number or rational number.
 
 
-## Page 3: High-Yield Trigger Layer (Insight SSB)
-
-> [!TIP]
-> Standard High-Yield triggers for Number System based on PYQ analysis.
-
-## Page 4: Visual Anchors
-
-```mermaid
-
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        
-```
-
+</div>

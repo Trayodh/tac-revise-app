@@ -1,189 +1,54 @@
-### CHAPTER OVERVIEW: RADIOACTIVITY
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">RADIOACTIVITY</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-_*Understanding Radioactivity: Exploring the Subatomic Realm_*
+If n is the number of quanta of a particular frequency and ET be the total energy, then E nh T = ν. The energy possessed by one mole of quanta (or photon), i.e. Avogadro’s number (N0) of quanta, is called one Einstein of energy i.e., 1 • A shell can have a maximum of 2 2 n electrons (where, n = number of shells). e.g. the maximum number of electrons in K (or first) shell = 2 1 ( ) L (or second) shell = 2 2 ( ) and so on.
 
-Radioactivity is a fundamental phenomenon that governs the behavior of subatomic particles and the very fabric of our universe. In this chapter, we embark on an exciting journey to unravel the mysteries of radioactivity, exploring its underlying mechanisms, applications, and significance in our lives.
+• The outermost shell cannot have more than 8 electrons.
 
-## 1. INTRODUCTION TO RADIOACTIVITY
+• Electrons enter in the new shell only after filling the previous one completely.
 
-Radioactivity is a process in which unstable atomic nuclei undergo spontaneous transformation, releasing excess energy in the form of radiation. This process is characterized by the emission of high-energy particles and electromagnetic radiation, including alpha, beta, and gamma rays. The discovery of radioactivity by Henri Becquerel in 1896 marked the beginning of a new era in science, enabling breakthroughs in medicine, energy production, and our understanding of the atomic structure.
+Quantum Numbers Einstein of energy ( ) N h hc Different Atomic Species (i) Isotopes Atoms of the same element having the same atomic number ( ) Z but different mass number ( A are called isotopes, e.g. 1 H (protium), 1 (deuterium or heavy hydrogen) and 1 H (tritium) are isotopes of hydrogen.
 
-## 1.1 TYPES OF RADIOACTIVE DECAY
+C , 6 C , 6 are isotopes of carbon.
 
-There are three primary modes of radioactive decay: α (alpha), β (beta), and γ (gamma) decay. Each type of decay is associated with the emission of distinct particles and radiation, resulting in the transmutation of the nucleus into a more stable configuration.
+Quantum numbers are just like address of electrons. There are four types of quantum numbers which are given below (i) Principal quantum number ( ) , , , , n = 1 2 3 4 O , 8 O , 8 are isotopes of oxygen. Ne , 10 Ne , 10 Ne are isotopes of neon.
 
-### α DECAY
+(ii) Azimuthal quantum number ( )l = 0 to n −1 for a given value of n. (iii) Magnetic quantum number (m or ml) = −1 to + 1 including ‘0’ for a given value of m. (ii) Isobars Atoms of different elements having the same mass number ( A but different atomic number ( ) Z are called isobars, e.g. 1 and 2 He ; 18 Ar , 19 and Ca ; 52 Te Ba and 54 Xe , etc.
 
-Alpha decay involves the emission of an alpha particle, consisting of two protons and two neutrons, from the nucleus. This process results in a decrease in the atomic number and an increase in the mass number of the nucleus.
+(iv) Spin quantum number (s or ms ) = + for a given value of m . Electronic Configuration (iii) Isoelectronic Species Species having the same number of electrons but different nuclear charge are known as isoelectronic species. They also have same bond order. e.g. Mg 2+ and Na +, etc., are isoelectronic species as both have 10 electrons.
 
-### β DECAY
+(iv) Isotones These have the same number of neutrons. e.g. Bohr-Bury Scheme It is the arrangement of electrons in various shells, sub-shells and orbitals in an atom. It is written as 2,8,8,18,32. e.g. the electronic configuration of Sodium ( Na11 2, 8, 1, Calcium (Ca 20) 2, 8, 8, It shows the distribution of electrons in different shells, i.e.
 
-Beta decay occurs when a neutron is converted into a proton, an electron, and an antineutrino, or vice versa. This process increases or decreases the atomic number, depending on the type of beta decay, while maintaining the mass number.
+orbitals or paths of different and definite energies in which the electrons revolve. According to this scheme, RADIOACTIVITY The spontaneous emission of invisible radiations by disintegration of heavy elements into comparatively lighter elements is called radioactivity. The invisible rays emitted by radioactive elements consists of the following particles: (i) Alpha (α) particles, i.e. 2 He (+ 2 unit charge and mass four units) They are deflected towards negative plate in the electric and magnetic field and have very high ionising power. All heavy elements and a few of lighter elements have naturally occuring isotopes, which possess the property of radioactivity.
 
-### γ DECAY
+These isotopes have unstable nuclei and attain stability through the phenomenon of radioactivity. The unstability results in the emission of a complex type of powerful radiations known as alpha ( ) α , beta ( ) β and gamma ( ) γ rays. → α- particle RADIOACTIVITY (ii) Beta (β) particles, i.e. electrons (−1 charge and zero mass) They are deflected towards positive plate in the electric and magnetic field.
 
-Gamma decay is the emission of high-energy photons (gamma rays) from the nucleus, typically following alpha or beta decay. This process results in the transition of the nucleus to a lower energy state.
+Radioactivity was discovered by a French physicist Henri Becquerel in 1896. However, the term radioactivity was given by Marie Curie, the scientist who got Nobel Prize twice (for physics and chemistry). → β−particle GENERAL SCIENCE Nuclear Fusion The union of (two or more) lighter nuclei to form a heavier nucleus is called the nuclear fusion. It is also accompanied by release of energy because the total mass of products is lesser than the total mass of reactants. (iii) Gamma ( ) γ rays (no charge and no mass) They are not deflected from their path in the electric or magnetic field. These are electromagnetic radiations and have very high penetrating power.
 
-$$\begin{aligned}
-& \text{α decay: } \ _{Z}X^{A} \rightarrow \ _{Z-2} Y^{A-4} + \ _{2}He^{4} \\
-& \text{β decay: } \ _{Z}X^{A} \rightarrow \ _{Z+1}Y^{A} + e^{-} + \bar{
-u} \text{ or } \ _{Z-1}Y^{A} + e^{+} + 
-u \\
-& \text{γ decay: } \ _{Z}X^{A} \rightarrow \ _{Z}Y^{A} + \gamma \\
-\end{aligned}$$
+Emission of γ-rays is the secondary effect of radioactive charge.
 
-## 1.2 MECHANICS OF RADIOACTIVE DECAY
+• Nuclear fusion occurs only at extremely high temperature (> 10 6K), so it is also called thermonuclear reactions.
 
-Radioactive decay is a random process governed by the principles of quantum mechanics. The decay rate, or half-life, is a statistical average that represents the probability of a nucleus decaying within a given time frame. The decay process follows an exponential law, with the rate of decay decreasing over time.
+• Hydrogen bomb (mixture of deuterium oxide and tritium dioxide) is the result of nuclear fusion.
 
-$$\begin{aligned}
-N(t) &= N_0 e^{-\lambda t} \\
-\lambda &= \frac{\ln 2}{T_{1/2}} \\
-T_{1/2} &= \frac{\ln 2}{\lambda} \\
-\end{aligned}$$
+• Source of solar (sun) and stellar energy is nuclear fusion.
 
-## 1.3 APPLICATIONS OF RADIOACTIVITY
+² Note 1. Stable nuclei are those for which number of neutrons and protons are equal.
 
-Radioactivity has far-reaching applications in various fields, including medicine, energy production, and scientific research.
+2. The time taken by half of the atoms of a radioactive element to disintegrate is called its half-life. Its unit is time−1.
 
-*   Cancer treatment: Radioactive isotopes are used in radiation therapy to destroy cancer cells.
-*   Energy production: Nuclear power plants harness the energy released from nuclear fission to generate electricity.
-*   Scientific research: Radioactive isotopes are used in various scientific experiments, such as dating fossils and studying the Earth's magnetic field.
+3. X-rays were discovered by Roentgen in 1896. These are electromagnetic waves of very short wavelength and are used to detect cracks in fractured bones.
 
-### 1.3.1 APPLICATIONS IN MEDICINE
+4. If the energies of α β and γ-particles is same, then penerating power α < .
 
-Radioactivity has numerous applications in medicine, including:
+• The source of emission of large amount of energy during nuclear fission or fusion processes is conversion of mass into energy. It is given by the relation, E mc 2 and calculated in MeV.
 
-*   Cancer treatment: Radiation therapy uses radioactive isotopes to destroy cancer cells.
-*   Diagnostics: Radioisotopes are used in medical imaging techniques, such as positron emission tomography (PET) scans.
-*   Blood testing: Radioisotopes are used to diagnose and treat blood disorders, such as anemia and leukemia.
+Applications of Radioisotopes Group Displacement Law This law was put forward by Soddy, Fajan and Russel on the basis of following fact : (i) When a radioactive element emits an α-particle, the atomic number of the resulting nuclide decreases by 4 units e.g. Th He → Isotopes of all the known elements with Z > 83 are radioactive and are called radioisotopes. These are used for various purposes, e.g. radiocarbon dating is used to determine the age of dead specimen with C14 content by comparing it with C-12 content.
 
-### 1.3.2 APPLICATIONS IN ENERGY PRODUCTION
+(ii) When a radioactive element emits a β-particle, the atomic number of the resulting nuclide increases by one unit but the atomic mass remains unchanged e.g., Np → + −e   where, n = total time(T)/t1 2 N0 = ratio of C in green plant NUCLEAR REACTIONS N = ratio of C in wood These are of following two types: Nuclear Fission Rock dating or uranium dating is used to determine the age of rocks or earth. It is based on 82 Pb and 92 ratio. Uses of other Radioisotopes Radioisotope Uses The splitting of a heavy nucleus into two smaller of nearly comparable masses and release of about 200MeV of energy is called nuclear fission. Nuclear fission was discovered by ‘Hahn’ and ‘Strassmann’ in 1939.
 
-Nuclear power plants harness the energy released from nuclear fission to generate electricity. Radioactive isotopes are used in various stages of the process, including:
+I131 (Iodine-131) (i) To study the structure and activity of thyroid gland • Atom bomb is the result of uncontrolled nuclear fission. (ii) For the treatment of thyroid disease I123 (Iodine-123) Brain imaging Co 60 (Cobalt-60) Treatment of cancer • The device in which controlled nuclear fission (chain reactions) is carried out is called nuclear reactor. The fission is controlled by absorbing neutrons by using cadmium or boron rods. Na 24 (Sodium-24) To trace the flow of blood P32 (Phosphorus-32) For leukemia therapy (blood cancer) C14 (Carbon-14) To study the kinetics of photosynthesis • Heavy water ( D O , molecular weight 20) and graphite are used as moderator for slowing down the fast moving neutrons. U235 is used as a nuclear fuel.
 
-*   Fuel production: Radioactive isotopes are used to produce fuel rods for nuclear reactors.
-*   Reactor operation: Radioactive isotopes are used to regulate the reaction and control the power output.
-*   Waste management: Radioactive isotopes are used to store and dispose of nuclear waste.
 
-### 1.3.3 APPLICATIONS IN SCIENTIFIC RESEARCH
-
-Radioactive isotopes are used in various scientific experiments, including:
-
-*   Dating fossils: Radioisotopes are used to determine the age of fossils and rocks.
-*   Studying the Earth's magnetic field: Radioisotopes are used to study the Earth's magnetic field and its variations.
-*   Understanding the universe: Radioisotopes are used to study the universe and its evolution.
-
-***
-
-### 1.4 HIGH-YIELD CONCEPTS
-
-1.  Radioactivity is a process in which unstable atomic nuclei undergo spontaneous transformation, releasing excess energy in the form of radiation.
-2.  Radioactive decay is a random process governed by the principles of quantum mechanics.
-3.  The decay rate, or half-life, is a statistical average that represents the probability of a nucleus decaying within a given time frame.
-4.  Radioactivity has far-reaching applications in various fields, including medicine, energy production, and scientific research.
-
-***
-
-### 1.5 KEY TAKEAWAYS
-
-1.  Radioactivity is a fundamental phenomenon that governs the behavior of subatomic particles and the very fabric of our universe.
-2.  There are three primary modes of radioactive decay: α (alpha), β (beta), and γ (gamma) decay.
-3.  Radioactive decay is a random process governed by the principles of quantum mechanics.
-4.  Radioactivity has far-reaching applications in various fields, including medicine, energy production, and scientific research.
-
-***
-
----
-
-## PRACTICE QUESTIONS
-
-1.  What is the primary mode of radioactive decay?
-
-    A) α (alpha) decay
-    B) β (beta) decay
-    C) γ (gamma) decay
-    D) All of the above
-
- Correct answer: D)
-
-2.  What is the half-life of a radioactive substance?
-
-    A) The time it takes for the substance to decay to 50% of its original activity
-    B) The time it takes for the substance to decay to 25% of its original activity
-    C) The time it takes for the substance to decay to 0% of its original activity
-    D) The time it takes for the substance to reach equilibrium with its surroundings
-
- Correct answer: A)
-
-3.  What is the primary application of radioactivity in medicine?
-
-    A) Cancer treatment
-    B) Diagnostics
-    C) Blood testing
-    D) All of the above
-
- Correct answer: D)
-
-4.  What is the primary application of radioactivity in energy production?
-
-    A) Fuel production
-    B) Reactor operation
-    C) Waste management
-    D) All of the above
-
- Correct answer: D)
-
-5.  What is the primary application of radioactivity in scientific research?
-
-    A) Dating fossils
-    B) Studying the Earth's magnetic field
-    C) Understanding the universe
-    D) All of the above
-
- Correct answer: D)
-
-6.  What is the primary characteristic of radioactive decay?
-
-    A) Randomness
-    B) Spontaneity
-    C) Predictability
-    D) Determinism
-
- Correct answer: A)
-
-7.  What is the primary type of radiation emitted during radioactive decay?
-
-    A) Alpha radiation
-    B) Beta radiation
-    C) Gamma radiation
-    D) All of the above
-
- Correct answer: D)
-
-8.  What is the primary factor influencing the decay rate of a radioactive substance?
-
-    A) Half-life
-    B) Radioactivity
-    C) Energy production
-    D) All of the above
-
- Correct answer: A)
-
-9.  What is the primary application of radioisotopes in scientific research?
-
-    A) Dating fossils
-    B) Studying the Earth's magnetic field
-    C) Understanding the universe
-    D) All of the above
-
- Correct answer: D)
-
-10. What is the primary characteristic of radiation?
-
-    A) Ionizing
-    B) Non-ionizing
-    C) Radioactive
-    D) Stable
-
- Correct answer: A)
+</div>

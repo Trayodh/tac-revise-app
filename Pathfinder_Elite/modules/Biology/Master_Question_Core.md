@@ -1,248 +1,374 @@
-## Biology - Master Question Core
-### Chapter Overview
-_*Master Question Core: Unveiling the Fundamentals of Biology*_
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">MASTER QUESTION CORE</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
+PRACTICE EXERCISE 18. Match the following Columns. Cell : The Unit of Life Column I (Cell organelle) Column II (Common names) 11. Which one among the following is known as ‘animal starch’? (a) Cellulose (b) Glycogen (c) Pectin (d) Chitin 1. Which of the following organism does not obey the ‘cell theory’? (a) Virus (b) Bacteria (c) Fungi (d) Plants A. Ribosome 1. Suicidal bags of cell B. Lysosome 2. Protein factory of cells C. Mitochondria 3. Controller of cells D. Nucleus 4. Power house of cell 2. The nucleic acid in a cell was discovered by (a) E Strasburger (b) A Kossel (c) F Miescher (d) Huxley Codes A B C D B C D (a) 2 (b) 2 (c) 4 (d) 1 12. Consider the given cell organelles.
 
-## 1. Foundational Theory Core
+1. Mitochondria 2. Plastids 3. Ribosome Which of the cell organelle(s) given above is/are common in both plant and animal cells? (a) Only 2 (b) 1 and 2 (c) 1 and 3 (d) All of the above 3. The ‘cell theory’ for organisms was proposed by (a) Purkinje and Von Mohl (b) Schleiden and Schwann (c) Carolus Linnaeus (d) Felix Dujardin 13. Rigidity of cell wall is due to (a) chitin (b) lignin (c) suberin (d) pectin 19. Which of the following cell organelles functions as the powerhouse of a living cell? (a) Chloroplast (b) Mitochondria (c) Ribosomes (d) Golgi apparatus 4. The fact that new cells arise from pre-existing cells was proposed by (a) JE Purkinje (b) F Dujardin (c) R Virchow (d) E Abbe 20. Which one of the following organelles is the smallest membrane bound organelle? (a) Ribosome (b) Golgi bodies (c) Lysosome (d) Nucleolus 14. The plasma membrane of animal cells is highly elastic. It is mainly due to the presence of (a) carbohydrates (b) proteins (c) Iipids (d) nucleic acids 5. The scientists who first recognised and named the nucleus was (a) Robert Hooke (b) Robert Brown (c) Theodore Schwann (d) Thomas Morgan 15. The secretory product pectin of cell wall is chemically a (a) protein (b) carbohydrate (c) Iipid (d) nucleic acid 6. Which of the following is a physical basis of life? (a) Mitochondria (b) Ribosome (c) Protoplasm (d) Nucleus 21. When our cells are filled with dead or damaged organelles like mitochondria, ER, etc. The degradation of these organelles is mainly performed by (a) ribosomes (b) lysosomes (c) peroxisomes (d) glyoxysomes 7. The bacteria were discovered by which of the following person? (a) H Urey (b) E Haeckel (c) AV Leeuwenhoek (d) Ivanowski 16. Chromosomes are (a) present only in the nucleus of a cell (b) the largest in number in human cells (c) made up of DNA as a main component (d) visible in all cells at every time 8. The term ‘Meiosis’ is coined by (a) Fleming (b) Blackmann (c) Liebig (d) Farmer and Moore 22. Consider the following statements 1. Cortical granules originate from Golgi bodies.
 
+2. Cortical granules form the fertilisation membrane.
 
-The Master Question Core presents a series of pivotal definitions that illuminate the intricacies of the biological world. By probing the nuances of each concept, learners will develop a sophisticated grasp of the subject matter.
+3. Cortical granules are found only in ovum.
 
-### 1.1 Vocabulary Foundations
-The study of biology begins with a strong foundation in vocabulary. Understanding core terms such as _obliterate, obnoxious, obstinate,_ and _occult_ provides a crucial framework for analyzing complex biological systems.
+Which of the statement(s) given above is/are correct? (a) Only 2 (b) 1 and 3 (c) 2 and 3 (d) All of these 9. The physical basis of life protoplasm was named by (a) Purkinje (b) J Huxley (c) Robert brown (d) Sherington 23. Consider the following statements 1. Lysosomes have hydrolytic enzymes.
 
+2. Lysosomes are autophagic.
 
-#### Obliterate
-Obliterate refers to the complete destruction or annihilation of something. For instance, an explosion can obliterate a building. Synonyms include _demolish_ and _annihilate_, while antonyms are _create_ and _establish_. This concept is essential in understanding the impact of environmental factors on ecosystems.
+3. Lysosomes can dissolve proteins, lipids and carbohydrates.
 
+4. All lysosomes are same structurally and functionally.
 
-#### Obnoxious
-Obnoxious pertains to something or someone that is very unpleasant or rude. For example, when someone is in a bad mood, they can be obnoxious to everyone. Synonyms include _repulsive, offensive, and disgusting,_ while antonyms are _agreeable_ and _decent_. This concept highlights the importance of social interactions in shaping our understanding of the world.
+17. Consider the following statements 1. Endoplasmic Reticulum (ER) is called as ‘skeleton of cell’.
 
+2. ER is divided into three types according to the presence or the absence of ribosome.
 
-#### Obstinate
-Obstinate describes someone who is unreasonably determined or stubborn. For example, a person can be obstinate at times. Synonyms include _adamant, inflexible,_ while antonyms are _flexible_ and _amenable_. This concept underscores the significance of adaptability in navigating complex biological systems.
+3. Smooth ER is rich in actively protein secreting cells.
 
+Which of the statement(s) given above is/are correct? (a) Only 1 (b) 1 and 2 (c) 2 and 3 (d) Only 3 10. Which of the following is not present in prokaryotes? (a) Ribosomes (b) Nuclear membrane (c) Cell wall (d) Plasma membrane GENERAL SCIENCE Previous Years’ Questions Which of the statement(s) given above is/are correct? (a) Only 1 (b) 1 and 2 (c) 1, 2 and 3 (d) All of these 31. Which of the following phases is the longest phase in the meiotic cell division? (a) Anaphase-II (b) Telophase-I (c) Prophase-I (d) Metaphase-I 40. Which organelle in the cell, other than nucleus, contain DNA? e 2013 (I) (a) Endoplasmic reticulum (b) Golgi apparatus (c) Lysosome (d) Mitochondria 32. Which of the following is the correct sequence of the different phases of cell division? 1. Anaphase 2. Telophase 3. Prophase 4. Metaphase Codes (a) 3, 1, 4, 2 (b) 1, 3, 2, 4 (c) 3, 4, 1, 2 (d) 1, 2, 3, 4 41. Which of the following parts are found in both plant and animal cells? e 2014 (II) (a) Cell membrane, chloroplast, vacuole (b) Cell wall, nucleus, vacuole (c) Cell membrane, cytoplasm, nucleus (d) Cell wall, chloroplast, cytoplasm 24. Consider the following statements 1. Chloroplast is known as ‘cell within a cell’.
 
-#### Occult
-Occult pertains to magical powers and activities. For example, some books in the library may be on occult subjects. Synonyms include _psychic_ and _magical,_ while antonyms are _natural_ and _obvious_. This concept reveals the multifaceted nature of reality and the role of human perception in shaping our understanding.
+2. Chloroplast is the largest cell organelle found in plant cells.
 
-### 1.2 Vocabulary Applications
-The vocabulary foundation laid in the previous section is applied in the subsequent sections to create a robust understanding of biological systems.
+3. Chloroplasts have single- stranded extra chromosomal DNA.
 
+Which of the statement(s) given above is/are correct? (a) Only 2 (b) 1 and 2 (c) 1 and 3 (d) All of these 33. Chromosomes are best seen in (a) telophase (b) anaphase (c) metaphase (d) prophase 34. Which type of division occurs in cleavage? (a) Amitotic (b) Mitotic (c) Meiotic (d) Both (b) and (c) 25. Which of the following pairs of cell organelles mainly concerned with fatty acid metabolism in both plants and animals? (a) Ribosomes and nucleus (b) Lysosomes and mitochondria (c) Peroxisomes and mitochondria (d) Glyoxysomes and peroxisomes 42. Which one among the following statement is correct? e 2015 (I) (a) Prokaryotic cells possess nucleus (b) Cell membrane is present in both plant and animal cells (c) Mitochondria and chloroplasts are not found in eukaryotic cells (d) Ribosomes are present in eukaryotic cells only 35. In which one of the following types of cell divisions crossing over of chromosomes takes place? (a) Mitosis (b) Meiosis (c) Amitosis (d) Cytokinesis 43. The living content of cell is called protoplasm. It is composed of e 2016 (I) (a) only cytoplasm (b) cytoplasm and nucleoplasm (c) only nucleoplasm (d) cytoplasm, nucleoplasm and other organelles 26. DNA is mainly found in the following organelles.
 
-#### Oblique
-Oblique signifies something that is unusual or unexpected. For instance, an offbeat career choice can lead to success. Synonyms include _bizarre, unconventional,_ while antonyms are _ordinary, conventional._ This concept highlights the importance of creativity and innovation in navigating complex biological systems.
+1. Mitochondria 2. Chloroplasts 3. Peroxisomes 4. Nucleus Which of the statements given above are correct? (a) 2 and 4 (b) 1, 2 and 4 (c) 2, 3 and 4 (d) All of these Classification of Plants and Animals 36. Which is the correct order of phases in prophase-I? (a) Leptotene, Diakinesis, Pachytene, Diplotene, Zygotene (b) Leptotene, Zygotene, Pachytene, Diplotene, Diakinesis (c) Diakinesis, Pachytene, Diplotene, Zygotene, Leptotene (d) Diakinesis, Pachytene, Leptotene, Diplotene, Zygotene 44. Study of principle and procedures of classification is called (a) taxonomy (b) systematics (c) nomenclature (d) identification 27. Which of the following cell organelles is found in a cell that is very active in protein synthesis? (a) Mitochondria (b) Chloroplast (c) Lysosome (d) Ribosome 37. Which of the following stages is associated with the formation of chiasmata during meiotic cell division? (a) Leptotene (b) Zygotene (c) Pachytene (d) Diplotene 45. Which of the following does not contain chlorophyll? (a) Fungi (b) Algae (c) Bryophyta (d) Pteridophyta 28. Consider the following organelles.
 
+1. Chloroplast 2. Mitochondria 3. Peroxisome Which of the organelle(s) given above is/are concerned with photorespiration? (a) Only 3 (b) 1 and 2 (c) 2 and 3 (d) All of these 46. Bryophytes are photosynthetic but do not have vascular tissue and true roots. This feature enables them to resemble with which of the following? (a) Fungi (b) Algae (c) Pteridophytes (d) Angiosperms 38. Which of the following organisms have peptidoglycan compound as an important constituent in cell wall? (a) Bacteria and cyanobacteria (b) Bacteria and unicellular eukaryote (c) Archaebacteria and eukaryote (d) All members of Monera and Protista 47. Vascular tissue is found in (a) Thallophyta (b) Bryophyta (c) Pteridophyta (d) Lichens 29. Number of chromosomes in Drosophila is (a) eight (b) ten (c) twelve (d) fourteen 30. How many linkage groups are present in man? (a) 46 (b) 23 (c) 48 (d) 10 48. The gymnosperms are (a) seed bearing plants (b) non-flowering (c) thallus bearing (d) Both (a) and (b) 39. Which of the following term is associated with the failure of meiosis-II to occur after meiosis-I? (a) Brachymeiosis (b) Dinomitosis (c) Dimunition (d) Karyokinesis 56. Match the following Columns.
 
-#### Onerous
-Onerous describes something that is difficult to do or requires a lot of effort. For example, the duties of motherhood can be onerous. Synonyms include _arduous, demanding,_ while antonyms are _effortless, easy._ This concept underscores the significance of resilience and perseverance in overcoming challenges.
+Column I Column II 63. Which one among the following pairs is not correctly matched? e 2014 (II) A. Gill slits 1. Birds B. Scales 2. Osteichthyes C. Operculum 3. Chondrichthyes D. Hairs 4. Reptilia E. Lungs 5. Mammalia (a) Sandal wood plant Partial root parasite (b) Cuscuta Parasite (c) Nepenthes Carnivorous (d) Mushrooms Autotroph 49. When any plane passing through the central axis of the body divides the organism into two halves that are approximately mirror images, it is called (a) radial symmetry (b) bilateral symmetry (c) Both (a) and (b) (d) None of the above 64. Match the following Columns. e 2014 (II) Codes A B C D B C D (a) 3 (b) 1 (c) 5 (d) 1 Column-I Column-II A. Acsaris 1. Mammalia B. Malarial parasite 2. Arthropoda 50. If we sprinkle common salt on an earthworm, it dies due to (a) osmotic shock (b) respiratory failure (c) toxic effect of salt (d) closure of pores of skin C. Housefly 3. Nematoda D. Cow 4. Protozoa 51. Itching due to insect bite is caused by (a) formic acid (b) acetic acid (c) lactic acid (d) maleic acid Codes A B C D (a) 3 (b) 3 (c) 1 (d) 1 57. Consider the following statements 1. Warm-blooded animals can remain active in cold environment in which cold-blooded animals can hardly move.
 
+2. Cold-blooded animals require much less energy to survive than warm-blooded animals.
 
-### 1.3 Vocabulary Conclusion
-In conclusion, the vocabulary foundation established in this section provides a crucial framework for analyzing complex biological systems. By understanding core terms such as _obliterate, obnoxious, obstinate,_ and _occult,_ learners will develop a sophisticated grasp of the subject matter.
+Which of the statement(s) given above is/are correct? (a) Only 1 (b) Only 2 (c) Both 1 and 2 (d) Neither 1 nor 2 and Evolution of Life 52. Which of the following is the group with closely related animal types? (a) Sea star, sea lilly, sea hare (b) Dogfish, silverfish, crayfish (c) Leech, louse, snail (d) Jellyfish, sea fan, sea anemone 58. Bats can fly in dark because they (a) have strong wings (b) have sharp eyes (c) produce ultrasonic waves (d) are nocturnal 53. Which one of the following animals breathe through the skin? (a) Fish (b) Pigeon (c) Frog (d) Cockroach 65. The scientist who is considered as the father of genetics? (a) Lamarck (b) Charles Darwin (c) Hugo de Vries (d) Gregor Johann Mendel 54. Match the following Columns. Column I Column II 59. Which one of the following characteristics is common among parrot, Platypus and kangaroo? (a) Oviparity (b) Toothless jaws (c) Homeothermy (d) Functional postanal tail A. Himalayan salamander 1. Amphibia Previous Years’ Questions 66. Dr. Hargobind Khorana is credited for the discovery of (a) synthesis of proteins (b) synthesis of genes (c) synthesis of nitrogenous bases (d) None of the above B. Indian shark 2. Chondrichthyes C. Sea-horse 3. Osteichthyes D. Tortoise 4. Reptilia 67. A pair of contrasting characters is called (a) phenotype (b) genotype (c) allele (d) None of these Codes A B C D B C D (a) 1 (b) 1 (c) 2 (d) 2 60. Which one among the following groups of animals maintains constant body temperature in changing environmental conditions? e 2013 (I) (a) Birds (b) Amphibians (c) Fishes (d) Reptiles 68. Which one of the following ratio represents a test cross? (a) 3 : 1 (b) 9 : 7 (c) 1 : 1 : 1 (d) 1 : 1 : 1 : 1 69. Addition of one chromosome to a diploid set is (a) trisomy (b) monosomy (c) nullisomy (d) tetrasomy 61. Among the following animals, choose the one having three pairs of legs.
 
+e 2014 (I) (a) Spider (b) Scorpion (c) Bug (d) Mite 70. A couple with blood types A and B may have children with blood group (a) A and B (b) A, B and AB (c) A, B, AB and O (d) Only AB 55. Consider the following statements 1. Heart is three-chambered in fishes.
 
-$$\oint B \cdot dA = 0$$
+2. Heart is four-chambered in birds.
 
+3. Most animals of class— Amphibia are characterised by two pair of limbs.
 
-## 2. High-Yield Triggers
-The Insight SSB provides a series of high-yield questions that test a learner's understanding of the Master Question Core.
+4. In all reptiles respiration is by lungs only.
 
+Which of the above statements are correct? (a) 1, 2, 3, 4 (b) 1 and 3 (c) 2 and 4 (d) 2, 3, 4 62. Which one among the following is the generic name of the causal organism of elephantiasis? e 2014 (II) (a) Filaria (b) Microfilaria (c) Wuchereria bancrofti (d) Culex pipiens GENERAL SCIENCE 82. Which of the following is represented by X in figure? DNA C G A T C G C T mRNA G C X A G C G A 92. A haemophilic man marries with a normal homozygous woman. What is the probability that their son will be haemophilic? (a) 100% (b) 75% (c) 50% (d) 0% (a) Adenine (b) Guanine (c) Uracil (d) Thymine 71. Which one among the following is not correct about Down’s syndrome? (a) It is a genetic disorder (b) Affected individual has early ageing (c) Affected person has mental retardation (d) Affected person has furrowed tongue with open mouth 83. Genetic code is (a) singlet (b) doublet (c) triplet (d) None of these 93. The nearest relative of man are (a) lemurs (b) apes (c) new world monkeys (d) old world monkeys 84. Which of the following were first formed? (a) Genes (b) Cells (c) Eobionts (d) Coacervates 72. What is the most conspicuous salient feature of people with ‘Progeria’? (a) More hairs on body (b) Less immunity to opportunistic infections (c) Faster rate of ageing (d) Suffer from infertility 85. Life originated in (a) air (b) land (c) water (d) All of these 73. The nucleic acid in cell was discovered by (a) E Strasburger (b) A Kossel (c) F Miescher (d) Huxley 86. Genetic variation arises by (a) recombination (b) mutation (c) chromosomal aberrations (d) All of the above 94. Which is the correct sequence in order of chronology? 1. Rediscovery of Mendel’s law of inheritance.
 
-### High-Yield Questions
+2. Darwin’s theory of evolution.
 
+3. Synthetic theory of evolution 4. Hugo de Vries theory of mutation.
 
-#### Q1: Concept parameter 1
-What is the primary function of a biological system?
-(A) Homeostasis
-(B) Adaptation
-(C) Evolution
-(D) Metabolism
+Codes (a) 1, 2, 3, 4 (b) 2, 4, 1, 3 (c) 3, 2, 1, 4 (d) 4, 2, 3, 1 74. The sugar in RNA is (a) ribose (b) deoxyribose (c) sucrose (d) lactose 87. The evolution of human species took place mainly in (a) Asia (b) Africa (c) Europe (d) China 95. Which one of the following is an example of vestigial organ in man? (a) Jaw apparatus (b) Ear muscles (c) Canine teeth (d) Humerus 75. Which base replaces thymine in RNA? (a) Adenine (c) Guanine (c) Uracil (d) Cytosine 88. The organs which are morpho- logically different but perform the same function are called (a) homologous organs (b) analogous organs (c) vestigial organs (d) None of the above 76. Transfer of genetic information from one generation to the other is accomplished by (a) DNA (b) messenger RNA (c) transfer RNA (d) Both (b) and (c) 96. Arrange the following in the order of their evolution.
 
-Correct Answer: B
+1. Amphibians 2. Fish 3. Reptiles 4. Birds Codes (a) 1, 2, 4, 3 (b) 2, 1, 4, 3 (c) 2, 1, 3, 4 (d) 4, 1, 3, 2 89. Vermiform appendix is vestigial in man due to (a) cellulose digestion (b) omnivorous diet (c) heterodont condition (d) cooking habit 77. Chromosomes are (a) present only in the nucleus of a cell (b) the largest in number in human cells (c) made up of DNA as a main component (d) visible in all cells at every time 97. Which one of the following theories was not proposed by Charles Darwin? (a) Natural selection (b) Survival of the fittest (c) Struggle for existence (d) Inheritance of acquired characters 78. The heredity unit gene is made up of (a) RNA (b) DNA (c) protein (d) endoplasmic reticulum 90. Which of the following have not undergone much of a change during the process of evolution over millions of years? 1. Crocodile 2. Cockroach 3. Horse Codes (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) All of these 98. The theory of ‘survival of the fittest’ was propounded by (a) Lamarck (b) Mendel (c) Charles Darwin (d) Karl Landsteiner 79. The correct model of DNA structure is proposed by (a) Jacob and Monod (b) Watson and Crick (c) Khorana (d) Baltimore and Temin 99. According to Darwin, variations are (a) heritable (b) non-heritable (c) mutational (d) environmental 80. Enzyme responsible for DNA replication is (a) polymerase (b) proteolytic (c) dehydrogenase (d) carboxylase 100. Who proposed the mutation theory of evolution? (a) Huxley (b) Darwin (c) Lamarck (d) Hugo de Vries 101. Synthetic theory was proposed by (a) Morgan (b) Muller (c) Darwin (d) Dobzohansky 91. Which of the following is the correct sequence in which the given animal groups appeared on the earth during the course of evolution? (a) Porifera — Annelida — Coelenterata — Protozoa (b) Protozoa — Coelenterata — Porifera — Annelida (c) Annelida — Porifera — Protozoa — Coelenterata (d) Protozoa — Porifera — Coelenterata — Annelida 81. DNA structure was discovered by (a) Weismann (b) Watson and Crick (c) Sutton (d) Jacob 108. Match the following Columns.
 
-Explanation: A biological system is primarily concerned with adaptation, which involves the ability to adjust to changing environments.
+Column I Column II 117. Which one of the following is dicot endospermic seed? (a) Maize (b) Bean (c) Castor (d) Wheat 102. Microevolution can be measured by comparing observed allelic frequencies. These can be predicted by (a) chance (b) the Hardy-Weinberg equilibrium (c) differential mortality (d) Mendelian ratio Previous Years’ Questions 118. The apple fruit is called as false fruit because (a) its pericarp is unconspicuous (b) its actual fruit is located within edible fleshy thalamus (c) its develops from the inferior ovary (d) its endocarp is cartilaginous A. Primary root 1. It is formed due to the repeated division of primary root. B. Tap root system 2. It is primary root and its branches. C. Fibrous root 3. Root arises any place other than the root system.
 
+D. Adventitious root 4. It is direct prolongation of the radicle noticed nearly in all dicotyledonous plants.
 
-#### Q2: Concept parameter 2
-What is the main difference between a prokaryotic cell and a eukaryotic cell?
-(A) Presence of a nucleus
-(B) Presence of mitochondria
-(C) Presence of a cell wall
-(D) Size of the cell
+119. Wood is the common name for (a) vascular bundle (b) cambium (c) secondary xylem (d) secondary phloem 103. The fossil of Archaeopteryx represents the evidence of origin of e 2013 (I) (a) birds from reptiles (b) mammals from reptiles (c) reptiles from amphibians (d) mammals from birds Codes A B C D B C D (a) 1 (b) 3 (c) 2 (d) 4 109. Stem develops from (a) plumule (b) radicle (c) pericarp (d) procambium 120. The sharp and pointed outgrowths present on the stem of rose are called (a) prickles (b) thorns (c) spines (d) hooks 104. Two strands of DNA are held together by e 2014 (I) (a) hydrogen bonds (b) covalent bonds (c) electrostatic force (d) van der Waals’ forces 121. Cork cambium is (a) primary meristem (b) ground meristem (c) lateral meristem (d) intercalary meristem 105. Match Column I with Column II and select the correct answer using the codes given below e 2016 (I) 110. Which one of the following statements regarding potato is correct? (a) It is a root (b) It is a normal stem (c) It is a modified stem (d) It is a modified root Column II (Life form) Column I (Geological Time-Scale) 111. A leaf without petiole is known as (a) subpetiolate (b) sessile (c) zygomorphic (d) heteromerous 122. The characteristic odour of garlic is due to which one of the following? (a) Chlorine-containing compounds (b) Fluorine-containing compounds (c) Nitrogen-containing compounds (d) Sulphur-containing compounds 112. The largest flower in the world is (a) lotus (b) Rafflesia (c) giant cactus (d) None of these A. Pleistocene 1.
 
-Correct Answer: A
+Mammals B. Palaeocene 2.
 
-Explanation: The primary difference between a prokaryotic cell and a eukaryotic cell is the presence of a nucleus in the latter.
+Human genus C. Permian 3.
 
+Invertebrates D. Cambrian 4.
 
-#### Q3: Concept parameter 3
-What is the process by which cells divide to form new cells?
-(A) Mitosis
-(B) Meiosis
-(C) Photosynthesis
-(D) Respiration
+Frogs 113. The fruit of coconut is (a) drupe (b) hesperidium (c) composite fruits (d) berry 123. Which one of the following nutrients is not a structural component of the plant? (a) Nitrogen (b) Calcium (c) Phosphorus (d) Potassium Codes A B C D B C D (a) 2 (b) 2 (c) 3 (d) 3 114. Which of the following is correctly matched? (a) Tomato—Pome (b) Banana—Berry (c) Mango—Berry (d) Apple—Drupe 124. Palak leaves are rich in (a) vitamin-A (b) vitamin-D (c) iron (d) carotene 115. Match the following Columns.
 
-Correct Answer: A
+125. Pulse crops can fix atmospheric nitrogen because of (a) root nodules (b) deep roots (c) aerial roots (d) root hair Column I (Plants) Column II (Seed dispersal mechanism) 126. The plant which is parasite in nature is (a) Cuscuta (b) Utricularia (c) Rhizopus (d) Green plants 106. Which of the following cause(s) variation in the genetic material of progeny? e 2016 (I) 1. Sexual reproduction 2. Asexual reproduction 3. Mutations 4. Epigenetic changes Select the correct answer using the codes given below:
 
-Explanation: Mitosis is the process by which cells divide to form new cells.
+(a) Only 2 (b) 1, 2 and 3 (c) 1, 3 and 4 (d) 1 and 3 A.
 
+Coconut 1. By animals B.
 
-#### Q4: Concept parameter 4
-What is the primary function of the cytoskeleton in a cell?
-(A) To provide structural support
-(B) To facilitate cell division
-(C) To transport molecules across the cell membrane
-(D) To regulate cell signaling
+Drumstick 2. Explosive mechanism C. Coklebur (Xanthium) 3. By water D. Castor 4. By wind The Plant Morphology Physiology 127. Out of the following elements which is required in largest quantity? (a) Phosphorus (b) Nitrogen (c) Calcium (d) Sulphur Codes A B C D B C D (a) 2 (b) 2 (c) 3 (d) 3 116. In groundnut, the root is (a) nodulated (b) napiform (c) epiphytic (d) photosynthetic 107. Root hairs are the extension of (a) epiblema cells (b) cortex cells (c) pericycle cells (d) xylem tracheids 128. Interveinal necrosis in lemon leaf is caused by deficiency of (a) boron (b) molybdenum (c) copper (d) zinc GENERAL SCIENCE 138. Cause of turgidity in plant cell is (a) air (b) water (c) hormones (d) All of these 129. Absorption of water increased by which mineral? (a) Magnesium (b) Zinc (c) Calcium (d) Manganese 139. If there is no movement of water into a cell from outside medium, the medium is known as (a) hypertonic (b) hypotonic (c) isotonic (d) transpiration 130. A limiting factor unique to a field planted with corn year after year is most likely (a) temperature (b) water (c) sunlight (d) soil nutrient 148. Which of the following statements is correct? (a) Maximum transpiration occurs through cuticle (b) Transpiration takes place when outer atmosphere has per cent of moisture less than that of stomatal cavity (c) There is increase in transpiration due to waxy coating on plants parts (d) None of the above 140. The diffusion through a semipermeable membrane is known as (a) osmosis (b) imbibition (c) guttation (d) transpiration 131. Which of the following are carnivorous plants? 1. Waterlilly 2. Pitcher plant 3. Sundew 4. Begonia Codes (a) 1 and 4 (b) 1 and 2 (c) 2 and 3 (d) 1, 2 and 3 141. A membrane which permits selective movement of molecules through it, is called (a) permeable membrane (b) unit membrane (c) semipermeable (d) impermeable membrane 132. Which one of the following plants is preferred for mixed cropping in order to enhance the bioavailability of nitrogen? (a) Wheat (b) Gram (c) Maize (d) Barley 149. Why do you feel cool under a tree but not so under a tin shed on a sunny day? (a) The greenness of the tree gives the cool feeling (b) Photosynthesis absorbs heat (c) The leaves convert water vapours into water which is a heat absorbing process (d) The leaves give out water which vapourises absorbing some heat as latent heat 142. Roots can absorb minerals from the soil when they are in (a) solid state (b) liquid state (c) ionic state (d) gaseous state 133. Which factors affect the rate of diffusion? (a) Permeability of membrane (b) Temperature (c) Pressure (d) All of the above 150. In dry regions, the leaf size of a tree becomes smaller. It is so to (a) reduce metabolism (b) reduce transpiration (c) maintain natural growth (d) protect plant from animals 143. Water absorption can be increased by keeping the plants (a) in the shade (b) in dim light (c) under the fan (d) covered with polythene bag 151. Tips of leaves in grasses and common garden plants show water drops in early morning hours. This water accumulation is obtained from (a) atmosphere (b) stomata (c) vascular bundles (d) hydathodes 144. A cell neither shrinks nor swells when kept in a fluid, then the fluid in the cell in relation to ambient fluid is called (a) hypertonic (b) hypotonic (c) isotonic (d) hylaluronic 152. Which of the following plants is not capable of manufacturing its own food? (a) Algae (b) Mushroom (c) Carrot (d) Cabbage 145. Transpiration is very low during storms due to (a) presence of moisture in wind (b) low temperature during storms (c) high velocity of winds (d) None of the above 134. Consider the following statements 1. Vapour pressure of a solution is always less than the vapour pressure of the pure solvent.
 
-Correct Answer: A
+2. Osmotic pressure of a solution increases if the number of solute molecules is increased.
 
-Explanation: The primary function of the cytoskeleton is to provide structural support to the cell.
+3. The temperature at which the liquid and solid states of a substance have the same vapour pressure is the freezing point.
 
+4. Osmotic pressure of a solution is inversely proportional to the elevation in boiling point.
 
-#### Q5: Concept parameter 5
-What is the main difference between a haploid cell and a diploid cell?
-(A) Number of chromosomes
-(B) Size of the cell
-(C) Presence of a nucleus
-(D) Presence of mitochondria
+Which of the above statement(s) is/are correct? (a) Only 1 (b) 2 and 4 (c) 3 and 4 (d) 1, 2 and 3 153. Conditions necessary for photosynthesis is/are (a) chlorophyll and water (b) CO 2 (c) light and suitable temperature (d) All of the above 146. Which of the following plants open their stomata during night and close during day time? (a) Fleshy xerophytes (b) Hydrophytes (c) Night jasmine (d) None of the above 135. Osmosis takes place across (a) semipermeable membrane (b) impermeable membrane (c) Both (a) and (b) (d) None of the above 154. Absorption of light in photosynthesis is done by (a) water (b) air (c) chlorophyll (d) carbon dioxide 136. When soil is wet and atmosphere is humid plants lose water by (a) photosynthesis (b) osmosis (c) guttation (d) diffusion 147. Consider the statements and mark the correct one. There is decrease in the rate of transpiration due to (a) the presence of thick cuticle (b) the presence of sunken stomata (c) Both (a) and (b) are correct (d) None of the above 155. Which one of the following gases is released from rice fields in the most prominent quantities? (a) Carbon dioxide (b) Methane (c) Carbon monoxide (d) Sulphur dioxide 137. Cohesion theory of ascent of sap was proposed by (a) Dixon (b) Bore (c) Pristley (d) Atkins 156. Which pigment plays a major role in seed germination? (a) Chloroplast (b) Chlorophyll (c) Xanthophyll (d) Phytochrome 171. Seedless berry is produced in which of the following plant? (a) Date palm (b) Papaya (c) Tomato (d) Banana 157. Match the following Columns.
 
-Correct Answer: A
+163. Which one of the following is not correctly matched? (a) Adenine derivative Kinetin (b) Carotenoid derivative – ABA (c) Terpenes IAA (d) Gas Ethylene Column I (Cell organelles) Column II (Physiological phenomena) 172. Which one among the following plants cannot be multiplied by cuttings? (a) Rose (b) Bryophyllum (c) Banana (d) Marigold A. Mitochondria 1. Photosynthesis 164. The hormone which suppresses the growth of a plant? (a) Auxins (b) Cytokinins (c) Gibberellins (d) ABA B. Chloroplast 2. Transpiration C. Stomata 3. Respiration 173. Which of the following is a living fossil? (a) Blue-green algae (b) Fungus (c) Green algae (d) Ginkgo D. Cell membrane 4. Osmosis Codes A B C D B C D (a) 1 (b) 3 (c) 1 (d) 3 174. Which one among the following kinds of organisms resides in the roots of pulses to do nitrogen- fixation? (a) Bacteria (b) Fungi (c) Protozoa (d) Virus 165. Consider the following statements with reference to human nutrition.
 
-Explanation: The primary difference between a haploid cell and a diploid cell is the number of chromosomes, with diploid cells having two sets of chromosomes.
+1. Banana is richer source of carbohydrates than apples.
 
+2. Banana contains some amount of protein also.
 
-#### Q6: Concept parameter 6
-What is the process by which cells die and are replaced by new cells?
-(A) Cell division
-(B) Cell differentiation
-(C) Apoptosis
-(D) Senescence
+3. Spinach has no protein at all.
 
-Correct Answer: C
+4. Potatoes are richer source of protein than peas.
 
-Explanation: Apoptosis is the process by which cells die and are replaced by new cells.
+Which of the above statements are correct? (a) 1 and 2 (b) 2, 3 and 4 (c) 3 and 4 (d) All of these 158. In which of the following cell organelles do photo and thermochemical reactions occur at different sites? (a) Mitochondria (b) Chloroplasts (c) Ribosomes (d) Lysosomes 175. Cloves, used as a spice, are derived from which of the following plant parts? (a) Seeds (b) Fruits (c) Flower buds (d) Young leaves 166. Eyes of potato are useful for (a) nutrition (b) respiration (c) photosynthesis (d) vegetative propagation 176. Which of the following is not a seed-borne disease? (a) Brown leaf spot of rice (b) Black arm of cotton (c) Red rot of sugarcane (d) Potato mosaic 177. Match the following Columns.
 
+167. Belladona plant is the source of alkaloid (a) auxin (b) atropine (c) cocaine (d) nicotine Column I (Plants) Column II (Edible parts) 159. Which one of the following statements about photosynthesis is correct? (a) Carbohydrates are the source of electrons in photosynthesis (b) CO 2 is the source of electrons in photosynthesis (c) Water is the source of electrons in photosynthesis (d) NADH is the source of electron in photosynthesis 168. Stem cuttings are commonly used for regrowing (a) cotton (b) banana (c) mango (d) sugarcane A. Pea 1. Mesocarp B. Date palm 2. Cotyledons C. Papaya 3. Bracts, perianth and receptacle D. Pineapple 4. Fleshy pericarp 169. Vivipary is found in (a) mango (b) Brassica (c) mangrove plants (d) Cycas 170. Match the following Columns.
 
-#### Q7: Concept parameter 7
-What is the primary function of the endoplasmic reticulum in a cell?
-(A) To synthesize proteins
-(B) To transport molecules across the cell membrane
-(C) To regulate cell signaling
-(D) To provide structural support
+Codes A B C D B C D (a) 2 (b) 2 (c) 1 (d) 3 Column II (Plants) Column I (Mode of reproduction) 1. Rubber, mango and guava A. Vegetative propagation by leaves 160. CO2 and O2 molecules can move freely across a plasma membrane. What determines the direction of carbon dioxide and oxygen molecules movement? (a) Orientation of cholesterol in the plasma membrane (b) Concentration gradient across the membrane (c) Configuration of phospholipid in the plasma membrane (d) Location of receptors on the surface of the plasma membrane 178. The leaves used as wrappers for bidis are obtained from which one of the following? (a) Shikakai (b) Rudraksha (c) Tendu (d) Lemon grass 4. Sugarcane, rose and Bougainvillea B. Stem cuttings 2. Bryophyllum and Begonia C. Grafting 3. Potato D. Vegetative propagation by tubers 161. Which one of the following is present in chlorophyll which gives a green colour to plant leaves? (a) Calcium (b) Magnesium (c) Iron (d) Manganese 179. Cutting and peeling of onions bring tears to the eyes because of the presence of (a) sulphur in the cell (b) carbon in the cell (c) fat in the cell (d) amino acid in the cell 162. Wavelengths of which of the following colour of the visible spectrum of light are maximally absorbed by green plants? (a) Green and yellow (b) Red and blue (c) Green and red (d) Blue and yellow Codes A B C D (a) 2 (b) 1 (c) 3 (d) 4 180. The antimalarial drug quinine is made from a plant. The plant is (a) neem (b) Eucalyptus (c) cinnamon (d) cinchona GENERAL SCIENCE Previous Years’ Questions 199. Which milk contains more fat? (a) Cow (b) Buffalo (c) Camel (d) Reindeer 181. Which one among the following is a major source of sugar? (a) Watermelon (b) Beetroot (c) Sugarcane (d) Date 189. The ultimate cause of water movement in a plant stem against gravity is e 2013 (I) (a) osmosis (b) transpiration (c) photosynthesis (d) diffusion 182. Golden fibre refers to (a) hemp (b) cotton (c) jute (d) nylon 200. Protein-calorie malnutrition causes (a) malaria (b) hepatitis (c) typhoid (d) kwashiorkor 183. Match the following Columns. Column I (Mineral) Column II (Major sources) 201. Which of the following does not belong to vitamin-B group? (a) Riboflavin (b) Tocopherol (c) Cyanocobalamin(d) Nicotinic acid 202. Match the following Columns.
 
-Correct Answer: A
+A.
 
-Explanation: The primary function of the endoplasmic reticulum is to synthesize proteins.
+Iron 1. Banana, date B.
 
+Potassium 2. Palak C.
 
-#### Q8: Concept parameter 8
-What is the main difference between a somatic cell and a germ cell?
-(A) Origin of the cell
-(B) Function of the cell
-(C) Number of chromosomes
-(D) Presence of a nucleus
+Iodine 3. Iodised common salt D.
 
-Correct Answer: C
+Calcium 4. Milk, egg Column I (Vitamins) Column II (Chemical names) 190. Vaseline was applied to both the surfaces of the leaves of a plant. Which of the following process/processes would be affected? e 2013 (I) 1. Photosynthesis 2. Respiration 3. Transpiration Select the correct answer using the codes given below: (a) 1 and 3 (b) Only 2 (c) 2 and 3 (d) All of these Codes A B C D B C D (a) 2 (b) 2 (c) 4 (d) 4 A. Vitamin-A 1. Riboflavin B. Vitamin-B 2 2. Niacin C. Vitamin-B 3 3. Retinol D. Vitamin-C 4. Ascorbic acid 184. Quinine is a drug used in the treatment of malaria, from which part of the plant is it obtained? (a) Roots (b) Stem (c) Bark (d) Leaves Codes A B C D B C D (a) 1 (b) 4 (c) 3 (d) 2 191. Which one of the following elements is present in green pigment of leaf? e 2014 (I) (a) Magnesium (b) Phosphorus (c) Iron (d) Calcium 192. Which of the following structures of a plant is responsible for transpiration? e 2014 (I) (a) Xylem (b) Root (c) Stomata (d) Bark 193. Which of the following does not possess a specialised conducting tissue for transport of water and other substances in plants? e 2014 (I) (a) Marchantia (b) Marsilea (c) Cycas (d) Fern 185. The branches of this tree root themselves like new trees over a large area. The roots then give rise to more trunks and branches.
 
-Explanation: The primary difference between a somatic cell and a germ cell is the number of chromosomes, with germ cells having half the number of chromosomes as somatic cells.
+Because of this characteristic and its longevity, this tree is considered immortal and is an integral part of the myths and legends of India. Which tree is this? (a) Banyan (b) Neem (c) Tamarind (Imli) (d) Peepal 203. Consider the following statements regarding human nutrition.
 
+1. Spinach is a good source of vitamin-A.
 
-#### Q9: Concept parameter 9
-What is the primary function of the Golgi apparatus in a cell?
-(A) To synthesize proteins
-(B) To transport molecules across the cell membrane
-(C) To regulate cell signaling
-(D) To modify and package proteins for secretion
+2. Excess vitamin-D in diet promotes hypercalcemia 3. One of the causes of pain in the joints is due to vitamin-C deficiency.
 
-Correct Answer: D
+4. Diarrhoea is one of the symptoms of pellagra.
 
-Explanation: The primary function of the Golgi apparatus is to modify and package proteins for secretion.
+Which of the above statements are correct? (a) 1, 2 and 4 (b) 1, 3 and 4 (c) 2, 3 and 4 (d) All of these 194. Bagasse, a byproduct of sugar manufacturing industry, is used for the production of e 2014 (II) (a) glass (b) paper (c) rubber (d) cement 204. Bleeding and rupturing of blood vessels is prevented by (a) vitamin-E (b) vitamin-C (c) vitamin-K (d) vitamin-B2 186. Which one of the following is responsible for the stimulating effect of tea? (a) Tannin (b) Steroid (c) Alkaloid (d) Flavonoid 195. Which one among the following is a micronutrient present in soil for various crops? e 2015 (I) (a) Calcium (b) Manganese (c) Magnesium (d) Potassium 205. Which enzyme is present in bile juice? (a) Bilin (b) Bilirubin (c) Biliverdin (d) None of these Animal Physiology 187. The genetically engineered ‘golden rice’ is rich in which of the following? (a) Vitamin-A and nicotinic acid (b) β-carotene and folic acid (c) β-carotene and iron (d) Vitamin-A and niacin 206. Digestive gland of prawn is (a) hepatopancreas (b) liver (c) thyroid (d) pancreas 196. Vitamin-B complex represents a group of how many vitamins? (a) 5 (b) 6 (c) 9 (d) 11 207. Omasum is absent in (a) goat (b) cow (c) camel (d) buffalo 197. The richest source of vitamin-D is (a) cod liver oil (b) spinach (c) milk (d) cheese 208. Coagulation of milk is done by (a) casein (b) rennin (c) pepsin (d) trypsin 198. Cow milk is a rich source of (a) vitamin-A (b) vitamin-B (c) vitamin-C (d) fatty acids 188. The plant dye henna imparts orange-red colour to skin and hairs due to its reaction with which of the following? (a) Proteins and amino acids (b) Lipids (c) Carbohydrates (d) Nucleic acids 224. Match the following Columns. Column I (Vitamin) Column II (Chemical compound) Which of the above statements(s) is/are correct? (a) Only 1 (b) 1 and 3 (c) 2 and 3 (d) 1, 3 and 4 217. Match the following Columns. A. Vitamin-A 1. Thiamine B. Vitamin-B1 2. Retinol C. Vitamin-C 3. Ascorbic acid D. Vitamin-E 4. Tocopherol Column I (Sources) Column II (Rich in) 209. Consider the following substances 1. Ascorbic acid 2. Folic acid 3. Nicotinic acid 4. Pantothenic acid Which of the above are vitamins? (a) 1 and 3 (b) 1, 2, 3 and 4 (c) 2, 3 and 4 (d) 1, 2 and 4 210. Match the following Columns.
 
+Column I Column II A. Fish liver oil 1. Vitamin-C B. Egg 2. Vitamin-B complex C. Lettuce 3. Vitamin-D D. Cow milk 4. Vitamin-A Codes A B C D B C D (a) 4 (b) 2 (c) 4 (d) 2 A. Vitamin-C 1. Night blindness B. Vitamin-A 2. Scurvy C. Vitamin-D 3. Ricket D. Vitamin-B12 4. Anaemia Codes A B C D B C D (a) 2 (b) 2 (c) 3 (d) 4 5. Destruction of muscles 218. Match the following Columns.
 
-#### Q10: Concept parameter 10
-What is the main difference between a unipolar and a bipolar neuron?
-(A) Number of axons
-(B) Number of dendrites
-(C) Presence of a nucleus
-(D) Function of the neuron
+225. Which one of the following contains vocal cords? (a) Larynx (b) Pharynx (c) Glottis (d) Primary bronchus Column I (Sugar) Column II (Source) Codes A B C D B C D (a) 1 (b) 4 (c) 2 (d) 2 211. Match the following Columns.
 
-Correct Answer: D
+226. Which one of the following is considered as the easily digestible source of protein? (a) Egg albumin (b) Soybean (c) Fish flesh (d) Red meat A. Cellulose 1. Honey B. Fructose 2. Sugarcane C. Maltose 3. Cotton wool D. Sucrose 4. Starch Column I Column II A. Enzyme 1. Retinol 227. Wisdom teeth are (a) incisors (b) canines (c) premolars (d) molars B. Vitamin 2. Keratin Codes A B C D B C D (a) 3 (b) 3 (c) 2 (d) 2 C. Protein 3. Maltase D. Hormone 4. Adrenalins 219. The vitamin(s), which is/are generally excreted in urine, is/are (a) vitamin-A (b) vitamin-E (c) vitamin-C (d) vitamin-D and K 228. Chemically silk fibres are predominantly (a) protein (b) carbohydrate (c) complex lipid (d) mixture of polysaccharide and fat 220. Match the following Columns.
 
-Explanation: The primary difference between a unipolar and a bipolar neuron is their function, with unipolar neurons responsible for sensory functions and bipolar neurons responsible for transmitting signals.
+Codes A B C D B C D (a) 3 (b) 2 (c) 4 (d) 3 Column I (Mineral) Column II (Major Source) 229. Which one of the following enzyme is present in saliva? (a) Pepsin (b) Ptyalin (c) Trypsin (d) Chymotrypsin 212. Honey has the largest percentage of (a) water (b) starch (c) glucose (d) sucrose A. Iron 1.
 
+Banana, date B. Potassium 2.
 
-## 3. The Exhaustive Testing Engine
+Palak C. Iodine 3.
 
+Iodised common salt D. Calcium 4.
 
-### Q1: Concept parameter 1
-What is the primary function of a biological system?
-(A) Homeostasis
-(B) Adaptation
-(C) Evolution
-(D) Metabolism
+Milk, egg 230. Which one of the following is true stomach? (a) Ruman (b) Reticulum (c) Omasum (d) Abomasum 213. Which fruit can diabetic patients eat freely? (a) Banana (b) Guava (c) Orange (d) Mango 231. Dental formula of human baby is (a) 2102/2102 (b) 2103/2103 (c) 2100/2100 (d) 2123/2123 Codes A B C D B C D (a) 2 (b) 2 (c) 4 (d) 4 221. Which among the following oils has the maximum protein content? (a) Castor oil (b) Sunflower oil (c) Soybean oil (d) Safflower oil 232. Acidity in stomach involves (a) headache (b) stomach aches (c) asthma (d) hormonal deficiency 214. Which of the following vitamins and deficiency diseases is not correctly matched? (a) Vitamin-A Night blindness (b) Vitamin-B 1 – Pellagra (c) Vitamin-D Deformities in bones (d) Vitamin-K Haemorrhage 215. The protein content of edible portion of egg is (a) 15% (b) 13.3% (c) 10.3% (d) 5% 233. The cells of pancreas that produce glucagon are (a) α-cells (b) γ-cells (c) Both (a) and (b) (d) β-cells 222. Anaemia is a common health problem especially in women. Which one of the following deficiencies is most frequently responsible for anaemia in India? (a) Calcium (b) Iron (c) Iodine (d) Zinc 234. Metabolic rate in mammals is controlled by (a) pancreas (b) liver (c) pituitary (d) thyroid 216. Consider the following statements. Keratin is 1. a protein 2. a hormone 3. present in hair 4. present in nail 223. Primary source of vitamin-D for human beings is (a) citrus fruit (b) green vegetables (c) yeast (d) sun GENERAL SCIENCE Select the correct answer using the code given below: (a) 1 and 3 (b) 1 and 2 (c) 3 and 4 (d) All of these 245. Respiratory enzymes in bacteria are present in (a) mitochondria (b) Golgi complex (c) plasma membrane (d) endoplasmic reticulum 235. Which one among the following will be absorbed fastest through the wall of digestive system? (a) Black coffee as a hot beverage (b) DDT taken as a poison (c) Raw alcohol taken as a drink (d) Ice-cream as a dessert 255. Second heart sound is (a) lubb at the end of systole (b) lubb at the beginning of systole (c) dupp at the end of diastole (d) dupp at the beginning of diastole 246. Which one of the following animals breathe through the skin? (a) Fish (b) Pigeon (c) Frog (d) Cockroach 236. When we eat something we like, our mouth waters. This is actually not water, but fluid secreted from (a) nasal glands (b) oval epithelium (c) salivary glands (d) tongue 256. Open type circulatory system is found in (a) insects (b) leeches (c) molluscs (d) All of these 247. Life of RBCs in human blood is of (a) 30 days (b) 60 days (c) 120 days (d) 15 hours 257. The ECG is employed to detect (a) cholesterol (b) blood pressure (c) cardiac cycle (d) atherosclerosis 248. Element that is not found in blood is (a) iron (b) magnesium (c) copper (d) chromium 237. Which among the following is the correct increasing order of pH found in human body? (a) Gastric juice, saliva, blood (b) Blood, saliva, gastric juice (c) Saliva, blood, gastric juice (d) Gastric juice, blood, saliva 258. Membrane surrounding the heart is (a) peritoneum (b) pleura (c) pericardium (d) mucous membrane 249. The blood pressure is the pressure of blood in (a) arteries (b) veins (c) auricles (d) ventricles 250. A reptile with a four-chambered heart is (a) crocodile (b) turtle (c) snake (d) lizard 259. The blood pressure is measured by (a) haemoglobinometer (b) stethoscope (c) sphygmomanometer (d) pulse rate 251. Blood grouping was discovered by (a) William Harvey (b) Landsteiner (c) Robert Koch (d) Louis Pasteur 238. Consider the following statements 1. Iodine is necessary for the thyroid gland to make adrenaline.
 
-Correct Answer: B
+2. Iodine deficiency leads to goitre in human beings.
 
-Explanation: A biological system is primarily concerned with adaptation, which involves the ability to adjust to changing environments.
+3. Iodine is secreted by pancreas and helps in regulating cholesterol level.
 
-**Step-by-Step Explanation:**
+Which of the statement(s) given above is/are correct? (a) Only 2 (b) 1 and 2 (c) 1 and 3 (d) All of these 260. Heart with single circulation is found in (a) mammals (b) reptiles (c) fishes and amphibians (d) only fishes 252. How many molecules of O2 can associate with a molecule of haemoglobin in man? (a) One (b) Two (c) Three (d) Four 239. In human beings, the opening of the stomach into the small intestine is called (a) caecum (b) ileum (c) oesophagus (d) pylorus 261. Increase in the number of WBC is referred as (a) anaemia (b) polythaemia (c) leukopenia (d) leukemia 240. Anaerobic respiration occurs in (a) ants (b) earthworms (c) tapeworms (d) echinoderms 253. Between which one of the following sets of blood groups, is the blood transfusion possible? (a) A and O (A donor) (b) B and A (B donor) (c) A and AB (A donor) (d) AB and O (AB donor) 241. Oxygen content in inspired air is (a) 4% (b) 20% (c) 16% (d) 25% 262. The lifespan of human WBC is about (a) less than 10 days (b) 24 hours (c) 120 days (d) 100 hours 263. Pacemaker in heart is (a) AV node (b) SA node (c) Purkinje fibres (d) Bundle of His 242. Which is the main form in which CO2 is transported by blood? (a) Carbonic acid (b) Oxyhaemoglobin (c) Bicarbonates (d) Carboxyhaemoglobin 264. Vein carrying oxygenated blood is called (a) pulmonary (b) all capillaries (c) aorta (d) None of these 265. Which chamber of human heart pumps fully oxygenated blood to aorta and hence to the body? (a) Right auricle (b) Left auricle (c) Right ventricle (d) Left ventricle 243. The largest quantity of air that can be expired after a maximal inspiration is (a) residual volume (b) tidal volume (c) lung volume (d) vital capacity of lungs 254. Which of the statements given below are correct? 1. A person having blood group-A can donate blood to persons having blood group-A and blood group-AB.
 
-1. Understand the concept of adaptation and its importance in biological systems.
-2. Eliminate options that are not directly related to adaptation, such as homeostasis and evolution.
-3. Recognize that metabolism is a related but distinct concept.
+2. A person having blood group-AB can donate blood to persons having blood groups-A, B, AB or O.
 
-### Q2: Concept parameter 2
-What is the main difference between a prokaryotic cell and a eukaryotic cell?
-(A) Presence of a nucleus
-(B) Presence of mitochondria
-(C) Presence of a cell wall
-(D) Size of the cell
+3. A person with blood group-O can donate blood to persons having any blood group.
 
-Correct Answer: A
+4. A person with blood group-O can receive blood from the person of any of the blood groups.
 
-Explanation: The primary difference between a prokaryotic cell and a eukaryotic cell is the presence of a nucleus in the latter.
+266. The abnormal rise in RBC count is called (a) lukemia (b) leukopenia (c) thrombocytosis (d) polycythmia 244. Which one of the following helps in air conditioning? (a) Nasal chambers (b) Nostrils (c) Pharynx (d) Alveoli 287. The junction of two neurons is called (a) synapsis (b) synapticula (c) synapse (d) synaptic cleft 276. Ammonia is the chief nitrogenous waste in (a) mosquitoes (b) tadpole of frog (c) cartilaginous fishes (d) desert mammals 288. There is different parts of brain in the figure. The darken portion of the figure represents 267. Consider the following respiratory pigments.
 
-**Step-by-Step Explanation:**
+1. Haemoglobin 2. Haemocyanin 3. Haemoerythrin 4. Haemocyanoglobin Iron is contained in (a) 1, 2, 3 and 4 (b) 1 and 3 (c) 1 and 2 (d) 1, 2 and 4 268. Match the following Columns.
 
-1. Understand the basic structure of prokaryotic and eukaryotic cells.
-2. Identify the key distinction between the two cell types.
-3. Eliminate options that are not directly related to the nucleus, such as mitochondria and cell wall.
+277. Sweating during exercise indicates operation of which one of the following processes in the human body? (a) Enthalpy (b) Homeostasis (c) Phagocytosis (d) Osmoregulation Column I (Protein) Column II (Type) A. Haemoglobin 1. Structural proteins B. Collagen 2. Contractile proteins C. Albumin and glutamin 3. Transport proteins D. Actin and myosin 4. Storage proteins (a) cerebrum (b) cerebellum (c) cerebral hemisphere (d) spinal cord 278. It has been observed that astronauts lose substantial quantity of calcium through urine during space flight. This is due to (a) hypergravity (b) microgravity (c) intake of dehydrated food tablet (d) low temperature in cosmos Codes A B C D B C D (a) 1 (b) 2 (c) 3 (d) 1 289. In human body, what is the number of cervical vertebrae? (a) 5 (b) 7 (c) 8 (d) 12 279. The fibrous sheath that connects the bones is called (a) tendon (b) aponeuroses (c) periosteum (d) ligament 269. Heart is innervated by (a) trigeminal (b) vagus (c) facial (d) glossopharyngeal 290. Number of spinal nerves in man is (a) 10 pairs (b) 12 pairs (c) 21 pairs (d) 31 pairs 280. The white fibres are chemically formed of (a) collagen (b) elastin (c) myosin (d) reticulin 291. Outermost covering of brain of man is (a) duramater (b) piamater (c) arachnoid (d) choroid 270. Which of the following parts of blood carry out the function of body defence? (a) Red blood cells (b) White blood cells (c) Platelets (d) Haemoglobins 281. The longest bone in human body is (a) femur (b) skull bone (c) patella (d) fibula 292. Which of the following makes skin layer impervious to water? (a) Collagen (b) Melanin (c) Keratin (d) Chitin 282. The protein present in bone is (a) chondrin (b) ossein (c) actin (d) myosin 271. What does sphygmomanometer measure? (a) Blood pressure (b) Velocity of fluids (c) Temperature (d) Curvature of spherical surfaces 293. Sweat glands occur in maximum number in the skin of the (a) forehead (b) armpits (c) back (d) palm of hands 283. A band of white fibres which joins muscles to bone (a) ligament (b) tendon (c) elastin (d) actin 272. White blood cells act (a) as a defence against infection (b) as source of energy (c) for clotting blood (d) as a medium for oxygen transport from lung to tissues 294. Any chemical which causes loss of sensation is (a) sedative (b) analgesic (c) anaesthetic (d) stimulant 284. Muscle fatigue is due to the accumulation of (a) pyruvic acid (b) lactic acid (c) glycogen (d) succinic acid 285. Match the following Columns.
 
-### Q3: Concept parameter 3
-What is the process by which cells divide to form new cells?
-(A) Mitosis
-(B) Meiosis
-(C) Photosynthesis
-(D) Respiration
+Column I Column II 273. Which one among the following animal tissues transport hormones and heat and maintains water balance? (a) Epithelial tissue (b) Muscular tissue (c) Blood (d) Nervous tissue 295. Human body’s main organ of balance is located in (a) inner part of ear (b) middle part of ear (c) front part of brain (d) top part of vertebral column A. Shoulder and joints 1. Ball and socket joints B. Ankle, knee and elbow 2. Hinge joints C. Toe bones 3. Ellipsoid joints D. Bones in palm 4. Gliding joints 296. Convex lenses are used for the correction of (a) artigmatism (b) short-sightedness (c) cataract (d) long-sightedness 274. Which one of the following is considered normal blood pressure in man? (a) 120/80 mm water (b) 120/80 mm blood (c) 120/80 mm mercury (d) 120/80 mm air Codes A B C D B C D (a) 2 (b) 1 (c) 1 (d) 2 297. The amount of light entering the eye is regulated by (a) cornea (b) pupil (c) iris (d) sclera 275. The yellow colour of urine is due to the presence of (a) bile (b) lymph (c) cholesterol (d) urochrome 286. Nissl’s granules are found in (a) cartilage cells (b) nerve cells (c) muscle cells (d) bone cells GENERAL SCIENCE 298. Dim-vision in the evening and night results from the deficiency of which one of the following? (a) Vitamin-A (b) Vitamin-E (c) Vitamin-B12 (d) Vitamin-C 2. A person with hypermetropia cannot see distant objects clearly.
 
-Correct Answer: A
+3. A person with presbyopia can see nearby objects without corrective glasses.
 
-Explanation: Mitosis is the process by which cells divide to form new cells.
+Which of the statement(s) given above is/are not correct? (a) Only 3 (b) 1 and 2 (c) 1 and 3 (d) 1, 2 and 3 3. They do not influence the working of those organs which have secreted them.
 
-**Step-by-Step Explanation:**
+4. They act as coenzymes and help enzymes to perform their function.
 
-1. Understand the concept of mitosis and its role in cell division.
-2. Eliminate options that are not directly related to mitosis, such as meiosis and photosynthesis.
-3. Recognize that respiration is a distinct biological process.
+Select the correct answer using the code given below: (a) 1 and 4 (b) 1, 2 and 4 (c) 2 and 3 (d) All of these 299. Human ear ossicles are (a) incus and stapes (b) stapes (c) incus, malleus and stapes (d) incus and malleus 300. In neurons, action potential is produced due to (a) Ca2+ (b) K + (c) Mn + (d) Na + 309. SA node of mammalian heart is known as (a) autoregulator (b) pacemaker (c) time controller (d) beat regulator 315. A deficiency of which one of the following minerals is most likely to lead to an immunodeficiency? (a) Calcium (b) Zinc (c) Lead (d) Copper 310. Match the following Columns.
 
-### Q4: Concept parameter 4
-What is the primary function of the cytoskeleton in a cell?
-(A) To provide structural support
-(B) To facilitate cell division
-(C) To transport molecules across the cell membrane
-(D) To regulate cell signaling
+301. Sensitive pigment layar of eye is (a) sclerotic (b) retina (c) cornea (d) None of these 316. The gestation period of cows is (a) 150 day (b) 280 day (c) 300 day (d) 365 day Column I (Glands) Column II (Body functions controlled) 302. The largest cell in the human body is (a) nerve cell (b) muscle cell (c) liver cell (d) kidney cell 317. Which of the following is an egg laying mammal? (a) Bat (b) Penguin (c) Whale (d) Spiny anteater A. Adrenal 1. Growth of bones B. Pancreas 2. Level of blood calcium C. Parathyroid 3. Salt and water balance in the body D. Pituitary 4. Level of blood sugar 303. Myopia can be corrected by (a) convex lens (b) concave lens (c) cylindrical lens (d) cornea replacement Codes A B C D B C D (a) 1 (b) 3 (c) 3 (d) 4 304. Cones are with a pigment (a) iodopsin (b) rhodopsin (c) Both (a) and (b) (d) None of these 318. In the human body, Cowper’s glands form a part of which one of the following? (a) Digestive system (b) Endocrine system (c) Reproductive system (d) Nervous system 311. Which of the following endocrine glands is shown in the below figure.
 
-Correct Answer: A
+305. Rods and cones are present in (a) iris (b) cornea (c) sclerotic (d) retina 306. Match the following Columns.
 
-Explanation: The primary function of the cytoskeleton is to provide structural support to the cell.
+Column I Column II 319. Artificial insemination involves the use of (a) natural semen and natural diluent (b) natural semen and artificial diluent (c) artificial semen and natural diluent (d) artificial semen and artificial diluent A. Rods 1. Nervous coat of eye B. Cones 2. Photoreceptor cells C. Pupil 3. Regulate amount of light entering the eye D. Retina 4. Iodopsin pigment (a) Pituitary gland (b) Thymus gland (c) Adrenal gland (d) Pineal body 320. Mother’s milk is preferred to cow’s milk because it contains (a) more fats and more lipids (b) less fats and less lipids (c) less fats and more lipids (d) more fats and less lipids Codes A B C D B C D (a) 1 (b) 1 (c) 4 (d) 2 312. Progesterone and relaxin are secreted by (a) testes (b) pituitary (c) thyroid (d) ovary 321. Implantation of blastocyst occurs on (a) 5th day (b) 4th day (c) 6th day (d) 7th day 313. Spermatogenesis in mammalian testes is controlled by (a) FSH (b) LH (c) progesterone (d) ICSH 322. The release of seminal fluid in the vagina of female is called (a) ejaculation (b) insemination (c) coitious (d) implantation 307. Due to contraction of eyeball, a long-sighted eye can see only (a) farther objects which is corrected by using convex lens (b) farther objects which is corrected by using concave lens (c) nearer objects which is corrected by using convex lens (d) nearer objects which is corrected by using concave lens 323. The ovum released from the ovary is received by (a) uterus (b) vagina (c) urethra (d) ostium 314. Which of the following statements correctly describe the properties of hormones? 1. They are steroids, proteins, peptides or amino acids derivatives.
 
-**Step-by-Step Explanation:**
+2. They are not produced by body organs and are mostly taken as supplements.
 
-1. Understand the role of the cytoskeleton in maintaining cell shape and structure.
-2. Eliminate options that are not directly related to the cytoskeleton, such as cell division and cell signaling.
-3. Recognize that transport of molecules across the cell membrane is a distinct process.
+324. Sperm entry in the ovum is assisted by (a) hyaluronidase (b) hyaluronic acid (c) fertilisin (d) antifertilisin 308. Consider the following statements.
 
-### Q5: Concept parameter 5
-What is the
+1. A person with myopia can see distant objects distinctly but cannot see nearby objects clearly.
+
+340. Match the following Columns.
+
+e 2014 (I) 325. The cavity present in the Graafian follicle is (a) amniotic cavity (b) archenteron (c) antrum (d) ostium Column I (Gland) Column II (Hormone) 326. Testosterone is secreted by (a) Leydig’s cells (b) Sertoli cells (c) corpus luteum (d) oxyntic cells 333. Which one among the following gases readily combines with the haemoglobin of the blood? e 2013 (I) (a) Methane (b) Nitrogen dioxide (c) Carbon monoxide (d) Sulphur dioxide A.
+
+Pancreas 1.
+
+Cortisol B.
+
+Pituitary 2.
+
+Vitamin-D C.
+
+Adrenal 3.
+
+Thyroid stimulating hormone D.
+
+Kidneys 4.
+
+Glucagon Codes A B C D B C D (a) 4 (b) 4 (c) 2 (d) 2 334. What would happen if human blood becomes acidic (low pH)? e 2013 (II) (a) Oxygen carrying capacity of haemoglobin is increased (b) Oxygen carrying capacity of haemoglobin is decreased (c) RBC count increases (d) RBC count decreases 327. Why are pregnant women recommended substantial intake of green leafy vegetables in their diet, especially in the 1st trimester? (a) They are a rich source of chlorophyll (b) They are a rich source of lecithin (c) They are a rich source of folic acid which is required for DNA synthesis (d) They are a rich source of essential fatty acids required for cell anabolism Previous Years’ Questions 341. Deficiency of which of the following elements is responsible for weakening of bones? e 2014 (I) 1. Calcium 2. Phosphorus 3. Nitrogen 4. Carbon Select the correct answer using the codes given below: (a) 1 and 2 (b) 1, 2 and 3 (c) Only 1 (d) Only 4 328. Which one among the following statements is correct? e 2013 (I) (a) All proteins are enzymes (b) All enzymes are proteins (c) None of the enzymes is protein (d) None of the proteins is enzyme 335. The gastrointestinal hormones namely secretin and cholecystokinin secreted by duodenal epithelium activate respectively which organs to discharge their secretions? e 2013 (II) (a) Pancreas and gall bladder (b) Gall bladder and stomach (c) Pancreas and stomach (d) Stomach and small intestine 342. Which of the following statement(s) is/are correct? 1. Amnion contains fluid.
+
+2. Ultrasound scan can detect the sex of an embryo.
+
+e 2014 (I) Select the correct answer using the codes given below: (a) Only 1 (b) Only 2 (c) Both 1 and 2 (d) Neither 1 nor 2 336. Human blood is a viscous fluid. This viscosity is due to e 2013 (II) (a) proteins in blood (b) platelets in plasma (c) sodium in serum (d) RBC and WBC in blood 329. Which one among the following statements about blood transfusion is correct? e 2013 (I) Blood group B can give blood to (a) blood group B and receive from group AB (b) blood groups B and AB and receive from group B and O (c) blood groups B and AB and receive from group A and O (d) blood group O and receive from group B 330. Which one among the following vitamins is necessary for blood clotting? e 2013 (I), 16 (I) (a) Vitamin-A (b) Vitamin-D (c) Vitamin-K (d) Vitamin-C 337. In humans, which one among the following with reference to breathing is correct? e 2013 (II) (a) During inhalation, diaphragm relaxes (b) During exhalation, thorax cavity expands (c) During inhalation, intra-pleural pressure becomes more negative (d) Unlike inhalation, normal exhalation is an active process 343. Which of the following statement(s) is/are correct regarding fats? e 2014 (I) 1. Fats are needed for the formation of cell membrane.
+
+2. Fats help the body to absorb calcium from food.
+
+3. Fats are required to repair damaged tissue.
+
+4. Body cannot release energy in fats as quickly as the energy in carbohydrates.
+
+Select the correct answer using the codes given below: (a) 1 and 4 (b) Only 1 (c) 2 and 4 (d) 3 and 4 331. The pH of human blood is normally around e 2013(I), 16 (I) (a) 4.5-5.5 (b) 5.5-6.5 (c) 7.5-8.0 (d) 8.5-9.0 338. Blood does not coagulate inside the body due to the presence of e 2013 (II) (a) haemoglobin (b) heparin (c) fibrin (d) plasma 339. A person feeds on rice and vegetable made up of potato only. He is likely to suffer from deficiency of e 2013 (II) (a) carbohydrate and vitamins (b) proteins (c) carbohydrate and proteins (d) proteins and fats 332. The crew and passengers of a flying aircraft suffer generally from chronic obstructive pulmonary disease due to the effect of e 2013 (II) (a) solar radiation (b) ozone concentration (c) nitrogen oxide (d) particulate pollutant 344. Which of the following statements are correct? 1. Coronary artery supplies blood to heart muscles.
+
+2. Pulmonary vein supplies blood to lungs.
+
+3. Hepatic artery supplies blood to kidneys.
+
+4. Renal vein supplies blood to kidneys.
+
+GENERAL SCIENCE Human Health and Diseases Select the correct answer using the codes given below: e 2014 (II) (a) 1, 2 and 3 (b) Only 1 (c) 2 and 4 (d) 1, 3 and 4 352. Cobalt is associated with e 2015 (II) (a) growth hormone (b) vitamin-B12 (c) haemoglobin (d) intestinal enzymes 360. DPT is a vaccine for (a) diarrhoea, polio and typhoid (b) diphtheria, whooping cough and tetanus (c) diarrhoea, polio and tetanus (d) diphtheria, whooping cough and typhoid 353. Glucose is a source of energy. Which one of the following types of molecule is glucose? e 2016 (I) (a) Carbohydrate (b) Protein (c) Fat (d) Nucleic acid 345. Which one among the following is the correct pathway for the elimination of urine? e 2014 (II) (a) Kidneys, ureters, bladder, urethra (b) Kidneys, urethra, bladder, ureters (c) Urethra, ureters, bladder, kidneys (d) Bladder, ureters, kidneys, urethra 361. Which of the following cannot be controlled by vaccination? (a) Smallpox (b) Diabetes (c) Polio (d) Whooping cough 354. Which one of the following vitamins has a role in blood clotting? e 2016 (I) (a) Vitamin-A (b) Vitamin-B (c) Vitamin-D (d) Vitamin-K 362. Which disease cannot be prevented by immunisation? (a) Polio (b) Diphtheria (c) Angina (d) Tuberculosis 355. Which one of the following hormones contains peptide chain? e 2016 (I) (a) Oxytocin (b) Corticotrophic (c) Insulin (d) Cortisone 363. Cholera Bacillus was discovered by (a) Louis Pasteur (b) Ronald Ross (c) Robert Koch (d) Joseph Lister 364. Match the following Columns.
+
+346. Assertion (A) During indigestion, milk of magnesia is taken to get rid of the stomach pain.
+
+Reason (R) Milk of magnesia is a base and it neutralises the excess acid in the stomach. e 2014 (II) Codes (a) Both A and R are true and R is the correct explanation of A (b) Both A and R are true, but R is not the correct explanation of A (c) A is true, but R is false (d) A is false, but R is true Column I Column II A. Ascariasis 1. Bacteria B. Giardiasis 2. Nematode C. Hepatitis 3. Protozoan D. Tetanus 4. Virus 347. In human digestive system, the process of digestion starts in e 2015 (I) (a) oesophagus (b) buccal cavity (c) duodenum (d) stomach 356. In Artificial Insemination (AI) process, which of the following is/are introduced into the uterus of the female? e 2016 (I) (a) Only egg (b) Fertilised egg (c) Only sperms (d) Egg and sperm Codes A B C D B C D (a) 2 (b) 4 (c) 2 (d) 4 348. Which one among the following structures or cells is not present in connective tissues? e 2015 (I) (a) Chondrocytes (b) Axon (c) Collagen fibre (d) Lymphocytes 357. Plants contain a variety of sterols like stigmasterol, ergosterol, sitosterol, etc. which very closely resemble cholesterol. These plant sterols are referred as e 2016 (I) (a) phytosterols (b) calciferols (c) ergocalciferols (d) lumisterols 365. A pregnant woman is advised to undergo abortion if she contracts a disease called (a) measles (b) smallpox (c) chickenpox (d) German measles 349. Which one among the following statements is not true for mammals? e 2015 (I) (a) They possess hairs on the body (b) Some of them lay eggs (c) Their heart is three-chambered (d) Some are aquatic 366. Which of the following diseases was prevalent among red Indians? (a) Fibrosis (b) AIDS (c) Syphilis (d) Gonorrhoea 367. Fever causing substance is called (a) pathogen (b) pyrogen (c) interferon (d) antigen 368. Match the following Columns.
+
+358. Which of the following pairs of vitamin and disease is/are correctly matched? e 2016 (I) 1. Vitamin-A Rickets 2. Vitamin-B1 – Beri-beri 3. Vitamin-C Scurvy Select the correct answer using the codes given below:
+
+(a) Only 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 350. Neutrophils and lymphocytes originate from e 2015 (II) (a) kidney tubule (b) spleen (c) bone marrow (d) lymph node Column I (Diseases) Column II (Causative agents) A. Syphilis 1. Vibrio B. Sore throat 2. Bacilli C. Cholera 3. Spirilla D. TB (Tuberculosis) 4. Cocci Codes A B C D B C D (a) 3 (b) 2 (c) 3 (d) 4 351. Absorption of water in the human body can be found in e 2015 (II) 1. renal tubule in kidney.
+
+2. hepatic cells in liver.
+
+3. large intestine.
+
+4. pancreatic duct.
+
+Select the correct answer using the codes given below: (a) 1, 2 and 3 (b) 1 and 3 (c) 2 and 4 (d) Only 3 359. Which one of the following is considered as ‘good cholesterol’ with reference to individuals facing the risk of cardio-vascular diseases and hypertension? e 2016 (I) (a) High Density Lipoprotein (HDL) (b) Low Density Lipoprotein (LDL) (c) Triglyceride (d) Fatty acids 369. Match the following Columns. Column I (Scientist) Column II (Work) 375. Insects that can transmit diseases to human are referred to as (a) carriers (b) reservoirs (c) vectors (d) incubators 385. Minamata disease is caused by (a) automobile exhausts containing lead (b) air with sulphur (c) industrial wastes having mercury compounds (d) water from tanneries A. FG Banting 1. Vaccination for smallpox B. J Lister 2. Germ theory C. Louis Pasteur 3. Use of carbolic acid as an antiseptic D. E Jenner 4. Discovery of insulin 376. For which one among the following diseases no vaccine is yet available? (a) Tetanus (b) Malaria (c) Measles (d) Mumps 377. Match the following Columns.
+
+386. Which of the following is a water borne disease? (a) Tuberculosis (b) Cholera (c) Influenza (d) Malaria Codes A B C D B C D (a) 4 (b) 4 (c) 3 (d) 1 Column I (Agent of transmission) Column II (Disease transmitted) 387. BCG is used against (a) tuberculosis (b) typhoid (c) hydrophobia (d) measles A. Anopheles mosquito 1.
+
+Kala-azar B. Culex mosquito 2.
+
+Dengue C. Aedes 3.
+
+Malaria D. Sandfly 4.
+
+Filaria 388. A girl ate sweets contaminated with flies, due to this she suffered from a disease diagnosed as (a) kwashiorkor (b) tuberculosis (c) diphtheria (d) cholera 370. Which of the following diseases are preventable by vaccine? 1. Tetanus 2. Polio 3. Leprosy 4. Pertussis Select the correct answer using the codes given below: (a) 1 and 3 (b) 2 and 4 (c) 1, 2 and 4 (d) All of these Codes A B C D B C D (a) 3 (b) 1 (c) 1 (d) 3 371. Which one of the following causes the chikungunya disease? (a) Bacteria (b) Helminthic worm (c) Protozoan (d) Virus 372. Match the following Columns.
+
+378. Which of the following diseases is caused due to allergic reaction? (a) Leprosy (b) Typhoid (c) Asthma (d) Tetanus 389. Which of the following statements is true with respect to leukemia? (a) Number of RBCs increases in blood (b) Number of WBCs increases in blood (c) Number of both RBCs and WBCs decreases (d) Deficiency of minerals Column I (Vaccines) Column II (Diseases) 379. Amnesia is related to (a) sleeping sickness (b) loss of sight (c) loss of hearing (d) loss of memory 390. Myocardial infarction is a serious disease of (a) heart (b) brain (c) lungs (d) kidneys A. BCG vaccine 1.
+
+Malaria B. BPL vaccine 2.
+
+Sore throat C. Chloroquine 3.
+
+Tuberculosis D. Penicillin 4.
+
+Rabies 380. Protein-calorie malnutrition causes (a) malaria (b) hepatitis (c) typhoid (d) kwashiorkor 391. Cancer located in connective tissues is called (a) carcinoma (b) sarcoma (c) leukaemia (d) metastasis Codes A B C D B C D (a) 3 (b) 3 (c) 4 (d) 4 373. Match the following Columns. Column I (Diseases) Column II (Causative agent) 381. Which of the following is not a mosquito borne disease? (a) Dengue fever (b) Malaria (c) Sleeping sickness (d) Filariasis 392. Which of the following diseases are transmitted from one person to another? 1. AIDS 2. Cirrhosis 3. Hepatitis-B 4. Syphilis Select the correct answer using the codes given below: (a) 1 and 2 (b) 1, 3 and 4 (c) 2, 3 and 4 (d) All of these A. Typhoid 1.
+
+Bacteria B. Malaria 2.
+
+Virus C. AIDS 3.
+
+Worms D. Ringworm 4.
+
+Protozoa 5.
+
+Fungi 382. Which of the following is the science dealing with tumour? (a) Carcinology (b) Serology (c) Oncology (d) Chronology 393. Mosquito can be a vector for following diseases except (a) yellow fever (b) dengue fever (c) filaria (d) kala-azar Codes B C D B C D (a) 2 (b) 1 (c) 3 (d) 1 383. The persons working in textile factories such as carpet weavers are exposed to which of the following occupational diseases? (a) Asbestosis (b) Asthma and tuberculosis (c) Silicosis (d) Siderosis 394. Which one among the following elements/ions is essential in small quantities for development of healthy teeth but causes mottling of the teeth if consumed in higher quantities? (a) Iron (b) Chloride (c) Fluoride (d) Potassium 374. To suspect HIV/AIDS in a young individual, which one among the following symptoms is mostly considered? (a) Long standing jaundice and chronic liver disease (b) Severe anaemia (c) Chronic diarrhoea (d) Severe persistent headache 384. HIV mainly infects (a) α-globulin (b) cytotoxic T-lymphocytes (c) helper lymphocytes (d) killer lymphocytes GENERAL SCIENCE Previous Years’ Questions Which of the microorganism(s) given above is/are free-living nitrogen-fixing bacteria? (a) Only 1 (b) 1, 2 and 3 (c) Only 3 (d) 2, 3 and 4 395. Cancer is more common in older people because e 2013 (a) their immune systems have degenerated (b) the supply of certain hormones declines with age (c) their bodies are unable to adjust to the changing environment (d) they have accumulated more mutations 402. Most antibiotics target bacterial parasites interfering with various factors of growth or metabolism such as e 2016 (I) 1. synthesis of cell wall.
+
+2. bacterial protein synthesis.
+
+3. synthesis of nuclear membrane.
+
+4. mitochondria function.
+
+Select the correct answer using the codes given below: (a) 1, 2 and 3 (b) 1 and 4 (c) 2 and 3 (d) 1 and 2 408. Consider the following plants.
+
+1. Lentil 2. Cow pea 3. Sunnhemp 4. Wheat Which of the plants given above is/are used as ‘Green manure in India’? (a) Only 3 (b) 1, 2 and 3 (c) 2 and 3 (d) All of these 409. What are the components of the fungicide ‘Bordeaux mixture’? (a) Magnesium sulphate and sodium hydroxide (b) Copper sulphate and magnesium hydroxide (c) Copper sulphate and calcium hydroxide (d) Copper sulphate and sodium hydroxide 403. Dengue virus is known to cause low platelet count in blood of patient by e 2016 (I) 1. interfering in the process of platelet production in bone marrow.
+
+2. infecting endothelial cells.
+
+3. binding with platelets.
+
+4. accumulating platelets in intestine.
+
+Select the correct answer using the codes given below: (a) 1 and 2 (b) 1 and 3 (c) 3 and 4 (d) 1, 2 and 3 410. In the rice field, which of the following is used as biofertiliser? (a) Rhizobium (b) Pseudomonas (c) Nitrobacter (d) Azolla 396. Consider the following statements regarding antibiotics. e 2013 (I) 1. They are used to destroy disease-causing bacteria.
+
+2. They can be applied to the skin, swallowed or injected to fight microorganisms inside the body.
+
+3. They are effective against disease-causing viruses.
+
+4. The first antibiotic to be discovered was tetracycline.
+
+Which of the statement(s) given above is/are correct? (a) 1 and 2 (b) 1, 2 and 4 (c) Only 1 (d) 2, 3 and 4 411. From which plant listed below maximum amount of ethanol for biofuel is obtained? (a) Wood (b) Tapioca (c) Maize (d) Sugarcane 397. Which one of the following diseases in humans can spread through air? e 2015 (I) (a) Dengue (b) Tuberculosis (c) HIV-AIDS (d) Goitre 404. If excess fertiliser is applied to a plant without water, the plant will (a) be stunted in growth (b) develop modifications (c) die due to plasmolysis (d) remain unaffected 398. The word ‘vaccination’ has been derived from a Latin word which relates to e 2015 (I) (a) pig (b) horse (c) cow (d) dog 405. The free-living aerobic soil bacterium which fixes nitrogen (a) Azotobacter (b) Nostoc (c) Clostridium (d) Frankia 406. Match the following Columns.
+
+412. Plants die when over fertilised, because the fertiliser (a) damage the wall of delicate root hairs (b) blocks absorption of nitrogenous ions (c) causes dehydration of plant by exosmosis (d) increases the soil acidity Column I Column II 399. Measles is a disease caused by e 2016 (a) bacteria (b) virus (c) protozoan (d) worm A. Sugarcane 1.
+
+Quinine B. Cinchona 2.
+
+Molasses C. Hevea 3.
+
+Iodine D. Sea kelp 4.
+
+Rubber 413. Which one among the following group of items contains only biodegradable items? (a) Wood, grass, plastic (b) Wood, grass, leather (c) Fruit peels, lime juice, China clay cup (d) Lime juice, grass, polystyrene cup Codes A B C D B C D (a) 2 (b) 4 (c) 1 (d) 2 414. Endosulfan, which has been in news these days, is a/an (a) pesticide (b) fertiliser (c) sulpha drug (d) antibiotic 400. The mandate of the scheme entitled ‘Directly Observed Treatment, Short-Course (DOTS)’ launched by WHO is to ensure that (a) doctors treat patients with medicine for a short duration (b) doctors do not start treatment without a trial (c) patients complete their course of drug (d) patients voluntarily take vaccines 407. Consider the following microorganisms.
+
+1. Azotobacter 2. Clostridium 3. Bacillus polymyxa 4. VAM (Vascular Arbuscular Mycorrhiza) 401. Penicillin inhibits synthesis of bacterial e 2016 (I) (a) cell wall (b) protein (c) RNA (d) DNA 415. Which one among the following industries produces the most non-biodegradable wastes? (a) Thermal power plants (b) Food processing units (c) Textile mills (d) Paper mills (a) Vitamin-A and nicotinic acid (b) β-carotene and folic acid (c) β-carotene and iron (d) Vitamin-A and niacin 423. Restriction enzymes are those enzymes that can (a) cut RNA (b) cut single-stranded DNA (c) cut double-stranded DNA (d) hydrolyse proteins 424. Which one among the following is the ‘chemical knives (scissors)’ used in genetic engineering? (a) Polymerase (b) Ligases (c) Endonucleases (d) Plasmid 425. Match the following Columns.
+
+431. Consider the following statements 1. Dolly, the cloned sheep.
+
+2. George and Charlie, the cloned calves.
+
+3. Headless frog.
+
+Which of the statement(s) given above is/are incorrect? (a) Only 1 (b) 1 and 2 (c) Only 3 (d) All of these 432. Match the following Columns. Column I (Techniques) Column II (Compounds) 416. Which among the following statements about biofertilisers are correct? 1. Azotobacter is one of the nitrogen-fixing bacteria used as a biofertiliser.
+
+2. They have to be applied to the leaves of the plant only.
+
+3. They alter the chemical composition of the soil.
+
+4. They can be used along with organic fertilisers.
+
+Select the correct answer using the codes given below. (a) 1 and 4 (b) 1, 2 and 4 (c) 2 and 3 (d) All of these Column I Column II A. Northern blotting 1. RNAs B. Southern blotting 2. Proteins C. Western blotting 3. Lipids D. Far-Eastern blotting 4. DNAs A.
+
+Maize 1. Arjun B.
+
+Paddy 2. Jaya C.
+
+Wheat 3. Ranjit 417. Which one of the following is not biodegradable? (a) Woollen mat (b) Silver foil (c) Leather bag (d) Jute basket Codes A B C D B C D (a) 2 (b) 2 (c) 1 (d) 1 Codes A B C B C (a) 1 (b) 2 (c) 3 (d) 3 426. Match the following Columns.
+
+418. Which one of the following plants is used for green manuring in India? (a) Wheat (b) Sunnhemp (c) Cotton (d) Rice Column I (Scientists) Column II (Discoveries) 433. Which one of the following is responsible for converting milk into curd? (a) Fungi (b) Bacteria (c) Virus (d) None of these 419. Which among the following are the most important raw materials for manufacturing of soap? (a) Fats and caustic alkali (b) Fats and potash (c) Fats and acid (d) Vegetable oil and potash A. Banting and Best 1. Hybridoma technology B. Milstein Kohler 2. Isolation of insulin C. Steward Miller 3. In vitro fertilisation D. PC Steptoe 4. Coconut milk in tissue culture 434. Which of the following is used in the production of yoghurt? (a) Streptococcus thermophilous (b) Lactobacillus bulgaris (c) Streptococcus lactis (d) Both (a) and (b) Codes A B C D B C D (a) 2 (b) 2 (c) 4 (d) 4 435. A milkman puts banana leaf in milk jar, because banana leaf (a) gives a fresh flavour to milk (b) makes the milk acidic and resistant to yeast (c) makes the milk basic and resistant to yeast (d) increases the whiteness of milk 427. By using which one of the following techniques, is DNA fingerprinting done? (a) ELISA (b) RIA (c) Northern blotting (d) Southern blotting 436. Match the following Columns.
+
+420. Consider the following statements about Vechur cattle breed.
+
+1. Vechur is the world’s smallest cow.
+
+2. It is indigenous breed found in Kerala.
+
+3. Its milk protein has medicinal value.
+
+4. Commonly used in farming.
+
+Which of the statements given above are correct? (a) 3 and 4 (b) 1, 2 and 3 (c) 2 and 3 (d) All of these Column I Column II A. Wine 1. Barley B. Beer 2. Sugarcane juice C. Whisky 3. Grapes D. Rum 4. Molasses 428. Which of the following techniques can be used to establish the paternity of a child? (a) Protein analysis (b) Chromosome counting (c) Quantitative analysis of DNA (d) DNA fingerprinting Codes A B C D B C D (a) 2 (b) 3 (c) 3 (d) 2 421. Cattle are capable of digesting cellulose present in the grass and/or fodder that they eat. This ability is attributed to the (a) presence of cellulose degrading bacteria in the rumen (b) production of cellulose by the cattle rumen (c) acids present in the rumen (d) prolonged retention of cellulose in the rumen 429. Which among the following is the first hormone produced by genetic engineering? (a) Insulin (b) Corticol (c) Thyroxine (d) Testosterone 437. Which one of the following is not a constituent of biogas? (a) Methane (b) Carbon dioxide (c) Hydrogen (d) Nitrogen dioxide 422. ELISA test is prescribed for (a) cancer (b) typhoid (c) polio (d) AIDS 430. The genetically engineered ‘Golden rice’ is rich in which of the following? GENERAL SCIENCE 447. Who among the following is considered as the ‘father of genetic engineering’? e 2016 (I) (a) Philip Drinker (b) Paul Berg (c) Thomas Addison (d) Alpheus S Packard Jr 438. Which of the following gases is released from rice fields in the most prominent quantities? (a) Carbon dioxide (b) Methane (c) Carbon monoxide (d) Sulphur dioxide 2. Plantation makes the soil more fertile.
+
+3. Wood from Eucalyptus tree is easily converted into pulp for paper industry.
+
+Select the correct answer using the codes given below: (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) All of these Previous Years’ Questions 448. Genetic screening is e 2016 (I) (a) analysis of DNA to check the presence of a particular gene in a person (b) analysis of gene in a population (c) pedigree analysis (d) screening of infertility in parents 442. The macronutrients provided by inorganic fertilisers are e 2012 (II) (a) carbon, iron and boron (b) magnesium, manganese and sulphur (c) magnesium, zinc and iron (d) Nitrogen phosphorus and potassium 439. Consider the following statements about bioremediation.
+
+1. It may be defined as any process that uses microorganisms or their enzymes to return the environment altered by contaminants to its original condition.
+
+2. Bioremediation may be employed in order to attack specific contaminants, such as chlorinated pesticides that are degraded by bacteria.
+
+Which of the statement(s) given above is/are correct? (a) Only 1 (b) Only 2 (c) 1 and 2 (d) Neither 1 nor 2 449. Genetically Modified (GM) crops contain modified genetic material due to the e 2016 (I) 1. introduction of new DNA.
+
+2. removal of existing DNA.
+
+3. introduction of RNA.
+
+4. introduction of new traits.
+
+Select the correct answer using the codes given below: (a) 1 and 2 (b) 1, 2 and 3 (c) 3 and 4 (d) 1, 2 and 4 440. Match the following Columns. Column I (Microorganisms) Column II (Uses) 443. Which one among the following groups of items contains only biodegradable items? e 2013 (II) (a) Paper, grass, glass (b) Wood, flower, iron-scrap (c) Sewage, plastic, leather (d) Cowdung, paddy-husk, vegetable wastes A. Aeromonas hydrophila 1. Cloning vector 450. Methyl isocyanate gas, which was involved in the disaster in Bhopal in December, 1984, was used in the Union Carbide factory for production of e 2016 (I) (a) dyes (b) detergens (c) explosives (d) pesticides 444. The main constituent of gobar gas or biogas is e 2014 (I) (a) ethane (b) methane (c) propane (d) acetylene B. Methanobacteria 2. Microbial fuel cells C. Agrobacterium tumefaciens 3. Yogurt preparation D. Lactobacillus bulgaricus 4. Biogas synthesis Codes A B C D B C D (a) 2 (b) 2 (c) 4 (d) 4 445. Which one of the following types of pesticides is convenient to control stored grain pests? (a) Systemic pesticides e 2014 (II) (b) Fumigants (c) Contact poisons (d) Stomach poisons 451. The germplasm is required for the propagation of plants and animals. Germplasm is the e 2016 (I) 1. genetic resources.
+
+2. seeds or tissues for breeding.
+
+3. egg and sperm repository.
+
+4. a germ cell’s determining zone.
+
+Select the correct answer using the codes given below. (a) Only 1 (b) 1, 2 and 3 (c) 2 and 3 (d) 2 and 4 446. Which one among the following cattle breed produces highest amount of milk? e 2014 (II) (a) Brown swiss (b) Holstein (c) Dutch belted (d) Blaarkop 441. Which among the following are the major reasons behind preferring Eucalyptus tree in the planned forestation process? 1. Plantation grows very fast.
+
+ANSWERS
+
+
+</div>

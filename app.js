@@ -6557,6 +6557,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // If clicking on the tooltip itself, do nothing here.
     if (e.target && e.target.id === 'tell-me-more-tooltip') return;
     
+    // Disable in exam modes
+    const mockExam = document.getElementById('mock-exam-section');
+    const cbtExam = document.getElementById('cbt-exam-section');
+    if ((mockExam && !mockExam.classList.contains('hidden')) || 
+        (cbtExam && !cbtExam.classList.contains('hidden'))) {
+        tooltip.style.display = 'none';
+        selectedText = "";
+        return;
+    }
+    
     setTimeout(() => {
       const selection = window.getSelection();
       const text = selection.toString().trim();

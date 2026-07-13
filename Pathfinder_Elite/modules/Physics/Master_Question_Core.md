@@ -1,374 +1,334 @@
-# Master Question Core
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">MASTER QUESTION CORE</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-## Pages 1-2: The Base Framework (Pathfinder)
+PRACTICE EXERCISE Measurement, Motion, Work, Energy and Power 13. External forces acting on an object (a) are always balanced (b) are always unbalanced (c) may or may not be balanced (d) None of the above (a) The object is moving with uniform speed (b) The object is in non-uniform accelerated (c) The object is at rest (d) The object is in non-uniform decelerated.
 
-**Core Theory & Definitions**
+1. A train travels a distance with a speed of 30 km/h and returns with a speed of 50 km/h. The average speed of the train is (a) 36 km/h (b) 37.5 km/h (c) 38 km/h (d) 40 km/h 8. Which of the following figure represents uniform motion of a moving object correctly? (b) (a) 14. When horse starts running all of a sudden, the rider on the horse falls back because (a) he is afraid (b) he is taken a back (c) due to inertia of motion, the lower part of his body comes in motion (d) due to inertia of rest, the upper part of his body remains at rest Distance Distance 2. Average velocity of an object is equal to the mean of its initial and final velocities, if the acceleration is (a) uniform (b) variable (c) Both a and b (d) None of these Time Time 3. A water tank filled upto 2 3 of its (d) Distance Distance Time Time height is moving with a uniform speed. On sudden application of the brake, the water in the tank would (a) move backward (b) move forward (c) be unaffected (d) rise upwards 15. A scooter driven over an oily road generally slips because on the oily road (a) inertia of the scooter tyres increases (b) inertia of the scooter tyres decreases (c) friction between tyres and road increases (d) friction between tyres and road decreases 9. A body falls from rest. The velocity acquired by falling a distance 2h is (a) 2 gh (b) gh (c) 2gh (d) None of these 4. When the distance, an object travels is directly proportional to the length of time, it is said to travel with (a) zero velocity (b) uniform velocity (c) constant velocity (d) constant acceleration 10. The velocity-time graph for an object is shown. Which one of the following statements holds true for this object? 16. Newton’s second law of motion connects (a) momentum and acceleration (b) change of momentum and velocity (c) rate of change of momentum and external force (d) rate of change of force and momentum Velocity Time 5. If the displacement of an object is proportional to square of time, then the object moves with (a) uniform velocity (b) uniform acceleration (c) increasing acceleration (d) decreasing acceleration 17. When a ball drops onto the floor it bounces. Why does it bounce? (a) Newton’s third law implies that for every action (drop) there is a reaction (bounce) (b) The floor exerts a force on the ball during the impact (c) The floor is perfectly rigid (d) The floor heats up on impact (a) The object has uniform velocity (b) The object has uniform acceleration (c) The object has non-uniform acceleration (d) None of the above 6. A passenger in a moving train tosses a five rupee coin. If the coin falls behind him, the train must be moving with a uniform (a) acceleration (b) deceleration (c) speed (d) velocity 18. If an object having mass of 1 kg is subjected to a force of 1 N, it moves with (a) a speed of 1 m/s (b) a speed of 1 km/s (c) an acceleration of 10 m/s2 (d) an acceleration of 1 m/s2 7. The velocity-time graph for an object is shown below. Which one of the following statements helds true for this object? 11. A boy throws four stones of same shape, size and weight with equal speed at different initial angles with the horizontal line. If the angles are 15°, 30°, 45° and 60°, at which angle the stone will cover the maximum distance horizontally? (a) 15° (b) 30° (c) 45° (d) 60° Velocity 12. Which one of the following is a vector quantity? (a) Force (b) Area (c) Volume (d) Density 19. Momentum has the same unit as that of (a) couple (b) torque (c) impulse (d) moment of momentum Time GENERAL SCIENCE 33. Match the following columns.
+
+Column I (Situation) Column II (Centripetal force) 20. Rocket works on the principle of conservation of (a) mass (b) energy (c) momentum (d) None of these 1. Tension in the string A. Revolution of the earth around the sun 27. Frictional force 1. is self-adjusting force.
+
+2. is a non-conservative force.
+
+3. is a necessary evil.
+
+Codes (a) 1 and 2 (b) 1 and 3 (c) Only 1 (d) All of these 21. Two balls of different masses have the same kinetic energy. The ball having greater momentum will be (a) lighter one (b) heavier one (c) both having equal masses (d) cannot say 28. Consider the following statements 1. Friction force is conservative force.
+
+2. Magnetic force and electrostatic force are non-conservative force.
+
+B. Vehicle taking a turn on level road 2. Friction force exerted by the road on the tyres C. A vechicle on a speed braker 3. Weight of the body D. A particle tied to a string and whirled in a horizonal circle 4. Gravitation force exerted by the sun Which of the following sentences is/are correct? (a) Only 1 (b) Only 2 (c) 1 and 2 (d) None of these Codes A B C D B C D (a) 4 (b) 2 (c) 4 (d) 1 22. A goalkeeper in a game of football pulls his hands backwards after holding the ball shot at the goal. This enables the goalkeeper to (a) exert larger force on the ball (b) reduce the force exerted by the ball on hands (c) increase the rate of change of momentum (d) decrease the rate of change of momentum 34. When work is done on the body (a) it gains energy (b) it loses energy (c) its energy remains constant (d) None of the above 29. The chance of a vehicle to overturn while negotiating a circular path depends on (a) speed of the vehicle only (b) radius of the circular path only (c) speed and height of the vehicle and radius of the circular path (d) height of the vehicle only 23. A cricket player moves his hands along the direction of the moving ball while catching it in order to (a) kill the googly of the ball (b) conserve energy (c) conserve mass (d) reduce the force of impulse 30. Fat can be separated from milk in a cream separation because of (a) cohesive force (b) gravitational force (c) centrifugal force (d) centripetal force 24. Consider the following statements 1. The impulse given to a body is equal to the change in the momentum of the body.
+
+2. The unit of the impulse is the same as that of the momentum.
+
+3. The product of the force and velocity is called the impulse.
+
+4. Impulse is a vector quantity.
+
+35. Statement I When the force retards the motion of a body, the work done is zero.
+
+Statement II Work done depends on angle between force and displacement. Codes (a) Both the statements are correct and statement II is the correct explanation of statement I (b) Both the statements are correct, but statement II is not the correct explanation of statement I (c) Statement I is correct, but statement II is incorrect (d) Statement I is incorrect, but statement II is correct 31. Consider the following statements 1. If a body is rotating in a circular path, then after one rotation its distance will be zero.
+
+2. distance and displacement are equal in straight line.
+
+3. The speedometer of the car shows its instantaneous speed.
+
+Which of the following statements is/are correct? (a) 1, 2 and 4 (b) Only 4 (c) Only 3 (d) 1, 2 and 3 Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) 2 and 3 (d) 1 and 3 36. An object of mass 2 kg is lifted vertically through a distance of 1.5 m. The work done in process is (a) 29.4 J (b) 19.4 J (c) 17.4 J (d) 20.4 J 32. Match the following columns. Column I Column II 37. The work done on an object does not depends upon the (a) displacement (b) force applied (c) final velocity (d) initial velocity A. We hit a carpet with a stick to remove the dust 1. Law of motion II B. China wires are wrapped in straw or paper 2. Law of motion I 25. It is easier to roll a barrel along the road than to pull it because (a) rolling involves only one point of contact between the barrel and the earth (b) rolling friction is considerably less than the sliding friction (c) the full weight of the barrel does not become effective while rolling (d) None of the above C. A jet plane moves 3. Law of motion III D. Bogies of the train are provided with buffers 4. Impulse 38. Consider the following statements 1. When a body falls freely under gravity the work done by gravity is positive.
+
+2. If a force of 1 dyne produces a displacement of 1 cm in the direction of the force, the work done is called 1 erg.
+
+3. Work is scalar quantity.
+
+4. Work done is always positive.
+
+Codes A B C D B C D (a) 3 (b) 2 (c) 1 (d) 3 26. It is difficult to walk on ice than on road because (a) ice is harder than road (b) road is harder than ice (c) ice does not offer any reaction, when we push it, with our foot (d) ice has a lesser friction than road Previous Years’ Questions Which of the following statements is/are correct? (a) 1, 2 and 4 (b) 2 and 3 (c) Only 4 (d) 1, 2 and 3 47. Statement I Pulling a lawn roller is easier than pushing it. Statement II Pushing increases the apparent weight and hence the force of friction. e 2012 II 39. If the velocity of a particle is reduced to half of its initial value, then the kinetic energy of the particle will (a) get doubled (b) become four times (c) reduce to half of its original value (d) reduce to one-fourth of its original value 40. A horse and a dog are running with the same speed. Then, the ratio of their kinetic energies, if the weight of the horse is ten times that of dog, is (a) 10 : 1 (b) 100 : 1 (c) 1 : 9 (d) 9.8 : 98 41. If acceleration due to gravity is 10 m/s2, then the potential energy of a body of mass 1 kg kept at a height of 5 m, is (a) 50 J (b) 100 J (c) 500 J (d) 50 KJ (a) Both the statements are correct and statement II is the correct explanation of statement I (b) Both the statements are correct, but statement II is not the correct explanation of statement I (c) Statement I is correct, but statement II is incorrect (d) Statement I is incorrect, but statement II is correct 48. A bus travels at a speed of 50 km/h to go from its origin of its destination at a distance of 300 km and travels at a speed of 60 km/h to return to the origin. What is the average speed of the bus? e 2012 II (a) 54.55 km/h (b) 55 km/h (c) 55.55 km/h (d) 54 km/h 42. When a body falls freely (a) its PE is converted into KE (b) its KE is converted into PE (c) its mechanical energy is converted into heat energy (d) None of the above 49. Magnetic, electrostatic and gravitational forces came under the category of e 2013 II (a) non-contact forces (b) contact forces (c) frictional forces (d) non-frictional forces 50. You are asked to jog in a circular track of radius 35 m. Right one complete round on the circular track, your displacement and distance covered by you respectively e 2014 I (a) zero and 220 m (b) 220 m and zero (c) zero and 110 m (d) 110 m and 220 m 43. Consider the following statements 1. When a body falls its potential energy decrease but at the same time kinetic energy increases by an equal amount.
+
+2. The total amount of energy in the universe remains constant.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) Only 1 (c) Only 2 (d) None of these 44. If acceleration due to gravity is 9.8 m /s2. A bag of wheat weighs, 200 kg. The height to which it should be raised, so that its potential energy may be 9800 J, is (a) 5 m (b) 4 m (c) 3 m (d) 10 m 51. In cricket match, while catching a fast moving ball, a fielder in the ground gradually pulls his hands backwards with the moving ball to reduce the velocity to zero. The act represents e 2014 I (a) Newton’s first law of motion (b) Newton’s second law of motion (c) Newton’s third law of motion (d) Law of conservation of energy 52. The distance-time graph for an object is shown below. Which one of the following statements holds true for this object? e 2014 II Distance 45. Two bodies of equal mass move with the velocity of 2v and 3v, respectively. Then, the ratio of their kinetic energies is (a) 4 9 (b) 2 (c) 1 2 (d) 8 11 46. Power of the moving body is stored in the form of (a) work and time (b) force and distance (c) force and velocity (d) distance and acceleration (a) The object is moving with uniform speed (b) The object is at rest (c) The object is having non-linear motion (d) The object is moving with non-uniform speed 53. An electron and a proton are circulating with same speed in circular paths of equal radius. Which one among the following will happen, if the mass of a proton is about 2,000 times that of an electron? e 2015 I (a) The centripetal force required by the electron is about 2,000 times more than that required by the proton (b) The centripetal force required by the proton is about 2,000 times more than that required by the electron (c) No centripetal force is required for any charged particle (d) Equal centripetal force acts on both the particles as they rotate in the same circular path 54. An object is raised to a height of 3 m from the ground. It is then allowed to fall on to a table 1 m high from ground level. In this context, which one among the following statements is correct? e 2015 I (a) Its potential energy decreases by two-thirds its original value of total energy (b) Its potential energy decreases by one-third its original value of total energy (c) Its kinetic energy increases by two-third, while potential energy increases by one-third (d) Its kinetic energy increases by one-third, while potential energy decreases by one-third 55. Statement I When a gun is fired it recoils i.e. it pushes back, with much less velocity than the velocity of the bullet. Statement II Velocity of the recoiling gun is less because the gun is much heavier than the bullet.
+
+e 2015 I (a) Both the statements are correct and statement II is the correct explanation of statement I (b) Both the statements are correct, but statement II is not the correct explanation of statement I (c) Statement I is correct but statement II is incorrect (d) Statement I is incorrect but statement II is correct Time GENERAL SCIENCE 69. A sphere of mass 40 kg is attracted by a second sphere of mass 60 kg with a force equal to 4 10 5 N. If G is 6 10 11 N-m2/ k2, what is the distance between them? (a) 7 cm (b) 6 cm (c) 10 cm (d) 12 cm 56. A body is falling freely under the action of gravity alone in vacuum. Which one of the following remains constant during the fall? (a) Potential energy e 2015 II (b) Kinetic energy (c) Total linear momentum (d) Total mechanical energy 57. Newton’s laws of motion do not hold good for objects e 2015 II (a) at rest (b) moving slowly (c) moving with high velocity (d) moving with velocity comparable to velocity of light 58. A brick is thrown vertically from an aircraft flying 2 km above the Earth. The brick will fall with a (a) constant speed e 2015 II (b) constant velocity (c) constant acceleration (d) constant speed for sometime, then with constant acceleration as it nears the Earth 70. If suddenly the gravitational force of attraction between the earth and a satellite revolving around it becomes zero, then the satellite will (a) continue to move in this orbit with same velocity (b) move tangentially to the original orbit in the same velocity (c) became stationary in its orbit (d) move towards the earth 71. The force of gravitation between two bodies does not depend on (a) their separation (b) the product of their masses (c) the sum of their masses (d) the gravitational constant 72. If the distance between two objects is doubled, the force of attraction between them will (a) become 1 times (b) become 2 times 59. The rate of change of momentum of a body is equal to the resultant e 2016 I (a) energy (b) power (c) force (d) impulse (c) become 1 times (d) remains same 60. The SI unit of mechanical energy is e 2016 I (a) Joule (b) Watt (c) Newton-second (d) Joule-second Rotational Motion and Gravitation 73. Consider the following statements 1. Gravitational force is always attractive in nature.
+
+2. Gravitational force is a central force.
+
+3. Tides are formed in oceans due to gravitational attraction between moon and ocean water.
+
+2. Torque is a vector quantity.
+
+3. The rate of change of angular acceleration is equal to the torque.
+
+4. The turning effect of a body is known as torque.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) Only 4 (c) 3 and 4 (d) 1, 2 and 4 64. Consider the following quantities. I. Angular momentum II. Kinetic energy Which of the quantities given above will remain constant for a satellite in orbit? (a) Only I (b) Only II (c) Both I and II (d) Neither I nor II 65. A boy suddenly comes and sits on a circular rotating table. What will remain conserved? (a) Angular momentum (b) Potential energy (c) Linear momentum (d) Kinetic energy 66. A man is sitting on a revolving stool with his arm outstretched. When he suddenly pulls his arms inside, then (a) his angular velocity decreases (b) his moment of inertia decreases (c) his angular velocity remains constant (d) his angular momentum increases 67. The cat can survive fall from a height much more than human or any other animal. It is because the cat (a) can immediately adjust itself to land on all four paws and bend the legs to absorb the impact of falling (b) has elastic bones (c) has thick and elastic skin (d) also gets injury equally with other animals, but has tremendous endurance, resistance and speedy recovery 61. The centre of mass of a system (a) is always at its geometric centre (b) is always anywhere inside it (c) is always outside it (d) may be inside or outside it 62. Assertion (A) To unscrew a rusted nut, we need a wrench with longer arm.
+
+Reason (R) Wrench with longer arm reduces the torque of the arm. (a) Both A and R are correct and R is the correct explanation of the A (b) Both A and R are correct but R is not the correct explanation of the A (c) A is correct but R is incorrect (d) A is incorrect but R is correct 68. An athlete diving off high springboard can perform a variety of exercise in tube air before entering the water body, which one of the following parameters will remain constant during the fall? (a) The athlete’s linear momentum (b) The athlete’s angular momentum (c) The athlete’s kinetic engine (d) The athlete’s moment of inertia Which of the following statements is/are correct? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) All of these 74. The acceleration due to gravity (a) has the same value everywhere in space (b) has the same value everywhere on the earth (c) varies with the latitude on the earth (d) is greater on the moon due to its smaller diameter 75. Two objects of different masses falling freely near the surface of the moon would (a) have same velocities at any instant (b) have different accelerations (c) experience forces of same magnitude (d) undergo a change in their media 63. Consider the following statements 1. Torque is equal to the product of moment of inertia and angular acceleration. (c) its period of revolution is less than the period of rotation of the earth on its axis (d) its mass is less than the mass of the earth 82. A line drawn from the sun to a planet, moving around it, sweeps over a fixed area in a given interval of time. This is according to (a) Kepler’s law (b) Ohm’s law (c) Lenz’s law (d) Newton’s law 76. An apple falls from a tree because of gravitational attraction between the earth and apple. If F1 is the magnitude of force exerted by the earth on the apple and F2 is the magnitude of force exerted by apple on the earth, then (a) F1 is very much greater than F2 (b) F2 is very much greater than F1 (c) F1 is only a little greater than F2 (d) F1 and F2 are equal 88. A missile is launched with a velocity less than the escape velocity. The sum of its kinetic and potential energy is (a) positive (b) negative (c) zero (d) may be positive or negative depending upon its initial velocity 89. The escape velocity of a projectile from the surface of the earth is approximately (a) 11.3 km/s (b) 11.2 km/s (c) 11.5 km/s (d) 11.4 km/s 77. When an object is thrown up, the force of gravity (a) is opposite to the direction of motion (b) is in the same direction as the direction of motion (c) decreases as it rises up (d) increases as it rises up 90. The velocity with which a projectile must be fired so that it escapes the earth’s gravitation does not depend on (a) mass of the earth (b) mass of the projectile (c) radius of the projectile’s orbit (d) gravitational constant 83. The earth revolves around the sun in an elliptical orbit, its speed (a) is greatest when it is farthest from the sun (b) is greatest when it is closest of the sun (c) remains the same at all points on the orbit (d) goes on decreasing continuously 84. The square of time period of revolution of a planet round the sun is (a) directly proportional to its average distance from the sun (b) directly proportional to the square of its average distance from the sun (c) directly proportional to the cube of its average distance from the sun (d) inversely proportional to its average distance from the sun 78. Assertion (A) Moon’s gravity is equivalent to one-eighth of the earth’s gravity.
+
+Reason (R) Due to less gravity, moon is unable to retain its atmosphere. (a) Both A and R are correct and R is the correct explanation of A (b) Both A and R are correct, but R is not the correct explanation of A (c) A is correct, but R is incorrect (d) A is incorrect, but R is correct 91. The escape velocity of a body on the surface of the earth is 11.2 km/s. If the earth’s mass increases to twice its present value and the radius of the earth become half the escape velocity would become (a) 5.6 km/s (b) 11.2 km/s (remain unchanged) (c) 22.4 km/s (d) 44.8 km/s 79. A body has a mass of 6 kg on the earth, when measured on the moon, its mass would be (a) nearly 1 kg (b) less than 1 kg (c) less than 6 kg (d) 6 kg 80. Match the following columns. Column I Column II 85. Consider the following statements 1. Time period of geo-stationary satellite is 24 h.
+
+2. Geo- stationary satellite revolves in equatorial plane in the direction of the earth’s rotation i.e. from West to East 3. Geo-stationary satellite revolves around the earth at 800 km.
+
+4. INSAT 2B is a polar satellite.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) 2 and 3 (c) 3 and 4 (d) 2, 3 and 4 92. The escape velocity at the moon 1. is 2.38 km/s 2. is less than the average velocity of the gas molecules at the temperature of the moon Codes (a) Only 1 (b) Only 2 (c) 1 and 2 (d) None of the above A.
+
+g is maximum 1. At the moon B.
+
+g is minimum 2. At pole C. g is zero 3. At the equator D. g is 1/6 of original value 4. At centre of the earth 93. Match the following columns. Column I (Quantity) Column II (Definition) Codes A B C D B C D (a) 1 (b) 2 (c) 4 (d) 4 86. Two satellites are revolving in the same circular orbit, their 1. masses are same 2. velocities are same Codes (a) 1 and 2 (b) Only 2 (c) Only 1 (d) None of the above A. Mass 1. Attractive force only B. Gravitational force 2. The attractive force exerted by the earth C. Escape velocity 3. It is a quantity of matter D. Weight 4. Body must be projected up Codes A B C D B C D (a) 2 (b) 3 (c) 1 (d) 2 87. A communication relay satellite is able to telecast programmes continuously from one part of the world to another, because (a) its period of revolution is greater than the period of rotation of the earth on its axis (b) its period of revolution is equal to the period of rotation of the earth on its axis 81. Consider the following statements 1. Mass of a body is not constant it changes from place to place.
+
+2. Mass is measured by an ordinary equal arm balance.
+
+3. At the equator, the mass of a body is maximum.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) Only 2 (c) 1 and 3 (d) All of these GENERAL SCIENCE Properties of Matter 100. What is the value of stress in a wire of steel having radius of 2 mm if 10 KN of force is applied on it? (a) 7 96 N/m2 94. Satellite having the same orbital period as the period of rotation of the earth about its own axis is known as (a) polar satellite (b) stationary satellite (c) geostationary satellite (d) INSAT (b) 8 00 N/m2 (c) 10 N/m2 (d) 10 N/m2 106. Consider the following statements 1. Pressure is measured by barometer.
+
+2. Atmospheric pressure is measured by manometer.
+
+3. Atmospheric pressure decrease with altitude.
+
+4. Atmospheric pressure is 700 torr.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) 2 and 3 (c) Only 3 (d) 1 and 4 101. Why the spring is made up of steel in comparison of copper? (a) Copper is more costly than steel (b) Copper is more elastic than steel (c) Steel is more elastic than copper (d) None of the above 102. Match the following columns.
+
+107. The relative density of silver is 10.8. If the density of water be . × kg/m3 the density of silver will be (a) 10 8 kg/m3 (b) 9 kg/m3 (c) 8 kg/m3 (d) 5 kg/m3 Column I (Property) Column II (Example) 95. A typical black hole is always specified by (a) a (curvature) singularity (b) a horizon (c) either a (curvature) singularity or a horizon (d) a charge 96. The motion of the wheel of a cycle is (a) rectilinear (b) translatory and rotatory (c) rotatory (d) translatory Previous Years’ Questions A. Elastic 1. Iron B. Plastic 2. Steel C. Ductile 3. Quartz D. Perfectly elastic 4. Paraffin wax 108. The apparent weight of a steel sphere immersed in various liquids is measured using a spring balance. The greatest reading is obtained for the liquid (a) having the smaller density (b) having the largest density (c) in which the sphere was submerged deepest (d) having the greatest volume 109. Hydraulic brakes in automatic vehicles are based on (a) Archimedes’ principle (b) Toricellis equation (c) Pascal’s law (d) Bernoulli’s equation Codes A B C D B C D (a) 2 (b) 1 (c) 4 (d) 3 103. Consider the following statements 1. The internal restoring force acting per unit area of cross-section of the deformed body is called stress.
+
+2. The ratio of stress to strain is a constant for a material and is called modulus of elasticity 3. Air is more elastic than water.
+
+Which of the following statements is/are correct? (a) 1 and 3 (b) 2 and 3 (c) 1 and 2 (d) Only 3 110. If a ship moves from fresh water into sea water, it will (a) sink completely (b) sink a little bit (c) rise a little higher (d) remain unaffected 104. A 50 kg girl wearing high heal shoes balances on a single heal. The heal is circular with a diameter 1.0 cm. The pressure exerted by the heal on the horizontal floor is (g 9.8 N) kg 111. Archimedes’ principle is used 1. determining the relative density of a substance.
+
+2. in designing ships and submarines 3. measuring a terminal velocity in air.
+
+Which of the following statements is/are correct? (a) 1 and 3 (b) 2 and 3 (c) 1 and 2 (d) Only 2 (a) 6.2 10 N / m (b) 2.6 N / m (c) 6.2 10 N / m (d) 2.6 10 N / m 105. The pressure exerted on the ground by a man is greatest (a) when he lies down on the ground (b) when he stands on the toes of one foot (c) when he stands with both foot flat on the ground (d) All of the above yield the same pressure 112. A needle made of steel floats in water, if it is placed horizontally because of (a) capillary action (b) interference (c) viscosity (d) surface tension 97. In respect of the difference of the gravitational force from electric and magnetic forces, which one of the following statements is true? e 2015 I (a) Gravitational force is stronger than the other two (b) Gravitational force is attractive only, whereas the electric and the magnetic forces are attractive as well as repulsive (c) Gravitational force has a very short range (d) Gravitational force is a long range force, while the other two are short range forces 98. A brick is thrown vertically from an aircraft flying 2 km above the earth. The brick will fall with a (a) constant speed e 2015 II (b) constant velocity (c) constant acceleration (d) constant speed for sometime, then with constant acceleration as it nears the Earth 99. Which one of the following statements is not correct? e 2015 II (a) Weight of a body is different on different planets (b) Mass of a body on the earth, on the moon and in empty space is the same (c) Weightlessness of a body occurs when the gravitational forces acting on it is counter-balanced (d) Weight and mass of a body are equal at sea level on the surface of the earth 113. If the temperature of a liquid is raised, then its surface tension is (a) decreased (b) increased (c) irregular (d) equal to viscosity 114. More liquid rises in a thin tube because of (a) larger value of radius (b) larger value of surface tension (c) small value of surface tension (d) small value of radius 128. Consider the following statements.
+
+1. The property of the liquid by virtue of which it opposes the relative motion between its adjacent layers is known as viscosity.
+
+2. Viscosity of liquid increases with increase in pressure.
+
+3. Viscosity of a fluid is measurement by its coefficient of viscosity.
+
+4. Viscosity is not property of gases.
+
+Which of the following statements is/are correct? (a) 1, 2 and 3 (b) 3 and 4 (c) 2 and 4 (d) Only 4 115. Coatings used on raincoat are waterproof because (a) water is absorbed by the coating (b) cohesive force becomes greater (c) water is not scattered away by the coating (d) angle of contact decrease 122. The rise of a liquid in a capillary tube is due to (a) diffusion (b) osmosis (c) surface tension (d) viscosity 123. The action of a nib spilt at the top is explained by (a) gravity flow (b) diffusion of fluid (c)capillaryaction (d)osmosisofliquid 124. Choose the wrong statement among the followings. (a) Surface tension is a molecular phenomenon (b) Tiny drops of a liquid are spherical due to spherical tension (c) Oil rises in the wick due to capillarity (d) Cold drink rises in the straw due to capillarity 116. Small droplets of a liquid are spherical in shape because of (a) viscosity (b) surface tension (c) density (d) conductivity 129. Hair of a shaving brush cling together when the brush is removed from water due to (a) viscosity (b) surface tension (c) friction (d) elasticity 130. Match the following columns. Column I Column II A. Hook’s law 1. Lactometers B. Pascal Law 2. Elasticity C. Archimedes’ Principle 3. Hydraulic press D. Stokes’ law 4. Terminal velocity 117. A U shaped wire is dipped in a soap solution and removed. The thin soap film formed between the wire and a light slider supports a weight of 15 10 2 . × −N. The length of the slider is 30 m. What is the surface tension of the film? (a) 0.025 N/m (b) 0.052 N/m (c) 25 N/m (d) None of these Codes A B C D B C D (a) 2 (b) 4 (c) 3 (d) 1 3 4 Previous Years’ Questions 118. Due to surface tension 1. Dancing of camphor on water.
+
+2. Floatation of needle on water.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) Only 1 (c) Only 2 (d) Both are wrong 119. Cohesive force is experienced between (a) magnetic substance (b) molecules of different substances (c) molecules of same substances (d) None of the above 131. A liquid is kept in a regular cylindrical vessel upto a certain height. If this vessel is replaced by another cylindrical vessel having half the area of cross-section of the bottom, the pressure on the bottom will e 2012 I (a) remain unaffected (b) be reduced to half the earlier pressure (c) be increased to twice the earlier pressure (d) be reduced to one-fourth the earlier pressure 125. Due to capillary action 1. the oil in the wick of the lamp rises.
+
+2. refill pen writes Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) 1 and 2 (d) None of the above 126. Machine parts get jammed in winter, because (a) the viscosity of the lubricant used in machine parts increases with the decrease in temperature (b) the viscosity of lubricant used in machine parts decreases with the decrease in temperature (c) the inertia of machine parts increases with the decrease in temperature (d) the inertia of machine parts increases with the decrease in temperature 127. After rising a short distance the smooth column of smoke from a cigarette breaks up into an irregular and random pattern. In a similar fashion, a stream of fluid flowing past an obstacle breaks up into eddies and vortices which give the flow irregular velocity components transverse to the flow direction. Other examples include the wakes left in water by moving ships the sound produced by whistling and by wind instruments. These examples are the results of (a) laminar flow of air (b) streamline flow of air (c) turbulent flow of air (d) viscous flow at low speed 132. It is difficult to cut things with a blunt knife because e 2012 II (a) the pressure exerted by knife for a given force increases with increase in bluntness (b) a sharp edge decreases the pressure exerted by knife for a given force 120. Which one of the following statements is correct? (a) The angle of contact of water with glass is acute while that of mercury with glass is obtuse (b) The angle of contact of water with glass is obtuse while that of mercury with glass is acute (c) Both the angle of contact of water with glass and that of mercury with glass are acute (d) None of the above 121. In an oil lamp, the oil rises up in the wick because (a) oil is volatile (b) oil is very light (c) of the capillary action (d) of the surface tension GENERAL SCIENCE (c) a blunt knife decreases the pressure for a given force (d) a blunt knife decreases the area of intersection 138. Consider the following statements 1. Fahrenheit is the smallest unit measuring temperature.
+
+2. Fahrenheit was the first temperature scale used for measuring temperature.
+
+Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) Both 1 and 2 (d) None of the above 139. The temperature for which the reading on Celsius and Fahrenheit scales are identical, is (a) − 40 C (b) 40° C (c) − 30 C (d) 30º C 140. Temperature of the body measures (a) hotness of the body (b) amount of heat contained in the body (c) degree of hotness of the body (d) the average energy of molecules of the object 141. The instrument used to mark the highest fixed point of a thermometer is (a) pyrometer (b) hydrometer (c) spherometer (d) calorimeter 142. P and Q are two objects. The temperature of P is greater than that of Q. This means that (a) the heat content of P will always be greater than that of Q (b) the average potential energy of P is greater than the average potential energy of Q (c) the total energy of P is greater than the total energy of the molecules of Q (d) the molecules of P are moving faster on the average than the molecules of Q 133. When deep sea fishes are brought to the surface of the sea, their bodies burst. This is because the blood in their bodies flows at very e 2012 II (a) high speed (b) high pressure (c) low speed (d) low pressure 134. Which type/types of pen uses/use capillary action in addition to gravity for flow of ink? e 2013 I (a) Fountain pen (b) Ballpoint pen (c) Gel pen (d) Both ballpoint and gel pens 135. After rising a short distance the smooth column of smoke from a cigarette breaks up into an irregular and random pattern. In a similar fashion, a stream of fluid flowing fast an obstacle breaks up into eddies and vortices which give the flow irregular velocity components transverse to the flow direction. Other examples include the wakes left in water by moving ships the sound produced by whistling and by wind instruments. These examples are the results of e 2013 II (a) laminar flow of air (b) streamline flow of air (c) turbulent flow of air (d) viscous flow at low speed 136. Dirty cloths containing grease and oil stains are cleaned by adding detergents to water. Stains are removed because detergent e 2013 II (a) reduces drastically the surface tension between water and oil (b) increases the surface tension between water and oil (c) increases the viscosity of water and oil (d) decreases the viscosity of detergent mixed water 143. Which one of the following statements is true? (a) Temperatures differing 25° on the Fahrenheit (F) scale must differ by 45° on the celsius (C) scale (b) 0°F corresponds to − (c) Temperatures which differ by 10° on the celsius scale must differ by 18° on the Fahrenheit scale (d) Water at 90°C is warmer than water at 202°F. Heat 137. The value of −30°C on Fahrenheit scale is (a) − 54 F (b) 32° F (c) 22° F (d) − 22 F 144. Consider the following statements 1. Mercury is used in clinical thermometer for measuring body temperature.
+
+2. Mercury shines and is easily observable.
+
+Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) Both 1 and 2 (d) None of these 145. Specific heat of a substance depends upon (a) mass of the substance (b) volume of the substance (c) shape of the body (d) nature of the substance 146. Vapour pressure of liquid depends upon the (a) quantity of heat (b) temperature of liquid (c) specific heat of liquid (d) density of liquid 147. Two bodies A and B are of same mass and same amount of heat is given to both of them. If the temperature of A decreases more than that of B because of heat addition, then (a) the specific heat capacity of A is more than that of B (b) the specific heat capacity of A is less than that of B (c) both A and B have the same specific heat capacity but A has greater thermal conductivity (d) both A and B have the same specific heat capacity but B has greater thermal conductivity 148. Consider the following statements 1. Specific heat is amount of heat required to raise the temperature of a unit of the substance by 1°C.
+
+2. The specific heat of water is maximum 3. Gases have no specific heat.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) 2 and 3 (c) 2 and 1 (d) 1 and 3 149. Consider the following statements 1. Cooking utensils have low specific heat and high conductivity.
+
+2. Specific heat is the amount of heat required to raise the temperature of unit mass of mass of the substance by 1°C Which of the following statements is/are correct? (a) 1 and 2 (b) Only 1 (c) Only 2 (d) None of these 150. Real expansion of a liquid is always (a) greater than apparent expansion (b) less than apparent expansion (c) equal to apparent expansion (d) None of the above 151. Match the following columns.
+
+Column I Column II A. Bimetallic strip 1. Radiation from a hot body B. Steam engine 2. Energy conversion C. Incondescent lamp 3. Melting D. Electric fuse 4. Thermal expansion of solids 157. Consider the following statements 1. Water kept in an open vessel will quickly evaporate on the surface of the moon.
+
+2. The temperature at the surface of the moon is much higher than the boiling point of the water.
+
+Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) Both 1 and 2 (d) None of these Codes B C D B C D (a) 4 (b) 3 (c) 4 (d) 2 152. Match the following columns. Column I Column II A. Freezing point of mercury 1. 0°C 158. Heat energy of an object is (a) the average energy of the molecules of the object (b) the total energy of the molecules of the object (c) the average velocity of the molecules of the object (d) the average potential energy of the molecules of the object B. Freezing point of ice 2. −115°C C. Freezing point of alcohol 3. −39°C Codes A B C B C (a) 1 (b) 2 (c) 3 (d) 1 159. A glowing electric bulb becomes hot after some time because the heat from filament is transmitted to the glass bulb by (a) conduction (b) convection (c) radiation (d) another process 153. Latent heat of fusion of any body (a) is independent of pressure (b) is dependent of volume (c) is always same (d) varies under different conditions 154. Water is used in hot water bottles in preference to any other liquid because (a) water has greatest latent heat (b) water is good conductor of heat (c) water has greatest specific heat (d) water has high boiling point 160. Diesel engine 1. works with a oil plug.
+
+2. is associated with the risk of explosion.
+
+3. has larger efficiency (58%) Which of the following statements is/are correct? (a) Only 1 (b) 2 and 3 (c) Only 2 (d) All of the above 161. If there were no atmosphere, the average temperature on the surface of the earth would be (a) higher (b) lower (c) same as today (d) 0° C 155. Consider the following statements 1. Steam is more harmful for human body than the boiling water in case of burn.
+
+2. Boiling water contains more heat than steam.
+
+Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) Both 1 and 2 (d) None of these 162. Transfer of heat energy from the sun to the moon takes place by (a) radiation only (b) radiation and conduction (c) radiation and convection (d) radiation, conduction and convection 164. The wet clothes dry more quickly on a warm day because (a) air carries less moisture (b) air can absorb moisture rather quickly (c) high temperature of the air helps fast evaporation (d) All of the above 165. A glass chimney stops an oil lamp from smoking because (a) it increases the supply of oxygen to the flame by connection (b) the heat produced ensures complete combustion of carbon particles (c) Both ‘a’ and ‘b’ (d) None of the above 166. Consider the following statements 1. The water in a vessel placed on fire becomes hot by convection.
+
+2. Heat is also transmitted in the form of electromagnetic waves from a hot body.
+
+Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) Both 1 and 2 (d) None of these 167. A perfect black body has the unique characteristic feature as (a) a good absorber only (b) a good radiator only (c) a good absorber and a good radiator (d) Neither a radiator nor an absorber 168. Nights are cooler in the deserts than in the plains because (a) sand radiates heat more quickly than the earth (b) the sky remains clear most of the time (c) sand absorbs heat more quickly than the earth (d) None of the above 169. We are asked to wear white clothes in summer because (a) they look more graceful (b) it is a convention (c) they are visible from long distance (d) None of the above 170. Half portion of a rectangular piece of ice is wrapped with a white piece of cloth while the other half with a black one. In this context, which one among the following statements is correct? (a) Ice melts more easily under black wrap (b) Ice melts more easily under white wrap (c) No ice melts at all under the black wrap (d) No ice melts at all under the white wrap 163. Material used for making cooking utensils should have (a) low specific heat and high thermal conductivity (b) high specific heat and high thermal conductivity (c) low specific heat and low thermal conductivity (d) high specific heat and low thermal conductivity 156. Factors affecting evaporation of a liquid are 1. the nature of the liquid 2. temperature of surrounding 3. humidity of surrounding air 4. temperature of liquid Which of the following statements is/are correct? (a) Only 2 (b) Only 3 (c) 1, 2 and 3 (d) All of the above GENERAL SCIENCE Oscillations and Waves 171. Mr. X was advised by an architect to make outer walls of his house with bricks. The correct reason is that such walls (a) make the building stronger (b) help keeping inside cooler in summer and warmer in winter (c) prevent seepage of mositure from outside (d) protect the building from lightning 177. If the door of a running refrigerator in a closed room is kept open, what will be the net effect on the room? (a) It will cool the room (b) It will heat the room (c) It will make no difference on the average (d) It will make thte temperature go up and down 178. The gas used in a refrigerator is (a) cooled down on flowing (b) heated up on flowing (c) cooled down, when compressed (d) cooled down, when expanded 172. The blackboard seems black because it (a) reflects every colour (b) does not reflect any colour (c) absorbs black colour (d) reflects black colour Previous Years’ Questions 185. The force acting on a particle executing simple harmonic motion is (a) directly proportional to the displacement and is directed away from the mean position (b) inversely proportional to the displacement and is directed towards the mean position (c) directly proportional to the displacement and is directed towards the mean position (d) inversely proportional to the displacement and is directed away from the mean position 173. Consider the following statements 1. Rough surface is a better radiator than smooth surface.
+
+2. Highly polished surface is a very good radiator.
+
+3. Black surface is a better absorber of radiation than a white one.
+
+4. Black surface is a better radiator than white one.
+
+Which of the following statements is/are correct? (a) 1, 2 and 3 (b) 1 and 2 (c) 3 and 4 (d) 1, 3 and 4 186. Three pendulum clocks A B and C are synchronised on the surface of the earth at the sea-level. The clock A is taken to the top of a mountain and the clock B is taken under a deep mine. The temperature at the three locations are assumed to be the same. On the basis of the above, which one of the following is correct? (a) Both A and B run faster than C (b) Both A and B run slower than C (c) A runs slower than B but runs faster than C (d) B runs slower than C but A runs faster than C 187. The length of a simple pendulum becomes four times the original length. If the initial time period of pendulum is T, then the new time period is (a) T (b) 2T (c) 3T (d) 4T 174. A polished plate with a rough black spot is heated to a high temperature and taken in a dark room, then, (a) spot will appear brighter than the plate (b) spot will appear darker than the plate (c) both will appear equally bright (d) Neither the spot, nor the plate will be visible 188. If the amplitude of a simple pendulum is made one-fourth, its time period will become (a) twice (b) half (c) one-fourth (d) will not change 175. The temperature of the stars can be estimated by (a) Wien’s displacement law (b) Rayleigh-Jeans law (c) Faraday’s law (d) Maxwell-Boltzmann law 189. Water waves are (a) transverse (b) longitudinal (c) partly transverse, partly longitudinal (d) sometimes longitudinal, sometimes transverse 190. Energy is not transferred by (a) transverse progressive waves (b) longitudinal progressive waves (c) stationary waves (d) electromagnetic waves 176. A solid copper sphere of radius R and hollow sphere of the same material and outer radius R are heated to the same temperature and allowed to cool in the same environment, the (a) hollow sphere cools faster (b) solid sphere cools faster (c) both spheres cool at the same rate (d) in the beginning solid sphere cools faster, at the end hollow sphere cools faster 191. Waves inside a gas are (a) longitudinal (b) transverse (c) partly longitudinal and party transverse (d) Neither longitudinal nor transverse 179. The celsius temperature is a/an (a) relative temperature e 2013 I (b) absolute temperature (c) specific temperature (d) approximate temperature 180. The gas used in a refrigerator is (a) cooled down on flowing e 2013 II (b) heated up on flowing (c) cooled down when compressed (d) cooled down when expanded 181. A ray of white light strikes the surface of an object. If all the colours are reflected the surface would appear e 2013 II (a) black (b) white (c) grey (d) opaque 182. Two layers of a cloth of equal thickness provide warmer covering than a single layer of cloth with double the thickness. Why? e 2014 I (a) Because of the air encapsulated between two layers (b) Since effective thickness of two layers is more (c) Fabric of the cloth plays the role (d) Weaving of the cloth plays the role 183. Which one of the following physical quantities is the same for molecules of all gases at a given temperature? e 2015 II (a) Speed (b) Mass (c) Kinetic energy (d) Momentum 184. Two systems are said to be in thermal equilibrium, if and only if e 2016 I (a) there can be a heat flow between them even if they are at different temperatures (b) there cannot be a heat flow between them even if they are at different temperatures (c) there is no heat flow between them (d) their temperatures are slightly different (c) Both sound and light waves in air are transverse (d) Both sound and light waves in air are longitudinal 192. What type of vibrations are produced in a sitar wire? (a) Longitudinal vibration (b) Transverse vibration (c) Both (a) and (b) (d) None of the above 205. Sound travels in rocks in the form of (a) longitudinal elastic waves only (b) transverse elastic waves only (c) both longitudinal and transverse elastic waves (d) non-elastic waves 206. Ultrasonic waves are those waves (a) to which man can hear (b) man cannot hear (c) are of high velocity (d) of high amplitude 199. Microphone is a device in which (a) amplification is not required at all (b) sound waves are directly transmitted (c) sound waves are converted into electrical energy and then reconverted into sound after transmission (d) electrical energy is converted into sound waves 200. Sound travels faster when the medium is of (a) low density (b) medium density (c) high density (d) vacuum 193. Consider the following statements 1. Waves on springs or sound waves in air are longitudinal waves.
+
+2. Waves on surface of water is mechanical waves.
+
+3. Mechanical waves are used in communication, telephony 4. Mechanical waves can propagate in solid, liquid and gas.
+
+Which of the following statements is/are correct. (a) 1, 2 and 4 (b) 1 and 2 (c) 2 and 4 (d) Only 3 207. Consider the following statements 1. The frequency of sound waves is 20 Hz to 20000 Hz.
+
+2. Sound waves are transverse mechanical waves.
+
+3. Sound waves travel in vacuum.
+
+4. Sound waves have low frequency and high wavelength.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) 2, 3 and 4 (c) 1 and 4 (d) Only 4 201. A source of sound has a noise level of 20 dB. If the intensity of sound produced by the source increases by 100 times, the noise level becomes (a) 30 dB (b) 40 dB (c) 400 dB (d) 20000 dB 194. The most familiar form of radiant energy in sunlight that causes tanning and sunburning of human skin, is called (a) ultraviolet radiation (b) visible radiation (c) infrared radiation (d) microwaves radiation 208. Ultrasonic waves are used 1. to investigate the action of heart.
+
+2. for sending signals.
+
+3. measuring the depth of sea Which of the following statements is/are correct? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) All of these 195. Microwaves are 1. used in photography.
+
+2. absorbed by water molecules and living tissue internal heating will damage or kill cells.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) Only 1 (c) Only 2 (d) Neither 1 nor 2 196. Match the following columns.
+
+202. Which among the following statement is correct regarding the audible sound waves? 1. Its frequency is greater than 20000 Hz.
+
+2. It is used in measuring the depth of sea.
+
+3. The liquid from which the audible sound waves pass gets hot.
+
+The correct statement(s) is/are (a) 1 and 3 (b) 1 and 2 (c) Only 1 (d) None of the above Column I Column II 203. Match the following columns. Column I (Waves) Column II (Sources) A. Infrared rays 1. Medical tracers B. γ-rays 2. TV control C. Radio waves 3. Making ions D. Ultraviolet rays 4. Communication 209. Consider the following statements 1. Speed of sound basically depends upon elasticity and density of medium .
+
+2. Speed of sound is changed by the increase or decrease of pressure 3. The speed of sound is more in humid air than in dry air.
+
+Which of the following statements is/are correct? (a) 1 and 3 (b) 1 and 2 (c) 2 and 3 (d) None of these Codes A B C D B C D (a) 3 (b) 2 (c) 3 (d) 3 210. A woman’s voice is shriller than a man’s due to (a) higher frequency (b) higher amplitude (c) lower frequency (d) weak vocal chords A. Ultrasonic waves 1. Ocean waves B. Sound waves 2. Energetic disturbance C. Infrasonic waves 3. Generated by vibrating bodies D. Shock waves 4. Wave produce by bat Codes A B C D B C D (a) 4 (b) 3 (c) 4 (d) 1 197. Sound waves travel with a speed of about 330 m/s. The wavelength of sound whose frequency is 550 Hz is (a) 0.8 m (b) 8.4 m (c) 0.6 m (d) 0.2 m 211. The phenomenon of beats can take place (a) for longitudinal waves only (b) for transverse waves only (c) for both longitudinal and transverse waves (d) for sound waves only 198. Which one of the following statements is correct? (a) Sound waves in air are longitudinal while light waves are transverse (b) Sound waves in air are transverse while light waves are longitudinal 204. Which of the following statement is incorrect? (a) Sound travels in straight line (b) Sound is a form of energy (c) Sound travels in the form of waves (d) Sound travels faster in vacuum than in air GENERAL SCIENCE 226. The phenomenon of mirage is due to (a) change in refractive index of air with change in temperature (b) total internal reflection (c) absorption of light by air at high temperature (d) polarisation of light on reflection 212. Doppler’s effect is used 1. to determine the velocities of which stars and galaxies are moving toward or away from the earth 2. to increase the pressure. Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) 1 and 2 (d) None of these Previous Years’ Questions 227. Which one of the following phenomenon cannot be attributed to the refraction of light? (a) Twinkling of stars (b) Mirage (c) Rainbow (d) Red shift 219. Which one of the following statements is not correct? e 2016 I (a) Sound waves in gases are longitudinal in nature (b) Sound waves having frequency below 20 Hz are known as ultrasonic waves (c) Sound waves having higher amplitudes are louder (d) Sound waves with high audible frequencies are sharp 220. A person rings a metallic bell near a strong concrete wall. He hears the echo after 0.3 s. If the sound moves with a speed of 240 m/s, how far is the wall from him? e 2016 I (a) 102 m (b) 11 m (c) 51 m (d) 30 m 228. Match the following columns. Column I Column II Optics 213. The time period of a simple pendulum having a spherical wooden bob is 2 s. If the bob is replaced by a metallic one twice as heavy, the time period will be e 2012 I (a) more than 2s (b) 2s (c) 1s (d) less than 1s A. Intensity of light 1. Properties of the medium B. Colour of light 2. Refractive index of medium C. Velocity of light 3. Amplitude of light D. Propagation of light 4. Frequency of light Codes A B C D B C D (a) 3 (b) 2 (c) 3 (d) 4 214. Two identical piano wires have same fundamental frequency when kept under the same tension. What will happen if tension of one of the wire is slightly increased and both the wires are made to vibrate simultaneously? e 2012 I (a) Noise (b) Beats (c) Resonance (d) Non-linear effects 215. In SONAR, we use e 2012 II (a) ultrasonic waves (b) infrasonic waves (c) radio waves (d) audible sound waves 229. Which of the following illustrations is of refraction? 1. Twinkling of stars 2. Oval shape of sun in the morning and evening 3. Sparking of diamond 4. Mirage and looming Which of the following statements is/are correct? (a) 1 and 3 (b) 1 and 2 (c) 2 and 3 (d) Only 4 216. Motion of an oscillating liquid column in a U-tube is e 2013 II (a) periodic but not simple harmonic (b) non-periodic (c) simple harmonic and time period is independent of the density of the liquid (d) simple harmonic and time period depends on the density of the liquid 230. Efficient working of optical fibre is dependent on which one of the following? (a) Reflection (b) Interference (c) Diffraction (d) Total internal reflection 231. Condition of total internal reflection 1. Light must be propagating from denser to rarer medium.
+
+2. The critical angle must exceeds the angle of incidence.
+
+Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) 1 and 2 (d) None of the above 217. An oscilloscope is an instrument which allows us to see waves produced by e 2014 II (a) visible light (b) X-rays (c) sound (d) γ-rays 218. Which one of the following statements is correct? The velocity of sound e 2016 I (a) does not depend upon the nature of media (b) is maximum in gases and minimum in liquids (c) is maximum in solids and minimum in liquids (d) is maximum in solids and minimum in gases 221. The mirror used in vehicles as rear view mirror is (a) convex mirror (b) concave mirror (c) plane mirror (d) plano-concave mirror 222. Viewfinders, used in automobiles to locate the position of the vehicles behind, are made of (a) plane mirror (b) concave mirror (c) convex mirror (d) parabolic mirror 223. Concave mirrors are used 1. as reflectors in automobiles and hand torches.
+
+2. in the field of solar energy to focus sun’s ray for heating solar furnaces.
+
+3. as rear-view mirror in automobiles.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) 2 and 3 (c) 3 and 1 (d) Only 1 224. A coin immersed in water pond appears to be raised, when viewed from the top. What is this due to? (a) Total internal reflection of light (b) Scattering of light (c) Reflection of light (d) Refraction of light 225. Sun appears reddish during the rising and setting time, because (a) the atmosphere absorbs short wavelengths more than long wavelengths (b) red light is emitted in huge amount by it (c) the atmosphere absorbs long wavelength more than short wavelengths (d) light of shorter wavelengths are scattered to a greater extent than the longer wavelengths by the atmosphere 241. Two beams of light, one red and the other green, fall on the same spot on a white screen. The colour on the screen will appear to be (a) magenta (b) blue (c) yellow (d) cyan 247. If the light moving in a straight line bends by a small but fixed angle, it may be a case of (a) diffraction (b) dispersion (c) reflection (d) refraction and dispersion 248. If a glass rod is immersed in a liquid of the same refractive index, then it will (a) look longer (b) disappear (c) look bent (d) None of these 232. Where should an object be placed, so that a real and inverted image of the same size is obtained using a convex lens? (a) Between the lens and its axis (b) At the focus (c) At twice the focal length (d) At infinity 233. A thin lens has a focal length of −25 cm. Then, the nature of lens is (a) concave lens of power 4 D (b) convex lens of power 4 D (c) convex lens of power 25 D (d) convex lens of power 1 242. Consider the following statements 1. The colour of the green flower seen through red glass appears to be dark.
+
+2. Red glass transmits only red light.
+
+Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) Both 1 and 2 (d) None of the above 249. Why is it difficult to see through fog? (a) Rays of light suffer total internal reflection from the fog droplets (b) Rays of light are scattered by the fog droplets (c) Fog droplets absorb light (d) The refractive index of fog is extremely high 243. The focal length of convex lens is (a) the same for all colours (b) shorter for blue light than for red (c) shorter for red light than for blue (d) maximum for yellow light 234. Parallel light rays entering a convex lens always converge at (a) centre of curvature (b) the focal plane (c) the principal focus (d) a point on the principal axis 235. We always get real image in a convex lens, if object is situated beyond (a) optical centre (b) focus (c) centre of curvature (d) None of the above 250. The colour of the sky is blue because of (a) combination of various lights producing blue colour (b) scattering of light by dust particles (c) diffraction of light (d) reflection of light by water droplets 251. Rainbow is formed due to a combination of (a) refraction and scattering (b) refraction and absorption (c) dispersion and focusing (d) total internal reflection and dispersion 244. Consider the following statements 1. The colour of an object is determined by the colour of the light reflected by it.
+
+2. If all the colours of white light are absorbed by the object then it appears white.
+
+3. Dangers signals are of red colour because red colour of light scatter least and therefore signals can be seen from far.
+
+Which of the following statements is/are correct? (a) 1 and 3 (b) Only 3 (c) Only 1 (d) 2 and 3 252. As the sunlight passes through the atmosphere, the rays are scattered by tiny particles of dust, pollen, soot and other minute particulate matters present there. However, when we look up, the sky appears blue during mid-day because (a) blue light is scattered most (b) blue light is absorbed most (c) blue light is reflected most (d) ultraviolet and yellow component of sunlight combine 245. Rainbow is formed due to 1. dispersion of light 2. suffering refraction 3. total internal reflection 4. All of the above Which of the following statements is/are correct? (a) 1 and 2 (b) 3 and 1 (c) Only 4 (d) Only 1 236. The power of a lens of focal length 80 cm is (a) 80 D (b) 40 D (c) 12.5 D (d) 1.25 D 237. A diffraction pattern is obtained using a beam of red light. Which one among the following will be the outcome, if the red light is replaced by blue light? (a) Bands disappear (b) Diffraction pattern becomes broader and further apart (c) Diffraction pattern becomes narrower and crowded together (d) No change 238. Dispersion produced by a prism depends on (a) its refracting angle (b) size of the prism (c) height of the prism (d) one of the angle at the base of the prism 239. When dispersion of white light takes place through a prism, the maximum deviation is suffered by which one of the following colour? (a) Red (b) Yellow (c) Green (d) Violet 253. Consider the following statements 1. Clear sky appears blue due to poor scattering of blue wavelength of visible light.
+
+2. Red part of light shows more scattering than blue light in the atmosphere.
+
+3. In the absence of atmosphere, there would be no scattering of light and sky will look black.
+
+240. In the visible spectrum, the colour having the shortest wavelength is (a) blue (b) yellow (c) red (d) violet 246. Which one of the following sets of colour combinations is added in colour vision in TV? (a) Yellow, green and blue (b) White, black, red and green (c) Red, green and blue (d) Orange, pink and blue GENERAL SCIENCE Which of the statements given above is/are correct? (a) Only 1 (b) 1 and 2 (c) Only 3 (d) All of these 260. A ray of white light strikes the surface of an object. If all the colours are reflected the surface would appear e 2013 II 268. The focal length of the lens of a normal human eye is about e 2015 II (a) 25 cm (b) 1 m (c) 2.5 mm (d) 2.5 cm (a) black (b) white (c) grey (d) opaque 261. Which one among the following colours has the highest wavelength? e 2013 II (a) Violet (b) Green(c) Yellow (d) Red 254. We cannot see the details of a distant object because (a) there is a defect in our eyes (b) the light rays are absorbed and scattered in this way (c) there is a limit of resolution for our eyes (d) the objects are too far away 269. A myopic person has a power of −1 25 D. What is the focal length and nature of his lens? e 2016 I (a) 50 cm and convex lens (b) 80 cm and convex lens (c) 50 cm and concave lens (d) −80 cm and concave lens 255. Match the following columns.
+
+Electric Current Column I Column II 262. No matter how far you stand from a mirror, your image appears erect. The mirror is likely to be e 2014 I (a) either plane or convex (b) plane only (c) concave (d) convex only A.
+
+Myopia 1. Cylindrical B.
+
+Hypermetropia 2. Bifocal C.
+
+Presbyopia 3. Convex D.
+
+Astigmatism 4. Concave 270. Which of the following is a good conductor of heat but a bad conductor of electricity? (a) Mica (b) Aluminium (c) Mercury (d) Platinum Codes A B C D B C D (a) 4 (b) 1 (c) 2 (d) 2 263. The position, relative size and nature of the image formed by a concave lens for an object placed at infinity are respectively e 2014 I (a) at focus, diminished and virtual (b) at focus, diminished and real (c) between focus and optical centre, diminished and virtual (d) between focus and optical centre, magnified and real 256. The principle of working of periscope is based on (a) reflection only (b) refraction only (c) reflection and interference (d) reflection and refraction 271. Consider the following statements 1. The direction of positive charges is same as direction of conventional current.
+
+2. The rate of flow of electric current charges through any cross-section of conductor is called as electric current.
+
+Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) 1 and 2 (d) None of these 264. In the phenomenon of dispersion of light, the light wave of shortest wavelength is e 2014 II (a) accelerated and refracted the most (b) slowed down and refracted the most (c) accelerated and refracted the least (d) slowed down and refracted the least 257. For a telescope, the focal lengths of two lenses are 30 cm and 10 cm. One acts as objective and other as eyepiece. The length of the telescope is (a) 40 cm (b) 3 cm (c) 200 cm (d) 30 cm 272. The work done in moving a unit positive charge across two points in an electric circuit is a measure of (a) potential difference (b) electrostatic force (c) current (d) power 265. The upper and lower portions in common type of bi-focal lenses are respectively e 2014 II (a) concave and convex (b) convex and concave (c) both concave of different focal lengths (d) both convex of different focal lengths 273. Potential difference between two points of a wire carrying 2A current is 0.1 V. The resistance of the wire is (a) 0.05 Ω (b) 0 5. (c) 5 Ω (d) 0.25 Ω 274. Match the following columns.
+
+Column I Column II 258. Consider the following statements 1. Periscope consists of two plane mirror inclined at an angle of 45°.
+
+2. The principle of working of periscope is based upon reflection and refraction.
+
+Which of the following statements is/are correct? (a) Only 1 (b) 1 and 2 (c) Only 3 (d) None of these 266. A person standing 1m in front of a plane mirror approaches the mirror by 40 cm. The new distance between the person and his image in the plane mirror is e 2015 I (a) 60 cm (b) 1.2 m (c) 1.4 m (d) 2.0 m A. Electrical force between two charged particles 1. Volt Previous Years’ Questions B. Electric charge 2. Newton C. Electric potential 3. Farad D.
+
+Electrical capacity 4. Coulomb 267. The outside rear view mirror of modern automobiles is marked with warning ‘objects in mirror are closer than they appear’. Such mirrors are e 2015 II (a) plane mirrors (b) concave mirrors with very large focal lengths (c) concave mirrors with very small focal lengths (d) convex mirrors Codes A B C D (a) 2 (b) 2 (c) 1 (d) 2 259. Dispersion process forms spectrum due to white light falling on a prism. The light wave with shortest wavelength e 2013 II (a) refracts the most (b) does not change the path (c) refracts the least (d) is reflected by the side of the prism 275. In electric supply lines in India, which parameter is kept constant? (a) Voltage (b) Current (c) Frequency (d) Power 288. In a filament type high bulb, most of the electric power consumed appear as (a) visible light (b) infrared rays (c) ultraviolet rays (d) fluorescent light 276. Which one of the following is not correctly matched? (a) Voltmeter Potential difference (b) Potentiometer — EMF (c) Ammeter Electric current (d) Meter bridge Electrical resistance 289. Why are inner lining of hot water geysers made up of copper? (a) Copper has low heat capacity (b) Copper has high electrical conductivity (c) Copper does not react with steam (d) Copper is good conductor of both heat and electricity 282. Consider the following statements 1. The property of a substance by virtue of which it opposes the flow of current through it, is known as the resistance.
+
+2. Resistance of a conductor is directly proportional to it’s length.
+
+3. Resistance of a conductor is directly proportional to area of cross-section.
+
+4. Resistance of a substance is always equal to resistivity.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) 2 and 4 (c) 3 and 4 (d) 1, 2 and 3 277. A DC voltmeter is capable of measuring a maximum of 300 V. If it is used to measure the voltage across a device operating at 220 V AC supply, the reading of the voltmeter will be (a) 0 V (b) 110 V (c) 220 V (d) 300 V 290. Consider the following statements 1. Fuse wire is made up of tin lead alloy.
+
+2. Fuse wire have low resistivity.
+
+3. Fuse wire have low melting point.
+
+4. Fuse wire is used in parallel as a safety device in an electric circuit.
+
+Which of the following statements is/are correct? (a) 1 and 3 (b) 2 and 4 (c) Only 4 (d) 1 and 2 283. Consider the following statements 1. Electric appliances with metallic body e.g. heater, presses, etc., have three pin connections whereas, an electric bulb has a two pin connection.
+
+2. Three pin connections reduce heating of connecting cables.
+
+Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) 1 and 2 (d) None of these 278. Galvanometer 1. is a device used to detect and measure electric current in a circuit.
+
+2. can be converted into a voltmeter by connecting a very high resistance in its parallel.
+
+Which of the following statements is/are correct? (a) Only 1 (b) 1 and 2 (c) Only 2 (d) None of these 291. A bird sitting on a high power line (a) gets a fatal shock (b) gets a mild shock (c) gets killed instantly (d) is not affected practically 284. An electric bulb is marked as 240 V, 60 W. The resistance of its filament is (a) 940 Ω (b) 245 Ω (c) 950 Ω (d) 960 Ω 279. When you pull out the plug connected to an electrical appliance, you often observe a spark. To which property of the appliance is this related? (a) Resistance (b) Inductance (c) Capacitance (d) Wattage 292. The total resistance of 3 resistors, each of 3 Ω, connected in parallel, is (a) 3 Ω (b) 2 Ω (c) 1 Ω (d) 9 Ω 280. Match the columns. Column I Column II 285. A tube light works on the principle of (a) chemical effect of current (b) magnetic effect of current (c) heating effect of current (d) discharge of electrons through gases A.
+
+Voltage 1.
+
+B.
+
+Current 2.
+
+ρ l 293. The circuit element where the impressed voltage is always in phase with the resulting current, is (a) an ideal resistor (b) an ideal coil (c) an ideal capacitor (d) an ideal transformer C.
+
+Capacity 3.
+
+286. The wire used in the filaments of household bulbs has (a) high resistance, high melting point (b) high resistance, low melting point (c) low resistance, high melting point (d) low resistance, low melting point D.
+
+Resistance 4.
+
+IR Codes A B C D B C D (a) 1 (b) 4 294. The tape of a tape recorder is coated with (a) zinc oxide (b) mica (c) copper sulphate (d) ferromagnetic powder (c) 3 (d) 4 295. Consider the following statements 1. Permanent magnets are usually made of alloys such as carbon steel, chromium steel, tungsten steel and alnico.
+
+2. Alnico is alloy of gold, silver and zinc.
+
+281. Two resistances when connected in parallel give the resultant value of 2 Ω, when connected in series the value becomes 9 ohm.
+
+The value of each resistance is (a) 1 Ωand 8 Ω (b) 2 Ωand 7 Ω (c) 3 Ωand 3 Ω (d) 3 Ωand 6 Ω 287. Safety fuses are integral part of electric installations and instruments. This is so because safety fuses (a) block the passage of current due to increase in their resistance and saves it (b) switch off the service of electric supply through relay action (c) provide alternative path to excess current as does a shunt (d) switch off the supply, if current beyond a certain limit flows through the circuit GENERAL SCIENCE Select the correct answer using the codes given below. (a) 1 and 4 (b) Only 4 (c) 2 and 3 (d) 2, 3 and 4 3. Permanent magnets are used in microphone etc. Which of the following statements is/are correct? (a) 1 and 2 (b) 2 and 3 (c) Only 2 (d) 1 and 3 Previous Years’ Questions 309. Tungsten is used for the construction of filament in electric bulb because of its e 2014 II (a) high specific resistance (b) low specific resistance (c) high light emitting power (d) high melting point 302. In step-down transformer, the AC output gives the e 2012 II (a) current more than the input current (b) current less than the input current (c) current equal to the input current (d) voltage more than the input voltage 296. An electric generator converts (a) electric energy into sound energy (b) electric energy into light energy (c) electric energy into mechanical energy (d) mechanical energy into electric energy 310. Electricity is produced through dry cell from e 2015 I (a) chemical energy (b) thermal energy (c) mechanical energy (d) nuclear energy 303. A rectifier is an electronic device used to convert e 2012 II (a) AC voltage into DC voltage (b) DC voltage into AC voltage (c) sinusoidal pulse into square pulse (d) None of the above 311. A wire-bound standard resistor uses manganin or constantan. It is because e 2015 I (a) these alloys are cheap and easily available (b) they have high resistivity (c) they have low resistivity (d) they have resistivity which almost remains unchanged with temperature 304. A device which is used in our TV set, computer, radio set for storing the electric charge, is e 2012 II (a) resistor (b) inductor (c) capacitor (d) conductor 297. The essential difference between an AC generator and a DC generator has permanent magnet.
+
+(a) AC generator has an electromagnet while a DC generator has permanent magnet (b) DC generator will generate a higher voltage (c) AC generator will generate a higher voltage (d) AC generator has slip rings while DC generator has a commutator 298. The core of a transformer is laminated so that (a) ratio of the voltages across the secondary and primary is doubled (b) the weight of the transformer can be kept low (c) the rusting of the core is prevented (d) energy loss due to eddy currents is minimised 305. If two conducting spheres are separately charged and then brought in contact e 2013 I (a) the total energy of the two spheres is conserved (b) the total charge on the two spheres is conserved (c) both the total energy and the total charge are conserved (d) the final potential is always the mean of the original potential of the two spheres 299. Which one of the following common devices works on the basis of the principle of mutual induction? (a) Tubelight (b) Transformer (c) Photodiode (d) LED 312. Two pieces of conductor of same material and of equal length are connected in series with a cell. One of the two pieces has cross-sectional area double that of the other. Which one of the following statements is correct in this regard? e 2015 I (a) The thicker one will allow stronger current to pass through it (b) The thinner one would allow stronger current to pass through it (c) Same amount of electric current would pass through both the pieces producing more heat in the thicker one (d) Same amount of electric current would pass through both the pieces producing more heat in the thinner one 306. When an incandescent electric bulb glows e 2014 I (a) the electric energy is completely converted into light (b) the electric energy is partly converted into light energy and partly into heat energy (c) the light energy is converted into electric energy (d) The electric energy is converted into magnetic energy 307. A mobile phone charger is e 2014 I (a) an inverter (b) an UPS (c) a step-down transformer (d) a step-up transformer 300. Consider the following statements 1. Core of a transformer is made up of soft iron.
+
+2. Step-up transformer converts a low voltage of high current into a high voltage of low current.
+
+3. Transformer is used for charging voltage only.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) 2 and 3 (c) Only 3 (d) None of these 313. Which one of the following statements about bar magnet is correct? e 2016 I (a) The pole strength of the North pole of a bar magnet is larger than that of the South pole. (b) When a piece of bar magnet is bisected perpendicular to its axis, the North and South poles get separated. (c) When a piece of bar magnet is bisected perpendicular to its axis, two new bar magnets are formed.
+
+(d) The poles of a bar magnet are unequal in magnitude and opposite in nature.
+
+308. Inactive nitrogen and argon gases are usually used in electric bulbs in order to e 2014 II (a) increase the intensity of light emitted (b) increase the life of the filament (c) make the emitted light coloured (d) make the production of bulb economical 301. Transformer is a kind of appliance that can 1. increase power 2. increase voltage 3. decrease voltage 4. measure current and voltage 322. Match the following columns.
+
+Column I Column II A. Cathode rays 1. Electromagnetic waves B. X-rays 2. Beam of electron C. Positive-rays 3. Positively charged particles 314. Which is not true with respect to the cathode rays? (a) A stream of electrons (b) Charged particles (c) Move with speed same as that of light (d) Can be deflected by magnetic fields Codes A B C B C (a) 3 (b) 2 (c) 1 (d) 1 328. Photoelectric cells are used 1. to control the temperature in furnace and in chemical process 2. in automatic switches for street light 3. in transformer 4. in photoelectron sorters Which of the following statements is/are correct? (a) 1, 2 and 4 (b) Only 1 (c) Only 2 (d) 1 and 3 329. The majority charge carriers in p-type semiconductors are (a) electrons (b) protons (c) holes (d) neutrons 315. Consider the following statements X-rays 1. can pass through aluminium.
+
+2. can be deflected by magnetic field.
+
+3. move with a velocity less than the velocity of ultraviolet ray in vacuum.
+
+Which of the statements given above is/are correct? (a) 2 and 3 (b) Only 1 (c) 1 and 3 (d) 1 and 2 323. Consider the following statements 1. Diode laser are used as optical sources in optical communication.
+
+2. Diode laser consume less energy.
+
+Which of the following statements is/are correct? (a) Only 1 (b) Only 2 (c) 1 and 2 (d) None of these 330. If the temperature of a semiconductor is raised, its resistivity will (a) increase (b) decrease (c) remains same (d) reduce to zero 324. An ordinary tubelight used for lighting purpose contains (a) fluorescent material and an inert gas (b) one filament, reflective material and mercury vapour (c) fluorescent material and mercury vapour (d) two filaments, fluorescent material and mercury vapour 316. Consider the following statements 1. Soft and hard X-rays differ in frequency as well as velocity.
+
+2. The penetrating power of hard X-rays is more than the penetrating power of soft X-rays.
+
+Which of the following statements is/are correct? (a) 1 and 2 (b) Only 1 (c) Only 2 (d) None of these 317. X-ray will travel minimum distance in (a) air (b) iron (c) wood (d) water 331. Consider the following statements 1. Solar cells are used as solar cooker.
+
+2. Solar cells are used in wrist watches, calculators and light meters.
+
+3. Solar cells are used for charging storage batteries.
+
+4. Solar cells are used in artificial satellite Which of the following statements is/are correct? (a) 1 and 2 (b) 2 and 3 (c) 1, 3 and 4 (d) All of these 325. Fire fly gives us cold light by virtue of the phenomenon of (a) fluorescence (b) phosphorescence (c) chemiluminescence (d) effervescence 332. Laser is a device to produce (a) a beam of white light (b) coherent light (c) microwaves (d) X-rays 318. X-ray beam can be deflected by (a) magnetic field (b) electric field (c) Both ‘a’ and ‘b’ (d) None of the above 319. X-rays were discovered by (a) Johnson (b) Milikan (c) Roentgen (d) Thomson 326. Photoelectric cell is a device of (a) collecting the photons (b) measuring the intensity of light (c) changing the photon energy to mechanical energy (d) substituting the accumulators by storing the electrical energy 333. Which of the following is the correct combination of the inventors and the inventions? (a) Elisha G Otis Windmill (b) Galileo Galilei Transistor (c) Sir Frank Whittle — Laser (d) J L Baird Television 320. Positive rays were discovered by (a) Thomson (b) Goldstein (c) W Crookes (d) Rutherford 334. Match the following Columns.
+
+Column I Column II A.
+
+Ground wave propagation 1. Radio waves received from troposphere B. Space wave propagation 2. Radio waves travel through atmosphere C. Sky wave propagation 3. Microwaves cross the ionosphere D. Satellite communication 4. Radio waves received from ionosphere 327. What is the difference between a CFL and an LED lamp 1. To produced light, a CFL uses mercury vapour and phosphor while an LED lamp uses semiconductor materials.
+
+2. The average life span of a CFL is much longer than that of an LED lamp.
+
+3. A CFL is less energy efficient as compared to an LED lamp.
+
+Which of the following statements is/are correct? (a) Only 1 (b) 2 and 3 (c) 1 and 3 (d) All of these 321. Consider the following statements 1. Positive rays are capable of producing physical and chemical changes.
+
+2. Positive rays can produce fluorescence and phosphorescence.
+
+3. Positive rays are not deflected by electric field and magnetic field.
 
 
---- PAGE 612 ---
-∆=
-s s
-a
-s
-b
-s
-c
-( –
-)( –
-)( – )
-=
-42 42
-41 42
-28 42
-15
-(
-–
-)(
-–
-)(
-–
-)
-=
-×
-×
-×
-42
-1
-14
-27
-=
-×
-×
-=
-14
-3
-3
-126 cm2
-∴Area
-of
-quadrilateral = Area
-of
-∆ABC + Area of ∆ADC
-=
-+
-180
-126 = 306 cm2
-23. (c) Distance covered in one revolution
-=
-×
-×
-11
-1000
-100
-5000
-= 220 cm
-∴The circumference of the wheel
-= 220 cm
-Let the diameter be ‘D’.
-Then, πD = 220 ⇒22
-7
-220
-×
-=
-D
-∴
-D =
-×
-=
-220
-7
-22
-70 cm
-24. (a) Let radius of given circles be x cm
-and (
-)
-14 −x cm.
-∴Sum of areas of circle
-=
-+
-−
-[
-(
-) ]
-π
-π
-x
-x
-2
-2
-14
-130
-14
-2
-2
-π
-π
-π
-=
-+
-−
-x
-x
-(
-)
-[by condition]
-⇒
-130
-2
-28
-196
-2
-=
-−
-+
-x
-x
-⇒
-x
-x
-2
-14
-33
-0
-−
-+
-=
-⇒
-(
-)(
-)
-x
-x
-−
-−
-=
-11
-3
-0
-⇒
-x = 11 or x = 3
-So, the radii of circles are 11 cm and
-3 cm.
-25. (d) Angle inscribed by minute hand in
-60 min =
-°
-360 .
-Angle inscribed in 35 min =
-° ×
-360
-60
-35
-=
-°
-210
-given, r = 12 cm
-∴Area swept by the minute-hand in
-35 min
-= Area of sector with r = 12 cm
-and θ =
-°
-210
-=
-×
-×
-×
-
-
-
-
-22
-7
-12
-12
-210
-360
-cm2 = 264 cm2
-26. (b) Area of the shaded region
-= (Area of sector with r = 7 cm,θ =
-°
-30 )
-−(Area of sector with r = 3 5. cm,
-θ =
-°
-30 )
-=
-×
-×
-×
-
-
-
-
-
-
-22
-7
-7
-7
-30
-360
-−
-×
-×
-×
-
-
-
-
-
-22
-7
-7
-2
-7
-2
-30
-360
-cm2
-=
-−
-
-
-
-
-=
-77
-6
-77
-24
-cm
-77
-8
-cm
-2
-2
-27. (d) Area of field = 1 hec
-10000 m2
-=
-∴
-side =
-10000 m = 100 m
-Q
-Side of other field = 102% of 100
-= 102
-∴
-Area of the field
-=
-×
-=
-102
-102
-10404 m2
-Thus, difference of area
-=
-−
-(
-)
-10404
-10000 m2
-= 404 m2
-28. (c) Let diameter of the circle be 2r.
-∴Area of the circle = πr2
-Diameter is increased by 100%
-New diameter = 4r
-and new area = 4
-2
-πr
-Q Increase in area =
-−
-4
-2
-2
-π
-π
-r
-r = 3
-2
-πr
-∴Increase percentage in area
-=
-×
-
-
-
-
-
-
-=
-3
-100
-300
-2
-2
-π
-π
-r
-r
-%
-%
-Short trick Area is increased by
-=
-+
-
-
-
-
-
-
-2
-100
-2
-x
-x
-% =
-×
-+
-
-
-
-
-
-
-2
-100
-100
-100
-2
-%
-=
-+
-(
-)%
-200
-100
-= 300%
-29. (c) Area of trapezium = 1 2
-/
-(Sum of parallel sides)
-× Distance between them
-=
-+
-×
-1 2 25
-15
-7
-/ (
-)
-= 140 cm2
-30. (b) Since, diagonal of rhombus bisect
-each other and perpendicular to eac
-
-## Page 3: High-Yield Trigger Layer (Insight SSB)
-
-> [!TIP]
-> Standard High-Yield triggers for Master Question Core based on PYQ analysis.
-
-## Page 4: Visual Anchors
-
-```mermaid
-
-        Conceptual Schema:
-        [Concept A] ---> [Process B] ---> [Outcome C]
-        
-```
-
+</div>

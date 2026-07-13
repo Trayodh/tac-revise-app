@@ -6,7 +6,7 @@
   <title>Defence Exams Revision Workspace (NDA, CDS, AFCAT)</title>
   <meta name="description" content="Tac-Revise — AI-powered revision platform for NDA, CDS, and AFCAT defence examinations.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>TAC</text></svg>">
-  <link rel="stylesheet" href="index.css?v=1783159209789">
+  <link rel="stylesheet" href="index.css?v=9993">
   <!-- MathJax Configuration + CDN for rendering LaTeX equations -->
   <script>
     window.MathJax = {
@@ -47,6 +47,30 @@
       });
     }
   </script>
+  <style id="breadcrumb-override">
+    .breadcrumb-list {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+    }
+    .breadcrumb-item {
+      display: inline-flex !important;
+      flex-direction: row !important;
+    }
+    .breadcrumb-item:not(.active) .breadcrumb-link {
+      color: #fef08a !important;
+      border-bottom: 1.5px solid #fef08a !important;
+      opacity: 0.9 !important;
+    }
+    .breadcrumb-item.active .breadcrumb-link {
+      color: white !important;
+      border-bottom: none !important;
+    }
+    .breadcrumb-separator {
+      color: #fef08a !important;
+      opacity: 0.5 !important;
+    }
+  </style>
 </head>
 <body>
 
@@ -1435,11 +1459,13 @@
   <script src="ca_data.js?v=1001"></script>
   <script src="data.js?v=1783159209789"></script>
   <script src="notes_generated.js?v=1"></script>
+  <script src="ai_generated_notes.js?v=9"></script>
+  <script src="inject_ai_notes.js?v=9"></script>
   <script src="extra_bank_data.js?v=3"></script>
 <script src="system_config.js"></script>
   <script src="wiki_links.js"></script>
   <script src="js/state_manager.js"></script>
-  <script src="app.js?v=1001"></script>
+  <script src="app.js?v=9992"></script>
   <script src="auth_logic.js"></script>
   <script src="notifications_bundle.js"></script>
   <script src="js/tell_me_more.js"></script>

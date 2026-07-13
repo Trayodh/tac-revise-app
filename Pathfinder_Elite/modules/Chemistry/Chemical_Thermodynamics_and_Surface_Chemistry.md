@@ -1,174 +1,48 @@
-**Chemical Thermodynamics and Surface Chemistry**
-=============================================
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">CHEMICAL THERMODYNAMICS AND SURFACE CHEMISTRY</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-### _**1. Chapter Overview: Exploring the Fundamentals**_
+CHEMICAL THERMODYNAMICS AND SURFACE CHEMISTRY THERMODYNAMICS • Only a very small amount of catalyst is sufficient to catalyse a reaction. A catalyst does not initiate a reaction.
 
-Chemical thermodynamics and surface chemistry are two interconnected disciplines that study the thermodynamic principles governing chemical reactions and the behavior of molecules at the surface of solids, liquids, and gases. This chapter delves into the underlying mechanics, applying mathematical formulas and theoretical frameworks to understand real-world phenomena.
+• A catalyst does not change the equilibrium state of a reversible reaction as it increases the rate of forward as well as backward reaction to the same extent.
 
-#### 1.1 **Mechanics of Surface Tension**
+• When a reversible reaction is performed in a closed container, a state is reached when the rate of forward and backward reactions become equal. This state is called chemical equilibrium or equilibrium state.
 
-The surface tension, a fundamental concept in surface chemistry, arises from the cohesive properties of molecules at the interface between phases. This phenomenon is responsible for the observed behavior of liquids, such as their tendency to minimize their surface area. The equation to calculate surface tension is:
+It deals with the study of heat and energy changes occurring during a physical and chemical processes. An open system can exchange matter as well as energy with its surroundings, e.g. hot tea in a cup. A closed system can exchange energy but not matter with its surroundings, hot water in a closed beaker.
 
-$$\gamma = \frac{F}{l}$$
+An isolated system can exchange neither matter nor energy with its surroundings, e.g. thermos flask.
 
-where $\gamma$ is the surface tension, $F$ is the force acting along the interface, and $l$ is the length of the interface.
+• Free energy change (∆G°) at equilibrium is zero.
 
-#### 1.2 **The Role of Entropy in Thermodynamics**
+Thermodynamic Processes Isothermal Process The process in which temperature of the system remains constant, i.e., dT = 0 Maximum work done during the isothermal expansion of ‘n’ moles of an ideal gas is given as max = −2 303nRT log Adiabatic Process The process in which no heat enters or leaves the system during any step of process, i.e.
 
-Entropy, a measure of disorder or randomness, plays a crucial role in thermodynamic systems. According to the second law of thermodynamics, the total entropy of a closed system always increases over time. The mathematical expression for entropy is:
+dq = 0.
 
-$$\Delta S = \frac{\Delta Q}{T}$$
+Isobaric Process The process which takes place at constant pressure, i.e. dp = 0. Isochoric Process The process in which volume of system remains constant, i.e. dV = 0. Cyclic Process In a cyclic process, a system in a given state goes through a series of different processes but finally returns to its initial state, i.e. dE or dU = 0.
 
-where $\Delta S$ is the change in entropy, $\Delta Q$ is the heat transferred, and $T$ is the absolute temperature.
+Spontaneous Process A process, i.e physical or chemical change, which can proceed by itself is known as spontaneous process. There are also some processes which require some initiation before they proceeds spontaneously, i.e. physical or chemical change. Types of Catalyst 1. Positive and Negative Catalysts A catalyst which increases the rate of a reaction (in forward direction) is called a positive catalyst while which decreases the rate of a reaction is called as negative catalyst.
 
-**Alert:** Entropy is a measure of disorder, not chaos.
+2. Induced Catalyst The product of one reaction acts as catalyst for another reaction is called induced catalyst.
 
-### _**2. Advanced Topics**_
+3. Catalytic Promoters and Inhibitors The substance which increases the activity of a catalyst are called promoters and which decreases the activity of a catalyst are called inhibitors.
 
-#### _**2.1 Kinetics of Adsorption and Desorption**_
+4. Catalytic Poisons Catalytic poisons destroy the activity of a catalyst completely.
 
-Adsorption and desorption are critical processes that occur at surfaces, influencing the behavior of molecules in various systems. Understanding these processes is essential for developing models of surface reaction kinetics.
+Enzyme Catalysis The increase in the rate of reactions by the enzyme is known as enzyme catalysis. Since, they increase the rate of reaction occurring in living organisms, they are known by the name biocatalysts.
 
-#### _**2.2 Phase Equilibria and Phase Diagrams**_
+• All enzymes are protein in nature. Enzymes are highly specific in their nature. They are highly sensitive to temperature, i.e. the temperature at which the activity of enzymes is maximum, varies between 25-37°C.
 
-Phase equilibria, which describe the coexistence of multiple phases at equilibrium conditions, are crucial in understanding surface chemistry and chemical thermodynamics. Phase diagrams, which represent the relationship between the temperatures and concentrations of phases, provide valuable insights into phase behavior.
+• The rates of enzymatic reactions are very much affected by pH change.
 
-#### _**2.3 Thermodynamic Cycles and Reversibility**_
+• It is also known as feasible and probable process.
 
-Thermodynamic cycles, which describe the operation of real-world systems, often involve complex processes. Reversibility, an important concept that allows systems to return to their initial state, is often utilized in the analysis of cyclic processes.
+Some Important Catalyst used in Different Processes Processes Catalyst used Manufacture of ghee from vegetable oils Nickel • The process is spontaneous, if free energy change, ∆G is negative. Haber’s process for the manufacture of ammonia Fe (here Mo, acts as an activator) Contact process for the manufacture of sulphuric acid Pt powder Surface chemistry deals with the phenomenon that occurs at the surface or interfaces. Conversion of proteins into peptide Pepsin enzyme Conversion of proteins into amino acids Erepsin enzyme Catalysis Conversion of glucose into ethanol Zymase enzyme Conversion of starch into maltose Diastase enzyme Formation of vinegar from cane sugar Mycoderma aceti The term catalyst is given by Berzelius. A catalyst is a substance which alters the rate of reaction without being consumed in it and the phenomenon is known as catalysis.
 
-### _**3. Real-World Applications**_
+Conversion of sucrose into glucose and fructose Invertase enzyme Conversion of milk into curd Lactase (lactobacilli) General Characteristics of Catalysts Ostwald’s process for the manufacture of nitric acid (HNO 3) Platinum (Pt) • A catalyst remains unchanged in mass and chemical composition during a reaction. GENERAL SCIENCE COLLOIDS Types of Emulsions There are two types of emulsions • Oil in water type e.g. milk in which tiny droplets of liquid fat are dispersed in water.
 
-#### _**3.1 Applications in Materials Science**_
+• Water in oil type e.g. stiff greases, in which water being dispersed in lubricating oil.
 
-Understanding chemical thermodynamics and surface chemistry is essential in materials science, as it allows scientists to design and synthesize novel materials with desired properties.
+In a colloid, the size of solute particles is bigger than that of true solution but smaller than that of suspension, i.e. lies in between 1 to 100 nm. A colloidal solution is a heterogeneous system in which one substance is dispersed as very fine particles in another substance, called dispersion medium.
 
-#### _**3.2 Biochemical Reactions and Enzyme Catalysis**_
 
-The principles of chemical thermodynamics and surface chemistry are also crucial in understanding biochemical reactions and enzyme catalysis, as enzymes often work on surfaces and interact with molecules at the surface.
-
-### **4. Practice Questions**
-
-#### 4.1 **Q1:**
-What are the main factors that contribute to surface tension?
-
-[> **A**: Cohesion between molecules, adhesion to the container, and temperature.]
-[> **B**: Cohesion between molecules, temperature, and the container's curvature.]
-[> **C**: Adhesion to the container, temperature, and the container's curvature.]
-[> **D**: None of the above.]
-
-#### 4.2 **Q2:**
-
-What is the primary function of phase diagrams in chemical thermodynamics and surface chemistry?
-
-[> **A**: To predict the phase behavior of mixtures at various temperatures and concentrations.]
-[> **B**: To calculate the entropy change in a system.]
-[> **C**: To determine the surface tension of liquids.]
-[> **D**: To design novel materials with desired properties.]
-
-#### 4.3 **Q3:**
-What is the concept of reversibility in thermodynamic cycles?
-
-[> **A**: The ability of a system to return to its initial state.]
-[> **B**: The maximum efficiency of a system.]
-[> **C**: The minimum entropy change in a system.]
-[> **D**: None of the above.]
-
-#### 4.4 **Q4:**
-
-What is the primary function of enzymes in biochemical reactions?
-
-[> **A**: To facilitate the breakdown of large molecules into smaller units.]
-[> **B**: To synthesize new molecules.]
-[> **C**: To catalyze chemical reactions at surfaces.]
-[> **D**: None of the above.]
-
-#### 4.5 **Q5:**
-
-What is the mathematical expression for the change in entropy in a system?
-
-[> **A**: ΔS = ΔQ / T.]
-[> **B**: ΔS = Q / T.]
-[> **C**: ΔS = -ΔQ / T.]
-[> **D**: None of the above.]
-
-#### 4.6 **Q6:**
-What is the name of the theory that describes the behavior of molecules at surfaces?
-
-[> **A**: The Kinetic Theory of Gases.]
-[> **B**: The Thermodynamic Theory of Surfaces.]
-[> **C**: The Theory of Adsorption and Desorption.]
-[> **D**: None of the above.]
-
-#### 4.7 **Q7:**
-
-What is the concept of phase equilibria in chemical thermodynamics and surface chemistry?
-
-[> **A**: The coexistence of multiple phases at equilibrium conditions.]
-[> **B**: The maximum entropy change in a system.]
-[> **C**: The minimum temperature of a system.]
-[> **D**: None of the above.]
-
-#### 4.8 **Q8:**
-
-What is the primary purpose of thermodynamic cycles in real-world applications?
-
-[> **A**: To design novel materials with desired properties.]
-[> **B**: To predict the phase behavior of mixtures at various temperatures and concentrations.]
-[> **C**: To determine the surface tension of liquids.]
-[> **D**: To calculate the entropy change in a system.]
-
-#### 4.9 **Q9:**
-
-What is the name of the equation that describes the behavior of surface tension?
-
-[> **A**: The equation of state.]
-[> **B**: The equation of motion.]
-[> **C**: The equation for surface tension.]
-[> **D**: None of the above.]
-
-#### 4.10 **Q10:**
-
-What is the concept of reversibility in real-world applications?
-
-[> **A**: The ability of a system to return to its initial state.]
-[> **B**: The maximum efficiency of a system.]
-[> **C**: The minimum entropy change in a system.]
-[> **D**: None of the above.]
-
-### _**5. Detailed Explanations**_
-
-Each question above will have a detailed explanation provided below:
-
-**Q1:** The correct answer is **A**: Cohesion between molecules, adhesion to the container, and temperature. Cohesion between molecules is the primary contributor to surface tension, as it causes molecules to stick together and resist external forces.
-
-**Q2:** The correct answer is **A**: To predict the phase behavior of mixtures at various temperatures and concentrations. Phase diagrams provide valuable insights into the behavior of systems at equilibrium conditions.
-
-**Q3:** The correct answer is **A**: The ability of a system to return to its initial state. Reversibility is an important concept in thermodynamic cycles, allowing systems to operate in a reversible fashion.
-
-**Q4:** The correct answer is **C**: To catalyze chemical reactions at surfaces. Enzymes are biological molecules that facilitate chemical reactions on surfaces, speeding up reaction rates.
-
-**Q5:** The correct answer is **A**: ΔS = ΔQ / T. This equation represents the change in entropy in a system due to the transfer of heat.
-
-**Q6:** The correct answer is **C**: The Theory of Adsorption and Desorption. This theory describes the behavior of molecules at surfaces, including adsorption and desorption.
-
-**Q7:** The correct answer is **A**: The coexistence of multiple phases at equilibrium conditions. Phase equilibria describe the behavior of systems at equilibrium conditions, where multiple phases coexist.
-
-**Q8:** The correct answer is **B**: To predict the phase behavior of mixtures at various temperatures and concentrations. Thermodynamic cycles are used to design and predict the behavior of real-world systems.
-
-**Q9:** The correct answer is **C**: The equation for surface tension. The equation that describes the behavior of surface tension is the equation for surface tension.
-
-**Q10:** The correct answer is **A**: The ability of a system to return to its initial state. Reversibility is an important concept in real-world applications, allowing systems to operate in a reversible fashion.
-
-### **6. Conclusion**
-
-Chemical thermodynamics and surface chemistry are fundamental disciplines that govern the behavior of molecules and systems at the atomic and molecular level. Understanding these concepts is essential for designing and predicting the behavior of real-world systems. This chapter has provided an introduction to the fundamental principles of chemical thermodynamics and surface chemistry, including the mechanics of surface tension, the role of entropy, and the behavior of molecules at surfaces. The questions above provide a comprehensive review of these concepts, with detailed explanations for each question.
-
-| Concept | Definition |
-| --- | --- |
-| Surface Tension | The cohesive force between molecules at the interface between two phases. |
-| Entropy | A measure of disorder or randomness in a system. |
-| Phase Diagrams | Graphs that represent the relationship between the temperatures and concentrations of phases. |
-| Phase Equilibria | The coexistence of multiple phases at equilibrium conditions. |
-| Thermodynamic Cycles | Real-world systems that operate based on thermodynamic principles. |
-| Adsorption and Desorption | The process by which molecules adsorb
+</div>

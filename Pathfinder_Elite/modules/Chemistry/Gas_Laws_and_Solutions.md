@@ -1,104 +1,52 @@
-**Chapter Overview: Gas Laws and Solutions**
-__________________________________________________
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">GAS LAWS AND SOLUTIONS</h3>
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
 
-Gas Laws describe the relationships between pressure, volume, and temperature of ideal gases. These fundamental principles have far-reaching implications for various fields, including physics, chemistry, and engineering.
+• Oxidation state of elements of IA, IIA and IIIA subgroups in their compounds are + 1, + 2 and + 3, respectively.
 
-### 1.1 The Ideal Gas Law
-____________________________________________________
-The Ideal Gas Law, derived from the combined gas law, relates the pressure (P), volume (V), and temperature (T) of a gas: $PV = nRT$. This fundamental equation governs the behavior of ideal gases, assuming negligible intermolecular forces.
+• The algebraic sum of the oxidation states of all elements present in polyatomic ion is equal to the charge on the ion.
 
-### 1.2 Mechanics of Atmospheric Pressure Systems
-_____________________________________________________
-Atmospheric pressure is a crucial aspect of gas laws. The atmospheric pressure exerted on the surface of the Earth is a result of the weight of the atmosphere. Atmospheric pressure decreases with altitude due to the decrease in atmospheric density with altitude.
+• Oxidation state of fluorine (F) is always −1.
 
-### 1.3 Applications of Gas Laws
-____________________________________________________
-Gas laws have numerous practical applications, including:
+• Oxidation state of any ion is equal to its charge present on it.
 
-*   **Scuba diving**: Understanding the effects of pressure on gas volumes enables safe and enjoyable dives.
-*   **Industrial processes**: Compressing gases for industrial use requires knowledge of gas laws to optimize efficiency and safety.
-*   **Weather forecasting**: Understanding atmospheric pressure systems is essential for predicting weather patterns.
+• The algebraic sum of oxidation states of all the elements in the neutral molecule is zero.
 
-### 1.4 Mathematical Formulation of Gas Laws
-____________________________________________________
-LaTeX block displaying the Ideal Gas Law:
+² Note Compounds of all elements with oxygen are called oxides with the exception of fluorine in case of which it is called fluorides, e.g.
 
-$$PV = nRT$$
+oxygen fluoride ( OF2 .
 
-### 2.0 Solutions to Gas Laws
-_____________________________________________________
-## 2.1 Properties of Ideal Solutions
-Ideal solutions are mixtures of gases or liquids that obey the Ideal Gas Law. In an ideal solution, the interactions between molecules are negligible, and the molecules behave like an ideal gas.
+GAS LAWS AND SOLUTIONS GAS EQUATION GAS LAWS Gases exhibit dependency on temperature, pressure, volume and mass. These interrelations can be analysed by gas laws. At STP/NTP, temperature, ( T = 27315 K, pressure ( ) p = 1 atm = 101 35 kPa, volume, ( V = 22 4 L mol−1 Some gas laws are given below The three laws (Boyle’s, Charle’s and Avogadro’s law) can be combined together in a single equation which is known as ideal gas equation. ∝1/ (Boyle’s law) (Charles’ law) (Avogadro’s law) Boyle’s Law (Robert Boyle-1662) On combining, V nT • At constant temperature, the volume of fixed mass of a gas is inversely proportional to its pressure.
 
-## 2.2 Ideal Mixing Rules
-____________________________________________________
-The Ideal Mixing Rules describe how the properties of a mixture change as the proportions of its components change. These rules are essential for understanding the behavior of mixtures.
+or R nT ∝1 [at constant temperature and moles (n)] or pV nRT (where, R = gas constant) For 1 mole, pV RT or p V p V Charles’ Law (Jacques Charles-1787) • Value of gas constant, R depends upon the units of measurements. R = 0.0821 L atm mol−1 K−1 = 8.3143 J mol−1 K−1 = 5.189 10 eV mol = 1.99 cal mol−1 K−1 Gas constant, R for a single molecule is called Boltzmann • At constant pressure, volume of fixed mass of a gas is directly proportional to the absolute temperature. (at constant pressure and moles) 6 022 10 23 Gay Lussac’s Law (J.Gay Lussac-1802) constant (k) or k • Density of a gas is directly proportional to pressure and inversely related to temperature, i.e.
 
-### 3.0 AI Contextual Enrichment & Smart Work Layer
-____________________________________________________
+pM RT Q n Mass Molecular weight • At constant volume, the pressure of fixed mass of a gas is directly proportional to its temperature. [at constant volume and moles] Avogadro’s Law (Amedeo Avogadro-1811) Graham’s Law of Diffusion (or Effusion) • At constant temperature and pressure, the volume of any gas is directly proportional to the number of moles of gas. [at constant T and P] The rate of diffusion (r) of a gas at constant temperature and pressure is inversely proportional to the square root of its molecular mass, M or density, d.
 
-*   **Edge Cases**: When dealing with gas laws, edge cases can arise, such as extreme temperatures or pressures. Understanding these cases is crucial to accurately applying gas laws.
-*   **High-Frequency Trends**: Analyzing high-frequency trends in atmospheric pressure can help scientists and researchers predict weather patterns.
+or GENERAL SCIENCE Molality (m) The number of moles of solute dissolved in 1000 g of a solvent is called its molality. Maxwell’s Distribution of Molecular Speeds (Velocities) Thus, m = Weight of solute (in g) Molecular weight weight of solvent (in g) Normality (N) The number of gram equivalents of solute dissolved in one litre of solution is known as its normality. Maxwell and Boltzmann proposed that gas molecules are always in rapid random motion colliding with each other and with the walls of container because of which their velocity changes. On increasing temperature, the velocity or molecular motion increases because of which the rate of reaction increases.
 
-### 4.0 High-Yield Questions
-____________________________________________________
+N = Weight of solute (in g) Equivalent weight volume of solution (in mL) SOLUTION ² Note Normality and molarity are affected by temperature as these depend upon the volume whereas molality remains unaffected from temperature change. Henry’s Law According to this law, ‘at particular temperature, the solubility of a gas in a liquid is directly proportional to the pressure of the gas above the solvent.
 
-```markdown
-**Question 1:** Which gas law describes the relationship between pressure, volume, and temperature of a gas?
-> A) Boyles Law
-> B) Charle's Law
-> C) Ideal Gas Law
-> D) Avogadro's Law
-**Correct Option:** C) Ideal Gas Law
+Its main applications are as follow:
 
-**Question 2:** A gas is initially at standard temperature and pressure (STP). If the temperature is doubled and the volume is quadrupled, what happens to the pressure?
-> A) It increases by a factor of 2
-> B) It decreases by a factor of 2
-> C) It remains the same
-> D) It becomes undefined
-**Correct Option:** A) It increases by a factor of 2
+– Soft drinks and soda water bottles are sealed under high pressure in order to increase the solubility of CO2 in them. A solution is a homogeneous mixture of two or more substances on molecular level is called true solution or solution. e.g. lemonade, soda water. The substance which is dissolved in a liquid to make a solution is called ‘solute’ and the liquid in which the solute is dissolved is called ‘solvent’. A true solution does not scatter light and its particles cannot be seen even by microscope. e.g. salt solution, sea water, sugar solution, copper sulphate solution, vinegar, etc.
 
-**Question 3:** What is the volume of a gas that is compressed from 2 liters to 1 liter at a constant temperature?
-> A) 2 liters
-> B) 1 liter
-> C) 0.5 liters
-> D) 0.25 liters
-**Correct Option:** C) 0.5 liters
-```
+Depending upon the amount of solute present, the solutions can be classified as : – To minimise the painful effects (bends) accompanying the decompression of deep sea divers, oxygen diluted with less soluble helium gas is used as breathing gas.
 
-### 5.0 The Exhaustive Testing Engine
-____________________________________________________
+• A solution, in which more quantity of solute can be dissolved without raising its temperature is called an unsaturated solution.
 
-#### Question 1
-**Question:** A gas is initially at a pressure of 100 kPa. If the volume is increased by a factor of 3 and the temperature is decreased by a factor of 2, what is the new pressure?
-**A)** 20 kPa
-**B)** 30 kPa
-**C)** 40 kPa
-**D)** 50 kPa
-**Correct Option:** C) 40 kPa
-**Explanation:** Using the combined gas law (P1V1/T1 = P2V2/T2), we can calculate the new pressure: P2 = P1 x V1/V2 x T2/T1 = 100 kPa x (1/3) x (1/2) = 16.67 kPa. However, considering only the volume is increased by a factor of 3 and temperature is decreased by a factor of 2 (keeping the initial pressure as a factor), we can calculate as P1 \* (1/3) \* (1/2) to get the initial factor, then multiply by 100 kPa which gives us 40 kPa.
+– Oxygen diluted with nitrogen cannot be used for this purpose due to high solubility of N2 in blood.
 
-#### Question 2
-**Question:** What is the volume of a gas at a pressure of 200 kPa and a temperature of 300 K if the gas follows Boyle's Law?
-**A)** 0.5 liters
-**B)** 1 liter
-**C)** 2 liters
-**D)** 4 liters
-**Correct Option:** B) 1 liter
-**Explanation:** Using Boyle's Law (P1V1 = P2V2), we can calculate the new volume: P1V1 = P2V2 -> V2 = P1V1/P2. Assuming the initial volume is 1 liter, we can calculate the new volume: V2 = 200 kPa x 1 liter / 400 kPa = 0.5 liters for initial pressure of 200 kPa and a factor of 2, thus 1 liter for our calculation.
+• A solution, in which no more solute can be dissolved at that temperature is called a saturated solution.
 
-#### Question 3
-**Question:** What is the pressure of a gas at a volume of 0.1 liters and a temperature of 200 K if the gas follows Gay-Lussac's Law?
-**A)** 100 kPa
-**B)** 200 kPa
-**C)** 400 kPa
-**D)** 800 kPa
-**Correct Option:** C) 400 kPa
-**Explanation:** Using Gay-Lussac's Law (T1/P1 = T2/P2), we can calculate the new pressure: T1/P1 = T2/P2 -> P2 = T2 x P1 / T1. Assuming the initial pressure is 100 kPa, we can calculate the new pressure: P2 = 200 K x 100 kPa / 400 K = 50 kPa for initial pressure of 100 kPa which is doubled, thus new pressure for the conditions specified is 100 kPa \* 2 = 200 kPa \* 2 = 400 kPa.
+Osmosis It is the process of movement of solvent molecules from the solution of low concentration to high concentration through semipermeable membrane. Concentration of a Solution The amount of a solute dissolved in unit weight or volume of solution is called strength (concentration) of a solution. So, concentration of a solution = Amount of solute (in g) Weight of solution = Amount of solute (in g) Volume of solution • If pressure greater than osmotic pressure (pressure require to stop osmosis) is applied on the solution of high concentration, reverse osmosis takes place. e.g.
+
+desalination of sea water.
+
+• Isotonic solutions have same concentration and osmotic pressure. e.g. 0.91% solution of pure NaCl is isotonic with human red blood cells (RBCs).
+
+Diffusion Different Terms to Express Concentration Parts Per Million It shows the parts of solute present per million parts of solution, i.e. ppm. Mass of solute (in g) Volume of solution (in mL) Molarity (M) The number of moles of solute dissolved in one litre of solution is called its molarity. Thus, M = Weight of solute (in g) Molecular weight × volume of solution (in mL) • Diffusion is the process of spontaneous mixing of different gases and in this process, molecules of a substance move from higher concentration to lower concentration and goes on until a uniform mixture is formed. Its rate is highest for gases and lowest in solids.
+
+e.g. the smell of food being cooked, reaches us even from a considerable distance by the process of diffusion. Due to diffusion the scent spread all over the room if the lid is opened.
 
 
-**...**
-
-### Final Conclusion
-
-This textbook library module on Gas Laws and Solutions provides a comprehensive understanding of the fundamental principles of gas laws and their applications. The high-yield questions and exhaustive testing engine ensure that learners are well-equipped to analyze and solve problems related to gas laws and solutions. By mastering these concepts, learners will be able to tackle real-world problems and applications in physics, chemistry, and engineering.
+</div>
