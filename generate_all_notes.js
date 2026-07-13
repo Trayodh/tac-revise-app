@@ -132,10 +132,33 @@ async function run() {
       }
     }
     
+    let source1Text = '';
+    let source2Text = '';
+    let source3Text = '';
+
+    // Map subjectId to file names
+    let mappedSubject = subjectId;
+    if (subjectId === 'polity') mappedSubject = 'indian_polity';
+    if (subjectId === 'economics') mappedSubject = 'indian_economy';
+    if (subjectId === 'english') mappedSubject = 'general_english';
+
+    try { source1Text = fs.readFileSync(`pdf_chunks/${mappedSubject}_pathfinder.txt`, 'utf8'); } catch(e){}
+    try { source2Text = fs.readFileSync(`pdf_chunks/${mappedSubject}_insight_ssb.txt`, 'utf8'); } catch(e){}
+    try { source3Text = fs.readFileSync(`pdf_chunks/general_science_ssbcrack.txt`, 'utf8'); } catch(e){}
+
     let prompt = `Generate extremely detailed, premium study notes in raw HTML for the topic: "${topic.title}"
 Chapter: "${chapter.title}" | Subject: ${subject.title} | Exam: NDA / CDS / AFCAT
 
-Start your output DIRECTLY with this opening tag (no preamble, no markdown):
+[SOURCE 1: PATHFINDER]
+${source1Text.substring(0, 15000)}
+
+[SOURCE 2: INSIGHT SSB]
+${source2Text.substring(0, 5000)}
+
+[SOURCE 3: SSBCRACK]
+${source3Text.substring(0, 5000)}
+
+Based on the 3 sources above, start your output DIRECTLY with this opening tag (no preamble, no markdown):
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
     ${topic.title}

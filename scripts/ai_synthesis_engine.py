@@ -153,13 +153,13 @@ def main():
                     writer.writerows(csv_rows)
 
                 print(f"Successfully generated {file_path}")
-                time.sleep(5) # Respect Gemini 15 RPM limit
+                time.sleep(15) # Respect Gemini rate limit more conservatively
                 
             except Exception as e:
                 print(f"Failed to generate {title} after retries: {e}")
                 
             # Rate limiting delay
-            time.sleep(5)
+            time.sleep(15)
             
             # FOR TESTING: Stop after processing the first topic
             if os.environ.get("TEST_RUN", "False") == "True":
@@ -174,7 +174,7 @@ def main():
     try:
         subprocess.run(["python", "scripts/compile_notes.py"], check=True)
         print("Committing and pushing to Vercel...")
-        subprocess.run(["git", "add", "output/modules", "output/metadata.json", "output/toc.json", "output/chapters.csv", "www/notes_generated.js"], check=True)
+        subprocess.run(["git", "add", "output/modules", "output/metadata.json", "output/toc.json", "output/chapters.csv", "notes_generated.js"], check=True)
         subprocess.run(["git", "commit", "-m", "Auto-generated modules and compiled notes"], check=False) # Check=False in case there are no changes
         subprocess.run(["git", "push"], check=True)
         print("Successfully deployed to Vercel!")

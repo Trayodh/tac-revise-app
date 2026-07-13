@@ -123357,4 +123357,5262 @@ const CBT_EXAMS_DATABASE = [
       }
     ]
   }
+,
+  {
+  "id": "mock-gs-cell-biology",
+  "exam": "NDA",
+  "subject": "General Science",
+  "title": "Cell Biology — Practice Test",
+  "topic": "Biology",
+  "duration": 35,
+  "questionsCount": 50,
+  "rules": {
+    "correctMarks": 4,
+    "incorrectMarks": -1.33,
+    "examType": "NDA"
+  },
+  "questions": [
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To regulate the movement of materials in and out of the cell",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitochondria",
+        "b": "Chloroplast",
+        "c": "Endoplasmic reticulum",
+        "d": "Golgi apparatus"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To assemble ribosomal subunits",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitosis",
+        "b": "Meiosis",
+        "c": "Binary fission",
+        "d": "Endoreduplication"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To modify, sort, and package proteins and lipids for secretion or use within the cell",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitochondria",
+        "b": "Chloroplast",
+        "c": "Endoplasmic reticulum",
+        "d": "Golgi apparatus"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To degrade and recycle cellular waste and foreign substances",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Prokaryotic cell",
+        "b": "Eukaryotic cell",
+        "c": "Archaeal cell",
+        "d": "Bacterial cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To provide structural support, shape, and movement to the cell",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Prophase",
+        "b": "Metaphase",
+        "c": "Anaphase",
+        "d": "Telophase"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To form the spindle apparatus during cell division",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitosis",
+        "b": "Meiosis",
+        "c": "Binary fission",
+        "d": "Endoreduplication"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To regulate the movement of materials in and out of the nucleus",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitochondria",
+        "b": "Peroxisome",
+        "c": "Endoplasmic reticulum",
+        "d": "Golgi apparatus"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To regulate the movement of materials in and out of the cell",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Prophase",
+        "b": "Metaphase",
+        "c": "Anaphase",
+        "d": "Telophase"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To provide a medium for chemical reactions and cellular processes",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Prokaryotic cell",
+        "b": "Eukaryotic cell",
+        "c": "Plant cell",
+        "d": "Animal cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To store water, salts, and other substances",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitochondria",
+        "b": "Endoplasmic reticulum",
+        "c": "Golgi apparatus",
+        "d": "Peroxisome"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To provide structural support and shape to the cell",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "G1",
+        "b": "S",
+        "c": "G2",
+        "d": "M"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To attach sister chromatids together",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitosis",
+        "b": "Meiosis",
+        "c": "Binary fission",
+        "d": "Endoreduplication"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To protect the ends of chromosomes from degradation",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitochondria",
+        "b": "Peroxisome",
+        "c": "Lysosome",
+        "d": "Golgi apparatus"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To provide structural support and shape to the cell",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "G1",
+        "b": "S",
+        "c": "G2",
+        "d": "M"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To provide structural support and shape to the cell",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Prokaryotic cell",
+        "b": "Eukaryotic cell",
+        "c": "Plant cell",
+        "d": "Animal cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To separate sister chromatids during mitosis",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitochondria",
+        "b": "Endoplasmic reticulum",
+        "c": "Golgi apparatus",
+        "d": "Peroxisome"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To attach the chromosome to the spindle fibers",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "G1",
+        "b": "S",
+        "c": "G2",
+        "d": "M"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To regulate the movement of materials in and out of the nucleus",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Prokaryotic cell",
+        "b": "Eukaryotic cell",
+        "c": "Plant cell",
+        "d": "Animal cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To provide structural support to the nucleus",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitochondria",
+        "b": "Peroxisome",
+        "c": "Lysosome",
+        "d": "Golgi apparatus"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To provide movement and sensation to the cell",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "G1",
+        "b": "S",
+        "c": "G2",
+        "d": "M"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To provide movement to the cell",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Prokaryotic cell",
+        "b": "Eukaryotic cell",
+        "c": "Plant cell",
+        "d": "Animal cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To synthesize lipids and detoxify the cell",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitochondria",
+        "b": "Peroxisome",
+        "c": "Lysosome",
+        "d": "Golgi apparatus"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To transport materials throughout the cell",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "G1",
+        "b": "S",
+        "c": "G2",
+        "d": "M"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To provide adhesion between adjacent cells",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Prokaryotic cell",
+        "b": "Eukaryotic cell",
+        "c": "Plant cell",
+        "d": "Animal cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To synthesize proteins",
+        "b": "To store genetic information",
+        "c": "To provide direct communication between adjacent cells",
+        "d": "To generate energy for the cell"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mitochondria",
+        "b": "Peroxisome",
+        "c": "Lysosome",
+        "d": "Golgi apparatus"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-cell-biology"
+    }
+  ]
+}
+,
+  {
+  "id": "mock-gs-human-nutrition",
+  "exam": "CDS",
+  "subject": "General Science",
+  "title": "Human Nutrition — Practice Test",
+  "topic": "Biology",
+  "duration": 35,
+  "questionsCount": 50,
+  "rules": {
+    "correctMarks": 1,
+    "incorrectMarks": -0.33,
+    "examType": "CDS"
+  },
+  "questions": [
+    {
+      "question": "",
+      "options": {
+        "a": "Fat-soluble and water-soluble",
+        "b": "Macro and trace vitamins",
+        "c": "Essential and non-essential vitamins",
+        "d": "Organic and inorganic vitamins"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Vitamin A",
+        "b": "Vitamin B1",
+        "c": "Vitamin C",
+        "d": "Vitamin D"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Carbohydrate metabolism",
+        "b": "DNA synthesis and RBC formation",
+        "c": "Collagen synthesis",
+        "d": "Lipid antioxidant"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Calcium",
+        "b": "Phosphorus",
+        "c": "Potassium",
+        "d": "Iron"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "2000 kcal",
+        "b": "2500 kcal",
+        "c": "3000 kcal",
+        "d": "3500 kcal"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antioxidant and collagen synthesis",
+        "b": "Carbohydrate metabolism",
+        "c": "DNA synthesis",
+        "d": "Lipid metabolism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Vitamin A",
+        "b": "Vitamin C",
+        "c": "Vitamin K",
+        "d": "Vitamin E"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypovitaminosis",
+        "b": "Hyper-vitaminosis",
+        "c": "Avitaminosis",
+        "d": "Vitamin deficiency"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "500 mg",
+        "b": "1000 mg",
+        "c": "1500 mg",
+        "d": "2000 mg"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Carbohydrate metabolism",
+        "b": "DNA synthesis",
+        "c": "Hemoglobin synthesis",
+        "d": "Lipid metabolism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Calcium",
+        "b": "Phosphorus",
+        "c": "Potassium",
+        "d": "Magnesium"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "40 g",
+        "b": "60 g",
+        "c": "80 g",
+        "d": "100 g"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Scurvy",
+        "b": "Rickets",
+        "c": "Osteomalacia",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antioxidant",
+        "b": "Carbohydrate metabolism",
+        "c": "DNA synthesis",
+        "d": "Lipid metabolism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Vitamin A",
+        "b": "Vitamin D",
+        "c": "Vitamin E",
+        "d": "Vitamin K"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "2000 kcal",
+        "b": "2200 kcal",
+        "c": "2500 kcal",
+        "d": "2800 kcal"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Carbohydrate metabolism",
+        "b": "DNA synthesis",
+        "c": "Immune function",
+        "d": "Lipid metabolism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Beriberi",
+        "b": "Scurvy",
+        "c": "Rickets",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Calcium",
+        "b": "Phosphorus",
+        "c": "Potassium",
+        "d": "Magnesium"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Blood clotting",
+        "b": "Carbohydrate metabolism",
+        "c": "DNA synthesis",
+        "d": "Lipid metabolism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Rickets",
+        "b": "Osteomalacia",
+        "c": "Scurvy",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "10 mg",
+        "b": "17 mg",
+        "c": "20 mg",
+        "d": "25 mg"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Carbohydrate metabolism",
+        "b": "DNA synthesis",
+        "c": "Nerve and muscle function",
+        "d": "Lipid metabolism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Megaloblastic anemia",
+        "b": "Scurvy",
+        "c": "Rickets",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Zinc",
+        "b": "Iron",
+        "c": "Calcium",
+        "d": "Potassium"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antioxidant",
+        "b": "Carbohydrate metabolism",
+        "c": "DNA synthesis",
+        "d": "Lipid metabolism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hemolytic anemia",
+        "b": "Scurvy",
+        "c": "Rickets",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "20 mg",
+        "b": "40 mg",
+        "c": "60 mg",
+        "d": "80 mg"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Carbohydrate metabolism",
+        "b": "DNA synthesis",
+        "c": "Connective tissue health",
+        "d": "Lipid metabolism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Goiter",
+        "b": "Scurvy",
+        "c": "Rickets",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Vitamin A",
+        "b": "Vitamin B1",
+        "c": "Vitamin C",
+        "d": "Vitamin E"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antioxidant",
+        "b": "Carbohydrate metabolism",
+        "c": "DNA synthesis",
+        "d": "Lipid metabolism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Easy bruising",
+        "b": "Scurvy",
+        "c": "Rickets",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "20 g",
+        "b": "25 g",
+        "c": "30 g",
+        "d": "35 g"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Carbohydrate metabolism",
+        "b": "DNA synthesis",
+        "c": "Lipid metabolism",
+        "d": "Insulin function"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Increased risk of cancer",
+        "b": "Scurvy",
+        "c": "Rickets",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Vitamin A",
+        "b": "Vitamin B1",
+        "c": "Vitamin C",
+        "d": "Vitamin E"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antioxidant",
+        "b": "Carbohydrate metabolism",
+        "c": "DNA synthesis",
+        "d": "Tooth health"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Seizures",
+        "b": "Scurvy",
+        "c": "Rickets",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "400 IU",
+        "b": "600 IU",
+        "c": "800 IU",
+        "d": "1000 IU"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antioxidant",
+        "b": "Carbohydrate metabolism",
+        "c": "DNA synthesis",
+        "d": "Bone health"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Pellagra",
+        "b": "Scurvy",
+        "c": "Rickets",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Vitamin A",
+        "b": "Vitamin B1",
+        "c": "Vitamin C",
+        "d": "Vitamin E"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antioxidant",
+        "b": "Carbohydrate metabolism",
+        "c": "DNA synthesis",
+        "d": "Bone health"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Megaloblastic anemia",
+        "b": "Scurvy",
+        "c": "Rickets",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "500 mg",
+        "b": "1000 mg",
+        "c": "1200 mg",
+        "d": "1500 mg"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antioxidant",
+        "b": "Carbohydrate metabolism",
+        "c": "DNA synthesis",
+        "d": "Insulin function"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Impaired wound healing",
+        "b": "Scurvy",
+        "c": "Rickets",
+        "d": "Night blindness"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "40 g",
+        "b": "50 g",
+        "c": "60 g",
+        "d": "70 g"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antioxidant",
+        "b": "Carbohydrate metabolism",
+        "c": "DNA synthesis",
+        "d": "Energy production"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-human-nutrition"
+    }
+  ]
+}
+,
+  {
+  "id": "mock-gs-digestive-system",
+  "exam": "NDA",
+  "subject": "General Science",
+  "title": "Human Digestive System — Practice Test",
+  "topic": "Biology",
+  "duration": 35,
+  "questionsCount": 50,
+  "rules": {
+    "correctMarks": 4,
+    "incorrectMarks": -1.33,
+    "examType": "NDA"
+  },
+  "questions": [
+    {
+      "question": "",
+      "options": {
+        "a": "Mechanical digestion of food",
+        "b": "Chemical digestion of food",
+        "c": "Absorption of nutrients",
+        "d": "Both mechanical and chemical digestion of food"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To denature proteins and kill microbes",
+        "b": "To emulsify fats",
+        "c": "To absorb nutrients",
+        "d": "To break down carbohydrates"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To activate pepsinogen",
+        "b": "To bind vitamin B12 for absorption",
+        "c": "To emulsify fats",
+        "d": "To break down proteins"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce bile salts",
+        "b": "To secrete enzymes for carbohydrate, protein, and fat digestion",
+        "c": "To absorb nutrients",
+        "d": "To store and concentrate bile"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To break down proteins",
+        "b": "To emulsify fats, increasing the surface area for lipase action",
+        "c": "To absorb carbohydrates",
+        "d": "To digest cellulose"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Stomach",
+        "b": "Small intestine",
+        "c": "Large intestine",
+        "d": "Liver"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mechanical digestion of food",
+        "b": "Chemical digestion of food",
+        "c": "Absorption of water and electrolytes, and formation of feces",
+        "d": "Production of digestive enzymes"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To regulate heart rate",
+        "b": "To control the immune system",
+        "c": "To regulate peristalsis and secretions in the GI tract",
+        "d": "To manage blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To stimulate the secretion of gastric acid",
+        "b": "To inhibit the secretion of digestive enzymes",
+        "c": "To promote the absorption of nutrients",
+        "d": "To regulate bowel movements"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mechanical digestion breaks down food into smaller pieces, while chemical digestion involves the use of enzymes to break down food",
+        "b": "Mechanical digestion involves the use of enzymes, while chemical digestion breaks down food into smaller pieces",
+        "c": "Mechanical digestion occurs in the stomach, while chemical digestion occurs in the small intestine",
+        "d": "Mechanical digestion is more important than chemical digestion"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To break down proteins into amino acids",
+        "b": "To break down carbohydrates into simple sugars",
+        "c": "To break down fats into fatty acids and glycerol",
+        "d": "To absorb nutrients"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb water and electrolytes",
+        "b": "To absorb carbohydrates, proteins, and fats",
+        "c": "To produce digestive enzymes",
+        "d": "To store and concentrate bile"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce bile salts",
+        "b": "To store and concentrate bile",
+        "c": "To detoxify the blood",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce bile salts",
+        "b": "To store and concentrate bile",
+        "c": "To absorb nutrients",
+        "d": "To produce digestive enzymes"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce insulin",
+        "b": "To produce glucagon",
+        "c": "To produce digestive enzymes",
+        "d": "Both a and b"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb vitamin B12 from food",
+        "b": "To produce intrinsic factor",
+        "c": "To store and concentrate bile",
+        "d": "To produce digestive enzymes"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb water and electrolytes",
+        "b": "To produce mucus",
+        "c": "To form feces through the process of fermentation",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To regulate heart rate",
+        "b": "To control the immune system",
+        "c": "To regulate peristalsis and secretions in the GI tract",
+        "d": "To manage blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To inhibit the secretion of gastric acid",
+        "b": "To stimulate the secretion of gastric acid",
+        "c": "To promote the absorption of nutrients",
+        "d": "To regulate bowel movements"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb amino acids from food",
+        "b": "To produce digestive enzymes",
+        "c": "To store and concentrate bile",
+        "d": "To produce intrinsic factor"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce insulin",
+        "b": "To produce glucagon",
+        "c": "To produce digestive enzymes",
+        "d": "Both a and b"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce bile salts",
+        "b": "To store and concentrate bile",
+        "c": "To detoxify the blood",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce bile salts",
+        "b": "To store and concentrate bile",
+        "c": "To absorb nutrients",
+        "d": "To produce digestive enzymes"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb glucose from food",
+        "b": "To produce digestive enzymes",
+        "c": "To store and concentrate bile",
+        "d": "To produce intrinsic factor"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce insulin",
+        "b": "To produce glucagon",
+        "c": "To produce digestive enzymes",
+        "d": "Both a and b"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb water and electrolytes",
+        "b": "To produce mucus",
+        "c": "To form feces through the process of fermentation",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To regulate heart rate",
+        "b": "To control the immune system",
+        "c": "To regulate peristalsis and secretions in the GI tract",
+        "d": "To manage blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To inhibit the secretion of gastric acid",
+        "b": "To stimulate the secretion of gastric acid",
+        "c": "To promote the absorption of nutrients",
+        "d": "To regulate bowel movements"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb amino acids from food",
+        "b": "To produce digestive enzymes",
+        "c": "To store and concentrate bile",
+        "d": "To produce intrinsic factor"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce insulin",
+        "b": "To produce glucagon",
+        "c": "To produce digestive enzymes",
+        "d": "Both a and b"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce bile salts",
+        "b": "To store and concentrate bile",
+        "c": "To detoxify the blood",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce bile salts",
+        "b": "To store and concentrate bile",
+        "c": "To absorb nutrients",
+        "d": "To produce digestive enzymes"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb glucose from food",
+        "b": "To produce digestive enzymes",
+        "c": "To store and concentrate bile",
+        "d": "To produce intrinsic factor"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce insulin",
+        "b": "To produce glucagon",
+        "c": "To produce digestive enzymes",
+        "d": "Both a and b"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb water and electrolytes",
+        "b": "To produce mucus",
+        "c": "To form feces through the process of fermentation",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To regulate heart rate",
+        "b": "To control the immune system",
+        "c": "To regulate peristalsis and secretions in the GI tract",
+        "d": "To manage blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To inhibit the secretion of gastric acid",
+        "b": "To stimulate the secretion of gastric acid",
+        "c": "To promote the absorption of nutrients",
+        "d": "To regulate bowel movements"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb amino acids from food",
+        "b": "To produce digestive enzymes",
+        "c": "To store and concentrate bile",
+        "d": "To produce intrinsic factor"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce insulin",
+        "b": "To produce glucagon",
+        "c": "To produce digestive enzymes",
+        "d": "Both a and b"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce bile salts",
+        "b": "To store and concentrate bile",
+        "c": "To detoxify the blood",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce bile salts",
+        "b": "To store and concentrate bile",
+        "c": "To absorb nutrients",
+        "d": "To produce digestive enzymes"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb glucose from food",
+        "b": "To produce digestive enzymes",
+        "c": "To store and concentrate bile",
+        "d": "To produce intrinsic factor"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce insulin",
+        "b": "To produce glucagon",
+        "c": "To produce digestive enzymes",
+        "d": "Both a and b"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb water and electrolytes",
+        "b": "To produce mucus",
+        "c": "To form feces through the process of fermentation",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To regulate heart rate",
+        "b": "To control the immune system",
+        "c": "To regulate peristalsis and secretions in the GI tract",
+        "d": "To manage blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To inhibit the secretion of gastric acid",
+        "b": "To stimulate the secretion of gastric acid",
+        "c": "To promote the absorption of nutrients",
+        "d": "To regulate bowel movements"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To absorb amino acids from food",
+        "b": "To produce digestive enzymes",
+        "c": "To store and concentrate bile",
+        "d": "To produce intrinsic factor"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce insulin",
+        "b": "To produce glucagon",
+        "c": "To produce digestive enzymes",
+        "d": "Both a and b"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce bile salts",
+        "b": "To store and concentrate bile",
+        "c": "To detoxify the blood",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce bile salts",
+        "b": "To store and concentrate bile",
+        "c": "To absorb nutrients",
+        "d": "To produce digestive enzymes"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-digestive-system"
+    }
+  ]
+}
+,
+  {
+  "id": "mock-gs-circulatory-system",
+  "exam": "NDA",
+  "subject": "General Science",
+  "title": "Human Circulatory System — Practice Test",
+  "topic": "Biology",
+  "duration": 35,
+  "questionsCount": 50,
+  "rules": {
+    "correctMarks": 4,
+    "incorrectMarks": -1.33,
+    "examType": "NDA"
+  },
+  "questions": [
+    {
+      "question": "",
+      "options": {
+        "a": "To transport oxygen and nutrients to cells and remove waste products",
+        "b": "To regulate body temperature",
+        "c": "To produce blood cells",
+        "d": "To filter waste from the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Heart, blood vessels, and blood",
+        "b": "Heart, lungs, and liver",
+        "c": "Brain, heart, and kidneys",
+        "d": "Stomach, small intestine, and liver"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Heart",
+        "b": "Lungs",
+        "c": "Liver",
+        "d": "Brain"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Right atrium, right ventricle, left atrium, and left ventricle",
+        "b": "Right atrium, left atrium, right ventricle, and left ventricle",
+        "c": "Left atrium, left ventricle, right atrium, and right ventricle",
+        "d": "Right ventricle, left ventricle, right atrium, and left atrium"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To receive oxygenated blood and pump it to the systemic circulation",
+        "b": "To receive de-oxygenated blood and pump it to the lungs",
+        "c": "To receive blood from the lungs and pump it to the body",
+        "d": "To filter waste from the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To receive de-oxygenated blood and pump it to the lungs",
+        "b": "To receive oxygenated blood and pump it to the systemic circulation",
+        "c": "To filter waste from the blood",
+        "d": "To produce blood cells"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Cardiac output",
+        "b": "Stroke volume",
+        "c": "Heart rate",
+        "d": "Blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Stroke volume",
+        "b": "Cardiac output",
+        "c": "Heart rate",
+        "d": "Blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "CO = SV x HR",
+        "b": "CO = SV / HR",
+        "c": "CO = HR / SV",
+        "d": "CO = SV + HR"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Plasma",
+        "b": "Serum",
+        "c": "Blood cells",
+        "d": "Platelets"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Plasma, red blood cells, and white blood cells",
+        "b": "Plasma, platelets, and blood cells",
+        "c": "Red blood cells, white blood cells, and platelets",
+        "d": "Plasma, blood cells, and nutrients"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To carry oxygen and carbon dioxide throughout the body",
+        "b": "To fight infection and disease",
+        "c": "To filter waste from the blood",
+        "d": "To produce blood cells"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Haemoglobin",
+        "b": "Myoglobin",
+        "c": "Ferritin",
+        "d": "Transferrin"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "ABO system",
+        "b": "Rh system",
+        "c": "Blood type system",
+        "d": "Antigen system"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "A, B, AB, and O",
+        "b": "A, B, AB, and Rh",
+        "c": "A, B, O, and Rh",
+        "d": "A, AB, O, and Rh"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "D antigen",
+        "b": "A antigen",
+        "c": "B antigen",
+        "d": "AB antigen"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Universal donor",
+        "b": "Universal recipient",
+        "c": "Rh-positive",
+        "d": "Rh-negative"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Universal donor",
+        "b": "Universal recipient",
+        "c": "Rh-positive",
+        "d": "Rh-negative"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Agglutination",
+        "b": "Hemolysis",
+        "c": "Coagulation",
+        "d": "Sedimentation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Haemolytic disease of the newborn",
+        "b": "Rh incompatibility",
+        "c": "ABO incompatibility",
+        "d": "Blood type disease"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Polycythemia",
+        "b": "Anemia",
+        "c": "Leukocytosis",
+        "d": "Thrombocytosis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "60-100 beats per minute",
+        "b": "40-80 beats per minute",
+        "c": "80-120 beats per minute",
+        "d": "100-140 beats per minute"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "110-130 mmHg",
+        "b": "90-120 mmHg",
+        "c": "120-140 mmHg",
+        "d": "140-160 mmHg"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Mean arterial pressure",
+        "b": "Systolic blood pressure",
+        "c": "Diastolic blood pressure",
+        "d": "Pulse pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "MAP = CO x TPR",
+        "b": "MAP = CO / TPR",
+        "c": "MAP = TPR / CO",
+        "d": "MAP = CO + TPR"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Oxygen saturation",
+        "b": "Oxygen capacity",
+        "c": "Oxygen content",
+        "d": "Oxygen delivery"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "95-100%",
+        "b": "90-95%",
+        "c": "85-90%",
+        "d": "80-85%"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Acclimatization",
+        "b": "Adaptation",
+        "c": "Acclimation",
+        "d": "Adjustment"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Polycythemia",
+        "b": "Anemia",
+        "c": "Leukocytosis",
+        "d": "Thrombocytosis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypoxemia",
+        "b": "Hyperoxemia",
+        "c": "Anemia",
+        "d": "Polycythemia"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Tachycardia",
+        "b": "Bradycardia",
+        "c": "Arrhythmia",
+        "d": "Hypertension"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypotension",
+        "b": "Hypertension",
+        "c": "Tachycardia",
+        "d": "Bradycardia"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypertension",
+        "b": "Hypotension",
+        "c": "Tachycardia",
+        "d": "Bradycardia"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Heart failure",
+        "b": "Cardiac arrest",
+        "c": "Myocardial infarction",
+        "d": "Arrhythmia"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Cardiac arrest",
+        "b": "Heart failure",
+        "c": "Myocardial infarction",
+        "d": "Arrhythmia"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Myocardial infarction",
+        "b": "Cardiac arrest",
+        "c": "Heart failure",
+        "d": "Arrhythmia"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Arrhythmia",
+        "b": "Cardiac arrest",
+        "c": "Myocardial infarction",
+        "d": "Heart failure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Sphygmomanometer",
+        "b": "Stethoscope",
+        "c": "Electrocardiogram",
+        "d": "Pulse oximeter"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Stethoscope",
+        "b": "Sphygmomanometer",
+        "c": "Electrocardiogram",
+        "d": "Pulse oximeter"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Electrocardiogram",
+        "b": "Sphygmomanometer",
+        "c": "Stethoscope",
+        "d": "Pulse oximeter"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Pulse oximeter",
+        "b": "Sphygmomanometer",
+        "c": "Stethoscope",
+        "d": "Electrocardiogram"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Atherosclerosis",
+        "b": "Hypertension",
+        "c": "Cardiac arrest",
+        "d": "Myocardial infarction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Vasodilation",
+        "b": "Vasoconstriction",
+        "c": "Atherosclerosis",
+        "d": "Hypertension"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Vasoconstriction",
+        "b": "Vasodilation",
+        "c": "Atherosclerosis",
+        "d": "Hypertension"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Doppler ultrasound",
+        "b": "Sphygmomanometer",
+        "c": "Stethoscope",
+        "d": "Electrocardiogram"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Cardiac insufficiency",
+        "b": "Heart failure",
+        "c": "Cardiac arrest",
+        "d": "Myocardial infarction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Arterial blood pressure monitor",
+        "b": "Sphygmomanometer",
+        "c": "Stethoscope",
+        "d": "Electrocardiogram"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Vasculitis",
+        "b": "Atherosclerosis",
+        "c": "Hypertension",
+        "d": "Cardiac arrest"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Pulse oximeter",
+        "b": "Sphygmomanometer",
+        "c": "Stethoscope",
+        "d": "Electrocardiogram"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Cardiomyopathy",
+        "b": "Heart failure",
+        "c": "Cardiac arrest",
+        "d": "Myocardial infarction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-circulatory-system"
+    }
+  ]
+}
+,
+  {
+  "id": "mock-gs-respiratory-system",
+  "exam": "AFCAT",
+  "subject": "General Science",
+  "title": "Human Respiratory System — Practice Test",
+  "topic": "Biology",
+  "duration": 35,
+  "questionsCount": 48,
+  "rules": {
+    "correctMarks": 3,
+    "incorrectMarks": -1,
+    "examType": "AFCAT"
+  },
+  "questions": [
+    {
+      "question": "",
+      "options": {
+        "a": "To bring oxygen into the blood and expel carbon dioxide",
+        "b": "To filter the blood",
+        "c": "To regulate body temperature",
+        "d": "To aid in digestion"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hyperventilation",
+        "b": "Erythropoiesis",
+        "c": "Acclimatization",
+        "d": "Respiratory alkalosis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Fick's law",
+        "b": "Bohr effect",
+        "c": "Henry's law",
+        "d": "Dalton's law"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Acute mountain sickness",
+        "b": "Chronic mountain sickness",
+        "c": "High-altitude pulmonary edema",
+        "d": "Respiratory alkalosis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Erythropoietin",
+        "b": "2,3-DPG",
+        "c": "Hemoglobin",
+        "d": "Oxyhemoglobin"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Surfactant",
+        "b": "Mucus",
+        "c": "Hemoglobin",
+        "d": "Oxyhemoglobin"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Oxygen-hemoglobin dissociation curve",
+        "b": "Carbon dioxide-hemoglobin dissociation curve",
+        "c": "Bohr effect curve",
+        "d": "Fick's law curve"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Bohr effect",
+        "b": "Haldane effect",
+        "c": "Fick's law",
+        "d": "Henry's law"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Ventilation-perfusion mismatch",
+        "b": "Hypoxemia",
+        "c": "Hypercapnia",
+        "d": "Respiratory alkalosis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Diaphragm",
+        "b": "Intercostal muscles",
+        "c": "Abdominal muscles",
+        "d": "Sternocleidomastoid muscle"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Gas exchange",
+        "b": "Ventilation",
+        "c": "Perfusion",
+        "d": "Diffusion"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "2,3-DPG",
+        "b": "Hemoglobin",
+        "c": "Oxyhemoglobin",
+        "d": "Carbon dioxide"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Polycythemia",
+        "b": "Anemia",
+        "c": "Leukemia",
+        "d": "Lymphoma"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Respiratory control",
+        "b": "Cardiovascular control",
+        "c": "Renal control",
+        "d": "Hepatic control"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Lungs",
+        "b": "Kidneys",
+        "c": "Liver",
+        "d": "Skin"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Respiratory failure",
+        "b": "Cardiac failure",
+        "c": "Renal failure",
+        "d": "Hepatic failure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Acclimatization",
+        "b": "Adaptation",
+        "c": "Evolution",
+        "d": "Natural selection"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypercapnia",
+        "b": "Hypocapnia",
+        "c": "Hyperoxia",
+        "d": "Hypoxia"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Oxygen regulation",
+        "b": "Carbon dioxide regulation",
+        "c": "pH regulation",
+        "d": "Temperature regulation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypoxia",
+        "b": "Hyperoxia",
+        "c": "Anemia",
+        "d": "Polycythemia"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Exhalation",
+        "b": "Inhalation",
+        "c": "Diffusion",
+        "d": "Perfusion"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Pneumonia",
+        "b": "Bronchitis",
+        "c": "Asthma",
+        "d": "Chronic obstructive pulmonary disease (COPD)"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Carbon dioxide regulation",
+        "b": "Oxygen regulation",
+        "c": "pH regulation",
+        "d": "Temperature regulation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Bronchitis",
+        "b": "Asthma",
+        "c": "Chronic obstructive pulmonary disease (COPD)",
+        "d": "Pneumonia"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Excretion",
+        "b": "Secretion",
+        "c": "Absorption",
+        "d": "Diffusion"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Anemia",
+        "b": "Polycythemia",
+        "c": "Leukemia",
+        "d": "Lymphoma"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Osmoregulation",
+        "b": "Thermoregulation",
+        "c": "pH regulation",
+        "d": "Blood pressure regulation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Pulmonary edema",
+        "b": "Pneumonia",
+        "c": "Asthma",
+        "d": "Chronic obstructive pulmonary disease (COPD)"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Oxygen delivery",
+        "b": "Oxygen consumption",
+        "c": "Carbon dioxide removal",
+        "d": "pH regulation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Acidosis",
+        "b": "Alkalosis",
+        "c": "Respiratory failure",
+        "d": "Cardiac failure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Expectoration",
+        "b": "Coughing",
+        "c": "Sneezing",
+        "d": "Diffusion"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Cerebral hypoxia",
+        "b": "Cerebral ischemia",
+        "c": "Stroke",
+        "d": "Brain damage"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Carbon dioxide removal",
+        "b": "Oxygen delivery",
+        "c": "pH regulation",
+        "d": "Blood pressure regulation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Pneumothorax",
+        "b": "Pulmonary edema",
+        "c": "Asthma",
+        "d": "Chronic obstructive pulmonary disease (COPD)"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Oxygen delivery",
+        "b": "Oxygen consumption",
+        "c": "Carbon dioxide removal",
+        "d": "pH regulation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Bronchitis",
+        "b": "Asthma",
+        "c": "Chronic obstructive pulmonary disease (COPD)",
+        "d": "Pneumonia"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Excretion",
+        "b": "Secretion",
+        "c": "Absorption",
+        "d": "Diffusion"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Muscle hypoxia",
+        "b": "Muscle ischemia",
+        "c": "Muscle fatigue",
+        "d": "Muscle damage"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Carbon dioxide removal",
+        "b": "Oxygen delivery",
+        "c": "pH regulation",
+        "d": "Blood pressure regulation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Pulmonary edema",
+        "b": "Bronchitis",
+        "c": "Asthma",
+        "d": "Chronic obstructive pulmonary disease (COPD)"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Oxygen delivery",
+        "b": "Oxygen consumption",
+        "c": "Carbon dioxide removal",
+        "d": "pH regulation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Acidosis",
+        "b": "Alkalosis",
+        "c": "Respiratory failure",
+        "d": "Cardiac failure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Expectoration",
+        "b": "Coughing",
+        "c": "Sneezing",
+        "d": "Diffusion"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Cardiac hypoxia",
+        "b": "Cardiac ischemia",
+        "c": "Cardiac failure",
+        "d": "Cardiac damage"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Carbon dioxide removal",
+        "b": "Oxygen delivery",
+        "c": "pH regulation",
+        "d": "Blood pressure regulation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Pneumothorax",
+        "b": "Pulmonary edema",
+        "c": "Asthma",
+        "d": "Chronic obstructive pulmonary disease (COPD)"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Oxygen delivery",
+        "b": "Oxygen consumption",
+        "c": "Carbon dioxide removal",
+        "d": "pH regulation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Bronchitis",
+        "b": "Asthma",
+        "c": "Chronic obstructive pulmonary disease (COPD)",
+        "d": "Pneumonia"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-respiratory-system"
+    }
+  ]
+}
+,
+  {
+  "id": "mock-gs-nervous-system",
+  "exam": "NDA",
+  "subject": "General Science",
+  "title": "Human Nervous System — Practice Test",
+  "topic": "Biology",
+  "duration": 35,
+  "questionsCount": 50,
+  "rules": {
+    "correctMarks": 4,
+    "incorrectMarks": -1.33,
+    "examType": "NDA"
+  },
+  "questions": [
+    {
+      "question": "",
+      "options": {
+        "a": "Cerebrum, Cerebellum, Brain-Stem",
+        "b": "Cerebrum, Spinal Cord, Brain-Stem",
+        "c": "Cerebellum, Spinal Cord, Brain-Stem",
+        "d": "Cerebrum, Cerebellum, Spinal Cord"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Cerebellum",
+        "b": "Brain-Stem",
+        "c": "Cerebrum",
+        "d": "Spinal Cord"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Regulates vital autonomic functions",
+        "b": "Coordinates balance, posture, and fine muscle movements",
+        "c": "Responsible for conscious thought, memory, language, and voluntary movement",
+        "d": "Conducts impulse to the effector"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Coordinates balance, posture, and fine muscle movements",
+        "b": "Regulates vital autonomic functions such as respiration, heart rate, and blood pressure",
+        "c": "Responsible for conscious thought, memory, language, and voluntary movement",
+        "d": "Conducts impulse to the effector"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Butterfly-shaped grey matter surrounded by white matter",
+        "b": "Butterfly-shaped white matter surrounded by grey matter",
+        "c": "Cylindrical-shaped grey matter surrounded by white matter",
+        "d": "Cylindrical-shaped white matter surrounded by grey matter"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "25 segments",
+        "b": "31 segments",
+        "c": "35 segments",
+        "d": "40 segments"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "A neural pathway that mediates a voluntary action",
+        "b": "A neural pathway that mediates a reflex",
+        "c": "A neural pathway that mediates a involuntary action",
+        "d": "A neural pathway that mediates a voluntary and involuntary action"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Receptor, sensory neuron, integration centre, motor neuron",
+        "b": "Receptor, sensory neuron, integration centre, motor neuron, effector",
+        "c": "Receptor, sensory neuron, motor neuron, effector",
+        "d": "Receptor, integration centre, motor neuron, effector"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To conduct impulse to the effector",
+        "b": "To integrate the sensory information",
+        "c": "To detect the stimulus",
+        "d": "To transmit the impulse to the spinal cord"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Monosynaptic reflex involves one synapse, while polysynaptic reflex involves multiple synapses",
+        "b": "Monosynaptic reflex involves multiple synapses, while polysynaptic reflex involves one synapse",
+        "c": "Monosynaptic reflex is faster, while polysynaptic reflex is slower",
+        "d": "Monosynaptic reflex is slower, while polysynaptic reflex is faster"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Withdrawal reflex",
+        "b": "Knee-jerk reflex",
+        "c": "Stretch reflex",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To conduct impulse to the effector",
+        "c": "To integrate the sensory information",
+        "d": "To transmit the impulse to the spinal cord"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To transmit the impulse to the spinal cord"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the spinal cord",
+        "d": "To produce the response"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Voluntary actions are controlled by the brain, while involuntary actions are controlled by the spinal cord",
+        "b": "Voluntary actions are controlled by the spinal cord, while involuntary actions are controlled by the brain",
+        "c": "Voluntary actions are controlled by the brain, while involuntary actions are controlled by the autonomic nervous system",
+        "d": "Voluntary actions are controlled by the autonomic nervous system, while involuntary actions are controlled by the brain"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To transmit the signal from one neuron to another"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To transmit the signal from one neuron to another at the neuromuscular junction"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "A barrier that restricts the passage of substances from the blood to the brain",
+        "b": "A barrier that restricts the passage of substances from the brain to the blood",
+        "c": "A barrier that allows the passage of substances from the blood to the brain",
+        "d": "A barrier that allows the passage of substances from the brain to the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To protect the brain and spinal cord"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To cushion the brain and spinal cord"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Upper motor neuron lesions cause flaccid paralysis, while lower motor neuron lesions cause spastic paralysis",
+        "b": "Upper motor neuron lesions cause spastic paralysis, while lower motor neuron lesions cause flaccid paralysis",
+        "c": "Upper motor neuron lesions cause paralysis, while lower motor neuron lesions cause weakness",
+        "d": "Upper motor neuron lesions cause weakness, while lower motor neuron lesions cause paralysis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To provide support and maintenance to neurons"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To transmit and process information"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To control and coordinate body functions"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "The central nervous system includes the brain and spinal cord, while the peripheral nervous system includes all other nerves",
+        "b": "The central nervous system includes all nerves, while the peripheral nervous system includes the brain and spinal cord",
+        "c": "The central nervous system includes the brain, while the peripheral nervous system includes the spinal cord",
+        "d": "The central nervous system includes the spinal cord, while the peripheral nervous system includes the brain"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To control and coordinate body functions"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate and maintain a stable internal environment"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To control involuntary actions"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "The sympathetic nervous system is responsible for 'fight or flight' responses, while the parasympathetic nervous system is responsible for 'rest and digest' responses",
+        "b": "The sympathetic nervous system is responsible for 'rest and digest' responses, while the parasympathetic nervous system is responsible for 'fight or flight' responses",
+        "c": "The sympathetic nervous system is responsible for involuntary actions, while the parasympathetic nervous system is responsible for voluntary actions",
+        "d": "The sympathetic nervous system is responsible for voluntary actions, while the parasympathetic nervous system is responsible for involuntary actions"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To control voluntary actions"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To process and store information"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To control higher-level cognitive functions"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate movement and cognition"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate emotions and motivation"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate basic functions such as breathing and heart rate"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To transmit signals between the brain and the rest of the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To receive and process sensory information"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To transmit motor signals to muscles and glands"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To coordinate and control reflexes"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To transmit sensory information to the spinal cord"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To transmit motor signals to muscles and glands"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To respond to the stimulus"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate and maintain homeostasis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate involuntary actions"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate and coordinate movement"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate voluntary movement"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate and maintain posture and balance"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate and maintain posture and balance"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate and maintain body temperature"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To detect the stimulus",
+        "b": "To integrate the sensory information",
+        "c": "To conduct impulse to the effector",
+        "d": "To regulate and maintain body temperature"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-nervous-system"
+    }
+  ]
+}
+,
+  {
+  "id": "mock-gs-endocrine-system",
+  "exam": "CDS",
+  "subject": "General Science",
+  "title": "Human Endocrine System — Practice Test",
+  "topic": "Biology",
+  "duration": 35,
+  "questionsCount": 47,
+  "rules": {
+    "correctMarks": 1,
+    "incorrectMarks": -0.33,
+    "examType": "CDS"
+  },
+  "questions": [
+    {
+      "question": "",
+      "options": {
+        "a": "To produce hormones that regulate metabolism",
+        "b": "To act as the command centre for hormonal regulation",
+        "c": "To secrete insulin and glucagon",
+        "d": "To regulate calcium levels in the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Thyroid gland",
+        "b": "Pituitary gland",
+        "c": "Adrenal gland",
+        "d": "Pancreas"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Thyroxine (T4)",
+        "b": "Triiodothyronine (T3)",
+        "c": "Adrenaline",
+        "d": "Insulin"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Adrenal cortex",
+        "b": "Adrenal medulla",
+        "c": "Pituitary gland",
+        "d": "Thyroid gland"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Insulin",
+        "b": "Glucagon",
+        "c": "Adrenaline",
+        "d": "Thyroxine"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "The release of insulin in response to high blood glucose levels",
+        "b": "The release of adrenaline in response to stress",
+        "c": "The release of thyroid hormone in response to low blood calcium levels",
+        "d": "The release of growth hormone in response to low blood glucose levels"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antidiuretic hormone (ADH)",
+        "b": "Oxytocin",
+        "c": "Insulin",
+        "d": "Thyroxine"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "They have ducts that secrete hormones directly into the bloodstream",
+        "b": "They are ductless and secrete hormones directly into the bloodstream",
+        "c": "They produce hormones that are stored in the bloodstream",
+        "d": "They produce hormones that are stored in the liver"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypothyroidism",
+        "b": "Hyperthyroidism",
+        "c": "Cushing's syndrome",
+        "d": "Addison's disease"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Adrenaline",
+        "b": "Cortisol",
+        "c": "Aldosterone",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Diabetes mellitus",
+        "b": "Hypoglycemia",
+        "c": "Hyperthyroidism",
+        "d": "Cushing's syndrome"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "The release of insulin in response to high blood glucose levels",
+        "b": "The release of oxytocin during childbirth",
+        "c": "The release of thyroid hormone in response to low blood calcium levels",
+        "d": "The release of growth hormone in response to low blood glucose levels"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Parathyroid hormone (PTH)",
+        "b": "Calcitonin",
+        "c": "Thyroxine",
+        "d": "Insulin"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "They are ductless and secrete hormones directly into the bloodstream",
+        "b": "They have ducts that secrete hormones directly into the bloodstream",
+        "c": "They produce hormones that are stored in the bloodstream",
+        "d": "They have ducts that secrete products into a body surface or cavity"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Addison's disease",
+        "b": "Cushing's syndrome",
+        "c": "Hypothyroidism",
+        "d": "Hyperthyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antidiuretic hormone (ADH)",
+        "b": "Oxytocin",
+        "c": "Insulin",
+        "d": "Both A and B"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Gigantism",
+        "b": "Acromegaly",
+        "c": "Hypopituitarism",
+        "d": "Hyperthyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Adrenaline",
+        "b": "Cortisol",
+        "c": "Aldosterone",
+        "d": "Insulin"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypothyroidism",
+        "b": "Hyperthyroidism",
+        "c": "Cushing's syndrome",
+        "d": "Addison's disease"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Insulin",
+        "b": "Glucagon",
+        "c": "Somatostatin",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Cushing's syndrome",
+        "b": "Addison's disease",
+        "c": "Hypothyroidism",
+        "d": "Hyperthyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Thyroxine (T4)",
+        "b": "Triiodothyronine (T3)",
+        "c": "Calcitonin",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypoparathyroidism",
+        "b": "Hyperparathyroidism",
+        "c": "Hypothyroidism",
+        "d": "Hyperthyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Testosterone",
+        "b": "Estrogen",
+        "c": "Progesterone",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hyperaldosteronism",
+        "b": "Hypoaldosteronism",
+        "c": "Cushing's syndrome",
+        "d": "Addison's disease"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Thyrotropin-releasing hormone (TRH)",
+        "b": "Corticotropin-releasing hormone (CRH)",
+        "c": "Growth hormone-releasing hormone (GHRH)",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Growth hormone deficiency",
+        "b": "Acromegaly",
+        "c": "Hypopituitarism",
+        "d": "Hyperthyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Cortisol",
+        "b": "Aldosterone",
+        "c": "Androgens",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hyperparathyroidism",
+        "b": "Hypoparathyroidism",
+        "c": "Hyperthyroidism",
+        "d": "Hypothyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Insulin",
+        "b": "Glucagon",
+        "c": "Somatostatin",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Diabetes insipidus",
+        "b": "Diabetes mellitus",
+        "c": "Hypothyroidism",
+        "d": "Hyperthyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Antidiuretic hormone (ADH)",
+        "b": "Oxytocin",
+        "c": "Insulin",
+        "d": "Both A and B"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hyperthyroidism",
+        "b": "Hypothyroidism",
+        "c": "Cushing's syndrome",
+        "d": "Addison's disease"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Adrenaline",
+        "b": "Cortisol",
+        "c": "Aldosterone",
+        "d": "Insulin"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Addison's disease",
+        "b": "Cushing's syndrome",
+        "c": "Hypothyroidism",
+        "d": "Hyperthyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Insulin",
+        "b": "Glucagon",
+        "c": "Somatostatin",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Gigantism",
+        "b": "Acromegaly",
+        "c": "Hypopituitarism",
+        "d": "Hyperthyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Thyroxine (T4)",
+        "b": "Triiodothyronine (T3)",
+        "c": "Calcitonin",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypoparathyroidism",
+        "b": "Hyperparathyroidism",
+        "c": "Hypothyroidism",
+        "d": "Hyperthyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Testosterone",
+        "b": "Estrogen",
+        "c": "Progesterone",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hyperaldosteronism",
+        "b": "Hypoaldosteronism",
+        "c": "Cushing's syndrome",
+        "d": "Addison's disease"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Thyrotropin-releasing hormone (TRH)",
+        "b": "Corticotropin-releasing hormone (CRH)",
+        "c": "Growth hormone-releasing hormone (GHRH)",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Growth hormone deficiency",
+        "b": "Acromegaly",
+        "c": "Hypopituitarism",
+        "d": "Hyperthyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Cortisol",
+        "b": "Aldosterone",
+        "c": "Androgens",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hyperparathyroidism",
+        "b": "Hypoparathyroidism",
+        "c": "Hyperthyroidism",
+        "d": "Hypothyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Insulin",
+        "b": "Glucagon",
+        "c": "Somatostatin",
+        "d": "All of the above"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Diabetes insipidus",
+        "b": "Diabetes mellitus",
+        "c": "Hypothyroidism",
+        "d": "Hyperthyroidism"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-endocrine-system"
+    }
+  ]
+}
+,
+  {
+  "id": "mock-gs-excretory-system",
+  "exam": "NDA",
+  "subject": "General Science",
+  "title": "Human Excretory System — Practice Test",
+  "topic": "Biology",
+  "duration": 35,
+  "questionsCount": 49,
+  "rules": {
+    "correctMarks": 4,
+    "incorrectMarks": -1.33,
+    "examType": "NDA"
+  },
+  "questions": [
+    {
+      "question": "",
+      "options": {
+        "a": "To regulate body temperature",
+        "b": "To maintain internal homeostasis by eliminating metabolic waste",
+        "c": "To produce hormones",
+        "d": "To facilitate movement"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Bean-shaped, ~100 g",
+        "b": "Bean-shaped, ~120 g",
+        "c": "Spherical, ~150 g",
+        "d": "Cylindrical, ~200 g"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Outer cortex, inner medulla, and central pelvis",
+        "b": "Outer medulla, inner cortex, and central pelvis",
+        "c": "Outer pelvis, inner cortex, and central medulla",
+        "d": "Outer cortex, inner pelvis, and central medulla"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Reabsorption of solutes",
+        "b": "Filtration of plasma",
+        "c": "Secretion of waste",
+        "d": "Regulation of blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Reabsorption of 65% of filtered Na+, glucose, amino acids, and water",
+        "b": "Reabsorption of 90% of filtered Na+, glucose, amino acids, and water",
+        "c": "Secretion of waste products",
+        "d": "Regulation of blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Establishment of an osmotic gradient",
+        "b": "Reabsorption of solutes",
+        "c": "Secretion of waste products",
+        "d": "Regulation of blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Fine-tuning of Na+, K+, and pH under hormonal control",
+        "b": "Reabsorption of 90% of filtered Na+, glucose, amino acids, and water",
+        "c": "Secretion of waste products",
+        "d": "Regulation of blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Final concentration of urine",
+        "b": "Reabsorption of solutes",
+        "c": "Secretion of waste products",
+        "d": "Regulation of blood pressure"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Increase water reabsorption in the collecting duct",
+        "b": "Decrease water reabsorption in the collecting duct",
+        "c": "Increase Na+ reabsorption in the DCT",
+        "d": "Decrease Na+ reabsorption in the DCT"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "100 mL/min/1.73 m²",
+        "b": "125 mL/min/1.73 m²",
+        "c": "150 mL/min/1.73 m²",
+        "d": "200 mL/min/1.73 m²"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To remove waste products from the blood using a dialyzer",
+        "b": "To add essential nutrients to the blood",
+        "c": "To regulate blood pressure",
+        "d": "To facilitate movement"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To remove waste products from the blood using the peritoneum as a semi-permeable membrane",
+        "b": "To add essential nutrients to the blood",
+        "c": "To regulate blood pressure",
+        "d": "To facilitate movement"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Haemodialysis uses a dialyzer, while peritoneal dialysis uses the peritoneum",
+        "b": "Haemodialysis uses the peritoneum, while peritoneal dialysis uses a dialyzer",
+        "c": "Haemodialysis is used for acute kidney injury, while peritoneal dialysis is used for chronic kidney disease",
+        "d": "Haemodialysis is used for chronic kidney disease, while peritoneal dialysis is used for acute kidney injury"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To regulate glomerular filtration rate (GFR)",
+        "b": "To regulate blood pressure",
+        "c": "To facilitate movement",
+        "d": "To add essential nutrients to the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To stimulate red blood cell production",
+        "b": "To regulate blood pressure",
+        "c": "To facilitate movement",
+        "d": "To add essential nutrients to the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To initiate the renin-angiotensin-aldosterone system (RAAS)",
+        "b": "To regulate blood pressure",
+        "c": "To facilitate movement",
+        "d": "To add essential nutrients to the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To promote Na+ reabsorption and K+ secretion",
+        "b": "To regulate blood pressure",
+        "c": "To facilitate movement",
+        "d": "To add essential nutrients to the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Approximately equal to GFR",
+        "b": "Approximately half of GFR",
+        "c": "Approximately twice of GFR",
+        "d": "Approximately four times of GFR"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Urea clearance",
+        "b": "Creatinine clearance",
+        "c": "Glomerular filtration rate (GFR)",
+        "d": "Renal plasma flow"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Haemodialysis uses an AV fistula, while peritoneal dialysis uses a Tenckhoff catheter",
+        "b": "Haemodialysis uses a Tenckhoff catheter, while peritoneal dialysis uses an AV fistula",
+        "c": "Haemodialysis uses a central line, while peritoneal dialysis uses a peripheral line",
+        "d": "Haemodialysis uses a peripheral line, while peritoneal dialysis uses a central line"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "3-4 hours, 3 times a week",
+        "b": "4-6 hours, 2 times a week",
+        "c": "2-3 hours, 4 times a week",
+        "d": "1-2 hours, 5 times a week"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Daily exchanges, 4-6 hours each",
+        "b": "Alternate day exchanges, 4-6 hours each",
+        "c": "Weekly exchanges, 4-6 hours each",
+        "d": "Monthly exchanges, 4-6 hours each"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Hypotension and infection",
+        "b": "Hypertension and dehydration",
+        "c": "Hyperkalemia and hypokalemia",
+        "d": "Metabolic acidosis and alkalosis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "Peritonitis",
+        "b": "Hypotension and infection",
+        "c": "Hyperkalemia and hypokalemia",
+        "d": "Metabolic acidosis and alkalosis"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To regulate the amount of water in the body",
+        "b": "To regulate the amount of electrolytes in the body",
+        "c": "To regulate the amount of waste products in the body",
+        "d": "To regulate the amount of nutrients in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To regulate the amount of fluid in the body",
+        "b": "To regulate the amount of electrolytes in the body",
+        "c": "To regulate the amount of waste products in the body",
+        "d": "To regulate the amount of nutrients in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To regulate the amount of hydrogen ions in the body",
+        "b": "To regulate the amount of bicarbonate ions in the body",
+        "c": "To regulate the amount of waste products in the body",
+        "d": "To regulate the amount of nutrients in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To regulate the amount of sodium ions in the body",
+        "b": "To regulate the amount of potassium ions in the body",
+        "c": "To regulate the amount of calcium ions in the body",
+        "d": "To regulate the amount of phosphate ions in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce erythropoietin",
+        "b": "To produce thrombopoietin",
+        "c": "To produce leukopoietin",
+        "d": "To produce platelet-activating factor"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce insulin",
+        "b": "To produce glucagon",
+        "c": "To regulate the amount of glucose in the urine",
+        "d": "To regulate the amount of glucose in the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce vitamin D",
+        "b": "To activate vitamin D",
+        "c": "To regulate the amount of vitamin D in the body",
+        "d": "To excrete excess vitamin D"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce parathyroid hormone",
+        "b": "To produce calcitonin",
+        "c": "To regulate the amount of calcium in the urine",
+        "d": "To regulate the amount of calcium in the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce parathyroid hormone",
+        "b": "To produce calcitonin",
+        "c": "To regulate the amount of phosphate in the urine",
+        "d": "To regulate the amount of phosphate in the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce parathyroid hormone",
+        "b": "To produce calcitonin",
+        "c": "To regulate the amount of magnesium in the urine",
+        "d": "To regulate the amount of magnesium in the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To increase the amount of hydrogen ions in the body",
+        "b": "To decrease the amount of hydrogen ions in the body",
+        "c": "To regulate the amount of bicarbonate ions in the body",
+        "d": "To regulate the amount of ammonia in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To increase the amount of fluid in the body",
+        "b": "To decrease the amount of fluid in the body",
+        "c": "To regulate the amount of electrolytes in the body",
+        "d": "To regulate the amount of waste products in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To increase the amount of sodium ions in the body",
+        "b": "To decrease the amount of sodium ions in the body",
+        "c": "To regulate the amount of potassium ions in the body",
+        "d": "To regulate the amount of calcium ions in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce erythropoietin",
+        "b": "To produce thrombopoietin",
+        "c": "To regulate the amount of red blood cells in the body",
+        "d": "To regulate the amount of white blood cells in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce insulin",
+        "b": "To produce glucagon",
+        "c": "To regulate the amount of glucose in the urine",
+        "d": "To regulate the amount of glucose in the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce vitamin D",
+        "b": "To activate vitamin D",
+        "c": "To regulate the amount of vitamin D in the body",
+        "d": "To excrete excess vitamin D"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce parathyroid hormone",
+        "b": "To produce calcitonin",
+        "c": "To regulate the amount of calcium in the urine",
+        "d": "To regulate the amount of calcium in the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce parathyroid hormone",
+        "b": "To produce calcitonin",
+        "c": "To regulate the amount of phosphate in the urine",
+        "d": "To regulate the amount of phosphate in the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce parathyroid hormone",
+        "b": "To produce calcitonin",
+        "c": "To regulate the amount of magnesium in the urine",
+        "d": "To regulate the amount of magnesium in the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To increase the amount of hydrogen ions in the body",
+        "b": "To decrease the amount of hydrogen ions in the body",
+        "c": "To regulate the amount of bicarbonate ions in the body",
+        "d": "To regulate the amount of ammonia in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To increase the amount of fluid in the body",
+        "b": "To decrease the amount of fluid in the body",
+        "c": "To regulate the amount of electrolytes in the body",
+        "d": "To regulate the amount of waste products in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To increase the amount of sodium ions in the body",
+        "b": "To decrease the amount of sodium ions in the body",
+        "c": "To regulate the amount of potassium ions in the body",
+        "d": "To regulate the amount of calcium ions in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce erythropoietin",
+        "b": "To produce thrombopoietin",
+        "c": "To regulate the amount of red blood cells in the body",
+        "d": "To regulate the amount of white blood cells in the body"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce insulin",
+        "b": "To produce glucagon",
+        "c": "To regulate the amount of glucose in the urine",
+        "d": "To regulate the amount of glucose in the blood"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    },
+    {
+      "question": "",
+      "options": {
+        "a": "To produce vitamin D",
+        "b": "To activate vitamin D",
+        "c": "To regulate the amount of vitamin D in the body",
+        "d": "To excrete excess vitamin D"
+      },
+      "correct": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "topicId": "gs-excretory-system"
+    }
+  ]
+}
 ];

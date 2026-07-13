@@ -1,1 +1,0 @@
-window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};

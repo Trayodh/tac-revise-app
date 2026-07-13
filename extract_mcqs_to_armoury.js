@@ -12,8 +12,8 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-if (!GEMINI_API_KEY) { console.error("Missing GEMINI_API_KEY"); process.exit(1); }
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
+if (!GROQ_API_KEY) { console.error("Missing GROQ_API_KEY"); process.exit(1); }
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
@@ -94,7 +94,7 @@ const ALL_CHAPTERS = [
 ];
 
 async function generateMCQs(chapter, htmlContent) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
+  const url = `https://api.groq.com/openai/v1/chat/completions`;
 
   // Strip HTML tags for cleaner content extraction
   const plainText = htmlContent
@@ -107,40 +107,48 @@ async function generateMCQs(chapter, htmlContent) {
 
   const prompt = `You are generating MCQs for the Indian Defence Exam Question Armoury.
 
-Based on the following study notes about "${chapter.title}" (${chapter.subject}), generate EXACTLY 50 high-quality MCQs suitable for ${chapter.exam}/CDS/NDA/AFCAT.
+Based on the following extracted textbook notes about "${chapter.title}" (${chapter.subject}), generate EXACTLY 50 high-quality MCQs suitable for ${chapter.exam}/CDS/NDA/AFCAT.
 
 NOTES CONTENT:
 ${plainText}
 
 OUTPUT RULES — CRITICAL:
-1. Return ONLY a valid JSON array. No markdown, no explanation, no preamble.
-2. The array must contain EXACTLY 50 objects.
-3. Each object must have this exact structure:
+1. Return ONLY a valid JSON object with a single key "questions" containing an array of 50 objects. No markdown, no explanation, no preamble.
+2. The "questions" array must contain EXACTLY 50 objects.
+3. ZERO CROSS-LEAKAGE PARAMETER: You must assign strict subject tags. Questions must NEVER cross into unrelated disciplines (e.g. no Chemistry in Physics).
+4. Each object must have this EXACT structure matching the Question Armoury Schema:
 {
-  "question": "Full question text here",
-  "options": ["Option A text", "Option B text", "Option C text", "Option D text"],
-  "correct": 0,
-  "explanation": "Clear 1-2 sentence explanation of why the correct answer is right and why common wrong answers are wrong.",
-  "difficulty": "easy",
-  "topicId": "${chapter.id}"
+  "id": "Unique ID like ${chapter.id}_001",
+  "subject": "${chapter.subject}",
+  "chapter": "${chapter.title}",
+  "exam_tags": ["${chapter.exam}"],
+  "question_stem": "Full question text here",
+  "options": {
+    "a": "Option A text",
+    "b": "Option B text",
+    "c": "Option C text",
+    "d": "Option D text"
+  },
+  "correct_answer": "a/b/c/d",
+  "solution_rationale": "Clear step-by-step explanation extracted directly from the text."
 }
-4. "correct" is 0-indexed (0=A, 1=B, 2=C, 3=D)
-5. "difficulty" must be one of: "easy", "medium", "hard"
-6. Mix: 20 easy + 20 medium + 10 hard
-7. Questions must be factual, precise, and exam-standard
-8. Cover diverse sub-topics from the chapter
-9. No repeated questions
-10. Start your response with [ and end with ]`;
+5. The root structure must be: { "questions": [ ... ] }`;
 
   let retries = 4;
   while (retries > 0) {
     try {
       const res = await fetch(url, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${GROQ_API_KEY}`
+        },
         body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { maxOutputTokens: 8192, temperature: 0.5 }
+          model: 'llama-3.3-70b-versatile',
+          messages: [{ role: 'user', content: prompt }],
+          temperature: 0.5,
+          max_completion_tokens: 8000,
+          response_format: { type: "json_object" }
         })
       });
 
@@ -154,12 +162,13 @@ OUTPUT RULES — CRITICAL:
         throw new Error(data.error?.message || JSON.stringify(data));
       }
 
-      let text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      let text = data.choices?.[0]?.message?.content || '';
       // Strip any markdown fences
       text = text.replace(/^```json\n?/i, '').replace(/^```\n?/, '').replace(/\n?```$/, '').trim();
       
       // Parse JSON
-      const questions = JSON.parse(text);
+      const parsedData = JSON.parse(text);
+      const questions = Array.isArray(parsedData) ? parsedData : (parsedData.questions || []);
       if (!Array.isArray(questions) || questions.length < 10) {
         throw new Error(`Got ${questions.length} questions, expected 50`);
       }
