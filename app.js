@@ -237,7 +237,13 @@ window.updateBreadcrumbs = function() {
   };
   
   if (screenId !== 'dashboard' && screenNames[screenId]) {
-    breadcrumbs.push({ label: screenNames[screenId], action: () => switchScreen(screenId) });
+    breadcrumbs.push({ label: screenNames[screenId], action: () => {
+      if (screenId === 'notes') {
+        window.backToNotesSubjects();
+      } else {
+        switchScreen(screenId);
+      }
+    }});
   }
   
   // Handle specifics for Notes / Study Material
