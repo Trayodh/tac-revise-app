@@ -922,3 +922,37 @@ Reservation of Seats • The UPSC consists of a chairman and other members appoi
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Polity (Part 2)
+
+### Constitutional vs Statutory Bodies
+```mermaid
+flowchart TD
+    Bodies[Government Bodies]
+    
+    Bodies --> Const[Constitutional Bodies<br>Mentioned in Constitution]
+    Const --> ECI[Election Commission (Art 324)]
+    Const --> UPSC[UPSC (Art 315)]
+    Const --> CAG[CAG (Art 148)]
+    Const --> FC[Finance Commission (Art 280)]
+    
+    Bodies --> Stat[Statutory Bodies<br>Created by Act of Parliament]
+    Stat --> NHRC[National Human Rights Commission]
+    Stat --> CIC[Central Information Commission]
+    Stat --> NGT[National Green Tribunal]
+    Stat --> SEBI[SEBI / RBI]
+```
+
+### Fundamental Rights Summary
+```mermaid
+mindmap
+  root((Fundamental Rights<br>Part III, Art 12-35))
+    Equality (14-18)
+    Freedom (19-22)
+    Exploitation (23-24)
+    Religion (25-28)
+    Cultural & Educational (29-30)
+    Constitutional Remedies (32)
+```

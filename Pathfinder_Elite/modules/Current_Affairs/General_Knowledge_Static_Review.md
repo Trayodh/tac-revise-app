@@ -696,3 +696,92 @@ Select the correct answer using the codes given below (a) Only 1 (b) 2 and 3 (c)
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Defence & Space Science
+
+### Indian Armed Forces Organizational Structure
+```mermaid
+flowchart TD
+    President((President of India<br>Supreme Commander)) --> MoD[Ministry of Defence]
+    MoD --> CDS[Chief of Defence Staff]
+    
+    CDS --> Army[Indian Army<br>Chief of Army Staff]
+    CDS --> Navy[Indian Navy<br>Chief of Naval Staff]
+    CDS --> AF[Indian Air Force<br>Chief of Air Staff]
+    
+    Army --> AC[7 Army Commands]
+    Navy --> NC[3 Naval Commands]
+    AF --> AFC[7 Air Commands]
+```
+
+### Defence Commands of India
+```mermaid
+mindmap
+  root((Commands))
+    Indian Army (7)
+      Northern - Udhampur
+      Western - Chandimandir
+      Central - Lucknow
+      Eastern - Kolkata
+      Southern - Pune
+      South Western - Jaipur
+      Training - Shimla
+    Indian Navy (3)
+      Western - Mumbai
+      Eastern - Visakhapatnam
+      Southern (Training) - Kochi
+    Indian Air Force (7)
+      Western - New Delhi
+      Eastern - Shillong
+      Central - Prayagraj
+      South Western - Gandhinagar
+      Southern - Thiruvananthapuram
+      Training - Bengaluru
+      Maintenance - Nagpur
+```
+
+### Rank Insignia Equivalence (Officer Ranks)
+```mermaid
+flowchart LR
+    Army[Army] --> General --> LtGen[Lieutenant General] --> MajGen[Major General] --> Brig[Brigadier] --> Col[Colonel]
+    Navy[Navy] --> Admiral --> ViceAdm[Vice Admiral] --> RearAdm[Rear Admiral] --> Commodore --> CaptN[Captain]
+    AirForce[Air Force] --> ACM[Air Chief Marshal] --> AM[Air Marshal] --> AVM[Air Vice Marshal] --> AirCmdr[Air Commodore] --> GpCapt[Group Captain]
+```
+
+### Classification of Missiles
+```mermaid
+mindmap
+  root((Missiles))
+    Cruise Missiles
+      Subsonic (BrahMos in testing, Nirbhay)
+      Supersonic (BrahMos)
+      Hypersonic (BrahMos-II)
+    Ballistic Missiles
+      Short Range (Prithvi, Agni-I)
+      Medium Range (Agni-II)
+      Intermediate Range (Agni-III, Agni-IV)
+      Intercontinental (Agni-V, Agni-VI)
+    Surface-to-Air (SAM)
+      Akash
+      Barak
+    Air-to-Air (AAM)
+      Astra
+```
+
+### Solar System Order
+```mermaid
+flowchart LR
+    Sun((Sun)) --> Mercury --> Venus --> Earth --> Mars --> AsteroidBelt[Asteroid Belt] --> Jupiter --> Saturn --> Uranus --> Neptune
+```
+
+### ISRO Launch Vehicles
+```mermaid
+flowchart TD
+    LV((Launch Vehicles))
+    LV --> SLV[SLV / ASLV<br>Historic/Retired]
+    LV --> PSLV[PSLV<br>Polar Satellite Launch Vehicle<br>Workhorse of ISRO]
+    LV --> GSLV[GSLV<br>Geosynchronous Satellite Launch Vehicle<br>Heavy payloads]
+    LV --> LVM3[LVM3<br>Heaviest lifter<br>Used for Chandrayaan-3]
+```

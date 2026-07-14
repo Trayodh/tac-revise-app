@@ -736,3 +736,43 @@ flowchart TD
     SC --> HC[High Courts]
     HC --> Dist[District Courts]
 ```
+
+
+
+## Visual Summary & Diagrams: Polity (Part 1)
+
+### Parliament Structure & Law-Making Process
+```mermaid
+flowchart TD
+    Bill[Draft Bill] --> LokSabha[Lok Sabha (Lower House)]
+    Bill --> RajyaSabha[Rajya Sabha (Upper House)]
+    
+    LokSabha -->|Passed| RajyaSabha
+    RajyaSabha -->|Passed| LokSabha
+    
+    LokSabha -.->|Disagreement| Joint[Joint Sitting]
+    RajyaSabha -.->|Disagreement| Joint
+    
+    LokSabha & RajyaSabha -->|Approved| President
+    Joint -->|Approved| President
+    
+    President -->|Assent| Act((Becomes an Act))
+    President -.->|Veto/Return| Bill
+```
+
+### Supreme Court & High Court Hierarchy
+```mermaid
+mindmap
+  root((Indian Judiciary))
+    Supreme Court of India
+      Original Jurisdiction
+      Appellate Jurisdiction
+      Advisory Jurisdiction
+    High Courts (25 in India)
+      State level jurisdiction
+      Writ Jurisdiction (Art 226)
+    Subordinate Courts
+      District Courts (Civil)
+      Sessions Courts (Criminal)
+      Panchayat / Lok Adalats
+```

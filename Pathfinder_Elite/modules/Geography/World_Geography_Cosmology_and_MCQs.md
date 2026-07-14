@@ -303,3 +303,33 @@ flowchart TD
     style OuterCore fill:#b45309,stroke:#d97706
     style InnerCore fill:#fef08a,stroke:#facc15,color:#000
 ```
+
+
+
+## Visual Summary & Diagrams: Geography (Part 1)
+
+### Atmospheric Layers
+```mermaid
+flowchart BT
+    Earth((Earth Surface))
+    Earth --> Tropo[Troposphere: Weather events, 0-12km]
+    Tropo --> Strato[Stratosphere: Ozone layer, Jet planes, 12-50km]
+    Strato --> Meso[Mesosphere: Meteors burn, 50-80km]
+    Meso --> Thermo[Thermosphere/Ionosphere: Auroras, Radio waves, 80-400km]
+    Thermo --> Exo[Exosphere: Satellites, 400km+]
+```
+
+### Rock Cycle
+```mermaid
+flowchart TD
+    Magma((Magma / Lava)) -->|Cooling & Solidification| Igneous[Igneous Rocks]
+    Igneous -->|Weathering & Erosion| Sediments[Sediments]
+    Sediments -->|Compaction & Cementation| Sedimentary[Sedimentary Rocks]
+    
+    Igneous -->|Heat & Pressure| Metamorphic[Metamorphic Rocks]
+    Sedimentary -->|Heat & Pressure| Metamorphic
+    
+    Metamorphic -->|Melting| Magma
+    Igneous -->|Melting| Magma
+    Sedimentary -->|Melting| Magma
+```

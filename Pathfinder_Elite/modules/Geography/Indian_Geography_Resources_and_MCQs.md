@@ -1135,3 +1135,22 @@ mindmap
         Kaveri
         Mahanadi
 ```
+
+
+
+## Visual Summary & Diagrams: Geography (Part 2)
+
+### Mechanism of Indian Monsoon (SW Monsoon)
+```mermaid
+flowchart TD
+    Summer[Summer in N. Hemisphere] --> Heat[Intense heating of Tibetan Plateau]
+    Heat --> LowP[Low Pressure area over NW India]
+    
+    Ocean[High Pressure over Indian Ocean] --> Winds[Winds move from High to Low Pressure]
+    Winds --> Equator[Cross Equator, deflect right due to Coriolis]
+    
+    Equator --> SW[South-West Monsoon Winds]
+    
+    SW --> Arabian[Arabian Sea Branch<br>Hits Western Ghats]
+    SW --> Bay[Bay of Bengal Branch<br>Hits NE India & Meghalaya]
+```
