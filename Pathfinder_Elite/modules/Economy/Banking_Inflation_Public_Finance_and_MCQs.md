@@ -474,3 +474,47 @@ Which of the statement(s) given above is/are correct? (a) Only 1 (b) Only 2 (c) 
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Banking & Inflation
+
+### RBI Monetary Policy Instruments
+```mermaid
+flowchart TD
+    RBI[Reserve Bank of India] --> Quant[Quantitative Tools]
+    RBI --> Qual[Qualitative Tools]
+    
+    Quant --> CRR[CRR: Cash Reserve Ratio]
+    Quant --> SLR[SLR: Statutory Liquidity Ratio]
+    Quant --> Repo[Repo Rate & Reverse Repo Rate]
+    Quant --> OMO[Open Market Operations]
+    
+    Qual --> Margin[Margin Requirements]
+    Qual --> Moral[Moral Suasion]
+    Qual --> Direct[Direct Action]
+```
+
+### Types of Inflation
+```mermaid
+mindmap
+  root((Inflation))
+    Demand-Pull
+      Caused by excess demand
+      "Too much money chasing too few goods"
+    Cost-Push
+      Caused by increase in cost of production
+      e.g., Raw material cost, Wages
+```
+
+### Indian Banking Structure
+```mermaid
+flowchart TD
+    RBI[RBI: Central Bank] --> SCB[Scheduled Commercial Banks]
+    RBI --> Coop[Cooperative Banks]
+    
+    SCB --> PSBs[Public Sector Banks: SBI, PNB]
+    SCB --> PvtB[Private Sector Banks: HDFC, ICICI]
+    SCB --> ForB[Foreign Banks]
+    SCB --> RRBs[Regional Rural Banks]
+```

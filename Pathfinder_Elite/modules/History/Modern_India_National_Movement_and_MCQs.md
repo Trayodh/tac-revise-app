@@ -1258,3 +1258,36 @@ timeline
     1942 : Quit India Movement
     1947 : Independence
 ```
+
+
+
+## Visual Summary & Diagrams: Modern India
+
+### Phases of the Indian National Movement
+```mermaid
+timeline
+    title Indian Freedom Struggle
+    1885 : Formation of INC
+    1885 - 1905 : Moderate Phase
+    1905 - 1919 : Extremist Phase (Swadeshi Movement)
+    1919 - 1947 : Gandhian Era (Non-Cooperation, Civil Disobedience, Quit India)
+    1947 : Independence
+```
+
+### British Land Revenue Systems
+```mermaid
+mindmap
+  root((Land Revenue Systems))
+    Zamindari (Permanent Settlement)
+      Introduced by Cornwallis (1793)
+      Bengal, Bihar, Orissa
+      Zamindar owns land, pays fixed rent
+    Ryotwari
+      Introduced by Munro & Read (1820)
+      Madras, Bombay
+      Direct settlement with the peasant (Ryot)
+    Mahalwari
+      Introduced by Holt Mackenzie (1822)
+      North-West Frontier, Punjab
+      Settlement with the village community (Mahal)
+```

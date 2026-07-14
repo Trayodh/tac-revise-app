@@ -456,3 +456,18 @@ State Bank’s Group • State Bank of Bikaner and Jaipur • State Bank of Hyde
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Macroeconomics & Planning
+
+### History of Economic Planning in India
+```mermaid
+timeline
+    title Economic Planning
+    1950 : Planning Commission Established
+    1951 : First Five-Year Plan (Agriculture focus)
+    1956 : Second Five-Year Plan (Heavy Industries - Mahalanobis Model)
+    1991 : Economic Reforms (LPG)
+    2015 : NITI Aayog replaces Planning Commission
+```

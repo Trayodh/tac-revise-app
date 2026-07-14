@@ -634,3 +634,28 @@ Which of the statement(s) given above is/are correct? (a) Only 1 (b) Only 2 (c) 
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Medieval India
+
+### Delhi Sultanate Dynasties (1206 - 1526)
+```mermaid
+flowchart LR
+    Slave[Slave Dynasty: 1206-1290] --> Khilji[Khilji Dynasty: 1290-1320]
+    Khilji --> Tughlaq[Tughlaq Dynasty: 1320-1414]
+    Tughlaq --> Sayyid[Sayyid Dynasty: 1414-1451]
+    Sayyid --> Lodi[Lodi Dynasty: 1451-1526]
+```
+
+### The Great Mughals
+```mermaid
+timeline
+    title The Mughal Empire (1526 - 1707)
+    1526 : Babur (First Battle of Panipat)
+    1530 : Humayun
+    1556 : Akbar
+    1605 : Jahangir
+    1628 : Shah Jahan
+    1658 : Aurangzeb
+```

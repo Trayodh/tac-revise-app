@@ -766,3 +766,35 @@ Ravi 81. Arrange in chronological order the following foreign invasions.
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Ancient India
+
+### Chronology of Ancient Indian Empires
+```mermaid
+timeline
+    title Ancient India Timeline
+    2500 BCE : Indus Valley Civilization
+    1500 BCE : Early Vedic Period
+    1000 BCE : Later Vedic Period
+    600 BCE : Mahajanapadas
+    322 BCE : Mauryan Empire (Chandragupta, Ashoka)
+    320 CE : Gupta Empire (Golden Age)
+```
+
+### Buddhism vs Jainism
+```mermaid
+flowchart TD
+    subgraph Buddhism
+    B[Gautama Buddha] --> B1[Four Noble Truths]
+    B --> B2[Eightfold Path]
+    B --> B3[Nirvana]
+    end
+
+    subgraph Jainism
+    J[Mahavira] --> J1[Three Jewels: Triratna]
+    J --> J2[Five Vows: Ahimsa, Satya, Asteya, Aparigraha, Brahmacharya]
+    J --> J3[Kaivalya]
+    end
+```

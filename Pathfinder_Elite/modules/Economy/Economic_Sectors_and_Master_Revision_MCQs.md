@@ -274,3 +274,29 @@ Select the correct answer using the codes given below (a) Only 1 (b) Only 2 (c) 
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Economic Sectors
+
+### Sectors of the Indian Economy
+```mermaid
+mindmap
+  root((Economic Sectors))
+    Primary Sector
+      Agriculture
+      Mining
+      Fishing
+      Forestry
+    Secondary Sector
+      Manufacturing
+      Construction
+      Electricity
+      Water supply
+    Tertiary Sector
+      Services
+      Banking
+      IT & Software
+      Tourism
+      Healthcare
+```
