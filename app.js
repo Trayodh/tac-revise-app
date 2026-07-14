@@ -965,7 +965,6 @@ function renderNotesBrowser() {
                 ${examDots}
               </div>
               <span style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${topic.title}</span>
-              ${topic.isEliteUpdate ? '<span class="badge elite-badge">ELITE UPDATE</span>' : ''}
             </div>
             ${isTopicCompleted ? '<span style="font-size:0.75rem;"></span>' : ''}
           </div>
@@ -6720,7 +6719,6 @@ function loadMoreBankQuestions() {
         card.innerHTML = `
             <div class="bank-q-text" id="bank-q-text-${i}">
                 Q${i+1}. ${q.question}
-                ${q.isEliteUpdate ? '<span class="badge elite-badge" style="vertical-align: middle; margin-left: 10px;">ELITE UPDATE</span>' : ''}
             </div>
             ${optionsHtml}
             <div style="margin-top: 15px; display: flex; gap: 10px;">
