@@ -162,3 +162,25 @@ Major gaseous air pollutants:
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Industrial Chemistry
+
+### Haber Process (Ammonia)
+```mermaid
+flowchart LR
+    N2[Nitrogen: from air] --> Reactor
+    H2[Hydrogen: from natural gas] --> Reactor
+    
+    Reactor{Reactor: 450°C, 200atm, Iron Catalyst} --> NH3[Ammonia Gas]
+```
+
+### Contact Process (Sulphuric Acid)
+```mermaid
+flowchart TD
+    S[Sulphur] -->|Burns in Air| SO2[Sulphur Dioxide]
+    SO2 -->|Reacts with O2 + V2O5 Catalyst| SO3[Sulphur Trioxide]
+    SO3 -->|Dissolved in H2SO4| Oleum[Oleum H2S2O7]
+    Oleum -->|Diluted with water| Acid[Sulphuric Acid H2SO4]
+```

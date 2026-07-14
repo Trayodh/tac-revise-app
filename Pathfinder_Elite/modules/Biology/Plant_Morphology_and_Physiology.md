@@ -354,3 +354,34 @@ Carbohydrates release energy more quickly as compared to fats. Structure of Carb
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Plant Physiology
+
+### Process of Photosynthesis
+```mermaid
+flowchart TD
+    Light[Sunlight] --> LR[Light Dependent Reaction: Grana]
+    H2O[Water] --> LR
+    
+    LR -->|Releases| O2[Oxygen]
+    LR -->|Produces| ATP[ATP & NADPH]
+    
+    ATP --> DR[Dark Reaction / Calvin Cycle: Stroma]
+    CO2[Carbon Dioxide] --> DR
+    
+    DR -->|Produces| Glucose[Glucose / Sugar]
+```
+
+### Plant Vascular System
+```mermaid
+flowchart LR
+    subgraph Xylem
+    X[Water & Minerals] -->|Unidirectional Flow| Up[Roots to Leaves]
+    end
+    
+    subgraph Phloem
+    P[Glucose / Food] -->|Bidirectional Flow| Down[Leaves to Roots & storage]
+    end
+```

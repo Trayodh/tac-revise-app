@@ -1024,3 +1024,70 @@ Acquired Diseases These diseases develope after birth and are not transferred fr
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Animal Physiology
+
+### Human Digestive System
+```mermaid
+flowchart TD
+    Mouth[Mouth: Salivary Amylase breaks starch] --> Pharynx[Pharynx]
+    Pharynx --> Oeso[Oesophagus]
+    Oeso --> Stomach[Stomach: HCl + Pepsin break proteins]
+    Stomach --> SI[Small Intestine: Duodenum, Jejunum, Ileum]
+    
+    Liver[Liver: Secretes Bile] -.->|Gall Bladder| SI
+    Pancreas[Pancreas: Trypsin, Lipase, Amylase] -.-> SI
+    
+    SI -->|Absorption of nutrients| LI[Large Intestine: Caecum, Colon, Rectum]
+    LI -->|Water absorption| Anus[Anus: Egestion]
+```
+
+### Double Circulation (Systemic & Pulmonary)
+```mermaid
+flowchart LR
+    subgraph Pulmonary Circulation
+    RV[Right Ventricle] -->|Pulmonary Artery| Lungs[Lungs: Oxygenation]
+    Lungs -->|Pulmonary Veins| LA[Left Atrium]
+    end
+
+    subgraph Systemic Circulation
+    LV[Left Ventricle] -->|Aorta| Body[Body Organs]
+    Body -->|Deoxygenated Blood via Vena Cava| RA[Right Atrium]
+    end
+    
+    RA --> RV
+    LA --> LV
+```
+
+### Human Brain Structure
+```mermaid
+mindmap
+  root((Human Brain))
+    Forebrain
+      Cerebrum (Thinking, Memory)
+      Thalamus (Relay center)
+      Hypothalamus (Temperature, Hunger, Thirst)
+    Midbrain
+      (Vision, Hearing reflexes)
+    Hindbrain
+      Cerebellum (Balance, Posture)
+      Pons (Respiration)
+      Medulla Oblongata (Involuntary functions: Heartbeat, Vomiting)
+```
+
+### Structure of a Nephron
+```mermaid
+flowchart TD
+    Renal[Renal Artery] --> Aff[Afferent Arteriole]
+    Aff --> Glom[Glomerulus]
+    Glom --> Bow[Bowman's Capsule]
+    
+    Bow --> PCT[Proximal Convoluted Tubule: Reabsorption]
+    PCT --> Henle[Loop of Henle]
+    Henle --> DCT[Distal Convoluted Tubule: Secretion]
+    DCT --> Collect[Collecting Duct: To Ureter]
+    
+    Glom --> Eff[Efferent Arteriole: Exits]
+```

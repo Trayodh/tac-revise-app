@@ -300,3 +300,22 @@ Types of Plants On the basis of nutrition, plants are of following types: (i) Au
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Genetics
+
+### Mitosis vs Meiosis
+```mermaid
+flowchart TD
+    Cell((Parent Cell 2n))
+    
+    subgraph Mitosis
+    Cell -->|Prophase, Metaphase, Anaphase, Telophase| M[2 Identical Somatic Cells 2n]
+    end
+    
+    subgraph Meiosis
+    Cell --> Meiosis1[2 Cells n]
+    Meiosis1 --> Meiosis2[4 Unique Gametes n]
+    end
+```

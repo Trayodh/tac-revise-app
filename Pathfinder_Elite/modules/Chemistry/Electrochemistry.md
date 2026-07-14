@@ -10,3 +10,22 @@ In a colloid, the size of solute particles is bigger than that of true solution 
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Electrochemistry
+
+### Galvanic (Voltaic) Cell
+```mermaid
+flowchart LR
+    subgraph Anode Half-Cell
+    A[Zinc Anode: Oxidation] -->|Zn becomes Zn2+| SolA[ZnSO4 Solution]
+    end
+    
+    subgraph Cathode Half-Cell
+    C[Copper Cathode: Reduction] -->|Cu2+ becomes Cu| SolC[CuSO4 Solution]
+    end
+    
+    A -->|Electrons flow| C
+    SolA -.->|Salt Bridge| SolC
+```

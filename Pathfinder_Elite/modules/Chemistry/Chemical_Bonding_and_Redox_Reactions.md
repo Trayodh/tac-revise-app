@@ -88,3 +88,25 @@ or
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Chemical Bonding
+
+### Types of Chemical Bonds
+```mermaid
+mindmap
+  root((Chemical Bonds))
+    Ionic Bond
+      Transfer of electrons
+      Between Metal and Non-Metal
+      e.g. NaCl, MgO
+    Covalent Bond
+      Sharing of electrons
+      Between Non-Metals
+      e.g. H2O, CH4, O2
+    Metallic Bond
+      Sea of delocalized electrons
+      Between Metals
+      e.g. Iron, Gold, Copper
+```

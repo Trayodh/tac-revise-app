@@ -78,3 +78,23 @@ Radioactivity was discovered by a French physicist Henri Becquerel in 1896. Howe
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Atomic Structure
+
+### Periodic Trends
+```mermaid
+flowchart LR
+    subgraph Across a Period (Left to Right)
+    PR[Atomic Radius: Decreases]
+    PI[Ionization Energy: Increases]
+    PE[Electronegativity: Increases]
+    end
+    
+    subgraph Down a Group (Top to Bottom)
+    GR[Atomic Radius: Increases]
+    GI[Ionization Energy: Decreases]
+    GE[Electronegativity: Decreases]
+    end
+```

@@ -70,3 +70,19 @@ Common Ion Effect Tears 7.4 Lemon 2.2-2.4 Addition of a strong electrolyte in th
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Acids and Bases
+
+### The pH Scale
+```mermaid
+flowchart LR
+    0[0: Strong Acid] --- 3[3: Weak Acid] --- 7[7: Neutral: Pure Water] --- 10[10: Weak Base] --- 14[14: Strong Base]
+    
+    style 0 fill:#ef4444
+    style 3 fill:#f97316
+    style 7 fill:#22c55e
+    style 10 fill:#3b82f6
+    style 14 fill:#1d4ed8
+```
