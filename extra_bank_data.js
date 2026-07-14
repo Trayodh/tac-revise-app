@@ -8172,6 +8172,8890 @@ window.EXTRA_QUESTION_BANK = {
       "correct": 1,
       "explanation": "Organic Matter]",
       "topicId": "mixed_science_pdf"
+    },
+    {
+      "question": "What is the full form of ASLV?",
+      "options": [
+        "Augmented Satellite Launch Vehicle",
+        "Automatic Satellite Launch Vehicle",
+        "Aero Space Launch Vehicle",
+        "Area Satellite Launch Vehicle"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which is India's first experimental satellite launch vehicle?",
+      "options": [
+        "ASLV",
+        "GSLV",
+        "SLV 3",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which type of fuel is used by GSLV in its operations?",
+      "options": [
+        "Only solid fuel",
+        "Only liquid fuel",
+        "Liquid in first stage and solid in second stage",
+        "Solid in first stage and liquid in second stage"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When The Indian Space Research Organisation (ISRO) was set up?",
+      "options": [
+        "1962",
+        "1969",
+        "1972",
+        "1952"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Where is the Headquarter of ISRO?",
+      "options": [
+        "Chandipur",
+        "Bengaluru",
+        "Mahendragiri",
+        "Chennai"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is NOT true about Indian space research?",
+      "options": [
+        "The first satellite launched in India was Aryabhatta.",
+        "Great scientist Dr. Vikram Sarabhai is known as the father of Indian space research.",
+        "ISRO was set up in 1962.",
+        "IRSO reports to Department of Space, India"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "IRNSS is a \u2026\u2026\u2026\u2026\u2026..",
+      "options": [
+        "Navigation satellite",
+        "Space mission",
+        "MARS mission",
+        "Geo stationary satellite"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who was the india\u2019s first man/women in the space?",
+      "options": [
+        "Rajesh Sharma",
+        "Rakesh sharma",
+        "Kalpana chawla",
+        "Sunita williams"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Satish Dhawan Space Centre (SDSC), SHAR is situated at\u2026\u2026.",
+      "options": [
+        "Bangaluru",
+        "Mahendragiri",
+        "Ahmedabad",
+        "Sriharikota"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What was the Chandrayan I\u2026\u2026..",
+      "options": [
+        "An earth observation satellite",
+        "Lunar Probe",
+        "Navigation satellite"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following statement is/are true  (1) APPLE was India\u2018s first experimental, geostationary satellite.  (2) Indi\u2018s first experimental satellite was assisted by the Soviet Union.  (3) INSAT -2 project was India\u2018s first indigenously built satellite.",
+      "options": [
+        "Only 1, 2 are correct",
+        "Only 2nd is correct",
+        "Only 2, 3 are correct",
+        "All are correct"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Where is the Headquarter of DRDO?",
+      "options": [
+        "New delhi",
+        "Odisha",
+        "Karnataka",
+        "Maharashtra"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "IRNSS-1E is the fifth satellite in the Indian Regional Navigation Satellite System  (IRNSS), which vehicle launched it?",
+      "options": [
+        "PSLV-C31",
+        "PSLV-C30",
+        "PSLV-C21",
+        "GSLV 3"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following statement is Not true about IRNSS?",
+      "options": [
+        "IRNSS consists of constellation of seven satellites of which three are geostationary and four",
+        "Till date 5 satellites of it has been launched.",
+        "It will provide mapping and tracking services.",
+        "It was launched on board of PSLV-C30 rocket from Satish Dhawan Space Centre (SHAR),"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following country do not have cryogenic engine technique?",
+      "options": [
+        "Russia",
+        "Japan",
+        "China",
+        "Canada"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the heaviest rocket of India?",
+      "options": [
+        "GSLV Mark 3",
+        "RH 75",
+        "RH 300",
+        "RH200"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not true about mars mission of India?",
+      "options": [
+        "It was launched on 5 November 2012",
+        "It was India's first interplanetary mission.",
+        "ISRO has become the fourth space agency to reach Mars.",
+        "India is the first Asian nation to reach Mars orbit."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not true about the chandrayan1?",
+      "options": [
+        "It was launched by the Indian Space Research Organisation in October 2008.",
+        "India launched the spacecraft using a PSLV-XL rocket, serial number C13.",
+        "The vehicle was successfully inserted into lunar orbit on 8 November 2008.",
+        "Prime Minister Atal Bihari Vajpayee announced the project on course in his Independence"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is true about Polar Satellite Launch Vehicle (PSLV)?",
+      "options": [
+        "It was developed and operated by indigenously in India",
+        "It was developed in collaboration with Russia.",
+        "It was developed in collaboration with USA.",
+        "It was developed in collaboration with USA & UK."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Where is Thumba Equatorial Rocket Launching Station (TERLS) situated?",
+      "options": [
+        "Andhra Pradesh",
+        "Kerala",
+        "Odisha",
+        "Karnataka"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Where is Vikram Sarabhai Space Centre?",
+      "options": [
+        "Thiruvananthapuram",
+        "Odisha",
+        "Kerala",
+        "Andhra Pradesh"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following statement is /are true?",
+      "options": [
+        "India\u2018s first satellite communication earth station was set up at ARVI (Pune).",
+        "USA is the India\u2018s biggest partner in the development of the space programmes.",
+        "India\u2018s first satellite launch vehicle was SLV.",
+        "SROS, stands for Stretched Rohini Satellite Series."
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is true?",
+      "options": [
+        "Artyabhatta institute of observational sciences is in nainital.",
+        "S.N. Bose national centre for basic sciences is in Kolkata",
+        "Indian institute of Astrophysics is in Odisha",
+        "Indian institute of Geomagnetism  is in Mumbai"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Where is master control facility in India?",
+      "options": [
+        "Hasan (karnataka)",
+        "Bhopal (MP)",
+        "Chandipur (Odisha)",
+        "Both a & b"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is true about Indian defence system?",
+      "options": [
+        "G.M. Kariyappa was the first Indian chief of army staff?",
+        "Department of Defence Research And Development comes under the ministry of defence.",
+        "The Headquarter of eastern command of defence is in Odisha.",
+        "Only a & b"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Chief of the air force is called\u2026\u2026\u2026\u2026\u2026\u2026",
+      "options": [
+        "Admiral",
+        "Air marshal",
+        "Air Chief Marshal",
+        "General"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the correct decreasing order of the officers in the Indian Army?",
+      "options": [
+        "Field marshal, General, Lieutenant General and Major General",
+        "General, Field marshal , Lieutenant General and Major General",
+        "General, Lieutenant General, Major General  and Field marshal,",
+        "General, Field marshal ,Lieutenant General and Major General"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not true about Agni V Missile?",
+      "options": [
+        "It\u2018s an intercontinental ballistic missile.",
+        "It is indigenously developed by India.",
+        "Its range is between 5000-6000 kms",
+        "It is run by liquid fuel."
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following missile works on the theory of \u201cfire and forget\u201d?",
+      "options": [
+        "Brahmos",
+        "Akash",
+        "Nag",
+        "Sourya"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not true?",
+      "options": [
+        "Nirbhay is a missile of 1000 km",
+        "Brahmos missile is developed by DRDO",
+        "Astra is an Air to Surface missile.",
+        "The range of Agni iii is between 3000 to 5000 kms."
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who speculated that our universe is expanding?",
+      "options": [
+        "Newton",
+        "Edwin Hubble",
+        "Galilio",
+        "Copernicus"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who had propounded the planetary laws?",
+      "options": [
+        "Newton",
+        "Kepler",
+        "Galileo",
+        "Copernicus"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who had proved first that our earth and another planet are revolving?",
+      "options": [
+        "Aristotle",
+        "Galileo",
+        "Copernicus",
+        "Edwin Hubble"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following elements occurs most abundantly in our universe?",
+      "options": [
+        "Hydrogen",
+        "Nitrogen",
+        "Helium",
+        "Oxygen"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The stellar and solar source of energy is:",
+      "options": [
+        "Nuclear fusion",
+        "Nuclear fission",
+        "Electromagnetic induction",
+        "Electromotive force"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The device employed to measure the diameters of stars and our galaxy (Milky Way) is  called:",
+      "options": [
+        "Photometer",
+        "Barometer",
+        "Viscometer",
+        "Interferometer"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the difference between asteroids and comets?  I. Asteroids are small rocky planetoids, while comets are formed of frozen gases held together  by rocky and metallic material.  II. Asteroids are found mostly between the orbits Jupiter and Mars, while comets are found  mostly between Venus and Mercury.   III. Comets show a perceptible glowing tail, while asteroids do not.  Which of the statements given above is/ are correct?",
+      "options": [
+        "I and II Only",
+        "I and III Only",
+        "III Only",
+        "I, II and III"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following planets has the largest number of planets?",
+      "options": [
+        "Saturn",
+        "Jupiter",
+        "Mars",
+        "Neptune"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following planet is also called morning star or evening star?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Saturn"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The planet which completes one revolution in 88 days around the Sun is:",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Saturn"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The planet whose density is less than water and on keeping in the water it will start to  float:",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Saturn",
+        "Mars"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The jet aircrafts fly very easily and smoothly in the lower stratosphere. What could be  the appropriate explanation?  I. There are no clouds or water vapour in the lower stratosphere.  II. There is no vertical wind in the lower stratosphere  Which of the statements given above is/ are correct in this context?",
+      "options": [
+        "I only",
+        "II only",
+        "Both I and II",
+        "Neither I nor II"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which is the nearest of the sun?",
+      "options": [
+        "Beta centaury",
+        "Alpha centaury",
+        "Gamma centaury",
+        "Proxima centaury"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The planet Neptune was discovered by:",
+      "options": [
+        "Galley",
+        "Galileo",
+        "Kepler",
+        "Newton"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the nearest planet from the Sun?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The smallest planet of the solar system:",
+      "options": [
+        "Saturn",
+        "Jupiter",
+        "Neptune",
+        "Uranus"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not a planet of solar system?",
+      "options": [
+        "Mercury",
+        "Florida",
+        "Venus",
+        "Saturn"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following stars is the nearest star from the earth?",
+      "options": [
+        "Pole Star",
+        "Comet",
+        "Sun",
+        "Asteroid"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The small groups of planetary pieces which are confined and revolving between Mars  and Jupiter are called:",
+      "options": [
+        "Meteors",
+        "Comet",
+        "Celestial bodies",
+        "Asteroids"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Halley's comet completes one revolution around the sun in:",
+      "options": [
+        "40 years",
+        "46 years",
+        "60 years",
+        "76 years"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which year man first landed on the moon?",
+      "options": [
+        "1963",
+        "1965",
+        "1969",
+        "1972"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In space, the sky looks to an astronaut:",
+      "options": [
+        "Blue",
+        "Red",
+        "White",
+        "Black"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is also known by the name of red planet?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Saturn"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The earth revolves round the sun in:",
+      "options": [
+        "360 days",
+        "365 days",
+        "365.25 days",
+        "24 Hours"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Paris based minor planet centre of International Astronomical Union (IAU) has given  a new name to the planet Pluto and it is:",
+      "options": [
+        "134340",
+        "238380",
+        "Iris",
+        "Nixe"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The new name of the celestial body Xena-2003 UB 313 given by IAU is:",
+      "options": [
+        "Sires",
+        "Iris",
+        "Grabrili",
+        "Daysomia"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the statement is correct about the  planet Saturn?",
+      "options": [
+        "Cooler than Pluto",
+        "Cooler than Neptune",
+        "Hotter than Neptune",
+        "Hotter than Jupiter"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who provided the first information regarding the Black Hole?",
+      "options": [
+        "Copernicus",
+        "Herman Bondy",
+        "Rutherford",
+        "S. Chandrasekhar"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the distance of the earth from the Sun?",
+      "options": [
+        "107.7 million km",
+        "142.7 million km",
+        "146.6 million km",
+        "149.6 million km"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is also called Blue planet or Green planet?",
+      "options": [
+        "Mars",
+        "Earth",
+        "Venus",
+        "Saturn"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following Scientist is affiliated with the law of inertia, Kinematical  equations, discovery etc.?",
+      "options": [
+        "G. Marconi",
+        "A. Fermi",
+        "Galileo",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who invented the Wireless telegraphy, radio and wireless massage?",
+      "options": [
+        "G. Marconi",
+        "A. Fermi",
+        "Galileo",
+        "Einstein"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who among the following Scientist is associated with discovery of electron?",
+      "options": [
+        "Galileo",
+        "Einstein",
+        "J.J Thomson",
+        "C.R.T Wilson"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following outstanding contribution in Physics is associated with the  Scientist Newton?",
+      "options": [
+        "Universal gravitational law",
+        "Laws of Motion",
+        "Discovery of Calculus",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What was the contribution of the Scientist A. Fermi in Physics?",
+      "options": [
+        "Identification of artificial radioactive elements",
+        "Law of electric resistance",
+        "Thermal effect of electric current",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the contribution of the Scientist Ottohan and Stassman in Physics?",
+      "options": [
+        "Nuclear Fusion",
+        "Nuclear Fission",
+        "Dynamite",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following remarkable contribution in Physics is associated with the  Scientist Thels?",
+      "options": [
+        "Photo",
+        "Volta",
+        "Static Electricity",
+        "Pauli"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following spectacular contribution in Physics is associated with the  Scientist Millikan?",
+      "options": [
+        "Electronic Charge",
+        "Neutrino",
+        "Both A & B",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the major contribution in Physics is associated with the  Scientist Newton?",
+      "options": [
+        "Law of Cooling",
+        "Thermionic Emission",
+        "Both A & B",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the followingis the contribution in Physics is associated with the Scientist  Henric Hertz?",
+      "options": [
+        "Electromagnetic Wave",
+        "Photo",
+        "Mica Sheet",
+        "Thermionic Emission"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Consider the following statement(s) is/are related to the device of Ammeter  I. It is a measuring device used to measure the current in a circuit.  II. It is a measuring device used to measure the altitude of an object above a fixed level.  Which of following statement(s) is/are correct?",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both I & II",
+        "Neither I nor II"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Consider the following statement(s) is/are related to the device of Carburettor  I. It is a device that blends air and fuel for an internal combustion engine.  II. It has been largely supplanted in the automotive industry by fuel injection.  Which of following statement(s) is/are correct?",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both I & II",
+        "Neither I nor II"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who invented Transformer?",
+      "options": [
+        "Faraday",
+        "Einstein",
+        "Parsons",
+        "C.R.T Wilson"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the outstanding contribution of Scientist Aneriko Fermi in  Physics?",
+      "options": [
+        "Nuclear Furnace or Bath",
+        "Laws of Motion",
+        "Discovery of Calculus",
+        "Parasite"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is one of the contribution of Scientist Adberd Charles in  Physics?",
+      "options": [
+        "Photometer",
+        "Electric Bulb",
+        "Revolver",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the prominent contribution of Scientist Shaklay in Physics?",
+      "options": [
+        "Nuclear Fusion",
+        "Dialysis Machine",
+        "Transistor",
+        "None of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the spectacular contribution of Scientist Pascal in Physics?",
+      "options": [
+        "Photo",
+        "Volta",
+        "Computer",
+        "Calculator"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the major contribution of Scientist Swington in Physics?",
+      "options": [
+        "Atom Bomb",
+        "Military Tank",
+        "Both A & B",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the  contribution of Scientist Jeans in Physics?",
+      "options": [
+        "Lens Camera",
+        "Tyre",
+        "Both A & B",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the striking contribution in Physics of Scientist Fahrenheit?",
+      "options": [
+        "Fountain Pen",
+        "Gas Engine",
+        "Clinical Thermometer",
+        "Thermionic Emission"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who invented Scooter?",
+      "options": [
+        "G. Brousa",
+        "Harison & Kaitlin",
+        "William Gas Cogin",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who among the following Scientist is associated with the invention of the  refrigerator?",
+      "options": [
+        "G. Brousa",
+        "Harison & Kaitlin",
+        "William Gas Cogin",
+        "Einstein"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following scientist is the inventor of the lift?",
+      "options": [
+        "F.G Otis",
+        "Edison",
+        "William Gas Cogin",
+        "Einstein"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who among the following scientist invented the Microphone?",
+      "options": [
+        "Einstein",
+        "Edison",
+        "John & John",
+        "Janson & Janson"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Powerloom invention is associated with:",
+      "options": [
+        "Devi",
+        "Johnson Harrison",
+        "Carl Right",
+        "Walter Hunt"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The invention of Petrol Car is associated with:",
+      "options": [
+        "Janson & Janson",
+        "John & Johnson",
+        "Macmillan",
+        "Karl Benz"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following Scientist is affiliated with the invention of the Wireless  Telegraphy?",
+      "options": [
+        "Johnson & Johnson",
+        "Macmillan",
+        "Compel",
+        "Marconi"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Consider the following statement (s) is related with the Machine Gun  I. It is a fully automatic mounted or portable firearm, designed to fire bullets in quick succession.  II. James Pakal invented machine gun.  Which of the above statement (s) is/are correct?",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both I & II",
+        "Neither I nor II"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Consider the following statement (s) is related with the Robert Mallet  I. He is considered as the \u2015Father of Seismology\u2016  II. He invented Sismometer.  Which of the above statement (s) is/are correct?",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both I & II",
+        "Neither I nor II"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Match the following from inventions (List I) and inventors (List II)          List I                                        List II",
+      "options": [
+        "Tape Recorder                     1. Micheal Faraday",
+        "Crascograph                        2. James Watt",
+        "Steam Engine                       3. J. C Bose",
+        "Dynamo                                4. Poulson"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the SI unit of electric charge?",
+      "options": [
+        "Volt",
+        "Coulomb",
+        "Ampere",
+        "ohm"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "How much force does one coulomb of electric charge exerts on an equal charge  placed at a distance of one metre from it?",
+      "options": [
+        "9 * 109 Newton",
+        "10 * 109 Newton",
+        "9 * 108 Newton",
+        "8 * 109 Newton"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "An electron possesses a negative charge of:",
+      "options": [
+        "16 * 10-19 C",
+        "1.60 * 10-19 C",
+        "26 * 10-19 C",
+        "1.8 * 10-19 C"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "How many electrons taken together make one coulomb?",
+      "options": [
+        "6.25 * 1018 electrons",
+        "3.25 * 1018 electrons",
+        "2.25 * 1018 electrons",
+        "4.25 * 1018 electrons"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is a conductor of electricity?",
+      "options": [
+        "Silver",
+        "Copper",
+        "Aluminium",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Substances through which electricity cannot flow are called:",
+      "options": [
+        "Conductors",
+        "Insulators",
+        "Wires",
+        "Battery"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is an insulator?",
+      "options": [
+        "Carbon",
+        "Rubber",
+        "Silver",
+        "Copper"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What should be present in a substance to make it a conductor of electricity?",
+      "options": [
+        "Strongly held electrons",
+        "Strongly held protons",
+        "Free electrons",
+        "Free protons"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is an example of static electricity?",
+      "options": [
+        "Glass rod rubbed with silk cloth",
+        "Ebonite rod rubbed with wool",
+        "Lightening in the sky",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the work done in moving a unit positive charge from infinity to that point in  electric field called?",
+      "options": [
+        "Electric potential",
+        "Potential difference",
+        "Electric current",
+        "Electric circuits"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "One ohm is equal to:",
+      "options": [
+        "1 volt / 1ampere",
+        "1 volt / 1 coulomb",
+        "1 volt * 1 ampere",
+        "1 volt * 1 coulomb"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "On the basis of electrical resistance, all the substances can be divided into:",
+      "options": [
+        "Good conductors",
+        "Resistors",
+        "Insulators",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following are resistors?",
+      "options": [
+        "Silver",
+        "Copper",
+        "Aluminium",
+        "All the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What do electricians wear while working with electricity?",
+      "options": [
+        "Rubber handgloves",
+        "Woollen handgloves",
+        "Synthetic handgloves",
+        "Cotton handgloves"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following factors affect resistance of a conductor?",
+      "options": [
+        "Length of conductor",
+        "Temperature of conductor",
+        "Material of conductor",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What happens to the resistance of a wire when its length is doubled?",
+      "options": [
+        "Gets doubled",
+        "Becomes half",
+        "Becomes nil",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Resistance of a conductor is inversely proportional to:",
+      "options": [
+        "Current",
+        "Its length",
+        "Its area of cross-section",
+        "Potential difference"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The resistance of a wire is inversely proportional to the:",
+      "options": [
+        "Four times of its diameter",
+        "Square of its diameter",
+        "&frac14; of its diameter",
+        "1/3 of its diameter"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What will be the resistance of a wire if its diameter is tripled?",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/3",
+        "1/9"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Resistance of which of the following is unaffected by temperature?",
+      "options": [
+        "Manganin",
+        "Constantan",
+        "Nichrome",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "A continuous conducting path consisting of wires and other resistances and a  switch, between the two terminals of a battery along which an electric current flows is  called:",
+      "options": [
+        "Resistivity",
+        "Circuit",
+        "Electric power",
+        "Insulator"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is a part of electrical circuit?",
+      "options": [
+        "Battery",
+        "Fixed resistance",
+        "Connecting wires",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The resistance which can be changed as desired is called:",
+      "options": [
+        "Wire joints",
+        "Fixed resistance",
+        "Variable resistance",
+        "A switch"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is a current-detecting instrument?",
+      "options": [
+        "Voltmeter",
+        "Ammeter",
+        "Magnetometer",
+        "Galvanometer"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Rheostat is the other name of:",
+      "options": [
+        "Fixed resistance",
+        "Variable resistance",
+        "Insulator",
+        "Conductor"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The law which gives relationship between current and potential difference is called:",
+      "options": [
+        "Ohm\u2018s law",
+        "Ampere\u2018s law",
+        "Biot-Savart law",
+        "Coulomb\u2018s law"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the formula for calculating current?",
+      "options": [
+        "I = V * R",
+        "I = V + R",
+        "I = V \u2013 R",
+        "I = V/R"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Current is inversely proportional to:",
+      "options": [
+        "Potential difference",
+        "Resistance",
+        "Voltage",
+        "Electric power"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The resistance of a conductor depends on its:",
+      "options": [
+        "Length",
+        "Nature of material",
+        "Thickness",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the SI unit of resistance?",
+      "options": [
+        "Volt",
+        "Watt",
+        "Ohm",
+        "Metre"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name an electronic device which is used to measure the current in ampere?",
+      "options": [
+        "Altimeter",
+        "Audiometer",
+        "Ammeter",
+        "Airometer"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name an equipment through which the distances travelled by the wheels of the  vehicles are measured?",
+      "options": [
+        "Accumulator",
+        "Avometer",
+        "Animometer",
+        "Adiometer"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name a device used for the magnification of the objects?",
+      "options": [
+        "Bolometer",
+        "Barometer",
+        "Binoculars",
+        "Barograph"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The equipment used in internal combustion heat engine, vehicle engine etc. is  known as:",
+      "options": [
+        "Altimeter",
+        "Crescograph",
+        "Cyclotron",
+        "Carburator"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The device by which artificial climate is produced:",
+      "options": [
+        "Callipers",
+        "Cytotron",
+        "Cardiogram",
+        "Avometer"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name an equipment through which electrons are emitted or ejected?",
+      "options": [
+        "Cathode ray tube",
+        "Callipers",
+        "Coolidge tube",
+        "Bolometer"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Through which equipment human\u2019s heart beats are recorded and detected via  graphics?",
+      "options": [
+        "Barograph",
+        "Crescograph",
+        "Comograph",
+        "Cardiograph"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name a device which is used to convert mechanical energy into electrical energy?",
+      "options": [
+        "Dip Circle",
+        "Denial Cell",
+        "Dynamo",
+        "Dynamometer"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The device that confirms the presence of electric charge:",
+      "options": [
+        "Electric Meter",
+        "Electro Meter",
+        "Electron Microscope",
+        "Electroscope"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which equipment is employed to project or expose pictures on the screen?",
+      "options": [
+        "Epidayscope",
+        "Endoscope",
+        "Density Meter",
+        "Escalator"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which device is used to measure the depth of seas and oceans?",
+      "options": [
+        "Gravometer",
+        "Fathometer",
+        "Gyroscope",
+        "Dilatometers"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name a devise used to measure the sharpness of the electric current?",
+      "options": [
+        "Gravometer",
+        "Electrometer",
+        "Galvanometer",
+        "Dynamometer"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name an instrument used to measure the sound waves inside the water?",
+      "options": [
+        "Comograph",
+        "Dictaphone",
+        "Crescograph",
+        "Hydrophone"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name a device used to measure atmospheric humidity?",
+      "options": [
+        "Hygrometer",
+        "Gravometer",
+        "Avometer",
+        "Calorimeter"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which device is used to detect and measure the purification of the milk?",
+      "options": [
+        "Microphone",
+        "Heart Lungs Machine",
+        "Ganong Respiratory",
+        "Lactometer"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The equipment through which any substance be cut into very small pieces:",
+      "options": [
+        "Manometer",
+        "Microtome",
+        "Micrometer",
+        "Machmeter"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Through which device the illumination and intensity of two light sources are  compared?",
+      "options": [
+        "Pyrometer",
+        "Phototeligraphic",
+        "Photometer",
+        "Periscope"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name a device through which the truthness of the human being is examined?",
+      "options": [
+        "Paicnometer",
+        "Quadrant",
+        "Polygraph",
+        "Radiometer"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which devise is used to measure the intensity of the earthquake?",
+      "options": [
+        "Seismograph",
+        "Oscilliograph",
+        "Comograph",
+        "Cardiograph"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which device is used to listen the vibrations of the heart and lungs?",
+      "options": [
+        "Spectroscope",
+        "Stethoscope",
+        "Stereoscope",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who discovered the magnetic field of current?",
+      "options": [
+        "William Gilbert",
+        "Hans Christian Oersted",
+        "Benjamin Franklin",
+        "Charles Augustin de Coulomb"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Magnetic effect of current gives rise to which force?",
+      "options": [
+        "Mechanical",
+        "Friction",
+        "Spring",
+        "Gravitational"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Magnetic effect around a wire is due to:",
+      "options": [
+        "The presence of metal",
+        "Current flowing in it",
+        "Circular loop",
+        "No current in it"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following utilise magnetic effect of current?",
+      "options": [
+        "Electric motor",
+        "Telephone",
+        "Radio",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What kind of magnetic field lines will be produced around a straight wire carrying  current?",
+      "options": [
+        "Bigger circles",
+        "Straight",
+        "Concentrated circles",
+        "Parallel straight"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "According to Maxwell\u2019s right-hand thumb rule, what gives the direction of magnetic  field lines around the wire?",
+      "options": [
+        "Direction of thumb",
+        "Direction of fingers encircling wire",
+        "Direction opposite to thumb",
+        "Direction of index finger"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Maxwell\u2019s right-hand thumb rule is also known as:",
+      "options": [
+        "Biot-Savart law",
+        "Hall Effect",
+        "Born rule",
+        "Corkscrew rule"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following current carrying wires will have strong magnetic field?",
+      "options": [
+        "Straight",
+        "Circular loop",
+        "Solenoid",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The strength of magnetic field produced by a current carrying circular coil can be  increased by:",
+      "options": [
+        "Increasing number of turns of wire",
+        "Increasing current flow",
+        "Decreasing radius of coil",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is a long coil containing a large number of close turns of insulated copper wire  called?",
+      "options": [
+        "Straight",
+        "Solenoid",
+        "Circular loop",
+        "Stranded"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The magnetic field produced by a current carrying solenoid is similar to the  magnetic field produced by a:",
+      "options": [
+        "Bar magnet",
+        "Ring magnet",
+        "Rod magnet",
+        "Horse shoe magnet"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The magnetic field lines inside the solenoid are:",
+      "options": [
+        "Concentrated circles",
+        "Bigger circles",
+        "Parallel straight lines",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is used to make electromagnets?",
+      "options": [
+        "Circular wire",
+        "Solenoid",
+        "Straight wire",
+        "Horse shoe magnet"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "On what does the strength of magnetic field produced by a current carrying  solenoid depend?",
+      "options": [
+        "Number of turns in solenoid",
+        "Strength of current",
+        "Nature of core material",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "An electromagnet consists of a long coil of insulated copper wire wound on a soft:",
+      "options": [
+        "Aluminium core",
+        "Silver core",
+        "Zinc core",
+        "Iron core"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not used for making electromagnets?",
+      "options": [
+        "Carbon steel",
+        "Alnico",
+        "Cobalt steel",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following factors affects the strength of steel?",
+      "options": [
+        "Number of turns in coil",
+        "Current flowing in coil",
+        "Length of air gap between poles",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Strong permanent magnets are used in:",
+      "options": [
+        "Microphones",
+        "Loudspeakers",
+        "Voltmeters",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which effect of current is used in detecting concealed current-carrying conductor in  a wall?",
+      "options": [
+        "Magnetic",
+        "Heating",
+        "Chemical",
+        "Ionic"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which are the two main organs of the human body where the magnetic field  produced is significant?",
+      "options": [
+        "Heart and kidney",
+        "Lungs and kidney",
+        "Heart and brain",
+        "Liver and stomach"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who discovered that when a current carrying conductor is placed in a magnetic  field, a mechanical force exerted on the conductor makes it move?",
+      "options": [
+        "Hans Christian Oersted",
+        "Michael Faraday",
+        "Benjamin Franklin",
+        "William Gilbert"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The maximum force is exerted on a current carrying conductor when it is:",
+      "options": [
+        "Perpendicular to magnetic field",
+        "Parallel to magnetic field",
+        "Swings in backward direction",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which rule is applied to find the direction of force acting on the current-carrying  conductor, if the direction of current and direction of magnetic field is known?",
+      "options": [
+        "Maxwell\u2018s right-hand thumb rule",
+        "Born rule",
+        "Hall Effect",
+        "Fleming\u2018s left-hand rule"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which direction is indicated by the thumb in Fleming\u2019s left-hand rule?",
+      "options": [
+        "Current",
+        "Magnetic field",
+        "Motion of conductor",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What does the forefinger represent in the Fleming\u2019s left-hand rule?",
+      "options": [
+        "Magnetic field",
+        "Current",
+        "Motion of conductor",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The direction of deflection of a current-carrying conductor indicates the direction of:",
+      "options": [
+        "Electric current",
+        "Force acting on it",
+        "Magnetic field",
+        "All of the above"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which device converts electrical energy into mechanical energy?",
+      "options": [
+        "Motor",
+        "Generator",
+        "Windmill",
+        "Transformer"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In which of the following devices is the electrical motor used?",
+      "options": [
+        "Electric fans",
+        "Washing machine",
+        "Refrigerator",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In an electric motor, which device reverses the direction of current through a  circuit?",
+      "options": [
+        "Carbon brush",
+        "Coil",
+        "Commutator",
+        "Permanent magnet"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The carbon strips used to pass electric current to the coil are known:",
+      "options": [
+        "Commutator",
+        "Magnet",
+        "Battery",
+        "Brushes"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following device converts chemical energy in to electrical energy?",
+      "options": [
+        "Battery",
+        "Loud Speaker",
+        "Solar Cell",
+        "Electric Motor"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The energy possessed by a body due to its position is called:",
+      "options": [
+        "Kinetic Energy",
+        "Potential Energy",
+        "Mechanical Energy",
+        "Electrical Energy"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Joule is a unit of:",
+      "options": [
+        "Work",
+        "Power",
+        "Momentum",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The commercial unit of Energy is:",
+      "options": [
+        "Watt",
+        "Watt-hour",
+        "Kilowatt-hour",
+        "Kilowatt"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When an object falls freely towards the ground, then its total energy:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "First increases then decreases"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In 1 minute how much energy does a 100 W electric bulb transfers?",
+      "options": [
+        "100 J",
+        "600 J",
+        "3600 J",
+        "6000 J"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What happens to the body on which work is done:",
+      "options": [
+        "It loses energy",
+        "It gains energy",
+        "No change in the energy",
+        "First it loses then it gain"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "A radio set of 60 watts runs for 50 hours. How many units of electrical energy are  consumed in kWh?",
+      "options": [
+        "2 kWh",
+        "3 kWh",
+        "4 kWh",
+        "2.5 kWh"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the smallest unit of power?",
+      "options": [
+        "Watt",
+        "Kilowatt",
+        "Horse power",
+        "Milliwatt"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "On an object the work done does not depend upon:",
+      "options": [
+        "Displacement",
+        "Angle between force and displacement",
+        "Force applied",
+        "Initial velocity of an object"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "On which theory nature of light depends upon:",
+      "options": [
+        "Wave theory",
+        "Particle theory",
+        "Both A and B",
+        "Only A"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Why light is said to have a dual nature?",
+      "options": [
+        "It exhibits the properties of wave and particles.",
+        "It exhibits the properties of reflection and diffraction.",
+        "It has both interference and polarisation effect.",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which object does not reflect more light?",
+      "options": [
+        "Polished Surface",
+        "Shining Surface",
+        "Unpolished",
+        "Both A and B"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name a metal which is the best reflector of light?",
+      "options": [
+        "Gold",
+        "Silver",
+        "Iron",
+        "Magnesium"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "An incident ray is:",
+      "options": [
+        "The point at which incident ray falls on the mirror.",
+        "The ray of light which is sent back by the mirror.",
+        "The ray of light which falls on the mirror surface.",
+        "The ray which makes right angle to the mirror surface."
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which statement is correct about the laws of reflection?  (i) The incident ray, normal ray and the reflected ray all lie in the same plane.  (ii) The angle of reflection is always equal to the angle of incidence.  (iii) The angle of incidence is equal to the angle formed by normal ray.  (iv) The angle of reflection is equal to 90o.",
+      "options": [
+        "Both (i) and (ii)",
+        "Both (ii) and (iii)",
+        "Both (iii) and (iv)",
+        "(i), (ii) and (iv) are correct"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When a parallel beam of incident light is reflected as a parallel beam in one  direction, this reflection is known as:",
+      "options": [
+        "Diffuse reflection",
+        "Interference",
+        "Diffraction",
+        "Regular reflection"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Anything which gives out light rays is called:",
+      "options": [
+        "Real Image",
+        "Virtual Image",
+        "Object",
+        "Image"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "We see the image of our face when we look into the mirror. It is due to:",
+      "options": [
+        "Interference",
+        "Diffraction",
+        "Polarisation",
+        "Reflection"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The image formed on a cinema screen is an example of:",
+      "options": [
+        "Real Image",
+        "Virtual Image",
+        "Point Image",
+        "Plane Image"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When Lunar Eclipse occur?",
+      "options": [
+        "When Sun is between Earth and Moon",
+        "When Earth is between Sun and Moon",
+        "When Moon is between Earth and Sun",
+        "When Earth is between Sun and other celestial bodies"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When did Lunar Eclipse happen?",
+      "options": [
+        "Half Moon",
+        "Full Moon",
+        "Equinox",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Antumbra \u2013 partly shaded area beyond the umbra  Correct Options are:",
+      "options": [
+        "Only 1 and 2",
+        "Only 2 and 3",
+        "Only 1",
+        "All 1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is Solar Eclipse?",
+      "options": [
+        "When moon comes in between Earth and Sun",
+        "When Earth comes in between Moon and Sun",
+        "When Sun comes in between Earth and Moon",
+        "When Sun rays does not reach Earth."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When the same pattern of solar eclipse repeats every 18 years 11 days 8 hours are  known as:",
+      "options": [
+        "Nodes cycle",
+        "Saros cycle",
+        "Saras cycle",
+        "Payan cycle"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What do you mean by Blood Moon?",
+      "options": [
+        "It is total solar eclipse.",
+        "It is partial lunar eclipse with red glow",
+        "It is total lunar eclipse with deep red glow",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "During lunar eclipse, the visible red colour is because of:",
+      "options": [
+        "Dust in space",
+        "Dust in moon\u2018s atmosphere",
+        "Dust in earth\u2018s atmosphere",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "During a calendar year, the maximum numbers of lunar eclipse that can occur are:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What do you understand by an eclipse?",
+      "options": [
+        "Partial or total blocking of light of one celestial object by another.",
+        "Partial or total blocking of light by Moon.",
+        "Partial or total blocking of light by Earth.",
+        "Partial or total blocking of light by Sun."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Diamond ring occurs in which type of solar eclipse?",
+      "options": [
+        "Total Solar eclipse",
+        "Partial Solar eclipse",
+        "Annular Solar eclipse",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is a large blood vessel that carries blood away from the heart?",
+      "options": [
+        "Vein",
+        "Artery",
+        "Capillary",
+        "Nerve"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not a member of the vitamin B complex?",
+      "options": [
+        "Thiamine",
+        "Riboflavin",
+        "Folic acid",
+        "Ascorbic acid"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Fungi are plants that lack:",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Chlorophyll",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What makes a reptile a reptile?",
+      "options": [
+        "Cold blooded",
+        "Warm Blooded",
+        "Non-Hearing",
+        "Egg-laying"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which blood vessels have the smallest diameter?",
+      "options": [
+        "Capillaries",
+        "Arterioles",
+        "Venules",
+        "Lymphatic"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is an air-borne disease?",
+      "options": [
+        "Measles",
+        "Typhoid",
+        "Pink eye",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which organ of the body produces the fluid known as bile?",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Gall bladder",
+        "Kidney"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following is not a function of the liver?",
+      "options": [
+        "Regulation of blood sugar",
+        "Enzyme activation",
+        "Detoxiation",
+        "Reproduction"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one is not the form of Biocides?",
+      "options": [
+        "Salt",
+        "Iodine",
+        "Sugar",
+        "Bleech"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "How biocides work?",
+      "options": [
+        "Control the multiplication of insects",
+        "Kill the insects",
+        "Manage the original form of material",
+        "Control the bacteria"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is Rodenticide?",
+      "options": [
+        "A medicine to kill worms",
+        "A medicine to kill animals",
+        "A lubricant",
+        "A pesticide"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Most commonly used Rodenticides are _______ in nature.",
+      "options": [
+        "Anti pesticides",
+        "Anti solvent",
+        "Anti Coagulant",
+        "Non anti coagulant"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which acid is present in lemon?",
+      "options": [
+        "marlic acid",
+        "citric acid",
+        "lactic acid",
+        "tartaric acid"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Natural rubber is a ________ which is having high elasticity.",
+      "options": [
+        "Substance",
+        "Material",
+        "Elastomer",
+        "Chemical using carbon as main compound"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "How will you define the process of Vulcanization?",
+      "options": [
+        "Sample of butane mixed with sulphur and litharge",
+        "Sample of propane mixed with sulphur and litharge",
+        "Sample of plastic formed carbon mixed with sulphur and litharge",
+        "Sample of rubber mixed with sulphur and litharge"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is NBR?",
+      "options": [
+        "Normal Acrylonitrile-butadiene rubber",
+        "Natural Acrylonitrile-butadiene rubber",
+        "N Acrylonitrile-butane rubber",
+        "Acrylonitrile-butadiene rubber"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "A synthetic rubber is having__________weight.",
+      "options": [
+        "Higher resistance",
+        "Lower density",
+        "Higher molecular",
+        "Higher atomic"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not a type of elements?",
+      "options": [
+        "Metals",
+        "Non Metals",
+        "Metalloids",
+        "Gases"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In which form the natural petroleum is found?",
+      "options": [
+        "Gaslette",
+        "Kerosene",
+        "Crude Oil",
+        "Tar"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which country consumes maximum petroleum?",
+      "options": [
+        "Saudi Arabia",
+        "India",
+        "UK",
+        "US"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In which field petroleum is not used?",
+      "options": [
+        "Automobile",
+        "Petro Chemical",
+        "Medical",
+        "Marketing"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Petroleum is a combination of chains of hydrogen and_______ present in earth\u2019s  crust.",
+      "options": [
+        "butana",
+        "hydrocarbon",
+        "Carbon",
+        "proplene"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is wrong statement?",
+      "options": [
+        "Atomic radius of the elements increases as one moves down the first group of the periodic",
+        "Atomic radius of the elements decreases as one moves across from left to right in the 2nd",
+        "Amongst isoelectronic species, smaller the positive charge on the cation, smaller is the ionic",
+        "Amongst isoelectronic species, greater the negative charge on the anion, larger is the ionic"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not a greenhouse gas?",
+      "options": [
+        "Carbon Dioxide",
+        "Methane",
+        "Carbon monoxide",
+        "Water vapours"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the result of presence of green gases in excess?",
+      "options": [
+        "Deforestation",
+        "Decay of Earth\u2018s crust",
+        "Excess of heat",
+        "More snow on Earth"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The greenhouse gases spread ______ energy.",
+      "options": [
+        "Short Wave",
+        "Long Wave",
+        "Mid Wave",
+        "Ultra Wave"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The presence of the greenhouse gases is ________ for human life.",
+      "options": [
+        "Harmful",
+        "Required",
+        "Necessary",
+        "Harmless"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the acronym of PVC?",
+      "options": [
+        "polyvinyl chloride",
+        "polyvinyl carbobate",
+        "phosphor vanadiu chloride",
+        "phosphavinyl chloride"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the heaviest metal?",
+      "options": [
+        "osmium",
+        "mercury",
+        "iron",
+        "nickel"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Consider following statements:  I. Green chemistry focuses on effects of chemical pollutants on nature.  II. Environmental chemistry focuses on technological approach to prevent pollution.  Which statement(s) is/are correct?",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both I & II",
+        "Neither I nor II"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following received the Greener Reaction Conditions Award in 1996?",
+      "options": [
+        "Dow Chemical",
+        "Exon Chemicals",
+        "US EPA",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is used for clean oxidation?",
+      "options": [
+        "Supercritical carbon dioxide",
+        "Supercritical hydrogen",
+        "Aqueous hydrogen peroxide",
+        "All of these"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Green solvents are derived from ______.",
+      "options": [
+        "Renewable resources",
+        "Carbon resources",
+        "Non-renewable resources",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Eating tobacco and throwing on the road can produce______pollutant.",
+      "options": [
+        "Air",
+        "Soil",
+        "Noise",
+        "Water"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not green house gas?",
+      "options": [
+        "CO",
+        "O3",
+        "CH4",
+        "H2O Vapour"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not the components of photochemical smog that occurs in  warm, dry and sunny climate?",
+      "options": [
+        "NO2",
+        "O3",
+        "SO3",
+        "Unsaturated hydrocarbon"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following treatment is used for removal of biological impurities?",
+      "options": [
+        "Sedimentation",
+        "Boiling",
+        "Sterilization",
+        "distillation"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following indicator used in determination of hardness?",
+      "options": [
+        "EBT",
+        "Phenolphthalein",
+        "Methyl orange",
+        "Thymol blues"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who is known as the father of Modern Chemistry?",
+      "options": [
+        "Kolvey",
+        "Wholer",
+        "Leviatiae",
+        "Pasteur."
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The inventor of the atomic theory is:",
+      "options": [
+        "Rutherford",
+        "Madam Curie",
+        "John Dalton",
+        "Albert Einstein"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Nucleon is the name which is employed for:",
+      "options": [
+        "Electron and proton",
+        "proton and neutron",
+        "Electron and neutron",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The mass number of an atom is:",
+      "options": [
+        "Number of nucleons in the nucleus",
+        "Number of protons in the nucleus",
+        "Number of neutrons in the nucleus",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Atom is electrically:",
+      "options": [
+        "Positive",
+        "negative",
+        "bipositive",
+        "neutral"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The atomic properties depend upon:",
+      "options": [
+        "Number of nucleons in the nucleus",
+        "Number of protons in the nucleus",
+        "Number of neutrons in the nucleus",
+        "None of these"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The number of neutrons and protons in the nucleus of 88Ra226 are:",
+      "options": [
+        "138 and 88",
+        "88 and 138",
+        "226 and 88",
+        "88 and 226"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who was the inventor of radioactivity?",
+      "options": [
+        "Madam Curie",
+        "Irine Curie",
+        "Henery Bacqurel",
+        "Rutherford"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The penetrating power of which of the following invisible radiations emitting from the  nucleus has its maximum value:",
+      "options": [
+        "a-rays",
+        "f)-rays",
+        "y-rays",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is negatively charged?",
+      "options": [
+        "Alpha-rays",
+        "Beta-rays",
+        "Gama-rays",
+        "X-ray"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "How many charges alpha-rays consist of?",
+      "options": [
+        "Two unit positive charges",
+        "Unit negative charge",
+        "Unit positive charge",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not a radioactive element?",
+      "options": [
+        "Astatine",
+        "Francium",
+        "Titanium",
+        "Zirconium"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the unit of radioactivity?",
+      "options": [
+        "Curie",
+        "Becquerel",
+        "Rutherford",
+        "All of these"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The substance (element) obtained after emission of a beta-particle from 11Na22:",
+      "options": [
+        "Mg",
+        "Mn",
+        "Ag",
+        "Pb"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The half life of a radioactive substance is 4 months then the time spent in decaying  &frac34; th of the substance would be:",
+      "options": [
+        "3 months",
+        "4 months",
+        "8 months",
+        "12 months"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The estimation of the age of the earth is done by:",
+      "options": [
+        "Uranium dating",
+        "Carbon dating",
+        "Atomic clock",
+        "Bio clock"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The isotope of any atomic nucleus is in which:",
+      "options": [
+        "Number of neutrons be same but number of protons be different",
+        "Number of protons be same but the number of neutrons be different",
+        "Number of protons and neutrons both are same",
+        "Number of protons and neutrons both are different"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The group displacement law is propounded by:",
+      "options": [
+        "Sody & Fujan",
+        "Rutherford & Sody",
+        "Rutherford & Fujan",
+        "Rutherford & Madam Curie"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is estimated by the radio carbon dating?",
+      "options": [
+        "Age of the human being",
+        "Age of the fossils",
+        "Disease of the human body",
+        "Purity of the metals"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The number of isotopes in the hydrogen:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not the isotope of hydrogen?",
+      "options": [
+        "Protium",
+        "Deuterium",
+        "Iterium",
+        "Tritium"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "8O16, 8O17, 8O18 are called:",
+      "options": [
+        "Isotopes",
+        "Isotones",
+        "Isobars",
+        "Isoneutrons"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the radioactive isotope of hydrogen is called?",
+      "options": [
+        "Deuterium",
+        "Rotium",
+        "Radium",
+        "Tritium"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which isotope is used through the radioactive age estimation technique to obtain  (determine) the age of rocks?",
+      "options": [
+        "Uranium isotope",
+        "Plutonium isotope",
+        "Thorium isotope",
+        "Carbon isotope"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The radio isotope used to control the disease like blood cancer (Leukaemia) is:",
+      "options": [
+        "Phosphorus-32",
+        "Cobalt-60",
+        "Iodine-131",
+        "Sodium-24"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Isotones are those which have:",
+      "options": [
+        "Equal number of protons",
+        "Equal number of neutrons",
+        "Equal number of nucleons",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The iso electronic of AI+3 is:",
+      "options": [
+        "CI-",
+        "AI",
+        "S-",
+        "F-"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The element which has same mass number but different atomic number is called:",
+      "options": [
+        "Isotope",
+        "Isobar",
+        "Isoneutronic",
+        "Isoelectronic"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "By the emission of which isomers are produced:",
+      "options": [
+        "Alpha-ray",
+        "Beta-ray",
+        "Gama-ray",
+        "X-ray"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "How many molecules have the methane?",
+      "options": [
+        "Double bond",
+        "Triple bond",
+        "Single covalent bond",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the shape of the ethylene molecule?",
+      "options": [
+        "Linear",
+        "Tetrahedral",
+        "Coplanar triangular",
+        "Hectohedral"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following compound is tetrahedral?",
+      "options": [
+        "Ammonia",
+        "Carbon tetrachloride",
+        "Water",
+        "Acetylene"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Through the fused sodium chloride, electric current can pass out due to the presence  of:",
+      "options": [
+        "Free electron",
+        "Free ion",
+        "Free molecule",
+        "The atoms of sodium and chlorine"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The higher boiling point of the water occurs due to:",
+      "options": [
+        "Its more specific heat",
+        "Its more value of the dielectric constant",
+        "Less molecular disassociation in H20",
+        "Presence of hydrogen bonding among the molecules of H20"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The tendency to donate the electron is called:",
+      "options": [
+        "Oxidation",
+        "Reduction",
+        "catylisation",
+        "self-induction"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The tendency to accept the electron is called:",
+      "options": [
+        "Oxidation",
+        "Reduction",
+        "catylisation",
+        "Self induction"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The hydrogen burning process is directly associated with:",
+      "options": [
+        "Hydrolysis",
+        "Reduction",
+        "Oxidation",
+        "Hydrogenation"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The rusting of the iron is the example of:",
+      "options": [
+        "Oxidation",
+        "Reduction",
+        "Polymerisation",
+        "Galvanization"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In which of the following chlorine has + 1 oxidation number?",
+      "options": [
+        "Hypochlorous acid",
+        "Hydrochloric acid",
+        "Zinc chloride",
+        "Chlorine"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The element chromium (Cr) has its oxidation number in K2Cr2O7:",
+      "options": [
+        "+ 6",
+        "- 2",
+        "+ 7",
+        "- 7"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Mohr salt is:",
+      "options": [
+        "Simple salt",
+        "Hybrid salt",
+        "Double salt",
+        "Complex salt"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Hydrogen is the most fundamental component of all the acid, it is firstly stated by:",
+      "options": [
+        "Arrhenius",
+        "Bronsted",
+        "Devi",
+        "Lori"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In which of the following silver is not to be present?",
+      "options": [
+        "Horn silver",
+        "German silver",
+        "Ruby silver",
+        "Lunar caustic"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The gaseous law of diffusion was propounded by:",
+      "options": [
+        "Boyle",
+        "Charles",
+        "Avogadro",
+        "Grahm"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The smoke is the example of:",
+      "options": [
+        "the solution of solid in the liquid",
+        "the solution of liquid in the liquid",
+        "the solution of solid in the gas",
+        "the solution of gas in the liquid"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The air is the example of:",
+      "options": [
+        "the solution of solid in the gas",
+        "the solution of gas in the gas",
+        "the solution of liquid in the gas",
+        "the solution of liquid in the solid"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The alloys are:",
+      "options": [
+        "the solution of solid in the solid",
+        "the solution of solid in the liquid",
+        "the solution of gas in the liquid",
+        "the solution of gas in the gas"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The milk is the example of:",
+      "options": [
+        "Solution",
+        "Colloidal solution",
+        "Emulsion",
+        "Air-solution"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The pH value of any solution is 6 then the hydrogen ion concentration in the solution  would be:",
+      "options": [
+        "10-6M",
+        "10-10M",
+        "1010M",
+        "106M"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The hydrogen ions concentration in any solution is 10-4 M the concentration of  hydroxyl ions in it would be:",
+      "options": [
+        "10-4",
+        "10-14",
+        "10-10",
+        "104"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The oxidation state of manganese (Mn) in KMnO4 is:",
+      "options": [
+        "+2",
+        "-2",
+        "+7",
+        "-7"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The element whose oxidation state in its every compound is same:",
+      "options": [
+        "Carbon",
+        "Fluorine",
+        "Hydrogen",
+        "Oxygen"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The oxidation state of oxygen in OF2 is:",
+      "options": [
+        "+2",
+        "-2",
+        "+1",
+        "-1"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The acid is a substance which:",
+      "options": [
+        "Accepts (gains) electron",
+        "Donates electrons",
+        "Provides (donates) proton",
+        "Donates OH- ion"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The alkali is a substance which:",
+      "options": [
+        "Provides (donates) proton",
+        "Accepts proton",
+        "Donates electron",
+        "Accepts electron pair"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The substance which makes the blue litmus paper red is :",
+      "options": [
+        "Acid",
+        "Base",
+        "Alkali",
+        "Salt"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The substance which makes the red litmus paper blue is:",
+      "options": [
+        "Acid",
+        "Alkali",
+        "Salt",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The first time pH value measurement is done by:",
+      "options": [
+        "Leviatiae",
+        "Pristley",
+        "Cauvendish",
+        "Sorensan"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The average pH value of the human blood is:",
+      "options": [
+        "5.4",
+        "6.2",
+        "7.4",
+        "8.7"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The average pH value of the milk is:",
+      "options": [
+        "6.1",
+        "6.6",
+        "7.4",
+        "8"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the pH value of pure water?",
+      "options": [
+        "6.4",
+        "6.6",
+        "7",
+        "7.4"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is called philosopher's wool?",
+      "options": [
+        "Zinc bromide",
+        "Zinc nitrate",
+        "Zinc oxide",
+        "Zinc chloride"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The container employed in the process of electrolysis is called:",
+      "options": [
+        "Ammeter",
+        "Voltmeter",
+        "Voltammeter",
+        "Calorimeter"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the process of electrolysis oxidation occurs at:",
+      "options": [
+        "Cathode",
+        "Anode",
+        "Both of these",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the process of electrolysis reduction occurs at :",
+      "options": [
+        "Cathode",
+        "Anode",
+        "Both of these",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is utilized in the form of electrolyte of the dry cell (battery)?",
+      "options": [
+        "Ammonium chloride and zinc chloride",
+        "Sodium chloride and calcium chloride",
+        "Magnesium chloride and zinc chloride",
+        "Ammonium chloride and calcium chloride"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The iron container or vessel is galvanized by :",
+      "options": [
+        "Chromium",
+        "Zinc",
+        "Aluminium",
+        "Nickel"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The process of corrosiondoesn\u2019t take place in which of the following metals, when  these metals are left free in the air:",
+      "options": [
+        "Iron",
+        "Copper",
+        "Gold",
+        "Silver"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the galvanic cell, the process takes place is:",
+      "options": [
+        "Transformation of the electrical energy into the chemical energy",
+        "Transformation of the chemical energy into the electrical energy",
+        "Transformation of light energy into the electrical energy",
+        "Transformation of electrical energy into the light energy"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the exothermic reaction:",
+      "options": [
+        "Heat is absorbed",
+        "Heat is evolved",
+        "Heat doesn't change",
+        "Temperature remains constant"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the endothermic reaction:",
+      "options": [
+        "Heat is absorbed",
+        "Heat is evolved",
+        "Heat doesn't change",
+        "Temperature remains constant"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The chemical reactions which occur in one direction (from left to right) are called:",
+      "options": [
+        "Reversible reaction",
+        "Irreversible reactions",
+        "Endothermic reactions",
+        "Exothermic reactions"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The catalyst is a substance through which the rates of chemical reactions are:",
+      "options": [
+        "Increased",
+        "Decreased",
+        "Changed",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who is the inventor of the catalyst?",
+      "options": [
+        "Berzeleous",
+        "Rutherford",
+        "Louis",
+        "Kosell"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The catalyst employed in the hydrogenation process of the oils is:",
+      "options": [
+        "Fe",
+        "Ni",
+        "Mo",
+        "Pt"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The catalyst used in the lead chamber process is:",
+      "options": [
+        "Oxide of the nitrogen",
+        "Platinum",
+        "Nickel",
+        "MnO2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The catalyst employed in the production of H2S04 by the Contact process is:",
+      "options": [
+        "The pieces (powder) of iron",
+        "The pieces (powder) of platinum",
+        "Oxide of nitrogen",
+        "Nickel metal"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The employed catalyst in the production of ammonia through the Haber's process  is:",
+      "options": [
+        "Nickel",
+        "Iron",
+        "Platinum",
+        "Molybdenum"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the contest of an alternative sources of energy and practical bio-fuel ethanol can  be obtained from-which of the following?",
+      "options": [
+        "Potato",
+        "Paddy",
+        "Sugarcane",
+        "Wheat"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When the water vapour is poured on the red heated coke then the mixture of carbon  monoxide and hydrogen gas is obtained which is:",
+      "options": [
+        "Coal gas",
+        "Water gas",
+        "Producer gas",
+        "Bio gas"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The gaseous mixture of carbon monoxide and nitrogen is called:",
+      "options": [
+        "Coal gas",
+        "Water gas",
+        "Producer gas",
+        "Natural gas"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The main component of the natural gas is:",
+      "options": [
+        "Methane",
+        "Ethane",
+        "Propane",
+        "Butane"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In L.P.G. the main component is:",
+      "options": [
+        "Methane",
+        "Carbon dioxide",
+        "Butane",
+        "Sulphur dioxide"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following has the maximum calorific value?",
+      "options": [
+        "Hydrogen",
+        "Charcoal",
+        "Natural gas",
+        "Gasoline"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following would produce minimum environmental pollution?",
+      "options": [
+        "Diesel",
+        "Coal",
+        "Hydrogen",
+        "Kerosene"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The percentage amount of carbon in the various types of coal is different, in which  of the following its percentage would be the most:",
+      "options": [
+        "Peat",
+        "Lignite",
+        "Bituminous",
+        "Anthracite"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is called as the brown coal?",
+      "options": [
+        "Peat",
+        "Lignite",
+        "Bituminous",
+        "Anthracite"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The anti-knocking properties of any fuel exhibit:",
+      "options": [
+        "Golden number",
+        "Natural number",
+        "Octane number",
+        "Mach number"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "On what basis, the Mendeleev periodic table is classified?",
+      "options": [
+        "Atomic mass",
+        "Atomic number",
+        "Atomic volume",
+        "Atomic density"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who propounded the modern periodic law?",
+      "options": [
+        "Newlands",
+        "Dobrenor",
+        "Mendeleev",
+        "Moseley"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The basis of the classification of the element in the modern periodic table is:",
+      "options": [
+        "Atomic number",
+        "Atomic mass",
+        "Atomic volume",
+        "Atomic density"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the heaviest metal?",
+      "options": [
+        "Silver",
+        "Gold",
+        "Mercury",
+        "Platinum"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the lightest metal?",
+      "options": [
+        "Magnesium",
+        "Aluminium",
+        "Platinum",
+        "Lithium"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the lightest element?",
+      "options": [
+        "Hydrogen",
+        "Helium",
+        "Mercury",
+        "Platinum"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the most fundamental property of the element?",
+      "options": [
+        "Atomic weight",
+        "Molecular weight",
+        "Atomic number",
+        "Atomic density"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The process employed to remove the magnetic impurities from the Ores is called:",
+      "options": [
+        "Gravity separation process",
+        "Magnetic separation process",
+        "Forth floatation process",
+        "Physical process"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The concentration process of sulphide ores is:",
+      "options": [
+        "Gravity separation process",
+        "Magnetic separation process",
+        "Forth floatation process",
+        "Physical process"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The main ore of the mercury is:",
+      "options": [
+        "Cinnabar",
+        "Pyrite",
+        "Bauxite",
+        "Pyrolusite"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The element radium was extracted from:",
+      "options": [
+        "Lime stone",
+        "Pinch blend",
+        "Retile",
+        "Haematite"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Aluminium metal is extracted mainly from its ore:",
+      "options": [
+        "Magnetite",
+        "Bauxite",
+        "Dolomite",
+        "Lime Pigment"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Galena is the ore of the metal:",
+      "options": [
+        "Silver",
+        "Lead",
+        "Mercury",
+        "Aluminium"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Monozite is the ore of:",
+      "options": [
+        "Zirconium",
+        "Thorium",
+        "Titanium",
+        "Iron"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The chemical formula of washing soda is :",
+      "options": [
+        "NaOH",
+        "Ca (OH)2",
+        "NaOHC03",
+        "Na2C03.10H2O"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the ocean-water which of the following salt has its maximum contribution in the  salinity:",
+      "options": [
+        "Calcium sulphate",
+        "Magnesium chloride",
+        "Magnesium iodide",
+        "Sodium chloride"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The chemical utilized and employed as fixer in the photography is:",
+      "options": [
+        "Sodium sulphate",
+        "Sodium thiosulphate",
+        "Ammonium per-sulphate"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The extremely soft mineral, talk (soap stone) is mainly:",
+      "options": [
+        "Manganese silicate",
+        "Sodium silicate",
+        "Sodium phosphate",
+        "Magnesium silicate"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the earth crust although the amount of aluminium is more than iron, however  aluminium is costly than iron because:",
+      "options": [
+        "Aluminium is more useful than iron",
+        "Aluminium forms more alloys than iron",
+        "Aluminium made equipments are more acceptable then iron equipments",
+        "The extraction processes of aluminium is more costly than extraction processes of iron"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "For the installation of aluminium plants in India, the minimum required parameter  other than bauxite is:",
+      "options": [
+        "Coke",
+        "Electricity",
+        "Labour",
+        "Market"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following statement is true regarding the aluminium?",
+      "options": [
+        "Aluminium hydroxide is amphoteric in nature",
+        "Aluminium exists in the Free State in nature",
+        "Nitric acid does not react with the aluminium",
+        "Hot and concentrated H2SO4 directly react with oxygen in which SO2 gas is released"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The chemical formula of the plaster of Paris is:",
+      "options": [
+        "CaS04.5H2O",
+        "2CaS04. H2O",
+        "(CaS04)2. 2H2O",
+        "CaSO4. MgO"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the chemical name of the lime stone?",
+      "options": [
+        "Calcium chloride",
+        "Calcium oxide",
+        "Calcium carbonate",
+        "Calcium sulphate"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "From which of the following ore, iron is extracted?",
+      "options": [
+        "Lime stone",
+        "Pinch blend",
+        "Monazite sand",
+        "Haematite"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What will be the change when iron get rusted?",
+      "options": [
+        "Its weight is increased",
+        "Its weight is decreased",
+        "No changes take place",
+        "Its weight change"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following element is mixed up for making steel which can resist high  temperature and which has high level hardness and anti-frictional resistivity?",
+      "options": [
+        "Aluminium",
+        "Chromium",
+        "Nickel",
+        "Tungsten"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "To provide stern hardness which of the following is mixed up?",
+      "options": [
+        "Carbon",
+        "Manganese",
+        "Silicon",
+        "Chromium"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Blue Vitriol is:",
+      "options": [
+        "Copper sulphate",
+        "Iron sulphate",
+        "Calcium sulphate",
+        "Sodium sulphate"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The coating of thin layer of the zinc on the steel or iron utensils is called:",
+      "options": [
+        "Heat feeding",
+        "Material plating",
+        "Lamination",
+        "Electro plating"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The sharp (bitter) smell of the substance which is found in the colouration or  painting is:",
+      "options": [
+        "CaOH",
+        "Al2 (S04)3",
+        "CaC03",
+        "Zn3 (P04)2"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following metal is the best conductor of the electricity?",
+      "options": [
+        "Gold",
+        "Silver",
+        "Copper",
+        "Zinc"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The substance which is useful for the photography:",
+      "options": [
+        "Silver Nitrate",
+        "Silver bromide",
+        "Sulphuric acid",
+        "Citric acid"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following metal is the heaviest?",
+      "options": [
+        "Silver",
+        "Copper",
+        "Gold",
+        "Lead"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following metal is liquid at ordinary temperature?",
+      "options": [
+        "Lead",
+        "Mercury",
+        "Nickel",
+        "Tin"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The substance employed and frequently used in the fluorescent tube is:",
+      "options": [
+        "Sodium oxide and argon",
+        "Sodium vapour and neon",
+        "Mercury vapour and argon",
+        "Mercury oxide and argon"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following metal is used in the accumulator cell?",
+      "options": [
+        "Copper",
+        "Lead",
+        "Aluminium",
+        "Zinc"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following metal is the hardest one?",
+      "options": [
+        "Gold",
+        "Iron",
+        "Platinum",
+        "Lead"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The gas emancipating through paddy field is :",
+      "options": [
+        "Ethane",
+        "Methane",
+        "Nitrogen",
+        "All of these"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the heaviest metal?",
+      "options": [
+        "Copper",
+        "Uranium",
+        "Aluminium",
+        "Silver"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The colours of the fire crackers are extracted from the elements of the salt of:",
+      "options": [
+        "Zn and S",
+        "K and Hg",
+        "Sr and Ba",
+        "Cr and Ni"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The maximum density of the water exists at :",
+      "options": [
+        "100\u00b0C",
+        "+ 4\u00b0C",
+        "O\u00b0C",
+        "-4\u00b0C"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The boiling point and freezing point of the water on mixing edible salt would:",
+      "options": [
+        "Increase",
+        "Increase and then decrease",
+        "Decrease",
+        "Decrease and then increase"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The permanent hardness of water appears due to the:",
+      "options": [
+        "Carbonates of calcium and magnesium",
+        "Bicarbonates of calcium and magnesium",
+        "Chloride and sulphate of the calcium and magnesium",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In which of the following carbon is not present?",
+      "options": [
+        "Diamond",
+        "Graphite",
+        "Coal",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The heavy water is a type of:",
+      "options": [
+        "Coolant",
+        "Moderator",
+        "Ore",
+        "Fuel"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In all bio compounds the most necessary fundamental element is:",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon",
+        "Sulphur"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the most hard?",
+      "options": [
+        "Diamond",
+        "Glass",
+        "Quartz",
+        "Platinum"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The percentage content of carbon is more than other coal in:",
+      "options": [
+        "Bituminous",
+        "Lignite",
+        "Peat",
+        "Anthracite"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The ordinary and general type of coke is :",
+      "options": [
+        "Anthracite",
+        "Lignite",
+        "Bituminous",
+        "Peat"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The polluted gas emitted from the vehicles is mainly:",
+      "options": [
+        "Carbon dioxide",
+        "Carbon monoxide",
+        "Marsh gas",
+        "Nitrogen oxide"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following gas pollutes the most to the air?",
+      "options": [
+        "Carbon dioxide",
+        "Carbon monoxide",
+        "Sulphur dioxide",
+        "Hydrocarbon"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Dry ice is:",
+      "options": [
+        "Solid water",
+        "Solid CO2",
+        "Dehydrated ice",
+        "Solid H2O2"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Those reactions in which two or more substances combine to form a single  substance is called:",
+      "options": [
+        "Combination reaction",
+        "Displacement reaction",
+        "Decomposition reaction",
+        "Double displacement reaction"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Those chemical substances which have a sour taste are:",
+      "options": [
+        "Salt",
+        "Acid",
+        "Bases",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Those chemical substances which have a bitter taste are:",
+      "options": [
+        "Acid",
+        "Bases",
+        "Salt",
+        "Concentrated Acids"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The scale on which the strength of acid solutions as well as basic solutions could  be represented by making use of hydrogen ion concentrations in them is called:",
+      "options": [
+        "Balance scale",
+        "Platform scale",
+        "Pan scale",
+        "pH scale"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "A compound formed from an acid by the replacement of the hydrogen in the acid by  a metal is called:",
+      "options": [
+        "Base",
+        "Salt",
+        "Concentrated Acid",
+        "Alkali"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the chemical bond formed by the transfer of electrons from one atom to  another is called?",
+      "options": [
+        "Single covalent bond",
+        "Ionic bond",
+        "Double covalent bond",
+        "Triple covalent bond"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The chemical bond formed by the sharing of electrons between two atoms is known  as:",
+      "options": [
+        "Ionic bond",
+        "Triple covalent bond",
+        "Covalent bond",
+        "Single covalent bond"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is a homogeneous mixture of two or more metals called?",
+      "options": [
+        "Salt",
+        "Alloy",
+        "Alkali",
+        "Acid"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is an unsaturated hydrocarbon in which the two carbon atoms are connected  by a double bond called?",
+      "options": [
+        "Alkanes",
+        "Alkenes",
+        "Alkynes",
+        "Ionic bond"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "An unsaturated hydrocarbon in which two carbon atoms are connected by a triple  bond is called:",
+      "options": [
+        "Alkynes",
+        "Haloalkanes",
+        "Alkenes",
+        "Ketones"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The organic compounds having the same molecular formula but different structures  are called:",
+      "options": [
+        "Atoms",
+        "Isomers",
+        "Homologous series",
+        "Haloalkanes"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the part of the solution that dissolves the solute called?",
+      "options": [
+        "Solvent",
+        "Sol",
+        "Salt",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Compounds that contain carbon are called:",
+      "options": [
+        "Organic compound",
+        "Ionic compound",
+        "Alkynes",
+        "Molecular compound"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the mixing of air into a liquid or solid called?",
+      "options": [
+        "Aeration",
+        "Aldehyde",
+        "Actinides",
+        "Allotropy"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What are the different physical forms in which an element can exist called?",
+      "options": [
+        "Alkane",
+        "Alloy",
+        "Amine",
+        "Allotropes"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The study of heat flow is called:",
+      "options": [
+        "Combustion",
+        "Calorimetry",
+        "Diffusion",
+        "Electrolysis"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is a large blood vessel that carries blood away from the heart?",
+      "options": [
+        "Vein",
+        "Artery",
+        "Capillary",
+        "Nerve"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not a member of the vitamin B complex?",
+      "options": [
+        "Thiamine",
+        "Riboflavin",
+        "Folic acid",
+        "Ascorbic acid"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Fungi are plants that lack:",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Chlorophyll",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What makes a reptile a reptile?",
+      "options": [
+        "Cold blooded",
+        "Warm Blooded",
+        "Non-Hearing",
+        "Egg-laying"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which blood vessels have the smallest diameter?",
+      "options": [
+        "Capillaries",
+        "Arterioles",
+        "Venules",
+        "Lymphatic"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is an air-borne disease?",
+      "options": [
+        "Measles",
+        "Typhoid",
+        "Pink eye",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "There is a very, yellow dust that comes away on the fingers, wherever we touch the  middle of a flower. These tiny yellow grains are one of the most precious substances in  nature because they contain the secret of plant life.  What is this dust called?",
+      "options": [
+        "Pollen",
+        "Sperm",
+        "Spore",
+        "Sporocyst"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which organ of the body produces the fluid known as bile?",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Gall bladder",
+        "Kidney"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following hormones is a steroid?",
+      "options": [
+        "Estrogen",
+        "Glucagon",
+        "Insulin",
+        "Oxytocin"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following is not a function of the liver?",
+      "options": [
+        "Regulation of blood sugar",
+        "Enzyme activation",
+        "Detoxiation",
+        "Reproduction"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which part of human body skin has greatest number Sweat glands?",
+      "options": [
+        "Forehead",
+        "Forearm",
+        "Palm of the hand",
+        "Back"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who among the following had started vaccination?",
+      "options": [
+        "Jonas E. Salk",
+        "Paul Muller",
+        "Edward Jenner",
+        "Robert Frost"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Proteins are consists of:",
+      "options": [
+        "Sugars",
+        "Amino acids",
+        "Fatty acids",
+        "Nucleic acids"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Liver, milk, egg yolk, fish liver oil is the source of:",
+      "options": [
+        "Vitamin A",
+        "Vitamin B2",
+        "Vitamin D",
+        "Vitamin C"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following name of scientist and their field of work is correctly matched?",
+      "options": [
+        "DNA/Double helix: F. Crick J. Watson, M. Wilkins",
+        "Modern classification of plants and animals based on a system: Harvey",
+        "Bacteria: Linnaeus",
+        "Blood travels in a continuous circuit: Leuwenhock"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Heart is made up of",
+      "options": [
+        "Non-striated muscle",
+        "Cardiac muscle",
+        "Adipose tissue",
+        "Striated muscle"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Hargobind Khorana's work relates to:",
+      "options": [
+        "Synthesis of simple DNA",
+        "Understanding the genetic code",
+        "Reduction of mutation",
+        "Synthesis of RNA from bacterial cell"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following corona virus that kills human?",
+      "options": [
+        "AIDS",
+        "FAIDS",
+        "SARS",
+        "HIV"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Digestion of proteins starts in the:",
+      "options": [
+        "Mouth",
+        "Stomach",
+        "Duodenum",
+        "Intestine"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following acid that is secreted in the stomach?",
+      "options": [
+        "HCI",
+        "H2S04",
+        "H2C03",
+        "HNO3"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which vitamin is needed to prevent Xero-phthalmia?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Why the white blood corpuscles are popularly called \"soldiers of the body\u201d?",
+      "options": [
+        "March at a regular pace",
+        "Appear uniform",
+        "Defend the body",
+        "Disciplined"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Hepatitis is a general term for a disease that is caused by:",
+      "options": [
+        "Viruses",
+        "Bacteria",
+        "Parasites",
+        "All the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which among the following is not an example of carbohydrate?",
+      "options": [
+        "Maltose",
+        "Fructose",
+        "Glycogen",
+        "Glycine"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following is not correctly matched?",
+      "options": [
+        "Haemoglobin: Skin",
+        "Vitamin C: Scurvy",
+        "Carbohydrate: Potato",
+        "Fat: Butter"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which is a communicable disease?",
+      "options": [
+        "Asthma",
+        "Scurvy",
+        "Measles",
+        "Diabetes"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following is not correctly matched?",
+      "options": [
+        "Tuberculosis: Lungs",
+        "Filaria: Lymph nodes",
+        "Encephalitis: Heart",
+        "Leukaemia: Blood cells"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following has the highest protein content per gram?",
+      "options": [
+        "Groundnut",
+        "Soyabean",
+        "Apple",
+        "Wheat"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following have Alpha-keratin as protein?",
+      "options": [
+        "Blood",
+        "Eggs",
+        "Skin",
+        "Wool"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Mushrooms are/can be:",
+      "options": [
+        "A variety of fungus",
+        "Fleshy, fruiting bodies of the fungus",
+        "Grown in small sheds or plots",
+        "All the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is not a primary food product?",
+      "options": [
+        "Vegetables",
+        "Milk",
+        "Cereals",
+        "Fruits"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the vegetables have abundance of Vitamins A and C?",
+      "options": [
+        "Brinjal",
+        "Lady's finger",
+        "Potato",
+        "Tomato"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following defence of the human body against bacteria?",
+      "options": [
+        "Haemoglobin",
+        "Phagocytes",
+        "Red blood cells",
+        "Blood platelets"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following nerves connected from the eyes to ears?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla",
+        "Spinal cord"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Leukaemia is a disease that results from some kind of disorder in the blood.  Precisely, leukaemia occurs due to:",
+      "options": [
+        "Haemoglobin increase in blood",
+        "Marked increase of white corpuscles in blood",
+        "Marked increase of protein and calcium",
+        "Marked reduction of proteins in blood"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is blood pressure?",
+      "options": [
+        "It is the pressure that the blood clot exerts over the brain.",
+        "It is the pressure that blood receives on account of faulty commands from the brain.",
+        "It is the pressure that fatness or old age exerts on the body's circulatory system.",
+        "It is the amount of pressure on the blood as a result of the heart's pumping function and the"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Select the correct pair of disease and its causes:",
+      "options": [
+        "Trichinosis  - Bacterial infections",
+        "Sleeping sickness - Eating uncooked Pork",
+        "Athlete\u2018s foot- Fungus",
+        "Meningitis - Protozoan (bite of tsetse fly)"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following blood vessel that carries deoxygenated blood?",
+      "options": [
+        "Aorta",
+        "Pulmonary artery",
+        "Hepatic artery",
+        "Pulmonary vein"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following growth of human body affected by somatotrophic hormone?",
+      "options": [
+        "Bones",
+        "Hair",
+        "Muscles",
+        "Connective tissue"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Select the correct match of the disease and its affected part.",
+      "options": [
+        "Caries          - Epidermal tissue of the body",
+        "Ring worm    - Brain and Spinal cord",
+        "Meningitis     - Teeth",
+        "Pneumonia   - Lungs"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Hay fever is an allergic reaction to the presence of the following in the air:",
+      "options": [
+        "Dust",
+        "Smoke",
+        "Pollen",
+        "Moisture"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The behavioural pattern of which one of the following organisms may upset when  DOT is used as pesticide?",
+      "options": [
+        "Earthworm",
+        "Snake",
+        "Fish",
+        "Frog"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What causes the 'mad-cow disease' (Jakob-Creutzfeldt disease)?",
+      "options": [
+        "Bacterium",
+        "Virus",
+        "Viroid",
+        "Prion"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is another name of Vitamin K?",
+      "options": [
+        "Nicotinic acid",
+        "Riboflavin",
+        "Thiamine",
+        "2 Methyl-1, 4-naphthoquinone"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following hormone controlled the blood pressure?",
+      "options": [
+        "Vasopressin",
+        "Oxytocin",
+        "Estrogens",
+        "Testosterone"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Brain and the spinal cord are invested by membranes called:",
+      "options": [
+        "Arachnoids",
+        "Pleural membrane",
+        "Meninges",
+        "None of these"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following organisms has a role in converting nitrates to free  nitrogen?",
+      "options": [
+        "Pseudomonas",
+        "Nitrosomonas",
+        "Nitrobacter",
+        "Rhizobium"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Vitamin E  For which of these are green leafy vegetables rich sources?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "1,2 and 3"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Select correct match of the Biological theories or laws and Scientists.",
+      "options": [
+        "Laws of Inheritance                      - Lamarck",
+        "Theories of Organic Evolution       - Darwin",
+        "Theories of Natural Selection        - Mendel",
+        "Germplasm Theory                        - Weismann"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following is the richest source of vitamin C?",
+      "options": [
+        "Guava",
+        "Pineapple",
+        "Orange",
+        "Tomato"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following pairs is not correctly matched?",
+      "options": [
+        "Becquerel: Radioactivity",
+        "Alexander Fleming: Penicillin",
+        "Louis Pasteur: Blood groups",
+        "William Harvey: Blood circulation"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is a sexually transmitted disease?",
+      "options": [
+        "Leukaemia",
+        "Hepatitis",
+        "Colour Blindness",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following systems of the body is primarily attacked by the HIV?",
+      "options": [
+        "Cardiovascular",
+        "Immune",
+        "Respiratory",
+        "Reproductive"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the human body, the blood enters the aorta of the circulatory system from the:",
+      "options": [
+        "Left atrium",
+        "Left ventricle",
+        "Right atrium",
+        "Right ventricle"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which one of the following plant nutrients is not supplemented in the soil for growing  legumes?",
+      "options": [
+        "Nitrogen",
+        "Potassium",
+        "Phosphorus",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following are known as the suicide bags of cells?",
+      "options": [
+        "Ribosomes",
+        "Golgi bodies",
+        "Lysosomes",
+        "Nucleoli"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Chromosome complement in Turner's syndrome is",
+      "options": [
+        "47; XXY",
+        "45; XO",
+        "46; XX",
+        "47; XYY"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Excess of amino acids is broken down to form urea in:",
+      "options": [
+        "Kidney",
+        "Liver",
+        "Spleen",
+        "Rectum"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "If a person can see an object clearly when it is placed at about 25cm away from him,  he is suffering from:",
+      "options": [
+        "Myopia",
+        "Hyper- myopia",
+        "Astigmatism",
+        "None of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who among the following discovered the anti-rabies vaccine?",
+      "options": [
+        "Edward Jenner",
+        "James Lind",
+        "Louis Pasteur",
+        "Robert Koch"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following teeth of child (3-4 Years) is not a part of the milk teeth?",
+      "options": [
+        "Incisors",
+        "Canines",
+        "Molars",
+        "Premolars"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who said this statement? \"I flatter myself having discovered the method that nature  employs to purify air.  It is vegetation.\"    MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  215 | P a g e",
+      "options": [
+        "Antonine Laurent Lavoisier",
+        "Joseph Priestley",
+        "Louis Pasteur",
+        "William Harvey"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Why it is not advisable to sleep under a tree at night?",
+      "options": [
+        "Release of less oxygen",
+        "Release of more oxygen",
+        "Release of carbon dioxide",
+        "Release of carbon monoxide"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the averages rate of the heart beats (per minute) in an adult?",
+      "options": [
+        "60",
+        "72",
+        "84",
+        "96"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the volume of the urine produced in an adult human every  24 hours?",
+      "options": [
+        "1 litre",
+        "1.5 litres",
+        "3.0 litres",
+        "5.0 litres"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following pigment causes eye colour of person (brown eyes, blue eyes  or black eyes)?",
+      "options": [
+        "Cornea",
+        "Choroid",
+        "Iris",
+        "Vitreous body"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following led to the expulsion of milk from the breast during suckling?",
+      "options": [
+        "Prolactin",
+        "Oxytocin",
+        "Vasopressin",
+        "Estrogen and Progesterone"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Where does fertilization occurs in the female?",
+      "options": [
+        "Fallopian tube",
+        "Uterus",
+        "Cervix",
+        "Vagina"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is the universal recipient blood group?",
+      "options": [
+        "A",
+        "B",
+        "AB",
+        "0"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What proportion of children is likely to be colour blindness when their parent (mother  has normal vision & father has colour-blindness)?",
+      "options": [
+        "0 per cent",
+        "25 per cent",
+        "50 per cent",
+        "100 per cent"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following blood group is considered as Universal Donor?",
+      "options": [
+        "A",
+        "AB",
+        "B",
+        "O"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What part of the Quinine plant is commonly used drug for Malaria?",
+      "options": [
+        "Leaves",
+        "Fruits",
+        "Root",
+        "Stem bark"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following disease occur when the replacement of breast feeding by less  nutritive food, low in proteins and calories, infants below the age of one year?",
+      "options": [
+        "Kwashiorkor",
+        "Marasmus",
+        "Rickets",
+        "Pellagra"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What happen when the exposure to carbon monoxide (from coal gas) is extremely  dangerous and can kill a patient?",
+      "options": [
+        "The compound carboxy-haemoglobin (COHb) it forms with haemoglobin can gradually clot",
+        "COHb reduces the ability of blood to transport oxygen by rupturing a vast majority of",
+        "COHb is stable compound and thus deprives blood of its ability to transport oxygen.",
+        "COHb greatly modifies the structure of haemoglobin thus making it lose its affinity for"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In how many times human will lose their consciousness if blood will stop flowing to  the brain?",
+      "options": [
+        "2 sec",
+        "5 sec",
+        "15 to 20 sec",
+        "5 min"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "How many bones comprise the adult human skeleton?",
+      "options": [
+        "204 bones",
+        "206 bones",
+        "208 bones",
+        "214 bones"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following statement is related with the 'Sulphur shower'?",
+      "options": [
+        "Discharge of large quantities of Crocus (yellow kesar) pollen grains into the air.",
+        "Discharge of large quantities of pinus pollen grains into the air forming yellowish clouds.",
+        "Release of a large amount of sulphur particles into the air from factories processing sulphur.",
+        "Release of a large amount of sulphur particles into the air near sulphur mines."
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the given item consist of two statements, one labelled as 'Assertion (A)' and the  other labelled as 'Reason (R)'.  Assertion (A): Persons with AB blood group can accept blood from any blood group.  Reason (R): They are universal acceptor  Select your answers to these items using the codes given below.  Codes:",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the given item consist of two statements, one labelled as 'Assertion (A)' and the  other labelled as 'Reason (R)'.  Assertion (A): Saturated fats are more reactive as compared to unsaturated fats.  Reason (R): Molecules of unsaturated fats have double bonds.  Select your answers to these items using the codes given below.  Codes:",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the given item consist of two statements, one labelled as 'Assertion (A)' and the  other labelled as 'Reason (R)'.  Assertion (A): The sons of a colour blind woman are always colour blind but not the daughters.  Reason (R): Colour blindness is a sex-linked character and such characters are transferred  from mother to son only.  Select your answers to these items using the codes given below.  Codes:",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "How many HIV positive infections that are occurring everyday in the world?",
+      "options": [
+        "6,000",
+        "60,000",
+        "600,000",
+        "1,000,000"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Bombyx mori, that produces fine filaments of silk inside the cocoon, is a:",
+      "options": [
+        "Butterfly",
+        "Dipteran (silkworm)",
+        "Moth",
+        "Mulberry plant hemipteran"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Why was DDT banned which an organ chlorine compound, used first to control  malaria, carried in mosquitoes and later to a variety to insect pests?",
+      "options": [
+        "It brings about a change in sex chromosomes",
+        "It persists in the environment and bio-accumulates",
+        "It increases its affinity hundred-fold for haemoglobin preventing its coupling with oxygen",
+        "All of these"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the reason behind the small shrunken scrotal of an adult bulls straying on  Delhi roads?",
+      "options": [
+        "Congenital defect",
+        "Negative feedback due to extremely high levels of testosterone",
+        "Castration",
+        "All of these"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following components increases the effectiveness of the  Photosynthesis process?",
+      "options": [
+        "Ultraviolet",
+        "Red",
+        "Blue",
+        "Infrared"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the weight of human heart?",
+      "options": [
+        "100 gms",
+        "300 gms",
+        "800 gms",
+        "1000 gms"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following  gland controls the blood pressure?",
+      "options": [
+        "Thalamus gland",
+        "Adrenal gland",
+        "Thyroid gland",
+        "Pancreas gland"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In which organ of the human body are the lymphocyte cells formed?",
+      "options": [
+        "Liver",
+        "Long bone",
+        "Pancreas",
+        "Spleen"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following is one of the functions of antigen?",
+      "options": [
+        "Lowers body temperature",
+        "Destroys harmful bacteria",
+        "Triggers the immune system",
+        "Used as an antidote to poison"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following process that does not involve evolution of CO2?",
+      "options": [
+        "Combustion",
+        "Respiration",
+        "Fermentation",
+        "Photosynthesis"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the Glands associated with the Human Digestive System?",
+      "options": [
+        "Salivary Glands and Pancreas",
+        "Salivary Glands and Liver",
+        "Liver and Pancreas",
+        "Salivary Glands, Liver & Pancreas"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Arrange the correct sequence of the steps involved in the process of Human  Digestive System?",
+      "options": [
+        "Digestion, Ingestion, Assimilation, Egestion and Absorption",
+        "Ingestion, Digestion, Absorption, Assimilation and Egestion",
+        "Egestion, Absorption, Digestion, Assimilation and Ingestion",
+        "Assimilation, Absorption, Ingestion, Digestion and Egestion"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In which part of the body digestion of protein begins?",
+      "options": [
+        "Pancreas",
+        "Stomach",
+        "Small Intestine",
+        "Large Intestine"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the Function of Hydrochloric Acid?  (i) It makes pepsin enzyme effective.  (ii) It kills bacteria which may enter in stomach with food.  Which of the following statements is/are correct?",
+      "options": [
+        "Only (i)",
+        "Only (ii)",
+        "Both (i) and (ii)",
+        "Neither (i) nor (ii)"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the largest part of the Alimentary canal?",
+      "options": [
+        "Large Intestine",
+        "Small Intestine",
+        "Liver",
+        "Stomach"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Complete digestion of food occurs in:",
+      "options": [
+        "Stomach",
+        "Small Intestine",
+        "Pancreas",
+        "Large Intestine"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the function of Bile Juice secreted by Liver?",
+      "options": [
+        "It makes the food alkaline.",
+        "It makes the food acidic.",
+        "It breaks down the food.",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the hardest material present in the body?",
+      "options": [
+        "Dentin",
+        "Pulp",
+        "Enamel",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In which part of our body food gets absorbed?",
+      "options": [
+        "Small Intestine",
+        "Large Intestine",
+        "Stomach",
+        "Liver"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The undigested food stored in the liver in the form of carbohydrate is called:",
+      "options": [
+        "Pulp",
+        "Glucose",
+        "Glycogen",
+        "Carbohydrate"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who discovered cell in 1665?",
+      "options": [
+        "Robert Hook",
+        "Robert Crook",
+        "David Thomson",
+        "Marie Francois"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name an Organelle which serves as a primary packaging area for molecules that will  be distributed throughout the cell?",
+      "options": [
+        "Mitochondria",
+        "Plastids",
+        "Golgi apparatus",
+        "Vacuole"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the outer most boundary of cell?",
+      "options": [
+        "Plasma membrane",
+        "Cytoplasm",
+        "Nuclear membrane",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the process in which the ingestion of material by the cells is done through the  plasma membrane?",
+      "options": [
+        "Egestion",
+        "Diffusion",
+        "Osmosis",
+        "\u00c9ndocytosis"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which among the following sentence is not correct about the organelles?",
+      "options": [
+        "They are found in all Eukaryotic cells.",
+        "They are found in multicellular organisms.",
+        "They coordinate to produce the cell.",
+        "They are small sized and mostly internal."
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the process in which the passage of water goes from a region of higher  concentration to a region of lower concentration through a semi permeable membrane?",
+      "options": [
+        "Diffusion",
+        "Osmosis",
+        "Both a) and b)",
+        "Neither a) nor b)"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name an organism which contains single chromosome and cell division occurs  through fission or budding?",
+      "options": [
+        "Eukaryotes",
+        "Prokaryotes",
+        "Bacteria",
+        "Primitive organism"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the process in which the membrane of a vesicle can fuse with the plasma  membrane and extrude its contents to the surrounding medium?",
+      "options": [
+        "Exocytosis",
+        "Endocytosis",
+        "Osmosis",
+        "Diffusion"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The jelly like substance present inside the cell is known as:",
+      "options": [
+        "Cytoplasm",
+        "Ectoplasm",
+        "Nucleoplasm",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Blue green Algae are:",
+      "options": [
+        "Prokaryotes",
+        "Eukaryotes",
+        "Both a) and b)",
+        "Neither a) nor b)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following statements are correct regarding respiration in plants?  I. Respiration is the process of releasing energy from food.  II. Respiration takes place individually in all parts of the plants like stem, roots, leaves etc.  III. The rate of respiration is slow in plants whereas it is faster in humans and animals.  Select the correct answer from the codes given below:",
+      "options": [
+        "I and III are correct",
+        "I and II are correct",
+        "I, II and III are correct",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the process through which much needed oxygen is supplied to all the cells of  the plants?",
+      "options": [
+        "Diffusion",
+        "Endosmosis",
+        "Exosmosis",
+        "Photosynthesis"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Due to Water logging:",
+      "options": [
+        "An air is expelled from in-between the particles of soil.",
+        "Oxygen becomes unavailable to the roots of the plants.",
+        "Plants respire anaerobically which produces alcohol and kill them.",
+        "All the above are correct."
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Respiration in Plants takes place through:",
+      "options": [
+        "Stomata",
+        "Lenticels",
+        "Both A and B",
+        "Only A"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Consider the following statements:",
+      "options": [
+        "Respiration takes place both day and night.",
+        "Photosynthesis occurs during day time only.",
+        "Both A and B are correct.",
+        "Neither A nor B are correct."
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Some plants store waste in their fruits in the form of solid bodies called:",
+      "options": [
+        "Raphides",
+        "Lenticels",
+        "Stomata",
+        "Resins"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Various methods used by plants to get rid of their waste products are:  I. Gaseous waste through stomata and lenticels.  II. Stored solid and liquid waste by shedding leaves, peeling of bark and falling of fruits.   MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  223 | P a g e                                                                     III. By secreting waste in the form of gum and resins.  Which of the following statements is/are correct?",
+      "options": [
+        "I and II are correct.",
+        "II and III are correct.",
+        "I and III are correct.",
+        "I, II and III are correct."
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the waste products secreted by Plants?",
+      "options": [
+        "Carbon Dioxide",
+        "Oxygen",
+        "Water Vapour",
+        "All are correct."
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following statements is/are correct?  I. The net gaseous exchange in leaves at night is, oxygen diffuses in and carbon dioxide  diffuses out.    II. Net gaseous exchange during day time is, oxygen diffuses out and carbon dioxide diffuses in.  Select the correct answer from the codes given below:",
+      "options": [
+        "Only I is correct.",
+        "Only II is correct",
+        "Both I and II are correct.",
+        "Neither I nor II is correct."
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name an extension of the epidermal cells of a root which is in direct contact with the  soil?",
+      "options": [
+        "Root Hairs",
+        "Internodes",
+        "Bundle Scars",
+        "Pith"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the process of intake of nutrients by an organism as well as the utilisation of  these nutrients by the organisms called?",
+      "options": [
+        "Nutrition",
+        "Photosynthesis",
+        "Chloroplasts",
+        "Digestion"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The mode of nutrition in which an organism makes its own food from the simple  inorganic material like carbon dioxide and water present in the surrounding is called:",
+      "options": [
+        "Heterotrophic nutrition",
+        "Saprotrophic nutrition",
+        "Autotrophic nutrition",
+        "Holozoic nutrition"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the mode of nutrition called in which organisms cannot make its own food  from simple inorganic material and depends on other organisms for its food?",
+      "options": [
+        "Autotrophic nutrition",
+        "Heterotrophic nutrition",
+        "Parasitic nutrition",
+        "Holozoic nutrition"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When an organism obtains its food from decaying organic matter of dead plants,  dead animals and rotten bread, etc., it is called:",
+      "options": [
+        "Parasitic nutrition",
+        "Autotrophic nutrition",
+        "Holozoic nutrition",
+        "Saprotrophic nutrition"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The nutrition in which an organism derives its food from the body of another living  organism without killing it, it\u2019s called:",
+      "options": [
+        "Saprotrophic nutrition",
+        "Parasitic nutrition",
+        "Holozoic nutrition",
+        "Autotrophic nutrition"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The nutrition in which an organism takes the complex organic food materials into its  body by the process of ingestion, the ingested food is digested and then absorbed into  the body cells of the organism:",
+      "options": [
+        "Parasitic nutrition",
+        "Autotrophic nutrition",
+        "Holozoic nutrition",
+        "Heterotrophic nutrition"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The process by which green plants make their own food from carbon dioxide and  water by using sunlight energy in the presence of chlorophyll, is called:",
+      "options": [
+        "Xanthophylls",
+        "Stomata",
+        "Photosynthesis",
+        "Chloroplast"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Animals which eat only plants are called:",
+      "options": [
+        "Herbivores",
+        "Omnivores",
+        "Carnivores",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What is the process of taking food into the body called?",
+      "options": [
+        "Digestion",
+        "Assimilation",
+        "Ingestion",
+        "Egestion"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The process in which the food containing large, insoluble, molecules is broken  down into small, water soluble molecules is called:",
+      "options": [
+        "Digestion",
+        "Absorption",
+        "Ingestion",
+        "Assimilation"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The process of removal of toxic wastes from the body of an organism is called:",
+      "options": [
+        "Transport",
+        "Respiration",
+        "Excretion",
+        "Nutrition"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The movement of a plant part in response to light is called:",
+      "options": [
+        "Phototropism",
+        "Geotropism",
+        "Chemotropism",
+        "Hydrotropism"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The movement of plant part in response to gravity is called:",
+      "options": [
+        "Thigmotropism",
+        "Hydrotropism",
+        "Phototropism",
+        "Geotropism"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The movement of a plant part in response to a chemical stimulus is called:",
+      "options": [
+        "Hydrotropism",
+        "Chemotropism",
+        "Thigmotropsim",
+        "Phototropism"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The movement of a plant part in response to water is called:",
+      "options": [
+        "Geotropism",
+        "Hydrotropism",
+        "Chemotropism",
+        "Thigmotropism"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The directional movement of a plant part in response to the touch of an object is  called:",
+      "options": [
+        "Phototropism",
+        "Geotropism",
+        "Thigmotropism",
+        "Hydrotropism"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The non-directional movement of a plant part in response to the touch of an object  is called:",
+      "options": [
+        "Thigmotropism",
+        "Thigmonasty",
+        "Phototropism",
+        "Photonasty"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The pad-like swelling at the base of each leaf of a sensitive plant is called:",
+      "options": [
+        "Pistol",
+        "Scape",
+        "Pulvini",
+        "Foliage"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The non-directional movement of a plant part in response to light is called:",
+      "options": [
+        "Phototropism",
+        "Thigmotropism",
+        "Geotropism",
+        "Photonasty"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The shorter fibres on the body of a neuron are called:",
+      "options": [
+        "Dendrites",
+        "Axon",
+        "Cytoplasm",
+        "Myelin sheath"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The longest fibre on the cell body of a neuron is called:",
+      "options": [
+        "Myelin",
+        "Nerve endings",
+        "Axon",
+        "Dendrites"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The axon passes the impulse to another neuron through a junction called:",
+      "options": [
+        "Nerve endings",
+        "Synapse",
+        "Cytoplasm",
+        "Nucleus"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What are those reflex actions called which involve brain?",
+      "options": [
+        "Reflex arcs",
+        "Cerebral reflexes",
+        "Spinal reflexes",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The chemical substances which coordinate the activities of living organisms and  also their growth are called:",
+      "options": [
+        "Hormones",
+        "Blood",
+        "Sodium",
+        "Cytoplasm"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When the parent organism splits to form two new organisms, it is called:",
+      "options": [
+        "Budding",
+        "Spore formation",
+        "Binary fission",
+        "Multiple fission"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The process of getting back a full organism from its body part is called:",
+      "options": [
+        "Spore formation",
+        "Budding",
+        "Regeneration",
+        "Fragmentation"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The breaking up of the body of a simple organism into two or more pieces on  maturing, each of which subsequently grows to form a complete new organism, is called:",
+      "options": [
+        "Fragmentation",
+        "Vegetative propagation",
+        "Binary fission",
+        "Budding"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When new plants are obtained from the parts of old plants, without the help of any  reproductive organs, it is called:",
+      "options": [
+        "Vegetative propagation",
+        "Spore formation",
+        "Fragmentation",
+        "Multiple fission"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When the cut stems of two different plants are joined together in such a way that the  two stems join and grow as a single plant, it is called:",
+      "options": [
+        "Cutting",
+        "Layering",
+        "Grafting",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The transfer of pollen grains the anther of a stamen to the stigma of a carpel is  called:",
+      "options": [
+        "Germination",
+        "Pollination",
+        "Fertilisation",
+        "Tissue culture"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "An ancient book of 1000 B.C. deals with health, hygiene, longevity etc?",
+      "options": [
+        "Sushruta Samhita",
+        "Atatharvaveda",
+        "Bhela Samhita",
+        "Charaka Samhita"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name a concise and scientific exposition of Ayurveda in verse form. It is  distinguished by its knowledge of chemical reactions and laboratory processes etc.",
+      "options": [
+        "Vrdukunta",
+        "Vaghata",
+        "Kasyapa Samhita",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name an ancient book which describes difficult surgical operations like opening of a  brain etc.",
+      "options": [
+        "Celsus",
+        "Bhela Samhita",
+        "Chivaravastu",
+        "Agnivesa Samhita"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which ancient book of 600 B.C. deals with paediatrics?",
+      "options": [
+        "Kasyapa Samhita",
+        "Agnivesa Samhita",
+        "Bhela Samhita",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "A treatise on the rasa chikitsa system of ancient medicine, which considers mercury  as the king of all medicines.",
+      "options": [
+        "Vaghata",
+        "Tristia",
+        "Gandavadha",
+        "Vrdukunta"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "A treatise on medicine and surgery from Alexandria and Rome?",
+      "options": [
+        "Celsus",
+        "Hippocratic Oath",
+        "Georgics",
+        "Aeneid"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following ancient book is the codification of medicine scattered in the  Vedas?",
+      "options": [
+        "Bhela Samhita",
+        "Charaka Samhita",
+        "Sushruta Samhita",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who is considered as the father of western medicines?",
+      "options": [
+        "Hesiod",
+        "Hippocrates",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the first book on medicine in China?",
+      "options": [
+        "Huangdi Neiching",
+        "Celsus",
+        "Vaghata",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "A classical exposition of Indian medicine. It deals with almost all branches of  medicine?",
+      "options": [
+        "Madhavacharaya",
+        "Kasyapa Samhita",
+        "Charaka Samhita",
+        "Agnivesa Samhita"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In amoeba excretion takes place through the process of:",
+      "options": [
+        "Diffusion",
+        "Infusion",
+        "Uricotelic",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the excretory organ present in earthworm through which excretion takes  place?",
+      "options": [
+        "Moist Skin",
+        "Nephridia",
+        "Both A and B",
+        "Only B"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The major waste produced by human body are:",
+      "options": [
+        "Carbon dioxide",
+        "Urea",
+        "Both A and B",
+        "Only B"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which organ in the human body is responsible for removing carbon dioxide from  the body?",
+      "options": [
+        "Kidney",
+        "Lungs",
+        "Blood",
+        "Ureter"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Each kidney is made up of a large number of excretory units called:",
+      "options": [
+        "Glomerulus",
+        "Bowman\u2018s Capsule",
+        "Nephron",
+        "Blood capillaries"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In which of the following are the largest amounts of nitrogen excreted from a  mammalian body?",
+      "options": [
+        "Breath",
+        "Sweat",
+        "Urine",
+        "Faeces"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The best long term solution for kidney failure is:",
+      "options": [
+        "Dialysis",
+        "Kidney transplant",
+        "Both A and B",
+        "Only B"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What types of nitrogenous wastes are excreted by living organisms?",
+      "options": [
+        "Ammonia",
+        "Uric acid",
+        "Urea",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the organs that make up the excretory system in humans?",
+      "options": [
+        "Two Kidneys",
+        "Two Ureters",
+        "Bladder and Urethra",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which vessel carries blood to the kidneys?",
+      "options": [
+        "Renal Arteries",
+        "Renal Vein",
+        "Both A and B",
+        "Only A"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In Human beings the process of digestion of food begins in:",
+      "options": [
+        "Stomach",
+        "Food Pipe",
+        "Mouth",
+        "Small Intestine"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following organism have parasitic mode of nutrition?",
+      "options": [
+        "Penicillium",
+        "Plasmodium",
+        "Paramecium",
+        "Parrot"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the first enzyme that mix with food in the digestive tract?",
+      "options": [
+        "Pepsin",
+        "Trypsin",
+        "Amylase",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following in biology is the energy currency of cells?",
+      "options": [
+        "PDP",
+        "DTP",
+        "ATP",
+        "ADP"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "In the stem of a plant respiration and breathing takes place through:",
+      "options": [
+        "Lenticels",
+        "Stomata",
+        "Root hair",
+        "Air tubes"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which animal has three-chambered heart?",
+      "options": [
+        "Pigeon",
+        "Lizard",
+        "Fish",
+        "Lion"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the blood vessel which carries blood back to the heart?",
+      "options": [
+        "Vein",
+        "Artery",
+        "Capillaries",
+        "Platelet"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Transportation of food in plants takes place through:",
+      "options": [
+        "Xylem",
+        "Phloem",
+        "Companion cells",
+        "Tracheids"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "After wound or cut in a body blood coagulates through:",
+      "options": [
+        "WBC",
+        "RBC",
+        "Platelets",
+        "Plasma"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When blood is forced into the artery, wave like expansion takes place is called:",
+      "options": [
+        "Heart beat",
+        "Pulse",
+        "Flow",
+        "Ticking"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What are the two main hormones secreted by Thyroid gland?",
+      "options": [
+        "T3",
+        "T4",
+        "TSH",
+        "Both A and B"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Too much release of thyroid hormone in the body causes:",
+      "options": [
+        "Hypothyroidism",
+        "Hyperthyroidism",
+        "Goitre",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What are the symptoms of release of too much T3 and T4 hormones?",
+      "options": [
+        "Anxiety",
+        "Nervousness",
+        "Hair loss",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name a disease causes due to the deficiency of iodine?",
+      "options": [
+        "Thyroid cancer",
+        "Solitary thyroid nodules",
+        "Goitre",
+        "Thyroiditis"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The symptoms of hypothyroidism are:",
+      "options": [
+        "Dry skin and hair",
+        "Depression",
+        "Joint and muscle pain",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "An autoimmune disease of the thyroid tissue is called:",
+      "options": [
+        "Graves disease",
+        "Thyroiditis",
+        "Thyroid Cancer",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "A condition of a chronic inflammation of the thyroid, which lead to under activity?",
+      "options": [
+        "Goitre",
+        "Thyroiditis",
+        "Hypothyroidism",
+        "Hyperthyroidism"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "What are the functions of thyroid gland in the body?",
+      "options": [
+        "Controls metabolism",
+        "Maintain internal homeostasis",
+        "Controls breathing and heart rate",
+        "All of the above"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which gland mainly controls and regulates the actual thyroid activity?",
+      "options": [
+        "Pituitary gland",
+        "Hypothalamus",
+        "Both A and B",
+        "Only A"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the condition marked by a low TSH?",
+      "options": [
+        "Hypothyroidism",
+        "Hyperthyroidism",
+        "Goitre",
+        "Thyroid Cancer"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who had given the theory of evolution of species by natural selection?",
+      "options": [
+        "Darwin",
+        "Mendel",
+        "Dalton",
+        "Morgan"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who is known as the father of genetics?",
+      "options": [
+        "Mendel",
+        "Darwin",
+        "Dalton",
+        "Marie Curie"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following are the sources which provide evidences for evolution?",
+      "options": [
+        "Homologous organs",
+        "Analogous organs",
+        "Fossils",
+        "All the above"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name a fossil bird which looks like a bird but has many other features found in  reptiles?",
+      "options": [
+        "Dodo",
+        "Archaeopteryx",
+        "Flamingos",
+        "Mouse Bird"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Name the organs which have different basic structure but have similar appearance  and perform similar functions?",
+      "options": [
+        "Analogous organs",
+        "Homologous organs",
+        "Both A and B",
+        "Neither A nor B"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Who suggested that life must have developed from the simple inorganic molecules  like methane, hydrogen etc. which were present on the earth soon after it was formed?",
+      "options": [
+        "Darwin",
+        "Marrie Curie",
+        "Haldane",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Aves have evolved from:",
+      "options": [
+        "Amphibians",
+        "Arthropods",
+        "Mammals",
+        "Reptiles"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The theory of origin of life on earth is proposed by:",
+      "options": [
+        "Haldane",
+        "Stanley Miller",
+        "Harold C. Urey",
+        "Lamarck"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "Which of the following are the postulates of Darwin\u2019s theory of evolution?",
+      "options": [
+        "Within any population, there is natural variation.",
+        "Even though all species produce a large number of offsprings, populations remain fairly",
+        "The struggle for survival within populations eliminates the unfit individuals.",
+        "All the above are correct"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "The process by which new species develop from the existing species is called:",
+      "options": [
+        "Homologous",
+        "Analogous",
+        "Speciation",
+        "Genetic variation"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "topicId": "mixed_practice"
+    },
+    {
+      "question": "When a ray of light enters a glass slab, then",
+      "options": [
+        "only the frequency changes",
+        "frequency and velocity change",
+        "frequency does not change",
+        "frequency and wavelength change"
+      ],
+      "correct": 2,
+      "explanation": "When a ray of light enters a glass slab, then frequency does not change",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A ball is thrown vertically upward from the ground with a speed of 25.2 m/s. The ball will  reach the highest point of its journey in",
+      "options": [
+        "5.14 s",
+        "3.57 s",
+        "2.57 s",
+        "1.29 s"
+      ],
+      "correct": 2,
+      "explanation": "Initial velocity = 25 m/s   and final velocity is 0.  The ball will reach the highest point of its journey in time,",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "One kilo watt hour is equal to",
+      "options": [
+        "joule",
+        "joule",
+        "joule",
+        "joule"
+      ],
+      "correct": 1,
+      "explanation": "One kilowatt hour =       joule",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "When sound waves are propagated through a medium, the physical quantity/quantities  transmitted is /are",
+      "options": [
+        "matter only",
+        "energy only",
+        "energy and matter only",
+        "energy, momentum and matter"
+      ],
+      "correct": 1,
+      "explanation": "When sound waves are propagated through a medium, the physical quantity transmitted its  energy only.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Pressure is a scalar quantity because",
+      "options": [
+        "it is the ratio of force to area and both force and area are vectors",
+        "it is the ratio of magnitude of force to area",
+        "it is the ratio of component of force",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explanation": "Pressure is a scalar quantity because it is the ratio of component of force (normal to area) to  area",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A person is unable to read a newspaper without his glasses. He is most probably suffering  from",
+      "options": [
+        "Myopia",
+        "Presbyopia",
+        "Astigmatism",
+        "Hypermetropia"
+      ],
+      "correct": 3,
+      "explanation": "A person is unable to read a newspaper without his glasses. He is most probably suffering from  Hypermetropia which means long-sightedness.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The free fall acceleration g increases as one proceeds, at sea level, from the equator toward  either pole. The reason is",
+      "options": [
+        "Earth is a sphere with same density everywhere",
+        "Earth is a sphere with different density at the polar regions than in the equatorial regions",
+        "Earth is approximately an ellipsoid having its equatorial radius greater than its polar radius",
+        "Earth is approximately an ellipsoid having its equatorial radius smaller than its polar radius"
+      ],
+      "correct": 2,
+      "explanation": "The free fall acceleration g increases as one proceeds, at sea level, from the equator toward  either pole. Because, the Earth is approximately an ellipsoid having its equatorial radius greater  than its polar radius by 21 km",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "The measurement of mass taken by a spring weighing balance is correct at the place where",
+        "The measurement of mass taken by a spring weighing balance is correct at all places",
+        "The measurement of mass taken by a spring weighing balance is correct at the places",
+        "A spring balance cannot be used to measure mass at any place"
+      ],
+      "correct": 3,
+      "explanation": "The correct statement is: A spring balance cannot be used to measure mass at any place",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following is not a contact force?",
+      "options": [
+        "Push force",
+        "Gravitational force",
+        "Frictional force",
+        "Strain force"
+      ],
+      "correct": 1,
+      "explanation": "Non-contact force is Gravitational force which is responsible for bringing the items we toss into  the air back to earth. When an object is resting on a surface it is exerting a downward force  equal to its weight and this downward force is known as Gravitational force.         MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  250 | P a g e",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "When a force of 1 newton acts on a mass of 1 kg which is able to move freely, the object  moves in the direction of force with a/an",
+      "options": [
+        "speed of",
+        "acceleration of",
+        "speed of     s",
+        "acceleration of"
+      ],
+      "correct": 1,
+      "explanation": "When a force of 1 newton acts on a mass of 1 kg which is able to move freely, the object moves  in the direction of force with an acceleration of",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which of the following items is used in the house hold wirings to prevent accidental fire in  case of short circuit?",
+      "options": [
+        "Insulated wire",
+        "Plastic switches",
+        "Non-metallic coatings on conducting wires",
+        "Electric fuse"
+      ],
+      "correct": 3,
+      "explanation": "Electric fuse is a protective device which protects electrical equipment in the circuit by breaking  the circuit when there is a short circuit.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Along a streamline flow of fluid",
+      "options": [
+        "the velocity of all fluid particles at a given instant is constant",
+        "the speed of a fluid particle remains constant",
+        "the velocity of all fluid particles crossing a given position is constant",
+        "the velocity of a fluid particle remains constant"
+      ],
+      "correct": 0,
+      "explanation": "Streamline flow of a liquid velocity of each particle at a particular cross section is constant,  because             (law of continuity) between the two cross-section of a tube of flow. So,  we can say that along a streamline, the velocity of every fluid particle while crossing a given  position is the same.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "How is the kinetic energy of a moving object affected if the net work done on it is positive?",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correct": 0,
+      "explanation": "Kinetic energy doesn't change, so the net work done on the moving object is zero. If the net  work done on the moving object is positive, so the kinetic energy increases. As if the net work  done on the moving object is negative, so the kinetic energy decreases.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A particle is executing simple harmonic motion. Which one of the following statements about  the acceleration of the oscillating particle is true?",
+      "options": [
+        "It is always in the opposite direction to velocity",
+        "It is proportional to the frequency of oscillation",
+        "It is minimum when the speed is maximum",
+        "It decreases as the potential energy increases"
+      ],
+      "correct": 2,
+      "explanation": "Speed is maximum when x = zero (through the center of the swing). If x = zero acceleration =  zero, so it is true.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following four particles, whose displacement x and acceleration a_xare  relatedas follows, is executing simple harmonic motion?",
+      "options": [
+        "(b)",
+        "(d)"
+      ],
+      "correct": 3,
+      "explanation": "In case of simple harmonic motion, the acceleration is always directed towards the mean  position and so is always opposite to displacement, i.e.       or      .  In option (d),        or   , the acceleration of the particle is proportional to negative of  displacement. Hence it represents Simple Harmonic Motion.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "If we plot a graph between volume V and inverse of pressure P (i.e. 1P) for an ideal gas at  constant temperature T, the curve so obtained is",
+      "options": [
+        "straight line",
+        "circle",
+        "parabola",
+        "hyperbola"
+      ],
+      "correct": 0,
+      "explanation": "If we plot a graph between volume V and inverse of pressure P (i.e., 1P) for an ideal gas at  constant temperature T, the curve so obtained is a straight line",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "The speed of sound waves in a medium depends upon the elastic property of the medium",
+        "The speed of sound waves in a medium depends upon the inertia property of the medium",
+        "The speed of sound waves in a medium depends neither on its elastic property nor on its",
+        "The speed of sound waves in a medium depends both on elastic and inertia properties of the"
+      ],
+      "correct": 0,
+      "explanation": "The speed of sound waves in a medium depends upon the elastic property of the medium but  not on inertia property.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following statement is not correct?",
+      "options": [
+        "Pitch of a sound is its characteristic by which we can generally differentiate between a male",
+        "The loudness of sound is related to it frequency",
+        "A musical sound has certain well defined frequencies which are generally harmonics of a",
+        "The timbre of a particular musical sound is related to the wave form of the sound wave"
+      ],
+      "correct": 3,
+      "explanation": "The correct statements are: Pitch of a sound is its characteristic by which we can generally  differentiate between a male voice and female voice, a musical sound has certain well defined  frequencies which are generally harmonics of a fundamental frequency and the timbre of a  particular musical sound is related to the wave form of the sound wave.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A particle executes linear simple harmonic motion with amplitude of 2cm. When the particle  is at 1cm from the mean position the magnitudes of the velocity and the acceleration are equal.  Then its time period (in seconds) is",
+      "options": [
+        "\u221a",
+        "\u221a",
+        "\u221a",
+        "\u221a"
+      ],
+      "correct": 0,
+      "explanation": "The magnitude of the velocity and acceleration of the particle when its displacement is 'y' are   \u221a(     ) and     respectively.  Equating them,  \u221a(     )       From which we get,    \u221a(     )      \u221a    \u221a   Period,       \u221a    MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  251 | P a g e",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following statements is not correct?",
+      "options": [
+        "The longest wavelength of light visible to human eye is about 700 nm",
+        "The shortest wavelength of light visible to human eye is about 400 nm",
+        "The wavelength of gamma rays is shorter than that of X-rays",
+        "The ability of a telescope to form separable images of close objects is called its resolving"
+      ],
+      "correct": 2,
+      "explanation": "The wavelength of gamma rays is shorter than that of X-rays is the correct statement.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "If the image of an object, formed by a concave mirror is virtual, erect and magnified, then  the object is placed",
+      "options": [
+        "at the principal focus",
+        "at the centre of curvature",
+        "beyond the centre of curvature",
+        "between the pole of the mirror and the principal focus"
+      ],
+      "correct": 3,
+      "explanation": "If the image of an object, formed by a concave mirror is virtual, erect and magnified, then the  object is placed between the pole of the mirror and the principal focus",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "When three resistors, each having resistance r, are connected in parallel, their resultant  resistance is x.If these three resistances are connected in series, the total resistance will be",
+      "options": [
+        "3x",
+        "3rx",
+        "9x",
+        "3/x"
+      ],
+      "correct": 2,
+      "explanation": "When three resistors, each having resistance    areconnected in parallel, their resultant  resistance is  .If these three resistances are connected in series, the total resistance will be  .",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The property of electric current which is applicable in the fuse wire is",
+      "options": [
+        "chemical effect of current",
+        "magnetic effect of current",
+        "heating effect of current",
+        "optical property of current"
+      ],
+      "correct": 2,
+      "explanation": "The property of electric current which is applicable in the fuse wire is heating effect of current",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following statements is not correct?",
+      "options": [
+        "The SI unit of charge is ampere-second",
+        "Debye is the unit of dipole moment",
+        "Resistivity of a wire of length l and area of cross-section a  depends upon both l and a",
+        "The kinetic energy of an electron of mass mkg and charge e coulomb, when accelerated"
+      ],
+      "correct": 2,
+      "explanation": "The incorrect statement is \"Resistivity of a wire of length   and area of cross-section  depends  upon both   and  \".",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Two balls, A and B, are thrown simultaneously, a vertically upward with a speed of 20m/s  from the ground and B vertically downward from a height of40m with the same speed and along  the same lineofmotion. At what points do the two balls collide by taking acceleration due to  gravity as9.8m/s^2?",
+      "options": [
+        "The balls will collide after 3s at a height of 30.2m from the ground",
+        "The balls will collide after 2s at a height of 20.1m from the ground",
+        "The balls will collide after 1s at a height of 15.1 m from the ground",
+        "The balls will collide after 5s at a height of 20m from the ground"
+      ],
+      "correct": 2,
+      "explanation": "Suppose they meet at a height h from ground in time t. Their initial velocity of projection be           For the ball thrown upwards, (u and g are opposite)             ........ (i)  For the ball thrown vertically downwards, (u and g are in same direction)                ......... (ii)  By adding the two equations, we get                                                                   They meet at height 15.1m from the ground in 1 second.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Matter around us can existing three different states namely, solid, liquid and gas. Correct  order of their compressibility is",
+      "options": [
+        "Liquid<Gas<Solid",
+        "Solid<Liquid<Gas",
+        "Gas<Liquid<Solid",
+        "Solid<Gas<Liquid"
+      ],
+      "correct": 1,
+      "explanation": "The correct order o compressibility is Solid < Liquid< Gas. Gases are highly compressible as  compared to Solids and liquids. In gas, the molecules have enough kinetic energy so that the  effect of intermolecular forces is small and the typical distance between neighboring molecules  is much greater than the molecular size.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The temperature at which a solid melts to become a liquid at the atmospheric pressure is  called its melting point. The melting point of a solid is an indication of",
+      "options": [
+        "Strength of the intermolecular forces of attraction",
+        "Strength of the intermolecular forces of repulsion",
+        "Molecular mass",
+        "Molecular size"
+      ],
+      "correct": 0,
+      "explanation": "The melting point of a solid is an indication of strength of intermolecular force of attraction. On  increasing the temperature of solids, the kinetic energy of the particles increases. Due to the  increase in kinetic energy, the particles start vibrating with greater speed. The energy supplied  by the heat overcomes the forces of attraction between the particles. A stage is reached when  solid melts and is converted to a liquid.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Consider the following circuit                      The equivalent resistant the circuit will be",
+      "options": [
+        "12\u2126",
+        "(c)"
+      ],
+      "correct": 2,
+      "explanation": "Consider the given circuit    MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  252 | P a g e                                                                       This circuit consists of two sections, I and II. In first section, three resistors are in parallel  connection, therefore equivalent resistance is                              =>          \u2126      This resistance is in series with the resistance 8 \u2126 of section II.   Equivalent resistance of the circuit            =                        \u2126",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A racing car accelerates on a straight line from rest to a speed of 50 m/s in 25 s. Assuming  uniform, acceleration of the throughout, the distance covered in this will be",
+      "options": [
+        "625 m",
+        "1250 m",
+        "2500 m",
+        "50 m"
+      ],
+      "correct": 0,
+      "explanation": "Acceleration of the car is uniform. Therefore, according to first equation of motion          Where,    final velocity of the car =           Acceleration of the car     Time interval = 25 s     Initial velocity = 0                       Now, applying second equation of motion we get,                         =                  m.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A man weighing 70 kg is coming down in lift. If the cable of the lift breaks sudden the weight  of the man would become",
+      "options": [
+        "70 kg",
+        "35 kg",
+        "140 kg",
+        "Zero"
+      ],
+      "correct": 3,
+      "explanation": "Consider the mass of the man in the lift is   when cable breakes as shown in the diagram.  Now, the man in the lift is in free fall. Therefore, his acceleration is same as acceleration due to  gravity \u2017g\u2018. Due to this acceleration pseudo force as the man is    upward. Therefore, weight of  the man,",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A given conductor carrying a current of I ampere. It produces an amount of heat equal to  2000J. The current through the conductor is doubled the amount of heat produced will be",
+      "options": [
+        "2000 J",
+        "4000 J",
+        "8000 J"
+      ],
+      "correct": 2,
+      "explanation": "Let resistance of the coil is R and measuring heat produce for time t seconds.          ( ) ( )( )            Similarly, when current is doubled, the amount of heat produce is      (  )    ( ) (  )       =              [         ]",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A lady is standing in front of a plane mirror at a distance of 1 m from it. She walks 60 cm  towards the mirror. The distance of her image now from herself (ignoring the thickness of the  mirror) is",
+      "options": [
+        "40 cm",
+        "60 cm",
+        "80 cm",
+        "120 cm"
+      ],
+      "correct": 2,
+      "explanation": "Initial distance of the lady from the mirror is                After moving 60 cm towards the mirror, new distance is                  Distance of her image from herself is Distance of her image from herself is                          MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  253 | P a g e",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The brightness of a star depends on its",
+      "options": [
+        "Size and temperature",
+        "Size and distance from the Earth",
+        "Size temperature and mass",
+        "Size, temperature and distance from the Earth"
+      ],
+      "correct": 0,
+      "explanation": "According to Stefan\u2018s law, rate of loss of heat energy in the form of radiation (brightness) of a  star depends upon  (i) Nature of surface of radiant object  (ii) Surface area of the star  (iii) Temperature of the star",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A glass vessel is filled with water up to the brink and a lid is fixed to it tightly. Then it is kept  inside a freezer for hours. What is expected to happen?",
+      "options": [
+        "The water freezes to ice and the level of ice comes down.",
+        "The water in the glass vessel summer freezes to ice.",
+        "The glass vessel breaks due to expansion as water freezes to ice.",
+        "The water does not freeze at all."
+      ],
+      "correct": 2,
+      "explanation": "Water shows anomalous in expansion during temperature range of 4\u2103 to 0\u2103. When  temperature falls below 4\u2103, water expands. As lid is fixed tightly, stress will develop in the  bottle due to this anomalous expansion which breaks the glass when water is converted into ice  that is volume is maximum.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A simple circuit contains a 12 V battery and bulb having 24 ohm resistance. When turn on  the switch, the ammeter connected to the circuit would read.",
+      "options": [
+        "0.5 A",
+        "2 A",
+        "4 A",
+        "5 A"
+      ],
+      "correct": 0,
+      "explanation": "It is given that EMF of the battery,        Resistance of the bulb, R = 24 \u2126  Where switch is turned on, current through the bulb is                     A    Hence, reading of ammeter is 0.5 A.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Three resistors with magnitudes 2, 4, 8 ohm are connected in parallel equivalent resistance  of the system would be",
+      "options": [
+        "Less than 2 ohm",
+        "More than 2 ohm but less than 4 ohm",
+        "4 ohm",
+        "14 ohm"
+      ],
+      "correct": 0,
+      "explanation": "Equivalent resistance of three resistors of resistances 2, 4 and 8 \u2126 is                                                      Therefore, equivalent resistance is less than 2 \u2126.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Two bodies A and B are moving with equal velocities. The mass of B is doubled that of A. In  this context, which one of the following statements is correct?",
+      "options": [
+        "Momentum of B will be double that of A",
+        "Momentum of A will be double that of B",
+        "Momentum of B will be four times that of A",
+        "Momentum of both A and B will be equal"
+      ],
+      "correct": 0,
+      "explanation": "Let magnitude of the velocity of each body is       Momentum of           Similarly, momentum of B,                                [       ]",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The SI unit of acceleration is",
+      "options": [
+        "(b)",
+        "(d)"
+      ],
+      "correct": 1,
+      "explanation": "Rate of change in velocity is called acceleration.                                    (   )             ( )   Therefore, unit of acceleration is m/",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "An object is placed at the centre of curvature of a concave mirror of focal length 16 cm. If  the object is shifted by 8 cm towards the focus, the nature of the image would be",
+      "options": [
+        "Real and magnified",
+        "Virtual and magnified",
+        "Real and reduced",
+        "Virtual and reduced"
+      ],
+      "correct": 0,
+      "explanation": "Focal length of the concave mirror,       cm    Magnitude of radius of curvature of the mirror, of the object     (    ) cm =     cm   Applying mirror formula, we get                MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  254 | P a g e                                                                                                                                          cm   Magnification,           (   )          As magnification is negative and having magnitude more than one, image will be real and  magnified.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A pencil is placed upright t a distance 10 cm from a convex lens of focal length 15 cm. The  nature of the image of the pencil will be",
+      "options": [
+        "Real, inverted and magnified",
+        "Real, erect and magnified",
+        "Virtual, erect and reduced",
+        "Virtual , erect and magnified"
+      ],
+      "correct": 2,
+      "explanation": "It is given that,  Focal length of the convex lens,     cm  Distance of pencil from the pole,       cm  Applying mirror formula, we get                                                            cm   Magnification,                     As magnification is positive and less than one, image will be vertical, erect and diminished.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following is a conventional energy source?",
+      "options": [
+        "Tidal energy",
+        "Geothermal energy",
+        "Solar energy",
+        "Bio \u2013 mass- energy"
+      ],
+      "correct": 3,
+      "explanation": "Bio \u2013 mass energy covers entire life of our plant. This type of energy has been used since the  cave-men discovered fire. Bio-mass fuel come from things that were once living. E.g. wood  product, dried vegetation, crop residue, aquatic plants etc.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A container is first filled with water and then entire water is replaced by mercury has a  density of 13.6         . If   is the weight of the water and   is the weight of the mercury,  then",
+      "options": [
+        "(b)",
+        "(d) None of these."
+      ],
+      "correct": 2,
+      "explanation": "Let volume of the containers V.  Density of mercury,                   We know that density of water                Volume of container remains same in both  the cases                (      )        (             )",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Density of water is",
+      "options": [
+        "Maximum at 0\u2103",
+        "Minimum at 0\u2103",
+        "Maximum at 4\u2103",
+        "Minimum at -4\u2103"
+      ],
+      "correct": 2,
+      "explanation": "Water shows anomalous behavior between temperature  \u2103 and  \u2103 expands it temperature  goes below  \u2103   Therefore, density decreases below \u2103 Also, it expands when temperature goes above  \u2103   Therefore density of water is maximum at \u2103because volume is minimum at  \u2103",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Suppose the force gravitation between two bodies of equal masses is F.If earth mass is  doubled keeping the distance of separation between them unchanged, the force would become.",
+      "options": [
+        "F",
+        "2F",
+        "4F",
+        "1/4 F"
+      ],
+      "correct": 2,
+      "explanation": "Let mass of each body is   and separation between the bodies is . Gravitational force between  the bodies            After doubling the mass, gravitational forces becomes      ( )                        MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  255 | P a g e",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A body has a free fall from a height of 20 m. After falling through a distance of 5m, then  body would",
+      "options": [
+        "Lose one-fourth of its total energy",
+        "Lose one-fourth of its potential energy",
+        "Gain one-fourth of its potential energy",
+        "Gain one-fourth of its total energy"
+      ],
+      "correct": 1,
+      "explanation": "Initial gravitational potential energy of two body             [      ]  Initial total energy of the body                        After falling 5 m, new potential energy is             (    )         Loss in potential energy                                                      th of its potential energy.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Changes with change in gravitational force  Select the correct answer using the codes given below.",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2",
+        "2 and 3",
+        "Only 1"
+      ],
+      "correct": 1,
+      "explanation": "One kilowatt hour =       joule",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The impulse on a particle due to a force acting on it during a given time interval is equal to  the change in its",
+      "options": [
+        "Force",
+        "Momentum",
+        "Work done",
+        "Energy"
+      ],
+      "correct": 1,
+      "explanation": "According to Newton\u2018s second law of motion                 Where,         applied external force    = mass of the particle      Acceleration of the particle    Impulse =               change in the momentum.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following statements with regarding to expansion of materials due to  heating is not correct?",
+      "options": [
+        "As ice melts, it expands uniformly up to 4\u2103",
+        "Mercury thermometer works using the principle of expansion due to heating.",
+        "Small gap is kept between two rails to allow for expansion due to heating.",
+        "The length of metallic wire increases when its temperature is increased."
+      ],
+      "correct": 0,
+      "explanation": "Generally substances expand on heating and contract on cooling. Now, if temperature of certain  amount of water is increased from 0\u2103 to 100\u2103, its volume decreases between 0\u2103(ice) to 4\u2103  and increases from 4\u2103 to 100\u2103 Therefore during 0\u2103 to 4\u2103  anamalous behavior of water is  observed.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following is not a form of stored energy?",
+      "options": [
+        "Nuclear energy",
+        "Potential energy",
+        "Electrical energy",
+        "Chemical energy"
+      ],
+      "correct": 0,
+      "explanation": "Potential energy of a system is the stored energy associated with the configuration of the  system. Electrical energy of a system is also stored energy in the form of electrostatic potential  energy. Similarly, chemical energy is stored in the form of chemical potential.  Potential energy associated with the chemical bonds. But nuclear energy is obtained by  breaking a heavy nucleus into light nucleus of comparable masses. I can also be obtained by  the formation of a heavy nucleus due to fusion of two light nuclei. Therefore, it is not a form of  stored energy.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The motion of a car along a straight path is shown by the following figure     The car starts from O and reaches at different instants of time. During its motion from O to C  and back to B, the distance covered and the magnitude of the displacement are, respectively",
+      "options": [
+        "25 km and 60 km",
+        "95 km and 35 km",
+        "60 km and 25 km",
+        "85 km and 35 km3"
+      ],
+      "correct": 3,
+      "explanation": "During motion from   to   and back to  , distance covered     Actual path taken =        = 60 km + (60 \u2013 35) km  Similarly displacement      Least distance between  and",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The symbol of the element \u2017Tungsten\u2018 is",
+      "options": [
+        "Ta",
+        "W",
+        "TI",
+        "TC"
+      ],
+      "correct": 1,
+      "explanation": "\u2015Ta\u2018 is the symbol for element \u2015Tantalum\u2018.   MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  256 | P a g e                                                                     \u2017W\u2018 is the symbol for element \u2015Tungsten\u2018.  \u2015Ti\u2018 is the symbol for element \u2017Thallium\u2018.  \u2015Tc\u2018 is the symbol for element \u2015Technetium\u2018.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "In, Egypt, ancient mummies can be found to have their arteries intact due to well preserved",
+      "options": [
+        "Mineralized blood",
+        "Fibroblasts fibre",
+        "Elastic fibre",
+        "Brown fat"
+      ],
+      "correct": 2,
+      "explanation": "Elastic fibres are formed of elastic protein, which is probably the most resistant of all body  proteins to chemical changes.  Thousands of years old \u2017mummies\u2018 including those found in Egypt still have their arteries intact  due to well preserved elastic fibres.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following statement is correct?",
+      "options": [
+        "The image formed by a concave mirror for an object lying at infinity is at the principal focus,",
+        "A ray of light parallel to the principal axis after reflection from a concave mirror appears to",
+        "The focal length of a spherical mirror is double of its radius of curvature",
+        "A ray of light travelling from a rarer medium to a denser medium bends away from the"
+      ],
+      "correct": 0,
+      "explanation": "When an object is placed at infinity in front of a concave mirror it will from a highly diminished,  real and inverted image at focus of the mirror.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "Rutherford\u2018s alpha-particle scattering experiment led of the discovery of electron",
+        "J.J.Thomson suggested that the nucleus of an atom contains protons",
+        "The atomic number of an element is the same as the number of protons in the nucleus of its",
+        "The mass number of an atom is equal to the number of electrons in its shells"
+      ],
+      "correct": 2,
+      "explanation": "Rutherford\u2019s  -scattering experiment led to the discovery of nucleus and hence structure of  atoms. JJ Thomson\u2018s cathode ray tube experiment led to the discovery of electrons. Atomic  number of an element is equal to the number of protons in the nucleus of an atom. Mass  number of an atom is equal to the sum of total number of neutrons and protons in the nucleus",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Which one of the following statements is not correct?",
+      "options": [
+        "In steady flow of a liquid, the velocity of liquid particles reaching at a particular point is the",
+        "Steady flow is also called streamlined flow",
+        "In steady flow, each particle may not follow the same path as taken by a previous particle",
+        "Two streamlines cannot intersect each other"
+      ],
+      "correct": 2,
+      "explanation": "In steady flow, the velocity of fluid particles reaching at a particular point is the same at all  times. Thus, each particle follows the same path as taken by a previous particle passing  through that point. Therefore, two streamlines never intersect each other.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The magnitude of the acceleration of the ball is constant.  Select the correct answer using the code given below:",
+      "options": [
+        "Only 1",
+        "1 and 3",
+        "1, 2 and 4",
+        "2 and 4"
+      ],
+      "correct": 1,
+      "explanation": "When sound waves are propagated through a medium, the physical quantity transmitted its  energy only.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Two long wires each carrying a DC current in the same direction are placed close to each  other. Which one of the following statement is correct?",
+      "options": [
+        "The wires will attract each other",
+        "The wires will repel each other",
+        "There will be no force between the wires",
+        "There will be a force between the wires only at the moment when the current is switched ON"
+      ],
+      "correct": 0,
+      "explanation": "When two wires carries current I1 and I2 in the same direction and separated by a distance d.  The force of attraction between the wires in       =         I1 I2   Where, L is length of the wires.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Lightning conductors must be installed at a place taller than the building.  Select the correct answer using the code given below:",
+      "options": [
+        "1 and 2",
+        "2 and 4",
+        "1, 3 and 4",
+        "Only 4"
+      ],
+      "correct": 1,
+      "explanation": "When sound waves are propagated through a medium, the physical quantity transmitted its  energy only.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The silvering in thermos flasks is done to avoid heat transfer by",
+      "options": [
+        "Convection",
+        "Conduction",
+        "Radiation",
+        "Both (a) and (b)"
+      ],
+      "correct": 2,
+      "explanation": "The slivering of inner wall of a thermo flask is done to prevent heat transfer through radiation.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Conservation of momentum in a collision between particles can be understood on the basis  of",
+      "options": [
+        "Newton\u2018s first law of motion",
+        "Newton\u2018s second law of motion",
+        "Both Newton's second law motion and Newton\u2018s third law of motion",
+        "Conservation of energy"
+      ],
+      "correct": 2,
+      "explanation": "Newton\u2018s second law states that rate of change of momentum is proportional to the force  applied and Newton\u2018s third law also states about the action and reaction forces. Thus, we can  say that principle of conservation can be understood by both of these laws.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Two forces, one of 3 Newton and another of 4 Newton are applied on a standard 1 kg body,  placed on a horizontal and frictionless surface, simultaneously along the x-axis and the y-axis ,  respectively, as shown below:                                  MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  246 | P a g e                                                                     The magnitude of the resultant acceleration is",
+      "options": [
+        "7",
+        "1",
+        "5",
+        "\u221a"
+      ],
+      "correct": 2,
+      "explanation": "As two forces are perpendicular to each other, so resultant force is given by      = \u221a        = \u221a( )  ( )  = \u221a   = 5N   MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  257 | P a g e                                                                     Now, from second law of Newton,       ,   a=     =     = 5 m/s2",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Magnetic meridian is an imaginary",
+      "options": [
+        "Line along North-south",
+        "Point",
+        "Vertical plane",
+        "Horizontal plane"
+      ],
+      "correct": 2,
+      "explanation": "The vertical plane passing through the axis of a freely suspended magnet is called magnetic  meridian.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "In SI unit of force, \u2017Newton\u2018 (N) is given by (where \u2017m\u2018 stands for \u2017metre\u2018 and\u2017s\u2018 stands for  \u2017second\u2018)",
+      "options": [
+        "(b)",
+        "(d)"
+      ],
+      "correct": 1,
+      "explanation": "In SI unit of force, \u2017Newton\u2018 (N) is given by (where \u2017m\u2018 stands for \u2017metre\u2018 and\u2017s\u2018 stands for  \u2017second\u2018)",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The acceleration due to gravity \u2017g\u2018 for objects on or near the surface of Earth is related to the  universal gravitational constant \u2017G\u2018 as (\u2017M\u2018 is the mass of the Earth and \u2017R\u2018 is its radius)",
+      "options": [
+        "G= g",
+        "g= G",
+        "M=",
+        "R="
+      ],
+      "correct": 1,
+      "explanation": "The acceleration due to gravity can be derived from law of gravitation. I.e. Gravitational force  between mass of Earth (M) and a body of mass (M) is given by  F=          [R= Radius of Earth] \u2026\u2026 (i)  Again, we know Earth attracts anybody with the force            \u2026\u2026\u2026\u2026 (ii)  From Eqns. (i) and (ii), we get         = mg   g =",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The loudness of sound is related to",
+      "options": [
+        "Its frequency",
+        "Its amplitude",
+        "Its speed",
+        "Its pitch"
+      ],
+      "correct": 1,
+      "explanation": "The amplitude of a sound wave determines its loudness or volume. A larger amplitude means a  louder sound, and a smaller amplitude means a softer sound.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "X-rays are electromagnetic radiation whose wavelengths are of the order of",
+      "options": [
+        "(b)",
+        "(d)"
+      ],
+      "correct": 3,
+      "explanation": "X-rays have wavelength ranging from 0.01 to 10 nm.                 So, 0.1 nm =",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The image produced in a normal optical microscope is virtual.  Select the correct answer using the code given below:",
+      "options": [
+        "Only 1",
+        "1 and 4",
+        "2 and 3",
+        "2 and 4"
+      ],
+      "correct": 1,
+      "explanation": "When sound waves are propagated through a medium, the physical quantity transmitted its  energy only.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Heat given to a body which raises its temperature by 1\u00b0 C is known as",
+      "options": [
+        "Water Equivalent",
+        "Thermal Capacity",
+        "Specific heat",
+        "Temperature Gradient"
+      ],
+      "correct": 2,
+      "explanation": "Specific heat is the amount of heat needed to raise the temperature of a certain mass 1 degree  Celsius.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "If the motion of an object is represented by a straight line parallel to the time axis in a  distance-time graph, then the object undergoes",
+      "options": [
+        "an acceleration motion",
+        "a decelerated motion",
+        "a uniform non-zero velocity motion",
+        "a zero velocity motion"
+      ],
+      "correct": 3,
+      "explanation": "Distance time graph parallel to the time axis.    It is clear from the graph that the position of the object is not changing with the change in time,  hence the object is at rest or in other words we can say that it is a zero velocity motion.       MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  258 | P a g e",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A force  \u20d7  acting on an electric charge q, in presence of an electromagnetic field, moves  the charge parallel to the magnetic field with velocity \u20d7 . The  \u20d7  is equal to (where  \u20d7 and  \u20d7 are  electric field and magnetic field respectively?",
+      "options": [
+        "\u20d7",
+        "( \u20d7   \u20d7 )",
+        "( \u20d7   \u20d7 )",
+        "\u20d7"
+      ],
+      "correct": 0,
+      "explanation": "Force on the charge q due to electric field  \u20d7          \u20d7    And force on the charge q due to magnetic       \u20d7\u20d7\u20d7\u20d7   (    \u20d7 )     \u20d7\u20d7\u20d7\u20d7           In the given case     \u20d7            \u20d7\u20d7\u20d7\u20d7     Hence, the force F acting on the charge q is equal to       \u20d7",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A ray light travels from a medium of refractive index n, to a medium of refractive index  n1 to a medium of relative index n2.  If angle of incidence is and angle of refraction is r,  then            is equal to",
+      "options": [
+        "(b)",
+        "(d)"
+      ],
+      "correct": 2,
+      "explanation": "According to Snell's law,",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The latest discovered state of matter is",
+      "options": [
+        "solid",
+        "Bose-Einstein condensate",
+        "plasma",
+        "liquid"
+      ],
+      "correct": 2,
+      "explanation": "There are four states of matter- solid, liquid, gas and plasma. A plasma can be created by  heating a gas or subjecting it to a strong electromagnetic field applied with a laser or microwave  generator.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "Bernoulli's principle is based on which one among the following laws?",
+      "options": [
+        "Conservation of Mass",
+        "Conservation of Momentum",
+        "Conservation of angular momentum",
+        "Conservation of Energy"
+      ],
+      "correct": 3,
+      "explanation": "Bernoulli's principle is based on the principle of conservation of energy. This states that, in a  steady flow, the sum of all forms of energy in a fluid along a streamline is the same at all points  on that streamline. This requires that the sum of kinetic energy, potential energy and internal  energy remains constant",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The displacement (x)-time 0) graph given above approximately represents the motion of a",
+      "options": [
+        "Simple pendulum placed in a vacuum",
+        "Simple pendulum immersed in water",
+        "Simple pendulum placed in outer space",
+        "Point mass moving in air"
+      ],
+      "correct": 1,
+      "explanation": "When a simple pendulum immersed in water then its oscillations are damped and its wave is  cosine wave.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The current (I)-voltage (V) plot of a certain electronic device is given above. The device is",
+      "options": [
+        "A semiconductor",
+        "A conductor which obeys Ohm\u2018s law",
+        "A superconductor",
+        "An insulator"
+      ],
+      "correct": 0,
+      "explanation": "Ohm's Law is the linear proportionality between current and voltage that occurs for most  conductors of electricity. A graph of voltage against current is straight line.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "The temperature of water at the bottom of a lake whose upper surface has frozen to ice- would be around",
+      "options": [
+        "-10\u00b0C",
+        "0\u00b0C",
+        "4\u00b0C",
+        "- 4\u00b0C"
+      ],
+      "correct": 2,
+      "explanation": "The temperature of water at the bottom of a lake whose upper surface has frozen to ice would  be around 4 degree Celsius.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "If speed of light in air is      m/s, the speed of light in glass (with refractive index 1.5)  would be",
+      "options": [
+        "2 x    108 m/s",
+        "4.5 x 108 m/s",
+        "3 x    m/s",
+        "1.5 x    m/s"
+      ],
+      "correct": 0,
+      "explanation": "Given that            , H=1.5  Then V=                       m/s",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "While looking at an image formed by a convex lens (one half of the lens is covered with a  black paper), which one of the following will happen to the image?",
+      "options": [
+        "Half of the image will be visible",
+        "Intensity of the image will be diminished",
+        "Image will be inverted now"
+      ],
+      "correct": 1,
+      "explanation": "The intensity of the image will be lesser when one half of the lens is covered with a black paper  because the light gathering power of a lens depends upon its diameter. The image formed will  still be of full size     MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  259 | P a g e",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A balloon filled up with gas would only go up in air if it is filled up with",
+      "options": [
+        "a gas whose density is lower than air",
+        "a gas whose density is higher than air"
+      ],
+      "correct": 0,
+      "explanation": "A body floats, if its density is less than fluid i.e. floating medium.",
+      "topicId": "pyq_nda"
+    },
+    {
+      "question": "A myopic person has a power of 1.25 dioptre, what is the local length and nature of his lens?",
+      "options": [
+        "50 cm and convex lens",
+        "80 cm and convex lens",
+        "50 cm and concave lens",
+        "80 cm and concave lens"
+      ],
+      "correct": 1,
+      "explanation": "A prokaryote is a single-celled organism that lacks a membrane-bound nucleus (karyon).  Plant and animal cells are both eukaryotic cells, so they have several features in common, such  as the presence of a cell membrane, mitochondria and endoplasmic reticulum. Chloroplasts are  found in plant cells which is eukaryotic. Ribosomes are found in both prokaryotes and  eukaryotes.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "A piece of ice, 100 g in mass is kept at 0\u00b0C. The amount of heat is requires to melt at 0\u00b0C is  (take latent heat of melting of ice to be 333.6 j/ g)",
+      "options": [
+        "750.6 J",
+        "83.4 J",
+        "33360 J",
+        "3.336 J"
+      ],
+      "correct": 2,
+      "explanation": "Characteristics of mammals: \u2022 They are vertebrates (which means they have a backbone  or spine). \u2022 They regulate their own body temperature which allows them to live in almost every  climate on Earth. \u2022 Have hair on their bodies. \u2022 Produce milk to feed their babies. \u2022 Four  chambered heart: two atria and two ventricles (bird and mammal)",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Which one of the following statements about bar magnet is correct?",
+      "options": [
+        "The pole strength of the north-pole of a bar magnet is larger than that of the south-pole",
+        "When a piece of bar magnet is bisected perpendicular to its axis, the north and South Pole",
+        "When a piece of bar magnet is bisected perpendicular to its axis two new for magnets are",
+        "The poles of a bar magnet are unequal in magnitude and opposite in nature"
+      ],
+      "correct": 1,
+      "explanation": "In human digestive system the process of digestion starts in buccal cavity. The buccal  cavity is more commonly known as the mouth, and it is the beginning of the digestive system for  humans and animals alike. It starts with the lips and ends with the throat, covering the oral  cavity, the tongue, and the jaw in between.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "A person rings a metallic bell near a strong concrete wall. He hears the echo after 0.3 s. if the  sound moves with a speed of 340 m/s, how far is the wall from him?",
+      "options": [
+        "102 m",
+        "11 m",
+        "51 m",
+        "30 m"
+      ],
+      "correct": 1,
+      "explanation": "The TB bacteria are expelled into the air when a person with TB disease of the lungs or  throat coughs, sneezes, speaks, or sings. People nearby may breathe in these bacteria and  become infected.      MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  279 | P a g e",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "The rate of change of momentum of a body equal of the resultant:",
+      "options": [
+        "Energy",
+        "Power",
+        "Force",
+        "Impulse"
+      ],
+      "correct": 1,
+      "explanation": "An axon is also known as a nerve fibre. It is a long, slender projection of a nerve cell, or  neuron that typically conducts electrical impulses away from the neuron's cell body. Each nerve  is a cordlike structure that contains many axons and also called nerve fibre. Within a nerve,  each axon is surrounded by a layer of connective tissue called the endoneurium.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "After hot sunny day, people sprinkle water on the roof-top because:",
+      "options": [
+        "Water has higher boiling point instantly",
+        "Water has lower specific heat capacity",
+        "Water is easily available",
+        "Water has large latent heat of vaporisation"
+      ],
+      "correct": 2,
+      "explanation": "Elephantiasis is a symptom of a variety of diseases, where parts of a person's body swell  to massive proportions. It is caused by a number of parasitic worms, particularly Wuchereria  bancrofti.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "The SI unit of mechanical power is:",
+      "options": [
+        "Joule",
+        "Watt",
+        "Newton-Second",
+        "Joule-Second"
+      ],
+      "correct": 1,
+      "explanation": "Whole milk contains some vitamin A, however levels in semi-skimmed and skimmed milks  are much lower.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Two systems are said to be in thermal equilibrium if and only if:",
+      "options": [
+        "There can be a heat flow between them even if they are at different temperatures",
+        "There cannot be a heat flow between them even if they are at different temperatures",
+        "There is no heat flow between them",
+        "Their temperatures are slightly different"
+      ],
+      "correct": 3,
+      "explanation": "A person with AB blood group can receive blood from any group but cannot donate blood  to any group other than AB. O individual can receive blood only from a group of O individual but  can donate blood to all groups.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Law of definite proportion by weight  D. Joseph  Louis Gay 4. Law of conservation Lussac of mass  Codes:  A  B  C  D",
+      "options": [
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "correct": 1,
+      "explanation": "In human digestive system the process of digestion starts in buccal cavity. The buccal  cavity is more commonly known as the mouth, and it is the beginning of the digestive system for  humans and animals alike. It starts with the lips and ends with the throat, covering the oral  cavity, the tongue, and the jaw in between.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "The atomic theory of matter was first proposed by",
+      "options": [
+        "John Dalton",
+        "Rutherford",
+        "J. J. Thomson",
+        "Niel Bohr"
+      ],
+      "correct": 2,
+      "explanation": "Cell Membrane, Cytoplasm and Nucleus are found in both plant and animal cells.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Which one among the following statements about diastrophism is correct?",
+      "options": [
+        "The forces may be so slow and gradual that they pass unnoticed for a long period of time.",
+        "The forces may be both slow and sudden that they pass for a short period of time.",
+        "The forces may be sudden and so fast that they pass unnoticed for a long period of time.",
+        "The forces may be slow but for a short period of time."
+      ],
+      "correct": 0,
+      "explanation": "Pancreas secrete glucagon hormone, pituitary gland secretes thyroid stimulating  hormone. Adrenal glands secrete cortical hormones and kidney synthesizes or converts  biologically inactive 25-hydroxychole calciferol (vitamin D-3) into biologically active 1, 25  dihydroxychole calciferol (vitamin D-3).",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "A body is falling freely under the action of gravity alone in vacuum. Which one of the  following remains constant during the fall?",
+      "options": [
+        "Potential energy",
+        "Kinetic energy",
+        "Total linear momentum",
+        "Total mechanical energy"
+      ],
+      "correct": 3,
+      "explanation": "If owl population decreases, it will indirectly affect wood lice population. If owl population  will decrease, the population of wood lice increases. Reason is that owl is not present to eat the  wood lice population.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "X-rays are",
+      "options": [
+        "Deflected by an electric field but not by a magnetic field",
+        "Deflected by a magnetic field but not by an electric field",
+        "Deflected by both a magnetic field and an electric field",
+        "Not deflected by an electric field or a magnetic field"
+      ],
+      "correct": 0,
+      "explanation": "Deficiency of calcium causes weakening of bones because bone consists of calcium and  phosphate both.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "The focal length of the lens of a normal human eye is about",
+      "options": [
+        "25 cm",
+        "1 m",
+        "2.5 mm",
+        "2.5 cm"
+      ],
+      "correct": 2,
+      "explanation": "Amnion is a membrane filled with fluid which covers the embryo. The embryos sex may  be determined by ultrasound as early as 11 weeks pregnancy.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "Cold fronts move at slower rate than warm fronts and therefore cannot overtake the warm",
+        "Cold fronts normally move faster than warm fronts and therefore frequently overtake the",
+        "Cold fronts move at slower rate, and eventually they are overtaken by the warm fronts.",
+        "Cold fronts move faster than warm fronts but they cannot overtake the warm fronts."
+      ],
+      "correct": 2,
+      "explanation": "Among the given options, bug possesses only three pairs of legs. All the insects in  phylum Arthropods have three pairs of legs in given option only bug belongs to class-insect.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Which one of the following physical quantities is the same for molecules of all gases at a  given temperature?",
+      "options": [
+        "Speed",
+        "Mass",
+        "Kinetic energy",
+        "Momentum"
+      ],
+      "correct": 1,
+      "explanation": "Transpiration is a process like evaporation. It is the loss of water vapour from different  parts of plants, particularly in leaves but also in stems, flowers and roots.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Newton's laws of motion do not hold good for objects",
+      "options": [
+        "At rest",
+        "Moving slowly",
+        "Moving with high velocity",
+        "Moving with velocity comparable to velocity of light"
+      ],
+      "correct": 1,
+      "explanation": "All enzymes are proteins which catalyze various reactions occurring in cells. Therefore  all enzymes are proteins, but not all proteins are enzymes.      MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  280 | P a g e",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Which one of the following statements is not correct?",
+      "options": [
+        "Weight of a body is different on different planets.",
+        "Mass of a body on the earth, on the moon and in empty space is the same.",
+        "Weightlessness of a body occurs when the gravitational forces acting on it are",
+        "Weight and mass of a body are equal at sea level on the surface of the earth."
+      ],
+      "correct": 0,
+      "explanation": "Archaeopteryx is a genus of dinosaur that is closely related to birds. It demonstrates the  evidence of origin of birds from reptiles.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "The outside rearview mirror of modern automobiles is marked with warning \"objects in mirror  are closer than they appear\". Such mirrors are",
+      "options": [
+        "Plane mirrors",
+        "Concave mirrors with very large focal lengths",
+        "Concave mirrors with very small focal lengths",
+        "Convex mirrors"
+      ],
+      "correct": 2,
+      "explanation": "Vitamin K is a group structurally similar to fat-soluble vitamins that are essential for the  synthesis of certain proteins needed for blood coagulation or clotting. (c) In chemistry, pH  measures the acidity or alkalinity of an aqueous solution. pH is normally measured in a range of  0-14. pH value of some common materials:",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Tungsten is used for the construction of filament in an electric bulb because of its",
+      "options": [
+        "High specific resistance",
+        "Low specific resistance",
+        "High light emitting power",
+        "High melting point"
+      ],
+      "correct": 3,
+      "explanation": "Smoke is a collection of airborne solid and liquid particulates and gases emitted when a  material undergoes combustion or pyrolysis, together with entrapment of liquid droplets or solid  particulates in a flowing gas.    MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  274 | P a g e",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Inactive Nitrogen and Argon gases are usually used in electric bulbs in order to",
+      "options": [
+        "Increase the intensity of light emitted",
+        "Increase the life of the filament",
+        "Make the emitted light coloured",
+        "Make the production of bulb economical"
+      ],
+      "correct": 1,
+      "explanation": "Antibiotics are very effective medicines that treat bacterial infections. They are  ineffective against viral infection as viruses have different genetic makeup as compared to  bacteria.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "In the phenomenon of dispersion of light, the light wave of shortest wavelength is",
+      "options": [
+        "Accelerated and refracted the most",
+        "Slowed down and refracted the most",
+        "Accelerated and refracted the least",
+        "Slowed down and refracted the least"
+      ],
+      "correct": 0,
+      "explanation": "Secretin and cholecystokinin activate pancreas and gall bladder to discharge their  secretions.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "An oscilloscope is an instrument which allows us to see waves produced by",
+      "options": [
+        "Visible light",
+        "X-rays",
+        "Sound",
+        "Gamma rays"
+      ],
+      "correct": 1,
+      "explanation": "Blood group B can provide blood to blood Groups B and AB and gets from Group B and  Group O.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "For a harmonic oscillator, the graph between momentum p and displacement q would come  out as",
+      "options": [
+        "a straight line",
+        "a parabola",
+        "a circle",
+        "an ellipse"
+      ],
+      "correct": 1,
+      "explanation": "If human blood becomes acidic (low pH), The amount of CO2 is increased and O2  carrying capacity of haemoglobin is reduced.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "You are asked to jog in a circular track of radius 35 m. Right one complete round on the  circular track, your displacement and distance covered by you respectively         [2014 - I]",
+      "options": [
+        "zero and 220 m",
+        "220 m and zero",
+        "zero and 110 m",
+        "110 m and 220 m"
+      ],
+      "correct": 0,
+      "explanation": "Displacement = Shortest distance between initial and final point = 0 Distance travelled by  you = 2\u03c0r (Circumference of the circular track)    =2*(22/7)*35 = 70*(22/7) = 220m",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "When an incandescent electric bulb glows",
+      "options": [
+        "The electric energy is completely converted into light",
+        "The electric energy is partly converted into light energy and partly into heat energy",
+        "The light energy is converted into electric energy",
+        "The electric energy is converted into magnetic energy"
+      ],
+      "correct": 1,
+      "explanation": "When current flows through the filament of incandescent electric bulb, it gets heated up. Soon it  becomes white hot and starts emitting light.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "In cricket match, while catching a fast moving ball, a fielder in the ground gradually pulls his  hands backwards with the moving ball to reduce the velocity to zero. The act represents",
+      "options": [
+        "Newton's first law of motion",
+        "Newton's second law of motion",
+        "Newton's third law of motion",
+        "Law of conservation of energy"
+      ],
+      "correct": 1,
+      "explanation": "We know from Newton\u2018s second law of motion            when dt is more      will be less. The  greater the rate of change of momentum, the greater is the force and vice-versa.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Two layers of a cloth of equal thickness provide warmer covering than a single layer of cloth  with double the thickness. Why?                              [2014 - I]",
+      "options": [
+        "Because of the air encapsulated between two layers",
+        "Since effective thickness of two layers is more",
+        "Fabric of the cloth plays the role",
+        "Weaving of the cloth plays the role"
+      ],
+      "correct": 0,
+      "explanation": "Two layers of a cloth are warmer because air trapped between the layers acts as thermal  insulator restricting the heat transfer.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "A mobile phone charger is                                [2014 - I]",
+      "options": [
+        "An inverter",
+        "A UPS",
+        "A step - down transformer",
+        "A step-up transformer"
+      ],
+      "correct": 2,
+      "explanation": "A mobile phone charger is basically a step-down transformer which converts high voltage to  low voltage.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "No matter how far you stand from a mirror, your image appears erect. The mirror is likely to  be                                            [2014 - I]",
+      "options": [
+        "Either plane or convex",
+        "Plane only",
+        "Concave",
+        "Convex only"
+      ],
+      "correct": 0,
+      "explanation": "Image formed by a plane and a convex mirror is always erect. Concave mirror forms image  both erect and inverted depends",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "The position, relative size and nature of the image formed by a concave lens for an object  placed at infinity are respectively                                        [2014 - I]",
+      "options": [
+        "At focus, diminished and virtual",
+        "At focus, diminished and real",
+        "Between focus and optical centre, diminished and virtual",
+        "Between focus and optical centre, magnified and real"
+      ],
+      "correct": 0,
+      "explanation": "MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  268 | P a g e                                                                     From the ray diagram, it is very clear that the image of the object placed at infinity from a  concave lens is virtual diminished and at the focus of the lens. F Concave lens Rays from the  object placed at infinity",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "A liquid is kept in a regular cylindrical vessel up to a certain height. If this vessel is replaced  by another cylindrical vessel having half the area of cross-section of the bottom, the pressure on  the bottom will                                      [2013 -II]",
+      "options": [
+        "remain unaffected",
+        "be reduced to half the earlier",
+        "be increased to twice the earlier",
+        "be reduced to one-fourth the"
+      ],
+      "correct": 0,
+      "explanation": "Pressure exerted by the fluid column depends on height (h), density r and acceleration due to  gravity (g). P = hrg i.e. independent of area of cross-section of the vessel.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "In SONAR, we use                                                 [2013 -II]",
+      "options": [
+        "ultrasonic waves",
+        "infrasonic waves",
+        "radio waves",
+        "audible sound waves"
+      ],
+      "correct": 0,
+      "explanation": "Sonar (sound navigation and ranging) is a technique that uses sound propagation to navigate  (usually under water, as in submarine navigation), communicate with or detect objects on or  under the surface of the water, such as the vessels as ultrasonic waves which is used having  very high frequency > 20,000 Hz. 35. (c)  Resonance is the tendency of a system to oscillate at greater amplitude at some frequencies  than at others.",
+      "topicId": "pyq_cds"
+    },
+    {
+      "question": "Animals active at night are called",
+      "options": [
+        "Diurnal",
+        "Nocturnal",
+        "Parasites",
+        "Nacto-diurnal"
+      ],
+      "correct": 1,
+      "explanation": "Animals active at night are called Nocturnal.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Lines joining places of equal temperature are called",
+      "options": [
+        "Isotherms",
+        "Isohyets",
+        "Isomers",
+        "Isobars"
+      ],
+      "correct": 0,
+      "explanation": "Isotherm is a line on the map connecting points having the same temperature at a given  time.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Sir C.V. Raman was awarded Noble Prize for his work connected with which of the following  phenomenon of radiation?",
+      "options": [
+        "Scattering",
+        "Diffraction",
+        "Interference",
+        "Polarization"
+      ],
+      "correct": 0,
+      "explanation": "Sir C. V. Raman's ground-breaking work in the field of light scattering for which he was  awarded the 1930 Nobel Prizes for physics.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Natural radioactivity was discovered by",
+      "options": [
+        "Marie Curie",
+        "Earnest Rutherford",
+        "Henry Bacquerel",
+        "Enrico Fermi"
+      ],
+      "correct": 2,
+      "explanation": "Henry Becquerel is associated with the discovery of Radioactivity.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Which one of the following is the petroleum wax?",
+      "options": [
+        "Paraffin wax",
+        "Jonoba wax",
+        "Carnauba wax",
+        "Bees wax"
+      ],
+      "correct": 0,
+      "explanation": "Paraffin wax is obtained from petroleum by dewaxing light lubricating oil stocks. It is used  in candles, wax paper, polishes, cosmetics, and electrical insulators. It assists in extracting  perfumes from flowers, forms a base for medical ointments, and supplies a waterproof coating  for wood. In wood and paper matches, it helps to ignite the matchstick by supplying an easily  vaporized hydrocarbon fuel.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Natural radioactivity was discovered by",
+      "options": [
+        "Marie Curie",
+        "Earnest Rutherford",
+        "Henry Bacquerel",
+        "Enrico Fermi"
+      ],
+      "correct": 0,
+      "explanation": "Natural Radio activity was discovered by Henry Becquerel in 1895.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "The branch of science that studies cells is called",
+      "options": [
+        "Cytology",
+        "Entomology",
+        "Homoplastic",
+        "Hormonology"
+      ],
+      "correct": 0,
+      "explanation": "The branch of science that studies cells is called Cytology.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Sir CV Raman was awarded Nobel Prize for his work connected with which of the following  phenomenon of radiation?",
+      "options": [
+        "Scattering",
+        "Diffraction",
+        "Interference",
+        "Polarisation"
+      ],
+      "correct": 0,
+      "explanation": "Sir Chandrasekhara Venkata Raman, was an Indian physicist, whose ground-breaking  work in the field of light scattering earned him the 1930 Nobel Prize for Physics. He discovered  that, when light traverses a transparent material, some of the deflected light changes in  wavelength. This phenomenon is now called Raman scattering and is the result of the Raman  Effect.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Algae often float on surface of water during day but sink during night due to:",
+      "options": [
+        "evolution and trapping of oxygen bubbles during the day in their photosynthesis process",
+        "Becoming light as they consume most of their food in the night",
+        "warming action of sun during the day",
+        "Release of absorbed air by warming of water"
+      ],
+      "correct": 0,
+      "explanation": "The reason of algae float to the surface during the day & sink at night is due to  photosynthesis. In Day time, the algae is producing oxygen. When enough Oxygen is produced  during the day, it gets trapped in bubbles and it can lift the clumps up to the surface. In night,  this oxygen is consumed and CO2 is produced. So algae sinks.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "When body is accelerated:",
+      "options": [
+        "Its velocity never changes",
+        "Its speed will always changes",
+        "Its direction always changes",
+        "Its speed may or may not change"
+      ],
+      "correct": 1,
+      "explanation": "When body is accelerated, then its speed will always change.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Which of the following is not a unit of energy?",
+      "options": [
+        "Calorie",
+        "Joule",
+        "Electron volt",
+        "Watt"
+      ],
+      "correct": 3,
+      "explanation": "The watt is a derived unit of power in the International System of Units, named after the  Scottish engineer James Watt. The unit defined as one joule per second, measures the rate of  energy conversion or transfer.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Which is the longest bone in the human body?",
+      "options": [
+        "Fibula",
+        "Radius",
+        "Stapes",
+        "Femur"
+      ],
+      "correct": 3,
+      "explanation": "The head of the femur articulates with the acetabulum in the pelvic bone forming the hip  joint, while the distal part of the femur articulates with the tibia and patella forming the knee   MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  287 | P a g e                                                                     joint. By most measures the femur is the strongest bone in the body. The femur is also the  longest bone in the body.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "A US team of scientists has found that the mechanism responsible for the ageing process is  located",
+      "options": [
+        "inside the face",
+        "inside the skin",
+        "inside the brain",
+        "inside the heart"
+      ],
+      "correct": 2,
+      "explanation": "The US team of scientists found the mechanism in the hypothalamus- which is located  deep inside the brain and showed that it is responsible for the ageing process. Scientists carried  out a series of experiments to find that they could extend the lives of mice by a fifth, without the  problems such as animals suffering from muscle weakness, bone loss or memory problems  associated with old age.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "The outer most layer of the Sun is known as",
+      "options": [
+        "Corona",
+        "Photosphere",
+        "Chromosphere",
+        "Granule"
+      ],
+      "correct": 1,
+      "explanation": "The visible surface of the Sun, the photosphere, is the layer below which the Sun  becomes opaque to visible light. Above the photosphere visible sunlight is free to propagate into  space, and its energy escapes the Sun entirely.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Indian Institute of Science, Bangalore was founded by                     MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  283 | P a g e",
+      "options": [
+        "CV Raman",
+        "Jamsetji Tata",
+        "Vikram Sarabhai",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "Indian Institute of Science (IISC) is a public university for scientific research and higher  education located in Bengaluru (formerly Bangalore), India. Established in 1899 with active  support from Jamshetji Tata it is also locally known as the \"Tata Institute\". It acquired the status  of a Deemed University in 1958. IISC is widely regarded as India's finest institution in its field,  and has made significant contribution to advanced computing, space, and nuclear technologies.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "The elements which have low value of ionization potential are strong",
+      "options": [
+        "oxidising agents",
+        "reducing agents",
+        "oxidising and Reducing agents depending upon the reactants",
+        "none of these"
+      ],
+      "correct": 1,
+      "explanation": "Elements with a low ionization energy tend to be reducing agents and form cations.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Limonitic ore is the ore of which metal?",
+      "options": [
+        "Iron",
+        "Aluminium",
+        "Zinc",
+        "Cobalt"
+      ],
+      "correct": 0,
+      "explanation": "Limonite is an iron ore consisting of a mixture of hydrated iron(III) oxide-hydroxides in  varying composition.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "_____ is a thyroid hormone which controls the balance of calcium in the body",
+      "options": [
+        "Calcitonin",
+        "Thyroxine",
+        "Calmodulin",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "The thyroid also produces calcitonin, which plays a role in calcium homeostasis.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "The cell wall in plants is interrupted by narrow pores carrying fine strands of cytoplasm  which interlink the contents of the cells. These strands are called: -",
+      "options": [
+        "Plasmohole",
+        "Microvilli",
+        "Plasmodesmata",
+        "Plasmalemma"
+      ],
+      "correct": 2,
+      "explanation": "Plasmodesmata (singular: plasmodesma) are microscopic channels which traverse the  cell walls of plant cells and some algal cells, enabling transport and communication between  them. Plasmodesmata evolved independently in several lineages, and species that have these  structures.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "The transport phenomenon occurs only in ____ state of a gas and is______.",
+      "options": [
+        "non-equilibrium, irreversible",
+        "non-equilibrium, reversible",
+        "equilibrium, irreversible",
+        "equilibrium, reversible"
+      ],
+      "correct": 0,
+      "explanation": "The aim of statistical mechanics is the interpretation and prediction of the observed  macroscopic properties of matter in terms of the mechanical properties of the constituent  molecules and the nature of the interaction among them. It is restricted to the non-equilibrium  statistical mechanics of non-reacting gases that is to the theory of transport phenomena.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Which of the following compounds form nitrites with nitrous acid?",
+      "options": [
+        "Primary amines",
+        "Secondary amines",
+        "Tertiary amines",
+        "All of these"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Haematite ores is the ore of which metal?",
+      "options": [
+        "Iron",
+        "Aluminium",
+        "Zink",
+        "Cobalt"
+      ],
+      "correct": 0,
+      "explanation": "Hematite, also spelled as haematite, is the mineral form of iron oxide, one of several iron  oxides. Hematite crystallizes in the rhombohedral lattice system, and it has the same crystal  structure as ilmenite and corundum.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Vertebrates have two endocrine glands associated with the brain, namely",
+      "options": [
+        "Thyroid, Thymus",
+        "Pituitary, Pancreas",
+        "Pituitary, Pineal",
+        "Pancreas, Pineal"
+      ],
+      "correct": 2,
+      "explanation": "The endocrine system refers to the collection of glands of an organism that secrete  hormones directly into the circulatory system to be carried toward a distant target organ. The  major endocrine glands include the pineal gland, pituitary gland, pancreas, ovaries, testes,  thyroid gland, parathyroid gland, hypothalamus, gastrointestinal tract and adrenal glands.    MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  288 | P a g e",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "The layer common to two adjacent plant cells called Middle Lamella is composed of",
+      "options": [
+        "Calcium Phosphate",
+        "Calcium Sulphate",
+        "Calcium Carbonate",
+        "Calcium Pectate"
+      ],
+      "correct": 3,
+      "explanation": "The middle lamella is a pectin layer which cements the cell walls of two adjoining cells  together. Plants need this to give them stability and so that they can form plasmodesmata  between the cells. It is the first formed layer which is deposited at the time of cytokinesis. The  cell plate that is formed during cell division itself develops into middle lamella or lamellum. The  middle lamella is made up of calcium and magnesium pectates. In plants, the pectins form a  unified and continuous layer between adjacent cells.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "With the increase of the effective nuclear charge, the size of the atom or ion",
+      "options": [
+        "increases",
+        "decreases",
+        "remain the same, since it has no",
+        "it will depend on period to period"
+      ],
+      "correct": 3,
+      "explanation": "The effective nuclear charge is the net positive charge experienced by an electron in a  multi-electron atom. The term \"effective\" is used because the shielding effect of negatively  charged electrons prevents higher orbital electrons from experiencing the full nuclear charge by  the repelling effect of inner-layer electrons. The effective nuclear charge experienced by the  outer shell electron is also called the core charge. It is possible to determine the strength of the  nuclear charge by looking at the oxidation number of the atom.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "On which of the following statements, is the kinetic theory of matter base?",
+      "options": [
+        "Matter is made up of molecules",
+        "Molecules are in rapid motion",
+        "Molecules experience forces of attraction between one another",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explanation": "Molecules experience forces of attraction between one another is the kinetic theory of  matter base.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "When heated with chloroform, secondary amines and tertiary amines",
+      "options": [
+        "gives isocyanides",
+        "gives cyanides",
+        "do not give isocyanides",
+        "Both (a) and (b)"
+      ],
+      "correct": 1,
+      "explanation": "When heated with chloroform, secondary amines and tertiary amines gives Cyanides.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Which one of the following statement regarding the sun is correct?",
+      "options": [
+        "The sun is composed mainly of hydrogen.",
+        "Its energy is generated by nuclear collision in its interior",
+        "It is calculated that the sun consumes about a trillion pounds of hydrogen every second.",
+        "All of the above."
+      ],
+      "correct": 3,
+      "explanation": "All the options are correct regarding the Sun.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Supersonic speed is speed greater than the speed of sound (in air at sea level) that is to say  around______ miles/hour.",
+      "options": [
+        "760",
+        "860",
+        "960",
+        "1060"
+      ],
+      "correct": 0,
+      "explanation": "Supersonic speed is approximately 343.2 m/s, 1,125 ft/s, 768 mph, 667 knots, or 1,235  km/h.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "An aeroplane rises because",
+      "options": [
+        "Of upward reaction of air.",
+        "The density of air above the plane is less than below it.",
+        "the pressure above its wings is less than the pressure below them",
+        "Its nose points upwards."
+      ],
+      "correct": 2,
+      "explanation": "An aeroplane rises because the pressure above its wings is less than the pressure  below them.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "The pioneer of Atomic energy in India is",
+      "options": [
+        "Homi J Bhabha",
+        "Vikram Sarabhai",
+        "C.V. Raman",
+        "C.K. Naidu"
+      ],
+      "correct": 0,
+      "explanation": "Homi J. Bhabha was the eminent scientist who played a key role in the development of  the Indian atomic energy program. He is also considered as the father of India's nuclear  program. He also established the Atomic Energy Commission of India in 1948.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "India tops the world in production of",
+      "options": [
+        "Aluminium",
+        "Copper",
+        "Chromite",
+        "Mica"
+      ],
+      "correct": 3,
+      "explanation": "The British Geological Survey reported that as of 2005, Koderma district in Jharkhand  state in India had the largest deposits of mica in the world.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "DPT vaccine does not give protection to a child from",
+      "options": [
+        "Tetanus",
+        "Polio",
+        "Diphtheria",
+        "Whooping Cough"
+      ],
+      "correct": 1,
+      "explanation": "DPT (also DTP and DTwP) refers to a class of combination vaccines against three  infectious diseases in humans: diphtheria, pertussis (whooping cough), and tetanus.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "What will be the color of a red rose when it is seen through green glass?",
+      "options": [
+        "White",
+        "Black",
+        "Pink",
+        "Brown"
+      ],
+      "correct": 1,
+      "explanation": "Black, because red and green are two primary colours which when mixed together gives  black colour in terms of light and wavelength.",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Which one of the following crops enriches nitrogen content in the soil?",
+      "options": [
+        "Pea",
+        "Sunflower",
+        "Potato",
+        "Wheat"
+      ],
+      "correct": 0,
+      "explanation": "Many legumes (alfalfa, clover, peas, beans, lentils, soybeans, peanuts and others)  contain symbiotic bacteria called Rhizobia within root nodules of their root systems. These  bacteria have the special ability of fixing nitrogen from atmospheric, molecular nitrogen (N2) into  ammonia (NH3).      MCQs                                                                             GENERAL SCIENCE                                                                     MCQs  289 | P a g e",
+      "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Vitamin necessary to prevent prolonged bleeding is",
+      "options": [
+        "Vitamin A",
+        "Vitamin E",
+        "Vitamin D",
+        "Vitamin K"
+      ],
+      "correct": 3,
+      "explanation": "Vitamin K is a group of structurally similar, fat-soluble vitamins that the human body  needs for modification of certain proteins that are required for blood coagulation, and in bone  and other tissue.",
+      "topicId": "pyq_afcat"
     }
   ],
   "english": [
