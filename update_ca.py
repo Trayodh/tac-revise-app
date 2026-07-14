@@ -1,142 +1,134 @@
-import sys
+import os
+import json
+import re
 
-try:
-    with open('ca_data.js', 'r', encoding='utf-8') as f:
-        content = f.read()
+data_js_path = r"C:\Users\Trayodh Khandalkar\.gemini\antigravity-ide\scratch\defence-exams-revision\data.js"
 
-    new_data = '''window.CA_VISITS_DATA = [
-  {
-    visit: "PM Modi\\'s State Visit to Indonesia",
-    period: "July 2026",
-    purpose: "State visit at the invitation of President Prabowo Subianto.",
-    deals: "Reaffirmed the Comprehensive Strategic Partnership. Signed agreements on maritime security, defense (BrahMos and Astra missiles), critical minerals, technology, and food security. PM Modi was conferred with Indonesia\\'s highest honor, the \\'Bintang Adipurna\\'."
-  },
-  {
-    visit: "PM Modi to Australia",
-    period: "July 2026",
-    purpose: "Bilateral meeting with PM Anthony Albanese in Melbourne.",
-    deals: "Focused on strengthening the Comprehensive Strategic Partnership, defense, security, trade, investment, and emerging technologies."
-  },
-  {
-    visit: "PM Modi\\'s State Visit to New Zealand",
-    period: "July 2026",
-    purpose: "State visit at the invitation of PM Christopher Luxon.",
-    deals: "First state visit by an Indian PM to New Zealand in four decades, focusing on enhancing bilateral relations and Indo-Pacific cooperation."
-  },
-  {
-    visit: "Japanese PM Sanae Takaichi to India",
-    period: "July 2026",
-    purpose: "16th India-Japan Annual Summit.",
-    deals: "Focused on defense, security, and the \\'Japan-India Cooperative Biogas for Growth Initiative\\'."
-  },
-  {
-    visit: "PM Modi\\'s State Visit to Seychelles",
-    period: "June 2026",
-    purpose: "State Visit.",
-    deals: "Strengthened maritime security and capacity building in the Indian Ocean region."
-  },
-  {
-    visit: "PM Modi to France and Slovakia",
-    period: "June 2026",
-    purpose: "Bilateral Visits.",
-    deals: "Elevated bilateral relationship with Slovakia to a \\'Comprehensive Partnership\\'. Strengthened strategic ties with France."
-  },
-  {
-    visit: "President of Myanmar to India",
-    period: "May 2026",
-    purpose: "Official Visit.",
-    deals: "Discussions on border security, connectivity projects, and bilateral cooperation."
-  },
-  {
-    visit: "PM Modi to Malaysia",
-    period: "Feb 2026",
-    purpose: "Bilateral Visit.",
-    deals: "Strengthened Comprehensive Strategic Partnership with Prime Minister Anwar Ibrahim."
-  }
-];
+july_data = """    {
+      "id": "jul-1",
+      "topic": "Naval Inductions",
+      "text": "The Indian Navy commissioned **INS Mahendragiri**, the sixth and final ship of the Nilgiri-class (Project 17A) stealth frigates, at the Naval Dockyard in Visakhapatnam.",
+      "details": {
+        "winner": "Indian Navy",
+        "award": "INS Mahendragiri Commissioned",
+        "nationality": "India",
+        "summary": "The vessel was designed by the Navy's Warship Design Bureau and built by Mazagon Dock Shipbuilders Limited (MDL)."
+      },
+      "mcq": {
+        "question": "Which of the following is the final stealth frigate commissioned under Project 17A by the Indian Navy?",
+        "options": [
+          "INS Nilgiri",
+          "INS Himgiri",
+          "INS Mahendragiri",
+          "INS Taragiri"
+        ],
+        "correct": 2,
+        "explanation": "INS Mahendragiri is the final ship of the Project 17A stealth frigates, commissioned in July 2026."
+      }
+    },
+    {
+      "id": "jul-2",
+      "topic": "Defence Procurements",
+      "text": "The Defence Acquisition Council (DAC) granted Acceptance of Necessity (AoN) for proposals worth approximately **₹52,000 crore**, including HAMMER missiles and Man-Portable Anti-Tank Guided Missiles (MP-ATGMs).",
+      "details": {
+        "winner": "Ministry of Defence",
+        "award": "₹52k Cr DAC Approval",
+        "nationality": "India",
+        "summary": "Approvals were granted for HAMMER precision-guided missiles, MP-ATGMs, and Verba air defence systems."
+      },
+      "mcq": {
+        "question": "The Defence Acquisition Council recently approved the procurement of which precision-guided missiles under a ₹52,000 crore deal?",
+        "options": [
+          "BrahMos",
+          "HAMMER",
+          "Astra",
+          "Meteor"
+        ],
+        "correct": 1,
+        "explanation": "The DAC granted AoN for HAMMER precision-guided missiles along with MP-ATGMs and Verba air defence systems."
+      }
+    },
+    {
+      "id": "jul-3",
+      "topic": "Defence Technology",
+      "text": "The Request for Proposal (RFP) for the indigenous **Advanced Medium Combat Aircraft (AMCA)**, a fifth-generation fighter jet, was issued to private-sector-led consortia.",
+      "details": {
+        "winner": "Indian Air Force",
+        "award": "AMCA RFP Issued",
+        "nationality": "India",
+        "summary": "This marks a major step towards developing India's indigenous fifth-generation stealth fighter capabilities."
+      },
+      "mcq": {
+        "question": "India's upcoming indigenous fifth-generation fighter jet program is officially known by which acronym?",
+        "options": [
+          "LCA Tejas",
+          "TEDBF",
+          "AMCA",
+          "MRFA"
+        ],
+        "correct": 2,
+        "explanation": "AMCA stands for Advanced Medium Combat Aircraft, which is India's fifth-generation stealth fighter jet program."
+      }
+    },
+    {
+      "id": "jul-4",
+      "topic": "Joint Exercises",
+      "text": "Indian Army personnel participated in the 23rd edition of the multinational peacekeeping exercise **'Khaan Quest 2026'** held in Mongolia.",
+      "details": {
+        "winner": "Indian Army",
+        "award": "Ex Khaan Quest 2026",
+        "nationality": "Mongolia",
+        "summary": "The exercise focuses on enhancing interoperability and sharing best practices in UN peacekeeping missions."
+      },
+      "mcq": {
+        "question": "In which country was the multinational peacekeeping exercise 'Khaan Quest 2026' held?",
+        "options": [
+          "Kazakhstan",
+          "Mongolia",
+          "Kyrgyzstan",
+          "Tajikistan"
+        ],
+        "correct": 1,
+        "explanation": "Exercise Khaan Quest is a multinational peacekeeping exercise hosted annually in Mongolia."
+      }
+    },
+    {
+      "id": "jul-5",
+      "topic": "Defence Technology",
+      "text": "DRDO successfully flight-tested the upgraded long-range guided version of the **Pinaka** rocket system.",
+      "details": {
+        "winner": "DRDO",
+        "award": "Pinaka Rocket Tested",
+        "nationality": "India",
+        "summary": "The guided Pinaka system provides enhanced precision and extended range for artillery strikes."
+      },
+      "mcq": {
+        "question": "Pinaka, which was recently successfully flight-tested by the DRDO, is a type of what?",
+        "options": [
+          "Air-to-Air Missile",
+          "Multiple Rocket Launcher System",
+          "Torpedo",
+          "Anti-Tank Missile"
+        ],
+        "correct": 1,
+        "explanation": "Pinaka is an indigenous multiple rocket launcher system developed by the DRDO for the Indian Army."
+      }
+    },"""
 
-// =============================================================================
-// SECTION: AWARDS & HONOURS
-// =============================================================================
-window.CA_AWARDS_DATA = [
-  {
-    awardName: "Padma Vibhushan",
-    categoryOfWork: "Art",
-    workName: "Contribution to Indian Cinema",
-    recipient: "Dharmendra Singh Deol (Posthumous)",
-    recipientCountry: "India",
-    givingCountry: "India"
-  },
-  {
-    awardName: "Padma Vibhushan",
-    categoryOfWork: "Public Affairs",
-    workName: "Distinguished Public Service",
-    recipient: "K.T. Thomas",
-    recipientCountry: "India",
-    givingCountry: "India"
-  },
-  {
-    awardName: "Padma Vibhushan",
-    categoryOfWork: "Art",
-    workName: "Contribution to Hindustani Classical Music",
-    recipient: "N. Rajam",
-    recipientCountry: "India",
-    givingCountry: "India"
-  },
-  {
-    awardName: "Padma Vibhushan",
-    categoryOfWork: "Public Affairs",
-    workName: "Distinguished Public Service",
-    recipient: "V.S. Achuthanandan (Posthumous)",
-    recipientCountry: "India",
-    givingCountry: "India"
-  },
-  {
-    awardName: "Bintang Adipurna",
-    categoryOfWork: "Diplomacy and Bilateral Relations",
-    workName: "Strengthening India-Indonesia ties",
-    recipient: "Narendra Modi",
-    recipientCountry: "India",
-    givingCountry: "Indonesia"
-  },
-  {
-    awardName: "UN Military Gender Advocate of the Year",
-    categoryOfWork: "Military Peacekeeping",
-    workName: "Advancing gender equality in UN operations",
-    recipient: "Major Abhilasha Barak",
-    recipientCountry: "India",
-    givingCountry: "United Nations"
-  },
-  {
-    awardName: "Dag Hammarskjöld Medal",
-    categoryOfWork: "Military Peacekeeping",
-    workName: "Supreme sacrifice in UN peacekeeping missions",
-    recipient: "Havildar Sanjay Singh & Constable Sushil Kumar Khadka",
-    recipientCountry: "India",
-    givingCountry: "United Nations"
-  },
-  {
-    awardName: "AIAA Goddard Astronautics Award",
-    categoryOfWork: "Space Exploration",
-    workName: "Chandrayaan-3 Mission",
-    recipient: "ISRO",
-    recipientCountry: "India",
-    givingCountry: "United States (AIAA)"
-  }
-];'''
+with open(data_js_path, 'r', encoding='utf-8') as f:
+    data_content = f.read()
 
-    start_idx = content.find('window.CA_VISITS_DATA = [')
-    end_marker = '];\\n\\n// =============================================================================\\n// SECTION B: TRADE DEALS & FREE TRADE AGREEMENTS (FTAs)'
-    end_idx = content.find(end_marker)
-
-    if start_idx != -1 and end_idx != -1:
-        new_content = content[:start_idx] + new_data + '\\n\\n// =============================================================================\\n// SECTION B: TRADE DEALS & FREE TRADE AGREEMENTS (FTAs)' + content[end_idx + len(end_marker):]
-        with open('ca_data.js', 'w', encoding='utf-8') as f:
-            f.write(new_content)
-        print('Successfully updated ca_data.js')
+# Since `"July 2026": [` is already there, we just prepend our data into the array
+if '  "July 2026": [' in data_content:
+    if '"jul-1"' not in data_content:
+        new_data_content = data_content.replace(
+            '  "July 2026": [',
+            '  "July 2026": [\n' + july_data
+        )
+        with open(data_js_path, 'w', encoding='utf-8') as f:
+            f.write(new_data_content)
+        print("Updated data.js with July 2026 events")
     else:
-        print('Failed to find start or end marker')
-        sys.exit(1)
-except Exception as e:
-    print('Error:', e)
-    sys.exit(1)
+        print("Events already injected!")
+else:
+    print("July 2026 array not found.")

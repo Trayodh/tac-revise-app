@@ -27,7 +27,7 @@
 
 window.CA_META = {
   examCycle: "CDS II 2026",        // UPDATE AFTER EACH EXAM
-  lastRefreshed: "June 2026",      // UPDATE AFTER EACH REFRESH
+  lastRefreshed: "July 2026",      // UPDATE AFTER EACH REFRESH
   coverageFrom: "April 2026",      // Start of current cycle (Apr–Sep cycle)
   coverageTo: "September 2026",    // End of current cycle
   cycleNote: "Exam Cycle: Apr 2026 — Sep 2026 | Covers NDA I, CDS I, AFCAT I 2026",
