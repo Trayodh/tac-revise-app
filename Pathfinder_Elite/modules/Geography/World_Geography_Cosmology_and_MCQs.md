@@ -278,3 +278,28 @@ i. Physical Weathering (or mechanical weathering) (a) It involves rock disintegr
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams
+
+### Earth's Interior Cross-Section
+```mermaid
+pie title Earth's Interior Composition (By Volume)
+    "Mantle (84%)" : 84
+    "Core (15%)" : 15
+    "Crust (1%)" : 1
+```
+```mermaid
+flowchart TD
+    Surface((Earth Surface)) --> Crust[Crust: Solid, Silicates]
+    Crust --> Mantle[Mantle: Viscous, Magma]
+    Mantle --> OuterCore[Outer Core: Liquid Iron/Nickel]
+    OuterCore --> InnerCore[Inner Core: Solid Iron/Nickel]
+    
+    style Surface fill:#000,stroke:#3b82f6
+    style Crust fill:#451a03,stroke:#78350f
+    style Mantle fill:#7f1d1d,stroke:#b91c1c
+    style OuterCore fill:#b45309,stroke:#d97706
+    style InnerCore fill:#fef08a,stroke:#facc15,color:#000
+```

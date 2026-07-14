@@ -1104,3 +1104,34 @@ iii. Tertiary Consumers Organisms that consume secondary consumers. Tertiary con
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams
+
+### Indian River Systems
+```mermaid
+mindmap
+  root((Indian Rivers))
+    Himalayan Rivers
+      Indus System
+        Jhelum
+        Chenab
+        Ravi
+        Beas
+        Sutlej
+      Ganga System
+        Yamuna
+        Ghaghara
+        Kosi
+      Brahmaputra
+    Peninsular Rivers
+      West Flowing
+        Narmada
+        Tapi
+      East Flowing
+        Godavari
+        Krishna
+        Kaveri
+        Mahanadi
+```

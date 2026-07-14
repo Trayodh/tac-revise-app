@@ -180,3 +180,25 @@ Chemical fertilisers can be classified into following types:
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams
+
+### Immune System Response Flowchart
+```mermaid
+flowchart TD
+    Pathogen[Pathogen Enters Body] --> Innate[Innate Immunity <br> Non-specific First Line]
+    
+    Innate --> Physical(Skin, Mucus)
+    Innate --> Physiological(Stomach Acid, Tears)
+    Innate --> Cellular(Macrophages, Neutrophils)
+    
+    Pathogen --> Acquired[Acquired Immunity <br> Specific Response]
+    
+    Acquired --> BCells(B-Lymphocytes)
+    Acquired --> TCells(T-Lymphocytes)
+    
+    BCells --> Antibodies[Produce Antibodies to neutralize pathogen]
+    TCells --> Help(Help B-Cells & destroy infected cells directly)
+```

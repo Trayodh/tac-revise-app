@@ -1240,3 +1240,21 @@ Select the correct answer using the codes given below. (a) Only 1 (b) Only 2 (c)
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams
+
+### National Movement Timeline
+```mermaid
+timeline
+    title Key Events of the Indian National Movement
+    1857 : Revolt of 1857
+    1885 : Formation of INC
+    1905 : Partition of Bengal
+    1919 : Jallianwala Bagh Massacre
+    1920 : Non-Cooperation Movement
+    1930 : Civil Disobedience (Dandi March)
+    1942 : Quit India Movement
+    1947 : Independence
+```

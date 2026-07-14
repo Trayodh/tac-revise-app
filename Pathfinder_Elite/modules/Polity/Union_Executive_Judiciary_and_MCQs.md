@@ -710,3 +710,29 @@ Which of the scheme(s) given above is/are correct? (a) Only 1 (b) Only 2 (c) Bot
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams
+
+### Indian Government Structure
+```mermaid
+flowchart TD
+    Gov((Government of India))
+    
+    Gov --> Leg[Legislature<br>Makes Laws]
+    Gov --> Exec[Executive<br>Implements Laws]
+    Gov --> Jud[Judiciary<br>Interprets Laws]
+    
+    Leg --> Parliament
+    Parliament --> LS[Lok Sabha]
+    Parliament --> RS[Rajya Sabha]
+    
+    Exec --> Pres[President]
+    Pres --> PM[Prime Minister]
+    PM --> COM[Council of Ministers]
+    
+    Jud --> SC[Supreme Court]
+    SC --> HC[High Courts]
+    HC --> Dist[District Courts]
+```

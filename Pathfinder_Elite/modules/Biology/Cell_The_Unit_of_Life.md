@@ -204,3 +204,33 @@ TAXONOMY The classification results in an organised system, which is essential f
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams
+
+### Animal Cell - 3D Scientific Illustration
+<img src="/assets/images/biology_cell_3d.png" alt="3D Animal Cell" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+### Plant vs Animal Cell Comparison
+```mermaid
+flowchart TD
+    Cell((Eukaryotic Cell))
+    Cell --> Plant[Plant Cell]
+    Cell --> Animal[Animal Cell]
+    
+    Plant --> CW(Cell Wall - Present)
+    Plant --> P(Plastids/Chloroplasts - Present)
+    Plant --> V(Vacuole - Large, Central)
+    Plant --> C(Centrioles - Absent)
+    
+    Animal --> CW2(Cell Wall - Absent)
+    Animal --> P2(Plastids - Absent)
+    Animal --> V2(Vacuole - Small or Absent)
+    Animal --> C2(Centrioles - Present)
+    
+    classDef plantFill fill:#166534,stroke:#22c55e,stroke-width:2px,color:#fff;
+    classDef animalFill fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fff;
+    class Plant,CW,P,V,C plantFill;
+    class Animal,CW2,P2,V2,C2 animalFill;
+```

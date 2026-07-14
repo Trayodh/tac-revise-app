@@ -224,3 +224,26 @@ Electric Current • Insulators have infinite resistance and do not allow the pa
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams
+
+### Reflection and Refraction Ray Diagrams
+```mermaid
+graph TD
+    subgraph Reflection
+    A[Incident Ray] -->|Strikes Mirror| B(Point of Incidence)
+    B -->|Bounces Back| C[Reflected Ray]
+    B -.-> D(Normal)
+    style A stroke:#f59e0b,stroke-width:2px
+    style C stroke:#22c55e,stroke-width:2px
+    end
+
+    subgraph Refraction
+    E[Incident Ray in Air] -->|Enters Glass| F(Interface)
+    F -->|Bends Towards Normal| G[Refracted Ray]
+    style E stroke:#f59e0b,stroke-width:2px
+    style G stroke:#3b82f6,stroke-width:2px
+    end
+```

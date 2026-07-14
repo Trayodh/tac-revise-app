@@ -320,3 +320,19 @@ For a constant force F, the Power ( ) F v ⇒P Fv cosθ where v = velocity of ob
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams
+
+### Projectile Motion Trajectory
+```mermaid
+graph LR
+    A[Start: Launch Angle &theta;] --> B(Ascent: v_y decreases)
+    B --> C{Maximum Height H: v_y = 0}
+    C --> D(Descent: v_y increases downwards)
+    D --> E[End: Range R]
+    style A fill:#3b82f6,stroke:#1e40af
+    style C fill:#f59e0b,stroke:#b45309
+    style E fill:#ef4444,stroke:#991b1b
+```
