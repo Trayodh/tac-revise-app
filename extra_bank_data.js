@@ -17056,6 +17056,3678 @@ window.EXTRA_QUESTION_BANK = {
       "correct": 3,
       "explanation": "Vitamin K is a group of structurally similar, fat-soluble vitamins that the human body  needs for modification of certain proteins that are required for blood coagulation, and in bone  and other tissue.",
       "topicId": "pyq_afcat"
+    },
+    {
+      "question": "Which one of the following pairs is not correctly matched? List II (Major Sources) List I (Green House Gases) National Park State",
+      "options": [
+        "Kanha National Park Madhya Pradesh",
+        "Sultanpur National Park : Haryana",
+        "Ranthambhore National Park Gujarat",
+        "Option d"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Proper disposal of hazardous toxic waste is essential as exposure to it can causes serious problems to the health. Which is potentially the safest means of disposing of the most toxic wastes:  organic solvents, chlorinated hydrocarbons and oil-base compounds (including PCBs are dioxins)?",
+      "options": [
+        "Municipal incineration",
+        "Industrial high temperature incineration",
+        "Landfills",
+        "None of the above A. Carbon dioxide"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "bottom dwelling organisms to the surface.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "Only 2",
+        "2 and 3",
+        "Only 3"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "In a wildlife sanctuary, limited biotic interference is permitted.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "2 and 3",
+        "1 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which among the following is the most abundant Green House Gas (GHG) in the Earth\u2019s atmosphere?",
+      "options": [
+        "Carbon dioxide",
+        "Water vapour",
+        "Sulphur dioxide",
+        "Tropospheric ozone Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "What is the primary reason for targeting \u2018biodiversity hotspots\u2019 for conservation?",
+      "options": [
+        "To protect all areas of threatened species would not allow for new species to develop",
+        "Because the hotspots are Earth-biologically richest and most endangered terrestrial eco-regions",
+        "They are areas where people do not live and conservation would therefore not be effecting the economic development of the area",
+        "They are the only areas where species are seriously threatened in the world"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Thermal power project : Degradation of land Which of the pair(s) given above is/are correctly matched?",
+      "options": [
+        "Only 1",
+        "2 and 3",
+        "1 and 2",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "land use such as deforestation.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "1 and 2",
+        "1 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The United Nations Framework Conventions on Climate Change (UNFCCC) is an international treaty drawn at",
+      "options": [
+        "United Nations Conference on the Human Environment, Stockholm,",
+        "UN Conference on Environment and Development, Rio de Janeiro,",
+        "World Summit on Sustainable Development, Johannesburg, 2002",
+        "UN Climate Change Conference Copenhagen, 2009"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following is not a major positive feedback mechanism in which the activity of humans to increase global climate temperature leads to an even further increases?",
+      "options": [
+        "Tropical deforestation causes warming and drying so that remaining forests begin to decline",
+        "Global warming causes snow to melt in polar regions and therefore increases global albedo",
+        "Global warming causes increased rainfall, plant growth and photosynthesis",
+        "Global warming causes increased CO2 release from biomass decomposition"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "It improves the water retention capacity of the soil.  Which of the statements given above are correct?",
+      "options": [
+        "1, 2 and 4",
+        "1 and 4",
+        "1, 3 and 4",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Chinkara (Gazella Bennettii) or Indian Gazelle is found in",
+      "options": [
+        "Rajasthan, North-Western and central parts of India",
+        "North-East",
+        "Northernmost Himalayas",
+        "South India GENERAL STUDIES"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The concept of sustainable development relates to",
+      "options": [
+        "consumption levels",
+        "exhaustible resources",
+        "social equity",
+        "intergenerational equity"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "It influence the micro-climate of the locality in addition to checking of underground salt water intrusion on an adjacent brackish water environment through interface pressure. Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 3",
+        "2 and 3",
+        "Only 1",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Reproductive isolation Select the correct answer using the codes given below.",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "2 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The mass nesting of the Olive Ridley sea turtles in India occurs at",
+      "options": [
+        "Sunderbans",
+        "Gahirmatha marine sanctuary",
+        "Mangalajodi wetlands",
+        "Pulicat lake A. Acid Rain"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following comes under the in-situ approaches of conserving biodiversity in India?",
+      "options": [
+        "Sacred plants",
+        "Botanical gardens",
+        "Seed banks",
+        "Biosphere reserves C. Ozone Depletion"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following is not a part of India\u2019s National Action Plan on Climate Change (NAPCC)?",
+      "options": [
+        "National Mission on Sustainable Habitat",
+        "National Water Mission",
+        "National Mission on Pollution Control",
+        "National Mission for Sustainable Agriculture"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The CERES principles are",
+      "options": [
+        "codes for protection of salmon fisheries",
+        "a set of voluntary environmental standards for businesses",
+        "anti-pollution codes that were adopted at the first Earth Summit in 1992",
+        "designed to eliminate the production of greenhouse gases Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following pairs is correctly matched of an endangered animal and a National Park?",
+      "options": [
+        "Great Indian Bustard : Keoladeo National Park",
+        "Option b",
+        "Option c",
+        "Option d"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Among the following greenhouse gases, the emission of which one of the following is entirely anthropogenic?",
+      "options": [
+        "Chlorofluorocarbons",
+        "Methane",
+        "Nitrous oxide",
+        "Hydrogen sulphide"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Wind erosion is one of the key causes of desertification and occurs when soil is left bare of vegetation. State the major cause of wind erosion in arid and semi-arid lands where this problem is most severe.",
+      "options": [
+        "Cleaning of land for agriculture",
+        "Overgrazing by livestock",
+        "Deforestation",
+        "Forest fires"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Endosulfan, a pesticide which was banned by the Supreme Court of India, is listed under",
+      "options": [
+        "Rotterdam convention",
+        "Stockholm convention",
+        "Bonn convention",
+        "Ramsar convention"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "A high Biological Oxygen Demand (BOD) value in aquatic environment is indicative of",
+      "options": [
+        "a pollution free system",
+        "a highly polluted system due to excess of nutrients",
+        "a highly polluted system due to abundant heterotrophs",
+        "A highly pure water with abundant of autotrophs"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Environmental Kuznets curve",
+      "options": [
+        "a semi-circle curve suggesting increase in per capita income increases the pollution",
+        "a U-shaped curve suggesting the level of development and carbon emission",
+        "suggest a U-shaped relationship between the carbon emission and ozone layer depletion",
+        "suggest a bell-shaped relationship between the concentration of certain pollution emission and per capita real GDP"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Genetic diversity in agricultural crops is threatened by",
+      "options": [
+        "introduction of high yielding varieties",
+        "intensive use of fertilizers",
+        "extensive inter cropping",
+        "intensive use of bio-pesticides"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "It remains in the atmosphere continuously for more than a month.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "1, 3 and 4",
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The 1987 Montreal Protocol was signed for which of the following reasons?",
+      "options": [
+        "To phase out the use of CFC\u2019s, found to be causing depletion of the ozone layer",
+        "To ban nuclear testing in tropical oceans",
+        "Shifting from fossil fuel use to more renewable energy source to reduce the anthropogenic greenhouse effect",
+        "To stop the global trade in products made from endangered tigers"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following wires are correctly matched?",
+      "options": [
+        "human beings are not allowed to enter",
+        "people are an integral part of the system",
+        "plants are paid greater attention than the animals",
+        "living organisms are brought from all over the world and preserved for posterity"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The niche of an animal is best defined as",
+      "options": [
+        "the number of individuals of the species, the environment will support",
+        "the same as its habitat",
+        "all the ways an animal fits into its environment",
+        "the specific part for which organism is best suited Tiger Reserves Locations"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Satkosia : Karnataka Codes",
+      "options": [
+        "1 and 2",
+        "1, 2 and 4",
+        "2, 3 and 4",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Ecosystem diversity Select the correct answer using the codes given below.",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "1 and 4",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "ensuring the welfare of the animals.  Select the correct answer using the codes given below.",
+      "options": [
+        "2 and 3",
+        "1 and 2",
+        "1 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The use of micro-organism metabolism to remove pollutants such as oil spills the water bodies is known as",
+      "options": [
+        "biomagnification",
+        "bioremediation",
+        "biomethanation",
+        "bioreduction"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Access and Benefit Sharing (ABS) Protocol adopted by COP-10 at Nagoya is regarding the fair and equitable sharing of benefits arising from the use of",
+      "options": [
+        "the genetic resources of the Earth",
+        "Exclusive Economic Zones (EEZs)",
+        "marine and coastal areas significant for \u2018eco-tourism\u2019",
+        "technology transfer mechanisms for Clean Energy Development"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Harike (Punjab) Which of the given above wetland(s) of India have been included in the International Ramsar Convention list?",
+      "options": [
+        "Only 2",
+        "1, 2 and 3",
+        "2 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Climate change may have an impact on the following",
+      "options": [
+        "agriculture, natural terrestrial ecosystems and water resources",
+        "air quality, oceans and coastal zones",
+        "energy and human health",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "When nitrogen based fertilizers are used, nitrous oxide is emitted from the cultivated soil.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Wood from Eucalyptus tree is easily converted into pulp for Paper Industry.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Precipitation will be frequent.  Select the correct answer using the codes given below.",
+      "options": [
+        "1, 2 and 4",
+        "1 and 3",
+        "1 and 4",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The \u2018pond bloom\u2019 of blue-green algae which causes the death of fishes and cattles produces the toxin of",
+      "options": [
+        "ammonia",
+        "hydroxylamine",
+        "carbohydrates",
+        "fatty acids"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Hazardous waste is generated mainly by the industrial sector. It not only causes harm to the environment, but also leads to health problems. A small percentage of the hazardous waste is also generated in the house. One of the following is a hazardous waste that is generated in the house. Name it.",
+      "options": [
+        "Paper",
+        "Leftover foodstuff",
+        "Old batteries",
+        "Plastic bags"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "In India, we find mangoes with different flavours, colours, fibre-content, sugar content and even shelf-life. The large variation is on account of",
+      "options": [
+        "species diversity",
+        "induced mutations",
+        "genetic diversity",
+        "hybridisation"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "A balanced ecosystem is one in which the",
+      "options": [
+        "number of organisms at all levels are equals",
+        "amount of energy synthesised and utilised is equal",
+        "amount of biomass at all trophic levels levels is equal",
+        "organisms are interdependent on each other"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Municipal waste is disposed in the open dumps, landfills, sanitary landfills and is also burnt in large furnaces. This method is known as",
+      "options": [
+        "incineration",
+        "blast furnace",
+        "waste furnace",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Eutrophication of lakes is a consequential effect of the accumulation of",
+      "options": [
+        "silt load",
+        "sewage",
+        "nitrates and phosphates",
+        "vegetation A. The Northern most of the Temperate Formations"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Biosphere reserves are connected with the habitat of a particular wild animal.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "1 and 3",
+        "Only 2",
+        "1 and 2",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following pairs of geographical areas show maximum biodiversity in our country?",
+      "options": [
+        "Sunderbans and Rann of Kutch",
+        "Eastern Ghats and Paschim Banga",
+        "Eastern Himalayas and Western Ghat",
+        "Kerala and Punjab"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Convention on World Heritage.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 3",
+        "1 and 4",
+        "1, 2 and 4",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following zones of the atmosphere is rich in ozone gas?",
+      "options": [
+        "Mesosphere",
+        "Troposphere",
+        "Stratosphere",
+        "Ionosphere Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The functioning of an ecosystem involves",
+      "options": [
+        "flow of energy and circulation of nutrients",
+        "an increasing simplicity of relations",
+        "increasing animal populations",
+        "increasing number of trees and bushes etc"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The first research project programme, which focused on the EI Nino-Southern Oscillation and its predictability was called",
+      "options": [
+        "Climate Variability and Predictability",
+        "Global Energy and Water Cycle Experiment (GEWEX)",
+        "Global Change and Terrestrial Ecosystem (GCTE)",
+        "Tropical Ocean and Global Atmosphere (TOGA)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Mangroves are salt-tolerant forest ecosystems. Name the largest mangrove forests in the world that constitute 7% of the world's mangroves, house a variety of wildlife sanctuaries and are also a potential site to harness tidal energy.",
+      "options": [
+        "The Sunderbans in Paschim Banga",
+        "Musser forests in Eucador",
+        "The Mekong Delta in Vietnam",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The term used for the conservation of ecosystems and natural habitats and the maintenance and recovery of viable populations of species in their natural surroundings is",
+      "options": [
+        "core conservation",
+        "in-situ conservation",
+        "ex-situ conservation",
+        "peripheral conservation"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "In which of the following the maximum plant diversity is found?",
+      "options": [
+        "Tropical evergreen forests",
+        "Tropical moist deciduous forests",
+        "Sub-tropical mountain forests",
+        "Temperate moist forests"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following is not one of the major environment problems resulting from human interference in the nitrogen cycle?",
+      "options": [
+        "Eutrophication",
+        "Nitrous oxide release increases global warming",
+        "Increased acid rain",
+        "Stratospheric ozone depletion"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "",
+      "options": [
+        "Sulphur dioxide",
+        "Methane",
+        "Ammonia",
+        "Nitrous oxide"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Depletion of dissolved oxygen.  Which of the above is/are observed in a lake after its eutrophication?",
+      "options": [
+        "Only 1",
+        "1 and 2",
+        "Only 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Atmospheric ozone layer, which protect us from UV-B and C is getting depleted most by addition of",
+      "options": [
+        "chlorofluorocarbon",
+        "carbon monoxide",
+        "carbon dioxide",
+        "sulphur dioxide A.\n\nManas"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following terms describes not only the physical space occupied by an organism, but also its functional role in the community of organisms?",
+      "options": [
+        "Ecotone",
+        "Ecological niche",
+        "Habitat",
+        "Home range Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Kanha National Park belongs to which one among the following bio-geographical areas in the world?",
+      "options": [
+        "Tropical Sub-humid forests",
+        "Tropical Humid forests",
+        "Tropical Dry forests",
+        "Tropical Moist forests"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following statement(s) on biosphere reserves is not correct?",
+      "options": [
+        "In 1973, UNESCO launched a worldwide programme on man and biosphere",
+        "Biosphere reserves promote research on ecological conservation",
+        "Nanda Devi Biosphere Reserve is located in Madhya Pradesh",
+        "Biosphere reserves are multipurpose protected areas to preserve the genetic diversity in ecosystems"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Chlorofluorocarbons are serious threat to the ozone layer.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Initially it was named as \u2018Hailey National Park\u2019.  Which of the statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 3",
+        "All of the above Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following is the correct sequence of the given tiger reserves of India from North to South?",
+      "options": [
+        "Dudwa-Kanha-Indravati-Bandipur",
+        "Kanha-Bandipur-Dudwa-Indravati",
+        "Indravati-Kanha-Dudwa-Bandipur",
+        "Dudwa-Kanha-Bandipur-Indravati QUESTIONS FROM CDS EXAM (2012-2016) 2012 (I)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Over 90% of the world\u2019s biomass is in",
+      "options": [
+        "tropical rain forests",
+        "freshwater wetlands",
+        "topsoils",
+        "oceans"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Carbon dioxide is called a greenhouse gas because",
+      "options": [
+        "its concentration remains always higher than other gases",
+        "it is used in photosynthesis",
+        "it absorbs infrared radiation",
+        "it emits visible radiation List I (Tiger Reserves) List II (States) A. Indravati"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Ozone layer has no significance for life on the Earth.  Which of the statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 3",
+        "3 and 4"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "What is the major role of a greenhouse gas that contributes to temperature rise of the Earth\u2019s surface?",
+      "options": [
+        "Transparent to both incoming sunlight and outgoing infrared radiation",
+        "Stops both incoming sunlight and outgoing infrared radiation",
+        "Lets outgoing infrared radiation pass through but stops incoming sunlight",
+        "Lets incoming sunlight pass through but stops outgoing infrared radiation"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one among the following statements is not correct?",
+      "options": [
+        "Trophic dynamics represents the transfer of energy from one trophic level to another in a food chain",
+        "In deeper parts of oceans, primary production remains almost nil",
+        "The primary consumers are called autotrophs",
+        "The decomposes are called saprotrophs Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one among the following is a source of methane emission into the atmosphere?",
+      "options": [
+        "Automobile exhaust fume",
+        "Industrial chimney",
+        "Mining",
+        "Wetland GENERAL STUDIES 2013 (I) Select the correct answer using the codes given below."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "In wildlife conservation which one among the following best defines an \u2018endemic species\u2019?",
+      "options": [
+        "When the critical number of a species declines in a forest due to parasitic attack",
+        "A species which is cosmopolitan and can be commonly found in biosphere",
+        "An endangered species which is found in a few restricted areas on the Earth",
+        "A species confined to a particular region and not found anywhere else"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The vegetation type characterised by (i) a large expanse of grassland with scattered trees and shrubs, (ii) lying between tropical rain forest and tropical steppes and deserts and (iii) flat-topped trees, is called",
+      "options": [
+        "mid-latitude broad-leaf mixed forest",
+        "temperate rain forest",
+        "tropical savanna",
+        "mid-latitude grassland 2012 (II)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Recycling leads to reduction of waste disposal cost.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "1 and 2",
+        "2 and 3",
+        "1 and 3"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Biodiversity is richer in",
+      "options": [
+        "tropical regions",
+        "polar regions",
+        "temperate regions",
+        "oceans List II (States) List I (Biosphere Reserves) 2014 (II) A. Nilgiri"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Oxides of carbon Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "Only 2",
+        "All of these 2013 (II)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Coriolis force is zero at the Equator.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "1 and 2",
+        "2 and 3",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one among the following is responsible for formation of \u2018Ozone Holes\u2019 in the stratosphere?",
+      "options": [
+        "Benzopyrene",
+        "Hydrocarbons",
+        "Chloro fluoro carbons",
+        "UV radiation 2015 (I)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Match the following Codes A B C D A B C D",
+      "options": [
+        "3 2",
+        "1 4 2 3",
+        "3 4",
+        "1 2 4 3"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The variability among living organisms from all sources including terrestrial, marine and other ecosystems and the ecological complexes of which they are part which includes diversity within species, between species of ecosystems refers to",
+      "options": [
+        "geographical diversity",
+        "zoological diversity",
+        "ecological diversity",
+        "biological diversity List I (Types of Grass) List II (Countries) A. Llanos"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Ozone holes are more pronounced at the",
+      "options": [
+        "Equator",
+        "Tropic of Cancer",
+        "Tropic of Capricorn",
+        "Poles"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Kanha Which one among the following is the correct sequence of location of the above sanctuaries from South to North?",
+      "options": [
+        "1, 4, 2, 3",
+        "4, 1, 3, 2",
+        "1, 4, 3, 2",
+        "3, 1, 4, 2 2014 (I) Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Ozone layer of the Earth\u2019s atmosphere is important for living organisms because it",
+      "options": [
+        "prevents entry of ultra-violet rays",
+        "prevents entry of X-rays",
+        "maintains level of oxygen on the Earth",
+        "prevents acid rain on the Earth"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The variability among living organisms from all sources including terrestrial, marine and other ecosystems and the ecological complexes of which they are part which includes diversity within species, between species of ecosystems refers to",
+      "options": [
+        "geographical diversity",
+        "zoological diversity",
+        "ecological diversity",
+        "biological diversity"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The most dramatic regional LPI decrease occurred in Africa. Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2 2015 (II)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Match the following List I (Lakes) List II (Types) Codes A B C D A B C D",
+      "options": [
+        "4 1",
+        "4 2 1 3",
+        "3 2",
+        "3 1 2 4"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "\u2018Rio + 20\u2019 is the short name for",
+      "options": [
+        "Millennium Development Goals",
+        "United Nations Conference on Sustainable Development",
+        "Earth Summit",
+        "Post-2015 Development Agenda A. Ashtamudi Kayal"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Artificial (Sweet water) 2016 (I) Codes A B C D A B C D",
+      "options": [
+        "2 1",
+        "4 1 3 2",
+        "4 3",
+        "2 3 1 4"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Codes A B C D A B C D",
+      "options": [
+        "2 4",
+        "2 1 4 3",
+        "3 1",
+        "3 4 1 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Mahatma Gandhi National Marine Park is located in",
+      "options": [
+        "Pirotan Island",
+        "Rameswaram",
+        "Ganga Sagar Island",
+        "Port Blair ANSWERS Practice Exercise Questions from CDS Exam (2012-16)\n\n\n</div>"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following lakes was formed when the marine transgression had taken place forming a lagoon, but at present is almost a fresh water lake?",
+      "options": [
+        "Pulicate",
+        "Sambhar",
+        "Kolleru",
+        "Vembanad"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Winter rain in : North-East Monsoon Tamil Nadu coast Codes",
+      "options": [
+        "1 and 2",
+        "1, 3 and 4",
+        "3 and 4",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Palk Bay lies between",
+      "options": [
+        "Gulf of Kutch and Gulf of Khambhat",
+        "Gulf of Mannar and Bay of Bengal",
+        "Lakshadweep and Maldive Islands",
+        "Andaman and Nicobar Islands"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Amritsar and Shimla are almost on the same latitude, but their climate difference is due to",
+      "options": [
+        "the difference in their altitudes",
+        "their distance from sea",
+        "snowfall in Shimla",
+        "pollution in Amritsar"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Kosi is known as the \u2018Sorrow of Bihar\u2019.  Which of the statements given above are correct?",
+      "options": [
+        "1, 2 and 3",
+        "1, 2 and 4",
+        "1, 3 and 4",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "At which one of the following places two important rivers of India originate, while one of them flows towards North and merges with another important river flowing towards Bay of Bengal, the one flows towards Arabian sea?",
+      "options": [
+        "Amarkantak",
+        "Badrinath",
+        "Mahabaleshwar",
+        "Nasik"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following is not a causative factor with respect to poor coverage of forest area in Jammu and Kashmir?",
+      "options": [
+        "Low amount of rainfall",
+        "Large area under cultivation",
+        "Steep barren slopes",
+        "Snow covered peaks"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Western Himalayas rise gradually in a series of ranges whereas Eastern Himalayas rises abruptly.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The irregularity in the amount of rainfall in different parts of the North Indian plains is mainly due to",
+      "options": [
+        "irregularity intensity of low pressure in the North-Western parts of India",
+        "variation in the location of the axis of low pressure trough",
+        "difference in frequency of cyclones",
+        "variation in the amount of moisture"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which among the following rock system in India is also known as storehouse of minerals?",
+      "options": [
+        "Archean rock system",
+        "Dharwar system",
+        "The Cudappah system",
+        "The Vindhyan system"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following regions has the potential for harnessing of tidal energy in India?",
+      "options": [
+        "Gulf of Cambay",
+        "Gulf of Mannar",
+        "Backwaters of Kerala",
+        "Chilka Lake"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "With reference to the river Luni, which one of the following statements is correct?",
+      "options": [
+        "It flows into Gulf of Khambhat",
+        "It flows into Gulf of Kutch",
+        "It flows into Pakistan and merges with a tributary of Indus",
+        "It is lost in the marshy land of the Rann of Kutch"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Penganga The correct sequence of these rivers when arranged in the North-South direction is",
+      "options": [
+        "1, 2, 3, 4",
+        "2, 1, 3, 4",
+        "2, 1, 4, 3",
+        "1, 2, 4, 3"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following is the main stream of the Avadh Plains and its course has been shifting considerably suggesting that it is an aggrading river?",
+      "options": [
+        "Kosi",
+        "Ghaghara",
+        "Gandak",
+        "Chambal"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Identify the incorrect statement about the Karnataka Plateau.",
+      "options": [
+        "It has an average elevation of 600-900 m",
+        "It is composed of volcanic lava flow of Deccan trap in its Northern part",
+        "It has two distinct physiographic features Malnad and Maidan",
+        "The highest peak is Kalsubai"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following is not correct with respect to Chilka lake?",
+      "options": [
+        "It is the largest brackish water lagoon of Asia",
+        "It experiences seasonal fluctuations of water level",
+        "It is situated South of the Mahanadi Delta",
+        "It is situated North of the Mahanadi Delta GENERAL STUDIES Which of the statements given above are correct?"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The agglomeration of saline depressions on the Western side of the Araval is are generally known as",
+      "options": [
+        "Bagar",
+        "Dhrians",
+        "Kallar",
+        "Rann"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which prominent geomorphic feature separates Shivaliks from the Middle Himalayan Range?",
+      "options": [
+        "Fault basins",
+        "Lacustrine basins",
+        "Glacial valleys",
+        "Terai and Bhabar regions"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Amindivi and Cannanore islands are separated from Minicoy island by",
+      "options": [
+        "10\u00b0 channel",
+        "9\u00b0 channel",
+        "8\u00b0 channel",
+        "Duncan passage"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The sand dunes have formed a large number of shallow lagoons along the Malabar coast, these lagoons are generally known as",
+      "options": [
+        "Nads",
+        "Kari",
+        "Theris",
+        "Kayals"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Vindhya range acts as a watershed between the Ganga system and the river systems of South India.  Which of the statements given above are correct?",
+      "options": [
+        "1, 2 and 3",
+        "1 and 4",
+        "2, 3 and 4",
+        "3 and 4"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following is not true about Rajasthan Bagar?",
+      "options": [
+        "It drained by the river Luni",
+        "It has thin blanket of sand",
+        "It has salt lakes",
+        "It has longitudinal and crescent shaped sand dunes"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following physiographic units has been created by both exogenic and endogenic forces?",
+      "options": [
+        "The Peninsular plateau",
+        "The Thar desert",
+        "The Indo-Gangetic plain",
+        "The Himalayas"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Eastern ghats act as a water divide.  Which of the following is/are the difference between Eastern and Western Ghats?",
+      "options": [
+        "Only 1",
+        "1 and 2",
+        "2 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "What is the most important geographic use of the Himalayas to India?",
+      "options": [
+        "Prevention of invasions",
+        "Valuable source of timber",
+        "They prevent the monsoons from crossing to the North and also serve as a reservoir of water from which our perennial rivers flow",
+        "They protect India from the icy cold North winds"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following statements is correct in respect of India, geographical position?",
+      "options": [
+        "Lies between the latitudes of 8\u00b0 and 37\u00b0N",
+        "Lies between the longitudes of 68\u00b0 and 92\u00b0E",
+        "Lies in the North of Equator",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Nathu La and Jelep La : Sikkim Codes",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "1, 3 and 4"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following statements is incorrect?",
+      "options": [
+        "Ghaggar\u2019s water is utilised in the Indira Gandhi canal",
+        "Narmada rises from Amarkantak region",
+        "Nizam Sagar is situated on the Manjra river",
+        "Penganga is a tributary of the Godavari"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following phenomenon happens when the Sun shines vertically over the Tropic of Capricorn in the Southern hemisphere?",
+      "options": [
+        "High pressure develops over North-Western India due to low temperatures",
+        "Low pressure develops over North-Western India due to high temperatures",
+        "No changes in temperature and pressure occur in North-Western India",
+        "\u2018Loo\u2019 blows in the North-Western India"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Amarkantak hill is the source of two rivers flowing in two different directions (West and East). They are",
+      "options": [
+        "Narmada and Tapti",
+        "Narmada and Son",
+        "Tapti and Betwa",
+        "Tapti and Son"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following is the highest peak of the Zanskar range?",
+      "options": [
+        "Kamet",
+        "Dhaulagiri",
+        "Kanchenjunga",
+        "K2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The proportion of drought prone areas to the total area in India is 30%.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following statement is incorrect?",
+      "options": [
+        "Godavari forms the largest river system of Peninsular region",
+        "Narmada river forms Marble falls",
+        "Cardamom hills is a branch of Annamalai hills",
+        "Karnataka has the largest teak forest in India"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following East flowing rivers of India has Rift valley due to down warping?",
+      "options": [
+        "Damodar",
+        "Mahanadi",
+        "Son",
+        "Yamuna"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Thar desert is dominantly a monsoon driven sand desert where wind erosion is a major problem during the summer months. While the Aravalli range is a major barrier in the spread of the desert, rampant mining creating cuts in the range is leading to the spread of the desert.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Brahmaputra, Irrawady and Mekong rivers originate in Tibet and flow through narrow and parallel mountain ranges in their upper reaches. Of these rivers, Brahmaputra makes a \u2018U\u2019 turn in its course to flow into India. This \u2018U\u2019 turn is due to",
+      "options": [
+        "Uplift of folded Himalayan series",
+        "Syntaxial bending of geologically young Himalayas",
+        "Geo-tectonic disturbance in the tertiary folded mountain chains",
+        "Both \u2018a\u2019 and \u2018b\u2019"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Bari doab is between Beas and Sutlej.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Periyar Select the correct answer using the codes given below.",
+      "options": [
+        "Only 2",
+        "2 and 4",
+        "2, 3 and 4",
+        "2, 4 and 5"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Peninsular block of India is an earthquake-free zone.  Which of the statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "2 and 4",
+        "1, 2 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following characteristics is not relevant to Ganga river?",
+      "options": [
+        "It is a braided river with numerous channels",
+        "It has multiple inter-twined sand-bars",
+        "It has extensive gully erosion",
+        "Deposits enormous sediments annually into the Bay of Bengal"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Black soil has as low moisture holding capacity.  Which of the statements given above are correct?",
+      "options": [
+        "1, 2 and 3",
+        "1, 3 and 4",
+        "2, 3 and 4",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "They do not form gorges.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "1, 2 and 3",
+        "3 and 4",
+        "2 and 4"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Identify the correct decreasing order of river basins area in India.",
+      "options": [
+        "Ganga, Brahmaputra, Indus, Godavari",
+        "Ganga, Indus, Brahmaputra, Krishna",
+        "Ganga, Brahmaputra, Godavari, Indus",
+        "Ganga, Indus, Godavari, Krishna"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Cultivation of cash crops is predominant over food crops.  Which one of the following state has all of the above characteristics?",
+      "options": [
+        "Andhra Pradesh",
+        "Gujarat",
+        "Karnataka",
+        "Tamil Nadu"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following is not correct with regard to the coastal plains of India?",
+      "options": [
+        "The West coast has a narrow alluvial margin interspersed by hilly terrain",
+        "The Eastern coast has a wide plain with well developed Deltas of the major rivers",
+        "Option c",
+        "Option d"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following is the correct sequence of the given Indian cities in the decreasing order of their normal annual rainfall?",
+      "options": [
+        "Kochi, Kolkata, Delhi, Patna",
+        "Kolkata, Kochi, Patna, Delhi",
+        "Kochi, Kolkata, Patna, Delhi",
+        "Kolkata, Kochi, Delhi, Patna"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Identify the correct decreasing order of annual yield of water in the river systems in India.",
+      "options": [
+        "Brahmaputra, Ganga, Godavari, Indus",
+        "Brahmaputra, Indus, Ganga, Godavari",
+        "Ganga, Brahmaputra, Godavari, Indus",
+        "Ganga, Brahmaputra, Indus, Godavari GENERAL STUDIES"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Irrigation",
+      "options": [
+        "surface and",
+        "ground.",
+        "Option c",
+        "Option d"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Rural electrification.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "2, 3 and 4",
+        "1, 2 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Northern section of the Western Ghat is made of horizontal sheets of lava.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Lonar lake Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 3",
+        "1 and 2",
+        "3 and 4",
+        "1, 3 and 4 A. B.\n\nC."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The annual productivity of the forests is 3.5 cubic metres per hectare.  Which of the statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "1, 2 and 3",
+        "3 and 4",
+        "All of these D."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The first marine sanctuary in India, within its bounds coral reefs, mollusca, dolphins, tortoises and various kinds of sea birds has been established in",
+      "options": [
+        "Sundarbans",
+        "Chilka lake",
+        "Gulf of Kutch",
+        "Lakshadweep"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The typical area of \u2018Sal\u2019 forest in the India",
+      "options": [
+        "on the Western ghats",
+        "between the Tapti and the Narmada",
+        "to North-East of the Godavari",
+        "on the Malwa plateau"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "In the figure given below of natural vegetation, the Tropical Deciduous Forest is represented by",
+      "options": [
+        "A - Sariska, B - Dudwa, C - Kaziranga, D - Bandipur",
+        "A - Kanha, B - Jim Corbett, C - Manas, D - Bandipur",
+        "A - Kanha, B - Dudwa, C - Manas, D - Bandipur",
+        "A - Sariska, B - Jim Corbett, C - Kaziranga, D - Bandipur B C"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following factors is responsible for excessive soil erosion in Chotanagpur plateau?",
+      "options": [
+        "Heavy rain throughout the year",
+        "Loose sandy soil",
+        "Deep ploughing by tractors",
+        "Large scale felling of trees"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Ganga Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 3",
+        "3 and 4",
+        "2 and 4",
+        "1, 3 and 4"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Kanha National Park belongs to which one among the following biogeographical areas in the world?",
+      "options": [
+        "Tropical Sub-humid forests",
+        "Tropical Humid forests",
+        "Tropical Dry forests",
+        "Tropical Moist forests"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Tapioca and cashewnuts grow well on this soil.  Select the correct answer using the codes given below.",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "1 and 4",
+        "2 and 3"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one among the following rivers does not flow into the Bay of Bengal?",
+      "options": [
+        "Mahanadi",
+        "Kaveri",
+        "Tapti",
+        "Godavari"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The alpine vegetation in the Western Himalayas is found only up to a height of 3000 m while in the Eastern Himalayas it is found up to a height of 4000 m. The reason for this variation in the same mountain range is that",
+      "options": [
+        "Eastern Himalayas are higher than Western Himalayas",
+        "Eastern Himalayas are nearer to the equator and sea coast than Western Himalayas",
+        "Eastern Himalayas get more monsoon rainfall than the Western Himalayas",
+        "Eastern Himalayas rocks are more fertile than the Western Himalayan rocks"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "\u2018El-Nino\u2019 associated with the formation of the South-West Monsoon of India is",
+      "options": [
+        "an abnormally warm ocean current",
+        "a periodic warm air-mass",
+        "a periodic warm wind",
+        "a periodic low pressure centre"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The mining industry since colonial days has been export-oriented. Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following places with petro-chemical industries is most westward located in India?",
+      "options": [
+        "Kota",
+        "Nagpur",
+        "Barauni",
+        "Ujjain"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one among the following cities never get the vertical rays of the Sun all through the year?",
+      "options": [
+        "Chennai",
+        "Mumbai",
+        "Kolkata",
+        "Srinagar"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The rainfall distribution pattern over the Ganga basin decreases from the",
+      "options": [
+        "West to East and North to South",
+        "East to West and North to South",
+        "West to East and South to North",
+        "East to West and South to North"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "What is the characteristic feature of Narmada Valley?",
+      "options": [
+        "Volcanic origin",
+        "Structural origin",
+        "Glacial origin",
+        "Aeolian origin"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Vindhyan system of rocks is important for the production of",
+      "options": [
+        "precious stones and building materials",
+        "iron ore and manganese",
+        "bauxite and mica",
+        "copper and uranium"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following is the correct sequence of the given tiger reserves of India from North to South?",
+      "options": [
+        "Dudwa, Kanha, Indravati, Bandipur",
+        "Kanha, Bandipur, Dudwa, Indravati",
+        "Indravati, Kanha, Dudwa, Bandipur",
+        "Dudwa, Kanha, Bandipur, Indravati"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "They are porous and have friable structure.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "1 and 3",
+        "2 and 3",
+        "All of these List II (Places) List I (Biosphere Reserve) A. Manas"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "According to the Census 2011, which one among the following Union Territories has the least population?",
+      "options": [
+        "Daman and Diu",
+        "Dadra and Nagar Haveli",
+        "Lakshadweep",
+        "Puducherry Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Haldia Codes",
+      "options": [
+        "1, 2, 3, 4",
+        "1, 3, 4, 2",
+        "3, 1, 2, 4",
+        "2, 4, 3, 1 A. Tropical evergreen forests"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Thar desert is dominantly a monsoon driven sand desert where wind erosion is a major problem during the summer months. While the Aravalli range is a major barrier in the spread of the desert, rampant mining creating cuts in the range is leading to the spread of the desert.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2 B. Tropical deciduous forests"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "During the Indian monsoon season",
+      "options": [
+        "the Westerly jet stream alone exists in the Indian region",
+        "the Easterly jet stream alone exists in the Indian region",
+        "both Westerly and Easterly jet streams exist in the Indian region",
+        "both Westerly and Easterly jet streams disappear"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Black soil contains adequate nitrogen as well as phosphorus required for the growth of plants.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2 Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following three rivers of the peninsula India have the Amarkantak region as their source?",
+      "options": [
+        "Narmada, Krishna, Godavari",
+        "Son, Mahanadi, Narmada",
+        "Godavari, Krishna, Kaveri",
+        "Chambal, Betwa, Luni"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which among the following states of India have common borders with Pakistan?",
+      "options": [
+        "Jammu and Kashmir, Himachal Pradesh, Punjab and Rajasthan",
+        "Punjab, Jammu and Kashmir, Rajasthan and Gujarat",
+        "Jammu and Kashmir, Punjab, Haryana and Rajasthan",
+        "Punjab, Himachal Pradesh, Gujarat and Rajasthan"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following projects of the NHPC (National Hydroelectric Power Corporation) has the largest power generation capacity (installed)?",
+      "options": [
+        "Baira-Siul",
+        "Chamera-I",
+        "Loktak",
+        "Salal"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The plains are narrower in the North and wider in the South.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following does not have a heavy water plant?",
+      "options": [
+        "Narora",
+        "Sriharikota",
+        "Kakrapar",
+        "Kota"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Banihal Arrange the above place from North to South using the codes given below.",
+      "options": [
+        "1, 2, 3, 4",
+        "4, 3, 2, 1",
+        "2, 3, 1, 4",
+        "2, 1, 3, 4 Situated at the height of 10000 feet, which is enchanted with scenic beauty, the district is surrounded by two nations in the North and South-West. River Nyamjang-chu runs through it. Potato, maize and millet are the main crops of the district. Besides monasteries, tourist attractions of the district and its surrounding places include Sella Pass, PTSO, War memorial, Jaswant Garh etc.\n\nLosar is one of the prominent festivals of the district."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Tertiary coal is mainly confined to the Peninsular India.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "2 and 3",
+        "1 and 2",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following is the longest river in India?",
+      "options": [
+        "Ganga",
+        "Brahmaputra",
+        "Yamuna",
+        "Godavari"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following rivers forms an estuary?",
+      "options": [
+        "Narmada",
+        "Kavery",
+        "Krishna",
+        "Mahanadi"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following statements on biosphere reserves is not correct?",
+      "options": [
+        "In 1973, UNESCO launched a worldwide programme on man and biosphere",
+        "Biosphere reserves promote research on ecological conservation",
+        "Nanda Devi Biosphere Reserve is located in Madhya Pradesh",
+        "Biosphere reserves are multipurpose protected areas to preserve the genetic diversity in ecosystems"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following is not known for copper production in India?",
+      "options": [
+        "Balaghat",
+        "Jhunjhunu",
+        "Singhbhum",
+        "Katni"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which is the correct arrangement of the following rivers from North to South?",
+      "options": [
+        "Godavari, Penner, Kaveri, Periyar",
+        "Penner, Godavari, Periyar, Kaveri",
+        "Godavari, Kaveri, Penner, Periyar",
+        "Kaveri, Godavari, Periyar, Penner"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following statements is not correct regarding the Himalayas?",
+      "options": [
+        "Himalayas have nappe and recumbent folds",
+        "Himalayas rose up from the Tethys Sea",
+        "Himalayas contain three mountain ranges\u2013 Sivaliks, Great Himalayas and Kunlun Ranges",
+        "The orogeny took place in the Tertiary Era"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Kerala\u2019s monazit sands contain uranium.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Karewas are terraces of glacial origin found in",
+      "options": [
+        "Teesta valley",
+        "Ravi valley",
+        "Jhelum valley",
+        "Alaknanda valley"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "In South India, rainfall decreases away from the Eastern Ghats.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following is not associated with monsoon climate in India?",
+      "options": [
+        "El-Nino temporary warm currents",
+        "South-equatorial warm currents of Indian Ocean",
+        "Western disturbances",
+        "Cyclones of Bay of Bengal"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which type of soil retains maximum amount of water?",
+      "options": [
+        "Loam",
+        "Sandy",
+        "Clay",
+        "Red"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following places is not located on the bank of river Ganga?",
+      "options": [
+        "Uttarkashi",
+        "Kanpur",
+        "Fatehpur",
+        "Bhagalpur"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Deltas are common in India for the East-flowing river systems, whereas they are nearly absent on the West coast, because West-flowing rivers",
+      "options": [
+        "are few",
+        "have lesser water volume and carry less run-off silt",
+        "Option c",
+        "Option d"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The East Central Railway zone headquarters is located at",
+      "options": [
+        "Patna",
+        "Hajipur",
+        "Muzaffarpur",
+        "Katihar Select the correct answer using the codes given below."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Trans-Himalaya belong to Himalaya system.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "1, 2 and 3",
+        "1 and 4",
+        "Only 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following statements is not true?",
+      "options": [
+        "Ghaggar\u2019s water is utilised in the Indira Gandhi Canal.",
+        "Narmada rises from Amarkantak region.",
+        "Nizam Sagar is situated on the Manjra river.",
+        "Penganga is a tributary of the Godavari."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "In India, the main limiting factor for cultivation is",
+      "options": [
+        "length of growing season",
+        "infertile soil",
+        "indequacy of water supply",
+        "small size of farms"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The South-West monsoons end in India by",
+      "options": [
+        "December",
+        "October",
+        "November",
+        "December"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Lakshadweep Codes",
+      "options": [
+        "1, 2, 3, 4, 5",
+        "3, 4, 2, 1, 5",
+        "4, 3, 1, 2, 5",
+        "3, 4, 1, 2, 5"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Among the following states, which one does not have any significant coal resources?",
+      "options": [
+        "Andhra Pradesh",
+        "Bihar",
+        "Chhattisgarh",
+        "Maharashtra"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The monsoon responsible for rains in Jharkhand is",
+      "options": [
+        "North-East monsoon",
+        "South-west monsoon",
+        "Northwester",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The greatest potential for the generation of tidal power in India is available in the",
+      "options": [
+        "Coromandel coast",
+        "Gujarat coast",
+        "Konarat coast",
+        "Malabar coast"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Lower Ganga plain has hamleted settlements.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "At which one of the following places two important rivers of India originate, while one of them flows towards North and merges with another important river flowing towards Bay of Bengal, the other flows towards Arabian Sea?",
+      "options": [
+        "Amarkantak",
+        "Badrinath",
+        "Mahabaleshwar",
+        "Nasik"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which type of irrigation covers the largest area of the net sown area?",
+      "options": [
+        "Canal",
+        "Tank",
+        "Well and tube wells",
+        "Others (springs etc)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "India is the largest producer of sugar.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "3 and 4",
+        "2 and 3",
+        "1 and 4"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Onges, Shompens and Sentinelese are the inhabitants of Andaman and Nicobar Islands.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following projects is also known as gift to Nepal?",
+      "options": [
+        "Gandak project",
+        "Kosi project",
+        "Hasdo project",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which states in India are the largest producers of sugarcane?",
+      "options": [
+        "Bihar and Uttar Pradesh",
+        "Uttar Pradesh and Rajasthan",
+        "Andhra Pradesh and Jammu and Kashmir",
+        "Punjab and Himachal Pradesh"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The decadal population growth during 2001-11 is 17.5%.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Crude death rate is defined as",
+      "options": [
+        "Number of infant death",
+        "Number of adult death",
+        "Number of death in a particular years/thousand of population",
+        "Number of both Infant and adult death"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following factors is responsible for excessive soil erosion in Chotanagpur plateau?",
+      "options": [
+        "Heavy rain throughout the year",
+        "Loose sandy soil",
+        "Deep ploughing by tractors",
+        "Large scale felling of trees"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Nagarjunasagar dam is constructed on the river",
+      "options": [
+        "Krishna",
+        "Chambal",
+        "Kosi",
+        "Suttej Which of the statement(s) given above is/are correct?"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Jhum cultivation is a method of cultivation which used to be practiced in",
+      "options": [
+        "Himachal Pradesh",
+        "Central Highland",
+        "Coastal Tamil Nadu",
+        "Nagaland"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Rich pool of skilled labour is available.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Manjra is a tributary of Godavari.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The direction of the monsoons of the Arabian Sea branch is from",
+      "options": [
+        "North-West",
+        "Southern tip to West",
+        "South-East",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which is the artificial port of India?",
+      "options": [
+        "Kandla",
+        "Mangalore",
+        "Chennai or Madras",
+        "Haldia"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Consider the following statements about Lonar lake. Which of the statements given below is/are true?",
+      "options": [
+        "It is created by a meteor hitting the Earth.",
+        "It is a crater lake.",
+        "Both \u2018a\u2019 and \u2018b\u2019",
+        "It is a man-made lake."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following is not a plantation crop?",
+      "options": [
+        "Tea",
+        "Coffee",
+        "Rubber",
+        "Sugarcane"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Konkan Railway connects",
+      "options": [
+        "Goa Mangaluru",
+        "Roha Mangaluru",
+        "Kanyakumari Mangaluru",
+        "Kanyakumari \u2013 Mumbai"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "ln which one of the following states, the cotton cultivation is based mainly on irrigation?",
+      "options": [
+        "Maharashtra",
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Haryana"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which is the highest peak in Andaman and Nicobar Islands?",
+      "options": [
+        "Saddle Peak",
+        "Mount Thuiller",
+        "Mount Diavolo",
+        "Mount Koyale"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Rajmahal hills Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "2 and 4",
+        "Only 4",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following East flowing rivers of India has Rift valley due to down warping?",
+      "options": [
+        "Damodar",
+        "Mahanadi",
+        "Godavari",
+        "Yamuna"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "When the Kaveri river drops as soon as it enters Tamil Nadu, what waterfalls does it create?",
+      "options": [
+        "Jog Falls",
+        "Five Falls",
+        "Hoggenakkal Falls",
+        "Sivasamudram Falls"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The pattem of monsoon would be different from what it is at present.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "1 and 3",
+        "2 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "An important river of the Indian desert is",
+      "options": [
+        "Luni",
+        "Narmada",
+        "Krishna",
+        "Beas"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "River Sutlej does not originate in India.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Germany is assisting the project.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "River Chenab is the largest tributary of Indus.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Coal mines in Jharkhand are located at",
+      "options": [
+        "Jharia",
+        "Jamshedpur",
+        "Ranchi",
+        "Lohardaga"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following states has the maximum total forest cover in India?",
+      "options": [
+        "Arunachal Pradesh",
+        "Assam",
+        "Madhya Pradesh",
+        "Karnataka"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Identify the wrong statement",
+      "options": [
+        "Khadar soils are more sandy in composition than Bhangar soils.",
+        "Regur is an intrazonal soil.",
+        "Red soil is a zonal soil.",
+        "The areas affected by wind erosion on an extensive scale in Northern Haryana and Punjab are called Chhos."
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Bhakra Nangal Project is a joint venture of the Punjab, Haryana and",
+      "options": [
+        "Uttar Pradesh",
+        "Himachal Pradesh",
+        "Rajasthan",
+        "Uttarakhand"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Soil erosion can be prevented by",
+      "options": [
+        "increasing bird population",
+        "afforestation",
+        "removal of vegetation",
+        "overgrazing"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Karakoram, Ladakh, Zanskar are ranges of trans-Himalaya.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 4",
+        "2 and 3",
+        "1, 2 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Madhya Bharat Plateau is part of it.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "1 and 4",
+        "1 and 3 (3) Only 2",
+        "Option c",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Nanda Devi peak forms a part of",
+      "options": [
+        "Assam Himalayas",
+        "Kumaon Himalayas",
+        "Nepal Himalayas",
+        "Punjab Himalayas"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "According to 2011 census, which state has the highest sex ratio?",
+      "options": [
+        "Kerala",
+        "Haryana",
+        "Andhra Pradesh",
+        "Punjab"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following mountain ranges is spread over only one state in India?",
+      "options": [
+        "Aravalli",
+        "Satpura",
+        "Ajanta",
+        "Sahyadri"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which state has the largest population of Scheduled Tribes?",
+      "options": [
+        "Arunachal pradesh",
+        "Sikkim",
+        "Madhya Pradesh",
+        "Jharkhand"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following districts is well known for the cultivation of coffee?",
+      "options": [
+        "Balasore",
+        "Chikmangalur",
+        "Guntur",
+        "Khurda"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which state in India has the maximum density of roads?",
+      "options": [
+        "Madhya Pradesh",
+        "Kerala",
+        "Uttar Pradesh",
+        "Maharashtra"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Jaduguda is associated with the mining of",
+      "options": [
+        "Iron",
+        "Mica",
+        "Uranium",
+        "Copper"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Thorium produces less harmful waste compared to uranium.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "2 and 3",
+        "1 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Identify the correct decreasing order of river basins area in India.",
+      "options": [
+        "Ganga, Brahmaputra, Indus, Godavari",
+        "Ganga, Indus, Brahmaputra, Krishna",
+        "Ganga, Brahmaputra, Godavari, Indus",
+        "Ganga, Indus, Godavari, Krishna"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one among the following is not a source of renewable energy?",
+      "options": [
+        "Hydroelectricity",
+        "Solar energy",
+        "Fuel cell",
+        "Wind energy"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "National Highway 7 is the longest in the country.  Which of the statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 3",
+        "2 and 4"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "With reference to Indian Agriculture, which one of the following statements is correct?",
+      "options": [
+        "About 90% of the area under pulses in India is rainfed",
+        "The share of pulses in the gross cropped are at the national level has doubled in the last two decades",
+        "India accounts for about 15% of the total area under rice in the world",
+        "Rice occupies about 34% of the gross cropped area of India"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "A soil looks dark on account of the presence of humus.  Which of the statements given above are correct?",
+      "options": [
+        "1, 2 and 4",
+        "2, 3 and 4",
+        "1, 3 and 4",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The greatest potential for the generation of tidal power in India is available in the",
+      "options": [
+        "Malabar coast",
+        "Konkan coast",
+        "Gujarat coast",
+        "Coromandel coast"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Coastal regions have a smaller range of temperature than the continental interiors.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The tribal population in Andaman and Nicobar Islands belongs to the",
+      "options": [
+        "Australoid race",
+        "Caucasoid race",
+        "Mongoloid race",
+        "Negroid race"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The first Indian railway train in 1853, journeyed between",
+      "options": [
+        "Bombay and Pune",
+        "Pune and Ahmedabad",
+        "Bombay and Thane",
+        "Howrah and Kharagpur GENERAL STUDIES"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The mining industry since colonial days has been export-oriented.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The agricultural production in different parts of India is very much affected by varying intensities of floods and droughts. Which one of the following measures would not be sustainable in this respect?",
+      "options": [
+        "Provision for extensive irrigation facilities",
+        "Change in the crop calendar",
+        "Avoidance of flood and drought prone areas for agriculture",
+        "Emphasis on selection of crops best suited to flood and drought conditions"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Tropical climate Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "Only 2",
+        "1 and 3",
+        "All of the above QUESTIONS FROM CDS EXAM (2012-2016)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Gaddis are",
+      "options": [
+        "fishermen of Kerala",
+        "pastoralists of Arunachal Pradesh",
+        "shepherds of Himachal Pradesh",
+        "nomads of Rajasthan desert"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The country that shares longest border with India is",
+      "options": [
+        "China",
+        "Bangladesh",
+        "Nepal",
+        "Pakistan"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Tista Codes",
+      "options": [
+        "4, 3, 2, 1",
+        "4, 3, 1, 2",
+        "3, 4, 2, 1",
+        "2, 4, 3, 1 A. Indravati"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Match the following List I (Hill Stations) List II (Locations in Map) 3 2 A.  Dharamsala B.  Almora C.  Nainital D.  Darjeeling Codes A B C D A B C D",
+      "options": [
+        "1 2",
+        "1 3 2 4",
+        "4 3",
+        "4 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Duncan passage is located between",
+      "options": [
+        "South and Little Andaman",
+        "Little and Great Nicobar",
+        "North and Middle Andaman",
+        "Middle and South Andaman Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "of compact nature of population and agricultural fields.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 3",
+        "All of these 2012 (II)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Match the following Codes A B C D A B C D",
+      "options": [
+        "1 2",
+        "1 3 2 4",
+        "2 1",
+        "2 4 1 3"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Use of traditional techniques of ploughing.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 4",
+        "2, 3 and 4 Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Surface water resources are highest in",
+      "options": [
+        "Ganga plains",
+        "North-Eastern India",
+        "Peninsular India",
+        "Indus plains List I (Places) List II (Locations in Map) A. Kollam B. Tuticorin"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The main aim of watershed management strategy of India is",
+      "options": [
+        "promoting silviculture",
+        "hillslope management",
+        "arid land management",
+        "soil conservation B. Ongole D. Nellore Codes A B C A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Kanha Which one among the following is the correct sequence of location of the above sanctuaries from South to North?",
+      "options": [
+        "1, 4, 2, 3",
+        "4, 1, 3, 2",
+        "1, 4, 3, 2",
+        "3, 1, 4, 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which among the following cities of India will have mid-day Sun exactly overhead only a year?",
+      "options": [
+        "Delhi and Chennai",
+        "Srinagar and Darjeeling",
+        "Hyderabad and Kohima",
+        "Nagpur and Kolkata"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one among the following states does not form part of the Narmada basin?",
+      "options": [
+        "Madhya Pradesh",
+        "Gujarat",
+        "Rajasthan",
+        "Maharashtra"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Match the following Codes A B C D A B C D",
+      "options": [
+        "2 3",
+        "2 4 3 1",
+        "1 4",
+        "1 3 4 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Veliconda hills, which is a part of Eastern ghats, is situated in",
+      "options": [
+        "Odisha",
+        "Tamil Nadu",
+        "Karnataka",
+        "Andhra Pradesh List I (Tribal Groups) 2013 (II) List II (States where Predominantly Located)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one among the following is the correct sequence of the rivers from North to South?",
+      "options": [
+        "Damodar - Brahmani - Mahanadi - Tungabhadra",
+        "Damodar - Mahanadi - Brahmani - Tungabhadra",
+        "Brahmani - Tungabhadra - Damodar - Mahanadi",
+        "Damodar - Brahmani - Tungabhadra - Mahanadi Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Amarkantak plateau in the Maikal hills marks the origin of the river",
+      "options": [
+        "Gandak",
+        "Chambal",
+        "Narmada",
+        "Ghaggar 2013 (I)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one among the following Indian rivers originates in Maharashtra and flows through Karnataka and Andhra Pradesh to meet the Bay of Bengal in Andhra coast?",
+      "options": [
+        "Mahanadi",
+        "Kaveri",
+        "Krishna",
+        "Godavari"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 3",
+        "1 and 2",
+        "2 and 3",
+        "All of these Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Why is Himalayan region poor in mineral resources?",
+      "options": [
+        "Himalayan region is made up of crystalline rocks",
+        "Displacement of rock strata has disturbed the arrangement of rocks and made it complex",
+        "The climatic conditions are not suitable for exploration of minerals",
+        "The rugged terrain makes exploration of minerals difficult and costly 2014 (I)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Karewas of Kashmir refers to which among the following types of deposits?",
+      "options": [
+        "Aeolian and glacial",
+        "Fluvial",
+        "Lacustrine",
+        "Volcanic List II (Locations in Map)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following is the example of subsistence farming?",
+      "options": [
+        "Shifting cultivation",
+        "Commercial farming",
+        "Extensive and intensive farming",
+        "Organic farming List I (Dams) List II (Rivers) A. Nagarjunasagar B. Mettur C. Hirakud D. Sileru A. Ukai Dam"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Kavery GENERAL STUDIES Select the correct answer using the codes given below.",
+      "options": [
+        "1, 2 and 4",
+        "2 and 3",
+        "Only 3",
+        "1 and 3 Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Veliconda group of low hills is a structural part of",
+      "options": [
+        "Nilgiri Hills",
+        "Western Ghats",
+        "Eastern Ghats",
+        "Cardamom Hills"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "In it, the fertility of soil is exhausted in a few years.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following dams is constructed across Krishna River?",
+      "options": [
+        "Ukai Dam",
+        "Krishnaraja Sagar Dam",
+        "Srisailam Dam",
+        "Mettur Dam 2014 (II)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "There would be torrential rains brought by thunderstorms.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The average size of an Indian farm holding is too small for several agricultural operations.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "1 and 2",
+        "2 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Arrange the locations of four oil refineries of india from West to East.",
+      "options": [
+        "Koyali, Kochi, Panipat, Mathura",
+        "Kochi, Koyali, Panipat, Mathura",
+        "Koyali, Panipat, Kochi, Mathura",
+        "Koyali, Panipat, Mathura, Kochi"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Meghalaya Codes",
+      "options": [
+        "2, 4, 3, 1",
+        "2 1 4 3 , , ,",
+        "4, 1, 3, 2",
+        "4 1 2 3 , , ,"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Similipal Codes",
+      "options": [
+        "3, 4, 1, 2",
+        "4, 2, 3, 1",
+        "2, 4, 1, 3",
+        "2, 1, 4, 3"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following is a land-locked harbour?",
+      "options": [
+        "Visakhapatnam",
+        "Ennore",
+        "Mumbai",
+        "Haldia"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Match the following List II (Locations in Map) List I (Hill Ranges of Central India) List I (Hydroelectric Power Stations) List II (Locations in the Map) 2 3 4",
+      "options": [
+        "Satpura",
+        "Mahadeo",
+        "Vindhya",
+        "Maikala A. Srisailam B. Sabarigiri C. Hirakud D. Sileru"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The total replenishable ground water reserves is highest in the hilly tracts of Sikkim, Nagaland and Tripura.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "Only 1",
+        "2 and 3",
+        "All of these Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Sutlej Codes",
+      "options": [
+        "4, 3, 1, 2",
+        "2, 3, 1, 4",
+        "1, 2, 3, 4",
+        "2, 1, 3, 4"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which of the following would have happened if the Himalayas did not exist?",
+      "options": [
+        "Monsoon rains would have taken place in winter months.",
+        "Coastal India would have experienced Mediterranean climate.",
+        "North Indian plain would have been much cooler in winter.",
+        "North-Western part of India would have experienced humid condition.\n\nA.\n\nBhakra Nangal"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Uttar Pradesh Codes A B C D A B C D",
+      "options": [
+        "3 2",
+        "3 1 2 4",
+        "4 1",
+        "4 2 1 3"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Undulating terrain helps in accumulation of rain water in depression or man-made tank.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "1 and 2",
+        "2 and 3",
+        "All of these List I (Steel Mills) List I (States) A. Kalinganagra"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Karnataka Statement II Indian coast does not have many gulfs, bays, estuaries and backwaters. Codes",
+      "options": [
+        "Both the statements are individually true and Statement II is the correct explanation of Statement I",
+        "Both the statements are individually true, but Statement II is not the correct explanation of Statement I",
+        "Statement I is true, but Statement II is false",
+        "Statement I is false, but Statement II is true 2015 (II)"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Presence of gulf areas.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "Only 2",
+        "1 and 3",
+        "All of these List I (Regions) List II (States) A. Baghelkhand"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "If 82\u00b0 30\u2032 East longitude (Allahabad) shows 6:00 am of Sunday (local time), what would be the local time of Florida (USA) located at 82\u00b0 West longitude?",
+      "options": [
+        "6 : 58 pm of Saturday",
+        "7 : 02 pm of Sunday",
+        "6 : 58 am of Sunday",
+        "7 : 02 am of Saturday Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Himalayan Mountains Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 4",
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "All of these Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Air mass comes from polar regions of Northern India.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "2 and 3",
+        "1 and 3",
+        "1 and 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Uttarakhand Which among the states given above are the largest and smallest respectively (in terms of geographical area)?",
+      "options": [
+        "3 and 4",
+        "3 and 2",
+        "1 and 5",
+        "2 and 5"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Match the following Codes A B C D A B C D",
+      "options": [
+        "2 4",
+        "2 1 4 3",
+        "3 1",
+        "3 4 1 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Zone II Codes A B C D A B C D",
+      "options": [
+        "4 1",
+        "4 2 1 3",
+        "3 2",
+        "3 1 2 4 Codes A B C D A B C D"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "With which one of the following countries, India has signed an MoU under the International Cooperation on Brahmaputra and Sutlej rivers?",
+      "options": [
+        "Pakistan",
+        "China",
+        "Bangladesh",
+        "Nepal"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Headquarters of which one among the following Railway Zones in India is situated at the highest elevation from the mean sea level?",
+      "options": [
+        "East\u2013Central Railway",
+        "South\u2013Eastern Railway",
+        "South\u2013Western Railway",
+        "West\u2013Central Railway"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Textile industry accounts for the largest consumption of dyestuffs.  Select the correct answer using the codes given below.",
+      "options": [
+        "Only 1",
+        "2 and 3",
+        "1 and 3",
+        "All of these"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Tapioca and cashewnuts grow well in this soil.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "2, 3 and 4",
+        "1 and 4",
+        "1, 2 and 4"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Darjeeling Codes",
+      "options": [
+        "3, 2, 4, 1",
+        "3, 1, 4, 2",
+        "2, 3, 4, 1",
+        "2, 4, 1, 3"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The peninsular India once formed part of the super-continent which included Australia, Antarctica, Africa and South America.  Which of the statement(s) given above is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Mahatma Gandhi National Marine Park is located in",
+      "options": [
+        "Pirotan Island",
+        "Rameswaram",
+        "Ganga Sagar Island",
+        "Port Blair The areas marked in the map given above account for the production of which one of the following cash crops?"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Which one of the following islands is of volcanic origin?",
+      "options": [
+        "Reunion island",
+        "Andaman and Nicobar islands",
+        "Lakshadweep islands",
+        "Maldives"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "Pir Panjal range in the Himalayas is a part of",
+      "options": [
+        "Shivalik",
+        "Trans Himalaya",
+        "Central Himalaya",
+        "Lesser Himalaya"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
+    },
+    {
+      "question": "The Act seeks to recognise and vest certain forest rights in the forest dwelling Scheduled Tribes and other traditional forest dwellers.  Select the correct answer using the codes given below.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 3",
+        "All of these ANSWERS Practice Exercise Questions from CDS Exam (2012-16) GENERAL STUDIES PART III ENVIRONMENT, ECOLOGY AND BIODIVERSITY ENVIRONMENT \u2022 In an ecosystem, the biotic and abiotic components are inseparably inter-related and interact with each other. Being an open system, an ecosystem has energy and material flowing across its boundaries.\n\n\u2022 Environment literally means the surrounding and everything that affects an organism during its lifetime, collectively known as its environment.\n\nComponents of Ecosystem Components of ecosystem can be classified into two parts, which are as follow :\n\n\u2022 In other words, \u201cenvironment is the sum of the components of water, air and land; inter-relationships among them and also with human beings, other living organisms and property\u201d. It includes all the physical and biological surroundings and their interactions.\n\nThe environment broadly consists of two types of components i. Abiotic Part It is the non-living component, e.g. air, water, soil, suspended particulate matter etc. Abiotic components of an ecosystem includes inorganic substances (carbon dioxide, nitrogen, oxygen water, etc), organic chemicals (chlorophyll etc) and climate factors (light, temperature, humidity etc). ii. Biotic Part It includes plants, animals and micro-organisms. It can be classified into various categories on the basis of functions. i. Abiotic Components Abiotic components of environment includes non-living elements like-land, water and air.\n\nii. Biotic Components Biotic components of environment include all the life forms like plants, animals, decomposers. Producers Types of Environment There are three types of environment :\n\n\u2022 Plants are a major part of producers. Apart from trees and plants, producers also include micro-organisms such as bacteria near ocean vents. They produce their food themselves.\n\n\u2022 Producers make their food or derive their energy by two processes :\n\ni. Photosynthesis ii. Chemosynthesis i. Natural Environment It consists of all abiotic (non-living) and biotic (living) components, which exist naturally on Earth. ii. Man-Made Environment It consists of those places which are artificially made by man by planned manipulation. It includes crop fields, urban centres, industrial set-ups etc. iii. Social Environment It includes cultural norms and values prevailing in a particular society. It also includes the network of political, economic and religious institutions which often decide the environmental resources to be utilised by the people.\n\nConsumers (Heterotrophs) Organisms that gather energy by consuming organic material from other organisms. Rather than performing photosynthesis or chemosynthesis, consumers perform aerobic respiration, which converts sugar (glucose) and oxygen into carbon dioxide and water to give them energy. There are four types of consumers, which are as follow : ECOLOGY It is a science, in which study of organism is undertaken in relation to their environment. This science developed in response to the increasing awareness of inter-relationships between plants, animals and their physical habitats.\n\nEcosystem \u2022 Then term ecosystem was first used by AG Tansley in 1935, who defined ecosystem as a particular category of physical system, consisting of organisms and inorganic components in a relatively stable equilibrium, open and of various sizes and kinds. i. Primary Consumers Organisms that consume mainly producers. Primary consumers are also known as herbivores because they consume mainly plants. ii. Secondary Consumers Organisms that consume mainly primary consumers. Secondary consumers are also known as carnivores because they consume mainly animals.\n\niii. Tertiary Consumers Organisms that consume secondary consumers. Tertiary consumers are to top carnivores because they are not eaten by other animals. iv. Decomposer or Detritus Bacteria, fungi and insects which degrade and decompose organic matter of all types and restore nutrients to the environment.\n\n\n</div>\n\n\n\n## Visual Summary & Diagrams\n\n### Indian River Systems\n```mermaid\nmindmap\n  root((Indian Rivers))\n    Himalayan Rivers\n      Indus System\n        Jhelum\n        Chenab\n        Ravi\n        Beas\n        Sutlej\n      Ganga System\n        Yamuna\n        Ghaghara\n        Kosi\n      Brahmaputra\n    Peninsular Rivers\n      West Flowing\n        Narmada\n        Tapi\n      East Flowing\n        Godavari\n        Krishna\n        Kaveri\n        Mahanadi\n```\n\n\n\n## Visual Summary & Diagrams: Geography (Part 2)\n\n### Mechanism of Indian Monsoon (SW Monsoon)\n```mermaid\nflowchart TD\n    Summer[Summer in N. Hemisphere] --> Heat[Intense heating of Tibetan Plateau]\n    Heat --> LowP[Low Pressure area over NW India]\n    \n    Ocean[High Pressure over Indian Ocean] --> Winds[Winds move from High to Low Pressure]\n    Winds --> Equator[Cross Equator, deflect right due to Coriolis]\n    \n    Equator --> SW[South-West Monsoon Winds]\n    \n    SW --> Arabian[Arabian Sea Branch<br>Hits Western Ghats]\n    SW --> Bay[Bay of Bengal Branch<br>Hits NE India & Meghalaya]\n```"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "topicId": "geography"
     }
   ],
   "english": [
