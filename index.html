@@ -321,52 +321,7 @@
           </div>
         </div>
 
-        <div class="grid-cols-2">
-          <!-- Quick Study Launch -->
-          <div class="panel">
-            <div class="panel-title"> Concept & Formula Hub</div>
-            <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">
-              Jump directly back into revision notes and cheat sheets. Revision covers NDA Math, CDS General Knowledge, and AFCAT Military Aptitude.
-            </p>
-            <button class="btn-primary" onclick="switchScreen('notes')" style="width: auto; padding-left: 24px; padding-right: 24px;">Open Revision Notes</button>
-          </div>
 
-          <!-- CBT Analytics Widget -->
-          <div class="panel">
-            <div class="panel-title">Recent CBT Exercises</div>
-            <div id="dashboard-recent-cbt" style="color: var(--text-secondary); font-size: 0.9rem;">
-              <!-- Dynamic lists of scores -->
-              No tests taken yet. Launch CBT Mock Test Hub to start your revision.
-            </div>
-          </div>
-        </div>
-
-        <div class="grid-cols-2" style="margin-bottom: 24px;">
-          <!-- Spaced Repetition Queue -->
-          <div class="panel glow" style="border-left: 4px solid var(--warning);">
-            <div class="panel-title">Spaced Repetition (SRS) Queue</div>
-            <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">
-              Topics due for memory reinforcement based on the SM-2 spaced repetition algorithm.
-            </p>
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-              <div style="font-size: 0.9rem; color: var(--text-primary);">
-                Items Due: <span id="srs-due-count" style="font-size: 1.5rem; font-weight: bold; margin-left: 8px;">0</span>
-              </div>
-              <button class="btn-primary" onclick="launchSrsReview()" style="width: auto; padding: 10px 24px; background: var(--warning); border-color: var(--warning);">Start Review</button>
-            </div>
-          </div>
-
-          <!-- Syllabus Mastery Heatmap -->
-          <div class="panel">
-            <div class="panel-title">Syllabus Mastery Heatmap</div>
-            <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">
-              Real-time progress tracker mapping coverage and mastery across core subjects.
-            </p>
-            <div id="dashboard-mastery-heatmap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 8px;">
-              <!-- Dynamic subject mastery blocks injected via JS -->
-            </div>
-          </div>
-        </div>
 
         <!-- AI Strategy Builder Panel -->
         <div class="panel glow" style="margin-bottom: 24px; border-left: 4px solid var(--info); background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(14, 165, 233, 0.05) 100%);">
