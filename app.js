@@ -1081,7 +1081,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
         High-Yield Formulas
       </button>
       <button class="tab-btn ${activeNotesTab === 'mindmap' ? 'active' : ''}" onclick="setNotesTab('mindmap')" style="white-space: nowrap; flex-shrink: 0; display: ${topic.mindmap ? 'block' : 'none'};">
-        Visual Mindmap
+        Visual Mindmap / Diagram
       </button>
     </div>
   `;
@@ -1138,6 +1138,19 @@ function renderTopicView(subjectId, chapterId, topicId) {
     `;
   } else if (activeNotesTab === 'mindmap' && topic.mindmap) {
     let branchesHtml = '';
+    
+    // Generate Mermaid Code Dynamically
+    let mmdCode = `mindmap\n  root((${topic.mindmap.root.replace(/[\(\)\[\]\{\}\"\n]/g, ' ')}))\n`;
+    topic.mindmap.branches.forEach(branch => {
+      mmdCode += `    ${branch.title.replace(/[\(\)\[\]\{\}\"\n]/g, ' ')}\n`;
+      if (branch.subnodes) {
+        branch.subnodes.forEach(sub => {
+          mmdCode += `      ::icon(fas fa-check)\n`;
+          mmdCode += `      ${sub.replace(/[\(\)\[\]\{\}\"\n]/g, ' ')}\n`;
+        });
+      }
+    });
+    
     topic.mindmap.branches.forEach(branch => {
       let subnodesHtml = '';
       branch.subnodes.forEach(sub => {
@@ -1159,6 +1172,14 @@ function renderTopicView(subjectId, chapterId, topicId) {
     tabContentHtml = `
       <div class="tab-pane-content fade-in" style="height: 100%; display: flex; flex-direction: column;">
         <div class="mindmap-tree scroll-x" style="padding: 24px; height: 100%; overflow-y: auto; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; gap: 24px;">
+          
+          <!-- Gen AI Diagram SVG Integration (Client-Side Rendering) -->
+          <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 20px; background: rgba(0,0,0,0.4); padding: 20px; border-radius: 12px; border: 1px dashed var(--accent); box-shadow: 0 4px 20px rgba(0,0,0,0.5) inset;">
+            <div class="mermaid" style="max-width: 100%; overflow-x: auto; text-align: center;">
+              ${mmdCode}
+            </div>
+          </div>
+
           <div class="mindmap-root" onclick="triggerDoubtExplain('${cleanRoot}')" style="cursor: pointer; padding: 14px 28px; background: linear-gradient(135deg, var(--accent-dark) 0%, var(--accent) 100%); border-radius: 12px; font-weight: 800; font-family: var(--font-logo); font-size: 1.15rem; color: var(--bg-primary); text-shadow: 0 1px 2px rgba(0,0,0,0.2); box-shadow: 0 0 20px rgba(34, 197, 94, 0.35); text-align: center; transition: all 0.3s ease; letter-spacing: 0.5px;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 28px rgba(34, 197, 94, 0.55)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(34, 197, 94, 0.35)';">${topic.mindmap.root}</div>
           <div style="width: 2px; height: 20px; background: linear-gradient(to bottom, var(--accent), rgba(255,255,255,0.1));"></div>
           <div class="mindmap-branches" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; width: 100%;">
@@ -1233,14 +1254,30 @@ function renderTopicView(subjectId, chapterId, topicId) {
     });
   }
 
-  // Initialize Mermaid diagrams if any
+  // Initialize Mermaid diagrams for newly injected content
   setTimeout(() => {
-    if (window.mermaid && typeof window.mermaid.run === 'function') {
-      try { window.mermaid.run({ querySelector: '.mermaid' }); } catch(e) { console.warn(e); }
-    } else if (window.mermaid && typeof window.mermaid.init === 'function') {
-      try { window.mermaid.init(undefined, document.querySelectorAll('.mermaid')); } catch(e) { console.warn(e); }
-    }
-  }, 100);
+    try {
+      if (window.mermaid) {
+        const mermaidNodes = Array.from(viewerPane.querySelectorAll('.mermaid:not([data-processed])'));
+        if (mermaidNodes.length > 0) {
+          if (typeof window.mermaid.run === 'function') {
+            window.mermaid.run({ nodes: mermaidNodes });
+          } else if (typeof window.mermaid.init === 'function') {
+            window.mermaid.init(undefined, mermaidNodes);
+          }
+        }
+        const alreadyProcessed = Array.from(viewerPane.querySelectorAll('.mermaid[data-processed]'));
+        if (alreadyProcessed.length > 0) {
+          alreadyProcessed.forEach(el => el.removeAttribute('data-processed'));
+          if (typeof window.mermaid.run === 'function') {
+            window.mermaid.run({ nodes: alreadyProcessed });
+          } else if (typeof window.mermaid.init === 'function') {
+            window.mermaid.init(undefined, alreadyProcessed);
+          }
+        }
+      }
+    } catch(e) { console.warn('Mermaid render error:', e); }
+  }, 150);
 
   // Initialize dynamic vocabulary search vault if synonyms/antonyms topic is active
   if (topicId === 'synonyms-antonyms-detailed' && activeNotesTab === 'notes') {

@@ -24,28 +24,35 @@
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
   <!-- Marked.js for parsing and rendering markdown tables/notes -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <!-- Mermaid.js for drawing flowcharts, timelines, and concept maps -->
-  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <!-- Mermaid.js v10 (pinned) for drawing flowcharts, timelines, and concept maps -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.0/dist/mermaid.min.js"></script>
   <!-- SEO Breadcrumb Schema -->
   <script type="application/ld+json" id="breadcrumb-schema">
     {}
   </script>
   <script>
-    if (typeof mermaid !== 'undefined') {
-      mermaid.initialize({
-        startOnLoad: false,
-        theme: 'dark',
-        securityLevel: 'loose',
-        themeVariables: {
-          background: 'rgba(20,20,30,0.6)',
-          primaryColor: '#22c55e',
-          primaryTextColor: '#ffffff',
-          lineColor: '#38bdf8',
-          actorBorder: '#38bdf8',
-          signalColor: '#22c55e'
-        }
-      });
+    // Initialize Mermaid after script is loaded
+    function initMermaid() {
+      if (typeof mermaid !== 'undefined') {
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: 'dark',
+          securityLevel: 'loose',
+          themeVariables: {
+            background: 'rgba(20,20,30,0.6)',
+            primaryColor: '#22c55e',
+            primaryTextColor: '#ffffff',
+            lineColor: '#38bdf8',
+            actorBorder: '#38bdf8',
+            signalColor: '#22c55e'
+          }
+        });
+        window._mermaidReady = true;
+      }
     }
+    // Call immediately if already loaded, or wait for DOMContentLoaded
+    if (typeof mermaid !== 'undefined') { initMermaid(); }
+    else { document.addEventListener('DOMContentLoaded', initMermaid); }
   </script>
   <style id="breadcrumb-override">
     .breadcrumb-list {
