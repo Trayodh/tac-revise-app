@@ -423,7 +423,7 @@ function parseWikiLinks(text) {
   }
   
   // 1. Intercept Mermaid blocks
-  let processed = text.replace(/```mermaid\n([\s\S]*?)```/g, function(match, code) {
+  let processed = text.replace(/```mermaid\r?\n([\s\S]*?)```/g, function(match, code) {
     return `<div class="mermaid" style="background: rgba(255,255,255,0.02); padding: 20px; border-radius: 8px; overflow-x: auto; text-align: center; margin: 15px 0; border: 1px solid rgba(255,255,255,0.05);">${code}</div>`;
   });
   
