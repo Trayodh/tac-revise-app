@@ -1994,28 +1994,6 @@ window.CURRENT_AFFAIRS_DB = {
   ],
   "July 2026": [
     {
-      "id": "india-us-defence-tech-deal-2026",
-      "topic": "Defence Diplomacy",
-      "text": "India and the United States signed a **defence technology cooperation agreement** on **5 July 2026** to co‑develop the **Advanced Beyond‑Visual‑Range Air‑to‑Air Missile (BVRAAM)**. The deal involves DRDO and the U.S. Defense Advanced Research Projects Agency (DARPA).",
-      "details": {
-        "winner": "N/A",
-        "award": "Advanced BVRAAM",
-        "nationality": "India, United States",
-        "summary": "Strengthens Indo‑US strategic partnership and modernises Indian Air Force."
-      },
-      "mcq": {
-        "question": "Which missile is the focus of the India‑US defence tech agreement signed in July 2026?",
-        "options": [
-          "A) BrahMos",
-          "B) Advanced BVRAAM",
-          "C) Akash",
-          "D) Nag"
-        ],
-        "answer": "B",
-        "explanation": "The agreement is for the development of an advanced BVRAAM."
-      }
-    },
-    {
       "id": "exercise-indus-eagle-2026",
       "topic": "Defence Exercise",
       "text": "The Indian Army and Nepalese Army concluded **Exercise Indus Eagle 2026** from **8–15 July 2026** in the Himalayan region of Uttarakhand, focusing on joint mountain warfare and disaster response.",
