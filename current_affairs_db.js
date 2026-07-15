@@ -1994,50 +1994,6 @@ window.CURRENT_AFFAIRS_DB = {
   ],
   "July 2026": [
     {
-      "id": "kargil-vijay-diwas-2026",
-      "topic": "Defence Commemoration",
-      "text": "India observed **Kargil Vijay Diwas** on **26 July 2026** to honour the bravery of soldiers who reclaimed the Kargil sector in 1999. Flag hoisting took place at the Amar Jawan Jyoti, New Delhi, and a 21‑gun salute was rendered.",
-      "details": {
-        "winner": "N/A",
-        "award": "N/A",
-        "nationality": "India",
-        "summary": "Annual remembrance of Kargil war, important for understanding India's military history."
-      },
-      "mcq": {
-        "question": "Kargil Vijay Diwas is observed on which date?",
-        "options": [
-          "A) 26 July 2026",
-          "B) 15 August 2026",
-          "C) 1 January 2026",
-          "D) 30 September 2026"
-        ],
-        "answer": "A",
-        "explanation": "The day is commemorated on 26 July each year."
-      }
-    },
-    {
-      "id": "isro-eos-7-launch-2026",
-      "topic": "Space Mission",
-      "text": "ISRO successfully launched the **EOS‑7 Earth Observation satellite** on **12 July 2026** from Satish Dhawan Space Centre, using the PSLV‑C55 rocket. The 1,500 kg satellite carries a 1‑meter resolution camera for agricultural monitoring.",
-      "details": {
-        "winner": "N/A",
-        "award": "EOS‑7",
-        "nationality": "India",
-        "summary": "Enhances remote sensing capabilities, relevant for defence reconnaissance."
-      },
-      "mcq": {
-        "question": "On which date was the EOS‑7 satellite launched?",
-        "options": [
-          "A) 5 July",
-          "B) 12 July",
-          "C) 20 July",
-          "D) 28 July"
-        ],
-        "answer": "B",
-        "explanation": "EOS‑7 was launched on 12 July 2026."
-      }
-    },
-    {
       "id": "india-us-defence-tech-deal-2026",
       "topic": "Defence Diplomacy",
       "text": "India and the United States signed a **defence technology cooperation agreement** on **5 July 2026** to co‑develop the **Advanced Beyond‑Visual‑Range Air‑to‑Air Missile (BVRAAM)**. The deal involves DRDO and the U.S. Defense Advanced Research Projects Agency (DARPA).",
@@ -2079,28 +2035,6 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "B",
         "explanation": "The joint exercise took place in Uttarakhand."
-      }
-    },
-    {
-      "id": "ins-vishal-commissioning-2026",
-      "topic": "Naval Induction",
-      "text": "The stealth guided‑missile frigate **INS Vishal (F44)** was commissioned into the Indian Navy on **20 July 2026** at Visakhapatnam. It is equipped with the BrahMos missile and the EL/M-2248 radar.",
-      "details": {
-        "winner": "N/A",
-        "award": "INS Vishal",
-        "nationality": "India",
-        "summary": "Adds to blue‑water capability, key for naval power projection."
-      },
-      "mcq": {
-        "question": "On which date was INS Vishal commissioned?",
-        "options": [
-          "A) 10 July",
-          "B) 15 July",
-          "C) 20 July",
-          "D) 25 July"
-        ],
-        "answer": "C",
-        "explanation": "The frigate was commissioned on 20 July 2026."
       }
     },
     {
@@ -2189,116 +2123,6 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "C",
         "explanation": "The act aims for a 70% reduction."
-      }
-    },
-    {
-      "id": "upi-billion-transactions-2026",
-      "topic": "Digital Payments",
-      "text": "India's Unified Payments Interface (UPI) crossed **1 billion transactions per day** on **9 July 2026**, marking a milestone in digital finance and reflecting increased cashless transactions across the armed forces.",
-      "details": {
-        "winner": "N/A",
-        "award": "N/A",
-        "nationality": "India",
-        "summary": "Digital payment scale indicates economic digitisation, affecting defence payroll."
-      },
-      "mcq": {
-        "question": "On which date did UPI achieve 1 billion daily transactions?",
-        "options": [
-          "A) 1 July",
-          "B) 9 July",
-          "C) 15 July",
-          "D) 31 July"
-        ],
-        "answer": "B",
-        "explanation": "The milestone was reached on 9 July 2026."
-      }
-    },
-    {
-      "id": "monsoon-session-defence-bills-2026",
-      "topic": "Parliament Session",
-      "text": "During the **Monsoon Session (June‑July 2026)**, Parliament passed the **Defence Procurement Transparency Bill, 2026** on **22 July 2026**, mandating public disclosure of all defence contracts above **₹500 crore**.",
-      "details": {
-        "winner": "N/A",
-        "award": "Defence Procurement Transparency Bill",
-        "nationality": "India",
-        "summary": "Aims to curb corruption in defence acquisitions, vital for aspirants."
-      },
-      "mcq": {
-        "question": "Which bill was passed on 22 July 2026 to enhance defence procurement transparency?",
-        "options": [
-          "A) Defence Procurement Transparency Bill",
-          "B) Armed Forces Pension Bill",
-          "C) Military Equipment Standardization Bill",
-          "D) Naval Modernisation Bill"
-        ],
-        "answer": "A",
-        "explanation": "The Defence Procurement Transparency Bill was enacted on that date."
-      }
-    },
-    {
-      "id": "param-vir-chakra-award-2026",
-      "topic": "Awards/Honours",
-      "text": "Posthumously, **Captain Arjun Singh** was conferred the **Param Vir Chakra** on **26 July 2026**, recognizing his gallantry during the 1999 Kargil operations.",
-      "details": {
-        "winner": "Captain Arjun Singh",
-        "award": "Param Vir Chakra",
-        "nationality": "India",
-        "summary": "Highest wartime gallantry award, exemplifies heroism."
-      },
-      "mcq": {
-        "question": "Who received the Param Vir Chakra on 26 July 2026?",
-        "options": [
-          "A) Captain Arjun Singh",
-          "B) Major Vikram Patel",
-          "C) Lieutenant Rohan Mehta",
-          "D) Colonel Sandeep Rao"
-        ],
-        "answer": "A",
-        "explanation": "Captain Arjun Singh was honoured posthumously."
-      }
-    },
-    {
-      "id": "qsat-1-launch-2026",
-      "topic": "Space/Quantum Tech",
-      "text": "ISRO launched **QSat‑1**, India's first **quantum communication satellite**, on **18 July 2026** using the GSLV‑MkIII. The satellite will enable encrypted communication for defence and civilian networks.",
-      "details": {
-        "winner": "N/A",
-        "award": "QSat‑1",
-        "nationality": "India",
-        "summary": "Pioneering quantum tech with defence applications."
-      },
-      "mcq": {
-        "question": "Which satellite was launched by ISRO for quantum communication in July 2026?",
-        "options": [
-          "A) EOS‑7",
-          "B) QSat‑1",
-          "C) GSAT‑30",
-          "D) NavIC‑2"
-        ],
-        "answer": "B",
-        "explanation": "QSat‑1 is the quantum communication satellite."
-      }
-    },
-    {
-      "id": "army-asian-games-gold-2026",
-      "topic": "Sports",
-      "text": "The Indian Army hockey team clinched **gold at the Asian Games** held in Hangzhou on **30 July 2026**, defeating **Pakistan** 3–2 in the final.",
-      "details": {
-        "winner": "Indian Army",
-        "award": "Asian Games Gold Medal",
-        "nationality": "India",
-        "summary": "Showcases physical fitness and morale of armed forces."
-      },
-      "mcq": {
-        "question": "Which team did the Indian Army defeat to win gold in hockey at the Asian Games 2026?",
-        "options": [
-          "A) Japan",
-          "B) South Korea",
-          "C) Pakistan",
-          "D) China"
-        ],
-        "answer": "C",
-        "explanation": "India beat Pakistan 3–2 in the final."
       }
     },
     {
