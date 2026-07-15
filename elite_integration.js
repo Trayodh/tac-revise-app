@@ -35,24 +35,42 @@ document.addEventListener('DOMContentLoaded', async () => {
             const mdText = await fileRes.text();
             const htmlContent = (typeof parseWikiLinks === 'function') ? parseWikiLinks(mdText) : marked.parse(mdText);
 
-            // Find or create Elite chapter
-            let eliteChapter = db[dbKey].chapters.find(c => c.id === 'elite_updates');
-            if (!eliteChapter) {
-                eliteChapter = {
-                    id: 'elite_updates',
-                    title: 'Pathfinder Elite Updates',
-                    topics: []
-                };
-                db[dbKey].chapters.unshift(eliteChapter);
+            // Distribute into actual chapters based on keyword matching
+            let targetChapter = null;
+            const topicNameLower = mod.topic_name.toLowerCase();
+            
+            for (const ch of db[dbKey].chapters) {
+                 const chTitle = ch.title.toLowerCase();
+                 if (dbKey === 'history') {
+                     if (topicNameLower.includes('ancient') && chTitle.includes('ancient')) { targetChapter = ch; break; }
+                     if (topicNameLower.includes('medieval') && chTitle.includes('medieval')) { targetChapter = ch; break; }
+                     if (topicNameLower.includes('modern') && chTitle.includes('modern')) { targetChapter = ch; break; }
+                     if (topicNameLower.includes('world') && chTitle.includes('world')) { targetChapter = ch; break; }
+                 } else if (dbKey === 'geography') {
+                     if ((topicNameLower.includes('world') || topicNameLower.includes('cosmology')) && chTitle.includes('physical')) { targetChapter = ch; break; }
+                     if (topicNameLower.includes('indian') && chTitle.includes('indian')) { targetChapter = ch; break; }
+                     if (topicNameLower.includes('environmental') && (chTitle.includes('ecology') || chTitle.includes('environment') || chTitle.includes('physical'))) { targetChapter = ch; break; }
+                 } else if (dbKey === 'polity') {
+                     if ((topicNameLower.includes('framework') || topicNameLower.includes('rights')) && chTitle.includes('framework')) { targetChapter = ch; break; }
+                     if ((topicNameLower.includes('executive') || topicNameLower.includes('judiciary')) && (chTitle.includes('executive') || chTitle.includes('union'))) { targetChapter = ch; break; }
+                     if (topicNameLower.includes('state') && chTitle.includes('state')) { targetChapter = ch; break; }
+                 }
             }
-
-            eliteChapter.topics.push({
-                id: `elite_${mod.subject}_${mod.filename}`,
-                title: mod.topic_name,
-                isEliteUpdate: true,
-                notes: htmlContent,
-                formulas: ""
-            });
+            
+            // Fallback for math and others, or if no keyword match
+            if (!targetChapter && db[dbKey].chapters.length > 0) {
+                 targetChapter = db[dbKey].chapters[0];
+            }
+            
+            if (targetChapter) {
+                targetChapter.topics.push({
+                    id: `elite_${mod.subject}_${mod.filename}`,
+                    title: mod.topic_name.replace(/and MCQs/gi, '').replace(/Revision MCQs/gi, '').replace(/Core/gi, '').trim(),
+                    isEliteUpdate: true,
+                    notes: htmlContent,
+                    formulas: ""
+                });
+            }
         }
         
         if (typeof renderNotesBrowser === 'function') renderNotesBrowser();
