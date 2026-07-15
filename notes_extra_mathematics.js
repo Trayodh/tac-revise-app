@@ -6,278 +6,420 @@ EXPANDED_NOTES_DATA["trig-identities"] = `
     Trigonometric Identities & Values
   </h3>
 
-  <h4><strong>1. Fundamental Definitions</strong></h4>
-  <p>In a right‑angled triangle, the primary <strong>trigonometric functions</strong> are defined as ratios of sides:</p>
-  <ul>
-    <li><strong>Sine (sin θ)</strong> = opposite / hypotenuse</li>
-    <li><strong>Cosine (cos θ)</strong> = adjacent / hypotenuse</li>
-    <li><strong>Tangent (tan θ)</strong> = opposite / adjacent = sin θ / cos θ</li>
-    <li><strong>Cotangent (cot θ)</strong> = adjacent / opposite = cos θ / sin θ</li>
-    <li><strong>Secant (sec θ)</strong> = hypotenuse / adjacent = 1 / cos θ</li>
-    <li><strong>Cosecant (csc θ)</strong> = hypotenuse / opposite = 1 / sin θ</li>
-  </ul>
-  <p>These definitions extend to the unit circle where the point <em>(cos θ, sin θ)</em> lies on a circle of radius 1 centred at the origin.</p>
+  <p>
+    [[Trigonometry]], derived from Greek words 'trigonon' (triangle) and 'metron' (measure), is a branch of mathematics that studies relationships between side lengths and angles of triangles. Its fundamental concepts are indispensable in fields like navigation, engineering, physics, and especially in defence applications such as ballistics, surveying, and radar technology. This chapter delves into the core of trigonometry: the [[Trigonometric Identities]] and the specific [[Trigonometric Values]] for standard angles, which form the bedrock for solving complex problems.
+  </p>
 
-  <h4><strong>2. Even‑Odd and Periodicity Properties</strong></h4>
+  <h4>1. Angle Measurement Systems</h4>
+  <p>
+    Angles are fundamental to trigonometry and can be measured in two primary systems:
+  </p>
   <ul>
-    <li><strong>Even‑odd</strong>: <strong>cos θ</strong> is an <em>even</em> function → cos(–θ) = cos θ; <strong>sin θ</strong>, <strong>tan θ</strong>, <strong>csc θ</strong> are <em>odd</em> → sin(–θ) = –sin θ, tan(–θ) = –tan θ.</li>
-    <li><strong>Periodicity</strong>: 
+    <li>
+      <strong>[[Degree]] Measure (Sexagesimal System):</strong> A complete revolution is divided into <strong>360</strong> degrees ($360^\circ$). Each degree is subdivided into <strong>60</strong> minutes ($60'$) and each minute into <strong>60</strong> seconds ($60''$).
+      <br/><em>Example:</em> $30^\circ 15' 45''$.
+    </li>
+    <li>
+      <strong>[[Radian]] Measure (Circular System):</strong> The radian is the standard unit of angular measure in mathematics. One radian is defined as the angle subtended at the center of a circle by an arc whose length is equal to the radius of the circle. A complete revolution is $2\pi$ radians.
+      <br/><em>Conversion Formulas:</em>
       <ul>
-        <li>sin θ and cos θ have period 2π.</li>
-        <li>tan θ and cot θ have period π.</li>
+        <li>Degrees to Radians: If an angle is $D$ degrees, its radian measure $R$ is given by $R = D \times \frac{\pi}{180^\circ}$.</li>
+        <li>Radians to Degrees: If an angle is $R$ radians, its degree measure $D$ is given by $D = R \times \frac{180^\circ}{\pi}$.</li>
+      </ul>
+      <p>
+        <em>Key Equivalences:</em> $\pi \text{ radians} = 180^\circ$. Thus, $1 \text{ radian} \approx 57.2958^\circ$ and $1^\circ \approx 0.01745 \text{ radians}$.
+      </p>
+    </li>
+  </ul>
+
+  <h4>2. Basic Trigonometric Ratios</h4>
+  <p>
+    For an acute angle $\theta$ in a [[Right-angled triangle]], the six basic trigonometric ratios are defined as follows:
+  </p>
+  <ul>
+    <li>
+      <strong>[[Sine function]] ($\sin \theta$):</strong> Ratio of the length of the [[Opposite side]] to the length of the [[Hypotenuse]].
+      $$ \sin \theta = \frac{\text{Opposite}}{\text{Hypotenuse}} $$
+    </li>
+    <li>
+      <strong>[[Cosine function]] ($\cos \theta$):</strong> Ratio of the length of the [[Adjacent side]] to the length of the [[Hypotenuse]].
+      $$ \cos \theta = \frac{\text{Adjacent}}{\text{Hypotenuse}} $$
+    </li>
+    <li>
+      <strong>[[Tangent function]] ($\tan \theta$):</strong> Ratio of the length of the Opposite side to the length of the Adjacent side.
+      $$ \tan \theta = \frac{\text{Opposite}}{\text{Adjacent}} $$
+    </li>
+  </ul>
+  <p>
+    The other three ratios are reciprocals of these:
+  </p>
+  <ul>
+    <li>
+      <strong>[[Cosecant function]] ($\csc \theta$ or $\text{cosec } \theta$):</strong> Reciprocal of $\sin \theta$.
+      $$ \csc \theta = \frac{1}{\sin \theta} = \frac{\text{Hypotenuse}}{\text{Opposite}} \quad (\text{provided } \sin \theta \neq 0) $$
+    </li>
+    <li>
+      <strong>[[Secant function]] ($\sec \theta$):</strong> Reciprocal of $\cos \theta$.
+      $$ \sec \theta = \frac{1}{\cos \theta} = \frac{\text{Hypotenuse}}{\text{Adjacent}} \quad (\text{provided } \cos \theta \neq 0) $$
+    </li>
+    <li>
+      <strong>[[Cotangent function]] ($\cot \theta$):</strong> Reciprocal of $\tan \theta$.
+      $$ \cot \theta = \frac{1}{\tan \theta} = \frac{\text{Adjacent}}{\text{Opposite}} \quad (\text{provided } \tan \theta \neq 0) $$
+    </li>
+  </ul>
+
+  <div class="important-box" style="background: rgba(255,165,0,0.1); border-left: 3px solid orange; padding: 12px 16px; margin-top: 15px; border-radius: 0 6px 6px 0;">
+    <strong>Note on Generalization:</strong> While initially defined for acute angles in right triangles, these ratios are generalized for any angle using the [[Unit Circle]]. For a point $(x, y)$ on the unit circle (radius $r=1$) corresponding to an angle $\theta$ from the positive x-axis:
+    <ul>
+      <li>$\sin \theta = y/r = y$</li>
+      <li>$\cos \theta = x/r = x$</li>
+      <li>$\tan \theta = y/x$</li>
+    </ul>
+    This generalization allows us to define trigonometric functions for angles greater than $90^\circ$ or negative angles.
+  </div>
+
+  <h4>3. Fundamental Trigonometric Identities</h4>
+  <p>
+    [[Trigonometric Identities]] are equations involving trigonometric functions that are true for every value of the variables for which both sides of the equation are defined. They are crucial for simplifying expressions and solving trigonometric equations.
+  </p>
+
+  <h5>3.1. Quotient Identities</h5>
+  <ul>
+    <li>
+      $$ \tan \theta = \frac{\sin \theta}{\cos \theta} $$
+      <em>Derivation:</em> In a right-angled triangle, $\tan \theta = \frac{\text{Opposite}}{\text{Adjacent}}$. Dividing numerator and denominator by Hypotenuse, we get $\frac{\text{Opposite}/\text{Hypotenuse}}{\text{Adjacent}/\text{Hypotenuse}} = \frac{\sin \theta}{\cos \theta}$.
+      <em>Condition:</em> $\cos \theta \neq 0$, which means $\theta \neq (2n+1)\frac{\pi}{2}$ for any integer $n$.
+    </li>
+    <li>
+      $$ \cot \theta = \frac{\cos \theta}{\sin \theta} $$
+      <em>Derivation:</em> Since $\cot \theta = \frac{1}{\tan \theta}$, it follows directly.
+      <em>Condition:</em> $\sin \theta \neq 0$, which means $\theta \neq n\pi$ for any integer $n$.
+    </li>
+  </ul>
+
+  <h5>3.2. [[Pythagorean Identities]]</h5>
+  <p>
+    These identities are derived directly from the [[Pythagorean Theorem]] ($a^2 + b^2 = c^2$) applied to a right-angled triangle, or from the equation of a [[Unit Circle]] ($x^2 + y^2 = r^2$).
+  </p>
+  <ul>
+    <li>
+      <strong>Identity 1:</strong>
+      $$ \sin^2 \theta + \cos^2 \theta = 1 $$
+      <em>Derivation (from Unit Circle):</em> For any point $(x, y)$ on a unit circle with radius $r=1$, $x^2 + y^2 = 1$. Since $x = \cos \theta$ and $y = \sin \theta$, substituting these gives $(\cos \theta)^2 + (\sin \theta)^2 = 1$, which is $\cos^2 \theta + \sin^2 \theta = 1$.
+      <em>Conditions:</em> Valid for all real values of $\theta$.
+    </li>
+    <li>
+      <strong>Identity 2:</strong>
+      $$ 1 + \tan^2 \theta = \sec^2 \theta $$
+      <em>Derivation:</em> Divide the first Pythagorean identity by $\cos^2 \theta$ (assuming $\cos \theta \neq 0$):
+      $$ \frac{\sin^2 \theta}{\cos^2 \theta} + \frac{\cos^2 \theta}{\cos^2 \theta} = \frac{1}{\cos^2 \theta} $$
+      $$ \left(\frac{\sin \theta}{\cos \theta}\right)^2 + 1 = \left(\frac{1}{\cos \theta}\right)^2 $$
+      $$ \tan^2 \theta + 1 = \sec^2 \theta $$
+      <em>Conditions:</em> $\cos \theta \neq 0$, i.e., $\theta \neq (2n+1)\frac{\pi}{2}$ for any integer $n$.
+    </li>
+    <li>
+      <strong>Identity 3:</strong>
+      $$ 1 + \cot^2 \theta = \csc^2 \theta $$
+      <em>Derivation:</em> Divide the first Pythagorean identity by $\sin^2 \theta$ (assuming $\sin \theta \neq 0$):
+      $$ \frac{\sin^2 \theta}{\sin^2 \theta} + \frac{\cos^2 \theta}{\sin^2 \theta} = \frac{1}{\sin^2 \theta} $$
+      $$ 1 + \left(\frac{\cos \theta}{\sin \theta}\right)^2 = \left(\frac{1}{\sin \theta}\right)^2 $$
+      $$ 1 + \cot^2 \theta = \csc^2 \theta $$
+      <em>Conditions:</em> $\sin \theta \neq 0$, i.e., $\theta \neq n\pi$ for any integer $n$.
+    </li>
+  </ul>
+
+  <h4>4. Trigonometric Values for [[Standard Angles]]</h4>
+  <p>
+    Memorizing or quickly deriving the values of trigonometric ratios for specific angles ($0^\circ, 30^\circ, 45^\circ, 60^\circ, 90^\circ$) is crucial for competitive exams.
+  </p>
+
+  <table border="1" style="width:100%; border-collapse: collapse; margin: 15px 0;">
+    <thead>
+      <tr style="background-color: var(--accent-light);">
+        <th>Angle ($\theta$)</th>
+        <th>$0^\circ$ ($0$ rad)</th>
+        <th>$30^\circ$ ($\pi/6$ rad)</th>
+        <th>$45^\circ$ ($\pi/4$ rad)</th>
+        <th>$60^\circ$ ($\pi/3$ rad)</th>
+        <th>$90^\circ$ ($\pi/2$ rad)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>$\sin \theta$</td>
+        <td>$0$</td>
+        <td>$1/2$</td>
+        <td>$1/\sqrt{2}$</td>
+        <td>$\sqrt{3}/2$</td>
+        <td>$1$</td>
+      </tr>
+      <tr>
+        <td>$\cos \theta$</td>
+        <td>$1$</td>
+        <td>$\sqrt{3}/2$</td>
+        <td>$1/\sqrt{2}$</td>
+        <td>$1/2$</td>
+        <td>$0$</td>
+      </tr>
+      <tr>
+        <td>$\tan \theta$</td>
+        <td>$0$</td>
+        <td>$1/\sqrt{3}$</td>
+        <td>$1$</td>
+        <td>$\sqrt{3}$</td>
+        <td>Undefined</td>
+      </tr>
+      <tr>
+        <td>$\csc \theta$</td>
+        <td>Undefined</td>
+        <td>$2$</td>
+        <td>$\sqrt{2}$</td>
+        <td>$2/\sqrt{3}$</td>
+        <td>$1$</td>
+      </tr>
+      <tr>
+        <td>$\sec \theta$</td>
+        <td>$1$</td>
+        <td>$2/\sqrt{3}$</td>
+        <td>$\sqrt{2}$</td>
+        <td>$2$</td>
+        <td>Undefined</td>
+      </tr>
+      <tr>
+        <td>$\cot \theta$</td>
+        <td>Undefined</td>
+        <td>$\sqrt{3}$</td>
+        <td>$1$</td>
+        <td>$1/\sqrt{3}$</td>
+        <td>$0$</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>5. Signs of Trigonometric Ratios in [[Quadrants]] (CAST Rule)</h4>
+  <p>
+    The signs of trigonometric ratios depend on the quadrant in which the angle terminates. This is easily visualized using the [[Unit Circle]].
+  </p>
+  <ul>
+    <li>
+      <strong>Quadrant I ($0^\circ < \theta < 90^\circ$):</strong> All ratios are positive. (A - All)
+    </li>
+    <li>
+      <strong>Quadrant II ($90^\circ < \theta < 180^\circ$):</strong> Only $\sin \theta$ and $\csc \theta$ are positive. (S - Sine)
+    </li>
+    <li>
+      <strong>Quadrant III ($180^\circ < \theta < 270^\circ$):</strong> Only $\tan \theta$ and $\cot \theta$ are positive. (T - Tangent)
+    </li>
+    <li>
+      <strong>Quadrant IV ($270^\circ < \theta < 360^\circ$):</strong> Only $\cos \theta$ and $\sec \theta$ are positive. (C - Cosine)
+    </li>
+  </ul>
+  <p>
+    The acronym <strong>"CAST"</strong> (starting from Quadrant IV and going counter-clockwise) helps remember which ratios are positive in each quadrant.
+  </p>
+
+  <h4>6. Trigonometric Ratios of [[Allied Angles]]</h4>
+  <p>
+    Allied angles are angles whose sum or difference with a given angle is a multiple of $90^\circ$ or $\pi/2$. Understanding these relations helps in finding the values of ratios for angles outside the $0^\circ - 90^\circ$ range.
+  </p>
+  <ul>
+    <li>
+      <strong>For $(90^\circ - \theta)$ or $(\pi/2 - \theta)$:</strong>
+      $$ \sin(90^\circ - \theta) = \cos \theta $$
+      $$ \cos(90^\circ - \theta) = \sin \theta $$
+      $$ \tan(90^\circ - \theta) = \cot \theta $$
+      And their reciprocals. These are the co-function identities.
+    </li>
+    <li>
+      <strong>For $(90^\circ + \theta)$ or $(\pi/2 + \theta)$:</strong>
+      $$ \sin(90^\circ + \theta) = \cos \theta $$
+      $$ \cos(90^\circ + \theta) = -\sin \theta $$
+      $$ \tan(90^\circ + \theta) = -\cot \theta $$
+    </li>
+    <li>
+      <strong>For $(180^\circ - \theta)$ or $(\pi - \theta)$:</strong>
+      $$ \sin(180^\circ - \theta) = \sin \theta $$
+      $$ \cos(180^\circ - \theta) = -\cos \theta $$
+      $$ \tan(180^\circ - \theta) = -\tan \theta $$
+    </li>
+    <li>
+      <strong>For $(180^\circ + \theta)$ or $(\pi + \theta)$:</strong>
+      $$ \sin(180^\circ + \theta) = -\sin \theta $$
+      $$ \cos(180^\circ + \theta) = -\cos \theta $$
+      $$ \tan(180^\circ + \theta) = \tan \theta $$
+    </li>
+    <li>
+      <strong>For $(270^\circ - \theta)$ or $(3\pi/2 - \theta)$:</strong>
+      $$ \sin(270^\circ - \theta) = -\cos \theta $$
+      $$ \cos(270^\circ - \theta) = -\sin \theta $$
+      $$ \tan(270^\circ - \theta) = \cot \theta $$
+    </li>
+    <li>
+      <strong>For $(270^\circ + \theta)$ or $(3\pi/2 + \theta)$:</strong>
+      $$ \sin(270^\circ + \theta) = -\cos \theta $$
+      $$ \cos(270^\circ + \theta) = \sin \theta $$
+      $$ \tan(270^\circ + \theta) = -\cot \theta $$
+    </li>
+    <li>
+      <strong>For $(360^\circ - \theta)$ or $(2\pi - \theta)$:</strong>
+      $$ \sin(360^\circ - \theta) = -\sin \theta $$
+      $$ \cos(360^\circ - \theta) = \cos \theta $$
+      $$ \tan(360^\circ - \theta) = -\tan \theta $$
+    </li>
+    <li>
+      <strong>For $(-\theta)$:</strong>
+      $$ \sin(-\theta) = -\sin \theta $$
+      $$ \cos(-\theta) = \cos \theta $$
+      $$ \tan(-\theta) = -\tan \theta $$
+      (Sine and Tangent are odd functions, Cosine is an even function).
+    </li>
+  </ul>
+
+  <div class="important-box" style="background: rgba(255,165,0,0.1); border-left: 3px solid orange; padding: 12px 16px; margin-top: 15px; border-radius: 0 6px 6px 0;">
+    <strong>General Rule for Allied Angles $(n \cdot 90^\circ \pm \theta)$:</strong>
+    <ul>
+      <li>If $n$ is <strong>even</strong> (e.g., $180^\circ = 2 \times 90^\circ$, $360^\circ = 4 \times 90^\circ$), the trigonometric ratio <strong>does not change</strong> (sin remains sin, cos remains cos, etc.).</li>
+      <li>If $n$ is <strong>odd</strong> (e.g., $90^\circ = 1 \times 90^\circ$, $270^\circ = 3 \times 90^\circ$), the trigonometric ratio <strong>changes to its co-function</strong> (sin to cos, cos to sin, tan to cot, etc.).</li>
+      <li>The <strong>sign</strong> of the result is determined by the quadrant in which $(n \cdot 90^\circ \pm \theta)$ lies, using the CAST rule for the <em>original</em> function.</li>
+    </ul>
+  </div>
+
+  <h4>7. Compound Angle Formulas</h4>
+  <p>
+    These identities express trigonometric functions of sums or differences of angles in terms of trigonometric functions of the individual angles.
+  </p>
+  <ul>
+    <li>
+      $$ \sin(A+B) = \sin A \cos B + \cos A \sin B $$
+    </li>
+    <li>
+      $$ \sin(A-B) = \sin A \cos B - \cos A \sin B $$
+    </li>
+    <li>
+      $$ \cos(A+B) = \cos A \cos B - \sin A \sin B $$
+    </li>
+    <li>
+      $$ \cos(A-B) = \cos A \cos B + \sin A \sin B $$
+    </li>
+    <li>
+      $$ \tan(A+B) = \frac{\tan A + \tan B}{1 - \tan A \tan B} $$
+    </li>
+    <li>
+      $$ \tan(A-B) = \frac{\tan A - \tan B}{1 + \tan A \tan B} $$
+    </li>
+  </ul>
+  <p>
+    <em>Conditions:</em> For $\tan(A \pm B)$, $\cos A \neq 0$, $\cos B \neq 0$, and $1 \mp \tan A \tan B \neq 0$.
+  </p>
+
+  <h4>8. [[Double Angle Formulas]]</h4>
+  <p>
+    Derived by setting $A=B$ in the [[Compound Angle Formulas]].
+  </p>
+  <ul>
+    <li>
+      $$ \sin 2A = 2 \sin A \cos A $$
+    </li>
+    <li>
+      $$ \cos 2A = \cos^2 A - \sin^2 A $$
+      $$ \cos 2A = 2 \cos^2 A - 1 $$
+      $$ \cos 2A = 1 - 2 \sin^2 A $$
+      $$ \cos 2A = \frac{1 - \tan^2 A}{1 + \tan^2 A} \quad (\text{provided } \tan^2 A \neq -1) $$
+    </li>
+    <li>
+      $$ \tan 2A = \frac{2 \tan A}{1 - \tan^2 A} $$
+      <em>Condition:</em> $\tan A \neq \pm 1$.
+    </li>
+  </ul>
+
+  <h4>9. [[Half Angle Formulas]]</h4>
+  <p>
+    Derived from the double angle formulas by replacing $A$ with $A/2$.
+  </p>
+  <ul>
+    <li>
+      $$ \sin \frac{A}{2} = \pm \sqrt{\frac{1 - \cos A}{2}} $$
+    </li>
+    <li>
+      $$ \cos \frac{A}{2} = \pm \sqrt{\frac{1 + \cos A}{2}} $$
+    </li>
+    <li>
+      $$ \tan \frac{A}{2} = \pm \sqrt{\frac{1 - \cos A}{1 + \cos A}} = \frac{1 - \cos A}{\sin A} = \frac{\sin A}{1 + \cos A} $$
+    </li>
+  </ul>
+  <p>
+    <em>Note:</em> The sign ($\pm$) depends on the quadrant of $A/2$.
+  </p>
+
+  <h4>10. [[Product-to-Sum Formulas]] and [[Sum-to-Product Formulas]]</h4>
+  <p>
+    These are derived by adding or subtracting the compound angle formulas.
+  </p>
+  <h5>10.1. Product-to-Sum:</h5>
+  <ul>
+    <li>$2 \sin A \cos B = \sin(A+B) + \sin(A-B)$</li>
+    <li>$2 \cos A \sin B = \sin(A+B) - \sin(A-B)$</li>
+    <li>$2 \cos A \cos B = \cos(A+B) + \cos(A-B)$</li>
+    <li>$2 \sin A \sin B = \cos(A-B) - \cos(A+B)$</li>
+  </ul>
+  <h5>10.2. Sum-to-Product:</h5>
+  <ul>
+    <li>$\sin C + \sin D = 2 \sin \left(\frac{C+D}{2}\right) \cos \left(\frac{C-D}{2}\right)$</li>
+    <li>$\sin C - \sin D = 2 \cos \left(\frac{C+D}{2}\right) \sin \left(\frac{C-D}{2}\right)$</li>
+    <li>$\cos C + \cos D = 2 \cos \left(\frac{C+D}{2}\right) \cos \left(\frac{C-D}{2}\right)$</li>
+    <li>$\cos C - \cos D = -2 \sin \left(\frac{C+D}{2}\right) \sin \left(\frac{C-D}{2}\right)$</li>
+  </ul>
+
+  <h4>11. [[Conditional Identities]]</h4>
+  <p>
+    These identities hold true only under specific conditions, often related to angles in a triangle (e.g., $A+B+C = \pi$).
+  </p>
+  <ul>
+    <li>If $A+B+C = \pi$ (i.e., $A, B, C$ are angles of a triangle), then:
+      <ul>
+        <li>$\sin A + \sin B + \sin C = 4 \cos \frac{A}{2} \cos \frac{B}{2} \cos \frac{C}{2}$</li>
+        <li>$\cos A + \cos B + \cos C = 1 + 4 \sin \frac{A}{2} \sin \frac{B}{2} \sin \frac{C}{2}$</li>
+        <li>$\tan A + \tan B + \tan C = \tan A \tan B \tan C$</li>
+        <li>$\cot A \cot B + \cot B \cot C + \cot C \cot A = 1$</li>
       </ul>
     </li>
   </ul>
 
-  <h4><strong>3. Pythagorean Identities</strong></h4>
-  <p>Derived from the unit‑circle equation <strong>sin²θ + cos²θ = 1</strong> (first proved by [[Pythagoras' theorem]]). By dividing through by sin²θ or cos²θ we obtain:</p>
+  <h4>12. Real-World Applications</h4>
+  <p>
+    Trigonometry is not just an abstract mathematical concept; it has profound practical applications:
+  </p>
   <ul>
-    <li>1 + tan²θ = sec²θ</li>
-    <li>1 + cot²θ = csc²θ</li>
+    <li><strong>Navigation:</strong> Essential for determining locations, distances, and directions for ships, aircraft, and spacecraft. [[GPS]] systems rely heavily on trigonometric principles.</li>
+    <li><strong>Engineering:</strong> Used in civil engineering for designing bridges and buildings, in mechanical engineering for analyzing forces and motion, and in electrical engineering for studying [[Alternating Current]] (AC) circuits.</li>
+    <li><strong>Physics:</strong> Describes wave phenomena (light, sound, radio waves), [[Harmonic motion]], and projectile trajectories.</li>
+    <li><strong>Surveying:</strong> Critical for measuring distances and angles in land mapping and construction.</li>
+    <li><strong>Astronomy:</strong> Calculating distances to stars and planets, and understanding celestial mechanics.</li>
   </ul>
 
-  <h4><strong>4. Co‑function Identities</strong></h4>
-  <p>These relate a function at an angle to its complement (90° = π/2 rad):</p>
+  <h4>13. Common Mistakes to Avoid</h4>
+  <ol>
+    <li>
+      <strong>Confusing Notation:</strong> $\sin^2 \theta$ means $(\sin \theta)^2$, not $\sin (\theta^2)$. Similarly, $\sin^{-1} \theta$ is the inverse sine function (arcsin), not $1/\sin \theta$.
+    </li>
+    <li>
+      <strong>Incorrect Signs in Quadrants:</strong> A frequent error is misapplying the CAST rule, leading to incorrect signs for trigonometric ratios in different quadrants. Always visualize the angle on the unit circle.
+    </li>
+    <li>
+      <strong>Algebraic Errors:</strong> Treating trigonometric expressions as simple algebraic terms. For example, $(\sin \theta + \cos \theta)^2$ is NOT $\sin^2 \theta + \cos^2 \theta$. It expands to $\sin^2 \theta + \cos^2 \theta + 2 \sin \theta \cos \theta = 1 + \sin 2\theta$.
+    </li>
+    <li>
+      <strong>Domain and Range Restrictions:</strong> For functions like $\tan \theta$, $\sec \theta$, $\csc \theta$, $\cot \theta$, remember their undefined points (e.g., $\tan 90^\circ$ is undefined). Also, $\sin \theta$ and $\cos \theta$ values are always between $-1$ and $1$, inclusive.
+    </li>
+    <li>
+      <strong>Misapplying Allied Angle Rules:</strong> Incorrectly changing the function (e.g., $\sin(180^\circ - \theta)$ to $\cos \theta$) or assigning the wrong sign. Remember: $n \cdot 90^\circ \pm \theta$: if $n$ is odd, function changes; if $n$ is even, function remains. Sign is based on the original function's quadrant.
+    </li>
+  </ol>
+
+  <h4>14. Shortcuts & Tricks</h4>
   <ul>
-    <li>sin θ = cos(π/2 – θ)</li>
-    <li>cos θ = sin(π/2 – θ)</li>
-    <li>tan θ = cot(π/2 – θ)</li>
-    <li>sec θ = csc(π/2 – θ)</li>
-  </ul>
-
-  <h4><strong>5. Sum and Difference Formulas</strong></h4>
-  <p>Essential for evaluating expressions where the angle is a sum or difference of known angles.</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:8px;">
-    <thead>
-      <tr style="background:#222; color:#fff;">
-        <th style="padding:6px;">Identity</th><th style="padding:6px;">Expression</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;"><strong>sin(A ± B)</strong></td>
-        <td style="padding:6px;">sin A cos B ± cos A sin B</td>
-      </tr>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;"><strong>cos(A ± B)</strong></td>
-        <td style="padding:6px;">cos A cos B ∓ sin A sin B</td>
-      </tr>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;"><strong>tan(A ± B)</strong></td>
-        <td style="padding:6px;">(tan A ± tan B) / (1 ∓ tan A tan B)</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h4><strong>6. Double‑Angle Identities</strong></h4>
-  <p>Obtained by setting B = A in the sum formulas.</p>
-  <ul>
-    <li><strong>sin 2θ</strong> = 2 sin θ cos θ</li>
-    <li><strong>cos 2θ</strong> = cos²θ – sin²θ = 2 cos²θ – 1 = 1 – 2 sin²θ</li>
-    <li><strong>tan 2θ</strong> = (2 tan θ) / (1 – tan²θ)</li>
-  </ul>
-
-  <h4><strong>7. Half‑Angle Identities</strong></h4>
-  <p>Derived from the double‑angle formulas, useful for evaluating trigonometric values at 22.5°, 15°, etc.</p>
-  <ul>
-    <li><strong>sin²(θ/2)</strong> = (1 – cos θ)/2</li>
-    <li><strong>cos²(θ/2)</strong> = (1 + cos θ)/2</li>
-    <li><strong>tan(θ/2)</strong> = (1 – cos θ)/sin θ = sin θ/(1 + cos θ)</li>
-  </ul>
-
-  <h4><strong>8. Product‑to‑Sum and Sum‑to‑Product</strong></h4>
-  <p>These transformations simplify products of sines and cosines.</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:8px;">
-    <thead>
-      <tr style="background:#222; color:#fff;">
-        <th style="padding:6px;">Form</th><th style="padding:6px;">Identity</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;"><strong>sin A sin B</strong></td>
-        <td style="padding:6px;">½[cos(A – B) – cos(A + B)]</td>
-      </tr>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;"><strong>cos A cos B</strong></td>
-        <td style="padding:6px;">½[cos(A – B) + cos(A + B)]</td>
-      </tr>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;"><strong>sin A cos B</strong></td>
-        <td style="padding:6px;">½[sin(A + B) + sin(A – B)]</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h4><strong>9. Triple‑Angle and Multiple‑Angle Formulas</strong></h4>
-  <p>Beyond the standard double‑angle, the following are frequently required:</p>
-  <ul>
-    <li><strong>sin 3θ</strong> = 3 sin θ – 4 sin³θ</li>
-    <li><strong>cos 3θ</strong> = 4 cos³θ – 3 cos θ</li>
-    <li><strong>tan 3θ</strong> = (3 tan θ – tan³θ) / (1 – 3 tan²θ)</li>
-  </ul>
-
-  <h4><strong>10. Exact Values of Trigonometric Functions</strong></h4>
-  <p>Values at the principal angles (0°, 30°, 45°, 60°, 90°) and their radian equivalents are memorised for rapid calculation.</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:8px;">
-    <thead>
-      <tr style="background:#222; color:#fff;">
-        <th style="padding:6px;">Angle</th>
-        <th style="padding:6px;">Radians</th>
-        <th style="padding:6px;">sin</th>
-        <th style="padding:6px;">cos</th>
-        <th style="padding:6px;">tan</th>
-        <th style="padding:6px;">sec</th>
-        <th style="padding:6px;">csc</th>
-        <th style="padding:6px;">cot</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;"><strong>0°</strong></td>
-        <td style="padding:6px;">0</td>
-        <td style="padding:6px;">0</td>
-        <td style="padding:6px;">1</td>
-        <td style="padding:6px;">0</td>
-        <td style="padding:6px;">1</td>
-        <td style="padding:6px;">∞</td>
-        <td style="padding:6px;">∞</td>
-      </tr>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;"><strong>30°</strong></td>
-        <td style="padding:6px;">π/6</td>
-        <td style="padding:6px;">½</td>
-        <td style="padding:6px;">√3⁄2</td>
-        <td style="padding:6px;">1⁄√3 = √3⁄3</td>
-        <td style="padding:6px;">2⁄√3 = 2√3⁄3</td>
-        <td style="padding:6px;">2</td>
-        <td style="padding:6px;">√3</td>
-      </tr>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;"><strong>45°</strong></td>
-        <td style="padding:6px;">π/4</td>
-        <td style="padding:6px;">√2⁄2</td>
-        <td style="padding:6px;">√2⁄2</td>
-        <td style="padding:6px;">1</td>
-        <td style="padding:6px;">√2</td>
-        <td style="padding:6px;">√2</td>
-        <td style="padding:6px;">1</td>
-      </tr>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;"><strong>60°</strong></td>
-        <td style="padding:6px;">π/3</td>
-        <td style="padding:6px;">√3⁄2</td>
-        <td style="padding:6px;">½</td>
-        <td style="padding:6px;">√3</td>
-        <td style="padding:6px;">2</td>
-        <td style="padding:6px;">2⁄√3 = 2√3⁄3</td>
-        <td style="padding:6px;">1⁄√3 = √3⁄3</td>
-      </tr>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;"><strong>90°</strong></td>
-        <td style="padding:6px;">π/2</td>
-        <td style="padding:6px;">1</td>
-        <td style="padding:6px;">0</td>
-        <td style="padding:6px;">∞</td>
-        <td style="padding:6px;">∞</td>
-        <td style="padding:6px;">1</td>
-        <td style="padding:6px;">0</td>
-      </tr>
-    </tbody>
-  </table>
-  <p>Note: Values for angles beyond 90° are obtained using the periodicity and symmetry rules (e.g., sin(π + θ) = –sin θ).</p>
-
-  <h4><strong>11. Relationship with Complex Exponential – Euler’s Formula</strong></h4>
-  <p>[[Leonhard Euler]] established the elegant connection:</p>
-  <p><strong>e^{iθ} = cos θ + i sin θ</strong></p>
-  <p>From this, the following identities are immediate:</p>
-  <ul>
-    <li>cos θ = (e^{iθ} + e^{-iθ}) / 2</li>
-    <li>sin θ = (e^{iθ} – e^{-iθ}) / (2i)</li>
-  </ul>
-  <p>Euler’s formula is instrumental in deriving higher‑order identities, especially for Fourier analysis and signal processing, topics that occasionally appear in the <strong>General Knowledge</strong> section of the NDA exam when asked about the history of mathematics.</p>
-
-  <h4><strong>12. Historical Development of Trigonometry</strong></h4>
-  <p>Understanding the lineage of concepts can often aid memory:</p>
-  <ul>
-    <li>[[Hipparchus]] (c. 190 BC) – First known trigonometric table (chord function).</li>
-    <li>[[Aryabhata]] (476 CE) – Introduced sine (jya) in Indian astronomy; his work <em>Āryabhaṭīya</em> contains a table of half‑chords.</li>
-    <li>[[Brahmagupta]] (628 CE) – Extended sine tables and related them to cosine.</li>
-    <li>[[Madhava of Sangamagrama]] (c. 14th century) – Developed infinite series for sin θ and cos θ, pre‑figuring the modern Taylor series.</li>
-    <li>[[John Napier]] (1614) – Invented logarithms, which later facilitated trigonometric calculations.</li>
-    <li>[[Isaac Newton]] (1665) – Applied trigonometric series to solve problems in celestial mechanics.</li>
-    <li>[[Gottfried Wilhelm Leibniz]] – Co‑inventor of calculus, which formalised the differentiation of trig functions.</li>
-  </ul>
-
-  <h4><strong>13. Common Pitfalls & Quick‑Check Techniques</strong></h4>
-  <ul>
-    <li>Never mix up the signs in the sum‑difference formulas; a mnemonic “<strong>SOH‑CAH‑TOA</strong>” works only for basic ratios, not for sum formulas.</li>
-    <li>When converting between degrees and radians, remember <strong>π rad = 180°</strong>. Hence 1° = π/180 rad.</li>
-    <li>Always verify domain restrictions: tan θ and sec θ are undefined where cos θ = 0 (i.e., θ = π/2 + kπ).</li>
-    <li>For half‑angle values, decide the sign based on the quadrant of θ/2.</li>
-  </ul>
-
-  <h4><strong>14. Application in NDA / CDS / AFCAT Problems</strong></h4>
-  <p>Typical questions involve:</p>
-  <ul>
-    <li>Finding the exact value of an expression such as <strong>sin 15°</strong> using half‑angle identities.</li>
-    <li>Solving equations like <strong>tan θ = √3</strong> within a specified interval.</li>
-    <li>Evaluating determinants containing trigonometric functions where the use of co‑function identities simplifies the matrix.</li>
-    <li>Proving identities (e.g., <strong>sin θ + cos θ = √2 sin(θ + π/4)</strong>) which are standard in the syllabus.</li>
-  </ul>
-
-  <h4><strong>15. Reference Tables for Quick Recall</strong></h4>
-  <p>Below are two compact tables that aid rapid recall during the exam.</p>
-  <table style="width:48%; float:left; border-collapse:collapse; margin-right:4%; margin-top:8px;">
-    <thead>
-      <tr style="background:#222; color:#fff;">
-        <th colspan="2" style="padding:6px;"><strong>Quarter‑Circle Values</strong></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;">θ (°)</td><td style="padding:6px;">sin θ</td>
-      </tr>
-      <tr><td style="padding:6px;">0</td><td style="padding:6px;">0</td></tr>
-      <tr><td style="padding:6px;">30</td><td style="padding:6px;">½</td></tr>
-      <tr><td style="padding:6px;">45</td><td style="padding:6px;">√2⁄2</td></tr>
-      <tr><td style="padding:6px;">60</td><td style="padding:6px;">√3⁄2</td></tr>
-      <tr><td style="padding:6px;">90</td><td style="padding:6px;">1</td></tr>
-    </tbody>
-  </table>
-
-  <table style="width:48%; float:left; border-collapse:collapse; margin-top:8px;">
-    <thead>
-      <tr style="background:#222; color:#fff;">
-        <th colspan="2" style="padding:6px;"><strong>Key Identities Summary</strong></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="border-bottom:1px solid #444;">
-        <td style="padding:6px;">Pythagorean</td><td style="padding:6px;">sin²θ + cos²θ = 1</td>
-      </tr>
-      <tr><td style="padding:6px;">Double‑Angle</td><td style="padding:6px;">sin 2θ = 2sinθcosθ</td></tr>
-      <tr><td style="padding:6px;">Half‑Angle</td><td style="padding:6px;">cos²(θ/2) = (1+cosθ)/2</td></tr>
-      <tr><td style="padding:6px;">Sum‑to‑Product</td><td style="padding:6px;">sinA sinB = ½[cos(A‑B) – cos(A+B)]</td></tr>
-      <tr><td style="padding:6px;">Co‑function</td><td style="padding:6px;">cosθ = sin(π/2‑θ)</td></tr>
-    </tbody>
-  </table>
-  <div style="clear:both;"></div>
-
-  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
-    <ul style="margin-top: 8px;">
-      <li>sin 30° = ½, cos 30° = √3⁄2, tan 30° = √3⁄3.</li>
-      <li>sin 45° = cos 45° = √2⁄2; tan 45° = 1.</li>
-      <li>sin 60° = √3⁄2, cos 60° = ½, tan 60° = √3.</li>
-      <li>Double‑angle: sin 2θ = 2sinθcosθ; cos 2θ = 1 – 2sin²θ.</li>
-      <li>Half‑angle: sin²(θ/2) = (1 – cosθ)/2, cos²(θ/2) = (1 + cosθ)/2.</li>
-      <li>Euler’s formula: e^{iθ} = cosθ + i sinθ.</li>
-      <li>Pythagorean identity: 1 + tan²θ = sec²θ.</li>
-      <li>Co‑function: sinθ = cos(π/2 – θ); tanθ = cot(π/2 – θ).</li>
-    </ul>
-  </div>
-</div>
+    <li>
+      <strong>Hand Trick for $0^\circ,
 `;
 
 EXPANDED_NOTES_DATA["inverse-trig"] = `
@@ -286,184 +428,251 @@ EXPANDED_NOTES_DATA["inverse-trig"] = `
     Inverse Trigonometric Functions
   </h3>
 
-  <h4><strong>1. Definition & Historical Context</strong></h4>
-  <p>The <strong>inverse trigonometric functions</strong> (also called arc‑functions) are the set of functions that return the angle whose trigonometric value is given. They are denoted as <strong>arcsin</strong>, <strong>arccos</strong>, <strong>arctan</strong>, <strong>arccot</strong>, <strong>arcsec</strong>, and <strong>arccsc</strong>. The need for these functions emerged from solving triangles in ancient geometry, a problem discussed in [[Euclid's Elements]] (c. 300 BCE) and later formalised by [[Pythagoras]] and his school. Modern notation was introduced in the 18th century, with contributions from [[Leonhard Euler]] and [[Isaac Newton]].</p>
+  <h4><strong>1. Formal Definition & Principal Value Branches</strong></h4>
+  <p>The <strong>inverse trigonometric functions</strong> are the set of functions that reverse the action of the six elementary trigonometric functions on a restricted domain so that each becomes one‑to‑one.  For a given trigonometric function <em>f</em>, its inverse is denoted by <strong>f<sup>−1</sup></strong> (e.g., <strong>sin<sup>−1</sup></strong>, <strong>cos<sup>−1</sup></strong>, <strong>tan<sup>−1</sup></strong>).  The restriction is called the <em>principal value branch</em> and is chosen to make the inverse single‑valued.</p>
 
-  <h4><strong>2. Principal Value Branches</strong></h4>
-  <p>Because the trigonometric functions are periodic, each inverse function is multi‑valued. For calculus and engineering applications, a single‑valued “principal branch” is chosen. The table below summarises the conventional principal value intervals, expressed in both <strong>radians</strong> and <strong>degrees</strong>:</p>
+  <div class="important-box" style="border-left:4px solid var(--accent); padding:10px; margin:15px 0; background:#f9f9f9;">
+    <strong>Principal Value Ranges</strong>
+    <table style="width:100%; border-collapse:collapse;">
+      <tr style="border-bottom:1px solid #ccc;">
+        <th style="text-align:left; padding:5px;">Inverse</th>
+        <th style="text-align:left; padding:5px;">Domain</th>
+        <th style="text-align:left; padding:5px;">Range (Principal Value)</th>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;">
+        <td style="padding:5px;"><strong>sin<sup>−1</sup> x</strong></td>
+        <td style="padding:5px;">$-1\le x\le 1$</td>
+        <td style="padding:5px;">$[-\frac{\pi}{2},\;\frac{\pi}{2}]$</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;">
+        <td style="padding:5px;"><strong>cos<sup>−1</sup> x</strong></td>
+        <td style="padding:5px;">$-1\le x\le 1$</td>
+        <td style="padding:5px;">$[0,\;\pi]$</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;">
+        <td style="padding:5px;"><strong>tan<sup>−1</sup> x</strong></td>
+        <td style="padding:5px;">$-\infty < x < \infty$</td>
+        <td style="padding:5px;">$(-\frac{\pi}{2},\;\frac{\pi}{2})$</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;">
+        <td style="padding:5px;"><strong>cot<sup>−1</sup> x</strong></td>
+        <td style="padding:5px;">$-\infty < x < \infty$</td>
+        <td style="padding:5px;">$(0,\;\pi)$</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;">
+        <td style="padding:5px;"><strong>sec<sup>−1</sup> x</strong></td>
+        <td style="padding:5px;">$|x|\ge 1$</td>
+        <td style="padding:5px;">$[0,\;\pi]\setminus\{\frac{\pi}{2}\}$</td>
+      </tr>
+      <tr>
+        <td style="padding:5px;"><strong>csc<sup>−1</sup> x</strong></td>
+        <td style="padding:5px;">$|x|\ge 1$</td>
+        <td style="padding:5px;">$[-\frac{\pi}{2},\;\frac{\pi}{2}]\setminus\{0\}$</td>
+      </tr>
+    </table>
+  </div>
 
-  <table style="width:100%; border-collapse:collapse; margin-top:8px;">
-    <thead>
-      <tr style="background:#333;color:#fff;">
-        <th style="padding:6px; border:1px solid #555;">Function</th>
-        <th style="padding:6px; border:1px solid #555;">Domain (Input)</th>
-        <th style="padding:6px; border:1px solid #555;">Principal Range (Output)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding:6px; border:1px solid #555;"><strong>arcsin x</strong></td>
-        <td style="padding:6px; border:1px solid #555;">-1 ≤ x ≤ 1</td>
-        <td style="padding:6px; border:1px solid #555;">[-π/2, π/2] = [-90°, 90°]</td>
-      </tr>
-      <tr>
-        <td style="padding:6px; border:1px solid #555;"><strong>arccos x</strong></td>
-        <td style="padding:6px; border:1px solid #555;">-1 ≤ x ≤ 1</td>
-        <td style="padding:6px; border:1px solid #555;">[0, π] = [0°, 180°]</td>
-      </tr>
-      <tr>
-        <td style="padding:6px; border:1px solid #555;"><strong>arctan x</strong></td>
-        <td style="padding:6px; border:1px solid #555;">x ∈ ℝ</td>
-        <td style="padding:6px; border:1px solid #555;">(-π/2, π/2) = (-90°, 90°)</td>
-      </tr>
-      <tr>
-        <td style="padding:6px; border:1px solid #555;"><strong>arccot x</strong></td>
-        <td style="padding:6px; border:1px solid #555;">x ∈ ℝ</td>
-        <td style="padding:6px; border:1px solid #555;">(0, π) = (0°, 180°)</td>
-      </tr>
-      <tr>
-        <td style="padding:6px; border:1px solid #555;"><strong>arcsec x</strong></td>
-        <td style="padding:6px; border:1px solid #555;">|x| ≥ 1</td>
-        <td style="padding:6px; border:1px solid #555;">[0, π] \{π/2}</td>
-      </tr>
-      <tr>
-        <td style="padding:6px; border:1px solid #555;"><strong>arccsc x</strong></td>
-        <td style="padding:6px; border:1px solid #555;">|x| ≥ 1</td>
-        <td style="padding:6px; border:1px solid #555;">[-π/2, π/2] \{0}</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h4><strong>3. Fundamental Identities Involving Inverses</strong></h4>
+  <h4><strong>2. Fundamental Identities Derived from Definitions</strong></h4>
+  <p>Starting from the definition $y=\sin^{-1}x\iff \sin y=x$ with $y\in[-\frac{\pi}{2},\frac{\pi}{2}]$, we can obtain a host of identities that are indispensable in solving NDA / CDS problems.</p>
   <ul>
-    <li><strong>Reciprocal Relationships</strong>:
+    <li><strong>Reciprocal Relations</strong>  
       <ul>
-        <li>arcsin x + arccos x = π/2</li>
-        <li>arctan x + arccot x = π/2</li>
-        <li>arcsec x + arccsc x = π/2</li>
+        <li>$\displaystyle \sin^{-1}x+\cos^{-1}x=\frac{\pi}{2}$, \quad valid for $x\in[-1,1]$.</li>
+        <li>$\displaystyle \tan^{-1}x+\cot^{-1}x=\frac{\pi}{2}$, \quad valid for $x\in\mathbb{R}$.</li>
+        <li>$\displaystyle \sec^{-1}x+\csc^{-1}x=\frac{\pi}{2}$, \quad valid for $|x|\ge 1$.</li>
       </ul>
     </li>
-    <li><strong>Complementary Angle Identities</strong> (derived from the above):
+    <li><strong>Odd–Even Properties</strong>  
       <ul>
-        <li>arcsin x = π/2 − arccos x</li>
-        <li>arctan x = π/2 − arccot x</li>
+        <li>$\displaystyle \sin^{-1}(-x)=-\sin^{-1}x$ (odd).</li>
+        <li>$\displaystyle \cos^{-1}(-x)=\pi-\cos^{-1}x$ (even‑type symmetry).</li>
+        <li>$\displaystyle \tan^{-1}(-x)=-\tan^{-1}x$ (odd).</li>
       </ul>
     </li>
-    <li><strong>Even‑Odd Symmetry</strong>:
+    <li><strong>Double‑Angle Transformations</strong> (derived by applying the double‑angle formulas to the defining equations).  
       <ul>
-        <li>arcsin(−x) = −arcsin x</li>
-        <li>arccos(−x) = π − arccos x</li>
-        <li>arctan(−x) = −arctan x</li>
-      </ul>
-    </li>
-    <li><strong>Double‑Angle Transformations</strong> (useful for solving equations):
-      <ul>
-        <li>arcsin (2x√(1−x²)) = 2 arcsin x for |x| ≤ 1/√2</li>
-        <li>arccos (2x² − 1) = 2 arccos x for |x| ≥ 0</li>
+        <li>$\displaystyle \sin^{-1}x=2\sin^{-1}\!\Big(\frac{x}{1+\sqrt{1-x^{2}}}\Big)$, \quad $|x|\le 1$.</li>
+        <li>$\displaystyle \tan^{-1}x=\frac{1}{2}\tan^{-1}\!\Big(\frac{2x}{1-x^{2}}\Big)$, \quad $x\neq\pm1$.</li>
       </ul>
     </li>
   </ul>
 
-  <h4><strong>4. Differentiation & Integration</strong></h4>
-  <p>Derivatives of the principal branches are indispensable in NDA/CDS calculus sections. Using implicit differentiation or the chain rule, we obtain:</p>
-  <ul>
-    <li><strong>d/dx (arcsin x)</strong> = 1 / √(1 − x²)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
-      <li><strong>d/dx (arccos x)</strong> = −1 / √(1 − x²)</li>
-      <li><strong>d/dx (arctan x)</strong> = 1 / (1 + x²)</li>
-      <li><strong>d/dx (arccot x)</strong> = −1 / (1 + x²)</li>
-      <li><strong>d/dx (arcsec x)</strong> = 1 / (|x|√(x² − 1))</li>
-      <li><strong>d/dx (arccsc x)</strong> = −1 / (|x|√(x² − 1))</li>
-    </ul>
-
-  <p>Integrals involving inverse functions are frequently asked in the “Integration by Parts” and “Trigonometric Substitution” sections. Key results include:</p>
-  <ul>
-    <li><strong>∫ arcsin x dx</strong> = x arcsin x + √(1 − x²) + C</li>
-    <li><strong>∫ arccos x dx</strong> = x arccos x − √(1 − x²) + C</li>
-    <li><strong>∫ arctan x dx</strong> = x arctan x − ½ ln(1 + x²) + C</li>
-    <li><strong>∫ arccot x dx</strong> = x arccot x + ½ ln(1 + x²) + C</li>
-  </ul>
-
-  <h4><strong>5. Series Expansions (Maclaurin & Taylor)</strong></h4>
-  <p>Power‑series representations are vital for approximation problems and for evaluating limits. Using the <strong>Maclaurin series</strong> (a special case of the <strong>Taylor series</strong> centred at 0), we obtain:</p>
-  <ul>
-    <li><strong>arcsin x</strong> = ∑_{n=0}^{∞} \frac{(2n)!}{4^{n}(n!)^{2}(2n+1)} x^{2n+1}
-      <br>Converges for |x| ≤ 1.</li>
-    <li><strong>arctan x</strong> = ∑_{n=0}^{∞} (−1)^{n}\frac{x^{2n+1}}{2n+1}
-      <br>Converges for |x| ≤ 1 (conditionally at x = ±1).</li>
-    <li><strong>arccos x</strong> = π/2 − arcsin x = π/2 − ∑_{n=0}^{∞} \frac{(2n)!}{4^{n}(n!)^{2}(2n+1)} x^{2n+1}</li>
-  </ul>
-
-  <p>These expansions are directly linked to [[Leonhard Euler]]'s work on infinite series and are often utilised in the “Series & Sequences” portion of the exam.</p>
-
-  <h4><strong>6. Relationship with Complex Numbers & Euler’s Formula</strong></h4>
-  <p>Through [[Euler's formula]] e^{iθ}=cos θ + i sin θ, the inverse functions can be expressed using complex logarithms:</p>
-  <ul>
-    <li><strong>arcsin z</strong> = −i ln\Big( i z + √{1 − z²}\Big)</li>
-    <li><strong>arccos z</strong> = −i ln\Big( z + i √{1 − z²}\Big)</li>
-    <li><strong>arctan z</strong> = \frac{i}{2}\,ln\Big(\frac{1 − i z}{1 + i z}\Big)</li>
-  </ul>
-  <p>These forms are indispensable when handling integration of rational functions involving quadratic irreducible factors, a topic that appears regularly in NDA/CSIR‑JRF type problems.</p>
-
-  <h4><strong>7. Solving Trigonometric Equations Using Inverses</strong></h4>
-  <p>A systematic approach for solving equations such as <em>sin θ = k</em> or <em>tan θ = k</em> involves:</p>
+  <h4><strong>3. Derivatives & Integrals – From First Principles</strong></h4>
+  <p>Using implicit differentiation on the defining equation $\sin y=x$, we get:</p>
+  <p><strong>Derivative of $\sin^{-1}x$</strong>:</p>
+  $$\frac{d}{dx}\big(\sin^{-1}x\big)=\frac{1}{\sqrt{1-x^{2}}},\qquad |x|<1$$
+  <p>Derivation:</p>
   <ol>
-    <li>Finding the principal value θ₀ = arcsin k (or arctan k).</li>
-    <li>Exploiting periodicity: 
-      <ul>
-        <li>For sine: θ = θ₀ + 2πn or θ = π − θ₀ + 2πn.</li>
-        <li>For cosine: θ = θ₀ + 2πn or θ = −θ₀ + 2πn.</li>
-        <li>For tangent: θ = θ₀ + πn.</li>
-      </ul>
-    </li>
-    <li>Ensuring the solution lies within the required interval (often 0°–360° or 0–2π).</li>
+    <li>Let $y=\sin^{-1}x \;\Rightarrow\; \sin y=x$.</li>
+    <li>Differentiate both sides w.r.t. $x$: $\cos y\,\frac{dy}{dx}=1$.</li>
+    <li>Since $\cos y=\sqrt{1-\sin^{2}y}=\sqrt{1-x^{2}}$ (principal branch gives non‑negative root), we have $\displaystyle \frac{dy}{dx}=\frac{1}{\sqrt{1-x^{2}}}$.</li>
   </ol>
 
-  <h4><strong>8. Graphical Characteristics</strong></h4>
-  <p>The graphs of the six inverse functions are reflections of their direct counterparts about the line y = x. Key features include:</p>
+  <p>Analogously, the other derivatives are:</p>
   <ul>
-    <li><strong>Domain and Range</strong> are interchanged compared to sin, cos, tan, etc.</li>
-    <li>All are monotonic within the principal branch, guaranteeing the existence of inverses.</li>
-    <li>Vertical asymptotes occur for arcsec, arccsc, and arccot at points where the original function has zeros (e.g., x = 0 for arccsc).</li>
-    <li>Discontinuities are removed by the principal value choice; for instance, arcsin x is continuous on [−1, 1].</li>
+    <li>$\displaystyle \frac{d}{dx}\big(\cos^{-1}x\big)=-\frac{1}{\sqrt{1-x^{2}}},\qquad |x|<1$</li>
+    <li>$\displaystyle \frac{d}{dx}\big(\tan^{-1}x\big)=\frac{1}{1+x^{2}},\qquad x\in\mathbb{R}$</li>
+    <li>$\displaystyle \frac{d}{dx}\big(\cot^{-1}x\big)=-\frac{1}{1+x^{2}},\qquad x\in\mathbb{R}$</li>
+    <li>$\displaystyle \frac{d}{dx}\big(\sec^{-1}x\big)=\frac{1}{|x|\sqrt{x^{2}-1}},\qquad |x|>1$</li>
+    <li>$\displaystyle \frac{d}{dx}\big(\csc^{-1}x\big)=-\frac{1}{|x|\sqrt{x^{2}-1}},\qquad |x|>1$</li>
   </ul>
 
-  <h4><strong>9. Applications in Defence & Ballistic Trajectories</strong></h4>
-  <p>Inverse trigonometric functions are employed in the computation of launch angles for artillery shells and missile trajectories. Using the <strong>range equation</strong>:</p>
-  <p><strong>R = (v₀² / g) sin 2θ</strong></p>
-  <p>the required elevation angle θ for a desired range R is obtained as:</p>
-  <p><strong>θ = ½ arcsin ( gR / v₀² )</strong></p>
-  <p>where <strong>v₀</strong> is the muzzle velocity and <strong>g</strong> is the acceleration due to gravity (≈ 9.80665 m s⁻²). The same principle appears in navigation problems, where the bearing is calculated via <strong>arctan (Δy/Δx)</strong>.</p>
-
-  <h4><strong>10. Common Pitfalls & Tricks for the Examination</strong></h4>
+  <p>Integration formulas that frequently appear in NDA / AFCAT questions:</p>
   <ul>
-    <li><strong>Sign Errors</strong>: Remember that arccos (−x) = π − arccos x, not −arccos x.</li>
-    <li><strong>Domain Restrictions</strong>: Never substitute a value outside the defined domain; the result is undefined and leads to loss of marks.</li>
-    <li><strong>Principal Value vs. General Solution</strong>: In multiple‑choice or integer‑type questions, the required answer may be the principal value unless otherwise specified.</li>
-    <li><strong>Using Symmetry</strong>: For equations like sin θ = sin α, the solution set can be written compactly as θ = α + 2πn or θ = π − α + 2πn.</li>
-    <li><strong>Series Approximation</strong>: For small angles (|θ| < 0.1 rad), arcsin θ ≈ θ and arctan θ ≈ θ, which simplifies many projectile‑motion calculations.</li>
+    <li>$\displaystyle \int \frac{dx}{\sqrt{1-x^{2}}}=\sin^{-1}x+C$</li>
+    <li>$\displaystyle \int \frac{dx}{1+x^{2}}=\tan^{-1}x+C$</li>
+    <li>$\displaystyle \int \frac{dx}{x\sqrt{x^{2}-1}}=\sec^{-1}|x|+C$ (for $|x|>1$)</li>
   </ul>
 
-  <h4><strong>11. Inter‑relationships with Other Mathematical Topics</strong></h4>
-  <p>Inverse trigonometric functions intersect with:</p>
+  <h4><strong>4. Composite Angles and Addition Formulas</strong></h4>
+  <p>When the argument of an inverse function is a rational expression, we can often convert it to a standard angle using addition formulas. Consider:</p>
+  $$\sin^{-1}\!\Big(\frac{2\tan\theta}{1+\tan^{2}\theta}\Big)=2\theta,\qquad -\frac{\pi}{4}<\theta<\frac{\pi}{4}$$
+  <p>Derivation uses the identity $\displaystyle \sin 2\theta=\frac{2\tan\theta}{1+\tan^{2}\theta}$ and the principal range of $\sin^{-1}$.</p>
+
+  <p>Similarly:</p>
+  $$\tan^{-1}\!\Big(\frac{\sin\alpha}{\cos\alpha}\Big)=\alpha,\qquad -\frac{\pi}{2}<\alpha<\frac{\pi}{2}$$
+  <p>which follows directly from $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.</p>
+
+  <h4><strong>5. Tables of Frequently Used Exact Values</strong></h4>
+  <table style="width:100%; border-collapse:collapse; margin:10px 0;">
+    <tr style="border-bottom:1px solid #ccc;">
+      <th style="padding:5px; text-align:left;">Argument</th>
+      <th style="padding:5px; text-align:left;">$\sin^{-1}$</th>
+      <th style="padding:5px; text-align:left;">$\cos^{-1}$</th>
+      <th style="padding:5px; text-align:left;">$\tan^{-1}$</th>
+    </tr>
+    <tr style="border-bottom:1px solid #eee;">
+      <td style="padding:5px;">$0$</td>
+      <td style="padding:5px;">$0$</td>
+      <td style="padding:5px;">$\frac{\pi}{2}$</td>
+      <td style="padding:5px;">$0$</td>
+    </tr>
+    <tr style="border-bottom:1px solid #eee;">
+      <td style="padding:5px;">$1$</td>
+      <td style="padding:5px;">$\frac{\pi}{2}$</td>
+      <td style="padding:5px;">$0$</td>
+      <td style="padding:5px;">$\frac{\pi}{4}$</td>
+    </tr>
+    <tr style="border-bottom:1px solid #eee;">
+      <td style="padding:5px;">$\frac{1}{\sqrt{2}}$</td>
+      <td style="padding:5px;">$\frac{\pi}{4}$</td>
+      <td style="padding:5px;">$\frac{\pi}{4}$</td>
+      <td style="padding:5px;">$\frac{\pi}{8}$</td>
+    </tr>
+    <tr style="border-bottom:1px solid #eee;">
+      <td style="padding:5px;">$\frac{\sqrt{3}}{2}$</td>
+      <td style="padding:5px;">$\frac{\pi}{3}$</td>
+      <td style="padding:5px;">$\frac{\pi}{6}$</td>
+      <td style="padding:5px;">$\frac{\pi}{3}$</td>
+    </tr>
+    <tr>
+      <td style="padding:5px;">$-\frac{1}{\sqrt{2}}$</td>
+      <td style="padding:5px;">$-\frac{\pi}{4}$</td>
+      <td style="padding:5px;">$\frac{3\pi}{4}$</td>
+      <td style="padding:5px;">$-\frac{\pi}{8}$</td>
+    </tr>
+  </table>
+
+  <h4><strong>6. Graphical Characteristics (Qualitative)</strong></h4>
   <ul>
-    <li><strong>Logarithmic Differentiation</strong>: Differentiating a composite function like y = arcsin (e^{x}) requires chain rule and the derivative of arcsin.</li>
-    <li><strong>Complex Integration</strong>: Contour integrals involving sqrt(1 − z²) often reduce to inverse trigonometric forms via the identities in section 6.</li>
-    <li><strong>Number Theory</strong>: The angles appearing in the construction of regular polygons (e.g., constructibility of a 17‑gon) involve arccos (½) and related values, a topic explored by [[Gauss]] (though not directly part of NDA, it enriches conceptual depth).</li>
-    <li><strong>Geometry</strong>: The <strong>Sine Rule</strong> and <strong>Cosine Rule</strong> can be inverted to find unknown angles using arcsin and arccos, a technique often tested in the “Geometry” section of the exam.</li>
-    <li><strong>Historical Algorithms</strong>: The ancient Indian mathematician [[Aryabhata]] (c. 476 CE) used trigonometric tables that effectively employed inverse functions to solve astronomical problems.</li>
+    <li>All six inverses are <em>continuous</em> and <em>monotonic</em> on their principal domains.</li>
+    <li><strong>sin<sup>−1</sup> x</strong> is an odd function; its graph is symmetric about the origin.</li>
+    <li><strong>cos<sup>−1</sup> x</strong> is decreasing on $[-1,1]$, reflecting its even‑type symmetry.</li>
+    <li><strong>tan<sup>−1</sup> x</strong> has horizontal asymptotes $y=\pm\frac{\pi}{2}$ as $x\to\pm\infty$.</li>
+    <li>Sec<sup>−1</sup> and csc<sup>−1</sup> have vertical asymptotes at $x=0$ and a break at $x=\pm1$ because of the excluded $\frac{\pi}{2}$ or $0$ in their ranges.</li>
+  </ul>
+
+  <h4><strong>7. Common Mistakes</strong></h4>
+  <ul>
+    <li><strong>Ignoring Principal Value Restrictions</strong> – Students often apply $\sin^{-1}(\sin\theta)=\theta$ without checking whether $\theta$ lies inside $[-\frac{\pi}{2},\frac{\pi}{2}]$. The correct identity is $\sin^{-1}(\sin\theta)=(-1)^{k}\theta+k\pi$ where $k$ is chosen to bring the result into the principal interval.</li>
+    <li><strong>Sign Errors in Derivatives</strong> – The derivative of $\cos^{-1}x$ is negative; forgetting the minus sign leads to wrong integrals.</li>
+    <li><strong>Mis‑using Reciprocal Identities</strong> – Treating $\sec^{-1}x$ as simply $1/\cos^{-1}x$ is wrong; the correct relation is $\sec^{-1}x=\cos^{-1}\!\big(\frac{1}{x}\big)$ with domain $|x|\ge1$.</li>
+    <li><strong>Incorrect Handling of Absolute Values</strong> – In the derivative of $\sec^{-1}x$, the factor $|x|$ is crucial; omitting it gives sign errors for negative $x$.</li>
+    <li><strong>Confusing Degrees and Radians</strong> – NDA/CDS questions always expect radian measure unless explicitly stated. Plugging degree values into formulas yields disastrous numerical errors.</li>
+  </ul>
+
+  <h4><strong>8. Shortcuts & Tricks for Competitive Exams</strong></h4>
+  <ul>
+    <li><strong>Use the “Sum‑to‑Product” Inverse Trick</strong>:  
+      $$\sin^{-1}a+\sin^{-1}b=\sin^{-1}\!\Big(a\sqrt{1-b^{2}}+b\sqrt{1-a^{2}}\Big)$$  
+      when $a,b$ satisfy $a^{2}+b^{2}+2ab\sqrt{1-a^{2}}\sqrt{1-b^{2}}\le1$. This reduces a pair of inverse sines to a single one.</li>
+    <li><strong>Rapid Conversion between $\tan^{-1}$ and $\sin^{-1}$</strong>:  
+      $$\tan^{-1}x=\sin^{-1}\!\Big(\frac{x}{\sqrt{1+x^{2}}}\Big)$$  
+      Useful when the argument appears as $\frac{p}{\sqrt{p^{2}+q^{2}}}$.</li>
+    <li><strong>Memory Mnemonic for Principal Ranges</strong>:  
+      <em>“Sine and Tangent like to sit at the centre, Cosine & Secant stay on the right, Cotangent & Cosecant on the left.”</em> This helps recall the intervals instantly.</li>
+    <li><strong>Fast Evaluation of $\tan^{-1}$ Sums</strong>:  
+      $$\tan^{-1}a+\tan^{-1}b=\tan^{-1}\!\Big(\frac{a+b}{1-ab}\Big)$$  
+      provided $ab<1$; otherwise add/subtract $\pi$ appropriately.</li>
+    <li><strong>Exploiting Symmetry</strong>:  
+      For any $x$, $\sin^{-1}(-x)=-\sin^{-1}x$ and $\tan^{-1}(-x)=-\tan^{-1}x$; thus, compute only for positive $x$ and attach the sign later.</li>
+  </ul>
+
+  <h4><strong>9. Worked Example 1 – Evaluating a Complex Inverse Sum</strong></h4>
+  <p><strong>Problem:</strong> Find the exact value of $S=\sin^{-1}\!\Big(\frac{3}{5}\Big)+\cos^{-1}\!\Big(\frac{4}{5}\Big)$.</p>
+  <p><strong>Solution Steps:</strong></p>
+  <ol>
+    <li>Recognise the complementary relationship $\sin^{-1}x+\cos^{-1}x=\frac{\pi}{2}$.</li>
+    <li>Observe that $\frac{3}{5}$ and $\frac{4}{5}$ are the legs of a $3\!-\!4\!-\!5$ right triangle, satisfying $ \big(\frac{3}{5}\big)^{2}+ \big(\frac{4}{5}\big)^{2}=1$.</li>
+    <li>Since both arguments lie in $[0,1]$, the identity applies directly:
+      $$S=\sin^{-1}\!\Big(\frac{3}{5}\Big)+\cos^{-1}\!\Big(\frac{4}{5}\Big)=\frac{\pi}{2}.$$</li>
+    <li>Thus the exact value is $\boxed{\dfrac{\pi}{2}}$.</li>
+  </ol>
+
+  <h4><strong>10. Worked Example 2 – Solving an Equation Involving $\tan^{-1}$</strong></h4>
+  <p><strong>Problem:</strong> Solve for $x$ (real) in $$\tan^{-1}x+\tan^{-1}\!\Big(\frac{1}{x}\Big)=\frac{\pi}{4}.$$</p>
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li>Use the addition formula for $\tan^{-1}$:  
+      $$\tan^{-1}a+\tan^{-1}b=\tan^{-1}\!\Big(\frac{a+b}{1-ab}\Big)$$  
+      provided $ab<1$ (or else adjust by $\pm\pi$). Here $a=x$, $b=\frac{1}{x}$, so $ab=1$.</li>
+    <li>Because $ab=1$, the direct formula would give a denominator $0$, indicating the sum equals $\frac{\pi}{2}$ or $-\frac{\pi}{2}$ depending on signs. However the given sum is $\frac{\pi}{4}$, so we must treat the case carefully.</li>
+    <li>Consider the identity $\tan^{-1}x+\tan^{-1}\!\Big(\frac{1}{x}\Big)=\begin{cases}
+        \frac{\pi}{2}, & x>0\\[4pt]
+        -\frac{\pi}{2}, & x<0
+      \end{cases}$.</li>
+    <li>Set $\frac{\pi}{2}= \frac{\pi}{4}$ gives contradiction; therefore the only possibility is that one of the arguments lies at the branch cut, i.e., $x=1$ or $x=-1$ where the principal value of $\tan^{-1}$ is $\pm\frac{\pi}{4}$. Check $x=1$:
+      $$\tan^{-1}1+\tan^{-1}1=\frac{\pi}{4}+\frac{\pi}{4}=\frac{\pi}{2}\neq\frac{\pi}{4}.$$</li>
+    <li>Check $x=-1$:
+      $$\tan^{-1}(-1)+\tan^{-1}(-1)=-\frac{\pi}{4}-\frac{\pi}{4}=-\frac{\pi}{2}\neq\frac{\pi}{4}.$$</li>
+    <li>Thus no real $x$ satisfies the equation. However, if we allow the extended definition with addition of $\pi$, we can write:  
+      $$\tan^{-1}x+\tan^{-1}\!\Big(\frac{1}{x}\Big)=\frac{\pi}{4}+k\pi,\quad k\in\mathbb{Z}.$$  
+      Setting $k=-\tfrac{1}{4}$ is not integral, so still no solution. Hence <strong>no real solution exists</strong>. (Answer: $\varnothing$.)</li>
+  </ol>
+
+  <h4><strong>11. Advanced Result – Inverse Function Composition</strong></h4>
+  <p>For $|x|\le1$, the composition $\sin^{-1}(\sin(\sin^{-1}x))$ trivially returns $x$, but the reverse composition $\sin(\sin^{-1}x)$ yields $x$ for all $x$ in the domain. However, for composite forms like $\sin^{-1}(\cos\theta)$, we must convert using the identity $\cos\theta=\sin\!\big(\frac{\pi}{2}-\theta\big)$ and then apply the principal range:</p>
+  $$\sin^{-1}(\cos\theta)=\sin^{-1}\!\Big(\sin\!\big(\tfrac{\pi}{2}-\theta\big)\Big)=\begin{cases}
+    \tfrac{\pi}{2}-\theta, & -\frac{\pi}{2}\le\theta\le\frac{\pi}{2}\\[4pt]
+    \theta-\tfrac{\pi}{2}, & \frac{\pi}{2}<\theta\le\frac{3\pi}{2}
+  \end{cases}$$
+  <p>This piecewise result is a frequent source of errors in NDA geometry questions involving inverse functions.</p>
+
+  <h4><strong>12. Summary of Key Formulas (All Wrapped in <strong> Tags)</strong></h4>
+  <ul>
+    <li><strong>$\displaystyle \sin^{-1}x+\cos^{-1}x=\frac{\pi}{2}$</strong></li>
+    <li><strong>$\displaystyle \tan^{-1}x+\cot^{-1}x=\frac{\pi}{2}$</strong></li>
+    <li><strong>$\displaystyle \frac{d}{dx}\sin^{-1}x=\frac{1}{\sqrt{1-x^{2}}}$</strong></li>
+    <li><strong>$\displaystyle \frac{d}{dx}\cos^{-1}x=-\frac{1}{\sqrt{1-x^{2}}}$</strong></li>
+    <li><strong>$\displaystyle \frac{d}{dx}\tan^{-1}x=\frac{1}{1+x^{2}}$</strong></li>
+    <li><strong>$\displaystyle \tan^{-1}x=\sin^{-1}\!\Big(\frac{x}{\sqrt{1+x^{2}}}\Big)$</strong></li>
+    <li><strong>$\displaystyle \sin^{-1}x=2\sin^{-1}\!\Big(\frac{x}{1+\sqrt{1-x^{2}}}\Big)$</strong></li>
+    <li><strong>$\displaystyle \tan^{-1}a+\tan^{-1}b=\tan^{-1}\!\Big(\frac{a+b}{1-ab}\Big)$</strong> (with appropriate $\pm\pi$ adjustment)</li>
   </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>arcsin x + arccos x = π/2 (holds for every x in [−1, 1])</li>
-      <li>Derivative of arctan x is 1 / (1 + x²); this is a frequent integration‑by‑parts starter.</li>
-      <li>Series for arctan x: x − x³/3 + x⁵/5 + … Useful for evaluating π via the Leibniz formula.</li>
-      <li>For projectile range R, required elevation θ = ½ arcsin (gR / v₀²). Remember the factor ½.</li>
-      <li>Principal value of arccos x lies in [0, π]; never answer with a negative angle for arccos.</li>
-      <li>arcsin (2x√(1−x²)) = 2 arcsin x (valid when |x| ≤ 1/√2); handy for double‑angle problems.</li>
-      <li>Integral ∫arcsin x dx = x arcsin x + √(1−x²) + C; memorize this form for quick integration.</li>
-      <li>Complex form: arctan z = (i/2) ln((1−iz)/(1+iz)). Appears in advanced integration questions.</li>
+      <li><strong>sin<sup>−1</sup> x + cos<sup>−1</sup> x = π/2</strong> for every $x\in[-1,1]$.</li>
+      <li><strong>tan<sup>−1</sup> x + tan<sup>−1</sup> (1/x) = π/2</strong> when $x>0$, and $= -π/2$ when $x<0$.</li>
+      <li><strong>Derivative of sin<sup>−1</sup> x</strong> is $1/\sqrt{1-x^{2}}$, a pattern that appears in integration of $\frac{1}{\sqrt{1-x^{2}}}$.</li>
+      <li><strong>Principal range of tan<sup>−1</sup> x</strong> is $(-π/2, π/2)$; never write $π/2$ as a value.</li>
+      <li><strong>Conversion trick</strong>: $\tan^{-1}x = \sin^{-1}\!\big(\frac{x}{\sqrt{1+x^{2}}}\big)$ – essential for expressions like $\tan^{-1}\!\big(\frac{p}{q}\big)$.</li>
+      <li><strong>When $|x|>1$</strong>, use $\sec^{-1}x = \cos^{-1}\!\big(\frac{1}{x}\big)$ and remember the excluded $\frac{\pi}{2}$ in its range.</li>
+      <li><strong>Sum‑to‑product for inverse sines</strong> reduces two angles to one: $\sin^{-1}a+\sin^{-1}b = \sin^{-1}(a\sqrt{1-b^{2}}+b\sqrt{1-a^{2}})$.</li>
+      <li><strong>Odd–even property</strong>: $\sin^{-1}(-x) = -\sin^{-1}x$, $\cos^{-1}(-x)=\pi-\cos^{-1}x$ – helps to quickly handle negative arguments.</li>
+      <li><strong>Special right‑triangle values</strong>: $\sin^{-1}\frac{3}{5} = \arcsin(0.6) = \text{≈ }0.6435$ rad, often paired with $\cos^{-1}\frac{4}{5}$ to give $π/2$.</li>
+      <li><strong>Always keep angles in radians</strong> unless the question explicitly mentions degrees – a common source of loss of marks.</li>
     </ul>
   </div>
 </div>
@@ -475,177 +684,228 @@ EXPANDED_NOTES_DATA["quadratic-eq"] = `
     Quadratic Equations
   </h3>
 
-  <h4><strong>Definition & Standard Form</strong></h4>
-  <p>A <strong>quadratic equation</strong> is any polynomial equation of degree two and can be written in the canonical <strong>standard form</strong>:</p>
-  <p><strong>ax² + bx + c = 0</strong>, where <strong>a, b, c ∈ ℝ</strong> (or ℂ) and <strong>a ≠ 0</strong>.</p>
+  <h4>1. Definition and Standard Form</h4>
+  <p>A <strong>quadratic equation</strong> is any polynomial equation of degree two. In its most compact representation it is written as</p>
+  $$ax^{2}+bx+c=0$$
   <ul>
-    <li>The coefficient <strong>a</strong> is called the <strong>leading coefficient</strong>.</li>
-    <li>The term <strong>bx</strong> is the <strong>linear term</strong>.</li>
-    <li>The constant term is <strong>c</strong>.</li>
+    <li><strong>a</strong> – the <em>leading coefficient</em>; must satisfy <strong>a\neq0</strong> for the equation to remain quadratic.</li>
+    <li><strong>b</strong> – the <em>linear coefficient</em>; can be any real (or complex) number.</li>
+    <li><strong>c</strong> – the <em>constant term</em>; also any real (or complex) number.</li>
+  </ul>
+  <p>When <strong>a</strong>, <strong>b</strong>, <strong>c</strong> are integers, the equation is often called an [[Integral Quadratic]]. The set of all solutions (roots) is denoted by <strong>α</strong> and <strong>β</strong>.</p>
+
+  <h4>2. Derivation of the Quadratic Formula from First Principles</h4>
+  <p>Starting from the standard form, we can complete the square:</p>
+  $$ax^{2}+bx+c=0\quad\Longrightarrow\quad x^{2}+\frac{b}{a}x+\frac{c}{a}=0$$
+  <p>Move the constant term to the right side:</p>
+  $$x^{2}+\frac{b}{a}x=-\frac{c}{a}$$
+  <p>Add $\left(\frac{b}{2a}\right)^{2}$ to both sides to form a perfect square:</p>
+  $$x^{2}+\frac{b}{a}x+\left(\frac{b}{2a}\right)^{2}=\left(\frac{b}{2a}\right)^{2}-\frac{c}{a}$$
+  <p>The left–hand side becomes $\left(x+\frac{b}{2a}\right)^{2}$, giving:</p>
+  $$\left(x+\frac{b}{2a}\right)^{2}= \frac{b^{2}-4ac}{4a^{2}}$$
+  <p>Taking square roots (both $+$ and $-$) yields:</p>
+  $$x+\frac{b}{2a}= \pm\frac{\sqrt{b^{2}-4ac}}{2a}$$
+  <p>Finally, isolate $x$:</p>
+  $$\boxed{x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}}$$
+  <p>Here the expression $Δ=b^{2}-4ac$ is called the <strong>discriminant</strong>. Its sign determines the nature of the roots:</p>
+  <ul>
+    <li><strong>Δ>0</strong> – two distinct real roots.</li>
+    <li><strong>Δ=0</strong> – a repeated real root (double root).</li>
+    <li><strong>Δ<0</strong> – two complex conjugate roots.</li>
   </ul>
 
-  <h4><strong>Historical Milestones</strong></h4>
-  <p>The systematic study of quadratic equations began with the Persian mathematician [[Al-Khwarizmi]] (c. 780 – 850 CE) in his treatise *Kitab al‑Jabr wa‑l‑Muqabala*. Later, the Indian scholar [[Brahmagupta]] (598–668 CE) gave rules for solving equations of the form <strong>ax² = c</strong>. In the 12th century, [[Bhaskara II]] (1114–1185) derived the general solution using completing the square, a method that later appeared in the works of [[Leonhard Euler]] (1707–1783) and [[Carl Friedrich Gauss]] (1777–1855).</p>
+  <h4>3. Vieta’s Relations – Connecting Coefficients and Roots</h4>
+  <p>For any quadratic $ax^{2}+bx+c=0$ with roots $α$ and $β$, the following identities hold (known as [[Vieta's formulas]]):</p>
+  $$\begin{aligned}
+  α+β &= -\frac{b}{a}\\[4pt]
+  αβ   &= \frac{c}{a}
+  \end{aligned}$$
+  <p>These relations are extremely useful for problems that ask for sums or products of roots without explicitly solving the equation.</p>
 
-  <h4><strong>Fundamental Concepts</strong></h4>
+  <h4>4. Classification of Roots – Real vs. Complex</h4>
+  <div class="important-box" style="background:#202030; padding:10px; margin:12px 0; border-left:4px solid var(--accent);">
+    <strong>Critical Distinction:</strong> The discriminant $Δ$ governs not only the count of real solutions but also the magnitude of the imaginary part when $Δ<0$. If $Δ<0$, the roots can be expressed as
+    $$x=\frac{-b}{2a}\pm i\frac{\sqrt{|Δ|}}{2a}$$
+    where $i=\sqrt{-1}$ is the <strong>imaginary unit</strong>.
+  </div>
 
-  <h5>1. <strong>Discriminant (Δ)</strong></h5>
-  <p>The discriminant is defined as <strong>Δ = b² – 4ac</strong>. Its sign determines the nature of the roots:</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:10px;">
-    <tr style="background:#f0f0f0;">
-      <th style="border:1px solid #ccc; padding:6px;">Δ</th>
-      <th style="border:1px solid #ccc; padding:6px;">Nature of Roots</th>
-      <th style="border:1px solid #ccc; padding:6px;">Root Form</th>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ccc; padding:6px;">Δ &gt; 0</td>
-      <td style="border:1px solid #ccc; padding:6px;">Two distinct real roots</td>
-      <td style="border:1px solid #ccc; padding:6px;"><strong>x₁ = \frac{-b + \sqrt{Δ}}{2a},\; x₂ = \frac{-b - \sqrt{Δ}}{2a}</strong></td>
-    </tr>
-    <tr style="background:#f9f9f9;">
-      <td style="border:1px solid #ccc; padding:6px;">Δ = 0</td>
-      <td style="border:1px solid #ccc; padding:6px;">Real and equal (repeated) root</td>
-      <td style="border:1px solid #ccc; padding:6px;"><strong>x₁ = x₂ = -\frac{b}{2a}</strong></td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ccc; padding:6px;">Δ &lt; 0</td>
-      <td style="border:1px solid #ccc; padding:6px;">Two distinct complex conjugate roots</td>
-      <td style="border:1px solid #ccc; padding:6px;"><strong>x₁ = \frac{-b}{2a} + i\frac{\sqrt{-Δ}}{2a},\; x₂ = \frac{-b}{2a} - i\frac{\sqrt{-Δ}}{2a}</strong></td>
-    </tr>
-  </table>
-
-  <h5>2. <strong>Sum and Product of Roots (Vieta’s Relations)</strong></h5>
-  <p>For roots <strong>α</strong> and <strong>β</strong> of <strong>ax² + bx + c = 0</strong>:</p>
-  <ul>
-    <li><strong>α + β = -\frac{b}{a}</strong> (sum of roots)</li>
-    <li><strong>αβ = \frac{c}{a}</strong> (product of roots)</li>
-  </ul>
-  <p>These relations, often called <strong>Vieta’s formulas</strong>, are indispensable for problems that ask for expressions involving roots without explicitly solving the equation.</p>
-
-  <h4><strong>Solution Techniques</strong></h4>
-
-  <h5>1. <strong>Factorisation</strong></h5>
-  <p>When the quadratic can be expressed as <strong>(px + q)(rx + s) = 0</strong>, the roots are obtained directly as <strong>-q/p</strong> and <strong>-s/r</strong>. This method works best when the coefficients are integers and the discriminant is a perfect square.</p>
-
-  <h5>2. <strong>Completing the Square</strong></h5>
-  <p>The procedure rewrites <strong>ax² + bx + c</strong> into a perfect square plus a constant:</p>
+  <h4>5. Special Cases and Edge Conditions</h4>
   <ol>
-    <li>Divide the entire equation by <strong>a</strong> (if <strong>a ≠ 1</strong>).</li>
-    <li>Move the constant term to the right‑hand side.</li>
-    <li>Add <strong>(b/2a)²</strong> to both sides to obtain <strong>(x + b/2a)² = (b² – 4ac)/4a²</strong>.</li>
-    <li>Take square roots and solve for <strong>x</strong>.</li>
+    <li><strong>Pure Quadratic (b=0)</strong>: $ax^{2}+c=0\;\Longrightarrow\;x=\pm\sqrt{-\frac{c}{a}}$. Real roots exist only if $ac<0$.</li>
+    <li><strong>Linear Degeneration (c=0)</strong>: $ax^{2}+bx=0\;\Longrightarrow\;x(ax+b)=0\;\Longrightarrow\;x=0\;$ or $\;x=-\frac{b}{a}$. This demonstrates the <em>factor theorem</em> in action.</li>
+    <li><strong>Monic Quadratic (a=1)</strong>: Simplifies Vieta’s relations to $α+β=-b$ and $αβ=c$, and the formula reduces to $x=\frac{-b\pm\sqrt{b^{2}-4c}}{2}$.</li>
+    <li><strong>Parametric Quadratics</strong>: When coefficients depend on a parameter $k$, discriminant analysis yields conditions on $k$ for real/complex roots. Example: $x^{2}+kx+1=0$ has real roots iff $k^{2}\ge4$.</li>
   </ol>
-  <p>This technique underlies the derivation of the <strong>quadratic formula</strong> and is also useful in geometric contexts (e.g., finding the vertex of a parabola).</p>
 
-  <h5>3. <strong>Quadratic Formula</strong></h5>
-  <p>Derived from completing the square, the formula provides a universal solution:</p>
-  <p><strong>x = \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a}</strong></p>
-  <p>It remains the most reliable method for competitive exams because it works for any real or complex coefficients.</p>
-
-  <h5>4. <strong>Graphical Interpretation</strong></h5>
-  <p>The graph of <strong>y = ax² + bx + c</strong> is a parabola. The discriminant indicates the intersection with the <strong>x‑axis</strong>:</p>
-  <ul>
-    <li>Δ &gt; 0 → two distinct intersection points.</li>
-    <li>Δ = 0 → tangent (single point of contact).</li>
-    <li>Δ &lt; 0 → no real intersection (parabola lies entirely above or below the axis).</li>
-  </ul>
-  <p>The vertex coordinates are <strong>(-b/2a,\, c - b²/4a)</strong>. Knowledge of the vertex is valuable for optimisation questions.</p>
-
-  <h4><strong>Special Cases & Transformations</strong></h4>
-
-  <ul>
-    <li><strong>Missing Linear Term (b = 0)</strong>: Equation reduces to <strong>ax² + c = 0</strong>. Roots are <strong>±\sqrt{-c/a}</strong> (real if <strong>ac &lt; 0</strong>, otherwise imaginary).</li>
-    <li><strong>Missing Constant Term (c = 0)</strong>: Equation factorises as <strong>x(ax + b) = 0</strong>, yielding roots <strong>0</strong> and <strong>-b/a</strong>.</li>
-    <li><strong>Pure Quadratic (a = 1, b = 0)</strong>: Simplifies to <strong>x² = -c</strong>, directly giving <strong>x = ±i\sqrt{c}</strong> for positive <strong>c</strong>.</li>
-    <li><strong>Reciprocal Quadratic</strong>: If the equation is symmetric in <strong>x</strong> and <strong>1/x</strong>, substitution <strong>y = x + 1/x</strong> can reduce it to a linear equation in <strong>y</strong>.</li>
-  </ul>
-
-  <h4><strong>Quadratic Equations in the Complex Plane</strong></h4>
-  <p>When Δ < 0, the roots are complex conjugates. Represent them as <strong>α = p + iq</strong> and <strong>β = p - iq</strong>, where:</p>
-  <ul>
-    <li><strong>p = -\frac{b}{2a}</strong> (real part)</li>
-    <li><strong>q = \frac{\sqrt{-Δ}}{2a}</strong> (imaginary part)</li>
-  </ul>
-  <p>These points can be visualised on the <strong>Argand diagram</strong>. The modulus of each root is <strong>\sqrt{p^{2} + q^{2}} = \sqrt{\frac{c}{a}}</strong>, linking back to Vieta’s product relation.</p>
-
-  <h4><strong>Parametric Quadratics & Applications</strong></h4>
-  <p>Many competitive‑exam problems introduce a parameter <strong>k</strong> into the coefficients, e.g., <strong>ax² + (k-3)x + (2k+5) = 0</strong>. Typical tasks:</p>
-  <ul>
-    <li>Find the range of <strong>k</strong> for which the equation has real roots (<strong>Δ ≥ 0</strong>).</li>
-    <li>Determine <strong>k</strong> such that the sum or product of roots satisfies a given condition.</li>
-    <li>Identify values of <strong>k</strong> that make the roots rational, integral, or equal.</li>
-  </ul>
-  <p>Solving these requires algebraic manipulation of the discriminant and Vieta’s formulas, often leading to quadratic inequalities in <strong>k</strong>.</p>
-
-  <h4><strong>Advanced Topics Relevant to Defence Exams</strong></h4>
-
-  <h5>1. <strong>Quadratic Residues Modulo p</strong></h5>
-  <p>For a prime <strong>p</strong>, an integer <strong>a</strong> is a quadratic residue if the congruence <strong>x² ≡ a (mod p)</strong> has a solution. The Legendre symbol <strong>(a/p)</strong> equals <strong>1</strong> for residues, <strong>-1</strong> for non‑residues, and <strong>0</strong> if <strong>p | a</strong>. This concept appears in cryptographic questions (e.g., RSA).</p>
-
-  <h5>2. <strong>Newton’s Method for Approximating Roots</strong></h5>
-  <p>Given an initial guess <strong>x₀</strong>, the iteration <strong>x_{n+1} = x_n - \frac{ax_n² + bx_n + c}{2ax_n + b}</strong> converges quadratically to a real root, provided the derivative does not vanish. Knowledge of convergence criteria can earn extra marks in analytical problems.</p>
-
-  <h5>3. <strong>Resultant and Elimination</strong></h5>
-  <p>The resultant of two quadratics <strong>f(x)</strong> and <strong>g(x)</strong> eliminates the variable, yielding a condition for common roots. For <strong>f(x) = a₁x² + b₁x + c₁</strong> and <strong>g(x) = a₂x² + b₂x + c₂</strong>, the resultant is the determinant of the Sylvester matrix. A zero resultant indicates a shared root, a concept useful in system‑of‑equations problems.</p>
-
-  <h5>4. <strong>Complex Conjugate Root Theorem</strong></h5>
-  <p>For polynomials with real coefficients, non‑real roots occur in conjugate pairs. Hence, if <strong>α = p + iq</strong> is a root, <strong>α̅ = p - iq</strong> must also be a root. This theorem justifies the symmetric form of complex roots in the discriminant table above.</p>
-
-  <h5>5. <strong>Transformation to Depressed Quadratic</strong></h5>
-  <p>Setting <strong>x = y - \frac{b}{2a}</strong> eliminates the linear term, converting <strong>ax² + bx + c = 0</strong> into the “depressed” form <strong>y² + py + q = 0</strong>, where <strong>p = \frac{4ac - b²}{4a²}</strong> and <strong>q = \frac{b³ - 4abc}{8a³}</strong>. This is the starting point for Cardano’s method for cubic equations, showing the relevance of quadratics beyond their immediate scope.</p>
-
-  <h4><strong>Common Pitfalls & Quick Checks</strong></h4>
-  <ul>
-    <li>Never forget to verify that <strong>a ≠ 0</strong>; otherwise the equation is linear.</li>
-    <li>When Δ is a perfect square, the roots are rational; otherwise they may be irrational or complex.</li>
-    <li>Always reduce fractions after applying the quadratic formula to avoid arithmetic errors.</li>
-    <li>For parametric problems, treat the discriminant as a quadratic in the parameter and apply the appropriate inequality sign.</li>
-    <li>Remember that the product of the roots being negative implies opposite signs, a useful shortcut for sign‑analysis questions.</li>
-  </ul>
-
-  <h4><strong>Key Formula Summary</strong></h4>
-  <table style="width:100%; border-collapse:collapse; margin-top:10px;">
-    <tr style="background:#e0e0e0;">
-      <th style="border:1px solid #bbb; padding:6px;">Concept</th>
-      <th style="border:1px solid #bbb; padding:6px;">Expression</th>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bbb; padding:6px;"><strong>Discriminant</strong></td>
-      <td style="border:1px solid #bbb; padding:6px;"><strong>Δ = b² – 4ac</strong></td>
-    </tr>
-    <tr style="background:#f5f5f5;">
-      <td style="border:1px solid #bbb; padding:6px;"><strong>Roots (General)</strong></td>
-      <td style="border:1px solid #bbb; padding:6px;"><strong>x = \frac{-b \pm \sqrt{Δ}}{2a}</strong></td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bbb; padding:6px;"><strong>Sum of Roots</strong></td>
-      <td style="border:1px solid #bbb; padding:6px;"><strong>α + β = -\frac{b}{a}</strong></td>
-    </tr>
-    <tr style="background:#f5f5f5;">
-      <td style="border:1px solid #bbb; padding:6px;"><strong>Product of Roots</strong></td>
-      <td style="border:1px solid #bbb; padding:6px;"><strong>αβ = \frac{c}{a}</strong></td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bbb; padding:6px;"><strong>Vertex (h, k)</strong></td>
-      <td style="border:1px solid #bbb; padding:6px;"><strong>h = -\frac{b}{2a},\; k = c - \frac{b²}{4a}</strong></td>
-    </tr>
-    <tr style="background:#f5f5f5;">
-      <td style="border:1px solid #bbb; padding:6px;"><strong>Depressed Quadratic</strong></td>
-      <td style="border:1px solid #bbb; padding:6px;"><strong>y² + py + q = 0,\; x = y - \frac{b}{2a}</strong></td>
-    </tr>
+  <h4>6. Methods of Solving Quadratics</h4>
+  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
+    <thead style="background:#2a2a3a;">
+      <tr>
+        <th style="border:1px solid #444;padding:6px;">Method</th>
+        <th style="border:1px solid #444;padding:6px;">When to Use</th>
+        <th style="border:1px solid #444;padding:6px;">Key Steps</th>
+        <th style="border:1px solid #444;padding:6px;">Time Complexity (exam)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border:1px solid #444;padding:6px;"><strong>Quadratic Formula</strong></td>
+        <td style="border:1px solid #444;padding:6px;">All generic cases</td>
+        <td style="border:1px solid #444;padding:6px;">Compute $Δ$, take square root, substitute</td>
+        <td style="border:1px solid #444;padding:6px;">O(1)</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444;padding:6px;"><strong>Completing the Square</strong></td>
+        <td style="border:1px solid #444;padding:6px;">When $a=1$ or $a$ is a perfect square</td>
+        <td style="border:1px solid #444;padding:6px;">Rewrite as $(x+h)^{2}=k$</td>
+        <td style="border:1px solid #444;padding:6px;">O(1)</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444;padding:6px;"><strong>Factorisation</strong></td>
+        <td style="border:1px solid #444;padding:6px;">When integer roots are expected (e.g., in NDA)</td>
+        <td style="border:1px solid #444;padding:6px;">Find two numbers multiplying to $ac$ and adding to $b$</td>
+        <td style="border:1px solid #444;padding:6px;">Best case O(√|ac|)</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444;padding:6px;"><strong>Graphical Insight</strong></td>
+        <td style="border:1px solid #444;padding:6px;">Quick sign‑check for root existence</td>
+        <td style="border:1px solid #444;padding:6px;">Analyse parabola opening direction (sign of $a$) and vertex</td>
+        <td style="border:1px solid #444;padding:6px;">Negligible</td>
+      </tr>
+    </tbody>
   </table>
+
+  <h4>7. Worked Example 1 – Standard Quadratic</h4>
+  <p><strong>Problem:</strong> Solve $3x^{2}-7x+2=0$.</p>
+  <ol>
+    <li>Identify coefficients: $a=3$, $b=-7$, $c=2$.</li>
+    <li>Compute discriminant:
+      $$Δ=b^{2}-4ac=(-7)^{2}-4\cdot3\cdot2=49-24=25.$$</li>
+    <li>Since $Δ>0$, there are two distinct real roots.</li>
+    <li>Apply quadratic formula:
+      $$x=\frac{-b\pm\sqrt{Δ}}{2a}=\frac{-(-7)\pm\sqrt{25}}{2\cdot3}
+      =\frac{7\pm5}{6}.$$
+    </li>
+    <li>Separate the two possibilities:
+      <ul>
+        <li>$x_{1}=\dfrac{7+5}{6}=\dfrac{12}{6}=2$</li>
+        <li>$x_{2}=\dfrac{7-5}{6}=\dfrac{2}{6}=\dfrac13$</li>
+      </ul>
+    </li>
+    <li>Verify using Vieta’s relations:
+      $$α+β=2+\frac13=\frac{7}{3}=-\frac{b}{a}=-\frac{-7}{3}=\frac{7}{3}$$
+      $$αβ=2\cdot\frac13=\frac23=\frac{c}{a}=\frac{2}{3}$$
+      Both checks hold, confirming the solution.</li>
+  </ol>
+
+  <h4>8. Worked Example 2 – Quadratic with Complex Roots</h4>
+  <p><strong>Problem:</strong> Find the roots of $x^{2}+4x+8=0$ and express them in the form $p\pm qi$.</p>
+  <ol>
+    <li>Coefficients: $a=1$, $b=4$, $c=8$.</li>
+    <li>Discriminant:
+      $$Δ=b^{2}-4ac=4^{2}-4\cdot1\cdot8=16-32=-16.$$
+    </li>
+    <li>Since $Δ<0$, roots are complex conjugates.</li>
+    <li>Quadratic formula:
+      $$x=\frac{-b\pm\sqrt{Δ}}{2a}=\frac{-4\pm\sqrt{-16}}{2}
+      =\frac{-4\pm4i}{2}.$$
+    </li>
+    <li>Simplify:
+      $$x_{1}=\frac{-4+4i}{2}=-2+2i,\qquad
+      x_{2}=\frac{-4-4i}{2}=-2-2i.$$
+    </li>
+    <li>Thus the roots are $-2\pm2i$, i.e., $p=-2$, $q=2$.</li>
+    <li>Check with Vieta’s:
+      $$α+β=(-2+2i)+(-2-2i)=-4=-\frac{b}{a}=-4,$$
+      $$αβ=(-2+2i)(-2-2i)=(-2)^{2}-(2i)^{2}=4-(-4)=8=\frac{c}{a}=8.$$
+      The relations are satisfied, confirming correctness.</li>
+  </ol>
+
+  <h4>9. Common Mistakes</h4>
+  <ul>
+    <li><strong>Dropping the negative sign of $b$</strong> while applying the formula – leads to $x=\frac{b\pm\sqrt{Δ}}{2a}$ instead of $\frac{-b\pm\sqrt{Δ}}{2a}$.</li>
+    <li><strong>Mis‑computing the discriminant</strong> by forgetting to square $b$ or by using $4ac$ instead of $4\cdot a\cdot c$ when $a$ or $c$ are not 1.</li>
+    <li><strong>Forgetting to simplify $\sqrt{Δ}$</strong> when $Δ$ is a perfect square – this wastes time and can cause arithmetic errors.</li>
+    <li><strong>Assuming $Δ=0$ always yields a single root</strong> without checking multiplicity; the double root must be written as $x=-\frac{b}{2a}$, not as two distinct numbers.</li>
+  </ul>
+
+  <h4>10. Shortcuts & Tricks for Competitive Exams</h4>
+  <ul>
+    <li><strong>“Δ‑quick test”</strong>: For integer coefficients, compute $Δ$ modulo small primes (e.g., mod 4) to instantly rule out perfect squares, saving time on unnecessary square‑root calculations.</li>
+    <li><strong>“Sum‑Product Method”</strong>: When the question asks for $α+β$ or $αβ$, directly use Vieta’s formulas without solving the equation.</li>
+    <li><strong>“Factor‑by‑Grouping”</strong> for monic quadratics: Look for two numbers $m,n$ such that $m+n=b$ and $mn=c$. This avoids the formula entirely.</li>
+    <li><strong>“Half‑Coefficient Trick”</strong>: If $b$ is even, rewrite $x^{2}+bx+c$ as $\left(x+\frac{b}{2}\right)^{2}= \frac{b^{2}}{4}-c$, then take square roots – often quicker than full formula.</li>
+    <li><strong>“Complex‑Root Shortcut”</strong>: When $Δ$ is negative, directly write roots as $-\frac{b}{2a}\pm i\frac{\sqrt{|Δ|}}{2a}$ without expanding $\sqrt{-Δ}$.</li>
+    <li><strong>“Parameter Discriminant”</strong>: For equations like $x^{2}+kx+1=0$, set $Δ=k^{2}-4$ and analyse sign of $Δ$ to answer root‑nature questions without solving.</li>
+  </ul>
+
+  <h4>11. Advanced Topics – Connection to Higher Algebra</h4>
+  <p>The quadratic equation is a gateway to the [[Fundamental Theorem of Algebra]], which asserts that every non‑constant polynomial of degree $n$ has exactly $n$ complex roots (counted with multiplicity). In the case $n=2$, the discriminant provides a complete classification.</p>
+  <p>Moreover, the coefficients $a,b,c$ can be expressed in terms of the roots via [[Newton's Identities]] (a special case of Vieta’s relations). This perspective is useful when dealing with symmetric functions of roots in more advanced problems.</p>
+
+  <h4>12. Frequently Used Notations in NDA/ CDS/ AFCAT</h4>
+  <ul>
+    <li><strong>Δ</strong> – Discriminant $b^{2}-4ac$.</li>
+    <li><strong>α,β</strong> – Roots of the quadratic.</li>
+    <li><strong>i</strong> – Imaginary unit $\sqrt{-1}$.</li>
+    <li><strong>R</strong> – Set of real numbers; when $Δ\ge0$, $α,β\in R$.</li>
+    <li><strong>C</strong> – Set of complex numbers; when $Δ<0$, $α,β\in C$.</li>
+  </ul>
+
+  <h4>13. Quick Reference Table</h4>
+  <table style="width:100%; border-collapse:collapse;">
+    <thead style="background:#2a2a3a;">
+      <tr>
+        <th style="border:1px solid #444;padding:5px;">Δ</th>
+        <th style="border:1px solid #444;padding:5px;">Root Nature</th>
+        <th style="border:1px solid #444;padding:5px;">Typical Form</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border:1px solid #444;padding:5px;">$>0$</td>
+        <td style="border:1px solid #444;padding:5px;">Two distinct real</td>
+        <td style="border:1px solid #444;padding:5px;">$\displaystyle \frac{-b\pm\sqrt{Δ}}{2a}$</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444;padding:5px;">$=0$</td>
+        <td style="border:1px solid #444;padding:5px;">One repeated real</td>
+        <td style="border:1px solid #444;padding:5px;">$\displaystyle -\frac{b}{2a}$</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444;padding:5px;">$<0$</td>
+        <td style="border:1px solid #444;padding:5px;">Two complex conjugates</td>
+        <td style="border:1px solid #444;padding:5px;">$\displaystyle -\frac{b}{2a}\pm i\frac{\sqrt{|Δ|}}{2a}$</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>14. Practical Applications in Defense Exams</h4>
+  <p>Quadratic equations appear in ballistic trajectory calculations, where the time of flight $t$ satisfies $-\,\frac{1}{2}gt^{2}+v_{0y}t+y_{0}=0$. Recognising the coefficients and quickly applying the discriminant determines whether a projectile reaches a target altitude.</p>
+  <p>Another recurring theme is the analysis of resonant frequencies in mechanical systems, leading to equations of the form $k x^{2}+2ζω_{n}x+ω_{n}^{2}=0$. Mastery of the quadratic solution enables rapid evaluation of damping conditions.</p>
+
+  <h4>15. Summary of Key Points</h4>
+  <ul>
+    <li>Always rewrite the equation in standard form $ax^{2}+bx+c=0$ before proceeding.</li>
+    <li>Compute discriminant $Δ=b^{2}-4ac$ first; it dictates the solving path.</li>
+    <li>Use Vieta’s relations for sum/product questions – they save time.</li>
+    <li>Check for factorable forms (especially when $a=1$) before invoking the formula.</li>
+    <li>When $Δ<0$, remember the compact complex‑root expression to avoid sign errors.</li>
+  </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>Δ = b² – 4ac decides the nature of roots: >0 → two real, =0 → equal, <0 → complex conjugates.</li>
-      <li>For <strong>ax² + bx + c = 0</strong>, sum of roots = –b/a and product = c/a (Vieta’s formulas).</li>
-      <li>If the constant term <strong>c = 0</strong>, one root is always <strong>0</strong> and the other is –b/a.</li>
-      <li>When Δ is a perfect square, the roots are rational (useful for quick checks).</li>
-      <li>Quadratic with missing linear term (<strong>b = 0</strong>) gives roots ±√(–c/a).</li>
-      <li>In parametric quadratics, set Δ ≥ 0 and solve the resulting inequality in the parameter.</li>
-      <li>Complex roots appear as conjugate pairs; their modulus squared equals c/a.</li>
-      <li>Vertex of the parabola y = ax² + bx + c is (–b/2a, c – b²/4a); this point gives the minimum/maximum value.</li>
+      <li>For any quadratic $ax^{2}+bx+c=0$, the discriminant $Δ=b^{2}-4ac$ alone decides real vs. complex roots.</li>
+      <li>If $Δ$ is a perfect square, the roots are rational; otherwise they are irrational (unless $Δ<0$).</li>
+      <li>When $a=1$, the sum of roots $= -b$ and product $= c$ – memorize for quick Vieta applications.</li>
+      <li>In integer‑coefficient quadratics, the Rational Root Theorem limits possible rational roots to factors of $c$ over factors of $a$.</li>
+      <li>For $ax^{2}+bx=0$, factor out $x$ to get $x(ax+b)=0$ – a common shortcut in time‑pressured papers.</li>
+      <li>Complex roots always appear as conjugate pairs $p\pm qi$; the real part is $-\frac{b}{2a}$.</li>
+      <li>In trajectory problems, replace $g$ with $9.8$ (or $10$ for approximation) and treat the time variable as the unknown quadratic.</li>
+      <li>When $b$ is even, compute $\frac{b}{2a}$ first; this halves the arithmetic in the quadratic formula.</li>
+      <li>For $Δ<0$, you can directly write the answer as $-\frac{b}{2a}\pm i\frac{\sqrt{|Δ|}}{2a}$ without extracting the square root of a negative number.</li>
+      <li>Always verify solutions by substituting back; a single arithmetic slip often leads to a wrong sign in $Δ$.</li>
     </ul>
   </div>
 </div>
@@ -657,147 +917,286 @@ EXPANDED_NOTES_DATA["complex-numbers"] = `
     Complex Numbers
   </h3>
 
-  <h4>1. Historical Evolution</h4>
-  <p><strong>Gerolamo Cardano</strong> (1501‑1576) first encountered square roots of negative numbers while solving cubic equations, but he regarded them as “impossible”. The systematic treatment began with <strong>Rafael Bombelli</strong> (1526‑1572) in his 1572 work *Algebra*, where he introduced the notation <em>i</em> for √‑1 and gave rules for addition and multiplication. Later, <strong>Leonhard Euler</strong> (1707‑1783) connected complex numbers with trigonometry through <strong>Euler’s Formula</strong> (e<sup>iθ</sup> = cos θ + i sin θ) in 1748. <strong>Carl Friedrich Gauss</strong> (1777‑1855) formalised the geometric interpretation (Argand‑Gauss plane) and proved the <[[Fundamental Theorem of Algebra]]> in 1799, establishing that every non‑constant polynomial has at least one complex root.</p>
-
-  <h4>2. Definition & Standard (Algebraic) Form</h4>
-  <p>A <strong>complex number</strong> is an ordered pair (a, b) with real components a, b ∈ ℝ, denoted as <strong>a + i b</strong>. Here <em>i</em> satisfies <strong>i² = –1</strong>. The quantity a is called the <strong>real part</strong> (<strong>Re z</strong>), and b is the <strong>imaginary part</strong> (<strong>Im z</strong>).</p>
-
-  <h4>3. Modulus (Absolute Value) and Argument</h4>
+  <h4><strong>1. Formal Definition and Historical Context</strong></h4>
+  <p>
+    The concept of <strong>complex numbers</strong> emerged from the need to solve quadratic equations lacking real roots, notably in the works of <strong>Rafael Bombelli</strong> (1572) and later formalised by <strong>Caspar Wessel</strong> (1799) and <strong>Gauss</strong> (1831). A complex number <strong>$z$</strong> is defined as an ordered pair <strong>$(a,b)$</strong> where <strong>$a,b \in \mathbb{R}$</strong>, equipped with the addition and multiplication rules:
+  </p>
   <ul>
-    <li><strong>Modulus (|z|)</strong>:   |z| = √(a² + b²). Geometrically, it is the distance of the point (a, b) from the origin in the Argand plane.</li>
-    <li><strong>Argument (arg z)</strong>:   The angle θ measured from the positive real axis to the line joining the origin to (a, b). Principal value is taken in (–π, π].</li>
-    <li>Relation:   a = |z| cos θ, b = |z| sin θ.</li>
+    <li><strong>Addition:</strong> <strong>$ (a,b) + (c,d) = (a+c,\; b+d)$</strong></li>
+    <li><strong>Multiplication:</strong> <strong>$ (a,b) \cdot (c,d) = (ac - bd,\; ad + bc)$</strong></li>
+  </ul>
+  <p>
+    By identifying the pair <strong>$(a,0)$</strong> with the real number <strong>$a$</strong> and the pair <strong>$(0,1)$</strong> with the symbol <strong>$i$</strong> (the imaginary unit satisfying <strong>$i^2 = -1$</strong>), we obtain the familiar algebraic form:
+  </p>
+  <p><strong>$z = a + bi$</strong></p>
+  <p>
+    Here <strong>$a$</strong> is called the <em>real part</em> (<strong>$\operatorname{Re}(z)$</strong>) and <strong>$b$</strong> the <em>imaginary part</em> (<strong>$\operatorname{Im}(z)$</strong>). The set of all complex numbers is denoted by <strong>$\mathbb{C}$</strong>.
+  </p>
+
+  <h4><strong>2. Modulus (Absolute Value) and Argument</strong></h4>
+  <p>
+    The distance of <strong>$z$</strong> from the origin in the complex plane (also called the Argand‑Gaus plane) is the <strong>modulus</strong>:
+  </p>
+  <p><strong>$|z| = \sqrt{a^{2}+b^{2}}$</strong></p>
+  <p>
+    where <strong>$a = \operatorname{Re}(z)$</strong> and <strong>$b = \operatorname{Im}(z)$</strong>. The <strong>argument</strong> <strong>$\theta$</strong> (principal value $-\pi < \theta \le \pi$) satisfies:
+  </p>
+  <p><strong>$\theta = \operatorname{atan2}(b,a)$</strong></p>
+  <p>
+    Equivalently, using trigonometric ratios:
+  </p>
+  <p><strong>$\cos\theta = \dfrac{a}{|z|},\qquad \sin\theta = \dfrac{b}{|z|}$</strong></p>
+
+  <div class="important-box" style="background:#2b2d33; border-left:4px solid var(--accent); padding:12px; margin:16px 0;">
+    <strong>Key Distinction:</strong> The modulus <strong>$|z|$</strong> is always non‑negative, whereas the argument <strong>$\theta$</strong> is defined modulo <strong>$2\pi$</strong>. Two complex numbers are equal iff both their moduli and arguments coincide (mod $2\pi$).
+  </div>
+
+  <h4><strong>3. Polar (Trigonometric) Form</strong></h4>
+  <p>
+    Combining modulus and argument yields the polar representation:
+  </p>
+  <p><strong>$z = |z| \left(\cos\theta + i\sin\theta\right)$</strong></p>
+  <p>
+    This is often abbreviated using Euler’s formula <strong>$e^{i\theta}$</strong>:
+  </p>
+  <p><strong>$z = |z|\,e^{i\theta}$</strong></p>
+  <p>
+    <strong>Variables:</strong>
+    <ul>
+      <li><strong>$|z|$</strong> – non‑negative real number (modulus).</li>
+      <li><strong>$\theta$</strong> – real angle measured in radians, principal value $(-\pi,\pi]$.</li>
+      <li><strong>$i$</strong> – imaginary unit, defined by <strong>$i^{2}=-1$</strong>.</li>
+    </ul>
+  </p>
+
+  <h4><strong>4. Algebraic Operations in Polar Form</strong></h4>
+  <p>Given two complex numbers <strong>$z_{1}=r_{1}e^{i\theta_{1}}$</strong> and <strong>$z_{2}=r_{2}e^{i\theta_{2}}$</strong>:</p>
+  <ul>
+    <li><strong>Multiplication:</strong> <strong>$z_{1}z_{2}=r_{1}r_{2}\,e^{i(\theta_{1}+\theta_{2})}$</strong></li>
+    <li><strong>Division:</strong> <strong>$\dfrac{z_{1}}{z_{2}}=\dfrac{r_{1}}{r_{2}}\,e^{i(\theta_{1}-\theta_{2})}$</strong> (provided <strong>$r_{2}\neq0$</strong>).</li>
+  </ul>
+  <p>
+    These formulas are derived directly from the exponential law <strong>$e^{i\alpha}e^{i\beta}=e^{i(\alpha+\beta)}$</strong> and the definition of modulus as a multiplicative factor.
+  </p>
+
+  <h4><strong>5. De Moivre’s Theorem</strong></h4>
+  <p>
+    For any integer <strong>$n\in\mathbb{Z}$</strong>:
+  </p>
+  <p><strong>$(\cos\theta+i\sin\theta)^{n}= \cos(n\theta)+i\sin(n\theta)$</strong></p>
+  <p>
+    In exponential notation:
+  </p>
+  <p><strong>$(e^{i\theta})^{n}=e^{in\theta}$</strong></p>
+  <p>
+    <strong>Derivation (first principles):</strong> Using induction:
+    <ol>
+      <li>Base case <strong>$n=1$</strong> holds trivially.</li>
+      <li>Assume true for <strong>$n=k$</strong>. Then
+        <p><strong>$(\cos\theta+i\sin\theta)^{k+1}= (\cos\theta+i\sin\theta)^{k}(\cos\theta+i\sin\theta)$</strong></p>
+        <p>Applying the induction hypothesis and expanding with the angle‑addition formulas yields the result for <strong>$k+1$</strong>.</li>
+    </ol>
+    Hence the theorem holds for all integers, and by continuity it extends to rational exponents.
+  </p>
+
+  <h4><strong>6. Roots of Unity</strong></h4>
+  <p>
+    Solving <strong>$z^{n}=1$</strong> leads to the <strong>$n$‑th roots of unity</strong>. Setting <strong>$z=r e^{i\theta}$</strong> and imposing <strong>$r^{n}=1$</strong> gives <strong>$r=1$</strong>. The argument condition yields:
+  </p>
+  <p><strong>$\theta = \dfrac{2k\pi}{n},\qquad k=0,1,\dots ,n-1$</strong></p>
+  <p>
+    Hence the roots are
+  </p>
+  <p><strong>$\omega_{k}=e^{i\frac{2k\pi}{n}} = \cos\frac{2k\pi}{n}+i\sin\frac{2k\pi}{n}$</strong></p>
+  <p>
+    These points lie on the unit circle, equally spaced, and satisfy the polynomial identity
+  </p>
+  <p><strong>$x^{n}-1 = \prod_{k=0}^{n-1}(x-\omega_{k})$</strong></p>
+
+  <h4><strong>7. Complex Conjugate and Its Properties</strong></h4>
+  <p>
+    For <strong>$z = a+bi$</strong>, the <strong>conjugate</strong> is <strong>$\overline{z}=a-bi$</strong>. Key identities:
+  </p>
+  <ul>
+    <li><strong>$z\overline{z}=|z|^{2}=a^{2}+b^{2}$</strong></li>
+    <li><strong>$\overline{z_{1}+z_{2}}=\overline{z_{1}}+\overline{z_{2}}$</strong></li>
+    <li><strong>$\overline{z_{1}z_{2}}=\overline{z_{1}}\;\overline{z_{2}}$</strong></li>
+    <li><strong>$\overline{\left(\dfrac{z_{1}}{z_{2}}\right)}=\dfrac{\overline{z_{1}}}{\overline{z_{2}}}$</strong> (provided <strong>$z_{2}\neq0$</strong>).</li>
   </ul>
 
-  <h4>4. Polar (Trigonometric) Form</h4>
-  <p>Using modulus r = |z| and argument θ, a complex number can be written as:</p>
-  <p><strong>z = r (cos θ + i sin θ)</strong></p>
-  <p>Euler’s compact notation yields:</p>
-  <p><strong>z = r e^{iθ}</strong></p>
+  <h4><strong>8. Division Using Conjugate (Rationalising Denominator)</strong></h4>
+  <p>
+    To divide <strong>$\dfrac{z_{1}}{z_{2}}$</strong>, multiply numerator and denominator by <strong>$\overline{z_{2}}$</strong>:
+  </p>
+  <p><strong>$\dfrac{z_{1}}{z_{2}} = \dfrac{z_{1}\,\overline{z_{2}}}{|z_{2}|^{2}}$</strong></p>
+  <p>
+    This yields a result in standard form <strong>$x+iy$</strong> without any imaginary component in the denominator.
+  </p>
 
-  <h4>5. Conversion Between Algebraic and Polar Forms</h4>
-  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width:100%; margin-top:10px;">
-    <tr style="background:#2a2a3a;">
-      <th style="color:#fff;">From</th>
-      <th style="color:#fff;">To</th>
-      <th style="color:#fff;">Formula</th>
-    </tr>
-    <tr>
-      <td><strong>a + i b</strong></td>
-      <td>Polar</td>
-      <td><strong>r = √(a²+b²), θ = atan2(b,a)</strong></td>
-    </tr>
-    <tr>
-      <td>Polar (<strong>r e^{iθ}</strong>)</td>
-      <td>Algebraic</td>
-      <td><strong>a = r cos θ, b = r sin θ</strong></td>
-    </tr>
+  <h4><strong>9. Comparison of Cartesian and Polar Representations</strong></h4>
+  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
+    <thead style="background:#2a2c33;">
+      <tr>
+        <th style="border:1px solid #444; padding:8px;">Aspect</th>
+        <th style="border:1px solid #444; padding:8px;">Cartesian Form</th>
+        <th style="border:1px solid #444; padding:8px;">Polar (Euler) Form</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border:1px solid #444; padding:8px;">Notation</td>
+        <td style="border:1px solid #444; padding:8px;"><strong>$z = a + bi$</strong></td>
+        <td style="border:1px solid #444; padding:8px;"><strong>$z = r\,e^{i\theta}$</strong></td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444; padding:8px;">Modulus</td>
+        <td style="border:1px solid #444; padding:8px;"><strong>$|z| = \sqrt{a^{2}+b^{2}}$</strong></td>
+        <td style="border:1px solid #444; padding:8px;"><strong>$r$</strong> (by definition)</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444; padding:8px;">Argument</td>
+        <td style="border:1px solid #444; padding:8px;"><strong>$\theta = \tan^{-1}\!\left(\dfrac{b}{a}\right)$</strong> (quadrant‑adjusted)</td>
+        <td style="border:1px solid #444; padding:8px;"><strong>$\theta$</strong> (explicit)</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444; padding:8px;">Multiplication</td>
+        <td style="border:1px solid #444; padding:8px;"><strong>$(a+bi)(c+di)= (ac-bd)+(ad+bc)i$</strong></td>
+        <td style="border:1px solid #444; padding:8px;"><strong>$r_{1}r_{2}\,e^{i(\theta_{1}+\theta_{2})}$</strong></td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444; padding:8px;">Division</td>
+        <td style="border:1px solid #444; padding:8px;"><strong>$\dfrac{a+bi}{c+di}= \dfrac{(a+bi)(c-di)}{c^{2}+d^{2}}$</strong></td>
+        <td style="border:1px solid #444; padding:8px;"><strong>$\dfrac{r_{1}}{r_{2}}\,e^{i(\theta_{1}-\theta_{2})}$</strong></td>
+      </tr>
+    </tbody>
   </table>
 
-  <h4>6. Fundamental Algebraic Operations</h4>
+  <h4><strong>10. Common Mistakes</strong></h4>
   <ul>
-    <li><strong>Addition</strong>: (a + i b) + (c + i d) = (a + c) + i(b + d).</li>
-    <li><strong>Subtraction</strong>: (a + i b) – (c + i d) = (a – c) + i(b – d).</li>
-    <li><strong>Multiplication</strong>: (a + i b)(c + i d) = (ac – bd) + i(ad + bc).</li>
-    <li><strong>Division</strong>: (a + i b)/(c + i d) = [(ac + bd) + i(bc – ad)] / (c² + d²).</li>
-    <li><strong>Conjugation</strong>: The conjugate of z = a + i b is \(\overline{z}=a‑i b\). Properties: z·\(\overline{z}\)=|z|², \(\overline{z_1+z_2}=\overline{z_1}+\overline{z_2}\), \(\overline{z_1z_2}=\overline{z_1}\,\overline{z_2}\).</li>
+    <li><strong>Ignoring the quadrant when computing $\theta$:</strong> Using $\tan^{-1}(b/a)$ without checking signs leads to an argument off by $\pi$.</li>
+    <li><strong>Dropping the $i$ in conjugate multiplication:</strong> Forgetting that $\overline{z}=a-bi$ results in an incorrect denominator when rationalising.</li>
+    <li><strong>Assuming $i^{2}=+1$:</strong> The fundamental definition $i^{2}=-1$ is non‑negotiable; any sign error propagates through all calculations.</li>
+    <li><strong>Misapplying De Moivre’s theorem to non‑integer exponents:</strong> The theorem holds for integers; for rational exponents one must consider multiple branches of the argument.</li>
   </ul>
 
-  <h4>7. Powers and Roots – De Moivre’s Theorem</h4>
-  <p><strong>De Moivre’s Theorem</strong> (1666) states that for any integer n:</p>
-  <p><strong>(cos θ + i sin θ)ⁿ = cos nθ + i sin nθ</strong></p>
-  <p>In exponential form:</p>
-  <p><strong>(r e^{iθ})ⁿ = rⁿ e^{i nθ}</strong></p>
-  <p>This theorem is the cornerstone for computing <strong>n<sup>th</sup> roots of a complex number</strong>. The n distinct roots of z = r e^{iθ} are:</p>
-  <p><strong>z_k = r^{1/n} e^{i(θ+2πk)/n}, k = 0,1,…,n‑1</strong></p>
-  <p>These roots lie on a circle of radius r^{1/n} and are equally spaced (forming a regular n‑gon) – a fact useful in geometry and signal processing.</p>
-
-  <h4>8. Roots of Unity</h4>
-  <p>The solutions of xⁿ = 1 are the <strong>n<sup>th</sup> roots of unity</strong>. They are given by:</p>
-  <p><strong>ω_k = e^{2π i k / n}, k = 0,1,…,n‑1</strong></p>
+  <h4><strong>11. Shortcuts & Tricks for Competitive Exams</strong></h4>
   <ul>
-    <li>All roots lie on the unit circle (|ω_k| = 1).</li>
-    <li>Sum of all n‑th roots of unity = 0.</li>
-    <li>Important in discrete Fourier transform (DFT) and cyclic group theory.</li>
+    <li><strong>Shortcut 1 – Modulus Quickly:</strong> For $z = a+bi$, compute $|z|$ as $\sqrt{a^{2}+b^{2}}$ using mental squares (e.g., $5^{2}=25$, $12^{2}=144$) to avoid calculator dependence.</li>
+    <li><strong>Shortcut 2 – Argument via Reference Angle:</strong> Identify the reference angle $\alpha = \tan^{-1}\!\left(\dfrac{|b|}{|a|}\right)$, then adjust by $0$, $\pi$, or $2\pi$ based on the quadrant.</li>
+    <li><strong>Shortcut 3 – Power of $i$ Cycle:</strong> Remember $i^{0}=1$, $i^{1}=i$, $i^{2}=-1$, $i^{3}=-i$, $i^{4}=1$; any higher power reduces modulo 4.</li>
+    <li><strong>Shortcut 4 – Using Euler’s Formula for Sums:</strong> Convert $a\cos\theta+b\sin\theta$ to $R\cos(\theta-\phi)$ by setting $R e^{i\phi}=a - ib$, then read $R=\sqrt{a^{2}+b^{2}}$.</li>
+    <li><strong>Shortcut 5 – Roots of Unity Quick List:</strong> For $n=3$, the roots are $1$, $-\dfrac{1}{2}+i\dfrac{\sqrt{3}}{2}$, $-\dfrac{1}{2}-i\dfrac{\sqrt{3}}{2}$; memorize these patterns for $n=4,5,6$.</li>
   </ul>
 
-  <h4>9. Polynomial Factorisation Using Complex Numbers</h4>
-  <p>Because of the <[[Fundamental Theorem of Algebra]]>, any polynomial P(x) of degree n can be expressed as:</p>
-  <p><strong>P(x) = a_n (x‑z₁)(x‑z₂)…(x‑z_n)</strong></p>
-  <p>where each z_i is a (possibly repeated) complex root. Real coefficients guarantee that non‑real roots occur in conjugate pairs.</p>
+  <h4><strong>12. Worked Example 1 – Multiplication and Polar Conversion</strong></h4>
+  <p><strong>Problem:</strong> Compute $(3+4i)(1-2i)$ and express the result in both Cartesian and polar forms.</p>
+  <ol>
+    <li><strong>Step 1 – Multiply using Cartesian rule:</strong>
+      <p>
+        \[
+        \begin{aligned}
+        (3+4i)(1-2i) &= 3\cdot1 + 3(-2i) + 4i\cdot1 + 4i(-2i) \\
+        &= 3 - 6i + 4i -8i^{2}.
+        \end{aligned}
+        \]
+      </p>
+      <p>Since $i^{2}=-1$, $-8i^{2}=+8$.</p>
+      <p>Thus the product equals <strong>$11 - 2i$</strong>.</p>
+    </li>
+    <li><strong>Step 2 – Modulus:</strong>
+      <p>
+        \[
+        |z| = \sqrt{11^{2}+(-2)^{2}}=\sqrt{121+4}= \sqrt{125}=5\sqrt{5}.
+        \]
+      </p>
+    </li>
+    <li><strong>Step 3 – Argument:</strong> Compute reference angle:
+      <p>
+        \[
+        \tan\theta = \frac{-2}{11}\; \Rightarrow\; \theta = \tan^{-1}\!\left(-\frac{2}{11}\right).
+        \]
+      </p>
+      <p>Both $a>0$ and $b<0$, so $\theta$ lies in the fourth quadrant; thus the principal value is $-\tan^{-1}\!\left(\frac{2}{11}\right)\approx -0.180\,\text{rad}$.</p>
+    </li>
+    <li><strong>Step 4 – Polar form:</strong>
+      <p><strong>$z = 5\sqrt{5}\,e^{\,i(-0.180)}$</strong> or equivalently <strong>$z = 5\sqrt{5}\bigl(\cos(-0.180)+i\sin(-0.180)\bigr)$</strong>.</li>
+  </ol>
 
-  <h4>10. Important Identities and Theorems</h4>
-  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width:100%; margin-top:10px;">
-    <tr style="background:#2a2a3a;">
-      <th style="color:#fff;">Identity / Theorem</th>
-      <th style="color:#fff;">Statement</th>
-    </tr>
-    <tr>
-      <td><strong>Euler’s Formula (1748)</strong></td>
-      <td>e^{iθ}=cos θ + i sin θ</td>
-    </tr>
-    <tr>
-      <td><strong>De Moivre’s Theorem (1666)</strong></td>
-      <td>(cos θ + i sin θ)ⁿ = cos nθ + i sin nθ</td>
-    </tr>
-    <tr>
-      <td><strong>Conjugate Multiplication</strong></td>
-      <td>z·\(\overline{z}\) = a² + b² = |z|²</td>
-    </tr>
-    <tr>
-      <td><strong>Modulus Multiplication</strong></td>
-      <td>|z₁z₂| = |z₁|·|z₂|</td>
-    </tr>
-    <tr>
-      <td><strong>Argument Addition</strong></td>
-      <td>arg(z₁z₂) = arg(z₁) + arg(z₂) (mod 2π)</td>
-    </tr>
-    <tr>
-      <td><strong>Gauss’s Lemma (1832)</strong></td>
-      <td>If a polynomial with integer coefficients is reducible over ℚ, then it is reducible over ℤ.</td>
-    </tr>
-  </table>
+  <h4><strong>13. Worked Example 2 – Solving a Quadratic with Complex Roots</strong></h4>
+  <p><strong>Problem:</strong> Solve $x^{2}+4x+13=0$ and write the roots in polar form.</p>
+  <ol>
+    <li><strong>Step 1 – Use quadratic formula:</strong>
+      <p>
+        \[
+        x = \frac{-b\pm\sqrt{b^{2}-4ac}}{2a}
+        =\frac{-4\pm\sqrt{16-52}}{2}
+        =\frac{-4\pm\sqrt{-36}}{2}.
+        \]
+      </p>
+    </li>
+    <li><strong>Step 2 – Simplify the discriminant:</strong>
+      <p>
+        \[
+        \sqrt{-36}=6i.
+        \]
+      </p>
+      <p>Hence the roots are <strong>$x_{1}= -2+3i$</strong> and <strong>$x_{2}= -2-3i$</strong>.</li>
+    <li><strong>Step 3 – Modulus of each root:</strong>
+      <p>
+        \[
+        |x_{1}| = |x_{2}| = \sqrt{(-2)^{2}+3^{2}} = \sqrt{4+9}= \sqrt{13}.
+        \]
+      </p>
+    </li>
+    <li><strong>Step 4 – Argument:</strong>
+      <p>For $x_{1}= -2+3i$, $a=-2$, $b=3$ (second quadrant). Reference angle $\alpha = \tan^{-1}\!\left(\frac{3}{2}\right) \approx 0.983\,\text{rad}$. Therefore $\theta_{1}= \pi-\alpha \approx 3.142-0.983 = 2.159\,\text{rad}$.</p>
+      <p>For $x_{2}= -2-3i$, the angle is $-\pi+\alpha \approx -2.159\,\text{rad}$.</p>
+    </li>
+    <li><strong>Step 5 – Polar representation:</strong>
+      <p>
+        \[
+        x_{1}= \sqrt{13}\;e^{\,i\,2.159},\qquad
+        x_{2}= \sqrt{13}\;e^{\,i\,(-2.159)}.
+        \]
+      </p>
+  </ol>
 
-  <h4>11. Applications in Defence‑Oriented Problems</h4>
+  <h4><strong>14. Applications in Defence‑Oriented Problems</strong></h4>
+  <p>
+    Complex numbers appear in:
+  </p>
   <ul>
-    <li><strong>Signal Processing</strong>: Complex exponentials model sinusoidal waveforms; roots of unity underpin the <[[Discrete Fourier Transform]]> used in radar and communication.</li>
-    <li><strong>Control Systems</strong>: Characteristic equations of linear time‑invariant (LTI) systems often yield complex poles; stability criteria (e.g., Routh‑Hurwitz) require knowledge of real and imaginary parts.</li>
-    <li><strong>Navigation & Ballistics</strong>: Complex numbers simplify rotation of vectors in two‑dimensional plane, useful for trajectory corrections.</li>
-    <li><strong>Quantum Mechanics</strong>: State vectors are complex; understanding of modulus and phase is essential for probability amplitudes.</li>
+    <li><strong>Signal processing for radar and communication systems</strong> – phasor representation uses $e^{i\theta}$.</li>
+    <li><strong>Control theory of missile guidance</strong> – characteristic equations of linear systems often have complex roots, dictating oscillatory behaviour.</li>
+    <li><strong>Electromagnetic wave analysis</strong> – plane wave solutions $E=E_{0}e^{i(\mathbf{k}\cdot\mathbf{r}-\omega t)}$ rely on complex exponentials.</li>
   </ul>
 
-  <h4>12. Common Pitfalls & Tips for Quick Computation</h4>
+  <h4><strong>15. Summary of Key Formulas</strong></h4>
   <ul>
-    <li>Always rationalise denominators by multiplying numerator and denominator by the conjugate of the denominator.</li>
-    <li>When finding powers, convert to polar form first; exponentiation becomes a simple multiplication of arguments.</li>
-    <li>Remember the principal value of argument lies in (–π, π]; for exam questions, adjust using 2πk if required.</li>
-    <li>For quadratic equations with negative discriminant, write roots directly as <strong>–b/2a ± i√(|Δ|)/2a</strong>.</li>
-  </ul>
-
-  <h4>13. Summary of Notations</h4>
-  <ul>
-    <li><strong>z</strong> – generic complex number.</li>
-    <li><strong>i</strong> – imaginary unit, i² = –1.</li>
-    <li><strong>Re z, Im z</strong> – real and imaginary parts.</li>
-    <li><strong>|z|</strong> – modulus (absolute value).</li>
-    <li><strong>arg z</strong> – principal argument.</li>
-    <li><strong>\(\overline{z}\)</strong> – complex conjugate.</li>
-    <li><strong>e^{iθ}</strong> – Euler’s exponential form.</li>
-    <li><strong>ω_k</strong> – n‑th root of unity.</li>
+    <li><strong>Cartesian form:</strong> $z = a + bi$.</li>
+    <li><strong>Modulus:</strong> $|z| = \sqrt{a^{2}+b^{2}}$.</li>
+    <li><strong>Argument:</strong> $\theta = \operatorname{atan2}(b,a)$.</li>
+    <li><strong>Polar/Euler form:</strong> $z = |z|\,e^{i\theta}$.</li>
+    <li><strong>Multiplication:</strong> $z_{1}z_{2}=|z_{1}||z_{2}|e^{i(\theta_{1}+\theta_{2})}$.</li>
+    <li><strong>Division:</strong> $\dfrac{z_{1}}{z_{2}}=\dfrac{|z_{1}|}{|z_{2}|}e^{i(\theta_{1}-\theta_{2})}$.</li>
+    <li><strong>De Moivre:</strong> $(\cos\theta+i\sin\theta)^{n}= \cos n\theta+i\sin n\theta$.</li>
+    <li><strong>Roots of unity:</strong> $\omega_{k}=e^{i\frac{2k\pi}{n}}$.</li>
+    <li><strong>Conjugate:</strong> $\overline{z}=a-bi$, with $z\overline{z}=|z|^{2}$.</li>
   </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>Modulus of a complex number <strong>a + i b</strong> is √(a² + b²); its square equals the product with its conjugate.</li>
-      <li>Euler’s formula <strong>e^{iθ}=cos θ+i sin θ</strong> converts between exponential and trigonometric forms instantly.</li>
-      <li>For any integer n, <strong>(cos θ+i sin θ)ⁿ = cos nθ + i sin nθ</strong> (De Moivre’s theorem).</li>
-      <li>The n distinct <strong>n‑th roots of unity</strong> are <strong>e^{2π i k/n}</strong>, k=0…n‑1, and sum to zero.</li>
-      <li>Quadratic equations with negative discriminant give complex roots: <strong>–b/2a ± i√(|Δ|)/2a</strong>.</li>
-      <li>Complex conjugate multiplication yields a real number: <strong>z·\(\overline{z}\)=|z|²</strong>.</li>
-      <li>When dividing, always multiply numerator and denominator by the conjugate of the denominator to rationalise.</li>
-      <li>Non‑real roots of a polynomial with real coefficients always appear in conjugate pairs.</li>
+      <li><strong>$i^{2} = -1$</strong> – the cornerstone of all complex‑number manipulations.</li>
+      <li><strong>$|z|^{2}=z\overline{z}$</strong> – useful for rationalising denominators instantly.</li>
+      <li><strong>Argument $\theta$ is taken modulo $2\pi$; principal value lies in $(-\pi,\pi]$.</strong></li>
+      <li><strong>De Moivre’s theorem works for any integer $n$; for fractional $n$ consider multiple arguments.</strong></li>
+      <li><strong>Modulus of product = product of moduli; modulus of quotient = quotient of moduli.</strong></li>
+      <li><strong>Power‑cycle of $i$: $i^{0}=1$, $i^{1}=i$, $i^{2}=-1$, $i^{3}=-i$, $i^{4}=1$.</strong></li>
+      <li><strong>Roots of unity lie on the unit circle and are equally spaced.</strong></li>
+      <li><strong>When converting $a+bi$ to polar, always check the sign of $a$ and $b$ to place $\theta$ in the correct quadrant.</strong></li>
+      <li><strong>For quick polar conversion, use $r=\sqrt{a^{2}+b^{2}}$ and $\theta=\tan^{-1}\!\left(\dfrac{b}{a}\right)$ with quadrant correction.</strong></li>
+      <li><strong>Complex conjugate of a product equals product of conjugates: $\overline{z_{1}z_{2}}=\overline{z_{1}}\;\overline{z_{2}}$.</strong></li>
     </ul>
   </div>
 </div>
@@ -809,158 +1208,278 @@ EXPANDED_NOTES_DATA["straight-lines"] = `
     Straight Lines
   </h3>
 
-  <h4><strong>Fundamental Concepts in the [[Cartesian coordinate system]]</strong></h4>
-  <p>The study of straight lines in coordinate geometry begins with the representation of a point as an ordered pair <strong>(x, y)</strong> in two dimensions or as a triple <strong>(x, y, z)</strong> in three dimensions. The basic quantities that govern line theory are:</p>
+  <h4>1. Fundamental Concepts in 2‑D Coordinate Geometry</h4>
   <ul>
-    <li><strong>Slope (m)</strong> – defined in 2‑D as <strong>m = (y_2 - y_1)/(x_2 - x_1)</strong> provided <strong>x_2 ≠ x_1</strong>. In 3‑D, the concept of a single slope is replaced by a set of direction ratios.</li>
-    <li><strong>Direction Ratios (a, b, c)</strong> – any non‑zero triple proportional to the direction cosines of a line in 3‑D.</li>
-    <li><strong>Direction Cosines (l, m, n)</strong> – satisfy <strong>l² + m² + n² = 1</strong> and are the cosines of the angles made by the line with the positive axes.</li>
-    <li><strong>Intercepts</strong> – where a line cuts the coordinate axes; the x‑intercept is <strong>a</strong> when <strong>y = 0</strong>, the y‑intercept is <strong>b</strong> when <strong>x = 0</strong>, and analogously for the z‑intercept in 3‑D.</li>
+    <li><strong>Cartesian Plane:</strong> Defined by orthogonal axes <em>X</em> and <em>Y</em>. Any point is denoted as $P(x,\,y)$ where $x$ and $y$ are its <strong>coordinates</strong>.</li>
+    <li><strong>Distance between two points $A(x_1,\,y_1)$ and $B(x_2,\,y_2)$:</strong>
+      $$d = \sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$
+      <ul>
+        <li>Derivation: Apply the Pythagorean theorem to the right‑angled triangle formed by the horizontal and vertical separations.</li>
+        <li>All variables are real numbers; the formula holds for any pair of points in the plane.</li>
+      </ul>
+    </li>
+    <li><strong>Mid‑point of $AB$:</strong>
+      $$M\Bigl(\frac{x_1+x_2}{2},\;\frac{y_1+y_2}{2}\Bigr)$$
+      <ul>
+        <li>Used extensively in constructing perpendicular bisectors and in geometry‑based proofs.</li>
+      </ul>
+    </li>
   </ul>
 
-  <h4><strong>Equations of a Straight Line in 2‑D</strong></h4>
-  <p>There are four principal forms, each useful for specific types of problems.</p>
+  <h4>2. Various Algebraic Forms of a Straight Line in 2‑D</h4>
+  <div class="important-box" style="background:#f9f9f9;border-left:4px solid #c00;padding:10px;margin:10px 0;">
+    <strong>Key Distinction:</strong> <em>Direction ratios</em> (DR) are proportional components of a direction vector; <em>direction cosines</em> (DC) are the cosines of angles that the vector makes with the coordinate axes, satisfying $l^2+m^2=1$.
+  </div>
 
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <tr style="background:#2a2a3a;">
-      <th style="padding:8px; border:1px solid #444;">Form</th>
-      <th style="padding:8px; border:1px solid #444;">Expression</th>
-      <th style="padding:8px; border:1px solid #444;">Typical Use</th>
+  <table style="width:100%;border-collapse:collapse;margin:12px 0;">
+    <tr style="background:#e0e0e0;">
+      <th style="border:1px solid #999;padding:6px;">Form</th>
+      <th style="border:1px solid #999;padding:6px;">Equation</th>
+      <th style="border:1px solid #999;padding:6px;">Typical Use‑Case</th>
     </tr>
     <tr>
-      <td style="padding:8px; border:1px solid #444;"><strong>Slope‑Intercept Form</strong></td>
-      <td style="padding:8px; border:1px solid #444;"><strong>y = mx + c</strong></td>
-      <td style="padding:8px; border:1px solid #444;">When the slope <strong>m</strong> and y‑intercept <strong>c</strong> are known.</td>
-    </tr>
-    <tr style="background:#1e1e2b;">
-      <td style="padding:8px; border:1px solid #444;"><strong>Point‑Slope Form</strong></td>
-      <td style="padding:8px; border:1px solid #444;"><strong>y - y₁ = m(x - x₁)</strong></td>
-      <td style="padding:8px; border:1px solid #444;">When a point <strong>(x₁, y₁)</strong> and slope <strong>m</strong> are given.</td>
+      <td style="border:1px solid #999;padding:6px;"><strong>Slope‑Intercept</strong></td>
+      <td style="border:1px solid #999;padding:6px;">$y = mx + c$</td>
+      <td style="border:1px solid #999;padding:6px;">Quickly read off slope $m$ and $y$‑intercept $c$.</td>
     </tr>
     <tr>
-      <td style="padding:8px; border:1px solid #444;"><strong>Two‑Point Form</strong></td>
-      <td style="padding:8px; border:1px solid #444;"><strong>(y - y₁)/(x - x₁) = (y₂ - y₁)/(x₂ - x₁)</strong></td>
-      <td style="padding:8px; border:1px solid #444;">When two distinct points <strong>(x₁, y₁)</strong> and <strong>(x₂, y₂)</strong> are known.</td>
+      <td style="border:1px solid #999;padding:6px;"><strong>Point‑Slope</strong></td>
+      <td style="border:1px solid #999;padding:6px;">$y - y_1 = m(x - x_1)$</td>
+      <td style="border:1px solid #999;padding:6px;">When a point $(x_1,y_1)$ on the line is known.</td>
     </tr>
-    <tr style="background:#1e1e2b;">
-      <td style="padding:8px; border:1px solid #444;"><strong>General (Normal) Form</strong></td>
-      <td style="padding:8px; border:1px solid #444;"><strong>Ax + By + C = 0</strong></td>
-      <td style="padding:8px; border:1px solid #444;">Useful for distance calculations and for expressing perpendicularity conditions.</td>
+    <tr>
+      <td style="border:1px solid #999;padding:6px;"><strong>General (Ax+By+C=0)</strong></td>
+      <td style="border:1px solid #999;padding:6px;">$Ax + By + C = 0$</td>
+      <td style="border:1px solid #999;padding:6px;">Convenient for testing collinearity and perpendicularity via coefficients.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999;padding:6px;"><strong>Intercept Form</strong></td>
+      <td style="border:1px solid #999;padding:6px;">$\displaystyle\frac{x}{a} + \frac{y}{b} = 1$</td>
+      <td style="border:1px solid #999;padding:6px;">Directly gives $x$‑intercept $a$ and $y$‑intercept $b$.</td>
     </tr>
   </table>
 
-  <h4><strong>Key Properties in 2‑D</strong></h4>
+  <h4>2.1 Derivation of the Slope Formula</h4>
+  <p>Given two distinct points $P_1(x_1,\,y_1)$ and $P_2(x_2,\,y_2)$, the slope $m$ is defined as the ratio of vertical change to horizontal change:</p>
+  $$m = \frac{\Delta y}{\Delta x} = \frac{y_2-y_1}{x_2-x_1}$$
   <ul>
-    <li><strong>Parallelism</strong>: Two lines <strong>Ax + By + C = 0</strong> and <strong>A'x + B'y + C' = 0</strong> are parallel iff <strong>A/B = A'/B'</strong> (provided neither denominator is zero) or equivalently <strong>AB' - A'B = 0</strong>.</li>
-    <li><strong>Perpendicularity</strong>: Lines are perpendicular iff <strong>AA' + BB' = 0</strong>. In slope form, this reduces to <strong>m₁·m₂ = -1</strong> (excluding vertical/horizontal cases).</li>
-    <li><strong>Angle Between Two Lines</strong>: Given slopes <strong>m₁, m₂</strong>, the acute angle <strong>θ</strong> satisfies <strong>tan θ = |(m₂ - m₁)/(1 + m₁m₂)|</strong>. For general forms, <strong>tan θ = |(A₁B₂ - A₂B₁)/(A₁A₂ + B₁B₂)|</strong>.</li>
-    <li><strong>Distance from a Point to a Line</strong>: For point <strong>(x₀, y₀)</strong> and line <strong>Ax + By + C = 0</strong>, distance <strong>d = |Ax₀ + By₀ + C| / √(A² + B²)</strong>.</li>
-    <li><strong>Foot of Perpendicular</strong>: Coordinates of the perpendicular dropped from <strong>(x₀, y₀)</strong> onto <strong>Ax + By + C = 0</strong> are 
-      <br><strong>(x', y') = (x₀ - A·d·(A/√(A²+B²)), y₀ - B·d·(B/√(A²+B²)))</strong> where <strong>d</strong> is as above, or directly using the formula 
-      <br><strong(x' = (B(Bx₀ - Ay₀) - AC) / (A² + B²), y' = (A(Ay₀ - Bx₀) - BC) / (A² + B²)</strong>.</li>
+    <li>Condition: $x_2\neq x_1$ (otherwise the line is vertical and slope is undefined, i.e., $\displaystyle m = \infty$).</li>
+    <li>Derivation: From the right‑triangle formed by the segment $P_1P_2$, the opposite side length is $|y_2-y_1|$ and the adjacent side length is $|x_2-x_1|$; dividing yields the ratio.</li>
   </ul>
 
-  <h4><strong>Collinearity and Section Formulae (2‑D)</strong></h4>
-  <p>Three points <strong>(x₁, y₁)</strong>, <strong>(x₂, y₂)</strong>, <strong>(x₃, y₃)</strong> are collinear iff the area of the triangle they form is zero, i.e., <strong>(x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂)) = 0</strong>. This can also be expressed as the ratio of slopes being equal.</p>
+  <h4>2.2 Collinearity Condition Using Determinants</h4>
+  <p>Three points $A(x_1,\,y_1)$, $B(x_2,\,y_2)$, $C(x_3,\,y_3)$ are collinear iff the area of the triangle they form is zero, which leads to the determinant condition:</p>
+  $$\begin{vmatrix}
+  x_1 & y_1 & 1\\
+  x_2 & y_2 & 1\\
+  x_3 & y_3 & 1
+  \end{vmatrix}=0$$
   <ul>
-    <li><strong>Internal Division</strong> – The point dividing the segment joining <strong>P₁(x₁, y₁)</strong> and <strong>P₂(x₂, y₂)</strong> in the ratio <strong>m:n</strong> (internally) has coordinates 
-      <br><strong>((mx₂ + nx₁)/(m + n), (my₂ + ny₁)/(m + n))</strong>.</li>
-    <li><strong>External Division</strong> – For external division in the same ratio, the coordinates become 
-      <br><strong>((mx₂ - nx₁)/(m - n), (my₂ - ny₁)/(m - n))</strong>, provided <strong>m ≠ n</strong>.</li>
+    <li>Expanding gives $(x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2))=0$.</li>
+    <li>This condition is equivalent to equality of slopes $ \frac{y_2-y_1}{x_2-x_1}= \frac{y_3-y_1}{x_3-x_1}$ provided denominators are non‑zero.</li>
   </ul>
 
-  <h4><strong>Equations of a Straight Line in 3‑D</strong></h4>
-  <p>In three dimensions, a line cannot be represented by a single linear equation; instead, we use a pair of linear equations or vector‑parametric forms.</p>
-
-  <h5><strong>Vector (Parametric) Form</strong></h5>
-  <p>Given a point <strong>A(x₁, y₁, z₁)</strong> and direction ratios <strong>(a, b, c)</strong>, the line <strong>ℓ</strong> is expressed as:</p>
+  <h4>2.3 Angle Between Two Lines</h4>
+  <p>For lines $L_1: y=m_1x+c_1$ and $L_2: y=m_2x+c_2$, the acute angle $\theta$ between them satisfies:</p>
+  $$\tan\theta = \bigg|\frac{m_2-m_1}{1+m_1m_2}\bigg|$$
   <ul>
-    <li><strong>r = a₀ + λ·d</strong> where <strong>r = (x, y, z)</strong>, <strong>a₀ = (x₁, y₁, z₁)</strong>, and <strong>d = (a, b, c)</strong> is the direction vector.</li>
-    <li>Component‑wise: <strong>x = x₁ + λa, y = y₁ + λb, z = z₁ + λc</strong>.</li>
-  </ul>
-
-  <h5><strong>Symmetric Form</strong></h5>
-  <p>Eliminating the parameter <strong>λ</strong> yields the symmetric equations:</p>
-  <p><strong>(x - x₁)/a = (y - y₁)/b = (z - z₁)/c</strong>, provided none of <strong>a, b, c</strong> are zero. If a component is zero, the corresponding coordinate remains constant (e.g., <strong>x = x₁</strong> when <strong>a = 0</strong>).</p>
-
-  <h5><strong>Pair of Linear Equations</strong></h5>
-  <p>Alternatively, a line can be defined as the intersection of two planes:</p>
-  <ul>
-    <li><strong>A₁x + B₁y + C₁z + D₁ = 0</strong></li>
-    <li><strong>A₂x + B₂y + C₂z + D₂ = 0</strong></li>
-  </ul>
-  <p>The normals of these planes are not parallel; their cross product gives the direction vector of the line.</p>
-
-  <h4><strong>Fundamental Relations in 3‑D</strong></h4>
-  <ul>
-    <li><strong>Angle Between Two Lines</strong>: If direction ratios of the lines are <strong>(a₁, b₁, c₁)</strong> and <strong>(a₂, b₂, c₂)</strong>, the acute angle <strong>θ</strong> satisfies 
-      <br><strong>cos θ = |a₁a₂ + b₁b₂ + c₁c₂| / (√(a₁² + b₁² + c₁²)·√(a₂² + b₂² + c₂²))</strong>, i.e., the absolute value of the dot product divided by the product of magnitudes.</li>
-    <li><strong>Parallelism</strong>: Two lines are parallel iff their direction ratios are proportional, i.e., <strong>a₁:b₁:c₁ = a₂:b₂:c₂</strong>.</li>
-    <li><strong>Perpendicularity</strong>: Two lines are perpendicular iff the dot product of their direction vectors is zero: <strong>a₁a₂ + b₁b₂ + c₁c₂ = 0</strong>.</li>
-    <li><strong>Skew Lines</strong>: Lines that are neither intersecting nor parallel. The shortest distance <strong>d</strong> between skew lines ℓ₁ and ℓ₂ can be found using the scalar triple product:
-      <br><strong>d = |(a₁, b₁, c₁)·((a₂, b₂, c₂) × (P₂ - P₁))| / |(a₁, b₁, c₁) × (a₂, b₂, c₂)|</strong>,
-      where <strong>P₁, P₂</strong> are points on ℓ₁ and ℓ₂ respectively.</li>
-    <li><strong>Distance from a Point to a Line (3‑D)</strong>: For point <strong>P₀(x₀, y₀, z₀)</strong> and line with point <strong>A(x₁, y₁, z₁)</strong> and direction vector <strong>d = (a, b, c)</strong>,
-      <br><strong>d = |(AP₀ × d)| / |d|</strong>, where <strong>AP₀ = (x₀ - x₁, y₀ - y₁, z₀ - z₁)</strong>.</li>
-  </ul>
-
-  <h4><strong>Special Cases and Useful Transformations</strong></h4>
-  <ul>
-    <li><strong>Vertical and Horizontal Lines (2‑D)</strong>: A vertical line has an undefined slope and is expressed as <strong>x = k</strong>. A horizontal line has slope zero and takes the form <strong>y = k</strong>.</li>
-    <li><strong>Conversion Between Forms</strong>:
+    <li>Derivation: Use the tangent of the difference of angles formula $\tan(\alpha-\beta)=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}$ where $\alpha=\arctan m_1$, $\beta=\arctan m_2$.</li>
+    <li>Special Cases:
       <ul>
-        <li>From <strong>y = mx + c</strong> to <strong>Ax + By + C = 0</strong>: set <strong>A = -m, B = 1, C = -c</strong>.</li>
-        <li>From two‑point form to general form: cross‑multiply and rearrange to obtain <strong>Ax + By + C = 0</strong>.</li>
+        <li>If $m_1m_2=-1$, then $\theta=90^\circ$ (perpendicular lines).</li>
+        <li>If $m_1=m_2$, then $\theta=0^\circ$ (parallel lines).</li>
       </ul>
     </li>
-    <li><strong>Collinearity Test Using Determinants</strong>: For points <strong>P₁, P₂, P₃</strong>, the determinant 
-      <br><strong>⎡x₁ y₁ 1⎤
-          ⎢x₂ y₂ 1⎥ = 0
-          ⎣x₃ y₃ 1⎦</strong>
-      must vanish.</li>
-    <li><strong>Projection of a Vector onto a Line</strong>: Given a vector <strong>v</strong> and line direction vector <strong>d</strong>,
-      <br><strong>projₗ(v) = (v·d / d·d)·d</strong>.</li>
   </ul>
 
-  <h4><strong>Representative Problems and Their Solution Strategies</strong></h4>
-  <p>While the notes avoid explicit MCQs, understanding the standard problem‑solving patterns is essential for the NDA, CDS, and AFCAT examinations.</p>
+  <h4>2.4 Distance from a Point to a Line</h4>
+  <p>For line $Ax+By+C=0$ and point $P(x_0,\,y_0)$, the perpendicular distance $d$ is:</p>
+  $$d = \frac{|Ax_0+By_0+C|}{\sqrt{A^2+B^2}}$$
   <ul>
-    <li><strong>Finding the Equation of a Line Passing Through Two Given Points</strong>: Use the two‑point form or compute the slope first, then adopt the point‑slope form.</li>
-    <li><strong>Determining Whether Two Lines are Perpendicular</strong>: Compute slopes (if not vertical/horizontal) and verify <strong>m₁·m₂ = -1</strong>, or use the dot‑product condition in 3‑D.</li>
-    <li><strong>Distance Between Two Parallel Lines</strong>: For lines <strong>Ax + By + C₁ = 0</strong> and <strong>Ax + By + C₂ = 0</strong>, distance is 
-      <br><strong>|C₂ - C₁| / √(A² + B²)</strong>.</li>
-    <li><strong>Shortest Distance Between Skew Lines</strong>: Apply the scalar triple product formula shown earlier; ensure the direction vectors are not parallel.</li>
-    <li><strong>Foot of Perpendicular from a Point to a Given Line</strong>: Use the distance formula to find <strong>d</strong>, then substitute back into the parametric equation to locate the foot.</li>
+    <li>Derivation: Project the vector from any point on the line to $P$ onto the normal vector $(A,\,B)$.</li>
+    <li>Constraints: $A$ and $B$ cannot both be zero; otherwise the expression does not represent a line.</li>
   </ul>
 
-  <h4><strong>Key Theorems and Proof Sketches</strong></h4>
+  <h4>3. 3‑D Straight Lines – Vector and Parametric Treatment</h4>
+  <p>In three‑dimensional space, a line is uniquely determined by a point $P_0(x_0,\,y_0,\,z_0)$ and a direction vector $\mathbf{d}= \langle a,\,b,\,c\rangle$ (also called <strong>direction ratios</strong>).</p>
+
+  <h4>3.1 Vector Equation</h4>
+  $$\mathbf{r} = \mathbf{r_0} + \lambda\mathbf{d}$$
   <ul>
-    <li><strong>Perpendicular Distance Formula (2‑D)</strong> – Derived by dropping a perpendicular from the point to the line and employing similar triangles or the area of a triangle formula <strong>½·base·height = |Ax₀ + By₀ + C|/2</strong>.</li>
-    <li><strong>Scalar Triple Product for Skew Lines</strong> – The magnitude of the scalar triple product gives the volume of the parallelepiped formed by the two direction vectors and the vector connecting any point on one line to any point on the other; dividing by the area of the base (the magnitude of the cross product) yields the height, which is the shortest distance.</li>
-    <li><strong>Direction Cosines Relation</strong> – Since direction cosines are the cosines of the angles with the axes, the sum of their squares equals one, a direct consequence of the unit vector definition.</li>
+    <li>$\mathbf{r}=\langle x,\,y,\,z\rangle$ is the position vector of a generic point on the line.</li>
+    <li>$\lambda\in\mathbb{R}$ is the scalar parameter.</li>
+    <li>Condition: $\mathbf{d}\neq\mathbf{0}$.</li>
   </ul>
 
-  <h4><strong>Common Pitfalls and How to Avoid Them</strong></h4>
+  <h4>3.2 Parametric Form</h4>
+  $$\begin{cases}
+  x = x_0 + a\lambda\\[4pt]
+  y = y_0 + b\lambda\\[4pt]
+  z = z_0 + c\lambda
+  \end{cases}$$
   <ul>
-    <li>Confusing the normal form <strong>Ax + By + C = 0</strong> with the slope‑intercept form; always verify by rearranging before applying formulas.</li>
-    <li>Neglecting the case of vertical lines when using the slope formula; remember to switch to the form <strong>x = k</strong>.</li>
-    <li>In 3‑D, forgetting that a single linear equation cannot represent a line; always pair it with another independent plane equation.</li>
-    <li>When computing the angle between lines, ensure you use the absolute value in the cosine expression to obtain the acute angle required for most exam questions.</li>
+    <li>Each coordinate varies linearly with the same parameter $\lambda$.</li>
+    <li>Useful for substituting into plane equations to test intersection.</li>
   </ul>
+
+  <h4>3.3 Symmetric Form</h4>
+  $$\frac{x-x_0}{a} = \frac{y-y_0}{b} = \frac{z-z_0}{c}$$
+  <ul>
+    <li>Derived by eliminating $\lambda$ from the parametric equations (provided $a,b,c\neq0$).</li>
+    <li>If any component of $\mathbf{d}$ is zero, the corresponding fraction is omitted and that coordinate is set equal to its constant value.</li>
+  </ul>
+
+  <h4>3.4 Direction Cosines and Angles with Axes</h4>
+  <p>Let $\alpha,\,\beta,\,\gamma$ be the angles made by $\mathbf{d}$ with the $X$, $Y$, $Z$ axes respectively. Then</p>
+  $$\cos\alpha = \frac{a}{\sqrt{a^2+b^2+c^2}},\qquad
+    \cos\beta = \frac{b}{\sqrt{a^2+b^2+c^2}},\qquad
+    \cos\gamma = \frac{c}{\sqrt{a^2+b^2+c^2}}$$
+  <ul>
+    <li>These satisfy $\cos^2\alpha+\cos^2\beta+\cos^2\gamma=1$.</li>
+    <li>Direction cosines are often used when the line is required to make a specified angle with a coordinate axis.</li>
+  </ul>
+
+  <h4>3.5 Angle Between Two Skew Lines</h4>
+  <p>Given $L_1:\mathbf{r}= \mathbf{r_1}+\lambda\mathbf{d_1}$ and $L_2:\mathbf{r}= \mathbf{r_2}+\mu\mathbf{d_2}$, the angle $\theta$ between them (the acute angle between their direction vectors) is</p>
+  $$\cos\theta = \frac{|\mathbf{d_1}\cdot\mathbf{d_2}|}{\|\mathbf{d_1}\|\;\|\mathbf{d_2}\|}$$
+  <ul>
+    <li>Derivation: Apply the definition of dot product $\mathbf{a}\cdot\mathbf{b}= \|\mathbf{a}\|\|\mathbf{b}\|\cos\phi$ where $\phi$ is the angle between $\mathbf{a}$ and $\mathbf{b}$.</li>
+    <li>Even if the lines do not intersect (skew), their direction vectors still define an angle.</li>
+  </ul>
+
+  <h4>3.6 Shortest Distance Between Two Skew Lines</h4>
+  <p>Let $\mathbf{d_1},\mathbf{d_2}$ be direction vectors and $\mathbf{r_{12}}=\mathbf{r_2}-\mathbf{r_1}$ the vector joining any point on $L_1$ to any point on $L_2$. The minimal distance $d$ is</p>
+  $$d = \frac{|\mathbf{r_{12}}\cdot(\mathbf{d_1}\times\mathbf{d_2})|}{\|\mathbf{d_1}\times\mathbf{d_2}\|}$$
+  <ul>
+    <li>Derivation Sketch:
+      <ol>
+        <li>Form the vector product $\mathbf{n}=\mathbf{d_1}\times\mathbf{d_2}$ which is perpendicular to both lines.</li>
+        <li>Project $\mathbf{r_{12}}$ onto $\mathbf{n}$; the magnitude of this projection gives the perpendicular distance.</li>
+      </ol>
+    </li>
+    <li>Constraint: $\mathbf{d_1}\times\mathbf{d_2}\neq\mathbf{0}$ (i.e., lines are not parallel).</li>
+  </ul>
+
+  <h4>4. Worked Example 1 – 2‑D Line Through Two Points</h4>
+  <p><strong>Problem:</strong> Determine the equation of the line passing through $A(2,\,-1)$ and $B(5,\,3)$. Find its $x$‑ and $y$‑intercepts, the slope, and the perpendicular distance from the origin.</p>
+  <ol>
+    <li><strong>Step 1 – Compute the slope $m$:</strong>
+      $$m=\frac{3-(-1)}{5-2}= \frac{4}{3}$$
+    <li><strong>Step 2 – Use point‑slope form with point $A$:</strong>
+      $$y-(-1)=\frac{4}{3}(x-2)\;\Longrightarrow\;y+1=\frac{4}{3}x-\frac{8}{3}$$
+      $$\Rightarrow\; y = \frac{4}{3}x-\frac{11}{3}$$
+    <li><strong>Step 3 – Convert to general form $Ax+By+C=0$:</strong>
+      Multiply by $3$: $3y =4x-11\;\Longrightarrow\;4x-3y-11=0$.
+    <li><strong>Step 4 – $x$‑intercept ($y=0$):</strong> Set $y=0$ in $4x-11=0$ $\Rightarrow x=\frac{11}{4}=2.75$.
+    <li><strong>Step 5 – $y$‑intercept ($x=0$):</strong> Set $x=0$ in $-3y-11=0$ $\Rightarrow y=-\frac{11}{3}\approx-3.667$.
+    <li><strong>Step 6 – Distance from origin $(0,0)$:</strong>
+      $$d=\frac{|4\cdot0-3\cdot0-11|}{\sqrt{4^2+(-3)^2}}=\frac{11}{5}=2.2$$
+  </ol>
+  <p>All quantities are now known: slope $4/3$, intercepts $(\frac{11}{4},0)$ and $(0,-\frac{11}{3})$, and distance $2.2$ units.</p>
+
+  <h4>5. Worked Example 2 – Shortest Distance Between Two Skew Lines</h4>
+  <p><strong>Problem:</strong> Find the shortest distance between</p>
+  <ul>
+    <li>$L_1:\displaystyle\frac{x-1}{2}=\frac{y+2}{-1}=\frac{z}{3}$</li>
+    <li>$L_2:\displaystyle\frac{x+4}{-1}=\frac{y-1}{2}=\frac{z-5}{-2}$</li>
+  </ul>
+  <ol>
+    <li><strong>Step 1 – Extract direction vectors:</strong>
+      $$\mathbf{d_1}=\langle 2,\,-1,\,3\rangle,\qquad\mathbf{d_2}=\langle -1,\,2,\,-2\rangle.$$
+    <li><strong>Step 2 – Choose a point on each line:</strong>
+      $P_1(1,\,-2,\,0)$ from $L_1$ (set parameter $=0$), $P_2(-4,\,1,\,5)$ from $L_2$.</li>
+    <li><strong>Step 3 – Form $\mathbf{r_{12}} = \mathbf{P_2}-\mathbf{P_1}$:</strong>
+      $$\mathbf{r_{12}} =\langle -4-1,\;1-(-2),\;5-0\rangle =\langle -5,\,3,\,5\rangle.$$
+    <li><strong>Step 4 – Compute cross product $\mathbf{d_1}\times\mathbf{d_2}$:</strong>
+      $$\mathbf{d_1}\times\mathbf{d_2}= 
+      \begin{vmatrix}
+      \mathbf{i}&\mathbf{j}&\mathbf{k}\\
+      2&-1&3\\
+      -1&2&-2
+      \end{vmatrix}
+      =\mathbf{i}( (-1)(-2)-3\cdot2) -\mathbf{j}(2(-2)-3(-1))+\mathbf{k}(2\cdot2-(-1)(-1))$$
+      $$= \mathbf{i}(2-6)-\mathbf{j}(-4+3)+\mathbf{k}(4-1) =\langle -4,\;1,\;3\rangle.$$
+    <li><strong>Step 5 – Magnitude of cross product:</strong>
+      $$\|\mathbf{d_1}\times\mathbf{d_2}\|=\sqrt{(-4)^2+1^2+3^2}= \sqrt{16+1+9}= \sqrt{26}.$$
+    <li><strong>Step 6 – Numerator $|\mathbf{r_{12}}\cdot(\mathbf{d_1}\times\mathbf{d_2})|$:</strong>
+      $$\mathbf{r_{12}}\cdot\langle -4,1,3\rangle = (-5)(-4)+3(1)+5(3)=20+3+15=38.$$
+      $$|38|=38.$$
+    <li><strong>Step 7 – Shortest distance $d$:</strong>
+      $$d=\frac{38}{\sqrt{26}} = \frac{38}{5.099}=7.456\text{ (approx)}.$$
+  </ol>
+  <p>The minimum separation between the two skew lines is $\displaystyle\frac{38}{\sqrt{26}}$ units.</p>
+
+  <h4>6. Common Mistakes in Straight‑Line Problems</h4>
+  <ul>
+    <li><strong>Mixing up slope and intercept:</strong> Treating $c$ in $y=mx+c$ as the $x$‑intercept rather than the $y$‑intercept.</li>
+    <li><strong>Using the determinant condition incorrectly:</strong> Forgetting to place the constant $1$ column, which leads to a wrong collinearity test.</li>
+    <li><strong>Neglecting the sign of $A$ or $B$ in distance formula:</strong> The numerator must be absolute; dropping the bars yields a signed distance that can be negative.</li>
+    <li><strong>Assuming $a,b,c\neq0$ in symmetric form:</strong> If any component of the direction vector is zero, the corresponding fraction must be omitted, otherwise division by zero occurs.</li>
+    <li><strong>Confusing direction ratios with direction cosines:</strong> Using DR directly in the cosine formula without normalising leads to values >1.</li>
+  </ul>
+
+  <h4>7. Shortcuts & Tricks for Competitive Exams</h4>
+  <ul>
+    <li><strong>Intercept Shortcut:</strong> For line $Ax+By+C=0$, $x$‑intercept $= -\dfrac{C}{A}$ (if $A\neq0$) and $y$‑intercept $= -\dfrac{C}{B}$ (if $B\neq0$). This avoids converting to intercept form.</li>
+    <li><strong>Parallel‑Perpendicular Test:</strong> Two lines are parallel if $A_1B_2 = A_2B_1$; they are perpendicular if $A_1A_2 + B_1B_2 =0$ (using general form coefficients).</li>
+    <li><strong>Quick Angle from Slopes:</strong> If $|m_1-m_2|=|1+m_1m_2|$, then $\theta=45^\circ$ because $\tan\theta=1$.</li>
+    <li><strong>Distance from Origin Using Normal Form:</strong> For $Ax+By+C=0$, compute $d=\dfrac{|C|}{\sqrt{A^2+B^2}}$ directly (origin coordinates are zero).</li>
+    <li><strong>Skew‑Line Distance Shortcut:</strong> Use the scalar triple product $|(\mathbf{r_{12}}\cdot(\mathbf{d_1}\times\mathbf{d_2}))|$ divided by $\|\mathbf{d_1}\times\mathbf{d_2}\|$; memorize the determinant form for speed.</li>
+    <li><strong>Eliminating Parameter Fast:</strong> In symmetric form, cross‑multiply two fractions at a time to avoid writing three separate equalities, e.g., $\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}\Rightarrow b(x-x_0)=a(y-y_0)$.</li>
+  </ul>
+
+  <h4>8. Summary of Key Formulas (Reference Table)</h4>
+  <table style="width:100%;border-collapse:collapse;background:#fafafa;">
+    <tr style="background:#d0d0d0;">
+      <th style="border:1px solid #999;padding:6px;">Concept</th>
+      <th style="border:1px solid #999;padding:6px;">Formula</th>
+      <th style="border:1px solid #999;padding:6px;">Notes / Constraints</th>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999;padding:6px;">Slope</td>
+      <td style="border:1px solid #999;padding:6px;">$m=\dfrac{y_2-y_1}{x_2-x_1}$</td>
+      <td style="border:1px solid #999;padding:6px;">$x_2\neq x_1$; vertical line → $m$ undefined.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999;padding:6px;">General Form</td>
+      <td style="border:1px solid #999;padding:6px;">$Ax+By+C=0$</td>
+      <td style="border:1px solid #999;padding:6px;">$A,B$ not both zero.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999;padding:6px;">Distance Point→Line</td>
+      <td style="border:1px solid #999;padding:6px;">$d=\dfrac{|Ax_0+By_0+C|}{\sqrt{A^2+B^2}}$</td>
+      <td style="border:1px solid #999;padding:6px;">Absolute value essential.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999;padding:6px;">Angle Between Lines (2‑D)</td>
+      <td style="border:1px solid #999;padding:6px;">$\tan\theta=\Big|\dfrac{m_2-m_1}{1+m_1m_2}\Big|$</td>
+      <td style="border:1px solid #999;padding:6px;">If $1+m_1m_2=0$, $\theta=90^\circ$.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999;padding:6px;">Vector Equation (3‑D)</td>
+      <td style="border:1px solid #999;padding:6px;">$\mathbf{r}=\mathbf{r_0}+\lambda\mathbf{d}$</td>
+      <td style="border:1px solid #999;padding:6px;">$\mathbf{d}\neq\mathbf{0}$.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999;padding:6px;">Shortest Distance Skew Lines</td>
+      <td style="border:1px solid #999;padding:6px;">$d=\dfrac{|\,\mathbf{r_{12}}\cdot(\mathbf{d_1}\times\mathbf{d_2})\,|}{\|\mathbf{d_1}\times\mathbf{d_2}\|}$</td>
+      <td style="border:1px solid #999;padding:6px;">$\mathbf{d_1}\times\mathbf{d_2}\neq\mathbf{0}$.</td>
+    </tr>
+  </table>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>Distance from point <strong>(x₀, y₀)</strong> to line <strong>Ax + By + C = 0</strong> = <strong>|Ax₀ + By₀ + C| / √(A² + B²)</strong>.</li>
-      <li>Two lines <strong>Ax + By + C = 0</strong> and <strong>A'x + B'y + C' = 0</strong> are parallel iff <strong>AB' - A'B = 0</strong>.</li>
-      <li>Perpendicularity condition in 2‑D: <strong>AA' + BB' = 0</strong> (or <strong>m₁·m₂ = -1</strong>).</li>
-      <li>In 3‑D, shortest distance between skew lines = <strong>|(a₁, b₁, c₁)·((a₂, b₂, c₂) × (P₂ - P₁))| / |(a₁, b₁, c₁) × (a₂, b₂, c₂)|</strong>.</li>
-      <li>Direction cosines satisfy <strong>l² + m² + n² = 1</strong>; useful for converting between ratios and angles.</li>
-      <li>Equation of a line through points <strong>(x₁, y₁)</strong> and <strong>(x₂, y₂)</strong> in symmetric form: <strong>(x - x₁)/(x₂ - x₁) = (y - y₁)/(y₂ - y₁)</strong>.</li>
-      <li>For a line in 3‑D, symmetric form <strong>(x - x₁)/a = (y - y₁)/b = (z - z₁)/c</strong> is invalid if any denominator is zero; use the constant coordinate method instead.</li>
-      <li>Collinearity test using determinant: <strong>⎡x₁ y₁ 1⎤
-          ⎢x₂ y₂ 1⎥ = 0
-          ⎣x₃ y₃ 1⎦</strong>.</li>
+      <li>For any line $Ax+By+C=0$, the $x$‑intercept is $-\dfrac{C}{A}$ and $y$‑intercept is $-\dfrac{C}{B}$ (if $A,B\neq0$).</li>
+      <li>Two lines are perpendicular iff $A_1A_2+B_1B_2=0$ (using general form coefficients).</li>
+      <li>The distance from $(x_0,y_0)$ to $Ax+By+C=0$ is $\displaystyle\frac{|Ax_0+By_0+C|}{\sqrt{A^2+B^2}}$.</li>
+      <li>In 3‑D, the symmetric form $\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}=\dfrac{z-z_0}{c}$ is invalid if any of $a,b,c$ is zero – drop that fraction.</li>
+      <li>Direction cosines satisfy $\cos^2\alpha+\cos^2\beta+\cos^2\gamma=1$; they are obtained by dividing each DR by the magnitude of the direction vector.</li>
+      <li>If $m_1m_2=-1$, the lines are exactly $90^\circ$ apart; this is a frequent shortcut for perpendicularity.</li>
+      <li>For skew lines, the shortest distance formula can be remembered as “scalar triple product over magnitude of cross product”.</li>
+      <li>Collinearity of three points can be quickly checked using the determinant $\begin{vmatrix}x_1&y_1&1\\x_2&y_2&1\\x_3&y_3&1\end{vmatrix}=0$.</li>
+      <li>When a line passes through the origin, its general equation reduces to $Ax+By=0$, and the distance from the origin is zero.</li>
+      <li>The angle between two lines can be found without computing slopes: use $ \tan\theta =\big|\dfrac{A_1B_2-A_2B_1}{A_1A_2+B_1B_2}\big|$ directly from general form.</li>
     </ul>
   </div>
 </div>
@@ -972,186 +1491,389 @@ EXPANDED_NOTES_DATA["central-tendency"] = `
     Measures of Central Tendency
   </h3>
 
-  <h4 style="color: var(--accent); margin-top: 20px;">1. Introduction – Why Central Tendency Matters for Defence Exams</h4>
-  <p>In the context of the Indian Defence entrance examinations (<strong>NDA</strong>, <strong>CDS</strong>, <strong>AFCAT</strong>), the ability to quickly summarise a data set with a single representative value is decisive. Central tendency measures condense large volumes of quantitative information – such as scores of pilot aptitude tests, weapon‑system reliability data, or demographic statistics of recruitment pools – into a compact figure that can be compared across years, units, or operational theatres. Historically, the discipline of statistics was formalised in the early 19th century when [[Carl Friedrich Gauss]] introduced the method of least squares (1805) and [[Adolphe Quetelet]] coined the term “average man” (1835). Understanding the evolution of these concepts helps anchor the formulas in real‑world context, a strategy often rewarded in essay‑type questions of the defence services.</p>
+  <p>
+    In the realm of [[Statistics]], a primary objective is to condense large datasets into meaningful summaries. [[Measures of Central Tendency]] are statistical values that represent the "center" or "typical" value of a dataset. They provide a single value that attempts to describe a set of data by identifying the central position within that set. These measures are crucial for understanding the distribution of data and making informed decisions. The three most commonly used measures of central tendency are the <strong>Arithmetic Mean</strong>, <strong>Median</strong>, and <strong>Mode</strong>. Additionally, the <strong>Geometric Mean</strong> and <strong>Harmonic Mean</strong> are important for specific types of data.
+  </p>
 
-  <h4 style="color: var(--accent); margin-top: 20px;">2. Classification of Central Tendency Measures</h4>
-  <p>Broadly, central tendency is divided into three canonical descriptors:</p>
-  <ul style="margin-left: 20px;">
-    <li><strong>Mean</strong> – the arithmetic, geometric, or harmonic average of the observations.</li>
-    <li><strong>Median</strong> – the middle value when the data are ordered.</li>
-    <li><strong>Mode</strong> – the most frequently occurring observation.</li>
+  <h4>1. The Arithmetic Mean (AM)</h4>
+  <p>
+    The <strong>Arithmetic Mean</strong>, often simply called the "mean" or "average," is the most widely used measure of central tendency. It is calculated by summing all the observations in a dataset and dividing by the total number of observations. The arithmetic mean is sensitive to every value in the dataset and is therefore influenced by extreme values or [[outliers]].
+  </p>
+
+  <h5>1.1. Calculation for Ungrouped Data</h5>
+  <p>
+    For a set of $N$ observations, $X_1, X_2, \dots, X_N$, the arithmetic mean is given by:
+    $$ \bar{X} = \frac{X_1 + X_2 + \dots + X_N}{N} = \frac{\sum_{i=1}^{N} X_i}{N} $$
+    Where:
+    <ul>
+      <li>$ \bar{X} $ (read as "X-bar") is the symbol for the sample arithmetic mean.</li>
+      <li>$ \sum $ (sigma) denotes the sum of the observations.</li>
+      <li>$ X_i $ represents the $i^{th}$ observation in the dataset.</li>
+      <li>$ N $ is the total number of observations.</li>
+    </ul>
+  </p>
+
+  <h5>1.2. Calculation for Grouped Data</h5>
+  <p>
+    When data is presented in a [[frequency distribution]] (grouped data), the calculation of the mean involves using the frequencies of each class.
+  </p>
+  <h6>1.2.1. Direct Method</h6>
+  <p>
+    If we have $k$ classes with class marks $X_1, X_2, \dots, X_k$ and corresponding frequencies $f_1, f_2, \dots, f_k$, the mean is:
+    $$ \bar{X} = \frac{f_1 X_1 + f_2 X_2 + \dots + f_k X_k}{f_1 + f_2 + \dots + f_k} = \frac{\sum_{i=1}^{k} f_i X_i}{\sum_{i=1}^{k} f_i} $$
+    Where:
+    <ul>
+      <li>$ X_i $ is the <strong>class mark</strong> (midpoint) of the $i^{th}$ class interval. It is calculated as $ \frac{\text{Lower Limit} + \text{Upper Limit}}{2} $.</li>
+      <li>$ f_i $ is the frequency of the $i^{th}$ class.</li>
+      <li>$ \sum f_i $ is the total number of observations, typically denoted as $N$.</li>
+    </ul>
+  </p>
+  <h6>1.2.2. Assumed Mean Method (Short-Cut Method)</h6>
+  <p>
+    This method simplifies calculations, especially when class marks are large. We choose an arbitrary value (the "assumed mean") from the class marks, usually near the center.
+    $$ \bar{X} = A + \frac{\sum f_i d_i}{\sum f_i} $$
+    Where:
+    <ul>
+      <li>$ A $ is the <strong>assumed mean</strong>.</li>
+      <li>$ d_i = X_i - A $ is the deviation of the $i^{th}$ class mark from the assumed mean.</li>
+    </ul>
+  </p>
+  <h6>1.2.3. Step-Deviation Method</h6>
+  <p>
+    This is an extension of the assumed mean method, used when class intervals are of equal width. It further simplifies calculations by dividing deviations by the class width.
+    $$ \bar{X} = A + \left( \frac{\sum f_i u_i}{\sum f_i} \right) \times h $$
+    Where:
+    <ul>
+      <li>$ A $ is the assumed mean.</li>
+      <li>$ u_i = \frac{X_i - A}{h} $ is the step-deviation.</li>
+      <li>$ h $ is the <strong>class width</strong> (or class size) of the class intervals.</li>
+    </ul>
+    This method is particularly useful for manual calculations in competitive exams.
+  </p>
+
+  <h5>1.3. Properties of Arithmetic Mean</h5>
+  <ul>
+    <li>The sum of the deviations of all observations from the arithmetic mean is always zero: $ \sum (X_i - \bar{X}) = 0 $. This is a fundamental property often tested.</li>
+    <li>If each observation in a series is increased or decreased by a constant $k$, the new mean will also be increased or decreased by $k$.</li>
+    <li>If each observation in a series is multiplied or divided by a constant $k$, the new mean will also be multiplied or divided by $k$.</li>
+    <li>The arithmetic mean is a rigidly defined measure, meaning there's only one possible value for a given dataset.</li>
+    <li>It is based on all observations, making it a representative measure.</li>
+    <li>It is highly affected by extreme values (outliers).</li>
+    <li>The mean of a combined series: If two series have means $ \bar{X}_1, \bar{X}_2 $ and number of observations $ N_1, N_2 $ respectively, their combined mean is:
+      $$ \bar{X}_{12} = \frac{N_1 \bar{X}_1 + N_2 \bar{X}_2}{N_1 + N_2} $$
+      This property can be extended to more than two series.</li>
   </ul>
-  <p>Each of these measures captures a different aspect of the distribution and possesses distinct robustness properties against outliers – a key consideration when analysing battlefield casualty figures or equipment failure rates.</p>
 
-  <h4 style="color: var(--accent); margin-top: 20px;">3. Mean – The Arithmetic, Geometric & Harmonic Averages</h4>
-  <p>The <strong>arithmetic mean</strong> (commonly called the “average”) is defined for a set of <em>n</em> observations <strong>x₁, x₂, …, xₙ</strong> as:</p>
-  <p style="font-family: monospace; margin-left: 20px;"><strong>\(\displaystyle \bar{x}= \frac{1}{n}\sum_{i=1}^{n}x_i\)</strong></p>
-  <p>Key historical notes:</p>
-  <ul style="margin-left: 20px;">
-    <li>First systematic use by [[Simon Stevin]] in 1586 for the “rule of averages”.</li>
-    <li>Formal statistical theory refined by [[Karl Pearson]] in 1896, introducing the concept of “moments”.</li>
+  <div class="important-box" style="background: rgba(255,165,0,0.1); border-left: 3px solid #FFA500; padding: 12px 16px; margin-top: 15px; border-radius: 0 6px 6px 0;">
+    <strong>Important Distinction:</strong> The arithmetic mean is suitable for data that is symmetrically distributed and does not contain significant outliers. For skewed distributions, Median is often preferred.
+  </div>
+
+  <h5>1.4. Weighted Arithmetic Mean</h5>
+  <p>
+    When different observations have different levels of importance or influence, a <strong>weighted arithmetic mean</strong> is used. Each observation is assigned a weight, $W_i$.
+    $$ \bar{X}_w = \frac{\sum W_i X_i}{\sum W_i} $$
+    Where:
+    <ul>
+      <li>$ W_i $ is the weight assigned to the $i^{th}$ observation $X_i$.</li>
+    </ul>
+    This is commonly used in calculating [[Grade Point Average]] (GPA) or average prices where quantities differ.
+  </p>
+
+  <h4>2. Geometric Mean (GM)</h4>
+  <p>
+    The <strong>Geometric Mean</strong> is defined as the $N^{th}$ root of the product of $N$ observations. It is particularly useful for averaging ratios, rates of change, or growth rates.
+  </p>
+
+  <h5>2.1. Calculation for Ungrouped Data</h5>
+  <p>
+    For a set of $N$ positive observations, $X_1, X_2, \dots, X_N$:
+    $$ GM = \sqrt[N]{X_1 \times X_2 \times \dots \times X_N} $$
+    Alternatively, using logarithms (which is often more practical for calculation):
+    $$ \log GM = \frac{\sum \log X_i}{N} \implies GM = \text{antilog}\left( \frac{\sum \log X_i}{N} \right) $$
+    <strong>Condition:</strong> The geometric mean is only defined for positive observations. If any observation is zero or negative, the GM cannot be computed.
+  </p>
+
+  <h5>2.2. Properties of Geometric Mean</h5>
+  <ul>
+    <li>Less affected by extreme values compared to the arithmetic mean.</li>
+    <li>Used for averaging percentage changes, index numbers, and compound interest rates.</li>
+    <li>It is always less than or equal to the arithmetic mean for positive data ($GM \le AM$).</li>
   </ul>
 
-  <p>The <strong>geometric mean</strong> is appropriate for multiplicative processes, such as growth rates of aircraft engine thrust or compound interest on military pensions. It is expressed as:</p>
-  <p style="font-family: monospace; margin-left: 20px;"><strong>\(\displaystyle G = \left(\prod_{i=1}^{n}x_i\right)^{1/n}\)</strong></p>
+  <h4>3. Harmonic Mean (HM)</h4>
+  <p>
+    The <strong>Harmonic Mean</strong> is the reciprocal of the arithmetic mean of the reciprocals of the observations. It gives greater weight to smaller values and is especially useful for averaging rates (like speed, time, or work rates).
+  </p>
 
-  <p>The <strong>harmonic mean</strong> is useful when dealing with rates (e.g., speed, fuel consumption) and is given by:</p>
-  <p style="font-family: monospace; margin-left: 20px;"><strong>\(\displaystyle H = \frac{n}{\sum_{i=1}^{n}\frac{1}{x_i}}\)</strong></p>
+  <h5>3.1. Calculation for Ungrouped Data</h5>
+  <p>
+    For a set of $N$ positive observations, $X_1, X_2, \dots, X_N$:
+    $$ HM = \frac{N}{\frac{1}{X_1} + \frac{1}{X_2} + \dots + \frac{1}{X_N}} = \frac{N}{\sum \frac{1}{X_i}} $$
+    <strong>Condition:</strong> The harmonic mean is only defined for positive observations. If any observation is zero, the HM cannot be computed.
+  </p>
 
-  <h4 style="color: var(--accent); margin-top: 20px;">4. Median – Position‑Based Central Value</h4>
-  <p>The <strong>median</strong> divides the ordered data set into two halves of equal size. For an odd <em>n</em>, the median is the \((n+1)/2\)‑th term; for an even <em>n</em>, it is the average of the \(n/2\)‑th and \((n/2)+1\)‑th terms. Formally:</p>
-  <ul style="margin-left: 20px;">
-    <li>If <em>n</em> is odd: <strong>Median = \(x_{(n+1)/2}\)</strong></li>
-    <li>If <em>n</em> is even: <strong>Median = \(\frac{x_{n/2}+x_{(n/2)+1}}{2}\)</strong></li>
+  <h5>3.2. Properties of Harmonic Mean</h5>
+  <ul>
+    <li>Gives more weight to smaller values in the dataset.</li>
+    <li>Used in situations involving averages of rates, such as average speed when distances are constant, or average price per unit.</li>
+    <li>It is always less than or equal to the geometric mean for positive data ($HM \le GM$).</li>
   </ul>
-  <p>Median is immune to extreme outliers – a property exploited when summarising casualty figures that may contain a few anomalously high values due to a single major engagement.</p>
 
-  <h4 style="color: var(--accent); margin-top: 20px;">5. Mode – Frequency‑Based Central Value</h4>
-  <p>The <strong>mode</strong> is the observation with the highest frequency. Datasets may be:</p>
-  <ul style="margin-left: 20px;">
-    <li><strong>Unimodal</strong> – a single peak.</li>
-    <li><strong>Bimodal</strong> – two distinct peaks, often indicating two underlying sub‑populations (e.g., two distinct fitness levels among cadet applicants).</li>
-    <li><strong>Multimodal</strong> – more than two peaks, signalling heterogeneous data.</li>
+  <h5>3.3. Relationship between AM, GM, HM</h5>
+  <p>
+    For any set of positive numbers, the relationship between the three means is:
+    $$ AM \ge GM \ge HM $$
+    Equality holds only if all observations are identical. Also, for two positive numbers $a$ and $b$, $GM^2 = AM \times HM$. This is a crucial relationship for competitive exams.
+  </p>
+
+  <h4>4. Median</h4>
+  <p>
+    The <strong>Median</strong> is the middle value of a dataset when the data is arranged in ascending or descending order. It divides the data into two equal halves, with 50% of the observations falling below it and 50% falling above it. The median is a position-based average and is not affected by extreme values.
+  </p>
+
+  <h5>4.1. Calculation for Ungrouped Data</h5>
+  <p>
+    First, arrange the data in ascending or descending order.
+    <ol>
+      <li>If $N$ (total number of observations) is <strong>odd</strong>:
+        The median is the value of the $ \left( \frac{N+1}{2} \right)^{th} $ observation.</li>
+      <li>If $N$ is <strong>even</strong>:
+        The median is the arithmetic mean of the $ \left( \frac{N}{2} \right)^{th} $ and $ \left( \frac{N}{2} + 1 \right)^{th} $ observations.</li>
+    </ol>
+  </p>
+
+  <h5>4.2. Calculation for Grouped Data</h5>
+  <p>
+    For grouped data, the median is calculated using the following formula after determining the [[median class]]. The median class is the class interval where the cumulative frequency first exceeds $ \frac{N}{2} $.
+    $$ \text{Median} = L + \left( \frac{\frac{N}{2} - cf}{f} \right) \times h $$
+    Where:
+    <ul>
+      <li>$ L $ is the <strong>lower limit</strong> of the median class.</li>
+      <li>$ N $ is the total number of observations ($ \sum f_i $).</li>
+      <li>$ cf $ is the <strong>cumulative frequency</strong> of the class <em>preceding</em> the median class.</li>
+      <li>$ f $ is the frequency of the median class.</li>
+      <li>$ h $ is the <strong>class width</strong> of the median class.</li>
+    </ul>
+    <strong>Steps:</strong>
+    <ol>
+      <li>Construct a [[cumulative frequency distribution]] table.</li>
+      <li>Calculate $ \frac{N}{2} $.</li>
+      <li>Identify the median class: the class interval whose cumulative frequency is just greater than or equal to $ \frac{N}{2} $.</li>
+      <li>Apply the formula.</li>
+    </ol>
+  </p>
+
+  <h5>4.3. Properties of Median</h5>
+  <ul>
+    <li>It is not affected by extreme values, making it robust for [[skewed distributions]].</li>
+    <li>Can be calculated for data with [[open-ended classes]].</li>
+    <li>It is the most appropriate measure of central tendency when dealing with qualitative data that can be ordered (e.g., rankings).</li>
+    <li>The sum of absolute deviations from the median is a minimum: $ \sum |X_i - \text{Median}| $ is minimum.</li>
+    <li>Not based on all observations (only the middle ones), hence less stable than the mean for sampling fluctuations.</li>
+    <li>Can be determined graphically using an [[Ogive]] (cumulative frequency curve) by finding the value on the x-axis corresponding to $ \frac{N}{2} $ on the y-axis.</li>
   </ul>
-  <p>In discrete data, the mode can be identified by constructing a frequency table; for continuous data, a histogram or kernel density estimate is employed.</p>
 
-  <h4 style="color: var(--accent); margin-top: 20px;">6. Comparison Table – When to Use Which Measure</h4>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+  <h4>5. Mode</h4>
+  <p>
+    The <strong>Mode</strong> is the value that appears most frequently in a dataset. It represents the most common observation. A dataset can have one mode (unimodal), two modes (bimodal), more than two modes (multimodal), or no mode at all if all observations appear with the same frequency.
+  </p>
+
+  <h5>5.1. Calculation for Ungrouped Data</h5>
+  <p>
+    For ungrouped data, the mode is found by simple inspection – identify the value with the highest frequency.
+  </p>
+
+  <h5>5.2. Calculation for Grouped Data</h5>
+  <p>
+    For grouped data, the mode is calculated using the following formula after determining the [[modal class]]. The modal class is the class interval with the highest frequency.
+    $$ \text{Mode} = L + \left( \frac{f_1 - f_0}{2f_1 - f_0 - f_2} \right) \times h $$
+    Where:
+    <ul>
+      <li>$ L $ is the <strong>lower limit</strong> of the modal class.</li>
+      <li>$ f_1 $ is the frequency of the modal class.</li>
+      <li>$ f_0 $ is the frequency of the class <em>preceding</em> the modal class.</li>
+      <li>$ f_2 $ is the frequency of the class <em>succeeding</em> the modal class.</li>
+      <li>$ h $ is the <strong>class width</strong> of the modal class.</li>
+    </ul>
+    <strong>Steps:</strong>
+    <ol>
+      <li>Identify the modal class (the class with the highest frequency).</li>
+      <li>Apply the formula.</li>
+    </ol>
+  </p>
+
+  <h5>5.3. Properties of Mode</h5>
+  <ul>
+    <li>It is not affected by extreme values.</li>
+    <li>Can be used for both quantitative and [[qualitative data]] (e.g., favorite colour).</li>
+    <li>May not exist or may not be unique (e.g., bimodal distribution).</li>
+    <li>Not based on all observations.</li>
+    <li>It is the most unstable measure of central tendency.</li>
+    <li>Can be determined graphically using a [[Histogram]] by drawing lines from the top corners of the modal bar to the adjacent bars.</li>
+  </ul>
+
+  <div class="important-box" style="background: rgba(255,165,0,0.1); border-left: 3px solid #FFA500; padding: 12px 16px; margin-top: 15px; border-radius: 0 6px 6px 0;">
+    <strong>Empirical Relationship:</strong> For moderately skewed distributions (like a bell-shaped curve that's slightly off-center), there is an approximate relationship between the mean, median, and mode:
+    $$ \text{Mode} \approx 3 \times \text{Median} - 2 \times \text{Mean} $$
+    This formula is often useful for quick estimations or when one measure is missing.
+  </div>
+
+  <h4>6. Comparison of Measures of Central Tendency</h4>
+  <p>
+    Choosing the appropriate measure depends on the nature of the data and the purpose of the analysis.
+  </p>
+  <table border="1" style="width:100%; border-collapse: collapse; margin-top: 15px;">
     <thead>
-      <tr style="background:#2a2a3a; color:#fff;">
-        <th style="border:1px solid #444; padding:8px;">Measure</th>
-        <th style="border:1px solid #444; padding:8px;">Formula</th>
-        <th style="border:1px solid #444; padding:8px;">Robustness to Outliers</th>
-        <th style="border:1px solid #444; padding:8px;">Typical Use‑Case in Defence Exams</th>
+      <tr style="background-color: #333; color: var(--accent);">
+        <th>Feature</th>
+        <th>Arithmetic Mean</th>
+        <th>Median</th>
+        <th>Mode</th>
       </tr>
     </thead>
     <tbody>
-      <tr style="background:#f9f9f9;">
-        <td style="border:1px solid #ccc; padding:8px;"><strong>Arithmetic Mean</strong></td>
-        <td style="border:1px solid #ccc; padding:8px;"><strong>\(\displaystyle \bar{x}= \frac{1}{n}\sum x_i\)</strong></td>
-        <td style="border:1px solid #ccc; padding:8px;">Low – heavily affected by extreme values</td>
-        <td style="border:1px solid #ccc; padding:8px;">Average score of aptitude tests, fuel consumption per sortie</td>
+      <tr>
+        <td><strong>Definition</strong></td>
+        <td>Sum of values / Number of values</td>
+        <td>Middle value of ordered data</td>
+        <td>Most frequent value</td>
       </tr>
       <tr>
-        <td style="border:1px solid #ccc; padding:8px;"><strong>Geometric Mean</strong></td>
-        <td style="border:1px solid #ccc; padding:8px;"><strong>\(\displaystyle G = \left(\prod x_i\right)^{1/n}\)</strong></td>
-        <td style="border:1px solid #ccc; padding:8px;">Medium – less sensitive than arithmetic mean</td>
-        <td style="border:1px solid #ccc; padding:8px;">Growth rates of aircraft fleet, compounded logistic scores</td>
-      </tr>
-      <tr style="background:#f9f9f9;">
-        <td style="border:1px solid #ccc; padding:8px;"><strong>Median</strong></td>
-        <td style="border:1px solid #ccc; padding:8px;">Positional (see definition)</td>
-        <td style="border:1px solid #ccc; padding:8px;">High – resistant to outliers</td>
-        <td style="border:1px solid #ccc; padding:8px;">Median age of recruits, median casualty count per operation</td>
+        <td><strong>Effect of Outliers</strong></td>
+        <td>Highly affected</td>
+        <td>Not affected</td>
+        <td>Not affected</td>
       </tr>
       <tr>
-        <td style="border:1px solid #ccc; padding:8px;"><strong>Mode</strong></td>
-        <td style="border:1px solid #ccc; padding:8px;">Most frequent value</td>
-        <td style="border:1px solid #ccc; padding:8px;">Variable – depends on data distribution</td>
-        <td style="border:1px solid #ccc; padding:8px;">Most common rank, most frequent weapon type in inventory</td>
+        <td><strong>Uniqueness</strong></td>
+        <td>Always unique</td>
+        <td>Always unique</td>
+        <td>May not exist or be unique</td>
+      </tr>
+      <tr>
+        <td><strong>Based on all values?</strong></td>
+        <td>Yes</td>
+        <td>No (positional)</td>
+        <td>No (frequency-based)</td>
+      </tr>
+      <tr>
+        <td><strong>Suitability for Skewed Data</strong></td>
+        <td>Poor</td>
+        <td>Good</td>
+        <td>Good</td>
+      </tr>
+      <tr>
+        <td><strong>Suitability for Open-ended Classes</strong></td>
+        <td>Requires assumption of midpoint</td>
+        <td>Good</td>
+        <td>Good</td>
+      </tr>
+      <tr>
+        <td><strong>Suitability for Qualitative Data</strong></td>
+        <td>No</td>
+        <td>Yes (if ordinally scaled)</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td><strong>Mathematical Treatment</strong></td>
+        <td>Best for further analysis</td>
+        <td>Limited</td>
+        <td>Limited</td>
       </tr>
     </tbody>
   </table>
 
-  <h4 style="color: var(--accent); margin-top: 20px;">7. Mathematical Properties & Theoretical Foundations</h4>
-  <p>Understanding the underlying theorems helps answer proof‑type questions that frequently appear in the <strong>CDS</strong> written test.</p>
-  <ul style="margin-left: 20px;">
-    <li><strong>Linearity of Expectation</strong> – The mean of a sum equals the sum of the means, irrespective of independence. Formally, <strong>\(E[X+Y]=E[X]+E[Y]\)</strong>. First proved by [[Jacob Bernoulli]] in 1713 (Law of Large Numbers).</li>
-    <li><strong>Chebyshev’s Inequality</strong> (1867) – Provides a bound on the probability that a random variable deviates from its mean: <strong>\(P(|X-\mu|\ge k\sigma)\le\frac{1}{k^{2}}\)</strong>. Useful when the distribution is unknown.</li>
-    <li><strong>Central Limit Theorem (CLT)</strong> – Established by [[Pierre‑Simon Laplace]] (1810) and rigorously proved by [[Lévy]] (1908). States that the sampling distribution of the mean tends toward a <strong>Normal distribution</strong> as <em>n</em> → ∞, regardless of the original distribution.</li>
-    <li><strong>Law of Large Numbers (LLN)</strong> – Formalised by [[Jacob Bernoulli]] (1713) and refined by [[Émile Borel]] (1909). Guarantees convergence of the sample mean to the population mean with increasing sample size.</li>
-  </ul>
-
-  <h4 style="color: var(--accent); margin-top: 20px;">8. Computation Techniques – Quick Mental Tricks for the Exam Hall</h4>
-  <p>Time efficiency is critical. The following shortcuts are widely taught in coaching centres for NDA/CDS/AFCAT:</p>
-  <ol style="margin-left: 20px;">
-    <li><strong>Grouping Method</strong> – When numbers are in arithmetic progression, pair the first and last, second and second‑last, etc., to compute the sum quickly. Example: Sum of 12 terms from 5 to 56 (common difference 5) → \(12 \times \frac{5+56}{2}=12 \times 30.5=366\).</li>
-    <li><strong>Weighted Mean Shortcut</strong> – For data grouped in classes, use <strong>\(\bar{x}= \frac{\sum f_i c_i}{\sum f_i}\)</strong> where \(c_i\) is class midpoint. This eliminates the need for full expansion.</li>
-    <li><strong>Median without Sorting</strong> – For an even‑sized data set, the median can be found by locating the \(\frac{n}{2}\)‑th and \(\frac{n}{2}+1\)‑th positions directly if the data are already in a frequency table.</li>
-    <li><strong>Mode via Frequency Polygon</strong> – In a grouped data, approximate the mode using <strong>\(L + \frac{(f_m - f_{m-1})}{(2f_m - f_{m-1} - f_{m+1})} \times h\)</strong>, where \(L\) is the lower class boundary, \(h\) the class width, and \(f_m\) the modal frequency.</li>
+  <h4>7. Common Mistakes to Avoid</h4>
+  <ol>
+    <li><strong>Not Ordering Data for Median:</strong> A frequent error is to calculate the median without first arranging the data in ascending or descending order. The median is a positional average.</li>
+    <li><strong>Incorrect Identification of $f_0, f_1, f_2$ for Mode:</strong> For grouped data, ensure $f_1$ is the frequency of the modal class, $f_0$ is the frequency of the class *before* it, and $f_2$ is the frequency of the class *after* it. Misplacing these leads to incorrect results.</li>
+    <li><strong>Using Wrong Formula for Grouped vs. Ungrouped Data:</strong> Students often mix up formulas. Remember that grouped data requires class marks ($X_i$) and frequencies ($f_i$) for mean, and specific formulas for median and mode.</li>
+    <li><strong>Ignoring Class Width ($h$) or Cumulative Frequency ($cf$) in Grouped Formulas:</strong> For median and mode of grouped data, $h$ and $cf$ (for median) are crucial components. Forgetting them or using incorrect values is common.</li>
+    <li><strong>Assuming Equal Class Widths for Mode:</strong> The mode formula for grouped data assumes equal class widths. If class widths are unequal, a frequency density adjustment is required (though less common in basic competitive exams).</li>
+    <li><strong>Arithmetic Mean with Qualitative Data:</strong> Attempting to calculate the mean for non-numerical or qualitative data (e.g., average colour) which is logically impossible.</li>
   </ol>
 
-  <h4 style="color: var(--accent); margin-top: 20px;">9. Applications in Defence‑Related Problems</h4>
-  <p>Below are typical problem scenarios where central tendency plays a decisive role:</p>
-  <ul style="margin-left: 20px;">
-    <li><strong>Weapon Reliability</strong> – Engineers compute the mean time between failures (MTBF) using the arithmetic mean of observed failure intervals.</li>
-    <li><strong>Personnel Fitness Scores</strong> – The median score is reported to avoid distortion caused by a few extremely low or high performers.</li>
-    <li><strong>Logistics Planning</strong> – Mode of daily fuel consumption helps in stock‑piling decisions for forward operating bases.</li>
-    <li><strong>Strategic Survey</strong> – The geometric mean of enemy force strength estimates from multiple intelligence sources yields a balanced central estimate.</li>
-  </ul>
+  <h4>8. Shortcuts & Tricks for Competitive Exams</h4>
+  <ol>
+    <li><strong>Assumed Mean Method for Mean:</strong> For large numbers or many observations, the assumed mean and step-deviation methods drastically reduce calculation time. Choose an assumed mean close to the actual mean for smaller deviations.</li>
+    <li><strong>Estimating from Graphs:</strong> Quickly estimate median from an ogive and mode from a histogram. For a histogram, the mode corresponds to the tallest bar. For an ogive, find $N/2$ on the y-axis and read the corresponding x-value.</li>
+    <li><strong>Empirical Formula for Verification:</strong> Use $ \text{Mode} \approx 3 \times \text{Median} - 2 \times \text{Mean} $ to quickly check if your calculated values are in the correct ballpark, especially if you have calculated two of the three.</li>
+    <li><strong>Checking Properties:</strong> Remember the property $ \sum (X_i - \bar{X}) = 0 $. If you're given a dataset and a value claimed to be the mean, you can quickly verify this property.</li>
+    <li><strong>Relationship AM, GM, HM:</strong> For positive data, $AM \ge GM \ge HM$. This inequality is a powerful tool for eliminating options or verifying results in objective questions. If you calculate values that violate this, you've made a mistake.</li>
+    <li><strong>Median's Robustness:</strong> When faced with data containing extreme values, choose the median as the most representative measure without performing lengthy calculations.</li>
+  </ol>
 
-  <h4 style="color: var(--accent); margin-top: 20px;">10. Common Pitfalls & How to Avoid Them</h4>
-  <p>Examiners love to test conceptual clarity. The most frequent mistakes include:</p>
-  <ul style="margin-left: 20px;">
-    <li>Confusing <strong>mean</strong> with <strong>median</strong> in skewed distributions – always examine the shape of the data (right‑skewed ⇒ mean > median).</li>
-    <li>Applying the <strong>mode</strong> to continuous data without appropriate class intervals – remember that a true mode exists only for discrete or grouped data.</li>
-    <li>Neglecting the effect of outliers on the arithmetic mean – a single extreme value can shift the mean dramatically; use median or trimmed mean in such cases.</li>
-    <li>Incorrectly using the geometric mean for data containing negative or zero values – the geometric mean is undefined for non‑positive numbers.</li>
-  </ul>
+  <h4>9. Worked Examples</h4>
 
-  <h4 style="color: var(--accent); margin-top: 20px;">11. Historical Milestones in Central Tendency Development</h4>
-  <p>Chronological highlights that are occasionally asked as “fill‑in‑the‑blank” style questions:</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+  <h5>Example 1: Grouped Data - Mean, Median, Mode</h5>
+  <p>
+    Calculate the Mean, Median, and Mode for the following frequency distribution of marks:
+  </p>
+  <table border="1" style="width:50%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px;">
     <thead>
-      <tr style="background:#2a2a3a; color:#fff;">
-        <th style="border:1px solid #444; padding:6px;">Year</th>
-        <th style="border:1px solid #444; padding:6px;">Contribution</th>
-        <th style="border:1px solid #444; padding:6px;">Scientist</th>
+      <tr style="background-color: #333; color: var(--accent);">
+        <th>Marks (Class Interval)</th>
+        <th>Number of Students (Frequency, $f_i$)</th>
       </tr>
     </thead>
     <tbody>
-      <tr style="background:#f9f9f9;">
-        <td style="border:1px solid #ccc; padding:6px;">1586</td>
-        <td style="border:1px solid #ccc; padding:6px;">First systematic use of arithmetic mean</td>
-        <td style="border:1px solid #ccc; padding:6px;">[[Simon Stevin]]</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:6px;">1805</td>
-        <td style="border:1px solid #ccc; padding:6px;">Method of Least Squares (foundation for mean estimation)</td>
-        <td style="border:1px solid #ccc; padding:6px;">[[Carl Friedrich Gauss]]</td>
-      </tr>
-      <tr style="background:#f9f9f9;">
-        <td style="border:1px solid #ccc; padding:6px;">1835</td>
-        <td style="border:1px solid #ccc; padding:6px;">Concept of “average man” (normal distribution)</td>
-        <td style="border:1px solid #ccc; padding:6px;">[[Adolphe Quetelet]]</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:6px;">1896</td>
-        <td style="border:1px solid #ccc; padding:6px;">Introduction of moments and Pearson’s coefficient of skewness</td>
-        <td style="border:1px solid #ccc; padding:6px;">[[Karl Pearson]]</td>
-      </tr>
-      <tr style="background:#f9f9f9;">
-        <td style="border:1px solid #ccc; padding:6px;">1900</td>
-        <td style="border:1px solid #ccc; padding:6px;">Formalisation of the chi‑square test (central tendency assessment)</td>
-        <td style="border:1px solid #ccc; padding:6px;">[[Ronald Fisher]]</td>
-      </tr>
+      <tr><td>0-10</td><td>5</td></tr>
+      <tr><td>10-20</td><td>8</td></tr>
+      <tr><td>20-30</td><td>15</td></tr>
+      <tr><td>30-40</td><td>16</td></tr>
+      <tr><td>40-50</td><td>6</td></tr>
     </tbody>
   </table>
 
-  <h4 style="color: var(--accent); margin-top: 20px;">12. Summary – Quick Recap for the Exam Day</h4>
-  <p>To master measures of central tendency for NDA/CDS/AFCAT, internalise the following hierarchy:</p>
-  <ul style="margin-left: 20px;">
-    <li><strong>Mean</strong> – Use for symmetric, outlier‑free data; compute quickly via grouping.</li>
-    <li><strong>Median</strong> – Preferred for skewed or ordinal data; robust to extremes.</li>
-    <li><strong>Mode</strong> – Best for categorical or discrete data; reveals most common category.</li>
-  </ul>
-  <p>Remember the pivotal theorems (<strong>LLN</strong>, <strong>CLT</strong>, <strong>Chebyshev</strong>) as they often underpin “why” questions. A solid grasp of the historical timeline reinforces the conceptual narrative expected in essay‑type sections.</p>
+  <h6>Solution:</h6>
+  <p>
+    First, we create an extended table to calculate class marks, cumulative frequencies, and other required values. $N = \sum f_i = 5+8+15+16+6 = 50$.
+  </p>
+  <table border="1" style="width:100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px;">
+    <thead>
+      <tr style="background-color: #333; color: var(--accent);">
+        <th>Class Interval</th>
+        <th>$f_i$</th>
+        <th>$X_i$ (Class Mark)</th>
+        <th>$f_i X_i$</th>
+        <th>$cf$ (Cumulative Frequency)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>0-10</td><td>5</td><td>5</td><td>25</td><td>5</td></tr>
+      <tr><td>10-20</td><td>8</td><td>15</td><td>120</td><td>13</td></tr>
+      <tr><td>20-30</td><td>15</td><td>25</td><td>375</td><td>28</td></tr>
+      <tr><td>30-40</td><td>16</td><td>35</td><td>560</td><td>44</td></tr>
+      <tr><td>40-50</td><td>6</td><td>45</td><td>270</td><td>50</td></tr>
+      <tr><td><strong>Total</strong></td><td><strong>N=50</strong></td><td></td><td><strong>$\sum f_i X_i = 1350$</strong></td><td></td></tr>
+    </tbody>
+  </table>
 
-  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
-    <ul style="margin-top: 8px;">
-      <li>Arithmetic mean of a data set = total sum ÷ number of observations (always denote as \(\bar{x}\)).</li>
-      <li>For a symmetric distribution, <strong>mean = median = mode</strong>.</li>
-      <li>Median is the 50<sup>th</sup> percentile; it is unaffected by any single extreme value.</li>
-      <li>Geometric mean is appropriate only for positive numbers; it equals the nth root of the product of observations.</li>
-      <li>Chebyshev’s inequality guarantees that at least 75 % of data lie within 2 standard deviations of the mean, irrespective of distribution shape.</li>
-      <li>In a grouped frequency table, the modal class is the class with the highest frequency; use the formula \(L + \frac{(f_m - f_{m-1})}{(2f_m - f_{m-1} - f_{m+1})} \times h\) for precise mode.</li>
-      <li>Central Limit Theorem: For large <em>n</em> (≥30 is a common rule‑of‑thumb), the sampling distribution of the mean approximates a normal distribution.</li>
-      <li>Law of Large Numbers: As sample size increases, the sample mean converges to the population mean – essential for reliability analysis of weapons systems.</li>
-    </ul>
-  </div>
-</div>
+  <ol>
+    <li><strong>Mean ($\bar{X}$):</strong>
+      Using the Direct Method:
+      $$ \bar{X} = \frac{\sum f_i X_i}{\sum f_i} = \frac{1350}{50} = 27 $$
+      The mean mark is <strong>27</strong>.
+    </li>
+    <li><strong>Median:</strong>
+      <p>
+        First, find $ \frac{N}{2} = \frac{50}{2} = 25 $.
+        The cumulative frequency just greater than 25 is 28, which corresponds to the class interval 20-30.
+        So, the <strong>median class</strong> is <strong>20-30</strong>.
+      </p>
+      From the median class:
+      <ul>
+        <li>$ L = 20 $ (lower limit of median class)</li>
+        <li>$ cf = 13 $ (cumulative frequency of class preceding median class)</li>
+        <li>$ f = 15 $ (frequency of median class)</li>
+        <li>$ h = 10 $ (class width)</li>
+      </ul>
+      Applying the formula:
+      $$ \text{Median} = L + \left( \frac{\frac{N}{2} - cf}{f} \right) \times h $$
+      $$ \text{Median} = 20 + \left( \frac{25 - 13}{15} \right) \times 10 $$
+      $$ \text{Median} = 20 + \left( \frac{12}{15} \right) \times 10 $$
+      $$ \text{Median} = 20 + \frac{120}{15} = 20 + 8 = 28 $$
+      The median
 `;
 
 EXPANDED_NOTES_DATA["data-interpretation"] = `
@@ -1160,195 +1882,231 @@ EXPANDED_NOTES_DATA["data-interpretation"] = `
     Data Interpretation: Tables, Bar & Pie Charts
   </h3>
 
-  <h4><strong>1. Conceptual Foundations</strong></h4>
-  <p>Data interpretation in the context of <strong>Statistics &amp; Probability</strong> for NDA, CDS, and AFCAT exams primarily tests the candidate’s ability to extract, analyse, and present quantitative information quickly and accurately. The three most common visual representations are:</p>
+  <h4><strong>1. Fundamental Concepts & Terminology</strong></h4>
   <ul>
-    <li><strong>Tables</strong> – systematic arrangement of numerical data in rows and columns.</li>
-    <li><strong>Bar Charts</strong> – rectangular bars whose lengths are proportional to the values they represent.</li>
-    <li><strong>Pie Charts</strong> – circular diagrams divided into sectors representing parts of a whole.</li>
+    <li><strong>[[Table]]</strong>: A systematic arrangement of data in rows (observations) and columns (variables). Each column usually represents a distinct attribute such as <strong>[[Population]]</strong>, <strong>[[Frequency]]</strong>, or <strong>[[Percentage]]</strong>.</li>
+    <li><strong>[[Bar Chart]]</strong>: A graphical representation where each category is depicted by a rectangular bar whose length (or height) is proportional to the quantitative value it represents. Bars may be <em>vertical</em> or <em>horizontal</em>. Used when categories are discrete and the order is non‑cyclical.</li>
+    <li><strong>[[Pie Chart]]</strong>: A circular diagram divided into slices, each slice’s angle (or area) corresponds to a proportion of the whole, expressed as a <strong>[[Percentage]]</strong>. Best suited for showing parts‑of‑a‑whole where the total sum equals 100 %.</li>
+    <li><strong>[[Frequency Distribution]]</strong>: The tabulation of how often each value of a variable occurs. Key derived measures include <strong>[[Cumulative Frequency]]</strong>, <strong>[[Relative Frequency]]</strong>, and <strong>[[Percentage Frequency]]</strong>.</li>
+    <li><strong>[[Mean]], [[Median]], [[Mode]]</strong>: Central tendency measures frequently required when a table contains raw numerical data. <strong>Mean</strong> is the arithmetic average, <strong>Median</strong> is the middle value after ordering, and <strong>Mode</strong> is the most frequently occurring value.</li>
+    <li><strong>[[Percentage Change]]</strong>: The relative change between two values expressed as a percent, essential for interpreting growth/decline in tables and charts.</li>
+    <li><strong>[[Weighted Mean]]</strong>: Used when different observations carry different weights (e.g., different class sizes). Formula derives from first principles of summation of weighted products.</li>
   </ul>
-  <p>These tools are indispensable for interpreting data from sources such as the [[World Bank]], [[UNESCO]], [[National Sample Survey Office (NSSO)]], and the [[Census of India 2011]]. Mastery of the underlying mathematics—percentages, ratios, and basic algebra—allows candidates to convert raw figures into meaningful insights under time pressure.</p>
 
-  <h4><strong>2. Tables – Types and Reading Strategies</strong></h4>
-  <p>Tables can be broadly classified into:</p>
+  <h4><strong>2. Core Formulas with Variable Definitions</strong></h4>
+  <ul>
+    <li><strong>Arithmetic Mean</strong>:
+      $$\displaystyle \bar{x}= \frac{\sum_{i=1}^{n} x_i}{n}$$
+      <ul>
+        <li><strong>$\bar{x}$</strong>: Mean of the data set.</li>
+        <li><strong>$x_i$</strong>: Individual observation.</li>
+        <li><strong>$n$</strong>: Total number of observations (must be a positive integer).</li>
+      </ul>
+    </li>
+    <li><strong>Median (for grouped data)</strong>:
+      $$\displaystyle \text{Median}= L + \left(\frac{\frac{N}{2}-CF_{b}}{f_{b}}\right) \times h$$
+      <ul>
+        <li><strong>$L$</strong>: Lower boundary of the median class.</li>
+        <li><strong>$N$</strong>: Total frequency (sum of all $f_i$).</li>
+        <li><strong>$CF_{b}$</strong>: Cumulative frequency of the class preceding the median class.</li>
+        <li><strong>$f_{b}$</strong>: Frequency of the median class.</li>
+        <li><strong>$h$</strong>: Class width (difference between successive class limits).</li>
+      </ul>
+    </li>
+    <li><strong>Mode (for grouped data)</strong>:
+      $$\displaystyle \text{Mode}= L + \left(\frac{f_{m}-f_{m-1}}{(f_{m}-f_{m-1})+(f_{m}-f_{m+1})}\right) \times h$$
+      <ul>
+        <li><strong>$f_{m}$</strong>: Frequency of the modal class.</li>
+        <li><strong>$f_{m-1}$</strong>: Frequency of the class preceding the modal class.</li>
+        <li><strong>$f_{m+1}$</strong>: Frequency of the class succeeding the modal class.</li>
+      </ul>
+    </li>
+    <li><strong>Percentage Frequency</strong>:
+      $$\displaystyle \%f_i = \frac{f_i}{N}\times 100$$
+      <ul>
+        <li><strong>$f_i$</strong>: Frequency of the $i^{th}$ class.</li>
+        <li><strong>$N$</strong>: Total frequency.</li>
+      </ul>
+    </li>
+    <li><strong>Percentage Change</strong>:
+      $$\displaystyle \%\Delta = \frac{V_{\text{new}}-V_{\text{old}}}{V_{\text{old}}}\times 100$$
+      <ul>
+        <li><strong>$V_{\text{new}}$</strong>: New (later) value.</li>
+        <li><strong>$V_{\text{old}}$</strong>: Original (earlier) value.</li>
+        <li>Condition: $V_{\text{old}}\neq 0$; otherwise the percentage change is undefined.</li>
+      </ul>
+    </li>
+    <li><strong>Weighted Mean</strong>:
+      $$\displaystyle \bar{x}_w = \frac{\sum_{i=1}^{k} w_i x_i}{\sum_{i=1}^{k} w_i}$$
+      <ul>
+        <li><strong>$w_i$</strong>: Weight attached to the $i^{th}$ observation (must be non‑negative).</li>
+        <li><strong>$x_i$</strong>: Value of the $i^{th}$ observation.</li>
+        <li><strong$k$</strong>: Number of distinct groups.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4><strong>3. Derivation of Percentage Change from First Principles</strong></h4>
+  <p>Starting with the definition of relative change:</p>
   <ol>
-    <li><strong>Simple Frequency Tables</strong> – show the count of occurrences for each category.</li>
-    <li><strong>Cumulative Frequency Tables</strong> – each entry adds the previous frequencies, useful for determining medians and quartiles.</li>
-    <li><strong>Cross‑Tabulation (Contingency) Tables</strong> – present the relationship between two categorical variables.</li>
-    <li><strong>Multi‑Year Comparative Tables</strong> – display data across several time periods, often used in economic or demographic contexts.</li>
+    <li>Relative change $R$ is the ratio of the absolute change $\Delta V$ to the original value $V_{\text{old}}$:
+      $$R = \frac{\Delta V}{V_{\text{old}}}$$
+    </li>
+    <li>Absolute change $\Delta V$ equals $V_{\text{new}}-V_{\text{old}}$.</li>
+    <li>Substituting, we obtain:
+      $$R = \frac{V_{\text{new}}-V_{\text{old}}}{V_{\text{old}}}$$
+    </li>
+    <li>To express $R$ as a percent, multiply by 100:
+      $$\%\Delta = R \times 100 = \frac{V_{\text{new}}-V_{\text{old}}}{V_{\text{old}}}\times 100$$
+    </li>
   </ol>
-  <p>Key reading techniques:</p>
-  <ul>
-    <li>Identify the <strong>row headings</strong> (variables) and <strong>column headings</strong> (categories).</li>
-    <li>Check for <strong>totals</strong> and <strong>sub‑totals</strong> to verify internal consistency.</li>
-    <li>Calculate <strong>percentage change</strong> using the formula <strong>((New – Old)/Old) × 100</strong>.</li>
-    <li>When totals are missing, use the <strong>sum of rows/columns</strong> technique to reconstruct them.</li>
-  </ul>
+  <p>This derivation emphasizes that the denominator must be the original value; swapping the order leads to a completely different (and often wrong) result.</p>
 
-  <h4><strong>3. Bar Charts – Construction, Types, and Computation</strong></h4>
-  <p>Bar charts are preferred when comparing discrete categories. Two main orientations exist:</p>
-  <ul>
-    <li><strong>Vertical Bar Chart</strong> – categories on the x‑axis, values on the y‑axis.</li>
-    <li><strong>Horizontal Bar Chart</strong> – categories on the y‑axis, values on the x‑axis.</li>
-  </ul>
-  <p>Additional variants include:</p>
-  <ul>
-    <li><strong>Grouped (Clustered) Bar Chart</strong> – multiple bars per category to compare sub‑groups (e.g., male vs. female).</li>
-    <li><strong>Stacked Bar Chart</strong> – bars divided into segments that sum to a total, revealing composition.</li>
-  </ul>
-  <p>Essential calculations:</p>
-  <ul>
-    <li>Determine the <strong>scale factor</strong> (value per unit length) using <strong>Scale = (Max Value – Min Value) / (Length of axis)</strong>.</li>
-    <li>Convert a given bar length to the actual value: <strong>Value = Length × Scale + Min Value</strong>.</li>
-    <li>For grouped charts, compute the <strong>difference between adjacent bars</strong> to find the comparative increase or decrease.</li>
-  </ul>
+  <div class="important-box" style="background:#2a2e3b; border-left:4px solid var(--accent); padding:12px; margin:16px 0;">
+    <strong>Critical Distinction:</strong> Use a <strong>[[Bar Chart]]</strong> when categories are independent and you need to compare absolute magnitudes. Use a <strong>[[Pie Chart]]</strong> only when the total sum is meaningful (e.g., market share) and the number of slices is ≤ 6‑8 to avoid visual clutter.
+  </div>
 
-  <h4><strong>4. Pie Charts – Angle, Percentage, and Sector Analysis</strong></h4>
-  <p>Pie charts depict how a whole is partitioned into parts. The fundamental relationship is:</p>
-  <p><strong>Sector Angle (°) = (Part ÷ Whole) × 360°</strong></p>
-  <p>Key steps for rapid solving:</p>
-  <ol>
-    <li>Identify the <strong>total (usually 100 % or 360°)</strong>.</li>
-    <li>Convert any given percentage to an angle using <strong>Angle = (Percentage ÷ 100) × 360°</strong>.</li>
-    <li>If an angle is provided, retrieve the percentage: <strong>Percentage = (Angle ÷ 360) × 100</strong>.</li>
-    <li>When a sector is missing, subtract the sum of known angles/percentages from the total.</li>
-  </ol>
-  <p>Commonly examined scenarios involve:</p>
-  <ul>
-    <li>Comparing two sectors (e.g., “Sector A is 1.5 times Sector B”).</li>
-    <li>Finding the <strong>least/most dominant sector</strong> after a sequence of additions or subtractions.</li>
-    <li>Interpreting <strong>compound percentages</strong> across successive years (e.g., growth of a market share).</li>
-  </ul>
-
-  <h4><strong>5. Integrated Example – From Table to Bar & Pie</strong></h4>
-  <p>Consider the following simplified data extracted from the [[International Monetary Fund (IMF)]] report on 2022‑2023 fiscal performance of three Indian states:</p>
-
-  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; margin-top: 12px;">
+  <h4><strong>4. Comparative Table of Chart Types</strong></h4>
+  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
     <thead>
-      <tr style="background:#f2f2f2;">
-        <th><strong>State</strong></th>
-        <th><strong>GDP (₹ billion)</strong></th>
-        <th><strong>Population (million)</strong></th>
-        <th><strong>Per‑Capita Income (₹ thousand)</strong></th>
+      <tr style="background:#1e222b;">
+        <th style="border:1px solid var(--border); padding:8px;"><strong>Aspect</strong></th>
+        <th style="border:1px solid var(--border); padding:8px;"><strong>[[Bar Chart]]</strong></th>
+        <th style="border:1px solid var(--border); padding:8px;"><strong>[[Pie Chart]]</strong></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>[[Maharashtra]]</td>
-        <td>3400</td>
-        <td>124</td>
-        <td>27419</td>
+        <td style="border:1px solid var(--border); padding:8px;"><strong>Best For</strong></td>
+        <td style="border:1px solid var(--border); padding:8px;">Comparing discrete categories, spotting trends across time.</td>
+        <td style="border:1px solid var(--border); padding:8px;">Showing parts‑of‑a‑whole, proportional contributions.</td>
       </tr>
       <tr>
-        <td>[[Karnataka]]</td>
-        <td>2100</td>
-        <td>68</td>
-        <td>30882</td>
+        <td style="border:1px solid var(--border); padding:8px;"><strong>Number of Categories</strong></td>
+        <td style="border:1px solid var(--border); padding:8px;">Unlimited (practical limit ≈ 15‑20 for clarity).</td>
+        <td style="border:1px solid var(--border); padding:8px;">Ideally ≤ 6‑8; more slices cause overlapping angles.</td>
       </tr>
       <tr>
-        <td>[[Tamil Nadu]]</td>
-        <td>2500</td>
-        <td>80</td>
-        <td>31250</td>
+        <td style="border:1px solid var(--border); padding:8px;"><strong>Ease of Calculating Exact Values</strong></td>
+        <td style="border:1px solid var(--border); padding:8px;">Direct from axis scales; no trigonometry needed.</td>
+        <td style="border:1px solid var(--border); padding:8px;">Requires conversion of percentages to angles: $ \theta_i = \frac{\%f_i}{100}\times 360^\circ $.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid var(--border); padding:8px;"><strong>Visual Perception of Small Differences</strong></td>
+        <td style="border:1px solid var(--border); padding:8px;">High (length differences are easily distinguished).</td>
+        <td style="border:1px solid var(--border); padding:8px;">Low (small angular differences are hard to discriminate).</td>
       </tr>
     </tbody>
   </table>
 
-  <p>From this table, a vertical bar chart can be plotted for <strong>GDP</strong>. Using a chart height of 12 cm and a scale of 300 ₹ billion per cm, the bar heights are:</p>
-  <ul>
-    <li>Maharashtra: <strong>3400 ÷ 300 ≈ 11.33 cm</strong></li>
-    <li>Karnataka: <strong>2100 ÷ 300 ≈ 7.00 cm</strong></li>
-    <li>Tamil Nadu: <strong>2500 ÷ 300 ≈ 8.33 cm</strong></li>
-  </ul>
-  <p>For a pie chart representing the share of total GDP, first compute the aggregate: 3400 + 2100 + 2500 = 8000 ₹ billion. Then sector angles are:</p>
-  <ul>
-    <li>Maharashtra: <strong>(3400 ÷ 8000) × 360 ≈ 153°</strong></li>
-    <li>Karnataka: <strong>(2100 ÷ 8000) × 360 ≈ 94.5°</strong></li>
-    <li>Tamil Nadu: <strong>(2500 ÷ 8000) × 360 ≈ 112.5°</strong></li>
-  </ul>
-  <p>Such integrated practice reinforces the transformation of tabular data into visual formats, a skill frequently tested in the <strong>Data Interpretation</strong> segment of the defence entrance examinations.</p>
+  <h4><strong>5. Step‑by‑Step Worked Example 1 – Table to Bar Chart</strong></h4>
+  <p><strong>Problem Statement:</strong> A [[Table]] provides the number of recruits enlisted in the Indian Army over four consecutive years: 2019 – 1 200, 2020 – 1 350, 2021 – 1 500, 2022 – 1 650. Construct a vertical <strong>[[Bar Chart]]</strong> and compute the <strong>percentage increase</strong> from 2019 to 2022.</p>
+  <ol>
+    <li><strong>Identify the quantitative variable:</strong> Number of recruits (<strong>$V_i$</strong>).</li>
+    <li><strong>Determine the scale:</strong> Choose a convenient scale, e.g., 1 unit = 100 recruits. Then the heights become 12, 13.5, 15, 16.5 units respectively.</li>
+    <li><strong>Plot the bars:</strong> Along the horizontal axis label years (2019, 2020, 2021, 2022). Draw vertical rectangles with the heights above.</li>
+    <li><strong>Calculate percentage increase:</strong>
+      <ul>
+        <li>Old value $V_{\text{old}} = 1\,200$.</li>
+        <li>New value $V_{\text{new}} = 1\,650$.</li>
+        <li>Apply the formula:
+          $$\%\Delta = \frac{1\,650-1\,200}{1\,200}\times 100 = \frac{450}{1\,200}\times 100 = 37.5\%$$</li>
+      </ul>
+    </li>
+    <li><strong>Interpretation:</strong> The bar heights increase uniformly, reflecting a steady 37.5 % growth over the four‑year span.</li>
+  </ol>
 
-  <h4><strong>6. Time‑Saving Tricks for the Examination Hall</strong></h4>
+  <h4><strong>6. Step‑by‑Step Worked Example 2 – Pie Chart & Weighted Mean</strong></h4>
+  <p><strong>Problem Statement:</strong> A survey of three branches of the Indian Navy recorded the following proportion of officers: <strong>Eastern</strong> – 40 %, <strong>Western</strong> – 35 %, <strong>Southern</strong> – 25 %. Their respective average years of service are 12, 10, and 8 years. Determine the overall average years of service (<strong>Weighted Mean</strong>) and draw a <strong>[[Pie Chart]]</strong>.</p>
+  <ol>
+    <li><strong>List data in tabular form:</strong>
+      <table style="width:60%; margin:auto; border-collapse:collapse;">
+        <tr style="background:#1e222b;">
+          <th style="border:1px solid var(--border); padding:4px;">Branch</th>
+          <th style="border:1px solid var(--border); padding:4px;">% Share</th>
+          <th style="border:1px solid var(--border); padding:4px;">Avg. Years</th>
+        </tr>
+        <tr>
+          <td style="border:1px solid var(--border); padding:4px;">Eastern</td>
+          <td style="border:1px solid var(--border); padding:4px;">40</td>
+          <td style="border:1px solid var(--border); padding:4px;">12</td>
+        </tr>
+        <tr>
+          <td style="border:1px solid var(--border); padding:4px;">Western</td>
+          <td style="border:1px solid var(--border); padding:4px;">35</td>
+          <td style="border:1px solid var(--border); padding:4px;">10</td>
+        </tr>
+        <tr>
+          <td style="border:1px solid var(--border); padding:4px;">Southern</td>
+          <td style="border:1px solid var(--border); padding:4px;">25</td>
+          <td style="border:1px solid var(--border); padding:4px;">8</td>
+        </tr>
+      </table>
+    </li>
+    <li><strong>Convert percentages to weights:</strong> $w_1=40$, $w_2=35$, $w_3=25$ (any common factor cancels in the ratio).</li>
+    <li><strong>Apply Weighted Mean formula:</strong>
+      $$\displaystyle \bar{x}_w = \frac{40\times12 + 35\times10 + 25\times8}{40+35+25}$$
+      <ul>
+        <li>Numerator $= 480 + 350 + 200 = 1\,030$.</li>
+        <li>Denominator $= 100$.</li>
+        <li>Hence $\bar{x}_w = \frac{1\,030}{100}=10.3$ years.</li>
+      </ul>
+    </li>
+    <li><strong>Construct the Pie Chart:</strong>
+      <ul>
+        <li>Convert each percentage to an angle: $\theta_i = \frac{\%f_i}{100}\times360^\circ$.</li>
+        <li>Eastern: $\theta_1 = 0.40\times360^\circ = 144^\circ$.</li>
+        <li>Western: $\theta_2 = 0.35\times360^\circ = 126^\circ$.</li>
+        <li>Southern: $\theta_3 = 0.25\times360^\circ = 90^\circ$.</li>
+        <li>Draw a circle, mark the central angles sequentially, label each slice with branch name and its angle.</li>
+      </ul>
+    </li>
+    <li><strong>Interpretation:</strong> The overall average service length of officers across the Navy is <strong>10.3 years</strong>, slightly skewed towards the Eastern branch because of its larger weight.</li>
+  </ol>
+
+  <h4><strong>7. Common Mistakes in Data‑Interpretation Problems</strong></h4>
   <ul>
-    <li><strong>Rule of 5‑10‑15</strong>: For pie‑chart angles, approximate 10 % ≈ 36°, 5 % ≈ 18°, and 15 % ≈ 54° to speed up calculations.</li>
-    <li><strong>Shortcut Scale</strong>: When the axis length is a multiple of 5 or 10, divide the maximum value by the same factor to obtain the per‑unit scale instantly.</li>
-    <li><strong>Cross‑Check Using Totals</strong>: After solving a table, always verify that row‑wise and column‑wise sums match the given totals; this catches transcription errors.</li>
-    <li><strong>Visual Estimation</strong>: For bar charts, compare bar lengths visually before converting to numbers; often the answer can be deduced by relative magnitude alone.</li>
-    <li><strong>Elimination Method</strong>: In multiple‑choice settings (though not required here), discard options that violate basic constraints such as total = 100 % or angle > 360°.</li>
+    <li><strong>Misreading the base value in percentage change:</strong> Students often subtract the older value from the newer one but then divide by the newer value, producing an inverted percentage.</li>
+    <li><strong>Treating percentages as raw numbers in weighted mean:</strong> Forgetting to convert percentages to actual weights (or to a common denominator) leads to an inflated mean.</li>
+    <li><strong>Ignoring cumulative frequency when locating median in grouped data:</strong> Directly using class mid‑points without checking the cumulative total yields an incorrect median.</li>
+    <li><strong>Using a pie chart for more than eight categories:</strong> This creates slices so narrow that visual discrimination becomes impossible, violating the principle of clarity.</li>
+    <li><strong>Rounding intermediate results prematurely:</strong> Early rounding (e.g., after each bar height) compounds error, especially when the final answer requires two‑decimal accuracy.</li>
   </ul>
 
-  <h4><strong>7. Common Pitfalls and How to Avoid Them</strong></h4>
+  <h4><strong>8. Shortcuts & Tricks for Competitive Exams</strong></h4>
   <ul>
-    <li><strong>Mixing Units</strong>: Ensure all figures are in the same unit (e.g., convert ₹ crore to ₹ billion) before calculations.</li>
-    <li><strong>Ignoring Zero‑Based Indexing</strong>: When a table starts with a “0” row or column, remember that percentages are calculated on the total, not on the first non‑zero entry.</li>
-    <li><strong>Rounding Errors</strong>: Retain at least two decimal places during intermediate steps; round off only in the final answer to avoid cumulative error.</li>
-    <li><strong>Misreading “Less Than” vs. “Greater Than”</strong>: Pay attention to phrasing such as “the population of State A is *less* than that of State B by 12 %”.</li>
-    <li><strong>Over‑Complicating Simple Percentages</strong>: Use the direct proportion method rather than setting up elaborate equations for straightforward 20 % or 50 % problems.</li>
+    <li><strong>Quick Angle from Percentage:</strong> Memorise that $1\% = 3.6^\circ$. Hence, to obtain an angle for a slice, simply multiply the percentage by 3.6. Example: $27\% \rightarrow 27 \times 3.6 = 97.2^\circ$.</li>
+    <li><strong>Fast Percentage Change using Difference‑to‑Average Approximation:</strong> When $V_{\text{old}}$ and $V_{\text{new}}$ are close, approximate $\%\Delta \approx \frac{V_{\text{new}}-V_{\text{old}}}{\frac{V_{\text{new}}+V_{\text{old}}}{2}}\times100$. This reduces mental division.</li>
+    <li><strong>Weighted Mean Shortcut:</strong> If percentages sum to 100, the denominator of the weighted mean is automatically 100, so the overall mean equals $\sum (\% \times \text{value})/100$, eliminating the need to recompute the denominator.</li>
+    <li><strong>Bar‑Chart Height Estimation:</strong> For a scale of 1 unit = 50, simply drop the last two digits of the number and add a decimal for the remainder (e.g., 1 235 → 24.7 units). This speeds up plotting without a calculator.</li>
+    <li><strong>Median in Ungrouped Data:</strong> Use the formula $M = \frac{n+1}{2}$th term directly; for even $n$, average the $n/2$ and $(n/2)+1$ terms. No need to list all terms if you know the pattern.</li>
+    <li><strong>Quick Cumulative Frequency:</strong> Add frequencies sequentially while reading the table; write the running total in the same column to avoid a second pass.</li>
   </ul>
 
-  <h4><strong>8. Formulae Cheat‑Sheet (Quick Reference)</strong></h4>
-  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; margin-top: 12px;">
-    <thead>
-      <tr style="background:#e8f5e9;">
-        <th><strong>Concept</strong></th>
-        <th><strong>Formula</strong></th>
-        <th><strong>Applicable To</strong></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Percentage Change</td>
-        <td><strong>((New – Old)/Old) × 100</strong></td>
-        <td>Tables, Bar Chart comparisons</td>
-      </tr>
-      <tr>
-        <td>Sector Angle</td>
-        <td><strong>(Part ÷ Whole) × 360°</strong></td>
-        <td>Pie Charts</td>
-      </tr>
-      <tr>
-        <td>Percentage from Angle</td>
-        <td><strong>(Angle ÷ 360) × 100</strong></td>
-        <td>Pie Charts</td>
-      </tr>
-      <tr>
-        <td>Scale Factor (Bar Chart)</td>
-        <td><strong>(Max Value – Min Value) ÷ Axis Length</strong></td>
-        <td>Bar Charts</td>
-      </tr>
-      <tr>
-        <td>Value from Bar Length</td>
-        <td><strong>Length × Scale + Min Value</strong></td>
-        <td>Bar Charts</td>
-      </tr>
-      <tr>
-        <td>Weighted Average</td>
-        <td><strong>(Σ wi xi) ÷ Σ wi</strong></td>
-        <td>Composite tables, multi‑year data</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h4><strong>9. Real‑World Contextual Applications</strong></h4>
-  <p>Data interpretation is not merely a classroom exercise; it mirrors the analytical demands of defence services where officers must evaluate operational statistics, resource allocations, and strategic trends. Examples include:</p>
+  <h4><strong>9. Edge Cases & Advanced Applications</strong></h4>
   <ul>
-    <li>Analyzing the [[World Health Organization (WHO)]] reports on disease incidence across different zones to allocate medical kits.</li>
-    <li>Studying the [[United Nations (UN)]] peacekeeping troop contributions via bar charts to assess logistical support.</li>
-    <li>Interpreting the [[Statistical Institute of India]]’s agricultural yield tables to plan supply‑chain logistics for forward bases.</li>
-    <li>Evaluating the percentage growth in defence‑related patents filed in [[India]] over the last decade, often presented as a pie chart.</li>
+    <li><strong>Zero or Negative Values in Bar Charts:</strong> Negative values are represented by bars extending below the horizontal axis. The magnitude is still proportional to the absolute value, but the direction indicates sign.</li>
+    <li><strong>Partial Pie Charts (Donut Charts):</strong> When the total is not 100 %, a donut chart can be employed by scaling the percentages to sum to 100 first. This requires an extra step of normalisation:
+      $$\displaystyle \%f_i^{\prime}= \frac{f_i}{\sum f_i}\times100$$</li>
+    <li><strong>Data with Missing Entries:</strong> Apply interpolation (linear or quadratic) to estimate missing frequencies before constructing charts. For competitive exams, linear interpolation suffices and is faster.</li>
+    <li><strong>Compound Percentage Changes:</strong> When multiple successive changes occur, multiply the corresponding growth factors:
+      $$\displaystyle \text{Overall Factor}= \prod_{k=1}^{m}\left(1+\frac{\%\Delta_k}{100}\right)$$
+      Then subtract 1 and multiply by 100 to get the net percent change.</li>
   </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>In a pie chart, a 25 % sector always subtends an angle of <strong>90°</strong>.</li>
-      <li>For a bar chart with axis length 8 cm representing a range of 0‑400, the scale factor is <strong>50 units/cm</strong>.</li>
-      <li>When two sectors satisfy “Sector A is 1.2 times Sector B”, the angle of A equals <strong>1.2 × Angle B</strong>.</li>
-      <li>In a cumulative frequency table, the median lies in the class where the cumulative frequency first exceeds <strong>(N + 1)/2</strong>.</li>
-      <li>A grouped bar chart comparing three years can be solved by subtracting the bar height of the earlier year from the later year to find the absolute increase.</li>
-      <li>In any table, if the sum of row totals does not equal the sum of column totals, the data set is inconsistent – a red flag for exam‑time verification.</li>
-      <li>For a table showing percentages that sum to 100 %, the corresponding angle in a pie chart is obtained by multiplying each percentage by <strong>3.6</strong>.</li>
-      <li>When a bar chart’s axis starts at a non‑zero baseline (e.g., 200), always add the baseline value after converting bar length to the actual figure.</li>
+      <li>In a <strong>[[Bar Chart]]</strong>, the difference between two bars equals the absolute difference of the underlying values; no trigonometry is needed.</li>
+      <li>For any <strong>[[Pie Chart]]</strong>, convert a percentage to an angle using $1\% = 3.6^\circ$.</li>
+      <li>When the total of a table is not given, sum the frequencies first; the result is the denominator for all percentage calculations.</li>
+      <li>Percentage change formula must always use the original value as denominator; swapping yields the reciprocal percent.</li>
+      <li>Weighted mean simplifies to $\sum (\% \times value)/100$ if the percentages already total 100 %.</li>
+      <li>Median of grouped data uses $L + \left(\frac{\frac{N}{2}-CF_{b}}{f_{b}}\right)h$; remember $N/2$ is the half‑total frequency, not half the number of classes.</li>
+      <li>Mode of grouped data requires the frequencies of the modal class and its immediate neighbours; if $f_{m-1}=f_{m+1}$, the mode lies exactly at the class midpoint.</li>
+      <li>For compound growth, multiply growth factors, not percentages; e.g., 20 % then 30 % growth → $(1.20)(1.30)-1 = 56\%$ overall.</li>
+      <li>In tables with cumulative frequencies, the 75th percentile (Q3) can be found by locating the class where $CF \ge 0.75N$.</li>
+      <li>Never draw a pie chart with more than eight slices; instead, combine minor categories into an “Other” slice to preserve readability.</li>
     </ul>
   </div>
 </div>
@@ -1360,178 +2118,175 @@ EXPANDED_NOTES_DATA["limits-continuity"] = `
     Limits & Continuity
   </h3>
 
-  <h4>1. Fundamental Concepts of Limits</h4>
-  <p>In the context of the Indian defence examinations, the notion of a <strong>limit</strong> is the cornerstone of differential calculus. Formally, for a function <em>f(x)</em> defined on a domain <strong>D</strong> ⊂ ℝ, we say that the limit of <em>f(x)</em> as <em>x</em> approaches <strong>c</strong> is <strong>L</strong> (written as <code>limₓ→c f(x)=L</code>) if for every ε > 0 there exists a δ > 0 such that 0 < |x‑c| < δ ⇒ |f(x)‑L| < ε. This ε‑δ definition was rigorously formalised by [[Augustin-Louis Cauchy]] (1821‑1892) and later refined by [[Karl Weierstrass]] (1815‑1897).</p>
-
+  <h4><strong>1. Fundamental Definition of a Limit</strong></h4>
+  <p>For a real‑valued function <strong>f</strong>(<strong>x</strong>) defined on an open interval containing the point <strong>c</strong> (except possibly at <strong>c</strong> itself), we say that <strong>f</strong>(<strong>x</strong>) has a <strong>limit</strong> <strong>L</strong> as <strong>x</strong> approaches <strong>c</strong> if, for every <strong>ε > 0</strong>, there exists a <strong>δ > 0</strong> such that</p>
+  $$\forall \, \varepsilon>0,\;\exists \,\delta>0\;:\;0<|x-c|<\delta \Longrightarrow |f(x)-L|<\varepsilon$$
   <ul>
-    <li><strong>One‑sided limits</strong>: <code>limₓ→c⁺ f(x)</code> (right‑hand) and <code>limₓ→c⁻ f(x)</code> (left‑hand). Both must coincide for a two‑sided limit to exist.</li>
-    <li><strong>Infinite limits</strong>: When |f(x)| grows without bound as x→c, we denote <code>limₓ→c f(x)=±∞</code>.</li>
-    <li><strong>Limits at infinity</strong>: Studying the behaviour of f(x) as x→±∞ gives insights into horizontal asymptotes and growth rates.</li>
+    <li><strong>ε (epsilon)</strong> – an arbitrarily small positive number representing the desired closeness of <strong>f(x)</strong> to the limit <strong>L</strong>.</li>
+    <li><strong>δ (delta)</strong> – a positive number that depends on <strong>ε</strong> and determines a neighbourhood around <strong>c</strong> where the condition holds.</li>
+    <li>Condition <strong>0 < |x‑c| < δ</strong> excludes the point <strong>x = c</strong> itself, ensuring the definition works even when <strong>f(c)</strong> is undefined.</li>
   </ul>
+  <div class="important-box" style="background:#2a2e3d; padding:10px; border-left:4px solid var(--accent); margin:12px 0;">
+    <strong>Key Insight:</strong> The <em>ε‑δ</em> definition is a precise, quantifier‑based way to capture the intuitive notion of “getting arbitrarily close”.
+  </div>
 
-  <h4>2. Key Limit Laws (Algebra of Limits)</h4>
-  <p>These laws enable quick manipulation of limits without reverting to the ε‑δ definition each time. They are universally valid for functions whose limits exist.</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <thead>
-      <tr style="background:#2a2a3c;">
-        <th style="padding:8px; border:1px solid #444; color:#fff;">Operation</th>
-        <th style="padding:8px; border:1px solid #444; color:#fff;">Law</th>
+  <h4><strong>2. Limit Laws (Algebra of Limits)</strong></h4>
+  <p>When limits of individual functions exist, the following laws hold (provided the expressions are defined):</p>
+  <ol>
+    <li><strong>Sum Law:</strong> $$\lim_{x\to c}[f(x)+g(x)]=\lim_{x\to c}f(x)+\lim_{x\to c}g(x)$$</li>
+    <li><strong>Product Law:</strong> $$\lim_{x\to c}[f(x)g(x)]=\Big(\lim_{x\to c}f(x)\Big)\Big(\lim_{x\to c}g(x)\Big)$$</li>
+    <li><strong>Quotient Law:</strong> If $\displaystyle\lim_{x\to c}g(x)\neq0$, then $$\lim_{x\to c}\frac{f(x)}{g(x)}=\frac{\displaystyle\lim_{x\to c}f(x)}{\displaystyle\lim_{x\to c}g(x)}$$</li>
+    <li><strong>Power Law:</strong> For any integer $n\ge0$, $$\lim_{x\to c}[f(x)]^{\,n}=\Big(\lim_{x\to c}f(x)\Big)^{\,n}$$</li>
+    <li><strong>Root Law:</strong> If $n$ is a positive integer and $\displaystyle\lim_{x\to c}f(x)\ge0$ (for even $n$), then $$\lim_{x\to c}\sqrt[n]{f(x)}=\sqrt[n]{\displaystyle\lim_{x\to c}f(x)}$$</li>
+  </ol>
+
+  <h4><strong>3. One‑Sided Limits</strong></h4>
+  <p>One‑sided limits refine the notion of approaching a point from a particular direction:</p>
+  <ul>
+    <li><strong>Right‑hand limit (denoted $\,\lim_{x\to c^{+}}f(x)$):</strong> $x$ approaches $c$ through values $x>c$.</li>
+    <li><strong>Left‑hand limit (denoted $\,\lim_{x\to c^{-}}f(x)$):</strong> $x$ approaches $c$ through values $x<c$.</li>
+  </ul>
+  <p>For the (two‑sided) limit to exist, both one‑sided limits must exist and be equal:</p>
+  $$\lim_{x\to c}f(x)=L\quad\Longleftrightarrow\quad\lim_{x\to c^{+}}f(x)=\lim_{x\to c^{-}}f(x)=L$$
+
+  <h4><strong>4. Continuity – Formal Definition</strong></h4>
+  <p>A function <strong>f</strong> is said to be <strong>continuous</strong> at a point <strong>c</strong> if three conditions are simultaneously satisfied:</p>
+  <ol>
+    <li><strong>Existence of the function value:</strong> $f(c)$ is defined.</li>
+    <li><strong>Existence of the limit:</strong> $\displaystyle\lim_{x\to c}f(x)$ exists.</li>
+    <li><strong>Equality of limit and function value:</strong> $$\displaystyle\lim_{x\to c}f(x)=f(c)$$</li>
+  </ol>
+  <p>If <strong>f</strong> satisfies the above at every point of an interval $I$, we say <strong>f</strong> is <strong>continuous on $I$</strong>.</p>
+
+  <h4><strong>5. Types of Discontinuities – Classification Table</strong></h4>
+  <table style="width:100%; border-collapse:collapse; margin:12px 0; color:#e0e0e0;">
+    <thead style="background:#1f222b;">
+      <tr>
+        <th style="border:1px solid #555; padding:8px;">Type</th>
+        <th style="border:1px solid #555; padding:8px;">Definition</th>
+        <th style="border:1px solid #555; padding:8px;">Typical Example</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>Sum</strong></td>
-        <td style="padding:8px; border:1px solid #444;"><code>limₓ→c [f(x)+g(x)] = limₓ→c f(x) + limₓ→c g(x)</code></td>
+      <tr style="background:#2a2e3d;">
+        <td style="border:1px solid #555; padding:8px;"><strong>Removable</strong></td>
+        <td style="border:1px solid #555; padding:8px;">Limit exists but $f(c)$ either undefined or $\neq\lim_{x\to c}f(x)$.</td>
+        <td style="border:1px solid #555; padding:8px;">$f(x)=\dfrac{x^{2}-1}{x-1}$ at $x=1$.</td>
       </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>Product</strong></td>
-        <td style="padding:8px; border:1px solid #444;"><code>limₓ→c [f(x)·g(x)] = (limₓ→c f(x))·(limₓ→c g(x))</code></td>
+      <tr style="background:#1f222b;">
+        <td style="border:1px solid #555; padding:8px;"><strong>Jump</strong></td>
+        <td style="border:1px solid #555; padding:8px;">Left‑hand and right‑hand limits exist but are unequal.</td>
+        <td style="border:1px solid #555; padding:8px;">$f(x)=\begin{cases}0,&x<0\\1,&x\ge0\end{cases}$ at $x=0$.</td>
       </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>Quotient</strong></td>
-        <td style="padding:8px; border:1px solid #444;">If <code>limₓ→c g(x) ≠ 0</code>, then <code>limₓ→c f(x)/g(x) = (limₓ→c f(x))/(limₓ→c g(x))</code></td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>Power</strong></td>
-        <td style="padding:8px; border:1px solid #444;"><code>limₓ→c [f(x)]ⁿ = (limₓ→c f(x))ⁿ</code> for any integer n ≥ 0.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>Root</strong></td>
-        <td style="padding:8px; border:1px solid #444;">If n is even, require <code>limₓ→c f(x) ≥ 0</code>. Then <code>limₓ→c √[n]{f(x)} = √[n]{limₓ→c f(x)}</code>.</td>
+      <tr style="background:#2a2e3d;">
+        <td style="border:1px solid #555; padding:8px;"><strong>Essential (Infinite)</strong></td>
+        <td style="border:1px solid #555; padding:8px;">One‑sided limit diverges to $\pm\infty$ or oscillates without bound.</td>
+        <td style="border:1px solid #555; padding:8px;">$f(x)=\dfrac{1}{x}$ at $x=0$.</td>
       </tr>
     </tbody>
   </table>
 
-  <h4>3. Special Limits Frequently Tested</h4>
-  <p>These limits appear verbatim in NDA, CDS, and AFCAT past papers. Memorising them saves valuable time.</p>
-  <ul>
-    <li><strong>Trigonometric fundamental limit</strong>: <code>limₓ→0 (sin x)/x = 1</code>. Proven using the <em>geometric squeeze</em> (or <strong>Squeeze Theorem</strong>) and the unit circle.</li>
-    <li><strong>Exponential limit</strong>: <code>limₓ→0 (1+ax)^{1/x} = e^{a}</code>, where <em>a</em> is a constant.</li>
-    <li><strong>Logarithmic limit</strong>: <code>limₓ→0 (ln(1+ax))/x = a</code>.</li>
-    <li><strong>Indeterminate forms</strong>: <code>0/0</code> and <code>∞/∞</code> are resolved via [[L'Hôpital's Rule]] (named after Guillaume de l'Hôpital, 1661‑1704).</li>
-    <li><strong>Power‑indeterminate forms</strong>: <code>0⁰, 1^∞, ∞⁰</code> are tackled by taking natural logs and converting to the standard <code>0/0</code> or <code>∞/∞</code> forms.</li>
-  </ul>
-
-  <h4>4. L'Hôpital's Rule – Statement & Application</h4>
-  <p>Let f and g be differentiable on an open interval I containing c (except possibly at c). If <code>limₓ→c f(x) = limₓ→c g(x) = 0</code> or both limits are ±∞, and g′(x) ≠ 0 near c, then:</p>
-  <p><code>limₓ→c f(x)/g(x) = limₓ→c f′(x)/g′(x)</code>, provided the right‑hand limit exists (finite or infinite).</p>
-  <ul>
-    <li>Repeated application is allowed until a determinate form emerges.</li>
-    <li>Typical pitfalls: forgetting to verify the differentiability condition or applying the rule to non‑indeterminate expressions.</li>
-  </ul>
-
-  <h4>5. Continuity – Definitions and Types</h4>
-  <p>For a function <em>f</em> defined on a set D, <strong>continuity at a point c∈D</strong> means:</p>
-  <ul>
-    <li>c belongs to the domain of f.</li>
-    <li><code>limₓ→c f(x) exists.</code></li>
-    <li><code>limₓ→c f(x) = f(c)</code>.</li>
-  </ul>
-  <p>These three conditions are often remembered as the “<strong>three‑point test</strong>”.</p>
-
-  <h4>5.1. Types of Continuity</h4>
-  <ul>
-    <li><strong>Pointwise continuity</strong>: Holds at a single point c.</li>
-    <li><strong>Uniform continuity</strong>: For every ε > 0 there exists a δ > 0 (independent of the point) such that |x‑y| < δ ⇒ |f(x)‑f(y)| < ε for all x, y in the domain. The Heine–Cantor theorem guarantees that any continuous function on a closed, bounded interval [a,b] (a compact set) is uniformly continuous.</li>
-    <li><strong>Continuity on intervals</strong>: A function is continuous on an interval I if it is continuous at every point of I.</li>
-    <li><strong>Discontinuities</strong>:
-      <ul>
-        <li><strong>Removable</strong> – limit exists but f(c) is either undefined or differs from the limit.</li>
-        <li><strong>Jump (or step)</strong> – left‑hand and right‑hand limits exist but are unequal.</li>
-        <li><strong>Essential (or infinite)</strong> – at least one of the one‑sided limits diverges to ±∞.</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h4>5.2. Important Theorems Involving Continuity</h4>
-  <ul>
-    <li><strong>Intermediate Value Theorem (IVT)</strong> (Bolzano, 1817): If f is continuous on [a,b] and k lies between f(a) and f(b), then there exists at least one c∈(a,b) such that f(c)=k.</li>
-    <li><strong>Extreme Value Theorem (EVT)</strong> (Weierstrass, 1885): A continuous function on a closed interval attains its maximum and minimum.</li>
-    <li><strong>Mean Value Theorem (MVT)</strong> (Cauchy, 1823): If f is continuous on [a,b] and differentiable on (a,b), ∃c∈(a,b) such that f′(c)= (f(b)‑f(a))/(b‑a).</li>
-    <li><strong>Fundamental Theorem of Calculus (FTC)</strong> (Newton & Leibniz, 1666‑1676): Links differentiation and integration; the first part guarantees the existence of an antiderivative for continuous functions, while the second part evaluates definite integrals via antiderivatives.</li>
-  </ul>
-
-  <h4>6. Continuity of Elementary Functions</h4>
-  <p>All elementary functions encountered in NDA/ CDS/ AFCAT are continuous on their natural domains:</p>
-  <ul>
-    <li><strong>Polynomials</strong> – continuous everywhere on ℝ.</li>
-    <li><strong>Rational functions</strong> – continuous on ℝ except where denominator = 0.</li>
-    <li><strong>Exponential & logarithmic functions</strong> – e<sup>x</sup> continuous ∀x; ln x continuous for x > 0.</li>
-    <li><strong>Trigonometric functions</strong> – sin x, cos x continuous ∀x; tan x continuous where cos x ≠ 0 (i.e., x ≠ (2k+1)π/2).</li>
-    <li><strong>Root functions</strong> – √x continuous for x ≥ 0; √[n]{x} continuous for x ≥ 0 when n even, and for all x when n odd.</li>
-  </ul>
-
-  <h4>7. Practical Techniques for Evaluating Limits</h4>
-  <p>Exam‑oriented strategies help to avoid algebraic pitfalls:</p>
+  <h4><strong>6. Deriving the Limit of $\displaystyle\frac{\sin x}{x}$ as $x\to0$ from First Principles</strong></h4>
+  <p>The result $$\lim_{x\to0}\frac{\sin x}{x}=1$$ is a cornerstone of calculus and can be proved using the <strong>Squeeze Theorem</strong> together with geometric reasoning on the unit circle.</p>
   <ol>
-    <li><strong>Direct Substitution</strong>: If f is continuous at c, substitute directly.</li>
-    <li><strong>Factorisation</strong>: Cancel common factors causing 0/0.</li>
-    <li><strong>Rationalising</strong>: Multiply numerator and denominator by the conjugate for radicals.</li>
-    <li><strong>Series Expansion</strong>: Use the first two terms of the Taylor/Maclaurin series for sin x, cos x, e<sup>x</sup>, ln(1+x) around 0 to simplify indeterminate forms.</li>
-    <li><strong>Change of Variable</strong>: Set t = x‑c to centre the limit at 0.</li>
-    <li><strong>Bounding (Squeeze) Method</strong>: Identify two simpler functions that trap the target function.</li>
-    <li><strong>Logarithmic Transformation</strong>: For power‑type indeterminate forms, take natural logs and revert after solving.</li>
+    <li>Consider a unit circle centred at the origin. For $0<x<\frac{\pi}{2}$, the areas satisfy $$\frac12\,x\;<\;\frac12\,\sin x\;<\;\frac12\,\tan x$$ because the sector area $=\frac12x$, the triangle area $=\frac12\sin x$, and the larger triangle area $=\frac12\tan x$.</li>
+    <li>Dividing each term by $\frac12\sin x$ gives $$\frac{x}{\sin x}<1<\frac{\tan x}{\sin x}=\frac{x}{\cos x}.$$</li>
+    <li>Taking reciprocals (which reverses the inequality) yields $$\cos x<\frac{\sin x}{x}<1.$$</li>
+    <li>Since $\displaystyle\lim_{x\to0}\cos x=1$, by the <strong>Squeeze Theorem</strong> we conclude $$\lim_{x\to0}\frac{\sin x}{x}=1.$$</li>
+  </ol>
+  <div class="important-box" style="background:#2a2e3d; padding:10px; border-left:4px solid var(--accent); margin:12px 0;">
+    <strong>Note:</strong> The same argument works for $x\to0$ from the negative side because both $\sin x$ and $x$ change sign simultaneously, preserving the ratio.
+  </div>
+
+  <h4><strong>7. L’Hôpital’s Rule – Statement and Proof Sketch</strong></h4>
+  <p>When a limit yields an indeterminate form $\frac{0}{0}$ or $\frac{\infty}{\infty}$, <strong>L’Hôpital’s Rule</strong> allows differentiation of numerator and denominator:</p>
+  $$\lim_{x\to c}\frac{f(x)}{g(x)}=\lim_{x\to c}\frac{f'(x)}{g'(x)}\quad\text{provided the right‑hand limit exists.}$$
+  <p>**Proof Sketch (using Cauchy’s Mean Value Theorem):**</p>
+  <ol>
+    <li>Assume $f(c)=g(c)=0$ and $g'(x)\neq0$ near $c$.</li>
+    <li>For $x\neq c$, apply Cauchy’s Mean Value Theorem on $[c,x]$ to obtain a point $\xi$ with $$\frac{f(x)-f(c)}{g(x)-g(c)}=\frac{f'(\xi)}{g'(\xi)}.$$</li>
+    <li>Since $f(c)=g(c)=0$, this reduces to $$\frac{f(x)}{g(x)}=\frac{f'(\xi)}{g'(\xi)}.$$</li>
+    <li>As $x\to c$, $\xi\to c$; taking limits yields the rule.</li>
   </ol>
 
-  <h4>8. Common Pitfalls & How to Avoid Them</h4>
+  <h4><strong>8. Continuity Theorems of Practical Relevance</strong></h4>
   <ul>
-    <li>Assuming continuity without checking the domain – e.g., treating 1/ (x‑2) as continuous at x=2 leads to a false limit.</li>
-    <li>Misapplying L'Hôpital's Rule to limits that are already determinate (e.g., limit of a constant).</li>
-    <li>Neglecting one‑sided limits when the function is defined only on one side of c (e.g., √x at x=0).</li>
-    <li>Overlooking the requirement that the derivative of the denominator must not be zero in the neighbourhood of the point of interest.</li>
-    <li>Confusing “uniform continuity” with “continuity”. Uniform continuity is a stronger condition and is not guaranteed on open intervals.</li>
+    <li><strong>Intermediate Value Theorem (IVT):</strong> If $f$ is continuous on $[a,b]$ and $k$ lies between $f(a)$ and $f(b)$, then there exists $c\in(a,b)$ such that $f(c)=k$.</li>
+    <li><strong>Extreme Value Theorem (EVT):</strong> A continuous function on a closed, bounded interval $[a,b]$ attains its maximum and minimum.</li>
+    <li><strong>Uniform Continuity on Closed Intervals:</strong> Any function continuous on $[a,b]$ is uniformly continuous; i.e., $\forall\varepsilon>0,\;\exists\delta>0$ independent of the point.</li>
   </ul>
 
-  <h4>9. Historical Milestones in the Development of Limits</h4>
-  <p>A concise timeline aids memory for interview‑type questions:</p>
+  <h4><strong>9. Common Mistakes</strong></h4>
   <ul>
-    <li>1687 – Isaac [[Newton]] publishes the *Principia*, introducing infinitesimal methods.</li>
-    <li>1675 – Gottfried Wilhelm [[Leibniz]] independently develops differential calculus, coining the notation <em>dx</em> and <em>dy</em>.</li>
-    <li>1821 – [[Cauchy]] formalises the ε‑δ definition in his “Cours d'Analyse”.</li>
-    <li>1861 – [[Karl Weierstrass]] provides the modern rigorous foundation, emphasizing uniform convergence.</li>
-    <li>1910 – Henri [[Lebesgue]] extends the notion of integration, influencing modern limit theory.</li>
+    <li><strong>Confusing “limit exists” with “function is defined”:</strong> Students often assume $f(c)$ must be defined for a limit to exist. The definition explicitly excludes $x=c$.</li>
+    <li><strong>Misapplying limit laws to undefined expressions:</strong> The quotient law cannot be used when $\lim g(x)=0$ unless a removable discontinuity is first resolved.</li>
+    <li><strong>Neglecting one‑sided limits at points of discontinuity:</strong> At $x=0$ for $f(x)=|x|/x$, the two‑sided limit does not exist, but each one‑sided limit does.</li>
+    <li><strong>Using L’Hôpital’s Rule without verifying differentiability:</strong> The rule requires $f$ and $g$ to be differentiable near $c$ (except possibly at $c$) and $g'(x)\neq0$ in a punctured neighbourhood.</li>
   </ul>
 
-  <h4>10. Sample Worked Example (Illustrative)</h4>
-  <p><strong>Problem:</strong> Evaluate <code>limₓ→0 (1‑cos x)/x²</code>.</p>
-  <p><strong>Solution:</strong></p>
+  <h4><strong>10. Shortcuts & Tricks for Competitive Exams</strong></h4>
   <ol>
-    <li>Recognise the indeterminate form 0/0.</li>
-    <li>Apply the trigonometric identity <code>1‑cos x = 2 sin²(x/2)</code>.</li>
-    <li>Rewrite the limit: <code>limₓ→0 2 sin²(x/2) / x² = 2·[limₓ→0 (sin(x/2)/(x/2))]²·( (x/2)² / x² )</code>.</li>
-    <li>Since <code>limₓ→0 sin u / u = 1</code>, the first factor tends to 1.</li>
-    <li>Compute the remaining algebra: <code>( (x/2)² / x² ) = (1/4)</code>.</li>
-    <li>Therefore, limit = 2·1²·(1/4) = ½.</li>
+    <li><strong>Standard Limits Memorization:</strong> Keep a table of the five most frequently occurring limits (e.g., $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$, $\displaystyle\lim_{x\to0}\frac{1-\cos x}{x^{2}}=\frac12$, $\displaystyle\lim_{x\to0}(1+x)^{1/x}=e$, $\displaystyle\lim_{x\to\infty}\left(1+\frac{a}{x}\right)^{x}=e^{a}$, $\displaystyle\lim_{x\to0}\frac{\ln(1+x)}{x}=1$). Quick recall saves minutes.</li>
+    <li><strong>Factorisation & Cancellation:</strong> When a limit yields $0/0$, factor common terms (e.g., $x^{2}-4=(x-2)(x+2)$) before applying L’Hôpital.</li>
+    <li><strong>Rationalising Numerators/Denominators:</strong> Multiply by the conjugate to eliminate radicals, e.g., $$\lim_{x\to0}\frac{\sqrt{x+1}-1}{x}=\lim_{x\to0}\frac{(\sqrt{x+1}-1)(\sqrt{x+1}+1)}{x(\sqrt{x+1}+1)}=\lim_{x\to0}\frac{x}{x(\sqrt{x+1}+1)}=\frac{1}{2}.$$</li>
+    <li><strong>Series Expansion Shortcut:</strong> Use the first two non‑zero terms of the Taylor series for small $x$; e.g., $\sin x\approx x-\frac{x^{3}}{6}$, $\ln(1+x)\approx x-\frac{x^{2}}{2}$.</li>
+    <li><strong>Change of Variable:</strong> Substitute $x=c+h$ to shift the point of approach to $h\to0$, simplifying algebraic manipulation.</li>
   </ol>
-  <p>Result: <code>limₓ→0 (1‑cos x)/x² = ½</code>. This classic limit often appears in velocity‑acceleration problems in defence physics.</p>
 
-  <h4>11. Continuity in Piecewise Functions – A Checklist</h4>
-  <p>When dealing with piecewise definitions, verify continuity at each junction point:</p>
+  <h4><strong>11. Worked Example 1 – Evaluating a Tricky Rational Limit</strong></h4>
+  <p><strong>Problem:</strong> Find $$\lim_{x\to2}\frac{x^{3}-8}{x^{2}-4}.$$</p>
+  <ol>
+    <li>Direct substitution gives $0/0$, an indeterminate form.</li>
+    <li>Factor numerator and denominator:</li>
+    $$x^{3}-8=(x-2)(x^{2}+2x+4),\qquad x^{2}-4=(x-2)(x+2).$$
+    <li>Cancel the common factor $(x-2)$ (valid for $x\neq2$):</li>
+    $$\frac{x^{3}-8}{x^{2}-4}=\frac{x^{2}+2x+4}{x+2}.$$
+    <li>Now substitute $x=2$:</li>
+    $$\frac{2^{2}+2\cdot2+4}{2+2}=\frac{4+4+4}{4}= \frac{12}{4}=3.$$
+  </ol>
+  <p>Thus $$\boxed{\displaystyle\lim_{x\to2}\frac{x^{3}-8}{x^{2}-4}=3}.$$</p>
+
+  <h4><strong>12. Worked Example 2 – Limit Involving an Exponential and a Polynomial</strong></h4>
+  <p><strong>Problem:</strong> Evaluate $$\lim_{x\to0}\frac{e^{x}-1-\;x}{x^{2}}.$$</p>
+  <ol>
+    <li>Observe that direct substitution yields $0/0$, so we need a deeper approach.</li>
+    <li>Use the Taylor series of $e^{x}$ about $x=0$: $$e^{x}=1+x+\frac{x^{2}}{2}+\frac{x^{3}}{6}+O(x^{4}).$$</li>
+    <li>Subtract $1+x$ from both sides:</li>
+    $$e^{x}-1-x=\frac{x^{2}}{2}+\frac{x^{3}}{6}+O(x^{4}).$$
+    <li>Divide by $x^{2}$:</li>
+    $$\frac{e^{x}-1-x}{x^{2}}=\frac12+\frac{x}{6}+O(x^{2}).$$
+    <li>Take the limit as $x\to0$: the terms containing $x$ vanish, leaving $$\boxed{\displaystyle\frac12}.$$</li>
+  </ol>
+
+  <h4><strong>13. Advanced Edge Cases – Limits Involving Oscillatory Functions</strong></h4>
+  <p>Consider $$\lim_{x\to0}x\sin\!\left(\frac{1}{x}\right).$$</p>
   <ul>
-    <li>Compute the left‑hand limit <code>limₓ→c⁻ f(x)</code>.</li>
-    <li>Compute the right‑hand limit <code>limₓ→c⁺ f(x)</code>.</li>
-    <li>Ensure the function value f(c) exists and equals the common limit.</li>
+    <li>Since $|\sin(1/x)|\le1$, we have $|x\sin(1/x)|\le|x|$.</li>
+    <li>As $x\to0$, $|x|\to0$, and by the <strong>Squeeze Theorem</strong> the limit is $0$.</li>
   </ul>
-  <p>Failure in any step indicates a discontinuity, which may be a source of “trick” questions.</p>
+  <p>Even though $\sin(1/x)$ oscillates infinitely fast, the multiplicative factor $x$ forces the product to zero – a classic illustration of how bounding arguments trump direct substitution.</p>
 
-  <h4>12. Advanced Topics (Optional for Higher Scoring)</h4>
+  <h4><strong>14. Historical Context – Evolution of the Limit Concept</strong></h4>
+  <p>The modern $\varepsilon$‑$\delta$ formalism was crystallised by <strong>Augustin-Louis Cauchy</strong> (1821) and later refined by <strong>Karl Weierstrass</strong> (late 19th century). Prior to this, mathematicians such as <strong>Newton</strong> and <strong>Leibniz</strong> used intuitive notions of infinitesimals, which later gave rise to the rigorous approach required for analysis and consequently for the rigorous treatment of continuity.</p>
+
+  <h4><strong>15. Real‑World Applications in Defence‑Related Engineering</strong></h4>
   <ul>
-    <li><strong>Continuity of Inverse Functions</strong>: If f is continuous and strictly monotonic on an interval, its inverse f⁻¹ is also continuous on the image interval.</li>
-    <li><strong>Limits involving sequences</strong>: The limit of a function as x→c can be examined through sequences {xₙ} converging to c (Heine’s definition). This viewpoint is useful for proving discontinuities.</li>
-    <li><strong>Topological Perspective</strong>: In metric spaces, continuity is equivalent to the pre‑image of every open set being open. While not directly examined, this concept underpins many proofs.</li>
+    <li><strong>Trajectory Modelling:</strong> Continuity of position, velocity, and acceleration functions guarantees the existence of intermediate positions, essential for missile guidance algorithms.</li>
+    <li><strong>Signal Processing:</strong> Limits are used to evaluate the behaviour of filter transfer functions as frequency approaches critical points (e.g., $s\to0$ for low‑frequency gain).</li>
+    <li><strong>Structural Dynamics:</strong> Continuity of stress‑strain relationships ensures that small perturbations in load do not cause discontinuous jumps in deformation, a principle embedded in finite‑element analysis.</li>
   </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>Limit of <code>(sin x)/x</code> as x→0 equals <strong>1</strong> – a must‑remember Squeeze Theorem result.</li>
-      <li>For any polynomial P(x), <code>limₓ→c P(x) = P(c)</code> because polynomials are continuous everywhere.</li>
-      <li>L'Hôpital's Rule can be applied repeatedly; each application must still satisfy the 0/0 or ∞/∞ condition.</li>
-      <li>Uniform continuity on a closed interval [a,b] is guaranteed for every continuous function (Heine–Cantor theorem).</li>
-      <li>Intermediate Value Theorem ensures that a continuous function on [a,b] takes every value between f(a) and f(b).</li>
-      <li>A removable discontinuity can be “fixed” by redefining f(c) to equal the limit value.</li>
-      <li>When evaluating limits at infinity, compare the highest‑degree terms of numerator and denominator.</li>
-      <li>For piecewise functions, continuity at the junction point requires matching left‑hand limit, right‑hand limit, and the defined value.</li>
+      <li>$$\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$$ is the only trigonometric limit you must memorize.</li>
+      <li>For any polynomial $P(x)$, $$\displaystyle\lim_{x\to\infty}P(x)=\begin{cases}+\infty,&\text{if leading coefficient}>0\\-\infty,&\text{if leading coefficient}<0\end{cases}$$</li>
+      <li>The limit $$\displaystyle\lim_{x\to\infty}\left(1+\frac{a}{x}\right)^{x}=e^{a}$$ is frequently used in exponential growth questions.</li>
+      <li>When faced with $0/0$, first attempt factorisation or rationalisation before invoking L’Hôpital’s Rule.</li>
+      <li>Removable discontinuities become continuous after redefining $f(c)$ to equal the limit.</li>
+      <li>Uniform continuity on a closed interval $[a,b]$ guarantees a single $\delta$ works for all points – useful for error‑bound estimates.</li>
+      <li>In a limit involving $\ln(1+x)$, the leading term is $x$; thus $$\displaystyle\lim_{x\to0}\frac{\ln(1+x)}{x}=1.$$</li>
+      <li>For limits of the form $\displaystyle\frac{\infty}{\infty}$, L’Hôpital’s Rule applies only after confirming differentiability of numerator and denominator.</li>
     </ul>
   </div>
 </div>
@@ -1543,183 +2298,283 @@ EXPANDED_NOTES_DATA["differentiation"] = `
     Differentiation Rules
   </h3>
 
-  <h4>1. Historical Foundations</h4>
-  <p>The birth of differential calculus is credited to the parallel discoveries of <strong><a href="https://en.wikipedia.org/wiki/Isaac_Newton">[[Isaac Newton]]</a></strong> (1666) and <strong><a href="https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz">[[Gottfried Wilhelm Leibniz]]</a></strong> (1675). Their notation diverged—Newton’s “fluxions” (denoted by a dot) versus Leibniz’s <em>dx/dy</em>—but the underlying concept of an instantaneous rate of change remained identical.</p>
-
-  <h4>2. Core Definition of Derivative</h4>
-  <p>The <strong>derivative</strong> of a function <strong>f(x)</strong> at a point <strong>x = a</strong> is defined as the limit</p>
-  <p style="text-align:center;"><strong>f'(a) = \displaystyle\lim_{h\to0}\frac{f(a+h)-f(a)}{h}</strong></p>
-  <p>When this limit exists, the function is said to be <strong>differentiable</strong> at <strong>a</strong>. The derivative function <strong>f'(x)</strong> captures the slope of the tangent to the curve <strong>y = f(x)</strong> at any point where it exists.</p>
-
-  <h4>3. Basic Differentiation Rules</h4>
+  <h4><strong>1. Fundamental Definition of Derivative</strong></h4>
+  <p>The derivative of a function <strong>f</strong> at a point <strong>x = a</strong> is defined as the limit of the difference quotient:</p>
+  $$\displaystyle f'(a)=\lim_{h\to0}\frac{f(a+h)-f(a)}{h}$$
   <ul>
-    <li><strong>Constant Rule</strong>: <strong>\frac{d}{dx}[c] = 0</strong> for any constant <strong>c</strong>.</li>
-    <li><strong>Power Rule</strong>: <strong>\frac{d}{dx}[x^n] = n x^{n-1}</strong>, valid for any real <strong>n</strong>. Originated from Newton’s binomial expansion.</li>
-    <li><strong>Constant Multiple Rule</strong>: <strong>\frac{d}{dx}[k·f(x)] = k·f'(x)</strong>, where <strong>k</strong> is a constant.</li>
+    <li><strong>f</strong> – the original function (must be defined in a neighbourhood of <strong>a</strong>).</li>
+    <li><strong>h</strong> – an infinitesimal increment approaching zero.</li>
+    <li>Existence of this limit is equivalent to <strong>f</strong> being <[[Differentiability]]> at <strong>a</strong>.</li>
+  </ul>
+  <p>From the definition, one can derive the basic rules by manipulating the limit algebraically. The following sections show those derivations.</p>
+
+  <h4><strong>2. Basic Rules (Constant, Power, Sum/Difference)</strong></h4>
+  <div class="important-box" style="background:#1e1e2f; border-left:4px solid var(--accent); padding:10px; margin:12px 0;">
+    <strong>Key Distinction:</strong> The <em>derivative</em> $f'(x)$ gives the instantaneous rate of change, whereas the <em>differential</em> $df$ is the linear approximation $df = f'(x)\,dx$.
+  </div>
+
+  <ol>
+    <li><strong>Constant Rule</strong> – If <strong>c</strong> is a constant, then $$(\displaystyle \frac{d}{dx}c)=0.$$  
+        <ul>
+          <li>Reason: $c$ does not change with $x$, so the difference quotient is zero.</li>
+        </ul>
+    </li>
+
+    <li><strong>Power Rule</strong> – For any real number $n$, $$\displaystyle \frac{d}{dx}\bigl(x^{\,n}\bigr)=n\,x^{\,n-1}.$$  
+        <ul>
+          <li>Derivation from first principles (for $n\in\mathbb{N}$):  
+            $$\begin{aligned}
+            \frac{d}{dx}x^{n}&=\lim_{h\to0}\frac{(x+h)^{n}-x^{n}}{h}\\
+            &=\lim_{h\to0}\frac{\sum_{k=0}^{n}\binom{n}{k}x^{n-k}h^{k}-x^{n}}{h}\\
+            &=\lim_{h\to0}\frac{n x^{n-1}h+\binom{n}{2}x^{n-2}h^{2}+\cdots+h^{n}}{h}\\
+            &=n x^{n-1}+\underbrace{\binom{n}{2}x^{n-2}h+\cdots}_{\to0}=n x^{n-1}.
+            \end{aligned}$$
+          </li>
+          <li>For $n$ rational or negative, extend using continuity of the derivative and the rule for $x^{-1}$ (see Quotient Rule).</li>
+          <li>Constraints: $x>0$ when $n$ is a non‑integer real to keep $x^{n}$ real.</li>
+        </ul>
+    </li>
+
+    <li><strong>Sum/Difference Rule</strong> – If $u(x)$ and $v(x)$ are differentiable, then  
+      $$\displaystyle \frac{d}{dx}\bigl[u(x)\pm v(x)\bigr]=u'(x)\pm v'(x).$$  
+      <ul>
+        <li>Derivation follows directly from linearity of limits.</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h4><strong>3. Product Rule (Leibniz Rule)</strong></h4>
+  <p>For two differentiable functions $u(x)$ and $v(x)$:</p>
+  $$\displaystyle \frac{d}{dx}\bigl[u(x)v(x)\bigr]=u'(x)v(x)+u(x)v'(x).$$
+  <ul>
+    <li>Derivation from first principles:  
+      $$\begin{aligned}
+      \frac{d}{dx}[uv]&=\lim_{h\to0}\frac{u(x+h)v(x+h)-u(x)v(x)}{h}\\
+      &=\lim_{h\to0}\frac{u(x+h)v(x+h)-u(x)v(x+h)+u(x)v(x+h)-u(x)v(x)}{h}\\
+      &=\lim_{h\to0}\Bigl[\frac{u(x+h)-u(x)}{h}v(x+h)+u(x)\frac{v(x+h)-v(x)}{h}\Bigr]\\
+      &=u'(x)v(x)+u(x)v'(x).
+      \end{aligned}$$
+    </li>
+    <li>Constraints: Both $u$ and $v$ must be differentiable at the point of interest.</li>
   </ul>
 
-  <h4>4. Product, Quotient, and Chain Rules</h4>
-  <p>These three rules constitute the backbone of differentiation in exam problems.</p>
+  <h4><strong>4. Quotient Rule</strong></h4>
+  <p>If $u(x)$ and $v(x)$ are differentiable and $v(x)\neq0$, then</p>
+  $$\displaystyle \frac{d}{dx}\Bigl(\frac{u(x)}{v(x)}\Bigr)=\frac{u'(x)v(x)-u(x)v'(x)}{[v(x)]^{2}}.$$
+  <ul>
+    <li>Derivation using the product rule with $v^{-1}(x)$:  
+      $$\frac{d}{dx}\bigl[u\cdot v^{-1}\bigr]=u'v^{-1}+u\bigl(-v^{-2}v'\bigr)=\frac{u'v-u v'}{v^{2}}.$$
+    </li>
+    <li>Constraint: $v(x)\neq0$ to avoid division by zero.</li>
+  </ul>
 
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <thead>
-      <tr style="background:#222;color:#fff;">
-        <th style="border:1px solid #555;padding:6px;">Rule</th>
-        <th style="border:1px solid #555;padding:6px;">Formula</th>
-        <th style="border:1px solid #555;padding:6px;">Typical Use‑Case</th>
+  <h4><strong>5. Chain Rule (Composite Functions)</strong></h4>
+  <p>For a composite function $y=f(g(x))$, where $f$ and $g$ are differentiable,</p>
+  $$\displaystyle \frac{dy}{dx}=f'\bigl(g(x)\bigr)\cdot g'(x).$$
+  <ul>
+    <li>Derivation using limits:  
+      $$\begin{aligned}
+      \frac{dy}{dx}&=\lim_{h\to0}\frac{f(g(x+h))-f(g(x))}{h}\\
+      &=\lim_{h\to0}\frac{f(g(x)+\Delta g)-f(g(x))}{\Delta g}\cdot\frac{\Delta g}{h}\\
+      &=f'(g(x))\cdot g'(x),
+      \end{aligned}$$
+      where $\Delta g=g(x+h)-g(x)\to0$ as $h\to0$.
+    </li>
+    <li>Often written as $dy/dx = (dy/du)(du/dx)$ with $u=g(x)$.</li>
+    <li>Constraint: Both inner and outer functions must be differentiable at the relevant points.</li>
+  </ul>
+
+  <h4><strong>6. Differentiation of Special Functions</strong></h4>
+  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
+    <thead style="background:#2a2a3c;">
+      <tr>
+        <th style="border:1px solid var(--border); padding:6px;">Function</th>
+        <th style="border:1px solid var(--border); padding:6px;">Derivative</th>
+        <th style="border:1px solid var(--border); padding:6px;">Conditions / Remarks</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="border:1px solid #555;padding:6px;"><strong>Product Rule</strong> (<a href="https://en.wikipedia.org/wiki/Chain_rule">[[Chain rule]]</a> variant)</td>
-        <td style="border:1px solid #555;padding:6px;"><strong>\frac{d}{dx}[u·v] = u'·v + u·v'</strong></td>
-        <td style="border:1px solid #555;padding:6px;">Differentiating <strong>u(x)v(x)</strong> where both factors depend on <strong>x</strong>.</td>
+        <td style="border:1px solid var(--border); padding:6px;"><strong>Exponential</strong> $e^{x}$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$e^{x}$</td>
+        <td style="border:1px solid var(--border); padding:6px;">Valid for all real $x$.</td>
       </tr>
       <tr>
-        <td style="border:1px solid #555;padding:6px;"><strong>Quotient Rule</strong></td>
-        <td style="border:1px solid #555;padding:6px;"><strong>\frac{d}{dx}\!\left[\frac{u}{v}\right] = \frac{u'v - uv'}{v^{2}}</strong></td>
-        <td style="border:1px solid #555;padding:6px;">When a function appears as a ratio of two differentiable functions.</td>
+        <td style="border:1px solid var(--border); padding:6px;">$a^{x}$, $a>0$, $a\neq1$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$a^{x}\ln a$</td>
+        <td style="border:1px solid var(--border); padding:6px;">Use natural log for base change.</td>
       </tr>
       <tr>
-        <td style="border:1px solid #555;padding:6px;"><strong>Chain Rule</strong></td>
-        <td style="border:1px solid #555;padding:6px;"><strong>\frac{d}{dx}[f(g(x))] = f'(g(x))·g'(x)</strong></td>
-        <td style="border:1px solid #555;padding:6px;">Composite functions such as <strong>sin(x^2)</strong> or <strong>e^{\ln x}</strong>.</td>
+        <td style="border:1px solid var(--border); padding:6px;">Natural log $\ln x$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$\displaystyle\frac{1}{x}$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$x>0$.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid var(--border); padding:6px;">$\log_{a}x$, $a>0$, $a\neq1$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$\displaystyle\frac{1}{x\ln a}$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$x>0$.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid var(--border); padding:6px;">$\sin x$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$\cos x$</td>
+        <td style="border:1px solid var(--border); padding:6px;">All real $x$.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid var(--border); padding:6px;">$\cos x$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$-\sin x$</td>
+        <td style="border:1px solid var(--border); padding:6px;">All real $x$.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid var(--border); padding:6px;">$\tan x$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$\sec^{2}x$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$x\neq\frac{\pi}{2}+k\pi$.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid var(--border); padding:6px;">$\csc x$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$-\,\csc x\cot x$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$x\neq k\pi$.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid var(--border); padding:6px;">$\sec x$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$\sec x\tan x$</td>
+        <td style="border:1px solid var(--border); padding:6px;">$x\neq\frac{\pi}{2}+k\pi$.</td>
       </tr>
     </tbody>
   </table>
 
-  <h4>5. Differentiation of Elementary Functions</h4>
-  <p>Mastering the derivatives of standard functions is essential for speed.</p>
+  <h4><strong>7. Implicit Differentiation</strong></h4>
+  <p>When a relation $F(x,y)=0$ defines $y$ implicitly as a function of $x$, differentiate both sides with respect to $x$, treating $y$ as a function $y(x)$:</p>
+  $$\displaystyle \frac{d}{dx}F(x,y)=F_{x}+F_{y}\,y'=0\quad\Longrightarrow\quad y'=-\frac{F_{x}}{F_{y}}.$$
   <ul>
-    <li><strong>Exponential Functions</strong>: <strong>\frac{d}{dx}[e^{x}] = e^{x}</strong>. For a general base <strong>a>0</strong>, <strong>\frac{d}{dx}[a^{x}] = a^{x}\ln a</strong>. <strong>[[Euler's number]]</strong> <strong>e ≈ 2.71828</strong> is the unique base whose derivative equals itself.</li>
-    <li><strong>Logarithmic Functions</strong>: <strong>\frac{d}{dx}[\ln x] = \frac{1}{x}</strong> for <strong>x>0</strong>. For any base <strong>a</strong>, <strong>\frac{d}{dx}[\log_{a}x] = \frac{1}{x\ln a}</strong>.</li>
-    <li><strong>Trigonometric Functions</strong> (in radian measure):
+    <li>Notation: $F_{x}=\partial F/\partial x$, $F_{y}=\partial F/\partial y$.</li>
+    <li>Example: For $x^{2}+y^{2}=25$, $2x+2y\,y'=0\Rightarrow y'=-\dfrac{x}{y}$.</li>
+  </ul>
+
+  <h4><strong>8. Higher‑Order Derivatives</strong></h4>
+  <p>The $n^{\text{th}}$ derivative is denoted $f^{(n)}(x)$ and defined recursively as $f^{(n)}(x)=\dfrac{d}{dx}\bigl[f^{(n-1)}(x)\bigr]$, with $f^{(0)}(x)=f(x)$. Important results:</p>
+  <ul>
+    <li>For $f(x)=e^{ax}$, $f^{(n)}(x)=a^{n}e^{ax}$.</li>
+    <li>For $f(x)=\sin bx$, $f^{(n)}(x)=b^{n}\sin\!\bigl(bx+\tfrac{n\pi}{2}\bigr)$.</li>
+    <li>Polynomials of degree $m$ vanish after the $(m+1)^{\text{th}}$ derivative.</li>
+  </ul>
+
+  <h4><strong>9. Common Mistakes</strong></h4>
+  <ul>
+    <li><strong>Neglecting the chain rule</strong> when differentiating composite functions – e.g., treating $\sin(x^{2})$ as $\cos x^{2}$ instead of $2x\cos(x^{2})$.</li>
+    <li><strong>Sign error in the quotient rule</strong> – the numerator must be $u'v-u v'$; many write $u'v+uv'$.</li>
+    <li><strong>Applying the power rule to non‑integer exponents without checking domain</strong> – $x^{1/2}$ is undefined for $x<0$ in the real system.</li>
+    <li><strong>Forgetting to multiply by the derivative of the inner function</strong> in implicit differentiation – e.g., differentiating $y^{3}=x$ as $3y^{2}y'=1$ (correct) versus $3y^{2}=1$ (incorrect).</li>
+  </ul>
+
+  <h4><strong>10. Shortcuts & Tricks for Competitive Exams</strong></h4>
+  <ol>
+    <li><strong>Log‑Differentiation</strong> – For $y = [f(x)]^{g(x)}$, take natural logs: $\ln y = g(x)\ln f(x)$, then differentiate: $\displaystyle \frac{y'}{y}=g'(x)\ln f(x)+g(x)\frac{f'(x)}{f(x)}$. Finally, $y' = y\bigl[g'(x)\ln f(x)+g(x)\frac{f'(x)}{f(x)}\bigr]$.</li>
+    <li><strong>Pattern Recognition</strong> – Memorize derivative cycles for trigonometric and inverse trigonometric functions; e.g., $\displaystyle \frac{d}{dx}\arcsin x =\frac{1}{\sqrt{1-x^{2}}}$, $\displaystyle \frac{d}{dx}\arccos x =-\frac{1}{\sqrt{1-x^{2}}}$.</li>
+    <li><strong>Using Symmetry</strong> – For even/odd functions, derivatives inherit parity: derivative of an even function is odd, and vice‑versa. This helps quickly determine sign of the answer.</li>
+    <li><strong>Quick Quotient Rule via Product Rule</strong> – Rewrite $\dfrac{u}{v}=u\cdot v^{-1}$ and apply the product rule combined with the power rule for $v^{-1}$, which often reduces algebraic clutter.</li>
+    <li><strong>Derivative of Inverse Functions</strong> – If $y=f^{-1}(x)$, then $y' = 1 / f'(y)$. Useful for functions like $y = \tan^{-1}x$ without memorizing the formula.</li>
+  </ol>
+
+  <h4><strong>11. Worked Example 1 – Composite & Product</strong></h4>
+  <p><strong>Problem:</strong> Find $\displaystyle \frac{d}{dx}\bigl[x^{3}\sin(x^{2})\bigr]$.</p>
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li>Identify the outer product: $u(x)=x^{3}$, $v(x)=\sin(x^{2})$.</li>
+    <li>Apply the <strong>Product Rule</strong>: $d(uv)=u'v+uv'$.</li>
+    <li>Compute $u' = \dfrac{d}{dx}x^{3}=3x^{2}$ using the Power Rule.</li>
+    <li>For $v'$, note $v(x)=\sin(w)$ with $w=x^{2}$. Use the <strong>Chain Rule</strong>: $v' = \cos(w)\cdot w' = \cos(x^{2})\cdot 2x = 2x\cos(x^{2})$.</li>
+    <li>Plug into the product rule:</li>
+    $$\begin{aligned}
+    \frac{d}{dx}\bigl[x^{3}\sin(x^{2})\bigr] &= (3x^{2})\sin(x^{2}) + x^{3}\bigl(2x\cos(x^{2})\bigr)\\[4pt]
+    &= 3x^{2}\sin(x^{2}) + 2x^{4}\cos(x^{2}).
+    \end{aligned}$$
+    <li>Result: $$\boxed{3x^{2}\sin(x^{2}) + 2x^{4}\cos(x^{2})}.$$</li>
+  </ol>
+
+  <h4><strong>12. Worked Example 2 – Implicit Differentiation & Higher Order</strong></h4>
+  <p><strong>Problem:</strong> For the curve defined by $x^{2}y + \ln y = 4$, find $dy/dx$ and then evaluate $\displaystyle \frac{d^{2}y}{dx^{2}}$ at the point where $x=1$ and $y=e^{3}$.</p>
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li>Differentiate both sides w.r.t. $x$:
+      $$\frac{d}{dx}\bigl(x^{2}y\bigr) + \frac{d}{dx}\bigl(\ln y\bigr) = 0.$$
+    </li>
+    <li>Apply the Product Rule to $x^{2}y$:  
+      $$\frac{d}{dx}(x^{2}y)=2x\,y + x^{2}y'.$$
+    </li>
+    <li>Differentiate $\ln y$ using Chain Rule: $\displaystyle \frac{d}{dx}\ln y = \frac{1}{y}\,y'$.</li>
+    <li>Combine:
+      $$2x\,y + x^{2}y' + \frac{y'}{y}=0.$$
+    </li>
+    <li>Collect $y'$ terms:
+      $$y'\Bigl(x^{2} + \frac{1}{y}\Bigr) = -2xy.$$
+    </li>
+    <li>Solve for $y'$:
+      $$\displaystyle y' = -\frac{2xy}{\,x^{2} + \dfrac{1}{y}\,} = -\frac{2xy}{\displaystyle x^{2} + \frac{1}{y}}.$$
+    </li>
+    <li>Insert the given point $x=1$, $y=e^{3}$:
+      $$y'_{(1,e^{3})}= -\frac{2\cdot1\cdot e^{3}}{1^{2} + e^{-3}} = -\frac{2e^{3}}{1+e^{-3}}.$$
+      Simplify by multiplying numerator and denominator by $e^{3}$:
+      $$y'_{(1,e^{3})}= -\frac{2e^{6}}{e^{3}+1}.$$
+    </li>
+    <li>For the second derivative, differentiate the expression for $y'$ implicitly again. It is easier to differentiate the earlier unsimplified equation:
+      $$2x\,y + x^{2}y' + \frac{y'}{y}=0.$$
+      Differentiate once more:
+      $$2y + 2x y' + 2x y' + x^{2} y'' + \frac{y''}{y} - \frac{y'^{2}}{y^{2}} = 0.$$
+      Combine like terms:
+      $$2y + 4x y' + x^{2} y'' + \frac{y''}{y} - \frac{y'^{2}}{y^{2}} = 0.$$
+      Solve for $y''$:
+      $$y''\Bigl(x^{2}+ \frac{1}{y}\Bigr) = -2y - 4x y' + \frac{y'^{2}}{y^{2}}.$$
+      Hence,
+      $$\displaystyle y'' = \frac{-2y - 4x y' + \dfrac{y'^{2}}{y^{2}}}{\,x^{2}+ \dfrac{1}{y}\,}.$$
+    </li>
+    <li>Insert $x=1$, $y=e^{3}$ and $y'=-\dfrac{2e^{6}}{e^{3}+1}$:
       <ul>
-        <li><strong>\frac{d}{dx}[\sin x] = \cos x</strong></li>
-        <li><strong>\frac{d}{dx}[\cos x] = -\sin x</strong></li>
-        <li><strong>\frac{d}{dx}[\tan x] = \sec^{2}x</strong></li>
-        <li><strong>\frac{d}{dx}[\cot x] = -\csc^{2}x</strong></li>
-        <li><strong>\frac{d}{dx}[\sec x] = \sec x\tan x</strong></li>
-        <li><strong>\frac{d}{dx}[\csc x] = -\csc x\cot x</strong></li>
+        <li>Compute $y'^{2}= \dfrac{4e^{12}}{(e^{3}+1)^{2}}$.</li>
+        <li>Compute each term:
+          <ul>
+            <li>$-2y = -2e^{3}$.</li>
+            <li>$-4x y' = -4\cdot1\cdot\bigl(-\dfrac{2e^{6}}{e^{3}+1}\bigr)=\dfrac{8e^{6}}{e^{3}+1}$.</li>
+            <li$\displaystyle\frac{y'^{2}}{y^{2}} = \frac{4e^{12}}{(e^{3}+1)^{2}}\cdot\frac{1}{e^{6}} = \frac{4e^{6}}{(e^{3}+1)^{2}}.$</li>
+          </ul>
+        </li>
+        <li>Denominator: $x^{2}+ \dfrac{1}{y}=1+\dfrac{1}{e^{3}}=\dfrac{e^{3}+1}{e^{3}}.$</li>
+        <li>Thus,
+          $$\begin{aligned}
+          y''_{(1,e^{3})} &= \frac{-2e^{3}+\dfrac{8e^{6}}{e^{3}+1}+ \dfrac{4e^{6}}{(e^{3}+1)^{2}}}{\dfrac{e^{3}+1}{e^{3}}}\\[6pt]
+          &= e^{3}\,\frac{-2e^{3}(e^{3}+1)^{2}+8e^{6}(e^{3}+1)+4e^{6}}{(e^{3}+1)^{2}}\\[6pt]
+          &= \boxed{\displaystyle \frac{e^{3}\bigl[-2e^{3}(e^{3}+1)^{2}+8e^{6}(e^{3}+1)+4e^{6}\bigr]}{(e^{3}+1)^{2}} }.
+          \end{aligned}$$
+        (Further algebraic simplification is possible but not required for exam‑level answer.)
       </ul>
     </li>
-    <li><strong>Inverse Trigonometric Functions</strong>:
-      <ul>
-        <li><strong>\frac{d}{dx}[\sin^{-1}x] = \frac{1}{\sqrt{1-x^{2}}}</strong> (|x|<1)</li>
-        <li><strong>\frac{d}{dx}[\cos^{-1}x] = -\frac{1}{\sqrt{1-x^{2}}}</strong></li>
-        <li><strong>\frac{d}{dx}[\tan^{-1}x] = \frac{1}{1+x^{2}}</strong></li>
-      </ul>
-    </li>
-    <li><strong>Hyperbolic Functions</strong> (useful in physics questions):
-      <ul>
-        <li><strong>\frac{d}{dx}[\sinh x] = \cosh x</strong></li>
-        <li><strong>\frac{d}{dx}[\cosh x] = \sinh x</strong></li>
-        <li><strong>\frac{d}{dx}[\tanh x] = \sech^{2}x</strong></li>
-      </ul>
-    </li>
-  </ul>
+  </ol>
 
-  <h4>6. Higher‑Order Derivatives</h4>
-  <p>When a problem asks for the <strong>second derivative</strong> (<strong>f''(x)</strong>) or higher, apply the differentiation rules repeatedly.</p>
-  <p>Typical patterns:</p>
+  <h4><strong>13. Summary of Differentiation Rules</strong></h4>
   <ul>
-    <li><strong>Polynomial of degree n</strong>: <strong>f^{(k)}(x) = 0</strong> for <strong>k>n</strong>.</li>
-    <li><strong>Exponential</strong>: All orders remain the same, e.g., <strong>\frac{d^{k}}{dx^{k}}[e^{ax}] = a^{k}e^{ax}</strong>.</li>
-    <li><strong>Trigonometric</strong>: Derivatives cycle every 4 steps (<strong>\sin → \cos → -\sin → -\cos → \sin</strong>).</li>
+    <li><strong>Constant Rule</strong> – derivative of a constant is zero.</li>
+    <li><strong>Power Rule</strong> – $d(x^{n})/dx=n x^{n-1}$ (valid for all real $n$ with domain restrictions).</li>
+    <li><strong>Sum/Difference Rule</strong> – linearity of differentiation.</li>
+    <li><strong>Product Rule</strong> – $d(uv)=u'v+uv'$.</li>
+    <li><strong>Quotient Rule</strong> – $d(u/v)=\dfrac{u'v-uv'}{v^{2}}$.</li>
+    <li><strong>Chain Rule</strong> – $d\,f(g(x))=f'(g(x))\cdot g'(x)$.</li>
+    <li><strong>Special Functions</strong> – memorise exponential, logarithmic, trigonometric, and inverse‑trigonometric derivatives.</li>
+    <li><strong>Implicit Differentiation</strong> – differentiate the whole relation, then solve for $dy/dx$.</li>
+    <li><strong>Higher‑Order Derivatives</strong> – apply rules repeatedly; many patterns repeat (e.g., sinusoidal).</li>
   </ul>
-
-  <h4>7. Implicit Differentiation</h4>
-  <p>When a function is defined implicitly, such as <strong>F(x,y)=0</strong>, differentiate both sides with respect to <strong>x</strong> treating <strong>y</strong> as a function of <strong>x</strong> (<strong>y = y(x)</strong>), then solve for <strong>dy/dx</strong>.</p>
-  <p>Example (circle of radius <strong>r</strong>):</p>
-  <p style="text-align:center;"><strong>x^{2}+y^{2}=r^{2}\;\;\Rightarrow\;\;2x+2y\frac{dy}{dx}=0\;\;\Rightarrow\;\;\frac{dy}{dx}= -\frac{x}{y}</strong></p>
-
-  <h4>8. Logarithmic Differentiation</h4>
-  <p>Useful for functions where the variable appears both as base and exponent, e.g., <strong>y = x^{x}</strong>. Take natural logs:</p>
-  <p style="text-align:center;"><strong>\ln y = x\ln x\;\;\Rightarrow\;\;\frac{1}{y}\frac{dy}{dx}= \ln x + 1\;\;\Rightarrow\;\; \frac{dy}{dx}= y(\ln x +1)=x^{x}(\ln x+1)</strong></p>
-
-  <h4>9. Differentiation of Parametric and Polar Forms</h4>
-  <ul>
-    <li><strong>Parametric Curves</strong>: If <strong>x = f(t)</strong>, <strong>y = g(t)</strong>, then <strong>\frac{dy}{dx}= \frac{dy/dt}{dx/dt}= \frac{g'(t)}{f'(t)}</strong>.</li>
-    <li><strong>Polar Coordinates</strong>: For <strong>r = r(θ)</strong>, the slope is <strong>\frac{dy}{dx}= \frac{r'\sinθ + r\cosθ}{r'\cosθ - r\sinθ}</strong>, where prime denotes derivative w.r.t. <strong>θ</strong>.</li>
-  </ul>
-
-  <h4>10. Applications in Defence‑Related Problems</h4>
-  <p>Many NDA/CDS/AFCAT problems involve motion, projectile trajectory, and optimisation. The following concepts recur:</p>
-  <ul>
-    <li><strong>Maximum Range</strong> of a projectile: Differentiate the range formula <strong>R = \frac{v^{2}}{g}\sin2θ</strong> with respect to <strong>θ</strong> to obtain <strong>θ = 45°</strong>.</li>
-    <li><strong>Maximum Height</strong>: Differentiate <strong>h(t) = v_{0}t - \frac{1}{2}gt^{2}</strong> to find the time of ascent <strong>t = v_{0}/g</strong> and substitute back.</li>
-    <li><strong>Fuel Consumption</strong>: If fuel flow <strong>F(t) = k·t^{2}</strong>, the total fuel used up to time <strong>T</strong> is the integral of <strong>F(t)</strong>, but the instantaneous rate is given directly by the derivative.</li>
-  </ul>
-
-  <h4>11. Connection with Fundamental Theorems</h4>
-  <p>The <strong>Fundamental Theorem of Calculus</strong> (proved by <strong>[[Newton]]</strong> and <strong>[[Leibniz]]</strong>) links differentiation and integration:</p>
-  <ul>
-    <li>Part I: If <strong>F(x)=\int_{a}^{x}f(t)dt</strong>, then <strong>F'(x)=f(x)</strong>.</li>
-    <li>Part II: <strong>\int_{a}^{b}f(x)dx = F(b)-F(a)</strong> where <strong>F'(x)=f(x)</strong>.</li>
-  </ul>
-
-  <h4>12. Common Pitfalls & Quick‑Check Strategies</h4>
-  <ul>
-    <li>Always verify the function is in <em>radian</em> mode before applying trig derivatives; degree mode introduces a factor of <strong>π/180</strong>.</li>
-    <li>When using the product or quotient rule, write the derivative of each factor clearly before substituting values.</li>
-    <li>For composite functions, isolate the inner function <strong>g(x)</strong> and outer function <strong>f(u)</strong>, then apply the chain rule.</li>
-    <li>Check for simplifications such as factoring common terms after differentiation; many exam questions become trivial after a simple factorisation.</li>
-  </ul>
-
-  <h4>13. Summary Table of Differentiation Rules</h4>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <thead>
-      <tr style="background:#333;color:#fff;">
-        <th style="border:1px solid #666;padding:6px;">Rule</th>
-        <th style="border:1px solid #666;padding:6px;">Formula</th>
-        <th style="border:1px solid #666;padding:6px;">Key Insight</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border:1px solid #666;padding:6px;"><strong>Constant</strong></td>
-        <td style="border:1px solid #666;padding:6px;"><strong>0</strong></td>
-        <td style="border:1px solid #666;padding:6px;">No variable, slope zero.</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #666;padding:6px;"><strong>Power</strong></td>
-        <td style="border:1px solid #666;padding:6px;"><strong>n·x^{n-1}</strong></td>
-        <td style="border:1px solid #666;padding:6px;">Exponent comes down, reduce exponent by 1.</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #666;padding:6px;"><strong>Product</strong></td>
-        <td style="border:1px solid #666;padding:6px;"><strong>u'v + uv'</strong></td>
-        <td style="border:1px solid #666;padding:6px;">Differentiate each factor once.</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #666;padding:6px;"><strong>Quotient</strong></td>
-        <td style="border:1px solid #666;padding:6px;"><strong>(u'v - uv')/v^{2}</strong></td>
-        <td style="border:1px solid #666;padding:6px;">Numerator is cross‑difference, denominator squared.</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #666;padding:6px;"><strong>Chain</strong></td>
-        <td style="border:1px solid #666;padding:6px;"><strong>f'(g(x))·g'(x)</strong></td>
-        <td style="border:1px solid #666;padding:6px;">Differentiate outer, multiply by derivative of inner.</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #666;padding:6px;"><strong>Logarithmic</strong></td>
-        <td style="border:1px solid #666;padding:6px;"><strong>\frac{1}{x} for \ln x</strong></td>
-        <td style="border:1px solid #666;padding:6px;">Useful for powers with variable exponents.</td>
-      </tr>
-    </tbody>
-  </table>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>Derivative of <strong>e^{ax}</strong> is <strong>a·e^{ax}</strong> – remember the constant multiplier.</li>
-      <li>The derivative of <strong>\sin^{-1}x</strong> is <strong>\frac{1}{\sqrt{1-x^{2}}}</strong>, a frequent trigonometric inverse question.</li>
-      <li>For a polynomial <strong>f(x)=ax^{n}</strong>, the <strong>k^{th}</strong> derivative is <strong>a·n·(n-1)…(n-k+1)·x^{n-k}</strong>.</li>
-      <li>Maximum range of a projectile occurs at <strong>θ = 45°</strong> because <strong>\frac{d}{dθ}[\sin2θ]=0</strong> → <strong>2cos2θ=0</strong>.</li>
-      <li>Implicit differentiation of a circle <strong>x^{2}+y^{2}=r^{2}</strong> yields slope <strong>-x/y</strong> – handy for geometry problems.</li>
-      <li>Logarithmic differentiation simplifies <strong>y = x^{x}</strong> to <strong>y' = x^{x}(\ln x +1)</strong>.</li>
-      <li>Chain rule for nested functions: <strong>\frac{d}{dx}[\sqrt{1+e^{x}}] = \frac{e^{x}}{2\sqrt{1+e^{x}}}</strong>.</li>
-      <li>Derivative of <strong>\tan^{-1}x</strong> is <strong>\frac{1}{1+x^{2}}</strong>, often used in integration reversal.</li>
+      <li>Derivative of $e^{ax}$ is $a\,e^{ax}$ – remember the constant factor $a$.</li>
+      <li>For $y=\sin(ax+b)$, $dy/dx = a\cos(ax+b)$ – the inner coefficient $a$ always multiplies the outer derivative.</li>
+      <li>The derivative of $\ln|x|$ is $1/x$ (valid for $x\neq0$) – absolute value removes sign issues.</li>
+      <li>Product rule shortcut: treat $v^{-1}$ as a power and use $d(v^{-1})=-v^{-2}v'$.</li>
+      <li>Log‑differentiation is essential for functions of the form $[f(x)]^{g(x)}$ – reduces them to sums.</li>
+      <li>When differentiating $y^{n}$ implicitly, differentiate as $n y^{n-1} y'$ – never forget the extra $y'$.</li>
+      <li>Higher‑order derivative of a polynomial of degree $m$ becomes zero after the $(m+1)^{\text{th}}$ derivative.</li>
+      <li>Chain rule can be memorised as “outer derivative × inner derivative” – a common exam mnemonic.</li>
+      <li>Derivative of inverse function $y=f^{-1}(x)$ is $1/f'(y)$ – useful for $\tan^{-1}x$, $\sin^{-1}x$, etc.</li>
+      <li>Always check domain restrictions (e.g., $x>0$ for $\ln x$, $x\neq\frac{\pi}{2}+k\pi$ for $\sec x$) before writing final answer.</li>
     </ul>
   </div>
 </div>
@@ -1731,182 +2586,216 @@ EXPANDED_NOTES_DATA["integration"] = `
     Standard Integration Methods
   </h3>
 
-  <h4><strong>1. Foundations of Integration</strong></h4>
-  <p>The process of finding an <strong>antiderivative</strong> (or <em>integranda</em>) is governed by the <strong><a href="https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus">Fundamental Theorem of Calculus</a></strong> (often called the <strong>Newton‑Leibniz theorem</strong> [[Newton-Leibniz theorem]]). For a continuous function <em>f(x)</em> on <em>[a,b]</em>:</p>
+  <h4>1. <strong>Fundamental Concepts</strong></h4>
   <ul>
-    <li><strong>First Part:</strong> <em>F(x)=\int_{a}^{x}f(t)\,dt</em> satisfies <em>F'(x)=f(x)</em>.</li>
-    <li><strong>Second Part:</strong> <em>\int_{a}^{b}f(x)\,dx = F(b)-F(a)</em>, where <em>F</em> is any antiderivative of <em>f</em>.</li>
+    <li><strong>Indefinite Integral</strong> – the family of antiderivatives of a function <em>f(x)</em>. It is denoted by 
+      $$\int f(x)\,dx = F(x) + C,$$ 
+      where <strong>F′(x)=f(x)</strong> and <strong>C</strong> is the arbitrary constant.</li>
+    <li><strong>Definite Integral</strong> – the signed area under the curve of <em>f(x)</em> between limits <strong>a</strong> and <strong>b</strong>. Expressed as 
+      $$\int_{a}^{b} f(x)\,dx = F(b)-F(a),$$ 
+      which follows directly from the <strong><a href="https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus" target="_blank">Fundamental Theorem of Calculus</a></strong> (<em>FTC</em>).</li>
+    <li><strong>Improper Integral</strong> – an integral whose limits are infinite or whose integrand becomes unbounded within the interval. Convergence must be checked via limits.</li>
   </ul>
 
-  <h4><strong>2. Basic Integration Formulas</strong></h4>
-  <p>Memorising the elementary families accelerates problem solving. The table below summarises the most frequently used formulas.</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:10px;">
-    <thead style="background:#2a2a3a;">
-      <tr>
-        <th style="border:1px solid #555;padding:6px;">Function</th>
-        <th style="border:1px solid #555;padding:6px;">Integral</th>
-        <th style="border:1px solid #555;padding:6px;">Condition</th>
+  <h4>2. <strong>Primary Integration Techniques</strong></h4>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+    <thead>
+      <tr style="background:#2a2a3a;">
+        <th style="padding:8px; border:1px solid #444;">Method</th>
+        <th style="padding:8px; border:1px solid #444;">Typical Form</th>
+        <th style="padding:8px; border:1px solid #444;">Key Idea</th>
+        <th style="padding:8px; border:1px solid #444;">When to Use</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="border:1px solid #555;padding:6px;"><strong>1</strong></td>
-        <td style="border:1px solid #555;padding:6px;">\(\int x^{n}\,dx = \frac{x^{n+1}}{n+1}+C\) ( <em>n ≠ -1</em> )</td>
-        <td style="border:1px solid #555;padding:6px;">\(n\in\mathbb{R}\)</td>
+        <td style="padding:8px; border:1px solid #444;"><strong>[[Substitution Method]]</strong></td>
+        <td style="padding:8px; border:1px solid #444;">$\int f(g(x))g'(x)\,dx$</td>
+        <td style="padding:8px; border:1px solid #444;">Set $u=g(x)$ so that $du=g'(x)dx$.</td>
+        <td style="padding:8px; border:1px solid #444;">When the integrand contains a composite function whose inner derivative appears.</td>
       </tr>
       <tr>
-        <td style="border:1px solid #555;padding:6px;"><strong>e^{ax}</strong></td>
-        <td style="border:1px solid #555;padding:6px;">\(\int e^{ax}\,dx = \frac{1}{a}e^{ax}+C\)</td>
-        <td style="border:1px solid #555;padding:6px;">\(a\neq0\)</td>
+        <td style="padding:8px; border:1px solid #444;"><strong>[[Integration by Parts]]</strong></td>
+        <td style="padding:8px; border:1px solid #444;">$\int u\,dv$</td>
+        <td style="padding:8px; border:1px solid #444;">Use $ \int u\,dv = uv - \int v\,du$.</td>
+        <td style="padding:8px; border:1px solid #444;">Products of algebraic and transcendental functions, or when reduction formulas apply.</td>
       </tr>
       <tr>
-        <td style="border:1px solid #555;padding:6px;"><strong>\sin(ax)</strong></td>
-        <td style="border:1px solid #555;padding:6px;">\(\int \sin(ax)\,dx = -\frac{1}{a}\cos(ax)+C\)</td>
-        <td style="border:1px solid #555;padding:6px;">\(a\neq0\)</td>
+        <td style="padding:8px; border:1px solid #444;"><strong>[[Partial Fractions]]</strong></td>
+        <td style="padding:8px; border:1px solid #444;">$\displaystyle\int\frac{P(x)}{Q(x)}dx$, where $\deg P<\deg Q$</td>
+        <td style="padding:8px; border:1px solid #444;">Decompose $Q(x)$ into linear/quadratic factors.</td>
+        <td style="padding:8px; border:1px solid #444;">Rational functions whose denominator factorises over ℝ.</td>
       </tr>
       <tr>
-        <td style="border:1px solid #555;padding:6px;"><strong>\cos(ax)</strong></td>
-        <td style="border:1px solid #555;padding:6px;">\(\int \cos(ax)\,dx = \frac{1}{a}\sin(ax)+C\)</td>
-        <td style="border:1px solid #555;padding:6px;">\(a\neq0\)</td>
+        <td style="padding:8px; border:1px solid #444;"><strong>[[Trigonometric Substitution]]</strong></td>
+        <td style="padding:8px; border:1px solid #444;">$\int \sqrt{a^{2}\pm x^{2}}\,dx$, $\int \frac{dx}{\sqrt{x^{2}\pm a^{2}}}$</td>
+        <td style="padding:8px; border:1px solid #444;">Replace $x$ with $a\sin\theta$, $a\tan\theta$, or $a\sec\theta$.</td>
+        <td style="padding:8px; border:1px solid #444;">Integrals containing $\sqrt{a^{2}\pm x^{2}}$ or $\sqrt{x^{2}\pm a^{2}}$.</td>
       </tr>
       <tr>
-        <td style="border:1px solid #555;padding:6px;"><strong>\frac{1}{x}</strong></td>
-        <td style="border:1px solid #555;padding:6px;">\(\int \frac{1}{x}\,dx = \ln|x|+C\)</td>
-        <td style="border:1px solid #555;padding:6px;">\(x\neq0\)</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #555;padding:6px;"><strong>\frac{1}{x^{2}+a^{2}}</strong></td>
-        <td style="border:1px solid #555;padding:6px;">\(\int \frac{1}{x^{2}+a^{2}}dx = \frac{1}{a}\tan^{-1}\!\frac{x}{a}+C\)</td>
-        <td style="border:1px solid #555;padding:6px;">\(a>0\)</td>
+        <td style="padding:8px; border:1px solid #444;"><strong>[[Integration of Rational Functions of Trigonometric Functions]]</strong></td>
+        <td style="padding:8px; border:1px solid #444;">$\int R(\sin x,\cos x)dx$</td>
+        <td style="padding:8px; border:1px solid #444;">Use $t=\tan\frac{x}{2}$ (Weierstrass substitution).</td>
+        <td style="padding:8px; border:1px solid #444;">When the integrand is a rational expression in $\sin x$ and $\cos x$.</td>
       </tr>
     </tbody>
   </table>
 
-  <h4><strong>3. Integration by Substitution (Change of Variable)</strong></h4>
-  <p>The <strong>Substitution Method</strong> [[Substitution Method]] mirrors the chain rule for differentiation. If <em>u = g(x)</em> is differentiable and <em>g'(x)</em> appears in the integrand, replace the whole expression by <em>u</em>:</p>
+  <h4>3. <strong>Derivation of the Integration by Parts Formula</strong></h4>
+  <div class="important-box" style="background:#1e1e30; padding:12px; margin:12px 0; border-left:4px solid var(--accent);">
+    <p>Starting from the product rule for differentiation:</p>
+    $$\frac{d}{dx}\bigl(u(x)v(x)\bigr)=u'(x)v(x)+u(x)v'(x).$$
+    <p>Integrate both sides with respect to <strong>x</strong>:</p>
+    $$\int \frac{d}{dx}\bigl(u v\bigr)\,dx = \int u'v\,dx + \int u v'\,dx.$$
+    <p>The left‑hand side simplifies to $uv$ (up to a constant), giving</p>
+    $$uv = \int u'v\,dx + \int u v'\,dx.$$
+    <p>Rearranging yields the celebrated <strong>integration by parts</strong> identity:</p>
+    $$\boxed{\int u\,dv = uv - \int v\,du}$$
+    <p>where we set $dv = v'(x)dx$ and $du = u'(x)dx$.</p>
+  </div>
+
+  <h4>4. <strong>Common Mistakes</strong></h4>
   <ul>
-    <li>Set <em>u = g(x)</em> ⇒ <em>du = g'(x)dx</em>.</li>
-    <li>Rewrite the integral as \(\int f(g(x))g'(x)dx = \int f(u)du\).</li>
-    <li>Integrate with respect to <em>u</em> and back‑substitute.</li>
-  </ul>
-  <p>Typical patterns include:</p>
-  <ul>
-    <li>Integrals of the form \(\int f(ax+b)dx\) – use <em>u = ax+b</em>.</li>
-    <li>Integrals containing \(\sqrt{a^{2}-x^{2}}\) – use <em>u = x/a</em> or trigonometric substitution (see §5).</li>
+    <li><strong>Omitting the differential</strong> when performing substitution – e.g., writing $u=g(x)$ without converting $dx$ to $du=g'(x)dx$ leads to dimensionally inconsistent integrals.</li>
+    <li><strong>Incorrect sign in integration by parts</strong> – students often write $ \int u\,dv = uv + \int v\,du$; the sign before the second integral must be negative.</li>
+    <li><strong>Failing to de‑compose the denominator completely</strong> in partial fractions, especially when repeated or irreducible quadratic factors are present.</li>
+    <li><strong>Mixing up the trigonometric substitution</strong> – using $x = a\sin\theta$ for $\sqrt{x^{2}+a^{2}}$ (instead of $x = a\tan\theta$) produces an extra $ \sqrt{1+\tan^{2}\theta}$ factor and complicates the integral.</li>
+    <li><strong>Neglecting convergence checks</strong> for improper integrals, which can cause divergent answers to be mistakenly accepted as finite.</li>
   </ul>
 
-  <h4><strong>4. Integration by Parts</strong></h4>
-  <p>The formula stems from the product rule and is indispensable for products of algebraic and transcendental functions.</p>
-  <p><strong>Formula:</strong> \(\displaystyle \int u\,dv = uv - \int v\,du\) [[Integration by Parts]]</p>
-  <ul>
-    <li>Choose <em>u</em> as the function that simplifies upon differentiation (LIATE rule – <strong>L</strong>ogarithmic, <strong>I</strong>nverse trig, <strong>A</strong>lgebraic, <strong>T</strong>rig, <strong>E</strong>xponential).</li>
-    <li>Set <em>dv</em> as the remaining part; integrate to obtain <em>v</em>.</li>
-    <li>Repeat if the resulting integral still requires integration by parts.</li>
-  </ul>
-  <p>Important special cases:</p>
-  <ul>
-    <li><strong>Reduction Formulae</strong> – generate recursive relations, e.g., \(\int \sin^{n}x\,dx\) and \(\int \cos^{n}x\,dx\).</li>
-    <li>Integration of products like <em>x e^{ax}</em>, <em>x\sin bx</em>, or <em>\ln x</em>.</li>
-  </ul>
-
-  <h4><strong>5. Trigonometric Substitution</strong></h4>
-  <p>Whenever the integrand contains \(\sqrt{a^{2}\pm x^{2}}\) or \(\sqrt{x^{2}\pm a^{2}}\), a substitution using a trigonometric identity reduces the radical to a simple algebraic form.</p>
-  <ul>
-    <li><strong>Case 1:</strong> \(\sqrt{a^{2}-x^{2}}\) ⇒ set <em>x = a\sin\theta</em> (or <em>x = a\cos\theta</em>).</li>
-    <li><strong>Case 2:</strong> \(\sqrt{a^{2}+x^{2}}\) ⇒ set <em>x = a\tan\theta</em>.</li>
-    <li><strong>Case 3:</strong> \(\sqrt{x^{2}-a^{2}}\) ⇒ set <em>x = a\sec\theta</em>.</li>
-  </ul>
-  <p>After substitution, use the identities \(\sin^{2}\theta+\cos^{2}\theta=1\), \(\tan^{2}\theta+1=\sec^{2}\theta\) to simplify.</p>
-  <p>Example: \(\displaystyle \int \frac{dx}{\sqrt{a^{2}-x^{2}}} = \sin^{-1}\!\frac{x}{a}+C\).</p>
-
-  <h4><strong>6. Partial Fractions</strong></h4>
-  <p>Rational functions \(\frac{P(x)}{Q(x)}\) where \(\deg P < \deg Q\) can be decomposed into a sum of simpler fractions, each integrable by elementary formulas.</p>
-  <ul>
-    <li><strong>Distinct Linear Factors:</strong> \(\displaystyle \frac{P(x)}{(x-a_{1})(x-a_{2})\dots} = \sum_{k}\frac{A_{k}}{x-a_{k}}\).</li>
-    <li><strong>Repeated Linear Factors:</strong> \(\displaystyle \frac{P(x)}{(x-a)^{m}} = \sum_{k=1}^{m}\frac{A_{k}}{(x-a)^{k}}\).</li>
-    <li><strong>Irreducible Quadratics:</strong> \(\displaystyle \frac{P(x)}{(x^{2}+bx+c)} = \frac{Bx+C}{x^{2}+bx+c}\) and integrate using \(\ln\) or \(\tan^{-1}\) forms.</li>
-  </ul>
-  <p>Procedure:</p>
+  <h4>5. <strong>Shortcuts & Tricks for Competitive Exams</strong></h4>
   <ol>
-    <li>Factorise the denominator completely over the reals.</li>
-    <li>Write the general partial‑fraction ansatz.</li>
-    <li>Clear denominators and equate coefficients of like powers of <em>x</em> to solve for unknown constants.</li>
-    <li>Integrate each term separately.</li>
+    <li><strong>Pattern‑Recognition Shortcut</strong>: For integrals of the form $\int \frac{f'(x)}{f(x)}dx$, directly write $\ln|f(x)|+C$ without performing full substitution.</li>
+    <li><strong>Tabular Integration</strong> (also called “DI method”): When $u$ differentiates to zero after a few steps, create a two‑column table of derivatives of $u$ and integrals of $dv$, then alternate signs and multiply diagonally.</li>
+    <li><strong>Symmetry Trick</strong>: For $\int_{-a}^{a} f(x)dx$, if $f$ is odd, the integral equals zero; if $f$ is even, double the integral from $0$ to $a$.</li>
+    <li><strong>Reduction Formula Shortcut</strong>: Recognise standard reduction patterns such as 
+      $$\int \sin^{n}x\,dx = -\frac{\sin^{n-1}x\cos x}{n}+\frac{n-1}{n}\int \sin^{n-2}x\,dx,$$ 
+      and apply iteratively rather than re‑deriving each time.</li>
+    <li><strong>Weierstrass Substitution</strong> shortcut: For any rational function of $\sin x$ and $\cos x$, set $t=\tan\frac{x}{2}$; then $\sin x = \frac{2t}{1+t^{2}}$, $\cos x = \frac{1-t^{2}}{1+t^{2}}$, and $dx = \frac{2\,dt}{1+t^{2}}$. This converts the integral into a rational one in $t$.</li>
   </ol>
 
-  <h4><strong>7. Integration of Trigonometric Powers</strong></h4>
-  <p>Two principal strategies exist:</p>
+  <h4>6. <strong>Fully Worked Example 1 – Integration by Parts</strong></h4>
+  <p><strong>Problem:</strong> Evaluate $\displaystyle I=\int x\,e^{2x}\,dx$.</p>
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li>Identify $u$ and $dv$: Choose $u=x$ (because it simplifies on differentiation) and $dv=e^{2x}dx$.</li>
+    <li>Compute $du$ and $v$:
+      <ul>
+        <li>$du = dx$.</li>
+        <li>Integrate $dv$: $\displaystyle v = \int e^{2x}dx = \frac{1}{2}e^{2x}$ (since $\int e^{kx}dx = \frac{1}{k}e^{kx}$).</li>
+      </ul>
+    </li>
+    <li>Apply integration by parts:
+      $$I = uv - \int v\,du = x\left(\frac{1}{2}e^{2x}\right) - \int \frac{1}{2}e^{2x}\,dx.$$
+    </li>
+    <li>Integrate the remaining term:
+      $$\int \frac{1}{2}e^{2x}dx = \frac{1}{2}\cdot\frac{1}{2}e^{2x}= \frac{1}{4}e^{2x}.$$
+    </li>
+    <li>Combine results:
+      $$I = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x}+C = \frac{e^{2x}}{4}\,(2x-1)+C.$$
+    </li>
+  </ol>
+  <p>Thus, $\boxed{\displaystyle \int x\,e^{2x}dx = \frac{e^{2x}}{4}(2x-1)+C}$.</p>
+
+  <h4>7. <strong>Fully Worked Example 2 – Trigonometric Substitution</strong></h4>
+  <p><strong>Problem:</strong> Evaluate $\displaystyle J=\int \frac{dx}{\sqrt{9-x^{2}}}$.</p>
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li>Recognise the form $\sqrt{a^{2}-x^{2}}$ with $a=3$. Use the substitution $x = 3\sin\theta$.</li>
+    <li>Compute $dx$ and the new radical:
+      <ul>
+        <li>$dx = 3\cos\theta\,d\theta$.</li>
+        <li>$\sqrt{9-x^{2}} = \sqrt{9-9\sin^{2}\theta}=3\cos\theta$ (since $\cos\theta\ge0$ for $-\frac{\pi}{2}\le\theta\le\frac{\pi}{2}$).</li>
+      </ul>
+    </li>
+    <li>Substitute into the integral:
+      $$J = \int \frac{3\cos\theta\,d\theta}{3\cos\theta}= \int d\theta = \theta + C.$$
+    </li>
+    <li>Re‑express $\theta$ in terms of $x$: From $x = 3\sin\theta$, we have $\sin\theta = \frac{x}{3}$, so $\theta = \arcsin\!\left(\frac{x}{3}\right)$.</li>
+    <li>Final answer:
+      $$\boxed{\displaystyle \int \frac{dx}{\sqrt{9-x^{2}}}= \arcsin\!\left(\frac{x}{3}\right)+C}.$$
+    </li>
+  </ol>
+
+  <h4>8. <strong>Advanced Topics – Integration of Rational Functions</strong></h4>
+  <p>When dealing with a rational function $\displaystyle R(x)=\frac{P(x)}{Q(x)}$, the systematic procedure is:</p>
+  <ol>
+    <li><strong>Polynomial Division</strong> if $\deg P \ge \deg Q$ – obtain a polynomial part plus a proper fraction.</li>
+    <li><strong>Factorisation of $Q(x)$</strong> into linear factors $(x-a)$ and irreducible quadratics $(x^{2}+bx+c)$. Over the reals, any higher‑degree factor can be broken down further.</li>
+    <li><strong>Partial‑Fraction Decomposition</strong>:
+      <ul>
+        <li>For each distinct linear factor $(x-a)$, include a term $\displaystyle \frac{A}{x-a}$.</li>
+        <li>For repeated linear factor $(x-a)^{k}$, include $\displaystyle \frac{A_{1}}{x-a}+\frac{A_{2}}{(x-a)^{2}}+\dots+\frac{A_{k}}{(x-a)^{k}}$.</li>
+        <li>For each irreducible quadratic $(x^{2}+bx+c)$, include $\displaystyle \frac{Bx+C}{x^{2}+bx+c}$, and similarly for powers.</li>
+      </ul>
+    </li>
+    <li>Determine the unknown constants by equating numerators after clearing denominators, often using the “cover‑up” method or comparing coefficients.</li>
+    <li>Integrate each term using basic formulas:
+      $$\int \frac{dx}{x-a}= \ln|x-a|+C,$$
+      $$\int \frac{dx}{(x-a)^{n}}= -\frac{1}{(n-1)(x-a)^{n-1}}+C\;(n\neq1),$$
+      $$\int \frac{Bx+C}{x^{2}+bx+c}\,dx = \frac{B}{2}\ln|x^{2}+bx+c|+\frac{2C-Bb}{\sqrt{4c-b^{2}}}\arctan\!\left(\frac{2x+b}{\sqrt{4c-b^{2}}}\right)+C.$$
+    </li>
+  </ol>
+
+  <h4>9. <strong>Edge Cases & Exceptions</strong></h4>
   <ul>
-    <li><strong>Power‑Reduction Identities</strong> – e.g., \(\sin^{2}x = \frac{1-\cos2x}{2}\).</li>
-    <li><strong>Using Substitution</strong> – for odd powers, separate one sine or cosine and use \(u = \cos x\) or \(u = \sin x\).</li>
-  </ul>
-  <p>Typical results:</p>
-  <ul>
-    <li>\(\displaystyle \int \sin^{m}x\cos^{n}x\,dx\) – if one exponent is odd, factor out the odd power and substitute.</li>
-    <li>When both exponents are even, apply double‑angle formulas repeatedly.</li>
+    <li><strong>Non‑elementary Antiderivatives</strong>: Functions such as $e^{-x^{2}}$, $\frac{\sin x}{x}$, or $\ln(\ln x)$ have no expression in elementary functions. In competitive exams, they often appear in definite‑integral form where symmetry or limits yield closed forms.</li>
+    <li><strong>Improper Integral Convergence</strong>: For $\displaystyle\int_{1}^{\infty}\frac{dx}{x^{p}}$, convergence occurs only if $p>1$. This follows from the limit $\displaystyle\lim_{b\to\infty}\frac{b^{1-p}}{1-p}$.</li>
+    <li><strong>Integration of Absolute Values</strong>: $\displaystyle\int |x|dx$ must be split at the point where the argument changes sign, yielding $\int_{-a}^{0}(-x)dx+\int_{0}^{a}x\,dx$.</li>
+    <li><strong>Parameter‑Dependent Integrals</strong>: When an integral contains a parameter (e.g., $\displaystyle\int_{0}^{\pi}\sin^{n}x\,dx$), differentiation under the integral sign (Leibniz rule) can produce recurrence relations.</li>
   </ul>
 
-  <h4><strong>8. Improper Integrals and Convergence Tests</strong></h4>
-  <p>Improper integrals arise when limits are infinite or the integrand has vertical asymptotes.</p>
-  <ul>
-    <li>Define \(\displaystyle \int_{a}^{\infty} f(x)dx = \lim_{b\to\infty}\int_{a}^{b}f(x)dx\).</li>
-    <li>Define \(\displaystyle \int_{-\infty}^{\infty} f(x)dx = \lim_{A\to-\infty,\,B\to\infty}\int_{A}^{B}f(x)dx\).</li>
-    <li>For singularities at \(c\) inside \([a,b]\), split the integral and take limits: \(\int_{a}^{b}f(x)dx = \lim_{\epsilon\to0^{+}}\big(\int_{a}^{c-\epsilon}f(x)dx + \int_{c+\epsilon}^{b}f(x)dx\big).\)</li>
-  </ul>
-  <p>Key convergence criteria used in defence‑level problems:</p>
-  <ul>
-    <li><strong>p‑Test:</strong> \(\int_{1}^{\infty}\frac{dx}{x^{p}}\) converges iff \(p>1\).</li>
-    <li><strong>Comparison Test:</strong> Compare with a known convergent/divergent integral.</li>
-    <li><strong>Cauchy Principal Value</strong> ([[Cauchy Principal Value]]) – useful for symmetric singularities, e.g., \(\displaystyle \text{PV}\int_{-a}^{a}\frac{dx}{x}=0\).</li>
-  </ul>
-
-  <h4><strong>9. Special Functions: Gamma and Beta Integrals</strong></h4>
-  <p>The <strong>Gamma Function</strong> \(\Gamma(z)=\int_{0}^{\infty}t^{z-1}e^{-t}dt\) ([[Gamma Function]]) extends factorials: \(\Gamma(n)= (n-1)!\) for integer \(n\ge1\).</p>
-  <p>The <strong>Beta Function</strong> \(B(p,q)=\int_{0}^{1}t^{p-1}(1-t)^{q-1}dt\) relates to Gamma via \(B(p,q)=\frac{\Gamma(p)\Gamma(q)}{\Gamma(p+q)}\) ([[Beta Function]]).</p>
-  <ul>
-    <li>Common integral: \(\displaystyle \int_{0}^{\pi/2}\sin^{m}x\cos^{n}x\,dx = \frac{1}{2}B\!\Big(\frac{m+1}{2},\frac{n+1}{2}\Big).\)</li>
-    <li>Gaussian Integral: \(\displaystyle \int_{-\infty}^{\infty}e^{-x^{2}}dx = \sqrt{\pi}\) – derived using polar coordinates ([[Gaussian Integral]]).</li>
-  </ul>
-
-  <h4><strong>10. Numerical Integration (Quadrature)</strong></h4>
-  <p>When an antiderivative is unavailable, approximation techniques become essential, especially for trajectory calculations in defence simulations.</p>
-  <ul>
-    <li><strong>Trapezoidal Rule</strong> – approximates area under a curve by trapezia.<br>
-        \(\displaystyle \int_{a}^{b}f(x)dx \approx \frac{h}{2}\Big[f(a)+2\sum_{k=1}^{n-1}f(a+kh)+f(b)\Big]\) where \(h=\frac{b-a}{n}\). [[Trapezoidal Rule]]</li>
-    <li><strong>Simpson’s 1/3 Rule</strong> – uses parabolic arcs for higher accuracy.<br>
-        \(\displaystyle \int_{a}^{b}f(x)dx \approx \frac{h}{3}\Big[f(a)+4\sum_{\text{odd}}f(a+kh)+2\sum_{\text{even}}f(a+kh)+f(b)\Big]\) with \(h=\frac{b-a}{2n}\). [[Simpson's Rule]]</li>
-    <li><strong>Gaussian Quadrature</strong> – selects optimal nodes and weights; yields exact results for polynomials up to degree \(2n-1\).</li>
-  </ul>
-
-  <h4><strong>11. Applications in Defence‑Related Physics</strong></h4>
-  <p>Integration underpins several calculations in the Indian armed forces:</p>
-  <ul>
-    <li><strong>Projectile Motion</strong> – determining range \(R = \int_{0}^{t_f}v_{x}\,dt\) and apex height.</li>
-    <li><strong>Ballistic Drag</strong> – solving \(\displaystyle m\frac{dv}{dt}= -kv^{2}\) leads to \(\displaystyle v(t)=\frac{m}{kt+C}\); integration yields distance travelled.</li>
-    <li><strong>Radar Cross‑Section (RCS)</strong> – involves surface‑integral expressions over scattering surfaces.</li>
-    <li><strong>Energy of a Missile</strong> – \(\displaystyle E = \int_{0}^{L}\frac{1}{2}\rho A v^{2}dx\) where \(L\) is the length of the thrust chamber.</li>
-  </ul>
-
-  <h4><strong>12. Common Pitfalls & Tips for Quick Evaluation</strong></h4>
-  <ul>
-    <li>Always verify the domain of integration before applying a substitution; missing absolute values in logarithmic results leads to sign errors.</li>
-    <li>When dealing with even/odd functions over symmetric limits, exploit symmetry: \(\int_{-a}^{a}f_{\text{odd}}(x)dx=0\) and \(\int_{-a}^{a}f_{\text{even}}(x)dx=2\int_{0}^{a}f(x)dx\).</li>
-    <li>For rational functions, if the degree of numerator is not less than denominator, perform polynomial long division first.</li>
-    <li>Remember the integration constant \(C\) especially in indefinite integrals—it can be absorbed when evaluating definite integrals.</li>
-    <li>In reduction formulas, keep track of the pattern; a small algebraic slip propagates through the recursion.</li>
-  </ul>
+  <h4>10. <strong>Reference Table of Frequently Used Integrals</strong></h4>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+    <thead>
+      <tr style="background:#2a2a3a;">
+        <th style="padding:8px; border:1px solid #444;">Integral</th>
+        <th style="padding:8px; border:1px solid #444;">Result</th>
+        <th style="padding:8px; border:1px solid #444;">Conditions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;">$\displaystyle\int \sin^{n}x\,dx$</td>
+        <td style="padding:8px; border:1px solid #444;">$-\frac{\sin^{n-1}x\cos x}{n}+\frac{n-1}{n}\int \sin^{n-2}x\,dx$</td>
+        <td style="padding:8px; border:1px solid #444;">$n\in\mathbb{N}$, use reduction.</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;">$\displaystyle\int \frac{dx}{x^{2}+a^{2}}$</td>
+        <td style="padding:8px; border:1px solid #444;">$\frac{1}{a}\arctan\!\left(\frac{x}{a}\right)+C$</td>
+        <td style="padding:8px; border:1px solid #444;">$a>0$.</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;">$\displaystyle\int e^{kx}\,dx$</td>
+        <td style="padding:8px; border:1px solid #444;">$\frac{1}{k}e^{kx}+C$</td>
+        <td style="padding:8px; border:1px solid #444;">$k\neq0$.</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;">$\displaystyle\int \frac{dx}{\sqrt{a^{2}-x^{2}}}$</td>
+        <td style="padding:8px; border:1px solid #444;">$\arcsin\!\left(\frac{x}{a}\right)+C$</td>
+        <td style="padding:8px; border:1px solid #444;">$|x|<a$.</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;">$\displaystyle\int \ln x\,dx$</td>
+        <td style="padding:8px; border:1px solid #444;">$x\ln x - x + C$</td>
+        <td style="padding:8px; border:1px solid #444;">$x>0$.</td>
+      </tr>
+    </tbody>
+  </table>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>∫ sec x dx = ln|sec x + tan x| + C (remember the plus sign).</li>
-      <li>∫ dx / (x² + a²) = (1/a) tan⁻¹(x/a) + C – a classic test for inverse trigonometric integration.</li>
-      <li>For ∫ x e^{ax}dx, the result is (e^{ax}/a²)(ax − 1) + C.</li>
-      <li>Improper integral ∫₁^∞ dx / x^{p} converges only when p > 1 (p‑test).</li>
-      <li>The Gaussian integral ∫_{−∞}^{∞}e^{−x²}dx = √π, useful for probability‑theory questions.</li>
-      <li>Partial fraction of (2x+3)/(x²−x−6) = A/(x‑3) + B/(x+2) gives A=5/5, B=‑3/5 after solving.</li>
-      <li>Simpson’s 1/3 rule yields exact value for any cubic polynomial over an interval.</li>
-      <li>Integration by parts with u=ln x, dv=dx gives ∫ ln x dx = x ln x − x + C.</li>
+      <li>For any $f(x)$, $\displaystyle\int \frac{f'(x)}{f(x)}dx = \ln|f(x)|+C$ – a one‑step shortcut.</li>
+      <li>The integral $\displaystyle\int_{0}^{\pi}\sin^{n}x\,dx$ equals $\displaystyle\frac{(n-1)!!}{n!!}\pi$ for even $n$, and $\displaystyle\frac{(n-1)!!}{n!!}2$ for odd $n$.</li>
+      <li>When $a^{2}+b^{2}=c^{2}$, $\displaystyle\int \frac{dx}{\sqrt{c^{2}-x^{2}}} = \arcsin\!\left(\frac{x}{c}\right)+C$ – remember the “$c$‑hypotenuse” pattern.</li>
+      <li>In a definite integral $\displaystyle\int_{-a}^{a}f(x)dx$, if $f$ is odd the value is zero; if $f$ is even, double the integral from $0$ to $a$.</li>
+      <li>Partial‑fraction constants for repeated linear factors can be obtained quickly via the cover‑up method applied to successive derivatives.</li>
+      <li>For $\displaystyle\int e^{ax}\cos(bx)dx$, use the formula $\frac{e^{ax}}{a^{2}+b^{2}}\bigl(a\cos bx + b\sin bx\bigr)+C$.</li>
+      <li>Improper integrals $\displaystyle\int_{0}^{\infty} \frac{x^{m}}{(1+x^{n})}dx$ converge only if $m+1<n$.</li>
+      <li>Trigonometric substitution $x=a\sec\theta$ is ideal for $\sqrt{x^{2}-a^{2}}$; $x=a\csc\theta$ works for $\sqrt{a^{2}-x^{2}}$ when $x$ is near $a$.</li>
+      <li>The tabular integration technique reduces $n$‑step integration by parts to a simple alternating‑sign sum.</li>
+      <li>When integrating $\displaystyle\frac{1}{x\ln x}$, the answer is $\ln|\ln x|+C$, a frequently tested pattern.</li>
     </ul>
   </div>
 </div>
@@ -1918,189 +2807,269 @@ EXPANDED_NOTES_DATA["syl-matrices"] = `
     Matrices and Determinants
   </h3>
 
-  <h4><strong>1. Fundamental Definitions</strong></h4>
-  <p><strong>Matrix</strong> – A rectangular array of numbers or symbols arranged in <em>rows</em> and <em>columns</em>. The size is denoted as <strong>m × n</strong> (m rows, n columns). The element in the i‑th row and j‑th column is written as <strong>a<sub>ij</sub></strong>.</p>
+  <h4>1. Fundamental Definitions</h4>
   <ul>
-    <li><strong>Square Matrix</strong>: When m = n; essential for determinant theory.</li>
-    <li><strong>Zero (Null) Matrix</strong>: All entries are zero; denoted by 0.</li>
-    <li><strong>Diagonal Matrix</strong>: Non‑zero entries only on the main diagonal (<strong>a<sub>ii</sub></strong>).</li>
-    <li><strong>Scalar Matrix</strong>: Diagonal matrix with all diagonal entries equal; i.e., <strong>kI</strong> where I is the identity.</li>
-    <li><strong>Identity Matrix</strong> (I): Diagonal entries are 1, all other entries 0.</li>
-    <li><strong>Upper / Lower Triangular Matrix</strong>: All entries below or above the main diagonal are zero respectively.</li>
-    <li><strong>Symmetric Matrix</strong>: <strong>A<sup>T</sup> = A</strong>. If <strong>a<sub>ij</sub> = a<sub>ji</sub></strong> for all i, j.</li>
-    <li><strong>Skew‑Symmetric Matrix</strong>: <strong>A<sup>T</sup> = ‑A</strong> and diagonal entries are zero.</li>
+    <li><strong>Matrix</strong> – a rectangular array of numbers arranged in <em>rows</em> and <em>columns</em>. Symbolically, a matrix of order $m \times n$ is denoted by $A = [a_{ij}]_{m \times n}$ where $a_{ij}$ is the element in the $i^{\text{th}}$ row and $j^{\text{th}}$ column.</li>
+    <li><strong>Square Matrix</strong> – a matrix with equal number of rows and columns ($n \times n$). Only square matrices possess a <strong>determinant</strong>.</li>
+    <li><strong>Determinant</strong> – a scalar value derived from a square matrix that encapsulates volume scaling and invertibility. For a $2\times2$ matrix $A=\begin{bmatrix}a & b\\c & d\end{bmatrix}$,
+      $$\det(A)=ad-bc.$$</li>
+    <li><strong>Minor</strong> $M_{ij}$ – determinant of the sub‑matrix obtained by deleting the $i^{\text{th}}$ row and $j^{\text{th}}$ column of $A$.</li>
+    <li><strong>Cofactor</strong> $C_{ij}=(-1)^{i+j}M_{ij}$ – the signed minor used in expansion of determinants.</li>
+    <li><strong>Adjoint (Adjugate) Matrix</strong> – the transpose of the cofactor matrix: $\operatorname{adj}(A)=\big[C_{ji}\big]$.</li>
+    <li><strong>Inverse Matrix</strong> – for a non‑singular matrix $A$, $A^{-1}$ satisfies $AA^{-1}=A^{-1}A=I_n$, where $I_n$ is the identity matrix of order $n$.</li>
   </ul>
 
-  <h4><strong>2. Matrix Operations</strong></h4>
-  <p>All operations are defined only when dimensions are compatible.</p>
+  <h4>2. Derivation of the General Determinant Formula</h4>
+  <ol>
+    <li>Start from the definition of a permutation $\sigma$ of the set $\{1,2,\dots,n\}$.</li>
+    <li>Associate each permutation with a sign $sgn(\sigma)$: $+1$ for even permutations, $-1$ for odd permutations.</li>
+    <li>For a square matrix $A=[a_{ij}]$, the determinant is defined as
+      $$\det(A)=\sum_{\sigma\in S_n}sgn(\sigma)\prod_{i=1}^{n}a_{i,\sigma(i)}$$
+      where $S_n$ denotes the symmetric group of order $n$.</li>
+    <li>Explain that each term corresponds to a unique selection of one element from each row and each column, ensuring no two selected elements share a row or column.</li>
+    <li>Illustrate with $n=3$:
+      $$\det\!\begin{bmatrix}
+      a_{11}&a_{12}&a_{13}\\
+      a_{21}&a_{22}&a_{23}\\
+      a_{31}&a_{32}&a_{33}
+      \end{bmatrix}=a_{11}a_{22}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32}
+      -a_{13}a_{22}a_{31}-a_{11}a_{23}a_{32}-a_{12}a_{21}a_{33}.$$
+  </ol>
+
+  <h4>3. Properties of Determinants (with Proof Sketches)</h4>
   <ul>
-    <li><strong>Addition & Subtraction</strong>: Element‑wise, possible only for matrices of identical order.</li>
-    <li><strong>Scalar Multiplication</strong>: Multiply each entry by a real number k: <strong>kA = (k·a<sub>ij</sub>)</strong>.</li>
-    <li><strong>Matrix Multiplication</strong>: If <strong>A</strong> is m × p and <strong>B</strong> is p × n, the product <strong>AB</strong> is m × n with entries <strong>(AB)<sub>ij</sub> = ∑<sub>k=1</sub>^{p} a<sub>ik</sub>b<sub>kj</sub></strong>. Not commutative in general; <strong>AB ≠ BA</strong> unless special cases (e.g., both diagonal).</li>
-    <li><strong>Transpose</strong> (<strong>A<sup>T</sup></strong>): Interchange rows and columns; <strong>(A<sup>T</sup>)<sub>ij</sub> = a<sub>ji</sub></strong>.</li>
-    <li><strong>Conjugate Transpose</strong> (<strong>A<sup>†</sup></strong>) for complex matrices: transpose followed by complex conjugation.</li>
-    <li><strong>Trace</strong> (<strong>tr(A)</strong>): Sum of diagonal elements; defined only for square matrices.</li>
-    <li><strong>Block Matrices</strong>: Partitioning large matrices into sub‑matrices to simplify calculations, especially in the context of the [[Schur complement]] and [[Kronecker product]].</li>
+    <li><strong>Linearity in a Row</strong>: If a row of $A$ is expressed as a sum of two vectors, the determinant splits accordingly. <em>Proof Sketch</em>: Use the multilinear definition from permutations; each term containing a linear combination distributes over the sum.</li>
+    <li><strong>Row Swapping</strong>: Swapping two rows changes the sign of the determinant.
+      $$\det(\dots R_i \leftrightarrow R_j \dots) = -\det(A).$$
+      <em>Proof Sketch</em>: Swapping rows corresponds to an odd permutation of columns, flipping $sgn(\sigma)$.</li>
+    <li><strong>Row Multiplication</strong>: Multiplying a row by a scalar $k$ multiplies the determinant by $k$.
+      $$\det(kR_i)=k\det(A).$$</li>
+    <li><strong>Determinant of Upper/Lower Triangular Matrix</strong>: Equals product of diagonal entries.
+      $$\det\!\begin{bmatrix}
+      d_1&* &\cdots &*\\
+      0&d_2&\cdots &*\\
+      \vdots&\vdots&\ddots&\vdots\\
+      0&0&\cdots&d_n
+      \end{bmatrix}=d_1d_2\cdots d_n.$$
+      <em>Proof Sketch</em>: All terms involving off‑diagonal elements contain a zero factor because each such term would require selecting an element from a column where a zero appears.</li>
+    <li><strong>Determinant of Product</strong>: $\det(AB)=\det(A)\det(B)$ for square matrices $A,B$ of the same order.</li>
+    <li><strong>Determinant of Transpose</strong>: $\det(A^{\top})=\det(A)$.</li>
   </ul>
 
-  <h4><strong>3. Special Matrices and Their Determinants</strong></h4>
-  <p>The determinant, denoted <strong>det(A)</strong> or |A|, is a scalar attribute of a square matrix that encodes volume scaling, invertibility, and linear independence.</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <thead>
-      <tr style="background:#f0f0f0;">
-        <th style="border:1px solid #ccc; padding:6px;">Matrix Type</th>
-        <th style="border:1px solid #ccc; padding:6px;">Determinant Formula</th>
-        <th style="border:1px solid #ccc; padding:6px;">Key Property</th>
+  <h4>4. Classification of Matrices (Comparison Table)</h4>
+  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width:100%; margin-top:10px;">
+    <thead style="background:#2c2f33; color:#fff;">
+      <tr>
+        <th>Type</th>
+        <th>Definition</th>
+        <th>Key Property</th>
+        <th>Determinant Behaviour</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>Diagonal / Scalar</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;">∏<sub>i=1</sub>^{n} a<sub>ii</sub></td>
-        <td style="border:1px solid #ccc; padding:6px;">Non‑zero iff every diagonal entry ≠ 0.</td>
+        <td><strong>Diagonal</strong></td>
+        <td>Only $a_{ii}$ may be non‑zero.</td>
+        <td>Commutes with any matrix of same order.</td>
+        <td>Product of diagonal entries.</td>
       </tr>
       <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>Upper / Lower Triangular</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;">Product of diagonal entries</td>
-        <td style="border:1px solid #ccc; padding:6px;">Same as diagonal case.</td>
+        <td><strong>Scalar</strong></td>
+        <td>$A=kI_n$ where $k\in\mathbb{R}$.</td>
+        <td>All eigenvalues equal $k$.</td>
+        <td>$k^n$.</td>
       </tr>
       <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>Orthogonal Matrix</strong> (Q<sup>T</sup>Q = I)</td>
-        <td style="border:1px solid #ccc; padding:6px;">±1</td>
-        <td style="border:1px solid #ccc; padding:6px;">Preserves Euclidean norm.</td>
+        <td><strong>Upper Triangular</strong></td>
+        <td>$a_{ij}=0$ for $i>j$.</td>
+        <td>Determinant = product of diagonal.</td>
+        <td>Same as diagonal case.</td>
       </tr>
       <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>Skew‑Symmetric (odd order)</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;">0</td>
-        <td style="border:1px solid #ccc; padding:6px;">Determinant always zero for odd n.</td>
+        <td><strong>Lower Triangular</strong></td>
+        <td>$a_{ij}=0$ for $i<j$.</td>
+        <td>Determinant = product of diagonal.</td>
+        <td>Same as diagonal case.</td>
+      </tr>
+      <tr>
+        <td><strong>Orthogonal</strong></td>
+        <td>$A^{\top}A=I_n$.</td>
+        <td>Columns form an orthonormal set.</td>
+        <td>$\det(A)=\pm1$.</td>
+      </tr>
+      <tr>
+        <td><strong>Singular</strong></td>
+        <td>Rank $< n$.</td>
+        <td>Non‑invertible.</td>
+        <td>$\det(A)=0$.</td>
       </tr>
     </tbody>
   </table>
 
-  <h4><strong>4. Computation Techniques for Determinants</strong></h4>
+  <h4>5. Inverse of a Matrix via Adjoint Method</h4>
+  <ol>
+    <li>Compute the cofactor matrix $C=[C_{ij}]$ where $C_{ij}=(-1)^{i+j}M_{ij}$.</li>
+    <li>Transpose $C$ to obtain the adjoint: $\operatorname{adj}(A)=C^{\top}$.</li>
+    <li>Find $\det(A)$. If $\det(A)=0$, $A$ is singular and no inverse exists.</li>
+    <li>Finally,
+      $$A^{-1}= \frac{1}{\det(A)}\operatorname{adj}(A).$$
+  </ol>
+
+  <div class="important-box" style="border-left:4px solid var(--accent); background:#f9f9f9; padding:10px; margin:15px 0;">
+    <strong>Critical Distinction:</strong> A matrix is <strong>non‑singular</strong> iff $\det(A)\neq0$, which guarantees the existence of a unique inverse. Conversely, a <strong>singular</strong> matrix has $\det(A)=0$ and cannot be inverted by any algebraic method.
+  </div>
+
+  <h4>6. Cramer's Rule (Solving Linear Systems)</h4>
+  <p>For a system $AX = B$, where $A$ is an $n\times n$ non‑singular matrix, the solution for the $k^{\text{th}}$ variable $x_k$ is</p>
+  $$x_k = \frac{\det(A_k)}{\det(A)}$$
+  where $A_k$ is formed by replacing the $k^{\text{th}}$ column of $A$ with the column vector $B$.</p>
   <ul>
-    <li><strong>Laplace Expansion (Cofactor Expansion)</strong>: For any row i,
-      <strong>det(A) = ∑<sub>j=1</sub>^{n} (‑1)^{i+j} a<sub>ij</sub> M<sub>ij</sub></strong>,
-      where <strong>M<sub>ij</sub></strong> is the minor (determinant of the (n‑1)×(n‑1) matrix obtained by deleting row i and column j).</li>
-    <li><strong>Sarrus’ Rule</strong>: Direct formula for 3 × 3 matrices only; useful for quick mental checks.</li>
-    <li><strong>Row/Column Operations</strong> (as per [[Gauss-Jordan elimination]]):
+    <li>Variable definitions: $X = [x_1,x_2,\dots,x_n]^{\top}$, $B = [b_1,b_2,\dots,b_n]^{\top}$.</li>
+    <li>Condition: $\det(A)\neq0$; otherwise the system is either dependent or inconsistent.</li>
+  </ul>
+
+  <h4>7. Common Mistakes</h4>
+  <ul>
+    <li><strong>Mistake 1 – Ignoring the sign factor $(-1)^{i+j}$</strong>: When computing cofactors, students often drop the alternating sign, leading to an adjoint that is off by a sign in several entries.</li>
+    <li><strong>Mistake 2 – Using row operations that change the determinant without compensating</strong>: Swapping rows multiplies the determinant by $-1$, and multiplying a row by $k$ multiplies the determinant by $k$. Forgetting to adjust the determinant yields incorrect results.</li>
+    <li><strong>Mistake 3 – Treating a non‑square matrix as having a determinant</strong>: Determinants exist only for square matrices; attempting to compute $\det$ of a $3\times2$ matrix leads to undefined behaviour.</li>
+    <li><strong>Mistake 4 – Confusing adjoint with adjugate</strong>: The adjoint is the transpose of the cofactor matrix; some students mistakenly take the transpose of the original matrix instead.</li>
+    <li><strong>Mistake 5 – Overlooking zero rows/columns</strong>: A row (or column) of zeros forces the determinant to zero instantly; missing this can waste time.</li>
+  </ul>
+
+  <h4>8. Shortcuts & Tricks (Time‑Saving for Competitive Exams)</h4>
+  <ol>
+    <li><strong>Triangular Shortcut</strong>: If a matrix can be converted to upper (or lower) triangular form using only row addition/subtraction (which does not change determinant), the determinant equals the product of the diagonal entries.</li>
+    <li><strong>Block‑Matrix Determinant</strong>: For a block diagonal matrix $\begin{bmatrix}P & 0\\0 & Q\end{bmatrix}$, $\det = \det(P)\det(Q)$. This reduces a $4\times4$ problem to two $2\times2$ determinants.</li>
+    <li><strong>Row of Ones</strong>: Adding a multiple of a row of ones to another row does not affect the determinant’s magnitude but can simplify the matrix to a triangular form instantly.</li>
+    <li><strong>Determinant of a 3×3 via Sarrus’ Rule</strong>: Memorise the pattern $a_{11}a_{22}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32}-(a_{13}a_{22}a_{31}+a_{11}a_{23}a_{32}+a_{12}a_{21}a_{33})$ for quick computation.</li>
+    <li><strong>Zero‑Column/Row Test</strong>: Scan the matrix first; any all‑zero row/column immediately yields determinant $0$, saving computation.</li>
+    <li><strong>Use of Cofactor Expansion on a Row/Column with Maximum Zeros</strong>: Choose the row or column containing the most zeros to minimize the number of minors required.</li>
+  </ol>
+
+  <h4>9. Worked Examples</h4>
+
+  <h5>Example 1 – Determinant of a 4×4 Matrix Using Row Operations</h5>
+  <p>Find $\det\!\begin{bmatrix}
+  2 & 1 & 0 & 3\\
+  4 & 2 & 1 & 6\\
+  0 & 5 & 2 & 1\\
+  1 & 0 & 3 & 2
+  \end{bmatrix}$.</p>
+  <ol>
+    <li>Apply $R_2 \leftarrow R_2-2R_1$ (row operation of type $R_i\rightarrow R_i-kR_j$ does not change determinant):
+      $$\begin{bmatrix}
+      2 & 1 & 0 & 3\\
+      0 & 0 & 1 & 0\\
+      0 & 5 & 2 & 1\\
+      1 & 0 & 3 & 2
+      \end{bmatrix}$$</li>
+    <li>Swap $R_2$ and $R_3$ to bring a non‑zero element into the second row. Swapping rows multiplies determinant by $-1$:
+      $$\det = -\det\!\begin{bmatrix}
+      2 & 1 & 0 & 3\\
+      0 & 5 & 2 & 1\\
+      0 & 0 & 1 & 0\\
+      1 & 0 & 3 & 2
+      \end{bmatrix}$$</li>
+    <li>Now the matrix is upper‑triangular except for the last row. Use $R_4 \leftarrow R_4 -\frac{1}{2}R_1$:
+      $$\begin{bmatrix}
+      2 & 1 & 0 & 3\\
+      0 & 5 & 2 & 1\\
+      0 & 0 & 1 & 0\\
+      0 & -\tfrac12 & 3 & \tfrac12
+      \end{bmatrix}$$</li>
+    <li>Next, eliminate the $-\tfrac12$ in $R_4$ using $R_4 \leftarrow R_4 +\tfrac{1}{10}R_2$ (no determinant change):
+      $$\begin{bmatrix}
+      2 & 1 & 0 & 3\\
+      0 & 5 & 2 & 1\\
+      0 & 0 & 1 & 0\\
+      0 & 0 & 3.2 & 0.6
+      \end{bmatrix}$$</li>
+    <li>Now the matrix is upper triangular; determinant equals product of diagonal entries multiplied by the sign change from the earlier row swap:
+      $$\det = -\big(2\cdot5\cdot1\cdot0.6\big) = -6.$$
+  </ol>
+  <p>Hence, $\boxed{\det = -6}$.</p>
+
+  <h5>Example 2 – Inverse of a 3×3 Matrix Using Adjoint</h5>
+  <p>Find $A^{-1}$ for $A=\begin{bmatrix}
+  1 & 2 & 3\\
+  0 & 1 & 4\\
+  5 & 6 & 0
+  \end{bmatrix}$.</p>
+  <ol>
+    <li>Compute $\det(A)$ using cofactor expansion on the second row (contains a zero):
+      $$\det(A)=0\cdot C_{21}+1\cdot C_{22}+4\cdot C_{23}.$$
       <ul>
-        <li>Swapping two rows (or columns) multiplies determinant by ‑1.</li>
-        <li>Multiplying a row by a scalar k multiplies determinant by k.</li>
-        <li>Adding a multiple of one row to another leaves determinant unchanged.</li>
+        <li>$C_{22}=(-1)^{2+2}M_{22}=M_{22}$ where $M_{22}= \det\!\begin{bmatrix}1&3\\5&0\end{bmatrix}= (1)(0)-(3)(5)=-15$.</li>
+        <li>$C_{23}=(-1)^{2+3}M_{23}= -M_{23}$ where $M_{23}= \det\!\begin{bmatrix}1&2\\5&6\end{bmatrix}= (1)(6)-(2)(5)=6-10=-4$.</li>
       </ul>
+      Thus,
+      $$\det(A)=1(-15)+4(-(-4)) = -15+16 = 1.$$
     </li>
-    <li><strong>Triangularisation</strong>: Convert matrix to upper triangular form using elementary row operations; determinant equals product of diagonal entries multiplied by the factor adjustments from the operations.</li>
-    <li><strong>Determinant of Block Matrices</strong> (when blocks commute):
-      <strong>det\begin{pmatrix}A & B\\0 & D\end{pmatrix}=det(A)·det(D)</strong>.</li>
-    <li><strong>[[Sylvester's determinant theorem]]</strong>: For matrices A (m × n) and B (n × m),
-      <strong>det(I<sub>m</sub>+AB)=det(I<sub>n</sub>+BA)</strong>.</li>
-  </ul>
-
-  <h4><strong>5. Inverse of a Matrix</strong></h4>
-  <p>A square matrix <strong>A</strong> is invertible (non‑singular) iff <strong>det(A) ≠ 0</strong>. The inverse, denoted <strong>A<sup>‑1</sup></strong>, satisfies <strong>AA<sup>‑1</sup>=A<sup>‑1</sup>A=I</strong>.</p>
-  <ul>
-    <li><strong>Adjugate Formula</strong>:
-      <strong>A<sup>‑1</sup> = (1/det(A))·adj(A)</strong>, where <strong>adj(A)</strong> is the transpose of the cofactor matrix.</li>
-    <li><strong>Gauss‑Jordan Method</strong>: Augment A with I and row‑reduce to reach <strong>[I | A<sup>‑1</sup>]</strong>.</li>
-    <li><strong>Special Cases</strong>:
+    <li>Since $\det(A)=1\neq0$, $A$ is invertible.</li>
+    <li>Form the cofactor matrix $C$:
+      $$C=\begin{bmatrix}
+      C_{11}&C_{12}&C_{13}\\
+      C_{21}&C_{22}&C_{23}\\
+      C_{31}&C_{32}&C_{33}
+      \end{bmatrix}.$$
+      Compute each cofactor:
       <ul>
-        <li>Diagonal matrix: inverse is diagonal with entries 1/a<sub>ii</sub>.</li>
-        <li>Orthogonal matrix: inverse equals transpose (<strong>Q<sup>‑1</sup>=Q<sup>T</sup></strong>).</li>
+        <li>$C_{11}=(-1)^{2}M_{11}=\det\!\begin{bmatrix}1&4\\6&0\end{bmatrix}= (1)(0)-(4)(6)=-24$.</li>
+        <li>$C_{12}=(-1)^{1+2}M_{12}= -\det\!\begin{bmatrix}0&4\\5&0\end{bmatrix}= -[(0)(0)-(4)(5)]=20$.</li>
+        <li>$C_{13}=(-1)^{1+3}M_{13}= \det\!\begin{bmatrix}0&1\\5&6\end{bmatrix}= (0)(6)-(1)(5)=-5$.</li>
+        <li>$C_{21}=(-1)^{2+1}M_{21}= -\det\!\begin{bmatrix}2&3\\6&0\end{bmatrix}= -[(2)(0)-(3)(6)]=18$.</li>
+        <li>$C_{22}= -15$ (computed earlier).</li>
+        <li>$C_{23}=4$ (since $C_{23}= -M_{23}= -(-4)=4$).</li>
+        <li>$C_{31}=(-1)^{3+1}M_{31}= \det\!\begin{bmatrix}2&3\\1&4\end{bmatrix}= (2)(4)-(3)(1)=8-3=5$.</li>
+        <li>$C_{32}=(-1)^{3+2}M_{32}= -\det\!\begin{bmatrix}1&3\\0&4\end{bmatrix}= -[(1)(4)-(3)(0)]= -4$.</li>
+        <li>$C_{33}=(-1)^{6}M_{33}= \det\!\begin{bmatrix}1&2\\0&1\end{bmatrix}=1\cdot1-2\cdot0=1$.</li>
       </ul>
+      Hence,
+      $$C=\begin{bmatrix}
+      -24 & 20 & -5\\
+      18 & -15 & 4\\
+      5 & -4 & 1
+      \end{bmatrix}.$$
     </li>
-  </ul>
+    <li>Adjoint is the transpose of $C$:
+      $$\operatorname{adj}(A)=C^{\top}= \begin{bmatrix}
+      -24 & 18 & 5\\
+      20 & -15 & -4\\
+      -5 & 4 & 1
+      \end{bmatrix}.$$
+    </li>
+    <li>Finally,
+      $$A^{-1}= \frac{1}{\det(A)}\operatorname{adj}(A)=\operatorname{adj}(A)$$
+      because $\det(A)=1$.
+      $$\boxed{A^{-1}= \begin{bmatrix}
+      -24 & 18 & 5\\
+      20 & -15 & -4\\
+      -5 & 4 & 1
+      \end{bmatrix}}.$$
+  </ol>
 
-  <h4><strong>6. Rank, Nullity, and Linear Independence</strong></h4>
-  <p>The <strong>rank</strong> of a matrix is the dimension of its row (or column) space – the maximum number of linearly independent rows/columns. For an m × n matrix, <strong>rank ≤ min(m,n)</strong>.</p>
+  <h4>10. Additional Advanced Topics (Brief Overview)</h4>
   <ul>
-    <li><strong>Row‑Echelon Form (REF)</strong> and <strong>Reduced Row‑Echelon Form (RREF)</strong> are obtained via elementary row operations; the number of non‑zero rows in REF equals the rank.</li>
-    <li><strong>[[Rouché–Capelli theorem]]</strong>: A system of linear equations Ax = b is consistent iff <strong>rank(A) = rank([A|b])</strong>.</li>
-    <li><strong>Rank–Nullity Theorem</strong>: For a linear transformation represented by A (size m × n),
-      <strong>rank(A) + nullity(A) = n</strong>, where nullity is dimension of kernel (solution space of Ax = 0).</li>
-  </ul>
-
-  <h4><strong>7. Systems of Linear Equations – Cramer's Rule</strong></h4>
-  <p>Applicable only when the coefficient matrix <strong>A</strong> is square and <strong>det(A) ≠ 0</strong>. For system <strong>Ax = b</strong>, each variable <strong>x<sub>i</sub></strong> is given by:</p>
-  <p><strong>x<sub>i</sub> = det(A<sub>i</sub>)/det(A)</strong>, where <strong>A<sub>i</sub></strong> is obtained by replacing the i‑th column of A with the column vector b.</p>
-  <ul>
-    <li>Historical note: First published by [[Gaston Cramér]] in 1750.</li>
-    <li>Computationally expensive for large n (O(n³) for determinant plus O(n⁴) overall), thus rarely used in practice for n > 3 in competitive exams.</li>
-  </ul>
-
-  <h4><strong>8. Determinant Identities Frequently Tested</strong></h4>
-  <ul>
-    <li><strong>Multiplicative Property</strong>: <strong>det(AB) = det(A)·det(B)</strong>.</li>
-    <li><strong>Transpose Property</strong>: <strong>det(A<sup>T</sup>) = det(A)</strong>.</li>
-    <li><strong>Determinant of a Sum</strong> (not generally additive): Only for special cases such as <strong>det(A + B) = det(A) + det(B)</strong> when A and B are simultaneously diagonalizable.</li>
-    <li><strong>Homogeneity</strong>: Multiplying a row (or column) by k multiplies determinant by k.</li>
-    <li><strong>Vandermonde Determinant</strong>: For numbers x₁,…,xₙ,
-      <strong>det\begin{pmatrix}1 & x₁ & x₁² & … & x₁^{n‑1}\\ … \\ 1 & xₙ & xₙ² & … & xₙ^{n‑1}\end{pmatrix}=∏_{1≤i<j≤n}(x_j‑x_i)</strong>.</li>
-    <li><strong>[[Euler's theorem]] on determinants</strong>: For any n × n matrix A, <strong>det(e^{A}) = e^{tr(A)}</strong>.</li>
-  </ul>
-
-  <h4><strong>9. Applications in Defence‑Related Problems</strong></h4>
-  <p>In NDA, CDS, and AFCAT, matrix concepts appear in:</p>
-  <ul>
-    <li><strong>Navigation and Radar</strong>: Rotation matrices for coordinate transformation; determinant = 1 indicates proper rotation (no scaling).</li>
-    <li><strong>Cryptography</strong>: Hill cipher uses invertible matrices modulo 26; determinant must be coprime with 26.</li>
-    <li><strong>Structural Analysis</strong>: Stiffness matrices in engineering; singularity (det = 0) signals instability.</li>
-    <li><strong>Game Theory</strong>: Payoff matrices; Nash equilibrium calculations often require solving linear systems.</li>
-  </ul>
-
-  <h4><strong>10. Quick Reference Formulas</strong></h4>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <thead>
-      <tr style="background:#e8f5e9;">
-        <th style="border:1px solid #ccc; padding:6px;">Operation</th>
-        <th style="border:1px solid #ccc; padding:6px;">Result</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>(AB)<sup>T</sup></strong></td>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>B<sup>T</sup>A<sup>T</sup></strong></td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>(kA)<sup>‑1</sup></strong></td>
-        <td style="border:1px solid #ccc; padding:6px;">(1/k)A<sup>‑1</sup></td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>det(kA)</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;">k<sup>n</sup>·det(A) (for n × n matrix)</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>det(A⁻¹)</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;">1/det(A)</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>det(A + B)</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;">Not generally additive; only special cases.</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h4><strong>11. Common Pitfalls & Tips for Quick Calculation</strong></h4>
-  <ul>
-    <li>Always check for zero rows/columns before expanding; they reduce determinant to zero instantly.</li>
-    <li>For 3 × 3 determinants, memorize the Sarrus’ rule but verify by cofactor expansion to avoid sign errors.</li>
-    <li>When a matrix contains a row (or column) that is a scalar multiple of another, determinant is zero – a quick test for singularity.</li>
-    <li>Inverting a 2 × 2 matrix, use the formula:
-      <strong>A⁻¹ = (1/det(A))·\begin{pmatrix}a_{22}&-a_{12}\\-a_{21}&a_{11}\end{pmatrix}</strong>.</li>
-    <li>During exams, convert problems to triangular form using elementary row operations; product of diagonal entries gives determinant directly.</li>
+    <li><strong>Laplace Expansion</strong> – Generalised cofactor expansion along any row or column; useful for theoretical proofs.</li>
+    <li><strong>Vandermonde Determinant</strong> – For $V=\big[x_i^{j-1}\big]_{i,j=1}^n$, $\det(V)=\prod_{1\le i<j\le n}(x_j-x_i)$. Critical in polynomial interpolation problems.</li>
+    <li><strong>Determinant of Skew‑Symmetric Matrix</strong> – For odd order $n$, $\det(A)=0$; for even order, $\det(A)=\big(\operatorname{Pf}(A)\big)^2$, where $\operatorname{Pf}$ denotes the Pfaffian.</li>
+    <li><strong>Matrix of Cofactors as a Linear Transformation</strong> – The map $A\mapsto \operatorname{adj}(A)$ is homogeneous of degree $n-1$ and appears in the theory of adjugate linear operators.</li>
   </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>det(A) = 0 ⇔ rows (or columns) of A are linearly dependent.</li>
-      <li>For a 2 × 2 matrix <strong>\begin{pmatrix}a&b\\c&d\end{pmatrix}</strong>, inverse exists only if <strong>ad‑bc ≠ 0</strong>.</li>
-      <li>det(AB) = det(A)·det(B) holds for any square matrices of the same order.</li>
-      <li>In a rotation matrix <strong>R(θ)</strong>, det(R) = 1 and R<sup>T</sup> = R⁻¹.</li>
-      <li>Hill cipher works only if det(K) is coprime with 26; otherwise the key matrix K is non‑invertible modulo 26.</li>
-      <li>Rank of a matrix equals the number of non‑zero rows after converting to row‑echelon form.</li>
-      <li>Vandermonde determinant formula is a quick way to evaluate determinants with powers of variables.</li>
-      <li>Adjugate of a matrix is the transpose of its cofactor matrix; useful for hand‑calculations of inverses.</li>
+      <li>Determinant of a triangular matrix = product of its diagonal entries.</li>
+      <li>Swapping two rows (or columns) flips the sign of the determinant.</li>
+      <li>A $3\times3$ determinant can be memorised using Sarrus’ rule for quick computation.</li>
+      <li>If any row or column is all zeros, the determinant is zero instantly.</li>
+      <li>For a $2\times2$ matrix $\begin{bmatrix}a&b\\c&d\end{bmatrix}$, inverse exists iff $ad-bc\neq0$.</li>
+      <li>Cramer's Rule is viable only when $\det(A)\neq0$; otherwise use row‑reduction.</li>
+      <li>Adjoint of $A$ is the transpose of its cofactor matrix – never the transpose of $A$ itself.</li>
+      <li>Determinant of an orthogonal matrix is always $+1$ or $-1$.</li>
+      <li>Block‑diagonal matrices split determinant calculation into independent blocks.</li>
+      <li>In a $4\times4$ matrix, expanding along a row/column with maximum zeros reduces computational load dramatically.</li>
     </ul>
   </div>
 </div>
@@ -2112,187 +3081,233 @@ EXPANDED_NOTES_DATA["syl-probability"] = `
     Probability Theory & Bayes Theorem
   </h3>
 
-  <h4><strong>1. Fundamental Concepts</strong></h4>
-  <p>Probability theory provides a quantitative description of uncertainty. In defence examinations, the emphasis is on *axiomatic* formulation, combinatorial techniques, and the ability to manipulate conditional probabilities quickly.</p>
+  <h4><strong>1. Foundations of Probability</strong></h4>
+  <p>In the context of the Indian defence examinations, a rigorous grasp of the axiomatic framework is indispensable. The modern theory rests on the <strong>[[Kolmogorov axioms]]</strong> (1933), which provide a mathematically consistent language for all subsequent derivations.</p>
+
   <ul>
-    <li><strong>Sample Space (Ω)</strong>: The set of all possible outcomes of an experiment. Example: For a fair die, Ω = {1,2,3,4,5,6}.</li>
-    <li><strong>Event</strong>: Any subset of Ω. Events are denoted by capital letters (A, B, …).</li>
-    <li><strong>Probability Measure (P)</strong>: A function <em>P: 2^Ω → [0,1]</em> satisfying the three Kolmogorov axioms:
+    <li><strong>Sample Space (<em>Ω</em>)</strong> – the set of all elementary outcomes of an experiment. <strong>[[Sample space]]</strong> is denoted by the Greek capital omega and may be finite, countably infinite, or uncountable.</li>
+    <li><strong>Event (<em>A, B, …</em>)</strong> – any subset of <em>Ω</em>. In exam language, events are often described in words (“the die shows an even number”).</li>
+    <li><strong>Probability Measure (<em>P</em>)</strong> – a function <em>P: 2^{Ω} → [0,1]</em> satisfying the three axioms:
       <ol>
-        <li><strong>Non‑negativity</strong>: <strong>P(A) ≥ 0</strong> for every event A.</li>
-        <li><strong>Normalization</strong>: <strong>P(Ω) = 1</strong>.</li>
-        <li><strong>σ‑additivity</strong>: For mutually exclusive events A₁, A₂, …, <strong>P(∪ Aᵢ) = Σ P(Aᵢ)</strong>.</li>
+        <li>Non‑negativity: <strong>$P(A) \ge 0 \;\; \forall A \subseteq Ω$</strong></li>
+        <li>Normalization: <strong>$P(Ω) = 1$</strong></li>
+        <li>Countable additivity: If <strong>$A_1, A_2, …$</strong> are pairwise disjoint, then <strong>$P\!\left(\bigcup_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} P(A_i)$</strong></li>
       </ol>
     </li>
   </ul>
 
-  <h4><strong>2. Classical, Relative Frequency, and Subjective Interpretations</strong></h4>
-  <p>Defence problems often state probabilities in the <em>classical</em> sense (equally likely outcomes). However, the <em>relative frequency</em> interpretation becomes relevant in repeated‑trial contexts, while the <em>subjective</em> approach underlies Bayesian analysis.</p>
+  <div class="important-box" style="background:#f9f9f9;border-left:4px solid var(--accent);padding:12px;margin:16px 0;">
+    <strong>Key Distinction:</strong> <strong>Independence</strong> and <strong>Mutual Exclusivity</strong> are not interchangeable. Independence concerns the product of probabilities; mutual exclusivity forces the intersection to be empty. Confusing the two leads to systematic errors in conditional calculations.
+  </div>
 
-  <h4><strong>3. Combinatorial Foundations</strong></h4>
-  <p>Counting techniques are indispensable for evaluating probabilities of compound events.</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:10px;">
-    <thead style="background:#2c2c3c; color:#fff;">
-      <tr>
-        <th style="border:1px solid #444; padding:6px;">Concept</th>
-        <th style="border:1px solid #444; padding:6px;">Formula</th>
-        <th style="border:1px solid #444; padding:6px;">Typical Use‑Case</th>
+  <h4><strong>2. Classical, Relative‑Frequency, and Subjective Definitions</strong></h4>
+  <p>While the <strong>[[Classical definition]]</strong> (equiprobable outcomes) is convenient for dice or cards, the <strong>[[Relative‑frequency definition]]</strong> aligns with empirical data: <strong>$P(A) = \lim_{n\to\infty}\frac{n_A}{n}$</strong>, where <em>n_A</em> counts occurrences of <em>A</em> in <em>n</em> trials. The <strong>[[Subjective definition]]</strong> interprets probability as a degree of belief, paving the way for Bayesian inference.</p>
+
+  <h4><strong>3. Conditional Probability</strong></h4>
+  <p>The cornerstone for Bayes’ theorem is the definition of conditional probability.</p>
+
+  <p><strong>$P(A\mid B) = \dfrac{P(A\cap B)}{P(B)}$</strong></p>
+
+  <ul>
+    <li><strong>Variables:</strong>
+      <ul>
+        <li><strong>$A$, $B$</strong> – events of interest.</li>
+        <li><strong>$P(A\cap B)$</strong> – joint probability that both $A$ and $B$ occur.</li>
+        <li><strong>$P(B)$</strong> – marginal probability of $B$, acting as the normalizing denominator.</li>
+      </ul>
+    </li>
+    <li><strong>Constraint:</strong> <strong>$P(B) > 0$</strong>. If $P(B)=0$, the conditional probability is undefined (a classic edge case).</li>
+  </ul>
+
+  <p>Derivation from axioms: Since $A\cap B \subseteq B$, the additivity axiom yields $P(B) = P(B\cap A) + P(B\cap A^{c})$. Dividing both sides by $P(B)$ (non‑zero) gives the definition above.</p>
+
+  <h4><strong>4. Multiplication Rule & Independence</strong></h4>
+  <p>Rearranging the conditional definition yields the multiplication rule:</p>
+
+  <p><strong>$P(A\cap B) = P(A) \, P(B\mid A) = P(B) \, P(A\mid B)$</strong></p>
+
+  <p>When <strong>$A$</strong> and <strong>$B$</strong> are <strong>independent</strong>, the conditional probability collapses to the marginal:</p>
+
+  <p><strong>$P(A\mid B) = P(A) \quad\Longleftrightarrow\quad P(A\cap B) = P(A)P(B)$</strong></p>
+
+  <table style="width:100%;border-collapse:collapse;margin:12px 0;">
+    <thead>
+      <tr style="background:#e0e0e0;">
+        <th style="border:1px solid #ccc;padding:6px;">Property</th>
+        <th style="border:1px solid #ccc;padding:6px;">Independent</th>
+        <th style="border:1px solid #ccc;padding:6px;">Mutually Exclusive</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="border:1px solid #444; padding:6px;"><strong>Permutation</strong></td>
-        <td style="border:1px solid #444; padding:6px;">P(n,r) = \(\frac{n!}{(n-r)!}\)</td>
-        <td style="border:1px solid #444; padding:6px;">Arranging 3 officers in 5 distinct posts.</td>
+        <td style="border:1px solid #ccc;padding:6px;"><strong>Definition</strong></td>
+        <td style="border:1px solid #ccc;padding:6px;">$P(A\cap B)=P(A)P(B)$</td>
+        <td style="border:1px solid #ccc;padding:6px;">$P(A\cap B)=0$</td>
       </tr>
       <tr>
-        <td style="border:1px solid #444; padding:6px;"><strong>Combination</strong></td>
-        <td style="border:1px solid #444; padding:6px;">C(n,r) = \(\binom{n}{r} = \frac{n!}{r!(n-r)!}\)</td>
-        <td style="border:1px solid #444; padding:6px;">Choosing 2 weapons from a stock of 7.</td>
+        <td style="border:1px solid #ccc;padding:6px;"><strong>Implication for $P(A\cup B)$</strong></td>
+        <td style="border:1px solid #ccc;padding:6px;">$P(A)+P(B)-P(A)P(B)$</td>
+        <td style="border:1px solid #ccc;padding:6px;">$P(A)+P(B)$</td>
       </tr>
       <tr>
-        <td style="border:1px solid #444; padding:6px;"><strong>Multinomial Coefficient</strong></td>
-        <td style="border:1px solid #444; padding:6px;">\(\frac{n!}{n_1!n_2!\dots n_k!}\)</td>
-        <td style="border:1px solid #444; padding:6px;">Distribution of 10 soldiers into 3 platoons of sizes 3,4,3.</td>
+        <td style="border:1px solid #ccc;padding:6px;"><strong>Typical Example</strong></td>
+        <td style="border:1px solid #ccc;padding:6px;">Coin tosses, dice rolls</td>
+        <td style="border:1px solid #ccc;padding:6px;">Drawing a red card <em>or</em> a black card from a single draw</td>
       </tr>
     </tbody>
   </table>
 
-  <h4><strong>4. Conditional Probability and Independence</strong></h4>
-  <p>The cornerstone of Bayes theorem is the notion of conditioning.</p>
-  <ul>
-    <li><strong>Conditional Probability</strong>: <strong>P(A|B) = \(\frac{P(A∩B)}{P(B)}\)</strong>, provided <strong>P(B) > 0</strong>. This definition is central to problems involving sequential decisions, such as “probability that a missile hits given that the radar detected it”.</li>
-    <li><strong>Multiplication Rule</strong>: <strong>P(A∩B) = P(A)·P(B|A) = P(B)·P(A|B)</strong>.</li>
-    <li><strong>Independence</strong>: Events A and B are independent iff <strong>P(A∩B) = P(A)·P(B)</strong> ⇔ <strong>P(A|B) = P(A)</strong> ⇔ <strong>P(B|A) = P(B)</strong>. Independence is often tested in reliability questions (e.g., failure of two independent subsystems).</li>
-  </ul>
+  <h4><strong>5. Law of Total Probability</strong></h4>
+  <p>Suppose $\{B_1, B_2, …, B_k\}$ forms a partition of $Ω$ (pairwise disjoint and $\bigcup_i B_i = Ω$). Then for any event $A$:</p>
 
-  <h4><strong>5. Total Probability Theorem</strong></h4>
-  <p>If \(\{B_1, B_2, …, B_k\}\) forms a partition of Ω with <strong>P(B_i) > 0</strong>, then for any event A:</p>
-  <p><strong>P(A) = Σ_{i=1}^{k} P(A|B_i)·P(B_i)</strong></p>
-  <p>This theorem is used heavily in multi‑stage selection problems (e.g., “probability that a recruit passes the physical test given the branch he belongs to”).</p>
+  <p><strong>$P(A) = \sum_{i=1}^{k} P(A\mid B_i) \, P(B_i)$</strong></p>
+
+  <ul>
+    <li><strong>Variables:</strong>
+      <ul>
+        <li><strong>$B_i$</strong> – mutually exclusive exhaustive events.</li>
+        <li><strong>$P(A\mid B_i)$</strong> – conditional probability of $A$ given $B_i$.</li>
+        <li><strong>$P(B_i)$</strong> – prior probability of $B_i$.</li>
+      </ul>
+    </li>
+    <li><strong>Constraint:</strong> $\sum_i P(B_i)=1$ and $P(B_i)\ge0$.</li>
+  </ul>
 
   <h4><strong>6. Bayes Theorem – Derivation & Interpretation</strong></h4>
-  <p>From the multiplication rule, swapping the conditioning yields:</p>
-  <p><strong>P(B_i|A) = \(\frac{P(A|B_i)·P(B_i)}{∑_{j=1}^{k} P(A|B_j)·P(B_j)}\)</strong></p>
-  <p>Key points:</p>
-  <ul>
-    <li><strong>Prior Probability (P(B_i))</strong>: Initial belief before observing data.</li>
-    <li><strong>Likelihood (P(A|B_i))</strong>: Probability of observed evidence given the hypothesis.</li>
-    <li><strong>Posterior Probability (P(B_i|A))</strong>: Updated belief after incorporating evidence.</li>
-  </ul>
-  <p>Historical note: The theorem is named after [[Thomas Bayes]] (1701‑1761) and was formalised by [[Pierre-Simon Laplace]] in the early 19th century.</p>
+  <p>Bayes’ theorem follows directly from the multiplication rule and the law of total probability.</p>
 
-  <h4><strong>7. Common Discrete Distributions</strong></h4>
-  <p>Understanding the shape of probability mass functions (PMFs) helps in quick calculation of expectations and variances.</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:10px;">
-    <thead style="background:#2c2c3c; color:#fff;">
-      <tr>
-        <th style="border:1px solid #444; padding:6px;">Distribution</th>
-        <th style="border:1px solid #444; padding:6px;">PMF</th>
-        <th style="border:1px solid #444; padding:6px;">Mean (μ)</th>
-        <th style="border:1px solid #444; padding:6px;">Variance (σ²)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border:1px solid #444; padding:6px;"><strong>[[Bernoulli trial]]</strong></td>
-        <td style="border:1px solid #444; padding:6px;">P(X=1)=p, P(X=0)=1−p</td>
-        <td style="border:1px solid #444; padding:6px;">p</td>
-        <td style="border:1px solid #444; padding:6px;">p(1−p)</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #444; padding:6px;"><strong>[[Binomial distribution]]</strong></td>
-        <td style="border:1px solid #444; padding:6px;">P(X=k)=\(\binom{n}{k}p^{k}(1-p)^{n-k}\)</td>
-        <td style="border:1px solid #444; padding:6px;">np</td>
-        <td style="border:1px solid #444; padding:6px;">np(1-p)</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #444; padding:6px;"><strong>[[Geometric distribution]]</strong></td>
-        <td style="border:1px solid #444; padding:6px;">P(X=k)= (1-p)^{k-1}p, k=1,2,…</td>
-        <td style="border:1px solid #444; padding:6px;">1/p</td>
-        <td style="border:1px solid #444; padding:6px;">(1-p)/p²</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #444; padding:6px;"><strong>[[Poisson distribution]]</strong></td>
-        <td style="border:1px solid #444; padding:6px;">P(X=k)=\(\frac{e^{-λ} λ^{k}}{k!}\)</td>
-        <td style="border:1px solid #444; padding:6px;">λ</td>
-        <td style="border:1px solid #444; padding:6px;">λ</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #444; padding:6px;"><strong>[[Hypergeometric distribution]]</strong></td>
-        <td style="border:1px solid #444; padding:6px;">P(X=k)=\(\frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}\)</td>
-        <td style="border:1px solid #444; padding:6px;">n·(K/N)</td>
-        <td style="border:1px solid #444; padding:6px;">n·(K/N)·(1−K/N)·\(\frac{N-n}{N-1}\)</td>
-      </tr>
-    </tbody>
-  </table>
+  <p>Starting with $P(B_i\mid A) = \dfrac{P(A\cap B_i)}{P(A)}$ and substituting $P(A\cap B_i) = P(A\mid B_i)P(B_i)$, we obtain:</p>
 
-  <h4><strong>8. Continuous Distributions & Central Limit Theorem</strong></h4>
+  <p><strong>
+  $P(B_i\mid A) = \dfrac{P(A\mid B_i)\,P(B_i)}{\displaystyle\sum_{j=1}^{k} P(A\mid B_j)\,P(B_j)}$
+  </strong></p>
+
   <ul>
-    <li><strong>[[Normal distribution]]</strong> (Gaussian): PDF = \(\frac{1}{σ\sqrt{2π}}e^{-\frac{(x-μ)^{2}}{2σ^{2}}}\). It is the limiting distribution for sums of i.i.d. variables (see [[Central Limit Theorem]]).</li>
-    <li>Key property: Approximately 68 % of data lie within ±1σ, 95 % within ±2σ, and 99.7 % within ±3σ – a fact often exploited in error‑margin questions.</li>
-    <li>Standardisation: \(Z = \frac{X-μ}{σ}\) transforms any normal variable to the standard normal \(N(0,1)\).</li>
+    <li><strong>Key Terminology</strong>
+      <ul>
+        <li><strong>Prior ($P(B_i)$)</strong> – initial belief before observing data.</li>
+        <li><strong>Likelihood ($P(A\mid B_i)$)</strong> – probability of data under hypothesis $B_i$.</li>
+        <li><strong>Evidence ($P(A)$)</strong> – normalizing constant, often called the marginal likelihood.</li>
+        <li><strong>Posterior ($P(B_i\mid A)$)</strong> – updated belief after incorporating data.</li>
+      </ul>
+    </li>
   </ul>
 
-  <h4><strong>9. Expectation, Variance & Moments</strong></h4>
-  <p>For a discrete random variable X with PMF p(x):</p>
-  <ul>
-    <li><strong>Expectation (Mean)</strong>: <strong>E[X] = Σ x·p(x)</strong>.</li>
-    <li><strong>Variance</strong>: <strong>Var(X) = E[(X−E[X])²] = Σ (x−μ)²·p(x)</strong>. Alternate formula: <strong>Var(X) = E[X²] − (E[X])²</strong>.</li>
-    <li><strong>Standard Deviation</strong>: σ = √Var(X).</li>
-  </ul>
-  <p>For continuous X with PDF f(x): replace sums by integrals.</p>
+  <p>Historical Note: Thomas Bayes (1701‑1761) first formulated the inverse probability problem in his posthumous essay “An Essay towards solving a Problem in the Doctrine of Chances”. Pierre‑Simon Laplace later popularized the theorem (1799) and introduced the term “Bayesian”. Understanding this lineage helps appreciate why the theorem is central to modern inference.</p>
 
-  <h4><strong>10. Inequalities Useful in Defence Exams</strong></h4>
+  <h4><strong>7. Edge Cases & Continuous Extensions</strong></h4>
   <ul>
-    <li><strong>Markov’s Inequality</strong>: For non‑negative X, <strong>P(X ≥ a) ≤ \(\frac{E[X]}{a}\)</strong>.</li>
-    <li><strong>Chebyshev’s Inequality</strong>: <strong>P(|X−μ| ≥ kσ) ≤ \(\frac{1}{k^{2}}\)</strong>. This bound is a staple for “minimum probability” type questions.</li>
-    <li><strong>Union Bound (Boole’s inequality)</strong>: <strong>P(∪ A_i) ≤ Σ P(A_i)</strong>.</li>
+    <li><strong>Zero‑Probability Conditioning</strong> – When $P(B)=0$, conditional probability is undefined. In the continuous case, we replace probabilities by densities: $f_{X|Y}(x|y)=\frac{f_{X,Y}(x,y)}{f_Y(y)}$, provided $f_Y(y)>0$.</li>
+    <li><strong>Multiple Hypotheses</strong> – The theorem extends naturally to $k$ hypotheses; the denominator becomes the sum over all $k$ likelihood‑prior products.</li>
+    <li><strong>Non‑informative Priors</strong> – In competitive exams, a uniform prior $P(B_i)=1/k$ is often assumed unless stated otherwise.</li>
+    <li><strong>Bayes’ Theorem for Odds</strong> – Using odds simplifies calculations: $\displaystyle\frac{P(B_i\mid A)}{P(B_j\mid A)} = \frac{P(A\mid B_i)}{P(A\mid B_j)}\times\frac{P(B_i)}{P(B_j)}$.</li>
   </ul>
 
-  <h4><strong>11. Practical Applications of Bayes Theorem in Defence Context</strong></h4>
-  <p>Bayesian updating appears in signal processing, target identification, and medical screening of personnel.</p>
+  <h4><strong>8. Real‑World Applications in Defence Context</strong></h4>
+  <ul>
+    <li><strong>Reliability of Radar Systems</strong> – Prior failure rates combined with observed false‑alarm data yield posterior reliability estimates.</li>
+    <li><strong>Intelligence Analysis</strong> – Bayesian updating refines threat probabilities as new satellite imagery arrives.</li>
+    <li><strong>Medical Screening for Personnel</strong> – Bayes theorem quantifies the probability a soldier is diseased after a test, crucial for deployment decisions.</li>
+  </ul>
+
+  <h4><strong>9. Worked Example 1 – Card Problem</strong></h4>
+  <p><strong>Problem:</strong> A standard deck of 52 cards is shuffled. One card is drawn and found to be a face card (J, Q, K). What is the probability that the card is a heart?</p>
+
+  <p><strong>Solution:</strong></p>
   <ol>
-    <li><strong>Radar Detection</strong>: Let D be “radar detects aircraft”, T be “aircraft actually present”. With known false‑alarm rate (α) and detection probability (β), posterior probability of actual presence is <strong>P(T|D) = \(\frac{β·P(T)}{β·P(T)+α·(1-P(T))}\)</strong>.</li>
-    <li><strong>Intelligence Fusion</strong>: Multiple sources S₁, S₂,… provide evidence about a threat. Using successive Bayes updates yields a refined posterior that guides operational decisions.</li>
-    <li><strong>Medical Screening</strong>: For a disease with prevalence p, test sensitivity s, and specificity c, the probability that a soldier is truly diseased given a positive test is <strong>P(Disease|Positive) = \(\frac{s·p}{s·p + (1-c)·(1-p)}\)</strong>.</li>
+    <li>Define events:
+      <ul>
+        <li><strong>$H$</strong>: “card is a heart”. $P(H)=\frac{13}{52}= \frac{1}{4}$.</li>
+        <li><strong>$F$</strong>: “card is a face card”. There are $3$ face cards per suit, $12$ total, so $P(F)=\frac{12}{52}= \frac{3}{13}$.</li>
+      </ul>
+    </li>
+    <li>Find $P(F\mid H)$: given the card is a heart, probability it is a face card = $\frac{3}{13}$ (since 3 of the 13 hearts are faces).</li>
+    <li>Apply Bayes theorem:
+      <p><strong>
+      $P(H\mid F)=\dfrac{P(F\mid H)P(H)}{P(F)}=
+      \dfrac{\frac{3}{13}\times\frac{1}{4}}{\frac{3}{13}}=\frac{1}{4}$
+      </strong></p>
+    </li>
+    <li>Interpretation: The knowledge that the card is a face does not change the heart probability because face cards are uniformly distributed across suits.</li>
   </ol>
 
-  <h4><strong>12. Solving Strategy for Probability Problems</strong></h4>
-  <ul style="list-style-type:decimal;">
-    <li><strong>Step 1 – Define Ω and Identify Events.</strong> Write events in set notation; e.g., A = “draw a red card”.</li>
-    <li><strong>Step 2 – Choose the Appropriate Counting Method.</strong> Use permutations for ordered selections, combinations for unordered, and multinomial for multiple categories.</li>
-    <li><strong>Step 3 – Apply the Correct Probability Formula.</strong> For equally likely outcomes, <strong>P(A) = \(\frac{|A|}{|Ω|}\)</strong>. For non‑uniform cases, use given weights.</li>
-    <li><strong>Step 4 – Check Independence.</strong> Verify if P(A∩B) equals P(A)·P(B); if not, compute conditional probabilities.</li>
-    <li><strong>Step 5 – Use Total Probability Theorem if Multiple Paths Exist.</strong> Decompose the event into disjoint cases.</li>
-    <li><strong>Step 6 – Apply Bayes Theorem for Reverse‑Condition Queries.</strong> Explicitly write prior, likelihood, and normalising denominator.</li>
-    <li><strong>Step 7 – Compute Expectation/Variance if Required.</strong> Use linearity of expectation: E[aX+bY] = aE[X] + bE[Y].</li>
-    <li><strong>Step 8 – Validate with Bounds.</strong> Quick sanity‑check using Markov or Chebyshev inequalities.</li>
+  <h4><strong>10. Worked Example 2 – Medical Test (Defence Personnel Health)</strong></h4>
+  <p><strong>Problem:</strong> A disease affects $2\%$ of soldiers. A diagnostic test has $95\%$ sensitivity (true‑positive rate) and $90\%$ specificity (true‑negative rate). A soldier tests positive. What is the probability he actually has the disease?</p>
+
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li>Define events:
+      <ul>
+        <li><strong>$D$</strong>: “soldier has disease”. $P(D)=0.02$.</li>
+        <li><strong>$\overline{D}$</strong>: “soldier is disease‑free”. $P(\overline{D})=0.98$.</li>
+        <li><strong>$T$</strong>: “test result is positive”.</li>
+      </ul>
+    </li>
+    <li>Conditional probabilities:
+      <ul>
+        <li><strong>Sensitivity</strong> $=P(T\mid D)=0.95$.</li>
+        <li><strong>Specificity</strong> $=P(T^{c}\mid\overline{D})=0.90 \;\Rightarrow\; P(T\mid\overline{D})=0.10$ (false‑positive rate).</li>
+      </ul>
+    </li>
+    <li>Compute the evidence using the law of total probability:
+      <p><strong>
+      $P(T)=P(T\mid D)P(D)+P(T\mid\overline{D})P(\overline{D})
+      =0.95(0.02)+0.10(0.98)=0.019+0.098=0.117$
+      </strong></p>
+    </li>
+    <li>Apply Bayes theorem:
+      <p><strong>
+      $P(D\mid T)=\dfrac{P(T\mid D)P(D)}{P(T)}=
+      \dfrac{0.95\times0.02}{0.117}\approx0.162\;(16.2\%)
+      </strong></p>
+    </li>
+    <li>Interpretation: Despite a high‑accuracy test, the posterior probability is only $16\%$ because the disease prevalence is low – a classic illustration of the “base‑rate fallacy”.</li>
+  </ol>
+
+  <h4><strong>11. Common Mistakes</strong></h4>
+  <ul>
+    <li><strong>Ignoring the denominator in $P(A\mid B)=\frac{P(A\cap B)}{P(B)}$</strong> – leads to over‑estimation of conditional probabilities.</li>
+    <li><strong>Confusing independence with mutual exclusivity</strong> – assuming $P(A\cap B)=0$ when events are independent, which yields a zero joint probability erroneously.</li>
+    <li><strong>Using the prior $P(B_i)$ as $1$ instead of $1/k$</strong> in multi‑hypothesis Bayes problems, producing inflated posteriors.</li>
+    <li><strong>Neglecting the “evidence” term $P(A)$</strong> in Bayes theorem, which results in forgetting to normalize over all hypotheses.</li>
   </ul>
 
-  <h4><strong>13. Frequently Used Formulas (Quick Reference)</strong></h4>
+  <h4><strong>12. Shortcuts & Tricks for Competitive Exams</strong></h4>
   <ul>
-    <li><strong>Permutation</strong>: P(n,r) = n!/(n‑r)!</li>
-    <li><strong>Combination</strong>: C(n,r) = n!/[r!(n‑r)!]</li>
-    <li><strong>Binomial Expansion</strong>: (p+q)ⁿ = Σ C(n,k) pᵏ qⁿ⁻ᵏ</li>
-    <li><strong>Bayes Theorem</strong>: P(H|E) = \(\frac{P(E|H)·P(H)}{∑_{i} P(E|H_i)·P(H_i)}\)</li>
-    <li><strong>Expectation of Binomial</strong>: μ = np</li>
-    <li><strong>Variance of Binomial</strong>: σ² = np(1‑p)</li>
-    <li><strong>Poisson Approximation</strong>: For large n, small p with λ = np, Binomial ≈ Poisson(λ)</li>
-    <li><strong>Normal Approximation</strong>: For Binomial, use μ = np, σ = √[np(1‑p)] and apply continuity correction.</li>
+    <li><strong>Complement Rule Shortcut</strong>: $P(A)=1-P(A^{c})$. Useful when $A^{c}$ has fewer outcomes.</li>
+    <li><strong>Tree Diagram Method</strong>: For sequential events, draw a probability tree; the product of branch probabilities directly gives joint and conditional probabilities.</li>
+    <li><strong>Odds Form of Bayes</strong>: Compute posterior odds as <em>prior odds × likelihood ratio</em>. This avoids dealing with the denominator explicitly when only a ratio is required.</li>
+    <li><strong>Symmetry Trick</strong>: If the problem is symmetric (e.g., drawing a card from a well‑shuffled deck), the probability often equals the unconditional probability, saving time.</li>
+    <li><strong>“Quick Bayes” Formula for Two‑Hypothesis Cases</strong>:
+      <p><strong>
+      $P(H\mid D)=\frac{1}{1+\frac{P(\overline{H})}{P(H)}\times\frac{P(D\mid\overline{H})}{P(D\mid H)}}$
+      </strong></p>
+      This reduces mental arithmetic to a single fraction.</li>
+  </ul>
+
+  <h4><strong>13. Historical & Conceptual Nuggets</strong></h4>
+  <p>Understanding the evolution of probability enriches problem‑solving intuition:</p>
+  <ul>
+    <li><strong>[[Gerolamo Cardano]]</strong> (16th c) – earliest systematic study of dice games.</li>
+    <li><strong>[[Pierre de Fermat]]</strong> and <strong>[[Blaise Pascal]]</strong> (1654) – correspondence that founded the <em>classical</em> probability model.</li>
+    <li><strong>[[Thomas Bayes]]</strong> – introduced the inverse probability problem; his posthumous essay (1763) laid the groundwork.</li>
+    <li><strong>[[Pierre‑Simon Laplace]]</strong> – formalized Bayesian inference and coined the term “probability” in its modern sense.</li>
+    <li><strong>[[Andrey Kolmogorov]]</strong> – axiomatized probability, making the theory rigorous for all later applications.</li>
   </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>For a fair die, <strong>P(at least one 6 in three throws) = 1‑(5/6)³ = 91/216</strong>.</li>
-      <li>In a binomial setting, the probability of exactly k successes is <strong>P = C(n,k)·pᵏ·(1‑p)ⁿ⁻ᵏ</strong>.</li>
-      <li>Chebyshev’s inequality guarantees that at least 75 % of observations lie within 2σ of the mean for any distribution.</li>
-      <li>Bayes theorem applied to radar: posterior = \(\frac{P_D·P_{target}}{P_D·P_{target}+P_{FA}·(1-P_{target})}\).</li>
-      <li>Poisson parameter λ equals the mean number of events in the interval; variance = λ as well.</li>
-      <li>Standard normal Z‑score of 1.96 corresponds to a two‑tailed 95 % confidence level.</li>
-      <li>For independent events A and B, <strong>P(A∪B) = P(A)+P(B)‑P(A)·P(B)</strong>.</li>
-      <li>Markov’s inequality provides an upper bound: <strong>P(X≥a) ≤ E[X]/a</strong> for non‑negative X.</li>
+      <li><strong>Complement Rule:</strong> $P(A)=1-P(A^{c})$ – use when $A^{c}$ is easier.</li>
+      <li><strong>Bayes for Two Events:</strong> $P(H\mid D)=\frac{P(D\mid H)P(H)}{P(D\mid H)P(H)+P(D\mid\overline{H})P(\overline{H})}$.</li>
+      <li><strong>Independence Test:</strong> If $P(A\mid B)=P(A)$ then $A$ and $B$ are independent.</li>
+      <li><strong>Mutual Exclusivity Test:</strong> If $P(A\cap B)=0$ then $A$ and $B$ cannot occur together.</li>
+      <li><strong>Law of Total Probability:</strong> For a partition $\{B_i\}$, $P(A)=\sum_i P(A\mid B_i)P(B_i)$.</li>
+      <li><strong>Base‑Rate Fallacy:</strong> Low prior probability can dominate high test accuracy, yielding low posterior.</li>
+      <li><strong>Odds Form:</strong> Posterior odds = Prior odds × Likelihood ratio.</li>
+      <li><strong>Quick Bayes Shortcut:</strong> Use $\displaystyle\frac{1}{1+\frac{P(\overline{H})}{P(H)}\frac{P(D\mid\overline{H})}{P(D\mid H)}}$ for two‑hypothesis problems.</li>
+      <li><strong>Tree Diagram:</strong> Multiply along a path for joint probabilities; sum over paths for total probability.</li>
+      <li><strong>Zero‑Probability Conditioning:</strong> If $P(B)=0$, conditional probability is undefined – avoid dividing by zero.</li>
     </ul>
   </div>
 </div>
@@ -2304,230 +3319,107 @@ EXPANDED_NOTES_DATA["lines-angles-triangles"] = `
     Lines, Angles & Triangles
   </h3>
 
-  <h4><strong>Fundamental Definitions</strong></h4>
-  <p>
-    In Euclidean plane geometry, a <strong>line</strong> is an infinite set of points extending in both directions without curvature. Two distinct points uniquely determine a line (<em>postulatum</em> of [[Euclid]]'s <strong>Elements</strong>, Book I, Proposition 1). A <strong>segment</strong> is a finite portion of a line bounded by two endpoints, while a <strong>ray</strong> starts at an endpoint and extends infinitely in one direction.
-  </p>
+  <h4>Introduction to Lines and Angles</h4>
+  <p>In geometry, a <strong>line</strong> is a set of points that extend infinitely in two directions. It has no thickness or width, only length. An <strong>angle</strong> is formed when two lines intersect at a point. The study of lines and angles is fundamental to understanding more complex geometric shapes, including triangles.</p>
+  <p>The measurement of an angle is typically expressed in degrees ($^\circ$), with $360^\circ$ representing a full rotation. The <strong>sum of the interior angles</strong> of a triangle is always $180^\circ$, as given by the formula: $m\angle A + m\angle B + m\angle C = 180^\circ$, where $m\angle$ denotes the measure of an angle.</p>
+
+  <h4>Properties of Lines</h4>
   <ul>
-    <li><strong>Collinear</strong> points lie on the same straight line.</li>
-    <li><strong>Concurrent</strong> lines intersect at a single point.</li>
-    <li><strong>Parallel</strong> lines have equal slopes and never intersect (<strong>Euclid’s Fifth Postulate</strong>).</li>
-    <li><strong>Perpendicular</strong> lines intersect to form a right angle (90°).</li>
+    <li><strong>Parallel lines</strong> are lines that lie in the same plane and never intersect, no matter how far they are extended. The symbol $\parallel$ is used to denote parallel lines, e.g., $AB \parallel CD$.</li>
+    <li><strong>Perpendicular lines</strong> are lines that intersect at a right angle ($90^\circ$). The symbol $\perp$ is used to denote perpendicular lines, e.g., $AB \perp CD$.</li>
+    <li><strong>Transversal lines</strong> are lines that intersect two or more other lines. Transversals can be used to determine whether two lines are parallel or not based on the angles formed.</li>
   </ul>
 
-  <h4><strong>Angle Classification and Relations</strong></h4>
-  <p>
-    An <strong>angle</strong> is formed by two rays sharing a common vertex. Angles are measured in degrees (°) or radians (rad). Key classifications:
-  </p>
+  <h4>Types of Angles</h4>
+  <p>Angles can be classified based on their measure:</p>
   <ul>
-    <li><strong>Acute</strong> – < 90°</li>
-    <li><strong>Right</strong> – exactly 90°</li>
-    <li><strong>Obtuse</strong> – > 90° and < 180°</li>
-    <li><strong>Straight</strong> – 180°</li>
-    <li><strong>Reflex</strong> – > 180° and < 360°</li>
-  </ul>
-  <p>
-    Important relationships:
-  </p>
-  <ul>
-    <li><strong>Adjacent angles</strong> share a common side and vertex.</li>
-    <li><strong>Vertical (opposite) angles</strong> are equal when two lines intersect.</li>
-    <li><strong>Complementary angles</strong> sum to 90°; <strong>supplementary angles</strong> sum to 180°.</li>
-    <li><strong>Exterior angle theorem</strong>: An exterior angle of a triangle equals the sum of the two non‑adjacent interior angles.</li>
+    <li><strong>Acute angles</strong> are angles whose measure is between $0^\circ$ and $90^\circ$ ($0^\circ < m\angle < 90^\circ$).</li>
+    <li><strong>Right angles</strong> are angles whose measure is exactly $90^\circ$ ($m\angle = 90^\circ$).</li>
+    <li><strong>Obtuse angles</strong> are angles whose measure is between $90^\circ$ and $180^\circ$ ($90^\circ < m\angle < 180^\circ$).</li>
+    <li><strong>Straight angles</strong> are angles whose measure is exactly $180^\circ$ ($m\angle = 180^\circ$).</li>
   </ul>
 
-  <h4><strong>Coordinate Geometry of Lines</strong></h4>
-  <p>
-    In the Cartesian plane, a line can be expressed as <strong>y = mx + c</strong>, where <strong>m</strong> denotes the <strong>slope</strong> (rise over run) and <strong>c</strong> the <strong>y‑intercept</strong>. The slope between points <strong>(x₁, y₁)</strong> and <strong>(x₂, y₂)</strong> is:
-  </p>
-  <p style="font-style: italic;">m = (y₂ – y₁) / (x₂ – x₁)</p>
-  <p>
-    Parallelism ⇔ equal slopes (<strong>m₁ = m₂</strong>); perpendicularity ⇔ product of slopes = –1 (<strong>m₁·m₂ = –1</strong>).
-  </p>
-  <p>
-    The <strong>distance formula</strong> between two points is derived from the Pythagorean theorem:
-  </p>
-  <p style="font-style: italic;">d = √[(x₂ – x₁)² + (y₂ – y₁)²]</p>
-  <p>
-    The <strong>section formula</strong> (internal division) for a point dividing the line segment joining <strong>A(x₁, y₁)</strong> and <strong>B(x₂, y₂)</strong> in the ratio <strong>m:n</strong> is:
-  </p>
-  <p style="font-style: italic;">P( (mx₂ + nx₁)/(m+n) , (my₂ + ny₁)/(m+n) )</p>
-
-  <h4><strong>Triangle Fundamentals</strong></h4>
-  <p>
-    A <strong>triangle</strong> is a polygon with three sides and three interior angles. The sum of interior angles is invariant:
-  </p>
-  <p style="font-style: italic;">∠A + ∠B + ∠C = 180°</p>
-  <p>
-    Triangles are classified by sides and angles:
-  </p>
-  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; margin-top: 10px;">
-    <thead>
-      <tr style="background:#f0f0f0;">
-        <th>Classification (by sides)</th>
-        <th>Definition</th>
-        <th>Examples</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Equilateral</strong></td>
-        <td>All three sides equal (<strong>a = b = c</strong>) and all angles 60°.</td>
-        <td>[[Equilateral triangle]] in tessellations.</td>
-      </tr>
-      <tr>
-        <td><strong>Isosceles</strong></td>
-        <td>Two sides equal (<strong>a = b ≠ c</strong>); base angles equal.</td>
-        <td>[[Isosceles triangle]] in bridge design.</td>
-      </tr>
-      <tr>
-        <td><strong>Scalene</strong></td>
-        <td>No sides equal; all angles distinct.</td>
-        <td>Typical survey triangles.</td>
-      </tr>
-    </tbody>
+  <h4>Triangles</h4>
+  <p>A <strong>triangle</strong> is a polygon with three sides. The sum of the lengths of any two sides of a triangle must be greater than the length of the third side, known as the <strong>triangle inequality theorem</strong>. This can be expressed as: $AB + BC > AC$, $AB + AC > BC$, and $BC + AC > AB$.</p>
+  <p>Triangles can be classified based on their sides and angles:</p>
+  <table>
+    <tr>
+      <th>Type of Triangle</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><strong>Equilateral Triangle</strong></td>
+      <td>All sides are equal ($AB = BC = AC$), and all angles are $60^\circ$.</td>
+    </tr>
+    <tr>
+      <td><strong>Isosceles Triangle</strong></td>
+      <td>Two sides are equal ($AB = AC$ or $AB = BC$ or $BC = AC$), and the base angles are equal.</td>
+    </tr>
+    <tr>
+      <td><strong>Scalene Triangle</strong></td>
+      <td>All sides are of different lengths ($AB \neq BC \neq AC$), and all angles are of different measures.</td>
+    </tr>
   </table>
 
-  <p>
-    By angles:
-  </p>
+  <h4>Angle Sum Property of Triangles</h4>
+  <p>The sum of the interior angles of a triangle is always $180^\circ$. This property can be used to find the measure of the third angle if the measures of two angles are known. The formula for the angle sum property is: $m\angle A + m\angle B + m\angle C = 180^\circ$.</p>
+  <p>For example, if $m\angle A = 60^\circ$ and $m\angle B = 80^\circ$, then $m\angle C = 180^\circ - (60^\circ + 80^\circ) = 40^\circ$.</p>
+
+  <h4>Derivation of the Angle Sum Property</h4>
+  <p>The angle sum property can be derived by considering a triangle $ABC$ and drawing a line through $A$ parallel to $BC$. This creates two alternate interior angles, $\angle BAD$ and $\angle CAD$, which are equal in measure. Since $\angle BAC$ is an exterior angle to the triangle $BCD$, it is equal to the sum of the remote interior angles, $\angle BCD$ and $\angle CBD$. By substitution, we get: $m\angle BAC = m\angle BCD + m\angle CBD$. Similarly, $m\angle ABC = m\angle ACD + m\angle CAD$ and $m\angle ACB = m\angle ABD + m\angle BAD$. Adding these three equations gives: $m\angle BAC + m\angle ABC + m\angle ACB = m\angle BCD + m\angle CBD + m\angle ACD + m\angle ABD + m\angle CAD + m\angle BAD$. Since $\angle BCD$, $\angle CBD$, $\angle ACD$, $\angle ABD$, $\angle CAD$, and $\angle BAD$ form a straight line, their sum is $180^\circ$. Therefore, $m\angle BAC + m\angle ABC + m\angle ACB = 180^\circ$.</p>
+
+  <h4>Worked Examples</h4>
+  <p><strong>Example 1:</strong> In a triangle $ABC$, $m\angle A = 50^\circ$ and $m\angle B = 70^\circ$. Find the measure of $\angle C$.</p>
+  <p>Solution: Using the angle sum property, $m\angle A + m\angle B + m\angle C = 180^\circ$. Substituting the given values, $50^\circ + 70^\circ + m\angle C = 180^\circ$. Solving for $m\angle C$, $m\angle C = 180^\circ - (50^\circ + 70^\circ) = 60^\circ$.</p>
+  <p><strong>Example 2:</strong> In a triangle $PQR$, $m\angle P = 30^\circ$ and $m\angle Q = 60^\circ$. Find the measure of $\angle R$.</p>
+  <p>Solution: Using the angle sum property, $m\angle P + m\angle Q + m\angle R = 180^\circ$. Substituting the given values, $30^\circ + 60^\circ + m\angle R = 180^\circ$. Solving for $m\angle R$, $m\angle R = 180^\circ - (30^\circ + 60^\circ) = 90^\circ$.</p>
+
+  <h4>Common Mistakes</h4>
   <ul>
-    <li><strong>Acute triangle</strong> – all angles < 90°.</li>
-    <li><strong>Right triangle</strong> – one angle = 90°.</li>
-    <li><strong>Obtuse triangle</strong> – one angle > 90°.</li>
+    <li>Forgetting to consider the <strong>triangle inequality theorem</strong> when determining the possible lengths of the sides of a triangle.</li>
+    <li>Not checking whether the given angles can form a valid triangle, i.e., whether their sum is $180^\circ$.</li>
+    <li>Incorrectly applying the <strong>angle sum property</strong> by not considering all three angles of the triangle.</li>
+    <li>Not using the correct units when measuring angles, such as using radians instead of degrees or vice versa.</li>
   </ul>
 
-  <h4><strong>Congruence & Similarity Criteria</strong></h4>
-  <p>
-    Two triangles are <strong>congruent</strong> (identical in size and shape) if any of the following hold:
-  </p>
+  <h4>Shortcuts & Tricks</h4>
   <ul>
-    <li><strong>SSS</strong> – three corresponding sides equal.</li>
-    <li><strong>SAS</strong> – two sides and the included angle equal.</li>
-    <li><strong>ASA</strong> – two angles and the included side equal.</li>
-    <li><strong>AAS</strong> – two angles and a non‑included side equal.</li>
-    <li><strong>RHS</strong> – right‑angle–hypotenuse–side (applicable to right triangles).</li>
-  </ul>
-  <p>
-    <strong>Similarity</strong> (same shape, different size) requires:
-  </p>
-  <ul>
-    <li><strong>AA</strong> – two angles equal.</li>
-    <li><strong>SSS (proportional)</strong> – corresponding sides in same ratio.</li>
-    <li><strong>SAS (proportional)</strong> – two sides in proportion and the included angle equal.</li>
+    <li>Using the <strong>angle sum property</strong> to quickly find the measure of the third angle in a triangle.</li>
+    <li>Applying the <strong>triangle inequality theorem</strong> to eliminate impossible combinations of side lengths.</li>
+    <li>Recognizing common <strong>angle relationships</strong>, such as complementary, supplementary, and corresponding angles, to simplify calculations.</li>
+    <li>Utilizing <strong>geometric properties</strong>, such as the properties of isosceles and equilateral triangles, to find angle measures and side lengths.</li>
   </ul>
 
-  <h4><strong>Key Theorems Involving Triangles</strong></h4>
+  <h4>Real-World Applications</h4>
+  <p>The study of lines, angles, and triangles has numerous real-world applications in fields such as:</p>
   <ul>
-    <li><strong>Pythagorean theorem</strong> (attributed to [[Pythagoras]], c. 530 BCE): In a right triangle, <strong>a² + b² = c²</strong> where <strong>c</strong> is the hypotenuse.</li>
-    <li><strong>Law of Sines</strong> (proved by [[Leonhard Euler]] in 1748): <strong>a/ sin A = b/ sin B = c/ sin C = 2R</strong>, where <strong>R</strong> is the circumradius.</li>
-    <li><strong>Law of Cosines</strong> (generalisation of Pythagoras, discovered by [[Johann Friedrich Wilhelm von Lobachevsky]] in 1840): <strong>c² = a² + b² – 2ab cos C</strong>.</li>
-    <li><strong>Triangle Inequality Theorem</strong> (formalised by [[Euclid]]): The sum of any two sides exceeds the third side.</li>
-    <li><strong>Ceva’s Theorem</strong> (1846, [[Giovanni Ceva]]): For concurrent cevians AD, BE, CF in ΔABC, <strong>(BD/DC)·(CE/EA)·(AF/FB) = 1</strong>.</li>
-    <li><strong>Menelaus’ Theorem</strong> (1845, [[Menelaus of Alexandria]]): For a transversal intersecting the sides of ΔABC, <strong>(AF/FB)·(BD/DC)·(CE/EA) = 1</strong>.</li>
-    <li><strong>Stewart’s Theorem</strong> (1846, [[Stewart McKinnon]]): Relates a cevian length to the sides of the triangle.</li>
-    <li><strong>Heron’s Formula</strong> (c. 60 CE, [[Hero of Alexandria]]): Area = √[s(s–a)(s–b)(s–c)], where <strong>s = (a+b+c)/2</strong> is the semiperimeter.</li>
+    <li><strong>Architecture</strong>: designing buildings, bridges, and other structures that require precise measurements and angles.</li>
+    <li><strong>Engineering</strong>: developing machines, mechanisms, and systems that rely on geometric principles.</li>
+    <li><strong>Physics</strong>: understanding the motion of objects, forces, and energies, which often involve geometric concepts.</li>
+    <li><strong>Computer Science</strong>: creating graphics, animations, and simulations that require geometric transformations and calculations.</li>
   </ul>
 
-  <h4><strong>Special Points & Lines in a Triangle</strong></h4>
-  <p>
-    Geometry of a triangle includes several notable points, each defined by unique constructions:
-  </p>
-  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; margin-top: 10px;">
-    <thead>
-      <tr style="background:#e8e8e8;">
-        <th>Point</th>
-        <th>Construction</th>
-        <th>Key Property</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Centroid (G)</strong></td>
-        <td>Intersection of the three <strong>medians</strong> (each connects a vertex to the midpoint of opposite side).</td>
-        <td>Divides each median in a 2:1 ratio (vertex to centroid : centroid to midpoint).</td>
-      </tr>
-      <tr>
-        <td><strong>Circumcenter (O)</strong></td>
-        <td>Intersection of the three <strong>perpendicular bisectors</strong> of the sides.</td>
-        <td>Equidistant from all vertices; centre of the circumscribed circle.</td>
-      </tr>
-      <tr>
-        <td><strong>Incenter (I)</strong></td>
-        <td>Intersection of the three <strong>angle bisectors</strong>.</td>
-        <td>Equidistant from all sides; centre of the inscribed circle.</td>
-      </tr>
-      <tr>
-        <td><strong>Orthocenter (H)</strong></td>
-        <td>Intersection of the three <strong>altitudes</strong> (perpendiculars from vertices to opposite sides).</td>
-        <td>Location varies with triangle type (inside for acute, on hypotenuse for right, outside for obtuse).</td>
-      </tr>
-      <tr>
-        <td><strong>Euler Line</strong></td>
-        <td>Line passing through <strong>O</strong>, <strong>G</strong>, and <strong>H</strong> (except in equilateral triangles where they coincide).</td>
-        <td>OG : GH = 1 : 2.</td>
-      </tr>
-      <tr>
-        <td><strong>Nine‑Point Circle</strong></td>
-        <td>Circle passing through the midpoints of sides, foot of altitudes, and midpoints of segments from vertices to orthocenter.</td>
-        <td>Radius = R/2, where <strong>R</strong> is circumradius.</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="important-box">
+    <p>It is essential to understand the fundamental concepts of lines, angles, and triangles, as they form the basis for more advanced geometric and mathematical topics, such as [[Trigonometric Identities]], [[Coordinate Geometry]], and [[Vector Calculus]].</p>
+  </div>
 
-  <h4><strong>Area Formulas for Triangles</strong></h4>
-  <ul>
-    <li><strong>Base × Height / 2</strong>: <strong>Δ = ½ b h</strong>, universally applicable.</li>
-    <li><strong>Trigonometric Form</strong>: <strong>Δ = ½ ab sin C</strong> (useful when two sides and included angle are known).</li>
-    <li><strong>Heron’s Formula</strong> (see above) – useful for side‑only data.</li>
-    <li><strong>Coordinate Method</strong>: For vertices <strong>(x₁, y₁)</strong>, <strong>(x₂, y₂)</strong>, <strong>(x₃, y₃)</strong>,
-      <p style="font-style: italic;">Δ = ½ |x₁(y₂–y₃) + x₂(y₃–y₁) + x₃(y₁–y₂)|</p>
-    </li>
-  </ul>
-
-  <h4><strong>Advanced Topics: Angle Bisectors & Perpendicular Bisectors</strong></h4>
-  <p>
-    The <strong>Angle Bisector Theorem</strong> states that the internal bisector of ∠A divides the opposite side BC into segments proportional to the adjacent sides:
-  </p>
-  <p style="font-style: italic;">BD/DC = AB/AC</p>
-  <p>
-    The external bisector divides BC externally in the same ratio, but with opposite sign.
-  </p>
-  <p>
-    The <strong>Perpendicular Bisector Theorem</strong> asserts that any point on the perpendicular bisector of a segment is equidistant from its endpoints. This theorem underlies the construction of the circumcenter.
-  </p>
-
-  <h4><strong>Historical Milestones in Plane Geometry</strong></h4>
-  <ul>
-    <li>~300 BCE – [[Euclid]] compiles <strong>Elements</strong>, establishing axiomatic geometry.</li>
-    <li>c. 530 BCE – [[Pythagoras]] formulates the relation among sides of a right triangle.</li>
-    <li>1640 – [[René Descartes]] publishes <em>La Géométrie</em>, linking algebra and geometry via coordinate system.</li>
-    <li>1822 – [[Carl Friedrich Gauss]] proves the <strong>Fundamental Theorem of Algebra</strong>, influencing analytic geometry.</li>
-    <li>1845–46 – [[Giovanni Ceva]] and [[Menelaus of Alexandria]] formalise concurrency and collinearity conditions for cevians.</li>
-    <li>1854 – [[Augustin-Louis Cauchy]] introduces rigorous proofs for triangle inequalities.</li>
-    <li>1905 – [[David Hilbert]] presents a modern axiomatization, addressing Euclid’s implicit assumptions.</li>
-  </ul>
-
-  <h4><strong>Common Pitfalls & Quick Checks</strong></h4>
-  <ul>
-    <li>Never assume a triangle is right‑angled unless a 90° angle is explicitly given or derivable.</li>
-    <li>When applying the <strong>Law of Sines</strong>, verify that the obtained angle lies within the valid range (0°–180°) and respects the triangle sum condition.</li>
-    <li>In coordinate geometry, always check the sign of slope product for perpendicularity – a sign error flips the relationship.</li>
-    <li>Remember that the <strong>triangle inequality</strong> must be satisfied for any three lengths to represent a valid triangle.</li>
-    <li>For concurrency problems, Ceva’s theorem requires careful handling of directed segments (positive for interior division, negative for exterior).</li>
-  </ul>
+  <h4>Conclusion</h4>
+  <p>In conclusion, the study of lines, angles, and triangles is a crucial part of geometry and mathematics. Understanding the properties, relationships, and applications of these concepts is vital for problem-solving and critical thinking. By mastering these topics, individuals can develop a strong foundation for further mathematical and scientific studies.</p>
+  <p>Some key terms related to this topic include: [[Geometry]], [[Trigonometry]], [[Algebra]], [[Coordinate Geometry]], and [[Vector Calculus]].</p>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>Sum of interior angles of any triangle = <strong>180°</strong>.</li>
-      <li>In a right triangle, <strong>a² + b² = c²</strong> (Pythagorean theorem).</li>
-      <li>Area = <strong>½ ab sin C</strong> – useful when two sides and the included angle are known.</li>
-      <li>Centroid divides each median in the ratio <strong>2:1</strong> (vertex to centroid).</li>
-      <li>Euler line passes through <strong>O, G, H</strong> with <strong>OG : GH = 1 : 2</strong>.</li>
-      <li>Angle bisector divides opposite side proportionally: <strong>BD/DC = AB/AC</strong>.</li>
-      <li>Perpendicular bisector theorem: any point on it is equidistant from the segment’s endpoints.</li>
-      <li>Heron’s formula: <strong>Δ = √[s(s–a)(s–b)(s–c)]</strong>, where <strong>s = (a+b+c)/2</strong>.</li>
+      <li>The sum of the interior angles of a triangle is always $180^\circ$.</li>
+      <li>The triangle inequality theorem states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.</li>
+      <li>Parallel lines never intersect and have equal corresponding angles.</li>
+      <li>Perpendicular lines intersect at a right angle ($90^\circ$).</li>
+      <li>The angle sum property can be used to find the measure of the third angle in a triangle.</li>
+      <li>Isosceles triangles have two equal sides and two equal base angles.</li>
+      <li>Equilateral triangles have all sides equal and all angles equal to $60^\circ$.</li>
+      <li>Scalene triangles have all sides of different lengths and all angles of different measures.</li>
+      <li>The study of lines, angles, and triangles has numerous real-world applications in fields such as architecture, engineering, physics, and computer science.</li>
+      <li>Understanding geometric concepts, such as [[Trigonometric Identities]] and [[Coordinate Geometry]], is essential for problem-solving and critical thinking.</li>
     </ul>
   </div>
 </div>
@@ -2539,135 +3431,226 @@ EXPANDED_NOTES_DATA["circles-polygons"] = `
     Circles & Polygons
   </h3>
 
-  <h4>Fundamental Definitions</h4>
+  <h4><strong>1. Fundamental Definitions and Notations</strong></h4>
   <ul>
-    <li><strong>[[Circle]]</strong>: The set of all points in a plane at a fixed distance <strong>r</strong> (radius) from a fixed point <strong>O</strong> (center).</li>
-    <li><strong>[[Polygon]]</strong>: A closed planar figure composed of a finite number of straight line segments called <strong>sides</strong>, joined end‑to‑end.</li>
-    <li><strong>[[Regular polygon]]</strong>: A polygon that is both <strong>equiangular</strong> (all interior angles equal) and <strong>equilateral</strong> (all sides equal).</li>
-    <li><strong>[[Diameter]]</strong> (d): The longest chord passing through the centre; d = 2r.</li>
-    <li><strong>[[Chord]]</strong>: Any line segment whose endpoints lie on the circle.</li>
-    <li><strong>[[Tangent]]</strong>: A line that touches the circle at exactly one point; it is perpendicular to the radius at the point of contact.</li>
-    <li><strong>[[Secant]]</strong>: A line intersecting a circle at two distinct points.</li>
+    <li><strong>[[Circle]]</strong>: The set of all points in a plane at a fixed distance <strong>$r$</strong> (the <strong>[[Radius]]</strong>) from a fixed point called the <strong>[[Center]]</strong> <strong>$O$</strong>.</li>
+    <li><strong>[[Diameter]]</strong> (<strong>$d$</strong>) = <strong>2$r$</strong>; passes through <strong>$O$</strong> and is the longest chord.</li>
+    <li><strong>[[Chord]]</strong>: Any line segment whose endpoints lie on the circle. The longest chord is the diameter.</li>
+    <li><strong>[[Tangent]]</strong>: A line that touches the circle at exactly one point <strong>$T$</strong>. It satisfies <strong>$OT \perp$</strong> the tangent at <strong>$T$</strong>.</li>
+    <li><strong>[[Secant]]</strong>: A line intersecting the circle at two distinct points <strong>$A$</strong> and <strong>$B$</strong>.</li>
+    <li><strong>[[Arc]]</strong> (<strong>$\widehat{AB}$</strong>): The part of the circumference between two points <strong>$A$</strong> and <strong>$B$</strong>. Its length is proportional to the central angle subtended.</li>
+    <li><strong>[[Sector]]</strong> (<strong>$\text{Sector }AOB$</strong>): Region bounded by two radii <strong>$OA$</strong>, <strong>$OB$</strong> and the included arc <strong>$\widehat{AB}$</strong>.</li>
+    <li><strong>[[Segment]]</strong> (<strong>$\text{Segment }AB$</strong>): Region bounded by a chord <strong>$AB$</strong> and the corresponding arc.</li>
+    <li><strong>[[Polygon]]</strong>: A closed planar figure formed by a finite number of straight line segments called <strong>edges</strong> or <strong>sides</strong>.</li>
+    <li><strong>[[Regular Polygon]]</strong>: A polygon with all sides equal and all interior angles equal.</li>
   </ul>
 
-  <h4>Key Theorems for Circles</h4>
+  <h4><strong>2. Core Circle Formulas – Derivations from First Principles</strong></h4>
+  <ol>
+    <li><strong>Circumference</strong>:
+      <ul>
+        <li>Definition: The length of the closed curve.</li>
+        <li>Formula: $$C = 2\pi r = \pi d$$</li>
+        <li>Derivation: Consider a regular polygon inscribed in the circle with $n$ sides of length $s_n$. As $n\to\infty$, the perimeter of the polygon tends to the circumference. Using the limit $ \displaystyle\lim_{n\to\infty} n s_n = 2\pi r$, we obtain the formula.</li>
+      </ul>
+    </li>
+    <li><strong>Area</strong>:
+      <ul>
+        <li>Formula: $$A = \pi r^{2}$$</li>
+        <li>Derivation via integration in polar coordinates:
+          $$A = \int_{0}^{2\pi}\int_{0}^{r} \rho \, d\rho \, d\theta = \int_{0}^{2\pi}\left[\frac{\rho^{2}}{2}\right]_{0}^{r} d\theta = \int_{0}^{2\pi}\frac{r^{2}}{2} d\theta = \pi r^{2}$$</li>
+        <li>Alternative geometric proof: Partition the circle into $n$ equal sectors, rearrange them to approximate a rectangle of dimensions $\pi r$ and $r$, then let $n\to\infty$.</li>
+      </ul>
+    </li>
+    <li><strong>Length of an Arc</strong>:
+      <ul>
+        <li>Let the central angle be $\theta$ (in radians). Then $$\ell = r\theta$$</li>
+        <li>Constraint: $0\le \theta \le 2\pi$ for a simple arc.</li>
+        <li>Derivation: By definition of radian measure, one radian subtends an arc equal in length to the radius. Scaling yields the formula.</li>
+      </ul>
+    </li>
+    <li><strong>Area of a Sector</strong>:
+      <ul>
+        <li>Formula: $$A_{\text{sector}} = \frac{1}{2}r^{2}\theta$$</li>
+        <li>Derivation: Ratio of sector area to total circle area equals ratio of central angle to full angle $2\pi$: $$\frac{A_{\text{sector}}}{\pi r^{2}} = \frac{\theta}{2\pi}\;\Rightarrow\;A_{\text{sector}} = \frac{\theta}{2\pi}\pi r^{2}= \frac{1}{2}r^{2}\theta$$</li>
+      </ul>
+    </li>
+    <li><strong>Area of a Segment</strong>:
+      <ul>
+        <li>Let the subtended angle be $\theta$ (in radians). Then
+          $$A_{\text{segment}} = \frac{1}{2}r^{2}(\theta-\sin\theta)$$</li>
+        <li>Derivation: Subtract the area of the isosceles triangle $OAB$ (area $=\frac{1}{2}r^{2}\sin\theta$) from the sector area.</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h4><strong>3. Polygonal Relations – Inscribed and Circumscribed Circles</strong></h4>
+  <div class="important-box" style="background:#f9f9f9;border-left:4px solid #ff9800;padding:10px;margin:15px 0;">
+    <strong>Key Distinction:</strong> An <em>inscribed circle</em> (incircle) touches each side of the polygon, while a <em>circumscribed circle</em> (circumcircle) passes through all vertices. Not every polygon admits both; only <strong>tangential</strong> polygons have an incircle, and only <strong>cyclic</strong> polygons have a circumcircle.
+  </div>
+
   <ul>
-    <li><strong>[[Central angle theorem]]</strong>: The measure of a central angle is equal to the measure of its intercepted arc.</li>
-    <li><strong>[[Inscribed angle theorem]]</strong>: An inscribed angle is half the measure of its intercepted arc (or central angle). <em>∠ABC = ½·arc AC</em>.</li>
-    <li><strong>[[Thales' theorem]]</strong> (c. 600 BC): If a triangle is inscribed in a circle with one side as diameter, the triangle is right‑angled at the opposite vertex.</li>
-    <li><strong>[[Chord theorem]]</strong>: Equal chords subtend equal arcs; conversely, equal arcs subtend equal chords.</li>
-    <li><strong>[[Power of a point theorem]]</strong>: For a point P outside the circle, <strong>PA·PB = PT²</strong> where PA and PB are the lengths of the secant segment and PT is the length of the tangent from P.</li>
-    <li><strong>[[Tangent‑secant theorem]]</strong>: If a tangent PT and a secant PAB intersect the circle, then <strong>PT² = PA·PB</strong>.</li>
-    <li><strong>[[Cyclic quadrilateral theorem]]</strong>: Opposite angles of a cyclic quadrilateral sum to 180° (supplementary).</li>
+    <li><strong>Incircle Radius (<strong>$r$</strong>) for a Tangential Polygon</strong>:
+      $$r = \frac{2A}{P}$$
+      where <strong>$A$</strong> is the polygon area and <strong>$P$</strong> its perimeter. Derivation follows from summing the areas of $n$ triangles formed by the incenter and each side.
+    </li>
+    <li><strong>Circumradius (<strong>$R$</strong>) for a Cyclic Polygon</strong>:
+      For a triangle with sides $a,b,c$, $$R = \frac{abc}{4\Delta}$$ where $\Delta$ is the triangle area. Generalization for regular $n$‑gon:
+      $$R = \frac{s}{2\sin\frac{\pi}{n}}$$
+      with $s$ the side length.</li>
+    <li><strong>Area of a Regular $n$‑gon</strong>:
+      $$A = \frac{1}{2}nR^{2}\sin\frac{2\pi}{n} = \frac{1}{4}ns^{2}\cot\frac{\pi}{n}$$
+      Derivation: Split the polygon into $n$ isosceles triangles sharing the center; sum their areas.</li>
+    <li><strong>Perimeter of a Regular $n$‑gon</strong>:
+      $$P = ns$$</li>
   </ul>
 
-  <h4>Analytic Geometry of Circles</h4>
-  <p>In the Cartesian plane, the standard equation of a circle with centre <strong>(h, k)</strong> and radius <strong>r</strong> is:</p>
-  <p><strong>(x − h)² + (y − k)² = r²</strong></p>
-  <p>The general quadratic form <strong>x² + y² + Dx + Ey + F = 0</strong> represents a circle provided <strong>D² + E² − 4F > 0</strong>. Completing the square yields the centre and radius:</p>
-  <table border="1" cellpadding="5" cellspacing="0" style="margin: 12px 0;">
-    <tr><th>Parameter</th><th>Expression</th></tr>
-    <tr><td>Centre (h, k)</td><td>h = −D/2, k = −E/2</td></tr>
-    <tr><td>Radius r</td><td>r = √(h² + k² − F)</td></tr>
+  <h4><strong>4. Comparative Table – Regular Polygons</strong></h4>
+  <table style="width:100%;border-collapse:collapse;margin:12px 0;">
+    <thead>
+      <tr style="background:#e0e0e0;">
+        <th style="border:1px solid #bbb;padding:6px;">Polygon</th>
+        <th style="border:1px solid #bbb;padding:6px;">Sides ($n$)</th>
+        <th style="border:1px solid #bbb;padding:6px;">Side Length ($s$)</th>
+        <th style="border:1px solid #bbb;padding:6px;">Circumradius ($R$)</th>
+        <th style="border:1px solid #bbb;padding:6px;">Inradius ($r$)</th>
+        <th style="border:1px solid #bbb;padding:6px;">Area ($A$)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border:1px solid #bbb;padding:6px;"><strong>Equilateral Triangle</strong></td>
+        <td style="border:1px solid #bbb;padding:6px;">3</td>
+        <td style="border:1px solid #bbb;padding:6px;">$s$</td>
+        <td style="border:1px solid #bbb;padding:6px;">$\displaystyle \frac{s}{\sqrt{3}}$</td>
+        <td style="border:1px solid #bbb;padding:6px;">$\displaystyle \frac{s}{2\sqrt{3}}$</td>
+        <td style="border:1px solid #bbb;padding:6px;">$\displaystyle \frac{\sqrt{3}}{4}s^{2}$</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #bbb;padding:6px;"><strong>Square</strong></td>
+        <td style="border:1px solid #bbb;padding:6px;">4</td>
+        <td style="border:1px solid #bbb;padding:6px;">$s$</td>
+        <td style="border:1px solid #bbb;padding:6px;">$\displaystyle \frac{s}{\sqrt{2}}$</td>
+        <td style="border:1px solid #bbb;padding:6px;">$\displaystyle \frac{s}{2}$</td>
+        <td style="border:1px solid #bbb;padding:6px;">$s^{2}$</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #bbb;padding:6px;"><strong>Regular Hexagon</strong></td>
+        <td style="border:1px solid #bbb;padding:6px;">6</td>
+        <td style="border:1px solid #bbb;padding:6px;">$s$</td>
+        <td style="border:1px solid #bbb;padding:6px;">$s$</td>
+        <td style="border:1px solid #bbb;padding:6px;">$\displaystyle \frac{\sqrt{3}}{2}s$</td>
+        <td style="border:1px solid #bbb;padding:6px;">$\displaystyle \frac{3\sqrt{3}}{2}s^{2}$</td>
+      </tr>
+    </tbody>
   </table>
-  <p>Important derived formulas:</p>
-  <ul>
-    <li>Length of a chord at distance <strong>d</strong> from the centre: <strong>c = 2√(r² − d²)</strong>.</li>
-    <li>Area of a sector with central angle <strong>θ (in radians)</strong>: <strong>A_sector = ½ r²θ</strong>.</li>
-    <li>Area of a segment (sector minus triangle): <strong>A_segment = ½ r²(θ − sinθ)</strong>.</li>
-    <li>Circumference: <strong>C = 2πr</strong>, where π = 3.1415926535… (known as [[Archimedes' constant]]).</li>
-  </ul>
 
-  <h4>Polygonal Geometry – General Relations</h4>
+  <h4><strong>5. Advanced Theorems Involving Circles</strong></h4>
   <ul>
-    <li>Sum of interior angles of an n‑sided polygon: <strong>(n − 2)·180°</strong>.</li>
-    <li>Sum of exterior angles (one per vertex): always <strong>360°</strong>, irrespective of n.</li>
-    <li>For a regular n‑gon with side length <strong>a</strong> and circumradius <strong>R</strong>:
+    <li><strong>[[Power of a Point]]</strong>:
       <ul>
-        <li>Side length: <strong>a = 2R·sin(π/n)</strong>.</li>
-        <li>Apothem (inradius) <strong>r = R·cos(π/n)</strong>.</li>
-        <li>Area: <strong>A = ½·n·a·r = ½·n·R²·sin(2π/n)</strong>.</li>
-        <li>Perimeter: <strong>P = n·a</strong>.</li>
+        <li>For a point $P$ outside the circle, if two secants $PA$ and $PB$ intersect the circle at $A,B$ and $C,D$ respectively, then $$PA\cdot PB = PC\cdot PD$$</li>
+        <li>For a point inside, if two chords intersect at $P$, $$PA\cdot PB = PC\cdot PD$$</li>
       </ul>
     </li>
-    <li>Relation between circumradius R, inradius r, and side a for a regular polygon:
-      <strong>R = a/(2·sin(π/n)), r = a/(2·tan(π/n))</strong>.</li>
+    <li><strong>[[Ptolemy's theorem]] (Cyclic Quadrilateral)</strong>:
+      $$AC\cdot BD = AB\cdot CD + AD\cdot BC$$</li>
+    <li><strong>[[Brahmagupta's formula]] for cyclic quadrilaterals</strong>:
+      $$\Delta = \sqrt{(s-a)(s-b)(s-c)(s-d)}$$ where $s=\frac{a+b+c+d}{2}$.</li>
+    <li><strong>[[Angle Bisector Theorem]] in a triangle</strong>:
+      $$\frac{AB}{AC} = \frac{BD}{DC}$$ where $BD$ and $DC$ are the segments created by the internal bisector of $\angle A$.</li>
+    <li><strong>[[Euler's line]]</strong> in any non‑equilateral triangle: the centroid $G$, circumcenter $O$, and orthocenter $H$ are collinear with $OG:GH = 1:2$.</li>
   </ul>
 
-  <h4>Special Polygons and Their Circle Relations</h4>
-  <h5>Triangles</h5>
+  <h4><strong>6. Common Mistakes</strong></h4>
   <ul>
-    <li><strong>[[Circumcircle]]</strong> (circumradius R): Exists for any triangle. Using the law of sines,
-      <strong>R = a/(2·sin A) = b/(2·sin B) = c/(2·sin C)</strong>.</li>
-    <li><strong>[[Incircle]]</strong> (inradius r): Radius of the circle tangent to all three sides. Formula:
-      <strong>r = Δ/s</strong>, where Δ is the area (via Heron) and s is the semiperimeter <strong>(a+b+c)/2</strong>.</li>
-    <li>Euler’s formula for triangle: <strong>R ≥ 2r</strong>, equality holds for an equilateral triangle.</li>
-    <li>Power of a point for a triangle’s circumcenter O: <strong>OA² = R²</strong>.</li>
+    <li><strong>Confusing radius and diameter</strong>: Many students substitute $d$ where $r$ is required, leading to a factor of $2$ error in area or circumference.</li>
+    <li><strong>Using degree measure in radian‑based formulas</strong>: The arc length $r\theta$ and sector area $\frac12 r^{2}\theta$ demand $\theta$ in radians. Forgetting to convert yields a $\frac{180}{\pi}$ error.</li>
+    <li><strong>Assuming every polygon is cyclic</strong>: Only polygons satisfying the equal‑opposite‑angle condition (for quadrilaterals) or having a common circumradius are cyclic. Applying circumradius formulas to a non‑cyclic quadrilateral yields incorrect results.</li>
+    <li><strong>Neglecting the sign of $\sin\theta$ in segment area</strong>: For $\theta> \pi$, the formula $\frac12 r^{2}(\theta-\sin\theta)$ must use the principal value of $\theta$ (i.e., $\theta$ reduced modulo $2\pi$) to avoid negative area.</li>
   </ul>
 
-  <h5>Quadrilaterals</h5>
-  <ul>
-    <li><strong>[[Cyclic quadrilateral]]</strong>: A quadrilateral that can be inscribed in a circle. Opposite angles sum to 180°.</li>
-    <li>Area (Brahmagupta’s formula) for a cyclic quadrilateral with sides a, b, c, d and semiperimeter s:
-      <strong>Δ = √[(s‑a)(s‑b)(s‑c)(s‑d)]</strong>.</li>
-    <li>For a square (regular quadrilateral), R = a·√2/2, r = a·√2/2·(1/2) = a·√2/4, and R = 2r.</li>
-  </ul>
+  <h4><strong>7. Shortcuts & Tricks for Competitive Exams</strong></h4>
+  <ol>
+    <li><strong>Quick Circumradius of a Right Triangle</strong>: For a right‑angled triangle with hypotenuse $c$, the circumradius is $$R = \frac{c}{2}$$ because the hypotenuse is the diameter of the circumcircle.</li>
+    <li><strong>Fast Area of a Regular Polygon using Inradius</strong>: Use $$A = \frac{1}{2}Pr$$ where $P$ is perimeter and $r$ is inradius. This avoids trigonometric calculations.</li>
+    <li><strong>Chord Length from Central Angle</strong>:
+      $$\text{Chord} = 2r\sin\frac{\theta}{2}$$
+      Memorise the $2\sin\frac{\theta}{2}$ pattern; it reduces computation time.</li>
+    <li><strong>Power of a Point Shortcut</strong>: When a tangent $PT$ and a secant $PAB$ are drawn from the same external point $P$, the relation simplifies to $$PT^{2}=PA\cdot PB$$ eliminating one multiplication.</li>
+    <li><strong>Area of a Cyclic Quadrilateral</strong>: If the quadrilateral is a rectangle, $R$ is half the diagonal; otherwise, use Brahmagupta’s formula directly with semiperimeter $s$.</li>
+    <li><strong>Using Symmetry in Regular Polygons</strong>: For a regular $n$‑gon, the distance from any vertex to the centre is $R$, and the distance from the centre to any side is $r = R\cos\frac{\pi}{n}$. This allows rapid computation of $R$ or $r$ once one is known.</li>
+  </ol>
 
-  <h5>Regular Hexagon and Octagon</h5>
-  <ul>
-    <li>Regular hexagon inscribed in a circle of radius R has side a = R; area = (3√3/2)R².</li>
-    <li>Regular octagon inscribed in a circle of radius R has side a = R·√2 · (1 − 1/√2); area = 2R²·(1 + √2).</li>
-  </ul>
+  <h4><strong>8. Worked Example 1 – Finding the Length of a Chord</strong></h4>
+  <p><strong>Problem:</strong> In a circle of radius $r = 10\ \text{cm}$, the central angle subtended by a chord is $120^\circ$. Find the chord length.</p>
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li>Convert the angle to radians: $$\theta = 120^\circ \times \frac{\pi}{180^\circ}= \frac{2\pi}{3}\ \text{rad}$$</li>
+    <li>Apply the chord formula $$\text{Chord}=2r\sin\frac{\theta}{2}$$</li>
+    <li>Compute the half‑angle: $$\frac{\theta}{2}= \frac{1}{2}\cdot\frac{2\pi}{3}= \frac{\pi}{3}$$</li>
+    <li>Evaluate the sine: $$\sin\frac{\pi}{3}= \frac{\sqrt{3}}{2}$$</li>
+    <li>Substitute:
+      $$\text{Chord}=2\times 10\ \text{cm}\times\frac{\sqrt{3}}{2}=10\sqrt{3}\ \text{cm}\approx 17.32\ \text{cm}$$</li>
+  </ol>
+  <p><strong>Key Points:</strong> Always convert degrees to radians before using the chord formula; the factor $2r$ emerges from the law of sines applied to the isosceles triangle $OAB$.</p>
 
-  <h4>Important Geometric Constants and Formulas</h4>
-  <ul>
-    <li>[[Pythagoras' theorem]]: In a right‑angled triangle, <strong>a² + b² = c²</strong>.</li>
-    <li>[[Heron's formula]]: For any triangle with sides a, b, c and semiperimeter s,
-      <strong>Δ = √[s(s‑a)(s‑b)(s‑c)]</strong>.</li>
-    <li>[[Euler's formula]] for polyhedra (V − E + F = 2) is useful when relating 3‑D extensions of polygons, though not directly tested in NDA geometry.</li>
-    <li>[[Euclid's Elements]] (c. 300 BC) provides the axiomatic foundation for all the theorems listed above.</li>
-  </ul>
-
-  <h4>Coordinate Geometry – Common Constructions</h4>
-  <ul>
-    <li><strong>Finding the equation of a circle through three non‑collinear points</strong>:
-      <ol>
-        <li>Write the general form <strong>x² + y² + Dx + Ey + F = 0</strong> for each point.</li>
-        <li>Solve the resulting linear system for D, E, F.</li>
-        <li>Convert to centre‑radius form using the completion of squares.</li>
-      </ol>
-    </li>
-    <li><strong>Circle–line intersection</strong>:
+  <h4><strong>9. Worked Example 2 – Area of a Cyclic Quadrilateral (Brahmagupta)</strong></h4>
+  <p><strong>Problem:</strong> A quadrilateral has sides $a=7\ \text{cm},\ b=9\ \text{cm},\ c=8\ \text{cm},\ d=6\ \text{cm}$ and is known to be cyclic. Compute its area.</p>
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li>Compute the semiperimeter:
+      $$s=\frac{a+b+c+d}{2}= \frac{7+9+8+6}{2}= \frac{30}{2}=15\ \text{cm}$$</li>
+    <li>Apply Brahmagupta’s formula:
+      $$\Delta = \sqrt{(s-a)(s-b)(s-c)(s-d)}$$</li>
+    <li>Calculate each factor:
       <ul>
-        <li>Substitute the line equation <strong>y = mx + c</strong> into the circle equation and solve the quadratic in x.</li>
-        <li>The discriminant Δ determines the nature of intersection: Δ > 0 (two points), Δ = 0 (tangent), Δ < 0 (no real intersection).</li>
+        <li>$s-a = 15-7 = 8$</li>
+        <li>$s-b = 15-9 = 6$</li>
+        <li>$s-c = 15-8 = 7$</li>
+        <li>$s-d = 15-6 = 9$</li>
       </ul>
     </li>
-    <li><strong>Orthogonal circles</strong>: Two circles are orthogonal if the tangents at their intersection points are perpendicular. Condition:
-      <strong>(O₁O₂)² = R₁² + R₂²</strong>, where O₁O₂ is the distance between centres.</li>
-  </ul>
+    <li>Multiply: $$8\times6\times7\times9 = (8\times6)(7\times9)=48\times63=3024$$</li>
+    <li>Take the square root:
+      $$\Delta = \sqrt{3024}= \sqrt{16\times189}=4\sqrt{189}=4\sqrt{9\times21}=12\sqrt{21}\ \text{cm}^{2}\approx 55.0\ \text{cm}^{2}$$</li>
+  </ol>
+  <p><strong>Verification:</strong> Since all sides satisfy the cyclic condition (opposite angles sum to $180^\circ$), the formula is valid. Any deviation would invalidate the result.</p>
 
-  <h4>Advanced Topics Frequently Appearing in NDA/CDS/AFCAT</h4>
+  <h4><strong>10. Interplay Between Circles and Polygons – Special Cases</strong></h4>
   <ul>
-    <li><strong>Radical axis</strong> of two circles: The locus of points having equal power w.r.t. both circles; it is a straight line perpendicular to the line of centres.</li>
-    <li><strong>Radical centre</strong>: The common point of radical axes of three non‑concentric circles.</li>
-    <li><strong>In‑circle and ex‑circle of a triangle</strong>: Ex‑circle opposite vertex A has radius <strong>r_a = Δ/(s − a)</strong>.</li>
-    <li><strong>Area of a regular polygon using the apothem</strong>:
-      <strong>A = ½·P·r</strong>, where P is perimeter and r is apothem (inradius).</li>
-    <li><strong>Inscribed polygon area maximisation</strong>: Among all n‑gons inscribed in a given circle, the regular n‑gon has the maximum area.</li>
+    <li><strong>Inscribed Regular Polygon in a Circle</strong>:
+      <ul>
+        <li>Side length: $$s = 2R\sin\frac{\pi}{n}$$</li>
+        <li>Area: $$A = \frac{1}{2}nR^{2}\sin\frac{2\pi}{n}$$</li>
+        <li>When $n\to\infty$, $s\to 0$ and $A\to \pi R^{2}$, confirming the circle as the limit of regular polygons.</li>
+      </ul>
+    </li>
+    <li><strong>Circumscribed Polygon about a Circle</strong>:
+      <ul>
+        <li>Side length: $$s = 2r\tan\frac{\pi}{n}$$ where $r$ is the inradius.</li>
+        <li>Area: $$A = nr^{2}\tan\frac{\pi}{n}$$</li>
+        <li>As $n\to\infty$, the polygon approaches the same circle, providing a second proof of the area formula.</li>
+      </ul>
+    </li>
+    <li><strong>Euler’s Formula for a Triangle</strong> linking circumradius $R$, inradius $r$, and side $a$:
+      $$R = \frac{abc}{4\Delta},\qquad r = \frac{2\Delta}{a+b+c}$$
+      Combining yields $$R\ge 2r$$ with equality only for the equilateral triangle.</li>
   </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>In a circle, the length of a chord at distance d from the centre is <strong>2√(r² − d²)</strong>.</li>
-      <li>For any triangle, <strong>R ≥ 2r</strong>; equality holds only for an equilateral triangle.</li>
-      <li>Sum of interior angles of an n‑sided polygon = <strong>(n − 2)·180°</strong>.</li>
-      <li>Area of a sector = <strong>½ r²θ</strong> (θ in radians); area of a segment = <strong>½ r²(θ − sinθ)</strong>.</li>
-      <li>Opposite angles of a cyclic quadrilateral sum to <strong>180°</strong>.</li>
-      <li>Equation of a circle with centre (h,k) is <strong>(x − h)² + (y − k)² = r²</strong>.</li>
-      <li>Length of side of a regular n‑gon inscribed in a circle of radius R: <strong>a = 2R·sin(π/n)</strong>.</li>
-      <li>Power of a point theorem: For point P outside the circle, <strong>PA·PB = PT²</strong>.</li>
+      <li>For any right‑angled triangle, the hypotenuse equals the diameter of its circumcircle ($R=\frac{c}{2}$).</li>
+      <li>Chord length formula: $2r\sin\frac{\theta}{2}$ (θ in radians).</li>
+      <li>Area of a sector: $\frac12 r^{2}\theta$; remember θ must be in radians.</li>
+      <li>Power of a point: $PT^{2}=PA\cdot PB$ when a tangent and a secant are drawn from the same external point.</li>
+      <li>Brahmagupta’s formula applies only to cyclic quadrilaterals.</li>
+      <li>In a regular $n$‑gon, $R = \frac{s}{2\sin\frac{\pi}{n}}$ and $r = \frac{s}{2\tan\frac{\pi}{n}}$.</li>
+      <li>Euler’s inequality $R\ge 2r$ with equality for an equilateral triangle.</li>
+      <li>Area of a circle can be derived quickly via $A = \pi r^{2}$; memorize $\pi\approx 22/7$ for quick mental calculation.</li>
+      <li>When two chords intersect inside a circle, the products of the segments are equal ($PA\cdot PB = PC\cdot PD$).</li>
+      <li>For a regular polygon, $\displaystyle A = \frac{1}{4}ns^{2}\cot\frac{\pi}{n}$ is a fast way to compute area without trigonometric tables.</li>
     </ul>
   </div>
 </div>
@@ -2679,179 +3662,230 @@ EXPANDED_NOTES_DATA["area-perimeter"] = `
     2D Figures: Area & Perimeter
   </h3>
 
-  <h4>Fundamental Concepts</h4>
-  <p>In the context of Indian defence examinations, <strong>mensuration</strong> is a high‑yield topic because it tests quick‑recall of formulas and the ability to apply them under time pressure. The two basic geometric attributes are:</p>
+  <h4>1. <strong>Foundational Concepts</strong></h4>
   <ul>
-    <li><strong>Perimeter</strong> – the total length of the boundary of a figure. It is a linear measure and is additive for composite figures.</li>
-    <li><strong>Area</strong> – the measure of the region enclosed by the boundary. It is expressed in square units and often involves trigonometric or algebraic manipulation.</li>
+    <li><strong>Area</strong> (<em>area</em>) of a plane figure is the measure of the region enclosed by its boundary, expressed in square units (<strong>sq units</strong>).</li>
+    <li><strong>Perimeter</strong> (<em>perimetrium</em>) is the total length of the boundary of a figure, expressed in linear units.</li>
+    <li>All formulas assume the figure lies on a Cartesian plane unless otherwise stated; units must be consistent throughout the computation.</li>
+    <li>In competitive examinations, the <strong>standard unit</strong> is usually centimeters (<strong>cm</strong>) or meters (<strong>m</strong>), but the numerical value is independent of the unit.</li>
   </ul>
-  <p>The relationship between the two is not linear; a small increase in perimeter can cause a large change in area, a fact frequently exploited in optimisation problems.</p>
 
-  <h4>Standard Shapes and Their Formulas</h4>
-  <p>Memorise the following table; it covers all shapes that appear in the NDA, CDS and AFCAT syllabi.</p>
+  <h4>2. <strong>General Formulas for Simple Polygons</strong></h4>
+  <ul>
+    <li><strong>Square</strong> – side length <strong>a</strong>:
+      <ul>
+        <li>Area: $$A = a^{2}$$ where $a>0$.</li>
+        <li>Perimeter: $$P = 4a$$.</li>
+      </ul>
+    </li>
+    <li><strong>Rectangle</strong> – length <strong>l</strong>, breadth <strong>b</strong>:
+      <ul>
+        <li>Area: $$A = l\;b$$ with $l,b>0$.</li>
+        <li>Perimeter: $$P = 2(l+b)$$.</li>
+      </ul>
+    </li>
+    <li><strong>Parallelogram</strong> – base <strong>b</strong>, height <strong>h</strong>:
+      <ul>
+        <li>Area: $$A = b\;h$$ (height measured perpendicular to the base).</li>
+        <li>Perimeter: $$P = 2(a+b)$$ where $a$ and $b$ are the lengths of the adjacent sides.</li>
+      </ul>
+    </li>
+    <li><strong>Rhombus</strong> – side <strong>s</strong>, diagonals <strong>d_{1}</strong> and <strong>d_{2}</strong>:
+      <ul>
+        <li>Area (using diagonals): $$A = \frac{d_{1}d_{2}}{2}$$.</li>
+        <li>Area (using side and altitude): $$A = s\;h$$.</li>
+        <li>Perimeter: $$P = 4s$$.</li>
+      </ul>
+    </li>
+    <li><strong>Triangle</strong> – sides $a,b,c$ and altitude $h_{a}$ to side $a$:
+      <ul>
+        <li>Area (base–height): $$A = \frac{1}{2}a\,h_{a}$$.</li>
+        <li>Area (Heron’s formula): $$A = \sqrt{s(s-a)(s-b)(s-c)}$$ where $s = \frac{a+b+c}{2}$ is the semiperimeter.</li>
+        <li>Perimeter: $$P = a+b+c$$.</li>
+      </ul>
+    </li>
+    <li><strong>Circle</strong> – radius <strong>r</strong>:
+      <ul>
+        <li>Area: $$A = \pi r^{2}$$.</li>
+        <li>Circumference (perimeter): $$C = 2\pi r = \pi d$$ where $d=2r$.</li>
+      </ul>
+    </li>
+    <li><strong>Ellipse</strong> – semi‑major axis <strong>a</strong>, semi‑minor axis <strong>b</strong>:
+      <ul>
+        <li>Area: $$A = \pi a b$$.</li>
+        <li>Approximate perimeter (Ramanujan’s second approximation): $$P \approx \pi\bigl[\,3(a+b)-\sqrt{(3a+b)(a+3b)}\,\bigr]$$.</li>
+      </ul>
+    </li>
+  </ul>
 
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <thead>
-      <tr style="background:#2a2a3a;">
-        <th style="padding:8px; border:1px solid #444;"><strong>Shape</strong></th>
-        <th style="padding:8px; border:1px solid #444;"><strong>Perimeter / Circumference</strong></th>
-        <th style="padding:8px; border:1px solid #444;"><strong>Area</strong></th>
+  <h4>3. <strong>Derivation of Core Results</strong></h4>
+  <div class="important-box" style="background:#2b2f3a;padding:12px;margin:12px 0;border-left:4px solid var(--accent);">
+    <strong>Deriving the Area of a Parallelogram from First Principles</strong>
+    <ol>
+      <li>Place the parallelogram on the Cartesian plane with one side on the $x$‑axis. Let the vertices be $O(0,0)$, $A(b,0)$, $B(b+u,h)$, $C(u,h)$ where $b$ is the base length and $h$ the altitude.</li>
+      <li>The polygon can be decomposed into a rectangle of area $b\;h$ and two right‑angled triangles of equal area $\frac{1}{2}u h$ each.</li>
+      <li>Summing the areas: $$A = b h + 2\left(\frac{1}{2}u h\right) = b h + u h = (b+u)h$$.</li>
+      <li>Since $b+u$ is the projection of the adjacent side on the base direction, the product $b h$ alone already gives the exact area, confirming $$A = b h$$.</li>
+    </ol>
+  </div>
+
+  <div class="important-box" style="background:#2b2f3a;padding:12px;margin:12px 0;border-left:4px solid var(--accent);">
+    <strong>Proof of Heron’s Formula</strong>
+    <ol>
+      <li>Start with a triangle of sides $a,b,c$ and semiperimeter $s=\frac{a+b+c}{2}$.</li>
+      <li>Apply the law of cosines to express $\cos\gamma$ where $\gamma$ is the angle opposite side $c$: $$c^{2}=a^{2}+b^{2}-2ab\cos\gamma.$$</li>
+      <li>Using the area formula $A = \frac{1}{2}ab\sin\gamma$ and the identity $\sin^{2}\gamma = 1-\cos^{2}\gamma$, after algebraic manipulation we obtain $$A^{2}=s(s-a)(s-b)(s-c).$$</li>
+      <li>Taking the positive square root (area is non‑negative) yields Heron’s formula as stated.</li>
+    </ol>
+  </div>
+
+  <h4>4. <strong>Special Figures and Their Composite Areas</strong></h4>
+  <table style="width:100%;border-collapse:collapse;margin:12px 0;">
+    <thead style="background:#1e222b;">
+      <tr>
+        <th style="border:1px solid var(--border);padding:6px;">Figure</th>
+        <th style="border:1px solid var(--border);padding:6px;">Key Variables</th>
+        <th style="border:1px solid var(--border);padding:6px;">Area Formula</th>
+        <th style="border:1px solid var(--border);padding:6px;">Perimeter Formula</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Square]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">4a</td>
-        <td style="padding:8px; border:1px solid #444;">a²</td>
+        <td style="border:1px solid var(--border);padding:6px;"><strong>Square</strong></td>
+        <td style="border:1px solid var(--border);padding:6px;">$a$ (side)</td>
+        <td style="border:1px solid var(--border);padding:6px;">$$A = a^{2}$$</td>
+        <td style="border:1px solid var(--border);padding:6px;">$$P = 4a$$</td>
       </tr>
       <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Rectangle]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">2(l + b)</td>
-        <td style="padding:8px; border:1px solid #444;">l·b</td>
+        <td style="border:1px solid var(--border);padding:6px;"><strong>Rectangle</strong></td>
+        <td style="border:1px solid var(--border);padding:6px;">$l$ (length), $b$ (breadth)</td>
+        <td style="border:1px solid var(--border);padding:6px;">$$A = l b$$</td>
+        <td style="border:1px solid var(--border);padding:6px;">$$P = 2(l+b)$$</td>
       </tr>
       <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Circle]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">2πr (or πd)</td>
-        <td style="padding:8px; border:1px solid #444;">πr²</td>
+        <td style="border:1px solid var(--border);padding:6px;"><strong>Triangle</strong></td>
+        <td style="border:1px solid var(--border);padding:6px;">$a,b,c$ (sides), $h$ (altitude)</td>
+        <td style="border:1px solid var(--border);padding:6px;">$$A = \frac{1}{2} a h$$ or $$A = \sqrt{s(s-a)(s-b)(s-c)}$$</td>
+        <td style="border:1px solid var(--border);padding:6px;">$$P = a+b+c$$</td>
       </tr>
       <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Equilateral triangle]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">3a</td>
-        <td style="padding:8px; border:1px solid #444;">(√3/4)a²</td>
+        <td style="border:1px solid var(--border);padding:6px;"><strong>Circle</strong></td>
+        <td style="border:1px solid var(--border);padding:6px;">$r$ (radius)</td>
+        <td style="border:1px solid var(--border);padding:6px;">$$A = \pi r^{2}$$</td>
+        <td style="border:1px solid var(--border);padding:6px;">$$C = 2\pi r$$</td>
       </tr>
       <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Right triangle]] (legs a, b)</strong></td>
-        <td style="padding:8px; border:1px solid #444;">a + b + √(a² + b²)</td>
-        <td style="padding:8px; border:1px solid #444;">½ab</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Parallelogram]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">2(a + b)</td>
-        <td style="padding:8px; border:1px solid #444;">a·h (base × altitude)</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Rhombus]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">4a</td>
-        <td style="padding:8px; border:1px solid #444;">½(d₁·d₂) (product of diagonals)</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Trapezium]] (parallel sides a, b; height h)</strong></td>
-        <td style="padding:8px; border:1px solid #444;">a + b + non‑parallel sides</td>
-        <td style="padding:8px; border:1px solid #444;">½(a + b)h</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Regular polygon]] (n sides, side a)</strong></td>
-        <td style="padding:8px; border:1px solid #444;">n·a</td>
-        <td style="padding:8px; border:1px solid #444;">(n·a²)/(4·tan(π/n))</td>
+        <td style="border:1px solid var(--border);padding:6px;"><strong>Regular $n$‑gon</strong></td>
+        <td style="border:1px solid var(--border);padding:6px;">$a$ (side), $n$ (number of sides), $R$ (circumradius), $r$ (inradius)</td>
+        <td style="border:1px solid var(--border);padding:6px;">$$A = \frac{1}{2} n a r = \frac{n R^{2}}{2}\sin\frac{2\pi}{n}$$</td>
+        <td style="border:1px solid var(--border);padding:6px;">$$P = n a$$</td>
       </tr>
     </tbody>
   </table>
 
-  <h4>Derivation Highlights</h4>
-  <p>Understanding the origin of each formula aids retention:</p>
+  <h4>5. <strong>Composite and Sub‑divided Figures</strong></h4>
   <ul>
-    <li><strong>Circle</strong> – The circumference follows from the definition of π as the ratio of circumference to diameter, a relationship first recorded by [[Archimedes]] (~250 BC).</li>
-    <li><strong>Equilateral triangle</strong> – By dropping a perpendicular, the height becomes (√3/2)a, leading to the area (½·base·height) = (√3/4)a².</li>
-    <li><strong>Rhombus</strong> – The diagonals bisect each other at right angles; the rhombus can be split into four right triangles, each of area ¼·d₁·d₂, summing to ½·d₁·d₂.</li>
-    <li><strong>Regular polygon</strong> – Divide the polygon into n isosceles triangles with vertex angle 2π/n. Each triangle’s area = (½·a·R·sin(2π/n)), where R is the circum‑radius. Substituting R = a/(2·sin(π/n)) yields the compact formula shown above.</li>
+    <li>When a complex shape can be split into non‑overlapping simple figures, the total area is the algebraic sum of the individual areas. Perimeter, however, must be calculated by tracing the outermost boundary only.</li>
+    <li>Typical strategies:
+      <ol>
+        <li>Identify a common baseline (e.g., a rectangle) and subtract the area of “cut‑outs’’ (triangles, semicircles).</li>
+        <li>Use symmetry to replicate a known sector or quadrant.</li>
+        <li>When a shape contains a hole (e.g., a ring), subtract the inner area from the outer area.</li>
+      </ol>
+    </li>
   </ul>
 
-  <h4>Advanced Mensuration Tools</h4>
-  <p>Beyond the elementary formulas, the following tools are indispensable for solving composite‑figure problems and those involving coordinates.</p>
-
-  <h5>1. Coordinate Geometry Approach</h5>
-  <p>When vertices are given as (x₁, y₁), (x₂, y₂), …, (xₙ, yₙ), the <strong>Shoelace Formula</strong> (also called Gauss’s area formula) provides the area directly:</p>
-  <p><strong>Area = ½ | Σ (xᵢyᵢ₊₁ – xᵢ₊₁yᵢ) |</strong>, where the indices wrap around (i = n + 1 ⇒ i = 1).</p>
-  <p>Perimeter is obtained by summing the Euclidean distances between successive vertices:</p>
-  <p><strong>Perimeter = Σ √[(xᵢ₊₁ – xᵢ)² + (yᵢ₊₁ – yᵢ)²]</strong>.</p>
-
-  <h5>2. Trigonometric Area Formulas</h5>
+  <h4>6. <strong>Common Mistakes</strong></h4>
   <ul>
-    <li><strong>General triangle</strong> – <strong>Area = ½ab·sin C</strong>, where a and b are any two sides and C the included angle. This follows from the definition of sine in a right‑angled triangle.</li>
-    <li><strong>Quadrilateral with one pair of parallel sides (trapezium)</strong> – The same principle yields the standard formula ½(a + b)h, but can also be expressed as <strong>Area = (p·q·sin θ)/2</strong> where p, q are the lengths of the non‑parallel sides and θ the angle between them.</li>
+    <li><strong>Confusing radius and diameter</strong>: In formulas involving $\pi$, many students mistakenly plug $d$ where $r$ is required, leading to a factor of $4$ error in area.</li>
+    <li><strong>Using perimeter in place of area</strong>: For regular polygons, the apothem $r$ must be used for area; substituting side length directly yields a wrong result.</li>
+    <li><strong>Ignoring units of altitude</strong>: When the height is given relative to a slanted side, students often use the slant length instead of the perpendicular height, violating the definition of $h$.</li>
+    <li><strong>Applying Heron’s formula to a degenerate triangle</strong>: If $a+b=c$ (collinear points), the semiperimeter $s$ equals $c$, and the formula yields zero area; forgetting to check triangle inequality leads to negative radicand.</li>
   </ul>
 
-  <h5>3. Heron’s and Brahmagupta’s Formulas</h5>
-  <p>These are crucial for problems where only side lengths are known.</p>
+  <h4>7. <strong>Shortcuts &amp; Tricks for Competitive Exams</strong></h4>
   <ul>
-    <li><strong>Heron’s formula (triangle)</strong> – Let s = (a + b + c)/2 (semi‑perimeter). Then <strong>Area = √[s(s – a)(s – b)(s – c)]</strong>. This formula is derivable from the law of cosines and is often used in NDA questions involving integer sides.</li>
-    <li><strong>Brahmagupta’s formula (cyclic quadrilateral)</strong> – For a quadrilateral inscribed in a circle, with sides a, b, c, d and semi‑perimeter s, <strong>Area = √[(s – a)(s – b)(s – c)(s – d)]</strong>. The condition of cyclicity can be verified via the opposite‑angle sum = 180° (supplementary).</li>
+    <li><strong>Memory‑anchor for circle formulas</strong>: Remember $C = 2\pi r$ and $A = \pi r^{2}$; the area is simply $\frac{r}{2}$ times the circumference.</li>
+    <li><strong>“Half‑product” rule for right‑angled triangles</strong>: If the legs are $p$ and $q$, the area is $\frac{pq}{2}$ – no need to compute the hypotenuse unless required for perimeter.</li>
+    <li><strong>Quick perimeter of regular polygons</strong>: $P = n\cdot a$; for a regular hexagon with side $a$, $P = 6a$ instantly.</li>
+    <li><strong>Diagonal method for rhombus</strong>: $A = \frac{d_{1}d_{2}}{2}$ – just multiply the two diagonals and halve.</li>
+    <li><strong>Sector area shortcut</strong>: For a sector with central angle $\theta$ (in degrees) and radius $r$, $$A_{\text{sector}} = \frac{\theta}{360}\,\pi r^{2}.$$ This avoids converting to radians.</li>
+    <li><strong>Using $1\;\text{cm}^{2}= \frac{1}{100}\;\text{m}^{2}$</strong> for quick conversion when the problem mixes units.</li>
   </ul>
 
-  <h4>Composite Figures and Subtraction Method</h4>
-  <p>Many exam items ask for the area of a region formed by overlapping or removing shapes. The standard strategy is:</p>
+  <h4>8. <strong>Worked Example 1 – Composite Figure</strong></h4>
+  <p><strong>Problem:</strong> Find the area and perimeter of a shape formed by a rectangle of length $12\;\text{cm}$ and breadth $8\;\text{cm}$ with a semicircle of radius $4\;\text{cm}$ attached to one of the $12\;\text{cm}$ sides.</p>
   <ol>
-    <li>Identify a larger simple shape that completely contains the required region.</li>
-    <li>Subtract the areas of the unwanted parts (often triangles or sectors).</li>
-    <li>Apply the appropriate perimeter formula to the outer boundary only if the question asks for perimeter.</li>
+    <li>Identify components:
+      <ul>
+        <li>Rectangle: $l=12$, $b=8$.</li>
+        <li>Semicircle: radius $r=4$ (since the semicircle’s diameter equals the rectangle side it attaches to).</li>
+      </ul>
+    </li>
+    <li>Compute area:
+      <ul>
+        <li>Rectangle area: $$A_{\text{rect}} = l\,b = 12\times8 = 96\;\text{cm}^{2}.$$</li>
+        <li>Semicircle area: $$A_{\text{semi}} = \frac{1}{2}\pi r^{2} = \frac{1}{2}\pi(4)^{2}= \frac{1}{2}\pi\cdot16 = 8\pi\;\text{cm}^{2}.$$</li>
+        <li>Total area: $$A_{\text{total}} = 96 + 8\pi\;\text{cm}^{2} \approx 96 + 25.13 = 121.13\;\text{cm}^{2}.$$</li>
+      </ul>
+    </li>
+    <li>Compute perimeter:
+      <ul>
+        <li>Outer boundary consists of three sides of the rectangle ($12+8+8 = 28\;\text{cm}$) plus the curved edge of the semicircle.
+        <li>Semicircle arc length: $$L_{\text{semi}} = \pi r = \pi\times4 = 4\pi\;\text{cm}.$$</li>
+        <li>Total perimeter: $$P_{\text{total}} = 28 + 4\pi \approx 28 + 12.57 = 40.57\;\text{cm}.$$</li>
+      </ul>
+    </li>
   </ol>
-  <p>Example patterns include:</p>
-  <ul>
-    <li>Area of a <strong>ring</strong> (annulus) = π(R² – r²).</li>
-    <li>Area of a <strong>segment</strong> of a circle = (½)r²(θ – sin θ), where θ is in radians.</li>
-    <li>Area of a <strong>lens</strong> formed by two intersecting circles = sum of two circular segments.</li>
-  </ul>
+  <p>Key take‑away: Always add only the outermost curve; the straight side where the semicircle meets the rectangle is interior and must not be counted.</p>
 
-  <h4>Important Numerical Constants</h4>
-  <p>For quick mental calculation, the following approximations are accepted in defence exams:</p>
-  <ul>
-    <li><strong>π ≈ 22/7</strong> (error < 0.04%).</li>
-    <li><strong>√2 ≈ 1.414</strong>, <strong>√3 ≈ 1.732</strong>, <strong>√5 ≈ 2.236</strong>.</li>
-    <li>Trigonometric values: <strong>sin 30° = ½</strong>, <strong>cos 60° = ½</strong>, <strong>tan 45° = 1</strong>, <strong>sin 45° = √2/2</strong>.</li>
-  </ul>
-
-  <h4>Common Pitfalls and Quick Checks</h4>
-  <ul>
-    <li>Never confuse the **diameter** with the **radius**; many errors arise when the problem gives “diameter = d” and the formula requires “r = d/2”.</li>
-    <li>When using Heron’s formula, verify that the radicand is non‑negative; a negative value indicates an impossible triangle (violates triangle inequality).</li>
-    <li>For regular polygons, the interior angle is given by <strong>(n – 2)·180°/n</strong>. This is useful when a problem provides the interior angle instead of the number of sides.</li>
-    <li>In coordinate geometry, ensure that the vertices are listed in a consistent order (clockwise or anticlockwise); reversal changes the sign of the shoelace sum but not its absolute value.</li>
-  </ul>
-
-  <h4>Historical Context (Exam‑Relevant)</h4>
-  <p>The study of mensuration dates back to ancient Indian texts such as the <strong>Śulba Sūtras</strong> (c. 800–500 BC), which contain early statements of the Pythagorean theorem and constructions of squares and circles. Later, [[Euclid's Elements]] (c. 300 BC) formalised many of the area formulas that are still taught today. Knowing these origins can help with “conceptual” questions that occasionally appear in the NDA essay section.</p>
-
-  <h4>Sample Derivation: Area of a Regular Hexagon</h4>
-  <p>Given side a, a regular hexagon can be decomposed into six equilateral triangles.</p>
+  <h4>9. <strong>Worked Example 2 – Using Heron’s Formula</strong></h4>
+  <p><strong>Problem:</strong> A triangle has sides $a=13\;\text{cm}$, $b=14\;\text{cm}$, $c=15\;\text{cm}$. Find its area and perimeter.</p>
   <ol>
-    <li>Area of one equilateral triangle = (√3/4)a².</li>
-    <li>Multiply by six → <strong>Area = (3√3/2)a²</strong>.</li>
-    <li>Perimeter = 6a.</li>
+    <li>Perimeter:
+      $$P = a+b+c = 13+14+15 = 42\;\text{cm}.$$</li>
+    <li>Semiperimeter:
+      $$s = \frac{P}{2} = \frac{42}{2}=21\;\text{cm}.$$</li>
+    <li>Apply Heron’s formula:
+      \[
+      A = \sqrt{s(s-a)(s-b)(s-c)} = \sqrt{21(21-13)(21-14)(21-15)}.
+      \]
+      Compute each factor:
+      \begin{align*}
+      s-a &= 21-13 = 8,\\
+      s-b &= 21-14 = 7,\\
+      s-c &= 21-15 = 6.
+      \end{align*}
+      Hence,
+      $$A = \sqrt{21\times8\times7\times6} = \sqrt{21\times336} = \sqrt{7056} = 84\;\text{cm}^{2}.$$
+    </li>
+    <li>Verification via base‑height method (optional):
+      Using $c=15$ as base, compute height $h$ from area formula $A = \frac{1}{2}c h$:
+      $$h = \frac{2A}{c} = \frac{2\times84}{15}= \frac{168}{15}=11.2\;\text{cm}.$$
+      This height satisfies the Pythagorean relationship $a^{2}=h^{2}+(\frac{c}{2})^{2}$ approximately, confirming correctness.</li>
   </ol>
-  <p>Remember that a regular hexagon can also be inscribed in a circle of radius a; thus the same area can be expressed as <strong>(3√3/2)R²</strong> when the problem specifies the circum‑radius.</p>
+  <p>Note the elegance: the $13$‑$14$‑$15$ triangle is a classic integer‑area triangle, often appearing in exams.</p>
 
-  <h4>Conversion Between Units</h4>
-  <p>Defence exams sometimes present data in mixed units (e.g., cm and m). Use the following conversions:</p>
+  <h4>10. <strong>Advanced Edge Cases</strong></h4>
   <ul>
-    <li>1 m = 100 cm → for area, 1 m² = 10,000 cm².</li>
-    <li>1 km = 1,000 m → 1 km² = 1,000,000 m².</li>
+    <li><strong>Zero‑area degenerate polygons</strong>: When all vertices are collinear, the area formula yields zero; perimeter equals the distance between the two extreme points.</li>
+    <li><strong>Non‑convex polygons</strong>: The shoelace (Gauss) formula still works if vertices are ordered consistently (clockwise or counter‑clockwise). However, the “perimeter’’ must be taken as the sum of absolute side lengths regardless of interior angles.</li>
+    <li><strong>Sector‑segment problems</strong>: For a segment cut off by a chord of length $c$ in a circle of radius $r$, the area is $$A_{\text{segment}} = \frac{r^{2}}{2}\bigl(\theta - \sin\theta\bigr)$$ where $\theta$ is the central angle in radians, found via $\cos\frac{\theta}{2} = \frac{c}{2r}$.</li>
   </ul>
-  <p>Always convert to a single unit before applying formulas to avoid scaling errors.</p>
-
-  <h4>Strategic Problem‑Solving Checklist</h4>
-  <p>Before attempting any calculation, run through this checklist:</p>
-  <ol>
-    <li>Identify the shape(s) – Is it a standard figure or a composite?</li>
-    <li>Note all given dimensions – side lengths, radii, angles, coordinates.</li>
-    <li>Choose the right formula – match the data to the table above.</li>
-    <li>Check for special conditions – cyclic quadrilateral (Brahmagupta), right‑angle (Heron simplification), regularity.</li>
-    <li>Perform unit consistency check.</li>
-    <li>Calculate perimeter first (if needed) – it may be required for subsequent area steps (e.g., using radius = perimeter/2π for a circle).</li>
-    <li>Execute the area computation, keeping an eye on radicals and trigonometric values.</li>
-    <li>Verify by estimating – compare with a known simpler shape to catch gross errors.</li>
-  </ol>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>The area of a circle can be quickly found using <strong>π≈22/7</strong> when the radius is a multiple of 7.</li>
-      <li>For a regular polygon, <strong>Area = (Perimeter × Apothem)/2</strong> – remember the apothem = side/(2·tan(π/n)).</li>
-      <li>Heron’s formula reduces to <strong>Area = (1/4)√(4a²b² – ( a² + b² – c² )²)</strong> for a triangle with sides a, b, c, useful when one side is much larger.</li>
-      <li>A cyclic quadrilateral’s area is given by <strong>Brahmagupta’s formula</strong>; the condition is that the sum of opposite angles equals 180°.</li>
-      <li>Area of an annulus (ring) = π(R² – r²); the perimeter of the same region is 2π(R + r).</li>
-      <li>In coordinate geometry, the shoelace method works for any simple polygon – just list vertices in order and apply the determinant‑style sum.</li>
-      <li>The perimeter of a regular hexagon with side a is <strong>6a</strong>, and its area is <strong>(3√3/2)a²</strong>.</li>
-      <li>When a problem gives the diagonal of a rhombus, use <strong>d₁·d₂ = 2a²·sin θ</strong> to relate side a and angle θ.</li>
+      <li>Area of a regular polygon = $\displaystyle \frac{1}{2}\times\text{perimeter}\times\text{apothem}$.</li>
+      <li>For a rhombus, $A = \frac{d_{1}d_{2}}{2}$ – always use the perpendicular diagonals.</li>
+      <li>Circle circumference $C = 2\pi r$; never substitute $d$ unless you first replace $r$ with $d/2$.</li>
+      <li>Heron’s formula works only when $a+b>c$, $b+c>a$, $c+a>b$ (triangle inequality).</li>
+      <li>Sector area = $\displaystyle \frac{\theta}{360}\times\pi r^{2}$ (degrees) or $\displaystyle \frac{\theta}{2\pi}\times\pi r^{2}$ (radians).</li>
+      <li>When a shape contains a hole, subtract the inner area from the outer area (e.g., ring area = $\pi(R^{2}-r^{2})$).</li>
+      <li>In a right‑angled triangle, perimeter $P = a+b+\sqrt{a^{2}+b^{2}}$ – compute hypotenuse only once.</li>
+      <li>For an ellipse, area $A = \pi a b$ – use semi‑axes, not full axes.</li>
+      <li>Perimeter of a regular $n$‑gon = $n\times$ side length; no trigonometric terms needed.</li>
+      <li>Always convert mixed units before inserting into formulas (e.g., $1\;\text{m}=100\;\text{cm}$).</li>
     </ul>
   </div>
 </div>
@@ -2863,248 +3897,201 @@ EXPANDED_NOTES_DATA["surface-area-volume"] = `
     3D Solids: Surface Area & Volume
   </h3>
 
-  <h4 style="margin-top:24px;">Fundamental Concepts & Definitions</h4>
-  <p>
-    In mensuration, a <strong>solid</strong> is a three‑dimensional figure that occupies space. The two primary quantitative attributes of any solid are its <strong>surface area (SA)</strong> and <strong>volume (V)</strong>. Surface area is the total area that covers the exterior of the solid, while volume measures the amount of space enclosed within it.
-  </p>
+  <h4><strong>Fundamental Concepts</strong></h4>
   <ul>
-    <li><strong>Surface Area (SA)</strong>: Sum of the areas of all faces or, for curved surfaces, the integral of the infinitesimal area elements <em>dA</em>.</li>
-    <li><strong>Volume (V)</strong>: Integral of infinitesimal volume elements <em>dV</em> over the region occupied by the solid.</li>
-    <li><strong>Units</strong>: SA – square units (cm², m²); V – cubic units (cm³, m³).</li>
+    <li><strong>Surface Area (SA)</strong>: The sum of the areas of all the faces that bound a solid. It is denoted by $S$ or $A$ and measured in square units.</li>
+    <li><strong>Volume (V)</strong>: The amount of three‑dimensional space enclosed by the solid. It is denoted by $V$ and measured in cubic units.</li>
+    <li><strong>Base Area (B)</strong>: The area of the planar region on which the solid stands. Frequently appears in formulas for pyramids and cones.</li>
+    <li><strong>Height (h)</strong>: The perpendicular distance between the base and the opposite face (or apex). For cylinders, cones, and prisms, $h$ is measured along the axis of symmetry.</li>
+    <li><strong>Radius (r)</strong>: Distance from the centre to any point on a circular cross‑section. Appears in spheres, cylinders, cones, hemispheres, and toroids.</li>
+    <li><strong>Slant Height (l)</strong>: The distance measured along the lateral surface from the base edge to the apex. Essential for cones, pyramids, and frustums.</li>
   </ul>
 
-  <h4 style="margin-top:24px;">Key Historical Milestones</h4>
-  <p>
-    The systematic study of 3‑D geometry dates back to antiquity. 
-    <ul>
-      <li>~300 BC – [[Euclid]]’s <em>Elements</em> laid the axiomatic foundations for solid geometry.</li>
-      <li>c. 287–212 BC – [[Archimedes]] derived the formula for the volume of a sphere using the method of exhaustion.</li>
-      <li>1637 – [[Gaston Cavalieri]] introduced [[Cavalieri’s principle]], a cornerstone for modern volume calculations.</li>
-      <li>1687 – [[Isaac Newton]] formalised calculus, enabling the derivation of surface area via integration.</li>
-      <li>1750 – [[Leonhard Euler]] contributed to the understanding of polyhedral geometry, classifying regular solids.</li>
-    </ul>
-  </p>
+  <div class="important-box" style="background:#2a2e3b; padding:12px; margin:12px 0; border-left:4px solid var(--accent);">
+    <strong>Key Distinction:</strong> <em>Surface area</em> accounts for the exterior “skin” of a solid, whereas <em>volume</em> measures the interior “capacity”. In many competitive problems, confusing the two leads to a loss of marks.
+  </div>
 
-  <h4 style="margin-top:24px;">Common Solids and Their Standard Formulas</h4>
-  <p>Below are the most frequently encountered solids in NDA/CDS/AFCAT exams, together with their canonical surface‑area and volume expressions. All symbols assume the usual meanings: <strong>r</strong> – radius, <strong>h</strong> – height, <strong>l</strong> – slant height, <strong>a</strong> – side length, <strong>π</strong> – 3.14159….</p>
-
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+  <h4><strong>Formulas for Common Solids</strong></h4>
+  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
     <thead>
-      <tr style="background:#333; color:#fff;">
-        <th style="padding:8px; border:1px solid #555;">Solid</th>
-        <th style="padding:8px; border:1px solid #555;">Surface Area (SA)</th>
-        <th style="padding:8px; border:1px solid #555;">Volume (V)</th>
+      <tr style="background:#1e222b;">
+        <th style="border:1px solid #444;padding:8px;">Solid</th>
+        <th style="border:1px solid #444;padding:8px;">Surface Area Formula</th>
+        <th style="border:1px solid #444;padding:8px;">Volume Formula</th>
       </tr>
     </thead>
     <tbody>
-      <tr style="background:#222;">
-        <td style="padding:8px; border:1px solid #555;"><strong>[[Cube]]</strong></td>
-        <td style="padding:8px; border:1px solid #555;">6a²</td>
-        <td style="padding:8px; border:1px solid #555;">a³</td>
+      <tr>
+        <td style="border:1px solid #444;padding:8px;"><strong>[[Cube]]</strong></td>
+        <td style="border:1px solid #444;padding:8px;">$S = 6a^{2}$</td>
+        <td style="border:1px solid #444;padding:8px;">$V = a^{3}$</td>
       </tr>
       <tr>
-        <td style="padding:8px; border:1px solid #555;"><strong>[[Cuboid]]</strong> (rectangular prism)</td>
-        <td style="padding:8px; border:1px solid #555;">2(lw + lh + wh)</td>
-        <td style="padding:8px; border:1px solid #555;">lwh</td>
-      </tr>
-      <tr style="background:#222;">
-        <td style="padding:8px; border:1px solid #555;"><strong>[[Sphere]]</strong></td>
-        <td style="padding:8px; border:1px solid #555;">4πr²</td>
-        <td style="padding:8px; border:1px solid #555;">\(\frac{4}{3}πr³\)</td>
+        <td style="border:1px solid #444;padding:8px;"><strong>[[Cuboid]]</strong></td>
+        <td style="border:1px solid #444;padding:8px;">$S = 2(lw + lh + wh)$</td>
+        <td style="border:1px solid #444;padding:8px;">$V = lwh$</td>
       </tr>
       <tr>
-        <td style="padding:8px; border:1px solid #555;"><strong>[[Cylinder]]</strong></td>
-        <td style="padding:8px; border:1px solid #555;">2πr(r + h)</td>
-        <td style="padding:8px; border:1px solid #555;">πr²h</td>
-      </tr>
-      <tr style="background:#222;">
-        <td style="padding:8px; border:1px solid #555;"><strong>[[Cone]]</strong></td>
-        <td style="padding:8px; border:1px solid #555;">πr(l + r)   (where l = √(r² + h²))</td>
-        <td style="padding:8px; border:1px solid #555;">\(\frac{1}{3}πr²h\)</td>
+        <td style="border:1px solid #444;padding:8px;"><strong>[[Sphere]]</strong></td>
+        <td style="border:1px solid #444;padding:8px;">$S = 4\pi r^{2}$</td>
+        <td style="border:1px solid #444;padding:8px;">$V = \dfrac{4}{3}\pi r^{3}$</td>
       </tr>
       <tr>
-        <td style="padding:8px; border:1px solid #555;"><strong>[[Frustum of a cone]]</strong></td>
-        <td style="padding:8px; border:1px solid #555;">π(R + r)l + π(R² + r²)   (R = larger radius)</td>
-        <td style="padding:8px; border:1px solid #555;">\(\frac{1}{3}πh(R² + Rr + r²)\)</td>
-      </tr>
-      <tr style="background:#222;">
-        <td style="padding:8px; border:1px solid #555;"><strong>[[Square Pyramid]]</strong></td>
-        <td style="padding:8px; border:1px solid #555;">a² + 2a√( \(\frac{a²}{4} + h²\) )</td>
-        <td style="padding:8px; border:1px solid #555;">\(\frac{1}{3}a²h\)</td>
+        <td style="border:1px solid #444;padding:8px;"><strong>[[Cylinder]]</strong></td>
+        <td style="border:1px solid #444;padding:8px;">$S = 2\pi r (r + h)$</td>
+        <td style="border:1px solid #444;padding:8px;">$V = \pi r^{2} h$</td>
       </tr>
       <tr>
-        <td style="padding:8px; border:1px solid #555;"><strong>[[Regular Tetrahedron]]</strong></td>
-        <td style="padding:8px; border:1px solid #555;">√3 a²</td>
-        <td style="padding:8px; border:1px solid #555;">\(\frac{a³}{6√2}\)</td>
+        <td style="border:1px solid #444;padding:8px;"><strong>[[Cone]]</strong></td>
+        <td style="border:1px solid #444;padding:8px;">$S = \pi r (r + l)$, \; where $l = \sqrt{r^{2}+h^{2}}$</td>
+        <td style="border:1px solid #444;padding:8px;">$V = \dfrac{1}{3}\pi r^{2} h$</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444;padding:8px;"><strong>[[Hemisphere]]</strong></td>
+        <td style="border:1px solid #444;padding:8px;">$S = 3\pi r^{2}$ (including base)</td>
+        <td style="border:1px solid #444;padding:8px;">$V = \dfrac{2}{3}\pi r^{3}$</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444;padding:8px;"><strong>[[Frustum of a Cone]]</strong></td>
+        <td style="border:1px solid #444;padding:8px;">$S = \pi (r_{1}+r_{2})l + \pi r_{1}^{2} + \pi r_{2}^{2}$</td>
+        <td style="border:1px solid #444;padding:8px;">$V = \dfrac{1}{3}\pi h (r_{1}^{2}+r_{1}r_{2}+r_{2}^{2})$</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444;padding:8px;"><strong>[[Pyramid]] (regular)</strong></td>
+        <td style="border:1px solid #444;padding:8px;">$S = B + \dfrac{1}{2}Pl$, \; $P$ = perimeter of base</td>
+        <td style="border:1px solid #444;padding:8px;">$V = \dfrac{1}{3}Bh$</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #444;padding:8px;"><strong>[[Ellipsoid]]</strong></td>
+        <td style="border:1px solid #444;padding:8px;">Approx. $S \approx 4\pi \left(\dfrac{a^{p}b^{p}+a^{p}c^{p}+b^{p}c^{p}}{3}\right)^{1/p}$, $p\approx1.6075$</td>
+        <td style="border:1px solid #444;padding:8px;">$V = \dfrac{4}{3}\pi abc$</td>
       </tr>
     </tbody>
   </table>
 
-  <h4 style="margin-top:24px;">Derivation Techniques</h4>
-  <p>Mastering the derivations helps in tackling non‑standard problems where formulas must be adapted. The three most powerful methods are:</p>
+  <h4><strong>Derivations from First Principles</strong></h4>
   <ol>
-    <li><strong>Integration (Calculus) Method</strong>
+    <li><strong>Sphere Surface Area</strong>
       <ul>
-        <li>For a solid of revolution about the <em>x‑axis</em>, use <strong>Disc/Washer method</strong>:
-          \[
-          V = π\int_{a}^{b}[f(x)]^{2}\,dx
-          \]
-          and <strong>Surface Area</strong>:
-          \[
-          SA = 2π\int_{a}^{b}f(x)\sqrt{1+[f'(x)]^{2}}\,dx
-          \]</li>
-        <li>For rotation about the <em>y‑axis</em>, swap variables accordingly.</li>
+        <li>Consider a thin spherical shell of radius $r$ and thickness $dr$. Its volume is $dV = 4\pi r^{2} dr$.</li>
+        <li>By definition, surface area $S$ is $\displaystyle \lim_{dr\to0}\frac{dV}{dr}=4\pi r^{2}$.</li>
+        <li>Thus $S = 4\pi r^{2}$, where $r>0$.</li>
       </ul>
     </li>
-    <li><strong>[[Cavalieri’s principle]]</strong>
+    <li><strong>Volume of a Cone</strong>
       <ul>
-        <li>Two solids having equal cross‑sectional areas at every height have equal volumes.</li>
-        <li>Useful for comparing a sphere with a cylinder + cone (Archimedes’ classic proof).</li>
+        <li>Take a right circular cone with base radius $r$ and height $h$.</li>
+        <li>Slice the cone into infinitesimally thin disks of thickness $dy$ at a distance $y$ from the apex.</li>
+        <li>Radius of each disk: $R(y)=\frac{r}{h}y$ (similar triangles).</li>
+        <li>Area of a disk: $\pi R^{2}(y)=\pi\left(\frac{r}{h}y\right)^{2}$.</li>
+        <li>Volume element: $dV = \pi\left(\frac{r}{h}\right)^{2} y^{2} dy$.</li>
+        <li>Integrate from $y=0$ to $y=h$:</li>
+        $$V = \int_{0}^{h} \pi\left(\frac{r}{h}\right)^{2} y^{2} dy
+        = \pi\frac{r^{2}}{h^{2}}\left[\frac{y^{3}}{3}\right]_{0}^{h}
+        = \frac{1}{3}\pi r^{2}h.$$
+        <li>Constraint: $r,h>0$; the derivation assumes a right cone.</li>
       </ul>
     </li>
-    <li><strong>Geometric Decomposition</strong>
+    <li><strong>Surface Area of a Cylinder</strong>
       <ul>
-        <li>Break complex solids into known primitives (cubes, prisms, pyramids) and sum their volumes.</li>
-        <li>For surface area, subtract internal faces that become hidden after assembly.</li>
+        <li>Surface area consists of two circular ends plus the curved lateral surface.</li>
+        <li>Area of each end: $\pi r^{2}$ ⇒ total ends $2\pi r^{2}$.</li>
+        <li>Lateral surface is a rectangle unrolled: length $=2\pi r$, height $=h$ ⇒ area $=2\pi r h$.</li>
+        <li>Thus $S = 2\pi r^{2}+2\pi r h = 2\pi r(r+h)$.</li>
+        <li>Valid for a right circular cylinder ($r>0$, $h>0$).</li>
+      </ul>
+    </li>
+    <li><strong>Volume of a Frustum of a Cone</strong>
+      <ul>
+        <li>Let $r_{1}$ and $r_{2}$ be radii of the lower and upper bases, respectively, and $h$ the vertical height.</li>
+        <li>Imagine a full cone of height $H$ that contains the frustum; by similar triangles,
+          $$\frac{r_{1}}{H}= \frac{r_{2}}{H-h}\quad\Rightarrow\quad H = \frac{h\,r_{1}}{r_{1}-r_{2}}.$$</li>
+        <li>Volume of full cone: $V_{\text{full}} = \dfrac{1}{3}\pi r_{1}^{2} H$.</li>
+        <li>Volume of removed small cone (top): $V_{\text{top}} = \dfrac{1}{3}\pi r_{2}^{2}(H-h)$.</li>
+        <li>Subtracting gives the frustum volume:
+          $$V = \frac{1}{3}\pi h\bigl(r_{1}^{2}+r_{1}r_{2}+r_{2}^{2}\bigr).$$</li>
+        <li>All radii and $h$ must be positive; $r_{1}>r_{2}$ for a proper frustum.</li>
       </ul>
     </li>
   </ol>
 
-  <h4 style="margin-top:24px;">Special Solids and Advanced Topics</h4>
-  <p>Beyond the elementary shapes, the following solids frequently appear in competitive examinations:</p>
-  <ul>
-    <li><strong>[[Ellipsoid]]</strong> – Generalisation of a sphere with semi‑axes a, b, c. Approximate SA formula (Knud Thomsen’s):
-      \[
-      SA \approx 4π\left(\frac{a^{p}b^{p}+a^{p}c^{p}+b^{p}c^{p}}{3}\right)^{1/p},\quad p≈1.6075
-      \]</li>
-    <li><strong>[[Torus]]</strong> – Generated by revolving a circle of radius r around an axis at distance R (R > r). 
-      <ul>
-        <li>Volume: \(V = 2π^{2}Rr^{2}\)</li>
-        <li>Surface Area: \(SA = 4π^{2}Rr\)</li>
-      </ul>
-    </li>
-    <li><strong>[[Frustum of a pyramid]]</strong> – Obtained by slicing the top of a pyramid parallel to its base.
-      <ul>
-        <li>Volume: \(\frac{h}{3}(A_{1}+A_{2}+\sqrt{A_{1}A_{2}})\) where \(A_{1},A_{2}\) are areas of the two parallel faces.</li>
-        <li>Surface Area: Sum of the lateral area (trapezoidal faces) plus the two base areas.</li>
-      </ul>
-    </li>
-    <li><strong>[[Regular Polyhedra]] (Platonic solids)</strong> – Five solids (tetrahedron, cube, octahedron, dodecahedron, icosahedron). Their SA and V are expressible in terms of edge length a:
-      <table style="width:100%; border-collapse:collapse; margin-top:8px;">
-        <thead>
-          <tr style="background:#333; color:#fff;">
-            <th style="padding:6px; border:1px solid #555;">Solid</th>
-            <th style="padding:6px; border:1px solid #555;">SA</th>
-            <th style="padding:6px; border:1px solid #555;">V</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="background:#222;">
-            <td style="padding:6px; border:1px solid #555;">[[Octahedron]]</td>
-            <td style="padding:6px; border:1px solid #555;">2√3 a²</td>
-            <td style="padding:6px; border:1px solid #555;">\(\frac{\sqrt{2}}{3}a^{3}\)</td>
-          </tr>
-          <tr>
-            <td style="padding:6px; border:1px solid #555;">[[Dodecahedron]]</td>
-            <td style="padding:6px; border:1px solid #555;">3√25+10 a²</td>
-            <td style="padding:6px; border:1px solid #555;">\(\frac{15+7√5}{4}a^{3}\)</td>
-          </tr>
-          <tr style="background:#222;">
-            <td style="padding:6px; border:1px solid #555;">[[Icosahedron]]</td>
-            <td style="padding:6px; border:1px solid #555;">5√3 a²</td>
-            <td style="padding:6px; border:1px solid #555;">\(\frac{5(3+√5)}{12}a^{3}\)</td>
-          </tr>
-        </tbody>
-      </table>
-    </li>
-  </ul>
+  <h4><strong>Worked Examples</strong></h4>
 
-  <h4 style="margin-top:24px;">Important Theorems & Identities</h4>
-  <p>These results are directly usable in problem solving:</p>
-  <ul>
-    <li><strong>Archimedes’ Theorem</strong> – The volume of a sphere equals the volume of a cylinder of the same radius and height minus the volume of the inscribed cone:
-      \[
-      V_{sphere}=V_{cylinder}-V_{cone} = πr^{3}\left(2 - \frac{1}{3}\right)=\frac{4}{3}πr^{3}
-      \]</li>
-    <li><strong>Pappus’ Centroid Theorem</strong> – The volume generated by rotating a plane figure about an external axis equals the product of the area of the figure and the distance travelled by its centroid:
-      \[
-      V = A \times (2πd)
-      \]</li>
-    <li><strong>Euler’s Formula for Polyhedra</strong> – For any convex polyhedron,
-      \[
-      V - E + F = 2
-      \]
-      where V, E, F denote number of vertices, edges, faces respectively.</li>
-    <li><strong>Surface‑Area–Volume Ratio</strong> – For a sphere,
-      \[
-      \frac{SA}{V} = \frac{3}{r}
-      \]
-      indicating that as radius increases, the ratio decreases, a fact exploited in heat‑transfer problems.</li>
-  </ul>
-
-  <h4 style="margin-top:24px;">Comparison of Common Solids (SA vs V)</h4>
-  <p>The table below highlights how surface area and volume scale when linear dimensions are multiplied by a factor k.</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <thead>
-      <tr style="background:#444; color:#fff;">
-        <th style="padding:8px; border:1px solid #666;">Solid</th>
-        <th style="padding:8px; border:1px solid #666;">SA ∝ kⁿ</th>
-        <th style="padding:8px; border:1px solid #666;">V ∝ kᵐ</th>
-        <th style="padding:8px; border:1px solid #666;">n / m Ratio</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="background:#333;">
-        <td style="padding:8px; border:1px solid #666;">All solids (uniform scaling)</td>
-        <td style="padding:8px; border:1px solid #666;">k²</td>
-        <td style="padding:8px; border:1px solid #666;">k³</td>
-        <td style="padding:8px; border:1px solid #666;">2/3</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #666;">[[Cylinder]] (radius r, height h)</td>
-        <td style="padding:8px; border:1px solid #666;">k² (if both r and h scaled)</td>
-        <td style="padding:8px; border:1px solid #666;">k³</td>
-        <td style="padding:8px; border:1px solid #666;">2/3</td>
-      </tr>
-      <tr style="background:#333;">
-        <td style="padding:8px; border:1px solid #666;">[[Cone]] (r, h)</td>
-        <td style="padding:8px; border:1px solid #666;">k²</td>
-        <td style="padding:8px; border:1px solid #666;">k³</td>
-        <td style="padding:8px; border:1px solid #666;">2/3</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h4 style="margin-top:24px;">Common Pitfalls & Quick‑Check Strategies</h4>
-  <ul>
-    <li>Never forget the <strong>slant height</strong> l for cones and pyramids; it is \(\sqrt{r^{2}+h^{2}}\) or \(\sqrt{\frac{a^{2}}{4}+h^{2}}\) respectively.</li>
-    <li>When a problem mentions “total surface area”, include both base(s) and curved surface unless explicitly stated “lateral surface area”.</li>
-    <li>For solids formed by truncation, remember to subtract the volume/area of the removed part, not add it.</li>
-    <li>Be vigilant about units: if radius is given in cm and height in m, convert before using formulas.</li>
-    <li>In rotational problems, verify the axis of rotation – a common source of sign errors in the integral limits.</li>
-  </ul>
-
-  <h4 style="margin-top:24px;">Application‑Oriented Problems</h4>
-  <p>Competitive exams often embed mensuration within word problems. The following systematic approach is recommended:</p>
+  <h5><strong>Example 1 – Surface Area & Volume of a Composite Solid</strong></h5>
+  <p><strong>Problem:</strong> A solid consists of a right circular cylinder of radius $r=5\text{ cm}$ and height $h=12\text{ cm}$ topped by a cone having the same base radius and a slant height $l=13\text{ cm}$. Find the <em>total surface area</em> (excluding the base of the cylinder) and the <em>total volume</em>.</p>
   <ol>
-    <li><strong>Sketch the figure</strong> – label all given dimensions.</li>
-    <li><strong>Identify the solid type</strong> – decide whether it matches a standard solid or a composite.</li>
-    <li><strong>Choose the correct formula</strong> – use the table above; if needed, derive via integration or decomposition.</li>
-    <li><strong>Insert numerical values</strong> – keep intermediate results exact (e.g., keep π as π) to avoid rounding errors.</li>
-    <li><strong>Check dimensions</strong> – ensure SA and V have appropriate units and that the answer is sensible (e.g., SA should be larger than any single face area).</li>
+    <li>Compute cylinder lateral area: $S_{\text{cyl,lat}} = 2\pi r h = 2\pi(5)(12)=120\pi\text{ cm}^{2}$.</li>
+    <li>Compute cone lateral area: $S_{\text{cone,lat}} = \pi r l = \pi(5)(13)=65\pi\text{ cm}^{2}$.</li>
+    <li>Top circular face of cylinder is shared with cone base, so it is not counted separately.</li>
+    <li>Thus total surface area (excluding cylinder base) $S_{\text{total}} = 120\pi + 65\pi = 185\pi\text{ cm}^{2}\approx 581.0\text{ cm}^{2}$.</li>
+    <li>Volume of cylinder: $V_{\text{cyl}} = \pi r^{2} h = \pi(5^{2})(12)=300\pi\text{ cm}^{3}$.</li>
+    <li>Height of cone $h_{\text{cone}}$ from $l^{2}=r^{2}+h_{\text{cone}}^{2}$ ⇒ $h_{\text{cone}}=\sqrt{13^{2}-5^{2}}=\sqrt{144}=12\text{ cm}$.</li>
+    <li>Volume of cone: $V_{\text{cone}} = \dfrac{1}{3}\pi r^{2} h_{\text{cone}} = \dfrac{1}{3}\pi(25)(12)=100\pi\text{ cm}^{3}$.</li>
+    <li>Total volume $V_{\text{total}} = 300\pi + 100\pi = 400\pi\text{ cm}^{3}\approx 1256.6\text{ cm}^{3}$.</li>
   </ol>
+
+  <h5><strong>Example 2 – Volume of a Frustum Using Direct Integration</strong></h5>
+  <p><strong>Problem:</strong> A frustum of a right circular cone has lower radius $r_{1}=8\text{ cm}$, upper radius $r_{2}=3\text{ cm}$, and vertical height $h=10\text{ cm}$. Verify the standard formula by integrating the volume of infinitesimal disks.</p>
+  <ol>
+    <li>Radius varies linearly with $y$: $r(y)=r_{1}+\left(\dfrac{r_{2}-r_{1}}{h}\right) y = 8 - \dfrac{5}{10}y = 8-0.5y$.</li>
+    <li>Area of a thin disk at height $y$: $A(y)=\pi r^{2}(y)=\pi(8-0.5y)^{2}$.</li>
+    <li>Volume element: $dV=A(y)dy = \pi(8-0.5y)^{2}dy$.</li>
+    <li>Integrate from $y=0$ to $y=10$:</li>
+    $$V=\pi\int_{0}^{10}(8-0.5y)^{2}dy
+      =\pi\int_{0}^{10}\bigl(64-8y+0.25y^{2}\bigr)dy$$
+    $$= \pi\left[64y-4y^{2}+\frac{0.25}{3}y^{3}\right]_{0}^{10}
+      = \pi\left(640-400+\frac{250}{3}\right)$$
+    $$= \pi\left(240+\frac{250}{3}\right)
+      = \pi\left(\frac{720+250}{3}\right)
+      = \frac{970}{3}\pi\text{ cm}^{3}.$$
+    <li>Now apply the standard formula:
+      $$V_{\text{std}} = \frac{1}{3}\pi h\left(r_{1}^{2}+r_{1}r_{2}+r_{2}^{2}\right)
+        = \frac{1}{3}\pi (10)(8^{2}+8\cdot3+3^{2})$$
+      $$= \frac{10\pi}{3}(64+24+9)=\frac{10\pi}{3}(97)=\frac{970}{3}\pi\text{ cm}^{3}.$$
+    <li>Both methods give identical result, confirming the formula’s correctness.</li>
+  </ol>
+
+  <h4><strong>Common Mistakes</strong></h4>
+  <ul>
+    <li><strong>Omitting the base area in total surface area calculations.</strong> Students often add only the lateral area, forgetting that many solids (e.g., cones, pyramids) require the base (or bases) to be counted unless explicitly excluded.</li>
+    <li><strong>Using the slant height $l$ in place of the vertical height $h$ for volume.</strong> Volume depends on $h$, not $l$; mixing them leads to a $3/2$ factor error for cones and pyramids.</li>
+    <li><strong>Incorrect sign in the linear radius relation for a frustum.</strong> The radius should decrease (or increase) linearly; writing $r(y)=r_{1}+\frac{r_{2}-r_{1}}{h}y$ without checking direction reverses the geometry.</li>
+    <li><strong>Assuming the surface area of an ellipsoid is $4\pi a^{2}$.</strong> That expression holds only for a sphere ($a=b=c$). For a general ellipsoid one must use the approximate formula or elliptic integrals; using the sphere formula underestimates the area.</li>
+  </ul>
+
+  <h4><strong>Shortcuts & Tricks (Time‑Saving for Competitive Exams)</strong></h4>
+  <ol>
+    <li><strong>Memorise the “core” formulas</strong> for the five most frequent solids: cube, cuboid, sphere, cylinder, cone. Their structures (e.g., $4\pi r^{2}$, $\frac{1}{3}\pi r^{2}h$) are easy to recall.</li>
+    <li><strong>Use the “half‑sphere” trick.</strong> When a problem involves a hemisphere sitting on a flat base, remember that its total SA = $3\pi r^{2}$ (curved part $2\pi r^{2}$ + base $\pi r^{2}$). This avoids recomputing each component.</li>
+    <li><strong>Apply proportionality for similar solids.</strong> If two similar cones have radii $r_{1}, r_{2}$ and heights $h_{1}, h_{2}$, then $V\propto r^{2}h$. Hence $V_{2}=V_{1}\left(\frac{r_{2}}{r_{1}}\right)^{2}\left(\frac{h_{2}}{h_{1}}\right)$. This shortcut bypasses fresh integration.</li>
+    <li><strong>Remember the “cylinder‑cone” composite shortcut.</strong> For a solid formed by a cylinder topped by a cone with equal radii, total volume $= \pi r^{2}(h_{\text{cyl}}+\frac{1}{3}h_{\text{cone}})$. Quick mental addition saves seconds.</li>
+    <li><strong>For frustums, use the “average radius” shortcut.</strong> Approximate volume as $V\approx \pi \bar{r}^{2}h$ where $\bar{r}= \frac{r_{1}+r_{2}}{2}$. This yields a value within 5 % and is acceptable when only a rough estimate is needed under time pressure.</li>
+    <li><strong>Exploit symmetry.</strong> When a problem asks for the surface area of a solid formed by rotating a simple shape about an axis, use the formula $S = 2\pi \int r\, ds$ (Pappus’ theorem) rather than summing individual faces.</li>
+    <li><strong>Convert mixed units early.</strong> If height is given in meters and radius in centimeters, convert to a common unit before plugging into formulas to avoid arithmetic errors.</li>
+    <li><strong>Check for “right‑angle” conditions.</strong> Many volume problems become trivial once you recognise a right‑angled triangle (e.g., $l^{2}=r^{2}+h^{2}$) hidden in the data.</li>
+  </ol>
+
+  <h4><strong>Additional Relationships Worth Knowing</strong></h4>
+  <ul>
+    <li><strong>Ratio of Surface Area to Volume for a sphere:</strong> $\displaystyle \frac{S}{V}= \frac{3}{r}$, illustrating that as $r$ increases, volume grows faster than surface area.</li>
+    <li><strong>Isoperimetric Inequality:</strong> For any solid of given volume $V$, the sphere has the minimum possible surface area $S_{\min}= (36\pi)^{1/3}V^{2/3}$. This concept often appears in proof‑type questions.</li>
+    <li><strong>Surface Area of a Right Prism:</strong> $S = 2B + Ph$, where $P$ is the perimeter of the base. This generalises the cylinder formula.</li>
+    <li><strong>Volume of a Right Pyramid:</strong> $V = \frac{1}{3}Bh$, a direct analogue of the cone formula.</li>
+  </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>Surface area of a sphere = <strong>4πr²</strong>; volume = <strong>\(\frac{4}{3}πr³\)</strong> (Archimedes’ result).</li>
-      <li>For a right circular cylinder, <strong>lateral SA = 2πrh</strong> and total SA = <strong>2πr(r + h)</strong>.</li>
-      <li>Volume of a cone is exactly one‑third that of a cylinder with the same base and height: <strong>V_cone = \(\frac{1}{3}πr²h\)</strong>.</li>
-      <li>Using [[Pappus’ Centroid Theorem]], the volume generated by rotating a plane region of area A about an external axis at distance d is <strong>V = 2πd × A</strong>.</li>
-      <li>In any solid, if all linear dimensions are multiplied by k, <strong>SA scales as k²** and **V scales as k³** (ratio 2:3).</li>
-      <li>For a frustum of a cone, the volume formula \(\frac{1}{3}πh(R² + Rr + r²)\) is frequently tested.</li>
-      <li>Euler’s formula for convex polyhedra: <strong>V – E + F = 2</strong> – handy for counting faces/edges in complex solids.</li>
-      <li>When a problem states “total surface area” of a pyramid, always add the base area to the four triangular faces.</li>
+      <li>For any right circular cone, $l = \sqrt{r^{2}+h^{2}}$ – never substitute $l$ for $h$ in volume.</li>
+      <li>Sphere SA $=4\pi r^{2}$ and Volume $=\frac{4}{3}\pi r^{3}$; the ratio $S/V = 3/r$ is useful for comparative questions.</li>
+      <li>Surface area of a cylinder = $2\pi r(r+h)$ – remember to add both ends ($2\pi r^{2}$) and the curved part ($2\pi r h$).</li>
+      <li>A cone’s total SA (including base) = $\pi r(r+l)$; a frustum’s SA uses $l = \sqrt{(r_{1}-r_{2})^{2}+h^{2}}$.</li>
+      <li>Volume of a frustum = $\frac{1}{3}\pi h(r_{1}^{2}+r_{1}r_{2}+r_{2}^{2})$ – memorize the symmetric form.</li>
+      <li>In a composite solid of a cylinder topped by a cone with equal radius, total volume $= \pi r^{2}\left(h_{\text{cyl}}+\frac{1}{3}h_{\text{cone}}\right)$.</li>
+      <li>For a regular pyramid, lateral SA $= \frac{1}{2}Pl$, where $P$ is the base perimeter.</li>
+      <li>Ellipsoid volume $=\frac{4}{3}\pi abc$ (semi‑axes $a,b,c$); surface area requires approximation.</li>
+      <li>When a problem states “inscribed sphere in a cube of side $a$”, radius $r = \frac{a}{2}$, leading to SA $= \pi a^{2}$ and Volume $= \frac{\pi a^{3}}{6}$.</li>
+      <li>Always check if the base of a solid is omitted in the question – many errors arise from counting an extra base.</li>
     </ul>
   </div>
 </div>
@@ -3116,189 +4103,187 @@ EXPANDED_NOTES_DATA["percentages-profit-loss"] = `
     Percentages, Profit & Loss
   </h3>
 
-  <h4>Fundamental Concepts of Percentage</h4>
-  <p><strong>Percentage</strong> (from Latin <em>per centum</em>, meaning “per hundred”) is a dimension‑less ratio expressed as a part of 100. The generic conversion is:</p>
+  <h4>Fundamental Concepts & Definitions</h4>
   <ul>
-    <li><strong>Fraction → Percentage</strong>: Multiply the fraction by 100.</li>
-    <li><strong>Decimal → Percentage</strong>: Multiply the decimal by 100.</li>
-    <li><strong>Percentage → Decimal</strong>: Divide by 100.</li>
+    <li><strong>[[Percentage]]</strong> – a ratio expressed per hundred, denoted by the symbol <strong>%</strong>. Mathematically, <strong>$\displaystyle \text{Percentage}= \frac{\text{Part}}{\text{Whole}}\times 100$</strong>.</li>
+    <li><strong>[[Cost Price (CP)]]</strong> – the amount paid to acquire a product or service.</li>
+    <li><strong>[[Selling Price (SP)]]</strong> – the amount for which the product is sold to the customer.</li>
+    <li><strong>[[Profit]]</strong> – the surplus when <strong>SP > CP</strong>, quantified as <strong>$\displaystyle \text{Profit}= \text{SP}-\text{CP}$</strong>.</li>
+    <li><strong>[[Loss]]</strong> – the deficit when <strong>CP > SP</strong>, quantified as <strong>$\displaystyle \text{Loss}= \text{CP}-\text{SP}$</strong>.</li>
+    <li><strong>[[Discount]]</strong> – a reduction on the marked price (MP) offered to the buyer, usually expressed as a percentage of MP.</li>
+    <li><strong>[[Markup]]</strong> – the amount added to CP to arrive at MP, expressed as a % of CP.</li>
+    <li><strong>[[Margin]]</strong> – the profit expressed as a % of SP (or sometimes of MP), useful for comparing profitability across different price levels.</li>
+    <li><strong>[[Break‑even point]]</strong> – the situation where <strong>Profit = 0</strong>, i.e., <strong>SP = CP</strong>.</li>
   </ul>
-  <p>Key historical reference: The modern use of the symbol “%” was standardized after the 15th‑century printing press, but its arithmetic roots trace back to the ancient Babylonians who used base‑60 fractions.</p>
 
-  <h4>Core Formulas & Quick‑Conversion Rules</h4>
-  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
-    <thead>
-      <tr style="background:#f0f0f0;">
-        <th style="border:1px solid #ccc; padding:6px;">Operation</th>
-        <th style="border:1px solid #ccc; padding:6px;">Formula</th>
-        <th style="border:1px solid #ccc; padding:6px;">Typical Use‑Case</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>Finding X% of a Number</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>(X/100) × N</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;">Discount on a price, interest calculation.</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>Increase by X%</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>N × (1 + X/100)</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;">Inflation‑adjusted price, salary hike.</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>Decrease by X%</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>N × (1 – X/100)</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;">Sale discount, depreciation.</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>Percentage Change</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;"><strong>((New – Old)/Old) × 100</strong></td>
-        <td style="border:1px solid #ccc; padding:6px;">Growth rates, profit margins.</td>
-      </tr>
-    </tbody>
+  <h4>Core Formulas with Detailed Variable Legends</h4>
+  <ol>
+    <li><strong>Percentage Change</strong> (increase or decrease):
+      <br><strong>$\displaystyle \text{Percentage Change}= \frac{\text{New Value}-\text{Old Value}}{\text{Old Value}}\times 100$</strong>
+      <br>where <strong>New Value</strong> is the final quantity and <strong>Old Value</strong> is the initial quantity.</li>
+    <li><strong>Profit % on CP</strong>:
+      <br><strong>$\displaystyle \text{Profit \% on CP}= \frac{\text{Profit}}{\text{CP}}\times 100$</strong></li>
+    <li><strong>Profit % on SP</strong>:
+      <br><strong>$\displaystyle \text{Profit \% on SP}= \frac{\text{Profit}}{\text{SP}}\times 100$</strong></li>
+    <li><strong>Loss % on CP</strong>:
+      <br><strong>$\displaystyle \text{Loss \% on CP}= \frac{\text{Loss}}{\text{CP}}\times 100$</strong></li>
+    <li><strong>Loss % on SP</strong>:
+      <br><strong>$\displaystyle \text{Loss \% on SP}= \frac{\text{Loss}}{\text{SP}}\times 100$</strong></li>
+    <li><strong>Discount % on MP</strong>:
+      <br><strong>$\displaystyle \text{Discount \%}= \frac{\text{Discount}}{\text{MP}}\times 100$</strong></li>
+    <li><strong>Markup % on CP</strong>:
+      <br><strong>$\displaystyle \text{Markup \%}= \frac{\text{MP}-\text{CP}}{\text{CP}}\times 100$</strong></li>
+    <li><strong>Compound Percentage (Successive Changes)</strong>:
+      <br><strong>$\displaystyle \text{Effective \%}= \left(1+\frac{p_1}{100}\right)\left(1+\frac{p_2}{100}\right)\dots\left(1+\frac{p_n}{100}\right)-1\;\times 100$</strong>
+      <br>where each <strong>$p_i$</strong> is an individual percentage change (positive for increase, negative for decrease).</li>
+  </ol>
+
+  <h4>Derivation of the Profit % on CP Formula</h4>
+  <p>Starting from the definition of profit:</p>
+  <p><strong>$\displaystyle \text{Profit}= \text{SP}-\text{CP}$</strong></p>
+  <p>Profit % on CP is defined as profit per unit of cost price multiplied by 100:</p>
+  <p><strong>$\displaystyle \text{Profit \% on CP}= \frac{\text{Profit}}{\text{CP}}\times 100$</strong></p>
+  <p>Substituting the expression for profit yields:</p>
+  <p><strong>$\displaystyle \text{Profit \% on CP}= \frac{\text{SP}-\text{CP}}{\text{CP}}\times 100
+   =\left(\frac{\text{SP}}{\text{CP}}-1\right)\times 100$</strong></p>
+  <p>This derivation shows that if the ratio <strong>SP/CP</strong> is known, the profit % follows directly.</p>
+
+  <h4>Successive Percentage Changes – A Proof from First Principles</h4>
+  <p>Assume an initial amount <strong>$A_0$</strong>. After a first change of <strong>$p_1$%</strong> (increase if $p_1>0$, decrease if $p_1<0$), the new amount becomes:</p>
+  <p><strong>$\displaystyle A_1 = A_0\left(1+\frac{p_1}{100}\right)$</strong></p>
+  <p>Applying a second change <strong>$p_2$%</strong> on $A_1$ gives:</p>
+  <p><strong>$\displaystyle A_2 = A_1\left(1+\frac{p_2}{100}\right)=A_0\left(1+\frac{p_1}{100}\right)\left(1+\frac{p_2}{100}\right)$</strong></p>
+  <p>Continuing this process for $n$ changes, the final amount $A_n$ is:</p>
+  <p><strong>$\displaystyle A_n = A_0\prod_{i=1}^{n}\left(1+\frac{p_i}{100}\right)$</strong></p>
+  <p>Hence, the overall effective percentage change $P_{\text{eff}}$ satisfies:</p>
+  <p><strong>$\displaystyle 1+\frac{P_{\text{eff}}}{100}= \prod_{i=1}^{n}\left(1+\frac{p_i}{100}\right)$</strong></p>
+  <p>Solving for $P_{\text{eff}}$ gives the formula listed earlier.</p>
+
+  <h4>Practical Applications in Competitive Exams</h4>
+  <ul>
+    <li>Calculating <strong>GST (Goods & Services Tax)</strong> where the tax is a % of the transaction value.</li>
+    <li>Determining <strong>CAGR (Compound Annual Growth Rate)</strong> using successive percentage changes over multiple years.</li>
+    <li>Analyzing <strong>discounted cash flow</strong> where successive discounts are applied to a price.</li>
+    <li>Resolving questions that mix <strong>profit</strong> and <strong>discount</strong> in a single transaction (e.g., “A trader gives a 10% discount on MP and still makes a 5% profit on CP”).</li>
+  </ul>
+
+  <h4>Comparison Table – Profit vs. Loss vs. Break‑Even</h4>
+  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width:100%; margin-top:12px;">
+    <tr style="background:#222; color:#fff;">
+      <th>Metric</th>
+      <th>Profit Scenario</th>
+      <th>Loss Scenario</th>
+      <th>Break‑Even</th>
+    </tr>
+    <tr>
+      <td><strong>Condition</strong></td>
+      <td><strong>SP > CP</strong></td>
+      <td><strong>CP > SP</strong></td>
+      <td><strong>SP = CP</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Profit % on CP</strong></td>
+      <td><strong>$\displaystyle \frac{SP-CP}{CP}\times100$</strong></td>
+      <td><strong>—</strong></td>
+      <td><strong>0%</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Loss % on CP</strong></td>
+      <td><strong>—</strong></td>
+      <td><strong>$\displaystyle \frac{CP-SP}{CP}\times100$</strong></td>
+      <td><strong>0%</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Margin (Profit % on SP)</strong></td>
+      <td><strong>$\displaystyle \frac{SP-CP}{SP}\times100$</strong></td>
+      <td><strong>—</strong></td>
+      <td><strong>0%</strong></td>
+    </tr>
   </table>
 
-  <h4>Common Pitfalls and How to Avoid Them</h4>
+  <div class="important-box" style="border-left:4px solid var(--accent); background:#f9f9f9; padding:10px; margin-top:16px;">
+    <strong>Critical Distinction:</strong> <em>Profit % is always computed on CP, whereas Margin % is computed on SP. Confusing the two leads to systematic over‑ or under‑estimation of profitability.</em>
+  </div>
+
+  <h4>Common Mistakes</h4>
   <ul>
-    <li>Confusing <strong>percentage point</strong> with <strong>percent change</strong>. A shift from 20% to 30% is a 10‑percentage‑point increase but a 50% increase in value.</li>
-    <li>Neglecting to convert percentages to decimals before applying algebraic manipulation, especially in equations involving multiple percentage terms.</li>
-    <li>Applying the same percentage to both numerator and denominator when dealing with ratios – instead, treat each component separately.</li>
+    <li><strong>Mixing up CP and SP when calculating percentages</strong> – students often use SP in the denominator for profit % (should be CP).</li>
+    <li><strong>Ignoring the sign of successive percentage changes</strong> – treating a 20% decrease as +20% leads to inflated results.</li>
+    <li><strong>Applying discount % directly to CP instead of MP</strong> – discount is always a % of the marked price.</li>
+    <li><strong>Forgetting to convert percentages to decimals before multiplication</strong> – e.g., using 20 instead of 0.20.</li>
   </ul>
 
-  <h4>Profit & Loss – Core Definitions</h4>
-  <p>In commercial mathematics, <strong>Profit</strong> is the excess of <strong>selling price (SP)</strong> over <strong>cost price (CP)</strong>. Conversely, <strong>Loss</strong> occurs when CP exceeds SP.</p>
-  <ul>
-    <li><strong>Profit = SP – CP</strong></li>
-    <li><strong>Loss = CP – SP</strong></li>
-    <li><strong>Profit % = (Profit / CP) × 100</strong></li>
-    <li><strong>Loss % = (Loss / CP) × 100</strong></li>
-  </ul>
-  <p>Historical note: The earliest recorded profit‑loss problem appears in the 9th‑century Persian text “Al‑Kashf” attributed to [[Al‑Kashif]] (c. 870 CE), illustrating the timeless nature of these concepts.</p>
+  <h4>Shortcuts & Tricks for Speed</h4>
+  <ol>
+    <li><strong>Use the “100 – x” rule</strong> for quick calculation of the complement: if an item is sold at a <strong>x% profit on CP</strong>, the selling price is <strong>$(100+x)$% of CP.</strong></li>
+    <li><strong>Cross‑multiplication shortcut</strong> – to find SP when CP and profit % are known: <strong>SP = CP \times \frac{100+ \text{Profit%}}{100}</strong>.</li>
+    <li><strong>Reverse‑percentage trick</strong> – to find CP from SP and profit % on SP: <strong>CP = SP \times \frac{100}{100+ \text{Profit% on SP}}</strong>.</li>
+    <li><strong>Successive discount shortcut</strong> – instead of multiplying two fractions, compute the effective discount as:
+      <br><strong>$\displaystyle \text{Effective Discount}= p_1 + p_2 - \frac{p_1 p_2}{100}$</strong></li>
+    <li><strong>“Rule of 72” approximation</strong> – for estimating the number of periods required to double an amount at a constant % rate: <strong>Periods ≈ 72 / \text{Rate %}</strong>. Useful in CAGR problems.</li>
+  </ol>
 
-  <h4>Deriving the Selling Price from Given Percentage</h4>
-  <p>When a problem provides a profit or loss percentage, the selling price can be directly computed:</p>
-  <ul>
-    <li><strong>If profit of X% is given:</strong> <strong>SP = CP × (1 + X/100)</strong></li>
-    <li><strong>If loss of X% is given:</strong> <strong>SP = CP × (1 – X/100)</strong></li>
-  </ul>
-  <p>Example (illustrative): A trader buys a gadget for ₹<strong>12,000</strong> and sells it at a 15% profit. The selling price is ₹12,000 × 1.15 = ₹13,800.</p>
+  <h4>Worked Example 1 – Profit % on CP with a Percentage Increase</h4>
+  <p><strong>Problem:</strong> A dealer buys a gadget for <strong>₹ 4,500</strong> (CP). He sells it at a price that is <strong>25% higher</strong> than the purchase price. Find the <strong>selling price (SP)</strong> and the <strong>profit % on CP</strong>.</p>
+  <ol>
+    <li>Identify CP = <strong>₹ 4,500</strong>, increase = <strong>25%</strong>.</li>
+    <li>Use the “100 + x” rule:
+      <br><strong>$\displaystyle \text{SP}= \text{CP}\times\frac{100+25}{100}= \text{CP}\times1.25$</strong></li>
+    <li>Compute:
+      <br><strong>$\displaystyle \text{SP}=4,500\times1.25=5,625$</strong></li>
+    <li>Profit = SP – CP = <strong>5,625 – 4,500 = ₹ 1,125</strong>.</li>
+    <li>Profit % on CP:
+      <br><strong>$\displaystyle \frac{1,125}{4,500}\times100 = 25\%$</strong></li>
+  </ol>
+  <p>Thus, the dealer makes a <strong>25% profit on CP</strong>, and the SP is <strong>₹ 5,625</strong>.</p>
 
-  <h4>Reverse Calculations – Finding Cost Price</h4>
-  <p>Often exam questions give the selling price and the profit/loss percentage, demanding the original cost price:</p>
-  <ul>
-    <li><strong>From profit %:</strong> <strong>CP = SP / (1 + X/100)</strong></li>
-    <li><strong>From loss %:</strong> <strong>CP = SP / (1 – X/100)</strong></li>
-  </ul>
-  <p>Real‑world scenario: A retailer reports a 20% loss on a batch of wheat sold for ₹45,000. The original cost is ₹45,000 / 0.80 = ₹56,250.</p>
+  <h4>Worked Example 2 – Successive Discounts with Profit</h4>
+  <p><strong>Problem:</strong> An article has a marked price (MP) of <strong>₹ 2,000</strong>. The seller offers a <strong>10% discount</strong> followed by an additional <strong>5% discount** on the reduced price. Even after these discounts, the seller makes a <strong>12% profit on CP**. Determine the <strong>cost price (CP)</strong>.</p>
+  <ol>
+    <li>First discount of 10% reduces MP to:
+      <br><strong>$\displaystyle \text{Price}_1 = 2,000\times(1-0.10)=2,000\times0.90=₹ 1,800$</strong></li>
+    <li>Second discount of 5% on ₹ 1,800 gives:
+      <br><strong>$\displaystyle \text{SP}=1,800\times(1-0.05)=1,800\times0.95=₹ 1,710$</strong></li>
+    <li>We know SP yields a 12% profit on CP, i.e.,
+      <br><strong>$\displaystyle \text{SP}= \text{CP}\times(1+0.12)$</strong></li>
+    <li>Rearrange to find CP:
+      <br><strong>$\displaystyle \text{CP}= \frac{\text{SP}}{1.12}= \frac{1,710}{1.12}=₹ 1,527.68$</strong></li>
+    <li>Rounded to the nearest rupee, CP ≈ <strong>₹ 1,528</strong>.</li>
+  </ol>
+  <p>This example demonstrates the utility of the successive discount shortcut and the reverse‑percentage trick.</p>
 
-  <h4>Compound Profit & Loss – Multiple Transactions</h4>
-  <p>When an item undergoes successive profit or loss percentages, the net effect is multiplicative, not additive. The cumulative factor is the product of each transaction’s factor.</p>
+  <h4>Advanced Edge Cases</h4>
   <ul>
-    <li>First transaction: factor <strong>F₁ = 1 ± X₁/100</strong></li>
-    <li>Second transaction: factor <strong>F₂ = 1 ± X₂/100</strong></li>
-    <li>Net factor <strong>F = F₁ × F₂ × …</strong></li>
-    <li>Overall % change = (F – 1) × 100</li>
-  </ul>
-  <p>Illustration: A dealer incurs a 10% loss, then a 20% profit on the reduced price. Net factor = 0.90 × 1.20 = 1.08 ⇒ 8% overall profit.</p>
-
-  <h4>Discounts, Mark‑ups, and Their Interplay with Profit</h4>
-  <p>In retail, <strong>discount</strong> is a reduction from the <strong>marked price (MP)</strong>. The relationship among CP, MP, and SP is crucial for margin analysis.</p>
-  <ul>
-    <li>Mark‑up % = ((MP – CP) / CP) × 100</li>
-    <li>Discount % = ((MP – SP) / MP) × 100</li>
-    <li>Effective profit % = ((SP – CP) / CP) × 100</li>
-  </ul>
-  <p>Case study: A shop buys a TV for ₹30,000, marks it up by 25% (MP = ₹37,500), then offers a 10% discount (SP = ₹33,750). Profit = ₹3,750 ⇒ profit % = 12.5%.</p>
-
-  <h4>Special Situations</h4>
-  <h5>1. “Profit on Cost” vs “Profit on Selling Price”</h5>
-  <p>Some problems use profit expressed on SP rather than CP, leading to the formula:</p>
-  <ul>
-    <li><strong>Profit on SP = (Profit / SP) × 100</strong></li>
-    <li>Rearranged: <strong>SP = CP / (1 – Profit % / 100)</strong></li>
-  </ul>
-  <p>Example: A dealer claims a 25% profit on SP of ₹8,000. CP = ₹8,000 × (1 – 0.25) = ₹6,000.</p>
-
-  <h5>2. “Loss on Cost” vs “Loss on Selling Price”</h5>
-  <p>Analogous to profit, loss expressed on SP follows:</p>
-  <ul>
-    <li><strong>Loss on SP = (Loss / SP) × 100</strong></li>
-    <li>Rearranged: <strong>SP = CP / (1 + Loss % / 100)</strong></li>
+    <li><strong>Negative profit (loss) expressed as a positive %</strong> – Always state “loss of X%” rather than “‑X% profit”.</li>
+    <li><strong>Zero‑percent change</strong> – When the new value equals the old value, the percentage change is precisely 0%; this is a common trap in “no‑change” questions.</li>
+    <li><strong>Mixed increase‑decrease sequences</strong> – The order matters; applying a 20% increase followed by a 10% decrease yields a different result than the reverse.</li>
+    <li><strong>Profit on SP vs. CP in multi‑item bundles</strong> – For bundles, compute aggregate CP and SP before applying percentage formulas.</li>
   </ul>
 
-  <h5>3. “Percentage of Profit” in Mixed Transactions</h5>
-  <p>When a business sells multiple items at different profit percentages, the overall profit % is weighted by the individual cost contributions.</p>
-  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
-    <thead>
-      <tr style="background:#e8f5e9;">
-        <th style="border:1px solid #bbb; padding:6px;">Item</th>
-        <th style="border:1px solid #bbb; padding:6px;">Cost (₹)</th>
-        <th style="border:1px solid #bbb; padding:6px;">Profit %</th>
-        <th style="border:1px solid #bbb; padding:6px;">Profit (₹)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border:1px solid #bbb; padding:6px;">A</td>
-        <td style="border:1px solid #bbb; padding:6px;">10,000</td>
-        <td style="border:1px solid #bbb; padding:6px;">20</td>
-        <td style="border:1px solid #bbb; padding:6px;">2,000</td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #bbb; padding:6px;">B</td>
-        <td style="border:1px solid #bbb; padding:6px;">15,000</td>
-        <td style="border:1px solid #bbb; padding:6px;">10</td>
-        <td style="border:1px solid #bbb; padding:6px;">1,500</td>
-      </tr>
-      <tr>
-        <td colspan="3" style="border:1px solid #bbb; padding:6px; text-align:right;"><strong>Total Cost</strong></td>
-        <td style="border:1px solid #bbb; padding:6px;">25,000</td>
-      </tr>
-      <tr>
-        <td colspan="3" style="border:1px solid #bbb; padding:6px; text-align:right;"><strong>Total Profit</strong></td>
-        <td style="border:1px solid #bbb; padding:6px;">3,500</td>
-      </tr>
-      <tr>
-        <td colspan="3" style="border:1px solid #bbb; padding:6px; text-align:right;"><strong>Overall Profit %</strong></td>
-        <td style="border:1px solid #bbb; padding:6px;">14 %</td>
-      </tr>
-    </tbody>
-  =></table>
+  <h4>Historical Context</h4>
+  <p>The concept of profit and loss dates back to ancient trade routes where merchants used simple ratios to ensure survival. The modern percentage notation was standardized in the 17<sup>th</sup> century, facilitating the rapid calculations required in the industrial era. Indian commercial arithmetic, especially in the context of the <em>paisa‑rupee</em> system, emphasized mental shortcuts, many of which survive today as the “rule of 100” used in competitive exams.</p>
 
-  <h4>Important Numerical Constants & Benchmarks</h4>
+  <h4>Real‑World Applications</h4>
   <ul>
-    <li>Standard discount rate used by the <strong>Reserve Bank of India (RBI)</strong> for repo operations is typically around 4.0% (as of 2023‑24).</li>
-    <li>India’s <strong>inflation rate</strong> averaged 6.5% in FY 2022‑23, a useful reference for “price increase” problems.</li>
-    <li>World Bank’s <strong>global trade growth</strong> of 3.2% (2022) provides realistic contexts for profit‑margin calculations in import‑export scenarios.</li>
-    <li>Under the <strong>Goods and Services Tax (GST) Act, 2017</strong>, the standard tax rate is 18%; many profit‑loss questions embed GST to test net‑profit understanding.</li>
-  </ul>
-
-  <h4>Advanced Techniques for Rapid Computation</h4>
-  <ul>
-    <li><strong>Cross‑multiplication shortcut</strong>: To find X% of a large number, split the number into manageable chunks (e.g., 12,345 = 12,000 + 345) and apply the percentage separately.</li>
-    <li><strong>Use of 5% and 10% benchmarks</strong>: 5% is half of 10%; many exam problems can be solved by adding/subtracting half of a 10% value.</li>
-    <li><strong>Vedic Maths “Nikhilam” method</strong> for subtraction when dealing with high‑percentage discounts (e.g., 97% discount → subtract 3% of the base).</li>
-    <li><strong>Algebraic substitution</strong> for unknowns: Set CP = x, then express SP in terms of x using the given percentage, and solve linear equations.</li>
-  </ul>
-
-  <h4>Common Real‑World Applications in Defence‑Related Contexts</h4>
-  <ul>
-    <li>Procurement of ammunition under the <strong>Defense Procurement Procedure (DPP) 2020</strong> often involves multi‑stage price escalations expressed as annual percentage increments.</li>
-    <li>Logistics of the <strong>Indian Armed Forces</strong> include fuel consumption calculations where profit‑loss concepts translate to cost‑avoidance measures (e.g., fuel‑efficiency improvements of 12%).</li>
-    <li>Military contracts for equipment (e.g., the [[BrahMos missile]]) may quote “cost‑plus” percentages, demanding clear comprehension of profit on cost versus profit on selling price.</li>
+    <li>Retail pricing strategies – determining optimal discount levels to achieve target profit margins.</li>
+    <li>Financial analysis – evaluating company performance using profit % on CP (gross profit margin) and profit % on SP (net margin).</li>
+    <li>Taxation – calculating GST as a percentage of the transaction value, often compounded with state‑level taxes.</li>
+    <li>Investment – assessing returns using CAGR, which is fundamentally a compound percentage problem.</li>
   </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>Profit % is always calculated on <strong>cost price (CP)</strong>, not on selling price.</li>
-      <li>A successive loss of 20% followed by a gain of 25% results in a net profit of 2% (0.80 × 1.25 = 1.00 + 0.02).</li>
-      <li>When “% discount on MP” is given, first compute MP = CP × (1 + Mark‑up / 100) before applying the discount.</li>
-      <li>For any percentage problem, converting the percent to its decimal form (÷100) before algebraic manipulation eliminates common errors.</li>
-      <li>In “profit on SP” questions, use CP = SP × (1 – Profit % / 100) to retrieve the original cost.</li>
-      <li>GST of 18% on a product effectively reduces the seller’s profit margin by that same percentage unless the seller adjusts the SP accordingly.</li>
-      <li>Compound percentage changes multiply the individual factors; never add the percentages directly.</li>
-      <li>When asked for “percentage increase from ₹A to ₹B”, use ((B – A)/A) × 100, not ((B – A)/B) × 100.</li>
+      <li>Profit % on CP = (SP – CP) ÷ CP × 100; always use CP in the denominator.</li>
+      <li>Effective discount for two successive discounts $p_1$% and $p_2$% = $p_1 + p_2 - \frac{p_1p_2}{100}$.</li>
+      <li>If an item is sold at a $x\%$ profit on CP, SP = CP × $(100+x)/100$.</li>
+      <li>When given profit % on SP, CP = SP × $100/(100+ \text{profit%})$.</li>
+      <li>For a $y\%$ loss on CP, the selling price = CP × $(100-y)/100$.</li>
+      <li>Compound percentage change = $\displaystyle \left(\prod (1+\frac{p_i}{100})-1\right)\times100$.</li>
+      <li>Rule of 72: Approximate doubling period ≈ $72/$Rate % (useful for CAGR problems).</li>
+      <li>Mark‑up % on CP = (MP – CP) ÷ CP × 100; Discount % is always on MP, not on CP.</li>
+      <li>Break‑even occurs when SP = CP; profit and loss become zero.</li>
+      <li>In mixed profit‑discount questions, first apply discount to MP, then equate resulting SP to CP × $(1+$Profit%/100)$.</li>
     </ul>
   </div>
 </div>
@@ -3310,176 +4295,156 @@ EXPANDED_NOTES_DATA["ratios-averages"] = `
     Ratios, Proportions & Averages
   </h3>
 
-  <h4><strong>1. Fundamental Concepts</strong></h4>
-  <p>
-    A <strong>ratio</strong> expresses a quantitative relationship between two or more numbers by comparing their sizes. Formally, if <em>a</em> and <em>b</em> are non‑zero quantities, the ratio is written as <strong>a : b</strong> or \(\frac{a}{b}\). Ratios are dimensionless; they convey only the relative magnitude and are invariant under scaling.
-  </p>
-  <p>
-    A <strong>proportion</strong> states that two ratios are equal, i.e., \(\frac{a}{b} = \frac{c}{d}\). This can be rearranged to the cross‑multiplication identity <strong>ad = bc</strong>. Proportional relationships underpin many physical laws (e.g., [[Boyle's law]], [[Ohm's law]]) and are central to problem‑solving in the defence examinations.
-  </p>
+  <h4 style="color: var(--accent); margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; font-weight: 500;">
+    Introduction to Ratios
+  </h4>
 
-  <h4><strong>2. Classification of Ratios</strong></h4>
-  <ul>
-    <li><strong>Simple Ratio</strong>: Involves two terms only (e.g., 3 : 4).</li>
-    <li><strong>Compound Ratio</strong>: Product of two or more simple ratios (e.g., (2 : 3) × (5 : 7) = 10 : 21).</li>
-    <li><strong>Continued Ratio</strong>: Expressed as a chain of ratios, often used in geometry (e.g., a : b : c : d).</li>
-    <li><strong>Direct Ratio (Direct Proportion)</strong>: When one quantity increases, the other increases in the same ratio; mathematically, \(y \propto x\) ⇒ \(y = kx\).</li>
-    <li><strong>Inverse Ratio (Inverse Proportion)</strong>: When one quantity increases, the other decreases proportionally; \(y \propto \frac{1}{x}\) ⇒ \(y = \frac{k}{x}\).</li>
+  A **ratio** is a way of comparing two quantities by division, and it is often denoted by the symbol $:$, which is read as "to". For example, if we have $a$ units of one quantity and $b$ units of another quantity, then the ratio of the first quantity to the second quantity is $a:b$ or $\frac{a}{b}$. The ratio $\frac{a}{b}$ can be expressed as a **fraction**, which has a **numerator** $a$ and a **denominator** $b$. The numerator represents the number of parts of the whole, while the denominator represents the total number of parts.
+
+  For a ratio $\frac{a}{b}$, the following conditions must be met:
+  - $a$ and $b$ must be non-zero.
+  - $a$ and $b$ must have the same units.
+
+  The ratio $\frac{a}{b}$ can be **simplified** by dividing both $a$ and $b$ by their greatest common divisor (GCD), which is the largest positive integer that divides both $a$ and $b$ without leaving a remainder.
+
+  <h4 style="color: var(--accent); margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; font-weight: 500;">
+    Introduction to Proportions
+  </h4>
+
+  A **proportion** is a statement that two ratios are equal, and it is often denoted by the symbol $=$. For example, if we have $\frac{a}{b} = \frac{c}{d}$, then we say that the ratios $\frac{a}{b}$ and $\frac{c}{d}$ are in proportion. The proportion $\frac{a}{b} = \frac{c}{d}$ can be expressed as $ad = bc$, which is known as the **cross-multiplication** property.
+
+  For a proportion $\frac{a}{b} = \frac{c}{d}$, the following conditions must be met:
+  - $a$, $b$, $c$, and $d$ must be non-zero.
+  - $a$, $b$, $c$, and $d$ must have the same units.
+
+  The proportion $\frac{a}{b} = \frac{c}{d}$ can be used to solve for an unknown quantity. For example, if we know that $\frac{a}{b} = \frac{c}{d}$ and we want to solve for $c$, then we can use the cross-multiplication property to get $c = \frac{ad}{b}$.
+
+  <h4 style="color: var(--accent); margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; font-weight: 500;">
+    Introduction to Averages
+  </h4>
+
+  An **average** is a value that represents the middle of a set of numbers, and it is often denoted by the symbol $\bar{x}$. For example, if we have a set of numbers $\{x_1, x_2, \ldots, x_n\}$, then the average of the set is $\bar{x} = \frac{x_1 + x_2 + \cdots + x_n}{n}$.
+
+  The average $\bar{x}$ can be calculated using the following formula:
+  $$\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$$
+  where $\sum_{i=1}^{n} x_i$ is the sum of the numbers in the set and $n$ is the number of numbers in the set.
+
+  For an average $\bar{x}$, the following conditions must be met:
+  - The numbers in the set must be non-zero.
+  - The numbers in the set must have the same units.
+
+  <h4 style="color: var(--accent); margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; font-weight: 500;">
+    Types of Averages
+  </h4>
+
+  There are several types of averages, including:
+  <ul style="margin-top: 8px;">
+    <li style="margin-bottom: 8px;">**Arithmetic mean**: The arithmetic mean is the most common type of average, and it is calculated using the formula $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$.</li>
+    <li style="margin-bottom: 8px;">**Geometric mean**: The geometric mean is used to calculate the average of a set of numbers that have a large range of values, and it is calculated using the formula $\bar{x} = \sqrt[n]{x_1 \cdot x_2 \cdots x_n}$.</li>
+    <li style="margin-bottom: 8px;">**Harmonic mean**: The harmonic mean is used to calculate the average of a set of numbers that have a large range of values, and it is calculated using the formula $\bar{x} = \frac{n}{\sum_{i=1}^{n} \frac{1}{x_i}}$.</li>
+    <li style="margin-bottom: 8px;">**Median**: The median is the middle value of a set of numbers when the numbers are arranged in order, and it is calculated using the formula $\bar{x} = x_{\frac{n+1}{2}}$ for an odd number of numbers and $\bar{x} = \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}$ for an even number of numbers.</li>
   </ul>
 
-  <h4><strong>3. Properties of Ratios and Proportions</strong></h4>
-  <ul>
-    <li>Multiplying or dividing each term of a ratio by the same non‑zero constant does not alter its value.</li>
-    <li>In a proportion, the product of the means equals the product of the extremes (<strong>ad = bc</strong>).</li>
-    <li>When three terms are in continued proportion, the middle term is the <strong>geometric mean</strong> of the outer terms: \(b^2 = ac\).</li>
-    <li>Any ratio can be expressed in its simplest form by dividing both terms by their <strong>greatest common divisor (GCD)</strong>.</li>
-    <li>For a set of numbers in proportion, the sum of the antecedents equals the sum of the consequents if the common ratio is 1.</li>
+  <h4 style="color: var(--accent); margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; font-weight: 500;">
+    Worked Examples
+  </h4>
+
+  <div style="margin-bottom: 16px;">
+    **Example 1**: If the ratio of boys to girls in a class is $3:2$, and there are $15$ boys in the class, how many girls are in the class?
+  </div>
+
+  **Solution**: Let $x$ be the number of girls in the class. Since the ratio of boys to girls is $3:2$, we can set up the proportion $\frac{3}{2} = \frac{15}{x}$. Using the cross-multiplication property, we get $3x = 2 \cdot 15$, which simplifies to $3x = 30$. Dividing both sides by $3$, we get $x = 10$. Therefore, there are $10$ girls in the class.
+
+  <div style="margin-bottom: 16px;">
+    **Example 2**: If the average of a set of numbers is $10$, and the set contains $5$ numbers, what is the sum of the numbers in the set?
+  </div>
+
+  **Solution**: Let $x_1, x_2, \ldots, x_5$ be the numbers in the set. Since the average of the set is $10$, we can set up the equation $\frac{x_1 + x_2 + \cdots + x_5}{5} = 10$. Multiplying both sides by $5$, we get $x_1 + x_2 + \cdots + x_5 = 50$. Therefore, the sum of the numbers in the set is $50$.
+
+  <h4 style="color: var(--accent); margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; font-weight: 500;">
+    Common Mistakes
+  </h4>
+
+  The following are some common mistakes that students make when working with ratios, proportions, and averages:
+  <ul style="margin-top: 8px;">
+    <li style="margin-bottom: 8px;">**Not simplifying ratios**: Students often forget to simplify ratios by dividing both the numerator and the denominator by their greatest common divisor.</li>
+    <li style="margin-bottom: 8px;">**Not using the cross-multiplication property**: Students often forget to use the cross-multiplication property when working with proportions.</li>
+    <li style="margin-bottom: 8px;">**Not calculating the average correctly**: Students often forget to calculate the average correctly by dividing the sum of the numbers by the number of numbers.</li>
+    <li style="margin-bottom: 8px;">**Not using the correct type of average**: Students often forget to use the correct type of average, such as the arithmetic mean, geometric mean, or harmonic mean, depending on the context of the problem.</li>
   </ul>
 
-  <h4><strong>4. Methods of Solving Proportional Problems</strong></h4>
-  <p><strong>Rule of Three (Simple Proportion)</strong></p>
-  <p>Given \(a:b = c:x\), solve for <em>x</em> using cross‑multiplication: <strong>x = \frac{b \times c}{a}</strong>. This forms the backbone of many NDA/ CDS questions.</p>
+  <h4 style="color: var(--accent); margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; font-weight: 500;">
+    Shortcuts & Tricks
+  </h4>
 
-  <p><strong>Compound Proportion</strong></p>
-  <p>When multiple relationships are involved, multiply the individual ratios to obtain a compound ratio, then apply the rule of three.</p>
-
-  <p><strong>Alligation Method (Mixture Problems)</strong></p>
-  <ul>
-    <li>Used when two or more ingredients with different concentrations are mixed to achieve a desired concentration.</li>
-    <li>Set up a tabular form: <br>
-      <table border="1" cellpadding="5" cellspacing="0" style="margin-top:8px;">
-        <tr><th>Ingredient</th><th>Concentration (%)</th><th>Difference from Desired</th><th>Ratio</th></tr>
-        <tr><td>Higher</td><td>p₁</td><td>p₁ - p_d</td><td rowspan="2">p₁ - p_d : p_d - p₂</td></tr>
-        <tr><td>Lower</td><td>p₂</td><td>p_d - p₂</td></tr>
-      </table>
-    </li>
-    <li>Allocate the total quantity in the ratio obtained, then compute individual amounts.</li>
+  The following are some shortcuts and tricks that can be used when working with ratios, proportions, and averages:
+  <ul style="margin-top: 8px;">
+    <li style="margin-bottom: 8px;">**Using the ratio of ratios**: When working with proportions, it is often helpful to use the ratio of ratios, which is the ratio of the two ratios being compared.</li>
+    <li style="margin-bottom: 8px;">**Using the average of averages**: When working with averages, it is often helpful to use the average of averages, which is the average of the averages of two or more sets of numbers.</li>
+    <li style="margin-bottom: 8px;">**Using the formula for the average**: When working with averages, it is often helpful to use the formula for the average, which is $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$.</li>
+    <li style="margin-bottom: 8px;">**Using the concept of equivalent ratios**: When working with ratios, it is often helpful to use the concept of equivalent ratios, which are ratios that have the same value but are expressed differently.</li>
   </ul>
 
-  <h4><strong>5. Averages – Definitions and Types</strong></h4>
-  <p>In quantitative analysis, an <strong>average</strong> is a single value representing a set of numbers. Three classical means dominate the syllabus:</p>
-  <ul>
-    <li><strong>Arithmetic Mean (AM)</strong>: \(\displaystyle \text{AM} = \frac{\sum_{i=1}^{n} a_i}{n}\). It is the most frequently used mean in combat logistics and budgeting.</li>
-    <li><strong>Geometric Mean (GM)</strong>: \(\displaystyle \text{GM} = \sqrt[n]{\prod_{i=1}^{n} a_i}\). Essential for growth rates, e.g., compound interest, and for interpreting [[Fibonacci sequence]]‑related problems.</li>
-    <li><strong>Harmonic Mean (HM)</strong>: \(\displaystyle \text{HM} = \frac{n}{\sum_{i=1}^{n} \frac{1}{a_i}}\). Primarily appears in problems involving speeds, rates, and resistances in parallel.</li>
-  </ul>
+  <div class="important-box" style="background: rgba(255,255,255,0.1); border: 1px solid var(--border); padding: 12px; margin-bottom: 16px; border-radius: 6px;">
+    <strong style="color: var(--accent);">Important Distinction</strong>
+    <p style="margin-top: 8px;">It is essential to distinguish between the concepts of ratio, proportion, and average, as they are often used interchangeably but have different meanings.</p>
+  </div>
 
-  <h4><strong>6. Inter‑relationships Among Means</strong></h4>
-  <p>For any set of positive real numbers, the inequality holds: <strong>HM ≤ GM ≤ AM</strong>. Equality occurs only when all numbers are identical. This relationship is often tested in reasoning‑type questions.</p>
+  The concept of [[ratio]] is closely related to the concept of [[proportion]], which is a statement that two ratios are equal. The concept of [[average]] is a value that represents the middle of a set of numbers. The [[arithmetic mean]] is the most common type of average, which is calculated by summing all the numbers in a set and dividing by the number of items in the set. The [[geometric mean]] is used to calculate the average of a set of numbers that have a large range of values. The [[harmonic mean]] is used to calculate the average of a set of numbers that have a large range of values.
 
-  <h4><strong>7. Applications in Defence‑Related Scenarios</strong></h4>
-  <ul>
-    <li><strong>Logistics</strong>: Determining the average consumption of fuel per aircraft using AM helps in planning sorties.</li>
-    <li><strong>Ballistics</strong>: The GM of successive velocity increments provides the effective muzzle velocity when multiple stages are involved.</li>
-    <li><strong>Signal Processing</strong>: HM is used to average reciprocal quantities such as noise power spectral densities.</li>
-    <li><strong>Strategic Planning</strong>: Ratios of troop strength to equipment (e.g., infantry : tanks) guide force composition.</li>
-  </ul>
+  The formula for the average is $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$, where $\sum_{i=1}^{n} x_i$ is the sum of the numbers in the set and $n$ is the number of numbers in the set. The formula for the [[median]] is $\bar{x} = x_{\frac{n+1}{2}}$ for an odd number of numbers and $\bar{x} = \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}$ for an even number of numbers.
 
-  <h4><strong>8. Common Formulae – Quick Reference Table</strong></h4>
-  <table border="1" cellpadding="6" cellspacing="0" style="width:100%; margin-top:10px;">
-    <tr style="background:#f2f2f2;">
-      <th>Concept</th>
-      <th>Formula</th>
-      <th>Typical Use‑Case</th>
-    </tr>
-    <tr>
-      <td><strong>Simple Ratio</strong></td>
-      <td>\(a:b = \frac{a}{b}\)</td>
-      <td>Comparing manpower to equipment</td>
-    </tr>
-    <tr>
-      <td><strong>Compound Ratio</strong></td>
-      <td>\(R = (a_1:b_1) \times (a_2:b_2) \times \dots\)</td>
-      <td>Multi‑stage supply chain efficiency</td>
-    </tr>
-    <tr>
-      <td><strong>Direct Proportion</strong></td>
-      <td>\(y = kx\)</td>
-      <td>Fuel consumption vs. flight hours</td>
-    </tr>
-    <tr>
-      <td><strong>Inverse Proportion</strong></td>
-      <td>\(y = \frac{k}{x}\)</td>
-      <td>Speed vs. travel time</td>
-    </tr>
-    <tr>
-      <td><strong>Rule of Three</strong></td>
-      <td>\(x = \frac{b \times c}{a}\)</td>
-      <td>Estimating ammunition needed for a given target</td>
-    </tr>
-    <tr>
-      <td><strong>Arithmetic Mean</strong></td>
-      <td>\(\displaystyle \frac{a_1 + a_2 + \dots + a_n}{n}\)</td>
-      <td>Average daily rations</td>
-    </tr>
-    <tr>
-      <td><strong>Geometric Mean</strong></td>
-      <td>\(\displaystyle \sqrt[n]{a_1 a_2 \dots a_n}\)</td>
-      <td>Compound growth of personnel strength</td>
-    </tr>
-    <tr>
-      <td><strong>Harmonic Mean</strong></td>
-      <td>\(\displaystyle \frac{n}{\frac{1}{a_1} + \frac{1}{a_2} + \dots + \frac{1}{a_n}}\)</td>
-      <td>Average speed of aircraft flying different legs</td>
-    </tr>
-    <tr>
-      <td><strong>Alligation</strong></td>
-      <td>\(\frac{p_1 - p_d}{p_d - p_2}\)</td>
-      <td>Mixing fuels of varying octane ratings</td>
-    </tr>
-    <tr>
-      <td><strong>Continued Proportion</strong></td>
-      <td>\(a:b = b:c = c:d = \dots\)</td>
-      <td>Designing stepped gear ratios</td>
-    </tr>
-  </table>
+  <div class="important-box" style="background: rgba(255,255,255,0.1); border: 1px solid var(--border); padding: 12px; margin-bottom: 16px; border-radius: 6px;">
+    <strong style="color: var(--accent);">Real-World Applications</strong>
+    <p style="margin-top: 8px;">The concepts of ratio, proportion, and average have numerous real-world applications, including [[business]], [[economics]], [[engineering]], and [[statistics]].</p>
+  </div>
 
-  <h4><strong>9. Advanced Topics</strong></h4>
-  <p><strong>9.1. Ratio of Means in Sequences</strong></p>
-  <p>When dealing with arithmetic or geometric progressions, the ratio of consecutive terms can be exploited to find unknowns quickly. For an arithmetic progression (AP) with common difference <em>d</em>, the ratio of successive terms is \(\frac{a + (n-1)d}{a + (n-2)d}\). For a geometric progression (GP) with ratio <em>r</em>, the ratio is constant: \(\frac{a r^{n-1}}{a r^{n-2}} = r\).</p>
+  The concept of ratio is used in [[business]] to compare the performance of different companies or to determine the ratio of debt to equity. The concept of proportion is used in [[economics]] to compare the prices of different goods or to determine the proportion of a country's GDP that is spent on different sectors. The concept of average is used in [[engineering]] to calculate the average stress on a material or to determine the average flow rate of a fluid.
 
-  <p><strong>9.2. Weighted Averages</strong></p>
-  <p>In many operational contexts, each element contributes unequally. The weighted average is given by \(\displaystyle \frac{\sum w_i a_i}{\sum w_i}\), where \(w_i\) denotes the weight (e.g., number of troops, tonnage of cargo). This is vital for calculating overall effectiveness when different units have disparate capabilities.</p>
-
-  <p><strong>9.3. Application of [[Euclid's Lemma]] in Ratio Problems</strong></p>
-  <p>Euclid’s Lemma states that if a prime divides a product, it must divide at least one factor. This is useful when simplifying ratios involving large numbers, ensuring the final ratio is in its lowest terms.</p>
-
-  <p><strong>9.4. Golden Ratio & Military Architecture</strong></p>
-  <p>The famous [[Golden ratio]] \(\phi = \frac{1+\sqrt{5}}{2} \approx 1.618\) appears in optimal design of fortifications where the proportion of height to base provides maximum defensive strength while minimizing material usage.</p>
-
-  <h4><strong>10. Common Pitfalls and Tricks</strong></h4>
-  <ul>
-    <li>Never forget to reduce ratios to their simplest form before applying cross‑multiplication; otherwise, you may introduce spurious solutions.</li>
-    <li>When dealing with mixtures, always verify that the resultant concentration lies between the extremes; if not, the problem data is inconsistent.</li>
-    <li>For averages, ensure that the data set contains only positive numbers when applying the GM–HM inequality.</li>
-    <li>In proportion problems involving time, remember to convert all time units to a common base (seconds, minutes, or hours) before applying the rule of three.</li>
-    <li>When multiple proportional relations are combined, write each relation explicitly before forming the compound ratio to avoid algebraic errors.</li>
-  </ul>
-
-  <h4><strong>11. Sample Worked‑Out Framework (Illustrative)</strong></h4>
-  <p><em>Problem Sketch:</em> A squad of 120 soldiers is to be equipped with rifles and pistols in the ratio 3 : 2. Each rifle costs ₹15,000 and each pistol ₹7,500. Find the total expenditure.</p>
-  <ol>
-    <li>Determine individual quantities: <br>
-        Rifle count = \(\frac{3}{3+2} \times 120 = 72\); <br>
-        Pistol count = \(\frac{2}{5} \times 120 = 48\).</li>
-    <li>Compute cost: <br>
-        Cost of rifles = 72 × ₹15,000 = ₹1,080,000; <br>
-        Cost of pistols = 48 × ₹7,500 = ₹360,000.</li>
-    <li>Total expenditure = ₹1,440,000.</li>
-  </ol>
-  <p>This example demonstrates seamless use of ratios, reduction, and weighted calculation – a pattern that repeats in many NDA/ CDS questions.</p>
+  <div style="margin-bottom: 16px;">
+    The following table summarizes the different types of averages:
+    <table style="margin-top: 8px; border-collapse: collapse; width: 100%;">
+      <tr style="background: rgba(255,255,255,0.1); border-bottom: 1px solid var(--border);">
+        <th style="padding: 8px; border-right: 1px solid var(--border);">Type of Average</th>
+        <th style="padding: 8px; border-right: 1px solid var(--border);">Formula</th>
+        <th style="padding: 8px;">Description</th>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--border);">
+        <td style="padding: 8px; border-right: 1px solid var(--border);">Arithmetic Mean</td>
+        <td style="padding: 8px; border-right: 1px solid var(--border);">$$\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$$</td>
+        <td style="padding: 8px;">The most common type of average, calculated by summing all the numbers in a set and dividing by the number of items in the set.</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--border);">
+        <td style="padding: 8px; border-right: 1px solid var(--border);">Geometric Mean</td>
+        <td style="padding: 8px; border-right: 1px solid var(--border);">$$\bar{x} = \sqrt[n]{x_1 \cdot x_2 \cdots x_n}$$</td>
+        <td style="padding: 8px;">Used to calculate the average of a set of numbers that have a large range of values.</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--border);">
+        <td style="padding: 8px; border-right: 1px solid var(--border);">Harmonic Mean</td>
+        <td style="padding: 8px; border-right: 1px solid var(--border);">$$\bar{x} = \frac{n}{\sum_{i=1}^{n} \frac{1}{x_i}}$$</td>
+        <td style="padding: 8px;">Used to calculate the average of a set of numbers that have a large range of values.</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--border);">
+        <td style="padding: 8px; border-right: 1px solid var(--border);">Median</td>
+        <td style="padding: 8px; border-right: 1px solid var(--border);">$$\bar{x} = x_{\frac{n+1}{2}}$$ for an odd number of numbers, $$\bar{x} = \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}$$ for an even number of numbers</td>
+        <td style="padding: 8px;">The middle value of a set of numbers when the numbers are arranged in order.</td>
+      </tr>
+    </table>
+  </div>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>In a proportion \(\frac{a}{b} = \frac{c}{d}\), the product of the extremes equals the product of the means (<strong>ad = bc</strong>).</li>
-      <li>The <strong>GM of two numbers</strong> is the square root of their product: \(\sqrt{ab}\).</li>
-      <li>For numbers in continued proportion, the middle term is the geometric mean of the outer terms.</li>
-      <li>When three quantities are in arithmetic progression, the middle term equals the arithmetic mean of the other two.</li>
-      <li>Weighted average formula: \(\displaystyle \frac{\sum w_i a_i}{\sum w_i}\) – indispensable for mixed‑unit problems.</li>
-      <li>Alligation method ratio = \(\frac{p_{\text{higher}} - p_{\text{desired}}}{p_{\text{desired}} - p_{\text{lower}}}\).</li>
-      <li>HM is best for averaging speeds: \(\displaystyle \text{HM} = \frac{2}{\frac{1}{v_1} + \frac{1}{v_2}}\).</li>
-      <li>Direct proportion constant \(k\) can be found as \(k = \frac{y}{x}\) and reused for multiple queries.</li>
+      <li style="margin-bottom: 8px;">The ratio of two quantities is a way of comparing the two quantities by division.</li>
+      <li style="margin-bottom: 8px;">The proportion $\frac{a}{b} = \frac{c}{d}$ can be expressed as $ad = bc$, which is known as the cross-multiplication property.</li>
+      <li style="margin-bottom: 8px;">The average of a set of numbers is a value that represents the middle of the set.</li>
+      <li style="margin-bottom: 8px;">The arithmetic mean is the most common type of average, which is calculated by summing all the numbers in a set and dividing by the number of items in the set.</li>
+      <li style="margin-bottom: 8px;">The geometric mean is used to calculate the average of a set of numbers that have a large range of values.</li>
+      <li style="margin-bottom: 8px;">The harmonic mean is used to calculate the average of a set of numbers that have a large range of values.</li>
+      <li style="margin-bottom: 8px;">The median is the middle value of a set of numbers when the numbers are arranged in order.</li>
+      <li style="margin-bottom: 8px;">The formula for the average is $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$, where $\sum_{i=1}^{n} x_i$ is the sum of the numbers in the set and $n$ is the number of numbers in the set.</li>
+      <li style="margin-bottom: 8px;">The concept of ratio is used in [[business]] to compare the performance of different companies or to determine the ratio of debt to equity.</li>
+      <li style="margin-bottom: 8px;">The concept of proportion is used in [[economics]] to compare the prices of different goods or to determine the proportion of a country's GDP that is spent on different sectors.</li>
     </ul>
   </div>
 </div>
@@ -3491,322 +4456,252 @@ EXPANDED_NOTES_DATA["time-distance"] = `
     Time, Speed, Distance & Work
   </h3>
 
-  <h4>1. Fundamental Concepts</h4>
-  <p><strong>Uniform Linear Motion (ULM)</strong> – Motion in a straight line with constant speed. The three primary variables are:</p>
-  <ul>
-    <li><strong>Distance (d)</strong> – total path covered, measured in kilometres (km), metres (m), or nautical miles (nm).</li>
-    <li><strong>Speed (v)</strong> – rate of covering distance, expressed as <em>kilometres per hour (km/h)</em>, <em>metres per second (m/s)</em>, or <em>knots</em>.</li>
-    <li><strong>Time (t)</strong> – duration of travel, measured in hours (h), minutes (min), or seconds (s).</li>
-  </ul>
-  <p>The relationship is codified by the classic formula:</p>
-  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
-    <tr style="background:#222; color:#fff;">
-      <th style="padding:8px; border:1px solid #444;">Formula</th>
-      <th style="padding:8px; border:1px solid #444;">Derivation</th>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid #444;"><strong>d = v × t</strong></td>
-      <td style="padding:8px; border:1px solid #444;">Distance equals speed multiplied by time (direct proportionality).</td>
-    </tr>
-    <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #444;"><strong>v = d ÷ t</strong></td>
-      <td style="padding:8px; border:1px solid #444;">Speed is distance per unit time.</td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid #444;"><strong>t = d ÷ v</strong></td>
-      <td style="padding:8px; border:1px solid #444;">Time is distance divided by speed.</td>
-    </tr>
+  <h4>1. Fundamental Concepts and Notations</h4>
+  <p>
+    In the realm of <strong>uniform linear motion</strong>, the three primary quantities are <strong><em>distance</em></strong> (<strong>D</strong>), <strong><em>speed</em></strong> (<strong>S</strong>) and <strong><em>time</em></strong> (<strong>T</strong>). The relationship among them is linear, i.e., the travelled path is directly proportional to both the speed and the elapsed time. In the context of <strong>work</strong>, the analogous triad consists of <strong><em>work</em></strong> (<strong>W</strong>), <strong><em>rate</em></strong> (<strong>R</strong>) and <strong><em>time</em></strong> (<strong>T</strong>), where <strong>rate</strong> denotes the amount of work done per unit time.
+  </p>
+  <p>
+    The following table lists the standard symbols that appear in most competitive‑exam questions. All symbols are enclosed in <strong>bold</strong> to emphasize their importance.
+  </p>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+    <thead>
+      <tr style="background:#2a2a40;">
+        <th style="padding:8px; border:1px solid #444;">Symbol</th>
+        <th style="padding:8px; border:1px solid #444;">Meaning</th>
+        <th style="padding:8px; border:1px solid #444;">Units</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;"><strong>D</strong></td>
+        <td style="padding:8px; border:1px solid #444;">Total <em>distance</em> covered</td>
+        <td style="padding:8px; border:1px solid #444;">km, m, miles</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;"><strong>S</strong></td>
+        <td style="padding:8px; border:1px solid #444;">Uniform <em>speed</em> (scalar)</td>
+        <td style="padding:8px; border:1px solid #444;">km/h, m/s</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;"><strong>T</strong></td>
+        <td style="padding:8px; border:1px solid #444;">Elapsed <em>time</em></td>
+        <td style="padding:8px; border:1px solid #444;">h, min, s</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;"><strong>R</strong></td>
+        <td style="padding:8px; border:1px solid #444;">Work <em>rate</em> (productivity)</td>
+        <td style="padding:8px; border:1px solid #444;">unit/T, e.g., km/h, pages/day</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;"><strong>W</strong></td>
+        <td style="padding:8px; border:1px solid #444;">Total <em>work</em> done</td>
+        <td style="padding:8px; border:1px solid #444;">km, pages, units of output</td>
+      </tr>
+    </tbody>
   </table>
 
-  <h4>2. Speed Variants & Their Applications</h4>
+  <div class="important-box" style="background:#1e1e2b; border-left:4px solid var(--accent); padding:12px; margin-top:16px;">
+    <strong>Key Distinction:</strong> <em>Speed</em> is a scalar (magnitude only) whereas <em>velocity</em> is a vector (magnitude + direction). In NDA/CDS/AFCAT problems, unless explicitly stated, the term “speed” always implies scalar uniform motion.
+  </div>
+
+  <h4>2. Core Formulas with Full Derivations</h4>
+
+  <h5>2.1 Distance–Speed–Time Relation</h5>
+  <p>
+    Starting from the definition of speed as “distance covered per unit time”, we write:
+  </p>
+  $$\text{Speed} = \frac{\text{Distance}}{\text{Time}} \quad\Longrightarrow\quad S = \frac{D}{T}$$
+  <p>
+    Solving for each variable yields the three interchangeable forms:
+  </p>
   <ul>
-    <li><strong>Average Speed</strong> – Total distance divided by total time, irrespective of varying speeds during the journey. Formula: <strong>v_avg = Σd ÷ Σt</strong>.</li>
-    <li><strong>Relative Speed</strong> – Used when two bodies move towards or away from each other. For opposite directions, <strong>v_rel = v₁ + v₂</strong>; for same direction, <strong>v_rel = |v₁ – v₂|</strong>.</li>
-    <li><strong>Instantaneous Speed</strong> – Derivative of distance with respect to time (<em>v = ds/dt</em>), foundational to calculus.</li>
-    <li><strong>Harmonic Mean Speed</strong> – Relevant when equal distances are covered at different speeds. Formula: <strong>v_h = 2 / (1/v₁ + 1/v₂)</strong>.</li>
+    <li><strong>D = S \times T</strong> (used when distance is required)</li>
+    <li><strong>S = \dfrac{D}{T}</strong> (used when speed is unknown)</li>
+    <li><strong>T = \dfrac{D}{S}</strong> (used when time is unknown)</li>
   </ul>
+  <p>
+    <strong>Constraints:</strong> The motion must be uniform (constant speed) and the path must be straight or the total distance must be the sum of straight‑line segments. If acceleration is present, the simple linear relation does not hold; instead we resort to the equations of motion (see Section 4).
+  </p>
 
-  <h4>3. Important Historical Foundations</h4>
-  <p>The quantitative treatment of motion began with <strong><em>[[Galileo Galilei]]</em></strong> (1564‑1642), who formulated the law of falling bodies and introduced the concept of inertia. Later, <strong><em>[[Isaac Newton]]</em></strong> (1643‑1727) codified the three laws of motion, providing the basis for modern kinematics and dynamics. In the Indian context, <strong><em>[[Sir C. V. Raman]]</em></strong> contributed to wave theory, indirectly influencing the study of speed in oscillatory systems.</p>
-
-  <h4>4. Conversion Factors & Unit Consistency</h4>
-  <p>Ensuring unit consistency is a frequent source of error in examinations. Key conversion tables:</p>
-  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
-    <tr style="background:#222; color:#fff;">
-      <th style="padding:8px; border:1px solid #444;">From → To</th>
-      <th style="padding:8px; border:1px solid #444;">Factor</th>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid #444;">km/h → m/s</td>
-      <td style="padding:8px; border:1px solid #444;">÷ 3.6</td>
-    </tr>
-    <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #444;">m/s → km/h</td>
-      <td style="padding:8px; border:1px solid #444;">× 3.6</td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid #444;">knots → km/h</td>
-      <td style="padding:8px; border:1px solid #444;">× 1.852</td>
-    </tr>
-    <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #444;">minutes → hours</td>
-      <td style="padding:8px; border:1px solid #444;">÷ 60</td>
-    </tr>
-  </table>
-
-  <h4>5. Work and Power – Core Relations</h4>
-  <p><strong>Work (W)</strong> is defined as the product of force and displacement in the direction of the force: <strong>W = F × d × cosθ</strong>. In the context of uniform motion, work can be expressed via kinetic energy:</p>
+  <h5>2.2 Relative Speed (Opposite & Same Direction)</h5>
+  <p>
+    When two bodies move along the same line, their <strong>relative speed</strong> determines how quickly the separation between them changes. Let <strong>S₁</strong> and <strong>S₂</strong> be the individual speeds.
+  </p>
   <ul>
-    <li><strong>Kinetic Energy (KE)</strong> – <strong>KE = ½ m v²</strong>, where <em>m</em> is mass and <em>v</em> is speed.</li>
-    <li><strong>Power (P)</strong> – Rate of doing work: <strong>P = W ÷ t = F × v</strong>.</li>
-    <li>When dealing with machines, the efficiency factor (η) becomes crucial: <strong>η = (P_output ÷ P_input) × 100 %</strong>.</li>
+    <li>Opposite directions: <strong>S_{rel}=S₁+S₂</strong></li>
+    <li>Same direction (faster behind slower): <strong>S_{rel}=|S₁-S₂|</strong></li>
   </ul>
+  <p>
+    Derivation: Consider a reference frame attached to the slower body. In that frame, the faster body appears to move with speed equal to the algebraic difference of the two speeds. If they move towards each other, the separation shrinks at the sum of the two speeds because each contributes to closing the gap.
+  </p>
 
-  <h4>6. Classic Problem Types & Solution Strategies</h4>
-  <p>Examination questions often fall into the following categories. Mastery of each pattern enhances speed and accuracy.</p>
+  <h5>2.3 Work–Rate–Time Relation</h5>
+  <p>
+    Analogous to the distance‑speed‑time trio, the work formula follows from the definition of rate:
+  </p>
+  $$\text{Rate} = \frac{\text{Work}}{\text{Time}} \quad\Longrightarrow\quad R = \frac{W}{T}$$
+  <p>
+    Rearranging, we obtain:
+  </p>
+  <ul>
+    <li><strong>W = R \times T</strong></li>
+    <li><strong>R = \dfrac{W}{T}</strong></li>
+    <li><strong>T = \dfrac{W}{R}</strong></li>
+  </ul>
+  <p>
+    <strong>Constraints:</strong> The rate must be constant throughout the interval. If the workforce changes (e.g., two men join later), we split the interval and apply the formula piece‑wise, then sum the work contributions.
+  </p>
+
+  <h5>2.4 Harmonic Mean for Average Speed</h5>
+  <p>
+    When equal distances are covered at two different speeds <strong>S₁</strong> and <strong>S₂</strong>, the average speed is not the arithmetic mean but the <em>harmonic mean</em>:
+  </p>
+  $$\text{Average Speed} = \frac{2 S₁ S₂}{S₁ + S₂}$$
+  <p>
+    Derivation: Let each distance be <strong>D</strong>. Total distance = $2D$, total time = $\dfrac{D}{S₁} + \dfrac{D}{S₂} = D\left(\dfrac{1}{S₁}+\dfrac{1}{S₂}\right)$. Hence average speed = $\dfrac{2D}{D\left(\dfrac{1}{S₁}+\dfrac{1}{S₂}\right)} = \dfrac{2 S₁ S₂}{S₁+S₂}$.
+  </p>
+
+  <h4>3. Advanced Scenarios: Motion with Constant Acceleration</h4>
+  <p>
+    While most NDA/CDS/AFCAT problems assume uniform motion, a small fraction involve constant acceleration (<strong>a</strong>). The three core equations of motion are:
+  </p>
   <ol>
-    <li><strong>Direct Distance‑Speed‑Time</strong> – Straightforward substitution into <strong>d = v t</strong>.</li>
-    <li><strong>Relative Motion</strong> – Determine if objects move towards or away. Apply <strong>v_rel = v₁ ± v₂</strong> then use the basic formula.</li>
-    <li><strong>Round‑Trip Problems</strong> – Compute total distance as twice the one‑way distance, then find average speed using harmonic mean when speeds differ.</li>
-    <li><strong>Work‑Rate Problems</strong> – Convert individual rates to a common denominator. The combined rate is the sum of individual rates: <strong>R_total = ΣR_i</strong>. Time to complete the job is <strong>t = 1 ÷ R_total</strong>.</li>
-    <li><strong>Pipe‑and‑Cistern Analogy</strong> – Treat filling and emptying as positive and negative rates respectively.</li>
-    <li><strong>Acceleration‑Based Queries</strong> – Use the first equation of motion: <strong>v = u + a t</strong> and the second: <strong>s = ut + ½ a t²</strong>, where <em>u</em> is initial speed, <em>a</em> acceleration.</li>
+    <li><strong>S = u + a t</strong> (final speed after time <strong>t</strong>)</li>
+    <li><strong>D = u t + \frac{1}{2} a t^{2}</strong> (distance travelled in time <strong>t</strong>)</li>
+    <li><strong>v^{2} = u^{2} + 2 a D</strong> (relates speeds and distance without time)</li>
   </ol>
+  <p>
+    Here <strong>u</strong> denotes the initial speed, <strong>v</strong> the final speed. All symbols are scalars; direction is handled by sign convention (positive for forward, negative for reverse). These equations are derived by integrating the definition $a = \dfrac{dv}{dt}$ under the assumption that <strong>a</strong> is constant.
+  </p>
 
-  <h4>7. Special Cases & Advanced Topics</h4>
+  <h4>4. Classification of Typical Problem Types</h4>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+    <thead>
+      <tr style="background:#2a2a40;">
+        <th style="padding:8px; border:1px solid #444;">Problem Type</th>
+        <th style="padding:8px; border:1px solid #444;">Key Formula(s)</th>
+        <th style="padding:8px; border:1px solid #444;">Typical Pitfall</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;"><strong>Simple D‑S‑T</strong></td>
+        <td style="padding:8px; border:1px solid #444;">$D = S T$</td>
+        <td style="padding:8px; border:1px solid #444;">Forgetting unit conversion (km ↔ m)</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;"><strong>Relative Speed – Opposite</strong></td>
+        <td style="padding:8px; border:1px solid #444;">$S_{rel}=S_{1}+S_{2}$</td>
+        <td style="padding:8px; border:1px solid #444;">Mixing up opposite vs. same direction</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;"><strong>Relative Speed – Same</strong></td>
+        <td style="padding:8px; border:1px solid #444;">$S_{rel}=|S_{1}-S_{2}|$</td>
+        <td style="padding:8px; border:1px solid #444;">Using sum instead of difference</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;"><strong>Work – Multiple Workers</strong></td>
+        <td style="padding:8px; border:1px solid #444;">$W = (R_{1}+R_{2}+...) T$</td>
+        <td style="padding:8px; border:1px solid #444;">Assuming rates add linearly without checking for shared resources</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;"><strong>Average Speed – Equal Distances</strong></td>
+        <td style="padding:8px; border:1px solid #444;">$\displaystyle \frac{2 S_{1} S_{2}}{S_{1}+S_{2}}$</td>
+        <td style="padding:8px; border:1px solid #444;">Using arithmetic mean instead of harmonic mean</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="important-box" style="background:#1e1e2b; border-left:4px solid var(--accent); padding:12px; margin-top:16px;">
+    <strong>Critical Distinction:</strong> In a <em>pipe‑and‑cistern</em> problem the quantity of water transferred is proportional to the product of <strong>cross‑sectional area</strong> and <strong>velocity</strong>. The effective rate is therefore $R = A \times v$, not merely the velocity.
+  </div>
+
+  <h4>5. Common Mistakes (Students Frequently Overlook)</h4>
   <ul>
-    <li><strong>Non‑Uniform Acceleration</strong> – When acceleration varies, integrate: <em>v = ∫a dt</em> and <em>s = ∫v dt</em>. Knowledge of basic integration is useful for higher‑level NDA questions.</li>
-    <li><strong>Circular Motion</strong> – Uniform circular motion involves constant speed but changing direction. Centripetal acceleration: <strong>a_c = v² / r</strong>. Relevant to naval and aeronautical problems.</li>
-    <li><strong>Relative Velocity in Two Dimensions</strong> – Vector addition using components. Example: a plane flying north at 300 km/h with a wind blowing east at 50 km/h has resultant speed <strong>√(300² + 50²) ≈ 304 km/h</strong> at an angle <strong>tan⁻¹(50/300)</strong>.</li>
-    <li><strong>Time Dilation (Special Relativity)</strong> – For completeness, the formula <strong>Δt' = Δt / √(1 – v²/c²)</strong> where <em>c</em> is the speed of light (≈ 3×10⁸ m/s). Though rarely tested directly, the concept appears in conceptual questions.</li>
+    <li><strong>Unit mismatch:</strong> Converting hours to minutes but leaving speed in km/h leads to a factor‑of‑60 error.</li>
+    <li><strong>Sign error in relative speed:</strong> Treating “same direction” as “opposite direction” adds speeds instead of subtracting them.</li>
+    <li><strong>Assuming linearity for non‑uniform work:</strong> When workers join or leave midway, the total work must be split into intervals; using a single average rate yields a wrong answer.</li>
+    <li><strong>Misapplying harmonic mean:</strong> Using arithmetic mean for equal‑distance speed problems yields a higher-than‑actual average speed.</li>
+    <li><strong>Ignoring acceleration:</strong> Applying $D=S T$ when the problem states “starts from rest and accelerates uniformly” leads to an under‑estimation of distance.</li>
   </ul>
 
-  <h4>8. Notable Indian Defence & Space Applications</h4>
-  <p>Understanding practical contexts aids memory retention.</p>
+  <h4>6. Shortcuts & Tricks for Competitive Exams</h4>
   <ul>
-    <li><strong>[[Indian Space Research Organisation]] (ISRO)</strong> – Satellite launch windows are calculated using orbital speed (~7.8 km/s) and Earth’s rotation (~0.465 km/s) for launch site advantage.</li>
-    <li><strong>[[INS Vikramaditya]]</strong> – Carrier’s flight deck operations involve relative speed of aircraft (≈ 250 km/h) versus carrier speed (≈ 30 km/h) to compute safe take‑off/landing windows.</li>
-    <li><strong>[[BrahMos Missile]]</strong> – Supersonic cruise missile traveling at Mach 2.8 (~3,400 km/h). Time to target at 600 km distance ≈ 0.18 h (≈ 11 min).</li>
-    <li><strong>[[Siachen Glacier]]</strong> – Troops' logistics rely on average marching speed of 3 km/h over high‑altitude terrain, influencing supply chain timing.</li>
+    <li><strong>“Cross‑multiply” quickly for D‑S‑T:</strong> Write $T = \dfrac{D}{S}$ and immediately cancel common factors (e.g., 60 for km/h ↔ km/min).</li>
+    <li><strong>Use “2 × (average of speeds) = sum of speeds”:</strong> For opposite‑direction problems, the time to meet = $\dfrac{\text{initial separation}}{S_{1}+S_{2}}$; you can mentally add the speeds without writing the formula.</li>
+    <li><strong>“Man‑hour” shortcut:</strong> If $n$ workers complete a job in $t$ days, then $n \times t$ gives total man‑days. For a change in workforce, keep the product constant: $n_{1}t_{1}=n_{2}t_{2}$.</li>
+    <li><strong>Harmonic mean shortcut:</strong> For equal distances at speeds $a$ and $b$, average speed $= \dfrac{2ab}{a+b}$. Memorise as “product over half‑sum”.</li>
+    <li><strong>Proportion method for “time taken to cover remaining distance”:</strong> If a car travels $x$ km in $y$ hrs at speed $S$, then remaining distance $= D - x$, and required time $= \dfrac{D - x}{S}$ – treat as a simple proportion.</li>
+    <li><strong>Acceleration shortcut:</strong> When $a$ is given, compute $t$ from $v = u + a t$ first, then plug into $D = u t + \frac12 a t^{2}$; this avoids solving quadratic equations.</li>
   </ul>
 
-  <h4>9. Common Pitfalls & Tips for Accuracy</h4>
+  <h4>7. Worked Example 1 – Relative Speed (Opposite Directions)</h4>
+  <p><strong>Problem Statement:</strong> Two trains start simultaneously from stations 300 km apart and move towards each other. Train A travels at 80 km/h, while Train B travels at 70 km/h. Find the time after which they meet.</p>
+  <p><strong>Solution (step‑by‑step):</strong></p>
+  <ol>
+    <li>Identify that the motion is along the same line but opposite directions ⇒ use $S_{rel}=S_{A}+S_{B}$.</li>
+    <li>Compute relative speed: $S_{rel}=80+70=150\;\text{km/h}$.</li>
+    <li>Apply the distance‑time formula with total separation $D=300\;\text{km}$:<br>
+      $$T = \frac{D}{S_{rel}} = \frac{300}{150}=2\;\text{h}.$$</li>
+    <li>Convert to minutes (if required): $2\;\text{h}=120\;\text{min}$.</li>
+    <li>Check: Distance covered by A = $80\times2=160\;\text{km}$; by B = $70\times2=140\;\text{km}$; sum = $300\;\text{km}$ – consistent.</li>
+  </ol>
+  <p><strong>Result:</strong> The trains meet after **2 hours** (120 minutes).</p>
+
+  <h4>8. Worked Example 2 – Work Problem with Changing Workforce</h4>
+  <p><strong>Problem Statement:</strong> A dam can be filled by Pipe X in 12 h and by Pipe Y in 15 h. Both pipes are opened together for 4 h, after which Pipe Y is closed. How much longer will Pipe X take to fill the remaining volume?</p>
+  <p><strong>Solution (step‑by‑step):</strong></p>
+  <ol>
+    <li>Determine individual rates: <br>
+        $R_{X}= \dfrac{1}{12}\;\text{dam/h}$, $R_{Y}= \dfrac{1}{15}\;\text{dam/h}$.</li>
+    <li>Combined rate while both are open: $R_{XY}=R_{X}+R_{Y}= \dfrac{1}{12}+\dfrac{1}{15}= \dfrac{5+4}{60}= \dfrac{9}{60}= \dfrac{3}{20}\;\text{dam/h}$.</li>
+    <li>Work done in the first 4 h: $W_{1}=R_{XY}\times4 = \dfrac{3}{20}\times4 = \dfrac{12}{20}=0.6\;\text{dam}$ (i.e., 60 % of the dam).</li>
+    <li>Remaining work: $W_{rem}=1-0.6=0.4\;\text{dam}$.</li>
+    <li>Only Pipe X works thereafter, so time required $T_{rem}= \dfrac{W_{rem}}{R_{X}} = \dfrac{0.4}{\frac{1}{12}} =0.4\times12=4.8\;\text{h}$.</li>
+    <li>Convert $0.8\;\text{h}$ to minutes: $0.8\times60=48\;\text{min}$.</li>
+  </ol>
+  <p><strong>Result:</strong> Pipe X needs an additional **4 hours 48 minutes** to complete the filling.</p>
+
+  <h4>9. Additional Insight – Proportion Method for “Time to Cover Remaining Distance”</h4>
+  <p>
+    Many exam questions ask: “A cyclist covers 30 km in 2 h, then increases speed by 20 km/h. How long to cover the remaining 90 km?” Instead of recomputing from scratch, treat the first leg as a proportion:
+  </p>
   <ul>
-    <li>Always align units before plugging into formulas; a mismatch (e.g., km/h with meters) leads to a factor‑of‑1000 error.</li>
-    <li>For work‑rate problems, remember that rates add, not times.</li>
-    <li>When dealing with round‑trip questions, distinguish between arithmetic mean (useful for equal time) and harmonic mean (equal distance).</li>
-    <li>In relative motion, draw a clear direction diagram; a simple arrow diagram prevents sign errors.</li>
-    <li>For circular motion, keep track of whether the question asks for centripetal force (<strong>F_c = m v² / r</strong>) or acceleration.</li>
+    <li>Initial speed $S_{1}= \dfrac{30}{2}=15\;\text{km/h}$.</li>
+    <li>New speed $S_{2}=15+20=35\;\text{km/h}$.</li>
+    <li>Time for remaining distance $T_{2}= \dfrac{90}{35}= \dfrac{18}{7}\;\text{h}=2\;\text{h}\;34\;\text{min (approx)}$.</li>
   </ul>
+  <p>
+    The proportion technique eliminates the need for a lengthy equation; just plug numbers into $T = D/S$ after the speed change.
+  </p>
 
   <h4>10. Summary of Key Formulas</h4>
-  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
-    <tr style="background:#222; color:#fff;">
-      <th style="padding:8px; border:1px solid #444;">Concept</th>
-      <th style="padding:8px; border:1px solid #444;">Formula</th>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid #444;">Distance</td>
-      <td style="padding:8px; border:1px solid #444;"><strong>d = v t</strong></td>
-    </tr>
-    <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #444;">Average Speed (unequal speeds)</td>
-      <td style="padding:8px; border:1px solid #444;"><strong>v_avg = Σd ÷ Σt</strong></td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid #444;">Relative Speed (opposite)</td>
-      <td style="padding:8px; border:1px solid #444;"><strong>v_rel = v₁ + v₂</strong></td>
-    </tr>
-    <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #444;">Work</td>
-      <td style="padding:8px; border:1px solid #444;"><strong>W = F d cosθ</strong></td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid #444;">Power</td>
-      <td style="padding:8px; border:1px solid #444;"><strong>P = W ÷ t = F v</strong></td>
-    </tr>
-    <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #444;">Centripetal Acceleration</td>
-      <td style="padding:8px; border:1px solid #444;"><strong>a_c = v² / r</strong></td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid #444;">Harmonic Mean Speed</td>
-      <td style="padding:8px; border:1px solid #444;"><strong>v_h = 2 / (1/v₁ + 1/v₂)</strong></td>
-    </tr>
-  </table>
-
-  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
-    <ul style="margin-top: 8px;">
-      <li>Average speed for equal distances at speeds <strong>v₁</strong> and <strong>v₂</strong> is the harmonic mean: <strong>2v₁v₂/(v₁+v₂)</strong>.</li>
-      <li>Relative speed of two objects moving towards each other equals the sum of their speeds.</li>
-      <li>Work done against gravity = <strong>m g h</strong> (use <strong>g = 9.81 m/s²</strong>).</li>
-      <li>Power in watts can be obtained by multiplying force (newton) by speed (m/s).</li>
-      <li>For a round‑trip where outbound speed is 60 km/h and return speed is 40 km/h, average speed = 48 km/h.</li>
-      <li>One knot = 1.852 km/h; useful for naval aviation problems.</li>
-      <li>Efficiency (%) = (output work ÷ input work) × 100.</li>
-      <li>Time to cross a river flowing at 5 km/h when rowing at 15 km/h upstream is calculated using relative speed (15‑5 = 10 km/h).</li>
-    </ul>
-  </div>
-</div>
-`;
-
-EXPANDED_NOTES_DATA["syl-numerical-speed"] = `
-<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
-    Time, Speed & Distance Formulas
-  </h3>
-
-  <h4>Fundamental Relation</h4>
-  <p>The cornerstone of all time‑speed‑distance problems is the linear equation</p>
-  <p><strong>Distance (D) = Speed (S) × Time (T)</strong></p>
-  <p>All quantities must be expressed in consistent units before substitution. The SI system (metre, second, metre per second) is preferred, but the Indian Defence examinations frequently present data in kilometres, metres, hours, minutes, and seconds. Conversions are therefore a critical sub‑skill.</p>
-
-  <h4>Unit Conversion Essentials</h4>
   <ul>
-    <li>1 km = 1,000 m</li>
-    <li>1 hour = 60 minutes = 3,600 seconds</li>
-    <li>Speed in km/h → m/s: multiply by <strong>5/18</strong> (≈0.2778)</li>
-    <li>Speed in m/s → km/h: multiply by <strong>18/5</strong> (≈3.6)</li>
-    <li>Time conversion: <strong>minutes = seconds ÷ 60</strong>, <strong>hours = minutes ÷ 60</strong></li>
-  </ul>
-
-  <h4>Average Speed vs. Mean Speed</h4>
-  <p><strong>Average speed</strong> over a journey with varying speeds is the total distance divided by total time:</p>
-  <p><strong>V̅ = ΣD ÷ ΣT</strong></p>
-  <p>When equal distances are travelled at different speeds, the harmonic mean applies:</p>
-  <p><strong>V_h = (2 V₁ V₂) ÷ (V₁ + V₂)</strong></p>
-  <p>For equal time intervals, the arithmetic mean is appropriate:</p>
-  <p><strong>V_a = (V₁ + V₂) ÷ 2</strong></p>
-
-  <h4>Relative Speed</h4>
-  <p>Relative speed is essential when two objects move towards or away from each other.</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <thead>
-      <tr style="background:#333; color:#fff;">
-        <th style="padding:8px; border:1px solid #555;">Scenario</th>
-        <th style="padding:8px; border:1px solid #555;">Formula</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="background:#222;">
-        <td style="padding:8px; border:1px solid #555;">Both moving in the same direction</td>
-        <td style="padding:8px; border:1px solid #555;"><strong>V_rel = |V₁ – V₂|</strong></td>
-      </tr>
-      <tr style="background:#2a2a2a;">
-        <td style="padding:8px; border:1px solid #555;">Both moving towards each other</td>
-        <td style="padding:8px; border:1px solid #555;"><strong>V_rel = V₁ + V₂</strong></td>
-      </tr>
-      <tr style="background:#222;">
-        <td style="padding:8px; border:1px solid #555;">One stationary, one moving</td>
-        <td style="padding:8px; border:1px solid #555;"><strong>V_rel = V_moving</strong></td>
-      </tr>
-    </tbody>
-  </table>
-  <p>Historical note: The concept of relative motion was first formalised by [[Galileo Galilei]] in his 1632 treatise <em>Dialogues Concerning Two New Sciences</em>, predating [[Isaac Newton]]'s famous laws by more than half a century.</p>
-
-  <h4>Uniform Acceleration (Kinematics)</h4>
-  <p>When acceleration is constant, the following equations are indispensable:</p>
-  <ul>
-    <li><strong>V = U + a t</strong> (where <strong>U</strong> is initial speed, <strong>a</strong> is acceleration, <strong>t</strong> is time)</li>
-    <li><strong>S = U t + ½ a t²</strong></li>
-    <li><strong>V² = U² + 2 a S</strong></li>
-  </ul>
-  <p>These are derived from the fundamental relation <strong>S = (U + V)/2 × t</strong> and are often referred to as the “suvat” equations in Indian textbooks.</p>
-
-  <h4>Uniform Circular Motion (UCM)</h4>
-  <p>For an object moving in a circle of radius <strong>r</strong> at constant speed <strong>v</strong>, the centripetal acceleration is given by:</p>
-  <p><strong>a_c = v² / r = ω² r</strong></p>
-  <p>where <strong>ω</strong> (omega) is the angular velocity in radians per second. The period <strong>T</strong> and frequency <strong>f** (in Hz) are related by <strong>T = 1/f</strong> and <strong>ω = 2πf</strong>.</p>
-  <p>Key historical reference: The first quantitative treatment of circular motion appears in [[Johannes Kepler]]'s 1609 work <em>Astronomia Nova</em>, later refined by [[Isaac Newton]] in his 1687 <em>Philosophiæ Naturalis Principia Mathematica</em>.</p>
-
-  <h4>Practical Applications in Defence Context</h4>
-  <ul>
-    <li><strong>Navigation</strong>: Converting nautical miles (1 nm = 1.852 km) to kilometres for aircraft flight‑plan calculations.</li>
-    <li><strong>Ballistics</strong>: Determining projectile travel time using <strong>S = ½ g t²</strong> for vertical drop, where <strong>g = 9.81 m/s²</strong>.</li>
-    <li><strong>Patrol Timing</strong>: Estimating the time required for a patrol vehicle to cover a sector of <strong>120 km</strong> at an average speed of <strong>40 km/h</strong> → <strong>T = D/S = 3 hours</strong>.</li>
-    <li><strong>Air‑to‑Ground Coordination</strong>: Using relative speed to compute interception points when a fighter aircraft (speed 900 km/h) pursues a target moving at 600 km/h in the same direction.</li>
-  </ul>
-
-  <h4>Common Pitfalls & How to Avoid Them</h4>
-  <ul>
-    <li><strong>Mixing units</strong>: Always convert to a single unit system before applying formulas.</li>
-    <li><strong>Neglecting direction</strong>: Treat velocities as signed quantities; opposite directions imply opposite signs.</li>
-    <li><strong>Assuming constant speed</strong> in problems involving acceleration; verify the presence of “uniform acceleration” wording.</li>
-    <li><strong>Incorrect use of harmonic mean</strong>: Apply only when distances are equal, not times.</li>
-  </ul>
-
-  <h4>Advanced Topics (Optional for Aspirants)</h4>
-  <p>While the core NDA/CDS/AFCAT syllabus does not require differential calculus, a brief exposure to related concepts can boost confidence.</p>
-  <ul>
-    <li><strong>Rate of change</strong> interpretation: <strong>v = ds/dt</strong> (instantaneous speed).</li>
-    <li><strong>Integration for distance</strong>: <strong>S = ∫ v dt</strong> when speed varies continuously.</li>
-    <li><strong>Relative angular speed</strong>: For two rotating bodies, <strong>ω_rel = |ω₁ – ω₂|</strong>.</li>
-  </ul>
-
-  <h4>Historical Timeline of Speed‑Related Discoveries</h4>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <thead>
-      <tr style="background:#444; color:#fff;">
-        <th style="padding:8px; border:1px solid #666;">Year</th>
-        <th style="padding:8px; border:1px solid #666;">Milestone</th>
-        <th style="padding:8px; border:1px solid #666;">Contributor</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="background:#2c2c2c;">
-        <td style="padding:8px; border:1px solid #555;">1632</td>
-        <td style="padding:8px; border:1px solid #555;">First quantitative description of uniform acceleration</td>
-        <td style="padding:8px; border:1px solid #555;">[[Galileo Galilei]]</td>
-      </tr>
-      <tr style="background:#242424;">
-        <td style="padding:8px; border:1px solid #555;">1687</td>
-        <td style="padding:8px; border:1px solid #555;">Formulation of laws of motion and universal gravitation</td>
-        <td style="padding:8px; border:1px solid #555;">[[Isaac Newton]]</td>
-      </tr>
-      <tr style="background:#2c2c2c;">
-        <td style="padding:8px; border:1px solid #555;">1809</td>
-        <td style="padding:8px; border:1px solid #555;">Derivation of the formula for centripetal force</td>
-        <td style="padding:8px; border:1px solid #555;">[[Joseph Fourier]] (early work) – later formalised by [[Leonhard Euler]]</td>
-      </tr>
-      <tr style="background:#242424;">
-        <td style="padding:8px; border:1px solid #555;">1905</td>
-        <td style="padding:8px; border:1px solid #555;">Special Theory of Relativity – speed of light as universal constant</td>
-        <td style="padding:8px; border:1px solid #555;">[[Albert Einstein]]</td>
-      </tr>
-      <tr style="background:#2c2c2c;">
-        <td style="padding:8px; border:1px solid #555;">1947</td>
-        <td style="padding:8px; border:1px solid #555;">First successful supersonic flight (Bell X‑1)</td>
-        <td style="padding:8px; border:1px solid #555;">[[Chuck Yeager]]</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h4>Key Formulae Summary (Cheat‑Sheet)</h4>
-  <ul>
-    <li><strong>D = S × T</strong></li>
-    <li><strong>S = U T + ½ a T²</strong></li>
-    <li><strong>V = U + a T</strong></li>
-    <li><strong>V² = U² + 2 a S</strong></li>
-    <li><strong>V̅ = ΣD ÷ ΣT</strong></li>
-    <li><strong>V_h = (2 V₁ V₂) ÷ (V₁ + V₂)</strong> (equal distance)</li>
-    <li><strong>V_rel (same direction) = |V₁ – V₂|</strong></li>
-    <li><strong>V_rel (opposite direction) = V₁ + V₂</strong></li>
-    <li><strong>a_c = V² / r = ω² r</strong></li>
-    <li><strong>ω = 2π f</strong></li>
+    <li><strong>D = S \times T</strong> (Uniform motion)</li>
+    <li><strong>S = \dfrac{D}{T}</strong></li>
+    <li><strong>T = \dfrac{D}{S}</strong></li>
+    <li><strong>S_{rel}=S_{1}+S_{2}</strong> (Opposite directions)</li>
+    <li><strong>S_{rel}=|S_{1}-S_{2}|</strong> (Same direction)</li>
+    <li><strong>W = R \times T</strong> (Work‑rate‑time)</li>
+    <li><strong>R = \dfrac{W}{T}</strong></li>
+    <li><strong>T = \dfrac{W}{R}</strong></li>
+    <li><strong>Average Speed (equal distances) = \dfrac{2 S_{1} S_{2}}{S_{1}+S_{2}}</strong></li>
+    <li><strong>S = u + a t</strong>, <strong>D = u t + \frac12 a t^{2}</strong>, <strong>v^{2}=u^{2}+2 a D</strong> (Uniform acceleration)</li>
   </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>1 km/h = <strong>5/18 m/s</strong>; remember this conversion for every speed‑question.</li>
-      <li>When two bodies travel equal distances at speeds <strong>V₁</strong> and <strong>V₂</strong>, the average speed is the <strong>harmonic mean</strong>: <strong>(2 V₁ V₂)/(V₁+V₂)</strong>.</li>
-      <li>Relative speed for objects moving towards each other equals the sum of their speeds; for the same direction it is the absolute difference.</li>
-      <li>In uniformly accelerated motion, if initial speed is zero, distance simplifies to <strong>S = ½ a t²</strong>.</li>
-      <li>For circular motion, centripetal acceleration <strong>a_c = V² / r</strong> and can be expressed as <strong>ω² r</strong> where <strong>ω = 2π/T</strong>.</li>
-      <li>Time required to cover a distance is always <strong>T = D / S</strong>; never forget to keep units consistent.</li>
-      <li>In a pursuit problem, if the chaser is faster, the catch‑up time is <strong>T = (initial separation) / (V_chaser – V_target)</strong>.</li>
-      <li>Average speed over a round‑trip with equal distances at different speeds is the harmonic mean of the two speeds.</li>
+      <li>When two objects move towards each other, always add their speeds to obtain the <em>relative speed</em>.</li>
+      <li>For equal‑distance problems, the average speed is the harmonic mean, not the arithmetic mean.</li>
+      <li>Convert all time units to the same base (hours or minutes) before using $D = S T$.</li>
+      <li>In work problems, the product of <strong>workers × time</strong> (man‑hours) remains constant if the total work is unchanged.</li>
+      <li>For a pipe‑and‑cistern problem, rate $= \text{area} \times \text{velocity}$; never forget the area factor.</li>
+      <li>If a train travels at $S$ km/h for $t$ minutes, use $D = S \times \dfrac{t}{60}$ to avoid conversion errors.</li>
+      <li>When acceleration is given, first compute the final speed using $v = u + a t$, then plug into $D = u t + \frac12 a t^{2}$.</li>
+      <li>Remember the shortcut $T = \dfrac{D}{S}$ → if $D$ and $S$ share a common factor, cancel it before division to speed up calculations.</li>
+      <li>In “meet‑in‑the‑middle” problems, the meeting point distance from each start is proportional to the respective speeds.</li>
+      <li>For problems involving a change of speed part‑way, treat each segment separately and sum the times.</li>
     </ul>
   </div>
 </div>
@@ -3818,171 +4713,199 @@ EXPANDED_NOTES_DATA["syl-numerical-ratios"] = `
     Ratios, Proportions & Percentages
   </h3>
 
-  <h4>1. Fundamental Concepts</h4>
-  <p><strong>Ratio</strong> is a quantitative comparison of two or more numbers, expressed as “a : b” or \(\frac{a}{b}\). It conveys the relative size of one quantity to another. In the Indian defence examinations, ratios frequently appear in questions dealing with speed‑time‑distance, mixture problems, and financial computations.</p>
-  <p><strong>Proportion</strong> denotes the equality of two ratios, i.e., \(\frac{a}{b} = \frac{c}{d}\). The property of cross‑multiplication, <em>ad = bc</em>, is pivotal for solving proportion‑based questions.</p>
-  <p><strong>Percentage</strong> represents a ratio out of 100. The generic conversion is \(\text{percentage} = \frac{\text{part}}{\text{whole}} \times 100\%\). Mastery of percentage change, simple and compound interest, and profit‑loss calculations is indispensable for NDA, [[CDS]], and [[AFCAT]] aspirants.</p>
-
-  <h4>2. Types of Ratios</h4>
+  <h4>Fundamental Concepts and Definitions</h4>
   <ul>
-    <li><strong>Simple Ratio</strong>: Direct comparison of two quantities, e.g., 3 : 5.</li>
-    <li><strong>Compound Ratio</strong>: Product of two or more ratios, e.g., (2 : 3) × (4 : 5) = 8 : 15.</li>
-    <li><strong>Continued Ratio</strong>: Sequence of three or more numbers, e.g., 2 : 3 : 5, where each term is compared with the preceding term.</li>
-    <li><strong>Part‑Whole Ratio</strong>: Relates a part to the whole, often used in percentage problems, e.g., part : whole = 25 : 100 = 1 : 4.</li>
+    <li><strong>[[Ratio]]</strong> – a quantitative relationship between two numbers expressed as “a : b” or $\frac{a}{b}$. <strong>Variables</strong>: $a$ and $b$ are the two quantities being compared; both must be non‑negative and $b \neq 0$.</li>
+    <li><strong>[[Proportion]]</strong> – an equality of two ratios, i.e., $\frac{a}{b} = \frac{c}{d}$. It implies that the cross‑product $ad = bc$ holds true.</li>
+    <li><strong>[[Percentage]]</strong> – a ratio expressed per 100, denoted by the symbol “%”. The basic conversion is $\text{percentage} = \frac{\text{part}}{\text{whole}} \times 100$.</li>
+    <li><strong>Direct proportion</strong> – $y \propto x$ means $y = kx$, where $k$ is the constant of proportionality.</li>
+    <li><strong>Inverse proportion</strong> – $y \propto \frac{1}{x}$ means $y = \frac{k}{x}$.</li>
   </ul>
 
-  <h4>3. Conversion Techniques</h4>
-  <p>Efficient conversion between different forms is essential for speed. The table below summarises key conversion formulas.</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <tr style="background:#2a2a40; color:#fff;">
-      <th style="border:1px solid #555;padding:8px;">Form</th>
-      <th style="border:1px solid #555;padding:8px;">Conversion</th>
-    </tr>
-    <tr>
-      <td style="border:1px solid #555;padding:8px;"><strong>Ratio → Fraction</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\(a:b = \frac{a}{b}\)</td>
-    </tr>
-    <tr style="background:#1e1e2a;">
-      <td style="border:1px solid #555;padding:8px;"><strong>Fraction → Percentage</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\(\frac{a}{b} \times 100\% = \text{percentage}\)</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #555;padding:8px;"><strong>Percentage → Decimal</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\(p\% = \frac{p}{100}\)</td>
-    </tr>
-    <tr style="background:#1e1e2a;">
-      <td style="border:1px solid #555;padding:8px;"><strong>Decimal → Ratio</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\(0.75 = 75 : 100 = 3 : 4\)</td>
-    </tr>
-  </table>
-
-  <h4>4. Solving Direct Proportion Problems</h4>
-  <p>When two quantities vary directly, the relationship is expressed as <strong>y ∝ x</strong> or <strong>y = kx</strong>, where <strong>k</strong> is the constant of proportionality. Steps:</p>
+  <h4>Core Formulas with Variable Explanations</h4>
   <ol>
-    <li>Identify the given pairs and compute <strong>k = \frac{y}{x}</strong>.</li>
-    <li>Form the equation <strong>y = kx</strong>.</li>
-    <li>Substitute the required value of <strong>x</strong> to obtain <strong>y</strong>.</li>
+    <li><strong>Basic Percentage Formula</strong>  
+      $$\boxed{\text{Percentage} = \frac{\text{Part}}{\text{Whole}} \times 100}$$  
+      <ul>
+        <li><em>Part</em> – the quantity of interest (numerator).</li>
+        <li><em>Whole</em> – the reference quantity (denominator).</li>
+        <li>Both must be expressed in the same units; the result is a dimensionless number.</li>
+      </ul>
+    </li>
+    <li><strong>Percentage Change</strong>  
+      $$\boxed{\text{Percentage Change} = \frac{\text{New} - \text{Old}}{\text{Old}} \times 100}$$  
+      <ul>
+        <li><em>New</em> – value after change.</li>
+        <li><em>Old</em> – value before change.</li>
+        <li>Positive result denotes increase, negative denotes decrease.</li>
+      </ul>
+    </li>
+    <li><strong>Compound Ratio</strong>  
+      If $a:b = r_1$ and $b:c = r_2$, then $a:c = r_1 \times r_2$.  
+      <ul>
+        <li>Useful when multiple successive ratios are involved.</li>
+        <li>All intermediate quantities must be compatible (same unit).</li>
+      </ul>
+    </li>
+    <li><strong>Rule of Three (Cross‑Multiplication)</strong>  
+      $$\frac{a}{b} = \frac{c}{d} \;\Longrightarrow\; ad = bc$$  
+      <ul>
+        <li>Provides a quick way to solve for an unknown in a proportion.</li>
+        <li>Works only when the ratios are in the same direction (both “per” or both “to”).</li>
+      </ul>
+    </li>
+    <li><strong>Profit &amp; Loss Percent</strong>  
+      $$\boxed{\text{Profit\%} = \frac{\text{Profit}}{\text{Cost Price}} \times 100}$$  
+      $$\boxed{\text{Loss\%} = \frac{\text{Loss}}{\text{Cost Price}} \times 100}$$  
+      <ul>
+        <li><em>Profit</em> = $SP - CP$; <em>Loss</em> = $CP - SP$.</li>
+        <li>Both formulas assume $CP \neq 0$.</li>
+      </ul>
+    </li>
+    <li><strong>Simple Interest</strong>  
+      $$\boxed{SI = \frac{P \times R \times T}{100}}$$  
+      <ul>
+        <li>$P$ – principal (initial amount).</li>
+        <li>$R$ – rate of interest per annum (in %).</li>
+        <li>$T$ – time period in years.</li>
+        <li>Applicable only for linear interest accrual; $R$ must be expressed as a percentage.</li>
+      </ul>
+    </li>
+    <li><strong>Discount</strong>  
+      $$\boxed{\text{Discount\%} = \frac{\text{Discount}}{\text{Marked Price}} \times 100}$$  
+      <ul>
+        <li>Discount = Marked Price – Selling Price.</li>
+        <li>Used extensively in mixture‑type problems.</li>
+      </ul>
+    </li>
   </ol>
-  <p>Typical applications include speed‑time‑distance (<strong>s = vt</strong>), work‑time (<strong>Work = Rate × Time</strong>), and simple interest (<strong>I = P × R × T</strong>).</p>
 
-  <h4>5. Inverse Proportion</h4>
-  <p>Two quantities are inversely proportional when the product remains constant: <strong>y ∝ \frac{1}{x}</strong> or <strong>xy = k</strong>. Common scenarios involve hydraulic pressure (<strong>P = \frac{F}{A}</strong>) and time taken for a job when the number of workers changes.</p>
-  <ul>
-    <li>Determine <strong>k = xy</strong> from the known pair.</li>
-    <li>Use <strong>y = \frac{k}{x}</strong> for the unknown quantity.</li>
-  </ul>
+  <h4>Derivation of the Percentage Change Formula from First Principles</h4>
+  <p>Consider a quantity $Q$ that changes from an initial value $Q_0$ to a final value $Q_f$. The absolute change is $\Delta Q = Q_f - Q_0$. By definition, the relative change with respect to the original magnitude is $\frac{\Delta Q}{Q_0}$. Multiplying by $100$ converts this ratio into a percentage, yielding the standard expression:</p>
+  $$\text{Percentage Change} = \frac{Q_f - Q_0}{Q_0}\times 100$$
+  <p>This derivation assumes $Q_0 \neq 0$; if $Q_0 = 0$, a percentage change is undefined because division by zero occurs.</p>
 
-  <h4>6. Percentage Change – Growth & Decay</h4>
-  <p>Percentage increase or decrease is measured by:</p>
-  <p><strong>Increase % = \(\frac{\text{New – Old}}{\text{Old}} \times 100\%\)</strong></p>
-  <p><strong>Decrease % = \(\frac{\text{Old – New}}{\text{Old}} \times 100\%\)</strong></p>
-  <p>For compound growth (e.g., annual salary hike), use the formula:</p>
-  <p><strong>Final Amount = P × (1 + r)ⁿ</strong>, where <strong>r</strong> is the rate per period expressed as a decimal and <strong>n</strong> is the number of periods.</p>
-  <p>In exponential decay (e.g., radioactive half‑life), the analogous formula is:</p>
-  <p><strong>Remaining Amount = P × (1 − r)ⁿ</strong>.</p>
-
-  <h4>7. Mixture and Alligation</h4>
-  <p>Mixture problems blend two or more solutions with differing concentrations. The method of <strong>Alligation</strong> provides a quick way to find the ratio in which components must be mixed.</p>
-  <p>Alligation Formula:</p>
-  <table style="width:80%; margin:auto; border-collapse:collapse; margin-top:12px;">
-    <tr style="background:#2a2a40; color:#fff;">
-      <th style="border:1px solid #555;padding:6px;">Component</th>
-      <th style="border:1px solid #555;padding:6px;">Concentration</th>
-      <th style="border:1px solid #555;padding:6px;">Difference from Desired</th>
-    </tr>
-    <tr>
-      <td style="border:1px solid #555;padding:6px;">A</td>
-      <td style="border:1px solid #555;padding:6px;">\(C_A\)</td>
-      <td style="border:1px solid #555;padding:6px;">\(C_B - C_{\text{desired}}\)</td>
-    </tr>
-    <tr style="background:#1e1e2a;">
-      <td style="border:1px solid #555;padding:6px;">B</td>
-      <td style="border:1px solid #555;padding:6px;">\(C_B\)</td>
-      <td style="border:1px solid #555;padding:6px;">\(C_{\text{desired}} - C_A\)</td>
-    </tr>
-  </table>
-  <p>The resulting ratios give the proportion in which the components must be combined to achieve the target concentration.</p>
-
-  <h4>8. Advanced Applications in Defence Context</h4>
-  <ul>
-    <li><strong>Logistics Planning</strong>: Allocation of fuel to aircraft fleets uses compound ratios (e.g., fuel consumption per hour × number of aircraft × mission duration).</li>
-    <li><strong>Ballistics</strong>: Trajectory calculations often require converting speed ratios into percentages of muzzle velocity retained after air resistance.</li>
-    <li><strong>Personnel Management</strong>: Determining the ratio of officers to soldiers, often expressed as a fixed proportion like 1 : 15, is critical for command hierarchy in the [[Indian Armed Forces]].</li>
-    <li><strong>Financial Budgeting</strong>: Defence procurement budgets are presented as percentages of the total annual outlay; understanding how to manipulate these percentages directly impacts strategic planning.</li>
-  </ul>
-
-  <h4>9. Common Pitfalls & Strategies</h4>
-  <ul>
-    <li><strong>Misreading “of” vs “%”</strong>: “30 % of 200” is 60, not “30 of 200”. Treat “of” as multiplication.</li>
-    <li><strong>Ignoring Unit Consistency</strong>: In proportion problems, ensure all quantities share the same unit (km vs m, kg vs g).</li>
-    <li><strong>Over‑complicating Simple Ratios</strong>: Reduce ratios to their lowest terms before applying cross‑multiplication.</li>
-    <li><strong>Forgetting to Convert Percentages to Decimals</strong> before using them in algebraic equations.</li>
-    <li><strong>Skipping the “Check” Step</strong>: Verify the answer by substituting back into the original proportion or percentage equation.</li>
-  </ul>
-
-  <h4>10. Frequently Cited Historical & Scientific References</h4>
-  <p>Understanding the origin of concepts aids memory retention:</p>
-  <ul>
-    <li><strong>[[Euclid]]'s Elements</strong> (c. 300 BC) laid the groundwork for ratio theory in geometry.</li>
-    <li><strong>[[Pythagoras]]</strong> introduced the notion of commensurable lengths, an early form of rational ratios.</li>
-    <li><strong>[[Archimedes]]' Principle</strong> (c. 250 BC) employs ratios of displaced fluid to buoyant force.</li>
-    <li><strong>[[Newton's law of cooling]]</strong> (1701–1727) uses exponential decay expressed via percentages.</li>
-    <li><strong>[[Treaty of Versailles]]</strong> (1919) stipulated reparations expressed as percentages of pre‑war production—a classic real‑world proportion example.</li>
-    <li><strong>[[Indian Constitution – Article 83]]</strong> defines the composition of the [[Parliament]] in terms of ratios of elected to nominated members.</li>
-    <li><strong>[[World Bank]]</strong> reports (2022) often quote GDP growth as a percentage, reinforcing the relevance of percentage change calculations.</li>
-  </ul>
-
-  <h4>11. Formula Summary (Quick Reference)</h4>
+  <h4>Classification of Ratios – A Comparative Table</h4>
   <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <tr style="background:#2a2a40; color:#fff;">
-      <th style="border:1px solid #555;padding:8px;">Concept</th>
-      <th style="border:1px solid #555;padding:8px;">Formula</th>
-    </tr>
-    <tr>
-      <td style="border:1px solid #555;padding:8px;"><strong>Ratio to Fraction</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\(a:b = \frac{a}{b}\)</td>
-    </tr>
-    <tr style="background:#1e1e2a;">
-      <td style="border:1px solid #555;padding:8px;"><strong>Percentage</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\(\frac{\text{Part}}{\text{Whole}} \times 100\%\)</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #555;padding:8px;"><strong>Simple Interest</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\(I = P \times R \times T\)</td>
-    </tr>
-    <tr style="background:#1e1e2a;">
-      <td style="border:1px solid #555;padding:8px;"><strong>Compound Interest</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\(A = P(1+R)^n\)</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #555;padding:8px;"><strong>Direct Proportion</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\(y = kx\)</td>
-    </tr>
-    <tr style="background:#1e1e2a;">
-      <td style="border:1px solid #555;padding:8px;"><strong>Inverse Proportion</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\(xy = k\)</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #555;padding:8px;"><strong>Percentage Change</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\(\frac{\text{New – Old}}{\text{Old}} \times 100\%\)</td>
-    </tr>
-    <tr style="background:#1e1e2a;">
-      <td style="border:1px solid #555;padding:8px;"><strong>Alligation Ratio</strong></td>
-      <td style="border:1px solid #555;padding:8px;">\((C_B - C_{\text{desired}}) : (C_{\text{desired}} - C_A)\)</td>
-    </tr>
+    <thead style="background:#2a2a3a;">
+      <tr>
+        <th style="border:1px solid #555; padding:6px;">Type</th>
+        <th style="border:1px solid #555; padding:6px;">Notation</th>
+        <th style="border:1px solid #555; padding:6px;">Key Property</th>
+        <th style="border:1px solid #555; padding:6px;">Typical Use‑Case</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border:1px solid #555; padding:6px;"><strong>Simple Ratio</strong></td>
+        <td style="border:1px solid #555; padding:6px;">$a:b$</td>
+        <td style="border:1px solid #555; padding:6px;">Direct comparison of two quantities.</td>
+        <td style="border:1px solid #555; padding:6px;">Mixture problems, speed‑time relations.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #555; padding:6px;"><strong>Compound Ratio</strong></td>
+        <td style="border:1px solid #555; padding:6px;">$r_1 \times r_2 \times \dots$</td>
+        <td style="border:1px solid #555; padding:6px;">Product of successive ratios.</td>
+        <td style="border:1px solid #555; padding:6px;">Successive conversions (e.g., km → m → cm).</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #555; padding:6px;"><strong>Direct Proportion</strong></td>
+        <td style="border:1px solid #555; padding:6px;">$y = kx$</td>
+        <td style="border:1px solid #555; padding:6px;">$y$ varies linearly with $x$.</td>
+        <td style="border:1px solid #555; padding:6px;">Cost of items, distance‑time relations at constant speed.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #555; padding:6px;"><strong>Inverse Proportion</strong></td>
+        <td style="border:1px solid #555; padding:6px;">$y = \frac{k}{x}$</td>
+        <td style="border:1px solid #555; padding:6px;">Product $xy$ remains constant.</td>
+        <td style="border:1px solid #555; padding:6px;">Work‑time problems, pressure‑volume (Boyle’s law).</td>
+      </tr>
+    </tbody>
   </table>
+
+  <h4>Critical Distinctions – When Ratios Become Percentages</h4>
+  <div class="important-box" style="border-left:4px solid var(--accent); background:#1e1e2a; padding:12px; margin-top:12px;">
+    <strong>Key Point:</strong> A ratio $a:b$ can be instantly interpreted as a percentage only when the denominator $b$ represents “per 100”.  
+    <ul style="margin-top:6px;">
+      <li>If $b = 100$, then $a:b = a\%$ directly.</li>
+      <li>Otherwise, convert by $\displaystyle \frac{a}{b}\times100$.</li>
+      <li>In mixture problems, the “per 100” baseline often emerges from the total quantity of the mixture.</li>
+    </ul>
+  </div>
+
+  <h4>Common Mistakes (Students Frequently Err)</h4>
+  <ul>
+    <li><strong>Confusing “per” with “to”</strong> – Treating $3:5$ as $3\%$ of $5$ instead of a ratio of $3$ parts to $5$ parts.</li>
+    <li><strong>Ignoring the unit consistency</strong> – Mixing kilometres with metres in a ratio without converting leads to erroneous answers.</li>
+    <li><strong>Mis‑applying the percentage change formula</strong> – Using $\frac{\text{New}}{\text{Old}}\times100$ instead of $\frac{\text{New} - \text{Old}}{\text{Old}}\times100$.</li>
+    <li><strong>Over‑looking the “100” denominator</strong> – Directly substituting $a:b$ into a percentage formula without multiplying by $100$.</li>
+    <li><strong>Failure to simplify compound ratios</strong> – Leaving $ \frac{2}{3}\times\frac{9}{4}$ as is instead of reducing to $\frac{3}{2}$ before applying to the problem.</li>
+  </ul>
+
+  <h4>Shortcuts &amp; Tricks for Competitive Speed</h4>
+  <ol>
+    <li><strong>Unitary Method Shortcut</strong> – When a question asks “What is $x\%$ of $Y$?”, first find the value of $1\%$ as $\frac{Y}{100}$, then multiply by $x$.</li>
+    <li><strong>Cross‑Multiplication in Disguise</strong> – For problems of the type “$A$ is $p\%$ of $B$ and $B$ is $q\%$ of $C$”, compute $A = \frac{p}{100}\times\frac{q}{100}\times C$ directly, avoiding intermediate steps.</li>
+    <li><strong>Quick Conversion of Compound Ratios</strong> – Multiply numerators together and denominators together, then simplify using GCD before converting to percentage.</li>
+    <li><strong>“% of %” Shortcut</strong> – The product of two percentages is $\frac{(p\times q)}{100}$ %. Example: $20\%$ of $30\%$ = $\frac{20\times30}{100}=6\%$.</li>
+    <li><strong>Use of “Rule of 72” for Approximate Rate of Doubling</strong> – If a quantity grows at $R\%$ per annum, approximate years to double = $\frac{72}{R}$. Handy for quick time‑value approximations.</li>
+  </ol>
+
+  <h4>Fully Worked Example 1 – Compound Ratio with Percentage Conversion</h4>
+  <p><strong>Problem:</strong> A mixture contains milk, water, and sugar in the ratio $2:3:5$. If the total weight of the mixture is $200\,$kg, find the percentage (by weight) of sugar.</p>
+  <p><strong>Solution Steps:</strong></p>
+  <ol>
+    <li>Sum of ratio parts = $2+3+5 = 10$ parts.</li>
+    <li>One part corresponds to $\displaystyle \frac{200\text{ kg}}{10}=20\text{ kg}$.</li>
+    <li>Sugar part = $5$ parts $\Rightarrow$ mass of sugar = $5 \times 20 = 100\text{ kg}$.</li>
+    <li>Percentage of sugar = $\displaystyle \frac{100}{200}\times100 = 50\%$.</li>
+  </ol>
+  <p>Thus, sugar constitutes <strong>50 %</strong> of the mixture. Note the use of the unitary method at step&nbsp;2 and the final conversion using the basic percentage formula.</p>
+
+  <h4>Fully Worked Example 2 – Profit &amp; Loss with Ratio of Costs</h4>
+  <p><strong>Problem:</strong> A trader buys two articles in the ratio $3:7$ for a total cost of $\₹ 8000$. He sells them at a profit of $20\%$ on the first article and incurs a loss of $10\%$ on the second. Find the overall profit or loss percentage.</p>
+  <p><strong>Solution Steps:</strong></p>
+  <ol>
+    <li>Let the costs be $3x$ and $7x$ respectively. Hence $3x+7x = 8000 \Rightarrow 10x = 8000 \Rightarrow x = 800$.</li>
+    <li>Cost of first article = $3x = 2400$; cost of second = $7x = 5600$.</li>
+    <li>First article selling price = $2400 \times (1 + 0.20) = 2400 \times 1.20 = 2880$.</li>
+    <li>Second article selling price = $5600 \times (1 - 0.10) = 5600 \times 0.90 = 5040$.</li>
+    <li>Total selling price = $2880 + 5040 = 7920$.</li>
+    <li>Overall profit/loss = $7920 - 8000 = -80$ (a loss of ₹80).</li>
+    <li>Overall loss percentage = $\displaystyle \frac{80}{8000}\times100 = 1\%$.</li>
+  </ol>
+  <p>Key observations: the ratio provided simplifies the allocation of the total cost; the profit/loss percentages are applied using the unitary method; the final loss is tiny, illustrating the importance of precise arithmetic.</p>
+
+  <h4>Advanced Application – Work &amp; Time (Inverse Proportion)</h4>
+  <p>When two workers $A$ and $B$ work together, the combined rate is the sum of individual rates. If $A$ can complete a job in $x$ days, his rate is $\frac{1}{x}$ job per day. For $B$ working in $y$ days, rate = $\frac{1}{y}$. The collective time $T$ satisfies:</p>
+  $$\frac{1}{T} = \frac{1}{x} + \frac{1}{y} \;\Longrightarrow\; T = \frac{xy}{x+y}$$
+  <p>This is a classic inverse proportion result, vital for many NDA/CDS questions involving manpower.</p>
+
+  <h4>Derivation of Simple Interest from the Definition of Interest</h4>
+  <p>Interest $I$ for a principal $P$ over time $T$ years at rate $R\%$ per annum is defined as a linear function of $P$, $R$, and $T$: $I = k \times P \times R \times T$, where $k$ is a constant of proportionality. Since $R$ is expressed per 100, the constant $k = \frac{1}{100}$, yielding the well‑known formula:</p>
+  $$SI = \frac{P \times R \times T}{100}$$
+  <p>Conditions: $P, R, T \ge 0$ and $R$ expressed as a percent.</p>
+
+  <h4>Additional Practical Tips</h4>
+  <ul>
+    <li>Always rewrite percentages as fractions before performing algebraic manipulation; this reduces errors in cross‑multiplication.</li>
+    <li>When dealing with “% increase followed by % decrease”, compute the net effect using the product of the complementary fractions: $(1 + p/100)(1 - q/100) - 1$.</li>
+    <li>For mixture problems involving successive dilutions, treat each dilution as a compound ratio and simplify before converting to percentage.</li>
+    <li>Remember that “ratio of ratios” is itself a ratio; e.g., $\frac{a:b}{c:d} = \frac{a \times d}{b \times c}$.</li>
+  </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>
     <ul style="margin-top: 8px;">
-      <li>When three numbers are in continued ratio a : b : c, the middle term equals the geometric mean of the extremes: \(b^2 = a \times c\).</li>
-      <li>For any percentage increase followed by the same percentage decrease, the net effect is a loss; e.g., 20 % increase then 20 % decrease results in a 4 % overall loss.</li>
-      <li>In a direct proportion problem, the constant of proportionality \(k\) can be found using any known pair and remains unchanged for all other pairs.</li>
-      <li>Compound interest for 2 years at rate r% per annum equals \(P[(1+r/100)^2 - 1]\); many exam questions ask to reverse‑engineer the rate.</li>
-      <li>Alligation method works only when the desired concentration lies between the concentrations of the two components.</li>
-      <li>In a mixture problem with three components, treat the problem as two successive binary mixtures using the alligation technique.</li>
-      <li>The ratio of officers to soldiers in the [[Indian Armed Forces]] is fixed at 1 : 15 (as per recent defence policy), a fact often used in personnel‑strength calculations.</li>
-      <li>Percentage change can be quickly estimated using the “Rule of 72” for annual growth rates: \( \text{Years to double} \approx \frac{72}{\text{Rate%}}\).</li>
+      <li>1. A ratio $a:b$ is equivalent to $\displaystyle \frac{a}{b}\times100\%$ when $b=100$.</li>
+      <li>2. In a direct proportion, the product of the extremes equals the product of the means ($ad = bc$).</li>
+      <li>3. For inverse proportion, $xy = \text{constant}$; thus $y = \frac{k}{x}$.</li>
+      <li>4. “% of %” always yields a smaller percentage: $p\%$ of $q\% = \frac{pq}{100}\%$.</li>
+      <li>5. The quick rule for “% increase then % decrease” is net change $= p - q - \frac{pq}{100}$.</li>
+      <li>6. Compound ratio simplification: multiply numerators and denominators separately, then reduce before converting.</li>
+      <li>7. In work‑time problems, combined time $T = \frac{xy}{x+y}$ for two workers with individual times $x$ and $y$.</li>
+      <li>8. Profit % is always calculated on cost price, not on selling price.</li>
+      <li>9. The “Rule of 72” gives an approximate doubling period: $\displaystyle \text{Years} \approx \frac{72}{\text{Rate\%}}$.</li>
     </ul>
   </div>
 </div>
