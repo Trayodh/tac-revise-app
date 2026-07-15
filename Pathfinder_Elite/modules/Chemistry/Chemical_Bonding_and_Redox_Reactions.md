@@ -110,3 +110,22 @@ mindmap
       Between Metals
       e.g. Iron, Gold, Copper
 ```
+
+
+
+## Visual Summary: Chemical Bonding
+
+### Types of Chemical Bonds
+```mermaid
+mindmap
+  root((Chemical Bonds))
+    Ionic
+      Complete transfer of electrons
+      Between Metal and Non-Metal (e.g., NaCl)
+    Covalent
+      Sharing of electrons
+      Between Non-Metals (e.g., H2O)
+    Metallic
+      Sea of delocalized electrons
+      Between Metals (e.g., Fe, Cu)
+```

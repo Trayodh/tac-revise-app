@@ -319,3 +319,26 @@ flowchart TD
     Meiosis1 --> Meiosis2[4 Unique Gametes n]
     end
 ```
+
+
+
+## Visual Summary: Genetics
+
+### Mitosis vs Meiosis
+```mermaid
+flowchart LR
+    Mitosis((Mitosis)) --> Somatic[Somatic Cells]
+    Mitosis --> Identical[2 Identical Diploid Cells (2n)]
+    Mitosis --> PMAT[Prophase -> Metaphase -> Anaphase -> Telophase]
+    
+    Meiosis((Meiosis)) --> Gametes[Sex Cells / Gametes]
+    Meiosis --> Unique[4 Unique Haploid Cells (n)]
+    Meiosis --> CrossingOver[Crossing Over occurs in Prophase I]
+```
+
+### DNA Structure (Central Dogma)
+```mermaid
+flowchart LR
+    DNA((DNA)) -->|Transcription| RNA[mRNA]
+    RNA -->|Translation| Protein[Protein]
+```

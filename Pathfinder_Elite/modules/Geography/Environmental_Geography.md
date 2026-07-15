@@ -335,3 +335,31 @@ vii. National Mission for Sustainable Agriculture The NAPCC aims to support clim
 • It is an organising principle for human life on a finite planet. It put forward or desirable future state for human societies, in which living conditions and resource use meet human needs without undermining the sustainability of natural systems and environment.
 
 National Action Plan on Climate Change (NAPCC) National Action Plan on Climate Change (NAPCC) is a comprehensive action plan which outlines measures on climate change related adaptation and mitigation while simultaneously advancing development. The eight missions
+
+
+## Visual Summary: Environment & Oceanography
+
+### Atmospheric Pressure Belts
+```mermaid
+flowchart TD
+    Equator[Equatorial Low / Doldrums: 0°-5°]
+    SubTrop[Sub-Tropical High / Horse Latitudes: 30°]
+    SubPolar[Sub-Polar Low: 60°]
+    Polar[Polar High: 90°]
+    
+    SubTrop -->|Trade Winds| Equator
+    SubTrop -->|Westerlies| SubPolar
+    Polar -->|Polar Easterlies| SubPolar
+```
+
+### Ecology: Food Chain & Energy Flow
+```mermaid
+flowchart LR
+    Sun[Sun] --> Producer[Producers (Plants)]
+    Producer -->|10% Energy| Primary[Primary Consumers (Herbivores)]
+    Primary -->|10% Energy| Secondary[Secondary Consumers (Carnivores)]
+    Secondary -->|10% Energy| Tertiary[Tertiary Consumers (Apex)]
+    
+    Decomposers[Decomposers] -.-> Producer
+    Tertiary -.-> Decomposers
+```

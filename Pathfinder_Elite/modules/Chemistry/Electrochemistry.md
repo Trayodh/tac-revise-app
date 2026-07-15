@@ -29,3 +29,19 @@ flowchart LR
     A -->|Electrons flow| C
     SolA -.->|Salt Bridge| SolC
 ```
+
+
+
+## Visual Summary: Electrochemistry
+
+### Galvanic vs Electrolytic Cell
+```mermaid
+flowchart LR
+    Galvanic((Galvanic / Voltaic Cell)) --> ChemToElec[Chemical Energy -> Electrical Energy]
+    Galvanic --> Spontaneous[Spontaneous Reaction]
+    Galvanic --> AnodeG[Anode is Negative]
+    
+    Electrolytic((Electrolytic Cell)) --> ElecToChem[Electrical Energy -> Chemical Energy]
+    Electrolytic --> NonSpontaneous[Non-Spontaneous Reaction]
+    Electrolytic --> AnodeE[Anode is Positive]
+```

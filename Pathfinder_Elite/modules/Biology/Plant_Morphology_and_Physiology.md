@@ -385,3 +385,47 @@ flowchart LR
     P[Glucose / Food] -->|Bidirectional Flow| Down[Leaves to Roots & storage]
     end
 ```
+
+
+
+## Visual Summary: Plant Biology
+
+### Structure of a Flower
+```mermaid
+mindmap
+  root((Flower Parts))
+    Male (Androecium)
+      Stamen
+        Anther (Pollen)
+        Filament
+    Female (Gynoecium)
+      Carpel / Pistil
+        Stigma
+        Style
+        Ovary (Ovules)
+    Accessory
+      Petals (Corolla)
+      Sepals (Calyx)
+```
+
+### Xylem vs Phloem
+```mermaid
+flowchart LR
+    Xylem((Xylem)) --> Water[Transports Water & Minerals]
+    Xylem --> Unidirectional[Unidirectional Flow (Up)]
+    Xylem --> DeadCells[Mostly Dead Cells]
+    
+    Phloem((Phloem)) --> Food[Transports Food / Sucrose]
+    Phloem --> Bidirectional[Bidirectional Flow]
+    Phloem --> LivingCells[Mostly Living Cells]
+```
+
+### Photosynthesis Process
+```mermaid
+flowchart TD
+    Light[Sunlight] --> Chloro[Chlorophyll in Leaves]
+    CO2[Carbon Dioxide] --> Chloro
+    H2O[Water from Roots] --> Chloro
+    Chloro --> Glucose[Glucose / Energy]
+    Chloro --> O2[Oxygen Release]
+```

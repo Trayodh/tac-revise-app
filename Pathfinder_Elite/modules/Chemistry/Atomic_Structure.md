@@ -98,3 +98,17 @@ flowchart LR
     GE[Electronegativity: Decreases]
     end
 ```
+
+
+
+## Visual Summary: Atomic Structure
+
+### Bohr Model Concept
+```mermaid
+flowchart TD
+    Nucleus((Nucleus: Protons + Neutrons))
+    Nucleus --> KShell[K Shell: n=1, 2e-]
+    KShell --> LShell[L Shell: n=2, 8e-]
+    LShell --> MShell[M Shell: n=3, 18e-]
+    MShell --> NShell[N Shell: n=4, 32e-]
+```

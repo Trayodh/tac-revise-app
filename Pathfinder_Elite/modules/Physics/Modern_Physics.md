@@ -158,3 +158,17 @@ Phenomenon of total internal reflection is the principle behind optical fibres. 
 
 
 </div>
+
+
+
+## Visual Summary: Modern Physics
+
+### Nuclear Fission vs Fusion
+```mermaid
+flowchart LR
+    Fission((Fission)) --> Break[Heavy Nucleus splits (U-235)]
+    Fission --> Ex[Atomic Bomb, Nuclear Reactors]
+    
+    Fusion((Fusion)) --> Join[Light Nuclei combine (H + H)]
+    Fusion --> Ex2[Sun's Energy, Hydrogen Bomb]
+```

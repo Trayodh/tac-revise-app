@@ -776,3 +776,24 @@ mindmap
       Sessions Courts (Criminal)
       Panchayat / Lok Adalats
 ```
+
+
+
+## Visual Summary: Union Government
+
+### Parliament Structure
+```mermaid
+flowchart TD
+    Parliament((Parliament of India))
+    Parliament --> President[President of India]
+    Parliament --> RajyaSabha[Rajya Sabha: Council of States]
+    Parliament --> LokSabha[Lok Sabha: House of the People]
+```
+
+### Judiciary Hierarchy
+```mermaid
+flowchart TD
+    SC[Supreme Court of India] --> HC[High Courts: States]
+    HC --> Dist[District Courts]
+    Dist --> Sub[Subordinate Courts]
+```

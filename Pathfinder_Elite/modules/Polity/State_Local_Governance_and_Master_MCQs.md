@@ -436,3 +436,14 @@ Which of the statement(s) given above is/are correct? (a) 1 and 3 (b) 2 and 3 (c
 
 
 </div>
+
+
+
+## Visual Summary: Local Governance
+
+### Panchayati Raj System (3-Tier)
+```mermaid
+flowchart BT
+    Village[Gram Panchayat: Village Level] --> Block[Panchayat Samiti: Block Level]
+    Block --> District[Zila Parishad: District Level]
+```

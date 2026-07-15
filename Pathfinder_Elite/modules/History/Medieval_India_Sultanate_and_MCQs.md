@@ -659,3 +659,16 @@ timeline
     1628 : Shah Jahan
     1658 : Aurangzeb
 ```
+
+
+
+## Visual Summary: Medieval History
+
+### Delhi Sultanate Dynasties
+```mermaid
+flowchart LR
+    Slave[Slave Dynasty: 1206-1290] --> Khilji[Khilji: 1290-1320]
+    Khilji --> Tughlaq[Tughlaq: 1320-1414]
+    Tughlaq --> Sayyid[Sayyid: 1414-1451]
+    Sayyid --> Lodi[Lodi: 1451-1526]
+```

@@ -798,3 +798,15 @@ flowchart TD
     J --> J3[Kaivalya]
     end
 ```
+
+
+
+## Visual Summary: Ancient History
+
+### Vedic Society Hierarchy (Varnas)
+```mermaid
+flowchart TD
+    Brahmins[Brahmins: Priests, Scholars] --> Kshatriyas[Kshatriyas: Warriors, Kings]
+    Kshatriyas --> Vaishyas[Vaishyas: Merchants, Farmers]
+    Vaishyas --> Shudras[Shudras: Laborers, Service Providers]
+```

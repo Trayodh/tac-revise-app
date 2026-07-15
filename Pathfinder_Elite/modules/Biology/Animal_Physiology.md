@@ -1091,3 +1091,87 @@ flowchart TD
     
     Glom --> Eff[Efferent Arteriole: Exits]
 ```
+
+
+
+## Visual Summary: Human Systems
+
+### Human Digestive System Flow
+```mermaid
+flowchart TD
+    Mouth[Mouth: Salivary Amylase] --> Pharynx[Pharynx]
+    Pharynx --> Oesophagus[Oesophagus: Peristalsis]
+    Oesophagus --> Stomach[Stomach: Pepsin, HCl]
+    Stomach --> SmallIntestine[Small Intestine: Duodenum, Jejunum, Ileum]
+    SmallIntestine --> LargeIntestine[Large Intestine: Caecum, Colon, Rectum]
+    LargeIntestine --> Anus[Anus]
+    
+    Liver[Liver: Bile] -.-> SmallIntestine
+    Pancreas[Pancreas: Trypsin, Lipase] -.-> SmallIntestine
+```
+
+### Human Respiratory System
+```mermaid
+flowchart TD
+    Nostrils --> NasalCavity[Nasal Cavity]
+    NasalCavity --> Pharynx
+    Pharynx --> Larynx[Larynx / Voice Box]
+    Larynx --> Trachea[Trachea / Windpipe]
+    Trachea --> Bronchi[Bronchi]
+    Bronchi --> Bronchioles[Bronchioles]
+    Bronchioles --> Alveoli[Alveoli: Gas Exchange]
+```
+
+### Double Circulation (Heart)
+```mermaid
+flowchart LR
+    Body((Body Tissues)) -->|Deoxygenated| VenaCava[Vena Cava]
+    VenaCava --> RA[Right Atrium]
+    RA --> RV[Right Ventricle]
+    RV -->|Pulmonary Artery| Lungs((Lungs))
+    
+    Lungs -->|Oxygenated: Pulmonary Vein| LA[Left Atrium]
+    LA --> LV[Left Ventricle]
+    LV -->|Aorta| Body
+```
+
+### Nervous System: Reflex Arc
+```mermaid
+flowchart LR
+    Stimulus[Stimulus] --> Receptor[Receptor / Sense Organ]
+    Receptor --> Sensory[Sensory Neuron]
+    Sensory --> SpinalCord[Spinal Cord / CNS]
+    SpinalCord --> Motor[Motor Neuron]
+    Motor --> Effector[Effector / Muscle]
+    Effector --> Response[Response]
+```
+
+### Excretory System: Nephron Structure
+```mermaid
+flowchart TD
+    RenalArtery[Renal Artery] --> Glomerulus[Glomerulus in Bowman's Capsule]
+    Glomerulus --> PCT[Proximal Convoluted Tubule - PCT]
+    PCT --> Henle[Loop of Henle]
+    Henle --> DCT[Distal Convoluted Tubule - DCT]
+    DCT --> CollectingDuct[Collecting Duct]
+    CollectingDuct --> Ureter[Ureter]
+```
+
+### Endocrine Glands (Major)
+```mermaid
+mindmap
+  root((Endocrine Glands))
+    Brain
+      Hypothalamus
+      Pituitary (Master Gland)
+      Pineal (Melatonin)
+    Neck
+      Thyroid (Thyroxine)
+      Parathyroid
+    Abdomen
+      Adrenal (Adrenaline)
+      Pancreas (Insulin, Glucagon)
+    Reproductive
+      Testes (Testosterone)
+      Ovaries (Estrogen, Progesterone)
+```

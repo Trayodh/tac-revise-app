@@ -333,3 +333,44 @@ flowchart TD
     Igneous -->|Melting| Magma
     Sedimentary -->|Melting| Magma
 ```
+
+
+
+## Visual Summary: Earth & Geology
+
+### Earth's Internal Structure
+```mermaid
+flowchart TD
+    Earth((Earth Layers))
+    Earth --> Crust[Crust: Solid, 0-100km]
+    Crust --> Litho[Lithosphere]
+    Earth --> Mantle[Mantle: Viscous, 2900km]
+    Mantle --> Astheno[Asthenosphere: Magma source]
+    Earth --> OuterCore[Outer Core: Liquid Iron/Nickel, creates magnetic field]
+    Earth --> InnerCore[Inner Core: Solid Iron/Nickel]
+```
+
+### Seasons, Solstices & Equinoxes
+```mermaid
+flowchart LR
+    Sun((Sun))
+    SummerSol[Summer Solstice: June 21] -.-> Sun
+    WinterSol[Winter Solstice: Dec 22] -.-> Sun
+    VernalEq[Vernal Equinox: March 21] -.-> Sun
+    AutumnEq[Autumnal Equinox: Sept 23] -.-> Sun
+```
+
+### Plate Tectonics
+```mermaid
+mindmap
+  root((Plate Boundaries))
+    Divergent
+      Plates move apart
+      Mid-Atlantic Ridge
+    Convergent
+      Plates collide
+      Himalayas, Andes
+    Transform
+      Plates slide past
+      San Andreas Fault
+```

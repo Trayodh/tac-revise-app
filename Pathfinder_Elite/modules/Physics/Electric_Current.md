@@ -204,3 +204,29 @@ When cathode rays strike on a heavy metal of high melting points, then a very sm
 
 
 </div>
+
+
+
+## Visual Summary: Electricity & Magnetism
+
+### Series vs Parallel Circuits
+```mermaid
+flowchart LR
+    Series((Series Circuit)) --> CurrentSame[Current (I) is Same]
+    Series --> VoltageDiv[Voltage (V) Divides]
+    Series --> Req[Req = R1 + R2 + R3]
+    
+    Parallel((Parallel Circuit)) --> VoltageSame[Voltage (V) is Same]
+    Parallel --> CurrentDiv[Current (I) Divides]
+    Parallel --> ReqP[1/Req = 1/R1 + 1/R2 + 1/R3]
+```
+
+### Transformers
+```mermaid
+flowchart TD
+    Transformer((Transformer))
+    Transformer --> StepUp[Step-Up: Increases Voltage]
+    StepUp --> SecTurnsHigh[Secondary Turns > Primary]
+    Transformer --> StepDown[Step-Down: Decreases Voltage]
+    StepDown --> SecTurnsLow[Secondary Turns < Primary]
+```

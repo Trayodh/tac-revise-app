@@ -234,3 +234,36 @@ flowchart TD
     class Plant,CW,P,V,C plantFill;
     class Animal,CW2,P2,V2,C2 animalFill;
 ```
+
+
+
+## Visual Summary: Cellular Biology
+
+### Prokaryotic vs Eukaryotic Cell
+```mermaid
+mindmap
+  root((Cells))
+    Prokaryotic
+      No true nucleus
+      No membrane-bound organelles
+      Examples: Bacteria, Archaea
+      Circular DNA
+    Eukaryotic
+      True nucleus
+      Membrane-bound organelles
+      Examples: Plants, Animals, Fungi
+      Linear DNA
+```
+
+### Plant vs Animal Cell
+```mermaid
+flowchart LR
+    Plant((Plant Cell)) --> CellWall[Cell Wall Present]
+    Plant --> Plastids[Plastids / Chloroplasts Present]
+    Plant --> Vacuole[Large Central Vacuole]
+    
+    Animal((Animal Cell)) --> NoWall[No Cell Wall]
+    Animal --> NoPlastids[No Plastids]
+    Animal --> SmallVacuole[Small or No Vacuoles]
+    Animal --> Centrioles[Centrioles Present]
+```

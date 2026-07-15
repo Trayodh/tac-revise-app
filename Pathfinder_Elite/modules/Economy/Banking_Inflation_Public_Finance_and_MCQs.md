@@ -518,3 +518,28 @@ flowchart TD
     SCB --> ForB[Foreign Banks]
     SCB --> RRBs[Regional Rural Banks]
 ```
+
+
+
+## Visual Summary: Banking & Finance
+
+### Structure of Indian Banking
+```mermaid
+mindmap
+  root((Indian Banking System))
+    RBI (Central Bank)
+      Scheduled Commercial Banks
+        Public Sector (SBI, PNB)
+        Private Sector (HDFC, ICICI)
+        Foreign Banks
+      Cooperative Banks
+      Regional Rural Banks (RRBs)
+```
+
+### Inflation Types
+```mermaid
+flowchart TD
+    Inflation((Inflation))
+    Inflation --> Demand[Demand-Pull: "Too much money chasing too few goods"]
+    Inflation --> Cost[Cost-Push: "Increase in production costs (raw materials/wages)"]
+```

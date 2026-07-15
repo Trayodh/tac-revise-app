@@ -247,3 +247,36 @@ graph TD
     style G stroke:#3b82f6,stroke-width:2px
     end
 ```
+
+
+
+## Visual Summary: Light & Optics
+
+### Human Eye Defects
+```mermaid
+mindmap
+  root((Eye Defects))
+    Myopia (Short-sighted)
+      Image forms in front of retina
+      Correction: Concave Lens
+    Hypermetropia (Long-sighted)
+      Image forms behind retina
+      Correction: Convex Lens
+    Presbyopia (Old age)
+      Loss of accommodation
+      Correction: Bifocal Lens
+    Astigmatism
+      Distorted cornea
+      Correction: Cylindrical Lens
+```
+
+### Lenses & Mirrors
+```mermaid
+flowchart TD
+    Optics[Optics] --> Mirrors
+    Optics --> Lenses
+    Mirrors --> ConcaveMirror[Concave: Converging]
+    Mirrors --> ConvexMirror[Convex: Diverging]
+    Lenses --> ConvexLens[Convex: Converging]
+    Lenses --> ConcaveLens[Concave: Diverging]
+```

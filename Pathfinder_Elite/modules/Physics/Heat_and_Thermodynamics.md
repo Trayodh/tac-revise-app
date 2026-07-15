@@ -192,3 +192,16 @@ If a particle repeats its motion about a fixed point after a regular time interv
 
 
 </div>
+
+
+
+## Visual Summary: Heat
+
+### Modes of Heat Transfer
+```mermaid
+flowchart LR
+    Source((Heat Source))
+    Source -->|Direct Contact| Conduction[Conduction: Solids]
+    Source -->|Fluid Movement| Convection[Convection: Liquids/Gases]
+    Source -->|Electromagnetic Waves| Radiation[Radiation: Vacuum/Space]
+```

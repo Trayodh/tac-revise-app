@@ -785,3 +785,26 @@ flowchart TD
     LV --> GSLV[GSLV<br>Geosynchronous Satellite Launch Vehicle<br>Heavy payloads]
     LV --> LVM3[LVM3<br>Heaviest lifter<br>Used for Chandrayaan-3]
 ```
+
+
+
+## Visual Summary: Defence & Space
+
+### Indian Armed Forces Structure
+```mermaid
+flowchart TD
+    Commander[Supreme Commander: President] --> MoD[Ministry of Defence]
+    MoD --> CDS[Chief of Defence Staff]
+    CDS --> Army[Indian Army]
+    CDS --> Navy[Indian Navy]
+    CDS --> AirForce[Indian Air Force]
+```
+
+### ISRO Launch Vehicles
+```mermaid
+flowchart LR
+    SLV[SLV] --> ASLV[ASLV]
+    ASLV --> PSLV[PSLV: Workhorse]
+    PSLV --> GSLV[GSLV: Heavy Payloads]
+    GSLV --> LVM3[LVM3: Chandrayaan/Gaganyaan]
+```

@@ -471,3 +471,16 @@ timeline
     1991 : Economic Reforms (LPG)
     2015 : NITI Aayog replaces Planning Commission
 ```
+
+
+
+## Visual Summary: Macroeconomics
+
+### Circular Flow of Income
+```mermaid
+flowchart LR
+    Households((Households)) -- "Factor Services (Land, Labor)" --> Firms((Firms))
+    Firms -- "Goods & Services" --> Households
+    Households -- "Consumption Expenditure" --> Firms
+    Firms -- "Factor Payments (Wages, Rent)" --> Households
+```

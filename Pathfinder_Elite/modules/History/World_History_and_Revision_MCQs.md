@@ -790,3 +790,21 @@ Which of the statement(s) given above is/are correct? (a) Only 1 (b) Only 2 (c) 
 
 
 </div>
+
+
+
+## Visual Summary: World History
+
+### United Nations Structure
+```mermaid
+mindmap
+  root((United Nations))
+    General Assembly
+    Security Council
+      5 Permanent (Veto)
+      10 Non-Permanent
+    Secretariat
+    International Court of Justice (ICJ)
+    Economic and Social Council (ECOSOC)
+    Trusteeship Council
+```

@@ -687,3 +687,47 @@ flowchart TD
     SW --> Arabian[Arabian Sea Branch<br>Hits Western Ghats]
     SW --> Bay[Bay of Bengal Branch<br>Hits NE India & Meghalaya]
 ```
+
+
+
+## Visual Summary: India Maps (Conceptual)
+
+### Indian River Systems
+```mermaid
+mindmap
+  root((Indian Rivers))
+    Himalayan
+      Indus System
+        Jhelum, Chenab, Ravi, Beas, Sutlej
+      Ganga System
+        Yamuna, Gomti, Ghaghara, Kosi, Son
+      Brahmaputra System
+        Teesta, Lohit
+    Peninsular
+      West Flowing (Arabian Sea)
+        Narmada
+        Tapi
+      East Flowing (Bay of Bengal)
+        Mahanadi
+        Godavari
+        Krishna
+        Cauvery
+```
+
+### Climate & Rainfall Zones
+```mermaid
+mindmap
+  root((Rainfall Distribution))
+    High (>200cm)
+      Western Ghats
+      Meghalaya / North-East
+    Medium (100-200cm)
+      Ganga Plain
+      Eastern Ghats
+    Low (50-100cm)
+      Deccan Plateau
+      Western UP
+    Scanty (<50cm)
+      Thar Desert (Rajasthan)
+      Ladakh (Cold Desert)
+```

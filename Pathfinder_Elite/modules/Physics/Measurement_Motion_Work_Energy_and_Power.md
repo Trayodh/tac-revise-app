@@ -336,3 +336,25 @@ graph LR
     style C fill:#f59e0b,stroke:#b45309
     style E fill:#ef4444,stroke:#991b1b
 ```
+
+
+
+## Visual Summary: Mechanics
+
+### Classes of Levers
+```mermaid
+flowchart TD
+    Class1[Class 1: Fulcrum in Middle] --> Ex1(Seesaw, Scissors)
+    Class2[Class 2: Load in Middle] --> Ex2(Wheelbarrow, Nutcracker)
+    Class3[Class 3: Effort in Middle] --> Ex3(Tweezers, Human Forearm)
+```
+
+### Free Body Diagram (FBD) Logic
+```mermaid
+flowchart TD
+    Object((Object on a Surface))
+    Object -->|Downwards| W[Weight = mg]
+    Object -->|Perpendicular Up| N[Normal Force N]
+    Object -->|Forward| F[Applied Force F]
+    Object -->|Opposite to Motion| f[Friction f]
+```
