@@ -669,3 +669,21 @@ Besides the Himalayas, the North-Eastern hill ranges the Western Ghats, the Nilg
 • The DM Act puts on Central Government the obligation to take all measures necessary and expedient for the purpose of disaster management including coordination between ministries and department, state governments, various domestic and international agencies etc. It is also obliged to make proper allocation of funds.
 
 • A different variety of landslides, characterised by a lateritic cap, pose constant threat to the Western Ghats in the South, along the steep slopes overlooking the Konkan coast besides Nilgiris, which is highly landslide prone.
+
+
+## Visual Summary & Diagrams: Geography (Part 2)
+
+### Mechanism of Indian Monsoon (SW Monsoon)
+```mermaid
+flowchart TD
+    Summer[Summer in N. Hemisphere] --> Heat[Intense heating of Tibetan Plateau]
+    Heat --> LowP[Low Pressure area over NW India]
+    
+    Ocean[High Pressure over Indian Ocean] --> Winds[Winds move from High to Low Pressure]
+    Winds --> Equator[Cross Equator, deflect right due to Coriolis]
+    
+    Equator --> SW[South-West Monsoon Winds]
+    
+    SW --> Arabian[Arabian Sea Branch<br>Hits Western Ghats]
+    SW --> Bay[Bay of Bengal Branch<br>Hits NE India & Meghalaya]
+```

@@ -34,3 +34,32 @@ So, perimeter of ∆ABC = AB BC AC
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Triangles
+
+### Types of Triangles
+```mermaid
+mindmap
+  root((Triangles))
+    By Sides
+      Equilateral (All sides equal)
+      Isosceles (Two sides equal)
+      Scalene (No sides equal)
+    By Angles
+      Acute (All angles < 90°)
+      Right (One angle = 90°)
+      Obtuse (One angle > 90°)
+```
+
+### Congruence Criteria
+```mermaid
+flowchart TD
+    Congruence((Triangle Congruence))
+    Congruence --> SSS[SSS: Side-Side-Side]
+    Congruence --> SAS[SAS: Side-Angle-Side]
+    Congruence --> ASA[ASA: Angle-Side-Angle]
+    Congruence --> AAS[AAS: Angle-Angle-Side]
+    Congruence --> RHS[RHS: Right-Hypotenuse-Side]
+```

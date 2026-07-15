@@ -40,3 +40,22 @@ An infinite number of circles can be drawn with same centre. Tangent A tangent t
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Circle Geometry
+
+### Circle Terminology & Theorems
+```mermaid
+flowchart TD
+    Circle((Circle Elements))
+    Circle --> Center[Center]
+    Circle --> Radius[Radius]
+    Circle --> Diameter[Diameter = 2 * Radius]
+    Circle --> Chord[Chord]
+    Circle --> Secant[Secant Line]
+    Circle --> Tangent[Tangent Line]
+    
+    Chord --> Theorem1[Perpendicular from center bisects chord]
+    Tangent --> Theorem2[Radius is perpendicular to tangent at point of contact]
+```

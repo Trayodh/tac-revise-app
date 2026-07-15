@@ -8,3 +8,19 @@ QUADRANTS Let XOX ′ and YOY ′ be two lines at right angles in the plane of p
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: Trigonometry
+
+### Trigonometric Ratios (SOH CAH TOA)
+```mermaid
+flowchart LR
+    RightTriangle((Right-Angled Triangle)) --> Hypotenuse[Hypotenuse]
+    RightTriangle --> Opposite[Opposite Side]
+    RightTriangle --> Adjacent[Adjacent Side]
+    
+    Opposite & Hypotenuse -->|Ratio| Sine[Sin θ = Opp / Hyp]
+    Adjacent & Hypotenuse -->|Ratio| Cosine[Cos θ = Adj / Hyp]
+    Opposite & Adjacent -->|Ratio| Tangent[Tan θ = Opp / Adj]
+```

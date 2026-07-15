@@ -14,3 +14,26 @@ MATHEMATICS > Quadratic Equations and Inequalities • Volume of cuboid = Area o
 
 
 </div>
+
+
+
+## Visual Summary & Diagrams: 3D Mensuration
+
+### Classification of 3D Solids
+```mermaid
+mindmap
+  root((3D Solids))
+    Polyhedrons (Flat Faces)
+      Prisms
+        Cube
+        Cuboid
+      Pyramids
+        Square Pyramid
+        Triangular Pyramid
+    Non-Polyhedrons (Curved Surfaces)
+      Cylinder
+      Cone
+      Frustum of a Cone
+      Sphere
+      Hemisphere
+```
