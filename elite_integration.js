@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const fileRes = await fetch(modPath);
             if (!fileRes.ok) continue;
             const mdText = await fileRes.text();
-            const htmlContent = marked.parse(mdText);
+            const htmlContent = (typeof parseWikiLinks === 'function') ? parseWikiLinks(mdText) : marked.parse(mdText);
 
             // Find or create Elite chapter
             let eliteChapter = db[dbKey].chapters.find(c => c.id === 'elite_updates');

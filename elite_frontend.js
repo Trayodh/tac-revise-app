@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const res = await fetch(path);
       if (!res.ok) throw new Error('Could not fetch ' + path);
       const markdownText = await res.text();
-      const parsedHtml = marked.parse(markdownText);
+      const parsedHtml = (typeof window.parseWikiLinks === 'function') ? window.parseWikiLinks(markdownText) : marked.parse(markdownText);
       eliteContainer.innerHTML = '<div style="margin-bottom: 20px;"><button onclick="window.loadEliteDashboard()" style="padding: 6px 12px; background: var(--bg-secondary); border: 1px solid var(--border); color: var(--text-primary); border-radius: 4px; cursor: pointer;">Back</button></div><div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 24px; line-height: 1.6;">' + parsedHtml + '</div>';
       if (window.MathJax) window.MathJax.typesetPromise([eliteContainer]).catch(e => console.log(e));
     } catch (e) {
