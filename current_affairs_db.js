@@ -1994,28 +1994,6 @@ window.CURRENT_AFFAIRS_DB = {
   ],
   "July 2026": [
     {
-      "id": "exercise-indus-eagle-2026",
-      "topic": "Defence Exercise",
-      "text": "The Indian Army and Nepalese Army concluded **Exercise Indus Eagle 2026** from **8–15 July 2026** in the Himalayan region of Uttarakhand, focusing on joint mountain warfare and disaster response.",
-      "details": {
-        "winner": "N/A",
-        "award": "Exercise Indus Eagle",
-        "nationality": "India, Nepal",
-        "summary": "Enhances interoperability with neighboring forces, vital for border security."
-      },
-      "mcq": {
-        "question": "Exercise Indus Eagle 2026 was conducted in which Indian state?",
-        "options": [
-          "A) Himachal Pradesh",
-          "B) Uttarakhand",
-          "C) Rajasthan",
-          "D) Gujarat"
-        ],
-        "answer": "B",
-        "explanation": "The joint exercise took place in Uttarakhand."
-      }
-    },
-    {
       "id": "brahmos-ii-trials-completed-2026",
       "topic": "Missile Development",
       "text": "DRDO announced the successful completion of **BrahMos‑II hypersonic cruise missile** trials on **3 July 2026**, achieving a speed of **Mach 7** and a range of **600 km**. The missile is slated for induction into the Indian Air Force by 2028.",
