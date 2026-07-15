@@ -400,6 +400,7 @@ function renderSyllabusMasteryHeatmap() {
 
 function renderDashboardRecentCBT() {
   const container = document.getElementById("dashboard-recent-cbt");
+  if (!container) return;
   if (STATE.cbtScores.length === 0) {
     container.innerHTML = `<p style="color:var(--text-muted);">No tests taken yet. Launch CBT Mock Test Hub to start your revision.</p>`;
     return;
