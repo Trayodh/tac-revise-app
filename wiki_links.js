@@ -749,9 +749,20 @@ Keep language strictly formal, highly authoritative, and emoji-free. Return stri
     if (!response.ok) throw new Error("API call failed");
     const data = await response.json();
     let resText = data.candidates[0].content.parts[0].text;
-    const cleaned = resText.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim();
-    const result = JSON.parse(cleaned);
+    let cleaned = resText;
+    const jsonMatch = resText.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);
+    if (jsonMatch) {
+      cleaned = jsonMatch[1].trim();
+    } else {
+      cleaned = resText.replace(/^```json\s*/i,'').replace(/\s*```$/i,'').trim();
+    }
     
+    // Check if it's our interceptor's offline fallback
+    if (resText.includes("_AI uplink failed")) {
+      throw new Error(resText.split("_AI uplink failed")[1].replace(/[\(\)]/g, '').trim() || "Offline mode active.");
+    }
+    
+    const result = JSON.parse(cleaned);
     window.DRONACHARYA_CACHE[cacheKey] = result;
     renderDronacharyaModalContent(modal, topicName, result, contextText);
   } catch (err) {
