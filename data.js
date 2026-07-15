@@ -3628,8 +3628,8 @@ const NOTES_DATABASE = {
             "title": "Mughal Empire"
           },
           {
-            "id": "maratha-empire--pathfinder-expanded-",
-            "title": "Maratha Empire (Pathfinder Expanded)"
+            "id": "maratha-empire-expanded",
+            "title": "Maratha Empire (Expanded)"
           },
           {
             "id": "bhakti-and-sufi-movements",
@@ -3670,8 +3670,8 @@ const NOTES_DATABASE = {
             "title": "Partition and Independence"
           },
           {
-            "id": "post-independence-consolidation--pathfinder-added-",
-            "title": "Post-Independence Consolidation (Pathfinder Added)"
+            "id": "post-independence-consolidation-expanded",
+            "title": "Post-Independence Consolidation (Expanded)"
           }
         ]
       }
