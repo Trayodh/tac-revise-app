@@ -32,7 +32,23 @@ document.addEventListener('DOMContentLoaded', async () => {
             const modPath = `Pathfinder_Elite/modules/${mod.subject}/${mod.filename}`;
             const fileRes = await fetch(modPath);
             if (!fileRes.ok) continue;
-            const mdText = await fileRes.text();
+            let mdText = await fileRes.text();
+            
+            // Strip MCQs to keep only notes and visual diagrams
+            let practiceIndex = mdText.indexOf('\\nPRACTICE EXERCISE');
+            if (practiceIndex === -1) {
+                practiceIndex = mdText.indexOf('PRACTICE EXERCISE');
+            }
+            
+            if (practiceIndex !== -1) {
+                const endDivIndex = mdText.indexOf('</div>', practiceIndex);
+                if (endDivIndex !== -1) {
+                    mdText = mdText.substring(0, practiceIndex) + '\\n</div>\\n' + mdText.substring(endDivIndex + 6);
+                } else {
+                    mdText = mdText.substring(0, practiceIndex) + '\\n</div>\\n';
+                }
+            }
+
             const htmlContent = (typeof parseWikiLinks === 'function') ? parseWikiLinks(mdText) : marked.parse(mdText);
 
             // Distribute into actual chapters based on keyword matching
