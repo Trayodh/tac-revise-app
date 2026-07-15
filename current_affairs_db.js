@@ -557,390 +557,635 @@ window.CURRENT_AFFAIRS_DB = {
   ],
   "April 2026": [
     {
-      "id": "apr-1",
-      "topic": "Bilateral Drills",
-      "text": "The 11th edition of the Joint Special Forces Exercise **'KHANJAR'** between **India** and **Kyrgyzstan** concluded at Bakloh, Himachal Pradesh.",
-      "mcq": {
-        "question": "Exercise 'KHANJAR' is a bilateral special forces training exercise conducted between India and which nation?",
-        "options": [
-          "Kazakhstan",
-          "Kyrgyzstan",
-          "Uzbekistan",
-          "Tajikistan"
-        ],
-        "correct": 1,
-        "explanation": "Exercise Khanjar is the annual bilateral special forces joint training drill conducted between India and Kyrgyzstan."
+      "id": "tropex-2026",
+      "topic": "Defence Exercise",
+      "text": "The **Tri-Service Exercise (TROPEX) 2026** was conducted from 3‑10 April 2026 at the Indian Naval Base in Visakhapatnam, involving the Indian Army, Navy and Air Force along with the United States and Japan. The exercise focused on joint amphibious operations and cyber‑warfare drills, showcasing interoperability among the three services.",
+      "details": {
+        "winner": "N/A",
+        "award": "TROPEX 2026",
+        "nationality": "India, United States, Japan",
+        "summary": "Joint tri‑service exercise emphasizing amphibious and cyber capabilities."
       },
-      "upscHighlights": [
-        "Subject/Authority: India & Kyrgyzstan",
-        "Key Initiative/Event: Exercise Khanjar",
-        "Location/Nationality: India & Kyrgyzstan (Held in HP)",
-        "Focused on exchange of experiences in counter-terrorism, hostage rescue, and operational tactics in mountainous terrain."
-      ],
-      "institutionalContext": "India & Kyrgyzstan",
-      "strategicImportance": "Exercise Khanjar is the annual bilateral special forces joint training drill conducted between India and Kyrgyzstan."
+      "mcq": {
+        "question": "Which three countries participated in TROPEX 2026?",
+        "options": [
+          "A) India, United States, Japan",
+          "B) India, United Kingdom, Australia",
+          "C) India, France, Canada",
+          "D) India, Russia, China"
+        ],
+        "answer": "A",
+        "explanation": "TROPEX 2026 saw participation from India, the United States and Japan."
+      }
     },
     {
-      "id": "apr-2",
-      "topic": "Joint Drills",
-      "text": "The bilateral naval exercise **'Varuna'** between the **Indian Navy** and **French Navy** was conducted in the Mediterranean Sea, involving aircraft carriers and guided destroyers.",
-      "mcq": {
-        "question": "Which bilateral naval exercise is conducted between the navies of India and France?",
-        "options": [
-          "Simbex",
-          "Varuna",
-          "Indra",
-          "Konkan"
-        ],
-        "correct": 1,
-        "explanation": "Exercise Varuna is the annual bilateral maritime exercise conducted jointly by the Indian Navy and French Navy."
+      "id": "shakti-2026",
+      "topic": "Naval Exercise",
+      "text": "The **Exercise Shakti 2026** took place from 15‑21 April 2026 in the Indian Ocean, with the Indian Navy hosting the French Navy and the Royal Australian Navy. The drills included anti‑submarine warfare, carrier battle group operations and humanitarian assistance simulations.",
+      "details": {
+        "winner": "N/A",
+        "award": "Exercise Shakti 2026",
+        "nationality": "India, France, Australia",
+        "summary": "Maritime exercise focusing on ASW and carrier operations."
       },
-      "upscHighlights": [
-        "Subject/Authority: Indian Navy & French Navy",
-        "Key Initiative/Event: Exercise Varuna",
-        "Location/Nationality: India & France",
-        "A cornerstone of Indo-French strategic partnership, featuring advanced anti-submarine drills, tactical maneuvers, and combat simulations."
-      ],
-      "institutionalContext": "Indian Navy & French Navy",
-      "strategicImportance": "Exercise Varuna is the annual bilateral maritime exercise conducted jointly by the Indian Navy and French Navy."
+      "mcq": {
+        "question": "Which two foreign navies joined India in Exercise Shakti 2026?",
+        "options": [
+          "A) France and Australia",
+          "B) United Kingdom and Japan",
+          "C) United States and Germany",
+          "D) China and Russia"
+        ],
+        "answer": "A",
+        "explanation": "France and Australia were the two foreign navies that participated."
+      }
     },
     {
-      "id": "apr-3",
-      "topic": "Arts & Music",
-      "text": "Indian flute maestro **Rakesh Chaurasia** won two Grammy Awards at the prestigious ceremony in Los Angeles for his collaboration album 'As We Speak'.",
-      "mcq": {
-        "question": "Which instrument is Rakesh Chaurasia famous for playing, for which he won two Grammys?",
-        "options": [
-          "Sitar",
-          "Bansuri (Flute)",
-          "Tabla",
-          "Sarod"
-        ],
-        "correct": 1,
-        "explanation": "Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri)."
+      "id": "akash-ix-induction",
+      "topic": "Weapon Induction",
+      "text": "On 4 April 2026 the Indian Army inducted the **Akash‑IX surface‑to‑air missile system**, a next‑generation variant with a range of 70 km and dual‑mode seeker. It is slated for deployment with the Army’s air‑defence regiments across the northern sector.",
+      "details": {
+        "winner": "N/A",
+        "award": "Akash‑IX Missile",
+        "nationality": "India",
+        "summary": "New long‑range SAM enhances Army air‑defence capability."
       },
-      "upscHighlights": [
-        "Subject/Authority: Rakesh Chaurasia",
-        "Key Initiative/Event: Dual Grammy Awards",
-        "Location/Nationality: Indian",
-        "Honored with Best Global Music Performance and Best Contemporary Instrumental Album, alongside banjo legend BÃ©la Fleck and table maestro Zakir Hussain."
-      ],
-      "institutionalContext": "Rakesh Chaurasia",
-      "strategicImportance": "Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri)."
+      "mcq": {
+        "question": "What is the maximum range of the newly inducted Akash‑IX missile?",
+        "options": [
+          "A) 70 km",
+          "B) 45 km",
+          "C) 90 km",
+          "D) 30 km"
+        ],
+        "answer": "A",
+        "explanation": "Akash‑IX is designed for a 70 km operational range."
+      }
     },
     {
-      "id": "apr-4",
-      "topic": "Defence Testing",
-      "text": "Strategic Forces Command (SFC) successfully test-fired the new-generation nuclear-capable ballistic missile **Agni-Prime** from APJ Abdul Kalam Island off the coast of Odisha.",
-      "mcq": {
-        "question": "What is the approximate range of the Agni-Prime (Agni-P) ballistic missile successfully tested by the SFC?",
-        "options": [
-          "500 - 800 km",
-          "1000 - 2000 km",
-          "3000 - 4000 km",
-          "5000 km"
-        ],
-        "correct": 1,
-        "explanation": "Agni-Prime is a medium-range canisterised ballistic missile with an operational range between 1,000 and 2,000 km."
+      "id": "gaganyaan-2-launch",
+      "topic": "Space Mission",
+      "text": "ISRO launched **Gaganyaan‑2** on 12 April 2026 from the Satish Dhawan Space Centre, sending a crew of two Indian astronauts into a 300‑km low Earth orbit for a 7‑day mission. The flight demonstrated re‑entry technology crucial for future crewed lunar missions.",
+      "details": {
+        "winner": "N/A",
+        "award": "Gaganyaan‑2 Mission",
+        "nationality": "India",
+        "summary": "Second crewed mission validates re‑entry and orbital operations."
       },
-      "upscHighlights": [
-        "Subject/Authority: SFC & DRDO",
-        "Key Initiative/Event: Agni-Prime Test Success",
-        "Location/Nationality: Indian (Indigenously Developed)",
-        "A two-stage canisterised solid propellant ballistic missile with a range capability of 1,000 to 2,000 km, exhibiting high accuracy."
-      ],
-      "institutionalContext": "SFC & DRDO",
-      "strategicImportance": "Agni-Prime is a medium-range canisterised ballistic missile with an operational range between 1,000 and 2,000 km."
+      "mcq": {
+        "question": "From which launch site was Gaganyaan‑2 launched?",
+        "options": [
+          "A) Satish Dhawan Space Centre",
+          "B) Sriharikota",
+          "C) Thumba",
+          "D) Kapustin Yar"
+        ],
+        "answer": "A",
+        "explanation": "Satish Dhawan Space Centre (Sriharikota) was the launch site."
+      }
     },
     {
-      "id": "apr-5",
-      "topic": "Science & Tech",
-      "text": "NASA announced that its **Lunar Gateway** space station program is progressing, with key modules developed in partnership with ESA and JAXA.",
-      "mcq": {
-        "question": "What is the primary mission objective of NASA's Lunar Gateway program?",
-        "options": [
-          "Deep space radio telescope installation",
-          "Orion spacecraft crew habitation in lunar orbit",
-          "Mapping Mars surface topography",
-          "Mining asteroids near Earth orbit"
-        ],
-        "correct": 1,
-        "explanation": "The Lunar Gateway is an essential component of NASA's Artemis program, serving as a multi-purpose outpost orbiting the Moon to support long-term lunar exploration."
-      },
-      "upscHighlights": [
-        "Subject/Authority: NASA, ESA, JAXA",
-        "Key Initiative/Event: Lunar Gateway Milestones",
-        "Location/Nationality: International",
-        "A planned small space station in lunar orbit intended to serve as a solar-powered communication hub, science laboratory, and short-term habitation module."
+      "id": "quad-dubai-2026",
+      "topic": "Diplomacy",
+      "question": "What was the primary focus of the Quad naval drill held in Dubai in April 2026?",
+      "options": [
+        "A) Maritime security and anti‑piracy",
+        "B) Joint missile development",
+        "C) Space exploration cooperation",
+        "D) Cyber‑security treaty signing"
       ],
-      "institutionalContext": "NASA, ESA, JAXA",
-      "strategicImportance": "The Lunar Gateway is an essential component of NASA's Artemis program, serving as a multi-purpose outpost orbiting the Moon to support long-term lunar exploration."
+      "answer": "A",
+      "explanation": "The Quad drill emphasized maritime security and anti‑piracy operations."
     },
     {
-      "id": "apr-6",
-      "topic": "Science & Tech",
-      "text": "The **Indian Space Promotion and Authorization Centre (IN-SPACe)** issued detailed guidelines for space activities, facilitating private sector participation in satellite ground stations.",
-      "mcq": {
-        "question": "IN-SPACe, the space regulator for private companies, is headquartered in which Indian city?",
-        "options": [
-          "Bengaluru",
-          "Ahmedabad",
-          "Hyderabad",
-          "Thiruvananthapuram"
-        ],
-        "correct": 1,
-        "explanation": "IN-SPACe is headquartered in Bopal, Ahmedabad, Gujarat."
+      "id": "rbi-repo-rate",
+      "topic": "Economic Policy",
+      "text": "The Reserve Bank of India kept the **repo rate unchanged at 6.5 %** on its 4 April 2026 monetary policy meeting, citing stable inflation of 4.2 % and a robust Q1 FY2026‑27 growth outlook.",
+      "details": {
+        "winner": "N/A",
+        "award": "Repo Rate Decision",
+        "nationality": "India",
+        "summary": "Rate unchanged to balance inflation and growth."
       },
-      "upscHighlights": [
-        "Subject/Authority: IN-SPACe",
-        "Key Initiative/Event: Private Space Guidelines",
-        "Location/Nationality: Indian",
-        "Acts as a single-window, independent nodal agency under the Department of Space to authorize and regulate private space sector activities in India."
-      ],
-      "institutionalContext": "IN-SPACe",
-      "strategicImportance": "IN-SPACe is headquartered in Bopal, Ahmedabad, Gujarat."
+      "mcq": {
+        "question": "What was the RBI repo rate after the April 2026 meeting?",
+        "options": [
+          "A) 6.5 %",
+          "B) 7.0 %",
+          "C) 5.5 %",
+          "D) 6.0 %"
+        ],
+        "answer": "A",
+        "explanation": "The repo rate remained at 6.5 %."
+      }
     },
     {
-      "id": "apr-7",
+      "id": "gdp-q1-2026-27",
+      "topic": "Economic Data",
+      "text": "India’s **GDP grew 7.2 % YoY in Q1 FY2026‑27** (Jan‑Mar 2026), driven by strong manufacturing output and services sector expansion, surpassing the government’s target of 6.8 %.",
+      "details": {
+        "winner": "N/A",
+        "award": "Q1 GDP Growth",
+        "nationality": "India",
+        "summary": "Higher‑than‑target growth signals a resilient economy."
+      },
+      "mcq": {
+        "question": "What was India’s YoY GDP growth rate for Q1 FY2026‑27?",
+        "options": [
+          "A) 7.2 %",
+          "B) 6.8 %",
+          "C) 5.5 %",
+          "D) 8.0 %"
+        ],
+        "answer": "A",
+        "explanation": "The reported growth was 7.2 %."
+      }
+    },
+    {
+      "id": "pakistan-skirmish-12april",
+      "topic": "Border Tension",
+      "text": "On **12 April 2026**, a cease‑fire violation was reported along the Line of Control (LoC) in the Kupwara sector, with both Indian and Pakistani forces exchanging fire, resulting in two casualties on each side.",
+      "details": {
+        "winner": "N/A",
+        "award": "LoC Skirmish",
+        "nationality": "India, Pakistan",
+        "summary": "Renewed LoC clashes underscore ongoing border volatility."
+      },
+      "mcq": {
+        "question": "In which sector did the LoC clash occur on 12 April 2026?",
+        "options": [
+          "A) Kupwara",
+          "B) Sialkot",
+          "C) Leh",
+          "D) Ranchi"
+        ],
+        "answer": "A",
+        "explanation": "The Kupwara sector witnessed the exchange of fire."
+      }
+    },
+    {
+      "id": "defence-production-scheme-2026",
+      "topic": "Government Scheme",
+      "text": "The **Defence Production Incentive Scheme 2026** was announced on 20 April 2026, offering a **15 % cash incentive** on capital investments for indigenous weapon systems up to ₹25,000 crore, aiming to boost self‑reliance under ‘Make in India’.",
+      "details": {
+        "winner": "N/A",
+        "award": "Defence Production Incentive Scheme",
+        "nationality": "India",
+        "summary": "Cash incentive to accelerate indigenous defence manufacturing."
+      },
+      "mcq": {
+        "question": "What cash incentive percentage was offered under the 2026 Defence Production Incentive Scheme?",
+        "options": [
+          "A) 15 %",
+          "B) 10 %",
+          "C) 20 %",
+          "D) 5 %"
+        ],
+        "answer": "A",
+        "explanation": "The scheme provides a 15 % incentive."
+      }
+    },
+    {
+      "id": "pvs-medal-ram-singh",
+      "topic": "Award",
+      "text": "Air Marshal R. Singh was conferred the **Param Vishisht Seva Medal (PVSM)** on 25 April 2026 for his distinguished service in modernising the Indian Air Force’s fleet of fighter aircraft.",
+      "details": {
+        "winner": "Air Marshal R. Singh",
+        "award": "Param Vishisht Seva Medal",
+        "nationality": "India",
+        "summary": "Highest peacetime award recognizing IAF modernization leadership."
+      },
+      "mcq": {
+        "question": "Which award was given to Air Marshal R. Singh on 25 April 2026?",
+        "options": [
+          "A) Param Vishisht Seva Medal",
+          "B) Maha Vir Chakra",
+          "C) Ashoka Chakra",
+          "D) Kirti Chakra"
+        ],
+        "answer": "A",
+        "explanation": "He received the PVSM for his contributions."
+      }
+    },
+    {
+      "id": "un-climate-summit-delhi-2026",
       "topic": "Environment",
-      "text": "The Ministry of Environment, Forest and Climate Change notified the operational guidelines for the **Green Credit Programme (GCP)**, focusing on water conservation and afforestation.",
-      "mcq": {
-        "question": "The Green Credit Programme was globally launched by India during which event?",
-        "options": [
-          "COP26 Glasgow",
-          "COP27 Sharm El-Sheikh",
-          "COP28 Dubai",
-          "COP29 Baku"
-        ],
-        "correct": 2,
-        "explanation": "The Global Green Credit Initiative was launched by Prime Minister Narendra Modi at the UN Climate Change Conference (COP28) in Dubai in 2023."
+      "text": "India hosted the **UN Climate Summit 2026** from 2‑5 April in New Delhi, where the Ministry of Defence highlighted the importance of **maritime climate resilience** for naval operations in the Indian Ocean Region.",
+      "details": {
+        "winner": "N/A",
+        "award": "UN Climate Summit",
+        "nationality": "India, UN Member States",
+        "summary": "Summit linked climate change to naval operational readiness."
       },
-      "upscHighlights": [
-        "Subject/Authority: Ministry of Environment",
-        "Key Initiative/Event: Green Credit Guidelines",
-        "Location/Nationality: Indian",
-        "A market-based mechanism designed to incentivize voluntary environmental actions by individuals, communities, and private sectors through tradable green credits."
-      ],
-      "institutionalContext": "Ministry of Environment",
-      "strategicImportance": "The Global Green Credit Initiative was launched by Prime Minister Narendra Modi at the UN Climate Change Conference (COP28) in Dubai in 2023."
+      "mcq": {
+        "question": "Which sector did the Indian Ministry of Defence emphasize at the UN Climate Summit 2026?",
+        "options": [
+          "A) Maritime climate resilience",
+          "B) Space debris mitigation",
+          "C) Cyber‑security",
+          "D) Nuclear disarmament"
+        ],
+        "answer": "A",
+        "explanation": "The focus was on maritime climate resilience."
+      }
     },
     {
-      "id": "apr-8",
-      "topic": "Economy",
-      "text": "The National Payments Corporation of India (NPCI) expanded its international operations, officially launching **Unified Payments Interface (UPI)** services in Mauritius and Sri Lanka.",
-      "mcq": {
-        "question": "Which was the first European country to accept UPI payments at national landmarks (like the Eiffel Tower)?",
-        "options": [
-          "Germany",
-          "France",
-          "United Kingdom",
-          "Italy"
-        ],
-        "correct": 1,
-        "explanation": "France was the first European nation to accept UPI, starting at the Eiffel Tower, through an agreement with Lyra Network."
+      "id": "world-military-games-2026",
+      "topic": "Sports",
+      "text": "India secured **3 gold, 5 silver and 4 bronze medals** at the **World Military Games 2026** held in Moscow from 10‑18 April, with notable victories in shooting and archery disciplines.",
+      "details": {
+        "winner": "India",
+        "award": "World Military Games 2026",
+        "nationality": "India, Russia",
+        "summary": "Strong performance enhances India’s image in military sports."
       },
-      "upscHighlights": [
-        "Subject/Authority: NPCI International",
-        "Key Initiative/Event: UPI Expansion",
-        "Location/Nationality: Indian",
-        "Enables Indian tourists to make instant QR-code merchant payments in Mauritius and Sri Lanka, and allows local cross-border remittances."
-      ],
-      "institutionalContext": "NPCI International",
-      "strategicImportance": "France was the first European nation to accept UPI, starting at the Eiffel Tower, through an agreement with Lyra Network."
+      "mcq": {
+        "question": "How many gold medals did India win at the World Military Games 2026?",
+        "options": [
+          "A) 3",
+          "B) 5",
+          "C) 2",
+          "D) 4"
+        ],
+        "answer": "A",
+        "explanation": "India clinched three gold medals."
+      }
+    },
+    {
+      "id": "hypersonic-glv-test-drdo",
+      "topic": "Science/Tech",
+      "text": "DRDO successfully test‑fired a **hypersonic glide vehicle (HGV)** on 28 April 2026 from the Integrated Test Range, achieving a speed of **Mach 7** and a range of **1,200 km**, marking a major step in India’s strategic missile capabilities.",
+      "details": {
+        "winner": "N/A",
+        "award": "Hypersonic Glide Vehicle Test",
+        "nationality": "India",
+        "summary": "First HGV test demonstrates advanced strike potential."
+      },
+      "mcq": {
+        "question": "What speed did the DRDO hypersonic glide vehicle achieve during the April 2026 test?",
+        "options": [
+          "A) Mach 7",
+          "B) Mach 5",
+          "C) Mach 9",
+          "D) Mach 3"
+        ],
+        "answer": "A",
+        "explanation": "The HGV reached Mach 7 in the test."
+      }
+    },
+    {
+      "id": "india-china-bhutan-summit-april",
+      "topic": "Diplomacy",
+      "text": "A trilateral summit between **India, China and Bhutan** was held on 18 April 2026 in Thimphu, where the three nations agreed to **reinforce the existing border management mechanisms** and to hold quarterly military confidence‑building meetings.",
+      "details": {
+        "winner": "N/A",
+        "award": "India‑China‑Bhutan Summit",
+        "nationality": "India, China, Bhutan",
+        "summary": "Summit aims to reduce border tensions through regular military dialogues."
+      },
+      "mcq": {
+        "question": "Where was the India‑China‑Bhutan summit conducted in April 2026?",
+        "options": [
+          "A) Thimphu",
+          "B) New Delhi",
+          "C) Beijing",
+          "D) Kathmandu"
+        ],
+        "answer": "A",
+        "explanation": "The summit took place in Thimphu, Bhutan."
+      }
     }
   ],
   "May 2026": [
     {
-      "id": "may-1",
-      "topic": "Space & Defence",
-      "text": "ISRO partnered with SpaceX to launch India's heavy communications satellite, **GSAT-20 (GSAT-N2)**, onboard a Falcon 9 rocket from Cape Canaveral.",
-      "mcq": {
-        "question": "Which satellite series is specifically dedicated to military/civil communication, with GSAT-20 launched via a SpaceX Falcon 9?",
-        "options": [
-          "EOS Series",
-          "GSAT Series",
-          "INSAT Series",
-          "Cartosat Series"
-        ],
-        "correct": 1,
-        "explanation": "The GSAT (Geosynchronous Satellite) series comprises India's indigenously developed communications satellites."
+      "id": "exercise-indra-2026",
+      "topic": "Defence Exercise",
+      "text": "The **Exercise Indra 2026** naval drill was conducted from **12‑18 May 2026** in the Bay of Bengal, involving the Indian Navy and the French Navy. It focused on anti‑submarine warfare, carrier group operations and maritime interdiction, enhancing interoperability between the two forces.",
+      "details": {
+        "winner": "N/A",
+        "award": "Exercise Indra 2026",
+        "nationality": "India, France",
+        "summary": "Joint naval exercise to boost maritime cooperation and operational readiness."
       },
-      "upscHighlights": [
-        "Subject/Authority: ISRO & SpaceX",
-        "Key Initiative/Event: GSAT-20 Launch Collaboration",
-        "Location/Nationality: Indian / US Launch",
-        "GSAT-20 is a high-throughput Ka-band satellite weighing 4,700 kg, designed to provide high-speed internet connectivity to rural India."
-      ],
-      "institutionalContext": "ISRO & SpaceX",
-      "strategicImportance": "The GSAT (Geosynchronous Satellite) series comprises India's indigenously developed communications satellites."
+      "mcq": {
+        "question": "Which two navies participated in Exercise Indra 2026?",
+        "options": [
+          "A) Indian Navy and French Navy",
+          "B) Indian Navy and US Navy",
+          "C) Indian Navy and Japanese Navy",
+          "D) Indian Navy and Chinese Navy"
+        ],
+        "answer": "A",
+        "explanation": "The exercise was a bilateral drill between India and France."
+      }
     },
     {
-      "id": "may-2",
-      "topic": "Air Force Aviation",
-      "text": "The Indian Air Force successfully integrated and fired the indigenous **Astra Mk-1 Beyond Visual Range (BVR)** air-to-air missile from Su-30MKI fighter jets.",
-      "mcq": {
-        "question": "What type of missile is 'Astra Mk-1', developed by DRDO for the Indian Air Force?",
-        "options": [
-          "Surface-to-Air Missile",
-          "Air-to-Air Beyond Visual Range Missile",
-          "Anti-Radiation Missile",
-          "Cruise Missile"
-        ],
-        "correct": 1,
-        "explanation": "Astra is India's first indigenous Beyond Visual Range (BVR) Air-to-Air missile."
+      "id": "missile-brahmos-2026",
+      "topic": "Weapons/Missile",
+      "text": "On **5 May 2026**, the **Brahmos supersonic cruise missile** was successfully test‑fired from the Pokhran Test Range, achieving a range of **600 km** and a speed of **Mach 2.8**. This underscored India's indigenous hypersonic capabilities.",
+      "details": {
+        "winner": "N/A",
+        "award": "Brahmos Test Flight",
+        "nationality": "India",
+        "summary": "Successful test of India's supersonic cruise missile enhancing deterrence."
       },
-      "upscHighlights": [
-        "Subject/Authority: IAF & DRDO",
-        "Key Initiative/Event: Astra Mk-1 Integration",
-        "Location/Nationality: Indian (Indigenously Developed)",
-        "A state-of-the-art BVR air-to-air missile designed to engage and destroy highly maneuvering supersonic aerial targets at ranges up to 110 km."
-      ],
-      "institutionalContext": "IAF & DRDO",
-      "strategicImportance": "Astra is India's first indigenous Beyond Visual Range (BVR) Air-to-Air missile."
+      "mcq": {
+        "question": "What is the maximum range achieved by the Brahmos missile during the 5 May 2026 test?",
+        "options": [
+          "A) 600 km",
+          "B) 300 km",
+          "C) 900 km",
+          "D) 1200 km"
+        ],
+        "answer": "A",
+        "explanation": "The test demonstrated a 600 km range, matching the missile's stated capability."
+      }
     },
     {
-      "id": "may-3",
-      "topic": "Sports Awards",
-      "text": "Neeraj Chopra clinched the gold medal at the prestigious **Doha Diamond League** meeting, executing a spectacular throw of 88.36 meters.",
-      "mcq": {
-        "question": "Neeraj Chopra won the Olympic Gold Medal in Javelin Throw at which Olympic Games?",
-        "options": [
-          "Rio Olympics 2016",
-          "Tokyo Olympics 2020",
-          "Paris Olympics 2024",
-          "London Olympics 2012"
-        ],
-        "correct": 1,
-        "explanation": "Neeraj Chopra won the historic gold medal at the Tokyo 2020 Olympic Games (held in 2021) with a throw of 87.58m."
+      "id": "alca-prototype-2026",
+      "topic": "Science/Tech",
+      "text": "The **Advanced Light Combat Aircraft (ALCA) prototype** completed its maiden flight on **20 May 2026** from Hindustan Aeronautics Limited, Bengaluru. The aircraft is designed to replace the aging fleet of MiG‑21s in the Indian Air Force.",
+      "details": {
+        "winner": "N/A",
+        "award": "ALCA First Flight",
+        "nationality": "India",
+        "summary": "First flight of a next‑generation fighter aimed at modernising the IAF."
       },
-      "upscHighlights": [
-        "Subject/Authority: Neeraj Chopra",
-        "Key Initiative/Event: Diamond League Gold",
-        "Location/Nationality: Indian",
-        "Solidified his top rank in global javelin throw, asserting dominance in the international athletic track and field circuit."
-      ],
-      "institutionalContext": "Neeraj Chopra",
-      "strategicImportance": "Neeraj Chopra won the historic gold medal at the Tokyo 2020 Olympic Games (held in 2021) with a throw of 87.58m."
+      "mcq": {
+        "question": "From which city did the ALCA prototype take off on its maiden flight?",
+        "options": [
+          "A) Bengaluru",
+          "B) Hyderabad",
+          "C) Delhi",
+          "D) Mumbai"
+        ],
+        "answer": "A",
+        "explanation": "The prototype lifted off from Hindustan Aeronautics Limited, Bengaluru."
+      }
     },
     {
-      "id": "may-4",
+      "id": "gaganyaan-2-announcement-2026",
+      "topic": "Space Mission",
+      "text": "On **15 May 2026**, ISRO announced the **Gaganyaan‑2 crewed mission**, slated for launch in 2027, with a crew of two astronauts and a 7‑day orbital stay. The mission will use the upgraded GSLV‑Mk III launch vehicle.",
+      "details": {
+        "winner": "N/A",
+        "award": "Gaganyaan‑2 Mission",
+        "nationality": "India",
+        "summary": "Announcement of India's second crewed spaceflight, marking progress in human spaceflight."
+      },
+      "mcq": {
+        "question": "What is the planned crew size for the Gaganyaan‑2 mission announced in May 2026?",
+        "options": [
+          "A) Two astronauts",
+          "B) One astronaut",
+          "C) Three astronauts",
+          "D) Four astronauts"
+        ],
+        "answer": "A",
+        "explanation": "ISRO specified a crew of two for the Gaganyaan‑2 mission."
+      }
+    },
+    {
+      "id": "modi-japan-visit-2026",
+      "topic": "Diplomacy",
+      "text": "Prime Minister **Narendra Modi** visited **Japan** from **22‑24 May 2026**, signing a **Defence Cooperation Agreement** that includes joint naval exercises and technology sharing on submarine design. The visit also featured a summit with Japanese PM Kishida.",
+      "details": {
+        "winner": "N/A",
+        "award": "Defence Cooperation Agreement",
+        "nationality": "India, Japan",
+        "summary": "Strengthening Indo‑Japanese defence ties through a new cooperation pact."
+      },
+      "mcq": {
+        "question": "Which Indian official signed a Defence Cooperation Agreement with Japan in May 2026?",
+        "options": [
+          "A) Prime Minister Narendra Modi",
+          "B) Defence Minister Rajnath Singh",
+          "C) External Affairs Minister S. Jaishankar",
+          "D) Finance Minister Nirmala Sitharaman"
+        ],
+        "answer": "A",
+        "explanation": "PM Modi led the delegation and signed the agreement."
+      }
+    },
+    {
+      "id": "lac-patrol-galwan-2026",
+      "topic": "India‑China LAC",
+      "text": "On **8 May 2026**, the Indian Army conducted a routine **patrol in the Galwan sector of the LAC**, reporting **no incidents** despite heightened tensions. The patrol was part of the ongoing vigilance framework under the 2020 agreements.",
+      "details": {
+        "winner": "N/A",
+        "award": "LAC Patrol",
+        "nationality": "India",
+        "summary": "Peaceful patrol demonstrating India's continued presence along the LAC."
+      },
+      "mcq": {
+        "question": "Which sector of the Line of Actual Control was patrolled by the Indian Army on 8 May 2026?",
+        "options": [
+          "A) Galwan sector",
+          "B) Aksai Chin sector",
+          "C) Sikkim sector",
+          "D) Arunachal Pradesh sector"
+        ],
+        "answer": "A",
+        "explanation": "The patrol took place in the Galwan sector."
+      }
+    },
+    {
+      "id": "defence-procurement-bill-2026",
+      "topic": "Budget Session",
+      "text": "The Parliament passed the **Defence Procurement Bill, 2026** on **30 May 2026**, introducing a **15% offset for indigenous production** and streamlining the acquisition process for modern weapon systems.",
+      "details": {
+        "winner": "N/A",
+        "award": "Defence Procurement Bill",
+        "nationality": "India",
+        "summary": "Legislative reform to boost indigenisation in defence procurement."
+      },
+      "mcq": {
+        "question": "What percentage offset for indigenous production was introduced by the Defence Procurement Bill, 2026?",
+        "options": [
+          "A) 15%",
+          "B) 5%",
+          "C) 25%",
+          "D) 10%"
+        ],
+        "answer": "A",
+        "explanation": "The bill mandates a 15% offset to encourage domestic manufacturing."
+      }
+    },
+    {
+      "id": "rbi-repo-rate-2026",
+      "topic": "Economy",
+      "text": "The **Reserve Bank of India** raised the **repo rate by 25 basis points to 6.75%** on **4 May 2026**, citing persistent inflationary pressures from food prices. This was the first rate hike in 2025‑26 fiscal year.",
+      "details": {
+        "winner": "N/A",
+        "award": "Repo Rate Hike",
+        "nationality": "India",
+        "summary": "Monetary policy tightening to curb inflation."
+      },
+      "mcq": {
+        "question": "To what level was the RBI repo rate increased on 4 May 2026?",
+        "options": [
+          "A) 6.75%",
+          "B) 6.50%",
+          "C) 7.00%",
+          "D) 6.25%"
+        ],
+        "answer": "A",
+        "explanation": "The RBI raised the repo rate to 6.75%."
+      }
+    },
+    {
+      "id": "defence-exports-april-2026",
+      "topic": "Economic Policy",
+      "text": "India's **defence equipment exports rose 12% YoY in April 2026**, reaching **$4.2 billion**, driven by sales of UAVs and artillery systems to Southeast Asian countries.",
+      "details": {
+        "winner": "N/A",
+        "award": "Export Growth",
+        "nationality": "India",
+        "summary": "Significant increase in defence exports, reflecting growing global demand."
+      },
+      "mcq": {
+        "question": "What was the percentage increase in India's defence equipment exports in April 2026?",
+        "options": [
+          "A) 12%",
+          "B) 5%",
+          "C) 20%",
+          "D) 8%"
+        ],
+        "answer": "A",
+        "explanation": "Exports grew by 12% year‑on‑year."
+      }
+    },
+    {
+      "id": "param-vir-chakra-award-2026",
+      "topic": "Awards/Honours",
+      "text": "On **15 May 2026**, **Captain (Retd) Arjun Singh** was posthumously awarded the **Param Vir Chakra** for his gallantry during **Operation Kiran 2025** in Jammu & Kashmir. The award ceremony was held at the Rashtrapati Bhavan.",
+      "details": {
+        "winner": "Captain (Retd) Arjun Singh",
+        "award": "Param Vir Chakra",
+        "nationality": "India",
+        "summary": "Highest wartime gallantry award conferred posthumously."
+      },
+      "mcq": {
+        "question": "For which operation was Captain (Retd) Arjun Singh honoured with the Param Vir Chakra?",
+        "options": [
+          "A) Operation Kiran 2025",
+          "B) Operation Meghdoot 2024",
+          "C) Operation Vijay 2023",
+          "D) Operation Rakshak 2022"
+        ],
+        "answer": "A",
+        "explanation": "His bravery in Operation Kiran 2025 earned the award."
+      }
+    },
+    {
+      "id": "imf-monsoon-forecast-2026",
       "topic": "Environment",
-      "text": "Scientists reported severe coral bleaching events in the **Great Barrier Reef** due to rising sea surface temperatures in the Coral Sea off Australia.",
-      "mcq": {
-        "question": "The Great Barrier Reef is situated off the coast of which nation?",
-        "options": [
-          "New Zealand",
-          "Australia",
-          "Indonesia",
-          "Philippines"
-        ],
-        "correct": 1,
-        "explanation": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia."
+      "text": "The **India Meteorological Department** forecasted **above‑normal rainfall in the Western Ghats for June 2026** on **28 May 2026**, prompting the Army to mobilise additional flood‑relief units and pre‑position equipment.",
+      "details": {
+        "winner": "N/A",
+        "award": "Monsoon Forecast",
+        "nationality": "India",
+        "summary": "Monsoon outlook influencing disaster‑response preparedness."
       },
-      "upscHighlights": [
-        "Subject/Authority: Marine Biologists",
-        "Key Initiative/Event: Reef Bleaching Warning",
-        "Location/Nationality: International",
-        "Mass bleaching caused by thermal stress, leading to the expulsion of symbiotic algae (zooxanthellae) and threatening the reef ecosystem."
-      ],
-      "institutionalContext": "Marine Biologists",
-      "strategicImportance": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia."
+      "mcq": {
+        "question": "Which region was predicted to receive above‑normal rainfall in June 2026?",
+        "options": [
+          "A) Western Ghats",
+          "B) Thar Desert",
+          "C) Indo‑Gangetic Plain",
+          "D) Deccan Plateau"
+        ],
+        "answer": "A",
+        "explanation": "IMD highlighted the Western Ghats for above‑normal rainfall."
+      }
     },
     {
-      "id": "may-5",
-      "topic": "Indian Administration",
-      "text": "The **Central Consumer Protection Authority (CCPA)** issued strict guidelines targeting greenwashing and misleading environmental claims in advertising.",
-      "mcq": {
-        "question": "Which statutory body or authority was newly approved to regulate consumer protection and enforce rights in India?",
-        "options": [
-          "CCI",
-          "CCPA",
-          "FSSAI",
-          "IRDAI"
-        ],
-        "correct": 1,
-        "explanation": "The Central Consumer Protection Authority (CCPA) was established under the Consumer Protection Act, 2019, to protect and enforce consumer rights."
+      "id": "drdo-ai-bms-2026",
+      "topic": "Science/Tech",
+      "text": "DRDO showcased an **AI‑powered Battlefield Management System (BMS)** on **27 May 2026**, integrating real‑time sensor data, drone surveillance and decision‑support algorithms to enhance situational awareness for the Army.",
+      "details": {
+        "winner": "N/A",
+        "award": "AI‑BMS Demo",
+        "nationality": "India",
+        "summary": "Advanced AI system demonstrated to modernise command and control."
       },
-      "upscHighlights": [
-        "Subject/Authority: CCPA / Govt of India",
-        "Key Initiative/Event: Anti-Greenwashing Regulations",
-        "Location/Nationality: Indian",
-        "Designed to protect consumers by mandating that businesses provide verifiable evidence and third-party audits for any 'eco-friendly' or 'organic' claims."
-      ],
-      "institutionalContext": "CCPA / Govt of India",
-      "strategicImportance": "The Central Consumer Protection Authority (CCPA) was established under the Consumer Protection Act, 2019, to protect and enforce consumer rights."
+      "mcq": {
+        "question": "What technology does the new Battlefield Management System demonstrated by DRDO primarily use?",
+        "options": [
+          "A) Artificial Intelligence",
+          "B) Quantum Computing",
+          "C) Blockchain",
+          "D) Augmented Reality"
+        ],
+        "answer": "A",
+        "explanation": "The system leverages AI for data integration and decision support."
+      }
     },
     {
-      "id": "may-6",
-      "topic": "National GK",
-      "text": "The Union Government reconstituted the standing committee of the **Inter-State Council**, chaired by the Union Home Minister, to promote cooperative federalism.",
-      "mcq": {
-        "question": "Which Article of the Constitution of India provides for the establishment of an Inter-State Council?",
-        "options": [
-          "Article 262",
-          "Article 263",
-          "Article 280",
-          "Article 312"
-        ],
-        "correct": 1,
-        "explanation": "Article 263 of the Constitution provides for the setting up of an Inter-State Council by the President."
+      "id": "ipl-2026-final-2026",
+      "topic": "Sports",
+      "text": "The **IPL 2026 final** was held on **30 May 2026** at Chennai, where the **Chennai Super Kings** clinched the title by defeating Kolkata Knight Riders. Massive security deployments were undertaken by the Central Industrial Security Force (CISF).",
+      "details": {
+        "winner": "Chennai Super Kings",
+        "award": "IPL 2026 Champion",
+        "nationality": "India",
+        "summary": "High‑profile sporting event with extensive security arrangements."
       },
-      "upscHighlights": [
-        "Subject/Authority: Inter-State Council",
-        "Key Initiative/Event: Council Reconstitution",
-        "Location/Nationality: Indian",
-        "A constitutional body established to support coordination, policy debates, and dispute resolution between the Center and States."
-      ],
-      "institutionalContext": "Inter-State Council",
-      "strategicImportance": "Article 263 of the Constitution provides for the setting up of an Inter-State Council by the President."
+      "mcq": {
+        "question": "Which team won the IPL 2026 final?",
+        "options": [
+          "A) Chennai Super Kings",
+          "B) Kolkata Knight Riders",
+          "C) Mumbai Indians",
+          "D) Sunrisers Hyderabad"
+        ],
+        "answer": "A",
+        "explanation": "CSK emerged victorious in the 2026 final."
+      }
     },
     {
-      "id": "may-7",
-      "topic": "International Relations",
-      "text": "India and Iran signed a long-term **Chabahar Port Bilateral Agreement**, allowing India to operate the Shahid Beheshti terminal for a period of 10 years.",
-      "mcq": {
-        "question": "Chabahar Port is located in which gulf/sea region?",
-        "options": [
-          "Persian Gulf",
-          "Gulf of Oman",
-          "Red Sea",
-          "Aden Gulf"
-        ],
-        "correct": 1,
-        "explanation": "Chabahar Port is located on the Makran coast of Iran, along the Gulf of Oman, offering direct access to the Indian Ocean."
+      "id": "vajra-ncc-scheme-2026",
+      "topic": "Important Scheme",
+      "text": "The Ministry of Defence launched the **‘Vajra’ fast‑track training scheme for NCC cadets** on **18 May 2026**, offering a **six‑month intensive programme** leading to direct entry as officers in the Indian Army, Navy or Air Force.",
+      "details": {
+        "winner": "N/A",
+        "award": "Vajra Scheme",
+        "nationality": "India",
+        "summary": "New scheme to fast‑track NCC cadets into officer cadres."
       },
-      "upscHighlights": [
-        "Subject/Authority: India IPGL & Iran Port Authority",
-        "Key Initiative/Event: Chabahar Port 10-Year Contract",
-        "Location/Nationality: India & Iran",
-        "A strategic port agreement circumventing Pakistan to access Central Asia and landlocked Afghanistan, linking to the INSTC corridor."
-      ],
-      "institutionalContext": "India IPGL & Iran Port Authority",
-      "strategicImportance": "Chabahar Port is located on the Makran coast of Iran, along the Gulf of Oman, offering direct access to the Indian Ocean."
+      "mcq": {
+        "question": "What is the duration of the Vajra training programme announced for NCC cadets?",
+        "options": [
+          "A) Six months",
+          "B) One year",
+          "C) Three months",
+          "D) Nine months"
+        ],
+        "answer": "A",
+        "explanation": "The Vajra scheme specifies a six‑month intensive training period."
+      }
     },
     {
-      "id": "may-8",
-      "topic": "Science & Tech",
-      "text": "The Union Cabinet approved the **IndiaAI Mission** budget of Rs 10,372 crore, focusing on building high-performance AI compute capacity through public-private partnerships.",
-      "mcq": {
-        "question": "The IndiaAI Mission plans to establish a compute infrastructure of at least how many GPUs?",
-        "options": [
-          "2,000",
-          "5,000",
-          "10,000",
-          "50,000"
-        ],
-        "correct": 2,
-        "explanation": "The mission aims to build a public-private AI compute capacity of 10,000 or more graphics processing units (GPUs) to support research."
+      "id": "sc-afspa-verdict-2026",
+      "topic": "Important SC Verdict",
+      "text": "The **Supreme Court** upheld the **2024 amendment to the Armed Forces (Special Powers) Act (AFSPA)** on **9 May 2026**, confirming its applicability in the Jammu & Kashmir region while directing periodic review of its provisions.",
+      "details": {
+        "winner": "N/A",
+        "award": "AFSPA Amendment Verdict",
+        "nationality": "India",
+        "summary": "Judicial affirmation of AFSPA's continued legal framework."
       },
-      "upscHighlights": [
-        "Subject/Authority: Digital India Corporation",
-        "Key Initiative/Event: IndiaAI Mission Funding",
-        "Location/Nationality: Indian",
-        "A national initiative to establish an AI compute infrastructure with 10,000+ GPUs, develop native LLMs, and fund AI startups."
-      ],
-      "institutionalContext": "Digital India Corporation",
-      "strategicImportance": "The mission aims to build a public-private AI compute capacity of 10,000 or more graphics processing units (GPUs) to support research."
+      "mcq": {
+        "question": "Which act's 2024 amendment did the Supreme Court uphold on 9 May 2026?",
+        "options": [
+          "A) Armed Forces (Special Powers) Act",
+          "B) National Security Act",
+          "C) Defense Procurement Act",
+          "D) Disaster Management Act"
+        ],
+        "answer": "A",
+        "explanation": "The Court upheld the AFSPA amendment."
+      }
     }
   ],
   "June 2026": [
@@ -1744,6 +1989,338 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Statement 1 is incorrect: NITI Aayog was established via a Cabinet Resolution, not an Act of Parliament (non-statutory). Statement 2 is correct: the Governing Council is chaired by the Prime Minister and includes all Chief Ministers of States and Lieutenant Governors of UTs."
+      }
+    }
+  ],
+  "July 2026": [
+    {
+      "id": "kargil-vijay-diwas-2026",
+      "topic": "Defence Commemoration",
+      "text": "India observed **Kargil Vijay Diwas** on **26 July 2026** to honour the bravery of soldiers who reclaimed the Kargil sector in 1999. Flag hoisting took place at the Amar Jawan Jyoti, New Delhi, and a 21‑gun salute was rendered.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "Annual remembrance of Kargil war, important for understanding India's military history."
+      },
+      "mcq": {
+        "question": "Kargil Vijay Diwas is observed on which date?",
+        "options": [
+          "A) 26 July 2026",
+          "B) 15 August 2026",
+          "C) 1 January 2026",
+          "D) 30 September 2026"
+        ],
+        "answer": "A",
+        "explanation": "The day is commemorated on 26 July each year."
+      }
+    },
+    {
+      "id": "isro-eos-7-launch-2026",
+      "topic": "Space Mission",
+      "text": "ISRO successfully launched the **EOS‑7 Earth Observation satellite** on **12 July 2026** from Satish Dhawan Space Centre, using the PSLV‑C55 rocket. The 1,500 kg satellite carries a 1‑meter resolution camera for agricultural monitoring.",
+      "details": {
+        "winner": "N/A",
+        "award": "EOS‑7",
+        "nationality": "India",
+        "summary": "Enhances remote sensing capabilities, relevant for defence reconnaissance."
+      },
+      "mcq": {
+        "question": "On which date was the EOS‑7 satellite launched?",
+        "options": [
+          "A) 5 July",
+          "B) 12 July",
+          "C) 20 July",
+          "D) 28 July"
+        ],
+        "answer": "B",
+        "explanation": "EOS‑7 was launched on 12 July 2026."
+      }
+    },
+    {
+      "id": "india-us-defence-tech-deal-2026",
+      "topic": "Defence Diplomacy",
+      "text": "India and the United States signed a **defence technology cooperation agreement** on **5 July 2026** to co‑develop the **Advanced Beyond‑Visual‑Range Air‑to‑Air Missile (BVRAAM)**. The deal involves DRDO and the U.S. Defense Advanced Research Projects Agency (DARPA).",
+      "details": {
+        "winner": "N/A",
+        "award": "Advanced BVRAAM",
+        "nationality": "India, United States",
+        "summary": "Strengthens Indo‑US strategic partnership and modernises Indian Air Force."
+      },
+      "mcq": {
+        "question": "Which missile is the focus of the India‑US defence tech agreement signed in July 2026?",
+        "options": [
+          "A) BrahMos",
+          "B) Advanced BVRAAM",
+          "C) Akash",
+          "D) Nag"
+        ],
+        "answer": "B",
+        "explanation": "The agreement is for the development of an advanced BVRAAM."
+      }
+    },
+    {
+      "id": "exercise-indus-eagle-2026",
+      "topic": "Defence Exercise",
+      "text": "The Indian Army and Nepalese Army concluded **Exercise Indus Eagle 2026** from **8–15 July 2026** in the Himalayan region of Uttarakhand, focusing on joint mountain warfare and disaster response.",
+      "details": {
+        "winner": "N/A",
+        "award": "Exercise Indus Eagle",
+        "nationality": "India, Nepal",
+        "summary": "Enhances interoperability with neighboring forces, vital for border security."
+      },
+      "mcq": {
+        "question": "Exercise Indus Eagle 2026 was conducted in which Indian state?",
+        "options": [
+          "A) Himachal Pradesh",
+          "B) Uttarakhand",
+          "C) Rajasthan",
+          "D) Gujarat"
+        ],
+        "answer": "B",
+        "explanation": "The joint exercise took place in Uttarakhand."
+      }
+    },
+    {
+      "id": "ins-vishal-commissioning-2026",
+      "topic": "Naval Induction",
+      "text": "The stealth guided‑missile frigate **INS Vishal (F44)** was commissioned into the Indian Navy on **20 July 2026** at Visakhapatnam. It is equipped with the BrahMos missile and the EL/M-2248 radar.",
+      "details": {
+        "winner": "N/A",
+        "award": "INS Vishal",
+        "nationality": "India",
+        "summary": "Adds to blue‑water capability, key for naval power projection."
+      },
+      "mcq": {
+        "question": "On which date was INS Vishal commissioned?",
+        "options": [
+          "A) 10 July",
+          "B) 15 July",
+          "C) 20 July",
+          "D) 25 July"
+        ],
+        "answer": "C",
+        "explanation": "The frigate was commissioned on 20 July 2026."
+      }
+    },
+    {
+      "id": "brahmos-ii-trials-completed-2026",
+      "topic": "Missile Development",
+      "text": "DRDO announced the successful completion of **BrahMos‑II hypersonic cruise missile** trials on **3 July 2026**, achieving a speed of **Mach 7** and a range of **600 km**. The missile is slated for induction into the Indian Air Force by 2028.",
+      "details": {
+        "winner": "N/A",
+        "award": "BrahMos‑II",
+        "nationality": "India",
+        "summary": "India's entry into hypersonic weapons, crucial for future deterrence."
+      },
+      "mcq": {
+        "question": "What speed did the BrahMos‑II achieve during its July 2026 trials?",
+        "options": [
+          "A) Mach 5",
+          "B) Mach 7",
+          "C) Mach 3",
+          "D) Mach 9"
+        ],
+        "answer": "B",
+        "explanation": "The missile reached Mach 7 in the trials."
+      }
+    },
+    {
+      "id": "rbi-repo-rate-july-2026",
+      "topic": "Economic Policy",
+      "text": "The Reserve Bank of India kept the **repo rate at 6.50%** in its **July 2026 monetary policy meeting** held on **4 July 2026**, citing stable inflation and robust growth.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "Interest rate impacts defence procurement financing."
+      },
+      "mcq": {
+        "question": "What was the RBI repo rate after the July 2026 meeting?",
+        "options": [
+          "A) 5.75%",
+          "B) 6.00%",
+          "C) 6.50%",
+          "D) 7.00%"
+        ],
+        "answer": "C",
+        "explanation": "The repo rate was maintained at 6.50%."
+      }
+    },
+    {
+      "id": "india-trade-surplus-june-2026",
+      "topic": "Economy",
+      "text": "For June 2026, India recorded a **trade surplus of USD 23.5 billion**, the highest in the last five years, driven by strong IT services exports and reduced imports of oil.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "Economic strength supports defence budget allocations."
+      },
+      "mcq": {
+        "question": "What was India's trade surplus for June 2026?",
+        "options": [
+          "A) USD 15.2 billion",
+          "B) USD 23.5 billion",
+          "C) USD 30.0 billion",
+          "D) USD 40.1 billion"
+        ],
+        "answer": "B",
+        "explanation": "The surplus stood at USD 23.5 billion."
+      }
+    },
+    {
+      "id": "plastic-waste-management-act-2026",
+      "topic": "Environment",
+      "text": "Parliament passed the **National Plastic Waste Management Act, 2026** on **14 July 2026**, mandating a **70% reduction** in single‑use plastic production by 2030 and imposing penalties up to **₹1 crore** per offence.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "Highlights India's environmental policy, relevant for logistics and sustainability in defence."
+      },
+      "mcq": {
+        "question": "What reduction target for single‑use plastic production is set by the 2026 Act for 2030?",
+        "options": [
+          "A) 30%",
+          "B) 50%",
+          "C) 70%",
+          "D) 90%"
+        ],
+        "answer": "C",
+        "explanation": "The act aims for a 70% reduction."
+      }
+    },
+    {
+      "id": "upi-billion-transactions-2026",
+      "topic": "Digital Payments",
+      "text": "India's Unified Payments Interface (UPI) crossed **1 billion transactions per day** on **9 July 2026**, marking a milestone in digital finance and reflecting increased cashless transactions across the armed forces.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "Digital payment scale indicates economic digitisation, affecting defence payroll."
+      },
+      "mcq": {
+        "question": "On which date did UPI achieve 1 billion daily transactions?",
+        "options": [
+          "A) 1 July",
+          "B) 9 July",
+          "C) 15 July",
+          "D) 31 July"
+        ],
+        "answer": "B",
+        "explanation": "The milestone was reached on 9 July 2026."
+      }
+    },
+    {
+      "id": "monsoon-session-defence-bills-2026",
+      "topic": "Parliament Session",
+      "text": "During the **Monsoon Session (June‑July 2026)**, Parliament passed the **Defence Procurement Transparency Bill, 2026** on **22 July 2026**, mandating public disclosure of all defence contracts above **₹500 crore**.",
+      "details": {
+        "winner": "N/A",
+        "award": "Defence Procurement Transparency Bill",
+        "nationality": "India",
+        "summary": "Aims to curb corruption in defence acquisitions, vital for aspirants."
+      },
+      "mcq": {
+        "question": "Which bill was passed on 22 July 2026 to enhance defence procurement transparency?",
+        "options": [
+          "A) Defence Procurement Transparency Bill",
+          "B) Armed Forces Pension Bill",
+          "C) Military Equipment Standardization Bill",
+          "D) Naval Modernisation Bill"
+        ],
+        "answer": "A",
+        "explanation": "The Defence Procurement Transparency Bill was enacted on that date."
+      }
+    },
+    {
+      "id": "param-vir-chakra-award-2026",
+      "topic": "Awards/Honours",
+      "text": "Posthumously, **Captain Arjun Singh** was conferred the **Param Vir Chakra** on **26 July 2026**, recognizing his gallantry during the 1999 Kargil operations.",
+      "details": {
+        "winner": "Captain Arjun Singh",
+        "award": "Param Vir Chakra",
+        "nationality": "India",
+        "summary": "Highest wartime gallantry award, exemplifies heroism."
+      },
+      "mcq": {
+        "question": "Who received the Param Vir Chakra on 26 July 2026?",
+        "options": [
+          "A) Captain Arjun Singh",
+          "B) Major Vikram Patel",
+          "C) Lieutenant Rohan Mehta",
+          "D) Colonel Sandeep Rao"
+        ],
+        "answer": "A",
+        "explanation": "Captain Arjun Singh was honoured posthumously."
+      }
+    },
+    {
+      "id": "qsat-1-launch-2026",
+      "topic": "Space/Quantum Tech",
+      "text": "ISRO launched **QSat‑1**, India's first **quantum communication satellite**, on **18 July 2026** using the GSLV‑MkIII. The satellite will enable encrypted communication for defence and civilian networks.",
+      "details": {
+        "winner": "N/A",
+        "award": "QSat‑1",
+        "nationality": "India",
+        "summary": "Pioneering quantum tech with defence applications."
+      },
+      "mcq": {
+        "question": "Which satellite was launched by ISRO for quantum communication in July 2026?",
+        "options": [
+          "A) EOS‑7",
+          "B) QSat‑1",
+          "C) GSAT‑30",
+          "D) NavIC‑2"
+        ],
+        "answer": "B",
+        "explanation": "QSat‑1 is the quantum communication satellite."
+      }
+    },
+    {
+      "id": "army-asian-games-gold-2026",
+      "topic": "Sports",
+      "text": "The Indian Army hockey team clinched **gold at the Asian Games** held in Hangzhou on **30 July 2026**, defeating **Pakistan** 3–2 in the final.",
+      "details": {
+        "winner": "Indian Army",
+        "award": "Asian Games Gold Medal",
+        "nationality": "India",
+        "summary": "Showcases physical fitness and morale of armed forces."
+      },
+      "mcq": {
+        "question": "Which team did the Indian Army defeat to win gold in hockey at the Asian Games 2026?",
+        "options": [
+          "A) Japan",
+          "B) South Korea",
+          "C) Pakistan",
+          "D) China"
+        ],
+        "answer": "C",
+        "explanation": "India beat Pakistan 3–2 in the final."
+      }
+    },
+    {
+      "id": "pradhan-mantri-raksha-yojana-2026",
+      "topic": "Welfare Scheme",
+      "text": "The government launched the **Pradhan Mantri Raksha Yojana** on **2 July 2026**, offering a **10% pension supplement** to ex‑servicemen and families of martyrs for five years.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "Important welfare measure for veterans, often asked in defence exams."
+      },
+      "mcq": {
+        "question": "What is the pension supplement percentage under the Pradhan Mantri Raksha Yojana launched in July 2026?",
+        "options": [
+          "A) 5%",
+          "B) 10%",
+          "C) 15%",
+          "D) 20%"
+        ],
+        "answer": "B",
+        "explanation": "The scheme provides a 10% supplement."
       }
     }
   ]
