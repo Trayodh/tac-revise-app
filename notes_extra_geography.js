@@ -5,7 +5,7 @@ EXPANDED_NOTES_DATA["universe-solar-system"] = `
   <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">The Universe &amp; Solar System</h2>
 
   <h3>The Universe</h3>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Universe%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Universe" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Solar_system_scale.jpg/1024px-Solar_system_scale.jpg" alt="Map for universe-solar-system" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <ul>
     <li>The Universe encompasses all of space‑time, matter, energy, galaxies, stars, planets and the fundamental forces that govern them. Its scale is incomprehensible, extending far beyond the observable horizon.</li>
     <li><strong>Study of the Universe:</strong> The scientific discipline that investigates the origin, evolution, and large‑scale structure of the cosmos is <strong>Cosmology</strong>.</li>
@@ -22,7 +22,7 @@ EXPANDED_NOTES_DATA["universe-solar-system"] = `
   </ul>
 
   <h3>Galaxies</h3>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Milky%20Way%20Galaxy%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Milky Way" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Solar_system_scale.jpg/1024px-Solar_system_scale.jpg" alt="Map for universe-solar-system" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <ul>
     <li>A galaxy is a gravitationally bound system of stars, stellar remnants, gas, dust, and dark matter.</li>
     <li>Observable Universe contains billions of galaxies of diverse morphologies.</li>
@@ -95,7 +95,7 @@ EXPANDED_NOTES_DATA["universe-solar-system"] = `
   </ul>
 
   <h3>The Solar System</h3>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Solar%20System%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Solar System" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Solar_system_scale.jpg/1024px-Solar_system_scale.jpg" alt="Map for universe-solar-system" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <ul>
     <li>The Solar System comprises the Sun, eight major planets, five recognised dwarf planets, >200 moons, countless asteroids, comets, and interplanetary dust.</li>
     <li><strong>Formation:</strong> Nebular Hypothesis – a rotating molecular cloud collapsed ~4.6 billion years ago, forming a protoplanetary disk.
@@ -247,7 +247,7 @@ EXPANDED_NOTES_DATA["earth-atmosphere"] = `
     </li>
   </ul>
 
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Earth%20internal%20layers%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Earth internal layers" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Earth_atmosphere_diagram.svg/1024px-Earth_atmosphere_diagram.svg.png" alt="Map for earth-atmosphere" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h4>Dynamic Processes Driven by Interior Structure</h4>
   <p>Heat from radioactive decay and residual primordial heat drives mantle convection, which in turn powers plate tectonics, volcanism, and orogenesis.</p>
@@ -357,7 +357,7 @@ EXPANDED_NOTES_DATA["earth-atmosphere"] = `
     </li>
   </ul>
 
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Atmospheric%20layers%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Atmospheric layers" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Earth_atmosphere_diagram.svg/1024px-Earth_atmosphere_diagram.svg.png" alt="Map for earth-atmosphere" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h4>Key Atmospheric Phenomena</h4>
   <ul>
@@ -387,7 +387,7 @@ EXPANDED_NOTES_DATA["earth-atmosphere"] = `
   </ul>
 
   <h4>Additional Visual Aid – Plate Tectonics</h4>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20global%20plate%20tectonics%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of global plate tectonics" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Earth_atmosphere_diagram.svg/1024px-Earth_atmosphere_diagram.svg.png" alt="Map for earth-atmosphere" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 `;
 
@@ -472,7 +472,7 @@ EXPANDED_NOTES_DATA["climatology-clouds"] = `
           <li><strong>Sub‑polar Low:</strong> 60°‑65° N/S – convergence of warm westerlies and cold polar easterlies.</li>
           <li><strong>Polar High:</strong> 80°‑90° N/S – strong cooling and subsidence.</li>
         </ul>
-        <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20global%20pressure%20belts%20and%20wind%20patterns%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of global pressure belts and wind patterns" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Koppen-Geiger_Map_World_present.svg/1024px-Koppen-Geiger_Map_World_present.svg.png" alt="Map for climatology-clouds" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
       </li>
       <li><strong>Forces Controlling Wind:</strong>
         <ul>
@@ -630,7 +630,7 @@ EXPANDED_NOTES_DATA["climatology-clouds"] = `
         </tr>
       </tbody>
     </table>
-    <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20K%C3%B6ppen%20climate%20classification%20of%20India%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Köppen climate classification of India" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Koppen-Geiger_Map_World_present.svg/1024px-Koppen-Geiger_Map_World_present.svg.png" alt="Map for climatology-clouds" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </section>
 
   <section>
@@ -682,7 +682,7 @@ EXPANDED_NOTES_DATA["geomorphology-rocks"] = `
   <p>A rock is a naturally occurring solid aggregate of one or more minerals or mineraloids. The Earth’s crust is composed of various rock types, each with distinct characteristics and formation processes.</p>
 
   <h4>The Rock Cycle</h4>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Rock%20Cycle%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Rock Cycle" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Tectonic_plates_boundaries_detailed-en.svg/1024px-Tectonic_plates_boundaries_detailed-en.svg.png" alt="Map for geomorphology-rocks" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <ul>
     <li>The rock cycle describes the continuous transitions among the three main rock types: igneous, sedimentary, and metamorphic.</li>
     <li>Key processes include weathering & erosion, deposition, lithification, melting, crystallisation, heat & pressure, and uplift.</li>
@@ -764,7 +764,7 @@ EXPANDED_NOTES_DATA["geomorphology-rocks"] = `
 
   <h4>The Modern Theory</h4>
   <p>Earth’s outer rigid layer – the lithosphere – is broken into large and small tectonic plates that float on the semi‑fluid asthenosphere.</p>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20World%20Plate%20Tectonics%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of World Plate Tectonics" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Tectonic_plates_boundaries_detailed-en.svg/1024px-Tectonic_plates_boundaries_detailed-en.svg.png" alt="Map for geomorphology-rocks" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h5>Major and Minor Plates</h5>
   <ul>
@@ -828,7 +828,7 @@ EXPANDED_NOTES_DATA["geomorphology-rocks"] = `
   </ul>
 
   <h4>Distribution of Volcanoes</h4>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Global%20Volcano%20Distribution%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Global Volcano Distribution" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Tectonic_plates_boundaries_detailed-en.svg/1024px-Tectonic_plates_boundaries_detailed-en.svg.png" alt="Map for geomorphology-rocks" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <ul>
     <li><strong>Pacific Ring of Fire</strong>: Horseshoe‑shaped zone encircling the Pacific Ocean, containing ~75% of the world’s active volcanoes and ~90% of earthquakes.</li>
     <li><strong>Mid‑Oceanic Ridges</strong>: Divergent boundaries where new crust is created, leading to submarine volcanism.</li>
@@ -939,10 +939,10 @@ EXPANDED_NOTES_DATA["world-geography-mountains"] = `
   </ul>
 
   <!-- Map of World Mountain Ranges -->
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20world%20mountain%20ranges%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of World Mountain Ranges" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Relief_Map_of_World.png/1024px-Relief_Map_of_World.png" alt="Map for world-geography-mountains" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <!-- Map of the Himalayas -->
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Himalayas%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Himalayas" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Relief_Map_of_World.png/1024px-Relief_Map_of_World.png" alt="Map for world-geography-mountains" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <!-- ==================== Forests ==================== -->
   <h3>II. Forests of the World</h3>
@@ -1011,10 +1011,10 @@ EXPANDED_NOTES_DATA["world-geography-mountains"] = `
   </ul>
 
   <!-- Map of Global Forest Biomes -->
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20global%20forest%20biomes%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Global Forest Biomes" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Relief_Map_of_World.png/1024px-Relief_Map_of_World.png" alt="Map for world-geography-mountains" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <!-- Map of a Tropical Rainforest (Amazon) -->
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Amazon%20Rainforest%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Amazon Rainforest" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Relief_Map_of_World.png/1024px-Relief_Map_of_World.png" alt="Map for world-geography-mountains" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <!-- ==================== Rivers ==================== -->
   <h3>III. Rivers of the World</h3>
@@ -1097,10 +1097,10 @@ EXPANDED_NOTES_DATA["world-geography-mountains"] = `
   </ul>
 
   <!-- Map of Major World Rivers -->
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20major%20world%20rivers%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Major World Rivers" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Relief_Map_of_World.png/1024px-Relief_Map_of_World.png" alt="Map for world-geography-mountains" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <!-- Map of the Ganges‑Brahmaputra Delta -->
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Ganges%20Brahmaputra%20Delta%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Ganges Brahmaputra Delta" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Relief_Map_of_World.png/1024px-Relief_Map_of_World.png" alt="Map for world-geography-mountains" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 `;
 
@@ -1169,7 +1169,7 @@ EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `
         </tr>
       </tbody>
     </table>
-    <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20World%20major%20straits%20and%20canals%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of World major straits and canals" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Desert_distribution.png/1024px-Desert_distribution.png" alt="Map for world-geography-straits-deserts" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </section>
 
   <section>
@@ -1240,7 +1240,7 @@ EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `
         </tr>
       </tbody>
     </table>
-    <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Global%20desert%20distribution%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Global desert distribution" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Desert_distribution.png/1024px-Desert_distribution.png" alt="Map for world-geography-straits-deserts" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </section>
 
   <section>
@@ -1419,7 +1419,7 @@ EXPANDED_NOTES_DATA["syl-geog"] = `
     <li><strong>Brahmaputra</strong> – Source: Angsi Glacier, Tibet; courses through Arunachal Pradesh, Assam and West Bengal before entering Bangladesh.</li>
     <li><strong>Indus</strong> – Source: Nganglong Kangri Glacier, Tibet; flows through Ladakh, Jammu & Kashmir, Punjab and Haryana (mainly in Pakistan after the border).</li>
   </ul>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indian%20Rivers%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indian Rivers" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/India_climatic_zones_map_en.svg/1024px-India_climatic_zones_map_en.svg.png" alt="Map for syl-geog" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h4>2. Peninsular Rivers</h4>
   <p>These rivers are rain‑fed, largely seasonal, and originate in the Western and Eastern Ghats. Key systems include:</p>
@@ -1438,7 +1438,7 @@ EXPANDED_NOTES_DATA["syl-geog"] = `
     <li><strong>Rohtang Pass</strong> – 3,979 m altitude; connects the Kullu Valley with the Lahaul Valley, crucial for seasonal movement of troops and tourists.</li>
     <li><strong>Banihal Pass</strong> – 2,832 m in Jammu & Kashmir; the gateway between the Kashmir Valley and the Jammu region, now traversed by the Banihal railway tunnel.</li>
   </ul>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Himalayan%20Mountain%20Passes%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Himalayan Mountain Passes" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/India_climatic_zones_map_en.svg/1024px-India_climatic_zones_map_en.svg.png" alt="Map for syl-geog" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3>Principal Soil Types</h3>
   <p>India’s soils are classified based on texture, mineral composition and fertility. The four major groups are:</p>
@@ -1469,7 +1469,7 @@ EXPANDED_NOTES_DATA["syl-geog"] = `
       <td style="padding:8px; border:1px solid #ccc;">Western coastal belt – Kerala, Karnataka, Goa, parts of Tamil Nadu.</td>
     </tr>
   </table>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indian%20Soil%20Types%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indian Soil Types" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/India_climatic_zones_map_en.svg/1024px-India_climatic_zones_map_en.svg.png" alt="Map for syl-geog" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
     <strong style="color: var(--accent);">⚡ High‑Yield Exam Facts</strong>
@@ -1498,7 +1498,7 @@ EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
     <li><strong>Private Forests</strong> – 5.6 % of total forest cover</li>
     <li><strong>Tree Cover (non‑forest)</strong> – 21.5 % of total forest and tree cover</li>
   </ul>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%20forest%20cover%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India forest cover" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/India_forest_map_en.svg/1024px-India_forest_map_en.svg.png" alt="Map for india-forests-wetlands" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3>2. Classification of Forest Types (Based on Canopy Cover)</h3>
   <p>The Ministry of Environment, Forest and Climate Change (MoEFCC) classifies forest types into five canopy‑cover categories. The table below summarises the categories, their canopy density range, and representative examples.</p>
@@ -1551,7 +1551,7 @@ EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
     <li><strong>Mangrove Forests</strong> – Confined to the coastal deltas of the Ganges‑Brahmaputra, Mahanadi, and the Sundarbans. Typical species are <em>Avicennia marina</em>, <em>Rhizophora mucronata</em> and <em>Sonneratia apetala</em>.</li>
     <li><strong>Thorn Forests &amp; Scrublands</strong> – Predominant in the Thar Desert (Rajasthan) and the Rann of Kutch (Gujarat). Species include <em>Dorstenia indica</em> and <em>Cerbera odollam</em>.</li>
   </ul>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%20forest%20types%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India forest types" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/India_forest_map_en.svg/1024px-India_forest_map_en.svg.png" alt="Map for india-forests-wetlands" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3>4. Iconic Tree Species and Their Economic/Medicinal Importance</h3>
   <p>India’s arboreal wealth includes over 6,500 species of trees. The following are the most frequently cited in examinations:</p>
@@ -1586,7 +1586,7 @@ EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
     <li><strong>Intertidal Mudflats</strong> – e.g., Rann of Kutch (Gujarat), Brahmaputra floodplains (Assam); crucial for shore‑bird breeding.</li>
     <li><strong>Peatlands</strong> – e.g., Sikkim’s Yuksom peat bog; store massive amounts of carbon.</li>
   </ul>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%20wetlands%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India wetlands" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/India_forest_map_en.svg/1024px-India_forest_map_en.svg.png" alt="Map for india-forests-wetlands" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <p>Key ecological functions of Indian wetlands include:</p>
   <ul>
     <li>Regulation of <strong>ground‑water recharge</strong> and <strong>flood attenuation</strong>.</li>
@@ -1696,7 +1696,7 @@ EXPANDED_NOTES_DATA["india-resources-farming"] = `
     <li>Eastern & Western Ghats</li>
   </ul>
   <p>These provinces control the genesis, location and exploitation status of each resource – information that is vital for strategic planning, defence logistics and industrial policy.</p>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indian%20mineral%20resource%20distribution%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indian mineral resource distribution" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/India_agriculture_map.png/1024px-India_agriculture_map.png" alt="Map for india-resources-farming" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <!-- ==================== 2. Classification of Major Mineral Resources ==================== -->
   <h3>2. Classification of Major Mineral Resources</h3>
@@ -1790,7 +1790,7 @@ EXPANDED_NOTES_DATA["india-resources-farming"] = `
   <!-- ==================== 5. Types of Farming in India – Overview ==================== -->
   <h3>5. Types of Farming in India – Overview</h3>
   <p>India’s agrarian landscape is a mosaic of <strong>climatic zones</strong>, <strong>soil types</strong> and <strong>cultural practices</strong>. The principal farming systems are categorised into four broad types:</p>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indian%20agricultural%20zones%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indian agricultural zones" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/India_agriculture_map.png/1024px-India_agriculture_map.png" alt="Map for india-resources-farming" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <table style="width:100%; border-collapse:collapse; margin-top:12px;">
     <thead style="background:#2c2c3c; color:#fff;">
       <tr>
@@ -1916,7 +1916,7 @@ EXPANDED_NOTES_DATA["india-transport-routes"] = `
 
   <h3><strong>1. Overview of India’s Transport Network</strong></h3>
   <p>India boasts one of the world’s most extensive multimodal transport systems, comprising <strong>roads</strong>, <strong>railways</strong>, <strong>airways</strong> and <strong>inland waterways</strong>. Roads dominate passenger and freight movement, while waterways are gaining strategic relevance under the <em>Sagarmala</em> and <em>National Inland Water Transport (NIWT)</em> programmes. The integration of highways and waterways underpins the "one nation, one transport system" vision of the <strong>National Transport Policy 2020</strong>.</p>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%27s%20transport%20network%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India’s transport network" style="width:100%;border-radius:8px;margin:15px 0;box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/India_National_Highway_Network_Map.png/1024px-India_National_Highway_Network_Map.png" alt="Map for india-transport-routes" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3><strong>2. Classification of Highways</strong></h3>
   <ul>
@@ -2024,7 +2024,7 @@ EXPANDED_NOTES_DATA["india-transport-routes"] = `
       <td style="padding:8px;border:1px solid #555;">2013</td>
     </tr>
   </table>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%27s%20National%20Waterways%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India’s National Waterways" style="width:100%;border-radius:8px;margin:15px 0;box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/India_National_Highway_Network_Map.png/1024px-India_National_Highway_Network_Map.png" alt="Map for india-transport-routes" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3><strong>8. Waterway Development Initiatives</strong></h3>
   <ul>
@@ -2078,7 +2078,7 @@ EXPANDED_NOTES_DATA["india-national-parks"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-weight: 600;">National Parks of India – Comprehensive Guide</h2>
 
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20National%20Parks%20of%20India%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of National Parks of India" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/India_National_Parks_Map.svg/1024px-India_National_Parks_Map.svg.png" alt="Map for india-national-parks" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3>Introduction</h3>
   <p>India’s rich biodiversity is protected through a network of <strong>National Parks</strong> that safeguard ecosystems ranging from alpine meadows to mangrove swamps. Established under the <strong>Wildlife Protection Act, 1972</strong>, these parks restrict human activities to preserve habitats and iconic species such as the Bengal tiger, Asiatic lion, and greater one‑horned rhinoceros. As of 2024, India has <strong>106</strong> National Parks covering more than <strong>40,000 km²</strong>.</p>
@@ -2135,7 +2135,7 @@ EXPANDED_NOTES_DATA["india-national-parks"] = `
     </tr>
   </table>
 
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Major%20Wildlife%20National%20Parks%20of%20India%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Major Wildlife National Parks of India" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/India_National_Parks_Map.svg/1024px-India_National_Parks_Map.svg.png" alt="Map for india-national-parks" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3>Conservation Strategies</h3>
   <ul>
@@ -2185,7 +2185,7 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
 
   <h3><strong>1. Overview of India’s International Borders</strong></h3>
   <p>India shares its land boundaries with six sovereign nations, amounting to a total measured length of <strong>15,200 km</strong> (Ministry of Home Affairs, 2023). The distribution is as follows:</p>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%20International%20Borders%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India's International Borders" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/India_political_map.svg/1024px-India_political_map.svg.png" alt="Map for mapping-borders-capitals" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <table style="width:100%; border-collapse:collapse; margin-top:10px;">
     <thead>
       <tr style="background:#f2f2f2;">
@@ -2239,7 +2239,7 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
 
   <h3><strong>3. Internal Administrative Borders – States &amp; Union Territories</strong></h3>
   <p>India presently comprises <strong>28 states</strong> and <strong>8 union territories (UTs)</strong>. Each state/UT has a designated capital, pivotal for administrative, legislative, and judicial functions.</p>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indian%20states%20and%20capitals%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indian States and Capitals" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/India_political_map.svg/1024px-India_political_map.svg.png" alt="Map for mapping-borders-capitals" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <table style="width:100%; border-collapse:collapse; margin-top:10px;">
     <thead>
       <tr style="background:#e6f7ff;">
@@ -2421,7 +2421,7 @@ EXPANDED_NOTES_DATA["geog-industries"] = `
 
   <h3>Introduction to Indian Industries</h3>
   <p>India boasts a diversified industrial base that spans traditional sectors such as <strong>textiles</strong> and <strong>steel</strong> to high‑tech domains like <strong>information technology</strong> and <strong>pharmaceuticals</strong>. Robust government policies – notably the <strong>Make in India</strong> programme – together with a large skilled workforce have propelled sustained growth.</p>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Industrial%20Corridors%20of%20India%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Industrial Corridors of India" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/India_industry_map_en.svg/1024px-India_industry_map_en.svg.png" alt="Map for geog-industries" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3>Major Industries in India</h3>
   <ul>
@@ -2431,7 +2431,7 @@ EXPANDED_NOTES_DATA["geog-industries"] = `
     <li><strong>Information Technology (IT) Industry</strong>: A global services powerhouse driven by a large pool of software engineers and IT‑enabled service providers. Leaders include <strong>TCS</strong>, <strong>Infosys</strong> and <strong>Wipro</strong>.</li>
     <li><strong>Pharmaceuticals Industry</strong>: Known for generic drug production and strong R&amp;D capabilities. Major firms are <strong>Sun Pharma</strong>, <strong>Dr. Reddy's Laboratories</strong> and <strong>Cipla</strong>.</li>
   </ul>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Major%20Industries%20of%20India%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Major Industries of India" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/India_industry_map_en.svg/1024px-India_industry_map_en.svg.png" alt="Map for geog-industries" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3>Industrial Corridors in India</h3>
   <p>Strategically planned corridors concentrate manufacturing hubs, logistics infrastructure, and skill‑development centres to accelerate regional growth.</p>
@@ -2510,7 +2510,7 @@ EXPANDED_NOTES_DATA["geog-geopolitics"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-weight: 700;">Geopolitical Flashpoints &amp; Indo‑Pacific</h2>
 
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indo‑Pacific%20region%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indo‑Pacific" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Indo-Pacific_region.svg/1024px-Indo-Pacific_region.svg.png" alt="Map for geog-geopolitics" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3>1. Conceptual Foundations of the Indo‑Pacific Region</h3>
   <p>The label <strong>Indo‑Pacific</strong> entered strategic parlance in the early 2000s to capture the seamless maritime continuum linking the Indian and Pacific Oceans. Its significance rests on three inter‑related pillars:</p>
@@ -2582,7 +2582,7 @@ EXPANDED_NOTES_DATA["geog-geopolitics"] = `
     </tbody>
   </table>
 
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20South%20China%20Sea%20flashpoints%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of South China Sea" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Indo-Pacific_region.svg/1024px-Indo-Pacific_region.svg.png" alt="Map for geog-geopolitics" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3>4. Indo‑Pacific Power Dynamics: The “Great Power Competition”</h3>
   <p>Understanding the rivalry requires a layered analysis of <strong>military</strong>, <strong>economic</strong>, and <strong>ideological</strong> dimensions.</p>
@@ -2677,7 +2677,7 @@ EXPANDED_NOTES_DATA["geography-pyq-trends-topic"] = `
 
   <h3>Introduction to Geography PYQ Trends</h3>
   <p>Geography holds a pivotal place in the <strong>National Defence Academy (NDA)</strong> and <strong>Combined Defence Services (CDS)</strong> examinations. Understanding the pattern of previously asked questions (PYQs) enables aspirants to focus on high‑yield topics and develop a strategic revision plan. The <strong>Union Public Service Commission (UPSC)</strong> designs the syllabus, encompassing a broad spectrum of physical and human geography.</p>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%20physical%20geography%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India Physical Geography" style="width:100%; border-radius:8px; margin:15px 0; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/India_physical_map.svg/1024px-India_physical_map.svg.png" alt="Map for geography-pyq-trends-topic" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3>Why Geography is Critical for NDA/CDS</h3>
   <p>The subject carries substantial weightage and is split into two core components:</p>
@@ -2727,7 +2727,7 @@ EXPANDED_NOTES_DATA["geography-pyq-trends-topic"] = `
     <li>Asia – monsoon dynamics, plate boundaries, and trans‑regional trade.</li>
     <li>World Geography – comparative studies of continents, oceans, and global environmental issues.</li>
   </ul>
-  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Himalayan%20mountain%20range%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Himalayas" style="width:100%; border-radius:8px; margin:15px 0; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/India_physical_map.svg/1024px-India_physical_map.svg.png" alt="Map for geography-pyq-trends-topic" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <h3>Statistical Analysis of PYQ Distribution</h3>
   <table style="width:100%; border-collapse:collapse; margin-top:12px;">
