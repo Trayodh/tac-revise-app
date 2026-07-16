@@ -153,5 +153,29 @@
         });
     });
 
+    // ─── Inject Diagrams into Chapters ────────────────────────────────────────
+    if (typeof DIAGRAMS_DB !== 'undefined') {
+        let diagramCount = 0;
+        Object.keys(DIAGRAMS_DB).forEach(key => {
+            const parts = key.split('__');
+            if (parts.length < 2) return;
+            const subjectKey = parts[0];
+            const chapterId = parts[1];
+
+            const subjectObj = NOTES_DATABASE[subjectKey];
+            if (!subjectObj || !subjectObj.chapters) return;
+
+            const chapter = subjectObj.chapters.find(ch => ch.id === chapterId || ch.title.toLowerCase().includes(chapterId.replace(/-/g, ' ')));
+            if (!chapter || !chapter.topics || chapter.topics.length === 0) return;
+
+            const diagramHtml = DIAGRAMS_DB[key];
+            if (!chapter.topics[0].notes.includes('<!-- DIAGRAMS_DB_INJECTED -->')) {
+                chapter.topics[0].notes = '<!-- DIAGRAMS_DB_INJECTED -->\n' + diagramHtml + '\n' + chapter.topics[0].notes;
+                diagramCount++;
+            }
+        });
+        console.log(`[inject_ai_notes] Injected ${diagramCount} diagrams from DIAGRAMS_DB.`);
+    }
+
     console.log(`[inject_ai_notes] Done. Injected ${injectedCount} topics into their proper chapters.`);
 })();
