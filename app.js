@@ -7041,20 +7041,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // --- ONBOARDING & ADMIN LOGIC ---
-window.submitOnboardingPayment = function() {
+window.submitOnboardingPayment = async function() {
   const txId = document.getElementById('onboarding-transaction-id').value;
   if (!txId) {
     alert('Please enter a Transaction ID.');
     return;
   }
   document.getElementById('onboarding-payment-msg').style.display = 'block';
+  
   if (typeof STATE !== 'undefined' && STATE.activeProfile) {
     STATE.activeProfile.transaction_id = txId;
     STATE.activeProfile.status = 'locked';
     if (typeof saveState === 'function') saveState();
+    
+    // Update Supabase if available
+    if (window.supabaseClient && STATE.activeProfile.id) {
+      await window.supabaseClient.from('user_profiles').update({ transaction_id: txId, status: 'locked' }).eq('id', STATE.activeProfile.id);
+    }
   }
-  // Mock backend delay then switch to locked screen
-  setTimeout(() => { switchScreen('locked'); }, 2000);
+  
+  // Switch to locked screen
+  setTimeout(() => { switchScreen('locked'); }, 1000);
 };
 
 // Mock users for offline admin dashboard
@@ -7064,17 +7071,28 @@ window.MOCK_ADMIN_USERS = [
   { email: 'activeuser3@gmail.com', status: 'active', transaction_id: 'UTR123456789' }
 ];
 
-window.renderAdminDashboard = function() {
+window.renderAdminDashboard = async function() {
   const tbody = document.getElementById('admin-users-list');
   if (!tbody) return;
   
-  // Also include the current user if not already in mock list
-  let displayUsers = [...window.MOCK_ADMIN_USERS];
-  if (STATE.activeProfile && STATE.activeProfile.email !== 'trayodh@gmail.com' && !displayUsers.find(u => u.email === STATE.activeProfile.email)) {
-    displayUsers.push(STATE.activeProfile);
+  let displayUsers = [];
+  
+  if (window.supabaseClient) {
+    const { data, error } = await window.supabaseClient.from('user_profiles').select('*').order('created_at', { ascending: false });
+    if (!error && data && data.length > 0) {
+      displayUsers = data;
+    }
   }
   
-  tbody.innerHTML = displayUsers.map((u, i) => `
+  // Fallback to mock if Supabase fails or is offline (or empty)
+  if (displayUsers.length === 0) {
+    displayUsers = [...window.MOCK_ADMIN_USERS];
+    if (STATE.activeProfile && STATE.activeProfile.email !== 'trayodh@gmail.com' && !displayUsers.find(u => u.email === STATE.activeProfile.email)) {
+      displayUsers.push(STATE.activeProfile);
+    }
+  }
+  
+  tbody.innerHTML = displayUsers.map((u) => `
     <tr style='border-bottom: 1px solid rgba(255,255,255,0.05);'>
       <td style='padding: 12px;'>${u.email}</td>
       <td style='padding: 12px;'>
@@ -7084,27 +7102,28 @@ window.renderAdminDashboard = function() {
       </td>
       <td style='padding: 12px; font-family: monospace; color: var(--text-muted);'>${u.transaction_id || '-'}</td>
       <td style='padding: 12px; display: flex; gap: 8px;'>
-        <button onclick='updateUserStatus(${i}, "active")' style='padding: 4px 8px; background: var(--success); color: #000; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Approve</button>
-        <button onclick='updateUserStatus(${i}, "locked")' style='padding: 4px 8px; background: #ef4444; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Lock</button>
-        <button onclick='updateUserStatus(${i}, "pending_payment")' style='padding: 4px 8px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Reject</button>
+        <button onclick='updateUserStatus("${u.id || u.email}", "active")' style='padding: 4px 8px; background: var(--success); color: #000; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Approve</button>
+        <button onclick='updateUserStatus("${u.id || u.email}", "locked")' style='padding: 4px 8px; background: #ef4444; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Lock</button>
+        <button onclick='updateUserStatus("${u.id || u.email}", "pending_payment")' style='padding: 4px 8px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Reject</button>
       </td>
     </tr>
   `).join('');
 };
 
-window.updateUserStatus = function(idx, newStatus) {
-  let displayUsers = [...window.MOCK_ADMIN_USERS];
-  if (STATE.activeProfile && STATE.activeProfile.email !== 'trayodh@gmail.com' && !displayUsers.find(u => u.email === STATE.activeProfile.email)) {
-    displayUsers.push(STATE.activeProfile);
+window.updateUserStatus = async function(userIdOrEmail, newStatus) {
+  if (window.supabaseClient && userIdOrEmail.includes('-')) {
+    // Looks like a UUID
+    await window.supabaseClient.from('user_profiles').update({ status: newStatus }).eq('id', userIdOrEmail);
+  } else {
+    // Mock user logic
+    const user = window.MOCK_ADMIN_USERS.find(u => u.email === userIdOrEmail);
+    if (user) user.status = newStatus;
   }
-  const user = displayUsers[idx];
-  if (user) {
-    user.status = newStatus;
-    // Update local state if we are modifying the current logged-in test user
-    if (user.email === STATE.activeProfile?.email) {
-      STATE.activeProfile.status = newStatus;
-      if (typeof saveState === 'function') saveState();
-    }
-    renderAdminDashboard();
+  
+  // Update local state if modifying self
+  if (STATE.activeProfile && (STATE.activeProfile.id === userIdOrEmail || STATE.activeProfile.email === userIdOrEmail)) {
+    STATE.activeProfile.status = newStatus;
+    if (typeof saveState === 'function') saveState();
   }
+  renderAdminDashboard();
 };

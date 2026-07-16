@@ -39,6 +39,16 @@ async function handleAuthAction() {
           password: password,
         });
         if (error) throw error;
+        
+        // Create user profile in Supabase
+        const defaultStatus = email === 'trayodh@gmail.com' ? 'active' : 'pending_payment';
+        if (data.user) {
+          const { error: profileError } = await window.supabaseClient
+            .from('user_profiles')
+            .upsert({ id: data.user.id, email: email, status: defaultStatus }, { onConflict: 'id' });
+          if (profileError) console.error("Error creating profile:", profileError);
+        }
+
         if (!data.session) {
           alert('Sign up successful! Please check your email to confirm your account before signing in.');
           toggleAuthMode(); // switch to sign in view
@@ -77,11 +87,27 @@ async function handleAuthAction() {
         });
         if (error) throw error;
         alert('Sign in successful!');
-        if (typeof STATE !== 'undefined') {
-          // If profile doesn't exist or doesn't have a status, default it.
-          if (!STATE.activeProfile || STATE.activeProfile.email !== email) {
-            STATE.activeProfile = { email: email, status: email === 'trayodh@gmail.com' ? 'active' : 'pending_payment' };
+        
+        // Fetch user profile from Supabase
+        let userStatus = email === 'trayodh@gmail.com' ? 'active' : 'pending_payment';
+        let txId = null;
+        if (data.user) {
+          const { data: profileData } = await window.supabaseClient
+            .from('user_profiles')
+            .select('status, transaction_id')
+            .eq('id', data.user.id)
+            .single();
+          if (profileData) {
+            userStatus = profileData.status;
+            txId = profileData.transaction_id;
+          } else {
+            // Profile missing, recreate it
+            await window.supabaseClient.from('user_profiles').upsert({ id: data.user.id, email: email, status: userStatus }, { onConflict: 'id' });
           }
+        }
+
+        if (typeof STATE !== 'undefined') {
+          STATE.activeProfile = { email: email, status: userStatus, transaction_id: txId, id: data.user.id };
           if (typeof saveState === 'function') saveState();
         }
         document.getElementById('auth-modal').style.display = 'none';
@@ -174,6 +200,23 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (window.supabaseClient) {
     const { data: { session } } = await window.supabaseClient.auth.getSession();
     if (session) {
+      // Fetch fresh profile data
+      const { data: profileData } = await window.supabaseClient
+        .from('user_profiles')
+        .select('status, transaction_id')
+        .eq('id', session.user.id)
+        .single();
+        
+      if (typeof STATE !== 'undefined') {
+        STATE.activeProfile = { 
+          id: session.user.id,
+          email: session.user.email, 
+          status: profileData ? profileData.status : (session.user.email === 'trayodh@gmail.com' ? 'active' : 'pending_payment'),
+          transaction_id: profileData ? profileData.transaction_id : null
+        };
+        if (typeof saveState === 'function') saveState();
+      }
+
       updateUserProfile(session.user);
       hasSession = true;
     }

@@ -50,3 +50,21 @@ CREATE TABLE user_profiles (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
+-- Enable RLS for user_profiles
+ALTER TABLE user_profiles ENABLE ROW LEVEL SECURITY;
+
+-- Policy: Users can select their own profile
+CREATE POLICY "Users can select their own profile" ON user_profiles
+    FOR SELECT USING (auth.uid() = id);
+
+-- Policy: Users can insert their own profile
+CREATE POLICY "Users can insert their own profile" ON user_profiles
+    FOR INSERT WITH CHECK (auth.uid() = id);
+
+-- Policy: Users can update their own profile
+CREATE POLICY "Users can update their own profile" ON user_profiles
+    FOR UPDATE USING (auth.uid() = id);
+
+-- Policy: Admin can do everything
+CREATE POLICY "Admin full access" ON user_profiles
+    FOR ALL USING (auth.email() = 'trayodh@gmail.com');
