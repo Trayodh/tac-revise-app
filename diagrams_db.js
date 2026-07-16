@@ -5769,3 +5769,652 @@ DIAGRAMS_DB["biology__biology-botany"] = `
 </div>
 `;
 
+DIAGRAMS_DB["military-aptitude__defence-structures"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background:#0f1117; color:#e2e8f0; padding:20px;">
+  <!-- Title Bar -->
+  <div style="background:#0f1117; padding:12px 20px; border-bottom:1px solid rgba(255,255,255,0.12); text-align:center; font-size:24px; color:#4ade80; font-weight:bold;">
+    Command Structures &amp; Ranks
+  </div>
+
+  <!-- Hierarchy Diagram -->
+  <div style="position:relative; margin-top:30px; display:flex; justify-content:space-around; flex-wrap:wrap; gap:40px;">
+    
+    <!-- Equivalent Officer Ranks (Tri‑Services) -->
+    <div style="flex:1; min-width:280px; max-width:320px;">
+      <div style="background:#1a1c23; border:1px solid rgba(255,255,255,0.12); border-radius:8px; padding:12px; text-align:center; font-weight:bold; color:#4ade80;">
+        Equivalent Officer Ranks (Tri‑Services)
+      </div>
+      <div style="margin-left:20px; border-left:2px solid #60a5fa; padding-left:12px; margin-top:10px;">
+        <div style="margin-top:8px;">
+          <strong>OF‑1:</strong> Army – Lieutenant | Navy – Sub‑Lieutenant | Air Force – Flying Officer
+        </div>
+        <div style="margin-top:8px;">
+          <strong>OF‑2:</strong> Army – Captain | Navy – Lieutenant | Air Force – Flight Lieutenant
+        </div>
+        <div style="margin-top:8px;">
+          <strong>OF‑3:</strong> Army – Major | Navy – Lieutenant Commander | Air Force – Squadron Leader
+        </div>
+        <div style="margin-top:8px;">
+          <strong>OF‑4:</strong> Army – Lieutenant Colonel | Navy – Commander | Air Force – Wing Commander
+        </div>
+        <div style="margin-top:8px;">
+          <strong>OF‑5:</strong> Army – Colonel | Navy – Captain | Air Force – Group Captain
+        </div>
+        <div style="margin-top:8px;">
+          <strong>OF‑6:</strong> Army – Brigadier | Navy – Commodore | Air Force – Air Commodore
+        </div>
+        <div style="margin-top:8px;">
+          <strong>OF‑7:</strong> Army – Major General | Navy – Rear Admiral | Air Force – Air Vice Marshal
+        </div>
+        <div style="margin-top:8px;">
+          <strong>OF‑8:</strong> Army – Lieutenant General | Navy – Vice Admiral | Air Force – Air Marshal
+        </div>
+        <div style="margin-top:8px;">
+          <strong>OF‑9:</strong> Army – General | Navy – Admiral | Air Force – Air Chief Marshal
+        </div>
+        <div style="margin-top:8px;">
+          <strong>OF‑10 (Only Army):</strong> Field Marshal (awarded only 2 times)
+        </div>
+      </div>
+    </div>
+
+    <!-- Operational Commands of Services -->
+    <div style="flex:1; min-width:280px; max-width:320px;">
+      <div style="background:#1a1c23; border:1px solid rgba(255,255,255,0.12); border-radius:8px; padding:12px; text-align:center; font-weight:bold; color:#4ade80;">
+        Operational Commands of Services
+      </div>
+      <div style="margin-left:20px; border-left:2px solid #60a5fa; padding-left:12px; margin-top:10px;">
+        <!-- Army Commands -->
+        <div style="margin-top:8px; font-weight:bold; color:#60a5fa;">Indian Army</div>
+        <div style="margin-left:12px;">
+          <div>Northern Command – HQ: Udhampur (Established 1972)</div>
+          <div>Western Command – HQ: Chandimandir (1972)</div>
+          <div>Eastern Command – HQ: Kolkata (1972)</div>
+          <div>Southern Command – HQ: Chennai (1972)</div>
+          <div>Central Command – HQ: Lucknow (1987)</div>
+          <div>South Western Command – HQ: Jaipur (2005)</div>
+          <div>Army Training Command – HQ: Shimla (1990)</div>
+        </div>
+
+        <!-- Navy Commands -->
+        <div style="margin-top:12px; font-weight:bold; color:#60a5fa;">Indian Navy</div>
+        <div style="margin-left:12px;">
+          <div>Western Naval Command – HQ: Mumbai (Established 1968)</div>
+          <div>Eastern Naval Command – HQ: Visakhapatnam (1968)</div>
+          <div>Southern Naval Command – HQ: Kochi (1985)</div>
+        </div>
+
+        <!-- Air Force Commands -->
+        <div style="margin-top:12px; font-weight:bold; color:#60a5fa;">Indian Air Force</div>
+        <div style="margin-left:12px;">
+          <div>Western Air Command – HQ: New Delhi (1975)</div>
+          <div>Eastern Air Command – HQ: Shillong (1975)</div>
+          <div>Central Air Command – HQ: Allahabad (1980)</div>
+          <div>South Western Air Command – HQ: Gandhinagar (1995)</div>
+          <div>Southern Air Command – HQ: Thiruvananthapuram (1984)</div>
+          <div>Training Command – HQ: Bangalore (1990)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Defence Organisations, Weapons & Agreements -->
+    <div style="flex:1; min-width:280px; max-width:320px;">
+      <div style="background:#1a1c23; border:1px solid rgba(255,255,255,0.12); border-radius:8px; padding:12px; text-align:center; font-weight:bold; color:#4ade80;">
+        Defence Organisations, Weapons &amp; Agreements
+      </div>
+      <div style="margin-left:20px; border-left:2px solid #60a5fa; padding-left:12px; margin-top:10px;">
+        <!-- Organisations -->
+        <div style="margin-top:8px; font-weight:bold; color:#60a5fa;">Organisations</div>
+        <div style="margin-left:12px;">
+          <div>DRDO – Defence Research & Development Organisation (est. 1958)</div>
+          <div>HAL – Hindustan Aeronautics Limited (est. 1940)</div>
+          <div>ISRO – Indian Space Research Organisation (est. 1969)</div>
+          <div>BARC – Bhabha Atomic Research Centre (est. 1954)</div>
+          <div>ADE – Armoured Corps Centre & School (est. 1975)</div>
+        </div>
+
+        <!-- Weapons -->
+        <div style="margin-top:12px; font-weight:bold; color:#60a5fa;">Key Weapons Systems</div>
+        <div style="margin-left:12px;">
+          <div>Akash SAM – Range: 30 km, Operational since 2009</div>
+          <div>BrahMos Cruise Missile – Speed: Mach 2.8, Range: 400 km</div>
+          <div>Arjun MBT – Main‑Battle‑Tank, 120 mm gun, Service entry 2004</div>
+          <div>INS Vikramaditya – Aircraft Carrier, commissioned 2013</div>
+          <div>LCA Tejas – Light Combat Aircraft, first flight 2003, IOC 2015</div>
+        </div>
+
+        <!-- Agreements -->
+        <div style="margin-top:12px; font-weight:bold; color:#60a5fa;">International Agreements</div>
+        <div style="margin-left:12px;">
+          <div>2020 – Logistics Exchange Agreement (LEA) with United States (signed 12 Oct 2020)</div>
+          <div>2021 – India‑France Strategic Partnership (defence‑tech co‑development, signed 27 Oct 2021)</div>
+          <div>2022 – Quad Joint Naval Exercises (Hawaii, 2022) – India, US, Japan, Australia</div>
+          <div>2023 – Defence Procurement Procedure (DPP) 2023 – new procurement rules effective 1 Apr 2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+DIAGRAMS_DB["military-aptitude__tactical-defence-gk"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background:#0f1117; color:#e2e8f0;">
+  <div style="background:#0f1117; color:#e2e8f0; padding:12px; font-size:24px; font-weight:bold; border-bottom:1px solid rgba(255,255,255,0.12); text-align:center;">
+    Exercises & Missile Systems
+  </div>
+  <div style="padding:30px;">
+    <div style="display:flex; flex-direction:column; align-items:center;">
+      <!-- Central Chapter Node -->
+      <div style="background:#4ade80; color:#0f1117; padding:12px 24px; border-radius:8px; font-weight:bold; box-shadow:0 0 8px rgba(0,0,0,0.5);">
+        Chapter: Exercises & Missile Systems
+      </div>
+      <div style="width:2px; background:rgba(255,255,255,0.12); height:30px; margin:10px 0;"></div>
+      <!-- Branches -->
+      <div style="display:flex; justify-content:center; gap:120px; margin-top:20px;">
+        <!-- Left Column: Joint Military Exercises -->
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <div style="background:#60a5fa; color:#0f1117; padding:10px 20px; border-radius:6px; font-weight:bold; box-shadow:0 0 6px rgba(0,0,0,0.4);">
+            Joint Military Exercises
+          </div>
+          <div style="width:2px; background:rgba(255,255,255,0.12); height:20px; margin:8px 0;"></div>
+          <div style="display:flex; flex-direction:column; align-items:center; gap:14px;">
+            <div style="background:#4ade80; color:#0f1117; padding:8px 14px; border-radius:5px; text-align:center; box-shadow:0 0 4px rgba(0,0,0,0.3);">
+              <strong>MALABAR 2023</strong><br/>India‑USA<br/>13‑20 Mar 2023<br/>Naval drills, anti‑submarine warfare
+            </div>
+            <div style="background:#4ade80; color:#0f1117; padding:8px 14px; border-radius:5px; text-align:center; box-shadow:0 0 4px rgba(0,0,0,0.3);">
+              <strong>YUDH ABHYAS 2022</strong><br/>India‑USA<br/>Oct 2022<br/>Joint army training, counter‑terrorism
+            </div>
+            <div style="background:#4ade80; color:#0f1117; padding:8px 14px; border-radius:5px; text-align:center; box-shadow:0 0 4px rgba(0,0,0,0.3);">
+              <strong>INDRA 2023</strong><br/>India‑Russia<br/>Oct 2023<br/>Air‑force & navy exercises
+            </div>
+            <div style="background:#4ade80; color:#0f1117; padding:8px 14px; border-radius:5px; text-align:center; box-shadow:0 0 4px rgba(0,0,0,0.3);">
+              <strong>VAJRA SHAKTI 2021</strong><br/>India‑France<br/>Oct 2021<br/>Joint air‑ground drills
+            </div>
+          </div>
+        </div>
+        <!-- Right Column: IGMDP -->
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <div style="background:#60a5fa; color:#0f1117; padding:10px 20px; border-radius:6px; font-weight:bold; box-shadow:0 0 6px rgba(0,0,0,0.4);">
+            Integrated Guided Missile Development Programme (IGMDP)
+          </div>
+          <div style="width:2px; background:rgba(255,255,255,0.12); height:20px; margin:8px 0;"></div>
+          <div style="display:flex; flex-direction:column; align-items:center; gap:14px;">
+            <div style="background:#4ade80; color:#0f1117; padding:8px 14px; border-radius:5px; text-align:center; box-shadow:0 0 4px rgba(0,0,0,0.3);">
+              <strong>Prithvi (MR)</strong><br/>Range: 150‑350 km<br/>First test: 1988<br/>Tactical battlefield missile
+            </div>
+            <div style="background:#4ade80; color:#0f1117; padding:8px 14px; border-radius:5px; text-align:center; box-shadow:0 0 4px rgba(0,0,0,0.3);">
+              <strong>Agni‑V</strong><br/>Range: >5,000 km<br/>First test: 2012<br/>IRBM, nuclear deterrent
+            </div>
+            <div style="background:#4ade80; color:#0f1117; padding:8px 14px; border-radius:5px; text-align:center; box-shadow:0 0 4px rgba(0,0,0,0.3);">
+              <strong>Akash</strong><br/>Range: 30 km<br/>First test: 2004<br/>Medium‑range SAM
+            </div>
+            <div style="background:#4ade80; color:#0f1117; padding:8px 14px; border-radius:5px; text-align:center; box-shadow:0 0 4px rgba(0,0,0,0.3);">
+              <strong>Nag (ATGM)</strong><br/>Range: 4‑7 km<br/>First test: 1999<br/>Anti‑tank guided missile
+            </div>
+            <div style="background:#4ade80; color:#0f1117; padding:8px 14px; border-radius:5px; text-align:center; box-shadow:0 0 4px rgba(0,0,0,0.3);">
+              <strong>BrahMos (Supersonic Cruise)</strong><br/>Range: 290 km (up to 400 km)<br/>First test: 2001<br/>Indo‑Russian joint project
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+DIAGRAMS_DB["military-aptitude__reasoning-oir"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif;">
+  <div style="background:#0f1117; color:#e2e8f0; padding:20px; position:relative;">
+    <!-- Title Bar -->
+    <div style="text-align:center; margin-bottom:30px;">
+      <div style="display:inline-block; background:#4ade80; color:#0f1117; padding:8px 16px; font-weight:bold; border-radius:4px; font-size:1.2em;">
+        Reasoning &amp; OIR (SSB)
+      </div>
+    </div>
+    <!-- Connecting Lines (SVG) -->
+    <svg width="100%" height="300" style="position:absolute; top:0; left:0; pointer-events:none;">
+      <line x1="50%" y1="80" x2="25%" y2="180" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+      <line x1="50%" y1="80" x2="75%" y2="180" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+      <line x1="50%" y1="80" x2="50%" y2="180" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+    </svg>
+    <!-- Branch Boxes -->
+    <div style="display:flex; justify-content:space-around; margin-top:140px; flex-wrap:wrap; gap:20px;">
+      <!-- Verbal Reasoning -->
+      <div style="background:#60a5fa; padding:16px; border-radius:8px; width:30%; min-width:260px; box-shadow:0 2px 6px rgba(0,0,0,0.5);">
+        <h3 style="margin:0 0 10px; color:#0f1117; font-size:1.1em;">Verbal Reasoning &amp; OIR</h3>
+        <ul style="margin:0; padding-left:20px; color:#e2e8f0; line-height:1.5;">
+          <li>Syllogism (2 premises → conclusion)</li>
+          <li>Analogy (A : B :: C : D)</li>
+          <li>Logical Deduction (If P→Q, P true ⇒ Q true)</li>
+          <li>Coding‑Decoding (1→A, 2→B, …)</li>
+          <li>Data Sufficiency (e.g., “Is X > Y?”)</li>
+          <li>OIR pattern: “Apple, Banana, ___, Date” → Cherry</li>
+        </ul>
+      </div>
+      <!-- Non‑Verbal Reasoning -->
+      <div style="background:#4ade80; padding:16px; border-radius:8px; width:30%; min-width:260px; box-shadow:0 2px 6px rgba(0,0,0,0.5);">
+        <h3 style="margin:0 0 10px; color:#0f1117; font-size:1.1em;">Non‑Verbal Reasoning &amp; OIR</h3>
+        <ul style="margin:0; padding-left:20px; color:#e2e8f0; line-height:1.5;">
+          <li>Figure Series (2, 6, 12, 20 → n² + n)</li>
+          <li>Mirror Image (horizontal/vertical)</li>
+          <li>Paper Folding (fold‑unfold)</li>
+          <li>Matrix Reasoning (Raven’s Progressive Matrices)</li>
+          <li>Odd‑One‑Out (3, 7, 11, 14 → 14)</li>
+          <li>OIR: “Select the figure that completes the sequence”</li>
+        </ul>
+      </div>
+      <!-- Spatial & Non‑Verbal (AFCAT) -->
+      <div style="background:#60a5fa; padding:16px; border-radius:8px; width:30%; min-width:260px; box-shadow:0 2px 6px rgba(0,0,0,0.5);">
+        <h3 style="margin:0 0 10px; color:#0f1117; font-size:1.1em;">Spatial &amp; Non‑Verbal (AFCAT)</h3>
+        <ul style="margin:0; padding-left:20px; color:#e2e8f0; line-height:1.5;">
+          <li>3D Rotation (Angle = 360° / n)</li>
+          <li>Cube Visualization (front‑right‑top orientation)</li>
+          <li>Map Reading (scale 1:250 000)</li>
+          <li>Pattern Recognition (next shape prediction)</li>
+          <li>Formula: Volume of cylinder V = πr²h</li>
+          <li>OIR in AFCAT: “Identify the figure after 90° rotation”</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+DIAGRAMS_DB["military-aptitude__afcat-nonverbal-reasoning"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background:#0f1117; color:#e2e8f0;">
+  <div style="background:#0f1117; padding:12px; text-align:center; font-size:24px; font-weight:bold; color:#4ade80; border-bottom:1px solid rgba(255,255,255,0.12);">
+    Non-Verbal Reasoning (AFCAT)
+  </div>
+  <svg width="1200" height="800" style="background:#0f1117;">
+    <!-- Root Node -->
+    <rect x="500" y="20" width="200" height="50" fill="#60a5fa" rx="5"/>
+    <text x="600" y="50" fill="#0f1117" font-size="16" text-anchor="middle" font-family="'Segoe UI',sans-serif">Chapter Overview</text>
+
+    <!-- Connecting line from root to subtopics -->
+    <line x1="600" y1="70" x2="600" y2="100" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Subtopic 1: Figure Analogy -->
+    <rect x="50" y="120" width="180" height="120" fill="#4ade80" rx="5"/>
+    <text x="140" y="140" fill="#0f1117" font-size="14" text-anchor="middle" font-family="'Segoe UI',sans-serif">Figure Analogy</text>
+    <text x="140" y="160" fill="#0f1117" font-size="12" text-anchor="middle" font-family="'Segoe UI',sans-serif">
+      <tspan x="140" dy="0">Typical patterns:</tspan>
+      <tspan x="140" dy="16">• Rotation (90°,180°,270°)</tspan>
+      <tspan x="140" dy="16">• Mirror (vertical/horizontal)</tspan>
+      <tspan x="140" dy="16">• Scaling (×2, ÷2)</tspan>
+    </text>
+    <line x1="600" y1="100" x2="140" y2="120" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Subtopic 2: Figure Classification & Series -->
+    <rect x="210" y="120" width="180" height="120" fill="#4ade80" rx="5"/>
+    <text x="300" y="140" fill="#0f1117" font-size="14" text-anchor="middle" font-family="'Segoe UI',sans-serif">Classification & Series</text>
+    <text x="300" y="160" fill="#0f1117" font-size="12" text-anchor="middle" font-family="'Segoe UI',sans-serif">
+      <tspan x="300" dy="0">Key rules:</tspan>
+      <tspan x="300" dy="16">• Odd/Even count</tspan>
+      <tspan x="300" dy="16">• Increment/Decrement</tspan>
+      <tspan x="300" dy="16">• Alternating pattern</tspan>
+    </text>
+    <line x1="600" y1="100" x2="300" y2="120" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Subtopic 3: Figure/Pattern Completion -->
+    <rect x="370" y="120" width="180" height="120" fill="#4ade80" rx="5"/>
+    <text x="460" y="140" fill="#0f1117" font-size="14" text-anchor="middle" font-family="'Segoe UI',sans-serif">Pattern Completion</text>
+    <text x="460" y="160" fill="#0f1117" font-size="12" text-anchor="middle" font-family="'Segoe UI',sans-serif">
+      <tspan x="460" dy="0">Common grids:</tspan>
+      <tspan x="460" dy="16">• 2×2, 3×3, 4×4 matrices</tspan>
+      <tspan x="460" dy="16">• Missing element logic</tspan>
+      <tspan x="460" dy="16">• Sum/Difference rule</tspan>
+    </text>
+    <line x1="600" y1="100" x2="460" y2="120" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Subtopic 4: Embedded Figures -->
+    <rect x="530" y="120" width="180" height="120" fill="#4ade80" rx="5"/>
+    <text x="620" y="140" fill="#0f1117" font-size="14" text-anchor="middle" font-family="'Segoe UI',sans-serif">Embedded Figures</text>
+    <text x="620" y="160" fill="#0f1117" font-size="12" text-anchor="middle" font-family="'Segoe UI',sans-serif">
+      <tspan x="620" dy="0">Approach:</tspan>
+      <tspan x="620" dy="16">• Identify hidden shape</tspan>
+      <tspan x="620" dy="16">• Use overlay technique</tspan>
+      <tspan x="620" dy="16">• Typical count: 6–8 Qs</tspan>
+    </text>
+    <line x1="600" y1="100" x2="620" y2="120" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Subtopic 5: Dot Situation -->
+    <rect x="690" y="120" width="180" height="120" fill="#4ade80" rx="5"/>
+    <text x="780" y="140" fill="#0f1117" font-size="14" text-anchor="middle" font-family="'Segoe UI',sans-serif">Dot Situation</text>
+    <text x="780" y="160" fill="#0f1117" font-size="12" text-anchor="middle" font-family="'Segoe UI',sans-serif">
+      <tspan x="780" dy="0">Patterns:</tspan>
+      <tspan x="780" dy="16">• Rotation, Translation</tspan>
+      <tspan x="780" dy="16">• Mirror symmetry</tspan>
+      <tspan x="780" dy="16">• Incremental steps</tspan>
+    </text>
+    <line x1="600" y1="100" x2="780" y2="120" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Subtopic 6: Cube and Dice -->
+    <rect x="850" y="120" width="180" height="120" fill="#4ade80" rx="5"/>
+    <text x="940" y="140" fill="#0f1117" font-size="14" text-anchor="middle" font-family="'Segoe UI',sans-serif">Cube & Dice</text>
+    <text x="940" y="160" fill="#0f1117" font-size="12" text-anchor="middle" font-family="'Segoe UI',sans-serif">
+      <tspan x="940" dy="0">Key concepts:</tspan>
+      <tspan x="940" dy="16">• 3‑D rotation (X/Y/Z axis)</tspan>
+      <tspan x="940" dy="16">• Net unfolding</tspan>
+      <tspan x="940" dy="16">• Dice number patterns</tspan>
+    </text>
+    <line x1="600" y1="100" x2="940" y2="120" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Subtopic 7: Figure Coding -->
+    <rect x="1010" y="120" width="180" height="120" fill="#4ade80" rx="5"/>
+    <text x="1100" y="140" fill="#0f1117" font-size="14" text-anchor="middle" font-family="'Segoe UI',sans-serif">Figure Coding</text>
+    <text x="1100" y="160" fill="#0f1117" font-size="12" text-anchor="middle" font-family="'Segoe UI',sans-serif">
+      <tspan x="1100" dy="0">Typical codes:</tspan>
+      <tspan x="1100" dy="16">• Binary (0/1)</tspan>
+      <tspan x="1100" dy="16">• Alphanumeric (A‑Z, 0‑9)</tspan>
+      <tspan x="1100" dy="16">• Pattern → Code mapping</tspan>
+    </text>
+    <line x1="600" y1="100" x2="1100" y2="120" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Footer note -->
+    <text x="600" y="260" fill="#e2e8f0" font-size="14" text-anchor="middle" font-family="'Segoe UI',sans-serif">
+      AFCAT Non‑Verbal Section: 20 questions • 10 minutes • 30 % of total marks
+    </text>
+  </svg>
+</div>
+`;
+
+DIAGRAMS_DB["current-affairs__reports-awards-judgments"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background:#0f1117; color:#e2e8f0; padding:20px; box-sizing:border-box;">
+  <!-- Title Bar -->
+  <div style="background:#4ade80; color:#0f1117; text-align:center; font-size:24px; font-weight:bold; padding:12px 0; margin-bottom:20px; border-radius:6px;">
+    Reports, Awards & Judgments
+  </div>
+
+  <!-- Diagram Container -->
+  <div style="position:relative; width:100%; min-height:900px; background:#0f1117;">
+    <!-- SVG for connectors -->
+    <svg width="100%" height="900" style="position:absolute; top:0; left:0; pointer-events:none;">
+      <!-- Central to Topics -->
+      <line x1="50%" y1="45%" x2="20%" y2="20%" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+      <line x1="50%" y1="45%" x2="80%" y2="20%" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+      <line x1="50%" y1="45%" x2="20%" y2="80%" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+      <line x1="50%" y1="45%" x2="80%" y2="80%" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+      <line x1="50%" y1="45%" x2="50%" y2="10%" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+      <line x1="50%" y1="45%" x2="50%" y2="75%" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    </svg>
+
+    <!-- Central Node -->
+    <div style="
+        position:absolute;
+        top:45%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:140px;
+        height:140px;
+        background:#60a5fa;
+        border-radius:50%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        font-weight:bold;
+        font-size:16px;
+        padding:10px;
+        box-shadow:0 0 12px rgba(96,165,250,0.6);
+        border:2px solid rgba(255,255,255,0.12);
+      ">
+      Chapter Overview
+    </div>
+
+    <!-- Topic Boxes -->
+    <!-- 1. Important Reports & Indices -->
+    <div style="
+        position:absolute;
+        top:20%;
+        left:20%;
+        transform:translate(-50%,-50%);
+        width:260px;
+        background:#4ade80;
+        border-radius:8px;
+        padding:12px;
+        box-shadow:0 0 8px rgba(74,222,128,0.6);
+        border:1px solid rgba(255,255,255,0.12);
+      ">
+      <div style="font-weight:bold; margin-bottom:6px;">Important Reports & Indices</div>
+      <ul style="margin:0; padding-left:18px; font-size:13px;">
+        <li>World Bank – World Development Indicators (2023)</li>
+        <li>IMF – World Economic Outlook, Apr 2024</li>
+        <li>NITI Aayog – Index of Overall Development (2022‑23)</li>
+        <li>UNDP – Human Development Report 2023‑24</li>
+        <li>Global Innovation Index 2023 (Switzerland rank 1)</li>
+      </ul>
+    </div>
+
+    <!-- 2. Landmark SC & HC Judgments -->
+    <div style="
+        position:absolute;
+        top:20%;
+        left:80%;
+        transform:translate(-50%,-50%);
+        width:260px;
+        background:#4ade80;
+        border-radius:8px;
+        padding:12px;
+        box-shadow:0 0 8px rgba(74,222,128,0.6);
+        border:1px solid rgba(255,255,255,0.12);
+      ">
+      <div style="font-weight:bold; margin-bottom:6px;">Landmark SC & HC Judgments</div>
+      <ul style="margin:0; padding-left:18px; font-size:13px;">
+        <li>Navtej Singh Johar v. Union of India (2018) – LGBTQ rights</li>
+        <li>Justice K.S. Puttaswamy v. Union of India (2017) – Right to Privacy</li>
+        <li>Ayodhya Verdict (2019) – 16 Nov 2019</li>
+        <li>Vaccine‑Related HC Orders – Tamil Nadu HC (2021) on COVID‑19 vaccine distribution</li>
+        <li>Supreme Court – Sabarimala Entry (2018) – Gender Equality</li>
+      </ul>
+    </div>
+
+    <!-- 3. National Awards & Honours -->
+    <div style="
+        position:absolute;
+        top:80%;
+        left:20%;
+        transform:translate(-50%,-50%);
+        width:260px;
+        background:#4ade80;
+        border-radius:8px;
+        padding:12px;
+        box-shadow:0 0 8px rgba(74,222,128,0.6);
+        border:1px solid rgba(255,255,255,0.12);
+      ">
+      <div style="font-weight:bold; margin-bottom:6px;">National Awards & Honours</div>
+      <ul style="margin:0; padding-left:18px; font-size:13px;">
+        <li>Padma Vibhushan – 2023 (e.g., Dr Madhuri Mukherjee)</li>
+        <li>Padma Bhushan – 2024 (e.g., Dr Rohini Sanjay)</li>
+        <li>Padma Shri – 2023 (44 recipients)</li>
+        <li>Arjuna Award – 2023 (71 sportspersons)</li>
+        <li>Gallantry – Param Vir Chakra (post‑humous 2022)</li>
+      </ul>
+    </div>
+
+    <!-- 4. Economic Measures & Policy Packages -->
+    <div style="
+        position:absolute;
+        top:80%;
+        left:80%;
+        transform:translate(-50%,-50%);
+        width:260px;
+        background:#4ade80;
+        border-radius:8px;
+        padding:12px;
+        box-shadow:0 0 8px rgba(74,222,128,0.6);
+        border:1px solid rgba(255,255,255,0.12);
+      ">
+      <div style="font-weight:bold; margin-bottom:6px;">Economic Measures & Policy Packages</div>
+      <ul style="margin:0; padding-left:18px; font-size:13px;">
+        <li>Atmanirbhar Bharat Package – ₹20 lakh crore (May 2020)</li>
+        <li>PM Gati Shakti National Master‑Plan – launched 15 Oct 2021</li>
+        <li>Fiscal Deficit 2023‑24 – 5.5 % of GDP (≈₹30 lakh crore)</li>
+        <li>Rural Employment Guarantee – 100 days of work (2022‑23)</li>
+        <li>PLI Scheme – 13 sectors, ₹1.97 lakh crore (2022‑27)</li>
+      </ul>
+    </div>
+
+    <!-- 5. Science, Tech & Space Missions -->
+    <div style="
+        position:absolute;
+        top:55%;
+        left:10%;
+        transform:translate(-50%,-50%);
+        width:260px;
+        background:#4ade80;
+        border-radius:8px;
+        padding:12px;
+        box-shadow:0 0 8px rgba(74,222,128,0.6);
+        border:1px solid rgba(255,255,255,0.12);
+      ">
+      <div style="font-weight:bold; margin-bottom:6px;">Science, Tech & Space Missions</div>
+      <ul style="margin:0; padding-left:18px; font-size:13px;">
+        <li>Chandrayaan‑3 – 23 Aug 2023 (soft‑landing)</li>
+        <li>Gaganyaan – First crewed flight targeted 2024‑25</li>
+        <li>ISRO‑PSLV‑C55 – 22 Sept 2023 (NASA‑LAUNCH‑1)</li>
+        <li>National AI Strategy – released 30 Mar 2023</li>
+        <li>India‑US Defense Technology Co‑operation Agreement 2022</li>
+      </ul>
+    </div>
+
+    <!-- 6. UPSC Core Current Affairs Syllabus Map -->
+    <div style="
+        position:absolute;
+        top:55%;
+        left:90%;
+        transform:translate(-50%,-50%);
+        width:260px;
+        background:#4ade80;
+        border-radius:8px;
+        padding:12px;
+        box-shadow:0 0 8px rgba(74,222,128,0.6);
+        border:1px solid rgba(255,255,255,0.12);
+      ">
+      <div style="font-weight:bold; margin-bottom:6px;">UPSC Core Current Affairs Syllabus</div>
+      <ul style="margin:0; padding-left:18px; font-size:13px;">
+        <li>International Relations – UN, SAARC, BIMSTEC</li>
+        <li>Economic Development – Fiscal Policy, Monetary Policy</li>
+        <li>Science & Technology – Space, AI, Biotechnology</li>
+        <li>Social Justice – Welfare Schemes, Gender Issues</li>
+        <li>Governance – Reports of CAG, NITI Aayog, RBI</li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+DIAGRAMS_DB["environment__biodiversity-conservation"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background:#0f1117; color:#e2e8f0; padding:10px;">
+  <div style="background:#4ade80; color:#0f1117; padding:12px; text-align:center; font-size:22px; font-weight:bold; border-radius:6px; margin-bottom:12px;">
+    Biodiversity &amp; Wildlife Conservation
+  </div>
+  <svg width="1200" height="800" viewBox="0 0 1200 800" style="background:#0f1117;">
+    <!-- Arrow marker definition -->
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#e2e8f0"/>
+      </marker>
+    </defs>
+
+    <!-- Central Ecosystem Node -->
+    <rect x="540" y="20" width="120" height="50" rx="8" fill="#60a5fa" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="600" y="50" text-anchor="middle" fill="#0f1117" font-size="14" font-weight="bold">Ecosystem</text>
+
+    <!-- Producers -->
+    <rect x="540" y="120" width="120" height="50" rx="8" fill="#4ade80" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="600" y="150" text-anchor="middle" fill="#0f1117" font-size="13">Producers<br/>(Plants)</text>
+    <line x1="600" y1="70" x2="600" y2="120" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Primary Consumers -->
+    <rect x="340" y="250" width="140" height="60" rx="8" fill="#60a5fa" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="410" y="285" text-anchor="middle" fill="#0f1117" font-size="13">Primary Consumers<br/>(Deer, Hare)</text>
+    <line x1="600" y1="170" x2="410" y2="250" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Secondary Consumers -->
+    <rect x="740" y="250" width="140" height="60" rx="8" fill="#60a5fa" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="810" y="285" text-anchor="middle" fill="#0f1117" font-size="13">Secondary Consumers<br/>(Leopard, Jackal)</text>
+    <line x1="600" y1="170" x2="810" y2="250" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Tertiary Consumers -->
+    <rect x="540" y="380" width="120" height="50" rx="8" fill="#4ade80" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="600" y="410" text-anchor="middle" fill="#0f1117" font-size="13">Tertiary Consumers<br/>(Tiger)</text>
+    <line x1="410" y1="310" x2="600" y2="380" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="810" y1="310" x2="600" y2="380" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Decomposers -->
+    <rect x="840" y="380" width="140" height="60" rx="8" fill="#4ade80" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="910" y="415" text-anchor="middle" fill="#0f1117" font-size="13">Decomposers<br/>(Fungi, Bacteria)</text>
+    <line x1="600" y1="430" x2="910" y2="380" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Environmental Cycles -->
+    <rect x="100" y="500" width="180" height="80" rx="8" fill="#60a5fa" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="190" y="525" text-anchor="middle" fill="#0f1117" font-size="13">Water Cycle<br/>(Monsoon, River Flow)</text>
+    <line x1="600" y1="430" x2="190" y2="500" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="380" y="500" width="180" height="80" rx="8" fill="#60a5fa" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="470" y="525" text-anchor="middle" fill="#0f1117" font-size="13">Nutrient Cycle<br/>(Nitrogen, Phosphorus)</text>
+    <line x1="600" y1="430" x2="470" y2="500" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Biodiversity Hotspots -->
+    <rect x="20" y="20" width="200" height="120" rx="8" fill="#4ade80" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="120" y="45" text-anchor="middle" fill="#0f1117" font-size="13" font-weight="bold">Biodiversity Hotspots</text>
+    <text x="120" y="70" text-anchor="middle" fill="#0f1117" font-size="12">• Western Ghats (1500+ endemic plants)</text>
+    <text x="120" y="90" text-anchor="middle" fill="#0f1117" font-size="12">• Eastern Himalayas</text>
+    <text x="120" y="110" text-anchor="middle" fill="#0f1117" font-size="12">• Indo‑Burma, Sundaland</text>
+    <line x1="120" y1="140" x2="600" y2="70" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Biosphere Reserves -->
+    <rect x="20" y="170" width="200" height="140" rx="8" fill="#60a5fa" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="120" y="195" text-anchor="middle" fill="#0f1117" font-size="13" font-weight="bold">Biosphere Reserves</text>
+    <text x="120" y="220" text-anchor="middle" fill="#0f1117" font-size="12">• Nilgiri (1990)</text>
+    <text x="120" y="240" text-anchor="middle" fill="#0f1117" font-size="12">• Sundarbans (1989)</text>
+    <text x="120" y="260" text-anchor="middle" fill="#0f1117" font-size="12">• Nanda Devi (2000)</text>
+    <text x="120" y="280" text-anchor="middle" fill="#0f1117" font-size="12">• Gulf of Mannar (2001)</text>
+    <line x1="120" y1="310" x2="600" y2="70" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Wildlife Protection Laws -->
+    <rect x="20" y="340" width="200" height="180" rx="8" fill="#4ade80" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="120" y="365" text-anchor="middle" fill="#0f1117" font-size="13" font-weight="bold">Wildlife Protection Laws</text>
+    <text x="120" y="390" text-anchor="middle" fill="#0f1117" font-size="12">• Wildlife Protection Act, 1972 (Act 33)</text>
+    <text x="120" y="410" text-anchor="middle" fill="#0f1117" font-size="12">• Amendment 2002 – added Schedule I</text>
+    <text x="120" y="430" text-anchor="middle" fill="#0f1117" font-size="12">• CITES (1973) – Appendix I, II</text>
+    <text x="120" y="450" text-anchor="middle" fill="#0f1117" font-size="12">• National Biodiversity Act, 2002</text>
+    <line x1="120" y1="520" x2="600" y2="70" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Conservation Projects -->
+    <rect x="20" y="540" width="200" height="200" rx="8" fill="#60a5fa" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="120" y="565" text-anchor="middle" fill="#0f1117" font-size="13" font-weight="bold">Conservation Projects</text>
+    <text x="120" y="590" text-anchor="middle" fill="#0f1117" font-size="12">• Project Tiger (1991) – 50+ tigers</text>
+    <text x="120" y="610" text-anchor="middle" fill="#0f1117" font-size="12">• Project Elephant (1992) – 27,000 elephants</text>
+    <text x="120" y="630" text-anchor="middle" fill="#0f1117" font-size="12">• Project Snow Leopard (2009)</text>
+    <text x="120" y="650" text-anchor="middle" fill="#0f1117" font-size="12">• Project Ganga (2009) – river health</text>
+    <line x1="120" y1="750" x2="600" y2="70" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- IUCN Red List -->
+    <rect x="20" y="760" width="200" height="180" rx="8" fill="#4ade80" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <text x="120" y="785" text-anchor="middle" fill="#0f1117" font-size="13" font-weight="bold">IUCN Red List (India)</text>
+    <text x="120" y="810" text-anchor="middle" fill="#0f1117" font-size="12">• Tiger – Endangered</text>
+    <text x="120" y="830" text-anchor="middle" fill="#0f1117" font-size="12">• Indian Elephant – Endangered</text>
+    <text x="120" y="850" text-anchor="middle" fill="#0f1117" font-size="12">• Gharial – Critically Endangered</text>
+    <text x="120" y="870" text-anchor="middle" fill="#0f1117" font-size="12">• Snow Leopard – Vulnerable</text>
+    <line x1="120" y1="950" x2="600" y2="70" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Connecting arrows from laws to projects -->
+    <line x1="120" y1="530" x2="120" y2="540" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="120" y1="540" x2="120" y2="560" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Legend (optional) -->
+    <rect x="1000" y="20" width="180" height="150" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="1090" y="45" fill="#e2e8f0" font-size="14" font-weight="bold">Legend</text>
+    <circle cx="1010" cy="70" r="8" fill="#4ade80"/>
+    <text x="1030" y="75" fill="#e2e8f0" font-size="13">Hotspots / Red List</text>
+    <circle cx="1010" cy="100" r="8" fill="#60a5fa"/>
+    <text x="1030" y="105" fill="#e2e8f0" font-size="13">Reserves / Projects</text>
+    <rect x="1005" y="120" width="12" height="12" fill="#4ade80"/>
+    <text x="1030" y="132" fill="#e2e8f0" font-size="13">Producer / Tertiary</text>
+    <rect x="1005" y="140" width="12" height="12" fill="#60a5fa"/>
+    <text x="1030" y="152" fill="#e2e8f0" font-size="13">Consumer / Decomposer</text>
+  </svg>
+</div>
+`;
+
