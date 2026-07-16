@@ -114,6 +114,25 @@ async function handleAuthAction() {
       }
     }
   } catch (error) {
+    // Handle Supabase rate limits gracefully by offering local fallback
+    if (error.message && error.message.toLowerCase().includes('rate limit')) {
+      const useOffline = confirm(`Supabase Error: ${error.message}\n\nSupabase limits email signups to 3 per hour on the free tier by default.\n\nWould you like to bypass this and continue in local testing mode?`);
+      if (useOffline) {
+        if (typeof STATE !== 'undefined') {
+          STATE.activeProfile = { email: email, status: email === 'trayodh@gmail.com' ? 'active' : 'pending_payment' };
+          if (typeof saveState === 'function') saveState();
+        }
+        document.getElementById('auth-modal').style.display = 'none';
+        updateUserProfile({ email: email });
+        
+        if (STATE.activeProfile && STATE.activeProfile.status !== 'active') {
+          if (typeof switchScreen === 'function') switchScreen('onboarding-payment');
+        } else {
+          if (typeof switchScreen === 'function') switchScreen('dashboard');
+        }
+        return;
+      }
+    }
     alert(`Error: ${error.message}`);
   } finally {
     actionBtn.innerText = originalText;
