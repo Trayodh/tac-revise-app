@@ -396,7 +396,7 @@ function switchScreen(screenId) {
     }
     
     // Admin Guard
-    if (screenId === 'admin' && STATE.activeProfile.email !== 'admin@jayastra.com') {
+    if (screenId === 'admin' && STATE.activeProfile.email !== 'trayodh@gmail.com') {
       alert('Unauthorized: Admin access only.');
       screenId = 'dashboard';
     }
@@ -7070,7 +7070,7 @@ window.renderAdminDashboard = function() {
   
   // Also include the current user if not already in mock list
   let displayUsers = [...window.MOCK_ADMIN_USERS];
-  if (STATE.activeProfile && STATE.activeProfile.email !== 'admin@jayastra.com' && !displayUsers.find(u => u.email === STATE.activeProfile.email)) {
+  if (STATE.activeProfile && STATE.activeProfile.email !== 'trayodh@gmail.com' && !displayUsers.find(u => u.email === STATE.activeProfile.email)) {
     displayUsers.push(STATE.activeProfile);
   }
   
@@ -7094,7 +7094,7 @@ window.renderAdminDashboard = function() {
 
 window.updateUserStatus = function(idx, newStatus) {
   let displayUsers = [...window.MOCK_ADMIN_USERS];
-  if (STATE.activeProfile && STATE.activeProfile.email !== 'admin@jayastra.com' && !displayUsers.find(u => u.email === STATE.activeProfile.email)) {
+  if (STATE.activeProfile && STATE.activeProfile.email !== 'trayodh@gmail.com' && !displayUsers.find(u => u.email === STATE.activeProfile.email)) {
     displayUsers.push(STATE.activeProfile);
   }
   const user = displayUsers[idx];

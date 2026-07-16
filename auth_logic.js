@@ -46,7 +46,7 @@ async function handleAuthAction() {
         }
 
         if (typeof STATE !== 'undefined') {
-          STATE.activeProfile = { email: email, status: email === 'admin@jayastra.com' ? 'active' : 'pending_payment' };
+          STATE.activeProfile = { email: email, status: email === 'trayodh@gmail.com' ? 'active' : 'pending_payment' };
           if (typeof saveState === 'function') saveState();
         }
         document.getElementById('auth-modal').style.display = 'none';
@@ -58,7 +58,7 @@ async function handleAuthAction() {
         }
       } else {
         if (typeof STATE !== 'undefined') {
-          STATE.activeProfile = { email: email, status: email === 'admin@jayastra.com' ? 'active' : 'pending_payment' };
+          STATE.activeProfile = { email: email, status: email === 'trayodh@gmail.com' ? 'active' : 'pending_payment' };
           if (typeof saveState === 'function') saveState();
         }
         document.getElementById('auth-modal').style.display = 'none';
@@ -80,7 +80,7 @@ async function handleAuthAction() {
         if (typeof STATE !== 'undefined') {
           // If profile doesn't exist or doesn't have a status, default it.
           if (!STATE.activeProfile || STATE.activeProfile.email !== email) {
-            STATE.activeProfile = { email: email, status: email === 'admin@jayastra.com' ? 'active' : 'pending_payment' };
+            STATE.activeProfile = { email: email, status: email === 'trayodh@gmail.com' ? 'active' : 'pending_payment' };
           }
           if (typeof saveState === 'function') saveState();
         }
@@ -99,7 +99,7 @@ async function handleAuthAction() {
         alert('Offline mode: Sign in mocked.');
         if (typeof STATE !== 'undefined') {
           if (!STATE.activeProfile || STATE.activeProfile.email !== email) {
-            STATE.activeProfile = { email: email, status: email === 'admin@jayastra.com' ? 'active' : 'pending_payment' };
+            STATE.activeProfile = { email: email, status: email === 'trayodh@gmail.com' ? 'active' : 'pending_payment' };
           }
           if (typeof saveState === 'function') saveState();
         }
@@ -140,7 +140,7 @@ function updateUserProfile(user) {
   // Show admin nav item if admin
   const adminNav = document.getElementById('nav-item-admin');
   if (adminNav) {
-    if (user.email === 'admin@jayastra.com') {
+    if (user.email === 'trayodh@gmail.com') {
       adminNav.style.display = 'flex';
     } else {
       adminNav.style.display = 'none';
