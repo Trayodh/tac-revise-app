@@ -188,8 +188,8 @@ const chalcolithicNew = `
 `;
 
 function replaceContent(key, newString) {
-  const regex = new RegExp('window\\.EXPANDED_NOTES_DATA\\["' + key + '"\\] = `[\\s\\S]*?`;');
-  content = content.replace(regex, 'window.EXPANDED_NOTES_DATA["' + key + '"] = `\\n' + newString + '\\n`;');
+  const regex = new RegExp('(window\\.)?EXPANDED_NOTES_DATA\\["' + key + '"\\] = `[\\s\\S]*?`;');
+  content = content.replace(regex, 'EXPANDED_NOTES_DATA["' + key + '"] = `\n' + newString + '\n`;');
 }
 
 replaceContent("mahajanapadas", mahajanapadasNew);

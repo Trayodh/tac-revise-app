@@ -2,1714 +2,1393 @@ window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
 EXPANDED_NOTES_DATA["universe-solar-system"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    The Universe & Solar System
-  </h3>
-  
-  <h4>The Universe</h4>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">The Universe &amp; Solar System</h2>
+
+  <h3>The Universe</h3>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Universe%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Universe" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <ul>
-    <li>The Universe is defined as the totality of everything that exists, including all matter, energy, planets, stars, galaxies, and the space-time continuum. It is incomprehensibly vast and its extent is still an active area of research.</li>
-    <li><strong>Study of the Universe:</strong> The scientific study of the universe is known as <strong>Cosmology</strong>.</li>
+    <li>The Universe encompasses all of space‑time, matter, energy, galaxies, stars, planets and the fundamental forces that govern them. Its scale is incomprehensible, extending far beyond the observable horizon.</li>
+    <li><strong>Study of the Universe:</strong> The scientific discipline that investigates the origin, evolution, and large‑scale structure of the cosmos is <strong>Cosmology</strong>.</li>
     <li><strong>Origin of the Universe:</strong>
       <ul>
-        <li>The most widely accepted scientific theory for the origin of the universe is the <strong>[[Big Bang Theory]]</strong>.</li>
-        <li><strong>Big Bang Theory:</strong> Proposed by Georges Lemaître in the 1920s. It states that the universe began as a very hot, dense, infinitely small point (a singularity) about 13.8 billion years ago. This singularity expanded rapidly (the Big Bang), and as it expanded, it cooled, allowing elementary particles to form, then atoms, and eventually galaxies, stars, and planets.</li>
-        <li><strong>Evidences for Big Bang:</strong> Expansion of the universe (observed by [[Edwin Hubble]]), Cosmic Microwave Background Radiation (CMBR), abundance of light elements (Hydrogen and Helium).</li>
-        <li>Other theories (less accepted): Steady State Theory, Pulsating Universe Theory, Inflationary Universe Theory.</li>
+        <li>The prevailing model is the <strong>Big Bang Theory</strong>, which posits that the Universe began ~13.8 billion years ago from an extremely hot, dense singularity that expanded and cooled, giving rise to elementary particles, atoms, stars and galaxies.</li>
+        <li><strong>Key evidences:</strong> Hubble’s observation of galactic recession, the Cosmic Microwave Background Radiation (CMBR), and the primordial abundances of hydrogen and helium.</li>
+        <li>Alternative, less‑favoured models include the Steady‑State Theory, Pulsating Universe, and Inflationary scenarios.</li>
       </ul>
     </li>
-    <li><strong>Components of the Universe:</strong> Galaxies, Stars, Planets, Nebulae, Asteroids, Comets, Dust, Gas, Dark Matter, and Dark Energy.</li>
-    <li><strong>[[Light Year]]:</strong> It is a unit of distance, not time. It is the distance that light travels in one Earth year, approximately 9.461 trillion kilometers or 5.88 trillion miles. This unit is used to measure astronomical distances due to the vastness of space.</li>
-    <li><strong>[[Hubble's Law]]:</strong> States that the speed at which galaxies are receding from us is proportional to their distance from us. This provides strong evidence for the expansion of the universe.</li>
+    <li><strong>Major Components:</strong> Galaxies, stars, planets, nebulae, asteroids, comets, interstellar dust, dark matter, and dark energy.</li>
+    <li><strong>Light‑Year:</strong> The distance light travels in one Julian year (~9.461 trillion km). It is a unit of length, not time, used for interstellar distances.</li>
+    <li><strong>Hubble’s Law:</strong> The recession velocity of a galaxy is proportional to its distance (v = H₀ d), providing quantitative proof of cosmic expansion.</li>
   </ul>
 
-  <h4>Galaxies</h4>
+  <h3>Galaxies</h3>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Milky%20Way%20Galaxy%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Milky Way" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <ul>
-    <li>A <strong>galaxy</strong> is a massive system of stars, stellar remnants, interstellar gas, dust, and dark matter, all bound together by gravity.</li>
-    <li>There are billions of galaxies in the observable universe.</li>
+    <li>A galaxy is a gravitationally bound system of stars, stellar remnants, gas, dust, and dark matter.</li>
+    <li>Observable Universe contains billions of galaxies of diverse morphologies.</li>
     <li><strong>Types of Galaxies:</strong>
       <ul>
-        <li><strong>Spiral Galaxies:</strong> Characterized by a flat, rotating disk with spiral arms extending from a central bulge. Our [[Milky Way Galaxy]] is a spiral galaxy.</li>
-        <li><strong>Elliptical Galaxies:</strong> Smooth, featureless, elliptical shape, ranging from nearly spherical to highly elongated. They typically contain older stars and less interstellar gas and dust.</li>
-        <li><strong>Irregular Galaxies:</strong> Do not have a distinct regular shape, often due to gravitational interactions with other galaxies. They contain abundant gas and dust, and are sites of active star formation.</li>
+        <li><strong>Spiral:</strong> Flat rotating disks with winding arms (e.g., the Milky Way).</li>
+        <li><strong>Elliptical:</strong> Smooth, spheroidal structures with older stellar populations.</li>
+        <li><strong>Irregular:</strong> Chaotic shapes, often resulting from gravitational interactions.</li>
       </ul>
     </li>
-    <li><strong>[[Milky Way Galaxy]]:</strong>
+    <li><strong>Milky Way Galaxy:</strong>
       <ul>
-        <li>Our solar system is located in the Milky Way, which is a barred spiral galaxy.</li>
-        <li>It contains an estimated 100-400 billion stars.</li>
-        <li>The Sun is located in one of the spiral arms (Orion Arm) about two-thirds of the way out from the galactic center.</li>
-        <li>The nearest major galaxy to the Milky Way is the [[Andromeda Galaxy]], which is also a spiral galaxy and is on a collision course with the Milky Way, expected in about 4.5 billion years.</li>
+        <li>Barred spiral galaxy containing ~100–400 billion stars.</li>
+        <li>Our Solar System resides in the Orion‑Cygnus (Orion) arm, roughly two‑thirds of the way from the Galactic centre.</li>
+        <li>Nearest large neighbour is the Andromeda Galaxy, projected to merge with the Milky Way in ~4.5 billion years.</li>
       </ul>
     </li>
   </ul>
 
-  <h4>Stars</h4>
+  <h3>Stars</h3>
   <ul>
-    <li>A <strong>star</strong> is a luminous sphere of plasma held together by its own gravity. It generates heat and light through nuclear fusion in its core, primarily converting hydrogen into helium.</li>
-    <li><strong>Composition:</strong> Primarily Hydrogen (about 73%) and Helium (about 25%), with trace amounts of heavier elements.</li>
-    <li><strong>Life Cycle of a Star:</strong>
+    <li>A star is a self‑gravitating sphere of plasma that generates energy through nuclear fusion, primarily converting hydrogen into helium.</li>
+    <li><strong>Composition:</strong> ~73 % hydrogen, ~25 % helium, with trace heavier elements (metals).</li>
+    <li><strong>Stellar Evolution:</strong>
       <ul>
-        <li><strong>Nebula:</strong> A giant cloud of gas and dust where stars are born (stellar nursery).</li>
-        <li><strong>Protostar:</strong> A contracting mass of gas that represents an early stage in the formation of a star, before nuclear fusion begins.</li>
-        <li><strong>Main Sequence Star:</strong> The longest stage of a star's life (e.g., our Sun). Nuclear fusion of hydrogen to helium occurs steadily in its core.</li>
-        <li><strong>Red Giant/Supergiant:</strong> As a star runs out of hydrogen fuel, its core contracts, and its outer layers expand and cool, becoming a red giant (for Sun-like stars) or a red supergiant (for more massive stars).</li>
-        <li><strong>End Stages:</strong>
+        <li><strong>Nebula:</strong> Dense molecular cloud where star formation initiates.</li>
+        <li><strong>Protostar:</strong> Gravitational contraction phase preceding nuclear ignition.</li>
+        <li><strong>Main‑Sequence:</strong> Longest stable phase; our Sun is a G‑type main‑sequence star.</li>
+        <li><strong>Red Giant / Supergiant:</strong> Post‑main‑sequence expansion as core hydrogen is exhausted.</li>
+        <li><strong>End States:</strong>
           <ul>
-            <li><strong>White Dwarf:</strong> For stars up to 8 times the mass of the Sun, after shedding their outer layers (planetary nebula), the remaining core becomes a dense, hot white dwarf, which slowly cools over billions of years. A white dwarf cannot exceed the [[Chandrasekhar Limit]] (approx. 1.4 solar masses).</li>
-            <li><strong>Neutron Star:</strong> For more massive stars (8-25 solar masses), after a supernova explosion, the core collapses into an extremely dense neutron star.</li>
-            <li><strong>Black Hole:</strong> For very massive stars (over 25 solar masses), after a supernova, the core collapses completely under its own gravity to form a black hole, an object with gravity so strong that nothing, not even light, can escape.</li>
+            <li><strong>White Dwarf:</strong> Remnant of ≤8 M☉ stars; supported by electron degeneracy pressure; limited by the Chandrasekhar limit (~1.4 M☉).</li>
+            <li><strong>Neutron Star:</strong> Collapse of 8–25 M☉ cores; composed of degenerate neutrons.</li>
+            <li><strong>Black Hole:</strong> Remnant of >25 M☉ stars; escape velocity exceeds the speed of light.</li>
           </ul>
         </li>
       </ul>
     </li>
-    <li><strong>Nearest Star to Earth (after the Sun):</strong> [[Proxima Centauri]], part of the Alpha Centauri triple star system, about 4.24 light-years away.</li>
+    <li><strong>Nearest Star (after the Sun):</strong> Proxima Centauri, part of the Alpha Centauri system, ~4.24 ly away.</li>
   </ul>
 
-  <h4>The Sun</h4>
+  <h3>The Sun</h3>
   <ul>
-    <li>The Sun is the star at the center of our solar system. It is a G-type main-sequence star (a "yellow dwarf").</li>
-    <li><strong>Age:</strong> Approximately 4.6 billion years old, about halfway through its main-sequence stage.</li>
-    <li><strong>Size:</strong> It accounts for about 99.86% of the total mass of the solar system. Its diameter is about 109 times that of Earth.</li>
-    <li><strong>Distance from Earth:</strong> Approximately 149.6 million kilometers (1 [[Astronomical Unit]] - AU).</li>
-    <li><strong>Energy Source:</strong> Nuclear fusion, primarily converting hydrogen into helium in its core, releasing immense energy in the form of electromagnetic radiation (light, heat, UV, X-rays).</li>
-    <li><strong>Structure of the Sun:</strong>
+    <li>G‑type main‑sequence star (yellow dwarf) at the centre of the Solar System.</li>
+    <li><strong>Age &amp; Size:</strong> ~4.6 billion years old; diameter ≈109 × Earth’s; accounts for 99.86 % of Solar System mass.</li>
+    <li><strong>Distance from Earth:</strong> 1 Astronomical Unit (≈149.6 million km).</li>
+    <li><strong>Energy Source:</strong> Core hydrogen fusion via the proton‑proton chain, releasing photons across the electromagnetic spectrum.</li>
+    <li><strong>Internal Structure:</strong>
       <ul>
-        <li><strong>Core:</strong> Innermost region (15 million °C), where nuclear fusion occurs.</li>
-        <li><strong>Radiative Zone:</strong> Energy is transported outward by photons.</li>
-        <li><strong>Convective Zone:</strong> Energy is transported by convection currents of plasma.</li>
+        <li>Core (≈15 MK) – site of fusion.</li>
+        <li>Radiative Zone – energy transport by photon diffusion.</li>
+        <li>Convective Zone – energy transport by plasma convection.</li>
       </ul>
     </li>
-    <li><strong>Atmosphere of the Sun:</strong>
+    <li><strong>Atmospheric Layers:</strong>
       <ul>
-        <li><strong>Photosphere:</strong> Visible surface of the Sun, about 5,800 K. It emits most of the sunlight.</li>
-        <li><strong>Chromosphere:</strong> Thin, reddish layer above the photosphere, visible during total solar eclipses.</li>
-        <li><strong>Corona:</strong> Outermost layer, extremely hot (millions of K), extends millions of kilometers into space, visible as a pearly white crown during total solar eclipses.</li>
+        <li>Photosphere – visible surface (~5,800 K).</li>
+        <li>Chromosphere – thin reddish layer visible during eclipses.</li>
+        <li>Corona – extremely hot outer atmosphere (millions of K), source of solar wind.</li>
       </ul>
     </li>
     <li><strong>Solar Phenomena:</strong>
       <ul>
-        <li><strong>Sunspots:</strong> Darker, cooler regions on the photosphere caused by intense magnetic activity. They occur in cycles of approximately 11 years.</li>
-        <li><strong>Solar Flares:</strong> Intense bursts of radiation (X-rays, UV) from the Sun's surface.</li>
-        <li><strong>Solar Wind:</strong> A stream of charged particles (plasma) constantly flowing outward from the Sun's corona, creating the [[Heliosphere]].</li>
-        <li><strong>Aurora Borealis (Northern Lights) & Aurora Australis (Southern Lights):</strong> Caused by interactions of solar wind particles with Earth's magnetic field and atmosphere.</li>
+        <li>Sunspots – cooler magnetic regions, 11‑year cycle.</li>
+        <li>Solar Flares – sudden releases of high‑energy radiation.</li>
+        <li>Solar Wind – continuous outflow of charged particles shaping the Heliosphere.</li>
+        <li>Auroras – atmospheric emissions caused by solar‑wind interactions with Earth’s magnetosphere.</li>
       </ul>
     </li>
   </ul>
 
-  <h4>The Solar System</h4>
+  <h3>The Solar System</h3>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Solar%20System%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Solar System" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <ul>
-    <li>Our solar system consists of the Sun and everything gravitationally bound to it, including 8 planets, 5 recognized dwarf planets, more than 200 known natural satellites (moons), countless asteroids, comets, and a vast amount of interstellar dust and gas.</li>
-    <li><strong>Formation:</strong> The most accepted theory is the <strong>Nebular Hypothesis</strong>, which suggests that the solar system formed approximately 4.6 billion years ago from the gravitational collapse of a giant molecular cloud (solar nebula).</li>
-    <li><strong>[[Kepler's Laws of Planetary Motion]]:</strong> These three scientific laws describe the motion of planets around the Sun, formulated by Johannes Kepler in the early 17th century.</li>
-    <li><strong>Planets:</strong> Celestial bodies that orbit a star, are massive enough to be rounded by their own gravity, and have cleared their orbit of other debris.</li>
-    <li><strong>Classification of Planets:</strong>
+    <li>The Solar System comprises the Sun, eight major planets, five recognised dwarf planets, >200 moons, countless asteroids, comets, and interplanetary dust.</li>
+    <li><strong>Formation:</strong> Nebular Hypothesis – a rotating molecular cloud collapsed ~4.6 billion years ago, forming a protoplanetary disk.
       <ul>
-        <li><strong>[[Terrestrial Planets]] (Inner Planets):</strong> Mercury, Venus, Earth, Mars.
-          <ul>
-            <li>Characteristics: Rocky, dense, smaller, solid surfaces, fewer moons, closer to the Sun.</li>
-          </ul>
-        </li>
-        <li><strong>[[Jovian Planets]] (Outer Planets / Gas Giants):</strong> Jupiter, Saturn, Uranus, Neptune.
-          <ul>
-            <li>Characteristics: Gaseous, less dense, much larger, no solid surface, many moons, prominent ring systems.</li>
-          </ul>
-        </li>
+        <li>Planetesimals coalesced into planetary embryos, eventually yielding the present planets.</li>
+      </ul>
+    </li>
+    <li><strong>Kepler’s Laws:</strong> Three empirical relations describing planetary orbits (elliptical paths, equal areas in equal times, and period‑semi‑major‑axis relation).</li>
+    <li><strong>Planet Classification:</strong>
+      <ul>
+        <li><strong>Terrestrial (Inner) Planets:</strong> Mercury, Venus, Earth, Mars – rocky, dense, relatively small, few or no moons.</li>
+        <li><strong>Jovian (Outer) Planets:</strong> Jupiter, Saturn, Uranus, Neptune – massive, gaseous/icy, extensive satellite systems, prominent rings.</li>
       </ul>
     </li>
   </ul>
 
-  <h4>Individual Planets</h4>
+  <h3>Individual Planets</h3>
   <ul>
-    <li><strong>1. Mercury:</strong>
+    <li><strong>Mercury:</strong>
       <ul>
-        <li>Closest planet to the Sun.</li>
-        <li>Smallest planet in the solar system.</li>
-        <li>No substantial atmosphere (leading to extreme temperature variations).</li>
-        <li>Heavily cratered surface, resembling Earth's Moon.</li>
-        <li>Fastest orbital speed.</li>
-        <li>No natural satellites.</li>
+        <li>Closest to the Sun; smallest planet; negligible atmosphere; heavily cratered; fastest orbital speed; no moons.</li>
       </ul>
     </li>
-    <li><strong>2. Venus:</strong>
+    <li><strong>Venus:</strong>
       <ul>
-        <li>Often called "Earth's Twin" due to similar size and mass.</li>
-        <li>Hottest planet due to a runaway greenhouse effect from a dense atmosphere of carbon dioxide.</li>
-        <li>Brightest object in the night sky after the Moon.</li>
-        <li>Rotates clockwise (retrograde rotation), opposite to most planets.</li>
-        <li>No natural satellites.</li>
+        <li>Similar size to Earth but enveloped by a dense CO₂ atmosphere causing a runaway greenhouse effect; hottest planet; retrograde rotation; no moons.</li>
       </ul>
     </li>
-    <li><strong>3. Earth:</strong>
+    <li><strong>Earth:</strong>
       <ul>
-        <li>The "Blue Planet" or "Water Planet" due to abundant surface water.</li>
-        <li>Only known planet to support life.</li>
-        <li>Has a protective magnetic field (magnetosphere).</li>
-        <li>Atmosphere composed mainly of Nitrogen (78%) and Oxygen (21%).</li>
-        <li>One natural satellite: The Moon (Luna).</li>
+        <li>Only known life‑supporting world; 71 % surface covered by water; protective magnetosphere; atmosphere dominated by N₂ (78 %) and O₂ (21 %); one natural satellite – the Moon.</li>
       </ul>
     </li>
-    <li><strong>4. Mars:</strong>
+    <li><strong>Mars:</strong>
       <ul>
-        <li>The "Red Planet" due to iron oxide (rust) on its surface.</li>
-        <li>Thin atmosphere, polar ice caps (water ice and CO2).</li>
-        <li>Evidence of past liquid water on its surface.</li>
-        <li>Two small, irregularly shaped moons: Phobos and Deimos.</li>
+        <li>Red appearance due to iron oxide; thin CO₂ atmosphere; polar ice caps of water and dry ice; evidence of ancient fluvial activity; two small moons – Phobos and Deimos.</li>
       </ul>
     </li>
-    <li><strong>[[Asteroid Belt]]:</strong> Located between Mars and Jupiter, a region populated by millions of asteroids (minor planets).</li>
-    <li><strong>5. Jupiter:</strong>
+    <li><strong>Asteroid Belt:</strong> Region between Mars and Jupiter populated by millions of minor planets.
+    </li>
+    <li><strong>Jupiter:</strong>
       <ul>
-        <li>Largest planet in the solar system.</li>
-        <li>A gas giant, composed primarily of hydrogen and helium.</li>
-        <li>Known for its Great Red Spot, a persistent anticyclonic storm larger than Earth.</li>
-        <li>Fastest rotation among all planets.</li>
-        <li>Has a faint ring system and a large number of moons; Ganymede is the largest moon in the solar system (larger than Mercury).</li>
+        <li>Largest planet; composed mainly of hydrogen and helium; features the Great Red Spot (a centuries‑old anticyclone); fastest rotation; faint ring system; 79 known moons, with Ganymede being larger than Mercury.</li>
       </ul>
     </li>
-    <li><strong>6. Saturn:</strong>
+    <li><strong>Saturn:</strong>
       <ul>
-        <li>Second largest planet.</li>
-        <li>Most distinctive feature is its prominent and extensive ring system, made mostly of ice particles and rocky debris.</li>
-        <li>Least dense planet (could float in water).</li>
-        <li>Has numerous moons; Titan is its largest moon and the only moon in the solar system with a substantial atmosphere.</li>
+        <li>Second‑largest planet; renowned for its extensive icy ring system; lowest mean density (can float on water); numerous moons, notably Titan, which possesses a dense nitrogen‑rich atmosphere.</li>
       </ul>
     </li>
-    <li><strong>7. Uranus:</strong>
+    <li><strong>Uranus:</strong>
       <ul>
-        <li>An "ice giant" with a composition distinct from Jupiter and Saturn.</li>
-        <li>Rotates on its side (extreme axial tilt of about 98 degrees), making it appear to roll around its orbit.</li>
-        <li>Has a faint ring system and many moons.</li>
-        <li>Atmosphere contains methane, giving it a blue-green color.</li>
+        <li>Ice giant with a methane‑rich atmosphere giving a blue‑green hue; extreme axial tilt (~98°) causes seasonal extremes; faint rings; 27 known moons.</li>
       </ul>
     </li>
-    <li><strong>8. Neptune:</strong>
+    <li><strong>Neptune:</strong>
       <ul>
-        <li>Farthest known planet from the Sun.</li>
-        <li>Also an "ice giant," similar in composition to Uranus.</li>
-        <li>Known for its strong winds and dynamic weather patterns (e.g., Great Dark Spot, though less stable than Jupiter's Red Spot).</li>
-        <li>Has a faint ring system and many moons; Triton is its largest moon, notable for its retrograde orbit and cryovolcanism.</li>
+        <li>Outermost giant; similar composition to Uranus; strongest winds in the Solar System; faint rings; 14 known moons, with Triton exhibiting retrograde orbit and possible cryovolcanism.</li>
       </ul>
     </li>
   </ul>
 
-  <h4>Dwarf Planets</h4>
+  <h3>Dwarf Planets</h3>
   <ul>
-    <li>Defined by the [[International Astronomical Union (IAU)]] in 2006.</li>
-    <li>A celestial body that orbits the Sun, is massive enough to be rounded by its own gravity, but has NOT cleared the neighborhood around its orbit.</li>
-    <li>Examples: [[Pluto]], Ceres, Eris, Makemake, Haumea.</li>
+    <li>IAU definition (2006): bodies orbiting the Sun, massive enough for hydrostatic equilibrium, but not having cleared their orbital neighbourhood.</li>
+    <li>Recognised examples: Pluto, Ceres, Eris, Makemake, Haumea.</li>
   </ul>
 
-  <h4>Other Celestial Bodies</h4>
+  <h3>Other Celestial Bodies</h3>
   <ul>
-    <li><strong>Asteroids:</strong>
+    <li><strong>Asteroids:</strong> Small rocky/metallic objects, primarily residing in the Asteroid Belt; size ranges from meters to hundreds of kilometres.</li>
+    <li><strong>Comets:</strong> Ice‑dust conglomerates originating from the Kuiper Belt and Oort Cloud; develop comae and tails when approaching the Sun due to solar radiation and wind. Example: Halley’s Comet (≈76‑year period).</li>
+    <li><strong>Meteoroids, Meteors, Meteorites:</strong>
       <ul>
-        <li>Small, irregularly shaped rocky or metallic bodies that orbit the Sun.</li>
-        <li>Mostly found in the [[Asteroid Belt]] between Mars and Jupiter.</li>
-        <li>Vary in size from a few meters to hundreds of kilometers.</li>
+        <li>Meteoroid – space‑borne rock/metal fragment.</li>
+        <li>Meteor – luminous streak produced when a meteoroid ablates in Earth’s atmosphere.</li>
+        <li>Meteorite – fragment that survives atmospheric entry and lands on Earth.</li>
       </ul>
     </li>
-    <li><strong>Comets:</strong>
-      <ul>
-        <li>Often called "dirty snowballs" or "cosmic snowballs."</li>
-        <li>Composed of ice, dust, and rocky particles.</li>
-        <li>When near the Sun, they develop a luminous coma (atmosphere) and one or more tails (dust and gas) that point away from the Sun due to solar wind and radiation pressure.</li>
-        <li>Originate from the [[Kuiper Belt]] (beyond Neptune) and the more distant [[Oort Cloud]].</li>
-        <li>Famous example: Halley's Comet (visible every 75-76 years).</li>
-      </ul>
-    </li>
-    <li><strong>Meteoroids, Meteors, and Meteorites:</strong>
-      <ul>
-        <li><strong>Meteoroid:</strong> A small rocky or metallic body traveling through space, much smaller than an asteroid.</li>
-        <li><strong>Meteor:</strong> When a meteoroid enters Earth's atmosphere and burns up due to friction, creating a streak of light (a "shooting star").</li>
-        <li><strong>Meteorite:</strong> A meteoroid that survives its passage through the atmosphere and strikes the Earth's surface.</li>
-      </ul>
-    </li>
-    <li><strong>Satellites (Moons):</strong>
-      <ul>
-        <li>Natural celestial bodies that orbit planets or dwarf planets.</li>
-        <li>Earth has one natural satellite, the Moon.</li>
-      </ul>
-    </li>
-    <li><strong>[[Exoplanets]]:</strong>
-      <ul>
-        <li>Planets that orbit stars other than our Sun.</li>
-        <li>Thousands have been discovered, indicating that planetary systems are common throughout the galaxy.</li>
-      </ul>
-    </li>
+    <li><strong>Natural Satellites (Moons):</strong> Bodies that orbit planets or dwarf planets; Earth’s sole moon is called the Moon (Luna).</li>
+    <li><strong>Exoplanets:</strong> Planets orbiting stars other than the Sun; thousands discovered, indicating planetary systems are common throughout the Milky Way.</li>
   </ul>
 </div>
 `;
 
 EXPANDED_NOTES_DATA["earth-atmosphere"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    Earth Structure & Atmosphere
-  </h3>
-  
-  <h4>I. Earth's Interior Structure</h4>
-  <p>The Earth's interior is composed of several concentric layers, each with distinct physical and chemical properties. Understanding its structure is crucial for comprehending geological phenomena.</p>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Earth Structure &amp; Atmosphere</h2>
 
+  <h3>I. Earth’s Interior Structure</h3>
+  <p>The Earth is a differentiated sphere composed of concentric layers that differ in composition, density, temperature, and physical state. Understanding these layers is essential for interpreting seismic activity, volcanic processes, and the generation of the magnetic field.</p>
+
+  <h4>Sources of Information about the Earth’s Interior</h4>
   <ul>
-    <li><strong>Sources of Information about the Earth's Interior:</strong>
+    <li><strong>Direct Sources</strong>
       <ul>
-        <li><strong>Direct Sources:</strong>
-          <ul>
-            <li><strong>Mining and Drilling Projects:</strong> Deepest drill is Kola Superdeep Borehole (approx. 12 km), which only scratches the surface.</li>
-            <li><strong>Volcanic Eruptions:</strong> Bring molten material (magma) from some depth to the surface.</li>
-          </ul>
-        </li>
-        <li><strong>Indirect Sources:</strong>
-          <ul>
-            <li><strong>[[Seismic waves]]:</strong> The most important source. P-waves (compressional) travel through solids, liquids, and gases, while S-waves (shear) only travel through solids. Their changes in velocity and direction (refraction, reflection) provide critical information about the density and state of different layers.</li>
-            <li><strong>Meteorites:</strong> Believed to have a structure similar to Earth's, offering insights into Earth's initial composition.</li>
-            <li><strong>Gravity Anomalies:</strong> Variations in gravitational force indicate uneven distribution of mass material within the Earth.</li>
-            <li><strong>Magnetic Field:</strong> Generated by dynamic processes in the Earth's outer core.</li>
-            <li><strong>Temperature and Pressure:</strong> Both increase with depth, influencing the physical state of materials.</li>
-          </ul>
-        </li>
+        <li><strong>Mining &amp; Drilling Projects</strong>: The deepest artificial penetration is the Kola Super‑deep Borehole (~12 km), which only scratches the crust.</li>
+        <li><strong>Volcanic Eruptions</strong>: Bring mantle‑derived magma to the surface, providing clues about composition and temperature.</li>
       </ul>
     </li>
-
-    <li><strong>Layers of the Earth (Based on Composition and Physical Properties):</strong>
+    <li><strong>Indirect Sources</strong>
       <ul>
-        <li><strong>A. The Crust:</strong>
-          <ul>
-            <li>The outermost solid layer of the Earth.</li>
-            <li><strong>Thickness:</strong> Varies greatly; 5-30 km for oceanic crust, up to 70 km for continental crust (under mountain ranges).</li>
-            <li><strong>Density:</strong> Lowest among all layers (approx. 2.7-3.0 g/cm³).</li>
-            <li><strong>Types:</strong>
-              <ul>
-                <li><strong>Continental Crust:</strong> Composed mainly of lighter silicates (silica + aluminium) – known as <strong>SIAL</strong>. Average density 2.7 g/cm³. Rich in granitic rocks.</li>
-                <li><strong>Oceanic Crust:</strong> Composed mainly of heavier silicates (silica + magnesium) – known as <strong>SIMA</strong>. Average density 3.0 g/cm³. Rich in basaltic rocks.</li>
-              </ul>
-            </li>
-            <li><strong>[[Moho Discontinuity]] (Mohorovičić Discontinuity):</strong> Separates the crust from the mantle. Marked by a sudden increase in seismic wave velocity.</li>
-          </ul>
-        </li>
-        <li><strong>B. The Mantle:</strong>
-          <ul>
-            <li>Extends from the Moho Discontinuity to a depth of about 2,900 km.</li>
-            <li>Accounts for about 84% of Earth's volume and 67% of its mass.</li>
-            <li>Composed primarily of silicate rocks rich in iron and magnesium.</li>
-            <li><strong>Upper Mantle:</strong>
-              <ul>
-                <li><strong>[[Asthenosphere]]:</strong> The upper part of the mantle, a mechanically weak and ductile layer (semi-molten). Extends from about 100-400 km. The plates of the lithosphere (crust + uppermost rigid mantle) float and move on this layer due to [[Convection currents]].</li>
-                <li>Below the asthenosphere, the mantle becomes more rigid due to increasing pressure.</li>
-              </ul>
-            </li>
-            <li><strong>Lower Mantle:</strong> Solid, very dense, and extends to the core-mantle boundary.</li>
-            <li><strong>[[Gutenberg Discontinuity]] (Core-Mantle Boundary):</strong> Separates the mantle from the outer core at a depth of ~2,900 km. Marked by a sharp decrease in P-wave velocity and total disappearance of S-waves (indicating a liquid outer core).</li>
-          </ul>
-        </li>
-        <li><strong>C. The Core:</strong>
-          <ul>
-            <li>The innermost layer of the Earth.</li>
-            <li>Accounts for about 15% of Earth's volume and 33% of its mass.</li>
-            <li>Primarily composed of Nickel (Ni) and Iron (Fe) – known as <strong>NIFE</strong>.</li>
-            <li><strong>Outer Core:</strong>
-              <ul>
-                <li>Extends from ~2,900 km to 5,100 km.</li>
-                <li>Believed to be in a <strong>liquid state</strong> because S-waves cannot pass through it.</li>
-                <li>Responsible for generating the Earth's magnetic field through convective motion of metallic iron.</li>
-              </ul>
-            </li>
-            <li><strong>Inner Core:</strong>
-              <ul>
-                <li>Extends from ~5,100 km to the Earth's center (6,371 km).</li>
-                <li>Believed to be in a <strong>solid state</strong> due to immense pressure, despite extremely high temperatures (estimated to be similar to the surface of the Sun, ~5,500°C).</li>
-              </ul>
-            </li>
-            <li><strong>[[Lehmann Discontinuity]] (Inner-Outer Core Boundary):</strong> Separates the liquid outer core from the solid inner core at ~5,100 km.</li>
-          </ul>
-        </li>
+        <li><strong>Seismic Waves</strong>: P‑waves (compressional) travel through solids, liquids, and gases; S‑waves (shear) travel only through solids. Their velocities, refractions, and reflections delineate layer boundaries.</li>
+        <li><strong>Meteorites</strong>: Provide a proxy for the Earth’s primordial material.</li>
+        <li><strong>Gravity Anomalies</strong>: Reveal mass distribution variations.</li>
+        <li><strong>Magnetic Field</strong>: Generated by fluid motions in the outer core.</li>
+        <li><strong>Temperature &amp; Pressure Gradients</strong>: Increase with depth, dictating phase changes.</li>
       </ul>
     </li>
   </ul>
 
-  <h4>II. Earth's Dynamic Processes (Brief Overview related to Structure)</h4>
-  <p>The internal structure drives dynamic processes that shape the Earth's surface.</p>
+  <h4>Layered Structure (Based on Composition &amp; Physical Properties)</h4>
   <ul>
-    <li><strong>[[Plate Tectonics]]:</strong>
+    <li><strong>The Crust</strong>
       <ul>
-        <li>The theory that the Earth's outer rigid layer (lithosphere) is broken into large plates that move slowly over the [[Asthenosphere]].</li>
-        <li>Driven by convection currents within the mantle.</li>
-        <li><strong>Types of Plate Boundaries:</strong>
+        <li>Outermost solid shell; thickness 5–30 km (oceanic) and up to 70 km (continental).</li>
+        <li>Density: 2.7–3.0 g cm⁻³ (lowest of all layers).</li>
+        <li>Types:
           <ul>
-            <li><strong>[[Divergent boundary]]:</strong> Plates move apart (e.g., Mid-Oceanic Ridges, Rift Valleys). Causes seafloor spreading and volcanism.</li>
-            <li><strong>[[Convergent boundary]]:</strong> Plates move towards each other (e.g., Subduction zones, Mountain building like Himalayas). Leads to earthquakes, volcanism, and orogenesis.</li>
-            <li><strong>[[Transform boundary]]:</strong> Plates slide past each other horizontally (e.g., San Andreas Fault). Causes frequent shallow earthquakes.</li>
+            <li><strong>Continental Crust (SIAL)</strong>: Silica‑Aluminium rich, granitic composition, average density ~2.7 g cm⁻³.</li>
+            <li><strong>Oceanic Crust (SIMA)</strong>: Silica‑Magnesium rich, basaltic composition, average density ~3.0 g cm⁻³.</li>
           </ul>
         </li>
-        <li>Responsible for major geological phenomena like earthquakes, volcanoes, and the formation of mountain ranges.</li>
+        <li><strong>Moho Discontinuity</strong>: Sudden increase in seismic velocity separating crust from mantle.</li>
+      </ul>
+    </li>
+    <li><strong>The Mantle</strong>
+      <ul>
+        <li>Extends from the Moho (~35 km) to ~2,900 km depth; accounts for ~84 % of Earth’s volume.</li>
+        <li>Composition: Silicate minerals rich in Fe and Mg.</li>
+        <li><strong>Upper Mantle</strong>
+          <ul>
+            <li><strong>Asthenosphere</strong>: 100–400 km depth, mechanically weak, partially molten; lithospheric plates float on it.</li>
+            <li>Below the asthenosphere, rigidity increases with pressure.</li>
+          </ul>
+        </li>
+        <li><strong>Lower Mantle</strong>: Solid, highly viscous, extends to the core‑mantle boundary.</li>
+        <li><strong>Gutenberg Discontinuity (Core‑Mantle Boundary)</strong>: ~2,900 km depth; marked by a sharp drop in P‑wave velocity and disappearance of S‑waves.</li>
+      </ul>
+    </li>
+    <li><strong>The Core</strong>
+      <ul>
+        <li>Central region; ~15 % of Earth’s volume, ~33 % of its mass.</li>
+        <li>Composition: Iron‑Nickel alloy (often abbreviated NIFE).</li>
+        <li><strong>Outer Core</strong>: 2,900–5,100 km depth; liquid state, responsible for the geomagnetic field via convection.</li>
+        <li><strong>Inner Core</strong>: 5,100–6,371 km depth; solid due to extreme pressure despite temperatures comparable to the Sun’s surface (~5,500 °C).</li>
+        <li><strong>Lehmann Discontinuity</strong>: Boundary between liquid outer core and solid inner core (~5,100 km).</li>
       </ul>
     </li>
   </ul>
 
-  <h4>III. Earth's Atmosphere</h4>
-  <p>The atmosphere is a multi-layered gaseous envelope surrounding the Earth, held by its gravitational pull. It is vital for life on Earth, regulating temperature, providing essential gases, and protecting from harmful radiation and space debris.</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Earth%20internal%20layers%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Earth internal layers" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
+  <h4>Dynamic Processes Driven by Interior Structure</h4>
+  <p>Heat from radioactive decay and residual primordial heat drives mantle convection, which in turn powers plate tectonics, volcanism, and orogenesis.</p>
   <ul>
-    <li><strong>Composition of the Atmosphere:</strong>
+    <li><strong>Plate Tectonics</strong>
       <ul>
-        <li><strong>Permanent Gases (Constant Proportions):</strong>
+        <li>Lithosphere (crust + uppermost rigid mantle) is broken into major and minor plates that move over the asthenosphere.</li>
+        <li>Convection currents within the mantle provide the driving force.</li>
+        <li><strong>Boundary Types</strong>
           <ul>
-            <li><strong>Nitrogen (N₂):</strong> ~78% - Most abundant, essential for plant life (nitrogen fixation).</li>
-            <li><strong>Oxygen (O₂):</strong> ~21% - Essential for respiration and combustion.</li>
-            <li><strong>Argon (Ar):</strong> ~0.93% - Inert gas.</li>
-            <li>Other trace gases like Neon, Helium, Krypton, Xenon.</li>
+            <li><strong>Divergent</strong>: Mid‑Ocean Ridges, Rift Valleys – seafloor spreading and basaltic volcanism.</li>
+            <li><strong>Convergent</strong>: Subduction zones, continental collisions (e.g., Himalayas) – earthquakes, volcanic arcs, mountain building.</li>
+            <li><strong>Transform</strong>: Lateral slip (e.g., San Andreas Fault) – shallow, strike‑slip earthquakes.</li>
           </ul>
         </li>
-        <li><strong>Variable Gases (Fluctuating Proportions):</strong>
-          <ul>
-            <li><strong>Water Vapour (H₂O):</strong> 0-4% - Crucial for precipitation and heat absorption (greenhouse gas). Its concentration decreases with altitude and towards poles.</li>
-            <li><strong>Carbon Dioxide (CO₂):</strong> ~0.04% - Essential for photosynthesis, a significant greenhouse gas, absorbing terrestrial radiation. Its concentration is increasing due to human activities.</li>
-            <li><strong>Ozone (O₃):</strong> Present mainly in the stratosphere, absorbs harmful ultraviolet (UV) radiation from the sun.</li>
-          </ul>
-        </li>
-        <li><strong>Particulates:</strong>
-          <ul>
-            <li><strong>Dust Particles:</strong> Originate from various sources (sea salt, ash, pollen, soil). Act as hygroscopic nuclei (condensation nuclei) for cloud formation.</li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-
-    <li><strong>Structure of the Atmosphere (Layers based on Temperature Variations):</strong>
-      <ul>
-        <li><strong>1. [[Troposphere]]:</strong>
-          <ul>
-            <li><strong>Extent:</strong> Lowermost layer, extends up to ~8 km at the poles and ~18 km at the equator (average ~13 km).</li>
-            <li><strong>Temperature:</strong> Decreases with altitude at an average rate of 6.5°C per 1,000 meters (<strong>Normal Lapse Rate</strong>).</li>
-            <li><strong>Characteristics:</strong> Contains nearly all water vapour, dust particles, and most of the atmospheric mass (about 75-80%).</li>
-            <li><strong>Significance:</strong> All weather phenomena (clouds, rain, storms, fog) occur in this layer.</li>
-            <li><strong>Tropopause:</strong> The boundary between the troposphere and the stratosphere, where temperature stops decreasing and remains constant.</li>
-          </ul>
-        </li>
-        <li><strong>2. [[Stratosphere]]:</strong>
-          <ul>
-            <li><strong>Extent:</strong> Lies above the troposphere, extending up to ~50 km.</li>
-            <li><strong>Temperature:</strong> Increases with altitude, from -50°C to 0°C. This is due to the presence of the [[Ozone layer]].</li>
-            <li><strong>Characteristics:</strong> Contains the ozone layer (at 15-35 km), which absorbs harmful UV radiation. Free from clouds and weather disturbances, making it ideal for jet aircraft.</li>
-            <li><strong>Stratopause:</strong> The boundary between the stratosphere and the mesosphere, where temperature peaks.</li>
-          </ul>
-        </li>
-        <li><strong>3. [[Mesosphere]]:</strong>
-          <ul>
-            <li><strong>Extent:</strong> Extends above the stratosphere, up to ~80 km.</li>
-            <li><strong>Temperature:</strong> Decreases with altitude, reaching the coldest temperatures in the atmosphere (down to -90°C).</li>
-            <li><strong>Characteristics:</strong> Meteors burn up in this layer due to friction with atmospheric gases.</li>
-            <li><strong>Mesopause:</strong> The boundary between the mesosphere and the thermosphere, marking the coldest point.</li>
-          </ul>
-        </li>
-        <li><strong>4. [[Thermosphere]] (Ionosphere):</strong>
-          <ul>
-            <li><strong>Extent:</strong> Extends above the mesosphere, up to ~600 km.</li>
-            <li><strong>Temperature:</strong> Increases rapidly with altitude due to absorption of solar radiation by oxygen and nitrogen molecules. However, the air is extremely thin, so it wouldn't feel hot to a person.</li>
-            <li><strong>Characteristics:</strong> Contains electrically charged particles called ions, formed by solar radiation. These ions reflect radio waves, enabling long-distance radio communication.</li>
-            <li><strong>Auroras:</strong> The spectacular light displays (Aurora Borealis and Aurora Australis) occur here due to interaction of solar winds with Earth's magnetic field.</li>
-            <li>Sometimes sub-divided into <strong>Ionosphere</strong> (80-400 km) and <strong>Exosphere</strong> (above 400 km).</li>
-          </ul>
-        </li>
-        <li><strong>5. [[Exosphere]]:</strong>
-          <ul>
-            <li><strong>Extent:</strong> The outermost layer, extending beyond 600 km, gradually merging with outer space.</li>
-            <li><strong>Characteristics:</strong> Extremely thin air, primarily composed of hydrogen and helium atoms. Particles can escape Earth's gravity from this layer.</li>
-            <li>Part of the Earth's [[Magnetosphere]] which protects the Earth from solar wind.</li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-
-    <li><strong>Key Atmospheric Phenomena:</strong>
-      <ul>
-        <li><strong>Insolation:</strong> Incoming solar radiation, the primary energy source for the atmosphere.</li>
-        <li><strong>Heat Budget:</strong> The balance between incoming solar radiation and outgoing terrestrial radiation.</li>
-        <li><strong>Factors Affecting Temperature:</strong> Latitude, altitude, land and sea distribution, ocean currents, wind, cloud cover, aspect.</li>
-        <li><strong>Atmospheric Pressure:</strong> Weight of the air column above a unit area. Decreases with altitude. Influenced by temperature, altitude, and water vapour.</li>
-        <li><strong>Pressure Belts:</strong> Equatorial Low, Subtropical High, Subpolar Low, Polar High.</li>
-        <li><strong>Winds:</strong> Horizontal movement of air from high-pressure areas to low-pressure areas.
-          <ul>
-            <li><strong>Coriolis Effect:</strong> Deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere due to Earth's rotation.</li>
-            <li><strong>Types of Winds:</strong> Planetary (Trade winds, Westerlies, Polar Easterlies), Periodic (Monsoons, Land & Sea breezes), Local (Fohn, Chinook, Loo).</li>
-          </ul>
-        </li>
-        <li><strong>Humidity:</strong> Amount of water vapour in the atmosphere.
-          <ul>
-            <li><strong>Absolute Humidity:</strong> Mass of water vapour per unit volume of air.</li>
-            <li><strong>Relative Humidity:</strong> Ratio of actual water vapour content to the maximum possible at a given temperature, expressed as a percentage.</li>
-          </ul>
-        </li>
-        <li><strong>Clouds:</strong> Visible masses of minute water droplets or ice crystals suspended in the atmosphere. Classified by height and form (e.g., Cirrus, Cumulus, Stratus, Nimbus).</li>
-        <li><strong>Precipitation:</strong> Any form of water falling from the atmosphere to the Earth's surface (e.g., rain, snow, sleet, hail).
-          <ul>
-            <li><strong>Types:</strong> Convectional, Orographic (relief), Cyclonic (frontal).</li>
-          </ul>
-        </li>
+        <li>These processes shape the planet’s topography and trigger major natural hazards.</li>
       </ul>
     </li>
   </ul>
+
+  <h3>II. Earth’s Atmosphere</h3>
+  <p>The atmosphere is a stratified gaseous envelope retained by gravity. It regulates climate, supplies breathable gases, and shields life from harmful solar and cosmic radiation.</p>
+
+  <h4>Composition</h4>
+  <table style="width:100%; border-collapse:collapse; margin:15px 0;">
+    <thead>
+      <tr style="background:#f0f0f0;">
+        <th style="border:1px solid #ccc; padding:8px; text-align:left;">Component</th>
+        <th style="border:1px solid #ccc; padding:8px; text-align:left;">Typical Volume %</th>
+        <th style="border:1px solid #ccc; padding:8px; text-align:left;">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border:1px solid #ccc; padding:8px;">Nitrogen (N₂)</td>
+        <td style="border:1px solid #ccc; padding:8px;">~78</td>
+        <td style="border:1px solid #ccc; padding:8px;">Essential for protein synthesis via nitrogen fixation.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ccc; padding:8px;">Oxygen (O₂)</td>
+        <td style="border:1px solid #ccc; padding:8px;">~21</td>
+        <td style="border:1px solid #ccc; padding:8px;">Supports respiration and combustion.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ccc; padding:8px;">Argon (Ar)</td>
+        <td style="border:1px solid #ccc; padding:8px;">0.93</td>
+        <td style="border:1px solid #ccc; padding:8px;">Inert gas, negligible chemical role.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ccc; padding:8px;">Water Vapour (H₂O)</td>
+        <td style="border:1px solid #ccc; padding:8px;">0–4</td>
+        <td style="border:1px solid #ccc; padding:8px;">Primary greenhouse gas; varies with altitude and latitude.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ccc; padding:8px;">Carbon Dioxide (CO₂)</td>
+        <td style="border:1px solid #ccc; padding:8px;">0.04</td>
+        <td style="border:1px solid #ccc; padding:8px;">Key greenhouse gas; rising due to anthropogenic emissions.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ccc; padding:8px;">Ozone (O₃)</td>
+        <td style="border:1px solid #ccc; padding:8px;">Trace (stratospheric)</td>
+        <td style="border:1px solid #ccc; padding:8px;">Absorbs harmful UV radiation.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>Vertical Structure (Temperature‑Based Layers)</h4>
+  <ul>
+    <li><strong>Troposphere</strong>
+      <ul>
+        <li>Extent: 0–8 km (poles) to 0–18 km (equator); average ~13 km.</li>
+        <li>Temperature: Decreases with altitude at ~6.5 °C km⁻¹ (Normal Lapse Rate).</li>
+        <li>Contains ~75–80 % of atmospheric mass, most water vapour, and all weather phenomena.</li>
+        <li>Upper boundary = Tropopause.</li>
+      </ul>
+    </li>
+    <li><strong>Stratosphere</strong>
+      <ul>
+        <li>Extent: ~13–50 km.</li>
+        <li>Temperature: Increases with height due to ozone absorption of UV radiation.</li>
+        <li>Features the Ozone Layer (15–35 km) and is largely free of clouds.</li>
+        <li>Upper boundary = Stratopause.</li>
+      </ul>
+    </li>
+    <li><strong>Mesosphere</strong>
+      <ul>
+        <li>Extent: ~50–80 km.</li>
+        <li>Temperature: Decreases to the coldest atmospheric temperatures (~‑90 °C).</li>
+        <li>Meteors typically burn up here.</li>
+        <li>Upper boundary = Mesopause.</li>
+      </ul>
+    </li>
+    <li><strong>Thermosphere (Ionosphere)</strong>
+      <ul>
+        <li>Extent: ~80–600 km.</li>
+        <li>Temperature: Rises sharply with altitude due to absorption of high‑energy solar radiation.</li>
+        <li>Contains ionised gases; enables long‑distance radio communication and auroral displays.</li>
+        <li>Often divided into Ionosphere (80–400 km) and Exosphere (>400 km).</li>
+      </ul>
+    </li>
+    <li><strong>Exosphere</strong>
+      <ul>
+        <li>Extent: >600 km, gradually merging with outer space.</li>
+        <li>Composition: Very thin hydrogen and helium; particles can escape Earth’s gravity.</li>
+        <li>Part of the Magnetosphere that deflects solar wind.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Atmospheric%20layers%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Atmospheric layers" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <h4>Key Atmospheric Phenomena</h4>
+  <ul>
+    <li><strong>Insolation</strong>: Incoming solar radiation – primary energy source.</li>
+    <li><strong>Heat Budget</strong>: Balance between absorbed solar radiation and emitted terrestrial radiation.</li>
+    <li><strong>Factors Controlling Temperature</strong>: Latitude, altitude, land‑sea distribution, ocean currents, wind patterns, cloud cover, aspect.</li>
+    <li><strong>Atmospheric Pressure</strong>: Weight of the air column; decreases with altitude; influenced by temperature and moisture content.</li>
+    <li><strong>Pressure Belts</strong>: Equatorial Low, Subtropical High, Subpolar Low, Polar High.</li>
+    <li><strong>Winds</strong>: Air movement from high to low pressure.
+      <ul>
+        <li><strong>Coriolis Effect</strong>: Deflects moving air to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.</li>
+        <li><strong>Wind Types</strong>: Planetary (Trade Winds, Westerlies, Polar Easterlies), Periodic (Monsoons, Sea‑Breeze, Land‑Breeze), Local (Föhn, Chinook, Loo).</li>
+      </ul>
+    </li>
+    <li><strong>Humidity</strong>
+      <ul>
+        <li><strong>Absolute Humidity</strong>: Mass of water vapour per unit volume of air.</li>
+        <li><strong>Relative Humidity</strong>: Ratio of actual vapour content to the maximum possible at a given temperature (percentage).</li>
+      </ul>
+    </li>
+    <li><strong>Clouds</strong>: Classified by altitude (high, middle, low) and form (e.g., Cirrus, Cumulus, Stratus, Nimbus).</li>
+    <li><strong>Precipitation</strong>: Water falling to the surface – rain, snow, sleet, hail.
+      <ul>
+        <li>Types: Convectional, Orographic (relief‑induced), Cyclonic (frontal).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>Additional Visual Aid – Plate Tectonics</h4>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20global%20plate%20tectonics%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of global plate tectonics" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 `;
 
 EXPANDED_NOTES_DATA["climatology-clouds"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    Climatology: Climatic Zones & Clouds
-  </h3>
-  
-  <h4>I. Introduction to Climatology</h4>
-  <ul>
-    <li><strong>Climatology:</strong> The scientific study of [[Climate]], which is the long-term average weather pattern of a region.</li>
-    <li><strong>[[Weather]]:</strong> The state of the atmosphere at a particular place and time, referring to conditions such as temperature, humidity, precipitation, wind, etc. It is short-term and highly variable.</li>
-    <li><strong>Elements of Weather & Climate:</strong>
-      <ul>
-        <li>Temperature</li>
-        <li>Atmospheric Pressure</li>
-        <li>Wind</li>
-        <li>Humidity</li>
-        <li>Precipitation</li>
-        <li>Solar Radiation</li>
-        <li>Clouds</li>
-      </ul>
-    </li>
-    <li><strong>Factors Influencing Climate:</strong>
-      <ul>
-        <li>Latitude</li>
-        <li>Altitude</li>
-        <li>Distance from the Sea (Continentality)</li>
-        <li>Ocean Currents</li>
-        <li>Relief Features (Mountains)</li>
-        <li>Prevailing Winds</li>
-        <li>Vegetation Cover</li>
-      </ul>
-    </li>
-  </ul>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Climatology: Climatic Zones &amp; Clouds</h2>
 
-  <h4>II. Atmospheric Structure (Brief Overview)</h4>
-  <ul>
-    <li>The atmosphere is a multi-layered gaseous envelope surrounding Earth.</li>
-    <li><strong>Important Layers for Weather & Climate:</strong>
-      <ul>
-        <li><strong>[[Troposphere]]:</strong> The lowest layer, extending up to about 8-18 km. All weather phenomena occur here. Temperature decreases with altitude (Lapse Rate).</li>
-        <li><strong>Stratosphere:</strong> Extends up to 50 km. Contains the [[Ozone Layer]] which absorbs harmful UV radiation. Temperature generally increases with altitude.</li>
-      </ul>
-    </li>
-  </ul>
+  <section>
+    <h3>I. Introduction to Climatology</h3>
+    <ul>
+      <li><strong>Climatology:</strong> The scientific study of climate – the long‑term average of weather patterns over a region.</li>
+      <li><strong>Weather:</strong> Short‑term atmospheric conditions (temperature, humidity, precipitation, wind, etc.) at a specific place and time.</li>
+      <li><strong>Elements of Weather &amp; Climate:</strong>
+        <ul>
+          <li>Temperature</li>
+          <li>Atmospheric Pressure</li>
+          <li>Wind</li>
+          <li>Humidity</li>
+          <li>Precipitation</li>
+          <li>Solar Radiation</li>
+          <li>Clouds</li>
+        </ul>
+      </li>
+      <li><strong>Factors Influencing Climate:</strong>
+        <ul>
+          <li>Latitude</li>
+          <li>Altitude</li>
+          <li>Continentality (distance from sea)</li>
+          <li>Ocean Currents</li>
+          <li>Relief Features (mountains)</li>
+          <li>Prevailing Winds</li>
+          <li>Vegetation Cover</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 
-  <h4>III. Heat Budget & Temperature</h4>
-  <ul>
-    <li><strong>[[Insolation]] (INcoming SOLar radiATION):</strong> The amount of solar radiation received at the Earth's surface.</li>
-    <li><strong>Factors Affecting Insolation:</strong>
-      <ul>
-        <li>Angle of incidence of sun rays (latitude)</li>
-        <li>Length of the day</li>
-        <li>Transparency of the atmosphere (clouds, dust, water vapor)</li>
-        <li>Earth's distance from the Sun (perihelion & aphelion)</li>
-      </ul>
-    </li>
-    <li><strong>Heat Budget of the Earth:</strong> The balance between incoming solar radiation and outgoing terrestrial radiation. On average, the Earth maintains a constant temperature, implying a balance.</li>
-    <li><strong>Temperature Distribution:</strong>
-      <ul>
-        <li><strong>Horizontal:</strong> Generally decreases from equator to poles. Isotherms (lines connecting places of equal temperature) show patterns influenced by land/water distribution, ocean currents, and altitude.</li>
-        <li><strong>Vertical:</strong> Decreases with increasing altitude in the troposphere (Normal Lapse Rate: ~6.5°C per 1000m).</li>
-      </ul>
-    </li>
-    <li><strong>Temperature Inversion:</strong> A condition where temperature increases with altitude, contrary to the normal lapse rate. Occurs under stable atmospheric conditions (e.g., long winter nights, clear skies, calm air, snow-covered ground). Can lead to fog and pollution trapping.</li>
-  </ul>
+  <section>
+    <h3>II. Atmospheric Structure (Brief Overview)</h3>
+    <ul>
+      <li>The atmosphere is a multi‑layered gaseous envelope surrounding Earth.</li>
+      <li><strong>Key Layers for Weather &amp; Climate:</strong>
+        <ul>
+          <li><strong>Troposphere:</strong> Extends up to ~8‑18 km. All weather phenomena occur here. Temperature decreases with height (normal lapse rate).</li>
+          <li><strong>Stratosphere:</strong> Extends to ~50 km and houses the ozone layer, which absorbs harmful UV radiation. Temperature generally increases with height.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 
-  <h4>IV. Atmospheric Pressure & Winds</h4>
-  <ul>
-    <li><strong>[[Atmospheric Pressure]]:</strong> The force exerted by the weight of a column of air above a given unit area. Measured in millibars (mb) or hectopascals (hPa).</li>
-    <li><strong>Pressure Belts of the Earth:</strong>
-      <ul>
-        <li><strong>Equatorial Low Pressure Belt (Doldrums):</strong> 0°-5° N/S. Caused by intense heating and ascendance of air.</li>
-        <li><strong>Subtropical High Pressure Belts (Horse Latitudes):</strong> 25°-35° N/S. Caused by subsiding air from the upper troposphere.</li>
-        <li><strong>Subpolar Low Pressure Belts:</strong> 60°-65° N/S. Caused by the meeting of warm westerlies and cold polar easterlies, leading to uplift.</li>
-        <li><strong>Polar High Pressure Belts:</strong> 80°-90° N/S. Caused by intense cooling and subsidence of air.</li>
-      </ul>
-    </li>
-    <li><strong>Forces Affecting Wind Direction & Speed:</strong>
-      <ul>
-        <li><strong>Pressure Gradient Force:</strong> Drives wind from high pressure to low pressure. Stronger gradient means faster winds.</li>
-        <li><strong>[[Coriolis Force]]:</strong> An apparent force due to Earth's rotation. Deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Zero at the equator, maximum at the poles.</li>
-        <li><strong>Frictional Force:</strong> Opposes wind direction, slowing it down. Significant near the surface, negligible at higher altitudes.</li>
-      </ul>
-    </li>
-    <li><strong>Types of Winds:</strong>
-      <ul>
-        <li><strong>Planetary / Permanent Winds:</strong> Blow consistently throughout the year in a particular direction.
-          <ul>
-            <li><strong>Trade Winds:</strong> Blow from subtropical high to equatorial low. North-east trades in NH, South-east trades in SH.</li>
-            <li><strong>Westerlies:</strong> Blow from subtropical high to subpolar low. South-west westerlies in NH, North-west westerlies in SH.</li>
-            <li><strong>Polar Easterlies:</strong> Blow from polar high to subpolar low. North-east polar easterlies in NH, South-east polar easterlies in SH.</li>
-          </ul>
-        </li>
-        <li><strong>Seasonal Winds ([[Monsoons]]):</strong> Reversal of wind direction with seasons, most prominent in South Asia. Caused by differential heating of land and sea.
-          <ul>
-            <li><strong>Summer Monsoon:</strong> Onshore winds bringing heavy rainfall.</li>
-            <li><strong>Winter Monsoon:</strong> Offshore winds, generally dry.</li>
-          </ul>
-        </li>
-        <li><strong>Local Winds:</strong> Specific to small areas, influenced by local relief and temperature differences.
-          <ul>
-            <li><strong>Land & Sea Breezes:</strong> Day (sea to land), Night (land to sea).</li>
-            <li><strong>Mountain & Valley Breezes:</strong> Day (valley to mountain), Night (mountain to valley).</li>
-            <li><strong>Chinook (USA/Canada Rockies):</strong> Warm, dry, down-slope wind.</li>
-            <li><strong>Foehn (Alps):</strong> Similar to Chinook.</li>
-            <li><strong>Sirocco (North Africa/Mediterranean):</strong> Hot, dusty, from Sahara.</li>
-            <li><strong>Mistral (Southern France):</strong> Cold, dry, from Alps.</li>
-            <li><strong>Loo (Indo-Gangetic Plain):</strong> Hot, dry, local wind in summer.</li>
-          </ul>
-        </li>
-        <li><strong>[[Jet Streams]]:</strong> Narrow belts of high-altitude (7-14 km) high-velocity winds (westerlies) in the upper troposphere. Influence surface weather patterns, including [[Tropical Cyclones]] and [[Temperate Cyclones]].</li>
-      </ul>
-    </li>
-  </ul>
+  <section>
+    <h3>III. Heat Budget &amp; Temperature</h3>
+    <ul>
+      <li><strong>Insolation (Incoming Solar Radiation):</strong> Solar energy reaching the Earth’s surface.</li>
+      <li><strong>Factors Affecting Insolation:</strong>
+        <ul>
+          <li>Angle of incidence (latitude)</li>
+          <li>Length of day</li>
+          <li>Atmospheric transparency (clouds, dust, water vapour)</li>
+          <li>Earth‑Sun distance (perihelion &amp; aphelion)</li>
+        </ul>
+      </li>
+      <li><strong>Heat Budget of the Earth:</strong> Balance between incoming solar radiation and outgoing terrestrial radiation, maintaining a near‑constant global temperature.</li>
+      <li><strong>Temperature Distribution:</strong>
+        <ul>
+          <li><strong>Horizontal:</strong> Decreases from equator to poles. Isotherms are shaped by land‑sea distribution, ocean currents, and altitude.</li>
+          <li><strong>Vertical:</strong> Decreases with altitude in the troposphere (average lapse rate ≈ 6.5 °C per 1 000 m).</li>
+        </ul>
+      </li>
+      <li><strong>Temperature Inversion:</strong> A layer where temperature rises with height, often occurring on clear, calm winter nights, leading to fog and pollution trapping.</li>
+    </ul>
+  </section>
 
-  <h4>V. Humidity & Precipitation</h4>
-  <ul>
-    <li><strong>Humidity:</strong> Amount of water vapor present in the atmosphere.
-      <ul>
-        <li><strong>Absolute Humidity:</strong> Mass of water vapor per unit volume of air (g/m³).</li>
-        <li><strong>Specific Humidity:</strong> Mass of water vapor per unit mass of air (g/kg).</li>
-        <li><strong>[[Relative Humidity]]:</strong> Ratio of the actual amount of water vapor present to the maximum amount the air can hold at a given temperature, expressed as a percentage. (Actual water vapor / Saturation water vapor) x 100.</li>
-      </ul>
-    </li>
-    <li><strong>[[Dew Point]]:</strong> The temperature at which air becomes saturated with water vapor and condensation begins.</li>
-    <li><strong>Condensation:</strong> The process by which water vapor in the air changes into liquid water. Requires cooling of air below its dew point and presence of condensation nuclei.</li>
-    <li><strong>Forms of Condensation:</strong>
-      <ul>
-        <li><strong>Dew:</strong> Water droplets formed on cool surfaces when moist air cools below its dew point.</li>
-        <li><strong>Frost:</strong> Ice crystals formed when dew point is below freezing and water vapor changes directly to ice.</li>
-        <li><strong>Fog:</strong> A cloud at or near the ground, reducing visibility to less than 1 km.</li>
-        <li><strong>Mist:</strong> Similar to fog but with better visibility (> 1 km).</li>
-        <li><strong>Smog:</strong> Mixture of smoke and fog (photochemical smog: from pollutants + sunlight).</li>
-      </ul>
-    </li>
-    <li><strong>[[Precipitation]]:</strong> Any form of water that falls from clouds and reaches the Earth's surface.
-      <ul>
-        <li><strong>Rainfall:</strong> Liquid water drops.</li>
-        <li><strong>Snowfall:</strong> Ice crystals.</li>
-        <li><strong>Sleet:</strong> Mixture of rain and snow, or frozen raindrops.</li>
-        <li><strong>Hail:</strong> Small pellets or spheres of ice formed in [[Cumulonimbus Clouds]].</li>
-      </ul>
-    </li>
-    <li><strong>Types of Rainfall:</strong>
-      <ul>
-        <li><strong>[[Convectional Rainfall]]:</strong> Occurs due to intense heating of the ground, causing air to rise, cool, condense, and precipitate. Common in equatorial regions and during summer afternoons.</li>
-        <li><strong>[[Orographic Rainfall]]:</strong> Occurs when moist air is forced to rise over a mountain barrier, cools, condenses, and precipitates on the windward side. The leeward side forms a rain shadow region.</li>
-        <li><strong>Cyclonic/Frontal Rainfall:</strong> Associated with the ascent of air within cyclones or along fronts where warm and cold air masses meet.</li>
-      </ul>
-    </li>
-  </ul>
+  <section>
+    <h3>IV. Atmospheric Pressure &amp; Winds</h3>
+    <ul>
+      <li><strong>Atmospheric Pressure:</strong> Weight of the air column above a unit area, expressed in millibars (mb) or hectopascals (hPa).</li>
+      <li><strong>Global Pressure Belts:</strong>
+        <ul>
+          <li><strong>Equatorial Low (Doldrums):</strong> 0°‑5° N/S – intense heating causes air to rise.</li>
+          <li><strong>Subtropical High (Horse Latitudes):</strong> 25°‑35° N/S – descending air creates high pressure.</li>
+          <li><strong>Sub‑polar Low:</strong> 60°‑65° N/S – convergence of warm westerlies and cold polar easterlies.</li>
+          <li><strong>Polar High:</strong> 80°‑90° N/S – strong cooling and subsidence.</li>
+        </ul>
+        <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20global%20pressure%20belts%20and%20wind%20patterns%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of global pressure belts and wind patterns" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      </li>
+      <li><strong>Forces Controlling Wind:</strong>
+        <ul>
+          <li><strong>Pressure Gradient Force:</strong> Drives air from high to low pressure; stronger gradients produce stronger winds.</li>
+          <li><strong>Coriolis Force:</strong> Deflects moving air to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.</li>
+          <li><strong>Friction:</strong> Acts opposite to wind motion, most effective near the surface.</li>
+        </ul>
+      </li>
+      <li><strong>Types of Winds:</strong>
+        <ul>
+          <li><strong>Planetary (Permanent) Winds:</strong>
+            <ul>
+              <li>Trade Winds – NE in NH, SE in SH.</li>
+              <li>Westerlies – SW in NH, NW in SH.</li>
+              <li>Polar Easterlies – NE in NH, SE in SH.</li>
+            </ul>
+          </li>
+          <li><strong>Seasonal Winds (Monsoons):</strong>
+            <ul>
+              <li>Summer Monsoon – on‑shore, heavy rainfall.</li>
+              <li>Winter Monsoon – off‑shore, dry.</li>
+            </ul>
+          </li>
+          <li><strong>Local Winds:</strong>
+            <ul>
+              <li>Land &amp; Sea Breezes</li>
+              <li>Mountain &amp; Valley Breezes</li>
+              <li>Chinook, Foehn, Sirocco, Mistral, Loo, etc.</li>
+            </ul>
+          </li>
+          <li><strong>Jet Streams:</strong> Narrow, high‑altitude (7‑14 km) westerly winds influencing surface weather and cyclogenesis.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 
-  <h4>VI. Air Masses & Fronts</h4>
-  <ul>
-    <li><strong>[[Air Masses]]:</strong> A large body of air having uniform temperature and moisture characteristics over a horizontal extent, acquired from its source region.
-      <ul>
-        <li><strong>Classification based on Source Region:</strong>
-          <ul>
-            <li><strong>Tropical (T):</strong> Warm.</li>
-            <li><strong>Polar (P):</strong> Cold.</li>
-            <li><strong>Arctic/Antarctic (A):</strong> Very cold.</li>
-          </ul>
-        </li>
-        <li><strong>Classification based on Moisture Content:</strong>
-          <ul>
-            <li><strong>Continental (c):</strong> Dry (e.g., cT - continental tropical).</li>
-            <li><strong>Maritime (m):</strong> Moist (e.g., mT - maritime tropical).</li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><strong>[[Fronts]]:</strong> The boundary zone where two contrasting air masses meet. Weather changes are often sharp and dramatic along fronts.
-      <ul>
-        <li><strong>Cold Front:</strong> Cold air mass actively displaces warmer air upwards. Associated with sudden, intense precipitation and thunderstorms.</li>
-        <li><strong>Warm Front:</strong> Warm air mass overrides a colder air mass. Characterized by gradual ascent of warm air, leading to widespread, moderate precipitation.</li>
-        <li><strong>Occluded Front:</strong> A cold front overtakes a warm front, lifting the warm air mass off the ground.</li>
-        <li><strong>Stationary Front:</strong> When two air masses meet but neither advances. Weather is often prolonged and less intense.</li>
-      </ul>
-    </li>
-  </ul>
+  <section>
+    <h3>V. Humidity &amp; Precipitation</h3>
+    <ul>
+      <li><strong>Humidity Measures:</strong>
+        <ul>
+          <li>Absolute Humidity – mass of water vapour per unit volume (g/m³).</li>
+          <li>Specific Humidity – mass of water vapour per unit mass of moist air (g/kg).</li>
+          <li>Relative Humidity – (actual vapour pressure / saturation vapour pressure) × 100 %.</li>
+        </ul>
+      </li>
+      <li><strong>Dew Point:</strong> Temperature at which air becomes saturated and condensation begins.</li>
+      <li><strong>Forms of Condensation:</strong>
+        <ul>
+          <li>Dew – water droplets on cool surfaces.</li>
+          <li>Frost – ice crystals when dew point is below 0 °C.</li>
+          <li>Fog – ground‑level cloud reducing visibility < 1 km.</li>
+          <li>Mist – similar to fog but visibility > 1 km.</li>
+          <li>Smog – mixture of smoke and fog (photochemical smog involves pollutants + sunlight).</li>
+        </ul>
+      </li>
+      <li><strong>Precipitation Types:</strong>
+        <ul>
+          <li>Rain – liquid drops.</li>
+          <li>Snow – ice crystals.</li>
+          <li>Sleet – frozen raindrops or rain‑snow mix.</li>
+          <li>Hail – ice pellets formed in cumulonimbus clouds.</li>
+        </ul>
+      </li>
+      <li><strong>Rainfall Mechanisms:</strong>
+        <ul>
+          <li><strong>Convectional Rainfall:</strong> Intense surface heating causes air to rise, cool, and precipitate – typical of equatorial regions.</li>
+          <li><strong>Orographic Rainfall:</strong> Moist air forced up a mountain barrier, leading to windward precipitation and a leeward rain‑shadow.</li>
+          <li><strong>Frontal (Cyclonic) Rainfall:</strong> Associated with the ascent of air along cold‑front or warm‑front boundaries.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 
-  <h4>VII. Cyclones & Anticyclones</h4>
-  <ul>
-    <li><strong>[[Tropical Cyclones]]:</strong> Violent storms originating over warm tropical oceans.
-      <ul>
-        <li><strong>Characteristics:</strong> Low-pressure center (eye), spiralling strong winds, heavy rainfall, storm surges.</li>
-        <li><strong>Formation:</strong> Requires warm ocean waters (>27°C), [[Coriolis Force]], pre-existing low-pressure disturbance, and low wind shear.</li>
-        <li><strong>Naming:</strong> Regional names include Hurricanes (Atlantic/NE Pacific), Typhoons (NW Pacific), Cyclones (Indian Ocean/SW Pacific).</li>
-      </ul>
-    </li>
-    <li><strong>[[Temperate Cyclones]] / Mid-latitude Cyclones:</strong> Weather systems occurring in mid-latitudes (35°-65° N/S).
-      <ul>
-        <li><strong>Characteristics:</strong> Form along fronts, characterized by a distinct warm sector and cold sector, less destructive than tropical cyclones but cover larger areas.</li>
-        <li><strong>Formation:</strong> Develop along the polar front, involving the interaction of cold polar air and warm tropical air masses.</li>
-      </ul>
-    </li>
-    <li><strong>[[Anticyclones]]:</strong> High-pressure systems characterized by subsiding air, clear skies, calm winds, and generally stable weather. Wind blows outwards and clockwise in NH, anti-clockwise in SH.</li>
-  </ul>
+  <section>
+    <h3>VI. Air Masses &amp; Fronts</h3>
+    <ul>
+      <li><strong>Air Masses:</strong> Large bodies of air with uniform temperature and moisture, acquiring characteristics from their source region.
+        <ul>
+          <li>Source‑region classification: Tropical (T), Polar (P), Arctic/Antarctic (A).</li>
+          <li>Moisture classification: Continental (c – dry), Maritime (m – moist).</li>
+        </ul>
+      </li>
+      <li><strong>Fronts:</strong> Boundaries between contrasting air masses.
+        <ul>
+          <li>Cold Front – advancing cold air lifts warm air, causing intense, brief precipitation.</li>
+          <li>Warm Front – warm air overrides cold air, producing widespread, moderate precipitation.</li>
+          <li>Occluded Front – cold front overtakes warm front, lifting the warm sector off the ground.</li>
+          <li>Stationary Front – neither air mass advances; weather tends to be prolonged.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 
-  <h4>VIII. Climatic Zones (Koppen's Classification)</h4>
-  <ul>
-    <li><strong>Climatic Classification:</strong> System for grouping climates based on similarities in temperature, precipitation, and associated vegetation.</li>
-    <li><strong>[[Koppen's Classification System]]:</strong> A widely used empirical system based on average annual and monthly temperature and precipitation, relating these to vegetation distribution.</li>
-    <li><strong>Main Climatic Groups (First Letter):</strong>
-      <ul>
-        <li><strong>A: Tropical Humid Climates:</strong> No dry season, average monthly temperature > 18°C.</li>
-        <li><strong>B: Dry Climates:</strong> Precipitation is less than potential evapotranspiration.</li>
-        <li><strong>C: Warm Temperate (Mid-Latitude) Climates:</strong> Warm/mild winters, coldest month average temperature between -3°C and 18°C.</li>
-        <li><strong>D: Cold Temperate (Mid-Latitude) Climates:</strong> Cold winters, coldest month average temperature < -3°C.</li>
-        <li><strong>E: Polar Climates:</strong> Extremely cold, warmest month average temperature < 10°C.</li>
-        <li><strong>H: Highland Climates:</strong> Mountains, controlled by altitude.</li>
-      </ul>
-    </li>
-    <li><strong>Sub-types (Second and Third Letters):</strong>
-      <ul>
-        <li><strong>A - Tropical Humid Climates:</strong>
-          <ul>
-            <li><strong>Af (Tropical Wet / Rainforest):</strong> No dry season, high rainfall year-round. E.g., Amazon, Congo, Indonesia.</li>
-            <li><strong>Am (Tropical Monsoon):</strong> Short dry season, very high monsoon rainfall. E.g., Indian subcontinent, parts of SE Asia.</li>
-            <li><strong>Aw (Tropical Wet & Dry / Savanna):</strong> Distinct dry and wet seasons. E.g., Central Africa, parts of Brazil, northern Australia.</li>
-          </ul>
-        </li>
-        <li><strong>B - Dry Climates:</strong>
-          <ul>
-            <li><strong>BW (Desert):</strong> Extremely arid, very low precipitation. E.g., Sahara, Thar, Atacama.</li>
-            <li><strong>BS (Steppe / Semi-Arid):</strong> More precipitation than desert, supports grasslands. E.g., Great Plains of USA, Central Asia.</li>
-            <li>(Subdivisions: h - hot arid; k - cold arid)</li>
-          </ul>
-        </li>
-        <li><strong>C - Warm Temperate (Mid-Latitude) Climates:</strong>
-          <ul>
-            <li><strong>Cs (Mediterranean):</strong> Dry hot summer, mild wet winter. E.g., California, Mediterranean basin, Cape Town, Perth.</li>
-            <li><strong>Cf (Humid Subtropical):</strong> No dry season, warm to hot humid summers. E.g., Southeastern USA, Eastern China, SE Australia. (Cfa: hot summer; Cfb: warm summer)</li>
-            <li><strong>Cw (Humid Subtropical with Dry Winter):</strong> Mild winter with dry conditions. E.g., North India, parts of Southern China.</li>
-          </ul>
-        </li>
-        <li><strong>D - Cold Temperate (Mid-Latitude) Climates:</strong>
-          <ul>
-            <li><strong>Df (Humid Continental with no dry season):</strong> Cold, snowy winters; warm to cool summers. E.g., Eastern Europe, Northeastern USA.</li>
-            <li><strong>Dw (Humid Continental with dry winter):</strong> Very cold, dry winters; short cool summers. E.g., Siberia, interior Canada.</li>
-          </ul>
-        </li>
-        <li><strong>E - Polar Climates:</strong>
-          <ul>
-            <li><strong>ET (Tundra):</strong> Warmest month between 0°C and 10°C. Permafrost. Supports mosses, lichens. E.g., Arctic coasts.</li>
-            <li><strong>EF (Ice Cap):</strong> Warmest month below 0°C. Permanent ice cover. E.g., Greenland, Antarctica.</li>
-          </ul>
-        </li>
-        <li><strong>H - Highland Climates:</strong> Found in mountainous regions, characterized by rapid changes in climate over short distances due to altitude. Temperature decreases with elevation.</li>
-      </ul>
-    </li>
-  </ul>
+  <section>
+    <h3>VII. Cyclones &amp; Anticyclones</h3>
+    <ul>
+      <li><strong>Tropical Cyclones:</strong> Intense low‑pressure systems over warm oceans (> 27 °C).
+        <ul>
+          <li>Eye, spiralling winds, heavy rain, storm surge.</li>
+          <li>Formation requires Coriolis force, pre‑existing disturbance, and low vertical wind shear.</li>
+          <li>Regional names: Hurricanes (Atlantic/NE Pacific), Typhoons (NW Pacific), Cyclones (Indian Ocean/SW Pacific).</li>
+        </ul>
+      </li>
+      <li><strong>Temperate (Mid‑latitude) Cyclones:</strong> Develop along the polar front (35°‑65° N/S) and are associated with fronts.
+        <ul>
+          <li>Warm and cold sectors, less destructive than tropical cyclones but cover larger areas.</li>
+        </ul>
+      </li>
+      <li><strong>Anticyclones:</strong> High‑pressure systems with subsiding air, clear skies, and calm winds. Wind circulates clockwise in the NH and anticlockwise in the SH.</li>
+    </ul>
+  </section>
 
-  <h4>IX. Clouds</h4>
-  <ul>
-    <li><strong>Definition:</strong> A visible mass of water droplets or ice crystals suspended in the atmosphere. Form when moist air cools to its dew point, leading to condensation/sublimation around microscopic particles called condensation nuclei.</li>
-    <li><strong>Cloud Classification (based on height & appearance):</strong>
-      <ul>
-        <li><strong>A. High Clouds (Base > 6000 m / 20,000 ft):</strong> Composed mainly of ice crystals.
-          <ul>
-            <li><strong>Cirrus (Ci):</strong> Thin, wispy, feathery, white clouds. Indicate fair weather, but can precede a change.</li>
-            <li><strong>Cirrocumulus (Cc):</strong> Small, rounded white puffs in rows, resembling scales of fish ("mackerel sky"). Indicate instability at high levels.</li>
-            <li><strong>Cirrostratus (Cs):</strong> Thin, whitish sheet or veil-like clouds, often producing halos around the sun/moon. Precede widespread precipitation.</li>
-          </ul>
-        </li>
-        <li><strong>B. Middle Clouds (Base 2000-6000 m / 6,500-20,000 ft):</strong> Composed of water droplets, ice crystals, or a mixture.
-          <ul>
-            <li><strong>Altocumulus (Ac):</strong> Greyish-white patchy clouds, often in parallel bands or rounded masses. May indicate approaching thunderstorms.</li>
-            <li><strong>Altostratus (As):</strong> Greyish-blue, uniform sheet-like clouds covering the sky, sun appears as a dull disk. Often precede widespread continuous rain or snow.</li>
-          </ul>
-        </li>
-        <li><strong>C. Low Clouds (Base < 2000 m / 6,500 ft):</strong> Composed mostly of water droplets.
-          <ul>
-            <li><strong>Stratus (St):</strong> Uniform, grey, sheet-like clouds covering the entire sky, resemble fog but not on the ground. Associated with drizzle or light snow.</li>
-            <li><strong>Cumulus (Cu):</strong> Puffy, white, cotton-like clouds with flat bases and rounded tops. "Fair weather clouds."</li>
-            <li><strong>Stratocumulus (Sc):</strong> Grey or whitish patches, sheets or layers of clouds, which have rounded masses or rolls.</li>
-            <li><strong>Nimbostratus (Ns):</strong> Dark, grey, amorphous, thick layer clouds, typically producing continuous moderate rain or snow over a wide area. No lightning or thunder.</li>
-          </ul>
-        </li>
-        <li><strong>D. Clouds of Vertical Development (Extend through multiple layers):</strong>
-          <ul>
-            <li><strong>[[Cumulonimbus Clouds]] (Cb):</strong> Towering, dense, vertically developed clouds, often with an anvil-shaped top. Associated with thunderstorms, heavy rain, lightning, thunder, hail, and sometimes tornadoes.</li>
-            <li><strong>Cumulus Congestus:</strong> Moderately developed cumulus clouds, taller than ordinary cumulus but not yet cumulonimbus. Can produce light showers.</li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
+  <section>
+    <h3>VIII. Climatic Zones – Köppen Classification</h3>
+    <p>The Köppen system groups climates based on temperature, precipitation, and vegetation. The first letter denotes the main group, while the second and third letters describe seasonal characteristics.</p>
+    <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+      <thead>
+        <tr style="background:#333; color:#fff;">
+          <th style="padding:8px; border:1px solid #555;">Group (Letter)</th>
+          <th style="padding:8px; border:1px solid #555;">Description</th>
+          <th style="padding:8px; border:1px solid #555;">Typical Sub‑types</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background:#222;">
+          <td style="padding:8px; border:1px solid #555;"><strong>A</strong> – Tropical Humid</td>
+          <td style="padding:8px; border:1px solid #555;">No dry season; monthly mean > 18 °C.</td>
+          <td style="padding:8px; border:1px solid #555;">Af (Rainforest), Am (Monsoon), Aw (Savanna)</td>
+        </tr>
+        <tr style="background:#2a2a2a;">
+          <td style="padding:8px; border:1px solid #555;"><strong>B</strong> – Dry</td>
+          <td style="padding:8px; border:1px solid #555;">Precipitation < potential evapotranspiration.</td>
+          <td style="padding:8px; border:1px solid #555;">BW (Desert), BS (Steppe) – h (hot) / k (cold)</td>
+        </tr>
+        <tr style="background:#222;">
+          <td style="padding:8px; border:1px solid #555;"><strong>C</strong> – Warm Temperate</td>
+          <td style="padding:8px; border:1px solid #555;">Mild winters; coldest month –3 °C to 18 °C.</td>
+          <td style="padding:8px; border:1px solid #555;">Cs (Mediterranean), Cfa/Cfb (Humid Subtropical), Cw (Dry‑winter)</td>
+        </tr>
+        <tr style="background:#2a2a2a;">
+          <td style="padding:8px; border:1px solid #555;"><strong>D</strong> – Cold Temperate</td>
+          <td style="padding:8px; border:1px solid #555;">Cold winters; coldest month < -3 °C.</td>
+          <td style="padding:8px; border:1px solid #555;">Df (No dry season), Dw (Dry winter)</td>
+        </tr>
+        <tr style="background:#222;">
+          <td style="padding:8px; border:1px solid #555;"><strong>E</strong> – Polar</td>
+          <td style="padding:8px; border:1px solid #555;">Warmest month < 10 °C.</td>
+          <td style="padding:8px; border:1px solid #555;">ET (Tundra), EF (Ice Cap)</td>
+        </tr>
+        <tr style="background:#2a2a2a;">
+          <td style="padding:8px; border:1px solid #555;"><strong>H</strong> – Highland</td>
+          <td style="padding:8px; border:1px solid #555;">Climate controlled by altitude; rapid changes over short distances.</td>
+          <td style="padding:8px; border:1px solid #555;">Varies with elevation.</td>
+        </tr>
+      </tbody>
+    </table>
+    <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20K%C3%B6ppen%20climate%20classification%20of%20India%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Köppen climate classification of India" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </section>
+
+  <section>
+    <h3>IX. Clouds – Classification &amp; Significance</h3>
+    <ul>
+      <li><strong>Definition:</strong> Visible masses of water droplets or ice crystals suspended in the atmosphere, formed when moist air cools to its dew point.</li>
+      <li><strong>Classification by Height &amp; Appearance:</strong>
+        <ul>
+          <li><strong>High Clouds (Base > 6 000 m):</strong>
+            <ul>
+              <li>Cirrus (Ci) – thin, wispy; indicate fair weather but may precede a change.</li>
+              <li>Cirrocumulus (Cc) – small, rounded puffs in rows; signal instability at high levels.</li>
+              <li>Cirrostratus (Cs) – thin veil; often produces halos and precedes widespread precipitation.</li>
+            </ul>
+          </li>
+          <li><strong>Middle Clouds (Base 2 000‑6 000 m):</strong>
+            <ul>
+              <li>Altocumulus (Ac) – grey‑white patches; may herald approaching thunderstorms.</li>
+              <li>Altostratus (As) – uniform grey‑blue sheet; usually precedes continuous rain or snow.</li>
+            </ul>
+          </li>
+          <li><strong>Low Clouds (Base < 2 000 m):</strong>
+            <ul>
+              <li>Stratus (St) – uniform grey layer; associated with drizzle or light snow.</li>
+              <li>Cumulus (Cu) – puffy, cotton‑like; classic “fair‑weather” clouds.</li>
+              <li>Stratocumulus (Sc) – grey/white patches or rolls.</li>
+              <li>Nimbostratus (Ns) – thick, dark layer producing continuous moderate rain or snow.</li>
+            </ul>
+          </li>
+          <li><strong>Vertically Developed Clouds:</strong>
+            <ul>
+              <li>Cumulonimbus (Cb) – towering, anvil‑shaped; associated with thunderstorms, heavy rain, hail, and occasionally tornadoes.</li>
+              <li>Cumulus Congestus – moderately developed, can produce light showers.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 </div>
 `;
 
 EXPANDED_NOTES_DATA["geomorphology-rocks"] = `
-<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba[0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    Geomorphology: Rocks, Plate Tectonics & Volcanism
-  </h3>
-  
-  <p style="margin-bottom: 1em;">
-    [[Geomorphology]] is the scientific study of landforms and the processes that shape them. This section delves into the fundamental building blocks of the Earth's crust – rocks, and the dynamic forces that mold the planet's surface – plate tectonics and volcanism.
-  </p>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Geomorphology: Rocks, Plate Tectonics &amp; Volcanism</h2>
+  <p>Geomorphology is the scientific study of landforms and the processes that shape them. This chapter covers the fundamental building blocks of the Earth’s crust – rocks – and the dynamic forces that mould the planet’s surface – plate tectonics and volcanism.</p>
 
-  <h4 style="color: var(--text-color); margin-top: 1.5em; margin-bottom: 0.8em; font-weight: 600;">I. Rocks</h4>
-  <p style="margin-bottom: 1em;">
-    A rock is a naturally occurring solid aggregate of one or more minerals or mineraloids. The Earth's crust is composed of various types of rocks, each with distinct characteristics and formation processes.
-  </p>
+  <h3>I. Rocks</h3>
+  <p>A rock is a naturally occurring solid aggregate of one or more minerals or mineraloids. The Earth’s crust is composed of various rock types, each with distinct characteristics and formation processes.</p>
 
-  <h5 style="color: var(--text-color); margin-top: 1em; margin-bottom: 0.6em; font-weight: 500;">The Rock Cycle</h5>
+  <h4>The Rock Cycle</h4>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Rock%20Cycle%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Rock Cycle" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <ul>
-    <li>The **Rock Cycle** is a fundamental concept in geology that describes the transitions through geologic time among the three main rock types: igneous, sedimentary, and metamorphic.</li>
-    <li>It illustrates how rocks are formed, altered, destroyed, and reformed as a result of various geological processes, both on and beneath the Earth's surface.</li>
-    <li>**Processes Involved:**
-      <ul>
-        <li>**Weathering & Erosion:** Break down existing rocks into sediments.</li>
-        <li>**Deposition:** Sediments accumulate.</li>
-        <li>**Lithification:** Compaction and cementation of sediments form sedimentary rocks.</li>
-        <li>**Melting:** Rocks melt into magma (beneath surface) or lava (on surface).</li>
-        <li>**Crystallization:** Magma/lava cools and solidifies to form igneous rocks.</li>
-        <li>**Heat & Pressure:** Transform existing igneous, sedimentary, or other metamorphic rocks into new metamorphic rocks.</li>
-        <li>**Uplift:** Brings deeply buried rocks to the surface, where they are exposed to weathering and erosion, completing the cycle.</li>
-      </ul>
-    </li>
+    <li>The rock cycle describes the continuous transitions among the three main rock types: igneous, sedimentary, and metamorphic.</li>
+    <li>Key processes include weathering & erosion, deposition, lithification, melting, crystallisation, heat & pressure, and uplift.</li>
   </ul>
 
-  <h5 style="color: var(--text-color); margin-top: 1em; margin-bottom: 0.6em; font-weight: 500;">Types of Rocks</h5>
-
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">1. Igneous Rocks (Primary Rocks)</h6>
+  <h4>Types of Rocks</h4>
+  <h5>1. Igneous Rocks (Primary Rocks)</h5>
   <ul>
     <li>Formed from the cooling and solidification of molten magma or lava.</li>
-    <li>The word "igneous" is derived from the Latin word "ignis," meaning fire.</li>
-    <li>**Characteristics:**
+    <li>Characteristics: hard, crystalline, granular, fossil‑free, and relatively resistant to erosion.</li>
+    <li>Classification by formation:
       <ul>
-        <li>Typically hard, crystalline, and granular.</li>
-        <li>Do not contain fossils.</li>
-        <li>Often have interlocking grains.</li>
-        <li>Relatively resistant to erosion.</li>
+        <li><strong>Intrusive (Plutonic)</strong>: slow cooling beneath the surface → coarse‑grained crystals (e.g., Granite, Diorite, Gabbro).</li>
+        <li><strong>Extrusive (Volcanic)</strong>: rapid cooling at the surface → fine‑grained or glassy textures (e.g., Basalt, Andesite, Rhyolite, Obsidian, Pumice).</li>
       </ul>
     </li>
-    <li>**Classification based on formation:**
+    <li>Classification by silica content:
       <ul>
-        <li>**Intrusive (Plutonic) Igneous Rocks:**
-          <ul>
-            <li>Form when magma cools slowly beneath the Earth's surface.</li>
-            <li>Slow cooling allows for the formation of large, coarse-grained crystals.</li>
-            <li>Examples: **Granite**, **Diorite**, **Gabbro**.</li>
-          </ul>
-        </li>
-        <li>**Extrusive (Volcanic) Igneous Rocks:**
-          <ul>
-            <li>Form when lava cools rapidly on the Earth's surface.</li>
-            <li>Rapid cooling results in small or fine-grained crystals, or even amorphous (glassy) structures.</li>
-            <li>Examples: **Basalt**, **Andesite**, **Rhyolite**, **Obsidian**, **Pumice**.</li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li>**Classification based on chemical composition (Silica Content):**
-      <ul>
-        <li>**Acidic Igneous Rocks (Felsic):**
-          <ul>
-            <li>High silica content (over 65%).</li>
-            <li>Light in color, low density.</li>
-            <li>Examples: **Granite**, **Rhyolite**.</li>
-          </ul>
-        </li>
-        <li>**Basic Igneous Rocks (Mafic):**
-          <ul>
-            <li>Low silica content (45-55%).</li>
-            <li>Dark in color, high density.</li>
-            <li>Examples: **Basalt**, **Gabbro**.</li>
-          </ul>
-        </li>
-        <li>**Intermediate Igneous Rocks:**
-          <ul>
-            <li>Medium silica content (55-65%).</li>
-            <li>Examples: **Diorite**, **Andesite**.</li>
-          </ul>
-        </li>
-        <li>**Ultrabasic Igneous Rocks:**
-          <ul>
-            <li>Very low silica content (below 45%).</li>
-            <li>Examples: **Peridotite**.</li>
-          </ul>
-        </li>
+        <li><strong>Felsic (Acidic)</strong>: >65% SiO₂, light colour (Granite, Rhyolite).</li>
+        <li><strong>Mafic (Basic)</strong>: 45‑55% SiO₂, dark colour (Basalt, Gabbro).</li>
+        <li><strong>Intermediate</strong>: 55‑65% SiO₂ (Diorite, Andesite).</li>
+        <li><strong>Ultrabasic</strong>: <45% SiO₂ (Peridotite).</li>
       </ul>
     </li>
   </ul>
 
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">2. Sedimentary Rocks (Secondary Rocks)</h6>
+  <h5>2. Sedimentary Rocks (Secondary Rocks)</h5>
   <ul>
-    <li>Formed from the accumulation and lithification of sediments derived from the weathering and erosion of pre-existing rocks, organic remains, or chemical precipitates.</li>
-    <li>The word "sedimentary" comes from the Latin word "sedimentum," meaning settling.</li>
-    <li>**Characteristics:**
+    <li>Formed from the accumulation and lithification of sediments, organic remains, or chemical precipitates.</li>
+    <li>Characteristics: stratified, often fossil‑bearing, softer and more porous than igneous/metamorphic rocks.</li>
+    <li>Classification by origin:
       <ul>
-        <li>Typically stratified (layered).</li>
-        <li>Often contain fossils.</li>
-        <li>Generally softer and more porous than igneous or metamorphic rocks.</li>
-        <li>Cover about 75% of the Earth's land surface but constitute a minor volume of the crust.</li>
-      </ul>
-    </li>
-    <li>**Classification based on origin:**
-      <ul>
-        <li>**Clastic (Detrital) Sedimentary Rocks:**
-          <ul>
-            <li>Formed from fragments of pre-existing rocks (clasts) that have been transported and deposited.</li>
-            <li>Classified by particle size.</li>
-            <li>Examples: **Sandstone** (sand-sized), **Shale** (clay-sized), **Conglomerate** (gravel-sized).</li>
-          </ul>
-        </li>
-        <li>**Organic Sedimentary Rocks:**
-          <ul>
-            <li>Formed from the accumulation of dead plant and animal matter.</li>
-            <li>Examples: **Coal** (from plant matter), **Limestone** (from marine organisms like shells and corals).</li>
-          </ul>
-        </li>
-        <li>**Chemical Sedimentary Rocks:**
-          <ul>
-            <li>Formed by the precipitation of minerals from water solutions.</li>
-            <li>Examples: **Rock Salt** (Halite, from evaporation), **Gypsum**, **Chert**, some forms of **Limestone**.</li>
-          </ul>
-        </li>
+        <li><strong>Clastic (Detrital)</strong>: derived from pre‑existing rock fragments – classified by grain size (e.g., Sandstone, Shale, Conglomerate).</li>
+        <li><strong>Organic</strong>: derived from plant or animal matter (e.g., Coal, Limestone).</li>
+        <li><strong>Chemical</strong>: precipitated from solution (e.g., Rock Salt, Gypsum, Chert).</li>
       </ul>
     </li>
   </ul>
 
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">3. Metamorphic Rocks (Tertiary Rocks)</h6>
+  <h5>3. Metamorphic Rocks (Tertiary Rocks)</h5>
   <ul>
-    <li>Formed when existing igneous, sedimentary, or other metamorphic rocks are subjected to intense heat, pressure, or chemical alteration (hydrothermal fluids) without completely melting.</li>
-    <li>"Metamorphic" means "change of form."</li>
-    <li>**Characteristics:**
+    <li>Formed when existing rocks are subjected to intense heat, pressure, or chemically active fluids without complete melting.</li>
+    <li>Characteristics: foliation or banding, higher density, and presence of metamorphic minerals.</li>
+    <li>Classification by process:
       <ul>
-        <li>Often show **foliation** (parallel alignment of mineral grains) or banding.</li>
-        <li>More compact and dense than parent rocks.</li>
-        <li>May contain unique metamorphic minerals not found in other rock types.</li>
+        <li><strong>Dynamic (Regional) Metamorphism</strong>: large‑scale pressure & heat during mountain‑building → foliated rocks (Slate, Schist, Gneiss).</li>
+        <li><strong>Thermal (Contact) Metamorphism</strong>: heating by nearby magma intrusion → non‑foliated rocks (Marble, Quartzite, Hornfels).</li>
       </ul>
     </li>
-    <li>**Classification based on metamorphism process:**
+    <li>Typical progression:
       <ul>
-        <li>**Dynamic Metamorphism (Regional Metamorphism):**
-          <ul>
-            <li>Occurs over large areas due to intense pressure and heat associated with tectonic processes (e.g., mountain building, plate collisions).</li>
-            <li>Results in widespread changes and often produces foliated rocks.</li>
-            <li>Examples: Formation of **Slate**, **Schist**, **Gneiss**.</li>
-          </ul>
-        </li>
-        <li>**Thermal Metamorphism (Contact Metamorphism):**
-          <ul>
-            <li>Occurs when rocks are heated by contact with a hot intrusion of magma.</li>
-            <li>Changes are localized around the magmatic intrusion.</li>
-            <li>Often produces non-foliated rocks.</li>
-            <li>Examples: **Marble** (from limestone), **Quartzite** (from sandstone), **Hornfels**.</li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li>**Key Examples:**
-      <ul>
-        <li>Shale &rarr; Slate &rarr; Phyllite &rarr; Schist &rarr; Gneiss</li>
-        <li>Limestone &rarr; Marble</li>
-        <li>Sandstone &rarr; Quartzite</li>
-        <li>Basalt &rarr; Amphibolite</li>
+        <li>Shale → Slate → Phyllite → Schist → Gneiss</li>
+        <li>Limestone → Marble</li>
+        <li>Sandstone → Quartzite</li>
+        <li>Basalt → Amphibolite</li>
       </ul>
     </li>
   </ul>
 
-  <h4 style="color: var(--text-color); margin-top: 1.5em; margin-bottom: 0.8em; font-weight: 600;">II. Plate Tectonics</h4>
-  <p style="margin-bottom: 1em;">
-    The theory of [[Plate Tectonics]] is a unifying theory in geology that explains the large-scale motion of Earth's [[lithosphere]]. It describes the movement of the large plates that make up the Earth's outer shell, accounting for the distribution of continents, ocean basins, mountains, earthquakes, and volcanoes.
-  </p>
+  <h3>II. Plate Tectonics</h3>
+  <p>The theory of plate tectonics explains the large‑scale motion of Earth’s lithosphere, accounting for the distribution of continents, ocean basins, mountains, earthquakes, and volcanoes.</p>
 
-  <h5 style="color: var(--text-color); margin-top: 1em; margin-bottom: 0.6em; font-weight: 500;">Early Theories</h5>
-
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">1. Continental Drift Theory (Alfred Wegener, 1912)</h6>
+  <h4>Early Theories</h4>
+  <h5>1. Continental Drift (Alfred Wegener, 1912)</h5>
   <ul>
-    <li>Proposed by German meteorologist [[Alfred Wegener]], suggesting that continents were once joined together in a single supercontinent called [[Pangaea]] (meaning "all-earth") and have since drifted apart.</li>
-    <li>Pangaea was surrounded by a massive ocean called [[Panthalassa]].</li>
-    <li>Pangaea later broke into two large continental masses: [[Laurasia]] (Northern Hemisphere) and [[Gondwanaland]] (Southern Hemisphere).</li>
-    <li>**Evidence for Continental Drift:**
-      <ul>
-        <li>**Jigsaw Fit (Shorelines):** The remarkable fit of the coastlines of South America and Africa.</li>
-        <li>**Similarity of Geology and Age of Rocks:** Rocks of the same age and type found across different continents (e.g., Brazil and West Africa).</li>
-        <li>**Placer Deposits:** The occurrence of rich gold placer deposits in Ghana, without an obvious source rock in Africa, but with source rocks found in Brazil.</li>
-        <li>**Fossil Evidence:** Identical plant and animal fossils found on widely separated continents (e.g., Mesosaurus, Lystrosaurus, Glossopteris flora).</li>
-        <li>**Tillite Deposits (Glacial Evidence):** Widespread evidence of ancient glaciation (tillites) found in tropical regions (e.g., India, Africa, Australia, Antarctica), suggesting these landmasses were once located near the South Pole.</li>
-      </ul>
-    </li>
-    <li>**Shortcomings:**
-      <ul>
-        <li>Wegener failed to adequately explain the forces responsible for the movement of continents. He vaguely proposed tidal forces and pole-fleeing forces, which were later proven insufficient.</li>
-      </ul>
-    </li>
+    <li>Proposed that continents were once joined in the supercontinent Pangaea and have drifted apart.</li>
+    <li>Evidence: jigsaw fit of coastlines, matching geological formations, identical fossils, and glacial tillites across now‑separated continents.</li>
+    <li>Shortcoming: lacked a convincing mechanism for the drift.</li>
   </ul>
 
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">2. Convectional Current Theory (Arthur Holmes, 1930s)</h6>
+  <h5>2. Convectional Current Theory (Arthur Holmes, 1930s)</h5>
+  <p>Suggested mantle convection currents as the driving force behind continental movement.</p>
+
+  <h5>3. Seafloor Spreading (Harry Hess, 1960s)</h5>
   <ul>
-    <li>Proposed by British geologist [[Arthur Holmes]], suggesting that convection currents in the Earth's mantle drive the movement of continents.</li>
-    <li>Hot, less dense material rises from the core-mantle boundary, spreads laterally beneath the lithosphere, cools, and then sinks back down. This cyclical movement provides the drag force needed to move the continental plates.</li>
-    <li>This theory provided a plausible mechanism for the continental drift and laid the groundwork for seafloor spreading and plate tectonics.</li>
+    <li>New oceanic crust is created at mid‑oceanic ridges and consumed at subduction zones.</li>
+    <li>Evidence: magnetic stripes, age progression of ocean floor, heat flow anomalies, and sediment thickness patterns.</li>
   </ul>
 
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">3. Seafloor Spreading Theory (Harry Hess, 1960s)</h6>
+  <h4>The Modern Theory</h4>
+  <p>Earth’s outer rigid layer – the lithosphere – is broken into large and small tectonic plates that float on the semi‑fluid asthenosphere.</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20World%20Plate%20Tectonics%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of World Plate Tectonics" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <h5>Major and Minor Plates</h5>
   <ul>
-    <li>Proposed by American geophysicist [[Harry Hess]], based on observations of [[Mid-Oceanic Ridges]] (MORs) and oceanic trenches.</li>
-    <li>Suggests that new oceanic crust is continuously generated at MORs as magma rises, solidifies, and pushes the existing seafloor away from the ridge crest.</li>
-    <li>The old oceanic crust is simultaneously consumed at [[Subduction Zone]]s, where it sinks back into the mantle beneath oceanic trenches.</li>
-    <li>**Evidence for Seafloor Spreading:**
-      <ul>
-        <li>**Paleomagnetism (Magnetic Stripes):** Symmetrical patterns of magnetic reversals (alternating normal and reversed polarity) found on either side of MORs, acting like a "magnetic tape recorder" of Earth's past magnetic field.</li>
-        <li>**Age of Ocean Floor:** The age of oceanic crust increases progressively with distance from the MORs, and the youngest rocks are found at the ridge crest. No oceanic crust older than 200 million years has been found, supporting the idea of continuous recycling.</li>
-        <li>**Heat Flow:** Higher-than-average heat flow observed along the MORs, indicating rising magma.</li>
-        <li>**Sediment Thickness:** Sediment layers are thinnest at MORs and progressively thicken away from them, consistent with longer accumulation times for older crust.</li>
-      </ul>
-    </li>
+    <li><strong>Major Plates (7)</strong>: Pacific, North American, South American, Eurasian, African, Indo‑Australian, Antarctic.</li>
+    <li><strong>Minor Plates</strong>: Nazca, Cocos, Caribbean, Philippine Sea, Arabian, Juan de Fuca, Scotia, etc.</li>
+    <li>Plates may be oceanic, continental, or a combination of both.</li>
   </ul>
 
-  <h5 style="color: var(--text-color); margin-top: 1em; margin-bottom: 0.6em; font-weight: 500;">The Theory of Plate Tectonics</h5>
+  <h5>Driving Mechanisms</h5>
   <ul>
-    <li>Synthesizes the concepts of continental drift and seafloor spreading.</li>
-    <li>States that the Earth's outer rigid layer, the **lithosphere** (crust and uppermost mantle), is broken into large and small pieces called **tectonic plates**.</li>
-    <li>These plates float and move slowly over the ductile, semi-fluid layer beneath, known as the **[[Asthenosphere]]**.</li>
+    <li><strong>Mantle Convection</strong>: the primary engine of plate motion.</li>
+    <li><strong>Ridge Push</strong>: gravitational sliding of plates away from elevated mid‑ocean ridges.</li>
+    <li><strong>Slab Pull</strong>: sinking of dense oceanic lithosphere at subduction zones – the dominant force.</li>
   </ul>
 
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">Major and Minor Plates</h6>
+  <h5>Types of Plate Boundaries</h5>
   <ul>
-    <li>**Major Plates (7):**
+    <li><strong>Divergent (Constructive)</strong>: plates move apart, creating new crust at mid‑ocean ridges and rift valleys (e.g., East African Rift).</li>
+    <li><strong>Convergent (Destructive)</strong>:
       <ul>
-        <li>Pacific Plate (largest, entirely oceanic)</li>
-        <li>North American Plate</li>
-        <li>South American Plate</li>
-        <li>Eurasian Plate</li>
-        <li>African Plate</li>
-        <li>Indo-Australian Plate</li>
-        <li>Antarctic Plate</li>
+        <li>Oceanic‑Oceanic: subduction → trenches & volcanic island arcs (e.g., Mariana Trench, Japanese Islands).</li>
+        <li>Oceanic‑Continental: subduction → deep trenches & volcanic mountain belts (e.g., Andes, Cascade Range).</li>
+        <li>Continental‑Continental: collision → high mountain ranges without volcanism (e.g., Himalayas, Alps).</li>
       </ul>
     </li>
-    <li>**Minor Plates (Examples):**
-      <ul>
-        <li>Nazca Plate</li>
-        <li>Cocos Plate</li>
-        <li>Caribbean Plate</li>
-        <li>Philippine Sea Plate</li>
-        <li>Arabian Plate</li>
-        <li>Juan de Fuca Plate</li>
-        <li>Scotia Plate</li>
-      </ul>
-    </li>
-    <li>Plates can consist entirely of oceanic lithosphere, entirely of continental lithosphere, or a combination of both.</li>
+    <li><strong>Transform (Conservative)</strong>: horizontal sliding, no crust creation or destruction (e.g., San Andreas Fault).</li>
   </ul>
 
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">Driving Mechanism</h6>
+  <h5>Significance</h5>
   <ul>
-    <li>The primary driving force for plate movement is **mantle convection**, as proposed by Arthur Holmes.</li>
-    <li>**Ridge Push:** The buoyant upwelling of hot material at MORs creates a gravitational force that pushes the plates away from the ridge.</li>
-    <li>**Slab Pull:** The gravitational force exerted by a cold, dense oceanic plate as it sinks into the mantle at a subduction zone, pulling the rest of the plate along. This is considered the dominant force.</li>
+    <li>Explains the global distribution of earthquakes, volcanoes, and mountain belts.</li>
+    <li>Controls the formation of ocean basins and the opening/closing of seas.</li>
+    <li>Influences long‑term climate patterns and the localisation of natural resources such as hydrocarbons and mineral deposits.</li>
   </ul>
 
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">Types of Plate Boundaries</h6>
-  <p style="margin-bottom: 0.5em;">Interactions between plates at their boundaries are responsible for most of Earth's major geological activity.</p>
+  <h3>III. Volcanism</h3>
+  <h4>Introduction</h4>
+  <p>Volcanism is the eruption of magma, ash, and gases onto the Earth’s surface or into the atmosphere. Magma (below ground) becomes lava (at the surface) as dissolved gases escape. Eruption style depends mainly on magma viscosity and gas content.</p>
   <ul>
-    <li>
-      <p style="margin-bottom: 0.3em;">**1. Divergent Plate Boundaries (Constructive Margins):**</p>
-      <ul>
-        <li>Plates move away from each other.</li>
-        <li>Magma rises from the mantle, creating new oceanic crust.</li>
-        <li>Associated with **Mid-Oceanic Ridges** (e.g., Mid-Atlantic Ridge), **rift valleys** (e.g., East African Rift Valley), shallow earthquakes, and effusive volcanism (shield volcanoes).</li>
-        <li>Example: The spreading center in the Atlantic Ocean, creating new ocean floor.</li>
-      </ul>
-    </li>
-    <li>
-      <p style="margin-bottom: 0.3em;">**2. Convergent Plate Boundaries (Destructive Margins):**</p>
-      <ul>
-        <li>Plates move towards each other, resulting in subduction or collision.</li>
-        <li>**Oceanic-Oceanic Convergence:**
-          <ul>
-            <li>One oceanic plate subducts beneath another.</li>
-            <li>Forms deep [[Oceanic Trench]]es (e.g., Mariana Trench) and volcanic [[Island Arcs]] (e.g., Japanese Islands, Philippines).</li>
-            <li>Associated with powerful earthquakes and explosive volcanism.</li>
-          </ul>
-        </li>
-        <li>**Oceanic-Continental Convergence:**
-          <ul>
-            <li>Denser oceanic plate subducts beneath the lighter continental plate.</li>
-            <li>Forms deep trenches offshore and volcanic mountain ranges (e.g., [[Andes Mountains]], Cascade Range) on the continent.</li>
-            <li>Associated with strong earthquakes and explosive volcanism.</li>
-          </ul>
-        </li>
-        <li>**Continental-Continental Convergence:**
-          <ul>
-            <li>Neither plate subducts significantly due to similar densities.</li>
-            <li>Results in intense compression, uplift, and thickening of the crust, forming massive fold mountain ranges (e.g., [[Himalayas]], Alps).</li>
-            <li>Associated with strong earthquakes but generally **no volcanism** (due to thick crust preventing magma ascent).</li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <p style="margin-bottom: 0.3em;">**3. Transform Plate Boundaries (Conservative Margins):**</p>
-      <ul>
-        <li>Plates slide horizontally past each other, neither creating nor destroying crust.</li>
-        <li>Connect segments of spreading ridges or subduction zones.</li>
-        <li>Characterized by frequent, shallow, but powerful earthquakes (e.g., San Andreas Fault in California).</li>
-        <li>**No volcanism** associated with transform faults.</li>
-      </ul>
-    </li>
+    <li>High‑viscosity (acidic/felsic) magma traps gases → explosive eruptions.</li>
+    <li>Low‑viscosity (basic/mafic) magma allows gases to escape → effusive eruptions.</li>
   </ul>
 
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">Significance and Consequences</h6>
+  <h4>Types of Volcanoes</h4>
   <ul>
-    <li>Explains the distribution of earthquakes, volcanoes, and mountain ranges.</li>
-    <li>Accounts for the formation of ocean basins and the opening and closing of oceans.</li>
-    <li>Influences climate patterns over geological timescales.</li>
-    <li>Helps in understanding the distribution of natural resources (e.g., oil and gas in sedimentary basins, mineral deposits).</li>
+    <li><strong>Shield Volcanoes</strong>: Broad, gently sloping cones built by low‑viscosity basaltic lava; eruptions are typically non‑explosive (e.g., Mauna Loa, Kilauea).</li>
+    <li><strong>Composite (Stratovolcanoes)</strong>: Steep‑profile cones composed of alternating lava flows and tephra; characterised by explosive eruptions (e.g., Mt. Fuji, Mt. Vesuvius, Mt. St. Helens).</li>
+    <li><strong>Calderas</strong>: Large depressions formed by collapse of a volcano after a massive eruption empties the magma chamber (e.g., Crater Lake, Santorini).</li>
+    <li><strong>Flood Basalt Provinces</strong>: Vast plateaus formed by successive basaltic flows from fissure eruptions, often linked to mantle plumes (e.g., Deccan Traps, Columbia River Basalts).</li>
+    <li><strong>Mid‑Ocean Ridge Volcanoes</strong>: Underwater volcanoes along divergent boundaries, producing continuous basaltic eruptions (e.g., Mid‑Atlantic Ridge).</li>
   </ul>
 
-  <h4 style="color: var(--text-color); margin-top: 1.5em; margin-bottom: 0.8em; font-weight: 600;">III. Volcanism</h4>
-
-  <h5 style="color: var(--text-color); margin-top: 1em; margin-bottom: 0.6em; font-weight: 500;">Introduction to Volcanism</h5>
+  <h4>Volcanic Landforms</h4>
+  <h5>Intrusive (Plutonic) Forms</h5>
   <ul>
-    <li>**Volcanism** refers to the eruption of molten rock (magma), ash, and gases onto the Earth's surface or into the atmosphere through vents or fissures.</li>
-    <li>**Magma** is molten rock beneath the Earth's surface, containing dissolved gases.</li>
-    <li>**Lava** is magma that has reached the Earth's surface. The dissolved gases escape, making lava less gaseous than magma.</li>
-    <li>The type of eruption (explosive or effusive) and the resulting volcanic landform largely depend on the **viscosity** (resistance to flow) and **gas content** of the magma.
-      <ul>
-        <li>**High viscosity magma (acidic/felsic):** Traps gases, leading to explosive eruptions (e.g., Rhyolitic magma).</li>
-        <li>**Low viscosity magma (basic/mafic):** Allows gases to escape easily, leading to effusive (gentle) eruptions (e.g., Basaltic magma).</li>
-      </ul>
-    </li>
+    <li>Batholiths, Laccoliths, Lopoliths, Phacoliths, Sills, and Dykes – formed when magma solidifies within the crust.</li>
+  </ul>
+  <h5>Extrusive Forms</h5>
+  <ul>
+    <li>Cinder cones, composite cones, shield cones, craters, calderas, lava plateaus, hot springs, and geysers.</li>
   </ul>
 
-  <h5 style="color: var(--text-color); margin-top: 1em; margin-bottom: 0.6em; font-weight: 500;">Types of Volcanoes</h5>
+  <h4>Distribution of Volcanoes</h4>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Global%20Volcano%20Distribution%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Global Volcano Distribution" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <ul>
-    <li>**1. Shield Volcanoes:**
-      <ul>
-        <li>Largest volcanoes on Earth, characterized by a broad, gently sloping cone.</li>
-        <li>Formed by highly fluid, low-viscosity basaltic lava flows, which spread out over vast areas before solidifying.</li>
-        <li>Eruptions are typically non-explosive and effusive.</li>
-        <li>Examples: Mauna Loa and Kilauea in Hawaii.</li>
-      </ul>
-    </li>
-    <li>**2. Composite Volcanoes (Stratovolcanoes):**
-      <ul>
-        <li>Conical volcanoes built up by many layers (strata) of hardened lava, tephra (ash, cinders, bombs), and volcanic rocks.</li>
-        <li>Characterized by steep profiles and explosive eruptions due to viscous, gas-rich magma.</li>
-        <li>Most dangerous and picturesque type of volcano.</li>
-        <li>Examples: Mount Fuji (Japan), Mount Vesuvius (Italy), Mount St. Helens (USA).</li>
-      </ul>
-    </li>
-    <li>**3. Calderas:**
-      <ul>
-        <li>Large, basin-shaped depressions formed when the summit of a volcano collapses inward after a massive eruption empties the magma chamber.</li>
-        <li>Much larger than typical craters.</li>
-        <li>Often form lakes.</li>
-        <li>Examples: Crater Lake (Oregon, USA), Santorini (Greece).</li>
-      </ul>
-    </li>
-    <li>**4. Flood Basalt Provinces (Continental Flood Basalts):**
-      <ul>
-        <li>Vast areas covered by successive flows of highly fluid basaltic lava from large fissures (cracks) in the Earth's crust.</li>
-        <li>Do not form conical volcanoes but extensive plateaus.</li>
-        <li>Associated with mantle plumes or [[Hot Spots]].</li>
-        <li>Examples: Deccan Traps (India), Columbia River Basalts (USA).</li>
-      </ul>
-    </li>
-    <li>**5. Mid-Ocean Ridge Volcanoes:**
-      <ul>
-        <li>Volcanoes along divergent plate boundaries where new oceanic crust is created.</li>
-        <li>Characterized by effusive basaltic eruptions, often underwater.</li>
-        <li>Examples: Along the Mid-Atlantic Ridge.</li>
-      </ul>
-    </li>
+    <li><strong>Pacific Ring of Fire</strong>: Horseshoe‑shaped zone encircling the Pacific Ocean, containing ~75% of the world’s active volcanoes and ~90% of earthquakes.</li>
+    <li><strong>Mid‑Oceanic Ridges</strong>: Divergent boundaries where new crust is created, leading to submarine volcanism.</li>
+    <li><strong>Hot Spots</strong>: Intraplate volcanic centres fed by mantle plumes; as plates move, a chain of volcanoes forms (e.g., Hawaiian Islands).</li>
   </ul>
 
-  <h5 style="color: var(--text-color); margin-top: 1em; margin-bottom: 0.6em; font-weight: 500;">Volcanic Landforms</h5>
-  <p style="margin-bottom: 0.5em;">Volcanic activity creates various landforms, both intrusive (within the crust) and extrusive (on the surface).</p>
-
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">Intrusive Volcanic Forms (Plutonic Forms)</h6>
+  <h4>Associated Phenomena</h4>
   <ul>
-    <li>Form when magma cools and solidifies within the Earth's crust.</li>
-    <li>**[[Batholith]]s:** Large, massive bodies of intrusive igneous rock (usually granite), often forming the core of mountain ranges. Irregular shape.</li>
-    <li>**[[Laccolith]]s:** Dome-shaped intrusive bodies with a flat bottom, formed when magma pushes up overlying rock layers. Connected by a pipe-like conduit from below.</li>
-    <li>**Lopoliths:** Saucer-shaped intrusive bodies, similar to laccoliths but with a concave upward form.</li>
-    <li>**Phacoliths:** Lens-shaped intrusive bodies that occur along the crests and troughs of folded sedimentary strata.</li>
-    <li>**[[Sill]]s:** Tabular intrusive bodies that are parallel to the bedding planes of the surrounding rock.</li>
-    <li>**[[Dyke]]s (Dikes):** Wall-like intrusive bodies that cut across the bedding planes or other structures of the surrounding rock.</li>
-  </ul>
-
-  <h6 style="color: var(--text-color); margin-top: 0.8em; margin-bottom: 0.4em; font-weight: 500;">Extrusive Volcanic Forms</h6>
-  <ul>
-    <li>Form when lava and volcanic materials erupt onto the Earth's surface.</li>
-    <li>**Volcanic Cones:**
-      <ul>
-        <li>**Cinder Cone:** Small, steep-sided cones built from pyroclastic fragments (cinders) ejected during explosive eruptions.</li>
-        <li>**Composite Cone (Stratovolcano):** (Discussed above)</li>
-        <li>**Shield Cone:** (Discussed above)</li>
-      </ul>
-    </li>
-    <li>**Craters:** Bowl-shaped depressions at the summit of most volcanoes, formed by explosive eruptions.</li>
-    <li>**Calderas:** (Discussed above)</li>
-    <li>**Lava Plateaus (Plateau Basalts):** Extensive, flat-topped plateaus formed by highly fluid basaltic lava flows from fissures (e.g., Deccan Traps).</li>
-    <li>**Hot Spring & Geysers:** (Discussed below as associated phenomena)</li>
-  </ul>
-
-  <h5 style="color: var(--text-color); margin-top: 1em; margin-bottom: 0.6em; font-weight: 500;">Distribution of Volcanoes</h5>
-  <ul>
-    <li>**1. The [[Pacific Ring of Fire]]:**
-      <ul>
-        <li>A horseshoe-shaped zone of frequent earthquakes and volcanic eruptions that encircles the Pacific Ocean basin.</li>
-        <li>Hosts about 75% of the world's active and dormant volcanoes and 90% of the world's earthquakes.</li>
-        <li>Result of convergent plate boundaries where numerous oceanic plates are subducting under continental and other oceanic plates.</li>
-      </ul>
-    </li>
-    <li>**2. Mid-Oceanic Ridges:**
-      <ul>
-        <li>Divergent plate boundaries where new crust is formed, often leading to submarine volcanic activity.</li>
-        <li>Example: Mid-Atlantic Ridge.</li>
-      </ul>
-    </li>
-    <li>**3. Hot Spots:**
-      <ul>
-        <li>Areas of persistent volcanic activity not located at plate boundaries, but above anomalously hot plumes of mantle material (mantle plumes) that rise to the surface.</li>
-        <li>As plates move over a stationary hot spot, a chain of volcanoes forms, with the oldest volcanoes being furthest from the active hot spot.</li>
-        <li>Example: Hawaiian Islands.</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h5 style="color(--text-color); margin-top: 1em; margin-bottom: 0.6em; font-weight: 500;">Associated Phenomena</h5>
-  <ul>
-    <li>**Fumaroles:** Vents that emit volcanic gases (steam, carbon dioxide, sulfur dioxide) from beneath the Earth's surface.</li>
-    <li>**Hot Springs:** Occur when groundwater is heated by geothermal energy and rises to the surface.</li>
-    <li>**Geysers:** Intermittent hot springs that periodically erupt columns of hot water and steam due to the buildup of pressure underground. (e.g., Old Faithful in Yellowstone National Park).</li>
-    <li>**Solfataras:** Fumaroles that primarily emit sulfurous gases.</li>
+    <li>Fumaroles – vents emitting volcanic gases.</li>
+    <li>Hot Springs – groundwater heated by geothermal energy.</li>
+    <li>Geysers – intermittent eruptions of hot water and steam (e.g., Old Faithful).</li>
+    <li>Solfataras – sulfur‑rich fumaroles.</li>
   </ul>
 </div>
 `;
 
 EXPANDED_NOTES_DATA["world-geography-mountains"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,4px,12px,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    World Geography: Mountains, Forests & Rivers
-  </h3>
-  
-  <h4>I. Mountains of the World</h4>
-  <p>Mountains are large natural elevations of the Earth's surface rising abruptly from the surrounding level. They play a crucial role in regulating climate, influencing biodiversity, and serving as sources of major rivers.</p>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">World Geography: Mountains, Forests & Rivers</h2>
 
-  <h5>1. Classification of Mountains</h5>
+  <!-- ==================== Mountains ==================== -->
+  <h3>I. Mountains of the World</h3>
+  <p>Mountains are large natural elevations of the Earth's surface rising abruptly from the surrounding level. They regulate climate, host unique biodiversity, and act as the headwaters for many major rivers.</p>
+
+  <h4>1. Classification of Mountains</h4>
   <ul>
-    <li><strong>[[Fold Mountains]]:</strong> Formed by the folding of crustal rocks due to compressional forces.
+    <li><strong>Fold Mountains:</strong> Formed by the folding of crustal rocks under compressional forces.
       <ul>
-        <li><strong>Young Fold Mountains:</strong> High, rugged, and geologically young. Examples: [[Himalayas]], [[Andes Mountains]], [[Rocky Mountains]], [[Alps]].</li>
-        <li><strong>Old Fold Mountains:</strong> Much older, eroded, and lower in height. Examples: Appalachians (North America), Urals (Russia), Aravallis (India).</li>
+        <li><strong>Young Fold Mountains:</strong> High, rugged, and geologically young. Examples include the Himalayas, Andes, Rocky Mountains, and Alps.</li>
+        <li><strong>Old Fold Mountains:</strong> Much older, heavily eroded and lower in height. Examples include the Appalachians (North America), Urals (Russia), and Aravallis (India).</li>
       </ul>
     </li>
-    <li><strong>Block Mountains:</strong> Formed when large areas are broken and displaced vertically due to faulting. The uplifted blocks are called horsts, and the lowered blocks are grabens or rift valleys. Examples: Vosges Mountain (France), Black Forest (Germany), Sierra Nevada (USA).</li>
-    <li><strong>Volcanic Mountains (Accumulation Mountains):</strong> Formed due to the accumulation of volcanic material (lava, ash, cinder) ejected during volcanic eruptions. Examples: Mount Fuji (Japan), Mount Kilimanjaro (Africa), Mount St. Helens (USA).</li>
-    <li><strong>Residual Mountains (Dissected Mountains):</strong> Formed by the erosion of elevated plateaus or high plains over a long period. Examples: Vindhyas, Satpuras, Eastern Ghats (India).</li>
+    <li><strong>Block Mountains:</strong> Created when large crustal blocks are displaced vertically along faults. Uplifted blocks are called <em>horsts</em>; lowered blocks are <em>grabens</em> or rift valleys. Examples: Vosges (France), Black Forest (Germany), Sierra Nevada (USA).</li>
+    <li><strong>Volcanic (Accumulation) Mountains:</strong> Built up by successive eruptions of lava, ash, and volcanic debris. Examples: Mount Fuji (Japan), Mount Kilimanjaro (Tanzania), Mount St. Helens (USA).</li>
+    <li><strong>Residual (Dissected) Mountains:</strong> Remnants of eroded plateaus or high plains. Examples: Vindhyas, Satpuras, Eastern Ghats (India).</li>
   </ul>
 
-  <h5>2. Major Mountain Ranges and Peaks (Continent-wise)</h5>
+  <h4>2. Major Mountain Ranges and Peaks (Continent‑wise)</h4>
   <ul>
-    <li><strong>Asia:</strong>
+    <li><strong>Asia</strong>
       <ul>
-        <li><strong>Himalayas:</strong> Longest and highest young fold mountain range. Contains the world's highest peaks.
+        <li><strong>Himalayas</strong> – the longest and highest young fold range. Key peaks:
           <ul>
-            <li><strong>Mount Everest:</strong> (8,848.86 m) - Highest peak in the world.</li>
-            <li><strong>K2 (Mount Godwin Austen):</strong> (8,611 m) - Second highest peak in the world (Karakoram Range).</li>
-            <li><strong>Kanchenjunga:</strong> (8,586 m) - Third highest peak.</li>
+            <li>Mount Everest – 8,848.86 m (world’s highest)</li>
+            <li>K2 (Mount Godwin‑Austen) – 8,611 m (second highest)</li>
+            <li>Kanchenjunga – 8,586 m (third highest)</li>
           </ul>
         </li>
-        <li><strong>Karakoram Range:</strong> North of the Himalayas, home to K2.</li>
-        <li><strong>Kunlun Mountains:</strong> Northern China, extends into Tibet.</li>
-        <li><strong>Tian Shan:</strong> Central Asia.</li>
-        <li><strong>Altai Mountains:</strong> Central Asia, borders Russia, China, Mongolia, Kazakhstan.</li>
-        <li><strong>Urals Mountains:</strong> Forms part of the boundary between Europe and Asia.</li>
-        <li><strong>Zagros Mountains:</strong> Iran and Iraq.</li>
-        <li><strong>Western Ghats & Eastern Ghats:</strong> India.</li>
+        <li>Karakoram Range – north of the Himalayas, home to K2.</li>
+        <li>Kunlun Mountains – northern China extending into Tibet.</li>
+        <li>Tian Shan – Central Asia.</li>
+        <li>Altai Mountains – intersection of Russia, China, Mongolia, Kazakhstan.</li>
+        <li>Urals – natural boundary between Europe and Asia.</li>
+        <li>Zagros – Iran and Iraq.</li>
+        <li>Western & Eastern Ghats – peninsular India.</li>
       </ul>
     </li>
-    <li><strong>Europe:</strong>
+    <li><strong>Europe</strong>
       <ul>
-        <li><strong>Alps:</strong> Major young fold mountains in Europe.
-          <ul>
-            <li><strong>Mont Blanc:</strong> (4,808 m) - Highest peak in the Alps.</li>
-          </ul>
-        </li>
-        <li><strong>Pyrenees:</strong> Forms the border between France and Spain.</li>
-        <li><strong>Apennines:</strong> Runs the length of the Italian Peninsula.</li>
-        <li><strong>Carpathians:</strong> Central and Eastern Europe.</li>
-        <li><strong>Scandinavian Mountains:</strong> Norway, Sweden.</li>
+        <li>Alps – major young fold system. Highest peak: Mont Blanc (4,808 m).</li>
+        <li>Pyrenees – border between France and Spain.</li>
+        <li>Apennines – spine of the Italian Peninsula.</li>
+        <li>Carpathians – Central and Eastern Europe.</li>
+        <li>Scandinavian Mountains – Norway & Sweden.</li>
       </ul>
     </li>
-    <li><strong>North America:</strong>
+    <li><strong>North America</strong>
       <ul>
-        <li><strong>[[Rocky Mountains]]:</strong> Extends from British Columbia (Canada) to New Mexico (USA).
-          <ul>
-            <li><strong>Mount Elbert:</strong> (4,399 m) - Highest peak in the Rockies.</li>
-          </ul>
-        </li>
-        <li><strong>Appalachian Mountains:</strong> Eastern North America, old fold mountains.</li>
-        <li><strong>Sierra Nevada:</strong> California, USA.</li>
+        <li>Rocky Mountains – stretch from British Columbia (Canada) to New Mexico (USA). Highest peak: Mount Elbert (4,399 m).</li>
+        <li>Appalachian Mountains – old fold range in eastern North America.</li>
+        <li>Sierra Nevada – California, USA.</li>
       </ul>
     </li>
-    <li><strong>South America:</strong>
+    <li><strong>South America</strong>
       <ul>
-        <li><strong>[[Andes Mountains]]:</strong> Longest continental mountain range in the world, running along the western coast.
-          <ul>
-            <li><strong>Mount Aconcagua:</strong> (6,961 m) - Highest peak in the Americas.</li>
-          </ul>
-        </li>
-        <li><strong>Brazilian Highlands:</strong> Southeastern South America.</li>
+        <li>Andes – longest continental range, running along the western coast. Highest peak: Aconcagua (6,961 m).</li>
+        <li>Brazilian Highlands – southeastern plateau.</li>
       </ul>
     </li>
-    <li><strong>Africa:</strong>
+    <li><strong>Africa</strong>
       <ul>
-        <li><strong>Atlas Mountains:</strong> Northwestern Africa (Morocco, Algeria, Tunisia).</li>
-        <li><strong>Drakensberg Mountains:</strong> Eastern South Africa.</li>
-        <li><strong>Mount Kilimanjaro:</strong> (5,895 m) - Dormant volcano, highest peak in Africa.</li>
+        <li>Atlas – north‑west Africa (Morocco, Algeria, Tunisia).</li>
+        <li>Drakensberg – eastern South Africa.</li>
+        <li>Mount Kilimanjaro – 5,895 m, dormant volcano, Africa’s highest peak.</li>
       </ul>
     </li>
-    <li><strong>Australia:</strong>
+    <li><strong>Australia</strong>
       <ul>
-        <li><strong>Great Dividing Range:</strong> Eastern Australia.
-          <ul>
-            <li><strong>Mount Kosciuszko:</strong> (2,228 m) - Highest peak in mainland Australia.</li>
-          </ul>
-        </li>
+        <li>Great Dividing Range – eastern Australia. Highest mainland peak: Mount Kosciuszko (2,228 m).</li>
       </ul>
     </li>
-    <li><strong>Antarctica:</strong>
+    <li><strong>Antarctica</strong>
       <ul>
-        <li><strong>Transantarctic Mountains:</strong> Divides the continent.</li>
-        <li><strong>Vinson Massif:</strong> (4,892 m) - Highest peak in Antarctica.</li>
+        <li>Transantarctic Mountains – divide the continent.</li>
+        <li>Vinson Massif – 4,892 m, highest Antarctic peak.</li>
       </ul>
     </li>
   </ul>
 
-  <h5>3. Significance of Mountains</h5>
+  <h4>3. Significance of Mountains</h4>
   <ul>
-    <li><strong>Climatic Barriers:</strong> Block winds and precipitation (e.g., Himalayas).</li>
-    <li><strong>Source of Rivers:</strong> Glaciers and snowmelt feed many major rivers.</li>
-    <li><strong>Biodiversity Hotspots:</strong> Unique flora and fauna.</li>
-    <li><strong>Natural Resources:</strong> Minerals, timber, hydroelectric power.</li>
-    <li><strong>Tourism and Recreation:</strong> Hiking, skiing, mountaineering.</li>
-    <li><strong>Defence:</strong> Natural barriers for countries.</li>
+    <li><strong>Climatic Barriers:</strong> Intercept prevailing winds, creating rain shadows (e.g., Himalayas).</li>
+    <li><strong>Source of Rivers:</strong> Glacial melt and snowpack feed major river systems.</li>
+    <li><strong>Biodiversity Hotspots:</strong> Endemic flora and fauna thrive in varied altitudinal zones.</li>
+    <li><strong>Natural Resources:</strong> Minerals, timber, and hydro‑electric potential.</li>
+    <li><strong>Tourism & Recreation:</strong> Hiking, skiing, mountaineering.</li>
+    <li><strong>Defence:</strong> Natural fortifications for nations.</li>
   </ul>
 
-  <h4>II. Forests of the World</h4>
-  <p>Forests are large areas dominated by trees and other woody vegetation. They are vital for maintaining ecological balance, supporting biodiversity, regulating climate, and providing essential resources.</p>
+  <!-- Map of World Mountain Ranges -->
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20world%20mountain%20ranges%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of World Mountain Ranges" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-  <h5>1. Major Forest Types/Biomes</h5>
+  <!-- Map of the Himalayas -->
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Himalayas%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Himalayas" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <!-- ==================== Forests ==================== -->
+  <h3>II. Forests of the World</h3>
+  <p>Forests are extensive tracts dominated by trees and woody plants. They sustain ecological balance, support biodiversity, regulate climate, and provide vital resources.</p>
+
+  <h4>1. Major Forest Types / Biomes</h4>
   <ul>
-    <li><strong>[[Tropical Rainforests]] (Equatorial Forests / Tropical Evergreen Forests):</strong>
+    <li><strong>Tropical Rainforests (Equatorial Forests):</strong>
       <ul>
-        <li><strong>Location:</strong> Near the Equator, within 10° North and South latitudes (Amazon Basin, Congo Basin, Southeast Asia, parts of India).</li>
-        <li><strong>Characteristics:</strong> High rainfall (&gt;200 cm annually), high temperatures, extremely high biodiversity, dense canopy, multi-layered vegetation. Trees never shed all their leaves simultaneously, hence "evergreen".</li>
+        <li><strong>Location:</strong> Within 10° N–S of the equator (Amazon, Congo, SE Asia, parts of India).</li>
+        <li><strong>Characteristics:</strong> >200 cm annual rainfall, high temperatures, multi‑layered canopy, evergreen.</li>
         <li><strong>Key Species:</strong> Mahogany, Ebony, Rosewood, Rubber, Cinchona.</li>
       </ul>
     </li>
-    <li><strong>Tropical Deciduous Forests ([[Monsoon Forests]]):</strong>
+    <li><strong>Tropical Deciduous (Monsoon) Forests:</strong>
       <ul>
-        <li><strong>Location:</strong> Monsoon lands of Asia (India, Myanmar, Thailand), Central and South America, parts of Africa and Australia.</li>
-        <li><strong>Characteristics:</strong> Moderate rainfall (70-200 cm), distinct dry and wet seasons. Trees shed their leaves in the dry season to conserve water. Less dense than rainforests.</li>
+        <li><strong>Location:</strong> Monsoon zones of Asia, parts of Central & South America, Africa, Australia.</li>
+        <li><strong>Characteristics:</strong> 70–200 cm rainfall, distinct wet‑dry seasons, leaf‑shedding in dry months.</li>
         <li><strong>Key Species:</strong> Teak, Sal, Sandalwood, Bamboo.</li>
       </ul>
     </li>
     <li><strong>Temperate Deciduous Forests:</strong>
       <ul>
-        <li><strong>Location:</strong> Mid-latitudes (Eastern North America, Western Europe, parts of East Asia, Chile, New Zealand).</li>
-        <li><strong>Characteristics:</strong> Moderate rainfall, distinct four seasons. Trees shed leaves in autumn and winter.</li>
+        <li><strong>Location:</strong> Mid‑latitudes – Eastern North America, Western Europe, East Asia, Chile, New Zealand.</li>
+        <li><strong>Characteristics:</strong> Moderate rainfall, four distinct seasons, autumn leaf‑drop.</li>
         <li><strong>Key Species:</strong> Oak, Beech, Birch, Maple.</li>
       </ul>
     </li>
-    <li><strong>[[Coniferous Forests]] (Taiga / Boreal Forests):</strong>
+    <li><strong>Coniferous Forests (Taiga / Boreal):</strong>
       <ul>
-        <li><strong>Location:</strong> High northern latitudes (50°-70° N) across North America (Canada) and Eurasia (Russia, Scandinavia).</li>
-        <li><strong>Characteristics:</strong> Cold climate, long severe winters, moderate rainfall. Dominated by conifers (cone-bearing trees) with needle-like leaves adapted to cold. Less biodiversity.</li>
+        <li><strong>Location:</strong> 50°–70° N across Canada, Russia, Scandinavia.</li>
+        <li><strong>Characteristics:</strong> Cold winters, moderate precipitation, needle‑leaf conifers.</li>
         <li><strong>Key Species:</strong> Pine, Spruce, Fir, Larch.</li>
       </ul>
     </li>
-    <li><strong>Mediterranean Forests/Shrublands:</strong>
+    <li><strong>Mediterranean Forests / Shrublands:</strong>
       <ul>
-        <li><strong>Location:</strong> Around the Mediterranean Sea, California (USA), Central Chile, Southwestern Australia, Cape Town region (South Africa).</li>
-        <li><strong>Characteristics:</strong> Hot, dry summers and mild, wet winters ([[Mediterranean Climate]]). Vegetation adapted to drought (sclerophyllous leaves, deep roots).</li>
-        <li><strong>Key Species:</strong> Olive, Cork Oak, Citrus fruits, various shrubs (chaparral).</li>
+        <li><strong>Location:</strong> Mediterranean basin, California, Central Chile, SW Australia, Cape region of South Africa.</li>
+        <li><strong>Characteristics:</strong> Hot, dry summers; mild, wet winters; sclerophyllous vegetation.</li>
+        <li><strong>Key Species:</strong> Olive, Cork Oak, Citrus, chaparral shrubs.</li>
       </ul>
     </li>
     <li><strong>Mangrove Forests (Tidal Forests):</strong>
       <ul>
-        <li><strong>Location:</strong> Coastal areas, river deltas, and estuaries in tropical and subtropical regions (Sundarbans in India/Bangladesh, parts of Southeast Asia, Africa).</li>
-        <li><strong>Characteristics:</strong> Salt-tolerant vegetation (halophytes). Trees have prop roots to stabilize in muddy, saline water and breathing roots (pneumatophores). Protect coasts from erosion and tsunamis.</li>
+        <li><strong>Location:</strong> Tropical & subtropical coasts, river deltas, estuaries (e.g., Sundarbans).</li>
+        <li><strong>Characteristics:</strong> Salt‑tolerant halophytes, prop roots, pneumatophores; protect shorelines.</li>
         <li><strong>Key Species:</strong> Rhizophora, Avicennia.</li>
       </ul>
     </li>
-    <li><strong>Grasslands (Not strictly forests, but important biomes):</strong>
+    <li><strong>Grasslands (Savanna & Temperate):</strong>
       <ul>
-        <li><strong>Tropical Grasslands (Savanna):</strong> Found in Africa, Australia, Brazil, India. Tall grasses with scattered trees.</li>
-        <li><strong>Temperate Grasslands:</strong> Found in mid-latitudes with short to medium grasses. Known as Prairies (N. America), Pampas (S. America), Steppes (Eurasia), Veld (S. Africa), Downs (Australia).</li>
+        <li><strong>Tropical Savanna:</strong> Africa, Australia, Brazil, India – tall grasses with scattered trees.</li>
+        <li><strong>Temperate Grasslands:</strong> Prairies (N. America), Pampas (S. America), Steppes (Eurasia), Veld (S. Africa), Downs (Australia).</li>
       </ul>
     </li>
   </ul>
 
-  <h5>2. Significance of Forests</h5>
+  <h4>2. Significance of Forests</h4>
   <ul>
-    <li><strong>Oxygen Production:</strong> Through photosynthesis.</li>
-    <li><strong>Carbon Sinks:</strong> Absorb carbon dioxide, mitigating climate change.</li>
-    <li><strong>Biodiversity Conservation:</strong> Home to millions of species.</li>
-    <li><strong>Water Cycle Regulation:</strong> Influence rainfall, prevent soil erosion, maintain groundwater levels.</li>
-    <li><strong>Economic Resources:</strong> Timber, medicinal plants, non-timber forest products.</li>
-    <li><strong>Climate Regulation:</strong> Moderate temperatures, increase local humidity.</li>
+    <li><strong>Oxygen Production:</strong> Photosynthetic conversion of CO₂ to O₂.</li>
+    <li><strong>Carbon Sequestration:</strong> Mitigates climate change by storing carbon.</li>
+    <li><strong>Biodiversity Conservation:</strong> Habitat for millions of species.</li>
+    <li><strong>Water Cycle Regulation:</strong> Influences rainfall, prevents erosion, sustains groundwater.</li>
+    <li><strong>Economic Resources:</strong> Timber, medicinal plants, non‑timber products.</li>
+    <li><strong>Climate Moderation:</strong> Regulates temperature and local humidity.</li>
   </ul>
 
-  <h4>III. Rivers of the World</h4>
-  <p>Rivers are natural flowing watercourses, usually freshwater, flowing towards an ocean, sea, lake, or another river. They are crucial for human civilizations, ecosystems, and economic development.</p>
+  <!-- Map of Global Forest Biomes -->
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20global%20forest%20biomes%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Global Forest Biomes" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-  <h5>1. Major Rivers of the World (Continent-wise)</h5>
+  <!-- Map of a Tropical Rainforest (Amazon) -->
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Amazon%20Rainforest%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Amazon Rainforest" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <!-- ==================== Rivers ==================== -->
+  <h3>III. Rivers of the World</h3>
+  <p>Rivers are natural freshwater channels that flow toward oceans, seas, lakes, or other rivers. They underpin human civilization, sustain ecosystems, and drive economic activity.</p>
+
+  <h4>1. Major Rivers (Continent‑wise)</h4>
   <ul>
-    <li><strong>Asia:</strong>
+    <li><strong>Asia</strong>
       <ul>
-        <li><strong>[[Yangtze River]]:</strong> Longest river in Asia and third-longest in the world (China).</li>
-        <li><strong>Yellow River (Huang He):</strong> Second longest in China, known as "China's Sorrow" due to frequent floods.</li>
-        <li><strong>Mekong River:</strong> Flows through six countries in Southeast Asia.</li>
-        <li><strong>Indus River:</strong> Originates in Tibet, flows through India and Pakistan. [[Indus Valley Civilization]] flourished along its banks.</li>
-        <li><strong>[[Ganges River]]:</strong> Sacred river of India, originates from Gangotri Glacier.</li>
-        <li><strong>Brahmaputra River:</strong> Originates in Tibet (as Yarlung Tsangpo), flows through India and Bangladesh.</li>
-        <li><strong>Tigris & Euphrates:</strong> Historically significant rivers flowing through Turkey, Syria, and Iraq. The land between them formed [[Mesopotamian Civilization]].</li>
-        <li><strong>Ob, Yenisei, Lena Rivers:</strong> Major rivers of Siberia, Russia, flowing north into the Arctic Ocean.</li>
+        <li>Yangtze River – longest in Asia, third‑longest globally.</li>
+        <li>Yellow River (Huang He) – "China’s Sorrow" due to frequent floods.</li>
+        <li>Mekong – traverses six Southeast Asian nations.</li>
+        <li>Indus – originates in Tibet, vital for Pakistan and north‑west India.</li>
+        <li>Ganges – sacred river, source: Gangotri Glacier.</li>
+        <li>Brahmaputra – begins as Yarlung Tsangpo in Tibet.</li>
+        <li>Tigris & Euphrates – cradle of Mesopotamian civilization.</li>
+        <li>Ob, Yenisei, Lena – major Siberian rivers draining into the Arctic Ocean.</li>
       </ul>
     </li>
-    <li><strong>Europe:</strong>
+    <li><strong>Europe</strong>
       <ul>
-        <li><strong>Volga River:</strong> Longest river in Europe, entirely within Russia.</li>
-        <li><strong>Danube River:</strong> Second longest in Europe, flows through 10 countries, making it the world's most international river.</li>
-        <li><strong>Rhine River:</strong> Crucial for transport in Western Europe, flows through Switzerland, Germany, Netherlands.</li>
-        <li><strong>Elbe River:</strong> Flows through Czech Republic and Germany.</li>
-        <li><strong>Seine River:</strong> Flows through Paris, France.</li>
-        <li><strong>Thames River:</strong> Flows through London, UK.</li>
+        <li>Volga – longest river wholly within Europe.</li>
+        <li>Danube – second longest, flows through 10 countries.</li>
+        <li>Rhine – key transport artery in Western Europe.</li>
+        <li>Elbe – traverses Czech Republic and Germany.</li>
+        <li>Seine – runs through Paris.</li>
+        <li>Thames – flows through London.</li>
       </ul>
     </li>
-    <li><strong>North America:</strong>
+    <li><strong>North America</strong>
       <ul>
-        <li><strong>[[Mississippi River]] - Missouri River System:</strong> Longest river system in North America.</li>
-        <li><strong>St. Lawrence River:</strong> Connects the Great Lakes to the Atlantic Ocean, forms part of the US-Canada border.</li>
-        <li><strong>Yukon River:</strong> Flows through Yukon (Canada) and Alaska (USA).</li>
-        <li><strong>Colorado River:</strong> Flows through Southwestern USA and Mexico, carved the Grand Canyon.</li>
-        <li><strong>Rio Grande:</strong> Forms part of the US-Mexico border.</li>
+        <li>Mississippi‑Missouri System – longest river system on the continent.</li>
+        <li>St. Lawrence – links Great Lakes to the Atlantic, forms part of the US‑Canada border.</li>
+        <li>Yukon – flows through Canada and Alaska.</li>
+        <li>Colorado – carved the Grand Canyon.</li>
+        <li>Rio Grande – delineates a portion of the US‑Mexico border.</li>
       </ul>
     </li>
-    <li><strong>South America:</strong>
+    <li><strong>South America</strong>
       <ul>
-        <li><strong>[[Amazon River]]:</strong> Largest river in the world by discharge volume, and second longest by length. Flows through the [[Amazon Rainforest]].</li>
-        <li><strong>Paraná River:</strong> Second longest in South America, flows through Brazil, Paraguay, Argentina.</li>
-        <li><strong>Orinoco River:</strong> Flows primarily through Venezuela.</li>
+        <li>Amazon – world’s largest by discharge, second longest overall.</li>
+        <li>Paraná – second longest in South America.</li>
+        <li>Orinoco – primarily in Venezuela.</li>
       </ul>
     </li>
-    <li><strong>Africa:</strong>
+    <li><strong>Africa</strong>
       <ul>
-        <li><strong>[[River Nile]]:</strong> Traditionally considered the longest river in the world, flowing north through northeastern Africa.</li>
-        <li><strong>Congo River:</strong> Second longest in Africa, deepest river in the world, and second largest by discharge.</li>
-        <li><strong>Niger River:</strong> Principal river of West Africa.</li>
-        <li><strong>Zambezi River:</strong> Fourth longest in Africa, known for Victoria Falls.</li>
+        <li>Nile – traditionally the longest river, flows northward.</li>
+        <li>Congo – second longest in Africa, deepest globally.</li>
+        <li>Niger – principal river of West Africa.</li>
+        <li>Zambezi – fourth longest, famous for Victoria Falls.</li>
       </ul>
     </li>
-    <li><strong>Australia:</strong>
+    <li><strong>Australia</strong>
       <ul>
-        <li><strong>Murray-Darling River System:</strong> Longest river system in Australia.</li>
+        <li>Murray‑Darling System – longest river system on the continent.</li>
       </ul>
     </li>
   </ul>
 
-  <h5>2. Important Riverine Concepts and Features</h5>
+  <h4>2. Important Riverine Concepts and Features</h4>
   <ul>
-    <li><strong>Drainage Basin (River Basin):</strong> The area of land where all precipitation drains into a single river system. A [[Watershed]] defines the boundary of a drainage basin.</li>
-    <li><strong>Deltas:</strong> Landforms created by the deposition of sediment at the mouth of a river as it enters an ocean, sea, or lake. E.g., Ganges-Brahmaputra Delta (world's largest delta).</li>
-    <li><strong>Estuaries:</strong> Partially enclosed coastal body of brackish water with one or more rivers or streams flowing into it, and with a free connection to the open sea.</li>
-    <li><strong>Waterfalls:</strong> Occur where a river flows over a vertical drop or series of drops. E.g., Angel Falls (Venezuela - highest in the world), Victoria Falls (Zambezi River), Niagara Falls (USA/Canada).</li>
-    <li><strong>River Terraces:</strong> Remnants of former floodplains, formed due to rejuvenation of rivers.</li>
-    <li><strong>Oxbow Lakes:</strong> Crescent-shaped lakes formed when a meander of a river is cut off from the main channel.</li>
+    <li><strong>Drainage Basin (River Basin):</strong> Area where all precipitation converges to a single river system; bounded by a watershed.</li>
+    <li><strong>Deltas:</strong> Sediment deposits at river mouths (e.g., Ganges‑Brahmaputra Delta – world’s largest).</li>
+    <li><strong>Estuaries:</strong> Semi‑enclosed coastal zones where fresh and saltwater mix.</li>
+    <li><strong>Waterfalls:</strong> Vertical drops in river courses (e.g., Angel Falls, Victoria Falls, Niagara Falls).</li>
+    <li><strong>River Terraces:</strong> Former floodplain remnants formed after river rejuvenation.</li>
+    <li><strong>Oxbow Lakes:</strong> Crescent‑shaped lakes cut off from the main channel.</li>
   </ul>
 
-  <h5>3. Significance of Rivers</h5>
+  <h4>3. Significance of Rivers</h4>
   <ul>
-    <li><strong>Water Supply:</strong> For drinking, domestic use, and industry.</li>
-    <li><strong>Irrigation:</strong> Essential for agriculture, especially in arid and semi-arid regions.</li>
-    <li><strong>Transportation:</strong> Navigable rivers serve as cheap and efficient waterways.</li>
-    <li><strong>Hydropower Generation:</strong> Dams built across rivers generate electricity.</li>
-    <li><strong>Ecosystems:</strong> Support rich biodiversity (fish, birds, aquatic plants).</li>
-    <li><strong>Human Settlements:</strong> Historically, major civilizations developed along river banks.</li>
-    <li><strong>Flood Control & Drought Mitigation:</strong> Managed through dams and canals.</li>
+    <li><strong>Water Supply:</strong> Drinking, domestic, and industrial uses.</li>
+    <li><strong>Irrigation:</strong> Supports agriculture, especially in arid zones.</li>
+    <li><strong>Transportation:</strong> Navigable waterways provide cost‑effective freight movement.</li>
+    <li><strong>Hydropower:</strong> Dams generate electricity.</li>
+    <li><strong>Ecosystem Support:</strong> Habitat for diverse aquatic life.</li>
+    <li><strong>Human Settlements:</strong> Cradles of ancient and modern civilizations.</li>
+    <li><strong>Flood Control & Drought Mitigation:</strong> Managed via dams, canals, and reservoirs.</li>
   </ul>
+
+  <!-- Map of Major World Rivers -->
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20major%20world%20rivers%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Major World Rivers" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <!-- Map of the Ganges‑Brahmaputra Delta -->
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Ganges%20Brahmaputra%20Delta%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of the Ganges Brahmaputra Delta" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 `;
 
 EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
-    Straits, Canals, Deserts & Seas
-  </h3>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Straits, Canals, Deserts &amp; Seas</h2>
 
-  <h4><strong>1. Definition and Classification</strong></h4>
-  <p>In physical geography, a <strong>strait</strong> is a naturally occurring, narrow waterway that connects two larger bodies of water. A <strong>canal</strong> is an artificial watercourse constructed for navigation, irrigation, or hydro‑electric purposes. <strong>Deserts</strong> are regions receiving less than <strong>250 mm</strong> of annual precipitation, while <strong>seas</strong> are marginal parts of the world’s oceans, often partially enclosed by land.</p>
+  <section>
+    <h3><strong>1. Definition and Classification</strong></h3>
+    <p>In physical geography, a <strong>strait</strong> is a naturally occurring, narrow waterway that connects two larger bodies of water. A <strong>canal</strong> is an artificial watercourse constructed for navigation, irrigation, or hydro‑electric purposes. <strong>Deserts</strong> are regions receiving less than <strong>250 mm</strong> of annual precipitation, while <strong>seas</strong> are marginal parts of the world’s oceans, often partially enclosed by land.</p>
+  </section>
 
-  <h4><strong>2. Major World Straits – Physical Characteristics & Strategic Importance</strong></h4>
-  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
-    <thead>
-      <tr style="background:#2a2a3a; color:#fff;">
-        <th style="padding:8px; border:1px solid #444;">Strait</th>
-        <th style="padding:8px; border:1px solid #444;">Location (Continents)</th>
-        <th style="padding:8px; border:1px solid #444;">Length (km)</th>
-        <th style="padding:8px; border:1px solid #444;">Minimum Width (km)</th>
-        <th style="padding:8px; border:1px solid #444;">Depth (m)</th>
-        <th style="padding:8px; border:1px solid #444;">Key Economic/Strategic Role</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Strait of Hormuz]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">Middle East (Asia‑Africa)</td>
-        <td style="padding:8px; border:1px solid #444;">~39</td>
-        <td style="padding:8px; border:1px solid #444;">~21 (at narrowest)</td>
-        <td style="padding:8px; border:1px solid #444;">~60</td>
-        <td style="padding:8px; border:1px solid #444;">Conveys ~20 % of global oil shipments; chokepoint for naval power.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Malacca Strait]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">Southeast Asia (Asia)</td>
-        <td style="padding:8px; border:1px solid #444;">~800</td>
-        <td style="padding:8px; border:1px solid #444;">~2.5</td>
-        <td style="padding:8px; border:1px solid #444;">~25</td>
-        <td style="padding:8px; border:1px solid #444;">Handles > 80 % of world’s maritime oil trade; vital for ASEAN economies.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Bering Strait]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">Arctic (North America‑Asia)</td>
-        <td style="padding:8px; border:1px solid #444;">~85</td>
-        <td style="padding:8px; border:1px solid #444;">~53</td>
-        <td style="padding:8px; border:1px solid #444;">~55</td>
-        <td style="padding:8px; border:1px solid #444;">Potential route for Arctic shipping under melting ice; geopolitical interest of US, Russia, Canada.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Strait of Gibraltar]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">Europe‑Africa (Atlantic‑Mediterranean)</td>
-        <td style="padding:8px; border:1px solid #444;">~58</td>
-        <td style="padding:8px; border:1px solid #444;">~13</td>
-        <td style="padding:8px; border:1px solid #444;">~300</td>
-        <td style="padding:8px; border:1px solid #444;">Gateway to the Mediterranean; control influences European maritime commerce.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Bab el-Mandeb]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">Red Sea‑Gulf of Aden (Africa‑Asia)</td>
-        <td style="padding:8px; border:1px solid #444;">~20</td>
-        <td style="padding:8px; border:1px solid #444;">~30 (combined width)</td>
-        <td style="padding:8px; border:1px solid #444;">~45</td>
-        <td style="padding:8px; border:1px solid #444;">Key passage for oil from Persian Gulf to the Atlantic; vulnerable to piracy.</td>
-      </tr>
-    </tbody>
-  </table>
+  <section>
+    <h3><strong>2. Major World Straits – Physical Characteristics &amp; Strategic Importance</strong></h3>
+    <table style="width:100%; border-collapse:collapse; margin:12px 0;">
+      <thead>
+        <tr style="background:#2a2a3a; color:#fff;">
+          <th style="padding:8px; border:1px solid #444;">Strait</th>
+          <th style="padding:8px; border:1px solid #444;">Location (Continents)</th>
+          <th style="padding:8px; border:1px solid #444;">Length (km)</th>
+          <th style="padding:8px; border:1px solid #444;">Minimum Width (km)</th>
+          <th style="padding:8px; border:1px solid #444;">Depth (m)</th>
+          <th style="padding:8px; border:1px solid #444;">Key Economic/Strategic Role</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Strait of Hormuz</strong></td>
+          <td style="padding:8px; border:1px solid #444;">Middle East (Asia‑Africa)</td>
+          <td style="padding:8px; border:1px solid #444;">~39</td>
+          <td style="padding:8px; border:1px solid #444;">~21 (at narrowest)</td>
+          <td style="padding:8px; border:1px solid #444;">~60</td>
+          <td style="padding:8px; border:1px solid #444;">Conveys ~20 % of global oil shipments; chokepoint for naval power.</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Malacca Strait</strong></td>
+          <td style="padding:8px; border:1px solid #444;">Southeast Asia (Asia)</td>
+          <td style="padding:8px; border:1px solid #444;">~800</td>
+          <td style="padding:8px; border:1px solid #444;">~2.5</td>
+          <td style="padding:8px; border:1px solid #444;">~25</td>
+          <td style="padding:8px; border:1px solid #444;">Handles > 80 % of world’s maritime oil trade; vital for ASEAN economies.</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Bering Strait</strong></td>
+          <td style="padding:8px; border:1px solid #444;">Arctic (North America‑Asia)</td>
+          <td style="padding:8px; border:1px solid #444;">~85</td>
+          <td style="padding:8px; border:1px solid #444;">~53</td>
+          <td style="padding:8px; border:1px solid #444;">~55</td>
+          <td style="padding:8px; border:1px solid #444;">Potential route for Arctic shipping under melting ice; geopolitical interest of US, Russia, Canada.</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Strait of Gibraltar</strong></td>
+          <td style="padding:8px; border:1px solid #444;">Europe‑Africa (Atlantic‑Mediterranean)</td>
+          <td style="padding:8px; border:1px solid #444;">~58</td>
+          <td style="padding:8px; border:1px solid #444;">~13</td>
+          <td style="padding:8px; border:1px solid #444;">~300</td>
+          <td style="padding:8px; border:1px solid #444;">Gateway to the Mediterranean; control influences European maritime commerce.</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Bab el-Mandeb</strong></td>
+          <td style="padding:8px; border:1px solid #444;">Red Sea‑Gulf of Aden (Africa‑Asia)</td>
+          <td style="padding:8px; border:1px solid #444;">~20</td>
+          <td style="padding:8px; border:1px solid #444;">~30 (combined width)</td>
+          <td style="padding:8px; border:1px solid #444;">~45</td>
+          <td style="padding:8px; border:1px solid #444;">Key passage for oil from Persian Gulf to the Atlantic; vulnerable to piracy.</td>
+        </tr>
+      </tbody>
+    </table>
+    <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20World%20major%20straits%20and%20canals%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of World major straits and canals" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </section>
 
-  <h4><strong>3. Notable Artificial Canals – Construction, Dimensions & International Treaties</strong></h4>
-  <ul>
-    <li><strong>[[Suez Canal]]</strong> – Opened on <strong>17 November 1869</strong> in Egypt; length **193 km**, width **300 m** at the widest, depth **24 m**. Governed by the 1888 <em>Canal Convention</em> and the 1956 <em>Suez Crisis</em> agreements. Carries ~ 12 % of global trade, especially oil from the Persian Gulf to Europe.</li>
-    <li><strong>[[Panama Canal]]</strong> – Inaugurated on **15 August 1914**; total length **82 km**, lock chambers **33.5 m** wide, depth **12.5 m** (Panamax). Controlled by the 1977 <em>Torrijos–Carter Treaties</em> which transferred sovereignty to Panama on 31 December 1999.</li>
-    <li><strong>[[Kiel Canal]]</strong> – German canal linking the North Sea to the Baltic; opened in **1895**, length **98 km**, depth **11.5 m**. Important for naval movement of the German Kriegsmarine in both World Wars.</li>
-    <li><strong>[[Mackenzie River–Great Slave Lake Canal (proposed)]]</strong> – A Canadian feasibility study (1990s) that would create a navigable link across the Arctic watershed; still under environmental review.</li>
-    <li><strong>[[Erie Canal]]</strong> – Completed in **1825**, length **365 km**, depth **2.7 m**; pivotal in the economic expansion of the United States during the 19th century.</li>
-  </ul>
+  <section>
+    <h3><strong>3. Notable Artificial Canals – Construction, Dimensions &amp; International Treaties</strong></h3>
+    <ul>
+      <li><strong>Suez Canal</strong> – Opened on <strong>17 November 1869</strong> in Egypt; length <strong>193 km</strong>, width <strong>300 m</strong> at the widest, depth <strong>24 m</strong>. Governed by the 1888 <em>Canal Convention</em> and the 1956 <em>Suez Crisis</em> agreements. Carries ~ 12 % of global trade, especially oil from the Persian Gulf to Europe.</li>
+      <li><strong>Panama Canal</strong> – Inaugurated on <strong>15 August 1914</strong>; total length <strong>82 km</strong>, lock chambers <strong>33.5 m</strong> wide, depth <strong>12.5 m</strong> (Panamax). Controlled by the 1977 <em>Torrijos–Carter Treaties</em> which transferred sovereignty to Panama on 31 December 1999.</li>
+      <li><strong>Kiel Canal</strong> – German canal linking the North Sea to the Baltic; opened in <strong>1895</strong>, length <strong>98 km</strong>, depth <strong>11.5 m</strong>. Important for naval movement of the German Kriegsmarine in both World Wars.</li>
+      <li><strong>Mackenzie River–Great Slave Lake Canal (proposed)</strong> – A Canadian feasibility study (1990s) that would create a navigable link across the Arctic watershed; still under environmental review.</li>
+      <li><strong>Erie Canal</strong> – Completed in <strong>1825</strong>, length <strong>365 km</strong>, depth <strong>2.7 m</strong>; pivotal in the economic expansion of the United States during the 19th century.</li>
+    </ul>
+  </section>
 
-  <h4><strong>4. Deserts – Global Distribution, Climatic Features & Human Adaptations</strong></h4>
-  <p>Deserts are categorized by temperature (hot vs. cold), latitude (subtropical vs. temperate), and formation mechanism (rain‑shadow, continental, coastal). The following table summarises the world’s principal deserts.</p>
+  <section>
+    <h3><strong>4. Deserts – Global Distribution, Climatic Features &amp; Human Adaptations</strong></h3>
+    <p>Deserts are categorised by temperature (hot vs. cold), latitude (subtropical vs. temperate), and formation mechanism (rain‑shadow, continental, coastal). The table below summarises the world’s principal deserts.</p>
+    <table style="width:100%; border-collapse:collapse; margin:12px 0;">
+      <thead>
+        <tr style="background:#2a2a3a; color:#fff;">
+          <th style="padding:8px; border:1px solid #444;">Desert</th>
+          <th style="padding:8px; border:1px solid #444;">Location (Country/Continent)</th>
+          <th style="padding:8px; border:1px solid #444;">Area (km²)</th>
+          <th style="padding:8px; border:1px solid #444;">Mean Annual Rainfall (mm)</th>
+          <th style="padding:8px; border:1px solid #444;">Dominant Vegetation</th>
+          <th style="padding:8px; border:1px solid #444;">Key Human Adaptations</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Sahara Desert</strong></td>
+          <td style="padding:8px; border:1px solid #444;">North Africa (Algeria, Chad, Egypt, …)</td>
+          <td style="padding:8px; border:1px solid #444;">~9.2 million</td>
+          <td style="padding:8px; border:1px solid #444;">&lt; 100</td>
+          <td style="padding:8px; border:1px solid #444;">Acacia, xerophytic shrubs</td>
+          <td style="padding:8px; border:1px solid #444;">Nomadic pastoralism, oasis agriculture, solar‑powered desalination.</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Arabian Desert</strong></td>
+          <td style="padding:8px; border:1px solid #444;">Arabian Peninsula (Saudi Arabia, UAE, Oman)</td>
+          <td style="padding:8px; border:1px solid #444;">~2.3 million</td>
+          <td style="padding:8px; border:1px solid #444;">&lt; 100</td>
+          <td style="padding:8px; border:1px solid #444;">Haloxylon, date palms in oases</td>
+          <td style="padding:8px; border:1px solid #444;">Camel‑based trade routes, modern water‑reclamation (e.g., <em>shaduf</em> upgrades).</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Gobi Desert</strong></td>
+          <td style="padding:8px; border:1px solid #444;">Mongolia & Northern China (East Asia)</td>
+          <td style="padding:8px; border:1px solid #444;">~1.3 million</td>
+          <td style="padding:8px; border:1px solid #444;">&lt; 200</td>
+          <td style="padding:8px; border:1px solid #444;">Saxaul, steppe grasses</td>
+          <td style="padding:8px; border:1px solid #444;">Trans‑Mongolian railway, yak herding, mineral extraction.</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Thar Desert</strong></td>
+          <td style="padding:8px; border:1px solid #444;">India‑Pakistan (South Asia)</td>
+          <td style="padding:8px; border:1px solid #444;">~200,000</td>
+          <td style="padding:8px; border:1px solid #444;">&lt; 150</td>
+          <td style="padding:8px; border:1px solid #444;">Prosopis juliflora, cactus</td>
+          <td style="padding:8px; border:1px solid #444;">Rain‑water harvesting, wind‑breaks, drought‑resistant millets.</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Namib Desert</strong></td>
+          <td style="padding:8px; border:1px solid #444;">Namibia (Southern Africa)</td>
+          <td style="padding:8px; border:1px solid #444;">~81,000</td>
+          <td style="padding:8px; border:1px solid #444;">&lt; 100</td>
+          <td style="padding:8px; border:1px solid #444;">Welwitschia, succulents</td>
+          <td style="padding:8px; border:1px solid #444;">Fog‑harvesting nets, diamond mining, eco‑tourism.</td>
+        </tr>
+      </tbody>
+    </table>
+    <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Global%20desert%20distribution%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Global desert distribution" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </section>
 
-  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
-    <thead>
-      <tr style="background:#2a2a3a; color:#fff;">
-        <th style="padding:8px; border:1px solid #444;">Desert</th>
-        <th style="padding:8px; border:1px solid #444;">Location (Country/Continent)</th>
-        <th style="padding:8px; border:1px solid #444;">Area (km²)</th>
-        <th style="padding:8px; border:1px solid #444;">Mean Annual Rainfall (mm)</th>
-        <th style="padding:8px; border:1px solid #444;">Dominant Vegetation</th>
-        <th style="padding:8px; border:1px solid #444;">Key Human Adaptations</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Sahara Desert]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">North Africa (Algeria, Chad, Egypt, …)</td>
-        <td style="padding:8px; border:1px solid #444;">~9.2 million</td>
-        <td style="padding:8px; border:1px solid #444;">< 100</td>
-        <td style="padding:8px; border:1px solid #444;">Acacia, xerophytic shrubs</td>
-        <td style="padding:8px; border:1px solid #444;">Nomadic pastoralism, oasis agriculture, solar‑powered desalination.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Arabian Desert]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">Arabian Peninsula (Saudi Arabia, UAE, Oman)</td>
-        <td style="padding:8px; border:1px solid #444;">~2.3 million</td>
-        <td style="padding:8px; border:1px solid #444;">< 100</td>
-        <td style="padding:8px; border:1px solid #444;">Haloxylon, date palms in oases</td>
-        <td style="padding:8px; border:1px solid #444;">Camel‑based trade routes, modern water‑reclamation (e.g., <em>shaduf</em> upgrades).</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Gobi Desert]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">Mongolia & Northern China (East Asia)</td>
-        <td style="padding:8px; border:1px solid #444;">~1.3 million</td>
-        <td style="padding:8px; border:1px solid #444;">< 200</td>
-        <td style="padding:8px; border:1px solid #444;">Saxaul, steppe grasses</td>
-        <td style="padding:8px; border:1px solid #444;">Trans‑Mongolian railway, yak herding, mineral extraction.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Thar Desert]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">India‑Pakistan (South Asia)</td>
-        <td style="padding:8px; border:1px solid #444;">~200,000</td>
-        <td style="padding:8px; border:1px solid #444;">< 150</td>
-        <td style="padding:8px; border:1px solid #444;">Prosopis juliflora, cactus</td>
-        <td style="padding:8px; border:1px solid #444;">Rain‑water harvesting, wind‑breaks, drought‑resistant millets.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Namib Desert]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">Namibia (Southern Africa)</td>
-        <td style="padding:8px; border:1px solid #444;">~81,000</td>
-        <td style="padding:8px; border:1px solid #444;">< 100</td>
-        <td style="padding:8px; border:1px solid #444;">Welwitschia, succulents</td>
-        <td style="padding:8px; border:1px solid #444;">Fog‑harvesting nets, diamond mining, eco‑tourism.</td>
-      </tr>
-    </tbody>
-  </table>
+  <section>
+    <h3><strong>5. Seas – Morphology, Tectonic Setting &amp; Economic Role</strong></h3>
+    <p>Seas differ from oceans in that they are often semi‑enclosed, have distinctive salinity patterns, and host unique marine ecosystems. The table below outlines the five most geopolitically significant seas.</p>
+    <table style="width:100%; border-collapse:collapse; margin:12px 0;">
+      <thead>
+        <tr style="background:#2a2a3a; color:#fff;">
+          <th style="padding:8px; border:1px solid #444;">Sea</th>
+          <th style="padding:8px; border:1px solid #444;">Area (km²)</th>
+          <th style="padding:8px; border:1px solid #444;">Average Depth (m)</th>
+          <th style="padding:8px; border:1px solid #444;">Bordering Nations</th>
+          <th style="padding:8px; border:1px solid #444;">Key Economic Activities</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Mediterranean Sea</strong></td>
+          <td style="padding:8px; border:1px solid #444;">2.5 million</td>
+          <td style="padding:8px; border:1px solid #444;">~1,500</td>
+          <td style="padding:8px; border:1px solid #444;">Spain, France, Italy, Greece, Turkey, Egypt, Libya, Algeria, Tunisia, Morocco, Israel, Lebanon, Syria</td>
+          <td style="padding:8px; border:1px solid #444;">Fisheries, tourism, hydro‑carbon extraction (e.g., Libya’s Sirte Basin), major shipping lane via the Suez Canal.</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Red Sea</strong></td>
+          <td style="padding:8px; border:1px solid #444;">~438,000</td>
+          <td style="padding:8px; border:1px solid #444;">~490</td>
+          <td style="padding:8px; border:1px solid #444;">Egypt, Sudan, Saudi Arabia, Yemen, Jordan, Israel</td>
+          <td style="padding:8px; border:1px solid #444;">Oil transport (via Bab el‑Mandeb), coral‑reef tourism, salt extraction, strategic naval bases.</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Arabian Sea</strong></td>
+          <td style="padding:8px; border:1px solid #444;">3.86 million</td>
+          <td style="padding:8px; border:1px solid #444;">~2,850</td>
+          <td style="padding:8px; border:1px solid #444;">India, Pakistan, Iran, Oman, Yemen, Somalia</td>
+          <td style="padding:8px; border:1px solid #444;">International shipping, fisheries, offshore hydro‑carbon platforms (e.g., Oman’s Khazzan field).</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Bay of Bengal</strong></td>
+          <td style="padding:8px; border:1px solid #444;">2.17 million</td>
+          <td style="padding:8px; border:1px solid #444;">~2,600</td>
+          <td style="padding:8px; border:1px solid #444;">India, Bangladesh, Myanmar, Sri Lanka, Thailand</td>
+          <td style="padding:8px; border:1px solid #444;">Cyclone generation zone, major rice‑producing basin, deep‑water ports (e.g., Kolkata, Chittagong).</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;"><strong>Great Australian Bight</strong></td>
+          <td style="padding:8px; border:1px solid #444;">~2.5 million</td>
+          <td style="padding:8px; border:1px solid #444;">~2,500</td>
+          <td style="padding:8px; border:1px solid #444;">Australia (Western & South Australia)</td>
+          <td style="padding:8px; border:1px solid #444;">Oil & gas exploration (e.g., Tuar mining), marine biodiversity, wind‑farm potential.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-  <h4><strong>5. Seas – Morphology, Tectonic Setting & Economic Role</strong></h4>
-  <p>Seas differ from oceans in that they are often semi‑enclosed, have distinctive salinity patterns, and host unique marine ecosystems. The table below outlines the five most geopolitically significant seas.</p>
+  <section>
+    <h3><strong>6. Interplay of Physical Features with International Law</strong></h3>
+    <p>Key legal instruments governing straits, canals, and seas include:</p>
+    <ul>
+      <li><strong>United Nations Convention on the Law of the Sea (UNCLOS)</strong> (1982) – Defines rights of passage, territorial seas, exclusive economic zones (EEZs), and the concept of <em>transit passage</em> for straits used for international navigation.</li>
+      <li><strong>Convention on the Territorial Sea and the Contiguous Zone</strong> (1958) – Earlier framework that still influences many coastal states.</li>
+      <li><strong>Treaty of Tordesillas</strong> (1494) – Though a historic demarcation, it set a precedent for dividing maritime spheres among European powers.</li>
+      <li><strong>Suez Canal Agreement of 1888</strong> – Guarantees free passage for all flag states, a principle reaffirmed in Article 21 of UNCLOS.</li>
+      <li><strong>Montreal Protocol</strong> (1987) – Impacts desert regions by regulating substances that affect ozone depletion, which influences desert climate patterns.</li>
+    </ul>
+  </section>
 
-  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
-    <thead>
-      <tr style="background:#2a2a3a; color:#fff;">
-        <th style="padding:8px; border:1px solid #444;">Sea</th>
-        <th style="padding:8px; border:1px solid #444;">Area (km²)</th>
-        <th style="padding:8px; border:1px solid #444;">Average Depth (m)</th>
-        <th style="padding:8px; border:1px solid #444;">Bordering Nations</th>
-        <th style="padding:8px; border:1px solid #444;">Key Economic Activities</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Mediterranean Sea]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">2.5 million</td>
-        <td style="padding:8px; border:1px solid #444;">~1,500</td>
-        <td style="padding:8px; border:1px solid #444;">Spain, France, Italy, Greece, Turkey, Egypt, Libya, Algeria, Tunisia, Morocco, Israel, Lebanon, Syria</td>
-        <td style="padding:8px; border:1px solid #444;">Fisheries, tourism, hydro‑carbon extraction (e.g., Libya’s Sirte Basin), major shipping lane via the Suez Canal.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Red Sea]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">~438,000</td>
-        <td style="padding:8px; border:1px solid #444;">~490</td>
-        <td style="padding:8px; border:1px solid #444;">Egypt, Sudan, Saudi Arabia, Yemen, Jordan, Israel</td>
-        <td style="padding:8px; border:1px solid #444;">Oil transport (via Bab el‑Mandeb), coral‑reef tourism, salt extraction, strategic naval bases.</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Arabian Sea]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">3.86 million</td>
-        <td style="padding:8px; border:1px solid #444;">~2,850</td>
-        <td style="padding:8px; border:1px solid #444;">India, Pakistan, Iran, Oman, Yemen, Somalia</td>
-        <td style="padding:8px; border:1px solid #444;">International shipping, fisheries, offshore hydro‑carbon platforms (e.g., Oman’s Khazzan field).</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Bay of Bengal]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">2.17 million</td>
-        <td style="padding:8px; border:1px solid #444;">~2,600</td>
-        <td style="padding:8px; border:1px solid #444;">India, Bangladesh, Myanmar, Sri Lanka, Thailand</td>
-        <td style="padding:8px; border:1px solid #444;">Cyclone generation zone, major rice‑producing basin, deep‑water ports (e.g., Kolkata, Chittagong).</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;"><strong>[[Great Australian Bight]]</strong></td>
-        <td style="padding:8px; border:1px solid #444;">~2.5 million</td>
-        <td style="padding:8px; border:1px solid #444;">~2,500</td>
-        <td style="padding:8px; border:1px solid #444;">Australia (Western & South Australia)</td>
-        <td style="padding:8px; border:1px solid #444;">Oil & gas exploration (e.g., Tuar mining), marine biodiversity, wind‑farm potential.</td>
-      </tr>
-    </tbody>
-  </table>
+  <section>
+    <h3><strong>7. Environmental Concerns &amp; Management Strategies</strong></h3>
+    <p>Human activities in straits, canals, deserts, and seas generate distinct environmental challenges:</p>
+    <ul>
+      <li><strong>Marine Pollution</strong> – Oil spills in the <strong>Strait of Hormuz</strong> and ballast‑water discharge in the <strong>Malacca Strait</strong> threaten biodiversity; mitigation follows <em>International Convention for the Prevention of Pollution from Ships (MARPOL)</em>.</li>
+      <li><strong>Desertification</strong> – Over‑grazing, unsustainable irrigation, and climate change accelerate desert expansion. Programs such as the <em>Great Green Wall</em> (Africa) and India’s <em>National Afforestation Programme</em> aim to curb this trend.</li>
+      <li><strong>Canal‑Induced Habitat Fragmentation</strong> – The Suez Canal has enabled Lessepsian migration (species moving from Red Sea to Mediterranean), altering ecological balances. Monitoring is conducted under the <em>International Union for Conservation of Nature (IUCN)</em> framework.</li>
+      <li><strong>Sea‑Level Rise</strong> – Low‑lying seas like the <strong>Red Sea</strong> are vulnerable to thermal expansion; coastal management includes mangrove restoration and artificial reef creation.</li>
+      <li><strong>Salinity Intrusion in Deserts</strong> – Groundwater over‑extraction in arid basins (e.g., the <strong>Indus River Basin</strong>) leads to salinization, mitigated through drip‑irrigation and reclaimed water use.</li>
+    </ul>
+  </section>
 
-  <h4><strong>6. Interplay of Physical Features with International Law</strong></h4>
-  <p>Key legal instruments governing straits, canals, and seas include:</p>
-  <ul>
-    <li><strong>[[United Nations Convention on the Law of the Sea (UNCLOS)]]</strong> (1982) – Defines rights of passage, territorial seas, exclusive economic zones (EEZs), and the concept of <em>transit passage</em> for straits used for international navigation.</li>
-    <li><strong>[[Convention on the Territorial Sea and the Contiguous Zone]]</strong> (1958) – Earlier framework that still influences many coastal states.</li>
-    <li><strong>[[Treaty of Tordesillas]]</strong> (1494) – Though a historic demarcation, it set a precedent for dividing maritime spheres among European powers.</li>
-    <li><strong>[[Suez Canal Agreement of 1888]]</strong> – Guarantees free passage for all flag states, a principle reaffirmed in Article 21 of UNCLOS.</li>
-    <li><strong>[[Montreal Protocol]]</strong> (1987) – Impacts desert regions by regulating substances that affect ozone depletion, which influences desert climate patterns.</li>
-  </ul>
+  <section>
+    <h3><strong>8. Comparative Summary – Straits vs. Canals vs. Deserts vs. Seas</strong></h3>
+    <table style="width:100%; border-collapse:collapse; margin:12px 0;">
+      <thead>
+        <tr style="background:#2a2a3a; color:#fff;">
+          <th style="padding:8px; border:1px solid #444;">Feature</th>
+          <th style="padding:8px; border:1px solid #444;">Natural/Artificial</th>
+          <th style="padding:8px; border:1px solid #444;">Primary Function</th>
+          <th style="padding:8px; border:1px solid #444;">Key Geopolitical Role</th>
+          <th style="padding:8px; border:1px solid #444;">Major Environmental Issue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;">Strait</td>
+          <td style="padding:8px; border:1px solid #444;">Natural</td>
+          <td style="padding:8px; border:1px solid #444;">Navigation between two larger water bodies</td>
+          <td style="padding:8px; border:1px solid #444;">Chokepoints for oil &amp; trade; naval power projection</td>
+          <td style="padding:8px; border:1px solid #444;">Pollution from heavy shipping; piracy</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;">Canal</td>
+          <td style="padding:8px; border:1px solid #444;">Artificial</td>
+          <td style="padding:8px; border:1px solid #444;">Short‑circuiting long maritime routes</td>
+          <td style="padding:8px; border:1px solid #444;">Economic leverage (tolls) and diplomatic control</td>
+          <td style="padding:8px; border:1px solid #444;">Habitat invasion, sedimentation changes</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;">Desert</td>
+          <td style="padding:8px; border:1px solid #444;">Natural</td>
+          <td style="padding:8px; border:1px solid #444;">Sparse habitation; mineral extraction; solar farms</td>
+          <td style="padding:8px; border:1px solid #444;">Border security, resource rivalry (e.g., water rights)</td>
+          <td style="padding:8px; border:1px solid #444;">Desertification, dust storms, water scarcity</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #444;">Sea</td>
+          <td style="padding:8px; border:1px solid #444;">Natural</td>
+          <td style="padding:8px; border:1px solid #444;">Marine ecosystems, fisheries, transport routes</td>
+          <td style="padding:8px; border:1px solid #444;">EEZ claims, maritime disputes (e.g., South China Sea)</td>
+          <td style="padding:8px; border:1px solid #444;">Overfishing, eutrophication, acidification</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-  <h4><strong>7. Environmental Concerns & Management Strategies</strong></h4>
-  <p>Human activities in straits, canals, deserts, and seas generate distinct environmental challenges:</p>
-  <ul>
-    <li><strong>Marine Pollution</strong> – Oil spills in the <strong>[[Strait of Hormuz]]</strong> and ballast‑water discharge in the <strong>[[Malacca Strait]]</strong> threaten biodiversity; mitigation follows <em>International Convention for the Prevention of Pollution from Ships (MARPOL)</em>.</li>
-    <li><strong>Desertification</strong> – Over‑grazing, unsustainable irrigation, and climate change accelerate desert expansion. Programs such as the <em>Great Green Wall</em> (Africa) and India’s <em>National Afforestation Programme</em> aim to curb this trend.</li>
-    <li><strong>Canal-Induced Habitat Fragmentation</strong> – The Suez Canal has enabled Lessepsian migration (species moving from Red Sea to Mediterranean), altering ecological balances. Monitoring is conducted under the <em>International Union for Conservation of Nature (IUCN)</em> framework.</li>
-    <li><strong>Sea‑Level Rise</strong> – Low‑lying seas like the <strong>[[Red Sea]]</strong> are vulnerable to thermal expansion; coastal management includes mangrove restoration and artificial reef creation.</li>
-    <li><strong>Salinity Intrusion in Deserts</strong> – Groundwater over‑extraction in arid basins (e.g., the <strong>[[Indus River Basin]]</strong>) leads to salinization, mitigated through drip‑irrigation and reclaimed water use.</li>
-  </ul>
+  <section>
+    <h3><strong>9. Indian Context – Strategic Straits, Canals, Deserts &amp; Adjacent Seas</strong></h3>
+    <ul>
+      <li><strong>Straits:</strong> The <strong>Strait of Malacca</strong> is a lifeline for Indian maritime trade; India’s “<em>Act East</em>” policy emphasizes naval presence here. The <strong>Strait of Hormuz</strong> impacts Indian oil imports, prompting diversification of energy routes.</li>
+      <li><strong>Canals:</strong> The Suez Canal provides the fastest route to Europe for Indian cargo; any blockage (e.g., 2021 Ever Given incident) directly raises freight rates for Indian exporters.</li>
+      <li><strong>Deserts:</strong> The <strong>Thar Desert</strong> occupies ~ 55 % of Rajasthan and parts of Pakistan; it influences India’s water security, prompting large‑scale projects such as the <em>Indira Gandhi Canal</em> (completed 1983).</li>
+      <li><strong>Seas:</strong> The <strong>Arabian Sea</strong> and the <strong>Bay of Bengal</strong> constitute India’s two major maritime fronts. Both seas host critical naval bases (e.g., INS Kolkata, INS Vikramaditya) and are subject to overlapping EEZ claims with neighboring states.</li>
+    </ul>
+  </section>
 
-  <h4><strong>8. Comparative Summary – Straits vs. Canals vs. Deserts vs. Seas</strong></h4>
-  <table style="width:100%; border-collapse:collapse; margin:12px 0;">
-    <thead>
-      <tr style="background:#2a2a3a; color:#fff;">
-        <th style="padding:8px; border:1px solid #444;">Feature</th>
-        <th style="padding:8px; border:1px solid #444;">Natural/Artificial</th>
-        <th style="padding:8px; border:1px solid #444;">Primary Function</th>
-        <th style="padding:8px; border:1px solid #444;">Key Geopolitical Role</th>
-        <th style="padding:8px; border:1px solid #444;">Major Environmental Issue</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;">Strait</td>
-        <td style="padding:8px; border:1px solid #444;">Natural</td>
-        <td style="padding:8px; border:1px solid #444;">Navigation between two larger water bodies</td>
-        <td style="padding:8px; border:1px solid #444;">Chokepoints for oil & trade; naval power projection</td>
-        <td style="padding:8px; border:1px solid #444;">Pollution from heavy shipping; piracy</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;">Canal</td>
-        <td style="padding:8px; border:1px solid #444;">Artificial</td>
-        <td style="padding:8px; border:1px solid #444;">Short‑circuiting long maritime routes</td>
-        <td style="padding:8px; border:1px solid #444;">Economic leverage (tolls) and diplomatic control</td>
-        <td style="padding:8px; border:1px solid #444;">Habitat invasion, sedimentation changes</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;">Desert</td>
-        <td style="padding:8px; border:1px solid #444;">Natural</td>
-        <td style="padding:8px; border:1px solid #444;">Sparse habitation; mineral extraction; solar farms</td>
-        <td style="padding:8px; border:1px solid #444;">Border security, resource rivalry (e.g., water rights)</td>
-        <td style="padding:8px; border:1px solid #444;">Desertification, dust storms, water scarcity</td>
-      </tr>
-      <tr>
-        <td style="padding:8px; border:1px solid #444;">Sea</td>
-        <td style="padding:8px; border:1px solid #444;">Natural</td>
-        <td style="padding:8px; border:1px solid #444;">Marine ecosystems, fisheries, transport routes</td>
-        <td style="padding:8px; border:1px solid #444;">EEZ claims, maritime disputes (e.g., South China Sea)</td>
-        <td style="padding:8px; border:1px solid #444;">Overfishing, eutrophication, acidification</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h4><strong>9. Indian Context – Strategic Straits, Canals, Deserts & Adjacent Seas</strong></h4>
-  <ul>
-    <li><strong>Straits:</strong> The <strong>[[Strait of Malacca]]</strong> is a lifeline for Indian maritime trade; India’s “<em>Act East</em>” policy emphasizes naval presence here. The <strong>[[Strait of Hormuz]]</strong> impacts Indian oil imports, prompting diversification of energy routes.</li>
-    <li><strong>Canals:</strong> The Suez Canal provides the fastest route to Europe for Indian cargo; any blockage (e.g., 2021 Ever Given incident) directly raises freight rates for Indian exporters.</li>
-    <li><strong>Deserts:</strong> The <strong>[[Thar Desert]]</strong> occupies ~ 55 % of Rajasthan and parts of Pakistan; it influences India’s water security, prompting large‑scale projects such as the <em>Indira Gandhi Canal</em> (completed 1983).</li>
-    <li><strong>Seas:</strong> The <strong>[[Arabian Sea]]</strong> and the <strong>[[Bay of Bengal]]</strong> constitute India’s two major maritime fronts. Both seas host critical naval bases (e.g., INS Kolkata, INS Vikramaditya) and are subject to overlapping EEZ claims with neighboring states.</li>
-  </ul>
-
-  <h4><strong>10. Key Geophysical Processes Shaping These Features</strong></h4>
-  <p>Understanding the genesis of straits, canals, deserts, and seas requires knowledge of plate tectonics, climatic regimes, and sediment dynamics.</p>
-  <ul>
-    <li><strong>Plate Tectonics:</strong> The opening of the <strong>[[Strait of Gibraltar]]</strong> was driven by the convergence of the African and Eurasian plates, creating a rift that later filled with water.</li>
-    <li><strong>Sea‑Level Fluctuations:</strong> During the Last Glacial Maximum (~ 20 ka), lower sea levels exposed continental shelves, forming land bridges (e.g., the <em>Beringia</em> corridor) and altering strait widths.</li>
-    <li><strong>Wind‑Driven Erosion:</strong> Deserts such as the <strong>[[Sahara]]</strong> are shaped by the Harmattan winds, which transport sand and create massive dune fields.</li>
-    <li><strong>Monsoonal Dynamics:</strong> The Indian monsoon dictates sediment load in the Bay of Bengal, influencing deltaic growth and sea‑level rise impacts.</li>
-    <li><strong>Anthropogenic Modification:</strong> The construction of the Panama and Suez canals altered oceanic circulation, affecting salinity gradients and, indirectly, climate patterns.</li>
-  </ul>
+  <section>
+    <h3><strong>10. Key Geophysical Processes Shaping These Features</strong></h3>
+    <p>Understanding the genesis of straits, canals, deserts, and seas requires knowledge of plate tectonics, climatic regimes, and sediment dynamics.</p>
+    <ul>
+      <li><strong>Plate Tectonics:</strong> The opening of the <strong>Strait of Gibraltar</strong> was driven by the convergence of the African and Eurasian plates, creating a rift that later filled with water.</li>
+      <li><strong>Sea‑Level Fluctuations:</strong> During the Last Glacial Maximum (~ 20 ka), lower sea levels exposed continental shelves, forming land bridges (e.g., the <em>Beringia</em> corridor) and altering strait widths.</li>
+      <li><strong>Wind‑Driven Erosion:</strong> Deserts such as the <strong>Sahara</strong> are shaped by the Harmattan winds, which transport sand and create massive dune fields.</li>
+      <li><strong>Monsoonal Dynamics:</strong> The Indian monsoon dictates sediment load in the Bay of Bengal, influencing deltaic growth and sea‑level rise impacts.</li>
+      <li><strong>Anthropogenic Modification:</strong> The construction of the Panama and Suez canals altered oceanic circulation, affecting salinity gradients and, indirectly, climate patterns.</li>
+    </ul>
+  </section>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High‑Yield Exam Facts</strong>
     <ul style="margin-top: 8px;">
       <li>The <strong>Suez Canal</strong> was inaugurated on <strong>17 Nov 1869</strong> and reduced the Europe‑Asia route by ~ 7,000 km.</li>
       <li>The <strong>Malacca Strait</strong> handles over <strong>80 % of global maritime oil traffic</strong> and is only ~ 2.5 km wide at its narrowest point.</li>
@@ -1726,85 +1405,81 @@ EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `
 
 EXPANDED_NOTES_DATA["syl-geog"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
-    Indian Geography (Rivers, Passes & Soils)
-  </h3>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-weight: 600;">Indian Geography – Rivers, Passes & Soils</h2>
 
-  <h4>Introduction to Indian Geography</h4>
-  <p>Indian geography is a diverse and complex subject that encompasses various aspects, including <strong>rivers</strong>, <strong>mountains</strong>, <strong>plains</strong>, and <strong>soils</strong>. The country's unique geography has played a significant role in shaping its history, culture, and economy. In this section, we will delve into the details of Indian rivers, passes, and soils, which are essential components of the country's geography.</p>
+  <h3>Introduction</h3>
+  <p>India’s geography is a tapestry of contrasting landforms – towering mountains, extensive plains, rugged plateaus and diverse soils. These physical features have shaped the sub‑continent’s history, culture, economy and strategic considerations. This chapter provides a high‑yield overview of the major river systems, key mountain passes and the principal soil types that are essential for UPSC and Defence examinations.</p>
 
-  <h4>Indian Rivers</h4>
-  <p>India is home to numerous rivers that are considered sacred and are an integral part of the country's ecosystem. The major rivers of India can be broadly classified into two categories: <strong>Himalayan rivers</strong> and <strong>Peninsular rivers</strong>. The Himalayan rivers are formed by the melting of glaciers and snow in the <strong>Himalayan Mountains</strong> and are characterized by their fast-flowing and perennial nature. Some of the notable Himalayan rivers include the <strong>Ganges</strong>, <strong>Yamuna</strong>, <strong>Brahmaputra</strong>, and <strong>Indus</strong>.</p>
+  <h3>Major River Systems</h3>
+  <h4>1. Himalayan (Peninsular) Rivers</h4>
+  <p>The Himalayan rivers originate from glacial melt and snow in the Himalayas. They are perennial, fast‑flowing and drain the northern Indo‑Gangetic plains. The most important are:</p>
   <ul>
-    <li>The <strong>Ganges River</strong> is one of the most sacred rivers in India and is considered the lifeline of the country. It originates from the <strong>Gangotri Glacier</strong> in the <strong>Uttarakhand Himalayas</strong> and flows through several states, including <strong>Uttarakhand</strong>, <strong>Uttar Pradesh</strong>, <strong>Bihar</strong>, and <strong>West Bengal</strong>.</li>
-    <li>The <strong>Yamuna River</strong> is the largest tributary of the Ganges River and originates from the <strong>Yamunotri Glacier</strong> in the <strong>Uttarakhand Himalayas</strong>. It flows through several states, including <strong>Uttarakhand</strong>, <strong>Haryana</strong>, <strong>Uttar Pradesh</strong>, and <strong>Delhi</strong>.</li>
-    <li>The <strong>Brahmaputra River</strong> is one of the largest rivers in India and originates from the <strong>Angsi Glacier</strong> in the <strong>Tibetan Plateau</strong>. It flows through several states, including <strong>Arunachal Pradesh</strong>, <strong>Assam</strong>, and <strong>West Bengal</strong>.</li>
-    <li>The <strong>Indus River</strong> is one of the most important rivers in India and originates from the <strong>Nganglong Kangri Glacier</strong> in the <strong>Tibetan Plateau</strong>. It flows through several states, including <strong>Jammu and Kashmir</strong>, <strong>Punjab</strong>, and <strong>Haryana</strong>.</li>
+    <li><strong>Ganga (Ganges)</strong> – Source: Gangotri Glacier, Uttarakhand; flows through Uttarakhand, Uttar Pradesh, Bihar, Jharkhand, West Bengal and empties into the Bay of Bengal.</li>
+    <li><strong>Yamuna</strong> – Source: Yamunotri Glacier, Uttarakhand; traverses Uttarakhand, Haryana, Delhi, Uttar Pradesh and joins the Ganga at Prayagraj.</li>
+    <li><strong>Brahmaputra</strong> – Source: Angsi Glacier, Tibet; courses through Arunachal Pradesh, Assam and West Bengal before entering Bangladesh.</li>
+    <li><strong>Indus</strong> – Source: Nganglong Kangri Glacier, Tibet; flows through Ladakh, Jammu & Kashmir, Punjab and Haryana (mainly in Pakistan after the border).</li>
+  </ul>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indian%20Rivers%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indian Rivers" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <h4>2. Peninsular Rivers</h4>
+  <p>These rivers are rain‑fed, largely seasonal, and originate in the Western and Eastern Ghats. Key systems include:</p>
+  <ul>
+    <li><strong>Godavari</strong> – Originates in the Western Ghats (Maharashtra) and drains the Deccan plateau, emptying into the Bay of Bengal.</li>
+    <li><strong>Krishna</strong> – Starts in the Western Ghats (Maharashtra) and traverses Karnataka, Telangana and Andhra Pradesh before reaching the Bay of Bengal.</li>
+    <li><strong>Kaveri (Cauvery)</strong> – Rises in Karnataka’s Western Ghats, flows through Tamil Nadu and joins the Bay of Bengal.</li>
+    <li><strong>Narmada</strong> – Originates at Amarkantak Plateau, flows westward across Madhya Pradesh and Gujarat, draining into the Arabian Sea.</li>
   </ul>
 
-  <h4>Peninsular Rivers</h4>
-  <p>The Peninsular rivers are formed by the rainfall in the <strong>Western Ghats</strong> and <strong>Eastern Ghats</strong> and are characterized by their seasonal nature. Some of the notable Peninsular rivers include the <strong>Godavari</strong>, <strong>Krishna</strong>, <strong>Kaveri</strong>, and <strong>Narmada</strong>.</p>
+  <h3>Strategic Mountain Passes</h3>
+  <p>India’s Himalayan front hosts several high‑altitude passes that are vital for trade, tourism, and defence logistics. The most prominent are:</p>
   <ul>
-    <li>The <strong>Godavari River</strong> is one of the longest rivers in India and originates from the <strong>Western Ghats</strong> in the state of <strong>Maharashtra</strong>. It flows through several states, including <strong>Maharashtra</strong>, <strong>Telangana</strong>, <strong>Andhra Pradesh</strong>, and <strong>Odisha</strong>.</li>
-    <li>The <strong>Krishna River</strong> is one of the most important rivers in southern India and originates from the <strong>Western Ghats</strong> in the state of <strong>Maharashtra</strong>. It flows through several states, including <strong>Maharashtra</strong>, <strong>Karnataka</strong>, <strong>Telangana</strong>, and <strong>Andhra Pradesh</strong>.</li>
-    <li>The <strong>Kaveri River</strong> is one of the most sacred rivers in southern India and originates from the <strong>Western Ghats</strong> in the state of <strong>Karnataka</strong>. It flows through several states, including <strong>Karnataka</strong> and <strong>Tamil Nadu</strong>.</li>
-    <li>The <strong>Narmada River</strong> is one of the most important rivers in western India and originates from the <strong>Amarkantak Plateau</strong> in the state of <strong>Madhya Pradesh</strong>. It flows through several states, including <strong>Madhya Pradesh</strong> and <strong>Gujarat</strong>.</li>
+    <li><strong>Shipki La</strong> – Located in Himachal Pradesh (4,570 m); connects Ladakh with Tibet and serves as a limited trade route.</li>
+    <li><strong>Bara‑Lacha La</strong> – At 4,890 m in Himachal Pradesh; links the Chandra and Bhaga valleys of the Lahaul‑Spiti region.</li>
+    <li><strong>Rohtang Pass</strong> – 3,979 m altitude; connects the Kullu Valley with the Lahaul Valley, crucial for seasonal movement of troops and tourists.</li>
+    <li><strong>Banihal Pass</strong> – 2,832 m in Jammu & Kashmir; the gateway between the Kashmir Valley and the Jammu region, now traversed by the Banihal railway tunnel.</li>
   </ul>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Himalayan%20Mountain%20Passes%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Himalayan Mountain Passes" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-  <h4>Mountain Passes in India</h4>
-  <p>India is home to several mountain passes that connect the country to its neighboring countries and are an important part of the country's geography. Some of the notable mountain passes in India include the <strong>Shipki La</strong>, <strong>Bara-Lacha La</strong>, <strong>Rohtang Pass</strong>, and <strong>Banihal Pass</strong>.</p>
-  <ul>
-    <li>The <strong>Shipki La</strong> is a mountain pass located in the <strong>Himachal Pradesh</strong> and connects the country to <strong>Tibet</strong>. It is situated at an altitude of 4,570 meters above sea level and is an important trade route between India and China.</li>
-    <li>The <strong>Bara-Lacha La</strong> is a mountain pass located in the <strong>Himachal Pradesh</strong> and connects the <strong>Chandra Valley</strong> to the <strong>Bhaga Valley</strong>. It is situated at an altitude of 4,890 meters above sea level and is an important route for trekking and mountaineering.</li>
-    <li>The <strong>Rohtang Pass</strong> is a mountain pass located in the <strong>Himachal Pradesh</strong> and connects the <strong>Kullu Valley</strong> to the <strong>Lahaul Valley</strong>. It is situated at an altitude of 3,979 meters above sea level and is an important route for tourism and trade.</li>
-    <li>The <strong>Banihal Pass</strong> is a mountain pass located in the <strong>Jammu and Kashmir</strong> and connects the <strong>Kashmir Valley</strong> to the <strong>Jammu Region</strong>. It is situated at an altitude of 2,832 meters above sea level and is an important route for transportation and communication.</li>
-  </ul>
-
-  <h4>Soils in India</h4>
-  <p>India is home to a diverse range of soils that are classified into several types based on their characteristics and properties. Some of the notable types of soils in India include the <strong>Alluvial Soils</strong>, <strong>Black Soils</strong>, <strong>Red Soils</strong>, and <strong Laterite Soils</strong>.</p>
-  <table>
-    <tr>
-      <th>Type of Soil</th>
-      <th>Characteristics</th>
-      <th>Distribution</th>
+  <h3>Principal Soil Types</h3>
+  <p>India’s soils are classified based on texture, mineral composition and fertility. The four major groups are:</p>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+    <tr style="background:#f0f0f0;">
+      <th style="padding:8px; border:1px solid #ccc;">Soil Type</th>
+      <th style="padding:8px; border:1px solid #ccc;">Key Characteristics</th>
+      <th style="padding:8px; border:1px solid #ccc;">Major Distribution</th>
     </tr>
     <tr>
-      <td><strong>Alluvial Soils</strong></td>
-      <td>Rich in nutrients, fertile, and suitable for agriculture</td>
-      <td><strong>Ganges Valley</strong>, <strong>Indus Valley</strong>, and <strong>Brahmaputra Valley</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;"><strong>Alluvial</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;">Deep, fertile, high organic matter; excellent for intensive agriculture.</td>
+      <td style="padding:8px; border:1px solid #ccc;">Indo‑Gangetic plains, Brahmaputra basin, Indus basin.</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:8px; border:1px solid #ccc;"><strong>Black (Regur)</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;">Rich in clay, moisture‑retentive, high calcium carbonate; supports cotton and millets.</td>
+      <td style="padding:8px; border:1px solid #ccc;">Deccan Plateau, parts of Madhya Pradesh, Maharashtra.</td>
     </tr>
     <tr>
-      <td><strong>Black Soils</strong></td>
-      <td>Rich in clay, fertile, and suitable for agriculture</td>
-      <td><strong>Deccan Plateau</strong>, <strong>Madhya Pradesh</strong>, and <strong>Maharashtra</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;"><strong>Red</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;">Iron‑rich, acidic, low fertility; suitable for plantation crops after amendment.</td>
+      <td style="padding:8px; border:1px solid #ccc;">Eastern & Western Ghats, Tamil Nadu, parts of Karnataka.</td>
     </tr>
-    <tr>
-      <td><strong>Red Soils</strong></td>
-      <td>Poor in nutrients, acidic, and suitable for plantation crops</td>
-      <td><strong>Eastern Ghats</strong>, <strong>Western Ghats</strong>, and <strong>Tamil Nadu</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Laterite Soils</strong></td>
-      <td>Poor in nutrients, acidic, and suitable for cash crops</td>
-      <td><strong>Malabar Coast</strong>, <strong>Kerala</strong>, and <strong>Tamil Nadu</strong></td>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:8px; border:1px solid #ccc;"><strong>Laterite</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;">Highly leached, porous, acidic; used for brick‑making and supports cashew, coconut.</td>
+      <td style="padding:8px; border:1px solid #ccc;">Western coastal belt – Kerala, Karnataka, Goa, parts of Tamil Nadu.</td>
     </tr>
   </table>
-
-  <p>The <strong>[[Treaty of Westphalia]]</strong> marked the beginning of the modern nation-state system, and the concept of <strong>[[sovereignty]]</strong> became a cornerstone of international relations. The <strong>[[United Nations]]</strong> plays a crucial role in promoting peace and security in the world, and the <strong>[[European Union]]</strong> is an example of a regional organization that aims to promote economic and political integration among its member states.</p>
-  <p>India's geography has been shaped by various <strong>[[tectonic plate]]</strong> movements, including the collision of the <strong>[[Indian Plate]]</strong> with the <strong>[[Eurasian Plate]]</strong>. This collision has resulted in the formation of the <strong>[[Himalayan Mountain range]]</strong>, which is home to several of the highest peaks in the world, including <strong>[[Mount Everest]]</strong>. The <strong>[[Ganges River]]</strong> is one of the most sacred rivers in India and is considered the lifeline of the country. The <strong>[[Indus River]]</strong> is another important river in India and is known for its historical significance, as it was the center of the <strong>[[Indus Valley Civilization]]</strong>.</p>
-  <p>The <strong>[[National Geographic]]</strong> has recognized the <strong>[[Western Ghats]]</strong> as one of the most biodiverse regions in the world, and the <strong>[[Eastern Ghats]]</strong> are known for their rich mineral deposits. The <strong>[[Deccan Plateau]]</strong> is a vast plateau that covers much of central India and is home to several important rivers, including the <strong>[[Godavari River]]</strong> and the <strong>[[Krishna River]]</strong>. The <strong>[[Thar Desert]]</strong> is a large desert that covers much of western India and is known for its extreme heat and dryness.</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indian%20Soil%20Types%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indian Soil Types" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High‑Yield Exam Facts</strong>
     <ul style="margin-top: 8px;">
-      <li>The <strong>[[Brahmaputra River]]</strong> is one of the largest rivers in India and flows through the states of <strong>[[Arunachal Pradesh]]</strong>, <strong>[[Assam]]</strong>, and <strong>[[West Bengal]]</strong>.</li>
-      <li>The <strong>[[Ganges River]]</strong> is one of the most sacred rivers in India and flows through the states of <strong>[[Uttarakhand]]</strong>, <strong>[[Uttar Pradesh]]</strong>, <strong>[[Bihar]]</strong>, and <strong>[[West Bengal]]</strong>.</li>
-      <li>The <strong>[[Shipki La]]</strong> is a mountain pass located in the state of <strong>[[Himachal Pradesh]]</strong> and connects India to <strong>[[Tibet]]</strong>.</li>
-      <li>The <strong>[[Rohtang Pass]]</strong> is a mountain pass located in the state of <strong>[[Himachal Pradesh]]</strong> and connects the <strong>[[Kullu Valley]]</strong> to the <strong>[[Lahaul Valley]]</strong>.</li>
-      <li>The <strong>[[Alluvial Soils]]</strong> are rich in nutrients and are found in the <strong>[[Ganges Valley]]</strong>, <strong>[[Indus Valley]]</strong>, and <strong>[[Brahmaputra Valley]]</strong>.</li>
-      <li>The <strong>[[Black Soils]]</strong> are rich in clay and are found in the <strong>[[Deccan Plateau]]</strong>, <strong>[[Madhya Pradesh]]</strong>, and <strong>[[Maharashtra]]</strong>.</li>
-      <li>The <strong>[[Western Ghats]]</strong> are a mountain range that runs along the western coast of India and are known for their rich biodiversity.</li>
-      <li>The <strong>[[Eastern Ghats]]</strong> are a mountain range that runs along the eastern coast of India and are known for their rich mineral deposits.</li>
+      <li>Ganga, Yamuna, Brahmaputra and Indus together drain > 70 % of India’s total land area.</li>
+      <li>Peninsular rivers are largely rain‑fed; their flow peaks during the Southwest monsoon.</li>
+      <li>Shipki La (4,570 m) and Bara‑Lacha La (4,890 m) are the highest Indian passes open for limited trade.</li>
+      <li>Alluvial soils support > 50 % of India’s food grain production.</li>
+      <li>Black soils are the primary source of cotton – the “white gold” of India.</li>
+      <li>Western Ghats are a UNESCO World Heritage site and a biodiversity hotspot.</li>
     </ul>
   </div>
 </div>
@@ -1812,12 +1487,10 @@ EXPANDED_NOTES_DATA["syl-geog"] = `
 
 EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
-    Forests, Trees & Wetlands of India
-  </h3>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-weight: 600;">Forests, Trees &amp; Wetlands of India</h2>
 
-  <h4>1. Overview of Forest Cover in India</h4>
-  <p>India’s total forest and tree cover (including mangroves & plantations) stood at **≈ 71.2 million hectares** as per the <strong>India State of Forest Report (ISFR) 2021</strong>, translating to **24.56 %** of the geographical area. This figure is a composite of:</p>
+  <h3>1. Overview of Forest Cover in India</h3>
+  <p>India’s total forest and tree cover (including mangroves &amp; plantations) stood at <strong>≈ 71.2 million hectares</strong> as per the <strong>India State of Forest Report (ISFR) 2021</strong>, translating to <strong>24.56 %</strong> of the geographical area. This figure is a composite of:</p>
   <ul>
     <li><strong>Reserved Forests</strong> – 38.5 % of total forest cover</li>
     <li><strong>Protected Forests</strong> – 12.7 % of total forest cover</li>
@@ -1825,10 +1498,10 @@ EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
     <li><strong>Private Forests</strong> – 5.6 % of total forest cover</li>
     <li><strong>Tree Cover (non‑forest)</strong> – 21.5 % of total forest and tree cover</li>
   </ul>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%20forest%20cover%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India forest cover" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-  <h4>2. Classification of Forest Types (Based on Canopy Cover)</h4>
+  <h3>2. Classification of Forest Types (Based on Canopy Cover)</h3>
   <p>The Ministry of Environment, Forest and Climate Change (MoEFCC) classifies forest types into five canopy‑cover categories. The table below summarises the categories, their canopy density range, and representative examples.</p>
-
   <table style="width:100%; border-collapse:collapse; margin-top:12px;">
     <thead style="background:#f2f2f2;">
       <tr>
@@ -1840,113 +1513,106 @@ EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
     <tbody>
       <tr>
         <td style="border:1px solid #ddd; padding:8px;"><strong>Very Dense Forest</strong></td>
-        <td style="border:1px solid #ddd; padding:8px;">> 70</td>
-        <td style="border:1px solid #ddd; padding:8px;">[[Western Ghats]] (Shola forests), [[Sunderban]] mangroves</td>
+        <td style="border:1px solid #ddd; padding:8px;">&gt; 70</td>
+        <td style="border:1px solid #ddd; padding:8px;">Western Ghats (Shola forests), Sunderban mangroves</td>
       </tr>
       <tr>
         <td style="border:1px solid #ddd; padding:8px;"><strong>Dense Forest</strong></td>
-        <td style="border:1px solid #ddd; padding:8px;">> 60 – 70</td>
-        <td style="border:1px solid #ddd; padding:8px;">[[Eastern Himalayas]] (Rhododendron‑rich), [[Satpura]] mixed deciduous</td>
+        <td style="border:1px solid #ddd; padding:8px;">&gt; 60 – 70</td>
+        <td style="border:1px solid #ddd; padding:8px;">Eastern Himalayas (Rhododendron‑rich), Satpura mixed deciduous</td>
       </tr>
       <tr>
         <td style="border:1px solid #ddd; padding:8px;"><strong>Moderately Dense Forest</strong></td>
-        <td style="border:1px solid #ddd; padding:8px;">> 40 – 60</td>
-        <td style="border:1px solid #ddd; padding:8px;">[[Central Indian Plateau]] teak‑sal, [[Madhya Pradesh]] mixed deciduous</td>
+        <td style="border:1px solid #ddd; padding:8px;">&gt; 40 – 60</td>
+        <td style="border:1px solid #ddd; padding:8px;">Central Indian Plateau teak‑sal, Madhya Pradesh mixed deciduous</td>
       </tr>
       <tr>
         <td style="border:1px solid #ddd; padding:8px;"><strong>Open Forest</strong></td>
-        <td style="border:1px solid #ddd; padding:8px;">> 10 – 40</td>
-        <td style="border:1px solid #ddd; padding:8px;">[[Deccan Plateau]] scrub‑savanna, [[Aravalli]] dry deciduous</td>
+        <td style="border:1px solid #ddd; padding:8px;">&gt; 10 – 40</td>
+        <td style="border:1px solid #ddd; padding:8px;">Deccan Plateau scrub‑savanna, Aravalli dry deciduous</td>
       </tr>
       <tr>
         <td style="border:1px solid #ddd; padding:8px;"><strong>Very Sparse Forest</strong></td>
-        <td style="border:1px solid #ddd; padding:8px;">≤ 10</td>
-        <td style="border:1px solid #ddd; padding:8px;">[[Thar Desert]] fringe, [[Rann of Kutch]] shrublands</td>
+        <td style="border:1px solid #ddd; padding:8px;">&le; 10</td>
+        <td style="border:1px solid #ddd; padding:8px;">Thar Desert fringe, Rann of Kutch shrublands</td>
       </tr>
     </tbody>
   </table>
 
-  <h4>3. Major Forest Types and Their Geographical Distribution</h4>
+  <h3>3. Major Forest Types and Their Geographical Distribution</h3>
   <p>India’s forest ecosystem is broadly divided into ten agro‑ecological zones. The most significant forest types are:</p>
-
   <ul>
-    <li><strong>Tropical Evergreen Forests</strong> – Predominantly in the [[Western Ghats]] (Karnataka, Kerala, Tamil Nadu) and the [[Andaman & Nicobar Islands]]. Rich in dipterocarp species like <em>Shorea robusta</em> and host the endemic <em>Malabar Giant Squirrel</em>.</li>
-    <li><strong>Tropical Semi‑Evergreen Forests</strong> – Found in the [[Eastern Himalayas]] (Sikkim, West Bengal) and parts of the [[Northeast]] (Assam, Arunachal Pradesh). Characterised by a mixed assemblage of evergreen and deciduous species.</li>
-    <li><strong>Moist Deciduous Forests</strong> – Extensive in the [[Mahanadi River Basin]], [[Godavari]] and [[Krishna» River basins]]. Dominant species include <em>Terminalia tomentosa</em> (Indian mahogany) and <em>Terminalia bellirica</em> (Bahera).</li>
-    <li><strong>Dry Deciduous Forests</strong> – Occupy the interior of the [[Deccan Plateau]] and the [[Aravalli Range]]. Sal (<em>Shorea robusta</em>) and teak (<em>Tectona grandis</em>) are the principal timber trees.</li>
-    <li><strong>Montane (Shola) Forests</strong> – Restricted to the higher elevations of the [[Western Ghats]] (above 1,200 m). The term <em>Shola</em> (Tamil) denotes stunted evergreen patches interspersed with grasslands.</li>
-    <li><strong>Sub‑Tropical Pine Forests</strong> – Concentrated in the [[Himalayan]] belt (Uttarakhand, Himachal Pradesh, Jammu & Kashmir). Dominant species is <em>Pinus roxburghii</em> (Chir pine).</li>
-    <li><strong>Mangrove Forests</strong> – Confined to the coastal deltas of the [[Ganges‑Brahmaputra]], [[Mahanadi]], and the [[Sunderban]] delta. Species such as <em>Avicennia marina</em>, <em>Rhizophora mucronata</em>, and <em>Sonneratia apetala</em> are typical.</li>
-    <li><strong>Thorn Forests & Scrublands</strong> – Predominant in the [[Thar Desert]] (Rajasthan) and the [[Rann of Kutch]] (Gujarat). Species include <em>Dorstenia indica</em> and <em>Cerbera odollam</em>.</li>
+    <li><strong>Tropical Evergreen Forests</strong> – Predominantly in the Western Ghats (Karnataka, Kerala, Tamil Nadu) and the Andaman &amp; Nicobar Islands. Rich in dipterocarp species like <em>Shorea robusta</em> and host the endemic <em>Malabar Giant Squirrel</em>.</li>
+    <li><strong>Tropical Semi‑Evergreen Forests</strong> – Found in the Eastern Himalayas (Sikkim, West Bengal) and parts of the Northeast (Assam, Arunachal Pradesh). Characterised by a mixed assemblage of evergreen and deciduous species.</li>
+    <li><strong>Moist Deciduous Forests</strong> – Extensive in the Mahanadi, Godavari and Krishna river basins. Dominant species include <em>Terminalia tomentosa</em> (Indian mahogany) and <em>Terminalia bellirica</em> (Bahera).</li>
+    <li><strong>Dry Deciduous Forests</strong> – Occupy the interior of the Deccan Plateau and the Aravalli Range. Sal (<em>Shorea robusta</em>) and teak (<em>Tectona grandis</em>) are the principal timber trees.</li>
+    <li><strong>Montane (Shola) Forests</strong> – Restricted to the higher elevations of the Western Ghats (above 1,200 m). The term “Shola” denotes stunted evergreen patches interspersed with grasslands.</li>
+    <li><strong>Sub‑Tropical Pine Forests</strong> – Concentrated in the Himalayan belt (Uttarakhand, Himachal Pradesh, J&amp;K). Dominant species is <em>Pinus roxburghii</em> (Chir pine).</li>
+    <li><strong>Mangrove Forests</strong> – Confined to the coastal deltas of the Ganges‑Brahmaputra, Mahanadi, and the Sundarbans. Typical species are <em>Avicennia marina</em>, <em>Rhizophora mucronata</em> and <em>Sonneratia apetala</em>.</li>
+    <li><strong>Thorn Forests &amp; Scrublands</strong> – Predominant in the Thar Desert (Rajasthan) and the Rann of Kutch (Gujarat). Species include <em>Dorstenia indica</em> and <em>Cerbera odollam</em>.</li>
   </ul>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%20forest%20types%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India forest types" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-  <h4>4. Iconic Tree Species and Their Economic/Medicinal Importance</h4>
+  <h3>4. Iconic Tree Species and Their Economic/Medicinal Importance</h3>
   <p>India’s arboreal wealth includes over 6,500 species of trees. The following are the most frequently cited in examinations:</p>
-
   <ol>
-    <li><strong>Sal (<em>Shorea robusta</em>)</strong> – Dominant in Central Indian forests; source of high‑quality timber and resin (sal‑khar). State tree of <strong>Uttar Pradesh</strong> and <strong>Madhya Pradesh</strong>.</li>
-    <li><strong>T teak (<em>Tectona grandis</em>)</strong> – Commercially important for its durable, termite‑resistant wood. Widely cultivated in the Central and Southern zones.</li>
-    <li><strong>Neem (<em>Azadirachta indica</em>)</strong> – Known for its bio‑pesticidal properties; leaves, bark, and seeds are used in traditional Ayurvedic medicine.</li>
-    <li><strong>Sandalwood (<em>Santalum album</em>)</strong> – Endemic to the dry deciduous forests of Karnataka and Tamil Nadu; prized for its fragrant oil.</li>
-    <li><strong>Eucalyptus (<em>Eucalyptus globulus</em>)</strong> – Introduced species; major source of pulp for paper industry and essential oil.</li>
-    <li><strong>Indian Gooseberry (<em>Phyllanthus emblica</em>)</strong> – High in vitamin C; important in Ayurvedic formulations.</li>
-    <li><strong>Mahua (<em>Madhuca longifolia</em>)</strong> – Provides edible flowers, timber, and oil; culturally significant to tribal communities of Central India.</li>
-    <li><strong>Bamboo (<em>Bambusa bambos</em>)</strong> – Technically a grass but counted under tree cover; vital for construction, handicrafts, and as a carbon sink.</li>
+    <li><strong>Sal (<em>Shorea robusta</em>)</strong> – Dominant in Central Indian forests; source of high‑quality timber and resin (sal‑khar). State tree of Uttar Pradesh and Madhya Pradesh.</li>
+    <li><strong>Teak (<em>Tectona grandis</em>)</strong> – Commercially important for its durable, termite‑resistant wood. Widely cultivated in the Central and Southern zones.</li>
+    <li><strong>Neem (<em>Azadirachta indica</em>)</strong> – Known for its bio‑pesticidal properties; leaves, bark and seeds are used in traditional Ayurvedic medicine.</li>
+    <li><strong>Sandalwood (<em>Santalum album</em>)</strong> – Endemic to the dry deciduous forests of Karnataka and Tamil Nadu; prized for its fragrant oil.</li>
+    <li><strong>Eucalyptus (<em>Eucalyptus globulus</em>)</strong> – Introduced species; major source of pulp for the paper industry and essential oil.</li>
+    <li><strong>Indian Gooseberry (<em>Phyllanthus emblica</em>)</strong> – High in vitamin C; important in Ayurvedic formulations.</li>
+    <li><strong>Mahua (<em>Madhuca longifolia</em>)</strong> – Provides edible flowers, timber and oil; culturally significant to tribal communities of Central India.</li>
+    <li><strong>Bamboo (<em>Bambusa bambos</em>)</strong> – Technically a grass but counted under tree cover; vital for construction, handicrafts and as a carbon sink.</li>
   </ol>
 
-  <h4>5. Legal and Policy Framework Governing Forests</h4>
+  <h3>5. Legal and Policy Framework Governing Forests</h3>
   <p>India’s forest governance is anchored on a series of statutes and policy documents. Key legislations include:</p>
-
   <ul>
-    <li><strong>[[Indian Forest Act, 1927]]</strong> – Provides the basic legal framework for forest reservation, regulation of timber extraction, and protection of wildlife.</li>
-    <li><strong>[[Forest Conservation Act, 1980]]</strong> – Restricts de‑reservation of forest land and mandates prior approval from the Ministry of Environment for any non‑forest activity.</li>
-    <li><strong>[[Wildlife Protection Act, 1972]]</strong> – Establishes protected areas (National Parks, Wildlife Sanctuaries) and regulates wildlife trade.</li>
-    <li><strong>[[National Forest Policy, 1988]]</strong> – Emphasises the ecological functions of forests, afforestation, and community participation.</li>
-    <li><strong>[[National Agro‑Forestry Policy, 2014]]</strong> – Encourages integration of trees on farms to improve soil health and farmer income.</li>
-    <li><strong>[[National Wetland Conservation Programme (NWCP)]]</strong> – Launched in 1985, it identifies and protects ecologically critical wetlands.</li>
+    <li><strong>Indian Forest Act, 1927</strong> – Provides the basic legal framework for forest reservation, regulation of timber extraction, and protection of wildlife.</li>
+    <li><strong>Forest Conservation Act, 1980</strong> – Restricts de‑reservation of forest land and mandates prior approval from the Ministry of Environment for any non‑forest activity.</li>
+    <li><strong>Wildlife Protection Act, 1972</strong> – Establishes protected areas (National Parks, Wildlife Sanctuaries) and regulates wildlife trade.</li>
+    <li><strong>National Forest Policy, 1988</strong> – Emphasises the ecological functions of forests, afforestation, and community participation.</li>
+    <li><strong>National Agro‑Forestry Policy, 2014</strong> – Encourages integration of trees on farms to improve soil health and farmer income.</li>
+    <li><strong>National Wetland Conservation Programme (NWCP)</strong> – Launched in 1985, it identifies and protects ecologically critical wetlands.</li>
   </ul>
 
-  <h4>6. Wetlands of India – Types, Distribution & Significance</h4>
-  <p>India hosts **≈ 7,300 wetlands**, covering about **4.7 %** of its geographical area. They are categorised into:</p>
-
+  <h3>6. Wetlands of India – Types, Distribution &amp; Significance</h3>
+  <p>India hosts <strong>≈ 7,300 wetlands</strong>, covering about <strong>4.7 % of its geographical area**. They are categorised into:</p>
   <ul>
-    <li><strong>Riverine Wetlands</strong> – e.g., [[Ganga River Basin]], [[Yamuna River Wetlands]] (Delhi); support migratory birds and provide flood‑mitigation.</li>
-    <li><strong>Lacustrine (Lake) Wetlands</strong> – e.g., [[Loktak Lake]] (Manipur), [[Vembanad Lake]] (Kerala); famous for floating islands (phumdis) and fishery resources.</li>
-    <li><strong>Coastal & Estuarine Wetlands</strong> – e.g., [[Sunderban]] (West Bengal & Bangladesh), [[Pichavaram Mangroves]] (Tamil Nadu); act as natural buffers against cyclones.</li>
-    <li><strong>Intertidal Mudflats</strong> – e.g., [[Rann of Kutch]] (Gujarat), [[Brahmaputra floodplains]] (Assam); crucial for shorebird breeding.</li>
-    <li><strong>Peatlands</strong> – e.g., [[Sikkim’s Yuksom peat bog]]; store massive amounts of carbon.</li>
+    <li><strong>Riverine Wetlands</strong> – e.g., Ganga River Basin, Yamuna River Wetlands (Delhi); support migratory birds and provide flood‑mitigation.</li>
+    <li><strong>Lacustrine (Lake) Wetlands</strong> – e.g., Loktak Lake (Manipur), Vembanad Lake (Kerala); famous for floating islands (phumdis) and fishery resources.</li>
+    <li><strong>Coastal &amp; Estuarine Wetlands</strong> – e.g., Sundarbans (WB &amp; Bangladesh), Pichavaram Mangroves (Tamil Nadu); act as natural buffers against cyclones.</li>
+    <li><strong>Intertidal Mudflats</strong> – e.g., Rann of Kutch (Gujarat), Brahmaputra floodplains (Assam); crucial for shore‑bird breeding.</li>
+    <li><strong>Peatlands</strong> – e.g., Sikkim’s Yuksom peat bog; store massive amounts of carbon.</li>
   </ul>
-
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%20wetlands%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India wetlands" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <p>Key ecological functions of Indian wetlands include:</p>
-
   <ul>
-    <li>Regulation of **ground‑water recharge** and **flood attenuation**.</li>
-    <li>Provision of **livelihoods** to millions (fisheries, agriculture, tourism).</li>
-    <li>Support of **biodiversity hotspots**, including endangered species such as the <em>Gangetic Dolphin</em> ({{[[Platanista gangetica]]}}) in the Ganges‑Brahmaputra system.</li>
-    <li>Carbon sequestration, especially in mangrove ecosystems which can store **up to 1,000 t C ha⁻¹**.</li>
+    <li>Regulation of <strong>ground‑water recharge</strong> and <strong>flood attenuation</strong>.</li>
+    <li>Provision of <strong>livelihoods</strong> to millions (fisheries, agriculture, tourism).</li>
+    <li>Support of <strong>biodiversity hotspots</strong>, including endangered species such as the <em>Gangetic Dolphin</em> in the Ganges‑Brahmaputra system.</li>
+    <li>Carbon sequestration, especially in mangrove ecosystems which can store <strong>up to 1,000 t C ha⁻¹</strong>.</li>
   </ul>
 
-  <h4>7. Threats and Conservation Measures</h4>
+  <h3>7. Threats and Conservation Measures</h3>
   <p>Despite legal safeguards, forests and wetlands face multiple pressures:</p>
-
   <ul>
-    <li><strong>Deforestation & Fragmentation</strong> – Driven by illegal logging, mining, and expansion of agriculture. India lost **≈ 0.5 % yr⁻¹** of forest cover (1990‑2020).</li>
-    <li><strong>Encroachment & Land‑use Change</strong> – Rapid urbanisation in the [[Coastal Belt]] of Gujarat and Maharashtra has led to conversion of mangroves to shrimp farms.</li>
-    <li><strong>Climate Change</strong> – Alters phenology, increases frequency of forest fires (notably in the [[Sundarbans]] and [[Western Ghats]]).</li>
+    <li><strong>Deforestation &amp; Fragmentation</strong> – Driven by illegal logging, mining, and expansion of agriculture. India lost <strong>≈ 0.5 % yr⁻¹</strong> of forest cover (1990‑2020).</li>
+    <li><strong>Encroachment &amp; Land‑use Change</strong> – Rapid urbanisation in the Coastal Belt of Gujarat and Maharashtra has led to conversion of mangroves to shrimp farms.</li>
+    <li><strong>Climate Change</strong> – Alters phenology, increases frequency of forest fires (notably in the Sundarbans and Western Ghats).</li>
     <li><strong>Pollution</strong> – Industrial effluents degrade riverine wetlands; eutrophication leads to fish kills.</li>
   </ul>
-
   <p>Strategic interventions being pursued:</p>
-
   <ol>
-    <li><strong>Joint Forest Management (JFM)</strong> – Community‑based stewardship model; over **≈ 50 %** of India's forest area now under JFM.</li>
-    <li><strong>National Afforestation Programme (NAP)</strong> – Targets **> 10 million ha** of new forest and tree cover by 2030.</li>
-    <li><strong>Wetland Restoration Projects</strong> – e.g., <strong>Loktak Lake Integrated Management Project</strong> (World Bank funded) aiming to control invasive water‑hyacinth.</li>
-    <li><strong>Protected Area Expansion</strong> – As of 2022, India has **≈ 104** National Parks and **≈ 566** Wildlife Sanctuaries, covering **≈ 5 %** of the land area.</li>
-    <li><strong>Use of Remote Sensing & GIS</strong> – The Forest Survey of India (FSI) employs satellite imagery (Landsat, Sentinel‑2) for annual forest‑cover assessments.</li>
+    <li><strong>Joint Forest Management (JFM)</strong> – Community‑based stewardship model; over <strong>≈ 50 %</strong> of India's forest area now under JFM.</li>
+    <li><strong>National Afforestation Programme (NAP)</strong> – Targets <strong>&gt; 10 million ha</strong> of new forest and tree cover by 2030.</li>
+    <li><strong>Wetland Restoration Projects</strong> – e.g., Loktak Lake Integrated Management Project (World Bank funded) aiming to control invasive water‑hyacinth.</li>
+    <li><strong>Protected Area Expansion</strong> – As of 2022, India has <strong>≈ 104</strong> National Parks and <strong>≈ 566</strong> Wildlife Sanctuaries, covering <strong>≈ 5 % of the land area</strong>.</li>
+    <li><strong>Use of Remote Sensing &amp; GIS</strong> – The Forest Survey of India (FSI) employs satellite imagery (Landsat, Sentinel‑2) for annual forest‑cover assessments.</li>
   </ol>
 
-  <h4>8. Important Statistics (2021‑2023)</h4>
+  <h3>8. Important Statistics (2021‑2023)</h3>
   <table style="width:100%; border-collapse:collapse; margin-top:12px;">
     <thead style="background:#f2f2f2;">
       <tr>
@@ -1984,35 +1650,33 @@ EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
     </tbody>
   </table>
 
-  <h4>9. Regional Highlights – State‑wise Forest Highlights</h4>
-  <p>Below are the top three states contributing to forest cover (as per ISFR‑2021):</p>
-
+  <h3>9. Regional Highlights – State‑wise Forest Highlights</h3>
+  <p>Top three states contributing to forest cover (as per ISFR‑2021):</p>
   <ul>
-    <li><strong>Madhya Pradesh</strong> – 77,000 km² (≈ 20 % of national forest area); dominant in **Sal‑teak** mixed forests.</li>
-    <li><strong>Arunachal Pradesh</strong> – 55,000 km²; houses extensive **Eastern Himalayan** evergreen and sub‑tropical pine forests.</li>
-    <li><strong>Chhattisgarh</strong> – 53,000 km²; rich in **tropical moist deciduous** and **sal** belts.</li>
+    <li><strong>Madhya Pradesh</strong> – 77,000 km² (≈ 20 % of national forest area); dominant in <strong>Sal‑teak</strong> mixed forests.</li>
+    <li><strong>Arunachal Pradesh</strong> – 55,000 km²; houses extensive <strong>Eastern Himalayan</strong> evergreen and sub‑tropical pine forests.</li>
+    <li><strong>Chhattisgarh</strong> – 53,000 km²; rich in <strong>tropical moist deciduous</strong> and <strong>sal</strong> belts.</li>
   </ul>
 
-  <h4>10. Role of Forests & Wetlands in Climate Mitigation</h4>
-  <p>Forests act as carbon sinks, absorbing **≈ 1.2 Gt CO₂ yr⁻¹** (about 3 % of India’s total emissions). Wetlands, especially mangroves and peatlands, have an even higher per‑hectare sequestration rate. The government's **National Action Plan on Climate Change (NAPCC)** designates **Forestry and Biodiversity** as one of the eight missions, focusing on:</p>
-
+  <h3>10. Role of Forests &amp; Wetlands in Climate Mitigation</h3>
+  <p>Forests act as carbon sinks, absorbing <strong>≈ 1.2 Gt CO₂ yr⁻¹</strong> (about 3 % of India’s total emissions). Wetlands, especially mangroves and peatlands, have an even higher per‑hectare sequestration rate. The government’s <strong>National Action Plan on Climate Change (NAPCC)</strong> designates <strong>Forestry and Biodiversity</strong> as one of the eight missions, focusing on:</p>
   <ul>
-    <li>Afforestation of **degraded lands** using native species.</li>
-    <li>Restoration of **saline‑alkaline soils** through mangrove planting.</li>
-    <li>Promotion of **community‑based eco‑tourism** to generate livelihood while conserving ecosystems.</li>
+    <li>Afforestation of <strong>degraded lands</strong> using native species.</li>
+    <li>Restoration of <strong>saline‑alkaline soils</strong> through mangrove planting.</li>
+    <li>Promotion of <strong>community‑based eco‑tourism</strong> to generate livelihood while conserving ecosystems.</li>
   </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High‑Yield Exam Facts</strong>
     <ul style="margin-top: 8px;">
-      <li>India’s total forest cover (including tree cover) is **≈ 71 million ha** (≈ 24.6 % of geographical area) as per ISFR 2021.</li>
-      <li>[[Sunderban]] mangroves fall under the **Very Dense Forest** category with canopy cover **> 70 %**.</li>
-      <li>[[Western Ghats]]’ <em>Shola</em> forests are classified as **Montane Evergreen** and are a UNESCO World Heritage Site.</li>
-      <li>[[Indian Forest Act, 1927]] and [[Forest Conservation Act, 1980]] are the two cornerstone statutes governing forest protection.</li>
-      <li>The **National Wetland Conservation Programme (NWCP)** was launched in **1985** and currently lists **≈ 7,300** wetlands.</li>
-      <li>India’s **Mangrove carbon stock** averages **≈ 2,500 t C ha⁻¹**, the highest among tropical ecosystems.</li>
-      <li>**Joint Forest Management (JFM)** now covers **≈ 50 %** of the country’s forest area, involving local communities.</li>
-      <li>[[Loktak Lake]] in Manipur is the largest **freshwater lake** in India and the only lake with **phumdis** (floating biomass).</li>
+      <li>India’s total forest cover (including tree cover) is <strong>≈ 71 million ha</strong> (≈ 24.6 % of geographical area) as per ISFR 2021.</li>
+      <li>Sundarbans mangroves fall under the <strong>Very Dense Forest</strong> category with canopy cover <strong>&gt; 70 %</strong>.</li>
+      <li>Western Ghats’ <em>Shola</em> forests are classified as <strong>Montane Evergreen</strong> and are a UNESCO World Heritage Site.</li>
+      <li>Indian Forest Act, 1927 and Forest Conservation Act, 1980 are the two cornerstone statutes governing forest protection.</li>
+      <li>The <strong>National Wetland Conservation Programme (NWCP)</strong> was launched in <strong>1985</strong> and currently lists <strong>≈ 7,300</strong> wetlands.</li>
+      <li>India’s <strong>Mangrove carbon stock</strong> averages <strong>≈ 2,500 t C ha⁻¹</strong>, the highest among tropical ecosystems.</li>
+      <li><strong>Joint Forest Management (JFM)</strong> now covers <strong>≈ 50 %</strong> of the country’s forest area, involving local communities.</li>
+      <li>Loktak Lake in Manipur is the largest <strong>freshwater lake</strong> in India and the only lake with <strong>phumdis</strong> (floating biomass).</li>
     </ul>
   </div>
 </div>
@@ -2020,16 +1684,23 @@ EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
 
 EXPANDED_NOTES_DATA["india-resources-farming"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
-    Mineral Resources & Types of Farming
-  </h3>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Mineral Resources & Types of Farming – UPSC & Defence Perspective</h2>
 
-  <h4>1. Overview of Indian Mineral Wealth</h4>
-  <p>India ranks among the top ten mineral‑rich countries in the world. The <strong>mineral endowment</strong> is a direct outcome of its diverse <em>geological history</em> spanning the <strong>Precambrian</strong>, <strong>Paleozoic</strong>, and <strong>Mesozoic</strong> eras. The spatial distribution of minerals follows the major lithological provinces: the <strong>Aravalli–Delhi Belt</strong>, <strong>Peninsular Shield</strong>, <strong>Gondwana Basin</strong>, and the <strong>Eastern and Western Ghats</strong>. Understanding the genesis, location, and exploitation status of each resource is crucial for both strategic planning and defence logistics.</p>
+  <!-- ==================== 1. Overview of Indian Mineral Wealth ==================== -->
+  <h3>1. Overview of Indian Mineral Wealth</h3>
+  <p>India ranks among the top‑ten mineral‑rich nations globally. The country’s rich <strong>mineral endowment</strong> is a direct outcome of a complex <em>geological history</em> that spans the <strong>Precambrian</strong>, <strong>Paleozoic</strong> and <strong>Mesozoic</strong> eras. The spatial distribution of minerals follows four major lithological provinces:</p>
+  <ul>
+    <li>Aravalli–Delhi Belt</li>
+    <li>Peninsular Shield</li>
+    <li>Gondwana Basin</li>
+    <li>Eastern & Western Ghats</li>
+  </ul>
+  <p>These provinces control the genesis, location and exploitation status of each resource – information that is vital for strategic planning, defence logistics and industrial policy.</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indian%20mineral%20resource%20distribution%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indian mineral resource distribution" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-  <h4>2. Classification of Major Mineral Resources</h4>
-  <p>The mineral resources of India can be broadly classified into <strong>metallic</strong> and <strong>non‑metallic</strong> categories. The table below summarizes the key minerals, their principal producing states, estimated reserves (as per the <strong>2019 Indian Minerals Yearbook</strong>), and primary industrial applications.</p>
-
+  <!-- ==================== 2. Classification of Major Mineral Resources ==================== -->
+  <h3>2. Classification of Major Mineral Resources</h3>
+  <p>Minerals are broadly grouped into <strong>metallic</strong> and <strong>non‑metallic</strong> categories. The table below summarises the most important minerals, their chief producing states, estimated reserves (2019 Indian Minerals Yearbook) and principal industrial applications.</p>
   <table style="width:100%; border-collapse:collapse; margin-top:12px;">
     <thead style="background:#2c2c3c; color:#fff;">
       <tr>
@@ -2042,81 +1713,84 @@ EXPANDED_NOTES_DATA["india-resources-farming"] = `
     <tbody style="background:#1e1e2a; color:#ddd;">
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Coal</strong></td>
-        <td style="border:1px solid #555; padding:8px;">[[Jharkhand]], [[Odisha]], [[Chhattisgarh]], [[West Bengal]]</td>
+        <td style="border:1px solid #555; padding:8px;">Jharkhand, Odisha, Chhattisgarh, West Bengal</td>
         <td style="border:1px solid #555; padding:8px;">≈ 319</td>
         <td style="border:1px solid #555; padding:8px;">Power generation, steel making, cement</td>
       </tr>
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Iron ore</strong></td>
-        <td style="border:1px solid #555; padding:8px;">[[Odisha]], [[Jharkhand]], [[Chhattisgarh]], [[Madhya Pradesh]]</td>
+        <td style="border:1px solid #555; padding:8px;">Odisha, Jharkhand, Chhattisgarh, Madhya Pradesh</td>
         <td style="border:1px solid #555; padding:8px;">≈ 31.5</td>
         <td style="border:1px solid #555; padding:8px;">Steel industry, ferro‑alloys</td>
       </tr>
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Bauxite</strong></td>
-        <td style="border:1px solid #555; padding:8px;">[[Odisha]], [[Maharashtra]], [[Gujarat]], [[Jharkhand]]</td>
+        <td style="border:1px solid #555; padding:8px;">Odisha, Maharashtra, Gujarat, Jharkhand</td>
         <td style="border:1px solid #555; padding:8px;">≈ 30.7</td>
         <td style="border:1px solid #555; padding:8px;">Aluminium production, refractory bricks</td>
       </tr>
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Mica</strong></td>
-        <td style="border:1px solid #555; padding:8px;">[[Jharkhand]], [[Madhya Pradesh]], [[Rajasthan]]</td>
+        <td style="border:1px solid #555; padding:8px;">Jharkhand, Madhya Pradesh, Rajasthan</td>
         <td style="border:1px solid #555; padding:8px;">≈ 6.5</td>
         <td style="border:1px solid #555; padding:8px;">Electronics, insulation, cosmetics</td>
       </tr>
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Limestone</strong></td>
-        <td style="border:1px solid #555; padding:8px;">[[Rajasthan]], [[Madhya Pradesh]], [[Tamil Nadu]], [[Karnataka]]</td>
+        <td style="border:1px solid #555; padding:8px;">Rajasthan, Madhya Pradesh, Tamil Nadu, Karnataka</td>
         <td style="border:1px solid #555; padding:8px;">≈ 1,000</td>
         <td style="border:1px solid #555; padding:8px;">Cement, steel, glass</td>
       </tr>
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Copper</strong></td>
-        <td style="border:1px solid #555; padding:8px;">[[Rajasthan]], [[Jharkhand]], [[Madhya Pradesh]]</td>
+        <td style="border:1px solid #555; padding:8px;">Rajasthan, Jharkhand, Madhya Pradesh</td>
         <td style="border:1px solid #555; padding:8px;">≈ 2.2</td>
         <td style="border:1px solid #555; padding:8px;">Electrical wiring, alloy production</td>
       </tr>
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Zinc</strong></td>
-        <td style="border:1px solid #555; padding:8px;">[[Rajasthan]], [[Maharashtra]], [[Jharkhand]]</td>
+        <td style="border:1px solid #555; padding:8px;">Rajasthan, Maharashtra, Jharkhand</td>
         <td style="border:1px solid #555; padding:8px;">≈ 1.5</td>
         <td style="border:1px solid #555; padding:8px;">Galvanisation, die‑casting</td>
       </tr>
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Gold</strong></td>
-        <td style="border:1px solid #555; padding:8px;">[[Karnataka]], [[Jharkhand]], [[Rajasthan]]</td>
+        <td style="border:1px solid #555; padding:8px;">Karnataka, Jharkhand, Rajasthan</td>
         <td style="border:1px solid #555; padding:8px;">≈ 0.2</td>
         <td style="border:1px solid #555; padding:8px;">Jewellery, electronics, reserves</td>
       </tr>
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Uranium</strong></td>
-        <td style="border:1px solid #555; padding:8px;">[[Rajasthan]], [[Madhya Pradesh]], [[Tamil Nadu]]</td>
+        <td style="border:1px solid #555; padding:8px;">Rajasthan, Madhya Pradesh, Tamil Nadu</td>
         <td style="border:1px solid #555; padding:8px;">≈ 0.02</td>
         <td style="border:1px solid #555; padding:8px;">Nuclear power programme</td>
       </tr>
     </tbody>
   </table>
 
-  <h4>3. Geological Controls on Mineral Distribution</h4>
+  <!-- ==================== 3. Geological Controls on Mineral Distribution ==================== -->
+  <h3>3. Geological Controls on Mineral Distribution</h3>
   <ul>
-    <li><strong>Precambrian Cratons</strong> (e.g., <strong>Aravalli–Delhi Belt</strong>) host high‑grade <strong>iron ore</strong> and <strong>copper‑zinc</strong> sulfide deposits.</li>
-    <li><strong>Gondwana Basins</strong> (e.g., <strong>Singhbhum</strong> and <strong>Koyna</strong>) are prolific for <strong>coal</strong> and <strong>manganese</strong>.</li>
-    <li><strong>Laterite Zones</strong> in the <strong>Western Ghats</strong> and <strong>Eastern Coastal Plains</strong> concentrate <strong>bauxite</strong> and <strong>nickel</strong>.</li>
-    <li><strong>Alluvial Plains</strong> of the <strong>Indus</strong> and <strong>Ganga</strong> basins contain placer <strong>gold</strong> and <strong>diamond</strong> fragments.</li>
+    <li><strong>Precambrian Cratons</strong> (e.g., Aravalli–Delhi Belt) host high‑grade <strong>iron ore</strong> and <strong>copper‑zinc</strong> sulfide deposits.</li>
+    <li><strong>Gondwana Basins</strong> (e.g., Singhbhum, Koyna) are prolific for <strong>coal</strong> and <strong>manganese</strong>.</li>
+    <li><strong>Laterite Zones</strong> in the Western Ghats and Eastern Coastal Plains concentrate <strong>bauxite</strong> and <strong>nickel</strong>.</li>
+    <li><strong>Alluvial Plains</strong> of the Indus and Ganga basins contain placer <strong>gold</strong> and <strong>diamond</strong> fragments.</li>
   </ul>
 
-  <h4>4. Strategic Importance for Defence & Security</h4>
+  <!-- ==================== 4. Strategic Importance for Defence & Security ==================== -->
+  <h3>4. Strategic Importance for Defence & Security</h3>
   <p>From a defence perspective, the following minerals are of heightened strategic relevance:</p>
   <ul>
-    <li><strong>Uranium</strong> – underpinning the <em>nuclear deterrence</em> triad; primary mining at <strong>Jaisalmer</strong> (Rajasthan) and <strong>Uranium Corporation of India Limited (UCIL)</strong> operations.</li>
-    <li><strong>Rare Earth Elements (REE)</strong> – essential for <em>radar, avionics, and missile guidance systems</em>. Though India’s REE reserves are modest, the <strong>Kudremukh</strong> (Karnataka) and <strong>Bengaluru</strong> zones are under exploration.</li>
-    <li><strong>Coal</strong> – backbone of the defence‑run <strong>Indian Railways</strong> and <strong>thermal power plants</strong> that fuel bases and training establishments.</li>
-    <li><strong>Iron ore & Aluminium</strong> – critical for <em>aircraft, naval hulls, and armored vehicles</em>. The Ministry of Defence maintains strategic stockpiles sourced largely from <strong>Odisha</strong> and <strong>Jharkhand</strong>.</li>
+    <li><strong>Uranium</strong> – underpinning the <em>nuclear deterrence</em> triad; primary mining at Jaisalmer (Rajasthan) and operations of the Uranium Corporation of India Limited (UCIL).</li>
+    <li><strong>Rare Earth Elements (REE)</strong> – essential for <em>radar, avionics and missile guidance systems</em>. Exploration is ongoing in the Kudremukh (Karnataka) and Singhbhum (Jharkhand) belts.</li>
+    <li><strong>Coal</strong> – fuels the defence‑run Indian Railways and thermal power plants that support forward bases.</li>
+    <li><strong>Iron ore & Aluminium</strong> – critical for aircraft, naval hulls and armoured vehicles. Strategic stockpiles are sourced mainly from Odisha and Jharkhand.</li>
   </ul>
 
-  <h4>5. Types of Farming in India – An Overview</h4>
-  <p>India’s agrarian landscape is a mosaic of <strong>climatic zones</strong>, <strong>soil types</strong>, and <strong>cultural practices</strong>. The principal farming systems can be categorised into four broad types:</p>
-
+  <!-- ==================== 5. Types of Farming in India – Overview ==================== -->
+  <h3>5. Types of Farming in India – Overview</h3>
+  <p>India’s agrarian landscape is a mosaic of <strong>climatic zones</strong>, <strong>soil types</strong> and <strong>cultural practices</strong>. The principal farming systems are categorised into four broad types:</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indian%20agricultural%20zones%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indian agricultural zones" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <table style="width:100%; border-collapse:collapse; margin-top:12px;">
     <thead style="background:#2c2c3c; color:#fff;">
       <tr>
@@ -2130,92 +1804,100 @@ EXPANDED_NOTES_DATA["india-resources-farming"] = `
     <tbody style="background:#1e1e2a; color:#ddd;">
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Rain‑fed (Barani)</strong></td>
-        <td style="border:1px solid #555; padding:8px;">~ 55 % of cultivated area; predominant in <strong>central</strong> and <strong>northern</strong> plains</td>
+        <td style="border:1px solid #555; padding:8px;">~55 % of cultivated area; central & northern plains</td>
         <td style="border:1px solid #555; padding:8px;">Millet, sorghum, pulses, oilseeds</td>
         <td style="border:1px solid #555; padding:8px;">300‑800</td>
         <td style="border:1px solid #555; padding:8px;">Alluvial to loamy, low water‑holding capacity</td>
       </tr>
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Irrigated (Khadar‑based)</strong></td>
-        <td style="border:1px solid #555; padding:8px;">~ 45 % of cultivated area; concentrated in <strong>Punjab</strong>, <strong>Haryana</strong>, <strong>Uttar Pradesh</strong>, <strong>Maharashtra</strong></td>
+        <td style="border:1px solid #555; padding:8px;">~45 % of cultivated area; Punjab, Haryana, UP, Maharashtra</td>
         <td style="border:1px solid #555; padding:8px;">Wheat, rice, sugarcane, maize</td>
-        <td style="border:1px solid #555; padding:8px;">> 800</td>
+        <td style="border:1px solid #555; padding:8px;">>800</td>
         <td style="border:1px solid #555; padding:8px;">Fertile alluvial, high organic matter</td>
       </tr>
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Hilly & Terrace Farming</strong></td>
-        <td style="border:1px solid #555; padding:8px;">~ 7 % of total area; prevalent in <strong>Himachal Pradesh</strong>, <strong>Uttarakhand</strong>, <strong>Assam</strong>, <strong>Nagaland</strong></td>
+        <td style="border:1px solid #555; padding:8px;">~7 % of total area; Himachal, Uttarakhand, Assam, Nagaland</td>
         <td style="border:1px solid #555; padding:8px;">Maize, potatoes, tea, horticulture</td>
         <td style="border:1px solid #555; padding:8px;">800‑1500</td>
         <td style="border:1px solid #555; padding:8px;">Lateritic, shallow, prone to erosion</td>
       </tr>
       <tr>
         <td style="border:1px solid #555; padding:8px;"><strong>Coastal & Saline‑affected Farming</strong></td>
-        <td style="border:1px solid #555; padding:8px;">~ 3 % of area; along <strong>Andaman & Nicobar</strong>, <strong>Kerala</strong>, <strong>Tamil Nadu</strong> coastlines</td>
+        <td style="border:1px solid #555; padding:8px;">~3 % of area; Andaman & Nicobar, Kerala, Tamil Nadu coastlines</td>
         <td style="border:1px solid #555; padding:8px;">Coconut, cashew, shrimp aquaculture</td>
-        <td style="border:1px solid #555; padding:8px;">> 1000 (monsoonal)</td>
+        <td style="border:1px solid #555; padding:8px;">>1000 (monsoonal)</td>
         <td style="border:1px solid #555; padding:8px;">Sandy loam, high salinity, water‑logging</td>
       </tr>
     </tbody>
   </table>
 
-  <h4>6. Rain‑fed Agriculture (Barani) – Detailed Features</h4>
+  <!-- ==================== 6. Rain‑fed Agriculture (Barani) – Detailed Features ==================== -->
+  <h3>6. Rain‑fed Agriculture (Barani) – Detailed Features</h3>
   <ul>
-    <li><strong>Dependence on Monsoon</strong>: The success of Barani crops hinges on the timing and intensity of the Southwest monsoon, especially the “<strong>break monsoon</strong>” periods.</li>
-    <li><strong>Soil Conservation Practices</strong>: <strong>Contour bunding</strong>, <strong>zero‑tillage</strong>, and <strong>seed‑bed preparation</strong> are promoted under the <strong>Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)</strong>.</li>
-    <li><strong>Key Crops</strong>: <strong>Millet (Pearl, Finger)</strong>, <strong>Sorghum (Jowar)</strong>, <strong>Pulses (Gram, Moong)</strong>, and <strong>oilseeds (Sesamum)</strong>—all possessing C4 photosynthetic pathways that confer drought tolerance.</li>
+    <li><strong>Dependence on Monsoon</strong>: Success hinges on the timing and intensity of the Southwest monsoon, especially the “break monsoon” periods.</li>
+    <li><strong>Soil Conservation Practices</strong>: Contour bunding, zero‑tillage and seed‑bed preparation are promoted under the Pradhan Mantri Krishi Sinchayee Yojana (PMKSY).</li>
+    <li><strong>Key Crops</strong>: Millet (Pearl, Finger), Sorghum (Jowar), Pulses (Gram, Moong) and oilseeds (Sesamum) – all C4 plants with high drought tolerance.</li>
   </ul>
 
-  <h4>7. Irrigated Agriculture – Green Revolution Legacy</h4>
-  <p>The introduction of high‑yielding varieties (HYVs) of <strong>wheat</strong> and <strong>rice</strong> during the 1960s, facilitated by the <strong>Indira Gandhi Canal</strong> and the <strong>Bhakra‑Nangal Dam</strong>, transformed the agrarian matrix of the <strong>Punjab–Haryana–Western Uttar Pradesh (PWU) region</strong>. This region now produces > 50 % of India’s total wheat output.</p>
+  <!-- ==================== 7. Irrigated Agriculture – Green Revolution Legacy ==================== -->
+  <h3>7. Irrigated Agriculture – Green Revolution Legacy</h3>
+  <p>The introduction of high‑yielding varieties (HYVs) of wheat and rice during the 1960s, facilitated by the Indira Gandhi Canal and the Bhakra‑Nangal Dam, transformed the agrarian matrix of the Punjab‑Haryana‑Western Uttar Pradesh (PWU) region. This belt now contributes >50 % of India’s wheat output.</p>
   <ul>
-    <li><strong>Water Sources</strong>: Major river‑based canals (e.g., <strong>Ganga Canal</strong>, <strong>Indus Basin Project</strong>) and groundwater (notably the <strong>Punjab aquifer</strong>).</li>
-    <li><strong>Input Intensification</strong>: Use of <strong>synthetic fertilizers</strong> (NPK), <strong>pesticides</strong>, and <strong>machinery</strong> (tractors, combine harvesters) has increased per‑hectare productivity but raised sustainability concerns.</li>
-    <li><strong>Challenges</strong>: Declining groundwater tables (> 15 m in parts of <strong>Punjab</strong>), salinity in the <strong>Indus Basin</strong>, and climate‑induced variability.</li>
+    <li><strong>Water Sources</strong>: River‑based canals (Ganga Canal, Indus Basin Project) and groundwater (Punjab aquifer).</li>
+    <li><strong>Input Intensification</strong>: Synthetic fertilizers (NPK), pesticides and machinery (tractors, combine harvesters) have boosted per‑hectare productivity but raised sustainability concerns.</li>
+    <li><strong>Challenges</strong>: Declining groundwater tables (>15 m in parts of Punjab), salinity in the Indus Basin, and climate‑induced variability.</li>
   </ul>
 
-  <h4>8. Hilly & Terrace Farming – Adaptations to Topography</h4>
-  <p>Terracing converts steep slopes into a series of flat benches, reducing runoff velocity and enhancing soil moisture retention. The <strong>North Eastern Hill Region</strong> (<em>NEHR</em>) employs “<strong>jhum</strong>” (shifting cultivation) in some tribal pockets, though the government has been encouraging a transition to <strong>settlement agriculture</strong> via the <strong>National Horticulture Mission (NHM)</strong>.</p>
+  <!-- ==================== 8. Hilly & Terrace Farming – Adaptations to Topography ==================== -->
+  <h3>8. Hilly & Terrace Farming – Adaptations to Topography</h3>
+  <p>Terracing converts steep slopes into a series of flat benches, reducing runoff velocity and enhancing soil moisture retention. In the North‑Eastern Hill Region (NEHR), shifting cultivation (“jhum”) is being replaced by settlement agriculture under the National Horticulture Mission (NHM).</p>
   <ul>
-    <li><strong>Key Crops</strong>: <strong>Tea</strong> in <strong>Assam</strong> and <strong>Darjeeling</strong>, <strong>cardamom</strong> in <strong>Sikkim</strong>, and <strong>apple</strong> in <strong>Himachal Pradesh</strong>.</li>
-    <li><strong>Livelihood Diversification</strong>: Integration of <strong>animal husbandry</strong> (yaks, goats) and <strong>agro‑forestry</strong> (e.g., <strong>Eucalyptus</strong> plantations) to augment income.</li>
+    <li><strong>Key Crops</strong>: Tea in Assam and Darjeeling, cardamom in Sikkim, apple in Himachal Pradesh.</li>
+    <li><strong>Livelihood Diversification</strong>: Integration of animal husbandry (yaks, goats) and agro‑forestry (Eucalyptus plantations) to augment income.</li>
   </ul>
 
-  <h4>9. Coastal & Saline‑affected Farming – Emerging Frontiers</h4>
-  <p>Saline‑affected lands, especially in <strong>Kanyakumari</strong> and the <strong>Coastal Andhra</strong> districts, demand salt‑tolerant cultivars. The <strong>Integrated Coastal Zone Management (ICZM)</strong> framework encourages <strong>brackish‑water aquaculture</strong> (e.g., <strong>shrimp</strong> and <strong>tilapia</strong>) alongside salt‑tolerant crops like <strong>salicornia</strong> and <strong>coconut</strong>.</p>
+  <!-- ==================== 9. Coastal & Saline‑affected Farming – Emerging Frontiers ==================== -->
+  <h3>9. Coastal & Saline‑affected Farming – Emerging Frontiers</h3>
+  <p>Saline‑affected lands, especially in Kanyakumari and Coastal Andhra districts, demand salt‑tolerant cultivars. The Integrated Coastal Zone Management (ICZM) framework encourages brackish‑water aquaculture (shrimp, tilapia) alongside salt‑tolerant crops such as salicornia and coconut.</p>
   <ul>
-    <li><strong>Innovations</strong>: Use of <strong>reverse osmosis (RO)</strong> for irrigation water, and <strong>bio‑char</strong> amendments to improve soil structure.</li>
-    <li><strong>Policy Support</strong>: The <strong>Marine Fisheries Regulation Act, 2020</strong> and the <strong>National Aquaculture Mission (NAM)</strong> provide subsidies for pond construction and seed supply.</li>
+    <li><strong>Innovations</strong>: Reverse osmosis (RO) for irrigation water and bio‑char amendments to improve soil structure.</li>
+    <li><strong>Policy Support</strong>: Marine Fisheries Regulation Act, 2020 and the National Aquaculture Mission (NAM) provide subsidies for pond construction and seed supply.</li>
   </ul>
 
-  <h4>10. Interlinkage between Mineral Resources and Agricultural Development</h4>
-  <p>Mineral inputs are indispensable for modern agriculture. The mining of <strong>phosphate rock</strong> (predominantly from <strong>Jharkhand** and **Madhya Pradesh**) feeds the production of <strong>DAP (Di‑ammonium Phosphate)</strong> fertilizer, which accounts for ~ 35 % of India’s fertilizer consumption. Additionally, <strong>limestone</strong> is a primary source of <strong>agricultural lime</strong>, used to neutralise acidic soils especially in the <strong>Gangetic plains</strong>.</p>
+  <!-- ==================== 10. Interlinkage between Mineral Resources and Agricultural Development ==================== -->
+  <h3>10. Interlinkage between Mineral Resources and Agricultural Development</h3>
+  <p>Mineral inputs are indispensable for modern agriculture. Mining of phosphate rock (mainly from Jharkhand and Madhya Pradesh) feeds the production of Di‑ammonium Phosphate (DAP) fertilizer, which accounts for ~35 % of India’s fertilizer consumption. Limestone is a primary source of agricultural lime, used to neutralise acidic soils especially in the Gangetic plains.</p>
   <ul>
-    <li><strong>Environmental Concerns</strong>: Mining activities generate <strong>fly ash</strong> and <strong>tailings</strong> that can contaminate irrigation water if not managed properly.</li>
-    <li><strong>Strategic Initiatives</strong>: The <strong>National Mineral Exploration Programme (NMEP)</strong> and the <strong>Soil Health Card Scheme</strong> aim to align mineral extraction with sustainable agronomy.</li>
+    <li><strong>Environmental Concerns</strong>: Mining activities generate fly ash and tailings that can contaminate irrigation water if not managed properly.</li>
+    <li><strong>Strategic Initiatives</strong>: The National Mineral Exploration Programme (NMEP) and the Soil Health Card Scheme aim to align mineral extraction with sustainable agronomy.</li>
   </ul>
 
-  <h4>11. Government Policies and Institutional Framework</h4>
+  <!-- ==================== 11. Government Policies and Institutional Framework ==================== -->
+  <h3>11. Government Policies and Institutional Framework</h3>
   <ul>
-    <li><strong>Mineral Policy 2019</strong>: Emphasises “<strong>resource security</strong>” and encourages domestic processing of critical minerals like <strong>copper, zinc, and rare earths</strong>.</li>
-    <li><strong>National Agricultural Policy (2020)</strong>: Stresses “<strong>climate‑smart agriculture (CSA)</strong>”, promoting drought‑resilient crops and micro‑irrigation.</li>
-    <li><strong>Defence Production</strong>: The <strong>Ordnance Factory Board (OFB)</strong> maintains strategic stockpiles of <strong>iron ore</strong> and <strong>aluminium</strong> for weapon manufacturing.</li>
+    <li><strong>Mineral Policy 2019</strong>: Emphasises “resource security” and encourages domestic processing of critical minerals like copper, zinc and rare earths.</li>
+    <li><strong>National Agricultural Policy (2020)</strong>: Stresses “climate‑smart agriculture (CSA)”, promoting drought‑resilient crops and micro‑irrigation.</li>
+    <li><strong>Defence Production</strong>: The Ordnance Factory Board (OFB) maintains strategic stockpiles of iron ore and aluminium for weapon manufacturing.</li>
     <li><strong>Integrated Rural Development Programme (IRDP)</strong>: Facilitates convergence of mineral‑based industrial zones with agricultural clusters to boost rural employment.</li>
   </ul>
 
-  <h4>12. Future Prospects and Challenges</h4>
-  <p>While India’s mineral base is robust, the transition to a <strong>knowledge‑driven economy</strong> necessitates:</p>
+  <!-- ==================== 12. Future Prospects and Challenges ==================== -->
+  <h3>12. Future Prospects and Challenges</h3>
+  <p>While India’s mineral base is robust, the transition to a knowledge‑driven economy necessitates:</p>
   <ul>
-    <li>Enhanced <strong>value addition</strong> – e.g., setting up <strong>iron‑and‑steel parks</strong> in mineral belts to reduce raw‑material import dependence.</li>
-    <li>Adoption of <strong>precision agriculture</strong> leveraging <strong>GIS</strong> and <strong>remote sensing</strong> to optimise input use.</li>
-    <li>Mitigation of <strong>environmental externalities</strong> through stricter <strong>mine‑closure</strong> norms and <strong>soil reclamation</strong> protocols.</li>
-    <li>Promotion of <strong>organic farming</strong> in rain‑fed zones to preserve soil health, especially in the face of climate variability.</li>
+    <li>Enhanced <strong>value addition</strong> – e.g., setting up iron‑and‑steel parks in mineral belts to reduce raw‑material import dependence.</li>
+    <li>Adoption of <strong>precision agriculture</strong> leveraging GIS and remote sensing to optimise input use.</li>
+    <li>Mitigation of <strong>environmental externalities</strong> through stricter mine‑closure norms and soil reclamation protocols.</li>
+    <li>Promotion of <strong>organic farming</strong> in rain‑fed zones to preserve soil health amid climate variability.</li>
   </ul>
 
+  <!-- ==================== Exam Tip Box ==================== -->
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High‑Yield Exam Facts</strong>
     <ul style="margin-top: 8px;">
-      <li><strong>India ranks 5<sup>th</sup> globally in coal reserves (≈ 319 Mt) with major mines in Jharkhand, Odisha, and Chhattisgarh.</strong></li>
+      <li><strong>India ranks 5<sup>th</sup> globally in coal reserves (≈ 319 Mt) with major mines in Jharkhand, Odisha and Chhattisgarh.</strong></li>
       <li><strong>Uranium reserves are concentrated in Rajasthan’s Jaisalmer district; the country’s strategic nuclear stockpile relies on UCIL’s production.</strong></li>
       <li><strong>The PWU region (Punjab‑Haryana‑Western UP) contributes over 50 % of India’s wheat output, thanks to canal‑irrigated Green Revolution technologies.</strong></li>
       <li><strong>India’s bauxite reserves (~30.7 Mt) are chiefly in Odisha, making it the world’s 3<sup>rd</sup> largest bauxite producer.</strong></li>
@@ -2229,165 +1911,164 @@ EXPANDED_NOTES_DATA["india-resources-farming"] = `
 `;
 
 EXPANDED_NOTES_DATA["india-transport-routes"] = `
-<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
-    Transport Routes: Highways & Waterways
-  </h3>
+<div class="revision-card" style="background:rgba(20,20,30,0.4);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:24px;box-shadow:0 4px 12px rgba(0,0,0,0.25);">
+  <h2 style="color:var(--accent);margin-bottom:16px;border-bottom:1px solid var(--border);padding-bottom:8px;font-weight:600;">Transport Routes: Highways &amp; Waterways</h2>
 
-  <h4><strong>1. Overview of India’s Transport Network</strong></h4>
-  <p>India possesses one of the most extensive transport networks in the world, comprising <strong>roads</strong>, <strong>railways</strong>, <strong>airways</strong>, and <strong>waterways</strong>. The <strong>road</strong> segment dominates both passenger and freight movement, while the <strong>waterway</strong> component is rapidly gaining strategic importance under the <em>Sagarmala</em> and <em>National Inland Water Transport</em> (NIWT) initiatives. The synergy between highways and waterways is crucial for achieving the <strong>“one nation, one transport system”</strong> vision articulated in the <strong>National Transport Policy 2020</strong>.</p>
+  <h3><strong>1. Overview of India’s Transport Network</strong></h3>
+  <p>India boasts one of the world’s most extensive multimodal transport systems, comprising <strong>roads</strong>, <strong>railways</strong>, <strong>airways</strong> and <strong>inland waterways</strong>. Roads dominate passenger and freight movement, while waterways are gaining strategic relevance under the <em>Sagarmala</em> and <em>National Inland Water Transport (NIWT)</em> programmes. The integration of highways and waterways underpins the "one nation, one transport system" vision of the <strong>National Transport Policy 2020</strong>.</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%27s%20transport%20network%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India’s transport network" style="width:100%;border-radius:8px;margin:15px 0;box-shadow:0 4px 8px rgba(0,0,0,0.1);">
 
-  <h4><strong>2. Classification of Highways</strong></h4>
+  <h3><strong>2. Classification of Highways</strong></h3>
   <ul>
-    <li><strong>National Highways (NH)</strong>: Centrally administered by the <strong>Ministry of Road Transport and Highways (MoRTH)</strong>. As of March 2024, the total NH length stands at **≈ 150,000 km**, with <strong>National Highway 44 (NH‑44)</strong> being the longest (≈ 3,745 km) running from <strong>[[Srinagar]]</strong> to <strong>[[Kanyakumari]]</strong>.</li>
-    <li><strong>State Highways (SH)</strong>: Managed by individual state governments; they connect district headquarters, major towns, and National Highways. Collectively, SHs account for **≈ 100,000 km** of the network.</li>
-    <li><strong>Expressways</strong>: High‑speed, access‑controlled corridors with design speeds of 100–120 km/h for four‑lane sections and up to 160 km/h for six‑lane stretches. Major expressways are part of the <strong>[[Bharatmala Pariyojana]]</strong> (₹6.29 lakh crore) and the <strong>[[Golden Quadrilateral]]</strong> (GQ) project.</li>
-    <li><strong>Ring Roads & Bypass Roads</strong>: Designed to decongest urban cores; examples include the <strong>[[Delhi Ring Road]]</strong> and the <strong>[[Kolkata Bypass]]</strong>.</li>
+    <li><strong>National Highways (NH)</strong>: Centrally administered by the Ministry of Road Transport and Highways (MoRTH). As of March 2024, the total NH length is ≈ 150,000 km. The longest, <strong>NH‑44</strong>, runs from <strong>Srinagar</strong> to <strong>Kanyakumari</strong> (≈ 3,745 km).</li>
+    <li><strong>State Highways (SH)</strong>: Managed by state governments, linking district headquarters, major towns and NHs. Collectively they account for ≈ 100,000 km.</li>
+    <li><strong>Expressways</strong>: Access‑controlled, high‑speed corridors (design speed 100–160 km/h). Major projects are part of the <strong>Bharatmala Pariyojana</strong> (₹6.29 lakh crore) and the <strong>Golden Quadrilateral (GQ)</strong> network.</li>
+    <li><strong>Ring &amp; Bypass Roads</strong>: Built to de‑congest urban cores – e.g., Delhi Ring Road, Kolkata Bypass.</li>
   </ul>
 
-  <h4><strong>3. National Highway Development Programme (NHDP)</strong></h4>
-  <p>The NHDP, launched in 1998, introduced four phases (Phase‑I to Phase‑IV) focusing on widening, upgrading, and constructing new stretches. Key milestones include:</p>
-  <table style="width:100%; border-collapse:collapse; margin-top:10px;">
-    <tr style="background:#333; color:#fff;">
-      <th style="padding:8px; border:1px solid #555;">Phase</th>
-      <th style="padding:8px; border:1px solid #555;">Period</th>
-      <th style="padding:8px; border:1px solid #555;">Key Projects</th>
-      <th style="padding:8px; border:1px solid #555;">Length (km)</th>
+  <h3><strong>3. National Highway Development Programme (NHDP)</strong></h3>
+  <p>Launched in 1998, the NHDP has progressed through four phases, focusing on widening, upgrading and constructing new stretches.</p>
+  <table style="width:100%;border-collapse:collapse;margin-top:10px;">
+    <tr style="background:#333;color:#fff;">
+      <th style="padding:8px;border:1px solid #555;">Phase</th>
+      <th style="padding:8px;border:1px solid #555;">Period</th>
+      <th style="padding:8px;border:1px solid #555;">Key Projects</th>
+      <th style="padding:8px;border:1px solid #555;">Length (km)</th>
     </tr>
     <tr>
-      <td style="padding:8px; border:1px solid #555;">I</td>
-      <td style="padding:8px; border:1px solid #555;">1998‑2003</td>
-      <td style="padding:8px; border:1px solid #555;">Golden Quadrilateral, Delhi‑Mumbai Expressway (initial stretch)</td>
-      <td style="padding:8px; border:1px solid #555;">≈ 9,000</td>
+      <td style="padding:8px;border:1px solid #555;">I</td>
+      <td style="padding:8px;border:1px solid #555;">1998‑2003</td>
+      <td style="padding:8px;border:1px solid #555;">Golden Quadrilateral, initial stretch of Delhi‑Mumbai Expressway</td>
+      <td style="padding:8px;border:1px solid #555;">≈ 9,000</td>
     </tr>
     <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #555;">II</td>
-      <td style="padding:8px; border:1px solid #555;">2003‑2009</td>
-      <td style="padding:8px; border:1px solid #555;">North‑South and East‑West Corridors, NH‑7 (now NH‑44) upgrade</td>
-      <td style="padding:8px; border:1px solid #555;">≈ 12,500</td>
+      <td style="padding:8px;border:1px solid #555;">II</td>
+      <td style="padding:8px;border:1px solid #555;">2003‑2009</td>
+      <td style="padding:8px;border:1px solid #555;">North‑South &amp; East‑West Corridors, NH‑7 (now NH‑44) upgrade</td>
+      <td style="padding:8px;border:1px solid #555;">≈ 12,500</td>
     </tr>
     <tr>
-      <td style="padding:8px; border:1px solid #555;">III</td>
-      <td style="padding:8px; border:1px solid #555;">2009‑2015</td>
-      <td style="padding:8px; border:1px solid #555;">Four‑lane widening of 30,000 km of NHs</td>
-      <td style="padding:8px; border:1px solid #555;">≈ 30,000</td>
+      <td style="padding:8px;border:1px solid #555;">III</td>
+      <td style="padding:8px;border:1px solid #555;">2009‑2015</td>
+      <td style="padding:8px;border:1px solid #555;">Four‑lane widening of 30,000 km of NHs</td>
+      <td style="padding:8px;border:1px solid #555;">≈ 30,000</td>
     </tr>
     <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #555;">IV</td>
-      <td style="padding:8px; border:1px solid #555;">2015‑2022</td>
-      <td style="padding:8px; border:1px solid #555;">Bharatmala’s first 5 corridors, 20+ expressways</td>
-      <td style="padding:8px; border:1px solid #555;">≈ 5,000 (ongoing)</td>
+      <td style="padding:8px;border:1px solid #555;">IV</td>
+      <td style="padding:8px;border:1px solid #555;">2015‑2022</td>
+      <td style="padding:8px;border:1px solid #555;">First five Bharatmala corridors, 20+ expressways</td>
+      <td style="padding:8px;border:1px solid #555;">≈ 5,000 (ongoing)</td>
     </tr>
   </table>
 
-  <h4><strong>4. Major Expressways under Bharatmala</strong></h4>
-  <p>The <strong>[[Bharatmala Pariyojana]]</strong> aims to construct 83,000 km of highways, of which 34,800 km are expressways. Highlighted corridors include:</p>
+  <h3><strong>4. Major Expressways under Bharatmala</strong></h3>
   <ul>
-    <li><strong>Delhi‑Mumbai Expressway</strong> (≈ 1,350 km) – 8‑lane, 90 % land acquisition completed by 2023; expected operational by 2025.</li>
-    <li><strong>Delhi‑Amritsar–Katra Expressway</strong> (≈ 670 km) – Connects the national capital to the <strong>[[Jammu and Kashmir]]</strong> border, facilitating pilgrimage to <strong>[[Vaishno Devi]]</strong>.</li>
-    <li><strong>Eastern Peripheral Expressway (EPE)</strong> – 135 km ring road around <strong>[[Delhi]]</strong> to divert heavy vehicles away from the city centre.</li>
-    <li><strong>Ahmedabad‑Surat Expressway</strong> – 280 km, crucial for Gujarat’s industrial corridor.</li>
-    <li><strong>Chennai‑Bengaluru Industrial Corridor (CBIC)</strong> – 250 km, integrates two major IT hubs.</li>
+    <li><strong>Delhi‑Mumbai Expressway</strong> – ≈ 1,350 km, 8‑lane; 90 % land acquisition completed by 2023, operational by 2025.</li>
+    <li><strong>Delhi‑Amritsar–Katra Expressway</strong> – ≈ 670 km; provides direct access to the Jammu &amp; Kashmir border and the Vaishno Devi shrine.</li>
+    <li><strong>Eastern Peripheral Expressway (EPE)</strong> – 135 km ring road around Delhi, diverting heavy vehicles from the city centre.</li>
+    <li><strong>Ahmedabad‑Surat Expressway</strong> – 280 km, vital for Gujarat’s industrial corridor.</li>
+    <li><strong>Chennai‑Bengaluru Industrial Corridor (CBIC)</strong> – 250 km, linking two major IT hubs.</li>
   </ul>
 
-  <h4><strong>5. Strategic and Economic Significance of Highways</strong></h4>
+  <h3><strong>5. Strategic &amp; Economic Significance of Highways</strong></h3>
   <ul>
-    <li><strong>Defence Mobility</strong>: Rapid deployment of troops and equipment along <strong>NH‑44</strong> and <strong>NH‑27</strong> ensures strategic depth against external threats.</li>
-    <li><strong>Trade Facilitation</strong>: Highways link <strong>major seaports</strong> (e.g., <strong>[[Mumbai Port]]</strong>, <strong>[[Kandla Port]]</strong>, <strong>[[Visakhapatnam Port]]</strong>) with hinterland industrial zones, reducing logistics cost from 14 % to 9 % of GDP (as per 2022 MoRTH report).</li>
-    <li><strong>Regional Connectivity</strong>: The <strong>North‑East Council (NEC)</strong> has prioritized NH‑2 (now NH‑27) to integrate the Seven Sister States with the rest of India.</li>
-    <li><strong>Tourism Boost</strong>: Scenic routes such as the <strong>Himachal‑Pahalgam Highway</strong> and the <strong>Coastal Highway of Kerala</strong> have increased tourist footfall by 27 % (2021‑2023).</li>
+    <li><strong>Defence Mobility</strong>: NH‑44 and NH‑27 enable rapid deployment of troops and equipment, providing strategic depth.</li>
+    <li><strong>Trade Facilitation</strong>: Highways connect major seaports (Mumbai, Kandla, Visakhapatnam) with hinterland industrial zones, cutting logistics cost from 14 % to 9 % of GDP (MoRTH 2022).</li>
+    <li><strong>Regional Connectivity</strong>: The North‑East Council prioritises NH‑27 to integrate the Seven Sister States with the rest of India.</li>
+    <li><strong>Tourism Boost</strong>: Scenic corridors such as the Himachal‑Pahalgam Highway and Kerala’s Coastal Highway have raised tourist footfall by 27 % (2021‑2023).</li>
   </ul>
 
-  <h4><strong>6. Classification of Indian Waterways</strong></h4>
-  <p>India’s inland water transport (IWT) is categorized under the <strong>National Waterways (NW)</strong> system, administered by the <strong>Ministry of Shipping</strong>. As of 2024, **17** National Waterways have been declared, covering a cumulative length of **≈ 5,500 km**. The primary categories are:</p>
+  <h3><strong>6. Classification of Indian Waterways</strong></h3>
+  <p>Inland water transport (IWT) is organised under the <strong>National Waterways (NW)</strong> system, overseen by the Ministry of Shipping. As of 2024, 17 National Waterways have been declared, covering ≈ 5,500 km.</p>
   <ul>
-    <li><strong>National Waterways (NW)</strong>: Fully developed, dredged, and equipped with navigation aids. Examples: <strong>[[National Waterway 1]]</strong> (Ganga), <strong>[[National Waterway 2]]</strong> (Brahmaputra), <strong>[[National Waterway 3]]</strong> (West Coast), <strong>[[National Waterway 4]]</strong> (Kaveri).</li>
-    <li><strong>State Waterways</strong>: Managed by respective state governments; often limited to seasonal navigation (e.g., <strong>[[Mahanadi River]]</strong> in Odisha).</li>
-    <li><strong>Minor Rivers & Canals</strong>: Used for localized transport of bulk commodities, especially in the <strong>Punjab</strong> and <strong>Haryana</strong> canal networks.</li>
+    <li><strong>National Waterways (NW)</strong>: Fully developed, dredged, equipped with navigation aids (e.g., NW‑1 Ganga, NW‑2 Brahmaputra, NW‑3 West Coast, NW‑4 Kaveri).</li>
+    <li><strong>State Waterways</strong>: Managed by state governments; often seasonal (e.g., Mahanadi River in Odisha).</li>
+    <li><strong>Minor Rivers &amp; Canals</strong>: Used for localized bulk transport, especially in Punjab and Haryana canal networks.</li>
   </ul>
 
-  <h4><strong>7. Key National Waterways – Detailed Profiles</strong></h4>
-  <table style="width:100%; border-collapse:collapse; margin-top:10px;">
-    <tr style="background:#333; color:#fff;">
-      <th style="padding:8px; border:1px solid #555;">NW</th>
-      <th style="padding:8px; border:1px solid #555;">River/Region</th>
-      <th style="padding:8px; border:1px solid #555;">Length (km)</th>
-      <th style="padding:8px; border:1px solid #555;">Key Ports</th>
-      <th style="padding:8px; border:1px solid #555;">Year Declared</th>
+  <h3><strong>7. Key National Waterways – Profiles</strong></h3>
+  <table style="width:100%;border-collapse:collapse;margin-top:10px;">
+    <tr style="background:#333;color:#fff;">
+      <th style="padding:8px;border:1px solid #555;">NW</th>
+      <th style="padding:8px;border:1px solid #555;">River/Region</th>
+      <th style="padding:8px;border:1px solid #555;">Length (km)</th>
+      <th style="padding:8px;border:1px solid #555;">Key Ports</th>
+      <th style="padding:8px;border:1px solid #555;">Year Declared</th>
     </tr>
     <tr>
-      <td style="padding:8px; border:1px solid #555;">1</td>
-      <td style="padding:8px; border:1px solid #555;">[[Ganga River]] (Allahabad‑Haldia)</td>
-      <td style="padding:8px; border:1px solid #555;">1,620</td>
-      <td style="padding:8px; border:1px solid #555;">Allahabad, Varanasi, Patna, Kolkata, Haldia</td>
-      <td style="padding:8px; border:1px solid #555;">1986</td>
+      <td style="padding:8px;border:1px solid #555;">1</td>
+      <td style="padding:8px;border:1px solid #555;">Ganga River (Allahabad‑Haldia)</td>
+      <td style="padding:8px;border:1px solid #555;">1,620</td>
+      <td style="padding:8px;border:1px solid #555;">Allahabad, Varanasi, Patna, Kolkata, Haldia</td>
+      <td style="padding:8px;border:1px solid #555;">1986</td>
     </tr>
     <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #555;">2</td>
-      <td style="padding:8px; border:1px solid #555;">[[Brahmaputra River]] (Sadiya‑Dhubri)</td>
-      <td style="padding:8px; border:1px solid #555;">891</td>
-      <td style="padding:8px; border:1px solid #555;">Sadiya, Dibrugarh, Guwahati, Dhubri</td>
-      <td style="padding:8px; border:1px solid #555;">2010</td>
+      <td style="padding:8px;border:1px solid #555;">2</td>
+      <td style="padding:8px;border:1px solid #555;">Brahmaputra River (Sadiya‑Dhubri)</td>
+      <td style="padding:8px;border:1px solid #555;">891</td>
+      <td style="padding:8px;border:1px solid #555;">Sadiya, Dibrugarh, Guwahati, Dhubri</td>
+      <td style="padding:8px;border:1px solid #555;">2010</td>
     </tr>
     <tr>
-      <td style="padding:8px; border:1px solid #555;">3</td>
-      <td style="padding:8px; border:1px solid #555;">West Coast (Kollam‑Kottapuram)</td>
-      <td style="padding:8px; border:1px solid #555;">1,095</td>
-      <td style="padding:8px; border:1px solid #555;">Kollam, Kochi, Kozhikode, Kottapuram</td>
-      <td style="padding:8px; border:1px solid #555;">2013</td>
+      <td style="padding:8px;border:1px solid #555;">3</td>
+      <td style="padding:8px;border:1px solid #555;">West Coast (Kollam‑Kottapuram)</td>
+      <td style="padding:8px;border:1px solid #555;">1,095</td>
+      <td style="padding:8px;border:1px solid #555;">Kollam, Kochi, Kozhikode, Kottapuram</td>
+      <td style="padding:8px;border:1px solid #555;">2013</td>
     </tr>
     <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #555;">4</td>
-      <td style="padding:8px; border:1px solid #555;">[[Kaveri River]] (Bangalore‑Karaikal)</td>
-      <td style="padding:8px; border:1px solid #555;">1,104</td>
-      <td style="padding:8px; border:1px solid #555;">Bangalore, Tiruchirappalli, Karaikal</td>
-      <td style="padding:8px; border:1px solid #555;">2013</td>
+      <td style="padding:8px;border:1px solid #555;">4</td>
+      <td style="padding:8px;border:1px solid #555;">Kaveri River (Bangalore‑Karaikal)</td>
+      <td style="padding:8px;border:1px solid #555;">1,104</td>
+      <td style="padding:8px;border:1px solid #555;">Bangalore, Tiruchirappalli, Karaikal</td>
+      <td style="padding:8px;border:1px solid #555;">2013</td>
     </tr>
   </table>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%27s%20National%20Waterways%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India’s National Waterways" style="width:100%;border-radius:8px;margin:15px 0;box-shadow:0 4px 8px rgba(0,0,0,0.1);">
 
-  <h4><strong>8. Waterway Development Initiatives</strong></h4>
+  <h3><strong>8. Waterway Development Initiatives</strong></h3>
   <ul>
-    <li><strong>[[Sagarmala]] Programme</strong> (launched 2015): Aims to modernize 500 ports and develop 1,500 km of new coastal shipping routes by 2030.</li>
-    <li><strong>National Inland Waterways Authority (NIWA)</strong>: Established in 2010 to oversee dredging, navigation aids, and safety standards.</li>
-    <li><strong>Multi‑Modal Logistics Parks (MMLP)</strong>: Integrates road, rail, and water transport; first MMLP operational at <strong>[[Kolkata Port]]</strong> in 2021.</li>
+    <li><strong>Sagarmala Programme</strong> (launched 2015): Modernises 500 ports and creates 1,500 km of new coastal shipping routes by 2030.</li>
+    <li><strong>National Inland Waterways Authority (NIWA)</strong>: Established 2010 to oversee dredging, navigation aids and safety standards.</li>
+    <li><strong>Multi‑Modal Logistics Parks (MMLP)</strong>: Integrate road, rail and water transport; the first operational MMLP is at Kolkata Port (2021).</li>
   </ul>
 
-  <h4><strong>9. Economic Impact of Waterways</strong></h4>
-  <p>According to the <strong>Ministry of Shipping (2023)</strong>, freight moved via inland waterways contributed **₹1.4 lakh crore** to the economy, with a projected CAGR of **13 %** (2024‑2030). Benefits include:</p>
+  <h3><strong>9. Economic Impact of Waterways</strong></h3>
+  <p>According to the Ministry of Shipping (2023), freight moved via inland waterways contributed ₹1.4 lakh crore to the economy, with a projected CAGR of 13 % (2024‑2030).</p>
   <ul>
-    <li><strong>Cost Efficiency</strong>: Transport cost per tonne‑kilometre on waterways is 30‑40 % lower than road transport.</li>
-    <li><strong>Environmental Advantage</strong>: CO₂ emissions per tonne‑km are roughly **0.02 kg** for waterways versus **0.08 kg** for trucks.</li>
-    <li><strong>De‑congestion of Highways</strong>: The <strong>NH‑27</strong> corridor sees a 5‑7 % reduction in heavy‑vehicle traffic after the inauguration of NW‑2.</li>
+    <li><strong>Cost Efficiency</strong>: Transport cost per tonne‑km on waterways is 30‑40 % lower than road transport.</li>
+    <li><strong>Environmental Advantage</strong>: CO₂ emissions per tonne‑km are ≈ 0.02 kg for waterways versus 0.08 kg for trucks.</li>
+    <li><strong>De‑congestion of Highways</strong>: NH‑27 saw a 5‑7 % reduction in heavy‑vehicle traffic after NW‑2 became operational.</li>
   </ul>
 
-  <h4><strong>10. Challenges in Highway & Waterway Development</strong></h4>
+  <h3><strong>10. Challenges in Highway &amp; Waterway Development</strong></h3>
   <ul>
-    <li><strong>Land Acquisition</strong>: Urban sprawl and agricultural land pressures have delayed several expressways (e.g., <strong>Delhi‑Mumbai</strong> faced 12 % land‑acquisition backlog in 2022).</li>
-    <li><strong>Environmental Concerns</strong>: Riverine ecosystems, especially in the <strong>[[Brahmaputra]]</strong> basin, raise objections over dredging and habitat disruption.</li>
-    <li><strong>Funding Gaps</strong>: While the central government earmarks ₹6 lakh crore for Bharatmala, state contributions remain uneven, affecting SH upgrades.</li>
-    <li><strong>Seasonal Variability</strong>: Monsoon‑induced flooding limits year‑round navigation on several NWs, requiring advanced flood‑management infrastructure.</li>
+    <li><strong>Land Acquisition</strong>: Urban sprawl and agricultural pressures have delayed projects such as the Delhi‑Mumbai Expressway (12 % backlog in 2022).</li>
+    <li><strong>Environmental Concerns</strong>: Dredging in the Brahmaputra basin raises habitat‑disruption objections.</li>
+    <li><strong>Funding Gaps</strong>: While the central government earmarks ₹6 lakh crore for Bharatmala, uneven state contributions affect SH upgrades.</li>
+    <li><strong>Seasonal Variability</strong>: Monsoon‑induced flooding limits year‑round navigation on several NWs, necessitating advanced flood‑management infrastructure.</li>
   </ul>
 
-  <h4><strong>11. Future Outlook (2025‑2035)</strong></h4>
-  <p>Strategic priorities outlined in the <strong>National Infrastructure Pipeline (NIP) 2021‑2026</strong> and the forthcoming <strong>National Transport Vision 2035</strong> include:</p>
+  <h3><strong>11. Future Outlook (2025‑2035)</strong></h3>
+  <p>Strategic priorities outlined in the National Infrastructure Pipeline (2021‑2026) and the forthcoming National Transport Vision 2035 include:</p>
   <ul>
-    <li><strong>Completion of Bharatmala</strong>: Targeting 84,000 km of highways, with 50% under construction by 2028.</li>
-    <li><strong>Expansion of National Waterways</strong>: Adding NW‑12 (Sunderbans) and NW‑13 (Kaveri‑Mullaperiyar) to achieve a total of **≈ 7,000 km** of navigable inland routes.</li>
-    <li><strong>Electrified Road Corridors</strong>: Pilot projects for solar‑powered expressways (e.g., <strong>Delhi‑Gurugram</strong> 8‑lane corridor) slated for 2026.</li>
-    <li><strong>Integrated Logistics</strong>: Deployment of AI‑driven traffic management systems linking highways with ports, reducing average freight dwell time by 15 %.</li>
+    <li><strong>Completion of Bharatmala</strong>: Target 84,000 km of highways, with 50 % under construction by 2028.</li>
+    <li><strong>Expansion of National Waterways</strong>: Add NW‑12 (Sunderbans) and NW‑13 (Kaveri‑Mullaperiyar) to reach ≈ 7,000 km of navigable routes.</li>
+    <li><strong>Electrified Road Corridors</strong>: Pilot solar‑powered expressways (e.g., Delhi‑Gurugram 8‑lane corridor) slated for 2026.</li>
+    <li><strong>Integrated Logistics</strong>: Deploy AI‑driven traffic‑management systems linking highways with ports, aiming to cut average freight dwell time by 15 %.</li>
   </ul>
 
-  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
-    <ul style="margin-top: 8px;">
-      <li><strong>NH‑44</strong> is the longest National Highway, stretching from <strong>[[Srinagar]]</strong> to <strong>[[Kanyakumari]]</strong> (≈ 3,745 km).</li>
-      <li>The <strong>Golden Quadrilateral</strong> connects the four metros – <strong>Delhi, Mumbai, Chennai, Kolkata</strong> – covering a total of **≈ 5,846 km**.</li>
-      <li><strong>National Waterway 1</strong> (Ganga) is the longest inland waterway at **1,620 km**, linking <strong>Allahabad</strong> and <strong>Haldia</strong>.</li>
-      <li>Under <strong>Bharatmala</strong>, the <strong>Delhi‑Mumbai Expressway</strong> will reduce travel time from 24 hrs to **≈ 12 hrs**.</li>
-      <li>India’s inland waterways transport **≈ 5 %** of total freight but have the potential to handle **15‑20 %** by 2030.</li>
-      <li>The <strong>Eastern Peripheral Expressway</strong> diverted over **3.5 lakh** heavy vehicles away from Delhi in 2022‑23.</li>
-      <li>CO₂ emissions per tonne‑km on waterways are **0.02 kg**, versus **0.08 kg** for road transport – a 75 % reduction.</li>
-      <li>Phase‑III of NHDP aimed at widening **30,000 km** of highways to four lanes, completed by 2015.</li>
+  <div class="exam-tip" style="background:rgba(34,197,94,0.08);border-left:3px solid var(--accent);padding:12px 16px;margin-top:20px;border-radius:0 6px 6px 0;">
+    <strong style="color:var(--accent);">⚡ High‑Yield Exam Facts</strong>
+    <ul style="margin-top:8px;">
+      <li><strong>NH‑44</strong> is the longest National Highway, stretching from <strong>Srinagar</strong> to <strong>Kanyakumari</strong> (≈ 3,745 km).</li>
+      <li>The <strong>Golden Quadrilateral</strong> links Delhi, Mumbai, Chennai and Kolkata, covering ≈ 5,846 km.</li>
+      <li><strong>National Waterway 1 (Ganga)</strong> is the longest inland waterway at 1,620 km, connecting Allahabad and Haldia.</li>
+      <li>Under <strong>Bharatmala</strong>, the Delhi‑Mumbai Expressway will halve travel time from 24 hrs to ≈ 12 hrs.</li>
+      <li>Inland waterways currently move ≈ 5 % of total freight; potential to handle 15‑20 % by 2030.</li>
+      <li>The Eastern Peripheral Expressway diverted over 3.5 lakh heavy vehicles away from Delhi in 2022‑23.</li>
+      <li>CO₂ emissions per tonne‑km on waterways are 0.02 kg versus 0.08 kg for road transport – a 75 % reduction.</li>
+      <li>Phase‑III of NHDP aimed at widening 30,000 km of highways to four lanes, completed by 2015.</li>
     </ul>
   </div>
 </div>
@@ -2395,93 +2076,104 @@ EXPANDED_NOTES_DATA["india-transport-routes"] = `
 
 EXPANDED_NOTES_DATA["india-national-parks"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
-    National Parks of India (Map Guide)
-  </h3>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-weight: 600;">National Parks of India – Comprehensive Guide</h2>
 
-  <h4>Introduction to National Parks in India</h4>
-  <p>India is home to a diverse range of flora and fauna, and to conserve and protect these natural resources, the government has established a network of <strong>National Parks</strong> across the country. These parks are designated as protected areas, where human activities are restricted to minimize the impact on the environment and the wildlife that inhabits them. The first National Park in India was established in 1936, and since then, the number of parks has grown to over 100, covering an area of more than 40,000 square kilometers.</p>
-  <p>The <strong>Wildlife Protection Act of 1972</strong> provides the legal framework for the establishment and management of National Parks in India. The Act empowers the central government to designate areas as National Parks, and to regulate human activities within these areas to ensure the conservation of wildlife and their habitats. The <strong>Ministry of Environment, Forest and Climate Change</strong> is responsible for the administration and management of National Parks in India, in collaboration with state governments and other stakeholders.</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20National%20Parks%20of%20India%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of National Parks of India" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-  <h4>Types of National Parks in India</h4>
-  <p>India has several types of National Parks, each with its unique characteristics and features. Some of the main types of National Parks in India include:</p>
+  <h3>Introduction</h3>
+  <p>India’s rich biodiversity is protected through a network of <strong>National Parks</strong> that safeguard ecosystems ranging from alpine meadows to mangrove swamps. Established under the <strong>Wildlife Protection Act, 1972</strong>, these parks restrict human activities to preserve habitats and iconic species such as the Bengal tiger, Asiatic lion, and greater one‑horned rhinoceros. As of 2024, India has <strong>106</strong> National Parks covering more than <strong>40,000 km²</strong>.</p>
+
+  <h3>Legal and Institutional Framework</h3>
   <ul>
-    <li><strong>Wildlife National Parks</strong>: These parks are established to conserve and protect wildlife, including endangered species such as the <strong>[[Bengal Tiger]]</strong>, <strong>[[Asiatic Lion]]</strong>, and <strong>[[Snow Leopard]]</strong>.</li>
-    <li><strong>Marine National Parks</strong>: These parks are established to conserve and protect marine ecosystems, including coral reefs, mangroves, and seagrass beds.</li>
-    <li><strong>Desert National Parks</strong>: These parks are established to conserve and protect desert ecosystems, including the unique flora and fauna that are adapted to these harsh environments.</li>
-    <li><strong>Mountain National Parks</strong>: These parks are established to conserve and protect mountain ecosystems, including the unique flora and fauna that are found in these regions.</li>
+    <li><strong>Wildlife Protection Act, 1972</strong> – Provides the statutory basis for declaring and managing National Parks.</li>
+    <li><strong>Indian Forest Act, 1927</strong> – Governs forest land and its usage.</li>
+    <li><strong>Ministry of Environment, Forest and Climate Change (MoEFCC)</strong> – Central authority responsible for policy, coordination with state forest departments, and oversight of protected‑area management.</li>
+    <li><strong>State Forest Departments</strong> – Implement on‑ground management, anti‑poaching operations, and community‑engagement programmes.</li>
+    <li><strong>Wildlife Institute of India (WII)</strong> and <strong>Indian Institute of Forest Management (IIFM)</strong> – Provide research, training, and capacity‑building support.</li>
   </ul>
 
-  <h4>Map Guide to National Parks in India</h4>
-  <p>India has a total of 106 National Parks, which are spread across the country. Some of the most notable National Parks in India include:</p>
-  <table>
-    <tr>
-      <th>National Park</th>
-      <th>Location</th>
-      <th>Area (sq km)</th>
-      <th>Notable Features</th>
+  <h3>Classification of National Parks</h3>
+  <p>While all parks share the core objective of biodiversity conservation, they are often grouped by dominant ecosystem type:</p>
+  <ul>
+    <li><strong>Wildlife National Parks</strong> – Focus on terrestrial megafauna (e.g., tigers, elephants, leopards).</li>
+    <li><strong>Marine National Parks</strong> – Protect coral reefs, mangroves, and seagrass beds along the coastline.</li>
+    <li><strong>Desert National Parks</strong> – Preserve arid‑zone flora and fauna, such as the Great Indian Bustard.</li>
+    <li><strong>Mountain National Parks</strong> – Conserve alpine and sub‑alpine ecosystems, including snow leopards and rhododendron forests.</li>
+  </ul>
+
+  <h3>Key National Parks – Representative Sample</h3>
+  <table style="width:100%; border-collapse:collapse;">
+    <tr style="background:#f0f0f0;">
+      <th style="padding:8px; border:1px solid #ccc;">National Park</th>
+      <th style="padding:8px; border:1px solid #ccc;">State / Union Territory</th>
+      <th style="padding:8px; border:1px solid #ccc;">Area (km²)</th>
+      <th style="padding:8px; border:1px solid #ccc;">Signature Species / Features</th>
     </tr>
     <tr>
-      <td><strong>[[Jim Corbett National Park]]</strong></td>
-      <td>Uttarakhand</td>
-      <td>1,318</td>
-      <td><strong>[[Bengal Tiger]]</strong>, <strong>[[Asian Elephant]]</strong>, <strong>[[Leopard]]</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;"><strong>Jim Corbett National Park</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;">Uttarakhand</td>
+      <td style="padding:8px; border:1px solid #ccc;">1,318</td>
+      <td style="padding:8px; border:1px solid #ccc;">Bengal tiger, Asian elephant, leopard</td>
     </tr>
     <tr>
-      <td><strong>[[Kaziranga National Park]]</strong></td>
-      <td>Assam</td>
-      <td>378</td>
-      <td><strong>[[Greater One-Horned Rhinoceros]]</strong>, <strong>[[Asian Elephant]]</strong>, <strong>[[Water Buffalo]]</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;"><strong>Kaziranga National Park</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;">Assam</td>
+      <td style="padding:8px; border:1px solid #ccc;">378</td>
+      <td style="padding:8px; border:1px solid #ccc;">Greater one‑horned rhinoceros, Asian elephant, water buffalo</td>
     </tr>
     <tr>
-      <td><strong>[[Sundarbans National Park]]</strong></td>
-      <td>West Bengal</td>
-      <td>1,330</td>
-      <td><strong>[[Bengal Tiger]]</strong>, <strong>[[Saltwater Crocodile]]</strong>, <strong>[[Mangrove Forests]]</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;"><strong>Sundarbans National Park</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;">West Bengal</td>
+      <td style="padding:8px; border:1px solid #ccc;">1,330</td>
+      <td style="padding:8px; border:1px solid #ccc;">Bengal tiger, salt‑water crocodile, mangrove forests</td>
     </tr>
     <tr>
-      <td><strong>[[Gir Forest National Park]]</strong></td>
-      <td>Gujarat</td>
-      <td>1,412</td>
-      <td><strong>[[Asiatic Lion]]</strong>, <strong>[[Leopard]]</strong>, <strong>[[Hyena]]</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;"><strong>Gir Forest National Park</strong></td>
+      <td style="padding:8px; border:1px solid #ccc;">Gujarat</td>
+      <td style="padding:8px; border:1px solid #ccc;">1,412</td>
+      <td style="padding:8px; border:1px solid #ccc;">Asiatic lion, leopard, hyena</td>
     </tr>
   </table>
 
-  <h4>Conservation Efforts in National Parks</h4>
-  <p>The conservation of National Parks in India is a complex and challenging task, involving the coordination of multiple stakeholders and the implementation of various conservation strategies. Some of the key conservation efforts in National Parks include:</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Major%20Wildlife%20National%20Parks%20of%20India%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Major Wildlife National Parks of India" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <h3>Conservation Strategies</h3>
   <ul>
-    <li><strong>Habitat preservation</strong>: This involves the protection and restoration of natural habitats, including forests, grasslands, and wetlands.</li>
-    <li><strong>Wildlife management</strong>: This involves the monitoring and management of wildlife populations, including the control of poaching and human-wildlife conflict.</li>
-    <li><strong>Community engagement</strong>: This involves the engagement of local communities in conservation efforts, including the provision of livelihood opportunities and the promotion of eco-tourism.</li>
-    <li><strong>Research and monitoring</strong>: This involves the conduct of scientific research and monitoring to better understand the ecology and conservation of National Parks.</li>
+    <li><strong>Habitat Preservation & Restoration</strong> – Protection of core zones, afforestation, and wetland rehabilitation.</li>
+    <li><strong>Wildlife Management</strong> – Population monitoring, anti‑poaching patrols, and translocation programmes.</li>
+    <li><strong>Community Engagement</strong> – Eco‑tourism initiatives, livelihood alternatives for forest‑dependent peoples, and participatory management committees.</li>
+    <li><strong>Scientific Research & Monitoring</strong> – Use of camera traps, GIS‑based habitat mapping, and long‑term ecological studies.</li>
+    <li><strong>Climate‑Resilient Planning</strong> – Buffer‑zone creation, fire‑management plans, and climate‑adaptation corridors.</li>
   </ul>
 
-  <h4>Challenges Facing National Parks in India</h4>
-  <p>National Parks in India face a range of challenges, including:</p>
+  <h3>Major Challenges</h3>
   <ul>
-    <li><strong>Human-wildlife conflict</strong>: This occurs when humans and wildlife come into conflict over resources, such as food, water, and space.</li>
-    <li><strong>Poaching and wildlife trafficking</strong>: This involves the illegal hunting and trade of wildlife, including endangered species.</li>
-    <li><strong>Climate change</strong>: This involves the impacts of climate change on ecosystems and wildlife, including changes in temperature, precipitation, and sea level.</li>
-    <li><strong>Infrastructure development</strong>: This involves the construction of infrastructure, such as roads, dams, and mines, which can fragment habitats and disrupt ecosystems.</li>
+    <li><strong>Human‑Wildlife Conflict</strong> – Crop raiding, livestock predation, and retaliatory killings.</li>
+    <li><strong>Poaching & Illegal Wildlife Trade</strong> – Targeted hunting for tiger parts, rhino horn, and other high‑value products.</li>
+    <li><strong>Climate Change Impacts</strong> – Altered precipitation patterns, increased frequency of forest fires, and sea‑level rise affecting coastal mangroves.</li>
+    <li><strong>Infrastructure Development</strong> – Roads, dams, and mining projects fragment habitats and impede animal movement.</li>
+    <li><strong>Inadequate Funding & Manpower</strong> – Limited resources for patrolling, research, and community outreach.</li>
   </ul>
 
-  <h4>Conclusion</h4>
-  <p>National Parks in India are an important part of the country's conservation efforts, providing a safe haven for wildlife and protecting natural ecosystems. However, these parks face a range of challenges, including human-wildlife conflict, poaching, and climate change. To address these challenges, it is essential to implement effective conservation strategies, engage local communities, and promote sustainable development. By working together, we can protect and preserve India's National Parks for future generations.</p>
-  <p>The <strong>[[Indian Forest Act of 1927]]</strong> and the <strong>[[Wildlife Protection Act of 1972]]</strong> are two key pieces of legislation that provide the framework for the conservation of National Parks in India. The <strong>[[Ministry of Environment, Forest and Climate Change]]</strong> plays a critical role in the administration and management of National Parks, in collaboration with state governments and other stakeholders. The <strong>[[United Nations Environment Programme (UNEP)]]</strong> and the <strong>[[International Union for Conservation of Nature (IUCN)]]</strong> also provide support and guidance for the conservation of National Parks in India.</p>
-  <p>The <strong>[[Gir Forest National Park]]</strong> is home to the <strong>[[Asiatic Lion]]</strong>, while the <strong>[[Sundarbans National Park]]</strong> is home to the <strong>[[Bengal Tiger]]</strong>. The <strong>[[Kaziranga National Park]]</strong> is known for its <strong>[[Greater One-Horned Rhinoceros]]</strong> population, while the <strong>[[Jim Corbett National Park]]</strong> is home to a wide range of wildlife, including the <strong>[[Bengal Tiger]]</strong>, <strong>[[Asian Elephant]]</strong>, and <strong>[[Leopard]]</strong>. The <strong>[[Periyar National Park]]</strong> is located in the <strong>[[Western Ghats]]</strong>, while the <strong>[[Kanha National Park]]</strong> is located in the <strong>[[Satpura Range]]</strong>.</p>
-  <p>The <strong>[[National Park Service]]</strong> is responsible for the management and administration of National Parks in India. The <strong>[[Wildlife Institute of India]]</strong> provides training and research support for the conservation of National Parks. The <strong>[[Indian Institute of Forest Management]]</strong> also provides training and research support for the conservation of National Parks.</p>
+  <h3>Future Outlook & Recommendations</h3>
+  <p>To sustain the ecological integrity of India’s National Parks, the following actions are essential:</p>
+  <ul>
+    <li>Strengthen inter‑state coordination for wildlife corridors.</li>
+    <li>Scale up community‑based conservation models that provide tangible benefits.</li>
+    <li>Increase investment in modern surveillance technologies (e.g., drones, AI‑driven camera traps).</li>
+    <li>Integrate climate‑adaptation strategies into park management plans.</li>
+    <li>Promote scientific collaboration with international bodies such as UNEP and IUCN.</li>
+  </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High‑Yield Exam Facts</strong>
     <ul style="margin-top: 8px;">
-      <li>The first National Park in India was established in 1936 as <strong>[[Hailey National Park]]</strong>, which is now known as the <strong>[[Jim Corbett National Park]]</strong>.</li>
-      <li>India has a total of 106 National Parks, covering an area of more than 40,000 square kilometers.</li>
-      <li>The <strong>[[Wildlife Protection Act of 1972]]</strong> provides the legal framework for the establishment and management of National Parks in India.</li>
-      <li>The <strong>[[Ministry of Environment, Forest and Climate Change]]</strong> is responsible for the administration and management of National Parks in India.</li>
-      <li>The <strong>[[Gir Forest National Park]]</strong> is home to the <strong>[[Asiatic Lion]]</strong>, while the <strong>[[Sundarbans National Park]]</strong> is home to the <strong>[[Bengal Tiger]]</strong>.</li>
-      <li>The <strong>[[Kaziranga National Park]]</strong> is known for its <strong>[[Greater One-Horned Rhinoceros]]</strong> population, while the <strong>[[Jim Corbett National Park]]</strong> is home to a wide range of wildlife, including the <strong>[[Bengal Tiger]]</strong>, <strong>[[Asian Elephant]]</strong>, and <strong>[[Leopard]]</strong>.</li>
-      <li>The <strong>[[Periyar National Park]]</strong> is located in the <strong>[[Western Ghats]]</strong>, while the <strong>[[Kanha National Park]]</strong> is located in the <strong>[[Satpura Range]]</strong>.</li>
-      <li>The <strong>[[National Park Service]]</strong> is responsible for the management and administration of National Parks in India, in collaboration with state governments and other stakeholders.</li>
+      <li>First National Park – <strong>Hailey National Park (1936)</strong>, renamed <strong>Jim Corbett National Park</strong>.</li>
+      <li>India currently has <strong>106</strong> National Parks covering > <strong>40,000 km²</strong>.</li>
+      <li>Key legislation: <strong>Wildlife Protection Act, 1972</strong> and <strong>Indian Forest Act, 1927</strong>.</li>
+      <li>Governing body: <strong>Ministry of Environment, Forest and Climate Change (MoEFCC)</strong>.</li>
+      <li>Signature species – Asiatic lion (Gir), Bengal tiger (Sundarbans, Corbett), Greater one‑horned rhinoceros (Kaziranga).</li>
+      <li>Major threats – poaching, human‑wildlife conflict, climate change, and habitat fragmentation.</li>
     </ul>
   </div>
 </div>
@@ -2489,12 +2181,11 @@ EXPANDED_NOTES_DATA["india-national-parks"] = `
 
 EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
-    Borders, Capitals & Mapping
-  </h3>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-weight: 600;">Borders, Capitals &amp; Mapping</h2>
 
-  <h4><strong>1. Overview of India’s International Borders</strong></h4>
-  <p>India shares its land boundaries with six sovereign nations, amounting to a total measured length of <strong>15,200 km</strong> (as per the Ministry of Home Affairs, 2023). The distribution is as follows:</p>
+  <h3><strong>1. Overview of India’s International Borders</strong></h3>
+  <p>India shares its land boundaries with six sovereign nations, amounting to a total measured length of <strong>15,200 km</strong> (Ministry of Home Affairs, 2023). The distribution is as follows:</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%20International%20Borders%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India's International Borders" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <table style="width:100%; border-collapse:collapse; margin-top:10px;">
     <thead>
       <tr style="background:#f2f2f2;">
@@ -2505,49 +2196,50 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
     </thead>
     <tbody>
       <tr>
-        <td style="border:1px solid #ccc; padding:5px;">[[Pakistan]]</td>
+        <td style="border:1px solid #ccc; padding:5px;">Pakistan</td>
         <td style="border:1px solid #ccc; padding:5px;">3,323</td>
         <td style="border:1px solid #ccc; padding:5px;">Line of Control (LoC) in Kashmir, Sir Creek dispute</td>
       </tr>
       <tr>
-        <td style="border:1px solid #ccc; padding:5px;">[[China]]</td>
+        <td style="border:1px solid #ccc; padding:5px;">China</td>
         <td style="border:1px solid #ccc; padding:5px;">3,488</td>
         <td style="border:1px solid #ccc; padding:5px;">Aksai Chin, Arunachal Pradesh (McMahon Line)</td>
       </tr>
       <tr>
-        <td style="border:1px solid #ccc; padding:5px;">[[Bangladesh]]</td>
+        <td style="border:1px solid #ccc; padding:5px;">Bangladesh</td>
         <td style="border:1px solid #ccc; padding:5px;">4,096</td>
         <td style="border:1px solid #ccc; padding:5px;">Enclaves (now resolved by the 2015 Land Boundary Agreement)</td>
       </tr>
       <tr>
-        <td style="border:1px solid #ccc; padding:5px;">[[Myanmar]]</td>
+        <td style="border:1px solid #ccc; padding:5px;">Myanmar</td>
         <td style="border:1px solid #ccc; padding:5px;">1,643</td>
         <td style="border:1px solid #ccc; padding:5px;">Border trade, insurgent movement</td>
       </tr>
       <tr>
-        <td style="border:1px solid #ccc; padding:5px;">[[Afghanistan]]</td>
+        <td style="border:1px solid #ccc; padding:5px;">Afghanistan</td>
         <td style="border:1px solid #ccc; padding:5px;">106</td>
         <td style="border:1px solid #ccc; padding:5px;">Wakhan Corridor, security of the north‑west frontier</td>
       </tr>
       <tr>
-        <td style="border:1px solid #ccc; padding:5px;">[[Nepal]] (via the Himalayan border)</td>
+        <td style="border:1px solid #ccc; padding:5px;">Nepal (via the Himalayan border)</td>
         <td style="border:1px solid #ccc; padding:5px;">1,770</td>
         <td style="border:1px solid #ccc; padding:5px;">Open border, but sensitive due to migration</td>
       </tr>
     </tbody>
   </table>
 
-  <h4><strong>2. Historic Treaties Defining the Borders</strong></h4>
+  <h3><strong>2. Historic Treaties Defining the Borders</strong></h3>
   <ul>
-    <li><strong>[[Treaty of Sugauli]] (1816)</strong> – Defined the northern frontier between British India and the Kingdom of Nepal, ceding the Terai region.</li>
-    <li><strong>[[Simla Agreement]] (1972)</strong> – Formalised the Line of Control (LoC) after the 1971 Indo‑Pak war and set the principle of “peaceful settlement of disputes”.</li>
-    <li><strong>[[Indus Waters Treaty]] (1960)</strong> – Though primarily a water‑sharing agreement, it cemented the recognized boundary along the Indus basin between India and [[Pakistan]].</li>
-    <li><strong>[[Bangladesh–India Land Boundary Agreement]] (2015)</strong> – Resolved 162 enclaves and exchanged 7,000+ acres of territory, eliminating the longest land‑border dispute in the sub‑continent.</li>
-    <li><strong>[[China‑India Agreement on the Line of Actual Control (LAC)]] (1993)</strong> – Clarified the LAC, though ambiguities remain, especially in the western sector.</li>
+    <li><strong>Treaty of Sugauli (1816)</strong> – Defined the northern frontier between British India and the Kingdom of Nepal, ceding the Terai region.</li>
+    <li><strong>Simla Agreement (1972)</strong> – Formalised the Line of Control (LoC) after the 1971 Indo‑Pak war and set the principle of “peaceful settlement of disputes”.</li>
+    <li><strong>Indus Waters Treaty (1960)</strong> – Though primarily a water‑sharing agreement, it cemented the recognised boundary along the Indus basin between India and Pakistan.</li>
+    <li><strong>Bangladesh–India Land Boundary Agreement (2015)</strong> – Resolved 162 enclaves and exchanged 7,000+ acres of territory, eliminating the longest land‑border dispute in the sub‑continent.</li>
+    <li><strong>China‑India Agreement on the Line of Actual Control (LAC) (1993)</strong> – Clarified the LAC, though ambiguities remain, especially in the western sector.</li>
   </ul>
 
-  <h4><strong>3. Internal Administrative Borders – States & Union Territories</strong></h4>
-  <p>India presently comprises <strong>28 states</strong> and <strong>8 union territories (UTs)</strong>. Each state/UT has a designated capital, which is pivotal for administrative, legislative, and judicial functions.</p>
+  <h3><strong>3. Internal Administrative Borders – States &amp; Union Territories</strong></h3>
+  <p>India presently comprises <strong>28 states</strong> and <strong>8 union territories (UTs)</strong>. Each state/UT has a designated capital, pivotal for administrative, legislative, and judicial functions.</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indian%20states%20and%20capitals%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indian States and Capitals" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <table style="width:100%; border-collapse:collapse; margin-top:10px;">
     <thead>
       <tr style="background:#e6f7ff;">
@@ -2559,61 +2251,61 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
     </thead>
     <tbody>
       <tr>
-        <td style="border:1px solid #bbb; padding:5px;">[[Andhra Pradesh]]</td>
-        <td style="border:1px solid #bbb; padding:5px;">[[Amaravati]] (planned), [[Visakhapatnam]] (executive)</td>
+        <td style="border:1px solid #bbb; padding:5px;">Andhra Pradesh</td>
+        <td style="border:1px solid #bbb; padding:5px;">Amaravati (planned), Visakhapatnam (executive)</td>
         <td style="border:1px solid #bbb; padding:5px;">1956 (re‑organised 2014)</td>
         <td style="border:1px solid #bbb; padding:5px;">None</td>
       </tr>
       <tr>
-        <td style="border:1px solid #bbb; padding:5px;">[[Arunachal Pradesh]]</td>
-        <td style="border:1px solid #bbb; padding:5px;">[[Itanagar]]</td>
+        <td style="border:1px solid #bbb; padding:5px;">Arunachal Pradesh</td>
+        <td style="border:1px solid #bbb; padding:5px;">Itanagar</td>
         <td style="border:1px solid #bbb; padding:5px;">1987</td>
         <td style="border:1px solid #bbb; padding:5px;">Border State (subject to LAC disputes)</td>
       </tr>
       <tr>
-        <td style="border:1px solid #bbb; padding:5px;">[[Assam]]</td>
-        <td style="border:1px solid #bbb; padding:5px;">[[Dispur]]</td>
+        <td style="border:1px solid #bbb; padding:5px;">Assam</td>
+        <td style="border:1px solid #bbb; padding:5px;">Dispur</td>
         <td style="border:1px solid #bbb; padding:5px;">1950</td>
         <td style="border:1px solid #bbb; padding:5px;">None</td>
       </tr>
       <tr>
-        <td style="border:1px solid #bbb; padding:5px;">[[Delhi]] (UT)</td>
-        <td style="border:1px solid #bbb; padding:5px;">[[New Delhi]]</td>
+        <td style="border:1px solid #bbb; padding:5px;">Delhi (UT)</td>
+        <td style="border:1px solid #bbb; padding:5px;">New Delhi</td>
         <td style="border:1px solid #bbb; padding:5px;">1992 (National Capital Territory)</td>
         <td style="border:1px solid #bbb; padding:5px;">Legislative Assembly (71 seats)</td>
       </tr>
       <tr>
-        <td style="border:1px solid #bbb; padding:5px;">[[Jammu & Kashmir]] (UT)</td>
-        <td style="border:1px solid #bbb; padding:5px;">[[Srinagar]] (summer), [[Jammu]] (winter)</td>
+        <td style="border:1px solid #bbb; padding:5px;">Jammu &amp; Kashmir (UT)</td>
+        <td style="border:1px solid #bbb; padding:5px;">Srinagar (summer), Jammu (winter)</td>
         <td style="border:1px solid #bbb; padding:5px;">2019 (re‑organisation)</td>
         <td style="border:1px solid #bbb; padding:5px;">Article 370 abrogated</td>
       </tr>
       <tr>
-        <td style="border:1px solid #bbb; padding:5px;">[[Ladakh]] (UT)</td>
-        <td style="border:1px solid #bbb; padding:5px;">[[Leh]] (administrative), [[Kargil]] (secondary)</td>
+        <td style="border:1px solid #bbb; padding:5px;">Ladakh (UT)</td>
+        <td style="border:1px solid #bbb; padding:5px;">Leh (administrative), Kargil (secondary)</td>
         <td style="border:1px solid #bbb; padding:5px;">2019</td>
         <td style="border:1px solid #bbb; padding:5px;">Strategic border area</td>
       </tr>
       <tr>
-        <td style="border:1px solid #bbb; padding:5px;">[[Puducherry]] (UT)</td>
-        <td style="border:1px solid #bbb; padding:5px;">[[Puducherry City]]</td>
+        <td style="border:1px solid #bbb; padding:5px;">Puducherry (UT)</td>
+        <td style="border:1px solid #bbb; padding:5px;">Puducherry City</td>
         <td style="border:1px solid #bbb; padding:5px;">1963 (union territory)</td>
         <td style="border:1px solid #bbb; padding:5px;">French legacy, legislative assembly (30 seats)</td>
       </tr>
       <tr>
-        <td style="border:1px solid #bbb; padding:5px;">[[Sikkim]]</td>
-        <td style="border:1px solid #bbb; padding:5px;">[[Gangtok]]</td>
+        <td style="border:1px solid #bbb; padding:5px;">Sikkim</td>
+        <td style="border:1px solid #bbb; padding:5px;">Gangtok</td>
         <td style="border:1px solid #bbb; padding:5px;">1975 (statehood)</td>
         <td style="border:1px solid #bbb; padding:5px;">Border State (China‑India LAC)</td>
       </tr>
-      <!-- Additional rows can be added for remaining states; omitted for brevity -->
+      <!-- Additional rows omitted for brevity -->
     </tbody>
   </table>
 
-  <h4><strong>4. Mapping Fundamentals Required for Defence Exams</strong></h4>
+  <h3><strong>4. Mapping Fundamentals Required for Defence Exams</strong></h3>
   <p>Understanding cartographic principles is essential for interpreting strategic information. The following sub‑topics are routinely tested:</p>
 
-  <h5><strong>4.1. Map Projections</strong></h5>
+  <h4><strong>4.1. Map Projections</strong></h4>
   <ul>
     <li><strong>Mercator Projection</strong> – Cylindrical, preserves direction, used for nautical charts; distortion increases towards poles.</li>
     <li><strong>Lambert Conformal Conic</strong> – Ideal for mid‑latitude regions like the Indian subcontinent; maintains shape of small areas.</li>
@@ -2621,7 +2313,7 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
     <li><strong>Transverse Mercator</strong> – Basis for the <strong>UTM (Universal Transverse Mercator)</strong> grid, employed in the <strong>National Map Policy (2005)</strong>.</li>
   </ul>
 
-  <h5><strong>4.2. Scale and Representation</strong></h5>
+  <h4><strong>4.2. Scale and Representation</strong></h4>
   <p>Scale defines the relationship between ground distance and map distance. Common scales in Indian defence mapping are:</p>
   <ul>
     <li><strong>1:50,000</strong> – Tactical level, used by the <strong>Border Roads Organisation (BRO)</strong> for road planning.</li>
@@ -2629,7 +2321,7 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
     <li><strong>1:1,000,000</strong> – Strategic level, for national‑wide planning and <em>strategic studies</em>.</li>
   </ul>
 
-  <h5><strong>4.3. Symbolisation and Legend</strong></h5>
+  <h4><strong>4.3. Symbolisation and Legend</strong></h4>
   <p>The <strong>Survey of India Topographic Map Symbol Legend</strong> (1974) standardises symbols for:</p>
   <ul>
     <li>Hydrography – blue lines for rivers, double‑blue for major water bodies.</li>
@@ -2638,7 +2330,7 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
     <li>Topography – brown contour lines, every 20 m interval in mountainous zones.</li>
   </ul>
 
-  <h5><strong>4.4. Grid Systems & Coordinates</strong></h5>
+  <h4><strong>4.4. Grid Systems &amp; Coordinates</strong></h4>
   <p>India adopts the <strong>Indian Grid System (IGS)</strong> – a national adaptation of the UTM based on the <strong>Kolkata Central Meridian (86°E)</strong>. Key points:</p>
   <ul>
     <li>Zone 44N covers most of the northern Himalayas; Zone 45N covers the central plains.</li>
@@ -2646,11 +2338,11 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
     <li>Geodetic datum: <strong>World Geodetic System 1984 (WGS‑84)</strong> since 1995, superseding the older <strong>Everest 1830</strong> datum.</li>
   </ul>
 
-  <h5><strong>4.5. Remote Sensing & GIS in Border Management</strong></h5>
+  <h4><strong>4.5. Remote Sensing &amp; GIS in Border Management</strong></h4>
   <ul>
     <li><strong>National Remote Sensing Centre (NRSC)</strong> – Operates the Indian Remote Sensing (IRS) satellite fleet (e.g., IRS‑1C launched 1995, Cartosat‑2 series from 2007).</li>
     <li><strong>Geographic Information System (GIS)</strong> – Integrated via the <strong>National Geospatial Programme (NGP)</strong> to overlay terrain, demography, and infrastructure for tactical planning.</li>
-    <li>Key applications: 
+    <li>Key applications:
       <ul>
         <li>Border infiltration monitoring using SAR (Synthetic Aperture Radar) data.</li>
         <li>Infrastructure mapping for the <strong>Border Roads Organisation</strong> (BRO) – 3,500 km of roads up to 2022.</li>
@@ -2659,7 +2351,7 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
     </li>
   </ul>
 
-  <h5><strong>4.6. Cartographic Accuracy & Error Sources</strong></h5>
+  <h4><strong>4.6. Cartographic Accuracy &amp; Error Sources</strong></h4>
   <p>Precision in military mapping is governed by the <strong>International Standard ISO 19115</strong>. Typical error margins:</p>
   <ul>
     <li>Horizontal positional error: ≤ ± 5 m for 1:50,000 scale maps.</li>
@@ -2667,28 +2359,28 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
     <li>Attribute error (e.g., land‑use classification) – mitigated through ground truthing, especially in the Himalayan and Northeastern frontier zones.</li>
   </ul>
 
-  <h4><strong>5. Strategic Significance of Border Capitals</strong></h4>
+  <h3><strong>5. Strategic Significance of Border Capitals</strong></h3>
   <p>Some Indian capitals lie adjacent to international frontiers; their location influences defence logistics, diplomatic outreach, and disaster response.</p>
   <ul>
-    <li><strong>[[Gangtok]] (Sikkim)</strong> – 15 km from the <em>China‑India LAC</em>; hosts the Indian Army’s <strong>Eastern Command Headquarters</strong>.</li>
-    <li><strong>[[Imphal]] (Manipur)</strong> – Proximity to the <em>Myanmar</em> border; gateway for the <strong>Indian Air Force’s Forward Base</strong> at Imphal Airfield.</li>
-    <li><strong>[[Kashmir (Srinagar)]]</strong> – Central hub for the <strong>Northern Command</strong> and critical for operations along the LoC.</li>
-    <li><strong>[[Leh]] (Ladakh)</strong> – Situated at 3,500 m, it is a logistical node for the <strong>Western Command</strong> and the <strong>India‑China Border Roads Project (ICBRP)</strong>.</li>
-    <li><strong>[[Port Blair]] (Andaman & Nicobar Islands)</strong> – Though not a land border, it controls the strategic maritime chokepoint of the <em>Andaman Sea</em> and the <em>Malacca Strait</em>.</li>
+    <li><strong>Gangtok (Sikkim)</strong> – 15 km from the <em>China‑India LAC</em>; hosts the Indian Army’s <strong>Eastern Command Headquarters</strong>.</li>
+    <li><strong>Imphal (Manipur)</strong> – Proximity to the <em>Myanmar</em> border; gateway for the <strong>Indian Air Force’s Forward Base</strong> at Imphal Airfield.</li>
+    <li><strong>Kashmir (Srinagar)</strong> – Central hub for the <strong>Northern Command</strong> and critical for operations along the LoC.</li>
+    <li><strong>Leh (Ladakh)</strong> – Situated at 3,500 m, it is a logistical node for the <strong>Western Command</strong> and the <strong>India‑China Border Roads Project (ICBRP)</strong>.</li>
+    <li><strong>Port Blair (Andaman &amp; Nicobar Islands)</strong> – Controls the strategic maritime chokepoint of the <em>Andaman Sea</em> and the <em>Malacca Strait</em>.</li>
   </ul>
 
-  <h4><strong>6. Recent Developments (2015‑2024) Impacting Borders & Mapping</strong></h4>
+  <h3><strong>6. Recent Developments (2015‑2024) Impacting Borders &amp; Mapping</strong></h3>
   <ul>
     <li><strong>2015 Land Boundary Agreement</strong> – Completed the exchange of enclaves with Bangladesh, simplifying cartographic representation.</li>
-    <li><strong>2019 Re‑organisation of Jammu & Kashmir</strong> – Creation of two UTs (J&K, Ladakh) altered administrative maps; the new <strong>J&K Reorganisation Act</strong> (Act No. 34 of 2019) mandated updated GIS layers.</li>
-    <li><strong>2020–2022 “**Vijay**” and “**Khalifa”” Border Upgrades</strong> – BRO constructed 1,200 km of all‑weather roads in the Ladakh sector, necessitating high‑resolution DEM (Digital Elevation Model) data from the <strong>Cartosat‑3</strong> satellite (launched 2022).</li>
-    <li><strong>2023–2024 Satellite‑Based Border Monitoring</strong> – Deployment of the <strong>RISAT‑2B</strong> Radar imaging satellite for all‑weather surveillance along the LAC and western frontiers.</li>
+    <li><strong>2019 Re‑organisation of Jammu &amp; Kashmir</strong> – Creation of two UTs (J&amp;K, Ladakh) altered administrative maps; the new <strong>J&amp;K Reorganisation Act</strong> (Act No. 34 of 2019) mandated updated GIS layers.</li>
+    <li><strong>2020–2022 “Vijay” and “Khalifa” Border Upgrades</strong> – BRO constructed 1,200 km of all‑weather roads in the Ladakh sector, necessitating high‑resolution DEM data from the <strong>Cartosat‑3</strong> satellite (launched 2022).</li>
+    <li><strong>2023–2024 Satellite‑Based Border Monitoring</strong> – Deployment of the <strong>RISAT‑2B</strong> radar imaging satellite for all‑weather surveillance along the LAC and western frontiers.</li>
   </ul>
 
-  <h4><strong>7. Key Terminologies (All in <strong>Bold</strong>)</strong></h4>
+  <h3><strong>7. Key Terminologies (All in Bold)</strong></h3>
   <ul>
-    <li><strong>Line of Control (LoC)</strong> – De‑facto military boundary between India and [[Pakistan]] in Jammu & Kashmir.</li>
-    <li><strong>Line of Actual Control (LAC)</strong> – Not‑officially demarcated frontier between India and [[China]]; includes western, middle, and eastern sectors.</li>
+    <li><strong>Line of Control (LoC)</strong> – De‑facto military boundary between India and Pakistan in Jammu &amp; Kashmir.</li>
+    <li><strong>Line of Actual Control (LAC)</strong> – Not‑officially demarcated frontier between India and China; includes western, middle, and eastern sectors.</li>
     <li><strong>International Border (IB)</strong> – Legally recognised frontier with neighbouring sovereign states.</li>
     <li><strong>Territorial Waters</strong> – 12‑nautical‑mile limit from the baseline, crucial for maritime security.</li>
     <li><strong>Exclusive Economic Zone (EEZ)</strong> – 200‑nautical‑mile zone granting exclusive rights over marine resources.</li>
@@ -2696,7 +2388,7 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
     <li><strong>Cartography</strong> – Science of map making; integrates <strong>surveying</strong>, <strong>remote sensing</strong>, and <strong>GIS</strong>.</li>
   </ul>
 
-  <h4><strong>8. Practical Mapping Skills for Defence Aspirants</strong></h4>
+  <h3><strong>8. Practical Mapping Skills for Defence Aspirants</strong></h3>
   <p>To excel in NDA, CDS, and AFCAT, candidates must master the following:</p>
   <ol>
     <li><strong>Interpreting Topographic Maps</strong> – Identify contour intervals, hill slopes, and ridge lines; calculate gradient using <em>rise/run</em> method.</li>
@@ -2711,10 +2403,10 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
     <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
     <ul style="margin-top: 8px;">
       <li><strong>India’s total land border length = 15,200 km (2023 official figure).</strong></li>
-      <li><strong>Longest single border is with [[Bangladesh]] – 4,096 km.</strong></li>
-      <li><strong>Capital of [[Sikkim]] – [[Gangtok]]; it lies only 15 km from the China‑India LAC.</strong></li>
+      <li><strong>Longest single border is with Bangladesh – 4,096 km.</strong></li>
+      <li><strong>Capital of Sikkim – Gangtok; it lies only 15 km from the China‑India LAC.</strong></li>
       <li><strong>Simla Agreement (1972) converted the cease‑fire line into the LoC.</strong></li>
-      <li><strong>UT of [[Jammu & Kashmir]] has dual seasonal capitals – [[Srinagar]] (summer) and [[Jammu]] (winter).</strong></li>
+      <li><strong>UT of Jammu &amp; Kashmir has dual seasonal capitals – Srinagar (summer) and Jammu (winter).</strong></li>
       <li><strong>Cartosat‑2 series (from 2007) provides 0.6 m panchromatic resolution for high‑precision border mapping.</strong></li>
       <li><strong>UTM Zone 44N covers most of the Himalayan region; Zone 45N covers the Indo‑Gangetic plains.</strong></li>
       <li><strong>India adopted WGS‑84 datum in 1995, replacing the Everest 1830 datum.</strong></li>
@@ -2725,86 +2417,90 @@ EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
 
 EXPANDED_NOTES_DATA["geog-industries"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
-    Major Industries & Industrial Corridors of India
-  </h3>
-  <h4>Introduction to Indian Industries</h4>
-  <p>India has a diverse range of industries, including <strong>textile</strong>, <strong>steel</strong>, <strong>automobile</strong>, <strong>information technology</strong>, and <strong>pharmaceuticals</strong>. The country has experienced significant industrial growth over the years, driven by government initiatives, investments, and a large skilled workforce. The Indian government has introduced several policies and schemes to promote industrial development, such as the <strong>Make in India</strong> initiative, which aims to transform India into a global manufacturing hub.</p>
-  <h4>Major Industries in India</h4>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-weight: 700;">Major Industries &amp; Industrial Corridors of India</h2>
+
+  <h3>Introduction to Indian Industries</h3>
+  <p>India boasts a diversified industrial base that spans traditional sectors such as <strong>textiles</strong> and <strong>steel</strong> to high‑tech domains like <strong>information technology</strong> and <strong>pharmaceuticals</strong>. Robust government policies – notably the <strong>Make in India</strong> programme – together with a large skilled workforce have propelled sustained growth.</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Industrial%20Corridors%20of%20India%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Industrial Corridors of India" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <h3>Major Industries in India</h3>
   <ul>
-    <li><strong>Textile Industry</strong>: The textile industry is one of the oldest and largest industries in India. It accounts for around 10% of the country's exports and employs over 45 million people. The industry includes <strong>cotton</strong>, <strong>jute</strong>, <strong>silk</strong>, and <strong>wool</strong> production, as well as <strong>garment manufacturing</strong>.</li>
-    <li><strong>Steel Industry</strong>: India is the second-largest steel producer in the world, with a production capacity of over 100 million tons per annum. The industry is dominated by <strong>public sector undertakings</strong> such as <strong>Steel Authority of India Limited (SAIL)</strong> and <strong>Tata Steel</strong>.</li>
-    <li><strong>Automobile Industry</strong>: The automobile industry in India is one of the fastest-growing industries in the country. It includes <strong>passenger vehicles</strong>, <strong>commercial vehicles</strong>, <strong>two-wheelers</strong>, and <strong>three-wheelers</strong>. Major players in the industry include <strong>Tata Motors</strong>, <strong>Maruti Suzuki</strong>, and <strong>Hyundai</strong>.</li>
-    <li><strong>Information Technology Industry</strong>: The IT industry in India is a significant sector, with a large number of <strong>software companies</strong> and <strong>IT-enabled services</strong> providers. The industry is driven by a large pool of skilled professionals and a favorable business environment. Major players in the industry include <strong>Tata Consultancy Services (TCS)</strong>, <strong>Infosys</strong>, and <strong>Wipro</strong>.</li>
-    <li><strong>Pharmaceuticals Industry</strong>: The pharmaceuticals industry in India is a significant sector, with a large number of <strong>drug manufacturers</strong> and <strong>research and development</strong> institutions. The industry is driven by a large pool of skilled professionals and a favorable business environment. Major players in the industry include <strong>Sun Pharmaceutical</strong>, <strong>Dr. Reddy's Laboratories</strong>, and <strong>Cipla</strong>.</li>
+    <li><strong>Textile Industry</strong>: One of the oldest sectors, contributing ~10% of total exports and employing >45 million people. Sub‑segments include cotton, jute, silk, wool and garment manufacturing.</li>
+    <li><strong>Steel Industry</strong>: India ranks as the world’s second‑largest steel producer with a capacity exceeding 100 million tonnes per annum. Dominated by public‑sector giants such as <strong>SAIL</strong> and <strong>Tata Steel</strong>.</li>
+    <li><strong>Automobile Industry</strong>: Fast‑growing segment covering passenger cars, commercial vehicles, two‑wheelers and three‑wheelers. Key players are <strong>Tata Motors</strong>, <strong>Maruti Suzuki</strong> and <strong>Hyundai</strong>.</li>
+    <li><strong>Information Technology (IT) Industry</strong>: A global services powerhouse driven by a large pool of software engineers and IT‑enabled service providers. Leaders include <strong>TCS</strong>, <strong>Infosys</strong> and <strong>Wipro</strong>.</li>
+    <li><strong>Pharmaceuticals Industry</strong>: Known for generic drug production and strong R&amp;D capabilities. Major firms are <strong>Sun Pharma</strong>, <strong>Dr. Reddy's Laboratories</strong> and <strong>Cipla</strong>.</li>
   </ul>
-  <h4>Industrial Corridors in India</h4>
-  <p>India has several industrial corridors, which are regions with a high concentration of industries and infrastructure. These corridors are designed to promote industrial development and attract investments. Some of the major industrial corridors in India include:</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Major%20Industries%20of%20India%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Major Industries of India" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <h3>Industrial Corridors in India</h3>
+  <p>Strategically planned corridors concentrate manufacturing hubs, logistics infrastructure, and skill‑development centres to accelerate regional growth.</p>
   <ul>
-    <li><strong>Delhi-Mumbai Industrial Corridor (DMIC)</strong>: The DMIC is a 1,483 km long corridor that connects the national capital <strong>Delhi</strong> with the financial capital <strong>Mumbai</strong>. The corridor passes through six states, including <strong>Delhi</strong>, <strong>Uttar Pradesh</strong>, <strong>Rajasthan</strong>, <strong>Gujarat</strong>, <strong>Maharashtra</strong>, and <strong>Haryana</strong>.</li>
-    <li><strong>Amritsar-Delhi-Kolkata Industrial Corridor (ADKIC)</strong>: The ADKIC is a 1,634 km long corridor that connects the cities of <strong>Amritsar</strong>, <strong>Delhi</strong>, and <strong>Kolkata</strong>. The corridor passes through four states, including <strong>Punjab</strong>, <strong>Haryana</strong>, <strong>Uttar Pradesh</strong>, and <strong>West Bengal</strong>.</li>
-    <li><strong>Chennai-Bengaluru Industrial Corridor (CBIC)</strong>: The CBIC is a 560 km long corridor that connects the cities of <strong>Chennai</strong> and <strong>Bengaluru</strong>. The corridor passes through the states of <strong>Tamil Nadu</strong> and <strong>Karnataka</strong>.</li>
-    <li><strong>East Coast Economic Corridor (ECEC)</strong>: The ECEC is a 2,500 km long corridor that connects the cities of <strong>Kolkata</strong> and <strong>Chennai</strong>. The corridor passes through four states, including <strong>West Bengal</strong>, <strong>Odisha</strong>, <strong>Andhra Pradesh</strong>, and <strong>Tamil Nadu</strong>.</li>
+    <li><strong>Delhi‑Mumbai Industrial Corridor (DMIC)</strong>: 1,483 km linking Delhi and Mumbai, traversing Delhi, Uttar Pradesh, Rajasthan, Gujarat, Maharashtra and Haryana.</li>
+    <li><strong>Amritsar‑Delhi‑Kolkata Industrial Corridor (ADKIC)</strong>: 1,634 km connecting Amritsar, Delhi and Kolkata across Punjab, Haryana, Uttar Pradesh and West Bengal.</li>
+    <li><strong>Chennai‑Bengaluru Industrial Corridor (CBIC)</strong>: 560 km corridor between Chennai and Bengaluru, covering Tamil Nadu and Karnataka.</li>
+    <li><strong>East Coast Economic Corridor (ECEC)</strong>: 2,500 km stretch from Kolkata to Chennai, passing through West Bengal, Odisha, Andhra Pradesh and Tamil Nadu.</li>
   </ul>
-  <h4>Geopolitics of Indian Industries</h4>
-  <p>The geopolitics of Indian industries is complex and influenced by several factors, including <strong>global trade</strong>, <strong>regional conflicts</strong>, and <strong>domestic politics</strong>. India's strategic location and large market make it an attractive destination for foreign investments. However, the country also faces several challenges, including <strong>infrastructure deficits</strong>, <strong>regulatory hurdles</strong>, and <strong>competition from other emerging markets</strong>.</p>
-  <p>India's industrial development is also influenced by its relationships with other countries, particularly <strong>China</strong>, <strong>the United States</strong>, and <strong>the European Union</strong>. The country is a member of several regional and international organizations, including the <strong>[[Association of Southeast Asian Nations (ASEAN)]]</strong>, the <strong>[[South Asian Association for Regional Cooperation (SAARC)]]</strong>, and the <strong>[[World Trade Organization (WTO)]]</strong>.</p>
-  <table>
-    <tr>
-      <th>Industry</th>
-      <th>Production Capacity</th>
-      <th>Employment</th>
-      <th>Exports</th>
+
+  <h3>Geopolitics of Indian Industries</h3>
+  <p>The strategic location of India, coupled with its vast domestic market, makes it an attractive destination for foreign direct investment. However, challenges such as infrastructure gaps, regulatory complexities, and competition from other emerging economies persist.</p>
+  <p>India’s industrial trajectory is shaped by its diplomatic and trade relations with major economies – notably <strong>China</strong>, the <strong>United States</strong> and the <strong>European Union</strong>. Active participation in multilateral bodies like <strong>ASEAN</strong>, <strong>SAARC</strong> and the <strong>World Trade Organization (WTO)</strong> underscores its commitment to global trade cooperation.</p>
+
+  <h3>Key Statistical Overview</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+    <tr style="background:#f2f2f2;">
+      <th style="border:1px solid #ddd; padding:8px; text-align:left;">Industry</th>
+      <th style="border:1px solid #ddd; padding:8px; text-align:left;">Production Capacity</th>
+      <th style="border:1px solid #ddd; padding:8px; text-align:left;">Employment</th>
+      <th style="border:1px solid #ddd; padding:8px; text-align:left;">Exports</th>
     </tr>
     <tr>
-      <td>Textile</td>
-      <td>10 million tons per annum</td>
-      <td>45 million people</td>
-      <td>$30 billion</td>
+      <td style="border:1px solid #ddd; padding:8px;">Textile</td>
+      <td style="border:1px solid #ddd; padding:8px;">10 million tons/yr</td>
+      <td style="border:1px solid #ddd; padding:8px;">45 million</td>
+      <td style="border:1px solid #ddd; padding:8px;">$30 billion</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="border:1px solid #ddd; padding:8px;">Steel</td>
+      <td style="border:1px solid #ddd; padding:8px;">100 million tons/yr</td>
+      <td style="border:1px solid #ddd; padding:8px;">5 million</td>
+      <td style="border:1px solid #ddd; padding:8px;">$10 billion</td>
     </tr>
     <tr>
-      <td>Steel</td>
-      <td>100 million tons per annum</td>
-      <td>5 million people</td>
-      <td>$10 billion</td>
+      <td style="border:1px solid #ddd; padding:8px;">Automobile</td>
+      <td style="border:1px solid #ddd; padding:8px;">5 million units/yr</td>
+      <td style="border:1px solid #ddd; padding:8px;">10 million</td>
+      <td style="border:1px solid #ddd; padding:8px;">$10 billion</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="border:1px solid #ddd; padding:8px;">Information Technology</td>
+      <td style="border:1px solid #ddd; padding:8px;">$150 billion (Revenue)</td>
+      <td style="border:1px solid #ddd; padding:8px;">10 million</td>
+      <td style="border:1px solid #ddd; padding:8px;">$50 billion</td>
     </tr>
     <tr>
-      <td>Automobile</td>
-      <td>5 million units per annum</td>
-      <td>10 million people</td>
-      <td>$10 billion</td>
-    </tr>
-    <tr>
-      <td>Information Technology</td>
-      <td>$150 billion</td>
-      <td>10 million people</td>
-      <td>$50 billion</td>
-    </tr>
-    <tr>
-      <td>Pharmaceuticals</td>
-      <td>$50 billion</td>
-      <td>5 million people</td>
-      <td>$10 billion</td>
+      <td style="border:1px solid #ddd; padding:8px;">Pharmaceuticals</td>
+      <td style="border:1px solid #ddd; padding:8px;">$50 billion (Revenue)</td>
+      <td style="border:1px solid #ddd; padding:8px;">5 million</td>
+      <td style="border:1px solid #ddd; padding:8px;">$10 billion</td>
     </tr>
   </table>
-  <p>The table above provides an overview of the major industries in India, including their production capacity, employment, and exports. The data highlights the significance of these industries in the country's economy and their potential for growth and development.</p>
-  <h4>Conclusion</h4>
-  <p>In conclusion, the major industries and industrial corridors in India are significant contributors to the country's economy. The textile, steel, automobile, information technology, and pharmaceuticals industries are among the largest and most prominent sectors in India. The industrial corridors, including the DMIC, ADKIC, CBIC, and ECEC, are designed to promote industrial development and attract investments. The geopolitics of Indian industries is complex and influenced by several factors, including global trade, regional conflicts, and domestic politics. Understanding these factors is essential for promoting industrial development and ensuring the country's economic growth and competitiveness.</p>
-  <p>India's industrial development is also influenced by its relationships with other countries, particularly <strong>[[China]]</strong>, <strong>[[United States]]</strong>, and <strong>[[European Union]]</strong>. The country is a member of several regional and international organizations, including the <strong>[[Association of Southeast Asian Nations (ASEAN)]]</strong>, the <strong>[[South Asian Association for Regional Cooperation (SAARC)]]</strong>, and the <strong>[[World Trade Organization (WTO)]]</strong>. India's participation in these organizations reflects its commitment to promoting regional and global cooperation and its desire to play a more significant role in international trade and commerce.</p>
-  <p>The <strong>[[Make in India]]</strong> initiative, launched by the Indian government in 2014, aims to promote India as a manufacturing hub and attract foreign investments. The initiative includes several policies and schemes, such as the <strong>[[National Investment Promotion and Facilitation Agency (INVEST INDIA)]]</strong> and the <strong>[[Department of Industrial Policy and Promotion (DIPP)]]</strong>. These policies and schemes are designed to simplify the process of doing business in India and provide incentives for foreign investors.</p>
-  <p>In addition to the Make in India initiative, the Indian government has also launched several other initiatives to promote industrial development, including the <strong>[[Start-Up India]]</strong> initiative and the <strong>[[Digital India]]</strong> initiative. These initiatives aim to promote entrepreneurship and innovation in India and provide support for start-ups and small businesses.</p>
-  <p>Overall, the major industries and industrial corridors in India are significant contributors to the country's economy, and their development is influenced by a complex array of factors, including global trade, regional conflicts, and domestic politics. Understanding these factors is essential for promoting industrial development and ensuring the country's economic growth and competitiveness.</p>
+  <p>The table highlights the scale of each sector in terms of output, employment and export earnings, underscoring their pivotal role in India’s economic engine.</p>
+
+  <h3>Conclusion</h3>
+  <p>India’s major industries—textiles, steel, automobiles, IT and pharmaceuticals—combined with strategically designed industrial corridors (DMIC, ADKIC, CBIC, ECEC) form the backbone of its growth narrative. Geopolitical dynamics, policy frameworks such as <strong>Make in India</strong>, <strong>Start‑Up India</strong> and <strong>Digital India</strong>, and active engagement in regional organisations collectively shape the nation’s industrial future.</p>
+
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High‑Yield Exam Facts</strong>
     <ul style="margin-top: 8px;">
-      <li>The <strong>[[Delhi-Mumbai Industrial Corridor (DMIC)]]</strong> is a 1,483 km long corridor that connects the national capital <strong>Delhi</strong> with the financial capital <strong>Mumbai</strong>.</li>
-      <li>The <strong>[[Amritsar-Delhi-Kolkata Industrial Corridor (ADKIC)]]</strong> is a 1,634 km long corridor that connects the cities of <strong>Amritsar</strong>, <strong>Delhi</strong>, and <strong>Kolkata</strong>.</li>
-      <li>The <strong>[[Chennai-Bengaluru Industrial Corridor (CBIC)]]</strong> is a 560 km long corridor that connects the cities of <strong>Chennai</strong> and <strong>Bengaluru</strong>.</li>
-      <li>The <strong>[[East Coast Economic Corridor (ECEC)]]</strong> is a 2,500 km long corridor that connects the cities of <strong>Kolkata</strong> and <strong>Chennai</strong>.</li>
-      <li>The <strong>[[Make in India]]</strong> initiative was launched by the Indian government in 2014 to promote India as a manufacturing hub and attract foreign investments.</li>
-      <li>The <strong>[[National Investment Promotion and Facilitation Agency (INVEST INDIA)]]</strong> is a government agency that provides support for foreign investors and promotes investment in India.</li>
-      <li>The <strong>[[Department of Industrial Policy and Promotion (DIPP)]]</strong> is a government department that is responsible for promoting industrial development and simplifying the process of doing business in India.</li>
-      <li>The <strong>[[Start-Up India]]</strong> initiative was launched by the Indian government in 2016 to promote entrepreneurship and innovation in India and provide support for start-ups and small businesses.</li>
+      <li>The <strong>Delhi‑Mumbai Industrial Corridor (DMIC)</strong> spans 1,483 km linking the national and financial capitals.</li>
+      <li>The <strong>Amritsar‑Delhi‑Kolkata Industrial Corridor (ADKIC)</strong> stretches 1,634 km across northern and eastern India.</li>
+      <li>The <strong>Chennai‑Bengaluru Industrial Corridor (CBIC)</strong> covers 560 km in the south.</li>
+      <li>The <strong>East Coast Economic Corridor (ECEC)</strong> runs 2,500 km from Kolkata to Chennai.</li>
+      <li><strong>Make in India</strong> (launched 2014) aims to position India as a global manufacturing hub.</li>
+      <li>The <strong>National Investment Promotion and Facilitation Agency (Invest India)</strong> streamlines foreign investment processes.</li>
+      <li>The <strong>Department of Industrial Policy and Promotion (DIPP)</strong> drives industrial policy and ease of doing business.</li>
+      <li><strong>Start‑Up India</strong> (2016) fosters entrepreneurship and innovation.</li>
     </ul>
   </div>
 </div>
@@ -2812,30 +2508,30 @@ EXPANDED_NOTES_DATA["geog-industries"] = `
 
 EXPANDED_NOTES_DATA["geog-geopolitics"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
-    Geopolitical Flashpoints & Indo-Pacific
-  </h3>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-weight: 700;">Geopolitical Flashpoints &amp; Indo‑Pacific</h2>
 
-  <h4><strong>1. Conceptual Foundations of the Indo‑Pacific Region</strong></h4>
-  <p>The term <strong>Indo‑Pacific</strong> emerged in strategic discourse during the early 2000s, reflecting the convergence of Indian and Pacific Ocean maritime domains. It is anchored on three pillars:</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20Indo‑Pacific%20region%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Indo‑Pacific" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <h3>1. Conceptual Foundations of the Indo‑Pacific Region</h3>
+  <p>The label <strong>Indo‑Pacific</strong> entered strategic parlance in the early 2000s to capture the seamless maritime continuum linking the Indian and Pacific Oceans. Its significance rests on three inter‑related pillars:</p>
   <ul>
-    <li><strong>Geographic Continuum</strong>: Extends from the eastern coast of <strong>India</strong> to the western shores of <strong>America</strong>, encompassing the <strong>Indian Ocean</strong>, <strong>South China Sea</strong>, and adjoining seas.</li>
-    <li><strong>Economic Interdependence</strong>: Over <strong>US$5 trillion</strong> of global trade transits the region annually, with the <strong>Malacca Strait</strong> alone accounting for ~30 % of world maritime commerce.</li>
+    <li><strong>Geographic Continuum</strong>: Extends from the eastern coast of <strong>India</strong> to the western shores of <strong>America**, covering the <strong>Indian Ocean</strong>, <strong>South China Sea</strong>, and adjoining maritime zones.</li>
+    <li><strong>Economic Interdependence</strong>: Carries more than <strong>US$5 trillion</strong> of global trade each year; the <strong>Malacca Strait</strong> alone accounts for roughly <strong>30 %</strong> of world maritime commerce.</li>
     <li><strong>Strategic Competition</strong>: Dominated by the rivalry between the <strong>United States</strong> and the <strong>People’s Republic of China</strong>, with secondary actors such as <strong>Japan</strong>, <strong>Australia</strong>, and <strong>India</strong> shaping the security architecture.</li>
   </ul>
 
-  <h4><strong>2. Legal and Institutional Frameworks Governing the Indo‑Pacific</strong></h4>
-  <p>Key multilateral instruments and regional groupings provide the normative backbone:</p>
+  <h3>2. Legal and Institutional Frameworks Governing the Indo‑Pacific</h3>
+  <p>Multilateral instruments and regional groupings provide the normative backbone for maritime conduct:</p>
   <ul>
-    <li>[[United Nations Charter]] (1945) – establishes freedom of navigation and the principle of non‑interference.</li>
-    <li>[[Treaty of Amity and Cooperation in Southeast Asia]] (1976) – ASEAN’s foundational charter promoting peace and non‑aggression.</li>
-    <li>[[Hague Convention (1907)]] – governs the conduct of naval warfare and the protection of neutral shipping.</li>
-    <li>[[Quadrilateral Security Dialogue (Quad)]] – an informal strategic forum inaugurated in 2007, revived in 2017, comprising <strong>United States</strong>, <strong>Japan</strong>, <strong>India</strong>, and <strong>Australia</strong>.</li>
-    <li>[[AUKUS]] (2021) – a trilateral security pact linking <strong>Australia</strong>, <strong>United Kingdom</strong>, and <strong>United States</strong> for nuclear‑submarine technology transfer.</li>
+    <li>United Nations Charter (1945) – guarantees freedom of navigation and the principle of non‑interference.</li>
+    <li>Treaty of Amity and Cooperation in Southeast Asia (1976) – ASEAN’s foundational charter promoting peace and non‑aggression.</li>
+    <li>Hague Convention (1907) – regulates naval warfare and protects neutral shipping.</li>
+    <li>Quadrilateral Security Dialogue (Quad) – informal forum (2007, revived 2017) comprising the <strong>United States</strong>, <strong>Japan</strong>, <strong>India</strong> and <strong>Australia</strong>.</li>
+    <li>AUKUS (2021) – trilateral pact linking <strong>Australia</strong>, <strong>United Kingdom</strong> and <strong>United States</strong> for nuclear‑submarine technology transfer.</li>
   </ul>
 
-  <h4><strong>3. Mapping the Major Geopolitical Flashpoints</strong></h4>
-  <p>The Indo‑Pacific hosts a constellation of contested zones where sovereignty, resource rights, and strategic sea‑lines intersect. The table below synthesizes the principal flashpoints, the principal claimants, and the prevailing status as of 2024.</p>
+  <h3>3. Mapping the Major Geopolitical Flashpoints</h3>
+  <p>The Indo‑Pacific hosts a constellation of contested zones where sovereignty, resource rights, and strategic sea‑lines intersect. The table below synthesises the principal flashpoints, the key claimants, and the prevailing status as of 2024.</p>
 
   <table style="width:100%; border-collapse:collapse; margin-top:12px;">
     <thead style="background:#222; color:#fff;">
@@ -2849,118 +2545,118 @@ EXPANDED_NOTES_DATA["geog-geopolitics"] = `
     <tbody>
       <tr style="background:#111;">
         <td style="padding:8px; border:1px solid #444;"><strong>South China Sea</strong></td>
-        <td style="padding:8px; border:1px solid #444;">[[China]], [[Vietnam]], [[Philippines]], [[Malaysia]], [[Brunei]], [[Taiwan]]</td>
-        <td style="padding:8px; border:1px solid #444;">~3.5 million km² of fishing grounds, ~$5 trillion in trade; hosts 7 major oil & gas fields.</td>
+        <td style="padding:8px; border:1px solid #444;">China, Vietnam, Philippines, Malaysia, Brunei, Taiwan</td>
+        <td style="padding:8px; border:1px solid #444;">~3.5 million km² of fishing grounds, ~$5 trillion in trade; hosts 7 major oil & gas fields.</td>
         <td style="padding:8px; border:1px solid #444;">China’s “nine‑dash line” claims persist; US conducts Freedom‑of‑Navigation Operations (FONOPs); ASEAN‑China Code of Conduct negotiations stalled.</td>
       </tr>
       <tr style="background:#222;">
         <td style="padding:8px; border:1px solid #444;"><strong>East China Sea – Senkaku/Diaoyu Islands</strong></td>
-        <td style="padding:8px; border:1px solid #444;">[[Japan]], [[China]]</td>
+        <td style="padding:8px; border:1px solid #444;">Japan, China</td>
         <td style="padding:8px; border:1px solid #444;">Potential hydrocarbon reserves; strategic proximity to Okinawa and Taiwan.</td>
         <td style="padding:8px; border:1px solid #444;">Periodic naval standoffs; diplomatic protests; no escalation to armed conflict.</td>
       </tr>
       <tr style="background:#111;">
         <td style="padding:8px; border:1px solid #444;"><strong>Taiwan Strait</strong></td>
-        <td style="padding:8px; border:1px solid #444;">[[China]] vs. [[Taiwan]] (self‑governed); US maintains strategic ambiguity.</td>
+        <td style="padding:8px; border:1px solid #444;">China vs. Taiwan (self‑governed); US maintains strategic ambiguity.</td>
         <td style="padding:8px; border:1px solid #444;">Control of a major air‑sea corridor; potential flashpoint for US‑China confrontation.</td>
         <td style="padding:8px; border:1px solid #444;">Increased PLA‑AF sorties; US carrier group deployments; diplomatic rhetoric intensifies.</td>
       </tr>
       <tr style="background:#222;">
         <td style="padding:8px; border:1px solid #444;"><strong>Malacca Strait</strong></td>
-        <td style="padding:8px; border:1px solid #444;">[[Indonesia]], [[Malaysia]], [[Singapore]] (co‑ownership); strategic interest of <strong>China</strong>, <strong>India</strong>, <strong>United States</strong>.</td>
+        <td style="padding:8px; border:1px solid #444;">Indonesia, Malaysia, Singapore (co‑ownership); strategic interest of China, India, United States.</td>
         <td style="padding:8px; border:1px solid #444;">Chokepoint for ~25 % of global oil shipments; high piracy risk.</td>
         <td style="padding:8px; border:1px solid #444;">Enhanced naval patrols (e.g., US “Freedom of Navigation”) and regional anti‑piracy cooperation.</td>
       </tr>
       <tr style="background:#111;">
         <td style="padding:8px; border:1px solid #444;"><strong>Strait of Hormuz</strong></td>
-        <td style="padding:8px; border:1px solid #444;">[[Iran]] vs. Gulf Cooperation Council (GCC) states; US maintains naval presence.</td>
+        <td style="padding:8px; border:1px solid #444;">Iran vs. Gulf Cooperation Council (GCC) states; US maintains naval presence.</td>
         <td style="padding:8px; border:1px solid #444;">≈20 % of world oil passes through; strategic for energy security of East Asia.</td>
         <td style="padding:8px; border:1px solid #444;">Periodic Iranian missile drills; US‑UK naval escort missions.</td>
       </tr>
       <tr style="background:#222;">
         <td style="padding:8px; border:1px solid #444;"><strong>Arctic Sea Lanes</strong></td>
-        <td style="padding:8px; border:1px solid #444;">[[Russia]], [[Canada]], [[Norway]], [[United States]]; emerging interest of <strong>China</strong> (\"Polar Silk Road\").</td>
+        <td style="padding:8px; border:1px solid #444;">Russia, Canada, Norway, United States; emerging interest of China ("Polar Silk Road").</td>
         <td style="padding:8px; border:1px solid #444;">Potentially shorter shipping routes (e.g., Northern Sea Route); untapped hydrocarbon reserves.</td>
         <td style="padding:8px; border:1px solid #444;">Russia expanding ice‑breaker fleet; NATO monitoring increased activity.</td>
       </tr>
     </tbody>
   </table>
 
-  <h4><strong>4. Indo‑Pacific Power Dynamics: The “Great Power Competition”</strong></h4>
-  <p>Understanding the rivalry requires a layered analysis of <strong>military**, **economic**, and **ideological** dimensions.</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20South%20China%20Sea%20flashpoints%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of South China Sea" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <h3>4. Indo‑Pacific Power Dynamics: The “Great Power Competition”</h3>
+  <p>Understanding the rivalry requires a layered analysis of <strong>military</strong>, <strong>economic</strong>, and <strong>ideological</strong> dimensions.</p>
   <ul>
     <li><strong>Military Dimension</strong>
       <ul>
-        <li><strong>Force Posture</strong>: The US maintains <strong>seven</strong> carrier strike groups (CSGs) operating across the Indo‑Pacific, while China has commissioned <strong>four</strong> nuclear‑powered carriers by 2024.</li>
-        <li><strong>Force Modernisation</strong>: China’s <strong>People’s Liberation Army Navy (PLAN)</strong> aims for “blue‑water” capability by 2035, emphasizing anti‑access/area‑denial (A2/AD) systems such as the <strong>DF‑21D “carrier‑killer” missile.</strong></li>
-        <li><strong>Alliances & Partnerships</strong>: The Quad’s joint naval exercises (e.g., <strong>Exercise Malabar</strong>) have expanded from bilateral to multilateral drills, integrating <strong>US Navy’s F/A‑18E/F Super Hornet</strong> and <strong>Indian Navy’s INS Kartar</strong>.</li>
+        <li><strong>Force Posture</strong>: The US operates <strong>seven</strong> carrier strike groups across the Indo‑Pacific; China has commissioned <strong>four</strong> nuclear‑powered carriers by 2024.</li>
+        <li><strong>Force Modernisation</strong>: China’s People’s Liberation Army Navy (PLAN) targets “blue‑water” capability by 2035, emphasising anti‑access/area‑denial (A2/AD) systems such as the DF‑21D “carrier‑killer” missile.</li>
+        <li><strong>Alliances & Partnerships</strong>: Quad joint naval exercises (e.g., Exercise Malabar) now integrate US F/A‑18E/F Super Hornets and India’s INS Kartar, expanding from bilateral to multilateral drills.</li>
       </ul>
     </li>
     <li><strong>Economic Dimension</strong>
       <ul>
-        <li><strong>Infrastructure Diplomacy</strong>: China’s <strong>Belt and Road Initiative (BRI)</strong> funds ports such as <strong>Gwadar (Pakistan)</strong>, <strong>Hambantota (Sri Lanka)</strong>, and <strong>Kochi (India)</strong>, raising strategic concerns about “debt‑trap diplomacy.”</li>
-        <li><strong>Trade Corridors</strong>: The <strong>India‑Myanmar‑Thailand (IMT) Trilateral Highway</strong> and the <strong>China‑Pakistan Economic Corridor (CPEC)</strong> exemplify competing overland routes that bypass maritime chokepoints.</li>
-        <li><strong>Technology Competition</strong>: 5G roll‑out battles between <strong>Huawei</strong> and <strong>Western vendors</strong> have implications for data sovereignty across the region.</li>
+        <li><strong>Infrastructure Diplomacy</strong>: China’s Belt and Road Initiative (BRI) funds ports like Gwadar (Pakistan), Hambantota (Sri Lanka) and Kochi (India), raising concerns over “debt‑trap diplomacy”.</li>
+        <li><strong>Trade Corridors</strong>: The India‑Myanmar‑Thailand (IMT) Trilateral Highway and the China‑Pakistan Economic Corridor (CPEC) exemplify competing overland routes that bypass maritime chokepoints.</li>
+        <li><strong>Technology Competition</strong>: 5G roll‑out battles between Huawei and Western vendors have profound implications for data sovereignty across the region.</li>
       </ul>
     </li>
     <li><strong>Ideological Dimension</strong>
       <ul>
-        <li><strong>Rule‑Based Order vs. Authoritarian Model</strong>: The US champions a liberal international order anchored in <strong>Rule of Law</strong>, whereas China promotes a “<em>community of shared future for mankind</em>” that emphasizes state sovereignty and non‑interference.</li>
-        <li><strong>Human Rights Discourse</strong>: Issues such as the situation in <strong>Xinjiang</strong> and the suppression of dissent in Hong Kong feed into diplomatic friction, influencing bilateral aid and trade negotiations.</li>
+        <li><strong>Rule‑Based Order vs. Authoritarian Model</strong>: The US champions a liberal international order anchored in Rule of Law, whereas China promotes a “community of shared future for mankind” emphasising state sovereignty and non‑interference.</li>
+        <li><strong>Human Rights Discourse</strong>: Issues such as Xinjiang and Hong Kong feed into diplomatic friction, influencing bilateral aid and trade negotiations.</li>
       </ul>
     </li>
   </ul>
 
-  <h4><strong>5. India’s Strategic Calculus in the Indo‑Pacific</strong></h4>
-  <p>India’s maritime doctrine, articulated in the <strong>“Maritime Strategy of India (2015)”</strong>, emphasizes three core objectives:</p>
+  <h3>5. India’s Strategic Calculus in the Indo‑Pacific</h3>
+  <p>India’s maritime doctrine, articulated in the “Maritime Strategy of India (2015)”, focuses on three core objectives:</p>
   <ol>
-    <li><strong>Secure Sea‑Lines of Communication (SLOCs)</strong> – especially the <strong>Indian Ocean Region (IOR)</strong> and the <strong>Malacca Strait</strong>.</li>
-    <li><strong>Enhance Naval Reach</strong> – through acquisition of <strong>air‑craft carriers (e.g., INS Vikrant)</strong>, <strong>Submarine‑Launched Cruise Missiles (SLCMs)</strong>, and participation in <strong>Joint Naval Exercises</strong> such as <strong>Exercise Malabar</strong> and <strong>Exercise INDRA</strong> with Russia.</li>
-    <li><strong>Promote a Free, Open, and Inclusive Indo‑Pacific</strong> – via diplomatic engagement in the <strong>ASEAN‑India Special Summit (2014)</strong>, the <strong>Indian Ocean Naval Symposium (IONS)</strong>, and the <strong>Quad</strong> framework.</li>
+    <li><strong>Secure Sea‑Lines of Communication (SLOCs)</strong> – especially the Indian Ocean Region (IOR) and the Malacca Strait.</li>
+    <li><strong>Enhance Naval Reach</strong> – through acquisition of aircraft carriers (e.g., INS Vikrant), Submarine‑Launched Cruise Missiles (SLCMs), and participation in joint naval exercises such as Malabar and INDRA (with Russia).</li>
+    <li><strong>Promote a Free, Open, and Inclusive Indo‑Pacific</strong> – via diplomatic engagement in the ASEAN‑India Special Summit (2014), the Indian Ocean Naval Symposium (IONS), and the Quad framework.</li>
   </ol>
   <p>Key policy instruments that operationalise this vision include:</p>
   <ul>
-    <li><strong>Strategic Partnership with Japan</strong> – signed in 2014, encompassing “<em>Cooperative Security</em>” and joint development of <strong>Maritime Domain Awareness (MDA)</strong> systems.</li>
-    <li><strong>Indo‑Pacific Oceans Initiative (IPOI)</strong> – launched in 2019, focusing on capacity building, maritime security, and blue‑economy cooperation.</li>
-    <li><strong>Act East Policy</strong> – re‑oriented in 2014 to deepen economic and strategic ties with Southeast Asian nations, underpinning India’s “neighbourhood first” approach.</li>
+    <li><strong>Strategic Partnership with Japan (2014)</strong> – encompassing “Cooperative Security” and joint development of Maritime Domain Awareness (MDA) systems.</li>
+    <li><strong>Indo‑Pacific Oceans Initiative (IPOI, 2019)</strong> – focusing on capacity building, maritime security, and blue‑economy cooperation.</li>
+    <li><strong>Act East Policy (re‑oriented 2014)</strong> – deepening economic and strategic ties with Southeast Asian nations, underpinning India’s “neighbourhood first” approach.</li>
   </ul>
 
-  <h4><strong>6. Economic Corridors and Energy Security: The Underpinning of Geopolitical Stakes</strong></h4>
-  <p>Energy transit routes intertwine with flashpoints, creating a “<strong>energy‑geopolitics nexus</strong>”:</p>
+  <h3>6. Economic Corridors and Energy Security: The Underpinning of Geopolitical Stakes</h3>
+  <p>Energy transit routes intertwine with flashpoints, creating an “energy‑geopolitics nexus”:</p>
   <ul>
     <li><strong>Oil Flow through the Strait of Malacca</strong>: Approximately <strong>15 million barrels per day (bpd)</strong> from the Middle East to East Asian markets pass here. Disruption would raise global oil prices by 2–3 %.</li>
-    <li><strong>Natural Gas Pipelines</strong>: The <strong>Turkmenistan‑Afghanistan‑Pakistan‑India (TAPI)</strong> pipeline (projected capacity 33 bcm/yr) faces security challenges in Afghanistan, directly linking South Asian energy demand to regional stability.</li>
-    <li><strong>Strategic Petroleum Reserves (SPR)</strong>: India’s <strong>National Strategic Petroleum Reserve (NSPR)</strong> aims for 5 days of import capacity by 2030, reflecting the need to hedge against SLOC disruptions.</li>
+    <li><strong>Natural Gas Pipelines</strong>: The Turkmenistan‑Afghanistan‑Pakistan‑India (TAPI) pipeline (projected capacity 33 bcm/yr) faces security challenges in Afghanistan, directly linking South Asian energy demand to regional stability.</li>
+    <li><strong>Strategic Petroleum Reserves (SPR)</strong>: India’s National Strategic Petroleum Reserve (NSPR) aims for five days of import capacity by 2030, reflecting the need to hedge against SLOC disruptions.</li>
   </ul>
 
-  <h4><strong>7. Emerging Domains: Space, Cyber, and the Blue Economy</strong></h4>
-  <p>Beyond conventional naval power, the Indo‑Pacific sees rapid expansion in three high‑technology arenas:</p>
+  <h3>7. Emerging Domains: Space, Cyber, and the Blue Economy</h3>
   <ul>
-    <li><strong>Space</strong>: The <strong>U.S. Space Force</strong> and <strong>China’s PLA Strategic Support Force</strong> are establishing satellite constellations for <strong>MDA</strong> and missile‑early‑warning. India’s <strong>Navigation with Indian Constellation (NavIC)</strong> provides regional positioning services.</li>
-    <li><strong>Cyber</strong>: State‑sponsored cyber‑espionage targeting maritime logistics (e.g., ransomware attacks on port operators in <strong>Singapore</strong> and <strong>Jakarta</strong>) has become a tool for strategic coercion.</li>
-    <li><strong>Blue Economy</strong>: Marine fisheries, seabed mining (e.g., polymetallic nodules in the <strong>Clarion‑Clipperton Zone</strong>), and tourism generate >$2 trillion of economic activity, prompting disputes over Exclusive Economic Zones (EEZs).</li>
+    <li><strong>Space</strong>: The US Space Force and China’s PLA Strategic Support Force are establishing satellite constellations for Maritime Domain Awareness and missile‑early‑warning. India’s Navigation with Indian Constellation (NavIC) provides regional positioning services.</li>
+    <li><strong>Cyber</strong>: State‑sponsored cyber‑espionage targeting maritime logistics (e.g., ransomware attacks on port operators in Singapore and Jakarta) has become a tool for strategic coercion.</li>
+    <li><strong>Blue Economy</strong>: Marine fisheries, seabed mining (e.g., polymetallic nodules in the Clarion‑Clipperton Zone), and tourism generate >$2 trillion of economic activity, prompting disputes over Exclusive Economic Zones (EEZs).</li>
   </ul>
 
-  <h4><strong>8. Risk Mitigation and Conflict Management Mechanisms</strong></h4>
-  <p>To prevent flashpoints from escalating into open war, states employ a suite of diplomatic and operational tools:</p>
+  <h3>8. Risk Mitigation and Conflict Management Mechanisms</h3>
   <ul>
-    <li><strong>Hotlines and Direct Communication Channels</strong> – e.g., the <strong>US‑China Military Maritime Hotline</strong> (established 2014) for real‑time de‑escalation.</li>
-    <li><strong>Confidence‑Building Measures (CBMs)</strong> – such as joint fisheries patrols in the <strong>South China Sea</strong> and “<em>non‑aggression pacts</em>” between <strong>India</strong> and <strong>Myanmar</strong> (signed 2020).</li>
-    <li><strong>Legal Arbitration</strong> – the <strong>2016 Permanent Court of Arbitration ruling</strong> in favor of the Philippines against China’s nine‑dash line claims, though enforcement remains limited.</li>
-    <li><strong>Multilateral Forums</strong> – ASEAN’s “<strong>East Asia Summit</strong>” (EAS) and the “<strong>Indian Ocean Rim Association (IORA)</strong>” provide platforms for dialogue and normative consensus.</li>
+    <li><strong>Hotlines and Direct Communication Channels</strong> – e.g., the US‑China Military Maritime Hotline (established 2014) for real‑time de‑escalation.</li>
+    <li><strong>Confidence‑Building Measures (CBMs)</strong> – such as joint fisheries patrols in the South China Sea and non‑aggression pacts between India and Myanmar (signed 2020).</li>
+    <li><strong>Legal Arbitration</strong> – the 2016 Permanent Court of Arbitration ruling in favour of the Philippines against China’s nine‑dash line claims, though enforcement remains limited.</li>
+    <li><strong>Multilateral Forums</strong> – ASEAN’s East Asia Summit (EAS) and the Indian Ocean Rim Association (IORA) provide platforms for dialogue and normative consensus.</li>
   </ul>
 
-  <h4><strong>9. Future Scenarios: 2025‑2035 Outlook</strong></h4>
+  <h3>9. Future Scenarios: 2025‑2035 Outlook</h3>
   <p>Strategic foresight suggests three plausible trajectories:</p>
   <ol>
-    <li><strong>Managed Competition</strong>: Major powers maintain a balance through robust CBMs, joint exercises, and limited incidents, preserving the status quo of “stable rivalry.”</li>
-    <li><strong>Escalatory Spiral</strong>: A miscalculation in the <strong>Taiwan Strait</strong> or a severe incident in the <strong>South China Sea</strong> triggers a broader naval confrontation, potentially drawing in allies and causing disruptions to global supply chains.</li>
-    <li><strong>Co‑operative Security Architecture</strong>: A breakthrough in the <strong>ASEAN‑China Code of Conduct</strong> and deeper Quad integration lead to a shared security framework, reducing the risk of unilateral coercion.</li>
+    <li><strong>Managed Competition</strong>: Major powers maintain a balance through robust CBMs, joint exercises, and limited incidents, preserving a “stable rivalry”.</li>
+    <li><strong>Escalatory Spiral</strong>: A miscalculation in the Taiwan Strait or a severe incident in the South China Sea triggers a broader naval confrontation, potentially drawing in allies and disrupting global supply chains.</li>
+    <li><strong>Co‑operative Security Architecture</strong>: A breakthrough in the ASEAN‑China Code of Conduct and deeper Quad integration lead to a shared security framework, reducing the risk of unilateral coercion.</li>
   </ol>
-  <p>India’s strategic posture, anchored in autonomy, multilateralism, and naval modernization, will be decisive in shaping which scenario materialises.</p>
+  <p>India’s strategic posture—anchored in autonomy, multilateralism, and naval modernisation—will be decisive in shaping which scenario materialises.</p>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <strong style="color: var(--accent);">⚡ High‑Yield Exam Facts</strong>
     <ul style="margin-top: 8px;">
       <li><strong>South China Sea</strong> hosts ~3.5 million km² of water and is claimed by six countries under the “nine‑dash line”.</li>
       <li>The <strong>Malacca Strait</strong> transports roughly <strong>25 % of global oil trade</strong>, making it a critical chokepoint.</li>
@@ -2977,84 +2673,117 @@ EXPANDED_NOTES_DATA["geog-geopolitics"] = `
 
 EXPANDED_NOTES_DATA["geography-pyq-trends-topic"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
-    Geography PYQ Trends (NDA/CDS)
-  </h3>
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-weight: 600;">Geography PYQ Trends (NDA/CDS)</h2>
 
-  <h4>Introduction to Geography PYQ Trends</h4>
-  <p>Geography is a crucial subject in the <strong>National Defence Academy (NDA)</strong> and <strong>Combined Defence Services (CDS)</strong> exams, and understanding the trends of previously asked questions (PYQs) is essential for effective preparation. The <strong>Union Public Service Commission (UPSC)</strong> sets the exam pattern and syllabus, which includes a wide range of topics in geography. In this chapter, we will analyze the PYQ trends in geography for NDA/CDS exams.</p>
+  <h3>Introduction to Geography PYQ Trends</h3>
+  <p>Geography holds a pivotal place in the <strong>National Defence Academy (NDA)</strong> and <strong>Combined Defence Services (CDS)</strong> examinations. Understanding the pattern of previously asked questions (PYQs) enables aspirants to focus on high‑yield topics and develop a strategic revision plan. The <strong>Union Public Service Commission (UPSC)</strong> designs the syllabus, encompassing a broad spectrum of physical and human geography.</p>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20India%20physical%20geography%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of India Physical Geography" style="width:100%; border-radius:8px; margin:15px 0; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
 
-  <h4>Importance of Geography in NDA/CDS Exams</h4>
-  <p>Geography is a significant subject in the NDA/CDS exams, and it carries a substantial weightage of marks. The subject is divided into two parts: <strong>Physical Geography</strong> and <strong>Human Geography</strong>. Physical geography deals with the study of the Earth's physical features, such as <strong>[[Plate Tectonics]]</strong>, <strong>[[Weathering]]</strong>, and <strong>[[Erosion]]</strong>. Human geography, on the other hand, focuses on the study of human populations, <strong>[[Migration Patterns]]</strong>, and <strong>[[Urbanization]]</strong>.</p>
-
-  <h4>Previous Year Question (PYQ) Trends in Geography</h4>
-  <p>The PYQ trends in geography for NDA/CDS exams reveal that the <strong>UPSC</strong> focuses on a wide range of topics, including <strong>[[Geomorphic Processes]]</strong>, <strong>[[Climatology]]</strong>, and <strong>[[Economic Geography]]</strong>. The questions are designed to test the candidate's knowledge, understanding, and application of geographic concepts. The trends also indicate that the <strong>UPSC</strong> is moving towards more <strong>[[Analytical]]</strong> and <strong>[[Application-Based]]</strong> questions, which require candidates to think critically and apply their knowledge to real-world scenarios.</p>
-
-  <h4>Topic-Wise PYQ Trends in Geography</h4>
+  <h3>Why Geography is Critical for NDA/CDS</h3>
+  <p>The subject carries substantial weightage and is split into two core components:</p>
   <ul>
-    <li><strong>Physical Geography</strong>: The PYQ trends in physical geography reveal that the <strong>UPSC</strong> focuses on topics such as <strong>[[Tectonic Plate Boundaries]]</strong>, <strong>[[Mountain Building Processes]]</strong>, and <strong>[[Hydrological Cycle]]</strong>.</li>
-    <li><strong>Human Geography</strong>: The PYQ trends in human geography indicate that the <strong>UPSC</strong> focuses on topics such as <strong>[[Population Dynamics]]</strong>, <strong>[[Urbanization]]</strong>, and <strong>[[Economic Development]]</strong>.</li>
-    <li><strong>Geographic Thought</strong>: The PYQ trends in geographic thought reveal that the <strong>UPSC</strong> focuses on topics such as <strong>[[Geographic Information Systems (GIS)]]</strong>, <strong>[[Remote Sensing]]</strong>, and <strong>[[Cartography]]</strong>.</li>
+    <li><strong>Physical Geography</strong> – Earth’s natural processes such as <strong>Plate Tectonics</strong>, <strong>Weathering</strong>, and <strong>Erosion</strong>.</li>
+    <li><strong>Human Geography</strong> – Demographic dynamics, <strong>Migration Patterns</strong>, and <strong>Urbanisation</strong>.</li>
   </ul>
 
-  <h4>Regional PYQ Trends in Geography</h4>
-  <p>The PYQ trends in geography also reveal that the <strong>UPSC</strong> focuses on regional geography, including the study of <strong>[[India]]</strong>, <strong>[[Asia]]</strong>, and <strong>[[World Geography]]</strong>. The questions are designed to test the candidate's knowledge of the physical and human geography of these regions.</p>
+  <h3>Overall PYQ Trends in Geography</h3>
+  <p>Recent PYQs reveal a clear UPSC focus on:</p>
+  <ul>
+    <li><strong>Geomorphic Processes</strong> – Tectonic plate boundaries, mountain‑building, and the hydrological cycle.</li>
+    <li><strong>Climatology</strong> – Monsoon mechanisms, climate change, and regional climate zones.</li>
+    <li><strong>Economic Geography</strong> – Resource distribution, trade corridors, and sustainable development.</li>
+  </ul>
+  <p>There is a noticeable shift towards <strong>analytical</strong> and <strong>application‑based</strong> questions that test the ability to interpret data, maps, and real‑world scenarios.</p>
 
-  <h4>Statistical Analysis of PYQ Trends in Geography</h4>
-  <table>
-    <tr>
-      <th>Topic</th>
-      <th>Number of Questions</th>
-      <th>Weightage of Marks</th>
+  <h3>Topic‑Wise PYQ Trends</h3>
+  <h4>Physical Geography</h4>
+  <p>Key focus areas include:</p>
+  <ul>
+    <li>Tectonic plate boundaries and associated seismic activity.</li>
+    <li>Mountain‑building processes (orogeny) especially the Himalayas.</li>
+    <li>The complete hydrological cycle and its influence on river systems.</li>
+  </ul>
+
+  <h4>Human Geography</h4>
+  <p>Important themes:</p>
+  <ul>
+    <li>Population dynamics – growth rates, density patterns, and demographic transition.</li>
+    <li>Urbanisation – megacities, urban sprawl, and smart‑city initiatives.</li>
+    <li>Economic development – industrial corridors, agricultural productivity, and regional disparities.</li>
+  </ul>
+
+  <h4>Geographic Thought & Technology</h4>
+  <p>Modern geographers are expected to be familiar with:</p>
+  <ul>
+    <li>Geographic Information Systems (GIS) and Remote Sensing.</li>
+    <li>Cartographic techniques and digital mapping.</li>
+    <li>Spatial analysis for disaster management and planning.</li>
+  </ul>
+
+  <h3>Regional PYQ Trends</h3>
+  <p>UPSC frequently tests knowledge of specific regions, notably:</p>
+  <ul>
+    <li>India – physical features, climate zones, and socio‑economic patterns.</li>
+    <li>Asia – monsoon dynamics, plate boundaries, and trans‑regional trade.</li>
+    <li>World Geography – comparative studies of continents, oceans, and global environmental issues.</li>
+  </ul>
+  <img src="https://image.pollinations.ai/prompt/Highly%20detailed%20geographical%20map%20of%20the%20Himalayan%20mountain%20range%20high%20resolution%20atlas%20style?width=1024&height=768&nologo=true" alt="Map of Himalayas" style="width:100%; border-radius:8px; margin:15px 0; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+
+  <h3>Statistical Analysis of PYQ Distribution</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+    <tr style="background:#f0f0f0;">
+      <th style="padding:8px; border:1px solid #ccc; text-align:left;">Topic</th>
+      <th style="padding:8px; border:1px solid #ccc; text-align:center;">Number of Questions</th>
+      <th style="padding:8px; border:1px solid #ccc; text-align:center;">Weightage of Marks</th>
     </tr>
     <tr>
-      <td><strong>Physical Geography</strong></td>
-      <td>20</td>
-      <td>40%</td>
+      <td style="padding:8px; border:1px solid #ccc;">Physical Geography</td>
+      <td style="padding:8px; border:1px solid #ccc; text-align:center;">20</td>
+      <td style="padding:8px; border:1px solid #ccc; text-align:center;">40%</td>
     </tr>
     <tr>
-      <td><strong>Human Geography</strong></td>
-      <td>15</td>
-      <td>30%</td>
+      <td style="padding:8px; border:1px solid #ccc;">Human Geography</td>
+      <td style="padding:8px; border:1px solid #ccc; text-align:center;">15</td>
+      <td style="padding:8px; border:1px solid #ccc; text-align:center;">30%</td>
     </tr>
     <tr>
-      <td><strong>Geographic Thought</strong></td>
-      <td>10</td>
-      <td>20%</td>
+      <td style="padding:8px; border:1px solid #ccc;">Geographic Thought</td>
+      <td style="padding:8px; border:1px solid #ccc; text-align:center;">10</td>
+      <td style="padding:8px; border:1px solid #ccc; text-align:center;">20%</td>
     </tr>
     <tr>
-      <td><strong>Regional Geography</strong></td>
-      <td>15</td>
-      <td>30%</td>
+      <td style="padding:8px; border:1px solid #ccc;">Regional Geography</td>
+      <td style="padding:8px; border:1px solid #ccc; text-align:center;">15</td>
+      <td style="padding:8px; border:1px solid #ccc; text-align:center;">30%</td>
     </tr>
   </table>
 
-  <h4>Key Concepts and Terms in Geography PYQ Trends</h4>
+  <h3>Key Concepts & Terminology</h3>
   <ul>
-    <li><strong>[[Geospatial Technology]]</strong>: The use of <strong>[[GIS]]</strong>, <strong>[[Remote Sensing]]</strong>, and <strong>[[Cartography]]</strong> to study and analyze geographic phenomena.</li>
-    <li><strong>[[Climate Change]]</strong>: The study of the impact of human activities on the <strong>[[Environment]]</strong> and the <strong>[[Ecosystem]]</strong>.</li>
-    <li><strong>[[Sustainable Development]]</strong>: The concept of meeting the needs of the present without compromising the ability of future generations to meet their own needs.</li>
+    <li><strong>Geospatial Technology</strong> – Integration of GIS, Remote Sensing, and modern Cartography for spatial analysis.</li>
+    <li><strong>Climate Change</strong> – Impact of anthropogenic activities on global climate systems and ecosystem health.</li>
+    <li><strong>Sustainable Development</strong> – Balancing economic growth with environmental stewardship for future generations.</li>
   </ul>
 
-  <h4>Notable Geographers and Their Contributions</h4>
-  <p>Some notable geographers and their contributions include:</p>
+  <h3>Influential Geographers</h3>
+  <p>Understanding the contributions of seminal scholars helps contextualise modern geographic thought:</p>
   <ul>
-    <li><strong>[[Alexander von Humboldt]]</strong>: Known for his work on <strong>[[Physical Geography]]</strong> and <strong>[[Biogeography]]</strong>.</li>
-    <li><strong>[[Carl Ritter]]</strong>: Known for his work on <strong>[[Comparative Geography]]</strong> and <strong>[[Geographic Determinism]]</strong>.</li>
-    <li><strong>[[Paul Vidal de la Blache]]</strong>: Known for his work on <strong>[[Human Geography]]</strong> and <strong>[[Regional Geography]]</strong>.</li>
+    <li><strong>Alexander von Humboldt</strong> – Pioneer of biogeography and physical geography.</li>
+    <li><strong>Carl Ritter</strong> – Founder of comparative geography and geographic determinism.</li>
+    <li><strong>Paul Vidal de la Blache</strong> – Father of regional geography and human‑environment interaction studies.</li>
   </ul>
 
   <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
-    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
-    <ul style="margin-top: 8px;">
-      <li>The <strong>[[Tropic of Cancer]]</strong> passes through eight states in <strong>[[India]]</strong>, including <strong>[[Gujarat]]</strong>, <strong>[[Madhya Pradesh]]</strong>, and <strong>[[West Bengal]]</strong>.</li>
-      <li>The <strong>[[Himalayan Mountain Range]]</strong> is home to the highest peak in the world, <strong>[[Mount Everest]]</strong>, which is located on the <strong>[[India-Nepal]]</strong> border.</li>
-      <li>The <strong>[[Deccan Plateau]]</strong> covers an area of over 500,000 square kilometers and is bounded by the <strong>[[Western Ghats]]</strong> and <strong>[[Eastern Ghats]]</strong> mountain ranges.</li>
-      <li>The <strong>[[Ganges River]]</strong> is the longest river in <strong>[[India]]</strong> and flows through the states of <strong>[[Uttarakhand]]</strong>, <strong>[[Uttar Pradesh]]</strong>, <strong>[[Bihar]]</strong>, and <strong>[[West Bengal]]</strong>.</li>
-      <li>The <strong>[[Thar Desert]]</strong> is located in the northwestern part of <strong>[[India]]</strong> and covers an area of over 260,000 square kilometers.</li>
-      <li>The <strong>[[Indian Ocean]]</strong> is the third-largest ocean in the world and plays a crucial role in the <strong>[[Monsoon]]</strong> cycle in <strong>[[India]]</strong>.</li>
-      <li>The <strong>[[Aravalli Range]]</strong> is one of the oldest mountain ranges in <strong>[[India]]</strong> and stretches across the states of <strong>[[Gujarat]]</strong>, <strong>[[Rajasthan]]</strong>, and <strong>[[Haryana]]</strong>.</li>
-      <li>The <strong>[[Brahmaputra River]]</strong> is the largest river in <strong>[[India]]</strong> in terms of discharge and flows through the states of <strong>[[Arunachal Pradesh]]</strong>, <strong>[[Assam]]</strong>, and <strong>[[West Bengal]]</strong>.</li>
+    <strong style="color: var(--accent);">⚡ High‑Yield Exam Facts</strong>
+    <ul style="margin-top:8px;">
+      <li>The <strong>Tropic of Cancer</strong> traverses eight Indian states, including Gujarat, Madhya Pradesh, and West Bengal.</li>
+      <li>The <strong>Himalayan Mountain Range</strong> hosts the world’s highest peak, <strong>Mount Everest</strong>, straddling the India‑Nepal border.</li>
+      <li>The <strong>Deccan Plateau</strong> spans over 500,000 km², bounded by the Western and Eastern Ghats.</li>
+      <li>The <strong>Ganges River</strong> is India’s longest river, flowing through Uttarakhand, Uttar Pradesh, Bihar, and West Bengal.</li>
+      <li>The <strong>Thar Desert</strong> covers more than 260,000 km² in north‑western India.</li>
+      <li>The <strong>Indian Ocean</strong> is the third‑largest ocean and a key driver of the Indian monsoon system.</li>
+      <li>The <strong>Aravalli Range</strong> is one of the oldest mountain ranges, extending across Gujarat, Rajasthan, and Haryana.</li>
+      <li>The <strong>Brahmaputra River</strong> boasts the highest discharge in India, coursing through Arunachal Pradesh, Assam, and West Bengal.</li>
     </ul>
   </div>
 </div>

@@ -1,0 +1,496 @@
+5
+MATHEMATICS
+Number System
+--------------------
+2. |
+|
+x
+x
+−
+=
+−
+2
+2, if x > 2, |
+|
+x −
+=
+2
+0 , if x = 2
+--------------------
+|
+|
+x
+x
+−
+=
+−
+2
+2
+, if x < 2
+--------------------
+Some Properties of Absolute Values
+--------------------
+1. |
+|
+x ≥0 for all real x.
+--------------------
+REAL NUMBERS
+The collection of all rational and all irrational numbers
+together forms the set of real numbers and is denoted by
+‘R’. Thus, all natural numbers, whole numbers, integers,
+rational and irrational numbers are real numbers.
+--------------------
+2. |
+|
+x
+a
+=
+means x
+a
+=
+or x
+a
+= −
+--------------------
+3. |
+|
+x
+a
+>
+means x
+a
+>
+or x
+a
+< −
+--------------------
+4.
+If n
+x
+=
+2;
+n
+x
+x
+x
+=
+=
+=
+2
+|
+|
+, if x > 0 = −x , if x < 0
+--------------------
+Properties of Real Numbers
+Properties of real numbers are as follows
+General Properties of R
+--------------------
+1. If x
+y
+and
+are two real numbers, then either
+x
+y y
+x
+>
+>
+,
+or x
+y
+=
+.
+2. If x
+y
+and
+are two real numbers, then
+--------------------
+(i) x
+y
+>
+⇒1
+1
+x
+y
+<
+(ii) x
+y
+>
+⇒−< −
+x
+y
+--------------------
+EXAMPLE 3. Find the value of x which satisfy the
+inequalities |
+|
+x
+x
+≥
+and 2
+1
+3
+x −
+> .
+a. All positive number
+b. All positive number greater than 2
+c. All negative number less than −2
+d. All negative number
+--------------------
+Sol. b. |
+|
+x
+x
+≥
+is true for all real values of x. Now, consider
+--------------------
+(iii) x
+y
+>
+⇒x
+a
+y
+a
++
+>
++
+(iv) x
+y
+>
+⇒xa
+ya
+>
+, when a > 0
+3. If xy = 0
+⇒
+x = 0
+or
+y = 0
+--------------------
+2
+1
+3
+x −
+>
+or 2
+4
+x >
+or x > 2.
+So, the solution set is all positive number greater than 2.
+--------------------
+Properties of operations on R
+--------------------
+FACTORS IN SET
+OF INTEGERS
+--------------------
+Let ‘∗’ be any operation defined on R.
+1. Closure Property
+If a
+R
+∈
+and b
+R
+∈, then a b
+R
+*
+∈.
+2. Associative Property
+If a, b, c
+R
+∈, then
+a
+b c
+a b
+c
+*( * )
+( * )*
+=
+.
+3. Commutative Property If a b
+R
+,
+∈, then a b
+b a
+*
+*
+=
+.
+--------------------
+Let a b
+I
+,
+,
+∈
+we say that a is a factor of b, if there exists
+an integer p such that b
+ap
+=
+; in short we write a b
+/
+read
+it ‘a’ divides ‘b’.
+--------------------
+If a is factor of b, then b is called a multiple of a.
+--------------------
+4. Identity
+Let ‘I’ be the identity, then
+I
+a
+a I
+a
+a
+R
+*
+*
+=
+=
+∀
+∈.
+5. Inverse Let
+′
+a be the inverse of a, then
+′
+=
+′ =
+a
+a
+a a
+I
+*
+*
+∀
+∈
+a
+R.
+--------------------
+• The
+above
+properties
+hold
+for
+addition
+and
+multiplication on R.
+--------------------
+Properties of factor and multiples
+For real numbers a and b, if b
+ac
+=
+then ‘a’ is a factor
+‘b’ and we write a b
+/ .
+--------------------
+(i) a b
+/ , b c
+a c
+/
+/
+⇒
+(This law is known as transitivity)
+--------------------
+• The additive identity of R is O and additive inverse of
+a
+R
+∈
+is −a.
+--------------------
+(ii) a a
+a
+R
+/ ,∀∈
+(This law is known as reflexivity)
+--------------------
+• The multiplicative identity of R is 1 and multiplicative
+inverse of a
+R
+∈
+is 1/ a.
+--------------------
+(iii) a b
+/
+and a c
+a b
+c
+/
+/
+⇒
++
+and a b
+c
+/
+−
+--------------------
+• R is closed for subtraction, if a b
+R
+,
+∈, then a
+b
+R
+−
+∈.
+--------------------
+• If
+a b c
+R
+, ,
+∈,
+then
+a
+b
+c
+a
+b
+a
+c
+×
++
+=
+×
++
+×
+(
+)
+(
+) (
+),
+is
+the
+distributive property on R.
+--------------------
+(iv) If p is prime number and p divides ab where a,b are
+integers, then p divides ‘a’ or p divides ‘b’. Thus
+p ab
+p a
+/
+/
+⇒
+or p b
+/ .
+--------------------
+Absolute Value of a Real Number
+--------------------
+EXAMPLE 4. How many factors of 2
+3
+5
+6
+×
+are perfect
+squares?
+--------------------
+The absolute value of a real number x is denoted by |
+|
+x .
+Thus,
+|
+|
+3
+3
+=
+and |
+|
+−
+=
+4
+4.
+--------------------
+x
+x
+--------------------
+,
+--------------------
+when
+--------------------
+0
+--------------------
+>
+--------------------
+
+--------------------
+a. 9
+b. 12
+c. 18
+d. 4
+--------------------
+If x is any real number, then |
+|
+--------------------
+x
+--------------------
+,
+--------------------
+x
+--------------------
+0
+0
+--------------------
+when
+--------------------
+=
+--------------------
+=
+--------------------
+
+--------------------
+x
+x
+--------------------
+,
+--------------------
+when
+--------------------
+0
+--------------------
+−
+<
+--------------------
+
+--------------------
+Sol. b. Any factor of this number should be of the form
+2
+3
+a
+b
+×
+.
+--------------------
+e.g.
+--------------------
+1. If x =
+=
+5 5
+5
+, |
+|
+, if x =
+=
+0
+0
+0
+, |
+|
+--------------------
+For the factor to be a perfect square a b
+,
+have to be even
+a can take values 0 2 4
+, ,
+and b can take values 0, 2, 4, 6.
+--------------------
+If x = −
+−
+= −−
+=
+5
+5
+5
+5
+, |
+|
+(
+)
+--------------------
+∴Total number of perfect squares =
+×
+=
+3
+4
+12
+--------------------

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "history",
+    "title": "History",
+    "chapters": [
+      {
+        "id": "ancient_history",
+        "title": "Ancient History",
+        "topics": [
+          "Indus Valley Civilization",
+          "Vedic Age",
+          "Mahajanapadas",
+          "Buddhism and Jainism",
+          "Mauryan Empire",
+          "Post-Mauryan Period",
+          "Gupta Empire",
+          "Harshavardhana Era",
+          "Sangam Age (New Topic)"
+        ]
+      },
+      {
+        "id": "medieval_history",
+        "title": "Medieval History",
+        "topics": [
+          "Early Medieval Period",
+          "Delhi Sultanate",
+          "Vijayanagara and Bahmani Kingdoms",
+          "Mughal Empire",
+          "Maratha Empire (Pathfinder Expanded)",
+          "Bhakti and Sufi Movements"
+        ]
+      },
+      {
+        "id": "modern_history",
+        "title": "Modern History",
+        "topics": [
+          "Advent of Europeans",
+          "British Expansion in India",
+          "Revolt of 1857",
+          "Socio-Religious Reform Movements",
+          "Indian National Congress (Pre-Gandhian)",
+          "Gandhian Era",
+          "Partition and Independence",
+          "Post-Independence Consolidation (Pathfinder Added)"
+        ]
+      }
+    ]
+  }
+]

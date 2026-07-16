@@ -12,7 +12,7 @@ metadata.forEach(m => {
         const content = fs.readFileSync(mdPath, 'utf8');
         aiNotes.push({
             id: m.target_id,
-            title: m.topic_name,
+            title: m.topic_name.replace(/\s*and Master MCQs?\s*/gi, '').replace(/\s*and MCQs?\s*/gi, '').replace(/\s*MCQs?\s*/gi, '').trim(),
             subject: m.subject,
             // We'll wrap notes in template literals when injecting. In JSON we just store the string.
             notes: content
