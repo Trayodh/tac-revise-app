@@ -1,0 +1,18 @@
+{
+  "title": "Classification of Volcano Types",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Volcanism",
+  "topic": "Volcano Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TB\nShield_Volcanoes -->|Low viscosity| Mauna_Loa\nComposite_Volcanoes -->|Explosive| Mt_Fuji\nCalderas -->|Collapse| Crater_Lake\nFlood_Basalt_Provinces -->|Fissure eruptions| Deccan_Traps\nMid_Ocean_Ridge_Volcanoes -->|Underwater| Mid_Atlantic_Ridge",
+  "mapQuery": "",
+  "description": "Shows major volcano categories and iconic examples.",
+  "keywords": [
+    "shield volcano",
+    "stratovolcano",
+    "caldera",
+    "flood basalt",
+    "mid‑ocean ridge"
+  ]
+}

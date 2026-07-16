@@ -1,0 +1,17 @@
+{
+  "title": "Classification of Minerals",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Mineral Resources",
+  "topic": "Mineral Classification",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Minerals] --> B[Metallic]\n    A --> C[Non‑metallic]\n    B --> D[Iron ore]\n    B --> E[Copper]\n    B --> F[Zinc]\n    B --> G[Gold]\n    B --> H[Uranium]\n    C --> I[Coal]\n    C --> J[Bauxite]\n    C --> K[Limestone]\n    C --> L[Mica]\n    C --> M[Other non‑metallics]",
+  "mapQuery": "",
+  "description": "A hierarchical tree diagram classifying Indian mineral resources into metallic and non‑metallic categories with representative examples.",
+  "keywords": [
+    "minerals",
+    "classification",
+    "metallic",
+    "non‑metallic"
+  ]
+}

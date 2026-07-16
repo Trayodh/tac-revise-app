@@ -1,0 +1,17 @@
+{
+  "title": "Big Bang Timeline",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "Origin of the Universe",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Singularity] --> B[Expansion]\n    B --> C[Cooling]\n    C --> D[Formation of elementary particles]\n    D --> E[Atoms]\n    E --> F[Stars & Galaxies]",
+  "mapQuery": "",
+  "description": "Chronological flow of events from the initial singularity to the formation of stars and galaxies according to the Big Bang Theory.",
+  "keywords": [
+    "Big Bang",
+    "timeline",
+    "cosmology",
+    "universe origin"
+  ]
+}

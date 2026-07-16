@@ -1,0 +1,23 @@
+{
+  "title": "Cloud Classification by Height and Appearance",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Clouds",
+  "topic": "Cloud Types",
+  "format": "Mermaid",
+  "description": "A hierarchical classification of clouds based on their altitude (High, Middle, Low, Vertically Developed) and appearance, with examples like Cirrus, Cumulus, Stratus, and Cumulonimbus.",
+  "keywords": [
+    "clouds",
+    "cloud types",
+    "cirrus",
+    "cumulus",
+    "stratus",
+    "nimbus",
+    "altocumulus",
+    "altostratus",
+    "cumulonimbus",
+    "weather",
+    "atmosphere"
+  ],
+  "mermaidCode": "graph TD\nA[Clouds] --> B[High Clouds (>6000m)]\nA --> C[Middle Clouds (2000-6000m)]\nA --> D[Low Clouds (<2000m)]\nA --> E[Vertically Developed Clouds]\nB --> B1[Cirrus (Ci)]\nB --> B2[Cirrocumulus (Cc)]\nB --> B3[Cirrostratus (Cs)]\nC --> C1[Altocumulus (Ac)]\nC --> C2[Altostratus (As)]\nD --> D1[Stratus (St)]\nD --> D2[Cumulus (Cu)]\nD --> D3[Stratocumulus (Sc)]\nD --> D4[Nimbostratus (Ns)]\nE --> E1[Cumulonimbus (Cb)]\nE --> E2[Cumulus Congestus]"
+}

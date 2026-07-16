@@ -1,0 +1,20 @@
+{
+  "title": "Köppen Climate Classification System",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Climatic Zones",
+  "topic": "Köppen System",
+  "format": "Mermaid",
+  "description": "A hierarchical diagram explaining the Köppen climate classification system, showing the main climate groups (A, B, C, D, E, H) and their typical sub-types based on temperature and precipitation.",
+  "keywords": [
+    "köppen climate",
+    "climate classification",
+    "tropical humid",
+    "dry climate",
+    "warm temperate",
+    "cold temperate",
+    "polar climate",
+    "highland climate"
+  ],
+  "mermaidCode": "graph TD\nA[Köppen Climate Classification] --> B[Group A: Tropical Humid]\nA --> C[Group B: Dry]\nA --> D[Group C: Warm Temperate]\nA --> E[Group D: Cold Temperate]\nA --> F[Group E: Polar]\nA --> G[Group H: Highland]\nB --> B1[Af (Rainforest)]\nB --> B2[Am (Monsoon)]\nB --> B3[Aw (Savanna)]\nC --> C1[BW (Desert)]\nC --> C2[BS (Steppe)]\nD --> D1[Cs (Mediterranean)]\nD --> D2[Cfa/Cfb (Humid Subtropical)]\nD --> D3[Cw (Dry-winter)]\nE --> E1[Df (No dry season)]\nE --> E2[Dw (Dry winter)]\nF --> F1[ET (Tundra)]\nF --> F2[EF (Ice Cap)]\nG -- Climate controlled by altitude --> G1[Varies with elevation]"
+}

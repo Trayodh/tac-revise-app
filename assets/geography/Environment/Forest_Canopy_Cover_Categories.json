@@ -1,0 +1,21 @@
+{
+  "title": "Forest Canopy Cover Categories",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Forest Types",
+  "topic": "Canopy Cover Classification",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Forest Canopy Cover Categories] --> B[Very Dense (>70%)]\n    A --> C[Dense (60-70%)]\n    A --> D[Moderately Dense (40-60%)]\n    A --> E[Open (10-40%)]\n    A --> F[Very Sparse (≤10%)]\n    B --> G[Examples: Western Ghats (Shola), Sundarbans mangroves]\n    C --> H[Examples: Eastern Himalayas, Satpura mixed deciduous]\n    D --> I[Examples: Central Indian Plateau teak‑sal, Madhya Pradesh mixed deciduous]\n    E --> J[Examples: Deccan Plateau scrub‑savanna, Aravalli dry deciduous]\n    F --> K[Examples: Thar Desert fringe, Rann of Kutch shrublands]",
+  "mapQuery": "",
+  "description": "A hierarchical diagram showing the five forest canopy‑cover categories, their percentage ranges, and representative forest examples.",
+  "keywords": [
+    "forest canopy",
+    "classification",
+    "very dense",
+    "dense",
+    "moderately dense",
+    "open",
+    "very sparse",
+    "forest types"
+  ]
+}

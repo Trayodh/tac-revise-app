@@ -1,0 +1,17 @@
+{
+  "title": "Solar Phenomena Overview",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Sun",
+  "topic": "Solar Activity",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Solar Phenomena] --> B[Sunspots]\n    A --> C[Solar Flares]\n    A --> D[Solar Wind]\n    D --> E[Auroras]",
+  "mapQuery": "",
+  "description": "Diagram linking major solar phenomena and their effects, including the generation of auroras on Earth.",
+  "keywords": [
+    "sunspots",
+    "solar flares",
+    "solar wind",
+    "auroras"
+  ]
+}

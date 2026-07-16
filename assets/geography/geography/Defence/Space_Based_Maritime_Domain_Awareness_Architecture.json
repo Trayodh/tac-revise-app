@@ -1,0 +1,19 @@
+{
+  "title": "Space‑Based Maritime Domain Awareness Architecture",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Emerging Domains: Space",
+  "topic": "Satellite Constellations for MDA",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    US[US Space Force] --> SatUS[Satellite Constellation]\n    China[PLA Strategic Support Force] --> SatCN[Satellite Constellation]\n    India[NavIC] --> SatIN[Regional Constellation]\n    SatUS --> MDA[Maritime Domain Awareness]\n    SatCN --> MDA\n    SatIN --> MDA",
+  "mapQuery": "",
+  "description": "Diagram illustrating how satellite constellations from the US, China, and India contribute to maritime domain awareness.",
+  "keywords": [
+    "space",
+    "satellite constellations",
+    "MDA",
+    "NavIC",
+    "US Space Force",
+    "PLA"
+  ]
+}

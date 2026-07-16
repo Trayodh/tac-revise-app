@@ -1,0 +1,17 @@
+{
+  "title": "Classification of Galaxies",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "Types of Galaxies",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Galaxies] --> B[Spiral]\n    A --> C[Elliptical]\n    A --> D[Irregular]",
+  "mapQuery": "",
+  "description": "Simple classification tree illustrating the three major morphological types of galaxies.",
+  "keywords": [
+    "galaxy types",
+    "spiral",
+    "elliptical",
+    "irregular"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Iconic Tree Species and Their Uses",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Forests of India",
+  "topic": "Economic & Medicinal Importance of Trees",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    TS[Iconic Tree Species] --> S[Sal (Shorea robusta)]\n    TS --> T[Teak (Tectona grandis)]\n    TS --> N[Neem (Azadirachta indica)]\n    TS --> SD[Sandalwood (Santalum album)]\n    TS --> E[Eucalyptus (Eucalyptus globulus)]\n    TS --> G[Indian Gooseberry (Phyllanthus emblica)]\n    TS --> M[Mahua (Madhuca longifolia)]\n    TS --> B[Bamboo (Bambusa bambos)]\n    S --> S1[Timber, Resin]\n    T --> T1[Durable wood, Termite‑resistant]\n    N --> N1[Bio‑pesticidal, Ayurvedic medicine]\n    SD --> SD1[Fragrant oil]\n    E --> E1[Paper pulp, Essential oil]\n    G --> G1[Vitamin C, Ayurvedic]\n    M --> M1[Edible flowers, Timber, Oil]\n    B --> B1[Construction, Handicrafts, Carbon sink]",
+  "mapQuery": "",
+  "description": "Mind‑map linking eight key Indian tree species to their primary economic, industrial, and medicinal applications.",
+  "keywords": [
+    "tree species",
+    "Sal",
+    "Teak",
+    "Neem",
+    "Sandalwood",
+    "Eucalyptus",
+    "Gooseberry",
+    "Mahua",
+    "Bamboo",
+    "uses"
+  ]
+}

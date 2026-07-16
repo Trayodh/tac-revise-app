@@ -1,0 +1,17 @@
+{
+  "title": "Rock Cycle Diagram",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Rocks",
+  "topic": "Rock Cycle",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    I[Igneous] -->|Weathering & Erosion| S[Sedimentary]\n    S -->|Metamorphism| M[Metamorphic]\n    M -->|Melting| I\n    S -->|Compaction & Cementation| S\n    M -->|Heat & Pressure| M",
+  "mapQuery": "",
+  "description": "Circular flowchart illustrating the continuous transitions among igneous, sedimentary, and metamorphic rocks.",
+  "keywords": [
+    "rock cycle",
+    "igneous",
+    "sedimentary",
+    "metamorphic"
+  ]
+}

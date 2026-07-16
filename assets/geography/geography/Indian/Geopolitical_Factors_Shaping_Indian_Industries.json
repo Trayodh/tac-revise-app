@@ -1,0 +1,26 @@
+{
+  "title": "Geopolitical Factors Shaping Indian Industries",
+  "subject": "Geography",
+  "category": "Indian",
+  "chapter": "Major Industries & Industrial Corridors",
+  "topic": "Geopolitics of Industries",
+  "format": "Mermaid",
+  "description": "A diagram illustrating the geopolitical factors, diplomatic relations, and multilateral bodies that influence India's industrial trajectory and attractiveness for foreign direct investment.",
+  "keywords": [
+    "Geopolitics of industries",
+    "Foreign Direct Investment (FDI)",
+    "Infrastructure gaps",
+    "Regulatory complexities",
+    "Trade relations",
+    "China",
+    "United States",
+    "European Union",
+    "ASEAN",
+    "SAARC",
+    "World Trade Organization (WTO)",
+    "Make in India",
+    "Start-Up India",
+    "Digital India"
+  ],
+  "mermaidCode": "graph TD\nA[Geopolitics of Indian Industries] --> B{Strategic Location & Domestic Market}\nB --> C[Attracts FDI]\nC --> D[Challenges: Infrastructure Gaps, Regulatory Complexities, Competition]\nA --> E[Diplomatic & Trade Relations]\nE --> E1[Major Economies: China, US, EU]\nA --> F[Multilateral Bodies]\nF --> F1[ASEAN, SAARC, WTO]\nA --> G[Government Policies]\nG --> G1[Make in India, Start-Up India, Digital India]"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Earth's Internal Layered Structure",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Earth Structure & Atmosphere",
+  "topic": "Earth's Interior Structure",
+  "format": "Mermaid",
+  "description": "A diagram illustrating the concentric layers of the Earth's interior based on composition and physical properties: Crust (Continental/Oceanic), Mantle (Upper/Lower, Asthenosphere), and Core (Outer/Inner), including key discontinuities.",
+  "keywords": [
+    "Earth layers",
+    "Crust",
+    "Mantle",
+    "Core",
+    "Moho Discontinuity",
+    "Gutenberg Discontinuity",
+    "Lehmann Discontinuity",
+    "Asthenosphere",
+    "Lithosphere",
+    "SIAL",
+    "SIMA",
+    "NIFE"
+  ],
+  "mermaidCode": "graph TD\n    A[Earth's Internal Structure] --> B[Crust];\n    B --> B1(5-70 km thick);\n    B --> B2(Continental Crust (SIAL));\n    B --> B3(Oceanic Crust (SIMA));\n    B -- Moho Discontinuity --> C[Mantle];\n    C --> C1(Upper Mantle);\n    C1 --> C2(Asthenosphere: 100-400 km, partially molten);\n    C --> C3(Lower Mantle: Solid, viscous);\n    C -- Gutenberg Discontinuity --> D[Core];\n    D --> D1(Outer Core: Liquid, Geomagnetic Field);\n    D -- Lehmann Discontinuity --> D2(Inner Core: Solid, Extreme Pressure);"
+}

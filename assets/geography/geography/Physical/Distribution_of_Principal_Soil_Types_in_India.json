@@ -1,0 +1,20 @@
+{
+  "title": "Distribution of Principal Soil Types in India",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Soils of India",
+  "topic": "Soil Type Distribution",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "India soil type distribution map",
+  "description": "Map displaying the geographic spread of Alluvial, Black (Regur), Red, and Laterite soils across the Indo‑Gangetic plains, Deccan Plateau, Ghats, and coastal belts.",
+  "keywords": [
+    "soil types",
+    "Alluvial",
+    "Black soil",
+    "Red soil",
+    "Laterite",
+    "soil distribution",
+    "India"
+  ]
+}

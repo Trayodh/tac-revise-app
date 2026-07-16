@@ -40,3 +40,13 @@ CREATE POLICY "Allow public read access to questions" ON questions
 -- Allow anon to insert temporarily for migration (if Service Role is not used)
 -- CREATE POLICY "Allow anon insert to exams" ON exams FOR INSERT WITH CHECK (true);
 -- CREATE POLICY "Allow anon insert to questions" ON questions FOR INSERT WITH CHECK (true);
+
+-- Table: user_profiles
+CREATE TABLE user_profiles (
+    id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+    email TEXT NOT NULL,
+    status TEXT DEFAULT 'pending_payment',
+    transaction_id TEXT,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+

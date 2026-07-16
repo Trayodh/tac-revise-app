@@ -1,0 +1,21 @@
+{
+  "title": "Timeline of Border & Mapping Developments (2015-2024)",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Borders & Mapping",
+  "topic": "Recent Developments",
+  "format": "Mermaid",
+  "description": "A timeline showcasing significant developments from 2015 to 2024 that have impacted India's borders and mapping practices, including agreements, administrative changes, and technological upgrades.",
+  "keywords": [
+    "Border developments",
+    "Mapping technology",
+    "Land Boundary Agreement",
+    "Jammu & Kashmir Reorganisation",
+    "Border Upgrades",
+    "Satellite monitoring",
+    "Cartosat-3",
+    "RISAT-2B",
+    "J&K Reorganisation Act"
+  ],
+  "mermaidCode": "gantt\ntitle Recent Developments Impacting Borders & Mapping (2015-2024)\ndateFormat YYYY\nsection Key Events\n2015 Land Boundary Agreement : 2015-01-01, 30d\n2019 Re-organisation of J&K : 2019-08-05, 30d\n2020-2022 \"Vijay\" & \"Khalifa\" Border Upgrades : 2020-01-01, 730d\n2022 Cartosat-3 Satellite Launch : 2022-01-01, 30d\n2023-2024 Satellite-Based Border Monitoring (RISAT-2B) : 2023-01-01, 365d"
+}

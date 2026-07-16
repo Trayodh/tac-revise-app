@@ -1,0 +1,22 @@
+{
+  "title": "Practical Mapping Skills for Defence Aspirants",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Borders & Mapping",
+  "topic": "Mapping Skills",
+  "format": "Mermaid",
+  "description": "A mindmap outlining the practical mapping skills crucial for defence aspirants, covering topographic map interpretation, scale conversion, direction finding, grid reference reading, and satellite imagery analysis.",
+  "keywords": [
+    "Mapping skills",
+    "Topographic maps",
+    "Contour intervals",
+    "Scale conversion",
+    "Direction finding",
+    "Grid reference",
+    "Satellite imagery analysis",
+    "UTM coordinates",
+    "Magnetic declination",
+    "WGS-84 datum"
+  ],
+  "mermaidCode": "mindmap\nroot((Practical Mapping Skills for Defence Aspirants))\n  Interpreting Topographic Maps\n    Contour intervals\n    Hill slopes & Ridge lines\n    Calculate gradient (rise/run)\n  Scale Conversion\n    Map distances to real-world distances\n  Direction Finding\n    Compass rose\n    Magnetic declination (0°-10°E in India)\n  Grid Reference Reading\n    Decode UTM coordinates\n    Convert Lat-Long to UTM\n  Analyzing Satellite Imagery\n    Distinguish natural vs. man-made features\n    Recognize border infrastructure changes\n  Reading Administrative Maps\n    Correlate state capitals\n    Understand re-organisation impact"
+}

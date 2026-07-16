@@ -1,0 +1,17 @@
+{
+  "title": "Map Projections Overview",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Map Projections",
+  "topic": "Projection Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    Projections[Map Projections] --> Mercator[Mercator Projection\\nCylindrical, preserves direction]\n    Projections --> Lambert[Lambert Conformal Conic\\nMid‑latitude, shape preservation]\n    Projections --> Albers[Albers Equal‑Area Conic\\nArea preservation]\n    Projections --> Transverse[Transverse Mercator\\nBasis for UTM grid]",
+  "mapQuery": "",
+  "description": "Diagram summarizing major map projections used in Indian cartography and their characteristics.",
+  "keywords": [
+    "Mercator",
+    "Lambert Conformal Conic",
+    "Albers Equal Area",
+    "Transverse Mercator"
+  ]
+}

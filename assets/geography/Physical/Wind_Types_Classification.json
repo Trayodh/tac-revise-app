@@ -1,0 +1,18 @@
+{
+  "title": "Wind Types Classification",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Wind Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    W[Wind Types]\n    W --> P[Planetary (Permanent)]\n    P --> PT[Trade Winds]\n    P --> WST[Westerlies]\n    P --> PE[Polar Easterlies]\n    W --> S[Seasonal (Monsoons)]\n    S --> SM[Summer Monsoon]\n    S --> WM[Winter Monsoon]\n    W --> L[Local]\n    L --> LB[Land Breeze]\n    L --> SB[Sea Breeze]\n    L --> MB[Mountain/Valley Breezes]\n    L --> CN[Chinook, Foehn, Loo, etc.]",
+  "mapQuery": "",
+  "description": "A hierarchical flowchart categorising winds into planetary, seasonal (monsoonal), and local types, with examples for each sub‑category.",
+  "keywords": [
+    "wind classification",
+    "trade winds",
+    "monsoon",
+    "local winds",
+    "planetary winds"
+  ]
+}

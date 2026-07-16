@@ -1,0 +1,16 @@
+{
+  "title": "Milky Way Galaxy and Solar System Location",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "Milky Way Galaxy",
+  "format": "Mermaid",
+  "description": "A diagram illustrating the structure of the Milky Way galaxy, highlighting its barred spiral shape and the approximate location of our Solar System within the Orion arm.",
+  "keywords": [
+    "Milky Way",
+    "Solar System location",
+    "Orion arm",
+    "Barred spiral galaxy"
+  ],
+  "mermaidCode": "graph TD\n    A[Milky Way Galaxy] --> B[Type: Barred Spiral];\n    B --> C[Contains ~100-400 Billion Stars];\n    C --> D[Solar System Location];\n    D --> D1[Orion-Cygnus (Orion) Arm];\n    D1 --> D2[~2/3 way from Galactic Centre];\n    B -- Nearest Large Neighbour --> E[Andromeda Galaxy];\n    E --> E1(Projected Merger in ~4.5 Billion Years);"
+}

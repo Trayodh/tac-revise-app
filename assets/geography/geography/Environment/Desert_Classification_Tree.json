@@ -1,0 +1,19 @@
+{
+  "title": "Desert Classification Tree",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Straits, Canals, Deserts & Seas",
+  "topic": "Desert Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nDeserts --> Temp[Temperature]\nDeserts --> Lat[Latitude]\nDeserts --> Formation[Formation Mechanism]\nTemp --> Hot[Hot]\nTemp --> Cold[Cold]\nLat --> Subtropical[Subtropical]\nLat --> Temperate[Temperate]\nFormation --> RainShadow[Rain‑shadow]\nFormation --> Continental[Continental]\nFormation --> Coastal[Coastal]",
+  "mapQuery": "",
+  "description": "Tree diagram categorising deserts by temperature regime, latitude band, and dominant formation mechanism.",
+  "keywords": [
+    "desert classification",
+    "temperature",
+    "latitude",
+    "rain-shadow",
+    "continental",
+    "coastal"
+  ]
+}

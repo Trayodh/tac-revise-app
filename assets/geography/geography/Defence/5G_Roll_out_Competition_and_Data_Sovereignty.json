@@ -1,0 +1,18 @@
+{
+  "title": "5G Roll‑out Competition and Data Sovereignty",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Technology Competition",
+  "topic": "5G Roll‑out Battles",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Huawei] -->|Competes with| B[Western Vendors]\n    B --> C[Data Sovereignty Concerns]\n    A --> C\n    style A fill:#f9f,stroke:#333,stroke-width:2px\n    style B fill:#bbf,stroke:#333,stroke-width:2px\n    style C fill:#ff9,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "Flowchart showing the rivalry between Huawei and Western vendors and its impact on data sovereignty across the Indo‑Pacific region.",
+  "keywords": [
+    "5G",
+    "Huawei",
+    "Western vendors",
+    "data sovereignty",
+    "competition"
+  ]
+}

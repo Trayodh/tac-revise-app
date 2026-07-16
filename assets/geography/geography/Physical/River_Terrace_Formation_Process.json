@@ -1,0 +1,18 @@
+{
+  "title": "River Terrace Formation Process",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Rivers and Their Features",
+  "topic": "River Terraces",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nU[Uplift of land] --> R[River rejuvenation]\nR --> I[Increased erosion & downcutting]\nI --> T[Formation of new floodplain]\nT --> TT[Old floodplain becomes river terrace]",
+  "mapQuery": "",
+  "description": "Flowchart showing how tectonic uplift leads to river rejuvenation, increased incision, and the creation of former floodplain remnants known as river terraces.",
+  "keywords": [
+    "river terrace",
+    "rejuvenation",
+    "uplift",
+    "erosion",
+    "geomorphology"
+  ]
+}

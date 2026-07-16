@@ -1,0 +1,17 @@
+{
+  "title": "Global Pressure Belts",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Pressure Belts",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "global pressure belts map SVG",
+  "description": "World map highlighting the four major pressure belts: Equatorial Low, Subtropical High, Subpolar Low, and Polar High.",
+  "keywords": [
+    "pressure belts",
+    "global circulation",
+    "low pressure",
+    "high pressure"
+  ]
+}

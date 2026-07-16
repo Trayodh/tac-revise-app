@@ -1,0 +1,21 @@
+{
+  "title": "Types of Plate Tectonic Boundaries",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Earth Structure & Atmosphere",
+  "topic": "Dynamic Processes Driven by Interior Structure",
+  "format": "Mermaid",
+  "description": "A classification diagram showing the three main types of plate tectonic boundaries: Divergent, Convergent, and Transform, along with their characteristic geological features and processes.",
+  "keywords": [
+    "Plate tectonics",
+    "Divergent boundary",
+    "Convergent boundary",
+    "Transform boundary",
+    "Mid-Ocean Ridges",
+    "Subduction zones",
+    "Rift Valleys",
+    "Himalayas",
+    "San Andreas Fault"
+  ],
+  "mermaidCode": "graph TD\n    A[Plate Tectonic Boundaries] --> B[Divergent];\n    B --> B1(Mid-Ocean Ridges);\n    B --> B2(Rift Valleys);\n    B --> B3(Seafloor Spreading, Basaltic Volcanism);\n    A --> C[Convergent];\n    C --> C1(Subduction Zones);\n    C --> C2(Continental Collisions e.g., Himalayas);\n    C --> C3(Earthquakes, Volcanic Arcs, Mountain Building);\n    A --> D[Transform];\n    D --> D1(Lateral Slip e.g., San Andreas Fault);\n    D --> D2(Shallow, Strike-Slip Earthquakes);"
+}

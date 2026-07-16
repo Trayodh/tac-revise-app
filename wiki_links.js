@@ -422,6 +422,9 @@ function parseWikiLinks(text) {
     }
   }
   
+  // Remove leading whitespace for lines starting with HTML tags so marked doesn't treat them as code blocks
+  text = text.replace(/^[ \t]+</gm, '<');
+
   // 1. Intercept Mermaid blocks
   let processed = text.replace(/```mermaid\r?\n([\s\S]*?)```/g, function(match, code) {
     return `<div class="mermaid" style="background: rgba(255,255,255,0.02); padding: 20px; border-radius: 8px; overflow-x: auto; text-align: center; margin: 15px 0; border: 1px solid rgba(255,255,255,0.05);">${code}</div>`;
@@ -749,12 +752,20 @@ Keep language strictly formal, highly authoritative, and emoji-free. Return stri
     if (!response.ok) throw new Error("API call failed");
     const data = await response.json();
     let resText = data.candidates[0].content.parts[0].text;
-    let cleaned = resText;
-    const jsonMatch = resText.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);
-    if (jsonMatch) {
-      cleaned = jsonMatch[1].trim();
-    } else {
-      cleaned = resText.replace(/^```json\s*/i,'').replace(/\s*```$/i,'').trim();
+    let cleaned = resText.trim();
+    try {
+      JSON.parse(cleaned);
+    } catch (e) {
+      const jsonMatch = resText.match(/```json\s*([\s\S]*?)\s*```/i);
+      if (jsonMatch) {
+        cleaned = jsonMatch[1].trim();
+      } else {
+        const start = resText.indexOf('{');
+        const end = resText.lastIndexOf('}');
+        if (start !== -1 && end !== -1 && end > start) {
+          cleaned = resText.substring(start, end + 1).trim();
+        }
+      }
     }
     
     // Check if it's our interceptor's offline fallback

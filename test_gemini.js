@@ -1,7 +1,8 @@
+require('dotenv').config();
 const fs = require('fs');
 
 async function testGemini(modelName) {
-  const apiKey = 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
+  const apiKey = process.env.GEMINI_API_KEY;
   const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },

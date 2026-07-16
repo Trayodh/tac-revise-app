@@ -1,0 +1,19 @@
+{
+  "title": "International Legal Instruments for Maritime Features",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Interplay of Physical Features with International Law",
+  "topic": "Maritime Law",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nLegal[International Legal Instruments] --> UNCLOS[UNCLOS 1982]\nLegal --> CTSZ[Convention on Territorial Sea & Contiguous Zone 1958]\nLegal --> Tordesillas[Treaty of Tordesillas 1494]\nLegal --> SuezAgreement[Suez Canal Agreement 1888]\nLegal --> Montreal[Montreal Protocol 1987]\nUNCLOS --> TP[Transit Passage Rights]\nUNCLOS --> EEZ[Exclusive Economic Zones]\nSuezAgreement --> FreePassage[Free Passage for all flag states]",
+  "mapQuery": "",
+  "description": "Flowchart linking major international treaties and conventions to the rights and obligations governing straits, canals, and seas.",
+  "keywords": [
+    "UNCLOS",
+    "maritime law",
+    "transit passage",
+    "EEZ",
+    "Suez Canal Agreement",
+    "Treaty of Tordesillas"
+  ]
+}

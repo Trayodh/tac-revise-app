@@ -1,0 +1,19 @@
+{
+  "title": "Earth's Heat Budget",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Heat Budget & Temperature",
+  "topic": "Energy Balance",
+  "format": "Mermaid",
+  "description": "A flowchart illustrating the balance between incoming solar radiation (insolation) absorbed by Earth and outgoing terrestrial radiation, explaining how global temperature is maintained.",
+  "keywords": [
+    "heat budget",
+    "insolation",
+    "solar radiation",
+    "terrestrial radiation",
+    "energy balance",
+    "global temperature",
+    "atmosphere"
+  ],
+  "mermaidCode": "graph TD\nA[Incoming Solar Radiation (Insolation)] --> B{Earth's Surface & Atmosphere}\nB -- Absorbed --> C[Heats Earth]\nC -- Emitted as --> D[Terrestrial Radiation]\nD -- Outgoing --> E[Space]\nA -- Balance with --> D\nA & D -- Maintain --> F[Near-Constant Global Temperature]"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Sedimentary Rock Classification",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Rocks",
+  "topic": "Sedimentary Rocks",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    SR[Sedimentary Rocks]\n    SR --> C[Clastic (Detrital)]\n    SR --> O[Organic]\n    SR --> CH[Chemical]\n    C --> G[Grain Size]\n    G --> S[Sandstone]\n    G --> Sh[Shale]\n    G --> Co[Conglomerate]\n    O --> Coa[Coal]\n    O --> Li[Limestone]\n    CH --> RS[Rock Salt]\n    CH --> Gy[Gypsum]\n    CH --> Ch[Chert]",
+  "mapQuery": "",
+  "description": "Tree diagram categorising sedimentary rocks into clastic (by grain size), organic, and chemical types, with representative examples for each subgroup.",
+  "keywords": [
+    "sedimentary rocks",
+    "clastic",
+    "organic",
+    "chemical",
+    "sandstone",
+    "limestone"
+  ]
+}

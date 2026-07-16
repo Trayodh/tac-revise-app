@@ -1,0 +1,19 @@
+{
+  "title": "Driving Mechanisms of Plate Tectonics",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Plate Tectonics",
+  "topic": "Plate Motion",
+  "format": "Mermaid",
+  "description": "This diagram outlines the primary forces responsible for the movement of Earth's tectonic plates: Mantle Convection, Ridge Push, and Slab Pull.",
+  "keywords": [
+    "plate tectonics",
+    "plate motion",
+    "mantle convection",
+    "ridge push",
+    "slab pull",
+    "subduction zones",
+    "mid-ocean ridges"
+  ],
+  "mermaidCode": "graph TD\nA[Plate Motion] --> B{Driving Mechanisms}\nB --> C[Mantle Convection]\nC --> C1(Primary engine of plate motion)\nB --> D[Ridge Push]\nD --> D1(Gravitational sliding away from mid-ocean ridges)\nB --> E[Slab Pull]\nE --> E1(Sinking of dense oceanic lithosphere at subduction zones)\nE --> E2(Dominant force)"
+}

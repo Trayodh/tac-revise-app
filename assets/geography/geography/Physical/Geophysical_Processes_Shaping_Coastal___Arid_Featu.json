@@ -1,0 +1,20 @@
+{
+  "title": "Geophysical Processes Shaping Coastal & Arid Features",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Straits, Canals, Deserts & Seas",
+  "topic": "Geomorphological Processes",
+  "format": "Mermaid",
+  "description": "A flowchart illustrating the key geophysical processes such as plate tectonics, sea-level fluctuations, wind-driven erosion, monsoonal dynamics, and anthropogenic modification that shape straits, canals, deserts, and seas.",
+  "keywords": [
+    "Plate Tectonics",
+    "Sea-Level Fluctuations",
+    "Wind Erosion",
+    "Monsoons",
+    "Anthropogenic Modification",
+    "Geomorphology",
+    "Beringia",
+    "Harmattan"
+  ],
+  "mermaidCode": "graph TD\n    A[Geophysical Processes] --> B{Shaping Features}\n    B --> C[Plate Tectonics]\n    B --> D[Sea-Level Fluctuations]\n    B --> E[Wind-Driven Erosion]\n    B --> F[Monsoonal Dynamics]\n    B --> G[Anthropogenic Modification]\n\n    C -- Example --> Gibraltar(Strait of Gibraltar formation)\n    D -- Example --> Beringia(Beringia corridor during LGM)\n    E -- Example --> Sahara(Sahara Desert by Harmattan winds)\n    F -- Example --> BayOfBengal(Bay of Bengal deltaic growth)\n    G -- Example --> SuezPanama(Suez & Panama Canals altering circulation)"
+}

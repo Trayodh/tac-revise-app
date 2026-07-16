@@ -46,18 +46,28 @@ async function handleAuthAction() {
         }
 
         if (typeof STATE !== 'undefined') {
-          STATE.activeProfile = { email: email };
+          STATE.activeProfile = { email: email, status: email === 'admin@jayastra.com' ? 'active' : 'pending_payment' };
           if (typeof saveState === 'function') saveState();
         }
         document.getElementById('auth-modal').style.display = 'none';
-        document.getElementById('onboarding-modal').style.display = 'flex';
+        
+        if (STATE.activeProfile.status !== 'active') {
+          if (typeof switchScreen === 'function') switchScreen('onboarding-payment');
+        } else {
+          document.getElementById('onboarding-modal').style.display = 'flex';
+        }
       } else {
         if (typeof STATE !== 'undefined') {
-          STATE.activeProfile = { email: email };
+          STATE.activeProfile = { email: email, status: email === 'admin@jayastra.com' ? 'active' : 'pending_payment' };
           if (typeof saveState === 'function') saveState();
         }
         document.getElementById('auth-modal').style.display = 'none';
-        document.getElementById('onboarding-modal').style.display = 'flex';
+        
+        if (STATE.activeProfile.status !== 'active') {
+          if (typeof switchScreen === 'function') switchScreen('onboarding-payment');
+        } else {
+          document.getElementById('onboarding-modal').style.display = 'flex';
+        }
       }
     } else {
       if (window.supabaseClient) {
@@ -68,22 +78,39 @@ async function handleAuthAction() {
         if (error) throw error;
         alert('Sign in successful!');
         if (typeof STATE !== 'undefined') {
-          STATE.activeProfile = { email: email };
+          // If profile doesn't exist or doesn't have a status, default it.
+          if (!STATE.activeProfile || STATE.activeProfile.email !== email) {
+            STATE.activeProfile = { email: email, status: email === 'admin@jayastra.com' ? 'active' : 'pending_payment' };
+          }
           if (typeof saveState === 'function') saveState();
         }
         document.getElementById('auth-modal').style.display = 'none';
         updateUserProfile(data.user);
-        if (typeof syncFromSupabase === 'function') {
-          syncFromSupabase();
+        
+        if (STATE.activeProfile && STATE.activeProfile.status !== 'active') {
+          if (typeof switchScreen === 'function') switchScreen('onboarding-payment');
+        } else {
+          if (typeof syncFromSupabase === 'function') {
+            syncFromSupabase();
+          }
+          if (typeof switchScreen === 'function') switchScreen('dashboard');
         }
       } else {
         alert('Offline mode: Sign in mocked.');
         if (typeof STATE !== 'undefined') {
-          STATE.activeProfile = { email: email };
+          if (!STATE.activeProfile || STATE.activeProfile.email !== email) {
+            STATE.activeProfile = { email: email, status: email === 'admin@jayastra.com' ? 'active' : 'pending_payment' };
+          }
           if (typeof saveState === 'function') saveState();
         }
         document.getElementById('auth-modal').style.display = 'none';
         updateUserProfile({ email: email });
+        
+        if (STATE.activeProfile && STATE.activeProfile.status !== 'active') {
+          if (typeof switchScreen === 'function') switchScreen('onboarding-payment');
+        } else {
+          if (typeof switchScreen === 'function') switchScreen('dashboard');
+        }
       }
     }
   } catch (error) {
@@ -108,6 +135,16 @@ function updateUserProfile(user) {
       <div style="font-weight: 600; font-size: 0.95rem;">${user.email.split('@')[0]}</div>
       <div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px;">Cadet Level</div>
     `;
+  }
+  
+  // Show admin nav item if admin
+  const adminNav = document.getElementById('nav-item-admin');
+  if (adminNav) {
+    if (user.email === 'admin@jayastra.com') {
+      adminNav.style.display = 'flex';
+    } else {
+      adminNav.style.display = 'none';
+    }
   }
 }
 

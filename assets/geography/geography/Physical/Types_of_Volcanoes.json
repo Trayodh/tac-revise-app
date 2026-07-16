@@ -1,0 +1,22 @@
+{
+  "title": "Types of Volcanoes",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Volcanism",
+  "topic": "Volcano Classification",
+  "format": "Mermaid",
+  "description": "This diagram classifies different types of volcanoes based on their structure, eruption characteristics, and formation, providing key examples for each.",
+  "keywords": [
+    "volcanoes",
+    "shield volcano",
+    "composite volcano",
+    "stratovolcano",
+    "caldera",
+    "flood basalt",
+    "mid-ocean ridge volcano",
+    "Mauna Loa",
+    "Mt. Fuji",
+    "Deccan Traps"
+  ],
+  "mermaidCode": "graph TD\nA[Types of Volcanoes] --> B[Shield Volcanoes]\nB --> B1(Broad, gently sloping cones)\nB --> B2(Low-viscosity basaltic lava)\nB --> B3(Non-explosive eruptions)\nB3 --> B4(Mauna Loa, Kilauea)\nA --> C[Composite (Stratovolcanoes)]\nC --> C1(Steep-profile cones)\nC --> C2(Alternating lava flows & tephra)\nC --> C3(Explosive eruptions)\nC3 --> C4(Mt. Fuji, Mt. Vesuvius, Mt. St. Helens)\nA --> D[Calderas]\nD --> D1(Large depressions)\nD --> D2(Formed by collapse after massive eruption)\nD2 --> D3(Crater Lake, Santorini)\nA --> E[Flood Basalt Provinces]\nE --> E1(Vast plateaus)\nE --> E2(Successive basaltic flows from fissure eruptions)\nE2 --> E3(Deccan Traps, Columbia River Basalts)\nA --> F[Mid-Ocean Ridge Volcanoes]\nF --> F1(Underwater volcanoes)\nF --> F2(Divergent boundaries)\nF2 --> F3(Continuous basaltic eruptions)\nF3 --> F4(Mid-Atlantic Ridge)"
+}

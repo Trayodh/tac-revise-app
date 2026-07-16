@@ -1,0 +1,18 @@
+{
+  "title": "Rain‑fed (Barani) Agriculture Process",
+  "subject": "Geography",
+  "category": "Agriculture",
+  "chapter": "Farming Systems",
+  "topic": "Rain‑fed Agriculture",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    Monsoon[Southwest Monsoon] -->|timing & intensity| Success[Crop Success]\n    Success -->|depends on| Practices[Soil Conservation Practices]\n    Practices -->|methods| Contour[Contour bunding]\n    Practices -->|methods| ZeroTill[Zero‑tillage]\n    Practices -->|methods| SeedBed[Seed‑bed preparation]\n    Success -->|supports| Crops[Millet, Sorghum, Pulses, Oilseeds]\n    Crops -->|C4 plants| DroughtTolerance[High drought tolerance]",
+  "mapQuery": "",
+  "description": "Process diagram depicting the dependence of rain‑fed agriculture on monsoon characteristics, soil conservation measures, and the resulting C4 crop selection.",
+  "keywords": [
+    "rain‑fed",
+    "monsoon",
+    "soil conservation",
+    "crops",
+    "Barani"
+  ]
+}

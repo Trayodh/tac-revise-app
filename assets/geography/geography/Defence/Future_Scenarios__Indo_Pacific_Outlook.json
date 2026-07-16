@@ -1,0 +1,21 @@
+{
+  "title": "Future Scenarios: Indo-Pacific Outlook",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Future Scenarios: 2025-2035 Outlook",
+  "topic": "Geopolitical Trajectories",
+  "format": "Mermaid",
+  "description": "A diagram illustrating three plausible future scenarios for the Indo-Pacific region: Managed Competition, Escalatory Spiral, and Co-operative Security Architecture.",
+  "keywords": [
+    "Indo-Pacific",
+    "Future Scenarios",
+    "Geopolitics",
+    "Managed Competition",
+    "Escalatory Spiral",
+    "Co-operative Security",
+    "Taiwan Strait",
+    "South China Sea",
+    "Quad"
+  ],
+  "mermaidCode": "graph TD\nA[Future Scenarios: 2025-2035 Outlook] --> B(Plausible Trajectories)\nB --> B1(Managed Competition)\nB1 --> B1a(Major powers maintain balance)\nB1 --> B1b(Robust CBMs, joint exercises, limited incidents)\nB1 --> B1c(Preserving \"stable rivalry\")\nB --> B2(Escalatory Spiral)\nB2 --> B2a(Miscalculation in Taiwan Strait or South China Sea incident)\nB2 --> B2b(Triggers broader naval confrontation)\nB2 --> B2c(Potentially drawing in allies, disrupting global supply chains)\nB --> B3(Co-operative Security Architecture)\nB3 --> B3a(Breakthrough in ASEAN-China Code of Conduct)\nB3 --> B3b(Deeper Quad integration)\nB3 --> B3c(Lead to shared security framework, reducing unilateral coercion)"
+}

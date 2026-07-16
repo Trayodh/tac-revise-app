@@ -1,0 +1,18 @@
+{
+  "title": "Grid Zones and Coordinates for India",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Grid Systems & Coordinates",
+  "topic": "IGS Zones",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    IGS[Indian Grid System] --> Zone44[Zone 44N – Northern Himalayas]\n    IGS --> Zone45[Zone 45N – Central Plains]\n    Zone44 --> Example44[Example: 5,123,456 E 1,234,567 N]\n    Zone45 --> Example45[Example: 6,234,567 E 2,345,678 N]",
+  "mapQuery": "",
+  "description": "Diagram illustrating the Indian Grid System zones and typical easting/northing notation.",
+  "keywords": [
+    "IGS",
+    "UTM",
+    "Zone 44N",
+    "Zone 45N",
+    "coordinates"
+  ]
+}

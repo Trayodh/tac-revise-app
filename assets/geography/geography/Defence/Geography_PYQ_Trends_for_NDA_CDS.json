@@ -1,0 +1,20 @@
+{
+  "title": "Geography PYQ Trends for NDA/CDS",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Introduction to Geography PYQ Trends",
+  "topic": "Exam Preparation Strategy",
+  "format": "Mermaid",
+  "description": "A diagram showing the two core components of Geography for NDA/CDS exams: Physical Geography and Human Geography, and their respective focus areas.",
+  "keywords": [
+    "NDA",
+    "CDS",
+    "PYQ Trends",
+    "Geography",
+    "Physical Geography",
+    "Human Geography",
+    "UPSC",
+    "Exam Strategy"
+  ],
+  "mermaidCode": "graph TD\nA[Geography PYQ Trends for NDA/CDS] --> B(Core Components)\nB --> B1(Physical Geography)\nB1 --> B1a(Earth's natural processes)\nB1a --> B1a1(Plate Tectonics)\nB1a --> B1a2(Weathering)\nB1a --> B1a3(Erosion)\nB --> B2(Human Geography)\nB2 --> B2a(Demographic dynamics)\nB2a --> B2a1(Migration Patterns)\nB2a --> B2a2(Urbanisation)"
+}

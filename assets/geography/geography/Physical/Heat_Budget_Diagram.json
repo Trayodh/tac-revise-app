@@ -1,0 +1,16 @@
+{
+  "title": "Heat Budget Diagram",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Heat Budget & Temperature",
+  "topic": "Earth Heat Budget",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Incoming Solar Radiation] --> B[Absorbed by Earth]\n    B --> C[Outgoing Terrestrial Radiation]\n    C --> D[Balance Maintains Global Temperature]",
+  "mapQuery": "",
+  "description": "Process diagram showing the balance between incoming solar radiation, absorption by Earth, and outgoing terrestrial radiation.",
+  "keywords": [
+    "heat budget",
+    "solar radiation",
+    "energy balance"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Dynamic vs Thermal Metamorphism",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Metamorphism and Plate Tectonics",
+  "topic": "Metamorphism Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\nA[Dynamic (Regional) Metamorphism] --> B[Foliated Rocks: Slate, Schist, Gneiss]\nC[Thermal (Contact) Metamorphism] --> D[Non‑foliated Rocks: Marble, Quartzite, Hornfels]",
+  "mapQuery": "",
+  "description": "Contrasts regional pressure‑heat metamorphism producing foliated rocks with contact heating producing non‑foliated rocks.",
+  "keywords": [
+    "dynamic metamorphism",
+    "contact metamorphism",
+    "foliated",
+    "non‑foliated"
+  ]
+}

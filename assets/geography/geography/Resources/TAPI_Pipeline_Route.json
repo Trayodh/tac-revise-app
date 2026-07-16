@@ -1,0 +1,21 @@
+{
+  "title": "TAPI Pipeline Route",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Economic Corridors and Energy Security",
+  "topic": "Natural Gas Pipelines",
+  "format": "RealMap",
+  "description": "A map illustrating the proposed route of the Turkmenistan-Afghanistan-Pakistan-India (TAPI) natural gas pipeline, highlighting its significance for South Asian energy demand and regional stability.",
+  "keywords": [
+    "TAPI pipeline",
+    "Natural Gas",
+    "Energy Security",
+    "South Asia",
+    "Turkmenistan",
+    "Afghanistan",
+    "Pakistan",
+    "India",
+    "Gas Pipeline"
+  ],
+  "mapQuery": "TAPI pipeline route map"
+}

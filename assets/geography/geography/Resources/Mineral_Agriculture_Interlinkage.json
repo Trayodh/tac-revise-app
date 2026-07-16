@@ -1,0 +1,18 @@
+{
+  "title": "Mineral‑Agriculture Interlinkage",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Mineral Resources",
+  "topic": "Mineral Inputs for Agriculture",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    PhosphateRock[Phosphate rock (Jharkhand, MP)] -->|feeds| DAP[Di‑ammonium Phosphate fertilizer]\n    Limestone[Limestone] -->|provides| AgLime[Agricultural lime]\n    DAP -->|35% of| FertilizerUse[India's fertilizer consumption]\n    AgLime -->|neutralises| AcidicSoils[Acidic soils in Gangetic plains]\n    MiningActivities[Mining activities] -->|risk| Pollution[Fly ash & tailings contamination]\n    Pollution -->|mitigation| Initiatives[Soil Health Card Scheme & NMEP]",
+  "mapQuery": "",
+  "description": "Flowchart showing how specific mineral resources (phosphate rock, limestone) are transformed into agricultural inputs and the associated environmental concerns and policy initiatives.",
+  "keywords": [
+    "mineral resources",
+    "fertilizer",
+    "lime",
+    "soil health",
+    "environment"
+  ]
+}

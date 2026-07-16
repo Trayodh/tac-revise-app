@@ -1,0 +1,24 @@
+{
+  "title": "Planet Classification Tree",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Solar System",
+  "topic": "Planet Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Planets] --> B[Terrestrial (Inner)]\n    A --> C[Jovian (Outer)]\n    B --> D[Mercury]\n    B --> E[Venus]\n    B --> F[Earth]\n    B --> G[Mars]\n    C --> H[Jupiter]\n    C --> I[Saturn]\n    C --> J[Uranus]\n    C --> K[Neptune]",
+  "mapQuery": "",
+  "description": "Classification diagram separating the eight major planets into terrestrial and jovian groups with individual members listed.",
+  "keywords": [
+    "planet classification",
+    "terrestrial planets",
+    "jovian planets",
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune"
+  ]
+}

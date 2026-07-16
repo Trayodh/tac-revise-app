@@ -1,0 +1,18 @@
+{
+  "title": "World Major Rivers",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "Rivers of the World",
+  "topic": "Major Rivers",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "world major rivers map SVG",
+  "description": "Map displaying the principal rivers on each continent, such as the Yangtze, Nile, Amazon, Danube, Mississippi, etc.",
+  "keywords": [
+    "rivers",
+    "global",
+    "Yangtze",
+    "Nile",
+    "Amazon"
+  ]
+}

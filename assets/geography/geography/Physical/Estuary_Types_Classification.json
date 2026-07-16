@@ -1,0 +1,18 @@
+{
+  "title": "Estuary Types Classification",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Rivers and Their Features",
+  "topic": "Estuaries",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nE[Estuaries] --> R[River-dominated]\nE --> T[Tide-dominated]\nE --> W[Wave-dominated]\nR --> R1[High river flow, narrow mouth]\nT --> T1[Strong tidal currents]\nW --> W1[High wave energy]",
+  "mapQuery": "",
+  "description": "Classification of estuaries based on the dominant physical processes shaping them: river‑dominated, tide‑dominated, and wave‑dominated.",
+  "keywords": [
+    "estuary",
+    "river-dominated",
+    "tide-dominated",
+    "wave-dominated",
+    "coastal zones"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Driving Mechanisms of Plate Motion",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Plate Tectonics",
+  "topic": "Plate Motion Forces",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nPlateMotion --> MantleConvection[Mantle Convection]\nPlateMotion --> RidgePush[Ridge Push]\nPlateMotion --> SlabPull[Slab Pull]",
+  "mapQuery": "",
+  "description": "Simple diagram summarising the three primary forces that move tectonic plates.",
+  "keywords": [
+    "mantle convection",
+    "ridge push",
+    "slab pull",
+    "plate motion"
+  ]
+}

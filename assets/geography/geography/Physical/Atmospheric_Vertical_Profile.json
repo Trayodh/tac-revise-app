@@ -1,0 +1,17 @@
+{
+  "title": "Atmospheric Vertical Profile",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Atmospheric Structure",
+  "topic": "Atmospheric Layers",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Earth Surface] --> B[Ionosphere (80–400 km)]\n    B --> C[Exosphere (>400 km)]\n    style A fill:#a6cee3,stroke:#333,stroke-width:2px\n    style B fill:#b2df8a,stroke:#333,stroke-width:2px\n    style C fill:#fb9a99,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "A vertical schematic showing the main atmospheric layers relevant for weather and space interactions: the Ionosphere (80–400 km) and the Exosphere (>400 km) extending beyond 600 km and merging with outer space.",
+  "keywords": [
+    "ionosphere",
+    "exosphere",
+    "atmospheric layers",
+    "vertical profile"
+  ]
+}

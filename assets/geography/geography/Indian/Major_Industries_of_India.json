@@ -1,0 +1,25 @@
+{
+  "title": "Major Industries of India",
+  "subject": "Geography",
+  "category": "Indian",
+  "chapter": "Major Industries & Industrial Corridors",
+  "topic": "Indian Industries Overview",
+  "format": "Mermaid",
+  "description": "A classification diagram showcasing India's diversified industrial base, highlighting key sectors like Textiles, Steel, Automobile, Information Technology, and Pharmaceuticals, along with their contributions and major players.",
+  "keywords": [
+    "Indian industries",
+    "Textile industry",
+    "Steel industry",
+    "Automobile industry",
+    "Information Technology (IT) industry",
+    "Pharmaceuticals industry",
+    "Make in India",
+    "SAIL",
+    "Tata Steel",
+    "Maruti Suzuki",
+    "TCS",
+    "Infosys",
+    "Sun Pharma"
+  ],
+  "mermaidCode": "graph TD\nA[Major Industries in India] --> B[Textile Industry]\nB --> B1[~10% Exports, >45M Employment]\nB --> B2[Cotton, Jute, Silk, Wool, Garment]\nA --> C[Steel Industry]\nC --> C1[2nd Largest Producer, >100M Tons/yr]\nC --> C2[SAIL, Tata Steel]\nA --> D[Automobile Industry]\nD --> D1[Fast-growing, Passenger/Commercial/2-3 Wheelers]\nD --> D2[Tata Motors, Maruti Suzuki, Hyundai]\nA --> E[Information Technology (IT) Industry]\nE --> E1[Global Services Powerhouse, Large Workforce]\nE --> E2[TCS, Infosys, Wipro]\nA --> F[Pharmaceuticals Industry]\nF --> F1[Generic Drug Production, Strong R&D]\nF --> F2[Sun Pharma, Dr. Reddy's, Cipla]"
+}

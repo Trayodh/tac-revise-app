@@ -1,0 +1,18 @@
+{
+  "title": "Metamorphic Rock Progression",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Metamorphism and Plate Tectonics",
+  "topic": "Metamorphism Types and Rock Sequence",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nA[Shale] --> B[Slate]\nB --> C[Phyllite]\nC --> D[Schist]\nD --> E[Gneiss]\nF[Limestone] --> G[Marble]\nH[Sandstone] --> I[Quartzite]\nJ[Basalt] --> K[Amphibolite]",
+  "mapQuery": "",
+  "description": "Shows the typical metamorphic sequence from parent sedimentary rocks to metamorphic grades for both silicate and carbonate rocks.",
+  "keywords": [
+    "metamorphism",
+    "rock cycle",
+    "slate",
+    "gneiss",
+    "marble"
+  ]
+}

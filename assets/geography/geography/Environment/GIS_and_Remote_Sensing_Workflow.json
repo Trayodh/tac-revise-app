@@ -1,0 +1,17 @@
+{
+  "title": "GIS and Remote Sensing Workflow",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Geographic Thought & Technology",
+  "topic": "Geospatial Technology Process",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Data Acquisition] --> B[Remote Sensing & Satellite Imagery]\n    B --> C[Data Processing & GIS Integration]\n    C --> D[Spatial Analysis]\n    D --> E[Decision Support & Mapping]\n    style A fill:#c9f,stroke:#333,stroke-width:2px\n    style B fill:#c9f,stroke:#333,stroke-width:2px\n    style C fill:#c9f,stroke:#333,stroke-width:2px\n    style D fill:#c9f,stroke:#333,stroke-width:2px\n    style E fill:#c9f,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "Process diagram of the typical GIS and remote sensing workflow used in modern geographic analysis.",
+  "keywords": [
+    "GIS",
+    "Remote Sensing",
+    "spatial analysis",
+    "geospatial technology"
+  ]
+}

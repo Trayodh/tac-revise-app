@@ -1,0 +1,21 @@
+{
+  "title": "Vertical Structure of Earth's Atmosphere",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Earth Structure & Atmosphere",
+  "topic": "Earth's Atmosphere",
+  "format": "Mermaid",
+  "description": "A diagram illustrating the vertical temperature-based layers of Earth's atmosphere: Troposphere, Stratosphere, Mesosphere, and Thermosphere (Ionosphere), including their extent, temperature trends, and key phenomena.",
+  "keywords": [
+    "Atmosphere layers",
+    "Troposphere",
+    "Stratosphere",
+    "Mesosphere",
+    "Thermosphere",
+    "Ionosphere",
+    "Ozone Layer",
+    "Weather phenomena",
+    "Normal Lapse Rate"
+  ],
+  "mermaidCode": "graph TD\n    E[Troposphere] --> E1(0-18 km, Temp Decreases, Weather, Most Mass);\n    E -- Tropopause --> D[Stratosphere];\n    D --> D1(13-50 km, Temp Increases, Ozone Layer);\n    D -- Stratopause --> C[Mesosphere];\n    C --> C1(50-80 km, Temp Decreases, Coldest, Meteors Burn);\n    C -- Mesopause --> B[Thermosphere (Ionosphere)];\n    B --> B1(80-600 km, Temp Rises, Auroras, Radio);"
+}

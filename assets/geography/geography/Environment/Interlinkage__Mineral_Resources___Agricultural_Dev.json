@@ -1,0 +1,21 @@
+{
+  "title": "Interlinkage: Mineral Resources & Agricultural Development",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Mineral Resources & Types of Farming",
+  "topic": "Interlinkage between Mineral Resources and Agricultural Development",
+  "format": "Mermaid",
+  "description": "A flowchart illustrating the critical interlinkages between mineral resources and agricultural development in India, highlighting how minerals like phosphate rock and limestone are used as agricultural inputs, along with associated environmental concerns and strategic initiatives.",
+  "keywords": [
+    "mineral resources",
+    "agriculture",
+    "fertilizer",
+    "DAP",
+    "limestone",
+    "soil health",
+    "environmental concerns",
+    "sustainable agronomy",
+    "India"
+  ],
+  "mermaidCode": "graph TD A[Mineral Resources] --> B{Input for Agriculture} B --> C[Phosphate Rock Mining] C --> C1[Production of DAP Fertilizer] C1 --> C2[~35% India's Fertilizer Consumption] C --> C3(Mainly Jharkhand, MP) B --> D[Limestone Mining] D --> D1[Production of Agricultural Lime] D1 --> D2[Neutralises Acidic Soils (Gangetic Plains)] B --> E[Environmental Concerns] E --> E1[Fly Ash Contamination] E --> E2[Tailings Contamination] E1 & E2 --> E3(Contaminate Irrigation Water) F[Strategic Initiatives] --> F1[National Mineral Exploration Programme (NMEP)] F --> F2[Soil Health Card Scheme] F1 & F2 --> F3(Align Mineral Extraction with Sustainable Agronomy)"
+}

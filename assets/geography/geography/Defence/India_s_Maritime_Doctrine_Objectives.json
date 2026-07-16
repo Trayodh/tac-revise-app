@@ -1,0 +1,25 @@
+{
+  "title": "India's Maritime Doctrine Objectives",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "India’s Strategic Calculus in the Indo-Pacific",
+  "topic": "India's Maritime Strategy",
+  "format": "Mermaid",
+  "description": "Illustrates the three core objectives of India's Maritime Strategy (2015): Secure Sea-Lines of Communication (SLOCs), Enhance Naval Reach, and Promote a Free, Open, and Inclusive Indo-Pacific.",
+  "keywords": [
+    "India",
+    "Maritime Strategy",
+    "SLOCs",
+    "Naval Reach",
+    "Indo-Pacific",
+    "IOR",
+    "Malacca Strait",
+    "INS Vikrant",
+    "Malabar",
+    "INDRA",
+    "ASEAN",
+    "IONS",
+    "Quad"
+  ],
+  "mermaidCode": "graph TD\nA[India's Maritime Doctrine (2015)] --> B(Core Objectives)\nB --> B1(Secure Sea-Lines of Communication (SLOCs))\nB1 --> B1a(Indian Ocean Region (IOR))\nB1 --> B1b(Malacca Strait)\nB --> B2(Enhance Naval Reach)\nB2 --> B2a(Acquisition of Aircraft Carriers e.g. INS Vikrant)\nB2 --> B2b(Submarine-Launched Cruise Missiles (SLCMs))\nB2 --> B2c(Joint Naval Exercises e.g. Malabar, INDRA)\nB --> B3(Promote a Free, Open, and Inclusive Indo-Pacific)\nB3 --> B3a(Diplomatic Engagement e.g. ASEAN-India Special Summit)\nB3 --> B3b(Indian Ocean Naval Symposium (IONS))\nB3 --> B3c(Quad Framework)"
+}

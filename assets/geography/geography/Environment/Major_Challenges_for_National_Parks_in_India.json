@@ -1,0 +1,21 @@
+{
+  "title": "Major Challenges for National Parks in India",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Biodiversity and Conservation",
+  "topic": "National Parks Challenges",
+  "format": "Mermaid",
+  "description": "A mindmap illustrating the significant challenges threatening the ecological integrity of India's National Parks, such as human-wildlife conflict, poaching, climate change impacts, and infrastructure development.",
+  "keywords": [
+    "National Parks challenges",
+    "human-wildlife conflict",
+    "poaching",
+    "illegal wildlife trade",
+    "climate change impacts",
+    "infrastructure development",
+    "habitat fragmentation",
+    "funding gaps",
+    "forest fires"
+  ],
+  "mermaidCode": "mindmap\nroot((Major Challenges for National Parks))\n  Human-Wildlife Conflict\n    Crop raiding\n    Livestock predation\n    Retaliatory killings\n  Poaching & Illegal Wildlife Trade\n    Targeted hunting (tiger parts, rhino horn)\n    High-value products\n  Climate Change Impacts\n    Altered precipitation patterns\n    Increased forest fires\n    Sea-level rise (coastal mangroves)\n  Infrastructure Development\n    Roads, dams, mining projects\n    Habitat fragmentation\n    Impede animal movement\n  Inadequate Funding & Manpower\n    Limited resources for patrolling\n    Limited resources for research\n    Limited resources for community outreach"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Global Deserts Distribution Map",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "Straits, Canals, Deserts & Seas",
+  "topic": "Deserts",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "World map highlighting major deserts (Sahara, Arabian, Gobi, Thar, Namib) with area and mean annual rainfall data",
+  "description": "Map illustrating the geographic locations of the world’s principal deserts, indicating their extent and climatic characteristics.",
+  "keywords": [
+    "desert",
+    "Sahara",
+    "Arabian",
+    "Gobi",
+    "Thar",
+    "Namib",
+    "arid region"
+  ]
+}

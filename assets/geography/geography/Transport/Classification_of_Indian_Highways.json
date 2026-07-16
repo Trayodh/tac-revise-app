@@ -1,0 +1,18 @@
+{
+  "title": "Classification of Indian Highways",
+  "subject": "Geography",
+  "category": "Transport",
+  "chapter": "Transport Routes",
+  "topic": "Highway Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    Highways[Highways] --> NH[National Highways]\n    Highways --> SH[State Highways]\n    Highways --> EX[Expressways]\n    Highways --> Ring[Ring & Bypass Roads]\n    NH -->|Length ≈ 150,000 km| NHDetails[Central govt administered]\n    SH -->|Length ≈ 100,000 km| SHDetails[State govt administered]\n    EX -->|Access‑controlled, 100‑160 km/h| EXDetails[Part of Bharatmala & GQ]\n    Ring -->|Urban de‑congestion| RingDetails[Delhi Ring Road, Kolkata Bypass]",
+  "mapQuery": "",
+  "description": "Tree diagram categorising Indian highways into National Highways, State Highways, Expressways, and Ring/Bypass Roads with key characteristics.",
+  "keywords": [
+    "highways",
+    "classification",
+    "India",
+    "expressways",
+    "state highways"
+  ]
+}

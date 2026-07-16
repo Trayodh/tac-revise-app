@@ -1,0 +1,18 @@
+{
+  "title": "Big Bang Timeline",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "The Universe & Solar System",
+  "topic": "Origin of the Universe",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Singularity] --> B[Big Bang (~13.8 billion yr ago)]\n    B --> C[Inflation]\n    C --> D[Quark Epoch]\n    D --> E[Formation of Protons & Neutrons]\n    E --> F[Recombination (CMBR)]\n    F --> G[First Stars & Galaxies]",
+  "mapQuery": "",
+  "description": "Chronological flowchart showing the major stages from the initial singularity to the formation of the first stars and galaxies.",
+  "keywords": [
+    "Big Bang",
+    "cosmology",
+    "timeline",
+    "CMBR",
+    "universe origin"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Types of Atmospheric Fronts",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Air Masses & Fronts",
+  "topic": "Fronts",
+  "format": "Mermaid",
+  "description": "A classification diagram illustrating the four main types of atmospheric fronts: Cold Front, Warm Front, Occluded Front, and Stationary Front, highlighting their characteristics.",
+  "keywords": [
+    "atmospheric fronts",
+    "cold front",
+    "warm front",
+    "occluded front",
+    "stationary front",
+    "weather fronts",
+    "air masses"
+  ],
+  "mermaidCode": "graph TD\nA[Atmospheric Fronts] --> B[Cold Front]\nA --> C[Warm Front]\nA --> D[Occluded Front]\nA --> E[Stationary Front]\nB -- Advancing cold air lifts warm air --> B1[Intense, brief precipitation]\nC -- Warm air overrides cold air --> C1[Widespread, moderate precipitation]\nD -- Cold front overtakes warm front --> D1[Warm sector lifted off ground]\nE -- Neither air mass advances --> E1[Prolonged weather]"
+}

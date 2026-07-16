@@ -1,0 +1,19 @@
+{
+  "title": "Recognised Dwarf Planets",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "Dwarf Planets",
+  "format": "Mermaid",
+  "description": "A list of the five currently recognised dwarf planets in our Solar System, based on the IAU definition.",
+  "keywords": [
+    "Dwarf planets",
+    "Pluto",
+    "Ceres",
+    "Eris",
+    "Makemake",
+    "Haumea",
+    "IAU definition"
+  ],
+  "mermaidCode": "mindmap\n    root((Recognised Dwarf Planets))\n        Pluto\n        Ceres\n        Eris\n        Makemake\n        Haumea"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Coastal & Saline‑affected Farming Innovations",
+  "subject": "Geography",
+  "category": "Agriculture",
+  "chapter": "Farming Systems",
+  "topic": "Saline‑affected Agriculture",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    SalineLands[Saline‑affected coastal lands] -->|challenge| Salinity[High salinity & water‑logging]\n    Salinity -->|requires| Innovations[Innovations]\n    Innovations -->|tech| RO[Reverse Osmosis for irrigation]\n    Innovations -->|tech| BioChar[Bio‑char soil amendment]\n    Innovations -->|crop| SaltTolerant[Salt‑tolerant crops (Salicornia, Coconut)]\n    Innovations -->|aquaculture| Shrimp[Brackish‑water shrimp & tilapia]\n    Innovations -->|policy| ICZM[Integrated Coastal Zone Management]\n    ICZM -->|support| Subsidies[Subsidies for ponds & seed supply]",
+  "mapQuery": "",
+  "description": "Diagram outlining the challenges of saline coastal agriculture and the suite of technological, crop, aquaculture, and policy innovations addressing them.",
+  "keywords": [
+    "coastal farming",
+    "saline soils",
+    "reverse osmosis",
+    "bio‑char",
+    "ICZM"
+  ]
+}

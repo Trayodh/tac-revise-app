@@ -1,0 +1,19 @@
+{
+  "title": "State‑wise Forest Cover in India (2021)",
+  "subject": "Geography",
+  "category": "Indian",
+  "chapter": "Regional Forest Highlights",
+  "topic": "State Forest Cover",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "India state forest cover map 2021",
+  "description": "Choropleth map displaying forest cover area for each Indian state, highlighting Madhya Pradesh, Arunachal Pradesh, and Chhattisgarh as the top contributors.",
+  "keywords": [
+    "state forest cover",
+    "Madhya Pradesh",
+    "Arunachal Pradesh",
+    "Chhattisgarh",
+    "India",
+    "forest statistics"
+  ]
+}

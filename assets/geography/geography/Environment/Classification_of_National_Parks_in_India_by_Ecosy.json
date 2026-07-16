@@ -1,0 +1,19 @@
+{
+  "title": "Classification of National Parks in India by Ecosystem",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Biodiversity and Conservation",
+  "topic": "National Parks Classification",
+  "format": "Mermaid",
+  "description": "A classification diagram showing different types of National Parks in India based on their dominant ecosystem, such as Wildlife, Marine, Desert, and Mountain National Parks.",
+  "keywords": [
+    "National Parks classification",
+    "Wildlife National Parks",
+    "Marine National Parks",
+    "Desert National Parks",
+    "Mountain National Parks",
+    "biodiversity conservation",
+    "ecosystem types"
+  ],
+  "mermaidCode": "graph TD\nA[National Parks Classification] --> B{Wildlife National Parks};\nB --> B1[Focus: Terrestrial megafauna];\nB --> B2[Examples: Tigers, elephants, leopards];\nA --> C{Marine National Parks};\nC --> C1[Protect: Coral reefs, mangroves, seagrass beds];\nA --> D{Desert National Parks};\nD --> D1[Preserve: Arid-zone flora and fauna];\nD --> D2[Example: Great Indian Bustard];\nA --> E{Mountain National Parks};\nE --> E1[Conserve: Alpine and sub-alpine ecosystems];\nE --> E2[Examples: Snow leopards, rhododendron forests];"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Volcanic Eruption Styles",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Volcanism",
+  "topic": "Magma Properties and Eruptions",
+  "format": "Mermaid",
+  "description": "This diagram illustrates how magma viscosity and gas content determine the style of volcanic eruptions, distinguishing between explosive and effusive types.",
+  "keywords": [
+    "volcanism",
+    "magma",
+    "lava",
+    "eruption style",
+    "magma viscosity",
+    "gas content",
+    "explosive eruption",
+    "effusive eruption",
+    "felsic magma",
+    "mafic magma"
+  ],
+  "mermaidCode": "graph TD\nA[Magma Properties] --> B{Viscosity & Gas Content}\nB --> C[High-viscosity (acidic/felsic) magma]\nC --> C1(Traps gases)\nC1 --> C2[Explosive Eruptions]\nB --> D[Low-viscosity (basic/mafic) magma]\nD --> D1(Allows gases to escape)\nD1 --> D2[Effusive Eruptions]"
+}

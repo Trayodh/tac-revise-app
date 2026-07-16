@@ -103,49 +103,64 @@ window.fetch = async function() {
             const isJsonRequired = (reqBody.generationConfig?.response_mime_type === 'application/json');
             
             // DIRECT CLIENT-SIDE API CALLS
+            let callSuccessful = false;
             if (targetAI === 'groq') {
-                const groqBody = {
-                    model: 'llama-3.3-70b-versatile',
-                    messages: messages,
-                    temperature: reqBody.generationConfig?.temperature || 0.1,
-                    max_tokens: 1500
-                };
-                if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
+                try {
+                    const groqBody = {
+                        model: 'llama-3.3-70b-versatile',
+                        messages: messages,
+                        temperature: reqBody.generationConfig?.temperature || 0.1,
+                        max_tokens: 1500
+                    };
+                    if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
 
-                const res = await originalFetch('https://api.groq.com/openai/v1/chat/completions', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer PROCESS_ENV_GROQ_KEY'
-                    },
-                    body: JSON.stringify(groqBody)
-                });
-                if (!res.ok) throw new Error("Groq API Error: " + await res.text());
-                const data = await res.json();
-                aiText = data.choices?.[0]?.message?.content || "";
+                    const res = await originalFetch('https://api.groq.com/openai/v1/chat/completions', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': 'Bearer PROCESS_ENV_GROQ_KEY'
+                        },
+                        body: JSON.stringify(groqBody)
+                    });
+                    if (!res.ok) throw new Error("Groq API Error: " + await res.text());
+                    const data = await res.json();
+                    aiText = data.choices?.[0]?.message?.content || "";
+                    callSuccessful = true;
+                } catch (err) {
+                    console.warn("Groq API call failed, falling back to Gemini:", err);
+                    targetAI = 'gemini';
+                }
             } 
-            else if (targetAI === 'cerebras') {
-                const cerebrasBody = {
-                    model: 'gpt-oss-120b',
-                    messages: messages,
-                    temperature: reqBody.generationConfig?.temperature || 0.7,
-                    max_completion_tokens: 1500
-                };
-                if (isJsonRequired) cerebrasBody.response_format = { type: 'json_object' };
+            
+            if (targetAI === 'cerebras') {
+                try {
+                    const cerebrasBody = {
+                        model: 'gpt-oss-120b',
+                        messages: messages,
+                        temperature: reqBody.generationConfig?.temperature || 0.7,
+                        max_completion_tokens: 1500
+                    };
+                    if (isJsonRequired) cerebrasBody.response_format = { type: 'json_object' };
 
-                const res = await originalFetch('https://api.cerebras.ai/v1/chat/completions', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer PROCESS_ENV_CEREBRAS_KEY'
-                    },
-                    body: JSON.stringify(cerebrasBody)
-                });
-                if (!res.ok) throw new Error("Cerebras API Error: " + await res.text());
-                const data = await res.json();
-                aiText = data.choices?.[0]?.message?.content || "";
+                    const res = await originalFetch('https://api.cerebras.ai/v1/chat/completions', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': 'Bearer PROCESS_ENV_CEREBRAS_KEY'
+                        },
+                        body: JSON.stringify(cerebrasBody)
+                    });
+                    if (!res.ok) throw new Error("Cerebras API Error: " + await res.text());
+                    const data = await res.json();
+                    aiText = data.choices?.[0]?.message?.content || "";
+                    callSuccessful = true;
+                } catch (err) {
+                    console.warn("Cerebras API call failed, falling back to Gemini:", err);
+                    targetAI = 'gemini';
+                }
             }
-            else { // Gemini
+
+            if (targetAI === 'gemini') {
                 const geminiBody = reqBody;
                 if (geminiBody.stream) delete geminiBody.stream;
                 
@@ -372,6 +387,22 @@ window.backToNotesSubjects = function() {
 };
 
 function switchScreen(screenId) {
+  // --- ROUTE MIDDLEWARE GUARD ---
+  if (typeof STATE !== 'undefined' && STATE.activeProfile) {
+    const status = STATE.activeProfile.status;
+    if (status && status !== 'active' && screenId !== 'onboarding-payment' && screenId !== 'locked') {
+      console.warn('Access denied. Redirecting to payment/locked screen. Current status:', status);
+      screenId = status === 'locked' ? 'locked' : 'onboarding-payment';
+    }
+    
+    // Admin Guard
+    if (screenId === 'admin' && STATE.activeProfile.email !== 'admin@jayastra.com') {
+      alert('Unauthorized: Admin access only.');
+      screenId = 'dashboard';
+    }
+  }
+  // ------------------------------
+
   STATE.currentScreen = screenId;
   
   document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
@@ -393,12 +424,18 @@ function switchScreen(screenId) {
     renderCurrentAffairsHub();
   } else if (screenId === "cbt-mock-hub") {
     renderCbtMockHub();
-  } else if (screenId === "question-bank") {
-    renderQuestionBank('gs');
+  } else if (screenId === "paper-solver") {
+    renderPaperSolver();
+  } else if (screenId === "advanced-solver") {
+    renderAdvancedSolver();
+  } else if (screenId === "admin") {
+    if (typeof renderAdminDashboard === 'function') renderAdminDashboard();
   } else if (screenId === "ai-console") {
     renderAiConsoleSuggestions();
   } else if (screenId === "vocab-builder") {
     renderVocabBuilder();
+  } else if (screenId === "question-bank") {
+    renderQuestionBank('gs');
   }
   updateBreadcrumbs();
 }
@@ -1073,7 +1110,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
   
   const subjectKey = subjectId;
   const chapterDiagramId = `${subjectKey}__${(chapter.id || chapter.title.replace(/[^a-z0-9]/gi, '-').toLowerCase())}`;
-  const chapterDiagramHtml = (typeof window.DIAGRAMS_DB !== 'undefined' && window.DIAGRAMS_DB[chapterDiagramId])
+  const chapterDiagramHtml = (typeof window.DIAGRAMS_DB !== 'undefined' && window.DIAGRAMS_DB[chapterDiagramId] && subjectId !== 'geography')
     ? `<div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08);">
         <div style="color: var(--text-muted); font-size: 0.75rem; font-family: var(--font-mono); margin-bottom: 14px; letter-spacing: 1px; text-transform: uppercase; display: flex; align-items: center; gap: 8px;">
           <svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#4ade80' stroke-width='2'><rect x='3' y='3' width='18' height='18' rx='2'/><path d='M3 9h18M9 21V9'/></svg>
@@ -1132,6 +1169,37 @@ function renderTopicView(subjectId, chapterId, topicId) {
             </div>
           ` : ''}
           ${chapterDiagramHtml}
+          ${(() => {
+            if (typeof window.GEOGRAPHY_VISUALS_DB === 'undefined' || subjectId !== 'geography') return '';
+            const tTitle = topic.title.toLowerCase();
+            const visuals = window.GEOGRAPHY_VISUALS_DB.filter(v => v.topic && v.topic.toLowerCase() === tTitle || (v.chapter && v.chapter.toLowerCase() === chapter.title.toLowerCase()));
+            if (visuals.length === 0) return '';
+            
+            let html = '<div class="geography-visuals-container" style="margin-top: 24px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.1);">';
+            html += '<div style="color: #60a5fa; font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;">[ GEOGRAPHY VISUALS ]</div>';
+            
+            visuals.forEach(vis => {
+              html += '<div class="visual-card" style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; margin-bottom: 16px; border: 1px solid rgba(255,255,255,0.05);">';
+              html += '<h4 style="margin: 0 0 8px 0; color: #e2e8f0; font-size: 0.95rem;">' + vis.title + '</h4>';
+              if (vis.description) {
+                html += '<p style="font-size: 0.8rem; color: #94a3b8; margin-bottom: 12px;">' + vis.description + '</p>';
+              }
+              if (vis.format === 'Mermaid' && vis.mermaidCode) {
+                html += '<pre class="mermaid" style="background: transparent;">' + vis.mermaidCode + '</pre>';
+              } else if (vis.format === 'RealMap' && vis.imgPath) {
+                html += '<img src="assets/geography' + vis.imgPath + '" alt="' + vis.title + '" style="width:100%; border-radius: 6px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">';
+              }
+              html += '</div>';
+            });
+            html += '</div>';
+            // Schedule mermaid init after rendering
+            setTimeout(() => {
+              if (window.mermaid) {
+                mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+              }
+            }, 100);
+            return html;
+          })()}
         </div>
       </div>
     `;
@@ -6972,3 +7040,71 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+// --- ONBOARDING & ADMIN LOGIC ---
+window.submitOnboardingPayment = function() {
+  const txId = document.getElementById('onboarding-transaction-id').value;
+  if (!txId) {
+    alert('Please enter a Transaction ID.');
+    return;
+  }
+  document.getElementById('onboarding-payment-msg').style.display = 'block';
+  if (typeof STATE !== 'undefined' && STATE.activeProfile) {
+    STATE.activeProfile.transaction_id = txId;
+    STATE.activeProfile.status = 'locked';
+    if (typeof saveState === 'function') saveState();
+  }
+  // Mock backend delay then switch to locked screen
+  setTimeout(() => { switchScreen('locked'); }, 2000);
+};
+
+// Mock users for offline admin dashboard
+window.MOCK_ADMIN_USERS = [
+  { email: 'newuser1@gmail.com', status: 'pending_payment', transaction_id: null },
+  { email: 'paiduser2@gmail.com', status: 'locked', transaction_id: 'UTR987654321' },
+  { email: 'activeuser3@gmail.com', status: 'active', transaction_id: 'UTR123456789' }
+];
+
+window.renderAdminDashboard = function() {
+  const tbody = document.getElementById('admin-users-list');
+  if (!tbody) return;
+  
+  // Also include the current user if not already in mock list
+  let displayUsers = [...window.MOCK_ADMIN_USERS];
+  if (STATE.activeProfile && STATE.activeProfile.email !== 'admin@jayastra.com' && !displayUsers.find(u => u.email === STATE.activeProfile.email)) {
+    displayUsers.push(STATE.activeProfile);
+  }
+  
+  tbody.innerHTML = displayUsers.map((u, i) => `
+    <tr style='border-bottom: 1px solid rgba(255,255,255,0.05);'>
+      <td style='padding: 12px;'>${u.email}</td>
+      <td style='padding: 12px;'>
+        <span style='padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; background: ${u.status === 'active' ? 'rgba(34,197,94,0.2)' : u.status === 'locked' ? 'rgba(239,68,68,0.2)' : 'rgba(234,179,8,0.2)'}; color: ${u.status === 'active' ? '#4ade80' : u.status === 'locked' ? '#ef4444' : '#eab308'};'>
+          ${u.status.toUpperCase()}
+        </span>
+      </td>
+      <td style='padding: 12px; font-family: monospace; color: var(--text-muted);'>${u.transaction_id || '-'}</td>
+      <td style='padding: 12px; display: flex; gap: 8px;'>
+        <button onclick='updateUserStatus(${i}, "active")' style='padding: 4px 8px; background: var(--success); color: #000; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Approve</button>
+        <button onclick='updateUserStatus(${i}, "locked")' style='padding: 4px 8px; background: #ef4444; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Lock</button>
+        <button onclick='updateUserStatus(${i}, "pending_payment")' style='padding: 4px 8px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Reject</button>
+      </td>
+    </tr>
+  `).join('');
+};
+
+window.updateUserStatus = function(idx, newStatus) {
+  let displayUsers = [...window.MOCK_ADMIN_USERS];
+  if (STATE.activeProfile && STATE.activeProfile.email !== 'admin@jayastra.com' && !displayUsers.find(u => u.email === STATE.activeProfile.email)) {
+    displayUsers.push(STATE.activeProfile);
+  }
+  const user = displayUsers[idx];
+  if (user) {
+    user.status = newStatus;
+    // Update local state if we are modifying the current logged-in test user
+    if (user.email === STATE.activeProfile?.email) {
+      STATE.activeProfile.status = newStatus;
+      if (typeof saveState === 'function') saveState();
+    }
+    renderAdminDashboard();
+  }
+};

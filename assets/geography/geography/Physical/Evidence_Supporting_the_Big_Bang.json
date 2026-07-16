@@ -1,0 +1,17 @@
+{
+  "title": "Evidence Supporting the Big Bang",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "Key Evidences for the Big Bang",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Big Bang Evidence] --> B[Hubble's Recession]\n    A --> C[Cosmic Microwave Background Radiation]\n    A --> D[Primordial H/He Abundances]",
+  "mapQuery": "",
+  "description": "Mind‑map showing the three principal observational evidences that validate the Big Bang model.",
+  "keywords": [
+    "Hubble's Law",
+    "CMBR",
+    "primordial abundances",
+    "evidence"
+  ]
+}

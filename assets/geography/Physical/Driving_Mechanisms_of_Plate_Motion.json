@@ -1,0 +1,17 @@
+{
+  "title": "Driving Mechanisms of Plate Motion",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Plate Tectonics",
+  "topic": "Plate Motion Forces",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\nA[Mantle Convection] --> B[Primary Engine]\nC[Ridge Push] --> D[Gravity sliding from ridges]\nE[Slab Pull] --> F[Dominant force from subducting slabs]\nA --> C\nA --> E",
+  "mapQuery": "",
+  "description": "Shows how mantle convection underlies ridge push and slab pull forces.",
+  "keywords": [
+    "mantle convection",
+    "ridge push",
+    "slab pull",
+    "plate motion"
+  ]
+}

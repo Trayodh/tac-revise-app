@@ -1,0 +1,17 @@
+{
+  "title": "Internal Structure of the Sun",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "The Sun",
+  "format": "Mermaid",
+  "description": "A diagram illustrating the concentric layers of the Sun's interior: Core, Radiative Zone, and Convective Zone, with their respective energy transport mechanisms.",
+  "keywords": [
+    "Sun structure",
+    "Solar core",
+    "Radiative zone",
+    "Convective zone",
+    "Nuclear fusion"
+  ],
+  "mermaidCode": "graph TD\n    A[Sun's Internal Structure] --> B[Core];\n    B --> B1(Site of Fusion, ~15 MK);\n    A --> C[Radiative Zone];\n    C --> C1(Energy Transport by Photon Diffusion);\n    A --> D[Convective Zone];\n    D --> D1(Energy Transport by Plasma Convection);"
+}

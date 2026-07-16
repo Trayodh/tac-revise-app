@@ -1,0 +1,20 @@
+{
+  "title": "Global Atmospheric Pressure Belts",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Pressure Belts",
+  "format": "RealMap",
+  "description": "A map showing the distribution of major global atmospheric pressure belts: Equatorial Low, Subtropical High, Subpolar Low, and Polar High.",
+  "keywords": [
+    "pressure belts",
+    "global pressure",
+    "equatorial low",
+    "subtropical high",
+    "subpolar low",
+    "polar high",
+    "atmosphere",
+    "climate"
+  ],
+  "mapQuery": "global atmospheric pressure belts map"
+}

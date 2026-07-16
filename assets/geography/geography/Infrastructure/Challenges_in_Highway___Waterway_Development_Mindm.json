@@ -1,0 +1,18 @@
+{
+  "title": "Challenges in Highway & Waterway Development Mindmap",
+  "subject": "Geography",
+  "category": "Infrastructure",
+  "chapter": "Challenges in Highway & Waterway Development",
+  "topic": "Key Challenges",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nA[Challenges in Highway & Waterway Development] --> B[Land Acquisition]\nA --> C[Environmental Concerns]\nA --> D[Funding Gaps]\nA --> E[Seasonal Variability]",
+  "mapQuery": "",
+  "description": "Mindmap highlighting the four principal challenges faced in the development of highways and inland waterways.",
+  "keywords": [
+    "land acquisition",
+    "environmental concerns",
+    "funding gaps",
+    "seasonal variability",
+    "infrastructure challenges"
+  ]
+}

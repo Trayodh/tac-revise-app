@@ -1,0 +1,21 @@
+{
+  "title": "Influential Geographers and Contributions",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Influential Geographers",
+  "topic": "Geographic Thought",
+  "format": "Mermaid",
+  "description": "A mindmap illustrating key influential geographers and their significant contributions to the field of geography.",
+  "keywords": [
+    "Geographers",
+    "Geographic Thought",
+    "Alexander von Humboldt",
+    "Carl Ritter",
+    "Paul Vidal de la Blache",
+    "Biogeography",
+    "Comparative Geography",
+    "Regional Geography",
+    "Human-environment interaction"
+  ],
+  "mermaidCode": "mindmap\n    root((Influential Geographers))\n        Alexander von Humboldt\n            Pioneer of biogeography\n            Physical geography\n        Carl Ritter\n            Founder of comparative geography\n            Geographic determinism\n        Paul Vidal de la Blache\n            Father of regional geography\n            Human-environment interaction studies"
+}

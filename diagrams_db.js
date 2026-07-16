@@ -6031,3 +6031,180 @@ DIAGRAMS_DB["environment__biodiversity-conservation"] = `
 </div>
 `;
 
+DIAGRAMS_DB["chemistry__chemistry-everyday-env"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background-color:#0f1117; color:#e2e8f0; padding:20px; box-sizing:border-box;">
+
+    <!-- Title Bar -->
+    <div style="background-color:#1e293b; padding:15px 20px; border-radius:8px; margin-bottom:30px; text-align:center; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+        <h1 style="color:#4ade80; margin:0; font-size:2.2em; letter-spacing:1.5px;">Everyday & Environmental Chemistry</h1>
+        <p style="color:#60a5fa; margin:5px 0 0; font-size:1.1em;">NDA | CDS | AFCAT Exam Focus</p>
+    </div>
+
+    <!-- Main Diagram Container -->
+    <div style="position:relative; width:2800px; height:2200px; margin:0 auto; padding:20px;">
+
+        <!-- Central Node -->
+        <div style="position:absolute; top:50px; left:1250px; width:300px; padding:20px; background:linear-gradient(135deg, #
+`;
+
+DIAGRAMS_DB["biology__biology-physiology"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background-color:#0f1117; color:#e2e8f0; padding:20px; box-sizing:border-box;">
+
+    <!-- Title Bar -->
+    <div style="background: linear-gradient(90deg, #60a5fa, #4ade80); padding: 18px 25px; border-radius: 12px; margin-bottom: 40px; text-align: center; box-shadow: 0 6px 20px rgba(0,0,0,0.4);">
+        <h1 style="margin:0; color:#0f1117; font-size:2.4em; font-weight:800; text-shadow: 1px 1px 3px rgba(255,255,255,0.3);">HUMAN PHYSIOLOGY: VITAL SYSTEMS & ORGANS</h1>
+        <p style="margin:8px 0 0; color:#0f1117; font-size:1.2em; opacity:0.9;">A Comprehensive Visual Guide for Defence Examinations</p>
+    </div>
+
+    <!-- Main Diagram Container -->
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; padding:
+`;
+
+DIAGRAMS_DB["biology__biology-kingdoms"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background-color: #0f1117; color: #e2e8f0; padding: 20px; box-sizing: border-box;">
+
+    <!-- Title Bar -->
+    <div style="background: linear-gradient(90deg, #4ade80, #60a5fa); padding: 15px 25px; border-radius: 8px; margin-bottom: 30px; text-align: center; font-size: 2em; font-weight: bold; color: #0f1117; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+        Plant & Animal Kingdoms
+    </div>
+
+    <!-- Main Diagram Container -->
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 40px; padding: 20px;">
+
+        <!-- Central Node: Kingdoms of Life -->
+        <div style="background-color: #60a5fa; color: #0f1117; padding: 15px 30px; border-radius: 50px; font-size: 1.8em; font-weight: bold; box-shadow: 0 6px 20px rgba(0,0,0,0.4); border: 2px solid #e2e8f0;">
+            KINGDOMS OF LIFE (R.H. Whittaker's 5-Kingdom Classification)
+        </div>
+
+        <!-- Connector from Central Node to the split -->
+        <div style="width: 2px; height: 50px; background-color: #e2e8f0; position: relative;">
+            <div style="position: absolute; top: 100%; left: -4px; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 10px solid #e2e8f0;"></div>
+        </div>
+
+        <!-- Horizontal Splitter for Plant and Animal Kingdoms -->
+        <div style="display: flex; justify-content: space-around; width: 100%; max-width: 1400px; gap: 40px; position: relative;">
+            <!-- Horizontal line -->
+            <div style="position: absolute; top: -20px; left: 15%; width: 70%; height: 2px; background-color: #e2e8f0;"></div>
+            <!-- Vertical line to Plant Kingdom -->
+            <div style="position: absolute; top: -20px; left: calc(15% + 15px); width: 2px; height: 20px; background-color: #e2e8f0;">
+                <div style="position: absolute; top: 100%; left: -4px; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 10px solid #e2e8f0;"></div>
+            </div>
+            <!-- Vertical line to Animal Kingdom -->
+            <div style="position: absolute; top: -20px; right: calc(15% + 15px); width: 2px; height: 20px; background-color: #e2e8f0;">
+                <div style="position: absolute; top: 100%; left: -4px; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 10px solid #e2e8f0;"></div>
+            </div>
+
+            <!-- Plant Kingdom Branch -->
+            <div style="flex: 1; min-width: 45%; background-color: #1a1d26; border-radius: 12px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.12); position: relative;">
+                <h3 style="color: #4ade80; text-align: center; margin-top: 0; margin-bottom: 25px; font-size: 1.6em; border-bottom: 2px solid #4ade80; padding-bottom: 10px;">KINGDOM PLANTAE</h3>
+                
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 25px;">
+                    
+                    <!-- Node: Algae -->
+                    <div style="background-color: #2b2f3a; padding: 15px 20px; border-radius: 10px; border: 1px solid #4ade80; width: 90%; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                        <h4 style="color: #4ade80; margin-top: 0; margin-bottom: 10px; font-size: 1.2em;">1. Algae (Thallophyta)</h4>
+                        <ul style="margin: 0; padding-left: 20px; list-style-type: disc; color: #e2e8f0;">
+                            <li>Simple, thalloid body, autotrophic. Mostly aquatic.</li>
+                            <li>No true roots, stems, leaves. Body undifferentiated (thallus).</li>
+                            <li>Reproduction: Asexual (fragmentation), Sexual (isogamy, anisogamy, oogamy).</li>
+                            <li>Examples: <span style="color:#f59e0b;">*Spirogyra*</span> (Green Algae), <span style="color:#f59e0b;">*Fucus*</span> (Brown Algae), <span style="color:#f59e0b;">*Gelidium*</span> (Red Algae).</li>
+                            <li>Economic importance: Agar-agar from *Gelidium*, *Gracilaria*.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Connector -->
+                    <div style="width: 2px; height: 20px; background-color: #e2e8f0; position: relative;">
+                        <div style="position: absolute; top: 100%; left: -4px; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 10px solid #e2e8f0;"></div>
+                    </div>
+
+                    <!-- Node: Bryophytes -->
+                    <div style="background-color: #2b2f3a; padding: 15px 20px; border-radius: 10px; border: 1px solid #4ade80; width: 90%; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                        <h4 style="color: #4ade80; margin-top: 0; margin-bottom: 10px; font-size: 1.2em;">2. Bryophytes (Amphibians of Plant Kingdom)</h4>
+                        <ul style="margin: 0; padding-left: 20px; list-style-type: disc; color: #e2e8f0;">
+                            <li>Live in moist shady areas, depend on water for sexual reproduction.</li>
+                            <li>Thallus-like, prostrate or erect body. Rhizoids for attachment.</li>
+                            <li>Lack true roots, stems, leaves, and vascular tissue (xylem & phloem).</li>
+                            <li>Gametophyte is the dominant, free-living, photosynthetic phase.</li>
+                            <li>Examples: <span style="color:#f59e0b;">*Funaria*</span> (Moss), <span style="color:#f59e0b;">*Marchantia*</span> (Liverwort).</li>
+                        </ul>
+                    </div>
+
+                    <!-- Connector -->
+                    <div style="width: 2px; height: 20px; background-color: #e2e8f0; position: relative;">
+                        <div style="position: absolute; top: 100%; left: -4px; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 10px solid #e2e8f0;"></div>
+                    </div>
+
+                    <!-- Node: Pteridophytes -->
+                    <div style="background-color: #2b2f3a; padding: 15px 20px; border-radius: 10px; border: 1px solid #4ade80; width: 90%; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                        <h4 style="color: #4ade80; margin-top: 0; margin-bottom: 10px; font-size: 1.2em;">3. Pteridophytes (First terrestrial plants with vascular tissues)</h4>
+                        <ul style="margin:
+`;
+
+DIAGRAMS_DB["biology__biology-ecology"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background-color:#0f1117; color:#e2e8f0; padding:20px; box-sizing:border-box;">
+
+    <!-- Title Bar -->
+    <div style="background: linear-gradient(90deg, #4ade80, #60a5fa); padding: 15px 25px; border-radius: 8px; margin-bottom: 30px; text-align: center; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);">
+        <h1 style="margin: 0; color: #0f1117; font-size: 2.2em; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;">Ecology & Ecosystems: Comprehensive Overview</h1>
+        <p style="margin: 5px 0 0; color: #0f1117; font-size: 1.1em; font-weight: 500;">NDA, CDS, AFCAT Exam Preparation</p>
+    </div>
+
+    <!-- Main Container for the Concept Map -->
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 40px;">
+
+        <!-- Central
+`;
+
+DIAGRAMS_DB["military-aptitude__afcat-verbal-reasoning"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background-color:#0f1117; color:#e2e8f0; padding-bottom:20px;">
+
+    <!-- Title Bar -->
+    <div style="background-color:#4ade80; color:#0f1117; padding:15px; text-align:center; font-size:1.8em; font-weight:bold; border-bottom:3px solid #60a5fa; margin-bottom:20px;">
+        VERBAL REASONING (AFCAT)
+    </div>
+
+    <!-- Main Diagram Container -->
+    <div style="display:flex; flex-direction:column; align-items:center; padding:10px;">
+
+        <!-- Central Node: Verbal Reasoning (AFCAT) -->
+        <div style="background: linear-gradient(135deg, #4ade80, #60a5fa); color:#0f1117; padding:20px 30px; border-radius:15px; font-size:1.6em; font-weight:bold; text-align:center; box-shadow:0 8px 16px rgba(0,0,0,0.4); margin-bottom:30px; position:relative; z-index:1; min-width:300px;">
+`;
+
+DIAGRAMS_DB["current-affairs__schemes-policies"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background-color:#0f1117; color:#e2e8f0; padding:20px; box-sizing:border-box;">
+
+    <!-- Title Bar -->
+    <div style="background: linear-gradient(90deg, #4ade80, #60a5fa); padding:15px 25px; border-radius:8px; margin-bottom:40px; text-align:center; box-shadow:0 6px 15px rgba(0,0,0,0.3); position:relative; overflow:hidden;">
+        <h1 style="margin:0; font-size:2.2em; color:#0f1117; font-weight:700; text-shadow:1px 1px 2px rgba(255,255,255,0.4);">Schemes, Policies & Summits</h1>
+        <p style="margin:5px 0 0; font-size:1.1em; color:#0f1117; opacity:0.9;">Current Affairs for Indian Defence Examinations</p>
+        <div style="position:absolute; top:-10px; right:-10px; width:50px; height:50px; background:rgba(255,25
+`;
+
+DIAGRAMS_DB["current-affairs__global-events-defence"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif;">
+
+    <!-- Title Bar -->
+    <div style="background-color:#1a1d24; padding:18px 25px; border-radius:10px; margin-bottom:30px; text-align:center; box-shadow:0 6px 20px rgba(0,0,0,0.4); border:1px solid rgba(255,255,255,0.12);">
+        <h2 style="margin:0; color:#4ade80; font-size:2.2em; font-weight:700; letter-spacing:1.5px; text-shadow:0 0 10px rgba(74,222,128,0.5);">Global Events & Strategic Updates</h2>
+        <p style="margin:8px 0 0; color:#60a5fa; font-size:1.2em; font-weight:400;">Comprehensive Infographic for Indian Defence Examinations</p>
+    </div>
+
+    <!-- Main Diagram Container -->
+    <div style="position:relative; width:1900px; height:1800px; margin:0 auto; border:1px solid rgba(255,255,255,0.12); border-radius:1
+`;
+
+DIAGRAMS_DB["environment__climate-laws-energy"] = `
+<div style="width:100%; overflow-x:auto; font-family:'Segoe UI',sans-serif; background-color:#0f1117; color:#e2e8f0; padding:20px; box-sizing:border-box;">
+
+    <!-- Title Bar -->
+    <div style="background: linear-gradient(90deg, #60a5fa, #4ade80); padding: 15px 25px; border-radius: 8px; margin-bottom: 30px; text-align: center; font-size: 2em; font-weight: bold; color: #0f1117; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+        Climate, Laws & Renewable Energy
+    </div>
+
+    <!-- Main Diagram Container -->
+    <div style="position: relative; min-width: 1800px; height: 1200px; margin: 0 auto; border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; background-color: #1a202c; padding: 30px; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
+
+        <!-- Central Hub: India's Sustainable Environment -->
+        <
+`;
+

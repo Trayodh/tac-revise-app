@@ -1,0 +1,18 @@
+{
+  "title": "Classification of Volcano Types",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Volcanism",
+  "topic": "Volcano Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nVolcanoes --> Shield[Shield Volcanoes]\nVolcanoes --> Composite[Composite (Stratovolcanoes)]\nVolcanoes --> Caldera[Calderas]\nVolcanoes --> FloodBasalt[Flood Basalt Provinces]\nVolcanoes --> MidOcean[Mid‑Ocean Ridge Volcanoes]",
+  "mapQuery": "",
+  "description": "Tree diagram categorising the main volcanic landforms based on eruption style, magma composition, and tectonic setting.",
+  "keywords": [
+    "volcano types",
+    "shield volcano",
+    "stratovolcano",
+    "caldera",
+    "flood basalt"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Global Temperature Distribution",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Heat Budget & Temperature",
+  "topic": "Temperature Distribution",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "global temperature distribution map",
+  "description": "World map showing isotherms and average surface temperature gradients from equator to poles, highlighting the influence of latitude, ocean currents, and altitude.",
+  "keywords": [
+    "temperature distribution",
+    "global isotherms",
+    "climate gradient"
+  ]
+}

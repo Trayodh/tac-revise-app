@@ -1,0 +1,17 @@
+{
+  "title": "Humidity Measures Comparison",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Humidity & Precipitation",
+  "topic": "Humidity Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Humidity Measures] --> B[Absolute Humidity]\n    A --> C[Specific Humidity]\n    A --> D[Relative Humidity]",
+  "mapQuery": "",
+  "description": "Simple flowchart listing the three principal ways to quantify atmospheric humidity.",
+  "keywords": [
+    "humidity",
+    "absolute humidity",
+    "specific humidity",
+    "relative humidity"
+  ]
+}

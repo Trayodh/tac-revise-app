@@ -1,0 +1,18 @@
+{
+  "title": "Igneous Rock Classification",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Rocks",
+  "topic": "Igneous Rocks",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Igneous Rocks] --> B[By Formation]\n    B --> B1[Intrusive (Plutonic)]\n    B --> B2[Extrusive (Volcanic)]\n    A --> C[By Silica Content]\n    C --> C1[Felsic (>65% SiO2)]\n    C --> C2[Intermediate (55‑65% SiO2)]\n    C --> C3[Mafic (45‑55% SiO2)]\n    C --> C4[Ultrabasic (<45% SiO2)]",
+  "mapQuery": "",
+  "description": "Classification tree of igneous rocks based on formation environment and silica content.",
+  "keywords": [
+    "igneous",
+    "intrusive",
+    "extrusive",
+    "felsic",
+    "mafic"
+  ]
+}

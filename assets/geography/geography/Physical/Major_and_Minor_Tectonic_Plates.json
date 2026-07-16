@@ -1,0 +1,18 @@
+{
+  "title": "Major and Minor Tectonic Plates",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Plate Tectonics",
+  "topic": "Tectonic Plates",
+  "format": "RealMap",
+  "description": "A map showing the distribution of Earth's major (Pacific, North American, South American, Eurasian, African, Indo-Australian, Antarctic) and minor tectonic plates (Nazca, Cocos, Caribbean, Philippine Sea, Arabian, Juan de Fuca, Scotia).",
+  "keywords": [
+    "tectonic plates",
+    "major plates",
+    "minor plates",
+    "lithosphere",
+    "plate boundaries",
+    "world map"
+  ],
+  "mapQuery": "World tectonic plates map with major and minor plates"
+}

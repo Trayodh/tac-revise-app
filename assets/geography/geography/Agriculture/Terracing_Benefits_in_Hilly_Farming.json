@@ -1,0 +1,17 @@
+{
+  "title": "Terracing Benefits in Hilly Farming",
+  "subject": "Geography",
+  "category": "Agriculture",
+  "chapter": "Farming Systems",
+  "topic": "Terrace Farming",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    Terracing[Terracing] -->|creates| Benches[Flat benches]\n    Benches -->|reduces| Runoff[Runoff velocity]\n    Benches -->|enhances| Moisture[Soil moisture retention]\n    Moisture -->|supports| Crops[Tea, Cardamom, Apple]\n    Terracing -->|enables| Diversification[Livelihood Diversification]\n    Diversification -->|includes| Animal[Animal husbandry (yaks, goats)]\n    Diversification -->|includes| AgroForestry[Agro‑forestry (Eucalyptus)]",
+  "mapQuery": "",
+  "description": "Flow diagram showing how terracing transforms steep slopes, reduces erosion, improves moisture, and facilitates high‑value crops and diversified livelihoods in the NEHR and Himalayan regions.",
+  "keywords": [
+    "terrace farming",
+    "erosion control",
+    "hilly agriculture",
+    "NEHR"
+  ]
+}

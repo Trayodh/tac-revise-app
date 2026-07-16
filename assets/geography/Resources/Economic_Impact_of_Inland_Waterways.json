@@ -1,0 +1,16 @@
+{
+  "title": "Economic Impact of Inland Waterways",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Economic Impact of Waterways",
+  "topic": "Cost, Environmental, and Traffic Benefits",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    EconomicImpact-->CostEfficiency[Cost Efficiency]\n    EconomicImpact-->EnvironmentalAdvantage[Environmental Advantage]\n    EconomicImpact-->Decongestion[De‑congestion of Highways]",
+  "mapQuery": "",
+  "description": "Diagram summarizing the key economic advantages of inland water transport, including cost savings, lower CO₂ emissions, and highway de‑congestion.",
+  "keywords": [
+    "cost efficiency",
+    "CO2 emissions",
+    "highway decongestion"
+  ]
+}

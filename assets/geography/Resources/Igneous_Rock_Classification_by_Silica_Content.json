@@ -1,0 +1,19 @@
+{
+  "title": "Igneous Rock Classification by Silica Content",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Rocks",
+  "topic": "Igneous Rocks",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    IR[Igneous Rocks]\n    IR --> F[Felsic (>65% SiO₂)]\n    IR --> M[Mafic (45‑55% SiO₂)]\n    IR --> I[Intermediate (55‑65% SiO₂)]\n    IR --> U[Ultrabasic (<45% SiO₂)]\n    F --> G[Granite, Rhyolite]\n    M --> B[Basalt, Gabbro]\n    I --> D[Diorite, Andesite]\n    U --> UL[Ultrabasic examples]",
+  "mapQuery": "",
+  "description": "Classification tree showing igneous rocks divided by silica content into felsic, mafic, intermediate, and ultrabasic groups, with typical rock examples for each category.",
+  "keywords": [
+    "igneous rocks",
+    "silica content",
+    "felsic",
+    "mafic",
+    "intermediate",
+    "ultrabasic"
+  ]
+}

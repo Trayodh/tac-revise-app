@@ -1,0 +1,18 @@
+{
+  "title": "Geological Controls on Mineral Distribution",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Mineral Resources",
+  "topic": "Geological Controls",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    Precambrian[Precambrian Cratons (Aravalli‑Delhi Belt)] -->|high‑grade| IronCopper[Iron ore & Cu‑Zn sulfides]\n    Gondwana[Gondwana Basins (Singhbhum, Koyna)] -->|rich in| CoalManganese[Coal & Manganese]\n    Laterite[Laterite Zones (Western Ghats, Eastern Coastal Plains)] -->|concentrate| BauxiteNickel[Bauxite & Nickel]\n    Alluvial[Alluvial Plains (Indus & Ganga basins)] -->|contain| GoldDiamond[Placer Gold & Diamond]",
+  "mapQuery": "",
+  "description": "Flowchart illustrating how different geological provinces control the occurrence of specific mineral deposits in India.",
+  "keywords": [
+    "geology",
+    "mineral distribution",
+    "cratons",
+    "basins",
+    "laterite"
+  ]
+}

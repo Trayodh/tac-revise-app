@@ -1,0 +1,17 @@
+{
+  "title": "Meteoroid, Meteor, and Meteorite Definitions",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "Other Celestial Bodies",
+  "format": "Mermaid",
+  "description": "A flowchart defining the terms meteoroid, meteor, and meteorite based on their location and interaction with Earth's atmosphere.",
+  "keywords": [
+    "Meteoroid",
+    "Meteor",
+    "Meteorite",
+    "Atmospheric entry",
+    "Space debris"
+  ],
+  "mermaidCode": "graph TD\n    A[Space-borne Rock/Metal Fragment] --> B(Meteoroid);\n    B -- Enters Earth's Atmosphere --> C(Meteor);\n    C --> C1(Luminous Streak due to Ablation);\n    C -- Survives Atmospheric Entry --> D(Meteorite);\n    D --> D1(Fragment Lands on Earth);"
+}

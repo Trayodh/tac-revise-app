@@ -1,0 +1,17 @@
+{
+  "title": "Metamorphic Rock Classification",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Rocks",
+  "topic": "Metamorphic Rocks",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Metamorphic Rocks] --> B[By Process]\n    B --> B1[Contact Metamorphism]\n    B --> B2[Regional Metamorphism]\n    B --> B3[Hydrothermal Metamorphism]",
+  "mapQuery": "",
+  "description": "Classification diagram of metamorphic rocks based on the dominant metamorphic process.",
+  "keywords": [
+    "metamorphic",
+    "contact",
+    "regional",
+    "hydrothermal"
+  ]
+}

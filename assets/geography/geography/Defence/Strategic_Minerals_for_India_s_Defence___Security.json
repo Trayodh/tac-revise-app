@@ -1,0 +1,23 @@
+{
+  "title": "Strategic Minerals for India's Defence & Security",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Mineral Resources & Types of Farming",
+  "topic": "Strategic Importance for Defence & Security",
+  "format": "Mermaid",
+  "description": "A diagram highlighting key minerals of strategic importance for India's defence and security, detailing their applications and primary sources or locations.",
+  "keywords": [
+    "strategic minerals",
+    "defence",
+    "security",
+    "Uranium",
+    "Rare Earth Elements",
+    "Coal",
+    "Iron ore",
+    "Aluminium",
+    "nuclear deterrence",
+    "missile guidance",
+    "India"
+  ],
+  "mermaidCode": "graph TD A[Strategic Minerals for Defence & Security] --> B(Uranium) B --> B1[Nuclear Deterrence Triad] B --> B2(Primary Mining: Jaisalmer, UCIL) A --> C(Rare Earth Elements - REE) C --> C1[Radar, Avionics, Missile Guidance] C --> C2(Exploration: Kudremukh, Singhbhum) A --> D(Coal) D --> D1[Fuels Indian Railways & Thermal Power] D --> D2(Supports Forward Bases) A --> E(Iron Ore & Aluminium) E --> E1[Critical for Aircraft, Naval Hulls, Armoured Vehicles] E --> E2(Strategic Stockpiles: Odisha, Jharkhand)"
+}
