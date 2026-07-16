@@ -1073,15 +1073,20 @@ function renderTopicView(subjectId, chapterId, topicId) {
   
   const subjectKey = subjectId;
   const chapterDiagramId = `${subjectKey}__${(chapter.id || chapter.title.replace(/[^a-z0-9]/gi, '-').toLowerCase())}`;
-  const hasChapterDiagram = typeof window.DIAGRAMS_DB !== 'undefined' && window.DIAGRAMS_DB[chapterDiagramId];
+  const chapterDiagramHtml = (typeof window.DIAGRAMS_DB !== 'undefined' && window.DIAGRAMS_DB[chapterDiagramId])
+    ? `<div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08);">
+        <div style="color: var(--text-muted); font-size: 0.75rem; font-family: var(--font-mono); margin-bottom: 14px; letter-spacing: 1px; text-transform: uppercase; display: flex; align-items: center; gap: 8px;">
+          <svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#4ade80' stroke-width='2'><rect x='3' y='3' width='18' height='18' rx='2'/><path d='M3 9h18M9 21V9'/></svg>
+          Chapter Visual Reference
+        </div>
+        ${DIAGRAMS_DB[chapterDiagramId]}
+      </div>`
+    : '';
 
   const tabsHtml = `
     <div class="topic-tab-bar" style="display: flex; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 2px;">
       <button class="tab-btn ${activeNotesTab === 'notes' ? 'active' : ''}" onclick="setNotesTab('notes')" style="white-space: nowrap; flex-shrink: 0;">
         📖 Concept Notes
-      </button>
-      <button class="tab-btn ${activeNotesTab === 'diagram' ? 'active' : ''}" onclick="setNotesTab('diagram')" style="white-space: nowrap; flex-shrink: 0; display: ${hasChapterDiagram ? 'block' : 'none'};">
-        🗺️ Chapter Diagram
       </button>
       <button class="tab-btn ${activeNotesTab === 'formulas' ? 'active' : ''}" onclick="setNotesTab('formulas')" style="white-space: nowrap; flex-shrink: 0;">
         📐 High-Yield Formulas
@@ -1126,6 +1131,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
               ${parseWikiLinks(EXPERT_REVISION_DATA[topic.id])}
             </div>
           ` : ''}
+          ${chapterDiagramHtml}
         </div>
       </div>
     `;
@@ -1139,18 +1145,6 @@ function renderTopicView(subjectId, chapterId, topicId) {
           <button class="action-btn ${isFormulaSaved ? 'active-green' : ''}" onclick="toggleFormulaReadStatus('${topic.id}', this)" style="padding: 10px 20px;">
              ${isFormulaSaved ? 'Formula Memorized' : 'Mark Formula as Memorized'}
           </button>
-        </div>
-      </div>
-    `;
-  } else if (activeNotesTab === 'diagram' && hasChapterDiagram) {
-    tabContentHtml = `
-      <div class="tab-pane-content fade-in" style="height: 100%; overflow-y: auto;">
-        <div style="padding: 16px 0 30px 0;">
-          <div style="color: var(--text-muted); font-size: 0.75rem; font-family: var(--font-mono); margin-bottom: 14px; letter-spacing: 1px; text-transform: uppercase; display: flex; align-items: center; gap: 8px;">
-            <svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#4ade80' stroke-width='2'><rect x='3' y='3' width='18' height='18' rx='2'/><path d='M3 9h18M9 21V9'/></svg>
-            Chapter Visual Reference — ${chapter.title}
-          </div>
-          ${DIAGRAMS_DB[chapterDiagramId]}
         </div>
       </div>
     `;
