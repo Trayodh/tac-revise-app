@@ -566,114 +566,31 @@ EXPANDED_NOTES_DATA["stone-age"] = `
 `;
 
 EXPANDED_NOTES_DATA["chalcolithic-age"] = `
-<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    Chalcolithic Age
-  </h3>
-  
-  <h4 style="color: var(--accent-light); margin-top: 24px;">1. Overview & Chronological Placement</h4>
+
+  <h2>️ The Chalcolithic & Pottery Cultures</h2>
+  <p>The transition period from the Stone Age to the Metal Age, characterized by the joint use of Copper and Stone.</p>
+
+  <h3>1. Prehistoric Pottery Cultures Timeline</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Culture</th>
+      <th style="padding:8px; border:1px solid var(--border);">Period</th>
+      <th style="padding:8px; border:1px solid var(--border);">Pottery Types</th>
+    </tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Mehrgarh Culture</td><td style="padding:8px; border:1px solid var(--border);">7000-2600 BCE</td><td style="padding:8px; border:1px solid var(--border);">Red Ware, Black-on-Red Ware</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Indus Valley Civilization</td><td style="padding:8px; border:1px solid var(--border);">2600-1900 BCE</td><td style="padding:8px; border:1px solid var(--border);">Painted Grey Ware, Black Polished Ware</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Ochre Coloured Pottery Culture</td><td style="padding:8px; border:1px solid var(--border);">2000-1500 BCE</td><td style="padding:8px; border:1px solid var(--border);">Ochre Coloured Pottery (OCP)</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Malwa Culture</td><td style="padding:8px; border:1px solid var(--border);">1500-500 BCE</td><td style="padding:8px; border:1px solid var(--border);">Malwa Ware (Red and black pottery)</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Early Iron Age Cultures</td><td style="padding:8px; border:1px solid var(--border);">1200-600 BCE</td><td style="padding:8px; border:1px solid var(--border);">Northern Black Polished Ware, Painted Grey Ware (PGW)</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Megalithic Cultures</td><td style="padding:8px; border:1px solid var(--border);">1000-300 BCE</td><td style="padding:8px; border:1px solid var(--border);">Black and Red Ware</td></tr>
+  </table>
+
+  <h3>2. Major Chalcolithic Cultures</h3>
   <ul>
-    <li><strong>Temporal span:</strong> Roughly <strong>3000–1500 BCE</strong> in the Indian sub‑continent, bridging the terminal <a href="#"><strong>Neolithic</strong></a> stage and the early <a href="#"><strong>Bronze Age</strong></a>.</li>
-    <li>The period is also termed the <strong>[[Copper Age]]</strong> or <strong>[[Chalcolithic Age]]</strong> because of the simultaneous use of <strong>copper</strong> alongside stone tools.</li>
-    <li>It overlaps with the declining phases of the [[Harappan Civilization]] (c. 2600–1900 BCE) in north‑west India and marks the emergence of distinct regional cultures in the Deccan, Gujarat, Central India and the Indo‑Gangetic plains.</li>
+    <li><strong>Ahar-Banas Culture (Rajasthan: 2500-1500 BCE):</strong> Sites like Ahar and Gilund. Houses made of stone and mud. Copper smelting furnaces found.</li>
+    <li><strong>Jorwe Culture (Maharashtra: 1400-700 BCE):</strong> Most extensive. Sites: Inamgaon and Daimabad. Highly settled, fortified villages.</li>
   </ul>
 
-  <h4 style="color: var(--accent-light); margin-top: 24px;">2. Regional Spread & Major Cultures</h4>
-  <ul>
-    <li><strong>Northwestern Zone (Punjab‑Haryana):</strong> Continuation of Harappan settlements (e.g., <a href="#"><strong>Kalibangan</strong></a>, <a href="#"><strong>Baradari</strong></a>) with increasing reliance on copper artefacts.</li>
-    <li><strong>Gujarat & Coastal Zone:</strong> Development of the <strong>[[Megalithic culture]]</strong> with characteristic stone circles, dolmens and cairns; prominent sites include <a href="#"><strong>Uran</strong></a> and <a href="#"><strong>Juna Khandi</strong></a>.</li>
-    <li><strong>Central Indian Plateau (Madhya Pradesh, Chhattisgarh):</strong> The <strong>[[Megalithic culture]]</strong> flourished; notable sites are <a href="#"><strong>Barudih</strong></a>, <a href="#"><strong>Dhar</strong></a>, and <a href="#"><strong>Maheshwar</strong></a>.</li>
-    <li><strong>Southern Deccan (Maharashtra, Karnataka, Andhra Pradesh):</strong> The hallmark of the <strong>[[Megalithic culture]]</strong> is the extensive megalithic necropolis (e.g., <a href="#"><strong>Adichanallur</strong></a>, <a href="#"><strong>Burial sites of Andhra</strong></a>).</li>
-    <li><strong>Eastern Gangetic Plains (Bihar, West Bengal):</strong> Transition from the Late Neolithic to Chalcolithic with sites like <a href="#"><strong>Mahasthan</strong></a> and <a href="#"><strong>Mahagara</strong></a>.</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 24px;">3. Settlement Patterns & Architecture</h4>
-  <ul>
-    <li>Villages were generally <strong>small–medium in size</strong> (30‑150 dwellings), often located on river terraces or hill slopes providing natural defense.</li>
-    <li>Construction techniques employed a mixture of <strong>mud‑brick, wattle‑and‑daub, and stone</strong>. Walls were sometimes plastered with lime, indicating knowledge of basic cementitious binders.</li>
-    <li><strong>Megalithic monuments</strong>—dolmens, cairns, stone circles—served as communal burial structures and possibly as territorial markers. Their prevalence underscores a ritualised approach to death and ancestor veneration.</li>
-    <li>In coastal Gujarat, evidence of **planned settlements** with aligned streets and drainage channels hints at an early urban planning ethos akin to that of the Harappans.</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 24px;">4. Economic Base</h4>
-  <ul>
-    <li><strong>Agriculture:</strong> Primary crops included **millets (pearl, sorghum), barley, wheat and rice**. The shift from reliance on wild cereals to cultivated varieties denotes a deeper agrarian base.</li>
-    <li>Evidence of **irrigation**—rudimentary channels, bunds, and water‑storage pits—illustrates attempts to control monsoonal variability, especially in the Deccan.</li>
-    <li><strong>Livestock rearing:</strong> Cattle, buffalo, goats and sheep were integral; dung was used both as fertilizer and as fuel for ceramic kilns.</li>
-    <li><strong>Craft specialization:</strong> Copper‐working workshops, bead‑making, pottery kilns, and stone‑tool production indicate early occupational differentiation.</li>
-    <li>Trade networks expanded: **Raw copper** from the ore‑rich regions of Rajasthan and the Singhbhum belt was exchanged for **ceramics, beads, and agricultural surpluses** across the sub‑continent.</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 24px;">5. Material Culture</h4>
-  <strong>5.1. Metallurgy</strong>
-  <ul>
-    <li>**Copper extraction**: Primary extraction via open‑pit mines; alloying with tin to produce limited bronze artifacts is documented at sites like <a href="#"><strong>Kanchanbari</strong></a>.</li>
-    <li>Common copper tools: **Axes, blades, awls, chisels, spear‑heads**; decorative items include **bracelets, anklets, and ear‑studs**.</li>
-    <li>Metallurgical waste (slag, crucibles) is abundant, indicating **proto‑industrial workshops**.</li>
-  </ul>
-
-  <strong>5.2. Pottery & Ceramics</strong>
-  <ul>
-    <li>Two major ceramic traditions:
-      <ul>
-        <li><strong>Black‑and‑red ware (BRW):</strong> Thick-walled, often with incised geometric motifs; found across the Ganges‑Yamuna plains.</li>
-        <li><strong>Red‑slipped ware:</strong> Fine‑grained, smoother finish; common in Gujarat and the Deccan.</li>
-      </ul>
-    </li>
-    <li>Evidence of **kiln firing** (upward draft kilns) points to controlled high‑temperature techniques.</li>
-    <li>Pottery functioned both utilitarian (storage, cooking) and ceremonial (ritual libations, burial offerings).</li>
-  </ul>
-
-  <strong>5.3. Lithic Industry</strong>
-  <ul>
-    <li>Continued production of **microlithic blades and points** for hunting, though gradually replaced by metal counterparts.</li>
-    <li>Stone implements—**querns, pestles, grinding stones**—reflect intensifying agricultural practices.</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 24px;">6. Social Organization & Community Life</h4>
-  <ul>
-    <li>Archaeological evidence suggests **clan‑based societies** with strong kinship ties, inferred from the uniformity of burial customs within a region.</li>
-    <li>Gender roles appear differentiated: **Male burials** are often accompanied by weapons (axes, spearheads), while **female burials** include ornaments (bracelets, beads).</li>
-    <li>Presence of **elite graves** (large dolmens, rich grave goods) indicates early social stratification.</li>
-    <li>Evidence of **reciprocal exchange** (e.g., communal feasting, shared storage facilities) hints at complex socio‑economic interdependence.</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 24px;">7. Religious & Symbolic Aspects</h4>
-  <ul>
-    <li>Stone circles and **cairn‑type megaliths** are interpreted as **ancestral worship sites**, where rituals likely involved fire and libations.</li>
-    <li>Petroglyphs and **incised motifs** (e.g., concentric circles, swastikas) on pottery and stone slabs may represent **cosmological symbols** or clan emblems.</li>
-    <li>Evidence of **domestic altars** (small hearths with charred seeds) suggests household-level religious practices.</li>
-    <li>Possible early **cult of fertility** inferred from female figurines found at sites like <a href="#"><strong>Gurgaon</strong></a>.</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 24px;">8. Comparative Lens: Chalcolithic vs. Neolithic & Harappan</h4>
-  <ul>
-    <li>Unlike the pure stone‑tool reliance of the <strong>[[Neolithic]]</strong>, Chalcolithic societies demonstrate **metal‑stone hybridity**, implying technological transition.</li>
-    <li>Compared with the sophisticated urban planning of the **[[Harappan Civilization]]**, Chalcolithic settlements are smaller but exhibit **proto‑urban traits** such as standardized pottery, organized burial grounds, and specialized production zones.</li>
-    <li>Economic continuity: Both Harappan and Chalcolithic economies rely on **agriculture, livestock, and trade**, yet the latter displays a **more regionally diversified** commodity chain.</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 24px;">9. Key Archaeological Sites</h4>
-  <ul>
-    <li><strong>[[Mehrgarh]] (Baluchistan):</strong> Although earlier (pre‑Chalcolithic), its later phases show copper artefacts bridging the transition.</li>
-    <li><strong>[[Uran]] (Gujarat):</strong> Classic megalithic necropolis with dolmens, revealing complex mortuary customs.</li>
-    <li><strong>[[Adichanallur]] (Tamil Nadu):</strong> Southernmost megalithic site with rich grave goods including copper weapons and gold ornaments.</li>
-    <li><strong>[[Rakhigarhi]] (Haryana):</strong> Late Harappan layer overlies Chalcolithic deposits, illustrating cultural continuity.</li>
-    <li><strong>[[Khedur]] (Madhya Pradesh):</strong> Central Indian site displaying bronze‐age contacts.</li>
-    <li><strong>[[Dhar]] (Madhya Pradesh):</strong> Evidence of copper smelting furnaces and intricate stone circles.</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 24px;">10. Significance for Indian Civilization</h4>
-  <ul>
-    <li>The Chalcolithic Age **bridges the gap** between the sophisticated urbanism of the Harappans and the later regional cultures that gave rise to the **Vedic societies**.</li>
-    <li>Its **metallic technology** set the foundation for the wider spread of bronze metallurgy in the Sub‑Continent during the Early Iron Age.</li>
-    <li>Regional diversity in settlement, burial, and material culture demonstrates the **pluralistic nature** of early Indian societies, countering monolithic narratives.</li>
-    <li>Trade networks established during this era **pre‑figure the later Silk‑Road connections**, showing early long‑distance exchange of raw materials and finished goods.</li>
-    <li>Understanding Chalcolithic patterns of **social stratification, craft specialization and ritual practice** provides essential context for interpreting later texts such as the **Rig‑Veda** and **epigraphic records**.</li>
-  </ul>
-
-  <p style="margin-top: 24px; font-size: 0.9em; color: var(--text-secondary);">*All terms in double brackets are intended as interactive wiki links for deeper exploration.*</p>
-</div>
 `;
 
 EXPANDED_NOTES_DATA["rock-art"] = `
@@ -1121,48 +1038,55 @@ EXPANDED_NOTES_DATA["vedic-age"] = `
 `;
 
 EXPANDED_NOTES_DATA["mahajanapadas"] = `
-<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    Mahajanapadas
-  </h3>
-  
-  <h4>Introduction to Mahajanapadas</h4>
-  <p>The term **Mahajanapadas** refers to the large kingdoms or empires that emerged in ancient India during the 6th and 5th centuries BCE. The word "Mahajanapada" is derived from the Sanskrit words **Maha** (great) and **Janapada** (province or territory). These kingdoms played a significant role in the development of Indian history, and their legacy can still be seen in modern times.</p>
-  <p>The Mahajanapadas were characterized by their **monarchical** system of government, with a king or ruler at the helm. They were also known for their **feudal** system, where the king owned the land and the subjects were required to provide military service and pay taxes. The Mahajanapadas were also centers of **trade and commerce**, with many of them having strategic locations that facilitated trade with other kingdoms and regions.</p>
-  
-  <h4>List of Mahajanapadas</h4>
+
+  <h2> Mahajanapadas & Rise of Magadha</h2>
+  <p>The 6th century BCE marked the second urbanization in India, characterized by territorial consolidation and new religious movements.</p>
+
+  <h3>1. The 16 Mahajanapadas</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Mahajanapada</th>
+      <th style="padding:8px; border:1px solid var(--border);">Capital</th>
+      <th style="padding:8px; border:1px solid var(--border);">Present-day</th>
+      <th style="padding:8px; border:1px solid var(--border);">Important Ruler</th>
+      <th style="padding:8px; border:1px solid var(--border);">River</th>
+    </tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Anga</td><td style="padding:8px; border:1px solid var(--border);">Champa</td><td style="padding:8px; border:1px solid var(--border);">Bhagalpur, Bihar</td><td style="padding:8px; border:1px solid var(--border);">Unknown</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Assaka/Asmaka</td><td style="padding:8px; border:1px solid var(--border);">Potana/Potali</td><td style="padding:8px; border:1px solid var(--border);">Maharashtra & Telangana</td><td style="padding:8px; border:1px solid var(--border);">Unknown</td><td style="padding:8px; border:1px solid var(--border);">Godavari</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Avanti/Malava</td><td style="padding:8px; border:1px solid var(--border);">Ujjayini/Mahishmati</td><td style="padding:8px; border:1px solid var(--border);">Western MP</td><td style="padding:8px; border:1px solid var(--border);">Chanda Pradyota Mahasena</td><td style="padding:8px; border:1px solid var(--border);">Narmada</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Chedi</td><td style="padding:8px; border:1px solid var(--border);">Shuktimati</td><td style="padding:8px; border:1px solid var(--border);">Bundelkhand, UP</td><td style="padding:8px; border:1px solid var(--border);">Shishupala</td><td style="padding:8px; border:1px solid var(--border);">Yamuna</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Gandhara</td><td style="padding:8px; border:1px solid var(--border);">Taxila</td><td style="padding:8px; border:1px solid var(--border);">Pakistan & Afghanistan</td><td style="padding:8px; border:1px solid var(--border);">Ambhi (Porus)</td><td style="padding:8px; border:1px solid var(--border);">Indus</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Kamboja</td><td style="padding:8px; border:1px solid var(--border);">Rajapura</td><td style="padding:8px; border:1px solid var(--border);">Parts of Afghanistan/Pak</td><td style="padding:8px; border:1px solid var(--border);">Unknown</td><td style="padding:8px; border:1px solid var(--border);">Swat</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Kashi</td><td style="padding:8px; border:1px solid var(--border);">Varanasi</td><td style="padding:8px; border:1px solid var(--border);">Uttar Pradesh</td><td style="padding:8px; border:1px solid var(--border);">Prasenajit</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Kaushambi</td><td style="padding:8px; border:1px solid var(--border);">Kausambi</td><td style="padding:8px; border:1px solid var(--border);">Allahabad, UP</td><td style="padding:8px; border:1px solid var(--border);">Udayana</td><td style="padding:8px; border:1px solid var(--border);">Yamuna</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Kuru</td><td style="padding:8px; border:1px solid var(--border);">Hastinapura</td><td style="padding:8px; border:1px solid var(--border);">Haryana & Delhi</td><td style="padding:8px; border:1px solid var(--border);">Sudas</td><td style="padding:8px; border:1px solid var(--border);">Yamuna</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Magadha</td><td style="padding:8px; border:1px solid var(--border);">Rajagriha/Pataliputra</td><td style="padding:8px; border:1px solid var(--border);">Bihar</td><td style="padding:8px; border:1px solid var(--border);">Bimbisara, Ajatashatru</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Matsya</td><td style="padding:8px; border:1px solid var(--border);">Virat Nagari</td><td style="padding:8px; border:1px solid var(--border);">Alwar, Rajasthan</td><td style="padding:8px; border:1px solid var(--border);">Unknown</td><td style="padding:8px; border:1px solid var(--border);">Chambal</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Panchala</td><td style="padding:8px; border:1px solid var(--border);">Ahichatra/Kampilya</td><td style="padding:8px; border:1px solid var(--border);">Uttarakhand & UP</td><td style="padding:8px; border:1px solid var(--border);">Chetaka, Drupada</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Surasena</td><td style="padding:8px; border:1px solid var(--border);">Mathura</td><td style="padding:8px; border:1px solid var(--border);">Uttar Pradesh</td><td style="padding:8px; border:1px solid var(--border);">Kamsa</td><td style="padding:8px; border:1px solid var(--border);">Yamuna</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Vajjis/Vrijji</td><td style="padding:8px; border:1px solid var(--border);">Vaishali</td><td style="padding:8px; border:1px solid var(--border);">Bihar</td><td style="padding:8px; border:1px solid var(--border);">Confederacy</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Malla</td><td style="padding:8px; border:1px solid var(--border);">Kushinagar/Pava</td><td style="padding:8px; border:1px solid var(--border);">Deoria, UP</td><td style="padding:8px; border:1px solid var(--border);">Republic</td><td style="padding:8px; border:1px solid var(--border);">Ganga</td></tr>
+  </table>
+
+  <h3>2. Rise of Magadha</h3>
+  <p>Magadha rose to become the supreme power due to: large iron deposits (for weapons/tools), strategic capitals (Rajgir surrounded by hills; Pataliputra at river junctions), and first-time use of elephants in wars.</p>
   <ul>
-    <li><strong>Anga**: Located in present-day Bihar, Anga was one of the most powerful Mahajanapadas. It was known for its rich natural resources, including iron and copper.</li>
-    <li><strong>Magadha**: Also located in present-day Bihar, Magadha was another powerful Mahajanapada. It was known for its strong military and its role in the development of Buddhism.</li>
-    <li><strong>Kosala**: Located in present-day Uttar Pradesh, Kosala was a significant Mahajanapada. It was known for its rich cultural heritage and its connection to the [[Ramayana]].</li>
-    <li><strong>Vajji**: Located in present-day Bihar, Vajji was a confederacy of eight clans. It was known for its democratic system of government and its role in the development of Jainism.</li>
-    <li><strong>Malla**: Located in present-day Uttar Pradesh, Malla was a small but significant Mahajanapada. It was known for its connection to the [[Buddha]] and its role in the development of Buddhism.</li>
-    <li><strong>Chedi**: Located in present-day Madhya Pradesh, Chedi was a Mahajanapada that was known for its rich natural resources and its strategic location.</li>
-    <li><strong>Vatsa**: Located in present-day Uttar Pradesh, Vatsa was a Mahajanapada that was known for its rich cultural heritage and its connection to the [[Mahabharata]].</li>
-    <li><strong>Kashi**: Located in present-day Uttar Pradesh, Kashi was a Mahajanapada that was known for its rich cultural heritage and its role in the development of Hinduism.</li>
-    <li><strong>Gandhara**: Located in present-day Pakistan and northwestern India, Gandhara was a Mahajanapada that was known for its rich cultural heritage and its connection to the [[Treaty of Salbai]].</li>
-    <li><strong>Kamboja**: Located in present-day Pakistan and northwestern India, Kamboja was a Mahajanapada that was known for its rich natural resources and its strategic location.</li>
-    <li><strong>Asmaka**: Located in present-day Maharashtra, Asmaka was a Mahajanapada that was known for its rich cultural heritage and its connection to the [[Treaty of Purandar]].</li>
-    <li><strong>Kuru**: Located in present-day Haryana and Delhi, Kuru was a Mahajanapada that was known for its rich cultural heritage and its connection to the [[Mahabharata]].</li>
-    <li><strong>Panchala**: Located in present-day Uttar Pradesh, Panchala was a Mahajanapada that was known for its rich cultural heritage and its connection to the [[Mahabharata]].</li>
-    <li><li><strong>Yogindera</strong>: Located in present-day Rajasthan and parts of Haryana, Panchala was a smaller Mahajanapada but was connected to several key ancient Indian kingdoms.</li>
+    <li><strong>Haryanka Dynasty (600 - 413 BCE):</strong> 
+      <ul>
+        <li>**Bimbisara:** Founder. Expanded via matrimonial alliances. First king to have a standing army.</li>
+        <li>**Ajatashatru:** Killed his father Bimbisara. Conquered Vaishali using war engines *Mahasilakantaka* and *Rathamusala*. Patronised the **1st Buddhist Council** at Rajgir.</li>
+        <li>**Udayin:** Shifted the capital from Rajgir to **Pataliputra**.</li>
+      </ul>
+    </li>
+    <li><strong>Shishunaga Dynasty (412 - 345 BCE):</strong> Founded by Shishunaga. Shifted capital from Pataliputra to Vaishali. Kalasoka (Kakarvarna) patronised the **2nd Buddhist Council**.</li>
+    <li><strong>Nanda Dynasty (345 - 321 BCE):</strong>
+      <ul>
+        <li>**Mahapadma Nanda:** Took the title of *Ekarat*. First non-Kshatriya dynasty.</li>
+        <li>**Dhana Nanda:** Last ruler. Alexander the Great invaded North-West India during his reign. Overthrown by Chandragupta Maurya.</li>
+      </ul>
+    </li>
   </ul>
-  
-  <h4>Significance of Mahajanapadas</h4>
-  <p>The Mahajanapadas played a significant role in the development of Indian history. They were centers of **trade and commerce**, and their strategic locations facilitated trade with other kingdoms and regions. The Mahajanapadas were also centers of **learning and culture**, with many of them having rich cultural heritages and connections to major Indian epics like the [[Ramayana]] and the [[Mahabharata]].</p>
-  <p>The Mahajanapadas also played a significant role in the development of **Buddhism** and **Jainism**. Many of the Mahajanapadas were connected to the life and teachings of the [[Buddha]] and [[Mahavira]], and they provided patronage and support to these religions. The Mahajanapadas also facilitated the spread of Buddhism and Jainism to other parts of India and beyond.</p>
-  
-  <h4>Decline of Mahajanapadas</h4>
-  <p>The Mahajanapadas began to decline in the 4th century BCE, with the rise of the **Mauryan Empire**. The Mauryan Empire, which was founded by [[Chandragupta Maurya]], conquered many of the Mahajanapadas and incorporated them into its territory. The Mauryan Empire was characterized by its **centralized administration** and its **feudal system**, which replaced the decentralized systems of the Mahajanapadas.</p>
-  <p>The decline of the Mahajanapadas also led to the rise of new kingdoms and empires in India. The [[Gupta Empire]], which rose to power in the 4th century CE, is considered the **Golden Age** of Indian history. The Gupta Empire was characterized by its **cultural achievements**, including its art, literature, and science, and its **military conquests**, which expanded its territory and influence.</p>
-  
-  <h4>Legacy of Mahajanapadas</h4>
-  <p>The Mahajanapadas have left a lasting legacy in Indian history. They played a significant role in the development of **trade and commerce**, **learning and culture**, and **Buddhism and Jainism**. The Mahajanapadas also facilitated the spread of Indian culture and influence to other parts of Asia, including [[Southeast Asia]] and [[Central Asia]].</p>
-  <p>The Mahajanapadas have also inspired modern India, with many of their cultural and historical sites being preserved and protected. The [[Ashoka]] pillars, which were erected by the Mauryan emperor [[Ashoka]], are a testament to the rich cultural heritage of the Mahajanapadas. The Mahajanapadas have also inspired Indian art, literature, and architecture, with many of their styles and motifs being used in modern Indian culture.</p>
-  
-  <h4>Conclusion</h4>
-  <p>In conclusion, the Mahajanapadas were a significant part of Indian history, playing a crucial role in the development of **trade and commerce**, **learning and culture**, and **Buddhism and Jainism**. Their legacy can still be seen in modern India, with many of their cultural and historical sites being preserved and protected. The Mahajanapadas have also inspired modern India, with many of their styles and motifs being used in Indian art, literature, and architecture. As such, the Mahajanapadas remain an important part of Indian history and culture, and their significance continues to be felt today.</p>
-</div>
+
 `;
 
 EXPANDED_NOTES_DATA["magadha-expansion"] = `
@@ -1281,536 +1205,118 @@ EXPANDED_NOTES_DATA["magadha-expansion"] = `
 `;
 
 EXPANDED_NOTES_DATA["buddhism-jainism"] = `
-<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    Buddhism & Jainism
-  </h3>
-  
-  <h4 style="color: var(--accent-light); margin-top: 20px;">1. Historical Context of the 6th‑5th c BCE Indian Sub‑continent</h4>
+
+  <h2> Buddhism & Jainism</h2>
+  <p>Heterodox religious movements that arose in the 6th century BCE as a reaction to Vedic ritualism and caste rigidity.</p>
+
+  <h3>1. Buddhism (Gautama Buddha: 563 - 483 BCE)</h3>
   <ul>
-    <li><strong>Political milieu:</strong> Fragmented Mahajanapadas (e.g., <a href="#">[[Kosala]]</a>, <a href="#">[[Magadha]]</a>) with frequent wars, social oppression, and a burgeoning urban merchant class.</li>
-    <li><strong>Religious atmosphere:</strong> Predominance of <a href="#">[[Vedic Brahmanism]]</a> with elaborate rituals, but growing discontent among <em>shudras</em>, women, and <em>śramanas</em> (renunciates) seeking alternative pathways.</li>
-    <li><strong>Intellectual ferment:</strong> Rise of philosophical schools (<a href="#">[[Ajivika]]</a>, <a href="#">[[Lokayata]]</a>) and emphasis on <em>karma</em>, <em>rebirth</em>, and liberation (moksha).</li>
+    <li>Born as Siddhartha in Lumbini (Nepal). Renounced home at 29. Attained Enlightenment under Bodhi tree in Bodh Gaya. First sermon at Sarnath (First Turning of the Wheel of Dharma). Died at Kushinagar.</li>
+    <li><strong>Core Teachings:</strong> 4 Noble Truths, Eightfold Path, Middle Way. Three Jewels (Buddha, Dharma, Sangha).</li>
+    <li><strong>Literature:</strong> Tripitaka (Pali Canon), Mahayana Sutras, Jataka Tales.</li>
   </ul>
 
-  <h4 style="color: var(--accent-light); margin-top: 20px;">2. Buddhism – Genesis and Core Doctrine</h4>
-  <h5 style="color: var(--accent); margin-top: 12px;">2.1. Life of [[Siddhartha Gautama]] (the Buddha)</h5>
-  <ul>
-    <li><strong>Birthplace:</strong> <a href="#">[[Lumbini]]</a> (present‑day Nepal) around 563 BCE, son of <strong>Śuddhodana</strong>, ruler of the Shakya clan.</li>
-    <li><strong>Four stages of life:</strong> Prince, Wanderer, Ascetic, Enlightened Teacher.</li>
-    <li><strong>Great Renunciation:</strong> Abandoned palace life after witnessing <em>old age, disease, death, and asceticism</em> (the “Four Sights”).</li>
-    <li><strong>Enlightenment:</strong> Achieved under the <a href="#">[[Bodhi Tree]]</a> at <a href="#">[[Bodh Gaya]]</a> after 49 days of meditation; proclaimed the “Middle Way”.</li>
-    <li><strong>First Sermon (Dhammacakkappavattana Sutta)</strong> at <a href="#">[[Sarnath]]</a>, introducing the <a href="#">[[Four Noble Truths]]</a> and the <a href="#">[[Eightfold Path]]</a>.</li>
-  </ul>
-
-  <h5 style="color: var(--accent); margin-top: 12px;">2.2. Fundamental Teachings</h5>
-  <ul>
-    <li><strong>Four Noble Truths</strong>
-      <ol type="i">
-        <li><em>Dukkha</em> – existence is unsatisfactory.</li>
-        <li><em>Samudaya</em> – craving (tanha) is the cause of suffering.</li>
-        <li><em>Nirodha</em> – cessation of craving leads to liberation (Nirvana).</li>
-        <li><em>Magga</em> – the Eightfold Path as the practical method.</li>
-      </ol>
-    </li>
-    <li><strong>Eightfold Path</strong> (three clusters):
-      <ul>
-        <li>**Moral conduct** – Right Speech, Right Action, Right Livelihood.</li>
-        <li>**Mental discipline** – Right Effort, Right Mindfulness, Right Concentration.</li>
-        <li>**Wisdom** – Right View, Right Intention.</li>
-      </ul>
-    </li>
-    <li><strong>Doctrine of No‑self (Anatta)</strong> – denial of a permanent soul (ātman), contrasting Vedic concepts.</li>
-    <li><strong>Karma & Rebirth</strong> – ethical causality governs the cycle of samsara; liberation (nirvāṇa) is attainable in this life.</li>
-    <li><strong>Three Jewels (Triratna)</strong> – Buddha (the enlightened one), Dharma (teachings), Sangha (monastic community).</li>
-  </ul>
-
-  <h5 style="color: var(--accent); margin-top: 12px;">2.3. Buddhist Scriptures & Canonical Texts</h5>
-  <ul>
-    <li><strong>Pāli Canon (Tipiṭaka)</strong> – divided into:
-      <ul>
-        <li>Vinaya Pitaka (monastic discipline)</li>
-        <li>Sutta Pitaka (discourses)</li>
-        <li>Abhidhamma Pitaka (philosophical analysis)</li>
-      </ul>
-    </li>
-    <li><strong>Sanskrit Mahāyāna Sutras</strong> – later developments (e.g., <a href="#">[[Lotus Sutra]]</a>, <a href="#">[[Heart Sutra]]</a>).</li>
-  </ul>
-
-  <h5 style="color: var(--accent); margin-top: 12px;">2.4. Early Buddhist Councils</h5>
-  <ul>
-    <li><strong>First Council (c. 483 BCE)</strong> at <a href="#">[[Rajgir]]</a> – led by <a href="#">[[Mahākāśyapa]]</a>, aimed at preserving oral teachings.</li>
-    <li><strong>Second Council (c. 383 BCE)</strong> – dispute over monastic discipline (the “four points” controversy).</li>
-    <li><strong>Third Council (c. 250 BCE)</strong> under <a href="#">[[Ashoka]]</a> – compilation of the Pāli Canon; dispatch of missionary monks abroad.</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 20px;">3. Expansion of Buddhism under [[Ashoka]] (r. 268‑232 BCE)</h4>
-  <ul>
-    <li><strong>Conversion:</strong> After the <a href="#">[[Kalinga War]]</a> (c. 261 BCE), Ashoka embraced Buddhism and promoted Dhamma (moral law).</li>
-    <li><strong>Edicts of Ashoka</strong>
-      <ul>
-        <li>Royal inscriptions in Prakrit using Brahmi script, scattered across the sub‑continent.</li>
-        <li>Key messages: respect for all life, humane administration, propagation of Buddhist moral values.</li>
-      </ul>
-    </li>
-    <li><strong>Patronage:</strong> Construction of stupas (e.g., <a href="#">[[Sanchi Stupa]]</a>), viharas, and pillars; establishment of **Buddha’s relics** (dhatu) in multiple locations.</li>
-    <li><strong>Missionary Activity:</strong> Dispatch of monks such as <a href="#">[[Mahinda]]</a> to Sri Lanka (247 BCE) and envoys to the Hellenistic world (e.g., <a href="#">[[Seleucus I]]</a>).</li>
-    <li><strong>Administrative Reforms:</strong> Creation of **Dhamma Mahamatras** to oversee moral conduct; promotion of non‑sectarian religious tolerance.</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 20px;">4. Later Buddhist Schools & Movements</h4>
-  <ul>
-    <li><strong>Theravāda (Doctrine of the Elders)</strong> – dominant in Sri Lanka, Southeast Asia; emphasizes Pāli Canon and monastic austerity.</li>
-    <li><strong>Mahayāna (Great Vehicle)</strong> – emerged around 1st century CE; introduces the ideal of the Bodhisattva, universal salvation, and a vast corpus of sutras.</li>
-    <li><strong>Vajrayāna (Tantric Buddhism)</strong> – later development, prominent in Tibet and parts of the Himalaya; incorporates esoteric rituals, mantras, and mandalas.</li>
-    <li><strong>Decline in India:</strong> By 12th century CE, Buddhism receded due to:
-      <ul>
-        <li>Rise of devotional (Bhakti) Hindu movements.</li>
-        <li>Islamic invasions destroying monasteries.</li>
-        <li>Absorption of Buddhist ideas into Hindu philosophy (e.g., concepts of compassion, renunciation).</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 20px;">5. Jainism – Foundations and Core Philosophy</h4>
-  <h5 style="color: var(--accent); margin-top: 12px;">5.1. The Tirthankara Tradition and [[Mahavira]]</h5>
-  <ul>
-    <li><strong>Doctrine of Tirthankaras:</strong> 24 enlightened teachers who establish the path to liberation; the 24th is <a href="#">[[Mahavira]]</a> (599‑527 BCE).</li>
-    <li><strong>Mahavira’s biography:</strong>
-      <ul>
-        <li>Born in <a href="#">[[Kundagrama]]</a> (modern‑day Bihar) to a Kshatriya family.</li>
-        <li>Renounced worldly life at age 30 after the death of his parents.</li>
-        <li>Spent 12 years in intense ascetic practice (vairagya) before attaining kevala‑jñāna (omniscience).</li>
-        <li>Preached for 30 years, establishing a structured monastic order (śramaṇa).</li>
-      </ul>
-    </li>
-    <li><strong>Key reforms:</strong> Rejection of caste‑based rituals, animal sacrifice, and elaborate Vedic rites.</li>
-  </ul>
-
-  <h5 style="color: var(--accent); margin-top: 12px;">5.2. Jain Doctrine – Core Tenets</h5>
-  <ul>
-    <li><strong>Five Vows (Mahavratas) for monks and 12 vows (Anuvratas) for laypersons:</strong>
-      <ol type="i">
-        <li><em>Ahimsa</em> – absolute non‑violence (including thoughts and speech).</li>
-        <li><em>Satya</em> – truthfulness.</li>
-        <li><em>Asteya</em> – non‑stealing.</li>
-        <li><em>Brahmacharya</em> – celibacy (strict for monks, regulated for laypeople).</li>
-        <li><em>Aparigraha</em> – non‑possessiveness.</li>
-      </ol>
-    </li>
-    <li><strong>Doctrine of Anekantavāda (Multiplicity of Viewpoints)</strong> – acknowledges the complexity of truth; promotes intellectual tolerance.</li>
-    <li><strong>Syād‑vāda (Conditional Predication)</strong> – a logical tool to express nuanced truth (e.g., “maybe true, maybe false”).</li>
-    <li><strong>Karma Theory:</strong> Unlike Vedic conception, Jain karma is a subtle physical substance attached to the soul; liberation (moksha) attained by eradicating karmic particles through austerities.</li>
-    <li><strong>Cosmology:</strong> Cyclical universe with 7 “lokas” (worlds) above and below the human realm; soul’s journey through births dictated by accumulated karma.</li>
-  </ul>
-
-  <h5 style="color: var(--accent); margin-top: 12px;">5.3. Jain Scriptures & Canon</h5>
-  <ul>
-    <li><strong>Agamas (Śvetāmbara) / Ashtaprakriyas (Digambara)</strong> – canonical texts attributed to Mahavira’s disciples.</li>
-    <li><strong>Key works:</strong> <a href="#">[[Tattvartha Sutra]]</a>, <a href="#">[[Acharanga Sutra]]</a>, and commentaries such as <a href="#">[[Samayasāra]]</a> (by Acharya Amritchandra).</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 20px;">6. Jain Community Structure & Monastic Practices</h4>
-  <ul>
-    <li><strong>Two major sects:</strong> <a href="#">[[Śvetāmbara]]</a> (white‑clad) and <a href="#">[[Digambara]]</a> (sky‑clad); differences in doctrine of clothing, canon, and gender‑related spirituality.</li>
-    <li><strong>Monastic hierarchy:</strong> Acharyas → Upadhyaya (teachers) → Pravartaka (preachers) → Sadhus/Sadhvis.</li>
-    <li><strong>Lay‑laity (Śrāvakas/Śrāvikās):</strong> Support monastic community, observe ten vows, and undertake periodic pilgrimages to pilgrimage sites (e.g., <a href="#">[[Shikharji]]</a>, <a href="#">[[Sammet Shikhar]]</a>).</li>
-    <li><strong>Ascetic practices:</strong> Extreme fasting (up to 48 hours), meditation, and “santhara” (voluntary death by fasting) as a dignified exit.</li>
-  </ul>
-
-  <h4 style="color: var(--accent-light); margin-top: 20px;">7. Comparative Overview – Buddhism vs. Jainism</h4>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-    <tr style="background:#222; color:#fff;">
-      <th style="padding:8px; border:1px solid #444;">Aspect</th>
-      <th style="padding:8px; border:1px solid #444;">Buddhism</th>
-      <th style="padding:8px; border:1px solid #444;">Jainism</th>
+  <h3>2. Buddhist Schisms & Sects</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Aspect</th>
+      <th style="padding:8px; border:1px solid var(--border);">Mahayana Buddhism (Great Vehicle)</th>
+      <th style="padding:8px; border:1px solid var(--border);">Hinayana/Theravada (Lesser Vehicle)</th>
     </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid #444;">Founder</td>
-      <td style="padding:8px; border:1px solid #444;"><a href="#">[[Siddhartha Gautama]]</a> (c. 563 BCE)</td>
-      <td style="padding:8px; border:1px solid #444;"><a href="#">[[Mahavira]]</a> (599‑527 BCE)</td>
-    </tr>
-    <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #444;">Key Goal</td>
-      <td style="padding:8px; border:1px solid #444;">Nirvāṇa – cessation of suffering.</td>
-      <td style="padding:8px; border:1px solid #444;">Moksha – liberation of the soul.</td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid #444;">View of Soul</td>
-      <td style="padding:8px; border:1px solid #444;">Anatta – no permanent self.</td>
-      <td style="padding:8px; border:1px solid #444;">Ātman – eternal soul bound by karma.</td>
-    </tr>
-    <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #444;">Core Ethical Precept</td>
-      <td style="padding:8px; border:1px solid #444;">Middle Way; non‑attachment.</td>
-      <td style="padding:8px; border:1px solid #444;">Five Mahāvṛatas (especially Ahimsa).</td>
-    </tr>
-    <tr>
-      <td style="padding:8px; border:1px solid #444;">Scriptural Language</td>
-      <td style="padding:8px; border:1px solid #444;">Pāli, later Sanskrit.</td>
-      <td style="padding:8px; border:1px solid #444;">Prakrit (Śvetāmbara) & Sanskrit (Digambara).</td>
-    </tr>
-    <tr style="background:#f9f9f9;">
-      <td style="padding:8px; border:1px solid #444;">Spread Mechanism</td>
-      <td style="padding:8px; border:1px solid #444;">Royal patronage (Ashoka), missionary outreach, trade routes.</td>
-      <td style="padding:8px; border:1px solid #444;">Monastic itinerancy, merchant communities, regional courts.</td>
-    </tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Goal</td><td style="padding:8px; border:1px solid var(--border);">Buddhahood for all beings</td><td style="padding:8px; border:1px solid var(--border);">Personal enlightenment (Arhatship)</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Bodhisattvas</td><td style="padding:8px; border:1px solid var(--border);">Highly revered, active role</td><td style="padding:8px; border:1px solid var(--border);">Less emphasis on their role</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Scriptures</td><td style="padding:8px; border:1px solid var(--border);">Expanded canon (Sanskrit)</td><td style="padding:8px; border:1px solid var(--border);">Pali Canon (Tripitaka)</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Idol Worship</td><td style="padding:8px; border:1px solid var(--border);">Yes, Buddha as a deity</td><td style="padding:8px; border:1px solid var(--border);">No, Buddha as a teacher/guide</td></tr>
   </table>
 
-  <h4 style="color: var(--accent-light); margin-top: 20px;">8. Legacy and Influence on Indian Civilization</h4>
+  <h3>3. Jainism (Vardhamana Mahavira: 599 - 527 BCE)</h3>
   <ul>
-    <li><strong>Art & Architecture:</strong> Development of stupas, viharas, and rock‑cut caves (e.g., <a href="#">[[Ajanta]]</a>, <a href="#">[[Ellora]]</a>); Jain temples famed for intricate marble work (e.g., <a href="#">[[Dilwara Temples]]</a>).</li>
-    <li><strong>Literature:</strong> Sanskrit poets (e.g., <a href="#">[[Kalidasa]]</a>) incorporated Buddhist and Jain themes; Jain works contributed to early Indian prose and drama (e.g., <a href="#">[[Siddhasena]]</a>).</li>
-    <li><strong>Socio‑political impact:</strong> Promotion of **non‑violence (ahimsa)** inspired later movements (e.g., Mahatma Gandhi’s Satyagraha).</li>
-    <li><strong>Philosophical cross‑pollination:</strong> Concepts such as **emptiness (śūnyatā)**, **karma**, and **renunciation** permeated later Hindu schools (e.g., <a href="#">[[Advaita Vedanta]]</a>).</li>
-    <li><strong>Modern revival:</strong> UNESCO recognition of Buddhist sites; Jain community’s role in Indian business and philanthropy.</li>
+    <li>24th Tirthankara. Born at Kundagrama (Vaishali). Renunciation at 30. Attained Kevala Jnana (omniscience) after 12 years. Died at Pawapuri.</li>
+    <li><strong>Core Teachings:</strong> Tri-ratnas (Right Faith, Right Knowledge, Right Conduct). 5 Vows (Ahimsa, Satya, Asteya, Aparigraha, Brahmacharya). **Anekantavada / Syadvada** (theory of multiple perspectives).</li>
   </ul>
 
-  <p style="margin-top:20px; font-size:0.9em; color:#bbb;">
-    Prepared by integrating the *Pathfinder* textbook and NCERT *Ancient India* chapters, with emphasis on high‑yield facts essential for NDA, CDS, AFCAT, and UPSC examinations.
-  </p>
-</div>
+  <h3>4. Jain Sects (Svetambar vs Digambar)</h3>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Aspect</th>
+      <th style="padding:8px; border:1px solid var(--border);">Svetambar</th>
+      <th style="padding:8px; border:1px solid var(--border);">Digambar</th>
+    </tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Clothing</td><td style="padding:8px; border:1px solid var(--border);">White-clad monks/nuns</td><td style="padding:8px; border:1px solid var(--border);">Sky-clad (naked) monks</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Female Monks</td><td style="padding:8px; border:1px solid var(--border);">Allow ordination of women</td><td style="padding:8px; border:1px solid var(--border);">Do not believe women can attain Moksha directly</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Origin</td><td style="padding:8px; border:1px solid var(--border);">Teachings of Sthulabhadra</td><td style="padding:8px; border:1px solid var(--border);">Original teachings, led by Bhadrabahu</td></tr>
+  </table>
+
 `;
 
 EXPANDED_NOTES_DATA["mauryan-period"] = `
-<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    Mauryan Period
-  </h3>
-  
-  <h4 style="color:#ffdd57; margin-top:20px;">1. Chronology & Geographic Extent</h4>
+
+  <h2> The Mauryan Empire & Ashokan Edicts</h2>
+  <p>India's first historical empire, establishing central control over most of the subcontinent.</p>
+
+  <h3>1. Rulers & Triumphs</h3>
   <ul>
-    <li><strong>Time‑frame:</strong> c. 322 – 185 BCE (≈ 137 years).</li>
-    <li><strong>Founding:</strong> Established by [[Chandragupta Maurya]] after overthrowing the Nanda dynasty.</li>
-    <li><strong>Peak territorial spread:</strong> From the <strong>Afghanistan‑Pakistan border</strong> in the west to the **Bay of Bengal** in the east; from the **Himalayan foothills** in the north to the **Deccan plateau** in the south.</li>
-    <li><strong>Successors:</strong> Followed by the [[Shunga Dynasty]] (c. 185‑73 BCE) in the East and the [[Satavahana Dynasty]] in the Deccan.</li>
+    <li><strong>Chandragupta Maurya (321 - 185 BCE):</strong> Overthrew Dhana Nanda with Chanakya. Defeated Selcus Nicator and married his daughter Helena. Adopted Jainism and committed Sallekhana.</li>
+    <li><strong>Bindusara:</strong> Called *Amitrochates* (slayer of enemies). Joined Ajivika Sect.</li>
+    <li><strong>Ashoka the Great:</strong> After Kalinga war, renounced violence. Spread Buddhism via missionaries and built stupas.</li>
   </ul>
 
-  <h4 style="color:#ffdd57; margin-top:20px;">2. Sources of Information</h4>
-  <ul>
-    <li>Literary: <em>Arthashastra</em> (attributed to [[Chanakya]]), Buddhist texts (e.g., <em>Dīpavamsa</em>, <em>Mahavamsa</em>), Jain chronicles, and the Greek accounts of [[Megasthenes]] ( <em>Indica</em> ).</li>
-    <li>Archaeological: Ashokan rock‑edicts, pillars, stupas; urban excavations at Pataliputra, Taxila, and the capital of the Mauryan navy at **Kushinagar**.</li>
-    <li>Epigraphic: Ashokan Edicts (Major, Minor, and Separate Edicts) – crucial for reconstructing policy, religion and administration.</li>
-  </ul>
+  <h3>2. Comprehensive Ashokan Edicts</h3>
+  <p>Ashoka's inscriptions on pillars and rocks provided insights into governance, policies, and religious tolerance.</p>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
+    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
+      <th style="padding:8px; border:1px solid var(--border);">Edict</th>
+      <th style="padding:8px; border:1px solid var(--border);">Key Description & Points</th>
+    </tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict I</td><td style="padding:8px; border:1px solid var(--border);">Prohibition of animal sacrifice, especially during festive seasons.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict II</td><td style="padding:8px; border:1px solid var(--border);">Medical treatment of humans/animals. Mentions Pandyas, Satyapuras, Keralaputras of South India.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict III</td><td style="padding:8px; border:1px solid var(--border);">Generosity to Brahmins. Yuktas, Pradeshikas, Rajukas ordered to spread Dhamma every 5 years.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict IV</td><td style="padding:8px; border:1px solid var(--border);">Dhammaghosha (sound of righteousness) over Bherighosha (sound of war).</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict V</td><td style="padding:8px; border:1px solid var(--border);">About Dhammamahamatras and treating slaves right.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Major Rock Edict XIII</td><td style="padding:8px; border:1px solid var(--border);">Mentions victory over Kalinga, Ashoka's remorse, and interactions with Greek Kings.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Rummindei Inscription</td><td style="padding:8px; border:1px solid var(--border);">Mentions exemption from bali and reduced taxes for Lumbini (Buddha's birthplace).</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Allahabad (Schism) Edict</td><td style="padding:8px; border:1px solid var(--border);">Urges Sangha members to avoid causing divisions. Also contains Samudragupta's inscription.</td></tr>
+    <tr><td style="padding:8px; border:1px solid var(--border);">Kandahar Inscription</td><td style="padding:8px; border:1px solid var(--border);">Famous bilingual edict in Greek and Aramaic.</td></tr>
+  </table>
 
-  <h4 style="color:#ffdd57; margin-top:20px;">3. Political Foundations – Chandragupta Maurya (322‑298 BCE)</h4>
-  <ul>
-    <li><strong>Early Life & Rise:</strong> Legend says he was a humble “son of a gardener”; historically, he was a **Kshatriya** of the **Mahishya** clan, guided by the strategist [[Chanakya]].</li>
-    <li><strong>Conquest Strategy:</strong>
-      <ul>
-        <li>Leveraged a **well‑organized standing army** (infantry, cavalry, war elephants).</li>
-        <li>Utilized **psychological warfare** – systematic sieges and swift strikes to break Nanda morale.</li>
-        <li>Formed alliances with regional chieftains dissatisfied with Nanda oppression.</li>
-      </ul>
-    </li>
-    <li><strong>Capital:</strong> Shifted the seat of power to **Pataliputra** (modern Patna) – strategic for controlling the Ganges‑Yamuna plain.</li>
-    <li><strong>Foreign Policy:</strong>
-      <ul>
-        <li>Signed the <strong>Treaty of 303 BCE** with the Seleucid Empire (King [[Seleucus I Nicator]]) – exchanged territories for 500 war‑elephants.</li>
-        <li>Established diplomatic links with the Kingdom of **Sri Lanka** and the Hellenistic world.</li>
-      </ul>
-    </li>
-  </ul>
+  <h3>3. Decline of the Mauryan Empire</h3>
+  <p>Weak successors, regional revolts, economic drain from military campaigns, and foreign invasions by Greeks, Sakas, and Parthians destabilized the empire.</p>
 
-  <h4 style="color:#ffdd57; margin-top:20px;">4. Administration – The Mauryan Bureaucracy</h4>
-  <ul>
-    <li><strong>Centralised Governance:</strong> Monarch wielded absolute authority but delegated through a **hierarchical bureaucracy**.</li>
-    <li><strong>Key Offices (as per the <em>Arthashastra</em>)**:
-      <ul>
-        <li>**[[Mahamatra]]** – Chief minister; oversaw revenue, law and foreign affairs.</li>
-        <li>**[[Daṇḍapāla]]** – Head of the police and intelligence (precursor to modern police).</li>
-        <li>**[[Kumāravasī]]** – Superintendent of royal estates.</li>
-        <li>**[[Śāstrādhipati]]** – Chief of the scholars and scribes.</li>
-      </ul>
-    </li>
-    <li><strong>Provincial Administration:</strong> Empire divided into **‘Bhuktis’** (provinces) governed by **[[Uparika]]** (governors). Each Bhukti contained **‘Vishayas’** (districts) led by **[[Vibhaga]]** officials.</li>
-    <li><strong>Revenue System:</strong>
-      <ul>
-        <li>Land tax (land‑revenue) based on **assessment of soil fertility**; rates varied from **1/6 to 1/3** of produce.</li>
-        <li>Tributes from tributary states and commercial duties at ports.</li>
-        <li>Monopolies on salt, copper, iron, and precious stones – controlled by **state‑run workshops**.</li>
-      </ul>
-    </li>
-    <li><strong>Law & Justice:</strong> Codified law administered by **[[Nyaya]]** judges; punishments ranged from fines to corporal penalties; capital punishment was rare and reserved for treason.</li>
-    <li><strong>Intelligence & Espionage:</strong> The **‘Khyātaka’** network (spies) reported directly to the king, ensuring loyalty and early detection of dissent.</li>
-  </ul>
-
-  <h4 style="color:#ffdd57; margin-top:20px;">5. Economic & Social Structure</h4>
-  <ul>
-    <li><strong>Agriculture:</strong> Backbone of the economy – irrigation projects (e.g., canals near **Meerut**), use of iron ploughs, and **crop rotation** practices.</li>
-    <li><strong>Trade & Commerce:</strong>
-      <ul>
-        <li>Domestic trade flourished along **Ganga**, **Yamuna**, and **Saraswati** rivers; marketplaces called **‘Bazaars’** were regulated by guilds.</li>
-        <li>International trade with **Persia**, **Greece**, **Southeast Asia**, and **Sri Lanka** – commodities: spices, textiles, precious stones, ivory, and metalwork.</li>
-        <li>Standardized **copper punch‑marked coins** (e.g., *pana*), **silver ratti**, and **gold suvarna** facilitated monetary transactions.</li>
-      </ul>
-    </li>
-    <li><strong>Urban Planning:</strong> Cities like **Pataliputra**, **Taxila**, **Ujjain**, and **Vijayanagara** had **grid‑like streets**, **stone drains**, and **public granaries**.</li>
-    <li><strong>Social Hierarchy:</strong> While the **varna system** persisted, the Mauryan era witnessed **greater social mobility** due to state‑controlled occupations and the rise of **merchant guilds**.</li>
-    <li><strong>Crafts & Industries:</strong> State workshops produced **armor**, **war elephants**, **swords**, **textiles**, and **jewellery**; notable for high‑quality **Mauryan polish** on stone sculptures.</li>
-  </ul>
-
-  <h4 style="color:#ffdd57; margin-top:20px;">6. Religion & Cultural Patronage</h4>
-  <ul>
-    <<li><strong>Early Religious Climate:</strong> Religious tolerance – Brahmanical, Jain, and Buddhist traditions co‑existed; patronage was often pragmatic.</li>
-    <li><strong>[[Ashoka]]’s Conversion:</strong> After the **Kalinga War (c. 262 BCE)**, Ashoka embraced **Dhamma** (Moral law) and became a **Buddhist** patron.</li>
-    <li><strong>Edicts as Propaganda:</strong> Ashokan edicts disseminated ideas of non‑violence, animal welfare, religious tolerance, and administration of justice – inscribed in **Prakrit** using **Brahmi script**.</li>
-    <li><strong>Architecture & Art:</strong>
-      <ul>
-        <li>Construction of **Ashokan Pillars** (e.g., *Lion Capital of Sarnath* – now India's national emblem).</li>
-        <li>Development of **stupas** (e.g., <em>Great Stupa at Sanchi</em>, <em>Stupa at Bharhut</em>).</li>
-        <li>Refined stone carving with **Mauryan polish**, as seen in the **Didarganj Yakshi** and **Mohenjo‑Daro‑like sculptures**.</li>
-      </ul>
-    </li>
-    <li><strong>Spread of Buddhism:</strong> Missions sent by Ashoka to **Sri Lanka (Mahinda)**, **Southeast Asia**, and **Gandhara**, fostering a pan‑Asian Buddhist network.</li>
-  </ul>
-
-  <h4 style="color:#ffdd57; margin-top:20px;">7. Military Organisation</h4>
-  <ul>
-    <li><strong>Size & Composition:</strong> Estimated **600,000 infantry**, **30,000 cavalry**, **8,000 war elephants**, and a navy of **30,000** sailors.</li>
-    <li><strong>Training & Discipline:</strong> Soldiers recruited from diverse regions, equipped with **curved bows**, **daggers**, and **spear‑heads**; **war elephants** trained under **mahouts**.</li>
-    <li><strong>Naval Power:</strong> Established shipyards at **Pattinam** and **Bhulsa**, enabling control over the **Bay of Bengal** and trade routes to **Southeast Asia**.</li>
-    <li><strong>Strategic Use of Elephants:</strong> The 500 elephants acquired from the **Seleucid Treaty** formed the core of Ashoka’s cavalry, significantly enhancing battlefield mobility.</li>
-  </ul>
-
-  <h4 style="color:#ffdd57; margin-top:20px;">8. Key Rulers & Their Contributions</h4>
-  <ul>
-    <li><strong>[[Chandragupta Maurya]] (322‑298 BCE)</strong>
-      <ul>
-        <li>Founding of the empire, establishment of a centralized administration, and diplomatic outreach with the West.</li>
-      </ul>
-    </li>
-    <li><strong>[[Bindusara]] (298‑272 BCE)</strong>
-      <ul>
-        <li>Consolidated territorial gains, maintained peace with the **Ptolemaic** and **Seleucid** kingdoms; expanded trade in the south.</li>
-      </ul>
-    </li>
-    <li><strong>[[Ashoka]] (272‑185 BCE)</strong>
-      <ul>
-        <li>Peak of Mauryan power; Kalinga conquest, adoption of Buddhism, extensive welfare measures, and monumental architecture.</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h4 style="color:#ffdd57; margin-top:20px;">9. Decline & Disintegration</h4>
-  <ul>
-    <li><strong>Succession Crises:</strong> After Ashoka’s death, weak successors (e.g., **Kunala**, **Padma**) failed to maintain strong central control.</li>
-    <li><strong>Economic Strain:</strong> Heavy taxation, costly **war‑elephant** upkeep, and declining trade due to internal unrest.</li>
-    <li><strong>Regional Revolts:</strong> Breakaway provinces – **Satavahanas** in the Deccan, **Brahmins** in the east, and **Indo‑Greek** satraps in the northwest – asserted autonomy.</li>
-    <li><strong>Final Collapse:</strong> By c. 185 BCE, the dynasty fragmented; the **last Mauryan ruler**, **Brihadratha**, was assassinated by **Pushyamitra Shunga**, ushering in the **Shunga** period.</li>
-  </ul>
-
-  <h4 style="color:#ffdd57; margin-top:20px;">10. Legacy & Historical Significance</h4>
-  <ul>
-    <li>First **large‑scale political unification** of the Indian subcontinent, setting a precedent for later empires (e.g., [[Gupta Empire]], [[Mughal Empire]]).</li>
-    <li>Foundation of **bureaucratic governance** (centralized administration, codified law) that influenced subsequent Indian polities.</li>
-    <li>Propagation of **Buddhism** beyond India, shaping religious landscapes of **Southeast Asia**, **East Asia**, and **Central Asia**.</li>
-    <li>Introduction of **standardized coinage**, **road networks**, and **postal systems**, facilitating economic integration.</li>
-    <li>Artistic innovations – the **Mauryan polish**, stone pillars, and stupas – became templates for later Indian architecture.</li>
-    <li>Historical narratives of **Dhamma**, tolerance, and welfare as early examples of **state‑sanctioned moral governance**.</li>
-  </ul>
-
-  <h4 style="color:#ffdd57; margin-top:20px;">11. Important Terms & Concepts (Quick Reference)</h4>
-  <ul>
-    <li><strong>[[Arthashastra]]</strong> – Treatise on statecraft, economics, and military strategy attributed to [[Chanakya]].</li>
-    <li><strong>[[Dhamma]]</strong> – Ashoka’s moral code emphasizing non‑violence, truthfulness, and respect for all life.</li>
-    <li><strong>[[Ashokan Pillars]]</strong> – Stone monoliths bearing edicts; emblematic of imperial authority.</li>
-    <li><strong>[[Kalinga War]]</strong> – Pivotal conflict that catalysed Ashoka’s conversion to Buddhism.</li>
-    <li><strong>[[Seleucid–Mauryan Treaty]]</strong> – Diplomatic accord in 303 BCE exchanging territories for war‑elephants.</li>
-    <li><strong>[[Pataliputra]]</strong> – Capital city on the Ganges; administrative and commercial hub.</li>
-    <li><strong>[[Brahmi Script]]</strong> – Early Indian script used for Ashokan edicts; precursor to many modern Indian scripts.</li>
-    <li><strong>[[Stupa]]</strong> – Monumental Buddhist structure housing relics; architectural hallmark of Mauryan patronage.</li>
-    <li><strong>[[Mahavamsa]]</strong> – Sri Lankan chronicle documenting Ashoka’s missionary activities.</li>
-    <li><strong>[[Mithredates]]</strong> – (Note: mis‑spelling of [[Mithridates VI of Pontus]]); highlights the far‑west encounters of Mauryan envoys.</li>
-  </ul>
-
-  <p style="margin-top:20px; color:#cfcfcf; font-size:0.9em;">
-    *These notes synthesize information from the **Pathfinder** textbook and NCERT Class 6–12 History volumes, aiming at comprehensive UPSC‑level revision for the Mauryan Period.*
-  </p>
-</div>
 `;
 
 EXPANDED_NOTES_DATA["post-mauryan-india"] = `
-<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    Post-Mauryan India
-  </h3>
-  
-  <h4>Chronological Overview</h4>
+
+  <h2> Post-Mauryan Dynasties & Foreign Invasions</h2>
+  <p>After the Mauryan decline, Magadha saw the rise of smaller dynasties, while the North-West faced foreign invasions.</p>
+
+  <h3>1. Indigenous Dynasties (185 BCE - 321 CE)</h3>
   <ul>
-    <li><strong>322‑185  BCE – End of [[Mauryan empire]]</strong>: Death of [[Ashoka]] and rapid disintegration of central authority.</li>
-    <li><strong>185‑73  BCE – Rise of regional dynasties</strong>: [[Shunga dynasty]] (north‑central), [[Kanva dynasty]] (successor), and the emergence of southern powers such as the [[Satavahana dynasty]] and the Andhra (Pallava‑like) kingdoms.</li>
-    <li><strong>2nd‑1st  BCE – Indo‑Greek & Indo‑Scythian incursions</strong>: Establishment of Hellenistic realms in the northwest and subsequent takeover by Central Asian nomads.</li>
-    <li><strong>30  CE‑ 375  CE – [[Kushan Empire]] dominance</strong>: Consolidation of the Silk‑Road trade hub and diffusion of Greco‑Buddhist art.</li>
-    <li><strong>3rd‑6th  CE – Classical “Golden Age”</strong>: Flourishing of the [[Gupta Empire]] and parallel regional kingdoms in Deccan, South India, and East India.</li>
+    <li><strong>Shunga Dynasty:</strong> Pushyamitra Shunga established the dynasty. Followed Brahminism. Vasumitra defeated Greek king Menander (conversation compiled in "Milindapanha").</li>
+    <li><strong>Kanva Dynasty:</strong> Founded by Vasudeva Kanva.</li>
+    <li><strong>Satavahanas:</strong> Founded by Simuka. Capital at Pratistanpura (later Amaravati). Gautamiputra Satakarni was a powerful ruler (Nashik inscription). Patrons of the Amaravati school of Art.</li>
   </ul>
 
-  <h4>Political Landscape & Major Dynasties</h4>
-
-  <h5>1. [[Shunga dynasty]] (c. 185‑73  BCE)</h5>
+  <h3>2. Central Asian Invasions & Impacts</h3>
   <ul>
-    <li>Founded by <strong>Pushyamukha</strong> (also known as <em>Pushyamitra Shunga</em>) – a former Mauryan <strong>Mahamatra</strong> who seized power in Pataliputra.</li>
-    <li><strong>Capital:</strong> Pataliputra (modern Patna); later shifted to <strong>Kaushambi</strong>.</li>
-    <li>Key achievements:
+    <li><strong>Indo-Greeks:</strong> First to introduce **Gold coins** in India. Introduced Hellenistic art in the north-west.</li>
+    <li><strong>Sakas / Scythians:</strong> Replaced Indo-Greeks. Ruled via Kshatrapas. **Rudradaman I** repaired the Sudarshan Lake (Junagarh inscription).</li>
+    <li><strong>Parthians:</strong> Originally from Iran. Famous ruler: Gondophernes (St. Thomas visited India during his reign).</li>
+    <li><strong>Kushans (Yuechis):</strong> Settled in lower Indus basin.
       <ul>
-        <li>Restoration of Brahmanical orthodoxy; patronised Vedic rituals such as the <em>Ashvamedha</em>.</li>
-        <li>Patronage of art – early examples of **Shunga art** seen at the <em>Barabar Caves</em>.</li>
-        <li>Military campaigns against the <strong>Indo‑Greek king Menander I</strong> and later against the <strong>Satavahanas** in central India.</li>
-      </ul>
-    </li>
-    <li>Decline due to internal court intrigues and the rise of the [[Kanva dynasty]].</li>
-  </ul>
-
-  <h5>2. [[Kanva dynasty]] (c. 73‑28  BCE)</h5>
-  <ul>
-    <li>Usurped the throne from the Shungas; ruled for three generations.</li>
-    <li>Continued the policy of maintaining traditional Brahmanical rites.</li>
-    <li>Eventually overthrown by the [[Satavahana dynasty]] and the advent of the [[Indo‑Greek Kingdom]] in the western provinces.</li>
-  </ul>
-
-  <h5>3. [[Satavahana dynasty]] (c. 1st  BCE‑3rd  CE)</h5>
-  <ul>
-    <li>Originated in the Deccan region (modern Maharashtra & Andhra Pradesh); capital at **Pratishthana** (Paithan) and later **Vatsagulma** (Nandyal).</li>
-    <li>Key rulers: <strong>Satakarni I</strong>, <strong>Gautamiputra Satakarni</strong> (re‑conquered central India), and <strong>Vasisthiputra Pulumavi</strong>.</li>
-    <li>Economic highlights:
-      <ul>
-        <li>Control of the **Vikrama** trade route linking the western coast to the internal Deccan.</li>
-        <li>Minting of distinctive **Satavahana coins** bearing Buddhist and Hindu symbols, reflecting religious tolerance.</li>
-      </ul>
-    </li>
-    <li>Cultural contributions:
-      <ul>
-        <li>Patronage of Prakrit literature – e.g., the **Gaha Sattasai**.</li>
-        <li>Support for Buddhist architecture – early stupas at **Kanheri** and **Ajanta** (later developments).</li>
+        <li>Kadphises I laid the foundation. Wima Kadphises issued large numbers of gold coins.</li>
+        <li>**Kanishka:** Issued highest metallic purity gold coins. Capitals at Peshawar and Mathura. Controlled the Silk Route. Patronised Buddhism.</li>
       </ul>
     </li>
   </ul>
 
-  <h5>4. [[Indo‑Greek Kingdom]] (c. 180‑10  BCE)</h5>
+  <h3>3. Cultural Impact of Central Asian Contacts</h3>
   <ul>
-    <li>Established by **Demetrius I** after crossing the Hindu Kush; centered at **Bactria** and later extended into the Punjab.</li>
-    <li>Major rulers: **Menander I (Milinda)** – known for the *Milinda Panha* dialogues with the Buddhist monk Nagasena.</li>
-    <li>Key features:
-      <ul>
-        <li>Fusion of Hellenistic art with Indian iconography – the **Gandhara art** style.</li>
-        <li>Spread of Greek coinage and **Attic** weight standards in the Indian subcontinent.</li>
-      </ul>
-    </li>
-    <li>Gradual decline due to pressure from the [[Indo‑Scythian]] migrations.</li>
+    <li>Introduced cavalry techniques: toe stirrups, reins, saddles.</li>
+    <li>Introduced turbans, tunics, trousers, and heavy long coats/boots.</li>
+    <li>**Satrap System:** Hereditary dual rule (father & son ruling jointly).</li>
+    <li>Rise of **Gandhara Art** (Greco-Roman, spiritual Buddha with half-closed eyes) and **Mathura Art** (indigenous, red sandstone).</li>
   </ul>
 
-  <h5>5. [[Indo‑Scythian]] (Saka) invasion (c. 80‑30  BCE)</h5>
-  <ul>
-    <li>Nomadic **Saka** groups entered north‑western India via the Khyber Pass, establishing **Western Kshatrapas** in Gujarat and **Satraps** in Punjab.</li>
-    <li>Notable rulers: **Mujatria**, **Rudradaman I** (who commissioned the **Rudradaman inscription** at Junagadh, a milestone in classical Sanskrit).</li>
-    <li>Impact:
-      <ul>
-        <li>Introduced new administrative titles (e.g., **Satrap**) and coinage styles.</li>
-        <li>Facilitated cultural syncretism – e.g., the **Buddhist caves at Karle** display Indo‑Scythian motifs.</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h5>6. [[Kushan Empire]] (c. 30‑375  CE)</h5>
-  <ul>
-    <li>Founded by **Kujula Kadphises** and expanded under **Kanishka I** – the empire stretched from Central Asia to the Ganges valley.</li>
-    <li>Capital at **Peshawar (Bagram)**; later **Kashmir** became a political centre.</li>
-    <li>Key contributions:
-      <ul>
-        <li>Patronised Mahayana Buddhism – construction of **Kushana‑era stupas** such as **Kanishka’s stupa** at **Sarnath**.</li>
-        <li>Propagation of the **Gandhara school**—exquisite sculptures of the Buddha in Hellenistic style (e.g., **Bamiyan Buddhas**, now destroyed).</li>
-        <li>Facilitated the **Silk Route** trade linking Rome, China, and the Indian Ocean; Kushan coinage bore **Greek, Indian, and Persian** legends.</li>
-      </ul>
-    </li>
-    <li>Decline due to internal fragmentation, the rise of the **Hephthalites**, and the resurgence of the **Gupta Empire** in the east.</li>
-  </ul>
-
-  <h5>7. [[Gupta Empire]] (c. 320‑550  CE) – Classical “Golden Age”</h5>
-  <ul>
-    <li>Founded by **Sri Gupta**; apex under **Chandragupta I**, **Samudragupta**, and **Chandragupta II (Vikramaditya)**.</li>
-    <li>Political organisation:
-      <ul>
-        <li>Decentralised yet cohesive – provincial governors (often of royal lineage) administered tributes.</li>
-        <li>Maintenance of a standing army and extensive use of **iron weaponry**.</li>
-      </ul>
-    </li>
-    <li>Cultural renaissance:
-      <ul>
-        <li>Patronage of Sanskrit literature – works of **Kalidasa** (*Shakuntala*, *Raghuvamsha*), **Aryabhata** (astronomy), and **Varāhamihira** (astrology).</li>
-        <li>Architectural marvels – **Ajanta** and **Ellora** caves (rock‑cut Buddhist, Hindu, and Jain sanctuaries); **Siddhartha** and **Shivalik** temple complexes.</li>
-        <li>Advances in science: decimal numeral system, concepts of zero, and algebraic formulations.</li>
-      </ul>
-    </li>
-    <li>Economy:
-      <ul>
-        <li>Robust agrarian base – irrigation canals, use of **iron ploughs**.</li>
-        <li>Vibrant trade – maritime links with **Roman Egypt**, **Southeast Asia**, and **South Arabia**; export of textiles, spices, and precious stones.</li>
-      </ul>
-    </li>
-    <li>Religious tolerance – Hindu revival alongside continued Buddhist patronage; rise of **Shaivism** and **Vaishnavism**.</li>
-  </ul>
-
-  <h4>Regional Powers & Their Distinctive Features</h4>
-
-  <h5>East India – [[Kalinga]] and [[Odisha]]</h5>
-  <ul>
-    <li>Post‑Kalinga War (c. 261  BCE) region regained autonomy; later ruled by the **Mahameghavahana dynasty** (e.g., **Kharavela**).</li>
-    <li>Kharavela’s **Hathigumpha inscription** (c. 1st  BCE) reveals extensive patronage of Jainism, naval expeditions, and support for arts.</li>
-    <li>Notable achievements: construction of **Udayagiri** and **Khandagiri** caves, early use of iron‑age technology.</li>
-  </ul>
-
-  <h5>South India – Tamilakam and the Early <strong>Pallava</strong> & <strong>Chola</strong> realms</h5>
-  <ul>
-    <li>Transition from **Sangam** literary age to **Early Historical** period marked by **Cheras**, **Cholas**, and **Pallavas**.</li>
-    <li>Monumental architecture: rock‑cut **Brahmi inscriptions** at **Mahabalipuram**, and later **Temples of Thiruvannamalai**.</li>
-    <li>Economic vitality through maritime trade via **ports of Muziris** and **Kaveripattinam**.</li>
-  </ul>
-
-  <h5>Western India – <strong>Western Kshatrapas</strong> (Saka) and <strong>Satavahana** interaction</h5>
-  <ul>
-    <li>Satraps such as **Rudradaman I** promoted Sanskrit inscriptional tradition, marking a linguistic shift from Prakrit to Sanskrit in official records.</li>
-    <li>Coinage featured **Greek deities** (e.g., Athena) alongside Indian symbols (e.g., **Chakra**, **Nandi**), illustrating syncretic culture.</li>
-  </ul>
-
-  <h4>Cultural & Religious Developments</h4>
-
-  <ul>
-    <li><strong>Spread of Buddhism</strong> – After the Mauryan decline, Buddhist monastic sites proliferated in **Gandhara**, **Mathura**, **Deccan**, and **South India**. The **Sanchi Stupa** (originally Mauryan) received **Satavahana** and **Kushan** additions.</li>
-    <li><strong>Jainism</strong> – Gained royal patronage under **Kharavela** and later under the **Gupta** rulers; monumental Jain caves at **Ellora** reflect sophisticated iconography.</li>
-    <li><strong>Hindu revival</strong> – The Gupta period witnessed the composition of the **Puranas**, codification of **Dharmaśāstra**, and the rise of devotional (Bhakti) movements.</li>
-    <li>Artistic synthesis – **Gandhara** (Greco‑Buddhist) and **Mathura** schools produced distinct iconographies; later **Gupta art** emphasized idealised human figures and serene expressions.</li>
-  </ul>
-
-  <h4>Economic Patterns & Trade Networks</h4>
-
-  <ul>
-    <li><strong>Silk Route</strong> – Under the <strong>[[Kushan Empire]]</strong>, the overland corridor linked **Chang’an** (China) with **Rome**, exchanging silk, spices, precious stones, and ideas.</li>
-    <li>Maritime commerce – Ports on the **Western coast** (e.g., **Barigaza**, **Barygaza**) facilitated trade with the **Roman Empire**; the **Periplus of the Erythraean Sea** (1st  CE) mentions Indian exports of pepper, cardamom, and textiles.</li>
-    <li>Monetary systems – Introduction of gold, silver, and copper **Karshapana** and later **Gupta gold dinars** standardized commerce.</li>
-    <li>Urbanisation – Growth of cities such as **Pataliputra**, **Ujjain**, **Taxila**, and **Thanjavur**, each serving as administrative, cultural, and market hubs.</li>
-  </ul>
-
-  <h4>Administrative & Social Structures</h4>
-
-  <ul>
-    <li>Continuity of **Mauryan bureaucracy** – Provincial governors (<em>Mahamatras</em>) persisted, especially under the Shungas and early Guptas.</li>
-    <li>Land tenure – Predominantly **Shrauta** (tax‑free) and **Brahmanical** land grants; later **Gupta** era saw the rise of **landed aristocracy** (nagaras).</li>
-    <li>Social stratification – The caste system solidified; new occupational groups emerged (e.g., **merchants**, **artisans**, **scholars**) fostering a complex urban society.</li>
-  </ul>
-
-  <h4>Legacy and Historical Significance</h4>
-
-  <ul>
-    <li>Political fragmentation after the Mauryas paved the way for a **pluralistic polity** where regional kingdoms negotiated power, set a precedent for later Indian federalism.</li>
-    <li>Cross‑cultural exchanges – Greek, Central Asian, and Chinese contacts during the **Kushan** period enriched Indian art, religion, and commerce, influencing the spread of Buddhism to East Asia.</li>
-    <li>Gupta era – Often regarded as the **“Golden Age”**, its achievements in literature, science, and architecture became the benchmark for later Indian civilisation and continue to shape modern Indian identity.</li>
-    <li>Religious syncretism – The coexistence of **Buddhism**, **Jainism**, and **Hinduism** during this period laid the groundwork for India’s enduring pluralistic religious fabric.</li>
-  </ul>
-
-  <p style="margin-top: 12px; font-size: 0.9em; color:#bbb;">
-    *Prepared from the “Pathfinder” textbook and standard NCERT histories – tailored for NDA, CDS, AFCAT aspirants.
-  </p>
-</div>
 `;
 
 EXPANDED_NOTES_DATA["gupta-period"] = `
