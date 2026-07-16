@@ -2014,6 +2014,116 @@ window.CURRENT_AFFAIRS_DB = {
         "answer": "B",
         "explanation": "The scheme provides a 10% supplement."
       }
+    },
+    {
+      "id": "indonesia-brahmos-2026",
+      "topic": "Defence Exports",
+      "text": "During the Prime Minister's state visit to **Indonesia** from July 6-8, 2026, a major **$200 million deal** was signed to export two batteries of the **BrahMos supersonic cruise missile**, making Indonesia the third international customer after the Philippines and Vietnam.",
+      "details": {
+        "winner": "India & Indonesia",
+        "award": "BrahMos Export Deal",
+        "nationality": "International",
+        "summary": "Strengthens defense ties under the MAHASAGAR vision."
+      },
+      "mcq": {
+        "question": "Which Southeast Asian country became the third international customer of the BrahMos missile in July 2026?",
+        "options": [
+          "A) Malaysia",
+          "B) Indonesia",
+          "C) Thailand",
+          "D) Singapore"
+        ],
+        "answer": "B",
+        "explanation": "Indonesia signed a $200 million deal for two BrahMos batteries."
+      }
+    },
+    {
+      "id": "nz-strategic-partnership-2026",
+      "topic": "Bilateral Diplomacy",
+      "text": "India and **New Zealand** elevated their bilateral ties to a **'Strategic Partnership'** during the Prime Minister's visit on July 10-11, 2026. The two nations also signed a crucial **Reciprocal Navy Logistics Pact**.",
+      "details": {
+        "winner": "India & New Zealand",
+        "award": "Strategic Partnership",
+        "nationality": "International",
+        "summary": "Pact allows mutual use of naval facilities for logistics and refuelling."
+      },
+      "mcq": {
+        "question": "India elevated its ties to a 'Strategic Partnership' and signed a Reciprocal Navy Logistics Pact with which country in July 2026?",
+        "options": [
+          "A) Australia",
+          "B) New Zealand",
+          "C) Fiji",
+          "D) Papua New Guinea"
+        ],
+        "answer": "B",
+        "explanation": "New Zealand and India upgraded ties to a Strategic Partnership in July 2026."
+      }
+    },
+    {
+      "id": "japan-summit-2026",
+      "topic": "Economic & Tech Ties",
+      "text": "At the India-Japan Summit held from July 1-3, 2026, Japan announced a massive **$62 billion investment pledge** over five years. The summit also saw the release of a **Joint AI Statement** and an agreement on the first co-defence development project.",
+      "details": {
+        "winner": "India & Japan",
+        "award": "Bilateral Summit",
+        "nationality": "International",
+        "summary": "Focuses on high-tech collaboration and significant FDI infusion."
+      },
+      "mcq": {
+        "question": "Which country pledged a $62 billion investment and signed a Joint AI Statement with India in July 2026?",
+        "options": [
+          "A) United States",
+          "B) France",
+          "C) Japan",
+          "D) South Korea"
+        ],
+        "answer": "C",
+        "explanation": "Japan made the $62 billion investment pledge during the July 2026 summit."
+      }
+    },
+    {
+      "id": "australia-summit-2026",
+      "topic": "Strategic Dialogue",
+      "text": "The **3rd India-Australia Annual Summit** took place from July 8-10, 2026. Key discussions focused on expanding cooperation within the **Quad** framework and securing supply chains for **critical minerals**.",
+      "details": {
+        "winner": "India & Australia",
+        "award": "Annual Summit",
+        "nationality": "International",
+        "summary": "Deepened collaboration on Indo-Pacific security and critical minerals."
+      },
+      "mcq": {
+        "question": "The 3rd Annual Summit held in July 2026 focusing on critical minerals and Quad cooperation was between India and:",
+        "options": [
+          "A) United Kingdom",
+          "B) Australia",
+          "C) Japan",
+          "D) United States"
+        ],
+        "answer": "B",
+        "explanation": "India and Australia held their 3rd Annual Summit focusing on critical minerals."
+      }
+    },
+    {
+      "id": "major-abhilasha-barak-2026",
+      "topic": "Awards & Honours",
+      "text": "Major **Abhilasha Barak**, the Indian Army's first woman combat helicopter pilot, was awarded for her exceptional service with the **UNIFIL peacekeeping mission in Lebanon**, where she conducted 539 gender-related activities.",
+      "details": {
+        "winner": "Major Abhilasha Barak",
+        "award": "UN Peacekeeping Honour",
+        "nationality": "Indian",
+        "summary": "Recognized for exemplary service in international peacekeeping."
+      },
+      "mcq": {
+        "question": "Major Abhilasha Barak, recently awarded for her peacekeeping service, is known for being the Indian Army's first:",
+        "options": [
+          "A) Woman fighter jet pilot",
+          "B) Woman combat helicopter pilot",
+          "C) Woman commando",
+          "D) Woman submarine officer"
+        ],
+        "answer": "B",
+        "explanation": "Major Abhilasha Barak is the Indian Army's first woman combat helicopter pilot."
+      }
     }
   ]
 };
