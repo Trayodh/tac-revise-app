@@ -39,46 +39,40 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
-    visit: "PM Modi's State Visit to Indonesia",
+    visit: "PM Modi's Visit to Indonesia (Jakarta)",
     period: "July 2026",
-    purpose: "State visit at the invitation of President Prabowo Subianto.",
-    deals: "Reaffirmed the Comprehensive Strategic Partnership. Signed agreements on maritime security, defense (BrahMos and Astra missiles), critical minerals, technology, and food security. PM Modi was conferred with Indonesia's highest honor, the 'Bintang Adipurna'."
+    purpose: "State visit (July 6–8) at the invitation of President Prabowo Subianto. First bilateral visit since the relationship was elevated to a Comprehensive Strategic Partnership.",
+    deals: "Signed ~12 agreements covering maritime security, defence (BrahMos supersonic cruise missile — 2 batteries, ~$200M deal, making Indonesia the 3rd international BrahMos customer after Philippines & Vietnam; and Astra BVR air-to-air missile), critical minerals, technology, food security, and healthcare. PM Modi visited Prambanan Temple with President Subianto. PM Modi was conferred Indonesia's highest civilian honour, the 'Bintang Adipurna', on July 7. Focus area: MAHASAGAR vision (Mutual and Holistic Advancement for Security and Growth Across Regions)."
   },
   {
-    visit: "PM Modi to Australia",
+    visit: "PM Modi at 3rd India-Australia Annual Summit (Melbourne)",
     period: "July 2026",
-    purpose: "Bilateral meeting with PM Anthony Albanese in Melbourne.",
-    deals: "Focused on strengthening the Comprehensive Strategic Partnership, defense, security, trade, investment, and emerging technologies."
+    purpose: "3rd India-Australia Annual Summit (July 8–10) with PM Anthony Albanese, under the Comprehensive Strategic Partnership framework.",
+    deals: "Strengthened cooperation in Quad, maritime security, critical minerals (lithium, cobalt supply chain), clean energy, and defence interoperability. India-Australia ties driven by Act East Policy and Indo-Pacific security alignment."
   },
   {
-    visit: "PM Modi's State Visit to New Zealand",
+    visit: "PM Modi's Visit to New Zealand (Auckland)",
     period: "July 2026",
-    purpose: "State visit at the invitation of PM Christopher Luxon.",
-    deals: "First state visit by an Indian PM to New Zealand in four decades, focusing on enhancing bilateral relations and Indo-Pacific cooperation."
+    purpose: "Historic visit (July 10–11) — first by an Indian PM to New Zealand in 40 years, at the invitation of PM Christopher Luxon.",
+    deals: "Elevated bilateral ties to a 'Strategic Partnership'. Key outcomes: Reciprocal Logistics Support Pact between Indian and New Zealand Navies; agreements on trade, defence, education, and people-to-people ties. Community event at Auckland's Spark Arena with the Indian diaspora."
   },
   {
-    visit: "Japanese PM Sanae Takaichi to India",
+    visit: "Japanese PM Sanae Takaichi to India (New Delhi)",
     period: "July 2026",
-    purpose: "16th India-Japan Annual Summit.",
-    deals: "Focused on defense, security, and the 'Japan-India Cooperative Biogas for Growth Initiative'."
+    purpose: "16th India-Japan Annual Summit (July 1–3). First official visit by PM Takaichi (in office since Oct 2025) to India.",
+    deals: "Japan pledged US$62 billion investment in India over 10 years. Joint Statement on AI cooperation (Japan precision technology + India software capabilities). First-ever India-Japan co-development project in defence technology (naval systems). 'India-Japan Cooperative Biogas for Growth (CBG) Initiative' — 1,000 biogas plants. 2027 declared 'India-Japan Year of Shared Horizons' (75th anniversary of diplomatic ties)."
   },
   {
     visit: "PM Modi's State Visit to Seychelles",
     period: "June 2026",
-    purpose: "State Visit.",
-    deals: "Strengthened maritime security and capacity building in the Indian Ocean region."
+    purpose: "State Visit (June 27–29) — Guest of Honour at Seychelles' Golden Jubilee National Day celebrations.",
+    deals: "Conferred with the 'Guardian of the Blue Horizon' award by Seychelles. Strengthened maritime security and Indian Ocean Region capacity building under the Neighbourhood First policy."
   },
   {
     visit: "PM Modi to France and Slovakia",
     period: "June 2026",
-    purpose: "Bilateral Visits.",
-    deals: "Elevated bilateral relationship with Slovakia to a 'Comprehensive Partnership'. Strengthened strategic ties with France."
-  },
-  {
-    visit: "President of Myanmar to India",
-    period: "May 2026",
-    purpose: "Official Visit.",
-    deals: "Discussions on border security, connectivity projects, and bilateral cooperation."
+    purpose: "State visits (June 13–18): France (bilateral + G7 Summit in Evian, June 16–17; VivaTech 2026 summit in Paris) and Slovakia (first-ever visit by an Indian PM since Slovakia's independence in 1993).",
+    deals: "Slovakia: Talks with PM Robert Fico and President Peter Pellegrini; discussions on trade, investment, and manufacturing. Inaugurated 'Bharat Innovates' event with French President Macron in Nice. France remains key strategic partner (Rafale jets, nuclear cooperation)."
   },
   {
     visit: "PM Modi to Malaysia",
@@ -92,69 +86,107 @@ window.CA_VISITS_DATA = [
 // SECTION: AWARDS & HONOURS
 // =============================================================================
 window.CA_AWARDS_DATA = [
+  // --- Padma Awards 2026 (announced Jan 25, 2026 on Republic Day eve) ---
   {
-    awardName: "Padma Vibhushan",
-    categoryOfWork: "Art",
-    workName: "Contribution to Indian Cinema",
+    awardName: "Padma Vibhushan 2026",
+    categoryOfWork: "Art (Cinema)",
+    workName: "Exceptional contribution to Indian Cinema",
     recipient: "Dharmendra Singh Deol (Posthumous)",
     recipientCountry: "India",
     givingCountry: "India"
   },
   {
-    awardName: "Padma Vibhushan",
+    awardName: "Padma Vibhushan 2026",
     categoryOfWork: "Public Affairs",
-    workName: "Distinguished Public Service",
+    workName: "Distinguished public service as former Supreme Court Judge",
     recipient: "K.T. Thomas",
     recipientCountry: "India",
     givingCountry: "India"
   },
   {
-    awardName: "Padma Vibhushan",
-    categoryOfWork: "Art",
-    workName: "Contribution to Hindustani Classical Music",
+    awardName: "Padma Vibhushan 2026",
+    categoryOfWork: "Art (Hindustani Classical Music)",
+    workName: "Contribution to Hindustani Classical Violin",
     recipient: "N. Rajam",
     recipientCountry: "India",
     givingCountry: "India"
   },
   {
-    awardName: "Padma Vibhushan",
+    awardName: "Padma Vibhushan 2026",
     categoryOfWork: "Public Affairs",
-    workName: "Distinguished Public Service",
+    workName: "Distinguished public service as former Kerala CM",
     recipient: "V.S. Achuthanandan (Posthumous)",
     recipientCountry: "India",
     givingCountry: "India"
   },
   {
-    awardName: "Bintang Adipurna",
-    categoryOfWork: "Diplomacy and Bilateral Relations",
-    workName: "Strengthening India-Indonesia ties",
-    recipient: "Narendra Modi",
+    awardName: "Padma Vibhushan 2026",
+    categoryOfWork: "Literature & Education",
+    workName: "Distinguished service in literature and education",
+    recipient: "P. Narayanan",
+    recipientCountry: "India",
+    givingCountry: "India"
+  },
+  // --- Padma Bhushan 2026 (selected notable recipients) ---
+  {
+    awardName: "Padma Bhushan 2026",
+    categoryOfWork: "Art (Playback Singing)",
+    workName: "Exceptional contribution to Indian film music",
+    recipient: "Alka Yagnik",
+    recipientCountry: "India",
+    givingCountry: "India"
+  },
+  {
+    awardName: "Padma Bhushan 2026",
+    categoryOfWork: "Art (Cinema)",
+    workName: "Outstanding contribution to Malayalam cinema",
+    recipient: "Mammootty",
+    recipientCountry: "India",
+    givingCountry: "India"
+  },
+  // --- International Honours ---
+  {
+    awardName: "Bintang Adipurna (Order of the Star of the Republic of Indonesia)",
+    categoryOfWork: "Diplomacy & Bilateral Relations",
+    workName: "Exceptional leadership in strengthening India-Indonesia strategic ties",
+    recipient: "Narendra Modi (PM of India)",
     recipientCountry: "India",
     givingCountry: "Indonesia"
   },
   {
-    awardName: "UN Military Gender Advocate of the Year",
-    categoryOfWork: "Military Peacekeeping",
-    workName: "Advancing gender equality in UN operations",
-    recipient: "Major Abhilasha Barak",
+    awardName: "Guardian of the Blue Horizon Award",
+    categoryOfWork: "Diplomacy & Maritime Cooperation",
+    workName: "Contributions to Indian Ocean Region cooperation and Seychelles' security",
+    recipient: "Narendra Modi (PM of India)",
+    recipientCountry: "India",
+    givingCountry: "Seychelles"
+  },
+  // --- UN & Military Awards ---
+  {
+    awardName: "UN Military Gender Advocate of the Year Award 2025",
+    categoryOfWork: "Military Peacekeeping (UNIFIL, Lebanon)",
+    workName: "Conducted 539 gender-focused field activities in 6 months; introduced AI-based 'Lebanon Gender Initiative'; reached 5,000+ women & girls. Also first woman combat helicopter pilot in Indian Army.",
+    recipient: "Major Abhilasha Barak (Indian Army)",
     recipientCountry: "India",
     givingCountry: "United Nations"
   },
+  // --- Space & Science Awards ---
   {
-    awardName: "Dag Hammarskjöld Medal",
-    categoryOfWork: "Military Peacekeeping",
-    workName: "Supreme sacrifice in UN peacekeeping missions",
-    recipient: "Havildar Sanjay Singh & Constable Sushil Kumar Khadka",
-    recipientCountry: "India",
-    givingCountry: "United Nations"
-  },
-  {
-    awardName: "AIAA Goddard Astronautics Award",
+    awardName: "AIAA Goddard Astronautics Award 2026",
     categoryOfWork: "Space Exploration",
-    workName: "Chandrayaan-3 Mission",
+    workName: "Chandrayaan-3 Mission — first nation to soft-land near the lunar south pole (Aug 23, 2023). Award presented May 21, 2026 at AIAA ASCEND Conference, Washington D.C. Accepted by India's Ambassador Vinay Mohan Kwatra.",
     recipient: "ISRO",
     recipientCountry: "India",
     givingCountry: "United States (AIAA)"
+  },
+  // --- Defence Investiture Ceremony 2026 ---
+  {
+    awardName: "Defence Investiture Ceremony 2026 — Phase I (June 8) & Phase II (June 29)",
+    categoryOfWork: "Military Gallantry & Distinguished Service",
+    workName: "Phase I: 51 gallantry awards including Kirti Chakra, Vir Chakra, Shaurya Chakra. Phase II: 105 Distinguished Service Decorations — 7 SYSM, 30 PVSM, 12 UYSM, 56 AVSM. Conferred by President Droupadi Murmu at Rashtrapati Bhavan.",
+    recipient: "Personnel of Indian Armed Forces & Indian Coast Guard",
+    recipientCountry: "India",
+    givingCountry: "India"
   }
 ];
 ;
