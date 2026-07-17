@@ -1992,38 +1992,82 @@ window.CURRENT_AFFAIRS_DB = {
       }
     }
   ],
-  "July 2026": [
+    "July 2026": [
     {
-      "id": "pradhan-mantri-raksha-yojana-2026",
-      "topic": "Welfare Scheme",
-      "text": "The government launched the **Pradhan Mantri Raksha Yojana** on **2 July 2026**, offering a **10% pension supplement** to ex‑servicemen and families of martyrs for five years.",
+      "id": "jul-26-venezuela-aid",
+      "topic": "Humanitarian Assistance",
+      "text": "India launched **Operation Sahayata** in July 2026, dispatching IAF C-17 Globemaster aircraft carrying 50 tonnes of emergency relief materials and medical teams to earthquake-hit **Venezuela**.",
       "details": {
-        "winner": "N/A",
-        "award": "N/A",
-        "nationality": "India",
-        "summary": "Important welfare measure for veterans, often asked in defence exams."
+        "winner": "India & Venezuela",
+        "award": "Humanitarian Aid",
+        "nationality": "International",
+        "summary": "Demonstrates India's role as a First Responder and Vishwamitra (friend of the world)."
       },
       "mcq": {
-        "question": "What is the pension supplement percentage under the Pradhan Mantri Raksha Yojana launched in July 2026?",
+        "question": "Under which operation did India send 50 tonnes of emergency relief materials to earthquake-hit Venezuela in July 2026?",
         "options": [
-          "A) 5%",
-          "B) 10%",
-          "C) 15%",
-          "D) 20%"
+          "A) Operation Dost",
+          "B) Operation Maitri",
+          "C) Operation Sahayata",
+          "D) Operation Karuna"
         ],
-        "answer": "B",
-        "explanation": "The scheme provides a 10% supplement."
+        "answer": "C",
+        "explanation": "Operation Sahayata was initiated to provide relief to Venezuela following a devastating earthquake."
       }
     },
     {
-      "id": "indonesia-brahmos-2026",
+      "id": "jul-26-drdo-hstdv",
+      "topic": "Defence Technology",
+      "text": "The **Defence Research and Development Organisation (DRDO)** successfully flight-tested the indigenous **Hypersonic Technology Demonstrator Vehicle (HSTDV)** powered by a scramjet engine off the coast of Odisha.",
+      "details": {
+        "winner": "DRDO",
+        "award": "HSTDV Test",
+        "nationality": "Indian",
+        "summary": "Crucial step toward developing indigenous hypersonic cruise missiles."
+      },
+      "mcq": {
+        "question": "The DRDO recently flight-tested the HSTDV. What type of engine powers the HSTDV during its hypersonic cruise phase?",
+        "options": [
+          "A) Ramjet engine",
+          "B) Scramjet engine",
+          "C) Cryogenic engine",
+          "D) Turbojet engine"
+        ],
+        "answer": "B",
+        "explanation": "HSTDV is powered by a scramjet engine, which allows supersonic combustion necessary for hypersonic flight."
+      }
+    },
+    {
+      "id": "jul-26-wimbledon",
+      "topic": "Sports",
+      "text": "In Tennis, **Carlos Alcaraz** successfully defended his **Wimbledon Men's Singles** title in July 2026, securing his dominance on grass courts.",
+      "details": {
+        "winner": "Carlos Alcaraz",
+        "award": "Wimbledon Men's Singles",
+        "nationality": "Spanish",
+        "summary": "One of the most prestigious Grand Slam tournaments."
+      },
+      "mcq": {
+        "question": "Who won the Wimbledon Men's Singles title in July 2026?",
+        "options": [
+          "A) Novak Djokovic",
+          "B) Jannik Sinner",
+          "C) Carlos Alcaraz",
+          "D) Daniil Medvedev"
+        ],
+        "answer": "C",
+        "explanation": "Carlos Alcaraz won the Wimbledon Men's Singles championship in July 2026."
+      }
+    },
+    {
+      "id": "jul-26-indonesia-brahmos",
       "topic": "Defence Exports",
-      "text": "During the Prime Minister's state visit to **Indonesia** from July 6-8, 2026, a major **$200 million deal** was signed to export two batteries of the **BrahMos supersonic cruise missile**, making Indonesia the third international customer after the Philippines and Vietnam.",
+      "text": "India and **Indonesia** signed a landmark **$200 million deal** for the export of two batteries of the **BrahMos supersonic cruise missile**, making Indonesia the third international customer.",
       "details": {
         "winner": "India & Indonesia",
         "award": "BrahMos Export Deal",
         "nationality": "International",
-        "summary": "Strengthens defense ties under the MAHASAGAR vision."
+        "summary": "Strengthens defence ties under India's Act East Policy and MAHASAGAR vision."
       },
       "mcq": {
         "question": "Which Southeast Asian country became the third international customer of the BrahMos missile in July 2026?",
@@ -2034,95 +2078,29 @@ window.CURRENT_AFFAIRS_DB = {
           "D) Singapore"
         ],
         "answer": "B",
-        "explanation": "Indonesia signed a $200 million deal for two BrahMos batteries."
+        "explanation": "Indonesia signed a $200 million deal for two BrahMos batteries, joining the Philippines and Vietnam."
       }
     },
     {
-      "id": "nz-strategic-partnership-2026",
-      "topic": "Bilateral Diplomacy",
-      "text": "India and **New Zealand** elevated their bilateral ties to a **'Strategic Partnership'** during the Prime Minister's visit on July 10-11, 2026. The two nations also signed a crucial **Reciprocal Navy Logistics Pact**.",
+      "id": "jul-26-brics-summit",
+      "topic": "International Summits",
+      "text": "The **18th BRICS Summit** was held in **Kazan, Russia** in July 2026, focusing on expanding the use of local currencies for international trade and reforming multilateral institutions.",
       "details": {
-        "winner": "India & New Zealand",
-        "award": "Strategic Partnership",
+        "winner": "BRICS Nations",
+        "award": "18th BRICS Summit",
         "nationality": "International",
-        "summary": "Pact allows mutual use of naval facilities for logistics and refuelling."
+        "summary": "Key focus on de-dollarization and expanding the alliance."
       },
       "mcq": {
-        "question": "India elevated its ties to a 'Strategic Partnership' and signed a Reciprocal Navy Logistics Pact with which country in July 2026?",
+        "question": "Where was the 18th BRICS Summit held in July 2026?",
         "options": [
-          "A) Australia",
-          "B) New Zealand",
-          "C) Fiji",
-          "D) Papua New Guinea"
+          "A) Johannesburg, South Africa",
+          "B) Kazan, Russia",
+          "C) Beijing, China",
+          "D) New Delhi, India"
         ],
         "answer": "B",
-        "explanation": "New Zealand and India upgraded ties to a Strategic Partnership in July 2026."
-      }
-    },
-    {
-      "id": "japan-summit-2026",
-      "topic": "Economic & Tech Ties",
-      "text": "At the India-Japan Summit held from July 1-3, 2026, Japan announced a massive **$62 billion investment pledge** over five years. The summit also saw the release of a **Joint AI Statement** and an agreement on the first co-defence development project.",
-      "details": {
-        "winner": "India & Japan",
-        "award": "Bilateral Summit",
-        "nationality": "International",
-        "summary": "Focuses on high-tech collaboration and significant FDI infusion."
-      },
-      "mcq": {
-        "question": "Which country pledged a $62 billion investment and signed a Joint AI Statement with India in July 2026?",
-        "options": [
-          "A) United States",
-          "B) France",
-          "C) Japan",
-          "D) South Korea"
-        ],
-        "answer": "C",
-        "explanation": "Japan made the $62 billion investment pledge during the July 2026 summit."
-      }
-    },
-    {
-      "id": "australia-summit-2026",
-      "topic": "Strategic Dialogue",
-      "text": "The **3rd India-Australia Annual Summit** took place from July 8-10, 2026. Key discussions focused on expanding cooperation within the **Quad** framework and securing supply chains for **critical minerals**.",
-      "details": {
-        "winner": "India & Australia",
-        "award": "Annual Summit",
-        "nationality": "International",
-        "summary": "Deepened collaboration on Indo-Pacific security and critical minerals."
-      },
-      "mcq": {
-        "question": "The 3rd Annual Summit held in July 2026 focusing on critical minerals and Quad cooperation was between India and:",
-        "options": [
-          "A) United Kingdom",
-          "B) Australia",
-          "C) Japan",
-          "D) United States"
-        ],
-        "answer": "B",
-        "explanation": "India and Australia held their 3rd Annual Summit focusing on critical minerals."
-      }
-    },
-    {
-      "id": "major-abhilasha-barak-2026",
-      "topic": "Awards & Honours",
-      "text": "Major **Abhilasha Barak**, the Indian Army's first woman combat helicopter pilot, was awarded for her exceptional service with the **UNIFIL peacekeeping mission in Lebanon**, where she conducted 539 gender-related activities.",
-      "details": {
-        "winner": "Major Abhilasha Barak",
-        "award": "UN Peacekeeping Honour",
-        "nationality": "Indian",
-        "summary": "Recognized for exemplary service in international peacekeeping."
-      },
-      "mcq": {
-        "question": "Major Abhilasha Barak, recently awarded for her peacekeeping service, is known for being the Indian Army's first:",
-        "options": [
-          "A) Woman fighter jet pilot",
-          "B) Woman combat helicopter pilot",
-          "C) Woman commando",
-          "D) Woman submarine officer"
-        ],
-        "answer": "B",
-        "explanation": "Major Abhilasha Barak is the Indian Army's first woman combat helicopter pilot."
+        "explanation": "The 18th BRICS Summit was hosted by Russia in the city of Kazan."
       }
     }
   ]

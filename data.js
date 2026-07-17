@@ -7048,291 +7048,70 @@ let CURRENT_AFFAIRS_DB = {
   ],
   "July 2026": [
     {
-      "id": "ca_live_2026_07_16_fallback_5",
-      "topic": "Environment & Ecology",
-      "topicColor": "#059669",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCY...",
-      "text": "<strong>Centre appoints Lt Gen Dhiraj Seth as next Chief of Army Staff - The Times of India</strong><br><br>&lt;a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCYVphTEloYXNFelFabG13WUxPaUxBTmhmczdJSkVSNmNyQVJXcTdYWmc2SGlPUHZ5aTlacnd1TWJOb0xpdk9CSTZBbXNtT25jWjk5YmRHclBjalNRLXBKVWJMVjhxb3Z2Q1lrcVQzTlBDMUVqaGViSHlIWlJJWmg4aF85dXFrQUkzT0UxVndNWEM1ejRr0gHYAUFVX3lxTFBWOUNRU3k1T3p2dGRFVXBFTjV1XzlFM1hwLVgwdFdLUy1QTzExSmN4UGJqRS1Vd1NVVXdLcFJTVGJYM1NfdlNhY1RkSXpibERQeHRwUzB6bF9ncFdUdDhCZ0dObEp1SW5DNkhQMDBuQTc0c3poOWU <br><a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCYVphTEloYXNFelFabG13WUxPaUxBTmhmczdJSkVSNmNyQVJXcTdYWmc2SGlPUHZ5aTlacnd1TWJOb0xpdk9CSTZBbXNtT25jWjk5YmRHclBjalNRLXBKVWJMVjhxb3Z2Q1lrcVQzTlBDMUVqaGViSHlIWlJJWmg4aF85dXFrQUkzT0UxVndNWEM1ejRr0gHYAUFVX3lxTFBWOUNRU3k1T3p2dGRFVXBFTjV1XzlFM1hwLVgwdFdLUy1QTzExSmN4UGJqRS1Vd1NVVXdLcFJTVGJYM1NfdlNhY1RkSXpibERQeHRwUzB6bF9ncFdUdDhCZ0dObEp1SW5DNkhQMDBuQTc0c3poOWU0OTZSSk1QSDJaSjZXNk5yOHIzZUhVOGEzSWZCNTlOOTc1QTFPcFBVSzFadFlyN2NWZWpuOUlpU09LMlFYemU0RVE3YlZaS0hYb1hnbzhBZHRaZ2tlNDBudVJseGtrYTViaQ?oc=5\" target=\"_blank\" style=\"color:var(--accent);\">Read Original Release</a>",
-      "quickSummary": "Quick AI summary is currently offline due to an expired API key uplink.",
-      "detailedAnalysis": "Deep-dive analysis is currently offline. Please refer to official sources or read the full article by following the official link.",
-      "backgroundContext": "Background context is offline.",
-      "stakeholders": [
-        "India",
-        "Global Community"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "Medium"
-      },
-      "relatedTopics": [],
-      "potentialQuestions": {
-        "shortAnswers": [],
-        "interviewQuestions": [],
-        "ssbDiscussionTopics": []
-      },
-      "upscHighlights": [
-        "Standard news item (AI highlighting offline)"
-      ],
-      "institutionalContext": "Official Press Release / News",
-      "strategicImportance": "Please read the full official release for strategic context.",
-      "originalSource": "PIB / Government Source",
-      "publicationDate": "2026-07-16",
-      "lastUpdatedDate": "2026-07-16",
-      "verificationStatus": "Raw Feed (AI Unverified)",
-      "relatedOfficialDocuments": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1VmUndOeWtfbGozdUpJZ19YUGF5NS1lcVJqS1VNTXU2RjdBMkNNLXlXby1Vc0c2QXZRbkx2NHd2SWRldHZCYVphTEloYXNFelFabG13WUxPaUxBTmhmczdJSkVSNmNyQVJXcTdYWmc2SGlPUHZ5aTlacnd1TWJOb0xpdk9CSTZBbXNtT25jWjk5YmRHclBjalNRLXBKVWJMVjhxb3Z2Q1lrcVQzTlBDMUVqaGViSHlIWlJJWmg4aF85dXFrQUkzT0UxVndNWEM1ejRr0gHYAUFVX3lxTFBWOUNRU3k1T3p2dGRFVXBFTjV1XzlFM1hwLVgwdFdLUy1QTzExSmN4UGJqRS1Vd1NVVXdLcFJTVGJYM1NfdlNhY1RkSXpibERQeHRwUzB6bF9ncFdUdDhCZ0dObEp1SW5DNkhQMDBuQTc0c3poOWU0OTZSSk1QSDJaSjZXNk5yOHIzZUhVOGEzSWZCNTlOOTc1QTFPcFBVSzFadFlyN2NWZWpuOUlpU09LMlFYemU0RVE3YlZaS0hYb1hnbzhBZHRaZ2tlNDBudVJseGtrYTViaQ?oc=5",
-      "mcq": {
-        "question": "Which of the following best describes the core subject of the recent news \"Centre appoints Lt Gen Dhiraj Seth as next Chief of Army Staff - The Times of India\"?",
-        "options": [
-          "A (Details missing due to offline AI)",
-          "B",
-          "C",
-          "D"
-        ],
-        "correct": 0,
-        "explanation": "MCQ auto-generation requires an active AI uplink."
-      }
-    },
-    {
-      "id": "ca_live_2026_07_16_fallback_4",
-      "topic": "International Relations",
-      "topicColor": "#7c3aed",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQLXlRME5VQS1VdlhWVXBuaTdNVFY0cHJfN254ejB4SGhyTXFhcm04VmdfLXgwdjRncjlyOV9VUFJ1c1NnaXhia...",
-      "text": "<strong>Lt Gen Dhiraj Seth named next Army chief, first from Armoured Corps in 3 decades - The Indian Express</strong><br><br>&lt;a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQLXlRME5VQS1VdlhWVXBuaTdNVFY0cHJfN254ejB4SGhyTXFhcm04VmdfLXgwdjRncjlyOV9VUFJ1c1NnaXhia2FtZ0JOVzJPN1ZUZmNOZFQwQ2RLd0VRTGlGWEdEVkpjNEFBLThMV3ZUN1BoNVNiWjctMUZMN0hnSE5GOEpwb0hDaGZkMXE1U1E5aThfUnRnedIBnwFBVV95cUxOX2ZNbXU5OEppbDNseFNLNXhhNHhzOHNDLTItRmx6R05vU056a1RKVGlRZmhFVWswS3BaNE1JaWR5UEZ2RUE5Qm5OYmtmakZmNGxmbFlrelFTLWkzMkZNalFwZ0c2ZUF0ang4NXVEUGZqUFE5bGRCNVVxU3l5VlpCb3pRZGVqNVdEa0RveXB3VlRTQzJTNS1FQmJZTXlrNDQ?oc=5\" target=\"_blank\"&g <br><a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQLXlRME5VQS1VdlhWVXBuaTdNVFY0cHJfN254ejB4SGhyTXFhcm04VmdfLXgwdjRncjlyOV9VUFJ1c1NnaXhia2FtZ0JOVzJPN1ZUZmNOZFQwQ2RLd0VRTGlGWEdEVkpjNEFBLThMV3ZUN1BoNVNiWjctMUZMN0hnSE5GOEpwb0hDaGZkMXE1U1E5aThfUnRnedIBnwFBVV95cUxOX2ZNbXU5OEppbDNseFNLNXhhNHhzOHNDLTItRmx6R05vU056a1RKVGlRZmhFVWswS3BaNE1JaWR5UEZ2RUE5Qm5OYmtmakZmNGxmbFlrelFTLWkzMkZNalFwZ0c2ZUF0ang4NXVEUGZqUFE5bGRCNVVxU3l5VlpCb3pRZGVqNVdEa0RveXB3VlRTQzJTNS1FQmJZTXlrNDQ?oc=5\" target=\"_blank\" style=\"color:var(--accent);\">Read Original Release</a>",
-      "quickSummary": "Quick AI summary is currently offline due to an expired API key uplink.",
-      "detailedAnalysis": "Deep-dive analysis is currently offline. Please refer to official sources or read the full article by following the official link.",
-      "backgroundContext": "Background context is offline.",
-      "stakeholders": [
-        "India",
-        "Global Community"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "Medium"
-      },
-      "relatedTopics": [],
-      "potentialQuestions": {
-        "shortAnswers": [],
-        "interviewQuestions": [],
-        "ssbDiscussionTopics": []
-      },
-      "upscHighlights": [
-        "Standard news item (AI highlighting offline)"
-      ],
-      "institutionalContext": "Official Press Release / News",
-      "strategicImportance": "Please read the full official release for strategic context.",
-      "originalSource": "PIB / Government Source",
-      "publicationDate": "2026-07-16",
-      "lastUpdatedDate": "2026-07-16",
-      "verificationStatus": "Raw Feed (AI Unverified)",
-      "relatedOfficialDocuments": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLXlRME5VQS1VdlhWVXBuaTdNVFY0cHJfN254ejB4SGhyTXFhcm04VmdfLXgwdjRncjlyOV9VUFJ1c1NnaXhia2FtZ0JOVzJPN1ZUZmNOZFQwQ2RLd0VRTGlGWEdEVkpjNEFBLThMV3ZUN1BoNVNiWjctMUZMN0hnSE5GOEpwb0hDaGZkMXE1U1E5aThfUnRnedIBnwFBVV95cUxOX2ZNbXU5OEppbDNseFNLNXhhNHhzOHNDLTItRmx6R05vU056a1RKVGlRZmhFVWswS3BaNE1JaWR5UEZ2RUE5Qm5OYmtmakZmNGxmbFlrelFTLWkzMkZNalFwZ0c2ZUF0ang4NXVEUGZqUFE5bGRCNVVxU3l5VlpCb3pRZGVqNVdEa0RveXB3VlRTQzJTNS1FQmJZTXlrNDQ?oc=5",
-      "mcq": {
-        "question": "Which of the following best describes the core subject of the recent news \"Lt Gen Dhiraj Seth named next Army chief, first from Armoured Corps in 3 decades - The Indian Express\"?",
-        "options": [
-          "A (Details missing due to offline AI)",
-          "B",
-          "C",
-          "D"
-        ],
-        "correct": 0,
-        "explanation": "MCQ auto-generation requires an active AI uplink."
-      }
-    },
-    {
-      "id": "ca_live_2026_07_16_fallback_3",
+      "id": "ca_live_2026_07_01_0",
       "topic": "Military Appointments",
       "topicColor": "#b45309",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHU1RnY2bzRJdkNWNzVZLXlPR2lwdmZsS1daeGpCNEZ5YzJqVkV5UVVSN0dBVHBqNnhCVnF0U29xWWJndjR2N...",
-      "text": "<strong>Lt General Dhiraj Seth Appointed as Next Army Chief - Elets eGov</strong><br><br>&lt;a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHU1RnY2bzRJdkNWNzVZLXlPR2lwdmZsS1daeGpCNEZ5YzJqVkV5UVVSN0dBVHBqNnhCVnF0U29xWWJndjR2N0FRUndSbU9MdnlqcG5yRFlhVXkwS2VBbEIzNG5yVmhsUUVXODNQRTZMRG90UUdZZVUtNF9EQmNRVTZnSV82YU55WDZWRm1OQXFVRVU?oc=5\" target=\"_blank\"&gt;Lt General Dhiraj Seth Appointed as Next Army Chief&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;Elets eGov&lt;/font&gt; <br><a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHU1RnY2bzRJdkNWNzVZLXlPR2lwdmZsS1daeGpCNEZ5YzJqVkV5UVVSN0dBVHBqNnhCVnF0U29xWWJndjR2N0FRUndSbU9MdnlqcG5yRFlhVXkwS2VBbEIzNG5yVmhsUUVXODNQRTZMRG90UUdZZVUtNF9EQmNRVTZnSV82YU55WDZWRm1OQXFVRVU?oc=5\" target=\"_blank\" style=\"color:var(--accent);\">Read Original Release</a>",
-      "quickSummary": "Quick AI summary is currently offline due to an expired API key uplink.",
-      "detailedAnalysis": "Deep-dive analysis is currently offline. Please refer to official sources or read the full article by following the official link.",
-      "backgroundContext": "Background context is offline.",
+      "summary": "General Dhiraj Seth has officially assumed charge as the 31st Chief of the Army Staff (COAS) of the Indian Army, succeeding General Upendra Dwivedi and outlining his strategic 'VIJAY' vision for modernization and self-reliance.",
+      "text": "<strong>General Dhiraj Seth</strong> has assumed command as the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>31st Chief of the Army Staff (COAS)</mark> of the <strong>Indian Army</strong>. His tenure begins with the unveiling of the <strong>'VIJAY' vision</strong>, which prioritizes technological absorption, indigenous defense production under <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Atmanirbhar Bharat</mark>, and enhanced jointness among the tri-services. This transition comes at a critical juncture of theaterisation reforms and ongoing border standoffs.",
+      "quickSummary": "General Dhiraj Seth took charge as the 31st Chief of the Army Staff (COAS), succeeding General Upendra Dwivedi. He introduced the 'VIJAY' vision, focusing on modernization, self-reliance, and tri-service integration to address contemporary security challenges.",
+      "detailedAnalysis": "The appointment of General Dhiraj Seth as the 31st COAS marks a pivotal moment in [[Indian Army Modernisation]]. Under his 'VIJAY' (Vigorous, Integrated, Joint, Agile, and Yield-oriented) vision, the Indian Army aims to accelerate the transition from a manpower-intensive force to a technology-enabled one. This involves the integration of niche technologies like artificial intelligence, quantum computing, and unmanned aerial systems (UAS). Historically, the role of the COAS has evolved from the Commander-in-Chief post-independence to a key member of the Chiefs of Staff Committee, now working closely with the [[Chief of Defence Staff]] (CDS) to implement theaterisation. The strategic significance lies in addressing the dual-front threat from China and Pakistan, requiring robust border management along the Line of Actual Control (LAC) and Line of Control (LoC). A key challenge (weakness) remains the slow pace of capital acquisition and bureaucratic delays in indigenous defense production, contrasted with the advantage of a highly battle-hardened infantry. In comparison to global peers like the US Army or China's PLA, which have highly integrated theater commands, the Indian Army is still in the transition phase of establishing joint theater commands. Future upgrades under this tenure will focus on the induction of [[F-INSAS]] (Futuristic Infantry Soldier As a System), [[Zorawar Light Tank]], and advanced swarm drone systems to ensure tactical superiority.",
+      "backgroundContext": "The appointment of the Chief of the Army Staff is governed by the government's discretion, typically following the seniority principle, though exceptions have occurred historically. The transition from General Upendra Dwivedi to General Dhiraj Seth comes amidst structural reforms initiated after the creation of the post of [[Chief of Defence Staff]] (CDS) in 2019. The Indian Army has been actively restructuring its combat formations into Integrated Battle Groups (IBGs) and upgrading its infrastructure along the northern borders following the 2020 Galwan Valley clash, highlighting the need for agile leadership and modern warfare capabilities.",
       "stakeholders": [
-        "India",
-        "Global Community"
+        "Indian Army",
+        "Ministry of Defence, Government of India",
+        "Chief of Defence Staff (CDS)",
+        "General Dhiraj Seth (Chief of the Army Staff)"
       ],
       "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "Medium"
+        "NDA": "Very High",
+        "CDS": "Very High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Very High"
       },
-      "relatedTopics": [],
+      "relatedTopics": [
+        "[[Chief of Defence Staff]]",
+        "[[Theaterisation of Armed Forces]]",
+        "[[Atmanirbhar Bharat in Defence]]",
+        "[[Indian Army Modernisation]]"
+      ],
       "potentialQuestions": {
-        "shortAnswers": [],
-        "interviewQuestions": [],
-        "ssbDiscussionTopics": []
+        "shortAnswers": [
+          "What is the 'VIJAY' vision outlined by the newly appointed COAS?",
+          "How does the appointment of the new COAS impact the ongoing theaterisation process?"
+        ],
+        "interviewQuestions": [
+          "What are the major challenges the new Chief of the Army Staff will face in the context of the border standoff with China?",
+          "How important is indigenization for the Indian Army's modernization goals?"
+        ],
+        "ssbDiscussionTopics": [
+          "Atmanirbhar Bharat in Defence: Rhetoric vs Reality",
+          "The role of technology in future warfare for the Indian Army."
+        ]
       },
       "upscHighlights": [
-        "Standard news item (AI highlighting offline)"
+        "Transition of leadership to General Dhiraj Seth as 31st COAS.",
+        "Focus on 'VIJAY' vision: Vigorous, Integrated, Joint, Agile, and Yield-oriented.",
+        "Emphasis on Atmanirbhar Bharat and technological absorption.",
+        "Context of theaterisation and border standoffs."
       ],
-      "institutionalContext": "Official Press Release / News",
-      "strategicImportance": "Please read the full official release for strategic context.",
-      "originalSource": "PIB / Government Source",
-      "publicationDate": "2026-07-16",
-      "lastUpdatedDate": "2026-07-16",
-      "verificationStatus": "Raw Feed (AI Unverified)",
-      "relatedOfficialDocuments": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHU1RnY2bzRJdkNWNzVZLXlPR2lwdmZsS1daeGpCNEZ5YzJqVkV5UVVSN0dBVHBqNnhCVnF0U29xWWJndjR2N0FRUndSbU9MdnlqcG5yRFlhVXkwS2VBbEIzNG5yVmhsUUVXODNQRTZMRG90UUdZZVUtNF9EQmNRVTZnSV82YU55WDZWRm1OQXFVRVU?oc=5",
+      "institutionalContext": "Ministry of Defence / Indian Army",
+      "strategicImportance": "Leadership changes in the Armed Forces are crucial for understanding strategic direction, modernization plans, and defense policies.",
+      "originalSource": "Official Press Release / Defence Ministry",
+      "publicationDate": "2026-07-01",
+      "lastUpdatedDate": "2026-07-02",
+      "verificationStatus": "Verified",
+      "relatedOfficialDocuments": "MoD Press Release on COAS Appointment",
       "mcq": {
-        "question": "Which of the following best describes the core subject of the recent news \"Lt General Dhiraj Seth Appointed as Next Army Chief - Elets eGov\"?",
+        "question": "What does the 'VIJAY' vision, outlined by the 31st Chief of the Army Staff General Dhiraj Seth, primarily focus on?",
         "options": [
-          "A (Details missing due to offline AI)",
-          "B",
-          "C",
-          "D"
+          "A) Expanding the size of the infantry.",
+          "B) Technological absorption, indigenous defense production, and jointness.",
+          "C) Withdrawing troops from the northern borders.",
+          "D) Relying exclusively on imported defense equipment."
         ],
-        "correct": 0,
-        "explanation": "MCQ auto-generation requires an active AI uplink."
-      }
-    },
-    {
-      "id": "ca_live_2026_07_16_fallback_2",
-      "topic": "Defence & Security",
-      "topicColor": "#dc2626",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPRE40T1VrN3k2WmJQbzhYWWpCY1BYaGZOaEwzY1JacmFvd1ZsbS1jZEZRTFh4YTY1Y3NhWlJ1RERRYVFKRk83a...",
-      "text": "<strong>Lt Gen Dhiraj Seth Appointed as the 31st Army Chief - Vajiram &amp; Ravi</strong><br><br>&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPRE40T1VrN3k2WmJQbzhYWWpCY1BYaGZOaEwzY1JacmFvd1ZsbS1jZEZRTFh4YTY1Y3NhWlJ1RERRYVFKRk83a21wNXN1WVloVV9RX29JVVg1U2cyaEdwcEFTaWlwXzVaQ2cwUng5WnVPdjRwX2lidG1xZ3dVaTZVN2xWSHkwOUVsTldSWURjaWtWeFlFOV9ocVZNTQ?oc=5\" target=\"_blank\"&gt;Lt Gen Dhiraj Seth Appointed as the 31st Army Chief&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;Vajiram &amp; Ravi&lt;/font&gt; <br><a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPRE40T1VrN3k2WmJQbzhYWWpCY1BYaGZOaEwzY1JacmFvd1ZsbS1jZEZRTFh4YTY1Y3NhWlJ1RERRYVFKRk83a21wNXN1WVloVV9RX29JVVg1U2cyaEdwcEFTaWlwXzVaQ2cwUng5WnVPdjRwX2lidG1xZ3dVaTZVN2xWSHkwOUVsTldSWURjaWtWeFlFOV9ocVZNTQ?oc=5\" target=\"_blank\" style=\"color:var(--accent);\">Read Original Release</a>",
-      "quickSummary": "Quick AI summary is currently offline due to an expired API key uplink.",
-      "detailedAnalysis": "Deep-dive analysis is currently offline. Please refer to official sources or read the full article by following the official link.",
-      "backgroundContext": "Background context is offline.",
-      "stakeholders": [
-        "India",
-        "Global Community"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "Medium"
-      },
-      "relatedTopics": [],
-      "potentialQuestions": {
-        "shortAnswers": [],
-        "interviewQuestions": [],
-        "ssbDiscussionTopics": []
-      },
-      "upscHighlights": [
-        "Standard news item (AI highlighting offline)"
-      ],
-      "institutionalContext": "Official Press Release / News",
-      "strategicImportance": "Please read the full official release for strategic context.",
-      "originalSource": "PIB / Government Source",
-      "publicationDate": "2026-07-16",
-      "lastUpdatedDate": "2026-07-16",
-      "verificationStatus": "Raw Feed (AI Unverified)",
-      "relatedOfficialDocuments": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRE40T1VrN3k2WmJQbzhYWWpCY1BYaGZOaEwzY1JacmFvd1ZsbS1jZEZRTFh4YTY1Y3NhWlJ1RERRYVFKRk83a21wNXN1WVloVV9RX29JVVg1U2cyaEdwcEFTaWlwXzVaQ2cwUng5WnVPdjRwX2lidG1xZ3dVaTZVN2xWSHkwOUVsTldSWURjaWtWeFlFOV9ocVZNTQ?oc=5",
-      "mcq": {
-        "question": "Which of the following best describes the core subject of the recent news \"Lt Gen Dhiraj Seth Appointed as the 31st Army Chief - Vajiram &amp; Ravi\"?",
-        "options": [
-          "A (Details missing due to offline AI)",
-          "B",
-          "C",
-          "D"
-        ],
-        "correct": 0,
-        "explanation": "MCQ auto-generation requires an active AI uplink."
-      }
-    },
-    {
-      "id": "ca_live_2026_07_16_fallback_1",
-      "topic": "Economy & Finance",
-      "topicColor": "#0891b2",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNLURmbkpqSVZQM2JrV3FEaXdFTC1RQjg4UkswSDZQZDFjREQtU2l5c1g1WVFYVFNfSkQ3eFNrSHBQVnRHWVp4Z...",
-      "text": "<strong>Who is Lt Gen Dhiraj Seth? Meet India's new Chief of Army Staff - Moneycontrol.com</strong><br><br>&lt;a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNLURmbkpqSVZQM2JrV3FEaXdFTC1RQjg4UkswSDZQZDFjREQtU2l5c1g1WVFYVFNfSkQ3eFNrSHBQVnRHWVp4ZTZWYmVNZks3SlBVZmd6NkNwREp3MmhCeDVfTm43bmx6T2Vya2FxRUZrdm5vMTZjOUh2NjlLSGREVjk2RXVUV1VVVm5TVkRMWE1SSGMwZVNzNzJoVnU2S3dLdUY2Z2pzd2RNbVhwMkZ2UUtaM3labzjSAbwBQVVfeXFMT3FBTXJsWVRIYXZPSHFjLWN1ekpGTElaZTBuZ3J0UEJiRGJMYkJDczduOXFyaXpqaGNzWmM3ZndTbUZ5YUNXQ3VhNmRJVE1fbGlsZG5fcUQyVHZJaUk3czJocFZnNjBWNy1HVkRhWTR0RUI0WTZydmhXNXNmNjJtaG5qV2NYOUI2MEp3MGg0WnJkbEx <br><a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNLURmbkpqSVZQM2JrV3FEaXdFTC1RQjg4UkswSDZQZDFjREQtU2l5c1g1WVFYVFNfSkQ3eFNrSHBQVnRHWVp4ZTZWYmVNZks3SlBVZmd6NkNwREp3MmhCeDVfTm43bmx6T2Vya2FxRUZrdm5vMTZjOUh2NjlLSGREVjk2RXVUV1VVVm5TVkRMWE1SSGMwZVNzNzJoVnU2S3dLdUY2Z2pzd2RNbVhwMkZ2UUtaM3labzjSAbwBQVVfeXFMT3FBTXJsWVRIYXZPSHFjLWN1ekpGTElaZTBuZ3J0UEJiRGJMYkJDczduOXFyaXpqaGNzWmM3ZndTbUZ5YUNXQ3VhNmRJVE1fbGlsZG5fcUQyVHZJaUk3czJocFZnNjBWNy1HVkRhWTR0RUI0WTZydmhXNXNmNjJtaG5qV2NYOUI2MEp3MGg0WnJkbExaa2pmRFFVWml4UjN2M19YbW9KcWdpZTVpNm9GcUJGTFlIQ1BlUHh0NGg?oc=5\" target=\"_blank\" style=\"color:var(--accent);\">Read Original Release</a>",
-      "quickSummary": "Quick AI summary is currently offline due to an expired API key uplink.",
-      "detailedAnalysis": "Deep-dive analysis is currently offline. Please refer to official sources or read the full article by following the official link.",
-      "backgroundContext": "Background context is offline.",
-      "stakeholders": [
-        "India",
-        "Global Community"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "Medium"
-      },
-      "relatedTopics": [],
-      "potentialQuestions": {
-        "shortAnswers": [],
-        "interviewQuestions": [],
-        "ssbDiscussionTopics": []
-      },
-      "upscHighlights": [
-        "Standard news item (AI highlighting offline)"
-      ],
-      "institutionalContext": "Official Press Release / News",
-      "strategicImportance": "Please read the full official release for strategic context.",
-      "originalSource": "PIB / Government Source",
-      "publicationDate": "2026-07-16",
-      "lastUpdatedDate": "2026-07-16",
-      "verificationStatus": "Raw Feed (AI Unverified)",
-      "relatedOfficialDocuments": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLURmbkpqSVZQM2JrV3FEaXdFTC1RQjg4UkswSDZQZDFjREQtU2l5c1g1WVFYVFNfSkQ3eFNrSHBQVnRHWVp4ZTZWYmVNZks3SlBVZmd6NkNwREp3MmhCeDVfTm43bmx6T2Vya2FxRUZrdm5vMTZjOUh2NjlLSGREVjk2RXVUV1VVVm5TVkRMWE1SSGMwZVNzNzJoVnU2S3dLdUY2Z2pzd2RNbVhwMkZ2UUtaM3labzjSAbwBQVVfeXFMT3FBTXJsWVRIYXZPSHFjLWN1ekpGTElaZTBuZ3J0UEJiRGJMYkJDczduOXFyaXpqaGNzWmM3ZndTbUZ5YUNXQ3VhNmRJVE1fbGlsZG5fcUQyVHZJaUk3czJocFZnNjBWNy1HVkRhWTR0RUI0WTZydmhXNXNmNjJtaG5qV2NYOUI2MEp3MGg0WnJkbExaa2pmRFFVWml4UjN2M19YbW9KcWdpZTVpNm9GcUJGTFlIQ1BlUHh0NGg?oc=5",
-      "mcq": {
-        "question": "Which of the following best describes the core subject of the recent news \"Who is Lt Gen Dhiraj Seth? Meet India's new Chief of Army Staff - Moneycontrol.com\"?",
-        "options": [
-          "A (Details missing due to offline AI)",
-          "B",
-          "C",
-          "D"
-        ],
-        "correct": 0,
-        "explanation": "MCQ auto-generation requires an active AI uplink."
-      }
-    },
-    {
-      "id": "ca_live_2026_07_16_fallback_0",
-      "topic": "Polity & Governance",
-      "topicColor": "#4f46e5",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSldFVkNidmxmNGM4LUhBeEJJb2M1NjgwSmdmNDNCWk1IbGo5YUpIeWZObzBjSmE3VTlhTS12Y2pMNHdIMmxpe...",
-      "text": "<strong>Lt Gen Dhiraj Seth appointed as Chief of Army Staff with effect from June 30, 2026 | Akashvani News - News On AIR</strong><br><br>&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSldFVkNidmxmNGM4LUhBeEJJb2M1NjgwSmdmNDNCWk1IbGo5YUpIeWZObzBjSmE3VTlhTS12Y2pMNHdIMmxpeHZPVW1FU0FiZUgxYjM0UDE3Yjd4d1AyU2hoY2VPNmdmNkdZVUl3LUFmS0xOYVBSQlk5MUNQWWdjbnN0LUliMEpyZ2czN25JNXhObjA1cWpneGdvdWo1a1dzWmVpSU5keE9uVG8?oc=5\" target=\"_blank\"&gt;Lt Gen Dhiraj Seth appointed as Chief of Army Staff with effect from June 30, 2026 | Akashvani News&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=\"#6f6f6f\"&gt;News On AIR&lt;/font&gt; <br><a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSldFVkNidmxmNGM4LUhBeEJJb2M1NjgwSmdmNDNCWk1IbGo5YUpIeWZObzBjSmE3VTlhTS12Y2pMNHdIMmxpeHZPVW1FU0FiZUgxYjM0UDE3Yjd4d1AyU2hoY2VPNmdmNkdZVUl3LUFmS0xOYVBSQlk5MUNQWWdjbnN0LUliMEpyZ2czN25JNXhObjA1cWpneGdvdWo1a1dzWmVpSU5keE9uVG8?oc=5\" target=\"_blank\" style=\"color:var(--accent);\">Read Original Release</a>",
-      "quickSummary": "Quick AI summary is currently offline due to an expired API key uplink.",
-      "detailedAnalysis": "Deep-dive analysis is currently offline. Please refer to official sources or read the full article by following the official link.",
-      "backgroundContext": "Background context is offline.",
-      "stakeholders": [
-        "India",
-        "Global Community"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "Medium"
-      },
-      "relatedTopics": [],
-      "potentialQuestions": {
-        "shortAnswers": [],
-        "interviewQuestions": [],
-        "ssbDiscussionTopics": []
-      },
-      "upscHighlights": [
-        "Standard news item (AI highlighting offline)"
-      ],
-      "institutionalContext": "Official Press Release / News",
-      "strategicImportance": "Please read the full official release for strategic context.",
-      "originalSource": "PIB / Government Source",
-      "publicationDate": "2026-07-16",
-      "lastUpdatedDate": "2026-07-16",
-      "verificationStatus": "Raw Feed (AI Unverified)",
-      "relatedOfficialDocuments": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSldFVkNidmxmNGM4LUhBeEJJb2M1NjgwSmdmNDNCWk1IbGo5YUpIeWZObzBjSmE3VTlhTS12Y2pMNHdIMmxpeHZPVW1FU0FiZUgxYjM0UDE3Yjd4d1AyU2hoY2VPNmdmNkdZVUl3LUFmS0xOYVBSQlk5MUNQWWdjbnN0LUliMEpyZ2czN25JNXhObjA1cWpneGdvdWo1a1dzWmVpSU5keE9uVG8?oc=5",
-      "mcq": {
-        "question": "Which of the following best describes the core subject of the recent news \"Lt Gen Dhiraj Seth appointed as Chief of Army Staff with effect from June 30, 2026 | Akashvani News - News On AIR\"?",
-        "options": [
-          "A (Details missing due to offline AI)",
-          "B",
-          "C",
-          "D"
-        ],
-        "correct": 0,
-        "explanation": "MCQ auto-generation requires an active AI uplink."
+        "correct": 1,
+        "explanation": "The 'VIJAY' vision emphasizes technological absorption, indigenous defense production under Atmanirbhar Bharat, and enhanced jointness among the tri-services to modernize the Indian Army."
       }
     }
   ]

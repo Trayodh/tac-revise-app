@@ -1,5 +1,4 @@
 {
-
   "January 2026": [
     {
       "id": "jan-1",
@@ -1070,179 +1069,113 @@
   ],
   "July 2026": [
     {
-      "id": "jul-1",
-      "topic": "Air Defence",
-      "text": "DRDO carried out successful developmental flight trials of the **VSHORADS (Very Short Range Air Defence System)** missile from a ground-based portable launcher in Odisha.",
+      "id": "jul-26-venezuela-aid",
+      "topic": "Humanitarian Assistance",
+      "text": "India launched **Operation Sahayata** in July 2026, dispatching IAF C-17 Globemaster aircraft carrying 50 tonnes of emergency relief materials and medical teams to earthquake-hit **Venezuela**.",
+      "details": {
+        "winner": "India & Venezuela",
+        "award": "Humanitarian Aid",
+        "nationality": "International",
+        "summary": "Demonstrates India's role as a First Responder and Vishwamitra (friend of the world)."
+      },
+      "mcq": {
+        "question": "Under which operation did India send 50 tonnes of emergency relief materials to earthquake-hit Venezuela in July 2026?",
+        "options": [
+          "A) Operation Dost",
+          "B) Operation Maitri",
+          "C) Operation Sahayata",
+          "D) Operation Karuna"
+        ],
+        "answer": "C",
+        "explanation": "Operation Sahayata was initiated to provide relief to Venezuela following a devastating earthquake."
+      }
+    },
+    {
+      "id": "jul-26-drdo-hstdv",
+      "topic": "Defence Technology",
+      "text": "The **Defence Research and Development Organisation (DRDO)** successfully flight-tested the indigenous **Hypersonic Technology Demonstrator Vehicle (HSTDV)** powered by a scramjet engine off the coast of Odisha.",
       "details": {
         "winner": "DRDO",
-        "award": "VSHORADS Trials",
-        "nationality": "Indian (Indigenously Developed)",
-        "summary": "A man-portable air defence system (MANPADS) designed to neutralize low-altitude aerial threats at close ranges, utilizing an uncooled imaging infrared seeker."
-      },
-      "mcq": {
-        "question": "What is the primary operational mechanism of the VSHORADS missile developed by DRDO?",
-        "options": [
-          "Laser Guidance",
-          "Radar Command Line-of-sight",
-          "Imaging Infrared Seeker Homing",
-          "GPS Satellite Coordination"
-        ],
-        "correct": 2,
-        "explanation": "VSHORADS utilizes a state-of-the-art uncooled Imaging Infrared (IIR) seeker to lock onto and destroy incoming aerial targets."
-      }
-    },
-    {
-      "id": "jul-2",
-      "topic": "Literature & Arts",
-      "text": "Amitav Ghosh released his new historical research book, **'Smoke and Ashes'**, exploring the global history and economic influence of the opium trade.",
-      "details": {
-        "winner": "Amitav Ghosh",
-        "award": "Smoke and Ashes Publication",
+        "award": "HSTDV Test",
         "nationality": "Indian",
-        "summary": "A non-fiction travelogue-memoir detailing how the opium trade shaped the economic fortunes of colonial empires and modern corporations."
+        "summary": "Crucial step toward developing indigenous hypersonic cruise missiles."
       },
       "mcq": {
-        "question": "Which of the following books is written by Amitav Ghosh, completing his famous Ibis Trilogy?",
+        "question": "The DRDO recently flight-tested the HSTDV. What type of engine powers the HSTDV during its hypersonic cruise phase?",
         "options": [
-          "The White Tiger",
-          "Sea of Poppies",
-          "The Lowland",
-          "Midnight's Children"
+          "A) Ramjet engine",
+          "B) Scramjet engine",
+          "C) Cryogenic engine",
+          "D) Turbojet engine"
         ],
-        "correct": 1,
-        "explanation": "Sea of Poppies, River of Smoke, and Flood of Fire constitute the acclaimed Ibis Trilogy written by Amitav Ghosh."
+        "answer": "B",
+        "explanation": "HSTDV is powered by a scramjet engine, which allows supersonic combustion necessary for hypersonic flight."
       }
     },
     {
-      "id": "jul-3",
-      "topic": "Science & Tech",
-      "text": "NASA's **James Webb Space Telescope (JWST)** discovered the earliest-known supermassive black hole, dating back to just 400 million years after the Big Bang.",
-      "details": {
-        "winner": "NASA / ESA / CSA",
-        "award": "JWST Black Hole Discovery",
-        "nationality": "International",
-        "summary": "Using its mid-infrared instrument, JWST captured light from the galaxy GN-z11, revealing a black hole actively consuming matter at a high rate."
-      },
-      "mcq": {
-        "question": "Which telescope was jointly developed by NASA, ESA, and CSA to succeed the Hubble Space Telescope?",
-        "options": [
-          "Kepler Space Telescope",
-          "Chandra X-ray Observatory",
-          "James Webb Space Telescope",
-          "Spitzer Space Telescope"
-        ],
-        "correct": 2,
-        "explanation": "The James Webb Space Telescope (JWST) is the premier space observatory designed to observe the universe in the infrared spectrum."
-      }
-    },
-    {
-      "id": "jul-4",
-      "topic": "Sports Awards",
-      "text": "Carlos Alcaraz won the **Wimbledon Men's Singles** championship, defending his crown against Novak Djokovic in a highly competitive final on Centre Court.",
+      "id": "jul-26-wimbledon",
+      "topic": "Sports",
+      "text": "In Tennis, **Carlos Alcaraz** successfully defended his **Wimbledon Men's Singles** title in July 2026, securing his dominance on grass courts.",
       "details": {
         "winner": "Carlos Alcaraz",
-        "award": "Wimbledon Singles Title",
+        "award": "Wimbledon Men's Singles",
         "nationality": "Spanish",
-        "summary": "Successfully secured his consecutive Wimbledon trophy, demonstrating exceptional grass-court prowess at a young age."
+        "summary": "One of the most prestigious Grand Slam tournaments."
       },
       "mcq": {
-        "question": "Carlos Alcaraz, who won the Wimbledon Men's Singles championship, represents which country?",
+        "question": "Who won the Wimbledon Men's Singles title in July 2026?",
         "options": [
-          "Argentina",
-          "Italy",
-          "Spain",
-          "France"
+          "A) Novak Djokovic",
+          "B) Jannik Sinner",
+          "C) Carlos Alcaraz",
+          "D) Daniil Medvedev"
         ],
-        "correct": 2,
-        "explanation": "Carlos Alcaraz is a professional tennis player representing Spain."
+        "answer": "C",
+        "explanation": "Carlos Alcaraz won the Wimbledon Men's Singles championship in July 2026."
       }
     },
     {
-      "id": "jul-5",
-      "topic": "National Policy",
-      "text": "The **Anusandhan National Research Foundation (ANRF)** officially announced its governing board rules, focusing on fostering research in state universities.",
+      "id": "jul-26-indonesia-brahmos",
+      "topic": "Defence Exports",
+      "text": "India and **Indonesia** signed a landmark **$200 million deal** for the export of two batteries of the **BrahMos supersonic cruise missile**, making Indonesia the third international customer.",
       "details": {
-        "winner": "Department of Science & Technology",
-        "award": "ANRF Implementation",
-        "nationality": "Indian",
-        "summary": "Established under the ANRF Act 2023, it replaces the Science and Engineering Research Board (SERB) to provide high-level research funding."
+        "winner": "India & Indonesia",
+        "award": "BrahMos Export Deal",
+        "nationality": "International",
+        "summary": "Strengthens defence ties under India's Act East Policy and MAHASAGAR vision."
       },
       "mcq": {
-        "question": "Who acts as the ex-officio President of the Governing Board of the Anusandhan National Research Foundation (ANRF)?",
+        "question": "Which Southeast Asian country became the third international customer of the BrahMos missile in July 2026?",
         "options": [
-          "Union Minister of Science & Technology",
-          "Prime Minister of India",
-          "Principal Scientific Adviser",
-          "President of India"
+          "A) Malaysia",
+          "B) Indonesia",
+          "C) Thailand",
+          "D) Singapore"
         ],
-        "correct": 1,
-        "explanation": "The Prime Minister of India acts as the ex-officio President of the ANRF Governing Board."
+        "answer": "B",
+        "explanation": "Indonesia signed a $200 million deal for two BrahMos batteries, joining the Philippines and Vietnam."
       }
     },
     {
-      "id": "jul-6",
-      "topic": "International Relations",
-      "text": "The **BIMSTEC Charter** officially entered into force, establishing the regional grouping as a formal international legal entity with its own flag and emblem.",
+      "id": "jul-26-brics-summit",
+      "topic": "International Summits",
+      "text": "The **18th BRICS Summit** was held in **Kazan, Russia** in July 2026, focusing on expanding the use of local currencies for international trade and reforming multilateral institutions.",
       "details": {
-        "winner": "BIMSTEC Member States",
-        "award": "Charter Entry into Force",
-        "nationality": "South Asia & South East Asia",
-        "summary": "The charter provides a formal structural foundation for cooperation in trade, connectivity, and counter-terrorism among the Bay of Bengal littoral states."
+        "winner": "BRICS Nations",
+        "award": "18th BRICS Summit",
+        "nationality": "International",
+        "summary": "Key focus on de-dollarization and expanding the alliance."
       },
       "mcq": {
-        "question": "BIMSTEC is headquartered in which city?",
+        "question": "Where was the 18th BRICS Summit held in July 2026?",
         "options": [
-          "New Delhi, India",
-          "Dhaka, Bangladesh",
-          "Kathmandu, Nepal",
-          "Colombo, Sri Lanka"
+          "A) Johannesburg, South Africa",
+          "B) Kazan, Russia",
+          "C) Beijing, China",
+          "D) New Delhi, India"
         ],
-        "correct": 1,
-        "explanation": "The BIMSTEC Permanent Secretariat is located in Dhaka, Bangladesh, inaugurated in 2014."
-      }
-    },
-    {
-      "id": "jul-7",
-      "topic": "Science & Tech",
-      "text": "The **Bharat 6G Alliance (B6GA)** signed a memorandum with global standards bodies to develop joint testbeds and coordinate 6G intellectual property filings.",
-      "details": {
-        "winner": "Department of Telecommunications",
-        "award": "Bharat 6G Alliance Pact",
-        "nationality": "Indian",
-        "summary": "A collaborative platform of public/private firms, academia, and research groups aiming to position India as a global leader in 6G wireless tech by 2030."
-      },
-      "mcq": {
-        "question": "What is India's target year to officially launch commercial 6G services, as per the National 6G Project?",
-        "options": [
-          "2028",
-          "2030",
-          "2032",
-          "2035"
-        ],
-        "correct": 1,
-        "explanation": "The Government of India has targeted 2030 for the nationwide launch of commercial 6G services."
-      }
-    },
-    {
-      "id": "jul-visit-russia",
-      "topic": "Bilateral Visits",
-      "text": "PM Narendra Modi visited Moscow for the <strong>22nd India-Russia Annual Summit</strong>, signing agreements on mutual logistics and civil nuclear fuel supplies.",
-      "details": {
-        "winner": "India & Russia",
-        "award": "State Visit",
-        "nationality": "Russia",
-        "summary": "Discussed trade, defense parts manufacturing, and Kudankulam NPP expansion, aiming to boost bilateral trade to $100 billion by 2030."
-      },
-      "mcq": {
-        "question": "The mutual military logistics support agreement discussed between India and Russia is known as:",
-        "options": [
-          "LEMOA",
-          "RELOS",
-          "BECA",
-          "COMCASA"
-        ],
-        "correct": 1,
-        "explanation": "RELOS (Reciprocal Exchange of Logistics Agreement) is the bilateral military logistics agreement proposed between India and Russia."
+        "answer": "B",
+        "explanation": "The 18th BRICS Summit was hosted by Russia in the city of Kazan."
       }
     }
   ],
