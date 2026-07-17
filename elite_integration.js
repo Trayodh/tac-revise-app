@@ -91,39 +91,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         if (typeof renderNotesBrowser === 'function') renderNotesBrowser();
 
-        // Load Question Armoury
-        const qRes = await fetch('Pathfinder_Elite/question_armoury.json');
-        if (qRes.ok) {
-            const armoury = await qRes.json();
-            if (!window.EXTRA_QUESTION_BANK) window.EXTRA_QUESTION_BANK = {};
-            
-            if (!window.EXTRA_QUESTION_BANK.gs) window.EXTRA_QUESTION_BANK.gs = [];
-            if (!window.EXTRA_QUESTION_BANK.english) window.EXTRA_QUESTION_BANK.english = [];
-            if (!window.EXTRA_QUESTION_BANK.maths_nda) window.EXTRA_QUESTION_BANK.maths_nda = [];
-
-            for (const q of armoury) {
-                const mappedQ = {
-                    question: q.stem,
-                    options: q.options.map(opt => opt.replace(/^\[[A-D]\]\s*/, '')),
-                    correct: ["A", "B", "C", "D"].indexOf(q.answer) !== -1 ? ["A", "B", "C", "D"].indexOf(q.answer) : 0,
-                    explanation: q.rationale,
-                    topicId: "elite_update",
-                    isEliteUpdate: true
-                };
-
-                if (q.subject === "English") {
-                    window.EXTRA_QUESTION_BANK.english.unshift(mappedQ);
-                } else if (q.subject === "Mathematics") {
-                    window.EXTRA_QUESTION_BANK.maths_nda.unshift(mappedQ);
-                } else {
-                    window.EXTRA_QUESTION_BANK.gs.unshift(mappedQ);
-                }
-            }
-            
-            if (typeof renderQuestionBank === 'function' && typeof currentBankSubject !== 'undefined' && currentBankSubject) {
-                renderQuestionBank(currentBankSubject);
-            }
-        }
         
     } catch (e) {
         console.error("Elite Integration failed:", e);
