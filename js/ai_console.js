@@ -526,7 +526,7 @@ If the selected text is incomplete or ambiguous, use the surrounding context to 
             <h3 style="font-family:var(--font-logo); color: var(--accent);"> AI Explanation</h3>
             <span style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono)">POWERED BY GEMINI AI</span>
           </div>
-          <div style="font-size:0.92rem; line-height:1.8; color:var(--text-primary);" id="ai-explanation-text">${parseWikiLinks(formattedText)}</div>
+          <div style="font-size:0.95rem; line-height:1.8; color:#f8fafc !important; font-weight: 400; letter-spacing: 0.3px; text-shadow: 0 0 1px rgba(255,255,255,0.1);" id="ai-explanation-text">${parseWikiLinks(formattedText)}</div>
           ${toolbarHtml}
         </div>
       `;

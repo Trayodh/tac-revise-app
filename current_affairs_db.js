@@ -1994,224 +1994,291 @@ window.CURRENT_AFFAIRS_DB = {
   ],
   "July 2026": [
     {
-      "id": "jul-26-news-1",
-      "topic": "Defence",
-      "text": "The Indian Army introduced the 'VIJAY' (Vidyut, Innovation, Jointness, Agility, and Youth) vision under the leadership of General Dhiraj Seth, the newly appointed 31st Chief of Army Staff, to modernize the force with a focus on technology absorption and self-reliance.",
-      "details": {
-        "winner": "Indian Army",
-        "award": "VIJAY Vision",
-        "nationality": "Indian",
-        "summary": "Focuses on modernization and tech absorption."
-      },
-      "mcq": {
-        "question": "What is the primary focus of the 'VIJAY' vision introduced by General Dhiraj Seth?",
-        "options": [
-          "A) Infantry expansion",
-          "B) Technology absorption and jointness",
-          "C) Border troop withdrawal",
-          "D) Import-dependent procurement"
+        "id": "ca_live_2026_07_01_0",
+        "topic": "Military Appointments",
+        "topicColor": "#b45309",
+        "summary": "General Dhiraj Seth has officially assumed charge as the 31st Chief of the Army Staff (COAS) of the Indian Army, succeeding General Upendra Dwivedi and outlining his strategic 'VIJAY' vision for modernization and self-reliance.",
+        "text": "<strong>General Dhiraj Seth</strong> has assumed command as the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>31st Chief of the Army Staff (COAS)</mark> of the <strong>Indian Army</strong>. His tenure begins with the unveiling of the <strong>'VIJAY' vision</strong>, which prioritizes technological absorption, indigenous defense production under <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Atmanirbhar Bharat</mark>, and enhanced jointness among the tri-services. This transition comes at a critical juncture of theaterisation reforms and ongoing border standoffs.",
+        "quickSummary": "General Dhiraj Seth took charge as the 31st Chief of the Army Staff (COAS), succeeding General Upendra Dwivedi. He introduced the 'VIJAY' vision, focusing on modernization, self-reliance, and tri-service integration to address contemporary security challenges.",
+        "detailedAnalysis": "The appointment of General Dhiraj Seth as the 31st COAS marks a pivotal moment in [[Indian Army Modernisation]]. Under his 'VIJAY' (Vigorous, Integrated, Joint, Agile, and Yield-oriented) vision, the Indian Army aims to accelerate the transition from a manpower-intensive force to a technology-enabled one. This involves the integration of niche technologies like artificial intelligence, quantum computing, and unmanned aerial systems (UAS). Historically, the role of the COAS has evolved from the Commander-in-Chief post-independence to a key member of the Chiefs of Staff Committee, now working closely with the [[Chief of Defence Staff]] (CDS) to implement theaterisation. The strategic significance lies in addressing the dual-front threat from China and Pakistan, requiring robust border management along the Line of Actual Control (LAC) and Line of Control (LoC). A key challenge (weakness) remains the slow pace of capital acquisition and bureaucratic delays in indigenous defense production, contrasted with the advantage of a highly battle-hardened infantry. In comparison to global peers like the US Army or China's PLA, which have highly integrated theater commands, the Indian Army is still in the transition phase of establishing joint theater commands. Future upgrades under this tenure will focus on the induction of [[F-INSAS]] (Futuristic Infantry Soldier As a System), [[Zorawar Light Tank]], and advanced swarm drone systems to ensure tactical superiority.",
+        "backgroundContext": "The appointment of the Chief of the Army Staff is governed by the government's discretion, typically following the seniority principle, though exceptions have occurred historically. The transition from General Upendra Dwivedi to General Dhiraj Seth comes amidst structural reforms initiated after the creation of the post of [[Chief of Defence Staff]] (CDS) in 2019. The Indian Army has been actively restructuring its combat formations into Integrated Battle Groups (IBGs) and upgrading its infrastructure along the northern borders following the 2020 Galwan Valley clash, highlighting the need for agile leadership and modern warfare capabilities.",
+        "stakeholders": [
+            "Indian Army",
+            "Ministry of Defence, Government of India",
+            "Chief of Defence Staff (CDS)",
+            "General Dhiraj Seth (Chief of the Army Staff)"
         ],
-        "answer": "B",
-        "explanation": "The VIJAY vision emphasizes technology absorption, indigenous production, and jointness."
-      }
+        "examRelevanceMatrix": {
+            "NDA": "Very High",
+            "CDS": "Very High",
+            "AFCAT": "High",
+            "CAPF": "High",
+            "UPSC": "Very High"
+        },
+        "relatedTopics": [
+            "[[Chief of Defence Staff]]",
+            "[[Theaterisation of Armed Forces]]",
+            "[[Atmanirbhar Bharat in Defence]]",
+            "[[Indian Army Modernisation]]"
+        ],
+        "potentialQuestions": {
+            "shortAnswers": [
+                "What is the 'VIJAY' vision outlined by the newly appointed COAS?",
+                "How does the appointment of the new COAS impact the ongoing theaterisation process?"
+            ],
+            "interviewQuestions": [
+                "What are the major challenges the new Chief of the Army Staff will face in the context of the border standoff with China?",
+                "How important is indigenization for the Indian Army's modernization goals?"
+            ],
+            "ssbDiscussionTopics": [
+                "Atmanirbhar Bharat in Defence: Rhetoric vs Reality",
+                "The role of technology in future warfare for the Indian Army."
+            ]
+        },
+        "upscHighlights": [
+            "Transition of leadership to General Dhiraj Seth as 31st COAS.",
+            "Focus on 'VIJAY' vision: Vigorous, Integrated, Joint, Agile, and Yield-oriented.",
+            "Emphasis on Atmanirbhar Bharat and technological absorption.",
+            "Context of theaterisation and border standoffs."
+        ],
+        "institutionalContext": "Ministry of Defence / Indian Army",
+        "strategicImportance": "Leadership changes in the Armed Forces are crucial for understanding strategic direction, modernization plans, and defense policies.",
+        "originalSource": "Official Press Release / Defence Ministry",
+        "publicationDate": "2026-07-01",
+        "lastUpdatedDate": "2026-07-02",
+        "verificationStatus": "Verified",
+        "relatedOfficialDocuments": "MoD Press Release on COAS Appointment",
+        "mcq": {
+            "question": "What does the 'VIJAY' vision, outlined by the 31st Chief of the Army Staff General Dhiraj Seth, primarily focus on?",
+            "options": [
+                "A) Expanding the size of the infantry.",
+                "B) Technological absorption, indigenous defense production, and jointness.",
+                "C) Withdrawing troops from the northern borders.",
+                "D) Relying exclusively on imported defense equipment."
+            ],
+            "correct": 1,
+            "explanation": "The 'VIJAY' vision emphasizes technological absorption, indigenous defense production under Atmanirbhar Bharat, and enhanced jointness among the tri-services to modernize the Indian Army."
+        }
     },
     {
-      "id": "jul-26-news-2",
-      "topic": "Sports",
-      "text": "The South African Women's Cricket team secured qualification for the Los Angeles 2028 Olympic Games, marking cricket's historic return to the Olympics after 128 years.",
-      "details": {
-        "winner": "South African Women's Cricket Team",
-        "award": "Olympic Qualification",
-        "nationality": "South African",
-        "summary": "Cricket returns to the Olympics for LA 2028."
-      },
-      "mcq": {
-        "question": "Which women's cricket team recently qualified for the LA 2028 Olympics?",
-        "options": [
-          "A) Australia",
-          "B) England",
-          "C) South Africa",
-          "D) India"
-        ],
-        "answer": "C",
-        "explanation": "South Africa secured their spot for the LA 2028 Olympics."
-      }
+        "id": "jul-26-hydrogen-train",
+        "topic": "Infrastructure & Technology",
+        "text": "India launched its first **indigenous hydrogen-powered train** in July 2026, marking a significant step towards the 'Net Zero Carbon Emission by 2030' goal for Indian Railways.",
+        "details": {
+            "winner": "Indian Railways",
+            "award": "First Hydrogen Train",
+            "nationality": "Indian",
+            "summary": "A green initiative operating on the Jind-Sonipat section under 'Hydrogen for Heritage'."
+        },
+        "mcq": {
+            "question": "Which initiative encompasses the launch of India's first indigenous hydrogen-powered train in July 2026?",
+            "options": [
+                "A) Hydrogen for Heritage",
+                "B) Green Railways Mission",
+                "C) Vande Bharat Hydrogen",
+                "D) Project Net Zero"
+            ],
+            "answer": "A",
+            "explanation": "The 'Hydrogen for Heritage' initiative aims to operate hydrogen-powered trains on heritage and hilly routes to promote green transportation."
+        }
     },
     {
-      "id": "jul-26-news-3",
-      "topic": "Space Technology",
-      "text": "Skyroot Aerospace successfully launched its Vikram-1 orbital rocket from Sriharikota in July 2026, marking a significant milestone for India's private space sector.",
-      "details": {
-        "winner": "Skyroot Aerospace",
-        "award": "Vikram-1 Launch",
-        "nationality": "Indian",
-        "summary": "India's private space sector milestone."
-      },
-      "mcq": {
-        "question": "Which private Indian company launched the Vikram-1 orbital rocket in July 2026?",
-        "options": [
-          "A) Agnikul Cosmos",
-          "B) Skyroot Aerospace",
-          "C) Bellatrix Aerospace",
-          "D) Dhruva Space"
-        ],
-        "answer": "B",
-        "explanation": "Skyroot Aerospace successfully launched the Vikram-1."
-      }
+        "id": "jul-26-news-2",
+        "topic": "Sports",
+        "text": "The South African Women's Cricket team secured qualification for the Los Angeles 2028 Olympic Games, marking cricket's historic return to the Olympics after 128 years.",
+        "details": {
+            "winner": "South African Women's Cricket Team",
+            "award": "Olympic Qualification",
+            "nationality": "South African",
+            "summary": "Cricket returns to the Olympics for LA 2028."
+        },
+        "mcq": {
+            "question": "Which women's cricket team recently qualified for the LA 2028 Olympics?",
+            "options": [
+                "A) Australia",
+                "B) England",
+                "C) South Africa",
+                "D) India"
+            ],
+            "answer": "C",
+            "explanation": "South Africa secured their spot for the LA 2028 Olympics."
+        }
     },
     {
-      "id": "jul-26-news-4",
-      "topic": "Polity",
-      "text": "The Monsoon Session of the Parliament began in July 2026, focusing on key economic reforms and the passage of the new Digital Data Protection regulations.",
-      "details": {
-        "winner": "Indian Parliament",
-        "award": "Monsoon Session",
-        "nationality": "Indian",
-        "summary": "Focus on data protection and economic reforms."
-      },
-      "mcq": {
-        "question": "The July 2026 Monsoon Session primarily focused on which key regulatory framework?",
-        "options": [
-          "A) Agricultural Reforms",
-          "B) Digital Data Protection",
-          "C) Aviation Safety",
-          "D) Maritime Border Laws"
-        ],
-        "answer": "B",
-        "explanation": "The session prioritized the passage of new Digital Data Protection regulations."
-      }
+        "id": "jul-26-news-3",
+        "topic": "Space Technology",
+        "text": "Skyroot Aerospace successfully launched its Vikram-1 orbital rocket from Sriharikota in July 2026, marking a significant milestone for India's private space sector.",
+        "details": {
+            "winner": "Skyroot Aerospace",
+            "award": "Vikram-1 Launch",
+            "nationality": "Indian",
+            "summary": "India's private space sector milestone."
+        },
+        "mcq": {
+            "question": "Which private Indian company launched the Vikram-1 orbital rocket in July 2026?",
+            "options": [
+                "A) Agnikul Cosmos",
+                "B) Skyroot Aerospace",
+                "C) Bellatrix Aerospace",
+                "D) Dhruva Space"
+            ],
+            "answer": "B",
+            "explanation": "Skyroot Aerospace successfully launched the Vikram-1."
+        }
     },
     {
-      "id": "jul-26-news-5",
-      "topic": "Environment",
-      "text": "Global climate agencies reported extreme 'Marine Heatwaves' across the Indian Ocean in July 2026, threatening coral reefs and disrupting local monsoonal patterns.",
-      "details": {
-        "winner": "Indian Ocean Region",
-        "award": "Marine Heatwaves",
-        "nationality": "Global",
-        "summary": "Severe environmental threat to marine ecosystems."
-      },
-      "mcq": {
-        "question": "Which specific environmental phenomenon in the Indian Ocean threatened coral reefs in July 2026?",
-        "options": [
-          "A) Ocean Acidification",
-          "B) Marine Heatwaves",
-          "C) Tsunamis",
-          "D) Algal Blooms"
-        ],
-        "answer": "B",
-        "explanation": "Marine heatwaves were reported to be exceptionally high in the Indian Ocean."
-      }
+        "id": "jul-26-news-4",
+        "topic": "Polity",
+        "text": "The Monsoon Session of the Parliament began in July 2026, focusing on key economic reforms and the passage of the new Digital Data Protection regulations.",
+        "details": {
+            "winner": "Indian Parliament",
+            "award": "Monsoon Session",
+            "nationality": "Indian",
+            "summary": "Focus on data protection and economic reforms."
+        },
+        "mcq": {
+            "question": "The July 2026 Monsoon Session primarily focused on which key regulatory framework?",
+            "options": [
+                "A) Agricultural Reforms",
+                "B) Digital Data Protection",
+                "C) Aviation Safety",
+                "D) Maritime Border Laws"
+            ],
+            "answer": "B",
+            "explanation": "The session prioritized the passage of new Digital Data Protection regulations."
+        }
     },
     {
-      "id": "jul-26-news-6",
-      "topic": "Economy",
-      "text": "India formally extended its Unified Payments Interface (UPI) to Greece, marking a significant step in the internationalization of India's digital public infrastructure.",
-      "details": {
-        "winner": "NPCI International",
-        "award": "UPI in Greece",
-        "nationality": "Indian/Greek",
-        "summary": "UPI expansion in Europe."
-      },
-      "mcq": {
-        "question": "To which European nation was India's UPI formally extended in July 2026?",
-        "options": [
-          "A) France",
-          "B) Greece",
-          "C) Germany",
-          "D) Italy"
-        ],
-        "answer": "B",
-        "explanation": "India extended UPI services to Greece in July 2026."
-      }
+        "id": "jul-26-news-5",
+        "topic": "Environment",
+        "text": "Global climate agencies reported extreme 'Marine Heatwaves' across the Indian Ocean in July 2026, threatening coral reefs and disrupting local monsoonal patterns.",
+        "details": {
+            "winner": "Indian Ocean Region",
+            "award": "Marine Heatwaves",
+            "nationality": "Global",
+            "summary": "Severe environmental threat to marine ecosystems."
+        },
+        "mcq": {
+            "question": "Which specific environmental phenomenon in the Indian Ocean threatened coral reefs in July 2026?",
+            "options": [
+                "A) Ocean Acidification",
+                "B) Marine Heatwaves",
+                "C) Tsunamis",
+                "D) Algal Blooms"
+            ],
+            "answer": "B",
+            "explanation": "Marine heatwaves were reported to be exceptionally high in the Indian Ocean."
+        }
     },
     {
-      "id": "jul-26-news-7",
-      "topic": "International Relations",
-      "text": "India and Vietnam signed a Mutual Logistics Support Agreement (MLSA) in July 2026, enhancing maritime security cooperation in the Indo-Pacific region.",
-      "details": {
-        "winner": "India & Vietnam",
-        "award": "MLSA Agreement",
-        "nationality": "International",
-        "summary": "Boosts Indo-Pacific maritime security."
-      },
-      "mcq": {
-        "question": "With which Southeast Asian country did India sign a Mutual Logistics Support Agreement in July 2026?",
-        "options": [
-          "A) Philippines",
-          "B) Vietnam",
-          "C) Indonesia",
-          "D) Malaysia"
-        ],
-        "answer": "B",
-        "explanation": "India and Vietnam signed the MLSA to boost maritime cooperation."
-      }
+        "id": "jul-26-news-6",
+        "topic": "Economy",
+        "text": "India formally extended its Unified Payments Interface (UPI) to Greece, marking a significant step in the internationalization of India's digital public infrastructure.",
+        "details": {
+            "winner": "NPCI International",
+            "award": "UPI in Greece",
+            "nationality": "Indian/Greek",
+            "summary": "UPI expansion in Europe."
+        },
+        "mcq": {
+            "question": "To which European nation was India's UPI formally extended in July 2026?",
+            "options": [
+                "A) France",
+                "B) Greece",
+                "C) Germany",
+                "D) Italy"
+            ],
+            "answer": "B",
+            "explanation": "India extended UPI services to Greece in July 2026."
+        }
     },
     {
-      "id": "jul-26-news-8",
-      "topic": "Awards",
-      "text": "Renowned Indian author Amitav Ghosh was awarded the prestigious Erasmus Prize in July 2026 for his exceptional contribution to literature and climate change awareness.",
-      "details": {
-        "winner": "Amitav Ghosh",
-        "award": "Erasmus Prize",
-        "nationality": "Indian",
-        "summary": "Awarded for literature and climate awareness."
-      },
-      "mcq": {
-        "question": "Which Indian author was awarded the Erasmus Prize in July 2026?",
-        "options": [
-          "A) Salman Rushdie",
-          "B) Arundhati Roy",
-          "C) Amitav Ghosh",
-          "D) Vikram Seth"
-        ],
-        "answer": "C",
-        "explanation": "Amitav Ghosh received the Erasmus Prize for his literary work."
-      }
+        "id": "jul-26-news-7",
+        "topic": "International Relations",
+        "text": "India and Vietnam signed a Mutual Logistics Support Agreement (MLSA) in July 2026, enhancing maritime security cooperation in the Indo-Pacific region.",
+        "details": {
+            "winner": "India & Vietnam",
+            "award": "MLSA Agreement",
+            "nationality": "International",
+            "summary": "Boosts Indo-Pacific maritime security."
+        },
+        "mcq": {
+            "question": "With which Southeast Asian country did India sign a Mutual Logistics Support Agreement in July 2026?",
+            "options": [
+                "A) Philippines",
+                "B) Vietnam",
+                "C) Indonesia",
+                "D) Malaysia"
+            ],
+            "answer": "B",
+            "explanation": "India and Vietnam signed the MLSA to boost maritime cooperation."
+        }
     },
     {
-      "id": "jul-26-news-9",
-      "topic": "Defence",
-      "text": "The Indian Air Force participated in 'Exercise Pitch Black 2026' hosted by the Royal Australian Air Force, deploying Su-30MKI fighters and C-17 transport aircraft.",
-      "details": {
-        "winner": "IAF & RAAF",
-        "award": "Exercise Pitch Black",
-        "nationality": "International",
-        "summary": "Multinational air exercise in Australia."
-      },
-      "mcq": {
-        "question": "Which country hosted 'Exercise Pitch Black 2026' in which the IAF participated?",
-        "options": [
-          "A) USA",
-          "B) UK",
-          "C) Australia",
-          "D) France"
-        ],
-        "answer": "C",
-        "explanation": "Australia hosts the biennial Exercise Pitch Black."
-      }
+        "id": "jul-26-news-8",
+        "topic": "Awards",
+        "text": "Renowned Indian author Amitav Ghosh was awarded the prestigious Erasmus Prize in July 2026 for his exceptional contribution to literature and climate change awareness.",
+        "details": {
+            "winner": "Amitav Ghosh",
+            "award": "Erasmus Prize",
+            "nationality": "Indian",
+            "summary": "Awarded for literature and climate awareness."
+        },
+        "mcq": {
+            "question": "Which Indian author was awarded the Erasmus Prize in July 2026?",
+            "options": [
+                "A) Salman Rushdie",
+                "B) Arundhati Roy",
+                "C) Amitav Ghosh",
+                "D) Vikram Seth"
+            ],
+            "answer": "C",
+            "explanation": "Amitav Ghosh received the Erasmus Prize for his literary work."
+        }
     },
     {
-      "id": "jul-26-news-10",
-      "topic": "Science & Tech",
-      "text": "ISRO successfully conducted the crucial 'Pad Abort Test' for the Gaganyaan mission, demonstrating the safety of the crew escape system under emergency conditions.",
-      "details": {
-        "winner": "ISRO",
-        "award": "Pad Abort Test",
-        "nationality": "Indian",
-        "summary": "Crucial safety test for Gaganyaan."
-      },
-      "mcq": {
-        "question": "What was the purpose of the 'Pad Abort Test' conducted by ISRO in July 2026?",
-        "options": [
-          "A) Satellite deployment",
-          "B) Crew escape system safety",
-          "C) Lunar landing simulation",
-          "D) Solar observation"
-        ],
-        "answer": "B",
-        "explanation": "The Pad Abort Test validates the crew escape system for the Gaganyaan mission."
-      }
+        "id": "jul-26-news-9",
+        "topic": "Defence",
+        "text": "The Indian Air Force participated in 'Exercise Pitch Black 2026' hosted by the Royal Australian Air Force, deploying Su-30MKI fighters and C-17 transport aircraft.",
+        "details": {
+            "winner": "IAF & RAAF",
+            "award": "Exercise Pitch Black",
+            "nationality": "International",
+            "summary": "Multinational air exercise in Australia."
+        },
+        "mcq": {
+            "question": "Which country hosted 'Exercise Pitch Black 2026' in which the IAF participated?",
+            "options": [
+                "A) USA",
+                "B) UK",
+                "C) Australia",
+                "D) France"
+            ],
+            "answer": "C",
+            "explanation": "Australia hosts the biennial Exercise Pitch Black."
+        }
+    },
+    {
+        "id": "jul-26-news-10",
+        "topic": "Science & Tech",
+        "text": "ISRO successfully conducted the crucial 'Pad Abort Test' for the Gaganyaan mission, demonstrating the safety of the crew escape system under emergency conditions.",
+        "details": {
+            "winner": "ISRO",
+            "award": "Pad Abort Test",
+            "nationality": "Indian",
+            "summary": "Crucial safety test for Gaganyaan."
+        },
+        "mcq": {
+            "question": "What was the purpose of the 'Pad Abort Test' conducted by ISRO in July 2026?",
+            "options": [
+                "A) Satellite deployment",
+                "B) Crew escape system safety",
+                "C) Lunar landing simulation",
+                "D) Solar observation"
+            ],
+            "answer": "B",
+            "explanation": "The Pad Abort Test validates the crew escape system for the Gaganyaan mission."
+        }
     }
-  ]
+]
 };

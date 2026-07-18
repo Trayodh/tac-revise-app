@@ -6,6 +6,13 @@ require('dotenv').config();
 const PORT = process.env.PORT || 4000;
 const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || '';
 
+// Import the new Current Affairs engine
+const runCurrentAffairsEngine = require('./current_affairs_engine');
+const runMilitaryExercisesEngine = require('./military_exercises_engine');
+
+// Cache for daily news to prevent repeated API calls
+let dailyNewsCache = { date: null, data: null };
+let dailyMilitaryExercisesCache = { date: null, data: null };
 global.DOMMatrix = class {};
 const pdfParse = require('pdf-parse');
 
@@ -14,8 +21,6 @@ const rateLimitMap = new Map();
 const RATE_LIMIT_WINDOW_MS = 60000;
 const MAX_REQUESTS_PER_WINDOW = 200;
 
-// Cache for Daily Current Affairs (keyed by date string)
-let dailyNewsCache = { date: '', data: null };
 
 // UPSC topic categories aligned with UPSC Civil Services / NDA / CDS syllabus
 const UPSC_TOPIC_CATEGORIES = [
@@ -145,247 +150,42 @@ async function fetchAllNewsItems() {
   const pinned = militaryItems.slice(0, 6);
   const combined = [...pinned, ...allItems];
   return combined.slice(0, 50); // larger pool for 12 topic categories
-}async function autoUpdateCurrentAffairs() {
+}
+
+async function autoUpdateCurrentAffairs() {
   const today = new Date().toISOString().split('T')[0];
   try {
-    console.log(`[AUTO-UPDATE] Starting daily current affairs update for ${today}...`);
-    const rawItems = await fetchAllNewsItems();
-    console.log(`[AUTO-UPDATE] Collected ${rawItems.length} raw news items.`);
+    console.log(`[AUTO-UPDATE] Starting daily current affairs update for ${today} using Gemini 2.5 Engine...`);
+    const generatedCards = await runCurrentAffairsEngine();
     
-    const topicColorMap = UPSC_TOPIC_CATEGORIES.reduce((acc, t) => { acc[t.name] = t.color; return acc; }, {});
-    
-    // Step 1: Select the 7 to 8 most important news items
-    const selectionPrompt = `You are a senior UPSC exam expert. Select the 7 to 8 most important and UPSC-relevant news items from this list:
-${JSON.stringify(rawItems.map((it,i) => ({ index: i, title: it.title, desc: it.description })))}
-
-Rules:
-- Assign each to one of these topic areas: ${UPSC_TOPIC_CATEGORIES.map(t => t.name).join(', ')}
-- Ensure the selected items are diverse across topics.
-- Return ONLY a raw JSON array of objects with: { "index": <number or null>, "title": "<news title>", "topic": "<topic area name>", "topicColor": "<hex color from ${JSON.stringify(topicColorMap)}>" }.
-- Do not include markdown fences or any formatting other than valid JSON.`;
-
-    try {
-      const apiUrl = 'https://api.cerebras.ai/v1/chat/completions';
-      const headers = { 
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${CEREBRAS_API_KEY}`
-      };
-
-      const gemRes = await fetch(apiUrl, {
-        method: 'POST',
-        headers: headers,
-        body: JSON.stringify({
-          model: 'gpt-oss-120b',
-          messages: [{ role: 'user', content: selectionPrompt }],
-          temperature: 0.1,
-          response_format: { type: "json_object" }
-        })
-      });
-      if (!gemRes.ok) {
-        const errMsg = await gemRes.text();
-        console.warn(`[AUTO-UPDATE] Selection using Cerebras returned non-ok status ${gemRes.status}: ${errMsg}`);
-      } else {
-        const gemData = await gemRes.json();
-        const rawText = gemData?.choices?.[0]?.message?.content || '';
-        const cleaned = rawText.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim();
-        selectionList = JSON.parse(cleaned);
-      }
-    } catch(e) {
-      console.warn(`[AUTO-UPDATE] Selection using Cerebras failed:`, e.message);
+    if (generatedCards) {
+      dailyNewsCache = { date: today, data: generatedCards };
+      return generatedCards;
+    } else {
+      console.warn("[AUTO-UPDATE] Engine did not return any cards.");
+      return dailyNewsCache.data || [];
     }
-
-    if (!selectionList || !Array.isArray(selectionList) || selectionList.length === 0) {
-      console.warn('[AUTO-UPDATE] Gemini selection failed or key is missing. Using fallback selection.');
-      selectionList = rawItems.slice(0, 6).map((item, idx) => ({
-        index: idx,
-        title: item.title,
-        topic: UPSC_TOPIC_CATEGORIES[idx % UPSC_TOPIC_CATEGORIES.length].name,
-        topicColor: UPSC_TOPIC_CATEGORIES[idx % UPSC_TOPIC_CATEGORIES.length].color
-      }));
-    }
-
-    console.log(`[AUTO-UPDATE] Selected ${selectionList.length} items for detail generation.`);
-    
-    // Step 2: Generate details for each selected item in parallel
-    const generatedCards = [];
-    const cardPromises = selectionList.map(async (selected, idx) => {
-      const originalItem = selected.index !== null ? rawItems[selected.index] : null;
-      const title = selected.title;
-      const topic = selected.topic;
-      const topicColor = selected.topicColor;
-      
-      const detailPrompt = `You are a senior UPSC exam expert. Generate a complete, highly detailed UPSC Current Affairs card for the following news item:
-Title: ${title}
-Description: ${originalItem ? originalItem.description : 'N/A'}
-Topic: ${topic}
-Topic Color: ${topicColor}
-
-Your generated card MUST follow this JSON schema exactly:
-{
-  "id": "ca_live_${today.replace(/-/g, '_')}_${idx}",
-  "topic": "${topic}",
-  "topicColor": "${topicColor}",
-  "summary": "<One clear sentence: what happened, who was involved, when and where.>",
-  "text": "<2-3 sentence HTML-enhanced description. Use <strong> tags to highlight key names, organizations, dates, and figures. Use <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'> to highlight UPSC-critical facts like article numbers, rank designations, appointment dates, treaty names, committee names, statistics.>",
-  "quickSummary": "<30-50 words quick summary of the current affair.>",
-  "detailedAnalysis": "<150-250 words UPSC-level deep-dive analysis of the topic.>",
-  "backgroundContext": "<80-120 words background context. Why the event happened, what led to it, and historical developments.>",
-  "stakeholders": [
-    "<Stakeholder 1 (Country, Org, Leader, Military Force, or Institution)>",
-    "<Stakeholder 2>"
-  ],
-  "examRelevanceMatrix": {
-    "NDA": "Very High/High/Medium/Low",
-    "CDS": "Very High/High/Medium/Low",
-    "AFCAT": "Very High/High/Medium/Low",
-    "CAPF": "Very High/High/Medium/Low",
-    "UPSC": "Very High/High/Medium/Low"
-  },
-  "relatedTopics": [
-    "[[Related Note 1]]",
-    "[[Related Note 2]]"
-  ],
-  "potentialQuestions": {
-    "shortAnswers": ["<Analytical short answer question 1>", "<Analytical short answer question 2>"],
-    "interviewQuestions": ["<Personal interview question related to this topic>"],
-    "ssbDiscussionTopics": ["<SSB group discussion topic derived from this news>"]
-  },
-  "upscHighlights": [
-    "<UPSC key fact 1>",
-    "<UPSC key fact 2>",
-    "<UPSC key fact 3 if applicable>"
-  ],
-  "institutionalContext": "<Name of the Ministry, Constitutional body, International org, or Treaty that governs this news>",
-  "strategicImportance": "<Why does this matter for UPSC? 1-2 sentences on syllabus relevance.>",
-  "originalSource": "<Official primary source: e.g. Press Information Bureau, Ministry of Defence, Reserve Bank of India, Supreme Court of India, United Nations, etc.>",
-  "publicationDate": "${today}",
-  "lastUpdatedDate": "${today}",
-  "verificationStatus": "Verified (Official Primary Source)",
-  "relatedOfficialDocuments": "<PIB Press Release, Ministry Report, ECI Notification, or Supreme Court Judgment reference if available>",
-  "mcq": {
-    "question": "<A UPSC Prelims-style MCQ question. Not straightforward factual recall — make it analytical or based on related provisions, rank hierarchy, or historical context.>",
-    "options": ["<A>", "<B>", "<C>", "<D>"],
-    "correct": 0,
-    "explanation": "<Detailed 2-3 sentence explanation referencing the correct UPSC-standard information.>"
+  } catch (err) {
+    console.error(`[AUTO-UPDATE] Daily current affairs update failed:`, err);
+    throw err;
   }
 }
 
-Rules:
-- Return ONLY the raw JSON object. No markdown, no \`\`\`json fences.
-- Use formal UPSC-coach language. Highlight key terms with HTML as instructed.
-- Do NOT use any emojis, icons, or pictorial characters anywhere in any fields of the JSON. Keep the content completely emoji-free.
-- If this is a Defence news topic, you MUST include details matching the Military and Defence Knowledge Layer: (a) Technical Specifications, (b) Historical Usage/Context/Background, (c) Combat Record/Significance, (d) Advantages/Weaknesses, (e) Global Operators, (f) Indian Relevance, (g) Future Upgrades, and (h) Comparison with Similar Systems. Automatically link related components in double brackets, e.g. [[Meteor Missile]] or [[MICA]].
-- JSON VALIDITY: Ensure that all quotes inside string fields are escaped as \\\" and that there are no unescaped control characters or trailing commas. Every string property must be properly enclosed in double quotes. Do NOT include actual literal line breaks or newlines inside any string properties; instead, escape them as \\n or use HTML tags. The entire response must be strictly valid JSON that can be parsed by JSON.parse().`;
-
-      try {
-        const apiUrl = 'https://api.cerebras.ai/v1/chat/completions';
-        const headers = { 
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${CEREBRAS_API_KEY}`
-        };
-
-        const gemRes = await fetch(apiUrl, {
-          method: 'POST',
-          headers: headers,
-          body: JSON.stringify({
-            model: 'gpt-oss-120b',
-            messages: [{ role: 'user', content: detailPrompt }],
-            temperature: 0.1,
-            response_format: { type: "json_object" }
-          })
-        });
-        if (!gemRes.ok) {
-          const errMsg = await gemRes.text();
-          console.warn(`[AUTO-UPDATE] Card generation for "${title}" using Cerebras returned non-ok status ${gemRes.status}: ${errMsg}`);
-        } else {
-          const gemData = await gemRes.json();
-          const rawText = gemData?.choices?.[0]?.message?.content || '';
-          const cleaned = rawText.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim();
-          const card = JSON.parse(cleaned);
-          generatedCards.push(card);
-          console.log(`[AUTO-UPDATE] Successfully generated card for "${title}" using Cerebras`);
-        }
-      } catch(e) {
-        console.warn(`[AUTO-UPDATE] Card generation for "${title}" failed using Cerebras:`, e.message);
-      }
-    });
-
-    await Promise.all(cardPromises);
-
-    if (generatedCards.length === 0) {
-      console.warn('[AUTO-UPDATE] Gemini card generation failed or key is missing. Using fallback cards.');
-      selectionList.forEach((selected, idx) => {
-        const originalItem = selected.index !== null ? rawItems[selected.index] : null;
-        generatedCards.push({
-          "id": `ca_live_${today.replace(/-/g, '_')}_fallback_${idx}`,
-          "topic": selected.topic,
-          "topicColor": selected.topicColor,
-          "summary": originalItem ? (originalItem.description.substring(0, 150) + '...') : 'Intelligence feed unavailable.',
-          "text": `<strong>${selected.title}</strong><br><br>${originalItem ? originalItem.description : 'No description available.'} <br><a href="${originalItem ? originalItem.link : '#'}" target="_blank" style="color:var(--accent);">Read Original Release</a>`,
-          "quickSummary": "Quick AI summary is currently offline due to an expired API key uplink.",
-          "detailedAnalysis": "Deep-dive analysis is currently offline. Please refer to official sources or read the full article by following the official link.",
-          "backgroundContext": "Background context is offline.",
-          "stakeholders": ["India", "Global Community"],
-          "examRelevanceMatrix": { "NDA": "Medium", "CDS": "Medium", "AFCAT": "Medium", "CAPF": "Medium", "UPSC": "Medium" },
-          "relatedTopics": [],
-          "potentialQuestions": { "shortAnswers": [], "interviewQuestions": [], "ssbDiscussionTopics": [] },
-          "upscHighlights": ["Standard news item (AI highlighting offline)"],
-          "institutionalContext": "Official Press Release / News",
-          "strategicImportance": "Please read the full official release for strategic context.",
-          "originalSource": "PIB / Government Source",
-          "publicationDate": today,
-          "lastUpdatedDate": today,
-          "verificationStatus": "Raw Feed (AI Unverified)",
-          "relatedOfficialDocuments": originalItem ? originalItem.link : "",
-          "mcq": {
-            "question": `Which of the following best describes the core subject of the recent news "${selected.title}"?`,
-            "options": ["A (Details missing due to offline AI)", "B", "C", "D"],
-            "correct": 0,
-            "explanation": "MCQ auto-generation requires an active AI uplink."
-          }
-        });
-      });
+async function autoUpdateMilitaryExercises() {
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    console.log(`[AUTO-UPDATE] Starting daily military exercises update for ${today} using Gemini 2.5 Engine...`);
+    const generatedCards = await runMilitaryExercisesEngine();
+    
+    if (generatedCards) {
+      dailyMilitaryExercisesCache = { date: today, data: generatedCards };
+      return generatedCards;
+    } else {
+      console.warn("[AUTO-UPDATE] Engine did not return any cards for military exercises.");
+      return dailyMilitaryExercisesCache.data || [];
     }
-
-    console.log(`[AUTO-UPDATE] Successfully generated ${generatedCards.length} cards.`);
-
-    const dataJsPath = path.join(__dirname, 'data.js');
-    if (fs.existsSync(dataJsPath)) {
-      let content = fs.readFileSync(dataJsPath, 'utf8');
-      const startIdx = content.indexOf('let CURRENT_AFFAIRS_DB =');
-      const endIdx = content.indexOf('const CBT_EXAMS_DATABASE =');
-      if (startIdx !== -1 && endIdx !== -1) {
-        const expr = content.substring(startIdx, endIdx).replace('let CURRENT_AFFAIRS_DB =', '').trim().replace(/;$/, '');
-        let db = eval('(' + expr + ')');
-        const monthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
-        if (!db[monthStr]) db[monthStr] = [];
-        
-        const existingIds = new Set(db[monthStr].map(item => item.id));
-        const existingTopics = new Set(db[monthStr].map(item => item.topic.toLowerCase()));
-        
-        let added = 0;
-        generatedCards.forEach(entry => {
-          if (!existingIds.has(entry.id) && !existingTopics.has(entry.topic.toLowerCase())) {
-            db[monthStr].unshift(entry);
-            added++;
-          }
-        });
-        
-        if (added > 0) {
-          const formattedDb = "let CURRENT_AFFAIRS_DB = " + JSON.stringify(db, null, 2) + ";\n\n";
-          const newContent = content.substring(0, startIdx) + formattedDb + content.substring(endIdx);
-          fs.writeFileSync(dataJsPath, newContent, 'utf8');
-          console.log(`[AUTO-UPDATE] Successfully saved ${added} new entries to data.js on disk.`);
-        } else {
-          console.log("[AUTO-UPDATE] No new unique entries to save.");
-        }
-      }
-    }
-
-    dailyNewsCache = { date: today, data: generatedCards };
-    return generatedCards;
   } catch (err) {
-    console.error(`[AUTO-UPDATE] Daily current affairs update failed:`, err);
+    console.error(`[AUTO-UPDATE] Daily military exercises update failed:`, err);
     throw err;
   }
 }
@@ -448,6 +248,38 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // === NEW ENDPOINT: /api/daily-military-exercises ===
+  if (req.method === 'GET' && req.url === '/api/daily-military-exercises') {
+    const today = new Date().toISOString().split('T')[0];
+    
+    if (dailyMilitaryExercisesCache.date === today && dailyMilitaryExercisesCache.data) {
+      console.log(`[PROXY] Serving Daily Military Exercises from cache for ${today}`);
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(dailyMilitaryExercisesCache.data));
+      return;
+    }
+
+    (async () => {
+      try {
+        const parsedJson = await autoUpdateMilitaryExercises();
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(parsedJson));
+      } catch(err) {
+        console.error('[PROXY] Error in daily-military-exercises:', err);
+        if (dailyMilitaryExercisesCache.data) {
+          console.log('[PROXY] Serving stale cached data due to error.');
+          res.writeHead(200, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify(dailyMilitaryExercisesCache.data));
+        } else {
+          res.writeHead(500, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: 'Failed to fetch military exercises' }));
+        }
+      }
+    })();
+    
+    return;
+  }
+
 
   // API Route: AI Router Orchestration
   if (req.url === '/api/orchestrate' && req.method === 'POST') {
@@ -499,7 +331,7 @@ Weaknesses:
 Weaknesses:
 * Do not use for deep document analysis unless required.
 
-3. Groq
+3. Gemini (Fallback for formatting)
    Strengths:
 * Fast structured generation
 * MCQs
@@ -510,7 +342,7 @@ Weaknesses:
 * Formatting tasks
 
 Weaknesses:
-* Do not use for long-document analysis when Gemini is more appropriate.
+* Sometimes produces overly long output if not strictly prompted.
 
 Routing Rules:
 If the task involves:
@@ -521,10 +353,10 @@ If the task involves:
 * Flashcard generation -> Cerebras
 * Current affairs summary -> Cerebras
 * AI tutoring -> Cerebras
-* MCQ generation -> Groq
-* Model paper generation -> Groq
-* JSON formatting -> Groq
-* Topic classification -> Groq
+* MCQ generation -> Gemini
+* Model paper generation -> Gemini
+* JSON formatting -> Gemini
+* Topic classification -> Gemini
 * Validation of generated paper -> Gemini
 
 If multiple steps are required, execute them sequentially.
@@ -533,7 +365,7 @@ Example:
 User uploads previous-year papers.
 Step 1: Gemini analyses the papers and produces the examination blueprint.
 Step 2: Store the blueprint in the database.
-Step 3: Groq generates a new paper using the blueprint.
+Step 3: Gemini generates a new paper using the blueprint.
 Step 4: Gemini validates the generated paper.
 Step 5: Return only the validated paper.
 
@@ -550,24 +382,26 @@ General Rules:
 TASK: ${task}
 
 OUTPUT FORMAT:
-Return ONLY a valid JSON object with a "plan" array containing objects with "step" (number), "provider" ("Gemini", "Cerebras", "Groq", or "Supabase"), and "action" (string describing what the provider must do). 
+Return ONLY a valid JSON object with a "plan" array containing objects with "step" (number), "provider" ("Gemini", "Cerebras", or "Supabase"), and "action" (string describing what the provider must do). 
 For database storage steps, use provider "Supabase" and provide a "key" and "data_to_store" description in the action.
 `;
 
-        // 1. Call Groq to generate the plan
-        let planRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+        // 1. Call Gemini to generate the plan
+        let planRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${GROQ_API_KEY}` },
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            model: 'llama-3.1-8b-instant',
-            messages: [{ role: 'system', content: systemPrompt }],
-            response_format: { type: 'json_object' },
-            temperature: 0.1
+            systemInstruction: { parts: [{ text: systemPrompt }] },
+            contents: [{ parts: [{ text: "Generate the orchestration plan." }] }],
+            generationConfig: {
+              temperature: 0.1,
+              responseMimeType: "application/json"
+            }
           })
         });
         
         let planData = await planRes.json();
-        let planText = planData.choices[0].message.content;
+        let planText = planData.candidates?.[0]?.content?.parts?.[0]?.text || '{}';
         let plan = JSON.parse(planText).plan;
         
         console.log("[ORCHESTRATOR] Generated Plan:", plan);
@@ -612,17 +446,17 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
             finalResult = output;
             
           } else if (step.provider === 'Groq') {
-            let res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+            // Groq has been deprecated; routing to Gemini instead.
+            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
               method: 'POST',
-              headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${GROQ_API_KEY}` },
+              headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
-                model: 'llama-3.1-8b-instant',
-                messages: [{ role: 'user', content: stepPrompt }]
+                contents: [{ parts: [{ text: stepPrompt }] }]
               })
             });
             let data = await res.json();
-            let output = data.choices?.[0]?.message?.content || '';
-            accumulatedContext += "\n\n--- Output from Groq ---\n" + output;
+            let output = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+            accumulatedContext += "\n\n--- Output from Gemini (formerly Groq) ---\n" + output;
             finalResult = output;
             
           } else if (step.provider === 'Supabase') {
@@ -669,28 +503,41 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
         const { targetAI, messages, isJsonRequired, temperature, originalGeminiBody } = payload;
         let aiText = "";
 
-        if (targetAI === 'groq') {
-          const groqBody = {
-            model: 'llama-3.3-70b-versatile',
-            messages: messages,
-            temperature: temperature || 0.1,
-            max_tokens: 1500
-          };
-          if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
-
-          const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-              'Authorization': `Bearer ${process.env.GROQ_API_KEY || ''}`
-            },
-            body: JSON.stringify(groqBody)
-          });
-          if (!res.ok) throw new Error("Groq API Error: " + await res.text());
-          const data = await res.json();
-          aiText = data.choices?.[0]?.message?.content || "";
+        let actualTarget = targetAI;
+        if (actualTarget === 'groq') {
+          // Fallback Groq requests to Gemini
+          actualTarget = 'gemini';
         }
-        else if (targetAI === 'cerebras') {
+
+        if (actualTarget === 'gemini') {
+          const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
+          if (!GEMINI_KEY) {
+             aiText = (isJsonRequired ? "{}" : "") + "\n\n**[SYSTEM ALERT]** Gemini API key missing from backend! Please add GEMINI_API_KEY to your environment variables.";
+          } else {
+             let geminiBody = originalGeminiBody;
+             if (!geminiBody) {
+                 // Construct a Gemini body if one wasn't passed directly
+                 geminiBody = {
+                     contents: [{ parts: [{ text: messages.map(m => m.content).join('\n') }] }]
+                 };
+                 if (isJsonRequired) {
+                     geminiBody.generationConfig = { responseMimeType: "application/json" };
+                 }
+             } else if (geminiBody.stream) {
+                 delete geminiBody.stream;
+             }
+             const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`;
+             const res = await fetch(geminiUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(geminiBody)
+             });
+             if (!res.ok) throw new Error("Gemini API Error: " + await res.text());
+             const data = await res.json();
+             aiText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+          }
+        }
+        else if (actualTarget === 'cerebras') {
           const cerebrasBody = {
             model: 'llama3.1-8b',
             messages: messages,
@@ -710,25 +557,6 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
           if (!res.ok) throw new Error("Cerebras API Error: " + await res.text());
           const data = await res.json();
           aiText = data.choices?.[0]?.message?.content || "";
-        }
-        else if (targetAI === 'gemini') {
-          const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
-          if (!GEMINI_KEY) {
-             aiText = (isJsonRequired ? "{}" : "") + "\n\n**[SYSTEM ALERT]** Gemini API key missing from backend! Please add GEMINI_API_KEY to your environment variables.";
-          } else {
-             if (originalGeminiBody && originalGeminiBody.stream) {
-                 delete originalGeminiBody.stream;
-             }
-             const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`;
-             const res = await fetch(geminiUrl, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(originalGeminiBody)
-             });
-             if (!res.ok) throw new Error("Gemini API Error: " + await res.text());
-             const data = await res.json();
-             aiText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
-          }
         }
 
         res.writeHead(200, { 'Content-Type': 'application/json' });
@@ -1113,14 +941,22 @@ server.listen(PORT, () => {
   console.log("[AUTO-UPDATE] Scheduling first update in 10 seconds...");
   setTimeout(() => {
     autoUpdateCurrentAffairs()
-      .then(() => console.log("[AUTO-UPDATE] Startup auto-update completed successfully."))
-      .catch(err => console.error("[AUTO-UPDATE] Startup auto-update failed:", err));
+      .then(() => console.log("[AUTO-UPDATE] Startup auto-update CA completed successfully."))
+      .catch(err => console.error("[AUTO-UPDATE] Startup auto-update CA failed:", err));
+      
+    autoUpdateMilitaryExercises()
+      .then(() => console.log("[AUTO-UPDATE] Startup auto-update ME completed successfully."))
+      .catch(err => console.error("[AUTO-UPDATE] Startup auto-update ME failed:", err));
   }, 10000);
 
   setInterval(() => {
     autoUpdateCurrentAffairs()
-      .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update completed successfully."))
-      .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update failed:", err));
+      .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update CA completed successfully."))
+      .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update CA failed:", err));
+      
+    autoUpdateMilitaryExercises()
+      .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update ME completed successfully."))
+      .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update ME failed:", err));
   }, 24 * 60 * 60 * 1000); // every 24 hours
 });
 

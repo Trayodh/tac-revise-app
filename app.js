@@ -7385,13 +7385,18 @@ window.submitOnboardingPayment = async function() {
   document.getElementById('onboarding-payment-msg').style.display = 'block';
   
   if (typeof STATE !== 'undefined' && STATE.activeProfile) {
+    if (STATE.activeProfile.status === 'active') {
+      alert('Your account is already active.');
+      switchScreen('dashboard');
+      return;
+    }
     STATE.activeProfile.transaction_id = txId;
     STATE.activeProfile.status = 'locked';
     if (typeof saveState === 'function') saveState();
     
     // Update Supabase if available
     if (window.supabaseClient && STATE.activeProfile.id) {
-      // updated via saveState automatically
+      window.supabaseClient.from('user_profiles').update({ status: 'locked', transaction_id: txId }).eq('id', STATE.activeProfile.id).then();
     }
   }
   
@@ -7461,6 +7466,7 @@ window.updateUserStatus = async function(userIdOrEmail, newStatus) {
       if (!data.state.activeProfile) data.state.activeProfile = {};
       data.state.activeProfile.status = newStatus;
       await window.supabaseClient.from('user_data').update({ state: data.state }).eq('user_id', userIdOrEmail);
+      await window.supabaseClient.from('user_profiles').update({ status: newStatus }).eq('id', userIdOrEmail);
       if (typeof renderAdminDashboard === 'function') renderAdminDashboard();
     }
   } else {

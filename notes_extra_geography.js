@@ -184,6 +184,7 @@ EXPANDED_NOTES_DATA["universe-solar-system"] = `
 EXPANDED_NOTES_DATA["earth-atmosphere"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Earth Structure &amp; Atmosphere</h2>
+  <img src="images/earth-atmosphere.jpg" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="earth-atmosphere.jpg">
 
   <h3>I. Earth’s Interior Structure</h3>
   <p>The Earth is a differentiated sphere composed of concentric layers that differ in composition, density, temperature, and physical state. Understanding these layers is essential for interpreting seismic activity, volcanic processes, and the generation of the magnetic field.</p>
@@ -394,6 +395,8 @@ EXPANDED_NOTES_DATA["earth-atmosphere"] = `
 EXPANDED_NOTES_DATA["climatology-clouds"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Climatology: Climatic Zones &amp; Clouds</h2>
+  <img src="images/atmospheric-circulation.jpg" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="atmospheric-circulation.jpg">
+  <img src="images/types-of-rainfall.jpg" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="types-of-rainfall.jpg">
 
   <section>
     <h3>I. Introduction to Climatology</h3>
@@ -676,6 +679,9 @@ EXPANDED_NOTES_DATA["climatology-clouds"] = `
 EXPANDED_NOTES_DATA["geomorphology-rocks"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Geomorphology: Rocks, Plate Tectonics &amp; Volcanism</h2>
+  <img src="images/volcanic-systems.jpg" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="volcanic-systems.jpg">
+  <img src="images/earth-interior.jpg" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="earth-interior.jpg">
+  <img src="images/glacial-landforms.jpg" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="glacial-landforms.jpg">
   <p>Geomorphology is the scientific study of landforms and the processes that shape them. This chapter covers the fundamental building blocks of the Earth’s crust – rocks – and the dynamic forces that mould the planet’s surface – plate tectonics and volcanism.</p>
 
   <h3>I. Rocks</h3>
@@ -848,6 +854,7 @@ EXPANDED_NOTES_DATA["geomorphology-rocks"] = `
 EXPANDED_NOTES_DATA["world-geography-mountains"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,4px,12px,0.25);">
   <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">World Geography: Mountains, Forests & Rivers</h2>
+  <img src="images/mountains-formation.jpg" style="width:100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="mountains-formation.jpg">
 
   <!-- ==================== Mountains ==================== -->
   <h3>I. Mountains of the World</h3>
