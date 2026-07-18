@@ -83,7 +83,7 @@ async function handleAuthAction() {
       if (window.supabaseClient) {
         let data, error;
         // Admin Backdoor
-        if (email === 'trayodh@gmail.com' && password === 'admin') {
+        if (email === 'trayodh@gmail.com' && password === 'admin1') {
            data = { user: { id: 'admin-mock-id', email: email } };
            error = null;
            alert('Admin override activated. Logging in offline mode.');
