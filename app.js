@@ -9,14 +9,8 @@ const originalFetch = window.fetch;
 window.fetch = async function() {
     const url = typeof arguments[0] === 'string' ? arguments[0] : (arguments[0] instanceof Request ? arguments[0].url : '');
     
-    // If we are on the web (Vercel or local), bypass the offline interceptor 
-    // and let the secure Node backend handle the request!
-    if (url.includes('/api/gemini')) {
-        // Additional check: we're not running inside a Capacitor standalone app
-        if (!window.Capacitor) {
-            return originalFetch.apply(window, arguments);
-        }
-    }
+    // We removed the web bypass so that web users can also use the Cerebras/Groq interceptor
+    // since the Gemini API key is currently expired.
     
     // Intercept backend Current Affairs calls to serve them completely offline!
     if (url.includes('/api/daily-current-affairs')) {
@@ -59,7 +53,7 @@ window.fetch = async function() {
             // ----------------------------------------------------
             // MULTI-MODEL INTELLIGENT ROUTER
             // ----------------------------------------------------
-            let targetAI = 'groq'; // Default fallback
+            let targetAI = 'gemini'; // Default fallback (Notes, Learn/Explain, Current Affairs, etc.)
             const combinedText = (systemInstructionText + " " + promptText).toLowerCase();
             
             // 0. Explicit Override for Detailed Notes -> Gemini
@@ -80,19 +74,20 @@ window.fetch = async function() {
                 combinedText.includes("classify") ||
                 combinedText.includes("categorize")
             ) {
-                targetAI = 'groq';
+                targetAI = 'cerebras';
             }
-            // 2. Cerebras (Chatbot / Dronacharya / Tell Me More)
+            // 2. Gemini (Chatbot / Dronacharya / Tell Me More / Wiki Links)
             else if (
                 combinedText.includes("chatbot") || 
                 combinedText.includes("dronacharya") ||
-                combinedText.includes("conversational")
+                combinedText.includes("conversational") ||
+                combinedText.includes("educational preview")
             ) {
-                targetAI = 'cerebras';
+                targetAI = 'gemini';
             }
-            // 3. Fallback (Notes, Learn/Explain, Current Affairs, Quiz Explanations, PYQs)
+            // 3. Fallback
             else {
-                targetAI = 'groq';
+                targetAI = 'gemini';
             }
             
             // ----------------------------------------------------
@@ -104,35 +99,31 @@ window.fetch = async function() {
             
             // DIRECT CLIENT-SIDE API CALLS
             let callSuccessful = false;
-            if (targetAI === 'groq') {
-                try {
-                    const groqBody = {
-                        model: 'llama-3.3-70b-versatile',
-                        messages: messages,
-                        temperature: reqBody.generationConfig?.temperature || 0.1,
-                        max_tokens: 1500
-                    };
-                    if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
 
-                    const res = await originalFetch('https://api.groq.com/openai/v1/chat/completions', {
+            if (targetAI === 'gemini') {
+                try {
+                    const res = await originalFetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=PROCESS_ENV_GEMINI_KEY`, {
                         method: 'POST',
                         headers: {
-                            'Content-Type': 'application/json',
-                            'Authorization': 'Bearer PROCESS_ENV_GROQ_KEY'
+                            'Content-Type': 'application/json'
                         },
-                        body: JSON.stringify(groqBody)
+                        body: JSON.stringify(reqBody)
                     });
-                    if (!res.ok) throw new Error("Groq API Error: " + await res.text());
+                    if (!res.ok) throw new Error("Gemini API Error: " + await res.text());
                     const data = await res.json();
-                    aiText = data.choices?.[0]?.message?.content || "";
+                    if (data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) {
+                        aiText = data.candidates[0].content.parts.map(p => p.text).join("");
+                    } else {
+                        aiText = "";
+                    }
                     callSuccessful = true;
                 } catch (err) {
-                    console.warn("Groq API call failed, falling back to Gemini:", err);
-                    targetAI = 'gemini';
+                    console.warn("Gemini API call failed, falling back to Cerebras:", err);
+                    targetAI = 'cerebras';
                 }
-            } 
+            }
             
-            if (targetAI === 'cerebras') {
+            if (targetAI === 'cerebras' && !callSuccessful) {
                 try {
                     const cerebrasBody = {
                         model: 'gpt-oss-120b',
@@ -155,26 +146,36 @@ window.fetch = async function() {
                     aiText = data.choices?.[0]?.message?.content || "";
                     callSuccessful = true;
                 } catch (err) {
-                    console.warn("Cerebras API call failed, falling back to Gemini:", err);
-                    targetAI = 'gemini';
+                    console.warn("Cerebras API call failed, falling back to Groq:", err);
+                    targetAI = 'groq';
                 }
             }
+            
+            if (targetAI === 'groq' && !callSuccessful) {
+                try {
+                    const groqBody = {
+                        model: 'llama-3.3-70b-versatile',
+                        messages: messages,
+                        temperature: reqBody.generationConfig?.temperature || 0.1,
+                        max_tokens: 1500
+                    };
+                    if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
 
-            if (targetAI === 'gemini') {
-                const geminiBody = reqBody;
-                if (geminiBody.stream) delete geminiBody.stream;
-                
-                let urlModel = reqBody.model || 'gemini-2.5-flash';
-                if (urlModel === 'gemini-1.5-flash' || urlModel === 'gemini-2.5-flash') urlModel = 'gemini-2.5-flash';
-                const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${urlModel}:generateContent?key=PROCESS_ENV_GEMINI_KEY`;
-                const res = await originalFetch(geminiUrl, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(geminiBody)
-                });
-                if (!res.ok) throw new Error("Gemini API Error: " + await res.text());
-                const data = await res.json();
-                aiText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+                    const res = await originalFetch('https://api.groq.com/openai/v1/chat/completions', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': 'Bearer PROCESS_ENV_GROQ_KEY'
+                        },
+                        body: JSON.stringify(groqBody)
+                    });
+                    if (!res.ok) throw new Error("Groq API Error: " + await res.text());
+                    const data = await res.json();
+                    aiText = data.choices?.[0]?.message?.content || "";
+                    callSuccessful = true;
+                } catch (err) {
+                    throw new Error("Groq Fallback Error: " + err.message);
+                }
             }
             
             // Reconstruct Gemini format for the frontend parsing logic
@@ -386,6 +387,70 @@ window.backToNotesSubjects = function() {
   updateBreadcrumbs();
 };
 
+
+// --- LIVE STATUS POLLER ---
+window.statusPollerInterval = null;
+
+window.startStatusPoller = function() {
+  if (window.statusPollerInterval) return; // Already running
+  console.log("Starting live status poller...");
+  window.statusPollerInterval = setInterval(async () => {
+    if (!window.supabaseClient || !STATE || !STATE.activeProfile || !STATE.activeProfile.id) return;
+    try {
+      const { data } = await window.supabaseClient.from('user_data').select('state').eq('user_id', STATE.activeProfile.id).single();
+      if (data && data.state && data.state.activeProfile) {
+        const newStatus = data.state.activeProfile.status;
+        if (newStatus !== STATE.activeProfile.status) {
+          console.log("Status changed to:", newStatus);
+          STATE.activeProfile.status = newStatus;
+          if (newStatus === 'active') {
+             stopStatusPoller();
+             switchScreen('dashboard');
+             alert('Your account has been approved! Welcome.');
+          } else if (newStatus === 'locked') {
+             switchScreen('locked');
+          } else if (newStatus === 'pending_payment') {
+             switchScreen('onboarding-payment');
+          }
+        }
+      }
+    } catch (e) {
+      console.error("Poller error:", e);
+    }
+  }, 5000);
+};
+
+window.stopStatusPoller = function() {
+  if (window.statusPollerInterval) {
+    clearInterval(window.statusPollerInterval);
+    window.statusPollerInterval = null;
+    console.log("Stopped live status poller.");
+  }
+};
+// -------------------------
+
+// --- ADMIN DASHBOARD POLLER ---
+window.adminPollerInterval = null;
+
+window.startAdminPoller = function() {
+  if (window.adminPollerInterval) return;
+  console.log("Starting Admin Dashboard live poller...");
+  window.adminPollerInterval = setInterval(() => {
+    if (STATE.currentScreen === 'admin' && typeof renderAdminDashboard === 'function') {
+      renderAdminDashboard();
+    }
+  }, 5000);
+};
+
+window.stopAdminPoller = function() {
+  if (window.adminPollerInterval) {
+    clearInterval(window.adminPollerInterval);
+    window.adminPollerInterval = null;
+    console.log("Stopped Admin Dashboard live poller.");
+  }
+};
+// -----------------------------
+
 function switchScreen(screenId) {
   // --- ROUTE MIDDLEWARE GUARD ---
   if (typeof STATE !== 'undefined' && STATE.activeProfile) {
@@ -404,6 +469,25 @@ function switchScreen(screenId) {
   // ------------------------------
 
   STATE.currentScreen = screenId;
+  
+  if (screenId === 'locked' || screenId === 'onboarding-payment') {
+    document.body.classList.add('locked-mode');
+  } else {
+    document.body.classList.remove('locked-mode');
+  }
+  
+  if (screenId === 'onboarding-payment' || screenId === 'locked') {
+    if (typeof startStatusPoller === 'function') startStatusPoller();
+  } else {
+    if (typeof stopStatusPoller === 'function') stopStatusPoller();
+  }
+  
+  if (screenId === 'admin') {
+    if (typeof startAdminPoller === 'function') startAdminPoller();
+  } else {
+    if (typeof stopAdminPoller === 'function') stopAdminPoller();
+  }
+
   
   document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
   document.querySelectorAll(".nav-item").forEach(n => n.classList.remove("active"));
@@ -6786,48 +6870,114 @@ function showQuestionBank() {
     closeSidebar();
 }
 
-let currentBankSubject = 'gs';
+let currentArmourySubject = null;
+let currentArmouryChapter = null;
 let currentBankPage = 0;
 const BANK_PAGE_SIZE = 50;
+let currentBankPool = [];
 
-function renderQuestionBank(subject) {
+function initQuestionArmoury() {
     if (typeof window.EXTRA_QUESTION_BANK === 'undefined') {
-        document.getElementById('count-gs').innerText = "ERR";
-        document.getElementById('count-english').innerText = "ERR";
-        document.getElementById('count-maths').innerText = "ERR";
+        document.getElementById('armoury-navigation').innerHTML = '<p>Error loading question bank.</p>';
         return;
     }
+    currentArmourySubject = null;
+    currentArmouryChapter = null;
+    renderArmouryBreadcrumb();
+    renderArmourySubjects();
+}
+
+function renderArmouryBreadcrumb() {
+    const breadcrumb = document.getElementById('armoury-breadcrumb');
+    let html = `<span onclick="initQuestionArmoury()">Question Armoury</span>`;
     
-    currentBankSubject = subject;
-    currentBankPage = 0;
-    
-    // Update filters
-    document.querySelectorAll('.bank-filter-btn').forEach(btn => {
-        btn.classList.remove('active');
-        if (btn.innerText.toLowerCase().includes(subject)) {
-            btn.classList.add('active');
-        }
-    });
-    
-    // Update counts safely
-    try {
-        document.getElementById('count-gs').innerText = window.EXTRA_QUESTION_BANK.gs ? window.EXTRA_QUESTION_BANK.gs.length : "NO-GS";
-        document.getElementById('count-english').innerText = window.EXTRA_QUESTION_BANK.english ? window.EXTRA_QUESTION_BANK.english.length : "NO-EN";
-        document.getElementById('count-maths-nda').innerText = window.EXTRA_QUESTION_BANK.maths_nda ? window.EXTRA_QUESTION_BANK.maths_nda.length : "NO-NDA";
-        document.getElementById('count-maths-cds-afcat').innerText = window.EXTRA_QUESTION_BANK.maths_cds_afcat ? window.EXTRA_QUESTION_BANK.maths_cds_afcat.length : "NO-CDS";
-    } catch (e) {
-        document.getElementById('count-gs').innerText = "EXC";
+    if (currentArmourySubject) {
+        html += ` &nbsp;>&nbsp; <span onclick="openArmourySubject('${currentArmourySubject}')">${currentArmourySubject}</span>`;
+    }
+    if (currentArmouryChapter) {
+        html += ` &nbsp;>&nbsp; <span>${currentArmouryChapter}</span>`;
     }
     
+    breadcrumb.innerHTML = html;
+}
+
+function renderArmourySubjects() {
+    document.getElementById('bank-container').style.display = 'none';
+    document.getElementById('load-more-btn').style.display = 'none';
+    
+    const nav = document.getElementById('armoury-navigation');
+    nav.style.display = 'grid';
+    nav.innerHTML = '';
+    
+    const subjects = Object.keys(window.EXTRA_QUESTION_BANK || {});
+    subjects.forEach(subject => {
+        let count = 0;
+        const chapters = window.EXTRA_QUESTION_BANK[subject];
+        for (let c in chapters) {
+            count += chapters[c].length;
+        }
+        
+        const card = document.createElement('div');
+        card.className = 'subject-card';
+        card.style.cssText = 'background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 12px; cursor: pointer; transition: all 0.2s ease;';
+        card.onmouseover = () => { card.style.background = 'rgba(255,255,255,0.1)'; card.style.borderColor = 'var(--accent)'; };
+        card.onmouseleave = () => { card.style.background = 'rgba(255,255,255,0.05)'; card.style.borderColor = 'rgba(255,255,255,0.1)'; };
+        card.onclick = () => openArmourySubject(subject);
+        card.innerHTML = `<h3 style="margin-bottom: 4px; font-size: 1.1rem; color: var(--accent);">${subject}</h3><p style="margin-top:5px; font-size:12px; color:var(--text-muted);">${count} Questions</p>`;
+        nav.appendChild(card);
+    });
+}
+
+function openArmourySubject(subject) {
+    currentArmourySubject = subject;
+    currentArmouryChapter = null;
+    renderArmouryBreadcrumb();
+    
+    document.getElementById('bank-container').style.display = 'none';
+    document.getElementById('load-more-btn').style.display = 'none';
+    
+    const nav = document.getElementById('armoury-navigation');
+    nav.style.display = 'grid';
+    nav.innerHTML = '';
+    
+    const chapters = window.EXTRA_QUESTION_BANK[subject] || {};
+    Object.keys(chapters).forEach(chapter => {
+        const count = chapters[chapter].length;
+        const card = document.createElement('div');
+        card.className = 'subject-card';
+        card.style.cssText = 'background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 12px; cursor: pointer; transition: all 0.2s ease;';
+        card.onmouseover = () => { card.style.background = 'rgba(255,255,255,0.1)'; card.style.borderColor = 'var(--accent)'; };
+        card.onmouseleave = () => { card.style.background = 'rgba(255,255,255,0.05)'; card.style.borderColor = 'rgba(255,255,255,0.1)'; };
+        card.onclick = () => openArmouryChapter(chapter);
+        card.innerHTML = `<h3 style="margin-bottom: 4px; font-size: 1.1rem; color: var(--accent);">${chapter}</h3><p style="margin-top:5px; font-size:12px; color:var(--text-muted);">${count} Questions</p>`;
+        nav.appendChild(card);
+    });
+}
+
+function openArmouryChapter(chapter) {
+    currentArmouryChapter = chapter;
+    renderArmouryBreadcrumb();
+    
+    document.getElementById('armoury-navigation').style.display = 'none';
+    document.getElementById('bank-container').style.display = 'block';
+    
+    currentBankPool = window.EXTRA_QUESTION_BANK[currentArmourySubject][chapter] || [];
+    currentBankPage = 0;
+    
     const container = document.getElementById('bank-container');
-    container.innerHTML = ''; // Clear
+    container.innerHTML = '';
     
     loadMoreBankQuestions();
 }
 
+// Keep old wrapper function for sidebar compatibility
+function renderQuestionBank(subject) {
+    initQuestionArmoury();
+}
+
 function loadMoreBankQuestions() {
     const container = document.getElementById('bank-container');
-    const pool = window.EXTRA_QUESTION_BANK && window.EXTRA_QUESTION_BANK[currentBankSubject] ? window.EXTRA_QUESTION_BANK[currentBankSubject] : [];
+    const pool = currentBankPool;
     
     const start = currentBankPage * BANK_PAGE_SIZE;
     const end = Math.min(start + BANK_PAGE_SIZE, pool.length);
@@ -7056,7 +7206,7 @@ window.submitOnboardingPayment = async function() {
     
     // Update Supabase if available
     if (window.supabaseClient && STATE.activeProfile.id) {
-      await window.supabaseClient.from('user_profiles').update({ transaction_id: txId, status: 'locked' }).eq('id', STATE.activeProfile.id);
+      // updated via saveState automatically
     }
   }
   
@@ -7078,9 +7228,14 @@ window.renderAdminDashboard = async function() {
   let displayUsers = [];
   
   if (window.supabaseClient) {
-    const { data, error } = await window.supabaseClient.from('user_profiles').select('*').order('created_at', { ascending: false });
+    const { data, error } = await window.supabaseClient.from('user_data').select('user_id, state, updated_at').order('updated_at', { ascending: false });
     if (!error && data && data.length > 0) {
-      displayUsers = data;
+      displayUsers = data.map(d => ({
+        id: d.user_id,
+        email: d.state?.activeProfile?.email || d.user_id,
+        status: d.state?.activeProfile?.status || 'pending_payment',
+        transaction_id: d.state?.activeProfile?.transaction_id || null
+      })).filter(u => u.email && u.email !== 'default_cadet');
     }
   }
   
@@ -7092,7 +7247,7 @@ window.renderAdminDashboard = async function() {
     }
   }
   
-  tbody.innerHTML = displayUsers.map((u) => `
+  const newHTML = displayUsers.map((u) => `
     <tr style='border-bottom: 1px solid rgba(255,255,255,0.05);'>
       <td style='padding: 12px;'>${u.email}</td>
       <td style='padding: 12px;'>
@@ -7108,12 +7263,21 @@ window.renderAdminDashboard = async function() {
       </td>
     </tr>
   `).join('');
+  if (tbody.innerHTML !== newHTML) {
+    tbody.innerHTML = newHTML;
+  }
 };
 
 window.updateUserStatus = async function(userIdOrEmail, newStatus) {
   if (window.supabaseClient && userIdOrEmail.includes('-')) {
     // Looks like a UUID
-    await window.supabaseClient.from('user_profiles').update({ status: newStatus }).eq('id', userIdOrEmail);
+    const { data } = await window.supabaseClient.from('user_data').select('state').eq('user_id', userIdOrEmail).single();
+    if (data && data.state) {
+      if (!data.state.activeProfile) data.state.activeProfile = {};
+      data.state.activeProfile.status = newStatus;
+      await window.supabaseClient.from('user_data').update({ state: data.state }).eq('user_id', userIdOrEmail);
+      if (typeof renderAdminDashboard === 'function') renderAdminDashboard();
+    }
   } else {
     // Mock user logic
     const user = window.MOCK_ADMIN_USERS.find(u => u.email === userIdOrEmail);

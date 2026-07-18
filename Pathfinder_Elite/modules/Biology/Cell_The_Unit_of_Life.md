@@ -1,211 +1,107 @@
-<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">CELL THE UNIT OF LIFE</h3>
-  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">DEEP CONCEPTUAL EXPLANATION</h4>
+# CELL: THE UNIT OF LIFE
 
-After analysing the previous year question papers, we have seen that 40-45 questions are asked from science section, out of these 10-15 questions were asked from Biology. From biology section, around 2-3 questions are asked from classification, genetics and evolution, 3-4 questions from human physiology, and 1 to 2 questions each from topics like cell, human health and diseases and applied biology. CELL : THE UNIT OF LIFE • Robert Hooke in 1665 discovered the cell. He is the Father of Cytology.
+The cell stands as the fundamental **structural, functional, and biological unit** of all known living organisms. It is the smallest unit of life that can replicate independently, often referred to as the "building blocks of life." The term 'cell' originates from the Latin word _cellula_, meaning 'small room,' a term first coined by Robert Hooke.
 
-• Cell theory was given by Schleiden and Schwann.
+## Historical Milestones in Cell Biology
 
-Biology is the branch of science concerned with the study of living organisms. The term ‘biology’ is coined by Lamarck and Treviranus. The study of plants is called Botany, while study of animals is called Zoology.
+The understanding of the cell has evolved through centuries of rigorous scientific inquiry and continuous technological advancements, particularly with the pivotal invention of the microscope.
 
-• Matthias Jacob Schleiden (1838) a German botanist said that, all plants are composed of different kinds of cells, which in turn form plant tissues.
+*   **Robert Hooke (1665)**:
+    *   Credited with the seminal discovery of the cell.
+    *   Observing thin slices of cork under his primitive compound microscope, Hooke noticed tiny, box-like compartments that vividly reminded him of the monastic cells, hence coining the term "cell."
+    *   He is widely regarded as the **Father of Cytology**, the branch of biology dedicated to the study of cells.
+*   **Anton van Leeuwenhoek (late 17th century)**:
+    *   Significantly improved the design and magnification of the microscope.
+    *   He was the first to meticulously observe and describe various single-celled organisms, which he termed "animalcules" (e.g., protozoa), and also made groundbreaking observations of bacteria, spermatozoa, and blood cells.
+*   **Matthias Jacob Schleiden (1838)**:
+    *   A prominent German botanist.
+    *   He proposed that all plants are fundamentally composed of different kinds of cells, which are organized to form various plant tissues.
+*   **Theodor Schwann (1839)**:
+    *   A distinguished German zoologist.
+    *   Independently concluded that all animals are also made up of cells and their products.
+    *   Collaborating with Schleiden, they jointly formulated the initial foundational **Cell Theory**, establishing the cell as the basic unit of life for both plants and animals.
+*   **Rudolf Virchow (1855)**:
+    *   A German physician and pathologist.
+    *   He further expanded and refined the cell theory by introducing the profound concept: _"Omnis cellula e cellula,"_ which translates to "all cells arise from pre-existing cells."
+    *   This groundbreaking statement unequivocally refuted the prevailing idea of spontaneous generation and established cellular continuity as a fundamental principle of biology.
 
-• Theodor Schwann (1839) said that, all animals and plants are made up of cells. Cell theory is not applicable for viruses.
+### Modern Cell Theory Postulates
 
-THE CELL Cell is the basic structural and functional unit of all the living organisms. The word ‘cell’ comes from the Latin word cellula which means a ‘small room’.
+The refined and widely accepted modern cell theory rests upon three core, universally acknowledged principles:
 
-• According to Virchow ‘new cells arise from pre-existing cells’, i.e. Omnis cellula-e-cellula.
+1.  **All known living organisms are composed of one or more cells.** This principle emphasizes the ubiquitous nature of cells as the basic building blocks of all life forms, from unicellular bacteria to complex multicellular organisms.
+2.  **The cell is the basic structural and functional unit of all living organisms.** This highlights that the cell is the smallest entity capable of carrying out all fundamental life processes, such as metabolism, reproduction, and response to stimuli.
+3.  **All cells arise from pre-existing cells by division.** This postulate underscores the continuity of life and the mechanism of cell proliferation, ensuring the accurate transmission of genetic material from parent to daughter cells.
 
-• Living organisms may consist of one or more cells, according to this there are two types of organisms, i.e. unicellular (composed of single cell) and multicellular (composed of many cells).
+## Fundamental Cell Structure
 
-• Smallest cell is mycoplasma or Pleuropneumonia Like Organism (PPLO). Largest cell is ostrich’s egg and the longest cell is nerve cell.
+Despite the immense diversity in size, shape, and function among different cell types, all cells share a set of common fundamental components that enable them to carry out their essential life processes. These core structures include:
 
-Cell • The smallest human cell is the red blood cell. Bacteria was discovered by AV Leeuwenhoek. Living parts of cell Non-living parts of cell Cell wall • First compound microscope was invented by Jansen and Jansen. Cell membrane Cytoplasm Vacuoles • Electron microscope was invented by Knoll and Ruska.
+*   ### Cell Wall
+    A rigid, non-living, and highly permeable protective layer found external to the cell membrane in plant cells, fungi, bacteria, and algae. Its primary functions include providing structural support, maintaining the characteristic shape of the cell, and protecting the cell from mechanical stress and excessive water uptake (osmotic lysis). Its composition varies: primarily **cellulose** in plants, **chitin** in fungi, and **peptidoglycan** in bacteria. It is **crucially absent in all animal cells.**
 
-Fat droplets • Vital stains are used for staining living cells or living parts of cell, e.g. Janus green for mitochondria. Cell organelles Nucleus Granules Waste materials • Protoplasm is the living component of cell that includes cytoplasm, cell organelles and nucleoplasm. Endoplasmic reticulum Mitochondria Golgi bodies Lysosomes Ribosomes Plastids Centrosomes • Cytoplasm term was given by Strasburger.
+*   ### Cell Membrane (Plasma Membrane)
+    The innermost boundary of the cell envelope, a vital structure present in all known cells. It is a selectively permeable (or semipermeable) biological membrane that meticulously separates the interior of the cell (cytoplasm) from the external environment. Structurally, it is best described by the **Fluid Mosaic Model**, comprising a **phospholipid bilayer** with various embedded and peripheral proteins. It regulates the passage of substances into and out of the cell, plays a critical role in cell-to-cell communication and recognition, and facilitates various transport mechanisms.
 
-GENERAL SCIENCE • Mitochondria, chloroplast, nucleus are double-membraned structures. (ii) Eukaryotic cell It is a complex cell with double membrane bound nucleus, e.g. plant and animal cells. Eukaryotic organisation is seen in all the protists, plants, fungi and animals.
+*   ### Cytoplasm
+    The entire content enclosed within the cell membrane, excluding the nucleus in eukaryotic cells. It consists of two main components:
+    *   The **cytosol**: A jelly-like, semi-fluid matrix in which various organelles are suspended.
+    *   The diverse **cell organelles**: Specialized structures that perform specific cellular functions.
+    The cytoplasm is the primary site for numerous crucial metabolic reactions, including glycolysis, and serves as the medium for the suspension, movement, and interaction of cellular materials and organelles.
 
-• Lysosome, Golgi body, Endoplasmic Reticulum (ER) are single-membraned structures.
+*   ### Nucleus
+    The largest and most prominent membrane-bound organelle in most eukaryotic cells. It serves as the control center of the cell, housing the cell's entire genetic material (DNA) organized into linear structures called **chromosomes**. The nucleus meticulously controls cell growth, metabolism, and reproduction by regulating gene expression. It is enclosed by a double membrane known as the **nuclear envelope**, which is perforated by **nuclear pores** that regulate the bidirectional transport of macromolecules between the nucleus and the cytoplasm. Within the nucleus, a dense structure called the **nucleolus** is responsible for the synthesis of ribosomal RNA (rRNA) and the assembly of ribosomes.
 
-Differences between Prokaryotic and Eukaryotic Cell • Centrosome, flagella, ribosome are non-membranous in structure. Prokaryotic cell Eukaryotic cell • Glycogen is referred to as animal starch. Some Discoveries about the Cell Simplest and primitive in nature.
+## Key Cell Organelles and Their Functions
 
-Advanced and comparatively complex in nature.
+Eukaryotic cells are characterized by the presence of various specialized membrane-bound organelles, each performing distinct and vital functions that contribute to the overall cellular metabolism and homeostasis:
 
-Nucleus is absent.
+*   ### Mitochondria
+    Often referred to as the **"powerhouse of the cell,"** mitochondria are the primary sites of **cellular respiration**. They are responsible for generating the majority of the cell's supply of adenosine triphosphate (ATP), the universal energy currency, through the intricate oxidation of nutrient molecules. Characterized by a double membrane, the inner membrane is extensively folded into structures called **cristae** to dramatically increase its surface area, enhancing ATP production. The internal compartment, the **matrix**, contains enzymes crucial for the Krebs cycle and fatty acid oxidation.
 
-Nucleus is present.
+*   ### Endoplasmic Reticulum (ER)
+    A vast and intricate network of interconnected membranes that form sacs (called **cisternae**) and tubules extending throughout the cytoplasm. It serves as a supporting skeletal framework for the cell and plays diverse, critical roles in cellular processes, particularly in protein and lipid synthesis. The ER is notably absent in mature mammalian red blood cells.
+    *   **Rough Endoplasmic Reticulum (RER)**: Characterized by the presence of ribosomes studded on its cytoplasmic surface. The RER is primarily involved in the synthesis, folding, modification (e.g., glycosylation), and quality control of proteins destined for secretion, insertion into membranes, or delivery to other organelles (like the Golgi apparatus or lysosomes).
+    *   **Smooth Endoplasmic Reticulum (SER)**: Lacks ribosomes on its surface. The SER is mainly involved in crucial metabolic processes such as lipid and steroid synthesis, detoxification of drugs and metabolic poisons (especially in liver cells), and the storage and release of calcium ions, which are vital for muscle contraction and other cellular signaling pathways.
 
-Scientist Discovery Robert Brown (1831) Nucleus Membrane bound cell organelles are absent. Membrane bound cell organelles are present. Purkinje (1837) Named protoplasm to be a content of cell Single naked chromosome is present.
+*   ### Ribosomes
+    Dense, small, and non-membrane-bound particles composed of ribosomal RNA (rRNA) and ribosomal proteins. They are the universal sites of **protein synthesis (translation)** in all living cells. Ribosomes can be found freely floating in the cytoplasm (synthesizing proteins for intracellular use) or attached to the outer surface of the RER (synthesizing proteins destined for secretion or membrane insertion).
 
-Many chromosomes are present.
+*   ### Lysosomes
+    Tiny, spherical, membrane-bound sacs containing a potent cocktail of approximately 50 different **hydrolytic enzymes** (acid hydrolases), which are optimally active in acidic environments. They are responsible for crucial intracellular digestion, breaking down waste materials, cellular debris, worn-out or damaged organelles (a process called **autophagy**), and foreign invaders (like bacteria through **phagocytosis**). Due to their capacity to digest cellular components, they are often dramatically referred to as the **"suicide bags"** of the cell, capable of initiating programmed cell death (**apoptosis**) by releasing their enzymes into the cytoplasm.
 
-W Flemming (1882) Observed mitotic cell division, splitting of chromosome and named the term chromatin Cell division is direct.
+*   ### Chloroplasts
+    Specialized, oval-shaped organelles found exclusively in plant cells and other eukaryotic organisms (e.g., algae) capable of photosynthesis. These sac-like, double-membraned structures contain photosynthetic pigments, primarily **chlorophyll** (which imparts the green color to plants) and carotenoids. Chloroplasts are the definitive **sites of photosynthesis**, the process by which light energy is converted into chemical energy (in the form of glucose and other organic compounds). They are aptly referred to as the **"kitchens of the cell"** due to their role in synthesizing food.
 
-Cell division by mitosis or meiosis.
+*   ### Golgi Apparatus (Golgi Bodies/Complex)
+    A stack of flattened, membrane-bound sacs called **cisternae**, typically located near the endoplasmic reticulum. The Golgi apparatus functions as the cell's main processing, packaging, and shipping center. It plays a pivotal role in modifying, sorting, and packaging proteins and lipids synthesized in the ER into membrane-bound vesicles for secretion outside the cell or for delivery to other intracellular organelles. It is also involved in the synthesis of certain cell wall components (in plants) and plasma membrane lipids.
 
-F Miescher Discovered the nucleic acid C Benda (1897) Mitochondria Structure of Animal and Plant Cell Beneden and Boveri (1887) The chromosome number is constant in a species Animal and plant cell structures are described below Camillo Golgi (1891) Golgi body Microvilli WS Sutton (1902) Significance of reductional division F Meves (1904) Mitochondria in plant cell JB Farmer and Moore (1905) Named meiosis Plasma membrane Golgi apparatus FA Johanssen (1909) Chiasma formation Lysosome TH Morgan (1933) Role of chromosomes in heredity Centriole Smooth endoplasmic reticulum Ribosomes Mitochondrion Nuclear envelope Nucleus Rough endoplasmic reticulum Types of Cells On the basis of the organisation, complexity and variety, all cells can be grouped into two types: (i) Prokaryotic cell It is a simpler cell, lacking a true nucleus, i.e. nuclear membrane is absent in these cells, e.g. bacteria, mycoplasma, etc. Nucleolus Cytoplasm Animal cell Bacteria are the microscopic prokaryotic organisms whose single cell have neither a membrane enclosed nucleus nor other membrane enclosed organelles like mitochondria and chloroplasts.
+*   ### Centrioles
+    Hollow, cylindrical structures composed of a specific arrangement of nine triplets of microtubules, typically found in pairs oriented perpendicularly within the **centrosome** of animal cells (and some lower plant forms). They play a crucial role in **cell division** by organizing the microtubule-based spindle fibers that are essential for the accurate separation of chromosomes during mitosis and meiosis. Centrioles are also involved in the formation of basal bodies, which are precursors to cilia and flagella.
 
-Rough endoplasmic reticulum Nucleolus Lysosome G The bacterial cell wall is strong and rigid. Chloroplast Smooth endoplasmic reticulum Nucleus Golgi apparatus Microtubule G Murein or peptidoglycan or mucopeptide is present in the cell wall.
+## Cell Division: The Cycle of Life
 
-Bacteria are mainly of two types:
+Cell division is a fundamental and precisely regulated biological process by which a parent cell divides into two or more daughter cells. It is absolutely essential for the growth and development of multicellular organisms, the repair and regeneration of damaged tissues, and reproduction in all living organisms. During cell division, complex processes like DNA replication and cell growth must be meticulously coordinated to ensure the accurate and equitable distribution of genetic material and the formation of healthy progeny cells with an intact and complete genome.
 
-(i) Archaebacteria They are obligate anaerobes.
+### Mitosis: Somatic Cell Division
 
-(ii) Eubacteria They are true bacteria.
+Mitosis is a type of eukaryotic cell division that results in two genetically identical daughter cells, each possessing the same number and kind of chromosomes as the original parent nucleus. This process is characteristic of ordinary tissue growth, development, and repair, primarily occurring in somatic (body) cells.
 
-Some examples are as follow:
+The four main continuous phases of mitosis are:
 
-Nuclear envelope G Staphylococcus aureus causes boils, pneumonia, food poisoning and other diseases. Plasma membrane Middle lamella G Staphylococcus thermophilus gives yoghurt its creamy flavour. Cell wall Peroxisome G S. lactis often added to milk for the production of cheese.
+1.  **Prophase**: The long, thread-like chromatin material condenses and coils tightly, becoming visible as distinct chromosomes, each consisting of two sister chromatids joined at the centromere. The nuclear membrane and nucleolus begin to fragment and disappear, respectively, and the spindle apparatus (composed of microtubules) starts to form from the centrosomes, which migrate towards opposite poles of the cell.
+2.  **Metaphase**: This is a short but crucial phase where the condensed chromosomes achieve their maximum condensation and precisely align along the equatorial plane of the cell, forming what is known as the **metaphase plate**. Spindle fibers (specifically, kinetochore microtubules) emanating from each pole attach securely to the kinetochore region of each sister chromatid.
+3.  **Anaphase**: The most dynamic phase, characterized by the synchronized separation of sister chromatids. The centromeres divide, and the sister chromatids (now considered individual chromosomes) are rapidly pulled apart towards opposite poles of the cell by the shortening of the kinetochore microtubules. Concurrently, the cell begins to elongate.
+4.  **Telophase**: Chromosomes arrive at the respective poles of the cell and begin to decondense, reverting to their diffuse chromatin state. New nuclear envelopes reform around the two separated sets of chromosomes, and nucleoli reappear within each nascent nucleus. **Cytokinesis**, the physical division of the cytoplasm, usually commences during late anaphase and overlaps significantly with telophase, ultimately resulting in the formation of two distinct and separate daughter cells.
 
-Cytoplasm Ribosomes Mitochondrion Plant cell Differences between Plant and Animal Cell Plant cell Animal cell Cell wall is present in plant cell.
+### Meiosis: Reproductive Cell Division
 
-Cell wall is usually absent.
+Meiosis is a specialized type of cell division that is critical for sexual reproduction. It involves two successive rounds of division, ultimately reducing the chromosome number by half (from diploid, 2n, to haploid, n) and creating four haploid cells, each of which is genetically distinct from the parent cell and from each other. This process produces gametes (sperm and egg cells) in animals and spores in plants and fungi.
 
-Cell Membrane or Plasmalemma It is the innermost layer of cell envelope that is semipermeable in nature and is responsible for the interaction of cell with the outside environment.
+*   **Meiosis I (Reductional Division)**: In this first division, homologous chromosomes (pairs of chromosomes, one inherited from each parent) separate from each other. This is the stage where the chromosome number is halved, reducing the cell from diploid (2n) to haploid (n) in terms of chromosome sets.
+*   **Meiosis II (Equational Division)**: This second division is similar to mitosis. Sister chromatids within each haploid cell separate, resulting in four haploid daughter cells. No further reduction in chromosome number occurs during this stage.
 
-Plastids are found.
-
-Plastids are usually absent.
-
-• It consists of protein (52%), lipid (40%) and carbohydrate (5-10%). It is elastic in nature because of the presence of lipids.
-
-Centrioles are found in some algae and fungi.
-
-Centrioles are found in all cells.
-
-• The most popular theory ‘fluid mosaic model’ of membrane structure was given by Singer and Nicolson.
-
-Big vacuoles are present but they are less in number. Vacuole is very small in size but present in more number.
-
-• It states that integral and peripheral proteins are found in cell membrane.
-
-Cell shape is usually round or irregular.
-
-Cell shape is rectangular and fixed.
-
-• Pinocytosis (cell drinking) In this process, cells ingest extracellular fluid.
-
-• Phagocytosis (cell eating) Engulfing and digestion of extracellular solid food by cell.
-
-Composition of Cell Representation of the chemical composition of living tissue is as follows: Component The total cellular mass in % Component The total cellular mass in % Water 70-90% Lipids 2% Proteins 10-15% Nucleic acids 5-7% Carbohydrates 3% Ions 1% Nucleus The term ‘Nucleus’ is given by Waldeyer (1888). Nucleus is a specialised largest principal cell organelle of the cell, which contains all genetic information for controlling all essential processes related to metabolism and transmission. It was first discovered by Robert Brown in 1831.
-
-• Most of the eukaryotic cells are uninucleate except Paramecium, which is binucleate.
-
-Cell Organelles There are some organelles as follow:
-
-• Nucleus is made up of nuclear membrane, nucleoplasm, nucleolus, chromatin. Chromatin is composed of nucleic acid and protein (histone and non-histone chromosome).
-
-• Chromosome of eukaryotic cell is composed of DNA + histone protein + some amount of RNA. Normally each cell contains 23 pair of chromosomes in humans.
-
-Cell Wall It is a rigid and solid covering that gives shape and strong structural support to the cell. It is a non-living structure, which forms the outer covering of the plasma membrane in plants and fungi, but is absent in animal cells. Cell wall consists of following parts:
-
-• Nucleic acid, the genetic material was discovered by Friedrich Miescher. The term ‘Nucleic acid’ was given by Altman.
-
-• Middle lamella It is composed of calcium pectate (chief component) and magnesium pectate.
-
-• Primary cell wall It is composed of cellulose, hemicellulose and lignin. Rigidity of cell wall is due to lignin.
-
-Chromosome During the cell division, chromatin shrinks (compressed) and gets divided into various smaller, thick and consolidated form, known as chromosomes. Chromosome Number in Some Organisms • Secondary cell wall It is composed of cellulose and hemicellulose.
-
-• Tertiary cell wall It is present in tracheids of gymnosperms.
-
-Organisms Chromosome number in each body cell Organisms Chromosome number in each body cell • Bacterial cell wall is composed of peptidoglycan or murein. Bacterial cell wall contains D-amino acids. Roundworm Mouse • Fungal cell wall is composed of chitin. Mosquito Rat Drosophila Human beings Functions of Cell Wall Garden pea Potato Onion Dog • It helps in preventing cell from bursting or collapsing and allows the material to pass in and out of the cell.
-
-Maize Pigeon Frog Gold fish • It wards off the attack of pathogens like viruses, bacteria, fungi and protozoans. Rice Amoeba Sunflower GENERAL SCIENCE Study of Cell Organelles Cell organelle Nature/Composition Function Present (P)/Absent (A) Animal cell Plant cell Cell membrane Double layer of lipid molecules with proteins molecules, differentially permeable. Gives shape to the cell, maintains distinct composition of the cell.
-
-Gives strength and rigidity to the cell. Cell wall Freely permeable, made up of fibrous polysaccharide (cellulose). Bacteria and unicellular eukaryotes have peptidoglycan compound in their cell wall. Cytoplasm Consists of aqueous ground substance, having starch, glycogen, etc.
-
-Provides medium for suspension of materials and cell organelles. Vacuoles Fluid-filled spaces without any definite shape and size.
-
-Larger in plant cell.
-
-Store water, minerals, salts, food pigments, wastes, etc. Nucleus Oval-shaped, bounded by double membrane having pores possess genetic material. Controls the metabolic activities, regulates cell division, synthesises and stores proteins, also called as the controller of the cells.
-
-Mitochondria Bounded by a double membrane, found in cytoplasm.
-
-They contain DNA also.
-
-Cellular respiration or oxidation of food, ATP is stored in it, so called as powerhouse of the cell. Endoplasmic Reticulum (ER) Membranous network of fluid-filled with lumen with or without ribosomes, absent in RBCs. Forms supporting skeletal framework of the cell also called skeleton of the cell.
-
-Play a vital role in protein synthesis also called protein factory of the cell. Ribosomes Dense and spherical particles, found either attached to endoplasmic reticulum or freely in cytoplasm. It is the smallest non-membranous organelles. Lysosomes Tiny spherical bag-like structures found in cytoplasm with hydrolytic enzymes.
-
-Helps in intracellular digestion, digest worn out organelles, also called suicidal bags of the cell. Sites of photosynthesis, give colour to organ, also called as kitchen of the cell. Chloroplasts Sac-like double walled with protein matrix generally called plastids, contain photosynthetic pigments called chlorophyll and carotenoids. These also contains DNA.
-
-Golgi bodies Consist of tubules and vesicles. Secrete hormones, enzymes, involved in synthesis of cell wall, plasma membrane, etc. Centriole Hollow and cylindrical structures made up of microtubules.
-
-Helps in cell division in animal cell.
-
-Microtubules Tubulin protein Spindle formation CELL CYCLE • Cell cycle is an orderly sequence of events or stages by which a cell duplicates its genome, synthesise the other constituents of the cell and eventually divides into two daughter cells. It is a cyclic process, which involves cell growth and cell division.
-
-• Cell division is an essential process in all living organisms. The mode of cell division is fundamentally similar in all organisms. During cell division, the processes like DNA replication and cell growth must take place in a sequential coordinated manner to ensure the correct division and formation of progeny cells with intact genome. Cell cycle involves two phases, i.e. interphase followed by M-phase.
-
-(i) G1-phase (Gap 1) It corresponds to the duration between the mitosis (M-phase) and initiation of replication of DNA. Cell grows, becomes metabolically active, but does not undergo DNA replication. Some time after G1-phase cell may enter S-phase and continue the cell cycle or it may enter into G0-phase. In G0-phase the cells leave cell cycle. (ii) S-phase (Synthesis) It is known to be the phase, in which actual synthesis or replication of DNA takes place. In case of animal cell, during S-phase DNA replication begins inside the nucleus, while the duplication of centrioles takes place in the cytoplasm.
-
-(iii) G2-phase (Gap 2) This phase is also called post-synthetic or pre-mitotic phase. During this stage, the synthesis of DNA stops and proteins required for M-phase are being synthesised, while the growth of the cells continues. It prepares the cell to undergo divisions.
-
-2. M-phase M-phase is the actual phase of cell division. It may occur in two way depending upon the type of cell, it is taking place in, i.e. mitosis (vegetative cell) or meiosis (generative cell).
-
-1. Interphase It is the period between the end of one cell division to the beginning of the next cell division (i.e. between true successive M-phase). Interphase is further divided into following three substages on the basis of various synthetic activity.
-
-(A) Mitosis (ii) Metaphase-I Lining of chromosomes in the middle. Formation of spindle apparatus takes place and each centromere is joined by chromosomal fibres. (iii) Anaphase-I Separation of homologous chromosomes (disjunction) to form two cells with haploid number of the chromosomes.
-
-(iv) Telophase-I This is the last stage of meiosis-I, two cells with n number of chromosomes are formed. A type of cell division, in which chromosomes replicate themselves and get equally distributed into daughter nuclei, i.e. the chromosome number in the parental and the progeny becomes same.
-
-The four phases of mitosis are:
-
-(i) Prophase Chromosome deviation in chromatids starts and nuclear membrane and nucleolus disappear. (ii) Metaphase Chromosomes line up in the middle and spindle fibres from centriole connect to each chromatid (half of chromosome). (iii) Anaphase Chromatids are pulled apart to separate poles and the membrane begins to pinch off in the middle.
-
-(iv) Telophase Complete division of cytoplasm (cytokinesis) and two cells are formed. Two daughter cells, which are formed by mitosis have same/equal number of chromosomes. It results in formation of somatic cells. (B) Meiosis Meiosis-II It is very similar to mitosis. (i) Prophase-II The shortening and thickening of the chromatids.
-
-(ii) Metaphase-II Lining of chromosomes in the middle. (iii) Anaphase-II Separation of chromosomes into chromatids. (iv) Telophase-II Uncoiling and lengthening of the chromosomes, four daughter cells with haploid set of chromosomes are formed.
-
-Differences between Mitosis and Meiosis Mitosis Meiosis A type of cell division that results in the formation of four daughter cells each with half the chromosome number of the parent cell. In the process of meiosis, there are two main stages:
-
-Found in somatic cells.
-
-Found in diploid reproductive cells.
-
-Forms two identical diploid cells.
-
-Forms four haploid cells.
-
-Meiosis-I Every chromosome behaves independently.
-
-Homologous chromosomes show pairing.
-
-Chromosome number remains constant.
-
-Chromosome number becomes half.
-
-Crossing over does not occur.
-
-Crossing over occurs.
-
-IMPORTANT POINTS G Chromoplasts are yellow, orange and red coloured.
-
-G Leucoplasts are colourless plastids.
-
-G Golgi bodies are absent in bacteria, blue-green algae, mature sperm and RBCs. G Dinomitosis is failure of meiosis-II to occur after meiosis-I. It solely occurs in the class–Dinophyceae, a class of Alga with chlorophyll-c.
-
-It is further divided into four phases:
-
-(i) Prophase-I The longest phase of meiosis-I.
-
-It is composed of five substages:
-
-(a) Leptotene Chromatins condense to form chromosome. (b) Zygotene Pairing of homologous chromosomes called synapsis, in this phase, synaptonemal complex is formed. (c) Pachytene Crossing over between non-sister chromatids.
-
-(d) Diplotene Longest duration phase, in which chiasmata formation takes place. (e) Diakinesis It involves slipping of chiasmata called terminalisation. CLASSIFICATION OF PLANTS AND ANIMALS • Classification means the ordering of organisms into groups. The branch of science that deals with the principles and procedures of biological classification is called taxonomy.
-
-TAXONOMY The classification results in an organised system, which is essential for the naming and cataloging of future specimens and reflects inter-relationships between living organisms. Biologists use method of classification to understand the evolutionary history and it provides an organised way of studying characteristics of living organisms.
-
-• Carolus Linnaeus is the Father of Taxonomy. ‘Systema Naturae’ and ‘Species Plantarum’ books are written by Carolus Linnaeus.
-
-
-</div>
-
-
+Meiosis also introduces significant genetic variation through two primary mechanisms: **crossing over** (exchange of genetic material between homologous chromosomes during prophase I) and the **independent assortment of chromosomes** (random alignment of homologous pairs during metaphase I), both of which are crucial for the genetic diversity of life.
 
 ## Visual Summary & Diagrams
 
@@ -215,19 +111,19 @@ TAXONOMY The classification results in an organised system, which is essential f
 ### Plant vs Animal Cell Comparison
 ```mermaid
 flowchart TD
-    Cell((Eukaryotic Cell))
+    Cell["(Eukaryotic Cell"])
     Cell --> Plant[Plant Cell]
     Cell --> Animal[Animal Cell]
     
-    Plant --> CW(Cell Wall - Present)
-    Plant --> P(Plastids/Chloroplasts - Present)
-    Plant --> V(Vacuole - Large, Central)
-    Plant --> C(Centrioles - Absent)
+    Plant --> CW["Cell Wall - Present"]
+    Plant --> P["Plastids/Chloroplasts - Present"]
+    Plant --> V["Vacuole - Large, Central"]
+    Plant --> C["Centrioles - Absent"]
     
-    Animal --> CW2(Cell Wall - Absent)
-    Animal --> P2(Plastids - Absent)
-    Animal --> V2(Vacuole - Small or Absent)
-    Animal --> C2(Centrioles - Present)
+    Animal --> CW2["Cell Wall - Absent"]
+    Animal --> P2["Plastids - Absent"]
+    Animal --> V2["Vacuole - Small or Absent"]
+    Animal --> C2["Centrioles - Present"]
     
     classDef plantFill fill:#166534,stroke:#22c55e,stroke-width:2px,color:#fff;
     classDef animalFill fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fff;
@@ -235,14 +131,10 @@ flowchart TD
     class Animal,CW2,P2,V2,C2 animalFill;
 ```
 
-
-
-## Visual Summary: Cellular Biology
-
 ### Prokaryotic vs Eukaryotic Cell
 ```mermaid
 mindmap
-  root((Cells))
+  root["(Cells"])
     Prokaryotic
       No true nucleus
       No membrane-bound organelles
@@ -258,12 +150,12 @@ mindmap
 ### Plant vs Animal Cell
 ```mermaid
 flowchart LR
-    Plant((Plant Cell)) --> CellWall[Cell Wall Present]
+    Plant["(Plant Cell"]) --> CellWall[Cell Wall Present]
     Plant --> Plastids[Plastids / Chloroplasts Present]
     Plant --> Vacuole[Large Central Vacuole]
     
-    Animal((Animal Cell)) --> NoWall[No Cell Wall]
+    Animal["(Animal Cell"]) --> NoWall[No Cell Wall]
     Animal --> NoPlastids[No Plastids]
     Animal --> SmallVacuole[Small or No Vacuoles]
     Animal --> Centrioles[Centrioles Present]
-```
+```\n\n

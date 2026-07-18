@@ -1,25 +1,39 @@
 const fs = require('fs');
 
-console.log('Loading question banks and fixing leakages...');
+console.log('Loading question banks and fixing leakages (Hierarchical)...');
 
-let gsPool = [];
-let englishPool = [];
-let mathsNdaPool = [];
-let mathsCdsAfcatPool = [];
+const hierarchicalBank = {
+    "General Studies": {},
+    "English": {},
+    "Mathematics (NDA)": {},
+    "Mathematics (CDS/AFCAT)": {}
+};
 
-// Helper to check for comprehension
+// Helper to check for comprehension and Data Interpretation (DI)
 function isComprehension(q) {
     if ((q.topic || '').toLowerCase() === 'reading_comprehension') return true;
     if ((q.topicId || '').toLowerCase() === 'reading_comprehension') return true;
     const s = (q.question || "").toLowerCase();
-    return s.includes('passage') || s.includes('comprehension') || s.includes('read the following') || s.includes('based on the');
+    
+    // Standard comprehension
+    if (s.includes('passage') || s.includes('comprehension') || s.includes('read the following') || s.includes('based on the given') || s.includes('based on the above')) return true;
+    
+    // Data interpretation
+    if (s.includes('table shows') || s.includes('given table') || s.includes('following table') || s.includes('pie chart') || s.includes('bar graph') || s.includes('line graph') || s.includes('study the table')) return true;
+    
+    // AFCAT DI Specific Leakage Catchers
+    if (s.includes('jails with highest') || s.includes('trained convicts') || s.includes('placement rate') || s.includes('percentage of trained') || s.includes('more than half of the')) return true;
+    
+    // Too long (often missing paragraph context)
+    if (s.length > 500) return true;
+
+    return false;
 }
 
-// Helper to determine subject robustly
-function determineSubject(q, origSubject, exam) {
+// Helper to determine core domain robustly
+function determineDomain(q, origSubject, exam) {
     const s = (q.question || "").toLowerCase();
     
-    // Check topics directly
     const mathTopics = ['arithmetic', 'algebra', 'geometry', 'trigonometry', 'statistics', 'numerical_ability', 'mathematics', 'maths'];
     const engTopics = ['grammar', 'vocabulary', 'sentence_structure', 'english', 'idioms', 'synonyms', 'antonyms'];
     const gsTopics = ['physics', 'chemistry', 'biology', 'history', 'geography', 'polity', 'current_affairs', 'general_awareness', 'gs', 'gk', 'gat', 'reasoning'];
@@ -28,13 +42,17 @@ function determineSubject(q, origSubject, exam) {
     
     if (mathTopics.includes(topicMatch)) return 'maths';
     if (engTopics.includes(topicMatch)) return 'english';
-    if (gsTopics.includes(topicMatch) && topicMatch !== 'mixed') {
-        // Even if it claims GS, we must double check for leaked math keywords
-        // Fallthrough to leakage checker
-    }
     
     // Leakage checker: Look for Math/English patterns in GS or mixed
-    const mathWords = ['value of', 'equation', 'matrix', 'determinant', 'triangle', 'ratio of', 'average of', 'simple interest', 'compound interest', 'profit and loss', 'speed of', 'velocity of', 'work and time', 'probability', 'permutation', 'integral', 'derivative', 'sine', 'cosine', 'tan ', 'sec ', 'cosec ', 'cot ', 'logarithm', 'quadratic', 'polynomial', 'circumference', 'algebra', 'what is the sum', 'population of two'];
+    const mathWords = [
+        'value of', 'equation', 'matrix', 'determinant', 'triangle', 'ratio of', 'average of', 
+        'simple interest', 'compound interest', 'profit and loss', 'speed of', 'velocity of', 
+        'work and time', 'probability', 'permutation', 'integral', 'derivative', 'sine', 'cosine', 
+        'tan ', 'sec ', 'cosec ', 'cot ', 'logarithm', 'quadratic', 'polynomial', 'circumference', 
+        'algebra', 'what is the sum', 'population of two', 'digit number', 'cost price', 'selling price',
+        'discount of', 'circle of radius', 'area of', 'perimeter of', 'volume of', 'cylinder', 'sphere',
+        'cone', 'cuboid', 'cube', 'diagonal', 'vertex', 'polygon', 'arithmetic progression', 'geometric progression'
+    ];
     for(let w of mathWords) {
         if (s.includes(w)) return 'maths';
     }
@@ -49,14 +67,48 @@ function determineSubject(q, origSubject, exam) {
         if (s.includes(w)) return 'english';
     }
     
-    // Default fallback
-    if (topicMatch === 'mixed') {
-        return 'gs';
-    }
-    
+    if (topicMatch === 'mixed') return 'gs';
     if (mathTopics.includes(origSubject)) return 'maths';
     if (engTopics.includes(origSubject)) return 'english';
     return 'gs';
+}
+
+function getHierarchy(domain, q, origSubject) {
+    let subject = "Mixed";
+    let chapter = "General Questions";
+    
+    let tid = (q.topicId || '').trim();
+    if (tid === 'mixed' || tid === 'unknown') tid = '';
+
+    if (domain === "General Studies") {
+        const gsSubjects = ['history', 'geography', 'polity', 'economy', 'physics', 'chemistry', 'biology', 'current_affairs', 'general_knowledge'];
+        if (gsSubjects.includes(origSubject)) {
+            subject = origSubject.charAt(0).toUpperCase() + origSubject.slice(1).replace(/_/g, ' ');
+            chapter = (tid && tid !== origSubject) ? tid : "Mixed " + subject;
+        } else {
+            subject = "Mixed GS";
+            chapter = tid ? tid : "Mixed Questions";
+        }
+    } else if (domain === "English") {
+        const engSubjects = ['grammar', 'vocabulary', 'sentence_structure'];
+        if (engSubjects.includes(origSubject)) {
+            subject = origSubject.charAt(0).toUpperCase() + origSubject.slice(1).replace(/_/g, ' ');
+            chapter = (tid && tid !== origSubject) ? tid : "Mixed " + subject;
+        } else {
+            subject = "Mixed English";
+            chapter = tid ? tid : "Mixed Questions";
+        }
+    } else {
+        // Maths
+        subject = "Mixed Maths";
+        chapter = tid ? tid : "Mixed Questions";
+    }
+    
+    // Clean up chapter name formatting (e.g. "Ancient_India_Core_and_MCQs" -> "Ancient India")
+    chapter = chapter.replace(/_/g, ' ').replace(/Core and MCQs/gi, '').trim();
+    if (!chapter) chapter = "General Questions";
+    
+    return { subject, chapter };
 }
 
 function addQuestion(q, origSubject, examStr) {
@@ -64,24 +116,31 @@ function addQuestion(q, origSubject, examStr) {
     if (isComprehension(q)) return;
     
     let exam = examStr || q.exam || 'ALL';
-    let subject = determineSubject(q, origSubject, exam);
+    let domainKey = determineDomain(q, origSubject, exam);
     
-    let targetPool = null;
-    if (subject === 'maths') {
-        if (exam.toLowerCase() === 'nda') targetPool = mathsNdaPool;
-        else targetPool = mathsCdsAfcatPool;
-    } else if (subject === 'english') {
-        targetPool = englishPool;
+    let domain = "";
+    if (domainKey === 'maths') {
+        domain = (exam.toLowerCase() === 'nda') ? "Mathematics (NDA)" : "Mathematics (CDS/AFCAT)";
+    } else if (domainKey === 'english') {
+        domain = "English";
     } else {
-        targetPool = gsPool;
+        domain = "General Studies";
     }
     
-    targetPool.push({
+    const { subject, chapter } = getHierarchy(domain, q, origSubject);
+    
+    if (!hierarchicalBank[domain][subject]) {
+        hierarchicalBank[domain][subject] = {};
+    }
+    if (!hierarchicalBank[domain][subject][chapter]) {
+        hierarchicalBank[domain][subject][chapter] = [];
+    }
+    
+    hierarchicalBank[domain][subject][chapter].push({
         question: q.question,
         options: q.options,
         correct: q.correct !== undefined ? q.correct : 0,
         explanation: q.explanation || "Detailed solution is available upon Up-Armouring.",
-        topicId: q.topic || q.topicId || origSubject || "mixed",
         exam: exam
     });
 }
@@ -109,7 +168,6 @@ try {
             });
         } else if (typeof obj === 'object') {
             for (let k in obj) {
-                // Determine more specific subject/topic if we go deeper
                 extractRec(obj[k], exam, k);
             }
         }
@@ -123,39 +181,32 @@ try {
     console.log('Failed to load structured_bank.json', e.message);
 }
 
-// Deduplicate
-function dedupe(pool) {
-    const seen = new Set();
-    const result = [];
-    for (const q of pool) {
-        const text = (q.question || '').trim().toLowerCase();
-        if (!seen.has(text) && text.length > 5) {
-            seen.add(text);
-            result.push(q);
+// Deduplicate inside hierarchy
+let totalCount = 0;
+for (const domain in hierarchicalBank) {
+    for (const subject in hierarchicalBank[domain]) {
+        for (const chapter in hierarchicalBank[domain][subject]) {
+            const pool = hierarchicalBank[domain][subject][chapter];
+            const seen = new Set();
+            const deduplicated = [];
+            
+            for (const q of pool) {
+                const text = (q.question || '').trim().toLowerCase();
+                if (!seen.has(text) && text.length > 5) {
+                    seen.add(text);
+                    deduplicated.push(q);
+                }
+            }
+            hierarchicalBank[domain][subject][chapter] = deduplicated;
+            totalCount += deduplicated.length;
         }
     }
-    return result;
 }
 
-gsPool = dedupe(gsPool);
-englishPool = dedupe(englishPool);
-mathsNdaPool = dedupe(mathsNdaPool);
-mathsCdsAfcatPool = dedupe(mathsCdsAfcatPool);
+console.log('--- After Hierarchical Fixes & Deduplication ---');
+console.log(`Total Questions: ${totalCount}`);
 
-console.log('--- After Fixes & Deduplication ---');
-console.log(`Total GS: ${gsPool.length}`);
-console.log(`Total English: ${englishPool.length}`);
-console.log(`Total Maths (NDA): ${mathsNdaPool.length}`);
-console.log(`Total Maths (CDS/AFCAT): ${mathsCdsAfcatPool.length}`);
-
-const finalObj = {
-    gs: gsPool,
-    english: englishPool,
-    maths_nda: mathsNdaPool,
-    maths_cds_afcat: mathsCdsAfcatPool
-};
-
-const fileContent = `window.EXTRA_QUESTION_BANK = ${JSON.stringify(finalObj, null, 2)};`;
+const fileContent = `window.EXTRA_QUESTION_BANK = ${JSON.stringify(hierarchicalBank, null, 2)};`;
 
 fs.writeFileSync('extra_bank_data.js', fileContent, 'utf8');
-console.log('Successfully written rectified extra_bank_data.js');
+console.log('Successfully written rectified hierarchical extra_bank_data.js');

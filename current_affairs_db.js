@@ -1992,115 +1992,225 @@ window.CURRENT_AFFAIRS_DB = {
       }
     }
   ],
-    "July 2026": [
+  "July 2026": [
     {
-      "id": "jul-26-venezuela-aid",
-      "topic": "Humanitarian Assistance",
-      "text": "India launched **Operation Sahayata** in July 2026, dispatching IAF C-17 Globemaster aircraft carrying 50 tonnes of emergency relief materials and medical teams to earthquake-hit **Venezuela**.",
+      "id": "jul-26-news-1",
+      "topic": "Defence",
+      "text": "The Indian Army introduced the 'VIJAY' (Vidyut, Innovation, Jointness, Agility, and Youth) vision under the leadership of General Dhiraj Seth, the newly appointed 31st Chief of Army Staff, to modernize the force with a focus on technology absorption and self-reliance.",
       "details": {
-        "winner": "India & Venezuela",
-        "award": "Humanitarian Aid",
-        "nationality": "International",
-        "summary": "Demonstrates India's role as a First Responder and Vishwamitra (friend of the world)."
-      },
-      "mcq": {
-        "question": "Under which operation did India send 50 tonnes of emergency relief materials to earthquake-hit Venezuela in July 2026?",
-        "options": [
-          "A) Operation Dost",
-          "B) Operation Maitri",
-          "C) Operation Sahayata",
-          "D) Operation Karuna"
-        ],
-        "answer": "C",
-        "explanation": "Operation Sahayata was initiated to provide relief to Venezuela following a devastating earthquake."
-      }
-    },
-    {
-      "id": "jul-26-drdo-hstdv",
-      "topic": "Defence Technology",
-      "text": "The **Defence Research and Development Organisation (DRDO)** successfully flight-tested the indigenous **Hypersonic Technology Demonstrator Vehicle (HSTDV)** powered by a scramjet engine off the coast of Odisha.",
-      "details": {
-        "winner": "DRDO",
-        "award": "HSTDV Test",
+        "winner": "Indian Army",
+        "award": "VIJAY Vision",
         "nationality": "Indian",
-        "summary": "Crucial step toward developing indigenous hypersonic cruise missiles."
+        "summary": "Focuses on modernization and tech absorption."
       },
       "mcq": {
-        "question": "The DRDO recently flight-tested the HSTDV. What type of engine powers the HSTDV during its hypersonic cruise phase?",
+        "question": "What is the primary focus of the 'VIJAY' vision introduced by General Dhiraj Seth?",
         "options": [
-          "A) Ramjet engine",
-          "B) Scramjet engine",
-          "C) Cryogenic engine",
-          "D) Turbojet engine"
+          "A) Infantry expansion",
+          "B) Technology absorption and jointness",
+          "C) Border troop withdrawal",
+          "D) Import-dependent procurement"
         ],
         "answer": "B",
-        "explanation": "HSTDV is powered by a scramjet engine, which allows supersonic combustion necessary for hypersonic flight."
+        "explanation": "The VIJAY vision emphasizes technology absorption, indigenous production, and jointness."
       }
     },
     {
-      "id": "jul-26-wimbledon",
+      "id": "jul-26-news-2",
       "topic": "Sports",
-      "text": "In Tennis, **Carlos Alcaraz** successfully defended his **Wimbledon Men's Singles** title in July 2026, securing his dominance on grass courts.",
+      "text": "The South African Women's Cricket team secured qualification for the Los Angeles 2028 Olympic Games, marking cricket's historic return to the Olympics after 128 years.",
       "details": {
-        "winner": "Carlos Alcaraz",
-        "award": "Wimbledon Men's Singles",
-        "nationality": "Spanish",
-        "summary": "One of the most prestigious Grand Slam tournaments."
+        "winner": "South African Women's Cricket Team",
+        "award": "Olympic Qualification",
+        "nationality": "South African",
+        "summary": "Cricket returns to the Olympics for LA 2028."
       },
       "mcq": {
-        "question": "Who won the Wimbledon Men's Singles title in July 2026?",
+        "question": "Which women's cricket team recently qualified for the LA 2028 Olympics?",
         "options": [
-          "A) Novak Djokovic",
-          "B) Jannik Sinner",
-          "C) Carlos Alcaraz",
-          "D) Daniil Medvedev"
+          "A) Australia",
+          "B) England",
+          "C) South Africa",
+          "D) India"
         ],
         "answer": "C",
-        "explanation": "Carlos Alcaraz won the Wimbledon Men's Singles championship in July 2026."
+        "explanation": "South Africa secured their spot for the LA 2028 Olympics."
       }
     },
     {
-      "id": "jul-26-indonesia-brahmos",
-      "topic": "Defence Exports",
-      "text": "India and **Indonesia** signed a landmark **$200 million deal** for the export of two batteries of the **BrahMos supersonic cruise missile**, making Indonesia the third international customer.",
+      "id": "jul-26-news-3",
+      "topic": "Space Technology",
+      "text": "Skyroot Aerospace successfully launched its Vikram-1 orbital rocket from Sriharikota in July 2026, marking a significant milestone for India's private space sector.",
       "details": {
-        "winner": "India & Indonesia",
-        "award": "BrahMos Export Deal",
-        "nationality": "International",
-        "summary": "Strengthens defence ties under India's Act East Policy and MAHASAGAR vision."
+        "winner": "Skyroot Aerospace",
+        "award": "Vikram-1 Launch",
+        "nationality": "Indian",
+        "summary": "India's private space sector milestone."
       },
       "mcq": {
-        "question": "Which Southeast Asian country became the third international customer of the BrahMos missile in July 2026?",
+        "question": "Which private Indian company launched the Vikram-1 orbital rocket in July 2026?",
         "options": [
-          "A) Malaysia",
-          "B) Indonesia",
-          "C) Thailand",
-          "D) Singapore"
+          "A) Agnikul Cosmos",
+          "B) Skyroot Aerospace",
+          "C) Bellatrix Aerospace",
+          "D) Dhruva Space"
         ],
         "answer": "B",
-        "explanation": "Indonesia signed a $200 million deal for two BrahMos batteries, joining the Philippines and Vietnam."
+        "explanation": "Skyroot Aerospace successfully launched the Vikram-1."
       }
     },
     {
-      "id": "jul-26-brics-summit",
-      "topic": "International Summits",
-      "text": "The **18th BRICS Summit** was held in **Kazan, Russia** in July 2026, focusing on expanding the use of local currencies for international trade and reforming multilateral institutions.",
+      "id": "jul-26-news-4",
+      "topic": "Polity",
+      "text": "The Monsoon Session of the Parliament began in July 2026, focusing on key economic reforms and the passage of the new Digital Data Protection regulations.",
       "details": {
-        "winner": "BRICS Nations",
-        "award": "18th BRICS Summit",
-        "nationality": "International",
-        "summary": "Key focus on de-dollarization and expanding the alliance."
+        "winner": "Indian Parliament",
+        "award": "Monsoon Session",
+        "nationality": "Indian",
+        "summary": "Focus on data protection and economic reforms."
       },
       "mcq": {
-        "question": "Where was the 18th BRICS Summit held in July 2026?",
+        "question": "The July 2026 Monsoon Session primarily focused on which key regulatory framework?",
         "options": [
-          "A) Johannesburg, South Africa",
-          "B) Kazan, Russia",
-          "C) Beijing, China",
-          "D) New Delhi, India"
+          "A) Agricultural Reforms",
+          "B) Digital Data Protection",
+          "C) Aviation Safety",
+          "D) Maritime Border Laws"
         ],
         "answer": "B",
-        "explanation": "The 18th BRICS Summit was hosted by Russia in the city of Kazan."
+        "explanation": "The session prioritized the passage of new Digital Data Protection regulations."
+      }
+    },
+    {
+      "id": "jul-26-news-5",
+      "topic": "Environment",
+      "text": "Global climate agencies reported extreme 'Marine Heatwaves' across the Indian Ocean in July 2026, threatening coral reefs and disrupting local monsoonal patterns.",
+      "details": {
+        "winner": "Indian Ocean Region",
+        "award": "Marine Heatwaves",
+        "nationality": "Global",
+        "summary": "Severe environmental threat to marine ecosystems."
+      },
+      "mcq": {
+        "question": "Which specific environmental phenomenon in the Indian Ocean threatened coral reefs in July 2026?",
+        "options": [
+          "A) Ocean Acidification",
+          "B) Marine Heatwaves",
+          "C) Tsunamis",
+          "D) Algal Blooms"
+        ],
+        "answer": "B",
+        "explanation": "Marine heatwaves were reported to be exceptionally high in the Indian Ocean."
+      }
+    },
+    {
+      "id": "jul-26-news-6",
+      "topic": "Economy",
+      "text": "India formally extended its Unified Payments Interface (UPI) to Greece, marking a significant step in the internationalization of India's digital public infrastructure.",
+      "details": {
+        "winner": "NPCI International",
+        "award": "UPI in Greece",
+        "nationality": "Indian/Greek",
+        "summary": "UPI expansion in Europe."
+      },
+      "mcq": {
+        "question": "To which European nation was India's UPI formally extended in July 2026?",
+        "options": [
+          "A) France",
+          "B) Greece",
+          "C) Germany",
+          "D) Italy"
+        ],
+        "answer": "B",
+        "explanation": "India extended UPI services to Greece in July 2026."
+      }
+    },
+    {
+      "id": "jul-26-news-7",
+      "topic": "International Relations",
+      "text": "India and Vietnam signed a Mutual Logistics Support Agreement (MLSA) in July 2026, enhancing maritime security cooperation in the Indo-Pacific region.",
+      "details": {
+        "winner": "India & Vietnam",
+        "award": "MLSA Agreement",
+        "nationality": "International",
+        "summary": "Boosts Indo-Pacific maritime security."
+      },
+      "mcq": {
+        "question": "With which Southeast Asian country did India sign a Mutual Logistics Support Agreement in July 2026?",
+        "options": [
+          "A) Philippines",
+          "B) Vietnam",
+          "C) Indonesia",
+          "D) Malaysia"
+        ],
+        "answer": "B",
+        "explanation": "India and Vietnam signed the MLSA to boost maritime cooperation."
+      }
+    },
+    {
+      "id": "jul-26-news-8",
+      "topic": "Awards",
+      "text": "Renowned Indian author Amitav Ghosh was awarded the prestigious Erasmus Prize in July 2026 for his exceptional contribution to literature and climate change awareness.",
+      "details": {
+        "winner": "Amitav Ghosh",
+        "award": "Erasmus Prize",
+        "nationality": "Indian",
+        "summary": "Awarded for literature and climate awareness."
+      },
+      "mcq": {
+        "question": "Which Indian author was awarded the Erasmus Prize in July 2026?",
+        "options": [
+          "A) Salman Rushdie",
+          "B) Arundhati Roy",
+          "C) Amitav Ghosh",
+          "D) Vikram Seth"
+        ],
+        "answer": "C",
+        "explanation": "Amitav Ghosh received the Erasmus Prize for his literary work."
+      }
+    },
+    {
+      "id": "jul-26-news-9",
+      "topic": "Defence",
+      "text": "The Indian Air Force participated in 'Exercise Pitch Black 2026' hosted by the Royal Australian Air Force, deploying Su-30MKI fighters and C-17 transport aircraft.",
+      "details": {
+        "winner": "IAF & RAAF",
+        "award": "Exercise Pitch Black",
+        "nationality": "International",
+        "summary": "Multinational air exercise in Australia."
+      },
+      "mcq": {
+        "question": "Which country hosted 'Exercise Pitch Black 2026' in which the IAF participated?",
+        "options": [
+          "A) USA",
+          "B) UK",
+          "C) Australia",
+          "D) France"
+        ],
+        "answer": "C",
+        "explanation": "Australia hosts the biennial Exercise Pitch Black."
+      }
+    },
+    {
+      "id": "jul-26-news-10",
+      "topic": "Science & Tech",
+      "text": "ISRO successfully conducted the crucial 'Pad Abort Test' for the Gaganyaan mission, demonstrating the safety of the crew escape system under emergency conditions.",
+      "details": {
+        "winner": "ISRO",
+        "award": "Pad Abort Test",
+        "nationality": "Indian",
+        "summary": "Crucial safety test for Gaganyaan."
+      },
+      "mcq": {
+        "question": "What was the purpose of the 'Pad Abort Test' conducted by ISRO in July 2026?",
+        "options": [
+          "A) Satellite deployment",
+          "B) Crew escape system safety",
+          "C) Lunar landing simulation",
+          "D) Solar observation"
+        ],
+        "answer": "B",
+        "explanation": "The Pad Abort Test validates the crew escape system for the Gaganyaan mission."
       }
     }
   ]
