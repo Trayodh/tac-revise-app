@@ -21,7 +21,7 @@ module.exports = async function (req, res) {
     }
     
     const combinedText = (systemInstructionText + " " + promptText).toLowerCase();
-    let targetAI = 'cerebras'; // Default fallback
+    let targetAI = 'gemini'; // Default fallback
     
     // Intelligent Routing
     if (
@@ -32,7 +32,7 @@ module.exports = async function (req, res) {
     ) {
         targetAI = 'gemini';
     } else {
-        targetAI = 'cerebras'; // Use Cerebras for MCQs, notes, flashcards due to invalid Groq Key
+        targetAI = 'gemini'; // Default to gemini everywhere
     }
 
     let aiText = "";
@@ -63,35 +63,7 @@ module.exports = async function (req, res) {
       }
     }
 
-    if (targetAI === 'groq') {
-      const GROQ_KEY = process.env.GROQ_API_KEY || '';
-      if (!GROQ_KEY) return res.status(500).json({ error: 'GROQ_API_KEY is missing' });
-      
-      const groqBody = {
-          model: 'llama-3.3-70b-versatile',
-          messages: messages,
-          temperature: body.generationConfig?.temperature || 0.1,
-          max_tokens: 2000
-      };
-      if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
-
-      const fetchRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-          method: 'POST',
-          headers: {
-              'Content-Type': 'application/json',
-              'Authorization': `Bearer ${GROQ_KEY}`
-          },
-          body: JSON.stringify(groqBody)
-      });
-      
-      if (!fetchRes.ok) {
-         const errText = await fetchRes.text();
-         throw new Error("Groq API Error: " + errText);
-      }
-      const data = await fetchRes.json();
-      aiText = data.choices?.[0]?.message?.content || "";
-      
-    } else if (targetAI === 'cerebras') {
+    if (targetAI === 'cerebras') {
       const CEREBRAS_KEY = process.env.CEREBRAS_API_KEY || '';
       if (!CEREBRAS_KEY) return res.status(500).json({ error: 'CEREBRAS_API_KEY is missing' });
       

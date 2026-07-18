@@ -146,35 +146,7 @@ window.fetch = async function() {
                     aiText = data.choices?.[0]?.message?.content || "";
                     callSuccessful = true;
                 } catch (err) {
-                    console.warn("Cerebras API call failed, falling back to Groq:", err);
-                    targetAI = 'groq';
-                }
-            }
-            
-            if (targetAI === 'groq' && !callSuccessful) {
-                try {
-                    const groqBody = {
-                        model: 'llama-3.3-70b-versatile',
-                        messages: messages,
-                        temperature: reqBody.generationConfig?.temperature || 0.1,
-                        max_tokens: 1500
-                    };
-                    if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
-
-                    const res = await originalFetch('https://api.groq.com/openai/v1/chat/completions', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                            'Authorization': 'Bearer PROCESS_ENV_GROQ_KEY'
-                        },
-                        body: JSON.stringify(groqBody)
-                    });
-                    if (!res.ok) throw new Error("Groq API Error: " + await res.text());
-                    const data = await res.json();
-                    aiText = data.choices?.[0]?.message?.content || "";
-                    callSuccessful = true;
-                } catch (err) {
-                    throw new Error("Groq Fallback Error: " + err.message);
+                    throw new Error("Cerebras Fallback Error: " + err.message);
                 }
             }
             
