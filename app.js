@@ -7476,3 +7476,17 @@ window.updateUserStatus = async function(userIdOrEmail, newStatus) {
   }
   renderAdminDashboard();
 };
+\n
+// Military C2 Clocks
+setInterval(() => {
+    const utcEl = document.getElementById('clock-utc');
+    const istEl = document.getElementById('clock-ist');
+    const now = new Date();
+    
+    if (utcEl) {
+        utcEl.innerText = now.toISOString().substring(11, 19) + ' Z';
+    }
+    if (istEl) {
+        istEl.innerText = now.toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata', hour12: false }) + ' IST';
+    }
+}, 1000);
