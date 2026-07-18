@@ -9,8 +9,13 @@ const originalFetch = window.fetch;
 window.fetch = async function() {
     const url = typeof arguments[0] === 'string' ? arguments[0] : (arguments[0] instanceof Request ? arguments[0].url : '');
     
-    // We removed the web bypass so that web users can also use the Cerebras/Groq interceptor
-    // since the Gemini API key is currently expired.
+    // Web Bypass: Let Vercel handle the API routing using its secure backend 
+    // since Vercel does not inject environment variables into static JS files.
+    // The interceptor is ONLY for Android/Capacitor standalone mode.
+    const isCapacitor = window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform();
+    if (!isCapacitor && url.includes('/api/gemini')) {
+        return originalFetch.apply(this, arguments);
+    }
     
     // Intercept backend Current Affairs calls to serve them completely offline!
     if (url.includes('/api/daily-current-affairs')) {
