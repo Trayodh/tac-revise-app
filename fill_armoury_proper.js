@@ -2,12 +2,7 @@ const fs = require('fs');
 
 console.log('Loading question banks and fixing leakages (Hierarchical)...');
 
-const hierarchicalBank = {
-    "General Studies": {},
-    "English": {},
-    "Mathematics (NDA)": {},
-    "Mathematics (CDS/AFCAT)": {}
-};
+const hierarchicalBank = {};
 
 // Helper to check for comprehension and Data Interpretation (DI)
 function isComprehension(q) {
@@ -81,9 +76,12 @@ function getHierarchy(domain, q, origSubject) {
     if (tid === 'mixed' || tid === 'unknown') tid = '';
 
     if (domain === "General Studies") {
-        const gsSubjects = ['history', 'geography', 'polity', 'economy', 'physics', 'chemistry', 'biology', 'current_affairs', 'general_knowledge'];
+        const gsSubjects = ['history', 'geography', 'polity', 'economics', 'physics', 'chemistry', 'biology', 'current_affairs', 'general_knowledge'];
         if (gsSubjects.includes(origSubject)) {
-            subject = origSubject.charAt(0).toUpperCase() + origSubject.slice(1).replace(/_/g, ' ');
+            if (origSubject === 'current_affairs') subject = 'Current Affairs';
+            else if (origSubject === 'general_knowledge') subject = 'General Knowledge';
+            else if (origSubject === 'economics') subject = 'Economics';
+            else subject = origSubject.charAt(0).toUpperCase() + origSubject.slice(1).replace(/_/g, ' ');
             chapter = (tid && tid !== origSubject) ? tid : "Mixed " + subject;
         } else {
             subject = "Mixed GS";
@@ -95,12 +93,12 @@ function getHierarchy(domain, q, origSubject) {
             subject = origSubject.charAt(0).toUpperCase() + origSubject.slice(1).replace(/_/g, ' ');
             chapter = (tid && tid !== origSubject) ? tid : "Mixed " + subject;
         } else {
-            subject = "Mixed English";
+            subject = "English";
             chapter = tid ? tid : "Mixed Questions";
         }
     } else {
         // Maths
-        subject = "Mixed Maths";
+        subject = "Mathematics";
         chapter = tid ? tid : "Mixed Questions";
     }
     
@@ -129,14 +127,14 @@ function addQuestion(q, origSubject, examStr) {
     
     const { subject, chapter } = getHierarchy(domain, q, origSubject);
     
-    if (!hierarchicalBank[domain][subject]) {
-        hierarchicalBank[domain][subject] = {};
+    if (!hierarchicalBank[subject]) {
+        hierarchicalBank[subject] = {};
     }
-    if (!hierarchicalBank[domain][subject][chapter]) {
-        hierarchicalBank[domain][subject][chapter] = [];
+    if (!hierarchicalBank[subject][chapter]) {
+        hierarchicalBank[subject][chapter] = [];
     }
     
-    hierarchicalBank[domain][subject][chapter].push({
+    hierarchicalBank[subject][chapter].push({
         question: q.question,
         options: q.options,
         correct: q.correct !== undefined ? q.correct : 0,
@@ -183,23 +181,21 @@ try {
 
 // Deduplicate inside hierarchy
 let totalCount = 0;
-for (const domain in hierarchicalBank) {
-    for (const subject in hierarchicalBank[domain]) {
-        for (const chapter in hierarchicalBank[domain][subject]) {
-            const pool = hierarchicalBank[domain][subject][chapter];
-            const seen = new Set();
-            const deduplicated = [];
-            
-            for (const q of pool) {
-                const text = (q.question || '').trim().toLowerCase();
-                if (!seen.has(text) && text.length > 5) {
-                    seen.add(text);
-                    deduplicated.push(q);
-                }
+for (const subject in hierarchicalBank) {
+    for (const chapter in hierarchicalBank[subject]) {
+        const pool = hierarchicalBank[subject][chapter];
+        const seen = new Set();
+        const deduplicated = [];
+        
+        for (const q of pool) {
+            const text = (q.question || '').trim().toLowerCase();
+            if (!seen.has(text) && text.length > 5) {
+                seen.add(text);
+                deduplicated.push(q);
             }
-            hierarchicalBank[domain][subject][chapter] = deduplicated;
-            totalCount += deduplicated.length;
         }
+        hierarchicalBank[subject][chapter] = deduplicated;
+        totalCount += deduplicated.length;
     }
 }
 
