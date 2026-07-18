@@ -7476,7 +7476,6 @@ window.updateUserStatus = async function(userIdOrEmail, newStatus) {
   }
   renderAdminDashboard();
 };
-\n
 // Military C2 Clocks
 setInterval(() => {
     const utcEl = document.getElementById('clock-utc');
