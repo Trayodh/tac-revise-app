@@ -3092,7 +3092,7 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
           <h3 style="font-family:var(--font-logo); color: var(--accent);"> AI Explanation: ${topicName}</h3>
           <span style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono)">POWERED BY GEMINI AI · FREE</span>
         </div>
-        <div style="font-size:0.92rem; line-height:1.8; color:var(--text-primary);">${parseWikiLinks(formattedText)}</div>
+        <div style="font-size:0.95rem; line-height:1.8; color:#f8fafc !important; font-weight: 400; letter-spacing: 0.3px; text-shadow: 0 0 1px rgba(255,255,255,0.1);">${parseWikiLinks(formattedText)}</div>
       </div>
     `;
     if (window.MathJax && typeof window.MathJax.typeset === 'function') {
@@ -4235,15 +4235,17 @@ function toggleCurrentAffairsMode(mode) {
   const ftaContainer     = document.getElementById("ca-fta-container");
   const datesContainer   = document.getElementById("ca-dates-container");
   const awardsContainer  = document.getElementById("ca-awards-container");
+  const exercisesContainer = document.getElementById("ca-exercises-container");
 
   const btnMonthly = document.getElementById("btn-ca-mode-monthly");
   const btnVisits  = document.getElementById("btn-ca-mode-visits");
   const btnFta     = document.getElementById("btn-ca-mode-fta");
   const btnDates   = document.getElementById("btn-ca-mode-dates");
   const btnAwards  = document.getElementById("btn-ca-mode-awards");
+  const btnExercises = document.getElementById("btn-ca-mode-exercises");
 
-  [monthlyContainer, visitsContainer, ftaContainer, datesContainer, awardsContainer].forEach(el => { if (el) el.style.display = "none"; });
-  [btnMonthly, btnVisits, btnFta, btnDates, btnAwards].forEach(btn => { if (btn) btn.classList.remove("active"); });
+  [monthlyContainer, visitsContainer, ftaContainer, datesContainer, awardsContainer, exercisesContainer].forEach(el => { if (el) el.style.display = "none"; });
+  [btnMonthly, btnVisits, btnFta, btnDates, btnAwards, btnExercises].forEach(btn => { if (btn) btn.classList.remove("active"); });
 
   if (mode === "monthly") {
     if (monthlyContainer) monthlyContainer.style.display = "flex";
@@ -4264,12 +4266,218 @@ function toggleCurrentAffairsMode(mode) {
     if (awardsContainer) awardsContainer.style.display = "block";
     if (btnAwards) btnAwards.classList.add("active");
     renderCaAwardsTable();
+  } else if (mode === "exercises") {
+    if (exercisesContainer) exercisesContainer.style.display = "block";
+    if (btnExercises) btnExercises.classList.add("active");
+    renderMilitaryExercisesDashboard();
   }
 }
 window.toggleCurrentAffairsMode = toggleCurrentAffairsMode;
 
 let currentCaMode = 'monthly';
 
+let isFetchingMilitaryExercises = false;
+let hasFetchedMilitaryExercises = false;
+
+function fetchMilitaryExercises() {
+  if (isFetchingMilitaryExercises || hasFetchedMilitaryExercises) return;
+  isFetchingMilitaryExercises = true;
+  
+  fetch('/api/daily-military-exercises')
+    .then(async res => {
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    })
+    .then(data => {
+      // Overwrite global window variable if valid data is received
+      if (data && typeof data === 'object') {
+        window.MILITARY_EXERCISES_LIVE = data;
+      }
+      isFetchingMilitaryExercises = false;
+      hasFetchedMilitaryExercises = true;
+      renderMilitaryExercisesDashboard();
+    })
+    .catch(err => {
+      console.warn("Could not fetch latest military exercises from API, falling back to static data.js.", err);
+      isFetchingMilitaryExercises = false;
+      hasFetchedMilitaryExercises = true;
+      renderMilitaryExercisesDashboard();
+    });
+}
+
+let meCurrentPage = 1;
+const ME_ITEMS_PER_PAGE = 9;
+let currentMeData = [];
+
+function renderMilitaryExercisesDashboard() {
+  const grid = document.getElementById("me-grid");
+  const countEl = document.getElementById("me-results-count");
+  if (!grid) return;
+
+  if (!hasFetchedMilitaryExercises && !isFetchingMilitaryExercises) {
+    grid.innerHTML = `<p style="color: var(--text-secondary); padding: 20px; grid-column: 1 / -1;">Fetching Latest Military Exercises Database...</p>`;
+    fetchMilitaryExercises();
+    return;
+  }
+  
+  const liveData = window.MILITARY_EXERCISES_LIVE || (typeof MILITARY_EXERCISES_LIVE !== 'undefined' ? MILITARY_EXERCISES_LIVE : null);
+  if (isFetchingMilitaryExercises && (!liveData || Object.keys(liveData).length === 0)) {
+     return; 
+  }
+
+  // Flatten
+  let allExercises = [];
+  if (liveData) {
+    for (const month in liveData) {
+      if (Array.isArray(liveData[month])) {
+        allExercises = allExercises.concat(liveData[month]);
+      }
+    }
+  }
+
+  const filtered = allExercises;
+
+  // Sort Descending
+  filtered.sort((a, b) => new Date(b.end_date || b.start_date) - new Date(a.end_date || a.start_date));
+  currentMeData = filtered;
+  meCurrentPage = 1;
+  
+  if (countEl) countEl.textContent = `Showing ${filtered.length} exercises`;
+  
+  renderMePage();
+}
+
+function renderMePage() {
+  const grid = document.getElementById("me-grid");
+  const prevBtn = document.getElementById("btn-me-prev");
+  const nextBtn = document.getElementById("btn-me-next");
+  const pageInd = document.getElementById("me-page-indicator");
+  
+  grid.innerHTML = "";
+  if (currentMeData.length === 0) {
+    grid.innerHTML = `<p style="color: var(--text-secondary); padding: 20px; grid-column: 1 / -1;">No exercises match the selected filters.</p>`;
+    prevBtn.style.display = "none"; nextBtn.style.display = "none"; pageInd.textContent = "";
+    return;
+  }
+
+  const totalPages = Math.ceil(currentMeData.length / ME_ITEMS_PER_PAGE);
+  if (meCurrentPage > totalPages) meCurrentPage = totalPages;
+  if (meCurrentPage < 1) meCurrentPage = 1;
+
+  const startIdx = (meCurrentPage - 1) * ME_ITEMS_PER_PAGE;
+  const pageData = currentMeData.slice(startIdx, startIdx + ME_ITEMS_PER_PAGE);
+
+  pageData.forEach(ex => {
+    const card = document.createElement('div');
+    card.className = "me-card glow";
+    card.style.cssText = "background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 8px; padding: 16px; cursor: pointer; transition: transform 0.2s; display: flex; flex-direction: column;";
+    card.onmouseover = () => card.style.transform = "translateY(-3px)";
+    card.onmouseout = () => card.style.transform = "translateY(0)";
+    card.onclick = () => openMeDetailModal(ex);
+    
+    let tierBadge = "";
+    if (ex.tier === 1) tierBadge = `<span style="background: rgba(34,197,94,0.15); color: var(--primary); padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; border: 1px solid var(--primary);">TIER 1</span>`;
+    else if (ex.tier === 2) tierBadge = `<span style="background: rgba(245,158,11,0.15); color: #f59e0b; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; border: 1px solid #f59e0b;">TIER 2</span>`;
+    else if (ex.tier === 3) tierBadge = `<span style="background: rgba(59,130,246,0.15); color: #3b82f6; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; border: 1px solid #3b82f6;">TIER 3</span>`;
+    
+    card.innerHTML = `
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+        ${tierBadge}
+        <span style="font-size: 0.75rem; color: var(--text-muted);">${ex.year}</span>
+      </div>
+      <h3 style="margin: 0 0 8px 0; color: var(--accent); font-size: 1.1rem;">${ex.exercise_name ? (ex.exercise_name + (ex.edition ? ` ${ex.edition}` : '')) : ex.title}</h3>
+      <p style="margin: 0 0 12px 0; font-size: 0.85rem; color: var(--text-secondary); flex-grow: 1;">${ex.type}</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px;"><strong>Participants:</strong> ${ex.participant_nations?.join(', ') || 'N/A'}</div>
+      <div style="font-size: 0.8rem; color: var(--text-muted);"><strong>Domain:</strong> ${ex.exercise_domain?.join(', ') || 'N/A'}</div>
+    `;
+    grid.appendChild(card);
+  });
+
+  // Pagination UI
+  if (totalPages > 1) {
+    prevBtn.style.display = meCurrentPage > 1 ? "block" : "none";
+    nextBtn.style.display = meCurrentPage < totalPages ? "block" : "none";
+    pageInd.textContent = `Page ${meCurrentPage} of ${totalPages}`;
+  } else {
+    prevBtn.style.display = "none"; nextBtn.style.display = "none"; pageInd.textContent = "";
+  }
+}
+
+function meChangePage(delta) {
+  meCurrentPage += delta;
+  renderMePage();
+}
+
+function openMeDetailModal(ex) {
+  const content = document.getElementById("me-detail-content");
+  
+  let html = `
+    <div style="margin-bottom: 20px;">
+      <h2 style="color: var(--accent); margin: 0 0 5px 0;">${ex.exercise_name ? (ex.exercise_name + (ex.edition ? ` ${ex.edition}` : '')) : ex.title}</h2>
+      <div style="color: var(--text-secondary); font-size: 0.95rem;">${ex.type} | ${ex.status}</div>
+    </div>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+      <div style="background: rgba(0,0,0,0.1); padding: 12px; border-radius: 6px; border: 1px solid var(--border);">
+        <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px;">DATES</div>
+        <div style="color: var(--text-primary);">${ex.start_date || 'Unknown'} - ${ex.end_date || 'Unknown'} ${ex.duration ? `(${ex.duration})` : ''}</div>
+      </div>
+      <div style="background: rgba(0,0,0,0.1); padding: 12px; border-radius: 6px; border: 1px solid var(--border);">
+        <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px;">LOCATION</div>
+        <div style="color: var(--text-primary);">${ex.location?.city ? ex.location.city + ', ' : ''}${ex.location?.state ? ex.location.state + ', ' : ''}${ex.location?.country || ''} (${ex.location?.region || ''})</div>
+      </div>
+    </div>
+    
+    <div style="margin-bottom: 20px;">
+      <h4 style="color: var(--primary); margin: 0 0 8px 0; border-bottom: 1px solid var(--border); padding-bottom: 4px;">Participants & Units</h4>
+      <div style="font-size: 0.9rem;"><strong>Nations:</strong> ${ex.participant_nations?.join(', ') || 'None listed'}</div>
+      <div style="font-size: 0.9rem; margin-top: 4px;"><strong>Indian Services:</strong> ${ex.indian_service?.join(', ') || 'None listed'}</div>
+      ${ex.indian_units && ex.indian_units.length > 0 ? `<div style="font-size: 0.9rem; margin-top: 4px;"><strong>Indian Units:</strong> ${ex.indian_units.join(', ')}</div>` : ''}
+      <div style="font-size: 0.9rem; margin-top: 4px;"><strong>Foreign Services:</strong> ${ex.foreign_services?.join(', ') || 'None listed'}</div>
+      ${ex.foreign_units && ex.foreign_units.length > 0 ? `<div style="font-size: 0.9rem; margin-top: 4px;"><strong>Foreign Units:</strong> ${ex.foreign_units.join(', ')}</div>` : ''}
+    </div>
+    
+    <div style="margin-bottom: 20px;">
+      <h4 style="color: var(--primary); margin: 0 0 8px 0; border-bottom: 1px solid var(--border); padding-bottom: 4px;">Strategic Significance</h4>
+      <p style="font-size: 0.95rem; line-height: 1.5; color: var(--text-primary); margin:0;">${parseWikiLinks(ex.strategic_significance || 'No analysis available.')}</p>
+    </div>
+    
+    <div style="margin-bottom: 20px; background: rgba(34,197,94,0.05); border-left: 4px solid var(--primary); padding: 12px;">
+      <h4 style="color: var(--primary); margin: 0 0 4px 0;">Exam Focus</h4>
+      <p style="font-size: 0.9rem; margin:0; color: var(--text-primary);">${ex.exam_importance || 'N/A'}</p>
+    </div>
+  `;
+  
+  if (ex.units_and_hardware) {
+     let hardwareHtml = Object.entries(ex.units_and_hardware)
+       .map(([nation, units]) => `<div style="font-size: 0.9rem; margin-top: 4px;"><strong>${nation}:</strong> ${units.join(', ')}</div>`)
+       .join('');
+     
+     if (hardwareHtml) {
+         html += `
+         <div style="margin-bottom: 20px;">
+           <h4 style="color: var(--primary); margin: 0 0 8px 0; border-bottom: 1px solid var(--border); padding-bottom: 4px;">Units & Hardware</h4>
+           ${hardwareHtml}
+         </div>
+         `;
+     }
+  } else if (ex.equipment_used) {
+     const indEq = ex.equipment_used.india?.join(', ') || 'None listed';
+     const forEq = ex.equipment_used.foreign?.join(', ') || 'None listed';
+     if (indEq !== 'None listed' || forEq !== 'None listed') {
+         html += `
+         <div style="margin-bottom: 20px;">
+           <h4 style="color: var(--primary); margin: 0 0 8px 0; border-bottom: 1px solid var(--border); padding-bottom: 4px;">Equipment & Platforms</h4>
+           <div style="font-size: 0.9rem;"><strong>India:</strong> ${indEq}</div>
+           <div style="font-size: 0.9rem; margin-top: 4px;"><strong>Foreign:</strong> ${forEq}</div>
+         </div>
+         `;
+     }
+  }
+
+  content.innerHTML = html;
+  document.getElementById("me-detail-modal").style.display = "flex";
+}
 
 function renderCaVisitsTable() {
   const wrapper = document.getElementById("ca-visits-table-wrapper");
