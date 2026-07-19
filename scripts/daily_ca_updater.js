@@ -59,11 +59,9 @@ async function run() {
     return;
   }
 
-  // 1. Read existing DB
   const dbPath = path.join(__dirname, '..', 'current_affairs_db.js');
   let content = fs.readFileSync(dbPath, 'utf8');
   
-  // Safely extract the DB object
   const match = content.match(/window\.CURRENT_AFFAIRS_DB\s*=\s*(\{[\s\S]+\});?/);
   if (!match) {
     console.error("Failed to parse current_affairs_db.js");
@@ -86,7 +84,6 @@ async function run() {
   const existingEntries = db[currentMonth];
   console.log(`Found ${existingEntries.length} existing entries for ${currentMonth}.`);
 
-  // 2. Fetch new raw items
   console.log("Fetching RSS feeds...");
   const results = await Promise.allSettled(RSS_FEEDS.map(u => fetchRssFeed(u)));
   
@@ -103,25 +100,44 @@ async function run() {
     if (!uniqueItemsMap.has(key)) uniqueItemsMap.set(key, i);
   });
   
-  // Shuffle and take top 40 items to avoid overwhelming Gemini
+  // Shuffle and take top 100 items to avoid overwhelming Gemini but ensure comprehensive backfill
   const rawItems = Array.from(uniqueItemsMap.values())
     .sort(() => 0.5 - Math.random())
-    .slice(0, 40);
+    .slice(0, 100);
 
   console.log(`Acquired ${rawItems.length} unique raw feed items.`);
 
-  // 3. Assemble payload and call Gemini
-  const SYSTEM_PROMPT = `You are a Defence Current Affairs expert. 
+  const SYSTEM_PROMPT = `You are an elite Military Intelligence and Defence Exams (UPSC NDA, CDS, AFCAT, CAPF) Current Affairs expert. 
 Your task is to merge the provided <EXISTING_DATABASE> with the <NEW_RAW_FEEDS>.
 
 STRICT RULES:
-1. Preserve all existing entries from <EXISTING_DATABASE>. DO NOT DELETE OR OVERWRITE THEM unless there is a critical factual correction.
-2. Identify any new, highly relevant defence, national, or international news from <NEW_RAW_FEEDS> (e.g. military appointments, exercises, ISRO missions, major national events) that are missing from the existing database.
-3. For any NEW event, generate a new JSON object adhering exactly to the schema of the existing objects (id, topic, text, details object with summary/winner/etc., and an mcq object).
+1. Preserve ALL existing entries from <EXISTING_DATABASE>. DO NOT DELETE OR OVERWRITE THEM unless there is a critical factual correction. Keep them in chronological order.
+2. Identify new, HIGH-EXAM-VALUE news from <NEW_RAW_FEEDS>. Prioritise: Defence, Military Exercises, Indian Navy Port Calls, DRDO, ISRO, Armed Forces, IR, Economy, Schemes. Exclude low-value/routine news.
+3. For any NEW event, generate a new JSON object adhering EXACTLY to this strictly defined schema:
+   - "id": A unique ID (e.g., "jul-26-1")
+   - "topic": Category badge string (e.g., "Defence & Security")
+   - "text": Executive Summary / Headline string.
+   - "publicationDate": The date of the event (YYYY-MM-DD).
+   - "originalSource": The official source (e.g., "PIB", "MoD").
+   - "relatedOfficialDocuments": Any related document name, or empty string.
+   - "upscHighlights": Array of 3-6 concise bullet point strings.
+   - "quickSummary": A 50-100 word summary string.
+   - "detailedAnalysis": A deep dive analysis string.
+   - "backgroundContext": Background context string.
+   - "strategicImportance": Strategic importance string.
+   - "staticGkConnection": Static GK relation string.
+   - "stakeholders": Array of string stakeholder names.
+   - "relatedTopics": Array of string related keywords/places.
+   - "examRelevanceMatrix": Object mapping {"NDA": "High", "CDS": "High", "AFCAT": "Medium"} etc.
+   - "potentialQuestions": Object containing 3 arrays: "shortAnswers", "interviewQuestions", "ssbDiscussionTopics".
+   - "mcqs": Array of exactly 3 to 5 Exam-Oriented MCQ objects. Each MCQ object must have:
+      - "question": string
+      - "options": array of 4 strings
+      - "correct": integer 0-3 (index of correct option)
+      - "explanation": string
 4. Combine the existing entries and the newly generated entries into a single JSON array.
 5. Sort the final array chronologically with the most recent event FIRST (e.g., July 19th before July 1st).
-6. Never fabricate news. Only use events from <NEW_RAW_FEEDS> or widely known recent facts up to July 2026.
-7. Return ONLY the raw JSON array. Do not wrap in \`\`\`json.`;
+6. Return ONLY the raw JSON array. Do not wrap in \`\`\`json.`;
 
   const prompt = `
 <EXISTING_DATABASE>
@@ -133,7 +149,7 @@ ${JSON.stringify(rawItems, null, 2)}
 </NEW_RAW_FEEDS>
 `;
 
-  console.log("Calling Gemini 1.5 Pro to process and merge data...");
+  console.log("Calling Gemini to process and merge data with the new advanced schema...");
   const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
   
   try {
@@ -142,7 +158,7 @@ ${JSON.stringify(rawItems, null, 2)}
       contents: prompt,
       config: {
         systemInstruction: SYSTEM_PROMPT,
-        temperature: 0.1,
+        temperature: 0.2,
       }
     });
 
@@ -155,10 +171,8 @@ ${JSON.stringify(rawItems, null, 2)}
     if (Array.isArray(updatedArray) && updatedArray.length >= existingEntries.length) {
       console.log(`Successfully merged. New count: ${updatedArray.length} (was ${existingEntries.length}).`);
       
-      // Update DB
       db[currentMonth] = updatedArray;
       
-      // Write back to file
       const newFileContent = "window.CURRENT_AFFAIRS_DB = " + JSON.stringify(db, null, 2) + ";\n";
       fs.writeFileSync(dbPath, newFileContent, 'utf8');
       console.log("Database updated successfully.");

@@ -2060,6 +2060,363 @@ window.CURRENT_AFFAIRS_DB = {
       }
     },
     {
+      "id": "jul-26-capt-shivani-adc",
+      "topic": "Defence & Security",
+      "text": "Captain Shivani made history by becoming the first-ever woman Aide-de-Camp (ADC) to the Chief of Army Staff (COAS), marking a significant milestone for gender equality in the Indian Armed Forces.",
+      "publicationDate": "2026-07-18",
+      "originalSource": "SSBCrack",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "Captain Shivani appointed first woman Aide-de-Camp (ADC) to COAS.",
+        "Historic milestone for gender equality in Indian Armed Forces.",
+        "Reflects increasing role of women in military leadership.",
+        "Symbolizes progressive changes in defence services."
+      ],
+      "quickSummary": "Captain Shivani has achieved a historic first by being appointed as the Aide-de-Camp (ADC) to the Chief of Army Staff (COAS), becoming the first woman to hold this prestigious position. This appointment signifies a major step forward for gender equality and the increasing integration of women into leadership roles within the Indian Armed Forces.",
+      "detailedAnalysis": "The appointment of Captain Shivani as the first woman Aide-de-Camp (ADC) to the Chief of Army Staff is a landmark event, symbolizing the progressive changes within the Indian Armed Forces towards greater gender inclusivity. The role of an ADC is highly prestigious, involving close coordination with the COAS and representing the Army's highest office. This appointment not only recognizes Captain Shivani's individual merit and capabilities but also sends a powerful message about the Army's commitment to providing equal opportunities for women. It builds upon recent policy changes allowing women into combat roles and permanent commissions, fostering a more diverse and representative military leadership. This move is expected to inspire more women to join the armed forces and aspire for leadership positions.",
+      "backgroundContext": "Historically, the Indian Armed Forces have been predominantly male-dominated. However, in recent years, significant strides have been made to integrate women into various roles, including permanent commission, command appointments, and entry into prestigious institutions like the National Defence Academy. The Supreme Court's interventions have also played a role in pushing for gender equality in the military.",
+      "strategicImportance": "Promotes gender equality and diversity within the armed forces, enhancing their overall strength and reflecting a modern, inclusive national image.",
+      "staticGkConnection": "Aide-de-Camp (ADC), Chief of Army Staff (COAS), Women in Indian Armed Forces, Gender Equality, Indian Army.",
+      "stakeholders": [
+        "Indian Army",
+        "Ministry of Defence",
+        "Captain Shivani",
+        "Women Officers",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "[[Women in Armed Forces]]",
+        "[[Indian Army]]",
+        "[[Gender Equality]]",
+        "[[Military Appointments]]",
+        "[[Defence Reforms]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Very High",
+        "CDS": "Very High",
+        "AFCAT": "Very High",
+        "CAPF": "Very High",
+        "UPSC": "Very High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Who is Captain Shivani and what historic appointment did she receive?",
+          "What is the role of an Aide-de-Camp (ADC)?"
+        ],
+        "interviewQuestions": [
+          "Discuss the significance of women taking up leadership roles in the Indian Armed Forces.",
+          "How does this appointment reflect the changing landscape of gender equality in India?"
+        ],
+        "ssbDiscussionTopics": [
+          "The challenges and opportunities for women in the armed forces.",
+          "Promoting diversity and inclusion in national institutions."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Who became the first-ever woman Aide-de-Camp (ADC) to the Chief of Army Staff (COAS)?",
+          "options": [
+            "A) Major Suman Gawani",
+            "B) Captain Shivani",
+            "C) Flight Lieutenant Bhawana Kanth",
+            "D) Lieutenant Commander Karabi Gogoi"
+          ],
+          "correct": 1,
+          "explanation": "Captain Shivani made history by becoming the first-ever woman Aide-de-Camp (ADC) to the Chief of Army Staff."
+        },
+        {
+          "question": "This appointment is a significant milestone for which aspect within the Indian Armed Forces?",
+          "options": [
+            "A) Technological advancement",
+            "B) International cooperation",
+            "C) Gender equality",
+            "D) Budget allocation"
+          ],
+          "correct": 2,
+          "explanation": "The appointment marks a significant milestone for gender equality in the Indian Armed Forces."
+        },
+        {
+          "question": "The role of an Aide-de-Camp (ADC) is typically associated with which level of military leadership?",
+          "options": [
+            "A) Battalion level",
+            "B) Company level",
+            "C) Highest military office",
+            "D) Training academy"
+          ],
+          "correct": 2,
+          "explanation": "The role of an ADC is highly prestigious, involving close coordination with the COAS and representing the Army's highest office."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-adarsh-gram",
+      "topic": "Social Schemes & Rural Development",
+      "text": "Over 47.59 lakh citizens have benefited from the Adarsh Gram component, with 16,759 villages declared as 'Adarsh Grams' and significant development works completed across the country.",
+      "publicationDate": "2026-07-18",
+      "originalSource": "India Education Diary (citing government data)",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "Over 47.59 lakh citizens benefited from Adarsh Gram component.",
+        "16,759 villages declared 'Adarsh Grams' nationwide.",
+        "Significant development works completed under the scheme.",
+        "Highlights progress in rural development and community participation."
+      ],
+      "quickSummary": "A recent report highlighted the significant progress of the Adarsh Gram component, benefiting over 47.59 lakh citizens. Across India, 16,759 villages have been declared 'Adarsh Grams' (Model Villages), with more than 46,782 development works completed and 24,133 village development plans prepared, showcasing a robust push for rural transformation.",
+      "detailedAnalysis": "The progress report on the Adarsh Gram component indicates a substantial impact on rural development. The 'Adarsh Gram' concept, often associated with the Sansad Adarsh Gram Yojana (SAGY), aims to holistically develop villages through community participation, focusing on infrastructure, human development, economic activities, and social harmony. The large number of beneficiaries and declared 'Adarsh Grams' suggests successful implementation and uptake of the scheme. This initiative is crucial for bridging the rural-urban divide, improving living standards in villages, and achieving inclusive growth. The completion of numerous development works and the preparation of detailed village development plans reflect a structured and planned approach to rural upliftment.",
+      "backgroundContext": "The concept of 'Adarsh Gram' gained prominence with the launch of the Sansad Adarsh Gram Yojana (SAGY) in 2014, where Members of Parliament adopt villages for holistic development. The scheme emphasizes convergence of existing government programs and community participation. It aims to create 'model villages' that can inspire others.",
+      "strategicImportance": "Crucial for inclusive growth, rural development, and achieving sustainable development goals in India. It empowers local communities and strengthens grassroots governance.",
+      "staticGkConnection": "Sansad Adarsh Gram Yojana (SAGY), Rural Development Schemes, Panchayati Raj, Sustainable Development Goals (SDGs).",
+      "stakeholders": [
+        "Ministry of Rural Development",
+        "Members of Parliament",
+        "Gram Panchayats",
+        "Local Communities",
+        "Citizens"
+      ],
+      "relatedTopics": [
+        "[[Rural Development]]",
+        "[[Government Schemes]]",
+        "[[Panchayati Raj]]",
+        "[[Sustainable Development]]",
+        "[[Community Participation]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "Very High",
+        "UPSC": "Very High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the primary objective of the Adarsh Gram component?",
+          "How many villages have been declared 'Adarsh Grams' recently?"
+        ],
+        "interviewQuestions": [
+          "Discuss the role of community participation in the success of rural development schemes like Adarsh Gram.",
+          "Analyze the impact of 'Adarsh Grams' on inclusive growth in India."
+        ],
+        "ssbDiscussionTopics": [
+          "The effectiveness of government schemes in rural transformation.",
+          "Challenges in achieving holistic village development."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "How many villages have recently been declared as 'Adarsh Grams' under the Adarsh Gram component?",
+          "options": [
+            "A) 4,759",
+            "B) 16,759",
+            "C) 24,133",
+            "D) 46,782"
+          ],
+          "correct": 1,
+          "explanation": "16,759 villages have been declared as 'Adarsh Grams'."
+        },
+        {
+          "question": "The concept of 'Adarsh Gram' is often associated with which government scheme?",
+          "options": [
+            "A) MGNREGA",
+            "B) Pradhan Mantri Gram Sadak Yojana",
+            "C) Sansad Adarsh Gram Yojana",
+            "D) Swachh Bharat Abhiyan"
+          ],
+          "correct": 2,
+          "explanation": "The 'Adarsh Gram' concept gained prominence with the launch of the Sansad Adarsh Gram Yojana (SAGY)."
+        },
+        {
+          "question": "What is a key focus area for the development of 'Adarsh Grams'?",
+          "options": [
+            "A) Industrialization",
+            "B) Urbanization",
+            "C) Holistic development through community participation",
+            "D) Military infrastructure"
+          ],
+          "correct": 2,
+          "explanation": "Adarsh Grams aim for holistic development through community participation, focusing on various aspects like infrastructure and human development."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-google-investment",
+      "topic": "Economy & Technology",
+      "text": "Google CEO Sundar Pichai announced a $10 billion investment in India's digitization efforts after meeting PM Modi, reinforcing Google's commitment to the Indian digital ecosystem.",
+      "publicationDate": "2026-07-18",
+      "originalSource": "The News Mill (citing Sundar Pichai)",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "Google to invest $10 billion in India's digitization.",
+        "Announcement made by CEO Sundar Pichai after meeting PM Modi.",
+        "Reinforces commitment to India's digital ecosystem.",
+        "Boosts 'Digital India' initiative and tech sector."
+      ],
+      "quickSummary": "Google CEO Sundar Pichai announced a significant $10 billion investment in India's digitization, following a meeting with Prime Minister Modi. This substantial commitment underscores Google's strategic focus on the Indian market and is expected to further accelerate the 'Digital India' initiative, fostering growth in various technology sectors and digital public infrastructure.",
+      "detailedAnalysis": "Google's $10 billion investment is a major boost for India's 'Digital India' vision. This investment is likely to be channeled into various areas such as affordable access and information for every Indian, building new products and services relevant to India's unique needs, empowering businesses with digital transformation, and leveraging AI for social good. Such foreign direct investment (FDI) from a tech giant like Google not only brings capital but also expertise, technology, and innovation, which are crucial for developing India's digital infrastructure and economy. It also signals strong international confidence in India's digital growth story and its potential as a global tech hub.",
+      "backgroundContext": "India has been aggressively pushing its 'Digital India' program, aiming to transform the country into a digitally empowered society and knowledge economy. Major tech companies, including Google, have been investing in India, recognizing its vast market and growing digital penetration. Previous investments by Google have focused on areas like digital payments, internet access, and local language content.",
+      "strategicImportance": "Significant foreign investment in a critical sector (digitalization) that underpins economic growth, innovation, and governance. It strengthens India's position in the global digital economy.",
+      "staticGkConnection": "Digital India, Foreign Direct Investment (FDI), Google, Sundar Pichai, Indian Economy, Technology Sector.",
+      "stakeholders": [
+        "Google",
+        "Government of India",
+        "Indian tech startups",
+        "Businesses",
+        "Citizens",
+        "Digital Infrastructure providers"
+      ],
+      "relatedTopics": [
+        "[[Digital India]]",
+        "[[Foreign Direct Investment]]",
+        "[[Technology Policy]]",
+        "[[Indian Economy]]",
+        "[[Digital Public Infrastructure]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Very High",
+        "UPSC": "Very High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the amount of investment Google announced for India's digitization?",
+          "What is the 'Digital India' initiative?"
+        ],
+        "interviewQuestions": [
+          "Discuss the impact of large-scale foreign investments on India's digital transformation.",
+          "How can India leverage such investments to become a global tech leader?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of multinational corporations in national development.",
+          "Balancing foreign investment with indigenous innovation."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "What amount did Google CEO Sundar Pichai announce for investment in India's digitization efforts?",
+          "options": [
+            "A) $1 billion",
+            "B) $5 billion",
+            "C) $10 billion",
+            "D) $20 billion"
+          ],
+          "correct": 2,
+          "explanation": "Sundar Pichai announced a $10 billion investment in India's digitization."
+        },
+        {
+          "question": "The investment by Google primarily aims to boost which Indian government initiative?",
+          "options": [
+            "A) Make in India",
+            "B) Skill India",
+            "C) Digital India",
+            "D) Swachh Bharat Abhiyan"
+          ],
+          "correct": 2,
+          "explanation": "The investment reinforces Google's commitment to India's digitization efforts, aligning with the 'Digital India' initiative."
+        },
+        {
+          "question": "Who is the current CEO of Google who made this announcement?",
+          "options": [
+            "A) Satya Nadella",
+            "B) Elon Musk",
+            "C) Sundar Pichai",
+            "D) Tim Cook"
+          ],
+          "correct": 2,
+          "explanation": "Sundar Pichai, the CEO of Google, made the announcement."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-indian-navy-parade",
+      "topic": "Defence & Security",
+      "text": "The Indian Navy showcased its operational prowess and rich maritime heritage at an International City Parade in Visakhapatnam, reinforcing its commitment to regional security and international cooperation.",
+      "publicationDate": "2026-07-18",
+      "originalSource": "News On AIR",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "Indian Navy participated in International City Parade in Visakhapatnam.",
+        "Showcased operational prowess and maritime heritage.",
+        "Reinforces commitment to regional security and international cooperation.",
+        "Highlights Visakhapatnam's role as a major naval base."
+      ],
+      "quickSummary": "The Indian Navy demonstrated its operational capabilities and celebrated its maritime heritage during an International City Parade held in Visakhapatnam. This event served to highlight the Navy's role in safeguarding national interests, promoting regional stability, and fostering goodwill with international partners through naval diplomacy.",
+      "detailedAnalysis": "The International City Parade in Visakhapatnam is a significant event for the Indian Navy, allowing it to publicly display its modern assets, trained personnel, and rich traditions. Such parades are not only for public outreach and morale-boosting but also serve as a subtle demonstration of naval power and readiness to international observers. Visakhapatnam, being the headquarters of the Eastern Naval Command, is a crucial strategic location for India's maritime defence, particularly in the Bay of Bengal and the Indo-Pacific. The event likely involved participation from foreign naval delegations, further enhancing naval diplomacy and cooperation, which are vital for addressing common maritime challenges like piracy, disaster relief, and freedom of navigation.",
+      "backgroundContext": "The Indian Navy regularly participates in and hosts international events to foster cooperation and demonstrate its capabilities. Visakhapatnam has been a key naval base since independence and is central to India's 'Act East' policy and broader Indo-Pacific strategy. City parades are a traditional way for navies to connect with the public and showcase their role in national security.",
+      "strategicImportance": "Enhances India's naval diplomacy, projects power, and reinforces its role as a responsible maritime actor in the Indo-Pacific region.",
+      "staticGkConnection": "Indian Navy, Eastern Naval Command, Visakhapatnam, Naval Diplomacy, Maritime Heritage, Indo-Pacific.",
+      "stakeholders": [
+        "Indian Navy",
+        "Ministry of Defence",
+        "Government of India",
+        "Local Administration of Visakhapatnam",
+        "International Naval Delegations"
+      ],
+      "relatedTopics": [
+        "[[Indian Navy]]",
+        "[[Maritime Security]]",
+        "[[Naval Diplomacy]]",
+        "[[Indo-Pacific Strategy]]",
+        "[[Visakhapatnam]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Very High",
+        "CDS": "Very High",
+        "AFCAT": "Very High",
+        "CAPF": "High",
+        "UPSC": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Where did the Indian Navy recently showcase its operational prowess in an International City Parade?",
+          "What is the significance of Visakhapatnam for the Indian Navy?"
+        ],
+        "interviewQuestions": [
+          "Discuss the role of naval parades and international events in India's maritime diplomacy.",
+          "How does the Indian Navy contribute to regional security in the Indo-Pacific?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of public relations for the armed forces.",
+          "India's growing maritime power and its implications for regional geopolitics."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "In which city did the Indian Navy recently showcase its operational prowess at an International City Parade?",
+          "options": [
+            "A) Mumbai",
+            "B) Kochi",
+            "C) Chennai",
+            "D) Visakhapatnam"
+          ],
+          "correct": 3,
+          "explanation": "The Indian Navy participated in an International City Parade in Visakhapatnam."
+        },
+        {
+          "question": "The event highlighted the Indian Navy's commitment to which two key aspects?",
+          "options": [
+            "A) Land warfare and air superiority",
+            "B) Regional security and international cooperation",
+            "C) Economic development and trade",
+            "D) Space exploration and cyber defence"
+          ],
+          "correct": 1,
+          "explanation": "The parade reinforced the Navy's commitment to regional security and international cooperation."
+        },
+        {
+          "question": "Visakhapatnam is the headquarters of which major command of the Indian Navy?",
+          "options": [
+            "A) Western Naval Command",
+            "B) Southern Naval Command",
+            "C) Eastern Naval Command",
+            "D) Andaman and Nicobar Command"
+          ],
+          "correct": 2,
+          "explanation": "Visakhapatnam is the headquarters of the Eastern Naval Command."
+        }
+      ]
+    },
+    {
       "id": "jul-26-news-3",
       "topic": "Space Technology",
       "text": "Skyroot Aerospace successfully launched its Vikram-1 orbital rocket from Sriharikota in July 2026, marking a significant milestone for India's private space sector.",
@@ -2081,6 +2438,96 @@ window.CURRENT_AFFAIRS_DB = {
         "explanation": "Skyroot Aerospace successfully launched the Vikram-1."
       },
       "publicationDate": "2026-07-18"
+    },
+    {
+      "id": "jul-26-isro-resignations",
+      "topic": "Space Technology & Governance",
+      "text": "Reports indicate ISRO is making it harder for scientists to resign, raising concerns about brain drain to the private space sector and its impact on national space programs.",
+      "publicationDate": "2026-07-18",
+      "originalSource": "The Hindu",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "ISRO reportedly tightening resignation norms for scientists.",
+        "Concerns over brain drain to burgeoning private space sector.",
+        "Impacts national space programs and human resource management.",
+        "Highlights challenges of talent retention in strategic sectors."
+      ],
+      "quickSummary": "Amidst the rapid growth of India's private space sector, reports suggest that ISRO is implementing stricter policies regarding the resignation of its scientists. This move is seen as an effort to curb brain drain and retain critical talent, ensuring the continuity and success of national space missions, though it raises questions about employee mobility and the competitive landscape for space talent.",
+      "detailedAnalysis": "The reported tightening of resignation norms at ISRO reflects a growing challenge for public sector organizations in strategic sectors: retaining talent in the face of a booming private industry. With the opening of India's space sector to private players, many experienced ISRO scientists are being lured by competitive salaries, faster project cycles, and innovative opportunities in companies like Skyroot Aerospace. While ISRO's concerns about brain drain are legitimate, given the long-term investment in training these scientists and the sensitive nature of their work, restrictive policies could also lead to demotivation or stifle innovation. This situation highlights the need for a balanced approach that includes competitive compensation, career progression, and a conducive work environment within ISRO to retain its invaluable human capital, alongside fostering a healthy ecosystem for the private sector.",
+      "backgroundContext": "India's space sector has traditionally been dominated by ISRO. However, recent reforms have opened it up to private participation, leading to the emergence of several startups. This has created a dynamic talent market, where ISRO, as a government entity, faces challenges in matching the incentives offered by the private sector. The success of private players like Skyroot Aerospace, often founded by ex-ISRO scientists, further underscores this trend.",
+      "strategicImportance": "Critical for maintaining ISRO's leadership in national space programs and ensuring India's strategic autonomy in space technology, while also balancing the growth of the private space sector.",
+      "staticGkConnection": "ISRO, Private Space Sector in India, Brain Drain, Human Resource Management, Space Policy, Gaganyaan Mission.",
+      "stakeholders": [
+        "ISRO",
+        "Ministry of Space",
+        "Private Space Companies (e.g., Skyroot Aerospace)",
+        "Scientists",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "[[ISRO]]",
+        "[[Indian Space Policy]]",
+        "[[Private Space Sector]]",
+        "[[Brain Drain]]",
+        "[[Human Resource Management]]",
+        "[[Gaganyaan Mission]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Very High",
+        "CAPF": "High",
+        "UPSC": "Very High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Why is ISRO reportedly making it harder for scientists to resign?",
+          "What is the 'brain drain' phenomenon in the context of ISRO?"
+        ],
+        "interviewQuestions": [
+          "Discuss the challenges faced by public sector organizations like ISRO in retaining talent amidst a growing private sector.",
+          "How can India balance the growth of its private space sector with the needs of its national space program?"
+        ],
+        "ssbDiscussionTopics": [
+          "The impact of private sector growth on government research organizations.",
+          "Strategies for talent retention in strategic national sectors."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "The reported tightening of resignation norms at ISRO is primarily aimed at addressing which issue?",
+          "options": [
+            "A) Budgetary constraints",
+            "B) Brain drain to the private space sector",
+            "C) Lack of new recruits",
+            "D) International espionage"
+          ],
+          "correct": 1,
+          "explanation": "The move is reportedly aimed at curbing brain drain to the burgeoning private space sector."
+        },
+        {
+          "question": "Which of the following is a consequence of the opening up of India's space sector to private players?",
+          "options": [
+            "A) Decreased funding for ISRO",
+            "B) Increased competition for talent",
+            "C) Complete privatization of space missions",
+            "D) Reduced international collaboration"
+          ],
+          "correct": 1,
+          "explanation": "The opening of the space sector has led to increased competition for talent, with private companies attracting ISRO scientists."
+        },
+        {
+          "question": "What is a potential negative impact of overly restrictive resignation policies on scientists?",
+          "options": [
+            "A) Increased productivity",
+            "B) Enhanced loyalty",
+            "C) Demotivation and stifled innovation",
+            "D) Greater job security"
+          ],
+          "correct": 2,
+          "explanation": "Overly restrictive policies could lead to demotivation or stifle innovation among scientists."
+        }
+      ]
     },
     {
       "id": "ca_live_2026_07_17_0",
@@ -2213,6 +2660,720 @@ window.CURRENT_AFFAIRS_DB = {
       }
     },
     {
+      "id": "jul-26-un-carbon-market",
+      "topic": "Environment & International Relations",
+      "text": "China and India's stance led to the exclusion of most \"zombie credits\" from a new UN carbon market, impacting global climate finance and carbon trading mechanisms.",
+      "publicationDate": "2026-07-17",
+      "originalSource": "Climate Home News",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "China and India's position influenced new UN carbon market rules.",
+        "Most \"zombie credits\" excluded from the market.",
+        "Impacts global climate finance and carbon trading.",
+        "Highlights India's role in international climate negotiations."
+      ],
+      "quickSummary": "A new UN carbon market has excluded most \"zombie credits\" due to the collective stance of China and India, significantly influencing global climate finance. This development impacts the future of carbon trading mechanisms and underscores the growing assertiveness of major developing economies in shaping international environmental policies.",
+      "detailedAnalysis": "The exclusion of \"zombie credits\" from a new UN carbon market, largely influenced by China and India's position, is a critical development in international climate policy. \"Zombie credits\" refer to old, unused carbon credits generated under previous mechanisms (like the Kyoto Protocol's Clean Development Mechanism) that are often criticized for not representing genuine emissions reductions. Their inclusion in new markets could undermine the environmental integrity of carbon trading. India and China, as major developing economies and significant emitters, play a crucial role in shaping global climate agreements. Their collective stance on this issue reflects a desire for more robust and credible carbon markets that genuinely contribute to climate action, rather than allowing loopholes. This move could push for a cleaner, more effective global carbon market, but also highlights the complexities and disagreements in international climate negotiations.",
+      "backgroundContext": "Carbon markets are mechanisms designed to reduce greenhouse gas emissions by putting a price on carbon. The UN has been working to establish new carbon market mechanisms under Article 6 of the Paris Agreement. The debate over \"zombie credits\" has been a contentious issue, with some countries advocating for their inclusion to maintain continuity and others arguing for their exclusion to ensure environmental integrity.",
+      "strategicImportance": "Influences global climate policy, carbon trading, and climate finance, reflecting India's active role in international environmental governance and its commitment to credible climate action.",
+      "staticGkConnection": "UN Carbon Market, Kyoto Protocol, Paris Agreement (Article 6), Carbon Credits, Climate Finance, India's Climate Policy.",
+      "stakeholders": [
+        "United Nations",
+        "China",
+        "India",
+        "Developed Countries",
+        "Developing Countries",
+        "Carbon Market Participants",
+        "Environmental NGOs"
+      ],
+      "relatedTopics": [
+        "[[Climate Change]]",
+        "[[Carbon Markets]]",
+        "[[Paris Agreement]]",
+        "[[International Environmental Agreements]]",
+        "[[India's Foreign Policy]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Very High",
+        "AFCAT": "High",
+        "CAPF": "Very High",
+        "UPSC": "Very High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are \"zombie credits\" in the context of carbon markets?",
+          "How did China and India influence the new UN carbon market?"
+        ],
+        "interviewQuestions": [
+          "Discuss the importance of environmental integrity in global carbon markets.",
+          "Analyze India's role and influence in international climate negotiations."
+        ],
+        "ssbDiscussionTopics": [
+          "The effectiveness of carbon trading as a climate change mitigation tool.",
+          "Balancing economic development with environmental protection in developing countries."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Which two countries' stance led to the exclusion of most \"zombie credits\" from a new UN carbon market?",
+          "options": [
+            "A) USA and Russia",
+            "B) Germany and France",
+            "C) China and India",
+            "D) Brazil and South Africa"
+          ],
+          "correct": 2,
+          "explanation": "China and India's collective stance influenced the exclusion of most \"zombie credits.\""
+        },
+        {
+          "question": "What are \"zombie credits\" generally criticized for?",
+          "options": [
+            "A) Being too expensive",
+            "B) Not representing genuine emissions reductions",
+            "C) Being difficult to trade",
+            "D) Causing market volatility"
+          ],
+          "correct": 1,
+          "explanation": "\"Zombie credits\" are often criticized for not representing genuine emissions reductions."
+        },
+        {
+          "question": "The new UN carbon market mechanisms are being established under which international agreement?",
+          "options": [
+            "A) Montreal Protocol",
+            "B) Kyoto Protocol",
+            "C) Paris Agreement",
+            "D) Vienna Convention"
+          ],
+          "correct": 2,
+          "explanation": "New carbon market mechanisms are being established under Article 6 of the Paris Agreement."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-up-cashless-health",
+      "topic": "Social Schemes & Health",
+      "text": "Uttar Pradesh launched a cashless health scheme for 12 lakh teachers and education staff, providing them with access to quality healthcare services without upfront payments.",
+      "publicationDate": "2026-07-17",
+      "originalSource": "India Today",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "Uttar Pradesh launched a cashless health scheme.",
+        "Covers 12 lakh teachers and education staff.",
+        "Provides access to quality healthcare services.",
+        "Aims to reduce financial burden on beneficiaries."
+      ],
+      "quickSummary": "Uttar Pradesh has introduced a new cashless health scheme, extending comprehensive healthcare benefits to approximately 12 lakh teachers and education staff across the state. This initiative aims to alleviate the financial burden of medical expenses, ensuring that a significant segment of the workforce has access to quality healthcare services without out-of-pocket payments at the point of service.",
+      "detailedAnalysis": "The launch of a cashless health scheme for teachers and education staff in Uttar Pradesh is a significant welfare measure. Such schemes are crucial for providing social security and improving the well-being of government employees. Cashless healthcare allows beneficiaries to receive treatment at empanelled hospitals without immediate payment, with the costs directly settled by the insurance provider or the state government. This reduces financial stress during medical emergencies and ensures timely access to necessary care. The scheme is expected to boost morale among the education workforce, which is vital for the state's human resource development. It also aligns with the broader national goal of achieving universal health coverage.",
+      "backgroundContext": "Many state governments and the central government operate various health insurance and cashless treatment schemes for their employees and citizens (e.g., Ayushman Bharat). Uttar Pradesh, being India's most populous state, faces significant challenges in healthcare provision. This scheme is part of its efforts to strengthen social welfare programs.",
+      "strategicImportance": "Improves social welfare and human capital development in a large state, contributing to overall national health and education outcomes.",
+      "staticGkConnection": "Uttar Pradesh Government Schemes, Cashless Healthcare, Social Security, Health Insurance, Ayushman Bharat.",
+      "stakeholders": [
+        "Government of Uttar Pradesh",
+        "Teachers",
+        "Education Staff",
+        "Hospitals",
+        "Insurance Providers"
+      ],
+      "relatedTopics": [
+        "[[Uttar Pradesh]]",
+        "[[Social Welfare Schemes]]",
+        "[[Healthcare in India]]",
+        "[[Education Sector]]",
+        "[[Government Employees]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Low",
+        "CAPF": "High",
+        "UPSC": "Very High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Which state launched a cashless health scheme for teachers?",
+          "What is the benefit of a cashless health scheme?"
+        ],
+        "interviewQuestions": [
+          "Discuss the importance of social security schemes for government employees.",
+          "How do cashless health schemes contribute to universal health coverage?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of state governments in providing welfare benefits.",
+          "Challenges in implementing large-scale health schemes."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Which state recently launched a cashless health scheme for its teachers and education staff?",
+          "options": [
+            "A) Rajasthan",
+            "B) Madhya Pradesh",
+            "C) Uttar Pradesh",
+            "D) Bihar"
+          ],
+          "correct": 2,
+          "explanation": "Uttar Pradesh launched a cashless health scheme for 12 lakh teachers and education staff."
+        },
+        {
+          "question": "Approximately how many beneficiaries are covered under Uttar Pradesh's new cashless health scheme?",
+          "options": [
+            "A) 1.2 lakh",
+            "B) 5 lakh",
+            "C) 12 lakh",
+            "D) 20 lakh"
+          ],
+          "correct": 2,
+          "explanation": "The scheme covers 12 lakh teachers and education staff."
+        },
+        {
+          "question": "What is a primary advantage of a cashless health scheme for beneficiaries?",
+          "options": [
+            "A) It provides free education",
+            "B) It eliminates the need for upfront payments at hospitals",
+            "C) It offers housing subsidies",
+            "D) It guarantees a government job"
+          ],
+          "correct": 1,
+          "explanation": "Cashless healthcare allows beneficiaries to receive treatment without immediate payment, with costs settled by the provider."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-rbi-monsoon-risk",
+      "topic": "Economy",
+      "text": "RBI Governor Shaktikanta Das stated that India's economy remains strong despite fears of a weak monsoon and geopolitical tensions in West Asia, while affirming the rupee situation is normal.",
+      "publicationDate": "2026-07-17",
+      "originalSource": "India.Com (citing RBI Governor)",
+      "relatedOfficialDocuments": "N/A (based on news report)",
+      "upscHighlights": [
+        "RBI Governor addresses economic risks for India.",
+        "Identifies weak monsoon and West Asia tensions as key concerns.",
+        "Affirms strength of Indian economy and stability of rupee.",
+        "Crucial for understanding India's economic outlook."
+      ],
+      "quickSummary": "RBI Governor Shaktikanta Das reassured that the Indian economy remains robust, and the rupee situation is normal, even as he highlighted potential risks from a weak monsoon and geopolitical tensions in West Asia. His statement provides an official assessment of India's economic resilience against external and internal challenges.",
+      "detailedAnalysis": "The RBI Governor's statement is significant as it provides an official assessment of the Indian economy's health and the challenges it faces. A weak monsoon can severely impact agricultural output, rural demand, and inflation, posing a risk to overall economic growth. Geopolitical tensions, particularly in West Asia, can disrupt global supply chains, increase crude oil prices, and affect trade, thereby impacting India's import bill and current account deficit. The Governor's affirmation of the rupee's stability and the economy's strength aims to instill confidence in markets and investors. This reflects the RBI's proactive stance in monitoring and managing macroeconomic stability amidst global uncertainties.",
+      "backgroundContext": "India's economy is heavily reliant on the monsoon for agriculture, which employs a large portion of the population. Global crude oil prices and geopolitical stability in West Asia are critical for India, a major oil importer. The RBI regularly assesses these factors to formulate monetary policy and maintain financial stability.",
+      "strategicImportance": "Provides insight into India's economic resilience and the key vulnerabilities being monitored by the central bank, influencing investor confidence and policy decisions.",
+      "staticGkConnection": "Reserve Bank of India (RBI), Monetary Policy, Indian Monsoon, Geopolitics and Economy, Inflation.",
+      "stakeholders": [
+        "Reserve Bank of India",
+        "Government of India",
+        "Businesses",
+        "Farmers",
+        "Investors",
+        "General Public"
+      ],
+      "relatedTopics": [
+        "[[Indian Economy]]",
+        "[[Monetary Policy]]",
+        "[[Inflation]]",
+        "[[Geopolitical Risks]]",
+        "[[Agricultural Sector]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Very High",
+        "AFCAT": "Medium",
+        "CAPF": "Very High",
+        "UPSC": "Very High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the two main risks to the Indian economy highlighted by the RBI Governor?",
+          "How does a weak monsoon affect the Indian economy?"
+        ],
+        "interviewQuestions": [
+          "Discuss the role of the RBI in maintaining economic stability amidst external shocks.",
+          "Analyze the impact of West Asian geopolitical tensions on India's economy."
+        ],
+        "ssbDiscussionTopics": [
+          "India's economic resilience in a volatile global environment.",
+          "Strategies to mitigate the impact of climate change on agriculture."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Which two factors did the RBI Governor identify as key risks to the Indian economy in July 2026?",
+          "options": [
+            "A) Strong monsoon and stable global trade",
+            "B) Weak monsoon and West Asia tensions",
+            "C) High domestic demand and low inflation",
+            "D) Robust manufacturing and strong exports"
+          ],
+          "correct": 1,
+          "explanation": "RBI Governor Shaktikanta Das highlighted fears of a weak monsoon and geopolitical tensions in West Asia as key risks."
+        },
+        {
+          "question": "What was the RBI Governor's assessment of the Indian rupee's situation?",
+          "options": [
+            "A) Highly volatile",
+            "B) Under severe pressure",
+            "C) Normal and stable",
+            "D) Requiring immediate intervention"
+          ],
+          "correct": 2,
+          "explanation": "The Governor affirmed that the rupee situation is \"normal.\""
+        },
+        {
+          "question": "A weak monsoon primarily impacts which sector of the Indian economy?",
+          "options": [
+            "A) Manufacturing",
+            "B) Services",
+            "C) Agriculture",
+            "D) Information Technology"
+          ],
+          "correct": 2,
+          "explanation": "The Indian economy is heavily reliant on the monsoon for agriculture, making it the primary sector impacted by weak rains."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-ex-dweep-shakti",
+      "topic": "Defence & Security",
+      "text": "The Andaman and Nicobar Command (ANC) successfully conducted 'Exercise Dweep Shakti 2026', a multi-domain joint warfighting exercise, demonstrating enhanced operational readiness and synergy among the tri-services.",
+      "publicationDate": "2026-07-17",
+      "originalSource": "ANDAMAN SHEEKHA",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "Andaman and Nicobar Command (ANC) conducted 'Ex Dweep Shakti 2026'.",
+        "Multi-domain joint warfighting exercise.",
+        "Demonstrates tri-service synergy and operational readiness.",
+        "Highlights strategic importance of Andaman & Nicobar Islands."
+      ],
+      "quickSummary": "The Andaman and Nicobar Command (ANC) successfully concluded 'Exercise Dweep Shakti 2026', a comprehensive multi-domain joint warfighting exercise. This exercise showcased the integrated operational capabilities of the Army, Navy, and Air Force in the strategically vital Andaman and Nicobar Islands, reinforcing India's defence posture in the Indo-Pacific region.",
+      "detailedAnalysis": "'Exercise Dweep Shakti 2026' is a critical demonstration of India's growing capabilities in multi-domain warfare and joint operations. The Andaman and Nicobar Command (ANC) is India's only tri-service command, making it uniquely positioned to conduct such integrated exercises. The exercise likely involved elements of land, sea, and air forces, focusing on aspects like amphibious landings, air defence, maritime surveillance, and rapid response. Its conduct in the Andaman and Nicobar Islands underscores the strategic importance of these islands as a forward operating base for projecting power and ensuring maritime security in the eastern Indian Ocean and the wider Indo-Pacific region, especially in the context of increasing Chinese presence.",
+      "backgroundContext": "The Andaman and Nicobar Islands are strategically located at the junction of the Bay of Bengal and the Andaman Sea, commanding vital sea lanes of communication. The ANC was established in 2001 to enhance India's strategic reach and operational capabilities in the region. Regular exercises like 'Dweep Shakti' are crucial for maintaining readiness and refining joint doctrines.",
+      "strategicImportance": "Reinforces India's military presence and operational capabilities in a critical geopolitical region, contributing to maritime security and power projection in the Indo-Pacific.",
+      "staticGkConnection": "Andaman and Nicobar Command (ANC), Tri-service Command, Joint Military Exercises, Indo-Pacific Strategy, Maritime Security.",
+      "stakeholders": [
+        "Indian Armed Forces (Army, Navy, Air Force)",
+        "Andaman and Nicobar Command",
+        "Ministry of Defence"
+      ],
+      "relatedTopics": [
+        "[[Andaman and Nicobar Islands]]",
+        "[[Indo-Pacific]]",
+        "[[Joint Military Exercises]]",
+        "[[Maritime Security]]",
+        "[[Indian Defence Strategy]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Very High",
+        "CDS": "Very High",
+        "AFCAT": "Very High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of 'Exercise Dweep Shakti 2026'?",
+          "Where is the Andaman and Nicobar Command located?"
+        ],
+        "interviewQuestions": [
+          "Discuss the strategic importance of the Andaman and Nicobar Islands for India's defence.",
+          "How do joint exercises enhance the capabilities of the Indian Armed Forces?"
+        ],
+        "ssbDiscussionTopics": [
+          "India's role as a net security provider in the Indian Ocean Region.",
+          "Challenges and opportunities for tri-service integration."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Which Indian military command conducted 'Exercise Dweep Shakti 2026'?",
+          "options": [
+            "A) Western Naval Command",
+            "B) Eastern Air Command",
+            "C) Andaman and Nicobar Command",
+            "D) Southern Army Command"
+          ],
+          "correct": 2,
+          "explanation": "The Andaman and Nicobar Command (ANC) conducted 'Exercise Dweep Shakti 2026'."
+        },
+        {
+          "question": "What type of exercise was 'Dweep Shakti 2026'?",
+          "options": [
+            "A) A bilateral naval exercise",
+            "B) A multi-domain joint warfighting exercise",
+            "C) A humanitarian aid and disaster relief exercise",
+            "D) A cyber warfare simulation"
+          ],
+          "correct": 1,
+          "explanation": "It was a multi-domain joint warfighting exercise, demonstrating synergy among the tri-services."
+        },
+        {
+          "question": "The Andaman and Nicobar Command is unique in India for being what type of command?",
+          "options": [
+            "A) The oldest command",
+            "B) The largest command",
+            "C) The only tri-service command",
+            "D) The only command focused on cyber warfare"
+          ],
+          "correct": 2,
+          "explanation": "The Andaman and Nicobar Command (ANC) is India's only tri-service command."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-india-nz-trade",
+      "topic": "International Relations & Economy",
+      "text": "New Zealand and India signed a new trade agreement, signaling a foreign policy shift for New Zealand towards deeper engagement with India and the Indo-Pacific region.",
+      "publicationDate": "2026-07-17",
+      "originalSource": "The Diplomat – Asia-Pacific",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "India and New Zealand signed a new trade agreement.",
+        "Reflects New Zealand's foreign policy shift towards India.",
+        "Aims for deeper engagement in the Indo-Pacific region.",
+        "Boosts bilateral trade and economic ties."
+      ],
+      "quickSummary": "India and New Zealand have formalized a new trade agreement, which is seen as a significant foreign policy reorientation for New Zealand. This agreement underscores New Zealand's intent to strengthen its economic and strategic ties with India, particularly within the dynamic Indo-Pacific region, fostering greater bilateral cooperation and trade.",
+      "detailedAnalysis": "The trade agreement between India and New Zealand is a notable development in their bilateral relations and New Zealand's broader foreign policy. For New Zealand, this agreement signifies a strategic pivot towards diversifying its economic partnerships and increasing its footprint in the Indo-Pacific, moving beyond traditional alliances. For India, it opens up new markets and strengthens its engagement with Oceania, aligning with its 'Act East' policy and Indo-Pacific vision. The agreement is expected to boost trade in goods and services, facilitate investment, and foster cooperation in areas like agriculture, education, and technology. It also contributes to the evolving geopolitical landscape of the Indo-Pacific, where countries are seeking to build resilient supply chains and counter-balance regional influences.",
+      "backgroundContext": "India and New Zealand have had cordial relations, but economic ties have historically been modest compared to other partners. New Zealand has been exploring ways to enhance its engagement with fast-growing Asian economies. This agreement comes amidst a global trend of countries seeking to strengthen trade and strategic partnerships in the Indo-Pacific region.",
+      "strategicImportance": "Deepens India's economic and strategic ties with a key Indo-Pacific partner, contributing to regional stability and economic integration.",
+      "staticGkConnection": "India-New Zealand Relations, Trade Agreements, Indo-Pacific Strategy, Foreign Policy Shifts, Bilateral Trade.",
+      "stakeholders": [
+        "Governments of India and New Zealand",
+        "Businesses",
+        "Exporters",
+        "Importers",
+        "Regional Trading Blocs"
+      ],
+      "relatedTopics": [
+        "[[India-New Zealand Relations]]",
+        "[[Trade Policy]]",
+        "[[Indo-Pacific]]",
+        "[[Foreign Policy]]",
+        "[[Bilateral Agreements]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Very High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Very High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the new trade agreement between India and New Zealand?",
+          "How does this agreement reflect a foreign policy shift for New Zealand?"
+        ],
+        "interviewQuestions": [
+          "Discuss the broader implications of New Zealand's foreign policy reorientation towards the Indo-Pacific.",
+          "Analyze the potential benefits of this trade agreement for both India and New Zealand."
+        ],
+        "ssbDiscussionTopics": [
+          "The role of trade agreements in shaping geopolitical alliances.",
+          "India's growing influence in the Indo-Pacific region."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "With which country did India recently sign a new trade agreement, reflecting a foreign policy shift for that nation?",
+          "options": [
+            "A) Australia",
+            "B) Japan",
+            "C) New Zealand",
+            "D) South Korea"
+          ],
+          "correct": 2,
+          "explanation": "India and New Zealand signed a new trade agreement, signaling a foreign policy shift for New Zealand."
+        },
+        {
+          "question": "The trade agreement is seen as New Zealand's move towards deeper engagement in which region?",
+          "options": [
+            "A) European Union",
+            "B) African Continent",
+            "C) Indo-Pacific region",
+            "D) Latin America"
+          ],
+          "correct": 2,
+          "explanation": "The agreement reflects New Zealand's intent for deeper engagement in the Indo-Pacific region."
+        },
+        {
+          "question": "What is a potential benefit for India from this trade agreement?",
+          "options": [
+            "A) Increased military aid",
+            "B) Access to new markets",
+            "C) Exclusive oil exploration rights",
+            "D) Visa-free travel for all citizens"
+          ],
+          "correct": 1,
+          "explanation": "The agreement is expected to boost trade, opening up new markets for India."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-rbi-nri-norms",
+      "topic": "Economy & Finance",
+      "text": "The Reserve Bank of India (RBI) eased investment norms for Non-Resident Indians (NRIs), a move expected to boost foreign capital inflow and strengthen the Indian economy.",
+      "publicationDate": "2026-07-16",
+      "originalSource": "NDTV (citing RBI)",
+      "relatedOfficialDocuments": "RBI Circular/Notification",
+      "upscHighlights": [
+        "RBI eased investment norms for Non-Resident Indians (NRIs).",
+        "Aims to boost foreign capital inflow into India.",
+        "Expected to strengthen the Indian economy.",
+        "Impacts foreign exchange reserves and financial markets."
+      ],
+      "quickSummary": "The Reserve Bank of India (RBI) has relaxed investment regulations for Non-Resident Indians (NRIs), a strategic decision anticipated to attract greater foreign capital into the country. This policy adjustment is designed to bolster the Indian economy by enhancing liquidity, supporting financial markets, and potentially strengthening the rupee.",
+      "detailedAnalysis": "The easing of investment norms for NRIs by the RBI is a significant policy decision aimed at attracting more foreign capital. NRIs are a crucial source of foreign exchange remittances and investments for India. By simplifying regulations, the RBI seeks to make it more attractive for NRIs to invest in various Indian assets, including real estate, equities, and bonds. This influx of capital can help shore up India's foreign exchange reserves, stabilize the rupee, and provide much-needed liquidity to domestic markets. It also reflects the government's broader strategy to liberalize the economy and integrate it further with global financial systems. The move is expected to have a positive impact on India's balance of payments and overall economic growth.",
+      "backgroundContext": "The RBI periodically reviews and adjusts foreign exchange management regulations to align with economic conditions and policy objectives. NRIs have always been a significant contributor to India's economy through remittances and investments. Previous governments have also introduced measures to facilitate NRI investments. This current easing comes in the context of global economic uncertainties and the need to maintain robust capital inflows.",
+      "strategicImportance": "Crucial for enhancing foreign capital inflows, strengthening the Indian economy, and maintaining financial stability amidst global economic fluctuations.",
+      "staticGkConnection": "Reserve Bank of India (RBI), Non-Resident Indians (NRIs), Foreign Direct Investment (FDI), Foreign Institutional Investment (FII), Foreign Exchange Management Act (FEMA), Indian Economy.",
+      "stakeholders": [
+        "Reserve Bank of India",
+        "Ministry of Finance",
+        "Non-Resident Indians",
+        "Indian Banks",
+        "Financial Markets",
+        "Businesses"
+      ],
+      "relatedTopics": [
+        "[[Indian Economy]]",
+        "[[Foreign Exchange Management]]",
+        "[[NRI Investments]]",
+        "[[Capital Inflows]]",
+        "[[Financial Markets]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Very High",
+        "AFCAT": "Medium",
+        "CAPF": "Very High",
+        "UPSC": "Very High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the purpose of RBI easing investment norms for NRIs?",
+          "How do NRI investments benefit the Indian economy?"
+        ],
+        "interviewQuestions": [
+          "Discuss the role of NRIs in India's economic development.",
+          "Analyze the potential impact of relaxed investment norms on India's foreign exchange reserves and financial markets."
+        ],
+        "ssbDiscussionTopics": [
+          "Strategies to attract foreign capital for national development.",
+          "The challenges and opportunities of globalized financial markets for India."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Which entity recently eased investment norms for Non-Resident Indians (NRIs)?",
+          "options": [
+            "A) Ministry of Finance",
+            "B) SEBI",
+            "C) Reserve Bank of India (RBI)",
+            "D) NITI Aayog"
+          ],
+          "correct": 2,
+          "explanation": "The Reserve Bank of India (RBI) eased investment norms for NRIs."
+        },
+        {
+          "question": "The primary objective of easing investment norms for NRIs is to:",
+          "options": [
+            "A) Increase domestic consumption",
+            "B) Boost foreign capital inflow",
+            "C) Reduce government expenditure",
+            "D) Promote local manufacturing"
+          ],
+          "correct": 1,
+          "explanation": "The move is expected to boost foreign capital inflow and strengthen the Indian economy."
+        },
+        {
+          "question": "What is a potential positive impact of increased NRI investments on India's economy?",
+          "options": [
+            "A) Decrease in foreign exchange reserves",
+            "B) Weakening of the rupee",
+            "C) Strengthening of the rupee and financial markets",
+            "D) Increase in unemployment"
+          ],
+          "correct": 2,
+          "explanation": "Increased capital inflow can help shore up India's foreign exchange reserves, stabilize the rupee, and provide liquidity to domestic markets."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-mha-i4c-rules",
+      "topic": "Governance & Security",
+      "text": "The Ministry of Home Affairs (MHA) proposed new recruitment rules for top posts at the Indian Cybercrime Coordination Centre (I4C) and invited stakeholder feedback, aiming to strengthen its operational framework.",
+      "publicationDate": "2026-07-15",
+      "originalSource": "10net.in (citing MHA)",
+      "relatedOfficialDocuments": "N/A (based on news report)",
+      "upscHighlights": [
+        "MHA proposes recruitment rules for I4C top posts.",
+        "Aims to strengthen India's cybercrime coordination capabilities.",
+        "Invites stakeholder feedback for transparency and effectiveness.",
+        "Crucial for national cybersecurity infrastructure."
+      ],
+      "quickSummary": "The Ministry of Home Affairs (MHA) has initiated a process to formalize recruitment rules for key positions within the Indian Cybercrime Coordination Centre (I4C). This move, which includes inviting public feedback, is aimed at enhancing the operational efficiency and institutional strength of I4C, a critical body in India's fight against cybercrime.",
+      "detailedAnalysis": "The proposal of recruitment rules for top I4C posts by the MHA is a crucial step towards professionalizing and strengthening India's cybercrime response mechanism. I4C, established to provide a framework for law enforcement agencies to tackle cybercrime, requires highly skilled and specialized personnel. Formalizing recruitment rules ensures transparency, merit-based selection, and stability in leadership, which are vital for an organization dealing with rapidly evolving cyber threats. Inviting stakeholder feedback also promotes good governance and ensures that the rules are comprehensive and address the practical needs of cybercrime investigation and prevention. This initiative underscores the government's commitment to bolstering national cybersecurity infrastructure.",
+      "backgroundContext": "The Indian Cybercrime Coordination Centre (I4C) was established in 2018 under the MHA to act as a nodal point in the fight against cybercrime. It integrates various cybercrime initiatives, including the National Cybercrime Reporting Portal. Effective staffing and clear recruitment policies are essential for its long-term success and operational effectiveness.",
+      "strategicImportance": "Enhances India's capabilities in combating cybercrime, protecting digital infrastructure, and ensuring national security in the digital domain.",
+      "staticGkConnection": "Indian Cybercrime Coordination Centre (I4C), Ministry of Home Affairs (MHA), National Cybersecurity Strategy, Cybercrime Laws in India.",
+      "stakeholders": [
+        "Ministry of Home Affairs",
+        "I4C",
+        "Law Enforcement Agencies",
+        "Cybersecurity Experts",
+        "Public"
+      ],
+      "relatedTopics": [
+        "[[Cybersecurity in India]]",
+        "[[Cybercrime]]",
+        "[[National Security]]",
+        "[[Digital India]]",
+        "[[Government Recruitment]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Very High",
+        "AFCAT": "High",
+        "CAPF": "Very High",
+        "UPSC": "Very High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the full form of I4C?",
+          "Why is the MHA proposing new recruitment rules for I4C?"
+        ],
+        "interviewQuestions": [
+          "Discuss the importance of a robust institutional framework for combating cybercrime in India.",
+          "How does I4C contribute to India's national security?"
+        ],
+        "ssbDiscussionTopics": [
+          "Challenges in recruiting specialized personnel for cybersecurity roles in government.",
+          "The evolving nature of cyber threats and India's preparedness."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "The MHA recently proposed recruitment rules for top posts in which national body?",
+          "options": [
+            "A) National Disaster Response Force (NDRF)",
+            "B) Indian Cybercrime Coordination Centre (I4C)",
+            "C) National Investigation Agency (NIA)",
+            "D) Central Bureau of Investigation (CBI)"
+          ],
+          "correct": 1,
+          "explanation": "The MHA proposed recruitment rules for top posts at the Indian Cybercrime Coordination Centre (I4C)."
+        },
+        {
+          "question": "What is the primary objective behind formalizing recruitment rules for I4C?",
+          "options": [
+            "A) To reduce the budget of the MHA",
+            "B) To increase political appointments",
+            "C) To enhance operational efficiency and institutional strength",
+            "D) To privatize cybercrime investigation"
+          ],
+          "correct": 2,
+          "explanation": "Formalizing recruitment rules aims to enhance operational efficiency and institutional strength by ensuring transparent, merit-based selection."
+        },
+        {
+          "question": "Under which ministry was the Indian Cybercrime Coordination Centre (I4C) established?",
+          "options": [
+            "A) Ministry of Electronics and Information Technology",
+            "B) Ministry of Defence",
+            "C) Ministry of Home Affairs",
+            "D) Ministry of External Affairs"
+          ],
+          "correct": 2,
+          "explanation": "I4C was established under the Ministry of Home Affairs (MHA)."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-wb-nep-pmshri",
+      "topic": "Government Schemes & Policy",
+      "text": "West Bengal announced its decision to implement the National Education Policy (NEP) and the PM-SHRI scheme, signaling a significant alignment with national educational reforms.",
+      "publicationDate": "2026-07-14",
+      "originalSource": "DD India",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "West Bengal to implement National Education Policy (NEP).",
+        "State also adopts PM-SHRI scheme for school upgradation.",
+        "Signifies alignment with national education reforms.",
+        "Impacts education infrastructure and quality in West Bengal."
+      ],
+      "quickSummary": "West Bengal's CM Suvendu Adhikari announced the state's decision to implement the National Education Policy (NEP) and the PM-SHRI scheme. This move marks a significant step towards integrating national educational reforms into the state's schooling system, aiming to enhance the quality and infrastructure of education from primary to higher levels.",
+      "detailedAnalysis": "The decision by West Bengal to implement the National Education Policy (NEP) 2020 and the PM-SHRI (PM Schools for Rising India) scheme is a major policy shift. While NEP 2020 aims for comprehensive reforms in India's education system, its implementation has been varied across states. West Bengal's adoption, after initial reservations, indicates a broader consensus on national educational goals. PM-SHRI schools are designed to be model schools, showcasing the full implementation of NEP and providing high-quality education. This move is expected to bring significant changes to curriculum, pedagogy, assessment, and infrastructure in West Bengal's schools, potentially improving educational outcomes and employability. It also highlights the cooperative federalism aspect of policy implementation in India.",
+      "backgroundContext": "The National Education Policy 2020 was launched to transform India's education system. PM-SHRI scheme, launched in 2022, aims to upgrade over 14,500 schools across India as model schools. Many states initially had differing views on NEP implementation due to state-specific educational policies and concerns over federal autonomy. West Bengal's decision to adopt these schemes is a notable development in this context.",
+      "strategicImportance": "Aligns a major state with national education policy, potentially standardizing and improving educational quality across the country. It's crucial for human resource development and national competitiveness.",
+      "staticGkConnection": "National Education Policy (NEP) 2020, PM-SHRI Scheme, Cooperative Federalism, Education System in India.",
+      "stakeholders": [
+        "Government of West Bengal",
+        "Ministry of Education (GoI)",
+        "Students",
+        "Teachers",
+        "Parents",
+        "School Administrations"
+      ],
+      "relatedTopics": [
+        "[[National Education Policy 2020]]",
+        "[[PM-SHRI Scheme]]",
+        "[[Education Reforms in India]]",
+        "[[State Government Policies]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "Very High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key features of the PM-SHRI scheme?",
+          "What is the significance of West Bengal implementing NEP?"
+        ],
+        "interviewQuestions": [
+          "Discuss the challenges and opportunities for states in implementing the National Education Policy.",
+          "How does the PM-SHRI scheme aim to improve school education?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of central vs. state governments in education policy.",
+          "Impact of national schemes on regional educational disparities."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Which national education scheme, alongside NEP, is West Bengal set to implement?",
+          "options": [
+            "A) Sarva Shiksha Abhiyan",
+            "B) Mid-Day Meal Scheme",
+            "C) PM-SHRI Scheme",
+            "D) Rashtriya Madhyamik Shiksha Abhiyan"
+          ],
+          "correct": 2,
+          "explanation": "West Bengal announced the implementation of both the National Education Policy (NEP) and the PM-SHRI scheme."
+        },
+        {
+          "question": "The implementation of NEP and PM-SHRI in West Bengal signifies what aspect of Indian governance?",
+          "options": [
+            "A) Unitary governance",
+            "B) Centralized planning",
+            "C) Cooperative federalism",
+            "D) State autonomy"
+          ],
+          "correct": 2,
+          "explanation": "The decision highlights cooperative federalism, where states align with national policies for broader development goals."
+        },
+        {
+          "question": "What is the primary objective of the PM-SHRI scheme?",
+          "options": [
+            "A) Providing free textbooks",
+            "B) Upgrading existing schools into model schools",
+            "C) Offering scholarships for higher education",
+            "D) Promoting adult literacy"
+          ],
+          "correct": 1,
+          "explanation": "PM-SHRI (PM Schools for Rising India) aims to upgrade existing schools into model schools that showcase the full implementation of NEP."
+        }
+      ]
+    },
+    {
       "id": "ca_live_2026_07_13_0",
       "topic": "Polity",
       "topicColor": "#007bff",
@@ -2341,6 +3502,95 @@ window.CURRENT_AFFAIRS_DB = {
         "correct": 2,
         "explanation": "61 NCC Cadets from Chandigarh University were commissioned as officers into the Indian Armed Forces."
       }
+    },
+    {
+      "id": "jul-26-iaf-ranking",
+      "topic": "Defence & Security",
+      "text": "The Indian Air Force (IAF) has been ranked as the world's third most powerful independent air force, a testament to its growing capabilities and strategic importance.",
+      "publicationDate": "2026-07-13",
+      "originalSource": "LawStreet Journal (citing a global defence ranking report)",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "Indian Air Force (IAF) ranked 3rd most powerful globally.",
+        "Highlights India's growing air power capabilities.",
+        "Reflects modernization and strategic importance.",
+        "Crucial for national defence and regional security."
+      ],
+      "quickSummary": "The Indian Air Force (IAF) has achieved the distinction of being ranked the world's third most powerful independent air force. This ranking underscores the IAF's significant advancements in terms of technological prowess, operational readiness, and strategic reach, positioning India as a formidable air power on the global stage.",
+      "detailedAnalysis": "The ranking of the Indian Air Force as the third most powerful globally is a significant indicator of India's defence capabilities and its ongoing modernization efforts. This assessment typically considers factors such as the size and quality of the aircraft fleet (e.g., Rafale, Su-30MKI, Tejas), technological sophistication, pilot training, logistical support, and strategic doctrines. The IAF plays a crucial role in India's national security, providing air defence, offensive capabilities, and strategic airlift. This high ranking reflects successful indigenous development programs (like Tejas LCA) and strategic acquisitions, contributing to India's self-reliance in defence. It also enhances India's deterrence capabilities and its ability to project power in the Indo-Pacific region.",
+      "backgroundContext": "The Indian Air Force is one of the largest and most professional air forces in the world. It has been undergoing a significant modernization drive, replacing aging Soviet-era aircraft with modern platforms and enhancing its indigenous manufacturing capabilities. Global defence rankings are often published by various think tanks and defence analysis firms, providing comparative insights into military strengths.",
+      "strategicImportance": "Elevates India's standing as a major military power, enhances its deterrence capabilities, and supports its strategic objectives in the region and globally.",
+      "staticGkConnection": "Indian Air Force (IAF), Air Power, Defence Modernization, Rafale, Su-30MKI, Tejas LCA, Global Military Rankings.",
+      "stakeholders": [
+        "Indian Air Force",
+        "Ministry of Defence",
+        "Government of India",
+        "DRDO",
+        "HAL"
+      ],
+      "relatedTopics": [
+        "[[Indian Air Force]]",
+        "[[Defence Modernization]]",
+        "[[National Security]]",
+        "[[Military Rankings]]",
+        "[[Aerospace Industry in India]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Very High",
+        "CDS": "Very High",
+        "AFCAT": "Very High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the recent global ranking of the Indian Air Force?",
+          "What factors contribute to an air force's power ranking?"
+        ],
+        "interviewQuestions": [
+          "Discuss the significance of India's growing air power for its national security and regional influence.",
+          "How does indigenous manufacturing contribute to the IAF's strength?"
+        ],
+        "ssbDiscussionTopics": [
+          "The future of air warfare and India's preparedness.",
+          "Balancing defence spending with other national priorities."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "What is the recent global ranking achieved by the Indian Air Force?",
+          "options": [
+            "A) First",
+            "B) Second",
+            "C) Third",
+            "D) Fourth"
+          ],
+          "correct": 2,
+          "explanation": "The Indian Air Force has been ranked as the world's third most powerful independent air force."
+        },
+        {
+          "question": "Which of the following aircraft is a prominent indigenous fighter jet in the IAF fleet?",
+          "options": [
+            "A) Rafale",
+            "B) Su-30MKI",
+            "C) Tejas LCA",
+            "D) Mirage 2000"
+          ],
+          "correct": 2,
+          "explanation": "Tejas LCA (Light Combat Aircraft) is an indigenous fighter jet that contributes to the IAF's capabilities."
+        },
+        {
+          "question": "A high global ranking for the IAF primarily indicates what for India?",
+          "options": [
+            "A) Economic dominance",
+            "B) Cultural influence",
+            "C) Growing defence capabilities and strategic importance",
+            "D) Agricultural self-sufficiency"
+          ],
+          "correct": 2,
+          "explanation": "The ranking is a testament to the IAF's growing capabilities and strategic importance in national defence."
+        }
+      ]
     },
     {
       "id": "ca_live_2026_07_02_0",
@@ -2680,6 +3930,95 @@ window.CURRENT_AFFAIRS_DB = {
         "explanation": "The Pad Abort Test validates the crew escape system for the Gaganyaan mission."
       },
       "publicationDate": "2026-07-01"
+    },
+    {
+      "id": "jul-26-india-cricket-olympics",
+      "topic": "Sports",
+      "text": "The Indian women's cricket team secured a quota for the Los Angeles 2028 Olympic Games via the T20 World Cup pathway, marking a historic return for cricket to the Olympics.",
+      "publicationDate": "2026-06-29",
+      "originalSource": "olympics.com",
+      "relatedOfficialDocuments": "N/A",
+      "upscHighlights": [
+        "Indian women's cricket team qualified for LA 2028 Olympics.",
+        "Secured quota via T20 World Cup pathway.",
+        "Marks cricket's historic return to the Olympic Games.",
+        "Significant achievement for Indian sports."
+      ],
+      "quickSummary": "The Indian women's cricket team has successfully secured a qualification spot for the Los Angeles 2028 Olympic Games through their performance in the T20 World Cup. This achievement is particularly significant as it marks cricket's return to the Olympics after a 128-year hiatus, highlighting India's growing prominence in global sports.",
+      "detailedAnalysis": "The qualification of the Indian women's cricket team for the LA 2028 Olympics is a landmark event for Indian sports and global cricket. Cricket was last played at the Olympics in 1900. Its return, particularly in the T20 format, aims to broaden its global appeal. India's qualification through the T20 World Cup pathway underscores the team's consistent performance and the growing strength of women's cricket in the country. This will provide a massive boost to the sport's popularity and development in India, potentially inspiring more young women to take up cricket. The Olympic platform offers unparalleled visibility, which could further professionalize women's cricket and attract more investment.",
+      "backgroundContext": "Cricket's inclusion in the Los Angeles 2028 Olympics was confirmed by the International Olympic Committee (IOC) in 2023. The qualification pathways typically involve performances in major international tournaments. The Indian women's team has been a strong contender in T20 cricket, reaching finals and semi-finals in recent World Cups.",
+      "strategicImportance": "Elevates India's presence in global multi-sport events, boosts the profile of women's cricket, and contributes to India's sporting aspirations on the international stage.",
+      "staticGkConnection": "Los Angeles 2028 Olympics, Cricket in Olympics, Indian Women's Cricket Team, T20 World Cup, International Olympic Committee (IOC).",
+      "stakeholders": [
+        "Indian Women's Cricket Team",
+        "BCCI",
+        "International Olympic Committee (IOC)",
+        "International Cricket Council (ICC)",
+        "Ministry of Youth Affairs and Sports"
+      ],
+      "relatedTopics": [
+        "[[LA 2028 Olympics]]",
+        "[[Cricket]]",
+        "[[Indian Sports Achievements]]",
+        "[[Women in Sports]]",
+        "[[Olympic Games]]"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "For which Olympic Games did the Indian women's cricket team qualify?",
+          "How did the Indian women's cricket team secure its Olympic quota?"
+        ],
+        "interviewQuestions": [
+          "Discuss the significance of cricket's return to the Olympics for India.",
+          "What impact will this have on women's cricket in India?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of sports in national pride and international relations.",
+          "Promoting women's participation in sports."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "The Indian women's cricket team secured a quota for which upcoming Olympic Games?",
+          "options": [
+            "A) Paris 2024",
+            "B) Los Angeles 2028",
+            "C) Brisbane 2032",
+            "D) Tokyo 2020"
+          ],
+          "correct": 1,
+          "explanation": "The Indian women's cricket team qualified for the Los Angeles 2028 Olympic Games."
+        },
+        {
+          "question": "Cricket is returning to the Olympics after how many years with its inclusion in LA 2028?",
+          "options": [
+            "A) 50 years",
+            "B) 75 years",
+            "C) 100 years",
+            "D) 128 years"
+          ],
+          "correct": 3,
+          "explanation": "Cricket was last played at the Olympics in 1900, making its return after 128 years."
+        },
+        {
+          "question": "Through which pathway did the Indian women's cricket team secure its Olympic qualification?",
+          "options": [
+            "A) Direct invitation",
+            "B) Host nation quota",
+            "C) T20 World Cup performance",
+            "D) Test Championship ranking"
+          ],
+          "correct": 2,
+          "explanation": "The team secured its quota via the T20 World Cup pathway."
+        }
+      ]
     }
   ]
 };
