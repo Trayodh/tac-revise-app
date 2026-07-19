@@ -33,4 +33,14 @@ Pairs of Angle 1. Complementary Angles ANGLES An angle is formed by two rays wit
 arm angle vertex arm
 
 
+
+
+## Visual Summary & Diagrams
+
+<img src="/diagrams/mathematics/geometry/1000173659.jpeg" alt="Geometry Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/geometry/1784360994568.png" alt="Geometry Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/geometry/1784361172147.png" alt="Geometry Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/geometry/1784362434816.png" alt="Geometry Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/geometry/1784362658269.png" alt="Geometry Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
 </div>

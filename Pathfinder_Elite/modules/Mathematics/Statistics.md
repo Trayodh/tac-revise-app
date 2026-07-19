@@ -17,4 +17,11 @@ Presentation of Data Raw or Ungrouped data When the data presented is random and
 Grouped data When the data is arranged in any manner like ascending or descending order etc., it is called grouped data. It can also be presented in the form of a table called frequency distribution table. Wages (in `) Number of workers 1. Discrete frequency distribution 999.5-1099.5 1099.5-1199.5 1199.5-1299.5 A frequency distribution is called a discrete frequency distribution, if data are presented in a way such that exact measurements of the units are clearly shown. 1299.5-1399.5 Marks Number of students (frequency) 1399.5-1499.5 1499.5-1599.5 Total 2. Continuous frequency distribution Cumulative frequency If the frequency of first class interval is added to the frequency of second class and this sum is added to third class and so on, then frequencies so obtained are known as cumulative frequency.
 
 
+
+
+## Visual Summary & Diagrams
+
+<img src="/diagrams/mathematics/statistics/1784450070272.png" alt="Statistics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/statistics/1784450169673.png" alt="Statistics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
 </div>

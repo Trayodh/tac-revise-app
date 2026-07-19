@@ -1,0 +1,384 @@
+{
+  "current_affairs": [
+    {
+      "month_year": null,
+      "id": "operation-pawan-srilanka",
+      "topic": "Operation Pawan",
+      "text": "Operation Pawan was conducted in Sri Lanka.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "1988",
+      "id": "operation-cactus-maldives-1988",
+      "topic": "Operation Cactus",
+      "text": "Operation Cactus was conducted in Maldives in 1988.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": null,
+      "id": "operation-shakti",
+      "topic": "Operation Shakti",
+      "text": "Operation Shakti was conducted.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "1999",
+      "id": "operation-talwar-kargil-war-1999",
+      "topic": "Operation Talwar",
+      "text": "Operation Talwar was conducted during the Kargil War in 1999.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "1999",
+      "id": "operation-safed-sagar-kargil-war-1999",
+      "topic": "Operation Safed Sagar",
+      "text": "Operation Safed Sagar was conducted during the Kargil War in 1999.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "2014",
+      "id": "operation-neer-maldives-2014",
+      "topic": "Operation Neer",
+      "text": "Operation Neer was conducted in Maldives in 2014.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "2020",
+      "id": "operation-sanjeevani-2020",
+      "topic": "Operation Sanjeevani",
+      "text": "Operation Sanjeevani was conducted in 2020 as part of India-Maldives Friendship under India's COVID-19 Emergency, following the 'Neighbourhood First' policy.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "2022",
+      "id": "operation-ganga-ukraine-2022",
+      "topic": "Operation Ganga",
+      "text": "Operation Ganga was conducted in Ukraine in 2022.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "2023",
+      "id": "operation-dost-turkey-syria-2023",
+      "topic": "Operation Dost",
+      "text": "Operation Dost was conducted in Turkey and Syria in 2023.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "2023",
+      "id": "operation-kaveri-sudan-2023",
+      "topic": "Operation Kaveri",
+      "text": "Operation Kaveri was conducted in Sudan in 2023.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": null,
+      "id": "operation-samudra-setu",
+      "topic": "Operation Samudra Setu",
+      "text": "Operation Samudra Setu was conducted.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "2023",
+      "id": "operation-ajay-israel-gaza-war-2023",
+      "topic": "Operation Ajay",
+      "text": "Operation Ajay was conducted during the Israel-Gaza War in 2023.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "2023",
+      "id": "operation-karuna-myanmar-2023",
+      "topic": "Operation Karuna",
+      "text": "Operation Karuna was conducted in Myanmar in 2023 as a first responder to HADR (Humanitarian Assistance and Disaster Relief) efforts following Cyclone Mocha.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": null,
+      "id": "operation-urja-suraksha",
+      "topic": "Operation Urja Suraksha",
+      "text": "The Indian Navy launched Operation Urja Suraksha to protect India's energy supply routes in the strategically important Strait of Hormuz amid rising geopolitical tensions in West Asia.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "April 2026",
+      "id": "operation-him-setu-sikkim-2026",
+      "topic": "Operation Him Setu",
+      "text": "On April 9, 2026, the Indian Army launched Operation Him Setu in Sikkim due to a major landslide and heavy snowfall. The Trishakti Corps under the Eastern Command led the operation, focusing on evacuating stranded tourists on the Lachen-Chungthang route. The BRO worked with the army to clear blocked roads, remove snow, and restore connectivity.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "2026 Edition",
+      "id": "operation-777-2026",
+      "topic": "Operation 777",
+      "text": "Operation 777 is a strategic initiative launched in connection with the Kaal Bhairava autonomous combat aircraft programme developed by Flying Wedge Defence & Aerospace (FWDA). The initiative focuses on creating manufacturing and integration partnerships across 7 continents and 77 countries, strengthening India's global defence manufacturing presence.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": null,
+      "id": "operation-amistad-venezuela",
+      "topic": "Operation Amistad",
+      "text": "Operation Amistad is India's humanitarian mission to aid Venezuela after an earthquake. The mission includes relief supplies, medical equipment, portable hospitals, and rescue teams under a HADR framework. The Indian Air Force used C-17 Globemaster aircraft for transporting aid and personnel.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": null,
+      "id": "indian-army-ladakh-forest-department-mou",
+      "topic": "Indian Army and Ladakh Forest Department MoU",
+      "text": "The Indian Army and the Ladakh Forest Department signed a Memorandum of Understanding to strengthen wildlife conservation efforts in fragile high-altitude ecosystems.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "2035",
+      "id": "mission-mitra-ladakh-2035",
+      "topic": "Mission Mitra",
+      "text": "Ladakh has been chosen as the location for the Mission Mitra high-altitude experiment due to its extreme environmental conditions, including low oxygen levels and freezing temperatures. This initiative supports India's Gaganyaan program by preparing astronauts for real space missions, enhancing their ability to operate effectively under stress and in isolated conditions. It is also mentioned as 'Bharat Antariksh by station - 2035'.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": null,
+      "id": "bel-mountain-radars-contract",
+      "topic": "Bharat Electronics Limited (BEL) contract for Mountain Radars",
+      "text": "BEL signed a significant contract with the Ministry of Defence to supply Mountain Radars to the Indian Air Force. Bharat Electronics Limited will manufacture these radars, designed by DRDO's LRDE. The advanced systems enhance air defense and surveillance in high-altitude regions, strengthening national security.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": null,
+      "id": "sikkim-sundari-community-radio",
+      "topic": "Sikkim Sundari",
+      "text": "Sikkim became the location for the launch of the first community radio station in a border village by the Indian Army's Trishakti Corps. Named 'Sikkim Sundari', the station aims to enhance communication in remote high-altitude areas by broadcasting local news, weather updates, and government schemes.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "April 2026",
+      "id": "f414-jet-engines-co-production-2026",
+      "topic": "F414 Jet Engines co-production",
+      "text": "In April 2026, GE Aerospace entered into a significant technical agreement with Hindustan Aeronautics Limited (HAL) for the co-production of F414 jet engines in India. This collaboration aims to strengthen India-U.S. defence manufacturing ties and enhance indigenous production capabilities.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": null,
+      "id": "madhavan-nair-strategic-defence-advisor",
+      "topic": "Strategic Defence Advisor by Synergy Quantum",
+      "text": "Madhavan Nair, a retired Lieutenant General with extensive experience in military communications and cybersecurity, was appointed as the Strategic Defence Advisor by Synergy Quantum.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "May 2026",
+      "id": "joint-commanders-conference-2026",
+      "topic": "Joint Commanders' Conference",
+      "text": "The second edition of the Joint Commanders' Conference is scheduled to be held in Jaipur, Rajasthan, on May 07 and May 08, 2026. The conference focuses on the theme 'Military Capability in New Domains' and brings together top defence leadership, including Raksha Mantri Rajnath Singh and Chief of Defence Staff General Anil Chauhan.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "May 2026",
+      "id": "scramjet-combustor-test-2026",
+      "topic": "Actively Cooled Full Scale Scramjet Combustor",
+      "text": "On May 09, 2026, DRDO successfully tested an Actively Cooled Full Scale Scramjet Combustor for hypersonic missile technology. The test, conducted at the Scramjet Connect Pipe Test Facility in Hyderabad, achieved over 1,200 seconds of continuous engine runtime, exceeding the previous benchmark from January 2026.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": null,
+      "id": "kalam-kavach-conference",
+      "topic": "Kalam & Kavach strategic defence conference",
+      "text": "The third edition of the Kalam & Kavach strategic defence conference was inaugurated at the Manekshaw Centre in New Delhi by Raksha Rajya Mantri Shri Sanjay Seth. The conference focused on the vision of Jointness, Aatmanirbharta, and Innovation (JAI), while promoting indigenisation and international collaboration in defence technologies.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "May 2026",
+      "id": "unmanned-mine-counter-measure-suite-2026",
+      "topic": "Advanced Unmanned Mine Counter-Measure (MCM) Suite",
+      "text": "L&T partnered with France-based Exail on May 18, 2026, to provide an advanced Unmanned Mine Counter-Measure (MCM) Suite for the Indian Navy. The project is linked to India's proposed procurement of 12 Mine Counter Measure Vessels aimed at enhancing maritime security capabilities.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "May 2026",
+      "id": "squadron-leader-saanya-qfi-rating",
+      "topic": "Squadron Leader Saanya",
+      "text": "Squadron Leader Saanya became the first woman officer in the history of the Indian Air Force to achieve the prestigious Category-A Qualified Flying Instructor (QFI) rating on May 18, 2026. The qualification represents the highest instructional grading in military aviation and certifies pilots to train new aviators, operational pilots, and junior instructors.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "May 2026",
+      "id": "all-women-mount-everest-expedition-2026",
+      "topic": "All-Women International Mount Everest Expedition",
+      "text": "The Indo-Tibetan Border Police (ITBP) successfully completed its first-ever all-women international Mount Everest expedition on May 21, 2026. The 14-member team, comprising 11 women climbers and 3 technical support members, reached the summit of Mount Everest via the South Col Route from Nepal.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "May 2024",
+      "id": "kautilya-q-force-ai-platforms-2024",
+      "topic": "Kautilya and Q-FORCE AI platforms",
+      "text": "The Indian Army launched two indigenous AI platforms named Kautilya and Q-FORCE to strengthen data-driven decision-making and improve operational efficiency. Q-FORCE focuses on logistics optimisation, inventory control, and sustainment support across diverse terrains, ensuring efficient resource management in operations.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "May 2026",
+      "id": "su-30-mki-predictive-maintenance-2026",
+      "topic": "SU-30 MKI Fighter Aircraft Fleet predictive maintenance",
+      "text": "The Indian Air Force (IAF) signed three contracts with IIT Bombay on May 29, 2026, to implement predictive maintenance solutions for the Su-30 MKI fighter aircraft fleet. The initiative focuses on prognostic and prescriptive maintenance techniques aimed at reducing service costs and improving aircraft availability and operational lifespan.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": null,
+      "id": "major-prabhat-mishra-honours",
+      "topic": "Major Prabhat Mishra",
+      "text": "Major Prabhat Mishra of the Indian Army earned two prestigious academic honours during the graduation ceremony of the US Army Command and General Staff College (CGSC) held at Fort Leavenworth, Kansas.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "month_year": "June 2026",
+      "id": "acv-h-561-induction-2026",
+      "topic": "Air Cushion Vehicle (ACV) H-561 Induction",
+      "text": "The Indian Coast Guard inducted its first indigenous Air Cushion Vehicle (hovercraft) H-561 in Goa in June 2026 to enhance maritime capabilities. It was designed and built by Chowgule & Company Private Limited as part of the Aatmanirbhar Bharat initiative.",
+      "details": {},
+      "mcq": null
+    }
+  ],
+  "equipment": [
+    {
+      "name": "C-17 Globemaster",
+      "branch": "Air Force",
+      "origin": null,
+      "type": "Transport Aircraft",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "Air Droppable Container (ADC-150)",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Container",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "Mountain Radars",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "Radar",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "ASRAAM (Advanced Short Range Air-to-Air Missile)",
+      "branch": "Air Force",
+      "origin": null,
+      "type": "Air-to-Air Missile",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "F414 Jet Engines",
+      "branch": "Air Force",
+      "origin": "India (co-production with GE Aerospace)",
+      "type": "Jet Engine",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "LM2500 Gas Turbine Infrared Suppression System",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Suppression System",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "Actively Cooled Full Scale Scramjet Combustor",
+      "branch": "DRDO",
+      "origin": null,
+      "type": "Engine Component",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "Advanced Unmanned Mine Counter-Measure (MCM) Suite",
+      "branch": "Navy",
+      "origin": "France (Exail) / India (L&T)",
+      "type": "Mine Countermeasure System",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "Suryastra Universal Rocket Launcher",
+      "branch": "Defence",
+      "origin": "India (Nibe Limited)",
+      "type": "Rocket Launcher",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "Ballistic Missile Defence (BMD) System",
+      "branch": "DRDO",
+      "origin": null,
+      "type": "Missile Defence System",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "Naval Anti-Ship Missile-Medium Range (NASM-MR)",
+      "branch": "Navy",
+      "origin": null,
+      "type": "Anti-Ship Missile",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "Air Cushion Vehicle (ACV) H-561",
+      "branch": "Coast Guard",
+      "origin": "India (Chowgule & Company Private Limited)",
+      "type": "Hovercraft",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "SEPECAT Jaguar Fighter Aircraft",
+      "branch": "Air Force",
+      "origin": "United Kingdom",
+      "type": "Fighter Aircraft",
+      "quantity": "9",
+      "wikiLink": null
+    },
+    {
+      "name": "SU-30 MKI Fighter Aircraft",
+      "branch": "Air Force",
+      "origin": null,
+      "type": "Fighter Aircraft",
+      "quantity": null,
+      "wikiLink": null
+    }
+  ],
+  "military_exercises": [],
+  "notes": []
+}

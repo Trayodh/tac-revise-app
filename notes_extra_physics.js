@@ -1240,3 +1240,40 @@ EXPANDED_NOTES_DATA["physics-units-everyday"] = `
 </div>
 `;
 
+
+
+window.EXPANDED_NOTES_DATA["indian-naval-ship-types-and-classes"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Indian Naval Ship Types and Classes</h2>
+  <h2>Indian Naval Ship Types and Classes</h2><h3>Naval Ship Types:</h3><ul><li><strong>Corvette:</strong> Typically smaller, faster vessels used for patrolling. Example: P63.</li><li><strong>Frigate:</strong> Medium-sized warships capable of Anti-Submarine Warfare (ASW) and Anti-Air Warfare (AAW). Examples include the Shivalik class and Nilgiri class (Project 17A).</li><li><strong>Destroyer:</strong> Among the most powerful warships, equipped with long-range missiles. Examples include the Visakhapatnam class, Kolkata class, Delhi class, and Rajput class. Example: D62.</li></ul><h3>Indian Naval Ship Projects/Classes:</h3><ul><li><strong>Project 15-A (Kolkata class):</strong> Built by Mazagon Dock Ltd. Ships include INS Kolkata, INS Kochi, INS Chennai.</li><li><strong>Project 15-B (Visakhapatnam class):</strong> Ships include INS Visakhapatnam, INS Mormugao, INS Imphal.</li><li><strong>Delhi class:</strong> Ships include INS Delhi, INS Mysore, INS Mumbai.</li><li><strong>Rajput class:</strong> Ships include INS Rana, INS Ranvir, INS Ranvijay.</li></ul>
+</div>
+`;
+
+
+window.EXPANDED_NOTES_DATA["arihant-class-submarines"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Arihant-class Submarines</h2>
+  <p>The <strong>Arihant-class</strong> are India's indigenous nuclear-powered ballistic missile submarines, developed under the <strong>Advanced Technology Vessel (ATV) project</strong>. Key vessels in this class include:</p><ul><li><strong>INS Arihant</strong></li><li><strong>INS Arighat</strong></li><li><strong>INS Aridhaman:</strong> Commissioned as India's third indigenous nuclear-powered ballistic missile submarine, built at the Ship Building Centre in Visakhapatnam.</li></ul>
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["project-75-kalvari-class-submarines"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Project 75 - Kalvari Class Submarines</h2>
+  <p><strong>Project 75</strong> involves the construction of <strong>Kalvari-class diesel-electric attack submarines</strong> for the Indian Navy. Vessels in this class include:</p><ul><li>INS Kalvari</li><li>INS Khanderi</li><li>INS Karanj</li><li>INS Vela</li><li>INS Vagir</li><li>INS Vagsheer</li></ul>
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["project-17a-nilgiri-class-frigates"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Project 17A - Nilgiri Class Frigates</h2>
+  <p><strong>Project 17A</strong> involves the construction of <strong>Nilgiri-class stealth frigates</strong> for the Indian Navy. These advanced warships are designed to enhance India's naval capabilities. Vessels in this class include:</p><ul><li>INS Nilgiri</li><li>INS Udaygiri</li><li>INS Taragiri</li><li>INS Mahendragiri</li><li>INS Himgiri</li><li>INS Dunagiri</li><li>INS Vindhyagiri</li></ul>
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["project-15b-visakhapatnam-class-destroyers"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Project 15B - Visakhapatnam Class Destroyers</h2>
+  <p><strong>Project 15B</strong> involves the construction of <strong>Visakhapatnam-class destroyers</strong> for the Indian Navy. Vessels in this class include:</p><ul><li>INS Visakhapatnam</li><li>INS Mormugao</li><li>INS Imphal</li><li>INS Surat</li></ul>
+</div>
+`;

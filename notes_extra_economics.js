@@ -1300,3 +1300,11 @@ EXPANDED_NOTES_DATA["econ-govt-schemes"] = `
 </div>
 `;
 
+
+
+window.EXPANDED_NOTES_DATA["indigenous-content-in-defence-manufacturing"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Indigenous Content in Defence Manufacturing</h2>
+  <p>India is actively pursuing self-reliance (Aatmanirbhar Bharat) in defence manufacturing. Several naval projects highlight this commitment:</p><ul><li><strong>Mahendragiri (Yard 12654):</strong> Sixth Nilgiri-class ship, delivered to the Indian Navy, signifies a key milestone in achieving self-reliance in warship design and construction.</li><li><strong>INS Malwan:</strong> Next-generation anti-submarine warfare shallow water craft, built by Cochin Shipyard Limited, boasts over 80% indigenous content.</li><li><strong>Sanshodhak (Yard 3023):</strong> Fourth Survey Vessel (Large) ship, delivered to the Indian Navy, also has an indigenous content exceeding 80%.</li><li><strong>INS Agray, INS Dunagiri, INS Sanshodhak:</strong> Launched by PM Modi, these are indigenous naval vessels enhancing India's naval capabilities.</li></ul>
+</div>
+`;

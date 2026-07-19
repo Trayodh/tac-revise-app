@@ -13,6 +13,17 @@ Volume of Solid Figure The measure of space occupied by a solid is called its vo
 MATHEMATICS > Quadratic Equations and Inequalities • Volume of cuboid = Area of base × height = where, l = length, b = breadth and h = height • Total surface area of cuboid = 2( lb bh lh • Diagonal of the cuboid = • Lateral surface area or Area of four walls = 2( b h.
 
 
+
+
+## Visual Summary & Diagrams
+
+<img src="/diagrams/mathematics/mensuration/1784363437674.png" alt="Mensuration Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/mensuration/1784363852907.png" alt="Mensuration Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/mensuration/1784364464495.png" alt="Mensuration Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/mensuration/1784364717930.png" alt="Mensuration Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/mensuration/IMG_20260718_135904.png" alt="Mensuration Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/mensuration/IMG_20260718_142137.png" alt="Mensuration Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
 </div>
 
 

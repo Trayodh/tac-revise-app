@@ -1,0 +1,12 @@
+{
+  "equipment": [
+    {
+      "name": "Fighter Jet",
+      "branch": "Air Force",
+      "origin": "Unidentified",
+      "type": "Fighter Aircraft",
+      "quantity": "Unidentified",
+      "wikiLink": null
+    }
+  ]
+}

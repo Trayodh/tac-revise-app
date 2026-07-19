@@ -7,6 +7,15 @@ MEASUREMENTS OF ANGLES AND TRIGONOMETRIC RATIOS Generally (13-14) questions have
 QUADRANTS Let XOX ′ and YOY ′ be two lines at right angles in the plane of paper. These two perpendicular lines divide the plane of the paper into four equal parts, these four parts are known as four quadrants and lines XOX′ and YOY ′ are known as X-axis and Y-axis, respectively. The parts XOY YOX X OY ,′ ′ and Y OX are known as 1st, 2nd, 3rd and 4th quadrant, respectively.
 
 
+
+
+## Visual Summary & Diagrams
+
+<img src="/diagrams/mathematics/trigonometry/1784444785206.png" alt="Trigonometry Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/trigonometry/1784447045361.png" alt="Trigonometry Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/trigonometry/1784447952033.png" alt="Trigonometry Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+<img src="/diagrams/mathematics/trigonometry/1784448640599.png" alt="Trigonometry Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
 </div>
 
 

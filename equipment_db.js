@@ -2343,5 +2343,778 @@ window.ARMED_FORCES_EQUIPMENT = [
     "type": "Utility",
     "quantity": "19",
     "wikiLink": "//en.wikipedia.org/wiki/HAL_Chetak"
+  },
+  {
+    "name": "INS Trikand",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Guided Missile Frigate",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Trikand",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Frontline guided missile frigate",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INSAS rifles",
+    "branch": "Army/Navy",
+    "origin": "India",
+    "type": "Rifle",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Sharda",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Naval vessel",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Sagardhwani",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Oceanographic research vessel",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Sunayna",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Offshore patrol vessel",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Sudarshini",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Sail training ship",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Tarkash",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Stealth frigate",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Ikshak",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Survey Vessel (Large)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Udaygiri",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Project 17A frigate (Nilgiri Class)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Kavaratti",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Naval vessel",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Agray",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Anti-submarine warfare vessel (Arnala class)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Dunagiri",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Advanced stealth frigate (Project 17A, Nilgiri class)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Sanshodhak",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Hydrographic survey vessel (Survey Vessel (Large) class)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "Mahendragiri (Yard 12654)",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Nilgiri-class frigate (Project 17A)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Aridhaman",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Nuclear-powered ballistic missile submarine (Arihant-class)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Arihant",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Nuclear-powered ballistic missile submarine (Arihant-class)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Arighat",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Nuclear-powered ballistic missile submarine (Arihant-class)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Nireekshak",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Diving Support and Submarine Rescue Vessel",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Malwan",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Anti-submarine warfare shallow water craft (Mahe-class ASW-SWC)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Taragiri",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Project 17A stealth frigate (Nilgiri Class)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Kalpeni",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Fast attack craft (Car Nicobar-class Waterjet Fast Attack Craft)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "ICGS Akshay",
+    "branch": "Indian Coast Guard",
+    "origin": "India",
+    "type": "New-generation Fast Patrol Vessel (FPV)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Sandhayak",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Survey Vessel (Large)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Nirdeshak",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Survey Vessel (Large)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Anjadip",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Anti-Submarine Warfare Shallow Water Craft (ASW-SWC)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "Yard 3039 (Sanghmitra)",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Next Generation Offshore Patrol Vessel (NGOPV)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Kalvari",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Khanderi",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Karanj",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Vela",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Vagir",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Vagsheer",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Nilgiri",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Project 17A frigate (Nilgiri Class)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Himgiri",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Project 17A frigate (Nilgiri Class)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Vindhyagiri",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Project 17A frigate (Nilgiri Class)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Visakhapatnam",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Destroyer (Visakhapatnam Class, Project 15B)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Mormugao",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Destroyer (Visakhapatnam Class, Project 15B)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Imphal",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Destroyer (Visakhapatnam Class, Project 15B)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "INS Surat",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Destroyer (Visakhapatnam Class, Project 15B)",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "Rustom-2 (TAPAS-BH-201)",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "UAV (Long-Endurance ISR / Combat)"
+  },
+  {
+    "name": "Panchi",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "UAV (Tactical ISR)"
+  },
+  {
+    "name": "Nishant",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "UAV (Reconnaissance / Intelligence)"
+  },
+  {
+    "name": "Lakshya-2",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "UAV (Target Simulation)"
+  },
+  {
+    "name": "Netra (UAV-NETRA)",
+    "branch": "Army/Air Force",
+    "origin": "India",
+    "type": "Mini Surveillance Drone"
+  },
+  {
+    "name": "Daksh",
+    "branch": "Army/Navy/Air Force",
+    "origin": "India",
+    "type": "Explosive Ordnance Disposal (EOD) Robot"
+  },
+  {
+    "name": "Daksh Mini",
+    "branch": "Army/Navy/Air Force",
+    "origin": "India",
+    "type": "Micro-ROV"
+  },
+  {
+    "name": "UXOR",
+    "branch": "Army/Navy/Air Force",
+    "origin": "India",
+    "type": "UXO Detection / Bomb Disposal Robot"
+  },
+  {
+    "name": "Netra AEW&C (Embraer-based 'NETRA')",
+    "branch": "Air Force",
+    "origin": "India/Brazil",
+    "type": "Airborne Early Warning & Control (AEW&C) Aircraft"
+  },
+  {
+    "name": "Dassault Rafale",
+    "branch": "Air Force",
+    "origin": "France",
+    "type": "Multirole Fighter Aircraft",
+    "quantity": 36
+  },
+  {
+    "name": "HAL Tejas",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "Multirole Combat Aircraft"
+  },
+  {
+    "name": "Sukhoi Su-30 MKI",
+    "branch": "Air Force",
+    "origin": "Russia/India",
+    "type": "Multirole Fighter Aircraft"
+  },
+  {
+    "name": "Mirage 2000",
+    "branch": "Air Force",
+    "origin": "France",
+    "type": "Multirole Fighter Jet"
+  },
+  {
+    "name": "SEPECAT Jaguar",
+    "branch": "Air Force",
+    "origin": "UK/France",
+    "type": "Attack Aircraft"
+  },
+  {
+    "name": "Boeing 737",
+    "branch": "Air Force",
+    "origin": "United States",
+    "type": "Transport Aircraft"
+  },
+  {
+    "name": "Ilyushin Il-76",
+    "branch": "Air Force",
+    "origin": "Soviet Union",
+    "type": "Transport Aircraft"
+  },
+  {
+    "name": "Antonov An-32",
+    "branch": "Air Force",
+    "origin": "Ukraine",
+    "type": "Transport Aircraft"
+  },
+  {
+    "name": "Dornier Do 228",
+    "branch": "Air Force",
+    "origin": "Germany",
+    "type": "Transport Aircraft"
+  },
+  {
+    "name": "Lockheed Martin C-130J Super Hercules",
+    "branch": "Air Force",
+    "origin": "USA",
+    "type": "Transport Aircraft"
+  },
+  {
+    "name": "Boeing C-17 Globemaster III",
+    "branch": "Air Force",
+    "origin": "USA",
+    "type": "Transport Aircraft"
+  },
+  {
+    "name": "HAL Dhruv",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "Utility Helicopter"
+  },
+  {
+    "name": "HAL Rudra",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "Attack Helicopter"
+  },
+  {
+    "name": "Mil Mi-17",
+    "branch": "Air Force",
+    "origin": "Russia",
+    "type": "Utility Helicopter"
+  },
+  {
+    "name": "Mil Mi-24",
+    "branch": "Air Force",
+    "origin": "Russia",
+    "type": "Attack Helicopter"
+  },
+  {
+    "name": "Boeing AH-64 Apache",
+    "branch": "Air Force",
+    "origin": "USA",
+    "type": "Attack Helicopter"
+  },
+  {
+    "name": "HAL Prachand",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "Attack Helicopter"
+  },
+  {
+    "name": "Bombardier Global 5000",
+    "branch": "Air Force",
+    "origin": "United States",
+    "type": "Reconnaissance Aircraft"
+  },
+  {
+    "name": "Gulfstream G100",
+    "branch": "Air Force",
+    "origin": "Israel",
+    "type": "Reconnaissance Aircraft"
+  },
+  {
+    "name": "Gulfstream III",
+    "branch": "Air Force",
+    "origin": "United States",
+    "type": "Reconnaissance Aircraft"
+  },
+  {
+    "name": "Boeing 707",
+    "branch": "Air Force",
+    "origin": "United States",
+    "type": "Reconnaissance Aircraft"
+  },
+  {
+    "name": "HAL HJT-16 Kiran",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "Trainer Aircraft"
+  },
+  {
+    "name": "HAL HTT-40",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "Trainer Aircraft"
+  },
+  {
+    "name": "Pilatus PC-7",
+    "branch": "Air Force",
+    "origin": "Switzerland",
+    "type": "Trainer Aircraft"
+  },
+  {
+    "name": "BAE Hawk",
+    "branch": "Air Force",
+    "origin": "UK",
+    "type": "Trainer Aircraft"
+  },
+  {
+    "name": "C-17 Globemaster",
+    "branch": "Air Force",
+    "origin": null,
+    "type": "Transport Aircraft",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "Air Droppable Container (ADC-150)",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Container",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "Mountain Radars",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "Radar",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "ASRAAM (Advanced Short Range Air-to-Air Missile)",
+    "branch": "Air Force",
+    "origin": null,
+    "type": "Air-to-Air Missile",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "F414 Jet Engines",
+    "branch": "Air Force",
+    "origin": "India (co-production with GE Aerospace)",
+    "type": "Jet Engine",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "LM2500 Gas Turbine Infrared Suppression System",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Suppression System",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "Actively Cooled Full Scale Scramjet Combustor",
+    "branch": "DRDO",
+    "origin": null,
+    "type": "Engine Component",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "Advanced Unmanned Mine Counter-Measure (MCM) Suite",
+    "branch": "Navy",
+    "origin": "France (Exail) / India (L&T)",
+    "type": "Mine Countermeasure System",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "Suryastra Universal Rocket Launcher",
+    "branch": "Defence",
+    "origin": "India (Nibe Limited)",
+    "type": "Rocket Launcher",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "Ballistic Missile Defence (BMD) System",
+    "branch": "DRDO",
+    "origin": null,
+    "type": "Missile Defence System",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "Naval Anti-Ship Missile-Medium Range (NASM-MR)",
+    "branch": "Navy",
+    "origin": null,
+    "type": "Anti-Ship Missile",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "Air Cushion Vehicle (ACV) H-561",
+    "branch": "Coast Guard",
+    "origin": "India (Chowgule & Company Private Limited)",
+    "type": "Hovercraft",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "SEPECAT Jaguar Fighter Aircraft",
+    "branch": "Air Force",
+    "origin": "United Kingdom",
+    "type": "Fighter Aircraft",
+    "quantity": "9",
+    "wikiLink": null
+  },
+  {
+    "name": "SU-30 MKI Fighter Aircraft",
+    "branch": "Air Force",
+    "origin": null,
+    "type": "Fighter Aircraft",
+    "quantity": null,
+    "wikiLink": null
+  },
+  {
+    "name": "C295 Transport Aircraft",
+    "branch": "Air Force",
+    "origin": "India/Airbus",
+    "type": "Transport Aircraft",
+    "quantity": "First Made-in-India scheduled for delivery",
+    "wikiLink": "https://en.wikipedia.org/wiki/Airbus_C295"
+  },
+  {
+    "name": "BrahMos Supersonic Cruise Missile",
+    "branch": "Air Force",
+    "origin": "India/Russia",
+    "type": "Cruise Missile",
+    "quantity": "Equipped on 40 Sukhoi Su-30MKI jets",
+    "wikiLink": "https://en.wikipedia.org/wiki/BrahMos"
+  },
+  {
+    "name": "Sukhoi Su-30MKI",
+    "branch": "Air Force",
+    "origin": "Russia/India",
+    "type": "Fighter Jet",
+    "quantity": "40 equipped with BrahMos",
+    "wikiLink": "https://en.wikipedia.org/wiki/Sukhoi_Su-30MKI"
+  },
+  {
+    "name": "VSHORADS missile system",
+    "branch": "Army/Air Force",
+    "origin": "India",
+    "type": "Man-portable Air Defence System (MANPADS)",
+    "quantity": "Indigenous, trials completed",
+    "wikiLink": "https://en.wikipedia.org/wiki/VSHORADS"
+  },
+  {
+    "name": "ALH Mk-III (Maritime Role) helicopters",
+    "branch": "Indian Coast Guard",
+    "origin": "India",
+    "type": "Helicopter",
+    "quantity": "Six",
+    "wikiLink": "https://en.wikipedia.org/wiki/HAL_Dhruv"
+  },
+  {
+    "name": "VL-Shtil surface-to-air missiles",
+    "branch": "Indian Navy",
+    "origin": "Russia",
+    "type": "Surface-to-Air Missile",
+    "quantity": "Procured",
+    "wikiLink": "https://en.wikipedia.org/wiki/Shtil-1"
+  },
+  {
+    "name": "DSC A 23",
+    "branch": "Navy",
+    "origin": "India",
+    "type": "Diving Support Craft",
+    "quantity": "Fourth of five launched",
+    "wikiLink": "https://en.wikipedia.org/wiki/Diving_Support_Craft"
+  },
+  {
+    "name": "ULPGM-V3 missile",
+    "branch": "Army/Air Force",
+    "origin": "India",
+    "type": "Precision Guided Missile (Anti-tank)",
+    "quantity": "Final development trials completed",
+    "wikiLink": null
+  },
+  {
+    "name": "IL-76 strategic airlift aircraft (Gajraj)",
+    "branch": "Air Force",
+    "origin": "Russia",
+    "type": "Transport Aircraft",
+    "quantity": "Used for relic transport",
+    "wikiLink": "https://en.wikipedia.org/wiki/Ilyushin_Il-76"
+  },
+  {
+    "name": "Advanced Light Helicopter (ALH) Dhruv",
+    "branch": "Air Force",
+    "origin": "India",
+    "type": "Helicopter",
+    "quantity": "Participated in Singapore Airshow",
+    "wikiLink": "https://en.wikipedia.org/wiki/HAL_Dhruv"
+  },
+  {
+    "name": "Agni-3 Intermediate Range Ballistic Missile",
+    "branch": "Army/Air Force",
+    "origin": "India",
+    "type": "Ballistic Missile",
+    "quantity": "Successfully test-fired",
+    "wikiLink": "https://en.wikipedia.org/wiki/Agni-III"
+  },
+  {
+    "name": "Dornier 228 Aircraft",
+    "branch": "Indian Coast Guard",
+    "origin": "Germany/India (HAL)",
+    "type": "Maritime Surveillance Aircraft",
+    "quantity": "Eight",
+    "wikiLink": "https://en.wikipedia.org/wiki/Dornier_228"
+  },
+  {
+    "name": "Airbus H-125 Light Utility Helicopter",
+    "branch": "India/Airbus",
+    "origin": "France/India",
+    "type": "Helicopter",
+    "quantity": "Final Assembly Line inaugurated",
+    "wikiLink": "https://en.wikipedia.org/wiki/Airbus_H125"
+  },
+  {
+    "name": "Tunguska Air Defence Missile System",
+    "branch": "Army/Air Force",
+    "origin": "Russia",
+    "type": "Air Defence System",
+    "quantity": "Procured",
+    "wikiLink": "https://en.wikipedia.org/wiki/2K22_Tunguska"
+  },
+  {
+    "name": "P8I Long-Range Maritime Reconnaissance Aircraft",
+    "branch": "Navy",
+    "origin": "USA",
+    "type": "Maritime Reconnaissance Aircraft",
+    "quantity": "Inspection (Depot Level) procured",
+    "wikiLink": "https://en.wikipedia.org/wiki/Boeing_P-8_Poseidon"
+  },
+  {
+    "name": "Mountain Radars",
+    "branch": "Air Force",
+    "origin": "India (BEL)",
+    "type": "Radar System",
+    "quantity": "Two",
+    "wikiLink": null
+  },
+  {
+    "name": "Fighter Jet",
+    "branch": "Air Force",
+    "origin": "Unidentified",
+    "type": "Fighter Aircraft",
+    "quantity": "Unidentified",
+    "wikiLink": null
   }
 ];

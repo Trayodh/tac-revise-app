@@ -111,9 +111,8 @@ async function run() {
 Your task is to merge the provided <EXISTING_DATABASE> with the <NEW_RAW_FEEDS>.
 
 STRICT RULES:
-1. Preserve ALL existing entries from <EXISTING_DATABASE>. DO NOT DELETE OR OVERWRITE THEM unless there is a critical factual correction. Keep them in chronological order.
-2. Identify new, HIGH-EXAM-VALUE news from <NEW_RAW_FEEDS>. Prioritise: Defence, Military Exercises, Indian Navy Port Calls, DRDO, ISRO, Armed Forces, IR, Economy, Schemes. Exclude low-value/routine news.
-3. For any NEW event, generate a new JSON object adhering EXACTLY to this strictly defined schema:
+1. Generate JSON ONLY for the HIGH-EXAM-VALUE news from <NEW_RAW_FEEDS>. Ignore low-value/routine news.
+2. For each selected new event, generate a new JSON object adhering EXACTLY to this strictly defined schema:
    - "id": A unique ID (e.g., "jul-26-1")
    - "topic": Category badge string (e.g., "Defence & Security")
    - "text": Executive Summary / Headline string.
@@ -135,15 +134,9 @@ STRICT RULES:
       - "options": array of 4 strings
       - "correct": integer 0-3 (index of correct option)
       - "explanation": string
-4. Combine the existing entries and the newly generated entries into a single JSON array.
-5. Sort the final array chronologically with the most recent event FIRST (e.g., July 19th before July 1st).
-6. Return ONLY the raw JSON array. Do not wrap in \`\`\`json.`;
+3. Return ONLY a JSON array containing these NEW objects. Do not wrap in \`\`\`json.`;
 
   const prompt = `
-<EXISTING_DATABASE>
-${JSON.stringify(existingEntries, null, 2)}
-</EXISTING_DATABASE>
-
 <NEW_RAW_FEEDS>
 ${JSON.stringify(rawItems, null, 2)}
 </NEW_RAW_FEEDS>
@@ -166,18 +159,27 @@ ${JSON.stringify(rawItems, null, 2)}
     if (outputText.startsWith('```json')) outputText = outputText.substring(7);
     if (outputText.endsWith('```')) outputText = outputText.substring(0, outputText.length - 3);
 
-    const updatedArray = JSON.parse(outputText);
+    const newEntries = JSON.parse(outputText);
     
-    if (Array.isArray(updatedArray) && updatedArray.length >= existingEntries.length) {
-      console.log(`Successfully merged. New count: ${updatedArray.length} (was ${existingEntries.length}).`);
+    if (Array.isArray(newEntries)) {
+      console.log(`Successfully extracted ${newEntries.length} new items.`);
       
-      db[currentMonth] = updatedArray;
+      // Merge locally instead of relying on Gemini to rewrite existing ones
+      db[currentMonth] = [...newEntries, ...existingEntries];
       
-      const newFileContent = "window.CURRENT_AFFAIRS_DB = " + JSON.stringify(db, null, 2) + ";\n";
+      // Extract header to preserve comments
+      let header = "";
+      const lines = content.split('\n');
+      for (const line of lines) {
+          if (line.trim().startsWith('window.')) break;
+          header += line + '\n';
+      }
+
+      const newFileContent = header + "window.CURRENT_AFFAIRS_DB = " + JSON.stringify(db, null, 2) + ";\n";
       fs.writeFileSync(dbPath, newFileContent, 'utf8');
       console.log("Database updated successfully.");
     } else {
-      console.error("Gemini returned invalid array or fewer items than before. Aborting to protect data.");
+      console.error("Gemini returned invalid array. Aborting.");
     }
   } catch (err) {
     console.error("Error processing with Gemini:", err);

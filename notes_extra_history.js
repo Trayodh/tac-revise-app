@@ -8020,3 +8020,19 @@ EXPANDED_NOTES_DATA["post-independence-consolidation--pathfinder-added-"] = `
 </div>
 `;
 
+
+
+window.EXPANDED_NOTES_DATA["indian-air-force-overview"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Indian Air Force Overview</h2>
+  <h2>Establishment</h2><ul><li><strong>Date:</strong> October 8, 1932</li><li>Became Royal Indian Air Force in 1947; 'Royal' dropped in 1950.</li></ul><h2>Motto</h2><p>"Touch the Sky with Glory" (from the 11th chapter of the Gita).</p><h2>IAF Day</h2><p>October 8</p><h2>Early Aircraft</h2><p>First Squadron operated Westland Wapiti biplanes with 5 pilots.</p><h2>Core Values</h2><p>Vision: People First. Mission: Always. Core values include mission, integrity, and excellence.</p><h2>Chief of Air Staff</h2><p>Air Chief Marshal Amar Preet Singh (as per the provided image, note: this information might be outdated in real-world context but is extracted as presented).</p><h2>Father of Indian Air Force</h2><p>Subroto Mukherjee</p>
+</div>
+`;
+
+
+window.EXPANDED_NOTES_DATA["indian-navy-overview"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Indian Navy Overview</h2>
+  <h2>Establishment</h2><ul><li><strong>Date:</strong> 1612 (as East India Company's Navy)</li><li><strong>Modernized:</strong> 1950</li></ul><h2>Headquarters</h2><p>New Delhi</p><h2>Motto</h2><p>"May the Lord of Ocean be auspicious unto us" (Taken from Taittiriya Upanishad).</p><h2>Navy Day</h2><p>December 4th</p>
+</div>
+`;

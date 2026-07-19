@@ -1,0 +1,434 @@
+{
+  "current_affairs": [
+    {
+      "month_year": "Ongoing",
+      "id": "strait-of-hormuz-news",
+      "topic": "Geography in News: Strait of Hormuz",
+      "text": "The Strait of Hormuz, a critical geopolitical chokepoint, connects the Gulf of Oman and the Persian Gulf. Iran, a key country bordering the strait, has its capital in Tehran and uses the Rial as its currency. Iran holds significant global energy reserves, accounting for 10% of the world's oil reserves and 15% of its gas reserves. The strait itself is approximately 3 km wide and is crucial for global oil transit, with about 20% of the world's oil passing through it.",
+      "details": {
+        "countries_involved": [
+          "Iran",
+          "Iraq",
+          "Kuwait",
+          "Saudi Arabia",
+          "Bahrain",
+          "Qatar",
+          "UAE",
+          "Oman"
+        ],
+        "water_bodies": [
+          "Persian Gulf",
+          "Gulf of Oman",
+          "Arabian Sea"
+        ],
+        "iran_details": {
+          "capital": "Tehran",
+          "currency": "Rial",
+          "oil_reserve_percentage": 10,
+          "gas_reserve_percentage": 15
+        },
+        "strait_width_km": 3,
+        "global_oil_transit_percentage": 20
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "May 2026",
+      "id": "un-dag-hammarskjold-medal-2025",
+      "topic": "UN Dag Hammarskj\u00f6ld Medal 2025",
+      "text": "Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan are scheduled to be posthumously awarded the United Nations Dag Hammarskj\u00f6ld Medal on May 29, 2026. This award is given for promoting Gender Inclusion and recognizes their service in UN peacekeeping missions, specifically mentioning contexts like UNIFIL (Lebanon), Congo, and South Sudan.",
+      "details": {
+        "award_name": "United Nations Dag Hammarskj\u00f6ld Medal",
+        "award_year": 2025,
+        "recipients": [
+          "Lance Havildar Harbhajan Singh",
+          "Naib Subedar Sujit Kumar Pradhan"
+        ],
+        "award_date": "May 29, 2026",
+        "award_type": "Posthumous",
+        "reason": "Promoting Gender Inclusion",
+        "mission_contexts": [
+          "UNIFIL (Lebanon)",
+          "Congo",
+          "South Sudan"
+        ]
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "May 2026",
+      "id": "un-peacekeeping-day-2026",
+      "topic": "International Day of UN Peacekeepers",
+      "text": "The International Day of UN Peacekeepers is observed on May 29. The theme for this year is 'Invest in Peace'.",
+      "details": {
+        "date": "May 29",
+        "theme": "Invest in Peace"
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "2025",
+      "id": "un-military-gender-advocate-2025",
+      "topic": "2025 UN Military Gender Advocate of the Year Award",
+      "text": "Major Abhilasha Barak was named the recipient of the 2025 United Nations Military Gender Advocate of the Year Award for her outstanding service in Lebanon as part of the United Nations Interim Force in Lebanon (UNIFIL). India is a significant contributor to UN peacekeeping, with approximately 4200 active personnel, and has contributed to missions in Abyei, Cyprus, Congo, Lebanon, Somalia, South Sudan, and Western Sahara.",
+      "details": {
+        "award_name": "United Nations Military Gender Advocate of the Year Award",
+        "award_year": 2025,
+        "recipient": "Major Abhilasha Barak",
+        "service_location": "Lebanon (UNIFIL)",
+        "india_contribution_to_un_peacekeeping": {
+          "active_personnel": 4200,
+          "missions_contributed_to": [
+            "Abyei",
+            "Cyprus",
+            "Congo",
+            "Lebanon",
+            "Somalia",
+            "South Sudan",
+            "Western Sahara"
+          ]
+        }
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "mcq-abhilasha-barak",
+      "topic": "AFCAT PYQ: Major Abhilasha Barak",
+      "text": "Multiple Choice Question regarding Major Abhilasha Barak and UN awards.",
+      "details": {},
+      "mcq": {
+        "question": "Consider the following statements regarding Major Abhilasha Barak:\n1. She has been named the recipient of the 2025 United Nations Military Gender Advocate of the Year Award.\n2. She is the first woman combat helicopter pilot of the Indian Army.\n3. She is the second Indian peacekeeper to receive this prestigious award, following Major Radhika Sen.\nWhich of the statements given above are correct?",
+        "options": [
+          "1. Only 1 and 2",
+          "2. Only 2 and 3",
+          "3. Only 1 and 3",
+          "4. 1, 2 and 3"
+        ],
+        "answer": "1. Only 1 and 2",
+        "explanation": "Statement 1 is correct: Major Abhilasha Barak received the 2025 United Nations Military Gender Advocate of the Year Award. Statement 2 is correct: She is indeed the first woman combat helicopter pilot of the Indian Army. Statement 3 is incorrect: Major Radhika Sen was the second Indian peacekeeper to receive the UN Military Gender Advocate of the Year Award (in 2023), following Major Suman Gawani (in 2019). Major Abhilasha Barak is the third Indian peacekeeper to receive this award."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "mcq-gallantry-awards-1",
+      "topic": "AFCAT PYQ: Gallantry Awards",
+      "text": "Multiple Choice Question regarding Indian Gallantry Awards.",
+      "details": {},
+      "mcq": {
+        "question": "Consider the following sentences:\n1. Captain Vikram Batra, hero of Operation Vijay during the Kargil conflict, was posthumously awarded PVC gallantry award for extraordinary bravery.\n2. Company Havildar Major Piru Singh Shekhawat was the first person from Rajasthan to be honored with the Param Vir Chakra, India's highest military decoration.\n3. The Param Vir Chakra, Ashoka Chakra, and Vir Chakra, which are among India's highest military honours, are usually presented during the Republic Day celebrations.\nWhich of the following is/are correct?",
+        "options": [
+          "1. Only 1 and 3",
+          "2. Only 3",
+          "3. All 1, 2 and 3",
+          "4. Only 1 and 2"
+        ],
+        "answer": "3. All 1, 2 and 3",
+        "explanation": "Statement 1 is correct: Captain Vikram Batra was posthumously awarded the Param Vir Chakra for his bravery in the Kargil conflict. Statement 2 is correct: Company Havildar Major Piru Singh Shekhawat was indeed the first recipient of the Param Vir Chakra from Rajasthan. Statement 3 is correct: India's highest military honors, including the Param Vir Chakra, Ashoka Chakra, and Vir Chakra, are traditionally presented during the Republic Day celebrations. Additionally, the first overall recipient of the Param Vir Chakra was Major Somnath Sharma, and the only IAF recipient of the Param Vir Chakra was Flying Officer Nirmal Jit Singh Sekhon."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "mcq-gallantry-awards-2",
+      "topic": "AFCAT PYQ: Gallantry Awards and Naval Achievements",
+      "text": "Multiple Choice Question regarding Indian Gallantry Awards and naval achievements.",
+      "details": {},
+      "mcq": {
+        "question": "Consider the following sentences:\n1. Shubhanshu Shukla was awarded the Ashoka Chakra.\n2. Arshdeep Singh was honored with the Kirti Chakra. The Kirti Chakra is the second-highest peacetime gallantry award, awarded for conspicuous bravery or self-sacrifice.\n3. Dilna K received the Shaurya Chakra. The Shaurya Chakra is the third-highest peacetime gallantry medal.\n4. Aditya Shrikumar was awarded the Sena Medal (Gallantry), which is a decoration awarded to members of the Indian Army for acts of exceptional bravery in the field.\nWhich of the following sentences is/are correct?",
+        "options": [
+          "1. Only 1 and 4",
+          "2. Only 3",
+          "3. Only 1 and 2",
+          "4. All of the above"
+        ],
+        "answer": "4. All of the above",
+        "explanation": "Statement 1 is incorrect: Shubhanshu Shukla was awarded the Kirti Chakra, not the Ashoka Chakra. Statement 2 is incorrect: Arshdeep Singh was awarded the Shaurya Chakra, not the Kirti Chakra. However, the definition of Kirti Chakra as the second-highest peacetime gallantry award is correct. Statement 3 is correct: Dilna K received the Shaurya Chakra, which is the third-highest peacetime gallantry medal. Statement 4 is correct: Aditya Shrikumar was awarded the Sena Medal (Gallantry) for exceptional bravery in the field. Given the marked answer 'All of the above' in the source, there might be a discrepancy with factual information for statements 1 and 2, or the question intends to test the definitions of the awards rather than the specific recipients for statements 1 and 2. Based on the provided image's marked answer, all statements are considered correct in that context."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "mcq-air-exercises-1",
+      "topic": "AFCAT PYQ: Air Exercises Matching",
+      "text": "Multiple Choice Question to match Air Exercises with their participating countries.",
+      "details": {},
+      "mcq": {
+        "question": "Match List-I (Air Exercise) with List-II (Participating Countries) and select the correct option.\nList-I (Air Exercise)\n(A) Exercise Indradhanush\n(B) Exercise Desert Knight\n(C) Exercise Eastern Bridge\n(D) Exercise Veer Guardian\nList-II (Participating Countries)\n(I) India and Japan\n(II) India and Oman\n(III) India and United Kingdom\n(IV) India, France and United Arab Emirates",
+        "options": [
+          "1. A-IV B-III C-I D-II",
+          "2. A-III B-II C-IV D-I",
+          "3. A-I B-IV C-III D-II",
+          "4. A-III B-IV C-II D-I"
+        ],
+        "answer": "4. A-III B-IV C-II D-I",
+        "explanation": "The correct matches are:\n(A) Exercise Indradhanush - (III) India and United Kingdom\n(B) Exercise Desert Knight - (IV) India, France and United Arab Emirates\n(C) Exercise Eastern Bridge - (II) India and Oman\n(D) Exercise Veer Guardian - (I) India and Japan"
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "mcq-air-exercises-2",
+      "topic": "AFCAT PYQ: Air Exercises Matching",
+      "text": "Multiple Choice Question to match Air Exercises with their participating countries.",
+      "details": {},
+      "mcq": {
+        "question": "Match List-I (Air Exercise) with List-II (Participating Countries) and select the correct option.\nList-I (Exercise)\n(A) Exercise Garuda\n(B) Exercise Pitch Black\n(C) Exercise INDRA\n(D) Exercise Cope India\nList-II (Participating Countries)\n(I) India and Australia\n(II) India and Russia\n(III) India and France\n(IV) India and United States",
+        "options": [
+          "1. A-III B-I C-II D-IV",
+          "2. A-II B-III C-IV D-I",
+          "3. A-IV B-II C-I D-III",
+          "4. A-I B-IV C-III D-II"
+        ],
+        "answer": "1. A-III B-I C-II D-IV",
+        "explanation": "The correct matches are:\n(A) Exercise Garuda - (III) India and France\n(B) Exercise Pitch Black - (I) India and Australia\n(C) Exercise INDRA - (II) India and Russia\n(D) Exercise Cope India - (IV) India and United States"
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "mcq-military-exercises-1",
+      "topic": "AFCAT PYQ: Military Exercises Matching",
+      "text": "Multiple Choice Question to match Military Exercises with their participating countries.",
+      "details": {},
+      "mcq": {
+        "question": "Match List-I (Military Exercise) with List-II (Participating Countries) and select the correct option.\nList-I (Military Exercise)\n(A) Exercise Yudh Abhyas\n(B) Exercise Dharma Guardian\n(C) Exercise Mitra Shakti\n(D) Exercise Nomadic Elephant\nList-II (Participating Countries)\n(I) India and Sri Lanka\n(II) India and United States\n(III) India and Japan\n(IV) India and Mongoli",
+        "options": [
+          "1. A-II B-III C-I D-IV",
+          "2. A-III B-IV C-II D-I",
+          "3. A-I B-II C-V D-III",
+          "4. A-IV B-I C-III D-II"
+        ],
+        "answer": "1. A-II B-III C-I D-IV",
+        "explanation": "The correct matches are:\n(A) Exercise Yudh Abhyas - (II) India and United States\n(B) Exercise Dharma Guardian - (III) India and Japan\n(C) Exercise Mitra Shakti - (I) India and Sri Lanka\n(D) Exercise Nomadic Elephant - (IV) India and Mongoli"
+      }
+    },
+    {
+      "month_year": "March 2026",
+      "id": "ins-trikand-deployment-2026",
+      "topic": "INS Trikand Operational Deployment",
+      "text": "INS Trikand, a frontline guided missile frigate of the Indian Navy, arrived at Maputo, Mozambique, on March 26, 2026. This deployment is part of its operational presence in the South West Indian Ocean Region.",
+      "details": {
+        "ship_name": "INS Trikand",
+        "ship_type": "Guided Missile Frigate",
+        "branch": "Indian Navy",
+        "arrival_location": "Maputo, Mozambique",
+        "arrival_date": "March 26, 2026",
+        "deployment_region": "South West Indian Ocean Region"
+      },
+      "mcq": null
+    }
+  ],
+  "equipment": [
+    {
+      "name": "INS Trikand",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Guided Missile Frigate",
+      "quantity": null,
+      "wikiLink": null
+    }
+  ],
+  "military_exercises": [
+    {
+      "name": "Exercise Sea Dragon",
+      "countries": "India, Australia, Japan, New Zealand, United States",
+      "type": "Multinational Anti-Submarine Warfare (ASW) Training Exercise",
+      "location": "Andersen Air Force Base, Guam",
+      "year": "2026"
+    },
+    {
+      "name": "Exercise Vayushakti",
+      "countries": "India (IAF)",
+      "type": "Air Force Capabilities Showcase",
+      "location": "Pokhran Air to Ground Range, Jaisalmer",
+      "year": "2026"
+    },
+    {
+      "name": "Exercise Pragati (Partnership of Regional Armies for Growth and Transformation in the Indian Ocean Region)",
+      "countries": "India, Cambodia, Maldives, Bhutan, Malaysia, Sri Lanka, Vietnam, Myanmar, Nepal, Philippines, Seychelles, Indonesia, Laos",
+      "type": "Multilateral Joint Military Exercise",
+      "location": "Umroi, Meghalaya",
+      "year": "2026"
+    },
+    {
+      "name": "Exercise Amogh Jwala",
+      "countries": "India (Southern Command of Indian Army)",
+      "type": "Military Exercise",
+      "location": "Babina Field Firing Ranges, Uttar Pradesh",
+      "year": "2026"
+    },
+    {
+      "name": "IONS Maritime Exercise (IMEX) TTX",
+      "countries": "Indian Ocean Naval Symposium (IONS) member states (e.g., Bangladesh, France, Indonesia, Maldives, Myanmar, Seychelles, Sri Lanka, Tanzania, Timor Leste)",
+      "type": "Maritime Exercise",
+      "location": "Maritime Warfare Centre, Kochi",
+      "year": "2026"
+    },
+    {
+      "name": "Exercise Vajra Prahar",
+      "countries": "India, United States (Joint Special Forces)",
+      "type": "Joint Special Forces Exercise",
+      "location": "Special Forces Training School, Bakloh, Himachal Pradesh",
+      "year": "2026"
+    },
+    {
+      "name": "MILAN Naval Exercise",
+      "countries": "India, nine ASEAN member states (multinational)",
+      "type": "Naval Exercise",
+      "location": "Visakhapatnam, Andhra Pradesh",
+      "year": "2026"
+    },
+    {
+      "name": "Exercise Pitch Black",
+      "countries": "Australia (host), 19 nations (multinational, including India, US, Japan, New Zealand)",
+      "type": "Biennial Multinational Air Combat Exercise",
+      "location": "Australia",
+      "year": "2026"
+    },
+    {
+      "name": "Exercise Dustlik",
+      "countries": "India (Indian Army, Indian Air Force), Uzbekistan",
+      "type": "Joint Military Exercise",
+      "location": "Gurumsaray Field Training Area, Uzbekistan",
+      "year": "2026"
+    },
+    {
+      "name": "Exercise Dharma Guardian",
+      "countries": "India (Indian Army), Japan (JGSDF)",
+      "type": "Annual Joint Military Exercise",
+      "location": "Chaubattia, Uttarakhand",
+      "year": "Ongoing (7th edition)"
+    },
+    {
+      "name": "Exercise Cyclone-IV",
+      "countries": "India (Indian Army Special Forces), Egypt (Egyptian Special Forces)",
+      "type": "Joint Military Exercise",
+      "location": "Anshas, Egypt",
+      "year": "2026"
+    },
+    {
+      "name": "Exercise Khanjar",
+      "countries": "India, Kyrgyzstan (Joint Special Forces)",
+      "type": "Joint Special Forces Exercise",
+      "location": "Missamari, Assam",
+      "year": "Ongoing (13th edition)"
+    },
+    {
+      "name": "IN-SLN DIVEX",
+      "countries": "India (Indian Navy), Sri Lanka (Sri Lankan Navy)",
+      "type": "Bilateral Diving Exercise",
+      "location": "Colombo",
+      "year": "2026"
+    },
+    {
+      "name": "Exercise LAMITIYE",
+      "countries": "India (Indian Armed Forces), Seychelles",
+      "type": "Joint Military Exercise",
+      "location": "Seychelles",
+      "year": "2026"
+    },
+    {
+      "name": "Exercise Surya Kiran",
+      "countries": "India, Nepal",
+      "type": "Joint Military Exercise",
+      "location": null,
+      "year": null
+    },
+    {
+      "name": "Exercise Khaan Quest",
+      "countries": "Multinational",
+      "type": "Peacekeeping Exercise",
+      "location": null,
+      "year": null
+    },
+    {
+      "name": "Exercise Tiger Triumph",
+      "countries": "India, USA",
+      "type": "Tri-Service Exercise",
+      "location": null,
+      "year": "2024"
+    },
+    {
+      "name": "Exercise Samudra Lakshman",
+      "countries": "India, Malaysia",
+      "type": "Naval Exercise",
+      "location": null,
+      "year": "2024"
+    },
+    {
+      "name": "Bold Kurukshetra",
+      "countries": "India, Singapore",
+      "type": "Joint Military Exercise",
+      "location": null,
+      "year": "2025"
+    },
+    {
+      "name": "Exercise Al Nagah",
+      "countries": "India, Oman",
+      "type": "Joint Military Exercise",
+      "location": null,
+      "year": null
+    },
+    {
+      "name": "Exercise Shakti",
+      "countries": "India, France",
+      "type": "Joint Military Exercise",
+      "location": null,
+      "year": "2023-2024"
+    },
+    {
+      "name": "Exercise Desert Cyclone",
+      "countries": "India, UAE",
+      "type": "Joint Military Exercise",
+      "location": null,
+      "year": null
+    },
+    {
+      "name": "Exercise Sada Tanseeq",
+      "countries": "India, Saudi Arabia",
+      "type": "Joint Military Exercise",
+      "location": null,
+      "year": null
+    },
+    {
+      "name": "Exercise Vinbax",
+      "countries": "India, Vietnam",
+      "type": "Joint Military Exercise",
+      "location": null,
+      "year": "2024"
+    },
+    {
+      "name": "Exercise Ayutthaya",
+      "countries": "India, Thailand",
+      "type": "Naval Exercise",
+      "location": null,
+      "year": null
+    },
+    {
+      "name": "Exercise Dosti",
+      "countries": "India, Maldives, Sri Lanka",
+      "type": "Coast Guard Exercise",
+      "location": null,
+      "year": null
+    }
+  ],
+  "notes": [
+    {
+      "category": "geography",
+      "title": "Middle East Geographical Context",
+      "content": "<h2>Middle East Geographical Context</h2><p>The Middle East region is characterized by several key countries and water bodies:</p><ul><li><strong>Countries:</strong> Turkiye, Iraq, Iran, Egypt, Kuwait, Saudi Arabia, Bahrain, Qatar, UAE, Oman, Yemen, Djibouti, Sudan, Eritrea.</li><li><strong>Water Bodies:</strong> Persian Gulf, Gulf of Oman, Red Sea.</li><li><strong>Straits:</strong> Strait of Hormuz (connecting Persian Gulf and Gulf of Oman).</li><li><strong>Mountains:</strong> Zagros Mountains (primarily in Iran).</li><li><strong>Red Sea Characteristics:</strong> Notably, the Red Sea region is characterized by high salinity and a lack of major rivers flowing into it.</li></ul>"
+    },
+    {
+      "category": "polity",
+      "title": "United Nations Peacekeeping Missions",
+      "content": "<h2>United Nations Peacekeeping Missions</h2><p>United Nations Peacekeeping operations, often referred to as 'Blue Helmets', were established in 1949. India is a significant contributor to these missions.</p><p><strong>Current UN Peacekeeping Operations mentioned:</strong></p><ul><li><strong>MINURSO:</strong> Western Sahara</li><li><strong>MINUSCA:</strong> Central African Republic</li><li><strong>MONUSCO:</strong> Democratic Republic of Congo</li><li><strong>UNMOGIP:</strong> India & Pakistan (United Nations Military Observer Group in India and Pakistan)</li><li><strong>UNDOF:</strong> Golan (United Nations Disengagement Observer Force)</li><li><strong>UNTSO:</strong> Middle East (United Nations Truce Supervision Organization)</li><li><strong>UNFICYP:</strong> Cyprus (United Nations Peacekeeping Force in Cyprus)</li><li><strong>UNISFA:</strong> Abyei (United Nations Interim Security Force for Abyei)</li><li><strong>UNIFIL:</strong> Lebanon (United Nations Interim Force in Lebanon)</li><li><strong>UNMIK:</strong> Kosovo (United Nations Interim Administration Mission in Kosovo)</li><li><strong>UNMISS:</strong> South Sudan (United Nations Mission in South Sudan)</li></ul>"
+    },
+    {
+      "category": "polity",
+      "title": "Indian Gallantry Awards",
+      "content": "<h2>Indian Gallantry Awards: Overview</h2><p>Indian Gallantry Awards are categorized into wartime and peacetime honors, recognizing acts of bravery and sacrifice by armed forces personnel and civilians.</p><h3>Wartime Gallantry Awards (in order of precedence):</h3><ul><li><strong>Param Vir Chakra (PVC):</strong></li><ul><li>India's highest military honor.</li><li>Awarded for extraordinary bravery in the presence of the enemy.</li><li>Established on January 26, 1950.</li><li>Awarded to personnel of all branches of the Indian Armed Forces.</li><li>Medal is made of bronze and bears the Indian national emblem surrounded by four replicas of Indra's Vajra.</li></ul><li><strong>Maha Vir Chakra (MVC):</strong></li><ul><li>Second-highest gallantry award.</li><li>Awarded for exceptional bravery in the face of the enemy.</li><li>Medal emblem is silver. Ribbon is half white, half saffron.</li></ul><li><strong>Vir Chakra (VrC):</strong></li><ul><li>Third-highest wartime gallantry award.</li><li>Awarded for acts of courage during combat.</li><li>Medal emblem is silver.</li></ul></ul><h3>Peacetime Gallantry Awards (in order of precedence):</h3><ul><li><strong>Ashok Chakra (AC):</strong></li><ul><li>Highest peacetime gallantry award.</li><li>Awarded for bravery away from the battlefield.</li><li>Medal is gold-gilt. Ribbon is green.</li></ul><li><strong>Kirti Chakra (KC):</strong></li><ul><li>Second-highest peacetime gallantry award.</li><li>Awarded for courageous actions not in war.</li><li>Medal is silver. Ribbon is green.</li></ul><li><strong>Shaurya Chakra (SC):</strong></li><ul><li>Third-highest peacetime gallantry award.</li><li>Awarded for bravery, often in counter-terror or rescue operations.</li><li>Medal is bronze. Ribbon is green.</li><li>Comparable to the US Medal of Honor.</li></ul></ul>"
+    },
+    {
+      "category": "science",
+      "title": "Indian Naval Ship Types and Classes",
+      "content": "<h2>Indian Naval Ship Types and Classes</h2><h3>Naval Ship Types:</h3><ul><li><strong>Corvette:</strong> Typically smaller, faster vessels used for patrolling. Example: P63.</li><li><strong>Frigate:</strong> Medium-sized warships capable of Anti-Submarine Warfare (ASW) and Anti-Air Warfare (AAW). Examples include the Shivalik class and Nilgiri class (Project 17A).</li><li><strong>Destroyer:</strong> Among the most powerful warships, equipped with long-range missiles. Examples include the Visakhapatnam class, Kolkata class, Delhi class, and Rajput class. Example: D62.</li></ul><h3>Indian Naval Ship Projects/Classes:</h3><ul><li><strong>Project 15-A (Kolkata class):</strong> Built by Mazagon Dock Ltd. Ships include INS Kolkata, INS Kochi, INS Chennai.</li><li><strong>Project 15-B (Visakhapatnam class):</strong> Ships include INS Visakhapatnam, INS Mormugao, INS Imphal.</li><li><strong>Delhi class:</strong> Ships include INS Delhi, INS Mysore, INS Mumbai.</li><li><strong>Rajput class:</strong> Ships include INS Rana, INS Ranvir, INS Ranvijay.</li></ul>"
+    }
+  ]
+}

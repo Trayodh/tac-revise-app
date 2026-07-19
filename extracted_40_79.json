@@ -1,0 +1,806 @@
+{
+  "current_affairs": [
+    {
+      "month_year": "April 2026",
+      "id": "ca-2026-04-ins-trikand-mombasa",
+      "topic": "Naval Port Call and Defence Cooperation",
+      "text": "INS Trikand, a frontline guided missile frigate of the Indian Navy, concluded her port call at Mombasa, Kenya, on 10 April 2026. During the visit, Kenya received INSAS rifles and ammunition from the Indian Navy, with the handover conducted by senior naval officials. This initiative aims to strengthen bilateral defence cooperation and reflects India's vision of MAHASAGAR (Mutual and Holistic Advancement for Security and Growth Across Regions).",
+      "details": {
+        "ship_name": "INS Trikand",
+        "type": "Frontline guided missile frigate",
+        "location": "Mombasa, Kenya",
+        "date": "10 April 2026",
+        "event": "Port Call",
+        "cooperation_details": "Kenya received INSAS rifles and ammunition from Indian Navy; handover by senior naval officials; strengthens bilateral defence cooperation; aligns with MAHASAGAR vision."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-2026-06-ins-sharda-colombo",
+      "topic": "Naval Port Call and Maritime Cooperation",
+      "text": "INS Sharda departed Colombo, Sri Lanka, on 13 June 2026 after a successful port call. This visit further strengthened maritime cooperation and friendship between India and Sri Lanka, aligning with the MAHASAGAR vision.",
+      "details": {
+        "ship_name": "INS Sharda",
+        "location": "Colombo, Sri Lanka",
+        "date": "13 June 2026",
+        "event": "Port Call",
+        "cooperation_details": "Strengthened maritime cooperation and friendship; aligns with MAHASAGAR vision."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-2026-05-ins-sagardhwani-camranh",
+      "topic": "Scientific Cooperation",
+      "text": "INS Sagardhwani, an oceanographic research vessel, arrived at Cam Ranh, Vietnam, on 05 May 2026. This marked a significant step in India's scientific cooperation with Vietnam.",
+      "details": {
+        "ship_name": "INS Sagardhwani",
+        "type": "Oceanographic research vessel",
+        "location": "Cam Ranh, Vietnam",
+        "date": "05 May 2026",
+        "event": "Arrival",
+        "cooperation_details": "Significant step in India's scientific cooperation with Vietnam."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "Undated 2026",
+      "id": "ca-2026-ins-sunayna-male",
+      "topic": "Maritime Ties and SAGAR Initiative",
+      "text": "Indian Navy's offshore patrol vessel INS Sunayna arrived at Mal\u00e9, Maldives, under the Indian Ocean Ship (IOS) SAGAR initiative. This visit aims to strengthen India-Maldives maritime ties and aligns with India's 'Neighbourhood First' policy and the Mutual and Holistic Advancement for Security and Growth Across Regions (MAHASAGAR) vision.",
+      "details": {
+        "ship_name": "INS Sunayna",
+        "type": "Offshore patrol vessel",
+        "location": "Mal\u00e9, Maldives",
+        "initiative": "Indian Ocean Ship (IOS) SAGAR",
+        "policy_alignment": "'Neighbourhood First' policy, MAHASAGAR vision."
+      },
+      "mcq": {
+        "question": "Which Indian Navy offshore patrol vessel arrived at Mal\u00e9, Maldives, under the Indian Ocean Ship (IOS) SAGAR initiative to strengthen India-Maldives maritime cooperation?",
+        "options": [
+          "1. INS Shivalik",
+          "2. INS Sumedha",
+          "3. INS Kiltan",
+          "4. INS Sunayna"
+        ],
+        "answer": "4. INS Sunayna",
+        "explanation": "As per the information on page 5, INS Sunayna is the offshore patrol vessel that arrived at Mal\u00e9, Maldives, under the IOS SAGAR initiative to strengthen India-Maldives maritime cooperation."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "ca-2026-04-ins-sudarshini-sete",
+      "topic": "International Maritime Festival Participation",
+      "text": "INS Sudarshini, a sail training ship of the Indian Navy, departed S\u00e8te, France, on 07 April 2026, after participating in the biennial 'Escale \u00e0 S\u00e8te' maritime festival. The event marked the 400th anniversary of the French Navy and is considered one of the largest maritime gatherings in the Mediterranean region.",
+      "details": {
+        "ship_name": "INS Sudarshini",
+        "type": "Sail training ship",
+        "location": "S\u00e8te, France",
+        "date": "07 April 2026",
+        "event": "Escale \u00e0 S\u00e8te maritime festival",
+        "significance": "Marked 400th anniversary of French Navy; one of the largest maritime gatherings in Mediterranean."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "April 2026",
+      "id": "ca-2026-04-ins-sudarshini-lokayan26",
+      "topic": "Naval Expedition and Port Calls",
+      "text": "The Indian Navy's INS Sudarshini completed a significant three-day port call at Las Palmas, Canary Islands, on 26 April 2026, as part of its Lokayan 26 expedition. It also reached Valletta, Malta, as part of this extensive expedition covering 22,000 nautical miles.",
+      "details": {
+        "ship_name": "INS Sudarshini",
+        "type": "Sail training ship",
+        "locations": [
+          "Las Palmas, Canary Islands",
+          "Valletta, Malta"
+        ],
+        "date_las_palmas": "26 April 2026",
+        "expedition": "Lokayan 26",
+        "distance_covered": "22,000 nautical miles."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-2026-06-ins-tarkash-ikshak-seychelles",
+      "topic": "Naval Port Call and Community Engagement",
+      "text": "Indian Naval Ships Tarkash and Ikshak concluded their port call at Port Victoria, Seychelles, on 29 June 2026. This marked the successful completion of a range of professional, ceremonial, and community engagement activities undertaken during Seychelles' National Day and Golden Jubilee celebration.",
+      "details": {
+        "ship_names": [
+          "INS Tarkash",
+          "INS Ikshak"
+        ],
+        "location": "Port Victoria, Seychelles",
+        "date": "29 June 2026",
+        "event": "Port Call",
+        "activities": "Professional, ceremonial, and community engagement activities during Seychelles' National Day and Golden Jubilee celebration."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "Undated 2026",
+      "id": "ca-2026-ins-udaygiri-kavaratti-vietnam",
+      "topic": "Operational Deployment",
+      "text": "INS Udaygiri and INS Kavaratti concluded their port call in Vietnam as part of India's operational deployment in the Southeast Asia region.",
+      "details": {
+        "ship_names": [
+          "INS Udaygiri",
+          "INS Kavaratti"
+        ],
+        "location": "Vietnam",
+        "event": "Port Call",
+        "purpose": "Part of India's operational deployment in the Southeast Asia region."
+      },
+      "mcq": {
+        "question": "Which two Indian Navy vessels recently concluded their port call in Vietnam as part of India's operational deployment in the Southeast Asia region?",
+        "options": [
+          "1. INS Udaygiri and INS Kavaratti",
+          "2. INS Shivalik and INS Kamorta",
+          "3. INS Kolkata and INS Chennai",
+          "4. INS Vikrant and INS Visakhapatnam"
+        ],
+        "answer": "1. INS Udaygiri and INS Kavaratti",
+        "explanation": "As per the information on page 9, INS Udaygiri and INS Kavaratti concluded their port call in Vietnam as part of India's operational deployment in the Southeast Asia region."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-2026-06-ins-tarkash-mauritius",
+      "topic": "Naval Deployment and Training",
+      "text": "On 22 June 2026, Indian Naval Ship Tarkash, a stealth frigate, left Port Louis, Mauritius, after a port call for deployment in the South West Indian Ocean Region. During its stay, the ship's crew engaged in various activities, including a friendly volleyball match and training for the Mauritius National Coast Guard.",
+      "details": {
+        "ship_name": "INS Tarkash",
+        "type": "Stealth frigate",
+        "location": "Port Louis, Mauritius",
+        "date": "22 June 2026",
+        "event": "Port Call and Departure",
+        "deployment_region": "South West Indian Ocean Region",
+        "activities": "Friendly volleyball match, training for Mauritius National Coast Guard."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "Undated 2026",
+      "id": "ca-2026-ins-agray-dunagiri-sanshodhak-launch",
+      "topic": "Indigenous Naval Vessel Launch",
+      "text": "Prime Minister Narendra Modi launched three indigenous naval vessels\u2014INS Agray, INS Dunagiri, and INS Sanshodhak\u2014at Syama Prasad Mookerjee Port in Kolkata. This event significantly enhances India's naval capabilities.",
+      "details": {
+        "ship_names": [
+          "INS Agray",
+          "INS Dunagiri",
+          "INS Sanshodhak"
+        ],
+        "event": "Launch",
+        "location": "Syama Prasad Mookerjee Port, Kolkata",
+        "launched_by": "Prime Minister Narendra Modi",
+        "significance": "Enhances India's naval capabilities; indigenous vessels."
+      },
+      "mcq": {
+        "question": "Which of the following indigenous naval vessels was launched by Prime Minister Narendra Modi at Shyama Prasad Mookerjee Port, Kolkata?",
+        "options": [
+          "1. INS Kiltan, INS Kamorta and INS Kadmatt",
+          "2. INS Nilgiri, INS Kavaratti and INS Sandhayak",
+          "3. INS Vikrant, INS Visakhapatnam and INS Mormugao",
+          "4. INS Agray, INS Dunagiri and INS Sanshodhak"
+        ],
+        "answer": "4. INS Agray, INS Dunagiri and INS Sanshodhak",
+        "explanation": "As per the information on page 11, Prime Minister Narendra Modi launched INS Agray, INS Dunagiri, and INS Sanshodhak at Syama Prasad Mookerjee Port in Kolkata."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "ca-2026-04-mahendragiri-delivery",
+      "topic": "Naval Ship Delivery and Self-Reliance",
+      "text": "Mahendragiri (Yard 12654), the sixth Nilgiri-class ship, was delivered to the Indian Navy on 30 April 2026, at Mazagon Dock Shipbuilders Limited in Mumbai. This delivery signifies a key milestone in achieving self-reliance in warship design and construction.",
+      "details": {
+        "ship_name": "Mahendragiri (Yard 12654)",
+        "class": "Nilgiri-class",
+        "delivery_order": "Sixth",
+        "delivery_date": "30 April 2026",
+        "builder": "Mazagon Dock Shipbuilders Limited, Mumbai",
+        "significance": "Key milestone in achieving self-reliance in warship design and construction."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "Undated 2026",
+      "id": "ca-2026-ins-aridhaman-commissioning",
+      "topic": "Nuclear Submarine Commissioning",
+      "text": "INS Aridhaman was commissioned as India's third indigenous nuclear-powered ballistic missile submarine. It belongs to the Arihant-class submarines and was developed under the Advanced Technology Vessel (ATV) project. The submarine was built at the Ship Building Centre in Visakhapatnam.",
+      "details": {
+        "ship_name": "INS Aridhaman",
+        "type": "Nuclear-powered ballistic missile submarine",
+        "class": "Arihant-class",
+        "status": "Commissioned (third indigenous)",
+        "project": "Advanced Technology Vessel (ATV) project",
+        "builder": "Ship Building Centre, Visakhapatnam."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "April 2026",
+      "id": "ca-2026-04-ins-nireekshak-colombo",
+      "topic": "Bilateral Diving Exercise",
+      "text": "INS Nireekshak, the Diving Support and Submarine Rescue Vessel of the Indian Navy, arrived at the port of Colombo, Sri Lanka, on 21 April 2026. It participated in the 4th edition of IN-SLN DIVEX 2026, a bilateral diving exercise.",
+      "details": {
+        "ship_name": "INS Nireekshak",
+        "type": "Diving Support and Submarine Rescue Vessel",
+        "location": "Colombo, Sri Lanka",
+        "date": "21 April 2026",
+        "exercise": "IN-SLN DIVEX 2026 (4th edition)",
+        "countries": "India, Sri Lanka."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "July 2026",
+      "id": "ca-2026-07-ins-malwan-commissioning",
+      "topic": "ASW Shallow Water Craft Commissioning",
+      "text": "The Indian Navy is set to commission Malvan, the second of the Mahe-class Anti-Submarine Warfare Shallow Water Craft (ASW-SWC), on 22 July 2026. Built by Cochin Shipyard Limited (CSL), Kochi, with over 80% indigenous content, INS Malwan is a next-generation craft designed to strengthen coastal defence and reflects India's push toward self-reliance in defence manufacturing.",
+      "details": {
+        "ship_name": "INS Malwan",
+        "type": "Anti-Submarine Warfare Shallow Water Craft (ASW-SWC)",
+        "class": "Mahe-class",
+        "commissioning_order": "Second",
+        "commissioning_date": "22 July 2026",
+        "builder": "Cochin Shipyard Limited (CSL), Kochi",
+        "indigenous_content": "Over 80%",
+        "purpose": "Strengthen coastal defence; self-reliance in defence manufacturing."
+      },
+      "mcq": {
+        "question": "In the context of India's maritime capability development, consider the following statements regarding INS Malwan:<br>1. INS Malwan is a next-generation anti-submarine warfare shallow water craft delivered to the Indian Navy to strengthen coastal defence.<br>2. It was built by Cochin Shipyard Limited with more than 80% indigenous content, reflecting India's push towards self-reliance in defence manufacturing.<br>Which of the statements given above is/are correct?",
+        "options": [
+          "1. Both 1 and 2",
+          "2. 1 only",
+          "3. 2 only",
+          "4. Neither 1 nor 2"
+        ],
+        "answer": "1. Both 1 and 2",
+        "explanation": "As per the information on page 15, INS Malwan is a next-generation anti-submarine warfare shallow water craft delivered to the Indian Navy for coastal defence (Statement 1). It was built by Cochin Shipyard Limited with over 80% indigenous content (Statement 2). Therefore, both statements are correct."
+      }
+    },
+    {
+      "month_year": "Undated 2026",
+      "id": "ca-2026-ins-taragiri-commissioning",
+      "topic": "Stealth Frigate Commissioning",
+      "text": "Visakhapatnam is the location where INS Taragiri, the fifth Project 17A stealth frigate of the Indian Navy, was officially commissioned. It was designed by the Navy's Warship Design Bureau and built by Mazagon Dock Shipbuilders Limited.",
+      "details": {
+        "ship_name": "INS Taragiri",
+        "type": "Project 17A stealth frigate",
+        "commissioning_order": "Fifth",
+        "location": "Visakhapatnam",
+        "designer": "Navy's Warship Design Bureau",
+        "builder": "Mazagon Dock Shipbuilders Limited."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "Undated 2026",
+      "id": "ca-2026-ins-dunagiri-delivery",
+      "topic": "Indigenous Stealth Frigate Delivery",
+      "text": "INS Dunagiri, an indigenous stealth frigate, was delivered to the Indian Navy. It is part of Project 17A, representing the Nilgiri class of advanced warships, and was built by Garden Reach Shipbuilders and Engineers in Kolkata.",
+      "details": {
+        "ship_name": "INS Dunagiri",
+        "type": "Indigenous stealth frigate",
+        "project": "Project 17A (Nilgiri class)",
+        "builder": "Garden Reach Shipbuilders and Engineers, Kolkata."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "October 2010",
+      "id": "ca-2010-10-ins-kalpeni-commissioning-visit",
+      "topic": "Maritime Cooperation and Fast Attack Craft",
+      "text": "INS Kalpeni, a fast attack craft of the Indian Navy, recently visited Gan, strengthening India-Maldives maritime cooperation. It belongs to the Car Nicobar-class Waterjet Fast Attack Craft, was built by Garden Reach Shipbuilders and Engineers, and commissioned on 14 October 2010. The ship is named after Kalpeni Island of Lakshadweep.",
+      "details": {
+        "ship_name": "INS Kalpeni",
+        "type": "Fast attack craft (Waterjet Fast Attack Craft)",
+        "class": "Car Nicobar-class",
+        "location": "Gan",
+        "commissioning_date": "14 October 2010",
+        "builder": "Garden Reach Shipbuilders and Engineers",
+        "named_after": "Kalpeni Island of Lakshadweep."
+      },
+      "mcq": {
+        "question": "Based on the given information which of the following option is correct about Indian naval vessel?<br>Statements:<br>1. It is a fast attack craft of the Indian Navy.<br>2. It belongs to the Car Nicobar-class Waterjet Fast Attack Craft.<br>3. It was built by Garden Reach Shipbuilders and Engineers.<br>4. It was commissioned in 2010",
+        "options": [
+          "1. INS Kirpan",
+          "2. INS Kalpeni",
+          "3. INS Kalpana",
+          "4. INS Karuna"
+        ],
+        "answer": "2. INS Kalpeni",
+        "explanation": "As per the information on page 18, INS Kalpeni is a fast attack craft of the Indian Navy, belongs to the Car Nicobar-class Waterjet Fast Attack Craft, was built by Garden Reach Shipbuilders and Engineers, and was commissioned on 14 October 2010. All statements accurately describe INS Kalpeni."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-2026-06-icgs-akshay-commissioning",
+      "topic": "Indian Coast Guard Modernisation",
+      "text": "Bharatiya Tatrakshak (Indian Coast Guard) marked a milestone in its force modernisation with the commissioning of ICGS Akshay, a new-generation Fast Patrol Vessel (FPV), at Goa Shipyard Limited, Goa, on 27 June 2026. This vessel enhances the operational capability of the Indian Coast Guard and is a significant achievement in indigenous shipbuilding.",
+      "details": {
+        "ship_name": "ICGS Akshay",
+        "type": "New-generation Fast Patrol Vessel (FPV)",
+        "branch": "Indian Coast Guard (Bharatiya Tatrakshak)",
+        "commissioning_date": "27 June 2026",
+        "builder": "Goa Shipyard Limited, Goa",
+        "significance": "Force modernisation, indigenous shipbuilding achievement."
+      },
+      "mcq": {
+        "question": "In the context of India's maritime capability development, consider the following statements regarding Indian Coast Guard Ship (ICGS) Samudra Pratap.<br>1. ICGS Samudra Pratap is India's first indigenously designed pollution control vessel, with more than 60% indigenous content.<br>2. It is the largest ship in the Indian Coast Guard fleet and was built by Goa Shipyard Limited.<br>Which of the statements given above is/are correct?",
+        "options": [
+          "1. Both 1 and 2",
+          "2. 1 only",
+          "3. Neither 1 nor 2",
+          "4. 2 only"
+        ],
+        "answer": "",
+        "explanation": ""
+      }
+    },
+    {
+      "month_year": "March 2026",
+      "id": "ca-2026-03-sanshodhak-delivery",
+      "topic": "Survey Vessel Delivery",
+      "text": "The Survey Vessel 'Sanshodhak' was delivered to the Indian Navy at Garden Reach Shipbuilders & Engineers Ltd (GRSE), Kolkata, on 30 March 2026. It is the fourth Survey Vessel (Large) ship, with over 80% indigenous content. The contract for four such ships was signed on 30 October 2018. Previous ships of this class include INS Sandhayak (commissioned 03 February 2024), INS Nirdeshak (commissioned 18 December 2024), and INS Ikshak (commissioned 06 November 2025).",
+      "details": {
+        "ship_name": "Sanshodhak (Yard 3023)",
+        "type": "Survey Vessel (Large)",
+        "delivery_order": "Fourth",
+        "delivery_date": "30 March 2026",
+        "builder": "Garden Reach Shipbuilders & Engineers Ltd (GRSE), Kolkata",
+        "indigenous_content": "Over 80%",
+        "class_ships": [
+          "INS Sandhayak",
+          "INS Nirdeshak",
+          "INS Ikshak"
+        ]
+      },
+      "mcq": {
+        "question": "Consider the following pairs:<br>1. INS Agray: Anti-submarine warfare<br>2. INS Dunagiri: Advanced stealth frigate<br>3. INS Sanshodhak: Hydrographic survey vessel<br>How many of the above pairs are correctly matched?",
+        "options": [
+          "1. Only one",
+          "2. Only two",
+          "3. All three",
+          "4. None"
+        ],
+        "answer": "3. All three",
+        "explanation": "As per the information on page 11, INS Agray specializes in anti-submarine warfare, INS Dunagiri is an advanced stealth frigate, and INS Sanshodhak is a hydrographic survey vessel. All three pairs are correctly matched."
+      }
+    },
+    {
+      "month_year": "February 2026",
+      "id": "ca-2026-02-ins-anjadip-commissioning",
+      "topic": "ASW Shallow Water Craft Commissioning",
+      "text": "The Indian Navy will boost its Anti-Submarine Warfare (ASW) capabilities with the commissioning of Anjadip, the third vessel in the ASW-SWC project, on 27 February 2026. The warship, built by Garden Reach Shipbuilders & Engineers (GRSE), Kolkata, will be formally inducted into the Eastern Naval Command at Chennai Port. It is designed for littoral combat, equipped with indigenous ASW weapons and sensors like Hull Mounted Sonar Abhay, Lightweight Torpedoes, and ASW Rockets, and features a high-speed Water-Jet Propulsion system.",
+      "details": {
+        "ship_name": "INS Anjadip",
+        "type": "Anti-Submarine Warfare Shallow Water Craft (ASW-SWC)",
+        "commissioning_order": "Third",
+        "commissioning_date": "27 February 2026",
+        "builder": "Garden Reach Shipbuilders & Engineers (GRSE), Kolkata",
+        "induction_command": "Eastern Naval Command, Chennai Port",
+        "features": "Indigenous ASW weapons and sensors (Hull Mounted Sonar Abhay, Lightweight Torpedoes, ASW Rockets), 77-meter long, high-speed Water-Jet Propulsion system (25 knots)."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-2026-05-yard-3039-sanghmitra-launch",
+      "topic": "Next Generation Offshore Patrol Vessel Launch",
+      "text": "Yard 3039 (Sanghmitra), a Next Generation Offshore Patrol Vessel (NGOPV), was launched at M/s GRSE, Kolkata, on 20 May 2026. The launch was conducted by Mrs Sarita Vatsayan in the presence of VAdm Sanjay Vatsayan, Vice Chief of the Naval Staff.",
+      "details": {
+        "ship_name": "Yard 3039 (Sanghmitra)",
+        "type": "Next Generation Offshore Patrol Vessel (NGOPV)",
+        "event": "Launch",
+        "launch_date": "20 May 2026",
+        "builder": "M/s GRSE, Kolkata",
+        "launched_by": "Mrs Sarita Vatsayan",
+        "dignitaries": "VAdm Sanjay Vatsayan, Vice Chief of the Naval Staff."
+      },
+      "mcq": null
+    },
+    {
+      "month_year": "December 2025",
+      "id": "ca-2025-12-indian-naval-sailing-vessel-pyq",
+      "topic": "Ancient Maritime Heritage Revival",
+      "text": "An Indian Navy vessel, an indigenously built traditional stitched sailing ship, undertook its maiden overseas voyage from Porbandar to Muscat in December 2025 to revive and celebrate India's ancient maritime heritage.",
+      "details": {
+        "event": "Maiden overseas voyage",
+        "route": "Porbandar to Muscat",
+        "date": "December 2025",
+        "purpose": "Revive and celebrate India's ancient maritime heritage",
+        "ship_type": "Indigenously built traditional stitched sailing ship"
+      },
+      "mcq": {
+        "question": "Which Indian Navy vessel, an indigenously built traditional stitched sailing ship, undertook its maiden overseas voyage from Porbandar to Muscat in December 2025 to revive and celebrate India's ancient maritime heritage?",
+        "options": [
+          "1. Indian Naval Sailing Vessel Kaundinya",
+          "2. Indian Naval Sailing Vessel Sudarshini",
+          "3. Indian Naval Sailing Vessel Tarangini",
+          "4. Indian Naval Sailing Vessel Mhadei"
+        ],
+        "answer": "",
+        "explanation": ""
+      }
+    },
+    {
+      "month_year": "Undated 2026",
+      "id": "ca-2026-ins-trikand-pyq",
+      "topic": "Naval Engagements",
+      "text": "INS Trikand is a frontline guided missile frigate of the Indian Navy. Its deployment is aimed at enhancing India's maritime cooperation and presence in the Indian Ocean Region.",
+      "details": {
+        "ship_name": "INS Trikand",
+        "type": "Frontline guided missile frigate",
+        "deployment_aim": "Enhancing India's maritime cooperation and presence in the Indian Ocean Region"
+      },
+      "mcq": {
+        "question": "In the context of India's maritime engagements, consider the following statements regarding INS Trikand:<br>1. INS Trikand is a frontline guided missile frigate of the Indian Navy.<br>2. It arrived at Maputo, Mozambique, as part of its operational deployment in the South West Indian Ocean Region.<br>3. The deployment is aimed at enhancing India's maritime cooperation and presence in the Indian Ocean Region.<br>Which of the statements given above is/are correct?",
+        "options": [
+          "1. 1 and 2 only",
+          "2. 2 and 3 only",
+          "3. 1 and 3 only",
+          "4. 1, 2 and 3"
+        ],
+        "answer": "3. 1 and 3 only",
+        "explanation": "As per the information on page 2, INS Trikand is a frontline guided missile frigate (Statement 1 is correct). It concluded its port call at Mombasa, Kenya, not Maputo, Mozambique (Statement 2 is incorrect). The deployment reflects India's vision of MAHASAGAR, aiming to strengthen camaraderie, mutual cooperation, and bilateral relations, which aligns with enhancing maritime cooperation and presence in the Indian Ocean Region (Statement 3 is correct)."
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": "INS Trikand",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Frontline guided missile frigate",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INSAS rifles",
+      "branch": "Army/Navy",
+      "origin": "India",
+      "type": "Rifle",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Sharda",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Naval vessel",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Sagardhwani",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Oceanographic research vessel",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Sunayna",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Offshore patrol vessel",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Sudarshini",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Sail training ship",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Tarkash",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Stealth frigate",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Ikshak",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Survey Vessel (Large)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Udaygiri",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Project 17A frigate (Nilgiri Class)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Kavaratti",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Naval vessel",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Agray",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Anti-submarine warfare vessel (Arnala class)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Dunagiri",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Advanced stealth frigate (Project 17A, Nilgiri class)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Sanshodhak",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Hydrographic survey vessel (Survey Vessel (Large) class)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "Mahendragiri (Yard 12654)",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Nilgiri-class frigate (Project 17A)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Aridhaman",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Nuclear-powered ballistic missile submarine (Arihant-class)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Arihant",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Nuclear-powered ballistic missile submarine (Arihant-class)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Arighat",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Nuclear-powered ballistic missile submarine (Arihant-class)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Nireekshak",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Diving Support and Submarine Rescue Vessel",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Malwan",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Anti-submarine warfare shallow water craft (Mahe-class ASW-SWC)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Taragiri",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Project 17A stealth frigate (Nilgiri Class)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Kalpeni",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Fast attack craft (Car Nicobar-class Waterjet Fast Attack Craft)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "ICGS Akshay",
+      "branch": "Indian Coast Guard",
+      "origin": "India",
+      "type": "New-generation Fast Patrol Vessel (FPV)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Sandhayak",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Survey Vessel (Large)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Nirdeshak",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Survey Vessel (Large)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Anjadip",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Anti-Submarine Warfare Shallow Water Craft (ASW-SWC)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "Yard 3039 (Sanghmitra)",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Next Generation Offshore Patrol Vessel (NGOPV)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Kalvari",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Khanderi",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Karanj",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Vela",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Vagir",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Vagsheer",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Diesel-electric attack submarine (Kalvari Class, Project 75)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Nilgiri",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Project 17A frigate (Nilgiri Class)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Himgiri",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Project 17A frigate (Nilgiri Class)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Vindhyagiri",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Project 17A frigate (Nilgiri Class)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Visakhapatnam",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Destroyer (Visakhapatnam Class, Project 15B)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Mormugao",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Destroyer (Visakhapatnam Class, Project 15B)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Imphal",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Destroyer (Visakhapatnam Class, Project 15B)",
+      "quantity": null,
+      "wikiLink": null
+    },
+    {
+      "name": "INS Surat",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Destroyer (Visakhapatnam Class, Project 15B)",
+      "quantity": null,
+      "wikiLink": null
+    }
+  ],
+  "military_exercises": [
+    {
+      "name": "IN-SLN DIVEX 2026",
+      "countries": "India, Sri Lanka",
+      "type": "Bilateral diving exercise",
+      "location": "Colombo, Sri Lanka",
+      "year": "2026"
+    }
+  ],
+  "notes": [
+    {
+      "category": "polity",
+      "title": "MAHASAGAR Vision",
+      "content": "<p>The <strong>MAHASAGAR</strong> vision stands for <strong>Mutual and Holistic Advancement for Security and Growth Across Regions</strong>. It reflects India's commitment to strengthening camaraderie, mutual cooperation, and bilateral relations in the maritime domain. This vision is often aligned with India's 'Neighbourhood First' policy.</p>"
+    },
+    {
+      "category": "economics",
+      "title": "Indigenous Content in Defence Manufacturing",
+      "content": "<p>India is actively pursuing self-reliance (Aatmanirbhar Bharat) in defence manufacturing. Several naval projects highlight this commitment:</p><ul><li><strong>Mahendragiri (Yard 12654):</strong> Sixth Nilgiri-class ship, delivered to the Indian Navy, signifies a key milestone in achieving self-reliance in warship design and construction.</li><li><strong>INS Malwan:</strong> Next-generation anti-submarine warfare shallow water craft, built by Cochin Shipyard Limited, boasts over 80% indigenous content.</li><li><strong>Sanshodhak (Yard 3023):</strong> Fourth Survey Vessel (Large) ship, delivered to the Indian Navy, also has an indigenous content exceeding 80%.</li><li><strong>INS Agray, INS Dunagiri, INS Sanshodhak:</strong> Launched by PM Modi, these are indigenous naval vessels enhancing India's naval capabilities.</li></ul>"
+    },
+    {
+      "category": "science",
+      "title": "Arihant-class Submarines",
+      "content": "<p>The <strong>Arihant-class</strong> are India's indigenous nuclear-powered ballistic missile submarines, developed under the <strong>Advanced Technology Vessel (ATV) project</strong>. Key vessels in this class include:</p><ul><li><strong>INS Arihant</strong></li><li><strong>INS Arighat</strong></li><li><strong>INS Aridhaman:</strong> Commissioned as India's third indigenous nuclear-powered ballistic missile submarine, built at the Ship Building Centre in Visakhapatnam.</li></ul>"
+    },
+    {
+      "category": "science",
+      "title": "Project 75 - Kalvari Class Submarines",
+      "content": "<p><strong>Project 75</strong> involves the construction of <strong>Kalvari-class diesel-electric attack submarines</strong> for the Indian Navy. Vessels in this class include:</p><ul><li>INS Kalvari</li><li>INS Khanderi</li><li>INS Karanj</li><li>INS Vela</li><li>INS Vagir</li><li>INS Vagsheer</li></ul>"
+    },
+    {
+      "category": "science",
+      "title": "Project 17A - Nilgiri Class Frigates",
+      "content": "<p><strong>Project 17A</strong> involves the construction of <strong>Nilgiri-class stealth frigates</strong> for the Indian Navy. These advanced warships are designed to enhance India's naval capabilities. Vessels in this class include:</p><ul><li>INS Nilgiri</li><li>INS Udaygiri</li><li>INS Taragiri</li><li>INS Mahendragiri</li><li>INS Himgiri</li><li>INS Dunagiri</li><li>INS Vindhyagiri</li></ul>"
+    },
+    {
+      "category": "science",
+      "title": "Project 15B - Visakhapatnam Class Destroyers",
+      "content": "<p><strong>Project 15B</strong> involves the construction of <strong>Visakhapatnam-class destroyers</strong> for the Indian Navy. Vessels in this class include:</p><ul><li>INS Visakhapatnam</li><li>INS Mormugao</li><li>INS Imphal</li><li>INS Surat</li></ul>"
+    }
+  ]
+}

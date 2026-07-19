@@ -1,4 +1,171 @@
 window.CURRENT_AFFAIRS_DB = {
+  "1988": [
+    {
+      "id": "operation-cactus-maldives-1988",
+      "topic": "Operation Cactus",
+      "text": "Operation Cactus was conducted in Maldives in 1988.",
+      "details": {},
+      "mcq": null
+    }
+  ],
+  "1999": [
+    {
+      "id": "operation-talwar-kargil-war-1999",
+      "topic": "Operation Talwar",
+      "text": "Operation Talwar was conducted during the Kargil War in 1999.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "operation-safed-sagar-kargil-war-1999",
+      "topic": "Operation Safed Sagar",
+      "text": "Operation Safed Sagar was conducted during the Kargil War in 1999.",
+      "details": {},
+      "mcq": null
+    }
+  ],
+  "2014": [
+    {
+      "id": "operation-neer-maldives-2014",
+      "topic": "Operation Neer",
+      "text": "Operation Neer was conducted in Maldives in 2014.",
+      "details": {},
+      "mcq": null
+    }
+  ],
+  "2020": [
+    {
+      "id": "operation-sanjeevani-2020",
+      "topic": "Operation Sanjeevani",
+      "text": "Operation Sanjeevani was conducted in 2020 as part of India-Maldives Friendship under India's COVID-19 Emergency, following the 'Neighbourhood First' policy.",
+      "details": {},
+      "mcq": null
+    }
+  ],
+  "2022": [
+    {
+      "id": "operation-ganga-ukraine-2022",
+      "topic": "Operation Ganga",
+      "text": "Operation Ganga was conducted in Ukraine in 2022.",
+      "details": {},
+      "mcq": null
+    }
+  ],
+  "2023": [
+    {
+      "id": "operation-dost-turkey-syria-2023",
+      "topic": "Operation Dost",
+      "text": "Operation Dost was conducted in Turkey and Syria in 2023.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "operation-kaveri-sudan-2023",
+      "topic": "Operation Kaveri",
+      "text": "Operation Kaveri was conducted in Sudan in 2023.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "operation-ajay-israel-gaza-war-2023",
+      "topic": "Operation Ajay",
+      "text": "Operation Ajay was conducted during the Israel-Gaza War in 2023.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "operation-karuna-myanmar-2023",
+      "topic": "Operation Karuna",
+      "text": "Operation Karuna was conducted in Myanmar in 2023 as a first responder to HADR (Humanitarian Assistance and Disaster Relief) efforts following Cyclone Mocha.",
+      "details": {},
+      "mcq": null
+    }
+  ],
+  "2025": [
+    {
+      "id": "ca-2025-001",
+      "topic": "UN Awards",
+      "text": "An UN Award for promoting Gender Inclusion was mentioned for 2025. Abhilasha Barak, known for being the first woman combat aviator in the Indian Army, was also mentioned in this context.",
+      "details": {
+        "award_year": "2025",
+        "award_purpose": "Promoting Gender Inclusion",
+        "related_figure_mentioned": "Abhilasha Barak"
+      }
+    },
+    {
+      "id": "un-military-gender-advocate-2025",
+      "topic": "2025 UN Military Gender Advocate of the Year Award",
+      "text": "Major Abhilasha Barak was named the recipient of the 2025 United Nations Military Gender Advocate of the Year Award for her outstanding service in Lebanon as part of the United Nations Interim Force in Lebanon (UNIFIL). India is a significant contributor to UN peacekeeping, with approximately 4200 active personnel, and has contributed to missions in Abyei, Cyprus, Congo, Lebanon, Somalia, South Sudan, and Western Sahara.",
+      "details": {
+        "award_name": "United Nations Military Gender Advocate of the Year Award",
+        "award_year": 2025,
+        "recipient": "Major Abhilasha Barak",
+        "service_location": "Lebanon (UNIFIL)",
+        "india_contribution_to_un_peacekeeping": {
+          "active_personnel": 4200,
+          "missions_contributed_to": [
+            "Abyei",
+            "Cyprus",
+            "Congo",
+            "Lebanon",
+            "Somalia",
+            "South Sudan",
+            "Western Sahara"
+          ]
+        }
+      },
+      "mcq": null
+    }
+  ],
+  "2026": [
+    {
+      "id": "operation-777-2026",
+      "topic": "Defence Manufacturing Initiative",
+      "text": "Operation 777 is a strategic initiative launched in connection with the Kaal Bhairava autonomous combat aircraft programme.",
+      "details": {
+        "program": "Kaal Bhairava autonomous combat aircraft",
+        "developer": "Flying Wedge Defence & Aerospace (FWDA)",
+        "objective": "Creating manufacturing and integration partnerships across 7 continents and 77 countries, strengthening India's global defence manufacturing presence.",
+        "edition": "2026"
+      }
+    },
+    {
+      "id": "IFR-2026-Visakhapatnam",
+      "topic": "Naval Event",
+      "text": "The Indian Navy hosted the International Fleet Review (IFR) 2026 off Visakhapatnam, involving 74 countries and highlighting global naval cooperation and India's maritime capability. This was India's third IFR, following previous events in Mumbai (2001) and Visakhapatnam (2016).",
+      "details": {
+        "event": "International Fleet Review (IFR) 2026",
+        "host": "Indian Navy",
+        "location": "Off Visakhapatnam",
+        "participating_countries": "74",
+        "india_ifr_history": [
+          "Mumbai (2001)",
+          "Visakhapatnam (2016)",
+          "Visakhapatnam (2026)"
+        ]
+      },
+      "mcq": {
+        "question": "Where did the Indian Navy host the International Fleet Review (IFR) 2026?",
+        "options": [
+          "Mumbai",
+          "Kochi",
+          "Visakhapatnam",
+          "Goa"
+        ],
+        "answer": "Visakhapatnam",
+        "explanation": "The Indian Navy hosted the International Fleet Review (IFR) 2026 off Visakhapatnam."
+      }
+    }
+  ],
+  "2035": [
+    {
+      "id": "mission-mitra-ladakh-2035",
+      "topic": "Mission Mitra",
+      "text": "Ladakh has been chosen as the location for the Mission Mitra high-altitude experiment due to its extreme environmental conditions, including low oxygen levels and freezing temperatures. This initiative supports India's Gaganyaan program by preparing astronauts for real space missions, enhancing their ability to operate effectively under stress and in isolated conditions. It is also mentioned as 'Bharat Antariksh by station - 2035'.",
+      "details": {},
+      "mcq": null
+    }
+  ],
   "January 2026": [
     {
       "id": "jan-1",
@@ -375,6 +542,167 @@ window.CURRENT_AFFAIRS_DB = {
         "correct": 1,
         "explanation": "MeitY is the nodal ministry executing the India Semiconductor Mission to establish an indigenous chip ecosystem."
       }
+    },
+    {
+      "id": "ca-2026-02-ins-anjadip-commissioning",
+      "topic": "ASW Shallow Water Craft Commissioning",
+      "text": "The Indian Navy will boost its Anti-Submarine Warfare (ASW) capabilities with the commissioning of Anjadip, the third vessel in the ASW-SWC project, on 27 February 2026. The warship, built by Garden Reach Shipbuilders & Engineers (GRSE), Kolkata, will be formally inducted into the Eastern Naval Command at Chennai Port. It is designed for littoral combat, equipped with indigenous ASW weapons and sensors like Hull Mounted Sonar Abhay, Lightweight Torpedoes, and ASW Rockets, and features a high-speed Water-Jet Propulsion system.",
+      "details": {
+        "ship_name": "INS Anjadip",
+        "type": "Anti-Submarine Warfare Shallow Water Craft (ASW-SWC)",
+        "commissioning_order": "Third",
+        "commissioning_date": "27 February 2026",
+        "builder": "Garden Reach Shipbuilders & Engineers (GRSE), Kolkata",
+        "induction_command": "Eastern Naval Command, Chennai Port",
+        "features": "Indigenous ASW weapons and sensors (Hull Mounted Sonar Abhay, Lightweight Torpedoes, ASW Rockets), 77-meter long, high-speed Water-Jet Propulsion system (25 knots)."
+      },
+      "mcq": null
+    },
+    {
+      "id": "VSHORADS-Trials-2026",
+      "topic": "Defence Research and Development",
+      "text": "DRDO successfully carried out three consecutive flight trials of the indigenous VSHORADS missile system from Chandipur, Odisha, demonstrating its operational readiness. The Very Short Range Air Defence System is a man-portable missile designed to intercept low-flying aircraft, helicopters, drones, and high-speed aerial threats.",
+      "details": {
+        "system_name": "VSHORADS (Very Short Range Air Defence System)",
+        "trials_location": "Chandipur, Odisha",
+        "developer": "DRDO",
+        "missile_type": "Man-portable, Air Defence"
+      },
+      "mcq": {
+        "question": "Where did DRDO successfully carry out flight trials of the indigenous VSHORADS missile system?",
+        "options": [
+          "Kurnool, Andhra Pradesh",
+          "Bengaluru, Karnataka",
+          "Chandipur, Odisha",
+          "New Delhi"
+        ],
+        "answer": "Chandipur, Odisha",
+        "explanation": "DRDO successfully carried out three consecutive flight trials of the indigenous VSHORADS missile system from Chandipur, Odisha."
+      }
+    },
+    {
+      "id": "Singapore-Airshow-2026-IAF",
+      "topic": "International Airshow",
+      "text": "The Indian Air Force (IAF) participated in the Singapore Airshow 2026, with the Sarang Helicopter Display Team, on the indigenously designed and manufactured Advanced Light Helicopter (ALH) Dhruv. Renowned for precision flying, close-formation manoeuvres and disciplined execution, the Sarang display underscores the operational versatility, agility and reliability of the ALH Dhruv across a wide spectrum of operational roles.",
+      "details": {
+        "event": "Singapore Airshow 2026",
+        "dates": "February 3-8, 2026",
+        "participant": "Indian Air Force (IAF)",
+        "display_team": "Sarang Helicopter Display Team",
+        "aircraft_featured": "Advanced Light Helicopter (ALH) Dhruv"
+      },
+      "mcq": {
+        "question": "Which Indian Air Force display team participated in the Singapore Airshow 2026 with the ALH Dhruv?",
+        "options": [
+          "Suryakiran",
+          "Sagar Pawan",
+          "Sarang",
+          "Akash Ganga"
+        ],
+        "answer": "Sarang",
+        "explanation": "The Indian Air Force (IAF) participated in the Singapore Airshow 2026 with the Sarang Helicopter Display Team."
+      }
+    },
+    {
+      "id": "Agni-3-Test-Fire-2026",
+      "topic": "Missile Testing",
+      "text": "Intermediate Range Ballistic Missile 'Agni-3' was successfully test-fired from the Integrated Test Range, Chandipur, Odisha on February 6, 2026. The launch validated all operational and technical parameters.",
+      "details": {
+        "missile_name": "Agni-3",
+        "missile_type": "Intermediate Range Ballistic Missile",
+        "test_date": "February 6, 2026",
+        "test_location": "Integrated Test Range, Chandipur, Odisha"
+      },
+      "mcq": {
+        "question": "From where was the Intermediate Range Ballistic Missile 'Agni-3' successfully test-fired on February 6, 2026?",
+        "options": [
+          "Kurnool, Andhra Pradesh",
+          "Pokhran, Rajasthan",
+          "Chandipur, Odisha",
+          "Wheeler Island, Odisha"
+        ],
+        "answer": "Chandipur, Odisha",
+        "explanation": "Intermediate Range Ballistic Missile 'Agni-3' was successfully test-fired from the Integrated Test Range, Chandipur, Odisha."
+      }
+    },
+    {
+      "id": "World-Defence-Show-2026-India",
+      "topic": "International Defence Exhibition",
+      "text": "Raksha Rajya Mantri Shri Sanjay Seth led a high-level Indian delegation to the World Defence Show (WDS) 2026, held in Riyadh, Saudi Arabia (February 3-9, 2026). He joined international dignitaries to witness the opening ceremony of WDS and inaugurated the first-ever India Pavilion at the event.",
+      "details": {
+        "event": "World Defence Show (WDS) 2026",
+        "dates": "February 3-9, 2026",
+        "location": "Riyadh, Saudi Arabia",
+        "indian_delegation_leader": "Raksha Rajya Mantri Shri Sanjay Seth",
+        "indian_participation": "Inaugurated first-ever India Pavilion"
+      },
+      "mcq": {
+        "question": "Where was the World Defence Show (WDS) 2026, attended by a high-level Indian delegation, held?",
+        "options": [
+          "New Delhi, India",
+          "Singapore",
+          "Riyadh, Saudi Arabia",
+          "Vienna, Austria"
+        ],
+        "answer": "Riyadh, Saudi Arabia",
+        "explanation": "The World Defence Show (WDS) 2026 was held in Riyadh, Saudi Arabia."
+      }
+    },
+    {
+      "id": "India-France-Defence-Dialogue-2026",
+      "topic": "International Relations",
+      "text": "Raksha Mantri Shri Rajnath Singh co-chaired the 6th India-France Annual Defence Dialogue with Minister of the Armed Forces and Veterans Affairs of France Ms Catherine Vautrin in Bengaluru, Karnataka on February 17, 2026. The meeting reviewed the entire gamut of bilateral defence cooperation, with focus on expanding industrial collaboration.",
+      "details": {
+        "dialogue_name": "6th India-France Annual Defence Dialogue",
+        "date": "February 17, 2026",
+        "location": "Bengaluru, Karnataka",
+        "indian_co_chair": "Raksha Mantri Shri Rajnath Singh",
+        "french_co_chair": "Minister Ms Catherine Vautrin",
+        "focus": "Expanding industrial collaboration"
+      },
+      "mcq": {
+        "question": "The 6th India-France Annual Defence Dialogue was co-chaired by Raksha Mantri Shri Rajnath Singh and his French counterpart in which city?",
+        "options": [
+          "New Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chennai"
+        ],
+        "answer": "Bengaluru",
+        "explanation": "The 6th India-France Annual Defence Dialogue was held in Bengaluru, Karnataka."
+      }
+    },
+    {
+      "id": "India-Kenya-JDCC-2026",
+      "topic": "International Relations",
+      "text": "The fourth meeting of the Joint Defence Cooperation Committee (JDCC) between India and Kenya took place in Nairobi from February 24-26, 2026. Key discussions included expanding service engagements, enhancing training opportunities, strengthening maritime security cooperation, and promoting defense R&D and production collaboration.",
+      "details": {
+        "meeting_name": "Joint Defence Cooperation Committee (JDCC)",
+        "edition": "Fourth",
+        "countries": [
+          "India",
+          "Kenya"
+        ],
+        "dates": "February 24-26, 2026",
+        "location": "Nairobi",
+        "discussion_areas": [
+          "Service engagements",
+          "Training opportunities",
+          "Maritime security cooperation",
+          "Defence R&D and production collaboration"
+        ]
+      },
+      "mcq": {
+        "question": "The fourth meeting of the Joint Defence Cooperation Committee (JDCC) between India and Kenya took place in which city?",
+        "options": [
+          "New Delhi",
+          "Cairo",
+          "Maputo",
+          "Nairobi"
+        ],
+        "answer": "Nairobi",
+        "explanation": "The fourth meeting of the Joint Defence Cooperation Committee (JDCC) between India and Kenya took place in Nairobi from February 24-26, 2026."
+      }
     }
   ],
   "March 2026": [
@@ -552,6 +880,175 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "correct": 3,
         "explanation": "Sweden is a member of the European Union (EU), not EFTA. EFTA consists of Switzerland, Norway, Iceland, and Liechtenstein."
+      }
+    },
+    {
+      "id": "ins-trikand-deployment-2026",
+      "topic": "INS Trikand Operational Deployment",
+      "text": "INS Trikand, a frontline guided missile frigate of the Indian Navy, arrived at Maputo, Mozambique, on March 26, 2026. This deployment is part of its operational presence in the South West Indian Ocean Region.",
+      "details": {
+        "ship_name": "INS Trikand",
+        "ship_type": "Guided Missile Frigate",
+        "branch": "Indian Navy",
+        "arrival_location": "Maputo, Mozambique",
+        "arrival_date": "March 26, 2026",
+        "deployment_region": "South West Indian Ocean Region"
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-03-sanshodhak-delivery",
+      "topic": "Survey Vessel Delivery",
+      "text": "The Survey Vessel 'Sanshodhak' was delivered to the Indian Navy at Garden Reach Shipbuilders & Engineers Ltd (GRSE), Kolkata, on 30 March 2026. It is the fourth Survey Vessel (Large) ship, with over 80% indigenous content. The contract for four such ships was signed on 30 October 2018. Previous ships of this class include INS Sandhayak (commissioned 03 February 2024), INS Nirdeshak (commissioned 18 December 2024), and INS Ikshak (commissioned 06 November 2025).",
+      "details": {
+        "ship_name": "Sanshodhak (Yard 3023)",
+        "type": "Survey Vessel (Large)",
+        "delivery_order": "Fourth",
+        "delivery_date": "30 March 2026",
+        "builder": "Garden Reach Shipbuilders & Engineers Ltd (GRSE), Kolkata",
+        "indigenous_content": "Over 80%",
+        "class_ships": [
+          "INS Sandhayak",
+          "INS Nirdeshak",
+          "INS Ikshak"
+        ]
+      },
+      "mcq": {
+        "question": "Consider the following pairs:<br>1. INS Agray: Anti-submarine warfare<br>2. INS Dunagiri: Advanced stealth frigate<br>3. INS Sanshodhak: Hydrographic survey vessel<br>How many of the above pairs are correctly matched?",
+        "options": [
+          "1. Only one",
+          "2. Only two",
+          "3. All three",
+          "4. None"
+        ],
+        "answer": "3. All three",
+        "explanation": "As per the information on page 11, INS Agray specializes in anti-submarine warfare, INS Dunagiri is an advanced stealth frigate, and INS Sanshodhak is a hydrographic survey vessel. All three pairs are correctly matched."
+      }
+    },
+    {
+      "id": "Defence-Procurement-2026",
+      "topic": "Defence Procurement",
+      "text": "The Ministry of Defence signed major defence procurement contracts worth Rs 5,083 crore on March 3, 2026, aimed at strengthening India's maritime security and air defence capabilities. The agreements included the purchase of six ALH Mk-III (Maritime Role) helicopters for the Indian Coast Guard and VL-Shtil surface-to-air missiles for the Indian Navy.",
+      "details": {
+        "contract_value": "Rs 5,083 crore",
+        "date": "March 3, 2026",
+        "items_procured": [
+          "Six ALH Mk-III (Maritime Role) helicopters",
+          "VL-Shtil surface-to-air missiles"
+        ],
+        "recipients": [
+          "Indian Coast Guard",
+          "Indian Navy"
+        ]
+      },
+      "mcq": {
+        "question": "What was the total value of defence procurement contracts signed by the Ministry of Defence on March 3, 2026?",
+        "options": [
+          "Rs 2,312 crore",
+          "Rs 858 crore",
+          "Rs 5,083 crore",
+          "Rs 1,950 crore"
+        ],
+        "answer": "Rs 5,083 crore",
+        "explanation": "The Ministry of Defence signed major defence procurement contracts worth Rs 5,083 crore on March 3, 2026."
+      }
+    },
+    {
+      "id": "DGONA-Appointment-2026",
+      "topic": "Naval Appointments",
+      "text": "B.P. Singh, a 1994-batch officer of the Indian Naval Armament Service (INAS), assumed charge as the Director General of Naval Armament (DGONA) at Naval Headquarters in New Delhi on March 1, 2026.",
+      "details": {
+        "officer_name": "B.P. Singh",
+        "post": "Director General of Naval Armament (DGONA)",
+        "location": "Naval Headquarters, New Delhi",
+        "date": "March 1, 2026"
+      },
+      "mcq": {
+        "question": "Who assumed charge as the Director General of Naval Armament (DGONA) at Naval Headquarters in New Delhi on March 1, 2026?",
+        "options": [
+          "Shri Sanjay Seth",
+          "B.P. Singh",
+          "Air Marshal Yalla Umesh",
+          "Shri Amitabh Prasad"
+        ],
+        "answer": "B.P. Singh",
+        "explanation": "B.P. Singh, a 1994-batch officer of the Indian Naval Armament Service (INAS), assumed charge as the Director General of Naval Armament (DGONA) at Naval Headquarters in New Delhi on March 1, 2026."
+      }
+    },
+    {
+      "id": "SMART-DCB-Launch-2026",
+      "topic": "Civic Governance",
+      "text": "The Delhi Cantonment Board (DCB) introduced the Swachhata Monitoring & Automated Reporting Tool (SMART) to improve sanitation and civic service monitoring. This digital solution tackles issues like manual reporting, delayed data collection, and fragmented monitoring.",
+      "details": {
+        "tool_name": "Swachhata Monitoring & Automated Reporting Tool (SMART)",
+        "organisation": "Delhi Cantonment Board (DCB)",
+        "purpose": "Improve sanitation and civic service monitoring",
+        "benefits": [
+          "Addresses manual reporting",
+          "Reduces delayed data collection",
+          "Resolves fragmented monitoring"
+        ]
+      },
+      "mcq": {
+        "question": "Which organization introduced the Swachhata Monitoring & Automated Reporting Tool (SMART) to improve sanitation and civic service monitoring?",
+        "options": [
+          "DRDO",
+          "BRO",
+          "Delhi Cantonment Board (DCB)",
+          "Indian Air Force"
+        ],
+        "answer": "Delhi Cantonment Board (DCB)",
+        "explanation": "The Delhi Cantonment Board (DCB) introduced the Swachhata Monitoring & Automated Reporting Tool (SMART)."
+      }
+    },
+    {
+      "id": "NDIC-2026-Conclusion",
+      "topic": "Defence Industry",
+      "text": "The National Defence Industries Conclave (NDIC) 2026, organised by the Department of Defence Production (DDP) on the theme 'Advanced Manufacturing Technologies', concluded at the Manekshaw Centre, New Delhi on March 20, 2026, after two days of extensive discussions on advanced manufacturing technologies and industry participation in defence production.",
+      "details": {
+        "conclave_name": "National Defence Industries Conclave (NDIC) 2026",
+        "organiser": "Department of Defence Production (DDP)",
+        "theme": "Advanced Manufacturing Technologies",
+        "conclusion_date": "March 20, 2026",
+        "location": "Manekshaw Centre, New Delhi"
+      },
+      "mcq": {
+        "question": "The National Defence Industries Conclave (NDIC) 2026, focused on 'Advanced Manufacturing Technologies', concluded in which city?",
+        "options": [
+          "Bengaluru",
+          "Mumbai",
+          "New Delhi",
+          "Chennai"
+        ],
+        "answer": "New Delhi",
+        "explanation": "The National Defence Industries Conclave (NDIC) 2026 concluded at the Manekshaw Centre, New Delhi."
+      }
+    },
+    {
+      "id": "Mountain-Radars-Procurement-2026",
+      "topic": "Defence Procurement",
+      "text": "The Ministry of Defence has signed a significant contract with Bharat Electronics Limited (BEL) for two Mountain Radars and related infrastructure for the Indian Air Force, costing approximately Rs 1,950 crore, as part of the Aatmanirbhar Bharat and Make-in-India initiatives to strengthen indigenous defense capabilities.",
+      "details": {
+        "item_procured": "Mountain Radars",
+        "quantity": "Two",
+        "recipient": "Indian Air Force",
+        "manufacturer": "Bharat Electronics Limited (BEL)",
+        "cost": "Rs 1,950 crore",
+        "initiatives": [
+          "Aatmanirbhar Bharat",
+          "Make-in-India"
+        ]
+      },
+      "mcq": {
+        "question": "For which branch of the Indian armed forces were two Mountain Radars procured from BEL at a cost of Rs 1,950 crore?",
+        "options": [
+          "Indian Army",
+          "Indian Navy",
+          "Indian Air Force",
+          "Indian Coast Guard"
+        ],
+        "answer": "Indian Air Force",
+        "explanation": "The Ministry of Defence signed a contract with Bharat Electronics Limited (BEL) for two Mountain Radars and related infrastructure for the Indian Air Force."
       }
     }
   ],
@@ -853,6 +1350,348 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The summit took place in Thimphu, Bhutan."
+      }
+    },
+    {
+      "id": "ca-2026-04-ins-trikand-mombasa",
+      "topic": "Naval Port Call and Defence Cooperation",
+      "text": "INS Trikand, a frontline guided missile frigate of the Indian Navy, concluded her port call at Mombasa, Kenya, on 10 April 2026. During the visit, Kenya received INSAS rifles and ammunition from the Indian Navy, with the handover conducted by senior naval officials. This initiative aims to strengthen bilateral defence cooperation and reflects India's vision of MAHASAGAR (Mutual and Holistic Advancement for Security and Growth Across Regions).",
+      "details": {
+        "ship_name": "INS Trikand",
+        "type": "Frontline guided missile frigate",
+        "location": "Mombasa, Kenya",
+        "date": "10 April 2026",
+        "event": "Port Call",
+        "cooperation_details": "Kenya received INSAS rifles and ammunition from Indian Navy; handover by senior naval officials; strengthens bilateral defence cooperation; aligns with MAHASAGAR vision."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-04-ins-sudarshini-sete",
+      "topic": "International Maritime Festival Participation",
+      "text": "INS Sudarshini, a sail training ship of the Indian Navy, departed Sète, France, on 07 April 2026, after participating in the biennial 'Escale à Sète' maritime festival. The event marked the 400th anniversary of the French Navy and is considered one of the largest maritime gatherings in the Mediterranean region.",
+      "details": {
+        "ship_name": "INS Sudarshini",
+        "type": "Sail training ship",
+        "location": "Sète, France",
+        "date": "07 April 2026",
+        "event": "Escale à Sète maritime festival",
+        "significance": "Marked 400th anniversary of French Navy; one of the largest maritime gatherings in Mediterranean."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-04-ins-sudarshini-lokayan26",
+      "topic": "Naval Expedition and Port Calls",
+      "text": "The Indian Navy's INS Sudarshini completed a significant three-day port call at Las Palmas, Canary Islands, on 26 April 2026, as part of its Lokayan 26 expedition. It also reached Valletta, Malta, as part of this extensive expedition covering 22,000 nautical miles.",
+      "details": {
+        "ship_name": "INS Sudarshini",
+        "type": "Sail training ship",
+        "locations": [
+          "Las Palmas, Canary Islands",
+          "Valletta, Malta"
+        ],
+        "date_las_palmas": "26 April 2026",
+        "expedition": "Lokayan 26",
+        "distance_covered": "22,000 nautical miles."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-04-mahendragiri-delivery",
+      "topic": "Naval Ship Delivery and Self-Reliance",
+      "text": "Mahendragiri (Yard 12654), the sixth Nilgiri-class ship, was delivered to the Indian Navy on 30 April 2026, at Mazagon Dock Shipbuilders Limited in Mumbai. This delivery signifies a key milestone in achieving self-reliance in warship design and construction.",
+      "details": {
+        "ship_name": "Mahendragiri (Yard 12654)",
+        "class": "Nilgiri-class",
+        "delivery_order": "Sixth",
+        "delivery_date": "30 April 2026",
+        "builder": "Mazagon Dock Shipbuilders Limited, Mumbai",
+        "significance": "Key milestone in achieving self-reliance in warship design and construction."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-04-ins-nireekshak-colombo",
+      "topic": "Bilateral Diving Exercise",
+      "text": "INS Nireekshak, the Diving Support and Submarine Rescue Vessel of the Indian Navy, arrived at the port of Colombo, Sri Lanka, on 21 April 2026. It participated in the 4th edition of IN-SLN DIVEX 2026, a bilateral diving exercise.",
+      "details": {
+        "ship_name": "INS Nireekshak",
+        "type": "Diving Support and Submarine Rescue Vessel",
+        "location": "Colombo, Sri Lanka",
+        "date": "21 April 2026",
+        "exercise": "IN-SLN DIVEX 2026 (4th edition)",
+        "countries": "India, Sri Lanka."
+      },
+      "mcq": null
+    },
+    {
+      "id": "operation-him-setu-2026",
+      "topic": "Humanitarian Aid / Disaster Relief Operation",
+      "text": "Operation Him Setu was launched by the Indian Army in Sikkim due to a major landslide and heavy snowfall.",
+      "details": {
+        "branch": "Indian Army",
+        "location": "Sikkim (Lachen-Chungthang route)",
+        "reason": "Major landslide and heavy snowfall",
+        "lead_unit": "Trishakti Corps (Eastern Command)",
+        "objective": "Evacuating stranded tourists, clearing blocked roads, removing snow, and restoring connectivity.",
+        "other_involved": "Border Roads Organisation (BRO)"
+      }
+    },
+    {
+      "id": "operation-him-setu-sikkim-2026",
+      "topic": "Operation Him Setu",
+      "text": "On April 9, 2026, the Indian Army launched Operation Him Setu in Sikkim due to a major landslide and heavy snowfall. The Trishakti Corps under the Eastern Command led the operation, focusing on evacuating stranded tourists on the Lachen-Chungthang route. The BRO worked with the army to clear blocked roads, remove snow, and restore connectivity.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "f414-jet-engines-co-production-2026",
+      "topic": "F414 Jet Engines co-production",
+      "text": "In April 2026, GE Aerospace entered into a significant technical agreement with Hindustan Aeronautics Limited (HAL) for the co-production of F414 jet engines in India. This collaboration aims to strengthen India-U.S. defence manufacturing ties and enhance indigenous production capabilities.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "Project-DANTAK-66th-Raising-Day-2026",
+      "topic": "Border Roads Organisation",
+      "text": "Project DANTAK of the Border Roads Organisation (BRO) celebrated its 66th Raising Day on April 24, 2026, in Thimphu, Bhutan. It has played a key role in strengthening India-Bhutan relations and infrastructure development.",
+      "details": {
+        "project_name": "Project DANTAK",
+        "organisation": "Border Roads Organisation (BRO)",
+        "event": "66th Raising Day",
+        "date": "April 24, 2026",
+        "location": "Thimphu, Bhutan"
+      },
+      "mcq": {
+        "question": "Where did Project DANTAK of the Border Roads Organisation celebrate its 66th Raising Day on April 24, 2026?",
+        "options": [
+          "Doomdooma, Assam",
+          "Bikaner, Rajasthan",
+          "Thimphu, Bhutan",
+          "Ranaghat, Arunachal Pradesh"
+        ],
+        "answer": "Thimphu, Bhutan",
+        "explanation": "Project DANTAK of the Border Roads Organisation (BRO) celebrated its 66th Raising Day on April 24, 2026, in Thimphu, Bhutan."
+      }
+    },
+    {
+      "id": "DSC-A23-Launch-2026",
+      "topic": "Naval Shipbuilding",
+      "text": "DSC A 23, the fourth ship of five Diving Support Craft (DSC) project, was launched on April 19, 2026, at Titagarh, Kolkata (WB) by Mrs Deepa Sivakumar, in the presence of Vice Admiral B Sivakumar, Chief of Materiel.",
+      "details": {
+        "ship_name": "DSC A 23",
+        "project": "Diving Support Craft (DSC) project",
+        "launch_number": "Fourth of five",
+        "launch_date": "April 19, 2026",
+        "launch_location": "Titagarh, Kolkata (WB)"
+      },
+      "mcq": {
+        "question": "DSC A 23, the fourth ship of the Diving Support Craft project, was launched on April 19, 2026, at which location?",
+        "options": [
+          "Visakhapatnam",
+          "Mumbai",
+          "Titagarh, Kolkata",
+          "Goa"
+        ],
+        "answer": "Titagarh, Kolkata",
+        "explanation": "DSC A 23, the fourth ship of five Diving Support Craft (DSC) project, was launched on April 19, 2026, at Titagarh, Kolkata (WB)."
+      }
+    },
+    {
+      "id": "Project-Chetak-47th-Raising-Day-2026",
+      "topic": "Border Roads Organisation",
+      "text": "Rajasthan celebrated the 47th Raising Day of Project Chetak in Bikaner on April 4, 2026. Project Chetak, part of the Border Roads Organisation, focuses on infrastructure development in India's western border areas. Established in 1980, it has enhanced connectivity and supported national security.",
+      "details": {
+        "project_name": "Project Chetak",
+        "organisation": "Border Roads Organisation (BRO)",
+        "event": "47th Raising Day",
+        "date": "April 4, 2026",
+        "location": "Bikaner, Rajasthan",
+        "establishment_year": "1980"
+      },
+      "mcq": {
+        "question": "Project Chetak of the Border Roads Organisation celebrated its 47th Raising Day on April 4, 2026, in which city?",
+        "options": [
+          "Doomdooma, Assam",
+          "Bikaner, Rajasthan",
+          "Thimphu, Bhutan",
+          "Ranaghat, Arunachal Pradesh"
+        ],
+        "answer": "Bikaner, Rajasthan",
+        "explanation": "Rajasthan celebrated the 47th Raising Day of Project Chetak in Bikaner on April 4, 2026."
+      }
+    },
+    {
+      "id": "Naval-Commanders-Conference-2026",
+      "topic": "Naval Conference",
+      "text": "The Naval Commanders' Conference-2026 was conducted at Nausena Bhawan, the Integrated Headquarters of the Ministry of Defence (Navy), located in New Delhi on April 14, 2026.",
+      "details": {
+        "conference_name": "Naval Commanders' Conference-2026",
+        "date": "April 14, 2026",
+        "location": "Nausena Bhawan, New Delhi"
+      },
+      "mcq": {
+        "question": "Where was the Naval Commanders' Conference-2026 conducted?",
+        "options": [
+          "Mumbai",
+          "Visakhapatnam",
+          "Nausena Bhawan, New Delhi",
+          "Kolkata"
+        ],
+        "answer": "Nausena Bhawan, New Delhi",
+        "explanation": "The Naval Commanders' Conference-2026 was conducted at Nausena Bhawan, the Integrated Headquarters of the Ministry of Defence (Navy), located in New Delhi."
+      }
+    },
+    {
+      "id": "India-Mozambique-JDWG-2026",
+      "topic": "International Relations",
+      "text": "India and Mozambique held the Fifth Joint Defence Working Group (JDWG) meeting on April 1-2, 2026, in Maputo. Discussions centered on expanding military exchanges, joint training, maritime awareness, military exercises, and collaboration in defense equipment supply.",
+      "details": {
+        "meeting_name": "Joint Defence Working Group (JDWG)",
+        "edition": "Fifth",
+        "countries": [
+          "India",
+          "Mozambique"
+        ],
+        "dates": "April 1-2, 2026",
+        "location": "Maputo",
+        "discussion_areas": [
+          "Military exchanges",
+          "Joint training",
+          "Maritime awareness",
+          "Military exercises",
+          "Defence equipment supply collaboration"
+        ]
+      },
+      "mcq": {
+        "question": "The Fifth Joint Defence Working Group (JDWG) meeting between India and Mozambique was held in which city?",
+        "options": [
+          "New Delhi",
+          "Cairo",
+          "Maputo",
+          "Nairobi"
+        ],
+        "answer": "Maputo",
+        "explanation": "India and Mozambique held the Fifth Joint Defence Working Group (JDWG) meeting on April 1-2, 2026, in Maputo."
+      }
+    },
+    {
+      "id": "Ran-Samwad-2026-Bengaluru",
+      "topic": "Strategic Seminar",
+      "text": "The second edition of Ran Samwad, a tri-service strategic seminar, began in Bengaluru on April 9, 2026. Organized by the Air Force Training Command, it was inaugurated by Chief of Defence Staff General Anil Chauhan.",
+      "details": {
+        "event_name": "Ran Samwad",
+        "edition": "Second",
+        "type": "Tri-service strategic seminar",
+        "start_date": "April 9, 2026",
+        "location": "Bengaluru",
+        "organiser": "Air Force Training Command",
+        "inaugurated_by": "Chief of Defence Staff General Anil Chauhan"
+      },
+      "mcq": {
+        "question": "The second edition of Ran Samwad, a tri-service strategic seminar, was inaugurated by Chief of Defence Staff General Anil Chauhan in which city?",
+        "options": [
+          "New Delhi",
+          "Nagpur",
+          "Bengaluru",
+          "Ranchi"
+        ],
+        "answer": "Bengaluru",
+        "explanation": "The second edition of Ran Samwad began in Bengaluru on April 9, 2026, and was inaugurated by Chief of Defence Staff General Anil Chauhan."
+      }
+    },
+    {
+      "id": "Maintenance-Command-Conclave-2026",
+      "topic": "Air Force Conference",
+      "text": "The Maintenance Command Commanders' Conclave took place in Vayusena Nagar, Nagpur on April 10-11, 2026. Air Marshal Yalla Umesh, Air Officer Commanding in-Chief, led the Conclave. The theme was 'Maintenance Command in Mission Mode to Support Operations.'",
+      "details": {
+        "event_name": "Maintenance Command Commanders' Conclave",
+        "dates": "April 10-11, 2026",
+        "location": "Vayusena Nagar, Nagpur",
+        "leader": "Air Marshal Yalla Umesh",
+        "theme": "Maintenance Command in Mission Mode to Support Operations"
+      },
+      "mcq": {
+        "question": "Where did the Maintenance Command Commanders' Conclave take place on April 10-11, 2026?",
+        "options": [
+          "New Delhi",
+          "Bengaluru",
+          "Nagpur",
+          "Hyderabad"
+        ],
+        "answer": "Nagpur",
+        "explanation": "The Maintenance Command Commanders' Conclave took place in Vayusena Nagar, Nagpur."
+      }
+    },
+    {
+      "id": "World-Border-Security-Congress-2026",
+      "topic": "International Security Conference",
+      "text": "India showcased its leadership in maritime security and reinforced its commitment to international cooperation during its participation in the World Border Security Congress 2026 held in Vienna, Austria from April 14-16, 2026.",
+      "details": {
+        "event_name": "World Border Security Congress 2026",
+        "dates": "April 14-16, 2026",
+        "location": "Vienna, Austria",
+        "indian_participation_focus": [
+          "Maritime security leadership",
+          "International cooperation"
+        ]
+      },
+      "mcq": {
+        "question": "In which city was the World Border Security Congress 2026, where India participated, held?",
+        "options": [
+          "New Delhi",
+          "Riyadh",
+          "Singapore",
+          "Vienna"
+        ],
+        "answer": "Vienna",
+        "explanation": "The World Border Security Congress 2026 was held in Vienna, Austria."
+      }
+    },
+    {
+      "id": "ELF-Purvanchal-Expressway-Activation-2026",
+      "topic": "Air Force Readiness",
+      "text": "The Indian Air Force activated 'Emergency Landing Facility' (ELF) on the Purvanchal Expressway in Uttar Pradesh's Sultanpur District on April 22, 2026, both by day and night, showcasing its operational capability to bolster its defence readiness.",
+      "details": {
+        "facility_type": "Emergency Landing Facility (ELF)",
+        "location": "Purvanchal Expressway, Sultanpur District, Uttar Pradesh",
+        "activation_date": "April 22, 2026",
+        "purpose": "Bolster defence readiness, showcase operational capability"
+      },
+      "mcq": {
+        "question": "On which expressway in Uttar Pradesh was the Emergency Landing Facility (ELF) activated by the Indian Air Force on April 22, 2026?",
+        "options": [
+          "Yamuna Expressway",
+          "Agra-Lucknow Expressway",
+          "Purvanchal Expressway",
+          "Bundelkhand Expressway"
+        ],
+        "answer": "Purvanchal Expressway",
+        "explanation": "The Indian Air Force activated 'Emergency Landing Facility' (ELF) on the Purvanchal Expressway in Uttar Pradesh's Sultanpur District."
+      }
+    },
+    {
+      "id": "India-Egypt-JDC-2026",
+      "topic": "International Relations",
+      "text": "The India-Egypt Joint Defence Committee (JDC) met in Cairo from April 20 to 22, 2026, to enhance bilateral defence cooperation. The Indian delegation, led by Joint Secretary Shri Amitabh Prasad, included senior representatives from the Ministry of Defence and Defence Forces.",
+      "details": {
+        "meeting_name": "India-Egypt Joint Defence Committee (JDC)",
+        "dates": "April 20-22, 2026",
+        "location": "Cairo",
+        "indian_delegation_leader": "Joint Secretary Shri Amitabh Prasad",
+        "purpose": "Enhance bilateral defence cooperation"
+      },
+      "mcq": {
+        "question": "The India-Egypt Joint Defence Committee (JDC) met in April 2026 in which city to enhance bilateral defence cooperation?",
+        "options": [
+          "New Delhi",
+          "Cairo",
+          "Maputo",
+          "Nairobi"
+        ],
+        "answer": "Cairo",
+        "explanation": "The India-Egypt Joint Defence Committee (JDC) met in Cairo from April 20 to 22, 2026."
       }
     }
   ],
@@ -1186,6 +2025,126 @@ window.CURRENT_AFFAIRS_DB = {
         "answer": "A",
         "explanation": "The Court upheld the AFSPA amendment."
       }
+    },
+    {
+      "id": "ca-20260529-001",
+      "topic": "UN Peacekeeping Awards",
+      "text": "Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan are scheduled to be posthumously awarded the United Nations Dag Hammarskjold Medal on May 29, 2026. Harbhajan Singh served with MONUSCO in the Democratic Republic of Congo, and Sujit Kumar Pradhan served with UNMISS in South Sudan.",
+      "details": {
+        "award_date": "May 29, 2026",
+        "award_type": "Posthumous",
+        "recipients": [
+          "Lance Havildar Harbhajan Singh",
+          "Naib Subedar Sujit Kumar Pradhan"
+        ],
+        "missions_served": {
+          "Harbhajan Singh": "MONUSCO (DR. of Congo)",
+          "Sujit Kumar Pradhan": "UNMISS (South Sudan)"
+        }
+      }
+    },
+    {
+      "id": "un-dag-hammarskjold-medal-2025",
+      "topic": "UN Dag Hammarskjöld Medal 2025",
+      "text": "Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan are scheduled to be posthumously awarded the United Nations Dag Hammarskjöld Medal on May 29, 2026. This award is given for promoting Gender Inclusion and recognizes their service in UN peacekeeping missions, specifically mentioning contexts like UNIFIL (Lebanon), Congo, and South Sudan.",
+      "details": {
+        "award_name": "United Nations Dag Hammarskjöld Medal",
+        "award_year": 2025,
+        "recipients": [
+          "Lance Havildar Harbhajan Singh",
+          "Naib Subedar Sujit Kumar Pradhan"
+        ],
+        "award_date": "May 29, 2026",
+        "award_type": "Posthumous",
+        "reason": "Promoting Gender Inclusion",
+        "mission_contexts": [
+          "UNIFIL (Lebanon)",
+          "Congo",
+          "South Sudan"
+        ]
+      },
+      "mcq": null
+    },
+    {
+      "id": "un-peacekeeping-day-2026",
+      "topic": "International Day of UN Peacekeepers",
+      "text": "The International Day of UN Peacekeepers is observed on May 29. The theme for this year is 'Invest in Peace'.",
+      "details": {
+        "date": "May 29",
+        "theme": "Invest in Peace"
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-05-ins-sagardhwani-camranh",
+      "topic": "Scientific Cooperation",
+      "text": "INS Sagardhwani, an oceanographic research vessel, arrived at Cam Ranh, Vietnam, on 05 May 2026. This marked a significant step in India's scientific cooperation with Vietnam.",
+      "details": {
+        "ship_name": "INS Sagardhwani",
+        "type": "Oceanographic research vessel",
+        "location": "Cam Ranh, Vietnam",
+        "date": "05 May 2026",
+        "event": "Arrival",
+        "cooperation_details": "Significant step in India's scientific cooperation with Vietnam."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-05-yard-3039-sanghmitra-launch",
+      "topic": "Next Generation Offshore Patrol Vessel Launch",
+      "text": "Yard 3039 (Sanghmitra), a Next Generation Offshore Patrol Vessel (NGOPV), was launched at M/s GRSE, Kolkata, on 20 May 2026. The launch was conducted by Mrs Sarita Vatsayan in the presence of VAdm Sanjay Vatsayan, Vice Chief of the Naval Staff.",
+      "details": {
+        "ship_name": "Yard 3039 (Sanghmitra)",
+        "type": "Next Generation Offshore Patrol Vessel (NGOPV)",
+        "event": "Launch",
+        "launch_date": "20 May 2026",
+        "builder": "M/s GRSE, Kolkata",
+        "launched_by": "Mrs Sarita Vatsayan",
+        "dignitaries": "VAdm Sanjay Vatsayan, Vice Chief of the Naval Staff."
+      },
+      "mcq": null
+    },
+    {
+      "id": "joint-commanders-conference-2026",
+      "topic": "Joint Commanders' Conference",
+      "text": "The second edition of the Joint Commanders' Conference is scheduled to be held in Jaipur, Rajasthan, on May 07 and May 08, 2026. The conference focuses on the theme 'Military Capability in New Domains' and brings together top defence leadership, including Raksha Mantri Rajnath Singh and Chief of Defence Staff General Anil Chauhan.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "scramjet-combustor-test-2026",
+      "topic": "Actively Cooled Full Scale Scramjet Combustor",
+      "text": "On May 09, 2026, DRDO successfully tested an Actively Cooled Full Scale Scramjet Combustor for hypersonic missile technology. The test, conducted at the Scramjet Connect Pipe Test Facility in Hyderabad, achieved over 1,200 seconds of continuous engine runtime, exceeding the previous benchmark from January 2026.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "unmanned-mine-counter-measure-suite-2026",
+      "topic": "Advanced Unmanned Mine Counter-Measure (MCM) Suite",
+      "text": "L&T partnered with France-based Exail on May 18, 2026, to provide an advanced Unmanned Mine Counter-Measure (MCM) Suite for the Indian Navy. The project is linked to India's proposed procurement of 12 Mine Counter Measure Vessels aimed at enhancing maritime security capabilities.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "squadron-leader-saanya-qfi-rating",
+      "topic": "Squadron Leader Saanya",
+      "text": "Squadron Leader Saanya became the first woman officer in the history of the Indian Air Force to achieve the prestigious Category-A Qualified Flying Instructor (QFI) rating on May 18, 2026. The qualification represents the highest instructional grading in military aviation and certifies pilots to train new aviators, operational pilots, and junior instructors.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "all-women-mount-everest-expedition-2026",
+      "topic": "All-Women International Mount Everest Expedition",
+      "text": "The Indo-Tibetan Border Police (ITBP) successfully completed its first-ever all-women international Mount Everest expedition on May 21, 2026. The 14-member team, comprising 11 women climbers and 3 technical support members, reached the summit of Mount Everest via the South Col Route from Nepal.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "su-30-mki-predictive-maintenance-2026",
+      "topic": "SU-30 MKI Fighter Aircraft Fleet predictive maintenance",
+      "text": "The Indian Air Force (IAF) signed three contracts with IIT Bombay on May 29, 2026, to implement predictive maintenance solutions for the Su-30 MKI fighter aircraft fleet. The initiative focuses on prognostic and prescriptive maintenance techniques aimed at reducing service costs and improving aircraft availability and operational lifespan.",
+      "details": {},
+      "mcq": null
     }
   ],
   "June 2026": [
@@ -1990,9 +2949,1526 @@ window.CURRENT_AFFAIRS_DB = {
         "correct": 1,
         "explanation": "Statement 1 is incorrect: NITI Aayog was established via a Cabinet Resolution, not an Act of Parliament (non-statutory). Statement 2 is correct: the Governing Council is chaired by the Prime Minister and includes all Chief Ministers of States and Lieutenant Governors of UTs."
       }
+    },
+    {
+      "id": "ca-2026-06-ins-sharda-colombo",
+      "topic": "Naval Port Call and Maritime Cooperation",
+      "text": "INS Sharda departed Colombo, Sri Lanka, on 13 June 2026 after a successful port call. This visit further strengthened maritime cooperation and friendship between India and Sri Lanka, aligning with the MAHASAGAR vision.",
+      "details": {
+        "ship_name": "INS Sharda",
+        "location": "Colombo, Sri Lanka",
+        "date": "13 June 2026",
+        "event": "Port Call",
+        "cooperation_details": "Strengthened maritime cooperation and friendship; aligns with MAHASAGAR vision."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-06-ins-tarkash-ikshak-seychelles",
+      "topic": "Naval Port Call and Community Engagement",
+      "text": "Indian Naval Ships Tarkash and Ikshak concluded their port call at Port Victoria, Seychelles, on 29 June 2026. This marked the successful completion of a range of professional, ceremonial, and community engagement activities undertaken during Seychelles' National Day and Golden Jubilee celebration.",
+      "details": {
+        "ship_names": [
+          "INS Tarkash",
+          "INS Ikshak"
+        ],
+        "location": "Port Victoria, Seychelles",
+        "date": "29 June 2026",
+        "event": "Port Call",
+        "activities": "Professional, ceremonial, and community engagement activities during Seychelles' National Day and Golden Jubilee celebration."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-06-ins-tarkash-mauritius",
+      "topic": "Naval Deployment and Training",
+      "text": "On 22 June 2026, Indian Naval Ship Tarkash, a stealth frigate, left Port Louis, Mauritius, after a port call for deployment in the South West Indian Ocean Region. During its stay, the ship's crew engaged in various activities, including a friendly volleyball match and training for the Mauritius National Coast Guard.",
+      "details": {
+        "ship_name": "INS Tarkash",
+        "type": "Stealth frigate",
+        "location": "Port Louis, Mauritius",
+        "date": "22 June 2026",
+        "event": "Port Call and Departure",
+        "deployment_region": "South West Indian Ocean Region",
+        "activities": "Friendly volleyball match, training for Mauritius National Coast Guard."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-06-icgs-akshay-commissioning",
+      "topic": "Indian Coast Guard Modernisation",
+      "text": "Bharatiya Tatrakshak (Indian Coast Guard) marked a milestone in its force modernisation with the commissioning of ICGS Akshay, a new-generation Fast Patrol Vessel (FPV), at Goa Shipyard Limited, Goa, on 27 June 2026. This vessel enhances the operational capability of the Indian Coast Guard and is a significant achievement in indigenous shipbuilding.",
+      "details": {
+        "ship_name": "ICGS Akshay",
+        "type": "New-generation Fast Patrol Vessel (FPV)",
+        "branch": "Indian Coast Guard (Bharatiya Tatrakshak)",
+        "commissioning_date": "27 June 2026",
+        "builder": "Goa Shipyard Limited, Goa",
+        "significance": "Force modernisation, indigenous shipbuilding achievement."
+      },
+      "mcq": {
+        "question": "In the context of India's maritime capability development, consider the following statements regarding Indian Coast Guard Ship (ICGS) Samudra Pratap.<br>1. ICGS Samudra Pratap is India's first indigenously designed pollution control vessel, with more than 60% indigenous content.<br>2. It is the largest ship in the Indian Coast Guard fleet and was built by Goa Shipyard Limited.<br>Which of the statements given above is/are correct?",
+        "options": [
+          "1. Both 1 and 2",
+          "2. 1 only",
+          "3. Neither 1 nor 2",
+          "4. 2 only"
+        ],
+        "answer": "",
+        "explanation": ""
+      }
+    },
+    {
+      "id": "acv-h-561-induction-2026",
+      "topic": "Air Cushion Vehicle (ACV) H-561 Induction",
+      "text": "The Indian Coast Guard inducted its first indigenous Air Cushion Vehicle (hovercraft) H-561 in Goa in June 2026 to enhance maritime capabilities. It was designed and built by Chowgule & Company Private Limited as part of the Aatmanirbhar Bharat initiative.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "Project-UDAYAK-37th-Raising-Day-2026",
+      "topic": "Border Roads Organisation",
+      "text": "On June 1, 2026, the Border Roads Organisation (BRO) celebrated the 37th Raising Day of Project UDAYAK in Doomdooma, Assam. Established in 1987, BRO develops and maintains strategic road infrastructure in Northeast India. The project oversees over 1,457 km of roads in Arunachal Pradesh and Assam, improving connectivity along the Line of Actual Control (LAC) and the Indo-Myanmar border.",
+      "details": {
+        "project_name": "Project UDAYAK",
+        "organisation": "Border Roads Organisation (BRO)",
+        "event": "37th Raising Day",
+        "date": "June 1, 2026",
+        "location": "Doomdooma, Assam",
+        "establishment_year": "1987",
+        "road_coverage": "Over 1,457 km in Arunachal Pradesh and Assam"
+      },
+      "mcq": {
+        "question": "Project UDAYAK of the Border Roads Organisation celebrated its 37th Raising Day on June 1, 2026, in which location?",
+        "options": [
+          "Thimphu, Bhutan",
+          "Bikaner, Rajasthan",
+          "Doomdooma, Assam",
+          "Ranaghat, Arunachal Pradesh"
+        ],
+        "answer": "Doomdooma, Assam",
+        "explanation": "On June 1, 2026, the Border Roads Organisation (BRO) celebrated the 37th Raising Day of Project UDAYAK in Doomdooma, Assam."
+      }
+    },
+    {
+      "id": "Project-BRAHMANK-16th-Raising-Day-2026",
+      "topic": "Border Roads Organisation",
+      "text": "Project BRAHMANK of Border Roads Organisation (BRO) celebrated its 16th Raising Day on June 29, 2026, at Ranaghat, Arunachal Pradesh, marking fifteen years of dedicated service towards the development of strategic infrastructure and connectivity in the region.",
+      "details": {
+        "project_name": "Project BRAHMANK",
+        "organisation": "Border Roads Organisation (BRO)",
+        "event": "16th Raising Day",
+        "date": "June 29, 2026",
+        "location": "Ranaghat, Arunachal Pradesh"
+      },
+      "mcq": {
+        "question": "Project BRAHMANK of BRO celebrated its 16th Raising Day on June 29, 2026, in which location?",
+        "options": [
+          "Doomdooma, Assam",
+          "Bikaner, Rajasthan",
+          "Thimphu, Bhutan",
+          "Ranaghat, Arunachal Pradesh"
+        ],
+        "answer": "Ranaghat, Arunachal Pradesh",
+        "explanation": "Project BRAHMANK of Border Roads Organisation (BRO) celebrated its 16th Raising Day on June 29, 2026, at Ranaghat, Arunachal Pradesh."
+      }
+    },
+    {
+      "id": "India-Australia-Defence-Dialogue-2026",
+      "topic": "International Relations",
+      "text": "Australia was the partner country that co-chaired the second India-Australia Defence Ministers' Dialogue held in New Delhi on June 1, 2026.",
+      "details": {
+        "dialogue_name": "India-Australia Defence Ministers' Dialogue",
+        "edition": "Second",
+        "date": "June 1, 2026",
+        "location": "New Delhi",
+        "co_chair_partner": "Australia"
+      },
+      "mcq": {
+        "question": "Which country co-chaired the second India-Australia Defence Ministers' Dialogue held in New Delhi on June 1, 2026?",
+        "options": [
+          "France",
+          "Egypt",
+          "Mozambique",
+          "Australia"
+        ],
+        "answer": "Australia",
+        "explanation": "Australia was the partner country that co-chaired the second India-Australia Defence Ministers' Dialogue held in New Delhi on June 1, 2026."
+      }
+    },
+    {
+      "id": "Operation-DRISHTI-2026",
+      "topic": "Humanitarian Aid",
+      "text": "Operation DRISHTI is a major humanitarian medical initiative undertaken by the Indian Army and Indian Air Force to provide advanced eye care services. A mega surgical eye camp was organised at Military Hospital Namkum in Ranchi, Jharkhand, from June 15 to 19, 2026.",
+      "details": {
+        "initiative_name": "Operation DRISHTI",
+        "organisers": [
+          "Indian Army",
+          "Indian Air Force"
+        ],
+        "service_provided": "Advanced eye care services",
+        "camp_location": "Military Hospital Namkum, Ranchi, Jharkhand",
+        "camp_dates": "June 15 to 19, 2026"
+      },
+      "mcq": {
+        "question": "Operation DRISHTI, a humanitarian medical initiative for eye care, organised a mega surgical eye camp in June 2026 at which location?",
+        "options": [
+          "Lucknow, Uttar Pradesh",
+          "Kurnool, Andhra Pradesh",
+          "Ranchi, Jharkhand",
+          "Chandigarh"
+        ],
+        "answer": "Ranchi, Jharkhand",
+        "explanation": "A mega surgical eye camp was organised at Military Hospital Namkum in Ranchi, Jharkhand, from June 15 to 19, 2026."
+      }
     }
   ],
   "July 2026": [
+    {
+      "id": "jul-26-1",
+      "topic": "Defence & Security",
+      "text": "General Dhiraj Seth assumes charge as the 31st Chief of the Army Staff.",
+      "publicationDate": "2026-06-30",
+      "originalSource": "PIB",
+      "relatedOfficialDocuments": "Ministry of Defence Press Release",
+      "upscHighlights": [
+        "Appointment of the new Chief of Army Staff (COAS).",
+        "General Dhiraj Seth is the 31st COAS.",
+        "Signifies a major leadership transition in the Indian Army.",
+        "Role of COAS in national security and defence strategy.",
+        "Part of broader military leadership reshuffle."
+      ],
+      "quickSummary": "General Dhiraj Seth officially took over as the 31st Chief of the Army Staff on June 30, 2026. This significant appointment marks a crucial leadership change in the Indian Army, impacting strategic planning, operational readiness, and force modernization. His vision, reportedly 'VIJAY,' will guide the army's future trajectory amidst evolving geopolitical challenges and internal security demands. The change is part of a larger reshuffle within the Indian military's top brass.",
+      "detailedAnalysis": "The assumption of command by General Dhiraj Seth as the 31st COAS is a pivotal moment for the Indian Army. The COAS is responsible for the command, control, and administration of the Army, advising the government on military matters, and ensuring the force's readiness. This appointment comes at a time when India faces complex security challenges, including border disputes, counter-insurgency operations, and the need for technological upgrades. General Seth's tenure will likely focus on enhancing integrated theatre commands, modernizing equipment, and improving personnel welfare. His leadership will be critical in maintaining India's strategic posture and adapting to future warfare doctrines.",
+      "backgroundContext": "The Chief of Army Staff is the professional head and commander of the Indian Army. The appointment follows a rigorous selection process based on seniority and merit, typically from among the senior-most Lieutenant Generals. The outgoing COAS, General Manoj Pande, completed his tenure. Such transitions are routine but critical for continuity and fresh strategic perspectives within the armed forces.",
+      "strategicImportance": "The COAS plays a central role in India's national security architecture. General Seth's leadership will influence the Army's operational doctrines, procurement decisions, and strategic deployments. His vision for the force, particularly regarding integrated theatre commands and technological advancements, will have long-term implications for India's defence capabilities and its ability to respond to regional and global security threats.",
+      "staticGkConnection": "Role and responsibilities of the Chief of Army Staff; Hierarchy of the Indian Armed Forces; Defence Ministry and its functioning; Integrated Theatre Commands concept.",
+      "stakeholders": [
+        "Indian Army",
+        "Ministry of Defence",
+        "Government of India",
+        "Defence industry",
+        "Allied nations"
+      ],
+      "relatedTopics": [
+        "Indian Army",
+        "Chief of Army Staff",
+        "Defence appointments",
+        "National Security",
+        "Integrated Theatre Commands",
+        "Military Modernization"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Who is the current Chief of Army Staff of India?",
+          "What is the significance of the COAS appointment?",
+          "Mention one key challenge facing the Indian Army under the new COAS."
+        ],
+        "interviewQuestions": [
+          "What qualities do you think are essential for a Chief of Army Staff in today's geopolitical climate?",
+          "How do you foresee the new COAS addressing the challenges of border management and military modernization?",
+          "Discuss the importance of leadership transitions in maintaining the effectiveness of armed forces."
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Chief of Army Staff in shaping India's defence policy.",
+          "Challenges and opportunities for the Indian Army in the next decade.",
+          "The impact of leadership changes on military morale and operational readiness."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Who has recently taken charge as the 31st Chief of the Army Staff of India?",
+          "options": [
+            "General Manoj Pande",
+            "General Bipin Rawat",
+            "General Dhiraj Seth",
+            "General Anil Chauhan"
+          ],
+          "correct": 2,
+          "explanation": "General Dhiraj Seth assumed the role of the 31st Chief of the Army Staff on June 30, 2026."
+        },
+        {
+          "question": "The Chief of Army Staff (COAS) is primarily responsible for:",
+          "options": [
+            "Foreign policy formulation",
+            "Command, control, and administration of the Army",
+            "Economic planning of the nation",
+            "Space research and development"
+          ],
+          "correct": 1,
+          "explanation": "The COAS is the professional head and commander of the Indian Army, responsible for its command, control, and administration."
+        },
+        {
+          "question": "The appointment of a new COAS is a part of:",
+          "options": [
+            "A routine political reshuffle",
+            "A major leadership transition in the Indian Army",
+            "A ceremonial event with no real impact",
+            "A temporary measure during emergencies"
+          ],
+          "correct": 1,
+          "explanation": "The appointment of a new COAS is a significant and routine leadership transition within the Indian Army, crucial for strategic continuity and fresh perspectives."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-2",
+      "topic": "Defence & Security, Women Empowerment",
+      "text": "Captain Shivani appointed as the first-ever woman Aide-de-Camp (ADC) to the Chief of Army Staff.",
+      "publicationDate": "2026-07-18",
+      "originalSource": "SSBCrack",
+      "relatedOfficialDocuments": "",
+      "upscHighlights": [
+        "Historic appointment of the first woman ADC to the COAS.",
+        "Signifies increasing role and recognition of women in the Indian Armed Forces.",
+        "Breaks gender barriers in high-profile military positions.",
+        "Promotes gender equality and inclusivity in the defence sector.",
+        "Highlights career progression opportunities for women officers."
+      ],
+      "quickSummary": "In a landmark move, Captain Shivani has been appointed as the first-ever woman Aide-de-Camp (ADC) to the Chief of Army Staff, General Dhiraj Seth. This appointment is a significant step towards greater gender inclusivity and empowerment within the Indian Armed Forces. It underscores the evolving landscape where women officers are increasingly taking on challenging and prestigious roles, breaking traditional barriers and inspiring future generations of women to join the military.",
+      "detailedAnalysis": "Captain Shivani's appointment as the first woman ADC to the COAS is a powerful symbol of the Indian Armed Forces' commitment to gender equality. The role of an ADC is highly prestigious, involving close coordination with the COAS, managing his schedule, and representing him at various events. This position requires exceptional organizational skills, discretion, and a deep understanding of military protocols. Her selection reflects not only her individual merit and capabilities but also a broader institutional shift towards recognizing and utilizing the talents of women officers in diverse capacities, including those traditionally reserved for men.",
+      "backgroundContext": "Historically, the role of ADC has been predominantly held by male officers. However, in recent years, the Indian Armed Forces have made concerted efforts to integrate women into more roles, including permanent commission, command appointments, and combat roles. This appointment builds upon these initiatives, demonstrating a tangible commitment to providing equal opportunities and breaking glass ceilings for women in uniform.",
+      "strategicImportance": "This appointment has significant strategic importance beyond its symbolic value. It sends a strong message about the modernization and progressive outlook of the Indian military. By showcasing women in prominent roles, it can boost morale among women officers, attract more women to join the armed forces, and enhance India's image on the global stage as a nation committed to gender equality in its defence establishment.",
+      "staticGkConnection": "Women in the Indian Armed Forces (history, milestones); Role of Aide-de-Camp (ADC); Gender equality initiatives in government and public sector.",
+      "stakeholders": [
+        "Indian Army",
+        "Chief of Army Staff",
+        "Ministry of Defence",
+        "Women officers",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Women in Armed Forces",
+        "Gender Equality",
+        "Indian Army",
+        "Military appointments",
+        "Defence reforms",
+        "Inclusivity"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Who is the first woman ADC to the Chief of Army Staff?",
+          "What is the significance of Captain Shivani's appointment?",
+          "Name one initiative promoting women in the Indian Armed Forces."
+        ],
+        "interviewQuestions": [
+          "How does Captain Shivani's appointment reflect the changing dynamics within the Indian Armed Forces?",
+          "Discuss the challenges and opportunities for women officers in leadership roles in the military.",
+          "What more can be done to ensure greater gender parity in the armed forces?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of women in modern warfare and defence.",
+          "Gender equality in the Indian Armed Forces: Progress and future prospects.",
+          "Impact of symbolic appointments on institutional change."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Who recently became the first-ever woman Aide-de-Camp (ADC) to the Chief of Army Staff?",
+          "options": [
+            "Major Suman Singh",
+            "Captain Shivani",
+            "Colonel Priya Jhingan",
+            "Lieutenant Punita Arora"
+          ],
+          "correct": 1,
+          "explanation": "Captain Shivani has been appointed as the first woman ADC to the Chief of Army Staff."
+        },
+        {
+          "question": "The appointment of a woman ADC to the COAS is a significant step towards:",
+          "options": [
+            "Reducing the COAS's workload",
+            "Promoting gender inclusivity in the armed forces",
+            "Limiting the roles of male officers",
+            "Increasing administrative costs"
+          ],
+          "correct": 1,
+          "explanation": "This appointment is a landmark step towards promoting gender inclusivity and empowerment within the Indian Armed Forces."
+        },
+        {
+          "question": "Which of the following is NOT a likely impact of this historic appointment?",
+          "options": [
+            "Boosting morale among women officers",
+            "Attracting more women to join the armed forces",
+            "Enhancing India's global image on gender equality",
+            "Decreasing the overall operational efficiency of the Army"
+          ],
+          "correct": 3,
+          "explanation": "The appointment is expected to have positive impacts, not decrease operational efficiency."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-3",
+      "topic": "Defence & Security, Military Reforms",
+      "text": "India's Integrated Theatre Command plan moves closer to reality, aiming for enhanced jointness among armed forces.",
+      "publicationDate": "2026-07-13",
+      "originalSource": "WION, The Federal",
+      "relatedOfficialDocuments": "",
+      "upscHighlights": [
+        "Progress towards establishing Integrated Theatre Commands (ITCs).",
+        "Aims to enhance jointness and synergy among Army, Navy, and Air Force.",
+        "Major defence reform for optimal resource utilization and unified command.",
+        "Addresses challenges of inter-service coordination and operational efficiency.",
+        "Long-standing debate on its implementation and structure."
+      ],
+      "quickSummary": "India's long-debated plan to establish Integrated Theatre Commands (ITCs) for its armed forces is reportedly moving closer to reality. This ambitious reform aims to create unified commands, integrating assets and personnel from the Army, Navy, and Air Force under a single operational commander. The goal is to enhance jointness, optimize resource allocation, and improve operational efficiency and responsiveness in a multi-domain warfare environment, addressing the challenges of fragmented command structures.",
+      "detailedAnalysis": "The concept of Integrated Theatre Commands is a transformative reform aimed at restructuring India's military command system. Currently, India operates separate commands for each service. ITCs would consolidate these into geographical or functional commands, each led by a single commander responsible for all military assets in their theatre. This would facilitate quicker decision-making, better intelligence sharing, and more coordinated operations. The implementation involves significant logistical, administrative, and doctrinal changes, requiring consensus among the three services. Challenges include resource allocation, command and control issues, and overcoming service-specific doctrines.",
+      "backgroundContext": "The idea of theatre commands has been discussed for over two decades, gaining momentum after the Kargil War and further emphasized by various expert committees. The appointment of the Chief of Defence Staff (CDS) was a precursor to this reform, intended to foster greater integration. The current push reflects a strategic imperative to prepare for future conflicts that demand seamless joint operations across land, sea, air, space, and cyber domains.",
+      "strategicImportance": "Establishing ITCs is crucial for India's national security, particularly given the complex geopolitical landscape and evolving nature of warfare. It will enable a more agile and potent military response to threats along its borders and in its maritime zones. By creating a unified command structure, India aims to project power more effectively, deter adversaries, and ensure optimal utilization of its defence budget and capabilities.",
+      "staticGkConnection": "Chief of Defence Staff (CDS) and Department of Military Affairs (DMA); Command structure of the Indian Armed Forces; Kargil Review Committee recommendations; Jointness and Integration in military operations.",
+      "stakeholders": [
+        "Indian Army",
+        "Indian Navy",
+        "Indian Air Force",
+        "Chief of Defence Staff",
+        "Ministry of Defence",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Integrated Theatre Commands",
+        "Jointness",
+        "Military Reforms",
+        "National Security",
+        "Chief of Defence Staff",
+        "Defence Modernization"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the primary objective of Integrated Theatre Commands?",
+          "Who is responsible for spearheading the ITC reform?",
+          "Mention one challenge in implementing ITCs."
+        ],
+        "interviewQuestions": [
+          "Discuss the advantages and disadvantages of establishing Integrated Theatre Commands in India.",
+          "How will ITCs impact India's defence preparedness against its adversaries?",
+          "What role does the Chief of Defence Staff play in the implementation of theatre commands?"
+        ],
+        "ssbDiscussionTopics": [
+          "Integrated Theatre Commands: A necessity for India's future security.",
+          "The balance between service-specific expertise and jointness in military operations.",
+          "Resource allocation and inter-service rivalry in the context of ITCs."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "The main purpose of establishing Integrated Theatre Commands (ITCs) is to:",
+          "options": [
+            "Reduce the size of the armed forces",
+            "Enhance jointness and synergy among the three services",
+            "Increase individual service autonomy",
+            "Focus solely on land-based operations"
+          ],
+          "correct": 1,
+          "explanation": "ITCs aim to integrate the Army, Navy, and Air Force for enhanced jointness and operational efficiency."
+        },
+        {
+          "question": "The concept of Theatre Commands in India has been under discussion for:",
+          "options": [
+            "Less than five years",
+            "Around a decade",
+            "Over two decades",
+            "Only since the appointment of the current COAS"
+          ],
+          "correct": 2,
+          "explanation": "The idea of theatre commands has been discussed for over two decades, gaining momentum after the Kargil War."
+        },
+        {
+          "question": "Which of the following is NOT a likely benefit of Integrated Theatre Commands?",
+          "options": [
+            "Quicker decision-making",
+            "Better intelligence sharing",
+            "Fragmented command structures",
+            "More coordinated operations"
+          ],
+          "correct": 2,
+          "explanation": "ITCs aim to *eliminate* fragmented command structures, not create them."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-4",
+      "topic": "Defence & Security, Military Capabilities",
+      "text": "Indian Air Force (IAF) ranked as the world's third most powerful independent air force.",
+      "publicationDate": "2026-07-13",
+      "originalSource": "LawStreet Journal",
+      "relatedOfficialDocuments": "",
+      "upscHighlights": [
+        "IAF's high global ranking (3rd most powerful).",
+        "Reflects India's growing air power capabilities.",
+        "Highlights ongoing modernization and strategic acquisitions.",
+        "Signifies India's strong defence posture in the region.",
+        "Important for national pride and deterrence."
+      ],
+      "quickSummary": "The Indian Air Force (IAF) has been ranked as the world's third most powerful independent air force, according to a recent assessment. This high ranking underscores India's significant advancements in air power capabilities, driven by continuous modernization efforts, strategic acquisitions of advanced fighter jets and support aircraft, and robust training programs. The achievement reflects the IAF's operational readiness and its crucial role in safeguarding India's national interests and projecting its influence in the Indo-Pacific region.",
+      "detailedAnalysis": "This ranking is a testament to the Indian Air Force's sustained efforts in enhancing its combat prowess. Factors contributing to such a high ranking typically include the size and quality of the aircraft fleet (e.g., Rafale, Su-30 MKI, Tejas), technological sophistication, pilot training standards, maintenance capabilities, and strategic reach. The IAF has been actively engaged in acquiring multi-role combat aircraft, advanced air defence systems, and upgrading its existing platforms. This strong air power is vital for both offensive and defensive operations, providing a credible deterrent against potential adversaries and supporting ground and naval forces.",
+      "backgroundContext": "India has historically invested heavily in its air force, recognizing its critical role in modern warfare. The IAF has a rich history of operational excellence and has been continuously modernizing its fleet and infrastructure. This ranking comes amidst ongoing geopolitical tensions and a renewed focus on strengthening India's overall defence capabilities, including indigenous defence production.",
+      "strategicImportance": "A powerful air force is a cornerstone of national security. The IAF's third-place ranking enhances India's strategic leverage in regional and global affairs. It provides a strong deterrent, capable of rapid response to threats, conducting precision strikes, and ensuring air superiority. This capability is particularly important in the context of India's complex neighbourhood and its aspirations to be a leading power in the Indo-Pacific.",
+      "staticGkConnection": "History and evolution of the Indian Air Force; Major aircraft in the IAF fleet (e.g., Rafale, Su-30 MKI, Tejas); Role of air power in modern warfare; Defence procurement processes in India.",
+      "stakeholders": [
+        "Indian Air Force",
+        "Ministry of Defence",
+        "Government of India",
+        "Defence industry (domestic and international)"
+      ],
+      "relatedTopics": [
+        "Indian Air Force",
+        "Air Power",
+        "Defence Capabilities",
+        "Military Modernization",
+        "National Security",
+        "Geopolitics",
+        "Indo-Pacific"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the global ranking of the Indian Air Force?",
+          "Mention two factors contributing to a powerful air force.",
+          "Name one advanced fighter jet in the IAF fleet."
+        ],
+        "interviewQuestions": [
+          "How does the IAF's high ranking impact India's strategic position in Asia?",
+          "Discuss the role of indigenous defence production in strengthening India's air power.",
+          "What are the future challenges and opportunities for the Indian Air Force?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of air superiority in modern conflicts.",
+          "India's defence capabilities: A comparison with regional powers.",
+          "Technological advancements and their impact on air warfare."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "According to recent assessments, what is the global ranking of the Indian Air Force among independent air forces?",
+          "options": [
+            "First",
+            "Second",
+            "Third",
+            "Fourth"
+          ],
+          "correct": 2,
+          "explanation": "The Indian Air Force has been ranked as the world's third most powerful independent air force."
+        },
+        {
+          "question": "Which of the following is NOT typically a factor in assessing an air force's power?",
+          "options": [
+            "Size and quality of aircraft fleet",
+            "Pilot training standards",
+            "Number of ground troops",
+            "Technological sophistication"
+          ],
+          "correct": 2,
+          "explanation": "The number of ground troops is relevant to the army, not directly to an air force's power ranking."
+        },
+        {
+          "question": "The IAF's high ranking is significant for India's:",
+          "options": [
+            "Economic growth only",
+            "Cultural diplomacy",
+            "National security and strategic deterrence",
+            "Agricultural output"
+          ],
+          "correct": 2,
+          "explanation": "A powerful air force is crucial for national security, strategic deterrence, and projecting influence."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-5",
+      "topic": "Space Technology, Private Sector, Science & Technology",
+      "text": "India achieves a major milestone with the first private orbital launch, Vikram-1 by Skyroot Aerospace, from Sriharikota.",
+      "publicationDate": "2026-07-18",
+      "originalSource": "ISRO, PIB",
+      "relatedOfficialDocuments": "",
+      "upscHighlights": [
+        "India's first private orbital space launch.",
+        "Rocket Vikram-1 developed by Skyroot Aerospace.",
+        "Marks a new era for India's private space sector.",
+        "Demonstrates indigenous capabilities in space technology.",
+        "Boosts India's space economy and 'Atmanirbhar Bharat' initiative."
+      ],
+      "quickSummary": "India has achieved a historic milestone with the successful launch of Vikram-1, its first private orbital rocket, by Hyderabad-based Skyroot Aerospace from the Satish Dhawan Space Centre in Sriharikota. This event signifies the opening of India's space sector to private players, moving beyond ISRO's monopoly. The launch demonstrates the growing capabilities of Indian startups in advanced space technology and is expected to boost the nation's space economy, aligning with the 'Atmanirbhar Bharat' vision.",
+      "detailedAnalysis": "The launch of Vikram-1 is a game-changer for India's space industry. Skyroot Aerospace, founded by former ISRO scientists, successfully designed, developed, and launched an orbital-class rocket, showcasing the potential of private innovation. This achievement is a direct outcome of the government's space sector reforms, which allowed private entities to participate in space activities previously exclusive to ISRO. The Vikram series of rockets are designed to be cost-effective and capable of carrying small satellites, catering to the burgeoning global demand for dedicated small satellite launches. This will foster competition, accelerate technological development, and create new job opportunities in the space sector.",
+      "backgroundContext": "For decades, ISRO was the sole entity involved in India's space activities. However, recognizing the global trend of private sector involvement and the need to scale up India's space economy, the government introduced reforms in 2020, establishing IN-SPACe (Indian National Space Promotion and Authorization Centre) to facilitate and regulate private participation. This launch is a direct validation of these policy changes and the vision to make India a global hub for space technology.",
+      "strategicImportance": "The entry of private players into orbital launches enhances India's overall space capabilities and strategic autonomy. It diversifies launch options, reduces reliance on foreign launch providers, and strengthens India's position in the global space market. This development is crucial for both commercial applications (e.g., satellite internet, remote sensing) and strategic purposes (e.g., rapid deployment of surveillance satellites), contributing significantly to national security and economic growth.",
+      "staticGkConnection": "ISRO (Indian Space Research Organisation) - history, achievements, launch sites; Satish Dhawan Space Centre, Sriharikota; Space sector reforms in India (IN-SPACe); 'Atmanirbhar Bharat' initiative; Types of rockets and satellite launch vehicles.",
+      "stakeholders": [
+        "Skyroot Aerospace",
+        "ISRO",
+        "IN-SPACe",
+        "Ministry of Space",
+        "Government of India",
+        "Private space industry",
+        "Global satellite operators"
+      ],
+      "relatedTopics": [
+        "Private Space Sector",
+        "Orbital Launch",
+        "Vikram-1",
+        "Skyroot Aerospace",
+        "ISRO",
+        "Space Economy",
+        "Atmanirbhar Bharat",
+        "Sriharikota",
+        "Satellite Technology"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Which company launched India's first private orbital rocket?",
+          "What is the name of the rocket?",
+          "Where was Vikram-1 launched from?",
+          "What is IN-SPACe?"
+        ],
+        "interviewQuestions": [
+          "Discuss the implications of private sector entry into India's space program.",
+          "How does the success of Vikram-1 contribute to India's 'Atmanirbhar Bharat' vision?",
+          "What are the potential challenges and opportunities for Indian space startups?"
+        ],
+        "ssbDiscussionTopics": [
+          "The future of India's space economy: Public vs. Private sector roles.",
+          "India's growing capabilities in space technology and its geopolitical significance.",
+          "Brain drain from ISRO to private space companies: A challenge or an opportunity?"
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "India's first private orbital rocket, Vikram-1, was launched by which company?",
+          "options": [
+            "Bellatrix Aerospace",
+            "Dhruva Space",
+            "Agnikul Cosmos",
+            "Skyroot Aerospace"
+          ],
+          "correct": 3,
+          "explanation": "Skyroot Aerospace successfully launched Vikram-1, India's first private orbital rocket."
+        },
+        {
+          "question": "The launch of Vikram-1 took place from which Indian spaceport?",
+          "options": [
+            "Thumba Equatorial Rocket Launching Station",
+            "Balasore Missile Test Range",
+            "Satish Dhawan Space Centre, Sriharikota",
+            "Abdul Kalam Island"
+          ],
+          "correct": 2,
+          "explanation": "Vikram-1 was launched from the Satish Dhawan Space Centre in Sriharikota."
+        },
+        {
+          "question": "The government body established to facilitate and regulate private participation in India's space activities is:",
+          "options": [
+            "DRDO",
+            "HAL",
+            "IN-SPACe",
+            "Antrix Corporation"
+          ],
+          "correct": 2,
+          "explanation": "IN-SPACe (Indian National Space Promotion and Authorization Centre) was established for this purpose."
+        },
+        {
+          "question": "The success of Vikram-1 is a significant step towards achieving the goals of which government initiative?",
+          "options": [
+            "Make in India",
+            "Digital India",
+            "Skill India",
+            "Atmanirbhar Bharat"
+          ],
+          "correct": 3,
+          "explanation": "The indigenous development and launch align with the 'Atmanirbhar Bharat' (self-reliant India) vision."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-6",
+      "topic": "Economy, Geopolitics, Environment",
+      "text": "RBI Governor highlights West Asia tensions and weak monsoon as major risks to India's economic growth.",
+      "publicationDate": "2026-07-17",
+      "originalSource": "Bloomberg.com",
+      "relatedOfficialDocuments": "",
+      "upscHighlights": [
+        "RBI Governor's assessment of key economic risks.",
+        "Geopolitical tensions (West Asia/Iran War) impacting global oil prices and trade.",
+        "Weak monsoon's potential adverse effects on agriculture and rural demand.",
+        "Implications for inflation, GDP growth, and fiscal stability.",
+        "Monetary policy considerations in response to these risks."
+      ],
+      "quickSummary": "The Reserve Bank of India (RBI) Governor, Sanjay Malhotra, has identified escalating tensions in West Asia (referring to the 'Iran War' in some reports) and the prospect of a weak monsoon as the primary risks to India's economic growth. Geopolitical instability could disrupt global supply chains and push up crude oil prices, while an inadequate monsoon would negatively impact agricultural output, rural incomes, and overall demand, potentially fueling inflation and slowing GDP growth.",
+      "detailedAnalysis": "The RBI Governor's statement underscores the dual nature of threats to the Indian economy: external geopolitical shocks and internal climate-related vulnerabilities. Tensions in West Asia, particularly involving major oil-producing nations, can lead to significant volatility in global crude oil prices. As a major oil importer, India is highly susceptible to such price hikes, which can worsen its current account deficit, depreciate the rupee, and stoke imported inflation. Concurrently, a weak monsoon is a perennial concern for India's largely agrarian economy. It directly affects crop yields, leading to food inflation, reduced farmer incomes, and a slowdown in rural consumption, which is a significant driver of economic growth. The RBI would need to carefully balance its monetary policy to manage inflation without stifling growth.",
+      "backgroundContext": "India's economy is highly sensitive to global oil prices and monsoon performance. Past experiences have shown that both factors can significantly derail economic forecasts. The RBI's mandate includes maintaining price stability while keeping growth in mind. Therefore, the Governor's warnings are crucial for policymakers and businesses to prepare for potential headwinds.",
+      "strategicImportance": "These risks have profound strategic implications. Economic instability can lead to social unrest and impact national security. Managing oil price shocks requires strategic energy diplomacy and diversification of energy sources. Mitigating monsoon risks necessitates robust agricultural policies, irrigation infrastructure, and climate-resilient farming practices. The government and RBI's coordinated response will be vital for maintaining economic resilience and stability.",
+      "staticGkConnection": "Role and functions of the Reserve Bank of India (RBI); Monetary Policy Committee (MPC); Impact of monsoon on Indian agriculture and economy; India's energy security and crude oil imports; Current Account Deficit (CAD) and inflation.",
+      "stakeholders": [
+        "Reserve Bank of India",
+        "Ministry of Finance",
+        "Farmers",
+        "Consumers",
+        "Businesses",
+        "Oil-exporting nations"
+      ],
+      "relatedTopics": [
+        "Indian Economy",
+        "RBI",
+        "Monetary Policy",
+        "Inflation",
+        "GDP Growth",
+        "Monsoon",
+        "Agriculture",
+        "Geopolitics",
+        "West Asia",
+        "Crude Oil Prices",
+        "Fiscal Policy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Name two key risks to the Indian economy identified by the RBI Governor.",
+          "How do West Asia tensions impact India's economy?",
+          "What is the primary impact of a weak monsoon on India's economy?"
+        ],
+        "interviewQuestions": [
+          "Discuss the challenges faced by the RBI in managing inflation and growth amidst external and internal shocks.",
+          "How can India mitigate the economic risks posed by geopolitical instability in West Asia?",
+          "What long-term strategies should India adopt to reduce its dependence on monsoon-fed agriculture?"
+        ],
+        "ssbDiscussionTopics": [
+          "The Indian economy's resilience to global shocks and climate change.",
+          "Balancing economic growth with environmental sustainability in India.",
+          "The role of the RBI in maintaining economic stability."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Which of the following has NOT been identified by the RBI Governor as a major risk to the Indian economy?",
+          "options": [
+            "West Asia tensions",
+            "Weak monsoon",
+            "Strong global demand for Indian goods",
+            "Rising crude oil prices due to geopolitical events"
+          ],
+          "correct": 2,
+          "explanation": "Strong global demand for Indian goods would generally be beneficial, not a risk. West Asia tensions and weak monsoon are the identified risks."
+        },
+        {
+          "question": "A weak monsoon primarily impacts the Indian economy through:",
+          "options": [
+            "Increased industrial production",
+            "Higher agricultural output",
+            "Reduced rural incomes and food inflation",
+            "Boost in service sector growth"
+          ],
+          "correct": 2,
+          "explanation": "A weak monsoon leads to lower agricultural output, reduced farmer incomes, and often results in food inflation."
+        },
+        {
+          "question": "India's vulnerability to West Asia tensions is largely due to its:",
+          "options": [
+            "High dependence on tourism from the region",
+            "Major imports of crude oil from the region",
+            "Significant exports of agricultural products to the region",
+            "Cultural ties with the region"
+          ],
+          "correct": 1,
+          "explanation": "India is a major importer of crude oil, much of which comes from the West Asia region, making it vulnerable to tensions there."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-7",
+      "topic": "Environment, Health, Climate Change",
+      "text": "A new report indicates climate change is causing significant sleep loss among Indians, particularly in Southern states.",
+      "publicationDate": "2026-07-17",
+      "originalSource": "The Hindu, The Times of India",
+      "relatedOfficialDocuments": "",
+      "upscHighlights": [
+        "Direct impact of climate change on public health (sleep patterns).",
+        "Southern Indian states (Tamil Nadu, Kerala, Andhra Pradesh) most affected.",
+        "Rising night temperatures linked to sleep deprivation.",
+        "Highlights the multi-faceted consequences of global warming.",
+        "Calls for adaptation strategies and public awareness."
+      ],
+      "quickSummary": "A recent study reveals that climate change is significantly impacting the sleep patterns of Indians, leading to an average loss of several nights of sleep annually. Southern states like Tamil Nadu, Kerala, and Andhra Pradesh are identified as the worst affected regions due to rising night-time temperatures. This phenomenon underscores the broader public health implications of global warming, extending beyond direct heat-related illnesses to affect fundamental human physiological processes like sleep, with potential long-term health and productivity consequences.",
+      "detailedAnalysis": "The study connects rising ambient temperatures, especially during the night, to increased sleep disturbances. Warmer nights make it harder for the human body to cool down naturally, which is essential for initiating and maintaining sleep. This is particularly pronounced in regions with already high temperatures and humidity, such as Southern India. Chronic sleep deprivation can lead to a host of health issues, including reduced cognitive function, increased risk of cardiovascular diseases, diabetes, and mental health problems. It also impacts productivity and overall quality of life. The findings highlight the urgent need for climate adaptation strategies, including urban planning that mitigates 'heat island' effects, improved housing, and public health advisories.",
+      "backgroundContext": "Climate change is a global phenomenon with localized impacts. While much attention is given to extreme weather events, sea-level rise, and agricultural disruptions, its subtle effects on human physiology and well-being are increasingly being studied. India, with its large population and diverse climatic zones, is particularly vulnerable to various climate change impacts.",
+      "strategicImportance": "The health and well-being of its population are critical for a nation's productivity and development. If climate change leads to widespread sleep deprivation, it could have significant long-term economic and social costs, impacting workforce productivity, public health infrastructure, and overall national resilience. Addressing this requires integrated policies that combine climate action with public health initiatives and sustainable urban development.",
+      "staticGkConnection": "Causes and effects of climate change; Greenhouse gases and global warming; Impact of environmental factors on human health; Geography of Indian states (especially Southern states' climate).",
+      "stakeholders": [
+        "Government (Health, Environment, Urban Development Ministries)",
+        "Public health organizations",
+        "Researchers",
+        "General public",
+        "Urban planners"
+      ],
+      "relatedTopics": [
+        "Climate Change",
+        "Global Warming",
+        "Public Health",
+        "Sleep Deprivation",
+        "Environmental Impact",
+        "Southern India",
+        "Heatwave",
+        "Urban Heat Island"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "How is climate change affecting sleep in India?",
+          "Which Indian states are most affected by climate change-induced sleep loss?",
+          "Mention one health consequence of chronic sleep deprivation."
+        ],
+        "interviewQuestions": [
+          "Discuss the broader public health implications of climate change beyond direct heat strokes.",
+          "What measures can individuals and governments take to mitigate the impact of rising temperatures on sleep?",
+          "How can urban planning contribute to addressing the 'heat island' effect?"
+        ],
+        "ssbDiscussionTopics": [
+          "Climate change as a national security threat: Beyond environmental degradation.",
+          "The socio-economic impact of public health crises induced by climate change.",
+          "Sustainable development and climate adaptation strategies for Indian cities."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "A recent report indicates that climate change is causing significant sleep loss in India, primarily due to:",
+          "options": [
+            "Increased air pollution",
+            "Rising night-time temperatures",
+            "Changes in daylight hours",
+            "Increased noise pollution"
+          ],
+          "correct": 1,
+          "explanation": "The report links sleep loss primarily to rising night-time temperatures, making it harder for the body to cool down."
+        },
+        {
+          "question": "Which region of India is reported to be most affected by climate change-induced sleep loss?",
+          "options": [
+            "Northern Plains",
+            "Northeastern States",
+            "Western Desert",
+            "Southern States"
+          ],
+          "correct": 3,
+          "explanation": "Southern Indian states like Tamil Nadu, Kerala, and Andhra Pradesh are identified as the worst affected."
+        },
+        {
+          "question": "Chronic sleep deprivation can lead to all of the following health issues EXCEPT:",
+          "options": [
+            "Reduced cognitive function",
+            "Increased risk of cardiovascular diseases",
+            "Improved immune system function",
+            "Mental health problems"
+          ],
+          "correct": 2,
+          "explanation": "Chronic sleep deprivation generally *weakens* the immune system, not improves it."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-8",
+      "topic": "Internal Security, Cyber Security, Governance",
+      "text": "Ministry of Home Affairs proposes recruitment rules for CEO and additional CEOs for the Indian Cybercrime Coordination Centre (I4C).",
+      "publicationDate": "2026-07-16",
+      "originalSource": "The Economic Times, Magzter",
+      "relatedOfficialDocuments": "Draft Recruitment Rules",
+      "upscHighlights": [
+        "Strengthening of the Indian Cybercrime Coordination Centre (I4C).",
+        "Formalization of leadership roles (CEO, Addl. CEOs).",
+        "Aims to enhance India's cyber security infrastructure.",
+        "Part of government's efforts to combat cybercrime effectively.",
+        "Focus on professionalizing key internal security agencies."
+      ],
+      "quickSummary": "The Ministry of Home Affairs (MHA) has proposed new recruitment rules for the positions of Chief Executive Officer (CEO) and additional CEOs for the Indian Cybercrime Coordination Centre (I4C). This move aims to formalize and strengthen the leadership structure of I4C, which is a crucial agency in India's fight against cybercrime. By establishing clear recruitment guidelines, the government seeks to ensure professional and expert leadership for enhancing the nation's cyber security capabilities and coordinating efforts across various agencies.",
+      "detailedAnalysis": "The I4C, established in 2020, serves as a nodal point for all activities related to combating cybercrime in India. Its functions include providing a platform for law enforcement agencies, developing cyber forensics tools, and conducting research and development. Proposing specific recruitment rules for its top leadership positions indicates a commitment to institutionalizing and professionalizing the centre. This will help attract qualified individuals with expertise in cyber security, technology, and law enforcement, ensuring that I4C can effectively address the rapidly evolving landscape of cyber threats, from financial fraud to national security breaches.",
+      "backgroundContext": "With the increasing digitalization of India, cybercrime has emerged as a significant threat to individuals, businesses, and critical infrastructure. The I4C was set up under the MHA to create a robust framework for tackling these challenges. Formalizing the recruitment process for its leadership is a logical step in building a resilient and effective cybercrime fighting ecosystem.",
+      "strategicImportance": "In an increasingly digital world, cyber security is integral to national security. A strong I4C, led by competent professionals, is vital for protecting India's digital assets, preventing economic losses due to cyber fraud, and safeguarding critical infrastructure from state-sponsored attacks. This initiative enhances India's overall internal security posture and its ability to respond to cyber warfare threats.",
+      "staticGkConnection": "Indian Cybercrime Coordination Centre (I4C) - structure, functions; National Cyber Security Policy; Types of cybercrime and their impact; Ministry of Home Affairs (MHA) - role in internal security.",
+      "stakeholders": [
+        "Ministry of Home Affairs",
+        "I4C",
+        "Law Enforcement Agencies (Police, CBI)",
+        "Cyber security experts",
+        "Public"
+      ],
+      "relatedTopics": [
+        "Cyber Security",
+        "Cybercrime",
+        "Internal Security",
+        "I4C",
+        "Digital India",
+        "Governance",
+        "Law Enforcement",
+        "National Security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the full form of I4C?",
+          "Which ministry is responsible for I4C?",
+          "Why are new recruitment rules being proposed for I4C leadership?"
+        ],
+        "interviewQuestions": [
+          "Discuss the growing threat of cybercrime in India and the role of I4C in combating it.",
+          "How can professionalizing leadership in cyber security agencies enhance national security?",
+          "What are the key challenges in attracting top talent to government cyber security roles?"
+        ],
+        "ssbDiscussionTopics": [
+          "The balance between digital advancement and cyber security in India.",
+          "The need for a multi-pronged approach to tackle cybercrime.",
+          "Government's role in fostering a secure digital environment."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "The Indian Cybercrime Coordination Centre (I4C) operates under the aegis of which ministry?",
+          "options": [
+            "Ministry of Electronics and Information Technology",
+            "Ministry of Defence",
+            "Ministry of Home Affairs",
+            "Ministry of External Affairs"
+          ],
+          "correct": 2,
+          "explanation": "I4C was established under the Ministry of Home Affairs (MHA)."
+        },
+        {
+          "question": "The proposal for new recruitment rules for I4C leadership aims to:",
+          "options": [
+            "Reduce the budget allocated to I4C",
+            "Formalize and strengthen its leadership structure",
+            "Privatize cybercrime investigation",
+            "Limit its operational scope"
+          ],
+          "correct": 1,
+          "explanation": "The move aims to formalize and strengthen the leadership structure of I4C to enhance its effectiveness."
+        },
+        {
+          "question": "Which of the following is a primary function of I4C?",
+          "options": [
+            "Developing space launch vehicles",
+            "Coordinating efforts to combat cybercrime",
+            "Managing national highways",
+            "Regulating financial markets"
+          ],
+          "correct": 1,
+          "explanation": "I4C serves as a nodal point for all activities related to combating cybercrime in India."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-9",
+      "topic": "Environment, International Relations, Climate Change",
+      "text": "India and China reject participation in a new UN carbon market mechanism, citing concerns over \"zombie credits.\"",
+      "publicationDate": "2026-07-17",
+      "originalSource": "Climate Home News",
+      "relatedOfficialDocuments": "UN Climate Change negotiation documents, national statements",
+      "upscHighlights": [
+        "India and China's stance on international carbon markets.",
+        "Issue of \"zombie credits\" (old, low-quality carbon credits).",
+        "Highlights disagreements in global climate finance and carbon trading.",
+        "Implications for Article 6 of the Paris Agreement.",
+        "Reflects developing nations' concerns over equity and historical responsibility."
+      ],
+      "quickSummary": "India and China have reportedly snubbed a new United Nations carbon market mechanism, refusing to allow their old, low-quality carbon credits, dubbed \"zombie credits,\" to be locked out. This move highlights ongoing disagreements between developed and developing nations regarding the rules and integrity of global carbon trading under the Paris Agreement's Article 6. Both countries are advocating for a more equitable framework that acknowledges their past efforts and development needs.",
+      "detailedAnalysis": "The dispute revolves around the treatment of carbon credits generated under older mechanisms, particularly the Kyoto Protocol's Clean Development Mechanism (CDM). Many of these credits are considered \"zombie credits\" because they represent emissions reductions that may not be additional or verifiable by current standards. Developed nations argue that allowing these credits into new markets would undermine environmental integrity. However, India and China, major developers of CDM projects, argue that these credits represent genuine efforts and should not be arbitrarily devalued, especially given the historical emissions of developed countries. Their refusal to participate in a market that excludes these credits signals a strong stance on climate justice and national sovereignty over carbon assets.",
+      "backgroundContext": "International carbon markets are a key tool under the Paris Agreement (Article 6) to help countries meet their Nationally Determined Contributions (NDCs) by trading emissions reductions. The rules for these markets, especially concerning the transition of older credits, have been a contentious issue in climate negotiations for years, reflecting broader North-South divides on climate responsibility and finance.",
+      "strategicImportance": "This development has strategic importance for global climate action and international relations. India and China's unified stance, as two of the largest developing economies and emitters, can significantly influence the future shape of carbon markets. It also underscores their assertion of leadership among developing nations, demanding a climate framework that is fair and considers their developmental imperatives, rather than imposing rules perceived as disadvantageous.",
+      "staticGkConnection": "Paris Agreement (Article 6); Kyoto Protocol and Clean Development Mechanism (CDM); Nationally Determined Contributions (NDCs); Carbon credits and carbon trading; Climate finance and climate justice.",
+      "stakeholders": [
+        "India",
+        "China",
+        "United Nations Framework Convention on Climate Change (UNFCCC)",
+        "Developed nations",
+        "Developing nations",
+        "Carbon market participants"
+      ],
+      "relatedTopics": [
+        "Climate Change",
+        "Carbon Markets",
+        "Paris Agreement",
+        "Climate Finance",
+        "International Relations",
+        "Environmental Diplomacy",
+        "Developing Countries",
+        "UNFCCC"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are 'zombie credits' in the context of carbon markets?",
+          "Which international agreement governs carbon markets?",
+          "Why did India and China snub the new UN carbon market?"
+        ],
+        "interviewQuestions": [
+          "Discuss the implications of India and China's stance on the future of global carbon markets.",
+          "How does the issue of 'zombie credits' reflect the broader North-South divide in climate negotiations?",
+          "What is India's position on climate justice and historical responsibility in global climate action?"
+        ],
+        "ssbDiscussionTopics": [
+          "The effectiveness of carbon markets in achieving climate goals.",
+          "Balancing environmental integrity with developmental needs in climate policy.",
+          "India's role as a leader among developing nations in climate negotiations."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "India and China recently rejected participation in a new UN carbon market due to concerns over:",
+          "options": [
+            "Lack of technological transfer",
+            "High transaction costs",
+            "'Zombie credits'",
+            "Insufficient funding for adaptation"
+          ],
+          "correct": 2,
+          "explanation": "Both countries cited concerns over 'zombie credits,' which are old, low-quality carbon credits."
+        },
+        {
+          "question": "The international carbon markets are primarily governed by which agreement?",
+          "options": [
+            "Kyoto Protocol",
+            "Montreal Protocol",
+            "Paris Agreement",
+            "Copenhagen Accord"
+          ],
+          "correct": 2,
+          "explanation": "International carbon markets are a key tool under Article 6 of the Paris Agreement."
+        },
+        {
+          "question": "The term 'zombie credits' refers to:",
+          "options": [
+            "Credits for projects that failed",
+            "Credits from renewable energy sources",
+            "Old, low-quality carbon credits from previous mechanisms",
+            "Credits for carbon capture technologies"
+          ],
+          "correct": 2,
+          "explanation": "'Zombie credits' are old, low-quality carbon credits, often from the Clean Development Mechanism, whose environmental integrity is questioned."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-10",
+      "topic": "Social Issues, Education, Governance",
+      "text": "Odisha launches India’s first universal KG-to-PG free education programme under the ‘Gyanodaya’ scheme.",
+      "publicationDate": "2026-07-02",
+      "originalSource": "The New Indian Express",
+      "relatedOfficialDocuments": "Odisha Government Notification on 'Gyanodaya' scheme",
+      "upscHighlights": [
+        "Odisha's pioneering universal free education scheme (KG to PG).",
+        "First of its kind in India, covering all levels of education.",
+        "Aims to enhance access, equity, and quality in education.",
+        "Significant step towards achieving Sustainable Development Goal 4 (Quality Education).",
+        "Potential model for other states and national policy."
+      ],
+      "quickSummary": "Odisha has unveiled India’s first universal KG-to-PG (Kindergarten to Post-Graduation) free education programme, named ‘Gyanodaya’ scheme. This ambitious initiative aims to provide free education to all eligible students from pre-primary levels up to post-graduate studies, making it the first state in the country to offer such a comprehensive scheme. The programme is designed to significantly boost access to education, reduce financial barriers, and promote equitable learning opportunities across the state.",
+      "detailedAnalysis": "The 'Gyanodaya' scheme is a landmark policy decision by the Odisha government, demonstrating a strong commitment to human capital development. By making education free from KG to PG, the state aims to address issues of school dropouts, particularly at higher education levels, and ensure that financial constraints do not hinder educational pursuits. The scheme will likely involve substantial investment in educational infrastructure, teacher training, and curriculum development to maintain quality alongside increased access. Its success could serve as a blueprint for other states and potentially influence national education policies, especially in the context of the National Education Policy (NEP) 2020.",
+      "backgroundContext": "Education has been a key focus area for state and central governments in India. While primary education is largely free, universal free access up to the post-graduate level is unprecedented. This move by Odisha reflects a progressive approach to social welfare and long-term economic development, recognizing education as a fundamental right and a powerful tool for social mobility.",
+      "strategicImportance": "Investing in universal free education has long-term strategic importance for Odisha and potentially for India. It can lead to a more educated workforce, fostering innovation, entrepreneurship, and economic growth. By reducing inequalities in access to education, it can also contribute to social cohesion and reduce poverty. The scheme's impact on human development indicators will be closely watched.",
+      "staticGkConnection": "National Education Policy (NEP) 2020; Right to Education Act, 2009; Sustainable Development Goal 4 (Quality Education); Literacy rates and educational indicators in India; State government welfare schemes.",
+      "stakeholders": [
+        "Odisha Government",
+        "Students",
+        "Parents",
+        "Educators",
+        "Educational institutions",
+        "Ministry of Education",
+        "NITI Aayog"
+      ],
+      "relatedTopics": [
+        "Education Policy",
+        "Free Education",
+        "Gyanodaya Scheme",
+        "Odisha",
+        "Social Welfare",
+        "Human Development",
+        "NEP 2020",
+        "SDG 4"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Which state launched India's first universal KG-to-PG free education programme?",
+          "What is the name of Odisha's new education scheme?",
+          "Mention one objective of the 'Gyanodaya' scheme."
+        ],
+        "interviewQuestions": [
+          "Discuss the potential benefits and challenges of implementing a universal KG-to-PG free education scheme.",
+          "How does Odisha's 'Gyanodaya' scheme align with the principles of the National Education Policy 2020?",
+          "What role can such initiatives play in achieving India's Sustainable Development Goals?"
+        ],
+        "ssbDiscussionTopics": [
+          "Free education for all: A fundamental right or an economic burden?",
+          "The impact of state-level educational reforms on national development.",
+          "Quality vs. Access in India's education system."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Which Indian state has launched the country's first universal KG-to-PG free education programme?",
+          "options": [
+            "Kerala",
+            "Tamil Nadu",
+            "Odisha",
+            "Maharashtra"
+          ],
+          "correct": 2,
+          "explanation": "Odisha has unveiled India’s first universal KG-to-PG free education programme under the ‘Gyanodaya’ scheme."
+        },
+        {
+          "question": "The name of Odisha's new universal free education scheme is:",
+          "options": [
+            "Shiksha Abhiyan",
+            "Sarva Shiksha",
+            "Gyanodaya",
+            "Vidya Vistar"
+          ],
+          "correct": 2,
+          "explanation": "The scheme is named ‘Gyanodaya’."
+        },
+        {
+          "question": "This scheme is a significant step towards achieving which Sustainable Development Goal (SDG)?",
+          "options": [
+            "SDG 1: No Poverty",
+            "SDG 3: Good Health and Well-being",
+            "SDG 4: Quality Education",
+            "SDG 8: Decent Work and Economic Growth"
+          ],
+          "correct": 2,
+          "explanation": "The scheme directly contributes to SDG 4, which aims to ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-11",
+      "topic": "Defence & Security, Military Exercises",
+      "text": "Andaman and Nicobar Command conducts 'Ex Dweep Shakti 2026', a multi-domain joint warfighting exercise.",
+      "publicationDate": "2026-07-17",
+      "originalSource": "ANDAMAN SHEEKHA",
+      "relatedOfficialDocuments": "",
+      "upscHighlights": [
+        "Major joint military exercise by Andaman and Nicobar Command (ANC).",
+        "Focus on multi-domain joint warfighting capabilities.",
+        "Enhances inter-service synergy and operational readiness.",
+        "Strategic importance of Andaman & Nicobar Islands in the Indo-Pacific.",
+        "Demonstrates India's power projection and defence posture in critical maritime zones."
+      ],
+      "quickSummary": "The Andaman and Nicobar Command (ANC) recently conducted 'Ex Dweep Shakti 2026', a significant multi-domain joint warfighting exercise. This exercise involved assets and personnel from the Army, Navy, and Air Force, focusing on enhancing inter-service synergy, operational readiness, and the ability to conduct complex operations across land, sea, and air. The exercise underscores the strategic importance of the Andaman & Nicobar Islands as a key outpost for India's defence and power projection in the Indo-Pacific region.",
+      "detailedAnalysis": "'Ex Dweep Shakti 2026' is a crucial exercise for the ANC, India's only tri-service command. The multi-domain aspect signifies the integration of various warfare elements, including amphibious landings, air defence, maritime surveillance, and ground operations, all coordinated under a unified command structure. Such exercises are vital for validating operational doctrines, testing new equipment, and refining standard operating procedures for joint operations. The focus on the Andaman & Nicobar Islands highlights their critical role in monitoring maritime traffic, securing sea lanes of communication (SLOCs), and responding to contingencies in the Bay of Bengal and the wider Indo-Pacific.",
+      "backgroundContext": "The Andaman and Nicobar Islands are strategically located at the crossroads of major international shipping lanes. The ANC was established to safeguard India's interests in this vital region. Regular exercises like 'Dweep Shakti' are part of India's broader strategy to strengthen its maritime security, enhance its naval presence, and develop capabilities for integrated operations in a contested environment.",
+      "strategicImportance": "The exercise has immense strategic importance. It sends a clear message about India's commitment to protecting its territorial integrity and maritime interests. By demonstrating robust multi-domain capabilities from the Andaman & Nicobar Islands, India enhances its deterrence posture against potential adversaries and reinforces its role as a net security provider in the Indo-Pacific. It also contributes to the readiness for future integrated theatre commands.",
+      "staticGkConnection": "Andaman and Nicobar Command (ANC) - India's only tri-service command; Strategic location of Andaman & Nicobar Islands; Importance of Sea Lanes of Communication (SLOCs); Types of military exercises (joint, multi-domain); Indo-Pacific region and India's role.",
+      "stakeholders": [
+        "Andaman and Nicobar Command (Indian Army, Indian Navy, Indian Air Force components)",
+        "Ministry of Defence",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Military Exercises",
+        "Joint Operations",
+        "Multi-domain Warfare",
+        "Andaman & Nicobar Islands",
+        "Indo-Pacific",
+        "Maritime Security",
+        "National Security",
+        "Tri-Service Command"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is 'Ex Dweep Shakti 2026'?",
+          "Which Indian command conducted this exercise?",
+          "What is the strategic importance of the Andaman & Nicobar Islands?"
+        ],
+        "interviewQuestions": [
+          "Discuss the significance of multi-domain joint warfighting exercises for India's defence preparedness.",
+          "How does the Andaman and Nicobar Command contribute to India's strategic interests in the Indo-Pacific?",
+          "What are the challenges in conducting integrated operations across different services?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of island territories in India's maritime security strategy.",
+          "Enhancing inter-service synergy in the Indian Armed Forces.",
+          "India's power projection capabilities in the Indo-Pacific."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "'Ex Dweep Shakti 2026' is a multi-domain joint warfighting exercise conducted by which Indian command?",
+          "options": [
+            "Southern Naval Command",
+            "Eastern Air Command",
+            "Andaman and Nicobar Command",
+            "Northern Command"
+          ],
+          "correct": 2,
+          "explanation": "The Andaman and Nicobar Command (ANC) conducted 'Ex Dweep Shakti 2026'."
+        },
+        {
+          "question": "The Andaman and Nicobar Command (ANC) is unique in India because it is:",
+          "options": [
+            "The largest naval command",
+            "The only tri-service command",
+            "Focused solely on air defence",
+            "Responsible for border security with Pakistan"
+          ],
+          "correct": 1,
+          "explanation": "ANC is India's only tri-service (Army, Navy, Air Force) command."
+        },
+        {
+          "question": "The strategic importance of the Andaman & Nicobar Islands primarily lies in their:",
+          "options": [
+            "Agricultural output",
+            "Proximity to major international shipping lanes",
+            "Mountainous terrain for ground warfare",
+            "Large freshwater reserves"
+          ],
+          "correct": 1,
+          "explanation": "The islands are strategically located at the crossroads of major international shipping lanes, vital for maritime security."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-12",
+      "topic": "Economy, Finance, International Relations",
+      "text": "RBI eases investment norms for Non-Resident Indians (NRIs), aiming to boost foreign capital inflow.",
+      "publicationDate": "2026-07-16",
+      "originalSource": "NDTV",
+      "relatedOfficialDocuments": "RBI Circular/Notification",
+      "upscHighlights": [
+        "RBI's policy change to simplify NRI investment.",
+        "Aims to attract more foreign exchange and capital.",
+        "Potential impact on India's balance of payments and economic growth.",
+        "Part of broader efforts to liberalize financial markets.",
+        "Benefits for NRIs seeking investment opportunities in India."
+      ],
+      "quickSummary": "The Reserve Bank of India (RBI) has announced a relaxation of investment norms for Non-Resident Indians (NRIs), making it easier for them to invest in the Indian economy. This move is aimed at attracting greater foreign capital inflow, strengthening the rupee, and boosting economic growth. The simplified regulations are expected to encourage NRIs to channel their remittances and savings into various investment avenues within India, contributing to the nation's financial stability and development.",
+      "detailedAnalysis": "The easing of investment norms for NRIs typically involves simplifying procedures, expanding eligible investment instruments, or relaxing repatriation rules. Such measures are designed to make India a more attractive destination for NRI funds, which represent a significant source of foreign exchange. Increased NRI investment can help bridge the current account deficit, stabilize the rupee, and provide capital for various sectors of the economy. This policy reflects the government's and RBI's commitment to leveraging the Indian diaspora for national economic development and integrating India more deeply into global financial markets.",
+      "backgroundContext": "NRIs have historically been a crucial source of remittances and investment for India. The government periodically reviews and updates policies to facilitate their engagement with the Indian economy. These changes are often influenced by global economic conditions, domestic capital requirements, and the need to maintain a competitive investment environment.",
+      "strategicImportance": "Attracting foreign capital, including from NRIs, is strategically important for India's economic resilience and growth. It reduces reliance on volatile foreign institutional investor (FII) flows, provides stable long-term capital, and helps in financing infrastructure and industrial projects. A robust inflow of NRI investments also signals confidence in the Indian economy, enhancing its global standing.",
+      "staticGkConnection": "Reserve Bank of India (RBI) - functions, monetary policy; Non-Resident Indian (NRI) - definition, investment avenues; Foreign Exchange Management Act (FEMA); Balance of Payments (BoP), Current Account Deficit (CAD); Foreign Direct Investment (FDI) vs. Foreign Portfolio Investment (FPI).",
+      "stakeholders": [
+        "Reserve Bank of India",
+        "Ministry of Finance",
+        "Non-Resident Indians",
+        "Indian financial institutions",
+        "Businesses"
+      ],
+      "relatedTopics": [
+        "Indian Economy",
+        "RBI",
+        "NRI Investments",
+        "Foreign Capital",
+        "Financial Markets",
+        "Economic Policy",
+        "Remittances",
+        "Balance of Payments"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the purpose of RBI easing investment norms for NRIs?",
+          "Mention one benefit of increased NRI investment for the Indian economy.",
+          "What does NRI stand for?"
+        ],
+        "interviewQuestions": [
+          "Discuss how NRI investments contribute to India's economic stability and growth.",
+          "What are the potential challenges in attracting and retaining NRI capital?",
+          "Compare and contrast the impact of NRI investments with other forms of foreign capital inflow."
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Indian diaspora in national development.",
+          "Liberalization of financial markets: Benefits and risks for India.",
+          "Strategies to boost foreign investment in India."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "The Reserve Bank of India (RBI) recently eased investment norms for NRIs primarily to:",
+          "options": [
+            "Discourage foreign investment",
+            "Attract more foreign capital inflow",
+            "Increase domestic borrowing",
+            "Reduce the value of the Indian Rupee"
+          ],
+          "correct": 1,
+          "explanation": "The move is aimed at attracting greater foreign capital inflow and strengthening the rupee."
+        },
+        {
+          "question": "Increased NRI investment is expected to have a positive impact on India's:",
+          "options": [
+            "Current Account Deficit (CAD)",
+            "Fiscal Deficit",
+            "Trade Surplus",
+            "Inflation Rate"
+          ],
+          "correct": 0,
+          "explanation": "Increased foreign capital inflow can help bridge the Current Account Deficit (CAD)."
+        },
+        {
+          "question": "Which of the following is NOT a typical characteristic of NRI investments?",
+          "options": [
+            "Source of foreign exchange",
+            "Often long-term capital",
+            "Contributes to financial stability",
+            "Primarily used for short-term speculation in commodity markets"
+          ],
+          "correct": 3,
+          "explanation": "While some NRI investments might be speculative, the primary aim of easing norms is to attract stable, long-term capital for development, not just short-term speculation."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-13",
+      "topic": "Sports, Olympics, Women Empowerment",
+      "text": "Indian women's cricket team secures a quota for the LA 2028 Olympics via the T20 World Cup pathway.",
+      "publicationDate": "2026-06-29",
+      "originalSource": "olympics.com",
+      "relatedOfficialDocuments": "International Cricket Council (ICC) and International Olympic Committee (IOC) announcements",
+      "upscHighlights": [
+        "Indian women's cricket team qualifies for LA 2028 Olympics.",
+        "Cricket's inclusion in the Olympics (after a long hiatus).",
+        "Signifies growth and recognition of women's cricket.",
+        "Boost for Indian sports and national pride.",
+        "Pathway through T20 World Cup performance."
+      ],
+      "quickSummary": "The Indian women's cricket team has successfully secured a quota for the Los Angeles 2028 Olympic Games, achieving this milestone through their performance in the T20 World Cup pathway. This qualification is significant not only for Indian sports but also for the broader recognition of women's cricket on the global stage, especially with cricket making a return to the Olympics after a long absence. It highlights the team's consistent performance and the growing popularity of the sport.",
+      "detailedAnalysis": "Cricket's inclusion in the Olympics for LA 2028 is a major development for the sport globally. The qualification pathway, often tied to major tournaments like the T20 World Cup, ensures that top-performing teams earn their spot. For the Indian women's team, securing this quota is a testament to their dedication, skill, and the increasing investment in women's cricket in India. This Olympic participation will provide an unparalleled platform for the team, potentially inspiring more young girls to take up the sport and further elevating its status within the country. It also brings a new dimension to India's Olympic aspirations.",
+      "backgroundContext": "Cricket was last played at the Olympics in 1900. Its re-inclusion, particularly in the T20 format, reflects the sport's global appeal and the IOC's efforts to attract younger audiences. The Indian women's team has been a strong contender in international cricket, reaching finals in major tournaments, and this qualification solidifies their position among the elite.",
+      "strategicImportance": "Olympic qualification for cricket has strategic importance for India's sporting ecosystem. It can lead to increased funding, infrastructure development, and talent identification programs for cricket, aligning it more closely with other Olympic sports. For women's cricket, it's a massive boost, potentially leading to greater professionalization and visibility, which in turn can contribute to women's empowerment through sports.",
+      "staticGkConnection": "Olympic Games (history, host cities, sports); Cricket (formats, major tournaments, ICC); Women in sports in India; LA 2028 Olympics.",
+      "stakeholders": [
+        "Indian Women's Cricket Team",
+        "BCCI",
+        "International Olympic Committee (IOC)",
+        "International Cricket Council (ICC)",
+        "Ministry of Youth Affairs and Sports",
+        "Indian Olympic Association (IOA)"
+      ],
+      "relatedTopics": [
+        "Women's Cricket",
+        "LA 2028 Olympics",
+        "Olympic Qualification",
+        "T20 World Cup",
+        "Indian Sports",
+        "Women Empowerment",
+        "Sports Diplomacy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Which Indian sports team recently qualified for the LA 2028 Olympics?",
+          "Through which pathway did the Indian women's cricket team qualify?",
+          "When was cricket last played at the Olympics before its re-inclusion?"
+        ],
+        "interviewQuestions": [
+          "Discuss the significance of cricket's inclusion in the Olympics for India and the sport globally.",
+          "How does the success of the Indian women's cricket team contribute to women's empowerment in India?",
+          "What challenges might the team face in preparing for the Olympic format?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of sports in national pride and international relations.",
+          "Promoting women's participation and success in sports in India.",
+          "The commercialization of sports and its impact on Olympic values."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "The Indian women's cricket team has secured a quota for which upcoming Olympic Games?",
+          "options": [
+            "Paris 2024",
+            "Brisbane 2032",
+            "LA 2028",
+            "Tokyo 2020"
+          ],
+          "correct": 2,
+          "explanation": "The team secured a quota for the Los Angeles (LA) 2028 Olympics."
+        },
+        {
+          "question": "The qualification pathway for the Indian women's cricket team to the Olympics was primarily through their performance in the:",
+          "options": [
+            "ODI World Cup",
+            "Asia Cup",
+            "T20 World Cup",
+            "Commonwealth Games"
+          ],
+          "correct": 2,
+          "explanation": "They qualified via the T20 World Cup pathway."
+        },
+        {
+          "question": "Cricket was last played at the Olympic Games in which year?",
+          "options": [
+            "1900",
+            "1948",
+            "1984",
+            "2000"
+          ],
+          "correct": 0,
+          "explanation": "Cricket was last played at the Olympics in 1900."
+        }
+      ]
+    },
+    {
+      "id": "jul-26-14",
+      "topic": "Sports, National Representation, Women Empowerment",
+      "text": "Olympic medalists Mirabai Chanu and Lovlina Borgohain named India's flag-bearers for the Commonwealth Games 2026 Opening Ceremony.",
+      "publicationDate": "2026-07-18",
+      "originalSource": "livemint.com",
+      "relatedOfficialDocuments": "Indian Olympic Association (IOA) / Commonwealth Games Association of India announcement",
+      "upscHighlights": [
+        "Prominent women athletes chosen as flag-bearers.",
+        "Recognition of Olympic medalists and their achievements.",
+        "Symbolizes India's sporting prowess and gender equality in sports.",
+        "Commonwealth Games 2026 in Glasgow.",
+        "Boosts national morale and inspires young athletes."
+      ],
+      "quickSummary": "Olympic medalists Mirabai Chanu (weightlifting) and Lovlina Borgohain (boxing) have been jointly named as India's flag-bearers for the opening ceremony of the Commonwealth Games 2026 in Glasgow. This prestigious selection recognizes their outstanding achievements on the global stage and highlights India's commitment to promoting women in sports. Their leadership will inspire the Indian contingent and showcase the nation's sporting talent and values at the international event.",
+      "detailedAnalysis": "The selection of two prominent women Olympic medalists as flag-bearers is a powerful statement about India's evolving sports landscape. Mirabai Chanu, a silver medalist in weightlifting, and Lovlina Borgohain, a bronze medalist in boxing, represent excellence and resilience. The flag-bearer role is a high honour, symbolizing the spirit and aspirations of the entire contingent. Their joint appointment also reflects a progressive approach to national representation, emphasizing collective leadership and gender parity. This will undoubtedly motivate the athletes and enhance India's image at the Commonwealth Games.",
+      "backgroundContext": "The Commonwealth Games are a multi-sport event involving athletes from the Commonwealth of Nations. India has a strong presence at these games. The selection of flag-bearers is a carefully considered decision by the Indian Olympic Association (IOA) or the Commonwealth Games Association of India, often choosing athletes who embody national values and have achieved significant international success.",
+      "strategicImportance": "Such appointments are strategically important for national branding and soft power. By showcasing successful women athletes, India reinforces its commitment to gender equality and inspires its youth. It also strengthens India's position in the global sporting arena, demonstrating its capability to produce world-class talent and host major international events in the future.",
+      "staticGkConnection": "Commonwealth Games (history, host cities, sports); Olympic medalists from India (Mirabai Chanu, Lovlina Borgohain); Role of flag-bearers in international sporting events; Sports federations in India (IOA, BCCI, etc.).",
+      "stakeholders": [
+        "Mirabai Chanu",
+        "Lovlina Borgohain",
+        "Indian Olympic Association (IOA)",
+        "Commonwealth Games Federation",
+        "Ministry of Youth Affairs and Sports",
+        "Indian contingent"
+      ],
+      "relatedTopics": [
+        "Commonwealth Games 2026",
+        "Glasgow",
+        "Mirabai Chanu",
+        "Lovlina Borgohain",
+        "Flag Bearer",
+        "Indian Sports",
+        "Women in Sports",
+        "Olympics",
+        "National Pride"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Who are India's flag-bearers for CWG 2026?",
+          "In which sports are Mirabai Chanu and Lovlina Borgohain Olympic medalists?",
+          "Where are the Commonwealth Games 2026 being held?"
+        ],
+        "interviewQuestions": [
+          "Discuss the significance of choosing women Olympic medalists as flag-bearers for a major international event.",
+          "How do individual sporting achievements contribute to national pride and international recognition?",
+          "What role do events like the Commonwealth Games play in promoting sports in India?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of role models in sports for youth development.",
+          "Gender equality in Indian sports: Progress and challenges.",
+          "The impact of international sporting events on national identity."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "Who among the following have been named India's flag-bearers for the Commonwealth Games 2026 Opening Ceremony?",
+          "options": [
+            "PV Sindhu and Neeraj Chopra",
+            "Mirabai Chanu and Lovlina Borgohain",
+            "Saina Nehwal and Mary Kom",
+            "Virat Kohli and Rohit Sharma"
+          ],
+          "correct": 1,
+          "explanation": "Olympic medalists Mirabai Chanu and Lovlina Borgohain were jointly named as flag-bearers."
+        },
+        {
+          "question": "Mirabai Chanu is an Olympic medalist in which sport?",
+          "options": [
+            "Boxing",
+            "Wrestling",
+            "Weightlifting",
+            "Badminton"
+          ],
+          "correct": 2,
+          "explanation": "Mirabai Chanu is a renowned weightlifter."
+        },
+        {
+          "question": "The Commonwealth Games 2026 are scheduled to be held in:",
+          "options": [
+            "Birmingham",
+            "Gold Coast",
+            "Glasgow",
+            "Victoria"
+          ],
+          "correct": 2,
+          "explanation": "The Commonwealth Games 2026 will be held in Glasgow."
+        }
+      ]
+    },
     {
       "id": "ca_live_2026_07_18_0",
       "topic": "Sports",
@@ -4019,6 +6495,805 @@ window.CURRENT_AFFAIRS_DB = {
           "explanation": "The team secured its quota via the T20 World Cup pathway."
         }
       ]
+    },
+    {
+      "id": "ca-2026-07-ins-malwan-commissioning",
+      "topic": "ASW Shallow Water Craft Commissioning",
+      "text": "The Indian Navy is set to commission Malvan, the second of the Mahe-class Anti-Submarine Warfare Shallow Water Craft (ASW-SWC), on 22 July 2026. Built by Cochin Shipyard Limited (CSL), Kochi, with over 80% indigenous content, INS Malwan is a next-generation craft designed to strengthen coastal defence and reflects India's push toward self-reliance in defence manufacturing.",
+      "details": {
+        "ship_name": "INS Malwan",
+        "type": "Anti-Submarine Warfare Shallow Water Craft (ASW-SWC)",
+        "class": "Mahe-class",
+        "commissioning_order": "Second",
+        "commissioning_date": "22 July 2026",
+        "builder": "Cochin Shipyard Limited (CSL), Kochi",
+        "indigenous_content": "Over 80%",
+        "purpose": "Strengthen coastal defence; self-reliance in defence manufacturing."
+      },
+      "mcq": {
+        "question": "In the context of India's maritime capability development, consider the following statements regarding INS Malwan:<br>1. INS Malwan is a next-generation anti-submarine warfare shallow water craft delivered to the Indian Navy to strengthen coastal defence.<br>2. It was built by Cochin Shipyard Limited with more than 80% indigenous content, reflecting India's push towards self-reliance in defence manufacturing.<br>Which of the statements given above is/are correct?",
+        "options": [
+          "1. Both 1 and 2",
+          "2. 1 only",
+          "3. 2 only",
+          "4. Neither 1 nor 2"
+        ],
+        "answer": "1. Both 1 and 2",
+        "explanation": "As per the information on page 15, INS Malwan is a next-generation anti-submarine warfare shallow water craft delivered to the Indian Navy for coastal defence (Statement 1). It was built by Cochin Shipyard Limited with over 80% indigenous content (Statement 2). Therefore, both statements are correct."
+      }
+    }
+  ],
+  "Ongoing": [
+    {
+      "id": "strait-of-hormuz-news",
+      "topic": "Geography in News: Strait of Hormuz",
+      "text": "The Strait of Hormuz, a critical geopolitical chokepoint, connects the Gulf of Oman and the Persian Gulf. Iran, a key country bordering the strait, has its capital in Tehran and uses the Rial as its currency. Iran holds significant global energy reserves, accounting for 10% of the world's oil reserves and 15% of its gas reserves. The strait itself is approximately 3 km wide and is crucial for global oil transit, with about 20% of the world's oil passing through it.",
+      "details": {
+        "countries_involved": [
+          "Iran",
+          "Iraq",
+          "Kuwait",
+          "Saudi Arabia",
+          "Bahrain",
+          "Qatar",
+          "UAE",
+          "Oman"
+        ],
+        "water_bodies": [
+          "Persian Gulf",
+          "Gulf of Oman",
+          "Arabian Sea"
+        ],
+        "iran_details": {
+          "capital": "Tehran",
+          "currency": "Rial",
+          "oil_reserve_percentage": 10,
+          "gas_reserve_percentage": 15
+        },
+        "strait_width_km": 3,
+        "global_oil_transit_percentage": 20
+      },
+      "mcq": null
+    },
+    {
+      "id": "mcq-abhilasha-barak",
+      "topic": "AFCAT PYQ: Major Abhilasha Barak",
+      "text": "Multiple Choice Question regarding Major Abhilasha Barak and UN awards.",
+      "details": {},
+      "mcq": {
+        "question": "Consider the following statements regarding Major Abhilasha Barak:\n1. She has been named the recipient of the 2025 United Nations Military Gender Advocate of the Year Award.\n2. She is the first woman combat helicopter pilot of the Indian Army.\n3. She is the second Indian peacekeeper to receive this prestigious award, following Major Radhika Sen.\nWhich of the statements given above are correct?",
+        "options": [
+          "1. Only 1 and 2",
+          "2. Only 2 and 3",
+          "3. Only 1 and 3",
+          "4. 1, 2 and 3"
+        ],
+        "answer": "1. Only 1 and 2",
+        "explanation": "Statement 1 is correct: Major Abhilasha Barak received the 2025 United Nations Military Gender Advocate of the Year Award. Statement 2 is correct: She is indeed the first woman combat helicopter pilot of the Indian Army. Statement 3 is incorrect: Major Radhika Sen was the second Indian peacekeeper to receive the UN Military Gender Advocate of the Year Award (in 2023), following Major Suman Gawani (in 2019). Major Abhilasha Barak is the third Indian peacekeeper to receive this award."
+      }
+    },
+    {
+      "id": "mcq-gallantry-awards-1",
+      "topic": "AFCAT PYQ: Gallantry Awards",
+      "text": "Multiple Choice Question regarding Indian Gallantry Awards.",
+      "details": {},
+      "mcq": {
+        "question": "Consider the following sentences:\n1. Captain Vikram Batra, hero of Operation Vijay during the Kargil conflict, was posthumously awarded PVC gallantry award for extraordinary bravery.\n2. Company Havildar Major Piru Singh Shekhawat was the first person from Rajasthan to be honored with the Param Vir Chakra, India's highest military decoration.\n3. The Param Vir Chakra, Ashoka Chakra, and Vir Chakra, which are among India's highest military honours, are usually presented during the Republic Day celebrations.\nWhich of the following is/are correct?",
+        "options": [
+          "1. Only 1 and 3",
+          "2. Only 3",
+          "3. All 1, 2 and 3",
+          "4. Only 1 and 2"
+        ],
+        "answer": "3. All 1, 2 and 3",
+        "explanation": "Statement 1 is correct: Captain Vikram Batra was posthumously awarded the Param Vir Chakra for his bravery in the Kargil conflict. Statement 2 is correct: Company Havildar Major Piru Singh Shekhawat was indeed the first recipient of the Param Vir Chakra from Rajasthan. Statement 3 is correct: India's highest military honors, including the Param Vir Chakra, Ashoka Chakra, and Vir Chakra, are traditionally presented during the Republic Day celebrations. Additionally, the first overall recipient of the Param Vir Chakra was Major Somnath Sharma, and the only IAF recipient of the Param Vir Chakra was Flying Officer Nirmal Jit Singh Sekhon."
+      }
+    },
+    {
+      "id": "mcq-gallantry-awards-2",
+      "topic": "AFCAT PYQ: Gallantry Awards and Naval Achievements",
+      "text": "Multiple Choice Question regarding Indian Gallantry Awards and naval achievements.",
+      "details": {},
+      "mcq": {
+        "question": "Consider the following sentences:\n1. Shubhanshu Shukla was awarded the Ashoka Chakra.\n2. Arshdeep Singh was honored with the Kirti Chakra. The Kirti Chakra is the second-highest peacetime gallantry award, awarded for conspicuous bravery or self-sacrifice.\n3. Dilna K received the Shaurya Chakra. The Shaurya Chakra is the third-highest peacetime gallantry medal.\n4. Aditya Shrikumar was awarded the Sena Medal (Gallantry), which is a decoration awarded to members of the Indian Army for acts of exceptional bravery in the field.\nWhich of the following sentences is/are correct?",
+        "options": [
+          "1. Only 1 and 4",
+          "2. Only 3",
+          "3. Only 1 and 2",
+          "4. All of the above"
+        ],
+        "answer": "4. All of the above",
+        "explanation": "Statement 1 is incorrect: Shubhanshu Shukla was awarded the Kirti Chakra, not the Ashoka Chakra. Statement 2 is incorrect: Arshdeep Singh was awarded the Shaurya Chakra, not the Kirti Chakra. However, the definition of Kirti Chakra as the second-highest peacetime gallantry award is correct. Statement 3 is correct: Dilna K received the Shaurya Chakra, which is the third-highest peacetime gallantry medal. Statement 4 is correct: Aditya Shrikumar was awarded the Sena Medal (Gallantry) for exceptional bravery in the field. Given the marked answer 'All of the above' in the source, there might be a discrepancy with factual information for statements 1 and 2, or the question intends to test the definitions of the awards rather than the specific recipients for statements 1 and 2. Based on the provided image's marked answer, all statements are considered correct in that context."
+      }
+    },
+    {
+      "id": "mcq-air-exercises-1",
+      "topic": "AFCAT PYQ: Air Exercises Matching",
+      "text": "Multiple Choice Question to match Air Exercises with their participating countries.",
+      "details": {},
+      "mcq": {
+        "question": "Match List-I (Air Exercise) with List-II (Participating Countries) and select the correct option.\nList-I (Air Exercise)\n(A) Exercise Indradhanush\n(B) Exercise Desert Knight\n(C) Exercise Eastern Bridge\n(D) Exercise Veer Guardian\nList-II (Participating Countries)\n(I) India and Japan\n(II) India and Oman\n(III) India and United Kingdom\n(IV) India, France and United Arab Emirates",
+        "options": [
+          "1. A-IV B-III C-I D-II",
+          "2. A-III B-II C-IV D-I",
+          "3. A-I B-IV C-III D-II",
+          "4. A-III B-IV C-II D-I"
+        ],
+        "answer": "4. A-III B-IV C-II D-I",
+        "explanation": "The correct matches are:\n(A) Exercise Indradhanush - (III) India and United Kingdom\n(B) Exercise Desert Knight - (IV) India, France and United Arab Emirates\n(C) Exercise Eastern Bridge - (II) India and Oman\n(D) Exercise Veer Guardian - (I) India and Japan"
+      }
+    },
+    {
+      "id": "mcq-air-exercises-2",
+      "topic": "AFCAT PYQ: Air Exercises Matching",
+      "text": "Multiple Choice Question to match Air Exercises with their participating countries.",
+      "details": {},
+      "mcq": {
+        "question": "Match List-I (Air Exercise) with List-II (Participating Countries) and select the correct option.\nList-I (Exercise)\n(A) Exercise Garuda\n(B) Exercise Pitch Black\n(C) Exercise INDRA\n(D) Exercise Cope India\nList-II (Participating Countries)\n(I) India and Australia\n(II) India and Russia\n(III) India and France\n(IV) India and United States",
+        "options": [
+          "1. A-III B-I C-II D-IV",
+          "2. A-II B-III C-IV D-I",
+          "3. A-IV B-II C-I D-III",
+          "4. A-I B-IV C-III D-II"
+        ],
+        "answer": "1. A-III B-I C-II D-IV",
+        "explanation": "The correct matches are:\n(A) Exercise Garuda - (III) India and France\n(B) Exercise Pitch Black - (I) India and Australia\n(C) Exercise INDRA - (II) India and Russia\n(D) Exercise Cope India - (IV) India and United States"
+      }
+    },
+    {
+      "id": "mcq-military-exercises-1",
+      "topic": "AFCAT PYQ: Military Exercises Matching",
+      "text": "Multiple Choice Question to match Military Exercises with their participating countries.",
+      "details": {},
+      "mcq": {
+        "question": "Match List-I (Military Exercise) with List-II (Participating Countries) and select the correct option.\nList-I (Military Exercise)\n(A) Exercise Yudh Abhyas\n(B) Exercise Dharma Guardian\n(C) Exercise Mitra Shakti\n(D) Exercise Nomadic Elephant\nList-II (Participating Countries)\n(I) India and Sri Lanka\n(II) India and United States\n(III) India and Japan\n(IV) India and Mongoli",
+        "options": [
+          "1. A-II B-III C-I D-IV",
+          "2. A-III B-IV C-II D-I",
+          "3. A-I B-II C-V D-III",
+          "4. A-IV B-I C-III D-II"
+        ],
+        "answer": "1. A-II B-III C-I D-IV",
+        "explanation": "The correct matches are:\n(A) Exercise Yudh Abhyas - (II) India and United States\n(B) Exercise Dharma Guardian - (III) India and Japan\n(C) Exercise Mitra Shakti - (I) India and Sri Lanka\n(D) Exercise Nomadic Elephant - (IV) India and Mongoli"
+      }
+    },
+    {
+      "id": "BrahMos-Sukhoi-Integration",
+      "topic": "Air Force Capability Enhancement",
+      "text": "The Indian Air Force has equipped 40 Sukhoi Su-30MKI fighter jets with the air-launched BrahMos supersonic cruise missile, significantly enhancing India's long-range precision strike capability.",
+      "details": {
+        "aircraft": "Sukhoi Su-30MKI",
+        "missile": "BrahMos supersonic cruise missile",
+        "quantity_equipped": "40 fighter jets"
+      },
+      "mcq": {
+        "question": "Which missile has been equipped on 40 Sukhoi Su-30MKI fighter jets by the Indian Air Force to enhance long-range precision strike capability?",
+        "options": [
+          "Agni-3",
+          "VL-Shtil",
+          "BrahMos",
+          "ULPGM-V3"
+        ],
+        "answer": "BrahMos",
+        "explanation": "The Indian Air Force has equipped 40 Sukhoi Su-30MKI fighter jets with the air-launched BrahMos supersonic cruise missile."
+      }
+    },
+    {
+      "id": "Kalam-Kavach-Conference-2026",
+      "topic": "Defence Conference",
+      "text": "The third edition of the Kalam & Kavach strategic defence conference was inaugurated at the Manekshaw Centre in New Delhi by Raksha Rajya Mantri Shri Sanjay Seth. The conference focused on the vision of Jointness, Aatmanirbharta, and Innovation (JAI), while promoting indigenisation and international collaboration in defence technologies.",
+      "details": {
+        "conference_name": "Kalam & Kavach strategic defence conference",
+        "edition": "Third",
+        "inaugurated_by": "Raksha Rajya Mantri Shri Sanjay Seth",
+        "location": "Manekshaw Centre, New Delhi",
+        "focus_areas": [
+          "Jointness",
+          "Aatmanirbharta",
+          "Innovation (JAI)",
+          "Indigenisation",
+          "International collaboration in defence technologies"
+        ]
+      },
+      "mcq": {
+        "question": "Who inaugurated the third edition of the Kalam & Kavach strategic defence conference in New Delhi?",
+        "options": [
+          "Raksha Mantri Rajnath Singh",
+          "Raksha Rajya Mantri Shri Sanjay Seth",
+          "Chief of Defence Staff General Anil Chauhan",
+          "Prime Minister Shri Narendra Modi"
+        ],
+        "answer": "Raksha Rajya Mantri Shri Sanjay Seth",
+        "explanation": "The third edition of the Kalam & Kavach strategic defence conference was inaugurated at the Manekshaw Centre in New Delhi by Raksha Rajya Mantri Shri Sanjay Seth."
+      }
+    },
+    {
+      "id": "Nausena-Shaurya-Vatika-Inauguration",
+      "topic": "Naval Heritage",
+      "text": "The Nausena Shaurya Vatika naval museum was inaugurated in Lucknow by Raksha Mantri Rajnath Singh and Uttar Pradesh Chief Minister Yogi Adityanath. Developed as an open-air museum, it showcases important naval artefacts and weapon systems from the decommissioned warship INS Gomati.",
+      "details": {
+        "museum_name": "Nausena Shaurya Vatika",
+        "location": "Lucknow",
+        "inaugurated_by": [
+          "Raksha Mantri Rajnath Singh",
+          "Uttar Pradesh Chief Minister Yogi Adityanath"
+        ],
+        "features": "Open-air museum, showcases naval artefacts and weapon systems from INS Gomati"
+      },
+      "mcq": {
+        "question": "The Nausena Shaurya Vatika naval museum, inaugurated in Lucknow, showcases artefacts from which decommissioned warship?",
+        "options": [
+          "INS Vikrant",
+          "INS Viraat",
+          "INS Gomati",
+          "INS Rajput"
+        ],
+        "answer": "INS Gomati",
+        "explanation": "The Nausena Shaurya Vatika naval museum showcases important naval artefacts and weapon systems from the decommissioned warship INS Gomati."
+      }
+    },
+    {
+      "id": "Arahant-Relics-Mongolia-Transport",
+      "topic": "Cultural Diplomacy",
+      "text": "The Indian Air Force transported the sacred relics of Arahant Sariputta and Arahant Mahamoggallana to Mongolia using its IL-76 strategic airlift aircraft, popularly known as Gajraj. These relics belong to the two chief disciples of Gautama Buddha and hold immense significance in Buddhist traditions.",
+      "details": {
+        "relics_of": [
+          "Arahant Sariputta",
+          "Arahant Mahamoggallana"
+        ],
+        "transported_by": "Indian Air Force",
+        "aircraft_used": "IL-76 strategic airlift aircraft (Gajraj)",
+        "destination": "Mongolia"
+      },
+      "mcq": {
+        "question": "Which aircraft, popularly known as Gajraj, was used by the Indian Air Force to transport the sacred relics of Arahant Sariputta and Arahant Mahamoggallana to Mongolia?",
+        "options": [
+          "C295",
+          "Dornier 228",
+          "IL-76",
+          "ALH Dhruv"
+        ],
+        "answer": "IL-76",
+        "explanation": "The Indian Air Force transported the sacred relics to Mongolia using its IL-76 strategic airlift aircraft, popularly known as Gajraj."
+      }
+    },
+    {
+      "id": "Dornier-228-Procurement-2026",
+      "topic": "Defence Procurement",
+      "text": "The Ministry of Defence has signed a contract with Hindustan Aeronautics Limited (HAL), Transport Aircraft Division, Kanpur for the acquisition of eight Dornier 228 Aircraft along with Operational Role Equipment for the Indian Coast Guard (ICG) at a cost of Rs 2,312 crore under Buy (Indian) category.",
+      "details": {
+        "aircraft_type": "Dornier 228 Aircraft",
+        "quantity": "Eight",
+        "recipient": "Indian Coast Guard (ICG)",
+        "manufacturer": "Hindustan Aeronautics Limited (HAL)",
+        "cost": "Rs 2,312 crore",
+        "category": "Buy (Indian)"
+      },
+      "mcq": {
+        "question": "For which organization were eight Dornier 228 Aircraft procured by the Ministry of Defence from HAL?",
+        "options": [
+          "Indian Air Force",
+          "Indian Navy",
+          "Indian Coast Guard",
+          "Border Security Force"
+        ],
+        "answer": "Indian Coast Guard",
+        "explanation": "The Ministry of Defence signed a contract for the acquisition of eight Dornier 228 Aircraft for the Indian Coast Guard (ICG)."
+      }
+    },
+    {
+      "id": "Airbus-H125-FAL-Inauguration",
+      "topic": "Defence Manufacturing",
+      "text": "Prime Minister Shri Narendra Modi and French President Mr Emmanuel Macron virtually inaugurated the Tata Advanced Systems Final Assembly Line of the Airbus H-125 Light Utility Helicopter, located at Vemagal, Karnataka.",
+      "details": {
+        "aircraft_type": "Airbus H-125 Light Utility Helicopter",
+        "facility": "Final Assembly Line (FAL)",
+        "location": "Vemagal, Karnataka",
+        "inaugurated_by": [
+          "Prime Minister Shri Narendra Modi",
+          "French President Mr Emmanuel Macron"
+        ],
+        "manufacturer": "Tata Advanced Systems"
+      },
+      "mcq": {
+        "question": "The Tata Advanced Systems Final Assembly Line for the Airbus H-125 Light Utility Helicopter was virtually inaugurated at which location?",
+        "options": [
+          "Hyderabad, Telangana",
+          "Nagpur, Maharashtra",
+          "Vemagal, Karnataka",
+          "Kanpur, Uttar Pradesh"
+        ],
+        "answer": "Vemagal, Karnataka",
+        "explanation": "The Tata Advanced Systems Final Assembly Line of the Airbus H-125 Light Utility Helicopter is located at Vemagal, Karnataka."
+      }
+    },
+    {
+      "id": "Gaganyaan-Drogue-Parachute-Test",
+      "topic": "Space Program",
+      "text": "India's human spaceflight program (Gaganyaan) marked a milestone with the successful qualification load test of the Drogue Parachute for the Gaganyaan program at the DRDO's RTRS facility in Chandigarh. RTRS is a specialized facility for high-speed aerodynamic and ballistic evaluations.",
+      "details": {
+        "program": "Gaganyaan (human spaceflight)",
+        "milestone": "Successful qualification load test of Drogue Parachute",
+        "test_location": "DRDO's RTRS facility in Chandigarh",
+        "rtrs_function": "Specialized facility for high-speed aerodynamic and ballistic evaluations"
+      },
+      "mcq": {
+        "question": "The successful qualification load test of the Drogue Parachute for the Gaganyaan program was conducted at DRDO's RTRS facility in which city?",
+        "options": [
+          "Bengaluru",
+          "Hyderabad",
+          "Chandigarh",
+          "Thiruvananthapuram"
+        ],
+        "answer": "Chandigarh",
+        "explanation": "The test was conducted at the DRDO's RTRS facility in Chandigarh."
+      }
+    },
+    {
+      "id": "Mt-Aconcagua-Summit-NIM-JIMWS",
+      "topic": "Mountaineering",
+      "text": "A six-member team from the Nehru Institute of Mountaineering (NIM), Uttarkashi and the Jawahar Institute of Mountaineering & Winter Sports (JIM&WS), Pahalgam successfully summited Mt. Aconcagua, the highest peak in South America and the second-highest peak in the world outside of Asia.",
+      "details": {
+        "peak_summited": "Mt. Aconcagua",
+        "location": "South America",
+        "significance": "Highest peak in South America, second-highest in the world outside of Asia",
+        "teams": [
+          "Nehru Institute of Mountaineering (NIM), Uttarkashi",
+          "Jawahar Institute of Mountaineering & Winter Sports (JIM&WS), Pahalgam"
+        ]
+      },
+      "mcq": {
+        "question": "Which mountain, the highest peak in South America, was successfully summited by a team from NIM and JIM&WS?",
+        "options": [
+          "Mt. Everest",
+          "Mt. Kilimanjaro",
+          "Mt. Aconcagua",
+          "Mt. Denali"
+        ],
+        "answer": "Mt. Aconcagua",
+        "explanation": "A six-member team from NIM and JIM&WS successfully summited Mt. Aconcagua, the highest peak in South America."
+      }
+    },
+    {
+      "id": "Chungthang-Lachen-Axis-Bridge-Inauguration",
+      "topic": "Infrastructure Development",
+      "text": "Raksha Rajya Mantri Shri Sanjay Seth inaugurated the Chungthang - Lachen axis and a 400 ft Bailey Suspension Taram Chu Bridge in North Sikkim, restored by the Border Roads Organisation (BRO). This marks a significant achievement in post-disaster recovery efforts following severe events in recent years.",
+      "details": {
+        "inaugurated_by": "Raksha Rajya Mantri Shri Sanjay Seth",
+        "project_components": [
+          "Chungthang - Lachen axis",
+          "400 ft Bailey Suspension Taram Chu Bridge"
+        ],
+        "location": "North Sikkim",
+        "restored_by": "Border Roads Organisation (BRO)",
+        "context": "Post-disaster recovery efforts"
+      },
+      "mcq": {
+        "question": "Raksha Rajya Mantri Shri Sanjay Seth inaugurated the restored Taram Chu Bridge in which Indian state?",
+        "options": [
+          "Arunachal Pradesh",
+          "Assam",
+          "Sikkim",
+          "Uttarakhand"
+        ],
+        "answer": "Sikkim",
+        "explanation": "Raksha Rajya Mantri Shri Sanjay Seth inaugurated the Chungthang - Lachen axis and a 400 ft Bailey Suspension Taram Chu Bridge in North Sikkim."
+      }
+    },
+    {
+      "id": "Tunguska-P8I-Procurement",
+      "topic": "Defence Procurement",
+      "text": "The Ministry of Defence has signed contracts, worth a total of Rs 858 crore, for the procurement of Tunguska Air Defence Missile System and Inspection (Depot Level) of P8I Long-Range Maritime Reconnaissance Aircraft.",
+      "details": {
+        "contract_value": "Rs 858 crore",
+        "items_procured": [
+          "Tunguska Air Defence Missile System",
+          "Inspection (Depot Level) of P8I Long-Range Maritime Reconnaissance Aircraft"
+        ],
+        "recipient_branches": [
+          "Army/Air Force (for Tunguska)",
+          "Navy (for P8I maintenance)"
+        ]
+      },
+      "mcq": {
+        "question": "What is the total value of contracts signed by the Ministry of Defence for the procurement of Tunguska Air Defence Missile System and P8I aircraft inspection?",
+        "options": [
+          "Rs 5,083 crore",
+          "Rs 2,312 crore",
+          "Rs 858 crore",
+          "Rs 1,950 crore"
+        ],
+        "answer": "Rs 858 crore",
+        "explanation": "The Ministry of Defence has signed contracts worth a total of Rs 858 crore for the procurement of Tunguska Air Defence Missile System and Inspection (Depot Level) of P8I Long-Range Maritime Reconnaissance Aircraft."
+      }
+    }
+  ],
+  "Undated 2026": [
+    {
+      "id": "ca-2026-ins-sunayna-male",
+      "topic": "Maritime Ties and SAGAR Initiative",
+      "text": "Indian Navy's offshore patrol vessel INS Sunayna arrived at Malé, Maldives, under the Indian Ocean Ship (IOS) SAGAR initiative. This visit aims to strengthen India-Maldives maritime ties and aligns with India's 'Neighbourhood First' policy and the Mutual and Holistic Advancement for Security and Growth Across Regions (MAHASAGAR) vision.",
+      "details": {
+        "ship_name": "INS Sunayna",
+        "type": "Offshore patrol vessel",
+        "location": "Malé, Maldives",
+        "initiative": "Indian Ocean Ship (IOS) SAGAR",
+        "policy_alignment": "'Neighbourhood First' policy, MAHASAGAR vision."
+      },
+      "mcq": {
+        "question": "Which Indian Navy offshore patrol vessel arrived at Malé, Maldives, under the Indian Ocean Ship (IOS) SAGAR initiative to strengthen India-Maldives maritime cooperation?",
+        "options": [
+          "1. INS Shivalik",
+          "2. INS Sumedha",
+          "3. INS Kiltan",
+          "4. INS Sunayna"
+        ],
+        "answer": "4. INS Sunayna",
+        "explanation": "As per the information on page 5, INS Sunayna is the offshore patrol vessel that arrived at Malé, Maldives, under the IOS SAGAR initiative to strengthen India-Maldives maritime cooperation."
+      }
+    },
+    {
+      "id": "ca-2026-ins-udaygiri-kavaratti-vietnam",
+      "topic": "Operational Deployment",
+      "text": "INS Udaygiri and INS Kavaratti concluded their port call in Vietnam as part of India's operational deployment in the Southeast Asia region.",
+      "details": {
+        "ship_names": [
+          "INS Udaygiri",
+          "INS Kavaratti"
+        ],
+        "location": "Vietnam",
+        "event": "Port Call",
+        "purpose": "Part of India's operational deployment in the Southeast Asia region."
+      },
+      "mcq": {
+        "question": "Which two Indian Navy vessels recently concluded their port call in Vietnam as part of India's operational deployment in the Southeast Asia region?",
+        "options": [
+          "1. INS Udaygiri and INS Kavaratti",
+          "2. INS Shivalik and INS Kamorta",
+          "3. INS Kolkata and INS Chennai",
+          "4. INS Vikrant and INS Visakhapatnam"
+        ],
+        "answer": "1. INS Udaygiri and INS Kavaratti",
+        "explanation": "As per the information on page 9, INS Udaygiri and INS Kavaratti concluded their port call in Vietnam as part of India's operational deployment in the Southeast Asia region."
+      }
+    },
+    {
+      "id": "ca-2026-ins-agray-dunagiri-sanshodhak-launch",
+      "topic": "Indigenous Naval Vessel Launch",
+      "text": "Prime Minister Narendra Modi launched three indigenous naval vessels—INS Agray, INS Dunagiri, and INS Sanshodhak—at Syama Prasad Mookerjee Port in Kolkata. This event significantly enhances India's naval capabilities.",
+      "details": {
+        "ship_names": [
+          "INS Agray",
+          "INS Dunagiri",
+          "INS Sanshodhak"
+        ],
+        "event": "Launch",
+        "location": "Syama Prasad Mookerjee Port, Kolkata",
+        "launched_by": "Prime Minister Narendra Modi",
+        "significance": "Enhances India's naval capabilities; indigenous vessels."
+      },
+      "mcq": {
+        "question": "Which of the following indigenous naval vessels was launched by Prime Minister Narendra Modi at Shyama Prasad Mookerjee Port, Kolkata?",
+        "options": [
+          "1. INS Kiltan, INS Kamorta and INS Kadmatt",
+          "2. INS Nilgiri, INS Kavaratti and INS Sandhayak",
+          "3. INS Vikrant, INS Visakhapatnam and INS Mormugao",
+          "4. INS Agray, INS Dunagiri and INS Sanshodhak"
+        ],
+        "answer": "4. INS Agray, INS Dunagiri and INS Sanshodhak",
+        "explanation": "As per the information on page 11, Prime Minister Narendra Modi launched INS Agray, INS Dunagiri, and INS Sanshodhak at Syama Prasad Mookerjee Port in Kolkata."
+      }
+    },
+    {
+      "id": "ca-2026-ins-aridhaman-commissioning",
+      "topic": "Nuclear Submarine Commissioning",
+      "text": "INS Aridhaman was commissioned as India's third indigenous nuclear-powered ballistic missile submarine. It belongs to the Arihant-class submarines and was developed under the Advanced Technology Vessel (ATV) project. The submarine was built at the Ship Building Centre in Visakhapatnam.",
+      "details": {
+        "ship_name": "INS Aridhaman",
+        "type": "Nuclear-powered ballistic missile submarine",
+        "class": "Arihant-class",
+        "status": "Commissioned (third indigenous)",
+        "project": "Advanced Technology Vessel (ATV) project",
+        "builder": "Ship Building Centre, Visakhapatnam."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-ins-taragiri-commissioning",
+      "topic": "Stealth Frigate Commissioning",
+      "text": "Visakhapatnam is the location where INS Taragiri, the fifth Project 17A stealth frigate of the Indian Navy, was officially commissioned. It was designed by the Navy's Warship Design Bureau and built by Mazagon Dock Shipbuilders Limited.",
+      "details": {
+        "ship_name": "INS Taragiri",
+        "type": "Project 17A stealth frigate",
+        "commissioning_order": "Fifth",
+        "location": "Visakhapatnam",
+        "designer": "Navy's Warship Design Bureau",
+        "builder": "Mazagon Dock Shipbuilders Limited."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-ins-dunagiri-delivery",
+      "topic": "Indigenous Stealth Frigate Delivery",
+      "text": "INS Dunagiri, an indigenous stealth frigate, was delivered to the Indian Navy. It is part of Project 17A, representing the Nilgiri class of advanced warships, and was built by Garden Reach Shipbuilders and Engineers in Kolkata.",
+      "details": {
+        "ship_name": "INS Dunagiri",
+        "type": "Indigenous stealth frigate",
+        "project": "Project 17A (Nilgiri class)",
+        "builder": "Garden Reach Shipbuilders and Engineers, Kolkata."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-2026-ins-trikand-pyq",
+      "topic": "Naval Engagements",
+      "text": "INS Trikand is a frontline guided missile frigate of the Indian Navy. Its deployment is aimed at enhancing India's maritime cooperation and presence in the Indian Ocean Region.",
+      "details": {
+        "ship_name": "INS Trikand",
+        "type": "Frontline guided missile frigate",
+        "deployment_aim": "Enhancing India's maritime cooperation and presence in the Indian Ocean Region"
+      },
+      "mcq": {
+        "question": "In the context of India's maritime engagements, consider the following statements regarding INS Trikand:<br>1. INS Trikand is a frontline guided missile frigate of the Indian Navy.<br>2. It arrived at Maputo, Mozambique, as part of its operational deployment in the South West Indian Ocean Region.<br>3. The deployment is aimed at enhancing India's maritime cooperation and presence in the Indian Ocean Region.<br>Which of the statements given above is/are correct?",
+        "options": [
+          "1. 1 and 2 only",
+          "2. 2 and 3 only",
+          "3. 1 and 3 only",
+          "4. 1, 2 and 3"
+        ],
+        "answer": "3. 1 and 3 only",
+        "explanation": "As per the information on page 2, INS Trikand is a frontline guided missile frigate (Statement 1 is correct). It concluded its port call at Mombasa, Kenya, not Maputo, Mozambique (Statement 2 is incorrect). The deployment reflects India's vision of MAHASAGAR, aiming to strengthen camaraderie, mutual cooperation, and bilateral relations, which aligns with enhancing maritime cooperation and presence in the Indian Ocean Region (Statement 3 is correct)."
+      }
+    }
+  ],
+  "October 2010": [
+    {
+      "id": "ca-2010-10-ins-kalpeni-commissioning-visit",
+      "topic": "Maritime Cooperation and Fast Attack Craft",
+      "text": "INS Kalpeni, a fast attack craft of the Indian Navy, recently visited Gan, strengthening India-Maldives maritime cooperation. It belongs to the Car Nicobar-class Waterjet Fast Attack Craft, was built by Garden Reach Shipbuilders and Engineers, and commissioned on 14 October 2010. The ship is named after Kalpeni Island of Lakshadweep.",
+      "details": {
+        "ship_name": "INS Kalpeni",
+        "type": "Fast attack craft (Waterjet Fast Attack Craft)",
+        "class": "Car Nicobar-class",
+        "location": "Gan",
+        "commissioning_date": "14 October 2010",
+        "builder": "Garden Reach Shipbuilders and Engineers",
+        "named_after": "Kalpeni Island of Lakshadweep."
+      },
+      "mcq": {
+        "question": "Based on the given information which of the following option is correct about Indian naval vessel?<br>Statements:<br>1. It is a fast attack craft of the Indian Navy.<br>2. It belongs to the Car Nicobar-class Waterjet Fast Attack Craft.<br>3. It was built by Garden Reach Shipbuilders and Engineers.<br>4. It was commissioned in 2010",
+        "options": [
+          "1. INS Kirpan",
+          "2. INS Kalpeni",
+          "3. INS Kalpana",
+          "4. INS Karuna"
+        ],
+        "answer": "2. INS Kalpeni",
+        "explanation": "As per the information on page 18, INS Kalpeni is a fast attack craft of the Indian Navy, belongs to the Car Nicobar-class Waterjet Fast Attack Craft, was built by Garden Reach Shipbuilders and Engineers, and was commissioned on 14 October 2010. All statements accurately describe INS Kalpeni."
+      }
+    }
+  ],
+  "December 2025": [
+    {
+      "id": "ca-2025-12-indian-naval-sailing-vessel-pyq",
+      "topic": "Ancient Maritime Heritage Revival",
+      "text": "An Indian Navy vessel, an indigenously built traditional stitched sailing ship, undertook its maiden overseas voyage from Porbandar to Muscat in December 2025 to revive and celebrate India's ancient maritime heritage.",
+      "details": {
+        "event": "Maiden overseas voyage",
+        "route": "Porbandar to Muscat",
+        "date": "December 2025",
+        "purpose": "Revive and celebrate India's ancient maritime heritage",
+        "ship_type": "Indigenously built traditional stitched sailing ship"
+      },
+      "mcq": {
+        "question": "Which Indian Navy vessel, an indigenously built traditional stitched sailing ship, undertook its maiden overseas voyage from Porbandar to Muscat in December 2025 to revive and celebrate India's ancient maritime heritage?",
+        "options": [
+          "1. Indian Naval Sailing Vessel Kaundinya",
+          "2. Indian Naval Sailing Vessel Sudarshini",
+          "3. Indian Naval Sailing Vessel Tarangini",
+          "4. Indian Naval Sailing Vessel Mhadei"
+        ],
+        "answer": "",
+        "explanation": ""
+      }
+    }
+  ],
+  "Unknown": [
+    {
+      "id": "operation-pawan-srilanka",
+      "topic": "Operation Pawan",
+      "text": "Operation Pawan was conducted in Sri Lanka.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "operation-shakti",
+      "topic": "Operation Shakti",
+      "text": "Operation Shakti was conducted.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "operation-samudra-setu",
+      "topic": "Operation Samudra Setu",
+      "text": "Operation Samudra Setu was conducted.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "operation-urja-suraksha",
+      "topic": "Operation Urja Suraksha",
+      "text": "The Indian Navy launched Operation Urja Suraksha to protect India's energy supply routes in the strategically important Strait of Hormuz amid rising geopolitical tensions in West Asia.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "operation-amistad-venezuela",
+      "topic": "Operation Amistad",
+      "text": "Operation Amistad is India's humanitarian mission to aid Venezuela after an earthquake. The mission includes relief supplies, medical equipment, portable hospitals, and rescue teams under a HADR framework. The Indian Air Force used C-17 Globemaster aircraft for transporting aid and personnel.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "indian-army-ladakh-forest-department-mou",
+      "topic": "Indian Army and Ladakh Forest Department MoU",
+      "text": "The Indian Army and the Ladakh Forest Department signed a Memorandum of Understanding to strengthen wildlife conservation efforts in fragile high-altitude ecosystems.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "bel-mountain-radars-contract",
+      "topic": "Bharat Electronics Limited (BEL) contract for Mountain Radars",
+      "text": "BEL signed a significant contract with the Ministry of Defence to supply Mountain Radars to the Indian Air Force. Bharat Electronics Limited will manufacture these radars, designed by DRDO's LRDE. The advanced systems enhance air defense and surveillance in high-altitude regions, strengthening national security.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "sikkim-sundari-community-radio",
+      "topic": "Sikkim Sundari",
+      "text": "Sikkim became the location for the launch of the first community radio station in a border village by the Indian Army's Trishakti Corps. Named 'Sikkim Sundari', the station aims to enhance communication in remote high-altitude areas by broadcasting local news, weather updates, and government schemes.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "madhavan-nair-strategic-defence-advisor",
+      "topic": "Strategic Defence Advisor by Synergy Quantum",
+      "text": "Madhavan Nair, a retired Lieutenant General with extensive experience in military communications and cybersecurity, was appointed as the Strategic Defence Advisor by Synergy Quantum.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "kalam-kavach-conference",
+      "topic": "Kalam & Kavach strategic defence conference",
+      "text": "The third edition of the Kalam & Kavach strategic defence conference was inaugurated at the Manekshaw Centre in New Delhi by Raksha Rajya Mantri Shri Sanjay Seth. The conference focused on the vision of Jointness, Aatmanirbharta, and Innovation (JAI), while promoting indigenisation and international collaboration in defence technologies.",
+      "details": {},
+      "mcq": null
+    },
+    {
+      "id": "major-prabhat-mishra-honours",
+      "topic": "Major Prabhat Mishra",
+      "text": "Major Prabhat Mishra of the Indian Army earned two prestigious academic honours during the graduation ceremony of the US Army Command and General Staff College (CGSC) held at Fort Leavenworth, Kansas.",
+      "details": {},
+      "mcq": null
+    }
+  ],
+  "2026 Edition": [
+    {
+      "id": "operation-777-2026",
+      "topic": "Operation 777",
+      "text": "Operation 777 is a strategic initiative launched in connection with the Kaal Bhairava autonomous combat aircraft programme developed by Flying Wedge Defence & Aerospace (FWDA). The initiative focuses on creating manufacturing and integration partnerships across 7 continents and 77 countries, strengthening India's global defence manufacturing presence.",
+      "details": {},
+      "mcq": null
+    }
+  ],
+  "May 2024": [
+    {
+      "id": "kautilya-q-force-ai-platforms-2024",
+      "topic": "Kautilya and Q-FORCE AI platforms",
+      "text": "The Indian Army launched two indigenous AI platforms named Kautilya and Q-FORCE to strengthen data-driven decision-making and improve operational efficiency. Q-FORCE focuses on logistics optimisation, inventory control, and sustainment support across diverse terrains, ensuring efficient resource management in operations.",
+      "details": {},
+      "mcq": null
+    }
+  ],
+  "September 2026": [
+    {
+      "id": "C295-Delivery-2026",
+      "topic": "Defence Manufacturing",
+      "text": "India's first Made-in-India C295 transport aircraft is scheduled for delivery to the Indian Air Force in September 2026, marking a major milestone in the country's defence manufacturing sector. It is the first military aircraft to be manufactured by India's private sector.",
+      "details": {
+        "aircraft_type": "Transport Aircraft",
+        "manufacturer_partnership": "Tata Advanced Systems Limited and Airbus",
+        "recipient": "Indian Air Force"
+      },
+      "mcq": {
+        "question": "When is India's first Made-in-India C295 transport aircraft scheduled for delivery to the Indian Air Force?",
+        "options": [
+          "September 2025",
+          "September 2026",
+          "March 2026",
+          "December 2025"
+        ],
+        "answer": "September 2026",
+        "explanation": "India's first Made-in-India C295 transport aircraft is scheduled for delivery to the Indian Air Force in September 2026."
+      }
+    }
+  ],
+  "May 2025": [
+    {
+      "id": "ULPGM-V3-Trials-2025",
+      "topic": "Defence Research and Development",
+      "text": "The Defence Research and Development Organisation (DRDO) successfully completed the final development trials of the ULPGM-V3 missile in both air-to-ground and air-to-air modes. The trials were conducted at the DRDO test range in Kurnool using an integrated Ground Control System. The ULPGM-V3 is designed for anti-tank warfare.",
+      "details": {
+        "missile_name": "ULPGM-V3",
+        "developer": "DRDO",
+        "trial_modes": [
+          "Air-to-ground",
+          "Air-to-air"
+        ],
+        "trial_location": "DRDO test range in Kurnool",
+        "primary_design_purpose": "Anti-tank warfare"
+      },
+      "mcq": {
+        "question": "What is the primary design purpose of the ULPGM-V3 missile, whose final development trials were completed by DRDO?",
+        "options": [
+          "Anti-ship warfare",
+          "Anti-aircraft warfare",
+          "Anti-tank warfare",
+          "Strategic bombing"
+        ],
+        "answer": "Anti-tank warfare",
+        "explanation": "The ULPGM-V3 is designed for anti-tank warfare."
+      }
+    }
+  ],
+  "FY 2026-27": [
+    {
+      "id": "Union-Budget-Defence-Allocation-2026",
+      "topic": "Defence Budget",
+      "text": "In the Union Budget post Operation Sindoor, Defence Services have received an unprecedented allocation amounting to Rs 7.85 lakh crore for the Financial Year (FY) 2026-27. This allocation stands at 2% of the estimated GDP for the next Financial Year and shows a significant increase of 15.19% over the Budgetary Estimates (BE) of FY 2025-26.",
+      "details": {
+        "financial_year": "2026-27",
+        "allocation_amount": "Rs 7.85 lakh crore",
+        "gdp_percentage": "2%",
+        "increase_over_previous_year": "15.19%"
+      },
+      "mcq": {
+        "question": "What is the unprecedented allocation received by Defence Services in the Union Budget for FY 2026-27?",
+        "options": [
+          "Rs 5.083 lakh crore",
+          "Rs 7.85 lakh crore",
+          "Rs 2.312 lakh crore",
+          "Rs 1.950 lakh crore"
+        ],
+        "answer": "Rs 7.85 lakh crore",
+        "explanation": "Defence Services have received an unprecedented allocation amounting to Rs 7.85 lakh crore for the Financial Year (FY) 2026-27."
+      }
+    }
+  ],
+  "FY 2025-26": [
+    {
+      "id": "Defence-Exports-Record-2026",
+      "topic": "Defence Exports",
+      "text": "Defence exports touched an all-time high of Rs 38,424 crore in Financial Year (FY) 2025-26, marking a massive rise of Rs 14,802 crore (62.66%) over the previous fiscal year's figure of Rs 23,622 crore. In this landmark milestone, Defence Public Sector Undertakings (DPSUs) and the private sector contributed 54.84% and 45.16% respectively.",
+      "details": {
+        "financial_year": "2025-26",
+        "total_exports": "Rs 38,424 crore",
+        "increase_over_previous_year": "62.66%",
+        "previous_year_exports": "Rs 23,622 crore (FY 2024-25)",
+        "contribution_dpsu": "54.84%",
+        "contribution_private_sector": "45.16%"
+      },
+      "mcq": {
+        "question": "What was the all-time high value of India's defence exports in Financial Year 2025-26?",
+        "options": [
+          "Rs 23,622 crore",
+          "Rs 38,424 crore",
+          "Rs 14,802 crore",
+          "Rs 5,083 crore"
+        ],
+        "answer": "Rs 38,424 crore",
+        "explanation": "Defence exports touched an all-time high of Rs 38,424 crore in Financial Year (FY) 2025-26."
+      }
     }
   ]
 };

@@ -1,0 +1,1165 @@
+{
+  "current_affairs": [
+    {
+      "month_year": "September 2026",
+      "id": "C295-Delivery-2026",
+      "topic": "Defence Manufacturing",
+      "text": "India's first Made-in-India C295 transport aircraft is scheduled for delivery to the Indian Air Force in September 2026, marking a major milestone in the country's defence manufacturing sector. It is the first military aircraft to be manufactured by India's private sector.",
+      "details": {
+        "aircraft_type": "Transport Aircraft",
+        "manufacturer_partnership": "Tata Advanced Systems Limited and Airbus",
+        "recipient": "Indian Air Force"
+      },
+      "mcq": {
+        "question": "When is India's first Made-in-India C295 transport aircraft scheduled for delivery to the Indian Air Force?",
+        "options": [
+          "September 2025",
+          "September 2026",
+          "March 2026",
+          "December 2025"
+        ],
+        "answer": "September 2026",
+        "explanation": "India's first Made-in-India C295 transport aircraft is scheduled for delivery to the Indian Air Force in September 2026."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "BrahMos-Sukhoi-Integration",
+      "topic": "Air Force Capability Enhancement",
+      "text": "The Indian Air Force has equipped 40 Sukhoi Su-30MKI fighter jets with the air-launched BrahMos supersonic cruise missile, significantly enhancing India's long-range precision strike capability.",
+      "details": {
+        "aircraft": "Sukhoi Su-30MKI",
+        "missile": "BrahMos supersonic cruise missile",
+        "quantity_equipped": "40 fighter jets"
+      },
+      "mcq": {
+        "question": "Which missile has been equipped on 40 Sukhoi Su-30MKI fighter jets by the Indian Air Force to enhance long-range precision strike capability?",
+        "options": [
+          "Agni-3",
+          "VL-Shtil",
+          "BrahMos",
+          "ULPGM-V3"
+        ],
+        "answer": "BrahMos",
+        "explanation": "The Indian Air Force has equipped 40 Sukhoi Su-30MKI fighter jets with the air-launched BrahMos supersonic cruise missile."
+      }
+    },
+    {
+      "month_year": "February 2026",
+      "id": "VSHORADS-Trials-2026",
+      "topic": "Defence Research and Development",
+      "text": "DRDO successfully carried out three consecutive flight trials of the indigenous VSHORADS missile system from Chandipur, Odisha, demonstrating its operational readiness. The Very Short Range Air Defence System is a man-portable missile designed to intercept low-flying aircraft, helicopters, drones, and high-speed aerial threats.",
+      "details": {
+        "system_name": "VSHORADS (Very Short Range Air Defence System)",
+        "trials_location": "Chandipur, Odisha",
+        "developer": "DRDO",
+        "missile_type": "Man-portable, Air Defence"
+      },
+      "mcq": {
+        "question": "Where did DRDO successfully carry out flight trials of the indigenous VSHORADS missile system?",
+        "options": [
+          "Kurnool, Andhra Pradesh",
+          "Bengaluru, Karnataka",
+          "Chandipur, Odisha",
+          "New Delhi"
+        ],
+        "answer": "Chandipur, Odisha",
+        "explanation": "DRDO successfully carried out three consecutive flight trials of the indigenous VSHORADS missile system from Chandipur, Odisha."
+      }
+    },
+    {
+      "month_year": "March 2026",
+      "id": "Defence-Procurement-2026",
+      "topic": "Defence Procurement",
+      "text": "The Ministry of Defence signed major defence procurement contracts worth Rs 5,083 crore on March 3, 2026, aimed at strengthening India's maritime security and air defence capabilities. The agreements included the purchase of six ALH Mk-III (Maritime Role) helicopters for the Indian Coast Guard and VL-Shtil surface-to-air missiles for the Indian Navy.",
+      "details": {
+        "contract_value": "Rs 5,083 crore",
+        "date": "March 3, 2026",
+        "items_procured": [
+          "Six ALH Mk-III (Maritime Role) helicopters",
+          "VL-Shtil surface-to-air missiles"
+        ],
+        "recipients": [
+          "Indian Coast Guard",
+          "Indian Navy"
+        ]
+      },
+      "mcq": {
+        "question": "What was the total value of defence procurement contracts signed by the Ministry of Defence on March 3, 2026?",
+        "options": [
+          "Rs 2,312 crore",
+          "Rs 858 crore",
+          "Rs 5,083 crore",
+          "Rs 1,950 crore"
+        ],
+        "answer": "Rs 5,083 crore",
+        "explanation": "The Ministry of Defence signed major defence procurement contracts worth Rs 5,083 crore on March 3, 2026."
+      }
+    },
+    {
+      "month_year": "March 2026",
+      "id": "DGONA-Appointment-2026",
+      "topic": "Naval Appointments",
+      "text": "B.P. Singh, a 1994-batch officer of the Indian Naval Armament Service (INAS), assumed charge as the Director General of Naval Armament (DGONA) at Naval Headquarters in New Delhi on March 1, 2026.",
+      "details": {
+        "officer_name": "B.P. Singh",
+        "post": "Director General of Naval Armament (DGONA)",
+        "location": "Naval Headquarters, New Delhi",
+        "date": "March 1, 2026"
+      },
+      "mcq": {
+        "question": "Who assumed charge as the Director General of Naval Armament (DGONA) at Naval Headquarters in New Delhi on March 1, 2026?",
+        "options": [
+          "Shri Sanjay Seth",
+          "B.P. Singh",
+          "Air Marshal Yalla Umesh",
+          "Shri Amitabh Prasad"
+        ],
+        "answer": "B.P. Singh",
+        "explanation": "B.P. Singh, a 1994-batch officer of the Indian Naval Armament Service (INAS), assumed charge as the Director General of Naval Armament (DGONA) at Naval Headquarters in New Delhi on March 1, 2026."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "Project-DANTAK-66th-Raising-Day-2026",
+      "topic": "Border Roads Organisation",
+      "text": "Project DANTAK of the Border Roads Organisation (BRO) celebrated its 66th Raising Day on April 24, 2026, in Thimphu, Bhutan. It has played a key role in strengthening India-Bhutan relations and infrastructure development.",
+      "details": {
+        "project_name": "Project DANTAK",
+        "organisation": "Border Roads Organisation (BRO)",
+        "event": "66th Raising Day",
+        "date": "April 24, 2026",
+        "location": "Thimphu, Bhutan"
+      },
+      "mcq": {
+        "question": "Where did Project DANTAK of the Border Roads Organisation celebrate its 66th Raising Day on April 24, 2026?",
+        "options": [
+          "Doomdooma, Assam",
+          "Bikaner, Rajasthan",
+          "Thimphu, Bhutan",
+          "Ranaghat, Arunachal Pradesh"
+        ],
+        "answer": "Thimphu, Bhutan",
+        "explanation": "Project DANTAK of the Border Roads Organisation (BRO) celebrated its 66th Raising Day on April 24, 2026, in Thimphu, Bhutan."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "Project-UDAYAK-37th-Raising-Day-2026",
+      "topic": "Border Roads Organisation",
+      "text": "On June 1, 2026, the Border Roads Organisation (BRO) celebrated the 37th Raising Day of Project UDAYAK in Doomdooma, Assam. Established in 1987, BRO develops and maintains strategic road infrastructure in Northeast India. The project oversees over 1,457 km of roads in Arunachal Pradesh and Assam, improving connectivity along the Line of Actual Control (LAC) and the Indo-Myanmar border.",
+      "details": {
+        "project_name": "Project UDAYAK",
+        "organisation": "Border Roads Organisation (BRO)",
+        "event": "37th Raising Day",
+        "date": "June 1, 2026",
+        "location": "Doomdooma, Assam",
+        "establishment_year": "1987",
+        "road_coverage": "Over 1,457 km in Arunachal Pradesh and Assam"
+      },
+      "mcq": {
+        "question": "Project UDAYAK of the Border Roads Organisation celebrated its 37th Raising Day on June 1, 2026, in which location?",
+        "options": [
+          "Thimphu, Bhutan",
+          "Bikaner, Rajasthan",
+          "Doomdooma, Assam",
+          "Ranaghat, Arunachal Pradesh"
+        ],
+        "answer": "Doomdooma, Assam",
+        "explanation": "On June 1, 2026, the Border Roads Organisation (BRO) celebrated the 37th Raising Day of Project UDAYAK in Doomdooma, Assam."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "DSC-A23-Launch-2026",
+      "topic": "Naval Shipbuilding",
+      "text": "DSC A 23, the fourth ship of five Diving Support Craft (DSC) project, was launched on April 19, 2026, at Titagarh, Kolkata (WB) by Mrs Deepa Sivakumar, in the presence of Vice Admiral B Sivakumar, Chief of Materiel.",
+      "details": {
+        "ship_name": "DSC A 23",
+        "project": "Diving Support Craft (DSC) project",
+        "launch_number": "Fourth of five",
+        "launch_date": "April 19, 2026",
+        "launch_location": "Titagarh, Kolkata (WB)"
+      },
+      "mcq": {
+        "question": "DSC A 23, the fourth ship of the Diving Support Craft project, was launched on April 19, 2026, at which location?",
+        "options": [
+          "Visakhapatnam",
+          "Mumbai",
+          "Titagarh, Kolkata",
+          "Goa"
+        ],
+        "answer": "Titagarh, Kolkata",
+        "explanation": "DSC A 23, the fourth ship of five Diving Support Craft (DSC) project, was launched on April 19, 2026, at Titagarh, Kolkata (WB)."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "Project-Chetak-47th-Raising-Day-2026",
+      "topic": "Border Roads Organisation",
+      "text": "Rajasthan celebrated the 47th Raising Day of Project Chetak in Bikaner on April 4, 2026. Project Chetak, part of the Border Roads Organisation, focuses on infrastructure development in India's western border areas. Established in 1980, it has enhanced connectivity and supported national security.",
+      "details": {
+        "project_name": "Project Chetak",
+        "organisation": "Border Roads Organisation (BRO)",
+        "event": "47th Raising Day",
+        "date": "April 4, 2026",
+        "location": "Bikaner, Rajasthan",
+        "establishment_year": "1980"
+      },
+      "mcq": {
+        "question": "Project Chetak of the Border Roads Organisation celebrated its 47th Raising Day on April 4, 2026, in which city?",
+        "options": [
+          "Doomdooma, Assam",
+          "Bikaner, Rajasthan",
+          "Thimphu, Bhutan",
+          "Ranaghat, Arunachal Pradesh"
+        ],
+        "answer": "Bikaner, Rajasthan",
+        "explanation": "Rajasthan celebrated the 47th Raising Day of Project Chetak in Bikaner on April 4, 2026."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "Project-BRAHMANK-16th-Raising-Day-2026",
+      "topic": "Border Roads Organisation",
+      "text": "Project BRAHMANK of Border Roads Organisation (BRO) celebrated its 16th Raising Day on June 29, 2026, at Ranaghat, Arunachal Pradesh, marking fifteen years of dedicated service towards the development of strategic infrastructure and connectivity in the region.",
+      "details": {
+        "project_name": "Project BRAHMANK",
+        "organisation": "Border Roads Organisation (BRO)",
+        "event": "16th Raising Day",
+        "date": "June 29, 2026",
+        "location": "Ranaghat, Arunachal Pradesh"
+      },
+      "mcq": {
+        "question": "Project BRAHMANK of BRO celebrated its 16th Raising Day on June 29, 2026, in which location?",
+        "options": [
+          "Doomdooma, Assam",
+          "Bikaner, Rajasthan",
+          "Thimphu, Bhutan",
+          "Ranaghat, Arunachal Pradesh"
+        ],
+        "answer": "Ranaghat, Arunachal Pradesh",
+        "explanation": "Project BRAHMANK of Border Roads Organisation (BRO) celebrated its 16th Raising Day on June 29, 2026, at Ranaghat, Arunachal Pradesh."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "Kalam-Kavach-Conference-2026",
+      "topic": "Defence Conference",
+      "text": "The third edition of the Kalam & Kavach strategic defence conference was inaugurated at the Manekshaw Centre in New Delhi by Raksha Rajya Mantri Shri Sanjay Seth. The conference focused on the vision of Jointness, Aatmanirbharta, and Innovation (JAI), while promoting indigenisation and international collaboration in defence technologies.",
+      "details": {
+        "conference_name": "Kalam & Kavach strategic defence conference",
+        "edition": "Third",
+        "inaugurated_by": "Raksha Rajya Mantri Shri Sanjay Seth",
+        "location": "Manekshaw Centre, New Delhi",
+        "focus_areas": [
+          "Jointness",
+          "Aatmanirbharta",
+          "Innovation (JAI)",
+          "Indigenisation",
+          "International collaboration in defence technologies"
+        ]
+      },
+      "mcq": {
+        "question": "Who inaugurated the third edition of the Kalam & Kavach strategic defence conference in New Delhi?",
+        "options": [
+          "Raksha Mantri Rajnath Singh",
+          "Raksha Rajya Mantri Shri Sanjay Seth",
+          "Chief of Defence Staff General Anil Chauhan",
+          "Prime Minister Shri Narendra Modi"
+        ],
+        "answer": "Raksha Rajya Mantri Shri Sanjay Seth",
+        "explanation": "The third edition of the Kalam & Kavach strategic defence conference was inaugurated at the Manekshaw Centre in New Delhi by Raksha Rajya Mantri Shri Sanjay Seth."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "Naval-Commanders-Conference-2026",
+      "topic": "Naval Conference",
+      "text": "The Naval Commanders' Conference-2026 was conducted at Nausena Bhawan, the Integrated Headquarters of the Ministry of Defence (Navy), located in New Delhi on April 14, 2026.",
+      "details": {
+        "conference_name": "Naval Commanders' Conference-2026",
+        "date": "April 14, 2026",
+        "location": "Nausena Bhawan, New Delhi"
+      },
+      "mcq": {
+        "question": "Where was the Naval Commanders' Conference-2026 conducted?",
+        "options": [
+          "Mumbai",
+          "Visakhapatnam",
+          "Nausena Bhawan, New Delhi",
+          "Kolkata"
+        ],
+        "answer": "Nausena Bhawan, New Delhi",
+        "explanation": "The Naval Commanders' Conference-2026 was conducted at Nausena Bhawan, the Integrated Headquarters of the Ministry of Defence (Navy), located in New Delhi."
+      }
+    },
+    {
+      "month_year": "May 2025",
+      "id": "ULPGM-V3-Trials-2025",
+      "topic": "Defence Research and Development",
+      "text": "The Defence Research and Development Organisation (DRDO) successfully completed the final development trials of the ULPGM-V3 missile in both air-to-ground and air-to-air modes. The trials were conducted at the DRDO test range in Kurnool using an integrated Ground Control System. The ULPGM-V3 is designed for anti-tank warfare.",
+      "details": {
+        "missile_name": "ULPGM-V3",
+        "developer": "DRDO",
+        "trial_modes": [
+          "Air-to-ground",
+          "Air-to-air"
+        ],
+        "trial_location": "DRDO test range in Kurnool",
+        "primary_design_purpose": "Anti-tank warfare"
+      },
+      "mcq": {
+        "question": "What is the primary design purpose of the ULPGM-V3 missile, whose final development trials were completed by DRDO?",
+        "options": [
+          "Anti-ship warfare",
+          "Anti-aircraft warfare",
+          "Anti-tank warfare",
+          "Strategic bombing"
+        ],
+        "answer": "Anti-tank warfare",
+        "explanation": "The ULPGM-V3 is designed for anti-tank warfare."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "Nausena-Shaurya-Vatika-Inauguration",
+      "topic": "Naval Heritage",
+      "text": "The Nausena Shaurya Vatika naval museum was inaugurated in Lucknow by Raksha Mantri Rajnath Singh and Uttar Pradesh Chief Minister Yogi Adityanath. Developed as an open-air museum, it showcases important naval artefacts and weapon systems from the decommissioned warship INS Gomati.",
+      "details": {
+        "museum_name": "Nausena Shaurya Vatika",
+        "location": "Lucknow",
+        "inaugurated_by": [
+          "Raksha Mantri Rajnath Singh",
+          "Uttar Pradesh Chief Minister Yogi Adityanath"
+        ],
+        "features": "Open-air museum, showcases naval artefacts and weapon systems from INS Gomati"
+      },
+      "mcq": {
+        "question": "The Nausena Shaurya Vatika naval museum, inaugurated in Lucknow, showcases artefacts from which decommissioned warship?",
+        "options": [
+          "INS Vikrant",
+          "INS Viraat",
+          "INS Gomati",
+          "INS Rajput"
+        ],
+        "answer": "INS Gomati",
+        "explanation": "The Nausena Shaurya Vatika naval museum showcases important naval artefacts and weapon systems from the decommissioned warship INS Gomati."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "Arahant-Relics-Mongolia-Transport",
+      "topic": "Cultural Diplomacy",
+      "text": "The Indian Air Force transported the sacred relics of Arahant Sariputta and Arahant Mahamoggallana to Mongolia using its IL-76 strategic airlift aircraft, popularly known as Gajraj. These relics belong to the two chief disciples of Gautama Buddha and hold immense significance in Buddhist traditions.",
+      "details": {
+        "relics_of": [
+          "Arahant Sariputta",
+          "Arahant Mahamoggallana"
+        ],
+        "transported_by": "Indian Air Force",
+        "aircraft_used": "IL-76 strategic airlift aircraft (Gajraj)",
+        "destination": "Mongolia"
+      },
+      "mcq": {
+        "question": "Which aircraft, popularly known as Gajraj, was used by the Indian Air Force to transport the sacred relics of Arahant Sariputta and Arahant Mahamoggallana to Mongolia?",
+        "options": [
+          "C295",
+          "Dornier 228",
+          "IL-76",
+          "ALH Dhruv"
+        ],
+        "answer": "IL-76",
+        "explanation": "The Indian Air Force transported the sacred relics to Mongolia using its IL-76 strategic airlift aircraft, popularly known as Gajraj."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "India-Australia-Defence-Dialogue-2026",
+      "topic": "International Relations",
+      "text": "Australia was the partner country that co-chaired the second India-Australia Defence Ministers' Dialogue held in New Delhi on June 1, 2026.",
+      "details": {
+        "dialogue_name": "India-Australia Defence Ministers' Dialogue",
+        "edition": "Second",
+        "date": "June 1, 2026",
+        "location": "New Delhi",
+        "co_chair_partner": "Australia"
+      },
+      "mcq": {
+        "question": "Which country co-chaired the second India-Australia Defence Ministers' Dialogue held in New Delhi on June 1, 2026?",
+        "options": [
+          "France",
+          "Egypt",
+          "Mozambique",
+          "Australia"
+        ],
+        "answer": "Australia",
+        "explanation": "Australia was the partner country that co-chaired the second India-Australia Defence Ministers' Dialogue held in New Delhi on June 1, 2026."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "Operation-DRISHTI-2026",
+      "topic": "Humanitarian Aid",
+      "text": "Operation DRISHTI is a major humanitarian medical initiative undertaken by the Indian Army and Indian Air Force to provide advanced eye care services. A mega surgical eye camp was organised at Military Hospital Namkum in Ranchi, Jharkhand, from June 15 to 19, 2026.",
+      "details": {
+        "initiative_name": "Operation DRISHTI",
+        "organisers": [
+          "Indian Army",
+          "Indian Air Force"
+        ],
+        "service_provided": "Advanced eye care services",
+        "camp_location": "Military Hospital Namkum, Ranchi, Jharkhand",
+        "camp_dates": "June 15 to 19, 2026"
+      },
+      "mcq": {
+        "question": "Operation DRISHTI, a humanitarian medical initiative for eye care, organised a mega surgical eye camp in June 2026 at which location?",
+        "options": [
+          "Lucknow, Uttar Pradesh",
+          "Kurnool, Andhra Pradesh",
+          "Ranchi, Jharkhand",
+          "Chandigarh"
+        ],
+        "answer": "Ranchi, Jharkhand",
+        "explanation": "A mega surgical eye camp was organised at Military Hospital Namkum in Ranchi, Jharkhand, from June 15 to 19, 2026."
+      }
+    },
+    {
+      "month_year": "FY 2026-27",
+      "id": "Union-Budget-Defence-Allocation-2026",
+      "topic": "Defence Budget",
+      "text": "In the Union Budget post Operation Sindoor, Defence Services have received an unprecedented allocation amounting to Rs 7.85 lakh crore for the Financial Year (FY) 2026-27. This allocation stands at 2% of the estimated GDP for the next Financial Year and shows a significant increase of 15.19% over the Budgetary Estimates (BE) of FY 2025-26.",
+      "details": {
+        "financial_year": "2026-27",
+        "allocation_amount": "Rs 7.85 lakh crore",
+        "gdp_percentage": "2%",
+        "increase_over_previous_year": "15.19%"
+      },
+      "mcq": {
+        "question": "What is the unprecedented allocation received by Defence Services in the Union Budget for FY 2026-27?",
+        "options": [
+          "Rs 5.083 lakh crore",
+          "Rs 7.85 lakh crore",
+          "Rs 2.312 lakh crore",
+          "Rs 1.950 lakh crore"
+        ],
+        "answer": "Rs 7.85 lakh crore",
+        "explanation": "Defence Services have received an unprecedented allocation amounting to Rs 7.85 lakh crore for the Financial Year (FY) 2026-27."
+      }
+    },
+    {
+      "month_year": "February 2026",
+      "id": "Singapore-Airshow-2026-IAF",
+      "topic": "International Airshow",
+      "text": "The Indian Air Force (IAF) participated in the Singapore Airshow 2026, with the Sarang Helicopter Display Team, on the indigenously designed and manufactured Advanced Light Helicopter (ALH) Dhruv. Renowned for precision flying, close-formation manoeuvres and disciplined execution, the Sarang display underscores the operational versatility, agility and reliability of the ALH Dhruv across a wide spectrum of operational roles.",
+      "details": {
+        "event": "Singapore Airshow 2026",
+        "dates": "February 3-8, 2026",
+        "participant": "Indian Air Force (IAF)",
+        "display_team": "Sarang Helicopter Display Team",
+        "aircraft_featured": "Advanced Light Helicopter (ALH) Dhruv"
+      },
+      "mcq": {
+        "question": "Which Indian Air Force display team participated in the Singapore Airshow 2026 with the ALH Dhruv?",
+        "options": [
+          "Suryakiran",
+          "Sagar Pawan",
+          "Sarang",
+          "Akash Ganga"
+        ],
+        "answer": "Sarang",
+        "explanation": "The Indian Air Force (IAF) participated in the Singapore Airshow 2026 with the Sarang Helicopter Display Team."
+      }
+    },
+    {
+      "month_year": "February 2026",
+      "id": "Agni-3-Test-Fire-2026",
+      "topic": "Missile Testing",
+      "text": "Intermediate Range Ballistic Missile 'Agni-3' was successfully test-fired from the Integrated Test Range, Chandipur, Odisha on February 6, 2026. The launch validated all operational and technical parameters.",
+      "details": {
+        "missile_name": "Agni-3",
+        "missile_type": "Intermediate Range Ballistic Missile",
+        "test_date": "February 6, 2026",
+        "test_location": "Integrated Test Range, Chandipur, Odisha"
+      },
+      "mcq": {
+        "question": "From where was the Intermediate Range Ballistic Missile 'Agni-3' successfully test-fired on February 6, 2026?",
+        "options": [
+          "Kurnool, Andhra Pradesh",
+          "Pokhran, Rajasthan",
+          "Chandipur, Odisha",
+          "Wheeler Island, Odisha"
+        ],
+        "answer": "Chandipur, Odisha",
+        "explanation": "Intermediate Range Ballistic Missile 'Agni-3' was successfully test-fired from the Integrated Test Range, Chandipur, Odisha."
+      }
+    },
+    {
+      "month_year": "February 2026",
+      "id": "World-Defence-Show-2026-India",
+      "topic": "International Defence Exhibition",
+      "text": "Raksha Rajya Mantri Shri Sanjay Seth led a high-level Indian delegation to the World Defence Show (WDS) 2026, held in Riyadh, Saudi Arabia (February 3-9, 2026). He joined international dignitaries to witness the opening ceremony of WDS and inaugurated the first-ever India Pavilion at the event.",
+      "details": {
+        "event": "World Defence Show (WDS) 2026",
+        "dates": "February 3-9, 2026",
+        "location": "Riyadh, Saudi Arabia",
+        "indian_delegation_leader": "Raksha Rajya Mantri Shri Sanjay Seth",
+        "indian_participation": "Inaugurated first-ever India Pavilion"
+      },
+      "mcq": {
+        "question": "Where was the World Defence Show (WDS) 2026, attended by a high-level Indian delegation, held?",
+        "options": [
+          "New Delhi, India",
+          "Singapore",
+          "Riyadh, Saudi Arabia",
+          "Vienna, Austria"
+        ],
+        "answer": "Riyadh, Saudi Arabia",
+        "explanation": "The World Defence Show (WDS) 2026 was held in Riyadh, Saudi Arabia."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "Dornier-228-Procurement-2026",
+      "topic": "Defence Procurement",
+      "text": "The Ministry of Defence has signed a contract with Hindustan Aeronautics Limited (HAL), Transport Aircraft Division, Kanpur for the acquisition of eight Dornier 228 Aircraft along with Operational Role Equipment for the Indian Coast Guard (ICG) at a cost of Rs 2,312 crore under Buy (Indian) category.",
+      "details": {
+        "aircraft_type": "Dornier 228 Aircraft",
+        "quantity": "Eight",
+        "recipient": "Indian Coast Guard (ICG)",
+        "manufacturer": "Hindustan Aeronautics Limited (HAL)",
+        "cost": "Rs 2,312 crore",
+        "category": "Buy (Indian)"
+      },
+      "mcq": {
+        "question": "For which organization were eight Dornier 228 Aircraft procured by the Ministry of Defence from HAL?",
+        "options": [
+          "Indian Air Force",
+          "Indian Navy",
+          "Indian Coast Guard",
+          "Border Security Force"
+        ],
+        "answer": "Indian Coast Guard",
+        "explanation": "The Ministry of Defence signed a contract for the acquisition of eight Dornier 228 Aircraft for the Indian Coast Guard (ICG)."
+      }
+    },
+    {
+      "month_year": "February 2026",
+      "id": "India-France-Defence-Dialogue-2026",
+      "topic": "International Relations",
+      "text": "Raksha Mantri Shri Rajnath Singh co-chaired the 6th India-France Annual Defence Dialogue with Minister of the Armed Forces and Veterans Affairs of France Ms Catherine Vautrin in Bengaluru, Karnataka on February 17, 2026. The meeting reviewed the entire gamut of bilateral defence cooperation, with focus on expanding industrial collaboration.",
+      "details": {
+        "dialogue_name": "6th India-France Annual Defence Dialogue",
+        "date": "February 17, 2026",
+        "location": "Bengaluru, Karnataka",
+        "indian_co_chair": "Raksha Mantri Shri Rajnath Singh",
+        "french_co_chair": "Minister Ms Catherine Vautrin",
+        "focus": "Expanding industrial collaboration"
+      },
+      "mcq": {
+        "question": "The 6th India-France Annual Defence Dialogue was co-chaired by Raksha Mantri Shri Rajnath Singh and his French counterpart in which city?",
+        "options": [
+          "New Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "Chennai"
+        ],
+        "answer": "Bengaluru",
+        "explanation": "The 6th India-France Annual Defence Dialogue was held in Bengaluru, Karnataka."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "Airbus-H125-FAL-Inauguration",
+      "topic": "Defence Manufacturing",
+      "text": "Prime Minister Shri Narendra Modi and French President Mr Emmanuel Macron virtually inaugurated the Tata Advanced Systems Final Assembly Line of the Airbus H-125 Light Utility Helicopter, located at Vemagal, Karnataka.",
+      "details": {
+        "aircraft_type": "Airbus H-125 Light Utility Helicopter",
+        "facility": "Final Assembly Line (FAL)",
+        "location": "Vemagal, Karnataka",
+        "inaugurated_by": [
+          "Prime Minister Shri Narendra Modi",
+          "French President Mr Emmanuel Macron"
+        ],
+        "manufacturer": "Tata Advanced Systems"
+      },
+      "mcq": {
+        "question": "The Tata Advanced Systems Final Assembly Line for the Airbus H-125 Light Utility Helicopter was virtually inaugurated at which location?",
+        "options": [
+          "Hyderabad, Telangana",
+          "Nagpur, Maharashtra",
+          "Vemagal, Karnataka",
+          "Kanpur, Uttar Pradesh"
+        ],
+        "answer": "Vemagal, Karnataka",
+        "explanation": "The Tata Advanced Systems Final Assembly Line of the Airbus H-125 Light Utility Helicopter is located at Vemagal, Karnataka."
+      }
+    },
+    {
+      "month_year": "2026",
+      "id": "IFR-2026-Visakhapatnam",
+      "topic": "Naval Event",
+      "text": "The Indian Navy hosted the International Fleet Review (IFR) 2026 off Visakhapatnam, involving 74 countries and highlighting global naval cooperation and India's maritime capability. This was India's third IFR, following previous events in Mumbai (2001) and Visakhapatnam (2016).",
+      "details": {
+        "event": "International Fleet Review (IFR) 2026",
+        "host": "Indian Navy",
+        "location": "Off Visakhapatnam",
+        "participating_countries": "74",
+        "india_ifr_history": [
+          "Mumbai (2001)",
+          "Visakhapatnam (2016)",
+          "Visakhapatnam (2026)"
+        ]
+      },
+      "mcq": {
+        "question": "Where did the Indian Navy host the International Fleet Review (IFR) 2026?",
+        "options": [
+          "Mumbai",
+          "Kochi",
+          "Visakhapatnam",
+          "Goa"
+        ],
+        "answer": "Visakhapatnam",
+        "explanation": "The Indian Navy hosted the International Fleet Review (IFR) 2026 off Visakhapatnam."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "Gaganyaan-Drogue-Parachute-Test",
+      "topic": "Space Program",
+      "text": "India's human spaceflight program (Gaganyaan) marked a milestone with the successful qualification load test of the Drogue Parachute for the Gaganyaan program at the DRDO's RTRS facility in Chandigarh. RTRS is a specialized facility for high-speed aerodynamic and ballistic evaluations.",
+      "details": {
+        "program": "Gaganyaan (human spaceflight)",
+        "milestone": "Successful qualification load test of Drogue Parachute",
+        "test_location": "DRDO's RTRS facility in Chandigarh",
+        "rtrs_function": "Specialized facility for high-speed aerodynamic and ballistic evaluations"
+      },
+      "mcq": {
+        "question": "The successful qualification load test of the Drogue Parachute for the Gaganyaan program was conducted at DRDO's RTRS facility in which city?",
+        "options": [
+          "Bengaluru",
+          "Hyderabad",
+          "Chandigarh",
+          "Thiruvananthapuram"
+        ],
+        "answer": "Chandigarh",
+        "explanation": "The test was conducted at the DRDO's RTRS facility in Chandigarh."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "Mt-Aconcagua-Summit-NIM-JIMWS",
+      "topic": "Mountaineering",
+      "text": "A six-member team from the Nehru Institute of Mountaineering (NIM), Uttarkashi and the Jawahar Institute of Mountaineering & Winter Sports (JIM&WS), Pahalgam successfully summited Mt. Aconcagua, the highest peak in South America and the second-highest peak in the world outside of Asia.",
+      "details": {
+        "peak_summited": "Mt. Aconcagua",
+        "location": "South America",
+        "significance": "Highest peak in South America, second-highest in the world outside of Asia",
+        "teams": [
+          "Nehru Institute of Mountaineering (NIM), Uttarkashi",
+          "Jawahar Institute of Mountaineering & Winter Sports (JIM&WS), Pahalgam"
+        ]
+      },
+      "mcq": {
+        "question": "Which mountain, the highest peak in South America, was successfully summited by a team from NIM and JIM&WS?",
+        "options": [
+          "Mt. Everest",
+          "Mt. Kilimanjaro",
+          "Mt. Aconcagua",
+          "Mt. Denali"
+        ],
+        "answer": "Mt. Aconcagua",
+        "explanation": "A six-member team from NIM and JIM&WS successfully summited Mt. Aconcagua, the highest peak in South America."
+      }
+    },
+    {
+      "month_year": "February 2026",
+      "id": "India-Kenya-JDCC-2026",
+      "topic": "International Relations",
+      "text": "The fourth meeting of the Joint Defence Cooperation Committee (JDCC) between India and Kenya took place in Nairobi from February 24-26, 2026. Key discussions included expanding service engagements, enhancing training opportunities, strengthening maritime security cooperation, and promoting defense R&D and production collaboration.",
+      "details": {
+        "meeting_name": "Joint Defence Cooperation Committee (JDCC)",
+        "edition": "Fourth",
+        "countries": [
+          "India",
+          "Kenya"
+        ],
+        "dates": "February 24-26, 2026",
+        "location": "Nairobi",
+        "discussion_areas": [
+          "Service engagements",
+          "Training opportunities",
+          "Maritime security cooperation",
+          "Defence R&D and production collaboration"
+        ]
+      },
+      "mcq": {
+        "question": "The fourth meeting of the Joint Defence Cooperation Committee (JDCC) between India and Kenya took place in which city?",
+        "options": [
+          "New Delhi",
+          "Cairo",
+          "Maputo",
+          "Nairobi"
+        ],
+        "answer": "Nairobi",
+        "explanation": "The fourth meeting of the Joint Defence Cooperation Committee (JDCC) between India and Kenya took place in Nairobi from February 24-26, 2026."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "Chungthang-Lachen-Axis-Bridge-Inauguration",
+      "topic": "Infrastructure Development",
+      "text": "Raksha Rajya Mantri Shri Sanjay Seth inaugurated the Chungthang - Lachen axis and a 400 ft Bailey Suspension Taram Chu Bridge in North Sikkim, restored by the Border Roads Organisation (BRO). This marks a significant achievement in post-disaster recovery efforts following severe events in recent years.",
+      "details": {
+        "inaugurated_by": "Raksha Rajya Mantri Shri Sanjay Seth",
+        "project_components": [
+          "Chungthang - Lachen axis",
+          "400 ft Bailey Suspension Taram Chu Bridge"
+        ],
+        "location": "North Sikkim",
+        "restored_by": "Border Roads Organisation (BRO)",
+        "context": "Post-disaster recovery efforts"
+      },
+      "mcq": {
+        "question": "Raksha Rajya Mantri Shri Sanjay Seth inaugurated the restored Taram Chu Bridge in which Indian state?",
+        "options": [
+          "Arunachal Pradesh",
+          "Assam",
+          "Sikkim",
+          "Uttarakhand"
+        ],
+        "answer": "Sikkim",
+        "explanation": "Raksha Rajya Mantri Shri Sanjay Seth inaugurated the Chungthang - Lachen axis and a 400 ft Bailey Suspension Taram Chu Bridge in North Sikkim."
+      }
+    },
+    {
+      "month_year": "March 2026",
+      "id": "SMART-DCB-Launch-2026",
+      "topic": "Civic Governance",
+      "text": "The Delhi Cantonment Board (DCB) introduced the Swachhata Monitoring & Automated Reporting Tool (SMART) to improve sanitation and civic service monitoring. This digital solution tackles issues like manual reporting, delayed data collection, and fragmented monitoring.",
+      "details": {
+        "tool_name": "Swachhata Monitoring & Automated Reporting Tool (SMART)",
+        "organisation": "Delhi Cantonment Board (DCB)",
+        "purpose": "Improve sanitation and civic service monitoring",
+        "benefits": [
+          "Addresses manual reporting",
+          "Reduces delayed data collection",
+          "Resolves fragmented monitoring"
+        ]
+      },
+      "mcq": {
+        "question": "Which organization introduced the Swachhata Monitoring & Automated Reporting Tool (SMART) to improve sanitation and civic service monitoring?",
+        "options": [
+          "DRDO",
+          "BRO",
+          "Delhi Cantonment Board (DCB)",
+          "Indian Air Force"
+        ],
+        "answer": "Delhi Cantonment Board (DCB)",
+        "explanation": "The Delhi Cantonment Board (DCB) introduced the Swachhata Monitoring & Automated Reporting Tool (SMART)."
+      }
+    },
+    {
+      "month_year": "March 2026",
+      "id": "NDIC-2026-Conclusion",
+      "topic": "Defence Industry",
+      "text": "The National Defence Industries Conclave (NDIC) 2026, organised by the Department of Defence Production (DDP) on the theme 'Advanced Manufacturing Technologies', concluded at the Manekshaw Centre, New Delhi on March 20, 2026, after two days of extensive discussions on advanced manufacturing technologies and industry participation in defence production.",
+      "details": {
+        "conclave_name": "National Defence Industries Conclave (NDIC) 2026",
+        "organiser": "Department of Defence Production (DDP)",
+        "theme": "Advanced Manufacturing Technologies",
+        "conclusion_date": "March 20, 2026",
+        "location": "Manekshaw Centre, New Delhi"
+      },
+      "mcq": {
+        "question": "The National Defence Industries Conclave (NDIC) 2026, focused on 'Advanced Manufacturing Technologies', concluded in which city?",
+        "options": [
+          "Bengaluru",
+          "Mumbai",
+          "New Delhi",
+          "Chennai"
+        ],
+        "answer": "New Delhi",
+        "explanation": "The National Defence Industries Conclave (NDIC) 2026 concluded at the Manekshaw Centre, New Delhi."
+      }
+    },
+    {
+      "month_year": "Ongoing",
+      "id": "Tunguska-P8I-Procurement",
+      "topic": "Defence Procurement",
+      "text": "The Ministry of Defence has signed contracts, worth a total of Rs 858 crore, for the procurement of Tunguska Air Defence Missile System and Inspection (Depot Level) of P8I Long-Range Maritime Reconnaissance Aircraft.",
+      "details": {
+        "contract_value": "Rs 858 crore",
+        "items_procured": [
+          "Tunguska Air Defence Missile System",
+          "Inspection (Depot Level) of P8I Long-Range Maritime Reconnaissance Aircraft"
+        ],
+        "recipient_branches": [
+          "Army/Air Force (for Tunguska)",
+          "Navy (for P8I maintenance)"
+        ]
+      },
+      "mcq": {
+        "question": "What is the total value of contracts signed by the Ministry of Defence for the procurement of Tunguska Air Defence Missile System and P8I aircraft inspection?",
+        "options": [
+          "Rs 5,083 crore",
+          "Rs 2,312 crore",
+          "Rs 858 crore",
+          "Rs 1,950 crore"
+        ],
+        "answer": "Rs 858 crore",
+        "explanation": "The Ministry of Defence has signed contracts worth a total of Rs 858 crore for the procurement of Tunguska Air Defence Missile System and Inspection (Depot Level) of P8I Long-Range Maritime Reconnaissance Aircraft."
+      }
+    },
+    {
+      "month_year": "March 2026",
+      "id": "Mountain-Radars-Procurement-2026",
+      "topic": "Defence Procurement",
+      "text": "The Ministry of Defence has signed a significant contract with Bharat Electronics Limited (BEL) for two Mountain Radars and related infrastructure for the Indian Air Force, costing approximately Rs 1,950 crore, as part of the Aatmanirbhar Bharat and Make-in-India initiatives to strengthen indigenous defense capabilities.",
+      "details": {
+        "item_procured": "Mountain Radars",
+        "quantity": "Two",
+        "recipient": "Indian Air Force",
+        "manufacturer": "Bharat Electronics Limited (BEL)",
+        "cost": "Rs 1,950 crore",
+        "initiatives": [
+          "Aatmanirbhar Bharat",
+          "Make-in-India"
+        ]
+      },
+      "mcq": {
+        "question": "For which branch of the Indian armed forces were two Mountain Radars procured from BEL at a cost of Rs 1,950 crore?",
+        "options": [
+          "Indian Army",
+          "Indian Navy",
+          "Indian Air Force",
+          "Indian Coast Guard"
+        ],
+        "answer": "Indian Air Force",
+        "explanation": "The Ministry of Defence signed a contract with Bharat Electronics Limited (BEL) for two Mountain Radars and related infrastructure for the Indian Air Force."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "India-Mozambique-JDWG-2026",
+      "topic": "International Relations",
+      "text": "India and Mozambique held the Fifth Joint Defence Working Group (JDWG) meeting on April 1-2, 2026, in Maputo. Discussions centered on expanding military exchanges, joint training, maritime awareness, military exercises, and collaboration in defense equipment supply.",
+      "details": {
+        "meeting_name": "Joint Defence Working Group (JDWG)",
+        "edition": "Fifth",
+        "countries": [
+          "India",
+          "Mozambique"
+        ],
+        "dates": "April 1-2, 2026",
+        "location": "Maputo",
+        "discussion_areas": [
+          "Military exchanges",
+          "Joint training",
+          "Maritime awareness",
+          "Military exercises",
+          "Defence equipment supply collaboration"
+        ]
+      },
+      "mcq": {
+        "question": "The Fifth Joint Defence Working Group (JDWG) meeting between India and Mozambique was held in which city?",
+        "options": [
+          "New Delhi",
+          "Cairo",
+          "Maputo",
+          "Nairobi"
+        ],
+        "answer": "Maputo",
+        "explanation": "India and Mozambique held the Fifth Joint Defence Working Group (JDWG) meeting on April 1-2, 2026, in Maputo."
+      }
+    },
+    {
+      "month_year": "FY 2025-26",
+      "id": "Defence-Exports-Record-2026",
+      "topic": "Defence Exports",
+      "text": "Defence exports touched an all-time high of Rs 38,424 crore in Financial Year (FY) 2025-26, marking a massive rise of Rs 14,802 crore (62.66%) over the previous fiscal year's figure of Rs 23,622 crore. In this landmark milestone, Defence Public Sector Undertakings (DPSUs) and the private sector contributed 54.84% and 45.16% respectively.",
+      "details": {
+        "financial_year": "2025-26",
+        "total_exports": "Rs 38,424 crore",
+        "increase_over_previous_year": "62.66%",
+        "previous_year_exports": "Rs 23,622 crore (FY 2024-25)",
+        "contribution_dpsu": "54.84%",
+        "contribution_private_sector": "45.16%"
+      },
+      "mcq": {
+        "question": "What was the all-time high value of India's defence exports in Financial Year 2025-26?",
+        "options": [
+          "Rs 23,622 crore",
+          "Rs 38,424 crore",
+          "Rs 14,802 crore",
+          "Rs 5,083 crore"
+        ],
+        "answer": "Rs 38,424 crore",
+        "explanation": "Defence exports touched an all-time high of Rs 38,424 crore in Financial Year (FY) 2025-26."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "Ran-Samwad-2026-Bengaluru",
+      "topic": "Strategic Seminar",
+      "text": "The second edition of Ran Samwad, a tri-service strategic seminar, began in Bengaluru on April 9, 2026. Organized by the Air Force Training Command, it was inaugurated by Chief of Defence Staff General Anil Chauhan.",
+      "details": {
+        "event_name": "Ran Samwad",
+        "edition": "Second",
+        "type": "Tri-service strategic seminar",
+        "start_date": "April 9, 2026",
+        "location": "Bengaluru",
+        "organiser": "Air Force Training Command",
+        "inaugurated_by": "Chief of Defence Staff General Anil Chauhan"
+      },
+      "mcq": {
+        "question": "The second edition of Ran Samwad, a tri-service strategic seminar, was inaugurated by Chief of Defence Staff General Anil Chauhan in which city?",
+        "options": [
+          "New Delhi",
+          "Nagpur",
+          "Bengaluru",
+          "Ranchi"
+        ],
+        "answer": "Bengaluru",
+        "explanation": "The second edition of Ran Samwad began in Bengaluru on April 9, 2026, and was inaugurated by Chief of Defence Staff General Anil Chauhan."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "Maintenance-Command-Conclave-2026",
+      "topic": "Air Force Conference",
+      "text": "The Maintenance Command Commanders' Conclave took place in Vayusena Nagar, Nagpur on April 10-11, 2026. Air Marshal Yalla Umesh, Air Officer Commanding in-Chief, led the Conclave. The theme was 'Maintenance Command in Mission Mode to Support Operations.'",
+      "details": {
+        "event_name": "Maintenance Command Commanders' Conclave",
+        "dates": "April 10-11, 2026",
+        "location": "Vayusena Nagar, Nagpur",
+        "leader": "Air Marshal Yalla Umesh",
+        "theme": "Maintenance Command in Mission Mode to Support Operations"
+      },
+      "mcq": {
+        "question": "Where did the Maintenance Command Commanders' Conclave take place on April 10-11, 2026?",
+        "options": [
+          "New Delhi",
+          "Bengaluru",
+          "Nagpur",
+          "Hyderabad"
+        ],
+        "answer": "Nagpur",
+        "explanation": "The Maintenance Command Commanders' Conclave took place in Vayusena Nagar, Nagpur."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "World-Border-Security-Congress-2026",
+      "topic": "International Security Conference",
+      "text": "India showcased its leadership in maritime security and reinforced its commitment to international cooperation during its participation in the World Border Security Congress 2026 held in Vienna, Austria from April 14-16, 2026.",
+      "details": {
+        "event_name": "World Border Security Congress 2026",
+        "dates": "April 14-16, 2026",
+        "location": "Vienna, Austria",
+        "indian_participation_focus": [
+          "Maritime security leadership",
+          "International cooperation"
+        ]
+      },
+      "mcq": {
+        "question": "In which city was the World Border Security Congress 2026, where India participated, held?",
+        "options": [
+          "New Delhi",
+          "Riyadh",
+          "Singapore",
+          "Vienna"
+        ],
+        "answer": "Vienna",
+        "explanation": "The World Border Security Congress 2026 was held in Vienna, Austria."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "ELF-Purvanchal-Expressway-Activation-2026",
+      "topic": "Air Force Readiness",
+      "text": "The Indian Air Force activated 'Emergency Landing Facility' (ELF) on the Purvanchal Expressway in Uttar Pradesh's Sultanpur District on April 22, 2026, both by day and night, showcasing its operational capability to bolster its defence readiness.",
+      "details": {
+        "facility_type": "Emergency Landing Facility (ELF)",
+        "location": "Purvanchal Expressway, Sultanpur District, Uttar Pradesh",
+        "activation_date": "April 22, 2026",
+        "purpose": "Bolster defence readiness, showcase operational capability"
+      },
+      "mcq": {
+        "question": "On which expressway in Uttar Pradesh was the Emergency Landing Facility (ELF) activated by the Indian Air Force on April 22, 2026?",
+        "options": [
+          "Yamuna Expressway",
+          "Agra-Lucknow Expressway",
+          "Purvanchal Expressway",
+          "Bundelkhand Expressway"
+        ],
+        "answer": "Purvanchal Expressway",
+        "explanation": "The Indian Air Force activated 'Emergency Landing Facility' (ELF) on the Purvanchal Expressway in Uttar Pradesh's Sultanpur District."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "India-Egypt-JDC-2026",
+      "topic": "International Relations",
+      "text": "The India-Egypt Joint Defence Committee (JDC) met in Cairo from April 20 to 22, 2026, to enhance bilateral defence cooperation. The Indian delegation, led by Joint Secretary Shri Amitabh Prasad, included senior representatives from the Ministry of Defence and Defence Forces.",
+      "details": {
+        "meeting_name": "India-Egypt Joint Defence Committee (JDC)",
+        "dates": "April 20-22, 2026",
+        "location": "Cairo",
+        "indian_delegation_leader": "Joint Secretary Shri Amitabh Prasad",
+        "purpose": "Enhance bilateral defence cooperation"
+      },
+      "mcq": {
+        "question": "The India-Egypt Joint Defence Committee (JDC) met in April 2026 in which city to enhance bilateral defence cooperation?",
+        "options": [
+          "New Delhi",
+          "Cairo",
+          "Maputo",
+          "Nairobi"
+        ],
+        "answer": "Cairo",
+        "explanation": "The India-Egypt Joint Defence Committee (JDC) met in Cairo from April 20 to 22, 2026."
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": "C295 Transport Aircraft",
+      "branch": "Air Force",
+      "origin": "India/Airbus",
+      "type": "Transport Aircraft",
+      "quantity": "First Made-in-India scheduled for delivery",
+      "wikiLink": "https://en.wikipedia.org/wiki/Airbus_C295"
+    },
+    {
+      "name": "BrahMos Supersonic Cruise Missile",
+      "branch": "Air Force",
+      "origin": "India/Russia",
+      "type": "Cruise Missile",
+      "quantity": "Equipped on 40 Sukhoi Su-30MKI jets",
+      "wikiLink": "https://en.wikipedia.org/wiki/BrahMos"
+    },
+    {
+      "name": "Sukhoi Su-30MKI",
+      "branch": "Air Force",
+      "origin": "Russia/India",
+      "type": "Fighter Jet",
+      "quantity": "40 equipped with BrahMos",
+      "wikiLink": "https://en.wikipedia.org/wiki/Sukhoi_Su-30MKI"
+    },
+    {
+      "name": "VSHORADS missile system",
+      "branch": "Army/Air Force",
+      "origin": "India",
+      "type": "Man-portable Air Defence System (MANPADS)",
+      "quantity": "Indigenous, trials completed",
+      "wikiLink": "https://en.wikipedia.org/wiki/VSHORADS"
+    },
+    {
+      "name": "ALH Mk-III (Maritime Role) helicopters",
+      "branch": "Indian Coast Guard",
+      "origin": "India",
+      "type": "Helicopter",
+      "quantity": "Six",
+      "wikiLink": "https://en.wikipedia.org/wiki/HAL_Dhruv"
+    },
+    {
+      "name": "VL-Shtil surface-to-air missiles",
+      "branch": "Indian Navy",
+      "origin": "Russia",
+      "type": "Surface-to-Air Missile",
+      "quantity": "Procured",
+      "wikiLink": "https://en.wikipedia.org/wiki/Shtil-1"
+    },
+    {
+      "name": "DSC A 23",
+      "branch": "Navy",
+      "origin": "India",
+      "type": "Diving Support Craft",
+      "quantity": "Fourth of five launched",
+      "wikiLink": "https://en.wikipedia.org/wiki/Diving_Support_Craft"
+    },
+    {
+      "name": "ULPGM-V3 missile",
+      "branch": "Army/Air Force",
+      "origin": "India",
+      "type": "Precision Guided Missile (Anti-tank)",
+      "quantity": "Final development trials completed",
+      "wikiLink": null
+    },
+    {
+      "name": "IL-76 strategic airlift aircraft (Gajraj)",
+      "branch": "Air Force",
+      "origin": "Russia",
+      "type": "Transport Aircraft",
+      "quantity": "Used for relic transport",
+      "wikiLink": "https://en.wikipedia.org/wiki/Ilyushin_Il-76"
+    },
+    {
+      "name": "Advanced Light Helicopter (ALH) Dhruv",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "Helicopter",
+      "quantity": "Participated in Singapore Airshow",
+      "wikiLink": "https://en.wikipedia.org/wiki/HAL_Dhruv"
+    },
+    {
+      "name": "Agni-3 Intermediate Range Ballistic Missile",
+      "branch": "Army/Air Force",
+      "origin": "India",
+      "type": "Ballistic Missile",
+      "quantity": "Successfully test-fired",
+      "wikiLink": "https://en.wikipedia.org/wiki/Agni-III"
+    },
+    {
+      "name": "Dornier 228 Aircraft",
+      "branch": "Indian Coast Guard",
+      "origin": "Germany/India (HAL)",
+      "type": "Maritime Surveillance Aircraft",
+      "quantity": "Eight",
+      "wikiLink": "https://en.wikipedia.org/wiki/Dornier_228"
+    },
+    {
+      "name": "Airbus H-125 Light Utility Helicopter",
+      "branch": "India/Airbus",
+      "origin": "France/India",
+      "type": "Helicopter",
+      "quantity": "Final Assembly Line inaugurated",
+      "wikiLink": "https://en.wikipedia.org/wiki/Airbus_H125"
+    },
+    {
+      "name": "Tunguska Air Defence Missile System",
+      "branch": "Army/Air Force",
+      "origin": "Russia",
+      "type": "Air Defence System",
+      "quantity": "Procured",
+      "wikiLink": "https://en.wikipedia.org/wiki/2K22_Tunguska"
+    },
+    {
+      "name": "P8I Long-Range Maritime Reconnaissance Aircraft",
+      "branch": "Navy",
+      "origin": "USA",
+      "type": "Maritime Reconnaissance Aircraft",
+      "quantity": "Inspection (Depot Level) procured",
+      "wikiLink": "https://en.wikipedia.org/wiki/Boeing_P-8_Poseidon"
+    },
+    {
+      "name": "Mountain Radars",
+      "branch": "Air Force",
+      "origin": "India (BEL)",
+      "type": "Radar System",
+      "quantity": "Two",
+      "wikiLink": null
+    }
+  ],
+  "military_exercises": [
+    {
+      "name": "International Fleet Review (IFR)",
+      "countries": "India (host) + 74 countries",
+      "type": "Naval Review",
+      "location": "Off Visakhapatnam",
+      "year": "2026"
+    }
+  ],
+  "notes": []
+}

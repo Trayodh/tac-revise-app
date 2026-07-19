@@ -1,0 +1,962 @@
+{
+  "current_affairs": [
+    {
+      "month_year": "April 2026",
+      "id": "ca-20260425-01",
+      "topic": "Defence Technology",
+      "text": "The Advanced Armoured Platforms (Tracked and Wheeled), designed and developed by Vehicles Research & Development Establishment (VRDE), were unveiled by Secretary Department of Defence (R&D) & Chairman DRDO Dr Samir V Kamat at DRDO's laboratory in Ahilyanagar, Maharashtra on April 25, 2026.",
+      "details": {
+        "platforms": "Advanced Armoured Platforms (Tracked and Wheeled)",
+        "developer": "Vehicles Research & Development Establishment (VRDE)",
+        "unveiled_by": "Secretary Department of Defence (R&D) & Chairman DRDO Dr Samir V Kamat",
+        "location": "DRDO's laboratory in Ahilyanagar, Maharashtra",
+        "date": "April 25, 2026"
+      },
+      "mcq": {
+        "question": "Which organization designed and developed the Advanced Armoured Platforms (Tracked and Wheeled) unveiled in April 2026?",
+        "options": [
+          "Defence Research and Development Organisation (DRDO)",
+          "Vehicles Research & Development Establishment (VRDE)",
+          "Bharat Dynamics Limited (BDL)",
+          "Hindustan Aeronautics Limited (HAL)"
+        ],
+        "answer": "Vehicles Research & Development Establishment (VRDE)",
+        "explanation": "The Advanced Armoured Platforms were designed and developed by Vehicles Research & Development Establishment (VRDE), a DRDO laboratory."
+      }
+    },
+    {
+      "month_year": "2026",
+      "id": "ca-2026XX-02",
+      "topic": "Naval Deployment",
+      "text": "Indian Ocean Ship (IOS) SAGAR, INS Sunayna, arrived at Changi Naval Base, Singapore, marking her fourth port call during the ongoing IOS SAGAR deployment under the vision of MAHASAGAR (Mutual and Holistic Advancement for Security and Growth Across Regions).",
+      "details": {
+        "ship_name": "IOS SAGAR (INS Sunayna)",
+        "port_call_location": "Changi Naval Base, Singapore",
+        "port_call_number": "Fourth",
+        "deployment_vision": "MAHASAGAR (Mutual and Holistic Advancement for Security and Growth Across Regions)"
+      },
+      "mcq": {
+        "question": "Which Indian Naval Ship (INS) recently made its fourth port call at Changi Naval Base, Singapore, under the MAHASAGAR vision?",
+        "options": [
+          "INS Vikrant",
+          "INS Sunayna",
+          "INS Chennai",
+          "INS Kolkata"
+        ],
+        "answer": "INS Sunayna",
+        "explanation": "Indian Ocean Ship (IOS) SAGAR, INS Sunayna, arrived at Changi Naval Base, Singapore, for its fourth port call under the MAHASAGAR vision."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-20260507-03",
+      "topic": "Defence Technology, Missile Test",
+      "text": "On May 7, 2026, DRDO and IAF conducted the first flight trial of the Tactical Advanced Range Augmentation (TARA) weapon off Odisha's coast. TARA is India's first indigenous glide weapon system, designed to convert unguided warheads into precision-guided weapons.",
+      "details": {
+        "weapon_name": "Tactical Advanced Range Augmentation (TARA) weapon",
+        "test_date": "May 7, 2026",
+        "agencies": "DRDO and IAF",
+        "test_location": "Off Odisha's coast",
+        "description": "India's first indigenous glide weapon system, converting unguided warheads into precision-guided weapons."
+      },
+      "mcq": {
+        "question": "What is the primary function of the TARA weapon, which underwent its first flight trial in May 2026?",
+        "options": [
+          "To intercept ballistic missiles",
+          "To convert unguided warheads into precision-guided weapons",
+          "To provide long-range air defence",
+          "To conduct anti-submarine warfare"
+        ],
+        "answer": "To convert unguided warheads into precision-guided weapons",
+        "explanation": "TARA is India's first indigenous glide weapon system, designed to convert unguided warheads into precision-guided weapons."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-20260508-04",
+      "topic": "Missile Technology, Test",
+      "text": "On May 08, 2026, India successfully flight-tested an Advanced Agni missile with a Multiple Independently Targeted Re-Entry Vehicle (MIRV) system from Dr. APJ Abdul Kalam Island, Odisha. The test involved multiple payloads aimed at different targets across a large area in the Indian Ocean Region.",
+      "details": {
+        "missile_name": "Advanced Agni missile with MIRV system",
+        "test_date": "May 08, 2026",
+        "test_location": "Dr. APJ Abdul Kalam Island, Odisha",
+        "features": "Multiple Independently Targeted Re-Entry Vehicle (MIRV) system, multiple payloads aimed at different targets across a large area in the Indian Ocean Region."
+      },
+      "mcq": {
+        "question": "From which location did India successfully flight-test an Advanced Agni missile with a MIRV system on May 08, 2026?",
+        "options": [
+          "Chandipur, Odisha",
+          "Pokhran, Rajasthan",
+          "Dr. APJ Abdul Kalam Island, Odisha",
+          "Sriharikota, Andhra Pradesh"
+        ],
+        "answer": "Dr. APJ Abdul Kalam Island, Odisha",
+        "explanation": "The Advanced Agni missile with a MIRV system was flight-tested from Dr. APJ Abdul Kalam Island, Odisha."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-202605XX-05",
+      "topic": "Defence Technology, Missile Trials",
+      "text": "The Defence Research & Development Organisation (DRDO) has successfully finished the final configuration trials for the Unmanned Aerial Vehicle Launched Precision Guided Missile (ULPGM)-V3 in both Air-to-Ground and Air-to-Air modes at a test range near Kurnool, Andhra Pradesh.",
+      "details": {
+        "missile_name": "Unmanned Aerial Vehicle Launched Precision Guided Missile (ULPGM)-V3",
+        "agency": "DRDO",
+        "trials_completed": "Final configuration trials",
+        "modes": "Air-to-Ground and Air-to-Air",
+        "test_location": "Test range near Kurnool, Andhra Pradesh"
+      },
+      "mcq": {
+        "question": "Which organization successfully completed the final configuration trials for the ULPGM-V3 missile?",
+        "options": [
+          "Indian Air Force (IAF)",
+          "Hindustan Aeronautics Limited (HAL)",
+          "Defence Research & Development Organisation (DRDO)",
+          "Bharat Dynamics Limited (BDL)"
+        ],
+        "answer": "Defence Research & Development Organisation (DRDO)",
+        "explanation": "DRDO successfully finished the final configuration trials for the Unmanned Aerial Vehicle Launched Precision Guided Missile (ULPGM)-V3."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-20260519-06",
+      "topic": "Bilateral Defence Relations",
+      "text": "Raksha Mantri Shri Rajnath Singh met with Vietnam's Deputy Prime Minister and Minister of National Defence, General Phan Van Giang, in Hanoi. They reviewed the expanding defense partnership and discussed enhancing cooperation in maritime security, the defense industry, training, and regional stability.",
+      "details": {
+        "indian_official": "Raksha Mantri Shri Rajnath Singh",
+        "vietnamese_official": "Deputy Prime Minister and Minister of National Defence, General Phan Van Giang",
+        "location": "Hanoi, Vietnam",
+        "discussion_areas": "Expanding defense partnership, maritime security, defense industry, training, regional stability."
+      },
+      "mcq": {
+        "question": "In May 2026, Raksha Mantri Shri Rajnath Singh met with Vietnam's Deputy Prime Minister and Minister of National Defence in which city to discuss defence cooperation?",
+        "options": [
+          "Ho Chi Minh City",
+          "Da Nang",
+          "Hanoi",
+          "Hue"
+        ],
+        "answer": "Hanoi",
+        "explanation": "Raksha Mantri Shri Rajnath Singh met with Vietnamese officials in Hanoi to review defence partnership."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-20260521-07",
+      "topic": "Bilateral Relations, Memorial",
+      "text": "Raksha Mantri Shri Rajnath Singh and Minister of Patriots & Veterans Affairs, Republic of Korea (RoK) Mr Kwon Oh-eul jointly inaugurated the Indian War Memorial at Imjingak Park, Seoul on May 21, 2026. This memorial was constructed as part of the commemorative events marking the 75th anniversary of the Korean War.",
+      "details": {
+        "indian_official": "Raksha Mantri Shri Rajnath Singh",
+        "rok_official": "Minister of Patriots & Veterans Affairs, Mr Kwon Oh-eul",
+        "event": "Inauguration of Indian War Memorial",
+        "location": "Imjingak Park, Seoul, Republic of Korea",
+        "date": "May 21, 2026",
+        "significance": "Part of commemorative events marking the 75th anniversary of the Korean War."
+      },
+      "mcq": {
+        "question": "The Indian War Memorial was jointly inaugurated in May 2026 at Imjingak Park, Seoul, to commemorate which significant event?",
+        "options": [
+          "75th anniversary of World War II",
+          "75th anniversary of the Korean War",
+          "100th anniversary of India's independence",
+          "50th anniversary of the Vietnam War"
+        ],
+        "answer": "75th anniversary of the Korean War",
+        "explanation": "The Indian War Memorial was constructed as part of the commemorative events marking the 75th anniversary of the Korean War."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-20260528-08",
+      "topic": "Bilateral Defence Relations",
+      "text": "Defence Secretary Shri Rajesh Kumar Singh and Permanent Secretary (Defence) Mr Joseph Leong co-chaired the 16th India-Singapore Defence Policy Dialogue in Singapore on May 28, 2026.",
+      "details": {
+        "indian_official": "Defence Secretary Shri Rajesh Kumar Singh",
+        "singapore_official": "Permanent Secretary (Defence) Mr Joseph Leong",
+        "event": "16th India-Singapore Defence Policy Dialogue",
+        "location": "Singapore",
+        "date": "May 28, 2026"
+      },
+      "mcq": {
+        "question": "Who co-chaired the 16th India-Singapore Defence Policy Dialogue in Singapore on May 28, 2026, from the Indian side?",
+        "options": [
+          "Raksha Mantri Shri Rajnath Singh",
+          "Defence Secretary Shri Rajesh Kumar Singh",
+          "Chief of Defence Staff",
+          "Foreign Secretary"
+        ],
+        "answer": "Defence Secretary Shri Rajesh Kumar Singh",
+        "explanation": "Defence Secretary Shri Rajesh Kumar Singh co-chaired the 16th India-Singapore Defence Policy Dialogue."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-20260520-09",
+      "topic": "Bilateral Defence Relations",
+      "text": "Raksha Mantri Shri Rajnath Singh and Minister of National Defence, Republic of Korea (RoK) Mr Ahn Gyu-back held comprehensive bilateral discussions in Seoul on May 20, 2026.",
+      "details": {
+        "indian_official": "Raksha Mantri Shri Rajnath Singh",
+        "rok_official": "Minister of National Defence, Mr Ahn Gyu-back",
+        "event": "Bilateral discussions",
+        "location": "Seoul",
+        "date": "May 20, 2026"
+      },
+      "mcq": {
+        "question": "On May 20, 2026, Raksha Mantri Shri Rajnath Singh held bilateral discussions with the Minister of National Defence of which country in Seoul?",
+        "options": [
+          "Japan",
+          "Vietnam",
+          "Republic of Korea",
+          "Singapore"
+        ],
+        "answer": "Republic of Korea",
+        "explanation": "Raksha Mantri Shri Rajnath Singh held discussions with the Minister of National Defence, Republic of Korea, Mr Ahn Gyu-back in Seoul."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-20260526-10",
+      "topic": "Indian Air Force, Anniversary",
+      "text": "The iconic Indian Air Force formation aerobatic team, the Suryakiran Aerobatic Team, marked its 30th Anniversary at Air Force Station Bidar on May 26, 2026.",
+      "details": {
+        "team_name": "Suryakiran Aerobatic Team",
+        "branch": "Indian Air Force",
+        "event": "30th Anniversary",
+        "location": "Air Force Station Bidar",
+        "date": "May 26, 2026"
+      },
+      "mcq": {
+        "question": "Which Indian Air Force aerobatic team celebrated its 30th Anniversary at Air Force Station Bidar on May 26, 2026?",
+        "options": [
+          "Sarang Aerobatic Team",
+          "Akash Ganga Team",
+          "Suryakiran Aerobatic Team",
+          "Daring Devils"
+        ],
+        "answer": "Suryakiran Aerobatic Team",
+        "explanation": "The Suryakiran Aerobatic Team of the Indian Air Force marked its 30th Anniversary at Air Force Station Bidar."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-20260604-11",
+      "topic": "Bilateral Defence Relations",
+      "text": "The inaugural meeting of the India-Zimbabwe Joint Defence Committee (JDC) took place in New Delhi on June 04, 2026. Both sides agreed to enhance bilateral defence ties by expanding existing cooperation in areas such as training, support, and maintenance of common air assets. They also discussed ways to collaborate in new areas including joint manufacturing, counter-terrorism, border management, and peacekeeping.",
+      "details": {
+        "event": "Inaugural meeting of India-Zimbabwe Joint Defence Committee (JDC)",
+        "location": "New Delhi",
+        "date": "June 04, 2026",
+        "cooperation_areas": "Training, support and maintenance of common air assets, joint manufacturing, counter-terrorism, border management, peacekeeping."
+      },
+      "mcq": {
+        "question": "The inaugural meeting of the India-Zimbabwe Joint Defence Committee (JDC) took place in June 2026 in which city?",
+        "options": [
+          "Harare",
+          "New Delhi",
+          "Mumbai",
+          "Bengaluru"
+        ],
+        "answer": "New Delhi",
+        "explanation": "The inaugural meeting of the India-Zimbabwe Joint Defence Committee (JDC) was held in New Delhi."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-202606XX-12",
+      "topic": "Defence Infrastructure, Renewable Energy",
+      "text": "In a significant move for energy security and renewable energy, Raksha Mantri Shri Rajnath Singh has approved a 250 MW Solar Power Project with Battery Energy Storage at Sitapur, Uttar Pradesh, utilizing around 850 acres of vacant defense land.",
+      "details": {
+        "project_name": "250 MW Solar Power Project with Battery Energy Storage",
+        "approved_by": "Raksha Mantri Shri Rajnath Singh",
+        "location": "Sitapur, Uttar Pradesh",
+        "land_utilised": "Around 850 acres of vacant defense land",
+        "purpose": "Energy security and renewable energy"
+      },
+      "mcq": {
+        "question": "A 250 MW Solar Power Project with Battery Energy Storage has been approved for which location in Uttar Pradesh, utilizing vacant defense land?",
+        "options": [
+          "Lucknow",
+          "Kanpur",
+          "Sitapur",
+          "Varanasi"
+        ],
+        "answer": "Sitapur",
+        "explanation": "The 250 MW Solar Power Project was approved for Sitapur, Uttar Pradesh."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-20260526-13",
+      "topic": "Maritime Security, Indian Navy",
+      "text": "The Indian Navy recovered an unexploded missile warhead from the MT Olympic Life tanker. The Marshall Islands-flagged tanker, traveling from Fujairah to Kochi, reported a hull explosion off Oman on May 26, 2026, with no Indian nationals onboard.",
+      "details": {
+        "incident": "Recovery of unexploded missile warhead",
+        "agency": "Indian Navy",
+        "vessel": "MT Olympic Life tanker (Marshall Islands-flagged)",
+        "incident_date": "May 26, 2026",
+        "incident_location": "Off Oman",
+        "vessel_route": "Fujairah to Kochi",
+        "casualties": "No Indian nationals onboard"
+      },
+      "mcq": {
+        "question": "Which tanker, traveling from Fujairah to Kochi, reported a hull explosion off Oman in May 2026, from which the Indian Navy later recovered an unexploded missile warhead?",
+        "options": [
+          "MT Prahlad",
+          "MT Olympic Life",
+          "MT Shakti",
+          "MT Varuna"
+        ],
+        "answer": "MT Olympic Life",
+        "explanation": "The Indian Navy recovered an unexploded missile warhead from the MT Olympic Life tanker after it reported a hull explosion."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-20260612-14",
+      "topic": "Defence Infrastructure",
+      "text": "Raksha Mantri Shri Rajnath Singh inaugurated an Advanced Weapon System Complex at DRDO's Defence Research & Development Laboratory (DRDL), Dr APJ Abdul Kalam Missile Complex during his visit to Hyderabad in Telangana on June 12, 2026.",
+      "details": {
+        "event": "Inauguration of Advanced Weapon System Complex",
+        "inaugurated_by": "Raksha Mantri Shri Rajnath Singh",
+        "location": "DRDO's Defence Research & Development Laboratory (DRDL), Dr APJ Abdul Kalam Missile Complex, Hyderabad, Telangana",
+        "date": "June 12, 2026"
+      },
+      "mcq": {
+        "question": "Where was the Advanced Weapon System Complex inaugurated by Raksha Mantri Shri Rajnath Singh on June 12, 2026?",
+        "options": [
+          "Bengaluru, Karnataka",
+          "Pune, Maharashtra",
+          "Hyderabad, Telangana",
+          "Chandipur, Odisha"
+        ],
+        "answer": "Hyderabad, Telangana",
+        "explanation": "The Advanced Weapon System Complex was inaugurated at DRDL, Dr APJ Abdul Kalam Missile Complex, Hyderabad, Telangana."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-20260615-15",
+      "topic": "Missile Test",
+      "text": "Defence Research & Development Organisation (DRDO) conducted a successful flight-test of the Long Range Land Attack Cruise Missile (LRLACM) from Dr APJ Abdul Kalam Island off the coast of Odisha on June 15, 2026. All test objectives were fully met.",
+      "details": {
+        "missile_name": "Long Range Land Attack Cruise Missile (LRLACM)",
+        "agency": "DRDO",
+        "test_date": "June 15, 2026",
+        "test_location": "Dr APJ Abdul Kalam Island off the coast of Odisha",
+        "outcome": "Successful, all test objectives met."
+      },
+      "mcq": {
+        "question": "From where did DRDO conduct a successful flight-test of the Long Range Land Attack Cruise Missile (LRLACM) on June 15, 2026?",
+        "options": [
+          "Pokhran, Rajasthan",
+          "Sriharikota, Andhra Pradesh",
+          "Dr APJ Abdul Kalam Island, Odisha",
+          "Integrated Test Range, Chandipur"
+        ],
+        "answer": "Dr APJ Abdul Kalam Island, Odisha",
+        "explanation": "The LRLACM was flight-tested from Dr APJ Abdul Kalam Island off the coast of Odisha."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-20260616-16",
+      "topic": "Bilateral Defence Relations",
+      "text": "The 10th Thailand-India Defence Dialogue took place in Bangkok on June 16, 2026, to review the full spectrum of bilateral defence cooperation and exchange views on regional & global security issues of mutual interest.",
+      "details": {
+        "event": "10th Thailand-India Defence Dialogue",
+        "location": "Bangkok",
+        "date": "June 16, 2026",
+        "agenda": "Review bilateral defence cooperation, exchange views on regional & global security issues."
+      },
+      "mcq": {
+        "question": "The 10th Thailand-India Defence Dialogue was held in June 2026 in which city?",
+        "options": [
+          "New Delhi",
+          "Chiang Mai",
+          "Bangkok",
+          "Phuket"
+        ],
+        "answer": "Bangkok",
+        "explanation": "The 10th Thailand-India Defence Dialogue took place in Bangkok."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-20260617-17",
+      "topic": "Defence Production, Economy",
+      "text": "India's annual defence production surged to an all-time high of Rs 1.78 lakh crore in the Financial Year (FY) 2025-26. This represents a 15.6% growth over the previous fiscal year's output of Rs 1.54 lakh crore and a staggering 110% increase since FY 2020-21 when the figure was Rs 84,643 crore.",
+      "details": {
+        "financial_year": "FY 2025-26",
+        "total_production": "Rs 1.78 lakh crore",
+        "growth_over_previous_FY": "15.6% (from Rs 1.54 lakh crore)",
+        "growth_over_FY2020-21": "110% (from Rs 84,643 crore)",
+        "private_sector_contribution_FY25-26": "Around Rs 42,000 crore (24% of total production)",
+        "defence_exports_FY25-26": "Rs 38,424 crore"
+      },
+      "mcq": {
+        "question": "What was India's annual defence production in Financial Year 2025-26, reaching an all-time high?",
+        "options": [
+          "Rs 1.54 lakh crore",
+          "Rs 1.78 lakh crore",
+          "Rs 84,643 crore",
+          "Rs 42,000 crore"
+        ],
+        "answer": "Rs 1.78 lakh crore",
+        "explanation": "India's annual defence production surged to an all-time high of Rs 1.78 lakh crore in FY 2025-26."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-202606XX-18",
+      "topic": "Defence Acquisition",
+      "text": "The Ministry of Defence has signed a contract with Bharat Forge Limited, Pune for the acquisition of 12 sets of 1.25 MW Marine Gas Turbine Generators, with a minimum 60% indigenous content, for the Indian Navy at a total cost of around Rs 425 crore.",
+      "details": {
+        "acquisition_item": "1.25 MW Marine Gas Turbine Generators",
+        "quantity": "12 sets",
+        "contract_with": "Bharat Forge Limited, Pune",
+        "for_branch": "Indian Navy",
+        "indigenous_content": "Minimum 60%",
+        "total_cost": "Around Rs 425 crore"
+      },
+      "mcq": {
+        "question": "For which branch of the Indian armed forces will Bharat Forge Limited supply 12 sets of 1.25 MW Marine Gas Turbine Generators?",
+        "options": [
+          "Indian Army",
+          "Indian Navy",
+          "Indian Air Force",
+          "Indian Coast Guard"
+        ],
+        "answer": "Indian Navy",
+        "explanation": "The contract is for the acquisition of Marine Gas Turbine Generators for the Indian Navy."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-202606XX-19",
+      "topic": "Defence Technology, Air Force",
+      "text": "Defence Research & Development Organisation (DRDO) has achieved a significant milestone with the handing over of the Final Operational Clearance (FOC) certificate of the Indigenous 'Netra' Airborne Early Warning and Control (AEW&C) system to the Indian Air Force (IAF).",
+      "details": {
+        "system_name": "'Netra' Airborne Early Warning and Control (AEW&C) system",
+        "agency": "DRDO",
+        "milestone": "Handing over of Final Operational Clearance (FOC) certificate",
+        "for_branch": "Indian Air Force (IAF)",
+        "type": "Indigenous"
+      },
+      "mcq": {
+        "question": "Which indigenous system, for which DRDO handed over the Final Operational Clearance (FOC) certificate to the Indian Air Force, is an Airborne Early Warning and Control (AEW&C) system?",
+        "options": [
+          "Akash",
+          "Tejas",
+          "Netra",
+          "Dhruti"
+        ],
+        "answer": "Netra",
+        "explanation": "The 'Netra' Airborne Early Warning and Control (AEW&C) system received its FOC certificate from DRDO for the IAF."
+      }
+    },
+    {
+      "month_year": "2026",
+      "id": "ca-2026XX-20",
+      "topic": "Naval Shipbuilding",
+      "text": "The keel-laying ceremony for the fourth of six Next Generation Offshore Patrol Vessels (OPVs) for the Indian Coast Guard took place in Mumbai in 2026. This vessel features modern machinery and systems, designed and built by Mazagon Dock Shipbuilders Ltd, in support of the Aatmanirbhar Bharat initiative.",
+      "details": {
+        "event": "Keel-laying ceremony",
+        "vessel_type": "Next Generation Offshore Patrol Vessels (OPVs)",
+        "number_in_series": "Fourth of six",
+        "for_branch": "Indian Coast Guard",
+        "location": "Mumbai",
+        "year": "2026",
+        "builder": "Mazagon Dock Shipbuilders Ltd",
+        "initiative": "Aatmanirbhar Bharat"
+      },
+      "mcq": {
+        "question": "The keel-laying ceremony for the fourth of six Next Generation Offshore Patrol Vessels (OPVs) for the Indian Coast Guard took place in Mumbai in 2026. Which company is building these vessels?",
+        "options": [
+          "Garden Reach Shipbuilders & Engineers (GRSE)",
+          "Cochin Shipyard Limited (CSL)",
+          "Mazagon Dock Shipbuilders Ltd (MDL)",
+          "Hindustan Shipyard Limited (HSL)"
+        ],
+        "answer": "Mazagon Dock Shipbuilders Ltd (MDL)",
+        "explanation": "The OPVs for the Indian Coast Guard are being designed and built by Mazagon Dock Shipbuilders Ltd."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-20260629-21",
+      "topic": "Naval Deployment",
+      "text": "Indian Naval Ships Udaygiri, Kavaratti, and Shakti of the Eastern Fleet, under the Command of RAdm Alok Ananda, Flag Officer Commanding Eastern Fleet, departed Sattahip, Thailand, on June 29, 2026, on completion of a port call for further deployment in the South East Asia Region.",
+      "details": {
+        "ships": "INS Udaygiri, INS Kavaratti, INS Shakti",
+        "fleet": "Eastern Fleet",
+        "commanded_by": "RAdm Alok Ananda, Flag Officer Commanding Eastern Fleet",
+        "departure_location": "Sattahip, Thailand",
+        "departure_date": "June 29, 2026",
+        "deployment_region": "South East Asia Region"
+      },
+      "mcq": {
+        "question": "Which Indian Naval Ships of the Eastern Fleet departed Sattahip, Thailand, on June 29, 2026, for further deployment in the South East Asia Region?",
+        "options": [
+          "INS Vikrant, INS Chennai, INS Kolkata",
+          "INS Udaygiri, INS Kavaratti, INS Shakti",
+          "INS Sahyadri, INS Shivalik, INS Satpura",
+          "INS Rajput, INS Ranvir, INS Ranvijay"
+        ],
+        "answer": "INS Udaygiri, INS Kavaratti, INS Shakti",
+        "explanation": "INS Udaygiri, Kavaratti, and Shakti departed Thailand for deployment in the South East Asia Region."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-20260629-22",
+      "topic": "Indian Coast Guard, Rescue Operation",
+      "text": "The Indian Coast Guard successfully rescued six fishermen from the distressed Indian Fishing Boat (IFB) Manju Matha in a Maritime Search and Rescue (SAR) operation off the coast of Mangaluru on June 29, 2026.",
+      "details": {
+        "agency": "Indian Coast Guard",
+        "operation_type": "Maritime Search and Rescue (SAR)",
+        "rescued": "Six fishermen",
+        "distressed_vessel": "Indian Fishing Boat (IFB) Manju Matha",
+        "location": "Off the coast of Mangaluru",
+        "date": "June 29, 2026"
+      },
+      "mcq": {
+        "question": "The Indian Coast Guard successfully rescued six fishermen from the distressed IFB Manju Matha off the coast of Mangaluru on June 29, 2026. What type of operation was this?",
+        "options": [
+          "Anti-piracy operation",
+          "Anti-smuggling operation",
+          "Maritime Search and Rescue (SAR) operation",
+          "Environmental protection operation"
+        ],
+        "answer": "Maritime Search and Rescue (SAR) operation",
+        "explanation": "The operation conducted by the Indian Coast Guard was a Maritime Search and Rescue (SAR) operation."
+      }
+    },
+    {
+      "month_year": "July 2026",
+      "id": "ca-20260701-23",
+      "topic": "Bilateral Defence Relations",
+      "text": "The 12th India-Malaysia Sub Committee Meeting on Military Cooperation (SCMC) took place in New Delhi on July 01, 2026.",
+      "details": {
+        "event": "12th India-Malaysia Sub Committee Meeting on Military Cooperation (SCMC)",
+        "location": "New Delhi",
+        "date": "July 01, 2026"
+      },
+      "mcq": {
+        "question": "The 12th India-Malaysia Sub Committee Meeting on Military Cooperation (SCMC) was held in July 2026 in which city?",
+        "options": [
+          "Kuala Lumpur",
+          "New Delhi",
+          "Mumbai",
+          "Chennai"
+        ],
+        "answer": "New Delhi",
+        "explanation": "The 12th India-Malaysia Sub Committee Meeting on Military Cooperation (SCMC) took place in New Delhi."
+      }
+    },
+    {
+      "month_year": "July 2026",
+      "id": "ca-20260703-24",
+      "topic": "Defence Acquisition",
+      "text": "The Defence Acquisition Council (DAC), under the chairmanship of Raksha Mantri Shri Rajnath Singh, on July 03, 2026, accorded Acceptance of Necessity (AoN) i.e., in-principle administrative approval to various acquisition proposals for the Defence Forces at an estimated cost of about Rs 52,000 crore.",
+      "details": {
+        "body": "Defence Acquisition Council (DAC)",
+        "chairman": "Raksha Mantri Shri Rajnath Singh",
+        "date": "July 03, 2026",
+        "approval_type": "Acceptance of Necessity (AoN)",
+        "cost": "About Rs 52,000 crore",
+        "proposals_for": "Indian Army (Anti-Unmanned Aerial Vehicles (UAV) Electronic Warfare System 'AKASH TARANG', Man Portable Anti-Tank Guided Missile (MPATGM) Systems, Medium Range Surface-to-Air Missile (MRSAM) Weapon System, Very Short Range Air Defence System (V-SHORADS), Active Protection System for Tanks and Jet Based Kamikaze Drone System), Indian Navy (Multi Influence Ground Mine (MIGM), Naval Shipborne Unmanned Aerial System (NSUAS) and Land Based Testing Facility (LBTF) for Electric Propulsion System), Indian Air Force (Fixed-Wing Based High Altitude Pseudo Satellite (FW-HAPS) and other proposals)."
+      },
+      "mcq": {
+        "question": "What was the estimated cost of the various acquisition proposals approved by the Defence Acquisition Council (DAC) on July 03, 2026?",
+        "options": [
+          "Rs 25,000 crore",
+          "Rs 38,000 crore",
+          "Rs 52,000 crore",
+          "Rs 75,000 crore"
+        ],
+        "answer": "Rs 52,000 crore",
+        "explanation": "The DAC accorded AoN for acquisition proposals worth about Rs 52,000 crore."
+      }
+    },
+    {
+      "month_year": "July 2026",
+      "id": "ca-20260706-25",
+      "topic": "Bilateral Defence Relations",
+      "text": "The second Joint Defence Cooperation Committee (JDCC) meeting between India and Rwanda took place in New Delhi on July 06 & 07, 2026. The two sides decided to expand partnership in the field of military training, military exercises, medical cooperation, and defence industries.",
+      "details": {
+        "event": "Second Joint Defence Cooperation Committee (JDCC) meeting",
+        "countries": "India and Rwanda",
+        "location": "New Delhi",
+        "date": "July 06 & 07, 2026",
+        "cooperation_areas": "Military training, military exercises, medical cooperation, defence industries."
+      },
+      "mcq": {
+        "question": "The second Joint Defence Cooperation Committee (JDCC) meeting between India and Rwanda was held in July 2026 in which city?",
+        "options": [
+          "Kigali",
+          "New Delhi",
+          "Mumbai",
+          "Bengaluru"
+        ],
+        "answer": "New Delhi",
+        "explanation": "The JDCC meeting between India and Rwanda took place in New Delhi."
+      }
+    },
+    {
+      "month_year": "July 2026",
+      "id": "ca-20260708-26",
+      "topic": "Missile Test",
+      "text": "Defence Research & Development Organisation (DRDO) conducted a successful flight-test of Pinaka Long Range Guided Rocket (LRGR) at the Integrated Test Range (ITR), Chandipur on July 08, 2026. The rocket was tested for a user-defined minimum range of 60 kms.",
+      "details": {
+        "rocket_name": "Pinaka Long Range Guided Rocket (LRGR)",
+        "agency": "DRDO",
+        "test_date": "July 08, 2026",
+        "test_location": "Integrated Test Range (ITR), Chandipur",
+        "minimum_range_tested": "60 kms",
+        "outcome": "Successful flight-test"
+      },
+      "mcq": {
+        "question": "What was the minimum range for which the Pinaka Long Range Guided Rocket (LRGR) was successfully flight-tested by DRDO on July 08, 2026?",
+        "options": [
+          "30 kms",
+          "60 kms",
+          "90 kms",
+          "120 kms"
+        ],
+        "answer": "60 kms",
+        "explanation": "The Pinaka LRGR was tested for a user-defined minimum range of 60 kms."
+      }
+    },
+    {
+      "month_year": "July 2026",
+      "id": "ca-20260713-27",
+      "topic": "Bilateral Defence Relations",
+      "text": "India and Japan held their 8th Defence Policy Dialogue in Tokyo, Japan on July 13, 2026. The Indian delegation was led by Defence Secretary Shri Rajesh Kumar Singh and the Japanese delegation was led by Vice Minister of Defence for International Affairs Mr. Kano Koji.",
+      "details": {
+        "event": "8th Defence Policy Dialogue",
+        "countries": "India and Japan",
+        "location": "Tokyo, Japan",
+        "date": "July 13, 2026",
+        "indian_delegation_head": "Defence Secretary Shri Rajesh Kumar Singh",
+        "japanese_delegation_head": "Vice Minister of Defence for International Affairs Mr. Kano Koji"
+      },
+      "mcq": {
+        "question": "Who led the Indian delegation at the 8th Defence Policy Dialogue held in Tokyo, Japan, on July 13, 2026?",
+        "options": [
+          "Raksha Mantri Shri Rajnath Singh",
+          "Chief of Defence Staff",
+          "Defence Secretary Shri Rajesh Kumar Singh",
+          "Foreign Secretary"
+        ],
+        "answer": "Defence Secretary Shri Rajesh Kumar Singh",
+        "explanation": "The Indian delegation was led by Defence Secretary Shri Rajesh Kumar Singh."
+      }
+    },
+    {
+      "month_year": "July 2026",
+      "id": "ca-20260714-28",
+      "topic": "Commemoration, Indian Army",
+      "text": "As part of the nationwide observance of Kargil Vijay Diwas 2026, Raksha Mantri Shri Rajnath Singh, on July 14, 2026, flagged off the 13-day 'Shaurya Vijay Yatra', a commemorative motorcycle expedition, from the National War Memorial, New Delhi to the Kargil War Memorial in Dras, Ladakh.",
+      "details": {
+        "event": "Kargil Vijay Diwas 2026 observance",
+        "flagged_off_by": "Raksha Mantri Shri Rajnath Singh",
+        "date": "July 14, 2026",
+        "expedition_name": "'Shaurya Vijay Yatra'",
+        "expedition_duration": "13-day",
+        "start_point": "National War Memorial, New Delhi",
+        "end_point": "Kargil War Memorial, Dras, Ladakh"
+      },
+      "mcq": {
+        "question": "On July 14, 2026, Raksha Mantri Shri Rajnath Singh flagged off the 'Shaurya Vijay Yatra' from the National War Memorial, New Delhi, to commemorate which event?",
+        "options": [
+          "Independence Day",
+          "Republic Day",
+          "Kargil Vijay Diwas",
+          "Army Day"
+        ],
+        "answer": "Kargil Vijay Diwas",
+        "explanation": "The 'Shaurya Vijay Yatra' was flagged off as part of the nationwide observance of Kargil Vijay Diwas 2026."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-20260630-29",
+      "topic": "Military Appointments, Indian Army",
+      "text": "General Upendra Dwivedi, PVSM, AVSM, superannuated on June 30, 2026, after more than four decades of distinguished service and relinquished the appointment of the Chief of the Army Staff (COAS).",
+      "details": {
+        "officer_name": "General Upendra Dwivedi, PVSM, AVSM",
+        "event": "Superannuation and relinquishing COAS appointment",
+        "date": "June 30, 2026",
+        "service_duration": "More than four decades"
+      },
+      "mcq": {
+        "question": "General Upendra Dwivedi superannuated and relinquished the appointment of Chief of the Army Staff (COAS) on which date in 2026?",
+        "options": [
+          "May 31, 2026",
+          "June 30, 2026",
+          "July 31, 2026",
+          "August 31, 2026"
+        ],
+        "answer": "June 30, 2026",
+        "explanation": "General Upendra Dwivedi superannuated on June 30, 2026."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-202605XX-30",
+      "topic": "Military Appointments",
+      "text": "Lt Gen NS Raja Subramani was appointed as the next Chief of Defence Staff (CDS) of India, succeeding Gen Anil Chauhan after his retirement in May 2026.",
+      "details": {
+        "new_cds": "Lt Gen NS Raja Subramani",
+        "predecessor": "Gen Anil Chauhan",
+        "appointment_date": "May 2026 (after Gen Anil Chauhan's retirement)",
+        "position": "Chief of Defence Staff (CDS)"
+      },
+      "mcq": {
+        "question": "Who was appointed as the next Chief of Defence Staff (CDS) of India in May 2026, succeeding Gen Anil Chauhan?",
+        "options": [
+          "Lt Gen Manoj Pande",
+          "Lt Gen NS Raja Subramani",
+          "Gen Bipin Rawat",
+          "Air Chief Marshal VR Chaudhari"
+        ],
+        "answer": "Lt Gen NS Raja Subramani",
+        "explanation": "Lt Gen NS Raja Subramani was appointed as the next CDS after Gen Anil Chauhan's retirement."
+      }
+    },
+    {
+      "month_year": "July 2026",
+      "id": "ca-20260701-31",
+      "topic": "Military Appointments, Indian Air Force",
+      "text": "Air Marshal Jasvir Singh Mann assumed charge as the Air Officer Commanding-in-Chief (AOC-in-C) of the Southern Air Command on July 1, 2026.",
+      "details": {
+        "officer_name": "Air Marshal Jasvir Singh Mann",
+        "appointment": "Air Officer Commanding-in-Chief (AOC-in-C)",
+        "command": "Southern Air Command",
+        "date": "July 1, 2026"
+      },
+      "mcq": {
+        "question": "Who assumed charge as the Air Officer Commanding-in-Chief (AOC-in-C) of the Southern Air Command on July 1, 2026?",
+        "options": [
+          "Air Marshal Ashutosh Dixit",
+          "Air Marshal Tarun Chaudhry",
+          "Air Marshal Jasvir Singh Mann",
+          "Air Marshal Vivek Ram Chaudhari"
+        ],
+        "answer": "Air Marshal Jasvir Singh Mann",
+        "explanation": "Air Marshal Jasvir Singh Mann assumed charge as AOC-in-C of Southern Air Command."
+      }
+    },
+    {
+      "month_year": "July 2026",
+      "id": "ca-202607XX-32",
+      "topic": "Military Appointments, Indian Air Force",
+      "text": "Air Marshal Ashutosh Dixit has been appointed as the next Vice Chief of the Air Staff of the Indian Air Force.",
+      "details": {
+        "officer_name": "Air Marshal Ashutosh Dixit",
+        "appointment": "Vice Chief of the Air Staff",
+        "branch": "Indian Air Force"
+      },
+      "mcq": {
+        "question": "Who has been appointed as the next Vice Chief of the Air Staff of the Indian Air Force?",
+        "options": [
+          "Air Marshal Jasvir Singh Mann",
+          "Air Marshal Ashutosh Dixit",
+          "Air Marshal Tarun Chaudhry",
+          "Air Chief Marshal VR Chaudhari"
+        ],
+        "answer": "Air Marshal Ashutosh Dixit",
+        "explanation": "Air Marshal Ashutosh Dixit has been appointed as the Vice Chief of the Air Staff."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "ca-20260401-33",
+      "topic": "Military Appointments, Indian Army",
+      "text": "Lieutenant General Dhiraj Seth, PVSM, UYSM, AVSM, assumed the appointment of the Vice Chief of the Army Staff (VCOAS) of the Indian Army on April 01, 2026.",
+      "details": {
+        "officer_name": "Lieutenant General Dhiraj Seth, PVSM, UYSM, AVSM",
+        "appointment": "Vice Chief of the Army Staff (VCOAS)",
+        "branch": "Indian Army",
+        "date": "April 01, 2026"
+      },
+      "mcq": {
+        "question": "Who assumed the appointment of Vice Chief of the Army Staff (VCOAS) of the Indian Army on April 01, 2026?",
+        "options": [
+          "Lt Gen Manoj Pande",
+          "Lt Gen Upendra Dwivedi",
+          "Lt Gen Dhiraj Seth",
+          "Lt Gen NS Raja Subramani"
+        ],
+        "answer": "Lt Gen Dhiraj Seth",
+        "explanation": "Lieutenant General Dhiraj Seth assumed the appointment of Vice Chief of the Army Staff."
+      }
+    },
+    {
+      "month_year": "July 2026",
+      "id": "ca-20260701-34",
+      "topic": "Military Appointments",
+      "text": "Air Marshal Tejinder Singh became the Chief of Integrated Defence Staff to the Chairman Chiefs of Staff Committee (CISC) on July 1, 2026. He is an alumnus of the National Defence Academy, Defence Service Staff College, and National Defence College, and was commissioned into the Indian Air Force's fighter stream on June 13, 1987.",
+      "details": {
+        "officer_name": "Air Marshal Tejinder Singh",
+        "appointment": "Chief of Integrated Defence Staff to the Chairman Chiefs of Staff Committee (CISC)",
+        "date": "July 1, 2026",
+        "background": "Alumnus of NDA, DSSC, NDC; commissioned into IAF fighter stream on June 13, 1987."
+      },
+      "mcq": {
+        "question": "Who became the Chief of Integrated Defence Staff to the Chairman Chiefs of Staff Committee (CISC) on July 1, 2026?",
+        "options": [
+          "Air Marshal Ashutosh Dixit",
+          "Air Marshal Jasvir Singh Mann",
+          "Air Marshal Tejinder Singh",
+          "Air Marshal Tarun Chaudhry"
+        ],
+        "answer": "Air Marshal Tejinder Singh",
+        "explanation": "Air Marshal Tejinder Singh assumed the role of Chief of Integrated Defence Staff to the CISC."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-20260601-35",
+      "topic": "Military Appointments, Indian Air Force",
+      "text": "Air Marshal Tarun Chaudhry assumed the appointment of Air Officer Commanding-in-Chief (AOC-in-C) of the Central Air Command on June 1, 2026.",
+      "details": {
+        "officer_name": "Air Marshal Tarun Chaudhry",
+        "appointment": "Air Officer Commanding-in-Chief (AOC-in-C)",
+        "command": "Central Air Command",
+        "date": "June 1, 2026"
+      },
+      "mcq": {
+        "question": "Who assumed the appointment of Air Officer Commanding-in-Chief (AOC-in-C) of the Central Air Command on June 1, 2026?",
+        "options": [
+          "Air Marshal Ashutosh Dixit",
+          "Air Marshal Jasvir Singh Mann",
+          "Air Marshal Tejinder Singh",
+          "Air Marshal Tarun Chaudhry"
+        ],
+        "answer": "Air Marshal Tarun Chaudhry",
+        "explanation": "Air Marshal Tarun Chaudhry assumed charge as AOC-in-C of Central Air Command."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-20260531-36",
+      "topic": "Military Appointments, Indian Navy",
+      "text": "Admiral Krishna Swaminathan, PVSM, AVSM, VSM, assumed charge as the 27th Chief of the Naval Staff of the Indian Navy on May 31, 2026, succeeding Admiral Dinesh Kumar Tripathi.",
+      "details": {
+        "new_cns": "Admiral Krishna Swaminathan, PVSM, AVSM, VSM",
+        "predecessor": "Admiral Dinesh Kumar Tripathi, PVSM, AVSM, NM",
+        "appointment_date": "May 31, 2026",
+        "position": "27th Chief of the Naval Staff",
+        "background": "Commissioned on July 01, 1987. A Communication and Electronic Warfare specialist. Commanded INS Vidyut, INS Vinash, INS Kulish, INS Mysore, and INS Vikramaditya."
+      },
+      "mcq": {
+        "question": "Who assumed charge as the 27th Chief of the Naval Staff of the Indian Navy on May 31, 2026?",
+        "options": [
+          "Admiral R Hari Kumar",
+          "Admiral Dinesh Kumar Tripathi",
+          "Admiral Krishna Swaminathan",
+          "Vice Admiral Ajay Kochhar"
+        ],
+        "answer": "Admiral Krishna Swaminathan",
+        "explanation": "Admiral Krishna Swaminathan assumed charge as the 27th Chief of the Naval Staff."
+      }
+    },
+    {
+      "month_year": "May 2026",
+      "id": "ca-20260529-37",
+      "topic": "Military Appointments, Indian Navy",
+      "text": "Vice Admiral Ajay Kochhar, PVSM, AVSM, NM, assumed charge as the 48th Vice Chief of the Naval Staff (VCNS) on May 29, 2026.",
+      "details": {
+        "officer_name": "Vice Admiral Ajay Kochhar, PVSM, AVSM, NM",
+        "appointment": "48th Vice Chief of the Naval Staff (VCNS)",
+        "branch": "Indian Navy",
+        "date": "May 29, 2026",
+        "background": "Commissioned on July 01, 1988. A specialist in Gunnery and Missile Systems. Commanded INS Nathak, Vibhuti, Kirpan, and aircraft carrier INS Vikramaditya."
+      },
+      "mcq": {
+        "question": "Who assumed charge as the 48th Vice Chief of the Naval Staff (VCNS) on May 29, 2026?",
+        "options": [
+          "Vice Admiral Sanjay Mahindru",
+          "Vice Admiral Ajay Kochhar",
+          "Admiral Krishna Swaminathan",
+          "Vice Admiral Dinesh Kumar Tripathi"
+        ],
+        "answer": "Vice Admiral Ajay Kochhar",
+        "explanation": "Vice Admiral Ajay Kochhar assumed charge as the 48th Vice Chief of the Naval Staff."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-202606XX-38",
+      "topic": "Military Appointments, Indian Army",
+      "text": "Lieutenant General Mohit Malhotra became the General Officer Commanding-in-Chief (GOC-in-C) of the Jaipur-based South Western Command after serving as Chief of Staff at Headquarters Eastern Command.",
+      "details": {
+        "officer_name": "Lieutenant General Mohit Malhotra",
+        "appointment": "General Officer Commanding-in-Chief (GOC-in-C)",
+        "command": "South Western Command (Jaipur-based)",
+        "previous_role": "Chief of Staff at Headquarters Eastern Command"
+      },
+      "mcq": {
+        "question": "Who became the General Officer Commanding-in-Chief (GOC-in-C) of the South Western Command after serving as Chief of Staff at Headquarters Eastern Command?",
+        "options": [
+          "Lt Gen Manoj Pande",
+          "Lt Gen Upendra Dwivedi",
+          "Lt Gen Mohit Malhotra",
+          "Lt Gen Dhiraj Seth"
+        ],
+        "answer": "Lt Gen Mohit Malhotra",
+        "explanation": "Lieutenant General Mohit Malhotra became the GOC-in-C of the South Western Command."
+      }
+    },
+    {
+      "month_year": "June 2026",
+      "id": "ca-20260601-39",
+      "topic": "Military Appointments, Indian Army (Military Nursing Service)",
+      "text": "Maj Gen Rachel Thomas assumed the appointment of Additional Director General (ADG) of the Military Nursing Service (MNS) on June 01, 2026. She succeeded Maj Gen Lissamma PV.",
+      "details": {
+        "officer_name": "Maj Gen Rachel Thomas",
+        "appointment": "Additional Director General (ADG) of the Military Nursing Service (MNS)",
+        "date": "June 01, 2026",
+        "predecessor": "Maj Gen Lissamma PV",
+        "background": "Commissioned into MNS on June 01, 1988."
+      },
+      "mcq": {
+        "question": "Who assumed the appointment of Additional Director General (ADG) of the Military Nursing Service (MNS) on June 01, 2026?",
+        "options": [
+          "Maj Gen Lissamma PV",
+          "Maj Gen Rachel Thomas",
+          "Maj Gen Priya Jhingan",
+          "Maj Gen Madhuri Kanitkar"
+        ],
+        "answer": "Maj Gen Rachel Thomas",
+        "explanation": "Maj Gen Rachel Thomas assumed the appointment of ADG MNS."
+      }
+    },
+    {
+      "month_year": "April 2026",
+      "id": "ca-202604XX-40",
+      "topic": "International Military Appointments",
+      "text": "In April 2026, Australia made a historic decision by appointing Lieutenant General Susan Coyle as its first female Chief of Army in 125 years.",
+      "details": {
+        "country": "Australia",
+        "officer_name": "Lieutenant General Susan Coyle",
+        "appointment": "First female Chief of Army",
+        "date": "April 2026",
+        "significance": "First female Chief of Army in 125 years."
+      },
+      "mcq": {
+        "question": "Who was appointed as Australia's first female Chief of Army in 125 years in April 2026?",
+        "options": [
+          "Lieutenant General Susan Coyle",
+          "General Linda Botterill",
+          "Major General Simone Wilkie",
+          "Brigadier Cheryl Gallagher"
+        ],
+        "answer": "Lieutenant General Susan Coyle",
+        "explanation": "Lieutenant General Susan Coyle was appointed as Australia's first female Chief of Army in 125 years."
+      }
+    }
+  ]
+}

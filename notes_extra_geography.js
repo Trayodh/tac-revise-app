@@ -2796,3 +2796,19 @@ EXPANDED_NOTES_DATA["geography-pyq-trends-topic"] = `
 </div>
 `;
 
+
+
+window.EXPANDED_NOTES_DATA["strait-of-hormuz-and-middle-east-geography"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Strait of Hormuz and Middle East Geography</h2>
+  <h2>Strait of Hormuz</h2><ul><li>The Strait of Hormuz is a strategically vital waterway connecting the <strong>Persian Gulf</strong> to the <strong>Gulf of Oman</strong> and the Arabian Sea.</li><li>Approximately <strong>20% of the world's oil supply</strong> passes through this strait.</li><li>At its narrowest point, the strait is about <strong>3 km wide</strong>.</li></ul><h2>Key Countries and Features in the Region</h2><ul><li><strong>Iran:</strong><ul><li>Capital: Tehran</li><li>Currency: Rial</li><li>Holds approximately <strong>10% of the world's oil reserves</strong> and <strong>15% of the world's gas reserves</strong>.</li></ul></li><li><strong>Zagros Mountains:</strong> A mountain range located primarily in Iran.</li><li><strong>Red Sea:</strong><ul><li>Known for its <strong>high salinity</strong>.</li><li>This high salinity is partly due to the lack of major rivers flowing into it, which would otherwise dilute its waters.</li></ul></li><li><strong>Other countries in the region:</strong> Turkiye, Iraq, Afghanistan, India, Pakistan, Egypt, Jordan, Kuwait, Saudi Arabia, Bahrain, Qatar, UAE, Oman, Yemen, Djibouti, Sudan, Eritrea.</li></ul>
+</div>
+`;
+
+
+window.EXPANDED_NOTES_DATA["middle-east-geographical-context"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Middle East Geographical Context</h2>
+  <h2>Middle East Geographical Context</h2><p>The Middle East region is characterized by several key countries and water bodies:</p><ul><li><strong>Countries:</strong> Turkiye, Iraq, Iran, Egypt, Kuwait, Saudi Arabia, Bahrain, Qatar, UAE, Oman, Yemen, Djibouti, Sudan, Eritrea.</li><li><strong>Water Bodies:</strong> Persian Gulf, Gulf of Oman, Red Sea.</li><li><strong>Straits:</strong> Strait of Hormuz (connecting Persian Gulf and Gulf of Oman).</li><li><strong>Mountains:</strong> Zagros Mountains (primarily in Iran).</li><li><strong>Red Sea Characteristics:</strong> Notably, the Red Sea region is characterized by high salinity and a lack of major rivers flowing into it.</li></ul>
+</div>
+`;
