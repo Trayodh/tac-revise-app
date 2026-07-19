@@ -92,21 +92,14 @@ async function handleAuthAction() {
     } else {
       if (window.supabaseClient) {
         let data, error;
-        // Admin Backdoor
-        if (email === 'trayodh@gmail.com' && password === 'admin1') {
-           data = { user: { id: 'admin-mock-id', email: email } };
-           error = null;
-           alert('Admin override activated. Logging in offline mode.');
-        } else {
-           const res = await window.supabaseClient.auth.signInWithPassword({
-             email: email,
-             password: password,
-           });
-           data = res.data;
-           error = res.error;
-           if (error) throw error;
-           alert('Sign in successful!');
-        }
+        const res = await window.supabaseClient.auth.signInWithPassword({
+          email: email,
+          password: password,
+        });
+        data = res.data;
+        error = res.error;
+        if (error) throw error;
+        alert('Sign in successful!');
         
         // Fetch user profile from Supabase
         let userStatus = email === 'trayodh@gmail.com' ? 'active' : 'pending_payment';
