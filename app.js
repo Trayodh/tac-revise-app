@@ -372,30 +372,46 @@ window.startStatusPoller = function() {
   if (window.statusPollerInterval) return; // Already running
   console.log("Starting live status poller...");
   window.statusPollerInterval = setInterval(async () => {
-    if (!window.supabaseClient || !STATE || !STATE.activeProfile || !STATE.activeProfile.id) return;
-    try {
-      const { data } = await window.supabaseClient.from('user_profiles').select('status').eq('id', STATE.activeProfile.id).single();
-      if (data && data.status) {
-        const newStatus = data.status;
-        if (newStatus !== STATE.activeProfile.status) {
-          console.log("Status changed to:", newStatus);
-          STATE.activeProfile.status = newStatus;
-          if (newStatus === 'active') {
-             stopStatusPoller();
-             switchScreen('dashboard');
-             alert('Your account has been approved! Welcome.');
-          } else if (newStatus === 'locked') {
-             switchScreen('locked');
-          } else if (newStatus === 'pending_payment') {
-             switchScreen('onboarding-payment');
-          }
+    await window.checkApprovalStatus();
+  }, 15000);
+};
+
+window.checkApprovalStatus = async function() {
+  if (!window.supabaseClient || !STATE || !STATE.activeProfile || !STATE.activeProfile.id) return;
+  try {
+    const { data } = await window.supabaseClient.from('user_profiles').select('status').eq('id', STATE.activeProfile.id).single();
+    if (data && data.status) {
+      const newStatus = data.status;
+      if (newStatus !== STATE.activeProfile.status) {
+        console.log("Status changed to:", newStatus);
+        STATE.activeProfile.status = newStatus;
+        if (newStatus === 'active') {
+           stopStatusPoller();
+           switchScreen('dashboard');
+           alert('Your account has been approved! Welcome.');
+        } else if (newStatus === 'locked') {
+           switchScreen('locked');
+        } else if (newStatus === 'pending_payment') {
+           switchScreen('onboarding-payment');
         }
       }
-    } catch (e) {
-      console.error("Poller error:", e);
     }
-  }, 5000);
+  } catch (e) {
+    console.error("Poller error:", e);
+  }
 };
+
+window.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && STATE && STATE.activeProfile && STATE.activeProfile.status !== 'active') {
+    window.checkApprovalStatus();
+  }
+});
+
+window.addEventListener('online', () => {
+  if (STATE && STATE.activeProfile && STATE.activeProfile.status !== 'active') {
+    window.checkApprovalStatus();
+  }
+});
 
 window.stopStatusPoller = function() {
   if (window.statusPollerInterval) {
@@ -7455,14 +7471,15 @@ window.renderAdminDashboard = async function() {
   let displayUsers = [];
   
   if (window.supabaseClient) {
-    const { data, error } = await window.supabaseClient.from('user_profiles').select('id, email, status, transaction_id, created_at').order('created_at', { ascending: false });
+    const { data, error } = await window.supabaseClient.from('user_profiles').select('id, email, status, transaction_id, created_at, approved_at').order('created_at', { ascending: false });
     if (!error && data && data.length > 0) {
       displayUsers = data.map(d => ({
         id: d.id,
         email: d.email,
         status: d.status,
         transaction_id: d.transaction_id,
-        created_at: d.created_at
+        created_at: d.created_at,
+        approved_at: d.approved_at
       })).filter(u => u.email && u.email !== 'default_cadet');
     }
   }
@@ -7476,20 +7493,23 @@ window.renderAdminDashboard = async function() {
   }
   
   const newHTML = displayUsers.map((u) => {
-    let ageText = 'New';
-    if (u.created_at) {
-      const diffMs = Date.now() - new Date(u.created_at).getTime();
+    let membershipAgeText = '-';
+    if (u.status === 'active' && u.approved_at) {
+      const diffMs = Date.now() - new Date(u.approved_at).getTime();
       const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-      if (diffDays === 0) ageText = 'Today';
-      else if (diffDays < 30) ageText = `${diffDays} days`;
-      else if (diffDays < 60) ageText = `1 month`;
-      else ageText = `${Math.floor(diffDays / 30)} months`;
+      if (diffDays === 0) membershipAgeText = 'Today';
+      else if (diffDays < 30) membershipAgeText = `${diffDays} Day${diffDays > 1 ? 's' : ''}`;
+      else {
+        const months = Math.floor(diffDays / 30);
+        const remDays = diffDays % 30;
+        membershipAgeText = `${months} Month${months > 1 ? 's' : ''}`;
+        if (remDays > 0) membershipAgeText += ` ${remDays} Day${remDays > 1 ? 's' : ''}`;
+      }
     }
     return `
     <tr style='border-bottom: 1px solid rgba(255,255,255,0.05);'>
       <td style='padding: 12px;'>
         ${u.email}
-        <span style="margin-left: 8px; font-size: 0.7rem; color: var(--text-secondary); background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 10px;">${ageText}</span>
       </td>
       <td style='padding: 12px;'>
         <span style='padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; background: ${u.status === 'active' ? 'rgba(34,197,94,0.2)' : u.status === 'locked' ? 'rgba(239,68,68,0.2)' : 'rgba(234,179,8,0.2)'}; color: ${u.status === 'active' ? '#4ade80' : u.status === 'locked' ? '#ef4444' : '#eab308'};'>
@@ -7502,6 +7522,7 @@ window.renderAdminDashboard = async function() {
         <button onclick='updateUserStatus("${u.id || u.email}", "locked")' style='padding: 4px 8px; background: #ef4444; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Lock</button>
         <button onclick='updateUserStatus("${u.id || u.email}", "pending_payment")' style='padding: 4px 8px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Reject</button>
       </td>
+      <td style='padding: 12px; color: var(--text-secondary);'>${membershipAgeText}</td>
     </tr>
   `;
   }).join('');
@@ -7513,12 +7534,21 @@ window.renderAdminDashboard = async function() {
 window.updateUserStatus = async function(userIdOrEmail, newStatus) {
   if (window.supabaseClient && userIdOrEmail.includes('-')) {
     // Looks like a UUID
-    await window.supabaseClient.from('user_profiles').update({ status: newStatus }).eq('id', userIdOrEmail);
+    let updateData = { status: newStatus };
+    if (newStatus === 'active') {
+      updateData.approved_at = new Date().toISOString();
+    }
+    await window.supabaseClient.from('user_profiles').update(updateData).eq('id', userIdOrEmail);
     if (typeof renderAdminDashboard === 'function') renderAdminDashboard();
   } else {
     // Mock user logic
     const user = window.MOCK_ADMIN_USERS.find(u => u.email === userIdOrEmail);
-    if (user) user.status = newStatus;
+    if (user) {
+      user.status = newStatus;
+      if (newStatus === 'active') {
+        user.approved_at = new Date().toISOString();
+      }
+    }
   }
   
   // Update local state if modifying self

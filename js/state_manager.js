@@ -114,7 +114,11 @@ function initAppState() {
   checkCurrentAffairsExpiry();
   
   // Trigger async cloud database sync
-  syncFromSupabase();
+  syncFromSupabase().then(() => {
+    if (typeof window.checkApprovalStatus === 'function') {
+      window.checkApprovalStatus();
+    }
+  });
   // syncDatabaseFromSupabase();
 }
 
