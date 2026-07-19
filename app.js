@@ -1669,9 +1669,9 @@ function renderCurrentAffairsHub() {
       const item = document.createElement("div");
       item.className = `subject-card ${month === activeCaMonth ? 'active' : ''}`;
       if (month === activeCaMonth) {
-        item.style.cssText = "background: rgba(34,197,94,0.1); border: 1px solid var(--accent); padding: 15px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;";
+        item.style.cssText = "background: rgba(34,197,94,0.1); border: 1px solid var(--accent); padding: 8px 12px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.2s ease;";
       } else {
-        item.style.cssText = "background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 15px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;";
+        item.style.cssText = "background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 8px 12px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.2s ease;";
       }
       
       const monthParts = month.split(" ");
@@ -1679,8 +1679,8 @@ function renderCurrentAffairsHub() {
       const yName = monthParts[1] || "";
       
       item.innerHTML = `
-        <h3 style="margin-bottom: 4px; font-size: 1.1rem;">${mName}</h3>
-        <div style="font-size: 0.8rem; color: var(--text-muted);">${yName}</div>
+        <h3 style="margin-bottom: 2px; font-size: 0.95rem; font-weight: 600;">${mName}</h3>
+        <div style="font-size: 0.75rem; color: var(--text-muted);">${yName}</div>
       `;
       
       item.addEventListener("click", () => {
