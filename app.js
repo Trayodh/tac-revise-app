@@ -1676,12 +1676,19 @@ function renderCurrentAffairsHub() {
   const existingBanner = caContainer.querySelector(".cycle-banner");
   if (existingBanner) existingBanner.remove();
 
-  // Cycle banner at top of grid (taking full width)
+  // Cycle banner at top of grid (matching month card styling)
   const banner = document.createElement("div");
-  banner.className = "cycle-banner";
-  banner.style.cssText = "grid-column: 1 / -1; padding: 8px 12px; margin-bottom: 10px; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; font-family: var(--font-mono); color: var(--accent); background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.2); border-radius: 5px; text-align: center;";
-  banner.textContent = `Exam Cycle: ${cycle.cycleLabel}`;
-  caContainer.insertBefore(banner, monthsList);
+  banner.className = "subject-card cycle-banner";
+  banner.style.cssText = "background: rgba(34,197,94,0.08); border: 1px dashed rgba(34,197,94,0.4); padding: 15px 5px; border-radius: 12px; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;";
+  
+  const shortCycle = cycle.cycleLabel.replace(/20(\d{2})/g, "'$1").toUpperCase();
+  const cycleDisplay = shortCycle.replace(/\s*[-\u2013\u2014]\s*/g, "<br>-<br>");
+
+  banner.innerHTML = `
+    <h3 style="margin-bottom: 4px; font-size: 0.85rem; color: var(--accent); letter-spacing: 0.5px;">CYCLE</h3>
+    <div style="font-size: 0.7rem; color: var(--text-muted); line-height: 1.4; font-weight: bold;">${cycleDisplay}</div>
+  `;
+  monthsList.appendChild(banner);
 
   // Render only cycle-relevant months in sorted order
   cycle.months
