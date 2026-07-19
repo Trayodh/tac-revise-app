@@ -7447,6 +7447,12 @@ window.renderAdminDashboard = async function() {
     }
   }
   
+  // Check if Supabase returned an error or empty data
+  if (window.supabaseClient && displayUsers.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="4" style="text-align:center; padding: 20px; color: var(--text-muted);">No users found in Supabase (or RLS policy is blocking access). Check console logs.</td></tr>`;
+    return;
+  }
+  
   // Fallback only if no users and no Supabase connection
   if (displayUsers.length === 0 && !window.supabaseClient) {
     let offlineUsers = [];
