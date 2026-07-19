@@ -7429,6 +7429,12 @@ window.renderAdminDashboard = async function() {
   
   if (window.supabaseClient) {
     const { data, error } = await window.supabaseClient.from('user_profiles').select('id, email, status, transaction_id, created_at, approved_at').order('created_at', { ascending: false });
+    
+    console.log("[Admin] Supabase user_profiles fetch data:", data);
+    if (error) {
+      console.error("[Admin] Supabase error fetching users:", error);
+    }
+    
     if (!error && data && data.length > 0) {
       displayUsers = data.map(d => ({
         id: d.id,

@@ -34,14 +34,14 @@ DROP POLICY IF EXISTS "Enable admin view all" ON public.user_profiles;
 CREATE POLICY "Enable admin view all"
 ON public.user_profiles
 FOR SELECT
-USING (auth.jwt() ->> 'email' = 'trayodh@gmail.com');
+USING (lower(auth.jwt() ->> 'email') = 'trayodh@gmail.com');
 
 -- 7. Create a policy for the Admin to update ALL user profiles (allows approving/locking)
 DROP POLICY IF EXISTS "Enable admin update all" ON public.user_profiles;
 CREATE POLICY "Enable admin update all"
 ON public.user_profiles
 FOR UPDATE
-USING (auth.jwt() ->> 'email' = 'trayodh@gmail.com');
+USING (lower(auth.jwt() ->> 'email') = 'trayodh@gmail.com');
 
 -- 8. Create a trigger to automatically insert a user profile upon signup
 -- This fixes the issue where new users are not visible on the Admin Dashboard if they haven't verified their email.
