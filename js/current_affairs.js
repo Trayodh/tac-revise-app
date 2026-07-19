@@ -395,7 +395,16 @@ function renderCurrentMonthAffairs() {
   });
 
   // MCQ section
-  const itemsWithMcq = data.filter(item => item.mcq && item.mcq.question);
+  // Support both legacy `item.mcq` (object) and new advanced schema `item.mcqs` (array)
+  const itemsWithMcq = [];
+  data.forEach(item => {
+    if (item.mcqs && Array.isArray(item.mcqs) && item.mcqs.length > 0) {
+      itemsWithMcq.push(item);
+    } else if (item.mcq && item.mcq.question) {
+      itemsWithMcq.push(item);
+    }
+  });
+
   if (itemsWithMcq.length > 0) {
     html += `
       <div style="margin-top:32px; border-top:1px solid var(--border); padding-top:26px;">
@@ -409,27 +418,49 @@ function renderCurrentMonthAffairs() {
 
     itemsWithMcq.forEach((item, index) => {
       const topicColor = getTopicColor(item.topic, item.topicColor);
-      html += `
-        <div style="margin-bottom:26px; padding-bottom:22px; ${index < itemsWithMcq.length - 1 ? 'border-bottom:1px solid var(--border);' : ''}" id="ca-mcq-${item.id}">
-          <div style="display:flex; align-items:center; gap:6px; margin-bottom:10px;">
-            <span style="font-family:var(--font-mono); font-size:0.62rem; font-weight:700; letter-spacing:0.6px; padding:2px 6px; border-radius:3px; background:${topicColor}1a; color:${topicColor}; text-transform:uppercase;">${item.topic || 'General'}</span>
-            <span style="font-family:var(--font-mono); font-size:0.65rem; color:var(--text-muted);">Q${index + 1}</span>
-          </div>
-          <p style="font-weight:600; font-size:0.94rem; margin:0 0 14px; line-height:1.55; color:var(--text-primary);">${item.mcq.question}</p>
-          <div style="display:flex; flex-direction:column; gap:7px;">
-      `;
-      item.mcq.options.forEach((opt, optIdx) => {
+      
+      // Normalize to an array of questions to unify rendering
+      const questionsToRender = [];
+      if (item.mcqs && Array.isArray(item.mcqs)) {
+        questionsToRender.push(...item.mcqs);
+      } else if (item.mcq && item.mcq.question) {
+        questionsToRender.push(item.mcq);
+      }
+
+      questionsToRender.forEach((qObj, qIdx) => {
+        const uniqueId = \`\${item.id}-q\${qIdx}\`;
         html += `
-          <button class="action-btn" onclick="checkCaMcq('${item.id}', ${optIdx}, ${item.mcq.correct}, this)" style="text-align:left; width:100%; justify-content:flex-start; padding:9px 13px; font-family:var(--font-main);">
-            <span style="font-family:var(--font-mono); font-weight:700; font-size:0.8rem; margin-right:10px; color:var(--text-muted); min-width:18px;">${String.fromCharCode(65 + optIdx)}</span>${opt}
-          </button>
+          <div style="margin-bottom:26px; padding-bottom:22px; ${(index === itemsWithMcq.length - 1 && qIdx === questionsToRender.length - 1) ? '' : 'border-bottom:1px solid var(--border);'}" id="ca-mcq-${uniqueId}">
+            <div style="display:flex; align-items:center; gap:6px; margin-bottom:10px;">
+              <span style="font-family:var(--font-mono); font-size:0.62rem; font-weight:700; letter-spacing:0.6px; padding:2px 6px; border-radius:3px; background:${topicColor}1a; color:${topicColor}; text-transform:uppercase;">${item.topic || 'General'}</span>
+              <span style="font-family:var(--font-mono); font-size:0.65rem; color:var(--text-muted);">Q${index + 1}.${qIdx + 1}</span>
+            </div>
+            <p style="font-weight:600; font-size:0.94rem; margin:0 0 14px; line-height:1.55; color:var(--text-primary);">${qObj.question}</p>
+            <div style="display:flex; flex-direction:column; gap:7px;">
+        `;
+        
+        let correctValue = qObj.correct;
+        // Legacy support: if correct is a string like "A", convert to index 0
+        if (typeof correctValue === 'string') {
+          correctValue = correctValue.charCodeAt(0) - 65;
+        }
+        
+        if (qObj.options && Array.isArray(qObj.options)) {
+          qObj.options.forEach((opt, optIdx) => {
+            html += `
+              <button class="action-btn" onclick="checkCaMcq('${uniqueId}', ${optIdx}, ${correctValue}, this)" style="text-align:left; width:100%; justify-content:flex-start; padding:9px 13px; font-family:var(--font-main);">
+                <span style="font-family:var(--font-mono); font-weight:700; font-size:0.8rem; margin-right:10px; color:var(--text-muted); min-width:18px;">${String.fromCharCode(65 + optIdx)}</span>${opt}
+              </button>
+            `;
+          });
+        }
+        
+        html += `
+            </div>
+            <div class="solution-explanation" id="ca-explain-${uniqueId}" style="display:none; margin-top:12px;">${qObj.explanation}</div>
+          </div>
         `;
       });
-      html += `
-          </div>
-          <div class="solution-explanation" id="ca-explain-${item.id}" style="display:none; margin-top:12px;">${item.mcq.explanation}</div>
-        </div>
-      `;
     });
 
     html += `
