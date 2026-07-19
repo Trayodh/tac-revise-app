@@ -4810,71 +4810,8 @@ window.renderCaDatesTable = renderCaDatesTable;
 // ==========================================
 // 14. MOTIVATION OF THE DAY (ARMED FORCES BRAVERY STORIES)
 // ==========================================
-const BRAVERY_STORIES = [
-  {
-    hero: "Major Somnath Sharma, PVC",
-    award: "Param Vir Chakra (Posthumous)",
-    unit: "4 Kumaon Regiment",
-    year: "1947 (Battle of Badgam)",
-    story: "During the 1947 Indo-Pakistani War, Major Sharma's company was heavily outnumbered by enemy raiders at Badgam. Despite a fractured arm, he ran across open ground to distribute ammunition and directed mortar fire. His final message to HQ was: 'The enemy are only 50 yards from us. We are heavily outnumbered. I shall not withdraw an inch but will fight to the last man and the last round.'"
-  },
-  {
-    hero: "Captain Vikram Batra, PVC",
-    award: "Param Vir Chakra (Posthumous)",
-    unit: "13 Jammu & Kashmir Rifles (JAK RIF)",
-    year: "1999 (Kargil War)",
-    story: "Captain Batra led the capture of Point 5140, famously radioing the success code 'Yeh Dil Maange More!'. He then volunteered to capture Point 4875. Under devastating fire, he charged enemy bunkers, killed five enemy soldiers in close combat, and rescued an injured officer before being fatally shot. His bravery turned the tide of the war."
-  },
-  {
-    hero: "Subedar Major Yogendra Singh Yadav, PVC",
-    award: "Param Vir Chakra",
-    unit: "18 Grenadiers",
-    year: "1999 (Kargil War, Tiger Hill)",
-    story: "Part of the commando platoon 'Ghatak', Subedar Yadav crawled up a vertical snow-clad cliff face under heavy enemy machine-gun fire to secure ropes. Despite being hit by 15 bullets and shrapnel, he crawled to the first bunker, lobbed a grenade, and killed four enemy soldiers, enabling his platoon to capture Tiger Hill."
-  },
-  {
-    hero: "Major Sandeep Unnikrishnan, AC",
-    award: "Ashoka Chakra (Posthumous)",
-    unit: "51 Special Action Group, NSG",
-    year: "2008 (Mumbai Attacks)",
-    story: "During the rescue operation at the Taj Mahal Palace Hotel, Major Unnikrishnan led his team to clear the hotel of terrorists. When his colleague was injured, he engaged the terrorists, dragged his colleague to safety, and chased the fleeing terrorists alone. His final words to his team were: 'Don't come up, I will handle them.'"
-  },
-  {
-    hero: "Second Lieutenant Arun Khetarpal, PVC",
-    award: "Param Vir Chakra (Posthumous)",
-    unit: "17 Poona Horse",
-    year: "1971 (Battle of Basantar)",
-    story: "At just 21 years old, Arun Khetarpal commanded a tank troop during the Battle of Basantar. When his tank was hit and caught fire, his commander ordered him to abandon it. Khetarpal refused, stating, 'My gun is still working and I will get these bastards.' He single-handedly destroyed 10 enemy tanks before his tank received a second, fatal hit."
-  },
-  {
-    hero: "Major Shaitan Singh, PVC",
-    award: "Param Vir Chakra (Posthumous)",
-    unit: "13 Kumaon",
-    year: "1962 (Battle of Rezang La)",
-    story: "Major Shaitan Singh commanded a company of 120 men at Rezang La, Ladakh, which was attacked by over 5,000 Chinese soldiers. Despite being mortally wounded, he crawled from section to section, reorganizing his men and encouraging them to fight. His company killed over 1,000 enemy troops, standing their ground until the very last man."
-  },
-  {
-    hero: "Naib Subedar Bana Singh, PVC",
-    award: "Param Vir Chakra",
-    unit: "8 Jammu & Kashmir Light Infantry (JAK LI)",
-    year: "1987 (Siachen Glacier)",
-    story: "Naib Subedar Bana Singh volunteered to capture the 'Quaid Post' at 21,153 feet on the Siachen Glacier, which was held by Pakistani forces. Climbing a vertical ice wall of 1,500 feet in a blizzard, Bana Singh and his team surprised the enemy, cleared the bunkers with bayonets and grenades, and captured the strategic post (now renamed 'Bana Post')."
-  },
-  {
-    hero: "Rifleman Jaswant Singh Rawat, MVC",
-    award: "Maha Vir Chakra (Posthumous)",
-    unit: "4 Garhwal Rifles",
-    year: "1962 (Battle of Nuranang)",
-    story: "During the Sino-Indian War, Rifleman Rawat refused to retreat. With the help of two local girls, Sela and Nura, he set up firing positions at three different locations to trick the enemy into thinking they were facing a large force. He successfully held off the enemy for 72 hours, single-handedly neutralizing 300 enemy soldiers before being overrun."
-  },
-  {
-    hero: "Captain Mahendra Nath Mulla, MVC",
-    award: "Maha Vir Chakra (Posthumous)",
-    unit: "INS Khukri, Indian Navy",
-    year: "1971 (Indo-Pak War)",
-    story: "During the 1971 war, the anti-submarine frigate INS Khukri was struck by torpedoes fired by a Pakistani submarine. As the ship sank rapidly in the Arabian Sea, Captain Mulla calmly supervised rescue operations, helping sailors to safety. When he noticed a junior sailor without a life jacket, he handed over his own. Upholding the highest naval traditions, he refused to abandon his ship, going down with the INS Khukri while ensuring the survival of many crewmen."
-  }
-];
+// BRAVERY_STORIES is now loaded from js/motivation_data.js via window.BRAVERY_STORIES
+
 
 let currentMotivationIndex = 0;
 let lastMotivationDateString = "";
@@ -4895,7 +4832,7 @@ function initMotivationOfTheDay() {
   const oneDay = 1000 * 60 * 60 * 24;
   const dayOfYear = Math.floor(diff / oneDay);
   
-  currentMotivationIndex = dayOfYear % BRAVERY_STORIES.length;
+  currentMotivationIndex = dayOfYear % (window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1);
   renderMotivationStory();
 
   // Register dynamic daily refresh check if not already done
@@ -4931,7 +4868,8 @@ function renderMotivationStory() {
   
   if (!heroEl || !awardEl || !unitEl || !yearEl || !storyEl) return;
   
-  const storyObj = BRAVERY_STORIES[currentMotivationIndex];
+  const storyObj = window.BRAVERY_STORIES ? window.BRAVERY_STORIES[currentMotivationIndex] : null;
+  if (!storyObj) return;
   heroEl.innerText = storyObj.hero;
   awardEl.innerText = storyObj.award;
   unitEl.innerText = storyObj.unit;
@@ -4940,7 +4878,7 @@ function renderMotivationStory() {
 }
 
 function showNextMotivation() {
-  currentMotivationIndex = (currentMotivationIndex + 1) % BRAVERY_STORIES.length;
+  currentMotivationIndex = (currentMotivationIndex + 1) % (window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1);
   renderMotivationStory();
 }
 
