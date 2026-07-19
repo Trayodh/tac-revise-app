@@ -7339,7 +7339,7 @@ function handleBankOptionClick(optElement) {
 
 // --- UP-ARMOUR LOGIC ---
 async function upArmourQuestion(btn, index) {
-    const pool = EXTRA_QUESTION_BANK[currentBankSubject] || [];
+    const pool = currentBankPool || [];
     const q = pool[index];
     if (!q) return;
 
@@ -7379,8 +7379,8 @@ Return the response in this exact format:
         const data = await response.json();
         const aiText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
 
-        const questionMatch = aiText.match(/\[NEW_QUESTION\]([\s\S]*?)\[NEW_EXPLANATION\]/);
-        const expMatch = aiText.match(/\[NEW_EXPLANATION\]([\s\S]*)/);
+        const questionMatch = aiText.match(/\[NEW_QUESTION\]\s*(?:\*\*)?([\s\S]*?)(?:\*\*)?\s*\[NEW_EXPLANATION\]/i);
+        const expMatch = aiText.match(/\[NEW_EXPLANATION\]\s*(?:\*\*)?([\s\S]*)/i);
 
         if (questionMatch && questionMatch[1]) {
             const card = btn.closest('.bank-card');
