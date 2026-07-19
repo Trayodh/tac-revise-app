@@ -5317,7 +5317,7 @@ const NOTES_DATABASE = {
 // ==========================================
 // 2. CURRENT AFFAIRS (CA) DATABASE
 // ==========================================
-let CURRENT_AFFAIRS_DB = {
+window.CURRENT_AFFAIRS_DB = {
   "January 2026": [
     {
       "id": "jan-1",

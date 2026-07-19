@@ -1,5 +1,5 @@
 // Tac-Revise Application Logic
-// Dependencies: data.js (which contains NOTES_DATABASE, CURRENT_AFFAIRS_DB, etc.)
+// Dependencies: data.js (which contains NOTES_DATABASE, window.CURRENT_AFFAIRS_DB, etc.)
 // ==========================================
 // 0. STANDALONE AI INTERCEPTOR (For Android/Capacitor App Support)
 // ==========================================
@@ -22,7 +22,7 @@ window.fetch = async function() {
         let payload = {};
         if (window.CURRENT_AFFAIRS_DB) {
             // Need to return array for current_affairs parser which expects Array if successful
-            // Or wait, CURRENT_AFFAIRS_DB is an object map! Let's return just the object?
+            // Or wait, window.CURRENT_AFFAIRS_DB is an object map! Let's return just the object?
             // Actually app.js line 1089 checks `if (Array.isArray(data))`. 
             // The API returns the raw parsed JSON which is an array of items for TODAY.
             // But if offline, we can just return an empty array, and it falls back to the database!
@@ -1592,17 +1592,17 @@ function fetchDailyCurrentAffairs() {
       if (Array.isArray(data)) {
         const monthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
         
-        if (!CURRENT_AFFAIRS_DB[monthStr]) {
+        if (!window.CURRENT_AFFAIRS_DB[monthStr]) {
           const newDb = { [monthStr]: data };
-          Object.assign(newDb, CURRENT_AFFAIRS_DB);
-          const oldKeys = Object.keys(CURRENT_AFFAIRS_DB);
-          oldKeys.forEach(k => delete CURRENT_AFFAIRS_DB[k]);
-          Object.assign(CURRENT_AFFAIRS_DB, newDb);
+          Object.assign(newDb, window.CURRENT_AFFAIRS_DB);
+          const oldKeys = Object.keys(window.CURRENT_AFFAIRS_DB);
+          oldKeys.forEach(k => delete window.CURRENT_AFFAIRS_DB[k]);
+          Object.assign(window.CURRENT_AFFAIRS_DB, newDb);
         } else {
           // Avoid duplicating identical entries if fetching happens again during dev
-          const existingSummaries = CURRENT_AFFAIRS_DB[monthStr].map(i => i.summary);
+          const existingSummaries = window.CURRENT_AFFAIRS_DB[monthStr].map(i => i.summary);
           const newData = data.filter(item => !existingSummaries.includes(item.summary));
-          CURRENT_AFFAIRS_DB[monthStr] = [...newData, ...CURRENT_AFFAIRS_DB[monthStr]];
+          window.CURRENT_AFFAIRS_DB[monthStr] = [...newData, ...window.CURRENT_AFFAIRS_DB[monthStr]];
         }
         
         activeCaMonth = monthStr;
@@ -1628,8 +1628,8 @@ function renderCurrentAffairsHub() {
 
   const cycle = getExamCycleBounds();
 
-  // Safety guard — CURRENT_AFFAIRS_DB must exist before rendering
-  if (typeof CURRENT_AFFAIRS_DB === 'undefined' || !CURRENT_AFFAIRS_DB) {
+  // Safety guard — window.CURRENT_AFFAIRS_DB must exist before rendering
+  if (typeof window.CURRENT_AFFAIRS_DB === 'undefined' || !window.CURRENT_AFFAIRS_DB) {
     const pane = document.getElementById('deck-viewer-pane');
     if (pane) pane.innerHTML = `<p style="color:var(--warning);padding:20px;">Loading current affairs data...</p>`;
     setTimeout(() => renderCurrentAffairsHub(), 1500);
@@ -1637,7 +1637,7 @@ function renderCurrentAffairsHub() {
   }
 
   // Filter DB keys to only those within the current exam cycle
-  const allKeys  = Object.keys(CURRENT_AFFAIRS_DB);
+  const allKeys  = Object.keys(window.CURRENT_AFFAIRS_DB);
   const cycleKeys = allKeys.filter(k => cycle.months.includes(k));
   // If no data falls in current cycle, fall back to all keys (graceful degradation)
   const keys = cycleKeys.length > 0 ? cycleKeys : allKeys;
@@ -1695,7 +1695,7 @@ function renderCurrentAffairsHub() {
 
 function renderCurrentMonthAffairs() {
   const pane = document.getElementById("ca-content-pane");
-  const data = CURRENT_AFFAIRS_DB[activeCaMonth] || [];
+  const data = window.CURRENT_AFFAIRS_DB[activeCaMonth] || [];
 
   if (data.length === 0) {
     pane.innerHTML = `<p style="color:var(--text-secondary); padding:20px 0;">No current affairs registered for this month.</p>`;
@@ -3822,8 +3822,8 @@ function refreshCurrentAffairs(isNdaOrCds = false) {
     // const oldMonths = ["January 2026", "February 2026", "March 2026", "April 2026", "May 2026", "June 2026", "July 2026", "August 2026"];
     // let erasedCount = 0;
     // oldMonths.forEach(m => {
-    //   if (CURRENT_AFFAIRS_DB[m]) {
-    //     delete CURRENT_AFFAIRS_DB[m];
+    //   if (window.CURRENT_AFFAIRS_DB[m]) {
+    //     delete window.CURRENT_AFFAIRS_DB[m];
     //     erasedCount++;
     //   }
     // });
@@ -3835,8 +3835,8 @@ function refreshCurrentAffairs(isNdaOrCds = false) {
   }
   
   // 1. Fisher-Yates Shuffle current affairs items inside each month
-  for (const month in CURRENT_AFFAIRS_DB) {
-    const list = CURRENT_AFFAIRS_DB[month];
+  for (const month in window.CURRENT_AFFAIRS_DB) {
+    const list = window.CURRENT_AFFAIRS_DB[month];
     if (Array.isArray(list)) {
       for (let i = list.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));

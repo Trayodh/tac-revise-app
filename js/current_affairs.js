@@ -90,17 +90,17 @@ function fetchDailyCurrentAffairs() {
       if (Array.isArray(data)) {
         const monthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
         
-        if (!CURRENT_AFFAIRS_DB[monthStr]) {
+        if (!window.CURRENT_AFFAIRS_DB[monthStr]) {
           const newDb = { [monthStr]: data };
-          Object.assign(newDb, CURRENT_AFFAIRS_DB);
-          const oldKeys = Object.keys(CURRENT_AFFAIRS_DB);
-          oldKeys.forEach(k => delete CURRENT_AFFAIRS_DB[k]);
-          Object.assign(CURRENT_AFFAIRS_DB, newDb);
+          Object.assign(newDb, window.CURRENT_AFFAIRS_DB);
+          const oldKeys = Object.keys(window.CURRENT_AFFAIRS_DB);
+          oldKeys.forEach(k => delete window.CURRENT_AFFAIRS_DB[k]);
+          Object.assign(window.CURRENT_AFFAIRS_DB, newDb);
         } else {
           // Avoid duplicating identical entries if fetching happens again during dev
-          const existingSummaries = CURRENT_AFFAIRS_DB[monthStr].map(i => i.summary);
+          const existingSummaries = window.CURRENT_AFFAIRS_DB[monthStr].map(i => i.summary);
           const newData = data.filter(item => !existingSummaries.includes(item.summary));
-          CURRENT_AFFAIRS_DB[monthStr] = [...newData, ...CURRENT_AFFAIRS_DB[monthStr]];
+          window.CURRENT_AFFAIRS_DB[monthStr] = [...newData, ...window.CURRENT_AFFAIRS_DB[monthStr]];
         }
         
         activeCaMonth = monthStr;
@@ -127,7 +127,7 @@ function renderCurrentAffairsHub() {
   const cycle = getExamCycleBounds();
 
   // Filter DB keys to only those within the current exam cycle
-  const allKeys  = Object.keys(CURRENT_AFFAIRS_DB);
+  const allKeys  = Object.keys(window.CURRENT_AFFAIRS_DB);
   const cycleKeys = allKeys.filter(k => cycle.months.includes(k));
   // If no data falls in current cycle, fall back to all keys (graceful degradation)
   const keys = cycleKeys.length > 0 ? cycleKeys : allKeys;
@@ -170,7 +170,7 @@ function renderCurrentAffairsHub() {
 
 function renderCurrentMonthAffairs() {
   const pane = document.getElementById("ca-content-pane");
-  const data = CURRENT_AFFAIRS_DB[activeCaMonth] || [];
+  const data = window.CURRENT_AFFAIRS_DB[activeCaMonth] || [];
 
   if (data.length === 0) {
     pane.innerHTML = `<p style="color:var(--text-secondary); padding:20px 0;">No current affairs registered for this month.</p>`;
