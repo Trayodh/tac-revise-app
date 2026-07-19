@@ -1530,10 +1530,10 @@ function getExamCycleBounds() {
   let cycleLabel, startMonth, startYear, endMonth, endYear;
 
   if (month >= 3 && month <= 8) {
-    // April (3) to September (8)
-    cycleLabel  = `Apr ${year} — Sep ${year}`;
+    // April (3) to August (7)
+    cycleLabel  = `Apr ${year} — Aug ${year}`;
     startMonth  = 3; startYear  = year;
-    endMonth    = 8; endYear    = year;
+    endMonth    = 7; endYear    = year;
   } else if (month >= 9) {
     // October (9) to March of next year
     cycleLabel  = `Oct ${year} — Mar ${year + 1}`;
