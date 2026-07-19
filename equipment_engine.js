@@ -1,11 +1,17 @@
 window.renderEquipmentDB = function() {
+  console.log("renderEquipmentDB called!");
   const container = document.getElementById('armed-forces-equipment-container');
-  if (!container) return;
-  
-  if (typeof ARMED_FORCES_EQUIPMENT === 'undefined' || !ARMED_FORCES_EQUIPMENT.length) {
-    container.innerHTML = '<div style="color:var(--warning); padding:16px;">Equipment database not loaded.</div>';
+  if (!container) {
+    console.error("armed-forces-equipment-container not found in DOM.");
     return;
   }
+  
+  if (typeof ARMED_FORCES_EQUIPMENT === 'undefined' || !ARMED_FORCES_EQUIPMENT.length) {
+    console.error("ARMED_FORCES_EQUIPMENT data is not loaded.");
+    container.innerHTML = '<div style="color:var(--warning); padding:16px;">Equipment database not loaded. Please try hard refreshing (Ctrl+Shift+R or Cmd+Shift+R).</div>';
+    return;
+  }
+  console.log("Equipment DB Data loaded. Items:", ARMED_FORCES_EQUIPMENT.length);
   
   // Create UI
   let html = `
