@@ -1428,6 +1428,15 @@ function renderTopicView(subjectId, chapterId, topicId) {
       }
     }, 100);
   }
+
+  // Initialize equipment DB renderer if equipment topic is active
+  if (topicId === 'all-equipment' && activeNotesTab === 'notes') {
+    setTimeout(() => {
+      if (typeof window.renderEquipmentDB === 'function') {
+        window.renderEquipmentDB();
+      }
+    }, 100);
+  }
 }
 
 function setNotesTab(tab) {
