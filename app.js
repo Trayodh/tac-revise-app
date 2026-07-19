@@ -4866,6 +4866,13 @@ const BRAVERY_STORIES = [
     unit: "4 Garhwal Rifles",
     year: "1962 (Battle of Nuranang)",
     story: "During the Sino-Indian War, Rifleman Rawat refused to retreat. With the help of two local girls, Sela and Nura, he set up firing positions at three different locations to trick the enemy into thinking they were facing a large force. He successfully held off the enemy for 72 hours, single-handedly neutralizing 300 enemy soldiers before being overrun."
+  },
+  {
+    hero: "Captain Mahendra Nath Mulla, MVC",
+    award: "Maha Vir Chakra (Posthumous)",
+    unit: "INS Khukri, Indian Navy",
+    year: "1971 (Indo-Pak War)",
+    story: "During the 1971 war, the anti-submarine frigate INS Khukri was struck by torpedoes fired by a Pakistani submarine. As the ship sank rapidly in the Arabian Sea, Captain Mulla calmly supervised rescue operations, helping sailors to safety. When he noticed a junior sailor without a life jacket, he handed over his own. Upholding the highest naval traditions, he refused to abandon his ship, going down with the INS Khukri while ensuring the survival of many crewmen."
   }
 ];
 
