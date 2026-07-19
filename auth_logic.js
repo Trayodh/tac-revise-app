@@ -71,6 +71,16 @@ async function handleAuthAction() {
           STATE.activeProfile = { email: email, status: email === 'trayodh@gmail.com' ? 'active' : 'pending_payment' };
           if (typeof saveState === 'function') saveState();
         }
+        let offlineUsers = JSON.parse(localStorage.getItem('offline_users')) || [];
+        if (!offlineUsers.find(u => u.email === email)) {
+          offlineUsers.push({ 
+            email: email, 
+            status: email === 'trayodh@gmail.com' ? 'active' : 'pending_payment', 
+            created_at: new Date().toISOString(),
+            id: 'mock-' + Math.random().toString(36).substring(2, 9)
+          });
+          localStorage.setItem('offline_users', JSON.stringify(offlineUsers));
+        }
         document.getElementById('auth-modal').style.display = 'none';
         
         if (STATE.activeProfile.status !== 'active') {
@@ -135,8 +145,20 @@ async function handleAuthAction() {
       } else {
         alert('Offline mode: Sign in mocked.');
         if (typeof STATE !== 'undefined') {
+          let offlineUsers = JSON.parse(localStorage.getItem('offline_users')) || [];
+          let userStatus = email === 'trayodh@gmail.com' ? 'active' : 'pending_payment';
+          let foundUser = offlineUsers.find(u => u.email === email);
+          
+          if (foundUser) {
+             userStatus = foundUser.status;
+          } else {
+             // Mock creating them if they don't exist
+             offlineUsers.push({ email: email, status: userStatus, created_at: new Date().toISOString(), id: 'mock-' + Math.random().toString(36).substring(2, 9) });
+             localStorage.setItem('offline_users', JSON.stringify(offlineUsers));
+          }
+          
           if (!STATE.activeProfile || STATE.activeProfile.email !== email) {
-            STATE.activeProfile = { email: email, status: email === 'trayodh@gmail.com' ? 'active' : 'pending_payment' };
+            STATE.activeProfile = { email: email, status: userStatus };
           }
           if (typeof saveState === 'function') saveState();
         }

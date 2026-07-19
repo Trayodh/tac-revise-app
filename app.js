@@ -7443,7 +7443,26 @@ window.renderAdminDashboard = async function() {
   
   // Fallback only if no users and no Supabase connection
   if (displayUsers.length === 0 && !window.supabaseClient) {
-    displayUsers = [...window.MOCK_ADMIN_USERS];
+    let offlineUsers = [];
+    try {
+      offlineUsers = JSON.parse(localStorage.getItem('offline_users')) || [];
+    } catch (e) {
+      console.error(e);
+    }
+    
+    // Merge MOCK users with offline users, avoiding duplicates by email
+    const allOffline = [...window.MOCK_ADMIN_USERS];
+    for (const u of offlineUsers) {
+      if (!allOffline.find(mock => mock.email === u.email)) {
+        allOffline.push(u);
+      } else {
+        // Update status if it changed
+        const existing = allOffline.find(mock => mock.email === u.email);
+        existing.status = u.status;
+      }
+    }
+    
+    displayUsers = allOffline;
     if (STATE.activeProfile && STATE.activeProfile.email !== 'trayodh@gmail.com' && !displayUsers.find(u => u.email === STATE.activeProfile.email)) {
       displayUsers.push(STATE.activeProfile);
     }
@@ -7494,15 +7513,29 @@ window.updateUserStatus = async function(userIdOrEmail, newStatus) {
       updateData.approved_at = new Date().toISOString();
     }
     await window.supabaseClient.from('user_profiles').update(updateData).eq('id', userIdOrEmail);
-    if (typeof renderAdminDashboard === 'function') renderAdminDashboard();
   } else {
     // Mock user logic
-    const user = window.MOCK_ADMIN_USERS.find(u => u.email === userIdOrEmail);
-    if (user) {
-      user.status = newStatus;
+    let offlineUsers = [];
+    try {
+      offlineUsers = JSON.parse(localStorage.getItem('offline_users')) || [];
+    } catch(e) {}
+    
+    let u = offlineUsers.find(u => u.email === userIdOrEmail);
+    if (!u) {
+       // Check MOCK array and clone
+       const mockU = window.MOCK_ADMIN_USERS.find(m => m.email === userIdOrEmail);
+       if (mockU) {
+         u = { ...mockU };
+         offlineUsers.push(u);
+       }
+    }
+    
+    if (u) {
+      u.status = newStatus;
       if (newStatus === 'active') {
-        user.approved_at = new Date().toISOString();
+        u.approved_at = new Date().toISOString();
       }
+      localStorage.setItem('offline_users', JSON.stringify(offlineUsers));
     }
   }
   
