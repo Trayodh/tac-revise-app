@@ -243,8 +243,8 @@ async function triggerAiSolveDoubt(templateKey, customQueryText = "", contextTex
 
   area.innerHTML = `
     <div class="panel" style="margin-bottom:20px;">
-      <h3 style="font-family:var(--font-logo); color: var(--accent);"> Explanation: ${topicName}</h3>
-      <p style="font-size:0.9rem; color:var(--text-muted); margin-top:12px;"> AI is generating explanation...</p>
+      <h3 style="font-family:var(--font-logo); color: #4ade80;"> Explanation: ${topicName}</h3>
+      <p style="font-size:0.9rem; color:#cbd5e1; margin-top:12px;"> AI is generating explanation...</p>
     </div>
   `;
    let imagePart = null;
@@ -371,10 +371,10 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
     area.innerHTML = `
       <div class="panel" style="margin-bottom:20px;">
         <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border); padding-bottom:12px; margin-bottom:20px;">
-          <h3 style="font-family:var(--font-logo); color: var(--accent);"> AI Explanation: ${topicName}</h3>
-          <span style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono)">POWERED BY GEMINI AI · FREE</span>
+          <h3 style="font-family:var(--font-logo); color: #4ade80;"> AI Explanation: ${topicName}</h3>
+          <span style="font-size:0.75rem; color:#cbd5e1; font-family:var(--font-mono)">POWERED BY GEMINI AI · FREE</span>
         </div>
-        <div style="font-size:0.92rem; line-height:1.8; color:var(--text-primary);">${parseWikiLinks(formattedText)}</div>
+        <div style="font-size:0.95rem; line-height:1.8; color:#f8fafc !important; font-weight: 400; letter-spacing: 0.3px; text-shadow: 0 0 1px rgba(255,255,255,0.1);">${parseWikiLinks(formattedText)}</div>
       </div>
     `;
     if (window.MathJax && typeof window.MathJax.typeset === 'function') {

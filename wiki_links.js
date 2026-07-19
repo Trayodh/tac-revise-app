@@ -859,7 +859,7 @@ function renderDronacharyaModalContent(modal, topicName, data, contextText) {
       </div>
 
       <!-- Tab Content Area -->
-      <div id="dronacharya-content" style="flex: 1; overflow-y: auto; padding: 24px; color: var(--text-primary); line-height: 1.7; font-size: 0.92rem;">
+      <div id="dronacharya-content" style="flex: 1; overflow-y: auto; padding: 24px; color: #f8fafc !important; line-height: 1.7; font-size: 0.95rem; text-shadow: 0 0 1px rgba(255,255,255,0.1);">
         <!-- Loaded dynamically -->
       </div>
 
