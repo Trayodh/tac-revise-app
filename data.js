@@ -4260,6 +4260,26 @@ const NOTES_DATABASE = {
     title: "Military GK & Aptitude",
     chapters: [
       {
+        id: "armed-forces-equipment-db",
+        title: "Armed Forces Equipment Database",
+        topics: [
+          {
+            id: "all-equipment",
+            title: "Comprehensive Equipment Database",
+            notes: `<div id="armed-forces-equipment-container"></div>`,
+            formulas: "Interactive database loaded dynamically",
+            mindmap: {
+              root: "Armed Forces Equipment",
+              branches: [
+                {title: "Army", subnodes: ["Small Arms", "Artillery", "Vehicles"]},
+                {title: "Air Force", subnodes: ["Fighters", "Transports", "Helicopters"]},
+                {title: "Navy", subnodes: ["Submarines", "Destroyers", "Frigates"]}
+              ]
+            }
+          }
+        ]
+      },
+      {
         id: "defence-structures",
         title: "Command Structures & Ranks",
         topics: [

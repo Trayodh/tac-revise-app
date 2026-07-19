@@ -1,4 +1,4 @@
-let isSignUpMode = false;
+let isSignUpMode = true;
 
 function toggleAuthMode() {
   isSignUpMode = !isSignUpMode;
@@ -45,7 +45,7 @@ async function handleAuthAction() {
         if (data.user) {
           const { error: profileError } = await window.supabaseClient
             .from('user_profiles')
-            .upsert({ id: data.user.id, email: email, status: defaultStatus }, { onConflict: 'id' });
+            .insert({ id: data.user.id, email: email, status: defaultStatus });
           if (profileError) console.error("Error creating profile:", profileError);
         }
 
@@ -111,8 +111,9 @@ async function handleAuthAction() {
             userStatus = profileData.status;
             txId = profileData.transaction_id;
           } else {
-            // Profile missing, recreate it
-            await window.supabaseClient.from('user_profiles').upsert({ id: data.user.id, email: email, status: userStatus }, { onConflict: 'id' });
+            // Profile missing, recreate it safely
+            const { error: insertError } = await window.supabaseClient.from('user_profiles').insert({ id: data.user.id, email: email, status: userStatus });
+            if (insertError && insertError.code !== '23505') console.error("Error creating profile:", insertError);
           }
         }
 
@@ -168,6 +169,10 @@ async function handleAuthAction() {
         }
         return;
       }
+    } else if (error.message && error.message.toLowerCase().includes('already registered')) {
+      alert("You already have an account! Switching to Sign In.");
+      if (isSignUpMode) toggleAuthMode();
+      return;
     }
     alert(`Error: ${error.message}`);
   } finally {

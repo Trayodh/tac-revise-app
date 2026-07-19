@@ -41,8 +41,10 @@ async function syncFromSupabase() {
       if (cloudUpdatedAt >= localUpdatedAt) {
         console.log("Found newer or equal cloud state. Merging state...");
         const localScreen = STATE.currentScreen;
+        const localProfile = STATE.activeProfile; // Preserve local profile to avoid overwriting auth state
         STATE = { ...STATE, ...cloudState };
         STATE.currentScreen = localScreen; // Preserve active screen state
+        if (localProfile) STATE.activeProfile = localProfile; // Restore local profile
         localStorage.setItem("tac_revise_state_v1", JSON.stringify(STATE));
         if (typeof updateDashboardMetrics === 'function') updateDashboardMetrics();
         console.log("Cloud sync complete!");
@@ -67,11 +69,14 @@ async function syncToSupabase() {
     const { data: { session } } = await window.supabaseClient.auth.getSession();
     if (!session) return;
     
+    const stateToSave = { ...STATE };
+    delete stateToSave.activeProfile; // NEVER upload activeProfile (status) to user_data
+
     const { error } = await window.supabaseClient
       .from('user_data')
       .upsert({ 
         user_id: session.user.id, 
-        state: STATE, 
+        state: stateToSave, 
         updated_at: new Date().toISOString() 
       }, { onConflict: 'user_id' });
       

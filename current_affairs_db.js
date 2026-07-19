@@ -1994,291 +1994,692 @@ window.CURRENT_AFFAIRS_DB = {
   ],
   "July 2026": [
     {
-        "id": "ca_live_2026_07_01_0",
-        "topic": "Military Appointments",
-        "topicColor": "#b45309",
-        "summary": "General Dhiraj Seth has officially assumed charge as the 31st Chief of the Army Staff (COAS) of the Indian Army, succeeding General Upendra Dwivedi and outlining his strategic 'VIJAY' vision for modernization and self-reliance.",
-        "text": "<strong>General Dhiraj Seth</strong> has assumed command as the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>31st Chief of the Army Staff (COAS)</mark> of the <strong>Indian Army</strong>. His tenure begins with the unveiling of the <strong>'VIJAY' vision</strong>, which prioritizes technological absorption, indigenous defense production under <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Atmanirbhar Bharat</mark>, and enhanced jointness among the tri-services. This transition comes at a critical juncture of theaterisation reforms and ongoing border standoffs.",
-        "quickSummary": "General Dhiraj Seth took charge as the 31st Chief of the Army Staff (COAS), succeeding General Upendra Dwivedi. He introduced the 'VIJAY' vision, focusing on modernization, self-reliance, and tri-service integration to address contemporary security challenges.",
-        "detailedAnalysis": "The appointment of General Dhiraj Seth as the 31st COAS marks a pivotal moment in [[Indian Army Modernisation]]. Under his 'VIJAY' (Vigorous, Integrated, Joint, Agile, and Yield-oriented) vision, the Indian Army aims to accelerate the transition from a manpower-intensive force to a technology-enabled one. This involves the integration of niche technologies like artificial intelligence, quantum computing, and unmanned aerial systems (UAS). Historically, the role of the COAS has evolved from the Commander-in-Chief post-independence to a key member of the Chiefs of Staff Committee, now working closely with the [[Chief of Defence Staff]] (CDS) to implement theaterisation. The strategic significance lies in addressing the dual-front threat from China and Pakistan, requiring robust border management along the Line of Actual Control (LAC) and Line of Control (LoC). A key challenge (weakness) remains the slow pace of capital acquisition and bureaucratic delays in indigenous defense production, contrasted with the advantage of a highly battle-hardened infantry. In comparison to global peers like the US Army or China's PLA, which have highly integrated theater commands, the Indian Army is still in the transition phase of establishing joint theater commands. Future upgrades under this tenure will focus on the induction of [[F-INSAS]] (Futuristic Infantry Soldier As a System), [[Zorawar Light Tank]], and advanced swarm drone systems to ensure tactical superiority.",
-        "backgroundContext": "The appointment of the Chief of the Army Staff is governed by the government's discretion, typically following the seniority principle, though exceptions have occurred historically. The transition from General Upendra Dwivedi to General Dhiraj Seth comes amidst structural reforms initiated after the creation of the post of [[Chief of Defence Staff]] (CDS) in 2019. The Indian Army has been actively restructuring its combat formations into Integrated Battle Groups (IBGs) and upgrading its infrastructure along the northern borders following the 2020 Galwan Valley clash, highlighting the need for agile leadership and modern warfare capabilities.",
-        "stakeholders": [
-            "Indian Army",
-            "Ministry of Defence, Government of India",
-            "Chief of Defence Staff (CDS)",
-            "General Dhiraj Seth (Chief of the Army Staff)"
+      "id": "ca_live_2026_07_18_0",
+      "topic": "Sports",
+      "topicColor": "#007bff",
+      "summary": "Olympic medalists Lovlina Borgohain and Mirabai Chanu were announced as the flag bearers for the Indian contingent at the Commonwealth Games 2026 Opening Ceremony in Glasgow.",
+      "text": "India's <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Olympic legends Lovlina Borgohain and Mirabai Chanu</mark> have been chosen to lead the Indian contingent as flag bearers at the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Opening Ceremony of the Commonwealth Games 2026 in Glasgow</mark>. This selection highlights their achievements and serves as an inspiration for the entire team.",
+      "quickSummary": "Lovlina Borgohain and Mirabai Chanu will lead the Indian contingent as flag bearers at the CWG 2026 Opening Ceremony in Glasgow.",
+      "detailedAnalysis": "The selection of Lovlina Borgohain (boxing) and Mirabai Chanu (weightlifting), both Olympic medalists, as flag bearers for the Commonwealth Games 2026 is a significant honor and a recognition of their outstanding contributions to Indian sports. Flag bearers symbolize the spirit and aspirations of their nation at international sporting events. Their leadership at the opening ceremony is expected to boost the morale of the Indian contingent and inspire younger athletes. The Commonwealth Games provide a crucial platform for Indian athletes to compete globally and prepare for larger events like the Olympics. India has a strong track record at the CWG, and the performance of its athletes is closely watched as an indicator of the country's sporting prowess. The event also fosters international goodwill and cultural exchange.",
+      "backgroundContext": "The Commonwealth Games (CWG) are a multinational multi-sport event held every four years, involving athletes from the Commonwealth of Nations. India has been a regular participant and a strong performer at the CWG. The selection of flag bearers is a prestigious decision, often given to athletes who have achieved significant success and embody the values of sportsmanship and national pride. Lovlina Borgohain won a bronze medal in boxing at the Tokyo 2020 Olympics, and Mirabai Chanu won a silver medal in weightlifting at the same event, making them prominent figures in Indian sports.",
+      "stakeholders": [
+        "Indian Olympic Association (IOA)",
+        "Commonwealth Games Federation (CGF)",
+        "Lovlina Borgohain",
+        "Mirabai Chanu",
+        "Indian Athletes"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Medium"
+      },
+      "relatedTopics": [
+        "[[Commonwealth Games]]",
+        "[[Indian Sports Achievements]]",
+        "[[Olympic Medalists from India]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Who are the flag bearers for India at CWG 2026?",
+          "What is the significance of selecting Olympic medalists as flag bearers?"
         ],
-        "examRelevanceMatrix": {
-            "NDA": "Very High",
-            "CDS": "Very High",
-            "AFCAT": "High",
-            "CAPF": "High",
-            "UPSC": "Very High"
-        },
-        "relatedTopics": [
-            "[[Chief of Defence Staff]]",
-            "[[Theaterisation of Armed Forces]]",
-            "[[Atmanirbhar Bharat in Defence]]",
-            "[[Indian Army Modernisation]]"
+        "interviewQuestions": [
+          "Discuss the role of international sporting events like CWG in promoting national pride and sports development.",
+          "How do individual athlete achievements contribute to India's global sporting image?"
         ],
-        "potentialQuestions": {
-            "shortAnswers": [
-                "What is the 'VIJAY' vision outlined by the newly appointed COAS?",
-                "How does the appointment of the new COAS impact the ongoing theaterisation process?"
-            ],
-            "interviewQuestions": [
-                "What are the major challenges the new Chief of the Army Staff will face in the context of the border standoff with China?",
-                "How important is indigenization for the Indian Army's modernization goals?"
-            ],
-            "ssbDiscussionTopics": [
-                "Atmanirbhar Bharat in Defence: Rhetoric vs Reality",
-                "The role of technology in future warfare for the Indian Army."
-            ]
-        },
-        "upscHighlights": [
-            "Transition of leadership to General Dhiraj Seth as 31st COAS.",
-            "Focus on 'VIJAY' vision: Vigorous, Integrated, Joint, Agile, and Yield-oriented.",
-            "Emphasis on Atmanirbhar Bharat and technological absorption.",
-            "Context of theaterisation and border standoffs."
+        "ssbDiscussionTopics": [
+          "The importance of sports in nation-building and youth development.",
+          "Challenges and opportunities for Indian athletes in international competitions."
+        ]
+      },
+      "upscHighlights": [
+        "Lovlina Borgohain and Mirabai Chanu to lead Indian contingent at CWG 2026.",
+        "Flag bearers for the Opening Ceremony in Glasgow.",
+        "Highlights achievements of Indian Olympic legends."
+      ],
+      "institutionalContext": "Indian Olympic Association / Ministry of Youth Affairs and Sports",
+      "strategicImportance": "A major national event showcasing India's sporting talent and national representation on an international stage.",
+      "originalSource": "livemint.com",
+      "publicationDate": "2026-07-18",
+      "lastUpdatedDate": "2026-07-18",
+      "verificationStatus": "Verified",
+      "relatedOfficialDocuments": "IOA Press Release",
+      "mcq": {
+        "question": "Which two Olympic legends were chosen to lead the Indian contingent at the Commonwealth Games 2026 Opening Ceremony?",
+        "options": [
+          "A) PV Sindhu and Neeraj Chopra",
+          "B) Lovlina Borgohain and Mirabai Chanu",
+          "C) Mary Kom and Bajrang Punia",
+          "D) Saina Nehwal and Sushil Kumar"
         ],
-        "institutionalContext": "Ministry of Defence / Indian Army",
-        "strategicImportance": "Leadership changes in the Armed Forces are crucial for understanding strategic direction, modernization plans, and defense policies.",
-        "originalSource": "Official Press Release / Defence Ministry",
-        "publicationDate": "2026-07-01",
-        "lastUpdatedDate": "2026-07-02",
-        "verificationStatus": "Verified",
-        "relatedOfficialDocuments": "MoD Press Release on COAS Appointment",
-        "mcq": {
-            "question": "What does the 'VIJAY' vision, outlined by the 31st Chief of the Army Staff General Dhiraj Seth, primarily focus on?",
-            "options": [
-                "A) Expanding the size of the infantry.",
-                "B) Technological absorption, indigenous defense production, and jointness.",
-                "C) Withdrawing troops from the northern borders.",
-                "D) Relying exclusively on imported defense equipment."
-            ],
-            "correct": 1,
-            "explanation": "The 'VIJAY' vision emphasizes technological absorption, indigenous defense production under Atmanirbhar Bharat, and enhanced jointness among the tri-services to modernize the Indian Army."
-        }
+        "correct": 1,
+        "explanation": "Lovlina Borgohain and Mirabai Chanu were selected as the flag bearers for the Indian contingent at CWG 2026."
+      }
     },
     {
-        "id": "jul-26-hydrogen-train",
-        "topic": "Infrastructure & Technology",
-        "text": "India launched its first **indigenous hydrogen-powered train** in July 2026, marking a significant step towards the 'Net Zero Carbon Emission by 2030' goal for Indian Railways.",
-        "details": {
-            "winner": "Indian Railways",
-            "award": "First Hydrogen Train",
-            "nationality": "Indian",
-            "summary": "A green initiative operating on the Jind-Sonipat section under 'Hydrogen for Heritage'."
-        },
-        "mcq": {
-            "question": "Which initiative encompasses the launch of India's first indigenous hydrogen-powered train in July 2026?",
-            "options": [
-                "A) Hydrogen for Heritage",
-                "B) Green Railways Mission",
-                "C) Vande Bharat Hydrogen",
-                "D) Project Net Zero"
-            ],
-            "answer": "A",
-            "explanation": "The 'Hydrogen for Heritage' initiative aims to operate hydrogen-powered trains on heritage and hilly routes to promote green transportation."
-        }
+      "id": "jul-26-news-3",
+      "topic": "Space Technology",
+      "text": "Skyroot Aerospace successfully launched its Vikram-1 orbital rocket from Sriharikota in July 2026, marking a significant milestone for India's private space sector.",
+      "details": {
+        "winner": "Skyroot Aerospace",
+        "award": "Vikram-1 Launch",
+        "nationality": "Indian",
+        "summary": "India's private space sector milestone."
+      },
+      "mcq": {
+        "question": "Which private Indian company launched the Vikram-1 orbital rocket in July 2026?",
+        "options": [
+          "A) Agnikul Cosmos",
+          "B) Skyroot Aerospace",
+          "C) Bellatrix Aerospace",
+          "D) Dhruva Space"
+        ],
+        "answer": "B",
+        "explanation": "Skyroot Aerospace successfully launched the Vikram-1."
+      },
+      "publicationDate": "2026-07-18"
     },
     {
-        "id": "jul-26-news-2",
-        "topic": "Sports",
-        "text": "The South African Women's Cricket team secured qualification for the Los Angeles 2028 Olympic Games, marking cricket's historic return to the Olympics after 128 years.",
-        "details": {
-            "winner": "South African Women's Cricket Team",
-            "award": "Olympic Qualification",
-            "nationality": "South African",
-            "summary": "Cricket returns to the Olympics for LA 2028."
-        },
-        "mcq": {
-            "question": "Which women's cricket team recently qualified for the LA 2028 Olympics?",
-            "options": [
-                "A) Australia",
-                "B) England",
-                "C) South Africa",
-                "D) India"
-            ],
-            "answer": "C",
-            "explanation": "South Africa secured their spot for the LA 2028 Olympics."
-        }
+      "id": "ca_live_2026_07_17_0",
+      "topic": "Defence",
+      "topicColor": "#b45309",
+      "summary": "The Indian Armed Forces marked the first anniversary of 'Op Sindoor', emphasizing its ongoing strategic importance and commitment to its objectives.",
+      "text": "The <strong>Indian Armed Forces</strong> commemorated the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>first anniversary of 'Op Sindoor'</mark>, with a message that the operation is 'not over, it is the beginning'. This signifies the continued strategic relevance and commitment to the objectives of the operation, which is understood to be a significant military initiative.",
+      "quickSummary": "The Indian Armed Forces marked the first anniversary of 'Op Sindoor', reiterating its ongoing strategic importance and commitment.",
+      "detailedAnalysis": "While specific details of 'Op Sindoor' are often classified, its public acknowledgment on its first anniversary by the Armed Forces underscores its strategic significance. Such operations typically involve a combination of conventional and unconventional warfare tactics, aiming to secure national interests, deter adversaries, or maintain stability in a particular region. The statement 'not over, it is the beginning' suggests a long-term commitment and possibly an evolving scope for the operation. This aligns with India's broader defence posture, which emphasizes proactive measures and sustained efforts in safeguarding its borders and strategic assets. The anniversary serves as a morale booster for troops and a message of resolve to both domestic and international audiences. It also highlights the continuous nature of military preparedness and operational readiness in the face of dynamic security challenges.",
+      "backgroundContext": "Military operations like 'Op Sindoor' are often launched in response to specific geopolitical or security imperatives. Their anniversaries are used to reflect on achievements, reinforce objectives, and communicate future intent. The Indian Armed Forces regularly conduct various operations, both overt and covert, to address internal security threats, border management issues, and regional stability concerns. The public messaging around such anniversaries is carefully crafted to convey strength and determination.",
+      "stakeholders": [
+        "Indian Armed Forces",
+        "Ministry of Defence, Government of India"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "Medium",
+        "UPSC": "Medium"
+      },
+      "relatedTopics": [
+        "[[Indian Army Operations]]",
+        "[[National Security]]",
+        "[[Defence Strategy]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the 'Op Sindoor' anniversary message?",
+          "How do such anniversaries contribute to national defence messaging?"
+        ],
+        "interviewQuestions": [
+          "Discuss the strategic implications of long-term military operations like 'Op Sindoor'.",
+          "How does public communication about military operations impact national morale and international perception?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of sustained military operations in maintaining regional stability.",
+          "Balancing transparency and secrecy in defence communications."
+        ]
+      },
+      "upscHighlights": [
+        "First anniversary of 'Op Sindoor' marked by Indian Armed Forces.",
+        "Emphasis on ongoing strategic importance and commitment.",
+        "Reflects India's proactive defence posture."
+      ],
+      "institutionalContext": "Ministry of Defence / Indian Armed Forces",
+      "strategicImportance": "Highlights ongoing military operations and strategic messaging by the Armed Forces.",
+      "originalSource": "DD News",
+      "publicationDate": "2026-07-17",
+      "lastUpdatedDate": "2026-07-17",
+      "verificationStatus": "Verified",
+      "relatedOfficialDocuments": "N/A (based on news report)",
+      "mcq": {
+        "question": "What was the key message conveyed by the Indian Armed Forces on the first anniversary of 'Op Sindoor'?",
+        "options": [
+          "A) The operation has concluded successfully.",
+          "B) The operation is being scaled down.",
+          "C) The operation is ongoing and strategically important.",
+          "D) The operation's objectives have been fully met."
+        ],
+        "correct": 2,
+        "explanation": "The message stated 'Op Sindoor not over, it is the beginning', emphasizing its ongoing strategic importance."
+      }
     },
     {
-        "id": "jul-26-news-3",
-        "topic": "Space Technology",
-        "text": "Skyroot Aerospace successfully launched its Vikram-1 orbital rocket from Sriharikota in July 2026, marking a significant milestone for India's private space sector.",
-        "details": {
-            "winner": "Skyroot Aerospace",
-            "award": "Vikram-1 Launch",
-            "nationality": "Indian",
-            "summary": "India's private space sector milestone."
-        },
-        "mcq": {
-            "question": "Which private Indian company launched the Vikram-1 orbital rocket in July 2026?",
-            "options": [
-                "A) Agnikul Cosmos",
-                "B) Skyroot Aerospace",
-                "C) Bellatrix Aerospace",
-                "D) Dhruva Space"
-            ],
-            "answer": "B",
-            "explanation": "Skyroot Aerospace successfully launched the Vikram-1."
-        }
+      "id": "ca_live_2026_07_17_1",
+      "topic": "Polity",
+      "topicColor": "#007bff",
+      "summary": "A new bill proposing jail terms for insulting 'Vande Mataram' is set to be introduced in the Indian Parliament, sparking debates on national symbols and freedom of expression.",
+      "text": "A <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>new bill proposing jail terms for insulting 'Vande Mataram'</mark> is slated for introduction in the <strong>Indian Parliament</strong>. This legislative move aims to protect national symbols but has ignited discussions regarding the balance between national reverence and <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>freedom of expression</mark>.",
+      "quickSummary": "A new bill proposing jail terms for insulting 'Vande Mataram' is to be introduced in Parliament, raising debates on national symbols and free speech.",
+      "detailedAnalysis": "The proposed bill to penalize insults to 'Vande Mataram' reflects a legislative intent to reinforce respect for national symbols. 'Vande Mataram' holds deep historical and emotional significance as a national song, particularly from India's independence movement. The bill's introduction is likely to generate considerable debate in Parliament and public discourse. Proponents argue it is essential to uphold national dignity, while critics may raise concerns about potential misuse, the definition of 'insult,' and its implications for fundamental rights, particularly freedom of speech and expression guaranteed under Article 19(1)(a) of the Constitution. The legal framework for protecting national symbols already exists (e.g., Prevention of Insults to National Honour Act, 1971), and this new bill could either strengthen or complicate it. The outcome of this legislative process will be crucial for understanding the evolving legal landscape concerning national identity and individual liberties in India.",
+      "backgroundContext": "'Vande Mataram' is a Bengali poem written by Bankim Chandra Chatterjee in the 1870s, which was adopted as the national song of India. It played a pivotal role in the Indian independence movement. Debates surrounding its compulsory singing or respect have periodically surfaced in India. The Indian Constitution and various laws protect national symbols, but the extent of protection and penalties for perceived insults often remain subjects of legal and political discussion. This bill comes in the context of ongoing efforts to strengthen nationalistic sentiments.",
+      "stakeholders": [
+        "Indian Parliament",
+        "Government of India",
+        "Citizens of India",
+        "Legal Experts",
+        "Civil Society Organizations"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "Very High",
+        "UPSC": "Very High"
+      },
+      "relatedTopics": [
+        "[[National Symbols of India]]",
+        "[[Freedom of Speech and Expression]]",
+        "[[Indian Constitution]]",
+        "[[Legislative Process in India]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the core proposal of the new bill regarding 'Vande Mataram'?",
+          "What constitutional right might be debated in relation to this bill?"
+        ],
+        "interviewQuestions": [
+          "Discuss the balance between protecting national symbols and upholding freedom of expression in a democratic society.",
+          "Analyze the historical context and significance of 'Vande Mataram' in India's national identity."
+        ],
+        "ssbDiscussionTopics": [
+          "Nationalism vs. Individual Liberty: A legislative dilemma.",
+          "The role of law in enforcing respect for national symbols."
+        ]
+      },
+      "upscHighlights": [
+        "New bill proposing jail terms for insulting 'Vande Mataram' in Parliament.",
+        "Debate on national symbols and freedom of expression.",
+        "Implications for fundamental rights and national identity."
+      ],
+      "institutionalContext": "Indian Parliament / Ministry of Law and Justice",
+      "strategicImportance": "A significant legislative development impacting national identity, fundamental rights, and public discourse.",
+      "originalSource": "India Today",
+      "publicationDate": "2026-07-17",
+      "lastUpdatedDate": "2026-07-17",
+      "verificationStatus": "Verified",
+      "relatedOfficialDocuments": "N/A (based on news report)",
+      "mcq": {
+        "question": "The new bill headed to Parliament proposes penalties for insulting which national symbol?",
+        "options": [
+          "A) National Flag",
+          "B) National Anthem",
+          "C) Vande Mataram",
+          "D) National Emblem"
+        ],
+        "correct": 2,
+        "explanation": "The bill specifically targets insults to 'Vande Mataram', the national song."
+      }
     },
     {
-        "id": "jul-26-news-4",
-        "topic": "Polity",
-        "text": "The Monsoon Session of the Parliament began in July 2026, focusing on key economic reforms and the passage of the new Digital Data Protection regulations.",
-        "details": {
-            "winner": "Indian Parliament",
-            "award": "Monsoon Session",
-            "nationality": "Indian",
-            "summary": "Focus on data protection and economic reforms."
-        },
-        "mcq": {
-            "question": "The July 2026 Monsoon Session primarily focused on which key regulatory framework?",
-            "options": [
-                "A) Agricultural Reforms",
-                "B) Digital Data Protection",
-                "C) Aviation Safety",
-                "D) Maritime Border Laws"
-            ],
-            "answer": "B",
-            "explanation": "The session prioritized the passage of new Digital Data Protection regulations."
-        }
+      "id": "ca_live_2026_07_13_0",
+      "topic": "Polity",
+      "topicColor": "#007bff",
+      "summary": "A new CEO was appointed for the Shri Ram Janmabhoomi Teerth Kshetra Trust, with Nripendra Mishra affirming the government's non-interference in its functioning.",
+      "text": "A <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>new Chief Executive Officer (CEO)</mark> has been appointed for the <strong>Shri Ram Janmabhoomi Teerth Kshetra Trust</strong>. Following this, Nripendra Mishra, Chairman of the Ayodhya Ram Temple Construction Committee, reiterated the government's stance of <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>non-interference in the Trust's functioning</mark>, emphasizing its autonomous management.",
+      "quickSummary": "A new CEO was appointed for the Ram Temple Trust, with Nripendra Mishra confirming the government's non-interference in its operations.",
+      "detailedAnalysis": "The appointment of a new CEO for the Shri Ram Janmabhoomi Teerth Kshetra Trust is a significant administrative development for the body responsible for the construction and management of the Ram Temple in Ayodhya. The Trust, established by the Government of India, operates as an autonomous body. Nripendra Mishra's statement reinforces the principle of separation between state and religious institutions, particularly concerning the day-to-day administration of the temple. This move aims to ensure the Trust's independence and efficient management, free from political influence. The Ram Temple project holds immense cultural and religious significance in India, and its management is closely watched. The appointment of a CEO is crucial for streamlining administrative processes, fundraising, and overseeing the ongoing construction and future operational aspects of the temple complex.",
+      "backgroundContext": "The Shri Ram Janmabhoomi Teerth Kshetra Trust was constituted by the Government of India in February 2020, following the Supreme Court's verdict on the Ayodhya dispute. Its mandate is to oversee the construction and management of the Ram Temple. The Trust comprises various members, including government nominees and religious leaders. The appointment of key administrative personnel like a CEO is vital for the effective functioning of such a large-scale and sensitive project.",
+      "stakeholders": [
+        "Shri Ram Janmabhoomi Teerth Kshetra Trust",
+        "Government of India",
+        "Nripendra Mishra",
+        "Devotees and Public"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Low",
+        "CAPF": "High",
+        "UPSC": "Very High"
+      },
+      "relatedTopics": [
+        "[[Ayodhya Dispute]]",
+        "[[Religious Institutions in India]]",
+        "[[Government and Religious Affairs]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the role of the Shri Ram Janmabhoomi Teerth Kshetra Trust?",
+          "What was Nripendra Mishra's statement regarding the Trust's functioning?"
+        ],
+        "interviewQuestions": [
+          "Discuss the importance of maintaining autonomy for religious trusts in India.",
+          "How does the appointment of a CEO impact the management and operations of a large religious project like the Ram Temple?"
+        ],
+        "ssbDiscussionTopics": [
+          "Government's role in religious affairs: Support vs. Interference.",
+          "The management of large-scale religious and cultural projects in India."
+        ]
+      },
+      "upscHighlights": [
+        "Appointment of new CEO for Shri Ram Janmabhoomi Teerth Kshetra Trust.",
+        "Nripendra Mishra's statement on government's non-interference.",
+        "Significance for autonomous management of the Ram Temple project."
+      ],
+      "institutionalContext": "Shri Ram Janmabhoomi Teerth Kshetra Trust / Government of India",
+      "strategicImportance": "Administrative development for a culturally and politically significant national project, highlighting governance principles.",
+      "originalSource": "TheWire.in",
+      "publicationDate": "2026-07-13",
+      "lastUpdatedDate": "2026-07-13",
+      "verificationStatus": "Verified",
+      "relatedOfficialDocuments": "N/A (based on news report)",
+      "mcq": {
+        "question": "Who affirmed the government's non-interference in the functioning of the Shri Ram Janmabhoomi Teerth Kshetra Trust after the appointment of a new CEO?",
+        "options": [
+          "A) Prime Minister of India",
+          "B) Chief Minister of Uttar Pradesh",
+          "C) Nripendra Mishra",
+          "D) Union Home Minister"
+        ],
+        "correct": 2,
+        "explanation": "Nripendra Mishra, Chairman of the Ayodhya Ram Temple Construction Committee, reiterated the government's stance of non-interference."
+      }
     },
     {
-        "id": "jul-26-news-5",
-        "topic": "Environment",
-        "text": "Global climate agencies reported extreme 'Marine Heatwaves' across the Indian Ocean in July 2026, threatening coral reefs and disrupting local monsoonal patterns.",
-        "details": {
-            "winner": "Indian Ocean Region",
-            "award": "Marine Heatwaves",
-            "nationality": "Global",
-            "summary": "Severe environmental threat to marine ecosystems."
-        },
-        "mcq": {
-            "question": "Which specific environmental phenomenon in the Indian Ocean threatened coral reefs in July 2026?",
-            "options": [
-                "A) Ocean Acidification",
-                "B) Marine Heatwaves",
-                "C) Tsunamis",
-                "D) Algal Blooms"
-            ],
-            "answer": "B",
-            "explanation": "Marine heatwaves were reported to be exceptionally high in the Indian Ocean."
-        }
+      "id": "ca_live_2026_07_13_1",
+      "topic": "Defence",
+      "topicColor": "#b45309",
+      "summary": "61 NCC Cadets from Chandigarh University were commissioned as officers into the Indian Armed Forces, marking a significant contribution to military leadership.",
+      "text": "A total of <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>61 National Cadet Corps (NCC) Cadets</mark> from <strong>Chandigarh University</strong> were successfully <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>commissioned as officers</mark> into the <strong>Indian Armed Forces</strong>. This event highlights the crucial role of NCC in nurturing future military leaders and contributing to the nation's defence capabilities.",
+      "quickSummary": "61 NCC Cadets from Chandigarh University were commissioned as officers into the Indian Armed Forces, showcasing NCC's role in military leadership development.",
+      "detailedAnalysis": "The commissioning of NCC cadets into the Armed Forces is a testament to the rigorous training and character development imparted by the National Cadet Corps. NCC serves as a vital feeder organization for the Indian military, instilling discipline, leadership qualities, and a sense of patriotism among youth. This particular batch from Chandigarh University demonstrates the growing trend of university students opting for a career in the Armed Forces, often leveraging their NCC background. The event underscores the importance of civil-military integration and the continuous supply of trained manpower to meet the defence needs of the country. It also reflects the success of NCC programs in attracting and preparing young individuals for challenging roles in national service. Such commissioning events are crucial for maintaining the strength and quality of the officer cadre in the Indian Army, Navy, and Air Force.",
+      "backgroundContext": "The National Cadet Corps (NCC) is the youth wing of the Indian Armed Forces, open to school and college students on a voluntary basis. It aims at developing character, comradeship, discipline, a secular outlook, the spirit of adventure, and ideals of selfless service among young citizens. Many NCC cadets, after completing their training, choose to join the Armed Forces through various entry schemes, including the Combined Defence Services (CDS) Examination or through direct entry for NCC 'C' certificate holders. Chandigarh University has a strong NCC program, consistently producing cadets who join the military.",
+      "stakeholders": [
+        "Indian Armed Forces",
+        "National Cadet Corps (NCC)",
+        "Chandigarh University",
+        "Ministry of Defence, Government of India"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Very High",
+        "CDS": "Very High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Medium"
+      },
+      "relatedTopics": [
+        "[[National Cadet Corps (NCC)]]",
+        "[[Indian Armed Forces Recruitment]]",
+        "[[Military Training in India]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of NCC cadets being commissioned as officers?",
+          "How does NCC contribute to the Indian Armed Forces?"
+        ],
+        "interviewQuestions": [
+          "Discuss the role of youth organizations like NCC in national defence and character building.",
+          "What are the pathways for NCC cadets to join the Indian Armed Forces as officers?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of military education and training for national security.",
+          "Encouraging youth participation in defence services."
+        ]
+      },
+      "upscHighlights": [
+        "61 NCC Cadets from Chandigarh University commissioned as officers.",
+        "Highlights NCC's role in developing military leadership.",
+        "Contribution to Indian Armed Forces officer cadre."
+      ],
+      "institutionalContext": "Ministry of Defence / Indian Armed Forces / NCC",
+      "strategicImportance": "Demonstrates the continuous intake of trained personnel into the Armed Forces, vital for national security.",
+      "originalSource": "Yahoo Finance",
+      "publicationDate": "2026-07-13",
+      "lastUpdatedDate": "2026-07-13",
+      "verificationStatus": "Verified",
+      "relatedOfficialDocuments": "N/A (based on news report)",
+      "mcq": {
+        "question": "From which university were 61 NCC Cadets recently commissioned as officers into the Indian Armed Forces?",
+        "options": [
+          "A) Delhi University",
+          "B) Jawaharlal Nehru University",
+          "C) Chandigarh University",
+          "D) Banaras Hindu University"
+        ],
+        "correct": 2,
+        "explanation": "61 NCC Cadets from Chandigarh University were commissioned as officers into the Indian Armed Forces."
+      }
     },
     {
-        "id": "jul-26-news-6",
-        "topic": "Economy",
-        "text": "India formally extended its Unified Payments Interface (UPI) to Greece, marking a significant step in the internationalization of India's digital public infrastructure.",
-        "details": {
-            "winner": "NPCI International",
-            "award": "UPI in Greece",
-            "nationality": "Indian/Greek",
-            "summary": "UPI expansion in Europe."
-        },
-        "mcq": {
-            "question": "To which European nation was India's UPI formally extended in July 2026?",
-            "options": [
-                "A) France",
-                "B) Greece",
-                "C) Germany",
-                "D) Italy"
-            ],
-            "answer": "B",
-            "explanation": "India extended UPI services to Greece in July 2026."
-        }
+      "id": "ca_live_2026_07_02_0",
+      "topic": "Social Schemes",
+      "topicColor": "#007bff",
+      "summary": "Odisha launched India's first universal 'KG-to-PG' free education program under the 'Gyanodaya' scheme, aiming to provide accessible education from kindergarten to postgraduate levels.",
+      "text": "The state of <strong>Odisha</strong> has unveiled <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>India’s first universal 'KG-to-PG' free education programme</mark> under its ambitious <strong>'Gyanodaya' scheme</strong>. This landmark initiative aims to ensure equitable access to quality education for all citizens, from kindergarten through to postgraduate studies, significantly reducing financial barriers to higher learning.",
+      "quickSummary": "Odisha launched India's first universal 'KG-to-PG' free education program under the 'Gyanodaya' scheme, ensuring free education from kindergarten to postgraduate levels.",
+      "detailedAnalysis": "The 'Gyanodaya' scheme in Odisha represents a pioneering effort in India's education sector. By offering free education from KG to PG, the state aims to boost literacy rates, improve enrollment in higher education, and reduce dropout rates, particularly among economically disadvantaged sections. This initiative is expected to have a transformative impact on social mobility and human capital development within the state. Challenges (weakness) may include funding sustainability, maintaining quality across all levels, and ensuring adequate infrastructure and faculty. However, the potential benefits (strength) in terms of inclusive growth and skill development are substantial. This scheme could serve as a model for other states in India, aligning with the broader goals of the National Education Policy (NEP) 2020, which emphasizes accessibility and equity in education. The long-term impact will be measured by improvements in educational outcomes, employability, and overall socio-economic indicators.",
+      "backgroundContext": "Education has been a key focus area for state governments in India, with various schemes aimed at promoting school enrollment and reducing financial burdens. However, a universal 'KG-to-PG' free education program is unprecedented. Odisha's initiative builds upon existing efforts to strengthen public education and address disparities, particularly in tribal and rural areas. The 'Gyanodaya' scheme reflects a commitment to investing in human development as a cornerstone of state progress.",
+      "stakeholders": [
+        "Government of Odisha",
+        "Students and Parents in Odisha",
+        "Educational Institutions",
+        "Ministry of Education, Government of India"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Low",
+        "CAPF": "High",
+        "UPSC": "Very High"
+      },
+      "relatedTopics": [
+        "[[National Education Policy 2020]]",
+        "[[Social Welfare Schemes]]",
+        "[[Human Development Index]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the 'Gyanodaya' scheme in Odisha?",
+          "How does Odisha's KG-to-PG free education program differ from existing schemes?"
+        ],
+        "interviewQuestions": [
+          "Discuss the potential benefits and challenges of implementing a universal KG-to-PG free education program.",
+          "How can such a scheme contribute to inclusive growth and social equity in India?"
+        ],
+        "ssbDiscussionTopics": [
+          "Free education for all: A fundamental right or an economic burden?",
+          "The role of state governments in achieving educational equity."
+        ]
+      },
+      "upscHighlights": [
+        "Odisha launches India's first universal 'KG-to-PG' free education program.",
+        "Initiative under the 'Gyanodaya' scheme.",
+        "Aims to ensure equitable access to quality education and reduce financial barriers."
+      ],
+      "institutionalContext": "Government of Odisha / Department of Education",
+      "strategicImportance": "A significant policy reform in education with potential national implications for social development and equity.",
+      "originalSource": "The New Indian Express",
+      "publicationDate": "2026-07-02",
+      "lastUpdatedDate": "2026-07-02",
+      "verificationStatus": "Verified",
+      "relatedOfficialDocuments": "Odisha Government Education Policy Documents",
+      "mcq": {
+        "question": "Which Indian state launched the first universal 'KG-to-PG' free education program under the 'Gyanodaya' scheme?",
+        "options": [
+          "A) Kerala",
+          "B) Tamil Nadu",
+          "C) Odisha",
+          "D) Maharashtra"
+        ],
+        "correct": 2,
+        "explanation": "Odisha unveiled India’s first universal 'KG-to-PG' free education programme under its 'Gyanodaya' scheme."
+      }
     },
     {
-        "id": "jul-26-news-7",
-        "topic": "International Relations",
-        "text": "India and Vietnam signed a Mutual Logistics Support Agreement (MLSA) in July 2026, enhancing maritime security cooperation in the Indo-Pacific region.",
-        "details": {
-            "winner": "India & Vietnam",
-            "award": "MLSA Agreement",
-            "nationality": "International",
-            "summary": "Boosts Indo-Pacific maritime security."
-        },
-        "mcq": {
-            "question": "With which Southeast Asian country did India sign a Mutual Logistics Support Agreement in July 2026?",
-            "options": [
-                "A) Philippines",
-                "B) Vietnam",
-                "C) Indonesia",
-                "D) Malaysia"
-            ],
-            "answer": "B",
-            "explanation": "India and Vietnam signed the MLSA to boost maritime cooperation."
-        }
+      "id": "ca_live_2026_07_01_0",
+      "topic": "Military Appointments",
+      "topicColor": "#b45309",
+      "summary": "General Dhiraj Seth has officially assumed charge as the 31st Chief of the Army Staff (COAS) of the Indian Army, succeeding General Upendra Dwivedi and outlining his strategic 'VIJAY' vision for modernization and self-reliance.",
+      "text": "<strong>General Dhiraj Seth</strong> has assumed command as the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>31st Chief of the Army Staff (COAS)</mark> of the <strong>Indian Army</strong>. His tenure begins with the unveiling of the <strong>'VIJAY' vision</strong>, which prioritizes technological absorption, indigenous defense production under <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Atmanirbhar Bharat</mark>, and enhanced jointness among the tri-services. This transition comes at a critical juncture of theaterisation reforms and ongoing border standoffs.",
+      "quickSummary": "General Dhiraj Seth took charge as the 31st Chief of the Army Staff (COAS), succeeding General Upendra Dwivedi. He introduced the 'VIJAY' vision, focusing on modernization, self-reliance, and tri-service integration to address contemporary security challenges.",
+      "detailedAnalysis": "The appointment of General Dhiraj Seth as the 31st COAS marks a pivotal moment in [[Indian Army Modernisation]]. Under his 'VIJAY' (Vigorous, Integrated, Joint, Agile, and Yield-oriented) vision, the Indian Army aims to accelerate the transition from a manpower-intensive force to a technology-enabled one. This involves the integration of niche technologies like artificial intelligence, quantum computing, and unmanned aerial systems (UAS). Historically, the role of the COAS has evolved from the Commander-in-Chief post-independence to a key member of the Chiefs of Staff Committee, now working closely with the [[Chief of Defence Staff]] (CDS) to implement theaterisation. The strategic significance lies in addressing the dual-front threat from China and Pakistan, requiring robust border management along the Line of Actual Control (LAC) and Line of Control (LoC). A key challenge (weakness) remains the slow pace of capital acquisition and bureaucratic delays in indigenous defense production, contrasted with the advantage of a highly battle-hardened infantry. In comparison to global peers like the US Army or China's PLA, which have highly integrated theater commands, the Indian Army is still in the transition phase of establishing joint theater commands. Future upgrades under this tenure will focus on the induction of [[F-INSAS]] (Futuristic Infantry Soldier As a System), [[Zorawar Light Tank]], and advanced swarm drone systems to ensure tactical superiority.",
+      "backgroundContext": "The appointment of the Chief of the Army Staff is governed by the government's discretion, typically following the seniority principle, though exceptions have occurred historically. The transition from General Upendra Dwivedi to General Dhiraj Seth comes amidst structural reforms initiated after the creation of the post of [[Chief of Defence Staff]] (CDS) in 2019. The Indian Army has been actively restructuring its combat formations into Integrated Battle Groups (IBGs) and upgrading its infrastructure along the northern borders following the 2020 Galwan Valley clash, highlighting the need for agile leadership and modern warfare capabilities.",
+      "stakeholders": [
+        "Indian Army",
+        "Ministry of Defence, Government of India",
+        "Chief of Defence Staff (CDS)",
+        "General Dhiraj Seth (Chief of the Army Staff)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Very High",
+        "CDS": "Very High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Very High"
+      },
+      "relatedTopics": [
+        "[[Chief of Defence Staff]]",
+        "[[Theaterisation of Armed Forces]]",
+        "[[Atmanirbhar Bharat in Defence]]",
+        "[[Indian Army Modernisation]]"
+      ],
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the 'VIJAY' vision outlined by the newly appointed COAS?",
+          "How does the appointment of the new COAS impact the ongoing theaterisation process?"
+        ],
+        "interviewQuestions": [
+          "What are the major challenges the new Chief of the Army Staff will face in the context of the border standoff with China?",
+          "How important is indigenization for the Indian Army's modernization goals?"
+        ],
+        "ssbDiscussionTopics": [
+          "Atmanirbhar Bharat in Defence: Rhetoric vs Reality",
+          "The role of technology in future warfare for the Indian Army."
+        ]
+      },
+      "upscHighlights": [
+        "Transition of leadership to General Dhiraj Seth as 31st COAS.",
+        "Focus on 'VIJAY' vision: Vigorous, Integrated, Joint, Agile, and Yield-oriented.",
+        "Emphasis on Atmanirbhar Bharat and technological absorption.",
+        "Context of theaterisation and border standoffs."
+      ],
+      "institutionalContext": "Ministry of Defence / Indian Army",
+      "strategicImportance": "Leadership changes in the Armed Forces are crucial for understanding strategic direction, modernization plans, and defense policies.",
+      "originalSource": "Official Press Release / Defence Ministry",
+      "publicationDate": "2026-07-01",
+      "lastUpdatedDate": "2026-07-02",
+      "verificationStatus": "Verified",
+      "relatedOfficialDocuments": "MoD Press Release on COAS Appointment",
+      "mcq": {
+        "question": "What does the 'VIJAY' vision, outlined by the 31st Chief of the Army Staff General Dhiraj Seth, primarily focus on?",
+        "options": [
+          "A) Expanding the size of the infantry.",
+          "B) Technological absorption, indigenous defense production, and jointness.",
+          "C) Withdrawing troops from the northern borders.",
+          "D) Relying exclusively on imported defense equipment."
+        ],
+        "correct": 1,
+        "explanation": "The 'VIJAY' vision emphasizes technological absorption, indigenous defense production under Atmanirbhar Bharat, and enhanced jointness among the tri-services to modernize the Indian Army."
+      }
     },
     {
-        "id": "jul-26-news-8",
-        "topic": "Awards",
-        "text": "Renowned Indian author Amitav Ghosh was awarded the prestigious Erasmus Prize in July 2026 for his exceptional contribution to literature and climate change awareness.",
-        "details": {
-            "winner": "Amitav Ghosh",
-            "award": "Erasmus Prize",
-            "nationality": "Indian",
-            "summary": "Awarded for literature and climate awareness."
-        },
-        "mcq": {
-            "question": "Which Indian author was awarded the Erasmus Prize in July 2026?",
-            "options": [
-                "A) Salman Rushdie",
-                "B) Arundhati Roy",
-                "C) Amitav Ghosh",
-                "D) Vikram Seth"
-            ],
-            "answer": "C",
-            "explanation": "Amitav Ghosh received the Erasmus Prize for his literary work."
-        }
+      "id": "jul-26-hydrogen-train",
+      "topic": "Infrastructure & Technology",
+      "text": "India launched its first **indigenous hydrogen-powered train** in July 2026, marking a significant step towards the 'Net Zero Carbon Emission by 2030' goal for Indian Railways.",
+      "details": {
+        "winner": "Indian Railways",
+        "award": "First Hydrogen Train",
+        "nationality": "Indian",
+        "summary": "A green initiative operating on the Jind-Sonipat section under 'Hydrogen for Heritage'."
+      },
+      "mcq": {
+        "question": "Which initiative encompasses the launch of India's first indigenous hydrogen-powered train in July 2026?",
+        "options": [
+          "A) Hydrogen for Heritage",
+          "B) Green Railways Mission",
+          "C) Vande Bharat Hydrogen",
+          "D) Project Net Zero"
+        ],
+        "answer": "A",
+        "explanation": "The 'Hydrogen for Heritage' initiative aims to operate hydrogen-powered trains on heritage and hilly routes to promote green transportation."
+      },
+      "publicationDate": "2026-07-01"
     },
     {
-        "id": "jul-26-news-9",
-        "topic": "Defence",
-        "text": "The Indian Air Force participated in 'Exercise Pitch Black 2026' hosted by the Royal Australian Air Force, deploying Su-30MKI fighters and C-17 transport aircraft.",
-        "details": {
-            "winner": "IAF & RAAF",
-            "award": "Exercise Pitch Black",
-            "nationality": "International",
-            "summary": "Multinational air exercise in Australia."
-        },
-        "mcq": {
-            "question": "Which country hosted 'Exercise Pitch Black 2026' in which the IAF participated?",
-            "options": [
-                "A) USA",
-                "B) UK",
-                "C) Australia",
-                "D) France"
-            ],
-            "answer": "C",
-            "explanation": "Australia hosts the biennial Exercise Pitch Black."
-        }
+      "id": "jul-26-news-2",
+      "topic": "Sports",
+      "text": "The South African Women's Cricket team secured qualification for the Los Angeles 2028 Olympic Games, marking cricket's historic return to the Olympics after 128 years.",
+      "details": {
+        "winner": "South African Women's Cricket Team",
+        "award": "Olympic Qualification",
+        "nationality": "South African",
+        "summary": "Cricket returns to the Olympics for LA 2028."
+      },
+      "mcq": {
+        "question": "Which women's cricket team recently qualified for the LA 2028 Olympics?",
+        "options": [
+          "A) Australia",
+          "B) England",
+          "C) South Africa",
+          "D) India"
+        ],
+        "answer": "C",
+        "explanation": "South Africa secured their spot for the LA 2028 Olympics."
+      },
+      "publicationDate": "2026-07-01"
     },
     {
-        "id": "jul-26-news-10",
-        "topic": "Science & Tech",
-        "text": "ISRO successfully conducted the crucial 'Pad Abort Test' for the Gaganyaan mission, demonstrating the safety of the crew escape system under emergency conditions.",
-        "details": {
-            "winner": "ISRO",
-            "award": "Pad Abort Test",
-            "nationality": "Indian",
-            "summary": "Crucial safety test for Gaganyaan."
-        },
-        "mcq": {
-            "question": "What was the purpose of the 'Pad Abort Test' conducted by ISRO in July 2026?",
-            "options": [
-                "A) Satellite deployment",
-                "B) Crew escape system safety",
-                "C) Lunar landing simulation",
-                "D) Solar observation"
-            ],
-            "answer": "B",
-            "explanation": "The Pad Abort Test validates the crew escape system for the Gaganyaan mission."
-        }
+      "id": "jul-26-news-4",
+      "topic": "Polity",
+      "text": "The Monsoon Session of the Parliament began in July 2026, focusing on key economic reforms and the passage of the new Digital Data Protection regulations.",
+      "details": {
+        "winner": "Indian Parliament",
+        "award": "Monsoon Session",
+        "nationality": "Indian",
+        "summary": "Focus on data protection and economic reforms."
+      },
+      "mcq": {
+        "question": "The July 2026 Monsoon Session primarily focused on which key regulatory framework?",
+        "options": [
+          "A) Agricultural Reforms",
+          "B) Digital Data Protection",
+          "C) Aviation Safety",
+          "D) Maritime Border Laws"
+        ],
+        "answer": "B",
+        "explanation": "The session prioritized the passage of new Digital Data Protection regulations."
+      },
+      "publicationDate": "2026-07-01"
+    },
+    {
+      "id": "jul-26-news-5",
+      "topic": "Environment",
+      "text": "Global climate agencies reported extreme 'Marine Heatwaves' across the Indian Ocean in July 2026, threatening coral reefs and disrupting local monsoonal patterns.",
+      "details": {
+        "winner": "Indian Ocean Region",
+        "award": "Marine Heatwaves",
+        "nationality": "Global",
+        "summary": "Severe environmental threat to marine ecosystems."
+      },
+      "mcq": {
+        "question": "Which specific environmental phenomenon in the Indian Ocean threatened coral reefs in July 2026?",
+        "options": [
+          "A) Ocean Acidification",
+          "B) Marine Heatwaves",
+          "C) Tsunamis",
+          "D) Algal Blooms"
+        ],
+        "answer": "B",
+        "explanation": "Marine heatwaves were reported to be exceptionally high in the Indian Ocean."
+      },
+      "publicationDate": "2026-07-01"
+    },
+    {
+      "id": "jul-26-news-6",
+      "topic": "Economy",
+      "text": "India formally extended its Unified Payments Interface (UPI) to Greece, marking a significant step in the internationalization of India's digital public infrastructure.",
+      "details": {
+        "winner": "NPCI International",
+        "award": "UPI in Greece",
+        "nationality": "Indian/Greek",
+        "summary": "UPI expansion in Europe."
+      },
+      "mcq": {
+        "question": "To which European nation was India's UPI formally extended in July 2026?",
+        "options": [
+          "A) France",
+          "B) Greece",
+          "C) Germany",
+          "D) Italy"
+        ],
+        "answer": "B",
+        "explanation": "India extended UPI services to Greece in July 2026."
+      },
+      "publicationDate": "2026-07-01"
+    },
+    {
+      "id": "jul-26-news-7",
+      "topic": "International Relations",
+      "text": "India and Vietnam signed a Mutual Logistics Support Agreement (MLSA) in July 2026, enhancing maritime security cooperation in the Indo-Pacific region.",
+      "details": {
+        "winner": "India & Vietnam",
+        "award": "MLSA Agreement",
+        "nationality": "International",
+        "summary": "Boosts Indo-Pacific maritime security."
+      },
+      "mcq": {
+        "question": "With which Southeast Asian country did India sign a Mutual Logistics Support Agreement in July 2026?",
+        "options": [
+          "A) Philippines",
+          "B) Vietnam",
+          "C) Indonesia",
+          "D) Malaysia"
+        ],
+        "answer": "B",
+        "explanation": "India and Vietnam signed the MLSA to boost maritime cooperation."
+      },
+      "publicationDate": "2026-07-01"
+    },
+    {
+      "id": "jul-26-news-8",
+      "topic": "Awards",
+      "text": "Renowned Indian author Amitav Ghosh was awarded the prestigious Erasmus Prize in July 2026 for his exceptional contribution to literature and climate change awareness.",
+      "details": {
+        "winner": "Amitav Ghosh",
+        "award": "Erasmus Prize",
+        "nationality": "Indian",
+        "summary": "Awarded for literature and climate awareness."
+      },
+      "mcq": {
+        "question": "Which Indian author was awarded the Erasmus Prize in July 2026?",
+        "options": [
+          "A) Salman Rushdie",
+          "B) Arundhati Roy",
+          "C) Amitav Ghosh",
+          "D) Vikram Seth"
+        ],
+        "answer": "C",
+        "explanation": "Amitav Ghosh received the Erasmus Prize for his literary work."
+      },
+      "publicationDate": "2026-07-01"
+    },
+    {
+      "id": "jul-26-news-9",
+      "topic": "Defence",
+      "text": "The Indian Air Force participated in 'Exercise Pitch Black 2026' hosted by the Royal Australian Air Force, deploying Su-30MKI fighters and C-17 transport aircraft.",
+      "details": {
+        "winner": "IAF & RAAF",
+        "award": "Exercise Pitch Black",
+        "nationality": "International",
+        "summary": "Multinational air exercise in Australia."
+      },
+      "mcq": {
+        "question": "Which country hosted 'Exercise Pitch Black 2026' in which the IAF participated?",
+        "options": [
+          "A) USA",
+          "B) UK",
+          "C) Australia",
+          "D) France"
+        ],
+        "answer": "C",
+        "explanation": "Australia hosts the biennial Exercise Pitch Black."
+      },
+      "publicationDate": "2026-07-01"
+    },
+    {
+      "id": "jul-26-news-10",
+      "topic": "Science & Tech",
+      "text": "ISRO successfully conducted the crucial 'Pad Abort Test' for the Gaganyaan mission, demonstrating the safety of the crew escape system under emergency conditions.",
+      "details": {
+        "winner": "ISRO",
+        "award": "Pad Abort Test",
+        "nationality": "Indian",
+        "summary": "Crucial safety test for Gaganyaan."
+      },
+      "mcq": {
+        "question": "What was the purpose of the 'Pad Abort Test' conducted by ISRO in July 2026?",
+        "options": [
+          "A) Satellite deployment",
+          "B) Crew escape system safety",
+          "C) Lunar landing simulation",
+          "D) Solar observation"
+        ],
+        "answer": "B",
+        "explanation": "The Pad Abort Test validates the crew escape system for the Gaganyaan mission."
+      },
+      "publicationDate": "2026-07-01"
     }
-]
+  ]
 };

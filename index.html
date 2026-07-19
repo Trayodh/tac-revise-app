@@ -110,7 +110,7 @@
         <div class="profile-avatar" id="profile-avatar" style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">?</div>
         <div class="profile-info" style="flex: 1; overflow: hidden;">
           <div id="profile-rank" style="font-weight: 600; font-size: 0.9rem; color: var(--text-primary); white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">Guest</div>
-          <div id="profile-branch" style="font-size: 0.75rem; color: var(--text-secondary);">Click to Sign In</div>
+          <div id="profile-branch" style="font-size: 0.75rem; color: var(--text-secondary);">Click to Sign Up</div>
           <div class="xp-bar-container" style="width: 100%; height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px; margin-top: 4px;">
             <div id="profile-xp-bar" style="width: 0%; height: 100%; background: var(--success); border-radius: 2px;"></div>
           </div>
@@ -563,13 +563,37 @@
         <p class="subtitle">High-yield pointers, monthly MCQ checks, and consolidated bilateral visit trackers</p>
         
         <!-- Tab selector for Daily Intel Briefing Hub -->
-        <div style="display: flex; gap: 12px; margin-top: 16px; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 12px;">
-          <button class="exam-btn active" id="btn-ca-mode-monthly" onclick="toggleCurrentAffairsMode('monthly')">Monthly Feed</button>
-          <button class="exam-btn" id="btn-ca-mode-visits" onclick="toggleCurrentAffairsMode('visits')">PM Visits & Bilateral Deals</button>
-          <button class="exam-btn" id="btn-ca-mode-fta" onclick="toggleCurrentAffairsMode('fta')">Trade Deals & FTAs</button>
-          <button class="exam-btn" id="btn-ca-mode-dates" onclick="toggleCurrentAffairsMode('dates')">Important Dates & Themes</button>
-          <button class="exam-btn" id="btn-ca-mode-awards" onclick="toggleCurrentAffairsMode('awards')">Awards & Honours</button>
-          <button class="exam-btn" id="btn-ca-mode-exercises" onclick="toggleCurrentAffairsMode('exercises')">Military Exercises, Port Calls & Procurements</button>
+        <div id="ca-mode-selector" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; margin-top: 16px; margin-bottom: 24px; padding-bottom: 12px;">
+          <div class="subject-card active" id="btn-ca-mode-monthly" onclick="toggleCurrentAffairsMode('monthly')" style="background: rgba(34,197,94,0.1); border: 1px solid var(--accent); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">📅</div>
+            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Monthly Feed</h3>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Daily Intel Briefings</div>
+          </div>
+          <div class="subject-card" id="btn-ca-mode-visits" onclick="toggleCurrentAffairsMode('visits')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">🤝</div>
+            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">PM Visits & Bilateral Deals</h3>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">International Relations</div>
+          </div>
+          <div class="subject-card" id="btn-ca-mode-fta" onclick="toggleCurrentAffairsMode('fta')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">📜</div>
+            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Trade Deals & FTAs</h3>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Economic Policies</div>
+          </div>
+          <div class="subject-card" id="btn-ca-mode-dates" onclick="toggleCurrentAffairsMode('dates')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">🗓️</div>
+            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Important Dates & Themes</h3>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Global Observances</div>
+          </div>
+          <div class="subject-card" id="btn-ca-mode-awards" onclick="toggleCurrentAffairsMode('awards')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">🏅</div>
+            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Awards & Honours</h3>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">National & Global</div>
+          </div>
+          <div class="subject-card" id="btn-ca-mode-exercises" onclick="toggleCurrentAffairsMode('exercises')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">⚔️</div>
+            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Military Exercises</h3>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Port Calls & Procurements</div>
+          </div>
         </div>
 
         <div id="ca-monthly-feed-container" class="ca-layout">
@@ -1439,8 +1463,8 @@
   <!-- AUTH MODAL -->
   <div class="cbt-overlay" id="auth-modal" style="display: none; align-items: center; justify-content: center;">
     <div class="panel" style="max-width: 400px; width: 100%; padding: 24px;">
-      <h2 style="margin-bottom: 16px; color: var(--accent);" id="auth-modal-title">Sign In</h2>
-      <p style="margin-bottom: 24px; color: var(--text-secondary); font-size: 0.9rem;">Sign in to sync your progress and earn ranks.</p>
+      <h2 style="margin-bottom: 16px; color: var(--accent);" id="auth-modal-title">Sign Up</h2>
+      <p style="margin-bottom: 24px; color: var(--text-secondary); font-size: 0.9rem;">Sign up to sync your progress and earn ranks.</p>
       
       <div style="margin-bottom: 16px;">
         <label style="display: block; margin-bottom: 8px; font-size: 0.85rem; color: var(--text-primary);">Email</label>
@@ -1453,12 +1477,12 @@
       </div>
 
       <div style="display: flex; gap: 12px;">
-        <button class="btn-primary" style="flex: 1;" id="auth-action-btn" onclick="handleAuthAction()">Sign In</button>
+        <button class="btn-primary" style="flex: 1;" id="auth-action-btn" onclick="handleAuthAction()">Sign Up</button>
         <button class="btn-secondary" onclick="document.getElementById('auth-modal').style.display='none'">Cancel</button>
       </div>
 
-      <div style="margin-top: 16px; text-align: center;">
-        <span style="font-size: 0.85rem; color: var(--text-secondary); cursor: pointer; text-decoration: underline;" id="auth-toggle-btn" onclick="toggleAuthMode()">Need an account? Sign Up</span>
+      <div style="text-align: center; margin-top: 16px;">
+        <span id="auth-toggle-btn" style="color: var(--accent); font-size: 0.85rem; cursor: pointer;" onclick="toggleAuthMode()">Already have an account? Sign In</span>
       </div>
     </div>
   </div>

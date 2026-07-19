@@ -374,9 +374,9 @@ window.startStatusPoller = function() {
   window.statusPollerInterval = setInterval(async () => {
     if (!window.supabaseClient || !STATE || !STATE.activeProfile || !STATE.activeProfile.id) return;
     try {
-      const { data } = await window.supabaseClient.from('user_data').select('state').eq('user_id', STATE.activeProfile.id).single();
-      if (data && data.state && data.state.activeProfile) {
-        const newStatus = data.state.activeProfile.status;
+      const { data } = await window.supabaseClient.from('user_profiles').select('status').eq('id', STATE.activeProfile.id).single();
+      if (data && data.status) {
+        const newStatus = data.status;
         if (newStatus !== STATE.activeProfile.status) {
           console.log("Status changed to:", newStatus);
           STATE.activeProfile.status = newStatus;
@@ -4245,30 +4245,45 @@ function toggleCurrentAffairsMode(mode) {
   const btnExercises = document.getElementById("btn-ca-mode-exercises");
 
   [monthlyContainer, visitsContainer, ftaContainer, datesContainer, awardsContainer, exercisesContainer].forEach(el => { if (el) el.style.display = "none"; });
-  [btnMonthly, btnVisits, btnFta, btnDates, btnAwards, btnExercises].forEach(btn => { if (btn) btn.classList.remove("active"); });
+  
+  [btnMonthly, btnVisits, btnFta, btnDates, btnAwards, btnExercises].forEach(btn => { 
+    if (btn) {
+      btn.classList.remove("active");
+      btn.style.background = "rgba(255,255,255,0.05)";
+      btn.style.border = "1px solid var(--border)";
+    }
+  });
+
+  function activateBtn(btn) {
+    if (btn) {
+      btn.classList.add("active");
+      btn.style.background = "rgba(34,197,94,0.1)";
+      btn.style.border = "1px solid var(--accent)";
+    }
+  }
 
   if (mode === "monthly") {
+    activateBtn(btnMonthly);
     if (monthlyContainer) monthlyContainer.style.display = "flex";
-    if (btnMonthly) btnMonthly.classList.add("active");
   } else if (mode === "visits") {
+    activateBtn(btnVisits);
     if (visitsContainer) visitsContainer.style.display = "block";
-    if (btnVisits) btnVisits.classList.add("active");
     renderCaVisitsTable();
   } else if (mode === "fta") {
+    activateBtn(btnFta);
     if (ftaContainer) ftaContainer.style.display = "block";
-    if (btnFta) btnFta.classList.add("active");
     renderCaFtaTable();
   } else if (mode === "dates") {
+    activateBtn(btnDates);
     if (datesContainer) datesContainer.style.display = "block";
-    if (btnDates) btnDates.classList.add("active");
     renderCaDatesTable();
   } else if (mode === "awards") {
+    activateBtn(btnAwards);
     if (awardsContainer) awardsContainer.style.display = "block";
-    if (btnAwards) btnAwards.classList.add("active");
     renderCaAwardsTable();
   } else if (mode === "exercises") {
+    activateBtn(btnExercises);
     if (exercisesContainer) exercisesContainer.style.display = "block";
-    if (btnExercises) btnExercises.classList.add("active");
     renderMilitaryExercisesDashboard();
   }
 }
@@ -7406,9 +7421,9 @@ window.submitOnboardingPayment = async function() {
 
 // Mock users for offline admin dashboard
 window.MOCK_ADMIN_USERS = [
-  { email: 'newuser1@gmail.com', status: 'pending_payment', transaction_id: null },
-  { email: 'paiduser2@gmail.com', status: 'locked', transaction_id: 'UTR987654321' },
-  { email: 'activeuser3@gmail.com', status: 'active', transaction_id: 'UTR123456789' }
+  { email: 'newuser1@gmail.com', status: 'pending_payment', transaction_id: null, created_at: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString() },
+  { email: 'paiduser2@gmail.com', status: 'locked', transaction_id: 'UTR987654321', created_at: new Date(Date.now() - 35 * 24 * 60 * 60 * 1000).toISOString() },
+  { email: 'activeuser3@gmail.com', status: 'active', transaction_id: 'UTR123456789', created_at: new Date(Date.now() - 100 * 24 * 60 * 60 * 1000).toISOString() }
 ];
 
 window.renderAdminDashboard = async function() {
@@ -7418,13 +7433,14 @@ window.renderAdminDashboard = async function() {
   let displayUsers = [];
   
   if (window.supabaseClient) {
-    const { data, error } = await window.supabaseClient.from('user_data').select('user_id, state, updated_at').order('updated_at', { ascending: false });
+    const { data, error } = await window.supabaseClient.from('user_profiles').select('id, email, status, transaction_id, created_at').order('created_at', { ascending: false });
     if (!error && data && data.length > 0) {
       displayUsers = data.map(d => ({
-        id: d.user_id,
-        email: d.state?.activeProfile?.email || d.user_id,
-        status: d.state?.activeProfile?.status || 'pending_payment',
-        transaction_id: d.state?.activeProfile?.transaction_id || null
+        id: d.id,
+        email: d.email,
+        status: d.status,
+        transaction_id: d.transaction_id,
+        created_at: d.created_at
       })).filter(u => u.email && u.email !== 'default_cadet');
     }
   }
@@ -7437,9 +7453,22 @@ window.renderAdminDashboard = async function() {
     }
   }
   
-  const newHTML = displayUsers.map((u) => `
+  const newHTML = displayUsers.map((u) => {
+    let ageText = 'New';
+    if (u.created_at) {
+      const diffMs = Date.now() - new Date(u.created_at).getTime();
+      const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+      if (diffDays === 0) ageText = 'Today';
+      else if (diffDays < 30) ageText = `${diffDays} days`;
+      else if (diffDays < 60) ageText = `1 month`;
+      else ageText = `${Math.floor(diffDays / 30)} months`;
+    }
+    return `
     <tr style='border-bottom: 1px solid rgba(255,255,255,0.05);'>
-      <td style='padding: 12px;'>${u.email}</td>
+      <td style='padding: 12px;'>
+        ${u.email}
+        <span style="margin-left: 8px; font-size: 0.7rem; color: var(--text-secondary); background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 10px;">${ageText}</span>
+      </td>
       <td style='padding: 12px;'>
         <span style='padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; background: ${u.status === 'active' ? 'rgba(34,197,94,0.2)' : u.status === 'locked' ? 'rgba(239,68,68,0.2)' : 'rgba(234,179,8,0.2)'}; color: ${u.status === 'active' ? '#4ade80' : u.status === 'locked' ? '#ef4444' : '#eab308'};'>
           ${u.status.toUpperCase()}
@@ -7452,7 +7481,8 @@ window.renderAdminDashboard = async function() {
         <button onclick='updateUserStatus("${u.id || u.email}", "pending_payment")' style='padding: 4px 8px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Reject</button>
       </td>
     </tr>
-  `).join('');
+  `;
+  }).join('');
   if (tbody.innerHTML !== newHTML) {
     tbody.innerHTML = newHTML;
   }
@@ -7461,14 +7491,8 @@ window.renderAdminDashboard = async function() {
 window.updateUserStatus = async function(userIdOrEmail, newStatus) {
   if (window.supabaseClient && userIdOrEmail.includes('-')) {
     // Looks like a UUID
-    const { data } = await window.supabaseClient.from('user_data').select('state').eq('user_id', userIdOrEmail).single();
-    if (data && data.state) {
-      if (!data.state.activeProfile) data.state.activeProfile = {};
-      data.state.activeProfile.status = newStatus;
-      await window.supabaseClient.from('user_data').update({ state: data.state }).eq('user_id', userIdOrEmail);
-      await window.supabaseClient.from('user_profiles').update({ status: newStatus }).eq('id', userIdOrEmail);
-      if (typeof renderAdminDashboard === 'function') renderAdminDashboard();
-    }
+    await window.supabaseClient.from('user_profiles').update({ status: newStatus }).eq('id', userIdOrEmail);
+    if (typeof renderAdminDashboard === 'function') renderAdminDashboard();
   } else {
     // Mock user logic
     const user = window.MOCK_ADMIN_USERS.find(u => u.email === userIdOrEmail);
