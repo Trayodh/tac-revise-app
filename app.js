@@ -1671,12 +1671,17 @@ function renderCurrentAffairsHub() {
   const monthsList = document.getElementById("ca-month-list");
   if (!monthsList) return;
   monthsList.innerHTML = "";
+  
+  const caContainer = document.getElementById("ca-monthly-feed-container");
+  const existingBanner = caContainer.querySelector(".cycle-banner");
+  if (existingBanner) existingBanner.remove();
 
   // Cycle banner at top of grid (taking full width)
   const banner = document.createElement("div");
+  banner.className = "cycle-banner";
   banner.style.cssText = "grid-column: 1 / -1; padding: 8px 12px; margin-bottom: 10px; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; font-family: var(--font-mono); color: var(--accent); background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.2); border-radius: 5px; text-align: center;";
   banner.textContent = `Exam Cycle: ${cycle.cycleLabel}`;
-  monthsList.appendChild(banner);
+  caContainer.insertBefore(banner, monthsList);
 
   // Render only cycle-relevant months in sorted order
   cycle.months
@@ -1685,18 +1690,18 @@ function renderCurrentAffairsHub() {
       const item = document.createElement("div");
       item.className = `subject-card ${month === activeCaMonth ? 'active' : ''}`;
       if (month === activeCaMonth) {
-        item.style.cssText = "background: rgba(34,197,94,0.1); border: 1px solid var(--accent); padding: 5px; width: 75px; height: 75px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; border-radius: 8px; cursor: pointer; transition: all 0.2s ease;";
+        item.style.cssText = "background: rgba(34,197,94,0.1); border: 1px solid var(--accent); padding: 5px; width: 55px; height: 55px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; border-radius: 8px; cursor: pointer; transition: all 0.2s ease;";
       } else {
-        item.style.cssText = "background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 5px; width: 75px; height: 75px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; border-radius: 8px; cursor: pointer; transition: all 0.2s ease;";
+        item.style.cssText = "background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 5px; width: 55px; height: 55px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; border-radius: 8px; cursor: pointer; transition: all 0.2s ease;";
       }
       
       const monthParts = month.split(" ");
       const mName = monthParts[0].substring(0, 3).toUpperCase(); // e.g. "AUG"
-      const yName = monthParts[1] || "";
+      const yName = monthParts[1] ? "'" + monthParts[1].substring(2) : ""; // e.g. "'26" instead of 2026
       
       item.innerHTML = `
-        <h3 style="margin-bottom: 2px; font-size: 0.9rem; font-weight: 700; text-transform: uppercase;">${mName}</h3>
-        <div style="font-size: 0.75rem; color: var(--text-muted);">${yName}</div>
+        <h3 style="margin-bottom: 2px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase;">${mName}</h3>
+        <div style="font-size: 0.65rem; color: var(--text-muted);">${yName}</div>
       `;
       
       item.addEventListener("click", () => {
