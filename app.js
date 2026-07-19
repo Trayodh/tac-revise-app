@@ -7489,8 +7489,8 @@ window.renderAdminDashboard = async function() {
     }
   }
   
-  // Fallback to mock if Supabase fails or is offline (or empty)
-  if (displayUsers.length === 0) {
+  // Fallback only if no users and no Supabase connection
+  if (displayUsers.length === 0 && !window.supabaseClient) {
     displayUsers = [...window.MOCK_ADMIN_USERS];
     if (STATE.activeProfile && STATE.activeProfile.email !== 'trayodh@gmail.com' && !displayUsers.find(u => u.email === STATE.activeProfile.email)) {
       displayUsers.push(STATE.activeProfile);
@@ -7498,36 +7498,34 @@ window.renderAdminDashboard = async function() {
   }
   
   const newHTML = displayUsers.map((u) => {
-    let membershipAgeText = '-';
-    if (u.status === 'active' && u.approved_at) {
-      const diffMs = Date.now() - new Date(u.approved_at).getTime();
+    let accountAgeText = '-';
+    if (u.created_at) {
+      const diffMs = Date.now() - new Date(u.created_at).getTime();
       const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-      if (diffDays === 0) membershipAgeText = 'Today';
-      else if (diffDays < 30) membershipAgeText = `${diffDays} Day${diffDays > 1 ? 's' : ''}`;
+      if (diffDays === 0) accountAgeText = 'Today';
+      else if (diffDays < 30) accountAgeText = `${diffDays} day${diffDays > 1 ? 's' : ''}`;
       else {
         const months = Math.floor(diffDays / 30);
-        const remDays = diffDays % 30;
-        membershipAgeText = `${months} Month${months > 1 ? 's' : ''}`;
-        if (remDays > 0) membershipAgeText += ` ${remDays} Day${remDays > 1 ? 's' : ''}`;
+        accountAgeText = `${months} month${months > 1 ? 's' : ''}`;
       }
     }
     return `
     <tr style='border-bottom: 1px solid rgba(255,255,255,0.05);'>
-      <td style='padding: 12px;'>
+      <td style='padding: 12px; font-weight: 600; display: flex; align-items: center; gap: 10px;'>
         ${u.email}
+        ${accountAgeText !== '-' ? `<span style='padding: 2px 8px; border-radius: 12px; background: rgba(255,255,255,0.08); color: var(--text-muted); font-size: 0.7rem; font-weight: 500;'>${accountAgeText}</span>` : ''}
       </td>
       <td style='padding: 12px;'>
         <span style='padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; background: ${u.status === 'active' ? 'rgba(34,197,94,0.2)' : u.status === 'locked' ? 'rgba(239,68,68,0.2)' : 'rgba(234,179,8,0.2)'}; color: ${u.status === 'active' ? '#4ade80' : u.status === 'locked' ? '#ef4444' : '#eab308'};'>
           ${u.status.toUpperCase()}
         </span>
       </td>
-      <td style='padding: 12px; font-family: monospace; color: var(--text-muted);'>${u.transaction_id || '-'}</td>
-      <td style='padding: 12px; display: flex; gap: 8px;'>
-        <button onclick='updateUserStatus("${u.id || u.email}", "active")' style='padding: 4px 8px; background: var(--success); color: #000; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Approve</button>
-        <button onclick='updateUserStatus("${u.id || u.email}", "locked")' style='padding: 4px 8px; background: #ef4444; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Lock</button>
-        <button onclick='updateUserStatus("${u.id || u.email}", "pending_payment")' style='padding: 4px 8px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Reject</button>
+      <td style='padding: 12px; font-family: monospace; color: var(--text-muted); font-size: 0.85rem;'>${u.transaction_id || '-'}</td>
+      <td style='padding: 12px; display: flex; gap: 8px; align-items: center;'>
+        <button onclick='updateUserStatus("${u.id || u.email}", "active")' style='padding: 4px 8px; background: transparent; color: var(--text-secondary); border: none; border-radius: 4px; cursor: pointer; font-size: 0.85rem; transition: color 0.2s;' onmouseover='this.style.color="#4ade80"' onmouseout='this.style.color="var(--text-secondary)"'>Approve</button>
+        <button onclick='updateUserStatus("${u.id || u.email}", "locked")' style='padding: 4px 10px; background: #ef4444; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Lock</button>
+        <button onclick='updateUserStatus("${u.id || u.email}", "pending_payment")' style='padding: 4px 10px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Reject</button>
       </td>
-      <td style='padding: 12px; color: var(--text-secondary);'>${membershipAgeText}</td>
     </tr>
   `;
   }).join('');
