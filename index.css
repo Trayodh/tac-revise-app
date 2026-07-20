@@ -1,28 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root {
-  /* MILITARY COMMAND & CONTROL THEME */
-  --bg-primary: #090909;      /* Deep Matte Black */
-  --bg-secondary: #151A1F;    /* Gunmetal */
-  --bg-tertiary: #20252B;     /* Charcoal */
-  --bg-hover: #2A3139;        /* Hover Dark Grey */
+  /* COMMAND CENTER (TACTICAL BLUE) */
+  --bg-primary: #04080f;
+  --bg-secondary: #0a1128;
+  --bg-tertiary: #122040;
+  --bg-hover: #1b2e59;
   
-  --border: rgba(255, 255, 255, 0.15);
-  --border-glow: rgba(34, 197, 94, 0.4);
+  --border: rgba(0, 240, 255, 0.25);
+  --border-glow: rgba(0, 240, 255, 0.6);
   
-  --text-primary: #ffffff;
-  --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
+  --text-primary: #e0f7fa;
+  --text-secondary: #b2ebf2;
+  --text-muted: #80deea;
   
-  /* Tactical Accents */
-  --accent: #22c55e;          /* Tactical Green */
-  --accent-rgb: 34, 197, 94;
-  --accent-dark: #166534;
-  --accent-light: #4ade80;
+  --accent: #00e5ff;
+  --accent-rgb: 0, 229, 255;
+  --accent-dark: #00b4d8;
+  --accent-light: #84ffff;
   
-  --info: #3b82f6;            /* Command Blue */
-  --warning: #f59e0b;         /* Amber Threat Warning */
-  --danger: #ef4444;          /* Critical Red */
+  --info: #0277bd;
+  --warning: #ffb300;
+  --danger: #ff1744;
   
   --font-main: 'Inter', 'IBM Plex Sans', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
@@ -31,164 +30,171 @@
 }
 
 [data-theme="woodland-camo"] {
-  --bg-primary: #1b221a;      /* Woodland Shadow Black-Green */
-  --bg-secondary: #242f22;    /* Olive Drab Shade */
-  --bg-tertiary: #344230;     /* Forest Green Shade */
-  --bg-hover: #40523c;        /* Active Foliage */
+  /* JUNGLE COMMANDO */
+  --bg-primary: #020a04;
+  --bg-secondary: #08170c;
+  --bg-tertiary: #102916;
+  --bg-hover: #194021;
   
-  --border: rgba(132, 204, 22, 0.2); 
-  --border-glow: rgba(132, 204, 22, 0.4);
+  --border: rgba(57, 255, 20, 0.3); 
+  --border-glow: rgba(57, 255, 20, 0.7);
   
-  --text-primary: #f1f5f1;    
-  --text-secondary: #a3b899;  /* Woodland Sage */
-  --text-muted: #68805f;      
+  --text-primary: #f0fff0;
+  --text-secondary: #98fb98;
+  --text-muted: #66cdaa;
   
-  --accent: #84cc16;          /* Woodland Lime */
-  --accent-rgb: 132, 204, 22;
-  --accent-dark: #4d7c0f;
-  --accent-light: #bef264;
+  --accent: #39ff14;
+  --accent-rgb: 57, 255, 20;
+  --accent-dark: #00cc00;
+  --accent-light: #7cfc00;
   
-  --info: #eab308;            
-  --warning: #f97316;         
-  --danger: #ef4444;          
+  --info: #00ced1;
+  --warning: #ffa500;
+  --danger: #ff4500;
 }
 
 [data-theme="desert-camo"] {
-  --bg-primary: #251e18;      /* Desert Sand Dust Black */
-  --bg-secondary: #362d25;    /* Coyote Brown Shade */
-  --bg-tertiary: #4d4035;     /* Khaki Sand Shade */
-  --bg-hover: #5e4f42;        /* Dune Tan */
+  /* DESERT STORM */
+  --bg-primary: #0d0a06;
+  --bg-secondary: #1a140b;
+  --bg-tertiary: #2e2313;
+  --bg-hover: #40301a;
   
-  --border: rgba(217, 119, 6, 0.2); 
-  --border-glow: rgba(217, 119, 6, 0.4);
+  --border: rgba(255, 170, 0, 0.3); 
+  --border-glow: rgba(255, 170, 0, 0.7);
   
-  --text-primary: #fefce8;    
-  --text-secondary: #dbcaaf;  /* Desert Tan */
-  --text-muted: #a8896c;      /* Earth Soil */
+  --text-primary: #fff8e1;
+  --text-secondary: #ffe0b2;
+  --text-muted: #ffcc80;
   
-  --accent: #d97706;          /* Coyote Amber */
-  --accent-rgb: 217, 119, 6;
-  --accent-dark: #92400e;
-  --accent-light: #f59e0b;
+  --accent: #ffaa00;
+  --accent-rgb: 255, 170, 0;
+  --accent-dark: #cc8800;
+  --accent-light: #ffd54f;
   
-  --info: #38bdf8;            
-  --warning: #f97316;         
-  --danger: #ef4444;          
+  --info: #4fc3f7;
+  --warning: #ff6f00;
+  --danger: #d50000;
 }
 
 [data-theme="urban-camo"] {
-  --bg-primary: #0f1115;      /* Urban Shadow Black */
-  --bg-secondary: #1b1e24;    /* Slate Grey Shade */
-  --bg-tertiary: #272c35;     /* Stealth Steel Shade */
-  --bg-hover: #333a46;        /* Active Concrete */
+  /* URBAN GHOST */
+  --bg-primary: #060606;
+  --bg-secondary: #121212;
+  --bg-tertiary: #222222;
+  --bg-hover: #333333;
   
-  --border: rgba(148, 163, 184, 0.25); 
-  --border-glow: rgba(148, 163, 184, 0.5);
+  --border: rgba(200, 200, 200, 0.3); 
+  --border-glow: rgba(255, 255, 255, 0.6);
   
-  --text-primary: #f8fafc;    
-  --text-secondary: #94a3b8;  /* Urban Dust */
-  --text-muted: #64748b;      
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --text-muted: #999999;
   
-  --accent: #cbd5e1;          /* Tactical Light Ash */
-  --accent-rgb: 203, 213, 225;
-  --accent-dark: #475569;
-  --accent-light: #f1f5f9;
+  --accent: #ffffff;
+  --accent-rgb: 255, 255, 255;
+  --accent-dark: #aaaaaa;
+  --accent-light: #f5f5f5;
   
-  --info: #38bdf8;            
-  --warning: #fbbf24;         
-  --danger: #f87171;          
+  --info: #00e5ff;
+  --warning: #ffc107;
+  --danger: #ff5252;
 }
 
 [data-theme="arctic-camo"] {
-  --bg-primary: #0f172a;      /* Arctic Midnight Blue */
-  --bg-secondary: #1e293b;    /* Tundra Grey Shade */
-  --bg-tertiary: #334155;     /* Glacier Ice Shade */
-  --bg-hover: #475569;        /* Active Snow */
+  /* WINTER VIPER */
+  --bg-primary: #00060d;
+  --bg-secondary: #031326;
+  --bg-tertiary: #082240;
+  --bg-hover: #0c3359;
   
-  --border: rgba(248, 250, 252, 0.2); 
-  --border-glow: rgba(56, 189, 248, 0.4);
+  --border: rgba(0, 212, 255, 0.3); 
+  --border-glow: rgba(0, 212, 255, 0.7);
   
-  --text-primary: #f8fafc;    
-  --text-secondary: #e2e8f0;  /* Glacier White */
-  --text-muted: #94a3b8;      
+  --text-primary: #f0f8ff;
+  --text-secondary: #cce0ff;
+  --text-muted: #99c2ff;
   
-  --accent: #38bdf8;          /* Ice Blue */
-  --accent-rgb: 56, 189, 248;
-  --accent-dark: #0284c7;
-  --accent-light: #bae6fd;
+  --accent: #00d4ff;
+  --accent-rgb: 0, 212, 255;
+  --accent-dark: #0088cc;
+  --accent-light: #66e0ff;
   
-  --info: #0ea5e9;            
-  --warning: #fbbf24;         
-  --danger: #f87171;          
+  --info: #00bfff;
+  --warning: #ffb300;
+  --danger: #ff3333;
 }
 
 [data-theme="navy-camo"] {
-  --bg-primary: #08101f;      /* Abyss Ocean Black */
-  --bg-secondary: #0f1d35;    /* Navy Digital Deck */
-  --bg-tertiary: #182f54;     /* Fleet Blue Shade */
-  --bg-hover: #203f6f;        /* Active Sonar Deck */
+  /* DEEP SEA (SUBMARINE) */
+  --bg-primary: #000b14;
+  --bg-secondary: #00162a;
+  --bg-tertiary: #00264d;
+  --bg-hover: #003c73;
   
-  --border: rgba(14, 165, 233, 0.25); 
-  --border-glow: rgba(14, 165, 233, 0.5);
+  --border: rgba(0, 255, 170, 0.3); 
+  --border-glow: rgba(0, 255, 170, 0.7);
   
-  --text-primary: #f0f9ff;    
-  --text-secondary: #bae6fd;  /* Seafoam Teal */
-  --text-muted: #38bdf8;      
+  --text-primary: #e6ffff;
+  --text-secondary: #99ffe6;
+  --text-muted: #4dffcc;
   
-  --accent: #0ea5e9;          /* Fleet Blue */
-  --accent-rgb: 14, 165, 233;
-  --accent-dark: #0369a1;
-  --accent-light: #7dd3fc;
+  --accent: #00ffaa;
+  --accent-rgb: 0, 255, 170;
+  --accent-dark: #00b377;
+  --accent-light: #66ffcc;
   
-  --info: #00f5d4;            
-  --warning: #fbbf24;         
-  --danger: #f87171;          
+  --info: #00d4ff;
+  --warning: #ffc107;
+  --danger: #ff4d4d;
 }
 
 [data-theme="night-ops"] {
-  --bg-primary: #0a0e0a;      /* Pitch black with green tint */
-  --bg-secondary: #121812;    /* Dark night green */
-  --bg-tertiary: #1b261b;     /* NVG base */
-  --bg-hover: #263626;        /* NVG hover */
+  /* NIGHT VISION */
+  --bg-primary: #000a00;
+  --bg-secondary: #021a02;
+  --bg-tertiary: #053305;
+  --bg-hover: #084d08;
   
-  --border: rgba(34, 197, 94, 0.2); 
-  --border-glow: rgba(34, 197, 94, 0.4);
+  --border: rgba(0, 255, 0, 0.4); 
+  --border-glow: rgba(0, 255, 0, 0.8);
   
-  --text-primary: #e0ffe0;    /* NVG white-green */
-  --text-secondary: #84cc16;  /* Phosphor green */
-  --text-muted: #4ade80;      
+  --text-primary: #ccffcc;
+  --text-secondary: #66ff66;
+  --text-muted: #33cc33;
   
-  --accent: #22c55e;          /* Bright NVG Green */
-  --accent-rgb: 34, 197, 94;
-  --accent-dark: #166534;
-  --accent-light: #86efac;
+  --accent: #00ff00;
+  --accent-rgb: 0, 255, 0;
+  --accent-dark: #009900;
+  --accent-light: #99ff99;
   
-  --info: #38bdf8;            
-  --warning: #fbbf24;         
-  --danger: #f87171;          
+  --info: #00ccff;
+  --warning: #ffcc00;
+  --danger: #ff0000;
 }
 
 [data-theme="recon-stealth"] {
-  --bg-primary: #050505;      /* True black */
-  --bg-secondary: #0f0f11;    /* Very dark slate */
-  --bg-tertiary: #1a1a1c;     /* Shadow */
-  --bg-hover: #262629;        /* Active shadow */
+  /* BLACK OPS */
+  --bg-primary: #030303;
+  --bg-secondary: #0a0a0a;
+  --bg-tertiary: #141414;
+  --bg-hover: #222222;
   
-  --border: rgba(100, 116, 139, 0.2); 
-  --border-glow: rgba(100, 116, 139, 0.4);
+  --border: rgba(255, 0, 60, 0.4); 
+  --border-glow: rgba(255, 0, 60, 0.8);
   
-  --text-primary: #e2e8f0;
-  --text-secondary: #94a3b8;
-  --text-muted: #475569;
+  --text-primary: #ffe6e6;
+  --text-secondary: #ff9999;
+  --text-muted: #cc6666;
   
-  --accent: #94a3b8;          /* Tactical grey */
-  --accent-rgb: 148, 163, 184;
-  --accent-dark: #475569;
-  --accent-light: #cbd5e1;
+  --accent: #ff003c;
+  --accent-rgb: 255, 0, 60;
+  --accent-dark: #990024;
+  --accent-light: #ff668c;
   
-  --info: #7EA8BE;
-  --warning: #D4A373;
-  --danger: #E07A5F;
+  --info: #666666;
+  --warning: #ffaa00;
+  --danger: #e60000;
 }
 
 [data-theme="vajra"] {
