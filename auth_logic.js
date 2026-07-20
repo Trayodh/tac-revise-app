@@ -60,6 +60,8 @@ async function handleAuthAction() {
           if (typeof saveState === 'function') saveState();
         }
         document.getElementById('auth-modal').style.display = 'none';
+        const landingPage = document.getElementById('landing-page-container');
+        if (landingPage) landingPage.style.display = 'none';
         
         if (STATE.activeProfile.status !== 'active') {
           if (typeof switchScreen === 'function') switchScreen('onboarding-payment');
@@ -82,6 +84,8 @@ async function handleAuthAction() {
           localStorage.setItem('offline_users', JSON.stringify(offlineUsers));
         }
         document.getElementById('auth-modal').style.display = 'none';
+        const landingPage = document.getElementById('landing-page-container');
+        if (landingPage) landingPage.style.display = 'none';
         
         if (STATE.activeProfile.status !== 'active') {
           if (typeof switchScreen === 'function') switchScreen('onboarding-payment');
@@ -125,6 +129,9 @@ async function handleAuthAction() {
           if (typeof saveState === 'function') saveState();
         }
         document.getElementById('auth-modal').style.display = 'none';
+        const landingPage = document.getElementById('landing-page-container');
+        if (landingPage) landingPage.style.display = 'none';
+        
         updateUserProfile(data.user);
         
         if (STATE.activeProfile && STATE.activeProfile.status !== 'active') {
@@ -156,6 +163,9 @@ async function handleAuthAction() {
           if (typeof saveState === 'function') saveState();
         }
         document.getElementById('auth-modal').style.display = 'none';
+        const landingPage = document.getElementById('landing-page-container');
+        if (landingPage) landingPage.style.display = 'none';
+        
         updateUserProfile({ email: email });
         
         if (STATE.activeProfile && STATE.activeProfile.status !== 'active') {
@@ -175,6 +185,9 @@ async function handleAuthAction() {
           if (typeof saveState === 'function') saveState();
         }
         document.getElementById('auth-modal').style.display = 'none';
+        const landingPage = document.getElementById('landing-page-container');
+        if (landingPage) landingPage.style.display = 'none';
+        
         updateUserProfile({ email: email });
         
         if (STATE.activeProfile && STATE.activeProfile.status !== 'active') {
@@ -259,15 +272,25 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   if (!hasSession) {
-    // Show auth modal for new user automatically
-    const authModal = document.getElementById('auth-modal');
-    if (authModal) {
-      authModal.style.display = 'flex';
-      
-      // Ensure it defaults to "Sign Up" mode for new users
-      if (!isSignUpMode) {
-        toggleAuthMode();
+    const landingPage = document.getElementById('landing-page-container');
+    if (landingPage) {
+      landingPage.style.display = 'block';
+    } else {
+      // Show auth modal for new user automatically if no landing page
+      const authModal = document.getElementById('auth-modal');
+      if (authModal) {
+        authModal.style.display = 'flex';
+        
+        // Ensure it defaults to "Sign Up" mode for new users
+        if (!isSignUpMode) {
+          toggleAuthMode();
+        }
       }
+    }
+  } else {
+    const landingPage = document.getElementById('landing-page-container');
+    if (landingPage) {
+      landingPage.style.display = 'none';
     }
   }
 });
