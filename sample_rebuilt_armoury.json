@@ -1,0 +1,840 @@
+[
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Sentence Arrangement",
+    "Sub-topic": "Unjumbling Sentence Parts",
+    "Difficulty": "Moderate",
+    "Question Type": "Statement Based",
+    "Question": "Directions: Unjumble the sentence parts to find the correct sequence.\nand the outcome in cases selected in prior years' (P) / the suggestions received from the field (Q) / formations are reviewed by a cross functional (R) / committee to refine the scenarios and parameters (S)",
+    "Options": [
+      "QPRS",
+      "PQRS",
+      "SQPR",
+      "RSQP"
+    ],
+    "Correct Answer": "QPRS",
+    "Explanation": "The correct sequence is QPRS: 'the suggestions received from the field and the outcome in cases selected in prior years' formations are reviewed by a cross functional committee to refine the scenarios and parameters.'",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Sentence Arrangement"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Parts of Speech",
+    "Sub-topic": "Identifying Nouns",
+    "Difficulty": "Easy",
+    "Question Type": "Factual",
+    "Question": "Directions: Identify which part of speech the underlined word belongs to.\nHis happiness was obvious, as he had won unprecedented appreciation for his hard work. (Underlined: happiness)",
+    "Options": [
+      "Collective noun",
+      "Abstract noun",
+      "Adjective",
+      "Common noun"
+    ],
+    "Correct Answer": "Abstract noun",
+    "Explanation": "'Happiness' is an abstract noun as it represents an emotion or state of being.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Parts of Speech"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Vocabulary",
+    "Sub-topic": "Word Usage",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "Directions: Select the option that most appropriately describes the meaning and grammatical parts of both words.\nLose and Loose",
+    "Options": [
+      "Lose is a verb meaning to misplace and loose is an adjective meaning slack or movable.",
+      "Lose is an adjective meaning slack or movable and loose is a verb meaning to misplace.",
+      "Lose is an adjective meaning to misplace and loose is a verb meaning slack or movable.",
+      "Lose is a verb meaning slack or movable and loose is an adjective meaning to misplace."
+    ],
+    "Correct Answer": "Lose is a verb meaning to misplace and loose is an adjective meaning slack or movable.",
+    "Explanation": "'Lose' is a verb (to misplace) and 'loose' is an adjective (slack/not tight).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Vocabulary",
+    "Sub-topic": "Word Usage",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "Directions: Select the sentence that makes correct use of the word.\nAdvice",
+    "Options": [
+      "He adviced his friend to take a break from his hectic schedule.",
+      "The doctor's advice went unheeded by his patient.",
+      "The teacher repeatedly adviced her students to take safety precautions on the road.",
+      "Elders are often advising their children on various aspects of their heritage."
+    ],
+    "Correct Answer": "The doctor's advice went unheeded by his patient.",
+    "Explanation": "'Advice' is a noun. The verb form is 'advise'. Option B correctly uses 'advice' as a noun.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Parts of Speech",
+    "Sub-topic": "Identifying Parts of Speech",
+    "Difficulty": "Moderate",
+    "Question Type": "Match the Following",
+    "Question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Error\n2. Erroneously\n3. Err\n4. Erroneous",
+    "Options": [
+      "A-4, B-3, C-2, D-1",
+      "A-1, B-2, C-3, D-4",
+      "A-1, B-3, C-2, D-4",
+      "A-4, B-2, C-3, D-1"
+    ],
+    "Correct Answer": "A-1, B-3, C-2, D-4",
+    "Explanation": "Error is a Noun (A-1). Err is a Verb (B-3). Erroneously is an Adverb (C-2). Erroneous is an Adjective (D-4).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Parts of Speech"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Parts of Speech",
+    "Sub-topic": "Identifying Parts of Speech",
+    "Difficulty": "Moderate",
+    "Question Type": "Match the Following",
+    "Question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Think\n2. Care\n3. Carefully\n4. Careful",
+    "Options": [
+      "A-2, B-4, C-3, D-1",
+      "A-2, B-1, C-3, D-4",
+      "A-1, B-3, C-4, D-2",
+      "A-2, B-3, C-1, D-4"
+    ],
+    "Correct Answer": "A-2, B-1, C-3, D-4",
+    "Explanation": "Care is a Noun (A-2). Think is a Verb (B-1). Carefully is an Adverb (C-3). Careful is an Adjective (D-4).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Parts of Speech"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Parts of Speech",
+    "Sub-topic": "Identifying Parts of Speech",
+    "Difficulty": "Moderate",
+    "Question Type": "Match the Following",
+    "Question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Dually\n2. Duplication\n3. Duplicate\n4. Duple",
+    "Options": [
+      "A-1, B-4, C-3, D-2",
+      "A-1, B-3, C-4, D-2",
+      "A-2, B-3, C-1, D-4",
+      "A-2, B-1, C-3, D-4"
+    ],
+    "Correct Answer": "A-2, B-3, C-1, D-4",
+    "Explanation": "Duplication is a Noun (A-2). Duplicate is a Verb (B-3). Dually is an Adverb (C-1). Duple is an Adjective (D-4).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Parts of Speech"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Parts of Speech",
+    "Sub-topic": "Identifying Parts of Speech",
+    "Difficulty": "Moderate",
+    "Question Type": "Match the Following",
+    "Question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Emanant\n2. Exodus\n3. Outward\n4. Exit",
+    "Options": [
+      "A-1, B-3, C-4, D-2",
+      "A-4, B-2, C-3, D-1",
+      "A-2, B-3, C-4, D-1",
+      "A-1, B-4, C-3, D-2"
+    ],
+    "Correct Answer": "A-4, B-2, C-3, D-1",
+    "Explanation": "Exit is a Noun (A-4). Exodus is a Verb (B-2). Outward is an Adverb (C-3). Emanant is an Adjective (D-1).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Parts of Speech"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Parts of Speech",
+    "Sub-topic": "Identifying Parts of Speech",
+    "Difficulty": "Moderate",
+    "Question Type": "Match the Following",
+    "Question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Extremely\n2. Spectatorial\n3. Spectator\n4. Spectate",
+    "Options": [
+      "A-2, B-1, C-4, D-3",
+      "A-2, B-4, C-1, D-3",
+      "A-3, B-4, C-1, D-2",
+      "A-3, B-1, C-4, D-2"
+    ],
+    "Correct Answer": "A-3, B-4, C-1, D-2",
+    "Explanation": "Spectator is a Noun (A-3). Spectate is a Verb (B-4). Extremely is an Adverb (C-1). Spectatorial is an Adjective (D-2).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Parts of Speech"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Parts of Speech",
+    "Sub-topic": "Identifying Parts of Speech",
+    "Difficulty": "Moderate",
+    "Question Type": "Match the Following",
+    "Question": "List I:\nA. Noun\nB. Verb\nC. Interjection\nD. Adjective\n\nList II:\n1. Auditory\n2. Hear\n3. Hark\n4. Hearing",
+    "Options": [
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-3, C-2, D-4",
+      "A-1, B-2, C-3, D-4",
+      "A-4, B-2, C-3, D-1"
+    ],
+    "Correct Answer": "A-4, B-2, C-3, D-1",
+    "Explanation": "Hearing is a Noun (A-4). Hear is a Verb (B-2). Hark is an Interjection (C-3). Auditory is an Adjective (D-1).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Parts of Speech"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Parts of Speech",
+    "Sub-topic": "Identifying Parts of Speech",
+    "Difficulty": "Moderate",
+    "Question Type": "Match the Following",
+    "Question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Knowing\n2. Know\n3. Knowingly\n4. Knowledge",
+    "Options": [
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-3, C-2, D-4",
+      "A-1, B-2, C-3, D-4",
+      "A-4, B-3, C-2, D-1"
+    ],
+    "Correct Answer": "A-4, B-2, C-3, D-1",
+    "Explanation": "Knowledge is a Noun (A-4). Know is a Verb (B-2). Knowingly is an Adverb (C-3). Knowing is an Adjective (D-1).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Parts of Speech"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Parts of Speech",
+    "Sub-topic": "Identifying Parts of Speech",
+    "Difficulty": "Moderate",
+    "Question Type": "Match the Following",
+    "Question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Cogitation\n2. Pensively\n3. Cogitate\n4. Cogitative",
+    "Options": [
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-2, C-3, D-4",
+      "A-1, B-3, C-2, D-4",
+      "A-4, B-3, C-2, D-1"
+    ],
+    "Correct Answer": "A-1, B-3, C-2, D-4",
+    "Explanation": "Cogitation is a Noun (A-1). Cogitate is a Verb (B-3). Pensively is an Adverb (C-2). Cogitative is an Adjective (D-4).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Parts of Speech"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Parts of Speech",
+    "Sub-topic": "Identifying Parts of Speech",
+    "Difficulty": "Moderate",
+    "Question Type": "Match the Following",
+    "Question": "List I:\nA. Noun\nB. Verb\nC. Adverb\nD. Adjective\n\nList II:\n1. Intuitive\n2. Intuition\n3. Intuitively\n4. Intuit",
+    "Options": [
+      "A-2, B-3, C-4, D-1",
+      "A-2, B-4, C-3, D-1",
+      "A-1, B-4, C-3, D-2",
+      "A-1, B-3, C-4, D-2"
+    ],
+    "Correct Answer": "A-2, B-4, C-3, D-1",
+    "Explanation": "Intuition is a Noun (A-2). Intuit is a Verb (B-4). Intuitively is an Adverb (C-3). Intuitive is an Adjective (D-1).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Grammar",
+      "Parts of Speech"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Meaning",
+    "Sub-topic": "Matching Words with Meanings",
+    "Difficulty": "Moderate",
+    "Question Type": "Match the Following",
+    "Question": "List I:\nA. Malversation\nB. Conundrum\nC. Incessant\nD. Mulct\n\nList II:\n1. Continuing without a break\n2. Confusing problem\n3. Extracting money in the form of taxes\n4. Corrupt behaviour of a public servant",
+    "Options": [
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-1, C-2, D-4",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-2, C-1, D-3"
+    ],
+    "Correct Answer": "A-4, B-2, C-1, D-3",
+    "Explanation": "Malversation is corrupt behavior of a public servant (A-4). Conundrum is a confusing problem (B-2). Incessant means continuing without a break (C-1). Mulct means extracting money in the form of taxes/fines (D-3).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "English",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "Lesion, Legion, Lesson\n1. The scan of the affected area indicated the presence of a life-threatening lesion.\n2. He had a legion of followers who hung on to his every word.\n3. It is important to lesson the burden of others as we venture through life.",
+    "Options": [
+      "1 and 2 only",
+      "1 only",
+      "2 only",
+      "1, 2 and 3"
+    ],
+    "Correct Answer": "1 only",
+    "Explanation": "Sentence 3 should use 'lessen' instead of 'lesson'. Sentences 1 and 2 are correct.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "Depose, Deplore, Deport\n1. The director asked the actor to depose himself and instead act naturally.\n2. The people are enthusiastically declaring that they deplore the salutary impact of the decisions taken by the administration.\n3. Under extreme circumstances, the government can deport someone from a country.",
+    "Options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "2 only",
+      "3 only"
+    ],
+    "Correct Answer": "3 only",
+    "Explanation": "Sentence 1 is incorrect ('depose' means to remove from office). Sentence 2 is contradictory ('deplore' means strong disapproval, while 'salutary' means beneficial). Only sentence 3 is correct.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "Bate, Bait, Bade\n1. Those who had gathered for the unveiling were asked to bate their curiosity.\n2. They set the bait to capture the leopard for tagging.\n3. He reluctantly bade goodbye to his belongings.",
+    "Options": [
+      "1, 2 and 3",
+      "2 and 3 only",
+      "1 only",
+      "2 only"
+    ],
+    "Correct Answer": "1, 2 and 3",
+    "Explanation": "All three sentences use the words 'bate' (moderate/restrain), 'bait' (lure), and 'bade' (past tense of bid) correctly.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Word Choice",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "Directions: Select the option that improves/corrects the underlined word in the sentence.\nThe opposing political parties nevertheless took a bilateral position in the national interest. (Underlined: bilateral)",
+    "Options": [
+      "impartial",
+      "intermittent",
+      "perilous",
+      "bipartisan"
+    ],
+    "Correct Answer": "bipartisan",
+    "Explanation": "'Bipartisan' is the correct term for cooperation between two opposing political parties.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Word Choice",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Error Detection",
+    "Sub-topic": "Article Usage",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "Directions: Spot the error in the underlined parts of the sentence.\nIn his well-recognised stentorian yet amused voice (a) / the principal demanded an unique excuse (b) / from the student hauled up for alleged minor misdemeanor. (c) / No error. (d)",
+    "Options": [
+      "In his well-recognised stentorian yet amused voice",
+      "the principal demanded an unique excuse",
+      "from the student hauled up for alleged minor misdemeanor.",
+      "No error"
+    ],
+    "Correct Answer": "the principal demanded an unique excuse",
+    "Explanation": "'an unique' is incorrect because 'unique' starts with a consonant sound (/juː/). It should be 'a unique'.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Error Detection",
+      "Grammar"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "In which of the sentences given below has/have the word(s) 'insure, ensure, unsure' been used correctly?",
+    "Options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 only",
+      "1, 2 and 3"
+    ],
+    "Correct Answer": "1 only",
+    "Explanation": "Sentence 2 should use 'ensure' (to make certain). Sentence 3 should use 'unsure' (not certain). Only sentence 1 is correct.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "In which of the sentences given below has/have the word(s) 'crops, corps, corpse' been used correctly?",
+    "Options": [
+      "2 and 3 only",
+      "2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "Correct Answer": "1, 2 and 3",
+    "Explanation": "All three sentences use the words correctly in their respective contexts: 'crops' (plants grown), 'corps' (organized group), and 'corpse' (dead body).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "In which of the sentences given below has/have the word(s) 'censer, censor, censure' been used correctly?",
+    "Options": [
+      "1 and 2 only",
+      "3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "Correct Answer": "1 and 3 only",
+    "Explanation": "Sentence 2 should use 'censor board' instead of 'censure board'. Sentences 1 and 3 are correct.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "In which of the sentences given below has/have the word(s) 'pair, pear, pare' been used correctly?",
+    "Options": [
+      "1 and 2 only",
+      "1 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "Correct Answer": "1, 2 and 3",
+    "Explanation": "All three sentences are correct: 'pair' (two of a kind), 'pear' (the fruit), and 'pare' (to trim or reduce).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "In which of the sentences given below has/have the word(s) 'fate, fete, faith' been used correctly?",
+    "Options": [
+      "2 and 3 only",
+      "1 and 3 only",
+      "3 only",
+      "1, 2 and 3"
+    ],
+    "Correct Answer": "3 only",
+    "Explanation": "Sentence 1 should use 'fate' (destiny/outcome). Sentence 2 should use 'fete' (a festival or celebration). Only sentence 3 is correct.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "In which of the sentences given below has/have the word(s) 'bear, bare, bier' been used correctly?",
+    "Options": [
+      "2 only",
+      "2 and 3",
+      "1 and 3",
+      "3 only"
+    ],
+    "Correct Answer": "3 only",
+    "Explanation": "Sentence 1 should use 'bear' (to tolerate). Sentence 2 should use 'bare' (empty/uncovered). Only sentence 3 is correct ('bier' is a stand on which a corpse or coffin is placed).",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "In which of the sentences given below has/have the word(s) 'tire, tier, tyre' been used correctly?",
+    "Options": [
+      "3 only",
+      "2 and 3 only",
+      "2 only",
+      "1, 2 and 3"
+    ],
+    "Correct Answer": "2 only",
+    "Explanation": "Sentence 1 should use 'tease' or 'tire' (weary). Sentence 3 should use 'tier' (level/floor). Only sentence 2 is correct.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "In which of the sentences given below has/have the word(s) 'cite, sight, site' been used correctly?",
+    "Options": [
+      "1 and 3 only",
+      "2 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "Correct Answer": "2 only",
+    "Explanation": "Sentence 1 should use 'site' (location). Sentence 3 should use 'cite' (to quote or refer to). Only sentence 2 is correct.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Word Usage",
+    "Sub-topic": "Homophones",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "In which of the sentences given below has/have the word(s) 'raze, raise, rays' been used correctly?",
+    "Options": [
+      "1 and 2 only",
+      "3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "Correct Answer": "2 only",
+    "Explanation": "Sentence 1 should use 'raise' (increase in salary). Sentence 2 should use 'raze' (completely destroy). Only sentence 3 is correct.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Homophones",
+      "Vocabulary"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Error Detection",
+    "Sub-topic": "General",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "Identify the part of the sentence that contains an error:\nToday she was an accomplished (a) / singer because she had trained (b) / under an acclaimed guru in her youth. (c) / No error. (d)",
+    "Options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "No error"
+    ],
+    "Correct Answer": "No error",
+    "Explanation": "The sentence is grammatically correct and contains no errors.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Error Detection",
+      "Grammar"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Error Detection",
+    "Sub-topic": "Subject-Verb Agreement",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "Identify the part of the sentence that contains an error:\nEither my brothers (a) / or my friend (b) / are coming to receive me at the airport. (c) / No error. (d)",
+    "Options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "No error"
+    ],
+    "Correct Answer": "(b)",
+    "Explanation": "When subject parts are joined by 'either... or', the verb agrees with the closer subject. Since 'my friend' is singular, the verb should be 'is coming' instead of 'are coming'.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Error Detection",
+      "Grammar"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Error Detection",
+    "Sub-topic": "Subject-Verb Agreement",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "Identify the part of the sentence that contains an error:\nThe pair of trousers (a) / you bought for me (b) / do not fit me. (c) / No error. (d)",
+    "Options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "No error"
+    ],
+    "Correct Answer": "(b)",
+    "Explanation": "The subject is 'The pair' (singular), so the verb should be singular: 'does not fit me' instead of 'do not fit me'.",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Error Detection",
+      "Grammar"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Grammar",
+    "Topic": "Error Detection",
+    "Sub-topic": "Parallel Structure",
+    "Difficulty": "Moderate",
+    "Question Type": "Factual",
+    "Question": "Identify the part of the sentence that contains an error:\nParidhi knew she still had to buy the groceries (a) / pick up dry-cleaning (b) / and prepare the presentation for the next day's meeting. (c) / No error. (d)",
+    "Options": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "No error"
+    ],
+    "Correct Answer": "(a)",
+    "Explanation": "To maintain parallel structure and clarity, it should be 'pick up the dry-cleaning' (using the definite article 'the' consistently with 'the groceries').",
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Error Detection",
+      "Grammar"
+    ]
+  },
+  {
+    "Exam": "CDS",
+    "Year": null,
+    "Paper": null,
+    "Subject": "English",
+    "Chapter": "Vocabulary",
+    "Topic": "Fill in the Blanks",
+    "Sub-topic": "Idioms",
+    "Difficulty": "Easy",
+    "Question Type": "Factual",
+    "Question": "It is best to ……… politics when in the classroom.",
+    "Options": [
+      "keep out",
+      "keep on",
+      "keep off",
+      "keeping"
+    ],
+    "Correct Answer": "keep out",
+    "Explanation": null,
+    "Previous Year Frequency": 1,
+    "Tags": [
+      "Idioms",
+      "Vocabulary"
+    ]
+  }
+]

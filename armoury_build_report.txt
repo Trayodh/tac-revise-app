@@ -1,0 +1,7 @@
+Question Armoury Rebuild Report
+-------------------------------
+Initial Total Questions: 12871
+Removed as Paragraphs: 215
+Removed as Duplicates: 2644
+Total Processed: 33
+Output File: sample_rebuilt_armoury.json

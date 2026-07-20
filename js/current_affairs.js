@@ -1,55 +1,52 @@
 // 9. CURRENT AFFAIRS (CA) SCREEN MODULE
 // ==========================================
 
+const CA_CYCLES_CONFIG = {
+  AFCAT: {
+    label: "AFCAT",
+    months: ["February", "March", "April", "May", "June", "July", "August"],
+    shortLabel: "FEB '26\n-\nAUG '26",
+    examDate: new Date("2026-08-08T00:00:00")
+  },
+  NDA_CDS: {
+    label: "NDA / CDS",
+    months: ["April", "May", "June", "July", "August", "September"],
+    shortLabel: "APR '26\n-\nSEP '26",
+    examDate: new Date("2026-09-12T00:00:00")
+  }
+};
+
+let activeCaCycle = localStorage.getItem('activeCaCycle');
+if (!activeCaCycle || !CA_CYCLES_CONFIG[activeCaCycle]) {
+  const now = new Date();
+  if (now <= CA_CYCLES_CONFIG.AFCAT.examDate && now <= CA_CYCLES_CONFIG.NDA_CDS.examDate) {
+    activeCaCycle = CA_CYCLES_CONFIG.AFCAT.examDate < CA_CYCLES_CONFIG.NDA_CDS.examDate ? 'AFCAT' : 'NDA_CDS';
+  } else if (now <= CA_CYCLES_CONFIG.AFCAT.examDate) {
+    activeCaCycle = 'AFCAT';
+  } else if (now <= CA_CYCLES_CONFIG.NDA_CDS.examDate) {
+    activeCaCycle = 'NDA_CDS';
+  } else {
+    activeCaCycle = 'AFCAT'; // Default fallback
+  }
+  localStorage.setItem('activeCaCycle', activeCaCycle);
+}
+
 /**
- * Returns the current exam cycle bounds.
- * Exam Cycles:
- *   Cycle 1 (Apr → Sep): April, May, June, July, August, September
- *   Cycle 2 (Oct → Mar): October, November, December, January, February, March
- *
- * Returns { cycleLabel, startMonth (0-indexed), startYear, endMonth (0-indexed), endYear, months[] }
- * where months is an array of "Month YYYY" strings for the entire cycle.
+ * Returns the current exam cycle bounds based on CA_CYCLES_CONFIG and activeCaCycle.
  */
 function getExamCycleBounds() {
-  const now = new Date();
-  const month = now.getMonth(); // 0=Jan … 11=Dec
-  const year  = now.getFullYear();
-
-  let cycleLabel, startMonth, startYear, endMonth, endYear;
-
-  if (month >= 3 && month <= 8) {
-    // April (3) to September (8)
-    cycleLabel  = `Apr ${year} — Sep ${year}`;
-    startMonth  = 3; startYear  = year;
-    endMonth    = 8; endYear    = year;
-  } else if (month >= 9) {
-    // October (9) to March of next year
-    cycleLabel  = `Oct ${year} — Mar ${year + 1}`;
-    startMonth  = 9; startYear  = year;
-    endMonth    = 2; endYear    = year + 1;
-  } else {
-    // January (0) to March (2) — tail of previous Oct cycle
-    cycleLabel  = `Oct ${year - 1} — Mar ${year}`;
-    startMonth  = 9; startYear  = year - 1;
-    endMonth    = 2; endYear    = year;
-  }
-
-  // Build ordered list of "Month YYYY" strings for this cycle
-  const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-  const months = [];
-  let m = startMonth, y = startYear;
-  while (true) {
-    months.push(`${monthNames[m]} ${y}`);
-    if (m === endMonth && y === endYear) break;
-    m++; if (m > 11) { m = 0; y++; }
-    if (months.length > 24) break; // safety valve
-  }
-
-  return { cycleLabel, startMonth, startYear, endMonth, endYear, months };
+  const config = CA_CYCLES_CONFIG[activeCaCycle];
+  const year = config.examDate.getFullYear();
+  const months = config.months.map(m => `${m} ${year}`);
+  
+  return { 
+    cycleLabel: config.shortLabel.replace(/\n/g, ' '), 
+    months 
+  };
 }
 window.getExamCycleBounds = getExamCycleBounds;
 
-let activeCaMonth = "January 2026";
+let activeCaMonth = ""; // Will be auto-selected based on active cycle
 
 
 let isFetchingDailyNews = false;
@@ -145,11 +142,30 @@ function renderCurrentAffairsHub() {
   const monthsList = document.getElementById("ca-month-list");
   monthsList.innerHTML = "";
 
-  // Cycle banner at top of sidebar
-  const banner = document.createElement("div");
-  banner.style.cssText = "padding: 8px 12px; margin-bottom: 10px; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; font-family: var(--font-mono); color: var(--accent); background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.2); border-radius: 5px; text-align: center;";
-  banner.textContent = `Exam Cycle: ${cycle.cycleLabel}`;
-  monthsList.appendChild(banner);
+  // Interactive Cycle Card selector at top of sidebar
+  const cycleCard = document.createElement("div");
+  cycleCard.className = "panel glow";
+  cycleCard.style.cssText = "padding: 12px; margin-bottom: 16px; background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.2); border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.2s; user-select: none;";
+  
+  const config = CA_CYCLES_CONFIG[activeCaCycle];
+  cycleCard.innerHTML = `
+    <div style="font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">CURRENT CYCLE</div>
+    <div style="font-size: 1.1rem; color: var(--accent); font-weight: 800; font-family: var(--font-mono); margin-bottom: 6px;">${config.label}</div>
+    <div style="font-size: 0.75rem; color: var(--text-secondary); font-family: var(--font-mono); line-height: 1.4;">${config.shortLabel.replace(/\n/g, '<br>')}</div>
+  `;
+  
+  cycleCard.addEventListener('click', () => {
+    activeCaCycle = activeCaCycle === 'AFCAT' ? 'NDA_CDS' : 'AFCAT';
+    localStorage.setItem('activeCaCycle', activeCaCycle);
+    
+    // reset active month to force re-evaluation of best month in new cycle
+    activeCaMonth = ""; 
+    renderCurrentAffairsHub();
+  });
+  cycleCard.onmouseover = () => cycleCard.style.background = 'rgba(34,197,94,0.15)';
+  cycleCard.onmouseout = () => cycleCard.style.background = 'rgba(34,197,94,0.08)';
+  
+  monthsList.appendChild(cycleCard);
 
   // Render only cycle-relevant months in sorted order
   cycle.months
@@ -168,9 +184,55 @@ function renderCurrentAffairsHub() {
   renderCurrentMonthAffairs();
 }
 
+function isArticleForCycle(article, cycleConfig, monthStr) {
+  const text = ((article.text || '') + ' ' + (article.summary || '') + ' ' + (article.details ? JSON.stringify(article.details) : '')).toLowerCase();
+  const topic = (article.topic || '').toLowerCase();
+  const isAFCAT = cycleConfig === 'AFCAT';
+  const isNDACDS = cycleConfig === 'NDA_CDS';
+
+  const isAirForce = topic.includes('air force') || topic.includes('iaf') || topic.includes('aviation');
+  const isArmyNaval = topic.includes('army') || topic.includes('navy') || topic.includes('naval') || topic.includes('military');
+
+  let day = -1;
+  if (monthStr.includes('April')) {
+    const m = text.match(/\b([1-9]|[1-2][0-9]|3[0-1])\s*(?:th|st|nd|rd)?\s+april\b/) || text.match(/\bapril\s+([1-9]|[1-2][0-9]|3[0-1])\b/);
+    if (m) day = parseInt(m[1]);
+    
+    if (day !== -1) {
+      if (day <= 12) {
+        if (isAFCAT) return true;
+        if (isNDACDS && isArmyNaval && !isAirForce) return true;
+        return false;
+      } else {
+        if (isNDACDS) return true;
+        if (isAFCAT && isAirForce) return true;
+        return false;
+      }
+    }
+  } else if (monthStr.includes('August')) {
+    const m = text.match(/\b([1-9]|[1-2][0-9]|3[0-1])\s*(?:th|st|nd|rd)?\s+august\b/) || text.match(/\baugust\s+([1-9]|[1-2][0-9]|3[0-1])\b/);
+    if (m) day = parseInt(m[1]);
+    
+    if (day !== -1) {
+      if (day <= 8) {
+        return true;
+      } else {
+        if (isNDACDS) return true;
+        if (isAFCAT) return false;
+      }
+    }
+  } else if (monthStr.includes('September')) {
+    if (isAFCAT) return false;
+  }
+  
+  return true;
+}
+
 function renderCurrentMonthAffairs() {
   const pane = document.getElementById("ca-content-pane");
-  const data = window.CURRENT_AFFAIRS_DB[activeCaMonth] || [];
+  let data = window.CURRENT_AFFAIRS_DB[activeCaMonth] || [];
+  
+  data = data.filter(item => isArticleForCycle(item, activeCaCycle, activeCaMonth));
 
   if (data.length === 0) {
     pane.innerHTML = `<p style="color:var(--text-secondary); padding:20px 0;">No current affairs registered for this month.</p>`;
