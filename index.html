@@ -1457,32 +1457,6 @@
     </div>
   </div>
 
-  <!-- AUTH MODAL -->
-  <div class="cbt-overlay" id="auth-modal" style="display: none; align-items: center; justify-content: center;">
-    <div class="panel" style="max-width: 400px; width: 100%; padding: 24px;">
-      <h2 style="margin-bottom: 16px; color: var(--accent);" id="auth-modal-title">Sign Up</h2>
-      <p style="margin-bottom: 24px; color: var(--text-secondary); font-size: 0.9rem;">Sign up to sync your progress and earn ranks.</p>
-      
-      <div style="margin-bottom: 16px;">
-        <label style="display: block; margin-bottom: 8px; font-size: 0.85rem; color: var(--text-primary);">Email</label>
-        <input type="email" id="auth-email" style="width: 100%; padding: 10px; background: rgba(0,0,0,0.2); border: 1px solid var(--border); border-radius: 6px; color: var(--text-primary); outline: none;">
-      </div>
-      
-      <div style="margin-bottom: 24px;">
-        <label style="display: block; margin-bottom: 8px; font-size: 0.85rem; color: var(--text-primary);">Password</label>
-        <input type="password" id="auth-password" style="width: 100%; padding: 10px; background: rgba(0,0,0,0.2); border: 1px solid var(--border); border-radius: 6px; color: var(--text-primary); outline: none;">
-      </div>
-
-      <div style="display: flex; gap: 12px;">
-        <button class="btn-primary" style="flex: 1;" id="auth-action-btn" onclick="handleAuthAction()">Sign Up</button>
-        <button class="btn-secondary" onclick="document.getElementById('auth-modal').style.display='none'">Cancel</button>
-      </div>
-
-      <div style="text-align: center; margin-top: 16px;">
-        <span id="auth-toggle-btn" style="color: var(--accent); font-size: 0.85rem; cursor: pointer;" onclick="toggleAuthMode()">Already have an account? Sign In</span>
-      </div>
-    </div>
-  </div>
 
   <!-- ONBOARDING MODAL (BRANCH SELECTION) -->
   <div class="cbt-overlay" id="onboarding-modal" style="display: none; align-items: center; justify-content: center;">
@@ -1702,7 +1676,7 @@
       </p>
       
       <button class="btn-primary" onclick="document.getElementById('auth-modal').style.display='flex';" style="font-size: 1.2rem; padding: 16px 48px; border-radius: 8px; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 0 20px var(--border-glow); z-index: 1;">
-        Enlist / Sign Up
+        Enlist
       </button>
     </section>
 
@@ -1745,7 +1719,7 @@
       <h2 style="font-family: var(--font-logo); font-size: 2rem; color: var(--text-primary); margin-bottom: 24px; text-transform: uppercase;">Ready to Deploy?</h2>
       <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 40px;">Join the ranks of successful cadets.</p>
       <button class="btn-primary" onclick="document.getElementById('auth-modal').style.display='flex';" style="font-size: 1.2rem; padding: 16px 48px; border-radius: 8px; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 0 20px var(--border-glow);">
-        Sign Up Now
+        Enlist Now
       </button>
     </section>
 
