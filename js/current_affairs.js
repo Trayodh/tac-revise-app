@@ -490,7 +490,7 @@ function renderCurrentMonthAffairs() {
       }
 
       questionsToRender.forEach((qObj, qIdx) => {
-        const uniqueId = \`\${item.id}-q\${qIdx}\`;
+        const uniqueId = `${item.id}-q${qIdx}`;
         html += `
           <div style="margin-bottom:26px; padding-bottom:22px; ${(index === itemsWithMcq.length - 1 && qIdx === questionsToRender.length - 1) ? '' : 'border-bottom:1px solid var(--border);'}" id="ca-mcq-${uniqueId}">
             <div style="display:flex; align-items:center; gap:6px; margin-bottom:10px;">

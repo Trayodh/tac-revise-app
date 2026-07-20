@@ -1513,55 +1513,52 @@ function toggleFormulaReadStatus(topicId, button) {
 // 9. CURRENT AFFAIRS (CA) SCREEN MODULE
 // ==========================================
 
+const CA_CYCLES_CONFIG = {
+  AFCAT: {
+    label: "AFCAT",
+    months: ["February", "March", "April", "May", "June", "July", "August"],
+    shortLabel: "FEB '26\n-\nAUG '26",
+    examDate: new Date("2026-08-08T00:00:00")
+  },
+  NDA_CDS: {
+    label: "NDA / CDS",
+    months: ["April", "May", "June", "July", "August", "September"],
+    shortLabel: "APR '26\n-\nSEP '26",
+    examDate: new Date("2026-09-12T00:00:00")
+  }
+};
+
+let activeCaCycle = localStorage.getItem('activeCaCycle');
+if (!activeCaCycle || !CA_CYCLES_CONFIG[activeCaCycle]) {
+  const now = new Date();
+  if (now <= CA_CYCLES_CONFIG.AFCAT.examDate && now <= CA_CYCLES_CONFIG.NDA_CDS.examDate) {
+    activeCaCycle = CA_CYCLES_CONFIG.AFCAT.examDate < CA_CYCLES_CONFIG.NDA_CDS.examDate ? 'AFCAT' : 'NDA_CDS';
+  } else if (now <= CA_CYCLES_CONFIG.AFCAT.examDate) {
+    activeCaCycle = 'AFCAT';
+  } else if (now <= CA_CYCLES_CONFIG.NDA_CDS.examDate) {
+    activeCaCycle = 'NDA_CDS';
+  } else {
+    activeCaCycle = 'AFCAT'; // Default fallback
+  }
+  localStorage.setItem('activeCaCycle', activeCaCycle);
+}
+
 /**
- * Returns the current exam cycle bounds.
- * Exam Cycles:
- *   Cycle 1 (Apr → Sep): April, May, June, July, August, September
- *   Cycle 2 (Oct → Mar): October, November, December, January, February, March
- *
- * Returns { cycleLabel, startMonth (0-indexed), startYear, endMonth (0-indexed), endYear, months[] }
- * where months is an array of "Month YYYY" strings for the entire cycle.
+ * Returns the current exam cycle bounds based on CA_CYCLES_CONFIG and activeCaCycle.
  */
 function getExamCycleBounds() {
-  const now = new Date();
-  const month = now.getMonth(); // 0=Jan … 11=Dec
-  const year  = now.getFullYear();
-
-  let cycleLabel, startMonth, startYear, endMonth, endYear;
-
-  if (month >= 3 && month <= 8) {
-    // April (3) to August (7)
-    cycleLabel  = `Apr ${year} — Aug ${year}`;
-    startMonth  = 3; startYear  = year;
-    endMonth    = 7; endYear    = year;
-  } else if (month >= 9) {
-    // October (9) to March of next year
-    cycleLabel  = `Oct ${year} — Mar ${year + 1}`;
-    startMonth  = 9; startYear  = year;
-    endMonth    = 2; endYear    = year + 1;
-  } else {
-    // January (0) to March (2) — tail of previous Oct cycle
-    cycleLabel  = `Oct ${year - 1} — Mar ${year}`;
-    startMonth  = 9; startYear  = year - 1;
-    endMonth    = 2; endYear    = year;
-  }
-
-  // Build ordered list of "Month YYYY" strings for this cycle
-  const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-  const months = [];
-  let m = startMonth, y = startYear;
-  while (true) {
-    months.push(`${monthNames[m]} ${y}`);
-    if (m === endMonth && y === endYear) break;
-    m++; if (m > 11) { m = 0; y++; }
-    if (months.length > 24) break; // safety valve
-  }
-
-  return { cycleLabel, startMonth, startYear, endMonth, endYear, months };
+  const config = CA_CYCLES_CONFIG[activeCaCycle];
+  const year = config.examDate.getFullYear();
+  const months = config.months.map(m => `${m} ${year}`);
+  
+  return { 
+    cycleLabel: config.shortLabel.replace(/\n/g, ' '), 
+    months 
+  };
 }
 window.getExamCycleBounds = getExamCycleBounds;
 
-let activeCaMonth = "January 2026";
+let activeCaMonth = ""; // Will be auto-selected based on active cycle
 
 
 let isFetchingDailyNews = false;
@@ -1597,13 +1594,7 @@ function fetchDailyCurrentAffairs() {
   }
 
   fetch('/api/daily-current-affairs')
-    .then(async res => {
-      if (!res.ok) {
-        const text = await res.text();
-        throw new Error(`HTTP ${res.status}: ${text}`);
-      }
-      return res.json();
-    })
+    .then(res => res.json())
     .then(data => {
       if (Array.isArray(data)) {
         const monthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
@@ -1630,9 +1621,9 @@ function fetchDailyCurrentAffairs() {
     .catch(err => {
       console.error("Failed to fetch daily news:", err);
       isFetchingDailyNews = false;
-      hasFetchedDailyNews = false;
-      if (pane) pane.innerHTML = `<p style="color: var(--danger); padding: 20px;">Secure uplink failed. Error: <pre style="white-space: pre-wrap;">${err.stack}</pre> Please refresh the page.</p>`;
-      setTimeout(() => renderCurrentAffairsHub(), 5000);
+      hasFetchedDailyNews = true;
+      if (pane) pane.innerHTML = `<p style="color: var(--danger); padding: 20px;">Secure uplink failed. Could not retrieve today's intelligence.</p>`;
+      setTimeout(() => renderCurrentAffairsHub(), 3000);
     });
 }
 
@@ -1643,14 +1634,6 @@ function renderCurrentAffairsHub() {
   }
 
   const cycle = getExamCycleBounds();
-
-  // Safety guard — window.CURRENT_AFFAIRS_DB must exist before rendering
-  if (typeof window.CURRENT_AFFAIRS_DB === 'undefined' || !window.CURRENT_AFFAIRS_DB) {
-    const pane = document.getElementById('deck-viewer-pane');
-    if (pane) pane.innerHTML = `<p style="color:var(--warning);padding:20px;">Loading current affairs data...</p>`;
-    setTimeout(() => renderCurrentAffairsHub(), 1500);
-    return;
-  }
 
   // Filter DB keys to only those within the current exam cycle
   const allKeys  = Object.keys(window.CURRENT_AFFAIRS_DB);
@@ -1669,48 +1652,40 @@ function renderCurrentAffairsHub() {
   }
 
   const monthsList = document.getElementById("ca-month-list");
-  if (!monthsList) return;
   monthsList.innerHTML = "";
-  
-  const caContainer = document.getElementById("ca-monthly-feed-container");
-  const existingBanner = caContainer.querySelector(".cycle-banner");
-  if (existingBanner) existingBanner.remove();
 
-  // Cycle banner at top of grid (matching month card styling)
-  const banner = document.createElement("div");
-  banner.className = "subject-card cycle-banner";
-  banner.style.cssText = "background: rgba(34,197,94,0.08); border: 1px dashed rgba(34,197,94,0.4); padding: 15px 5px; border-radius: 12px; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;";
+  // Interactive Cycle Card selector at top of sidebar
+  const cycleCard = document.createElement("div");
+  cycleCard.className = "panel glow";
+  cycleCard.style.cssText = "padding: 12px; margin-bottom: 16px; background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.2); border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.2s; user-select: none;";
   
-  const shortCycle = cycle.cycleLabel.replace(/20(\d{2})/g, "'$1").toUpperCase();
-  const cycleDisplay = shortCycle.replace(/\s*[-\u2013\u2014]\s*/g, "<br>-<br>");
-
-  banner.innerHTML = `
-    <h3 style="margin-bottom: 4px; font-size: 0.85rem; color: var(--accent); letter-spacing: 0.5px;">CYCLE</h3>
-    <div style="font-size: 0.7rem; color: var(--text-muted); line-height: 1.4; font-weight: bold;">${cycleDisplay}</div>
+  const config = CA_CYCLES_CONFIG[activeCaCycle];
+  cycleCard.innerHTML = `
+    <div style="font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">CURRENT CYCLE</div>
+    <div style="font-size: 1.1rem; color: var(--accent); font-weight: 800; font-family: var(--font-mono); margin-bottom: 6px;">${config.label}</div>
+    <div style="font-size: 0.75rem; color: var(--text-secondary); font-family: var(--font-mono); line-height: 1.4;">${config.shortLabel.replace(/\n/g, '<br>')}</div>
   `;
-  monthsList.appendChild(banner);
+  
+  cycleCard.addEventListener('click', () => {
+    activeCaCycle = activeCaCycle === 'AFCAT' ? 'NDA_CDS' : 'AFCAT';
+    localStorage.setItem('activeCaCycle', activeCaCycle);
+    
+    // reset active month to force re-evaluation of best month in new cycle
+    activeCaMonth = ""; 
+    renderCurrentAffairsHub();
+  });
+  cycleCard.onmouseover = () => cycleCard.style.background = 'rgba(34,197,94,0.15)';
+  cycleCard.onmouseout = () => cycleCard.style.background = 'rgba(34,197,94,0.08)';
+  
+  monthsList.appendChild(cycleCard);
 
   // Render only cycle-relevant months in sorted order
   cycle.months
     .filter(m => keys.includes(m))
     .forEach(month => {
       const item = document.createElement("div");
-      item.className = `subject-card ${month === activeCaMonth ? 'active' : ''}`;
-      if (month === activeCaMonth) {
-        item.style.cssText = "background: rgba(34,197,94,0.1); border: 1px solid var(--accent); padding: 5px; width: 55px; height: 55px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; border-radius: 8px; cursor: pointer; transition: all 0.2s ease;";
-      } else {
-        item.style.cssText = "background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 5px; width: 55px; height: 55px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; border-radius: 8px; cursor: pointer; transition: all 0.2s ease;";
-      }
-      
-      const monthParts = month.split(" ");
-      const mName = monthParts[0].substring(0, 3).toUpperCase(); // e.g. "AUG"
-      const yName = monthParts[1] ? "'" + monthParts[1].substring(2) : ""; // e.g. "'26" instead of 2026
-      
-      item.innerHTML = `
-        <h3 style="margin-bottom: 2px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase;">${mName}</h3>
-        <div style="font-size: 0.65rem; color: var(--text-muted);">${yName}</div>
-      `;
-      
+      item.className = `month-item ${month === activeCaMonth ? 'active' : ''}`;
+      item.innerText = month;
       item.addEventListener("click", () => {
         activeCaMonth = month;
         renderCurrentAffairsHub();
@@ -1721,9 +1696,55 @@ function renderCurrentAffairsHub() {
   renderCurrentMonthAffairs();
 }
 
+function isArticleForCycle(article, cycleConfig, monthStr) {
+  const text = ((article.text || '') + ' ' + (article.summary || '') + ' ' + (article.details ? JSON.stringify(article.details) : '')).toLowerCase();
+  const topic = (article.topic || '').toLowerCase();
+  const isAFCAT = cycleConfig === 'AFCAT';
+  const isNDACDS = cycleConfig === 'NDA_CDS';
+
+  const isAirForce = topic.includes('air force') || topic.includes('iaf') || topic.includes('aviation');
+  const isArmyNaval = topic.includes('army') || topic.includes('navy') || topic.includes('naval') || topic.includes('military');
+
+  let day = -1;
+  if (monthStr.includes('April')) {
+    const m = text.match(/\b([1-9]|[1-2][0-9]|3[0-1])\s*(?:th|st|nd|rd)?\s+april\b/) || text.match(/\bapril\s+([1-9]|[1-2][0-9]|3[0-1])\b/);
+    if (m) day = parseInt(m[1]);
+    
+    if (day !== -1) {
+      if (day <= 12) {
+        if (isAFCAT) return true;
+        if (isNDACDS && isArmyNaval && !isAirForce) return true;
+        return false;
+      } else {
+        if (isNDACDS) return true;
+        if (isAFCAT && isAirForce) return true;
+        return false;
+      }
+    }
+  } else if (monthStr.includes('August')) {
+    const m = text.match(/\b([1-9]|[1-2][0-9]|3[0-1])\s*(?:th|st|nd|rd)?\s+august\b/) || text.match(/\baugust\s+([1-9]|[1-2][0-9]|3[0-1])\b/);
+    if (m) day = parseInt(m[1]);
+    
+    if (day !== -1) {
+      if (day <= 8) {
+        return true;
+      } else {
+        if (isNDACDS) return true;
+        if (isAFCAT) return false;
+      }
+    }
+  } else if (monthStr.includes('September')) {
+    if (isAFCAT) return false;
+  }
+  
+  return true;
+}
+
 function renderCurrentMonthAffairs() {
   const pane = document.getElementById("ca-content-pane");
-  const data = window.CURRENT_AFFAIRS_DB[activeCaMonth] || [];
+  let data = window.CURRENT_AFFAIRS_DB[activeCaMonth] || [];
+  
+  data = data.filter(item => isArticleForCycle(item, activeCaCycle, activeCaMonth));
 
   if (data.length === 0) {
     pane.innerHTML = `<p style="color:var(--text-secondary); padding:20px 0;">No current affairs registered for this month.</p>`;
@@ -1735,6 +1756,25 @@ function renderCurrentMonthAffairs() {
   const SVG_INST    = `<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22V9l9-7 9 7v13"/><path d="M9 22V12h6v10"/></svg>`;
   const SVG_TARGET  = `<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>`;
   const SVG_QUIZ    = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>`;
+
+  // Topic distribution summary
+  const topicCounts = {};
+  data.forEach(item => { const t = item.topic || 'General'; topicCounts[t] = (topicCounts[t] || 0) + 1; });
+
+  let html = `
+    <div style="margin-bottom:20px;">
+      <h2 style="margin:0 0 4px; font-size:1.2rem; font-weight:700; letter-spacing:0.3px;">Current Affairs — ${activeCaMonth}</h2>
+      <p style="margin:0 0 12px; font-size:0.82rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:0.5px;">PIB + NEWS · AI-ENRICHED · ${data.length} ITEMS · CYCLE: ${getExamCycleBounds().cycleLabel}</p>
+      <p style="margin:0 0 12px; font-size:0.75rem; color:var(--info); font-style:italic; opacity: 0.9;">Update Schedule: Refreshes daily with new intelligence briefs.</p>
+      <div style="display:flex; gap:5px; flex-wrap:wrap;">
+        ${Object.entries(topicCounts).map(([t,c]) => {
+          const safeTopic = (t || 'General').toUpperCase().replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
+          return `<span onclick="document.getElementById('topic-${safeTopic}')?.scrollIntoView({behavior: 'smooth', block: 'start'})" onmouseover="this.style.background='rgba(255,255,255,0.12)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'" style="cursor:pointer; font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase; transition:background 0.2s;">${t}&thinsp;·&thinsp;${c}</span>`;
+        }).join('')}
+      </div>
+    </div>
+    <div style="height:1px; background:var(--border); margin-bottom:22px;"></div>
+  `;
 
   function getTopicColor(topicStr, itemTopicColor) {
     if (itemTopicColor && /^#[0-9A-Fa-f]{3,6}$/.test(itemTopicColor)) return itemTopicColor;
@@ -1754,30 +1794,6 @@ function renderCurrentMonthAffairs() {
     if (t.includes('award')) return '#6d28d9';
     return '#64748b';
   }
-
-  // Topic distribution summary
-  const topicCounts = {};
-  const topicColors = {};
-  data.forEach(item => { 
-    const t = item.topic || 'General'; 
-    topicCounts[t] = (topicCounts[t] || 0) + 1; 
-    if (!topicColors[t]) topicColors[t] = getTopicColor(item.topic, item.topicColor);
-  });
-
-  let html = `
-    <div style="margin-bottom:20px;">
-      <h2 style="margin:0 0 4px; font-size:1.2rem; font-weight:700; letter-spacing:0.3px;">Current Affairs — ${activeCaMonth}</h2>
-      <p style="margin:0 0 12px; font-size:0.82rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:0.5px;">PIB + NEWS · AI-ENRICHED · ${data.length} ITEMS · CYCLE: ${getExamCycleBounds().cycleLabel}</p>
-      <div style="display:flex; gap:5px; flex-wrap:wrap;">
-        ${Object.entries(topicCounts).map(([t,c]) => {
-          const safeTopic = (t || 'General').toUpperCase().replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
-          const tColor = topicColors[t] || '#ffffff';
-          return `<span onclick="document.getElementById('topic-${safeTopic}')?.scrollIntoView({behavior: 'smooth', block: 'start'})" onmouseover="this.style.background='rgba(255,255,255,0.12)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'" style="cursor:pointer; font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase; color:${tColor}; transition:background 0.2s;">${t}&thinsp;·&thinsp;${c}</span>`;
-        }).join('')}
-      </div>
-    </div>
-    <div style="height:1px; background:var(--border); margin-bottom:22px;"></div>
-  `;
 
   let topicSeen = new Set();
   data.forEach(item => {
@@ -1815,7 +1831,7 @@ function renderCurrentMonthAffairs() {
     let contextBox = '';
     if (item.institutionalContext || item.strategicImportance) {
       contextBox = `
-        <div style="margin-top:10px; display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:8px;">
+        <div style="margin-top:10px; display:grid; grid-template-columns:1fr 1fr; gap:8px;">
           ${item.institutionalContext ? `
           <div style="padding:9px 11px; background:rgba(${hexToRgb(topicColor)},0.07); border-radius:5px; border:1px solid rgba(${hexToRgb(topicColor)},0.18);">
             <div style="display:flex; align-items:center; gap:4px; font-size:0.65rem; font-weight:700; letter-spacing:0.8px; color:${topicColor}; margin-bottom:4px; text-transform:uppercase; font-family:var(--font-mono);">
@@ -1885,6 +1901,7 @@ function renderCurrentMonthAffairs() {
             </ul>
           </div>
         ` : ''}
+        ${legacyDetails}
         ${contextBox}
         ${sourceTransparencyBox}
         ${item.quickSummary ? `
@@ -1908,7 +1925,7 @@ function renderCurrentMonthAffairs() {
                 <div>${parseWikiLinks(item.backgroundContext)}</div>
               </div>
 
-              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-top: 4px;">
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 4px;">
                 <div>
                   <strong style="color: var(--accent); display: block; margin-bottom: 4px; font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">Key Stakeholders</strong>
                   <ul style="padding-left: 16px; margin: 0; list-style: square;">
@@ -1952,20 +1969,17 @@ function renderCurrentMonthAffairs() {
   });
 
   // MCQ section
-  let allMcqs = [];
+  // Support both legacy `item.mcq` (object) and new advanced schema `item.mcqs` (array)
+  const itemsWithMcq = [];
   data.forEach(item => {
-    if (item.mcqs && Array.isArray(item.mcqs)) {
-      item.mcqs.forEach((mcq, idx) => {
-        if (mcq.question) {
-          allMcqs.push({ item, mcq, subId: idx });
-        }
-      });
+    if (item.mcqs && Array.isArray(item.mcqs) && item.mcqs.length > 0) {
+      itemsWithMcq.push(item);
     } else if (item.mcq && item.mcq.question) {
-      allMcqs.push({ item, mcq: item.mcq, subId: 0 });
+      itemsWithMcq.push(item);
     }
   });
 
-  if (allMcqs.length > 0) {
+  if (itemsWithMcq.length > 0) {
     html += `
       <div style="margin-top:32px; border-top:1px solid var(--border); padding-top:26px;">
         <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">
@@ -1976,30 +1990,51 @@ function renderCurrentMonthAffairs() {
         <div class="panel">
     `;
 
-    allMcqs.forEach(({item, mcq, subId}, index) => {
+    itemsWithMcq.forEach((item, index) => {
       const topicColor = getTopicColor(item.topic, item.topicColor);
-      const uniqueId = `${item.id}-${subId}`;
-      html += `
-        <div style="margin-bottom:26px; padding-bottom:22px; ${index < allMcqs.length - 1 ? 'border-bottom:1px solid var(--border);' : ''}" id="ca-mcq-${uniqueId}">
-          <div style="display:flex; align-items:center; gap:6px; margin-bottom:10px;">
-            <span style="font-family:var(--font-mono); font-size:0.62rem; font-weight:700; letter-spacing:0.6px; padding:2px 6px; border-radius:3px; background:${topicColor}1a; color:${topicColor}; text-transform:uppercase;">${item.topic || 'General'}</span>
-            <span style="font-family:var(--font-mono); font-size:0.65rem; color:var(--text-muted);">Q${index + 1}</span>
-          </div>
-          <p style="font-weight:600; font-size:0.94rem; margin:0 0 14px; line-height:1.55; color:var(--text-primary);">${mcq.question}</p>
-          <div style="display:flex; flex-direction:column; gap:7px;">
-      `;
-      mcq.options.forEach((opt, optIdx) => {
+      
+      // Normalize to an array of questions to unify rendering
+      const questionsToRender = [];
+      if (item.mcqs && Array.isArray(item.mcqs)) {
+        questionsToRender.push(...item.mcqs);
+      } else if (item.mcq && item.mcq.question) {
+        questionsToRender.push(item.mcq);
+      }
+
+      questionsToRender.forEach((qObj, qIdx) => {
+        const uniqueId = `${item.id}-q${qIdx}`;
         html += `
-          <button class="action-btn" onclick="checkCaMcq('${uniqueId}', ${optIdx}, ${mcq.correct}, this)" style="text-align:left; width:100%; justify-content:flex-start; padding:9px 13px; font-family:var(--font-main);">
-            <span style="font-family:var(--font-mono); font-weight:700; font-size:0.8rem; margin-right:10px; color:var(--text-muted); min-width:18px;">${String.fromCharCode(65 + optIdx)}</span>${opt}
-          </button>
+          <div style="margin-bottom:26px; padding-bottom:22px; ${(index === itemsWithMcq.length - 1 && qIdx === questionsToRender.length - 1) ? '' : 'border-bottom:1px solid var(--border);'}" id="ca-mcq-${uniqueId}">
+            <div style="display:flex; align-items:center; gap:6px; margin-bottom:10px;">
+              <span style="font-family:var(--font-mono); font-size:0.62rem; font-weight:700; letter-spacing:0.6px; padding:2px 6px; border-radius:3px; background:${topicColor}1a; color:${topicColor}; text-transform:uppercase;">${item.topic || 'General'}</span>
+              <span style="font-family:var(--font-mono); font-size:0.65rem; color:var(--text-muted);">Q${index + 1}.${qIdx + 1}</span>
+            </div>
+            <p style="font-weight:600; font-size:0.94rem; margin:0 0 14px; line-height:1.55; color:var(--text-primary);">${qObj.question}</p>
+            <div style="display:flex; flex-direction:column; gap:7px;">
+        `;
+        
+        let correctValue = qObj.correct;
+        // Legacy support: if correct is a string like "A", convert to index 0
+        if (typeof correctValue === 'string') {
+          correctValue = correctValue.charCodeAt(0) - 65;
+        }
+        
+        if (qObj.options && Array.isArray(qObj.options)) {
+          qObj.options.forEach((opt, optIdx) => {
+            html += `
+              <button class="action-btn" onclick="checkCaMcq('${uniqueId}', ${optIdx}, ${correctValue}, this)" style="text-align:left; width:100%; justify-content:flex-start; padding:9px 13px; font-family:var(--font-main);">
+                <span style="font-family:var(--font-mono); font-weight:700; font-size:0.8rem; margin-right:10px; color:var(--text-muted); min-width:18px;">${String.fromCharCode(65 + optIdx)}</span>${opt}
+              </button>
+            `;
+          });
+        }
+        
+        html += `
+            </div>
+            <div class="solution-explanation" id="ca-explain-${uniqueId}" style="display:none; margin-top:12px;">${qObj.explanation}</div>
+          </div>
         `;
       });
-      html += `
-          </div>
-          <div class="solution-explanation" id="ca-explain-${uniqueId}" style="display:none; margin-top:12px;">${mcq.explanation}</div>
-        </div>
-      `;
     });
 
     html += `
