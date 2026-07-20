@@ -1871,17 +1871,25 @@ function renderCurrentMonthAffairs() {
       `;
     }
 
-    // Legacy details fallback
+    // Legacy details fallback (dynamic to support all data formats like February/March)
     let legacyDetails = '';
-    if (!item.upscHighlights && item.details) {
-      legacyDetails = `
-        <div style="display:grid; grid-template-columns:130px 1fr; gap:5px 14px; margin-top:12px; padding:11px; background:rgba(0,0,0,0.18); border-radius:5px; border-left:3px solid ${topicColor}; font-size:0.86rem;">
-          ${item.details.winner    ? `<div style="color:var(--text-muted);font-weight:600;font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.5px;text-transform:uppercase;">Subject</div><div style="font-weight:600;color:var(--text-primary);">${item.details.winner}</div>` : ''}
-          ${item.details.award     ? `<div style="color:var(--text-muted);font-weight:600;font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.5px;text-transform:uppercase;">Event</div><div style="color:${topicColor};font-weight:600;">${item.details.award}</div>` : ''}
-          ${item.details.nationality ? `<div style="color:var(--text-muted);font-weight:600;font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.5px;text-transform:uppercase;">Location</div><div style="color:var(--text-secondary);">${item.details.nationality}</div>` : ''}
-          ${item.details.summary   ? `<div style="color:var(--text-muted);font-weight:600;font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.5px;text-transform:uppercase;">Details</div><div style="color:var(--text-secondary);">${item.details.summary}</div>` : ''}
-        </div>
-      `;
+    if (!item.upscHighlights && item.details && Object.keys(item.details).length > 0) {
+      let detailsHtml = '';
+      for (const [key, value] of Object.entries(item.details)) {
+        if (!value || value === 'N/A' || value === '') continue;
+        let displayKey = key.replace(/_/g, ' ').toUpperCase();
+        let displayValue = Array.isArray(value) ? value.join(', ') : String(value);
+        
+        detailsHtml += `<div style="color:var(--text-muted);font-weight:600;font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.5px;text-transform:uppercase;">${displayKey}</div><div style="font-weight:600;color:var(--text-primary);">${parseWikiLinks(displayValue)}</div>`;
+      }
+      
+      if (detailsHtml) {
+        legacyDetails = `
+          <div style="display:grid; grid-template-columns:130px 1fr; gap:5px 14px; margin-top:12px; padding:11px; background:rgba(0,0,0,0.18); border-radius:5px; border-left:3px solid ${topicColor}; font-size:0.86rem;">
+            ${detailsHtml}
+          </div>
+        `;
+      }
     }
 
     html += `
