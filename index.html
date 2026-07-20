@@ -1047,12 +1047,17 @@
       <section id="screen-onboarding-payment" class="screen">
         <div class="content-header">
           <h2>Account Activation</h2>
-          <p>Complete your payment to unlock the application.</p>
+          <p>Complete your payment of ₹99 to unlock the application forever.</p>
         </div>
         <div class="grid" style="grid-template-columns: 1fr; max-width: 600px; margin: 0 auto; text-align: center;">
           <div class="card" style="padding: 2rem;">
             <h3 style="margin-bottom: 1rem;">Scan QR to Pay</h3>
-            <img src="assets/payment_qr.jpeg" alt="Payment QR Code" style="width: 250px; height: 250px; border-radius: 12px; margin: 0 auto 1.5rem auto; display: block; background: #fff; padding: 10px;">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi%3A%2F%2Fpay%3Fpa%3Dtrayodh%40okicici%26pn%3DJayastra%26am%3D99.00%26cu%3DINR%26tn%3DJayastra%2520Premium" alt="Payment QR Code" style="width: 250px; height: 250px; border-radius: 12px; margin: 0 auto 1.5rem auto; display: block; background: #fff; padding: 10px;">
+            
+            <div style="margin-bottom: 1.5rem;">
+              <a href="upi://pay?pa=trayodh@okicici&pn=Jayastra&am=99.00&cu=INR&tn=Jayastra%20Premium" style="color: var(--accent); text-decoration: underline; font-size: 1.1rem; font-weight: bold; font-family: var(--font-main);">Tap here to pay via UPI App</a>
+            </div>
+
             <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">After making the payment, please enter your Transaction ID below for manual verification.</p>
             
             <div style="text-align: left; margin-bottom: 1.5rem;">
