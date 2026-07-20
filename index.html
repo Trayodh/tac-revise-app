@@ -1048,6 +1048,7 @@
         <div class="content-header">
           <h2>Account Activation</h2>
           <p>Complete your payment of ₹99 to unlock the application forever.</p>
+          <button class="btn-secondary" onclick="signOutAndGoToLanding()" style="margin-top: 10px; padding: 6px 12px; font-size: 0.85rem;">Sign Out & View Features</button>
         </div>
         <div class="grid" style="grid-template-columns: 1fr; max-width: 600px; margin: 0 auto; text-align: center;">
           <div class="card" style="padding: 2rem;">
@@ -1686,7 +1687,7 @@
   <div id="landing-page-container" style="display: none; position: fixed; inset: 0; background: var(--bg-primary); z-index: 5000; overflow-y: auto; font-family: var(--font-main);">
     
     <!-- Hero Section -->
-    <section style="min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px; text-align: center; background: radial-gradient(circle at center, var(--bg-secondary) 0%, var(--bg-primary) 100%); position: relative; overflow: hidden;">
+    <section style="min-height: 80vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px; text-align: center; background: radial-gradient(circle at center, var(--bg-secondary) 0%, var(--bg-primary) 100%); position: relative; overflow: hidden;">
       <div style="position: absolute; top: 10%; left: 5%; width: 200px; height: 200px; background: var(--accent); filter: blur(100px); opacity: 0.1;"></div>
       <div style="position: absolute; bottom: 10%; right: 5%; width: 250px; height: 250px; background: var(--info); filter: blur(120px); opacity: 0.1;"></div>
       
@@ -1700,16 +1701,8 @@
         Your mission to clear the defense exams starts here.
       </p>
       
-      <!-- Countdown Widget -->
-      <div style="background: rgba(0,0,0,0.5); padding: 20px 40px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 40px; z-index: 1; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
-        <div style="font-family: var(--font-logo); color: var(--danger); font-size: 0.9rem; margin-bottom: 12px; letter-spacing: 1px;">NEXT EXAM COUNTDOWN (NDA/CDS)</div>
-        <div style="font-family: var(--font-mono); font-size: 2.5rem; color: var(--text-primary); font-weight: bold; text-shadow: 0 0 10px rgba(255,255,255,0.3);">
-          45D : 12H : 30M
-        </div>
-      </div>
-      
       <button class="btn-primary" onclick="document.getElementById('auth-modal').style.display='flex';" style="font-size: 1.2rem; padding: 16px 48px; border-radius: 8px; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 0 20px var(--border-glow); z-index: 1;">
-        Enlist Now
+        Enlist / Sign Up
       </button>
     </section>
 
@@ -1743,64 +1736,6 @@
             <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5;">Upcoming feature: Immersive Manim-powered animated lectures for Mathematics and Geography.</p>
           </div>
 
-        </div>
-      </div>
-    </section>
-
-    <!-- Proof Section -->
-    <section style="padding: 80px 20px; background: var(--bg-secondary); text-align: center;">
-      <div style="max-width: 1000px; margin: 0 auto;">
-        <h2 style="font-family: var(--font-logo); font-size: 2rem; color: var(--text-primary); margin-bottom: 48px; text-transform: uppercase;">Mission Stats</h2>
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-bottom: 64px;">
-          <div>
-            <div style="font-size: 3rem; font-weight: bold; color: var(--accent); font-family: var(--font-mono);">50,000+</div>
-            <div style="color: var(--text-secondary); font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px;">Daily AI Tokens</div>
-          </div>
-          <div>
-            <div style="font-size: 3rem; font-weight: bold; color: var(--info); font-family: var(--font-mono);">10,000+</div>
-            <div style="color: var(--text-secondary); font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px;">MCQs Mastered</div>
-          </div>
-          <div>
-            <div style="font-size: 3rem; font-weight: bold; color: var(--warning); font-family: var(--font-mono);">24/7</div>
-            <div style="color: var(--text-secondary); font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px;">Intel Briefings</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section style="padding: 80px 20px; background: var(--bg-primary);">
-      <div style="max-width: 1000px; margin: 0 auto;">
-        <h2 style="font-family: var(--font-logo); font-size: 2rem; color: var(--text-primary); text-align: center; margin-bottom: 48px; text-transform: uppercase;">Recruitment Plans</h2>
-        
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 32px;">
-          <!-- Plan 1 -->
-          <div style="background: var(--bg-secondary); padding: 40px; border-radius: 12px; border: 1px solid var(--border); flex: 1; min-width: 280px; max-width: 350px; position: relative;">
-            <div style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--accent); color: var(--bg-primary); padding: 4px 16px; border-radius: 20px; font-weight: bold; font-size: 0.8rem; text-transform: uppercase;">Active Deploy</div>
-            <h3 style="color: var(--text-primary); font-size: 1.5rem; margin-bottom: 8px;">Cadet Pass</h3>
-            <div style="font-size: 2.5rem; color: var(--text-primary); font-weight: bold; margin-bottom: 24px;">₹99 <span style="font-size: 1rem; color: var(--text-muted); font-weight: normal;">/ forever</span></div>
-            <ul style="list-style: none; padding: 0; margin: 0 0 32px 0; color: var(--text-secondary); line-height: 2;">
-              <li>✓ Full Access to Notes</li>
-              <li>✓ Unlimited Mocks</li>
-              <li>✓ 50k Daily AI Tokens</li>
-              <li>✓ Current Affairs Intel</li>
-            </ul>
-            <button class="btn-primary" onclick="document.getElementById('auth-modal').style.display='flex';" style="width: 100%;">Select Plan</button>
-          </div>
-
-          <!-- Plan 2 -->
-          <div style="background: rgba(255,255,255,0.02); padding: 40px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); flex: 1; min-width: 280px; max-width: 350px; position: relative; opacity: 0.7;">
-            <div style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--text-muted); color: var(--bg-primary); padding: 4px 16px; border-radius: 20px; font-weight: bold; font-size: 0.8rem; text-transform: uppercase;">Incoming</div>
-            <h3 style="color: var(--text-primary); font-size: 1.5rem; margin-bottom: 8px;">Officer Pass</h3>
-            <div style="font-size: 2.5rem; color: var(--text-primary); font-weight: bold; margin-bottom: 24px;">TBD</div>
-            <ul style="list-style: none; padding: 0; margin: 0 0 32px 0; color: var(--text-secondary); line-height: 2;">
-              <li>✓ Everything in Cadet</li>
-              <li>✓ Personalized AI Mentor</li>
-              <li>✓ Complete AI Lectures</li>
-              <li>✓ Live Drill Tracking</li>
-            </ul>
-            <button class="btn-secondary" disabled style="width: 100%; opacity: 0.5;">Coming Soon</button>
-          </div>
         </div>
       </div>
     </section>

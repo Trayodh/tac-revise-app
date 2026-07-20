@@ -353,3 +353,22 @@ window.confirmBranchSelection = function() {
 
   alert(`Welcome to the ${window.selectedSignupBranch.toUpperCase()}! Your rank progression begins now.`);
 };
+
+// Expose the new function for the "Sign Out & View Features" button
+window.signOutAndGoToLanding = async function() {
+  if (window.supabaseClient) {
+    await window.supabaseClient.auth.signOut();
+  }
+  if (typeof STATE !== 'undefined') {
+    STATE.activeProfile = null;
+    if (typeof saveState === 'function') saveState();
+  }
+  
+  // Hide all screens
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('app-container').style.display = 'none';
+  
+  // Show landing page
+  const landingPage = document.getElementById('landing-page-container');
+  if (landingPage) landingPage.style.display = 'block';
+};
