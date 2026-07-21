@@ -4350,6 +4350,7 @@ function toggleCurrentAffairsMode(mode) {
   const datesContainer   = document.getElementById("ca-dates-container");
   const awardsContainer  = document.getElementById("ca-awards-container");
   const exercisesContainer = document.getElementById("ca-exercises-container");
+  const sportsContainer  = document.getElementById("ca-sports-container");
 
   const btnMonthly = document.getElementById("btn-ca-mode-monthly");
   const btnVisits  = document.getElementById("btn-ca-mode-visits");
@@ -4357,10 +4358,11 @@ function toggleCurrentAffairsMode(mode) {
   const btnDates   = document.getElementById("btn-ca-mode-dates");
   const btnAwards  = document.getElementById("btn-ca-mode-awards");
   const btnExercises = document.getElementById("btn-ca-mode-exercises");
+  const btnSports  = document.getElementById("btn-ca-mode-sports");
 
-  [monthlyContainer, visitsContainer, ftaContainer, datesContainer, awardsContainer, exercisesContainer].forEach(el => { if (el) el.style.display = "none"; });
+  [monthlyContainer, visitsContainer, ftaContainer, datesContainer, awardsContainer, exercisesContainer, sportsContainer].forEach(el => { if (el) el.style.display = "none"; });
   
-  [btnMonthly, btnVisits, btnFta, btnDates, btnAwards, btnExercises].forEach(btn => { 
+  [btnMonthly, btnVisits, btnFta, btnDates, btnAwards, btnExercises, btnSports].forEach(btn => { 
     if (btn) {
       btn.classList.remove("active");
       btn.style.background = "rgba(255,255,255,0.05)";
@@ -4395,7 +4397,12 @@ function toggleCurrentAffairsMode(mode) {
     activateBtn(btnAwards);
     if (awardsContainer) awardsContainer.style.display = "block";
     renderCaAwardsTable();
-  } else if (mode === "exercises") {
+  
+  } else if (mode === "sports") {
+    activateBtn(btnSports);
+    if (sportsContainer) sportsContainer.style.display = "block";
+    renderCaSportsTable();
+} else if (mode === "exercises") {
     activateBtn(btnExercises);
     if (exercisesContainer) exercisesContainer.style.display = "block";
     renderMilitaryExercisesDashboard();
@@ -7635,3 +7642,39 @@ setInterval(() => {
         istEl.innerText = now.toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata', hour12: false }) + ' IST';
     }
 }, 1000);
+
+
+function renderCaSportsTable() {
+  const wrapper = document.getElementById("ca-sports-table-wrapper");
+  if (!wrapper) return;
+
+  const sports = window.CA_SPORTS_DATA || [];
+
+  if (sports.length === 0) {
+    wrapper.innerHTML = `<p style="color: var(--text-secondary); padding: 20px;">No sports data loaded.</p>`;
+    return;
+  }
+
+  const rows = sports.map(s => 
+    `<tr>
+      <td style="padding: 12px; border-bottom: 1px solid var(--border); color: var(--text-primary); font-weight: 500;">${s.event || '-'}</td>
+      <td style="padding: 12px; border-bottom: 1px solid var(--border); color: var(--accent);">${s.winner || '-'}</td>
+      <td style="padding: 12px; border-bottom: 1px solid var(--border); color: var(--text-secondary);">${s.country || '-'}</td>
+      <td style="padding: 12px; border-bottom: 1px solid var(--border); color: var(--text-secondary);">${s.placeHeld || '-'}</td>
+    </tr>`
+  ).join('');
+
+  wrapper.innerHTML = `
+    <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+      <thead style="background: rgba(255,255,255,0.02);">
+        <tr>
+          <th style="padding: 15px 12px; border-bottom: 1px solid var(--border); color: var(--text-muted); font-weight: 600;">Event / Sport</th>
+          <th style="padding: 15px 12px; border-bottom: 1px solid var(--border); color: var(--text-muted); font-weight: 600;">Winner(s)</th>
+          <th style="padding: 15px 12px; border-bottom: 1px solid var(--border); color: var(--text-muted); font-weight: 600;">Country</th>
+          <th style="padding: 15px 12px; border-bottom: 1px solid var(--border); color: var(--text-muted); font-weight: 600;">Place Held</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+}

@@ -308,3 +308,40 @@ window.CA_DATES_DATA = [
   { date: "Dec 16", name: "Vijay Diwas", theme: "-", significance: "Commemorates India's historic victory over Pakistan in the 1971 war, leading to the liberation of Bangladesh.", detailedSignificance: "1. Vijay Diwas (Victory Day) is celebrated on 16th December to mark India's victory over Pakistan in the 1971 war.\n2. On this day, the Chief of Pakistani Forces, General A. A. K. Niazi, surrendered to the Indian Army and Mukti Bahini.\n3. Over 93,000 Pakistani soldiers surrendered, marking the largest military surrender in the world since World War II.\n4. The war lasted for 13 days and resulted in the liberation of East Pakistan, leading to the creation of Bangladesh.\n5. History sections in NDA/CDS cover the 1971 war, Shimla Agreement (1972), and heroes like Field Marshal Sam Manekshaw.\n6. The main ceremony is held at the National War Memorial in New Delhi, where the military leadership pays tribute.\n7. The Param Vir Chakra was awarded to Lance Naik Albert Ekka, Flying Officer Nirmal Jit Singh Sekhon, and others for their role.\n8. Joint celebrations are held by India and Bangladesh, highlighting their shared historical ties and strategic cooperation.\n9. It showcases the military planning, intelligence success, and jointmanship displayed by the Indian Armed Forces.\n10. The day celebrates the triumph of justice, human rights, and military professional excellence over oppression.", detailedSignificance: "1. Vijay Diwas (Victory Day) is celebrated on 16th December to mark India's victory over Pakistan in the 1971 war.\n2. On this day, the Chief of Pakistani Forces, General A. A. K. Niazi, surrendered to the Indian Army and Mukti Bahini.\n3. Over 93,000 Pakistani soldiers surrendered, marking the largest military surrender in the world since World War II.\n4. The war lasted for 13 days and resulted in the liberation of East Pakistan, leading to the creation of Bangladesh.\n5. History sections in NDA/CDS cover the 1971 war, Shimla Agreement (1972), and heroes like Field Marshal Sam Manekshaw.\n6. The main ceremony is held at the National War Memorial in New Delhi, where the military leadership pays tribute.\n7. The Param Vir Chakra was awarded to Lance Naik Albert Ekka, Flying Officer Nirmal Jit Singh Sekhon, and others for their role.\n8. Joint celebrations are held by India and Bangladesh, highlighting their shared historical ties and strategic cooperation.\n9. It showcases the military planning, intelligence success, and jointmanship displayed by the Indian Armed Forces.\n10. The day celebrates the triumph of justice, human rights, and military professional excellence over oppression." },
   { date: "Dec 23", name: "National Farmers' Day", theme: "\"Delivering Smart Solutions for Sustainable Food Security and Resilience\"", significance: "Birth anniversary of Chaudhary Charan Singh (Kisan Diwas), celebrating the contribution of India's farmers." , detailedSignificance: "1. National Farmers' Day (Kisan Diwas) is celebrated on 23rd December to recognize the contributions of farmers.\n2. It commemorates the birth anniversary of Chaudhary Charan Singh, the fifth Prime Minister of India.\n3. Chaudhary Charan Singh was a champion of peasant rights, introducing land reform acts and debt redemption bills.\n4. The day was established by the Government of India in 2001 to honor his dedication to the farming community.\n5. Economics and geography sections cover Indian agriculture, major crops, soil types, and farming welfare schemes.\n6. It raises awareness about the issues faced by farmers, such as climate change, water scarcity, and fair pricing.\n7. Agricultural seminars, exhibition of modern machinery, and workshops on organic farming are organized.\n8. The day highlights the role of farmers as the backbone of the Indian economy and food security system.\n9. In the military, the slogan 'Jai Jawan Jai Kisan' (coined by Lal Bahadur Shastri) is celebrated to honor both sectors.\n10. Promoting sustainable farming practices and digital technologies is emphasized to improve agricultural productivity." },
 ];
+
+
+// =============================================================================
+// SECTION: SPORTS
+// =============================================================================
+window.CA_SPORTS_DATA = [
+  {
+    event: "ICC Men's T20 World Cup 2024",
+    winner: "India",
+    country: "India",
+    placeHeld: "West Indies & USA"
+  },
+  {
+    event: "Wimbledon 2025 - Men's Singles",
+    winner: "Carlos Alcaraz",
+    country: "Spain",
+    placeHeld: "London, UK"
+  },
+  {
+    event: "FIFA Women's World Cup 2023",
+    winner: "Spain",
+    country: "Spain",
+    placeHeld: "Australia & New Zealand"
+  },
+  {
+    event: "ICC Men's Cricket World Cup 2023",
+    winner: "Australia",
+    country: "Australia",
+    placeHeld: "India"
+  },
+  {
+    event: "Australian Open 2026 - Men's Singles",
+    winner: "Jannik Sinner",
+    country: "Italy",
+    placeHeld: "Melbourne, Australia"
+  }
+];

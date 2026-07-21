@@ -582,6 +582,12 @@
           </div>
           <div class="subject-card" id="btn-ca-mode-exercises" onclick="toggleCurrentAffairsMode('exercises')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
             <div style="font-size: 2.5rem; margin-bottom: 12px;">⚔️</div>
+          <div class="subject-card" id="btn-ca-mode-sports" onclick="toggleCurrentAffairsMode('sports')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">🏆</div>
+            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Sports</h3>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Winners & Events</div>
+          </div>
+
             <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Military Exercises</h3>
             <div style="font-size: 0.8rem; color: var(--text-muted);">Port Calls & Procurements</div>
           </div>
@@ -667,6 +673,18 @@
              <!-- Awards table rendered dynamically -->
           </div>
         </div>
+
+        <!-- Standalone Sports Panel -->
+        <div id="ca-sports-container" style="display: none;" class="panel">
+          <div class="panel-title" id="ca-sports-panel-title">Sports Winners</div>
+          <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.9rem;">
+            A consolidated tracker of major national and international sports events, winners, and hosting locations.
+          </p>
+          <div id="ca-sports-table-wrapper" style="overflow-x: auto; background: var(--surface); border: 1px solid var(--border); border-radius: 8px;">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+
       </section>
 
       <!-- SCREEN: TRAINING SIMULATIONS -->
