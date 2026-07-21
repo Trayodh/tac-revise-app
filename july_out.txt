@@ -1,0 +1,140 @@
+[Item 0] ID: jul-26-1
+Text: General Dhiraj Seth assumes charge as the 31st Chief of the Army Staff.
+
+[Item 1] ID: jul-26-2
+Text: Captain Shivani appointed as the first-ever woman Aide-de-Camp (ADC) to the Chief of Army Staff.
+
+[Item 2] ID: jul-26-3
+Text: India's Integrated Theatre Command plan moves closer to reality, aiming for enhanced jointness among armed forces.
+
+[Item 3] ID: jul-26-4
+Text: Indian Air Force (IAF) ranked as the world's third most powerful independent air force.
+
+[Item 4] ID: jul-26-5
+Text: India achieves a major milestone with the first private orbital launch, Vikram-1 by Skyroot Aerospace, from Sriharikota.
+
+[Item 5] ID: jul-26-6
+Text: RBI Governor highlights West Asia tensions and weak monsoon as major risks to India's economic growth.
+
+[Item 6] ID: jul-26-7
+Text: A new report indicates climate change is causing significant sleep loss among Indians, particularly in Southern states.
+
+[Item 7] ID: jul-26-8
+Text: Ministry of Home Affairs proposes recruitment rules for CEO and additional CEOs for the Indian Cybercrime Coordination Centre (I4C).
+
+[Item 8] ID: jul-26-9
+Text: India and China reject participation in a new UN carbon market mechanism, citing concerns over "zombie credits."
+
+[Item 9] ID: jul-26-10
+Text: Odisha launches India’s first universal KG-to-PG free education programme under the ‘Gyanodaya’ scheme.
+
+[Item 10] ID: jul-26-11
+Text: Andaman and Nicobar Command conducts 'Ex Dweep Shakti 2026', a multi-domain joint warfighting exercise.
+
+[Item 11] ID: jul-26-12
+Text: RBI eases investment norms for Non-Resident Indians (NRIs), aiming to boost foreign capital inflow.
+
+[Item 12] ID: jul-26-13
+Text: Indian women's cricket team secures a quota for the LA 2028 Olympics via the T20 World Cup pathway.
+
+[Item 13] ID: jul-26-14
+Text: Olympic medalists Mirabai Chanu and Lovlina Borgohain named India's flag-bearers for the Commonwealth Games 2026 Opening Ceremony.
+
+[Item 14] ID: ca_live_2026_07_18_0
+Text: India's <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Olympic legends Lovlina Borgohain and Mirabai Chanu</mark> have been chosen to lead the Indian contingent as flag bearers at the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Opening Ceremony of the Commonwealth Games 2026 in Glasgow</mark>. This selection highlights their achievements and serves as an inspiration for the entire team.
+
+[Item 15] ID: jul-26-capt-shivani-adc
+Text: Captain Shivani made history by becoming the first-ever woman Aide-de-Camp (ADC) to the Chief of Army Staff (COAS), marking a significant milestone for gender equality in the Indian Armed Forces.
+
+[Item 16] ID: jul-26-adarsh-gram
+Text: Over 47.59 lakh citizens have benefited from the Adarsh Gram component, with 16,759 villages declared as 'Adarsh Grams' and significant development works completed across the country.
+
+[Item 17] ID: jul-26-google-investment
+Text: Google CEO Sundar Pichai announced a $10 billion investment in India's digitization efforts after meeting PM Modi, reinforcing Google's commitment to the Indian digital ecosystem.
+
+[Item 18] ID: jul-26-indian-navy-parade
+Text: The Indian Navy showcased its operational prowess and rich maritime heritage at an International City Parade in Visakhapatnam, reinforcing its commitment to regional security and international cooperation.
+
+[Item 19] ID: jul-26-news-3
+Text: Skyroot Aerospace successfully launched its Vikram-1 orbital rocket from Sriharikota in July 2026, marking a significant milestone for India's private space sector.
+
+[Item 20] ID: jul-26-isro-resignations
+Text: Reports indicate ISRO is making it harder for scientists to resign, raising concerns about brain drain to the private space sector and its impact on national space programs.
+
+[Item 21] ID: ca_live_2026_07_17_0
+Text: The <strong>Indian Armed Forces</strong> commemorated the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>first anniversary of 'Op Sindoor'</mark>, with a message that the operation is 'not over, it is the beginning'. This signifies the continued strategic relevance and commitment to the objectives of the operation, which is understood to be a significant military initiative.
+
+[Item 22] ID: ca_live_2026_07_17_1
+Text: A <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>new bill proposing jail terms for insulting 'Vande Mataram'</mark> is slated for introduction in the <strong>Indian Parliament</strong>. This legislative move aims to protect national symbols but has ignited discussions regarding the balance between national reverence and <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>freedom of expression</mark>.
+
+[Item 23] ID: jul-26-un-carbon-market
+Text: China and India's stance led to the exclusion of most "zombie credits" from a new UN carbon market, impacting global climate finance and carbon trading mechanisms.
+
+[Item 24] ID: jul-26-up-cashless-health
+Text: Uttar Pradesh launched a cashless health scheme for 12 lakh teachers and education staff, providing them with access to quality healthcare services without upfront payments.
+
+[Item 25] ID: jul-26-rbi-monsoon-risk
+Text: RBI Governor Shaktikanta Das stated that India's economy remains strong despite fears of a weak monsoon and geopolitical tensions in West Asia, while affirming the rupee situation is normal.
+
+[Item 26] ID: jul-26-ex-dweep-shakti
+Text: The Andaman and Nicobar Command (ANC) successfully conducted 'Exercise Dweep Shakti 2026', a multi-domain joint warfighting exercise, demonstrating enhanced operational readiness and synergy among the tri-services.
+
+[Item 27] ID: jul-26-india-nz-trade
+Text: New Zealand and India signed a new trade agreement, signaling a foreign policy shift for New Zealand towards deeper engagement with India and the Indo-Pacific region.
+
+[Item 28] ID: jul-26-rbi-nri-norms
+Text: The Reserve Bank of India (RBI) eased investment norms for Non-Resident Indians (NRIs), a move expected to boost foreign capital inflow and strengthen the Indian economy.
+
+[Item 29] ID: jul-26-mha-i4c-rules
+Text: The Ministry of Home Affairs (MHA) proposed new recruitment rules for top posts at the Indian Cybercrime Coordination Centre (I4C) and invited stakeholder feedback, aiming to strengthen its operational framework.
+
+[Item 30] ID: jul-26-wb-nep-pmshri
+Text: West Bengal announced its decision to implement the National Education Policy (NEP) and the PM-SHRI scheme, signaling a significant alignment with national educational reforms.
+
+[Item 31] ID: ca_live_2026_07_13_0
+Text: A <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>new Chief Executive Officer (CEO)</mark> has been appointed for the <strong>Shri Ram Janmabhoomi Teerth Kshetra Trust</strong>. Following this, Nripendra Mishra, Chairman of the Ayodhya Ram Temple Construction Committee, reiterated the government's stance of <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>non-interference in the Trust's functioning</mark>, emphasizing its autonomous management.
+
+[Item 32] ID: ca_live_2026_07_13_1
+Text: A total of <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>61 National Cadet Corps (NCC) Cadets</mark> from <strong>Chandigarh University</strong> were successfully <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>commissioned as officers</mark> into the <strong>Indian Armed Forces</strong>. This event highlights the crucial role of NCC in nurturing future military leaders and contributing to the nation's defence capabilities.
+
+[Item 33] ID: jul-26-iaf-ranking
+Text: The Indian Air Force (IAF) has been ranked as the world's third most powerful independent air force, a testament to its growing capabilities and strategic importance.
+
+[Item 34] ID: ca_live_2026_07_02_0
+Text: The state of <strong>Odisha</strong> has unveiled <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>India’s first universal 'KG-to-PG' free education programme</mark> under its ambitious <strong>'Gyanodaya' scheme</strong>. This landmark initiative aims to ensure equitable access to quality education for all citizens, from kindergarten through to postgraduate studies, significantly reducing financial barriers to higher learning.
+
+[Item 35] ID: ca_live_2026_07_01_0
+Text: <strong>General Dhiraj Seth</strong> has assumed command as the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>31st Chief of the Army Staff (COAS)</mark> of the <strong>Indian Army</strong>. His tenure begins with the unveiling of the <strong>'VIJAY' vision</strong>, which prioritizes technological absorption, indigenous defense production under <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Atmanirbhar Bharat</mark>, and enhanced jointness among the tri-services. This transition comes at a critical juncture of theaterisation reforms and ongoing border standoffs.
+
+[Item 36] ID: jul-26-hydrogen-train
+Text: India launched its first **indigenous hydrogen-powered train** in July 2026, marking a significant step towards the 'Net Zero Carbon Emission by 2030' goal for Indian Railways.
+
+[Item 37] ID: jul-26-news-2
+Text: The South African Women's Cricket team secured qualification for the Los Angeles 2028 Olympic Games, marking cricket's historic return to the Olympics after 128 years.
+
+[Item 38] ID: jul-26-news-4
+Text: The Monsoon Session of the Parliament began in July 2026, focusing on key economic reforms and the passage of the new Digital Data Protection regulations.
+
+[Item 39] ID: jul-26-news-5
+Text: Global climate agencies reported extreme 'Marine Heatwaves' across the Indian Ocean in July 2026, threatening coral reefs and disrupting local monsoonal patterns.
+
+[Item 40] ID: jul-26-news-6
+Text: India formally extended its Unified Payments Interface (UPI) to Greece, marking a significant step in the internationalization of India's digital public infrastructure.
+
+[Item 41] ID: jul-26-news-7
+Text: India and Vietnam signed a Mutual Logistics Support Agreement (MLSA) in July 2026, enhancing maritime security cooperation in the Indo-Pacific region.
+
+[Item 42] ID: jul-26-news-8
+Text: Renowned Indian author Amitav Ghosh was awarded the prestigious Erasmus Prize in July 2026 for his exceptional contribution to literature and climate change awareness.
+
+[Item 43] ID: jul-26-news-9
+Text: The Indian Air Force participated in 'Exercise Pitch Black 2026' hosted by the Royal Australian Air Force, deploying Su-30MKI fighters and C-17 transport aircraft.
+
+[Item 44] ID: jul-26-news-10
+Text: ISRO successfully conducted the crucial 'Pad Abort Test' for the Gaganyaan mission, demonstrating the safety of the crew escape system under emergency conditions.
+
+[Item 45] ID: jul-26-india-cricket-olympics
+Text: The Indian women's cricket team secured a quota for the Los Angeles 2028 Olympic Games via the T20 World Cup pathway, marking a historic return for cricket to the Olympics.
+
+[Item 46] ID: ca-2026-07-ins-malwan-commissioning
+Text: The Indian Navy is set to commission Malvan, the second of the Mahe-class Anti-Submarine Warfare Shallow Water Craft (ASW-SWC), on 22 July 2026. Built by Cochin Shipyard Limited (CSL), Kochi, with over 80% indigenous content, INS Malwan is a next-generation craft designed to strengthen coastal defence and reflects India's push toward self-reliance in defence manufacturing.

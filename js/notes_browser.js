@@ -2398,13 +2398,33 @@ function renderTopicView(subjectId, chapterId, topicId) {
       
       ${tabsHtml}
       
-      <div class="topic-tab-body">
+      <div class="topic-tab-body" id="topic-tab-body-container">
         ${tabContentHtml}
       </div>
+      
+      <div id="ai-holistic-dashboard"></div>
       
       ${navFooterHtml}
     </div>
   `;
+
+  // Initialize Holistic Learning AI Dashboard if engine is loaded
+  if (typeof HolisticLearningEngine !== 'undefined') {
+    const dashboardContainer = document.getElementById('ai-holistic-dashboard');
+    const topicContentStr = typeof EXPANDED_NOTES_DATA !== 'undefined' && EXPANDED_NOTES_DATA[topic.id] 
+                             ? EXPANDED_NOTES_DATA[topic.id] : topic.notes;
+    HolisticLearningEngine.analyzeTopic(topic.id, topic.title, topicContentStr, dashboardContainer);
+  }
+
+  // Initialize Smart Concept Explorer (bind clicks to content)
+  if (typeof SmartConceptExplorer !== 'undefined') {
+    setTimeout(() => {
+       const contentContainer = document.getElementById('topic-tab-body-container');
+       if (contentContainer) {
+         SmartConceptExplorer.bindContent(contentContainer);
+       }
+    }, 100);
+  }
 
   // Re-typeset MathJax after injecting new content
   if (window.MathJax && window.MathJax.typesetPromise) {
