@@ -6,39 +6,41 @@ class HolisticLearningEngine {
 
         // Render skeleton UI
         containerElement.innerHTML = `
-            <div class="holistic-dashboard fade-in">
-                <h3 class="holistic-title"><i class="fa-solid fa-brain"></i> AI Holistic Learning Insights</h3>
+            <div class="holistic-dashboard-container fade-in">
+                <div class="dashboard-header">
+                    <h3 style="font-family: var(--font-logo); font-size: 1.2rem; color: #fff; margin:0;"><i class="fa-solid fa-brain"></i> AI Holistic Learning Insights</h3>
+                </div>
                 
-                <div class="holistic-section" id="holistic-dna-container">
-                    <h4 class="holistic-subtitle">Topic DNA</h4>
-                    <div id="holistic-dna-content" class="holistic-content skeleton-loader">Analyzing metadata...</div>
+                <div style="margin-bottom: 20px;">
+                    <h4 style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px; text-transform: uppercase;">Topic DNA</h4>
+                    <div id="holistic-dna-content" class="dna-tags-container skeleton-loader">Analyzing metadata...</div>
                 </div>
 
-                <div class="holistic-grid">
-                    <div class="holistic-section">
-                        <h4 class="holistic-subtitle">AI Teaching Mode (Story & Analogy)</h4>
-                        <div id="holistic-teaching-content" class="holistic-content skeleton-loader">Generating story...</div>
+                <div class="dashboard-grid">
+                    <div class="dashboard-card teaching-card">
+                        <h4>AI Teaching Mode (Story & Analogy)</h4>
+                        <div id="holistic-teaching-content" class="skeleton-loader">Generating story...</div>
                     </div>
                     
-                    <div class="holistic-section">
-                        <h4 class="holistic-subtitle">Defence Perspective</h4>
-                        <div id="holistic-defence-content" class="holistic-content skeleton-loader">Analyzing military applications...</div>
+                    <div class="dashboard-card defence-card">
+                        <h4>Defence Perspective</h4>
+                        <div id="holistic-defence-content" class="skeleton-loader">Analyzing military applications...</div>
                     </div>
                 </div>
 
-                <div class="holistic-grid">
-                    <div class="holistic-section">
-                        <h4 class="holistic-subtitle">Knowledge Graph</h4>
-                        <div id="holistic-graph-content" class="holistic-content">
+                <div class="dashboard-grid" style="margin-top: 20px;">
+                    <div class="dashboard-card">
+                        <h4>Knowledge Graph</h4>
+                        <div id="holistic-graph-content">
                              <div class="skeleton-loader">Building conceptual relationships...</div>
                         </div>
                     </div>
                     
-                    <div class="holistic-section">
-                        <h4 class="holistic-subtitle">Memory Bridge & Recommendations</h4>
-                        <div id="holistic-memory-content" class="holistic-content skeleton-loader">Constructing memory bridges...</div>
-                        <h4 class="holistic-subtitle" style="margin-top: 15px;">Because You Are Studying This...</h4>
-                        <div id="holistic-recommendations-content" class="holistic-content skeleton-loader">Finding recommendations...</div>
+                    <div class="dashboard-card bridge-card">
+                        <h4>Memory Bridge & Recommendations</h4>
+                        <div id="holistic-memory-content" class="skeleton-loader">Constructing memory bridges...</div>
+                        <h4 style="margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 10px;">Because You Are Studying This...</h4>
+                        <div id="holistic-recommendations-content" class="skeleton-loader">Finding recommendations...</div>
                     </div>
                 </div>
             </div>
@@ -82,19 +84,20 @@ Provide 3 bullet points starting with "- " recommending what to study next and a
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     model: 'gemini-1.5-flash',
-                    stream: true,
+                    stream: false,
                     contents: [{ parts: [{ text: prompt }] }]
                 })
             });
 
             if (!response.ok) throw new Error("Failed to fetch holistic insights.");
 
-            const reader = response.body.getReader();
-            const decoder = new TextDecoder('utf-8');
+            const resData = await response.json();
             let fullText = "";
-            let done = false;
+            if (resData.candidates && resData.candidates[0] && resData.candidates[0].content && resData.candidates[0].content.parts[0]) {
+                fullText = resData.candidates[0].content.parts[0].text;
+            }
 
-            // Clear skeletons once streaming starts
+            // Clear skeletons
             document.getElementById('holistic-dna-content').innerHTML = "";
             document.getElementById('holistic-dna-content').classList.remove('skeleton-loader');
             document.getElementById('holistic-teaching-content').innerHTML = "";
@@ -106,29 +109,7 @@ Provide 3 bullet points starting with "- " recommending what to study next and a
             document.getElementById('holistic-recommendations-content').innerHTML = "";
             document.getElementById('holistic-recommendations-content').classList.remove('skeleton-loader');
 
-            while (!done) {
-                const { value, done: readerDone } = await reader.read();
-                done = readerDone;
-                if (value) {
-                    const chunkStr = decoder.decode(value, { stream: true });
-                    const lines = chunkStr.split('\n');
-                    for (const line of lines) {
-                        if (line.startsWith('data: ')) {
-                            const dataStr = line.replace('data: ', '').trim();
-                            if (dataStr === '[DONE]') continue;
-                            try {
-                                const parsed = JSON.parse(dataStr);
-                                if (parsed.text) {
-                                    fullText += parsed.text;
-                                    this.updateUIStream(fullText);
-                                }
-                            } catch (e) { }
-                        }
-                    }
-                }
-            }
-            
-            // Final render pass (especially for Mermaid graph)
+            this.updateUIStream(fullText);
             this.finalizeUI(fullText);
 
         } catch (error) {
