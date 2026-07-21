@@ -1,0 +1,233 @@
+{
+  "gen_0_1784613941735": {
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Principal Values",
+    "subtopic": "Principal Value of Inverse Sine Function",
+    "difficulty": "Medium",
+    "question_type": "Conceptual",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question directly tests the understanding and application of the principal value range for the inverse sine function, requiring knowledge of trigonometric identities and the domain/range of inverse trigonometric functions."
+  },
+  "gen_1_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "topic": "Differentiation",
+    "subtopic": "Derivatives of Logarithmic and Trigonometric Functions",
+    "difficulty": "Medium",
+    "question_type": "Formula Based",
+    "exam": [
+      "NDA",
+      "AFCAT"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question requires applying the chain rule and knowledge of derivatives of logarithmic and trigonometric functions (ln(x), sec(x), tan(x)) to find dy/dx."
+  },
+  "gen_2_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Ratios and Identities",
+    "topic": "Values of Trigonometric Ratios",
+    "subtopic": "Compound Angle Formulas",
+    "difficulty": "Medium",
+    "question_type": "Formula Based",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question asks for the exact value of cot 15°, which requires applying trigonometric identities (specifically compound angle formulas like cot(A-B) or half-angle formulas) to derive the numerical value. This tests fundamental knowledge of trigonometry."
+  },
+  "gen_3_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Matrices and Determinants",
+    "topic": "Determinants",
+    "subtopic": "Properties of Adjoint Matrix",
+    "difficulty": "Easy",
+    "question_type": "Formula Based",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question tests the fundamental property of determinants related to the adjoint of a matrix, specifically |adj A| = |A|^(n-1), where 'n' is the order of the matrix. This is a direct application of a standard formula in linear algebra."
+  },
+  "gen_4_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "topic": "Limits",
+    "subtopic": "Evaluation of Limits",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question directly tests the evaluation of a limit involving an indeterminate form (0/0), requiring the application of L'Hôpital's Rule or standard limit expansions. This is a core concept within Calculus."
+  },
+  "gen_5_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Projection",
+    "subtopic": "Scalar Projection",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question directly tests the understanding and application of the scalar projection formula between two given vectors, a fundamental concept in Vector Algebra."
+  },
+  "gen_6_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "topic": "Definite Integrals",
+    "subtopic": "Properties of Definite Integrals (King's Rule)",
+    "difficulty": "Medium",
+    "question_type": "Formula Based",
+    "exam": [
+      "NDA",
+      "AFCAT"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question tests the application of a specific property of definite integrals, commonly known as King's Rule (Property 4: ∫[a to b] f(x) dx = ∫[a to b] f(a+b-x) dx), to evaluate the given integral. This is a standard problem in Calculus under Definite Integrals."
+  },
+  "gen_7_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Inverse Trigonometric Functions",
+    "subtopic": "Sum and Difference Formulas",
+    "difficulty": "Medium",
+    "question_type": "Formula Based",
+    "exam": [
+      "NDA",
+      "AFCAT"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question directly tests the application of the sum formula for inverse tangent functions, specifically tan⁻¹(x) + tan⁻¹(y) = tan⁻¹((x+y)/(1-xy)), and subsequent algebraic manipulation to find a numerical value."
+  },
+  "gen_8_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Order and Degree of Differential Equations",
+    "subtopic": "Degree of Differential Equations",
+    "difficulty": "Medium",
+    "question_type": "Conceptual",
+    "exam": [
+      "NDA",
+      "AFCAT"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question tests the fundamental definition of the degree of a differential equation. It specifically targets the understanding that the degree is not defined if the differential coefficients are involved in transcendental functions (like sin(dy/dx)), making it a conceptual check rather than a straightforward calculation."
+  },
+  "gen_9_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Permutations and Combinations",
+    "topic": "Combinations",
+    "subtopic": "Combinations with Restrictions",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question requires calculating the number of ways to form a committee with specific conditions (at least 2 ladies), which is a direct application of the concept of combinations with restrictions. It involves calculating combinations for multiple cases and summing them up."
+  },
+  "gen_10_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "First-Order Differential Equations",
+    "subtopic": "Variable Separable Method",
+    "difficulty": "Easy",
+    "question_type": "Formula Based",
+    "exam": [
+      "NDA",
+      "AFCAT"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question requires applying the method of variable separation to solve a first-order differential equation, which is a standard formula-based procedure in calculus."
+  },
+  "gen_11_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios and Identities",
+    "subtopic": "Signs of Trigonometric Ratios in Quadrants",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "exam": [
+      "NDA",
+      "AFCAT"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question tests the fundamental trigonometric identity (sin²A + cos²A = 1) and the knowledge of signs of trigonometric ratios in different quadrants, specifically the second quadrant, to determine the correct value of cos A."
+  },
+  "gen_12_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Polynomials",
+    "subtopic": "Properties of Polynomials",
+    "difficulty": "Easy",
+    "question_type": "Conceptual",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question tests the fundamental property that the sum of coefficients of a polynomial P(x) is obtained by evaluating P(1). This is a core concept in Algebra related to polynomials."
+  },
+  "gen_13_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Conditional Probability",
+    "subtopic": "Calculation of Conditional Probability",
+    "difficulty": "Easy",
+    "question_type": "Formula Based",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question directly tests the application of the conditional probability formula P(A|B) = P(A ∩ B) / P(B), providing all necessary values."
+  },
+  "gen_14_1784613941736": {
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "topic": "Differentiation",
+    "subtopic": "Logarithmic Differentiation",
+    "difficulty": "Medium",
+    "question_type": "Formula Based",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question directly tests the application of differentiation rules, specifically logarithmic differentiation for functions of the form f(x)^g(x), which is a fundamental concept in Calculus."
+  }
+}
