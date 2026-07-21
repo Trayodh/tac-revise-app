@@ -5068,6 +5068,108 @@ EXPANDED_NOTES_DATA["paintings"] = `
   <h3>Conclusion</h3>
   <p>From the prehistoric cave art of the Indus Valley to the sophisticated miniatures of the Mughal courts and the hybrid aesthetics of the British era, Indian paintings embody a continuous dialogue between tradition and innovation. Their preservation ensures that future generations can appreciate the artistic legacy that has shaped India’s cultural identity.</p>
 </div>
+
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Comprehensive Guide: Paintings & Traditional Arts</h2>
+
+  <h3>1. Evolution of Indian Paintings by Historical Era</h3>
+  <ul>
+    <li><strong>Pre-Historic Era:</strong> <em>Bhimbetka Rock Shelters</em> (Madhya Pradesh). Stick figures, hunting scenes, dancing, mostly in red and white pigments.</li>
+    <li><strong>Ancient Era (Murals):</strong>
+      <ul>
+        <li><em>Ajanta Caves (Maharashtra):</em> Fresco-secco murals depicting Jataka tales, Bodhisattva Padmapani and Vajrapani. Zenith of Buddhist art.</li>
+        <li><em>Bagh Caves (MP):</em> Secular and Buddhist murals.</li>
+        <li><em>Sittanavasal (TN):</em> Jain murals under Pandyan rule.</li>
+      </ul>
+    </li>
+    <li><strong>Medieval Era (Miniatures):</strong>
+      <ul>
+        <li><em>Mughal School:</em> Peaked under Jahangir. Secular themes, court scenes, flora/fauna (Ustad Mansur). Introduced foreshortening and 3D effects.</li>
+        <li><em>Rajput & Pahari Schools:</em> Focus on religious themes, Krishna Leela, Ragamala, and Nayika Bheda. Notable sub-schools: Kangra, Basholi, Mewar, Kishangarh.</li>
+      </ul>
+    </li>
+    <li><strong>Modern Era:</strong>
+      <ul>
+        <li><em>Company School:</em> Patna Kalam (Indian subjects for British patrons).</li>
+        <li><em>Raja Ravi Varma:</em> Fused Indian mythological themes with Western realistic oil painting techniques.</li>
+        <li><em>Bengal School of Art:</em> Led by Abanindranath Tagore and Nandalal Bose. Rejected European academic art in favor of pan-Asian and traditional Indian aesthetics (e.g., wash technique, Ajanta influence).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>2. Traditional Folk Paintings & Arts by State</h3>
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+    <thead>
+      <tr style="background: var(--bg-tertiary); border-bottom: 2px solid var(--border);">
+        <th style="padding: 10px; text-align: left; width: 25%;">State/Region</th>
+        <th style="padding: 10px; text-align: left;">Key Traditional Arts & Paintings</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Andhra Pradesh & Telangana</td>
+        <td style="padding: 10px;"><strong>Kalamkari</strong> (Srikalahasti and Machilipatnam), Cheriyal Scroll Painting, Nirmal Paintings</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Bihar</td>
+        <td style="padding: 10px;"><strong>Madhubani (Mithila)</strong> Art (vibrant colors, natural dyes, mythological themes, no empty spaces), Manjusha Art, Tikuli Art</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Gujarat</td>
+        <td style="padding: 10px;">Pithora Painting, Mata Ni Pachedi, Rogan Art (Kutch)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Himachal Pradesh</td>
+        <td style="padding: 10px;"><strong>Kangra</strong> & Basholi Miniatures (Pahari School)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Jharkhand</td>
+        <td style="padding: 10px;">Sohrai and Khovar Paintings, Jadopatia Scroll Paintings, Dhokra (Bell Metal) Art</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Karnataka</td>
+        <td style="padding: 10px;">Mysore Painting (gesso work, delicate lines), Chittara (Deewaru community), Kasuti embroidery</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Kerala</td>
+        <td style="padding: 10px;">Kerala Mural Paintings (temple and palace walls, high pigment density)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Madhya Pradesh</td>
+        <td style="padding: 10px;"><strong>Gond Art</strong> (vibrant dots and lines), Bagh Prints, Bhil Art</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Maharashtra</td>
+        <td style="padding: 10px;"><strong>Warli Painting</strong> (geometric shapes, white pigment on red ochre mud base)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Odisha</td>
+        <td style="padding: 10px;"><strong>Pattachitra</strong> (cloth scroll painting, Lord Jagannath themes), Saura Art (similar to Warli)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Rajasthan</td>
+        <td style="padding: 10px;"><strong>Phad</strong> (scrolls), Bani Thani (Kishangarh school, 'Mona Lisa of India'), Pichhwai (Nathdwara cloth paintings of Shrinathji), Usta Art (Bikaner)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Sikkim & Himalayan belt</td>
+        <td style="padding: 10px;"><strong>Thangka</strong> (Buddhist scroll paintings on silk/cotton, mandalas and deities)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Tamil Nadu</td>
+        <td style="padding: 10px;"><strong>Tanjore (Thanjavur) Painting</strong> (3D effect, real gold foil, embedded glass beads/gems)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Uttarakhand</td>
+        <td style="padding: 10px;">Aipan (ritualistic folk art on red background with rice paste)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">West Bengal</td>
+        <td style="padding: 10px;">Kalighat Painting, Patua (scrolls), Alpana</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 `;
 
 EXPANDED_NOTES_DATA["dance-music"] = `
@@ -5223,6 +5325,161 @@ EXPANDED_NOTES_DATA["dance-music"] = `
 
   <p>These notes synthesize the dense information presented in the Pathfinder textbook and the standard NCERT volume, offering a comprehensive, high‑yield resource for aspirants of the NDA, CDS, and AFCAT examinations.</p>
 </div>
+
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Comprehensive Guide: State-wise Dances & Regional Music</h2>
+  
+  <h3>1. Classical & Folk Dances of India (State-wise)</h3>
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+    <thead>
+      <tr style="background: var(--bg-tertiary); border-bottom: 2px solid var(--border);">
+        <th style="padding: 10px; text-align: left; width: 25%;">State/UT</th>
+        <th style="padding: 10px; text-align: left;">Key Classical & Folk Dances</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Andhra Pradesh</td>
+        <td style="padding: 10px;"><strong>Kuchipudi</strong> (Classical), Vilasini Natyam, Dhimsa, Kolattam, Lambadi</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Arunachal Pradesh</td>
+        <td style="padding: 10px;">Chalo, Wancho, Pasi Kongki, Ponung, Popir, Bardo Chham</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Assam</td>
+        <td style="padding: 10px;"><strong>Sattriya</strong> (Classical), Bihu, Bagurumba, Bhortal Dance, Ojapali</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Bihar</td>
+        <td style="padding: 10px;">Jata-Jatin, Bakho-Bakhain, Panwariya, Bidesia, Fagua</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Chhattisgarh</td>
+        <td style="padding: 10px;">Gaur Maria, Panthi, Raut Nacha, Pandwani, Vedamati</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Goa</td>
+        <td style="padding: 10px;">Fugdi, Tarangamel, Koli, Dekhni, Shigmo, Goff</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Gujarat</td>
+        <td style="padding: 10px;">Garba, Dandiya Raas, Tippani Juriun, Bhavai</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Haryana</td>
+        <td style="padding: 10px;">Jhumar, Phag, Daph, Dhamal, Loor, Gugga, Khor, Gagor</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Himachal Pradesh</td>
+        <td style="padding: 10px;">Nati, Dangi, Chharhi, Jhora, Jhali, Mahasu</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Jharkhand</td>
+        <td style="padding: 10px;">Alkap, Karma Munda, Agni, Jhumar, Paika, Chhau (Seraikela)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Karnataka</td>
+        <td style="padding: 10px;">Yakshagana, Huttari, Suggi, Kunitha, Karga</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Kerala</td>
+        <td style="padding: 10px;"><strong>Kathakali</strong>, <strong>Mohiniyattam</strong> (Classical), Ottamthullal, Chakyar Koothu, Theyyam</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Madhya Pradesh</td>
+        <td style="padding: 10px;">Jawara, Matki, Aada, Khada Nach, Phulpati, Grida, Manch</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Maharashtra</td>
+        <td style="padding: 10px;">Lavani, Nakata, Koli, Lezim, Gafa, Dahikala Dasavtar</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Manipur</td>
+        <td style="padding: 10px;"><strong>Manipuri</strong> (Classical), Thang Ta, Dhol Cholom, Lai Haraoba, Pung Cholom</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Meghalaya</td>
+        <td style="padding: 10px;">Ka Shad Suk Mynsiem, Nongkrem, Laho</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Mizoram</td>
+        <td style="padding: 10px;">Cheraw (Bamboo Dance), Khuallam, Chheihlam, Chailam</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Nagaland</td>
+        <td style="padding: 10px;">Zeliang, Chang Lo (Sua Lua), Rangma, Bamboo Dance</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Odisha</td>
+        <td style="padding: 10px;"><strong>Odissi</strong> (Classical), Savari, Ghumara, Painka, Munari, Chhau (Mayurbhanj)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Punjab</td>
+        <td style="padding: 10px;">Bhangra, Giddha, Daff, Dhaman, Bhand, Naqual</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Rajasthan</td>
+        <td style="padding: 10px;">Ghoomar, Chakri, Ganagor, Jhulan Leela, Kalbelia, Bhavai</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Sikkim</td>
+        <td style="padding: 10px;">Chu Faat, Sikmari, Singhi Chaam, Yak Chaam, Maruni</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Tamil Nadu</td>
+        <td style="padding: 10px;"><strong>Bharatnatyam</strong> (Classical), Kumi, Kolattam, Kavadi, Karakattam</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Telangana</td>
+        <td style="padding: 10px;">Perini Shivatandavam, Dappu, Lambadi, Bonalu Kolatam</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Tripura</td>
+        <td style="padding: 10px;">Hojagiri, Garia, Lebang Boomani</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Uttar Pradesh</td>
+        <td style="padding: 10px;"><strong>Kathak</strong> (Classical), Nautanki, Raslila, Kajri, Jhora, Chappeli</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Uttarakhand</td>
+        <td style="padding: 10px;">Garhwali, Kumayuni, Kajari, Jhora, Raslila, Chholiya</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">West Bengal</td>
+        <td style="padding: 10px;">Kathi, Gambhira, Dhali, Jatra, Baul, Chhau (Purulia), Santhali</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">J&K and Ladakh</td>
+        <td style="padding: 10px;">Rouf, Hikat, Mandjas, Kud Dandi Nach, Jabro, Shondol (Ladakh)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>2. Musical Evolution by Historical Era</h3>
+  <ul>
+    <li><strong>Ancient Era:</strong> Rooted in the <em>Sama Veda</em>. The <em>Natya Shastra</em> by Bharata Muni (c. 200 BCE – 200 CE) laid the foundational theory of Rasa and Bhava. Key forms included <em>Prabandha Sangeet</em> and <em>Tevaram</em> hymns in the South.</li>
+    <li><strong>Medieval Era (Divergence & Fusion):</strong> The 13th/14th centuries (under Delhi Sultanate, Amir Khusrau) saw the divergence of Indian music into <strong>Hindustani</strong> (North - Persian influenced) and <strong>Carnatic</strong> (South - indigenous development).
+      <ul>
+        <li><em>Hindustani forms:</em> Dhrupad (Mansingh Tomar), Khayal, Tarana, Thumri, Ghazal.</li>
+        <li><em>Carnatic forms:</em> Purandara Dasa (Father of Carnatic music) formulated the teaching system. Trinity of Carnatic Music (Tyagaraja, Muthuswami Dikshitar, Syama Sastri) perfected the <em>Kriti</em>.</li>
+        <li><em>Bhakti & Sufi:</em> Qawwali, Kirtan, Abhangs, Shabads became mainstream.</li>
+      </ul>
+    </li>
+    <li><strong>Modern & Contemporary Era:</strong> The rise of distinct regional folk styles and gharanas (Gwalior, Agra, Jaipur, Kirana). Notable regional traditions include:
+      <ul>
+        <li><em>Bengal:</em> Baul singing, Rabindra Sangeet, Nazrul Geeti.</li>
+        <li><em>Assam:</em> Borgeet (devotional songs by Sankardev).</li>
+        <li><em>Maharashtra:</em> Abhang, Lavani, Powada.</li>
+        <li><em>Rajasthan:</em> Langa, Manganiyar, Maand.</li>
+        <li><em>Kashmir:</em> Sufiana Kalam, Chakri.</li>
+        <li><em>Punjab:</em> Jugni, Tappa, Boliyan.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
 `;
 
 EXPANDED_NOTES_DATA["literature"] = `
@@ -5323,6 +5580,101 @@ EXPANDED_NOTES_DATA["literature"] = `
   <h3>Conclusion</h3>
   <p>Indian literature, from the Vedic hymns to contemporary English novels, reflects a continuous dialogue between tradition and change. Its evolution has been shaped by religious movements (Bhakti, Sufism), imperial encounters (Mughal, Maratha, British), and the rise of nationalist consciousness. Mastery of this literary heritage is indispensable for a nuanced understanding of Indian history, culture, and society.</p>
 </div>
+
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Comprehensive Guide: Literature & Poetry Across Eras and States</h2>
+
+  <h3>1. Literary Masterpieces by Historical Era</h3>
+  <ul>
+    <li><strong>Ancient Era:</strong>
+      <ul>
+        <li><em>Vedic & Sanskrit:</em> The Vedas, Upanishads. Pāṇini's <em>Ashtadhyayi</em>. Kalidasa's <em>Abhijnanasakuntalam</em>, <em>Meghaduta</em>. Banabhatta's <em>Harshacharita</em>.</li>
+        <li><em>Buddhist & Jain:</em> <em>Tripitakas</em>, <em>Jataka Tales</em>, <em>Milinda Panha</em> (Pali). <em>Agamas</em> (Prakrit).</li>
+        <li><em>Sangam Era (Tamil):</em> <em>Tolkappiyam</em> (grammar). Epics: <em>Silappatikaram</em> (Ilango Adigal), <em>Manimekalai</em> (Chithalai Chathanar).</li>
+      </ul>
+    </li>
+    <li><strong>Medieval Era (Persian, Vernacular & Bhakti):</strong>
+      <ul>
+        <li><em>Persian:</em> <em>Baburnama</em> (Babur), <em>Akbarnama</em> (Abul Fazl).</li>
+        <li><em>Bhakti/Sufi Texts:</em> Tulsidas's <em>Ramcharitmanas</em> (Awadhi), Surdas's <em>Sursagar</em> (Braj Bhasha), Kabir's <em>Dohas</em>. Sufi mystical verses by Amir Khusrau.</li>
+      </ul>
+    </li>
+    <li><strong>Modern & Nationalist Era:</strong>
+      <ul>
+        <li>Characterized by literature addressing social reform and Indian independence. Dinabandhu Mitra's <em>Nil Darpan</em> (play), Bankim Chandra's <em>Anandamath</em>, Rabindranath Tagore's <em>Gitanjali</em>.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>2. Famous Books, Authors, Poems & Poets by Region/Language</h3>
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+    <thead>
+      <tr style="background: var(--bg-tertiary); border-bottom: 2px solid var(--border);">
+        <th style="padding: 10px; text-align: left; width: 20%;">Language / Region</th>
+        <th style="padding: 10px; text-align: left;">Notable Authors & Books</th>
+        <th style="padding: 10px; text-align: left;">Notable Poets & Poems</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Bengali (West Bengal/East India)</td>
+        <td style="padding: 10px;">Bankim Chandra Chatterjee (<em>Anandamath</em>), Sarat Chandra Chattopadhyay (<em>Devdas</em>), Satyajit Ray (<em>Feluda</em>)</td>
+        <td style="padding: 10px;">Rabindranath Tagore (<em>Gitanjali</em>, <em>Sonar Tori</em>), Kazi Nazrul Islam (<em>Bidrohi</em> - The Rebel)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Hindi & Urdu (North India)</td>
+        <td style="padding: 10px;">Premchand (<em>Godan</em>, <em>Gaban</em>), Saadat Hasan Manto (Short stories)</td>
+        <td style="padding: 10px;">Mirza Ghalib (<em>Diwan-e-Ghalib</em>), Muhammad Iqbal (<em>Sare Jahan Se Achha</em>), Harivansh Rai Bachchan (<em>Madhushala</em>), Ramdhari Singh Dinkar (<em>Rashmirathi</em>)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Tamil (Tamil Nadu)</td>
+        <td style="padding: 10px;">Thiruvalluvar (<em>Thirukkural</em> - Ethics), Kalki Krishnamurthy (<em>Ponniyin Selvan</em>)</td>
+        <td style="padding: 10px;">Subramania Bharati (<em>Panchali Sabatham</em>, <em>Kuyil Pattu</em> - Nationalist poetry)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Marathi (Maharashtra)</td>
+        <td style="padding: 10px;">Shivaji Sawant (<em>Mrutyunjay</em>), V. S. Khandekar (<em>Yayati</em>)</td>
+        <td style="padding: 10px;">Saint Jnaneshwar (<em>Jnaneshwari</em>), Saint Tukaram (<em>Abhangs</em>), Kusumagraj (<em>Vishakha</em>)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Kannada (Karnataka)</td>
+        <td style="padding: 10px;">Pampa, Ponna, Ranna (The Three Gems), Shivaram Karanth (<em>Mookajjiya Kanasugalu</em>)</td>
+        <td style="padding: 10px;">Kuvempu (<em>Sri Ramayana Darshanam</em>), D. R. Bendre (<em>Nada Lila</em>)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Telugu (Andhra/Telangana)</td>
+        <td style="padding: 10px;">Nannaya, Tikkana, Yerrapragada (<em>Kavitrayam</em> - Telugu Mahabharata), Viswanatha Satyanarayana (<em>Ramayana Kalpavruksham</em>)</td>
+        <td style="padding: 10px;">Bammera Pothana (<em>Andhra Maha Bhagavatam</em>), Gurajada Apparao (<em>Kanyasulkam</em>)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Malayalam (Kerala)</td>
+        <td style="padding: 10px;">Vaikom Muhammad Basheer (<em>Balyakalasakhi</em>), O. V. Vijayan (<em>Khasakkinte Itihasam</em>)</td>
+        <td style="padding: 10px;">Thunchaththu Ezhuthachan (<em>Adhyathmaramayanam</em>), Kumaran Asan (<em>Veena Poovu</em>)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Gujarati (Gujarat)</td>
+        <td style="padding: 10px;">K. M. Munshi (<em>Patan Ni Prabhuta</em>, <em>Jai Somnath</em>)</td>
+        <td style="padding: 10px;">Narsinh Mehta (Vaishnav Jan To), Jhaverchand Meghani (<em>Saurashtra Ni Rasdhar</em>)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Punjabi (Punjab)</td>
+        <td style="padding: 10px;">Amrita Pritam (<em>Pinjar</em>), Khushwant Singh (<em>Train to Pakistan</em> - English/Punjabi context)</td>
+        <td style="padding: 10px;">Waris Shah (<em>Heer Ranjha</em>), Bulleh Shah (<em>Kafis</em>), Amrita Pritam (<em>Ajj Aakhaan Waris Shah Nu</em>)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Odia (Odisha)</td>
+        <td style="padding: 10px;">Fakir Mohan Senapati (<em>Chha Mana Atha Guntha</em>), Gopinath Mohanty (<em>Paraja</em>)</td>
+        <td style="padding: 10px;">Sarala Das (<em>Odia Mahabharata</em>), Jayadeva (<em>Gita Govinda</em> - Sanskrit/Odia context)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Assamese (Assam)</td>
+        <td style="padding: 10px;">Indira Goswami (<em>Mamore Dhara Tarowal</em>), Birendra Kumar Bhattacharya (<em>Mrityunjay</em>)</td>
+        <td style="padding: 10px;">Srimanta Sankardev (<em>Kirtan Ghosha</em>), Jyoti Prasad Agarwala</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 `;
 
 EXPANDED_NOTES_DATA["religion-festivals"] = `
@@ -5541,6 +5893,146 @@ EXPANDED_NOTES_DATA["religion-festivals"] = `
     A thorough grasp of India’s <strong>religious mosaic</strong> and its vibrant <strong>festivals</strong> equips future officers with the cultural sensitivity required for effective leadership, civic engagement, and crisis management. By internalising the historic narratives behind each celebration—be it the triumph of Rama in Dussehra or the spiritual introspection of Mahavir Jayanti—candidates can anticipate societal rhythms, harness the unifying potential of festivals, and mitigate security challenges inherent to large‑scale gatherings.
   </p>
 </div>
+
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h2 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">Comprehensive Guide: Regional Festivals & Religious Traditions</h2>
+
+  <h3>1. Religious Evolution Across Eras</h3>
+  <ul>
+    <li><strong>Ancient Era:</strong> Transition from Vedic ritualism (Yajnas) to the philosophical inquiries of the Upanishads. Emergence of Shramana traditions (Buddhism and Jainism) as counter-movements. Formulation of the Six Orthodox Schools (Shad-Darshanas).</li>
+    <li><strong>Medieval Era:</strong> The Bhakti Movement (Alvars and Nayanars in the South, spreading North) championed personal devotion over ritual. Concurrently, the Sufi movement emphasized mystical union with the divine. This era saw the birth of Sikhism (Guru Nanak) synthesizing devotion and community service.</li>
+    <li><strong>Modern Era:</strong> Socio-religious reform movements (Brahmo Samaj, Arya Samaj, Ramakrishna Mission) aimed at cleansing practices and resisting colonial cultural hegemony. Syncretism and mass public celebrations (like Tilak's Ganesh Chaturthi) became tools for nationalist mobilization.</li>
+  </ul>
+
+  <h3>2. State-wise Festivals of India</h3>
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+    <thead>
+      <tr style="background: var(--bg-tertiary); border-bottom: 2px solid var(--border);">
+        <th style="padding: 10px; text-align: left; width: 25%;">State/UT</th>
+        <th style="padding: 10px; text-align: left;">Key Festivals</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Andhra Pradesh</td>
+        <td style="padding: 10px;">Sankranti, Ugadi (Telugu New Year), Dasara, Brahmotsavam</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Arunachal Pradesh</td>
+        <td style="padding: 10px;">Losar (Monpa), Mopin (Galo), Ziro Festival, Solung (Adi), Nyokum</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Assam</td>
+        <td style="padding: 10px;"><strong>Bihu</strong> (Rongali, Kongali, Bhogali), Ambubachi Mela (Kamakhya Temple), Baishagu</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Bihar</td>
+        <td style="padding: 10px;"><strong>Chhath Puja</strong>, Sonepur Mela (Asia's largest cattle fair), Makar Sankranti</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Chhattisgarh</td>
+        <td style="padding: 10px;">Bastar Dussehra (longest festival), Hareli, Madai, Pola</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Goa</td>
+        <td style="padding: 10px;">Shigmo, Goa Carnival, Sao Joao, Feast of St. Francis Xavier</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Gujarat</td>
+        <td style="padding: 10px;"><strong>Navratri</strong> (Garba), Rann Utsav, Uttarayan (International Kite Festival)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Haryana</td>
+        <td style="padding: 10px;">Surajkund Crafts Mela, Baisakhi, Teej, Gugga Naumi</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Himachal Pradesh</td>
+        <td style="padding: 10px;">Kullu Dussehra, Minjar Mela, Halda, Sazo</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Jharkhand</td>
+        <td style="padding: 10px;">Sarhul, Karam, Tusu Parab, Rohini</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Karnataka</td>
+        <td style="padding: 10px;"><strong>Mysore Dasara</strong> (Nadahabba), Ugadi, Hampi Utsav, Kambala (Buffalo race)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Kerala</td>
+        <td style="padding: 10px;"><strong>Onam</strong>, Vishu, Thrissur Pooram, Vallam Kali (Snake Boat Race)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Madhya Pradesh</td>
+        <td style="padding: 10px;">Khajuraho Dance Festival, Lokrang, Bhagoria Haat, Ujjain Kumbh</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Maharashtra</td>
+        <td style="padding: 10px;"><strong>Ganesh Chaturthi</strong>, Gudi Padwa, Makar Sankranti, Elephanta Festival</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Manipur</td>
+        <td style="padding: 10px;">Yaoshang (Manipuri Holi), Sangai Festival, Lai Haraoba, Ningol Chakouba</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Meghalaya</td>
+        <td style="padding: 10px;">Wangala (100 Drums Festival), Nongkrem Dance Festival, Shad Suk Mynsiem</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Mizoram</td>
+        <td style="padding: 10px;">Chapchar Kut, Mim Kut, Pawl Kut</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Nagaland</td>
+        <td style="padding: 10px;"><strong>Hornbill Festival</strong> (Festival of Festivals), Moatsu Mong, Sekrenyi</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Odisha</td>
+        <td style="padding: 10px;"><strong>Rath Yatra</strong> (Puri), Nuakhai, Konark Dance Festival, Raja Parba, Bali Jatra</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Punjab</td>
+        <td style="padding: 10px;"><strong>Baisakhi</strong>, Lohri, Maghi, Hola Mohalla</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Rajasthan</td>
+        <td style="padding: 10px;">Pushkar Camel Fair, Desert Festival (Jaisalmer), Gangaur, Teej, Mewar Festival</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Sikkim</td>
+        <td style="padding: 10px;">Losar (Tibetan New Year), Saga Dawa, Pang Lhabsol, Bumchu</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Tamil Nadu</td>
+        <td style="padding: 10px;"><strong>Pongal</strong>, Thaipusam, Natyanjali, Jallikattu, Puthandu (New Year)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Telangana</td>
+        <td style="padding: 10px;"><strong>Bathukamma</strong> (Floral festival), Bonalu, Medaram Jatara (largest tribal fair)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Tripura</td>
+        <td style="padding: 10px;">Kharchi Puja, Garia Puja, Neermahal Water Festival</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Uttar Pradesh</td>
+        <td style="padding: 10px;"><strong>Kumbh Mela</strong> (Prayagraj), Lathmar Holi (Barsana), Taj Mahotsav, Diwali (Ayodhya Deepotsav)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">Uttarakhand</td>
+        <td style="padding: 10px;">Nanda Devi Raj Jat Yatra, Kumbh Mela (Haridwar), Phool Dei, Harela</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">West Bengal</td>
+        <td style="padding: 10px;"><strong>Durga Puja</strong>, Kali Puja, Poush Mela (Santiniketan), Gangasagar Mela, Poila Baisakh</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--bg-hover);">
+        <td style="padding: 10px; font-weight: bold;">J&K and Ladakh</td>
+        <td style="padding: 10px;">Hemis (Ladakh), Losar, Sindhu Darshan, Tulip Festival (Srinagar), Shikara Festival, Navreh (Kashmiri Pandit New Year)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 `;
 
 EXPANDED_NOTES_DATA["heritage-sites"] = `
