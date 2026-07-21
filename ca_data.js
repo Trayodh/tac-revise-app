@@ -315,33 +315,69 @@ window.CA_DATES_DATA = [
 // =============================================================================
 window.CA_SPORTS_DATA = [
   {
-    event: "ICC Men's T20 World Cup 2024",
-    winner: "India",
-    country: "India",
-    placeHeld: "West Indies & USA"
-  },
-  {
-    event: "Wimbledon 2025 - Men's Singles",
-    winner: "Carlos Alcaraz",
-    country: "Spain",
-    placeHeld: "London, UK"
-  },
-  {
-    event: "FIFA Women's World Cup 2023",
+    event: "FIFA World Cup 2026",
     winner: "Spain",
     country: "Spain",
-    placeHeld: "Australia & New Zealand"
+    placeHeld: "USA, Canada & Mexico"
   },
   {
-    event: "ICC Men's Cricket World Cup 2023",
-    winner: "Australia",
-    country: "Australia",
+    event: "ICC Men's T20 World Cup 2026",
+    winner: "India",
+    country: "India",
+    placeHeld: "India & Sri Lanka"
+  },
+  {
+    event: "Indian Premier League (IPL) 2026",
+    winner: "Royal Challengers Bengaluru (RCB)",
+    country: "India",
     placeHeld: "India"
   },
   {
-    event: "Australian Open 2026 - Men's Singles",
+    event: "Wimbledon 2026 - Gentlemen's Singles",
     winner: "Jannik Sinner",
     country: "Italy",
+    placeHeld: "London, UK"
+  },
+  {
+    event: "Wimbledon 2026 - Ladies' Singles",
+    winner: "Linda Nosková",
+    country: "Czech Republic",
+    placeHeld: "London, UK"
+  },
+  {
+    event: "French Open 2026 - Men's Singles",
+    winner: "Alexander Zverev",
+    country: "Germany",
+    placeHeld: "Paris, France"
+  },
+  {
+    event: "French Open 2026 - Women's Singles",
+    winner: "Mirra Andreeva",
+    country: "Russia",
+    placeHeld: "Paris, France"
+  },
+  {
+    event: "Australian Open 2026 - Men's Singles",
+    winner: "Carlos Alcaraz",
+    country: "Spain",
     placeHeld: "Melbourne, Australia"
+  },
+  {
+    event: "Australian Open 2026 - Women's Singles",
+    winner: "Elena Rybakina",
+    country: "Kazakhstan",
+    placeHeld: "Melbourne, Australia"
+  },
+  {
+    event: "NBA Finals 2026",
+    winner: "New York Knicks",
+    country: "USA",
+    placeHeld: "USA"
+  },
+  {
+    event: "Thomas Cup 2026 (Badminton)",
+    winner: "China",
+    country: "China",
+    placeHeld: "Horsens, Denmark"
   }
 ];
