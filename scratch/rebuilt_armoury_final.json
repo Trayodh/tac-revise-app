@@ -1,0 +1,799 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "last_updated": "2026-07-21T06:05:41.819Z",
+    "total_questions": 25
+  },
+  "questions": [
+    {
+      "original_id": "gen_0_1784613941735",
+      "question": "What is the principal value of sin⁻¹(sin(2π/3))?",
+      "options": [
+        "2π/3",
+        "π/3",
+        "-π/3",
+        "π/6"
+      ],
+      "correct": 1,
+      "explanation": "Recall that sin⁻¹(sin θ) = θ only if θ is in the principal value branch [-π/2, π/2]. Here 2π/3 lies outside. We rewrite: sin(2π/3) = sin(π - π/3) = sin(π/3). Therefore, sin⁻¹(sin(2π/3)) = sin⁻¹(sin(π/3)) = π/3. Option B is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Inverse Trigonometric Functions",
+        "topic": "Principal Values",
+        "subtopic": "Principal Value of Inverse Sine Function",
+        "difficulty": "Medium",
+        "question_type": "Conceptual",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question directly tests the understanding and application of the principal value range for the inverse sine function, requiring knowledge of trigonometric identities and the domain/range of inverse trigonometric functions."
+      }
+    },
+    {
+      "original_id": "gen_1_1784613941736",
+      "question": "If y = ln(sec x + tan x), what is dy/dx?",
+      "options": [
+        "sec x",
+        "tan x",
+        "sec x + tan x",
+        "sec² x"
+      ],
+      "correct": 0,
+      "explanation": "Using the Chain Rule: dy/dx = [1 / (sec x + tan x)] * d/dx(sec x + tan x) = [1 / (sec x + tan x)] * (sec x tan x + sec² x) = [sec x (tan x + sec x)] / (sec x + tan x) = sec x. Option A is correct.",
+      "exams": [
+        "NDA",
+        "AFCAT"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Calculus",
+        "topic": "Differentiation",
+        "subtopic": "Derivatives of Logarithmic and Trigonometric Functions",
+        "difficulty": "Medium",
+        "question_type": "Formula Based",
+        "exam": [
+          "NDA",
+          "AFCAT"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question requires applying the chain rule and knowledge of derivatives of logarithmic and trigonometric functions (ln(x), sec(x), tan(x)) to find dy/dx."
+      }
+    },
+    {
+      "original_id": "gen_2_1784613941736",
+      "question": "What is the value of cot 15°?",
+      "options": [
+        "2 - √3",
+        "2 + √3",
+        "√3 - 1",
+        "√3 + 1"
+      ],
+      "correct": 1,
+      "explanation": "cot 15° = cos 15° / sin 15°. We know cos 15° = (√3 + 1)/2√2 and sin 15° = (√3 - 1)/2√2. So, cot 15° = (√3 + 1) / (√3 - 1). Rationalizing: (√3 + 1)² / (3 - 1) = (3 + 1 + 2√3)/2 = 2 + √3. Option B is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Trigonometric Ratios and Identities",
+        "topic": "Values of Trigonometric Ratios",
+        "subtopic": "Compound Angle Formulas",
+        "difficulty": "Medium",
+        "question_type": "Formula Based",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question asks for the exact value of cot 15°, which requires applying trigonometric identities (specifically compound angle formulas like cot(A-B) or half-angle formulas) to derive the numerical value. This tests fundamental knowledge of trigonometry."
+      }
+    },
+    {
+      "original_id": "gen_3_1784613941736",
+      "question": "If A is a square matrix of order 3 and |A| = 4, then what is the value of |adj A|?",
+      "options": [
+        "4",
+        "16",
+        "64",
+        "12"
+      ],
+      "correct": 1,
+      "explanation": "For any square matrix of order n, we have the property: |adj A| = |A|^(n-1). Here, order n = 3 and |A| = 4. Thus, |adj A| = 4^(3-1) = 4² = 16. Option B is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Matrices and Determinants",
+        "topic": "Determinants",
+        "subtopic": "Properties of Adjoint Matrix",
+        "difficulty": "Easy",
+        "question_type": "Formula Based",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question tests the fundamental property of determinants related to the adjoint of a matrix, specifically |adj A| = |A|^(n-1), where 'n' is the order of the matrix. This is a direct application of a standard formula in linear algebra."
+      }
+    },
+    {
+      "original_id": "gen_4_1784613941736",
+      "question": "What is the limit: lim(x→0) (e^x - e^-x) / sin x?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "does not exist"
+      ],
+      "correct": 2,
+      "explanation": "Evaluating lim(x→0) (e^x - e^-x)/sin x gives a 0/0 form. Applying L'Hopital's rule, we differentiate numerator and denominator: d/dx(e^x - e^-x) = e^x + e^-x, and d/dx(sin x) = cos x. Now substitute x = 0: (e^0 + e^0) / cos(0) = (1 + 1)/1 = 2. Option C is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Calculus",
+        "topic": "Limits",
+        "subtopic": "Evaluation of Limits",
+        "difficulty": "Medium",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question directly tests the evaluation of a limit involving an indeterminate form (0/0), requiring the application of L'Hôpital's Rule or standard limit expansions. This is a core concept within Calculus."
+      }
+    },
+    {
+      "original_id": "gen_5_1784613941736",
+      "question": "What is the projection of vector a = 2i + 3j + 2k on vector b = i + 2j + k?",
+      "options": [
+        "10 / √6",
+        "10",
+        "√6",
+        "5 / √6"
+      ],
+      "correct": 0,
+      "explanation": "Projection of vector a on vector b = (a · b) / |b|. Here, a · b = (2)(1) + (3)(2) + (2)(1) = 2 + 6 + 2 = 10. Magnitude |b| = √(1² + 2² + 1²) = √6. Hence, projection = 10 / √6. Option A is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Vector Algebra",
+        "topic": "Vector Projection",
+        "subtopic": "Scalar Projection",
+        "difficulty": "Easy",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question directly tests the understanding and application of the scalar projection formula between two given vectors, a fundamental concept in Vector Algebra."
+      }
+    },
+    {
+      "original_id": "gen_6_1784613941736",
+      "question": "The value of ∫[0 to π/2] sin³x / (sin³x + cos³x) dx is equal to:",
+      "options": [
+        "π",
+        "π/2",
+        "π/4",
+        "0"
+      ],
+      "correct": 2,
+      "explanation": "Using the property ∫[a to b] f(x)dx = ∫[a to b] f(a+b-x)dx. Let I = ∫[0 to π/2] sin³x/(sin³x+cos³x) dx. Then I = ∫[0 to π/2] cos³x/(cos³x+sin³x) dx. Adding both: 2I = ∫[0 to π/2] 1 dx = [x] from 0 to π/2 = π/2. Therefore, I = π/4. Option C is correct.",
+      "exams": [
+        "NDA",
+        "AFCAT"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Calculus",
+        "topic": "Definite Integrals",
+        "subtopic": "Properties of Definite Integrals (King's Rule)",
+        "difficulty": "Medium",
+        "question_type": "Formula Based",
+        "exam": [
+          "NDA",
+          "AFCAT"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question tests the application of a specific property of definite integrals, commonly known as King's Rule (Property 4: ∫[a to b] f(x) dx = ∫[a to b] f(a+b-x) dx), to evaluate the given integral. This is a standard problem in Calculus under Definite Integrals."
+      }
+    },
+    {
+      "original_id": "gen_7_1784613941736",
+      "question": "If tan⁻¹(x) + tan⁻¹(y) = π/4, then what is x + y + xy equal to?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "2"
+      ],
+      "correct": 0,
+      "explanation": "We know tan⁻¹(x) + tan⁻¹(y) = tan⁻¹((x+y)/(1-xy)) = π/4. Taking tangent on both sides: (x+y)/(1-xy) = tan(π/4) = 1. Therefore, x + y = 1 - xy, which simplifies to x + y + xy = 1. Option A is correct.",
+      "exams": [
+        "NDA",
+        "AFCAT"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Trigonometry",
+        "topic": "Inverse Trigonometric Functions",
+        "subtopic": "Sum and Difference Formulas",
+        "difficulty": "Medium",
+        "question_type": "Formula Based",
+        "exam": [
+          "NDA",
+          "AFCAT"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question directly tests the application of the sum formula for inverse tangent functions, specifically tan⁻¹(x) + tan⁻¹(y) = tan⁻¹((x+y)/(1-xy)), and subsequent algebraic manipulation to find a numerical value."
+      }
+    },
+    {
+      "original_id": "gen_8_1784613941736",
+      "question": "What is the degree of the differential equation: (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) + 1 = 0?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "Not defined"
+      ],
+      "correct": 3,
+      "explanation": "The degree of a differential equation is the power of the highest order derivative when the equation is expressed as a polynomial in its derivatives. Because of the term sin(dy/dx), the equation cannot be written as a polynomial in its derivatives. Hence, the degree is not defined. Option D is correct.",
+      "exams": [
+        "NDA",
+        "AFCAT"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Differential Equations",
+        "topic": "Order and Degree of Differential Equations",
+        "subtopic": "Degree of Differential Equations",
+        "difficulty": "Medium",
+        "question_type": "Conceptual",
+        "exam": [
+          "NDA",
+          "AFCAT"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question tests the fundamental definition of the degree of a differential equation. It specifically targets the understanding that the degree is not defined if the differential coefficients are involved in transcendental functions (like sin(dy/dx)), making it a conceptual check rather than a straightforward calculation."
+      }
+    },
+    {
+      "original_id": "gen_9_1784613941736",
+      "question": "In how many ways can a committee of 5 members be formed from 6 gentlemen and 4 ladies, if it must contain at least 2 ladies?",
+      "options": [
+        "186",
+        "200",
+        "150",
+        "246"
+      ],
+      "correct": 0,
+      "explanation": "Total options for at least 2 ladies in a committee of 5: \nCase 1: 2 Ladies and 3 Gentlemen = ⁴C₂ * ⁶C₃ = 6 * 20 = 120.\nCase 2: 3 Ladies and 2 Gentlemen = ⁴C₃ * ⁶C₂ = 4 * 15 = 60.\nCase 3: 4 Ladies and 1 Gentleman = ⁴C₄ * ⁶C₁ = 1 * 6 = 6.\nTotal ways = 120 + 60 + 6 = 186. Option A is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Permutations and Combinations",
+        "topic": "Combinations",
+        "subtopic": "Combinations with Restrictions",
+        "difficulty": "Medium",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question requires calculating the number of ways to form a committee with specific conditions (at least 2 ladies), which is a direct application of the concept of combinations with restrictions. It involves calculating combinations for multiple cases and summing them up."
+      }
+    },
+    {
+      "original_id": "gen_10_1784613941736",
+      "question": "Find the general solution of the differential equation dy/dx = y/x.",
+      "options": [
+        "y = c/x",
+        "y = cx",
+        "y = x + c",
+        "y = cx²"
+      ],
+      "correct": 1,
+      "explanation": "Separating variables: dy/y = dx/x. Integrating both sides: ∫(1/y)dy = ∫(1/x)dx => ln|y| = ln|x| + ln|c| => ln|y| = ln|cx| => y = cx. Option B is correct.",
+      "exams": [
+        "NDA",
+        "AFCAT"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Differential Equations",
+        "topic": "First-Order Differential Equations",
+        "subtopic": "Variable Separable Method",
+        "difficulty": "Easy",
+        "question_type": "Formula Based",
+        "exam": [
+          "NDA",
+          "AFCAT"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question requires applying the method of variable separation to solve a first-order differential equation, which is a standard formula-based procedure in calculus."
+      }
+    },
+    {
+      "original_id": "gen_11_1784613941736",
+      "question": "If sin A = 3/5, where A lies in the second quadrant, what is the value of cos A?",
+      "options": [
+        "4/5",
+        "-4/5",
+        "3/4",
+        "-3/4"
+      ],
+      "correct": 1,
+      "explanation": "Since sin²A + cos²A = 1, cos A = ±√(1 - sin²A) = ±√(1 - 9/25) = ±√(16/25) = ±4/5. In the second quadrant, cosine is negative, so cos A = -4/5. Option B is correct.",
+      "exams": [
+        "NDA",
+        "AFCAT"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Trigonometry",
+        "topic": "Trigonometric Ratios and Identities",
+        "subtopic": "Signs of Trigonometric Ratios in Quadrants",
+        "difficulty": "Easy",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA",
+          "AFCAT"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question tests the fundamental trigonometric identity (sin²A + cos²A = 1) and the knowledge of signs of trigonometric ratios in different quadrants, specifically the second quadrant, to determine the correct value of cos A."
+      }
+    },
+    {
+      "original_id": "gen_12_1784613941736",
+      "question": "What is the sum of the coefficients of the polynomial (1 - 3x + 3x²)¹⁰⁰?",
+      "options": [
+        "1",
+        "0",
+        "2¹⁰⁰",
+        "-1"
+      ],
+      "correct": 0,
+      "explanation": "To find the sum of all coefficients of a polynomial, substitute x = 1 in the expression: (1 - 3(1) + 3(1)²)¹⁰⁰ = (1 - 3 + 3)¹⁰⁰ = 1¹⁰⁰ = 1. Option A is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Algebra",
+        "topic": "Polynomials",
+        "subtopic": "Properties of Polynomials",
+        "difficulty": "Easy",
+        "question_type": "Conceptual",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question tests the fundamental property that the sum of coefficients of a polynomial P(x) is obtained by evaluating P(1). This is a core concept in Algebra related to polynomials."
+      }
+    },
+    {
+      "original_id": "gen_13_1784613941736",
+      "question": "If A and B are two events such that P(A) = 0.4, P(B) = 0.5 and P(A ∩ B) = 0.2, what is P(A|B) equal to?",
+      "options": [
+        "0.4",
+        "0.2",
+        "0.5",
+        "0.8"
+      ],
+      "correct": 0,
+      "explanation": "P(A|B) = P(A ∩ B) / P(B) = 0.2 / 0.5 = 2/5 = 0.4. Option A is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Probability",
+        "topic": "Conditional Probability",
+        "subtopic": "Calculation of Conditional Probability",
+        "difficulty": "Easy",
+        "question_type": "Formula Based",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question directly tests the application of the conditional probability formula P(A|B) = P(A ∩ B) / P(B), providing all necessary values."
+      }
+    },
+    {
+      "original_id": "gen_14_1784613941736",
+      "question": "What is the derivative of x^x with respect to x?",
+      "options": [
+        "x^x(1 + ln x)",
+        "x^x(ln x)",
+        "x·x^(x-1)",
+        "x^x / ln x"
+      ],
+      "correct": 0,
+      "explanation": "Let y = x^x. Taking log on both sides: ln y = x ln x. Differentiating with respect to x: (1/y) dy/dx = ln x + x(1/x) = 1 + ln x. Hence, dy/dx = y(1 + ln x) = x^x(1 + ln x). Option A is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Calculus",
+        "topic": "Differentiation",
+        "subtopic": "Logarithmic Differentiation",
+        "difficulty": "Medium",
+        "question_type": "Formula Based",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question directly tests the application of differentiation rules, specifically logarithmic differentiation for functions of the form f(x)^g(x), which is a fundamental concept in Calculus."
+      }
+    },
+    {
+      "original_id": "gen_0_1784613941737",
+      "question": "If α and β are the roots of the equation x^2 - x + 1 = 0, then what is the value of α^2024 + β^2024?",
+      "options": [
+        "1",
+        "-1",
+        "2",
+        "-2"
+      ],
+      "correct": 1,
+      "explanation": "The roots of x^2 - x + 1 = 0 are -ω and -ω^2 where ω is the cube root of unity. Thus, α^2024 + β^2024 = (-ω)^2024 + (-ω^2)^2024 = ω^2024 + ω^4048. Since 2024 = 3*674 + 2 and 4048 = 3*1349 + 1, this simplifies to ω^2 + ω = -1.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [
+        "2024"
+      ],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Algebra",
+        "topic": "Quadratic Equations",
+        "subtopic": "Properties of Roots",
+        "difficulty": "Medium",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA"
+        ],
+        "year": "2024",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question tests the understanding of roots of a quadratic equation, specifically x^2 - x + 1 = 0, which are related to the cube roots of unity (x^3 = -1). It requires calculating powers of these roots, which falls under the properties of roots of quadratic equations."
+      }
+    },
+    {
+      "original_id": "gen_1_1784613941737",
+      "question": "Consider the matrix A = [[cos θ, -sin θ], [sin θ, cos θ]]. Which of the following statements is/are correct? 1. A^n = [[cos nθ, -sin nθ], [sin nθ, cos nθ]] for all n ∈ N. 2. det(A^n) = 1 for all n ∈ N.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explanation": "Statement 1 is true by mathematical induction or De Moivre's theorem. Statement 2 is true because det(A) = cos^2θ + sin^2θ = 1, so det(A^n) = (det(A))^n = 1^n = 1.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Matrices and Determinants",
+        "topic": "Properties of Matrices",
+        "subtopic": "Powers of Rotation Matrices and Determinants",
+        "difficulty": "Medium",
+        "question_type": "Statement Based",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question tests the understanding of matrix properties, specifically the powers of a rotation matrix and the determinant of matrix powers. Both statements are standard results in matrix algebra."
+      }
+    },
+    {
+      "original_id": "gen_2_1784613941737",
+      "question": "The value of the integral ∫[0 to π/2] (sin^n x) / (sin^n x + cos^n x) dx is:",
+      "options": [
+        "π/2",
+        "π/4",
+        "π/6",
+        "0"
+      ],
+      "correct": 1,
+      "explanation": "Using the property ∫[a to b] f(x) dx = ∫[a to b] f(a+b-x) dx, let I be the integral. Then I = ∫[0 to π/2] (cos^n x) / (cos^n x + sin^n x) dx. Adding the two expressions for I gives 2I = ∫[0 to π/2] 1 dx = π/2. Thus, I = π/4.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Integral Calculus",
+        "topic": "Definite Integrals",
+        "subtopic": "Properties of Definite Integrals",
+        "difficulty": "Medium",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question tests the application of a standard property of definite integrals, specifically ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx, to evaluate a numerical value. This is a common problem type in competitive exams."
+      }
+    },
+    {
+      "original_id": "gen_3_1784613941737",
+      "question": "A line passes through the point (2, 3) and makes an angle of 135° with the positive x-axis. What is the equation of the line?",
+      "options": [
+        "x + y - 5 = 0",
+        "x - y + 1 = 0",
+        "x + y + 5 = 0",
+        "x - y - 1 = 0"
+      ],
+      "correct": 0,
+      "explanation": "Slope m = tan(135°) = -1. Using point-slope form: y - 3 = -1(x - 2), which simplifies to y - 3 = -x + 2, or x + y - 5 = 0.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Coordinate Geometry",
+        "topic": "Straight Lines",
+        "subtopic": "Equation of a Line (Point-Slope Form)",
+        "difficulty": "Easy",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question requires finding the equation of a straight line given a point it passes through and the angle it makes with the positive x-axis. This directly tests the application of the point-slope form of a linear equation, a core concept in coordinate geometry."
+      }
+    },
+    {
+      "original_id": "gen_4_1784613941737",
+      "question": "If a vector a is perpendicular to both vectors b = i + j + k and c = i - j + k, then what is the direction of a?",
+      "options": [
+        "i - k",
+        "j",
+        "i + k",
+        "i + j"
+      ],
+      "correct": 0,
+      "explanation": "The vector perpendicular to both b and c is given by the cross product b × c = (i + j + k) × (i - j + k). Calculating the determinant: i(1 - (-1)) - j(1 - 1) + k(-1 - 1) = 2i - 2k, which is parallel to i - k.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Vector Algebra",
+        "topic": "Vector Cross Product",
+        "subtopic": "Direction of Cross Product",
+        "difficulty": "Medium",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question requires calculating the cross product of two given vectors to determine the direction of a third vector perpendicular to both, which is a core concept in vector algebra."
+      }
+    },
+    {
+      "original_id": "gen_0_1784613941737",
+      "question": "Identify the part with an error: (A) Neither of the two boys / (B) are going / (C) to the market / (D) No Error",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct": 1,
+      "explanation": "Neither takes a singular verb. 'Are going' should be 'is going'. Option B has the error.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Algebra",
+        "topic": "Quadratic Equations",
+        "subtopic": "Properties of Roots",
+        "difficulty": "Medium",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA"
+        ],
+        "year": "2024",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question tests the understanding of roots of a quadratic equation, specifically x^2 - x + 1 = 0, which are related to the cube roots of unity (x^3 = -1). It requires calculating powers of these roots, which falls under the properties of roots of quadratic equations."
+      }
+    },
+    {
+      "original_id": "gen_1_1784613941737",
+      "question": "Select the synonym of 'Clandestine'.",
+      "options": [
+        "Open",
+        "Secret",
+        "Ugly",
+        "Beautiful"
+      ],
+      "correct": 1,
+      "explanation": "Clandestine means kept secret or done secretively. Option B is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Matrices and Determinants",
+        "topic": "Properties of Matrices",
+        "subtopic": "Powers of Rotation Matrices and Determinants",
+        "difficulty": "Medium",
+        "question_type": "Statement Based",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question tests the understanding of matrix properties, specifically the powers of a rotation matrix and the determinant of matrix powers. Both statements are standard results in matrix algebra."
+      }
+    },
+    {
+      "original_id": "gen_2_1784613941737",
+      "question": "Identify the part with an error: (A) Scarcely had he gone out / (B) than it started / (C) raining heavily / (D) No Error",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct": 1,
+      "explanation": "Scarcely is always followed by 'when', not 'than'. Option B has the error.",
+      "exams": [
+        "NDA",
+        "AFCAT"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Integral Calculus",
+        "topic": "Definite Integrals",
+        "subtopic": "Properties of Definite Integrals",
+        "difficulty": "Medium",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question tests the application of a standard property of definite integrals, specifically ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx, to evaluate a numerical value. This is a common problem type in competitive exams."
+      }
+    },
+    {
+      "original_id": "gen_3_1784613941737",
+      "question": "Select the antonym of 'Mitigate'.",
+      "options": [
+        "Alleviate",
+        "Aggravate",
+        "Soothe",
+        "Calm"
+      ],
+      "correct": 1,
+      "explanation": "Mitigate means to make less severe. Aggravate means to make worse. Option B is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Coordinate Geometry",
+        "topic": "Straight Lines",
+        "subtopic": "Equation of a Line (Point-Slope Form)",
+        "difficulty": "Easy",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question requires finding the equation of a straight line given a point it passes through and the angle it makes with the positive x-axis. This directly tests the application of the point-slope form of a linear equation, a core concept in coordinate geometry."
+      }
+    },
+    {
+      "original_id": "gen_4_1784613941737",
+      "question": "Fill in the blank: The captain, along with the soldiers, _____ killed.",
+      "options": [
+        "was",
+        "were",
+        "have been",
+        "are"
+      ],
+      "correct": 0,
+      "explanation": "When subjects are joined by 'along with', the verb agrees with the first subject (The captain, which is singular). Option A is correct.",
+      "exams": [
+        "NDA"
+      ],
+      "years": [],
+      "classification": {
+        "subject": "Mathematics",
+        "chapter": "Vector Algebra",
+        "topic": "Vector Cross Product",
+        "subtopic": "Direction of Cross Product",
+        "difficulty": "Medium",
+        "question_type": "Numerical",
+        "exam": [
+          "NDA"
+        ],
+        "year": "",
+        "confidence": 100,
+        "needs_manual_review": false,
+        "reason": "The question requires calculating the cross product of two given vectors to determine the direction of a third vector perpendicular to both, which is a core concept in vector algebra."
+      }
+    }
+  ]
+}

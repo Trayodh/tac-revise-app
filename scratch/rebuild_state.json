@@ -229,5 +229,80 @@
     "confidence": 100,
     "needs_manual_review": false,
     "reason": "The question directly tests the application of differentiation rules, specifically logarithmic differentiation for functions of the form f(x)^g(x), which is a fundamental concept in Calculus."
+  },
+  "gen_0_1784613941737": {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Quadratic Equations",
+    "subtopic": "Properties of Roots",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "exam": [
+      "NDA"
+    ],
+    "year": "2024",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question tests the understanding of roots of a quadratic equation, specifically x^2 - x + 1 = 0, which are related to the cube roots of unity (x^3 = -1). It requires calculating powers of these roots, which falls under the properties of roots of quadratic equations."
+  },
+  "gen_1_1784613941737": {
+    "subject": "Mathematics",
+    "chapter": "Matrices and Determinants",
+    "topic": "Properties of Matrices",
+    "subtopic": "Powers of Rotation Matrices and Determinants",
+    "difficulty": "Medium",
+    "question_type": "Statement Based",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question tests the understanding of matrix properties, specifically the powers of a rotation matrix and the determinant of matrix powers. Both statements are standard results in matrix algebra."
+  },
+  "gen_2_1784613941737": {
+    "subject": "Mathematics",
+    "chapter": "Integral Calculus",
+    "topic": "Definite Integrals",
+    "subtopic": "Properties of Definite Integrals",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question tests the application of a standard property of definite integrals, specifically ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx, to evaluate a numerical value. This is a common problem type in competitive exams."
+  },
+  "gen_3_1784613941737": {
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Straight Lines",
+    "subtopic": "Equation of a Line (Point-Slope Form)",
+    "difficulty": "Easy",
+    "question_type": "Numerical",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question requires finding the equation of a straight line given a point it passes through and the angle it makes with the positive x-axis. This directly tests the application of the point-slope form of a linear equation, a core concept in coordinate geometry."
+  },
+  "gen_4_1784613941737": {
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Cross Product",
+    "subtopic": "Direction of Cross Product",
+    "difficulty": "Medium",
+    "question_type": "Numerical",
+    "exam": [
+      "NDA"
+    ],
+    "year": "",
+    "confidence": 100,
+    "needs_manual_review": false,
+    "reason": "The question requires calculating the cross product of two given vectors to determine the direction of a third vector perpendicular to both, which is a core concept in vector algebra."
   }
 }

@@ -110,6 +110,28 @@ const dataStr = `  "July 2026": [
         "answer": "B",
         "explanation": "The 18th BRICS Summit was hosted by Russia in the city of Kazan."
       }
+    },
+    {
+      "id": "jul-26-qdenga",
+      "topic": "Science & Technology",
+      "text": "The Drug Controller General of India (DCGI) officially granted market authorization for **QDENGA (TAK-003)** in July 2026, making it the first dengue vaccine approved for use in India.",
+      "details": {
+        "winner": "Takeda (Manufacturer)",
+        "award": "First Dengue Vaccine in India",
+        "nationality": "International/India",
+        "summary": "Live-attenuated, tetravalent vaccine approved for individuals aged 4 to 60 years without pre-vaccination screening."
+      },
+      "mcq": {
+        "question": "Which vaccine became the first dengue vaccine to receive market authorization from the DCGI in India in July 2026?",
+        "options": [
+          "A) Dengvaxia",
+          "B) QDENGA",
+          "C) Covaxin",
+          "D) ZyCoV-D"
+        ],
+        "answer": "B",
+        "explanation": "QDENGA (TAK-003) is the first dengue vaccine approved in India, offering protection against all four serotypes."
+      }
     }
   ],`;
 

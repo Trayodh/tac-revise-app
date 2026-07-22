@@ -39,46 +39,64 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
-    visit: "PM Modi's Visit to Indonesia (Jakarta)",
-    period: "July 2026",
-    purpose: "State visit (July 6–8) at the invitation of President Prabowo Subianto. First bilateral visit since the relationship was elevated to a Comprehensive Strategic Partnership.",
-    deals: "Signed ~12 agreements covering maritime security, defence (BrahMos supersonic cruise missile — 2 batteries, ~$200M deal, making Indonesia the 3rd international BrahMos customer after Philippines & Vietnam; and Astra BVR air-to-air missile), critical minerals, technology, food security, and healthcare. PM Modi visited Prambanan Temple with President Subianto. PM Modi was conferred Indonesia's highest civilian honour, the 'Bintang Adipurna', on July 7. Focus area: MAHASAGAR vision (Mutual and Holistic Advancement for Security and Growth Across Regions)."
+    "visit": "Skyroot Rocket Milestone",
+    "period": "July 2026",
+    "purpose": "The Indian space industry achieved a significant milestone with a successful rocket launch by Skyroot Aerospace, marking a new era for private participation.",
+    "deals": "This launch underscores India's rapidly advancing space technology, crucial for future military communication, surveillance, and navigation systems. It enhances India's strategic autonomy in space, critical for national defence capabilities."
   },
   {
-    visit: "PM Modi at 3rd India-Australia Annual Summit (Melbourne)",
-    period: "July 2026",
-    purpose: "3rd India-Australia Annual Summit (July 8–10) with PM Anthony Albanese, under the Comprehensive Strategic Partnership framework.",
-    deals: "Strengthened cooperation in Quad, maritime security, critical minerals (lithium, cobalt supply chain), clean energy, and defence interoperability. India-Australia ties driven by Act East Policy and Indo-Pacific security alignment."
+    "visit": "IIT Madras Defence Research",
+    "period": "July 2026",
+    "purpose": "IIT Madras has forged a partnership with the Indian Army to collaborate on cutting-edge defence research initiatives.",
+    "deals": "This collaboration aims to leverage academic expertise for developing advanced defence technologies and solutions for the armed forces. It directly boosts indigenous defence R&D, reducing reliance on foreign imports and enhancing India's self-reliance in critical military hardware."
   },
   {
-    visit: "PM Modi's Visit to New Zealand (Auckland)",
-    period: "July 2026",
-    purpose: "Historic visit (July 10–11) — first by an Indian PM to New Zealand in 40 years, at the invitation of PM Christopher Luxon.",
-    deals: "Elevated bilateral ties to a 'Strategic Partnership'. Key outcomes: Reciprocal Logistics Support Pact between Indian and New Zealand Navies; agreements on trade, defence, education, and people-to-people ties. Community event at Auckland's Spark Arena with the Indian diaspora."
+    "visit": "Defence Exports Surge",
+    "period": "July 2026",
+    "purpose": "A DRDO official indicated that India is poised to surpass its ₹50,000 crore defence exports target by 2029, cementing its position as a defence technology exporter.",
+    "deals": "This signifies India's growing capabilities in indigenous defence manufacturing and its ability to contribute to global security through technology exports. It strengthens India's strategic influence and fosters self-reliance, supporting the 'Make in India' initiative in the defence sector."
   },
   {
-    visit: "Japanese PM Sanae Takaichi to India (New Delhi)",
-    period: "July 2026",
-    purpose: "16th India-Japan Annual Summit (July 1–3). First official visit by PM Takaichi (in office since Oct 2025) to India.",
-    deals: "Japan pledged US$62 billion investment in India over 10 years. Joint Statement on AI cooperation (Japan precision technology + India software capabilities). First-ever India-Japan co-development project in defence technology (naval systems). 'India-Japan Cooperative Biogas for Growth (CBG) Initiative' — 1,000 biogas plants. 2027 declared 'India-Japan Year of Shared Horizons' (75th anniversary of diplomatic ties)."
+    "visit": "PM Modi's Visit to Indonesia (Jakarta)",
+    "period": "July 2026",
+    "purpose": "State visit (July 6–8) at the invitation of President Prabowo Subianto. First bilateral visit since the relationship was elevated to a Comprehensive Strategic Partnership.",
+    "deals": "Signed ~12 agreements covering maritime security, defence (BrahMos supersonic cruise missile — 2 batteries, ~$200M deal, making Indonesia the 3rd international BrahMos customer after Philippines & Vietnam; and Astra BVR air-to-air missile), critical minerals, technology, food security, and healthcare. PM Modi visited Prambanan Temple with President Subianto. PM Modi was conferred Indonesia's highest civilian honour, the 'Bintang Adipurna', on July 7. Focus area: MAHASAGAR vision (Mutual and Holistic Advancement for Security and Growth Across Regions)."
   },
   {
-    visit: "PM Modi's State Visit to Seychelles",
-    period: "June 2026",
-    purpose: "State Visit (June 27–29) — Guest of Honour at Seychelles' Golden Jubilee National Day celebrations.",
-    deals: "Conferred with the 'Guardian of the Blue Horizon' award by Seychelles. Strengthened maritime security and Indian Ocean Region capacity building under the Neighbourhood First policy."
+    "visit": "PM Modi at 3rd India-Australia Annual Summit (Melbourne)",
+    "period": "July 2026",
+    "purpose": "3rd India-Australia Annual Summit (July 8–10) with PM Anthony Albanese, under the Comprehensive Strategic Partnership framework.",
+    "deals": "Strengthened cooperation in Quad, maritime security, critical minerals (lithium, cobalt supply chain), clean energy, and defence interoperability. India-Australia ties driven by Act East Policy and Indo-Pacific security alignment."
   },
   {
-    visit: "PM Modi to France and Slovakia",
-    period: "June 2026",
-    purpose: "State visits (June 13–18): France (bilateral + G7 Summit in Evian, June 16–17; VivaTech 2026 summit in Paris) and Slovakia (first-ever visit by an Indian PM since Slovakia's independence in 1993).",
-    deals: "Slovakia: Talks with PM Robert Fico and President Peter Pellegrini; discussions on trade, investment, and manufacturing. Inaugurated 'Bharat Innovates' event with French President Macron in Nice. France remains key strategic partner (Rafale jets, nuclear cooperation)."
+    "visit": "PM Modi's Visit to New Zealand (Auckland)",
+    "period": "July 2026",
+    "purpose": "Historic visit (July 10–11) — first by an Indian PM to New Zealand in 40 years, at the invitation of PM Christopher Luxon.",
+    "deals": "Elevated bilateral ties to a 'Strategic Partnership'. Key outcomes: Reciprocal Logistics Support Pact between Indian and New Zealand Navies; agreements on trade, defence, education, and people-to-people ties. Community event at Auckland's Spark Arena with the Indian diaspora."
   },
   {
-    visit: "PM Modi to Malaysia",
-    period: "Feb 2026",
-    purpose: "Bilateral Visit.",
-    deals: "Strengthened Comprehensive Strategic Partnership with Prime Minister Anwar Ibrahim."
+    "visit": "Japanese PM Sanae Takaichi to India (New Delhi)",
+    "period": "July 2026",
+    "purpose": "16th India-Japan Annual Summit (July 1–3). First official visit by PM Takaichi (in office since Oct 2025) to India.",
+    "deals": "Japan pledged US$62 billion investment in India over 10 years. Joint Statement on AI cooperation (Japan precision technology + India software capabilities). First-ever India-Japan co-development project in defence technology (naval systems). 'India-Japan Cooperative Biogas for Growth (CBG) Initiative' — 1,000 biogas plants. 2027 declared 'India-Japan Year of Shared Horizons' (75th anniversary of diplomatic ties)."
+  },
+  {
+    "visit": "PM Modi's State Visit to Seychelles",
+    "period": "June 2026",
+    "purpose": "State Visit (June 27–29) — Guest of Honour at Seychelles' Golden Jubilee National Day celebrations.",
+    "deals": "Conferred with the 'Guardian of the Blue Horizon' award by Seychelles. Strengthened maritime security and Indian Ocean Region capacity building under the Neighbourhood First policy."
+  },
+  {
+    "visit": "PM Modi to France and Slovakia",
+    "period": "June 2026",
+    "purpose": "State visits (June 13–18): France (bilateral + G7 Summit in Evian, June 16–17; VivaTech 2026 summit in Paris) and Slovakia (first-ever visit by an Indian PM since Slovakia's independence in 1993).",
+    "deals": "Slovakia: Talks with PM Robert Fico and President Peter Pellegrini; discussions on trade, investment, and manufacturing. Inaugurated 'Bharat Innovates' event with French President Macron in Nice. France remains key strategic partner (Rafale jets, nuclear cooperation)."
+  },
+  {
+    "visit": "PM Modi to Malaysia",
+    "period": "Feb 2026",
+    "purpose": "Bilateral Visit.",
+    "deals": "Strengthened Comprehensive Strategic Partnership with Prime Minister Anwar Ibrahim."
   }
 ];
 
