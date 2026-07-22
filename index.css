@@ -242,6 +242,31 @@ html {
   scrollbar-width: thin;
   scrollbar-color: var(--border) var(--bg-primary);
   -webkit-tap-highlight-color: transparent;
+  /* UI HARDENING: Prevent Text & Container Overflow */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  min-width: 0;
+  min-height: 0;
+}
+
+/* UI HARDENING: Ensure Media is Responsive */
+img, video, canvas, svg, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* UI HARDENING: Responsive Tables */
+table {
+  max-width: 100%;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* UI HARDENING: Prevent button/chip text clipping */
+.chip, .tag, .badge, .btn-primary, .exam-btn {
+  max-width: 100%;
 }
 
 body {

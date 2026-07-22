@@ -7452,6 +7452,58 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(closeSidebar, 150);
     });
   });
+
+  // GLOBAL SIDEBAR SWIPE GESTURES
+  let touchStartX = 0;
+  let touchStartY = 0;
+
+  document.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  }, { passive: true });
+
+  document.addEventListener('touchend', e => {
+    const touchEndX = e.changedTouches[0].screenX;
+    const touchEndY = e.changedTouches[0].screenY;
+    const deltaX = touchEndX - touchStartX;
+    const deltaY = touchEndY - touchStartY;
+
+    // Check if horizontal swipe is dominant and significant
+    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 40) {
+      if (deltaX > 0 && touchStartX < 40) {
+        // Swipe Right from left edge -> Open Sidebar
+        document.body.classList.add("sidebar-open");
+      } else if (deltaX < 0 && document.body.classList.contains("sidebar-open")) {
+        // Swipe Left -> Close Sidebar
+        closeSidebar();
+      }
+    }
+  }, { passive: true });
+
+  // VOCAB BUILDER SWIPE GESTURES
+  const vocabViewWord = document.getElementById("vocab-view-word");
+  if (vocabViewWord) {
+    let vocabStartX = 0;
+    let vocabStartY = 0;
+    vocabViewWord.addEventListener('touchstart', e => {
+      vocabStartX = e.changedTouches[0].screenX;
+      vocabStartY = e.changedTouches[0].screenY;
+    }, { passive: true });
+    
+    vocabViewWord.addEventListener('touchend', e => {
+      const vocabEndX = e.changedTouches[0].screenX;
+      const vocabEndY = e.changedTouches[0].screenY;
+      const dX = vocabEndX - vocabStartX;
+      const dY = vocabEndY - vocabStartY;
+      
+      // Swipe left on vocab flashcard (ignore if vertical scrolling)
+      if (Math.abs(dX) > Math.abs(dY) && dX < -40) {
+        if (typeof window.loadRandomWord === 'function') {
+           window.loadRandomWord();
+        }
+      }
+    }, { passive: true });
+  }
 });
 
 
