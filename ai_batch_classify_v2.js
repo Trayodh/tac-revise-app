@@ -311,9 +311,9 @@ async function processBatch(questions) {
         source: q.exams.join(', ') + ' ' + q.years.join(', ')
     })), null, 2);
 
-    const fullPrompt = \`\${MASTER_PROMPT}\n\nHere is your batch of questions to classify:\n\${promptQuestions}\`;
+    const fullPrompt = `${MASTER_PROMPT}\n\nHere is your batch of questions to classify:\n${promptQuestions}`;
 
-    let retries = 3;
+    let retries = 10;
     while (retries > 0) {
         try {
             const result = await model.generateContent(fullPrompt);
@@ -321,17 +321,18 @@ async function processBatch(questions) {
             
             // Clean markdown json tags if AI sends them despite instructions
             let cleanText = responseText.trim();
-            if (cleanText.startsWith('\`\`\`json')) cleanText = cleanText.substring(7);
-            if (cleanText.startsWith('\`\`\`')) cleanText = cleanText.substring(3);
-            if (cleanText.endsWith('\`\`\`')) cleanText = cleanText.slice(0, -3);
+            if (cleanText.startsWith('```json')) cleanText = cleanText.substring(7);
+            if (cleanText.startsWith('```')) cleanText = cleanText.substring(3);
+            if (cleanText.endsWith('```')) cleanText = cleanText.slice(0, -3);
             cleanText = cleanText.trim();
 
             const parsed = JSON.parse(cleanText);
             return parsed;
         } catch (e) {
-            console.error("Gemini call failed or JSON parse error:", e.message);
+            console.error("Gemini call failed:", e.message);
             retries--;
-            await new Promise(r => setTimeout(r, 6000)); // wait before retry
+            console.log(`Rate limited or error. Waiting 65 seconds before retry... (${retries} retries left)`);
+            await new Promise(r => setTimeout(r, 65000)); // wait 65s for strict RPM limits
         }
     }
     return null;
@@ -344,14 +345,14 @@ async function run() {
     // Flatten all questions
     const allQuestions = [];
     db.forEach((exam, eIdx) => {
-        let defaultYear = exam.title.match(/\\b(19\\d{2}|20\\d{2})\\b/);
+        let defaultYear = exam.title.match(/\b(19\d{2}|20\d{2})\b/);
         defaultYear = defaultYear ? defaultYear[1] : "";
         let examTag = (exam.exam || "").toUpperCase();
         
         exam.questions.forEach((q, idx) => {
             if (!q.question || q.question.trim() === '') return;
             allQuestions.push({
-                original_id: \`Q_\${eIdx}_\${idx}\`,
+                original_id: `Q_${eIdx}_${idx}`,
                 question: q.question,
                 options: q.options || [],
                 exams: examTag ? [examTag] : [],
@@ -361,20 +362,20 @@ async function run() {
         });
     });
     
-    console.log(\`Found \${allQuestions.length} valid questions to process.\`);
+    console.log(`Found ${allQuestions.length} valid questions to process.`);
     
     let state = {};
     if (fs.existsSync(PROGRESS_FILE)) {
         state = JSON.parse(fs.readFileSync(PROGRESS_FILE, 'utf8'));
-        console.log(\`Loaded \${Object.keys(state).length} previously processed questions.\`);
+        console.log(`Loaded ${Object.keys(state).length} previously processed questions.`);
     }
 
     const remainingQuestions = allQuestions.filter(q => !state[q.original_id]);
-    console.log(\`Remaining to process: \${remainingQuestions.length}\`);
+    console.log(`Remaining to process: ${remainingQuestions.length}`);
 
     for (let i = 0; i < remainingQuestions.length; i += BATCH_SIZE) {
         const batch = remainingQuestions.slice(i, i + BATCH_SIZE);
-        console.log(\`Processing batch \${i / BATCH_SIZE + 1} of \${Math.ceil(remainingQuestions.length / BATCH_SIZE)}...\`);
+        console.log(`Processing batch ${i / BATCH_SIZE + 1} of ${Math.ceil(remainingQuestions.length / BATCH_SIZE)}...`);
         
         const results = await processBatch(batch);
         
@@ -386,16 +387,16 @@ async function run() {
                 }
             });
             fs.writeFileSync(PROGRESS_FILE, JSON.stringify(state, null, 2));
-            console.log(\`✅ Batch \${i / BATCH_SIZE + 1} saved.\`);
+            console.log(`✅ Batch ${i / BATCH_SIZE + 1} saved.`);
         } else {
-            console.log(\`❌ Batch \${i / BATCH_SIZE + 1} failed. Skipping for now...\`);
+            console.log(`❌ Batch ${i / BATCH_SIZE + 1} failed. Skipping for now...`);
         }
         
         // Rate limit padding
         await new Promise(r => setTimeout(r, 4000));
     }
     
-    console.log("\\n\\nGenerating Final Outputs...");
+    console.log("\n\nGenerating Final Outputs...");
     
     // Generate JSON
     const finalJSON = {
@@ -407,7 +408,7 @@ async function run() {
     };
     
     // Generate CSV
-    let csvData = "question_id,question_text,exam,paper,subject,chapter,topic,subtopic,difficulty,question_type,skip,skip_reason\\n";
+    let csvData = "question_id,question_text,exam,paper,subject,chapter,topic,subtopic,difficulty,question_type,skip,skip_reason\n";
 
     allQuestions.forEach(q => {
         const s = state[q.original_id];
@@ -435,14 +436,14 @@ async function run() {
                 cls.question_type,
                 cls.skip_reason ? "TRUE" : "FALSE",
                 cls.skip_reason || ""
-            ].map(escapeCsv).join(',') + "\\n";
+            ].map(escapeCsv).join(',') + "\n";
         }
     });
 
     fs.writeFileSync(OUTPUT_JSON_FILE, JSON.stringify(finalJSON, null, 2));
     fs.writeFileSync(OUTPUT_CSV_FILE, csvData);
     
-    console.log(\`Done! Created \${OUTPUT_JSON_FILE} and \${OUTPUT_CSV_FILE}\`);
+    console.log(`Done! Created ${OUTPUT_JSON_FILE} and ${OUTPUT_CSV_FILE}`);
 }
 
 run();

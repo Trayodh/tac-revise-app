@@ -129,7 +129,7 @@
           <option value="nda">⚪ NDA 2 2026</option>
           <option value="cds">🟢 CDS 2 2026</option>
         </select>
-        <div id="sidebar-countdown-timer" style="font-family: var(--font-mono); font-size: 1rem; font-weight: 600; color: var(--danger); letter-spacing: 0.5px; text-align: center; background: rgba(0,0,0,0.3); padding: 8px; border-radius: 6px; border: 1px dashed var(--border);">
+        <div id="sidebar-countdown-timer" style="font-family: var(--font-mono); font-size: 0.95rem; font-weight: 600; color: var(--danger); letter-spacing: 0px; text-align: center; background: rgba(0,0,0,0.3); padding: 8px 4px; border-radius: 6px; border: 1px dashed var(--border); white-space: nowrap;">
           00d : 00h : 00m : 00s
         </div>
       </div>
@@ -143,9 +143,9 @@
         <div style="width: 100%; height: 6px; background-color: rgba(255,255,255,0.05); border-radius: 3px; overflow: hidden; margin-bottom: 8px;">
           <div id="sidebar-token-bar" style="width: 100%; height: 100%; background: linear-gradient(90deg, var(--info), var(--accent)); border-radius: 3px; transition: width 0.3s ease;"></div>
         </div>
-        <div style="font-size: 0.65rem; color: var(--text-muted); display: flex; justify-content: space-between; align-items: center;">
-          <span>Cost: Chat ~500 | OMR ~4k | Solver ~5k | AI Console: Free</span>
-          <span style="color: var(--accent); font-weight: 500;">Resets Daily</span>
+        <div style="font-size: 0.65rem; color: var(--text-muted); display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+          <span>Cost: Chat ~500 | OMR ~4k | Solver ~5k</span>
+          <span style="color: var(--accent); font-weight: 500;">Tokens Reset Daily | AI Console: Free</span>
         </div>
       </div>
       
@@ -185,8 +185,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.375M9 18h3.375m1.875-12h7.5M20.25 6H12m1.875 3h7.5M20.25 9H12m-9.75 9.75c0 .414.336.75.75.75h16.5a.75.75 0 0 0 .75-.75V6.75A.75.75 0 0 0 19.5 6H4.5a.75.75 0 0 0-.75.75v12.75Z" />
           </svg>
-          Mission Simulator
-          <span style="display:block; font-size:0.6rem; font-weight:700; color:#f59e0b; letter-spacing:0.08em; margin-top:2px;">BETA</span>
+          <span style="flex: 1;">Mission Simulator <span style="font-size:0.55rem; font-weight:700; color:#f59e0b; vertical-align: middle; margin-left: 6px; padding: 2px 4px; background: rgba(245,158,11,0.1); border-radius: 4px;">BETA</span></span>
         </a>
 
 
@@ -223,8 +222,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
             <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
           </svg>
-          Video Lectures
-          <span style="display:block; font-size:0.6rem; font-weight:700; color:#38bdf8; letter-spacing:0.08em; margin-top:2px;">FUTURE</span>
+          <span style="flex: 1;">Video Lectures <span style="font-size:0.55rem; font-weight:700; color:#38bdf8; vertical-align: middle; margin-left: 6px; padding: 2px 4px; background: rgba(56,189,248,0.1); border-radius: 4px;">FUTURE</span></span>
         </a>
 
         <a class="nav-item" data-screen="admin" id="nav-item-admin" style="display: none; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 10px; padding-top: 10px;">
