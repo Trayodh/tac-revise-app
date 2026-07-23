@@ -4274,3 +4274,56 @@ body.locked-mode .main-content {
   .ai-chatbot-launcher .launcher-text { display: none; }
   .ai-chatbot-launcher { border-radius: 50%; padding: 12px; bottom: 12px; right: 12px; }
 }
+
+/* DEFCON DYNAMIC WIDGET */
+.defcon-state-1 {
+  border-color: #ef4444 !important;
+  box-shadow: inset 0 0 10px rgba(239, 68, 68, 0.2);
+}
+.defcon-state-1 #defcon-level {
+  color: #ef4444 !important;
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.4);
+}
+
+@keyframes defcon2-breathe-box {
+  0%, 100% { box-shadow: inset 0 0 5px rgba(239, 68, 68, 0.2); }
+  50% { box-shadow: inset 0 0 20px rgba(239, 68, 68, 0.4); }
+}
+@keyframes defcon2-breathe-text {
+  0%, 100% { text-shadow: 0 0 5px rgba(239, 68, 68, 0.3); }
+  50% { text-shadow: 0 0 15px rgba(239, 68, 68, 0.8); }
+}
+.defcon-state-2 {
+  border-color: #ef4444 !important;
+  animation: defcon2-breathe-box 4s infinite ease-in-out;
+}
+.defcon-state-2 #defcon-level {
+  color: #ef4444 !important;
+  animation: defcon2-breathe-text 4s infinite ease-in-out;
+}
+
+@keyframes defcon3-pulse-box {
+  0%, 100% { box-shadow: inset 0 0 10px rgba(239, 68, 68, 0.4); }
+  50% { box-shadow: inset 0 0 30px rgba(239, 68, 68, 0.8); }
+}
+@keyframes defcon3-pulse-text {
+  0%, 100% { text-shadow: 0 0 10px rgba(239, 68, 68, 0.5); }
+  50% { text-shadow: 0 0 25px rgba(239, 68, 68, 1); }
+}
+.defcon-state-3 {
+  border-color: #ef4444 !important;
+  animation: defcon3-pulse-box 2s infinite ease-in-out;
+}
+.defcon-state-3 #defcon-level {
+  color: #ef4444 !important;
+  animation: defcon3-pulse-text 2s infinite ease-in-out;
+}
+
+@keyframes exam-name-breathe {
+  0%, 100% { transform: scale(1.00); }
+  50% { transform: scale(1.05); }
+}
+#defcon-exam-name {
+  animation: exam-name-breathe 2.5s infinite ease-in-out;
+  transform-origin: left center;
+}

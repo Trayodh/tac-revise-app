@@ -7730,3 +7730,67 @@ function renderCaSportsTable() {
     </table>
   `;
 }
+
+// ==========================================
+// DEFCON DYNAMIC WIDGET LOGIC
+// ==========================================
+function initDefconWidget() {
+  const card = document.getElementById('defcon-card');
+  const levelEl = document.getElementById('defcon-level');
+  const examNameEl = document.getElementById('defcon-exam-name');
+  const subtitleEl = document.getElementById('defcon-subtitle');
+
+  if (!card || !levelEl || !examNameEl || !subtitleEl) return;
+
+  const exams = [
+    { name: "AFCAT II 2026", date: new Date("2026-08-08T10:00:00").getTime() },
+    { name: "NDA II 2026", date: new Date("2026-09-13T10:00:00").getTime() },
+    { name: "CDS II 2026", date: new Date("2026-09-13T09:00:00").getTime() }
+  ];
+
+  function updateDefcon() {
+    const now = new Date().getTime();
+    
+    // Find the nearest upcoming exam
+    let nearestExam = null;
+    let minDiff = Infinity;
+    
+    for (const exam of exams) {
+      const diff = exam.date - now;
+      if (diff > 0 && diff < minDiff) {
+        minDiff = diff;
+        nearestExam = exam;
+      }
+    }
+    
+    // If all exams have passed
+    if (!nearestExam) {
+      setDefconState(1, "PAPER COMPLETE", "WAITING FOR NEXT CYCLE");
+      return;
+    }
+    
+    const daysRemaining = minDiff / (1000 * 60 * 60 * 24);
+    
+    if (daysRemaining <= 30) {
+      setDefconState(3, nearestExam.name, "HIGH READINESS");
+    } else {
+      setDefconState(2, nearestExam.name, "APPLICATION PHASE");
+    }
+  }
+  
+  function setDefconState(level, name, subtitle) {
+    levelEl.textContent = `DEFCON ${level}`;
+    examNameEl.textContent = name;
+    subtitleEl.textContent = subtitle;
+    
+    card.className = `metric-card defcon-state-${level}`;
+  }
+
+  // Initial update
+  updateDefcon();
+  
+  // Update hourly to ensure midnight rolls are caught without page reload
+  setInterval(updateDefcon, 1000 * 60 * 60);
+}
+
+document.addEventListener('DOMContentLoaded', initDefconWidget);
