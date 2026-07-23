@@ -300,6 +300,7 @@ body {
   height: 100%;
   flex-shrink: 0;
   z-index: 10;
+  overflow-x: hidden;
 }
 
 .logo-section {
@@ -4260,7 +4261,7 @@ body.locked-mode .main-content {
  
  
 /* MOBILE LANDSCAPE AND OVERLAP FIXES */
-.sidebar { overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.sidebar { overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
 .sidebar > * { flex-shrink: 0; }
 @media (max-width: 768px) {
   .ai-chatbot-launcher .launcher-text { display: none; }
