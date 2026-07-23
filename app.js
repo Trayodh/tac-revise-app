@@ -7794,3 +7794,30 @@ function initDefconWidget() {
 }
 
 document.addEventListener('DOMContentLoaded', initDefconWidget);
+
+// ==========================================
+// SHARE APP WIDGET LOGIC
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+  const shareBtn = document.getElementById('share-app-btn');
+  if (shareBtn) {
+    shareBtn.addEventListener('click', () => {
+      const shareData = {
+        title: 'Jayastra - Defence Exams Revision',
+        text: 'Check out Jayastra, the AI-powered revision platform for NDA, CDS, and AFCAT!',
+        url: window.location.origin
+      };
+      
+      if (navigator.share) {
+        navigator.share(shareData).catch((error) => console.log('Error sharing:', error));
+      } else {
+        // Fallback: copy to clipboard
+        navigator.clipboard.writeText(shareData.url).then(() => {
+          alert('Link copied to clipboard! Share it with your friends.');
+        }).catch(() => {
+          alert('Unable to copy link. Please manually copy the URL to share.');
+        });
+      }
+    });
+  }
+});
