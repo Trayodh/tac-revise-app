@@ -342,6 +342,8 @@ body {
   flex-direction: column;
   gap: 2px;
   flex-grow: 1;
+  flex-shrink: 1;
+  min-height: 0;
   overflow-y: auto;
 }
 
@@ -349,7 +351,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 12px 16px; font-size: 0.95rem;
+  padding: 14px 16px; font-size: 1.05rem;
   border-radius: 0;
   color: var(--text-secondary);
   text-decoration: none;
@@ -2959,7 +2961,7 @@ h2 {
   right: 24px;
   background: linear-gradient(135deg, var(--accent) 0%, var(--info) 100%);
   color: var(--bg-primary);
-  padding: 12px 16px; font-size: 0.95rem;
+  padding: 14px 16px; font-size: 1.05rem;
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -3580,7 +3582,46 @@ h2 {
 
 /* --- MOBILE HAMBURGER TOGGLE BUTTON --- */
 .mobile-menu-toggle {
-  display: none; /* Hidden on desktop */
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) rotate(180deg);
+  transition: left 0.3s ease, transform 0.3s ease;
+  z-index: 1100;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+  padding: 8px 4px;
+  box-shadow: 4px 0 12px rgba(0,0,0,0.5);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-menu-toggle:active {
+  background: var(--bg-tertiary);
+}
+.mobile-menu-toggle svg {
+  width: 18px;
+  height: 18px;
+  stroke: var(--accent);
+}
+
+@media (min-width: 769px) {
+  .mobile-menu-toggle {
+    left: 260px;
+  }
+  .sidebar {
+    transition: margin-left 0.3s ease;
+  }
+  body.sidebar-open .sidebar {
+    margin-left: -260px;
+  }
+  body.sidebar-open .mobile-menu-toggle {
+    left: 0;
+    transform: translateY(-50%) rotate(0deg);
+  }
 }
 
 /* --- MOBILE SIDEBAR OVERLAY BACKDROP --- */
@@ -3596,38 +3637,12 @@ h2 {
 
   /* ---- Arrow Toggle Tab ---- */
   .mobile-menu-toggle {
-    display: flex;
-    position: fixed;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    z-index: 1100;
-    width: 24px;
-    height: 56px;
-    border-radius: 0 8px 8px 0;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-left: none;
-    color: var(--accent);
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
-    transition: left 0.35s cubic-bezier(0.4, 0, 0.2, 1), background 0.2s ease;
-    -webkit-tap-highlight-color: transparent;
-    padding: 0;
-  }
-  .mobile-menu-toggle:active {
-    background: var(--bg-tertiary);
-  }
-  .mobile-menu-toggle svg {
-    width: 18px;
-    height: 18px;
-    stroke: var(--accent);
+    transform: translateY(-50%) rotate(0deg); /* Points right */
   }
   /* When sidebar is open, move the tab to the sidebar's right edge */
-  .mobile-menu-toggle.open {
+  .mobile-menu-toggle.open, body.sidebar-open .mobile-menu-toggle {
     left: 290px;
+    transform: translateY(-50%) rotate(180deg); /* Points left */
   }
 
   /* ---- Overlay Backdrop ---- */
@@ -3693,7 +3708,7 @@ h2 {
   }
 
   .nav-item {
-    padding: 12px 16px; font-size: 0.95rem;
+    padding: 14px 16px; font-size: 1.05rem;
     border-left: 4px solid transparent;
     border-bottom: none;
     font-size: 0.85rem;
