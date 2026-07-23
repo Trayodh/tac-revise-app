@@ -552,41 +552,41 @@
         <p class="subtitle">High-yield pointers, monthly MCQ checks, and consolidated bilateral visit trackers</p>
         
         <!-- Tab selector for Daily Intel Briefing Hub -->
-        <div id="ca-mode-selector" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; margin-top: 16px; margin-bottom: 24px; padding-bottom: 12px;">
-          <div class="subject-card active" id="btn-ca-mode-monthly" onclick="toggleCurrentAffairsMode('monthly')" style="background: rgba(34,197,94,0.1); border: 1px solid var(--accent); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
-            <div style="font-size: 2.5rem; margin-bottom: 12px;">📅</div>
-            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Monthly Feed</h3>
-            <div style="font-size: 0.8rem; color: var(--text-muted);">Daily Intel Briefings</div>
+        <div id="ca-mode-selector" style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 10px; margin-top: 16px; margin-bottom: 24px; padding-bottom: 12px; -webkit-overflow-scrolling: touch;">
+          <div class="subject-card active" id="btn-ca-mode-monthly" onclick="toggleCurrentAffairsMode('monthly')" style="flex: 1 1 0; min-width: 120px; background: rgba(34,197,94,0.1); border: 1px solid var(--accent); padding: 12px 8px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 1.8rem; margin-bottom: 8px;">📅</div>
+            <h3 style="margin-bottom: 4px; font-size: 0.85rem; line-height: 1.2;">Monthly Feed</h3>
+            <div style="font-size: 0.65rem; color: var(--text-muted); line-height: 1.2;">Daily Intel Briefings</div>
           </div>
-          <div class="subject-card" id="btn-ca-mode-visits" onclick="toggleCurrentAffairsMode('visits')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
-            <div style="font-size: 2.5rem; margin-bottom: 12px;">🤝</div>
-            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">PM Visits & Bilateral Deals</h3>
-            <div style="font-size: 0.8rem; color: var(--text-muted);">International Relations</div>
+          <div class="subject-card" id="btn-ca-mode-visits" onclick="toggleCurrentAffairsMode('visits')" style="flex: 1 1 0; min-width: 120px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 12px 8px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 1.8rem; margin-bottom: 8px;">🤝</div>
+            <h3 style="margin-bottom: 4px; font-size: 0.85rem; line-height: 1.2;">PM Visits & Bilateral</h3>
+            <div style="font-size: 0.65rem; color: var(--text-muted); line-height: 1.2;">International Relations</div>
           </div>
-          <div class="subject-card" id="btn-ca-mode-fta" onclick="toggleCurrentAffairsMode('fta')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
-            <div style="font-size: 2.5rem; margin-bottom: 12px;">📜</div>
-            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Trade Deals & FTAs</h3>
-            <div style="font-size: 0.8rem; color: var(--text-muted);">Economic Policies</div>
+          <div class="subject-card" id="btn-ca-mode-fta" onclick="toggleCurrentAffairsMode('fta')" style="flex: 1 1 0; min-width: 120px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 12px 8px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 1.8rem; margin-bottom: 8px;">📜</div>
+            <h3 style="margin-bottom: 4px; font-size: 0.85rem; line-height: 1.2;">Trade Deals & FTAs</h3>
+            <div style="font-size: 0.65rem; color: var(--text-muted); line-height: 1.2;">Economic Policies</div>
           </div>
-          <div class="subject-card" id="btn-ca-mode-dates" onclick="toggleCurrentAffairsMode('dates')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
-            <div style="font-size: 2.5rem; margin-bottom: 12px;">🗓️</div>
-            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Important Dates & Themes</h3>
-            <div style="font-size: 0.8rem; color: var(--text-muted);">Global Observances</div>
+          <div class="subject-card" id="btn-ca-mode-dates" onclick="toggleCurrentAffairsMode('dates')" style="flex: 1 1 0; min-width: 120px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 12px 8px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 1.8rem; margin-bottom: 8px;">🗓️</div>
+            <h3 style="margin-bottom: 4px; font-size: 0.85rem; line-height: 1.2;">Important Dates</h3>
+            <div style="font-size: 0.65rem; color: var(--text-muted); line-height: 1.2;">Global Observances</div>
           </div>
-          <div class="subject-card" id="btn-ca-mode-awards" onclick="toggleCurrentAffairsMode('awards')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
-            <div style="font-size: 2.5rem; margin-bottom: 12px;">🏅</div>
-            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Awards & Honours</h3>
-            <div style="font-size: 0.8rem; color: var(--text-muted);">National & Global</div>
+          <div class="subject-card" id="btn-ca-mode-awards" onclick="toggleCurrentAffairsMode('awards')" style="flex: 1 1 0; min-width: 120px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 12px 8px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 1.8rem; margin-bottom: 8px;">🏅</div>
+            <h3 style="margin-bottom: 4px; font-size: 0.85rem; line-height: 1.2;">Awards & Honours</h3>
+            <div style="font-size: 0.65rem; color: var(--text-muted); line-height: 1.2;">National & Global</div>
           </div>
-          <div class="subject-card" id="btn-ca-mode-exercises" onclick="toggleCurrentAffairsMode('exercises')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
-            <div style="font-size: 2.5rem; margin-bottom: 12px;">⚔️</div>
-            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Military Exercises</h3>
-            <div style="font-size: 0.8rem; color: var(--text-muted);">Port Calls & Procurements</div>
+          <div class="subject-card" id="btn-ca-mode-exercises" onclick="toggleCurrentAffairsMode('exercises')" style="flex: 1 1 0; min-width: 120px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 12px 8px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 1.8rem; margin-bottom: 8px;">⚔️</div>
+            <h3 style="margin-bottom: 4px; font-size: 0.85rem; line-height: 1.2;">Military Exercises</h3>
+            <div style="font-size: 0.65rem; color: var(--text-muted); line-height: 1.2;">Port Calls & Procurements</div>
           </div>
-          <div class="subject-card" id="btn-ca-mode-sports" onclick="toggleCurrentAffairsMode('sports')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
-            <div style="font-size: 2.5rem; margin-bottom: 12px;">🏆</div>
-            <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Sports</h3>
-            <div style="font-size: 0.8rem; color: var(--text-muted);">Winners & Events</div>
+          <div class="subject-card" id="btn-ca-mode-sports" onclick="toggleCurrentAffairsMode('sports')" style="flex: 1 1 0; min-width: 120px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 12px 8px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 1.8rem; margin-bottom: 8px;">🏆</div>
+            <h3 style="margin-bottom: 4px; font-size: 0.85rem; line-height: 1.2;">Sports</h3>
+            <div style="font-size: 0.65rem; color: var(--text-muted); line-height: 1.2;">Winners & Events</div>
           </div>
         </div>
 
