@@ -252,6 +252,13 @@ graph TD
 
 ## Visual Summary: Light & Optics
 
+<img src="/assets/images/physics/light_1784714012300.png" alt="Light Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/light_1784714157540.png" alt="Light Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/light_1784714199259.png" alt="Light Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+
 ### Human Eye Defects
 ```mermaid
 mindmap

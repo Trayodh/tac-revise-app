@@ -163,6 +163,13 @@ Phenomenon of total internal reflection is the principle behind optical fibres. 
 
 ## Visual Summary: Modern Physics
 
+<img src="/assets/images/physics/modern_physics_1784718589599.png" alt="Modern physics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/modern_physics_1784718627514.png" alt="Modern physics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/modern_physics_1784718645386.png" alt="Modern physics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+
 ### Nuclear Fission vs Fusion
 ```mermaid
 flowchart LR

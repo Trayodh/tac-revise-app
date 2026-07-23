@@ -197,6 +197,9 @@ If a particle repeats its motion about a fixed point after a regular time interv
 
 ## Visual Summary: Heat
 
+<img src="/assets/images/physics/heat_1784456031513.png" alt="Heat Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+
 ### Modes of Heat Transfer
 ```mermaid
 flowchart LR

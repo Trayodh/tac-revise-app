@@ -209,6 +209,24 @@ When cathode rays strike on a heavy metal of high melting points, then a very sm
 
 ## Visual Summary: Electricity & Magnetism
 
+<img src="/assets/images/physics/magnetism_1784718119991.png" alt="Magnetism Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/magnetism_1784718240533.png" alt="Magnetism Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/magnetism_1784718273766.png" alt="Magnetism Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/magnetism_IMG_20260722_163323.png" alt="Magnetism Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+
+<img src="/assets/images/physics/electricity_1784716221164.png" alt="Electricity Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/electricity_1784716266410.png" alt="Electricity Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/electricity_1784716296123.png" alt="Electricity Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/electricity_1784716344337.png" alt="Electricity Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+
 ### Series vs Parallel Circuits
 ```mermaid
 flowchart LR

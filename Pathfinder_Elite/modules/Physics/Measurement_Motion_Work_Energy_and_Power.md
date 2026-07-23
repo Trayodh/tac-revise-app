@@ -93,6 +93,23 @@ The energy of an object is its capacity for doing work. It is a scalar quantity 
 * Potential Energy: The energy possessed by a body by virtue of its position.
 
 ## Visual Summary & Diagrams
+
+<img src="/assets/images/physics/mechanics_1784640938313.png" alt="Mechanics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/mechanics_1784641054716.png" alt="Mechanics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/mechanics_1784641119109.png" alt="Mechanics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/mechanics_1784641174756.png" alt="Mechanics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/mechanics_1784641615440.png" alt="Mechanics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/mechanics_1784641712259.png" alt="Mechanics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/mechanics_1784642860822.png" alt="Mechanics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
+<img src="/assets/images/physics/mechanics_1784643305992.png" alt="Mechanics Diagram" style="width:100%; max-width:600px; border-radius:12px; margin: 20px 0; border: 1px solid var(--border);" />
+
 ### Projectile Motion Trajectory
 ```mermaid
 graph LR
