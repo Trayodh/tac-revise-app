@@ -351,7 +351,8 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 14px 16px; font-size: 1.05rem;
+  padding: 16px 16px;
+  font-size: 1.1rem;
   border-radius: 0;
   color: var(--text-secondary);
   text-decoration: none;
@@ -359,6 +360,7 @@ body {
   cursor: pointer;
   transition: var(--transition-fast);
   border-left: 4px solid transparent;
+  flex-shrink: 0;
 }
 
 .nav-item:hover {
@@ -3708,15 +3710,16 @@ h2 {
   }
 
   .nav-item {
-    padding: 14px 16px; font-size: 1.05rem;
+    padding: 14px 16px;
+    font-size: 1.05rem;
     border-left: 4px solid transparent;
     border-bottom: none;
-    font-size: 0.85rem;
     flex-direction: row;
     gap: 12px;
     justify-content: flex-start;
     flex: unset;
     min-width: unset;
+    flex-shrink: 0;
   }
 
   .nav-item.active {
