@@ -63,6 +63,7 @@ Difficulty: (Easy/Medium/Hard) | Importance: (Low/High/Critical) | Exam Frequenc
 [REVISION_GRAPH]
 Generate a raw Mermaid.js graph starting with 'graph TD'. 
 Make the current topic the central node. Connect it to 2 prerequisites (arrows pointing to center), 2 successors (arrows pointing away), and 2 parallel concepts from different subjects. Use short node names. Do NOT wrap in markdown \`\`\` blocks, just output the raw Mermaid syntax.
+CRITICAL RULE FOR MERMAID: You MUST use safe alphanumeric node IDs and strictly enclose all node text in double quotes to prevent syntax errors (e.g., nodeA["Prerequisite"] --> nodeB["Topic"]). Do NOT use double brackets like [[keyword]] or unescaped special characters inside the graph.
 
 [TEACHING_MODE]
 Write a 1-2 paragraph engaging story, historical narrative, or military analogy that makes the core concept unforgettable.
