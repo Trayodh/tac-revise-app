@@ -39,6 +39,13 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
+    visit: "India and France joint maritime exercise 'Varuna'",
+    period: "June 2026",
+    purpose: "To enhance interoperability, strengthen maritime security cooperation, and share best practices in advanced naval operations, particularly anti-submarine warfare.",
+    deals: "This bilateral naval exercise deepens the strategic partnership between India and France, crucial for regional maritime security in the Indian Ocean Region. It showcases mutual commitment to a free and open Indo-Pacific and builds trust and coordination for potential future joint operations or defence procurements, impacting India's strategic autonomy and defence diplomacy.",
+  },
+
+  {
     "visit": "Skyroot Rocket Milestone",
     "period": "July 2026",
     "purpose": "The Indian space industry achieved a significant milestone with a successful rocket launch by Skyroot Aerospace, marking a new era for private participation.",

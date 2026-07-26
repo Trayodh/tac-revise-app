@@ -1,0 +1,108 @@
+GENERAL SCIENCE > Chemistry
+637
+(iii) Gamma (Y) rays (no charge and no mass) They
+Note
+are not deflected from their path in the electric or
+magnetic field. These are electromagnetic
+radiations and have very high penetrating power.
+Emission of Y-rays is the secondary effect of
+radioactive charge.
+1. Stable nuclei are those for which number of neutrons and
+protons are equal.
+2. The time taken by half of the atoms of a radioactive element to
+disintegrate is called its half-life. Its unit is time-1.
+3. X-rays were discovered by Roentgen in 1896. These are
+electromagnetic waves of very short wavelength and are used
+to detect cracks in fractured bones.
+4. If the energies of α, ẞ and y-particles is same, then penerating
+power a <ẞ<y.
+Group Displacement Law
+This law was put forward by Soddy, Fajan and Russel on
+the basis of following fact:
+(i) When a radioactive element emits an α-particle, the
+atomic number of the resulting nuclide decreases by 4
+units e.g.
+238
+92
+U
+->
+234 Th +He
+90
+(ii) When a radioactive element emits a B-particle, the
+atomic number of the resulting nuclide increases by
+one unit but the atomic mass remains unchanged e.g.,
+238 U
+92
+238
+93
+3 Np + e
+NUCLEAR REACTIONS
+These are of following two types:
+Nuclear Fission
+The splitting of a heavy nucleus into two smaller of nearly
+comparable masses and release of about 200MeV of energy
+is called nuclear fission. Nuclear fission was discovered by
+'Hahn' and 'Strassmann' in 1939.
+• Atom bomb is the result of uncontrolled nuclear fission.
+•
+•
+The device in which controlled nuclear fission (chain
+reactions) is carried out is called nuclear reactor. The
+fission is controlled by absorbing neutrons by using
+cadmium or boron rods.
+Heavy water (D2O, molecular weight 20) and graphite
+are used as moderator for slowing down the fast moving
+neutrons. U235 is used as a nuclear fuel.
+Nuclear Fusion
+The union of (two or more) lighter nuclei to form a heavier
+nucleus is called the nuclear fusion. It is also accompanied
+by release of energy because the total mass of products is
+lesser than the total mass of reactants.
+•
+Nuclear fusion occurs only at extremely high
+temperature (>106K), so it is also called thermonuclear
+reactions.
+Hydrogen bomb (mixture of deuterium oxide and
+tritium dioxide) is the result of nuclear fusion.
+Source of solar (sun) and stellar energy is nuclear fusion.
+The source of emission of large amount of energy during
+nuclear fission or fusion processes is conversion of mass
+into
+It is given by the relation, E = = mc² and
+energy.
+calculated in MeV.
+Applications of Radioisotopes
+Isotopes of all the known elements with Z >83 are
+radioactive and are called radioisotopes. These are used for
+various purposes, e.g. radiocarbon dating is used to
+determine the age of dead specimen with C14 content by
+comparing it with C-12 content.
+n
+N = No
+1
+2
+where, n=total time (T)/t1/2
+No
+=
+ratio of C14/C12 in green plant
+N = ratio of C14/C12 in wood
+Rock dating or uranium dating is used to determine the age
+of rocks or earth. It is based on 82 Pb206 and 92 U238 ratio.
+Uses of other Radioisotopes
+Radioisotope
+1131 (lodine-131)
+1123 (lodine-123)
+60
+Co (Cobalt-60)
+Na 24 (Sodium-24)
+p32 (Phosphorus-32)
+C14 (Carbon-14)
+Uses
+(1) To study the structure and activity of
+thyroid gland
+(ii) For the treatment of thyroid disease
+Brain imaging
+Treatment of cancer
+To trace the flow of blood
+For leukemia therapy (blood cancer)
+To study the kinetics of photosynthesis

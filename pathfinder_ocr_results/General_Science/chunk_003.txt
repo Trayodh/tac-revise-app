@@ -1,0 +1,113 @@
+592
+CDS Pathfinder
+•
+The surface tension of a liquid decreases with increase in
+temperature and becomes zero at the critical temperature.
+On mixing soap, the surface tension of water decreases.
+Some Phenomena Based
+on Surface Tension
+•
+•
+.
+•
+is tasty
+Warm soup
+because at high temperature its surface
+tension is low and consequently the soup spreads on all parts
+the tongue.
+of
+Medicines used for washing wounds, as dettol have a surface
+tension lower than water. So, they reach the fine cavities formed
+in the wound.
+The surface tension of the tooth-paste scum is also less that it
+spreads quickly on the full areas of teeth and clean them.
+Insects and mosquitoes swim on the surface of water in ponds
+and lakes due to surface tension.
+Hair of a shaving brush cling together due to surface tension,
+when the brush is taken out from the water.
+The ends of a glass tube become rounded on heating. Small
+drops of mercury are spherical while large ones are flat.
+Formation of lead shots, liquid-drop model of nucleus.
+Floatation of needle on water. Dancing of camphor on water
+and helping. Detergent in cleaning the clothes all are due to
+surface tension.
+ANGLE OF CONTACT
+The angle inside the liquid between the tangent to the solid
+surface and the tangent to the liquid surface at the point of contact
+is called the angle of contact for that pair of solid and liquid.
+•
+•
+•
+•
+The angle of contact for pure water and clean glass is zero. For
+ordinary water and glass it is about 8°.
+The angle of contact for water and silver is 90°.
+The liquids which wet the solid have acute angle of contact.
+Meniscus of these liquids will be concave.
+The liquids which do not wet the solid have obtuse angle of
+contact as for mercury and glass the angle of contact is 135°.
+Meniscus of these liquids will be convex.
+CAPILLARITY
+If a capillary tube is dipped in a liquid, liquid ascends or descends
+in the capillary tube. This phenomenon is called capillarity.
+•
+The oil in the wick of a lamp rises due to capillary action of
+threads in the wick.
+To prevent loss of water due to capillary action, the soil is
+loosened and split into pieces by the farmers.
+• The root hairs of plants draws water from the soil through
+capillary action.
+•
+-
+Writing nib is split in the middle, so that a fine
+capillary is formed in it. When it is dipped in
+ink, the ink rises in the capillary.
+Note The liquids which wet glass for which the angle of
+contact is accute, rise up in capillary tube, while those
+which do not wet glass, for which the angle of contact is
+obtuse are depressed down in the capillary.
+VISCOSITY
+it
+It is the property of the liquid by virtue of which,
+opposes the relative motion between its adjacent
+layers.
+•
+.
+•
+•
+Viscosity is the property of liquids and gases
+both.
+With rise in temperature, viscosity of liquids
+decreases and that for gases increases.
+Viscosity of liquid increases with increase in
+pressure.
+Viscosity of a fluid is measured by its coefficient
+of viscosity. It's SI unit is (N-s/m2).
+STOKES' LAW
+When a small spherical body of radius r is moving
+slowly with a constant velocity v through a
+perfectly homogeneous medium (liquid or gas) of
+infinite extension and coefficient of viscosity n
+then the retarding viscous force acting an the body
+is F =6πηγυ
+•
+This law is used in Millikan's method for
+determining the electronic charge and for finding
+out the radii of small aid-drops by measuring their
+terminal velocity in air.
+TERMINAL VELOCITY
+When a body falls in viscous medium, its velocity
+first increases and finally becomes constant. This
+constant velocity is called terminal velocity. The
+terminal velocity of the sphere is directly
+proportional to the square of the radius of the
+sphere.
+•
+The cloud particles fall down very slowly
+because of the viscosity of air and hence appear
+floating in the sky.
+Thin liquids like water, alcohol, etc are less
+viscous than thick liquids coal for blood, honey,
+glycerine, etc.
+•
+Honey is less viscous than glycerine.

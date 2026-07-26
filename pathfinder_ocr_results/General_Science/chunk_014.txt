@@ -1,0 +1,139 @@
+GENERAL SCIENCE > Chemistry
+647
+Second Law of Electrolysis
+It states that the masses of the resulting separated elements
+are directly proportional to the atomic masses of the
+elements, when an appropriate integral divisor is applied.
+W α E
+or
+W₁ _E₁
+W₂
+=
+E2
+Electrochemical Series
+When metals are arranged in the
+increasing order of their
+standard reduction electrode
+potential, a series is obtained,
+which is called electrochemical
+series. It is also called
+reactivity series (as reactivity
+follows the reverse order).
+Lower is the value of reduction
+potential, greater would be its
+reducing power.
+found in free state
+Moderately
+e.g.
+Zn + 2HCl -> ZnCl2 + H2
+The metals placed above are good reducing agent and
+reduces the metal oxides of the metal placed below them.
+CORROSION
+It is the process of oxidative deterioration of a metal
+surface by the action of environment to form unwanted
+corrosive products. e.g. conversion of iron into rust
+(Fe2O3 xH2O). Corrosion of iron is called rusting.
+Tarnishing of silver (due to the formation of Ag₂S),
+development of green coating [of Cu (OH)2 CuCO3 (basic
+copper carbonate)] on copper and bronze. It is basically an
+electrochemical process.
+It is accelerated by the presence of impurities, H+, electrolytes
+such as NaCl and gases such as CO2, SO 2, NO, NO2 etc.
+K
+Ca
+Highly reactive
+Na
+metals never
+Mg
+Metals Al
+above Zn
+hydrogen Cr
+Fe
+reactive
+Ni
+metals
+Sn
+Pb
+H
+Cu
+Metals Hg
+Less reactive
+-metals
+Least reactive
+Pt
+metals (found
+Au
+in the free state)
+°
+below Ag
+Depending upon the reactivity, hydrogen Pd
+the occurrence of metals in the
+reactivity series be
+may
+represented as shown in the
+figure.
+Thus, gold is the least reactive metal and hence, found in
+native state. The more reactive metals of the series can
+displace the less reactive metals from their salt solutions.
+e.g.
+-> No reaction
+Cu + FeSO4
+but Fe + CuSO4 →
+FeSO4 + Cu
+Moreover, metal placed before H can evolve H₂ from
+dilute acids.
+Prevention of Corrosion
+°
+•
+°
+•
+By coating with a suitable material (barrier protection
+viz paint, grease, metals (like Zn, Cu, Ni, Cr, Sn),
+adherent film of iron phosphate, adherent coating of
+magnetic oxide (Fe3O4).
+By alloying with suitable metals.
+By cathodic protection-the metal is made cathode by
+application of external circuit.
+By using artificial anode (sacrificial protection), more
+anodic metal (like Zn, Mg, Al etc.,) is connected to iron
+article by a wire. In such cases, current flows
+towards more reactive metal and prevents iron from
+corrosion.
+By galvanisation (covering of iron article with zinc).
+INORGANIC CHEMISTRY
+CLASSIFICATION OF ELEMENTS
+.
+.
+•
+In 1896, Mendeleev gave a periodic law. According to
+which "the properties of elements are the periodic
+function of their atomic masses".
+There were seven periods (horizontal rows) and eight
+groups (vertical columns) in the periodic table of
+Mendeleev having 63 known elements at that time.
+Moseley modified Mendeleev's periodic law and
+proposed modern periodic law. According to modern
+periodic law, "the properties of elements are periodic
+function of their atomic numbers."
+There are eighteen vertical columns, known as groups
+and seven horizontal rows, known as periods, in the
+long form of periodic table.
+Periodic Properties The properties which are repeated
+at regular intervals are known as periodic properties.
+Atomic and ionic size, electron affinity, ionisation
+potential, electronegativity, electropositive character,
+acidic or basic character, metallic nature, etc., are some
+important periodic properties.
+Characteristics of Periods
+• The number of valence electrons in elements increases
+from 1 to 8 on moving from left to right in a period.
+•
+•
+The elements in a period have consecutive atomic
+numbers.
+The valency of the element increases from 1 to 4 and
+then decreases to 0 (zero) on moving from left to right
+in a period, with respect to hydrogen.
+Atomic size, electropositive character, metallic character,
+reducing nature of elements and basic nature of oxides
+all decrease from left to right in a period.

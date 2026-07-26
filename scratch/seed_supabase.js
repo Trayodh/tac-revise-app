@@ -136,11 +136,11 @@ async function seed() {
       
       exam.questions.forEach((q, idx) => {
         questionRecords.push({
-          id: q.id || `${exam.id}-q-${idx}`,
+          id: q.id ? `${exam.id}-${q.id}` : `${exam.id}-q-${idx}`,
           exam_id: exam.id || null,
           question_text: q.question || null,
           options: q.options || null,
-          correct_option: q.correct !== undefined ? q.correct : null,
+          correct_option: (q.correct === null || q.correct === undefined || isNaN(q.correct)) ? 0 : q.correct,
           explanation: q.explanation || null
         });
       });

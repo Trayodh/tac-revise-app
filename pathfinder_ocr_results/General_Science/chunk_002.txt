@@ -1,0 +1,113 @@
+GENERAL SCIENCE > Physics
+587
+ROTATIONAL MOTION AND GRAVITATION
+ROTATIONAL MOTION
+When a body rotates about a fixed axis, it is said to
+perform a rotational motion and the axis is called the
+axis of rotation. In rotational motion every particle of
+the body moves in a circle and the centres of all these
+circles lie at the axis of rotation.
+The rotating blades of an electric fan and the motion
+of a top are examples of rotational motion.
+Rigid body is the body in which there is no
+displacement among the particles of the body on
+applying an external force.
+Centre of Mass [CM]
+A point within the body or outside the body at which the
+whole mass of the body is assumed to be concentrated.
+•
+•
+The centre of mass of sphere, cylinder and ring is at
+its geometric centre.
+The centre of mass may lie outside the body where
+there is no material as in case of ring, hollow sphere,
+hollow cylinder, etc.
+Moment of Inertia
+Moment of inertia of a body with respect to axis of
+rotation is the product of the mass (m) and the square
+of distance from the axis of rotation (R).
+i.e. moment of inertia I =mR²
+•
+•
+•
+•
+The SI unit of moment of inertia is kg-m².
+Moment of inertia of a ring about an axis passing
+through its centre and perpendicular to its plane is
+I =MR².
+Moment of inertia of a diameter about its diameter is
+1 = MR².
+2
+The moment of inertia depends not only on the mass
+and size of the body but also upon the manner in
+which the mass is distributed around the axis of
+rotation.
+Practical applications of moment of inertia are given
+below
+•
+•
+The moment of inertia plays important role in our
+daily life.
+In cycle, rikshaw, bullockcart, etc., the moment of
+inertia of the wheels is increased by concentrating
+most of the mass at the rim of the wheel and
+connecting the rim to the axle of the wheel through
+spokes.
+It is due to the large moment of inertia of the wheels
+that when we stop cycling, the wheels of the cycle
+continue rotating for some time.
+Radius of Gyration
+Radius of gyration is defined as the distance from axis of
+rotation at which, if total mass of the body were supposed to
+be concentrated, the moment of inertia would be same.
+I =MK²
+where, M = total mass of the body, K = radius of gyration
+Torque or Moment of Force
+The turning effect of a body is known as the moment of the
+force or torque.
+•
+•
+Moment of force or torque, T=F'd, here d is the
+perpendicular distance from the axis of rotation.
+It is a vector quantity having SI unit N-m.
+A body of lesser weight can produce the same turning
+effect as the body of higher weight by adjusting their
+distance from the axis of rotation.
+Torque is equal to the product of moment of inertia and
+angular acceleration. i.e. T=1 xα.
+Practical applications of torque are given below
+•
+The handle or the knob is fitted near the free edge of the
+door. So that, a heavy revolving door is opened or closed
+easily, when the force is applied at the edge of the door.
+A wrench with a long arm is used to unscrew a nut fitted
+tightly into a bolt and the handle of a screw driver is made
+wide.
+ANGULAR MOMENTUM
+•
+The angular momentum (J) of a body about an axis is equal
+to the product of the moment of inertia (I) of the body and
+its angular velocity (w) about that axis. i.e. J =Iw.
+If no external torque is acting upon a body rotating about
+an axis, then the angular momentum of the body remains
+constant. It is called conservation of angular momentum.
+Examples related to conservation of angular momentum are
+given below
+•
+When a diver jumps into water from a height, he does not
+keep his body straight but pulls in his arms and legs
+towards the centre of his body. On doing so, the moment
+of inertia of his body decreases. But, since the angular
+momentum remains constant, his angular velocity increases.
+A man with his arms outstretched and holding heavy
+dumb-bells in each hand, is standing at the centre of a
+rotating table. When the man pulls-in his arms, the speed of
+rotation of the table increases.
+The reason is that on pulling-in the arms, the distance of
+the dumb bells from the axis of rotation decreases and so
+the moment of inertia of the man decreases. Therefore by
+conservation of angular momentum, the angular velocity
+increases.
+The angular velocity of revolution of planet around the sun
+in elliptical orbit increases, when the planet comes closer to
+the sun.

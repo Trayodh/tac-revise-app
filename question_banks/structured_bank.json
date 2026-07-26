@@ -15217,225 +15217,85 @@
           "exam": "CDS"
         },
         {
-          "question": "Exercise 'KHANJAR' is a bilateral special forces training exercise conducted between India and which nation?",
+          "question": "Under which operation did India send 50 tonnes of emergency relief materials to earthquake-hit Venezuela in July 2026?",
           "options": [
-            "Kazakhstan",
-            "Kyrgyzstan",
-            "Uzbekistan",
-            "Tajikistan"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Exercise Khanjar is the annual bilateral special forces joint training drill conducted between India and Kyrgyzstan.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Which bilateral naval exercise is conducted between the navies of India and France?",
-          "options": [
-            "Simbex",
-            "Varuna",
-            "Indra",
-            "Konkan"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Exercise Varuna is the annual bilateral maritime exercise conducted jointly by the Indian Navy and French Navy.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Which instrument is Rakesh Chaurasia famous for playing, for which he won two Grammys?",
-          "options": [
-            "Sitar",
-            "Bansuri (Flute)",
-            "Tabla",
-            "Sarod"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri).",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "What is the approximate range of the Agni-Prime (Agni-P) ballistic missile successfully tested by the SFC?",
-          "options": [
-            "500 - 800 km",
-            "1000 - 2000 km",
-            "3000 - 4000 km",
-            "5000 km"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Agni-Prime is a medium-range canisterised ballistic missile with an operational range between 1,000 and 2,000 km.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "What is the primary mission objective of NASA's Lunar Gateway program?",
-          "options": [
-            "Deep space radio telescope installation",
-            "Orion spacecraft crew habitation in lunar orbit",
-            "Mapping Mars surface topography",
-            "Mining asteroids near Earth orbit"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] The Lunar Gateway is an essential component of NASA's Artemis program, serving as a multi-purpose outpost orbiting the Moon to support long-term lunar exploration.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "IN-SPACe, the space regulator for private companies, is headquartered in which Indian city?",
-          "options": [
-            "Bengaluru",
-            "Ahmedabad",
-            "Hyderabad",
-            "Thiruvananthapuram"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] IN-SPACe is headquartered in Bopal, Ahmedabad, Gujarat.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "The Green Credit Programme was globally launched by India during which event?",
-          "options": [
-            "COP26 Glasgow",
-            "COP27 Sharm El-Sheikh",
-            "COP28 Dubai",
-            "COP29 Baku"
+            "Operation Dost",
+            "Operation Maitri",
+            "Operation Sahayata",
+            "Operation Karuna"
           ],
           "correct": 2,
-          "explanation": "[April 2026] The Global Green Credit Initiative was launched by Prime Minister Narendra Modi at the UN Climate Change Conference (COP28) in Dubai in 2023.",
+          "explanation": "[July 2026] Operation Sahayata was initiated to provide relief to Venezuela following a devastating earthquake.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which was the first European country to accept UPI payments at national landmarks (like the Eiffel Tower)?",
+          "question": "The DRDO recently flight-tested the HSTDV. What type of engine powers the HSTDV during its hypersonic cruise phase?",
           "options": [
-            "Germany",
-            "France",
-            "United Kingdom",
-            "Italy"
+            "Ramjet engine",
+            "Scramjet engine",
+            "Cryogenic engine",
+            "Turbojet engine"
           ],
           "correct": 1,
-          "explanation": "[April 2026] France was the first European nation to accept UPI, starting at the Eiffel Tower, through an agreement with Lyra Network.",
+          "explanation": "[July 2026] HSTDV is powered by a scramjet engine, which allows supersonic combustion necessary for hypersonic flight.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which satellite series is specifically dedicated to military/civil communication, with GSAT-20 launched via a SpaceX Falcon 9?",
+          "question": "Who won the Wimbledon Men's Singles title in July 2026?",
           "options": [
-            "EOS Series",
-            "GSAT Series",
-            "INSAT Series",
-            "Cartosat Series"
+            "Novak Djokovic",
+            "Jannik Sinner",
+            "Carlos Alcaraz",
+            "Daniil Medvedev"
           ],
-          "correct": 1,
-          "explanation": "[May 2026] The GSAT (Geosynchronous Satellite) series comprises India's indigenously developed communications satellites.",
+          "correct": 2,
+          "explanation": "[July 2026] Carlos Alcaraz won the Wimbledon Men's Singles championship in July 2026.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "What type of missile is 'Astra Mk-1', developed by DRDO for the Indian Air Force?",
+          "question": "Which Southeast Asian country became the third international customer of the BrahMos missile in July 2026?",
           "options": [
-            "Surface-to-Air Missile",
-            "Air-to-Air Beyond Visual Range Missile",
-            "Anti-Radiation Missile",
-            "Cruise Missile"
-          ],
-          "correct": 1,
-          "explanation": "[May 2026] Astra is India's first indigenous Beyond Visual Range (BVR) Air-to-Air missile.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Neeraj Chopra won the Olympic Gold Medal in Javelin Throw at which Olympic Games?",
-          "options": [
-            "Rio Olympics 2016",
-            "Tokyo Olympics 2020",
-            "Paris Olympics 2024",
-            "London Olympics 2012"
-          ],
-          "correct": 1,
-          "explanation": "[May 2026] Neeraj Chopra won the historic gold medal at the Tokyo 2020 Olympic Games (held in 2021) with a throw of 87.58m.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "The Great Barrier Reef is situated off the coast of which nation?",
-          "options": [
-            "New Zealand",
-            "Australia",
+            "Malaysia",
             "Indonesia",
-            "Philippines"
+            "Thailand",
+            "Singapore"
           ],
           "correct": 1,
-          "explanation": "[May 2026] The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia.",
+          "explanation": "[July 2026] Indonesia signed a $200 million deal for two BrahMos batteries, joining the Philippines and Vietnam.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which statutory body or authority was newly approved to regulate consumer protection and enforce rights in India?",
+          "question": "Where was the 18th BRICS Summit held in July 2026?",
           "options": [
-            "CCI",
-            "CCPA",
-            "FSSAI",
-            "IRDAI"
+            "Johannesburg, South Africa",
+            "Kazan, Russia",
+            "Beijing, China",
+            "New Delhi, India"
           ],
           "correct": 1,
-          "explanation": "[May 2026] The Central Consumer Protection Authority (CCPA) was established under the Consumer Protection Act, 2019, to protect and enforce consumer rights.",
+          "explanation": "[July 2026] The 18th BRICS Summit was hosted by Russia in the city of Kazan.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which Article of the Constitution of India provides for the establishment of an Inter-State Council?",
+          "question": "Which vaccine became the first dengue vaccine to receive market authorization from the DCGI in India in July 2026?",
           "options": [
-            "Article 262",
-            "Article 263",
-            "Article 280",
-            "Article 312"
+            "Dengvaxia",
+            "QDENGA",
+            "Covaxin",
+            "ZyCoV-D"
           ],
           "correct": 1,
-          "explanation": "[May 2026] Article 263 of the Constitution provides for the setting up of an Inter-State Council by the President.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Chabahar Port is located in which gulf/sea region?",
-          "options": [
-            "Persian Gulf",
-            "Gulf of Oman",
-            "Red Sea",
-            "Aden Gulf"
-          ],
-          "correct": 1,
-          "explanation": "[May 2026] Chabahar Port is located on the Makran coast of Iran, along the Gulf of Oman, offering direct access to the Indian Ocean.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "The IndiaAI Mission plans to establish a compute infrastructure of at least how many GPUs?",
-          "options": [
-            "2,000",
-            "5,000",
-            "10,000",
-            "50,000"
-          ],
-          "correct": 2,
-          "explanation": "[May 2026] The mission aims to build a public-private AI compute capacity of 10,000 or more graphics processing units (GPUs) to support research.",
+          "explanation": "[July 2026] QDENGA (TAK-003) is the first dengue vaccine approved in India, offering protection against all four serotypes.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
@@ -41440,225 +41300,85 @@
       ],
       "current_affairs": [
         {
-          "question": "Exercise 'KHANJAR' is a bilateral special forces training exercise conducted between India and which nation?",
+          "question": "Under which operation did India send 50 tonnes of emergency relief materials to earthquake-hit Venezuela in July 2026?",
           "options": [
-            "Kazakhstan",
-            "Kyrgyzstan",
-            "Uzbekistan",
-            "Tajikistan"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Exercise Khanjar is the annual bilateral special forces joint training drill conducted between India and Kyrgyzstan.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Which bilateral naval exercise is conducted between the navies of India and France?",
-          "options": [
-            "Simbex",
-            "Varuna",
-            "Indra",
-            "Konkan"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Exercise Varuna is the annual bilateral maritime exercise conducted jointly by the Indian Navy and French Navy.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Which instrument is Rakesh Chaurasia famous for playing, for which he won two Grammys?",
-          "options": [
-            "Sitar",
-            "Bansuri (Flute)",
-            "Tabla",
-            "Sarod"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri).",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "What is the approximate range of the Agni-Prime (Agni-P) ballistic missile successfully tested by the SFC?",
-          "options": [
-            "500 - 800 km",
-            "1000 - 2000 km",
-            "3000 - 4000 km",
-            "5000 km"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Agni-Prime is a medium-range canisterised ballistic missile with an operational range between 1,000 and 2,000 km.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "What is the primary mission objective of NASA's Lunar Gateway program?",
-          "options": [
-            "Deep space radio telescope installation",
-            "Orion spacecraft crew habitation in lunar orbit",
-            "Mapping Mars surface topography",
-            "Mining asteroids near Earth orbit"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] The Lunar Gateway is an essential component of NASA's Artemis program, serving as a multi-purpose outpost orbiting the Moon to support long-term lunar exploration.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "IN-SPACe, the space regulator for private companies, is headquartered in which Indian city?",
-          "options": [
-            "Bengaluru",
-            "Ahmedabad",
-            "Hyderabad",
-            "Thiruvananthapuram"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] IN-SPACe is headquartered in Bopal, Ahmedabad, Gujarat.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "The Green Credit Programme was globally launched by India during which event?",
-          "options": [
-            "COP26 Glasgow",
-            "COP27 Sharm El-Sheikh",
-            "COP28 Dubai",
-            "COP29 Baku"
+            "Operation Dost",
+            "Operation Maitri",
+            "Operation Sahayata",
+            "Operation Karuna"
           ],
           "correct": 2,
-          "explanation": "[April 2026] The Global Green Credit Initiative was launched by Prime Minister Narendra Modi at the UN Climate Change Conference (COP28) in Dubai in 2023.",
+          "explanation": "[July 2026] Operation Sahayata was initiated to provide relief to Venezuela following a devastating earthquake.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which was the first European country to accept UPI payments at national landmarks (like the Eiffel Tower)?",
+          "question": "The DRDO recently flight-tested the HSTDV. What type of engine powers the HSTDV during its hypersonic cruise phase?",
           "options": [
-            "Germany",
-            "France",
-            "United Kingdom",
-            "Italy"
+            "Ramjet engine",
+            "Scramjet engine",
+            "Cryogenic engine",
+            "Turbojet engine"
           ],
           "correct": 1,
-          "explanation": "[April 2026] France was the first European nation to accept UPI, starting at the Eiffel Tower, through an agreement with Lyra Network.",
+          "explanation": "[July 2026] HSTDV is powered by a scramjet engine, which allows supersonic combustion necessary for hypersonic flight.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which satellite series is specifically dedicated to military/civil communication, with GSAT-20 launched via a SpaceX Falcon 9?",
+          "question": "Who won the Wimbledon Men's Singles title in July 2026?",
           "options": [
-            "EOS Series",
-            "GSAT Series",
-            "INSAT Series",
-            "Cartosat Series"
+            "Novak Djokovic",
+            "Jannik Sinner",
+            "Carlos Alcaraz",
+            "Daniil Medvedev"
           ],
-          "correct": 1,
-          "explanation": "[May 2026] The GSAT (Geosynchronous Satellite) series comprises India's indigenously developed communications satellites.",
+          "correct": 2,
+          "explanation": "[July 2026] Carlos Alcaraz won the Wimbledon Men's Singles championship in July 2026.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "What type of missile is 'Astra Mk-1', developed by DRDO for the Indian Air Force?",
+          "question": "Which Southeast Asian country became the third international customer of the BrahMos missile in July 2026?",
           "options": [
-            "Surface-to-Air Missile",
-            "Air-to-Air Beyond Visual Range Missile",
-            "Anti-Radiation Missile",
-            "Cruise Missile"
-          ],
-          "correct": 1,
-          "explanation": "[May 2026] Astra is India's first indigenous Beyond Visual Range (BVR) Air-to-Air missile.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Neeraj Chopra won the Olympic Gold Medal in Javelin Throw at which Olympic Games?",
-          "options": [
-            "Rio Olympics 2016",
-            "Tokyo Olympics 2020",
-            "Paris Olympics 2024",
-            "London Olympics 2012"
-          ],
-          "correct": 1,
-          "explanation": "[May 2026] Neeraj Chopra won the historic gold medal at the Tokyo 2020 Olympic Games (held in 2021) with a throw of 87.58m.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "The Great Barrier Reef is situated off the coast of which nation?",
-          "options": [
-            "New Zealand",
-            "Australia",
+            "Malaysia",
             "Indonesia",
-            "Philippines"
+            "Thailand",
+            "Singapore"
           ],
           "correct": 1,
-          "explanation": "[May 2026] The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia.",
+          "explanation": "[July 2026] Indonesia signed a $200 million deal for two BrahMos batteries, joining the Philippines and Vietnam.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which statutory body or authority was newly approved to regulate consumer protection and enforce rights in India?",
+          "question": "Where was the 18th BRICS Summit held in July 2026?",
           "options": [
-            "CCI",
-            "CCPA",
-            "FSSAI",
-            "IRDAI"
+            "Johannesburg, South Africa",
+            "Kazan, Russia",
+            "Beijing, China",
+            "New Delhi, India"
           ],
           "correct": 1,
-          "explanation": "[May 2026] The Central Consumer Protection Authority (CCPA) was established under the Consumer Protection Act, 2019, to protect and enforce consumer rights.",
+          "explanation": "[July 2026] The 18th BRICS Summit was hosted by Russia in the city of Kazan.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which Article of the Constitution of India provides for the establishment of an Inter-State Council?",
+          "question": "Which vaccine became the first dengue vaccine to receive market authorization from the DCGI in India in July 2026?",
           "options": [
-            "Article 262",
-            "Article 263",
-            "Article 280",
-            "Article 312"
+            "Dengvaxia",
+            "QDENGA",
+            "Covaxin",
+            "ZyCoV-D"
           ],
           "correct": 1,
-          "explanation": "[May 2026] Article 263 of the Constitution provides for the setting up of an Inter-State Council by the President.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Chabahar Port is located in which gulf/sea region?",
-          "options": [
-            "Persian Gulf",
-            "Gulf of Oman",
-            "Red Sea",
-            "Aden Gulf"
-          ],
-          "correct": 1,
-          "explanation": "[May 2026] Chabahar Port is located on the Makran coast of Iran, along the Gulf of Oman, offering direct access to the Indian Ocean.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "The IndiaAI Mission plans to establish a compute infrastructure of at least how many GPUs?",
-          "options": [
-            "2,000",
-            "5,000",
-            "10,000",
-            "50,000"
-          ],
-          "correct": 2,
-          "explanation": "[May 2026] The mission aims to build a public-private AI compute capacity of 10,000 or more graphics processing units (GPUs) to support research.",
+          "explanation": "[July 2026] QDENGA (TAK-003) is the first dengue vaccine approved in India, offering protection against all four serotypes.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
@@ -59638,225 +59358,85 @@
           "exam": "AFCAT"
         },
         {
-          "question": "Exercise 'KHANJAR' is a bilateral special forces training exercise conducted between India and which nation?",
+          "question": "Under which operation did India send 50 tonnes of emergency relief materials to earthquake-hit Venezuela in July 2026?",
           "options": [
-            "Kazakhstan",
-            "Kyrgyzstan",
-            "Uzbekistan",
-            "Tajikistan"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Exercise Khanjar is the annual bilateral special forces joint training drill conducted between India and Kyrgyzstan.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Which bilateral naval exercise is conducted between the navies of India and France?",
-          "options": [
-            "Simbex",
-            "Varuna",
-            "Indra",
-            "Konkan"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Exercise Varuna is the annual bilateral maritime exercise conducted jointly by the Indian Navy and French Navy.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Which instrument is Rakesh Chaurasia famous for playing, for which he won two Grammys?",
-          "options": [
-            "Sitar",
-            "Bansuri (Flute)",
-            "Tabla",
-            "Sarod"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri).",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "What is the approximate range of the Agni-Prime (Agni-P) ballistic missile successfully tested by the SFC?",
-          "options": [
-            "500 - 800 km",
-            "1000 - 2000 km",
-            "3000 - 4000 km",
-            "5000 km"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] Agni-Prime is a medium-range canisterised ballistic missile with an operational range between 1,000 and 2,000 km.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "What is the primary mission objective of NASA's Lunar Gateway program?",
-          "options": [
-            "Deep space radio telescope installation",
-            "Orion spacecraft crew habitation in lunar orbit",
-            "Mapping Mars surface topography",
-            "Mining asteroids near Earth orbit"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] The Lunar Gateway is an essential component of NASA's Artemis program, serving as a multi-purpose outpost orbiting the Moon to support long-term lunar exploration.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "IN-SPACe, the space regulator for private companies, is headquartered in which Indian city?",
-          "options": [
-            "Bengaluru",
-            "Ahmedabad",
-            "Hyderabad",
-            "Thiruvananthapuram"
-          ],
-          "correct": 1,
-          "explanation": "[April 2026] IN-SPACe is headquartered in Bopal, Ahmedabad, Gujarat.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "The Green Credit Programme was globally launched by India during which event?",
-          "options": [
-            "COP26 Glasgow",
-            "COP27 Sharm El-Sheikh",
-            "COP28 Dubai",
-            "COP29 Baku"
+            "Operation Dost",
+            "Operation Maitri",
+            "Operation Sahayata",
+            "Operation Karuna"
           ],
           "correct": 2,
-          "explanation": "[April 2026] The Global Green Credit Initiative was launched by Prime Minister Narendra Modi at the UN Climate Change Conference (COP28) in Dubai in 2023.",
+          "explanation": "[July 2026] Operation Sahayata was initiated to provide relief to Venezuela following a devastating earthquake.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which was the first European country to accept UPI payments at national landmarks (like the Eiffel Tower)?",
+          "question": "The DRDO recently flight-tested the HSTDV. What type of engine powers the HSTDV during its hypersonic cruise phase?",
           "options": [
-            "Germany",
-            "France",
-            "United Kingdom",
-            "Italy"
+            "Ramjet engine",
+            "Scramjet engine",
+            "Cryogenic engine",
+            "Turbojet engine"
           ],
           "correct": 1,
-          "explanation": "[April 2026] France was the first European nation to accept UPI, starting at the Eiffel Tower, through an agreement with Lyra Network.",
+          "explanation": "[July 2026] HSTDV is powered by a scramjet engine, which allows supersonic combustion necessary for hypersonic flight.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which satellite series is specifically dedicated to military/civil communication, with GSAT-20 launched via a SpaceX Falcon 9?",
+          "question": "Who won the Wimbledon Men's Singles title in July 2026?",
           "options": [
-            "EOS Series",
-            "GSAT Series",
-            "INSAT Series",
-            "Cartosat Series"
+            "Novak Djokovic",
+            "Jannik Sinner",
+            "Carlos Alcaraz",
+            "Daniil Medvedev"
           ],
-          "correct": 1,
-          "explanation": "[May 2026] The GSAT (Geosynchronous Satellite) series comprises India's indigenously developed communications satellites.",
+          "correct": 2,
+          "explanation": "[July 2026] Carlos Alcaraz won the Wimbledon Men's Singles championship in July 2026.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "What type of missile is 'Astra Mk-1', developed by DRDO for the Indian Air Force?",
+          "question": "Which Southeast Asian country became the third international customer of the BrahMos missile in July 2026?",
           "options": [
-            "Surface-to-Air Missile",
-            "Air-to-Air Beyond Visual Range Missile",
-            "Anti-Radiation Missile",
-            "Cruise Missile"
-          ],
-          "correct": 1,
-          "explanation": "[May 2026] Astra is India's first indigenous Beyond Visual Range (BVR) Air-to-Air missile.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Neeraj Chopra won the Olympic Gold Medal in Javelin Throw at which Olympic Games?",
-          "options": [
-            "Rio Olympics 2016",
-            "Tokyo Olympics 2020",
-            "Paris Olympics 2024",
-            "London Olympics 2012"
-          ],
-          "correct": 1,
-          "explanation": "[May 2026] Neeraj Chopra won the historic gold medal at the Tokyo 2020 Olympic Games (held in 2021) with a throw of 87.58m.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "The Great Barrier Reef is situated off the coast of which nation?",
-          "options": [
-            "New Zealand",
-            "Australia",
+            "Malaysia",
             "Indonesia",
-            "Philippines"
+            "Thailand",
+            "Singapore"
           ],
           "correct": 1,
-          "explanation": "[May 2026] The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia.",
+          "explanation": "[July 2026] Indonesia signed a $200 million deal for two BrahMos batteries, joining the Philippines and Vietnam.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which statutory body or authority was newly approved to regulate consumer protection and enforce rights in India?",
+          "question": "Where was the 18th BRICS Summit held in July 2026?",
           "options": [
-            "CCI",
-            "CCPA",
-            "FSSAI",
-            "IRDAI"
+            "Johannesburg, South Africa",
+            "Kazan, Russia",
+            "Beijing, China",
+            "New Delhi, India"
           ],
           "correct": 1,
-          "explanation": "[May 2026] The Central Consumer Protection Authority (CCPA) was established under the Consumer Protection Act, 2019, to protect and enforce consumer rights.",
+          "explanation": "[July 2026] The 18th BRICS Summit was hosted by Russia in the city of Kazan.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"
         },
         {
-          "question": "Which Article of the Constitution of India provides for the establishment of an Inter-State Council?",
+          "question": "Which vaccine became the first dengue vaccine to receive market authorization from the DCGI in India in July 2026?",
           "options": [
-            "Article 262",
-            "Article 263",
-            "Article 280",
-            "Article 312"
+            "Dengvaxia",
+            "QDENGA",
+            "Covaxin",
+            "ZyCoV-D"
           ],
           "correct": 1,
-          "explanation": "[May 2026] Article 263 of the Constitution provides for the setting up of an Inter-State Council by the President.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "Chabahar Port is located in which gulf/sea region?",
-          "options": [
-            "Persian Gulf",
-            "Gulf of Oman",
-            "Red Sea",
-            "Aden Gulf"
-          ],
-          "correct": 1,
-          "explanation": "[May 2026] Chabahar Port is located on the Makran coast of Iran, along the Gulf of Oman, offering direct access to the Indian Ocean.",
-          "topicId": "current_affairs",
-          "difficulty": "medium",
-          "exam": "ALL"
-        },
-        {
-          "question": "The IndiaAI Mission plans to establish a compute infrastructure of at least how many GPUs?",
-          "options": [
-            "2,000",
-            "5,000",
-            "10,000",
-            "50,000"
-          ],
-          "correct": 2,
-          "explanation": "[May 2026] The mission aims to build a public-private AI compute capacity of 10,000 or more graphics processing units (GPUs) to support research.",
+          "explanation": "[July 2026] QDENGA (TAK-003) is the first dengue vaccine approved in India, offering protection against all four serotypes.",
           "topicId": "current_affairs",
           "difficulty": "medium",
           "exam": "ALL"

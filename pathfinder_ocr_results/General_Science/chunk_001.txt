@@ -1,0 +1,116 @@
+582
+CDS Pathfinder
+•
+.
+•
+Equations of Motion
+For a moving object, the relations among its velocity,
+displacement, time and acceleration can be represented by
+equations. These equations are called equations of motion.
+For motion a straight line with constant acceleration a
+1 2
+(ii) sutat
+2
+.
+(i) v=u+at
+(iii) v²=u² +2as
+Equation of motion under gravity, (downward
+direction)
+(i) v=u+gt
+(ii) hut +
+2
+initial velocity
+(iii) v² =u² +2gh
+Where, u
+v = final velocity
+g=gravitational acceleration
+If an object is thrown vertically upward away from the
+earth, then we shall substitute -g in place of g in the
+above equations. The value of
+g is 9.8 m/s².
+-
+Note If a body starts from rest and moves with uniform
+acceleration, then distance covered by the body in t sec is
+proportional to (i.e. sα).
+Projectile Motion
+When a body moves under an acceleration whose
+direction is different from the direction of the initial
+velocity, then both the magnitude and direction of its
+velocity changes with time. Hence, the body moves on a
+curved path in a plane. This type of motion is called
+projectile motion.
+A bullet fired from a rifle and a body dropped from the
+window of a moving train shows the projectile motion.
+u sin e
+V sin
+V cos e
+h
+Ꮎ
+u cos e
+Χ
+R
+2usine
+g
+u² sin²0
+2g
+u² sin 20
+•
+Range of projectile, R="
+g
+Flight time of projectile, T
+Height of projectile, b =
+We drop down a ball from a roof and at the same time
+throw another ball in a horizontal direction, then both
+the balls would strike the earth simultaneously at
+different places.
+•
+The horizontal range is the same when the body is
+projected at and (90°-0).
+The horizontal range of a projectile is maximum when
+angle of projection is 45°.
+When two balls of different masses are projected
+horizontally they will reach ground at same time.
+FORCE
+Force is a push or pull which produces or tends to produce
+a change in uniform motion of body; stops or tends to stop
+a body which is in motion. Its unit is Newton.
+• It is a vector quantity and the straight line along which a
+force is directed is called the line of action of the force.
+The rotational effect of a force on a body about an axis
+of rotation is described in terms of moment of force.
+CGS unit of force is dyne i.e. 1 dyne =10N.
+Force is of two types
+(i) Component of Force Forces acting at same angle from
+the coordinate axes can be resolved into mutually
+perpendicular forces called components. The
+component of a force parallel to the X-axis is called
+x-component, parallel to the y-component and so on.
+Here,
+•
+F sin e
+F
+Ꮎ
+F cos 0
+x-component of force F is Fcose.
+y-component of force F is F sine.
+(ii) Contact and Non-contact Force The forces which act
+on bodies when they are in physical contact are called
+contact forces. e.g. muscular force, frictional force, etc.
+A force which can be exerted by an object on another
+object even from a distance (without physical contact
+with each other) is called a non-contact force. e.g.
+magnetic force, electrostatic force and gravitational
+force.
+NEWTON'S LAWS OF MOTION
+Newton has given three laws of motion as below:
+First Law
+It states that every body continues in its state of rest or in
+uniform motion in a straight line, unless it is compelled by
+an external force to change that state.
+•
+First law is also called law of Galileo or law of inertia.
+The
+of bodies by virtue of which they oppose
+property
+only change in their present state is called inertia.
+•⚫ Mass is a measure of the inertia of a body.

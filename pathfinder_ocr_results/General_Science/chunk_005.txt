@@ -1,0 +1,131 @@
+602
+CDS Pathfinder
+Image Formation by Convex Mirror
+(2) When the object is at infinity The image is formed
+at focus.
+B
+Object at
+infinity
+Convex mirror
+A'
+B'
+Image
+(ii) When the object is between infinity and pole
+The image is formed between pole and focus.
+Convex mirror
+A
+E
+A'
+B' F C
+Image
+M
+B
+Object
+REFRACTION OF LIGHT
+When a ray of light passes from one medium to other, it
+bends from its path. This phenomenon of bending of light
+is called as refraction of light.
+• When light passes from rarer medium to a denser
+medium, it bends towards the normal at the point of
+incidence.
+When light passes from a denser medium to a rarer
+medium, it bends away from the normal.
+When a ray of light enters from one medium to other
+medium its frequency and phase do not change but
+wavelength and velocity change.
+Laws of Refraction
+•
+The incident ray, the refracted ray and the normal at the
+point of incidence all lie in the same plane.
+The ratio of the sine of the angle of incidence to the
+sine of the angle of refraction is a constant for a given
+medium.
+MIRROR FORMULA
+sin i
+sinr
+rl=
+[Snell's law]
+•
+•
+.
+•
+If v is the image distance, u is the object distance and f
+1 1 1 2
+is the focal length of a mirror, then + =
+υ u
+f
+R
+The linear magnification (m) produced by a mirror is
+equal to the ratio of the image distance to the object
+distance with negative sign, m =
+ย
+f
+u f -u
+f
+If the magnification has positive sign, then the image is
+virtual and erect.
+If the magnification has negative sign, then the image is
+real and inverted.
+Uses of Spherical Mirrors
+Concave Mirrors
+•
+.
+•
+is refractive index of the second medium with
+where,
+respect to first.
+"
+M = M₂
+C/V2
+=
+..
+με C/VI
+μ=1 or 1μ2
+V2
+=
+V2
+where, V₁ is speed of light in first medium and v₂
+of light in second medium.
+is speed
+Some Illustrations of Refraction
+•
+•
+These are used as reflectors in automobiles (car, buses,
+•
+etc.), head light, search light, hand torches and table
+lamps.
+These are used as shaving mirrors.
+These are used by doctors for focussing intense light to
+examine inside of eye, ears, etc.
+Large concave mirrors are used in the application of
+solar energy, to focus the sun's rays for heating solar
+furnaces etc.
+Convex Mirrors
+•
+•
+•
+-
+These are used as rear-view mirrors in automobiles as
+they give large view of the traffic.
+Big convex mirrors are used as shop security mirrors.
+These are used wherever we want to see erect images.
+Note We cannot use a concave mirror as a rear-view mirror in
+motor vehicles.
+Twinkling of stars.
+Oval shape of sun in the morning and evening.
+© Bending of a linear object when it is partially dipped in
+a liquid inclined to the surface of the liquid.
+A fish in a pond when viewed from air appears to be at
+a smaller depth than actual depth.
+A coin at the base of a vessel filled with water appears
+raised.
+TOTAL INTERNAL REFLECTION
+In case of propagation of light from denser to rarer
+medium through a plane boundary. Critical angle is the
+angle of incidence for which angle of refraction is 90°.
+If light is propagating from denser medium towards the
+rarer medium and angle of incidence is more than critical
+angle, then the light incident on the boundary is
+reflected back in the denser medium, obeying the law of
+reflection. This phenomenon is called total internal
+reflection.

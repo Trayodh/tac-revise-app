@@ -1,0 +1,229 @@
+742
+CDS Pathfinder
+267. Consider the following respiratory
+pigments.
+1. Haemoglobin
+2. Haemocyanin
+3. Haemoerythrin
+4. Haemocyanoglobin
+Iron is contained in
+(a) 1, 2, 3 and 4
+(c) 1 and 2
+(b) 1 and 3
+(d) 1, 2 and 4
+268. Match the following Columns.
+Column I
+(Protein)
+A. Haemoglobin
+B. Collagen
+C. Albumin and
+glutamin
+Column II
+(Type)
+1. Structural proteins
+2. Contractile proteins
+3. Transport proteins
+D. Actin and myosin 4. Storage proteins
+Codes
+A B C D
+(a) 1
+(c) 3 1
+3 4 2
+4 2
+(b) 2
+(d) 1
+A B C D
+1 3 4
+2 4 3
+(b) vagus
+276. Ammonia is the chief nitrogenous
+waste in
+(a) mosquitoes
+(b) tadpole of frog
+(c) cartilaginous fishes
+(d) desert mammals
+277. Sweating during exercise
+indicates operation of which one
+of the following processes in the
+human body?
+(a) Enthalpy
+(c) Phagocytosis
+(b) Homeostasis
+(d) Osmoregulation
+278. It has been observed that
+astronauts lose substantial
+quantity of calcium through urine
+during space flight. This is due to
+(a) hypergravity
+(b) microgravity
+(c) intake of dehydrated food tablet
+(d) low temperature in cosmos
+279. The fibrous sheath that connects
+the bones is called
+(a) tendon
+(b) aponeuroses
+(d) ligament
+287. The junction of two neurons is
+called
+(a) synapsis
+(c) synapse
+(b) synapticula
+(d) synaptic cleft
+288. There is different parts of brain in
+the figure. The darken portion of
+the figure represents
+(a) cerebrum
+(b) cerebellum
+(c) cerebral hemisphere
+(d) spinal cord
+289. In human body, what is the
+number of cervical vertebrae?
+(a) 5
+(c) 8
+(b) 7
+(d) 12
+(b) 12 pairs
+(d) 31 pairs
+269. Heart is innervated by
+(a) trigeminal
+(c) facial
+(d) glossopharyngeal
+270. Which of the following parts of
+blood carry out the function of
+body defence?
+(a) Red blood cells (b) White blood cells
+(c) Platelets
+(d) Haemoglobins
+271. What does sphygmomanometer
+measure?
+(a) Blood pressure
+(b) Velocity of fluids
+(c) Temperature
+(d) Curvature of spherical surfaces
+272. White blood cells act
+(a) as a defence against infection
+(b) as source of energy
+(c) for clotting blood
+(d) as a medium for oxygen transport
+from lung to tissues
+273. Which one among the following
+animal tissues transport
+hormones and heat and maintains
+water balance?
+(a) Epithelial tissue (b) Muscular tissue
+(c) Blood
+(d) Nervous tissue
+274. Which one of the following is
+considered normal blood pressure
+in man?
+(a) 120/80 mm water
+(b) 120/80 mm blood
+(c) 120/80 mm mercury
+(c) periosteum
+280. The white fibres are chemically
+formed of
+(a) collagen
+(c) myosin
+(b) elastin
+(d) reticulin
+281. The longest bone in human
+body is
+(a) femur
+(c) patella
+(b) skull bone
+(d) fibula
+282. The protein present in bone is
+(a) chondrin
+(c) actin
+(b) ossein
+(d) myosin
+283. A band of white fibres which joins
+muscles to bone
+(a) ligament
+(c) elastin
+(b) tendon
+(d) actin
+284. Muscle fatigue is due to the
+accumulation of
+(a) pyruvic acid
+(c) glycogen
+(b) lactic acid
+(d) succinic acid
+285. Match the following Columns.
+Column I
+Column II
+A. Shoulder and
+joints
+1. Ball and socket
+joints
+B. Ankle, knee and 2. Hinge joints
+elbow
+C. Toe bones
+D. Bones in palm
+3. Ellipsoid joints
+4. Gliding joints
+(d) 120/80 mm air
+275. The yellow colour of urine is due
+to the presence of
+(c) cholesterol
+Codes
+A B C D
+(a) 2 4 3 1
+(c) 1 2 3 4
+286. Nissl's granules
+(a) cartilage cells
+(c) muscle cells
+(a) bile
+(b) lymph
+(d) urochrome
+A B C D
+(b) 1 342
+(d) 2 1 4 3
+are found in
+(b) nerve cells
+(d) bone cells
+290. Number of spinal nerves in man is
+(a) 10 pairs
+(c) 21 pairs
+291. Outermost covering of brain of
+man is
+(a) duramater
+(c) arachnoid
+(b) piamater
+(d) choroid
+292. Which of the following makes skin
+layer impervious to water?
+(a) Collagen
+(c) Keratin
+(b) Melanin
+(d) Chitin
+293. Sweat glands occur in maximum
+number in the skin of the
+(a) forehead
+(c) back
+(b) armpits
+(d) palm of hands
+294. Any chemical which causes loss of
+sensation is
+(a) sedative
+(c) anaesthetic
+(b) analgesic
+(d) stimulant
+295. Human body's main organ of
+balance is located in
+(a) inner part of ear
+(b) middle part of ear
+(c) front part of brain
+(d) top part of vertebral column
+296. Convex lenses are used for the
+correction of
+(a) artigmatism
+(b) short-sightedness
+(c) cataract
+(d) long-sightedness
+297. The amount of light entering the
+eye is regulated by
+(a) cornea
+(c) iris
+(b) pupil
+(d) sclera

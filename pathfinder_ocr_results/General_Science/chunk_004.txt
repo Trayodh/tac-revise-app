@@ -1,0 +1,136 @@
+GENERAL SCIENCE > Physics
+597
+•
+•
+•
+•
+-
+Frequency is the number of full oscillations completed by
+pendulum in one second.
+Second pendulum is one whose time period is 2s.
+L
+Time period of simple pendulum T =2π where L is length
+g
+of thread and is the acceleration due to gravity.
+g
+The time period of a simple pendulum of infinite length is 84.6
+min. A pendulum clock goes slow in summer and fast in winter.
+If a simple pendulum is suspended in a lift descending down
+with acceleration, then time period of pendulum will increase. If
+lift is ascending, then time period of pendulum will decrease.
+If a lift falling freely under gravity, then the time period of the
+pendulum will be infinite.
+At moon, the time period of simple pendulum increases because
+acceleration due to gravity at moon is lesser.
+Note Every body inside a satellite remains in a state of weightlessness, that
+is the effective value of g remains zero. Hence, a pendulum inside a satellite
+will not oscillate. Therefore, the pendulum clock cannot work inside space
+satellites.
+Oscillation of Liquid Column in a U-tube
+If a liquid is taken in a U-tube, it maintains equal level in both the
+columns of the tube. When air is blown-in on side B, the liquid
+may go down upto point D. The displacement of the liquid is
+given by BD =x.
+In the second column, the
+liquid goes upto E and the
+displacement is CE. As the
+applied force is withdrawn,
+the liquid level in the second
+column comes down because
+of gravity from E to C. But
+UU
+due to inertia, it overshoots the mark C and goes to F (CF =x),
+whereas the liquid the other column also goes up by the same
+distance.
+Thus, the liquid starts oscillating in both the columns. This
+motion of the liquid in the U-tube is SHM with time period,
+h
+T =2П where, is the height of liquid in each column.
+g
+WAVES
+A wave is a disturbance which propagates energy
+from one place to the other without the transport
+of matter.
+These are of two types
+Mechanical Waves
+The waves which require material medium (solid,
+liquid or gas) for their propagation are called
+mechanical waves or elastic waves. These are of two
+types
+(i) Longitudinal Waves If the particles of the
+medium vibrate in the direction of propagation
+of wave, the wave is called longitudinal waves.
+Waves on springs or sound waves in air are
+examples of longitudinal waves.
+(ii) Transverse Waves If the particles of the
+medium vibrates perpendicular to the direction
+of propagation of wave, the wave is called
+transverse waves.
+Waves on strings under tension, waves on the
+surface of water are examples of transverse
+waves.
+Electromagnetic Waves
+10
+3
+The waves which do not require any medium for
+their propagation i.e. which can propagate even
+through the vacuum are called electromagnetic
+waves. They propagate as transverse wave.
+Electromagnetic waves of wavelength range
+m to 10 m are called microwaves.
+Microwaves are absorbed by water molecules and
+living tissue internal heating will damage or kill
+cells.
+•
+Microwaves are used in communications,
+satellites, telephony, heating water and food.
+• Note Cathode rays, canal rays, α-rays, B-rays are not
+electromagnetic waves. Light and heat are examples of
+electromagnetic waves.
+Spectrum of Electromagnetic Waves
+Electromagnetic Waves
+Discoverer
+Wavelength range
+(in metre)
+Y-rays
+Henry Becqueral
+10-14
+to 10-10
+Frequency
+range
+1020 to 1018
+Uses
+Medical tracers, killing cancerous cells,
+steralisation, imaging defects in metal.
+X-rays
+W Roenetgen
+Ultraviolet rays
+Ritter
+10-10 to 10-8
+10-8 to 10-7
+1018 to 1016
+Imaging defects in bones, hidden devices.
+1016 to 1014
+Making vitamin D, making ions.
+Visible radiation
+Newton
+3.9 x10 to 7.8 ×10
+1014 to 1012
+Photography
+Infrared rays
+Hershel
+7.8 x10 to 7.8 ×10-3
+1012
+to 1010
+TV remote control
+Short radio waves
+Heinrich
+10- to 1
+1010 to 108
+Communication, radio, TV.
+or Hertz hertzian waves
+Long radio waves
+Marcony
+1 to 104
+108 to 106
+Communication, radio, TV.

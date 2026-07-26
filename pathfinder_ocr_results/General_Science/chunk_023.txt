@@ -1,0 +1,126 @@
+692
+CDS Pathfinder
+A, B, O BLOOD GROUP
+The ABO blood group system was discovered by the
+Austrian scientist Karl Landsteiner. ABO blood
+grouping is controlled by the gene I. The plasma
+membrane of the Red Blood Cells (RBCs) has sugar
+polymers that protude from its surface. These gene
+controls the kind of sugar protruding from RBC. The
+gene I has three alleles, IA, IB and i. The alleles
+IA and IB produce a slightly different form of sugar,
+while allele i does not produce any sugar.
+On the basis of the presence or the absence of the
+antigen A or B, four types of blood groups are present,
+which are A, B, AB and O.
+The Genetic Basis of Blood Groups
+in Human Population
+Genotype of Blood types of
+offsprings offsprings
+SOME HEREDITARY DISEASES
+These are anatomical or physiological abnormalities present
+from birth, also called congenital diseases. These diseases
+can be caused by genetic mutations or environmental factors.
+Mutation is nothing but the sudden change in genetic make
+up due to addition, deletion or replacement of any gene.
+Diseases by genetic mutation can be transmitted to next
+generation, whereas by environmental factors are
+non-transmissible.
+Haemophilia-A
+• It is the most common X-linked recessive genetic disorder
+associated with serious bleeding.
+It is caused by a reduction in the amount and activity of
+coagulation factor VIII.
+(Haemophilic
+male)
+Xhy
+(Normal
+female)
+XX
+Allele from
+parent 1
+Allele from
+parent 2
+A
+A
+AA
+A
+A
+B
+AB
+AB
+A
+A
+A
+B
+A
+¡A B
+AB
+B
+B
+BB
+B
+B
+i
+Bi
+B
+i
+ii
+Xh
+X
+XhX
+XhX
+XY
+XY
+Carrier daughters
+Normal sons
+•
+•
+i
+For transfusion purpose the Rhesus factor and ABO
+grouping are the two most important compatibility
+factors to consider.
+An individual may be Rh+ or Rh¯-factor. In simpler
+term, if an individual's blood type is A and positive for
+the Rhesus factor, then he or she is deemed to be
+"A+"
+SEX DETERMINATION
+IN HUMANS
+In humans, each cell contains 46 chromosomes
+(44 autosomes + 2 sex chromosomes). Male sex
+chromosome is XY, whereas female sex chromosome is
+XX. During gamete formation, in female, all gametes
+contain only one type of chromosome, i.e. X and in male,
+half of the sperm contain X-chromosome, while half
+contain Y-chromosome.
+Thus, when a male gamete, i.e. sperm carrying
+X-chromosome fertilises an ova, the zygote develops into
+female and when a sperm carrying Y-chromosome
+fertilises an ova, the zygote develops into a male. Any
+increase or decrease in the number of sex chromosomes
+or autosomes causes genetic disorder.
+Haemophilia-A
+Colour Blindness
+It is an X-linked recessive genetic disorder, which results
+in the inability to perceive differences between some of
+the colours that others can distinguish.
+• It does not mean not seeing any colour at all infact it
+leads to the failure in discrimination between red and
+green colour.
+(Colourblind female)
+хо хо
+(Normal male)
+X
+Y
+хох хоу
+Carrier Colourblind
+daughter son
+XCX XCY
+Carrier Colourblind
+daughter son
+Colour blindness
+Cri-du-Chat Syndrome
+• It is a rare genetic disorder due to a missing part of
+chromosome 5.
+• It is characterised by having a cat-like cry of affected
+children.

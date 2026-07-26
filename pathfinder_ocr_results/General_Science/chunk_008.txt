@@ -1,0 +1,194 @@
+GENERAL SCIENCE > Physics
+617
+94. Satellite having the same orbital
+period as the period of rotation of
+the earth about its own axis is
+known as
+(a) polar satellite
+(b) stationary satellite
+(c) geostationary satellite
+(d) INSAT
+95. A typical black hole is always
+specified by
+(a) a (curvature) singularity
+(b) a horizon
+(c) either a (curvature) singularity or a
+horizon
+(d) a charge
+96. The motion of the wheel of a cycle
+is
+(a) rectilinear
+(b) translatory and rotatory
+(c) rotatory
+(d) translatory
+> Previous Years' Questions
+97. In respect of the difference of the
+gravitational force from electric
+and magnetic forces, which one of
+the following statements is true?
+2015 I
+(a) Gravitational force is stronger than
+the other two
+(b) Gravitational force is attractive only,
+whereas the electric and the
+magnetic forces are attractive as
+well as repulsive
+(c) Gravitational force has a very short
+range
+(d) Gravitational force is a long range
+force, while the other two are short
+range forces
+98. A brick is thrown vertically from
+an aircraft flying 2 km above the
+earth. The brick will fall with a
+(a) constant speed
+(b) constant velocity
+(c) constant acceleration
+2015 II
+(d) constant speed for sometime, then
+with constant acceleration as it
+nears the Earth
+99. Which one of the following
+statements is not correct?
+Properties of Matter
+100. What is the value of stress in a
+wire of steel having radius of
+2 mm if 10 KN of force is applied
+on it?
+(a) 7.96 x 108 N/m²
+(b) 8.00 x107 N/m²
+(c) 10 x107 N/m²
+(d) 10 x10 N/m²
+101. Why the spring is made up of
+steel in comparison of copper?
+(a) Copper is more costly than steel
+(b) Copper is more elastic than steel.
+(c) Steel is more elastic than copper
+(d) None of the above
+102. Match the following columns.
+Column I
+(Property)
+A. Elastic
+B. Plastic
+C. Ductile
+D. Perfectly elastic
+Codes
+Column II
+(Example)
+1. Iron
+2. Steel
+3. Quartz
+4. Paraffin wax
+A B C D
+A B C D
+(a) 2 4 1 3 (b) 1 2 3 4
+(c) 4 3 2 1 (d) 3 4 2 1
+103. Consider the following statements
+1. The internal restoring force
+acting per unit area of
+cross-section of the deformed
+body is called stress.
+2. The ratio of stress to strain is
+a constant for a material and
+is called modulus of elasticity
+3. Air is more elastic than water.
+Which of the following statements
+is/are correct?
+(a) 1 and 3
+(c) 1 and 2
+(b) 2 and 3
+(d) Only 3
+104. A 50 kg girl wearing high heal
+shoes balances on a single heal.
+The heal is circular with a
+diameter 1.0 cm. The pressure
+exerted by the heal on the
+horizontal floor is (g =9.8 N) kg
+(a) 6.2 x106 N/m²
+(b) 2.6 x105 N/m²
+2015 II
+(c) 6.2 x108 N/m²
+(a) Weight of a body is different on
+different planets
+(b) Mass of a body on the earth, on
+the moon and in empty space is
+the same
+(c) Weightlessness of a body occurs.
+when the gravitational forces acting
+on it is counter-balanced
+(d) Weight and mass of a body are
+equal at sea level on the surface
+of the earth
+(d) 2.6 ×106 N/m²
+105. The pressure exerted on the
+ground by a man is greatest
+(a) when he lies down on the ground
+(b) when he stands on the toes of one
+foot
+(c) when he stands with both foot flat
+on the ground
+(d) All of the above yield the same
+pressure
+106. Consider the following statements
+1. Pressure is measured by
+barometer.
+2. Atmospheric pressure is
+measured by manometer.
+3. Atmospheric pressure decrease
+with altitude.
+4. Atmospheric pressure is
+700 torr.
+Which of the following statements
+is/are correct?
+(a) 1 and 2
+(c) Only 3
+(b) 2 and 3
+(d) 1 and 4
+107. The relative density of silver is
+10.8. If the density of water be
+1.0 x103 kg/m³ the density of
+silver will be
+(a) 10.8 x 103 kg/m³ (b) 9 × 10² kg/m³
+(c) 8 x 103 kg/m³ (d) 5 x10² kg/m³
+108. The apparent weight of a steel
+sphere immersed in various
+liquids is measured using a spring
+balance. The greatest reading is
+obtained for the liquid
+(a) having the smaller density
+(b) having the largest density
+(c) in which the sphere was
+submerged deepest
+(d) having the greatest volume
+109. Hydraulic brakes in automatic
+vehicles are based on
+(a) Archimedes' principle
+(b) Toricellis equation
+(c) Pascal's law
+(d) Bernoulli's equation
+110. If a ship moves from fresh water
+into sea water, it will
+(a) sink completely
+(b) sink a little bit
+(c) rise a little higher
+(d) remain unaffected
+111. Archimedes' principle is used
+1. determining the relative
+density of a substance.
+2. in designing ships and
+submarines
+3. measuring a terminal velocity
+in air.
+Which of the following statements
+is/are correct?
+(a) 1 and 3
+(c) 1 and 2
+(b) 2 and 3
+(d) Only 2
+112. A needle made of steel floats in
+water, if it is placed horizontally
+because of
+(a) capillary action
+(b) interference
+(c) viscosity
+(d) surface tension

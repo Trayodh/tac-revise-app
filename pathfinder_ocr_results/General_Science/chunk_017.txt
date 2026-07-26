@@ -1,0 +1,196 @@
+662
+CDS Pathfinder
+Codes
+A B C D
+(a) 1 2 4 3
+(c) 5 2 1 4
+A B C D
+(b) 3 1 5 4
+(d) 3 1 2 4
+> Previous Years' Questions
+41. Which one among the following
+statements about an atom is not
+correct?
+2012 I
+(a) Atom always combine to form
+molecules
+(b) Atoms are the basic units from
+which molecules and ions are
+formed
+(c) Atoms are always neutral in nature
+(d) Atoms aggregate in large numbers
+to form the matter that we can
+see, feel and touch
+42. Which one among the following is
+not a correct statement?
+(a) Cathode rays are negatively
+charged particles
+2013 II
+(b) Cathode rays are produced from all
+the gases
+(c) Electrons are basic constituents of
+all the atoms
+(d) Hydrogen ions do not contain any
+proton
+43. In tritium (T), the number of
+protons (p) and neutrons (n)
+respectively, are
+(a) 1 p and 1 n
+(c) 1 p and 3 n
+✓ 2014 II
+(b) 1 p and 2n
+(d) 2p and 1 n
+44. The distribution of electrons into
+different orbits of an atom, as
+suggested by Bohr, is
+(a) 2 electrons in the K-orbit, 6
+2014 II
+electrons in the L-orbit, 18 electrons
+in the M-orbit
+(b) 2 electrons in the K-orbit, 8
+electrons in the L-orbit, 32 electrons
+in the M-orbit
+(c) 2 electrons in the K-orbit, 8
+electrons in the L-orbit, 18 electrons
+in the M-orbit
+(d) 2 electrons in the K-orbit, 8
+electrons in the L-orbit, 16 electrons
+in the M-orbit
+45. Who among the following
+proposed that atom is indivisible?
+(a) Dalton
+(c) Rutherford
+47. Which one of the following
+statements is not correct?
+□ 2016 II
+(a) Atoms of different elements may
+have same mass numbers
+(b) Atoms of an element may have
+different mass numbers
+(c) All the atoms of an element have
+same number of protons
+(d) All the atoms of an element will
+always have same number of
+neutrons
+Radioactivity
+48. In which categories did Marie Curie
+win her two different Nobel Prizes?
+(a) Physics and Chemistry
+(b) Chemistry and Medicine
+(c) Physics and Medicine
+(d) Chemistry and Peace
+49. The a-particles are
+(a) high energy electrons
+(b) positively charged hydrogen ions
+(c) high energy X-ray radiations
+(d) double positively charged helium
+nuclei
+50. Gamma rays have
+(a) zero mass and no charge
+(b) zero mass and positive charge
+(c) unit mass and zero charge
+(d) unit mass and negative charge
+51. An α-particle consists of which of
+the following?
+(a) 2 protons and 2 neutrons
+(b) 1 proton and 1 electron
+(c) 2 protons and 4 neutrons
+(d) 1 proton and 1 neutron.
+52. Which of the following particles
+cannot be accelerated?
+(a) Electrons
+(c) Neutrons
+(b) α-particles
+(d) Protons
+53. A nuclear reactor produce nuclear
+energy by
+(a) nuclear fusion
+(b) spontaneous fission
+(c) uncontrolled chain reaction
+(d) controlled chain reaction
+54. In nuclear reactors, the speed of
+neutrons is slowed down by
+(a) heavy water (b) ordinary water
+(d) molten caustic soda
+(c) zinc rods
+2015 I
+(b) Berzelius
+(d) Avogadro
+46. The atomic theory of matter was
+first proposed by
+(a) John Dalton
+(b) Rutherford
+(c) J.J. Thomson
+(d) Niels Bohr
+2015 II
+55. The energy generation in stars is
+(a) mainly due to the fusion of heavy
+nuclei
+(b) mainly due to the fusion of lighter
+nuclei
+(c) solely due to the fusion of heavy
+nuclei
+(d) due to both fission and fusion of
+lighter nuclei
+56. The difference between a nuclear
+reactor and atomic bomb is that
+(a) no chain reaction takes place in
+nuclear reactor while in the atomic
+bomb, there is a chain reaction
+(b) the chain reaction in nuclear
+reactor is controlled
+(c) the chain reaction in nuclear
+reactor is uncontrolled
+(d) no chain reaction takes place in
+atomic bomb while it takes place
+in nuclear reactor
+57. 'Yellow cake' an item of smuggling
+across the border is
+(a) a crude form of heroin
+(b) a crude form of cocaine
+(c) uranium oxide
+(d) unrefined gold
+58. Hydrogen bomb is based on the
+principle of
+(a) nuclear fission
+(b) nuclear fusion
+(c) natural radioactivity
+(d) artificial radioactivity
+59. In treatment of cancer, which of
+the following is used?
+(a)
+(b)
+(d)
+131153
+32P15
+60 CO 27
+2H1
+60. Statement I Hydrogen bomb is
+more powerful than atomic bomb.
+Statement II In hydrogen bomb,
+reaction is initiated by fission
+followed by fusion.
+Codes
+(a) Both the Statements are correct
+and Statement II is the correct
+explanation of Statement I
+(b) Both the Statements are correct
+but Statement II is not the correct
+explanation of Statement I
+(c) Statement I is correct but
+Statement II is incorrect
+(d) Statement I is incorrect but
+Statement II is correct
+61. Consider the following statements
+1. Atomic number decreases by 2
+and mass number increases by
+4 on α-particle emission.
+2. Atomic number increases by 1
+and mass number remains
+unchanged on ẞ-particle
+emission.
+Choose the correct statement(s)
+(a) Only 1
+(b) Only 2
+(c) Both 1 and 2
+(d) None of the above

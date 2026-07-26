@@ -1,0 +1,132 @@
+642
+CDS Pathfinder
+ACIDS
+ACIDS, BASES AND SALTS
+The substances which have sour taste and turn blue litmus
+to red are called acids.
+•
+According to Arrhenius acids give hydrogen ion H+ in
+an aqueous solution.
+HCl (aq) -> H(aq) + Cl(aq)
+According to Bronsted Lowry concept, acids donate
+proton (hydrogen ion).
+BASES
+These substances which have bitter taste and turn red litmus
+to blue are called bases.
+•
+According to Arrhenius, bases give hydroxyl ion (OH)
+in aqueous solution. e.g. NaOH, KOH, CsOH,Mg(OH)2,
+etc.,
+NaOH (aq) → Na*(aq) + OH¯¯(aq)
+•
+•
+•
++
+HCl + NH3
+Acid
+-> Cl + NH,
+Conjugate
+base
+(A conjugate acid-base pair differ by a proton)
+According to Lewis concept, acids have tendency to
+accept electrons, i.e. these behave as electrophiles.
+e.g. electron deficient species like BF3, AlCl3, positive
+ions like Na*, K* and molecules having multiple bond
+between dissimilar atoms (e.g. CO 2, SO 2, etc).
+Sources of Some Acids
+Acid
+Citric acid
+Maleic acid
+Tartaric acid
+Lactic acid
+Acetic acid
+Sources
+Lemon, orange, grapes (citrus fruits)
+Unripe apple
+Tamarind, grapes
+Milk, curd
+Vinegar
+Tomato, spinach
+Stomach and other chemicals
+Oxalic acid
+Hydrochloric acid
+Formic acid
+Red ant sting
+Most of the acids contain hydrogen.
+HCl, H2SO4, HNO3 are mineral acids and are much
+stronger than organic acids.
+Aqua-regia is a mixture of concentrated hydrochloric
+acid and concentrated nitric acid in the ratio 3: 1. It
+can dissolve inert materials like platinum, gold, etc.
+Properties of Acids
+•
+Acids liberate hydrogen gas with more reactive metals.
+Zn + 2HCI -> ZnCl2 + H2 ↑
+Metal
+e.g.
+Salt
+Hydrogen
+Acids evolve carbon dioxide (CO2) gas with metal
+carbonates and bicarbonates. e.g.
+MCO3 + H2SO4
+Metal carbonate
+•
+•
+According to Bronsted Lowry concept, bases have a
+tendency to accept proton, e.g. NH3, H₂O, etc.
+NH3 +H,O
+NH++OH¯
+Conjugate
+•
+Base
+acid
+According to Lewis concept, bases have a tendency to
+donate electron pair. e.g. simple anions like Cl¯, F¯OH¯,
+etc., molecules containing lone pairs like NH3,
+R—O—H, R—O—R, etc.
+Properties of Bases
+• Base reacts with metal to form salt and liberates hydrogen
+gas. However, such reactions are not possible with all
+metals.
+• Water soluble bases are called alkali. Thus, all alkalis are
+bases but all the bases are not alkali.
+•
+In aqueous solution and molten state, they are good
+conductors of electricity.
+Acid and Base in a Reaction
+•
+.
+Acid-base pair
+CH3COOH + H₂O ->
+Acid
+Base
+(as donates proton) (as accepts proton)
+H3O+CH3COO
+Conjugate
+acid
+Acid-base pair
+Conjugate
+base
+Paraldehyde (a carbonyl compound) is used as a hypnotic.
+Clove oil can be used as indicator.
+SALTS
+When acid and base react together, they form salt and
+water. This reaction is known as neutralisation reaction,
+e.g.
+•
+→>
+M SO4 + H2O + CO₂↑
+•
+Acid
+In aqueous solution, they are conductor of electricity
+due to the presence of free H+ ions.
+HNO3 + KOH
+Acid
+Salt
+-> KNO3 + H2O
+Water
+Base
+When acid and base both are strong, 13.7 kcal energy is
+released. However, if either the acid or the base is weak,
+energy released is less than 13.7 kcal because some part of
+energy is utilised to ionise weak acid or base.

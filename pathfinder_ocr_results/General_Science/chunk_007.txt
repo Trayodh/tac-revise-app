@@ -1,0 +1,163 @@
+PRACTICE EXERCISE
+Measurement, Motion, Work,
+Energy and Power
+1. A train travels a distance with a
+speed of 30 km/h and returns with
+a speed of 50 km/h. The average
+speed of the train is
+(a) 36 km/h
+(c) 38 km/h
+(b) 37.5 km/h
+(d) 40 km/h
+2. Average velocity of an object is
+equal to the mean of its initial and
+final velocities, if the acceleration is
+(a) uniform
+(b) variable
+(c) Both a and b
+(d) None of these
+2
+3. A water tank filled upto of its
+3
+height is moving with a uniform
+speed. On sudden application of the
+brake, the water in the tank would
+(a) move backward (b) move forward
+(c) be unaffected (d) rise upwards
+4. When the distance, an object
+travels is directly proportional to
+the length of time, it is said to
+travel with
+(a) zero velocity
+(c) constant velocity
+(b) uniform velocity
+(d) constant acceleration
+5. If the displacement of an object is
+proportional to square of time,
+then the object moves with
+(a) uniform velocity
+(b) uniform acceleration.
+(c) increasing acceleration
+(d) decreasing acceleration
+6. A passenger in a moving train
+tosses a five rupee coin. If the coin
+falls behind him, the train must
+be moving with a uniform
+(a) acceleration
+(b) deceleration
+(c) speed
+(d) velocity
+7. The velocity-time graph for an
+object is shown below. Which one
+of the following statements helds
+true for this object?
+Velocity
+Time
+(a) The object is moving with uniform
+speed
+(b) The object is in non-uniform
+accelerated
+(c) The object is at rest
+(d) The object is in non-uniform
+decelerated.
+8. Which of the following figure
+represents uniform motion of a
+moving object correctly?
+©
+Distance
+Distance
+Time
+Time
+Distance
+흐
+Distance
+ร
+Time
+Time
+9. A body falls from rest. The
+velocity acquired by falling a
+distance 2h is
+(a) 2√gh
+(c) √√2gh
+(b) √gh
+(d) None of these
+10. The velocity-time graph for an
+object is shown. Which one of the
+following statements holds true
+for this object?
+Velocity
+Time
+(a) The object has uniform velocity
+(b) The object has uniform acceleration
+(c) The object has non-uniform
+acceleration
+(d) None of the above
+11. A boy throws four stones of same
+shape, size and weight with equal
+speed at different initial angles
+with the horizontal line. If the
+angles are 15°, 30°, 45° and 60°,
+at which angle the stone will
+cover the maximum distance
+horizontally?
+(d) 60°
+(a) 15° (b) 30° (c) 45°
+12. Which one of the following is a
+vector quantity?
+(a) Force
+(c) Volume
+(b) Area
+(d) Density
+13. External forces acting on an object
+(a) are always balanced
+(b) are always unbalanced
+(c) may or may not be balanced
+(d) None of the above
+14. When horse starts running all of a
+sudden, the rider on the horse
+falls back because
+(a) he is afraid
+(b) he is taken a back
+(c) due to inertia of motion, the lower
+part of his body comes in motion
+(d) due to inertia of rest, the upper
+part of his body remains at rest
+15. A scooter driven over an oily road
+generally slips because on the oily
+road
+(a) inertia of the scooter tyres increases
+(b) inertia of the scooter tyres decreases
+(c) friction between tyres and road
+increases
+(d) friction between tyres and road
+decreases
+16. Newton's second law of motion
+connects
+(a) momentum and acceleration
+(b) change of momentum and velocity
+(c) rate of change of momentum and
+external force
+(d) rate of change of force and
+momentum
+17. When a ball drops onto the floor it
+bounces. Why does it bounce?
+(a) Newton's third law implies that for
+every action (drop) there is a
+reaction (bounce)
+(b) The floor exerts a force on the ball
+during the impact
+(c) The floor is perfectly rigid
+(d) The floor heats up on impact
+18. If an object having mass of 1 kg is
+subjected to a force of 1 N, it
+moves with
+(a) a speed of 1 m/s
+(b) a speed of 1 km/s
+(c) an acceleration of 10 m/s²
+(d) an acceleration of 1 m/s²
+19. Momentum has the same unit as
+that of
+(a) couple
+(b) torque
+(c) impulse
+(d) moment of momentum

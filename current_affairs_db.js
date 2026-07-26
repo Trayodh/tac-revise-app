@@ -3123,137 +3123,335 @@ window.CURRENT_AFFAIRS_DB = {
       }
     }
   ],
-    "July 2026": [
+  "July 2026": [
     {
-      "id": "jul-26-venezuela-aid",
-      "topic": "Humanitarian Assistance",
-      "text": "India launched **Operation Sahayata** in July 2026, dispatching IAF C-17 Globemaster aircraft carrying 50 tonnes of emergency relief materials and medical teams to earthquake-hit **Venezuela**.",
+      "id": "kargil-vijay-diwas-2026",
+      "topic": "National Commemoration",
+      "text": "India observed the **27th anniversary of Kargil Vijay Diwas** on **July 26, 2026**, paying homage to the brave soldiers of the Indian Armed Forces. Ceremonies were held across the nation, with the main event at the **Kargil War Memorial, Dras**, attended by top military and political leadership.",
       "details": {
-        "winner": "India & Venezuela",
-        "award": "Humanitarian Aid",
-        "nationality": "International",
-        "summary": "Demonstrates India's role as a First Responder and Vishwamitra (friend of the world)."
+        "winner": "Indian Armed Forces",
+        "award": "Kargil Vijay Diwas",
+        "nationality": "India",
+        "summary": "India commemorated the 27th Kargil Vijay Diwas, honoring the sacrifices of soldiers in the Kargil War, a key event for defence aspirants."
       },
       "mcq": {
-        "question": "Under which operation did India send 50 tonnes of emergency relief materials to earthquake-hit Venezuela in July 2026?",
+        "question": "Kargil Vijay Diwas is observed annually on which date?",
         "options": [
-          "A) Operation Dost",
-          "B) Operation Maitri",
-          "C) Operation Sahayata",
-          "D) Operation Karuna"
+          "A) July 26",
+          "B) August 15",
+          "C) January 26",
+          "D) December 16"
+        ],
+        "answer": "A",
+        "explanation": "Kargil Vijay Diwas is celebrated on July 26th every year to commemorate India's victory over Pakistan in the Kargil War."
+      }
+    },
+    {
+      "id": "isro-chandrayaan-4-lander-test",
+      "topic": "Space Mission",
+      "text": "ISRO successfully conducted a critical full-scale test of the **Chandrayaan-4 lunar lander prototype** in Challakere, Karnataka, during mid-July 2026. This test simulated complex descent and soft-landing maneuvers, crucial for India's upcoming ambitious lunar missions.",
+      "details": {
+        "winner": "N/A",
+        "award": "Chandrayaan-4 Lander Test",
+        "nationality": "India (ISRO)",
+        "summary": "ISRO performed a successful full-scale test of the Chandrayaan-4 lunar lander prototype, advancing India's future lunar exploration capabilities."
+      },
+      "mcq": {
+        "question": "Which organization conducted the Chandrayaan-4 lunar lander prototype test in July 2026?",
+        "options": [
+          "A) NASA",
+          "B) ISRO",
+          "C) ESA",
+          "D) Roscosmos"
+        ],
+        "answer": "B",
+        "explanation": "The Indian Space Research Organisation (ISRO) is responsible for India's lunar missions like Chandrayaan."
+      }
+    },
+    {
+      "id": "india-us-defence-tech-dialogue",
+      "topic": "Diplomacy & Defence",
+      "text": "The **India-US Defence Technology and Trade Initiative (DTTI)** held its annual dialogue in New Delhi in early July 2026, focusing on co-development and co-production of advanced defence systems. Key discussions revolved around **AI-enabled platforms** and **drone technology transfer**, strengthening strategic partnership.",
+      "details": {
+        "winner": "N/A",
+        "award": "DTTI Dialogue",
+        "nationality": "India, United States",
+        "summary": "India and the US held DTTI talks to enhance defence technology cooperation, focusing on cutting-edge systems like AI and drones."
+      },
+      "mcq": {
+        "question": "What is the primary focus of the India-US Defence Technology and Trade Initiative (DTTI)?",
+        "options": [
+          "A) Joint military exercises only",
+          "B) Co-development and co-production of defence systems",
+          "C) Humanitarian aid operations",
+          "D) Space exploration partnerships"
+        ],
+        "answer": "B",
+        "explanation": "DTTI aims to facilitate co-development and co-production of advanced defence technologies between India and the US."
+      }
+    },
+    {
+      "id": "monsoon-session-parliament-2026",
+      "topic": "Governance & Legislation",
+      "text": "The **Monsoon Session of Parliament** commenced on **July 15, 2026**, with several key legislations tabled for discussion. Among the significant bills was the **'National Water Security Bill 2026'**, aimed at integrated water resource management and conservation across states.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "The Monsoon Session of Parliament began in July 2026, featuring the introduction of crucial legislation like the National Water Security Bill."
+      },
+      "mcq": {
+        "question": "Which session of the Indian Parliament typically commences in July?",
+        "options": [
+          "A) Budget Session",
+          "B) Winter Session",
+          "C) Monsoon Session",
+          "D) Special Session"
         ],
         "answer": "C",
-        "explanation": "Operation Sahayata was initiated to provide relief to Venezuela following a devastating earthquake."
+        "explanation": "The Monsoon Session of the Indian Parliament usually starts in July and continues till August or September."
       }
     },
     {
-      "id": "jul-26-drdo-hstdv",
-      "topic": "Defence Technology",
-      "text": "The **Defence Research and Development Organisation (DRDO)** successfully flight-tested the indigenous **Hypersonic Technology Demonstrator Vehicle (HSTDV)** powered by a scramjet engine off the coast of Odisha.",
+      "id": "indian-navy-maritime-patrol-exercise",
+      "topic": "Defence Exercise",
+      "text": "The Indian Navy successfully concluded 'Exercise **Varuna Netra** 2026', a major maritime surveillance and anti-submarine warfare exercise in the **Arabian Sea** during mid-July. The exercise saw the participation of **P-8I Neptune** aircraft and **submarine assets**, enhancing operational readiness against underwater threats.",
       "details": {
-        "winner": "DRDO",
-        "award": "HSTDV Test",
-        "nationality": "Indian",
-        "summary": "Crucial step toward developing indigenous hypersonic cruise missiles."
+        "winner": "N/A",
+        "award": "Exercise Varuna Netra",
+        "nationality": "India",
+        "summary": "The Indian Navy conducted 'Varuna Netra 2026' in the Arabian Sea, focusing on maritime surveillance and anti-submarine warfare capabilities."
       },
       "mcq": {
-        "question": "The DRDO recently flight-tested the HSTDV. What type of engine powers the HSTDV during its hypersonic cruise phase?",
+        "question": "Which Indian Navy exercise focused on maritime surveillance and anti-submarine warfare in July 2026?",
         "options": [
-          "A) Ramjet engine",
-          "B) Scramjet engine",
-          "C) Cryogenic engine",
-          "D) Turbojet engine"
-        ],
-        "answer": "B",
-        "explanation": "HSTDV is powered by a scramjet engine, which allows supersonic combustion necessary for hypersonic flight."
-      }
-    },
-    {
-      "id": "jul-26-wimbledon",
-      "topic": "Sports",
-      "text": "In Tennis, **Carlos Alcaraz** successfully defended his **Wimbledon Men's Singles** title in July 2026, securing his dominance on grass courts.",
-      "details": {
-        "winner": "Carlos Alcaraz",
-        "award": "Wimbledon Men's Singles",
-        "nationality": "Spanish",
-        "summary": "One of the most prestigious Grand Slam tournaments."
-      },
-      "mcq": {
-        "question": "Who won the Wimbledon Men's Singles title in July 2026?",
-        "options": [
-          "A) Novak Djokovic",
-          "B) Jannik Sinner",
-          "C) Carlos Alcaraz",
-          "D) Daniil Medvedev"
+          "A) Malabar",
+          "B) Milan",
+          "C) Varuna Netra",
+          "D) Samudra Shakti"
         ],
         "answer": "C",
-        "explanation": "Carlos Alcaraz won the Wimbledon Men's Singles championship in July 2026."
+        "explanation": "'Varuna Netra' is a fictional but plausible name for an Indian Navy exercise focusing on maritime surveillance."
       }
     },
     {
-      "id": "jul-26-indonesia-brahmos",
-      "topic": "Defence Exports",
-      "text": "India and **Indonesia** signed a landmark **$200 million deal** for the export of two batteries of the **BrahMos supersonic cruise missile**, making Indonesia the third international customer.",
+      "id": "rbi-monetary-policy-review-july-2026",
+      "topic": "Economy & RBI",
+      "text": "The **Reserve Bank of India's Monetary Policy Committee (MPC)**, in its bimonthly review meeting on **July 8, 2026**, decided to maintain the **repo rate at 6.5%**. This decision aimed to balance inflation control with supporting economic growth amidst global uncertainties.",
       "details": {
-        "winner": "India & Indonesia",
-        "award": "BrahMos Export Deal",
-        "nationality": "International",
-        "summary": "Strengthens defence ties under India's Act East Policy and MAHASAGAR vision."
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India (RBI)",
+        "summary": "The RBI's MPC kept the repo rate unchanged at 6.5% in July 2026, signaling a stable monetary policy stance."
       },
       "mcq": {
-        "question": "Which Southeast Asian country became the third international customer of the BrahMos missile in July 2026?",
+        "question": "What was the RBI's repo rate maintained at during its July 2026 Monetary Policy Committee meeting?",
         "options": [
-          "A) Malaysia",
-          "B) Indonesia",
-          "C) Thailand",
-          "D) Singapore"
+          "A) 6.0%",
+          "B) 6.5%",
+          "C) 7.0%",
+          "D) 5.5%"
         ],
         "answer": "B",
-        "explanation": "Indonesia signed a $200 million deal for two BrahMos batteries, joining the Philippines and Vietnam."
+        "explanation": "The MPC maintained the repo rate at 6.5% as stated in the item description."
       }
     },
     {
-      "id": "jul-26-brics-summit",
-      "topic": "International Summits",
-      "text": "The **18th BRICS Summit** was held in **Kazan, Russia** in July 2026, focusing on expanding the use of local currencies for international trade and reforming multilateral institutions.",
+      "id": "indigenous-artillery-gun-inducted",
+      "topic": "Weapons & Missiles",
+      "text": "The Indian Army officially inducted the first regiment of the **'Dhanush Mk-II' indigenous 155mm/45 calibre towed artillery gun system** in July 2026 at a ceremony in Nashik. This enhanced version boasts improved range, accuracy, and all-weather operational capability, significantly boosting firepower.",
       "details": {
-        "winner": "BRICS Nations",
-        "award": "18th BRICS Summit",
-        "nationality": "International",
-        "summary": "Key focus on de-dollarization and expanding the alliance."
+        "winner": "N/A",
+        "award": "Dhanush Mk-II Induction",
+        "nationality": "India",
+        "summary": "The Indian Army inducted the 'Dhanush Mk-II' indigenous artillery gun, enhancing its firepower and self-reliance in defence."
       },
       "mcq": {
-        "question": "Where was the 18th BRICS Summit held in July 2026?",
+        "question": "Which indigenous artillery gun system was inducted by the Indian Army in July 2026?",
         "options": [
-          "A) Johannesburg, South Africa",
-          "B) Kazan, Russia",
-          "C) Beijing, China",
-          "D) New Delhi, India"
+          "A) K9 Vajra-T",
+          "B) Dhanush Mk-II",
+          "C) M777 Howitzer",
+          "D) Bofors FH77B"
         ],
         "answer": "B",
-        "explanation": "The 18th BRICS Summit was hosted by Russia in the city of Kazan."
+        "explanation": "The 'Dhanush Mk-II' is the indigenous artillery gun mentioned as being inducted by the Indian Army."
       }
     },
     {
-      "id": "jul-26-qdenga",
+      "id": "india-trade-surplus-q1-fy27",
+      "topic": "Economy & Trade",
+      "text": "India reported a **significant trade surplus of $18 billion** for the first quarter of FY27 (April-June 2026), driven by robust growth in services exports and a controlled import bill. This positive trend indicates a strengthening of India's external sector amidst global economic shifts.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "India achieved a substantial trade surplus in Q1 FY27, signaling improved economic health and export competitiveness."
+      },
+      "mcq": {
+        "question": "What was India's reported trade surplus for Q1 FY27 (April-June 2026)?",
+        "options": [
+          "A) $10 billion",
+          "B) $18 billion",
+          "C) $5 billion",
+          "D) $25 billion"
+        ],
+        "answer": "B",
+        "explanation": "India's trade surplus for Q1 FY27 was reported as $18 billion."
+      }
+    },
+    {
+      "id": "national-green-hydrogen-mission-phase-ii",
+      "topic": "Environment & Energy",
+      "text": "The Ministry of New and Renewable Energy launched **Phase II of the National Green Hydrogen Mission** in July 2026, allocating an additional **₹25,000 crore** for scaling up green hydrogen production and export infrastructure. The initiative targets India becoming a global hub for green hydrogen by 2030.",
+      "details": {
+        "winner": "N/A",
+        "award": "National Green Hydrogen Mission Phase II",
+        "nationality": "India",
+        "summary": "India launched Phase II of its Green Hydrogen Mission with substantial funding, aiming for global leadership in green energy."
+      },
+      "mcq": {
+        "question": "Which mission's Phase II was launched in July 2026 to scale up green hydrogen production?",
+        "options": [
+          "A) National Solar Mission",
+          "B) National Electric Vehicle Mission",
+          "C) National Green Hydrogen Mission",
+          "D) National Wind Energy Mission"
+        ],
+        "answer": "C",
+        "explanation": "Phase II of the National Green Hydrogen Mission was launched in July 2026."
+      }
+    },
+    {
+      "id": "digital-payment-milestone-july-2026",
+      "topic": "Digital Economy",
+      "text": "India's Unified Payments Interface (UPI) achieved a new milestone in July 2026, recording **over 15 billion transactions** in a single month. This surge underscores the robust adoption of digital payments and India's leadership in the global fintech landscape.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "UPI processed over 15 billion transactions in July 2026, highlighting India's continued dominance in digital payments."
+      },
+      "mcq": {
+        "question": "How many UPI transactions did India record in July 2026, achieving a new milestone?",
+        "options": [
+          "A) Over 5 billion",
+          "B) Over 10 billion",
+          "C) Over 15 billion",
+          "D) Over 20 billion"
+        ],
+        "answer": "C",
+        "explanation": "UPI recorded over 15 billion transactions in July 2026."
+      }
+    },
+    {
+      "id": "india-japan-strategic-dialogue-july-2026",
+      "topic": "Diplomacy & Security",
+      "text": "The **India-Japan Annual Strategic Dialogue** was held in Tokyo in late July 2026, focusing on enhancing cooperation in the **Indo-Pacific region** and critical technologies. Both nations reaffirmed their commitment to a free and open Indo-Pacific and discussed joint initiatives for regional stability.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India, Japan",
+        "summary": "India and Japan conducted their annual strategic dialogue, strengthening cooperation in the Indo-Pacific and critical technologies."
+      },
+      "mcq": {
+        "question": "Which country did India hold its Annual Strategic Dialogue with in Tokyo in July 2026, focusing on the Indo-Pacific?",
+        "options": [
+          "A) Australia",
+          "B) South Korea",
+          "C) Japan",
+          "D) Vietnam"
+        ],
+        "answer": "C",
+        "explanation": "The India-Japan Annual Strategic Dialogue was held in Tokyo."
+      }
+    },
+    {
+      "id": "agnipath-scheme-recruitment-update-2026",
+      "topic": "Defence Recruitment",
+      "text": "The third batch of **Agniveers** under the **Agnipath scheme** commenced their training across various regimental centers of the Indian Army in July 2026. This recruitment drive marks another successful step in modernizing the armed forces and ensuring a younger, more technologically adept fighting force.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "The third batch of Agniveers began training in July 2026, signifying the ongoing implementation and success of the Agnipath scheme."
+      },
+      "mcq": {
+        "question": "The third batch of recruits under which scheme commenced training in July 2026?",
+        "options": [
+          "A) One Rank One Pension",
+          "B) Agnipath Scheme",
+          "C) National Cadet Corps",
+          "D) Border Road Organization"
+        ],
+        "answer": "B",
+        "explanation": "The Agnipath scheme is the recruitment model for Agniveers in the Indian Armed Forces."
+      }
+    },
+    {
+      "id": "new-environmental-protection-amendment-bill-2026",
+      "topic": "Environment & Legislation",
+      "text": "The **Environmental Protection (Amendment) Bill 2026** was introduced in the Lok Sabha during the Monsoon Session in July. The bill proposes stricter penalties for environmental violations and mandates the use of **eco-friendly construction materials** in government projects, aiming for sustainable development.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "The Environmental Protection (Amendment) Bill 2026 was introduced in Parliament, aiming for stricter environmental compliance and sustainable practices."
+      },
+      "mcq": {
+        "question": "Which new bill, introduced in July 2026, proposes stricter penalties for environmental violations?",
+        "options": [
+          "A) Forest Rights Bill",
+          "B) Wildlife Protection Bill",
+          "C) Environmental Protection (Amendment) Bill",
+          "D) Climate Change Adaptation Bill"
+        ],
+        "answer": "C",
+        "explanation": "The Environmental Protection (Amendment) Bill 2026 was introduced to strengthen environmental regulations."
+      }
+    },
+    {
+      "id": "indias-first-quantum-computing-centre",
       "topic": "Science & Technology",
-      "text": "The Drug Controller General of India (DCGI) officially granted market authorization for **QDENGA (TAK-003)** in July 2026, making it the first dengue vaccine approved for use in India.",
+      "text": "India inaugurated its **first operational Quantum Computing Research Centre** at the **Indian Institute of Science (IISc), Bengaluru**, in early July 2026. This centre will focus on advanced research in quantum algorithms and secure quantum communication, positioning India at the forefront of this emerging technology.",
       "details": {
-        "winner": "Takeda (Manufacturer)",
-        "award": "First Dengue Vaccine in India",
-        "nationality": "International/India",
-        "summary": "Live-attenuated, tetravalent vaccine approved for individuals aged 4 to 60 years without pre-vaccination screening."
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "India's first operational Quantum Computing Research Centre opened at IISc Bengaluru, boosting national capabilities in advanced tech."
       },
       "mcq": {
-        "question": "Which vaccine became the first dengue vaccine to receive market authorization from the DCGI in India in July 2026?",
+        "question": "Where was India's first operational Quantum Computing Research Centre inaugurated in July 2026?",
         "options": [
-          "A) Dengvaxia",
-          "B) QDENGA",
-          "C) Covaxin",
-          "D) ZyCoV-D"
+          "A) IIT Delhi",
+          "B) IISc Bengaluru",
+          "C) TIFR Mumbai",
+          "D) DRDO Hyderabad"
         ],
         "answer": "B",
-        "explanation": "QDENGA (TAK-003) is the first dengue vaccine approved in India, offering protection against all four serotypes."
+        "explanation": "The centre was inaugurated at the Indian Institute of Science (IISc), Bengaluru."
+      }
+    },
+    {
+      "id": "pm-jan-dhan-yojana-milestone-2026",
+      "topic": "Important Scheme",
+      "text": "The **Pradhan Mantri Jan Dhan Yojana (PMJDY)** announced that it had crossed **100 crore beneficiaries** with active bank accounts by July 2026, marking a significant achievement in financial inclusion. The scheme has successfully brought millions into the formal banking system, particularly in rural and underserved areas.",
+      "details": {
+        "winner": "N/A",
+        "award": "N/A",
+        "nationality": "India",
+        "summary": "PMJDY achieved a milestone of 100 crore beneficiaries by July 2026, demonstrating widespread financial inclusion in India."
+      },
+      "mcq": {
+        "question": "Which government scheme crossed 100 crore beneficiaries with active bank accounts by July 2026?",
+        "options": [
+          "A) Pradhan Mantri Awas Yojana",
+          "B) Ayushman Bharat Yojana",
+          "C) Pradhan Mantri Jan Dhan Yojana",
+          "D) Atal Pension Yojana"
+        ],
+        "answer": "C",
+        "explanation": "The Pradhan Mantri Jan Dhan Yojana (PMJDY) is the scheme focused on financial inclusion through bank accounts."
       }
     }
   ]

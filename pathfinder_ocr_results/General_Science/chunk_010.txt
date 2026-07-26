@@ -1,0 +1,197 @@
+GENERAL SCIENCE > Physics
+627
+3. Permanent magnets are used
+in microphone etc.
+Which of the following statements
+is/are correct?
+(a) 1 and 2
+(c) Only 2
+(b) 2 and 3
+(d) 1 and 3
+296. An electric generator converts
+(a) electric energy into sound energy
+(b) electric energy into light energy
+(c) electric energy into mechanical
+energy
+(d) mechanical energy into electric
+energy
+297. The essential difference between
+an AC generator and a DC
+generator has permanent magnet.
+(a) AC generator has an electromagnet
+while a DC generator has
+permanent magnet
+Select the correct answer using the 309. Tungsten is used for the
+codes given below.
+(a) 1 and 4
+(c) 2 and 3
+(b) Only 4
+(d) 2, 3 and 4
+> Previous Years' Questions
+302. In step-down transformer, the AC
+output gives the
+2012 II
+(a) current more than the input current
+(b) current less than the input current
+(c) current equal to the input current
+(d) voltage more than the input voltage
+303. A rectifier is an electronic device
+used to convert
+2012 II
+(a) AC voltage into DC voltage
+(b) DC voltage into AC voltage
+(c) sinusoidal pulse into square pulse
+(d) None of the above
+(b) DC generator will generate a higher 304. A device which is used in our TV
+voltage
+(c) AC generator will generate a higher
+voltage
+(d) AC generator has slip rings while
+DC generator has a commutator
+298. The core of a transformer is
+laminated so that
+(a) ratio of the voltages across the
+secondary and primary is doubled
+(b) the weight of the transformer can
+be kept low
+(c) the rusting of the core is prevented
+(d) energy loss due to eddy currents
+is minimised
+299. Which one of the following
+common devices works on the
+basis of the principle of mutual
+induction?
+(a) Tubelight
+(c) Photodiode
+(b) Transformer
+(d) LED
+300. Consider the following statements
+1. Core of a transformer is made
+up of soft iron.
+2. Step-up transformer converts a
+low voltage of high current
+into a high voltage of low
+current.
+3. Transformer is used for
+charging voltage only.
+Which of the following statements
+is/are correct?
+(a) 1 and 2
+(c) Only 3
+(b) 2 and 3
+(d) None of these
+301. Transformer is a kind of appliance
+that can
+1. increase power
+2. increase voltage
+3. decrease voltage
+4. measure current and voltage
+set, computer, radio set for storing
+the electric charge, is
+(a) resistor
+(c) capacitor
+2012 II
+(b) inductor
+(d) conductor
+305. If two conducting spheres are
+separately charged and then
+brought in contact
+2013 I
+(a) the total energy of the two spheres
+is conserved
+(b) the total charge on the two spheres
+is conserved
+(c) both the total energy and the total
+charge are conserved
+(d) the final potential is always the
+mean of the original potential of the
+two spheres
+306. When an incandescent electric
+bulb glows
+2014 I
+(a) the electric energy is completely
+converted into light
+(b) the electric energy is partly
+converted into light energy and
+partly into heat energy
+(c) the light energy is converted into
+electric energy
+(d) The electric energy is converted
+into magnetic energy
+307. A mobile phone charger is ✓ 2014 I
+(a) an inverter
+(b) an UPS
+(c) a step-down transformer
+(d) a step-up transformer
+308. Inactive nitrogen and argon gases
+are usually used in electric bulbs
+2014 II
+in order to
+(a) increase the intensity of light emitted
+(b) increase the life of the filament
+(c) make the emitted light coloured
+(d) make the production of bulb
+economical
+construction of filament in
+electric bulb because of its
+(a) high specific resistance
+(b) low specific resistance.
+(c) high light emitting power
+(d) high melting point
+□ 2014 II
+310. Electricity is produced through
+dry cell from
+(a) chemical energy
+(b) thermal energy
+(c) mechanical energy
+(d) nuclear energy
+2015 I
+311. A wire-bound standard resistor
+uses manganin or constantan. It
+is because
+2015 I
+(a) these alloys are cheap and easily
+available
+(b) they have high resistivity
+(c) they have low resistivity
+(d) they have resistivity which almost
+remains unchanged with
+temperature
+312. Two pieces of conductor of same
+material and of equal length are
+connected in series with a cell.
+One of the two pieces has
+cross-sectional area double that of
+the other. Which one of the
+following statements is correct in
+this regard?
+2015 I
+(a) The thicker one will allow stronger
+current to pass through it
+(b) The thinner one would allow
+stronger current to pass through it
+(c) Same amount of electric current
+would pass through both the
+pieces producing more heat in the
+thicker one
+(d) Same amount of electric current
+would pass through both the pieces
+producing more heat in the thinner
+one
+313. Which one of the following
+statements about bar magnet is
+correct?
+✓ 2016 I
+(a) The pole strength of the North
+pole of a bar magnet is larger
+than that of the South pole.
+(b) When a piece of bar magnet is
+bisected perpendicular to its axis,
+the North and South poles get
+separated.
+(c) When a piece of bar magnet is
+bisected perpendicular to its axis,
+two new bar magnets are formed.
+(d) The poles of a bar magnet are
+unequal in magnitude and opposite
+in nature.
