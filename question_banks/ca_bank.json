@@ -1268,6 +1268,34 @@
       "topicId": "current_affairs",
       "difficulty": "medium",
       "exam": "ALL"
+    },
+    {
+      "question": "A new Union Minister of Education was appointed in July 2026 to oversee the implementation of which major policy?",
+      "options": [
+        "National Health Policy",
+        "National Education Policy (NEP)",
+        "Skill India Mission",
+        "Digital India Initiative"
+      ],
+      "correct": 1,
+      "explanation": "[July 2026] The new Education Minister's primary focus remains the effective implementation of the National Education Policy (NEP) across all states.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Project Kusha, recently tested by the DRDO, is related to the development of which type of defence system?",
+      "options": [
+        "Intercontinental Ballistic Missile",
+        "Long-Range Surface-to-Air Missile (LR-SAM)",
+        "Nuclear-powered Submarine",
+        "5th Generation Fighter Aircraft"
+      ],
+      "correct": 1,
+      "explanation": "[July 2026] Project Kusha is India's ambitious indigenous LR-SAM system designed to intercept stealth fighters, drones, and cruise missiles.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
     }
   ]
 }

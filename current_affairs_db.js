@@ -3125,6 +3125,50 @@ window.CURRENT_AFFAIRS_DB = {
   ],
   "July 2026": [
     {
+      "id": "jul-26-new-edu-minister",
+      "topic": "Appointments",
+      "text": "Following a cabinet reshuffle in July 2026, the Government of India appointed the **new Union Minister of Education**, tasked with overseeing the continued implementation of the National Education Policy (NEP).",
+      "details": {
+        "winner": "Union Cabinet",
+        "award": "New Education Minister",
+        "nationality": "India",
+        "summary": "New appointment in the Ministry of Education following a cabinet reshuffle."
+      },
+      "mcq": {
+        "question": "A new Union Minister of Education was appointed in July 2026 to oversee the implementation of which major policy?",
+        "options": [
+          "A) National Health Policy",
+          "B) National Education Policy (NEP)",
+          "C) Skill India Mission",
+          "D) Digital India Initiative"
+        ],
+        "answer": "B",
+        "explanation": "The new Education Minister's primary focus remains the effective implementation of the National Education Policy (NEP) across all states."
+      }
+    },
+    {
+      "id": "jul-26-project-kusha",
+      "topic": "Defence Technology",
+      "text": "The Defence Research and Development Organisation (DRDO) successfully conducted a crucial test of **Project Kusha**, India's indigenous Long-Range Surface-to-Air Missile (LR-SAM) system, enhancing the nation's air defence shield.",
+      "details": {
+        "winner": "DRDO",
+        "award": "Project Kusha Test",
+        "nationality": "India",
+        "summary": "Project Kusha aims to provide an 'Iron Dome'-like air defence shield for India."
+      },
+      "mcq": {
+        "question": "Project Kusha, recently tested by the DRDO, is related to the development of which type of defence system?",
+        "options": [
+          "A) Intercontinental Ballistic Missile",
+          "B) Long-Range Surface-to-Air Missile (LR-SAM)",
+          "C) Nuclear-powered Submarine",
+          "D) 5th Generation Fighter Aircraft"
+        ],
+        "answer": "B",
+        "explanation": "Project Kusha is India's ambitious indigenous LR-SAM system designed to intercept stealth fighters, drones, and cruise missiles."
+      }
+    },
+    {
       "id": "kargil-vijay-diwas-2026",
       "topic": "National Commemoration",
       "text": "India observed the **27th anniversary of Kargil Vijay Diwas** on **July 26, 2026**, paying homage to the brave soldiers of the Indian Armed Forces. Ceremonies were held across the nation, with the main event at the **Kargil War Memorial, Dras**, attended by top military and political leadership.",
