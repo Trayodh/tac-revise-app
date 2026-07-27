@@ -1,0 +1,1880 @@
+--- Start of chunk_011.txt ---
+02
+CHEMISTRY
+After analysing the previous year question papers, we have seen that 40-50 questions are asked from science section,
+out of these 15-18 questions are asked from Chemistry. From chemistry section, around 2-3 questions are asked
+from matter, man-made materials, 1-2 questions from atomic structure, electrochemistry, radioactivity, acid base
+and 4-6 questions from inorganic, environment and its pollution and 1-2 question each from chemical bonding and
+redox reaction gas law and solution, surface chemistry, chemical thermodynamics, organic chemistry etc.
+MATTER
+As we look at our surroundings, we see a large variety
+of things with different shapes, sizes and textures.
+Everything in this universe is made up of material,
+which scientists have named "matter".
+MATTER
+Anything that has mass, occupies space and can be felt
+by our one or more sense organs is called matter.
+Matter is found in five physical states-solid, liquid,
+gas, plasma and Bose-Einstein condensate. Out of
+which, three states, i.e. solid, liquid and gas are more
+common.
+•
+Solid They have a fixed shape, volume and high
+density. The particles in solids are (closely) packed
+and held in rigid positions. They can be true or
+crystalline, (i.e. having ordered arrangement of
+constituent particles to a larger distance) like metals
+or amorphous or pseudo solids, (i.e. having short
+range arrangement of constituents particles) like non-metals,
+glass, most of the polymers, etc.
+Liquid They have a fixed volume but no fixed shape and
+have moderate to high densities. The particles in liquids are
+loosely packed and free to move. Their thermal conductivity
+decreases with rise in temperature with the exception of
+water.
+• Gas They have neither a fixed shape nor a fixed volume and
+have
+very low density. The particles in gas are widely spaced
+apart and uniformly distributed in the container.
+Two More States of Matter
+•
+•
+Plasma The state consists of super energetic and super
+excited particles which are in the form of ionised gases. Due
+to the presence of plasma, the sun and stars glow.
+Bose-Einstein Condensate (BEC) They are formed by
+cooling a gas of extremely low density to super low
+temperatures.
+
+--- Start of chunk_012.txt ---
+GENERAL SCIENCE > Chemistry
+637
+(iii) Gamma (Y) rays (no charge and no mass) They
+Note
+are not deflected from their path in the electric or
+magnetic field. These are electromagnetic
+radiations and have very high penetrating power.
+Emission of Y-rays is the secondary effect of
+radioactive charge.
+1. Stable nuclei are those for which number of neutrons and
+protons are equal.
+2. The time taken by half of the atoms of a radioactive element to
+disintegrate is called its half-life. Its unit is time-1.
+3. X-rays were discovered by Roentgen in 1896. These are
+electromagnetic waves of very short wavelength and are used
+to detect cracks in fractured bones.
+4. If the energies of α, ẞ and y-particles is same, then penerating
+power a <ẞ<y.
+Group Displacement Law
+This law was put forward by Soddy, Fajan and Russel on
+the basis of following fact:
+(i) When a radioactive element emits an α-particle, the
+atomic number of the resulting nuclide decreases by 4
+units e.g.
+238
+92
+U
+->
+234 Th +He
+90
+(ii) When a radioactive element emits a B-particle, the
+atomic number of the resulting nuclide increases by
+one unit but the atomic mass remains unchanged e.g.,
+238 U
+92
+238
+93
+3 Np + e
+NUCLEAR REACTIONS
+These are of following two types:
+Nuclear Fission
+The splitting of a heavy nucleus into two smaller of nearly
+comparable masses and release of about 200MeV of energy
+is called nuclear fission. Nuclear fission was discovered by
+'Hahn' and 'Strassmann' in 1939.
+• Atom bomb is the result of uncontrolled nuclear fission.
+•
+•
+The device in which controlled nuclear fission (chain
+reactions) is carried out is called nuclear reactor. The
+fission is controlled by absorbing neutrons by using
+cadmium or boron rods.
+Heavy water (D2O, molecular weight 20) and graphite
+are used as moderator for slowing down the fast moving
+neutrons. U235 is used as a nuclear fuel.
+Nuclear Fusion
+The union of (two or more) lighter nuclei to form a heavier
+nucleus is called the nuclear fusion. It is also accompanied
+by release of energy because the total mass of products is
+lesser than the total mass of reactants.
+•
+Nuclear fusion occurs only at extremely high
+temperature (>106K), so it is also called thermonuclear
+reactions.
+Hydrogen bomb (mixture of deuterium oxide and
+tritium dioxide) is the result of nuclear fusion.
+Source of solar (sun) and stellar energy is nuclear fusion.
+The source of emission of large amount of energy during
+nuclear fission or fusion processes is conversion of mass
+into
+It is given by the relation, E = = mc² and
+energy.
+calculated in MeV.
+Applications of Radioisotopes
+Isotopes of all the known elements with Z >83 are
+radioactive and are called radioisotopes. These are used for
+various purposes, e.g. radiocarbon dating is used to
+determine the age of dead specimen with C14 content by
+comparing it with C-12 content.
+n
+N = No
+1
+2
+where, n=total time (T)/t1/2
+No
+=
+ratio of C14/C12 in green plant
+N = ratio of C14/C12 in wood
+Rock dating or uranium dating is used to determine the age
+of rocks or earth. It is based on 82 Pb206 and 92 U238 ratio.
+Uses of other Radioisotopes
+Radioisotope
+1131 (lodine-131)
+1123 (lodine-123)
+60
+Co (Cobalt-60)
+Na 24 (Sodium-24)
+p32 (Phosphorus-32)
+C14 (Carbon-14)
+Uses
+(1) To study the structure and activity of
+thyroid gland
+(ii) For the treatment of thyroid disease
+Brain imaging
+Treatment of cancer
+To trace the flow of blood
+For leukemia therapy (blood cancer)
+To study the kinetics of photosynthesis
+
+--- Start of chunk_013.txt ---
+642
+CDS Pathfinder
+ACIDS
+ACIDS, BASES AND SALTS
+The substances which have sour taste and turn blue litmus
+to red are called acids.
+•
+According to Arrhenius acids give hydrogen ion H+ in
+an aqueous solution.
+HCl (aq) -> H(aq) + Cl(aq)
+According to Bronsted Lowry concept, acids donate
+proton (hydrogen ion).
+BASES
+These substances which have bitter taste and turn red litmus
+to blue are called bases.
+•
+According to Arrhenius, bases give hydroxyl ion (OH)
+in aqueous solution. e.g. NaOH, KOH, CsOH,Mg(OH)2,
+etc.,
+NaOH (aq) → Na*(aq) + OH¯¯(aq)
+•
+•
+•
++
+HCl + NH3
+Acid
+-> Cl + NH,
+Conjugate
+base
+(A conjugate acid-base pair differ by a proton)
+According to Lewis concept, acids have tendency to
+accept electrons, i.e. these behave as electrophiles.
+e.g. electron deficient species like BF3, AlCl3, positive
+ions like Na*, K* and molecules having multiple bond
+between dissimilar atoms (e.g. CO 2, SO 2, etc).
+Sources of Some Acids
+Acid
+Citric acid
+Maleic acid
+Tartaric acid
+Lactic acid
+Acetic acid
+Sources
+Lemon, orange, grapes (citrus fruits)
+Unripe apple
+Tamarind, grapes
+Milk, curd
+Vinegar
+Tomato, spinach
+Stomach and other chemicals
+Oxalic acid
+Hydrochloric acid
+Formic acid
+Red ant sting
+Most of the acids contain hydrogen.
+HCl, H2SO4, HNO3 are mineral acids and are much
+stronger than organic acids.
+Aqua-regia is a mixture of concentrated hydrochloric
+acid and concentrated nitric acid in the ratio 3: 1. It
+can dissolve inert materials like platinum, gold, etc.
+Properties of Acids
+•
+Acids liberate hydrogen gas with more reactive metals.
+Zn + 2HCI -> ZnCl2 + H2 ↑
+Metal
+e.g.
+Salt
+Hydrogen
+Acids evolve carbon dioxide (CO2) gas with metal
+carbonates and bicarbonates. e.g.
+MCO3 + H2SO4
+Metal carbonate
+•
+•
+According to Bronsted Lowry concept, bases have a
+tendency to accept proton, e.g. NH3, H₂O, etc.
+NH3 +H,O
+NH++OH¯
+Conjugate
+•
+Base
+acid
+According to Lewis concept, bases have a tendency to
+donate electron pair. e.g. simple anions like Cl¯, F¯OH¯,
+etc., molecules containing lone pairs like NH3,
+R—O—H, R—O—R, etc.
+Properties of Bases
+• Base reacts with metal to form salt and liberates hydrogen
+gas. However, such reactions are not possible with all
+metals.
+• Water soluble bases are called alkali. Thus, all alkalis are
+bases but all the bases are not alkali.
+•
+In aqueous solution and molten state, they are good
+conductors of electricity.
+Acid and Base in a Reaction
+•
+.
+Acid-base pair
+CH3COOH + H₂O ->
+Acid
+Base
+(as donates proton) (as accepts proton)
+H3O+CH3COO
+Conjugate
+acid
+Acid-base pair
+Conjugate
+base
+Paraldehyde (a carbonyl compound) is used as a hypnotic.
+Clove oil can be used as indicator.
+SALTS
+When acid and base react together, they form salt and
+water. This reaction is known as neutralisation reaction,
+e.g.
+•
+→>
+M SO4 + H2O + CO₂↑
+•
+Acid
+In aqueous solution, they are conductor of electricity
+due to the presence of free H+ ions.
+HNO3 + KOH
+Acid
+Salt
+-> KNO3 + H2O
+Water
+Base
+When acid and base both are strong, 13.7 kcal energy is
+released. However, if either the acid or the base is weak,
+energy released is less than 13.7 kcal because some part of
+energy is utilised to ionise weak acid or base.
+
+--- Start of chunk_014.txt ---
+GENERAL SCIENCE > Chemistry
+647
+Second Law of Electrolysis
+It states that the masses of the resulting separated elements
+are directly proportional to the atomic masses of the
+elements, when an appropriate integral divisor is applied.
+W α E
+or
+W₁ _E₁
+W₂
+=
+E2
+Electrochemical Series
+When metals are arranged in the
+increasing order of their
+standard reduction electrode
+potential, a series is obtained,
+which is called electrochemical
+series. It is also called
+reactivity series (as reactivity
+follows the reverse order).
+Lower is the value of reduction
+potential, greater would be its
+reducing power.
+found in free state
+Moderately
+e.g.
+Zn + 2HCl -> ZnCl2 + H2
+The metals placed above are good reducing agent and
+reduces the metal oxides of the metal placed below them.
+CORROSION
+It is the process of oxidative deterioration of a metal
+surface by the action of environment to form unwanted
+corrosive products. e.g. conversion of iron into rust
+(Fe2O3 xH2O). Corrosion of iron is called rusting.
+Tarnishing of silver (due to the formation of Ag₂S),
+development of green coating [of Cu (OH)2 CuCO3 (basic
+copper carbonate)] on copper and bronze. It is basically an
+electrochemical process.
+It is accelerated by the presence of impurities, H+, electrolytes
+such as NaCl and gases such as CO2, SO 2, NO, NO2 etc.
+K
+Ca
+Highly reactive
+Na
+metals never
+Mg
+Metals Al
+above Zn
+hydrogen Cr
+Fe
+reactive
+Ni
+metals
+Sn
+Pb
+H
+Cu
+Metals Hg
+Less reactive
+-metals
+Least reactive
+Pt
+metals (found
+Au
+in the free state)
+°
+below Ag
+Depending upon the reactivity, hydrogen Pd
+the occurrence of metals in the
+reactivity series be
+may
+represented as shown in the
+figure.
+Thus, gold is the least reactive metal and hence, found in
+native state. The more reactive metals of the series can
+displace the less reactive metals from their salt solutions.
+e.g.
+-> No reaction
+Cu + FeSO4
+but Fe + CuSO4 →
+FeSO4 + Cu
+Moreover, metal placed before H can evolve H₂ from
+dilute acids.
+Prevention of Corrosion
+°
+•
+°
+•
+By coating with a suitable material (barrier protection
+viz paint, grease, metals (like Zn, Cu, Ni, Cr, Sn),
+adherent film of iron phosphate, adherent coating of
+magnetic oxide (Fe3O4).
+By alloying with suitable metals.
+By cathodic protection-the metal is made cathode by
+application of external circuit.
+By using artificial anode (sacrificial protection), more
+anodic metal (like Zn, Mg, Al etc.,) is connected to iron
+article by a wire. In such cases, current flows
+towards more reactive metal and prevents iron from
+corrosion.
+By galvanisation (covering of iron article with zinc).
+INORGANIC CHEMISTRY
+CLASSIFICATION OF ELEMENTS
+.
+.
+•
+In 1896, Mendeleev gave a periodic law. According to
+which "the properties of elements are the periodic
+function of their atomic masses".
+There were seven periods (horizontal rows) and eight
+groups (vertical columns) in the periodic table of
+Mendeleev having 63 known elements at that time.
+Moseley modified Mendeleev's periodic law and
+proposed modern periodic law. According to modern
+periodic law, "the properties of elements are periodic
+function of their atomic numbers."
+There are eighteen vertical columns, known as groups
+and seven horizontal rows, known as periods, in the
+long form of periodic table.
+Periodic Properties The properties which are repeated
+at regular intervals are known as periodic properties.
+Atomic and ionic size, electron affinity, ionisation
+potential, electronegativity, electropositive character,
+acidic or basic character, metallic nature, etc., are some
+important periodic properties.
+Characteristics of Periods
+• The number of valence electrons in elements increases
+from 1 to 8 on moving from left to right in a period.
+•
+•
+The elements in a period have consecutive atomic
+numbers.
+The valency of the element increases from 1 to 4 and
+then decreases to 0 (zero) on moving from left to right
+in a period, with respect to hydrogen.
+Atomic size, electropositive character, metallic character,
+reducing nature of elements and basic nature of oxides
+all decrease from left to right in a period.
+
+--- Start of chunk_015.txt ---
+652
+CDS Pathfinder
+Glass Wool
+It is an insulating material, obtained from fibre glass
+arranged into a texture similar to wood. It is produced or
+rolled in slabs with different thermal and mechanical
+properties.
+Elements of VA Group
+.
+•
+•
+•
+•
+.
+•
+Elements present in this group are 7N, 15P, 33AS, 51 Sb and
+83 Bi.
+Phosphorus is the most abundant element of this family in
+the earth's crust.
+Nitrogen is an essential component of explosives. It is
+generally filled in chips packets or electric bulbs to
+increase their life because of its inert nature.
+Ammonia NH3 is an alkaline gas, extremely soluble in
+water and is dried over quicklime.
+Oxides of nitrogen when dissolve in water give oxyacids,
+e.g. NO2 when dissolves in water, gives HNO 3 (nitric acid).
+Nitric acid is a strong acid and used in the synthesis of
+fertilisers and explosives.
+Red phosphorus is largely used in match industry and in
+the manufacture of phosphor bronze-an alloy of Cu, Sn
+and P.
+The ignition temperature (543K) is much higher than that
+of white phosphorus (303K). Hence, it does not catch fire
+easily.
+Elements of VIA Group
+(Oxygen Family-Chalcogens)
+•
+Elements in this group are 8O, 16S, 34 Se, 52 Te and 84 Po.
+• Most abundant element of the family is oxygen.
+• Common oxidation state of oxygen is (-2). In gaseous
+is a supporter of combustion.
+•
+•
+•
+.
+•
+form oxygen
+Oil of vitriol or king of chemicals is H2SO4.
+Sulphuric acid (H2SO4) is a dibasic acid and is a
+dehydrating agent. It is used in making explosives.
+Ozone (O3) is an allotrope of oxygen. It is diamagnetic
+gas.
+SO2 is a bleaching agent. Its bleaching action is due to
+reduction and is temporary.
+Oxides of sulphur causes acid rain in the atmosphere.
+Elements of Vilth Group (Halogens)
+in this group are F, 17Cl, 35 Br, 53I and
+Elements present
+85 At. Out of these, bromine (Br2) exists in liquid state and
+iodine (12) in solid state.
+Fluorine 'F' has maximum electronegativity.
+•
+Chlorine is prepared by oxidation of HCl with
+MnO2, KMnO4, K2Cr2O7 etc.
+•
+Chlorine has maximum electron affinity in the halogens.
+Order of reactivity of halogens, F2 > Cl₂ > Br₂ > I₂.
+Order of electronegativity, F > Cl > Br > I.
+Order of acidic strength, HI > HBr > HCl > HF.
+• Iodine is a powerful antiseptic and used as a tincture
+of iodine (a solution of iodine in alcohol).
+Elements of Villth Group
+•
+•
+Elements present in this group are 26 Fe, 27 Co, 28 Ni
+(Ferrous metals)
+44 Ru, 45 Rh, 46Pd (Light platinum metals)
+76
+6Os, 77Ir, 78 Pt (High platinum metals)
+All of these are d-block elements. Pig iron is obtained
+from blast furnace. It is most impure form of iron. It
+is very hard, but brittle. It cannot be welded. It
+contains maximum amount of carbon (2.5% to 4.3%).
+Wrought iron is the purest form of iron. It contains
+0.1 to 0.25% carbon. Wrought iron is soft, ductile and
+malleable, so it can be welded.
+Steel is the most important form of iron. It contains
+0.2 to 1.5% carbon.
+Iron is present in haemoglobin (blood) and its
+oxidation state in haemoglobin is +2.
+Fe2O3 is called jeweller's rough.
+Vitamin B12 is also called cobalamine and contains
+CO³ion. Its deficiency in diet causes pernicious anaemia.
+Elements of Zero Group
+Elements present in this group are 2He, 10 Ne, 18 Ar,
+36 Kr, 54Xe and Rn which are called nobel or inert
+gases.
+86
+Argon is the most abundant inert gas in air.
+Helium was discovered by Frankland and Lockyer.
+He-III is abundant on the lunar surface and holds the
+potential to put an end to the energy crisis of the
+earth.
+Argon was discovered by Rayleigh and Ramsay.
+Ne, Kr and Xe were discovered by Ramsay and Traverse.
+Radon was discovered by Dorn and is not present in air.
+All of these elements are colourless monoatomic gases.
+Their electronegativity and electron affinity are zero.
+Gas
+Helium
+Neon
+Argon
+Krypton/Xenon
+Uses
+With oxygen for respiration in case of
+deep seadives, filling balloons and in
+low temperature applications.
+In advertising signs.
+Light bulbs
+Photographic flash, TV tubes
+
+--- Start of chunk_016.txt ---
+GENERAL SCIENCE > Chemistry
+657
+•
+•
+•
+•
+•
+•
+•
+Phenol-formaldehyde Resins (Bakelite) These are
+made by the reaction of phenol and formaldehyde in the
+basic medium. Bakelite is a cross-linked thermosetting
+polymer. It is used for making combs, fountain pen
+barrels, electrical goods making electrical appliances,
+handles of crockery, etc. Sulphonated bakelites are used
+as ion-exchange resins for softening of hard water.
+Rubber It is a polymer of isoprene (2-methyl buta-1,
+3-diene). It is insoluble in water, dilute acids and alkalis,
+absorbs a large amount of water, has low tensile strength
+and elasticity.
+Neoprene It is a synthetic rubber which resembles
+natural rubber in its properties. It is obtained by the
+polymerisation of chloroprene (2-chlorobuta-1, 3-diene).
+It is superior to natural rubber in its stability.
+Easy availability of raw materials from products of
+petroleum refining industries lead to growth of synthetic
+rubber. It is generally used for making hoses, shoe heels,
+stoppers, etc.
+Buna-S It is a copolymer of 1, 3-butadiene and
+styrene. It is also known as SBR (Styrene-Butadiene
+Rubber). It has slightly less tensile strength than natural
+rubber. It is used in the manufacturing of automobile
+tyres, rubber soles, etc.
+Terylene or dacron or phthalate It is a polymer of
+ethylene glycol and terephthalic acid, i.e. is a
+polyester. It is used for making wash and wear fabrics,
+tyre cords, safety belts, tents, etc.
+Vulcanisation of Rubber It is the process of heating of
+rubber with sulphur. It makes the rubber hard, strong
+and more elastic.
+Kevlar It is a polymer of terephthalic acid and
+1,4-diaminobenzene so, it is a polyamide. It is used for
+making bulletproof vests.
+Lexan or polycarbonate It is a polymer of diethyl
+carbonate and bi-phenol. It is used in making
+bulletproof windows and safety helmets.
+Polyurethanes It is a polymer of toluene diisocyanate
+and ethylene glycol. It is used for making washable and
+long lasting mattresses, cushions, pillows, etc.
+Lucite It is a polymer of methyl methacrylate. It is used
+for making contact lenses. Plexiglass, acrylite or perspex
+are other terms used for lucite.
+Orlon or Acrilon Polyvinyl Cyanide It is a polymer
+of vinyl cyanide or acrylonitrile. It is used as a substitute
+for wool in making synthetic blankets (acrylic fibres).
+FERTILISERS
+Repeated cultivation of crops makes the soil deficient in
+some elements, mainly nitrogen, phosphorus and
+potassium. The substances which are added to the soil to
+make up the loss of these elements are called fertilisers.
+Some Important Fertilisers
+•
+•
+•
+.
+Basic Calcium Nitrate (Nitrate of lime)
+[CaO Ca(NO3)2] It is a good nitrogeneous fertiliser, used
+in acidic soil.
+Ammonium Sulphate [(NH4)2SO4] It contains 21.2%
+nitrogen. Its repeated use makes the soil acidic and
+unfit for the germination of seeds. Hence, addition of
+lime to the soil becomes necessary.
+Calcium Cynamide [CaCN2] (Nitrolim) It is black in
+colour because of the presence of carbon. It contains
+19% nitrogen.
+Urea [NH2CONH2] (Carbamide) It contains 46.6%
+nitrogen. It is the best nitrogeneous fertiliser as it leaves
+only carbon dioxide after ammonia has been assimilated
+by plants. Its repeated use does not change the pH of
+the soil.
+Superphosphate of Lime
+[Ca(H2 PO4)2+2CaSO4 H2 O] It is phosphatic fertiliser.
+Vermicompost It is the product or process of
+composting by using various species of worms, usually
+red wigglers, white worms and earthworms to create a
+heterogeneous mixture of decomposing vegetables or
+food, bedding material and vermicant containing water
+soluble nutrients. Vermicompost is an excellent, nutrient
+rich organic fertiliser and soil conditioner.
+Magnesium, manganese and sulphur are the
+macronutrients which are provided by the inorganic
+fertilisers.
+FUELS
+in
+The substances which on combustion produces energy
+the form of heat, is called a fuel, e.g. coal, wood, kerosene,
+petrol, diesel, cooking gas, etc. Fuel efficiency is expressed
+in terms of calorific value (kJg).
+Sulphur compound (ethyl mercaptan or thioethanol) is
+added to odourless LPG (Liquefied Petroleum Gas) for
+imparting a detectable smell to the gas.
+• LPG contains mainly butane alongwith some propane.
+CNG (Compressed Natural Gas) contains mainly
+methane and is used as a fuel in many vehicles because it
+produces less pollutants therefore, it is a better fuel than
+petrol or diesel.
+•
+°
+•
+Petrol is used as a fuel to run cars and aeroplanes
+whereas diesel is used to run trucks, buses, trains and
+ships.
+Quality of petrol or gasoline is expressed in terms of
+octane number and of diesel in terms of cetane number.
+Synthetic rubber, liquid ammonia, liquid hydrogen are
+used as propellants.
+Acetylene is a fuel used in gas welding. It is used to
+weld and cut the metals that have a temperature of
+300 °C of a flame.
+
+--- Start of chunk_017.txt ---
+662
+CDS Pathfinder
+Codes
+A B C D
+(a) 1 2 4 3
+(c) 5 2 1 4
+A B C D
+(b) 3 1 5 4
+(d) 3 1 2 4
+> Previous Years' Questions
+41. Which one among the following
+statements about an atom is not
+correct?
+2012 I
+(a) Atom always combine to form
+molecules
+(b) Atoms are the basic units from
+which molecules and ions are
+formed
+(c) Atoms are always neutral in nature
+(d) Atoms aggregate in large numbers
+to form the matter that we can
+see, feel and touch
+42. Which one among the following is
+not a correct statement?
+(a) Cathode rays are negatively
+charged particles
+2013 II
+(b) Cathode rays are produced from all
+the gases
+(c) Electrons are basic constituents of
+all the atoms
+(d) Hydrogen ions do not contain any
+proton
+43. In tritium (T), the number of
+protons (p) and neutrons (n)
+respectively, are
+(a) 1 p and 1 n
+(c) 1 p and 3 n
+✓ 2014 II
+(b) 1 p and 2n
+(d) 2p and 1 n
+44. The distribution of electrons into
+different orbits of an atom, as
+suggested by Bohr, is
+(a) 2 electrons in the K-orbit, 6
+2014 II
+electrons in the L-orbit, 18 electrons
+in the M-orbit
+(b) 2 electrons in the K-orbit, 8
+electrons in the L-orbit, 32 electrons
+in the M-orbit
+(c) 2 electrons in the K-orbit, 8
+electrons in the L-orbit, 18 electrons
+in the M-orbit
+(d) 2 electrons in the K-orbit, 8
+electrons in the L-orbit, 16 electrons
+in the M-orbit
+45. Who among the following
+proposed that atom is indivisible?
+(a) Dalton
+(c) Rutherford
+47. Which one of the following
+statements is not correct?
+□ 2016 II
+(a) Atoms of different elements may
+have same mass numbers
+(b) Atoms of an element may have
+different mass numbers
+(c) All the atoms of an element have
+same number of protons
+(d) All the atoms of an element will
+always have same number of
+neutrons
+Radioactivity
+48. In which categories did Marie Curie
+win her two different Nobel Prizes?
+(a) Physics and Chemistry
+(b) Chemistry and Medicine
+(c) Physics and Medicine
+(d) Chemistry and Peace
+49. The a-particles are
+(a) high energy electrons
+(b) positively charged hydrogen ions
+(c) high energy X-ray radiations
+(d) double positively charged helium
+nuclei
+50. Gamma rays have
+(a) zero mass and no charge
+(b) zero mass and positive charge
+(c) unit mass and zero charge
+(d) unit mass and negative charge
+51. An α-particle consists of which of
+the following?
+(a) 2 protons and 2 neutrons
+(b) 1 proton and 1 electron
+(c) 2 protons and 4 neutrons
+(d) 1 proton and 1 neutron.
+52. Which of the following particles
+cannot be accelerated?
+(a) Electrons
+(c) Neutrons
+(b) α-particles
+(d) Protons
+53. A nuclear reactor produce nuclear
+energy by
+(a) nuclear fusion
+(b) spontaneous fission
+(c) uncontrolled chain reaction
+(d) controlled chain reaction
+54. In nuclear reactors, the speed of
+neutrons is slowed down by
+(a) heavy water (b) ordinary water
+(d) molten caustic soda
+(c) zinc rods
+2015 I
+(b) Berzelius
+(d) Avogadro
+46. The atomic theory of matter was
+first proposed by
+(a) John Dalton
+(b) Rutherford
+(c) J.J. Thomson
+(d) Niels Bohr
+2015 II
+55. The energy generation in stars is
+(a) mainly due to the fusion of heavy
+nuclei
+(b) mainly due to the fusion of lighter
+nuclei
+(c) solely due to the fusion of heavy
+nuclei
+(d) due to both fission and fusion of
+lighter nuclei
+56. The difference between a nuclear
+reactor and atomic bomb is that
+(a) no chain reaction takes place in
+nuclear reactor while in the atomic
+bomb, there is a chain reaction
+(b) the chain reaction in nuclear
+reactor is controlled
+(c) the chain reaction in nuclear
+reactor is uncontrolled
+(d) no chain reaction takes place in
+atomic bomb while it takes place
+in nuclear reactor
+57. 'Yellow cake' an item of smuggling
+across the border is
+(a) a crude form of heroin
+(b) a crude form of cocaine
+(c) uranium oxide
+(d) unrefined gold
+58. Hydrogen bomb is based on the
+principle of
+(a) nuclear fission
+(b) nuclear fusion
+(c) natural radioactivity
+(d) artificial radioactivity
+59. In treatment of cancer, which of
+the following is used?
+(a)
+(b)
+(d)
+131153
+32P15
+60 CO 27
+2H1
+60. Statement I Hydrogen bomb is
+more powerful than atomic bomb.
+Statement II In hydrogen bomb,
+reaction is initiated by fission
+followed by fusion.
+Codes
+(a) Both the Statements are correct
+and Statement II is the correct
+explanation of Statement I
+(b) Both the Statements are correct
+but Statement II is not the correct
+explanation of Statement I
+(c) Statement I is correct but
+Statement II is incorrect
+(d) Statement I is incorrect but
+Statement II is correct
+61. Consider the following statements
+1. Atomic number decreases by 2
+and mass number increases by
+4 on α-particle emission.
+2. Atomic number increases by 1
+and mass number remains
+unchanged on ẞ-particle
+emission.
+Choose the correct statement(s)
+(a) Only 1
+(b) Only 2
+(c) Both 1 and 2
+(d) None of the above
+
+--- Start of chunk_018.txt ---
+GENERAL SCIENCE > Chemistry
+667
+149. Statement I During indigestion,
+milk of magnesia is taken to get
+rid of pain in the stomach.
+Statement II Milk of magnesia is
+a base and it neutralises the
+excess acid in the stomach.
+Codes
+2015 I
+(a) Both the Statements are correct
+and Statement II is the correct
+explanation of Statement I
+(b) Both the Statements are correct
+but Statement II is not the correct.
+explanation of Statement I
+(c) Statement I is correct but
+Statement II is incorrect
+(d) Statement I is incorrect but
+Statement II is correct
+Chemical Thermodynamics
+and Surface Chemistry
+150. A system which can exchange
+energy with the surroundings but
+no matter is called
+(a) a heterogeneous system
+(b) an open system
+(c) a closed system
+(d) an isolated system
+151. When a gas is subjected to
+adiabatic expansion, it gets cooled
+due to
+(a) no change in entropy
+(b) loss in kinetic energy
+(c) decrease in velocity
+(d) energy spent in doing work
+152. If a refrigerator's door is kept
+open, then
+(a) room will be cooled.
+(b) room will be heated.
+(c) may get cooled or heated
+depending upon the weather
+(d) no effect on room
+153. When ammonium chloride is
+dissolved in water, the solution
+becomes cold. The change is
+(a) endothermic (b) exothermic
+(c) supercooling (d) None of these
+154. Which one is true?
+(a) 1 calorie 1 erg
+> 1 joule
+(b) 1 erg > 1 calorie 1 joule
+(c) 1 calorie 1 joule > 1 erg
+(d) 1 joule 1 calorie > 1 erg
+155. Out of the following given
+systems, in case of which
+exchange of energy takes place
+but not of matter?
+(a) Jet engine
+(b) Tea placed in steel kettle
+(c) Pressure cooker
+(d) Rocket engine during propulsion
+156. When a strong beam of light is
+passed through a colloidal
+solution, the light is
+(a) reflected
+(b) scattered
+(c) Both (a) and (b) (d) None of these
+157. Colloidal solution commonly used
+in the treatment of eye disease is
+(a) colloidal silver
+(b) colloidal gold
+(c) colloidal antimony
+(d) colloidal sulphur
+158. Which of the following colloidal
+solution is commonly used as
+germ killer?
+(a) Colloidal sulphur
+(b) Colloidal gold
+(c) Colloidal silver
+(d) Colloidal antimony
+159. Which one of the following is
+correctly matched?
+(a) Aerosol-smoke (b) Foam-mist
+(c) Emulsion-curd (d) All of these
+160. In case of which of the following,
+one phase is not dispersed in
+another?
+(a) Chlorophyll
+(c) Ruby glass
+(b) Smoke
+(d) Milk
+161. Which of the following makes
+path of the light visible when
+passing through it?
+(a) Air
+(c) Smoke
+(b) A gold ring
+(d) Salt water
+162. Fog is an example of colloidal
+system of
+(a) liquid in a gas
+(c) gas in a solid
+(b) gas in a liquid
+(d) solid in a liquid
+163. An emulsion consists of
+(a) two liquids
+(c) two gases
+(b) two solids
+(d) two salts
+164. Artificial rain is caused by
+spraying
+(a) neutral charged colloidal dust over
+a cloud
+(b) similar charged colloidal dust over
+a cloud
+(c) Both (a) and (b)
+(d) opposite charged colloidal dust
+over a cloud
+165. The bleeding of a wound is
+stopped by the application of
+ferric chloride because
+(a) blood starts flowing in the opposite
+direction
+(b) ferric chloride seals the blood
+vessels
+(c) blood reacts and a solid is formed
+which seals the blood vessels
+(d) blood is coagulated and the blood
+Ivessels are sealed
+166. Dialysis can separate which of the
+following in addition to the
+glucose from human blood?
+(a) Fructose
+(c) Protein
+(b) Starch
+(d) Sucrose
+167. Generally, the path of light
+becomes visible when we enters in
+a cinema hall. The similar effect is
+observed in case of all except
+(a) gold sol
+(c) emulsions
+(b) sugar solution
+(d) suspension
+168. A catalyst increases the rate of a
+chemical reaction by
+(a) increasing the activation energy
+(b) decreasing the activation energy
+(c) reacting with reactants
+(d) reacting with products
+169. TEL minimises the knocking
+effect when mixed with petrol.
+Here, it acts as a/an
+(a) positive catalyst (b) negative catalyst
+(c) autocatalyst (d) induced catalyst
+170. The catalyst used in the
+hydrogenation of oils is
+(a) Ni (b) Cu (c) Fe
+(d) Pb
+171. The temperature at which the
+catalytic activity of the catalyst is
+maximum, is called
+(a) critical temperature
+(b) room temperature
+(c) absolute temperature
+(d) optimum temperature
+172. In the Haber's process for the
+synthesis of NH3,
+(a) Mo acts as a catalyst and Fe as a
+promotor
+(b) Fe acts as a catalyst and Mo as a
+promotor
+(c) Fe acts as an inhibitor and Mo as
+a catalyst
+(d) Fe acts as a promotor and Mo as
+autocatalyst
+173. The enzymes are killed
+(a) at a very high temperature
+(b) during chemical reaction
+(c) at low temperature
+(d) under atmospheric pressure
+174. Enzyme catalysis is an example of
+(a) autocatalysis
+(b) heterogeneous catalysis
+(c) homogeneous catalysis
+(d) induced catalysis
+175. Which of the following statements
+is true?
+(a) All the catalyst are enzymes
+(b) All the enzymes are biocatalysts
+(c) All other catalysts except enzymes
+are called biocatalysts
+(d) Biocatalysts are non-proteinous in
+nature
+
+--- Start of chunk_019.txt ---
+672
+CDS Pathfinder
+271. Which of the following when
+dissolved in H2O gives hissing
+sound?
+1. Limestone
+2. Slaked lime
+3. Quickime
+Choose the correct code
+279. A compound that is a white solid
+which absorbs water vapour from
+the air is
+(a) sodium nitrate
+(b) calcium chloride
+2013 II
+(a) Only 2
+(c) 1 and 3
+(b) Only 3
+(d) All of these
+2012 I
+> Previous Years' Questions
+272. The elements of a group in the
+periodic table
+(a) have similar chemical properties
+(b) have consecutive atomic numbers
+(c) are isobars
+(d) are isotopes
+273. The gas which turns lime water
+milky is
+(a) carbon dioxide
+(b) carbon monoxide
+(c) ammonia
+(d) nitrogen dioxide
+2012 II
+274. Why hard water does not give
+lather with soap?
+2013 I
+(a) Hard water contains calcium and
+magnesium ions which form
+precipitate with soap
+(b) Hard water contains sulphate and
+chloride ions which form precipitate
+(c) pH of hard water is high
+(d) pH of hard water is less
+275. Which one among the following
+metals is used in fireworks to
+make a brilliant white light?
+(a) Sodium
+(c) Aluminium
+(c) sodium carbonate
+(d) calcium sulphate
+280. Which of the following are the two
+main constituents of granite?
+(a) Iron and silica
+(b) Iron and silver
+(c) Silica and aluminium
+(d) Iron oxide and potasium
+281. Which one of the following
+elements is present in green
+2014 I
+pigment of leaf?
+2014 I
+(a) Magnesium
+(c) Iron
+(b) Phosphorus
+(d) Calcium
+282. Which method of water
+purification does not kill
+microorganism?
+(a) Boiling
+(c) Chlorination
+2014 I
+(b) Filtration
+(d) UV-irradiation
+283. What causes dough (a mixture of
+flour, water, etc.) to rise when
+yeast is added to it?
+(a) An increase in temperature
+2014 I
+(b) An increase in the amount of the
+substance
+(c) An increase in the number of yeast
+cells
+(d) Release of carbon dioxide gas
+284. Which one of the following gases
+is supporter of combustion?
+2013 I
+(b) Magnesium
+(d) Silver
+(a) Hydrogen
+276. Which allotropy of carbon is in
+rigid three-dimensional structure?
+(a) Graphite
+(c) Diamond
+2013 I
+(b) Fullerene
+(d) Carbon black
+277. What are the elements which are
+liquids at room temperature and
+standard pressure?
+1. Helium
+3. Chlorine
+✓ 2013 II
+2. Mercury
+4. Bromine
+Select the correct answer using
+the codes given below.
+(a) 2 and 3
+(b) 2, 3 and 4
+(d) 1 and 3
+(c) 2 and 4
+278. Which element forms the highest
+number of compounds in the
+periodic table?
+(a) Carbon
+(c) Silicon
+✓ 2013 II
+(b) Oxygen
+(d) Sulphur
+(b) Nitrogen
+(c) Carbon dioxide
+(d) Oxygen
+2014 I
+285. Statement I Clay layers are poor
+aquifers.
+Statement II The inter-particle
+space of clay minerals is the least.
+Codes
+2014 I
+(a) Both the Statements are correct
+and Statement II is the correct
+explanation of Statement I
+(b) Both the Statements are correct
+but Statement II is not the correct
+explanation of Statement I
+(c) Statement I is correct but
+Statement II is incorrect
+(d) Statement I is incorrect but
+Statement II is correct
+286. Tungsten is used for the
+construction of filament in electric
+bulb because of its
+2014 II
+(a) high specific resistance
+(b) low specific resistance
+(c) high light emitting power
+(d) high melting point
+287. Inactive nitrogen and argon gases
+are usually used in electric bulbs
+in order to
+2014 II
+(a) increase the intensity of light emitted
+(b) increase the life of the filament
+(c) make the emitted light coloured
+(d) make the production of bulb
+economical
+288. When carbon dioxide is passed
+through lime water, the solution
+turns milky, but, on prolonged
+passage the solution turns clear.
+This is because
+✓ 2014 II
+(a) the calcium carbonate formed
+initially is converted to soluble
+calcium bicarbonate on passage of
+more carbon dioxide
+(b) the reaction is reversible and lime
+water is regenerated
+(c) the calcium bicarbonate formed
+initially is converted to soluble
+calcium carbonate on passage of
+more carbon dioxide
+(d) the initially formed insoluble
+compound is soluble in carbonic
+acid
+289. Which of the following is a good
+lubricant?
+(a) Diamond powder
+(b) Graphite powder
+(c) Molten carbon
+(d) Alloy of carbon and iron
+2014 II
+290. The form of carbon known as
+graphite
+(a) is harder than diamond
+2014 II
+(b) contains a higher percentage of
+carbon than diamond
+(c) is a better electrical conductor than
+diamond
+(d) has equal carbon-to-carbon
+distances in all directions
+291. Which of the following is not
+correct about baking soda?
+□ 2014 II
+(a) It is used in soda-acid fire
+extinguisher
+(b) It is added for faster cooking
+(c) It is a corrosive base
+(d) It neutralises excess acid in the
+stomach
+292. Sodium metal should be stored in
+2015 I
+(a) alcohol
+(b) kerosene oil
+(c) water
+(d) hydrochloric acid
+
+--- Start of chunk_020.txt ---
+GENERAL SCIENCE > Chemistry
+677
+390. The synthetic rubber has replaced
+natural rubber for domestic and
+industrial purposes. Which one of
+the following is the main reason
+behind that?
+2016 I
+(a) Natural rubber is unable to meet
+the growing demand of different
+industries.
+(b) Natural rubber is grown in tropical
+countries only
+(c) Raw materials for synthetic rubber
+are easily available
+(d) Natural rubber is not durable
+391. The handle of pressure cookers is
+made of plastic because it should
+be made non-conductor of heat
+The plastic used there is the first
+man-made plastic, which is
+(a) polythene
+(c) nylon
+(b) terylene
+(d) bakelite
+Environment and
+its Pollution
+2016 I
+392. How much amount of sun rays
+reaching the earth is used by
+plants?
+(a) 90% (b) 1%
+(c) 15% (d) 48%
+393. The pollutants which come
+directly in the air from sources
+are called primary pollutants.
+Primary pollutants are sometimes
+converted into secondary
+pollutants. Which of the following
+belongs to secondary air
+pollutants?
+(a) CO
+(b) Hydrocarbon
+(c) Peroxyacetyl nitrate (PAN)
+(d) NO
+394. Ozone is formed in the upper
+atmosphere from oxygen by the
+action of
+(a) thermal radiation from sunlight
+(b) cosmic rays
+(c) ultraviolet rays
+(d) infrared rays
+395. Which of the following statements
+is wrong?
+(a) Ozone is not responsible for
+greenhouse effect
+(b) Ozone can oxidise sulphur dioxide
+present in the atmosphere to
+sulphur trioxide
+(c) Ozone hole is thinning of ozone
+layer present in stratosphere
+(d) Ozone is produced in upper
+stratosphere by the action of UV
+rays on oxygen
+396. Which one of the following is the
+major cause of depletion of ozone
+strata of the atmosphere?
+(a) Carbon dioxide
+(b) Chlorofluoro carbon
+(c) Sulphur dioxide
+(d) Nitrogen oxide
+397. Which of the following statements
+is correct?
+(a) Ozone hole is a hole formed in
+stratosphere from which ozone
+ooze out
+(b) Ozone hole is a hole formed in the
+troposphere from which ozone ooze
+out
+(c) Ozone hole is thinning of ozone
+layer of stratosphere at some
+places
+(d) Ozone hole means vanishing of
+ozone layer around the earth
+completely
+398. Oxidation of sulphur dioxide into
+sulphur trioxide in the absence of
+a catalyst is a slow process but
+this oxidation occurs easily in the
+atmosphere. Which substance
+catalyse the reaction?
+(a) Oxygen
+(c) UV rays
+(b) Particulate
+(d) IR rays
+399. Dinitrogen and dioxygen are main
+constituents of air but these do
+not react with each other to form
+oxides of nitrogen because
+(a) the reaction is endothermic and
+requires very high temperature
+(b) the reaction can be initiated only in
+the presence of a catalyst
+(c) oxides of nitrogen are unstable
+(d) N2 and O2 are unreactive
+400. In acid rain, the acid present in
+highest concentration is
+(a) nitric acid
+(b) hydrochloric acid
+(c) sulphuric acid (d) carbonic acid
+401. Which of the following statements
+is not true?
+(a) London smog is a mixture of
+smoke and fog
+(b) London smog is oxidising in nature
+(c) Photochemical smog causes
+irritation in eyes
+(d) Photochemical smog results in the
+formation of PAN
+402. Which of the following statements
+is not true about classical smog?
+(a) Its main components are produced
+by the action of sunlight on
+emissions of automobiles and
+factories
+(b) Produced in cold and humid
+climate
+(c) It contains compounds of reducing
+nature
+(d) It contains smoke, fog and sulphur
+dioxide
+403. Which of the following compounds
+caused tragedy of Bhopal in 1984?
+(a) Phosphene
+(b) Methyl isocyanate
+(c) Carbon monoxide
+(d) Methyl cyanate
+404. SO2 and NO 2 causes pollution by
+increasing
+(a) alkalinity
+(b) neutrality
+(c) acidity
+(d) buffer action
+405. Freon used as refrigerants is
+chemically known as
+(a) chlorinated hydrocarbon
+(b) fluorinated hydrocarbon
+(c) chlorofluoro hydrocarbon
+(d) fiuorinated aromatic compound
+406. Which one of the following is
+considered as point source for
+water pollution?
+(a) Factories
+(b) Construction site
+(c) Acid rain
+(d) Field lawns
+407. Sewage containing organic waste
+should not be disposed in water
+bodies because it causes major
+water pollution. Fishes in such a
+contaminated water die because of
+(a) large number of mosquitoes
+(b) increase in the amount of dissolved
+oxygen
+(c) decrease in the amount of
+dissolved oxygen
+(d) clogging of gills by mud
+408. Biochemical Oxygen Demand
+(BOD) is a measure of organic
+materials present in water. BOD
+value less than 5 ppm indicates a
+water sample to be
+(a) rich in dissolved oxygen
+(b) poor in dissolved oxygen
+(c) highly polluted
+(d) not suitable for aquatic life
+409. For dry cleaning, in the place of
+tetrachloroethane, liquefied
+carbon dioxide with suitable
+detergent is an alternative
+solvent. What type of harm to the
+environment will be prevented by
+stopping use of tetrachloroethane?
+(a) It results in tropospheric pollution
+(b) It causes depletion of ozone layer
+(c) It causes particulate pollution
+(d) Both (a) and (b)
+
+--- Start of chunk_021.txt ---
+03
+BIOLOGY
+After analysing the previous year question papers, we have seen that 40-45 questions are asked from science
+section, out of these 10-15 questions were asked from Biology. From biology section, around 2-3 questions are
+asked from classification, genetics and evolution, 3-4 questions from human physiology, and 1 to 2 questions
+each from topics like cell, human health and diseases and applied biology.
+CELL: THE UNIT OF LIFE
+Biology is the branch of science concerned with the
+study of living organisms. The term 'biology' is coined
+by Lamarck and Treviranus. The study of plants is
+called Botany, while study of animals is called Zoology.
+THE CELL
+Cell is the basic structural and functional unit of all the
+living organisms. The word 'cell' comes from the Latin
+word cellula which means a 'small room'.
+Living organisms may consist of one or more cells,
+according to this there are two types of organisms,
+i.e. unicellular (composed of single cell) and
+multicellular (composed of many cells).
+Cell
+•
+•
+•
+Robert Hooke in 1665 discovered the cell. He is the
+Father of Cytology.
+Cell theory was given by Schleiden and Schwann.
+Matthias Jacob Schleiden (1838) a German botanist said
+that, all plants are composed of different kinds of cells,
+which in turn form plant tissues.
+Theodor Schwann (1839) said that, all animals and plants
+are made up of cells. Cell theory is not applicable for
+viruses.
+According to Virchow 'new cells arise from pre-existing
+cells', i.e. Omnis cellula-e-cellula.
+Smallest cell is mycoplasma or Pleuropneumonia Like
+Organism (PPLO). Largest cell is ostrich's egg and the
+longest cell is nerve cell.
+The smallest human cell is the red blood cell. Bacteria was
+discovered by AV Leeuwenhoek.
+Non-living parts of cell
+•
+-Cell wall
+First compound microscope was invented by Jansen and
+Jansen.
+- Vacuoles
+•
+-Fat droplets
+•
+- Granules
+Electron microscope was invented by Knoll and Ruska.
+Vital stains are used for staining living cells or living parts
+of cell, e.g. Janus green for mitochondria.
+•
+-Waste materials
+Protoplasm is the living component of cell that includes
+cytoplasm, cell organelles and nucleoplasm.
+Living parts of cell
+Nucleus
+Cell membrane
+Cytoplasm
+Cell
+organelles
+-Endoplasmic reticulum
+Mitochondria
+Golgi bodies
+-Lysosomes
+Ribosomes
+- Plastids
+Centrosomes
+•
+Cytoplasm term was given by Strasburger.
+
+--- Start of chunk_022.txt ---
+GENERAL SCIENCE > Biology
+687
+•
+Nomenclature means providing distinct and proper
+names to organisms, so that they can be easily recognised
+and differentiated from others. The two codes for
+nomenclature are
+-
+ICBN International Code of Botanical Nomenclature
+ICZN International Code of Zoological Nomenclature
+Binomial nomenclature was given by Linnaeus. It is the
+system of nomenclature using two terms, the first
+indicating the genus and the second one indicating the
+species, e.g. Mangifera indica (mango).
+The categories used in classification are kingdom,
+phylum, class, order, family, genus and species.
+Genus and species terms were proposed by John
+Ray.
+The smallest unit of classification is species.
+Living organisms have been classified by different
+scientists. Some of the main classification systems are:
+(i) Two system classification was given by Linnaeus
+in 1758. It was the first classification. He divided
+all the living organisms into two kingdoms. These
+are Plantae and Animalia.
+(ii) Copeland designed four kingdom classification
+system in 1956.
+(iii) Whittaker gave five kingdom classification system
+in 1969.
+CLASSIFICATION OF PLANTS
+Many systems for classifying the plant kingdom have been
+formulated by various researchers and scientists, from time
+to time. Scientist Eichler has classified the plant kingdom
+into two main groups.
+Thallophyta (Algae)
+Cryptogamae
+Bryophyta
+Plant Kingdom-
+-Phanerogamae
+-Pteridophyta
+Gymnosperms
+Angiosperms
+Monocot
+Dicot
+1. Cryptogamae
+These plants never bear flowers and seeds. These are the most
+primitive. This division includes three main groups:
+(i) Thallophyta
+These are the simplest and primitive plants. Plant body is
+an undifferentiated mass of cells called as thallus. They lack
+vascular tissues.
+This group includes algae and lichens (a symbiotic
+combination of an alga with a fungus).
+(a) Algae These are plant-like organisms that are usually
+photosynthetic and aquatic in nature.
+These are chlorophyll containing thallophytes, in
+which vascular tissue (xylem and phloem) are absent.
+Some examples are as follow:
+-
+-
+Chlorella used as component
+tanks.
+of
+sewage
+oxidation
+Antibiotic chlorellin is obtained from Chlorella.
+Iodine is obtained from Laminaria.
+Agar is obtained from Gelidium and Gracilaria.
+Spirogyra is also called as pond silk.
+(b) Fungi These are non-vascular, heterotrophic, spore
+forming eukaryotic organisms.
+They have stored food material as glycogen. Cell wall
+is made up of chitin or fungal cellulose.
+Some examples are as follow:
+Albugo candida
+-
+White rust of crucifers
+Puccinia graminis tritici Black rust of wheat
+- Rhizopus stolonifer - Fumatic acid
+- Aspergillus - Produces aflatoxin (natural mycotoxin)
+Agaricus Mushroom, these have filamentous
+structure called hyphae.
+In Whittaker's five kingdom classification, fungi
+has been placed in a separate kingdom - Fungi. It
+is mainly because fungi do not have chlorophyll.
+(c) Lichens Symbiotic relationship between algae and
+fungi. These are the indicators of water pollution.
+(ii) Bryophyta
+These are called as the amphibians of plant kingdom.
+(a) They do not possess vascular tissue.
+(b) Roots are generally absent in them. They are
+present in damp and shady places.
+(c) Some examples are as follow:
+•
+•
+Riccia, Marchantia, Funaria.
+•
+Zoopsis is the smallest bryophyte.
+Dawsonia is the largest moss.
+Sphagnum is employed for dressing of wound.
+(iii) Pteridophyta
+The term 'Pteridophyta' comes from Greek word Pteris
+means fern and phyton means plant.
+(a) These are seedless vascular plants that have plant
+body differentiated into true roots, stems and
+leaves. Secondary growth is absent in them.
+(b) Some examples are as follow:
+•
+•
+Selaginella, Equisetum.
+Dryopteris (male shield fern).
+Azolla, Marsilea, Salvinia are aquatic ferns.
+Adiantum (maiden hair fern).
+Cyathium (tree fern).
+
+--- Start of chunk_023.txt ---
+692
+CDS Pathfinder
+A, B, O BLOOD GROUP
+The ABO blood group system was discovered by the
+Austrian scientist Karl Landsteiner. ABO blood
+grouping is controlled by the gene I. The plasma
+membrane of the Red Blood Cells (RBCs) has sugar
+polymers that protude from its surface. These gene
+controls the kind of sugar protruding from RBC. The
+gene I has three alleles, IA, IB and i. The alleles
+IA and IB produce a slightly different form of sugar,
+while allele i does not produce any sugar.
+On the basis of the presence or the absence of the
+antigen A or B, four types of blood groups are present,
+which are A, B, AB and O.
+The Genetic Basis of Blood Groups
+in Human Population
+Genotype of Blood types of
+offsprings offsprings
+SOME HEREDITARY DISEASES
+These are anatomical or physiological abnormalities present
+from birth, also called congenital diseases. These diseases
+can be caused by genetic mutations or environmental factors.
+Mutation is nothing but the sudden change in genetic make
+up due to addition, deletion or replacement of any gene.
+Diseases by genetic mutation can be transmitted to next
+generation, whereas by environmental factors are
+non-transmissible.
+Haemophilia-A
+• It is the most common X-linked recessive genetic disorder
+associated with serious bleeding.
+It is caused by a reduction in the amount and activity of
+coagulation factor VIII.
+(Haemophilic
+male)
+Xhy
+(Normal
+female)
+XX
+Allele from
+parent 1
+Allele from
+parent 2
+A
+A
+AA
+A
+A
+B
+AB
+AB
+A
+A
+A
+B
+A
+¡A B
+AB
+B
+B
+BB
+B
+B
+i
+Bi
+B
+i
+ii
+Xh
+X
+XhX
+XhX
+XY
+XY
+Carrier daughters
+Normal sons
+•
+•
+i
+For transfusion purpose the Rhesus factor and ABO
+grouping are the two most important compatibility
+factors to consider.
+An individual may be Rh+ or Rh¯-factor. In simpler
+term, if an individual's blood type is A and positive for
+the Rhesus factor, then he or she is deemed to be
+"A+"
+SEX DETERMINATION
+IN HUMANS
+In humans, each cell contains 46 chromosomes
+(44 autosomes + 2 sex chromosomes). Male sex
+chromosome is XY, whereas female sex chromosome is
+XX. During gamete formation, in female, all gametes
+contain only one type of chromosome, i.e. X and in male,
+half of the sperm contain X-chromosome, while half
+contain Y-chromosome.
+Thus, when a male gamete, i.e. sperm carrying
+X-chromosome fertilises an ova, the zygote develops into
+female and when a sperm carrying Y-chromosome
+fertilises an ova, the zygote develops into a male. Any
+increase or decrease in the number of sex chromosomes
+or autosomes causes genetic disorder.
+Haemophilia-A
+Colour Blindness
+It is an X-linked recessive genetic disorder, which results
+in the inability to perceive differences between some of
+the colours that others can distinguish.
+• It does not mean not seeing any colour at all infact it
+leads to the failure in discrimination between red and
+green colour.
+(Colourblind female)
+хо хо
+(Normal male)
+X
+Y
+хох хоу
+Carrier Colourblind
+daughter son
+XCX XCY
+Carrier Colourblind
+daughter son
+Colour blindness
+Cri-du-Chat Syndrome
+• It is a rare genetic disorder due to a missing part of
+chromosome 5.
+• It is characterised by having a cat-like cry of affected
+children.
+
+--- Start of chunk_024.txt ---
+GENERAL SCIENCE > Biology
+697
+Hardy-Weinberg Equilibrium
+Hardy-Weinberg law is the fundamental law of population
+genetics, which provides the basis for studying the Mendelian
+population. According to this law,
+(i) Mutations introduce new genes into a species resulting into
+a change in gene frequencies.
+(ii) In certain conditions gene frequencies remain constant. The
+conditions necessary for gene frequency to remain constant
+are:
+Mating must be completely random.
+Mutation must not occur.
+The population must be very large.
+All
+genes must have an equal chance of being
+passed to the next generations.
+(iii) Constant gene frequencies over several
+generations indicate that natural selection and
+evolution are not taking place.
+(iv) Changing gene frequencies would indicate that
+evolution is in progress.
+PLANT MORPHOLOGY AND PHYSIOLOGY
+Angiosperms are the seed bearing, flowering plants in which
+seeds are formed inside fruits; and male and female reproductive
+parts are organised into flowers.
+MORPHOLOGY OF ANGIOSPERMS
+Morphology (Morphe-form; logos-study) is the branch of
+biology, which deals with the study of external forms and
+features of different plant organs like roots, stems, leaves,
+flowers, seeds, fruits, etc. The body of typical angiospermic
+plant is differentiated into an underground root system and an
+aerial shoot system.
+Shoot tip
+(apical bud)
+Flower
+Lateral bud
+Stem.
+Leaf
+Shoot
+Root
+Primary root-
+Lateral root
+Types of Plants
+Seeds Fruit
+- Root hair
+-Root tip
+-Root cap
+Morphology of plant
+On the basis of nutrition, plants are of following types:
+(i) Autotrophic plants These are green and capable of making
+their own food by the process of photosynthesis, e.g. all
+green plants.
+(ii) Parasitic plants Depend on other plants for food and
+water. They have special roots for absorption of food and
+water. These roots are called sucking roots or haustoria,
+e.g. Cuscuta, Duranta.
+Type of parasitic plants are as follow:
+(i) Obligate parasite, e.g. Nuytsia floribunda.
+(ii) Facultative parasite, e.g Rhinanthus.
+(iii) Root parasite, e.g. Rafflesia, sandal wood.
+(iv) Stem parasite, e.g. Cuscuta, Loranthus.
+(v) Saprophytic humus plants Grow on dead
+organic matter, e.g. fungi.
+(vi) Symbiotic plants Symbiosis or mutually
+beneficial partnership of two organisms, e.g.
+mycorrhiza associated with roots of higher plants
+and legumes associated with Rhizobium
+(N2-fixing bacteria).
+Different organ systems present in angiosperms are as
+follow:
+Root System
+Roots develop from radicle of seed. They are
+non-green, underground, geotropic, phototropic and
+hydrotropic in nature and they do not bear buds,
+nodes and internodes. They have unicellular root
+hairs. Lateral roots arise endogenously from pericycle.
+Types of Roots
+Roots are of two types:
+(i) Tap root It develops from radicle. The primary
+root grows and gives rise to secondary and
+tertiary roots forming tap root system, e.g. dicot.
+(ii) Adventitious root These roots develop from any
+part of the plant body other than the radicle, e.g.
+monocot.
+Functions of Roots
+• Roots help in fixation and absorption of water and
+minerals.
+.
+Storage of food is one of the major function of
+roots, conduction of water takes place by roots.
+It helps in photosynthesis and respiration by
+providing supply of water to all parts of plant.

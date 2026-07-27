@@ -1,0 +1,1521 @@
+--- Start of chunk_000.txt ---
+GENERAL
+SCIENCE
+
+--- Start of chunk_001.txt ---
+582
+CDS Pathfinder
+•
+.
+•
+Equations of Motion
+For a moving object, the relations among its velocity,
+displacement, time and acceleration can be represented by
+equations. These equations are called equations of motion.
+For motion a straight line with constant acceleration a
+1 2
+(ii) sutat
+2
+.
+(i) v=u+at
+(iii) v²=u² +2as
+Equation of motion under gravity, (downward
+direction)
+(i) v=u+gt
+(ii) hut +
+2
+initial velocity
+(iii) v² =u² +2gh
+Where, u
+v = final velocity
+g=gravitational acceleration
+If an object is thrown vertically upward away from the
+earth, then we shall substitute -g in place of g in the
+above equations. The value of
+g is 9.8 m/s².
+-
+Note If a body starts from rest and moves with uniform
+acceleration, then distance covered by the body in t sec is
+proportional to (i.e. sα).
+Projectile Motion
+When a body moves under an acceleration whose
+direction is different from the direction of the initial
+velocity, then both the magnitude and direction of its
+velocity changes with time. Hence, the body moves on a
+curved path in a plane. This type of motion is called
+projectile motion.
+A bullet fired from a rifle and a body dropped from the
+window of a moving train shows the projectile motion.
+u sin e
+V sin
+V cos e
+h
+Ꮎ
+u cos e
+Χ
+R
+2usine
+g
+u² sin²0
+2g
+u² sin 20
+•
+Range of projectile, R="
+g
+Flight time of projectile, T
+Height of projectile, b =
+We drop down a ball from a roof and at the same time
+throw another ball in a horizontal direction, then both
+the balls would strike the earth simultaneously at
+different places.
+•
+The horizontal range is the same when the body is
+projected at and (90°-0).
+The horizontal range of a projectile is maximum when
+angle of projection is 45°.
+When two balls of different masses are projected
+horizontally they will reach ground at same time.
+FORCE
+Force is a push or pull which produces or tends to produce
+a change in uniform motion of body; stops or tends to stop
+a body which is in motion. Its unit is Newton.
+• It is a vector quantity and the straight line along which a
+force is directed is called the line of action of the force.
+The rotational effect of a force on a body about an axis
+of rotation is described in terms of moment of force.
+CGS unit of force is dyne i.e. 1 dyne =10N.
+Force is of two types
+(i) Component of Force Forces acting at same angle from
+the coordinate axes can be resolved into mutually
+perpendicular forces called components. The
+component of a force parallel to the X-axis is called
+x-component, parallel to the y-component and so on.
+Here,
+•
+F sin e
+F
+Ꮎ
+F cos 0
+x-component of force F is Fcose.
+y-component of force F is F sine.
+(ii) Contact and Non-contact Force The forces which act
+on bodies when they are in physical contact are called
+contact forces. e.g. muscular force, frictional force, etc.
+A force which can be exerted by an object on another
+object even from a distance (without physical contact
+with each other) is called a non-contact force. e.g.
+magnetic force, electrostatic force and gravitational
+force.
+NEWTON'S LAWS OF MOTION
+Newton has given three laws of motion as below:
+First Law
+It states that every body continues in its state of rest or in
+uniform motion in a straight line, unless it is compelled by
+an external force to change that state.
+•
+First law is also called law of Galileo or law of inertia.
+The
+of bodies by virtue of which they oppose
+property
+only change in their present state is called inertia.
+•⚫ Mass is a measure of the inertia of a body.
+
+--- Start of chunk_002.txt ---
+GENERAL SCIENCE > Physics
+587
+ROTATIONAL MOTION AND GRAVITATION
+ROTATIONAL MOTION
+When a body rotates about a fixed axis, it is said to
+perform a rotational motion and the axis is called the
+axis of rotation. In rotational motion every particle of
+the body moves in a circle and the centres of all these
+circles lie at the axis of rotation.
+The rotating blades of an electric fan and the motion
+of a top are examples of rotational motion.
+Rigid body is the body in which there is no
+displacement among the particles of the body on
+applying an external force.
+Centre of Mass [CM]
+A point within the body or outside the body at which the
+whole mass of the body is assumed to be concentrated.
+•
+•
+The centre of mass of sphere, cylinder and ring is at
+its geometric centre.
+The centre of mass may lie outside the body where
+there is no material as in case of ring, hollow sphere,
+hollow cylinder, etc.
+Moment of Inertia
+Moment of inertia of a body with respect to axis of
+rotation is the product of the mass (m) and the square
+of distance from the axis of rotation (R).
+i.e. moment of inertia I =mR²
+•
+•
+•
+•
+The SI unit of moment of inertia is kg-m².
+Moment of inertia of a ring about an axis passing
+through its centre and perpendicular to its plane is
+I =MR².
+Moment of inertia of a diameter about its diameter is
+1 = MR².
+2
+The moment of inertia depends not only on the mass
+and size of the body but also upon the manner in
+which the mass is distributed around the axis of
+rotation.
+Practical applications of moment of inertia are given
+below
+•
+•
+The moment of inertia plays important role in our
+daily life.
+In cycle, rikshaw, bullockcart, etc., the moment of
+inertia of the wheels is increased by concentrating
+most of the mass at the rim of the wheel and
+connecting the rim to the axle of the wheel through
+spokes.
+It is due to the large moment of inertia of the wheels
+that when we stop cycling, the wheels of the cycle
+continue rotating for some time.
+Radius of Gyration
+Radius of gyration is defined as the distance from axis of
+rotation at which, if total mass of the body were supposed to
+be concentrated, the moment of inertia would be same.
+I =MK²
+where, M = total mass of the body, K = radius of gyration
+Torque or Moment of Force
+The turning effect of a body is known as the moment of the
+force or torque.
+•
+•
+Moment of force or torque, T=F'd, here d is the
+perpendicular distance from the axis of rotation.
+It is a vector quantity having SI unit N-m.
+A body of lesser weight can produce the same turning
+effect as the body of higher weight by adjusting their
+distance from the axis of rotation.
+Torque is equal to the product of moment of inertia and
+angular acceleration. i.e. T=1 xα.
+Practical applications of torque are given below
+•
+The handle or the knob is fitted near the free edge of the
+door. So that, a heavy revolving door is opened or closed
+easily, when the force is applied at the edge of the door.
+A wrench with a long arm is used to unscrew a nut fitted
+tightly into a bolt and the handle of a screw driver is made
+wide.
+ANGULAR MOMENTUM
+•
+The angular momentum (J) of a body about an axis is equal
+to the product of the moment of inertia (I) of the body and
+its angular velocity (w) about that axis. i.e. J =Iw.
+If no external torque is acting upon a body rotating about
+an axis, then the angular momentum of the body remains
+constant. It is called conservation of angular momentum.
+Examples related to conservation of angular momentum are
+given below
+•
+When a diver jumps into water from a height, he does not
+keep his body straight but pulls in his arms and legs
+towards the centre of his body. On doing so, the moment
+of inertia of his body decreases. But, since the angular
+momentum remains constant, his angular velocity increases.
+A man with his arms outstretched and holding heavy
+dumb-bells in each hand, is standing at the centre of a
+rotating table. When the man pulls-in his arms, the speed of
+rotation of the table increases.
+The reason is that on pulling-in the arms, the distance of
+the dumb bells from the axis of rotation decreases and so
+the moment of inertia of the man decreases. Therefore by
+conservation of angular momentum, the angular velocity
+increases.
+The angular velocity of revolution of planet around the sun
+in elliptical orbit increases, when the planet comes closer to
+the sun.
+
+--- Start of chunk_003.txt ---
+592
+CDS Pathfinder
+•
+The surface tension of a liquid decreases with increase in
+temperature and becomes zero at the critical temperature.
+On mixing soap, the surface tension of water decreases.
+Some Phenomena Based
+on Surface Tension
+•
+•
+.
+•
+is tasty
+Warm soup
+because at high temperature its surface
+tension is low and consequently the soup spreads on all parts
+the tongue.
+of
+Medicines used for washing wounds, as dettol have a surface
+tension lower than water. So, they reach the fine cavities formed
+in the wound.
+The surface tension of the tooth-paste scum is also less that it
+spreads quickly on the full areas of teeth and clean them.
+Insects and mosquitoes swim on the surface of water in ponds
+and lakes due to surface tension.
+Hair of a shaving brush cling together due to surface tension,
+when the brush is taken out from the water.
+The ends of a glass tube become rounded on heating. Small
+drops of mercury are spherical while large ones are flat.
+Formation of lead shots, liquid-drop model of nucleus.
+Floatation of needle on water. Dancing of camphor on water
+and helping. Detergent in cleaning the clothes all are due to
+surface tension.
+ANGLE OF CONTACT
+The angle inside the liquid between the tangent to the solid
+surface and the tangent to the liquid surface at the point of contact
+is called the angle of contact for that pair of solid and liquid.
+•
+•
+•
+•
+The angle of contact for pure water and clean glass is zero. For
+ordinary water and glass it is about 8°.
+The angle of contact for water and silver is 90°.
+The liquids which wet the solid have acute angle of contact.
+Meniscus of these liquids will be concave.
+The liquids which do not wet the solid have obtuse angle of
+contact as for mercury and glass the angle of contact is 135°.
+Meniscus of these liquids will be convex.
+CAPILLARITY
+If a capillary tube is dipped in a liquid, liquid ascends or descends
+in the capillary tube. This phenomenon is called capillarity.
+•
+The oil in the wick of a lamp rises due to capillary action of
+threads in the wick.
+To prevent loss of water due to capillary action, the soil is
+loosened and split into pieces by the farmers.
+• The root hairs of plants draws water from the soil through
+capillary action.
+•
+-
+Writing nib is split in the middle, so that a fine
+capillary is formed in it. When it is dipped in
+ink, the ink rises in the capillary.
+Note The liquids which wet glass for which the angle of
+contact is accute, rise up in capillary tube, while those
+which do not wet glass, for which the angle of contact is
+obtuse are depressed down in the capillary.
+VISCOSITY
+it
+It is the property of the liquid by virtue of which,
+opposes the relative motion between its adjacent
+layers.
+•
+.
+•
+•
+Viscosity is the property of liquids and gases
+both.
+With rise in temperature, viscosity of liquids
+decreases and that for gases increases.
+Viscosity of liquid increases with increase in
+pressure.
+Viscosity of a fluid is measured by its coefficient
+of viscosity. It's SI unit is (N-s/m2).
+STOKES' LAW
+When a small spherical body of radius r is moving
+slowly with a constant velocity v through a
+perfectly homogeneous medium (liquid or gas) of
+infinite extension and coefficient of viscosity n
+then the retarding viscous force acting an the body
+is F =6πηγυ
+•
+This law is used in Millikan's method for
+determining the electronic charge and for finding
+out the radii of small aid-drops by measuring their
+terminal velocity in air.
+TERMINAL VELOCITY
+When a body falls in viscous medium, its velocity
+first increases and finally becomes constant. This
+constant velocity is called terminal velocity. The
+terminal velocity of the sphere is directly
+proportional to the square of the radius of the
+sphere.
+•
+The cloud particles fall down very slowly
+because of the viscosity of air and hence appear
+floating in the sky.
+Thin liquids like water, alcohol, etc are less
+viscous than thick liquids coal for blood, honey,
+glycerine, etc.
+•
+Honey is less viscous than glycerine.
+
+--- Start of chunk_004.txt ---
+GENERAL SCIENCE > Physics
+597
+•
+•
+•
+•
+-
+Frequency is the number of full oscillations completed by
+pendulum in one second.
+Second pendulum is one whose time period is 2s.
+L
+Time period of simple pendulum T =2π where L is length
+g
+of thread and is the acceleration due to gravity.
+g
+The time period of a simple pendulum of infinite length is 84.6
+min. A pendulum clock goes slow in summer and fast in winter.
+If a simple pendulum is suspended in a lift descending down
+with acceleration, then time period of pendulum will increase. If
+lift is ascending, then time period of pendulum will decrease.
+If a lift falling freely under gravity, then the time period of the
+pendulum will be infinite.
+At moon, the time period of simple pendulum increases because
+acceleration due to gravity at moon is lesser.
+Note Every body inside a satellite remains in a state of weightlessness, that
+is the effective value of g remains zero. Hence, a pendulum inside a satellite
+will not oscillate. Therefore, the pendulum clock cannot work inside space
+satellites.
+Oscillation of Liquid Column in a U-tube
+If a liquid is taken in a U-tube, it maintains equal level in both the
+columns of the tube. When air is blown-in on side B, the liquid
+may go down upto point D. The displacement of the liquid is
+given by BD =x.
+In the second column, the
+liquid goes upto E and the
+displacement is CE. As the
+applied force is withdrawn,
+the liquid level in the second
+column comes down because
+of gravity from E to C. But
+UU
+due to inertia, it overshoots the mark C and goes to F (CF =x),
+whereas the liquid the other column also goes up by the same
+distance.
+Thus, the liquid starts oscillating in both the columns. This
+motion of the liquid in the U-tube is SHM with time period,
+h
+T =2П where, is the height of liquid in each column.
+g
+WAVES
+A wave is a disturbance which propagates energy
+from one place to the other without the transport
+of matter.
+These are of two types
+Mechanical Waves
+The waves which require material medium (solid,
+liquid or gas) for their propagation are called
+mechanical waves or elastic waves. These are of two
+types
+(i) Longitudinal Waves If the particles of the
+medium vibrate in the direction of propagation
+of wave, the wave is called longitudinal waves.
+Waves on springs or sound waves in air are
+examples of longitudinal waves.
+(ii) Transverse Waves If the particles of the
+medium vibrates perpendicular to the direction
+of propagation of wave, the wave is called
+transverse waves.
+Waves on strings under tension, waves on the
+surface of water are examples of transverse
+waves.
+Electromagnetic Waves
+10
+3
+The waves which do not require any medium for
+their propagation i.e. which can propagate even
+through the vacuum are called electromagnetic
+waves. They propagate as transverse wave.
+Electromagnetic waves of wavelength range
+m to 10 m are called microwaves.
+Microwaves are absorbed by water molecules and
+living tissue internal heating will damage or kill
+cells.
+•
+Microwaves are used in communications,
+satellites, telephony, heating water and food.
+• Note Cathode rays, canal rays, α-rays, B-rays are not
+electromagnetic waves. Light and heat are examples of
+electromagnetic waves.
+Spectrum of Electromagnetic Waves
+Electromagnetic Waves
+Discoverer
+Wavelength range
+(in metre)
+Y-rays
+Henry Becqueral
+10-14
+to 10-10
+Frequency
+range
+1020 to 1018
+Uses
+Medical tracers, killing cancerous cells,
+steralisation, imaging defects in metal.
+X-rays
+W Roenetgen
+Ultraviolet rays
+Ritter
+10-10 to 10-8
+10-8 to 10-7
+1018 to 1016
+Imaging defects in bones, hidden devices.
+1016 to 1014
+Making vitamin D, making ions.
+Visible radiation
+Newton
+3.9 x10 to 7.8 ×10
+1014 to 1012
+Photography
+Infrared rays
+Hershel
+7.8 x10 to 7.8 ×10-3
+1012
+to 1010
+TV remote control
+Short radio waves
+Heinrich
+10- to 1
+1010 to 108
+Communication, radio, TV.
+or Hertz hertzian waves
+Long radio waves
+Marcony
+1 to 104
+108 to 106
+Communication, radio, TV.
+
+--- Start of chunk_005.txt ---
+602
+CDS Pathfinder
+Image Formation by Convex Mirror
+(2) When the object is at infinity The image is formed
+at focus.
+B
+Object at
+infinity
+Convex mirror
+A'
+B'
+Image
+(ii) When the object is between infinity and pole
+The image is formed between pole and focus.
+Convex mirror
+A
+E
+A'
+B' F C
+Image
+M
+B
+Object
+REFRACTION OF LIGHT
+When a ray of light passes from one medium to other, it
+bends from its path. This phenomenon of bending of light
+is called as refraction of light.
+• When light passes from rarer medium to a denser
+medium, it bends towards the normal at the point of
+incidence.
+When light passes from a denser medium to a rarer
+medium, it bends away from the normal.
+When a ray of light enters from one medium to other
+medium its frequency and phase do not change but
+wavelength and velocity change.
+Laws of Refraction
+•
+The incident ray, the refracted ray and the normal at the
+point of incidence all lie in the same plane.
+The ratio of the sine of the angle of incidence to the
+sine of the angle of refraction is a constant for a given
+medium.
+MIRROR FORMULA
+sin i
+sinr
+rl=
+[Snell's law]
+•
+•
+.
+•
+If v is the image distance, u is the object distance and f
+1 1 1 2
+is the focal length of a mirror, then + =
+υ u
+f
+R
+The linear magnification (m) produced by a mirror is
+equal to the ratio of the image distance to the object
+distance with negative sign, m =
+ย
+f
+u f -u
+f
+If the magnification has positive sign, then the image is
+virtual and erect.
+If the magnification has negative sign, then the image is
+real and inverted.
+Uses of Spherical Mirrors
+Concave Mirrors
+•
+.
+•
+is refractive index of the second medium with
+where,
+respect to first.
+"
+M = M₂
+C/V2
+=
+..
+με C/VI
+μ=1 or 1μ2
+V2
+=
+V2
+where, V₁ is speed of light in first medium and v₂
+of light in second medium.
+is speed
+Some Illustrations of Refraction
+•
+•
+These are used as reflectors in automobiles (car, buses,
+•
+etc.), head light, search light, hand torches and table
+lamps.
+These are used as shaving mirrors.
+These are used by doctors for focussing intense light to
+examine inside of eye, ears, etc.
+Large concave mirrors are used in the application of
+solar energy, to focus the sun's rays for heating solar
+furnaces etc.
+Convex Mirrors
+•
+•
+•
+-
+These are used as rear-view mirrors in automobiles as
+they give large view of the traffic.
+Big convex mirrors are used as shop security mirrors.
+These are used wherever we want to see erect images.
+Note We cannot use a concave mirror as a rear-view mirror in
+motor vehicles.
+Twinkling of stars.
+Oval shape of sun in the morning and evening.
+© Bending of a linear object when it is partially dipped in
+a liquid inclined to the surface of the liquid.
+A fish in a pond when viewed from air appears to be at
+a smaller depth than actual depth.
+A coin at the base of a vessel filled with water appears
+raised.
+TOTAL INTERNAL REFLECTION
+In case of propagation of light from denser to rarer
+medium through a plane boundary. Critical angle is the
+angle of incidence for which angle of refraction is 90°.
+If light is propagating from denser medium towards the
+rarer medium and angle of incidence is more than critical
+angle, then the light incident on the boundary is
+reflected back in the denser medium, obeying the law of
+reflection. This phenomenon is called total internal
+reflection.
+
+--- Start of chunk_006.txt ---
+GENERAL SCIENCE > Physics
+607
+•
+•
+•
+There are two types of electric current (i) Alternating
+current (AC) and (ii) Direct current (DC).
+Alternating current is used in houses and factories and its
+frequency is 50 Hz.
+Ordinary DC ammeter and DC voltmeter cannot
+measure alternating current/voltages. They record zero
+reading, when used in AC circuits, because average value
+of alternating current/voltage over a full cycle is zero.
+Galvanometer
+It is a device used to detect and measure electric current in
+a circuit. It can measure current up to 10 A.
+A galvanometer can be converted into a voltmeter by
+connecting a very high resistance in its series.
+->>>
+Note Conventionally the direction of electric current is opposite to
+that of electrons. Since, electrons flow from negative terminal of a
+cell to its positive terminal, electric current flows from positive
+terminal to negative terminal.
+Capacitor
+A capacitor or condenser is a device over which a large
+amount of charge can be stored.
+•
+Capacitance of capacitor (C)
+Charge (Q)
+Potential (V)
+• Its unit is coulomb/volt or farad.
+• A capacitor is used in several electrical devices having
+electric motor and in several electronic circuits.
+OHM'S LAW
+an
+If the physical circumstances of the conductor. (length,
+temperature, etc) remains constant then the current flowing
+through the conductor is directly proportional to the
+potential difference across its ends.
+i.e. I α V
+or
+V=IR, where R is resistance.
+Resistance
+The resistance of a conductor is directly proportional to its
+length and inversely proportional to its cross-sectional area.
+If and A are respectively length and cross-sectional area of
+a conductor and R is its resistance, then
+Ra → R = p²
+A
+Unit of resistance is ohm (Q2).
+A
+where, p is a constant of material of conductor is called
+specific resistance or resistivity. Its SI unit is ohm-metre.
+•
+•
+On increasing the temperature of the metal, its resistance
+increases.
+Those materials whose electrical conductivity lies in
+between that of insulators and conductors are called
+semiconductors. On increasing the temperature of
+semiconductor, its resistance decreases.
+The reciprocal of resistance of a conductor is called the
+electrical conductance of the conductor.
+Conductance =
+1
+Resistance
+• Unit of conductance is mho or siemen.
+The specific resistance of the material depends only on
+the material of conductor and its temperature.
+Resistivity increases with temperature.
+Resistivity of a conductor change with impurity.
+Resistivity of an alloy is greater than the resistivity of
+its constituents and remains unchanged with
+temperature.
+If a wire is stretched or doubled on itself, its resistance
+will change, but its specific resistance will remains
+unaffected.
+The reciprocal of resistivity of a conductor is called its
+conductivity. Its SI unit is mho m¹ or siemen/metre
+(Sm).
+Combination of Resistances
+There are two combinations given below:
+(i) Series combination R=R₁ +R₂ +R3 and here
+current flows through each conductor is same.
+ww w
+R₁
+ww
+R2
+R3
++
+E
+The total resistance in the series combination is more
+than the greatest resistance in the circuit.
+1 1 1 1
+= + +-
+and here
+R R₁ R₂ R3
+potential across each conductor is same.
+(ii) Parallel combination
+R₁
+w
+R2
+w
+R3
+w
+V
+E
+The total resistance in parallel combination is less
+than the least resistance of the circuit.
+ELECTRIC POWER
+Electrical power is the electrical work done per unit time.
+or
+or
+W
+P =
+or
+t
+P =1²R
+V²
+P =
+R
+Its SI unit is watt (W).
+P=V XI
+[*: V =IR]
+
+--- Start of chunk_007.txt ---
+PRACTICE EXERCISE
+Measurement, Motion, Work,
+Energy and Power
+1. A train travels a distance with a
+speed of 30 km/h and returns with
+a speed of 50 km/h. The average
+speed of the train is
+(a) 36 km/h
+(c) 38 km/h
+(b) 37.5 km/h
+(d) 40 km/h
+2. Average velocity of an object is
+equal to the mean of its initial and
+final velocities, if the acceleration is
+(a) uniform
+(b) variable
+(c) Both a and b
+(d) None of these
+2
+3. A water tank filled upto of its
+3
+height is moving with a uniform
+speed. On sudden application of the
+brake, the water in the tank would
+(a) move backward (b) move forward
+(c) be unaffected (d) rise upwards
+4. When the distance, an object
+travels is directly proportional to
+the length of time, it is said to
+travel with
+(a) zero velocity
+(c) constant velocity
+(b) uniform velocity
+(d) constant acceleration
+5. If the displacement of an object is
+proportional to square of time,
+then the object moves with
+(a) uniform velocity
+(b) uniform acceleration.
+(c) increasing acceleration
+(d) decreasing acceleration
+6. A passenger in a moving train
+tosses a five rupee coin. If the coin
+falls behind him, the train must
+be moving with a uniform
+(a) acceleration
+(b) deceleration
+(c) speed
+(d) velocity
+7. The velocity-time graph for an
+object is shown below. Which one
+of the following statements helds
+true for this object?
+Velocity
+Time
+(a) The object is moving with uniform
+speed
+(b) The object is in non-uniform
+accelerated
+(c) The object is at rest
+(d) The object is in non-uniform
+decelerated.
+8. Which of the following figure
+represents uniform motion of a
+moving object correctly?
+©
+Distance
+Distance
+Time
+Time
+Distance
+흐
+Distance
+ร
+Time
+Time
+9. A body falls from rest. The
+velocity acquired by falling a
+distance 2h is
+(a) 2√gh
+(c) √√2gh
+(b) √gh
+(d) None of these
+10. The velocity-time graph for an
+object is shown. Which one of the
+following statements holds true
+for this object?
+Velocity
+Time
+(a) The object has uniform velocity
+(b) The object has uniform acceleration
+(c) The object has non-uniform
+acceleration
+(d) None of the above
+11. A boy throws four stones of same
+shape, size and weight with equal
+speed at different initial angles
+with the horizontal line. If the
+angles are 15°, 30°, 45° and 60°,
+at which angle the stone will
+cover the maximum distance
+horizontally?
+(d) 60°
+(a) 15° (b) 30° (c) 45°
+12. Which one of the following is a
+vector quantity?
+(a) Force
+(c) Volume
+(b) Area
+(d) Density
+13. External forces acting on an object
+(a) are always balanced
+(b) are always unbalanced
+(c) may or may not be balanced
+(d) None of the above
+14. When horse starts running all of a
+sudden, the rider on the horse
+falls back because
+(a) he is afraid
+(b) he is taken a back
+(c) due to inertia of motion, the lower
+part of his body comes in motion
+(d) due to inertia of rest, the upper
+part of his body remains at rest
+15. A scooter driven over an oily road
+generally slips because on the oily
+road
+(a) inertia of the scooter tyres increases
+(b) inertia of the scooter tyres decreases
+(c) friction between tyres and road
+increases
+(d) friction between tyres and road
+decreases
+16. Newton's second law of motion
+connects
+(a) momentum and acceleration
+(b) change of momentum and velocity
+(c) rate of change of momentum and
+external force
+(d) rate of change of force and
+momentum
+17. When a ball drops onto the floor it
+bounces. Why does it bounce?
+(a) Newton's third law implies that for
+every action (drop) there is a
+reaction (bounce)
+(b) The floor exerts a force on the ball
+during the impact
+(c) The floor is perfectly rigid
+(d) The floor heats up on impact
+18. If an object having mass of 1 kg is
+subjected to a force of 1 N, it
+moves with
+(a) a speed of 1 m/s
+(b) a speed of 1 km/s
+(c) an acceleration of 10 m/s²
+(d) an acceleration of 1 m/s²
+19. Momentum has the same unit as
+that of
+(a) couple
+(b) torque
+(c) impulse
+(d) moment of momentum
+
+--- Start of chunk_008.txt ---
+GENERAL SCIENCE > Physics
+617
+94. Satellite having the same orbital
+period as the period of rotation of
+the earth about its own axis is
+known as
+(a) polar satellite
+(b) stationary satellite
+(c) geostationary satellite
+(d) INSAT
+95. A typical black hole is always
+specified by
+(a) a (curvature) singularity
+(b) a horizon
+(c) either a (curvature) singularity or a
+horizon
+(d) a charge
+96. The motion of the wheel of a cycle
+is
+(a) rectilinear
+(b) translatory and rotatory
+(c) rotatory
+(d) translatory
+> Previous Years' Questions
+97. In respect of the difference of the
+gravitational force from electric
+and magnetic forces, which one of
+the following statements is true?
+2015 I
+(a) Gravitational force is stronger than
+the other two
+(b) Gravitational force is attractive only,
+whereas the electric and the
+magnetic forces are attractive as
+well as repulsive
+(c) Gravitational force has a very short
+range
+(d) Gravitational force is a long range
+force, while the other two are short
+range forces
+98. A brick is thrown vertically from
+an aircraft flying 2 km above the
+earth. The brick will fall with a
+(a) constant speed
+(b) constant velocity
+(c) constant acceleration
+2015 II
+(d) constant speed for sometime, then
+with constant acceleration as it
+nears the Earth
+99. Which one of the following
+statements is not correct?
+Properties of Matter
+100. What is the value of stress in a
+wire of steel having radius of
+2 mm if 10 KN of force is applied
+on it?
+(a) 7.96 x 108 N/m²
+(b) 8.00 x107 N/m²
+(c) 10 x107 N/m²
+(d) 10 x10 N/m²
+101. Why the spring is made up of
+steel in comparison of copper?
+(a) Copper is more costly than steel
+(b) Copper is more elastic than steel.
+(c) Steel is more elastic than copper
+(d) None of the above
+102. Match the following columns.
+Column I
+(Property)
+A. Elastic
+B. Plastic
+C. Ductile
+D. Perfectly elastic
+Codes
+Column II
+(Example)
+1. Iron
+2. Steel
+3. Quartz
+4. Paraffin wax
+A B C D
+A B C D
+(a) 2 4 1 3 (b) 1 2 3 4
+(c) 4 3 2 1 (d) 3 4 2 1
+103. Consider the following statements
+1. The internal restoring force
+acting per unit area of
+cross-section of the deformed
+body is called stress.
+2. The ratio of stress to strain is
+a constant for a material and
+is called modulus of elasticity
+3. Air is more elastic than water.
+Which of the following statements
+is/are correct?
+(a) 1 and 3
+(c) 1 and 2
+(b) 2 and 3
+(d) Only 3
+104. A 50 kg girl wearing high heal
+shoes balances on a single heal.
+The heal is circular with a
+diameter 1.0 cm. The pressure
+exerted by the heal on the
+horizontal floor is (g =9.8 N) kg
+(a) 6.2 x106 N/m²
+(b) 2.6 x105 N/m²
+2015 II
+(c) 6.2 x108 N/m²
+(a) Weight of a body is different on
+different planets
+(b) Mass of a body on the earth, on
+the moon and in empty space is
+the same
+(c) Weightlessness of a body occurs.
+when the gravitational forces acting
+on it is counter-balanced
+(d) Weight and mass of a body are
+equal at sea level on the surface
+of the earth
+(d) 2.6 ×106 N/m²
+105. The pressure exerted on the
+ground by a man is greatest
+(a) when he lies down on the ground
+(b) when he stands on the toes of one
+foot
+(c) when he stands with both foot flat
+on the ground
+(d) All of the above yield the same
+pressure
+106. Consider the following statements
+1. Pressure is measured by
+barometer.
+2. Atmospheric pressure is
+measured by manometer.
+3. Atmospheric pressure decrease
+with altitude.
+4. Atmospheric pressure is
+700 torr.
+Which of the following statements
+is/are correct?
+(a) 1 and 2
+(c) Only 3
+(b) 2 and 3
+(d) 1 and 4
+107. The relative density of silver is
+10.8. If the density of water be
+1.0 x103 kg/m³ the density of
+silver will be
+(a) 10.8 x 103 kg/m³ (b) 9 × 10² kg/m³
+(c) 8 x 103 kg/m³ (d) 5 x10² kg/m³
+108. The apparent weight of a steel
+sphere immersed in various
+liquids is measured using a spring
+balance. The greatest reading is
+obtained for the liquid
+(a) having the smaller density
+(b) having the largest density
+(c) in which the sphere was
+submerged deepest
+(d) having the greatest volume
+109. Hydraulic brakes in automatic
+vehicles are based on
+(a) Archimedes' principle
+(b) Toricellis equation
+(c) Pascal's law
+(d) Bernoulli's equation
+110. If a ship moves from fresh water
+into sea water, it will
+(a) sink completely
+(b) sink a little bit
+(c) rise a little higher
+(d) remain unaffected
+111. Archimedes' principle is used
+1. determining the relative
+density of a substance.
+2. in designing ships and
+submarines
+3. measuring a terminal velocity
+in air.
+Which of the following statements
+is/are correct?
+(a) 1 and 3
+(c) 1 and 2
+(b) 2 and 3
+(d) Only 2
+112. A needle made of steel floats in
+water, if it is placed horizontally
+because of
+(a) capillary action
+(b) interference
+(c) viscosity
+(d) surface tension
+
+--- Start of chunk_009.txt ---
+622
+CDS Pathfinder
+192. What type of vibrations are
+produced in a sitar wire?
+(a) Longitudinal vibration
+(b) Transverse vibration
+(c) Both (a) and (b)
+(d) None of the above
+193. Consider the following statements
+1. Waves on springs or sound
+waves in air are longitudinal
+waves.
+2. Waves on surface of water is
+mechanical waves.
+3. Mechanical waves are used in
+communication, telephony
+4. Mechanical waves can propagate
+in solid, liquid and gas.
+Which of the following statements
+is/are correct.
+(a) 1, 2 and 4
+(c) 2 and 4
+(b) 1 and 2
+(d) Only 3
+194. The most familiar form of radiant
+energy in sunlight that causes
+tanning and sunburning of human
+skin, is called
+(a) ultraviolet radiation
+(b) visible radiation
+(c) infrared radiation
+(d) microwaves radiation
+195. Microwaves are
+1. used in photography.
+2. absorbed by water molecules
+and living tissue internal
+heating will damage or kill cells.
+Which of the following statements
+is/are correct?
+(a) 1 and 2
+(c) Only 2
+(b) Only 1
+(d) Neither 1 nor 2
+196. Match the following columns.
+Column I
+Column II
+1. Medical tracers
+2. TV control
+A. Infrared rays
+B. Y-rays
+C. Radio waves
+D. Ultraviolet rays
+Codes
+3. Making ions
+4. Communication
+(b) 2
+(d) 3
+A B C D
+143
+421
+A B C D
+(a) 3 2 1 4
+(c) 3 12 4
+197. Sound waves travel with a speed
+of about 330 m/s. The wavelength
+of sound whose frequency is 550
+Hz is
+(a) 0.8 m (b) 8.4 m (c) 0.6 m (d) 0.2 m
+198. Which one of the following
+statements is correct?
+(a) Sound waves in air are longitudinal
+while light waves are transverse
+(b) Sound waves in air are transverse
+while light waves are longitudinal
+(c) Both sound and light waves in air
+are transverse
+(d) Both sound and light waves in air
+are longitudinal
+199. Microphone is a device in which
+(a) amplification is not required at all
+(b) sound waves are directly transmitted
+(c) sound waves are converted into.
+electrical energy and then
+reconverted into sound after
+transmission
+(d) electrical energy is converted into
+sound waves
+200. Sound travels faster when the
+medium is of
+(a) low density
+(c) high density
+(b) medium density
+(d) vacuum
+201. A source of sound has a noise level
+of 20 dB. If the intensity of sound
+produced by the source increases
+by 100 times, the noise level
+becomes
+(a) 30 dB
+(c) 400 dB
+(b) 40 dB
+(d) 20000 dB
+202. Which among the following
+statement is correct regarding the
+audible sound waves?
+1. Its frequency is greater than
+20000 Hz.
+2. It is used in measuring the
+depth of sea.
+3. The liquid from which the
+audible sound waves pass gets
+hot.
+The correct statement(s) is/are
+(a) 1 and 3
+(b) 1 and 2
+(c) Only 1
+(d) None of the above
+203. Match the following columns.
+Column I
+(Waves)
+A. Ultrasonic waves
+B. Sound waves
+Column II
+(Sources)
+1. Ocean waves
+2. Energetic
+disturbance
+C. Infrasonic waves 3. Generated by
+vibrating bodies
+4. Wave produce by
+bat
+D. Shock waves
+Codes
+A B C D
+(a) 4 3 1 2
+(c) 4 3 2 1
+A B C D
+(b) 3 2 1 4
+(d) 1 2 3 4
+204. Which of the following statement
+is incorrect?
+(a) Sound travels in straight line
+(b) Sound is a form of energy
+(c) Sound travels in the form of waves
+(d) Sound travels faster in vacuum
+than in air
+205. Sound travels in rocks in the form
+of
+(a) longitudinal elastic waves only
+(b) transverse elastic waves only
+(c) both longitudinal and transverse
+elastic waves
+(d) non-elastic waves
+206. Ultrasonic waves are those waves
+(a) to which man can hear
+(b) man cannot hear
+(c) are of high velocity
+(d) of high amplitude
+207. Consider the following statements
+1. The frequency of sound waves
+is 20 Hz to 20000 Hz.
+2. Sound waves are transverse
+mechanical waves.
+3. Sound waves travel in vacuum.
+4. Sound waves have low frequency
+and high wavelength.
+Which of the following statements
+is/are correct?
+(a) 1 and 2
+(c) 1 and 4
+(b) 2, 3 and 4
+(d) Only 4.
+208. Ultrasonic waves are used
+1. to investigate the action of
+heart.
+2. for sending signals.
+3. measuring the depth of sea
+Which of the following statements
+is/are correct?
+(a) 1 and 2
+(c) 1 and 3
+(b) 2 and 3
+(d) All of these
+209. Consider the following statements
+1. Speed of sound basically
+depends upon elasticity and
+density of medium.
+2. Speed of sound is changed by
+the increase or decrease of
+pressure
+3. The speed of sound is more in
+humid air than in dry air.
+Which of the following statements
+is/are correct?
+(a) 1 and 3
+(c) 2 and 3
+(b) 1 and 2
+(d) None of these
+210. A woman's voice is shriller than a
+man's due to
+(a) higher frequency
+(b) higher amplitude
+(c) lower frequency
+(d) weak vocal chords
+211. The phenomenon of beats can
+take place
+(a) for longitudinal waves only
+(b) for transverse waves only
+(c) for both longitudinal and transverse
+waves
+(d) for sound waves only
+
+--- Start of chunk_010.txt ---
+GENERAL SCIENCE > Physics
+627
+3. Permanent magnets are used
+in microphone etc.
+Which of the following statements
+is/are correct?
+(a) 1 and 2
+(c) Only 2
+(b) 2 and 3
+(d) 1 and 3
+296. An electric generator converts
+(a) electric energy into sound energy
+(b) electric energy into light energy
+(c) electric energy into mechanical
+energy
+(d) mechanical energy into electric
+energy
+297. The essential difference between
+an AC generator and a DC
+generator has permanent magnet.
+(a) AC generator has an electromagnet
+while a DC generator has
+permanent magnet
+Select the correct answer using the 309. Tungsten is used for the
+codes given below.
+(a) 1 and 4
+(c) 2 and 3
+(b) Only 4
+(d) 2, 3 and 4
+> Previous Years' Questions
+302. In step-down transformer, the AC
+output gives the
+2012 II
+(a) current more than the input current
+(b) current less than the input current
+(c) current equal to the input current
+(d) voltage more than the input voltage
+303. A rectifier is an electronic device
+used to convert
+2012 II
+(a) AC voltage into DC voltage
+(b) DC voltage into AC voltage
+(c) sinusoidal pulse into square pulse
+(d) None of the above
+(b) DC generator will generate a higher 304. A device which is used in our TV
+voltage
+(c) AC generator will generate a higher
+voltage
+(d) AC generator has slip rings while
+DC generator has a commutator
+298. The core of a transformer is
+laminated so that
+(a) ratio of the voltages across the
+secondary and primary is doubled
+(b) the weight of the transformer can
+be kept low
+(c) the rusting of the core is prevented
+(d) energy loss due to eddy currents
+is minimised
+299. Which one of the following
+common devices works on the
+basis of the principle of mutual
+induction?
+(a) Tubelight
+(c) Photodiode
+(b) Transformer
+(d) LED
+300. Consider the following statements
+1. Core of a transformer is made
+up of soft iron.
+2. Step-up transformer converts a
+low voltage of high current
+into a high voltage of low
+current.
+3. Transformer is used for
+charging voltage only.
+Which of the following statements
+is/are correct?
+(a) 1 and 2
+(c) Only 3
+(b) 2 and 3
+(d) None of these
+301. Transformer is a kind of appliance
+that can
+1. increase power
+2. increase voltage
+3. decrease voltage
+4. measure current and voltage
+set, computer, radio set for storing
+the electric charge, is
+(a) resistor
+(c) capacitor
+2012 II
+(b) inductor
+(d) conductor
+305. If two conducting spheres are
+separately charged and then
+brought in contact
+2013 I
+(a) the total energy of the two spheres
+is conserved
+(b) the total charge on the two spheres
+is conserved
+(c) both the total energy and the total
+charge are conserved
+(d) the final potential is always the
+mean of the original potential of the
+two spheres
+306. When an incandescent electric
+bulb glows
+2014 I
+(a) the electric energy is completely
+converted into light
+(b) the electric energy is partly
+converted into light energy and
+partly into heat energy
+(c) the light energy is converted into
+electric energy
+(d) The electric energy is converted
+into magnetic energy
+307. A mobile phone charger is ✓ 2014 I
+(a) an inverter
+(b) an UPS
+(c) a step-down transformer
+(d) a step-up transformer
+308. Inactive nitrogen and argon gases
+are usually used in electric bulbs
+2014 II
+in order to
+(a) increase the intensity of light emitted
+(b) increase the life of the filament
+(c) make the emitted light coloured
+(d) make the production of bulb
+economical
+construction of filament in
+electric bulb because of its
+(a) high specific resistance
+(b) low specific resistance.
+(c) high light emitting power
+(d) high melting point
+□ 2014 II
+310. Electricity is produced through
+dry cell from
+(a) chemical energy
+(b) thermal energy
+(c) mechanical energy
+(d) nuclear energy
+2015 I
+311. A wire-bound standard resistor
+uses manganin or constantan. It
+is because
+2015 I
+(a) these alloys are cheap and easily
+available
+(b) they have high resistivity
+(c) they have low resistivity
+(d) they have resistivity which almost
+remains unchanged with
+temperature
+312. Two pieces of conductor of same
+material and of equal length are
+connected in series with a cell.
+One of the two pieces has
+cross-sectional area double that of
+the other. Which one of the
+following statements is correct in
+this regard?
+2015 I
+(a) The thicker one will allow stronger
+current to pass through it
+(b) The thinner one would allow
+stronger current to pass through it
+(c) Same amount of electric current
+would pass through both the
+pieces producing more heat in the
+thicker one
+(d) Same amount of electric current
+would pass through both the pieces
+producing more heat in the thinner
+one
+313. Which one of the following
+statements about bar magnet is
+correct?
+✓ 2016 I
+(a) The pole strength of the North
+pole of a bar magnet is larger
+than that of the South pole.
+(b) When a piece of bar magnet is
+bisected perpendicular to its axis,
+the North and South poles get
+separated.
+(c) When a piece of bar magnet is
+bisected perpendicular to its axis,
+two new bar magnets are formed.
+(d) The poles of a bar magnet are
+unequal in magnitude and opposite
+in nature.

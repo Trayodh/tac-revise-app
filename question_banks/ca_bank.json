@@ -1296,6 +1296,34 @@
       "topicId": "current_affairs",
       "difficulty": "medium",
       "exam": "ALL"
+    },
+    {
+      "question": "The DRDO recently tested Rudram-2 in July 2026. What type of missile is it?",
+      "options": [
+        "Anti-Tank Guided Missile (ATGM)",
+        "Anti-Radiation Missile",
+        "Submarine-Launched Ballistic Missile",
+        "Air-to-Air Missile"
+      ],
+      "correct": 1,
+      "explanation": "[July 2026] Rudram-2 is an indigenous Next-Generation Anti-Radiation Missile developed by the DRDO.",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
+    },
+    {
+      "question": "Which anniversary of the Kargil Vijay Diwas was celebrated by India in July 2026?",
+      "options": [
+        "25th",
+        "26th",
+        "27th",
+        "28th"
+      ],
+      "correct": 2,
+      "explanation": "[July 2026] In 2026, India observed the 27th Anniversary of the Kargil Vijay Diwas (1999 - 2026).",
+      "topicId": "current_affairs",
+      "difficulty": "medium",
+      "exam": "ALL"
     }
   ]
 }

@@ -1,0 +1,1608 @@
+--- Start of chunk_025.txt ---
+702
+CDS Pathfinder
+Site of Photosynthesis
+Photosynthesis takes place in chloroplasts. These are
+the green plastids, which occur in green parts of
+plants.
+•
+•
+•
+•
+Maximum number of chloroplasts are present in
+leaves.
+It is a double membranous organelle enclosing a
+liquid matrix called stroma.
+In the stroma, tiny, membranous sac-like lamellae
+present. These are called as thylakoids.
+Thylakoids are stacked over one another to form
+grana.
+Stroma is the site of dark reaction and thylakoids
+for light reaction.
+Photosynthetic Pigments
+Pigments are the organic molecules that absorb the
+light of specific wavelength in the visible region.
+Different types of pigments are:
+Chlorophylls (Gk. Chlor-green, phyll-leaf)
+These are the green photosynthetic pigments present
+in all photosynthetic autotrophic organisms. There
+are about ten types of chlorophylls-a, b, c, d and e,
+bacteria chlorophyll-a, b, c and d and bacteriovirdin.
+Chl-a is found in all the oxygen evolving organisms. It
+is the primary photosynthetic pigment.
+Structure of Chlorophyll
+The structure of chlorophyll consists of porphyrin
+head and phytol tail.
+•
+The porphyrin head is made up of four pyrole
+rings linked together by methane groups, forming
+a ring system.
+In the centre of tetrapyrole ring a divalent ion
+Mg2+ is present, which is complexed with the
+nitrogen atoms of four pyrole rings.
+The phytol tail is made up of 20 carbon alcohol
+and bound by ester linkage to the 4th pyrole ring.
+Carotenoids
+These are accessory pigments that help in
+photosynthesis in plants. Two major classes of
+carotenoids are carotenes (contain no oxygen) and
+xanthophylls (contain oxygen atom in their terminal
+ring).
+Phycobilins
+These pigments are found in red algae and blue-green
+algae, but not in higher plants. The phycoerythrin
+and phycocyanin are the two main phycobilins found
+in red algae and blue-green algae, respectively.
+Mechanism of Photosynthesis
+Photosynthesis is a two step process:
+•
+•
+The first step is dependent on light and responsible for
+accumulation of assimilatory power. It is called as light
+reaction.
+The second step is called dark reaction as light is not required
+for the purpose. It is responsible for CO2-fixation into
+carbohydrate.
+.
+•
+If vaseline is applied on both the surfaces of the leaf of a
+plant photosynthesis, transpiration and respiration in
+plant will get affected as all these processes require the
+direct contact between the leaf and atmosphere.
+Mushroom (white fungi) plant is not capable of
+manufacturing its own food.
+RESPIRATION
+It is the process of exchange of respiratory gases (O2 and CO2)
+between an organism and its environment. Respiration is the
+most important catabolic process, which involves the liberation
+of energy by oxidation and breakdown of food inside living cell.
+On the basis of O2, respiration is of two types:
+(i) Aerobic respiration The process that leads to a complete
+oxidation of organic food in the presence of O2 releasing
+CO2, H2O and a large amount of energy.
+C6H12O6 + 602 → 6CO2 + 6H2O + 686 kcal
+(ii) Anaerobic respiration Organic food is broken down
+incompletely to release energy in the absence of oxygen and
+the products are CO2, C2H5OH and C3H6O3 (lactic acid).
+Glycolysis
+The breakdown of a glucose molecule into two molecules of
+pyruvic acid is called glycolysis. Net yield of glycolysis is 6 ATP
+molecules.
+TCA or Kreb's Cycle
+TCA cycle starts with the condensation of acetyl group with
+Oxaloacetic Acid (OAA) and water to yield citric acid.
+Pyruvic acid +4NAD+ + FAD* + 2H2O + ADP + Pi
+Mitochondrial matrix
+Respiration Quotient (RQ)
+PLANT GROWTH
+→3CO2 + 4NADH + 4H+
++ FADH2 + ATP
+Volume of CO2 evolved
+Volume of O2
+absorbed
+All living organisms show various changes in their weight, shape,
+size and volume during their entire life cycle (birth to death).
+The process of increase in the size, weight and shape is known as
+growth. The growth of plants is regulated by certain
+chemical substances, which are synthesised by them and these are
+called growth hormones or growth regulators. Plant growth
+regulators are also called as phytohormones.
+
+--- Start of chunk_026.txt ---
+GENERAL SCIENCE > Biology
+707
+• Its deficiency destroys the muscles and causes
+abnormal functioning of the reproductive system in
+males as well as in females.
+Vitamin-K (Phylloquinone)
+•
+.
+•
+.
+It was discovered by Henrik Dam (1935).
+It is also called as naphthoquinone and is synthesised
+in body by some bacteria.
+It is a coagulation vitamin, that is why it helps in
+clotting of blood.
+The main sources are cauliflower, spinach, tomatoes,
+soyabean, etc.
+• Its deficiency delays clotting of blood and causes
+haemorrhage that is why also called antihaemorrhagic
+vitamin.
+Water Soluble Vitamins
+These are the vitamins, which are soluble in water that is
+why excess of these vitamins are normally excreted
+through the urine.
+Vitamin-B₁ (Thiamine)
+•
+•
+The name of vitamin-B,was given by Funk and
+discovered by Eijkman.
+It is destroyed on cooking and get dissolved in
+cooking water.
+⚫ It is helpful in normal functioning of nerve cells and
+metabolism.
+⚫ It also helps in maintaining normal appetite and
+digestion.
+• Sources are yeast, rice, wheat, grains, beans, soyabean,
+liver oil, milk, etc.
+• Its deficiency causes beri-beri (loss of appetite,
+paralysis of legs and head, etc).
+Vitamin-B2 (Riboflavin)
+⚫ It was first isolated by Warsung and Christian from
+animal tissue.
+•
+•
+These are destroyed on cooking and in strong sunlight.
+It helps in protein and fat metabolism.
+•
+It is necessary for normal growth of body.
+•
+The main sources of vitamins are milk, eggs, liver,
+green leafy vegetables, pulses, cheese, etc.
+Its deficiency causes inflammation of tongue, cornea,
+cracks appear at the corner of the mouth.
+Vitamin-B 3
+(Niacin or Nicotinic Acid)
+•
+•
+It is also known as antipellagra factor.
+It helps in oxidation of carbohydrates, proteins and
+fats.
+⚫ The main sources are cereals, liver, maize, fruits, milk,
+egg, meat, yeast, kidney, etc.
+•
+Its deficiency causes pellagra, dermatitis, diarrhoea.
+Vitamin-B5 (Pantothenic Acid)
+• It is a part of coenzyme-A required for cell respiration,
+normal nerves and skin.
+•
+•
+Its sources include yeast, peas, liver, eggs, kidney, etc.
+Its deficiency can leads to anaemia, dermatitis and nerve
+degeneration.
+Vitamin-B6 (Pyridoxine or Pyridoxal)
+•
+•
+•
+.
+It is an essential part of coenzymes for amino acid
+synthesis.
+Extreme excess of this vitamin leads to poor control and
+coordination.
+The main sources include meat, milk, liver, eggs, etc.
+Its deficiency can lead to disturbance of central nervous
+system and anaemia.
+Vitamin-B7 (Biotin)
+•
+•
+•
+•
+It is a sulphur containing substance also called vitamin-H.
+It serves as coenzyme for fatty acid synthesis.
+Sources include fruits, vegetables, liver, milk, eggs, etc.
+Its deficiency can lead to scaly and itchy skin, muscle pain
+and weakness.
+Vitamin-B (Folic Acid)
+•
+•
+•
+9
+It is also called vitamin-M.
+It was first isolated from the spinach leaves.
+It is essential for growth and maturation of red blood cells.
+This vitamin plays a vital role in various metabolic
+disorders. Some main sources are green leafy vegetables,
+yeast, banana, pulses, cauliflower, meat, liver, etc.
+• Its deficiency causes macrocytic anaemia in man.
+Vitamin-B12 (Cyanocobalamine)
+•
+•
+•
+•
+It is a dark coloured cobalt based pigment, also known as
+cobamide cyanide.
+It helps in RBC formation and proper functioning of
+nerve tissues.
+The main sources are liver, cheese, milk, meat, fish, eggs,
+kidney, etc.
+Its deficiency can lead to pernicious anaemia.
+It is not found in plants, however it has been considered
+that alga and Spirulina contain this vitamin.
+Vitamin-C (Ascorbic Acid)
+It is an earliest known vitamin, which is essential for keeping
+teeth, gums and body joints healthy.
+•
+•
+It prevents the formation of stones in gall-bladder.
+It is quickly and easily destroyed by heat and increases
+resistance of our body against infections, i.e. viral
+infections and common cold.
+The main sources are amla, Citrus fruits (lemon and
+orange), guava, tomatoes, peppers, etc.
+Its deficiency can lead to scurvy (bleeding and loosing of
+gums).
+
+--- Start of chunk_027.txt ---
+712
+CDS Pathfinder
+•
+.
+Colour RBC appears yellow when seen singly, but
+these appear red when in bulk due to the
+haemoglobin.
+Formation In the developing foetus, the formation of
+RBC takes place in liver and spleen, while after the
+birth, RBCs are mainly produced in the bone marrow.
+Maturation of RBC is controlled by folic acid and
+vitamin-B12. The excess of RBCs are stored in the
+spleen, which acts as a blood bank of the body.
+Functions of RBCs
+•
+Haemoglobin helps in maintaining a constant pH.
+Haemoglobin also transports carbon dioxide from the
+tissues to the lungs and oxygen from the lungs to
+body tissues.
+White Blood Corpuscles (WBCs)
+WBCs are also called leucocytes or leukocytes. These are
+the cells, which are important part of immune system
+and involved in protecting the body against both
+infectious disease and foreign invaders.
+•
+.
+Shape These are rounded or amoeboid (irregular),
+nucleated, non-pigmented cells. WBCs are larger in
+size than RBCs.
+Number WBCs are much less in number than RBCs
+(1:6).
+Basophil
+Medium
+Small
+Large
+Lymphocytes
+Granules
+Eosinophil
+Structure of WBC
+Nucleus
+Monocyte
+Neutrophil
+Leukemia (blood cancer) is a pathological increase in
+number of WBCs. Fall in WBC count is termed as
+leucopenia.
+•
+Colour WBCs are colourless.
+•
+Formation WBCs are formed in red bone marrow.
+°
+•
+Lifespan WBCs survive for 8-96 hours only.
+WBCs
+Granulocytes
+Agranulocytes
+Neutrophils Basophils Acidophils
+Monocytes
+Lymphocytes
+Classification of WBCs
+Granulocytes These are about 65% of total leucocytes.
+•
+These are subdivided on the basis of shapes of their nuclei
+and the staining reactions of their granules.
+(i) Neutrophils
+These are about 62% of total number of WBCs.
+They originate from bone marrow.
+The cytoplasm of these contains fine granules.
+Their nucleus is 3-5 lobed and lifespan is about 10-12
+hours.
+These also help in sex differentation and act as soldiers
+of body.
+(ii) Basophils
+These are also called cyanophils. Their nucleus is 2 or
+3-lobed or S-shaped and lifespan is about 8-12 hours.
+These secrete heparin and histamine, thus help in local
+anticoagulation.
+(iii) Acidophils
+These are also called eosinophils.
+Their lifespan is about 14 hours.
+These increase in number in allergic diseases.
+These help in healing of wounds.
+Agranulocytes Formation of agranulocytes is also called
+agranulopoiesis. These form about 35% of the total WBCs.
+These are divided in two subtypes:
+(i) Monocytes
+These are the largest sized leucocytes and form about
+5.3% of all the leucocytes. The nucleus is oval, kidney
+or horse shoe-shaped and is excentric.
+These are formed in the lymph nodes and the spleen.
+These are highly motile and their lifespan is of 3-4 days.
+(ii) Lymphocytes
+These form about 30% of leucocytes.
+Their nucleus is large and rounded, so that cytoplasm
+forms a thin peripheral layer. They are formed in bone
+marrow.
+These are formed in the thymus, lymph nodes, spleen,
+tonsils, etc.
+Their lifespan is of 3-4 days.
+These produce antibodies and opsonin, so play an
+important role in immune system.
+Blood Platelets
+Shape These are oval-shaped and possess discoidal
+cytoplasmic fragments.
+Number Their number varies from 250000-5000000.
+A decrease in the number of platelets in the blood is called
+thrombocytopenia. Increase in number of blood platelets
+is called thrombocytosis.
+Structure Platelets are flat, non-nucleated large cells in
+the bone marrow. They are bounded by a membrane and
+contain few organelles in cytoplasm. These play an
+important role in blood clotting.
+Colour They are colourless, formed in red bone marrow.
+Lifespan about one week.
+
+--- Start of chunk_028.txt ---
+GENERAL SCIENCE > Biology
+717
+•
+.
+Broca's area It is present in brain and is related with
+speech, while Wernick's area of brain is related with
+understanding speech.
+Hypothalamus It deals with water balance in body,
+behavioural patterns of sex, sleep, stress, emotions, etc.
+It also regulates pituitary hormones and metabolism of
+fat, carbohydrate and water.
+Midbrain
+It is located between hypothalamus and pons of the
+hindbrain.
+• It consists of two pairs of rounded swelling lobes called
+corpora quadrigemina (soild structures).
+•
+It deals with visual analysis, auditory, etc.
+Midbrain of rabbit consists of four optic lobes.
+Hindbrain
+It consists of cerebellum, pons varolii and medulla
+oblongata.
+Cerebellum It is in the bottom part of the head and
+back of it. It controls the coordination of accurate
+movements and balancing. It is considered as small
+brain.
+Medulla oblongata It is the lowermost part of brain,
+which is connected to spinal cord. It deals with control
+of heartbeats, blood vessels, breathing, salivary secretion
+and most of reflex and involuntary (uncontrolled)
+movements.
+Pons Varolii It is an oral mass that lies above medulla
+oblongata. It interconnects two cerebellar hemispheres
+and also joins the medulla with higher brain centres.
+Spinal Cord
+It is a long cord-like structure present at the back,
+centrally located and well-protected by bony vertebral
+column.
+•
+•
+It gives out 31 pairs of spinal nerves in man.
+It conducts impulses to and from the brain.
+• It is the centre for reflex actions and provides means of
+communication between spinal nerves and the brain.
+Reflex Action
+It is unconditional, inborn and unlearned reflex to a
+stimulus.
+Examples Blinking of the eye when an object comes near
+to our eyes suddenly, rapid withdrawl of hand, while
+burned, sneezing, coughing, yawning, knee-jerk reflex, etc.
+Acquired Reflex Action
+It is also called as conditioned reflex and dependent on
+past experience, training and learning. These are under
+cerebral control during learning. First demonstrated by
+Ivan Petrovitch Pavlov in hungry dog.
+e.g. Learning of dancing, cycling, swimming, singing and
+driving, etc.
+Peripheral Nervous System
+It is composed of 12 pairs of cranial nerves and 31 pairs of
+spinal nerves.
+Cranial nerves emerge from brain, while spinal nerves
+arise from spinal cord. Different number of cranial
+nerves are present in different organism.
+e.g. 10 pairs of cranial nerves are present in fishes and
+amphibians.
+Number of cranial nerves found in rabbit is 12 (same
+as man) but 37 spinal nerves are present in rabbit.
+The first 10 pairs are common for frog and rabbit.
+List of Cranial Nerves
+Cranial
+Olfactory
+Optic
+Maxillary
+Number Function Distribution
+III
+Sensory
+Nose
+||
+Sensory
+Retina of eye
+Occulomotor
+Motor
+4 muscles of eyeballs
+Trochlear (smallest)
+IV
+Motor
+Superior oblique muscle
+Trigeminal (largest)
+V
+Mixed
+Opthalmic
+Snout
+Upper jaw
+Mandibular
+Lower jaw
+Abducens
+Facial
+VI
+Motor
+External rectus
+VII Mixed
+Vestibulocochlear
+Neck, pinna, tongue,
+lower jaw
+(auditory)
+Glossopharyngeal
+Vagus
+VIII Sensory
+IX Mixed
+X
+Internal ear
+Tongue, pharynx
+Mixed
+Larynx, heart, lungs,
+stomach, etc.
+Spinal accessory
+Hypoglossal
+XI
+Motor
+Neck
+XII
+Motor
+Neck and tongue
+Autonomous Nervous System
+It was discovered by Langley. It is entirely motor and
+operates without conscious control.
+Autonomic nervous system consists of two divisions:
+(i) Sympathetic nervous system This increases defence
+system of body against adverse conditions and active
+in stress conditions, e.g. pain, fear and anger.
+(ii) Parasympathetic nervous system It provides
+relaxation, comfort, pleasure at the time of rest and
+helps in the restoration and conservation of
+SENSE ORGANS
+energy.
+The sensory organs (receptors) enable us to detect all types
+of changes in the environment and send appropriate signals
+to the CNS, where all the inputs are processed and
+analysed signals are then sent to different centres of brain.
+
+--- Start of chunk_029.txt ---
+722
+CDS Pathfinder
+Human Male Reproductive System
+•
+Male reproductive system consists of following main parts:
+Testes These are the primary sex organ of males, which
+perform dual role, i.e. function as endocrine gland and
+also act as male sex organs. These are suspended in thin
+skin bag called scrotal sacs.
+•
+•
+•
+Epididymis It is highly coiled, thin tube formed by
+union of seminiferous tubules.
+Penis It is muscular organ, richly supplied with the
+blood. Externally, the penis has a bulge called glans
+penis, which is covered by prepuce (a skin fold).
+Male can produce spermatozoa (sperm) throughout their
+life starting from the age of 13-14 years.
+The growth of hairs on body is due male sex hormones,
+i.e. androgen (testosterone).
+Ureter
+Reproductive Organs, Function and
+their Number in Female
+Reproductive
+organ of female
+Ovaries
+Function performed
+Number
+2
+To produce ova and hormones.
+Oviducts
+2
+To move the ovum towards uterus.
+Uterus
+1
+Vagina
+1
+To provide space for developing child.
+To receive the sperms.
+Oviduct
+Fallopian tubes
+Ovaries
+Uterus
+Fimbriae
+Follicles
+Corpus luteum
+Uterine wall
+Endometrium
+Urinary bladder
+Cervix
+Prostate gland
+Bulbourethral gland
+Erectile tissue
+of penis
+Vas deferens
+Epididymis-
+Testis
+Seminal vesicle
+(behind bladder)
+Urethra
+-Scrotum
+Penis
+Glans penis
+Prepuce
+Male reproductive system
+Reproductive Organs, Function and
+their Numbers in Man
+Reproductive
+organs of male
+Number Function performed
+Testes
+2
+To produce sperms and testosterone.
+Sperm duct
+2
+To conduct the sperms from the testes to
+urethra.
+Seminal vesicles
+2
+To secrete seminal plasma.
+Epididymis
+2
+To temporarily store sperms and provide
+mobility.
+Urethra
+1
+To conduct urine, sperms.
+Prostate gland
+2
+To secrete an alkaline fluid to neutralise
+the acidity of urethra.
+Cowper's gland
+Penis
+2
+To secrete an alkaline white fluid.
+1
+To pass urine and deposite sperms in
+female genital tract.
+Human Female Reproductive System
+The female reproductive system consists of the following
+parts:
+•
+•
+Ovary These are primary sex organs that produces
+females gametes (ovum) and several steroid hormone.
+After maturity, the ovary releases an ovum (egg cell)
+after every 28 days.
+-Vagina
+Female reproductive system
+Lactation Child is delivered after its development and
+mother produces milk to nourish the child.
+Placenta It is the connection between developing
+embryo and mother. It supplies blood, nutrition, etc., to
+the foetus.
+Gestation period The embryo develops for nine months
+in uterus. This period is called as gestation period.
+Amniocentesis A technique to detect chromosomal
+abnormalities, if any in the developing foetus by
+analysing the cells in the amniotic fluid. This technique
+is often misused to know the sex of the foetus.
+Ultrasound can also be used to ditect sex of foetus.
+Menstrual Cycle
+•
+Reproductive period of a human female extends from
+puberty (9-13 years) to menopause (45-50 years).
+Menopause is stopping of ovulation and menses. It
+normally occurs between the ages of 45 and 50. In this
+stage, women lose the ability to reproduce. Menopause
+is characterised by hot flushes.
+The periodic vaginal bleeding during menstrual cycle is
+called menstruation.
+Menstrual cycle is controlled by FSH, LH, oestrogen
+and progesterone.
+On an average, menstrual cycle is completed in 28 days.
+It is absent during pregnancy, may be suppressed during
+lactation and permanently stops at menopause.
+About 13 mature eggs are released from two ovaries of
+female in an year.
+
+--- Start of chunk_030.txt ---
+GENERAL SCIENCE > Biology
+727
+•
+Potassium sulphate [K2SO4]
+Calcium Ammonium Nitrate (CAN) also
+called as Kisan Khad.
+N, P and K are the macronutrients provided
+by inorganic fertilisers. Such fertilisers are
+also called as complete fertiliser.
+2. Biofertilisers
+The fertilisers, which are biologically originated are
+referred to as biofertilisers. In other words,
+biofertilisers are those organisms, which can bring
+about nutrient availability to crop plants. One of the
+important type of biofertiliser is manures.
+Manures
+•
+.
+•
+•
+They are the semi-decayed substances, which are
+added to the soil to enhance soil's fertility.
+It is decomposed product of organic wastes.
+Manures improve the following properties of soil:
+Fertility
+Aeration
+Crumb structure
+Water holding capacity
+Farmers in our country are traditionally using
+cow dung as manure.
+They are also of different types based on their
+composition.
+The three types of manures are as follows:
+(a) Farm Yard Manure (FYM) Consist of mixture
+of cattle dung, crop residues, fallen leaves,
+twigs, etc.
+(b) Composite Manure (compost) Consist of
+rotten vegetables, garbage, sewage sludge,
+animal refuse, etc.
+(c) Green Manure Quick growing crops cultivated
+and ploughed into the soil. These can increase
+next crop yield by 30-50%.
+Green Manuring
+Green manure is a type of cover crop grown
+primarily to add nutrients and organic matter to soil.
+.
+The technique of utilising green manure is called
+green manuring, e.g. leguminous plants such as
+Crotalaria juncea, Glycine max, Indigofera
+linifolia, etc., are used as green manures.
+Anabaena azollae (cyanobacteria) is used as
+biofertiliser in rice field.
+Sunnhemp plants are used for green manuring in
+India.
+Advantages of Manuring
+•
+•
+It improves the fertility of soil and enhances the
+soil structure.
+It improves the soil aeration capacity.
+• It helps in control of pests, insects, mites and
+growth of weeds.
+Sources of Biofertilisers
+•
+•
+Natural
+12
+processes fix about 190 ×10¹² g per year of nitrogen
+through biological nitrogen-fixation.
+Biological nitrogen-fixation provides about 1750 million tonnes
+of nitrogen, free of cost naturally in the form of biofertilisers.
+Biofertilisers contain some organisms, which can bring about
+nutrient availability to the crop plants.
+The main sources of biofertilisers are:
+1. Free-living Nitrogen-fixing Bacteria
+Non-symbiotic (free-living) nitrogen-fixing bacteria are found
+abundantly in rhizosphere (i.e. the region where soil and roots
+make contact). They may be aerobic or anaerobic.
+(i) Aerobic nitrogen-fixing bacteria Aerobic nitrogen-fixing
+bacteria such as Azotobacter are thought to maintain reduced
+oxygen conditions (microaerobic conditions) through their
+high level of respiration. Others such as Gloeothece evolve
+O2 photosynthetically during the day and fix nitrogen
+during the night.
+(ii) Anaerobic nitrogen-fixing bacteria In anaerobic
+nitrogen-fixing bacteria, oxygen does not pose a problem,
+because it is absent in their habitat. They can be either
+photosynthetic (e.g. Rhodospirillum) or non-photosynthetic
+(e.g. Clostridium).
+2. Symbiotic Nitrogen-fixing Bacteria
+Many plants form a symbiotic relationship with nitrogen-fixing
+bacteria that contain an enzyme complex nitrogenase. Nitrogenase
+enzyme can reduce nitrogen into ammonia.
+•
+•
+•
+The best known example of symbiotic nitrogen-fixation is that
+of the Rhizobium group of bacteria, which form nodules on
+the roots of leguminous plants.
+Nodules contain an oxygen binding haemoprotein called
+leghaemoglobin.
+Leghaemoglobin is present in the cytoplasm of infected nodules
+cells at high concentration and gives the nodules pink colour.
+Non-leguminous trees and shrubs such as Alder, Ceanothus
+and Purshia have the nitrogen-fixing Actinomycetes, i.e.
+Frankia as a symbiont.
+3. Free-living Nitrogen- fixing Cyanobacteria
+Anabaena, Nostoc, Aulosira, Cylindrospermum, Trichodesmium,
+etc., are some free-living nitrogen-fixing blue-green algae or
+cyanobacteria.
+•
+.
+They add 20-30 kg of nitrogen per hectare of soil and water.
+Aulosira is the most active nitrogen fixer in rice field, whereas
+Cylindrospermum is active in sugarcane and maize fields.
+4. Symbiotic Nitrogen- fixing Cyanobacteria
+Anabaena and Nostoc sp. of cyanobacteria are common
+symbionts in lichens, Anthoceros, Azolla and Cycads roots.
+•
+The water fern Azolla has Anabaena azollae as the symbiont,
+which fixes nitrogen within fronds.
+They grow thickly in rice paddy water and often inoculated to
+rice fields for nitrogen-fixation.
+
+--- Start of chunk_031.txt ---
+PRACTICE EXERCISE
+Cell: The Unit of Life
+1. Which of the following organism
+does not obey the 'cell theory'?
+(a) Virus
+(b) Bacteria
+(c) Fungi
+(d) Plants
+2. The nucleic acid in a cell was
+discovered by
+(a) E Strasburger
+(c) F Miescher
+(b) A Kossel
+(d) Huxley
+3. The 'cell theory' for organisms
+was proposed by
+(a) Purkinje and Von Mohl
+(b) Schleiden and Schwann
+(c) Carolus Linnaeus
+(d) Felix Dujardin
+4. The fact that new cells arise from
+pre-existing cells was proposed by
+(a) JE Purkinje
+(c) R Virchow
+(b) F Dujardin
+(d) E Abbe
+5. The scientists who first recognised
+and named the nucleus was
+(a) Robert Hooke
+(b) Robert Brown
+(c) Theodore Schwann
+(d) Thomas Morgan
+6. Which of the following is a
+physical basis of life?
+(a) Mitochondria
+(c) Protoplasm
+(b) Ribosome
+(d) Nucleus
+7. The bacteria were discovered by
+which of the following person?
+(a) H Urey
+(b) E Haeckel
+(c) AV Leeuwenhoek
+(d) Ivanowski
+8. The term 'Meiosis' is coined by
+(a) Fleming
+(b) Blackmann
+(c) Liebig
+(d) Farmer and Moore
+9. The physical basis of life
+protoplasm was named by
+(a) Purkinje
+(b) J Huxley
+(c) Robert brown (d) Sherington
+10. Which of the following is not
+present in prokaryotes?
+(a) Ribosomes
+(b) Nuclear membrane
+(c) Cell wall
+(d) Plasma membrane
+11. Which one among the following is
+known as 'animal starch"?
+(a) Cellulose
+(c) Pectin
+(b) Glycogen
+(d) Chitin
+12. Consider the given cell organelles.
+1. Mitochondria 2. Plastids
+3. Ribosome
+Which of the cell organelle(s)
+given above is/are common in both
+plant and animal cells?
+(a) Only 2
+(b) 1 and 2
+(c) 1 and 3
+(d) All of the above
+13. Rigidity of cell wall is due to
+(a) chitin
+(c) suberin
+(b) lignin
+(d) pectin
+14. The plasma membrane of animal
+cells is highly elastic. It is mainly
+due to the presence of
+(a) carbohydrates
+(b) proteins
+(c) lipids
+(d) nucleic acids
+15. The secretory product pectin of
+cell wall is chemically a
+(a) protein
+(b) carbohydrate
+(c) lipid
+(d) nucleic acid
+16. Chromosomes are
+(a) present only in the nucleus of a
+cell
+(b) the largest in number in human cells
+(c) made up of DNA as a main
+component
+(d) visible in all cells at every time.
+17. Consider the following statements
+1. Endoplasmic Reticulum (ER) is
+called as 'skeleton of cell'.
+2. ER is divided into three types
+according to the presence or
+the absence of ribosome.
+3. Smooth ER is rich in actively
+protein secreting cells.
+Which of the statement(s) given
+above is/are correct?
+(a) Only 1
+(b) 1 and 2
+(c) 2 and 3
+(d) Only 3
+18. Match the following Columns.
+Column I
+(Cell organelle)
+A. Ribosome
+B. Lysosome
+Column II
+(Common names)
+1. Suicidal bags of cell
+2. Protein factory of
+cells
+C. Mitochondria 3. Controller of cells
+4. Power house of cell
+D. Nucleus
+Codes
+A B C D
+A B C D
+(b) 2
+(d) 1
+1 4 3
+4 2 3
+(a) 2 1 3 4
+(c) 4 2 1 3
+19. Which of the following cell
+organelles functions as the
+powerhouse of a living cell?
+(a) Chloroplast
+(c) Ribosomes
+(b) Mitochondria
+(d) Golgi apparatus
+20. Which one of the following
+organelles is the smallest
+membrane bound organelle?
+(a) Ribosome
+(c) Lysosome
+(b) Golgi bodies
+(d) Nucleolus
+21. When our cells are filled with
+dead or damaged organelles like
+mitochondria, ER, etc. The
+degradation of these organelles is
+mainly performed by
+(a) ribosomes
+(c) peroxisomes
+(b) lysosomes
+(d) glyoxysomes
+22. Consider the following statements
+1. Cortical granules originate
+from Golgi bodies.
+2. Cortical granules form the
+fertilisation membrane.
+3. Cortical granules are found
+only in ovum.
+Which of the statement(s) given
+above is/are correct?
+(a) Only 2
+(c) 2 and 3
+(b) 1 and 3
+(d) All of these
+23. Consider the following statements
+1. Lysosomes have hydrolytic
+enzymes.
+2. Lysosomes are autophagic.
+3. Lysosomes can dissolve
+proteins, lipids and
+carbohydrates.
+4. All lysosomes are same
+structurally and functionally.
+
+--- Start of chunk_032.txt ---
+GENERAL SCIENCE > Biology
+737
+129. Absorption of water increased by
+which mineral?
+(a) Magnesium
+(c) Calcium
+(b) Zinc
+(d) Manganese
+130. A limiting factor unique to a field
+planted with corn year after year
+is most likely
+(a) temperature
+(c) sunlight
+(b) water
+(d) soil nutrient
+131. Which of the following are
+carnivorous plants?
+1. Waterlilly 2. Pitcher plant
+3. Sundew
+Codes
+(a) 1 and 4
+(c) 2 and 3
+4. Begonia
+(b) 1 and 2
+(d) 1, 2 and 3
+132. Which one of the following plants
+is preferred for mixed cropping in
+order to enhance the
+bioavailability of nitrogen?
+(a) Wheat
+(c) Maize
+(b) Gram
+(d) Barley
+133. Which factors affect the rate of
+diffusion?
+(a) Permeability of membrane
+(b) Temperature
+(c) Pressure
+(d) All of the above
+134. Consider the following statements
+1. Vapour pressure of a solution
+is always less than the vapour
+pressure of the pure solvent.
+2. Osmotic pressure of a solution
+increases if the number of
+solute molecules is increased.
+3. The temperature at which the
+liquid and solid states of a
+substance have the same vapour
+pressure is the freezing point.
+4. Osmotic pressure of a solution
+is inversely proportional to the
+elevation in boiling point.
+Which of the above statement(s)
+is/are correct?
+(a) Only 1
+(c) 3 and 4
+(b) 2 and 4
+(d) 1, 2 and 3
+135. Osmosis takes place across
+(a) semipermeable membrane
+(b) impermeable membrane
+(c) Both (a) and (b)
+(d) None of the above
+136. When soil is wet and atmosphere
+is humid plants lose water by
+(a) photosynthesis (b) osmosis
+(c) guttation
+(d) diffusion
+137. Cohesion theory of ascent of sap
+was proposed by
+(a) Dixon
+(c) Pristley
+(b) Bore
+(d) Atkins
+138. Cause of turgidity in plant cell is
+(b) water
+(d) All of these
+(a) air
+(c) hormones
+139. If there is no movement of water
+into a cell from outside medium,
+the medium is known as
+(a) hypertonic
+(c) isotonic
+(b) hypotonic
+(d) transpiration
+140. The diffusion through a
+semipermeable membrane is
+known as
+(a) osmosis
+(c) guttation
+(b) imbibition
+(d) transpiration
+141. A membrane which permits
+selective movement of molecules
+through it, is called
+(a) permeable membrane
+(b) unit membrane
+(c) semipermeable
+(d) impermeable membrane
+142. Roots can absorb minerals from
+the soil when they are in
+(a) solid state
+(c) ionic state
+(b) liquid state
+(d) gaseous state
+143. Water absorption can be increased
+by keeping the plants
+(a) in the shade
+(b) in dim light
+(c) under the fan
+(d) covered with polythene bag
+144. A cell neither shrinks nor swells
+when kept in a fluid, then the
+fluid in the cell in relation to
+ambient fluid is called
+(a) hypertonic
+(c) isotonic
+(b) hypotonic
+(d) hylaluronic
+145. Transpiration is very low during
+storms due to
+(a) presence of moisture in wind
+(b) low temperature during storms
+(c) high velocity of winds
+(d) None of the above
+146. Which of the following plants open
+their stomata during night and
+close during day time?
+(a) Fleshy xerophytes
+(b) Hydrophytes
+(c) Night jasmine
+(d) None of the above
+147. Consider the statements and
+mark the correct one.
+There is decrease in the rate of
+transpiration due to
+(a) the presence of thick cuticle
+(b) the presence of sunken stomata
+(c) Both (a) and (b) are correct
+(d) None of the above
+148. Which of the following statements
+is correct?
+(a) Maximum transpiration occurs
+through cuticle
+(b) Transpiration takes place when
+outer atmosphere has per cent of
+moisture less than that of stomatal
+cavity
+(c) There is increase in transpiration
+due to waxy coating on plants
+parts
+(d) None of the above
+149. Why do you feel cool under a tree
+but not so under a tin shed on a
+sunny day?
+(a) The greenness of the tree gives
+the cool feeling
+(b) Photosynthesis absorbs heat
+(c) The leaves convert water vapours
+into water which is a heat
+absorbing process
+(d) The leaves give out water which
+vapourises absorbing some heat as
+latent heat
+150. In dry regions, the leaf size of a
+tree becomes smaller. It is so to
+(a) reduce metabolism
+(b) reduce transpiration
+(c) maintain natural growth
+(d) protect plant from animals
+151. Tips of leaves in grasses and
+common garden plants show
+water drops in early morning
+hours. This water accumulation is
+obtained from
+(a) atmosphere
+(b) stomata
+(c) vascular bundles (d) hydathodes
+152. Which of the following plants is
+not capable of manufacturing its
+own food?
+(a) Algae
+(c) Carrot
+(b) Mushroom
+(d) Cabbage
+153. Conditions necessary for
+photosynthesis is/are
+(a) chlorophyll and water
+(b) CO2
+(c) light and suitable temperature
+(d) All of the above
+154. Absorption of light in
+photosynthesis is done by
+(a) water
+(c) chlorophyll
+(b) air
+(d) carbon dioxide
+155. Which one of the following gases
+is released from rice fields in the
+most prominent quantities?
+(a) Carbon dioxide
+(b) Methane
+(c) Carbon monoxide
+(d) Sulphur dioxide
+
+--- Start of chunk_033.txt ---
+742
+CDS Pathfinder
+267. Consider the following respiratory
+pigments.
+1. Haemoglobin
+2. Haemocyanin
+3. Haemoerythrin
+4. Haemocyanoglobin
+Iron is contained in
+(a) 1, 2, 3 and 4
+(c) 1 and 2
+(b) 1 and 3
+(d) 1, 2 and 4
+268. Match the following Columns.
+Column I
+(Protein)
+A. Haemoglobin
+B. Collagen
+C. Albumin and
+glutamin
+Column II
+(Type)
+1. Structural proteins
+2. Contractile proteins
+3. Transport proteins
+D. Actin and myosin 4. Storage proteins
+Codes
+A B C D
+(a) 1
+(c) 3 1
+3 4 2
+4 2
+(b) 2
+(d) 1
+A B C D
+1 3 4
+2 4 3
+(b) vagus
+276. Ammonia is the chief nitrogenous
+waste in
+(a) mosquitoes
+(b) tadpole of frog
+(c) cartilaginous fishes
+(d) desert mammals
+277. Sweating during exercise
+indicates operation of which one
+of the following processes in the
+human body?
+(a) Enthalpy
+(c) Phagocytosis
+(b) Homeostasis
+(d) Osmoregulation
+278. It has been observed that
+astronauts lose substantial
+quantity of calcium through urine
+during space flight. This is due to
+(a) hypergravity
+(b) microgravity
+(c) intake of dehydrated food tablet
+(d) low temperature in cosmos
+279. The fibrous sheath that connects
+the bones is called
+(a) tendon
+(b) aponeuroses
+(d) ligament
+287. The junction of two neurons is
+called
+(a) synapsis
+(c) synapse
+(b) synapticula
+(d) synaptic cleft
+288. There is different parts of brain in
+the figure. The darken portion of
+the figure represents
+(a) cerebrum
+(b) cerebellum
+(c) cerebral hemisphere
+(d) spinal cord
+289. In human body, what is the
+number of cervical vertebrae?
+(a) 5
+(c) 8
+(b) 7
+(d) 12
+(b) 12 pairs
+(d) 31 pairs
+269. Heart is innervated by
+(a) trigeminal
+(c) facial
+(d) glossopharyngeal
+270. Which of the following parts of
+blood carry out the function of
+body defence?
+(a) Red blood cells (b) White blood cells
+(c) Platelets
+(d) Haemoglobins
+271. What does sphygmomanometer
+measure?
+(a) Blood pressure
+(b) Velocity of fluids
+(c) Temperature
+(d) Curvature of spherical surfaces
+272. White blood cells act
+(a) as a defence against infection
+(b) as source of energy
+(c) for clotting blood
+(d) as a medium for oxygen transport
+from lung to tissues
+273. Which one among the following
+animal tissues transport
+hormones and heat and maintains
+water balance?
+(a) Epithelial tissue (b) Muscular tissue
+(c) Blood
+(d) Nervous tissue
+274. Which one of the following is
+considered normal blood pressure
+in man?
+(a) 120/80 mm water
+(b) 120/80 mm blood
+(c) 120/80 mm mercury
+(c) periosteum
+280. The white fibres are chemically
+formed of
+(a) collagen
+(c) myosin
+(b) elastin
+(d) reticulin
+281. The longest bone in human
+body is
+(a) femur
+(c) patella
+(b) skull bone
+(d) fibula
+282. The protein present in bone is
+(a) chondrin
+(c) actin
+(b) ossein
+(d) myosin
+283. A band of white fibres which joins
+muscles to bone
+(a) ligament
+(c) elastin
+(b) tendon
+(d) actin
+284. Muscle fatigue is due to the
+accumulation of
+(a) pyruvic acid
+(c) glycogen
+(b) lactic acid
+(d) succinic acid
+285. Match the following Columns.
+Column I
+Column II
+A. Shoulder and
+joints
+1. Ball and socket
+joints
+B. Ankle, knee and 2. Hinge joints
+elbow
+C. Toe bones
+D. Bones in palm
+3. Ellipsoid joints
+4. Gliding joints
+(d) 120/80 mm air
+275. The yellow colour of urine is due
+to the presence of
+(c) cholesterol
+Codes
+A B C D
+(a) 2 4 3 1
+(c) 1 2 3 4
+286. Nissl's granules
+(a) cartilage cells
+(c) muscle cells
+(a) bile
+(b) lymph
+(d) urochrome
+A B C D
+(b) 1 342
+(d) 2 1 4 3
+are found in
+(b) nerve cells
+(d) bone cells
+290. Number of spinal nerves in man is
+(a) 10 pairs
+(c) 21 pairs
+291. Outermost covering of brain of
+man is
+(a) duramater
+(c) arachnoid
+(b) piamater
+(d) choroid
+292. Which of the following makes skin
+layer impervious to water?
+(a) Collagen
+(c) Keratin
+(b) Melanin
+(d) Chitin
+293. Sweat glands occur in maximum
+number in the skin of the
+(a) forehead
+(c) back
+(b) armpits
+(d) palm of hands
+294. Any chemical which causes loss of
+sensation is
+(a) sedative
+(c) anaesthetic
+(b) analgesic
+(d) stimulant
+295. Human body's main organ of
+balance is located in
+(a) inner part of ear
+(b) middle part of ear
+(c) front part of brain
+(d) top part of vertebral column
+296. Convex lenses are used for the
+correction of
+(a) artigmatism
+(b) short-sightedness
+(c) cataract
+(d) long-sightedness
+297. The amount of light entering the
+eye is regulated by
+(a) cornea
+(c) iris
+(b) pupil
+(d) sclera
+
+--- Start of chunk_034.txt ---
+GENERAL SCIENCE > Biology
+747
+> Previous Years' Questions
+395. Cancer is more common in older
+people because
+(a) their immune systems have
+degenerated
+(b) the supply of certain hormones
+declines with age
+2013
+(c) their bodies are unable to adjust to
+the changing environment
+(d) they have accumulated more
+mutations
+396. Consider the following statements
+✓ 2013 (1)
+regarding antibiotics.
+1. They are used to destroy
+disease-causing bacteria.
+2. They can be applied to the
+skin, swallowed or injected to
+fight microorganisms inside the
+body.
+3. They are effective against
+disease-causing viruses.
+4. The first antibiotic to be
+discovered was tetracycline.
+Which of the statement(s) given
+above is/are correct?
+(a) 1 and 2
+(c) Only 1
+(b) 1, 2 and 4
+(d) 2, 3 and 4
+397. Which one of the following
+diseases in humans can spread
+through air?
+(a) Dengue
+(c) HIV-AIDS
+2015 (1)
+(b) Tuberculosis
+(d) Goitre
+402. Most antibiotics target bacterial
+parasites interfering with various
+factors of growth or metabolism
+such as
+□ 2016 (1)
+1. synthesis of cell wall.
+2. bacterial protein synthesis.
+3. synthesis of nuclear membrane.
+4. mitochondria function.
+Select the correct answer using
+the codes given below:
+(a) 1, 2 and 3
+(c) 2 and 3
+(b) 1 and 4
+(d) 1 and 2
+403. Dengue virus is known to cause
+low platelet count in blood of
+patient by
+2016 (I)
+1. interfering in the process of
+platelet production in bone
+marrow.
+2. infecting endothelial cells.
+3. binding with platelets.
+4. accumulating platelets in
+intestine.
+Select the correct answer using
+the codes given below:
+(a) 1 and 2
+(c) 3 and 4
+(b) 1 and 3
+(d) 1, 2 and 3
+Applied Biology
+404. If excess fertiliser is applied to a
+plant without water, the plant
+will
+(a) be stunted in growth
+(b) develop modifications
+Which of the microorganism(s)
+given above is/are free-living
+nitrogen-fixing bacteria?
+(a) Only 1
+(c) Only 3
+(b) 1, 2 and 3
+(d) 2, 3 and 4
+408. Consider the following plants.
+1. Lentil
+3. Sunnhemp
+2. Cow pea
+4. Wheat
+Which of the plants given above
+is/are used as 'Green manure in
+India'?
+(a) Only 3
+(c) 2 and 3
+(b) 1, 2 and 3
+(d) All of these
+409. What are the components of the
+fungicide 'Bordeaux mixture'?
+(a) Magnesium sulphate and sodium
+hydroxide
+(b) Copper sulphate and magnesium
+hydroxide
+(c) Copper sulphate and calcium
+hydroxide
+(d) Copper sulphate and sodium
+hydroxide
+410. In the rice field, which of the
+following is used as biofertiliser?
+(b) Pseudomonas
+(d) Azolla
+(a) Rhizobium
+(c) Nitrobacter
+411. From which plant listed below
+maximum amount of ethanol for
+biofuel is obtained?
+(a) Wood
+(b) Tapioca
+(d) Sugarcane
+398. The word 'vaccination' has been
+derived from a Latin word which
+relates to
+(a) pig
+(c) cow
+2015 (1)
+(b) horse
+(d) dog
+399. Measles is a disease caused by
+(a) bacteria
+(c) protozoan
+(b) virus
+(d) worm
+2016
+400. The mandate of the scheme
+entitled 'Directly Observed
+Treatment, Short-Course (DOTS)'
+launched by WHO is to ensure
+that
+(a) doctors treat patients with medicine
+for a short duration
+(b) doctors do not start treatment
+without a trial
+(c) patients complete their course of
+drug
+(d) patients voluntarily take vaccines
+401. Penicillin inhibits synthesis of
+(c) die due to plasmolysis
+(d) remain unaffected
+405. The free-living aerobic soil
+bacterium which fixes nitrogen
+(a) Azotobacter
+(c) Clostridium
+(b) Nostoc
+(d) Frankia
+406. Match the following Columns.
+Column I
+A. Sugarcane
+B. Cinchona
+C. Hevea
+D. Sea kelp
+Codes
+A B C D
+(a) 2 1 43
+Column II
+1. Quinine
+2.
+Molasses
+3. lodine
+4. Rubber
+A
+B C D
+(b) 4 3 2 1
+(d) 2 3 4 1
+(c) 1 2 3 4
+407. Consider the following
+microorganisms.
+1. Azotobacter
+2. Clostridium
+bacterial
+2016 (1)
+3. Bacillus polymyxa
+(a) cell wall
+(c) RNA
+(b) protein
+(d) DNA
+4. VAM (Vascular Arbuscular
+Mycorrhiza)
+(c) Maize
+412. Plants die when over fertilised,
+because the fertiliser
+(a) damage the wall of delicate root
+hairs
+(b) blocks absorption of nitrogenous
+ions
+(c) causes dehydration of plant by
+exosmosis
+(d) increases the soil acidity
+413. Which one among the following
+group of items contains only
+biodegradable items?
+(a) Wood, grass, plastic
+(b) Wood, grass, leather
+(c) Fruit peels, lime juice, China clay cup
+(d) Lime juice, grass, polystyrene cup
+414. Endosulfan, which has been in
+news these days, is a/an
+(a) pesticide
+(b) fertiliser
+(c) sulpha drug (d) antibiotic
+415. Which one among the following
+industries produces the most
+non-biodegradable wastes?
+(a) Thermal power plants
+(b) Food processing units
+(c) Textile mills
+(d) Paper mills
