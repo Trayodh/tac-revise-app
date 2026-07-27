@@ -14,7 +14,7 @@ async function processChunk(subject, chunkFile) {
 
   if (fs.existsSync(outPath)) {
     console.log(`  [SKIP] ${chunkFile} already processed.`);
-    return true;
+    return 'skip';
   }
 
   console.log(`  [OCR Gemini] Processing ${chunkFile}...`);
@@ -79,15 +79,18 @@ async function main() {
     
     for (const chunk of chunks) {
       const success = await processChunk(subject, chunk);
-      if (!success) {
+      if (success === true) {
+        // Did actual work (not skip) - delay
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      } else if (success === 'skip') {
+        // Skip instantly
+      } else {
         console.log(`Stopping batch for ${subject} due to error.`);
-        // Sleep and retry once before aborting
         await new Promise(r => setTimeout(r, 10000));
         const retry = await processChunk(subject, chunk);
-        if (!retry) break; 
+        if (retry !== true && retry !== 'skip') break;
+        if (retry === true) await new Promise(resolve => setTimeout(resolve, 2000));
       }
-      // Slight delay to avoid rate limits
-      await new Promise(resolve => setTimeout(resolve, 2000));
     }
   }
   console.log("\nAll chunks processed via Gemini!");

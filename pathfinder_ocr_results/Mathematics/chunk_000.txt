@@ -1,0 +1,417 @@
+MATHEMATICS
+
+TREND ANALYSIS
+(2016-2014)
+S.No.
+Chapter Name
+2016 (I) 2015 (II) 2015 (I)
+2014 (II)
+1
+Number System
+11
+10
+12
+13
+2
+HCF and LCM of Numbers
+4
+3
+4
+4
+3
+Decimal Fractions
+1
+1
+4
+Square Roots and Cube Roots
+2
+1
+2
+1
+5
+Time and Distance
+7
+10
+7
+5
+6
+Time and Work
+1
+6
+1
+4
+7
+Percentage
+2
+4
+2
+2
+8
+Simple Interest
+1
+2
+1
+9
+Compound Interest
+1
+2
+1
+10
+Profit and Loss
+1
+1
+1
+11
+Ratio and Proportion
+2
+3
+2
+1
+12
+Logarithm
+1
+13
+Basic Operations and Factorisation
+11
+5
+5
+1
+14
+HCF and LCM of Polynomials
+4
+3
+4
+4
+15
+Rational Expressions
+1
+16
+Linear Equations
+1
+1
+1
+1
+17
+Quadratic Equations and Inequations
+7
+4
+1
+9
+18
+Set Theory
+1
+1
+19
+Measurement of Angles and
+Trigonometric Ratio
+8
+11
+12
+11
+20
+Height and Distances
+2
+2
+4
+1
+21
+Lines Angles
+3
+1
+22
+Triangles
+12
+2
+3
+7
+23
+Quadrilateral and Polygon
+3
+5
+4
+4
+24
+Circle
+7
+4
+5
+6
+25
+Locus
+26
+Area and Perimeter of Plane Figures
+4
+6
+11
+4
+27
+Surface Area and Volume of Solids
+11
+8
+11
+28
+Statistics
+6
+5
+5
+7
+Total
+100
+100
+100
+100
+
+01
+NUMBER SYSTEM
+Generally (10-12) questions have been asked from this chapter. Questions, from this section usually
+test your basic knowledge of numbers and are mostly based on various properties of multiplication
+and division. A good number of statement based questions have been asked from this chapter.
+NUMBER SYSTEM
+Numbers are collection of certain symbols or figures called digits. The common number system in use
+is decimal number system. In this system, we use ten symbols each representing a digit. These are 0, 1,
+2, 3, 4, 5, 6, 7, 8, and 9. A combination of these figures representing a number is called a numeral.
+Types of Numbers
+1. Natural numbers Numbers which are used for counting i.e. 1, 2, 3, 4, ... are called natural numbers.
+The set of natural numbers is denoted by ‘N'. Smallest natural number is 1 but we cannot find the
+largest natural number as successor of every natural number is again a natural number.
+2. Whole numbers Natural numbers including zero are known as whole numbers. The set of whole
+numbers is denoted by W.
+Every natural number is a whole number.
+• Zero (0) is the only whole number which is not a natural number.
+3. Even numbers The numbers which are divisible by 2 are called as even numbers. e.g 2, 4, 6, 8, 10,
+In general these are represented by 2 m, where m∈ N.
+4. Odd numbers The number which are not divisible by 2 are called as odd numbers. e.g. 1, 3, 5, 7,
+9, In general, these are represented by (2m – 1), where me N.
+5. Prime numbers Those numbers which are divisible by 1 and the number itself are known as prime
+numbers. e.g. 2, 3, 5, 7,..., etc. are prime numbers.
+• If a number is not divisible by any of the prime numbers upto square root of that number, then it is a prime
+number.
+• 2 is the only even number which is prime.
+• The prime numbers upto 100 are: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71,
+73, 79, 83, 89 and 97 i.e. there are 25 prime numbers upto 100.
+
+4
+CDS Pathfinder
+6. Coprime numbers Two natural numbers x and y are
+said to be coprime, if they do not have any common
+divisor other than 1.
+e.g. (9, 2), (5, 6), (11, 15) are the pairs of coprime
+numbers.
+• If x and y are any two coprimes, a number p is
+divisible by x as well as by y, then the number is also
+divisible by xy.
+Coprime are also called as relatively prime numbers.
+• Twin primes Twin primes are pair of primes
+which differ by 2. e.g. (3, 5), (7, 9), (11, 13) etc.
+7. Composite numbers A composite number is any
+number greater than one that is not a prime number.
+e.g. 4, 6, 8, 9, ... all are composite numbers.
+• '1' is neither prime nor composite.
+INTEGERS
+The collection of positive numbers, negative numbers
+and zero are called integers. The set of integers is
+denoted by Z or I.
+Thus, Z or I = {. . ., – 4, – 3, -2, -1, 0, 1, 2, 3, 4, ...} is the
+set of integers. Every natural number and whole number
+is a part of integer. So, NCW ⊂ I.
+Types of Integers
+Integers are of three types
+(i) Positive Integers It is a set of all positive numbers.
+It is denoted by I+, I+ = {1, 2, 3, 4, ...}
+(ii) Negative Integers It is a set of all negative numbers.
+It is denoted by I¯, I¯ = {..., -3, -2, -1}
+(iii) Non-negative Integers An integer that is either 0 or
+positive is called non-negative integer. {0, 1, 2, 3, ...}
+Note '0' is neither positive nor negative.
+EXAMPLE 1. The smallest 3 digit prime number is
+c. 109
+α. 101
+b. 103
+d. 113
+Sol. a. The smallest 3 digit number is 100, which is divisible
+by 2.
+.. 100 is not a prime numbers.
+√101 < 11 and 101 is not divisible by 2, 3, 5 and 7.
+.. 101 is a prime number.
+Hence, 101 is the smallest 3 digit prime number.
+RATIONAL NUMBERS
+The numbers which are expressed in the form of p/q
+where p and q are integers and are coprimes, q≠0 are
+called rational numbers.
+The set of rational numbers is represented by 'Q'.
+e.g.
+3-3
+5'
+7,7,-6 are rational numbers.
+• The decimal expansion of every rational number is
+either terminating or non-terminating repeating.
+1
+1
+8
+e.g. ==0.2==0.333..., =0.181818... etc.
+5
+3
+44
+• The recurring decimal have been given a short notation
+as 0.3333 = 0.3, 0.181818 = 0.18
+Note Zero is a rational number, since we can write 0 = 0/1.
+• Every natural number, whole number and integer is a
+rational number.
+IRRATIONAL NUMBERS
+The number which cannot be expressed in the form p/q,
+where p and q both are integers and q≠0 are known as
+irrational numbers. The irrational numbers when
+expressed in decimal form are in non-terminating and
+non-repeating form. e.g. √2, √5, √7, 0.101005001, etc.
+•
+Here, it is notable that exact value of is not or
+3.14, as
+22
+22
+7
+is a rational number while π is irrational.
+7
+IMPORTANT FACTS
+1. If_a + √b = x + √y, where a and x are rational and
+√চ and √y are irrational, then a = x and b = y.
+2. The sum or difference of a rational and an irrational
+number is irrational number.
+3. The product of rational and irrational number is also
+an irrational number.
+4. If we add, subtract, multiply or divide two irrational
+numbers, we may get an irrational number or rational
+number.
+EXAMPLE 2. The rational number lying between √2
+and √3 is
+49
+α.
+28
+63
+c.
+45
+56
+b.
+35
+85
+d.
+68
+Sol. b. We have, √2 = 1.414... and √3 = 1.732...
+49
+7
+63 7
+=
+- = 1.75,
+=-=1.4
+28
+4
+45 5
+56 8
+85 5
+= - = 1.6,
+=
+= 1.25
+35 5
+68 4
+Clearly, 1.6 lies between √2 and √3.
+56
+Hence, lies between √2 and √3.
+35
+
+MATHEMATICS > Number System
+5
+REAL NUMBERS
+The collection of all rational and all irrational numbers
+together forms the set of real numbers and is denoted by
+'R'. Thus, all natural numbers, whole numbers, integers,
+rational and irrational numbers are real numbers.
+Properties of Real Numbers
+Properties of real numbers are as follows
+General Properties of R
+1. If x and y are two real numbers, then either
+x > y, y> x or x = y.
+2. If x and y are two real numbers, then
+(i) x>y ==<=
+11
+xy
+(iii) x > y ⇒ x + a > y + a
+(ii) x > y = -x < - y
+(iv) x > y ⇒ xa > ya, when a > 0
+3. If xy = 0 ⇒ x = 0 or
+y = 0
+Properties of operations on R
+Let '*' be any operation defined on R.
+1. Closure Property If a ∈ R and b∈ R, then a * b∈ R.
+2. Associative Property If a, b, c ∈ R, then
+a*(b*c)=(a*b)* c.
+3. Commutative Property If a, b ∈ R, then a* b = b* a.
+4. Identity Let 'I' be the identity, then
+I* a = a* I = a ∀ a ∈ R.
+5. Inverse Let a' be the inverse of a, then
+a'* a = a* a' = I ∀ a ∈ R.
+• The above properties hold for addition and
+multiplication on R.
+• The additive identity of R is O and additive inverse of
+a ∈ R is -a.
+• The multiplicative identity of R is 1 and multiplicative
+inverse of a ∈ R is 1/a.
+R is closed for subtraction, if a, b∈ R, then a−be R.
+• If a, b, c ∈ R, then a×(b+c) = (a × b)+(a×c), is the
+distributive property on R.
+Absolute Value of a Real Number
+The absolute value of a real number x is denoted by |x|.
+Thus,
+|3| = 3 and |-4| = 4.
+x, when x > 0
+-x, when
+x = 0
+x<0
+If x is any real number, then |x| = { 0, when
+e.g.
+1. If x = 5,5 = 5, if x = 0, |0 |=0
+If x = -5,-5 = -(-5) = 5
+2. |x-2| = x - 2, if x > 2, | x − 2 | = 0, if x = 2
+|x − 2| = 2 − x, if x < 2
+Some Properties of Absolute Values
+1. x≥0 for all real x.
+2.
+x = a means x = a or x = − a
+3.
+|x|> a means x > a or x < -a
+4. If n = x²; √n = √x2 = |x| = x, if x > 0 = − x, if x < 0
+EXAMPLE 3. Find the value of x which satisfy the
+inequalities | x | ≥ x and 2x - 1 > 3.
+a. All positive number
+b. All positive number greater than 2
+c. All negative number less than -2
+d. All negative number
+Sol. b. x ≥ x is true for all real values of x. Now, consider
+2x-13 or 2x > 4 or x > 2.
+So, the solution set is all positive number greater than 2.
+FACTORS IN SET
+OF INTEGERS
+Let a, b ∈ I, we say that a is a factor of b, if there exists
+an integer p such that b = ap; in short we write a / b read
+it 'a' divides 'b'.
+If a is factor of b, then b is called a multiple of a.
+Properties of factor and multiples
+For real numbers a and b, if b = ac then 'a' is a factor
+'b' and we write a/b.
+(i) a/b, b/c⇒a / c
+(This law is known as transitivity)
+(ii) ala, da∈ R
+(This law is known as reflexivity)
+(iii) a / b and a / c ⇒ a / b + c and a / b − c
+(iv) If p is prime number and p divides ab where a,b are
+integers, then p divides 'a' or p divides 'b'. Thus
+p / ab⇒ p / a or p / b.
+EXAMPLE 4. How many factors of 25 ×36 are perfect
+squares?
+α. 9
+c. 18
+b. 12
+d. 4
+Sol. b. Any factor of this number should be of the form
+2ª x 3b.
+For the factor to be a perfect square a, b have to be even
+a can take values 0, 2, 4 and b can take values 0, 2, 4, 6.
+.. Total number of perfect squares = 3 x 4 = 12

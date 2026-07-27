@@ -3541,6 +3541,49 @@ window.CURRENT_AFFAIRS_DB = {
         "answer": "C",
         "explanation": "The Pradhan Mantri Jan Dhan Yojana (PMJDY) is the scheme focused on financial inclusion through bank accounts."
       }
+    },
+    {
+      "id": "ca-2026-july-unesco-sarnath",
+      "topic": "Art & Culture",
+      "text": "The ancient Buddhist site of Sarnath was officially inscribed on the UNESCO World Heritage List in July 2026. This recognition highlights its profound historical and spiritual significance as the place where Lord Buddha delivered his first sermon.",
+      "details": {
+        "site": "Sarnath",
+        "recognition": "UNESCO World Heritage Tag",
+        "month": "July 2026"
+      },
+      "mcq": {
+        "question": "Which ancient Buddhist site was inscribed on the UNESCO World Heritage List in July 2026?",
+        "options": [
+          "Bodh Gaya",
+          "Sarnath",
+          "Sanchi",
+          "Kushinagar"
+        ],
+        "answer": "Sarnath",
+        "explanation": "Sarnath, where Buddha delivered his first sermon, received the UNESCO World Heritage tag in July 2026."
+      }
+    },
+    {
+      "id": "ca-2026-july-mirabai-chanu",
+      "topic": "Sports",
+      "text": "Indian weightlifter Mirabai Chanu secured a spectacular Gold medal win at the international weightlifting championships held in July 2026, further cementing her status as one of India's greatest athletes.",
+      "details": {
+        "athlete": "Mirabai Chanu",
+        "sport": "Weightlifting",
+        "achievement": "Gold Medal",
+        "month": "July 2026"
+      },
+      "mcq": {
+        "question": "Which Indian athlete won a Gold medal in weightlifting in July 2026?",
+        "options": [
+          "PV Sindhu",
+          "Lovlina Borgohain",
+          "Mirabai Chanu",
+          "Mary Kom"
+        ],
+        "answer": "Mirabai Chanu",
+        "explanation": "Mirabai Chanu secured a Gold medal in weightlifting in July 2026."
+      }
     }
   ]
 };

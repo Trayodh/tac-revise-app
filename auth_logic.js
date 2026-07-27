@@ -228,7 +228,7 @@ function updateUserProfile(user) {
   // Show admin nav item if admin
   const adminNav = document.getElementById('nav-item-admin');
   if (adminNav) {
-    if (user.email === 'trayodh@gmail.com') {
+    if (user.email.toLowerCase() === 'trayodh@gmail.com') {
       adminNav.style.display = 'flex';
     } else {
       adminNav.style.display = 'none';

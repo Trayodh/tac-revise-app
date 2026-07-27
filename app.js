@@ -1678,13 +1678,13 @@ function renderCurrentAffairsHub() {
   // Interactive Cycle Card selector at top of sidebar
   const cycleCard = document.createElement("div");
   cycleCard.className = "panel glow";
-  cycleCard.style.cssText = "padding: 12px; margin-bottom: 16px; background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.2); border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.2s; user-select: none;";
+  cycleCard.style.cssText = "padding: 12px 4px; margin-bottom: 16px; background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.2); border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.2s; user-select: none; word-break: normal;";
   
   const config = CA_CYCLES_CONFIG[activeCaCycle];
   cycleCard.innerHTML = `
-    <div style="font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">CURRENT CYCLE</div>
-    <div style="font-size: 1.1rem; color: var(--accent); font-weight: 800; font-family: var(--font-mono); margin-bottom: 6px;">${config.label}</div>
-    <div style="font-size: 0.75rem; color: var(--text-secondary); font-family: var(--font-mono); line-height: 1.4;">${config.shortLabel.replace(/\n/g, '<br>')}</div>
+    <div style="font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; white-space: nowrap;">CURRENT CYCLE</div>
+    <div style="font-size: 1.05rem; color: var(--accent); font-weight: 800; font-family: var(--font-mono); margin-bottom: 6px; white-space: nowrap;">${config.label}</div>
+    <div style="font-size: 0.75rem; color: var(--text-secondary); font-family: var(--font-mono); line-height: 1.4; white-space: nowrap;">${config.shortLabel.replace(/\n/g, '<br>')}</div>
   `;
   
   cycleCard.addEventListener('click', () => {
@@ -4380,7 +4380,7 @@ function toggleCurrentAffairsMode(mode) {
 
   if (mode === "monthly") {
     activateBtn(btnMonthly);
-    if (monthlyContainer) monthlyContainer.style.display = "flex";
+    if (monthlyContainer) monthlyContainer.style.display = "";
   } else if (mode === "visits") {
     activateBtn(btnVisits);
     if (visitsContainer) visitsContainer.style.display = "block";
@@ -4659,7 +4659,7 @@ function renderCaAwardsTable() {
     return;
   }
 
-  const th = (txt) => `<th style="padding:12px; border:1px solid var(--border); text-align: left;">${txt}</th>`;
+  const th = (txt) => `<th style="padding:12px; border:1px solid var(--border); text-align: left; white-space: nowrap;">${txt}</th>`;
   const td = (txt) => `<td style="padding:10px; border:1px solid var(--border);">${txt}</td>`;
   const headerRow = `<tr style="background-color: rgba(34,197,94,0.15); color: var(--accent); font-weight: bold; border-bottom: 2px solid var(--border);">` +
     th("Award Name") + th("Category of Work") + th("Work Name") + th("Recipient") + th("Recipient's Country") + th("Giving Country") + `</tr>`;
@@ -7157,11 +7157,8 @@ function renderArmouryBreadcrumb() {
     const breadcrumb = document.getElementById('armoury-breadcrumb');
     let html = `<span onclick="initQuestionArmoury()">Question Armoury</span>`;
     
-    if (currentArmourySubject) {
-        html += ` &nbsp;>&nbsp; <span onclick="openArmourySubject('${currentArmourySubject}')">${currentArmourySubject}</span>`;
-    }
-    if (currentArmouryChapter) {
-        html += ` &nbsp;>&nbsp; <span>${currentArmouryChapter}</span>`;
+    if (currentArmourySubject && currentArmouryChapter) {
+        html += ` &nbsp;>&nbsp; <span>${currentArmourySubject}</span> &nbsp;>&nbsp; <span>${currentArmouryChapter}</span>`;
     }
     
     breadcrumb.innerHTML = html;
@@ -7172,7 +7169,8 @@ function renderArmourySubjects() {
     document.getElementById('load-more-btn').style.display = 'none';
     
     const nav = document.getElementById('armoury-navigation');
-    nav.style.display = 'grid';
+    nav.style.display = 'block'; // Use block for accordion
+    nav.className = ''; // Remove grid layout
     nav.innerHTML = '';
     
     const subjects = Object.keys(window.EXTRA_QUESTION_BANK || {});
@@ -7183,51 +7181,73 @@ function renderArmourySubjects() {
             count += chapters[c].length;
         }
         
-        const card = document.createElement('div');
-        card.className = 'subject-card';
-        card.style.cssText = 'background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 12px; cursor: pointer; transition: all 0.2s ease;';
-        card.onmouseover = () => { card.style.background = 'rgba(255,255,255,0.1)'; card.style.borderColor = 'var(--accent)'; };
-        card.onmouseleave = () => { card.style.background = 'rgba(255,255,255,0.05)'; card.style.borderColor = 'rgba(255,255,255,0.1)'; };
-        card.onclick = () => openArmourySubject(subject);
-        card.innerHTML = `<h3 style="margin-bottom: 4px; font-size: 1.1rem; color: var(--accent);">${subject}</h3><p style="margin-top:5px; font-size:12px; color:var(--text-muted);">${count} Questions</p>`;
-        nav.appendChild(card);
+        const accordionGroup = document.createElement('div');
+        accordionGroup.className = 'accordion-group';
+        
+        const header = document.createElement('div');
+        header.className = 'accordion-header';
+        header.innerHTML = `
+            <div style="display:flex; flex-direction:column; gap:2px;">
+                <span style="font-weight:600;">${subject}</span>
+                <span style="font-size:0.7rem; color:var(--text-muted); font-family:var(--font-mono);">${count} Questions</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        `;
+        
+        const content = document.createElement('div');
+        content.className = 'accordion-content';
+        
+        for (let chapter in chapters) {
+            const chCount = chapters[chapter].length;
+            const chapterDiv = document.createElement('div');
+            chapterDiv.style.margin = "12px 0 12px 4px";
+            chapterDiv.style.borderLeft = "1px solid rgba(255,255,255,0.04)";
+            chapterDiv.style.paddingLeft = "8px";
+            
+            const btn = document.createElement('div');
+            btn.className = 'topic-btn';
+            btn.style.display = "flex";
+            btn.style.justifyContent = "space-between";
+            btn.style.alignItems = "center";
+            btn.onclick = (e) => {
+                e.stopPropagation();
+                openArmouryChapter(subject, chapter);
+            };
+            btn.innerHTML = `
+                <span style="font-size:0.85rem;">${chapter}</span>
+                <span style="font-size:0.7rem; color:var(--text-muted); font-family:var(--font-mono);">${chCount} Qs</span>
+            `;
+            chapterDiv.appendChild(btn);
+            content.appendChild(chapterDiv);
+        }
+        
+        header.addEventListener('click', () => {
+            const isOpen = accordionGroup.classList.contains('open');
+            if (isOpen) {
+                accordionGroup.classList.remove('open');
+            } else {
+                accordionGroup.classList.add('open');
+            }
+        });
+        
+        accordionGroup.appendChild(header);
+        accordionGroup.appendChild(content);
+        nav.appendChild(accordionGroup);
     });
 }
 
-function openArmourySubject(subject) {
+function openArmouryChapter(subject, chapter) {
     currentArmourySubject = subject;
-    currentArmouryChapter = null;
-    renderArmouryBreadcrumb();
-    
-    document.getElementById('bank-container').style.display = 'none';
-    document.getElementById('load-more-btn').style.display = 'none';
-    
-    const nav = document.getElementById('armoury-navigation');
-    nav.style.display = 'grid';
-    nav.innerHTML = '';
-    
-    const chapters = window.EXTRA_QUESTION_BANK[subject] || {};
-    Object.keys(chapters).forEach(chapter => {
-        const count = chapters[chapter].length;
-        const card = document.createElement('div');
-        card.className = 'subject-card';
-        card.style.cssText = 'background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 12px; cursor: pointer; transition: all 0.2s ease;';
-        card.onmouseover = () => { card.style.background = 'rgba(255,255,255,0.1)'; card.style.borderColor = 'var(--accent)'; };
-        card.onmouseleave = () => { card.style.background = 'rgba(255,255,255,0.05)'; card.style.borderColor = 'rgba(255,255,255,0.1)'; };
-        card.onclick = () => openArmouryChapter(chapter);
-        card.innerHTML = `<h3 style="margin-bottom: 4px; font-size: 1.1rem; color: var(--accent);">${chapter}</h3><p style="margin-top:5px; font-size:12px; color:var(--text-muted);">${count} Questions</p>`;
-        nav.appendChild(card);
-    });
-}
-
-function openArmouryChapter(chapter) {
     currentArmouryChapter = chapter;
     renderArmouryBreadcrumb();
     
     document.getElementById('armoury-navigation').style.display = 'none';
     document.getElementById('bank-container').style.display = 'block';
+    document.getElementById('load-more-btn').style.display = 'inline-block';
     
-    currentBankPool = window.EXTRA_QUESTION_BANK[currentArmourySubject][chapter] || [];
+    currentBankPool = window.EXTRA_QUESTION_BANK[currentArmourySubject][currentArmouryChapter] || [];
     currentBankPage = 0;
     
     const container = document.getElementById('bank-container');
@@ -7708,22 +7728,22 @@ function renderCaSportsTable() {
   }
 
   const rows = sports.map(s => 
-    `<tr>
-      <td style="padding: 12px; border-bottom: 1px solid var(--border); color: var(--text-primary); font-weight: 500;">${s.event || '-'}</td>
-      <td style="padding: 12px; border-bottom: 1px solid var(--border); color: var(--accent);">${s.winner || '-'}</td>
-      <td style="padding: 12px; border-bottom: 1px solid var(--border); color: var(--text-secondary);">${s.country || '-'}</td>
-      <td style="padding: 12px; border-bottom: 1px solid var(--border); color: var(--text-secondary);">${s.placeHeld || '-'}</td>
+    `<tr style="border-bottom: 1px solid var(--border);">
+      <td style="padding: 12px; color: var(--text-primary); font-weight: 500;">${s.event || '-'}</td>
+      <td style="padding: 12px; color: var(--accent);">${s.winner || '-'}</td>
+      <td style="padding: 12px; color: var(--text-secondary);">${s.country || '-'}</td>
+      <td style="padding: 12px; color: var(--text-secondary);">${s.placeHeld || '-'}</td>
     </tr>`
   ).join('');
 
   wrapper.innerHTML = `
-    <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+    <table style="width: 100%; min-width: 800px; border-collapse: collapse; text-align: left; font-size: 0.95rem; table-layout: fixed;">
       <thead style="background: rgba(255,255,255,0.02);">
-        <tr>
-          <th style="padding: 15px 12px; border-bottom: 1px solid var(--border); color: var(--text-muted); font-weight: 600;">Event / Sport</th>
-          <th style="padding: 15px 12px; border-bottom: 1px solid var(--border); color: var(--text-muted); font-weight: 600;">Winner(s)</th>
-          <th style="padding: 15px 12px; border-bottom: 1px solid var(--border); color: var(--text-muted); font-weight: 600;">Country</th>
-          <th style="padding: 15px 12px; border-bottom: 1px solid var(--border); color: var(--text-muted); font-weight: 600;">Place Held</th>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <th style="padding: 15px 12px; color: var(--text-muted); font-weight: 600; width: 35%;">Event / Sport</th>
+          <th style="padding: 15px 12px; color: var(--text-muted); font-weight: 600; width: 25%;">Winner(s)</th>
+          <th style="padding: 15px 12px; color: var(--text-muted); font-weight: 600; width: 15%;">Country</th>
+          <th style="padding: 15px 12px; color: var(--text-muted); font-weight: 600; width: 25%;">Place Held</th>
         </tr>
       </thead>
       <tbody>${rows}</tbody>

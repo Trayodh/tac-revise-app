@@ -1113,7 +1113,7 @@ h2 {
 /* Current Affairs (CA) Screen */
 .ca-layout {
   display: grid;
-  grid-template-columns: 75px 1fr;
+  grid-template-columns: 110px 1fr;
   gap: 24px;
 }
 

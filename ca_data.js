@@ -340,6 +340,12 @@ window.CA_DATES_DATA = [
 // =============================================================================
 window.CA_SPORTS_DATA = [
   {
+    event: "Weightlifting Championships 2026",
+    winner: "Mirabai Chanu (Gold)",
+    country: "India",
+    placeHeld: "International"
+  },
+  {
     event: "FIFA World Cup 2026",
     winner: "Spain",
     country: "Spain",
