@@ -241,6 +241,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   let hasSession = false;
 
   if (window.supabaseClient) {
+    // Subscribe to auth state changes — fires immediately on load and on sign in/out
+    window.supabaseClient.auth.onAuthStateChange(async (event, session) => {
+      if (session && session.user) {
+        updateUserProfile(session.user);
+      }
+    });
+
     const { data: { session } } = await window.supabaseClient.auth.getSession();
     if (session) {
       // Fetch fresh profile data
@@ -293,6 +300,19 @@ document.addEventListener('DOMContentLoaded', async () => {
       landingPage.style.display = 'none';
     }
   }
+
+  // Extra fallback: re-check admin status after 1.5s to handle any race conditions
+  setTimeout(() => {
+    const adminNav = document.getElementById('nav-item-admin');
+    if (adminNav && adminNav.style.display !== 'flex') {
+      // Check STATE and Supabase session
+      if (typeof STATE !== 'undefined' && STATE.activeProfile && STATE.activeProfile.email) {
+        if (STATE.activeProfile.email.toLowerCase() === 'trayodh@gmail.com') {
+          adminNav.style.display = 'flex';
+        }
+      }
+    }
+  }, 1500);
 });
 
 
