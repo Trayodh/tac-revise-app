@@ -64,6 +64,12 @@ window.CA_VISITS_DATA = [
     "deals": "This signifies India's growing capabilities in indigenous defence manufacturing and its ability to contribute to global security through technology exports. It strengthens India's strategic influence and fosters self-reliance, supporting the 'Make in India' initiative in the defence sector."
   },
   {
+    "visit": "Commonwealth Games 2026 (CWG 2026) — Glasgow, Scotland",
+    "period": "July 2026",
+    "purpose": "India sent a 126-athlete contingent (191 members total including officials) to the 2026 Commonwealth Games in Glasgow (July 23–Aug 2). The Games featured only 10 sports — notably excluding shooting, wrestling, badminton, squash, hockey, and table tennis, which has been a major point of contention for India. CWG 2026 is the most scaled-back edition in history.",
+    "deals": "Opening Ceremony: July 23 at OVO Hydro Arena, Glasgow. Mirabai Chanu was India's flag bearer; boxer Lovlina Borgohain was the ceremonial baton bearer. Key achievement: Mirabai Chanu won Gold (Women's Weightlifting 48kg), becoming the FIRST Indian weightlifter to win THREE consecutive CWG gold medals. India ranked 8th in the medal tally as of July 27. Excluded sports (shooting, wrestling etc.) remain a strong concern for India's traditionally dominant areas."
+  },
+  {
     "visit": "PM Modi's Visit to Indonesia (Jakarta)",
     "period": "July 2026",
     "purpose": "State visit (July 6–8) at the invitation of President Prabowo Subianto. First bilateral visit since the relationship was elevated to a Comprehensive Strategic Partnership.",
@@ -410,5 +416,37 @@ window.CA_SPORTS_DATA = [
     winner: "China",
     country: "China",
     placeHeld: "Horsens, Denmark"
+  },
+  {
+    event: "CWG 2026 (Commonwealth Games) — Weightlifting Women's 48kg (Gold)",
+    winner: "Mirabai Chanu (Gold)",
+    country: "India",
+    placeHeld: "Glasgow, Scotland",
+    note: "Became the FIRST Indian weightlifter to win THREE consecutive CWG gold medals (2018, 2022, 2026). She was also India's flag bearer at the Opening Ceremony."
+  },
+  {
+    event: "CWG 2026 (Commonwealth Games) — Weightlifting Men's 60kg (Silver)",
+    winner: "Rishikanta Singh (Silver)",
+    country: "India",
+    placeHeld: "Glasgow, Scotland"
+  },
+  {
+    event: "CWG 2026 (Commonwealth Games) — Weightlifting Men's 65kg (Silver)",
+    winner: "Raja Muthupandi (Silver)",
+    country: "India",
+    placeHeld: "Glasgow, Scotland"
+  },
+  {
+    event: "CWG 2026 (Commonwealth Games) — Para Powerlifting Men's Heavyweight (Bronze)",
+    winner: "Jhandu Kumar (Bronze)",
+    country: "India",
+    placeHeld: "Glasgow, Scotland"
+  },
+  {
+    event: "CWG 2026 (Commonwealth Games) — Overall India Medal Tally",
+    winner: "India — 1 Gold, 2 Silver, 1 Bronze (4 medals, Rank 8th as of July 27)",
+    country: "India",
+    placeHeld: "Glasgow, Scotland",
+    note: "Sports EXCLUDED from CWG 2026 (major concern for India): Shooting, Wrestling, Badminton, Squash, Hockey, Cricket, Table Tennis. Only 10 sports included: Athletics, Boxing, Cycling, Weightlifting, Judo, 3x3 Basketball, Netball, Gymnastics, Bowls, Para events."
   }
 ];
