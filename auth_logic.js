@@ -338,7 +338,12 @@ window.confirmBranchSelection = function() {
   // Hide modal
   document.getElementById('onboarding-modal').style.display = 'none';
   
-  // Update UI Profile Widget
+  // Update UI Profile Widget and Admin Dashboard
+  if (typeof updateUserProfile === 'function' && typeof STATE !== 'undefined' && STATE.activeProfile) {
+    updateUserProfile(STATE.activeProfile);
+  }
+  
+  // Update UI Profile Widget specific to branch selection
   const infoContainer = document.querySelector('.profile-info');
   if (infoContainer && STATE.activeProfile.email) {
     const branchDisplay = window.selectedSignupBranch === 'army' ? 'Indian Army' : window.selectedSignupBranch === 'navy' ? 'Indian Navy' : 'Air Force';
