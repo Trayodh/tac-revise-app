@@ -2826,7 +2826,11 @@ document.querySelectorAll('input[name="ai-mode"]').forEach(radio => {
   radio.addEventListener('change', (e) => {
     const imgContainer = document.getElementById('ai-image-upload-container');
     if (imgContainer) {
-      imgContainer.style.display = e.target.value === 'solve' ? 'flex' : 'none';
+      imgContainer.style.display = (e.target.value === 'solve' || e.target.value === 'recon') ? 'flex' : 'none';
+    }
+    const topicInputRow = document.querySelector('.ai-query-input-row');
+    if (topicInputRow) {
+       topicInputRow.style.display = e.target.value === 'recon' ? 'none' : 'flex';
     }
   });
 });
@@ -2864,10 +2868,94 @@ document.getElementById("ai-generate-btn").addEventListener("click", async () =>
 
   if (mode === "questions") {
     triggerAiQuestionGeneration(templateKey, query);
-  } else {
+  } else if (mode === "solve") {
     await triggerAiSolveDoubt(templateKey, query);
+  } else if (mode === "recon") {
+    await triggerAiVisualRecon();
   }
 });
+
+async function triggerAiVisualRecon() {
+  const fileInput = document.getElementById("ai-doubt-image-input");
+  const hasImage = fileInput && fileInput.files && fileInput.files[0];
+  
+  if (!hasImage) {
+    alert("Cadet, you must attach an image for Visual Reconnaissance.");
+    return;
+  }
+  
+  const area = document.getElementById("ai-result-area");
+  area.style.display = "block";
+  area.className = "ai-response-area loading";
+  area.innerHTML = `
+    <div style="text-align: center; margin-top: 20px;">
+      <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 40px; height: 40px; border-width: 4px; margin: 0 auto 16px;"></div>
+      <p style="color: var(--accent); font-family: var(--font-logo); font-weight: 600;">INITIATING VISUAL RECONNAISSANCE...</p>
+      <p style="color: var(--text-muted); font-size: 0.9rem;">Dronacharya AI is analyzing the asset...</p>
+    </div>
+  `;
+
+  // Read the image
+  const file = fileInput.files[0];
+  let imagePart = null;
+  const reader = new FileReader();
+  const fileData = await new Promise((resolve) => {
+    reader.onload = (e) => resolve(e.target.result);
+    reader.readAsDataURL(file);
+  });
+  const base64Data = fileData.split(',')[1];
+  imagePart = { inlineData: { data: base64Data, mimeType: file.type } };
+
+  const prompt = `You are Dronacharya AI, a strict Military Guru for Defence Aspirants.
+The cadet has uploaded an image of a military asset, map, or strategic location.
+Analyze the image. Then, generate a short, high-yield, exam-oriented quiz question about what is in the image.
+Do NOT just tell them what the image is immediately. Give them a multiple-choice question testing their knowledge about it (e.g. its manufacturer, its range, its strategic location, or the war it was used in).
+Provide the question, 4 options, and then a hidden section (using HTML <details> and <summary> tags) containing the correct answer and a highly detailed briefing about the asset.
+Format entirely in clean HTML.`;
+
+  try {
+    const payload = {
+      model: 'gemini-2.5-flash',
+      contents: [{
+        parts: [
+          { text: prompt },
+          imagePart
+        ]
+      }]
+    };
+    
+    const response = await fetch('/api/gemini', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    if (!response.ok) throw new Error("API Error");
+    const data = await response.json();
+    let reportHtml = (data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
+
+    area.className = "ai-response-area fade-in";
+    area.innerHTML = `
+      <div style="padding: 20px;">
+        <h3 style="color: var(--accent); margin-bottom: 20px; display:flex; align-items:center; gap:8px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+          </svg>
+          VISUAL RECONNAISSANCE QUIZ
+        </h3>
+        <div style="line-height: 1.8; font-size: 1rem; color: var(--text-primary);">
+          ${reportHtml}
+        </div>
+      </div>
+    `;
+
+  } catch (err) {
+    console.error("Recon Error:", err);
+    area.className = "ai-response-area fade-in";
+    area.innerHTML = `<p style="color: var(--danger);">Failed to retrieve recon data. Try uploading a different image or check network connection.</p>`;
+  }
+}
 
 async function triggerAiQuestionGeneration(templateKey, customQueryText = "") {
   const area = document.getElementById("ai-result-area");
@@ -4365,6 +4453,7 @@ function toggleCurrentAffairsMode(mode) {
   const awardsContainer  = document.getElementById("ca-awards-container");
   const exercisesContainer = document.getElementById("ca-exercises-container");
   const sportsContainer  = document.getElementById("ca-sports-container");
+  const sitrepContainer  = document.getElementById("ca-view-sitrep"); // newly added
 
   const btnMonthly = document.getElementById("btn-ca-mode-monthly");
   const btnVisits  = document.getElementById("btn-ca-mode-visits");
@@ -4373,10 +4462,11 @@ function toggleCurrentAffairsMode(mode) {
   const btnAwards  = document.getElementById("btn-ca-mode-awards");
   const btnExercises = document.getElementById("btn-ca-mode-exercises");
   const btnSports  = document.getElementById("btn-ca-mode-sports");
+  const btnSitrep  = document.getElementById("btn-ca-mode-sitrep"); // newly added
 
-  [monthlyContainer, visitsContainer, ftaContainer, datesContainer, awardsContainer, exercisesContainer, sportsContainer].forEach(el => { if (el) el.style.display = "none"; });
+  [monthlyContainer, visitsContainer, ftaContainer, datesContainer, awardsContainer, exercisesContainer, sportsContainer, sitrepContainer].forEach(el => { if (el) el.style.display = "none"; });
   
-  [btnMonthly, btnVisits, btnFta, btnDates, btnAwards, btnExercises, btnSports].forEach(btn => { 
+  [btnMonthly, btnVisits, btnFta, btnDates, btnAwards, btnExercises, btnSports, btnSitrep].forEach(btn => { 
     if (btn) {
       btn.classList.remove("active");
       btn.style.background = "rgba(255,255,255,0.05)";
@@ -4395,6 +4485,9 @@ function toggleCurrentAffairsMode(mode) {
   if (mode === "monthly") {
     activateBtn(btnMonthly);
     if (monthlyContainer) monthlyContainer.style.display = "";
+  } else if (mode === "sitrep") {
+    activateBtn(btnSitrep);
+    if (sitrepContainer) sitrepContainer.style.display = "block";
   } else if (mode === "visits") {
     activateBtn(btnVisits);
     if (visitsContainer) visitsContainer.style.display = "block";
@@ -4424,7 +4517,68 @@ function toggleCurrentAffairsMode(mode) {
 }
 window.toggleCurrentAffairsMode = toggleCurrentAffairsMode;
 
-let currentCaMode = 'monthly';
+window.generateDailySitrep = async function() {
+  const container = document.getElementById("ca-sitrep-container");
+  if (!container) return;
+  const btn = document.getElementById("btn-generate-sitrep");
+
+  container.style.display = "block";
+  container.className = "panel loading";
+  container.innerHTML = `
+    <div style="text-align: center; margin: 40px 0;">
+      <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 40px; height: 40px; border-width: 4px; margin: 0 auto 16px;"></div>
+      <p style="color: var(--accent); font-family: var(--font-logo); font-weight: 600;">ESTABLISHING UPLINK TO DRONACHARYA AI...</p>
+      <p style="color: var(--text-muted); font-size: 0.9rem;">Compiling global defense posture and geopolitical developments...</p>
+    </div>
+  `;
+  if (btn) btn.disabled = true;
+
+  const dateStr = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+  const promptText = `You are Dronacharya AI, acting as a military intelligence briefer for Indian Defence Aspirants (NDA/CDS).
+Today's date is ${dateStr}.
+Generate a highly engaging, 5-minute "Situation Report" (SITREP) covering simulated or real recent developments in:
+1. Indian Armed Forces (New acquisitions, deployments, or changes)
+2. Global Geopolitics (Major international conflicts or treaties)
+3. Defence Technology (Missiles, Space, Cyber)
+
+Format the output cleanly in HTML (without markdown code blocks).
+Use headings like <h3 style="color:var(--accent);">, paragraphs, and unordered lists.
+Keep it strictly under 500 words, action-oriented, and highly relevant to UPSC defence exams.
+
+At the very end of the report, include exactly 3 Multiple Choice Questions based on the SITREP you just generated, formatted as a simple HTML list with the answers bolded.`;
+
+  try {
+    const response = await fetch('/api/gemini', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] })
+    });
+    if (!response.ok) throw new Error("API Error");
+    const data = await response.json();
+    
+    // Clean up if AI hallucinates markdown
+    let reportHtml = (data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
+
+    container.className = "panel fade-in";
+    container.innerHTML = `
+      <div style="border-bottom: 1px dashed rgba(255,255,255,0.1); padding-bottom: 16px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
+        <span style="font-weight: bold; color: var(--accent); font-family: var(--font-mono); font-size: 0.85rem;">[ DAILY INTELLIGENCE BRIEFING ]</span>
+        <span style="font-size: 0.85rem; color: var(--text-muted);">${dateStr}</span>
+      </div>
+      <div style="line-height: 1.8; font-size: 0.95rem; color: var(--text-primary);">
+        ${reportHtml}
+      </div>
+    `;
+  } catch (err) {
+    console.error("Sitrep Error:", err);
+    container.className = "panel fade-in";
+    container.innerHTML = `<p style="color: var(--danger);">Failed to retrieve SITREP from Dronacharya AI. Verify connection.</p>`;
+  } finally {
+    if (btn) btn.disabled = false;
+  }
+};
+
+let currentCaMode = 'sitrep'; // default to sitrep
 
 let isFetchingMilitaryExercises = false;
 let hasFetchedMilitaryExercises = false;
@@ -6376,6 +6530,70 @@ function renderWeeklyPlanner() {
     container.appendChild(card);
   });
 }
+
+window.requestStrategyBrief = async function() {
+  const container = document.getElementById("weekly-planner-container");
+  if (!container) return;
+
+  const btn = document.getElementById("btn-req-strategy");
+  if (btn) {
+    btn.disabled = true;
+    btn.innerHTML = `<div class="cbt-spinner" style="width:12px;height:12px;border-width:2px;display:inline-block;vertical-align:middle;margin-right:4px;"></div> Analyzing...`;
+  }
+
+  // Get weak topics
+  let weakAreas = [];
+  if (STATE.weaknessStats) {
+    weakAreas = Object.entries(STATE.weaknessStats)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+      .map(entry => entry[0]);
+  }
+
+  const promptText = `You are Dronacharya AI, a strict military strategist.
+Generate a 7-day study plan (Monday to Sunday) for an NDA/CDS cadet.
+Their current weak areas (topics they failed in CBT Mocks) are: ${weakAreas.length > 0 ? weakAreas.join(', ') : 'None yet. Assume standard syllabus.'}
+
+You MUST return ONLY a raw JSON object with this exact structure, containing NO markdown formatting, NO backticks, and NO other text:
+{
+  "Monday": { "subject": "Subject Name", "topic": "Specific Topic", "completed": false },
+  "Tuesday": { "subject": "Subject Name", "topic": "Specific Topic", "completed": false },
+  "Wednesday": { "subject": "Subject Name", "topic": "Specific Topic", "completed": false },
+  "Thursday": { "subject": "Subject Name", "topic": "Specific Topic", "completed": false },
+  "Friday": { "subject": "Subject Name", "topic": "Specific Topic", "completed": false },
+  "Saturday": { "subject": "Subject Name", "topic": "Specific Topic", "completed": false },
+  "Sunday": { "subject": "Subject Name", "topic": "Specific Topic", "completed": false }
+}
+Make sure to weave their weak areas into the plan.`;
+
+  try {
+    const response = await fetch('/api/gemini', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] })
+    });
+
+    if (!response.ok) throw new Error("API Error");
+    const data = await response.json();
+    let jsonStr = data.text || "";
+    
+    // Clean up potential markdown formatting in response
+    jsonStr = jsonStr.replace(/\`\`\`json/g, "").replace(/\`\`\`/g, "").trim();
+    
+    const newPlan = JSON.parse(jsonStr);
+    localStorage.setItem("tac-weekly-plan", JSON.stringify(newPlan));
+    
+  } catch (err) {
+    console.error("Failed to generate strategy brief", err);
+    alert("Dronacharya AI could not generate the strategy at this time.");
+  } finally {
+    if (btn) {
+      btn.disabled = false;
+      btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display:inline; vertical-align:middle; margin-right:4px;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg> AI Strategy Brief`;
+    }
+    renderWeeklyPlanner();
+  }
+};
 
 function toggleDayPlan(day) {
   let plan = JSON.parse(localStorage.getItem("tac-weekly-plan"));

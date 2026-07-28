@@ -339,7 +339,15 @@
         <div class="panel glow" style="margin-bottom: 24px; border-left: 4px solid var(--accent); background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(34, 197, 94, 0.03) 100%);">
           <div class="panel-title" style="margin-bottom: 12px; display:flex; justify-content:space-between; align-items:center;">
             <span>WEEKLY MISSION SCHEDULER &amp; PLANNER</span>
-            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">LOCAL DATA PERSISTENT</span>
+            <div style="display: flex; gap: 8px; align-items: center;">
+              <button class="btn-primary" onclick="requestStrategyBrief()" id="btn-req-strategy" style="padding: 4px 10px; font-size: 0.75rem; width: auto; background: var(--accent); color: #000; border: none; border-radius: 4px; cursor: pointer;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display:inline; vertical-align:middle; margin-right:4px;">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                AI Strategy Brief
+              </button>
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">LOCAL DATA PERSISTENT</span>
+            </div>
           </div>
           <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 16px;">
             Assign military-style daily study targets to schedule your revision. Click any day to edit target.
@@ -562,7 +570,12 @@
         
         <!-- Tab selector for Daily Intel Briefing Hub -->
         <div id="ca-mode-selector" style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 10px; margin-top: 16px; margin-bottom: 24px; padding-bottom: 12px; -webkit-overflow-scrolling: touch;">
-          <div class="subject-card active" id="btn-ca-mode-monthly" onclick="toggleCurrentAffairsMode('monthly')" style="flex: 1 1 0; min-width: 120px; background: rgba(34,197,94,0.1); border: 1px solid var(--accent); padding: 12px 8px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+          <div class="subject-card active" id="btn-ca-mode-sitrep" onclick="toggleCurrentAffairsMode('sitrep')" style="flex: 1 1 0; min-width: 120px; background: rgba(34,197,94,0.1); border: 1px solid var(--accent); padding: 12px 8px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+            <div style="font-size: 1.8rem; margin-bottom: 8px;">🛰️</div>
+            <h3 style="margin-bottom: 4px; font-size: 0.85rem; line-height: 1.2;">AI Daily SITREP</h3>
+            <div style="font-size: 0.65rem; color: var(--text-muted); line-height: 1.2;">Generative AI Brief</div>
+          </div>
+          <div class="subject-card" id="btn-ca-mode-monthly" onclick="toggleCurrentAffairsMode('monthly')" style="flex: 1 1 0; min-width: 120px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 12px 8px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
             <div style="font-size: 1.8rem; margin-bottom: 8px;">📅</div>
             <h3 style="margin-bottom: 4px; font-size: 0.85rem; line-height: 1.2;">Monthly Feed</h3>
             <div style="font-size: 0.65rem; color: var(--text-muted); line-height: 1.2;">Daily Intel Briefings</div>
@@ -596,6 +609,23 @@
             <div style="font-size: 1.8rem; margin-bottom: 8px;">🏆</div>
             <h3 style="margin-bottom: 4px; font-size: 0.85rem; line-height: 1.2;">Sports</h3>
             <div style="font-size: 0.65rem; color: var(--text-muted); line-height: 1.2;">Winners & Events</div>
+          </div>
+        </div>
+
+        <!-- NEW AI SITREP VIEW -->
+        <div id="ca-view-sitrep" class="ca-view active">
+          <div class="dashboard-header" style="margin-bottom: 24px; text-align: center;">
+            <h2 style="font-size: 1.5rem; color: var(--accent); margin-bottom: 8px;">Dronacharya Daily SITREP</h2>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto; font-size: 0.9rem;">Generate a fresh Situation Report covering today's top defence and geopolitical developments.</p>
+            <button class="btn-primary" onclick="generateDailySitrep()" id="btn-generate-sitrep" style="margin-top: 16px; padding: 10px 20px; font-size: 1rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display:inline; vertical-align:middle; margin-right:6px;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              Request Intelligence Brief
+            </button>
+          </div>
+          <div id="ca-sitrep-container" style="display: none;" class="panel">
+             <!-- Content injected here -->
           </div>
         </div>
 
@@ -824,7 +854,7 @@
           <div class="panel">
             <div class="panel-title">Enter Concept / Topic</div>
             <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 0.9rem;">
-              Type any topic or concept name. Select <strong>Generate Questions</strong> for an MCQ set with solutions, or <strong>Solve Doubt</strong> for a comprehensive AI-generated explanation of the entire topic. Both modes are <span style="color: var(--accent); font-weight: 600;">completely free</span> — no tokens deducted.
+              Type any topic or concept name. Select <strong>Generate Questions</strong> for an MCQ set with solutions, <strong>Solve Doubt</strong> for a comprehensive AI-generated explanation, or <strong>Visual Reconnaissance</strong> to upload an image and be quizzed on it. Both modes are <span style="color: var(--accent); font-weight: 600;">completely free</span> — no tokens deducted.
             </p>
             
             <div class="ai-suggestions" id="ai-suggestion-container">
@@ -844,6 +874,7 @@
   <div class="ai-mode-selector">
     <label><input type="radio" name="ai-mode" value="questions" checked> Generate Questions</label>
     <label><input type="radio" name="ai-mode" value="solve"> Solve Doubt</label>
+    <label><input type="radio" name="ai-mode" value="recon"> Visual Reconnaissance Quiz <span style="font-size:0.6rem; font-weight:bold; background:var(--accent); color:#000; padding:1px 4px; border-radius:3px;">NEW</span></label>
   </div>
   <div class="ai-image-upload-row" id="ai-image-upload-container" style="display: none; margin-top: 12px; align-items: center; gap: 12px; border: 1px dashed var(--border); padding: 12px; border-radius: 8px; background: rgba(0,0,0,0.1);">
     <label style="font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); white-space: nowrap; display: flex; align-items: center; gap: 6px;">
