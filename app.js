@@ -213,7 +213,7 @@ window.updateBreadcrumbs = function() {
   let breadcrumbs = [];
   
   // Base Home
-  breadcrumbs.push({ label: 'Home', action: () => switchScreen('dashboard') });
+  breadcrumbs.push({ label: 'Home', action: () => { window.location.hash = 'dashboard'; } });
   
   const screenId = typeof STATE !== 'undefined' ? STATE.currentScreen : 'dashboard';
   
@@ -232,9 +232,9 @@ window.updateBreadcrumbs = function() {
   if (screenId !== 'dashboard' && screenNames[screenId]) {
     breadcrumbs.push({ label: screenNames[screenId], action: () => {
       if (screenId === 'notes') {
-        window.backToNotesSubjects();
+        window.location.hash = 'notes';
       } else {
-        switchScreen(screenId);
+        window.location.hash = screenId;
       }
     }});
   }
@@ -352,7 +352,8 @@ window.updateBreadcrumbs = function() {
   }
 };
 
-window.backToNotesSubjects = function() {
+window.backToNotesSubjects = function(pushState = true) {
+  if (pushState) window.location.hash = 'notes';
   currentSubjectFilter = 'all';
   const subjectsView = document.getElementById('notes-view-subjects');
   const chaptersView = document.getElementById('notes-view-chapters');
@@ -444,7 +445,10 @@ window.stopAdminPoller = function() {
 };
 // -----------------------------
 
-function switchScreen(screenId) {
+function switchScreen(screenId, pushState = true) {
+  if (pushState) {
+    history.pushState(null, null, '#' + screenId);
+  }
   // --- ROUTE MIDDLEWARE GUARD ---
   if (typeof STATE !== 'undefined' && STATE.activeProfile) {
     const status = STATE.activeProfile.status;
@@ -545,7 +549,7 @@ document.querySelectorAll(".nav-item").forEach(item => {
   item.addEventListener("click", (e) => {
     e.preventDefault();
     const screenId = item.getAttribute("data-screen");
-    switchScreen(screenId);
+    window.location.hash = screenId;
   });
 });
 
@@ -894,12 +898,13 @@ function getTopicExams(topicId, subjectId) {
 }
 
 // -- Drill-Down View Logic for Notes --
-window.openNotesSubject = function(subjectId) {
-  if (STATE.currentScreen !== 'notes') {
-    switchScreen('notes');
-  }
-  currentSubjectFilter = subjectId;
-  const subjData = NOTES_DATABASE[subjectId];
+window.openNotesSubject = function(subjectId, pushState = true) {
+    if (pushState) window.location.hash = 'notes/' + subjectId;
+    if (STATE.currentScreen !== 'notes') {
+      switchScreen('notes', false);
+    }
+    currentSubjectFilter = subjectId;
+    const subjData = NOTES_DATABASE[subjectId];
   if (subjData) {
     document.getElementById('notes-active-subject-title').innerText = subjData.title;
   }
@@ -1090,19 +1095,9 @@ function renderNotesBrowser() {
           </div>
         `;
         
-        topicLink.addEventListener("click", () => {
-          selectedSubjectId = subjectId;
-          selectedChapterId = chapter.id;
-          selectedTopicId = topic.id;
-          document.querySelectorAll(".topic-link").forEach(l => l.classList.remove("active"));
-          topicLink.classList.add("active");
-          
-          document.getElementById('notes-view-chapters').style.display = 'none';
-          document.getElementById('notes-view-content').style.display = 'block';
-          
-          renderTopicView(subjectId, chapter.id, topic.id);
-          renderNotesBrowser();
-          if (typeof updateBreadcrumbs === 'function') updateBreadcrumbs();
+        topicLink.addEventListener("click", (e) => {
+          e.preventDefault();
+          window.location.hash = `notes/${subjectId}/${chapter.id}/${topic.id}`;
         });
         chapterDiv.appendChild(topicLink);
       });
@@ -2572,7 +2567,7 @@ document.getElementById("cbt-btn-submit-exam").addEventListener("click", () => {
       // Restore chatbot icon
       const launcher = document.getElementById("chatbot-launcher");
       if (launcher) launcher.style.display = "flex";
-      switchScreen("dashboard");
+      window.handleRoute();
     }
   }
 });
@@ -2801,7 +2796,7 @@ Format the output beautifully as structured HTML using subheadings, <strong> tag
 
 function closeCbtReport() {
   document.getElementById("cbt-report-overlay").style.display = "none";
-  switchScreen("dashboard");
+  window.handleRoute();
 }
 
 // ==========================================
@@ -4174,9 +4169,55 @@ function initCountdownTimer() {
   setInterval(updateTimer, 1000);
 }
 
+
+// ==========================================
+// HASH ROUTING LOGIC
+// ==========================================
+window.handleRoute = function() {
+    let hash = window.location.hash.replace('#', '');
+    if (!hash) hash = 'dashboard';
+    
+    const parts = hash.split('/');
+    const screenId = parts[0];
+    
+    // Call switchScreen without pushing state
+    switchScreen(screenId, false);
+    
+    if (screenId === 'notes') {
+        if (parts.length === 4) {
+            // #notes/subjectId/chapterId/topicId
+            const subjectId = parts[1];
+            const chapterId = parts[2];
+            const topicId = parts[3];
+            
+            selectedSubjectId = subjectId;
+            selectedChapterId = chapterId;
+            selectedTopicId = topicId;
+            
+            const chaptersView = document.getElementById('notes-view-chapters');
+            const contentView = document.getElementById('notes-view-content');
+            if (chaptersView) chaptersView.style.display = 'none';
+            if (contentView) contentView.style.display = 'block';
+            
+            renderTopicView(subjectId, chapterId, topicId);
+            renderNotesBrowser();
+            if (typeof updateBreadcrumbs === 'function') updateBreadcrumbs();
+        } else if (parts.length === 2) {
+            // #notes/subjectId
+            window.openNotesSubject(parts[1], false);
+        } else {
+            // #notes
+            window.backToNotesSubjects(false);
+        }
+    }
+};
+
+window.addEventListener('hashchange', window.handleRoute);
+
 // ==========================================
 // 13. APP RUN SUITE - INITIALIZATION
 // ==========================================
+
 document.addEventListener("DOMContentLoaded", () => {
   initSupabaseData();
   initAppState();
