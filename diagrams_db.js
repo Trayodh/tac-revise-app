@@ -4,7 +4,7 @@ DIAGRAMS_DB["mathematics__trigonometry"] = `
   <div style="background:#60a5fa; color:#ffffff; padding:12px 20px; font-size:24px; font-weight:bold; text-align:center; border-radius:6px; margin-bottom:20px;">
     Trigonometry
   </div>
-  <svg width="1200" height="900" style="background:#0f1117; display:block; margin:auto;" xmlns="http://www.w3.org/2000/svg">
+  <svg width="100%" height="auto" viewBox="0 0 1200 900" style="background:#0f1117; display:block; margin:auto;" xmlns="http://www.w3.org/2000/svg">
     <!-- Definitions -->
     <defs>
       <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
@@ -420,7 +420,7 @@ DIAGRAMS_DB["mathematics__calculus"] = `
   <div style="background:#60a5fa; color:#0f1117; padding:12px 20px; font-size:24px; font-weight:bold; text-align:center;">
     Calculus
   </div>
-  <svg width="1200" height="800" style="display:block; margin:auto; background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 800" style="display:block; margin:auto; background:#0f1117;">
     <!-- Arrow marker definition -->
     <defs>
       <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5"
@@ -570,7 +570,7 @@ DIAGRAMS_DB["mathematics__algebra-matrices"] = `
   <div style="background:#60a5fa; color:#fff; padding:12px 20px; font-size:24px; font-weight:bold; text-align:center; border-radius:6px; margin-bottom:20px;">
     Algebra &amp; Matrices
   </div>
-  <svg width="1200" height="900" style="background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 900" style="background:#0f1117;">
     <!-- Definitions for arrows -->
     <defs>
       <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
@@ -646,7 +646,7 @@ DIAGRAMS_DB["mathematics__probability-stats"] = `
   <div style="background:#0f1117; color:#e2e8f0; padding:12px; text-align:center; font-size:24px; font-weight:bold; border-bottom:1px solid rgba(255,255,255,0.12);">
     Probability &amp; Statistics
   </div>
-  <svg width="1200" height="900" style="background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 900" style="background:#0f1117;">
     <!-- Definitions -->
     <defs>
       <style type="text/css"><![CDATA[
@@ -839,7 +839,7 @@ DIAGRAMS_DB["mathematics__geometry"] = `
       6️⃣ Verify &amp; Answer
     </div>
     <!-- SVG Connectors -->
-    <svg width="1200" height="1100" style="position:absolute; top:0; left:0;">
+    <svg width="100%" height="auto" viewBox="0 0 1200 1100" style="position:absolute; top:0; left:0;">
       <defs>
         <marker id="arrow" markerWidth="8" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
           <path d="M0,0 L0,10 L10,5 Z" fill="#e2e8f0"/>
@@ -1007,7 +1007,7 @@ DIAGRAMS_DB["mathematics__mensuration"] = `
           1️⃣ Identify Figure (2D / 3D)
         </div>
         <!-- Arrow -->
-        <svg width="30" height="30" style="flex:none;">
+        <svg width="100%" height="auto" viewBox="0 0 30 30" style="flex:none;">
           <line x1="0" y1="15" x2="30" y2="15" stroke="#e2e8f0" stroke-width="2"/>
           <polygon points="28,13 28,17 30,15" fill="#e2e8f0"/>
         </svg>
@@ -1016,7 +1016,7 @@ DIAGRAMS_DB["mathematics__mensuration"] = `
           2️⃣ List Given Data (sides, radius, height…)
         </div>
         <!-- Arrow -->
-        <svg width="30" height="30" style="flex:none;">
+        <svg width="100%" height="auto" viewBox="0 0 30 30" style="flex:none;">
           <line x1="0" y1="15" x2="30" y2="15" stroke="#e2e8f0" stroke-width="2"/>
           <polygon points="28,13 28,17 30,15" fill="#e2e8f0"/>
         </svg>
@@ -1025,7 +1025,7 @@ DIAGRAMS_DB["mathematics__mensuration"] = `
           3️⃣ Choose Correct Formula
         </div>
         <!-- Arrow -->
-        <svg width="30" height="30" style="flex:none;">
+        <svg width="100%" height="auto" viewBox="0 0 30 30" style="flex:none;">
           <line x1="0" y1="15" x2="30" y2="15" stroke="#e2e8f0" stroke-width="2"/>
           <polygon points="28,13 28,17 30,15" fill="#e2e8f0"/>
         </svg>
@@ -1034,7 +1034,7 @@ DIAGRAMS_DB["mathematics__mensuration"] = `
           4️⃣ Substitute Values
         </div>
         <!-- Arrow -->
-        <svg width="30" height="30" style="flex:none;">
+        <svg width="100%" height="auto" viewBox="0 0 30 30" style="flex:none;">
           <line x1="0" y1="15" x2="30" y2="15" stroke="#e2e8f0" stroke-width="2"/>
           <polygon points="28,13 28,17 30,15" fill="#e2e8f0"/>
         </svg>
@@ -1043,7 +1043,7 @@ DIAGRAMS_DB["mathematics__mensuration"] = `
           5️⃣ Compute &amp; Simplify
         </div>
         <!-- Arrow -->
-        <svg width="30" height="30" style="flex:none;">
+        <svg width="100%" height="auto" viewBox="0 0 30 30" style="flex:none;">
           <line x1="0" y1="15" x2="30" y2="15" stroke="#e2e8f0" stroke-width="2"/>
           <polygon points="28,13 28,17 30,15" fill="#e2e8f0"/>
         </svg>
@@ -1064,7 +1064,7 @@ DIAGRAMS_DB["mathematics__arithmetic"] = `
     Arithmetic
   </div>
   <!-- Diagram -->
-  <svg width="1200" height="900" style="background:#0f1117; display:block; margin:auto;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 900" style="background:#0f1117; display:block; margin:auto;">
     <!-- Arrow marker definition -->
     <defs>
       <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
@@ -1181,7 +1181,7 @@ DIAGRAMS_DB["mathematics__quantitative-aptitude"] = `
   </div>
   <div style="position:relative; width:1200px; height:800px; margin:auto;">
     <!-- SVG arrows -->
-    <svg width="1200" height="800" style="position:absolute; left:0; top:0; pointer-events:none;">
+    <svg width="100%" height="auto" viewBox="0 0 1200 800" style="position:absolute; left:0; top:0; pointer-events:none;">
       <!-- Central to Time, Speed & Distance -->
       <line x1="600" y1="120" x2="290" y2="220" stroke="#4ade80" stroke-width="2"/>
       <line x1="600" y1="120" x2="910" y2="220" stroke="#4ade80" stroke-width="2"/>
@@ -1257,7 +1257,7 @@ DIAGRAMS_DB["english__grammar-rules"] = `
   </div>
   <div style="position:relative;width:1200px;height:1200px;background:#0f1117;margin:auto;">
     <!-- SVG lines -->
-    <svg width="1200" height="1200" style="position:absolute;top:0;left:0;pointer-events:none;">
+    <svg width="100%" height="auto" viewBox="0 0 1200 1200" style="position:absolute;top:0;left:0;pointer-events:none;">
       <!-- Central to outer nodes -->
       <line x1="600" y1="400" x2="210" y2="190" stroke="#60a5fa" stroke-width="2"/>
       <line x1="600" y1="400" x2="550" y2="60" stroke="#60a5fa" stroke-width="2"/>
@@ -1492,7 +1492,7 @@ DIAGRAMS_DB["english__vocabulary"] = `
     </div>
 
     <!-- Connecting Lines (SVG) -->
-    <svg width="1200" height="800" style="position:absolute; left:0; top:0; pointer-events:none;">
+    <svg width="100%" height="auto" viewBox="0 0 1200 800" style="position:absolute; left:0; top:0; pointer-events:none;">
       <!-- Central to Synonyms -->
       <line x1="600" y1="400" x2="260" y2="140" stroke="#60a5fa" stroke-width="2"/>
       <!-- Central to One‑Word -->
@@ -3872,7 +3872,7 @@ DIAGRAMS_DB["physics__physics-optics"] = `
   <div style="background:#4ade80; color:#0f1117; text-align:center; padding:12px 0; font-size:24px; font-weight:bold;">
     Optics &amp; Light
   </div>
-  <svg width="1200" height="900" viewBox="0 0 1200 900" style="display:block; margin:auto; background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 900" viewBox="0 0 1200 900" style="display:block; margin:auto; background:#0f1117;">
     <defs>
       <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5"
               orient="auto" markerUnits="strokeWidth">
@@ -3956,7 +3956,7 @@ DIAGRAMS_DB["physics__physics-mechanics"] = `
   </div>
 
   <!-- Labeled Diagram -->
-  <svg width="1200" height="800" viewBox="0 0 1200 800" style="background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 800" viewBox="0 0 1200 800" style="background:#0f1117;">
     <!-- Arrow marker definition -->
     <defs>
       <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5"
@@ -4242,7 +4242,7 @@ DIAGRAMS_DB["physics__physics-thermodynamics"] = `
   <div style="background:#0f1117; color:#e2e8f0; padding:12px; text-align:center; font-size:24px; font-weight:bold; border-bottom:1px solid rgba(255,255,255,0.12);">
     Heat &amp; Thermodynamics
   </div>
-  <svg width="1200" height="900" viewBox="0 0 1200 900" style="background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 900" viewBox="0 0 1200 900" style="background:#0f1117;">
     <!-- Central Chapter Node -->
     <rect x="500" y="40" width="200" height="60" rx="8" fill="#4ade80" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
     <text x="600" y="80" text-anchor="middle" fill="#0f1117" font-size="18" font-weight="bold">Heat &amp; Thermodynamics</text>
@@ -4310,7 +4310,7 @@ DIAGRAMS_DB["physics__physics-electromagnetism"] = `
   <div style="background:#4ade80; color:#0f1117; font-size:24px; font-weight:bold; text-align:center; padding:12px 0; border-radius:6px; margin-bottom:20px;">
     Electricity &amp; Magnetism
   </div>
-  <svg width="1200" height="900" viewBox="0 0 1200 900" style="background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 900" viewBox="0 0 1200 900" style="background:#0f1117;">
     <!-- Central Node -->
     <circle cx="600" cy="100" r="60" fill="#60a5fa" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
     <text x="600" y="105" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="bold">Electricity &amp; Magnetism</text>
@@ -4486,7 +4486,7 @@ DIAGRAMS_DB["physics__physics-pyq-trends"] = `
   <div style="background:#0f1117; color:#e2e8f0; padding:12px; text-align:center; font-size:24px; font-weight:bold; border-bottom:1px solid rgba(255,255,255,0.12);">
     PYQ Trend Analysis
   </div>
-  <svg width="1200" height="800" style="background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 800" style="background:#0f1117;">
     <!-- Central Node -->
     <circle cx="600" cy="80" r="50" fill="#4ade80"/>
     <text x="600" y="85" text-anchor="middle" fill="#0f1117" font-size="14" font-weight="bold">Physics PYQ</text>
@@ -4623,7 +4623,7 @@ DIAGRAMS_DB["chemistry__chemistry-substances"] = `
     Acids, Bases &amp; Salts
   </div>
   <!-- Diagram -->
-  <svg width="2000" height="1300" style="display:block; margin:auto; background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 2000 1300" style="display:block; margin:auto; background:#0f1117;">
     <!-- Definitions for arrows -->
     <defs>
       <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
@@ -4711,7 +4711,7 @@ DIAGRAMS_DB["chemistry__chemistry-bonding"] = `
   <div style="background:#4ade80; color:#0f1117; padding:12px; font-size:28px; font-weight:bold; text-align:center;">
     Chemical Bonding
   </div>
-  <svg width="2200" height="1300" style="background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 2200 1300" style="background:#0f1117;">
     <defs>
       <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5"
               orient="auto" markerUnits="strokeWidth">
@@ -4898,7 +4898,7 @@ DIAGRAMS_DB["chemistry__chemistry-carbon-numericals"] = `
     Carbon Compounds &amp; Numericals
   </div>
   <div style="position:relative; width:1200px; height:850px; margin:auto; background:#0f1117; border:1px solid rgba(255,255,255,0.12);">
-    <svg width="1200" height="850" style="overflow:visible;">
+    <svg width="100%" height="auto" viewBox="0 0 1200 850" style="overflow:visible;">
       <!-- Arrow marker -->
       <defs>
         <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
@@ -5134,7 +5134,7 @@ DIAGRAMS_DB["biology__biology-diseases"] = `
   </div>
   <!-- Diagram Container -->
   <div style="position:relative; padding:20px;">
-    <svg width="1200" height="900" viewBox="0 0 1200 900" style="background:#0f1117;" xmlns="http://www.w3.org/2000/svg">
+    <svg width="100%" height="auto" viewBox="0 0 1200 900" viewBox="0 0 1200 900" style="background:#0f1117;" xmlns="http://www.w3.org/2000/svg">
       <!-- Definitions for arrows -->
       <defs>
         <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
@@ -5231,7 +5231,7 @@ DIAGRAMS_DB["biology__biology-botany"] = `
   <div style="background:#4ade80; color:#0f1117; text-align:center; font-size:24px; font-weight:bold; padding:10px 0; margin-bottom:20px; border-radius:6px;">
     Plant Physiology &amp; Reproduction
   </div>
-  <svg width="1200" height="800" viewBox="0 0 1200 800" style="background:#0f1117; overflow:visible;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 800" viewBox="0 0 1200 800" style="background:#0f1117; overflow:visible;">
     <!-- Definitions for arrows -->
     <defs>
       <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
@@ -5638,7 +5638,7 @@ DIAGRAMS_DB["military-aptitude__afcat-nonverbal-reasoning"] = `
   <div style="background:#0f1117; padding:12px; text-align:center; font-size:24px; font-weight:bold; color:#4ade80; border-bottom:1px solid rgba(255,255,255,0.12);">
     Non-Verbal Reasoning (AFCAT)
   </div>
-  <svg width="1200" height="800" style="background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 800" style="background:#0f1117;">
     <!-- Root Node -->
     <rect x="500" y="20" width="200" height="50" fill="#60a5fa" rx="5"/>
     <text x="600" y="50" fill="#0f1117" font-size="16" text-anchor="middle" font-family="'Segoe UI',sans-serif">Chapter Overview</text>
@@ -5921,7 +5921,7 @@ DIAGRAMS_DB["environment__biodiversity-conservation"] = `
   <div style="background:#4ade80; color:#0f1117; padding:12px; text-align:center; font-size:22px; font-weight:bold; border-radius:6px; margin-bottom:12px;">
     Biodiversity &amp; Wildlife Conservation
   </div>
-  <svg width="1200" height="800" viewBox="0 0 1200 800" style="background:#0f1117;">
+  <svg width="100%" height="auto" viewBox="0 0 1200 800" viewBox="0 0 1200 800" style="background:#0f1117;">
     <!-- Arrow marker definition -->
     <defs>
       <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
