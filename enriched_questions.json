@@ -1,0 +1,96 @@
+[
+  {
+    "question_id": "TEST_001",
+    "validation_status": "APPROVED_WITH_CORRECTIONS",
+    "final_decision": "APPROVED WITH CORRECTIONS",
+    "subject": "Indian Polity",
+    "chapter": "Union Executive",
+    "topic": "President of India",
+    "question_text": "Who is the current President of India? (as of 2024)",
+    "options": {
+      "A": "Narendra Modi",
+      "B": "Ram Nath Kovind",
+      "C": "Droupadi Murmu",
+      "D": "Pranab Mukherjee"
+    },
+    "correct_answer": "C",
+    "explanation": "Droupadi Murmu assumed office as the 15th President of India on July 25, 2022, and is the incumbent President of India.",
+    "original_answer": "B",
+    "corrections_made": "Fixed OCR/spelling typos in question text ('curernt presidnt' to 'current President'). Corrected answer key from B (Ram Nath Kovind) to C (Droupadi Murmu). Updated explanation to accurately reflect the incumbent President.",
+    "duplicate_status": "Unknown",
+    "duplicate_reference_id": null,
+    "ocr_corrections": "Fixed spelling errors: 'curernt' -> 'current', 'presidnt' -> 'President'.",
+    "exam_relevance": [
+      "NDA",
+      "CDS",
+      "AFCAT",
+      "CAPF AC",
+      "Territorial Army",
+      "IB"
+    ],
+    "syllabus_status": "Current Syllabus",
+    "current_affairs_status": "Current",
+    "difficulty": "Very Easy",
+    "quality_score": 92,
+    "confidence": 100,
+    "reviewer_notes": "Question was complete but contained minor spelling errors, an incorrect answer key, and an incorrect explanation. All issues have been corrected.",
+    "primary_subject": "Indian Polity",
+    "secondary_subjects": [
+      "Current Affairs"
+    ],
+    "subchapter": "Head of State",
+    "subtopic": "Incumbent Office Holder & Constitutional Position",
+    "core_concept": "Incumbent President of India",
+    "learning_objective": "Recall",
+    "question_type": [
+      "Fact Based"
+    ],
+    "cognitive_level": [
+      "Memory Heavy"
+    ],
+    "exam_tags": [
+      "NDA",
+      "CDS",
+      "AFCAT",
+      "CAPF AC",
+      "Territorial Army",
+      "IB"
+    ],
+    "exam_weightage": "High",
+    "keywords": [
+      "President of India",
+      "Droupadi Murmu",
+      "Union Executive",
+      "Head of State",
+      "Current Appointments",
+      "15th President of India",
+      "Indian Polity"
+    ],
+    "related_concepts": [
+      "Powers and Functions of the President",
+      "Electoral College for Presidential Election",
+      "Vice-President of India",
+      "Prime Minister and Council of Ministers"
+    ],
+    "prerequisite_topics": [
+      "Basics of Indian Constitution",
+      "Structure of Indian Government"
+    ],
+    "next_recommended_topics": [
+      "Election Process of President of India",
+      "Articles 52 to 62 of Indian Constitution",
+      "Impeachment Process of President"
+    ],
+    "common_mistakes": [
+      "Confusing the Head of State (President) with the Head of Government (Prime Minister)",
+      "Selecting the former President Ram Nath Kovind due to outdated static memory"
+    ],
+    "revision_priority": "Low",
+    "knowledge_graph_links": {
+      "question_to_topic": "TEST_001 -> President of India",
+      "topic_to_chapter": "President of India -> Union Executive"
+    },
+    "confidence_score": 100,
+    "needs_review_flag": false
+  }
+]

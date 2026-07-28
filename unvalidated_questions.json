@@ -1,0 +1,17 @@
+[
+  {
+    "question_id": "TEST_001",
+    "question_text": "Who is the curernt presidnt of India? (as of 2024)",
+    "options": {
+      "A": "Narendra Modi",
+      "B": "Ram Nath Kovind",
+      "C": "Droupadi Murmu",
+      "D": "Pranab Mukherjee"
+    },
+    "correct_answer": "B",
+    "explanation": "Ram Nath Kovind is the president.",
+    "subject": "Indian Polity",
+    "exam": "NDA",
+    "year": "2024"
+  }
+]

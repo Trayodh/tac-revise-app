@@ -1,0 +1,38 @@
+[
+  {
+    "id": "MATH_NS_001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "exam_tags": [
+      "NDA",
+      "CDS"
+    ],
+    "question_stem": "The smallest 3 digit prime number is",
+    "options": {
+      "a": "101",
+      "b": "103",
+      "c": "109",
+      "d": "113"
+    },
+    "correct_answer": "a",
+    "solution_rationale": "The smallest 3 digit number is 100, which is divisible by 2. 101 is not divisible by 2, 3, 5, and 7. Therefore, 101 is a prime number."
+  },
+  {
+    "id": "MATH_NS_002",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "exam_tags": [
+      "NDA",
+      "CDS"
+    ],
+    "question_stem": "If x and y are coprime, their HCF is:",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "x*y",
+      "d": "x+y"
+    },
+    "correct_answer": "b",
+    "solution_rationale": "By definition, two numbers are coprime if their highest common factor (HCF) is exactly 1."
+  }
+]

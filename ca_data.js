@@ -425,8 +425,14 @@ window.CA_SPORTS_DATA = [
     note: "Became the FIRST Indian weightlifter to win THREE consecutive CWG gold medals (2018, 2022, 2026). She was also India's flag bearer at the Opening Ceremony."
   },
   {
+    event: "CWG 2026 (Commonwealth Games) — Para Athletics Women's Shot Put F57 (Gold)",
+    winner: "Sharmila Dhankar (Gold)",
+    country: "India",
+    placeHeld: "Glasgow, Scotland"
+  },
+  {
     event: "CWG 2026 (Commonwealth Games) — Weightlifting Men's 60kg (Silver)",
-    winner: "Rishikanta Singh (Silver)",
+    winner: "Rishikanta Singh Chanambam (Silver)",
     country: "India",
     placeHeld: "Glasgow, Scotland"
   },
@@ -437,14 +443,44 @@ window.CA_SPORTS_DATA = [
     placeHeld: "Glasgow, Scotland"
   },
   {
+    event: "CWG 2026 (Commonwealth Games) — Weightlifting Men's 79kg (Silver)",
+    winner: "V. Ajaya Babu (Silver)",
+    country: "India",
+    placeHeld: "Glasgow, Scotland"
+  },
+  {
+    event: "CWG 2026 (Commonwealth Games) — Weightlifting Women's 53kg (Silver)",
+    winner: "Gyaneshwari Yadav (Silver)",
+    country: "India",
+    placeHeld: "Glasgow, Scotland"
+  },
+  {
+    event: "CWG 2026 (Commonwealth Games) — Athletics Men's High Jump (Silver)",
+    winner: "Sarvesh Anil Kushare (Silver)",
+    country: "India",
+    placeHeld: "Glasgow, Scotland"
+  },
+  {
     event: "CWG 2026 (Commonwealth Games) — Para Powerlifting Men's Heavyweight (Bronze)",
     winner: "Jhandu Kumar (Bronze)",
     country: "India",
     placeHeld: "Glasgow, Scotland"
   },
   {
+    event: "CWG 2026 (Commonwealth Games) — Weightlifting Women's 58kg (Bronze)",
+    winner: "Bindyarani Devi (Bronze)",
+    country: "India",
+    placeHeld: "Glasgow, Scotland"
+  },
+  {
+    event: "CWG 2026 (Commonwealth Games) — Para Athletics Women's Shot Put F57 (Bronze)",
+    winner: "Shilpa K. Shyla (Bronze)",
+    country: "India",
+    placeHeld: "Glasgow, Scotland"
+  },
+  {
     event: "CWG 2026 (Commonwealth Games) — Overall India Medal Tally",
-    winner: "India — 1 Gold, 2 Silver, 1 Bronze (4 medals, Rank 8th as of July 27)",
+    winner: "India — 2 Gold, 5 Silver, 3 Bronze (10 medals so far)",
     country: "India",
     placeHeld: "Glasgow, Scotland",
     note: "Sports EXCLUDED from CWG 2026 (major concern for India): Shooting, Wrestling, Badminton, Squash, Hockey, Cricket, Table Tennis. Only 10 sports included: Athletics, Boxing, Cycling, Weightlifting, Judo, 3x3 Basketball, Netball, Gymnastics, Bowls, Para events."

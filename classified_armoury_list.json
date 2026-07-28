@@ -1,0 +1,144 @@
+[
+  {
+    "id": "MATH_NS_001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "exam_tags": [
+      "NDA",
+      "CDS",
+      "AFCAT",
+      "Territorial Army"
+    ],
+    "question_stem": "The smallest 3 digit prime number is",
+    "options": {
+      "a": "101",
+      "b": "103",
+      "c": "109",
+      "d": "113"
+    },
+    "correct_answer": "a",
+    "solution_rationale": "The smallest 3 digit number is 100, which is divisible by 2. 101 is not divisible by 2, 3, 5, and 7. Therefore, 101 is a prime number.",
+    "question_id": "MATH_NS_001",
+    "primary_subject": "Mathematics",
+    "secondary_subjects": [],
+    "subchapter": "Properties of Numbers",
+    "topic": "Prime Numbers",
+    "subtopic": "Smallest Multi-digit Primes",
+    "core_concept": "Prime Number Definition and Primality",
+    "learning_objective": "Recall",
+    "question_type": [
+      "Fact Based",
+      "Direct Question"
+    ],
+    "difficulty": "Easy",
+    "cognitive_level": [
+      "Memory Heavy"
+    ],
+    "exam_weightage": "High",
+    "keywords": [
+      "prime number",
+      "smallest 3 digit prime",
+      "number system",
+      "primality",
+      "101"
+    ],
+    "related_concepts": [
+      "Divisibility Rules",
+      "Composite Numbers",
+      "Prime Factorization",
+      "Largest 2 digit prime"
+    ],
+    "prerequisite_topics": [
+      "Basic Arithmetic Operations",
+      "Definition of Prime and Composite Numbers"
+    ],
+    "next_recommended_topics": [
+      "Primality Testing Techniques",
+      "Prime Factorization Methods",
+      "Number of Factors"
+    ],
+    "common_mistakes": [
+      "Assuming 100 is prime",
+      "Selecting 103 thinking 101 is divisible by another number",
+      "Confusing prime numbers with odd numbers"
+    ],
+    "revision_priority": "High",
+    "knowledge_graph_links": {
+      "question_to_topic": "Prime Numbers",
+      "topic_to_chapter": "Number System"
+    },
+    "confidence_score": 98,
+    "needs_review_flag": false
+  },
+  {
+    "id": "MATH_NS_002",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "exam_tags": [
+      "NDA",
+      "CDS",
+      "AFCAT",
+      "Territorial Army"
+    ],
+    "question_stem": "If x and y are coprime, their HCF is:",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "x*y",
+      "d": "x+y"
+    },
+    "correct_answer": "b",
+    "solution_rationale": "By definition, two numbers are coprime if their highest common factor (HCF) is exactly 1.",
+    "question_id": "MATH_NS_002",
+    "primary_subject": "Mathematics",
+    "secondary_subjects": [],
+    "subchapter": "Factors and Multiples",
+    "topic": "HCF and LCM",
+    "subtopic": "Properties of Coprime Numbers",
+    "core_concept": "Definition of Coprime Numbers and HCF",
+    "learning_objective": "Recall and understand the fundamental properties of coprime numbers",
+    "question_type": [
+      "Fact Based",
+      "Concept Based"
+    ],
+    "difficulty": "Easy",
+    "cognitive_level": [
+      "Memory Heavy",
+      "Concept Heavy"
+    ],
+    "exam_weightage": "High",
+    "keywords": [
+      "coprime",
+      "HCF",
+      "highest common factor",
+      "gcd",
+      "number system",
+      "factors",
+      "prime numbers"
+    ],
+    "related_concepts": [
+      "LCM of coprime numbers",
+      "Euclidean Algorithm",
+      "Prime Numbers"
+    ],
+    "prerequisite_topics": [
+      "Factors and Multiples",
+      "Basic Arithmetic Definitions"
+    ],
+    "next_recommended_topics": [
+      "Relation between HCF and LCM of two numbers",
+      "Properties of Prime Numbers"
+    ],
+    "common_mistakes": [
+      "Confusing HCF with LCM and choosing product x*y",
+      "Assuming coprime implies HCF is 0"
+    ],
+    "revision_priority": "Medium",
+    "knowledge_graph_links": {
+      "question_to_topic": "Properties of Coprime Numbers",
+      "topic_to_chapter": "Number System"
+    },
+    "confidence_score": 98,
+    "needs_review_flag": false
+  }
+]
