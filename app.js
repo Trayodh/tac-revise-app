@@ -2872,8 +2872,79 @@ document.getElementById("ai-generate-btn").addEventListener("click", async () =>
     await triggerAiSolveDoubt(templateKey, query);
   } else if (mode === "recon") {
     await triggerAiVisualRecon();
+  } else if (mode === "cheatsheet") {
+    await triggerAiCheatSheetGeneration(query);
   }
 });
+
+async function triggerAiCheatSheetGeneration(topic) {
+  const area = document.getElementById("ai-result-area");
+  area.style.display = "block";
+  area.className = "ai-response-area loading";
+  area.innerHTML = `
+    <div style="text-align: center; margin-top: 20px;">
+      <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 40px; height: 40px; border-width: 4px; margin: 0 auto 16px;"></div>
+      <p style="color: var(--accent); font-family: var(--font-logo); font-weight: 600;">DESIGNING GRAPHIC CHEAT SHEET...</p>
+      <p style="color: var(--text-muted); font-size: 0.9rem;">Formulating visual layout for ${topic}...</p>
+    </div>
+  `;
+
+  const prompt = `You are a Graphic Designer and Military Educator.
+The user wants a "Cheat Sheet" for the topic: "${topic}".
+Generate a standalone HTML output that represents a highly visual, printable "Graphic Cheat Sheet".
+
+STRICT RULES:
+1. ONLY return raw HTML. Do not wrap it in markdown code blocks (\`\`\`html).
+2. The entire cheat sheet should be wrapped in a <div class="printable-cheat-sheet">.
+3. Use inline CSS styles extensively.
+4. The theme MUST be Light Mode (black/dark text on white/light backgrounds) so it is printer-friendly and doesn't waste ink.
+5. Use CSS Grid or Flexbox to organize the data into distinct, colorful "boxes" or "cards" (e.g., pastel yellow for formulas, pastel blue for key concepts).
+6. Fill it with actual, highly accurate data (equations, dates, facts) regarding the topic. Don't use placeholders.
+7. Make the typography clear, legible, and structured for A4 paper. Include a large Title at the top.`;
+
+  try {
+    const payload = {
+      model: 'gemini-2.5-flash',
+      contents: [{ parts: [{ text: prompt }] }]
+    };
+    
+    const response = await fetch('/api/gemini', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    if (!response.ok) throw new Error("API Error");
+    const data = await response.json();
+    let reportHtml = (data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
+
+    area.className = "ai-response-area fade-in";
+    area.innerHTML = `
+      <div class="no-print" style="margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px dashed rgba(255,255,255,0.2); padding-bottom: 12px;">
+        <h3 style="color: var(--accent); margin: 0;">AI Generated Cheat Sheet</h3>
+        <button class="btn-primary" onclick="window.print()" style="padding: 6px 16px; font-size: 0.9rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 6px;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0110.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0l.229 2.523a1.125 1.125 0 01-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0021 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 00-1.913-.247M6.34 18H5.25A2.25 2.25 0 013 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 011.913-.247m10.5 0a48.536 48.536 0 00-10.5 0v3.396c0 .596.482 1.08 1.077 1.08h8.346c.595 0 1.077-.484 1.077-1.08V7.034z" />
+          </svg>
+          Print / Save PDF
+        </button>
+      </div>
+      <div style="background: white; padding: 20px; border-radius: 8px; color: black; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);">
+        ${reportHtml}
+      </div>
+    `;
+    
+    // Attempt MathJax rendering if equations are present
+    if (window.MathJax && typeof window.MathJax.typeset === 'function') {
+      window.MathJax.typeset();
+    }
+
+  } catch (err) {
+    console.error("Cheat Sheet Error:", err);
+    area.className = "ai-response-area fade-in";
+    area.innerHTML = `<p style="color: var(--danger);">Failed to generate Graphic Cheat Sheet. Try again.</p>`;
+  }
+}
 
 async function triggerAiVisualRecon() {
   const fileInput = document.getElementById("ai-doubt-image-input");

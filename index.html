@@ -84,6 +84,28 @@
       color: #fef08a !important;
       opacity: 0.5 !important;
     }
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+      #ai-result-area, #ai-result-area * {
+        visibility: visible;
+      }
+      #ai-result-area {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: white !important;
+      }
+      /* Hide the print button itself when printing */
+      .no-print {
+        display: none !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -826,7 +848,7 @@
               Instantly search across our entire database of Mock Exams and Past Year Questions. Find specific topics like "Ocean Currents" or "Integration" to practice targeted questions.
             </p>
             <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-              <input type="text" id="pyq-search-input" placeholder="e.g. Fundamental Rights, Matrices, River systems..." style="flex: 1; min-width: 200px; padding: 12px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.95rem; outline: none;" onkeydown="if(event.key === 'Enter') executePyqSearch()">
+              <input type="text" id="pyq-search-input" placeholder="e.g., Fundamental Rights, Matrices, River systems..." style="flex: 1; min-width: 200px; padding: 12px; border-radius: 6px; background-color: var(--bg-tertiary); border: 1px solid var(--border); color: var(--text-primary); font-size: 0.95rem; outline: none;" onkeydown="if(event.key === 'Enter') executePyqSearch()">
               <button class="ai-btn" onclick="executePyqSearch()" style="width: auto; padding: 0 24px;">
                 <span>Search PYQs</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 18px; height: 18px;">
@@ -875,6 +897,7 @@
     <label><input type="radio" name="ai-mode" value="questions" checked> Generate Questions</label>
     <label><input type="radio" name="ai-mode" value="solve"> Solve Doubt</label>
     <label><input type="radio" name="ai-mode" value="recon"> Visual Reconnaissance Quiz <span style="font-size:0.6rem; font-weight:bold; background:var(--accent); color:#000; padding:1px 4px; border-radius:3px;">NEW</span></label>
+    <label><input type="radio" name="ai-mode" value="cheatsheet"> Generate Cheat Sheet</label>
   </div>
   <div class="ai-image-upload-row" id="ai-image-upload-container" style="display: none; margin-top: 12px; align-items: center; gap: 12px; border: 1px dashed var(--border); padding: 12px; border-radius: 8px; background: rgba(0,0,0,0.1);">
     <label style="font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); white-space: nowrap; display: flex; align-items: center; gap: 6px;">
