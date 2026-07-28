@@ -1214,37 +1214,10 @@ function renderTopicView(subjectId, chapterId, topicId) {
   // Tab content selection
   let tabContentHtml = '';
   if (activeNotesTab === 'notes') {
-    let mainNotesContent = topic.notes;
-    let isPlaceholder = false;
-    if (typeof topic.notes === 'string' && topic.notes.trim().startsWith('Detailed notes expanded in')) {
-      isPlaceholder = true;
-      if (typeof EXPANDED_NOTES_DATA !== 'undefined' && EXPANDED_NOTES_DATA[topic.id]) {
-        mainNotesContent = EXPANDED_NOTES_DATA[topic.id];
-      } else {
-        mainNotesContent = `<div class="error-msg" style="color: var(--warning); padding: 12px; border: 1px dashed var(--warning); border-radius: 4px;">Notes are loading or currently being updated for this topic.</div>`;
-      }
-    }
-    
     tabContentHtml = `
       <div class="tab-pane-content fade-in" style="height: 100%;">
         <div class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
-          ${topicId === 'all-equipment' ? '<div id="armed-forces-equipment-container"></div>' : parseWikiLinks(mainNotesContent)}
-          ${(!isPlaceholder && typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]) ? `
-            <div class="expanded-notes" style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);">
-              <div style="color: var(--accent); font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;">
-                [ Advanced Revision Data ]
-              </div>
-              ${parseWikiLinks(EXPANDED_NOTES_DATA[topic.id])}
-            </div>
-          ` : ''}
-          ${(typeof window.EXPERT_REVISION_DATA !== 'undefined' && window.EXPERT_REVISION_DATA[topic.id]) ? `
-            <div class="expert-notes" style="margin-top: 24px; padding-top: 24px; border-top: 1px dashed var(--warning);">
-              <div style="color: var(--warning); font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;">
-                [ Expert Tactical Edge ]
-              </div>
-              ${parseWikiLinks(EXPERT_REVISION_DATA[topic.id])}
-            </div>
-          ` : ''}
+          ${topicId === 'all-equipment' ? '<div id="armed-forces-equipment-container"></div>' : parseWikiLinks(topic.notes || '')}
           ${chapterDiagramHtml}
           ${(() => {
             if (typeof window.GEOGRAPHY_VISUALS_DB === 'undefined' || subjectId !== 'geography') return '';
