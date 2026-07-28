@@ -2,15 +2,15 @@
   "version": 2,
   "routes": [
     {
-      "src": "/(.*\\\\.html)",
+      "src": "/(.*\\.html)",
       "headers": {
         "cache-control": "public, max-age=0, must-revalidate"
       },
-      "dest": "/"
+      "dest": "/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/"
+      "dest": "/$1"
     }
   ]
 }
