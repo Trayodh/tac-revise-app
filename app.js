@@ -924,22 +924,8 @@ window.openNotesSubject = function(subjectId, pushState = true) {
   updateBreadcrumbs();
 };
 
-window.backToNotesSubjects = function() {
-  currentSubjectFilter = 'all';
-  document.querySelectorAll('#screen-notes .full-page-view').forEach(el => {
-    el.style.display = 'none';
-    el.classList.remove('active');
-  });
-  const subjectsView = document.getElementById('notes-view-subjects');
-  if(subjectsView) {
-    subjectsView.style.display = 'block';
-    subjectsView.classList.add('active');
-  }
-  renderNotesBrowser();
-  updateBreadcrumbs();
-};
-
-window.backToNotesChapters = function() {
+window.backToNotesChapters = function(pushState = true) {
+  if (pushState && selectedSubjectId) window.location.hash = 'notes/' + selectedSubjectId;
   document.querySelectorAll('#screen-notes .full-page-view').forEach(el => {
     el.style.display = 'none';
     el.classList.remove('active');
@@ -2258,7 +2244,8 @@ let activeExamFilter = "all";
 let CBT_SESSION = null; 
 
 // -- Drill-Down View Logic for CBT Mock Hub --
-window.openCbtExam = function(examId) {
+window.openCbtExam = function(examId, pushState = true) {
+  if (pushState) window.location.hash = 'cbt-mock-hub/' + examId;
   activeExamFilter = examId;
   document.getElementById('cbt-active-exam-title').innerText = examId + ' Mock Exams';
   
@@ -2275,7 +2262,8 @@ window.openCbtExam = function(examId) {
   renderCbtMockHub();
 };
 
-window.backToCbtExams = function() {
+window.backToCbtExams = function(pushState = true) {
+  if (pushState) window.location.hash = 'cbt-mock-hub';
   activeExamFilter = 'all';
   document.querySelectorAll('#screen-cbt-mock-hub .full-page-view').forEach(el => {
     el.style.display = 'none';
@@ -4209,6 +4197,18 @@ window.handleRoute = function() {
             // #notes
             window.backToNotesSubjects(false);
         }
+    } else if (screenId === 'cbt-mock-hub') {
+        if (parts.length === 2) {
+            window.openCbtExam(parts[1], false);
+        } else {
+            window.backToCbtExams(false);
+        }
+    } else if (screenId === 'vocab-builder') {
+        if (parts.length === 2) {
+            window.openVocabMode(parts[1], false);
+        } else {
+            window.backToVocabModes(false);
+        }
     }
 };
 
@@ -5502,7 +5502,8 @@ Format the response cleanly with markdown headings, bullet points, and strong mi
 let vocabData = null;
 
 // -- Drill-Down View Logic for Vocab Builder --
-window.openVocabMode = function(mode) {
+window.openVocabMode = function(mode, pushState = true) {
+  if (pushState) window.location.hash = 'vocab-builder/' + mode;
   document.querySelectorAll('#screen-vocab-builder .full-page-view').forEach(el => {
     el.style.display = 'none';
     el.classList.remove('active');
@@ -5527,7 +5528,8 @@ window.openVocabMode = function(mode) {
   }
 };
 
-window.backToVocabModes = function() {
+window.backToVocabModes = function(pushState = true) {
+  if (pushState) window.location.hash = 'vocab-builder';
   document.querySelectorAll('#screen-vocab-builder .full-page-view').forEach(el => {
     el.style.display = 'none';
     el.classList.remove('active');

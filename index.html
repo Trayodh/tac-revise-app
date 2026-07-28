@@ -445,6 +445,14 @@
         <div id="notes-progress-bar-container" class="notes-progress-panel"></div>
         
         <div id="notes-view-subjects" class="full-page-view active">
+          <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <button class="btn-secondary" onclick="window.location.hash = 'dashboard'" style="padding: 8px 16px; border-radius: 6px;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 4px;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+              </svg>
+              Back to Command Center
+            </button>
+          </div>
           <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; padding: 20px 0;">
             <div class="subject-card" onclick="openNotesSubject('mathematics')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
               <div style="font-size: 2.5rem; margin-bottom: 12px;">📐</div>
