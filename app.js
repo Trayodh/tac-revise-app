@@ -2897,7 +2897,7 @@ STRICT RULES:
 1. ONLY return raw HTML. Do not wrap it in markdown code blocks (\`\`\`html).
 2. The entire cheat sheet should be wrapped in a <div class="printable-cheat-sheet">.
 3. Use inline CSS styles extensively.
-4. The theme MUST be Light Mode (black/dark text on white/light backgrounds) so it is printer-friendly and doesn't waste ink.
+4. The theme MUST be Dark Mode (light text on dark backgrounds) matching a sleek, modern cyber/military aesthetic.
 5. Use CSS Grid or Flexbox to organize the data into distinct, colorful "boxes" or "cards" (e.g., pastel yellow for formulas, pastel blue for key concepts).
 6. Fill it with actual, highly accurate data (equations, dates, facts) regarding the topic. Don't use placeholders.
 7. Make the typography clear, legible, and structured for A4 paper. Include a large Title at the top.`;
@@ -2929,7 +2929,7 @@ STRICT RULES:
           Print / Save PDF
         </button>
       </div>
-      <div style="background: white; padding: 20px; border-radius: 8px; color: black; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);">
+      <div style="background: var(--bg-secondary); padding: 20px; border-radius: 8px; color: var(--text-primary); border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2);">
         ${reportHtml}
       </div>
     `;
@@ -7864,9 +7864,11 @@ window.submitOnboardingPayment = async function() {
 
 // Mock users for offline admin dashboard
 window.MOCK_ADMIN_USERS = [
-  { email: 'newuser1@gmail.com', status: 'pending_payment', transaction_id: null, created_at: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString() },
-  { email: 'paiduser2@gmail.com', status: 'locked', transaction_id: 'UTR987654321', created_at: new Date(Date.now() - 35 * 24 * 60 * 60 * 1000).toISOString() },
-  { email: 'activeuser3@gmail.com', status: 'active', transaction_id: 'UTR123456789', created_at: new Date(Date.now() - 100 * 24 * 60 * 60 * 1000).toISOString() }
+  { email: 'rahul.sharma.nda@gmail.com', status: 'pending_payment', transaction_id: null, created_at: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString() },
+  { email: 'vikram.singh99@yahoo.com', status: 'locked', transaction_id: 'UTR987654321', created_at: new Date(Date.now() - 35 * 24 * 60 * 60 * 1000).toISOString() },
+  { email: 'ajay.kumar.cds@hotmail.com', status: 'active', transaction_id: 'UTR123456789', created_at: new Date(Date.now() - 100 * 24 * 60 * 60 * 1000).toISOString() },
+  { email: 'neha.patil_afcat@gmail.com', status: 'active', transaction_id: 'UTR456789123', created_at: new Date(Date.now() - 15 * 24 * 60 * 60 * 1000).toISOString() },
+  { email: 'siddharth.verma21@gmail.com', status: 'pending_payment', transaction_id: null, created_at: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString() }
 ];
 
 window.renderAdminDashboard = async function() {
