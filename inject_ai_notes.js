@@ -21,22 +21,22 @@
     // ─── Keyword → chapter-title fragments for smart matching ────────────────
     const CHAPTER_KEYWORD_MAP = {
         // Geography
-        'world-geography-cosmology-and-mcqs':   ['physical', 'world geography', 'cosmology', 'universe'],
-        'indian-geography-resources-and-mcqs':  ['indian geography', 'india geography', 'resources'],
-        'environmental-geography-and-mcqs':     ['environment', 'ecology', 'environmental'],
+        'world-geography-cosmology':   ['physical', 'world geography', 'cosmology', 'universe'],
+        'indian-geography-resources':  ['indian geography', 'india geography', 'resources'],
+        'environmental-geography':     ['environment', 'ecology', 'environmental'],
         // History
-        'ancient-india':                        ['ancient'],
-        'medieval-india':                       ['medieval', 'sultanate', 'mughal'],
-        'modern-india':                         ['modern', 'national movement', 'freedom'],
-        'world-history':                        ['world history'],
+        'ancient-india-core-and-mcqs':                        ['ancient'],
+        'medieval-india-sultanate-and-mcqs':                       ['medieval', 'sultanate', 'mughal'],
+        'modern-india-national-movement-and-mcqs':                         ['modern', 'national movement', 'freedom'],
+        'world-history-and-revision-mcqs':                        ['world history'],
         // Polity
-        'constitutional':                       ['constitution', 'framework', 'fundamental rights'],
-        'union-executive':                      ['executive', 'judiciary', 'union'],
-        'state-governance':                     ['state', 'panchayat', 'local governance'],
+        'constitutional-framework-rights-and-mcqs':                       ['constitution', 'framework', 'fundamental rights'],
+        'union-executive-judiciary-and-mcqs':                      ['executive', 'judiciary', 'union'],
+        'state-local-governance-and-master-mcqs':                     ['state', 'panchayat', 'local governance'],
         // Economy
-        'macroeconomics':                       ['macro', 'five year', 'planning'],
-        'banking':                              ['banking', 'inflation', 'monetary', 'finance'],
-        'sectors':                              ['sector', 'industry', 'trade'],
+        'macroeconomics-five-year-plans-and-mcqs':                       ['macro', 'five year', 'planning'],
+        'banking-inflation-public-finance-and-mcqs':                              ['banking', 'inflation', 'monetary', 'finance'],
+        'economic-sectors-and-master-revision-mcqs':                              ['sector', 'industry', 'trade'],
         // Biology
         'cell':                                 ['cell', 'unit of life'],
         'genetics':                             ['genetics', 'molecular', 'evolution', 'dna'],
