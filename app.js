@@ -352,8 +352,19 @@ window.updateBreadcrumbs = function() {
   }
 };
 
+window.smartBack = function(fallbackHash) {
+  if (window.history.length > 2) {
+    window.history.back();
+  } else {
+    window.location.hash = fallbackHash;
+  }
+};
+
 window.backToNotesSubjects = function(pushState = true) {
-  if (pushState) window.location.hash = 'notes';
+  if (pushState) {
+    window.smartBack('notes');
+    return;
+  }
   currentSubjectFilter = 'all';
   const subjectsView = document.getElementById('notes-view-subjects');
   const chaptersView = document.getElementById('notes-view-chapters');
@@ -925,7 +936,10 @@ window.openNotesSubject = function(subjectId, pushState = true) {
 };
 
 window.backToNotesChapters = function(pushState = true) {
-  if (pushState && selectedSubjectId) window.location.hash = 'notes/' + selectedSubjectId;
+  if (pushState && selectedSubjectId) {
+    window.smartBack('notes/' + selectedSubjectId);
+    return;
+  }
   document.querySelectorAll('#screen-notes .full-page-view').forEach(el => {
     el.style.display = 'none';
     el.classList.remove('active');
@@ -2263,7 +2277,10 @@ window.openCbtExam = function(examId, pushState = true) {
 };
 
 window.backToCbtExams = function(pushState = true) {
-  if (pushState) window.location.hash = 'cbt-mock-hub';
+  if (pushState) {
+    window.smartBack('cbt-mock-hub');
+    return;
+  }
   activeExamFilter = 'all';
   document.querySelectorAll('#screen-cbt-mock-hub .full-page-view').forEach(el => {
     el.style.display = 'none';
@@ -5754,7 +5771,10 @@ window.openVocabMode = function(mode, pushState = true) {
 };
 
 window.backToVocabModes = function(pushState = true) {
-  if (pushState) window.location.hash = 'vocab-builder';
+  if (pushState) {
+    window.smartBack('vocab-builder');
+    return;
+  }
   document.querySelectorAll('#screen-vocab-builder .full-page-view').forEach(el => {
     el.style.display = 'none';
     el.classList.remove('active');
