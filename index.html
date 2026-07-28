@@ -83,28 +83,64 @@
     .breadcrumb-separator {
       color: #fef08a !important;
       opacity: 0.5 !important;
-    }
-    @media print {
-      body * {
-        visibility: hidden;
-      }
-      #ai-result-area, #ai-result-area * {
-        visibility: visible;
-      }
-      #ai-result-area {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        border: none;
+    }    @media print {
+      /* Reset structural constraints for multi-page printing */
+      html, body {
+        height: auto !important;
+        min-height: auto !important;
+        overflow: visible !important;
+        display: block !important;
         background: white !important;
       }
-      /* Hide the print button itself when printing */
-      .no-print {
-        display: none !important;
+      
+      /* Hide everything at the top level except the app-container */
+      body > :not(.app-container) { display: none !important; }
+      .app-container { 
+        display: block !important; 
+        height: auto !important; 
+        overflow: visible !important; 
       }
+      
+      /* Hide sidebar, show only app-content */
+      .app-container > :not(#app-content) { display: none !important; }
+      #app-content { 
+        display: block !important; 
+        height: auto !important; 
+        overflow: visible !important; 
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      
+      /* Hide all screens except ai-console */
+      #app-content > :not(#screen-ai-console) { display: none !important; }
+      #screen-ai-console { 
+        display: block !important; 
+        height: auto !important; 
+        overflow: visible !important; 
+        padding: 0 !important;
+      }
+
+      /* Hide headers inside ai-console */
+      #screen-ai-console > :not(.ai-console) { display: none !important; }
+      .ai-console { 
+        display: block !important; 
+        height: auto !important; 
+        overflow: visible !important; 
+      }
+
+      /* Hide the input panel, show only result area */
+      .ai-console > :not(#ai-result-area) { display: none !important; }
+      #ai-result-area { 
+        display: block !important; 
+        height: auto !important; 
+        overflow: visible !important; 
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+
+      /* Hide the print button */
+      .no-print { display: none !important; }
     }
   </style>
 </head>
