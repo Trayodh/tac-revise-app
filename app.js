@@ -2916,7 +2916,7 @@ STRICT RULES:
 
     if (!response.ok) throw new Error("API Error");
     const data = await response.json();
-    let reportHtml = (data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
+    let reportHtml = (data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
 
     area.className = "ai-response-area fade-in";
     area.innerHTML = `
@@ -3003,7 +3003,7 @@ Format entirely in clean HTML.`;
 
     if (!response.ok) throw new Error("API Error");
     const data = await response.json();
-    let reportHtml = (data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
+    let reportHtml = (data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
 
     area.className = "ai-response-area fade-in";
     area.innerHTML = `
@@ -4628,7 +4628,7 @@ At the very end of the report, include exactly 3 Multiple Choice Questions based
     const data = await response.json();
     
     // Clean up if AI hallucinates markdown
-    let reportHtml = (data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
+    let reportHtml = (data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
 
     container.className = "panel fade-in";
     container.innerHTML = `
@@ -5698,7 +5698,7 @@ Format the response cleanly with markdown headings, bullet points, and strong mi
     if (!response.ok) throw new Error("Proxy error");
 
     const data = await response.json();
-    let replyText = data.text || "No response received.";
+    let replyText = data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "No response received.";
     
     // Format Markdown
     let formattedText = replyText
@@ -6646,7 +6646,7 @@ Make sure to weave their weak areas into the plan.`;
 
     if (!response.ok) throw new Error("API Error");
     const data = await response.json();
-    let jsonStr = data.text || "";
+    let jsonStr = data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "";
     
     // Clean up potential markdown formatting in response
     jsonStr = jsonStr.replace(/\`\`\`json/g, "").replace(/\`\`\`/g, "").trim();
