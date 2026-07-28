@@ -1,0 +1,5402 @@
+{
+  "EQ_0": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_1": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_2": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_3": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_4": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_5": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_6": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_7": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_8": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_9": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_10": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_11": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_12": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_13": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_14": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_15": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_16": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_17": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_18": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_19": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_20": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_21": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_22": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_23": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_24": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_25": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_26": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_27": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_28": {
+    "subject": "english",
+    "chapter": "Vocabulary & Comprehension"
+  },
+  "EQ_29": {
+    "subject": "physics",
+    "chapter": "Optics & Light"
+  },
+  "EQ_30": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_31": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_32": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_33": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_34": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_35": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_36": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_37": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_38": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_39": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_40": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_41": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_42": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_43": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_44": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_45": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_46": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_47": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_48": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_49": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_50": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_51": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_52": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_53": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_54": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_55": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_56": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_57": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_58": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_59": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_60": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_61": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_62": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_63": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_64": {
+    "subject": "physics",
+    "chapter": "Waves & Acoustics"
+  },
+  "EQ_65": {
+    "subject": "economics",
+    "chapter": "Introduction to Economics"
+  },
+  "EQ_66": {
+    "subject": "physics",
+    "chapter": "Electricity & Magnetism"
+  },
+  "EQ_67": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_68": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_69": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_70": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_71": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_72": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_73": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_74": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_75": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_76": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_77": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_78": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_79": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_80": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_81": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_82": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_83": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_84": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_85": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_86": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_87": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_88": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_89": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_90": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_91": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_92": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_93": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_94": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_95": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_96": {
+    "subject": "current-affairs",
+    "chapter": "Global Events & Strategic Updates"
+  },
+  "EQ_97": {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)"
+  },
+  "EQ_98": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_99": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_100": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_101": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_102": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_103": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_104": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_105": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_106": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_107": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_108": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_109": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_110": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_111": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_112": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_113": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_114": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_115": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_116": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_117": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_118": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_119": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_120": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_121": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_122": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_123": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_124": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_125": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_126": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_127": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_128": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_129": {
+    "subject": "geography",
+    "chapter": "Indian Geography"
+  },
+  "EQ_130": {
+    "subject": "current-affairs",
+    "chapter": "Global Events & Strategic Updates"
+  },
+  "EQ_131": {
+    "subject": "polity",
+    "chapter": "Union Government"
+  },
+  "EQ_132": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_133": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_134": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_135": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_136": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_137": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_138": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_139": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_140": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_141": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_142": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_143": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_144": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_145": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_146": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_147": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_148": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_149": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_150": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_151": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_152": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_153": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_154": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_155": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_156": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_157": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_158": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_159": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_160": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_161": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_162": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_163": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_164": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_165": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_166": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_167": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_168": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_169": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_170": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_171": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_172": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_173": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_174": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_175": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_176": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_177": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_178": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_179": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_180": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_181": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_182": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_183": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_184": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_185": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_186": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_187": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_188": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_189": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_190": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_191": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_192": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_193": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_194": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_195": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_196": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_197": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_198": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_199": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_200": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_201": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_202": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_203": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_204": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_205": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_206": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_207": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_208": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_209": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_210": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_211": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_212": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_213": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_214": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_215": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_216": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_217": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_218": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_219": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_220": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_221": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_222": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_223": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_224": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_225": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_226": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_227": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_228": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_229": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_230": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_231": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_232": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_233": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_234": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_235": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_236": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_237": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_238": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_239": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_240": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_241": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_242": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_243": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_244": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_245": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_246": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_247": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_248": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_249": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_250": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_251": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_252": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_253": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_254": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_255": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_256": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_257": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_258": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_259": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_260": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_261": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_262": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_263": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_264": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_265": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_266": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_267": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_268": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_269": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_270": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_271": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_272": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_273": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_274": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_275": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_276": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_277": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_278": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_279": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_280": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_281": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_282": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_283": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_284": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_285": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_286": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_287": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_288": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_289": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_290": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_291": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_292": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_293": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_294": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_295": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_296": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_297": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_298": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_299": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_300": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_301": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_302": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_303": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_304": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_305": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_306": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_307": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_308": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_309": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_310": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_311": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_312": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_313": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_314": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_315": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_316": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_317": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_318": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_319": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_320": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_321": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_322": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_323": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_324": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_325": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_326": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_327": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_328": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_329": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_330": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_331": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_332": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_333": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_334": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_335": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_336": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_337": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_338": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_339": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_340": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_341": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_342": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_343": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_344": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_345": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_346": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_347": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_348": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_349": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_350": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_351": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_352": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_353": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_354": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_355": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_356": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_357": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_358": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_359": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_360": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_361": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_362": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_363": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_364": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_365": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_366": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_367": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_368": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_369": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_370": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_371": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_372": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_373": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_374": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_375": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_376": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_377": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_378": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_379": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_380": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_381": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_382": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_383": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_384": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_385": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_386": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_387": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_388": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_389": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_390": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_391": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_392": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_393": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_394": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_395": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_396": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_397": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_398": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_399": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_400": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_401": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_402": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_403": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_404": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_405": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_406": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_407": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_408": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_409": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_410": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_411": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_412": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_413": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_414": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_415": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_416": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_417": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_418": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_419": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_420": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_421": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_422": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_423": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_424": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_425": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_426": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_427": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_428": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_429": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_430": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_431": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_432": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_433": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_434": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_435": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_436": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_437": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_438": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_439": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_440": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_441": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_442": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_443": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_444": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_445": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_446": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_447": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_448": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_449": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_450": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_451": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_452": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_453": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_454": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_455": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_456": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_457": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_458": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_459": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_460": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_461": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_462": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_463": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_464": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_465": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_466": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_467": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_468": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_469": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_470": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_471": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_472": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_473": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_474": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_475": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_476": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_477": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_478": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_479": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_480": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_481": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_482": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_483": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_484": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_485": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_486": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_487": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_488": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_489": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_490": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_491": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_492": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_493": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_494": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_495": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_496": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_497": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_498": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_499": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_500": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_501": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_502": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_503": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_504": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_505": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_506": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_507": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_508": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_509": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_510": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_511": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_512": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_513": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_514": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_515": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_516": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_517": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_518": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_519": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_520": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_521": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_522": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_523": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_524": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_525": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_526": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_527": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_528": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_529": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_530": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_531": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_532": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_533": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_534": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_535": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_536": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_537": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_538": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_539": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_540": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_541": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_542": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_543": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_544": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_545": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_546": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_547": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_548": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_549": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_550": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_551": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_552": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_553": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_554": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_555": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_556": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_557": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_558": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_559": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_560": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_561": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_562": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_563": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_564": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_565": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_566": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_567": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_568": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_569": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_570": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_571": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_572": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_573": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_574": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_575": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_576": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_577": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_578": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_579": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_580": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_581": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_582": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_583": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_584": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_585": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_586": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_587": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_588": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_589": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_590": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_591": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_592": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_593": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_594": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_595": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_596": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_597": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_598": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_599": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_600": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_601": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_602": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_603": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_604": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_605": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_606": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_607": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_608": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_609": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_610": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_611": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_612": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_613": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_614": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_615": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_616": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_617": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_618": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_619": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_620": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_621": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_622": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_623": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_624": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_625": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_626": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_627": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_628": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_629": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_630": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_631": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_632": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_633": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_634": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_635": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_636": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_637": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_638": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_639": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_640": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_641": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_642": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_643": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_644": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_645": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_646": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_647": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_648": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_649": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_650": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_651": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_652": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_653": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_654": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_655": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_656": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_657": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_658": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_659": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_660": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_661": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_662": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_663": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_664": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_665": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_666": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_667": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_668": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_669": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_670": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_671": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_672": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_673": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_674": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_675": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_676": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_677": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_678": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_679": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_680": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_681": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_682": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_683": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_684": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_685": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_686": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_687": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_688": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_689": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_690": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_691": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_692": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_693": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_694": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_695": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_696": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_697": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_698": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_699": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_700": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_701": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_702": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_703": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_704": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_705": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_706": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_707": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_708": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_709": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_710": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_711": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_712": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_713": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_714": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_715": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_716": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_717": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_718": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_719": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_720": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_721": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_722": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_723": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_724": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_725": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_726": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_727": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_728": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_729": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_730": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_731": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_732": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_733": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_734": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_735": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_736": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_737": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_738": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_739": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_740": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_741": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_742": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_743": {
+    "subject": "english",
+    "chapter": "Vocabulary & Comprehension"
+  },
+  "EQ_744": {
+    "subject": "english",
+    "chapter": "Vocabulary & Comprehension"
+  },
+  "EQ_745": {
+    "subject": "english",
+    "chapter": "Vocabulary & Comprehension"
+  },
+  "EQ_746": {
+    "subject": "english",
+    "chapter": "Vocabulary & Comprehension"
+  },
+  "EQ_747": {
+    "subject": "english",
+    "chapter": "Vocabulary & Comprehension"
+  },
+  "EQ_748": {
+    "subject": "english",
+    "chapter": "Vocabulary & Comprehension"
+  },
+  "EQ_749": {
+    "subject": "english",
+    "chapter": "Grammar & Usage"
+  },
+  "EQ_750": {
+    "subject": "english",
+    "chapter": "Vocabulary & Comprehension"
+  },
+  "EQ_751": {
+    "subject": "english",
+    "chapter": "UPSC Exam Practice Patterns"
+  },
+  "EQ_752": {
+    "subject": "english",
+    "chapter": "UPSC Exam Practice Patterns"
+  },
+  "EQ_753": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_754": {
+    "subject": "physics",
+    "chapter": "Mechanics & Motion"
+  },
+  "EQ_755": {
+    "subject": "physics",
+    "chapter": "Energy & Gravitation"
+  },
+  "EQ_756": {
+    "subject": "physics",
+    "chapter": "Energy & Gravitation"
+  },
+  "EQ_757": {
+    "subject": "physics",
+    "chapter": "Energy & Gravitation"
+  },
+  "EQ_758": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_759": {
+    "subject": "physics",
+    "chapter": "Mechanics & Motion"
+  },
+  "EQ_760": {
+    "subject": "physics",
+    "chapter": "Energy & Gravitation"
+  },
+  "EQ_761": {
+    "subject": "physics",
+    "chapter": "Energy & Gravitation"
+  },
+  "EQ_762": {
+    "subject": "physics",
+    "chapter": "Energy & Gravitation"
+  },
+  "EQ_763": {
+    "subject": "physics",
+    "chapter": "Energy & Gravitation"
+  },
+  "EQ_764": {
+    "subject": "physics",
+    "chapter": "Heat & Thermodynamics"
+  },
+  "EQ_765": {
+    "subject": "physics",
+    "chapter": "Mechanics & Motion"
+  },
+  "EQ_766": {
+    "subject": "physics",
+    "chapter": "Mechanics & Motion"
+  },
+  "EQ_767": {
+    "subject": "physics",
+    "chapter": "Mechanics & Motion"
+  },
+  "EQ_768": {
+    "subject": "physics",
+    "chapter": "Heat & Thermodynamics"
+  },
+  "EQ_769": {
+    "subject": "physics",
+    "chapter": "Heat & Thermodynamics"
+  },
+  "EQ_770": {
+    "subject": "physics",
+    "chapter": "Heat & Thermodynamics"
+  },
+  "EQ_771": {
+    "subject": "physics",
+    "chapter": "Waves & Acoustics"
+  },
+  "EQ_772": {
+    "subject": "physics",
+    "chapter": "Waves & Acoustics"
+  },
+  "EQ_773": {
+    "subject": "physics",
+    "chapter": "Waves & Acoustics"
+  },
+  "EQ_774": {
+    "subject": "physics",
+    "chapter": "Waves & Acoustics"
+  },
+  "EQ_775": {
+    "subject": "physics",
+    "chapter": "Optics & Light"
+  },
+  "EQ_776": {
+    "subject": "physics",
+    "chapter": "Electricity & Magnetism"
+  },
+  "EQ_777": {
+    "subject": "physics",
+    "chapter": "Electricity & Magnetism"
+  },
+  "EQ_778": {
+    "subject": "physics",
+    "chapter": "Optics & Light"
+  },
+  "EQ_779": {
+    "subject": "physics",
+    "chapter": "Modern Physics & Units"
+  },
+  "EQ_780": {
+    "subject": "physics",
+    "chapter": "Modern Physics & Units"
+  },
+  "EQ_781": {
+    "subject": "physics",
+    "chapter": "Modern Physics & Units"
+  },
+  "EQ_782": {
+    "subject": "physics",
+    "chapter": "Modern Physics & Units"
+  },
+  "EQ_783": {
+    "subject": "physics",
+    "chapter": "Modern Physics & Units"
+  },
+  "EQ_784": {
+    "subject": "physics",
+    "chapter": "Heat & Thermodynamics"
+  },
+  "EQ_785": {
+    "subject": "physics",
+    "chapter": "Heat & Thermodynamics"
+  },
+  "EQ_786": {
+    "subject": "physics",
+    "chapter": "Heat & Thermodynamics"
+  },
+  "EQ_787": {
+    "subject": "physics",
+    "chapter": "Heat & Thermodynamics"
+  },
+  "EQ_788": {
+    "subject": "chemistry",
+    "chapter": "Acids, Bases & Salts"
+  },
+  "EQ_789": {
+    "subject": "chemistry",
+    "chapter": "Everyday & Environmental Chemistry"
+  },
+  "EQ_790": {
+    "subject": "chemistry",
+    "chapter": "Everyday & Environmental Chemistry"
+  },
+  "EQ_791": {
+    "subject": "chemistry",
+    "chapter": "Everyday & Environmental Chemistry"
+  },
+  "EQ_792": {
+    "subject": "chemistry",
+    "chapter": "Everyday & Environmental Chemistry"
+  },
+  "EQ_793": {
+    "subject": "chemistry",
+    "chapter": "Everyday & Environmental Chemistry"
+  },
+  "EQ_794": {
+    "subject": "chemistry",
+    "chapter": "Everyday & Environmental Chemistry"
+  },
+  "EQ_795": {
+    "subject": "biology",
+    "chapter": "Plant & Animal Kingdoms"
+  },
+  "EQ_796": {
+    "subject": "biology",
+    "chapter": "Plant Physiology & Reproduction"
+  },
+  "EQ_797": {
+    "subject": "biology",
+    "chapter": "Plant & Animal Kingdoms"
+  },
+  "EQ_798": {
+    "subject": "biology",
+    "chapter": "Human Physiology"
+  },
+  "EQ_799": {
+    "subject": "biology",
+    "chapter": "Human Physiology"
+  },
+  "EQ_800": {
+    "subject": "history",
+    "chapter": "4. Medieval India"
+  },
+  "EQ_801": {
+    "subject": "history",
+    "chapter": "4. Medieval India"
+  },
+  "EQ_802": {
+    "subject": "history",
+    "chapter": "4. Medieval India"
+  },
+  "EQ_803": {
+    "subject": "history",
+    "chapter": "4. Medieval India"
+  },
+  "EQ_804": {
+    "subject": "history",
+    "chapter": "4. Medieval India"
+  },
+  "EQ_805": {
+    "subject": "history",
+    "chapter": "4. Medieval India"
+  },
+  "EQ_806": {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)"
+  },
+  "EQ_807": {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)"
+  },
+  "EQ_808": {
+    "subject": "geography",
+    "chapter": "Indian Geography"
+  },
+  "EQ_809": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_810": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_811": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_812": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_813": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_814": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_815": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_816": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_817": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_818": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_819": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_820": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_821": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_822": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_823": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_824": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_825": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_826": {
+    "subject": "geography",
+    "chapter": "Indian Geography"
+  },
+  "EQ_827": {
+    "subject": "environment",
+    "chapter": "Biodiversity & Wildlife Conservation"
+  },
+  "EQ_828": {
+    "subject": "geography",
+    "chapter": "Indian Geography"
+  },
+  "EQ_829": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_830": {
+    "subject": "environment",
+    "chapter": "Climate, Laws & Renewable Energy"
+  },
+  "EQ_831": {
+    "subject": "environment",
+    "chapter": "Climate, Laws & Renewable Energy"
+  },
+  "EQ_832": {
+    "subject": "environment",
+    "chapter": "Biodiversity & Wildlife Conservation"
+  },
+  "EQ_833": {
+    "subject": "environment",
+    "chapter": "Biodiversity & Wildlife Conservation"
+  },
+  "EQ_834": {
+    "subject": "geography",
+    "chapter": "Physical & World Geography"
+  },
+  "EQ_835": {
+    "subject": "environment",
+    "chapter": "Biodiversity & Wildlife Conservation"
+  },
+  "EQ_836": {
+    "subject": "environment",
+    "chapter": "Climate, Laws & Renewable Energy"
+  },
+  "EQ_837": {
+    "subject": "environment",
+    "chapter": "Climate, Laws & Renewable Energy"
+  },
+  "EQ_838": {
+    "subject": "environment",
+    "chapter": "Climate, Laws & Renewable Energy"
+  },
+  "EQ_839": {
+    "subject": "polity",
+    "chapter": "Union Government"
+  },
+  "EQ_840": {
+    "subject": "polity",
+    "chapter": "Union Government"
+  },
+  "EQ_841": {
+    "subject": "economics",
+    "chapter": "Introduction to Economics"
+  },
+  "EQ_842": {
+    "subject": "economics",
+    "chapter": "Budgets, Trade & Economic Reforms"
+  },
+  "EQ_843": {
+    "subject": "economics",
+    "chapter": "Monetary & Fiscal System"
+  },
+  "EQ_844": {
+    "subject": "economics",
+    "chapter": "Introduction to Economics"
+  },
+  "EQ_845": {
+    "subject": "current-affairs",
+    "chapter": "Global Events & Strategic Updates"
+  },
+  "EQ_846": {
+    "subject": "current-affairs",
+    "chapter": "Global Events & Strategic Updates"
+  },
+  "EQ_847": {
+    "subject": "environment",
+    "chapter": "Biodiversity & Wildlife Conservation"
+  },
+  "EQ_848": {
+    "subject": "current-affairs",
+    "chapter": "Global Events & Strategic Updates"
+  },
+  "EQ_849": {
+    "subject": "military-aptitude",
+    "chapter": "Exercises & Missile Systems"
+  },
+  "EQ_850": {
+    "subject": "current-affairs",
+    "chapter": "Global Events & Strategic Updates"
+  },
+  "EQ_851": {
+    "subject": "current-affairs",
+    "chapter": "Global Events & Strategic Updates"
+  },
+  "EQ_852": {
+    "subject": "history",
+    "chapter": "7. Art, Culture & Heritage"
+  },
+  "EQ_853": {
+    "subject": "current-affairs",
+    "chapter": "Reports, Awards & Judgments"
+  },
+  "EQ_854": {
+    "subject": "history",
+    "chapter": "6. World History"
+  },
+  "EQ_855": {
+    "subject": "history",
+    "chapter": "7. Art, Culture & Heritage"
+  },
+  "EQ_856": {
+    "subject": "environment",
+    "chapter": "Biodiversity & Wildlife Conservation"
+  },
+  "EQ_857": {
+    "subject": "current-affairs",
+    "chapter": "Reports, Awards & Judgments"
+  },
+  "EQ_858": {
+    "subject": "current-affairs",
+    "chapter": "Global Events & Strategic Updates"
+  },
+  "EQ_859": {
+    "subject": "geography",
+    "chapter": "Industries & Geopolitics"
+  },
+  "EQ_860": {
+    "subject": "polity",
+    "chapter": "Advanced Polity Structures & Bodies"
+  },
+  "EQ_861": {
+    "subject": "history",
+    "chapter": "3. Ancient India"
+  },
+  "EQ_862": {
+    "subject": "english",
+    "chapter": "Vocabulary & Comprehension"
+  },
+  "EQ_863": {
+    "subject": "english",
+    "chapter": "UPSC Exam Practice Patterns"
+  },
+  "EQ_864": {
+    "subject": "english",
+    "chapter": "Grammar & Usage"
+  },
+  "EQ_865": {
+    "subject": "physics",
+    "chapter": "Electricity & Magnetism"
+  },
+  "EQ_866": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_867": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_868": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_869": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_870": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_871": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_872": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_873": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_874": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_875": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_876": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_877": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_878": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_879": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_880": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_881": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_882": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_883": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_884": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_885": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_886": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_887": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_888": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_889": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_890": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_891": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_892": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_893": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_894": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_895": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_896": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_897": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_898": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_899": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_900": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_901": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_902": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_903": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_904": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_905": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_906": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_907": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_908": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_909": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_910": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_911": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_912": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_913": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_914": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_915": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_916": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_917": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_918": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_919": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_920": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_921": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_922": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_923": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_924": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_925": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_926": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_927": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_928": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_929": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_930": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_931": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_932": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_933": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_934": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_935": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_936": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_937": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_938": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_939": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_940": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_941": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_942": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_943": {
+    "subject": "chemistry",
+    "chapter": "Carbon Compounds & Numericals"
+  },
+  "EQ_944": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_945": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_946": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_947": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_948": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_949": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_950": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_951": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_952": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_953": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_954": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_955": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_956": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_957": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_958": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_959": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_960": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_961": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_962": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_963": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_964": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_965": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_966": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_967": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_968": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_969": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_970": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_971": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_972": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_973": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_974": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_975": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_976": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_977": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_978": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_979": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_980": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_981": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_982": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_983": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_984": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_985": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_986": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_987": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_988": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_989": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_990": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_991": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_992": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_993": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_994": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_995": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_996": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_997": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_998": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_999": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_1000": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_1001": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_1002": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1003": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_1004": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_1005": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_1006": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_1007": {
+    "subject": "mathematics",
+    "chapter": "Arithmetic"
+  },
+  "EQ_1008": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1009": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1010": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1011": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1012": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1013": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1014": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1015": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1016": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1017": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1018": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1019": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1020": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1021": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1022": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1023": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1024": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1025": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1026": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1027": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1028": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1029": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1030": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1031": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1032": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1033": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1034": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1035": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1036": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1037": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1038": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1039": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1040": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1041": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1042": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1043": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1044": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1045": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1046": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1047": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1048": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1049": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1050": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1051": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1052": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1053": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1054": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1055": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1056": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1057": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1058": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1059": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1060": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1061": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1062": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1063": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1064": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1065": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1066": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1067": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1068": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1069": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1070": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1071": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1072": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1073": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1074": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1075": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1076": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1077": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1078": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1079": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1080": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1081": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1082": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1083": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1084": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1085": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1086": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1087": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1088": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1089": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1090": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1091": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1092": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1093": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1094": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1095": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1096": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1097": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1098": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1099": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1100": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1101": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1102": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1103": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1104": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1105": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1106": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1107": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1108": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1109": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1110": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1111": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1112": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1113": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1114": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1115": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1116": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1117": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1118": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1119": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1120": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1121": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1122": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1123": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1124": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1125": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1126": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1127": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1128": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1129": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1130": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1131": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1132": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1133": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1134": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1135": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1136": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1137": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1138": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1139": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1140": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1141": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1142": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1143": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1144": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1145": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1146": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1147": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1148": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1149": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1150": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1151": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1152": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1153": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1154": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1155": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1156": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1157": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1158": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1159": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1160": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1161": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1162": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1163": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1164": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1165": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1166": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1167": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1168": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1169": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1170": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1171": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1172": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1173": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1174": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1175": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1176": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1177": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1178": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1179": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1180": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1181": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1182": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1183": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1184": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1185": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1186": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1187": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1188": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1189": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1190": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1191": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1192": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1193": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1194": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1195": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1196": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1197": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1198": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1199": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1200": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1201": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1202": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1203": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1204": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1205": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1206": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1207": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1208": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1209": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1210": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1211": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1212": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1213": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1214": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1215": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1216": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1217": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1218": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1219": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1220": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1221": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1222": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1223": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1224": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1225": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1226": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1227": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1228": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1229": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1230": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1231": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1232": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1233": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1234": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1235": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1236": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1237": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1238": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1239": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1240": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1241": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1242": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1243": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1244": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1245": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1246": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1247": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1248": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1249": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1300": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1301": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1302": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1303": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1304": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1305": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1306": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1307": {
+    "subject": "mathematics",
+    "chapter": "Mensuration"
+  },
+  "EQ_1308": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1309": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1310": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1311": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1312": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1313": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1314": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1315": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1316": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1317": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1318": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1319": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1320": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1321": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1322": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1323": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1324": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1325": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1326": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1327": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1328": {
+    "subject": "mathematics",
+    "chapter": "Geometry"
+  },
+  "EQ_1329": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1330": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1331": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_1332": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1333": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1334": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1335": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_1336": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1337": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1338": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1339": {
+    "subject": "mathematics",
+    "chapter": "Coordinate Geometry (2D & 3D)"
+  },
+  "EQ_1340": {
+    "subject": "mathematics",
+    "chapter": "Coordinate Geometry (2D & 3D)"
+  },
+  "EQ_1341": {
+    "subject": "mathematics",
+    "chapter": "Coordinate Geometry (2D & 3D)"
+  },
+  "EQ_1342": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1343": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1344": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_1345": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_1346": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_1347": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Matrices"
+  },
+  "EQ_1348": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Matrices"
+  },
+  "EQ_1349": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1350": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1351": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1352": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1353": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1354": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1355": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1356": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1357": {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude"
+  },
+  "EQ_1358": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1359": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1360": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1361": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1362": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1363": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Matrices"
+  },
+  "EQ_1364": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Matrices"
+  },
+  "EQ_1365": {
+    "subject": "mathematics",
+    "chapter": "Coordinate Geometry (2D & 3D)"
+  },
+  "EQ_1366": {
+    "subject": "mathematics",
+    "chapter": "Coordinate Geometry (2D & 3D)"
+  },
+  "EQ_1367": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1368": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1369": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1370": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1371": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1372": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1373": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1374": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1375": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1376": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1377": {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability"
+  },
+  "EQ_1378": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1379": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1380": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1381": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1382": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1383": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1384": {
+    "subject": "mathematics",
+    "chapter": "Coordinate Geometry (2D & 3D)"
+  },
+  "EQ_1385": {
+    "subject": "mathematics",
+    "chapter": "Coordinate Geometry (2D & 3D)"
+  },
+  "EQ_1386": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1387": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1388": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1389": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Matrices"
+  },
+  "EQ_1390": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1391": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1392": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers"
+  },
+  "EQ_1393": {
+    "subject": "mathematics",
+    "chapter": "Algebra & Matrices"
+  },
+  "EQ_1394": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1395": {
+    "subject": "mathematics",
+    "chapter": "Trigonometry"
+  },
+  "EQ_1396": {
+    "subject": "mathematics",
+    "chapter": "Coordinate Geometry (2D & 3D)"
+  },
+  "EQ_1397": {
+    "subject": "mathematics",
+    "chapter": "Coordinate Geometry (2D & 3D)"
+  },
+  "EQ_1398": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  },
+  "EQ_1399": {
+    "subject": "mathematics",
+    "chapter": "Calculus"
+  }
+}

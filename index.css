@@ -4327,3 +4327,84 @@ body.locked-mode .main-content {
   animation: exam-name-breathe 2.5s infinite ease-in-out;
   transform-origin: left center;
 }
+
+/* --- Advanced Interactive Styling for Notes --- */
+
+.notes-text {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #e2e8f0;
+}
+
+.notes-text h3 {
+  color: var(--accent);
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.notes-text h4 {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+  border-left: 3px solid var(--info);
+  padding-left: 0.75rem;
+  font-weight: 500;
+}
+
+.notes-text p {
+  margin-bottom: 1.2rem;
+}
+
+.notes-text ul, .notes-text ol {
+  margin-left: 1.2rem;
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+}
+
+.notes-text li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.notes-text li:hover {
+  background-color: rgba(34, 197, 94, 0.05);
+  border-radius: 4px;
+}
+
+.notes-text strong {
+  color: #f8fafc;
+  font-weight: 600;
+  background: rgba(255,255,255,0.05);
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.revision-card {
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.revision-card:hover {
+  box-shadow: 0 8px 24px rgba(34, 197, 94, 0.15) !important;
+  border-color: rgba(34, 197, 94, 0.4) !important;
+  transform: translateY(-2px);
+}
+
+.wiki-link {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(34, 197, 94, 0.5);
+  transition: all 0.2s ease;
+}
+
+.wiki-link:hover {
+  background-color: rgba(34, 197, 94, 0.1);
+  border-bottom: 1px solid var(--accent);
+}
