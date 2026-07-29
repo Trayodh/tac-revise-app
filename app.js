@@ -5204,6 +5204,59 @@ function renderMotivationStory() {
   unitEl.innerText = storyObj.unit;
   yearEl.innerText = storyObj.year;
   storyEl.innerText = `"${storyObj.story}"`;
+    
+  // Fetch and render OLQs exhibited by the hero
+  if (typeof fetchMotivationOLQs === 'function') {
+    fetchMotivationOLQs(storyObj);
+  }
+}
+
+async function fetchMotivationOLQs(storyObj) {
+  const container = document.getElementById("olq-container");
+  if (!container) return;
+  
+  container.style.display = "block";
+  
+  const cacheKey = "olqs_" + storyObj.hero.replace(/[^a-zA-Z0-9]/g, "_");
+  const cached = localStorage.getItem(cacheKey);
+  if (cached) {
+    container.innerHTML = cached;
+    return;
+  }
+
+  container.innerHTML = "<div class='cbt-spinner' style='width: 14px; height: 14px; display: inline-block; vertical-align: middle; border-color: var(--accent); border-top-color: transparent; margin-right: 6px;'></div> <i style='vertical-align: middle;'>Dronacharya AI is analyzing Officer Like Qualities (OLQs) exhibited...</i>";
+  
+  const prompt = `Analyze this military bravery story and list the Officer Like Qualities (OLQs) exhibited by the hero. 
+Story: ${storyObj.story}
+
+STRICT FORMATTING RULES:
+1. Return ONLY raw HTML. No markdown code blocks like \`\`\`html.
+2. Format your response strictly as a list of OLQs.
+3. Use this structure: <div style="margin-bottom: 4px;"><strong style="color: var(--accent);">[OLQ Name]:</strong> [1-sentence brief justification]</div>
+4. Identify 3 to 5 key OLQs (e.g., Courage, Effective Intelligence, Determination, Sense of Responsibility, Speed of Decision).`;
+
+  try {
+    const payload = {
+      model: 'gemini-2.5-flash',
+      contents: [{ parts: [{ text: prompt }] }]
+    };
+    const response = await fetch('/api/gemini', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if (!response.ok) throw new Error("API Error");
+    const data = await response.json();
+    let html = (data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
+    
+    const finalHtml = `<h4 style="color: var(--text-primary); margin-top: 0; margin-bottom: 8px; font-family: var(--font-logo); font-size: 0.95rem;">OLQs Exhibited:</h4>${html}`;
+    
+    localStorage.setItem(cacheKey, finalHtml);
+    container.innerHTML = finalHtml;
+  } catch (e) {
+    console.error("OLQ fetch error:", e);
+    container.innerHTML = "<span style='color: var(--warning);'>Failed to analyze OLQs at this time.</span>";
+  }
 }
 
 function showNextMotivation() {
