@@ -2941,14 +2941,14 @@ STRICT RULES:
     area.innerHTML = `
       <div class="no-print" style="margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px dashed rgba(255,255,255,0.2); padding-bottom: 12px;">
         <h3 style="color: var(--accent); margin: 0;">AI Generated Cheat Sheet</h3>
-        <button class="btn-primary" onclick="window.print()" style="padding: 6px 16px; font-size: 0.9rem;">
+        <button class="btn-primary" onclick="window.downloadCheatSheetImage()" style="padding: 6px 16px; font-size: 0.9rem;">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 6px;">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0110.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0l.229 2.523a1.125 1.125 0 01-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0021 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 00-1.913-.247M6.34 18H5.25A2.25 2.25 0 013 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 011.913-.247m10.5 0a48.536 48.536 0 00-10.5 0v3.396c0 .596.482 1.08 1.077 1.08h8.346c.595 0 1.077-.484 1.077-1.08V7.034z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
           </svg>
-          Print / Save PDF
+          Save as Image
         </button>
       </div>
-      <div style="background: var(--bg-secondary); padding: 20px; border-radius: 8px; color: var(--text-primary); border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2);">
+      <div id="cheat-sheet-content" style="background: var(--bg-secondary); padding: 20px; border-radius: 8px; color: var(--text-primary); border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2);">
         ${reportHtml}
       </div>
     `;
@@ -2962,6 +2962,34 @@ STRICT RULES:
     console.error("Cheat Sheet Error:", err);
     area.className = "ai-response-area fade-in";
     area.innerHTML = `<p style="color: var(--danger);">Failed to generate Graphic Cheat Sheet. Try again.</p>`;
+  }
+}
+
+window.downloadCheatSheetImage = async function() {
+  const content = document.getElementById("cheat-sheet-content");
+  if (!content) return;
+  
+  if (typeof html2canvas === 'undefined') {
+    alert("Image generator library is loading, please wait a second and try again.");
+    return;
+  }
+  
+  try {
+    const canvas = await html2canvas(content, {
+      backgroundColor: "#111827", // match var(--bg-secondary)
+      scale: 2 // higher res
+    });
+    
+    const imgData = canvas.toDataURL("image/jpeg", 0.95);
+    const link = document.createElement('a');
+    link.href = imgData;
+    link.download = `Jayastra_CheatSheet_${Date.now()}.jpg`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  } catch (err) {
+    console.error("Error generating image:", err);
+    alert("Failed to save image. Please try again.");
   }
 }
 
