@@ -112,7 +112,7 @@ function traverseAndProcess(node, path) {
                     else if (/(acid|base|metal|chemical|carbon|compound|atom)/.test(txt)) targetSub = 'chemistry';
                     
                     const newChapter = classifyQuestion(q.question, targetSub);
-                    if (newChapter && ['general_knowledge', 'Unknown', 'science', 'physics', 'chemistry', 'biology'].includes(q.topicId)) {
+                    if (newChapter) {
                         q.topicId = newChapter;
                         fixedCount++;
                     }
@@ -125,7 +125,7 @@ function traverseAndProcess(node, path) {
             node.forEach(q => {
                 if (q.question) {
                     const newChapter = classifyQuestion(q.question, inferredSubject);
-                    if (newChapter && ['general_knowledge', 'Unknown', inferredSubject].includes(q.topicId)) {
+                    if (newChapter) {
                         q.topicId = newChapter;
                         fixedCount++;
                     }

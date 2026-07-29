@@ -60,15 +60,30 @@ const chapterRules = {
         { keywords: ['plant', 'animal', 'kingdom', 'phylum', 'species', 'classification', 'algae'], id: 'biology-kingdoms' },
         { keywords: ['photosynthesis', 'root', 'stem', 'leaf', 'flower', 'xylem', 'phloem'], id: 'biology-botany' },
         { keywords: ['ecosystem', 'food chain', 'pollution', 'environment', 'biodiversity'], id: 'biology-ecology' }
+    ],
+    mathematics: [
+        { keywords: ['sin', 'cos', 'tan', 'sec', 'cosec', 'cot', 'angle', 'triangle', 'height', 'distance', 'trigonometr'], id: 'trigonometry' },
+        { keywords: ['complex', 'root', 'equation', 'polynomial', 'matrix', 'determinant', 'vector', 'algebra', 'series', 'progression'], id: 'algebra-complex' },
+        { keywords: ['line', 'circle', 'parabola', 'ellipse', 'hyperbola', 'coordinate', 'plane', 'point', 'distance'], id: '2d-geometry' },
+        { keywords: ['limit', 'derivative', 'integral', 'function', 'maxima', 'minima', 'continuity', 'differentiab'], id: 'calculus' },
+        { keywords: ['probability', 'mean', 'median', 'mode', 'variance', 'standard deviation', 'distribution', 'dice', 'coin'], id: 'probability-stats' },
+        { keywords: ['area', 'volume', 'surface', 'cylinder', 'cone', 'sphere', 'cube', 'cuboid', 'mensuration'], id: 'mensuration' },
+        { keywords: ['percent', 'profit', 'loss', 'interest', 'ratio', 'proportion', 'time', 'work', 'distance', 'speed', 'average'], id: 'arithmetic' }
+    ],
+    english: [
+        { keywords: ['synonym', 'antonym', 'meaning', 'word', 'vocabulary', 'idiom', 'phrase', 'spell'], id: 'vocabulary' },
+        { keywords: ['error', 'grammar', 'tense', 'noun', 'verb', 'adjective', 'adverb', 'preposition', 'conjunction', 'sentence', 'blank'], id: 'grammar-rules' },
+        { keywords: ['passage', 'comprehension', 'read', 'author', 'tone', 'title'], id: 'exam-patterns' }
     ]
 };
 
 function classifyQuestion(questionText, subjectStr) {
     let inferredSubject = null;
-    ['history', 'geography', 'polity', 'economics', 'physics', 'chemistry', 'biology'].forEach(s => {
+    ['history', 'geography', 'polity', 'economics', 'physics', 'chemistry', 'biology', 'mathematics', 'english', 'math'].forEach(s => {
         if (subjectStr.includes(s)) inferredSubject = s;
     });
     if (subjectStr.includes('economy')) inferredSubject = 'economy';
+    if (subjectStr.includes('math')) inferredSubject = 'mathematics';
     
     // For Science exams where it's mixed
     if (subjectStr.includes('science') || subjectStr.includes('general_awareness') || subjectStr.includes('general_knowledge')) {
@@ -106,15 +121,11 @@ function classifyQuestion(questionText, subjectStr) {
 
 exams.forEach(exam => {
     exam.questions.forEach(q => {
-        // If topicId is generic, update it
-        if (['general_knowledge', 'Unknown', 'science', 'history', 'geography', 'polity', 'economics', 'physics', 'chemistry', 'biology'].includes(q.topicId)) {
-            // pass exam subject + topicId as context
-            const contextStr = (exam.subject + ' ' + q.topicId).toLowerCase();
-            const newChapter = classifyQuestion(q.question, contextStr);
-            if (newChapter) {
-                q.topicId = newChapter;
-                fixedCount++;
-            }
+        const contextStr = (exam.subject + ' ' + (q.topicId || '')).toLowerCase();
+        const newChapter = classifyQuestion(q.question, contextStr);
+        if (newChapter) {
+            q.topicId = newChapter;
+            fixedCount++;
         }
     });
 });

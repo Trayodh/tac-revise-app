@@ -4,7 +4,7 @@ const path = require('path');
 const vm = require('vm');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
-const DATA_JS_PATH = path.join(__dirname, 'data.js');
+const DATA_JS_PATH = path.join(__dirname, 'questions_data.js');
 const PROGRESS_FILE = path.join(__dirname, 'scratch', 'classification_state_v2.json');
 const OUTPUT_JSON_FILE = path.join(__dirname, 'scratch', 'classified_questions.json');
 const OUTPUT_CSV_FILE = path.join(__dirname, 'scratch', 'classified_questions.csv');
