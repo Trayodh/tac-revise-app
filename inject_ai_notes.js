@@ -153,15 +153,23 @@
 
     // ─── Helper: strip MCQ blocks and extract them ────────────────────────────
     function stripMCQs(htmlNotes) {
-        // Remove standalone MCQ patterns:
-        // Matches numbered questions followed by (a)/(b)/(c)/(d) option blocks
-        const cleaned = htmlNotes
-            // Remove entire MCQ question blocks (numbered + options)
-            .replace(/\d+\.\s+(?:(?!\d+\.\s).)+?\([a-d]\)[^<]{0,300}(?:\([a-d]\)[^<]{0,300}){3}/gs, '')
-            // Remove "Select the correct answer using the codes given below" boilerplate
-            .replace(/Select the correct answer using the codes given below\.?\s*/gi, '')
-            // Remove "Codes" tables (a/b/c/d pattern rows)
-            .replace(/Codes\s*[\(（]a[\)）][^<]{0,200}[\(（]b[\)）][^<]{0,200}[\(（]c[\)）][^<]{0,200}[\(（]d[\)）][^<]{0,200}/gs, '')
+        let cleaned = htmlNotes
+            // Remove "GENERAL STUDIES N. ..." style question banks
+            .replace(/GENERAL\s+STUDIES\s+\d+\.[\s\S]*?(?=<\/|$)/gi, '')
+            // Remove numbered MCQ question blocks with (a)(b)(c)(d) options
+            .replace(/\d+\.\s+(?:(?!\d+\.\s).)+?(?:\([a-d]\)[^<(]{0,250}){3,}/gs, '')
+            // Remove lone option lines: "(a) something (b) something (c) ... (d) ..."
+            .replace(/\([a-d]\)\s*[^<(]{5,200}(?:\([a-d]\)\s*[^<(]{5,200}){2,}/g, '')
+            // Remove "Consider the following statements" question stems
+            .replace(/Consider the following statements?[\s\S]{0,800}?(?:Select|Choose|Which of the above)/gi, '')
+            // Remove "Which of the following" style questions with options
+            .replace(/Which of the following[\s\S]{0,400}?(?:\([a-d]\)[^<(]{0,200}){2,}/gi, '')
+            // Remove "Match the following" table MCQs
+            .replace(/Match the following[\s\S]{0,600}?(?:\([a-d]\)[^<(]{0,200}){2,}/gi, '')
+            // Remove boilerplate lines
+            .replace(/Select the correct answer using (the )?codes? given below\.?\s*/gi, '')
+            .replace(/Codes?\s*:?\s*(?:\([a-d]\)[^<\n]{0,100}\n?){2,}/gi, '')
+            .replace(/(?:Answer|Ans)[\s:.]+[A-D]\b[^\n]*/gi, '')
             .trim();
         return cleaned;
     }
@@ -175,6 +183,9 @@
             console.warn(`[inject_ai_notes] Subject "${subjectKey}" not found. Skipping: ${topic.title}`);
             return;
         }
+
+        // ── Skip History: it has its own clean notes in notes_extra_history.js ──
+        if (subjectKey === 'history') return;
 
         const result = findBestChapter(subjectObj, topic);
         if (!result) return;
