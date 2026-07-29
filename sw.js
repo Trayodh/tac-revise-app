@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tac-revise-v24';
+const CACHE_NAME = 'tac-revise-v25';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -7,8 +7,7 @@ const ASSETS_TO_CACHE = [
   './notes_extra.js',
   './supabase_client.js',
   './manifest.json',
-  './icon-192.png',
-  './icon-512.png'
+  './assets/logo.jpeg'
 ];
 
 self.addEventListener('install', event => {
