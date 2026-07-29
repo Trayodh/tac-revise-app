@@ -4308,19 +4308,7 @@ const NOTES_DATABASE = {
             "id": "ancient-indian-culture",
             "title": "Ancient Indian Culture",
             "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Mrichchakatikam: Shudraka | Mudrarakshasa: Vishakhadatta | Yoga: Patanjali | Vaisheshika: Kanada",
-            "mindmap": {
-              "root": "Ancient Indian Culture",
-              "branches": [
-                {
-                  "title": "Literature & Philosophy",
-                  "subnodes": [
-                    "Sanskrit Drama",
-                    "6 Orthodox Schools (Shad-Darshana)"
-                  ]
-                }
-              ]
-            }
+            "formulas": "Mrichchakatikam: Shudraka | Mudrarakshasa: Vishakhadatta | Yoga: Patanjali | Vaisheshika: Kanada"
           }
         ]
       },
