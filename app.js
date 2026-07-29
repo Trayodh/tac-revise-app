@@ -1212,7 +1212,16 @@ function renderTopicView(subjectId, chapterId, topicId) {
     tabContentHtml = `
       <div class="tab-pane-content fade-in" style="height: 100%;">
         <div class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
-          ${topicId === 'all-equipment' ? '<div id="armed-forces-equipment-container"></div>' : parseWikiLinks(topic.notes || '')}
+          ${topicId === 'all-equipment' ? '<div id="armed-forces-equipment-container"></div>' : (() => {
+            const expandedHtml = (typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]) ? window.EXPANDED_NOTES_DATA[topic.id] : null;
+            if (expandedHtml) {
+              // Strip full HTML doc wrapper — extract only <body> inner content
+              const bodyMatch = expandedHtml.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+              const bodyContent = bodyMatch ? bodyMatch[1] : expandedHtml;
+              return `<div class="expanded-notes-content">${bodyContent}</div>`;
+            }
+            return parseWikiLinks(topic.notes || '');
+          })()}
           ${chapterDiagramHtml}
           ${(() => {
             if (typeof window.GEOGRAPHY_VISUALS_DB === 'undefined' || subjectId !== 'geography') return '';
