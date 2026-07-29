@@ -2912,12 +2912,14 @@ Generate a standalone HTML output that represents a highly visual, printable "Gr
 
 STRICT RULES:
 1. ONLY return raw HTML. Do not wrap it in markdown code blocks (\`\`\`html).
-2. The entire cheat sheet should be wrapped in a <div class="printable-cheat-sheet">.
-3. Use inline CSS styles extensively.
+2. The entire cheat sheet should be wrapped in a <div class="printable-cheat-sheet" style="max-width: 100%; overflow-wrap: break-word;">.
+3. Use inline CSS styles extensively. Ensure it is mobile-responsive by using flex-wrap where necessary.
 4. The theme MUST be Dark Mode (light text on dark backgrounds) matching a sleek, modern cyber/military aesthetic.
 5. Use CSS Grid or Flexbox to organize the data into distinct, colorful "boxes" or "cards" (e.g., pastel yellow for formulas, pastel blue for key concepts).
-6. Fill it with actual, highly accurate data (equations, dates, facts) regarding the topic. Don't use placeholders.
-7. Make the typography clear, legible, and structured for A4 paper. Include a large Title at the top.`;
+6. BE EXHAUSTIVE AND COMPREHENSIVE. Do NOT omit any important formulas, dates, or facts. Provide a complete reference.
+7. NEVER use HTML character entities for mathematical formatting (like &sub1; or &supx;). Always use actual LaTeX math syntax like \\( ... \\) for inline math and \\[ ... \\] for block equations, as MathJax is enabled.
+8. Fill it with actual, highly accurate data (equations, dates, facts). Don't use placeholders.
+9. Make the typography clear, legible, and structured for A4 paper. Include a large Title at the top.`;
 
   try {
     const payload = {
@@ -7964,7 +7966,7 @@ window.renderAdminDashboard = async function() {
     }
     return `
     <tr style='border-bottom: 1px solid rgba(255,255,255,0.05);'>
-      <td style='padding: 12px; font-weight: 600; display: flex; align-items: center; gap: 10px;'>
+      <td style='padding: 12px; font-weight: 600; display: flex; align-items: center; gap: 10px; white-space: nowrap;'>
         ${u.email}
         ${accountAgeText !== '-' ? `<span style='padding: 2px 8px; border-radius: 12px; background: rgba(255,255,255,0.08); color: var(--text-muted); font-size: 0.7rem; font-weight: 500;'>${accountAgeText}</span>` : ''}
       </td>
@@ -7974,7 +7976,7 @@ window.renderAdminDashboard = async function() {
         </span>
       </td>
       <td style='padding: 12px; font-family: monospace; color: var(--text-muted); font-size: 0.85rem;'>${u.transaction_id || '-'}</td>
-      <td style='padding: 12px; display: flex; gap: 8px; align-items: center;'>
+      <td style='padding: 12px; display: flex; gap: 8px; align-items: center; white-space: nowrap;'>
         <button onclick='updateUserStatus("${u.id || u.email}", "active")' style='padding: 4px 8px; background: transparent; color: var(--text-secondary); border: none; border-radius: 4px; cursor: pointer; font-size: 0.85rem; transition: color 0.2s;' onmouseover='this.style.color="#4ade80"' onmouseout='this.style.color="var(--text-secondary)"'>Approve</button>
         <button onclick='updateUserStatus("${u.id || u.email}", "locked")' style='padding: 4px 10px; background: #ef4444; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Lock</button>
         <button onclick='updateUserStatus("${u.id || u.email}", "pending_payment")' style='padding: 4px 10px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Reject</button>

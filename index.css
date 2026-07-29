@@ -1782,6 +1782,7 @@ h2 {
   display: flex;
   gap: 20px;
   padding: 2px 4px;
+  flex-wrap: wrap;
 }
 
 .ai-mode-selector label {

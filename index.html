@@ -105,7 +105,8 @@
       }
       
       /* Hide sidebar, show only app-content */
-      .app-container > :not(#app-content) { display: none !important; }
+      .app-container > :not(.main-content) { display: none !important; }
+      .main-content > :not(#app-content) { display: none !important; }
       #app-content { 
         display: block !important; 
         height: auto !important; 
@@ -1275,10 +1276,10 @@
           <table style="width: 100%; text-align: left; border-collapse: collapse;">
             <thead>
               <tr style="border-bottom: 1px solid var(--border);">
-                <th style="padding: 12px; color: var(--text-secondary);">Email</th>
-                <th style="padding: 12px; color: var(--text-secondary);">Status</th>
-                <th style="padding: 12px; color: var(--text-secondary);">Transaction ID</th>
-                <th style="padding: 12px; color: var(--text-secondary);">Actions</th>
+                <th style="padding: 12px; color: var(--text-secondary); white-space: nowrap;">Email</th>
+                <th style="padding: 12px; color: var(--text-secondary); white-space: nowrap;">Status</th>
+                <th style="padding: 12px; color: var(--text-secondary); white-space: nowrap;">Transaction ID</th>
+                <th style="padding: 12px; color: var(--text-secondary); white-space: nowrap;">Actions</th>
               </tr>
             </thead>
             <tbody id="admin-users-list">
