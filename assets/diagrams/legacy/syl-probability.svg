@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="#555"/>
+    </marker>
+    <style>
+      .box { font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:bold; text-anchor:middle; dominant-baseline:middle; }
+      .eq { font-family:Arial,Helvetica,sans-serif; font-size:20px; font-weight:bold; text-anchor:middle; dominant-baseline:middle; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="300" y="40" class="eq" fill="#333">Bayes Theorem</text>
+
+  <!-- Prior box -->
+  <rect x="100" y="150" width="120" height="60" fill="#4A90E2" rx="5" ry="5"/>
+  <text x="160" y="180" class="box" fill="#fff">Prior P(A)</text>
+
+  <!-- Likelihood box -->
+  <rect x="260" y="80" width="140" height="60" fill="#7ED321" rx="5" ry="5"/>
+  <text x="330" y="110" class="box" fill="#fff">Likelihood P(B|A)</text>
+
+  <!-- Evidence box -->
+  <rect x="260" y="300" width="140" height="60" fill="#F5A623" rx="5" ry="5"/>
+  <text x="330" y="330" class="box" fill="#fff">Evidence P(B)</text>
+
+  <!-- Equation -->
+  <text x="300" y="210" class="eq" fill="#222">P(A|B) = ( P(B|A) × P(A) ) ÷ P(B)</text>
+
+  <!-- Arrows -->
+  <line x1="220" y1="180" x2="260" y2="210" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="330" y1="140" x2="330" y2="190" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="330" y1="260" x2="330" y2="210" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+</svg>

@@ -1,0 +1,21 @@
+{
+  "title": "Opportunity Cost Decision Tree",
+  "subject": "Economics",
+  "chapter": "Opportunity Cost",
+  "topic": "Opportunity Cost Definition",
+  "difficulty": "Easy",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "opportunity cost",
+    "alternative",
+    "choice"
+  ],
+  "caption": "Decision‑tree illustrating the opportunity cost of watching a movie versus studying.",
+  "altText": "A decision tree starts with a decision node labeled 'Decision: Choose activity' that branches to two alternatives: 'Watch a movie' and 'Study for exam'. Each alternative leads to nodes showing time spent (3 hrs) and associated costs. The movie path includes a ticket cost of $12, both of which point to an opportunity‑cost node 'Lost study time'. The study path includes an opportunity‑cost node 'Missed movie enjoyment', which together with the time node points to a second opportunity‑cost node. Styling groups decision, activity, and cost nodes.",
+  "source": "Automated Pipeline"
+}

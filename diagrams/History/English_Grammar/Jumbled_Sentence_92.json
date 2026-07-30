@@ -1,0 +1,22 @@
+{
+  "title": "Jumbled Sentence 92",
+  "subject": "History",
+  "chapter": "English Grammar",
+  "topic": "Jumbled Sentences",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "jumbled",
+    "sentence",
+    "order",
+    "question 92"
+  ],
+  "caption": "Flowchart showing the steps to reorder the jumbled parts P, R, Q, S into the correct sequence.",
+  "altText": "A flowchart that begins with the jumbled sentence 92 and branches to four nodes labeled Part P, Part R, Part Q, and Part S. Each part connects to a node that identifies its grammatical role. All identification nodes converge on a reorder node that arranges the parts in the order P → R → Q → S, which then leads to a grammar‑check node and finally to a node representing the correctly ordered sentence.",
+  "source": "Automated Pipeline"
+}

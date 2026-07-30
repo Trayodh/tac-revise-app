@@ -1,0 +1,18 @@
+graph TD
+    A[Given: x < 0, k ∈ ℕ] --> B{Parity of k}
+    B -->|k odd| C[Statement 1: x^k < 0]
+    B -->|k odd| D[Statement 3: x·k < 0]
+    B -->|k even| E[Statement 2: x^k > 0]
+    B -->|k even| F[Statement 4: x·k > 0]
+    C --> G[True]
+    D --> G
+    E --> H[True]
+    F --> H
+    G --> I[Correct statements when k odd]
+    H --> J[Correct statements when k even]
+    I --> K[Incorrect: Statement 2]
+    J --> L[Incorrect: Statement 1]
+    classDef true fill:#c8e6c9,stroke:#388e3c;
+    classDef false fill:#ffcdd2,stroke:#d32f2f;
+    class G,H true;
+    class K,L false;

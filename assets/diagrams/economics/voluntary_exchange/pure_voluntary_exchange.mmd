@@ -1,0 +1,16 @@
+graph TD
+    V[Voluntary Exchange]:::process --> A
+    V --> B
+    A[Agent A]:::agent -->|Offers Goods| G[Goods]:::resource
+    B[Agent B]:::agent -->|Offers Services| S[Services]:::resource
+    G -->|Traded for| S
+    S -->|Traded for| G
+    A <--> B
+    A -->|Gains| UA[Higher Utility A]:::outcome
+    B -->|Gains| UB[Higher Utility B]:::outcome
+    UA -->|Result| WIN[Win‑Win Outcome]:::outcome
+    UB -->|Result| WIN
+    classDef agent fill:#ffccff,stroke:#333,stroke-width:2px;
+    classDef resource fill:#cce5ff,stroke:#333,stroke-width:2px;
+    classDef outcome fill:#ccffcc,stroke:#333,stroke-width:2px;
+    classDef process fill:#ffe5cc,stroke:#333,stroke-width:2px;

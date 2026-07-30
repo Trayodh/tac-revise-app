@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#333"/>
+    </marker>
+    <style>
+      .label {font-family:sans-serif;font-size:14px;fill:#333;}
+      .unit {font-family:sans-serif;font-size:12px;fill:#000;}
+    </style>
+  </defs>
+
+  <!-- Central SI Units box -->
+  <rect x="200" y="150" width="200" height="100" fill="#e0e0e0" stroke="#333" stroke-width="2"/>
+  <text x="300" y="170" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#000">SI Base Units</text>
+  <text x="210" y="190" class="unit">m – meter (length)</text>
+  <text x="210" y="205" class="unit">kg – kilogram (mass)</text>
+  <text x="210" y="220" class="unit">s – second (time)</text>
+  <text x="210" y="235" class="unit">A – ampere (current)</text>
+  <text x="210" y="250" class="unit">K – kelvin (temperature)</text>
+  <text x="210" y="265" class="unit">mol – mole (amount)</text>
+  <text x="210" y="280" class="unit">cd – candela (luminous intensity)</text>
+
+  <!-- Meter (distance) -->
+  <line x1="70" y1="210" x2="90" y2="210" stroke="#4CAF50" stroke-width="4"/>
+  <line x1="70" y1="220" x2="90" y2="220" stroke="#4CAF50" stroke-width="4"/>
+  <rect x="80" y="190" width="20" height="10" fill="#4CAF50"/>
+  <line x1="100" y1="200" x2="200" y2="200" stroke="#333" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="50" y="240" class="label">Meter (distance)</text>
+
+  <!-- Kilogram (mass) -->
+  <rect x="130" y="70" width="30" height="30" fill="#2196F3"/>
+  <line x1="150" y1="100" x2="200" y2="150" stroke="#333" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="115" y="130" class="label">Kilogram (mass)</text>
+
+  <!-- Second (time) -->
+  <circle cx="300" cy="30" r="20" fill="#FF9800"/>
+  <line x1="300" y1="30" x2="300" y2="50" stroke="#fff" stroke-width="2"/>
+  <line x1="300" y1="30" x2="315" y2="30" stroke="#fff" stroke-width="2"/>
+  <line x1="300" y1="50" x2="200" y2="150" stroke="#333" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="260" y="70" class="label">Second (time)</text>
+
+  <!-- Ampere (current) -->
+  <circle cx="480" cy="70" r="20" fill="#E91E63"/>
+  <line x1="480" y1="90" x2="400" y2="150" stroke="#333" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="440" y="130" class="label">Ampere (current)</text>
+
+  <!-- Kelvin (temperature) -->
+  <rect x="520" y="180" width="15" height="40" fill="#9C27B0"/>
+  <circle cx="527.5" cy="230" r="7" fill="#9C27B0"/>
+  <line x1="527.5" y1="180" x2="400" y2="200" stroke="#333" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="540" y="210" class="label">Kelvin (temperature)</text>
+
+  <!-- Mole (amount) -->
+  <polygon points="460,300 500,300 490,340 470,340" fill="#FF5722"/>
+  <line x1="480" y1="300" x2="400" y2="250" stroke="#333" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="420" y="340" class="label">Mole (amount)</text>
+
+  <!-- Candela (luminous intensity) -->
+  <circle cx="120" cy="340" r="15" fill="#FFC107"/>
+  <line x1="120" y1="340" x2="200" y2="250" stroke="#333" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="80" y="380" class="label">Candela (luminous intensity)</text>
+</svg>

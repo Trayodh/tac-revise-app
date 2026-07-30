@@ -1,0 +1,22 @@
+{
+  "title": "Intensifier Classification Mind Map",
+  "subject": "Polity",
+  "chapter": "English Grammar",
+  "topic": "Intensifiers",
+  "difficulty": "Easy",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "intensifier",
+    "adverb",
+    "adjective",
+    "mind map"
+  ],
+  "caption": "Mind‑map showing how intensifiers modify adjectives, adverbs, and verbs with common examples.",
+  "altText": "A diagram with a central node labeled Intensifiers branching to three categories: Adjectives, Adverbs, and Verbs. Each category further branches to example intensifier words such as very, extremely, utterly for adjectives; so, really for adverbs; and completely, absolutely for verbs.",
+  "source": "Automated Pipeline"
+}

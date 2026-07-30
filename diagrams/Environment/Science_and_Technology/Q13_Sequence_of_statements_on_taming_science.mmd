@@ -1,0 +1,33 @@
+graph TD
+    A[Start] --> B{Choose correct option}
+    B -->|Option A| C[Option A: P → Q → R → S]
+    B -->|Option B| D[Option B: P → R → Q → S]
+    B -->|Option C| E[Option C: Q → P → R → S]
+    B -->|Option D| F[Option D: P → Q → S → R]
+
+    C --> G1[P]
+    G1 --> G2[Q]
+    G2 --> G3[R]
+    G3 --> G4[S]
+    G4 --> Z[End]
+
+    D --> H1[P]
+    H1 --> H2[R]
+    H2 --> H3[Q]
+    H3 --> H4[S]
+    H4 --> Z
+
+    E --> I1[Q]
+    I1 --> I2[P]
+    I2 --> I3[R]
+    I3 --> I4[S]
+    I4 --> Z
+
+    F --> J1[P]
+    J1 --> J2[Q]
+    J2 --> J3[S]
+    J3 --> J4[R]
+    J4 --> Z
+
+    class G1,G2,G3,G4,C correctPath
+    classDef correctPath fill:#e0ffe0,stroke:#333,stroke-width:2px

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Title -->
+  <text x="300" y="30" font-family="Arial,Helvetica,sans-serif" font-size="24" text-anchor="middle" fill="#333">Earth Structure &amp; Atmosphere</text>
+  
+  <!-- Earth cross‑section -->
+  <g id="earth" transform="translate(150,200)">
+    <!-- Crust -->
+    <circle r="120" fill="#c19a6b"/>
+    <!-- Mantle -->
+    <circle r="100" fill="#f4a460"/>
+    <!-- Outer Core -->
+    <circle r="70" fill="#ff8c00"/>
+    <!-- Inner Core -->
+    <circle r="40" fill="#ff4500"/>
+    
+    <!-- Labels for Earth layers -->
+    <line x1="-130" y1="-80" x2="-120" y2="-70" stroke="#333" stroke-width="1"/>
+    <text x="-135" y="-85" font-family="Arial,Helvetica,sans-serif" font-size="14" text-anchor="end" fill="#333">Crust</text>
+    
+    <line x1="-110" y1="-30" x2="-100" y2="-20" stroke="#333" stroke-width="1"/>
+    <text x="-115" y="-35" font-family="Arial,Helvetica,sans-serif" font-size="14" text-anchor="end" fill="#333">Mantle</text>
+    
+    <line x1="-80" y1="20" x2="-70" y2="30" stroke="#333" stroke-width="1"/>
+    <text x="-85" y="15" font-family="Arial,Helvetica,sans-serif" font-size="14" text-anchor="end" fill="#333">Outer Core</text>
+    
+    <line x1="-40" y1="60" x2="-30" y2="70" stroke="#333" stroke-width="1"/>
+    <text x="-45" y="55" font-family="Arial,Helvetica,sans-serif" font-size="14" text-anchor="end" fill="#333">Inner Core</text>
+  </g>
+  
+  <!-- Atmosphere column -->
+  <g id="atmosphere" transform="translate(400,50)">
+    <!-- Troposphere -->
+    <rect y="0" width="120" height="30" fill="#87ceeb"/>
+    <text x="130" y="20" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333">Troposphere</text>
+    <!-- Stratosphere -->
+    <rect y="30" width="120" height="30" fill="#4682b4"/>
+    <text x="130" y="50" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333">Stratosphere</text>
+    <!-- Mesosphere -->
+    <rect y="60" width="120" height="30" fill="#4169e1"/>
+    <text x="130" y="80" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333">Mesosphere</text>
+    <!-- Thermosphere -->
+    <rect y="90" width="120" height="30" fill="#27408b"/>
+    <text x="130" y="110" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333">Thermosphere</text>
+    <!-- Exosphere -->
+    <rect y="120" width="120" height="30" fill="#1e3a5f"/>
+    <text x="130" y="140" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333">Exosphere</text>
+    
+    <!-- Arrow from column to Earth -->
+    <line x1="60" y1="150" x2="120" y2="120" stroke="#333" stroke-width="1" marker-end="url(#arrow)"/>
+  </g>
+  
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

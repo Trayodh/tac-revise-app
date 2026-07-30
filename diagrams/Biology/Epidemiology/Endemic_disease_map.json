@@ -1,0 +1,22 @@
+{
+  "title": "Endemic disease map",
+  "subject": "Biology",
+  "chapter": "Epidemiology",
+  "topic": "Endemic",
+  "difficulty": "Medium",
+  "rendering_engine": "AI_Image",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "endemic",
+    "disease",
+    "map",
+    "geographic area"
+  ],
+  "caption": "Map showing the geographic area where a disease remains endemic at baseline levels.",
+  "altText": "A white‑background map illustration that clearly labels country borders, major cities, and topographic features, with a specific region shaded in a gradient to represent the constant baseline presence of an endemic disease. The map includes a legend explaining the shading, a compass rose, and a scale bar, all rendered in high resolution with accurate colors and precise labeling.",
+  "source": "Automated Pipeline"
+}

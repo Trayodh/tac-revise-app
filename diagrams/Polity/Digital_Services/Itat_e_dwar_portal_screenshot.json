@@ -1,0 +1,22 @@
+{
+  "title": "Itat e-dwar portal screenshot",
+  "subject": "Polity",
+  "chapter": "Digital Services",
+  "topic": "Itat e-dwar",
+  "difficulty": "Easy",
+  "rendering_engine": "AI_Image",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "Itat e-dwar",
+    "e-filing",
+    "Income Tax",
+    "portal"
+  ],
+  "caption": "Mockup of the Itat e‑dwar e‑filing portal for the Income Tax Appellate Tribunal",
+  "altText": "A textbook‑style, high‑resolution illustration of the Itat e‑dwar e‑filing portal on a computer screen with a white background. The illustration shows the portal's header with the ITAT logo, a navigation bar with clearly labelled tabs (Home, File Return, Track Status, Help, Logout), a login panel with fields for User ID and Password and a Sign In button, and the main dashboard displaying labeled summary tiles for Pending Appeals, Submitted Documents, Notifications, and Recent Activity. Below the dashboard is a sample filing form with labeled fields for Appellant Name, PAN, Appeal Type dropdown, Upload Document selector, and a Submit Appeal button. The footer contains contact details and a disclaimer. All components are clearly labelled with arrows and text boxes, providing an accurate representation of the portal's user interface.",
+  "source": "Automated Pipeline"
+}

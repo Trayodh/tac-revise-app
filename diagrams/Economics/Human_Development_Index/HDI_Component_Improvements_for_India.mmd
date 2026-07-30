@@ -1,0 +1,21 @@
+graph TD
+    subgraph LE[Life Expectancy]
+        LE10[2010: 66.4 yr]
+        LE20[2020: 69.7 yr]
+    end
+    subgraph EY[Expected Years of Schooling]
+        EY10[2010: 10.5 yr]
+        EY20[2020: 12.2 yr]
+    end
+    subgraph MY[Mean Years of Schooling]
+        MY10[2010: 6.2 yr]
+        MY20[2020: 7.5 yr]
+    end
+    subgraph GNI[Gross National Income per Capita]
+        GNI10[2010: $5,500]
+        GNI20[2020: $7,200]
+    end
+    LE10 -->|+3.3 yr| LE20
+    EY10 -->|+1.7 yr| EY20
+    MY10 -->|+1.3 yr| MY20
+    GNI10 -->|+ $1,700| GNI20

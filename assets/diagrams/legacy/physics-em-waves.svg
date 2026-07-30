@@ -1,0 +1,42 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#333">Electromagnetic Spectrum</text>
+  
+  <!-- Electromagnetic Wave illustration -->
+  <path d="M20 200 q30 -30 60 0 t60 0 t60 0 t60 0 t60 0" stroke="#1f77b4" stroke-width="3" fill="none"/>
+  <text x="100" y="150" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333">Electromagnetic Wave (λ)</text>
+  
+  <!-- Spectrum bar -->
+  <g transform="translate(250,100)">
+    <!-- Radio -->
+    <rect width="80" height="200" fill="#ff7f0e"/>
+    <text x="40" y="225" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#fff">Radio</text>
+    <!-- Microwave -->
+    <rect x="80" width="60" height="200" fill="#2ca02c"/>
+    <text x="110" y="225" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#fff">Microwave</text>
+    <!-- Infrared -->
+    <rect x="140" width="50" height="200" fill="#d62728"/>
+    <text x="165" y="225" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#fff">Infrared</text>
+    <!-- Visible -->
+    <rect x="190" width="40" height="200" fill="#9467bd"/>
+    <text x="210" y="225" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#fff">Visible</text>
+    <!-- UV -->
+    <rect x="230" width="30" height="200" fill="#8c564b"/>
+    <text x="245" y="225" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#fff">UV</text>
+    <!-- X-ray -->
+    <rect x="260" width="20" height="200" fill="#e377c2"/>
+    <text x="270" y="225" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#fff">X‑ray</text>
+    <!-- Gamma -->
+    <rect x="280" width="10" height="200" fill="#7f7f7f"/>
+    <text x="285" y="225" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#fff">Gamma</text>
+  </g>
+  
+  <!-- Arrow indicating increasing frequency -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <line x1="250" y1="320" x2="540" y2="320" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="395" y="340" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333">Increasing Frequency →</text>
+</svg>

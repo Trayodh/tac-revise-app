@@ -1,0 +1,23 @@
+{
+  "title": "Mind map of passage on hunger, anxiety, and progress",
+  "subject": "Polity",
+  "chapter": "Comprehension",
+  "topic": "Passage Analysis",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "passage",
+    "mind map",
+    "hunger",
+    "anxiety",
+    "progress"
+  ],
+  "caption": "Mind map of hunger, anxiety and progress relationships",
+  "altText": "A diagram showing the central theme 'Progress of Mankind' linked to Birds, Humans, and a Comparison with Mice. Birds lead to Hunger which leads to Winter; Humans lead to Anxiety which leads to Starvation; all three branches converge on the Result that drives human progress.",
+  "source": "Automated Pipeline"
+}

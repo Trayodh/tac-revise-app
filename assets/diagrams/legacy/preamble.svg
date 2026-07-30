@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f9f9f9"/>
+  
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="#d0021b"/>
+    </marker>
+  </defs>
+  
+  <!-- Constitution rectangle -->
+  <rect x="150" y="80" width="300" height="200" fill="#4a90e2" rx="8" ry="8"/>
+  <!-- Preamble area -->
+  <rect x="150" y="80" width="300" height="60" fill="#357ABD" rx="8" ry="8"/>
+  <text x="300" y="115" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Preamble</text>
+  <!-- Constitution body label -->
+  <text x="300" y="190" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Constitution</text>
+  
+  <!-- Source boxes -->
+  <rect x="30" y="150" width="120" height="80" fill="#7ed321" rx="6" ry="6"/>
+  <text x="90" y="180" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Historical</text>
+  <text x="90" y="200" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Documents</text>
+  
+  <rect x="450" y="150" width="120" height="80" fill="#7ed321" rx="6" ry="6"/>
+  <text x="510" y="180" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Legal</text>
+  <text x="510" y="200" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Precedents</text>
+  
+  <rect x="240" y="300" width="120" height="80" fill="#7ed321" rx="6" ry="6"/>
+  <text x="300" y="330" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Public</text>
+  <text x="300" y="350" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Opinion</text>
+  
+  <!-- Arrows from sources to constitution -->
+  <line x1="150" y1="190" x2="120" y2="190" stroke="#d0021b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="450" y1="190" x2="480" y2="190" stroke="#d0021b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="300" y1="300" x2="300" y2="260" stroke="#d0021b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Sources label -->
+  <text x="300" y="120" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#333333" text-anchor="middle">Sources</text>
+</svg>

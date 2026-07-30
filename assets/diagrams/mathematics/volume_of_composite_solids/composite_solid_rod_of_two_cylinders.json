@@ -1,0 +1,22 @@
+{
+  "title": "Composite solid rod of two cylinders",
+  "subject": "Mathematics",
+  "chapter": "Volume of Composite Solids",
+  "topic": "Stacked cylinders",
+  "difficulty": "Easy",
+  "rendering_engine": "SVG",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "cylinder",
+    "stacked",
+    "volume",
+    "dimensions"
+  ],
+  "caption": "Side view of two stacked cylinders with their radii and heights labeled.",
+  "altText": "Diagram showing a composite solid rod formed by two cylinders stacked vertically. The lower cylinder has radius 7 cm and height 20 cm, represented by a larger ellipse and rectangle. The upper cylinder has radius 3.5 cm and height 10 cm, shown as a smaller ellipse on top of the lower one. Dimension lines label r₁ = 7 cm, h₁ = 20 cm for the lower part, and r₂ = 3.5 cm, h₂ = 10 cm for the upper part. The figure includes a title at the top.",
+  "source": "Automated Pipeline"
+}

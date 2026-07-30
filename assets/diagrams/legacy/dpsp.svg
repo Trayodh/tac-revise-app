@@ -1,0 +1,32 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#ffffff"/>
+  
+  <!-- Central box: Constitution of India -->
+  <rect x="250" y="160" width="100" height="80" fill="#e0e0e0" stroke="#777777" stroke-width="2"/>
+  <text x="300" y="190" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#000000">Constitution of India</text>
+  
+  <!-- Left box: Directive Principles of State Policy -->
+  <rect x="80" y="100" width="150" height="200" fill="#a0c4ff" stroke="#5555aa" stroke-width="2"/>
+  <text x="155" y="130" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#000000">Directive Principles of State Policy</text>
+  <text x="95" y="155" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">Art 36‑39</text>
+  <text x="95" y="180" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">• Socialism</text>
+  <text x="95" y="200" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">• Welfare of the people</text>
+  <text x="95" y="220" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">• Justice</text>
+  <text x="95" y="240" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">• Equality</text>
+  <text x="95" y="260" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">• Liberty</text>
+  
+  <!-- Right box: Fundamental Duties -->
+  <rect x="370" y="100" width="150" height="200" fill="#b5e48c" stroke="#55aa55" stroke-width="2"/>
+  <text x="445" y="130" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#000000">Fundamental Duties</text>
+  <text x="385" y="155" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">Art 51A</text>
+  <text x="385" y="180" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">• Respect the Constitution</text>
+  <text x="385" y="200" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">• Cherish national symbols</text>
+  <text x="385" y="220" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">• Uphold sovereignty</text>
+  <text x="385" y="240" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">• Promote harmony</text>
+  <text x="385" y="260" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">• Preserve environment</text>
+  
+  <!-- Connecting lines -->
+  <line x1="230" y1="200" x2="250" y2="200" stroke="#777777" stroke-width="2"/>
+  <line x1="350" y1="200" x2="370" y2="200" stroke="#777777" stroke-width="2"/>
+</svg>

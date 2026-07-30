@@ -1,0 +1,23 @@
+{
+  "title": "Social Sector Spending (2014‑2019)",
+  "subject": "Economics",
+  "chapter": "Public Expenditure",
+  "topic": "Social Sector Spending in India",
+  "difficulty": "Medium",
+  "rendering_engine": "SVG",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "social sector",
+    "education",
+    "GDP",
+    "spending",
+    "stagnation"
+  ],
+  "caption": "Bar chart of education spending as % of GDP (2014‑2019)",
+  "altText": "The diagram is a vertical bar chart with a white background. The title 'Social Sector Spending (2014‑2019)' appears at the top. The x‑axis runs from 2014 to 2019, each year labeled beneath a steel‑blue bar. The y‑axis is labeled 'Percentage of GDP (%)' and marked from 0% to 4% in 1% increments. Bars show percentages: 2014 – 2.8%, 2015 – 2.9%, 2016 – 3.0%, 2017 – 3.0%, 2018 – 3.0%, 2019 – 3.1%. The chart emphasizes the stagnation, with only a slight increase between 2014 and 2019.",
+  "source": "Automated Pipeline"
+}

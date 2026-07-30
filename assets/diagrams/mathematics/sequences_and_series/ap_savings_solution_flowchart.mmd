@@ -1,0 +1,17 @@
+graph TD
+    A[Start] --> B[Identify known values]
+    B --> C[Write AP sum formula: S = n/2 * (2*a + (n-1)*d)]
+    C --> D[Substitute a = 2000, d = 1000, S = 170000]
+    D --> E[Simplify: 170000 = n/2 * (4000 + 1000*(n-1))]
+    E --> F[Expand: 170000 = n/2 * (1000n + 3000)]
+    F --> G[Multiply both sides by 2: 340000 = n*(1000n + 3000)]
+    G --> H[Form quadratic: 1000n^2 + 3000n - 340000 = 0]
+    H --> I[Solve quadratic using formula]
+    I --> J[Compute discriminant: Δ = 3000^2 + 4*1000*340000]
+    J --> K[Find positive root: n = (-3000 + sqrt(Δ)) / (2*1000)]
+    K --> L[Calculate n ≈ 14]
+    L --> M[Verify by plugging back into sum formula]
+    M --> N[Conclusion: 14 years]
+    N --> O[End]
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
+    class A,O startEnd;

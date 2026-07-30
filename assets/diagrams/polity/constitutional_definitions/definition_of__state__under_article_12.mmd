@@ -1,0 +1,29 @@
+graph TD
+    S[State (Article 12)]
+    UG[Union Government]
+    P[Parliament]
+    LS[Lok Sabha]
+    RS[Rajya Sabha]
+    SG[State Governments]
+    SL[State Legislatures]
+    LA[Local Authorities]
+    M[Municipalities]
+    PD[Panchayat Institutions]
+    
+    S --> UG
+    S --> P
+    P --> LS
+    P --> RS
+    S --> SG
+    S --> SL
+    S --> LA
+    LA --> M
+    LA --> PD
+    
+    classDef root fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef gov fill:#bbf,stroke:#333;
+    classDef local fill:#bfb,stroke:#333;
+    
+    class S root;
+    class UG,P,SG,SL gov;
+    class LA,M,PD local;

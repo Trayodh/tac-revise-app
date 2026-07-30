@@ -1,0 +1,28 @@
+graph TD
+    EQ[Earthquake]
+    ST[Strength]
+    PD[Population Density]
+    BT[Building Type]
+    CL[Climate]
+    DM[Damage Extent]
+    INF[Infrastructure Damage]
+    HC[Human Casualties]
+
+    EQ --> ST
+    EQ --> PD
+    EQ --> BT
+    EQ --> CL
+
+    ST --> DM
+    PD --> DM
+    BT --> DM
+    CL -.-> DM
+
+    DM --> INF
+    DM --> HC
+
+    class ST,PD,BT,INF,HC effect;
+    class CL noEffect;
+
+    classDef effect stroke:#333,stroke-width:2px;
+    classDef noEffect stroke-dasharray:5,5,color:red,stroke-width:2px;

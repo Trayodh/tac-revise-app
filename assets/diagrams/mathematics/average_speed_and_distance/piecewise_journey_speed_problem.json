@@ -1,0 +1,24 @@
+{
+  "title": "Piecewise Journey Speed Problem",
+  "subject": "Mathematics",
+  "chapter": "Average Speed and Distance",
+  "topic": "Three‑segment speed scenario vs. two‑segment scenario",
+  "difficulty": "Hard",
+  "rendering_engine": "SVG",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "speed",
+    "distance",
+    "time",
+    "piecewise",
+    "journey",
+    "average speed"
+  ],
+  "caption": "Three‑segment vs. two‑segment journey showing a 4‑minute time difference and total distance 240 km.",
+  "altText": "Diagram illustrating a journey of total distance D split into three equal parts of 80 km each, traveled at speeds 60 km/h, 50 km/h, and 40 km/h (top line). Below, the same total distance is split into two equal parts of 120 km each, traveled at speeds 60 km/h and 40 km/h. Time for each segment is shown, and a vertical arrow between the two total times indicates a 4‑minute difference. Solving the equation yields D = 240 km.",
+  "source": "Automated Pipeline"
+}

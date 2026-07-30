@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Definitions for arrowheads -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Central Constitution box -->
+  <rect x="200" y="150" width="200" height="80" fill="#2E86C1" rx="5" ry="5"/>
+  <text x="300" y="185" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#fff" text-anchor="middle" dominant-baseline="middle">Constitution</text>
+
+  <!-- Legislature box (left) -->
+  <rect x="50" y="100" width="130" height="80" fill="#A93226" rx="5" ry="5"/>
+  <text x="115" y="130" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#fff" text-anchor="middle" dominant-baseline="middle">Legislature</text>
+  <text x="115" y="150" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#fff" text-anchor="middle" dominant-baseline="middle">(Oversight)</text>
+
+  <!-- Judiciary box (right) -->
+  <rect x="420" y="100" width="130" height="80" fill="#239B56" rx="5" ry="5"/>
+  <text x="485" y="130" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#fff" text-anchor="middle" dominant-baseline="middle">Judiciary</text>
+  <text x="485" y="150" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#fff" text-anchor="middle" dominant-baseline="middle">(Review)</text>
+
+  <!-- Public Safety circle (bottom) -->
+  <circle cx="300" cy="320" r="50" fill="#F1C40F"/>
+  <text x="300" y="320" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333" text-anchor="middle" dominant-baseline="middle">Public Safety</text>
+
+  <!-- Arrows from Constitution to other entities -->
+  <path d="M300,150 L115,100" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M300,150 L485,100" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M300,230 L300,270" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- Labels for arrows -->
+  <text x="210" y="120" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333">Emergency Powers</text>
+  <text x="380" y="120" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333">Judicial Review</text>
+  <text x="320" y="250" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333">Implementation</text>
+</svg>

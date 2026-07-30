@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="300" y="40" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#212121" text-anchor="middle">Measures of Central Tendency</text>
+  
+  <!-- X‑axis -->
+  <line x1="80" y1="300" x2="520" y2="300" stroke="#aaaaaa" stroke-width="2"/>
+  
+  <!-- Distribution curve (bell shape) -->
+  <path d="M100,300 C150,200 250,200 300,150 S450,200 500,300"
+        fill="none" stroke="#555555" stroke-width="2"/>
+  
+  <!-- Mode (peak) -->
+  <rect x="274" y="144" width="12" height="12" fill="#1e88e5"/>
+  <line x1="280" y1="156" x2="260" y2="130" stroke="#333333" stroke-width="1"/>
+  <text x="260" y="120" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#212121" text-anchor="end">Mode</text>
+  
+  <!-- Mean -->
+  <circle cx="300" cy="150" r="6" fill="#e53935"/>
+  <line x1="306" y1="150" x2="340" y2="130" stroke="#333333" stroke-width="1"/>
+  <text x="350" y="130" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#212121">Mean</text>
+  
+  <!-- Median -->
+  <polygon points="340,174 334,186 346,186" fill="#43a047"/>
+  <line x1="340" y1="186" x2="380" y2="210" stroke="#333333" stroke-width="1"/>
+  <text x="390" y="210" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#212121">Median</text>
+</svg>

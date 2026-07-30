@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+    <marker id="lineArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0066cc"/>
+    </marker>
+  </defs>
+
+  <!-- Axes -->
+  <line x1="50" y1="350" x2="550" y2="350" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="50" y1="350" x2="50" y2="50" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Axis labels -->
+  <text x="560" y="360" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#333">x</text>
+  <text x="30" y="45" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#333">y</text>
+
+  <!-- Straight line -->
+  <line x1="100" y1="300" x2="500" y2="150" stroke="#0066cc" stroke-width="3" marker-end="url(#lineArrow)"/>
+
+  <!-- Line label -->
+  <text x="320" y="210" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#0066cc">y = 2x + 1</text>
+
+  <!-- Slope triangle (rise/run) -->
+  <g stroke="#ff6600" stroke-width="2" fill="none" stroke-dasharray="5,5">
+    <!-- base (run) -->
+    <line x1="200" y1="250" x2="300" y2="250"/>
+    <!-- vertical (rise) -->
+    <line x1="300" y1="250" x2="300" y2="200"/>
+    <!-- hypotenuse (line segment) -->
+    <line x1="200" y1="250" x2="300" y2="200"/>
+  </g>
+
+  <!-- Rise label -->
+  <text x="305" y="225" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#ff6600" transform="rotate(-90 305,225)">rise</text>
+  <!-- Run label -->
+  <text x="250" y="265" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#ff6600">run</text>
+
+  <!-- Slope value -->
+  <text x="340" y="180" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#ff6600">slope = rise/run = 2</text>
+</svg>

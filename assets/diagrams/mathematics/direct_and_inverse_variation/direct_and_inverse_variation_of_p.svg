@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="white"/>
+  <text x="200" y="30" text-anchor="middle" font-size="18" font-family="sans-serif">Direct and Inverse Variation of p</text>
+  <!-- q circle -->
+  <circle cx="80" cy="200" r="30" fill="none" stroke="black"/>
+  <text x="80" y="205" text-anchor="middle" font-size="16" font-family="sans-serif">q</text>
+  <text x="80" y="250" text-anchor="middle" font-size="12" font-family="sans-serif">q₀</text>
+  <text x="80" y="140" text-anchor="middle" font-size="12" font-family="sans-serif">q₁ = 1.2 q₀</text>
+  <!-- r circle -->
+  <circle cx="200" cy="200" r="30" fill="none" stroke="black"/>
+  <text x="200" y="205" text-anchor="middle" font-size="16" font-family="sans-serif">r</text>
+  <text x="200" y="250" text-anchor="middle" font-size="12" font-family="sans-serif">r₀</text>
+  <text x="200" y="140" text-anchor="middle" font-size="12" font-family="sans-serif">r₁ = 0.8 r₀</text>
+  <!-- p circle -->
+  <circle cx="320" cy="200" r="30" fill="none" stroke="black"/>
+  <text x="320" y="205" text-anchor="middle" font-size="16" font-family="sans-serif">p</text>
+  <text x="320" y="250" text-anchor="middle" font-size="12" font-family="sans-serif">p₀</text>
+  <text x="320" y="140" text-anchor="middle" font-size="12" font-family="sans-serif">p₁ = 1.875 p₀</text>
+  <!-- arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="black"/>
+    </marker>
+    <marker id="arrowCurved" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="black"/>
+    </marker>
+  </defs>
+  <path d="M110,200 L290,200" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M230,200 C250,150 270,150 290,200" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowCurved)"/>
+  <!-- formula text -->
+  <text x="200" y="320" text-anchor="middle" font-size="14" font-family="sans-serif">p ∝ q / r²</text>
+  <text x="200" y="340" text-anchor="middle" font-size="12" font-family="sans-serif">20 % ↑ q, 20 % ↓ r ⇒ 87.5 % ↑ p</text>
+</svg>

@@ -1,0 +1,20 @@
+graph TD
+    A[Start]:::start
+    B[Input expression: (ab)/(ab) ±]:::proc
+    C[Identify common factor ab]:::proc
+    D[Cancel ab → ratio = 1]:::proc
+    E[Apply ± sign]:::proc
+    F[Multiply by 5]:::proc
+    G[Result: ±5]:::result
+    H[End]:::end
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    classDef start fill:#e0f7fa,stroke:#006064,color:#006064;
+    classDef proc fill:#fff3e0,stroke:#e65100,color:#e65100;
+    classDef result fill:#e8f5e9,stroke:#2e7d32,color:#2e7d32;
+    classDef end fill:#f3e5f5,stroke:#4a148c,color:#4a148c;

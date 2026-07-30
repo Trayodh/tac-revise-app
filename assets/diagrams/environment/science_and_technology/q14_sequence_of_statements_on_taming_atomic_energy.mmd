@@ -1,0 +1,16 @@
+graph TD
+    A[Start] --> B[Statement P: Recognize atomic energy potential]
+    B --> C[Statement Q: Assess risks and benefits]
+    C --> D[Statement R: Develop safety protocols]
+    D --> E[Statement S: Promote peaceful applications]
+    E --> F{Is usage peaceful?}
+    F -- Yes --> G[Outcome: Sustainable energy for society]
+    F -- No --> H[Outcome: Potential for conflict]
+    G --> I[End]
+    H --> I
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef decision fill:#ff9,stroke:#333,stroke-width:2px;
+    classDef process fill:#bbf,stroke:#333,stroke-width:2px;
+    class A,I startEnd;
+    class F decision;
+    class B,C,D,E,G,H process;

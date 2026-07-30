@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#ff6600"/>
+    </marker>
+    <style>
+      .axis {stroke:#555;stroke-width:1;}
+      .circle {stroke:#333;stroke-width:2;fill:none;}
+      .angle-arc {stroke:#ff6600;stroke-width:2;fill:none;marker-end:url(#arrowhead);}
+      .point {fill:#ff6600;}
+      .proj {stroke:#999;stroke-dasharray:4 2;stroke-width:1;}
+      .label {font-family:Arial,Helvetica,sans-serif;font-size:14px;fill:#222;}
+      .table-bg {fill:#f9f9f9;stroke:#ccc;stroke-width:1;}
+    </style>
+  </defs>
+
+  <!-- Axes -->
+  <line x1="50" y1="200" x2="350" y2="200" class="axis"/>
+  <line x1="200" y1="50" x2="200" y2="350" class="axis"/>
+
+  <!-- Unit Circle -->
+  <circle cx="200" cy="200" r="150" class="circle"/>
+
+  <!-- Angle theta -->
+  <path d="M200,200 L350,200 A150,150 0 0,1 332.5,332.5" class="angle-arc"/>
+
+  <!-- Point on circle (cosθ, sinθ) -->
+  <circle cx="332.5" cy="332.5" r="5" class="point"/>
+
+  <!-- Projections -->
+  <line x1="332.5" y1="332.5" x2="332.5" y2="200" class="proj"/>
+  <line x1="332.5" y1="332.5" x2="200" y2="332.5" class="proj"/>
+
+  <!-- Labels for cosθ and sinθ -->
+  <text x="340" y="190" class="label">θ</text>
+  <text x="340" y="210" class="label">θ</text>
+  <text x="340" y="190" class="label" text-anchor="middle">θ</text>
+  <text x="340" y="190" class="label" text-anchor="middle">θ</text>
+
+  <text x="380" y="200" class="label" text-anchor="start">cos θ</text>
+  <text x="200" y="380" class="label" text-anchor="middle">sin θ</text>
+
+  <!-- Labels for axes -->
+  <text x="340" y="215" class="label" text-anchor="middle">x</text>
+  <text x="185" y="45" class="label" text-anchor="middle">y</text>
+
+  <!-- Identity Table -->
+  <rect x="380" y="50" width="200" height="300" class="table-bg"/>
+  <text x="390" y="80" class="label" font-weight="bold">Key Trig Identities</text>
+  <text x="390" y="110" class="label">sin²θ + cos²θ = 1</text>
+  <text x="390" y="140" class="label">tanθ = sinθ / cosθ</text>
+  <text x="390" y="170" class="label">sin(−θ) = −sinθ</text>
+  <text x="390" y="200" class="label">cos(−θ) = cosθ</text>
+  <text x="390" y="230" class="label">sin(θ ± φ) = sinθ cosφ ± cosθ sinφ</text>
+  <text x="390" y="260" class="label">cos(θ ± φ) = cosθ cosφ ∓ sinθ sinφ</text>
+  <text x="390" y="290" class="label">tan(θ ± φ) = (tanθ ± tanφ)/(1 ∓ tanθ tanφ)</text>
+</svg>

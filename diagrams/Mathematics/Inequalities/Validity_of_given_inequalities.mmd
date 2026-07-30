@@ -1,0 +1,23 @@
+graph TD
+    S[Start] --> C1{Inequality 1 holds?}
+    C1 -->|Yes| N1[Statement 1 true]
+    C1 -->|No| End0[Conclusion: No statement true]
+    N1 --> C2{Inequality 2 holds?}
+    C2 -->|Yes| N2[Statement 2 true]
+    C2 -->|No| N2F[Statement 2 false]
+    N2 --> EndMore[Conclusion: More than one statement true]
+    N2F --> C3{Inequality 3 holds?}
+    C3 -->|Yes| N3[Statement 3 true]
+    C3 -->|No| N3F[Statement 3 false]
+    N3 --> EndMore
+    N3F --> C4{Inequality 4 holds?}
+    C4 -->|Yes| N4[Statement 4 true]
+    C4 -->|No| N4F[Statement 4 false]
+    N4 --> EndMore
+    N4F --> End[Conclusion: Only statement 1 is correct]
+    classDef trueNode fill:#c8e6c9,stroke:#388e3c;
+    classDef falseNode fill:#ffcdd2,stroke:#d32f2f;
+    classDef conclusion fill:#bbdefb,stroke:#1976d2;
+    class N1,N2,N3,N4 trueNode;
+    class N2F,N3F,N4F falseNode;
+    class End,EndMore,End0 conclusion;

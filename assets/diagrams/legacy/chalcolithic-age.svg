@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f5f5f5"/>
+  
+  <!-- Title -->
+  <text x="300" y="40" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#333" text-anchor="middle">Chalcolithic Age (Copper Age)</text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="350" x2="500" y2="350" stroke="#555" stroke-width="2"/>
+  <circle cx="100" cy="350" r="5" fill="#555"/>
+  <circle cx="500" cy="350" r="5" fill="#555"/>
+  <text x="100" y="370" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333" text-anchor="middle">c. 4500 BCE</text>
+  <text x="500" y="370" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333" text-anchor="middle">c. 3500 BCE</text>
+  <text x="300" y="380" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333" text-anchor="middle">Timeline</text>
+  
+  <!-- Copper Ingot -->
+  <rect x="150" y="120" width="80" height="40" rx="8" ry="8" fill="#b87333"/>
+  <text x="190" y="115" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333" text-anchor="middle">Copper Ingot</text>
+  <line x1="190" y1="115" x2="190" y2="120" stroke="#333" stroke-width="1"/>
+  
+  <!-- Copper Axe -->
+  <path d="M350 130 L380 130 L380 150 L350 150 Z M365 130 L365 110 L375 110 L375 130" fill="#b87333"/>
+  <text x="365" y="105" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333" text-anchor="middle">Copper Axe</text>
+  <line x1="365" y1="105" x2="365" y2="110" stroke="#333" stroke-width="1"/>
+  
+  <!-- Settlement (House) -->
+  <rect x="460" y="150" width="60" height="40" fill="#8da0cb"/>
+  <polygon points="460,150 490,120 520,150" fill="#8da0cb"/>
+  <text x="490" y="115" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333" text-anchor="middle">Settlement</text>
+  <line x1="490" y1="115" x2="490" y2="120" stroke="#333" stroke-width="1"/>
+  
+  <!-- Map Silhouette (simplified) -->
+  <path d="M80 250 C100 200, 180 200, 200 250 C220 300, 300 300, 320 250 C340 200, 420 200, 440 250 L440 320 L80 320 Z" fill="#c2c2c2"/>
+  <text x="260" y="340" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333" text-anchor="middle">Early Chalcolithic Settlements</text>
+</svg>

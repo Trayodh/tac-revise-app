@@ -1,0 +1,75 @@
+graph TD
+    S[Start] --> T{Select type}
+    T -->|Preposition| P1[Preposition path]
+    T -->|Determiner| D1[Determiner path]
+
+    P1 --> M1{Meaning category}
+    M1 -->|Location| L1[Location: in / on / at]
+    M1 -->|Direction| D2[Direction: to / toward / into]
+    M1 -->|Time| T2[Time: at / on / in / during]
+    M1 -->|Purpose| P2[Purpose: for / to / in order to]
+
+    L1 --> C1[Check collocation]
+    D2 --> C1
+    T2 --> C1
+    P2 --> C1
+
+    C1 --> G1[Check grammatical function]
+    G1 --> O1[Select appropriate preposition]
+    O1 --> E[End]
+
+    D1 --> N1{Noun type}
+    N1 -->|Countable singular| CS[Singular countable]
+    N1 -->|Countable plural| CP[Plural countable]
+    N1 -->|Uncountable| UC[Uncountable]
+
+    CS --> S1{Specificity}
+    CP --> S1
+    UC --> S1
+
+    S1 -->|Definite| Df[the]
+    S1 -->|Indefinite| Di[a / an]
+    S1 -->|Demonstrative| Dm[this / that / these / those]
+
+    Df --> Q1{Quantity}
+    Di --> Q1
+    Dm --> Q1
+
+    Q1 -->|Some / Any| QA[some / any]
+    Q1 -->|Many / Few| QB[many / few]
+    Q1 -->|Each / Every| QC[each / every]
+
+    QA --> O2[Select determiner]
+    QB --> O2
+    QC --> O2
+    O2 --> E
+
+    classDef start fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef decision fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef process fill:#bfb,stroke:#333,stroke-width:2px;
+    class S,start;
+    class T,decision;
+    class P1,process;
+    class D1,process;
+    class M1,decision;
+    class L1,process;
+    class D2,process;
+    class T2,process;
+    class P2,process;
+    class C1,process;
+    class G1,decision;
+    class O1,process;
+    class N1,decision;
+    class CS,process;
+    class CP,process;
+    class UC,process;
+    class S1,decision;
+    class Df,process;
+    class Di,process;
+    class Dm,process;
+    class Q1,decision;
+    class QA,process;
+    class QB,process;
+    class QC,process;
+    class O2,process;
+    class E,process;

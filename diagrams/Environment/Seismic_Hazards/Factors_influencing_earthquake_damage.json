@@ -1,0 +1,24 @@
+{
+  "title": "Factors influencing earthquake damage",
+  "subject": "Environment",
+  "chapter": "Seismic Hazards",
+  "topic": "Damage determinants",
+  "difficulty": "Easy",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "earthquake",
+    "damage",
+    "strength",
+    "population density",
+    "building type",
+    "climate"
+  ],
+  "caption": "Factors influencing earthquake damage",
+  "altText": "A flowchart showing that earthquake strength, population density, and building type each have solid arrows pointing to Damage Extent, indicating they increase damage. Climate has a dotted red arrow to Damage Extent, indicating it does not influence damage. Damage Extent then leads to Infrastructure Damage and Human Casualties.",
+  "source": "Automated Pipeline"
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f5f5f5"/>
+  
+  <!-- Title -->
+  <text x="300" y="50" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#2c3e50">Interwar Period (1918‑1939)</text>
+  
+  <!-- Timeline line -->
+  <line x1="100" y1="200" x2="500" y2="200" stroke="#2c3e50" stroke-width="4"/>
+  
+  <!-- Markers and labels -->
+  <!-- 1919 Treaty of Versailles -->
+  <circle cx="120" cy="200" r="8" fill="#e67e22"/>
+  <text x="120" y="180" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#2c3e50">Treaty of Versailles (1919)</text>
+  
+  <!-- 1920 League of Nations -->
+  <circle cx="150" cy="200" r="8" fill="#e67e22"/>
+  <text x="150" y="180" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#2c3e50">League of Nations (1920)</text>
+  
+  <!-- 1922 Rise of Fascism (Mussolini) -->
+  <circle cx="200" cy="200" r="8" fill="#e67e22"/>
+  <text x="200" y="180" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#2c3e50">Mussolini (1922)</text>
+  
+  <!-- 1929 Great Depression -->
+  <circle cx="300" cy="200" r="8" fill="#e67e22"/>
+  <text x="300" y="180" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#2c3e50">Great Depression (1929)</text>
+  
+  <!-- 1933 Hitler becomes Chancellor -->
+  <circle cx="350" cy="200" r="8" fill="#e67e22"/>
+  <text x="350" y="180" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#2c3e50">Hitler (1933)</text>
+  
+  <!-- 1939 Outbreak of WWII -->
+  <circle cx="440" cy="200" r="8" fill="#e67e22"/>
+  <text x="440" y="180" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#2c3e50">WWII Begins (1939)</text>
+  
+  <!-- Bottom descriptions -->
+  <text x="100" y="240" font-family="sans-serif" font-size="12" fill="#2c3e50">1918 – End of World War I</text>
+  <text x="500" y="240" font-family="sans-serif" font-size="12" fill="#2c3e50">1939 – Start of World War II</text>
+</svg>

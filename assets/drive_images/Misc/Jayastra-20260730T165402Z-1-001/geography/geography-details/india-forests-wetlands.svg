@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#555"/>
+    </marker>
+    <style>
+      .label {font-family:Arial,sans-serif;font-size:14px;fill:#333;}
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="400" fill="#F5F5F5"/>
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#222">Forests, Trees &amp; Wetlands of India</text>
+  <!-- Forest area -->
+  <rect x="50" y="120" width="200" height="200" fill="#4CAF50" rx="5"/>
+  <!-- Trees inside forest -->
+  <g transform="translate(80,250)">
+    <rect width="10" height="30" y="-30" fill="#8D6E63"/>
+    <circle cx="5" cy="-40" r="20" fill="#81C784"/>
+  </g>
+  <g transform="translate(130,210)">
+    <rect width="10" height="30" y="-30" fill="#8D6E63"/>
+    <circle cx="5" cy="-40" r="20" fill="#81C784"/>
+  </g>
+  <g transform="translate(180,260)">
+    <rect width="10" height="30" y="-30" fill="#8D6E63"/>
+    <circle cx="5" cy="-40" r="20" fill="#81C784"/>
+  </g>
+  <g transform="translate(230,230)">
+    <rect width="10" height="30" y="-30" fill="#8D6E63"/>
+    <circle cx="5" cy="-40" r="20" fill="#81C784"/>
+  </g>
+  <!-- Wetland area -->
+  <path d="M380,150 C400,130 440,130 460,150 C480,170 480,210 460,230 C440,250 400,250 380,230 C360,210 360,170 380,150 Z"
+        fill="#4FC3F7" stroke="#0288D1" stroke-width="2"/>
+  <!-- Labels and arrows -->
+  <!-- Forest label -->
+  <text x="20" y="80" class="label">Forests</text>
+  <line x1="70" y1="80" x2="50" y2="120" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- Wetlands label -->
+  <text x="500" y="80" class="label" text-anchor="end">Wetlands</text>
+  <line x1="460" y1="80" x2="460" y2="150" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- Trees label -->
+  <text x="120" y="340" class="label">Trees</text>
+  <line x1="120" y1="340" x2="130" y2="260" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>

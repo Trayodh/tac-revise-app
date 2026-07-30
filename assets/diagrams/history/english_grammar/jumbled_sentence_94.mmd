@@ -1,0 +1,10 @@
+graph TD
+    O[Original Jumbled Sentence] --> Q[Part Q]
+    Q --> S[Part S]
+    S --> R[Part R]
+    R --> P[Part P]
+    P --> F[Reordered Sentence]
+    F --> G[Grammar Check]
+    G --> C[Final Correct Sentence]
+    classDef part fill:#f9f,stroke:#333,stroke-width:1px;
+    class Q,S,R,P part;

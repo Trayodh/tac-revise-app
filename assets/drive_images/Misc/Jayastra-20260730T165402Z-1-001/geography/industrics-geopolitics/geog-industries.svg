@@ -1,0 +1,43 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#ffffff"/>
+  <!-- India outline (simplified) -->
+  <rect x="50" y="50" width="500" height="300" fill="#f5f5f5" stroke="#cccccc"/>
+  <!-- Industrial Corridors -->
+  <line x1="150" y1="100" x2="200" y2="250" stroke="#555555" stroke-width="2" stroke-dasharray="5 5"/>
+  <line x1="150" y1="100" x2="450" y2="280" stroke="#555555" stroke-width="2" stroke-dasharray="5 5"/>
+  <line x1="150" y1="100" x2="470" y2="180" stroke="#555555" stroke-width="2" stroke-dasharray="5 5"/>
+  <line x1="200" y1="250" x2="220" y2="230" stroke="#555555" stroke-width="2" stroke-dasharray="5 5"/>
+  <line x1="450" y1="280" x2="400" y2="280" stroke="#555555" stroke-width="2" stroke-dasharray="5 5"/>
+  <!-- Major Industry Hubs -->
+  <circle cx="150" cy="100" r="12" fill="#2196F3"/>
+  <circle cx="200" cy="250" r="12" fill="#FF9800"/>
+  <circle cx="450" cy="280" r="12" fill="#4CAF50"/>
+  <circle cx="400" cy="280" r="12" fill="#9C27B0"/>
+  <circle cx="350" cy="200" r="12" fill="#9C27B0"/>
+  <circle cx="470" cy="180" r="12" fill="#F44336"/>
+  <circle cx="180" cy="150" r="12" fill="#FF9800"/>
+  <circle cx="220" cy="230" r="12" fill="#4CAF50"/>
+  <!-- Labels for Hubs -->
+  <text x="170" y="95" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Delhi (IT)</text>
+  <text x="210" y="255" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Mumbai (Textiles)</text>
+  <text x="460" y="285" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Chennai (Automotive)</text>
+  <text x="410" y="285" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Bengaluru (Pharma)</text>
+  <text x="360" y="205" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Hyderabad (Pharma)</text>
+  <text x="480" y="185" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Kolkata (Steel)</text>
+  <text x="190" y="155" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Ahmedabad (Textiles)</text>
+  <text x="230" y="235" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Pune (Automotive)</text>
+  <!-- Legend -->
+  <rect x="520" y="60" width="70" height="130" fill="#ffffff" stroke="#cccccc"/>
+  <text x="525" y="78" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Legend</text>
+  <rect x="525" y="90" width="12" height="12" fill="#2196F3"/>
+  <text x="545" y="101" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#333333">IT</text>
+  <rect x="525" y="110" width="12" height="12" fill="#4CAF50"/>
+  <text x="545" y="121" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#333333">Automotive</text>
+  <rect x="525" y="130" width="12" height="12" fill="#FF9800"/>
+  <text x="545" y="141" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#333333">Textiles</text>
+  <rect x="525" y="150" width="12" height="12" fill="#9C27B0"/>
+  <text x="545" y="161" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#333333">Pharma</text>
+  <rect x="525" y="170" width="12" height="12" fill="#F44336"/>
+  <text x="545" y="181" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#333333">Steel</text>
+</svg>

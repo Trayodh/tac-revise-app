@@ -1,9 +1,8 @@
 // generate_json_diagrams.js
 const fs = require('fs');
 
-const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY;
-const MODEL = 'llama3.3-70b';
-const BATCH_DELAY_MS = 3000;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const BATCH_DELAY_MS = 2000;
 const OUTPUT_FILE = 'notes_diagrams_data.js';
 
 // Load existing notes
@@ -53,18 +52,19 @@ Important Rules:
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-async function callCerebrasOnce(prompt) {
-  const response = await fetch('https://api.cerebras.ai/v1/chat/completions', {
+async function callGeminiOnce(prompt) {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+  const response = await fetch(url, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${CEREBRAS_API_KEY}`
+      'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      model: MODEL,
-      messages: [{ role: 'user', content: prompt }],
-      temperature: 0.1,
-      response_format: { type: "json_object" }
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: {
+        responseMimeType: "application/json",
+        temperature: 0.1
+      }
     })
   });
 
@@ -76,14 +76,14 @@ async function callCerebrasOnce(prompt) {
     throw new Error(`API Error: ${JSON.stringify(data.error)}`);
   }
 
-  let content = data.choices[0].message.content.trim();
+  let content = data.candidates[0].content.parts[0].text.trim();
   if (content.startsWith('\`\`\`')) {
     content = content.replace(/^\`\`\`(?:json)?\n?/i, '').replace(/\`\`\`$/i, '').trim();
   }
   return { success: true, content };
 }
 
-async function callCerebrasWithRetry(prompt) {
+async function callAIWithRetry(prompt) {
   let attempts = 0;
   const maxAttempts = 4;
   const backoffs = [5000, 10000, 15000, 20000];
@@ -91,7 +91,7 @@ async function callCerebrasWithRetry(prompt) {
   while (attempts < maxAttempts) {
     attempts++;
     try {
-      const result = await callCerebrasOnce(prompt);
+      const result = await callGeminiOnce(prompt);
       if (result.rateLimited) {
         if (attempts >= maxAttempts) {
           console.error(`    ❌ Max retries reached for rate limiting.`);
@@ -128,7 +128,7 @@ async function processTopics(topics, subject) {
     }
 
     const prompt = buildPrompt(t.title || t.name, subject);
-    const jsonStr = await callCerebrasWithRetry(prompt);
+    const jsonStr = await callAIWithRetry(prompt);
     
     if (jsonStr) {
       try {
@@ -149,8 +149,8 @@ async function processTopics(topics, subject) {
 }
 
 (async () => {
-  if (!CEREBRAS_API_KEY) {
-    console.error('ERROR: Set CEREBRAS_API_KEY environment variable');
+  if (!GEMINI_API_KEY) {
+    console.error('ERROR: Set GEMINI_API_KEY environment variable');
     process.exit(1);
   }
   

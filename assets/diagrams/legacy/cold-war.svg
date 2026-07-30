@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f5f5f5"/>
+  
+  <!-- United States -->
+  <circle cx="150" cy="200" r="80" fill="#4a90e2"/>
+  <text x="150" y="110" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">United States (USA)</text>
+  
+  <!-- Soviet Union -->
+  <circle cx="450" cy="200" r="80" fill="#d0021b"/>
+  <text x="450" y="110" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">Soviet Union (USSR)</text>
+  
+  <!-- Iron Curtain (dashed line) -->
+  <line x1="230" y1="200" x2="370" y2="200" stroke="#555" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="300" y="180" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555">Iron Curtain</text>
+  
+  <!-- Nuclear Arms Race Symbol -->
+  <g transform="translate(300,200)">
+    <circle r="30" fill="none" stroke="#555" stroke-width="2"/>
+    <!-- Three blades -->
+    <polygon points="-10,-30 10,-30 0,-10" fill="#555" transform="rotate(0)"/>
+    <polygon points="-10,-30 10,-30 0,-10" fill="#555" transform="rotate(120)"/>
+    <polygon points="-10,-30 10,-30 0,-10" fill="#555" transform="rotate(240)"/>
+    <circle r="10" fill="#555"/>
+  </g>
+  <text x="300" y="260" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555">Nuclear Arms Race</text>
+  
+  <!-- Berlin Wall (zigzag) -->
+  <path d="M250,340 h20 v-10 h20 v10 h20 v-10 h20" fill="none" stroke="#777" stroke-width="3"/>
+  <text x="300" y="380" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#777">Berlin Wall</text>
+</svg>

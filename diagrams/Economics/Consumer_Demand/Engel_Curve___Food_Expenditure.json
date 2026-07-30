@@ -1,0 +1,21 @@
+{
+  "title": "Engel Curve – Food Expenditure",
+  "subject": "Economics",
+  "chapter": "Consumer Demand",
+  "topic": "Engel Curve",
+  "difficulty": "Medium",
+  "rendering_engine": "SVG",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "Engel curve",
+    "food expenditure",
+    "income"
+  ],
+  "caption": "Engel curve showing the declining share of food expenditure as income rises.",
+  "altText": "A graph with white background, black axes, and a red concave Engel curve. The x-axis (Income) runs from 0 to 100 k$ and the y-axis (Food expenditure share) from 0 to 1.0. Tick marks and labels are shown, and a sample point at 200 k$ income with a 0.5 share is highlighted.",
+  "source": "Automated Pipeline"
+}

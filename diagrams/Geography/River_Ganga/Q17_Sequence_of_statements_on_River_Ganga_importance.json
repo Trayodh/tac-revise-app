@@ -1,0 +1,22 @@
+{
+  "title": "Q17 Sequence of statements on River Ganga importance",
+  "subject": "Geography",
+  "chapter": "River Ganga",
+  "topic": "Logical ordering of statements",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "sequence",
+    "Ganga",
+    "river",
+    "importance"
+  ],
+  "caption": "Flowchart showing the logical sequence of statements P‑S and their linked cultural, ecological, and economic significance for the River Ganga.",
+  "altText": "A top-to-bottom flowchart begins with a Start node, proceeds through four statement nodes labeled P, Q, R, S in that order, and ends at an End node. Statement P and Q both point to a Cultural Significance node, statement R points to an Ecological Significance node, and statement S points to an Economic Significance node, illustrating how each statement relates to a specific aspect of the Ganga's importance.",
+  "source": "Automated Pipeline"
+}
