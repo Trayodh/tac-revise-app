@@ -37,6 +37,12 @@ window.EXPANDED_NOTES_DATA["acids-bases"] = `
     <li><span style='color:var(--warning)'>1</span>. pH of pure water is 7.0 at 25°C.</li><li><span style='color:var(--warning)'>2</span>. Gastric juice in the human stomach contains HCl with a pH of approx 1.5-3.5.</li><li><span style='color:var(--warning)'>3</span>. Acid rain typically has a pH below 5.6, caused by SO<sub>2</sub> and NO<sub>2</sub> oxides.</li><li><span style='color:var(--warning)'>4</span>. Baking soda (NaHCO<sub>3</sub>) is a mild basic salt.</li><li><span style='color:var(--warning)'>5</span>. Vinegar contains acetic acid (CH<sub>3</sub>COOH) as its primary component.</li><li><span style='color:var(--warning)'>6</span>. The pH of human blood is slightly basic, maintained around 7.35 to 7.45.</li><li><span style='color:var(--warning)'>7</span>. Phenolphthalein is a synthetic indicator that is colorless in acid and pink in base.</li><li><span style='color:var(--warning)'>8</span>. Concentrated H<sub>2</sub>SO<sub>4</sub> is a powerful dehydrating agent.</li><li><span style='color:var(--warning)'>9</span>. Aqua Regia is a 3:1 mixture of conc. HCl and conc. HNO<sub>3</sub>, capable of dissolving gold.</li><li><span style='color:var(--warning)'>10</span>. Bee stings are acidic (formic acid) and can be neutralized with baking soda.</li><li><span style='color:var(--warning)'>11</span>. Tooth decay starts when mouth pH falls below 5.5.</li><li><span style='color:var(--warning)'>12</span>. Bases that are soluble in water are specifically called Alkalis.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/chemistry/chemistry-substances/acids-bases.svg" alt="acids-bases" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["syl-numerical"] = `
@@ -74,6 +80,12 @@ window.EXPANDED_NOTES_DATA["syl-numerical"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. Noble gases have zero valency and are chemically inert due to complete octets.</li><li><span style='color:var(--warning)'>2</span>. Ionic compounds have high melting/boiling points and conduct electricity in molten/aqueous states.</li><li><span style='color:var(--warning)'>3</span>. Covalent compounds are generally poor conductors of electricity.</li><li><span style='color:var(--warning)'>4</span>. The most electronegative element is Fluorine; the most electropositive is Cesium.</li><li><span style='color:var(--warning)'>5</span>. Hydrogen bonding is responsible for the high boiling point of H2O compared to H2S.</li><li><span style='color:var(--warning)'>6</span>. Transition elements (d-block) are characterized by variable oxidation states and colored ions.</li><li><span style='color:var(--warning)'>7</span>. The shape of CH4 is tetrahedral with a bond angle of 109.5 degrees.</li><li><span style='color:var(--warning)'>8</span>. Metallic character increases as you move down a group.</li><li><span style='color:var(--warning)'>9</span>. Coordination bonds are a special type of covalent bond where both electrons come from one atom.</li><li><span style='color:var(--warning)'>10</span>. The diagonal relationship exists between Li-Mg, Be-Al, and B-Si.</li><li><span style='color:var(--warning)'>11</span>. Polar covalent bonds occur when there is a significant difference in electronegativity between atoms.</li><li><span style='color:var(--warning)'>12</span>. Atomic size decreases across a period due to increased effective nuclear charge.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/chemistry/chemistry-bonding/syl-numerical.svg" alt="syl-numerical" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -113,6 +125,12 @@ window.EXPANDED_NOTES_DATA["metals-alloys"] = `
     <li><span style='color:var(--warning)'>1</span>. <b>Amalgamation</b> refers to the process of alloying a metal with mercury.</li><li><span style='color:var(--warning)'>2</span>. <b>Stainless Steel</b> contains Iron, Chromium, and Nickel to prevent rusting.</li><li><span style='color:var(--warning)'>3</span>. <b>Duralumin</b> (Al, Cu, Mg, Mn) is used in aircraft bodies due to its high strength-to-weight ratio.</li><li><span style='color:var(--warning)'>4</span>. <b>German Silver</b> contains no silver; it is a mix of Copper, Zinc, and Nickel.</li><li><span style='color:var(--warning)'>5</span>. <b>Calcination</b> is used for Carbonates; <b>Roasting</b> is used for Sulfides.</li><li><span style='color:var(--warning)'>6</span>. <b>Froth Flotation</b> is the concentration method used specifically for sulfide ores.</li><li><span style='color:var(--warning)'>7</span>. <b>Magnetic Separation</b> is used for ores like Magnetite (Fe₃O₄).</li><li><span style='color:var(--warning)'>8</span>. <b>Tungsten</b> has the highest melting point among all metals.</li><li><span style='color:var(--warning)'>9</span>. <b>Mercury</b> is the only metal that is liquid at room temperature.</li><li><span style='color:var(--warning)'>10</span>. <b>Gallium</b> can melt in the palm of a human hand.</li><li><span style='color:var(--warning)'>11</span>. <b>Alnico</b> (Al, Ni, Co, Fe) is used to make permanent magnets.</li><li><span style='color:var(--warning)'>12</span>. <b>Cuprite</b> (Cu₂O) and <b>Malachite</b> are important ores of Copper.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/chemistry/chemistry-metallurgy/metals-alloys.svg" alt="metals-alloys" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["reactivity-series"] = `
@@ -150,6 +168,12 @@ window.EXPANDED_NOTES_DATA["reactivity-series"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. Potassium and Sodium are stored in kerosene to prevent reaction with air and moisture.</li><li><span style='color:var(--warning)'>2</span>. A metal can only displace another metal if it is placed higher in the reactivity series.</li><li><span style='color:var(--warning)'>3</span>. Metals above Hydrogen in the series can displace Hydrogen from dilute acids to produce H2 gas.</li><li><span style='color:var(--warning)'>4</span>. Copper, Silver, and Gold cannot displace Hydrogen from acids.</li><li><span style='color:var(--warning)'>5</span>. Thermite reaction uses Aluminium to displace Iron from Iron Oxide, producing molten iron.</li><li><span style='color:var(--warning)'>6</span>. Galvanization is the coating of Iron with Zinc because Zinc is more reactive and oxidizes first.</li><li><span style='color:var(--warning)'>7</span>. The reactivity of metals is directly proportional to their ease of losing valence electrons.</li><li><span style='color:var(--warning)'>8</span>. Magnesium reacts with hot water to form Magnesium Hydroxide and Hydrogen gas.</li><li><span style='color:var(--warning)'>9</span>. Iron reacts with steam (not cold water) to form Fe3O4 and H2.</li><li><span style='color:var(--warning)'>10</span>. Gold is the least reactive metal and does not react with oxygen or most acids.</li><li><span style='color:var(--warning)'>11</span>. Displacement reactions are a subset of Single Replacement reactions.</li><li><span style='color:var(--warning)'>12</span>. The activity series is essentially a list of standard electrode potentials.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/chemistry/chemistry-metallurgy/reactivity-series.svg" alt="reactivity-series" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -189,6 +213,12 @@ window.EXPANDED_NOTES_DATA["carbon-compounds"] = `
     <li><span style='color:var(--warning)'>1</span>. Diamond is an insulator, while Graphite is a conductor due to free electrons.</li><li><span style='color:var(--warning)'>2</span>. Alkanes are called Paraffins because they are chemically unreactive.</li><li><span style='color:var(--warning)'>3</span>. The general formula for Alkenes is C<sub>n</sub>H<sub>2n</sub>.</li><li><span style='color:var(--warning)'>4</span>. Combustion of hydrocarbons produces CO<sub>2</sub>, H<sub>2</sub>O, and heat.</li><li><span style='color:var(--warning)'>5</span>. Ethanol is produced by the fermentation of sugars using yeast.</li><li><span style='color:var(--warning)'>6</span>. Ethanoic acid (Acetic acid) is the main component of vinegar (5-8%).</li><li><span style='color:var(--warning)'>7</span>. Saturated hydrocarbons undergo substitution reactions (e.g., Chlorination).</li><li><span style='color:var(--warning)'>8</span>. Unsaturated hydrocarbons undergo addition reactions (e.g., Hydrogenation).</li><li><span style='color:var(--warning)'>9</span>. The bond angle in a methane (CH<sub>4</sub>) molecule is 109.5 degrees.</li><li><span style='color:var(--warning)'>10</span>. Graphite has a layered hexagonal structure, making it a good lubricant.</li><li><span style='color:var(--warning)'>11</span>. Esters are characterized by a sweet, fruity fragrance.</li><li><span style='color:var(--warning)'>12</span>. Carbon dioxide is a greenhouse gas that contributes to global warming.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/chemistry/chemistry-carbon-numericals/carbon-compounds.svg" alt="carbon-compounds" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["chemistry-numericals"] = `
@@ -226,6 +256,12 @@ window.EXPANDED_NOTES_DATA["chemistry-numericals"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. Avogadro's number is exactly 6.02214076 × 10<sup>23</sup> mol<sup>-1</sup>.</li><li><span style='color:var(--warning)'>2</span>. Molarity changes with temperature, but Molality remains constant.</li><li><span style='color:var(--warning)'>3</span>. At STP (0°C, 1 atm), 1 mole of any ideal gas occupies 22.414 Litres.</li><li><span style='color:var(--warning)'>4</span>. The sum of mole fractions of all components in a mixture is always unity (1).</li><li><span style='color:var(--warning)'>5</span>. Gram Molecular Mass is the mass of 6.022 x 10<sup>23</sup> molecules in grams.</li><li><span style='color:var(--warning)'>6</span>. Normality is specifically used in titration calculations (Eq1V1 = Eq2V2).</li><li><span style='color:var(--warning)'>7</span>. The n-factor for acids is their basicity (number of replaceable H<sup>+</sup> ions).</li><li><span style='color:var(--warning)'>8</span>. Mass percentage = (Mass of solute / Total mass of solution) × 100.</li><li><span style='color:var(--warning)'>9</span>. 1 mole of any element contains exactly its atomic mass in grams.</li><li><span style='color:var(--warning)'>10</span>. Molar mass of Oxygen gas (O<sub>2</sub>) is 32g/mol, while atomic mass of Oxygen is 16u.</li><li><span style='color:var(--warning)'>11</span>. Density is required to convert between Molarity and Molality.</li><li><span style='color:var(--warning)'>12</span>. The term 'Equivalent weight' = Molar mass / n-factor.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/chemistry/chemistry-carbon-numericals/chemistry-numericals.svg" alt="chemistry-numericals" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -265,6 +301,12 @@ window.EXPANDED_NOTES_DATA["chemistry-everyday-fertilisers"] = `
     <li><span style='color:var(--warning)'>1</span>. Urea is a water-soluble nitrogenous fertiliser with a formula of CO(NH2)2.</li><li><span style='color:var(--warning)'>2</span>. The calorific value of Hydrogen is the highest among all fuels.</li><li><span style='color:var(--warning)'>3</span>. LPG is odourless; Ethyl Mercaptan is added to detect leaks.</li><li><span style='color:var(--warning)'>4</span>. Fractional distillation separates crude oil based on different boiling points.</li><li><span style='color:var(--warning)'>5</span>. Nitrogen fixation is the process of converting atmospheric N2 into ammonia.</li><li><span style='color:var(--warning)'>6</span>. Coal is classified as Anthracite (best), Bituminous, Lignite, and Peat (worst).</li><li><span style='color:var(--warning)'>7</span>. Bio-diesel is produced through the transesterification of vegetable oils.</li><li><span style='color:var(--warning)'>8</span>. The Haber process uses an Iron catalyst and high pressure.</li><li><span style='color:var(--warning)'>9</span>. Phosphorus fertilisers are crucial for ATP synthesis and root development in plants.</li><li><span style='color:var(--warning)'>10</span>. Water Gas is a mixture of CO and H2, while Producer Gas is CO and N2.</li><li><span style='color:var(--warning)'>11</span>. Lead was previously added to petrol to increase octane, but is now banned due to toxicity.</li><li><span style='color:var(--warning)'>12</span>. Eutrophication is caused by the runoff of nitrate and phosphate fertilisers into water bodies.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/chemistry/chemistry-everyday-env/chemistry-everyday-fertilisers.svg" alt="chemistry-everyday-fertilisers" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["environmental-chemistry"] = `
@@ -302,6 +344,12 @@ window.EXPANDED_NOTES_DATA["environmental-chemistry"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The ozone layer is primarily located in the Stratosphere (15-35 km).</li><li><span style='color:var(--warning)'>2</span>. CO (Carbon Monoxide) binds to hemoglobin more strongly than O2, forming carboxyhemoglobin.</li><li><span style='color:var(--warning)'>3</span>. The Montreal Protocol (1987) specifically targets Ozone Depleting Substances (ODS).</li><li><span style='color:var(--warning)'>4</span>. Primary pollutants are emitted directly (SO2), while secondary pollutants form in the air (O3).</li><li><span style='color:var(--warning)'>5</span>. The pH of normal rain is approximately 5.6 due to dissolved CO2.</li><li><span style='color:var(--warning)'>6</span>. Bioaccumulation refers to the buildup of toxins in a single organism; Biomagnification is the increase up the food chain.</li><li><span style='color:var(--warning)'>7</span>. Methane (CH4) has a higher global warming potential per molecule than CO2.</li><li><span style='color:var(--warning)'>8</span>. The 'Marble Cancer' of the Taj Mahal is caused by SO2 and NOx from Mathura refinery.</li><li><span style='color:var(--warning)'>9</span>. Dissolved Oxygen (DO) decreases as BOD increases.</li><li><span style='color:var(--warning)'>10</span>. Lead (Pb) in petrol was replaced by MTBE to reduce toxicity.</li><li><span style='color:var(--warning)'>11</span>. The Kyoto Protocol focused on the reduction of Greenhouse Gas emissions.</li><li><span style='color:var(--warning)'>12</span>. PAN (Peroxyacetyl nitrate) is a key component of photochemical smog.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/chemistry/chemistry-everyday-env/environmental-chemistry.svg" alt="environmental-chemistry" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 

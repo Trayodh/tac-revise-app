@@ -37,6 +37,12 @@ window.EXPANDED_NOTES_DATA["cell-structure"] = `
     <li><span style='color:var(--warning)'>1</span>. Robert Hooke discovered the cell in 1665 using a cork slice.</li><li><span style='color:var(--warning)'>2</span>. Prokaryotic cells lack a nuclear membrane and membrane-bound organelles.</li><li><span style='color:var(--warning)'>3</span>. The cell wall in plants is primarily composed of cellulose.</li><li><span style='color:var(--warning)'>4</span>. Mitochondria and Chloroplasts have their own DNA and ribosomes (Semi-autonomous).</li><li><span style='color:var(--warning)'>5</span>. Mitosis produces identical clones; Meiosis produces genetically unique cells.</li><li><span style='color:var(--warning)'>6</span>. Crossing over occurs during the Pachytene stage of Prophase I in Meiosis.</li><li><span style='color:var(--warning)'>7</span>. The fluid mosaic model of the plasma membrane was proposed by Singer and Nicolson.</li><li><span style='color:var(--warning)'>8</span>. DNA replication occurs during the S-phase of the cell cycle.</li><li><span style='color:var(--warning)'>9</span>. Cytokinesis is the division of cytoplasm following nuclear division.</li><li><span style='color:var(--warning)'>10</span>. Haploid cells (n) have half the chromosome set of Diploid cells (2n).</li><li><span style='color:var(--warning)'>11</span>. The largest cell in the human body is the ovum; the longest is the nerve cell.</li><li><span style='color:var(--warning)'>12</span>. Vacuoles are large and central in plant cells, providing turgidity.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/biology/biology-cell/cell-structure.svg" alt="cell-structure" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["human-systems"] = `
@@ -74,6 +80,12 @@ window.EXPANDED_NOTES_DATA["human-systems"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The only artery that carries deoxygenated blood is the Pulmonary Artery.</li><li><span style='color:var(--warning)'>2</span>. The only vein that carries oxygenated blood is the Pulmonary Vein.</li><li><span style='color:var(--warning)'>3</span>. The Liver is the largest gland and the Skin is the largest organ of the human body.</li><li><span style='color:var(--warning)'>4</span>. Adrenaline is secreted by the Adrenal Medulla during 'Fight or Flight' situations.</li><li><span style='color:var(--warning)'>5</span>. The mitral valve (bicuspid) prevents backflow from the left ventricle to the left atrium.</li><li><span style='color:var(--warning)'>6</span>. RBCs (Erythrocytes) lack a nucleus in mammals to provide more space for hemoglobin.</li><li><span style='color:var(--warning)'>7</span>. The Hypothalamus regulates body temperature and thirst.</li><li><span style='color:var(--warning)'>8</span>. Bile is alkaline in nature, helping neutralize stomach acid in the duodenum.</li><li><span style='color:var(--warning)'>9</span>. The Cerebellum is responsible for maintaining posture and balance.</li><li><span style='color:var(--warning)'>10</span>. Glucagon is secreted by Alpha cells of the Pancreas to increase blood sugar.</li><li><span style='color:var(--warning)'>11</span>. The diaphragm contracts and moves downward during inhalation.</li><li><span style='color:var(--warning)'>12</span>. Platelets (Thrombocytes) are essential for blood clotting via the protein fibrinogen.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/biology/biology-physiology/human-systems.svg" alt="human-systems" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -113,6 +125,12 @@ window.EXPANDED_NOTES_DATA["diseases"] = `
     <li><span style='color:var(--warning)'>1</span>. <b>Typhoid</b> is diagnosed using the <b>Widal Test</b>.</li><li><span style='color:var(--warning)'>2</span>. <b>Malaria</b> is caused by <i>Plasmodium</i>; the female <i>Anopheles</i> mosquito is the vector.</li><li><span style='color:var(--warning)'>3</span>. <b>AIDS</b> is caused by HIV, which attacks <b>CD4+ T-lymphocytes</b>.</li><li><span style='color:var(--warning)'>4</span>. <b>Tuberculosis</b> is caused by <i>Mycobacterium tuberculosis</i> and affects primarily the lungs.</li><li><span style='color:var(--warning)'>5</span>. <b>Kala-azar</b> (Visceral Leishmaniasis) is transmitted by the <b>Sandfly</b>.</li><li><span style='color:var(--warning)'>6</span>. <b>Dengue</b> is caused by a virus and transmitted by the <i>Aedes aegypti</i> mosquito.</li><li><span style='color:var(--warning)'>7</span>. <b>Tetanus</b> is caused by <i>Clostridium tetani</i>, producing a potent neurotoxin.</li><li><span style='color:var(--warning)'>8</span>. <b>Antibiotics</b> (like Penicillin) are effective only against bacteria, not viruses.</li><li><span style='color:var(--warning)'>9</span>. <b>Passive Immunity</b> involves the transfer of pre-formed antibodies (e.g., Colostrum).</li><li><span style='color:var(--warning)'>10</span>. <b>Autoimmune diseases</b> occur when the body attacks its own cells (e.g., Rheumatoid Arthritis).</li><li><span style='color:var(--warning)'>11</span>. <b>Prions</b> are infectious proteins causing diseases like Mad Cow Disease.</li><li><span style='color:var(--warning)'>12</span>. <b>Vaccines</b> stimulate the production of memory cells for long-term protection.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/biology/biology-diseases/diseases.svg" alt="diseases" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["immunity-vaccines"] = `
@@ -150,6 +168,12 @@ window.EXPANDED_NOTES_DATA["immunity-vaccines"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. Colostrum contains IgA antibodies, providing passive immunity to newborns.</li><li><span style='color:var(--warning)'>2</span>. The first line of defense is physical/chemical (Skin, Mucus, HCl in stomach).</li><li><span style='color:var(--warning)'>3</span>. Inflammation is a non-specific response characterized by redness, heat, and swelling.</li><li><span style='color:var(--warning)'>4</span>. B-cells differentiate into Plasma cells (secrete antibodies) and Memory cells.</li><li><span style='color:var(--warning)'>5</span>. T-helper cells (CD4) coordinate the immune response by releasing cytokines.</li><li><span style='color:var(--warning)'>6</span>. Cytotoxic T-cells (CD8) directly kill infected or cancerous cells.</li><li><span style='color:var(--warning)'>7</span>. Vaccines can be Live-attenuated, Inactivated, Subunit, or Toxoid.</li><li><span style='color:var(--warning)'>8</span>. Autoimmunity occurs when the immune system fails to distinguish self from non-self (e.g., Rheumatoid Arthritis).</li><li><span style='color:var(--warning)'>9</span>. Allergy is an exaggerated response to an allergen, mediated primarily by IgE.</li><li><span style='color:var(--warning)'>10</span>. The primary immune response is slower, while the secondary response is rapid and intense.</li><li><span style='color:var(--warning)'>11</span>. MHC molecules are essential for antigen presentation to T-cells.</li><li><span style='color:var(--warning)'>12</span>. Phagocytosis is the process where cells like Macrophages engulf pathogens.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/biology/biology-diseases/immunity-vaccines.svg" alt="immunity-vaccines" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -189,6 +213,12 @@ window.EXPANDED_NOTES_DATA["plant-kingdom"] = `
     <li><span style='color:var(--warning)'>1</span>. Algae are primarily autotrophic and can be unicellular or multicellular.</li><li><span style='color:var(--warning)'>2</span>. Bryophytes lack true roots, stems, and leaves; they possess root-like structures called rhizoids.</li><li><span style='color:var(--warning)'>3</span>. Pteridophytes are the first plants to exhibit a dominant sporophyte phase.</li><li><span style='color:var(--warning)'>4</span>. Gymnosperms are mostly evergreen and coniferous.</li><li><span style='color:var(--warning)'>5</span>. Angiosperms are further classified into Monocotyledons (one seed leaf) and Dicotyledons (two seed leaves).</li><li><span style='color:var(--warning)'>6</span>. Double fertilization is a unique characteristic feature of Angiosperms.</li><li><span style='color:var(--warning)'>7</span>. The cell wall of plants is primarily composed of cellulose, hemicellulose, and pectin.</li><li><span style='color:var(--warning)'>8</span>. Alternation of generations occurs between the haploid gametophyte and diploid sporophyte.</li><li><span style='color:var(--warning)'>9</span>. Xylem consists of tracheids, vessels, xylem parenchyma, and xylem fibers.</li><li><span style='color:var(--warning)'>10</span>. Phloem consists of sieve tubes, companion cells, phloem parenchyma, and phloem fibers.</li><li><span style='color:var(--warning)'>11</span>. Spirogyra is a common example of Chlorophyceae (Green Algae).</li><li><span style='color:var(--warning)'>12</span>. The most primitive vascular plants are the Pteridophytes.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/biology/biology-kingdoms/plant-kingdom.svg" alt="plant-kingdom" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["animal-kingdom"] = `
@@ -226,6 +256,12 @@ window.EXPANDED_NOTES_DATA["animal-kingdom"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. Porifera are the only animals with a cellular level of organization.</li><li><span style='color:var(--warning)'>2</span>. Cnidarians are diploblastic, while all higher phyla are triploblastic.</li><li><span style='color:var(--warning)'>3</span>. Platyhelminthes are the first to exhibit bilateral symmetry.</li><li><span style='color:var(--warning)'>4</span>. Aschelminthes are the only phylum characterized as pseudocoelomates.</li><li><span style='color:var(--warning)'>5</span>. Arthropods use Malpighian tubules for excretion, while Annelids use Nephridia.</li><li><span style='color:var(--warning)'>6</span>. The Radula is a rasping organ found exclusively in Molluscs.</li><li><span style='color:var(--warning)'>7</span>. Echinoderms exhibit a unique water vascular system used for locomotion and feeding.</li><li><span style='color:var(--warning)'>8</span>. Chordates are distinguished by a Notochord, Dorsal hollow nerve cord, and Pharyngeal gill slits.</li><li><span style='color:var(--warning)'>9</span>. Chondrichthyes (cartilaginous fish) lack a swim bladder, unlike Osteichthyes.</li><li><span style='color:var(--warning)'>10</span>. Amphibians possess a three-chambered heart (2 atria, 1 ventricle).</li><li><span style='color:var(--warning)'>11</span>. Crocodiles are the only reptiles with a four-chambered heart.</li><li><span style='color:var(--warning)'>12</span>. Mammals are uniquely characterized by mammary glands and hair on the skin.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/biology/biology-kingdoms/animal-kingdom.svg" alt="animal-kingdom" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -265,6 +301,12 @@ window.EXPANDED_NOTES_DATA["plant-reproduction"] = `
     <li><span style='color:var(--warning)'>1</span>. Double fertilization results in a zygote (2n) and a primary endosperm nucleus (3n).</li><li><span style='color:var(--warning)'>2</span>. Auxins are responsible for the bending of plants towards light (Phototropism).</li><li><span style='color:var(--warning)'>3</span>. Gibberellins are used to increase the length of grape stalks.</li><li><span style='color:var(--warning)'>4</span>. Cytokinins are primarily synthesized in the roots and transported upwards.</li><li><span style='color:var(--warning)'>5</span>. Abscisic Acid (ABA) induces the closure of stomata during drought to prevent transpiration.</li><li><span style='color:var(--warning)'>6</span>. Ethylene is the only hormone that exists in a gaseous state.</li><li><span style='color:var(--warning)'>7</span>. Parthenocarpy is the production of fruit without fertilization, often induced by auxins.</li><li><span style='color:var(--warning)'>8</span>. The pollen grain represents the male gametophyte.</li><li><span style='color:var(--warning)'>9</span>. Apomixis is a form of asexual reproduction that mimics sexual reproduction (seeds without fertilization).</li><li><span style='color:var(--warning)'>10</span>. The triple fusion process leads to the formation of the endosperm.</li><li><span style='color:var(--warning)'>11</span>. Auxins inhibit lateral bud growth, leading to apical dominance.</li><li><span style='color:var(--warning)'>12</span>. The integuments of the ovule develop into the seed coat after fertilization.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/biology/biology-botany/plant-reproduction.svg" alt="plant-reproduction" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["biology-ecology-basics"] = `
@@ -302,6 +344,12 @@ window.EXPANDED_NOTES_DATA["biology-ecology-basics"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The Pyramid of Energy is always upright regardless of the ecosystem.</li><li><span style='color:var(--warning)'>2</span>. NPP = GPP - R (Respiration).</li><li><span style='color:var(--warning)'>3</span>. Energy flow in an ecosystem is unidirectional.</li><li><span style='color:var(--warning)'>4</span>. Biomass pyramids in oceans are often inverted because phytoplankton have high turnover rates.</li><li><span style='color:var(--warning)'>5</span>. The 10% law was formulated by Raymond Lindeman.</li><li><span style='color:var(--warning)'>6</span>. Bioaccumulation happens within a single organism; Biomagnification happens across trophic levels.</li><li><span style='color:var(--warning)'>7</span>. Producers are always at the first trophic level (T1).</li><li><span style='color:var(--warning)'>8</span>. Decomposers are not usually placed in a pyramid but act on all levels.</li><li><span style='color:var(--warning)'>9</span>. A food web is a network of interconnected food chains.</li><li><span style='color:var(--warning)'>10</span>. The 'Edge Effect' refers to increased biodiversity at the ecotone.</li><li><span style='color:var(--warning)'>11</span>. Primary productivity is highest in tropical rainforests and coral reefs.</li><li><span style='color:var(--warning)'>12</span>. Tertiary consumers are usually top predators.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/biology/biology-ecology/biology-ecology-basics.svg" alt="biology-ecology-basics" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 

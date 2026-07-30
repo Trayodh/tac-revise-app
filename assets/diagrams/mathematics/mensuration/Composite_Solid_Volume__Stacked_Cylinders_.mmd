@@ -1,0 +1,19 @@
+graph TD
+    subgraph Components
+        Cyl1[Cylinder 1<br>r₁, h₁]
+        Cyl2[Cylinder 2<br>r₂, h₂]
+    end
+
+    Cyl1 -- forms part of --> CompositeSolid[Composite Solid]
+    Cyl2 -- forms part of --> CompositeSolid
+
+    subgraph Volume Calculation
+        Vol1(Volume₁ = πr₁²h₁)
+        Vol2(Volume₂ = πr₂²h₂)
+    end
+
+    Cyl1 --> Vol1
+    Cyl2 --> Vol2
+
+    Vol1 -- + --> TotalVol(Total Volume = Vol₁ + Vol₂)
+    Vol2 -- + --> TotalVol

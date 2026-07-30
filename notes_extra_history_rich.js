@@ -379,6 +379,12 @@ window.EXPANDED_NOTES_DATA["magadha-expansion"] = `
     <li><span style='color:var(--warning)'>1</span>. Magadha was one of the 16 Mahajanapadas mentioned in the Anguttara Nikaya.</li><li><span style='color:var(--warning)'>2</span>. Bimbisara's policy of marriage alliances included ties with Kosala, Vaishali, and Madra.</li><li><span style='color:var(--warning)'>3</span>. Ajatashatru's war against the Vrijjis lasted 16 years.</li><li><span style='color:var(--warning)'>4</span>. The Nanda dynasty was the first to establish a professional standing army.</li><li><span style='color:var(--warning)'>5</span>. Pataliputra is located at the confluence of the Ganga, Gandak, and Son rivers.</li><li><span style='color:var(--warning)'>6</span>. The use of iron-tipped plows increased agricultural surplus, funding the army.</li><li><span style='color:var(--warning)'>7</span>. Mahapadma Nanda is often called the 'First Empire Builder of India'.</li><li><span style='color:var(--warning)'>8</span>. The first Buddhist Council was held at Rajgriha under Ajatashatru's patronage.</li><li><span style='color:var(--warning)'>9</span>. Magadha's dominance was aided by the proximity to the riverine trade routes.</li><li><span style='color:var(--warning)'>10</span>. The Mauryans replaced the Nandas after the guidance of Chanakya.</li><li><span style='color:var(--warning)'>11</span>. The 'Ugrasena' title refers to the powerful army of the Nandas.</li><li><span style='color:var(--warning)'>12</span>. The transition from Rajgriha to Pataliputra shifted the focus toward riverine commerce.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/ancient-india-tree/magadha-expansion.svg" alt="magadha-expansion" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["buddhism-jainism"] = `
@@ -606,6 +612,12 @@ window.EXPANDED_NOTES_DATA["ancient-indian-culture"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The Great Bath of Mohenjo-daro is the earliest known public water tank.</li><li><span style='color:var(--warning)'>2</span>. The <i>Satyameva Jayate</i> motto is taken from the Mundaka Upanishad.</li><li><span style='color:var(--warning)'>3</span>. Kanishka hosted the 4th Buddhist Council in Kashmir.</li><li><span style='color:var(--warning)'>4</span>. The Mauryan administration was highly centralized, as detailed in Chanakya's <i>Arthashastra</i>.</li><li><span style='color:var(--warning)'>5</span>. The <i>Tripitakas</i> (Sutta, Vinaya, Abhidhamma) are the primary Buddhist scriptures.</li><li><span style='color:var(--warning)'>6</span>. The Gupta dynasty is credited with the invention of the decimal system and zero.</li><li><span style='color:var(--warning)'>7</span>. The <i>Puranas</i> were compiled primarily during the post-Vedic period to systematize mythology.</li><li><span style='color:var(--warning)'>8</span>. The <i>Sanchi Stupa</i> was originally commissioned by Emperor Ashoka.</li><li><span style='color:var(--warning)'>9</span>. The <i>Tirthankaras</i> are the spiritual teachers of Jainism, with Mahavira being the 24th.</li><li><span style='color:var(--warning)'>10</span>. The <i>Kushanas</i> were the first to issue gold coins on a large scale in India.</li><li><span style='color:var(--warning)'>11</span>. The <i>Ajanta Caves</i> are famous for their frescoes depicting Jataka tales.</li><li><span style='color:var(--warning)'>12</span>. The <i>Vardhamana Mahavira</i> preached the concept of <i>Syadvada</i> (theory of relativity of truth).</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/ancient-india-tree/ancient-indian-culture.svg" alt="ancient-indian-culture" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 

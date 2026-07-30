@@ -37,6 +37,12 @@ window.EXPANDED_NOTES_DATA["universe-solar-system"] = `
     <li><span style='color:var(--warning)'>1</span>. The Sun comprises about 99.8% of the total mass of the Solar System.</li><li><span style='color:var(--warning)'>2</span>. Venus is the only planet that rotates clockwise (Retrograde rotation).</li><li><span style='color:var(--warning)'>3</span>. Uranus is known as the 'Sideways Planet' because its axis is tilted at 98 degrees.</li><li><span style='color:var(--warning)'>4</span>. The Goldilocks Zone is the habitable zone where liquid water can exist.</li><li><span style='color:var(--warning)'>5</span>. Ceres is the largest object in the Asteroid Belt and is classified as a dwarf planet.</li><li><span style='color:var(--warning)'>6</span>. The Milky Way is a spiral galaxy; the Andromeda galaxy is its nearest large neighbor.</li><li><span style='color:var(--warning)'>7</span>. Mercury has no atmosphere and no natural satellites.</li><li><span style='color:var(--warning)'>8</span>. Ganymede (Jupiter) is the largest moon in the solar system, larger than Mercury.</li><li><span style='color:var(--warning)'>9</span>. Titan (Saturn) is the only moon with a dense atmosphere and liquid lakes.</li><li><span style='color:var(--warning)'>10</span>. The photosphere is the visible surface of the Sun.</li><li><span style='color:var(--warning)'>11</span>. Comets are composed of frozen gases, rocks, and dust.</li><li><span style='color:var(--warning)'>12</span>. The Kuiper Belt extends from the orbit of Neptune to about 50 AU.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-geography/universe-solar-system.svg" alt="universe-solar-system" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["earth-atmosphere"] = `
@@ -74,6 +80,12 @@ window.EXPANDED_NOTES_DATA["earth-atmosphere"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. P-waves (Primary) can travel through solid, liquid, and gas; S-waves (Secondary) only through solids.</li><li><span style='color:var(--warning)'>2</span>. The outer core is liquid, which is proven by the S-wave shadow zone.</li><li><span style='color:var(--warning)'>3</span>. Nitrogen (78%) and Oxygen (21%) are the dominant gases in the atmosphere.</li><li><span style='color:var(--warning)'>4</span>. The Tropopause is the boundary separating the Troposphere and Stratosphere.</li><li><span style='color:var(--warning)'>5</span>. Ozone is concentrated in the lower Stratosphere and protects from UV-B rays.</li><li><span style='color:var(--warning)'>6</span>. The Mesosphere is the region where the temperature decreases with altitude.</li><li><span style='color:var(--warning)'>7</span>. The Earth's core is primarily composed of Nife (Nickel and Iron).</li><li><span style='color:var(--warning)'>8</span>. The Normal Lapse Rate is the decrease in temperature as altitude increases in the troposphere.</li><li><span style='color:var(--warning)'>9</span>. The Ionosphere is critical for reflecting HF (High Frequency) radio waves.</li><li><span style='color:var(--warning)'>10</span>. The crust is the thinnest layer, making up less than 1% of Earth's volume.</li><li><span style='color:var(--warning)'>11</span>. The mantle comprises about 84% of the Earth's total volume.</li><li><span style='color:var(--warning)'>12</span>. The exosphere is the outermost layer where air is extremely rarefied.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-geography/earth-atmosphere.svg" alt="earth-atmosphere" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -113,6 +125,12 @@ window.EXPANDED_NOTES_DATA["climatology-clouds"] = `
     <li><span style='color:var(--warning)'>1</span>. Cirrus clouds are the highest and are composed entirely of ice crystals.</li><li><span style='color:var(--warning)'>2</span>. Cumulonimbus are the only clouds that span all three altitude levels (Low, Mid, High).</li><li><span style='color:var(--warning)'>3</span>. The Tropical zone receives the most direct solar radiation throughout the year.</li><li><span style='color:var(--warning)'>4</span>. Dew point is the temperature at which air becomes saturated and condensation begins.</li><li><span style='color:var(--warning)'>5</span>. The 'Anvil Top' of a Cumulonimbus cloud is caused by the Tropopause acting as a ceiling.</li><li><span style='color:var(--warning)'>6</span>. Stratus clouds typically produce light, continuous precipitation (drizzle).</li><li><span style='color:var(--warning)'>7</span>. The Polar zones are characterized by low sun angles and high albedo.</li><li><span style='color:var(--warning)'>8</span>. Latent heat of condensation is released when water vapor turns into liquid droplets in clouds.</li><li><span style='color:var(--warning)'>9</span>. Altocumulus clouds appear as small white patches or 'sheep-back' clouds.</li><li><span style='color:var(--warning)'>10</span>. The ITCZ is the region where the Trade Winds of the Northern and Southern Hemispheres meet.</li><li><span style='color:var(--warning)'>11</span>. Adiabatic cooling occurs as air rises and expands due to lower pressure.</li><li><span style='color:var(--warning)'>12</span>. Nimbostratus are dark, thick, low-level clouds that bring steady rain.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-geography/climatology-clouds.svg" alt="climatology-clouds" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["geomorphology-rocks"] = `
@@ -150,6 +168,12 @@ window.EXPANDED_NOTES_DATA["geomorphology-rocks"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The Mohorovicic Discontinuity (Moho) separates the Crust from the Mantle.</li><li><span style='color:var(--warning)'>2</span>. The Gutenberg Discontinuity separates the Mantle from the Outer Core.</li><li><span style='color:var(--warning)'>3</span>. Basalt is an extrusive igneous rock, while Granite is intrusive.</li><li><span style='color:var(--warning)'>4</span>. The 'Ring of Fire' is a string of volcanoes around the Pacific Ocean.</li><li><span style='color:var(--warning)'>5</span>. P-waves (Primary) are the fastest seismic waves and can travel through solids and liquids.</li><li><span style='color:var(--warning)'>6</span>. S-waves (Secondary) cannot travel through liquids, proving the Outer Core is liquid.</li><li><span style='color:var(--warning)'>7</span>. The Deccan Traps in India were formed by massive fissure eruptions of basalt.</li><li><span style='color:var(--warning)'>8</span>. Continental crust is thicker and less dense (mostly granitic) than oceanic crust (mostly basaltic).</li><li><span style='color:var(--warning)'>9</span>. The Tethys Sea existed between the Indian and Eurasian plates before their collision.</li><li><span style='color:var(--warning)'>10</span>. Metamorphism of Shale produces Slate, then Schist, then Gneiss.</li><li><span style='color:var(--warning)'>11</span>. Divergent boundaries create new crust, while convergent boundaries destroy it.</li><li><span style='color:var(--warning)'>12</span>. Hotspots (like Hawaii) are volcanic areas not located at plate boundaries.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-geography/geomorphology-rocks.svg" alt="geomorphology-rocks" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -189,6 +213,12 @@ window.EXPANDED_NOTES_DATA["world-geography-mountains"] = `
     <li><span style='color:var(--warning)'>1</span>. Mount Everest is the highest peak, but Mauna Kea is the tallest from base to peak.</li><li><span style='color:var(--warning)'>2</span>. The Nile is the longest river in the world, flowing north into the Mediterranean.</li><li><span style='color:var(--warning)'>3</span>. Tropical rainforests are typically found between 10°N and 10°S of the equator.</li><li><span style='color:var(--warning)'>4</span>. The Andes are the longest mountain range, stretching across seven South American countries.</li><li><span style='color:var(--warning)'>5</span>. The Yangtze is the longest river in Asia and the third longest globally.</li><li><span style='color:var(--warning)'>6</span>. Deciduous forests are characterized by trees that shed leaves annually (e.g., Oak, Maple).</li><li><span style='color:var(--warning)'>7</span>. The Great Dividing Range is the primary mountain system of Australia.</li><li><span style='color:var(--warning)'>8</span>. The Congo River is the deepest river in the world.</li><li><span style='color:var(--warning)'>9</span>. The Ural Mountains form the traditional boundary between Europe and Asia.</li><li><span style='color:var(--warning)'>10</span>. Mangroves are salt-tolerant forests found in coastal intertidal zones.</li><li><span style='color:var(--warning)'>11</span>. The Rockies are the primary mountain range of Western North America.</li><li><span style='color:var(--warning)'>12</span>. The Danube is the second longest river in Europe and flows through more countries than any other.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-geography/world-geography-mountains.svg" alt="world-geography-mountains" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `
@@ -226,6 +256,12 @@ window.EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The <b>Strait of Hormuz</b> is the world's most critical oil choke point, connecting the Persian Gulf and Gulf of Oman.</li><li><span style='color:var(--warning)'>2</span>. The <b>Suez Canal</b> is a sea-level canal (no locks), whereas the <b>Panama Canal</b> uses a lock system to lift ships.</li><li><span style='color:var(--warning)'>3</span>. The <b>Sahara</b> is the world's largest hot desert, while <b>Antarctica</b> is technically the largest cold desert.</li><li><span style='color:var(--warning)'>4</span>. The <b>Palk Strait</b> separates India and Sri Lanka, connecting the Bay of Bengal and Palk Bay.</li><li><span style='color:var(--warning)'>5</span>. The <b>Bosporus and Dardanelles</b> straits control access to the Black Sea (Turkey).</li><li><span style='color:var(--warning)'>6</span>. The <b>Dead Sea</b> is the lowest point on the Earth's land surface and is hypersaline.</li><li><span style='color:var(--warning)'>7</span>. The <b>Gobi Desert</b> is a cold desert located in China and Mongolia, formed by the rain shadow of the Himalayas.</li><li><span style='color:var(--warning)'>8</span>. The <b>Strait of Dover</b> is the narrowest part of the English Channel.</li><li><span style='color:var(--warning)'>9</span>. <b>Kuroshio and Oyashio</b> currents influence the seas around Japan, affecting fishing and climate.</li><li><span style='color:var(--warning)'>10</span>. The <b>Namib Desert</b> is one of the oldest deserts in the world, located along the coast of Namibia.</li><li><span style='color:var(--warning)'>11</span>. The <b>Strait of Magellan</b> is the natural passage between the Atlantic and Pacific Oceans at the tip of South America.</li><li><span style='color:var(--warning)'>12</span>. <b>Mediterranean Sea</b> is almost entirely enclosed, connected to the Atlantic only via the Strait of Gibraltar.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-geography/world-geography-straits-deserts.svg" alt="world-geography-straits-deserts" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -265,6 +301,12 @@ window.EXPANDED_NOTES_DATA["syl-geog"] = `
     <li><span style='color:var(--warning)'>1</span>. The Indus river originates from the <b>Mansarovar Lake</b> near Mt. Kailash.</li><li><span style='color:var(--warning)'>2</span>. <b>Khadar</b> is the newer, more fertile alluvial soil deposited by floods.</li><li><span style='color:var(--warning)'>3</span>. The <b>Narmada and Tapti</b> are the only major rivers that flow west into the Arabian Sea through rift valleys.</li><li><span style='color:var(--warning)'>4</span>. <b>Shipki La</b> is the pass through which the Sutlej river enters India.</li><li><span style='color:var(--warning)'>5</span>. Black soil is characterized by <b>self-ploughing</b> properties due to shrinkage cracks.</li><li><span style='color:var(--warning)'>6</span>. The <b>Godavari</b> is the longest river of Peninsular India.</li><li><span style='color:var(--warning)'>7</span>. <b>Red soil</b> gets its color from the presence of ferric oxides.</li><li><span style='color:var(--warning)'>8</span>. The <b>Brahmaputra</b> is known as the Jamuna in Bangladesh.</li><li><span style='color:var(--warning)'>9</span>. <b>Nathu La</b> was reopened for trade in 2006 between India and China.</li><li><span style='color:var(--warning)'>10</span>. <b>Peaty soils</b> are found in heavy rainfall areas of Kerala and coastal Odisha.</li><li><span style='color:var(--warning)'>11</span>. The <b>Western Ghats</b> are continuous, while the Eastern Ghats are dissected by rivers.</li><li><span style='color:var(--warning)'>12</span>. <b>Alluvial soil</b> covers approximately 40% of India's total land area.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/geography-details/syl-geog.svg" alt="syl-geog" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
@@ -302,6 +344,12 @@ window.EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
   <ul style="margin-left:20px;">
     undefined
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/geography-details/india-forests-wetlands.svg" alt="india-forests-wetlands" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -341,6 +389,12 @@ window.EXPANDED_NOTES_DATA["india-resources-farming"] = `
     undefined
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/geography-details/india-resources-farming.svg" alt="india-resources-farming" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["india-transport-routes"] = `
@@ -378,6 +432,12 @@ window.EXPANDED_NOTES_DATA["india-transport-routes"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The Golden Quadrilateral is the largest highway project in India and one of the largest in Asia.</li><li><span style='color:var(--warning)'>2</span>. NH 44 is the longest National Highway, stretching from the far north to the far south.</li><li><span style='color:var(--warning)'>3</span>. National Waterway 1 (NW-1) is the most developed inland waterway, connecting Prayagraj to Haldia.</li><li><span style='color:var(--warning)'>4</span>. The BRO operates under the Ministry of Defence, highlighting the strategic nature of border roads.</li><li><span style='color:var(--warning)'>5</span>. India has 13 major ports and over 200 non-major ports.</li><li><span style='color:var(--warning)'>6</span>. The Sagarmala Project focuses on reducing logistics costs via port-led industrialization.</li><li><span style='color:var(--warning)'>7</span>. The North-South Corridor connects Srinagar to Kanyakumari.</li><li><span style='color:var(--warning)'>8</span>. The East-West Corridor connects Silchar to Porbandar.</li><li><span style='color:var(--warning)'>9</span>. Inland waterways are more fuel-efficient and eco-friendly than road transport.</li><li><span style='color:var(--warning)'>10</span>. The Jawaharlal Nehru Port Trust (JNPT) is the largest container port in India.</li><li><span style='color:var(--warning)'>11</span>. NW-2 is located entirely within the state of Assam on the Brahmaputra.</li><li><span style='color:var(--warning)'>12</span>. The 'Bharatmala Pariyojana' is the current flagship program for highway development.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/geography-details/india-transport-routes.svg" alt="india-transport-routes" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -417,6 +477,12 @@ window.EXPANDED_NOTES_DATA["india-national-parks"] = `
     <li><span style='color:var(--warning)'>1</span>. The Wildlife Protection Act of 1972 provides the legal framework for NPs.</li><li><span style='color:var(--warning)'>2</span>. Hemis National Park (Ladakh) is the largest NP in India.</li><li><span style='color:var(--warning)'>3</span>. Keibul Lamjao (Manipur) is the world's only floating national park.</li><li><span style='color:var(--warning)'>4</span>. Jim Corbett (Uttarakhand) was originally called Hailey National Park.</li><li><span style='color:var(--warning)'>5</span>. The Sundarbans is a UNESCO World Heritage site and a critical mangrove ecosystem.</li><li><span style='color:var(--warning)'>6</span>. Gir National Park is the sole refuge for the Asiatic Lion (Panthera leo leo).</li><li><span style='color:var(--warning)'>7</span>. Kaziranga and Manas (Assam) are both critical for the One-horned Rhino.</li><li><span style='color:var(--warning)'>8</span>. The Western Ghats contain a high density of NPs like Bandipur, Nagarhole, and Periyar.</li><li><span style='color:var(--warning)'>9</span>. Namdapha NP (Arunachal Pradesh) is the easternmost NP in India.</li><li><span style='color:var(--warning)'>10</span>. National Parks are 'core' areas where no human activity is permitted.</li><li><span style='color:var(--warning)'>11</span>. Project Tiger was launched in 1973 to prevent the extinction of Bengal Tigers.</li><li><span style='color:var(--warning)'>12</span>. The difference between a Sanctuary and an NP is the level of restriction on human activity.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/geography-details/india-national-parks.svg" alt="india-national-parks" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
@@ -454,6 +520,12 @@ window.EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. India's total land boundary is approximately 15,106.7 km.</li><li><span style='color:var(--warning)'>2</span>. The total coastline, including islands, is 7,516.6 km.</li><li><span style='color:var(--warning)'>3</span>. Gujarat has the longest coastline among all Indian states.</li><li><span style='color:var(--warning)'>4</span>. The 82°30' E longitude passes through Mirzapur (UP) and defines IST.</li><li><span style='color:var(--warning)'>5</span>. India shares its longest border with Bangladesh (4,096.7 km).</li><li><span style='color:var(--warning)'>6</span>. The Palk Strait and Gulf of Mannar separate India and Sri Lanka.</li><li><span style='color:var(--warning)'>7</span>. The 10 Degree Channel separates Andaman Islands from Nicobar Islands.</li><li><span style='color:var(--warning)'>8</span>. The 8 Degree Channel separates Minicoy from the Maldives.</li><li><span style='color:var(--warning)'>9</span>. India's southernmost point is Indira Point (Great Nicobar).</li><li><span style='color:var(--warning)'>10</span>. The Siliguri Corridor is located between Nepal and Bangladesh.</li><li><span style='color:var(--warning)'>11</span>. The McMahon Line was determined in 1914 during the Simla Convention.</li><li><span style='color:var(--warning)'>12</span>. The Radcliffe Line was drawn in 1947 by Sir Cyril Radcliffe.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/geography-details/mapping-borders-capitals.svg" alt="mapping-borders-capitals" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -493,6 +565,12 @@ window.EXPANDED_NOTES_DATA["geog-industries"] = `
     <li><span style='color:var(--warning)'>1</span>. The Chotanagpur Plateau is the heart of India's mineral-based industries due to the presence of iron ore, coal, and manganese.</li><li><span style='color:var(--warning)'>2</span>. The Delhi-Mumbai Industrial Corridor (DMIC) is developed in partnership with Japan.</li><li><span style='color:var(--warning)'>3</span>. The 'Golden Quadrilateral' provides the primary road connectivity for most industrial corridors.</li><li><span style='color:var(--warning)'>4</span>. India is the world's largest producer of jute and the second-largest producer of textiles.</li><li><span style='color:var(--warning)'>5</span>. The Vishakhapatnam Steel Plant (RINL) is a major shore-based steel plant.</li><li><span style='color:var(--warning)'>6</span>. The 'Petrochemical Hub' of India is concentrated along the western coast (Gujarat and Maharashtra).</li><li><span style='color:var(--warning)'>7</span>. The National Industrial Corridor Development Program (NICDP) oversees the creation of multiple corridors.</li><li><span style='color:var(--warning)'>8</span>. The 'Manchester of South India' is Coimbatore.</li><li><span style='color:var(--warning)'>9</span>. The Ambala-Ludhiana-Jalandhar belt is a major hub for sports goods and hosiery.</li><li><span style='color:var(--warning)'>10</span>. The 'Silicon Plateau' refers to the region around Bengaluru and Hyderabad.</li><li><span style='color:var(--warning)'>11</span>. The Gujarat-Maharashtra belt is the most industrialized region in India.</li><li><span style='color:var(--warning)'>12</span>. The 'Ruhr of India' is a term often used for the Damodar Valley region.</li>
   </ul>
 </div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/industrics-geopolitics/geog-industries.svg" alt="geog-industries" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["geog-geopolitics"] = `
@@ -530,6 +608,12 @@ window.EXPANDED_NOTES_DATA["geog-geopolitics"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The Exclusive Economic Zone (EEZ) extends 200 nautical miles from the baseline.</li><li><span style='color:var(--warning)'>2</span>. The 'Malacca Dilemma' refers to China's vulnerability to a naval blockade at the Strait of Malacca.</li><li><span style='color:var(--warning)'>3</span>. The 'String of Pearls' includes ports like Gwadar (Pakistan), Hambantota (Sri Lanka), and Djibouti.</li><li><span style='color:var(--warning)'>4</span>. India's 'Necklace of Diamonds' strategy involves access to bases like Changi (Singapore) and Duqm (Oman).</li><li><span style='color:var(--warning)'>5</span>. The South China Sea is vital for roughly one-third of global shipping.</li><li><span style='color:var(--warning)'>6</span>. The 2016 Permanent Court of Arbitration ruling invalidated China's Nine-Dash Line.</li><li><span style='color:var(--warning)'>7</span>. The Taiwan Strait is a critical chokepoint for the global supply of high-end semiconductors.</li><li><span style='color:var(--warning)'>8</span>. The 'First Island Chain' is a strategic boundary from Japan to the Philippines.</li><li><span style='color:var(--warning)'>9</span>. India is a 'Net Security Provider' in the Indian Ocean Region (IOR).</li><li><span style='color:var(--warning)'>10</span>. The Andaman and Nicobar Islands serve as India's 'unsinkable aircraft carrier' in the Bay of Bengal.</li>
   </ul>
+</div>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/industrics-geopolitics/geog-geopolitics.svg" alt="geog-geopolitics" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 

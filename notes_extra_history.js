@@ -20,6 +20,12 @@ History is the systematic analysis of past human events, cultures, and structure
 *   **Cause and Effect:** Every historical event has roots in economic, social, political, or geographical causes, and produces consequences that shape subsequent eras.
 *   **Periodisation of Indian History:** Originally divided by colonial historians (like James Mill) into Hindu, Muslim, and British periods (a communal division). Modern historians classify it scientifically into **Ancient, Medieval, and Modern** periods.
 *   **Social, Economic & Cultural History:** Shift from dynastic history (kings and wars) to social structures (caste, gender), economic patterns (trade routes, land revenue), and cultural expressions (art, religion).
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/historiography/what-is-history.svg" alt="what-is-history" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["sources-indian-history"] = `
@@ -52,6 +58,12 @@ Historians reconstruct the past using two primary categories of sources: Archaeo
     *   \*\*Greek:\*\* Megasthenes (_Indica_, Mauryan administration).
     *   \*\*Chinese:\*\* Fa-Hien (Gupta period under Chandragupta II) and Hiuen Tsang (Harsha's reign, studied at Nalanda).
     *   \*\*Arab/Persian:\*\* Al-Biruni (_Kitab-ul-Hind_, 11th century culture and science), Ibn Battuta (_Rihla_, Tughlaq period).
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/historiography/sources-indian-history.svg" alt="sources-indian-history" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["dating-systems"] = `
@@ -67,6 +79,12 @@ Different calendars and dating conventions have been used throughout Indian hist
 ### 2\. Key Historical Eras of India
 
 <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;"><tbody><tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;"><th style="padding:8px; border:1px solid var(--border);">Era Name</th><th style="padding:8px; border:1px solid var(--border);">Start Date</th><th style="padding:8px; border:1px solid var(--border);">Founder / Context</th><th style="padding:8px; border:1px solid var(--border);">Significance</th></tr><tr><td style="padding:8px; border:1px solid var(--border);"><strong>Vikrama Era</strong></td><td style="padding:8px; border:1px solid var(--border);">57 BCE</td><td style="padding:8px; border:1px solid var(--border);">King Vikramaditya of Ujjain</td><td style="padding:8px; border:1px solid var(--border);">Commemorated victory over Saka invaders.</td></tr><tr><td style="padding:8px; border:1px solid var(--border);"><strong>Saka Era</strong></td><td style="padding:8px; border:1px solid var(--border);">78 CE</td><td style="padding:8px; border:1px solid var(--border);">Kushana King Kanishka</td><td style="padding:8px; border:1px solid var(--border);">Adopted as the **National Calendar of India** in 1957. Starts on Chaitra 1 (March 22 / 21 in leap years).</td></tr><tr><td style="padding:8px; border:1px solid var(--border);"><strong>Gupta Era</strong></td><td style="padding:8px; border:1px solid var(--border);">319 - 320 CE</td><td style="padding:8px; border:1px solid var(--border);">Chandragupta I</td><td style="padding:8px; border:1px solid var(--border);">Marks his accession to the throne and rise of Gupta power.</td></tr><tr><td style="padding:8px; border:1px solid var(--border);"><strong>Harsha Era</strong></td><td style="padding:8px; border:1px solid var(--border);">606 CE</td><td style="padding:8px; border:1px solid var(--border);">Harshavardhana of Kanauj</td><td style="padding:8px; border:1px solid var(--border);">Commemorated his coronation.</td></tr></tbody></table>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/historiography/dating-systems.svg" alt="dating-systems" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 // ==========================================
@@ -170,6 +188,12 @@ Also known as the Harappan Civilization. India's first urban revolution, flouris
     *   Aryan Invasion: Mortimer Wheeler (criticised now).
     *   Floods: Marshall, S.R. Rao.
     *   Ecological Imbalance / Drying of Rivers: Sood and Agrawal, Rafique Mughal.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/ancient-india-tree/indus-valley-civilization.svg" alt="indus-valley-civilization" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["vedic-age"] = `
@@ -195,6 +219,12 @@ Reconstructed using the Vedas. Divided into Early Vedic (1500-1000 BCE) and Late
 *   **Brahmanas:** Prose texts explaining the rituals of the Vedas.
 *   **Aranyakas:** Forest books dealing with mysticism and philosophy.
 *   **Upanishads:** Philosophical texts (Vedanta). Total 108. \*\*"Satyameva Jayate"\*\* is in \*\*Mundaka Upanishad\*\*.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/ancient-india-tree/vedic-age.svg" alt="vedic-age" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["mahajanapadas"] = `
@@ -219,6 +249,12 @@ Magadha rose to become the supreme power due to: large iron deposits (for weapon
 *   **Nanda Dynasty (345 - 321 BCE):**
     *   \*\*Mahapadma Nanda:\*\* Took the title of \*Ekarat\*. First non-Kshatriya dynasty.
     *   \*\*Dhana Nanda:\*\* Last ruler. Alexander the Great invaded North-West India during his reign. Overthrown by Chandragupta Maurya.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/ancient-india-tree/mahajanapadas.svg" alt="mahajanapadas" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["buddhism-jainism"] = `
@@ -245,6 +281,12 @@ Heterodox religious movements that arose in the 6th century BCE as a reaction to
 ### 4\. Jain Sects (Svetambar vs Digambar)
 
 <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;"><tbody><tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;"><th style="padding:8px; border:1px solid var(--border);">Aspect</th><th style="padding:8px; border:1px solid var(--border);">Svetambar</th><th style="padding:8px; border:1px solid var(--border);">Digambar</th></tr><tr><td style="padding:8px; border:1px solid var(--border);">Clothing</td><td style="padding:8px; border:1px solid var(--border);">White-clad monks/nuns</td><td style="padding:8px; border:1px solid var(--border);">Sky-clad (naked) monks</td></tr><tr><td style="padding:8px; border:1px solid var(--border);">Female Monks</td><td style="padding:8px; border:1px solid var(--border);">Allow ordination of women</td><td style="padding:8px; border:1px solid var(--border);">Do not believe women can attain Moksha directly</td></tr><tr><td style="padding:8px; border:1px solid var(--border);">Origin</td><td style="padding:8px; border:1px solid var(--border);">Teachings of Sthulabhadra</td><td style="padding:8px; border:1px solid var(--border);">Original teachings, led by Bhadrabahu</td></tr></tbody></table>
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/ancient-india-tree/buddhism-jainism.svg" alt="buddhism-jainism" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["mauryan-period"] = `
@@ -268,6 +310,12 @@ Ashoka's inscriptions on pillars and rocks provided insights into governance, po
 ### 3\. Decline of the Mauryan Empire
 
 Weak successors, regional revolts, economic drain from military campaigns, and foreign invasions by Greeks, Sakas, and Parthians destabilized the empire.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/ancient-india-tree/mauryan-period.svg" alt="mauryan-period" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["post-mauryan-india"] = `
@@ -297,6 +345,12 @@ After the Mauryan decline, Magadha saw the rise of smaller dynasties, while the 
 *   Introduced turbans, tunics, trousers, and heavy long coats/boots.
 *   \*\*Satrap System:\*\* Hereditary dual rule (father & son ruling jointly).
 *   Rise of \*\*Gandhara Art\*\* (Greco-Roman, spiritual Buddha with half-closed eyes) and \*\*Mathura Art\*\* (indigenous, red sandstone).
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/ancient-india-tree/post-mauryan-india.svg" alt="post-mauryan-india" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["gupta-period"] = `
@@ -321,6 +375,12 @@ Comparative Territorial Extent: Mauryan Empire vs Gupta Empire (Golden Age of Ar
 *   **Literature:** Kalidasa (plays: \*Abhijnanasakuntalam\*, \*Malavikagnimitram\*; poems: \*Meghaduta\*, \*Raghuvamsa\*). Shudraka (\*Mrichchakatikam\*). Vishakhadatta (\*Devichandraguptam\*, \*Mudrarakshasa\*).
 *   **Science & Math:** \*\*Aryabhata\*\* (wrote \*Aryabhatiya\*, calculated value of Pi, explained eclipses, proved Earth rotates on axis). \*\*Varahamihira\*\* (wrote \*Brihat Samhita\*, \*Panchasiddhantika\*). \*\*Dhanvantari\*\* (medicine).
 *   **The "Golden Age" Debate:** While literature and science peaked, some historians argue that feudalism increased, foreign trade declined, and untouchability grew, questioning the "Golden" tag for the masses.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/ancient-india-tree/gupta-period.svg" alt="gupta-period" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = `
@@ -344,6 +404,12 @@ The history of South India is marked by the Sangam Age, followed by the Pallavas
 *   \*\*Rajaraja Chola I (985 - 1014 CE):\*\* Built the grand \*\*Brihadeshwara (Rajarajeshwara) Temple\*\* at Thanjavur (tallest Vimana in India). Annexed northern Sri Lanka.
 *   \*\*Rajendra Chola I (1014 - 1044 CE):\*\* Annexed entire Sri Lanka. Marched up to Ganges, took title \*Gangaikonda Chola\* and founded capital \*Gangaikondacholapuram\*. Sent naval expeditions to Southeast Asia (Srivijaya Kingdom), dominating the Bay of Bengal (called the "Chola Lake").
 *   \*\*Village Self-Government:\*\* The \*\*Uttaramerur Inscription\*\* of Parantaka I (907-955 CE) details the working of local assemblies (\*Ur\* and \*Sabha\*). Members were elected by lottery (\*Kudavolai\* system) under strict eligibility rules.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/ancient-india-tree/south-indian-kingdoms.svg" alt="south-indian-kingdoms" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 // ==========================================
@@ -379,6 +445,12 @@ Five successive dynasties ruled Delhi before the Mughal era. Mnemonic: **S**ome 
     *   \*\*Firoz Shah Tughlaq (1351-1388):\*\* Built canals for irrigation. Set up public welfare departments: \*Diwan-i-Khairat\* (charity), \*Diwan-i-Bundagan\* (slaves). Founded cities like Firozabad and Hissar.
 *   **Sayyid Dynasty (1414-1451):** Founded by Khizr Khan.
 *   **Lodi Dynasty (1451-1526):** Founded by Bahlul Lodi. Sikandar Lodi founded Agra (1504). \*\*Ibrahim Lodi\*\* was defeated by Babur in the \*\*1st Battle of Panipat (1526)\*\*, ending the Sultanate.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/medieval-india-tree/delhi-sultanate.svg" alt="delhi-sultanate" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["vijayanagara-empire"] = `
@@ -414,6 +486,12 @@ In the early 16th century, the Bahmani kingdom disintegrated into five independe
 *   **Qutb Shahis of Golconda:** Quli Qutb Shah. Famous for Golconda Diamond mines. Built \*\*Charminar\*\* in Hyderabad.
 *   **Imad Shahis of Berar:** Fathullah Imad-ul-Mulk.
 *   **Barid Shahis of Bidar:** Qasim Barid.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/medieval-india-tree/bahmani-deccan-sultanates.svg" alt="bahmani-deccan-sultanates" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["mughal-empire"] = `
@@ -497,6 +575,12 @@ A medieval socio-religious reform movement preaching personal devotion to God as
 *   **Nirguna School (Worshipped Formless God):**
     *   \*\*Kabir:\*\* Disciple of Ramananda. Opposed rituals, caste system, idol worship. Expressed ideas in \*Dohas\* (couplets) compiled in \*Bijak\*.
     *   \*\*Guru Nanak:\*\* Preached monotheism and equality.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/medieval-india-tree/bhakti-movement.svg" alt="bhakti-movement" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["sufi-movement"] = `
@@ -859,6 +943,12 @@ The structural heritage of India, from ancient cave temples to medieval Islamic 
 *   \*\*Sanchi Stupa (MP):\*\* Commemorated by Ashoka. Relics of Buddha inside semicircular mound with ornamental gateways (\*Toranas\*).
 *   \*\*Ajanta Caves:\*\* 29 Buddhist rock-cut caves. Murals depicting Jataka tales.
 *   \*\*Ellora Caves:\*\* 34 caves representing Hinduism, Buddhism, and Jainism. Cave 16 contains the monolithic rock-cut \*\*Kailash Temple\*\* built by Krishna I (Rashtrakuta).
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/art-culture-heritage/architecture.svg" alt="architecture" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["paintings"] = `
@@ -878,6 +968,12 @@ From ancient cave murals to royal miniature schools and tribal folk paintings.
 *   **Madhubani Paintings (Bihar):** Mithila region. Traditionally done by women using rice paste, twigs, fingers, and natural dyes. Displays nature, birds, fish, and deities. Has geographical indication (GI) tag.
 *   **Warli Paintings (Maharashtra):** Tribal art using basic geometric shapes (triangles, circles, squares) made of white paste (rice flour) on mud/ochre walls, showing daily activities, crop cycles, and tarpa dance.
 *   **Pattachitra (Odisha):** Scroll paintings on cloth or dried palm leaves. Displays tales of Lord Jagannath and Krishna.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/art-culture-heritage/paintings.svg" alt="paintings" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["dance-music"] = `
@@ -893,6 +989,12 @@ The classical and folk performance heritage of India, preserving historical myth
 
 *   **Hindustani Music (North India):** Heavy Persian/Central Asian influence. Divided into \*Gharanas\* (schools). Major styles: \*Dhrupad\* (dhruva/fixed, older), \*Khayal\* (imagination, popular).
 *   **Carnatic Music (South India):** Purely indigenous system. Structured format based on \*Kriti\* (composition), \*Raga\* (melody), and \*Tala\* (rhythm). Trinity: Tyagaraja, Muthuswami Dikshitar, Syama Sastri.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/art-culture-heritage/dance-music.svg" alt="dance-music" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["literature"] = `
@@ -913,6 +1015,12 @@ The vast text corpus of India, preserving scientific, political, and philosophic
     \- \*Mrichchakatikam (Shudraka):\* "The Little Clay Cart" - social drama of ancient times.  
     \- \*Mudrarakshasa (Vishakhadatta):\* Historical play showing Chandragupta Maurya's rise.
 *   **Sangam Literature (Tamil):** Tolkappiyam (grammar), epics Silappatikaram and Manimekalai, and Tirukkural (moral guide by Tiruvalluvar).
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/art-culture-heritage/literature.svg" alt="literature" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["religion-festivals"] = `
@@ -935,6 +1043,12 @@ The intellectual schools of thought and cultural celebrations across communities
 *   \*\*Pongal (Tamil Nadu):\*\* 4-day harvest festival.
 *   \*\*Bihu (Assam):\*\* 3 festivals (Rongali, Kongali, Bhogali) marking agricultural cycles.
 *   \*\*Hornbill Festival (Nagaland):\*\* "Festival of Festivals", showcasing rich tribal heritage.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/art-culture-heritage/religion-festivals.svg" alt="religion-festivals" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["heritage-sites"] = `
@@ -950,6 +1064,12 @@ India is home to \*\*42 UNESCO World Heritage Sites\*\* (as of recent evaluation
 *   **Recent Inclusions:**
     *   \*\*Santiniketan (West Bengal):\*\* University town founded by Rabindranath Tagore.
     *   \*\*Sacred Ensembles of the Hoysalas (Karnataka):\*\* Star-shaped temples at Belur, Halebidu, and Somanathapura.
+
+
+<h3>Visual Summary Diagram</h3>
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/art-culture-heritage/heritage-sites.svg" alt="heritage-sites" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+</div>
 `;
 
 console.log("Successfully loaded notes_extra_history.js!");
