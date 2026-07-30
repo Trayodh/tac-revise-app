@@ -39,12 +39,7 @@ window.EXPANDED_NOTES_DATA["cell-structure"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/biology/biology-cell/cell-structure.svg" alt="cell-structure" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
-
-
-  <!-- DIAGRAM INJECTED -->
+<!-- DIAGRAM INJECTED -->
   <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/biology/cell-biology-genetics/cell-structure.png" alt="cell-structure" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
@@ -90,12 +85,7 @@ window.EXPANDED_NOTES_DATA["human-systems"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/biology/biology-physiology/human-systems.svg" alt="human-systems" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
-
-
-  <!-- DIAGRAM INJECTED -->
+<!-- DIAGRAM INJECTED -->
   <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/biology/human-physiology/human-systems.png" alt="human-systems" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
@@ -141,9 +131,6 @@ window.EXPANDED_NOTES_DATA["diseases"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/biology/biology-diseases/diseases.svg" alt="diseases" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -185,9 +172,6 @@ window.EXPANDED_NOTES_DATA["immunity-vaccines"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/biology/biology-diseases/immunity-vaccines.svg" alt="immunity-vaccines" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -229,12 +213,7 @@ window.EXPANDED_NOTES_DATA["plant-kingdom"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/biology/biology-kingdoms/plant-kingdom.svg" alt="plant-kingdom" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
-
-
-  <!-- DIAGRAM INJECTED -->
+<!-- DIAGRAM INJECTED -->
   <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/biology/plant-animal-kingdoms/plant-kingdom.png" alt="plant-kingdom" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
@@ -280,9 +259,6 @@ window.EXPANDED_NOTES_DATA["animal-kingdom"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/biology/biology-kingdoms/animal-kingdom.svg" alt="animal-kingdom" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -324,12 +300,7 @@ window.EXPANDED_NOTES_DATA["plant-reproduction"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/biology/biology-botany/plant-reproduction.svg" alt="plant-reproduction" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
-
-
-  <!-- DIAGRAM INJECTED -->
+<!-- DIAGRAM INJECTED -->
   <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/biology/plant-physiology-reproduction/plant-reproduction.png" alt="plant-reproduction" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
@@ -375,12 +346,7 @@ window.EXPANDED_NOTES_DATA["biology-ecology-basics"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/biology/biology-ecology/biology-ecology-basics.svg" alt="biology-ecology-basics" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
-
-
-  <!-- DIAGRAM INJECTED -->
+<!-- DIAGRAM INJECTED -->
   <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/biology/ecology-ecosystems/biology-ecology-basics.png" alt="biology-ecology-basics" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />

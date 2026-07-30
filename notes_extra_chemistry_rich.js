@@ -39,12 +39,7 @@ window.EXPANDED_NOTES_DATA["acids-bases"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/chemistry/chemistry-substances/acids-bases.svg" alt="acids-bases" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
-
-
-  <!-- DIAGRAM INJECTED -->
+<!-- DIAGRAM INJECTED -->
   <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/chemistry/acids-bases-salts/acids-bases.png" alt="acids-bases" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
@@ -90,12 +85,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/chemistry/chemistry-bonding/syl-numerical.svg" alt="syl-numerical" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
-
-
-  <!-- DIAGRAM INJECTED -->
+<!-- DIAGRAM INJECTED -->
   <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/chemistry/chemical-bonding/syl-numerical.png" alt="syl-numerical" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
@@ -141,9 +131,6 @@ window.EXPANDED_NOTES_DATA["metals-alloys"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/chemistry/chemistry-metallurgy/metals-alloys.svg" alt="metals-alloys" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -185,12 +172,7 @@ window.EXPANDED_NOTES_DATA["reactivity-series"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/chemistry/chemistry-metallurgy/reactivity-series.svg" alt="reactivity-series" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
-
-
-  <!-- DIAGRAM INJECTED -->
+<!-- DIAGRAM INJECTED -->
   <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/chemistry/metals-metallurgy/reactivity-series.png" alt="reactivity-series" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
@@ -236,9 +218,6 @@ window.EXPANDED_NOTES_DATA["carbon-compounds"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/chemistry/chemistry-carbon-numericals/carbon-compounds.svg" alt="carbon-compounds" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -280,12 +259,7 @@ window.EXPANDED_NOTES_DATA["chemistry-numericals"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/chemistry/chemistry-carbon-numericals/chemistry-numericals.svg" alt="chemistry-numericals" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
-
-
-  <!-- DIAGRAM INJECTED -->
+<!-- DIAGRAM INJECTED -->
   <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/chemistry/carbon-compounds-numericals/chemistry-numericals.png" alt="chemistry-numericals" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
@@ -331,12 +305,7 @@ window.EXPANDED_NOTES_DATA["chemistry-everyday-fertilisers"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/chemistry/chemistry-everyday-env/chemistry-everyday-fertilisers.svg" alt="chemistry-everyday-fertilisers" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
-
-
-  <!-- DIAGRAM INJECTED -->
+<!-- DIAGRAM INJECTED -->
   <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/chemistry/everyday-environmental-chemistry/chemistry-everyday-fertilisers.png" alt="chemistry-everyday-fertilisers" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
@@ -382,12 +351,7 @@ window.EXPANDED_NOTES_DATA["environmental-chemistry"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/chemistry/chemistry-everyday-env/environmental-chemistry.svg" alt="environmental-chemistry" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
-
-
-  <!-- DIAGRAM INJECTED -->
+<!-- DIAGRAM INJECTED -->
   <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/chemistry/everyday-environmental-chemistry/environmental-chemistry.png" alt="environmental-chemistry" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />

@@ -381,9 +381,6 @@ window.EXPANDED_NOTES_DATA["magadha-expansion"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/history/ancient-india-tree/magadha-expansion.svg" alt="magadha-expansion" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
@@ -615,9 +612,6 @@ window.EXPANDED_NOTES_DATA["ancient-indian-culture"] = `
 </div>
 
 
-<h3>Visual Summary Diagram</h3>
-<div style="text-align: center; margin: 20px 0;">
-    <img src="assets/diagrams/history/ancient-india-tree/ancient-indian-culture.svg" alt="ancient-indian-culture" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
 </div>
 `;
 
