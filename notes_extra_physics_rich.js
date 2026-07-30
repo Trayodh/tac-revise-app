@@ -36,6 +36,13 @@ window.EXPANDED_NOTES_DATA["reflection-refraction"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. Light travels fastest in a vacuum (3&times;10<sup>8</sup> m/s).</li><li><span style='color:var(--warning)'>2</span>. For a plane mirror, the image is always virtual, erect, and laterally inverted.</li><li><span style='color:var(--warning)'>3</span>. The focal length of a spherical mirror is half its radius of curvature (f = R/2).</li><li><span style='color:var(--warning)'>4</span>. Total Internal Reflection requires light to travel from a denser to a rarer medium.</li><li><span style='color:var(--warning)'>5</span>. Mirage is an optical illusion caused by atmospheric refraction and TIR.</li><li><span style='color:var(--warning)'>6</span>. The power of a combination of lenses is the algebraic sum of individual powers (P = P1 + P2).</li><li><span style='color:var(--warning)'>7</span>. Myopia is caused by an elongated eyeball or excessive curvature of the lens.</li><li><span style='color:var(--warning)'>8</span>. Hypermetropia is caused by a shortened eyeball or focal length that is too long.</li><li><span style='color:var(--warning)'>9</span>. A lens placed in a medium with the same refractive index becomes invisible.</li><li><span style='color:var(--warning)'>10</span>. The speed of light decreases as the refractive index of the medium increases.</li><li><span style='color:var(--warning)'>11</span>. Dispersion is the splitting of white light into seven colors (VIBGYOR) through a prism.</li><li><span style='color:var(--warning)'>12</span>. The image formed by a convex mirror is always virtual, regardless of object position.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/physics/optics-light/reflection-refraction.png" alt="reflection-refraction" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -74,6 +81,13 @@ window.EXPANDED_NOTES_DATA["newtons-laws"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. Newton's First Law is qualitatively known as the Law of Inertia.</li><li><span style='color:var(--warning)'>2</span>. Force is a vector quantity measured in Newtons (1 N = 1 kg·m/s²).</li><li><span style='color:var(--warning)'>3</span>. The Second Law is the 'real' law of motion as the first and third can be derived from it.</li><li><span style='color:var(--warning)'>4</span>. Momentum is conserved in an isolated system (Law of Conservation of Momentum).</li><li><span style='color:var(--warning)'>5</span>. Action and reaction forces always act on <b>different</b> bodies, never on the same body.</li><li><span style='color:var(--warning)'>6</span>. Inertia depends solely on the mass of the object, not its velocity.</li><li><span style='color:var(--warning)'>7</span>. A body in equilibrium has a net force of zero, but may still be moving at constant velocity.</li><li><span style='color:var(--warning)'>8</span>. Apparent weight in a lift increases during upward acceleration and decreases during downward acceleration.</li><li><span style='color:var(--warning)'>9</span>. The unit of Impulse is Newton-second (N·s) or kg·m/s.</li><li><span style='color:var(--warning)'>10</span>. Friction is a self-adjusting force up to the limit of limiting friction.</li><li><span style='color:var(--warning)'>11</span>. Centripetal force is not a new force but a requirement for circular motion provided by other forces.</li><li><span style='color:var(--warning)'>12</span>. Newton's laws fail at relativistic speeds (near speed of light) and quantum scales.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/physics/mechanics-motion/newtons-laws.png" alt="newtons-laws" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -112,6 +126,13 @@ window.EXPANDED_NOTES_DATA["syl-exercises"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. Work done by a centripetal force is always zero because force is perpendicular to motion.</li><li><span style='color:var(--warning)'>2</span>. The value of 'g' decreases as we go higher above the Earth's surface or deeper into the Earth.</li><li><span style='color:var(--warning)'>3</span>. A geostationary satellite has an orbital period of 24 hours and orbits in the equatorial plane.</li><li><span style='color:var(--warning)'>4</span>. Energy is a scalar quantity, whereas force and displacement are vectors.</li><li><span style='color:var(--warning)'>5</span>. The weight of an object is maximum at the poles and minimum at the equator.</li><li><span style='color:var(--warning)'>6</span>. Conservation of Mechanical Energy: Total Energy = KE + PE = Constant (in absence of friction).</li><li><span style='color:var(--warning)'>7</span>. Escape velocity does not depend on the mass of the escaping object.</li><li><span style='color:var(--warning)'>8</span>. 1 Joule is equal to 1 Newton-meter (N·m).</li><li><span style='color:var(--warning)'>9</span>. The gravitational force between two objects is always attractive, never repulsive.</li><li><span style='color:var(--warning)'>10</span>. Power is the dot product of Force and Velocity vectors (P = F · v).</li><li><span style='color:var(--warning)'>11</span>. At the center of the Earth, the value of acceleration due to gravity (g) is zero.</li><li><span style='color:var(--warning)'>12</span>. The work done by friction is generally negative as it opposes the direction of motion.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/physics/energy-gravitation/syl-exercises.png" alt="syl-exercises" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -188,6 +209,13 @@ window.EXPANDED_NOTES_DATA["physics-em-waves"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. All EM waves travel at the speed of light (c = 3 x 10<sup>8</sup> m/s) in a vacuum.</li><li><span style='color:var(--warning)'>2</span>. The relationship between speed, frequency, and wavelength is c = λf.</li><li><span style='color:var(--warning)'>3</span>. EM waves are transverse waves; they do not require a medium to propagate.</li><li><span style='color:var(--warning)'>4</span>. Gamma rays have the highest frequency and the shortest wavelength.</li><li><span style='color:var(--warning)'>5</span>. Radio waves have the lowest frequency and the longest wavelength.</li><li><span style='color:var(--warning)'>6</span>. The energy of an EM wave is directly proportional to its frequency.</li><li><span style='color:var(--warning)'>7</span>. Visible light is a very narrow band of the EM spectrum (approx. 400nm to 700nm).</li><li><span style='color:var(--warning)'>8</span>. Radar operates primarily using Microwaves due to their ability to reflect off metallic objects.</li><li><span style='color:var(--warning)'>9</span>. Infrared radiation is primarily sensed by thermal imaging cameras used in defence.</li><li><span style='color:var(--warning)'>10</span>. X-rays and Gamma rays are ionizing radiations, meaning they can remove electrons from atoms.</li><li><span style='color:var(--warning)'>11</span>. The speed of EM waves decreases when they enter a denser medium (like glass or water).</li><li><span style='color:var(--warning)'>12</span>. Polarization is a property exclusive to transverse waves, including all EM waves.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/physics/waves-acoustics/physics-em-waves.png" alt="physics-em-waves" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -226,6 +254,13 @@ window.EXPANDED_NOTES_DATA["physics-heat"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The First Law of Thermodynamics is expressed as ΔU = Q - W.</li><li><span style='color:var(--warning)'>2</span>. Absolute Zero (0 Kelvin) is the temperature at which molecular motion ceases.</li><li><span style='color:var(--warning)'>3</span>. Thermal conductivity is highest in metals (e.g., Silver, Copper) and lowest in gases.</li><li><span style='color:var(--warning)'>4</span>. A Carnot engine is a theoretical ideal engine with no friction or heat loss.</li><li><span style='color:var(--warning)'>5</span>. In an adiabatic process, the relation is PV^γ = constant, where γ is the adiabatic index.</li><li><span style='color:var(--warning)'>6</span>. Wien's Displacement Law states that λmaxT = constant (peak wavelength shifts with temperature).</li><li><span style='color:var(--warning)'>7</span>. Heat transfer by radiation does not require a medium and travels at the speed of light.</li><li><span style='color:var(--warning)'>8</span>. The efficiency of a heat engine is given by η = 1 - (T_cold / T_hot).</li><li><span style='color:var(--warning)'>9</span>. Specific heat of water is 4186 J/kg·K, making it an excellent coolant.</li><li><span style='color:var(--warning)'>10</span>. Latent heat is the energy absorbed/released during a phase change without changing temperature.</li><li><span style='color:var(--warning)'>11</span>. The Zeroth Law provides the basis for the thermometer.</li><li><span style='color:var(--warning)'>12</span>. Entropy of the universe is constantly increasing according to the 2nd Law.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/physics/heat-thermodynamics/physics-heat.png" alt="physics-heat" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -264,6 +299,13 @@ window.EXPANDED_NOTES_DATA["physics-electricity-magnetism"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The resistivity of a conductor increases with an increase in temperature (for metals).</li><li><span style='color:var(--warning)'>2</span>. Superconductors have zero electrical resistance at very low critical temperatures.</li><li><span style='color:var(--warning)'>3</span>. An Ammeter is always connected in series (low resistance), while a Voltmeter is in parallel (high resistance).</li><li><span style='color:var(--warning)'>4</span>. The unit of Magnetic Field Strength (B) is Tesla (T) or Gauss (1 T = 10^4 G).</li><li><span style='color:var(--warning)'>5</span>. Electric power is calculated as P = VI = I²R = V²/R.</li><li><span style='color:var(--warning)'>6</span>. A fuse wire must have a high resistance and a low melting point.</li><li><span style='color:var(--warning)'>7</span>. The force on a current-carrying conductor in a magnetic field is F = BIL sin(θ).</li><li><span style='color:var(--warning)'>8</span>. AC is preferred for long-distance transmission to reduce I²R power loss using step-up transformers.</li><li><span style='color:var(--warning)'>9</span>. The capacitance of a parallel plate capacitor is C = ε₀A/d.</li><li><span style='color:var(--warning)'>10</span>. A galvanometer can be converted into an ammeter by adding a low-resistance shunt in parallel.</li><li><span style='color:var(--warning)'>11</span>. Magnetic field lines always form closed loops, entering South and leaving North poles.</li><li><span style='color:var(--warning)'>12</span>. The energy stored in an inductor is given by U = 1/2 LI².</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/physics/electricity-magnetism/physics-electricity-magnetism.png" alt="physics-electricity-magnetism" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -302,6 +344,13 @@ window.EXPANDED_NOTES_DATA["physics-nuclear-basics"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The most stable nucleus is Iron-56 (Fe-56) due to maximum binding energy per nucleon.</li><li><span style='color:var(--warning)'>2</span>. Alpha particles are deflected by positive charges, proving the nucleus is positively charged.</li><li><span style='color:var(--warning)'>3</span>. Carbon-14 is used for dating organic materials (Radiocarbon dating).</li><li><span style='color:var(--warning)'>4</span>. Cobalt-60 is widely used in cancer radiotherapy.</li><li><span style='color:var(--warning)'>5</span>. In a nuclear reactor, Graphite or Heavy Water (D2O) acts as a moderator to slow down neutrons.</li><li><span style='color:var(--warning)'>6</span>. Control rods (Cadmium or Boron) are used to absorb excess neutrons in reactors.</li><li><span style='color:var(--warning)'>7</span>. Fusion occurs in the Sun via the Proton-Proton chain or CNO cycle.</li><li><span style='color:var(--warning)'>8</span>. The mass of a nucleus is always slightly less than the sum of its individual nucleons (Mass Defect).</li><li><span style='color:var(--warning)'>9</span>. Gamma radiation does not change the atomic number or mass number of the element.</li><li><span style='color:var(--warning)'>10</span>. Half-life (T1/2) is the time taken for half of the radioactive nuclei to decay.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/physics/modern-physics-units/physics-nuclear-basics.png" alt="physics-nuclear-basics" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -340,6 +389,13 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. There are 7 base SI units and all others are derived.</li><li><span style='color:var(--warning)'>2</span>. The <b>Planck constant</b> is now used to define the kilogram.</li><li><span style='color:var(--warning)'>3</span>. 1 Joule is equivalent to 1 Newton-meter (N·m).</li><li><span style='color:var(--warning)'>4</span>. The <b>Tesla (T)</b> is the SI unit of magnetic flux density.</li><li><span style='color:var(--warning)'>5</span>. <b>Weber (Wb)</b> is the unit for magnetic flux.</li><li><span style='color:var(--warning)'>6</span>. 1 Horsepower (hp) is approximately 746 Watts.</li><li><span style='color:var(--warning)'>7</span>. The unit of electric conductance is <b>Siemens (S)</b>.</li><li><span style='color:var(--warning)'>8</span>. <b>Lumen</b> is the unit of luminous flux, while Candela is luminous intensity.</li><li><span style='color:var(--warning)'>9</span>. Dimensional formula for Work and Energy is [ML²T⁻²].</li><li><span style='color:var(--warning)'>10</span>. The <b>Dioptre (D)</b> is the SI unit of power of a lens.</li><li><span style='color:var(--warning)'>11</span>. 1 Bar = 10^5 Pascals.</li><li><span style='color:var(--warning)'>12</span>. The <b>Henry (H)</b> is the SI unit of inductance.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/physics/modern-physics-units/physics-units-everyday.png" alt="physics-units-everyday" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 

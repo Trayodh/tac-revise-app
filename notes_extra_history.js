@@ -193,6 +193,20 @@ Also known as the Harappan Civilization. India's first urban revolution, flouris
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/history/ancient-india-tree/indus-valley-civilization.svg" alt="indus-valley-civilization" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/3-ancient-india/indus-valley-civilization.jpg" alt="indus-valley-civilization" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/3-ancient-india/indus-valley-civilization.png" alt="indus-valley-civilization" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -224,6 +238,13 @@ Reconstructed using the Vedas. Divided into Early Vedic (1500-1000 BCE) and Late
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/history/ancient-india-tree/vedic-age.svg" alt="vedic-age" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/3-ancient-india/vedic-age.png" alt="vedic-age" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -286,6 +307,13 @@ Heterodox religious movements that arose in the 6th century BCE as a reaction to
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/history/ancient-india-tree/buddhism-jainism.svg" alt="buddhism-jainism" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/3-ancient-india/buddhism-jainism.png" alt="buddhism-jainism" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -315,6 +343,20 @@ Weak successors, regional revolts, economic drain from military campaigns, and f
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/history/ancient-india-tree/mauryan-period.svg" alt="mauryan-period" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/3-ancient-india/mauryan-period.jpg" alt="mauryan-period" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/3-ancient-india/mauryan-period.png" alt="mauryan-period" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -380,6 +422,13 @@ Comparative Territorial Extent: Mauryan Empire vs Gupta Empire (Golden Age of Ar
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/history/ancient-india-tree/gupta-period.svg" alt="gupta-period" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/3-ancient-india/gupta-period.png" alt="gupta-period" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -450,6 +499,20 @@ Five successive dynasties ruled Delhi before the Mughal era. Mnemonic: **S**ome 
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/history/medieval-india-tree/delhi-sultanate.svg" alt="delhi-sultanate" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/4-medieval-india/delhi-sultanate.png" alt="delhi-sultanate" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/4-medieval-india/early-medieval-india.png" alt="early-medieval-india" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -580,6 +643,20 @@ A medieval socio-religious reform movement preaching personal devotion to God as
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/history/medieval-india-tree/bhakti-movement.svg" alt="bhakti-movement" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/4-medieval-india/marathas.png" alt="marathas" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/4-medieval-india/mughal-empire.png" alt="mughal-empire" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -948,6 +1025,62 @@ The structural heritage of India, from ancient cave temples to medieval Islamic 
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/history/art-culture-heritage/architecture.svg" alt="architecture" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/5-modern-india-highest-priority/economic-impact-british.png" alt="economic-impact-british" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/5-modern-india-highest-priority/freedom-movement.png" alt="freedom-movement" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/5-modern-india-highest-priority/governor-generals-viceroys.png" alt="governor-generals-viceroys" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/5-modern-india-highest-priority/revolt-1857.png" alt="revolt-1857" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/6-world-history/international-institutions.png" alt="international-institutions" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/6-world-history/revolutions.png" alt="revolutions" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/6-world-history/world-war-i.png" alt="world-war-i" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/6-world-history/world-war-ii.png" alt="world-war-ii" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -1048,6 +1181,13 @@ The intellectual schools of thought and cultural celebrations across communities
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/history/art-culture-heritage/religion-festivals.svg" alt="religion-festivals" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/7-art-culture-heritage/religion-festivals.jpg" alt="religion-festivals" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -1069,6 +1209,13 @@ India is home to \*\*42 UNESCO World Heritage Sites\*\* (as of recent evaluation
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/history/art-culture-heritage/heritage-sites.svg" alt="heritage-sites" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/history/7-art-culture-heritage/heritage-sites.jpg" alt="heritage-sites" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 

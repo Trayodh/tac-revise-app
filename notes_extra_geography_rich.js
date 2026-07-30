@@ -42,6 +42,13 @@ window.EXPANDED_NOTES_DATA["universe-solar-system"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/physical-geography/universe-solar-system.svg" alt="universe-solar-system" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-world-geography/universe-solar-system.png" alt="universe-solar-system" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -86,6 +93,13 @@ window.EXPANDED_NOTES_DATA["earth-atmosphere"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/physical-geography/earth-atmosphere.svg" alt="earth-atmosphere" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-world-geography/earth-atmosphere.png" alt="earth-atmosphere" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -130,6 +144,13 @@ window.EXPANDED_NOTES_DATA["climatology-clouds"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/physical-geography/climatology-clouds.svg" alt="climatology-clouds" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-world-geography/climatology-clouds.png" alt="climatology-clouds" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -174,6 +195,13 @@ window.EXPANDED_NOTES_DATA["geomorphology-rocks"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/physical-geography/geomorphology-rocks.svg" alt="geomorphology-rocks" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-world-geography/geomorphology-rocks.png" alt="geomorphology-rocks" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -218,6 +246,20 @@ window.EXPANDED_NOTES_DATA["world-geography-mountains"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/physical-geography/world-geography-mountains.svg" alt="world-geography-mountains" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-world-geography/world-geography-mountains.jpg" alt="world-geography-mountains" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-world-geography/world-geography-mountains.png" alt="world-geography-mountains" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -262,6 +304,13 @@ window.EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/physical-geography/world-geography-straits-deserts.svg" alt="world-geography-straits-deserts" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/physical-world-geography/world-geography-straits-deserts.png" alt="world-geography-straits-deserts" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -306,6 +355,20 @@ window.EXPANDED_NOTES_DATA["syl-geog"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/geography-details/syl-geog.svg" alt="syl-geog" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/indian-geography/syl-geog.jpg" alt="syl-geog" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/indian-geography/syl-geog.png" alt="syl-geog" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -350,6 +413,13 @@ window.EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/geography-details/india-forests-wetlands.svg" alt="india-forests-wetlands" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/indian-geography/india-forests-wetlands.png" alt="india-forests-wetlands" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -394,6 +464,20 @@ window.EXPANDED_NOTES_DATA["india-resources-farming"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/geography-details/india-resources-farming.svg" alt="india-resources-farming" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/indian-geography/india-resources-farming.jpg" alt="india-resources-farming" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/indian-geography/india-resources-farming.png" alt="india-resources-farming" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -438,6 +522,20 @@ window.EXPANDED_NOTES_DATA["india-transport-routes"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/geography-details/india-transport-routes.svg" alt="india-transport-routes" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/indian-geography/india-transport-routes.jpg" alt="india-transport-routes" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/indian-geography/india-transport-routes.png" alt="india-transport-routes" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -482,6 +580,13 @@ window.EXPANDED_NOTES_DATA["india-national-parks"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/geography-details/india-national-parks.svg" alt="india-national-parks" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/indian-geography/india-national-parks.png" alt="india-national-parks" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -526,6 +631,20 @@ window.EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/geography-details/mapping-borders-capitals.svg" alt="mapping-borders-capitals" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/indian-geography/mapping-borders-capitals.jpg" alt="mapping-borders-capitals" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/indian-geography/mapping-borders-capitals.png" alt="mapping-borders-capitals" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -614,6 +733,20 @@ window.EXPANDED_NOTES_DATA["geog-geopolitics"] = `
 <h3>Visual Summary Diagram</h3>
 <div style="text-align: center; margin: 20px 0;">
     <img src="assets/diagrams/geography/industrics-geopolitics/geog-geopolitics.svg" alt="geog-geopolitics" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/industries-geopolitics/geog-geopolitics.jpg" alt="geog-geopolitics" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/geography/industries-geopolitics/geog-geopolitics.png" alt="geog-geopolitics" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 

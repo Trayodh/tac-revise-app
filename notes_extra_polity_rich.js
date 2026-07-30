@@ -36,6 +36,13 @@ window.EXPANDED_NOTES_DATA["preamble"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The Preamble is based on the 'Objectives Resolution' adopted by the Constituent Assembly on Jan 22, 1947.</li><li><span style='color:var(--warning)'>2</span>. In Berubari Union case (1960), SC said Preamble is NOT a part of the Constitution.</li><li><span style='color:var(--warning)'>3</span>. In Kesavananda Bharati case (1973), SC reversed Berubari and said Preamble IS a part of the Constitution.</li><li><span style='color:var(--warning)'>4</span>. The Preamble has been amended only once in history (1976).</li><li><span style='color:var(--warning)'>5</span>. 'Justice' (Social, Economic, Political) is inspired by the Russian Revolution (1917).</li><li><span style='color:var(--warning)'>6</span>. 'Liberty, Equality, and Fraternity' are inspired by the French Revolution (1789).</li><li><span style='color:var(--warning)'>7</span>. The concept of 'We the People' indicates that the ultimate sovereignty lies with the people.</li><li><span style='color:var(--warning)'>8</span>. The Preamble is non-justiciable, meaning it cannot be enforced in a court of law.</li><li><span style='color:var(--warning)'>9</span>. The date of adoption mentioned in the Preamble is 26th November 1949.</li><li><span style='color:var(--warning)'>10</span>. The term 'Republic' implies that there is no hereditary monarch in India.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/polity/constitutional-framework/preamble.png" alt="preamble" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -112,6 +119,13 @@ window.EXPANDED_NOTES_DATA["fundamental-rights"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. Fundamental Rights are <b>non-suspendable</b> for Articles 20 and 21 during a National Emergency.</li><li><span style='color:var(--warning)'>2</span>. The <b>Right to Property</b> was removed from FRs by the 44th Amendment Act, 1978, and made a legal right under Art 300A.</li><li><span style='color:var(--warning)'>3</span>. <b>Article 17</b> abolishes 'Untouchability' and is an absolute right.</li><li><span style='color:var(--warning)'>4</span>. <b>Article 21A</b> (Right to Education) was added by the 86th Amendment Act, 2002.</li><li><span style='color:var(--warning)'>5</span>. <b>Writ of Habeas Corpus</b> literally means 'to have the body of'.</li><li><span style='color:var(--warning)'>6</span>. <b>Article 20</b> provides protection against double jeopardy and self-incrimination.</li><li><span style='color:var(--warning)'>7</span>. FRs are <b>negative obligations</b> on the state (telling the state what NOT to do).</li><li><span style='color:var(--warning)'>8</span>. <b>Article 32</b> is called the 'Heart and Soul' of the Constitution by Dr. B.R. Ambedkar.</li><li><span style='color:var(--warning)'>9</span>. <b>Article 15</b> prohibits discrimination on grounds of religion, race, caste, sex, or place of birth.</li><li><span style='color:var(--warning)'>10</span>. <b>Article 23</b> prohibits human trafficking and forced labour (Begar).</li><li><span style='color:var(--warning)'>11</span>. <b>Article 24</b> prohibits employment of children below 14 years in factories.</li><li><span style='color:var(--warning)'>12</span>. The <b>Supreme Court</b> is the guardian and guarantor of Fundamental Rights.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/polity/constitutional-framework/fundamental-rights.png" alt="fundamental-rights" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -150,6 +164,13 @@ window.EXPANDED_NOTES_DATA["dpsp"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. DPSP are borrowed from the Irish Constitution, which in turn borrowed them from the Spanish Constitution.</li><li><span style='color:var(--warning)'>2</span>. Fundamental Duties were added by the 42nd Amendment Act, 1976, on the recommendation of the Swaran Singh Committee.</li><li><span style='color:var(--warning)'>3</span>. The 11th Fundamental Duty (Education) was added by the 86th Constitutional Amendment Act, 2002.</li><li><span style='color:var(--warning)'>4</span>. Article 38 directs the state to secure a social order for the promotion of welfare of the people.</li><li><span style='color:var(--warning)'>5</span>. Article 39(b) and (c) deal with the distribution of material resources and prevention of concentration of wealth.</li><li><span style='color:var(--warning)'>6</span>. Article 43B (added by 97th Amendment) relates to the promotion of Co-operative Societies.</li><li><span style='color:var(--warning)'>7</span>. Article 48A mandates the protection and improvement of environment and safeguarding of forests and wildlife.</li><li><span style='color:var(--warning)'>8</span>. Fundamental Duties are only for citizens, not for foreigners.</li><li><span style='color:var(--warning)'>9</span>. The Verma Committee (1999) identified legal provisions for the implementation of some Fundamental Duties.</li><li><span style='color:var(--warning)'>10</span>. DPSP are 'fundamental in the governance of the country' as per Article 37.</li><li><span style='color:var(--warning)'>11</span>. The conflict between FR and DPSP was resolved in the Minerva Mills case (1980) by establishing a 'harmonious construction'.</li><li><span style='color:var(--warning)'>12</span>. Article 44 is the only DPSP that mentions a 'Uniform' code for all citizens regardless of religion.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/polity/constitutional-framework/dpsp.png" alt="dpsp" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -264,6 +285,13 @@ window.EXPANDED_NOTES_DATA["parliament"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The Rajya Sabha has 12 nominated members by the President for contributions to Art, Literature, Science, and Social Service.</li><li><span style='color:var(--warning)'>2</span>. A Money Bill can be delayed by the Rajya Sabha for only 14 days.</li><li><span style='color:var(--warning)'>3</span>. The Speaker of Lok Sabha is elected by the members of the Lok Sabha from among themselves.</li><li><span style='color:var(--warning)'>4</span>. Under Art 108, the Joint Sitting is presided over by the Speaker, failing whom the Deputy Speaker, and failing whom the Deputy Chairman of RS.</li><li><span style='color:var(--warning)'>5</span>. The Vice-President of India is the ex-officio Chairman of the Rajya Sabha.</li><li><span style='color:var(--warning)'>6</span>. A Constitution Amendment Bill cannot be introduced in a Joint Sitting.</li><li><span style='color:var(--warning)'>7</span>. The maximum gap between two sessions of Parliament cannot exceed 6 months.</li><li><span style='color:var(--warning)'>8</span>. The 'Zero Hour' is an Indian parliamentary innovation, not mentioned in the Rules of Procedure.</li><li><span style='color:var(--warning)'>9</span>. The President can summon both houses to meet in a joint sitting under Art 108.</li><li><span style='color:var(--warning)'>10</span>. The Rajya Sabha represents the States and Union Territories, while Lok Sabha represents the people.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/polity/union-government/parliament.png" alt="parliament" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -302,6 +330,13 @@ window.EXPANDED_NOTES_DATA["goverment-executives"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The PM is not mentioned in the Constitution by name as 'Prime Minister' in the main articles but is referred to as the head of the Council of Ministers.</li><li><span style='color:var(--warning)'>2</span>. The Governor is appointed by the President and holds office during the <b>pleasure of the President</b>.</li><li><span style='color:var(--warning)'>3</span>. A person who is not a member of Parliament/State Legislature can be appointed as PM/CM for <b>6 months</b>.</li><li><span style='color:var(--warning)'>4</span>. The <b>42nd and 44th Amendments</b> clarified the binding nature of the Council of Ministers' advice to the President.</li><li><span style='color:var(--warning)'>5</span>. The Governor has the power to grant pardons, but it is more limited than the President's power (cannot pardon death sentences).</li><li><span style='color:var(--warning)'>6</span>. The PM allocates portfolios among ministers; the President appoints them on the PM's advice.</li><li><span style='color:var(--warning)'>7</span>. The <b>Sarkaria Commission</b> recommended that the Governor should be an eminent person from outside the state.</li><li><span style='color:var(--warning)'>8</span>. The CM is the <b>de facto</b> head of the state government, while the Governor is the <b>de jure</b> head.</li><li><span style='color:var(--warning)'>9</span>. The Governor can recommend <b>President's Rule</b> (Article 356) in a state.</li><li><span style='color:var(--warning)'>10</span>. The PM is the ex-officio Chairman of the <b>NITI Aayog</b> and National Development Council.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/polity/union-government/goverment-executives.png" alt="goverment-executives" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -340,6 +375,13 @@ window.EXPANDED_NOTES_DATA["judiciary"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The SC is a <b>Court of Record</b> and has the power to punish for contempt of itself.</li><li><span style='color:var(--warning)'>2</span>. <b>Article 143</b> gives the President power to seek advisory opinion from the SC.</li><li><span style='color:var(--warning)'>3</span>. The <b>Collegium System</b> consists of the CJI and the four senior-most judges of the SC.</li><li><span style='color:var(--warning)'>4</span>. High Courts are established under <b>Part VI</b> of the Constitution.</li><li><span style='color:var(--warning)'>5</span>. The <b>Special Leave Petition (SLP)</b> is a residual power of the SC to grant leave to appeal.</li><li><span style='color:var(--warning)'>6</span>. <b>Article 32</b> is itself a Fundamental Right (Right to Constitutional Remedies).</li><li><span style='color:var(--warning)'>7</span>. The SC can transfer cases from one HC to another under <b>Article 139A</b>.</li><li><span style='color:var(--warning)'>8</span>. Judges of the SC retire at <b>65</b>, while HC judges retire at <b>62</b>.</li><li><span style='color:var(--warning)'>9</span>. The <b>Curative Petition</b> is the final legal remedy after a review petition is dismissed.</li><li><span style='color:var(--warning)'>10</span>. <b>Article 227</b> grants HCs superintendence over all courts and tribunals within their territory.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/polity/union-government/judiciary.png" alt="judiciary" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -378,6 +420,13 @@ window.EXPANDED_NOTES_DATA["panchayati-raj"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. Rajasthan (Nagaur district) was the first state to adopt Panchayati Raj on Oct 2, 1959.</li><li><span style='color:var(--warning)'>2</span>. The 73rd Amendment Act provides for the reservation of seats for SCs and STs in proportion to their population.</li><li><span style='color:var(--warning)'>3</span>. The 11th Schedule contains 29 functional items transferred to the Panchayats.</li><li><span style='color:var(--warning)'>4</span>. The 12th Schedule contains 18 functional items for Municipalities.</li><li><span style='color:var(--warning)'>5</span>. The minimum age for contesting Panchayat elections is 21 years.</li><li><span style='color:var(--warning)'>6</span>. The State Election Commission is appointed by the Governor of the state.</li><li><span style='color:var(--warning)'>7</span>. Part IXA of the Constitution deals with the Municipalities.</li><li><span style='color:var(--warning)'>8</span>. The Ashok Mehta Committee recommended a 2-tier system (Mandal Panchayat and Zila Parishad).</li><li><span style='color:var(--warning)'>9</span>. The L.M. Singhvi Committee was the first to suggest constitutional recognition for PRIs.</li><li><span style='color:var(--warning)'>10</span>. The 73rd Amendment is a 'mandatory' provision for states with a population of 20 lakhs or more.</li><li><span style='color:var(--warning)'>11</span>. Article 243A provides for the constitution of the Gram Sabha.</li><li><span style='color:var(--warning)'>12</span>. The State Finance Commission is constituted by the Governor every five years under Article 243-I.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/polity/union-government/panchayati-raj.png" alt="panchayati-raj" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -492,6 +541,13 @@ window.EXPANDED_NOTES_DATA["positions-tenures"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. Article 324 provides for the superintendence, direction, and control of elections.</li><li><span style='color:var(--warning)'>2</span>. The President is elected by elected members of both Houses of Parliament and elected members of State Legislative Assemblies.</li><li><span style='color:var(--warning)'>3</span>. The Vice-President is elected by all members of both Houses of Parliament (including nominated).</li><li><span style='color:var(--warning)'>4</span>. The CAG is the guardian of the public purse and is appointed by the President.</li><li><span style='color:var(--warning)'>5</span>. The Attorney General of India is not a member of Parliament but has the right to speak and take part in proceedings.</li><li><span style='color:var(--warning)'>6</span>. The Chief Election Commissioner is removed from office in a manner similar to a Judge of the Supreme Court.</li><li><span style='color:var(--warning)'>7</span>. The Governor is appointed by the President and is not elected.</li><li><span style='color:var(--warning)'>8</span>. The term of the Lok Sabha is 5 years, unless dissolved earlier.</li><li><span style='color:var(--warning)'>9</span>. The Rajya Sabha is a permanent body; 1/3rd of its members retire every second year.</li><li><span style='color:var(--warning)'>10</span>. Impeachment of the President requires a special majority in both houses (2/3rd of total membership).</li><li><span style='color:var(--warning)'>11</span>. The Electoral College for the President includes members of Delhi and Puducherry assemblies.</li><li><span style='color:var(--warning)'>12</span>. The UPSC members are appointed by the President for a term of 6 years.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/polity/advanced-polity-structures-bodies/positions-tenures.png" alt="positions-tenures" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -530,6 +586,13 @@ window.EXPANDED_NOTES_DATA["constitutional-bodies"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The Finance Commission is a quasi-judicial body under Article 280.</li><li><span style='color:var(--warning)'>2</span>. The CAG's salary is charged upon the Consolidated Fund of India.</li><li><span style='color:var(--warning)'>3</span>. The Election Commission consists of one CEC and two ECs; they have equal voting power.</li><li><span style='color:var(--warning)'>4</span>. UPSC members are appointed by the President for a term of 6 years or 65 years of age.</li><li><span style='color:var(--warning)'>5</span>. NITI Aayog is a non-statutory body, meaning it has no legal power to allocate funds.</li><li><span style='color:var(--warning)'>6</span>. The National Human Rights Commission (NHRC) is a statutory body created by an Act of Parliament.</li><li><span style='color:var(--warning)'>7</span>. The Attorney General of India is a constitutional body under Article 76.</li><li><span style='color:var(--warning)'>8</span>. The Central Vigilance Commission (CVC) was given statutory status in 2003.</li><li><span style='color:var(--warning)'>9</span>. The National Commission for SCs (Art 338) and STs (Art 338A) are constitutional bodies.</li><li><span style='color:var(--warning)'>10</span>. The National Commission for Backward Classes (NCBC) became constitutional via the 102nd Amendment Act.</li><li><span style='color:var(--warning)'>11</span>. The GST Council is a constitutional body under Article 279A.</li><li><span style='color:var(--warning)'>12</span>. The Central Information Commission (CIC) is a statutory body under the RTI Act, 2005.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/polity/advanced-polity-structures-bodies/constitutional-bodies.png" alt="constitutional-bodies" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
@@ -644,6 +707,13 @@ window.EXPANDED_NOTES_DATA["polity-rpa"] = `
   <ul style="margin-left:20px;">
     <li><span style='color:var(--warning)'>1</span>. The ECI is a permanent, independent body.</li><li><span style='color:var(--warning)'>2</span>. Originally a single-member body; became multi-member (3 commissioners) in 1993.</li><li><span style='color:var(--warning)'>3</span>. The CEC and other ECs have equal voting power in decision making.</li><li><span style='color:var(--warning)'>4</span>. The CEC cannot be removed from office except in a manner similar to a Judge of the Supreme Court.</li><li><span style='color:var(--warning)'>5</span>. RPA 1950 defines the 'Constituencies' and 'Qualification of Voters'.</li><li><span style='color:var(--warning)'>6</span>. RPA 1951 defines 'Corrupt Practices' (e.g., bribery, undue influence).</li><li><span style='color:var(--warning)'>7</span>. A person convicted of an offence and sentenced to 2+ years is disqualified for the period of imprisonment + 6 additional years.</li><li><span style='color:var(--warning)'>8</span>. The President appoints the CEC and ECs based on the recommendation of a selection committee.</li><li><span style='color:var(--warning)'>9</span>. ECI conducts elections for Parliament, State Legislatures, President, and Vice-President.</li><li><span style='color:var(--warning)'>10</span>. ECI does NOT conduct elections for Panchayats and Municipalities (State Election Commission does).</li><li><span style='color:var(--warning)'>11</span>. The ECI has the power to recognize National and State political parties.</li><li><span style='color:var(--warning)'>12</span>. Election disputes are handled by the Judiciary, not the ECI.</li>
   </ul>
+
+
+  <!-- DIAGRAM INJECTED -->
+  <h4 style="border-left: 3px solid var(--accent); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">Visual Summary Diagram</h4>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/diagrams/polity/federal-structure-election-law/polity-rpa.png" alt="polity-rpa" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+  </div>
 </div>
 `;
 
