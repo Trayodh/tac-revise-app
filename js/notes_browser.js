@@ -2163,6 +2163,15 @@ function renderTopicView(subjectId, chapterId, topicId) {
       mainNotesContent = `<div class="error-msg" style="color: var(--warning); padding: 12px; border: 1px dashed var(--warning); border-radius: 4px;">Notes are loading or currently being updated for this topic.</div>`;
     }
     
+    // Inject AI generated SVG diagram if it exists
+    if (typeof TOPIC_SVGS !== 'undefined' && TOPIC_SVGS[topic.id]) {
+      const svgWrapper = `
+<div class="topic-diagram" style="margin-bottom: 20px; background: rgba(0,0,0,0.1); border-radius: 8px; padding: 12px; text-align: center; border: 1px solid rgba(255,255,255,0.05);">
+  ${TOPIC_SVGS[topic.id].replace(/<svg\s+/, '<svg style="max-width: 100%; height: auto; border-radius: 4px;" ')}
+</div>`;
+      mainNotesContent = svgWrapper + (mainNotesContent || '');
+    }
+
     let mapsHtml = '';
     let mapsForTopic = [];
     
