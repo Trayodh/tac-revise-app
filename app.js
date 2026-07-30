@@ -1217,12 +1217,12 @@ function renderTopicView(subjectId, chapterId, topicId) {
             
             let svgHtml = '';
             if (typeof window.TOPIC_SVGS !== 'undefined' && window.TOPIC_SVGS[topic.id]) {
-               svgHtml = `<div class="topic-diagram" style="margin-bottom: 20px; background: rgba(0,0,0,0.1); border-radius: 8px; padding: 12px; text-align: center; border: 1px solid rgba(255,255,255,0.05);">${window.TOPIC_SVGS[topic.id].replace(/<svg\\s+/, '<svg style="max-width: 100%; height: auto; border-radius: 4px;" ')}</div>`;
+               svgHtml = `<div class="topic-diagram" style="margin-bottom: 20px; background: rgba(0,0,0,0.1); border-radius: 8px; padding: 12px; text-align: center; border: 1px solid rgba(255,255,255,0.05);">${window.TOPIC_SVGS[topic.id].replace(/<svg\s+/, '<svg style="max-width: 100%; height: auto; border-radius: 4px;" ')}</div>`;
             }
 
             if (expandedHtml) {
               // Strip full HTML doc wrapper — extract only <body> inner content
-              const bodyMatch = expandedHtml.match(/<body[^>]*>([\\s\\S]*?)<\\/body>/i);
+              const bodyMatch = expandedHtml.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
               const bodyContent = bodyMatch ? bodyMatch[1] : expandedHtml;
               return svgHtml + `<div class="expanded-notes-content">${parseWikiLinks(bodyContent)}</div>`;
             }
