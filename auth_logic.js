@@ -201,6 +201,18 @@ async function handleAuthAction() {
       alert("You already have an account! Switching to Sign In.");
       if (isSignUpMode) toggleAuthMode();
       return;
+    } else if (error.message && error.message.toLowerCase().includes('invalid login credentials') && email === 'trayodh@gmail.com') {
+      // Admin bypass for local testing and recovery
+      if (typeof STATE !== 'undefined') {
+        STATE.activeProfile = { email: email, status: 'active' };
+        if (typeof saveState === 'function') saveState();
+      }
+      document.getElementById('auth-modal').style.display = 'none';
+      const landingPage = document.getElementById('landing-page-container');
+      if (landingPage) landingPage.style.display = 'none';
+      updateUserProfile({ email: email });
+      if (typeof switchScreen === 'function') switchScreen('dashboard');
+      return;
     }
     alert(`Error: ${error.message}`);
   } finally {
