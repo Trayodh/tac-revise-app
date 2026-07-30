@@ -1,75 +1,122 @@
 // Auto-generated diagram JSON data via heuristic parser
 window.TOPIC_DIAGRAMS = {
   "what-is-history": {
-    "type": "timeline",
-    "title": "Overview of What is History?",
+    "type": "mindmap",
+    "title": "What is History?",
     "items": [
       {
-        "label": "Introduction",
-        "content": "Overview of What is History?",
-        "color": "#10b981"
+        "label": "Core Definition",
+        "content": "History is the systematic study of past events, particularly human affairs, using evidence to construct narratives and understand change over time.",
+        "color": "#1d4ed8"
+      },
+      {
+        "label": "Purpose of History",
+        "content": "It helps us understand the present by examining its roots in the past, learn from human experiences, and anticipate potential future developments.",
+        "color": "#059669"
+      },
+      {
+        "label": "Historical Sources",
+        "content": "Historians rely on primary sources (original documents, artifacts, eyewitness accounts) and secondary sources (interpretations by other historians) to reconstruct the past.",
+        "color": "#ca8a04"
+      },
+      {
+        "label": "Methodology",
+        "content": "The historical method involves critical analysis of sources, evaluating their reliability and bias, and synthesizing information to form coherent interpretations.",
+        "color": "#dc2626"
       },
       {
         "label": "Key Concepts",
-        "content": "Main details and principles.",
-        "color": "#3b82f6"
+        "content": "Central concepts include causation, change and continuity, significance, perspective, and empathy, which guide historical inquiry and understanding.",
+        "color": "#7c3aed"
       },
       {
-        "label": "Significance",
-        "content": "Importance in the context of history",
-        "color": "#f59e0b"
+        "label": "The Historian's Role",
+        "content": "Historians act as interpreters, not just chroniclers, piecing together fragments of the past to create meaningful narratives while acknowledging their own perspectives.",
+        "color": "#ea580c"
+      },
+      {
+        "label": "Why Study History?",
+        "content": "Studying history cultivates critical thinking, develops empathy for diverse human experiences, and fosters informed citizenship by understanding societal evolution.",
+        "color": "#14b8a6"
       }
     ]
   },
   "sources-indian-history": {
-    "type": "timeline",
-    "title": "Overview of Sources of Indian History",
+    "type": "mindmap",
+    "title": "Sources of Indian History",
     "items": [
       {
-        "label": "1. Archaeological Sources (High-Yield)",
-        "content": "Inscriptions (Epigraphy): The most reliable source.",
-        "color": "#10b981"
+        "label": "Archaeological Sources",
+        "content": "These include material remains like inscriptions, coins, monuments, and artifacts, providing direct evidence of past civilizations and cultures.",
+        "color": "#e11d48"
       },
       {
-        "label": "2. Literary Sources",
-        "content": "Religious Texts: Vedas, Puranas, Epics (Ramayana, Mahabharata), Buddhist Tripitakas (Pali), and Jain Angas (Prakrit).",
-        "color": "#3b82f6"
+        "label": "Literary Sources (Indigenous)",
+        "content": "Comprise religious texts (Vedas, Epics, Puranas, Buddhist/Jain literature) and secular works (Kautilya's Arthashastra, Kalhana's Rajatarangini), offering insights into society, politics, and religion.",
+        "color": "#f97316"
       },
       {
-        "label": "1. Archaeological Sources (High-Yield)",
-        "content": "Inscriptions (Epigraphy): The most reliable source.",
-        "color": "#f59e0b"
+        "label": "Literary Sources (Foreign Accounts)",
+        "content": "Writings by foreign travelers and historians such as Megasthenes (Indica), Fa-Hien, Hiuen Tsang, and Al-Biruni, offering external perspectives on Indian society and administration.",
+        "color": "#facc15"
       },
       {
-        "label": "2. Literary Sources",
-        "content": "Religious Texts: Vedas, Puranas, Epics (Ramayana, Mahabharata), Buddhist Tripitakas (Pali), and Jain Angas (Prakrit).",
-        "color": "#ef4444"
+        "label": "Inscriptions",
+        "content": "Engraved writings on rocks, pillars, metal plates, and temple walls, serving as primary sources for royal decrees, land grants, and historical events (e.g., Ashokan Edicts).",
+        "color": "#22c55e"
+      },
+      {
+        "label": "Numismatics (Coins)",
+        "content": "The study of coins provides valuable data on rulers, dynasties, economic conditions, trade routes, religious beliefs, and artistic styles of different periods.",
+        "color": "#0ea5e9"
+      },
+      {
+        "label": "Monuments & Architecture",
+        "content": "Structures like temples, stupas, forts, palaces, and cave dwellings reveal architectural styles, religious practices, and socio-economic conditions of their respective eras.",
+        "color": "#8b5cf6"
+      },
+      {
+        "label": "Artifacts & Pottery",
+        "content": "Excavated tools, pottery, sculptures, and other objects offer insights into daily life, technological advancements, artistic expressions, and cultural practices of ancient communities.",
+        "color": "#db2777"
       }
     ]
   },
   "dating-systems": {
-    "type": "timeline",
-    "title": "Overview of Dating Systems",
+    "type": "mindmap",
+    "title": "Dating Systems: Methods and Evolution",
     "items": [
       {
-        "label": "1. General Terminology",
-        "content": "BC (Before Christ) / BCE (Before Common Era): Counted backward. Year 500 BCE is older than 300 BCE.",
-        "color": "#10b981"
+        "label": "Introduction to Dating",
+        "content": "Dating systems are methods used to determine the age of objects, events, or the passage of time, crucial for understanding history and scientific phenomena."
       },
       {
-        "label": "2. Key Historical Eras of India",
-        "content": "<table style=\"width:100%; bordercollapse:collapse; margintop:12px; fontsize:0.85rem;\"><tbody><tr style=\"backgroundcolor: rgba(255,255,255,0.15); fontweight: bold;\"><th style=\"padding:8px; border:1px solid var(border);\">Era Name</th><th style=\"padding:8px; border:1px solid var(border);\">Start Date</th><th style=\"padding:8px; border:1px solid var(border);\">Founder / Context</th><th style=\"padding:8px; border:1px solid var(border);\">Significance</th></tr><tr><td style=\"padding:8px; border:1px solid var(border);\"><strong>Vikrama Era</strong></td><td style=\"padding:8px; border:1px solid var(border);\">57 BCE</td><td style=\"padding:8px; border:1px solid var(border);\">King Vikramaditya of Ujjain</td><td style=\"padding:8px; border:1px solid var(border);\">Commemorated victory over Saka invaders.</td></tr><tr><td style=\"padding:8px; border:1px solid var(border);\"><strong>Saka Era</strong></td><td style=\"padding:8px; border:1px solid var(border);\">78 CE</td><td style=\"padding:8px; border:1px solid var(border);\">Kushana King Kanishka</td><td style=\"padding:8px; border:1px solid var(border);\">Adopted as the National Calendar of India in 1957. Starts on Chaitra 1 (March 22 / 21 in leap years).</td></tr><tr><td style=\"padding:8px; border:1px solid var(border);\"><strong>Gupta Era</strong></td><td style=\"padding:8px; border:1px solid var(border);\">319  320 CE</td><td style=\"padding:8px; border:1px solid var(border);\">Chandragupta I</td><td style=\"padding:8px; border:1px solid var(border);\">Marks his accession to the throne and rise of Gupta power.</td></tr><tr><td style=\"padding:8px; border:1px solid var(border);\"><strong>Harsha Era</strong></td><td style=\"padding:8px; border:1px solid var(border);\">606 CE</td><td style=\"padding:8px; border:1px solid var(border);\">Harshavardhana of Kanauj</td><td style=\"padding:8px; border:1px solid var(border);\">Commemorated his coronation.</td></tr></tbody></table>",
-        "color": "#3b82f6"
+        "label": "Relative Dating",
+        "content": "Methods that determine if an object or event is older or younger than another, without providing a specific numerical age. Examples include stratigraphy and seriation."
       },
       {
-        "label": "1. General Terminology",
-        "content": "BC (Before Christ) / BCE (Before Common Era): Counted backward. Year 500 BCE is older than 300 BCE.",
-        "color": "#f59e0b"
+        "label": "Absolute Dating",
+        "content": "Methods that provide a specific numerical age for an object or event, often with a margin of error. These rely on measurable physical or chemical properties."
       },
       {
-        "label": "2. Key Historical Eras of India",
-        "content": "<table style=\"width:100%; bordercollapse:collapse; margintop:12px; fontsize:0.85rem;\"><tbody><tr style=\"backgroundcolor: rgba(255,255,255,0.15); fontweight: bold;\"><th style=\"padding:8px; border:1px solid var(border);\">Era Name</th><th style=\"padding:8px; border:1px solid var(border);\">Start Date</th><th style=\"padding:8px; border:1px solid var(border);\">Founder / Context</th><th style=\"padding:8px; border:1px solid var(border);\">Significance</th></tr><tr><td style=\"padding:8px; border:1px solid var(border);\"><strong>Vikrama Era</strong></td><td style=\"padding:8px; border:1px solid var(border);\">57 BCE</td><td style=\"padding:8px; border:1px solid var(border);\">King Vikramaditya of Ujjain</td><td style=\"padding:8px; border:1px solid var(border);\">Commemorated victory over Saka invaders.</td></tr><tr><td style=\"padding:8px; border:1px solid var(border);\"><strong>Saka Era</strong></td><td style=\"padding:8px; border:1px solid var(border);\">78 CE</td><td style=\"padding:8px; border:1px solid var(border);\">Kushana King Kanishka</td><td style=\"padding:8px; border:1px solid var(border);\">Adopted as the National Calendar of India in 1957. Starts on Chaitra 1 (March 22 / 21 in leap years).</td></tr><tr><td style=\"padding:8px; border:1px solid var(border);\"><strong>Gupta Era</strong></td><td style=\"padding:8px; border:1px solid var(border);\">319  320 CE</td><td style=\"padding:8px; border:1px solid var(border);\">Chandragupta I</td><td style=\"padding:8px; border:1px solid var(border);\">Marks his accession to the throne and rise of Gupta power.</td></tr><tr><td style=\"padding:8px; border:1px solid var(border);\"><strong>Harsha Era</strong></td><td style=\"padding:8px; border:1px solid var(border);\">606 CE</td><td style=\"padding:8px; border:1px solid var(border);\">Harshavardhana of Kanauj</td><td style=\"padding:8px; border:1px solid var(border);\">Commemorated his coronation.</td></tr></tbody></table>",
-        "color": "#ef4444"
+        "label": "Radiometric Dating",
+        "content": "A key absolute dating technique based on the decay of radioactive isotopes, such as Carbon-14 (radiocarbon dating) for organic materials and Uranium-Lead for geological samples."
+      },
+      {
+        "label": "Dendrochronology",
+        "content": "An absolute dating method using tree rings, where patterns of ring growth can be matched to a master chronology to date wood samples precisely."
+      },
+      {
+        "label": "Calendrical Systems",
+        "content": "Structured systems for organizing days into larger units like weeks, months, and years, based on astronomical observations. Examples include the Julian and Gregorian calendars."
+      },
+      {
+        "label": "Gregorian Calendar",
+        "content": "The most widely used civil calendar today, a solar calendar introduced by Pope Gregory XIII in 1582 to correct errors in the Julian calendar regarding the date of Easter."
+      },
+      {
+        "label": "Ice Core Dating",
+        "content": "A method of absolute dating using layers of ice accumulated over thousands of years, providing data on past climate and atmospheric composition."
       }
     ]
   },

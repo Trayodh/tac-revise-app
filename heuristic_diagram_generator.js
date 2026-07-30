@@ -10,7 +10,17 @@ eval(notesDataTxt);
 const db = global.NOTES_DATABASE;
 
 const OUTPUT_FILE = 'notes_diagrams_data.js';
-const topicDiagrams = {};
+
+let topicDiagrams = {};
+if (fs.existsSync(OUTPUT_FILE)) {
+  global.window = global;
+  let existingSvgTxt = fs.readFileSync(OUTPUT_FILE, 'utf8');
+  eval(existingSvgTxt);
+  if (global.window && global.window.TOPIC_DIAGRAMS) {
+    topicDiagrams = global.window.TOPIC_DIAGRAMS;
+  }
+}
+
 
 // Colors for diagrams
 const colors = ['#10b981', '#3b82f6', '#f59e0b', '#ef4444', '#8b5cf6', '#06b6d4', '#eab308', '#f97316'];
@@ -89,7 +99,7 @@ for (const subject of subjects) {
     if (db[subject] && db[subject].chapters) {
         db[subject].chapters.forEach(c => {
             c.topics.forEach(t => {
-                if (!t.id.includes('pyq-trends')) {
+                if (!t.id.includes('pyq-trends') && !topicDiagrams[t.id]) {
                     topicDiagrams[t.id] = parseTopicToDiagram(t, subject);
                     count++;
                 }
