@@ -1214,19 +1214,15 @@ function renderTopicView(subjectId, chapterId, topicId) {
         <div class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
           ${topicId === 'all-equipment' ? '<div id="armed-forces-equipment-container"></div>' : (() => {
             const expandedHtml = (typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]) ? window.EXPANDED_NOTES_DATA[topic.id] : null;
-            
-            let svgHtml = '';
-            if (typeof window.TOPIC_SVGS !== 'undefined' && window.TOPIC_SVGS[topic.id]) {
-               svgHtml = `<div class="topic-diagram" style="margin-bottom: 20px; background: rgba(0,0,0,0.1); border-radius: 8px; padding: 12px; text-align: center; border: 1px solid rgba(255,255,255,0.05);">${window.TOPIC_SVGS[topic.id].replace(/<svg\s+/, '<svg style="max-width: 100%; height: auto; border-radius: 4px;" ')}</div>`;
-            }
+            let diagramHtml = window.DiagramEngine ? window.DiagramEngine.render(topic.id) : '';
 
             if (expandedHtml) {
               // Strip full HTML doc wrapper — extract only <body> inner content
               const bodyMatch = expandedHtml.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
               const bodyContent = bodyMatch ? bodyMatch[1] : expandedHtml;
-              return svgHtml + `<div class="expanded-notes-content">${parseWikiLinks(bodyContent)}</div>`;
+              return diagramHtml + `<div class="expanded-notes-content">${parseWikiLinks(bodyContent)}</div>`;
             }
-            return svgHtml + parseWikiLinks(topic.notes || '');
+            return diagramHtml + parseWikiLinks(topic.notes || '');
           })()}
           ${chapterDiagramHtml}
           ${(() => {
