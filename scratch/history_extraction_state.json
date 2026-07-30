@@ -1,0 +1,337 @@
+{
+  "chunk_000.txt": {
+    "status": "skipped",
+    "reason": "too_short"
+  },
+  "chunk_001.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_002.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_003.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_004.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 18
+  },
+  "chunk_005.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 17
+  },
+  "chunk_006.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_007.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_008.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_009.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 15
+  },
+  "chunk_010.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 15
+  },
+  "chunk_011.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_012.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_013.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_014.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 17
+  },
+  "chunk_015.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 11
+  },
+  "chunk_016.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 14
+  },
+  "chunk_017.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_018.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 14
+  },
+  "chunk_019.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_020.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 18
+  },
+  "chunk_021.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_022.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_023.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_024.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_025.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_026.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 15
+  },
+  "chunk_027.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_028.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 21
+  },
+  "chunk_029.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_030.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_031.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_032.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_033.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 16
+  },
+  "chunk_034.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 23
+  },
+  "chunk_035.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 14
+  },
+  "chunk_036.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_037.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_038.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 17
+  },
+  "chunk_039.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 7
+  },
+  "chunk_040.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_041.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_042.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_043.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_044.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_045.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_046.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 12
+  },
+  "chunk_047.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 12
+  },
+  "chunk_048.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 13
+  },
+  "chunk_049.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 13
+  },
+  "chunk_050.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 13
+  },
+  "chunk_051.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_052.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_053.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_054.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_055.txt": {
+    "status": "success",
+    "type": "NON_HISTORY",
+    "mcqs": 0
+  },
+  "chunk_056.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 54
+  },
+  "chunk_057.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 5
+  },
+  "chunk_058.txt": {
+    "status": "failed",
+    "reason": "json_parse_error"
+  },
+  "chunk_059.txt": {
+    "status": "success",
+    "mcqs": 10
+  },
+  "chunk_060.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_061.txt": {
+    "status": "failed",
+    "reason": "json_parse_error"
+  },
+  "chunk_062.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_063.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_064.txt": {
+    "status": "success",
+    "type": "NOTE_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_065.txt": {
+    "status": "failed",
+    "reason": "json_parse_error"
+  },
+  "chunk_066.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 0
+  },
+  "chunk_067.txt": {
+    "status": "success",
+    "type": "MCQ_CONTENT",
+    "mcqs": 5
+  }
+}

@@ -1,0 +1,219 @@
+EXPANDED_NOTES_DATA["buddhism-and-jainism"] = `
+<div class="revision-card" style="background:rgba(20,20,30,0.4);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:24px;box-shadow:0 4px 12px rgba(0,0,0,0.25);">
+  <h2 style="color:var(--accent);margin-bottom:16px;border-bottom:1px solid var(--border);padding-bottom:8px;font-weight:600;">Buddhism and Jainism</h2>
+
+  <h3>1. Historical Context and Origins</h3>
+  <ul>
+    <li><strong>Chronological placement</strong>: Both traditions arose in the 6th–5th centuries BCE in the eastern Gangetic plains, contemporaneous with the later Vedic period and the rise of the <strong>Mahajanapadas</strong>.</li>
+    <li><strong>Socio‑political milieu</strong>: Widespread disillusionment with the ritualistic Brahmanical order, rapid urbanisation, and the emergence of the <strong>Śramaṇa movement</strong> that questioned priestly authority.</li>
+    <li><strong>Foundational personalities</strong>:
+      <ul>
+        <li>Siddhartha Gautama (c. 563–483 BCE) – later known as the <strong>Buddha</strong>.</li>
+        <li>Vardhamana (Mahavira) (c. 540–468 BCE) – 24th <strong>Tirthankara</strong> of Jainism.</li>
+      </ul>
+    </li>
+    <li><strong>Geographical heartland</strong>: Kapilavastu (present‑day Nepal) for Buddhism; the region of Vardhamana in present‑day Bihar for Jainism.</li>
+  </ul>
+
+  <h3>2. Core Doctrines and Philosophical Tenets</h3>
+  <ul>
+    <li><strong>Rejection of Vedic authority</strong>: Both traditions deny the infallibility of the Vedas and the supremacy of the Brahmin priesthood.</li>
+    <li><strong>Concept of liberation</strong>:
+      <ul>
+        <li>Jainism – attainment of <strong>kevala jñāna</strong> (omniscience) leading to liberation from the cycle of birth‑death.</li>
+        <li>Buddhism – cessation of suffering through the realisation of <strong>Nirvāṇa</strong>, the extinction of craving.</li>
+      </ul>
+    </li>
+    <li><strong>Ethical framework</strong>:
+      <ul>
+        <li>Jainism – <strong>Five Mahavratas</strong>: Ahimsa, Satya, Asteya, Brahmacharya, Aparigraha.</li>
+        <li>Buddhism – <strong>Noble Eightfold Path</strong>: Right View, Intention, Speech, Action, Livelihood, Effort, Mindfulness, Concentration.</li>
+      </ul>
+    </li>
+    <li><strong>Samsāra and Karma</strong>: Both accept rebirth but differ in mechanism – Jainism stresses the physical influx of karmic particles bound to the soul, whereas Buddhism treats karma as volitional mental formations.</li>
+    <li><strong>Metaphysical stance</strong>:
+      <ul>
+        <li>Jainism – dualistic: an eternal soul (<em>jīva</em>) distinct from non‑souls (<em>ajiva</em>).</li>
+        <li>Buddhism – non‑essentialist: denial of an eternal self (<em>anatta</em>).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>3. Canonical Literature</h3>
+  <ul>
+    <li><strong>Jain texts</strong>:
+      <ul>
+        <li><strong>Agamas</strong> – originally 45 scriptures (later reduced to 24) attributed to Mahavira’s disciples.</li>
+        <li><strong>Kalpa Sutras</strong> – biographies of the Tirthankaras and monastic codes.</li>
+      </ul>
+    </li>
+    <li><strong>Buddhist scriptures</strong>:
+      <ul>
+        <li><strong>Tripiṭaka</strong> (Three Baskets):
+          <ul>
+            <li><em>Sutras</em> – discourses of the Buddha.</li>
+            <li><em>Vinaya</em> – monastic discipline.</li>
+            <li><em>Abhidhamma</em> – philosophical analysis.</li>
+          </ul>
+        </li>
+        <li>Early Buddhist Councils – traditionally three (First: c. 483 BCE, Second: c. 383 BCE, Third: c. 250 BCE) that consolidated the canon.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>4. Monastic Orders and Organizational Structure</h3>
+  <ul>
+    <li><strong>Jain monasticism</strong>:
+      <ul>
+        <li>Two major sects – <strong>Śvētāmbara</strong> (white‑clad) and <strong>Digambara</strong> (sky‑clad).</li>
+        <li>Hierarchy – <em>Acharya</em> (head), <em>Upadhyaya</em> (teacher), <em>Priyavrata</em> (senior monk).</li>
+      </ul>
+    </li>
+    <li><strong>Buddhist monasticism</strong>:
+      <ul>
+        <li>Major schools – <strong>Theravāda</strong> (Southern), <strong>Mahāyāna</strong> (Northern), and later <strong>Vajrayāna</strong> (Tibetan).</li>
+        <li>Administrative body – the <em>Sangha</em>, governed by the <em>Vinaya</em> code.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>5. Patronage and State Support</h3>
+  <ul>
+    <li><strong>Emperor Ashoka (r. 268–232 BCE)</strong>:
+      <ul>
+        <li>Converted after the <strong>Kalinga War</strong> (~ 260 BCE), embraced Buddhism and propagated it through edicts, stupas, and missionary activity.</li>
+        <li>Commissioned the first Buddhist pillars and the rock‑cut <strong>Barabar Caves</strong> for Jain monks.</li>
+        <li>Founded <strong>Nalanda University</strong>, later a premier Buddhist academic centre.</li>
+      </ul>
+    </li>
+    <li><strong>Jain royal patronage</strong>:
+      <ul>
+        <li>Mahājanapada rulers such as <strong>Buddhadeva Singh</strong> (not to be confused with the Buddha) supported Jain institutions.</li>
+        <li>Later dynasties – notably the <strong>Gupta</strong> and <strong>Rashtrakuta</strong> – funded Jain temple construction, especially in western India.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>6. Spread and Missionary Activity</h3>
+  <ul>
+    <li><strong>Domestic diffusion</strong>:
+      <ul>
+        <li>By the 3rd century BCE Buddhism had reached the Deccan, the Gujarat coast, and the north‑west frontier (present‑day Afghanistan).</li>
+        <li>Jainism expanded into southern India, establishing strong centres in <strong>Karnataka</strong> and <strong>Tamil Nadu</strong>.</li>
+      </ul>
+    </li>
+    <li><strong>International outreach</strong>:
+      <ul>
+        <li>Ashokan missionaries to <strong>Sri Lanka</strong> (Mahinda) and the Hellenistic world (e.g., Alexandria).</li>
+        <li>Buddhism travelled the <strong>Silk Road</strong>, later influencing China (via 1st century CE missionaries such as <strong>Kumarajiva</strong>), Korea, Japan and Southeast Asia.</li>
+        <li>Jain diaspora spread through trade to western sub‑continent regions and to parts of Southeast Asia, establishing merchant guilds in Sri Lanka.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>7. Sectarian Developments and Philosophical Schools</h3>
+  <ul>
+    <li><strong>Jain sects</strong>:
+      <ul>
+        <li><strong>Śvētāmbara</strong> – accept the possibility of women attaining liberation; preserve a more extensive canonical literature.</li>
+        <li><strong>Digambara</strong> – emphasize radical asceticism; reject the validity of female ordination.</li>
+      </ul>
+    </li>
+    <li><strong>Buddhist schools</strong>:
+      <ul>
+        <li><strong>Theravāda</strong> – “Doctrine of the Elders”; retains the Pāli Canon; predominant in Sri Lanka, Myanmar, Thailand.</li>
+        <li><strong>Mahāyāna</strong> – introduces the <em>Bodhisattva</em> ideal; scriptural corpus includes the <strong>Lotus Sutra</strong> and the <strong>Heart Sutra</strong>.</li>
+        <li><strong>Vajrayāna</strong> – “Diamond Vehicle”; incorporates tantric practices; flourished in Tibet and the Himalayan region.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>8. Socio‑Cultural Impact</h3>
+  <ul>
+    <li><strong>Ethical reforms</strong>: Promotion of non‑violence (<em>ahimsa</em>) led to widespread vegetarianism among merchant classes and the establishment of animal‑shelter institutions (e.g., Ashokan animal hospitals).</li>
+    <li><strong>Art and architecture</strong>:
+      <ul>
+        <li>Stupas (e.g., Sanchi, Amaravati) and rock‑cut chaityas as early Buddhist architectural forms.</li>
+        <li>Jain temples exemplify intricate marble work; iconic examples include the <strong>Dilwara Temples</strong> and the <strong>Shravanabelagola</strong> monolith.</li>
+        <li>Iconography – Buddha statues with the <em>abhaya mudra</em> and Jain Tirthankara idols in seated meditational posture.</li>
+      </ul>
+    </li>
+    <li><strong>Literary contributions</strong>: Canonical texts inspired later works such as the <strong>Jataka tales</strong> (Buddhist moral stories) and the Jain‑circulated <strong>Pañcatantra</strong> (though primarily a Hindu work).</li>
+    <li><strong>Influence on polity</strong>: Ashoka’s Dhamma policy introduced concepts of religious tolerance and welfare (planting shade trees, establishing wells) that prefigured later state‑craft in Indian history.</li>
+  </ul>
+
+  <h3>9. Decline, Revival, and Contemporary Status</h3>
+  <ul>
+    <li><strong>Factors behind classical‑period decline</strong>:
+      <ul>
+        <li>Revival of Brahmanical orthodoxy during the Gupta era (4th–6th CE) reduced royal patronage.</li>
+        <li>Destruction of monastic centres (e.g., Nalanda) by invasions in the 12th century and later Turkic incursions.</li>
+      </ul>
+    </li>
+    <li><strong>Modern resurgence</strong>:
+      <ul>
+        <li>19th‑century reform movements – the <strong>Brahmo Samaj</strong> and the Indian Buddhist revival under <strong>Anagarika Dharmapala</strong>.</li>
+        <li>Post‑independence constitutional recognition of Jainism as a distinct religion (2006 Supreme Court judgement).</li>
+        <li>Contemporary Buddhist diaspora – notable resurgence among Dalit communities (e.g., Dr. B. R. Ambedkar’s conversion of millions in 1956).</li>
+      </ul>
+    </li>
+    <li><strong>Current demographic footprint</strong>:
+      <ul>
+        <li>Jain population: ~ 4–5 million (≈ 0.4 % of India); concentrated in Gujarat, Rajasthan, Karnataka, and Maharashtra.</li>
+        <li>Buddhist population: ~ 9 million (≈ 0.7 % of India); major concentrations in Maharashtra (Dalit Buddhists), Himachal Pradesh, and Sikkim.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>10. Comparative Synopsis – Quick Reference</h3>
+  <table style="width:100%;border-collapse:collapse;margin-top:12px;">
+    <thead>
+      <tr style="background:#2a2a3a;color:#fff;">
+        <th style="padding:8px;border:1px solid #444;">Aspect</th>
+        <th style="padding:8px;border:1px solid #444;">Jainism</th>
+        <th style="padding:8px;border:1px solid #444;">Buddhism</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:8px;border:1px solid #444;"><strong>Founder</strong></td>
+        <td style="padding:8px;border:1px solid #444;">Mahavira (Vardhamana) – 24th Tirthankara</td>
+        <td style="padding:8px;border:1px solid #444;">Siddhartha Gautama – the Buddha</td>
+      </tr>
+      <tr style="background:#1e1e2a;">
+        <td style="padding:8px;border:1px solid #444;"><strong>Core Goal</strong></td>
+        <td style="padding:8px;border:1px solid #444;">Kevala jñāna (liberation of the soul)</td>
+        <td style="padding:8px;border:1px solid #444;">Nirvāṇa (cessation of suffering)</td>
+      </tr>
+      <tr>
+        <td style="padding:8px;border:1px solid #444;"><strong>View of Self</strong></td>
+        <td style="padding:8px;border:1px solid #444;">Eternal soul (jīva)</td>
+        <td style="padding:8px;border:1px solid #444;">No‑self (anatta)</td>
+      </tr>
+      <tr style="background:#1e1e2a;">
+        <td style="padding:8px;border:1px solid #444;"><strong>Key Ethical Tenet</strong></td>
+        <td style="padding:8px;border:1px solid #444;">Five Mahavratas (especially Ahimsa)</td>
+        <td style="padding:8px;border:1px solid #444;">Four Noble Truths + Eightfold Path</td>
+      </tr>
+      <tr>
+        <td style="padding:8px;border:1px solid #444;"><strong>Primary Texts</strong></td>
+        <td style="padding:8px;border:1px solid #444;">Agamas, Kalpa Sutras</td>
+        <td style="padding:8px;border:1px solid #444;">Tripiṭaka (Sutra, Vinaya, Abhidhamma)</td>
+      </tr>
+      <tr style="background:#1e1e2a;">
+        <td style="padding:8px;border:1px solid #444;"><strong>Major Sects</strong></td>
+        <td style="padding:8px;border:1px solid #444;">Śvētāmbara, Digambara</td>
+        <td style="padding:8px;border:1px solid #444;">Theravāda, Mahāyāna, Vajrayāna</td>
+      </tr>
+      <tr>
+        <td style="padding:8px;border:1px solid #444;"><strong>Iconic Monuments</strong></td>
+        <td style="padding:8px;border:1px solid #444;">Shravanabelagola, Dilwara Temples</td>
+        <td style="padding:8px;border:1px solid #444;">Sanchi Stupa, Mahabodhi Temple</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top:16px;"><strong>Key Take‑aways for Defence Exams</strong>: The rise of Buddhism and Jainism illustrates a seminal socio‑religious reform that challenged Vedic orthodoxy, introduced universal ethics (non‑violence, compassion), and laid the foundation for later Indian statecraft emphasizing welfare and tolerance. Their diffusion through diplomatic channels, trade routes, and royal patronage underscores the strategic use of soft power – a concept still relevant to contemporary security and cultural diplomacy.</p>
+</div>
+`;
+

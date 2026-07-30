@@ -79,13 +79,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
             
             if (targetChapter) {
-                targetChapter.topics.push({
-                    id: `elite_${mod.subject}_${mod.filename}`,
-                    title: mod.topic_name.replace(/and MCQs/gi, '').replace(/Revision MCQs/gi, '').replace(/Core/gi, '').trim(),
-                    isEliteUpdate: true,
-                    notes: htmlContent,
-                    formulas: ""
-                });
+                const topicId = `elite_${mod.subject}_${mod.filename}`;
+                const alreadyThere = targetChapter.topics.find(t => t.id === topicId);
+                if (!alreadyThere) {
+                    targetChapter.topics.push({
+                        id: topicId,
+                        title: mod.topic_name.replace(/and MCQs/gi, '').replace(/Revision MCQs/gi, '').replace(/Core/gi, '').trim(),
+                        isEliteUpdate: true,
+                        notes: htmlContent,
+                        formulas: ""
+                    });
+                }
             }
         }
         

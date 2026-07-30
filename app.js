@@ -1218,7 +1218,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
               // Strip full HTML doc wrapper — extract only <body> inner content
               const bodyMatch = expandedHtml.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
               const bodyContent = bodyMatch ? bodyMatch[1] : expandedHtml;
-              return `<div class="expanded-notes-content">${bodyContent}</div>`;
+              return `<div class="expanded-notes-content">${parseWikiLinks(bodyContent)}</div>`;
             }
             return parseWikiLinks(topic.notes || '');
           })()}
