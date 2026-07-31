@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="300" y="50" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#333333">Freedom Movement</text>
+  
+  <!-- Timeline line -->
+  <line x1="80" y1="200" x2="520" y2="200" stroke="#555555" stroke-width="4"/>
+  
+  <!-- Event 1: American Independence 1776 -->
+  <line x1="120" y1="200" x2="120" y2="170" stroke="#555555" stroke-width="2"/>
+  <circle cx="120" cy="150" r="20" fill="#ff6f61"/>
+  <text x="120" y="130" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333333">1776</text>
+  <text x="120" y="145" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#ffffff">American Independence</text>
+  
+  <!-- Event 2: Indian Independence 1947 -->
+  <line x1="260" y1="200" x2="260" y2="170" stroke="#555555" stroke-width="2"/>
+  <circle cx="260" cy="150" r="20" fill="#6b5b95"/>
+  <text x="260" y="130" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333333">1947</text>
+  <text x="260" y="145" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#ffffff">Indian Independence</text>
+  
+  <!-- Event 3: Civil Rights Movement 1960s -->
+  <line x1="380" y1="200" x2="380" y2="170" stroke="#555555" stroke-width="2"/>
+  <circle cx="380" cy="150" r="20" fill="#88b04b"/>
+  <text x="380" y="130" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333333">1960s</text>
+  <text x="380" y="145" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#ffffff">Civil Rights</text>
+  
+  <!-- Event 4: Fall of Berlin Wall 1990 -->
+  <line x1="500" y1="200" x2="500" y2="170" stroke="#555555" stroke-width="2"/>
+  <circle cx="500" cy="150" r="20" fill="#f7cac9"/>
+  <text x="500" y="130" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333333">1990</text>
+  <text x="500" y="145" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Berlin Wall</text>
+  
+  <!-- Legend -->
+  <rect x="420" y="260" width="160" height="110" fill="#f0f0f0" stroke="#cccccc"/>
+  <text x="440" y="280" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Legend:</text>
+  <circle cx="440" cy="300" r="6" fill="#ff6f61"/>
+  <text x="455" y="304" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">American Independence</text>
+  <circle cx="440" cy="320" r="6" fill="#6b5b95"/>
+  <text x="455" y="324" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Indian Independence</text>
+  <circle cx="440" cy="340" r="6" fill="#88b04b"/>
+  <text x="455" y="344" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Civil Rights</text>
+  <circle cx="440" cy="360" r="6" fill="#f7cac9"/>
+  <text x="455" y="364" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333333">Berlin Wall</text>
+</svg>

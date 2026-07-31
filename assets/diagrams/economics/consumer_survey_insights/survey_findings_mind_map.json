@@ -1,0 +1,23 @@
+{
+  "title": "Survey Findings Mind Map",
+  "subject": "Economics",
+  "chapter": "Consumer Survey Insights",
+  "topic": "Key insights from consumer survey",
+  "difficulty": "Easy",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "survey",
+    "consumer demand",
+    "confidence",
+    "new routines",
+    "pent-up demand"
+  ],
+  "caption": "Mind map of key consumer survey insights",
+  "altText": "A mind map diagram with the central node titled Consumer Survey Insights. Branches extend to Suppression of Demand (with sub‑nodes Causes → Price Hikes, Supply Constraints and Effects → Reduced Purchases), Increased Confidence (Indicators → Employment Gains, Income Growth), New Routines (Online Shopping, Sustainability Focus), Pent‑up Demand (Potential Surge, Timing Uncertain) and Future Outlook (Growth Forecast, Policy Implications).",
+  "source": "Automated Pipeline"
+}

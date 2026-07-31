@@ -1,0 +1,18 @@
+graph TD
+    A[Start: Jumbled Sentence 99] --> B[Extract individual parts]
+    B --> C[Identify clause types]
+    C --> D[Subject]
+    C --> E[Verb]
+    C --> F[Object]
+    C --> G[Adverbial phrase]
+    C --> H[Prepositional phrase]
+    C --> I[Conjunction]
+    D & E & F & G & H & I --> J[Arrange parts in correct order]
+    J --> K[Form complete sentence]
+    K --> L[Check tense and subject‑verb agreement]
+    L --> M[Check punctuation]
+    M --> N[Final sentence validated]
+    N --> O[End]
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
+    class A,B,C,J,K,L,M,N,O default;
+    class D,E,F,G,H,I default;

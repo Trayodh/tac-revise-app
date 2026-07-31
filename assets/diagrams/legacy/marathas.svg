@@ -1,0 +1,39 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f5f5f5"/>
+  
+  <!-- Title -->
+  <text x="300" y="40" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#333">Maratha Empire (1674–1818)</text>
+  
+  <!-- Core Maratha Territory (stylized region) -->
+  <path d="M150,120 L250,120 L260,200 L300,200 L310,120 L410,120 L380,300 L320,300 L300,200 L280,300 L220,300 Z"
+        fill="#c0392b" stroke="#2c3e50" stroke-width="2"/>
+  <text x="300" y="340" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#333">Core Maratha Territory</text>
+  
+  <!-- Maratha emblem (shield) -->
+  <circle cx="500" cy="100" r="40" fill="#2c3e50"/>
+  <text x="500" y="110" text-anchor="middle" font-family="sans-serif" font-size="36" fill="#ecf0f1" font-weight="bold">M</text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="350" x2="500" y2="350" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- 1674 – Shivaji coronation -->
+  <circle cx="150" cy="350" r="8" fill="#2980b9"/>
+  <text x="150" y="330" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">1674</text>
+  <text x="150" y="370" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">Shivaji</text>
+  
+  <!-- 1720 – Rise of the Peshwas -->
+  <circle cx="250" cy="350" r="8" fill="#27ae60"/>
+  <text x="250" y="330" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">1720</text>
+  <text x="250" y="370" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">Peshwas</text>
+  
+  <!-- 1761 – Third Battle of Panipat -->
+  <circle cx="350" cy="350" r="8" fill="#d35400"/>
+  <text x="350" y="330" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">1761</text>
+  <text x="350" y="370" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">Panipat</text>
+  
+  <!-- 1818 – British annexation -->
+  <circle cx="450" cy="350" r="8" fill="#8e44ad"/>
+  <text x="450" y="330" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">1818</text>
+  <text x="450" y="370" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">British</text>
+</svg>

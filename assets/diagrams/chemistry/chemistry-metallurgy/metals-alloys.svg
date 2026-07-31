@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#000"/>
+    </marker>
+    <style>
+      .label {font-family:sans-serif;font-size:14px;fill:#000;}
+      .shape {stroke:#000;stroke-width:1;}
+    </style>
+  </defs>
+
+  <!-- Ore -->
+  <rect class="shape" x="50" y="150" width="80" height="100" fill="#8B4513"/>
+  <text class="label" x="90" y="140" text-anchor="middle">Ore (e.g., Hematite)</text>
+
+  <!-- Arrow: Ore → Furnace -->
+  <line x1="130" y1="200" x2="180" y2="200" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Furnace -->
+  <rect class="shape" x="180" y="130" width="120" height="140" fill="#555555"/>
+  <text class="label" x="240" y="120" text-anchor="middle">Furnace (Smelting)</text>
+
+  <!-- Arrow: Furnace → Molten Metal -->
+  <line x1="240" y1="270" x2="310" y2="200" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Molten Metal -->
+  <circle class="shape" cx="350" cy="200" r="40" fill="#D2B48C"/>
+  <text class="label" x="350" y="260" text-anchor="middle">Molten Metal</text>
+
+  <!-- Arrow: Molten Metal → Alloying -->
+  <line x1="390" y1="200" x2="460" y2="200" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Alloying -->
+  <rect class="shape" x="460" y="150" width="80" height="100" fill="#4682B4"/>
+  <text class="label" x="500" y="140" text-anchor="middle">Alloying (e.g., Steel)</text>
+
+  <!-- Arrow: Alloying → Final Product -->
+  <line x1="540" y1="200" x2="560" y2="200" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Final Metal Product -->
+  <rect class="shape" x="560" y="170" width="30" height="60" fill="#2E8B57"/>
+  <text class="label" x="575" y="250" text-anchor="middle">Final Metal Product</text>
+</svg>

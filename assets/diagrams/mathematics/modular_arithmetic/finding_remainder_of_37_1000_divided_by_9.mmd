@@ -1,0 +1,12 @@
+graph TD
+    A[Start] --> B[Identify expression 37^1000]
+    B --> C[Reduce base modulo 9]
+    C --> D[Compute 37 mod 9 = 1]
+    D --> E[Replace expression with 1^1000]
+    E --> F[Simplify 1^1000 = 1]
+    F --> G[Result: remainder = 1]
+    G --> H[End]
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef process fill:#bbf,stroke:#333,stroke-width:1px;
+    class A,H startEnd;
+    class B,C,D,E,F,G process;

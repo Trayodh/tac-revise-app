@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="300" y="40" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#333333">Acids, Bases &amp; pH Indicators</text>
+  
+  <!-- pH Scale -->
+  <g id="ph-scale">
+    <!-- Segments -->
+    <rect x="20" y="300" width="240" height="30" fill="#e74c3c"/>
+    <rect x="260" y="300" width="40" height="30" fill="#2ecc71"/>
+    <rect x="300" y="300" width="280" height="30" fill="#3498db"/>
+    <!-- Tick marks and labels -->
+    <g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">
+      <line x1="20" y1="295" x2="20" y2="300" stroke="#000"/>
+      <line x1="60" y1="295" x2="60" y2="300" stroke="#000"/>
+      <line x1="100" y1="295" x2="100" y2="300" stroke="#000"/>
+      <line x1="140" y1="295" x2="140" y2="300" stroke="#000"/>
+      <line x1="180" y1="295" x2="180" y2="300" stroke="#000"/>
+      <line x1="220" y1="295" x2="220" y2="300" stroke="#000"/>
+      <line x1="260" y1="295" x2="260" y2="300" stroke="#000"/>
+      <line x1="300" y1="295" x2="300" y2="300" stroke="#000"/>
+      <line x1="340" y1="295" x2="340" y2="300" stroke="#000"/>
+      <line x1="380" y1="295" x2="380" y2="300" stroke="#000"/>
+      <line x1="420" y1="295" x2="420" y2="300" stroke="#000"/>
+      <line x1="460" y1="295" x2="460" y2="300" stroke="#000"/>
+      <line x1="500" y1="295" x2="500" y2="300" stroke="#000"/>
+      <line x1="540" y1="295" x2="540" y2="300" stroke="#000"/>
+      <line x1="580" y1="295" x2="580" y2="300" stroke="#000"/>
+      
+      <text x="20" y="315">0</text>
+      <text x="60" y="315">1</text>
+      <text x="100" y="315">2</text>
+      <text x="140" y="315">3</text>
+      <text x="180" y="315">4</text>
+      <text x="220" y="315">5</text>
+      <text x="260" y="315">6</text>
+      <text x="300" y="315">7</text>
+      <text x="340" y="315">8</text>
+      <text x="380" y="315">9</text>
+      <text x="420" y="315">10</text>
+      <text x="460" y="315">11</text>
+      <text x="500" y="315">12</text>
+      <text x="540" y="315">13</text>
+      <text x="580" y="315">14</text>
+    </g>
+    <!-- Scale label -->
+    <text x="300" y="340" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333333">pH Scale</text>
+  </g>
+  
+  <!-- Acid Beaker -->
+  <g id="acid-beaker">
+    <!-- Beaker outline -->
+    <path d="M120 80 L140 80 L140 200 L100 200 L100 80 L120 80 Z" fill="#bdc3c7" stroke="#7f8c8d" stroke-width="2"/>
+    <!-- Acid liquid -->
+    <rect x="102" y="120" width="36" height="70" fill="#e74c3c"/>
+    <!-- Label -->
+    <text x="120" y="250" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333333">Acid</text>
+    <!-- Arrow to scale -->
+    <path d="M120 200 C120 250, 150 260, 150 300" fill="none" stroke="#555555" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+  
+  <!-- Base Beaker -->
+  <g id="base-beaker">
+    <!-- Beaker outline -->
+    <path d="M460 80 L480 80 L480 200 L440 200 L440 80 L460 80 Z" fill="#bdc3c7" stroke="#7f8c8d" stroke-width="2"/>
+    <!-- Base liquid -->
+    <rect x="442" y="120" width="36" height="70" fill="#3498db"/>
+    <!-- Label -->
+    <text x="460" y="250" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333333">Base</text>
+    <!-- Arrow to scale -->
+    <path d="M460 200 C460 250, 430 260, 430 300" fill="none" stroke="#555555" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+  
+  <!-- pH Indicator -->
+  <g id="indicator">
+    <!-- Indicator droplet (acidic color) -->
+    <circle cx="120" cy="70" r="12" fill="#e74c3c"/>
+    <!-- Indicator droplet (basic color) -->
+    <circle cx="460" cy="70" r="12" fill="#3498db"/>
+    <!-- Label -->
+    <text x="300" y="150" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#333333">pH Indicator (color changes)</text>
+    <!-- Arrow from indicator to beakers -->
+    <path d="M120 70 L120 80" fill="none" stroke="#555555" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M460 70 L460 80" fill="none" stroke="#555555" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555555"/>
+    </marker>
+  </defs>
+</svg>

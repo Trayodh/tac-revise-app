@@ -1,0 +1,27 @@
+graph TD
+    classDef axis fill:#f9f,stroke:#333,stroke-width:1px;
+    classDef curve fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef note fill:#efe,stroke:#333,stroke-dasharray:5 5;
+
+    P[Price (vertical axis)]
+    Q[Quantity demanded (horizontal axis)]
+    D[Demand curve (downward‑sloping)]
+    L[Law of demand]
+    S[Shift factors]
+    P1[Point A: High price, low quantity]
+    P2[Point B: Low price, high quantity]
+    E[Equilibrium (with supply)]
+
+    P --> D
+    Q --> D
+    D --> L
+    D --> S
+    P --> P1
+    P --> P2
+    D --> P1
+    D --> P2
+    D --> E
+
+    class P,Q axis;
+    class D curve;
+    class L,S,E note;

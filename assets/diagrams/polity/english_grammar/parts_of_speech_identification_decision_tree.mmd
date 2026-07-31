@@ -1,0 +1,22 @@
+graph TD
+    S["Start"] --> Q1["Does the word describe an action or state?"]
+    Q1 -- Yes --> V["Verb"]
+    Q1 -- No --> Q2["Does the word name a person, place, thing, or idea?"]
+    Q2 -- Yes --> N["Noun"]
+    Q2 -- No --> Q3["Does the word describe a quality or characteristic?"]
+    Q3 -- Yes --> Adj["Adjective"]
+    Q3 -- No --> Q4["Does the word modify a verb, adjective, or another adverb?"]
+    Q4 -- Yes --> Adv["Adverb"]
+    Q4 -- No --> Q5["Is the word used to intensify meaning (e.g., very, extremely)?"]
+    Q5 -- Yes --> Int["Intensifier"]
+    Q5 -- No --> Q6["Does the word join words, phrases, or clauses?"]
+    Q6 -- Yes --> Conj["Conjunction"]
+    Q6 -- No --> Q7["Does the word replace a noun?"]
+    Q7 -- Yes --> Pron["Pronoun"]
+    Q7 -- No --> Q8["Is the word a definite or indefinite article?"]
+    Q8 -- Yes --> Art["Article"]
+    Q8 -- No --> Q9["Is the word an exclamation expressing emotion?"]
+    Q9 -- Yes --> Interj["Interjection"]
+    Q9 -- No --> Other["Other / Unidentified"]
+    class S,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9 question;
+    class V,N,Adj,Adv,Int,Conj,Pron,Art,Interj,Other answer;

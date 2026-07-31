@@ -1,0 +1,15 @@
+graph TD
+    subgraph Causes
+        A[Economic Shock] --> B[Fear of Job Loss]
+        A --> C[Salary Cuts]
+        B --> D[Increased Savings]
+        C --> D
+        E[Pandemic Recedes] --> F[Improved Health Outlook]
+        G[Vaccine Development] --> F
+        F --> H[Consumer Confidence Rise]
+    end
+    D --> I[Pent‑up Demand]
+    H --> I
+    I --> J[Higher Consumption]
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
+    class A,B,C,D,E,F,G,H,I,J default;

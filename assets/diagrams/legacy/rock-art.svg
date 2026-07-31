@@ -1,0 +1,46 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f5f0e0"/>
+
+  <!-- Cave wall (Petroglyph) -->
+  <path d="M50,350 L100,100 L150,120 L200,80 L250,150 L300,100 L350,350 Z"
+        fill="#8b5a2b" stroke="#5a3e1f" stroke-width="2"/>
+  <!-- Petroglyph lines -->
+  <path d="M120,200 L140,180 M140,200 L160,180 M180,200 L200,180 M200,200 L220,180"
+        stroke="#000" stroke-width="3" fill="none"/>
+
+  <!-- Rock panel (Pictograph) -->
+  <rect x="400" y="150" width="150" height="200" fill="#a0522d" stroke="#5a3e1f" stroke-width="2"/>
+  <!-- Pictograph circles -->
+  <circle cx="460" cy="210" r="12" fill="#c0392b"/>
+  <circle cx="500" cy="250" r="12" fill="#c0392b"/>
+  <circle cx="440" cy="280" r="12" fill="#c0392b"/>
+  <circle cx="520" cy="190" r="12" fill="#c0392b"/>
+
+  <!-- Timeline -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+            refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2980b9"/>
+    </marker>
+  </defs>
+  <line x1="150" y1="200" x2="450" y2="200" stroke="#2980b9" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <!-- Timeline ticks -->
+  <line x1="200" y1="195" x2="200" y2="205" stroke="#2980b9" stroke-width="2"/>
+  <line x1="300" y1="195" x2="300" y2="205" stroke="#2980b9" stroke-width="2"/>
+  <line x1="400" y1="195" x2="400" y2="205" stroke="#2980b9" stroke-width="2"/>
+  <!-- Timeline labels -->
+  <text x="200" y="185" font-family="sans-serif" font-size="14" fill="#2980b9" text-anchor="middle">40 000 BCE</text>
+  <text x="300" y="185" font-family="sans-serif" font-size="14" fill="#2980b9" text-anchor="middle">10 000 BCE</text>
+  <text x="400" y="185" font-family="sans-serif" font-size="14" fill="#2980b9" text-anchor="middle">2 000 BCE</text>
+
+  <!-- Labels and connectors -->
+  <text x="80" y="70" font-family="sans-serif" font-size="16" fill="#000">Petroglyph (carved)</text>
+  <line x1="120" y1="180" x2="80" y2="80" stroke="#000" stroke-width="1"/>
+
+  <text x="475" y="130" font-family="sans-serif" font-size="16" fill="#000" text-anchor="middle">Pictograph (painted)</text>
+  <line x1="460" y1="210" x2="475" y2="140" stroke="#000" stroke-width="1"/>
+
+  <text x="300" y="260" font-family="sans-serif" font-size="18" fill="#000" text-anchor="middle">Timeline of Rock Art</text>
+  <line x1="300" y1="210" x2="300" y2="250" stroke="#000" stroke-width="1"/>
+</svg>

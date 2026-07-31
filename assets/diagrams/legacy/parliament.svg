@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#ffffff"/>
+  
+  <!-- President -->
+  <circle cx="300" cy="60" r="30" fill="#F5A623"/>
+  <text x="300" y="65" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000" text-anchor="middle">President of India</text>
+  
+  <!-- Parliament building -->
+  <rect x="100" y="120" width="400" height="200" fill="#e0e0e0" stroke="#777777" stroke-width="2"/>
+  <text x="300" y="115" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#000000" text-anchor="middle">Parliament of India (Art 79‑122)</text>
+  
+  <!-- Rajya Sabha (Upper House) -->
+  <rect x="130" y="140" width="340" height="70" fill="#4A90E2" stroke="#333333" stroke-width="1"/>
+  <text x="300" y="180" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Rajya Sabha (Upper House)</text>
+  
+  <!-- Lok Sabha (Lower House) -->
+  <rect x="130" y="230" width="340" height="70" fill="#7ED321" stroke="#333333" stroke-width="1"/>
+  <text x="300" y="270" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Lok Sabha (Lower House)</text>
+  
+  <!-- Arrow from President to Parliament -->
+  <path d="M300,90 L300,120" stroke="#555555" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555555"/>
+    </marker>
+  </defs>
+  
+  <!-- Article list -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#000000">
+    <text x="20" y="150">Art. 79 – 122</text>
+    <text x="20" y="170">• Art. 79 – Constitution of Parliament</text>
+    <text x="20" y="190">• Art. 80 – Composition of Rajya Sabha</text>
+    <text x="20" y="210">• Art. 81 – Composition of Lok Sabha</text>
+    <text x="20" y="230">• Art. 82 – Qualification of members</text>
+    <text x="20" y="250">• Art. 83 – Duration of Lok Sabha</text>
+    <text x="20" y="270">• Art. 84 – Sessions &amp; prorogation</text>
+    <text x="20" y="290">• Art. 85 – Powers of Parliament</text>
+    <text x="20" y="310">• Art. 86 – Money Bills</text>
+    <text x="20" y="330">• Art. 87 – Legislative Procedure</text>
+    <text x="20" y="350">• Art. 88 – Joint sittings</text>
+  </g>
+</svg>

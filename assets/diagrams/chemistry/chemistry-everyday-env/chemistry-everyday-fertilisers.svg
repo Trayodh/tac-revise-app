@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#555"/>
+    </marker>
+    <style>
+      .label {font-family:Arial,Helvetica,sans-serif;font-size:14px;fill:#fff;pointer-events:none;}
+      .subLabel {font-family:Arial,Helvetica,sans-serif;font-size:12px;fill:#333;pointer-events:none;}
+    </style>
+  </defs>
+
+  <!-- Central concept -->
+  <circle cx="300" cy="200" r="60" fill="#4CAF50"/>
+  <text x="300" y="205" text-anchor="middle" class="label">Everyday Chemistry</text>
+
+  <!-- Fertilizers block -->
+  <rect x="80" y="120" width="120" height="80" fill="#2196F3" rx="8"/>
+  <text x="140" y="155" text-anchor="middle" class="label">Fertilizers</text>
+
+  <!-- Fuel block -->
+  <rect x="400" y="120" width="120" height="80" fill="#FF9800" rx="8"/>
+  <text x="460" y="155" text-anchor="middle" class="label">Fuels</text>
+
+  <!-- Connections -->
+  <path d="M260,200 C200,180 150,150 140,150" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M340,200 C400,180 450,150 460,150" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Fertilizer sub‑processes -->
+  <g transform="translate(80,210)">
+    <text x="10" y="15" class="subLabel">N₂ → NH₃ (Haber‑Bosch)</text>
+    <text x="10" y="35" class="subLabel">NH₃ → NH₄⁺ → NPK</text>
+  </g>
+
+  <!-- Fuel sub‑processes -->
+  <g transform="translate(400,210)">
+    <text x="10" y="15" class="subLabel">Crude Oil → Gasoline</text>
+    <text x="10" y="35" class="subLabel">Crude Oil → Diesel</text>
+    <text x="10" y="55" class="subLabel">Bio‑fuel (e.g., Ethanol)</text>
+  </g>
+
+  <!-- Simple icons -->
+  <!-- Leaf icon inside Fertilizers -->
+  <path d="M140,140 C135,130 145,120 150,130 C155,120 165,130 160,140 C155,150 145,150 140,140 Z" fill="#A5D6A7"/>
+  <!-- Fuel pump icon inside Fuels -->
+  <rect x="460" y="140" width="12" height="20" fill="#D7CCC8"/>
+  <rect x="462" y="138" width="8" height="4" fill="#D7CCC8"/>
+  <circle cx="466" cy="155" r="3" fill="#D7CCC8"/>
+</svg>

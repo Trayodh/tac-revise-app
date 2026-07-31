@@ -1,0 +1,23 @@
+{
+  "title": "Calculating additional men needed for work completion",
+  "subject": "Mathematics",
+  "chapter": "Work and Time",
+  "topic": "Man‑days problem",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "work",
+    "men",
+    "days",
+    "man‑days",
+    "additional workers"
+  ],
+  "caption": "Procedure to calculate extra workers needed to finish the job in 10 days.",
+  "altText": "A flowchart showing the steps to determine the number of additional workers required when 20 men complete one quarter of a job in five days and the whole job must be finished in ten days. It starts with the given data, computes total work as 400 man‑days, calculates work already done (100 man‑days), finds remaining work (300 man‑days), determines days left (5 days), derives required daily workforce (60 men), and finally computes extra workers needed (40 men).",
+  "source": "Automated Pipeline"
+}

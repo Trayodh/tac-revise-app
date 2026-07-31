@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#f5f5f5"/>
+  <text x="300" y="40" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#333">Gupta Period (c. 320–550 CE)</text>
+  <line x1="80" y1="200" x2="520" y2="200" stroke="#555" stroke-width="4"/>
+  <circle cx="120" cy="200" r="12" fill="#4a90e2"/>
+  <circle cx="220" cy="200" r="12" fill="#4a90e2"/>
+  <circle cx="320" cy="200" r="12" fill="#4a90e2"/>
+  <circle cx="420" cy="200" r="12" fill="#4a90e2"/>
+  <text x="120" y="170" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#222">Chandragupta I (c. 320‑335)</text>
+  <text x="220" y="170" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#222">Samudragupta (c. 335‑375)</text>
+  <text x="320" y="170" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#222">Chandragupta II (c. 375‑415)</text>
+  <text x="420" y="170" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#222">Skandagupta (c. 455‑467)</text>
+  <rect x="460" y="80" width="120" height="260" fill="#e0e0e0" rx="8"/>
+  <text x="520" y="100" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#333">Achievements</text>
+  <circle cx="520" cy="140" r="12" fill="#7ed321"/>
+  <path d="M520 128 L520 152 M508 140 L532 140" stroke="#fff" stroke-width="2"/>
+  <text x="520" y="165" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">Science &amp; Math</text>
+  <path d="M520 200 a20 20 0 1 0 0.1 0" fill="#ff6f61"/>
+  <circle cx="512" cy="195" r="4" fill="#fff"/>
+  <circle cx="528" cy="195" r="4" fill="#fff"/>
+  <circle cx="520" cy="205" r="4" fill="#fff"/>
+  <text x="520" y="235" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">Art &amp; Architecture</text>
+  <rect x="508" y="260" width="24" height="30" fill="#4a90e2"/>
+  <line x1="508" y1="260" x2="532" y2="260" stroke="#fff" stroke-width="2"/>
+  <line x1="508" y1="290" x2="532" y2="290" stroke="#fff" stroke-width="2"/>
+  <text x="520" y="320" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">Literature</text>
+</svg>

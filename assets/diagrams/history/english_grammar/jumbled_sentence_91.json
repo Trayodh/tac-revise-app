@@ -1,0 +1,22 @@
+{
+  "title": "Jumbled Sentence 91",
+  "subject": "History",
+  "chapter": "English Grammar",
+  "topic": "Jumbled Sentences",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "jumbled",
+    "sentence",
+    "order",
+    "question 91"
+  ],
+  "caption": "Flowchart showing the steps to reorder Jumbled Sentence 91 into the correct sequence S → R → P → Q.",
+  "altText": "The diagram starts with a node labeled 'Jumbled Sentence 91' leading to 'Identify parts'. From there four nodes representing parts S, R, P, and Q branch out. A subgraph titled 'Correct Order' connects S to R to P to Q, indicating the required sequence. All four parts converge on 'Reordered Sentence', which then proceeds to 'Check grammar'.",
+  "source": "Automated Pipeline"
+}

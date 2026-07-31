@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f9f9f9"/>
+  
+  <!-- Title -->
+  <text x="300" y="40" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#333">Key Milestones in Sikh History</text>
+  
+  <!-- Timeline line -->
+  <line x1="50" y1="200" x2="590" y2="200" stroke="#555" stroke-width="2"/>
+  
+  <!-- Milestone circles -->
+  <circle cx="80"  cy="200" r="12" fill="#4a90e2"/>
+  <circle cx="180" cy="200" r="12" fill="#4a90e2"/>
+  <circle cx="280" cy="200" r="12" fill="#4a90e2"/>
+  <circle cx="380" cy="200" r="12" fill="#4a90e2"/>
+  <circle cx="480" cy="200" r="12" fill="#4a90e2"/>
+  <circle cx="560" cy="200" r="12" fill="#4a90e2"/>
+  
+  <!-- Labels and connector lines -->
+  <!-- Guru Nanak -->
+  <line x1="80" y1="200" x2="80" y2="150" stroke="#555" stroke-width="1"/>
+  <text x="80" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#222">
+    Guru Nanak (1469‑1539)
+  </text>
+  
+  <!-- Guru Amar Das -->
+  <line x1="180" y1="200" x2="180" y2="150" stroke="#555" stroke-width="1"/>
+  <text x="180" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#222">
+    Guru Amar Das (1552‑1574)
+  </text>
+  
+  <!-- Guru Arjan -->
+  <line x1="280" y1="200" x2="280" y2="150" stroke="#555" stroke-width="1"/>
+  <text x="280" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#222">
+    Guru Arjan (1606)
+  </text>
+  
+  <!-- Guru Gobind Singh -->
+  <line x1="380" y1="200" x2="380" y2="150" stroke="#555" stroke-width="1"/>
+  <text x="380" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#222">
+    Guru Gobind Singh (1666)
+  </text>
+  
+  <!-- Formation of Khalsa -->
+  <line x1="480" y1="200" x2="480" y2="150" stroke="#555" stroke-width="1"/>
+  <text x="480" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#222">
+    Formation of Khalsa (1699)
+  </text>
+  
+  <!-- Partition of India -->
+  <line x1="560" y1="200" x2="560" y2="150" stroke="#555" stroke-width="1"/>
+  <text x="560" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#222">
+    Partition of India (1947)
+  </text>
+  
+  <!-- Optional decorative elements -->
+  <rect x="50" y="190" width="540" height="20" fill="#e0e0e0" opacity="0.2"/>
+</svg>

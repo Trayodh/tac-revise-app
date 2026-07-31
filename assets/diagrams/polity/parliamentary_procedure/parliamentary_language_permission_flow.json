@@ -1,0 +1,22 @@
+{
+  "title": "Parliamentary Language Permission Flow",
+  "subject": "Polity",
+  "chapter": "Parliamentary Procedure",
+  "topic": "Language Use in Parliament",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "language",
+    "parliament",
+    "speaker",
+    "mother tongue"
+  ],
+  "caption": "Permission flow for speaking in a mother tongue in Parliament",
+  "altText": "A flowchart showing the steps a member follows to request speaking in a mother tongue, the speaker's evaluation of language necessity and relevance, the possible outcomes of granting or denying permission, subsequent translation, and continuation of parliamentary debate.",
+  "source": "Automated Pipeline"
+}

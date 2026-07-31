@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="0" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 Z" fill="#333"/>
+    </marker>
+    <style>
+      .title { font: bold 20px sans-serif; fill:#222; }
+      .label { font: 14px sans-serif; fill:#fff; text-anchor:middle; dominant-baseline:middle; }
+      .year { font: 12px sans-serif; fill:#333; text-anchor:middle; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="300" y="30" class="title">Bahmani Kingdom &amp; Deccan Sultanates</text>
+
+  <!-- Timeline -->
+  <line x1="50" y1="200" x2="550" y2="200" stroke="#333" stroke-width="2"/>
+
+  <!-- Year markers -->
+  <g>
+    <line x1="80" y1="195" x2="80" y2="205" stroke="#333"/>
+    <text x="80" y="215" class="year">1347</text>
+    <line x1="200" y1="195" x2="200" y2="205" stroke="#333"/>
+    <text x="200" y="215" class="year">1400</text>
+    <line x1="300" y1="195" x2="300" y2="205" stroke="#333"/>
+    <text x="300" y="215" class="year">1460</text>
+    <line x1="400" y1="195" x2="400" y2="205" stroke="#333"/>
+    <text x="400" y="215" class="year">1520</text>
+    <line x1="500" y1="195" x2="500" y2="205" stroke="#333"/>
+    <text x="500" y="215" class="year">1550</text>
+  </g>
+
+  <!-- Bahmani Kingdom -->
+  <rect x="80" y="150" width="220" height="100" fill="#6A5ACD" rx="5"/>
+  <text x="190" y="210" class="label">Bahmani Kingdom (1347‑1527)</text>
+
+  <!-- Deccan Sultanates -->
+  <rect x="340" y="220" width="200" height="25" fill="#FF7F50" rx="4"/>
+  <text x="440" y="232.5" class="label">Bijapur (1490‑1686)</text>
+
+  <rect x="340" y="255" width="200" height="25" fill="#20B2AA" rx="4"/>
+  <text x="440" y="267.5" class="label">Golconda (1518‑1687)</text>
+
+  <rect x="340" y="290" width="200" height="25" fill="#FFD700" rx="4"/>
+  <text x="440" y="302.5" class="label">Ahmadnagar (1490‑1636)</text>
+
+  <rect x="340" y="325" width="200" height="25" fill="#FF69B4" rx="4"/>
+  <text x="440" y="337.5" class="label">Berar (1490‑1590)</text>
+
+  <rect x="340" y="360" width="200" height="25" fill="#87CEFA" rx="4"/>
+  <text x="440" y="372.5" class="label">Bidar (1489‑1619)</text>
+
+  <!-- Arrows from Bahmani to Sultanates -->
+  <g stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arrow)">
+    <line x1="300" y1="200" x2="340" y2="232.5"/>
+    <line x1="300" y1="200" x2="340" y2="267.5"/>
+    <line x1="300" y1="200" x2="340" y2="302.5"/>
+    <line x1="300" y1="200" x2="340" y2="337.5"/>
+    <line x1="300" y1="200" x2="340" y2="372.5"/>
+  </g>
+</svg>

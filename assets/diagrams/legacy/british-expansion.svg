@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="#555"/>
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="400" fill="#F5F5F5"/>
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#333">British Expansion</text>
+  <!-- Britain (UK) -->
+  <rect x="260" y="150" width="80" height="50" fill="#1E90FF" stroke="#333" stroke-width="1"/>
+  <text x="300" y="140" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">Britain (UK)</text>
+  <!-- Colonies -->
+  <!-- North America -->
+  <circle cx="80" cy="80" r="30" fill="#90EE90" stroke="#333" stroke-width="1"/>
+  <text x="120" y="85" font-family="sans-serif" font-size="14" fill="#333">North America</text>
+  <!-- Caribbean -->
+  <circle cx="120" cy="250" r="20" fill="#90EE90" stroke="#333" stroke-width="1"/>
+  <text x="150" y="255" font-family="sans-serif" font-size="14" fill="#333">Caribbean</text>
+  <!-- India -->
+  <circle cx="500" cy="120" r="30" fill="#90EE90" stroke="#333" stroke-width="1"/>
+  <text x="540" y="125" font-family="sans-serif" font-size="14" fill="#333">India</text>
+  <!-- East Africa -->
+  <circle cx="460" cy="260" r="30" fill="#90EE90" stroke="#333" stroke-width="1"/>
+  <text x="500" y="265" font-family="sans-serif" font-size="14" fill="#333">East Africa</text>
+  <!-- Australia -->
+  <circle cx="540" cy="340" r="30" fill="#90EE90" stroke="#333" stroke-width="1"/>
+  <text x="580" y="345" font-family="sans-serif" font-size="14" fill="#333">Australia</text>
+  <!-- Arrows from Britain to colonies -->
+  <line x1="300" y1="175" x2="80" y2="80" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="175" x2="120" y2="250" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="175" x2="500" y2="120" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="175" x2="460" y2="260" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="175" x2="540" y2="340" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>

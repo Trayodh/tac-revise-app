@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="#333"/>
+    </marker>
+    <style>
+      .section { fill:#f0f0f0; stroke:#cccccc; stroke-width:2; }
+      .icon { stroke:#333; stroke-width:2; fill:none; }
+      .label { font-family:Arial,Helvetica,sans-serif; font-size:14px; fill:#333; }
+    </style>
+  </defs>
+
+  <!-- Elections Section -->
+  <rect class="section" x="50" y="100" width="150" height="200" rx="8"/>
+  <!-- Ballot box icon -->
+  <rect x="95" y="150" width="60" height="80" fill="#4A90E2" class="icon"/>
+  <line x1="95" y1="150" x2="155" y2="230" class="icon"/>
+  <line x1="155" y1="150" x2="95" y2="230" class="icon"/>
+  <text class="label" x="125" y="260" text-anchor="middle">Elections</text>
+  <text class="label" x="125" y="280" text-anchor="middle">(by voters)</text>
+
+  <!-- Appointments Section -->
+  <rect class="section" x="225" y="100" width="150" height="200" rx="8"/>
+  <!-- Briefcase icon -->
+  <rect x="270" y="160" width="80" height="60" fill="#50E3C2" class="icon"/>
+  <rect x="285" y="150" width="50" height="10" fill="#50E3C2" class="icon"/>
+  <text class="label" x="300" y="260" text-anchor="middle">Appointments</text>
+  <text class="label" x="300" y="280" text-anchor="middle">(by authority)</text>
+
+  <!-- Terms of Office Section -->
+  <rect class="section" x="400" y="100" width="150" height="200" rx="8"/>
+  <!-- Calendar icon -->
+  <rect x="440" y="150" width="80" height="80" fill="#F5A623" class="icon"/>
+  <line x1="440" y1="170" x2="520" y2="170" class="icon"/>
+  <line x1="440" y1="190" x2="520" y2="190" class="icon"/>
+  <line x1="440" y1="210" x2="520" y2="210" class="icon"/>
+  <line x1="440" y1="230" x2="520" y2="230" class="icon"/>
+  <text class="label" x="475" y="260" text-anchor="middle">Terms of Office</text>
+  <text class="label" x="475" y="280" text-anchor="middle">(fixed duration)</text>
+
+  <!-- Arrows -->
+  <path d="M200 200 L225 200" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M200 200 L400 200" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f5f5f5"/>
+  
+  <!-- Title -->
+  <text x="300" y="40" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#333">Vedic Age Timeline</text>
+  
+  <!-- Timeline line -->
+  <line x1="100" y1="200" x2="500" y2="200" stroke="#555" stroke-width="2"/>
+  
+  <!-- Period rectangles -->
+  <rect x="100" y="150" width="120" height="40" fill="#ffcc80" stroke="#e0a060" stroke-width="1"/>
+  <rect x="240" y="150" width="120" height="40" fill="#ffd54f" stroke="#e0b040" stroke-width="1"/>
+  <rect x="380" y="150" width="120" height="40" fill="#ffb74d" stroke="#e09c30" stroke-width="1"/>
+  
+  <!-- Period labels -->
+  <text x="160" y="175" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333">Early Vedic<br/>1500‑1200 BCE</text>
+  <text x="300" y="175" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333">Later Vedic<br/>1200‑800 BCE</text>
+  <text x="440" y="175" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333">Upanishadic<br/>800‑500 BCE</text>
+  
+  <!-- Veda circles -->
+  <circle cx="200" cy="200" r="12" fill="#4fc3f7" stroke="#2196f3" stroke-width="2"/>
+  <circle cx="260" cy="200" r="12" fill="#81c784" stroke="#4caf50" stroke-width="2"/>
+  <circle cx="320" cy="200" r="12" fill="#ff8a65" stroke="#e64a19" stroke-width="2"/>
+  <circle cx="380" cy="200" r="12" fill="#ba68c8" stroke="#9c27b0" stroke-width="2"/>
+  
+  <!-- Veda labels -->
+  <text x="200" y="230" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333">Rigveda</text>
+  <text x="260" y="230" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333">Samaveda</text>
+  <text x="320" y="230" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333">Yajurveda</text>
+  <text x="380" y="230" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#333">Atharvaveda</text>
+  
+  <!-- Key events arrows -->
+  <line x1="200" y1="212" x2="200" y2="260" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="260" y1="212" x2="260" y2="260" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="320" y1="212" x2="320" y2="260" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="380" y1="212" x2="380" y2="260" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+  
+  <text x="200" y="280" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#555">Composition</text>
+  <text x="260" y="280" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#555">Musical</text>
+  <text x="320" y="280" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#555">Ritual</text>
+  <text x="380" y="280" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#555">Later Texts</text>
+  
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L8,4 Z" fill="#555"/>
+    </marker>
+  </defs>
+</svg>

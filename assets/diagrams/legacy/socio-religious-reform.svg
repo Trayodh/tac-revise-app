@@ -1,0 +1,41 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#555"/>
+    </marker>
+    <style>
+      .timeline { stroke:#555; stroke-width:2; }
+      .movement { stroke:#333; stroke-width:1.5; }
+      .label { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#222; }
+    </style>
+  </defs>
+
+  <!-- Timeline -->
+  <line x1="50" y1="200" x2="550" y2="200" class="timeline" marker-end="url(#arrow)"/>
+
+  <!-- Movements above timeline -->
+  <circle cx="120" cy="140" r="30" fill="#ffcc80" class="movement"/>
+  <line x1="120" y1="170" x2="120" y2="200" stroke="#555" stroke-width="1.5"/>
+  <text x="120" y="115" text-anchor="middle" class="label">Protestant Reformation (1517)</text>
+
+  <circle cx="260" cy="120" r="30" fill="#a5d6a7" class="movement"/>
+  <line x1="260" y1="150" x2="260" y2="200" stroke="#555" stroke-width="1.5"/>
+  <text x="260" y="95" text-anchor="middle" class="label">Great Awakening (1730‑1800)</text>
+
+  <circle cx="400" cy="140" r="30" fill="#90caf9" class="movement"/>
+  <line x1="400" y1="170" x2="400" y2="200" stroke="#555" stroke-width="1.5"/>
+  <text x="400" y="115" text-anchor="middle" class="label">Brahmo Samaj (1828)</text>
+
+  <!-- Movements below timeline -->
+  <circle cx="180" cy="260" r="30" fill="#ffab91" class="movement"/>
+  <line x1="180" y1="230" x2="180" y2="200" stroke="#555" stroke-width="1.5"/>
+  <text x="180" y="295" text-anchor="middle" class="label">Islamic Reform (19th c.)</text>
+
+  <circle cx="340" cy="260" r="30" fill="#ce93d8" class="movement"/>
+  <line x1="340" y1="230" x2="340" y2="200" stroke="#555" stroke-width="1.5"/>
+  <text x="340" y="295" text-anchor="middle" class="label">Modernist Judaism (19th c.)</text>
+
+  <circle cx="500" cy="260" r="30" fill="#fff59d" class="movement"/>
+  <line x1="500" y1="230" x2="500" y2="200" stroke="#555" stroke-width="1.5"/>
+  <text x="500" y="295" text-anchor="middle" class="label">Liberation Theology (1960‑80)</text>
+</svg>

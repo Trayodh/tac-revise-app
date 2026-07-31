@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f9f9f9"/>
+  
+  <!-- Periodic Table Grid -->
+  <g id="periodic-table" transform="translate(20,20)">
+    <!-- s‑block (light blue) -->
+    <rect x="0" y="0" width="30" height="30" fill="#a0cfe8" stroke="#555"/>
+    <rect x="0" y="30" width="30" height="30" fill="#a0cfe8" stroke="#555"/>
+    <rect x="30" y="30" width="30" height="30" fill="#a0cfe8" stroke="#555"/>
+    
+    <!-- p‑block (light green) -->
+    <rect x="360" y="30" width="30" height="30" fill="#b8e0a0" stroke="#555"/>
+    <rect x="390" y="30" width="30" height="30" fill="#b8e0a0" stroke="#555"/>
+    <rect x="420" y="30" width="30" height="30" fill="#b8e0a0" stroke="#555"/>
+    <rect x="450" y="30" width="30" height="30" fill="#b8e0a0" stroke="#555"/>
+    <rect x="480" y="30" width="30" height="30" fill="#b8e0a0" stroke="#555"/>
+    <rect x="510" y="30" width="30" height="30" fill="#b8e0a0" stroke="#555"/>
+    
+    <!-- Element symbols -->
+    <text x="15" y="20" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">H</text>
+    <text x="15" y="50" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">Li</text>
+    <text x="45" y="50" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">Be</text>
+    <text x="375" y="50" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">B</text>
+    <text x="405" y="50" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">C</text>
+    <text x="435" y="50" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">N</text>
+    <text x="465" y="50" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">O</text>
+    <text x="495" y="50" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">F</text>
+    <text x="525" y="20" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">He</text>
+    <text x="525" y="50" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">Ne</text>
+    
+    <!-- Block Labels -->
+    <text x="15" y="-5" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#333">s‑block</text>
+    <text x="495" y="-5" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#333">p‑block</text>
+  </g>
+  
+  <!-- Covalent Bond Illustration -->
+  <g id="covalent-bond" transform="translate(0,0)">
+    <circle cx="420" cy="120" r="20" fill="#ffd699" stroke="#555"/>
+    <circle cx="480" cy="120" r="20" fill="#ffd699" stroke="#555"/>
+    <!-- double bond lines -->
+    <line x1="440" y1="115" x2="460" y2="115" stroke="#555" stroke-width="2"/>
+    <line x1="440" y1="125" x2="460" y2="125" stroke="#555" stroke-width="2"/>
+    <text x="450" y="100" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#000">Covalent Bond</text>
+  </g>
+  
+  <!-- Ionic Bond Illustration -->
+  <g id="ionic-bond" transform="translate(0,0)">
+    <circle cx="420" cy="220" r="20" fill="#ffb3b3" stroke="#555"/>
+    <text x="420" y="225" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">Na⁺</text>
+    <circle cx="480" cy="220" r="20" fill="#b3ffb3" stroke="#555"/>
+    <text x="480" y="225" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#000">Cl⁻</text>
+    <!-- ionic bond line (dashed) -->
+    <line x1="440" y1="220" x2="460" y2="220" stroke="#555" stroke-width="2" stroke-dasharray="4 2"/>
+    <text x="450" y="200" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#000">Ionic Bond</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="300" y="15" font-family="sans-serif" font-size="20" text-anchor="middle" fill="#222">Chemical Bonding &amp; Periodic Table</text>
+</svg>
