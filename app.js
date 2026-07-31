@@ -1214,15 +1214,13 @@ function renderTopicView(subjectId, chapterId, topicId) {
         <div class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
           ${topicId === 'all-equipment' ? '<div id="armed-forces-equipment-container"></div>' : (() => {
             const expandedHtml = (typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]) ? window.EXPANDED_NOTES_DATA[topic.id] : null;
-            let diagramHtml = window.DiagramEngine ? window.DiagramEngine.render(topic.id) : '';
-
             if (expandedHtml) {
               // Strip full HTML doc wrapper — extract only <body> inner content
               const bodyMatch = expandedHtml.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
               const bodyContent = bodyMatch ? bodyMatch[1] : expandedHtml;
-              return diagramHtml + `<div class="expanded-notes-content">${parseWikiLinks(bodyContent)}</div>`;
+              return `<div class="expanded-notes-content">${bodyContent}</div>`;
             }
-            return diagramHtml + parseWikiLinks(topic.notes || '');
+            return parseWikiLinks(topic.notes || '');
           })()}
           ${chapterDiagramHtml}
           ${(() => {

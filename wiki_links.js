@@ -198,9 +198,6 @@ function initializeGlossary() {
   }
   
   const extraTerms = [
-    // History
-    "Vedas", "Puranas", "Buddhism", "Jainism", "Mauryan", "Gupta", "Delhi Sultanate", "Mughal", "Harappa", "Indus Valley", "Ashoka", "Chandragupta", "Chola", "Chalukya", "Maratha", "Sikh", "British", "Revolt of 1857", "Indian National Congress", "Gandhi", "Bose",
-    
     // Polity & Institutions
     "Federalism", "Central Government", "State Government", "Constitution", "Parliament", 
     "Judiciary", "Seventh Schedule", "Preamble", "Fundamental Rights", "DPSP", "President", 
@@ -428,19 +425,9 @@ function parseWikiLinks(text) {
   // Remove leading whitespace for lines starting with HTML tags so marked doesn't treat them as code blocks
   text = text.replace(/^[ \t]+</gm, '<');
 
-  // 1. Intercept Mermaid blocks and convert to Custom Diagrams
+  // 1. Intercept Mermaid blocks
   let processed = text.replace(/```mermaid\r?\n([\s\S]*?)```/g, function(match, code) {
-    try {
-      if (typeof parseMermaid !== 'undefined') {
-        const data = parseMermaid(code);
-        return `<div class="custom-diagram" data-diagram='${JSON.stringify(data).replace(/'/g, "&#39;")}'></div>`;
-      } else {
-        return `<pre class="custom-diagram-error">Parser missing for: ${code}</pre>`;
-      }
-    } catch(e) {
-      console.error("Failed to parse diagram", e);
-      return `<pre class="custom-diagram-error">Failed to parse diagram.</pre>`;
-    }
+    return `<div class="mermaid" style="background: rgba(255,255,255,0.02); padding: 20px; border-radius: 8px; overflow-x: auto; text-align: center; margin: 15px 0; border: 1px solid rgba(255,255,255,0.05);">${code}</div>`;
   });
   
   // 2. Parse Markdown (if marked is available)
@@ -463,21 +450,13 @@ function parseWikiLinks(text) {
     return `<a class="wiki-link" onclick="triggerDoubtExplain('${cleanTopic}', this)">${label}</a>`;
   });
   
-  // 5. Trigger Custom Diagram rendering asynchronously
+  // 5. Trigger Mermaid rendering asynchronously
   setTimeout(() => {
-    if (typeof renderCustomDiagram !== 'undefined') {
-      document.querySelectorAll('.custom-diagram:not([data-rendered="true"])').forEach(el => {
-        try {
-          const dataStr = el.getAttribute('data-diagram');
-          if (dataStr) {
-            const data = JSON.parse(dataStr.replace(/&#39;/g, "'"));
-            el.innerHTML = renderCustomDiagram(data);
-            el.setAttribute('data-rendered', 'true');
-          }
-        } catch(e) {
-          console.error("Diagram render error:", e);
-        }
-      });
+    if (typeof mermaid !== 'undefined') {
+      try { 
+        // Force mermaid to re-scan for new .mermaid elements
+        mermaid.init(undefined, document.querySelectorAll('.mermaid:not([data-processed="true"])')); 
+      } catch(e) { console.error("Mermaid init error:", e); }
     }
   }, 100);
   
