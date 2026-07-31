@@ -1001,21 +1001,7 @@ EXPANDED_NOTES_DATA["indus-valley-civilization"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CIndus%20Valley.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Indus Valley">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Indus Valley</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CIndus%20Valley.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Indus Valley">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Indus Valley</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CIndus%20Valley.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Indus Valley">
+<img src="/assets/diagrams/History/Ancient/Indus%20Valley.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Indus Valley">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Indus Valley</i></p>
 </div>
 
@@ -1297,21 +1283,7 @@ EXPANDED_NOTES_DATA["vedic-age"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CVedic%20social%20heirarchy.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Vedic social heirarchy">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Vedic social heirarchy</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CVedic%20social%20heirarchy.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Vedic social heirarchy">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Vedic social heirarchy</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CVedic%20social%20heirarchy.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Vedic social heirarchy">
+<img src="/assets/diagrams/History/Ancient/Vedic%20social%20heirarchy.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Vedic social heirarchy">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Vedic social heirarchy</i></p>
 </div>
 
@@ -1850,21 +1822,7 @@ EXPANDED_NOTES_DATA["buddhism-jainism"] = `
 <!-- SOURCE: chunk_006.txt | TOPIC: Delhi Sultanate - Early Rulers and Khiljis -->
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CBuddhism.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Buddhism">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Buddhism</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CBuddhism.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Buddhism">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Buddhism</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CBuddhism.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Buddhism">
+<img src="/assets/diagrams/History/Ancient/Buddhism.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Buddhism">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Buddhism</i></p>
 </div>
 
@@ -1910,42 +1868,14 @@ EXPANDED_NOTES_DATA["mauryan-period"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CAshokan%20Edicts.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Ashokan Edicts">
+<img src="/assets/diagrams/History/Ancient/Ashokan%20Edicts.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Ashokan Edicts">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Ashokan Edicts</i></p>
 </div>
 
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CMauryan%20Empire.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mauryan Empire">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mauryan Empire</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CAshokan%20Edicts.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Ashokan Edicts">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Ashokan Edicts</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CMauryan%20Empire.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mauryan Empire">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mauryan Empire</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CAshokan%20Edicts.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Ashokan Edicts">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Ashokan Edicts</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CMauryan%20Empire.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mauryan Empire">
+<img src="/assets/diagrams/History/Ancient/Mauryan%20Empire.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mauryan Empire">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mauryan Empire</i></p>
 </div>
 
@@ -2135,21 +2065,7 @@ EXPANDED_NOTES_DATA["gupta-period"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CGupta%20Empire.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Gupta Empire">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Gupta Empire</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CGupta%20Empire.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Gupta Empire">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Gupta Empire</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CAncient%5CGupta%20Empire.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Gupta Empire">
+<img src="/assets/diagrams/History/Ancient/Gupta%20Empire.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Gupta Empire">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Gupta Empire</i></p>
 </div>
 
@@ -2505,21 +2421,7 @@ EXPANDED_NOTES_DATA["early-medieval-india"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CBattle%20formations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Battle formations">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Battle formations</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CBattle%20formations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Battle formations">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Battle formations</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CBattle%20formations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Battle formations">
+<img src="/assets/diagrams/History/Medieval/Battle%20formations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Battle formations">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Battle formations</i></p>
 </div>
 
@@ -2922,21 +2824,7 @@ EXPANDED_NOTES_DATA["delhi-sultanate"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CDelhi%20Sultanate.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Delhi Sultanate">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Delhi Sultanate</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CDelhi%20Sultanate.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Delhi Sultanate">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Delhi Sultanate</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CDelhi%20Sultanate.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Delhi Sultanate">
+<img src="/assets/diagrams/History/Medieval/Delhi%20Sultanate.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Delhi Sultanate">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Delhi Sultanate</i></p>
 </div>
 
@@ -3957,42 +3845,14 @@ EXPANDED_NOTES_DATA["mughal-empire"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CMansabdari%20system.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mansabdari system">
+<img src="/assets/diagrams/History/Medieval/Mansabdari%20system.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mansabdari system">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mansabdari system</i></p>
 </div>
 
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CMughal%20administration.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mughal administration">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mughal administration</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CMansabdari%20system.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mansabdari system">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mansabdari system</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CMughal%20administration.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mughal administration">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mughal administration</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CMansabdari%20system.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mansabdari system">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mansabdari system</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CMughal%20administration.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mughal administration">
+<img src="/assets/diagrams/History/Medieval/Mughal%20administration.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mughal administration">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mughal administration</i></p>
 </div>
 
@@ -4211,21 +4071,7 @@ EXPANDED_NOTES_DATA["marathas"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CMarathas.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Marathas">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Marathas</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CMarathas.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Marathas">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Marathas</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CMedieval%5CMarathas.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Marathas">
+<img src="/assets/diagrams/History/Medieval/Marathas.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Marathas">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Marathas</i></p>
 </div>
 
@@ -5028,42 +4874,14 @@ EXPANDED_NOTES_DATA["european-arrival"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CGovernor%20Generals%20of%20India.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Governor Generals of India">
+<img src="/assets/diagrams/History/Modern/Governor%20Generals%20of%20India.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Governor Generals of India">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Governor Generals of India</i></p>
 </div>
 
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CPolity-20260731T070614Z-1-001%5CPolity%5CGovernor.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Governor">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Governor</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CGovernor%20Generals%20of%20India.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Governor Generals of India">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Governor Generals of India</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CPolity-20260731T070614Z-1-001%5CPolity%5CGovernor.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Governor">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Governor</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CGovernor%20Generals%20of%20India.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Governor Generals of India">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Governor Generals of India</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CPolity-20260731T070614Z-1-001%5CPolity%5CGovernor.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Governor">
+<img src="/assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Governor.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Governor">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Governor</i></p>
 </div>
 
@@ -6272,21 +6090,7 @@ EXPANDED_NOTES_DATA["revolt-1857"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CRevolt%20of%201857.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Revolt of 1857">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Revolt of 1857</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CRevolt%20of%201857.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Revolt of 1857">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Revolt of 1857</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CRevolt%20of%201857.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Revolt of 1857">
+<img src="/assets/diagrams/History/Modern/Revolt%20of%201857.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Revolt of 1857">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Revolt of 1857</i></p>
 </div>
 
@@ -6707,42 +6511,14 @@ EXPANDED_NOTES_DATA["freedom-movement"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CGandhian%20Era.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Gandhian Era">
+<img src="/assets/diagrams/History/Modern/Gandhian%20Era.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Gandhian Era">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Gandhian Era</i></p>
 </div>
 
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CIndian%20National%20Congress.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Indian National Congress">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Indian National Congress</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CGandhian%20Era.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Gandhian Era">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Gandhian Era</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CIndian%20National%20Congress.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Indian National Congress">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Indian National Congress</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CGandhian%20Era.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Gandhian Era">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Gandhian Era</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CModern%5CIndian%20National%20Congress.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Indian National Congress">
+<img src="/assets/diagrams/History/Modern/Indian%20National%20Congress.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Indian National Congress">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Indian National Congress</i></p>
 </div>
 
@@ -7209,126 +6985,42 @@ EXPANDED_NOTES_DATA["revolutions"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CFrench%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="French Revolution">
+<img src="/assets/diagrams/History/World/French%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="French Revolution">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: French Revolution</i></p>
 </div>
 
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CIndustrial%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Industrial Revolution">
+<img src="/assets/diagrams/History/World/Industrial%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Industrial Revolution">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Industrial Revolution</i></p>
 </div>
 
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CLeague%20of%20Nations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="League of Nations">
+<img src="/assets/diagrams/History/World/League%20of%20Nations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="League of Nations">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: League of Nations</i></p>
 </div>
 
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CRussian%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Russian Revolution">
+<img src="/assets/diagrams/History/World/Russian%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Russian Revolution">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Russian Revolution</i></p>
 </div>
 
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CUnited%20Nations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="United Nations">
+<img src="/assets/diagrams/History/World/United%20Nations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="United Nations">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: United Nations</i></p>
 </div>
 
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CWold%20War%201%20prelude.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Wold War 1 prelude">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Wold War 1 prelude</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CFrench%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="French Revolution">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: French Revolution</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CIndustrial%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Industrial Revolution">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Industrial Revolution</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CLeague%20of%20Nations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="League of Nations">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: League of Nations</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CRussian%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Russian Revolution">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Russian Revolution</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CUnited%20Nations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="United Nations">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: United Nations</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CWold%20War%201%20prelude.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Wold War 1 prelude">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Wold War 1 prelude</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CFrench%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="French Revolution">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: French Revolution</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CIndustrial%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Industrial Revolution">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Industrial Revolution</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CLeague%20of%20Nations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="League of Nations">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: League of Nations</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CRussian%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Russian Revolution">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Russian Revolution</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CUnited%20Nations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="United Nations">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: United Nations</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CWold%20War%201%20prelude.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Wold War 1 prelude">
+<img src="/assets/diagrams/History/World/Wold%20War%201%20prelude.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Wold War 1 prelude">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Wold War 1 prelude</i></p>
 </div>
 
@@ -7667,21 +7359,7 @@ EXPANDED_NOTES_DATA["world-war-ii"] = `
 
 
 <div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CWorld%20War%202.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="World War 2">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: World War 2</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CWorld%20War%202.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="World War 2">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: World War 2</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets%5Cdiagrams%5CHistory%5CWorld%5CWorld%20War%202.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="World War 2">
+<img src="/assets/diagrams/History/World/World%20War%202.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="World War 2">
 <p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: World War 2</i></p>
 </div>
 
