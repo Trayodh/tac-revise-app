@@ -1,0 +1,2795 @@
+{
+  "biology": {
+    "Cell Biology & Genetics": {
+      "Cell Structure & Cell Division": [
+        {
+          "file": "biology_cell_biology_genetics_cell_structure_cell_division_plant_animal_cell.png",
+          "title": "Plant and Animal Cell Comparison Diagram",
+          "keywords": [
+            "plant cell",
+            "animal cell",
+            "organelles",
+            "cell structure",
+            "chloroplast",
+            "cell wall",
+            "nucleus",
+            "vacuole"
+          ],
+          "relevance_score": 100,
+          "topic_id": "cell-structure"
+        },
+        {
+          "file": "biology_cell_biology_genetics_cell_structure_cell_division_prokaryotic_eukaryotic_cells.png",
+          "title": "Prokaryotic vs Eukaryotic Cell Structure",
+          "keywords": [
+            "prokaryote",
+            "eukaryote",
+            "cell structure",
+            "organelles",
+            "nucleus",
+            "cytoplasm",
+            "cell biology"
+          ],
+          "relevance_score": 100,
+          "topic_id": "cell-structure"
+        },
+        {
+          "file": "biology_cell_biology_genetics_cell_structure_cell_division_mitosis_meiosis_comparison.png",
+          "title": "Mitosis and Meiosis Comparison",
+          "keywords": [
+            "cell division",
+            "mitosis",
+            "meiosis",
+            "chromosomes",
+            "diploid",
+            "haploid",
+            "genetics"
+          ],
+          "relevance_score": 100,
+          "topic_id": "cell-structure"
+        },
+        {
+          "file": "biology_cell_biology_genetics_cell_structure_cell_division_dna_and_rna.png",
+          "title": "Comparison of DNA and RNA Structure and Nucleobases",
+          "keywords": [
+            "DNA",
+            "RNA",
+            "nucleobases",
+            "double helix",
+            "genetics",
+            "nucleic acids",
+            "adenine",
+            "cytosine",
+            "guanine",
+            "thymine",
+            "uracil"
+          ],
+          "relevance_score": 98,
+          "topic_id": "cell-structure"
+        }
+      ]
+    },
+    "Human Physiology": {
+      "Vital Human Systems & Organs": [
+        {
+          "file": "biology_human_physiology_vital_human_systems_organs_human_blood_circulation.png",
+          "title": "Human Blood Circulation System",
+          "keywords": [
+            "blood circulation",
+            "heart",
+            "lungs",
+            "oxygenated blood",
+            "deoxygenated blood",
+            "cardiovascular system"
+          ],
+          "relevance_score": 100,
+          "topic_id": "human-systems"
+        },
+        {
+          "file": "biology_human_physiology_vital_human_systems_organs_central_nervous_system_neuron.png",
+          "title": "Central and Peripheral Nervous System with Neuron Structure",
+          "keywords": [
+            "nervous system",
+            "brain",
+            "spinal cord",
+            "neuron",
+            "axon",
+            "dendrite",
+            "myelin sheath",
+            "synapse",
+            "human physiology"
+          ],
+          "relevance_score": 100,
+          "topic_id": "human-systems"
+        },
+        {
+          "file": "biology_human_physiology_vital_human_systems_organs_human_digestive_system.png",
+          "title": "Human Digestive System",
+          "keywords": [
+            "digestive system",
+            "stomach",
+            "intestine",
+            "liver",
+            "human physiology",
+            "organs"
+          ],
+          "relevance_score": 100,
+          "topic_id": "human-systems"
+        },
+        {
+          "file": "biology_human_physiology_vital_human_systems_organs_endocrine_system_glands.png",
+          "title": "The Endocrine System Diagram",
+          "keywords": [
+            "endocrine system",
+            "hormones",
+            "glands",
+            "hypothalamus",
+            "pituitary gland",
+            "thyroid",
+            "adrenal glands",
+            "human anatomy"
+          ],
+          "relevance_score": 100,
+          "topic_id": "human-systems"
+        }
+      ]
+    },
+    "Plant Physiology & Reproduction": {
+      "Plant Reproduction & Hormones": [
+        {
+          "file": "biology_plant_physiology_reproduction_plant_reproduction_hormones_parts_of_flower.png",
+          "title": "Parts of a Flower Anatomy",
+          "keywords": [
+            "flower anatomy",
+            "pistil",
+            "stamen",
+            "stigma",
+            "style",
+            "ovary",
+            "anther",
+            "filament",
+            "sepal",
+            "petal",
+            "plant reproduction"
+          ],
+          "relevance_score": 100,
+          "topic_id": "plant-reproduction"
+        },
+        {
+          "file": "biology_plant_physiology_reproduction_plant_reproduction_hormones_seed_germination_growth.png",
+          "title": "Seed Germination and Plant Growth Stages",
+          "keywords": [
+            "seed germination",
+            "embryo",
+            "seed coat",
+            "cotyledon",
+            "foliage leaves",
+            "shoots",
+            "roots",
+            "plant physiology"
+          ],
+          "relevance_score": 98,
+          "topic_id": "plant-reproduction"
+        },
+        {
+          "file": "biology_plant_physiology_reproduction_plant_reproduction_hormones_leaf_anatomy_structure.png",
+          "title": "Structure of a Leaf and Leaf Anatomy",
+          "keywords": [
+            "leaf structure",
+            "leaf anatomy",
+            "palisade mesophyll",
+            "stomata",
+            "epidermis",
+            "plant physiology",
+            "veins",
+            "cuticle"
+          ],
+          "relevance_score": 95,
+          "topic_id": "plant-reproduction"
+        }
+      ]
+    },
+    "Ecology & Ecosystems": {
+      "Ecology Basics & Pyramids": [
+        {
+          "file": "biology_ecology_ecosystems_ecology_basics_pyramids_food_chain_ecosystem.png",
+          "title": "Food Chain Ecosystem Diagram",
+          "keywords": [
+            "food chain",
+            "producers",
+            "consumers",
+            "ecology",
+            "trophic levels"
+          ],
+          "relevance_score": 100,
+          "topic_id": "biology-ecology-basics"
+        },
+        {
+          "file": "biology_ecology_ecosystems_ecology_basics_pyramids_ecological_food_pyramid.png",
+          "title": "Ecological Food Pyramid and Energy Transfer",
+          "keywords": [
+            "food pyramid",
+            "ecology",
+            "energy transfer",
+            "trophic levels",
+            "biomass",
+            "producers",
+            "consumers"
+          ],
+          "relevance_score": 100,
+          "topic_id": "biology-ecology-basics"
+        },
+        {
+          "file": "biology_ecology_ecosystems_ecology_basics_pyramids_food_web_ecosystem.png",
+          "title": "Food Web Diagram",
+          "keywords": [
+            "food web",
+            "ecology",
+            "ecosystem",
+            "producers",
+            "consumers",
+            "trophic levels"
+          ],
+          "relevance_score": 100,
+          "topic_id": "biology-ecology-basics"
+        },
+        {
+          "file": "biology_ecology_ecosystems_ecology_basics_pyramids_nitrogen_cycle.png",
+          "title": "Nitrogen Cycle Diagram",
+          "keywords": [
+            "nitrogen cycle",
+            "nitrogen fixation",
+            "nitrification",
+            "denitrification",
+            "ammonification",
+            "ecology"
+          ],
+          "relevance_score": 100,
+          "topic_id": "biology-ecology-basics"
+        }
+      ]
+    },
+    "Plant & Animal Kingdoms": {
+      "Plant Kingdom Classification": [
+        {
+          "file": "biology_plant_animal_kingdoms_plant_kingdom_classification_plant_root_types.png",
+          "title": "Types of Plant Roots: Tap Root and Fibrous Root Systems",
+          "keywords": [
+            "tap root",
+            "fibrous root",
+            "dicot root",
+            "monocot root",
+            "secondary root",
+            "adventitious root"
+          ],
+          "relevance_score": 95,
+          "topic_id": "plant-kingdom"
+        },
+        {
+          "file": "biology_plant_animal_kingdoms_plant_kingdom_classification_stem_modifications.png",
+          "title": "Stem Modifications Diagram",
+          "keywords": [
+            "stem modifications",
+            "underground stem",
+            "aerial stem",
+            "sub-aerial stem",
+            "rhizome",
+            "corm",
+            "bulb",
+            "tuber",
+            "phylloclade",
+            "runner",
+            "plant morphology"
+          ],
+          "relevance_score": 95,
+          "topic_id": "plant-kingdom"
+        },
+        {
+          "file": "biology_plant_animal_kingdoms_plant_kingdom_classification_xylem_phloem_transport.png",
+          "title": "Xylem and Phloem Transport System in Plants",
+          "keywords": [
+            "xylem",
+            "phloem",
+            "plant transport",
+            "vascular tissue",
+            "water conduction",
+            "food transport"
+          ],
+          "relevance_score": 95,
+          "topic_id": "plant-kingdom"
+        }
+      ]
+    }
+  },
+  "chemistry": {
+    "Acids, Bases & Salts": {
+      "Acids, Bases & pH Indicators": [
+        {
+          "file": "chemistry_acids_bases_salts_acids_bases_ph_indicators_ph_scale_substances.png",
+          "title": "pH Scale with Common Substances",
+          "keywords": [
+            "pH scale",
+            "acidic",
+            "alkaline",
+            "neutral",
+            "indicators",
+            "chemistry"
+          ],
+          "relevance_score": 100,
+          "topic_id": "acids-bases"
+        }
+      ]
+    },
+    "Chemical Bonding": {
+      "Chemical Bonding & Periodic Table": [
+        {
+          "file": "chemistry_chemical_bonding_chemical_bonding_periodic_table_types_of_bonds.png",
+          "title": "Types of Chemical Bonds: Covalent, Ionic, and Metallic",
+          "keywords": [
+            "chemical bonding",
+            "covalent bond",
+            "ionic bond",
+            "metallic bond",
+            "water",
+            "ammonia",
+            "sodium chloride"
+          ],
+          "relevance_score": 100,
+          "topic_id": "syl-numerical"
+        },
+        {
+          "file": "chemistry_chemical_bonding_chemical_bonding_periodic_table_periodic_table.png",
+          "title": "Periodic Table of the Elements",
+          "keywords": [
+            "periodic table",
+            "elements",
+            "chemistry",
+            "atomic number",
+            "atomic mass",
+            "chemical symbols"
+          ],
+          "relevance_score": 100,
+          "topic_id": "syl-numerical"
+        },
+        {
+          "file": "chemistry_chemical_bonding_chemical_bonding_periodic_table_periodic_table_trends.png",
+          "title": "Periodic Trends in Properties of Elements",
+          "keywords": [
+            "periodic table",
+            "periodic trends",
+            "atomic radius",
+            "ionization energy",
+            "electron affinity",
+            "metallic character",
+            "nonmetallic character"
+          ],
+          "relevance_score": 100,
+          "topic_id": "syl-numerical"
+        },
+        {
+          "file": "chemistry_chemical_bonding_chemical_bonding_periodic_table_electronic_configuration_valency.png",
+          "title": "Electronic Configuration and Valency of Elements",
+          "keywords": [
+            "atomic structure",
+            "electronic configuration",
+            "valency",
+            "elements",
+            "periodic table"
+          ],
+          "relevance_score": 95,
+          "topic_id": "syl-numerical"
+        }
+      ]
+    },
+    "Everyday & Environmental Chemistry": {
+      "Everyday Chemistry, Fertilisers & Fuels": [
+        {
+          "file": "chemistry_everyday_environmental_chemistry_everyday_chemistry_fertilisers_fuels_haber_process_ammonia.png",
+          "title": "The Haber Process for Ammonia Synthesis",
+          "keywords": [
+            "Haber process",
+            "ammonia synthesis",
+            "iron catalyst",
+            "nitrogen",
+            "hydrogen",
+            "condenser",
+            "industrial chemistry",
+            "fertilisers"
+          ],
+          "relevance_score": 100,
+          "topic_id": "chemistry-everyday-fertilisers"
+        },
+        {
+          "file": "chemistry_everyday_environmental_chemistry_everyday_chemistry_fertilisers_fuels_contact_process_sulphuric_acid.png",
+          "title": "The Contact Process for Sulphuric Acid Manufacture",
+          "keywords": [
+            "contact process",
+            "sulphuric acid",
+            "industrial chemistry",
+            "vanadium pentoxide",
+            "oleum",
+            "manufacturing process"
+          ],
+          "relevance_score": 95,
+          "topic_id": "chemistry-everyday-fertilisers"
+        }
+      ],
+      "Environmental Chemistry & Pollution": [
+        {
+          "file": "chemistry_everyday_environmental_chemistry_environmental_chemistry_pollution_greenhouse_effect_comparison.png",
+          "title": "Natural vs. Human-Enhanced Greenhouse Effect Comparison",
+          "keywords": [
+            "greenhouse effect",
+            "global warming",
+            "earth atmosphere",
+            "environmental chemistry",
+            "solar radiation",
+            "greenhouse gases",
+            "carbon dioxide",
+            "troposphere"
+          ],
+          "relevance_score": 98,
+          "topic_id": "environmental-chemistry"
+        }
+      ]
+    },
+    "Carbon Compounds & Numericals": {
+      "Mole Concept & Concentration Terms": [
+        {
+          "file": "chemistry_carbon_compounds_numericals_mole_concept_concentration_terms_mole_concept_formulas.png",
+          "title": "Mole Concept Formulas",
+          "keywords": [
+            "mole concept",
+            "molar mass",
+            "avogadro number",
+            "concentration",
+            "chemistry formulas"
+          ],
+          "relevance_score": 100,
+          "topic_id": "chemistry-numericals"
+        }
+      ]
+    }
+  },
+  "physics": {
+    "Modern Physics & Units": {
+      "Nuclear Physics & Radioactivity": [
+        {
+          "file": "physics_modern_physics_units_nuclear_physics_radioactivity_fission_and_fusion.png",
+          "title": "Nuclear Fission and Fusion Reactions",
+          "keywords": [
+            "nuclear fission",
+            "nuclear fusion",
+            "uranium",
+            "deuterium",
+            "tritium",
+            "nuclear reaction",
+            "chain reaction"
+          ],
+          "relevance_score": 100,
+          "topic_id": "physics-nuclear-basics"
+        },
+        {
+          "file": "physics_modern_physics_units_nuclear_physics_radioactivity_bohrs_atomic_model.png",
+          "title": "Bohr's Model of the Atom",
+          "keywords": [
+            "bohr model",
+            "atomic structure",
+            "energy levels",
+            "orbits",
+            "nucleus"
+          ],
+          "relevance_score": 95,
+          "topic_id": "physics-nuclear-basics"
+        },
+        {
+          "file": "physics_modern_physics_units_nuclear_physics_radioactivity_evolution_of_atomic_models.png",
+          "title": "Evolution of Atomic Models",
+          "keywords": [
+            "atomic models",
+            "Dalton",
+            "Thomson",
+            "Rutherford",
+            "Bohr",
+            "Schrodinger",
+            "quantum model",
+            "nuclear physics"
+          ],
+          "relevance_score": 95,
+          "topic_id": "physics-nuclear-basics"
+        },
+        {
+          "file": "physics_modern_physics_units_nuclear_physics_radioactivity_structure_of_atom.png",
+          "title": "Structure of the Atom: Nucleus and Orbitals",
+          "keywords": [
+            "atom",
+            "nucleus",
+            "proton",
+            "neutron",
+            "electron",
+            "orbital",
+            "atomic structure"
+          ],
+          "relevance_score": 95,
+          "topic_id": "physics-nuclear-basics"
+        }
+      ]
+    },
+    "Electricity & Magnetism": {
+      "Electricity, Circuits & Magnetism": [
+        {
+          "file": "physics_electricity_magnetism_electricity_circuits_magnetism_dc_electric_motor.png",
+          "title": "Principles of a Simple DC Electric Motor",
+          "keywords": [
+            "dc motor",
+            "electric motor",
+            "armature",
+            "magnets",
+            "commutator",
+            "brushes",
+            "electromagnetism"
+          ],
+          "relevance_score": 100,
+          "topic_id": "physics-electricity-magnetism"
+        },
+        {
+          "file": "physics_electricity_magnetism_electricity_circuits_magnetism_electrical_distribution_system.png",
+          "title": "Professional Electrical Distribution System Schematic",
+          "keywords": [
+            "electrical system",
+            "live wire",
+            "neutral wire",
+            "earth wire",
+            "main fuse",
+            "electricity meter",
+            "main switch",
+            "parallel connection"
+          ],
+          "relevance_score": 100,
+          "topic_id": "physics-electricity-magnetism"
+        },
+        {
+          "file": "physics_electricity_magnetism_electricity_circuits_magnetism_series_parallel_circuits.png",
+          "title": "Series vs Parallel Electrical Circuits Comparison",
+          "keywords": [
+            "series circuit",
+            "parallel circuit",
+            "voltage",
+            "current",
+            "electrical resistance",
+            "electricity"
+          ],
+          "relevance_score": 100,
+          "topic_id": "physics-electricity-magnetism"
+        },
+        {
+          "file": "physics_electricity_magnetism_electricity_circuits_magnetism_transformer_circuit_diagram.png",
+          "title": "Fundamentals of Electromagnetic Induction and Voltage Transformation: Transformer",
+          "keywords": [
+            "transformer",
+            "electromagnetic induction",
+            "primary circuit",
+            "secondary circuit",
+            "magnetic flux",
+            "voltage",
+            "current",
+            "physics",
+            "electricity",
+            "magnetism"
+          ],
+          "relevance_score": 100,
+          "topic_id": "physics-electricity-magnetism"
+        }
+      ]
+    },
+    "Heat & Thermodynamics": {
+      "Thermodynamics & Heat Transfer": [
+        {
+          "file": "physics_heat_thermodynamics_thermodynamics_heat_transfer_methods_of_heat_transfer.png",
+          "title": "Methods of Heat Transfer: Conduction, Convection, and Radiation",
+          "keywords": [
+            "heat transfer",
+            "conduction",
+            "convection",
+            "radiation",
+            "thermodynamics",
+            "physics"
+          ],
+          "relevance_score": 100,
+          "topic_id": "physics-heat"
+        },
+        {
+          "file": "physics_heat_thermodynamics_thermodynamics_heat_transfer_thermal_expansion_kinetic.png",
+          "title": "The Kinetic Theory of Thermal Expansion in Solids, Liquids, and Gases",
+          "keywords": [
+            "thermal expansion",
+            "kinetic theory",
+            "heat",
+            "solids",
+            "liquids",
+            "gases",
+            "thermodynamics",
+            "particle movement"
+          ],
+          "relevance_score": 98,
+          "topic_id": "physics-heat"
+        }
+      ]
+    },
+    "Optics & Light": {
+      "Reflection, Refraction & Lenses": [
+        {
+          "file": "physics_optics_light_reflection_refraction_lenses_concave_mirror_object_inside_focus.png",
+          "title": "Image Formation by a Concave Mirror with Object Inside Focal Point",
+          "keywords": [
+            "concave mirror",
+            "focal point",
+            "virtual image",
+            "erect image",
+            "optics",
+            "reflection"
+          ],
+          "relevance_score": 100,
+          "topic_id": "reflection-refraction"
+        },
+        {
+          "file": "physics_optics_light_reflection_refraction_lenses_convex_concave_lenses.png",
+          "title": "Convex and Concave Lenses Refraction Diagram",
+          "keywords": [
+            "convex lens",
+            "concave lens",
+            "focal length",
+            "focal point",
+            "refraction",
+            "light rays",
+            "optical axis"
+          ],
+          "relevance_score": 100,
+          "topic_id": "reflection-refraction"
+        },
+        {
+          "file": "physics_optics_light_reflection_refraction_lenses_convex_mirror_ray_diagram.png",
+          "title": "Ray Diagram for a Convex Mirror",
+          "keywords": [
+            "convex mirror",
+            "ray diagram",
+            "reflection",
+            "virtual image",
+            "optics",
+            "physics",
+            "principal axis",
+            "focal point"
+          ],
+          "relevance_score": 100,
+          "topic_id": "reflection-refraction"
+        },
+        {
+          "file": "physics_optics_light_reflection_refraction_lenses_hypermetropia_eye_correction.png",
+          "title": "Understanding Hypermetropia and Its Correction",
+          "keywords": [
+            "hypermetropia",
+            "long sightedness",
+            "convex lens",
+            "eye defect",
+            "refraction",
+            "physics"
+          ],
+          "relevance_score": 100,
+          "topic_id": "reflection-refraction"
+        }
+      ]
+    },
+    "Energy & Gravitation": {
+      "Work, Power, Energy & Gravitation": [
+        {
+          "file": "physics_energy_gravitation_work_power_energy_gravitation_classes_of_levers.png",
+          "title": "The Three Classes of Levers in Biomechanics and Mechanics",
+          "keywords": [
+            "levers",
+            "class 1 lever",
+            "class 2 lever",
+            "class 3 lever",
+            "fulcrum",
+            "load",
+            "force",
+            "mechanics",
+            "biomechanics"
+          ],
+          "relevance_score": 95,
+          "topic_id": "syl-exercises"
+        },
+        {
+          "file": "physics_energy_gravitation_work_power_energy_gravitation_pulley_system.png",
+          "title": "Pulley Systems and Mechanical Advantage",
+          "keywords": [
+            "pulley",
+            "mechanics",
+            "work",
+            "energy",
+            "force",
+            "machine",
+            "mechanical advantage"
+          ],
+          "relevance_score": 95,
+          "topic_id": "syl-exercises"
+        },
+        {
+          "file": "physics_energy_gravitation_work_power_energy_gravitation_types_of_pulleys.png",
+          "title": "Types of Pulley Systems in Mechanics",
+          "keywords": [
+            "pulley",
+            "fixed pulley",
+            "movable pulley",
+            "compound pulley",
+            "block and tackle",
+            "mechanics",
+            "work and power",
+            "simple machines"
+          ],
+          "relevance_score": 95,
+          "topic_id": "syl-exercises"
+        },
+        {
+          "file": "physics_energy_gravitation_work_power_energy_gravitation_wheel_and_axle.png",
+          "title": "Wheel and Axle Simple Machine",
+          "keywords": [
+            "wheel and axle",
+            "simple machine",
+            "effort",
+            "resistance",
+            "mechanics",
+            "work"
+          ],
+          "relevance_score": 95,
+          "topic_id": "syl-exercises"
+        }
+      ]
+    },
+    "Mechanics & Motion": {
+      "Newton's Laws of Motion": [
+        {
+          "file": "physics_mechanics_motion_newton_s_laws_of_motion_free_body_diagram.png",
+          "title": "Free Body Diagram of Forces on a Mass",
+          "keywords": [
+            "free body diagram",
+            "normal force",
+            "friction",
+            "weight",
+            "newtons laws",
+            "mechanics"
+          ],
+          "relevance_score": 100,
+          "topic_id": "newtons-laws"
+        },
+        {
+          "file": "physics_mechanics_motion_newton_s_laws_of_motion_parallelogram_law_forces.png",
+          "title": "Parallelogram Law of Forces",
+          "keywords": [
+            "parallelogram law",
+            "forces",
+            "resultant force",
+            "mechanics",
+            "vectors"
+          ],
+          "relevance_score": 95,
+          "topic_id": "newtons-laws"
+        },
+        {
+          "file": "physics_mechanics_motion_newton_s_laws_of_motion_inclined_plane_forces.png",
+          "title": "Vector Decomposition on an Inclined Plane",
+          "keywords": [
+            "inclined plane",
+            "friction",
+            "normal force",
+            "gravitational force",
+            "newtons laws",
+            "mechanics"
+          ],
+          "relevance_score": 95,
+          "topic_id": "newtons-laws"
+        },
+        {
+          "file": "physics_mechanics_motion_newton_s_laws_of_motion_projectile_motion_diagram.png",
+          "title": "Projectile Motion and Trajectories",
+          "keywords": [
+            "projectile",
+            "motion",
+            "trajectory",
+            "velocity",
+            "gravity",
+            "mechanics",
+            "physics"
+          ],
+          "relevance_score": 95,
+          "topic_id": "newtons-laws"
+        }
+      ]
+    }
+  },
+  "geography": {
+    "Indian Geography": {
+      "National Parks of India (Map Guide)": [
+        {
+          "file": "geography_indian_geography_national_parks_of_india_map_guide_national_parks_india_map.png",
+          "title": "List and Distribution of National Parks in India",
+          "keywords": [
+            "National Parks",
+            "India Geography",
+            "Wildlife Sanctuaries",
+            "Protected Areas",
+            "Biodiversity"
+          ],
+          "relevance_score": 100,
+          "topic_id": "india-national-parks"
+        },
+        {
+          "file": "geography_indian_geography_national_parks_of_india_map_guide_national_parks_india_map.png",
+          "title": "Map of National Parks of India",
+          "keywords": [
+            "national parks",
+            "india map",
+            "wildlife sanctuaries",
+            "biodiversity",
+            "geography",
+            "conservation"
+          ],
+          "relevance_score": 100,
+          "topic_id": "india-national-parks"
+        },
+        {
+          "file": "geography_indian_geography_national_parks_of_india_map_guide_tiger_reserves_map.png",
+          "title": "Map of Indian Tiger Reserves",
+          "keywords": [
+            "tiger reserves",
+            "national parks",
+            "wildlife sanctuaries",
+            "india map",
+            "geography",
+            "conservation"
+          ],
+          "relevance_score": 98,
+          "topic_id": "india-national-parks"
+        },
+        {
+          "file": "geography_indian_geography_national_parks_of_india_map_guide_tiger_reserves_india.png",
+          "title": "Tiger Reserves of India Map Guide",
+          "keywords": [
+            "tiger reserves",
+            "national parks",
+            "wildlife sanctuaries",
+            "india map",
+            "ecology",
+            "biodiversity"
+          ],
+          "relevance_score": 95,
+          "topic_id": "india-national-parks"
+        },
+        {
+          "file": "geography_indian_geography_national_parks_of_india_map_guide_wildlife_sanctuaries_india.png",
+          "title": "Wildlife Sanctuaries of India Map Guide",
+          "keywords": [
+            "wildlife sanctuaries",
+            "india map",
+            "national parks",
+            "biodiversity",
+            "geography"
+          ],
+          "relevance_score": 95,
+          "topic_id": "india-national-parks"
+        },
+        {
+          "file": "geography_indian_geography_national_parks_of_india_map_guide_indian_biosphere_reserves.png",
+          "title": "Indian Biosphere Reserves Map",
+          "keywords": [
+            "Biosphere Reserves",
+            "India Map",
+            "Conservation",
+            "National Parks",
+            "Wildlife Sanctuaries",
+            "Geography"
+          ],
+          "relevance_score": 95,
+          "topic_id": "india-national-parks"
+        }
+      ],
+      "Forests, Trees & Wetlands of India": [
+        {
+          "file": "geography_indian_geography_forests_trees_wetlands_of_india_ramsar_sites_india_map.png",
+          "title": "Ramsar Sites of India Map",
+          "keywords": [
+            "Ramsar sites",
+            "wetlands",
+            "India map",
+            "Wular Lake",
+            "Chilika Lake",
+            "Loktak Lake",
+            "environment"
+          ],
+          "relevance_score": 100,
+          "topic_id": "india-forests-wetlands"
+        },
+        {
+          "file": "geography_indian_geography_forests_trees_wetlands_of_india_ramsar_sites_india.png",
+          "title": "Ramsar Sites of India Map",
+          "keywords": [
+            "ramsar sites",
+            "wetlands",
+            "india map",
+            "biodiversity",
+            "environment",
+            "conservation"
+          ],
+          "relevance_score": 100,
+          "topic_id": "india-forests-wetlands"
+        }
+      ],
+      "Indian Geography (Rivers, Passes & Soils)": [
+        {
+          "file": "geography_indian_geography_indian_geography_rivers_passes_soils_indian_soil_types.png",
+          "title": "Indian Soil Types and Distribution Map",
+          "keywords": [
+            "Indian soils",
+            "Alluvial soil",
+            "Black soil",
+            "Red soil",
+            "Laterite soil",
+            "Arid soil",
+            "Soil distribution map",
+            "Indian geography"
+          ],
+          "relevance_score": 100,
+          "topic_id": "syl-geog"
+        },
+        {
+          "file": "geography_indian_geography_indian_geography_rivers_passes_soils_indian_mountain_passes.png",
+          "title": "Important Mountain Passes of India",
+          "keywords": [
+            "passes",
+            "mountain passes",
+            "geography",
+            "india map",
+            "himalayas",
+            "zoji la",
+            "shipki la",
+            "nathu la",
+            "palghat gap"
+          ],
+          "relevance_score": 100,
+          "topic_id": "syl-geog"
+        },
+        {
+          "file": "geography_indian_geography_indian_geography_rivers_passes_soils_india_physical_map.png",
+          "title": "Physical Map of India showing Rivers, Mountains and Relief",
+          "keywords": [
+            "india physical map",
+            "rivers of india",
+            "mountain ranges",
+            "deccan plateau",
+            "himalayas",
+            "geography"
+          ],
+          "relevance_score": 100,
+          "topic_id": "syl-geog"
+        },
+        {
+          "file": "geography_indian_geography_indian_geography_rivers_passes_soils_rivers_of_india.png",
+          "title": "India Rivers Map",
+          "keywords": [
+            "rivers",
+            "drainage system",
+            "Himalayan rivers",
+            "Peninsular rivers",
+            "river basins",
+            "geography of India"
+          ],
+          "relevance_score": 100,
+          "topic_id": "syl-geog"
+        },
+        {
+          "file": "geography_indian_geography_indian_geography_rivers_passes_soils_indian_monsoon_mechanism.png",
+          "title": "Indian Monsoon Mechanism",
+          "keywords": [
+            "monsoon",
+            "summer monsoon",
+            "winter monsoon",
+            "climatology",
+            "indian geography",
+            "pressure belts",
+            "wind reversal"
+          ],
+          "relevance_score": 98,
+          "topic_id": "syl-geog"
+        },
+        {
+          "file": "geography_indian_geography_indian_geography_rivers_passes_soils_indian_rainfall_map.png",
+          "title": "India Average Annual Rainfall Map",
+          "keywords": [
+            "rainfall",
+            "monsoon",
+            "india map",
+            "geography",
+            "climate",
+            "southwest monsoon",
+            "northeast monsoon"
+          ],
+          "relevance_score": 98,
+          "topic_id": "syl-geog"
+        }
+      ],
+      "Borders, Capitals & Mapping": [
+        {
+          "file": "geography_indian_geography_borders_capitals_mapping_india_political_map.png",
+          "title": "India Political Map with States, UTs, and Capitals",
+          "keywords": [
+            "India",
+            "political map",
+            "states",
+            "union territories",
+            "capitals",
+            "borders",
+            "geography"
+          ],
+          "relevance_score": 100,
+          "topic_id": "mapping-borders-capitals"
+        },
+        {
+          "file": "geography_indian_geography_borders_capitals_mapping_indian_plateaus_map.png",
+          "title": "Indian Plateaus Map",
+          "keywords": [
+            "plateaus of india",
+            "deccan plateau",
+            "chota nagpur plateau",
+            "malwa plateau",
+            "ladakh plateau",
+            "geography mapping",
+            "peninsular india"
+          ],
+          "relevance_score": 98,
+          "topic_id": "mapping-borders-capitals"
+        },
+        {
+          "file": "geography_indian_geography_borders_capitals_mapping_world_continents_oceans.png",
+          "title": "World Map: Continents and Oceans",
+          "keywords": [
+            "world map",
+            "continents",
+            "oceans",
+            "geography",
+            "world geography"
+          ],
+          "relevance_score": 95,
+          "topic_id": "mapping-borders-capitals"
+        },
+        {
+          "file": "geography_indian_geography_borders_capitals_mapping_indian_mountains_map.png",
+          "title": "India Mountains Map: Major Mountain Ranges & Peaks",
+          "keywords": [
+            "India",
+            "Mountains",
+            "Himalayas",
+            "Western Ghats",
+            "Eastern Ghats",
+            "Geography",
+            "Map"
+          ],
+          "relevance_score": 95,
+          "topic_id": "mapping-borders-capitals"
+        }
+      ],
+      "Transport Routes: Highways & Waterways": [
+        {
+          "file": "geography_indian_geography_transport_routes_highways_waterways_indian_airports_map.png",
+          "title": "Map of Major Airports across India",
+          "keywords": [
+            "airports",
+            "aviation",
+            "transport",
+            "india map",
+            "international airports",
+            "domestic airports"
+          ],
+          "relevance_score": 100,
+          "topic_id": "india-transport-routes"
+        },
+        {
+          "file": "geography_indian_geography_transport_routes_highways_waterways_indian_ports_map.png",
+          "title": "Major Ports, Intermediate Ports & Minor Ports of India",
+          "keywords": [
+            "Indian Ports",
+            "Major Ports",
+            "Waterways",
+            "Geography",
+            "Transport Routes"
+          ],
+          "relevance_score": 100,
+          "topic_id": "india-transport-routes"
+        }
+      ],
+      "Mineral Resources & Types of Farming": [
+        {
+          "file": "geography_indian_geography_mineral_resources_types_of_farming_indian_crops_map.png",
+          "title": "Indian Crops Map and Growing Regions",
+          "keywords": [
+            "Indian crops",
+            "growing regions",
+            "agriculture",
+            "farming",
+            "geography",
+            "Kharif",
+            "Rabi",
+            "Zaid"
+          ],
+          "relevance_score": 100,
+          "topic_id": "india-resources-farming"
+        },
+        {
+          "file": "geography_indian_geography_mineral_resources_types_of_farming_indian_mineral_resources.png",
+          "title": "India Mineral Resources Distribution Map",
+          "keywords": [
+            "india",
+            "mineral distribution",
+            "energy minerals",
+            "metallic minerals",
+            "non-metallic minerals",
+            "industrial minerals",
+            "geography"
+          ],
+          "relevance_score": 100,
+          "topic_id": "india-resources-farming"
+        }
+      ]
+    },
+    "Physical & World Geography": {
+      "Earth Structure & Atmosphere": [
+        {
+          "file": "geography_physical_world_geography_earth_structure_atmosphere_atmospheric_layers_diagram.png",
+          "title": "Layers of the Atmosphere",
+          "keywords": [
+            "atmosphere",
+            "troposphere",
+            "stratosphere",
+            "mesosphere",
+            "thermosphere",
+            "exosphere",
+            "earth structure"
+          ],
+          "relevance_score": 100,
+          "topic_id": "earth-atmosphere"
+        },
+        {
+          "file": "geography_physical_world_geography_earth_structure_atmosphere_pressure_belts_earth.png",
+          "title": "Global Pressure Belts and Atmospheric Circulation",
+          "keywords": [
+            "pressure belts",
+            "atmosphere",
+            "climatology",
+            "earth structure",
+            "global winds",
+            "ITCZ"
+          ],
+          "relevance_score": 100,
+          "topic_id": "earth-atmosphere"
+        },
+        {
+          "file": "geography_physical_world_geography_earth_structure_atmosphere_internal_structure_earth.png",
+          "title": "Earth's Internal Models: Chemical Composition and Mechanical Behavior",
+          "keywords": [
+            "earth interior",
+            "crust",
+            "mantle",
+            "core",
+            "lithosphere",
+            "asthenosphere",
+            "discontinuities",
+            "geosphere"
+          ],
+          "relevance_score": 100,
+          "topic_id": "earth-atmosphere"
+        },
+        {
+          "file": "geography_physical_world_geography_earth_structure_atmosphere_ozone_layer_depletion.png",
+          "title": "Atmospheric Ozone Layer: Dynamics and Depletion",
+          "keywords": [
+            "ozone layer",
+            "stratosphere",
+            "troposphere",
+            "UV radiation",
+            "CFCs",
+            "atmosphere"
+          ],
+          "relevance_score": 98,
+          "topic_id": "earth-atmosphere"
+        },
+        {
+          "file": "geography_physical_world_geography_earth_structure_atmosphere_anticyclone_pressure_system.png",
+          "title": "Anticyclone Structure, Wind Patterns and Types",
+          "keywords": [
+            "anticyclone",
+            "high pressure",
+            "sinking air",
+            "surface divergence",
+            "northern hemisphere",
+            "southern hemisphere",
+            "climatology"
+          ],
+          "relevance_score": 98,
+          "topic_id": "earth-atmosphere"
+        },
+        {
+          "file": "geography_physical_world_geography_earth_structure_atmosphere_jet_streams_diagram.png",
+          "title": "Jet Streams: Structure, Types and Weather Effects",
+          "keywords": [
+            "jet stream",
+            "earth atmosphere",
+            "polar jet stream",
+            "subtropical jet stream",
+            "troposphere",
+            "climatology"
+          ],
+          "relevance_score": 98,
+          "topic_id": "earth-atmosphere"
+        },
+        {
+          "file": "geography_physical_world_geography_earth_structure_atmosphere_planetary_winds_circulation.png",
+          "title": "Planetary Winds and Global Atmospheric Circulation",
+          "keywords": [
+            "planetary winds",
+            "trade winds",
+            "westerlies",
+            "polar easterlies",
+            "atmospheric circulation",
+            "Hadley cell",
+            "Ferrel cell",
+            "Polar cell",
+            "ITCZ",
+            "Coriolis effect",
+            "global wind belts"
+          ],
+          "relevance_score": 98,
+          "topic_id": "earth-atmosphere"
+        },
+        {
+          "file": "geography_physical_world_geography_earth_structure_atmosphere_cyclone_structure_formation.png",
+          "title": "Cyclone Structure, Formation, and Classification Infographic",
+          "keywords": [
+            "cyclone",
+            "atmosphere",
+            "climatology",
+            "weather",
+            "storm",
+            "eyewall",
+            "low pressure"
+          ],
+          "relevance_score": 95,
+          "topic_id": "earth-atmosphere"
+        }
+      ],
+      "Climatology: Climatic Zones & Clouds": [
+        {
+          "file": "geography_physical_world_geography_climatology_climatic_zones_clouds_world_climatic_zones.png",
+          "title": "World Map of Important Climatic Zones",
+          "keywords": [
+            "climatic zones",
+            "world map",
+            "equatorial climate",
+            "tropical climate",
+            "temperate climate",
+            "polar climate",
+            "desert climate"
+          ],
+          "relevance_score": 100,
+          "topic_id": "climatology-clouds"
+        },
+        {
+          "file": "geography_physical_world_geography_climatology_climatic_zones_clouds_water_cycle_diagram.png",
+          "title": "The Water Cycle",
+          "keywords": [
+            "water cycle",
+            "evaporation",
+            "condensation",
+            "precipitation",
+            "transpiration",
+            "hydrological cycle"
+          ],
+          "relevance_score": 95,
+          "topic_id": "climatology-clouds"
+        },
+        {
+          "file": "geography_physical_world_geography_climatology_climatic_zones_clouds_climate_of_india.png",
+          "title": "Indian Climate Map showing Climatic Types and Controls",
+          "keywords": [
+            "climate of India",
+            "climatic types",
+            "monsoon",
+            "Indian geography",
+            "tropical wet climate",
+            "arid climate"
+          ],
+          "relevance_score": 95,
+          "topic_id": "climatology-clouds"
+        }
+      ],
+      "The Universe & Solar System": [
+        {
+          "file": "geography_physical_world_geography_the_universe_solar_system_earth_rotation_seasons.png",
+          "title": "Earth's Rotation and Orbital Causes of Seasons",
+          "keywords": [
+            "earth rotation",
+            "seasons",
+            "solstice",
+            "equinox",
+            "orbit",
+            "solar system"
+          ],
+          "relevance_score": 100,
+          "topic_id": "universe-solar-system"
+        },
+        {
+          "file": "geography_physical_world_geography_the_universe_solar_system_earths_rotation_mechanics.png",
+          "title": "Earth's Rotation: Mechanics and Effects",
+          "keywords": [
+            "Earth rotation",
+            "axis",
+            "day and night",
+            "sun rays",
+            "solar system",
+            "geography"
+          ],
+          "relevance_score": 98,
+          "topic_id": "universe-solar-system"
+        },
+        {
+          "file": "geography_physical_world_geography_the_universe_solar_system_international_date_line.png",
+          "title": "Understanding the International Date Line (IDL)",
+          "keywords": [
+            "International Date Line",
+            "IDL",
+            "Global Time",
+            "Earth",
+            "Geography",
+            "Time Zones"
+          ],
+          "relevance_score": 95,
+          "topic_id": "universe-solar-system"
+        },
+        {
+          "file": "geography_physical_world_geography_the_universe_solar_system_longitudes_prime_meridian_globe.png",
+          "title": "Understanding Longitude: Key Concepts and Characteristics",
+          "keywords": [
+            "longitudes",
+            "meridians",
+            "prime meridian",
+            "earth basics",
+            "geography",
+            "equator",
+            "globe"
+          ],
+          "relevance_score": 95,
+          "topic_id": "universe-solar-system"
+        },
+        {
+          "file": "geography_physical_world_geography_the_universe_solar_system_geographic_lines_latitude.png",
+          "title": "Geography of Lines of Latitude",
+          "keywords": [
+            "latitude",
+            "parallels",
+            "equator",
+            "earth",
+            "geography"
+          ],
+          "relevance_score": 95,
+          "topic_id": "universe-solar-system"
+        },
+        {
+          "file": "geography_physical_world_geography_the_universe_solar_system_world_time_zones.png",
+          "title": "World Time Zones Map",
+          "keywords": [
+            "time zones",
+            "UTC",
+            "GMT",
+            "Prime Meridian",
+            "International Date Line",
+            "world geography"
+          ],
+          "relevance_score": 95,
+          "topic_id": "universe-solar-system"
+        },
+        {
+          "file": "geography_physical_world_geography_the_universe_solar_system_spring_neap_tides.png",
+          "title": "Understanding Tidal Cycles: Spring and Neap Tides",
+          "keywords": [
+            "tides",
+            "spring tide",
+            "neap tide",
+            "syzygy",
+            "quadrature",
+            "earth",
+            "moon",
+            "sun",
+            "oceanography"
+          ],
+          "relevance_score": 95,
+          "topic_id": "universe-solar-system"
+        },
+        {
+          "file": "geography_physical_world_geography_the_universe_solar_system_world_time_zones.png",
+          "title": "Global Standard Time Zones Map",
+          "keywords": [
+            "time zones",
+            "UTC",
+            "GMT",
+            "longitude",
+            "world map",
+            "geography"
+          ],
+          "relevance_score": 90,
+          "topic_id": "universe-solar-system"
+        }
+      ],
+      "World Geography: Mountains, Forests & Rivers": [
+        {
+          "file": "geography_physical_world_geography_world_geography_mountains_forests_rivers_fold_mountains_structure.png",
+          "title": "Fold Mountains: Formation, Structure, and Examples",
+          "keywords": [
+            "fold mountains",
+            "geomorphology",
+            "anticline",
+            "syncline",
+            "tectonic plates",
+            "compression",
+            "Himalayas",
+            "Andes",
+            "Alps"
+          ],
+          "relevance_score": 100,
+          "topic_id": "world-geography-mountains"
+        },
+        {
+          "file": "geography_physical_world_geography_world_geography_mountains_forests_rivers_river_landforms_course.png",
+          "title": "River Landforms in Upper, Middle, and Lower Courses",
+          "keywords": [
+            "river landforms",
+            "v-shaped valley",
+            "waterfall",
+            "meander",
+            "oxbow lake",
+            "delta",
+            "estuary",
+            "geomorphology"
+          ],
+          "relevance_score": 100,
+          "topic_id": "world-geography-mountains"
+        },
+        {
+          "file": "geography_physical_world_geography_world_geography_mountains_forests_rivers_world_mountains_map.png",
+          "title": "Important Mountains of the World",
+          "keywords": [
+            "world mountains",
+            "mountain ranges",
+            "geography map",
+            "Himalayas",
+            "Andes",
+            "Rockies",
+            "Alps"
+          ],
+          "relevance_score": 100,
+          "topic_id": "world-geography-mountains"
+        },
+        {
+          "file": "geography_physical_world_geography_world_geography_mountains_forests_rivers_world_rivers_map.png",
+          "title": "Major Rivers of the World",
+          "keywords": [
+            "world rivers",
+            "geography map",
+            "major rivers",
+            "continents",
+            "physical geography"
+          ],
+          "relevance_score": 100,
+          "topic_id": "world-geography-mountains"
+        },
+        {
+          "file": "geography_physical_world_geography_world_geography_mountains_forests_rivers_glacier_landforms.png",
+          "title": "Glacial Landforms: Erosional and Depositional Features",
+          "keywords": [
+            "glacier",
+            "landforms",
+            "cirque",
+            "arete",
+            "horn",
+            "u-shaped valley",
+            "moraine",
+            "drumlin",
+            "esker",
+            "geomorphology"
+          ],
+          "relevance_score": 98,
+          "topic_id": "world-geography-mountains"
+        },
+        {
+          "file": "geography_physical_world_geography_world_geography_mountains_forests_rivers_coastal_landforms.png",
+          "title": "Coastal Landforms: Erosional and Depositional Features",
+          "keywords": [
+            "coastal landforms",
+            "erosional landforms",
+            "depositional landforms",
+            "sea cliff",
+            "sea arch",
+            "stack",
+            "spit",
+            "tombolo",
+            "geomorphology"
+          ],
+          "relevance_score": 95,
+          "topic_id": "world-geography-mountains"
+        }
+      ],
+      "Straits, Canals, Deserts & Seas": [
+        {
+          "file": "geography_physical_world_geography_straits_canals_deserts_seas_desert_landforms.png",
+          "title": "Desert Landforms: Aeolian, Fluvial and Weathering Features",
+          "keywords": [
+            "desert landforms",
+            "aeolian",
+            "fluvial",
+            "barchan",
+            "yardang",
+            "mushroom rock",
+            "loess",
+            "wadi",
+            "alluvial fan",
+            "playa",
+            "inselberg",
+            "pediment",
+            "ventifact",
+            "desert pavement"
+          ],
+          "relevance_score": 100,
+          "topic_id": "world-geography-straits-deserts"
+        },
+        {
+          "file": "geography_physical_world_geography_straits_canals_deserts_seas_world_canals_map.png",
+          "title": "Important Canals of the World",
+          "keywords": [
+            "world canals",
+            "man-made waterways",
+            "Panama Canal",
+            "Suez Canal",
+            "Corinth Canal",
+            "Grand Canal China",
+            "world geography"
+          ],
+          "relevance_score": 100,
+          "topic_id": "world-geography-straits-deserts"
+        },
+        {
+          "file": "geography_physical_world_geography_straits_canals_deserts_seas_world_deserts_map.png",
+          "title": "Major Deserts of the World Map",
+          "keywords": [
+            "deserts",
+            "world map",
+            "geography",
+            "sahara",
+            "gobi",
+            "atacama",
+            "kalahari"
+          ],
+          "relevance_score": 100,
+          "topic_id": "world-geography-straits-deserts"
+        },
+        {
+          "file": "geography_physical_world_geography_straits_canals_deserts_seas_world_straits_map.png",
+          "title": "Important Straits of the World",
+          "keywords": [
+            "straits",
+            "world geography",
+            "mapping",
+            "maritime routes",
+            "choke points",
+            "geography"
+          ],
+          "relevance_score": 100,
+          "topic_id": "world-geography-straits-deserts"
+        },
+        {
+          "file": "geography_physical_world_geography_straits_canals_deserts_seas_indian_deserts_map.png",
+          "title": "Indian Deserts: Thar Desert and Ladakh Cold Desert",
+          "keywords": [
+            "Indian Deserts",
+            "Thar Desert",
+            "Cold Desert",
+            "Ladakh",
+            "Rajasthan",
+            "Geography Map",
+            "Great Indian Desert"
+          ],
+          "relevance_score": 98,
+          "topic_id": "world-geography-straits-deserts"
+        },
+        {
+          "file": "geography_physical_world_geography_straits_canals_deserts_seas_ocean_currents_world.png",
+          "title": "Major Ocean Currents of the World",
+          "keywords": [
+            "ocean currents",
+            "warm currents",
+            "cold currents",
+            "gyres",
+            "world geography",
+            "climatology"
+          ],
+          "relevance_score": 95,
+          "topic_id": "world-geography-straits-deserts"
+        },
+        {
+          "file": "geography_physical_world_geography_straits_canals_deserts_seas_seafloor_topography_features.png",
+          "title": "Major Seafloor Topographic Features",
+          "keywords": [
+            "continental shelf",
+            "continental slope",
+            "continental rise",
+            "abyssal plain",
+            "mid ocean ridge",
+            "ocean trench",
+            "seamount",
+            "oceanography"
+          ],
+          "relevance_score": 95,
+          "topic_id": "world-geography-straits-deserts"
+        },
+        {
+          "file": "geography_physical_world_geography_straits_canals_deserts_seas_world_ocean_currents.png",
+          "title": "Global Ocean Current Systems",
+          "keywords": [
+            "ocean currents",
+            "warm currents",
+            "cold currents",
+            "gulf stream",
+            "labrador current",
+            "kuroshio",
+            "geography"
+          ],
+          "relevance_score": 95,
+          "topic_id": "world-geography-straits-deserts"
+        }
+      ],
+      "Geomorphology: Rocks, Plate Tectonics & Volcanism": [
+        {
+          "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_earthquake_anatomy_seismic_waves.png",
+          "title": "Earthquake Anatomy and Seismic Waves",
+          "keywords": [
+            "earthquake",
+            "focus",
+            "epicenter",
+            "fault",
+            "seismic waves",
+            "P waves",
+            "S waves",
+            "surface waves",
+            "plate tectonics",
+            "geomorphology"
+          ],
+          "relevance_score": 100,
+          "topic_id": "geomorphology-rocks"
+        },
+        {
+          "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_plate_tectonics_infographic.png",
+          "title": "Plate Tectonics Infographic",
+          "keywords": [
+            "plate tectonics",
+            "lithosphere",
+            "asthenosphere",
+            "divergent boundary",
+            "convergent boundary",
+            "transform boundary",
+            "major tectonic plates",
+            "convection currents"
+          ],
+          "relevance_score": 100,
+          "topic_id": "geomorphology-rocks"
+        },
+        {
+          "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_rock_cycle_process.png",
+          "title": "The Rock Cycle Diagram",
+          "keywords": [
+            "rock cycle",
+            "igneous rocks",
+            "sedimentary rocks",
+            "metamorphic rocks",
+            "magma",
+            "weathering",
+            "geomorphology"
+          ],
+          "relevance_score": 100,
+          "topic_id": "geomorphology-rocks"
+        },
+        {
+          "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_rock_cycle.png",
+          "title": "The Rock Cycle",
+          "keywords": [
+            "geography",
+            "geomorphology",
+            "rocks",
+            "rock cycle",
+            "igneous",
+            "sedimentary",
+            "metamorphic",
+            "magma"
+          ],
+          "relevance_score": 100,
+          "topic_id": "geomorphology-rocks"
+        },
+        {
+          "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_volcano_anatomy.png",
+          "title": "Volcano Anatomy and Features",
+          "keywords": [
+            "volcano",
+            "magma chamber",
+            "crater",
+            "lava flow",
+            "geomorphology",
+            "volcanism"
+          ],
+          "relevance_score": 100,
+          "topic_id": "geomorphology-rocks"
+        },
+        {
+          "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_weathering_of_rocks.png",
+          "title": "Weathering of Rocks: Physical, Chemical, and Biological Types",
+          "keywords": [
+            "weathering",
+            "physical weathering",
+            "chemical weathering",
+            "biological weathering",
+            "geomorphology",
+            "frost wedging",
+            "oxidation",
+            "hydrolysis"
+          ],
+          "relevance_score": 100,
+          "topic_id": "geomorphology-rocks"
+        },
+        {
+          "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_world_earthquake_belts.png",
+          "title": "World Map - Important Earthquake Belts",
+          "keywords": [
+            "earthquake belts",
+            "circum-pacific belt",
+            "pacific ring of fire",
+            "alpine-himalayan belt",
+            "plate tectonics",
+            "volcanoes",
+            "ocean trenches",
+            "world geography"
+          ],
+          "relevance_score": 100,
+          "topic_id": "geomorphology-rocks"
+        },
+        {
+          "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_world_volcano_belts.png",
+          "title": "World Important Volcano Belts and Major Volcanoes",
+          "keywords": [
+            "volcanoes",
+            "volcanic belts",
+            "ring of fire",
+            "plate tectonics",
+            "geomorphology",
+            "world map"
+          ],
+          "relevance_score": 100,
+          "topic_id": "geomorphology-rocks"
+        }
+      ]
+    }
+  },
+  "history": {
+    "3. Ancient India": {
+      "Mauryan Period": [
+        {
+          "file": "history_3_ancient_india_mauryan_period_ashokan_pillar_edicts.png",
+          "title": "Ashokan Pillar Anatomy and Inscriptions",
+          "keywords": [
+            "Ashoka",
+            "Mauryan Empire",
+            "Pillar Edicts",
+            "Lion Capital",
+            "Dharma Chakra",
+            "Ancient India"
+          ],
+          "relevance_score": 100,
+          "topic_id": "mauryan-period"
+        },
+        {
+          "file": "history_3_ancient_india_mauryan_period_mauryan_empire_infographic.png",
+          "title": "The Mauryan Empire Overview & Administration",
+          "keywords": [
+            "Mauryan Empire",
+            "Chandragupta Maurya",
+            "Ashoka",
+            "Ancient India",
+            "Administration",
+            "Economy",
+            "Military"
+          ],
+          "relevance_score": 100,
+          "topic_id": "mauryan-period"
+        }
+      ],
+      "Buddhism & Jainism": [
+        {
+          "file": "history_3_ancient_india_buddhism_jainism_buddhism_teachings_origins.png",
+          "title": "Buddhism: The Path of Enlightenment",
+          "keywords": [
+            "Buddhism",
+            "Siddhartha Gautama",
+            "Four Noble Truths",
+            "Noble Eightfold Path",
+            "Buddhist Councils",
+            "Tripitaka"
+          ],
+          "relevance_score": 100,
+          "topic_id": "buddhism-jainism"
+        }
+      ],
+      "Gupta Period": [
+        {
+          "file": "history_3_ancient_india_gupta_period_gupta_empire_infographic.png",
+          "title": "The Gupta Empire: The Golden Age of India",
+          "keywords": [
+            "Gupta Empire",
+            "Golden Age of India",
+            "Chandragupta",
+            "Samudragupta",
+            "Ancient India history",
+            "Gupta administration",
+            "Gupta art and culture"
+          ],
+          "relevance_score": 100,
+          "topic_id": "gupta-period"
+        }
+      ],
+      "Indus Valley Civilization": [
+        {
+          "file": "history_3_ancient_india_indus_valley_civilization_indus_valley_city_plan.png",
+          "title": "Indus Valley Civilization - City Plan & Architecture",
+          "keywords": [
+            "Indus Valley Civilization",
+            "Harappa",
+            "Mohenjo-daro",
+            "Citadel",
+            "Lower Town",
+            "Great Bath",
+            "Drainage System",
+            "Grid Pattern",
+            "Ancient India"
+          ],
+          "relevance_score": 100,
+          "topic_id": "indus-valley-civilization"
+        }
+      ],
+      "Vedic Age": [
+        {
+          "file": "history_3_ancient_india_vedic_age_vedic_social_hierarchy.png",
+          "title": "Vedic Society Hierarchy & Varna System",
+          "keywords": [
+            "vedic age",
+            "varna system",
+            "brahmana",
+            "kshatriya",
+            "vaishya",
+            "shudra",
+            "ancient india",
+            "social structure"
+          ],
+          "relevance_score": 100,
+          "topic_id": "vedic-age"
+        }
+      ]
+    },
+    "4. Medieval India": {
+      "Early Medieval India": [
+        {
+          "file": "history_4_medieval_india_early_medieval_india_battle_formations.png",
+          "title": "Battle Formations in Medieval History",
+          "keywords": [
+            "battle formations",
+            "medieval history",
+            "vyuha",
+            "phalanx",
+            "testudo",
+            "wedge formation",
+            "caracole",
+            "ottoman tertip",
+            "military tactics"
+          ],
+          "relevance_score": 95,
+          "topic_id": "early-medieval-india"
+        }
+      ],
+      "Delhi Sultanate": [
+        {
+          "file": "history_4_medieval_india_delhi_sultanate_delhi_sultanate_timeline.png",
+          "title": "Delhi Sultanate Timeline & Five Dynasties",
+          "keywords": [
+            "Delhi Sultanate",
+            "Mamluk Dynasty",
+            "Khilji Dynasty",
+            "Tughlaq Dynasty",
+            "Sayyid Dynasty",
+            "Lodi Dynasty",
+            "Medieval India"
+          ],
+          "relevance_score": 100,
+          "topic_id": "delhi-sultanate"
+        }
+      ],
+      "Mughal Empire": [
+        {
+          "file": "history_4_medieval_india_mughal_empire_mansabdari_system_mughal.png",
+          "title": "Mansabdari System in the Mughal Empire",
+          "keywords": [
+            "Mansabdari",
+            "Mughal Administration",
+            "Zat and Sawar",
+            "Akbar",
+            "Medieval India"
+          ],
+          "relevance_score": 100,
+          "topic_id": "mughal-empire"
+        },
+        {
+          "file": "history_4_medieval_india_mughal_empire_mughal_administration_chart.png",
+          "title": "Mughal Administration Overview",
+          "keywords": [
+            "Mughal Administration",
+            "Mansabdari System",
+            "Central Administration",
+            "Provincial Administration",
+            "Revenue Administration",
+            "Medieval India"
+          ],
+          "relevance_score": 100,
+          "topic_id": "mughal-empire"
+        }
+      ],
+      "Marathas": [
+        {
+          "file": "history_4_medieval_india_marathas_maratha_empire_infographic.png",
+          "title": "Rise and Fall of the Maratha Empire",
+          "keywords": [
+            "Marathas",
+            "Shivaji Maharaj",
+            "Peshwas",
+            "Ashta Pradhan",
+            "Third Battle of Panipat",
+            "Medieval India"
+          ],
+          "relevance_score": 100,
+          "topic_id": "marathas"
+        }
+      ]
+    },
+    "5. Modern India (Highest Priority)": {
+      "Freedom Movement": [
+        {
+          "file": "history_5_modern_india_highest_priority_freedom_movement_gandhian_era_timeline.png",
+          "title": "The Gandhian Era: Major Movements in India's Freedom Struggle (1915-1948)",
+          "keywords": [
+            "Gandhian Era",
+            "Freedom Movement",
+            "Mahatma Gandhi",
+            "Non-Cooperation",
+            "Civil Disobedience",
+            "Quit India Movement",
+            "Indian National Congress",
+            "Modern Indian History"
+          ],
+          "relevance_score": 100,
+          "topic_id": "freedom-movement"
+        },
+        {
+          "file": "history_5_modern_india_highest_priority_freedom_movement_inc_sessions_map.png",
+          "title": "Indian National Congress Sessions Map",
+          "keywords": [
+            "Indian National Congress",
+            "INC Sessions",
+            "Freedom Movement",
+            "Modern Indian History",
+            "Surat Split",
+            "Lucknow Pact",
+            "Lahore Session"
+          ],
+          "relevance_score": 100,
+          "topic_id": "freedom-movement"
+        }
+      ],
+      "Governor-Generals & Viceroys": [
+        {
+          "file": "history_5_modern_india_highest_priority_governor_generals_viceroys_governor_generals_viceroys_timeline.png",
+          "title": "Timeline of Governors-General of India & Viceroys (1773-1948)",
+          "keywords": [
+            "Governor-General",
+            "Viceroy",
+            "British India",
+            "Timeline",
+            "History",
+            "Modern India"
+          ],
+          "relevance_score": 100,
+          "topic_id": "governor-generals-viceroys"
+        }
+      ],
+      "Revolt of 1857": [
+        {
+          "file": "history_5_modern_india_highest_priority_revolt_of_1857_revolt_1857_centres.png",
+          "title": "Major Centres of the Revolt of 1857",
+          "keywords": [
+            "Revolt of 1857",
+            "First War of Independence",
+            "Major Centres",
+            "Delhi",
+            "Meerut",
+            "Jhansi",
+            "Kanpur",
+            "Lucknow"
+          ],
+          "relevance_score": 100,
+          "topic_id": "revolt-1857"
+        }
+      ]
+    },
+    "6. World History": {
+      "Revolutions": [
+        {
+          "file": "history_6_world_history_revolutions_french_revolution_causes.png",
+          "title": "Causes of the French Revolution Mind Map",
+          "keywords": [
+            "French Revolution",
+            "Ancien Regime",
+            "King Louis XVI",
+            "Enlightenment",
+            "Financial Crisis",
+            "Third Estate"
+          ],
+          "relevance_score": 100,
+          "topic_id": "revolutions"
+        },
+        {
+          "file": "history_6_world_history_revolutions_russian_revolution_timeline.png",
+          "title": "The Path of the Revolution: Russian Timeline",
+          "keywords": [
+            "Russian Revolution",
+            "Timeline",
+            "Bolshevik",
+            "Lenin",
+            "World History"
+          ],
+          "relevance_score": 98,
+          "topic_id": "revolutions"
+        },
+        {
+          "file": "history_6_world_history_revolutions_industrial_revolution_inventions.png",
+          "title": "Chronicles of Industrial Innovation: Key Inventions and Their Creators",
+          "keywords": [
+            "Industrial Revolution",
+            "Inventions",
+            "James Watt",
+            "Eli Whitney",
+            "Nikola Tesla",
+            "Thomas Edison",
+            "World History"
+          ],
+          "relevance_score": 95,
+          "topic_id": "revolutions"
+        }
+      ],
+      "International Institutions": [
+        {
+          "file": "history_6_world_history_international_institutions_league_of_nations_infographic.png",
+          "title": "Key Facts on the League of Nations",
+          "keywords": [
+            "league of nations",
+            "international institutions",
+            "world war i",
+            "interwar period",
+            "united nations history",
+            "geopolitics"
+          ],
+          "relevance_score": 100,
+          "topic_id": "international-institutions"
+        },
+        {
+          "file": "history_6_world_history_international_institutions_united_nations_system.png",
+          "title": "The United Nations System: Principal Organs and Agencies",
+          "keywords": [
+            "United Nations",
+            "Security Council",
+            "General Assembly",
+            "International Court of Justice",
+            "Secretariat",
+            "ECOSOC",
+            "UN Agencies"
+          ],
+          "relevance_score": 100,
+          "topic_id": "international-institutions"
+        }
+      ],
+      "World War I": [
+        {
+          "file": "history_6_world_history_world_war_i_world_war_1_alliances.png",
+          "title": "Major European Alliances and Conflict Zones on the Eve of WWI",
+          "keywords": [
+            "World War 1",
+            "Triple Entente",
+            "Triple Alliance",
+            "European alliances",
+            "Balkans conflict"
+          ],
+          "relevance_score": 100,
+          "topic_id": "world-war-i"
+        }
+      ],
+      "World War II": [
+        {
+          "file": "history_6_world_history_world_war_ii_world_war_ii_powers.png",
+          "title": "Major Powers of World War II",
+          "keywords": [
+            "World War II",
+            "Axis Powers",
+            "Allied Powers",
+            "Germany",
+            "Italy",
+            "Japan",
+            "United States",
+            "Great Britain",
+            "France",
+            "USSR"
+          ],
+          "relevance_score": 100,
+          "topic_id": "world-war-ii"
+        }
+      ]
+    }
+  },
+  "mathematics": {
+    "Coordinate Geometry (2D & 3D)": {
+      "Straight Lines": [
+        {
+          "file": "mathematics_coordinate_geometry_2d_3d_straight_lines_coordinate_geometry_formulas.png",
+          "title": "Coordinate Geometry Formulas",
+          "keywords": [
+            "coordinate geometry",
+            "distance formula",
+            "midpoint formula",
+            "slope",
+            "equation of a line",
+            "area of a triangle",
+            "section formula",
+            "circle equation"
+          ],
+          "relevance_score": 100,
+          "topic_id": "straight-lines"
+        },
+        {
+          "file": "mathematics_coordinate_geometry_2d_3d_straight_lines_distance_formula_coordinate_geometry.png",
+          "title": "The Distance Formula in Coordinate Geometry",
+          "keywords": [
+            "distance formula",
+            "coordinate geometry",
+            "Cartesian plane",
+            "straight lines",
+            "mathematics"
+          ],
+          "relevance_score": 100,
+          "topic_id": "straight-lines"
+        },
+        {
+          "file": "mathematics_coordinate_geometry_2d_3d_straight_lines_coordinate_system_quadrants.png",
+          "title": "Cartesian Coordinate System and Quadrants",
+          "keywords": [
+            "coordinate system",
+            "cartesian plane",
+            "quadrants",
+            "x-axis",
+            "y-axis",
+            "coordinates",
+            "geometry"
+          ],
+          "relevance_score": 98,
+          "topic_id": "straight-lines"
+        },
+        {
+          "file": "mathematics_coordinate_geometry_2d_3d_straight_lines_midpoint_formula_coordinate_geometry.png",
+          "title": "The Midpoint Formula in Coordinate Geometry",
+          "keywords": [
+            "midpoint",
+            "formula",
+            "coordinate geometry",
+            "line segment",
+            "Cartesian plane"
+          ],
+          "relevance_score": 98,
+          "topic_id": "straight-lines"
+        }
+      ]
+    },
+    "Geometry": {
+      "Circles & Polygons": [
+        {
+          "file": "mathematics_geometry_circles_polygons_angle_arc_measures_circles.png",
+          "title": "Angle and Arc Measures in Circles",
+          "keywords": [
+            "circles",
+            "angles",
+            "arcs",
+            "central angle",
+            "inscribed angle",
+            "tangent",
+            "secant",
+            "geometry"
+          ],
+          "relevance_score": 100,
+          "topic_id": "circles-polygons"
+        },
+        {
+          "file": "mathematics_geometry_circles_polygons_circle_properties_anatomy.png",
+          "title": "Circle Anatomy and Properties",
+          "keywords": [
+            "circle",
+            "radius",
+            "diameter",
+            "circumference",
+            "chord",
+            "arc",
+            "sector",
+            "segment"
+          ],
+          "relevance_score": 100,
+          "topic_id": "circles-polygons"
+        },
+        {
+          "file": "mathematics_geometry_circles_polygons_cyclic_quadrilateral_properties.png",
+          "title": "Properties of a Cyclic Quadrilateral",
+          "keywords": [
+            "cyclic quadrilateral",
+            "geometry",
+            "circles",
+            "polygons",
+            "opposite angles",
+            "supplementary angles",
+            "exterior angle"
+          ],
+          "relevance_score": 100,
+          "topic_id": "circles-polygons"
+        },
+        {
+          "file": "mathematics_geometry_circles_polygons_regular_polygons_shapes.png",
+          "title": "Regular Polygons from n=3 to n=8",
+          "keywords": [
+            "polygons",
+            "triangle",
+            "square",
+            "pentagon",
+            "hexagon",
+            "heptagon",
+            "octagon",
+            "geometry",
+            "shapes"
+          ],
+          "relevance_score": 98,
+          "topic_id": "circles-polygons"
+        }
+      ],
+      "Lines, Angles & Triangles": [
+        {
+          "file": "mathematics_geometry_lines_angles_triangles_congruence_of_triangles.png",
+          "title": "Congruence Criteria for Triangles",
+          "keywords": [
+            "congruence",
+            "triangles",
+            "SSS",
+            "ASA",
+            "SAS",
+            "AAS",
+            "RHS",
+            "geometry"
+          ],
+          "relevance_score": 100,
+          "topic_id": "lines-angles-triangles"
+        },
+        {
+          "file": "mathematics_geometry_lines_angles_triangles_similar_triangles_geometry.jpeg",
+          "title": "Similar Triangles Properties and Tests",
+          "keywords": [
+            "similar triangles",
+            "geometry",
+            "AA",
+            "SSS",
+            "SAS",
+            "corresponding angles",
+            "triangle similarity"
+          ],
+          "relevance_score": 100,
+          "topic_id": "lines-angles-triangles"
+        },
+        {
+          "file": "mathematics_geometry_lines_angles_triangles_types_of_triangles.png",
+          "title": "Types of Triangles Based on Sides and Angles",
+          "keywords": [
+            "triangles",
+            "geometry",
+            "scalene",
+            "isosceles",
+            "equilateral",
+            "acute",
+            "obtuse",
+            "right triangle"
+          ],
+          "relevance_score": 100,
+          "topic_id": "lines-angles-triangles"
+        },
+        {
+          "file": "mathematics_geometry_lines_angles_triangles_pythagoras_theorem_triangle.png",
+          "title": "The Pythagorean Theorem",
+          "keywords": [
+            "pythagorean theorem",
+            "right triangle",
+            "hypotenuse",
+            "legs",
+            "geometry",
+            "a2+b2=c2"
+          ],
+          "relevance_score": 95,
+          "topic_id": "lines-angles-triangles"
+        }
+      ]
+    },
+    "Mensuration": {
+      "3D Solids: Surface Area & Volume": [
+        {
+          "file": "mathematics_mensuration_3d_solids_surface_area_volume_cone_and_frustum.png",
+          "title": "Mensuration of Cone and Frustum",
+          "keywords": [
+            "cone",
+            "frustum",
+            "surface area",
+            "volume",
+            "mensuration",
+            "3d solids"
+          ],
+          "relevance_score": 100,
+          "topic_id": "surface-area-volume"
+        },
+        {
+          "file": "mathematics_mensuration_3d_solids_surface_area_volume_cube_surface_area_volume.png",
+          "title": "Cube Formulas and Properties",
+          "keywords": [
+            "cube",
+            "surface area",
+            "volume",
+            "mensuration",
+            "3d geometry"
+          ],
+          "relevance_score": 100,
+          "topic_id": "surface-area-volume"
+        },
+        {
+          "file": "mathematics_mensuration_3d_solids_surface_area_volume_cuboid_surface_area_volume.png",
+          "title": "Cuboid Geometry Formulas and Applications",
+          "keywords": [
+            "cuboid",
+            "surface area",
+            "volume",
+            "diagonal",
+            "mensuration",
+            "3d geometry"
+          ],
+          "relevance_score": 100,
+          "topic_id": "surface-area-volume"
+        },
+        {
+          "file": "mathematics_mensuration_3d_solids_surface_area_volume_cylinder_surface_area_volume.png",
+          "title": "Solid and Hollow Cylinder Surface Area and Volume Formulas",
+          "keywords": [
+            "cylinder",
+            "solid cylinder",
+            "hollow cylinder",
+            "curved surface area",
+            "total surface area",
+            "volume",
+            "mensuration"
+          ],
+          "relevance_score": 100,
+          "topic_id": "surface-area-volume"
+        }
+      ]
+    },
+    "Probability & Statistics": {
+      "Probability Theory & Bayes Theorem": [
+        {
+          "file": "mathematics_probability_statistics_probability_theory_bayes_theorem_probability_tree_diagram.png",
+          "title": "Tree Diagram Notation for Independent Events",
+          "keywords": [
+            "probability",
+            "independent events",
+            "tree diagram",
+            "bayes theorem",
+            "mathematics"
+          ],
+          "relevance_score": 100,
+          "topic_id": "syl-probability"
+        },
+        {
+          "file": "mathematics_probability_statistics_probability_theory_bayes_theorem_venn_diagram_set_operations.png",
+          "title": "Venn Diagrams for Set Operations and Probability",
+          "keywords": [
+            "venn diagram",
+            "set theory",
+            "probability",
+            "intersection",
+            "union",
+            "complement",
+            "De Morgan's laws"
+          ],
+          "relevance_score": 98,
+          "topic_id": "syl-probability"
+        }
+      ]
+    },
+    "Statistics & Probability": {
+      "Data Interpretation: Tables, Bar & Pie Charts": [
+        {
+          "file": "mathematics_statistics_probability_data_interpretation_tables_bar_pie_charts_statistical_data_visualizations.png",
+          "title": "Statistical Data Visualizations",
+          "keywords": [
+            "histogram",
+            "bar chart",
+            "frequency polygon",
+            "pie chart",
+            "statistics",
+            "data interpretation"
+          ],
+          "relevance_score": 95,
+          "topic_id": "data-interpretation"
+        }
+      ]
+    },
+    "Trigonometry": {
+      "Trigonometric Identities & Values": [
+        {
+          "file": "mathematics_trigonometry_trigonometric_identities_values_pi_unit_circle.png",
+          "title": "Unit Circle with Trigonometric Values and Angles",
+          "keywords": [
+            "unit circle",
+            "trigonometry",
+            "radians",
+            "degrees",
+            "sine",
+            "cosine",
+            "quadrants"
+          ],
+          "relevance_score": 100,
+          "topic_id": "trig-identities"
+        },
+        {
+          "file": "mathematics_trigonometry_trigonometric_identities_values_trig_ratios_table.png",
+          "title": "Trigonometric Ratios and Standard Values Table",
+          "keywords": [
+            "trigonometric ratios",
+            "sine",
+            "cosine",
+            "tangent",
+            "trig values table",
+            "standard angles"
+          ],
+          "relevance_score": 100,
+          "topic_id": "trig-identities"
+        },
+        {
+          "file": "mathematics_trigonometry_trigonometric_identities_values_angle_of_elevation.png",
+          "title": "Trigonometry Explained: Angle of Elevation",
+          "keywords": [
+            "trigonometry",
+            "angle of elevation",
+            "line of sight",
+            "right angled triangle",
+            "tangent ratio"
+          ],
+          "relevance_score": 98,
+          "topic_id": "trig-identities"
+        },
+        {
+          "file": "mathematics_trigonometry_trigonometric_identities_values_angle_of_depression.png",
+          "title": "Trigonometry Explained: Angle of Depression",
+          "keywords": [
+            "trigonometry",
+            "angle of depression",
+            "line of sight",
+            "horizontal line",
+            "trig ratios"
+          ],
+          "relevance_score": 95,
+          "topic_id": "trig-identities"
+        }
+      ]
+    },
+    "Arithmetic": {
+      "Time, Speed, Distance & Work": [
+        {
+          "file": "mathematics_arithmetic_time_speed_distance_work_clock_angle_movement.png",
+          "title": "Clock Hand Angular Movement and Position Names",
+          "keywords": [
+            "clock",
+            "angle",
+            "minute hand",
+            "hour hand",
+            "reasoning",
+            "degrees",
+            "time"
+          ],
+          "relevance_score": 95,
+          "topic_id": "time-distance"
+        }
+      ]
+    }
+  },
+  "polity": {
+    "Advanced Polity Structures & Bodies": {
+      "Constitutional & Non-Constitutional Bodies": [
+        {
+          "file": "polity_advanced_polity_structures_bodies_constitutional_non_constitutional_bodies_constitutional_bodies_articles.png",
+          "title": "Articles Related to Constitutional Bodies in India",
+          "keywords": [
+            "constitutional bodies",
+            "articles",
+            "polity",
+            "UPSC",
+            "Election Commission",
+            "Finance Commission",
+            "CAG"
+          ],
+          "relevance_score": 100,
+          "topic_id": "constitutional-bodies"
+        },
+        {
+          "file": "polity_advanced_polity_structures_bodies_constitutional_non_constitutional_bodies_comptroller_auditor_general_cag.png",
+          "title": "Comptroller & Auditor General of India (CAG)",
+          "keywords": [
+            "CAG",
+            "Comptroller and Auditor General",
+            "Indian Polity",
+            "Constitutional Bodies",
+            "Article 148",
+            "Article 149",
+            "Article 151"
+          ],
+          "relevance_score": 100,
+          "topic_id": "constitutional-bodies"
+        },
+        {
+          "file": "polity_advanced_polity_structures_bodies_constitutional_non_constitutional_bodies_finance_commission.png",
+          "title": "Finance Commission of India - Structure, Functions and Constitutional Basis",
+          "keywords": [
+            "Finance Commission",
+            "Article 280",
+            "Constitutional Body",
+            "Vertical Devolution",
+            "Horizontal Devolution",
+            "Centre-State Relations",
+            "Indian Polity"
+          ],
+          "relevance_score": 100,
+          "topic_id": "constitutional-bodies"
+        },
+        {
+          "file": "polity_advanced_polity_structures_bodies_constitutional_non_constitutional_bodies_upsc_structure_composition.png",
+          "title": "UPSC Structure, Composition and Functions",
+          "keywords": [
+            "UPSC",
+            "Constitutional Body",
+            "Article 315",
+            "Union Public Service Commission",
+            "Composition",
+            "Tenure",
+            "Functions"
+          ],
+          "relevance_score": 98,
+          "topic_id": "constitutional-bodies"
+        }
+      ],
+      "Elections, Appointments & Terms of Office": [
+        {
+          "file": "polity_advanced_polity_structures_bodies_elections_appointments_terms_of_office_vice_president_election.png",
+          "title": "Election of the Vice President of India",
+          "keywords": [
+            "Vice President",
+            "Election",
+            "Electoral College",
+            "Single Transferable Vote",
+            "Polity",
+            "Union Executive"
+          ],
+          "relevance_score": 95,
+          "topic_id": "positions-tenures"
+        }
+      ]
+    },
+    "Constitutional Framework": {
+      "Fundamental Rights (Art 12-35)": [
+        {
+          "file": "polity_constitutional_framework_fundamental_rights_art_12_35_constitution_fundamental_rights.png",
+          "title": "Fundamental Rights of the Indian Constitution",
+          "keywords": [
+            "constitution of india",
+            "fundamental rights",
+            "articles 12-35",
+            "right to equality",
+            "right to freedom",
+            "right against exploitation",
+            "right to religion",
+            "cultural and educational rights",
+            "right to constitutional remedies"
+          ],
+          "relevance_score": 100,
+          "topic_id": "fundamental-rights"
+        }
+      ],
+      "DPSP & Fundamental Duties (Art 36-51A)": [
+        {
+          "file": "polity_constitutional_framework_dpsp_fundamental_duties_art_36_51a_fundamental_duties_article_51a.png",
+          "title": "The 11 Fundamental Duties of Indian Citizens",
+          "keywords": [
+            "Fundamental Duties",
+            "Article 51A",
+            "Part IVA",
+            "Swaran Singh Committee",
+            "Indian Constitution"
+          ],
+          "relevance_score": 100,
+          "topic_id": "dpsp"
+        }
+      ],
+      "Preamble & Sources": [
+        {
+          "file": "polity_constitutional_framework_preamble_sources_preamble_constitution_india.png",
+          "title": "Preamble of the Constitution of India",
+          "keywords": [
+            "preamble",
+            "constitution of india",
+            "sovereign",
+            "socialist",
+            "secular",
+            "democratic",
+            "republic",
+            "justice",
+            "liberty",
+            "equality",
+            "fraternity",
+            "polity"
+          ],
+          "relevance_score": 100,
+          "topic_id": "preamble"
+        }
+      ]
+    },
+    "Union Government": {
+      "Integrated Judiciary: SC & HC": [
+        {
+          "file": "polity_union_government_integrated_judiciary_sc_hc_hierarchy_of_courts.png",
+          "title": "Hierarchy of Courts in India",
+          "keywords": [
+            "Supreme Court",
+            "High Court",
+            "Subordinate Courts",
+            "District Court",
+            "Sessions Court",
+            "Indian Judiciary"
+          ],
+          "relevance_score": 100,
+          "topic_id": "judiciary"
+        }
+      ],
+      "Executives: PM, CM & Governor": [
+        {
+          "file": "polity_union_government_executives_pm_cm_governor_governor_powers_qualifications.png",
+          "title": "Governor of India Constitutional Powers and Qualifications",
+          "keywords": [
+            "Governor",
+            "Executive Powers",
+            "Judicial Powers",
+            "Appointment",
+            "Article 155",
+            "Article 157",
+            "Indian Polity"
+          ],
+          "relevance_score": 100,
+          "topic_id": "goverment-executives"
+        },
+        {
+          "file": "polity_union_government_executives_pm_cm_governor_structure_union_executive.png",
+          "title": "Structure of the Union Executive",
+          "keywords": [
+            "union executive",
+            "president",
+            "vice president",
+            "prime minister",
+            "council of ministers",
+            "cabinet ministers",
+            "polity",
+            "indian government"
+          ],
+          "relevance_score": 100,
+          "topic_id": "goverment-executives"
+        }
+      ],
+      "Parliament of India (Art 79-122)": [
+        {
+          "file": "polity_union_government_parliament_of_india_art_79_122_legislative_process_india.png",
+          "title": "The Legislative Process in India",
+          "keywords": [
+            "parliament",
+            "legislative process",
+            "bill becomes law",
+            "Lok Sabha",
+            "Rajya Sabha",
+            "President assent",
+            "Indian polity"
+          ],
+          "relevance_score": 100,
+          "topic_id": "parliament"
+        },
+        {
+          "file": "polity_union_government_parliament_of_india_art_79_122_structure_indian_parliament.png",
+          "title": "Structure of Indian Parliament",
+          "keywords": [
+            "parliament",
+            "lok sabha",
+            "rajya sabha",
+            "article 79",
+            "constitution",
+            "union government"
+          ],
+          "relevance_score": 100,
+          "topic_id": "parliament"
+        }
+      ],
+      "Local Self-Govt & Panchayati Raj": [
+        {
+          "file": "polity_union_government_local_self_govt_panchayati_raj_panchayati_raj_municipal_corps.png",
+          "title": "Panchayati Raj Institutions and Municipal Corporations",
+          "keywords": [
+            "Panchayati Raj",
+            "Municipal Corporations",
+            "Local Self Government",
+            "Part IX",
+            "Part IXA",
+            "Urban Local Bodies",
+            "Gram Panchayat",
+            "Zila Panchayat",
+            "Municipality"
+          ],
+          "relevance_score": 100,
+          "topic_id": "panchayati-raj"
+        }
+      ]
+    },
+    "Federal Structure & Election Law": {
+      "Representation of People Act & Election Commission": [
+        {
+          "file": "polity_federal_structure_election_law_representation_of_people_act_election_commission_types_of_elections.png",
+          "title": "Types of Elections: Direct vs Indirect Election Systems in India",
+          "keywords": [
+            "direct election",
+            "indirect election",
+            "general elections",
+            "presidential elections",
+            "vote value",
+            "MPs",
+            "MLAs"
+          ],
+          "relevance_score": 98,
+          "topic_id": "polity-rpa"
+        }
+      ]
+    }
+  }
+}

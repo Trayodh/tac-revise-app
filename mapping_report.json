@@ -1,0 +1,986 @@
+[
+  {
+    "id": "universe-solar-system",
+    "title": "The Universe & Solar System",
+    "matched_image": "human_digestive_system.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\human_digestive_system.png"
+  },
+  {
+    "id": "earth-atmosphere",
+    "title": "Earth Structure & Atmosphere",
+    "matched_image": "earth-atmosphere.jpg",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\earth-atmosphere.jpg"
+  },
+  {
+    "id": "climatology-clouds",
+    "title": "Climatology: Climatic Zones & Clouds",
+    "matched_image": "world_climatic_zones_map.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\world_climatic_zones_map.png"
+  },
+  {
+    "id": "geomorphology-rocks",
+    "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+    "matched_image": "world_tectonics_map.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\world_tectonics_map.png"
+  },
+  {
+    "id": "world-geography-mountains",
+    "title": "World Geography: Mountains, Forests & Rivers",
+    "matched_image": "current_affairs_world.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\current_affairs_world.png"
+  },
+  {
+    "id": "world-geography-straits-deserts",
+    "title": "Straits, Canals, Deserts & Seas",
+    "matched_image": "current_affairs_world.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\current_affairs_world.png"
+  },
+  {
+    "id": "syl-geog",
+    "title": "Indian Geography (Rivers, Passes & Soils)",
+    "matched_image": "geo_india_rivers.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\geo_india_rivers.png"
+  },
+  {
+    "id": "india-forests-wetlands",
+    "title": "Forests, Trees & Wetlands of India",
+    "matched_image": "current_affairs_india.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\current_affairs_india.png"
+  },
+  {
+    "id": "india-resources-farming",
+    "title": "Mineral Resources & Types of Farming",
+    "matched_image": "india_resources_map.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\india_resources_map.png"
+  },
+  {
+    "id": "india-transport-routes",
+    "title": "Transport Routes: Highways & Waterways",
+    "matched_image": "india_highways_map.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\india_highways_map.png"
+  },
+  {
+    "id": "india-national-parks",
+    "title": "National Parks of India (Map Guide)",
+    "matched_image": "geo_india_national_parks.png",
+    "source": "manual (images/)",
+    "manual_score": 3,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\geo_india_national_parks.png"
+  },
+  {
+    "id": "mapping-borders-capitals",
+    "title": "Borders, Capitals & Mapping",
+    "matched_image": "mapping-borders-capitals.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\geography\\indian-geography\\mapping-borders-capitals.png"
+  },
+  {
+    "id": "geog-industries",
+    "title": "Major Industries & Industrial Corridors of India",
+    "matched_image": "current_affairs_india.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\current_affairs_india.png"
+  },
+  {
+    "id": "geog-geopolitics",
+    "title": "Geopolitical Flashpoints & Indo-Pacific",
+    "matched_image": "geog-geopolitics.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\geography\\industries-geopolitics\\geog-geopolitics.png"
+  },
+  {
+    "id": "cell-structure",
+    "title": "Cell Structure & Cell Division",
+    "matched_image": "cell_division_mitosis.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\cell_division_mitosis.png"
+  },
+  {
+    "id": "human-systems",
+    "title": "Vital Human Systems & Organs",
+    "matched_image": "human_body_systems.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\human_body_systems.png"
+  },
+  {
+    "id": "diseases",
+    "title": "Human Diseases & Pathogens",
+    "matched_image": "human_body_systems.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\human_body_systems.png"
+  },
+  {
+    "id": "immunity-vaccines",
+    "title": "Immunity & Vaccines",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "plant-kingdom",
+    "title": "Plant Kingdom Classification",
+    "matched_image": "animal_plant_kingdoms.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\animal_plant_kingdoms.png"
+  },
+  {
+    "id": "animal-kingdom",
+    "title": "Animal Kingdom Classification",
+    "matched_image": "animal_plant_kingdoms.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\animal_plant_kingdoms.png"
+  },
+  {
+    "id": "plant-reproduction",
+    "title": "Plant Reproduction & Hormones",
+    "matched_image": "animal_plant_kingdoms.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\animal_plant_kingdoms.png"
+  },
+  {
+    "id": "biology-ecology-basics",
+    "title": "Ecology Basics & Pyramids",
+    "matched_image": "biology-ecology-basics.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\biology\\ecology-ecosystems\\biology-ecology-basics.png"
+  },
+  {
+    "id": "reflection-refraction",
+    "title": "Reflection, Refraction & Lenses",
+    "matched_image": "reflection-refraction.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\physics\\optics-light\\reflection-refraction.png"
+  },
+  {
+    "id": "newtons-laws",
+    "title": "Newton's Laws of Motion",
+    "matched_image": "newtons_laws_mechanics_diagram.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\newtons_laws_mechanics_diagram.png"
+  },
+  {
+    "id": "syl-exercises",
+    "title": "Work, Power, Energy & Gravitation",
+    "matched_image": "syl-exercises.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\physics\\energy-gravitation\\syl-exercises.png"
+  },
+  {
+    "id": "physics-sound",
+    "title": "Sound Waves & Acoustics",
+    "matched_image": "em_waves_chart.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\em_waves_chart.png"
+  },
+  {
+    "id": "physics-em-waves",
+    "title": "Electromagnetic Waves & Spectrum",
+    "matched_image": "em_waves_chart.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\em_waves_chart.png"
+  },
+  {
+    "id": "physics-heat",
+    "title": "Thermodynamics & Heat Transfer",
+    "matched_image": "thermodynamics_heat_diagram.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\thermodynamics_heat_diagram.png"
+  },
+  {
+    "id": "physics-electricity-magnetism",
+    "title": "Electricity, Circuits & Magnetism",
+    "matched_image": "physics_circuit_diagram.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\physics_circuit_diagram.png"
+  },
+  {
+    "id": "physics-nuclear-basics",
+    "title": "Nuclear Physics & Radioactivity",
+    "matched_image": "physics_circuit_diagram.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\physics_circuit_diagram.png"
+  },
+  {
+    "id": "physics-units-everyday",
+    "title": "SI Units & Everyday Physics",
+    "matched_image": "chemistry_reactions_everyday.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\chemistry_reactions_everyday.png"
+  },
+  {
+    "id": "acids-bases",
+    "title": "Acids, Bases & pH Indicators",
+    "matched_image": "acids-bases.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\chemistry\\acids-bases-salts\\acids-bases.png"
+  },
+  {
+    "id": "syl-numerical",
+    "title": "Chemical Bonding & Periodic Table",
+    "matched_image": "atomic_structure_periodic_table.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\atomic_structure_periodic_table.png"
+  },
+  {
+    "id": "metals-alloys",
+    "title": "Metals, Ores, Alloys & Metallurgy",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "reactivity-series",
+    "title": "Reactivity Series & Displacement",
+    "matched_image": "reactivity-series.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\chemistry\\metals-metallurgy\\reactivity-series.png"
+  },
+  {
+    "id": "carbon-compounds",
+    "title": "Carbon & its Compounds",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "chemistry-numericals",
+    "title": "Mole Concept & Concentration Terms",
+    "matched_image": "chemistry_reactions_everyday.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\chemistry_reactions_everyday.png"
+  },
+  {
+    "id": "chemistry-everyday-fertilisers",
+    "title": "Everyday Chemistry, Fertilisers & Fuels",
+    "matched_image": "chemistry_reactions_everyday.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\chemistry_reactions_everyday.png"
+  },
+  {
+    "id": "environmental-chemistry",
+    "title": "Environmental Chemistry & Pollution",
+    "matched_image": "chemistry_reactions_everyday.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\chemistry_reactions_everyday.png"
+  },
+  {
+    "id": "preamble",
+    "title": "Preamble & Sources",
+    "matched_image": "preamble.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\polity\\constitutional-framework\\preamble.png"
+  },
+  {
+    "id": "schedules",
+    "title": "Schedules of the Constitution",
+    "matched_image": "indian_constitution_structure.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\indian_constitution_structure.png"
+  },
+  {
+    "id": "fundamental-rights",
+    "title": "Fundamental Rights (Art 12-35)",
+    "matched_image": "fundamental-rights.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\polity\\constitutional-framework\\fundamental-rights.png"
+  },
+  {
+    "id": "dpsp",
+    "title": "DPSP & Fundamental Duties (Art 36-51A)",
+    "matched_image": "dpsp.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\polity\\constitutional-framework\\dpsp.png"
+  },
+  {
+    "id": "citizenship",
+    "title": "Citizenship (Art 5-11)",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "president",
+    "title": "The President of India (Art 52-62)",
+    "matched_image": "current_affairs_india.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\current_affairs_india.png"
+  },
+  {
+    "id": "parliament",
+    "title": "Parliament of India (Art 79-122)",
+    "matched_image": "current_affairs_india.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\current_affairs_india.png"
+  },
+  {
+    "id": "goverment-executives",
+    "title": "Executives: PM, CM & Governor",
+    "matched_image": "goverment-executives.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\polity\\union-government\\goverment-executives.png"
+  },
+  {
+    "id": "judiciary",
+    "title": "Integrated Judiciary: SC & HC",
+    "matched_image": "judiciary.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\polity\\union-government\\judiciary.png"
+  },
+  {
+    "id": "panchayati-raj",
+    "title": "Local Self-Govt & Panchayati Raj",
+    "matched_image": "panchayati-raj.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\polity\\union-government\\panchayati-raj.png"
+  },
+  {
+    "id": "amendments-parts",
+    "title": "Constitutional Amendments, Parts & Schedules",
+    "matched_image": "flower_parts_diagram.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\flower_parts_diagram.png"
+  },
+  {
+    "id": "important-articles",
+    "title": "High-Yield Special Articles Cheat Sheet",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "positions-tenures",
+    "title": "Elections, Appointments & Terms of Office",
+    "matched_image": "polity_elections_constitution.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\polity_elections_constitution.png"
+  },
+  {
+    "id": "constitutional-bodies",
+    "title": "Constitutional & Non-Constitutional Bodies",
+    "matched_image": "constitutional-bodies.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\polity\\advanced-polity-structures-bodies\\constitutional-bodies.png"
+  },
+  {
+    "id": "governance-emergency",
+    "title": "Emergency Provisions",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "polity-federal-structure",
+    "title": "Federal Structure & Centre-State Relations",
+    "matched_image": "atomic_structure_periodic_table.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\atomic_structure_periodic_table.png"
+  },
+  {
+    "id": "polity-rpa",
+    "title": "Representation of People Act & Election Commission",
+    "matched_image": "polity_elections_constitution.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\polity_elections_constitution.png"
+  },
+  {
+    "id": "what-is-history",
+    "title": "What is History?",
+    "matched_image": "history_1857_revolt_map.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\history_1857_revolt_map.png"
+  },
+  {
+    "id": "sources-indian-history",
+    "title": "Sources of Indian History",
+    "matched_image": "history_1857_revolt_map.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\history_1857_revolt_map.png"
+  },
+  {
+    "id": "dating-systems",
+    "title": "Dating Systems",
+    "matched_image": "human_body_systems.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\human_body_systems.png"
+  },
+  {
+    "id": "stone-age",
+    "title": "Stone Age",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "chalcolithic-age",
+    "title": "Chalcolithic Age",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "rock-art",
+    "title": "Rock Art",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "indus-valley-civilization",
+    "title": "Indus Valley Civilization",
+    "matched_image": "harappan_civilization_map.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\harappan_civilization_map.png"
+  },
+  {
+    "id": "vedic-age",
+    "title": "Vedic Age",
+    "matched_image": "vedic-age.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\history\\3-ancient-india\\vedic-age.png"
+  },
+  {
+    "id": "mahajanapadas",
+    "title": "Mahajanapadas",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "magadha-expansion",
+    "title": "Magadha Expansion",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "buddhism-jainism",
+    "title": "Buddhism & Jainism",
+    "matched_image": "buddhism-jainism.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\history\\3-ancient-india\\buddhism-jainism.png"
+  },
+  {
+    "id": "mauryan-period",
+    "title": "Mauryan Period",
+    "matched_image": "history_mauryan_gupta_map.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\history_mauryan_gupta_map.png"
+  },
+  {
+    "id": "post-mauryan-india",
+    "title": "Post-Mauryan India",
+    "matched_image": "current_affairs_india.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\current_affairs_india.png"
+  },
+  {
+    "id": "gupta-period",
+    "title": "Gupta Period",
+    "matched_image": "history_mauryan_gupta_map.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\history_mauryan_gupta_map.png"
+  },
+  {
+    "id": "south-indian-kingdoms",
+    "title": "South Indian Kingdoms",
+    "matched_image": "animal_plant_kingdoms.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\animal_plant_kingdoms.png"
+  },
+  {
+    "id": "ancient-indian-culture",
+    "title": "Ancient Indian Culture",
+    "matched_image": "indian_constitution_structure.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\indian_constitution_structure.png"
+  },
+  {
+    "id": "early-medieval-india",
+    "title": "Early Medieval India",
+    "matched_image": "current_affairs_india.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\current_affairs_india.png"
+  },
+  {
+    "id": "delhi-sultanate",
+    "title": "Delhi Sultanate",
+    "matched_image": "delhi-sultanate.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\history\\4-medieval-india\\delhi-sultanate.png"
+  },
+  {
+    "id": "vijayanagara-empire",
+    "title": "Vijayanagara Empire",
+    "matched_image": "mughal_empire_map.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\mughal_empire_map.png"
+  },
+  {
+    "id": "bahmani-deccan-sultanates",
+    "title": "Bahmani Kingdom & Deccan Sultanates",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "mughal-empire",
+    "title": "Mughal Empire",
+    "matched_image": "mughal_empire_map.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\mughal_empire_map.png"
+  },
+  {
+    "id": "marathas",
+    "title": "Marathas",
+    "matched_image": "marathas.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\history\\4-medieval-india\\marathas.png"
+  },
+  {
+    "id": "bhakti-movement",
+    "title": "Bhakti Movement",
+    "matched_image": "freedom_movement_timeline.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\freedom_movement_timeline.png"
+  },
+  {
+    "id": "sufi-movement",
+    "title": "Sufi Movement",
+    "matched_image": "freedom_movement_timeline.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\freedom_movement_timeline.png"
+  },
+  {
+    "id": "sikh-history",
+    "title": "Sikh History",
+    "matched_image": "history_1857_revolt_map.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\history_1857_revolt_map.png"
+  },
+  {
+    "id": "european-arrival",
+    "title": "European Arrival",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "british-expansion",
+    "title": "British Expansion",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "economic-impact-british",
+    "title": "Economic Impact of British Rule",
+    "matched_image": "economic-impact-british.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\history\\5-modern-india-highest-priority\\economic-impact-british.png"
+  },
+  {
+    "id": "socio-religious-reform",
+    "title": "Socio-Religious Reform Movements",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "revolt-1857",
+    "title": "Revolt of 1857",
+    "matched_image": "history_1857_revolt_map.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\history_1857_revolt_map.png"
+  },
+  {
+    "id": "governor-generals-viceroys",
+    "title": "Governor-Generals & Viceroys",
+    "matched_image": "governor-generals-viceroys.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\history\\5-modern-india-highest-priority\\governor-generals-viceroys.png"
+  },
+  {
+    "id": "constitutional-development",
+    "title": "Constitutional Development",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "freedom-movement",
+    "title": "Freedom Movement",
+    "matched_image": "freedom_movement_timeline.png",
+    "source": "manual (images/)",
+    "manual_score": 2,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\freedom_movement_timeline.png"
+  },
+  {
+    "id": "post-independence-consolidation",
+    "title": "Post-Independence Consolidation",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "revolutions",
+    "title": "Revolutions",
+    "matched_image": "revolutions.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\history\\6-world-history\\revolutions.png"
+  },
+  {
+    "id": "world-war-i",
+    "title": "World War I",
+    "matched_image": "current_affairs_world.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\current_affairs_world.png"
+  },
+  {
+    "id": "interwar-period",
+    "title": "Interwar Period",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "world-war-ii",
+    "title": "World War II",
+    "matched_image": "current_affairs_world.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\current_affairs_world.png"
+  },
+  {
+    "id": "cold-war",
+    "title": "Cold War",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "international-institutions",
+    "title": "International Institutions",
+    "matched_image": "international-institutions.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\history\\6-world-history\\international-institutions.png"
+  },
+  {
+    "id": "architecture",
+    "title": "Architecture",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "paintings",
+    "title": "Paintings",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "dance-music",
+    "title": "Dance & Music",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "literature",
+    "title": "Literature",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "religion-festivals",
+    "title": "Religion & Festivals",
+    "matched_image": "religion-festivals.jpg",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\history\\7-art-culture-heritage\\religion-festivals.jpg"
+  },
+  {
+    "id": "heritage-sites",
+    "title": "Heritage Sites",
+    "matched_image": "heritage-sites.jpg",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\history\\7-art-culture-heritage\\heritage-sites.jpg"
+  },
+  {
+    "id": "trig-identities",
+    "title": "Trigonometric Identities & Values",
+    "matched_image": "trig-identities.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\mathematics\\trigonometry\\trig-identities.png"
+  },
+  {
+    "id": "inverse-trig",
+    "title": "Inverse Trigonometric Functions",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "quadratic-eq",
+    "title": "Quadratic Equations",
+    "matched_image": "algebra_quadratic_complex.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\algebra_quadratic_complex.png"
+  },
+  {
+    "id": "complex-numbers",
+    "title": "Complex Numbers",
+    "matched_image": "algebra_quadratic_complex.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\algebra_quadratic_complex.png"
+  },
+  {
+    "id": "straight-lines",
+    "title": "Straight Lines",
+    "matched_image": "straight-lines.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\mathematics\\coordinate-geometry-2d-3d\\straight-lines.png"
+  },
+  {
+    "id": "central-tendency",
+    "title": "Measures of Central Tendency",
+    "matched_image": "central-tendency.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\mathematics\\statistics-probability\\central-tendency.png"
+  },
+  {
+    "id": "data-interpretation",
+    "title": "Data Interpretation: Tables, Bar & Pie Charts",
+    "matched_image": "data-interpretation.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\mathematics\\statistics-probability\\data-interpretation.png"
+  },
+  {
+    "id": "limits-continuity",
+    "title": "Limits & Continuity",
+    "matched_image": "calculus_limits_derivatives.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\calculus_limits_derivatives.png"
+  },
+  {
+    "id": "differentiation",
+    "title": "Differentiation Rules",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "integration",
+    "title": "Standard Integration Methods",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "syl-matrices",
+    "title": "Matrices and Determinants",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "syl-probability",
+    "title": "Probability Theory & Bayes Theorem",
+    "matched_image": "statistics_probability.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\statistics_probability.png"
+  },
+  {
+    "id": "lines-angles-triangles",
+    "title": "Lines, Angles & Triangles",
+    "matched_image": "lines-angles-triangles.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\mathematics\\geometry\\lines-angles-triangles.png"
+  },
+  {
+    "id": "circles-polygons",
+    "title": "Circles & Polygons",
+    "matched_image": "circles-polygons.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\mathematics\\geometry\\circles-polygons.png"
+  },
+  {
+    "id": "area-perimeter",
+    "title": "2D Figures: Area & Perimeter",
+    "matched_image": "afcat_embedded_figures.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\afcat_embedded_figures.png"
+  },
+  {
+    "id": "surface-area-volume",
+    "title": "3D Solids: Surface Area & Volume",
+    "matched_image": "surface-area-volume.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\mathematics\\mensuration\\surface-area-volume.png"
+  },
+  {
+    "id": "percentages-profit-loss",
+    "title": "Percentages, Profit & Loss",
+    "matched_image": "arithmetic_percentages.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\arithmetic_percentages.png"
+  },
+  {
+    "id": "ratios-averages",
+    "title": "Ratios, Proportions & Averages",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "time-distance",
+    "title": "Time, Speed, Distance & Work",
+    "matched_image": null,
+    "source": "",
+    "manual_score": 0,
+    "full_path": null
+  },
+  {
+    "id": "syl-numerical-speed",
+    "title": "Time, Speed & Distance Formulas",
+    "matched_image": "syl-numerical-speed.png",
+    "source": "asset (assets/diagrams/)",
+    "manual_score": 0,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\assets\\diagrams\\mathematics\\numerical-aptitude\\syl-numerical-speed.png"
+  },
+  {
+    "id": "syl-numerical-ratios",
+    "title": "Ratios, Proportions & Percentages",
+    "matched_image": "arithmetic_percentages.png",
+    "source": "manual (images/)",
+    "manual_score": 1,
+    "full_path": "C:\\Users\\Trayodh Khandalkar\\.gemini\\antigravity-ide\\scratch\\defence-exams-revision\\images\\arithmetic_percentages.png"
+  }
+]

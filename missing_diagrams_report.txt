@@ -1,0 +1,426 @@
+Topic: Major Industries & Industrial Corridors of India
+Subject: geography
+Chapter: Industries & Geopolitics
+Missing: Diagram needed for Major Industries & Industrial Corridors of India
+Priority: High
+---
+
+Topic: Geopolitical Flashpoints & Indo-Pacific
+Subject: geography
+Chapter: Industries & Geopolitics
+Missing: Diagram needed for Geopolitical Flashpoints & Indo-Pacific
+Priority: High
+---
+
+Topic: Human Diseases & Pathogens
+Subject: biology
+Chapter: Health, Diseases & Nutrition
+Missing: Diagram needed for Human Diseases & Pathogens
+Priority: High
+---
+
+Topic: Immunity & Vaccines
+Subject: biology
+Chapter: Health, Diseases & Nutrition
+Missing: Diagram needed for Immunity & Vaccines
+Priority: High
+---
+
+Topic: Animal Kingdom Classification
+Subject: biology
+Chapter: Plant & Animal Kingdoms
+Missing: Diagram needed for Animal Kingdom Classification
+Priority: High
+---
+
+Topic: Sound Waves & Acoustics
+Subject: physics
+Chapter: Waves & Acoustics
+Missing: Diagram needed for Sound Waves & Acoustics
+Priority: High
+---
+
+Topic: Electromagnetic Waves & Spectrum
+Subject: physics
+Chapter: Waves & Acoustics
+Missing: Diagram needed for Electromagnetic Waves & Spectrum
+Priority: High
+---
+
+Topic: SI Units & Everyday Physics
+Subject: physics
+Chapter: Modern Physics & Units
+Missing: Diagram needed for SI Units & Everyday Physics
+Priority: High
+---
+
+Topic: Metals, Ores, Alloys & Metallurgy
+Subject: chemistry
+Chapter: Metals & Metallurgy
+Missing: Diagram needed for Metals, Ores, Alloys & Metallurgy
+Priority: High
+---
+
+Topic: Reactivity Series & Displacement
+Subject: chemistry
+Chapter: Metals & Metallurgy
+Missing: Diagram needed for Reactivity Series & Displacement
+Priority: High
+---
+
+Topic: Carbon & its Compounds
+Subject: chemistry
+Chapter: Carbon Compounds & Numericals
+Missing: Diagram needed for Carbon & its Compounds
+Priority: High
+---
+
+Topic: Schedules of the Constitution
+Subject: polity
+Chapter: Constitutional Framework
+Missing: Diagram needed for Schedules of the Constitution
+Priority: High
+---
+
+Topic: Citizenship (Art 5-11)
+Subject: polity
+Chapter: Constitutional Framework
+Missing: Diagram needed for Citizenship (Art 5-11)
+Priority: High
+---
+
+Topic: The President of India (Art 52-62)
+Subject: polity
+Chapter: Union Government
+Missing: Diagram needed for The President of India (Art 52-62)
+Priority: High
+---
+
+Topic: Constitutional Amendments, Parts & Schedules
+Subject: polity
+Chapter: Advanced Polity Structures & Bodies
+Missing: Diagram needed for Constitutional Amendments, Parts & Schedules
+Priority: High
+---
+
+Topic: High-Yield Special Articles Cheat Sheet
+Subject: polity
+Chapter: Advanced Polity Structures & Bodies
+Missing: Diagram needed for High-Yield Special Articles Cheat Sheet
+Priority: High
+---
+
+Topic: Emergency Provisions
+Subject: polity
+Chapter: Advanced Polity Structures & Bodies
+Missing: Diagram needed for Emergency Provisions
+Priority: High
+---
+
+Topic: Federal Structure & Centre-State Relations
+Subject: polity
+Chapter: Federal Structure & Election Law
+Missing: Diagram needed for Federal Structure & Centre-State Relations
+Priority: High
+---
+
+Topic: What is History?
+Subject: history
+Chapter: 1. Historiography & Historical Foundations
+Missing: Diagram needed for What is History?
+Priority: High
+---
+
+Topic: Sources of Indian History
+Subject: history
+Chapter: 1. Historiography & Historical Foundations
+Missing: Diagram needed for Sources of Indian History
+Priority: High
+---
+
+Topic: Dating Systems
+Subject: history
+Chapter: 1. Historiography & Historical Foundations
+Missing: Diagram needed for Dating Systems
+Priority: High
+---
+
+Topic: Stone Age
+Subject: history
+Chapter: 2. Prehistoric India
+Missing: Diagram needed for Stone Age
+Priority: High
+---
+
+Topic: Chalcolithic Age
+Subject: history
+Chapter: 2. Prehistoric India
+Missing: Diagram needed for Chalcolithic Age
+Priority: High
+---
+
+Topic: Rock Art
+Subject: history
+Chapter: 2. Prehistoric India
+Missing: Diagram needed for Rock Art
+Priority: High
+---
+
+Topic: Mahajanapadas
+Subject: history
+Chapter: 3. Ancient India
+Missing: Diagram needed for Mahajanapadas
+Priority: High
+---
+
+Topic: Magadha Expansion
+Subject: history
+Chapter: 3. Ancient India
+Missing: Diagram needed for Magadha Expansion
+Priority: High
+---
+
+Topic: Post-Mauryan India
+Subject: history
+Chapter: 3. Ancient India
+Missing: Diagram needed for Post-Mauryan India
+Priority: High
+---
+
+Topic: South Indian Kingdoms
+Subject: history
+Chapter: 3. Ancient India
+Missing: Diagram needed for South Indian Kingdoms
+Priority: High
+---
+
+Topic: Ancient Indian Culture
+Subject: history
+Chapter: 3. Ancient India
+Missing: Diagram needed for Ancient Indian Culture
+Priority: High
+---
+
+Topic: Vijayanagara Empire
+Subject: history
+Chapter: 4. Medieval India
+Missing: Diagram needed for Vijayanagara Empire
+Priority: High
+---
+
+Topic: Bahmani Kingdom & Deccan Sultanates
+Subject: history
+Chapter: 4. Medieval India
+Missing: Diagram needed for Bahmani Kingdom & Deccan Sultanates
+Priority: High
+---
+
+Topic: Bhakti Movement
+Subject: history
+Chapter: 4. Medieval India
+Missing: Diagram needed for Bhakti Movement
+Priority: High
+---
+
+Topic: Sufi Movement
+Subject: history
+Chapter: 4. Medieval India
+Missing: Diagram needed for Sufi Movement
+Priority: High
+---
+
+Topic: Sikh History
+Subject: history
+Chapter: 4. Medieval India
+Missing: Diagram needed for Sikh History
+Priority: High
+---
+
+Topic: European Arrival
+Subject: history
+Chapter: 5. Modern India (Highest Priority)
+Missing: Diagram needed for European Arrival
+Priority: High
+---
+
+Topic: British Expansion
+Subject: history
+Chapter: 5. Modern India (Highest Priority)
+Missing: Diagram needed for British Expansion
+Priority: High
+---
+
+Topic: Economic Impact of British Rule
+Subject: history
+Chapter: 5. Modern India (Highest Priority)
+Missing: Diagram needed for Economic Impact of British Rule
+Priority: High
+---
+
+Topic: Socio-Religious Reform Movements
+Subject: history
+Chapter: 5. Modern India (Highest Priority)
+Missing: Diagram needed for Socio-Religious Reform Movements
+Priority: High
+---
+
+Topic: Constitutional Development
+Subject: history
+Chapter: 5. Modern India (Highest Priority)
+Missing: Diagram needed for Constitutional Development
+Priority: High
+---
+
+Topic: Post-Independence Consolidation
+Subject: history
+Chapter: 5. Modern India (Highest Priority)
+Missing: Diagram needed for Post-Independence Consolidation
+Priority: High
+---
+
+Topic: Interwar Period
+Subject: history
+Chapter: 6. World History
+Missing: Diagram needed for Interwar Period
+Priority: High
+---
+
+Topic: Cold War
+Subject: history
+Chapter: 6. World History
+Missing: Diagram needed for Cold War
+Priority: High
+---
+
+Topic: Architecture
+Subject: history
+Chapter: 7. Art, Culture & Heritage
+Missing: Diagram needed for Architecture
+Priority: High
+---
+
+Topic: Paintings
+Subject: history
+Chapter: 7. Art, Culture & Heritage
+Missing: Diagram needed for Paintings
+Priority: High
+---
+
+Topic: Dance & Music
+Subject: history
+Chapter: 7. Art, Culture & Heritage
+Missing: Diagram needed for Dance & Music
+Priority: High
+---
+
+Topic: Literature
+Subject: history
+Chapter: 7. Art, Culture & Heritage
+Missing: Diagram needed for Literature
+Priority: High
+---
+
+Topic: Religion & Festivals
+Subject: history
+Chapter: 7. Art, Culture & Heritage
+Missing: Diagram needed for Religion & Festivals
+Priority: High
+---
+
+Topic: Heritage Sites
+Subject: history
+Chapter: 7. Art, Culture & Heritage
+Missing: Diagram needed for Heritage Sites
+Priority: High
+---
+
+Topic: Inverse Trigonometric Functions
+Subject: mathematics
+Chapter: Trigonometry
+Missing: Diagram needed for Inverse Trigonometric Functions
+Priority: High
+---
+
+Topic: Quadratic Equations
+Subject: mathematics
+Chapter: Algebra & Complex Numbers
+Missing: Diagram needed for Quadratic Equations
+Priority: High
+---
+
+Topic: Complex Numbers
+Subject: mathematics
+Chapter: Algebra & Complex Numbers
+Missing: Diagram needed for Complex Numbers
+Priority: High
+---
+
+Topic: Measures of Central Tendency
+Subject: mathematics
+Chapter: Statistics & Probability
+Missing: Diagram needed for Measures of Central Tendency
+Priority: High
+---
+
+Topic: Limits & Continuity
+Subject: mathematics
+Chapter: Calculus
+Missing: Diagram needed for Limits & Continuity
+Priority: High
+---
+
+Topic: Differentiation Rules
+Subject: mathematics
+Chapter: Calculus
+Missing: Diagram needed for Differentiation Rules
+Priority: High
+---
+
+Topic: Standard Integration Methods
+Subject: mathematics
+Chapter: Calculus
+Missing: Diagram needed for Standard Integration Methods
+Priority: High
+---
+
+Topic: Matrices and Determinants
+Subject: mathematics
+Chapter: Algebra & Matrices
+Missing: Diagram needed for Matrices and Determinants
+Priority: High
+---
+
+Topic: 2D Figures: Area & Perimeter
+Subject: mathematics
+Chapter: Mensuration
+Missing: Diagram needed for 2D Figures: Area & Perimeter
+Priority: High
+---
+
+Topic: Percentages, Profit & Loss
+Subject: mathematics
+Chapter: Arithmetic
+Missing: Diagram needed for Percentages, Profit & Loss
+Priority: High
+---
+
+Topic: Ratios, Proportions & Averages
+Subject: mathematics
+Chapter: Arithmetic
+Missing: Diagram needed for Ratios, Proportions & Averages
+Priority: High
+---
+
+Topic: Time, Speed & Distance Formulas
+Subject: mathematics
+Chapter: Numerical Aptitude
+Missing: Diagram needed for Time, Speed & Distance Formulas
+Priority: High
+---
+
+Topic: Ratios, Proportions & Percentages
+Subject: mathematics
+Chapter: Numerical Aptitude
+Missing: Diagram needed for Ratios, Proportions & Percentages
+Priority: High
+---

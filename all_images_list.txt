@@ -1,0 +1,234 @@
+Biology\Cell\Plant & Animal cell.png
+Biology\Cell\Prokaryotic & Eukaryotic cells.png
+Biology\Genetics\Cell reproduction.png
+Biology\Genetics\DNA & RNA.png
+Biology\Genetics\DNA.png
+Biology\Human Systems\Blood Circulation.png
+Biology\Human Systems\Central Nervous System.png
+Biology\Human Systems\Digestive system.png
+Biology\Human Systems\Endocrine system.png
+Biology\Human Systems\Human ear.png
+Biology\Human Systems\Human eye.png
+Biology\Human Systems\Respiratory system.png
+Biology\Human Systems\Sexual organs.png
+Biology\Human Systems\Urinary system.png
+Biology\Plant biology\Flower.png
+Biology\Plant biology\Leaf structure.png
+Biology\Plant biology\Photosynthesis.png
+Biology\Plant biology\Root types.png
+Biology\Plant biology\Seed growth.png
+Biology\Plant biology\Stem modifications.png
+Biology\Plant biology\Xylem & phloem.png
+Chemistry\Acids bases\PH Scale.png
+Chemistry\Atomic structure\30 first elements valency.png
+Chemistry\Atomic structure\Bohr's Atomic Model.png
+Chemistry\Atomic structure\Electron configuration.png
+Chemistry\Chemical Bonding\Hydrogen Bond.png
+Chemistry\Chemical Bonding\Types of bonds.png
+Chemistry\Electrochemistry\Type of cells 2.png
+Chemistry\Electrochemistry\Type of cells.png
+Chemistry\Industrial Chemistry\Contact process.png
+Chemistry\Industrial Chemistry\Haber process.png
+Chemistry\Mole concept\Mole concept.png
+Chemistry\Periodic Table\MutedPeriodicTable.png
+Chemistry\Periodic Table\Periodic Table.png
+Chemistry\Periodic Table\PeriodicTableBoilingPoint.png
+Ecology and Environment\Biodiversity hotspots of India.png
+Ecology and Environment\Carbon cycle.png
+Ecology and Environment\Food chain.png
+Ecology and Environment\Food pyramid.png
+Ecology and Environment\Food web.png
+Ecology and Environment\Greenhouse Effect.png
+Ecology and Environment\National Parks of India.png
+Ecology and Environment\Nitrogen Cycle.png
+Ecology and Environment\Ozone layer depletion.png
+Ecology and Environment\Ramsar Site of India.png
+Ecology and Environment\Tiger Reserves of India.png
+Ecology and Environment\Water Cycle.png
+Ecology and Environment\Wild Life Sanctuaries of India.png
+Economics\demand reads.png
+Economics\Economic Cycle.png
+Economics\Fiscal Deficit.png
+Economics\Flow of Income.png
+Economics\Indian Banking System.png
+Economics\Inflation Types.png
+Economics\Keynesian Multiplier Effect.png
+Economics\Market Dynamics.png
+Economics\Parts of Budget.png
+Economics\RBI functions.png
+Economics\Supply variations.png
+Economics\Taxes.png
+Geography\Atmosphere-climatology\Anticyclone.png
+Geography\Atmosphere-climatology\Atmospheric layers.png
+Geography\Atmosphere-climatology\Cyclone.png
+Geography\Atmosphere-climatology\Indian Monsoon.png
+Geography\Atmosphere-climatology\Jet Streams.png
+Geography\Atmosphere-climatology\Planetary winds.png
+Geography\Atmosphere-climatology\Pressure Belts.png
+Geography\Earth basics\Earth's rotation and seasons.png
+Geography\Earth basics\Earth's Rotation.png
+Geography\Earth basics\Internal structure of Earth.png
+Geography\Earth basics\International Date Line.png
+Geography\Earth basics\Longitudes.png
+Geography\Earth basics\Various Geographic lines.png
+Geography\Earth basics\World Time Zones.png
+Geography\Geomorphology\Coastal landforms.png
+Geography\Geomorphology\Desert landforms.png
+Geography\Geomorphology\Earth Interior.png
+Geography\Geomorphology\Earthquakes.png
+Geography\Geomorphology\Erosion of rocks.png
+Geography\Geomorphology\Fold Mountains.png
+Geography\Geomorphology\Glacier Landforms.png
+Geography\Geomorphology\Plate tectonics.png
+Geography\Geomorphology\River landforms.png
+Geography\Geomorphology\Rock cycle (2).png
+Geography\Geomorphology\Rock Cycle.png
+Geography\Geomorphology\Volcano.png
+Geography\Geomorphology\Weathering of rocks.png
+Geography\Map (World)\Ocean Currents World.png
+Geography\Map (World)\World Canals.png
+Geography\Map (World)\World Climatic Zones.png
+Geography\Map (World)\World Continent and Oceans.png
+Geography\Map (World)\World Deserts.png
+Geography\Map (World)\World Earthquake areas.png
+Geography\Map (World)\World Mountains.png
+Geography\Map (World)\World Rivers.png
+Geography\Map (World)\World Straits.png
+Geography\Map (World)\World Time Zones.png
+Geography\Map (World)\World Volcanoes.png
+Geography\Maps (Indian)\Climate of India.png
+Geography\Maps (Indian)\India Political Map.png
+Geography\Maps (Indian)\Indian Airports.png
+Geography\Maps (Indian)\Indian Biosphere Reserves.png
+Geography\Maps (Indian)\Indian Crops.png
+Geography\Maps (Indian)\Indian Deserts.png
+Geography\Maps (Indian)\Indian Mineral Resources.png
+Geography\Maps (Indian)\Indian Mountains.png
+Geography\Maps (Indian)\Indian Ports.png
+Geography\Maps (Indian)\Indian Rainfall.png
+Geography\Maps (Indian)\Indian soils.png
+Geography\Maps (Indian)\National Parks of India.png
+Geography\Maps (Indian)\Passes.png
+Geography\Maps (Indian)\Physical map India.png
+Geography\Maps (Indian)\Plateaus.png
+Geography\Maps (Indian)\Ramsar Sites of India.png
+Geography\Maps (Indian)\Rivers of India.png
+Geography\Maps (Indian)\Tiger Reserves.png
+Geography\Oceanography\Coral Reef.png
+Geography\Oceanography\Sea's topography.png
+Geography\Oceanography\Tides.png
+Geography\Oceanography\World Ocean Currents.png
+History\Ancient\Ashokan Edicts.png
+History\Ancient\Buddhism.png
+History\Ancient\Gupta Empire.png
+History\Ancient\Indus Valley.png
+History\Ancient\Mauryan Empire.png
+History\Ancient\Vedic social heirarchy.png
+History\Medieval\Battle formations.png
+History\Medieval\Delhi Sultanate.png
+History\Medieval\Mansabdari system.png
+History\Medieval\Marathas.png
+History\Medieval\Mughal administration.png
+History\Modern\Gandhian Era.png
+History\Modern\Governor Generals of India.png
+History\Modern\Indian National Congress.png
+History\Modern\Revolt of 1857.png
+History\World\French Revolution.png
+History\World\Industrial Revolution.png
+History\World\League of Nations.png
+History\World\Russian Revolution.png
+History\World\United Nations.png
+History\World\Wold War 1 prelude.png
+History\World\World War 2.png
+Maths\Coordinate geometry\Co-ordinate geometry.png
+Maths\Coordinate geometry\Co-ordinate system.png
+Maths\Coordinate geometry\Distance formula.png
+Maths\Coordinate geometry\Midpoint formula.png
+Maths\Geometry\Angles and arcs.png
+Maths\Geometry\Circle.png
+Maths\Geometry\Congruence of triangles.png
+Maths\Geometry\Cyclic quadrilateral.png
+Maths\Geometry\Pythagoras Theoram.png
+Maths\Geometry\Shapes.png
+Maths\Geometry\Similar triangles.jpeg
+Maths\Geometry\Types of triangles.png
+Maths\Mensuration\Cone & Frustum.png
+Maths\Mensuration\Cube.png
+Maths\Mensuration\Cuboid.png
+Maths\Mensuration\Cylinder.png
+Maths\Mensuration\Mensurations.png
+Maths\Mensuration\Pyramid.png
+Maths\Probability\Probability.png
+Maths\Probability\Venn diagram.png
+Maths\Statistics\Statistical Data Visualization.png
+Maths\Trigonometry\angle of depression.png
+Maths\Trigonometry\angle of elevation.png
+Maths\Trigonometry\pi unit circle.png
+Maths\Trigonometry\trigo ratios.png
+Physics\Electricity\DC Electric motor.png
+Physics\Electricity\Earthing.png
+Physics\Electricity\ELectric system.png
+Physics\Electricity\Electromechanial power generation.png
+Physics\Electricity\Fuse.png
+Physics\Electricity\MCB.png
+Physics\Electricity\Series vs Parallel.png
+Physics\Electricity\Transformer.png
+Physics\Electricity\Voltmeter & Ammeter.png
+Physics\Electricity\Wheatstone Bridge.png
+Physics\Heat\Methods of heat transfer.png
+Physics\Heat\Thermal Expansion.png
+Physics\Light\Compound microscope.png
+Physics\Light\Concave mirror-object inside focal point.png
+Physics\Light\Convex & Concav lens.png
+Physics\Light\Convex mirror.png
+Physics\Light\Human eye.png
+Physics\Light\Hypermetropia.png
+Physics\Light\Laws of reflections.png
+Physics\Light\Myopia.png
+Physics\Light\Presbyopia.png
+Physics\Light\Prism light dispersion.png
+Physics\Light\Refracting Telescope.png
+Physics\Light\Refraction.png
+Physics\Light\Single reflex camera.png
+Physics\Light\Total Internal Reflection.png
+Physics\Magnetism\Electromagnetism.png
+Physics\Magnetism\Fleming's Hand Rules.png
+Physics\Magnetism\Magnetic field.png
+Physics\Magnetism\Solenoid.png
+Physics\Mechanics\Classes of Lever.png
+Physics\Mechanics\Free Body.png
+Physics\Mechanics\Gears.png
+Physics\Mechanics\Parallelogram Law.png
+Physics\Mechanics\Perpendicular force.png
+Physics\Mechanics\Projectile motion.png
+Physics\Mechanics\Pulley.png
+Physics\Mechanics\Types of pulley systems.png
+Physics\Mechanics\Uniform Circular Motion.png
+Physics\Mechanics\Wheel.png
+Physics\Modern physics\Atomic Models.png
+Physics\Modern physics\Fission & Fusion.png
+Physics\Modern physics\Structure of Atom.png
+Polity-20260731T070614Z-1-001\Polity\Articles related to Constitutional Bodies.png
+Polity-20260731T070614Z-1-001\Polity\CAG.png
+Polity-20260731T070614Z-1-001\Polity\Constitution of India.png
+Polity-20260731T070614Z-1-001\Polity\Courts Hierarchy.png
+Polity-20260731T070614Z-1-001\Polity\Finance Commission.png
+Polity-20260731T070614Z-1-001\Polity\Fundamental Duties.png
+Polity-20260731T070614Z-1-001\Polity\Governor.png
+Polity-20260731T070614Z-1-001\Polity\Legislative Process.png
+Polity-20260731T070614Z-1-001\Polity\Panchayati & Municipal Corps.png
+Polity-20260731T070614Z-1-001\Polity\Parliament.png
+Polity-20260731T070614Z-1-001\Polity\Preamble.png
+Polity-20260731T070614Z-1-001\Polity\Structure of Union Executive.png
+Polity-20260731T070614Z-1-001\Polity\Types of Elections.png
+Polity-20260731T070614Z-1-001\Polity\UPSC.png
+Polity-20260731T070614Z-1-001\Polity\Vice President.png
+Reasoning AFCAT-20260731T070612Z-1-001\Reasoning AFCAT\Blood Relations.png
+Reasoning AFCAT-20260731T070612Z-1-001\Reasoning AFCAT\Calendar.png
+Reasoning AFCAT-20260731T070612Z-1-001\Reasoning AFCAT\Clock.png
+Reasoning AFCAT-20260731T070612Z-1-001\Reasoning AFCAT\Dice or cube.png
+Reasoning AFCAT-20260731T070612Z-1-001\Reasoning AFCAT\Directions.png
+Reasoning AFCAT-20260731T070612Z-1-001\Reasoning AFCAT\Image patterns 2.png
+Reasoning AFCAT-20260731T070612Z-1-001\Reasoning AFCAT\Image patterns.png
+Reasoning AFCAT-20260731T070612Z-1-001\Reasoning AFCAT\Seating arrangement.png
+Reasoning AFCAT-20260731T070612Z-1-001\Reasoning AFCAT\Venn diagram.png

@@ -1254,6 +1254,29 @@ function renderTopicView(subjectId, chapterId, topicId) {
             }, 100);
             return html;
           })()}
+          ${(() => {
+            if (typeof window.DIAGRAM_INDEX === 'undefined') return '';
+            const subData = window.DIAGRAM_INDEX[subjectId];
+            if (!subData) return '';
+            const chapData = subData[chapter.title];
+            if (!chapData) return '';
+            const topData = chapData[topic.title];
+            if (!topData || topData.length === 0) return '';
+            
+            let html = '<div class="diagram-index-visuals" style="margin-top: 24px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.1);">';
+            html += '<div style="color: var(--accent); font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;">[ TOPIC DIAGRAMS ]</div>';
+            topData.forEach(img => {
+                html += '<div class="visual-card" style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; margin-bottom: 16px; border: 1px solid rgba(255,255,255,0.05);">';
+                html += '<h4 style="margin: 0 0 8px 0; color: #e2e8f0; font-size: 0.95rem;">' + (img.title || '') + '</h4>';
+                html += '<img src="' + img.newPath + '" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />';
+                if (img.keywords && img.keywords.length > 0) {
+                    html += '<div style="font-size: 0.7rem; color: var(--text-muted); margin-top: 8px;">Tags: ' + img.keywords.join(', ') + '</div>';
+                }
+                html += '</div>';
+            });
+            html += '</div>';
+            return html;
+          })()}
         </div>
       </div>
     `;
