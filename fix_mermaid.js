@@ -1,1 +1,30 @@
-const fs = require('fs'); const glob = require('glob'); glob.sync('*.js').forEach(file => { let content = fs.readFileSync(file, 'utf8'); let modified = false; const regex = /<div class="mermaid">([\s\S]*?)<\/div>/g; content = content.replace(regex, (match, inner) => { if (inner.includes('and')) { modified = true; let fixed = inner.replace(/and/g, 'and').replace(/and/g, 'and'); return '<div class="mermaid">' + fixed + '</div>'; } return match; }); if (modified) { fs.writeFileSync(file, content); console.log('Fixed ' + file); } });
+const fs = require('fs');
+
+const files = fs.readdirSync('.').filter(f => f.endsWith('.js'));
+let totalFixed = 0;
+
+for (const file of files) {
+  let content = fs.readFileSync(file, 'utf8');
+  let original = content;
+  
+  // Replace: ([\"  with  ([\"
+  content = content.split('[\\\"(').join('([\\"');
+  
+  // Replace: \"])  with  \"])
+  content = content.split('\\\"])').join('\\"])');
+  
+  // Wait, \\\"]) actually is already the correct shape for the right side of a stadium node if we are using (["Text"])
+  // So:
+  // if text has `Cell([\"Eukaryotic Cell\"])`, replacing `([\"` with `([\"` gives `Cell([\"Eukaryotic Cell\"])` which is perfect for Mermaid!
+  // It gives: Cell(["Eukaryotic Cell"])
+
+  // Also replace for normal mindmap things if they use (["
+  content = content.split('(["').join('(["');
+  
+  if (content !== original) {
+     console.log('Fixed syntax in ' + file);
+     fs.writeFileSync(file, content);
+     totalFixed++;
+  }
+}
+console.log('Total files fixed: ' + totalFixed);

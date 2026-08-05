@@ -122,7 +122,7 @@ function parseFlowchart(code) {
 // Read the file and replace blocks
 let text = fs.readFileSync('question_banks/pathfinder_bank.json', 'utf8');
 
-const regex = /```mermaid\r?\n([\s\S]*?)```/g;
+const regex = //g;
 let modified = text.replace(regex, (m, code) => {
   try {
     const data = parseMermaid(code);

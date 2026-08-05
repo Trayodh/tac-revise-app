@@ -32,43 +32,43 @@ const TOPIC_MAPS = {
   "2d-geometry": [
     {
       "title": "2D Geometry & Mensuration",
-      "src": "images/mensuration_geometry_formulas.png"
+      "src": "images/coordinate_geometry.png"
     }
   ],
   "geometry": [
     {
       "title": "Geometry Shapes & Formulas",
-      "src": "images/mensuration_geometry_formulas.png"
+      "src": "images/coordinate_geometry.png"
     }
   ],
   "lines-angles-triangles": [
     {
       "title": "Lines, Angles & Triangle Properties",
-      "src": "images/mensuration_geometry_formulas.png"
+      "src": "images/coordinate_geometry.png"
     }
   ],
   "circles-polygons": [
     {
       "title": "Circles & Polygon Formulas",
-      "src": "images/mensuration_geometry_formulas.png"
+      "src": "images/coordinate_geometry.png"
     }
   ],
   "mensuration": [
     {
       "title": "Mensuration: Area, Volume & Surface Area",
-      "src": "images/mensuration_geometry_formulas.png"
+      "src": "images/coordinate_geometry.png"
     }
   ],
   "area-perimeter": [
     {
       "title": "Area & Perimeter Formulas",
-      "src": "images/mensuration_geometry_formulas.png"
+      "src": "images/coordinate_geometry.png"
     }
   ],
   "surface-area-volume": [
     {
       "title": "Surface Area & Volume of 3D Solids",
-      "src": "images/mensuration_geometry_formulas.png"
+      "src": "images/coordinate_geometry.png"
     }
   ],
   "algebra-complex": [
@@ -576,13 +576,13 @@ const TOPIC_MAPS = {
     },
     {
       "title": "Sound Waves Diagram",
-      "src": "images/sound_waves_diagram.png"
+      "src": "images/em_waves_chart.png"
     }
   ],
   "physics-sound": [
     {
       "title": "Sound Waves & Doppler Effect",
-      "src": "images/sound_waves_diagram.png"
+      "src": "images/em_waves_chart.png"
     }
   ],
   "physics-em-waves": [
@@ -2002,7 +2002,12 @@ function renderNotesBrowser() {
           document.querySelectorAll(".topic-link").forEach(l => l.classList.remove("active"));
           topicLink.classList.add("active");
           renderTopicView(subjectId, chapter.id, topic.id);
-          renderNotesBrowser();
+          // Switch to the content view panel
+          const chaptersView = document.getElementById('notes-view-chapters');
+          const contentView = document.getElementById('notes-view-content');
+          if (chaptersView) chaptersView.style.display = 'none';
+          if (contentView) contentView.style.display = 'block';
+          if (typeof updateBreadcrumbs === 'function') updateBreadcrumbs();
         });
         chapterDiv.appendChild(topicLink);
       });
@@ -2452,29 +2457,6 @@ function renderTopicView(subjectId, chapterId, topicId) {
   }
 }
 
-function setNotesTab(tab) {
-  activeNotesTab = tab;
-  if (selectedSubjectId && selectedChapterId && selectedTopicId) {
-    renderTopicView(selectedSubjectId, selectedChapterId, selectedTopicId);
-  }
-}
-
-function navigateToTopic(subjectId, chapterId, topicId) {
-  selectedSubjectId = subjectId;
-  selectedChapterId = chapterId;
-  selectedTopicId = topicId;
-  
-  const subject = NOTES_DATABASE[subjectId];
-  const chapter = subject.chapters.find(c => c.id === chapterId);
-  const topic = chapter.topics.find(t => t.id === topicId);
-  if (activeNotesTab === 'mindmap' && (!topic || !topic.mindmap)) {
-    activeNotesTab = 'notes';
-  }
-  
-  renderTopicView(subjectId, chapterId, topicId);
-  renderNotesBrowser();
-}
-
 function toggleFocusReadingMode() {
   distractionFreeMode = !distractionFreeMode;
   
@@ -2547,4 +2529,81 @@ function toggleFormulaReadStatus(topicId, button) {
     renderTopicView(selectedSubjectId, selectedChapterId, topicId);
   }
 }
-
+
+// ==========================================
+// Image Zoom Modal
+// ==========================================
+function zoomImage(src, title) {
+  // Remove existing modal if present
+  const existing = document.getElementById('image-zoom-modal');
+  if (existing) existing.remove();
+
+  const modal = document.createElement('div');
+  modal.id = 'image-zoom-modal';
+  modal.style.cssText = `
+    position: fixed; inset: 0; z-index: 99999;
+    background: rgba(0,0,0,0.92);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 20px; box-sizing: border-box;
+    backdrop-filter: blur(6px);
+    animation: fadeIn 0.2s ease;
+  `;
+  modal.innerHTML = `
+    <div style="max-width: 95vw; max-height: 90vh; display: flex; flex-direction: column; align-items: center; gap: 12px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 0 4px;">
+        <span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--accent); font-weight: 700; letter-spacing: 1px; text-transform: uppercase;">${title || 'Diagram'}</span>
+        <button onclick="document.getElementById('image-zoom-modal').remove()" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); color: #fff; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; font-family: var(--font-mono);">✕ Close</button>
+      </div>
+      <img src="${src}" alt="${title || 'Diagram'}" style="max-width: 95vw; max-height: 80vh; object-fit: contain; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 8px 32px rgba(0,0,0,0.5);">
+    </div>
+  `;
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) modal.remove();
+  });
+  document.body.appendChild(modal);
+}
+
+// Subject filter button binding (re-bind on notes browser render)
+document.querySelectorAll('[data-subject-filter]').forEach(btn => {
+  // Remove existing listeners by cloning
+  const fresh = btn.cloneNode(true);
+  btn.parentNode.replaceChild(fresh, btn);
+  fresh.addEventListener('click', () => {
+    document.querySelectorAll('[data-subject-filter]').forEach(b => b.classList.remove('active'));
+    fresh.classList.add('active');
+    currentSubjectFilter = fresh.getAttribute('data-subject-filter');
+    renderNotesBrowser();
+  });
+});
+// ==========================================
+// View Navigation Functions  
+// ==========================================
+
+window.openNotesSubject = function(subjectId, pushState = true) {
+  if (pushState) {
+    window.location.hash = 'notes/' + subjectId;
+    return;
+  }
+  currentSubjectFilter = subjectId;
+  const subjectsView = document.getElementById('notes-view-subjects');
+  const chaptersView = document.getElementById('notes-view-chapters');
+  const contentView = document.getElementById('notes-view-content');
+  if (subjectsView) subjectsView.style.display = 'none';
+  if (chaptersView) chaptersView.style.display = 'block';
+  if (contentView) contentView.style.display = 'none';
+  const titleEl = document.getElementById('notes-active-subject-title');
+  if (titleEl && typeof NOTES_DATABASE !== 'undefined' && NOTES_DATABASE[subjectId]) {
+    titleEl.textContent = NOTES_DATABASE[subjectId].title;
+  }
+  renderNotesBrowser();
+  if (typeof updateBreadcrumbs === 'function') updateBreadcrumbs();
+};
+
+window.backToNotesChapters = function() {
+  const chaptersView = document.getElementById('notes-view-chapters');
+  const contentView = document.getElementById('notes-view-content');
+  if (chaptersView) chaptersView.style.display = 'block';
+  if (contentView) contentView.style.display = 'none';
+  if (typeof updateBreadcrumbs === 'function') updateBreadcrumbs();
+};

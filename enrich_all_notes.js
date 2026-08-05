@@ -56,7 +56,7 @@ async function processFile(mapping) {
     }
 
     let fileContent = fs.readFileSync(mapping.file, 'utf8');
-    const regex = /EXPANDED_NOTES_DATA\["([^"]+)"\]\s*=\s*`([\s\S]*?)`;\s*(?=EXPANDED_NOTES_DATA|$)/g;
+    const regex = /EXPANDED_NOTES_DATA\(["[^"]+)"\]\s*=\s*`([\s\S]*?)`;\s*(?=EXPANDED_NOTES_DATA|$)/g;
     
     let match;
     const topics = [];

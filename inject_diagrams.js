@@ -87,7 +87,7 @@ async function injectDiagrams() {
     // Or in notes_data.js: id: "topic-id"
     let allTopicIds = [];
     for (const [file, content] of Object.entries(dbContents)) {
-        const regex1 = /window\.EXPANDED_NOTES_DATA\["([^"]+)"\]/g;
+        const regex1 = /window\.EXPANDED_NOTES_DATA\(["[^"]+)"\]/g;
         let match;
         while ((match = regex1.exec(content)) !== null) {
             allTopicIds.push(match[1]);

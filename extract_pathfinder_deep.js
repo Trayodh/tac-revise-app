@@ -190,7 +190,7 @@ async function processSubject(subjectKey) {
   const existingIds = new Set();
   if (fs.existsSync(outputFile)) {
     const existing = fs.readFileSync(outputFile, 'utf8');
-    const matches = [...existing.matchAll(/EXPANDED_NOTES_DATA\["([^"]+)"\]/g)];
+    const matches = [...existing.matchAll(/EXPANDED_NOTES_DATA\(["[^"]+)"\]/g)];
     matches.forEach(m => existingIds.add(m[1]));
     console.log(`  ↺ Resuming ${subjectKey}: ${existingIds.size} topics already done.`);
   } else {

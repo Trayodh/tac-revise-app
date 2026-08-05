@@ -4857,7 +4857,7 @@ const CBT_EXAMS_DATABASE = [
       },
       {
         question: "What is the focus of the parabola y² = 12x?",
-        options: ["(3, 0)", "(0, 3)", "(-3, 0)", "(6, 0)"],
+        options: (["3, 0)", "(0, 3)", "(-3, 0)", "(6, 0)"],
         correct: 0,
         explanation: "Standard form y² = 4ax. Here, 4a = 12 => a = 3. The focus of y²=4ax is (a, 0), which is (3, 0). Option A is correct."
       },
@@ -5855,7 +5855,7 @@ const CBT_EXAMS_DATABASE = [
       },
       {
         question: "What is the formula to calculate the GDP Deflator?",
-        options: ["(Nominal GDP / Real GDP) * 100", "(Real GDP / Nominal GDP) * 100", "Nominal GDP - Real GDP", "CPI / WPI * 100"],
+        options: (["Nominal GDP / Real GDP) * 100", "(Real GDP / Nominal GDP) * 100", "Nominal GDP - Real GDP", "CPI / WPI * 100"],
         correct: 0,
         explanation: "GDP Deflator = (Nominal GDP / Real GDP) * 100, which measures inflation in all produced goods. Option A is correct."
       },
@@ -6360,7 +6360,7 @@ const CBT_EXAMS_DATABASE = [
       },
       {
         question: "What is the formula to calculate the GDP Deflator?",
-        options: ["(Nominal GDP / Real GDP) * 100", "(Real GDP / Nominal GDP) * 100", "Nominal GDP - Real GDP", "CPI / WPI * 100"],
+        options: (["Nominal GDP / Real GDP) * 100", "(Real GDP / Nominal GDP) * 100", "Nominal GDP - Real GDP", "CPI / WPI * 100"],
         correct: 0,
         explanation: "GDP Deflator = (Nominal GDP / Real GDP) * 100, which measures inflation in all produced goods. Option A is correct."
       },

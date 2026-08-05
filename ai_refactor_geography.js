@@ -68,7 +68,7 @@ async function runBatch() {
   
   for (const geographyFilePath of geographyFiles) {
     let geographyFileContent = fs.readFileSync(geographyFilePath, 'utf8');
-    let allMatches = [...geographyFileContent.matchAll(/(?:window\.)?EXPANDED_NOTES_DATA\["([^"]+)"\]\s*=\s*`([\s\S]*?)`;/g)];
+    let allMatches = [...geographyFileContent.matchAll(/(?:window\.)?EXPANDED_NOTES_DATA\(["[^"]+)"\]\s*=\s*`([\s\S]*?)`;/g)];
     
     const notesData = {};
     allMatches.forEach(match => { notesData[match[1]] = match[2]; });

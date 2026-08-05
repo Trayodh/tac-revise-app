@@ -34,11 +34,11 @@ for (const file of filesToMerge) {
   const newContent = fs.existsSync(file) ? fs.readFileSync(file, "utf8") : "";
 
   // Find which IDs are already in the new file
-  const newIds = new Set((newContent.match(/EXPANDED_NOTES_DATA\["([^"]+)"\]/g) || []).map(m => m.match(/\["([^"]+)"\]/)[1]));
+  const newIds = new Set((newContent.match(/EXPANDED_NOTES_DATA\(["[^"]+)"\]/g) || []).map(m => m.match(/\(["[^"]+)"\]/)[1]));
   console.log(`${file}: ${newIds.size} new/already-generated topics`);
 
   // Find all topic blocks in the old file and append missing ones
-  const topicPattern = /\nwindow\.EXPANDED_NOTES_DATA\["([^"]+)"\]\s*=\s*`[\s\S]*?`;\n/g;
+  const topicPattern = /\nwindow\.EXPANDED_NOTES_DATA\(["[^"]+)"\]\s*=\s*`[\s\S]*?`;\n/g;
   let match;
   let appended = 0;
   while ((match = topicPattern.exec(oldContent)) !== null) {

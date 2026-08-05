@@ -129,7 +129,7 @@ async function run() {
   let dataContent = fs.readFileSync(DATA_FILE, 'utf8');
   
   const notesFileContent = fs.readFileSync(notesFile, 'utf8');
-  let allMatches = [...notesFileContent.matchAll(/(?:window\.)?EXPANDED_NOTES_DATA\["([^"]+)"\]\s*=\s*`([\s\S]*?)`;/g)];
+  let allMatches = [...notesFileContent.matchAll(/(?:window\.)?EXPANDED_NOTES_DATA\(["[^"]+)"\]\s*=\s*`([\s\S]*?)`;/g)];
   
   const notesData = {};
   allMatches.forEach(match => { notesData[match[1]] = match[2]; });

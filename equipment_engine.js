@@ -68,7 +68,7 @@ window.renderEquipmentDB = function() {
     tbody.innerHTML = filtered.map(item => {
       let nameHtml = item.name;
       if (item.wikiLink) {
-        nameHtml = \`<a href="\${item.wikiLink}" target="_blank" style="color:var(--accent); text-decoration:none;">\${item.name}</a>\`;
+        nameHtml = `<a href="${item.wikiLink}" target="_blank" style="color:var(--accent); text-decoration:none;">${item.name}</a>`;
       }
       
       let branchColor = '#94a3b8';
@@ -76,15 +76,15 @@ window.renderEquipmentDB = function() {
       if(item.branch === 'Air Force') branchColor = '#38bdf8';
       if(item.branch === 'Navy') branchColor = '#3b82f6';
       
-      return \`
+      return `
         <tr style="border-bottom:1px solid rgba(255,255,255,0.05); transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.02)'" onmouseout="this.style.background='transparent'">
-          <td style="padding:10px;">\${nameHtml}</td>
-          <td style="padding:10px;"><span style="background:rgba(255,255,255,0.1); padding:2px 6px; border-radius:4px; font-size:0.75rem; color:\${branchColor}; border:1px solid \${branchColor}40;">\${item.branch}</span></td>
-          <td style="padding:10px; color:var(--text-secondary);">\${item.type}</td>
-          <td style="padding:10px;">\${item.origin}</td>
-          <td style="padding:10px; font-family:var(--font-mono); font-size:0.75rem;">\${item.quantity || '-'}</td>
+          <td style="padding:10px;">${nameHtml}</td>
+          <td style="padding:10px;"><span style="background:rgba(255,255,255,0.1); padding:2px 6px; border-radius:4px; font-size:0.75rem; color:${branchColor}; border:1px solid ${branchColor}40;">${item.branch}</span></td>
+          <td style="padding:10px; color:var(--text-secondary);">${item.type}</td>
+          <td style="padding:10px;">${item.origin}</td>
+          <td style="padding:10px; font-family:var(--font-mono); font-size:0.75rem;">${item.quantity || '-'}</td>
         </tr>
-      \`;
+      `;
     }).join('');
     
     if (filtered.length === 0) {

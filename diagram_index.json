@@ -16,7 +16,8 @@
             "vacuole"
           ],
           "relevance_score": 100,
-          "topic_id": "cell-structure"
+          "topic_id": "cell-structure",
+          "newPath": "/assets/diagrams/Biology/cell_biology_genetics/biology_cell_biology_genetics_cell_structure_cell_division_plant_animal_cell.png"
         },
         {
           "file": "biology_cell_biology_genetics_cell_structure_cell_division_prokaryotic_eukaryotic_cells.png",
@@ -31,7 +32,8 @@
             "cell biology"
           ],
           "relevance_score": 100,
-          "topic_id": "cell-structure"
+          "topic_id": "cell-structure",
+          "newPath": "/assets/diagrams/Biology/cell_biology_genetics/biology_cell_biology_genetics_cell_structure_cell_division_prokaryotic_eukaryotic_cells.png"
         },
         {
           "file": "biology_cell_biology_genetics_cell_structure_cell_division_mitosis_meiosis_comparison.png",
@@ -46,7 +48,8 @@
             "genetics"
           ],
           "relevance_score": 100,
-          "topic_id": "cell-structure"
+          "topic_id": "cell-structure",
+          "newPath": "/assets/diagrams/Biology/cell_biology_genetics/biology_cell_biology_genetics_cell_structure_cell_division_mitosis_meiosis_comparison.png"
         },
         {
           "file": "biology_cell_biology_genetics_cell_structure_cell_division_dna_and_rna.png",
@@ -65,7 +68,8 @@
             "uracil"
           ],
           "relevance_score": 98,
-          "topic_id": "cell-structure"
+          "topic_id": "cell-structure",
+          "newPath": "/assets/diagrams/Biology/cell_biology_genetics/biology_cell_biology_genetics_cell_structure_cell_division_dna_and_rna.png"
         }
       ]
     },
@@ -83,7 +87,8 @@
             "cardiovascular system"
           ],
           "relevance_score": 100,
-          "topic_id": "human-systems"
+          "topic_id": "human-systems",
+          "newPath": "/assets/diagrams/Biology/human_physiology/biology_human_physiology_vital_human_systems_organs_human_blood_circulation.png"
         },
         {
           "file": "biology_human_physiology_vital_human_systems_organs_central_nervous_system_neuron.png",
@@ -100,7 +105,8 @@
             "human physiology"
           ],
           "relevance_score": 100,
-          "topic_id": "human-systems"
+          "topic_id": "human-systems",
+          "newPath": "/assets/diagrams/Biology/human_physiology/biology_human_physiology_vital_human_systems_organs_central_nervous_system_neuron.png"
         },
         {
           "file": "biology_human_physiology_vital_human_systems_organs_human_digestive_system.png",
@@ -114,7 +120,8 @@
             "organs"
           ],
           "relevance_score": 100,
-          "topic_id": "human-systems"
+          "topic_id": "human-systems",
+          "newPath": "/assets/diagrams/Biology/human_physiology/biology_human_physiology_vital_human_systems_organs_human_digestive_system.png"
         },
         {
           "file": "biology_human_physiology_vital_human_systems_organs_endocrine_system_glands.png",
@@ -130,7 +137,8 @@
             "human anatomy"
           ],
           "relevance_score": 100,
-          "topic_id": "human-systems"
+          "topic_id": "human-systems",
+          "newPath": "/assets/diagrams/Biology/human_physiology/biology_human_physiology_vital_human_systems_organs_endocrine_system_glands.png"
         }
       ]
     },
@@ -153,7 +161,8 @@
             "plant reproduction"
           ],
           "relevance_score": 100,
-          "topic_id": "plant-reproduction"
+          "topic_id": "plant-reproduction",
+          "newPath": "/assets/diagrams/Biology/plant_physiology_reproduction/biology_plant_physiology_reproduction_plant_reproduction_hormones_parts_of_flower.png"
         },
         {
           "file": "biology_plant_physiology_reproduction_plant_reproduction_hormones_seed_germination_growth.png",
@@ -169,7 +178,8 @@
             "plant physiology"
           ],
           "relevance_score": 98,
-          "topic_id": "plant-reproduction"
+          "topic_id": "plant-reproduction",
+          "newPath": "/assets/diagrams/Biology/plant_physiology_reproduction/biology_plant_physiology_reproduction_plant_reproduction_hormones_seed_germination_growth.png"
         },
         {
           "file": "biology_plant_physiology_reproduction_plant_reproduction_hormones_leaf_anatomy_structure.png",
@@ -185,7 +195,8 @@
             "cuticle"
           ],
           "relevance_score": 95,
-          "topic_id": "plant-reproduction"
+          "topic_id": "plant-reproduction",
+          "newPath": "/assets/diagrams/Biology/plant_physiology_reproduction/biology_plant_physiology_reproduction_plant_reproduction_hormones_leaf_anatomy_structure.png"
         }
       ]
     },
@@ -202,7 +213,8 @@
             "trophic levels"
           ],
           "relevance_score": 100,
-          "topic_id": "biology-ecology-basics"
+          "topic_id": "biology-ecology-basics",
+          "newPath": "/assets/diagrams/Biology/ecology_ecosystems/biology_ecology_ecosystems_ecology_basics_pyramids_food_chain_ecosystem.png"
         },
         {
           "file": "biology_ecology_ecosystems_ecology_basics_pyramids_ecological_food_pyramid.png",
@@ -217,7 +229,8 @@
             "consumers"
           ],
           "relevance_score": 100,
-          "topic_id": "biology-ecology-basics"
+          "topic_id": "biology-ecology-basics",
+          "newPath": "/assets/diagrams/Biology/ecology_ecosystems/biology_ecology_ecosystems_ecology_basics_pyramids_ecological_food_pyramid.png"
         },
         {
           "file": "biology_ecology_ecosystems_ecology_basics_pyramids_food_web_ecosystem.png",
@@ -231,7 +244,8 @@
             "trophic levels"
           ],
           "relevance_score": 100,
-          "topic_id": "biology-ecology-basics"
+          "topic_id": "biology-ecology-basics",
+          "newPath": "/assets/diagrams/Biology/ecology_ecosystems/biology_ecology_ecosystems_ecology_basics_pyramids_food_web_ecosystem.png"
         },
         {
           "file": "biology_ecology_ecosystems_ecology_basics_pyramids_nitrogen_cycle.png",
@@ -245,7 +259,8 @@
             "ecology"
           ],
           "relevance_score": 100,
-          "topic_id": "biology-ecology-basics"
+          "topic_id": "biology-ecology-basics",
+          "newPath": "/assets/diagrams/Biology/ecology_ecosystems/biology_ecology_ecosystems_ecology_basics_pyramids_nitrogen_cycle.png"
         }
       ]
     },
@@ -263,7 +278,8 @@
             "adventitious root"
           ],
           "relevance_score": 95,
-          "topic_id": "plant-kingdom"
+          "topic_id": "plant-kingdom",
+          "newPath": "/assets/diagrams/Biology/plant_animal_kingdoms/biology_plant_animal_kingdoms_plant_kingdom_classification_plant_root_types.png"
         },
         {
           "file": "biology_plant_animal_kingdoms_plant_kingdom_classification_stem_modifications.png",
@@ -282,7 +298,8 @@
             "plant morphology"
           ],
           "relevance_score": 95,
-          "topic_id": "plant-kingdom"
+          "topic_id": "plant-kingdom",
+          "newPath": "/assets/diagrams/Biology/plant_animal_kingdoms/biology_plant_animal_kingdoms_plant_kingdom_classification_stem_modifications.png"
         },
         {
           "file": "biology_plant_animal_kingdoms_plant_kingdom_classification_xylem_phloem_transport.png",
@@ -296,7 +313,8 @@
             "food transport"
           ],
           "relevance_score": 95,
-          "topic_id": "plant-kingdom"
+          "topic_id": "plant-kingdom",
+          "newPath": "/assets/diagrams/Biology/plant_animal_kingdoms/biology_plant_animal_kingdoms_plant_kingdom_classification_xylem_phloem_transport.png"
         }
       ]
     }
@@ -316,7 +334,8 @@
             "chemistry"
           ],
           "relevance_score": 100,
-          "topic_id": "acids-bases"
+          "topic_id": "acids-bases",
+          "newPath": "/assets/diagrams/Chemistry/acids_bases_salts/chemistry_acids_bases_salts_acids_bases_ph_indicators_ph_scale_substances.png"
         }
       ]
     },
@@ -335,7 +354,8 @@
             "sodium chloride"
           ],
           "relevance_score": 100,
-          "topic_id": "syl-numerical"
+          "topic_id": "syl-numerical",
+          "newPath": "/assets/diagrams/Chemistry/chemical_bonding/chemistry_chemical_bonding_chemical_bonding_periodic_table_types_of_bonds.png"
         },
         {
           "file": "chemistry_chemical_bonding_chemical_bonding_periodic_table_periodic_table.png",
@@ -349,7 +369,8 @@
             "chemical symbols"
           ],
           "relevance_score": 100,
-          "topic_id": "syl-numerical"
+          "topic_id": "syl-numerical",
+          "newPath": "/assets/diagrams/Chemistry/chemical_bonding/chemistry_chemical_bonding_chemical_bonding_periodic_table_periodic_table.png"
         },
         {
           "file": "chemistry_chemical_bonding_chemical_bonding_periodic_table_periodic_table_trends.png",
@@ -364,7 +385,8 @@
             "nonmetallic character"
           ],
           "relevance_score": 100,
-          "topic_id": "syl-numerical"
+          "topic_id": "syl-numerical",
+          "newPath": "/assets/diagrams/Chemistry/chemical_bonding/chemistry_chemical_bonding_chemical_bonding_periodic_table_periodic_table_trends.png"
         },
         {
           "file": "chemistry_chemical_bonding_chemical_bonding_periodic_table_electronic_configuration_valency.png",
@@ -377,7 +399,8 @@
             "periodic table"
           ],
           "relevance_score": 95,
-          "topic_id": "syl-numerical"
+          "topic_id": "syl-numerical",
+          "newPath": "/assets/diagrams/Chemistry/chemical_bonding/chemistry_chemical_bonding_chemical_bonding_periodic_table_electronic_configuration_valency.png"
         }
       ]
     },
@@ -397,7 +420,8 @@
             "fertilisers"
           ],
           "relevance_score": 100,
-          "topic_id": "chemistry-everyday-fertilisers"
+          "topic_id": "chemistry-everyday-fertilisers",
+          "newPath": "/assets/diagrams/Chemistry/everyday_environmental_chemistry/chemistry_everyday_environmental_chemistry_everyday_chemistry_fertilisers_fuels_haber_process_ammonia.png"
         },
         {
           "file": "chemistry_everyday_environmental_chemistry_everyday_chemistry_fertilisers_fuels_contact_process_sulphuric_acid.png",
@@ -411,7 +435,8 @@
             "manufacturing process"
           ],
           "relevance_score": 95,
-          "topic_id": "chemistry-everyday-fertilisers"
+          "topic_id": "chemistry-everyday-fertilisers",
+          "newPath": "/assets/diagrams/Chemistry/everyday_environmental_chemistry/chemistry_everyday_environmental_chemistry_everyday_chemistry_fertilisers_fuels_contact_process_sulphuric_acid.png"
         }
       ],
       "Environmental Chemistry & Pollution": [
@@ -429,7 +454,8 @@
             "troposphere"
           ],
           "relevance_score": 98,
-          "topic_id": "environmental-chemistry"
+          "topic_id": "environmental-chemistry",
+          "newPath": "/assets/diagrams/Chemistry/everyday_environmental_chemistry/chemistry_everyday_environmental_chemistry_environmental_chemistry_pollution_greenhouse_effect_comparison.png"
         }
       ]
     },
@@ -446,7 +472,8 @@
             "chemistry formulas"
           ],
           "relevance_score": 100,
-          "topic_id": "chemistry-numericals"
+          "topic_id": "chemistry-numericals",
+          "newPath": "/assets/diagrams/Chemistry/carbon_compounds_numericals/chemistry_carbon_compounds_numericals_mole_concept_concentration_terms_mole_concept_formulas.png"
         }
       ]
     }
@@ -467,7 +494,8 @@
             "chain reaction"
           ],
           "relevance_score": 100,
-          "topic_id": "physics-nuclear-basics"
+          "topic_id": "physics-nuclear-basics",
+          "newPath": "/assets/diagrams/Physics/modern_physics_units/physics_modern_physics_units_nuclear_physics_radioactivity_fission_and_fusion.png"
         },
         {
           "file": "physics_modern_physics_units_nuclear_physics_radioactivity_bohrs_atomic_model.png",
@@ -480,7 +508,8 @@
             "nucleus"
           ],
           "relevance_score": 95,
-          "topic_id": "physics-nuclear-basics"
+          "topic_id": "physics-nuclear-basics",
+          "newPath": "/assets/diagrams/Physics/modern_physics_units/physics_modern_physics_units_nuclear_physics_radioactivity_bohrs_atomic_model.png"
         },
         {
           "file": "physics_modern_physics_units_nuclear_physics_radioactivity_evolution_of_atomic_models.png",
@@ -496,7 +525,8 @@
             "nuclear physics"
           ],
           "relevance_score": 95,
-          "topic_id": "physics-nuclear-basics"
+          "topic_id": "physics-nuclear-basics",
+          "newPath": "/assets/diagrams/Physics/modern_physics_units/physics_modern_physics_units_nuclear_physics_radioactivity_evolution_of_atomic_models.png"
         },
         {
           "file": "physics_modern_physics_units_nuclear_physics_radioactivity_structure_of_atom.png",
@@ -511,7 +541,8 @@
             "atomic structure"
           ],
           "relevance_score": 95,
-          "topic_id": "physics-nuclear-basics"
+          "topic_id": "physics-nuclear-basics",
+          "newPath": "/assets/diagrams/Physics/modern_physics_units/physics_modern_physics_units_nuclear_physics_radioactivity_structure_of_atom.png"
         }
       ]
     },
@@ -530,7 +561,8 @@
             "electromagnetism"
           ],
           "relevance_score": 100,
-          "topic_id": "physics-electricity-magnetism"
+          "topic_id": "physics-electricity-magnetism",
+          "newPath": "/assets/diagrams/Physics/electricity_magnetism/physics_electricity_magnetism_electricity_circuits_magnetism_dc_electric_motor.png"
         },
         {
           "file": "physics_electricity_magnetism_electricity_circuits_magnetism_electrical_distribution_system.png",
@@ -546,7 +578,8 @@
             "parallel connection"
           ],
           "relevance_score": 100,
-          "topic_id": "physics-electricity-magnetism"
+          "topic_id": "physics-electricity-magnetism",
+          "newPath": "/assets/diagrams/Physics/electricity_magnetism/physics_electricity_magnetism_electricity_circuits_magnetism_electrical_distribution_system.png"
         },
         {
           "file": "physics_electricity_magnetism_electricity_circuits_magnetism_series_parallel_circuits.png",
@@ -560,7 +593,8 @@
             "electricity"
           ],
           "relevance_score": 100,
-          "topic_id": "physics-electricity-magnetism"
+          "topic_id": "physics-electricity-magnetism",
+          "newPath": "/assets/diagrams/Physics/electricity_magnetism/physics_electricity_magnetism_electricity_circuits_magnetism_series_parallel_circuits.png"
         },
         {
           "file": "physics_electricity_magnetism_electricity_circuits_magnetism_transformer_circuit_diagram.png",
@@ -578,7 +612,8 @@
             "magnetism"
           ],
           "relevance_score": 100,
-          "topic_id": "physics-electricity-magnetism"
+          "topic_id": "physics-electricity-magnetism",
+          "newPath": "/assets/diagrams/Physics/electricity_magnetism/physics_electricity_magnetism_electricity_circuits_magnetism_transformer_circuit_diagram.png"
         }
       ]
     },
@@ -596,7 +631,8 @@
             "physics"
           ],
           "relevance_score": 100,
-          "topic_id": "physics-heat"
+          "topic_id": "physics-heat",
+          "newPath": "/assets/diagrams/Physics/heat_thermodynamics/physics_heat_thermodynamics_thermodynamics_heat_transfer_methods_of_heat_transfer.png"
         },
         {
           "file": "physics_heat_thermodynamics_thermodynamics_heat_transfer_thermal_expansion_kinetic.png",
@@ -612,7 +648,8 @@
             "particle movement"
           ],
           "relevance_score": 98,
-          "topic_id": "physics-heat"
+          "topic_id": "physics-heat",
+          "newPath": "/assets/diagrams/Physics/heat_thermodynamics/physics_heat_thermodynamics_thermodynamics_heat_transfer_thermal_expansion_kinetic.png"
         }
       ]
     },
@@ -630,7 +667,8 @@
             "reflection"
           ],
           "relevance_score": 100,
-          "topic_id": "reflection-refraction"
+          "topic_id": "reflection-refraction",
+          "newPath": "/assets/diagrams/Physics/optics_light/physics_optics_light_reflection_refraction_lenses_concave_mirror_object_inside_focus.png"
         },
         {
           "file": "physics_optics_light_reflection_refraction_lenses_convex_concave_lenses.png",
@@ -645,7 +683,8 @@
             "optical axis"
           ],
           "relevance_score": 100,
-          "topic_id": "reflection-refraction"
+          "topic_id": "reflection-refraction",
+          "newPath": "/assets/diagrams/Physics/optics_light/physics_optics_light_reflection_refraction_lenses_convex_concave_lenses.png"
         },
         {
           "file": "physics_optics_light_reflection_refraction_lenses_convex_mirror_ray_diagram.png",
@@ -661,7 +700,8 @@
             "focal point"
           ],
           "relevance_score": 100,
-          "topic_id": "reflection-refraction"
+          "topic_id": "reflection-refraction",
+          "newPath": "/assets/diagrams/Physics/optics_light/physics_optics_light_reflection_refraction_lenses_convex_mirror_ray_diagram.png"
         },
         {
           "file": "physics_optics_light_reflection_refraction_lenses_hypermetropia_eye_correction.png",
@@ -675,7 +715,8 @@
             "physics"
           ],
           "relevance_score": 100,
-          "topic_id": "reflection-refraction"
+          "topic_id": "reflection-refraction",
+          "newPath": "/assets/diagrams/Physics/optics_light/physics_optics_light_reflection_refraction_lenses_hypermetropia_eye_correction.png"
         }
       ]
     },
@@ -696,7 +737,8 @@
             "biomechanics"
           ],
           "relevance_score": 95,
-          "topic_id": "syl-exercises"
+          "topic_id": "syl-exercises",
+          "newPath": "/assets/diagrams/Physics/energy_gravitation/physics_energy_gravitation_work_power_energy_gravitation_classes_of_levers.png"
         },
         {
           "file": "physics_energy_gravitation_work_power_energy_gravitation_pulley_system.png",
@@ -711,7 +753,8 @@
             "mechanical advantage"
           ],
           "relevance_score": 95,
-          "topic_id": "syl-exercises"
+          "topic_id": "syl-exercises",
+          "newPath": "/assets/diagrams/Physics/energy_gravitation/physics_energy_gravitation_work_power_energy_gravitation_pulley_system.png"
         },
         {
           "file": "physics_energy_gravitation_work_power_energy_gravitation_types_of_pulleys.png",
@@ -727,7 +770,8 @@
             "simple machines"
           ],
           "relevance_score": 95,
-          "topic_id": "syl-exercises"
+          "topic_id": "syl-exercises",
+          "newPath": "/assets/diagrams/Physics/energy_gravitation/physics_energy_gravitation_work_power_energy_gravitation_types_of_pulleys.png"
         },
         {
           "file": "physics_energy_gravitation_work_power_energy_gravitation_wheel_and_axle.png",
@@ -741,7 +785,8 @@
             "work"
           ],
           "relevance_score": 95,
-          "topic_id": "syl-exercises"
+          "topic_id": "syl-exercises",
+          "newPath": "/assets/diagrams/Physics/energy_gravitation/physics_energy_gravitation_work_power_energy_gravitation_wheel_and_axle.png"
         }
       ]
     },
@@ -759,7 +804,8 @@
             "mechanics"
           ],
           "relevance_score": 100,
-          "topic_id": "newtons-laws"
+          "topic_id": "newtons-laws",
+          "newPath": "/assets/diagrams/Physics/mechanics_motion/physics_mechanics_motion_newton_s_laws_of_motion_free_body_diagram.png"
         },
         {
           "file": "physics_mechanics_motion_newton_s_laws_of_motion_parallelogram_law_forces.png",
@@ -772,7 +818,8 @@
             "vectors"
           ],
           "relevance_score": 95,
-          "topic_id": "newtons-laws"
+          "topic_id": "newtons-laws",
+          "newPath": "/assets/diagrams/Physics/mechanics_motion/physics_mechanics_motion_newton_s_laws_of_motion_parallelogram_law_forces.png"
         },
         {
           "file": "physics_mechanics_motion_newton_s_laws_of_motion_inclined_plane_forces.png",
@@ -786,7 +833,8 @@
             "mechanics"
           ],
           "relevance_score": 95,
-          "topic_id": "newtons-laws"
+          "topic_id": "newtons-laws",
+          "newPath": "/assets/diagrams/Physics/mechanics_motion/physics_mechanics_motion_newton_s_laws_of_motion_inclined_plane_forces.png"
         },
         {
           "file": "physics_mechanics_motion_newton_s_laws_of_motion_projectile_motion_diagram.png",
@@ -801,7 +849,8 @@
             "physics"
           ],
           "relevance_score": 95,
-          "topic_id": "newtons-laws"
+          "topic_id": "newtons-laws",
+          "newPath": "/assets/diagrams/Physics/mechanics_motion/physics_mechanics_motion_newton_s_laws_of_motion_projectile_motion_diagram.png"
         }
       ]
     }
@@ -820,7 +869,8 @@
             "Biodiversity"
           ],
           "relevance_score": 100,
-          "topic_id": "india-national-parks"
+          "topic_id": "india-national-parks",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_national_parks_of_india_map_guide_national_parks_india_map.png"
         },
         {
           "file": "geography_indian_geography_national_parks_of_india_map_guide_national_parks_india_map.png",
@@ -834,7 +884,8 @@
             "conservation"
           ],
           "relevance_score": 100,
-          "topic_id": "india-national-parks"
+          "topic_id": "india-national-parks",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_national_parks_of_india_map_guide_national_parks_india_map.png"
         },
         {
           "file": "geography_indian_geography_national_parks_of_india_map_guide_tiger_reserves_map.png",
@@ -848,7 +899,8 @@
             "conservation"
           ],
           "relevance_score": 98,
-          "topic_id": "india-national-parks"
+          "topic_id": "india-national-parks",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_national_parks_of_india_map_guide_tiger_reserves_map.png"
         },
         {
           "file": "geography_indian_geography_national_parks_of_india_map_guide_tiger_reserves_india.png",
@@ -862,7 +914,8 @@
             "biodiversity"
           ],
           "relevance_score": 95,
-          "topic_id": "india-national-parks"
+          "topic_id": "india-national-parks",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_national_parks_of_india_map_guide_tiger_reserves_india.png"
         },
         {
           "file": "geography_indian_geography_national_parks_of_india_map_guide_wildlife_sanctuaries_india.png",
@@ -875,7 +928,8 @@
             "geography"
           ],
           "relevance_score": 95,
-          "topic_id": "india-national-parks"
+          "topic_id": "india-national-parks",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_national_parks_of_india_map_guide_wildlife_sanctuaries_india.png"
         },
         {
           "file": "geography_indian_geography_national_parks_of_india_map_guide_indian_biosphere_reserves.png",
@@ -889,7 +943,8 @@
             "Geography"
           ],
           "relevance_score": 95,
-          "topic_id": "india-national-parks"
+          "topic_id": "india-national-parks",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_national_parks_of_india_map_guide_indian_biosphere_reserves.png"
         }
       ],
       "Forests, Trees & Wetlands of India": [
@@ -906,7 +961,8 @@
             "environment"
           ],
           "relevance_score": 100,
-          "topic_id": "india-forests-wetlands"
+          "topic_id": "india-forests-wetlands",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_forests_trees_wetlands_of_india_ramsar_sites_india_map.png"
         },
         {
           "file": "geography_indian_geography_forests_trees_wetlands_of_india_ramsar_sites_india.png",
@@ -920,7 +976,8 @@
             "conservation"
           ],
           "relevance_score": 100,
-          "topic_id": "india-forests-wetlands"
+          "topic_id": "india-forests-wetlands",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_forests_trees_wetlands_of_india_ramsar_sites_india.png"
         }
       ],
       "Indian Geography (Rivers, Passes & Soils)": [
@@ -938,7 +995,8 @@
             "Indian geography"
           ],
           "relevance_score": 100,
-          "topic_id": "syl-geog"
+          "topic_id": "syl-geog",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_indian_geography_rivers_passes_soils_indian_soil_types.png"
         },
         {
           "file": "geography_indian_geography_indian_geography_rivers_passes_soils_indian_mountain_passes.png",
@@ -955,7 +1013,8 @@
             "palghat gap"
           ],
           "relevance_score": 100,
-          "topic_id": "syl-geog"
+          "topic_id": "syl-geog",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_indian_geography_rivers_passes_soils_indian_mountain_passes.png"
         },
         {
           "file": "geography_indian_geography_indian_geography_rivers_passes_soils_india_physical_map.png",
@@ -969,7 +1028,8 @@
             "geography"
           ],
           "relevance_score": 100,
-          "topic_id": "syl-geog"
+          "topic_id": "syl-geog",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_indian_geography_rivers_passes_soils_india_physical_map.png"
         },
         {
           "file": "geography_indian_geography_indian_geography_rivers_passes_soils_rivers_of_india.png",
@@ -983,7 +1043,8 @@
             "geography of India"
           ],
           "relevance_score": 100,
-          "topic_id": "syl-geog"
+          "topic_id": "syl-geog",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_indian_geography_rivers_passes_soils_rivers_of_india.png"
         },
         {
           "file": "geography_indian_geography_indian_geography_rivers_passes_soils_indian_monsoon_mechanism.png",
@@ -998,7 +1059,8 @@
             "wind reversal"
           ],
           "relevance_score": 98,
-          "topic_id": "syl-geog"
+          "topic_id": "syl-geog",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_indian_geography_rivers_passes_soils_indian_monsoon_mechanism.png"
         },
         {
           "file": "geography_indian_geography_indian_geography_rivers_passes_soils_indian_rainfall_map.png",
@@ -1013,7 +1075,8 @@
             "northeast monsoon"
           ],
           "relevance_score": 98,
-          "topic_id": "syl-geog"
+          "topic_id": "syl-geog",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_indian_geography_rivers_passes_soils_indian_rainfall_map.png"
         }
       ],
       "Borders, Capitals & Mapping": [
@@ -1030,7 +1093,8 @@
             "geography"
           ],
           "relevance_score": 100,
-          "topic_id": "mapping-borders-capitals"
+          "topic_id": "mapping-borders-capitals",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_borders_capitals_mapping_india_political_map.png"
         },
         {
           "file": "geography_indian_geography_borders_capitals_mapping_indian_plateaus_map.png",
@@ -1045,7 +1109,8 @@
             "peninsular india"
           ],
           "relevance_score": 98,
-          "topic_id": "mapping-borders-capitals"
+          "topic_id": "mapping-borders-capitals",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_borders_capitals_mapping_indian_plateaus_map.png"
         },
         {
           "file": "geography_indian_geography_borders_capitals_mapping_world_continents_oceans.png",
@@ -1058,7 +1123,8 @@
             "world geography"
           ],
           "relevance_score": 95,
-          "topic_id": "mapping-borders-capitals"
+          "topic_id": "mapping-borders-capitals",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_borders_capitals_mapping_world_continents_oceans.png"
         },
         {
           "file": "geography_indian_geography_borders_capitals_mapping_indian_mountains_map.png",
@@ -1073,7 +1139,8 @@
             "Map"
           ],
           "relevance_score": 95,
-          "topic_id": "mapping-borders-capitals"
+          "topic_id": "mapping-borders-capitals",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_borders_capitals_mapping_indian_mountains_map.png"
         }
       ],
       "Transport Routes: Highways & Waterways": [
@@ -1089,7 +1156,8 @@
             "domestic airports"
           ],
           "relevance_score": 100,
-          "topic_id": "india-transport-routes"
+          "topic_id": "india-transport-routes",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_transport_routes_highways_waterways_indian_airports_map.png"
         },
         {
           "file": "geography_indian_geography_transport_routes_highways_waterways_indian_ports_map.png",
@@ -1102,7 +1170,8 @@
             "Transport Routes"
           ],
           "relevance_score": 100,
-          "topic_id": "india-transport-routes"
+          "topic_id": "india-transport-routes",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_transport_routes_highways_waterways_indian_ports_map.png"
         }
       ],
       "Mineral Resources & Types of Farming": [
@@ -1120,7 +1189,8 @@
             "Zaid"
           ],
           "relevance_score": 100,
-          "topic_id": "india-resources-farming"
+          "topic_id": "india-resources-farming",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_mineral_resources_types_of_farming_indian_crops_map.png"
         },
         {
           "file": "geography_indian_geography_mineral_resources_types_of_farming_indian_mineral_resources.png",
@@ -1135,7 +1205,8 @@
             "geography"
           ],
           "relevance_score": 100,
-          "topic_id": "india-resources-farming"
+          "topic_id": "india-resources-farming",
+          "newPath": "/assets/diagrams/Geography/indian_geography/geography_indian_geography_mineral_resources_types_of_farming_indian_mineral_resources.png"
         }
       ]
     },
@@ -1154,7 +1225,8 @@
             "earth structure"
           ],
           "relevance_score": 100,
-          "topic_id": "earth-atmosphere"
+          "topic_id": "earth-atmosphere",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_earth_structure_atmosphere_atmospheric_layers_diagram.png"
         },
         {
           "file": "geography_physical_world_geography_earth_structure_atmosphere_pressure_belts_earth.png",
@@ -1168,7 +1240,8 @@
             "ITCZ"
           ],
           "relevance_score": 100,
-          "topic_id": "earth-atmosphere"
+          "topic_id": "earth-atmosphere",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_earth_structure_atmosphere_pressure_belts_earth.png"
         },
         {
           "file": "geography_physical_world_geography_earth_structure_atmosphere_internal_structure_earth.png",
@@ -1184,7 +1257,8 @@
             "geosphere"
           ],
           "relevance_score": 100,
-          "topic_id": "earth-atmosphere"
+          "topic_id": "earth-atmosphere",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_earth_structure_atmosphere_internal_structure_earth.png"
         },
         {
           "file": "geography_physical_world_geography_earth_structure_atmosphere_ozone_layer_depletion.png",
@@ -1198,7 +1272,8 @@
             "atmosphere"
           ],
           "relevance_score": 98,
-          "topic_id": "earth-atmosphere"
+          "topic_id": "earth-atmosphere",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_earth_structure_atmosphere_ozone_layer_depletion.png"
         },
         {
           "file": "geography_physical_world_geography_earth_structure_atmosphere_anticyclone_pressure_system.png",
@@ -1213,7 +1288,8 @@
             "climatology"
           ],
           "relevance_score": 98,
-          "topic_id": "earth-atmosphere"
+          "topic_id": "earth-atmosphere",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_earth_structure_atmosphere_anticyclone_pressure_system.png"
         },
         {
           "file": "geography_physical_world_geography_earth_structure_atmosphere_jet_streams_diagram.png",
@@ -1227,7 +1303,8 @@
             "climatology"
           ],
           "relevance_score": 98,
-          "topic_id": "earth-atmosphere"
+          "topic_id": "earth-atmosphere",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_earth_structure_atmosphere_jet_streams_diagram.png"
         },
         {
           "file": "geography_physical_world_geography_earth_structure_atmosphere_planetary_winds_circulation.png",
@@ -1246,7 +1323,8 @@
             "global wind belts"
           ],
           "relevance_score": 98,
-          "topic_id": "earth-atmosphere"
+          "topic_id": "earth-atmosphere",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_earth_structure_atmosphere_planetary_winds_circulation.png"
         },
         {
           "file": "geography_physical_world_geography_earth_structure_atmosphere_cyclone_structure_formation.png",
@@ -1261,7 +1339,8 @@
             "low pressure"
           ],
           "relevance_score": 95,
-          "topic_id": "earth-atmosphere"
+          "topic_id": "earth-atmosphere",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_earth_structure_atmosphere_cyclone_structure_formation.png"
         }
       ],
       "Climatology: Climatic Zones & Clouds": [
@@ -1278,7 +1357,8 @@
             "desert climate"
           ],
           "relevance_score": 100,
-          "topic_id": "climatology-clouds"
+          "topic_id": "climatology-clouds",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_climatology_climatic_zones_clouds_world_climatic_zones.png"
         },
         {
           "file": "geography_physical_world_geography_climatology_climatic_zones_clouds_water_cycle_diagram.png",
@@ -1292,7 +1372,8 @@
             "hydrological cycle"
           ],
           "relevance_score": 95,
-          "topic_id": "climatology-clouds"
+          "topic_id": "climatology-clouds",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_climatology_climatic_zones_clouds_water_cycle_diagram.png"
         },
         {
           "file": "geography_physical_world_geography_climatology_climatic_zones_clouds_climate_of_india.png",
@@ -1306,7 +1387,8 @@
             "arid climate"
           ],
           "relevance_score": 95,
-          "topic_id": "climatology-clouds"
+          "topic_id": "climatology-clouds",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_climatology_climatic_zones_clouds_climate_of_india.png"
         }
       ],
       "The Universe & Solar System": [
@@ -1322,7 +1404,8 @@
             "solar system"
           ],
           "relevance_score": 100,
-          "topic_id": "universe-solar-system"
+          "topic_id": "universe-solar-system",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_the_universe_solar_system_earth_rotation_seasons.png"
         },
         {
           "file": "geography_physical_world_geography_the_universe_solar_system_earths_rotation_mechanics.png",
@@ -1336,7 +1419,8 @@
             "geography"
           ],
           "relevance_score": 98,
-          "topic_id": "universe-solar-system"
+          "topic_id": "universe-solar-system",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_the_universe_solar_system_earths_rotation_mechanics.png"
         },
         {
           "file": "geography_physical_world_geography_the_universe_solar_system_international_date_line.png",
@@ -1350,7 +1434,8 @@
             "Time Zones"
           ],
           "relevance_score": 95,
-          "topic_id": "universe-solar-system"
+          "topic_id": "universe-solar-system",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_the_universe_solar_system_international_date_line.png"
         },
         {
           "file": "geography_physical_world_geography_the_universe_solar_system_longitudes_prime_meridian_globe.png",
@@ -1365,7 +1450,8 @@
             "globe"
           ],
           "relevance_score": 95,
-          "topic_id": "universe-solar-system"
+          "topic_id": "universe-solar-system",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_the_universe_solar_system_longitudes_prime_meridian_globe.png"
         },
         {
           "file": "geography_physical_world_geography_the_universe_solar_system_geographic_lines_latitude.png",
@@ -1378,7 +1464,8 @@
             "geography"
           ],
           "relevance_score": 95,
-          "topic_id": "universe-solar-system"
+          "topic_id": "universe-solar-system",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_the_universe_solar_system_geographic_lines_latitude.png"
         },
         {
           "file": "geography_physical_world_geography_the_universe_solar_system_world_time_zones.png",
@@ -1392,7 +1479,8 @@
             "world geography"
           ],
           "relevance_score": 95,
-          "topic_id": "universe-solar-system"
+          "topic_id": "universe-solar-system",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_the_universe_solar_system_world_time_zones.png"
         },
         {
           "file": "geography_physical_world_geography_the_universe_solar_system_spring_neap_tides.png",
@@ -1409,7 +1497,8 @@
             "oceanography"
           ],
           "relevance_score": 95,
-          "topic_id": "universe-solar-system"
+          "topic_id": "universe-solar-system",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_the_universe_solar_system_spring_neap_tides.png"
         },
         {
           "file": "geography_physical_world_geography_the_universe_solar_system_world_time_zones.png",
@@ -1423,7 +1512,8 @@
             "geography"
           ],
           "relevance_score": 90,
-          "topic_id": "universe-solar-system"
+          "topic_id": "universe-solar-system",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_the_universe_solar_system_world_time_zones.png"
         }
       ],
       "World Geography: Mountains, Forests & Rivers": [
@@ -1442,7 +1532,8 @@
             "Alps"
           ],
           "relevance_score": 100,
-          "topic_id": "world-geography-mountains"
+          "topic_id": "world-geography-mountains",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_world_geography_mountains_forests_rivers_fold_mountains_structure.png"
         },
         {
           "file": "geography_physical_world_geography_world_geography_mountains_forests_rivers_river_landforms_course.png",
@@ -1458,7 +1549,8 @@
             "geomorphology"
           ],
           "relevance_score": 100,
-          "topic_id": "world-geography-mountains"
+          "topic_id": "world-geography-mountains",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_world_geography_mountains_forests_rivers_river_landforms_course.png"
         },
         {
           "file": "geography_physical_world_geography_world_geography_mountains_forests_rivers_world_mountains_map.png",
@@ -1473,7 +1565,8 @@
             "Alps"
           ],
           "relevance_score": 100,
-          "topic_id": "world-geography-mountains"
+          "topic_id": "world-geography-mountains",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_world_geography_mountains_forests_rivers_world_mountains_map.png"
         },
         {
           "file": "geography_physical_world_geography_world_geography_mountains_forests_rivers_world_rivers_map.png",
@@ -1486,7 +1579,8 @@
             "physical geography"
           ],
           "relevance_score": 100,
-          "topic_id": "world-geography-mountains"
+          "topic_id": "world-geography-mountains",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_world_geography_mountains_forests_rivers_world_rivers_map.png"
         },
         {
           "file": "geography_physical_world_geography_world_geography_mountains_forests_rivers_glacier_landforms.png",
@@ -1504,7 +1598,8 @@
             "geomorphology"
           ],
           "relevance_score": 98,
-          "topic_id": "world-geography-mountains"
+          "topic_id": "world-geography-mountains",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_world_geography_mountains_forests_rivers_glacier_landforms.png"
         },
         {
           "file": "geography_physical_world_geography_world_geography_mountains_forests_rivers_coastal_landforms.png",
@@ -1521,7 +1616,8 @@
             "geomorphology"
           ],
           "relevance_score": 95,
-          "topic_id": "world-geography-mountains"
+          "topic_id": "world-geography-mountains",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_world_geography_mountains_forests_rivers_coastal_landforms.png"
         }
       ],
       "Straits, Canals, Deserts & Seas": [
@@ -1545,7 +1641,8 @@
             "desert pavement"
           ],
           "relevance_score": 100,
-          "topic_id": "world-geography-straits-deserts"
+          "topic_id": "world-geography-straits-deserts",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_straits_canals_deserts_seas_desert_landforms.png"
         },
         {
           "file": "geography_physical_world_geography_straits_canals_deserts_seas_world_canals_map.png",
@@ -1560,7 +1657,8 @@
             "world geography"
           ],
           "relevance_score": 100,
-          "topic_id": "world-geography-straits-deserts"
+          "topic_id": "world-geography-straits-deserts",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_straits_canals_deserts_seas_world_canals_map.png"
         },
         {
           "file": "geography_physical_world_geography_straits_canals_deserts_seas_world_deserts_map.png",
@@ -1575,7 +1673,8 @@
             "kalahari"
           ],
           "relevance_score": 100,
-          "topic_id": "world-geography-straits-deserts"
+          "topic_id": "world-geography-straits-deserts",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_straits_canals_deserts_seas_world_deserts_map.png"
         },
         {
           "file": "geography_physical_world_geography_straits_canals_deserts_seas_world_straits_map.png",
@@ -1589,7 +1688,8 @@
             "geography"
           ],
           "relevance_score": 100,
-          "topic_id": "world-geography-straits-deserts"
+          "topic_id": "world-geography-straits-deserts",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_straits_canals_deserts_seas_world_straits_map.png"
         },
         {
           "file": "geography_physical_world_geography_straits_canals_deserts_seas_indian_deserts_map.png",
@@ -1604,7 +1704,8 @@
             "Great Indian Desert"
           ],
           "relevance_score": 98,
-          "topic_id": "world-geography-straits-deserts"
+          "topic_id": "world-geography-straits-deserts",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_straits_canals_deserts_seas_indian_deserts_map.png"
         },
         {
           "file": "geography_physical_world_geography_straits_canals_deserts_seas_ocean_currents_world.png",
@@ -1618,7 +1719,8 @@
             "climatology"
           ],
           "relevance_score": 95,
-          "topic_id": "world-geography-straits-deserts"
+          "topic_id": "world-geography-straits-deserts",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_straits_canals_deserts_seas_ocean_currents_world.png"
         },
         {
           "file": "geography_physical_world_geography_straits_canals_deserts_seas_seafloor_topography_features.png",
@@ -1634,7 +1736,8 @@
             "oceanography"
           ],
           "relevance_score": 95,
-          "topic_id": "world-geography-straits-deserts"
+          "topic_id": "world-geography-straits-deserts",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_straits_canals_deserts_seas_seafloor_topography_features.png"
         },
         {
           "file": "geography_physical_world_geography_straits_canals_deserts_seas_world_ocean_currents.png",
@@ -1649,7 +1752,8 @@
             "geography"
           ],
           "relevance_score": 95,
-          "topic_id": "world-geography-straits-deserts"
+          "topic_id": "world-geography-straits-deserts",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_straits_canals_deserts_seas_world_ocean_currents.png"
         }
       ],
       "Geomorphology: Rocks, Plate Tectonics & Volcanism": [
@@ -1669,7 +1773,8 @@
             "geomorphology"
           ],
           "relevance_score": 100,
-          "topic_id": "geomorphology-rocks"
+          "topic_id": "geomorphology-rocks",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_earthquake_anatomy_seismic_waves.png"
         },
         {
           "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_plate_tectonics_infographic.png",
@@ -1685,7 +1790,8 @@
             "convection currents"
           ],
           "relevance_score": 100,
-          "topic_id": "geomorphology-rocks"
+          "topic_id": "geomorphology-rocks",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_plate_tectonics_infographic.png"
         },
         {
           "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_rock_cycle_process.png",
@@ -1700,7 +1806,8 @@
             "geomorphology"
           ],
           "relevance_score": 100,
-          "topic_id": "geomorphology-rocks"
+          "topic_id": "geomorphology-rocks",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_rock_cycle_process.png"
         },
         {
           "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_rock_cycle.png",
@@ -1716,7 +1823,8 @@
             "magma"
           ],
           "relevance_score": 100,
-          "topic_id": "geomorphology-rocks"
+          "topic_id": "geomorphology-rocks",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_rock_cycle.png"
         },
         {
           "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_volcano_anatomy.png",
@@ -1730,7 +1838,8 @@
             "volcanism"
           ],
           "relevance_score": 100,
-          "topic_id": "geomorphology-rocks"
+          "topic_id": "geomorphology-rocks",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_volcano_anatomy.png"
         },
         {
           "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_weathering_of_rocks.png",
@@ -1746,7 +1855,8 @@
             "hydrolysis"
           ],
           "relevance_score": 100,
-          "topic_id": "geomorphology-rocks"
+          "topic_id": "geomorphology-rocks",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_weathering_of_rocks.png"
         },
         {
           "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_world_earthquake_belts.png",
@@ -1762,7 +1872,8 @@
             "world geography"
           ],
           "relevance_score": 100,
-          "topic_id": "geomorphology-rocks"
+          "topic_id": "geomorphology-rocks",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_world_earthquake_belts.png"
         },
         {
           "file": "geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_world_volcano_belts.png",
@@ -1776,7 +1887,8 @@
             "world map"
           ],
           "relevance_score": 100,
-          "topic_id": "geomorphology-rocks"
+          "topic_id": "geomorphology-rocks",
+          "newPath": "/assets/diagrams/Geography/physical_world_geography/geography_physical_world_geography_geomorphology_rocks_plate_tectonics_volcanism_world_volcano_belts.png"
         }
       ]
     }
@@ -1796,7 +1908,8 @@
             "Ancient India"
           ],
           "relevance_score": 100,
-          "topic_id": "mauryan-period"
+          "topic_id": "mauryan-period",
+          "newPath": "/assets/diagrams/History/3_ancient_india/history_3_ancient_india_mauryan_period_ashokan_pillar_edicts.png"
         },
         {
           "file": "history_3_ancient_india_mauryan_period_mauryan_empire_infographic.png",
@@ -1811,7 +1924,8 @@
             "Military"
           ],
           "relevance_score": 100,
-          "topic_id": "mauryan-period"
+          "topic_id": "mauryan-period",
+          "newPath": "/assets/diagrams/History/3_ancient_india/history_3_ancient_india_mauryan_period_mauryan_empire_infographic.png"
         }
       ],
       "Buddhism & Jainism": [
@@ -1827,7 +1941,8 @@
             "Tripitaka"
           ],
           "relevance_score": 100,
-          "topic_id": "buddhism-jainism"
+          "topic_id": "buddhism-jainism",
+          "newPath": "/assets/diagrams/History/3_ancient_india/history_3_ancient_india_buddhism_jainism_buddhism_teachings_origins.png"
         }
       ],
       "Gupta Period": [
@@ -1844,7 +1959,8 @@
             "Gupta art and culture"
           ],
           "relevance_score": 100,
-          "topic_id": "gupta-period"
+          "topic_id": "gupta-period",
+          "newPath": "/assets/diagrams/History/3_ancient_india/history_3_ancient_india_gupta_period_gupta_empire_infographic.png"
         }
       ],
       "Indus Valley Civilization": [
@@ -1863,7 +1979,8 @@
             "Ancient India"
           ],
           "relevance_score": 100,
-          "topic_id": "indus-valley-civilization"
+          "topic_id": "indus-valley-civilization",
+          "newPath": "/assets/diagrams/History/3_ancient_india/history_3_ancient_india_indus_valley_civilization_indus_valley_city_plan.png"
         }
       ],
       "Vedic Age": [
@@ -1881,7 +1998,8 @@
             "social structure"
           ],
           "relevance_score": 100,
-          "topic_id": "vedic-age"
+          "topic_id": "vedic-age",
+          "newPath": "/assets/diagrams/History/3_ancient_india/history_3_ancient_india_vedic_age_vedic_social_hierarchy.png"
         }
       ]
     },
@@ -1902,7 +2020,8 @@
             "military tactics"
           ],
           "relevance_score": 95,
-          "topic_id": "early-medieval-india"
+          "topic_id": "early-medieval-india",
+          "newPath": "/assets/diagrams/History/4_medieval_india/history_4_medieval_india_early_medieval_india_battle_formations.png"
         }
       ],
       "Delhi Sultanate": [
@@ -1919,7 +2038,8 @@
             "Medieval India"
           ],
           "relevance_score": 100,
-          "topic_id": "delhi-sultanate"
+          "topic_id": "delhi-sultanate",
+          "newPath": "/assets/diagrams/History/4_medieval_india/history_4_medieval_india_delhi_sultanate_delhi_sultanate_timeline.png"
         }
       ],
       "Mughal Empire": [
@@ -1934,7 +2054,8 @@
             "Medieval India"
           ],
           "relevance_score": 100,
-          "topic_id": "mughal-empire"
+          "topic_id": "mughal-empire",
+          "newPath": "/assets/diagrams/History/4_medieval_india/history_4_medieval_india_mughal_empire_mansabdari_system_mughal.png"
         },
         {
           "file": "history_4_medieval_india_mughal_empire_mughal_administration_chart.png",
@@ -1948,7 +2069,8 @@
             "Medieval India"
           ],
           "relevance_score": 100,
-          "topic_id": "mughal-empire"
+          "topic_id": "mughal-empire",
+          "newPath": "/assets/diagrams/History/4_medieval_india/history_4_medieval_india_mughal_empire_mughal_administration_chart.png"
         }
       ],
       "Marathas": [
@@ -1964,7 +2086,8 @@
             "Medieval India"
           ],
           "relevance_score": 100,
-          "topic_id": "marathas"
+          "topic_id": "marathas",
+          "newPath": "/assets/diagrams/History/4_medieval_india/history_4_medieval_india_marathas_maratha_empire_infographic.png"
         }
       ]
     },
@@ -1984,7 +2107,8 @@
             "Modern Indian History"
           ],
           "relevance_score": 100,
-          "topic_id": "freedom-movement"
+          "topic_id": "freedom-movement",
+          "newPath": "/assets/diagrams/History/5_modern_india_highest_priority/history_5_modern_india_highest_priority_freedom_movement_gandhian_era_timeline.png"
         },
         {
           "file": "history_5_modern_india_highest_priority_freedom_movement_inc_sessions_map.png",
@@ -1999,7 +2123,8 @@
             "Lahore Session"
           ],
           "relevance_score": 100,
-          "topic_id": "freedom-movement"
+          "topic_id": "freedom-movement",
+          "newPath": "/assets/diagrams/History/5_modern_india_highest_priority/history_5_modern_india_highest_priority_freedom_movement_inc_sessions_map.png"
         }
       ],
       "Governor-Generals & Viceroys": [
@@ -2015,7 +2140,8 @@
             "Modern India"
           ],
           "relevance_score": 100,
-          "topic_id": "governor-generals-viceroys"
+          "topic_id": "governor-generals-viceroys",
+          "newPath": "/assets/diagrams/History/5_modern_india_highest_priority/history_5_modern_india_highest_priority_governor_generals_viceroys_governor_generals_viceroys_timeline.png"
         }
       ],
       "Revolt of 1857": [
@@ -2033,7 +2159,8 @@
             "Lucknow"
           ],
           "relevance_score": 100,
-          "topic_id": "revolt-1857"
+          "topic_id": "revolt-1857",
+          "newPath": "/assets/diagrams/History/5_modern_india_highest_priority/history_5_modern_india_highest_priority_revolt_of_1857_revolt_1857_centres.png"
         }
       ]
     },
@@ -2051,7 +2178,8 @@
             "Third Estate"
           ],
           "relevance_score": 100,
-          "topic_id": "revolutions"
+          "topic_id": "revolutions",
+          "newPath": "/assets/diagrams/History/6_world_history/history_6_world_history_revolutions_french_revolution_causes.png"
         },
         {
           "file": "history_6_world_history_revolutions_russian_revolution_timeline.png",
@@ -2064,7 +2192,8 @@
             "World History"
           ],
           "relevance_score": 98,
-          "topic_id": "revolutions"
+          "topic_id": "revolutions",
+          "newPath": "/assets/diagrams/History/6_world_history/history_6_world_history_revolutions_russian_revolution_timeline.png"
         },
         {
           "file": "history_6_world_history_revolutions_industrial_revolution_inventions.png",
@@ -2079,7 +2208,8 @@
             "World History"
           ],
           "relevance_score": 95,
-          "topic_id": "revolutions"
+          "topic_id": "revolutions",
+          "newPath": "/assets/diagrams/History/6_world_history/history_6_world_history_revolutions_industrial_revolution_inventions.png"
         }
       ],
       "International Institutions": [
@@ -2095,7 +2225,8 @@
             "geopolitics"
           ],
           "relevance_score": 100,
-          "topic_id": "international-institutions"
+          "topic_id": "international-institutions",
+          "newPath": "/assets/diagrams/History/6_world_history/history_6_world_history_international_institutions_league_of_nations_infographic.png"
         },
         {
           "file": "history_6_world_history_international_institutions_united_nations_system.png",
@@ -2110,7 +2241,8 @@
             "UN Agencies"
           ],
           "relevance_score": 100,
-          "topic_id": "international-institutions"
+          "topic_id": "international-institutions",
+          "newPath": "/assets/diagrams/History/6_world_history/history_6_world_history_international_institutions_united_nations_system.png"
         }
       ],
       "World War I": [
@@ -2125,7 +2257,8 @@
             "Balkans conflict"
           ],
           "relevance_score": 100,
-          "topic_id": "world-war-i"
+          "topic_id": "world-war-i",
+          "newPath": "/assets/diagrams/History/6_world_history/history_6_world_history_world_war_i_world_war_1_alliances.png"
         }
       ],
       "World War II": [
@@ -2145,7 +2278,8 @@
             "USSR"
           ],
           "relevance_score": 100,
-          "topic_id": "world-war-ii"
+          "topic_id": "world-war-ii",
+          "newPath": "/assets/diagrams/History/6_world_history/history_6_world_history_world_war_ii_world_war_ii_powers.png"
         }
       ]
     }
@@ -2167,7 +2301,8 @@
             "circle equation"
           ],
           "relevance_score": 100,
-          "topic_id": "straight-lines"
+          "topic_id": "straight-lines",
+          "newPath": "/assets/diagrams/mathematics/coordinate_geometry_2d_3d/mathematics_coordinate_geometry_2d_3d_straight_lines_coordinate_geometry_formulas.png"
         },
         {
           "file": "mathematics_coordinate_geometry_2d_3d_straight_lines_distance_formula_coordinate_geometry.png",
@@ -2180,7 +2315,8 @@
             "mathematics"
           ],
           "relevance_score": 100,
-          "topic_id": "straight-lines"
+          "topic_id": "straight-lines",
+          "newPath": "/assets/diagrams/mathematics/coordinate_geometry_2d_3d/mathematics_coordinate_geometry_2d_3d_straight_lines_distance_formula_coordinate_geometry.png"
         },
         {
           "file": "mathematics_coordinate_geometry_2d_3d_straight_lines_coordinate_system_quadrants.png",
@@ -2195,7 +2331,8 @@
             "geometry"
           ],
           "relevance_score": 98,
-          "topic_id": "straight-lines"
+          "topic_id": "straight-lines",
+          "newPath": "/assets/diagrams/mathematics/coordinate_geometry_2d_3d/mathematics_coordinate_geometry_2d_3d_straight_lines_coordinate_system_quadrants.png"
         },
         {
           "file": "mathematics_coordinate_geometry_2d_3d_straight_lines_midpoint_formula_coordinate_geometry.png",
@@ -2208,7 +2345,8 @@
             "Cartesian plane"
           ],
           "relevance_score": 98,
-          "topic_id": "straight-lines"
+          "topic_id": "straight-lines",
+          "newPath": "/assets/diagrams/mathematics/coordinate_geometry_2d_3d/mathematics_coordinate_geometry_2d_3d_straight_lines_midpoint_formula_coordinate_geometry.png"
         }
       ]
     },
@@ -2228,7 +2366,8 @@
             "geometry"
           ],
           "relevance_score": 100,
-          "topic_id": "circles-polygons"
+          "topic_id": "circles-polygons",
+          "newPath": "/assets/diagrams/mathematics/geometry/mathematics_geometry_circles_polygons_angle_arc_measures_circles.png"
         },
         {
           "file": "mathematics_geometry_circles_polygons_circle_properties_anatomy.png",
@@ -2244,7 +2383,8 @@
             "segment"
           ],
           "relevance_score": 100,
-          "topic_id": "circles-polygons"
+          "topic_id": "circles-polygons",
+          "newPath": "/assets/diagrams/mathematics/geometry/mathematics_geometry_circles_polygons_circle_properties_anatomy.png"
         },
         {
           "file": "mathematics_geometry_circles_polygons_cyclic_quadrilateral_properties.png",
@@ -2259,7 +2399,8 @@
             "exterior angle"
           ],
           "relevance_score": 100,
-          "topic_id": "circles-polygons"
+          "topic_id": "circles-polygons",
+          "newPath": "/assets/diagrams/mathematics/geometry/mathematics_geometry_circles_polygons_cyclic_quadrilateral_properties.png"
         },
         {
           "file": "mathematics_geometry_circles_polygons_regular_polygons_shapes.png",
@@ -2276,7 +2417,8 @@
             "shapes"
           ],
           "relevance_score": 98,
-          "topic_id": "circles-polygons"
+          "topic_id": "circles-polygons",
+          "newPath": "/assets/diagrams/mathematics/geometry/mathematics_geometry_circles_polygons_regular_polygons_shapes.png"
         }
       ],
       "Lines, Angles & Triangles": [
@@ -2294,7 +2436,8 @@
             "geometry"
           ],
           "relevance_score": 100,
-          "topic_id": "lines-angles-triangles"
+          "topic_id": "lines-angles-triangles",
+          "newPath": "/assets/diagrams/mathematics/geometry/mathematics_geometry_lines_angles_triangles_congruence_of_triangles.png"
         },
         {
           "file": "mathematics_geometry_lines_angles_triangles_similar_triangles_geometry.jpeg",
@@ -2309,7 +2452,8 @@
             "triangle similarity"
           ],
           "relevance_score": 100,
-          "topic_id": "lines-angles-triangles"
+          "topic_id": "lines-angles-triangles",
+          "newPath": "/assets/diagrams/mathematics/geometry/mathematics_geometry_lines_angles_triangles_similar_triangles_geometry.jpeg"
         },
         {
           "file": "mathematics_geometry_lines_angles_triangles_types_of_triangles.png",
@@ -2325,7 +2469,8 @@
             "right triangle"
           ],
           "relevance_score": 100,
-          "topic_id": "lines-angles-triangles"
+          "topic_id": "lines-angles-triangles",
+          "newPath": "/assets/diagrams/mathematics/geometry/mathematics_geometry_lines_angles_triangles_types_of_triangles.png"
         },
         {
           "file": "mathematics_geometry_lines_angles_triangles_pythagoras_theorem_triangle.png",
@@ -2339,7 +2484,8 @@
             "a2+b2=c2"
           ],
           "relevance_score": 95,
-          "topic_id": "lines-angles-triangles"
+          "topic_id": "lines-angles-triangles",
+          "newPath": "/assets/diagrams/mathematics/geometry/mathematics_geometry_lines_angles_triangles_pythagoras_theorem_triangle.png"
         }
       ]
     },
@@ -2357,7 +2503,8 @@
             "3d solids"
           ],
           "relevance_score": 100,
-          "topic_id": "surface-area-volume"
+          "topic_id": "surface-area-volume",
+          "newPath": "/assets/diagrams/mathematics/mensuration/mathematics_mensuration_3d_solids_surface_area_volume_cone_and_frustum.png"
         },
         {
           "file": "mathematics_mensuration_3d_solids_surface_area_volume_cube_surface_area_volume.png",
@@ -2370,7 +2517,8 @@
             "3d geometry"
           ],
           "relevance_score": 100,
-          "topic_id": "surface-area-volume"
+          "topic_id": "surface-area-volume",
+          "newPath": "/assets/diagrams/mathematics/mensuration/mathematics_mensuration_3d_solids_surface_area_volume_cube_surface_area_volume.png"
         },
         {
           "file": "mathematics_mensuration_3d_solids_surface_area_volume_cuboid_surface_area_volume.png",
@@ -2384,7 +2532,8 @@
             "3d geometry"
           ],
           "relevance_score": 100,
-          "topic_id": "surface-area-volume"
+          "topic_id": "surface-area-volume",
+          "newPath": "/assets/diagrams/mathematics/mensuration/mathematics_mensuration_3d_solids_surface_area_volume_cuboid_surface_area_volume.png"
         },
         {
           "file": "mathematics_mensuration_3d_solids_surface_area_volume_cylinder_surface_area_volume.png",
@@ -2399,7 +2548,8 @@
             "mensuration"
           ],
           "relevance_score": 100,
-          "topic_id": "surface-area-volume"
+          "topic_id": "surface-area-volume",
+          "newPath": "/assets/diagrams/mathematics/mensuration/mathematics_mensuration_3d_solids_surface_area_volume_cylinder_surface_area_volume.png"
         }
       ]
     },
@@ -2416,7 +2566,8 @@
             "mathematics"
           ],
           "relevance_score": 100,
-          "topic_id": "syl-probability"
+          "topic_id": "syl-probability",
+          "newPath": "/assets/diagrams/mathematics/probability_statistics/mathematics_probability_statistics_probability_theory_bayes_theorem_probability_tree_diagram.png"
         },
         {
           "file": "mathematics_probability_statistics_probability_theory_bayes_theorem_venn_diagram_set_operations.png",
@@ -2431,7 +2582,8 @@
             "De Morgan's laws"
           ],
           "relevance_score": 98,
-          "topic_id": "syl-probability"
+          "topic_id": "syl-probability",
+          "newPath": "/assets/diagrams/mathematics/probability_statistics/mathematics_probability_statistics_probability_theory_bayes_theorem_venn_diagram_set_operations.png"
         }
       ]
     },
@@ -2449,7 +2601,8 @@
             "data interpretation"
           ],
           "relevance_score": 95,
-          "topic_id": "data-interpretation"
+          "topic_id": "data-interpretation",
+          "newPath": "/assets/diagrams/mathematics/statistics_probability/mathematics_statistics_probability_data_interpretation_tables_bar_pie_charts_statistical_data_visualizations.png"
         }
       ]
     },
@@ -2468,7 +2621,8 @@
             "quadrants"
           ],
           "relevance_score": 100,
-          "topic_id": "trig-identities"
+          "topic_id": "trig-identities",
+          "newPath": "/assets/diagrams/mathematics/trigonometry/mathematics_trigonometry_trigonometric_identities_values_pi_unit_circle.png"
         },
         {
           "file": "mathematics_trigonometry_trigonometric_identities_values_trig_ratios_table.png",
@@ -2482,7 +2636,8 @@
             "standard angles"
           ],
           "relevance_score": 100,
-          "topic_id": "trig-identities"
+          "topic_id": "trig-identities",
+          "newPath": "/assets/diagrams/mathematics/trigonometry/mathematics_trigonometry_trigonometric_identities_values_trig_ratios_table.png"
         },
         {
           "file": "mathematics_trigonometry_trigonometric_identities_values_angle_of_elevation.png",
@@ -2495,7 +2650,8 @@
             "tangent ratio"
           ],
           "relevance_score": 98,
-          "topic_id": "trig-identities"
+          "topic_id": "trig-identities",
+          "newPath": "/assets/diagrams/mathematics/trigonometry/mathematics_trigonometry_trigonometric_identities_values_angle_of_elevation.png"
         },
         {
           "file": "mathematics_trigonometry_trigonometric_identities_values_angle_of_depression.png",
@@ -2508,7 +2664,8 @@
             "trig ratios"
           ],
           "relevance_score": 95,
-          "topic_id": "trig-identities"
+          "topic_id": "trig-identities",
+          "newPath": "/assets/diagrams/mathematics/trigonometry/mathematics_trigonometry_trigonometric_identities_values_angle_of_depression.png"
         }
       ]
     },
@@ -2527,7 +2684,8 @@
             "time"
           ],
           "relevance_score": 95,
-          "topic_id": "time-distance"
+          "topic_id": "time-distance",
+          "newPath": "/assets/diagrams/mathematics/arithmetic/mathematics_arithmetic_time_speed_distance_work_clock_angle_movement.png"
         }
       ]
     }
@@ -2548,7 +2706,8 @@
             "CAG"
           ],
           "relevance_score": 100,
-          "topic_id": "constitutional-bodies"
+          "topic_id": "constitutional-bodies",
+          "newPath": "/assets/diagrams/polity/advanced_polity_structures_bodies/polity_advanced_polity_structures_bodies_constitutional_non_constitutional_bodies_constitutional_bodies_articles.png"
         },
         {
           "file": "polity_advanced_polity_structures_bodies_constitutional_non_constitutional_bodies_comptroller_auditor_general_cag.png",
@@ -2563,7 +2722,8 @@
             "Article 151"
           ],
           "relevance_score": 100,
-          "topic_id": "constitutional-bodies"
+          "topic_id": "constitutional-bodies",
+          "newPath": "/assets/diagrams/polity/advanced_polity_structures_bodies/polity_advanced_polity_structures_bodies_constitutional_non_constitutional_bodies_comptroller_auditor_general_cag.png"
         },
         {
           "file": "polity_advanced_polity_structures_bodies_constitutional_non_constitutional_bodies_finance_commission.png",
@@ -2578,7 +2738,8 @@
             "Indian Polity"
           ],
           "relevance_score": 100,
-          "topic_id": "constitutional-bodies"
+          "topic_id": "constitutional-bodies",
+          "newPath": "/assets/diagrams/polity/advanced_polity_structures_bodies/polity_advanced_polity_structures_bodies_constitutional_non_constitutional_bodies_finance_commission.png"
         },
         {
           "file": "polity_advanced_polity_structures_bodies_constitutional_non_constitutional_bodies_upsc_structure_composition.png",
@@ -2593,7 +2754,8 @@
             "Functions"
           ],
           "relevance_score": 98,
-          "topic_id": "constitutional-bodies"
+          "topic_id": "constitutional-bodies",
+          "newPath": "/assets/diagrams/polity/advanced_polity_structures_bodies/polity_advanced_polity_structures_bodies_constitutional_non_constitutional_bodies_upsc_structure_composition.png"
         }
       ],
       "Elections, Appointments & Terms of Office": [
@@ -2609,7 +2771,8 @@
             "Union Executive"
           ],
           "relevance_score": 95,
-          "topic_id": "positions-tenures"
+          "topic_id": "positions-tenures",
+          "newPath": "/assets/diagrams/polity/advanced_polity_structures_bodies/polity_advanced_polity_structures_bodies_elections_appointments_terms_of_office_vice_president_election.png"
         }
       ]
     },
@@ -2630,7 +2793,8 @@
             "right to constitutional remedies"
           ],
           "relevance_score": 100,
-          "topic_id": "fundamental-rights"
+          "topic_id": "fundamental-rights",
+          "newPath": "/assets/diagrams/polity/constitutional_framework/polity_constitutional_framework_fundamental_rights_art_12_35_constitution_fundamental_rights.png"
         }
       ],
       "DPSP & Fundamental Duties (Art 36-51A)": [
@@ -2645,7 +2809,8 @@
             "Indian Constitution"
           ],
           "relevance_score": 100,
-          "topic_id": "dpsp"
+          "topic_id": "dpsp",
+          "newPath": "/assets/diagrams/polity/constitutional_framework/polity_constitutional_framework_dpsp_fundamental_duties_art_36_51a_fundamental_duties_article_51a.png"
         }
       ],
       "Preamble & Sources": [
@@ -2667,7 +2832,8 @@
             "polity"
           ],
           "relevance_score": 100,
-          "topic_id": "preamble"
+          "topic_id": "preamble",
+          "newPath": "/assets/diagrams/polity/constitutional_framework/polity_constitutional_framework_preamble_sources_preamble_constitution_india.png"
         }
       ]
     },
@@ -2685,7 +2851,8 @@
             "Indian Judiciary"
           ],
           "relevance_score": 100,
-          "topic_id": "judiciary"
+          "topic_id": "judiciary",
+          "newPath": "/assets/diagrams/polity/union_government/polity_union_government_integrated_judiciary_sc_hc_hierarchy_of_courts.png"
         }
       ],
       "Executives: PM, CM & Governor": [
@@ -2702,7 +2869,8 @@
             "Indian Polity"
           ],
           "relevance_score": 100,
-          "topic_id": "goverment-executives"
+          "topic_id": "goverment-executives",
+          "newPath": "/assets/diagrams/polity/union_government/polity_union_government_executives_pm_cm_governor_governor_powers_qualifications.png"
         },
         {
           "file": "polity_union_government_executives_pm_cm_governor_structure_union_executive.png",
@@ -2718,7 +2886,8 @@
             "indian government"
           ],
           "relevance_score": 100,
-          "topic_id": "goverment-executives"
+          "topic_id": "goverment-executives",
+          "newPath": "/assets/diagrams/polity/union_government/polity_union_government_executives_pm_cm_governor_structure_union_executive.png"
         }
       ],
       "Parliament of India (Art 79-122)": [
@@ -2735,7 +2904,8 @@
             "Indian polity"
           ],
           "relevance_score": 100,
-          "topic_id": "parliament"
+          "topic_id": "parliament",
+          "newPath": "/assets/diagrams/polity/union_government/polity_union_government_parliament_of_india_art_79_122_legislative_process_india.png"
         },
         {
           "file": "polity_union_government_parliament_of_india_art_79_122_structure_indian_parliament.png",
@@ -2749,7 +2919,8 @@
             "union government"
           ],
           "relevance_score": 100,
-          "topic_id": "parliament"
+          "topic_id": "parliament",
+          "newPath": "/assets/diagrams/polity/union_government/polity_union_government_parliament_of_india_art_79_122_structure_indian_parliament.png"
         }
       ],
       "Local Self-Govt & Panchayati Raj": [
@@ -2768,7 +2939,8 @@
             "Municipality"
           ],
           "relevance_score": 100,
-          "topic_id": "panchayati-raj"
+          "topic_id": "panchayati-raj",
+          "newPath": "/assets/diagrams/polity/union_government/polity_union_government_local_self_govt_panchayati_raj_panchayati_raj_municipal_corps.png"
         }
       ]
     },
@@ -2787,7 +2959,8 @@
             "MLAs"
           ],
           "relevance_score": 98,
-          "topic_id": "polity-rpa"
+          "topic_id": "polity-rpa",
+          "newPath": "/assets/diagrams/polity/federal_structure_election_law/polity_federal_structure_election_law_representation_of_people_act_election_commission_types_of_elections.png"
         }
       ]
     }

@@ -31,7 +31,7 @@ let content = fs.readFileSync(file, 'utf8');
 // The AI injected pollinations.ai maps into almost every chapter block.
 // We will parse out each EXPANDED_NOTES_DATA block and replace its <img> tags.
 
-let allMatches = [...content.matchAll(/(?:window\.)?EXPANDED_NOTES_DATA\["([^"]+)"\]\s*=\s*`([\s\S]*?)`;/g)];
+let allMatches = [...content.matchAll(/(?:window\.)?EXPANDED_NOTES_DATA\(["[^"]+)"\]\s*=\s*`([\s\S]*?)`;/g)];
 
 allMatches.forEach((match, i) => {
   const chapter = match[1];

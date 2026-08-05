@@ -61,10 +61,10 @@ filesToProcess.forEach(filePath => {
   
   // 2. Fix Mermaid Diagrams
   // Look for mermaid blocks and replace `Node(Text)` with `Node["Text"]`
-  text = text.replace(/```mermaid([\s\S]*?)```/g, (match, inner) => {
+  text = text.replace(//g, (match, inner) => {
     // Replace parentheses in nodes with square brackets and quotes
     let fixedInner = inner.replace(/\b([A-Za-z0-9_]+)\(([^)]+)\)/g, '$1["$2"]');
-    return '```mermaid' + fixedInner + '```';
+    return '';
   });
   
   fs.writeFileSync(filePath, text);

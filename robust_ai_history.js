@@ -61,7 +61,7 @@ async function runBatch() {
   }
   let historyFileContent = fs.readFileSync(historyFilePath, 'utf8');
   
-  let allMatches = [...historyFileContent.matchAll(/(?:window\.)?EXPANDED_NOTES_DATA\["([^"]+)"\]\s*=\s*`([\s\S]*?)`;/g)];
+  let allMatches = [...historyFileContent.matchAll(/(?:window\.)?EXPANDED_NOTES_DATA\(["[^"]+)"\]\s*=\s*`([\s\S]*?)`;/g)];
   
   const notesData = {};
   allMatches.forEach(match => {

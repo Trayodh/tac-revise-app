@@ -177,7 +177,7 @@ async function generateAllDiagrams() {
     const content = fs.readFileSync(outputFile, 'utf8');
     const matches = content.match(/DIAGRAMS_DB\["[^"]+"\]/g) || [];
     matches.forEach(m => {
-      const id = m.match(/DIAGRAMS_DB\["([^"]+)"\]/)?.[1];
+      const id = m.match(/DIAGRAMS_DB\(["[^"]+)"\]/)?.[1];
       if (id) alreadyDone.add(id);
     });
     console.log(`↺ Resuming: ${alreadyDone.size} diagrams already done.`);

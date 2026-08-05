@@ -114,7 +114,7 @@ async function run() {
   let dataContent = fs.readFileSync(DATA_FILE, 'utf8');
   
   const historyFileContent = fs.readFileSync('notes_extra_history.js', 'utf8');
-  let allMatches = [...historyFileContent.matchAll(/(?:window\.)?EXPANDED_NOTES_DATA\["([^"]+)"\]\s*=\s*`([\s\S]*?)`;/g)];
+  let allMatches = [...historyFileContent.matchAll(/(?:window\.)?EXPANDED_NOTES_DATA\(["[^"]+)"\]\s*=\s*`([\s\S]*?)`;/g)];
   
   const notesData = {};
   allMatches.forEach(match => { notesData[match[1]] = match[2]; });
