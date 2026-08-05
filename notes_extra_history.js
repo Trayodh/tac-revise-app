@@ -998,13 +998,6 @@ EXPANDED_NOTES_DATA["indus-valley-civilization"] = `
 </ul>
 
 
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Ancient/Indus%20Valley.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Indus Valley">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Indus Valley</i></p>
-</div>
-
 </body>
 </html>
 
@@ -1279,13 +1272,6 @@ EXPANDED_NOTES_DATA["vedic-age"] = `
 </ul>
 
 <!-- SOURCE: chunk_002.txt | TOPIC: Ancient India - Buddhism -->
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Ancient/Vedic%20social%20heirarchy.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Vedic social heirarchy">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Vedic social heirarchy</i></p>
-</div>
 
 </body>
 </html>
@@ -1819,14 +1805,7 @@ EXPANDED_NOTES_DATA["buddhism-jainism"] = `
   <li>The Buddhist University at <strong>Nalanda</strong> was set up in the 5th century.</li>
 </ul>
 
-<!-- SOURCE: chunk_006.txt | TOPIC: Delhi Sultanate - Early Rulers and Khiljis -->
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Ancient/Buddhism.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Buddhism">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Buddhism</i></p>
-</div>
-
-`;
+<!-- SOURCE: chunk_006.txt | TOPIC: Delhi Sultanate - Early Rulers and Khiljis -->`;
 
 EXPANDED_NOTES_DATA["mauryan-period"] = `
 
@@ -1864,20 +1843,6 @@ EXPANDED_NOTES_DATA["mauryan-period"] = `
   <p>Weak successors, regional revolts, economic drain from military campaigns, and foreign invasions by Greeks, Sakas, and Parthians destabilized the empire.</p>
 
 
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Ancient/Ashokan%20Edicts.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Ashokan Edicts">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Ashokan Edicts</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Ancient/Mauryan%20Empire.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mauryan Empire">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mauryan Empire</i></p>
-</div>
 
 `;
 
@@ -2061,13 +2026,6 @@ EXPANDED_NOTES_DATA["gupta-period"] = `
 
     <h3>7. Legacy</h3>
     <p>The Gupta period bequeathed a lasting cultural template that shaped Indian civilization for centuries. Its contributions to language (standardization of Classical Sanskrit), art (iconic temple architecture), science (foundations of modern astronomy and mathematics), and education (Nalanda as a world‑renowned university) continue to be celebrated as the zenith of ancient Indian achievement.</p>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Ancient/Gupta%20Empire.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Gupta Empire">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Gupta Empire</i></p>
-</div>
 
 </body>
 </html>
@@ -2417,13 +2375,6 @@ EXPANDED_NOTES_DATA["early-medieval-india"] = `
     </ul>
 
     <p>Understanding the dynamics of the Early Medieval period—its power struggles, regional kingdoms, and cultural efflorescence—is essential for grasping the foundations of later Indian history and the evolution of political thought that shaped the sub‑continent.</p>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Medieval/Battle%20formations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Battle formations">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Battle formations</i></p>
-</div>
 
 </body>
 </html>
@@ -2820,13 +2771,6 @@ EXPANDED_NOTES_DATA["delhi-sultanate"] = `
 <!-- SOURCE: chunk_011.txt | TOPIC: Modern India - Key Events, Viceroys, and Land Revenue Systems -->
 <h1>Modern India - Key Events, Viceroys, and Land Revenue Systems</h1>
 
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Medieval/Delhi%20Sultanate.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Delhi Sultanate">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Delhi Sultanate</i></p>
-</div>
 
 </body>
 </html>
@@ -3842,20 +3786,6 @@ EXPANDED_NOTES_DATA["mughal-empire"] = `
 
     <p class="note"><strong>Note:</strong> All dates are given in the Gregorian calendar unless otherwise specified.</p>
 
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Medieval/Mansabdari%20system.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mansabdari system">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mansabdari system</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Medieval/Mughal%20administration.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Mughal administration">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Mughal administration</i></p>
-</div>
-
 </body>
 </html>
 `;
@@ -4067,13 +3997,6 @@ EXPANDED_NOTES_DATA["marathas"] = `
     <li>Their naval initiatives laid the groundwork for later Indian maritime enterprises.</li>
     <li>Even after political decline, Maratha cultural and linguistic contributions continued to shape the socio‑political fabric of western and central India.</li>
 </ul>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Medieval/Marathas.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Marathas">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Marathas</i></p>
-</div>
 
 </body>
 </html>
@@ -4870,20 +4793,6 @@ EXPANDED_NOTES_DATA["european-arrival"] = `
 
     <h3>5. Legacy for Modern India</h3>
     <p>The European incursions, especially the British conquest, reshaped India’s political geography, introduced new administrative practices, and laid the economic foundations that would later influence the independence movement. Understanding the sequence of arrivals, the pivotal battles, and the administrative reforms is essential for grasping the transition from a mosaic of regional kingdoms to a colonially administered entity.</p>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Modern/Governor%20Generals%20of%20India.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Governor Generals of India">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Governor Generals of India</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Governor.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Governor">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Governor</i></p>
-</div>
 
 </body>
 </html>
@@ -6087,13 +5996,6 @@ EXPANDED_NOTES_DATA["revolt-1857"] = `
 
     <p>In sum, the Revolt of 1857 was not merely a military mutiny but a complex, multi‑dimensional challenge to colonial domination. Its suppression ushered in a new era of direct Crown rule, yet the spirit of resistance it embodied persisted, eventually culminating in the mass movements that secured India’s freedom in 1947.</p>
 
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Modern/Revolt%20of%201857.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Revolt of 1857">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Revolt of 1857</i></p>
-</div>
-
 </body>
 </html>
 `;
@@ -6507,20 +6409,6 @@ EXPANDED_NOTES_DATA["freedom-movement"] = `
   <li><strong>Kakori Train Robbery:</strong> Took place in 1925.</li>
 </ul>
 
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Modern/Gandhian%20Era.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Gandhian Era">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Gandhian Era</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/Modern/Indian%20National%20Congress.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Indian National Congress">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Indian National Congress</i></p>
-</div>
 
 </body>
 </html>
@@ -6982,48 +6870,6 @@ EXPANDED_NOTES_DATA["revolutions"] = `
     <li>Understanding the nexus of industrial capacity and military power is crucial for contemporary strategic assessments.</li>
 </ul>
 
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/World/French%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="French Revolution">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: French Revolution</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/World/Industrial%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Industrial Revolution">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Industrial Revolution</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/World/League%20of%20Nations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="League of Nations">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: League of Nations</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/World/Russian%20Revolution.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Russian Revolution">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Russian Revolution</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/World/United%20Nations.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="United Nations">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: United Nations</i></p>
-</div>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/World/Wold%20War%201%20prelude.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="Wold War 1 prelude">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: Wold War 1 prelude</i></p>
-</div>
-
 </body>
 </html>
 `;
@@ -7355,13 +7201,6 @@ EXPANDED_NOTES_DATA["world-war-ii"] = `
             </tr>
         </tbody>
     </table>
-
-
-
-<div style="margin:20px 0;text-align:center;">
-<img src="/assets/diagrams/History/World/World%20War%202.png" style="max-width:100%;height:auto;border:1px solid #ccc;border-radius:8px;" alt="World War 2">
-<p style="font-size:0.9em;color:#555;margin-top:5px;"><i>Visual Summary Diagram: World War 2</i></p>
-</div>
 
 </body>
 </html>

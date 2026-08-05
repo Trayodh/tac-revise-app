@@ -2180,7 +2180,9 @@ function renderTopicView(subjectId, chapterId, topicId) {
     let mapsHtml = '';
     let mapsForTopic = [];
     
-    if (typeof TOPIC_MAPS !== 'undefined' && TOPIC_MAPS[topic.id]) {
+    if (typeof window.DIAGRAM_MAP !== 'undefined' && window.DIAGRAM_MAP[topic.id] && window.DIAGRAM_MAP[topic.id].length > 0) {
+      mapsForTopic = window.DIAGRAM_MAP[topic.id];
+    } else if (typeof TOPIC_MAPS !== 'undefined' && TOPIC_MAPS[topic.id]) {
       mapsForTopic = TOPIC_MAPS[topic.id];
     } else {
       // Fallback diagram based on subject ID if no specific topic map exists
