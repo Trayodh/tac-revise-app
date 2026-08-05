@@ -2402,19 +2402,19 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
       <button class="tab-btn ${activeNotesTab === 'notes' ? 'active' : ''}" onclick="setNotesTab('notes')" style="white-space: nowrap; flex-shrink: 0;">
 
-        ≡ƒôû Concept Notes
+        📝 Concept Notes
 
       </button>
 
       <button class="tab-btn ${activeNotesTab === 'formulas' ? 'active' : ''}" onclick="setNotesTab('formulas')" style="white-space: nowrap; flex-shrink: 0;">
 
-        ≡ƒôÉ High-Yield Formulas
+        ⚡ High-Yield Formulas
 
       </button>
 
       <button class="tab-btn ${activeNotesTab === 'mindmap' ? 'active' : ''}" onclick="setNotesTab('mindmap')" style="white-space: nowrap; flex-shrink: 0; display: ${topic.mindmap ? 'block' : 'none'};">
 
-        ≡ƒºá Mind Map
+        🗺️ Mind Map
 
       </button>
 
@@ -2434,7 +2434,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
       <div class="tab-pane-content fade-in" style="height: 100%;">
 
-        <div class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
+        <div id="dynamic-notes-container" class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
 
           ${topicId === 'all-equipment' ? '<div id="armed-forces-equipment-container"></div>' : (() => {
 
@@ -2815,6 +2815,24 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
 
 
+
+  // Knowledge Evolution Engine - Progressive Enhancement
+  if (activeNotesTab === 'notes' && topic.type !== 'intelligence') {
+    const mdUrl = `evolved_notes/${subjectId}/${topic.id}.md`;
+    fetch(mdUrl, { method: 'HEAD' })
+      .then(res => { if (res.ok) return fetch(mdUrl).then(r => r.text()); return null; })
+      .then(mdContent => {
+        if (mdContent) {
+          const notesContainer = document.getElementById('dynamic-notes-container');
+          if (notesContainer && window.marked) {
+            const html = marked.parse(mdContent);
+            notesContainer.innerHTML = (window.currentMapsHtml || '') + html;
+            if (window.mermaid) mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+          }
+        }
+      })
+      .catch(e => console.log('No evolved notes found or error fetching:', e));
+  }
 
   // Re-typeset MathJax after injecting new content
 
