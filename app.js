@@ -2825,7 +2825,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
         if (mdContent) {
           const notesContainer = document.getElementById('dynamic-notes-container');
           if (notesContainer && window.marked) {
-            const html = marked.parse(mdContent);
+            const html = typeof parseWikiLinks === 'function' ? parseWikiLinks(mdContent) : marked.parse(mdContent);
             notesContainer.innerHTML = (window.currentMapsHtml || '') + html;
             if (window.mermaid) mermaid.init(undefined, document.querySelectorAll('.mermaid'));
           }
