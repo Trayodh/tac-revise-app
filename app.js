@@ -8806,9 +8806,13 @@ window.handleRoute = function() {
 
             
 
+            const subjectsView = document.getElementById('notes-view-subjects');
+
             const chaptersView = document.getElementById('notes-view-chapters');
 
             const contentView = document.getElementById('notes-view-content');
+
+            if (subjectsView) subjectsView.style.display = 'none';
 
             if (chaptersView) chaptersView.style.display = 'none';
 
