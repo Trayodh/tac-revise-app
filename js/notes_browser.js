@@ -2224,7 +2224,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
     
     tabContentHtml = `
       <div class="tab-pane-content fade-in" style="height: 100%;">
-        <div class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
+        <div id="dynamic-notes-container" class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
           ${mapsHtml}
           ${parseWikiLinks(mainNotesContent)}
           ${(!isPlaceholder && typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]) ? `
@@ -2440,6 +2440,24 @@ function renderTopicView(subjectId, chapterId, topicId) {
          SmartConceptExplorer.bindContent(contentContainer);
        }
     }, 100);
+  }
+
+  // Knowledge Evolution Engine - Progressive Enhancement
+  if (activeNotesTab === 'notes' && topic.type !== 'intelligence') {
+    const mdUrl = evolved_notes//.md;
+    fetch(mdUrl, { method: 'HEAD' })
+      .then(res => { if (res.ok) return fetch(mdUrl).then(r => r.text()); return null; })
+      .then(mdContent => {
+        if (mdContent) {
+          const notesContainer = document.getElementById('dynamic-notes-container');
+          if (notesContainer && window.marked) {
+            const html = marked.parse(mdContent);
+            notesContainer.innerHTML = (window.currentMapsHtml || '') + html;
+            if (window.mermaid) mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+          }
+        }
+      })
+      .catch(e => console.log('No evolved notes found or error fetching:', e));
   }
 
   // Re-typeset MathJax after injecting new content
