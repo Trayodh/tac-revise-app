@@ -2817,22 +2817,42 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
 
   // Knowledge Evolution Engine - Progressive Enhancement
-  if (activeNotesTab === 'notes' && topic.type !== 'intelligence') {
+
+  const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+
+  if (isLocalhost && activeNotesTab === 'notes' && topic.type !== 'intelligence') {
+
     const mdUrl = `evolved_notes/${subjectId}/${topic.id}.md`;
+
     fetch(mdUrl, { method: 'HEAD' })
+
       .then(res => { if (res.ok) return fetch(mdUrl).then(r => r.text()); return null; })
+
       .then(mdContent => {
+
         if (mdContent) {
+
           const notesContainer = document.getElementById('dynamic-notes-container');
+
           if (notesContainer && window.marked) {
+
             const html = typeof parseWikiLinks === 'function' ? parseWikiLinks(mdContent) : marked.parse(mdContent);
+
             notesContainer.innerHTML = (window.currentMapsHtml || '') + html;
+
             if (window.mermaid) mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+
           }
+
         }
+
       })
+
       .catch(e => console.log('No evolved notes found or error fetching:', e));
+
   }
+
+
 
   // Re-typeset MathJax after injecting new content
 
