@@ -2,7 +2,12 @@
 
 // Dependencies: data.js (which contains NOTES_DATABASE, window.CURRENT_AFFAIRS_DB, etc.)
 
-
+window.parseWikiLinks = function(text) {
+  if (!text) return text;
+  return text.replace(/\[\[(.*?)\]\]/g, (match, p1) => {
+    return `<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(p1.trim().replace(/ /g, '_'))}" target="_blank" class="wiki-link">${p1}</a>`;
+  });
+};
 
 // ==========================================
 
