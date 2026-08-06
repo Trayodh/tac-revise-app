@@ -3395,11 +3395,11 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2019_II"] = String.raw`
 <h2>Page 3: AI Contextual Enrichment &amp; Advanced Concepts</h2>
 <h3>XII. Number System Hierarchy (Conceptual Mind-Map)</h3>
 <pre><code>REAL NUMBERS (R)
-├── Rational Numbers (Q)
-│   ├── Integers (Z)
-│   │   ├── Whole Numbers (W)
+ Rational Numbers (Q)
+│    Integers (Z)
+│   │    Whole Numbers (W)
 │   │   │   └── Natural Numbers (N)
-│   │   │       ├── Prime Numbers
+│   │   │        Prime Numbers
 │   │   │       └── Composite Numbers
 │   │   └── Negative Integers
 │   └── Fractions (Non-integer Rationals)
@@ -9691,37 +9691,37 @@ window.EXPANDED_NOTES_DATA["41_CDS_Solved_Paper_2019_I"] = String.raw`
 <p>This module focuses on fundamental arithmetic and number system concepts, particularly Square Roots, Cube Roots, Exponents, and their applications, as seen in the CDS 2019 I examination. Understanding these basics is crucial for quantitative aptitude sections.</p>
 <h3>Simplified Conceptual Flow / Mind Map</h3>
 <pre><code>NUMBER SYSTEMS &amp; OPERATIONS
-├── Rational Numbers (p/q form, terminating/repeating decimals)
+ Rational Numbers (p/q form, terminating/repeating decimals)
 │   └── Irrational Numbers (non-terminating, non-repeating decimals, e.g., √2, √3)
 │       └── Distinction: √m is irrational unless m is the nth power of an integer (Q4)
-├── POWERS &amp; EXPONENTS
-│   ├── Basic Rules: a^m * a^n = String.rawa^(m+n), (a^m)^n = String.rawa^(m*n), a^(-n) = String.raw1/a^n
-│   ├── Fractional Exponents: a^(1/n) = String.rawnth root of a
+ POWERS &amp; EXPONENTS
+│    Basic Rules: a^m * a^n = String.rawa^(m+n), (a^m)^n = String.rawa^(m*n), a^(-n) = String.raw1/a^n
+│    Fractional Exponents: a^(1/n) = String.rawnth root of a
 │   └── Negative Exponents: 5^(-2) = String.raw1/25 (Q9)
-├── SQUARE ROOTS (√x)
-│   ├── Definition: A number 'y' such that y*y = String.rawx
-│   ├── Perfect Squares: Numbers whose square roots are integers.
+ SQUARE ROOTS (√x)
+│    Definition: A number 'y' such that y*y = String.rawx
+│    Perfect Squares: Numbers whose square roots are integers.
 │   │   └── Unit Digits: Cannot end in 2, 3, 7, 8 (Q2)
-│   ├── Finding Square Roots:
-│   │   ├── Direct calculation (Q1, Q5, Q6, Q8, Q14, Q20)
-│   │   ├── Estimation for large numbers (Q25, Q28, Q29, Q30)
-│   │   ├── Long Division Method (implied for Q25, Q27)
+│    Finding Square Roots:
+│   │    Direct calculation (Q1, Q5, Q6, Q8, Q14, Q20)
+│   │    Estimation for large numbers (Q25, Q28, Q29, Q30)
+│   │    Long Division Method (implied for Q25, Q27)
 │   │   └── Simplification of Surds (Q16, Q42)
-│   ├── Operations: Addition, Subtraction, Multiplication, Division (Q8, Q13, Q14, Q19, Q42)
+│    Operations: Addition, Subtraction, Multiplication, Division (Q8, Q13, Q14, Q19, Q42)
 │   └── Applications: Word problems involving equal rows/columns (Q28, Q30), collection problems (Q29)
-├── CUBE ROOTS (³√x)
-│   ├── Definition: A number 'y' such that y*y*y = String.rawx
-│   ├── Perfect Cubes: Numbers whose cube roots are integers.
-│   ├── Finding Cube Roots: Prime factorization (Q26)
+ CUBE ROOTS (³√x)
+│    Definition: A number 'y' such that y*y*y = String.rawx
+│    Perfect Cubes: Numbers whose cube roots are integers.
+│    Finding Cube Roots: Prime factorization (Q26)
 │   └── Operations: (Q35)
-├── ALGEBRAIC SIMPLIFICATION
-│   ├── Rationalization of Denominators (Q13, Q19, Q32, Q48)
-│   ├── Identities: (a+b)² = String.rawa²+2ab+b²; (a-b)² = String.rawa²-2ab+b² (Q16, Q19)
-│   ├── Solving Equations involving roots/exponents (Q1, Q7, Q11, Q34, Q35)
+ ALGEBRAIC SIMPLIFICATION
+│    Rationalization of Denominators (Q13, Q19, Q32, Q48)
+│    Identities: (a+b)² = String.rawa²+2ab+b²; (a-b)² = String.rawa²-2ab+b² (Q16, Q19)
+│    Solving Equations involving roots/exponents (Q1, Q7, Q11, Q34, Q35)
 │   └── Complex expressions (Q10, Q15, Q18, Q41, Q45, Q46, Q47)
-├── COMPARISON OF NUMBERS
+ COMPARISON OF NUMBERS
 │   └── Ordering Surds/Fractions (Q23, Q44)
-├── SEQUENCES &amp; SERIES
+ SEQUENCES &amp; SERIES
 │   └── Geometric Progression: Bouncing ball problems (Q31, Q38)
 </code></pre>
 <h3>Foundational Conceptual Notes (Extracted from Solutions)</h3>
@@ -14170,38 +14170,38 @@ window.EXPANDED_NOTES_DATA["83_Compound_Interest"] = String.raw`
 <hr />
 <h3>Structural Mind-Map: Compound Interest Scenarios</h3>
 <pre><code>Compound Interest (CI)
-├── Basic Formula: A = String.rawP(1 + R/100)^n
+ Basic Formula: A = String.rawP(1 + R/100)^n
 │   └── CI = String.rawA - P
 │
-├── Compounding Frequency Variations:
-│   ├── Semi-Annually (Half-Yearly):
-│   │   ├── Rate (R_new) = String.rawR/2
+ Compounding Frequency Variations:
+│    Semi-Annually (Half-Yearly):
+│   │    Rate (R_new) = String.rawR/2
 │   │   └── Time (n_new) = String.raw2n
 │   │   └── Formula: A = String.rawP(1 + R/(2*100))^(2n)
 │   │
-│   ├── Quarterly:
-│   │   ├── Rate (R_new) = String.rawR/4
+│    Quarterly:
+│   │    Rate (R_new) = String.rawR/4
 │   │   └── Time (n_new) = String.raw4n
 │   │   └── Formula: A = String.rawP(1 + R/(4*100))^(4n)
 │   │
 │   └── (Implicit: Monthly):
-│       ├── Rate (R_new) = String.rawR/12
+│        Rate (R_new) = String.rawR/12
 │       └── Time (n_new) = String.raw12n
 │       └── Formula: A = String.rawP(1 + R/(12*100))^(12n)
 │
-├── Special Cases for Time &amp; Rate:
-│   ├── Fractional Time (t a/b years, compounded annually):
+ Special Cases for Time &amp; Rate:
+│    Fractional Time (t a/b years, compounded annually):
 │   │   └── Formula: A = String.rawP(1 + R/100)^t * (1 + (a/b * R)/100)
 │   │
 │   └── Different Rates for Different Years (R1, R2, R3 for n1, n2, n3 years):
 │       └── Formula: A = String.rawP(1 + R1/100)^n1 * (1 + R2/100)^n2 * (1 + R3/100)^n3
 │
-├── Difference between CI &amp; SI:
-│   ├── For 2 Years: D = String.rawPR^2 / (100^2)
+ Difference between CI &amp; SI:
+│    For 2 Years: D = String.rawPR^2 / (100^2)
 │   └── For 3 Years: D = String.rawPR^2(300 + R) / (100^3)
 │
-├── Depreciation:
-│   ├── Value after n years = String.rawP * (1 - R/100)^n
+ Depreciation:
+│    Value after n years = String.rawP * (1 - R/100)^n
 │   └── Value n years ago = String.rawP / (1 - R/100)^n
 │
 └── Instalments:

@@ -3649,11 +3649,223 @@ h2 {
 /* --- EXTRA QUESTION BANK --- */
 .bank-filters { display: flex; justify-content: center; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; }
 .bank-filter-btn { padding: 10px 20px; border-radius: 20px; background-color: var(--bg-tertiary); color: var(--text-secondary); border: 1px solid var(--border); cursor: pointer; font-size: 0.95rem; font-weight: 600; transition: all 0.2s ease; }
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.map-hotspot:hover text {
+  opacity: 1;
+}
+
+/* 3D Flipping Flashcards */
+.flashcard-container {
+  width: 100%;
+  height: 250px;
+  perspective: 1000px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.flashcard-container:hover .flashcard-inner {
+  box-shadow: 0 0 20px rgba(132, 204, 22, 0.25);
+}
+
+.flashcard-container.flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front, .flashcard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.flashcard-front {
+  background: linear-gradient(135deg, rgba(20, 24, 20, 0.95) 0%, rgba(10, 14, 10, 0.95) 100%);
+  border-color: rgba(132, 204, 22, 0.2);
+  color: var(--text-primary);
+}
+
+.flashcard-back {
+  background: linear-gradient(135deg, rgba(10, 18, 12, 0.98) 0%, rgba(5, 10, 5, 0.98) 100%);
+  border-color: rgba(34, 197, 94, 0.3);
+  color: var(--text-secondary);
+  transform: rotateY(180deg);
+}
+
+.flashcard-type-label {
+  position: absolute;
+  top: 16px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(132, 204, 22, 0.08);
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid rgba(132, 204, 22, 0.15);
+}
+
+.flashcard-hint {
+  position: absolute;
+  bottom: 16px;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#flashcard-front-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#flashcard-back-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Leitner Box Grid Boxes */
+.leitner-box-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0,0,0,0.2);
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+.leitner-box-badge {
+  background: rgba(255,255,255,0.06);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* SRS Modal Styling */
+.srs-modal-panel {
+  background: rgba(17, 24, 39, 0.95) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 12px;
+}
+
+.srs-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.srs-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Tell Me More Tooltip */
+#tell-me-more-tooltip {
+    position: absolute;
+    z-index: 9999;
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.98));
+    color: var(--accent);
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--accent);
+    box-shadow: 0 0 15px rgba(34, 197, 94, 0.4), 0 4px 6px rgba(0, 0, 0, 0.3);
+    font-family: var(--font-main);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px) translateX(-50%);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+    backdrop-filter: blur(8px);
+}
+
+#tell-me-more-tooltip.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) translateX(-50%);
+}
+
+#tell-me-more-tooltip:hover {
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.6);
+}
+
+
+
+
+
+/* Heatmap Styles */
+.heatmap-tile { padding: 10px; border-radius: 6px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; color: #fff; cursor: pointer; transition: transform 0.2s ease; border: 1px solid rgba(255,255,255,0.1); }
+.heatmap-tile:hover { transform: translateY(-2px); }
+.heatmap-topic { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; text-align: center; }
+.heatmap-accuracy { font-family: var(--font-mono); font-size: 1.1rem; font-weight: bold; }
+.heatmap-tile-red { background: linear-gradient(135deg, rgba(239,68,68,0.8), rgba(153,27,27,0.9)); box-shadow: 0 4px 12px rgba(239,68,68,0.2); }
+.heatmap-tile-amber { background: linear-gradient(135deg, rgba(245,158,11,0.8), rgba(180,83,9,0.9)); box-shadow: 0 4px 12px rgba(245,158,11,0.2); }
+.heatmap-tile-green { background: linear-gradient(135deg, rgba(34,197,94,0.8), rgba(21,128,61,0.9)); box-shadow: 0 4px 12px rgba(34,197,94,0.2); }
+
+
+/* Phase 6 Micro Animations */
+@keyframes slideUpFadeIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+.panel { animation: slideUpFadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+.btn-primary:hover, .btn-secondary:hover, .action-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(132, 204, 22, 0.2); }
+.cbt-overlay { animation: slideUpFadeIn 0.2s ease-out forwards; }
+.nav-item { transition: all 0.2s ease; }
+.nav-item:hover { transform: translateX(4px); }
+
+/* --- EXTRA QUESTION BANK --- */
+.bank-filters { display: flex; justify-content: center; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; }
+.bank-filter-btn { padding: 10px 20px; border-radius: 20px; background-color: var(--bg-tertiary); color: var(--text-secondary); border: 1px solid var(--border); cursor: pointer; font-size: 0.95rem; font-weight: 600; transition: all 0.2s ease; }
 .bank-filter-btn:hover { background-color: var(--bg-hover); color: var(--text-primary); }
 .bank-filter-btn.active { background: var(--accent-gradient); color: white; border: none; box-shadow: 0 4px 15px var(--accent-glow); }
 .bank-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; padding: 10px; }
 .bank-card { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 15px; transition: transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
 .bank-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.4); border-color: var(--border-hover); }
+.expanded-notes-content {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--text-primary);
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.expanded-notes-content pre, .expanded-notes-content table, .expanded-notes-content code {
+  overflow-x: auto;
+  max-width: 100%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 .bank-q-text { font-size: 1.05rem; line-height: 1.6; color: var(--text-primary); font-weight: 500; white-space: pre-wrap; }
 .bank-options { display: flex; flex-direction: column; gap: 8px; }
 .bank-opt { background: var(--bg-tertiary); padding: 10px 15px; border-radius: 8px; border: 1px solid var(--border); color: var(--text-secondary); font-size: 0.95rem; cursor: pointer; transition: all 0.2s ease; }
@@ -4414,6 +4626,18 @@ body.locked-mode .main-content {
   font-size: 0.95rem;
   line-height: 1.8;
   color: #e2e8f0;
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.notes-text pre, .notes-text table, .notes-text code {
+  overflow-x: auto;
+  max-width: 100%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .notes-text h3 {
@@ -4464,6 +4688,23 @@ body.locked-mode .main-content {
   background: rgba(255,255,255,0.05);
   padding: 0 4px;
   border-radius: 4px;
+}
+
+.expanded-notes-content th {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  text-align: left;
+  padding: 10px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  font-weight: 600;
+  word-break: normal;
+}
+
+.expanded-notes-content td {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+  word-break: normal;
 }
 
 .revision-card {

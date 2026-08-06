@@ -2,6 +2,8 @@
 
 // Dependencies: data.js (which contains NOTES_DATABASE, window.CURRENT_AFFAIRS_DB, etc.)
 
+
+
 // ==========================================
 
 // 0. STANDALONE AI INTERCEPTOR (For Android/Capacitor App Support)
@@ -2436,13 +2438,14 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
         <div id="dynamic-notes-container" class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
 
+          <div id="markdown-injection-point">
           ${topicId === 'all-equipment' ? '<div id="armed-forces-equipment-container"></div>' : (() => {
 
             const expandedHtml = (typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]) ? window.EXPANDED_NOTES_DATA[topic.id] : null;
 
             if (expandedHtml) {
 
-              // Strip full HTML doc wrapper ΓÇö extract only <body> inner content
+              // Strip full HTML doc wrapper — extract only <body> inner content
 
               const bodyMatch = expandedHtml.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
 
@@ -2455,6 +2458,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
             return parseWikiLinks(topic.notes || '');
 
           })()}
+          </div>
 
           ${chapterDiagramHtml}
 
@@ -2808,11 +2812,43 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
        }
 
-    }, 100);
+    }, 200);
 
   }
 
 
+
+  if (activeNotesTab === 'notes') {
+
+    const injPoint = document.getElementById('markdown-injection-point');
+
+    if (injPoint) {
+
+       fetch(`evolved_notes/${subjectId}/${topicId}.md`)
+
+         .then(res => { if(res.ok) return res.text(); throw new Error('Not found locally'); })
+
+         .then(mdText => {
+
+            if(typeof marked !== 'undefined') {
+
+               injPoint.innerHTML = marked.parse(mdText);
+
+               if(typeof window.MathJax !== 'undefined' && window.MathJax.typesetPromise) {
+
+                 window.MathJax.typesetPromise();
+
+               }
+
+            }
+
+         })
+
+         .catch(e => {});
+
+    }
+
+  }
 
 
 
@@ -3198,7 +3234,7 @@ function fetchDailyCurrentAffairs() {
 
   if (isFetchingDailyNews && Date.now() - fetchStartTime > 90000) {
 
-    console.warn('[CA] Fetch timeout ΓÇö resetting flags and retrying...');
+    console.warn('[CA] Fetch timeout — resetting flags and retrying...');
 
     isFetchingDailyNews = false;
 
@@ -3222,9 +3258,9 @@ function fetchDailyCurrentAffairs() {
 
       <p style="color: var(--accent); font-family: var(--font-mono); letter-spacing: 1px; font-weight: 700; font-size: 0.95rem;">RETRIEVING INTELLIGENCE BRIEFING</p>
 
-      <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 8px;">Scanning PIB ┬╖ Google News ┬╖ 10 UPSC Topic Areas</p>
+      <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 8px;">Scanning PIB · Google News · 10 UPSC Topic Areas</p>
 
-      <p style="color: var(--text-muted); font-size: 0.8rem; margin-top: 6px;">AI enriching with UPSC highlights ΓÇö this may take 15-30 seconds...</p>
+      <p style="color: var(--text-muted); font-size: 0.8rem; margin-top: 6px;">AI enriching with UPSC highlights — this may take 15-30 seconds...</p>
 
     </div>`;
 
@@ -3328,19 +3364,25 @@ function renderCurrentAffairsHub() {
 
 
 
-  // Auto-select a month: prefer current month ΓåÆ first month in cycle ΓåÆ fallback first key
+  // Auto-select a month: prefer current month -> first month in cycle -> fallback first key
 
   if (!keys.includes(activeCaMonth)) {
 
     const currentMonthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
+    const hasData = (month) => window.CURRENT_AFFAIRS_DB[month] && window.CURRENT_AFFAIRS_DB[month].length > 0;
 
-    if (keys.includes(currentMonthStr)) {
+    if (keys.includes(currentMonthStr) && hasData(currentMonthStr)) {
 
       activeCaMonth = currentMonthStr;
 
     } else if (keys.length > 0) {
 
-      activeCaMonth = keys[keys.length - 1]; // latest month in cycle
+      const keysWithData = keys.filter(hasData);
+      if (keysWithData.length > 0) {
+        activeCaMonth = keysWithData[keysWithData.length - 1]; // latest month in cycle with data
+      } else {
+        activeCaMonth = keys[keys.length - 1];
+      }
 
     }
 
@@ -3572,9 +3614,9 @@ function renderCurrentMonthAffairs() {
 
     <div style="margin-bottom:20px;">
 
-      <h2 style="margin:0 0 4px; font-size:1.2rem; font-weight:700; letter-spacing:0.3px;">Current Affairs ΓÇö ${activeCaMonth}</h2>
+      <h2 style="margin:0 0 4px; font-size:1.2rem; font-weight:700; letter-spacing:0.3px;">Current Affairs — ${activeCaMonth}</h2>
 
-      <p style="margin:0 0 12px; font-size:0.82rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:0.5px;">PIB + NEWS ┬╖ AI-ENRICHED ┬╖ ${data.length} ITEMS ┬╖ CYCLE: ${getExamCycleBounds().cycleLabel}</p>
+      <p style="margin:0 0 12px; font-size:0.82rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:0.5px;">PIB + NEWS · AI-ENRICHED · ${data.length} ITEMS · CYCLE: ${getExamCycleBounds().cycleLabel}</p>
 
       <p style="margin:0 0 12px; font-size:0.75rem; color:var(--info); font-style:italic; opacity: 0.9;">Update Schedule: Refreshes daily with new intelligence briefs.</p>
 
@@ -3583,9 +3625,8 @@ function renderCurrentMonthAffairs() {
         ${Object.entries(topicCounts).map(([t,c]) => {
 
           const safeTopic = (t || 'General').toUpperCase().replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
-
-          return `<span onclick="document.getElementById('topic-${safeTopic}')?.scrollIntoView({behavior: 'smooth', block: 'start'})" onmouseover="this.style.background='rgba(255,255,255,0.12)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'" style="cursor:pointer; font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase; transition:background 0.2s;">${t}&thinsp;┬╖&thinsp;${c}</span>`;
-
+          const col = getTopicColor(t);
+          return `<span onclick="document.getElementById('topic-${safeTopic}')?.scrollIntoView({behavior: 'smooth', block: 'start'})" onmouseover="this.style.background='${col}33'" onmouseout="this.style.background='${col}15'" style="cursor:pointer; font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:${col}15; border:1px solid ${col}50; color:${col}; letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase; transition:background 0.2s;">${t}&thinsp;·&thinsp;${c}</span>`;
         }).join('')}
 
       </div>
@@ -3876,7 +3917,7 @@ function renderCurrentMonthAffairs() {
 
             <summary style="padding: 10px 14px; font-weight: 700; font-size: 0.8rem; color: #c084fc; cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: space-between; outline: none; background: rgba(168, 85, 247, 0.05);">
 
-              <span>ΓÜí COMMAND INTEL: Click to expand UPSC Depth Analysis</span>
+              <span>⚡ COMMAND INTEL: Click to expand UPSC Depth Analysis</span>
 
             </summary>
 
@@ -3970,7 +4011,7 @@ function renderCurrentMonthAffairs() {
 
                 <div style="margin-top: 8px; padding: 12px; background: rgba(0,0,0,0.15); border-radius: 6px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; gap: 8px; font-size: 0.82rem;">
 
-                  <strong style="color: var(--info); font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">≡ƒÆí Analytical Doubts & SSB Scenarios</strong>
+                  <strong style="color: var(--info); font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;">💡 Analytical Doubts & SSB Scenarios</strong>
 
                   ${item.potentialQuestions.shortAnswers ? `<div><strong>Short Answer Qs:</strong><ul style="margin: 2px 0 0; padding-left: 16px;">${item.potentialQuestions.shortAnswers.map(q => `<li>${q}</li>`).join('')}</ul></div>` : ''}
 
@@ -4034,7 +4075,7 @@ function renderCurrentMonthAffairs() {
 
         </div>
 
-        <p style="color:var(--text-muted); font-size:0.82rem; margin:0 0 20px; font-family:var(--font-mono); letter-spacing:0.4px; text-transform:uppercase;">Current Affairs MCQs ΓÇö Analytical, not recall-based</p>
+        <p style="color:var(--text-muted); font-size:0.82rem; margin:0 0 20px; font-family:var(--font-mono); letter-spacing:0.4px; text-transform:uppercase;">Current Affairs MCQs — Analytical, not recall-based</p>
 
         <div class="panel">
 
@@ -4340,7 +4381,7 @@ function executePyqSearch() {
 
           <div class="pyq-ans-indicator ${uid}-ans" style="display: none; font-weight: 600; margin-top: 4px; ${isCorrect ? 'color: var(--accent);' : 'color: var(--danger);'}">
 
-            ${isCorrect ? 'Γ£ô CORRECT ANSWER' : 'Γ£ù INCORRECT'}
+            ${isCorrect ? '✓ CORRECT ANSWER' : '✗ INCORRECT'}
 
           </div>
 
@@ -4718,13 +4759,13 @@ function renderCbtMockHub() {
 
     
 
-    let subIcon = "≡ƒôÜ";
+    let subIcon = "📚";
 
-    if (subjectName === "Mathematics") subIcon = "≡ƒôÉ";
+    if (subjectName === "Mathematics") subIcon = "📐";
 
-    else if (subjectName === "English") subIcon = "Γ£ì∩╕Å";
+    else if (subjectName === "English") subIcon = "✍️";
 
-    else subIcon = "≡ƒîì";
+    else subIcon = "🌍";
 
 
 
@@ -6800,7 +6841,7 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
 
           <h3 style="font-family:var(--font-logo); color: var(--accent);"> AI Explanation: ${topicName}</h3>
 
-          <span style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono)">POWERED BY GEMINI AI ┬╖ FREE</span>
+          <span style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono)">POWERED BY GEMINI AI · FREE</span>
 
         </div>
 
@@ -8568,7 +8609,7 @@ function initCountdownTimer() {
 
       </div>
 
-      <span style="font-size: 0.6rem; color: var(--text-muted);">Γû╝</span>
+      <span style="font-size: 0.6rem; color: var(--text-muted);">▼</span>
 
     `;
 
@@ -9894,7 +9935,7 @@ function renderCaVisitsTable() {
 
   const titleEl = document.getElementById("ca-visits-panel-title");
 
-  if (titleEl) titleEl.textContent = `International Visits & Bilateral Deals ΓÇö Exam Cycle: ${cycle.cycleLabel}`;
+  if (titleEl) titleEl.textContent = `International Visits & Bilateral Deals — Exam Cycle: ${cycle.cycleLabel}`;
 
 
 
@@ -10000,7 +10041,7 @@ function renderCaAwardsTable() {
 
 
 
-// Data-driven renderer ΓÇö reads from window.CA_FTA_DATA in ca_data.js
+// Data-driven renderer — reads from window.CA_FTA_DATA in ca_data.js
 
 function renderCaFtaTable() {
 
@@ -10020,7 +10061,7 @@ function renderCaFtaTable() {
 
   const titleEl2 = document.getElementById("ca-fta-panel-title");
 
-  if (titleEl2) titleEl2.textContent = `Trade Deals & FTAs ΓÇö Exam Cycle: ${cycle2.cycleLabel} (Last Refreshed: ${meta.lastRefreshed || ""})`;
+  if (titleEl2) titleEl2.textContent = `Trade Deals & FTAs — Exam Cycle: ${cycle2.cycleLabel} (Last Refreshed: ${meta.lastRefreshed || ""})`;
 
 
 
@@ -10080,7 +10121,7 @@ function renderCaFtaTable() {
 
 
 
-// Data-driven renderer ΓÇö reads from window.CA_DATES_DATA in ca_data.js
+// Data-driven renderer — reads from window.CA_DATES_DATA in ca_data.js
 
 function renderCaDatesTable() {
 
@@ -10098,7 +10139,7 @@ function renderCaDatesTable() {
 
   const titleEl = document.getElementById("ca-dates-panel-title");
 
-  if (titleEl) titleEl.textContent = `Important Dates & Themes ΓÇö ${meta.examCycle || "2026"}`;
+  if (titleEl) titleEl.textContent = `Important Dates & Themes — ${meta.examCycle || "2026"}`;
 
 
 
@@ -10144,10 +10185,8 @@ function renderCaDatesTable() {
 
         <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
 
-          <button onclick="streamDetailedDateAnalysis('${d.name.replace(/'/g, "\\'")}', '${d.date.replace(/'/g, "\\'")}', 'ca-date-deep-${index}')" class="btn-primary" style="padding: 4px 10px; font-size: 0.72rem; border-radius: 4px; display: inline-flex; align-items: center; gap: 4px; background: rgba(168, 85, 247, 0.15); border: 1px solid rgba(168, 85, 247, 0.3); color: #c084fc; cursor: pointer;">
-
-            ≡ƒöì Generate Cadet Deep Dive (10-15 Paragraphs)
-
+          <button onclick="window.streamDetailedDateAnalysis('${d.name.replace(/'/g, "\\'")}', '${d.date.replace(/'/g, "\\'")}', 'ca-date-deep-${index}')" class="btn-primary" style="padding: 4px 10px; font-size: 0.72rem; border-radius: 4px; display: inline-flex; align-items: center; gap: 4px; background: rgba(168, 85, 247, 0.15); border: 1px solid rgba(168, 85, 247, 0.3); color: #c084fc; cursor: pointer;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> Generate Cadet Deep Dive (10-15 Paragraphs)
           </button>
 
         </div>
@@ -10296,82 +10335,53 @@ Do not use any emojis in your response. Keep the tone professional, scholarly, a
 
     const streamTextArea = container.querySelector('.stream-text-area');
 
-
-
-    const reader = response.body.getReader();
-
-    const decoder = new TextDecoder('utf-8');
-
-    let buffer = "";
-
-    let finalText = "";
-
-
-
-    while (true) {
-
-      const { done, value } = await reader.read();
-
-      if (done) break;
-
-
-
-      const chunk = decoder.decode(value, { stream: true });
-
-      buffer += chunk;
-
-
-
-      const lines = buffer.split('\n');
-
-      buffer = lines.pop();
-
-
-
-      for (const line of lines) {
-
-        if (line.startsWith('data: ')) {
-
-          try {
-
-            const dataStr = line.replace('data: ', '').trim();
-
-            if (dataStr && dataStr !== '[DONE]') {
-
-              const parsed = JSON.parse(dataStr);
-
-              if (parsed.candidates && parsed.candidates[0].content && parsed.candidates[0].content.parts[0]) {
-
-                finalText += parsed.candidates[0].content.parts[0].text;
-
-                
-
-                // Format paragraphs nicely
-
-                let formatted = finalText
-
-                  .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-
-                  .replace(/\*(.*?)\*/g, '<em>$1</em>')
-
-                  .replace(/\n\n/g, '<br/><br/>')
-
-                  .replace(/\n/g, '<br/>');
-
-
-
-                streamTextArea.innerHTML = parseWikiLinks(formatted);
-
-              }
-
-            }
-
-          } catch(e) {}
-
-        }
-
+    const contentType = response.headers.get('content-type') || '';
+    if (contentType.includes('application/json')) {
+      const data = await response.json();
+      if (data.candidates && data.candidates[0].content && data.candidates[0].content.parts[0]) {
+        let finalText = data.candidates[0].content.parts[0].text;
+        let formatted = finalText
+          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+          .replace(/\*(.*?)\*/g, '<em>$1</em>')
+          .replace(/\n\n/g, '<br/><br/>')
+          .replace(/\n/g, '<br/>');
+        streamTextArea.innerHTML = parseWikiLinks(formatted);
+      } else {
+        streamTextArea.innerHTML = '<span style="color: var(--danger);">No response generated.</span>';
       }
-
+    } else {
+      // Fallback in case of actual streaming
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder('utf-8');
+      let buffer = "";
+      let finalText = "";
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        const chunk = decoder.decode(value, { stream: true });
+        buffer += chunk;
+        const lines = buffer.split('\n');
+        buffer = lines.pop();
+        for (const line of lines) {
+          if (line.startsWith('data: ')) {
+            try {
+              const dataStr = line.replace('data: ', '').trim();
+              if (dataStr && dataStr !== '[DONE]') {
+                const parsed = JSON.parse(dataStr);
+                if (parsed.candidates && parsed.candidates[0].content && parsed.candidates[0].content.parts[0]) {
+                  finalText += parsed.candidates[0].content.parts[0].text;
+                  let formatted = finalText
+                    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                    .replace(/\n\n/g, '<br/><br/>')
+                    .replace(/\n/g, '<br/>');
+                  streamTextArea.innerHTML = parseWikiLinks(formatted);
+                }
+              }
+            } catch(e) {}
+          }
+        }
+      }
     }
 
 
@@ -10390,10 +10400,9 @@ Do not use any emojis in your response. Keep the tone professional, scholarly, a
 
 }
 
+window.streamDetailedDateAnalysis = streamDetailedDateAnalysis;
 window.renderCaVisitsTable = renderCaVisitsTable;
-
 window.renderCaFtaTable = renderCaFtaTable;
-
 window.renderCaDatesTable = renderCaDatesTable;
 
 
@@ -11970,7 +11979,7 @@ function startVocabQuiz() {
 
     // Ensure word has synonyms/antonyms
 
-    if (!w.synonyms || w.synonyms === 'ΓÇö' || !w.antonyms || w.antonyms === 'ΓÇö') continue;
+    if (!w.synonyms || w.synonyms === '—' || !w.antonyms || w.antonyms === '—') continue;
 
     
 
@@ -11994,11 +12003,11 @@ function startVocabQuiz() {
 
         let wrongAns = '';
 
-        if (type === 'synonym' && wrongW.synonyms && wrongW.synonyms !== 'ΓÇö') {
+        if (type === 'synonym' && wrongW.synonyms && wrongW.synonyms !== '—') {
 
           wrongAns = wrongW.synonyms.split(',')[0].trim();
 
-        } else if (type === 'antonym' && wrongW.antonyms && wrongW.antonyms !== 'ΓÇö') {
+        } else if (type === 'antonym' && wrongW.antonyms && wrongW.antonyms !== '—') {
 
           wrongAns = wrongW.antonyms.split(',')[0].trim();
 
@@ -12992,7 +13001,7 @@ function drawSimulator() {
 
   
 
-  document.getElementById('label-sim-angle').innerText = `${angle}┬░`;
+  document.getElementById('label-sim-angle').innerText = `${angle}°`;
 
   document.getElementById('label-sim-velocity').innerText = `${velocityPct}%`;
 
@@ -14326,7 +14335,7 @@ const AI_TOPIC_TEMPLATES = {
 
         correct: 1,
 
-        explanation: "For a matrix A of order n, the property is |kA| = kΓü┐|A|. Here, n = 3, k = 2, and |A| = 5. So, |2A| = 2┬│ * 5 = 8 * 5 = 40. Option B is correct."
+        explanation: "For a matrix A of order n, the property is |kA| = kⁿ|A|. Here, n = 3, k = 2, and |A| = 5. So, |2A| = 2³ * 5 = 8 * 5 = 40. Option B is correct."
 
       },
 
@@ -14338,7 +14347,7 @@ const AI_TOPIC_TEMPLATES = {
 
         correct: 1,
 
-        explanation: "Let X = AB - BA. Take transpose: Xß╡Ç = (AB - BA)ß╡Ç = (AB)ß╡Ç - (BA)ß╡Ç = Bß╡ÇAß╡Ç - Aß╡ÇBß╡Ç. Since A and B are symmetric, Aß╡Ç = A and Bß╡Ç = B. So Xß╡Ç = BA - AB = -(AB - BA) = -X. Since Xß╡Ç = -X, the matrix is skew-symmetric. Option B is correct."
+        explanation: "Let X = AB - BA. Take transpose: Xᵀ = (AB - BA)ᵀ = (AB)ᵀ - (BA)ᵀ = BᵀAᵀ - AᵀBᵀ. Since A and B are symmetric, Aᵀ = A and Bᵀ = B. So Xᵀ = BA - AB = -(AB - BA) = -X. Since Xᵀ = -X, the matrix is skew-symmetric. Option B is correct."
 
       },
 
@@ -14346,11 +14355,11 @@ const AI_TOPIC_TEMPLATES = {
 
         question: "If the determinant of matrix [[x, 2], [3, x]] is 10, what are the possible values of x?",
 
-        options: ["┬▒4", "┬▒2", "┬▒16", "0"],
+        options: ["±4", "±2", "±16", "0"],
 
         correct: 0,
 
-        explanation: "Det = (x * x) - (2 * 3) = x┬▓ - 6. Set this to 10: x┬▓ - 6 = 10 => x┬▓ = 16 => x = ┬▒4. Option A is correct."
+        explanation: "Det = (x * x) - (2 * 3) = x² - 6. Set this to 10: x² - 6 = 10 => x² = 16 => x = ±4. Option A is correct."
 
       }
 
@@ -14412,13 +14421,13 @@ const AI_TOPIC_TEMPLATES = {
 
       {
 
-        question: "What is the refractive index of a medium if the speed of light in it is 2 * 10Γü╕ m/s? (Speed of light in vacuum c = 3 * 10Γü╕ m/s)",
+        question: "What is the refractive index of a medium if the speed of light in it is 2 * 10⁸ m/s? (Speed of light in vacuum c = 3 * 10⁸ m/s)",
 
         options: ["1.5", "1.2", "2.0", "1.33"],
 
         correct: 0,
 
-        explanation: "Refractive index n = c / v. n = (3 * 10Γü╕) / (2 * 10Γü╕) = 1.5. Option A is correct."
+        explanation: "Refractive index n = c / v. n = (3 * 10⁸) / (2 * 10⁸) = 1.5. Option A is correct."
 
       }
 
@@ -14520,7 +14529,7 @@ const AI_TOPIC_TEMPLATES = {
 
         correct: 1,
 
-        explanation: "Static friction is generally higher than kinetic friction because surfaces interlock more deeply when stationary. Therefore, ╬╝s > ╬╝k. Option B is correct."
+        explanation: "Static friction is generally higher than kinetic friction because surfaces interlock more deeply when stationary. Therefore, μs > μk. Option B is correct."
 
       }
 
@@ -14572,11 +14581,11 @@ const AI_TOPIC_TEMPLATES = {
 
         question: "Which chemical compound is known as Plaster of Paris?",
 
-        options: ["CaSOΓéä ┬╖ 2HΓééO", "CaSOΓéä ┬╖ 0.5HΓééO", "NaΓééCOΓéâ ┬╖ 10HΓééO", "NaHCOΓéâ"],
+        options: ["CaSO₄ · 2H₂O", "CaSO₄ · 0.5H₂O", "Na₂CO₃ · 10H₂O", "NaHCO₃"],
 
         correct: 1,
 
-        explanation: "Plaster of Paris is Calcium Sulphate Hemihydrate (CaSOΓéä ┬╖ 0.5HΓééO). Gypsum is CaSOΓéä ┬╖ 2HΓééO. Option B is correct."
+        explanation: "Plaster of Paris is Calcium Sulphate Hemihydrate (CaSO₄ · 0.5H₂O). Gypsum is CaSO₄ · 2H₂O. Option B is correct."
 
       },
 
