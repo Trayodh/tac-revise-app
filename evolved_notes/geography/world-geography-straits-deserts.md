@@ -1,4 +1,6 @@
-# PROJECT SARASWATI: The Ultimate AI Knowledge Engine
+
+![world-geography-straits-deserts](assets/diagrams/geography/physical-world-geography/world-geography-straits-deserts.png)
+*Diagram for world-geography-straits-deserts*
 
 ## Straits, Canals, Deserts & Seas: A Comprehensive Study Module for Indian Defence Examinations
 
@@ -6,7 +8,7 @@
 
 ### **I. Introduction**
 
-This module provides an exhaustive, intelligent, and interconnected knowledge base on Straits, Canals, Deserts, and Seas, specifically tailored for Indian Defence Competitive Examinations like NDA, CDS, AFCAT, CAPF, INET, Agniveer, and Territorial Army. Understanding these geographical features is crucial for comprehending global trade routes, geopolitical strategies, environmental dynamics, and historical developments. This module integrates information from authoritative sources, including Pathfinder General Studies and class notes, cross-referenced with current global data to ensure accuracy and relevance.
+This module provides an exhaustive, intelligent, and interconnected knowledge base on Straits, Canals, Deserts, and Seas, specifically tailored for Indian Defence Competitive Examinations like NDA, CDS, AFCAT, CAPF, INET, Agniveer, and Territorial Army. Understanding these geographical features is crucial for comprehending global trade routes, geopolitical strategies, environmental dynamics, and historical developments. This module integrates information from authoritative sources, including Pathfinder General Studies and class notes, cross-referenced with [[current]] global data to ensure accuracy and relevance.
 
 ---
 
@@ -21,7 +23,7 @@ A **strait** is a naturally formed, narrow, typically navigable waterway that co
     *   **Trade Routes:** Facilitate global maritime trade, reducing travel distances and costs.
     *   **Geopolitical Choke Points:** Strategic locations for naval control and influence.
     *   **Migration & Cultural Exchange:** Historically, facilitated human migration and cultural diffusion.
-    *   **Biodiversity:** Often areas of rich marine biodiversity due to mixing of waters.
+    *   **[[Biodiversity]]:** Often areas of rich marine [[biodiversity]] due to mixing of waters.
 
 #### **2. Major World Straits**
 

@@ -1,20 +1,6 @@
 # THE UNIVERSE & SOLAR SYSTEM
 
-## The Ultimate AI Knowledge Engine for Indian Defence Examinations
 
----
-
-### **FUNDAMENTAL PRINCIPLES APPLIED:**
-
-This module on "The Universe & Solar System" has been meticulously crafted following PROJECT SARASWATI's core principles:
-
-*   **Accuracy & Verification:** All facts, figures, and theories have been cross-referenced across the provided Pathfinder and class notes, and validated against authoritative public information to ensure the highest level of accuracy. Dynamic information, such as planet moon counts, has been updated to the latest available data.
-*   **Completeness & Original Synthesis:** A comprehensive gap analysis was performed, integrating information from multiple sources to provide an exhaustive overview. Content is originally synthesized, focusing on conceptual understanding rather than mere reproduction.
-*   **Understanding & First-Principles Learning:** Concepts are explained from fundamental principles, addressing "What, Why, How, When, Where, Who" to foster deep comprehension. Common misconceptions and frequently confused concepts are clarified.
-*   **Visual Learning & Memory Engineering:** Complex ideas are simplified through structured text, tables, and Mermaid.js diagrams to enhance visual learning and long-term retention. Memory aids and exam traps are explicitly highlighted.
-*   **Exam Relevance & PYQ Intelligence:** The content is tailored for NDA, CDS, AFCAT, CAPF, INET, Agniveer, Territorial Army, and SSB knowledge preparation, with insights derived from previous year question (PYQ) analysis.
-
----
 
 ## **1. INTRODUCTION TO THE COSMOS**
 
@@ -22,7 +8,7 @@ The study of the Universe and our Solar System is fundamental to General Studies
 
 ### **1.1. Cosmology: The Study of the Universe**
 
-Cosmology is the scientific study of the origin, evolution, large-scale structures, and ultimate fate of the Universe. It seeks to understand the fundamental laws that govern the cosmos.
+Cosmology is the scientific study of the origin, [[evolution]], large-scale structures, and ultimate fate of the Universe. It seeks to understand the fundamental laws that govern the cosmos.
 
 ### **1.2. Theories of the Universe's Origin**
 
@@ -36,23 +22,23 @@ Understanding how the Universe began and evolved is crucial. Several theories at
     *   **Concept:** The Universe originated from an extremely hot, dense singularity approximately **13.8 billion years ago**. It has been continuously expanding and cooling ever since.
     *   **Evidence:**
         *   **Redshift of Galaxies:** Edwin Hubble observed that galaxies are moving away from us, and the farther they are, the faster they recede, indicating an expanding universe.
-        *   **Cosmic Microwave Background (CMB) Radiation:** This faint background radiation is considered the "afterglow" of the Big Bang, uniformly filling the universe.
-        *   **Abundance of Light Elements:** The observed ratios of hydrogen, helium, and lithium in the universe match predictions made by the Big Bang model.
+        *   **Cosmic Microwave Background (CMB) [[Radiation]]:** This faint background [[radiation]] is considered the "afterglow" of the Big Bang, uniformly filling the universe.
+        *   **Abundance of [[Light]] [[Elements]]:** The observed ratios of hydrogen, helium, and lithium in the universe match predictions made by the Big Bang model.
 *   **Steady State Theory:**
     *   **Proponent:** Hermann Bondi, Thomas Gold, and Fred Hoyle.
-    *   **Concept:** Proposed as an alternative to the Big Bang, it suggested that the Universe is eternal and unchanging on a large scale, with new matter continuously being created to maintain constant density as it expands. This theory has largely been disproven by observational evidence supporting the Big Bang.
+    *   **Concept:** Proposed as an alternative to the Big Bang, it suggested that the Universe is eternal and unchanging on a large scale, with new matter continuously being created to maintain constant [[density]] as it expands. This theory has largely been disproven by observational evidence supporting the Big Bang.
 *   **Pulsating Theory:**
     *   **Concept:** Suggests that the Universe undergoes cycles of expansion (Big Bang) and contraction (Big Crunch). This theory is less favored currently.
 
 ### **1.3. Galaxies**
 
-Galaxies are vast systems of stars, stellar remnants, interstellar gas, dust, and dark matter, all bound together by gravity.
+Galaxies are vast systems of stars, stellar remnants, interstellar gas, dust, and dark matter, all bound together by [[gravity]].
 
 *   **Composition:** Comprise billions of stars, planets, gases, and dust.
-*   **Our Galaxy:** The **Milky Way (Akash Ganga)** is a spiral galaxy containing approximately **300 billion stars**, including our Sun.
+*   **Our Galaxy:** The **Milky Way (Akash [[Ganga]])** is a spiral galaxy containing approximately **300 billion stars**, including our Sun.
 *   **Nearest Galaxy:** **Andromeda** is our closest galactic neighbor.
 *   **Classification of Galaxies:**
-    *   **Spiral Galaxies:** Have a central nucleus with prominent spiral arms (e.g., Milky Way, Andromeda).
+    *   **Spiral Galaxies:** Have a central [[nucleus]] with prominent spiral arms (e.g., Milky Way, Andromeda).
     *   **Elliptical Galaxies:** Lack spiral arms and have an elliptical shape.
     *   **Irregular Galaxies:** Have no definite shape.
 
@@ -60,42 +46,34 @@ Galaxies are vast systems of stars, stellar remnants, interstellar gas, dust, an
 
 ## **2. STARS: CELESTIAL POWERHOUSES**
 
-Stars are massive, luminous spheres of plasma, held together by their own gravity. They emit light and heat generated by nuclear fusion in their cores.
+Stars are massive, luminous spheres of plasma, held together by their own [[gravity]]. They emit [[light]] and [[heat]] generated by nuclear [[fusion]] in their cores.
 
 ### **2.1. Stellar Characteristics**
 
 *   **Composition:** Primarily composed of hot, burning gases (mainly hydrogen and helium).
-*   **Light Source:** Shine by their own light, unlike planets which reflect light.
-*   **Color and Temperature:** A star's color indicates its surface temperature:
+*   **[[Light]] Source:** Shine by their own [[light]], unlike planets which reflect [[light]].
+*   **Color and [[Temperature]]:** A star's color indicates its surface [[temperature]]:
     *   **Blue:** Hottest stars.
-    *   **Yellow:** Intermediate temperature (e.g., our Sun).
+    *   **Yellow:** Intermediate [[temperature]] (e.g., our Sun).
     *   **Red:** Coolest stars.
 
 ### **2.2. Stellar Life Cycle (Evolution of a Star)**
 
-Stars undergo a life cycle determined by their initial mass:
+Stars undergo a life cycle determined by their initial [[mass]]:
 
-\\\mermaid
-graph TD
-    A[Nebula: Cloud of Gas and Dust] --> B{Protostar: Gravitational Collapse}
-    B --> C[Main Sequence Star: Nuclear Fusion (Hydrogen to Helium)]
-    C --> D{Red Giant/Supergiant: Hydrogen Depletion, Core Contraction, Outer Layers Expand}
-    D --> E{Planetary Nebula: Outer Layers Expelled (for Sun-like stars)}
-    E --> F[White Dwarf: Dense Remnant (for Sun-like stars)]
-    D --> G{Supernova: Catastrophic Explosion (for Massive Stars)}
-    G --> H[Neutron Star: Extremely Dense Core (for Massive Stars)]
-    G --> I[Black Hole: Gravitational Singularity (for Very Massive Stars)]
-\\\
+
+![universe-solar-system](assets/diagrams/geography/physical-world-geography/universe-solar-system.png)
+*Diagram for universe-solar-system*
 
 *   **Nebula:** Stars begin as dense clouds of gas and dust.
-*   **Protostar:** Gravity pulls material together, increasing temperature and pressure.
-*   **Main Sequence Star (Adult Star):** Nuclear fusion of hydrogen into helium begins in the core. This is the longest phase of a star's life (e.g., our Sun).
+*   **Protostar:** [[Gravity]] pulls material together, increasing [[temperature]] and [[pressure]].
+*   **Main Sequence Star (Adult Star):** Nuclear [[fusion]] of hydrogen into helium begins in the core. This is the longest phase of a star's life (e.g., our Sun).
 *   **Red Giant/Supergiant:** When hydrogen fuel in the core runs out, the core contracts, and outer layers expand and cool, becoming redder.
 *   **Planetary Nebula:** For Sun-like stars, the outer layers are gently expelled, forming a glowing shell of gas.
 *   **White Dwarf:** The remaining core of a Sun-like star, very dense and slowly cooling.
 *   **Supernova:** For massive stars, the core collapses catastrophically, leading to a powerful explosion.
-*   **Neutron Star/Pulsar:** The extremely dense remnant of a supernova, composed mainly of neutrons. Pulsars are rapidly rotating neutron stars that emit beams of radiation.
-*   **Black Hole:** If the remnant of a supernova is massive enough, its gravity is so strong that nothing, not even light, can escape.
+*   **[[Neutron]] Star/Pulsar:** The extremely dense remnant of a supernova, composed mainly of neutrons. Pulsars are rapidly rotating [[neutron]] stars that emit beams of [[radiation]].
+*   **Black Hole:** If the remnant of a supernova is massive enough, its [[gravity]] is so strong that nothing, not even [[light]], can escape.
 
 ---
 
@@ -105,9 +83,9 @@ Our Solar System is a gravitationally bound system comprising the Sun and the ob
 
 ### **3.1. Overview and Components**
 
-*   **Central Star:** The **Sun**, a yellow dwarf star, is at the center, accounting for **over 99% of the total mass** of the Solar System.
+*   **Central Star:** The **Sun**, a yellow dwarf star, is at the center, accounting for **over 99% of the total [[mass]]** of the Solar System.
 *   **Planets:** Eight planets orbit the Sun in elliptical paths.
-*   **Dwarf Planets:** Celestial bodies that orbit the Sun, are massive enough to be rounded by their own gravity, but have not cleared their orbital neighborhood of other debris (e.g., Pluto).
+*   **Dwarf Planets:** Celestial bodies that orbit the Sun, are massive enough to be rounded by their own [[gravity]], but have not cleared their orbital neighborhood of other debris (e.g., Pluto).
 *   **Satellites (Moons):** Natural bodies orbiting planets.
 *   **Small Solar System Bodies (SSSB):** Includes asteroids, comets, meteoroids, and interplanetary dust.
 
@@ -119,21 +97,21 @@ Planets are broadly classified into two groups based on their composition and lo
     *   **Characteristics:** Rocky, dense, relatively small, with solid surfaces.
     *   **Members:** Mercury, Venus, Earth, Mars.
 *   **Jovian (Outer) Planets / Gas Giants:**
-    *   **Characteristics:** Large, low-density, composed mainly of gases (hydrogen, helium), with no solid surface.
+    *   **Characteristics:** Large, low-[[density]], composed mainly of gases (hydrogen, helium), with no solid surface.
     *   **Members:** Jupiter, Saturn, Uranus, Neptune.
 
 ---
 
 ## **4. THE SUN: OUR STAR**
 
-The Sun is the star at the center of the Solar System, providing the energy necessary for life on Earth.
+The Sun is the star at the center of the Solar System, providing the [[energy]] necessary for life on Earth.
 
-*   **Energy Source:** Nuclear fusion (hydrogen converting to helium) in its core.
-*   **Fraunhofer Lines:** Hundreds of dark lines superimposed on the Sun's white light, indicating elements present in its atmosphere.
+*   **[[Energy]] Source:** Nuclear [[fusion]] (hydrogen converting to helium) in its core.
+*   **Fraunhofer Lines:** Hundreds of dark lines superimposed on the Sun's white [[light]], indicating [[elements]] present in its [[atmosphere]].
 *   **Solar Phenomena:**
     *   **Solar Winds:** Continuous streams of charged particles (protons, electrons) emitted from the Sun.
-    *   **Solar Flares:** Bursts of intense radiation from the Sun's surface, posing a danger to satellite communication.
-    *   **Aurora (Borealis/Australis):** Beautiful light displays in Earth's polar regions, caused by solar wind particles interacting with Earth's magnetic field and atmosphere.
+    *   **Solar Flares:** Bursts of intense [[radiation]] from the Sun's surface, posing a danger to satellite communication.
+    *   **Aurora (Borealis/Australis):** Beautiful [[light]] displays in Earth's polar regions, caused by solar wind particles interacting with Earth's [[magnetic field]] and [[atmosphere]].
     *   **Sunspots:** Cooler, darker regions on the Sun's surface, with a periodicity of **11 years**, influencing global climate.
     *   **Plages:** Bright regions on the Sun's surface, often associated with sunspots.
 

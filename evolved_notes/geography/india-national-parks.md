@@ -1,12 +1,9 @@
-# PROJECT SARASWATI: National Parks of India (Map Guide)
 
-## The Ultimate AI Knowledge Engine for Indian Defence Examinations
 
----
 
 ### **1. Introduction: Understanding National Parks**
 
-National Parks are areas set aside by the government for the protection and preservation of wildlife and their natural habitats. They are established under the **Wildlife Protection Act, 1972**, which provides the legal framework for their declaration, management, and conservation. The primary objective is to conserve biodiversity, natural landscapes, and ecological processes for present and future generations.
+National Parks are areas set aside by the government for the protection and preservation of wildlife and their natural habitats. They are established under the **Wildlife Protection Act, 1972**, which provides the legal framework for their declaration, management, and [[conservation]]. The primary objective is to conserve [[biodiversity]], natural landscapes, and ecological processes for present and future generations.
 
 #### **1.1. Legal Basis and Governance**
 *   **Wildlife Protection Act, 1972:** This Act provides for the protection of wild animals, birds, and plants, and for matters connected therewith or ancillary or incidental thereto. It allows state governments to declare any area as a National Park if it is considered to be of adequate ecological, faunal, floral, geomorphological, natural, or zoological significance for the purpose of protecting, propagating, or developing wildlife or its environment.
@@ -19,7 +16,7 @@ National Parks are areas set aside by the government for the protection and pres
 Understanding the distinctions between these protected areas is crucial for defence examinations.
 
 • It is a continuously evolving Artificial Research Institute, Knowledge Engineering Platform, Examination Analysis Laboratory, Instructional Design System, Visual Learning Engine and Academic Editorial Board dedicated to building the world's most complete, accurate and original knowledge base for Indian Defence Competitive Examinations.
-• It is not a chatbot, not a note generator, not merely an educational assistant.
+• It is not a chatbot, not a note [[generator]], not merely an educational assistant.
 
 ---
 
@@ -33,14 +30,14 @@ National Parks are strictly reserved areas for the betterment of wildlife, where
 *   **Total Area Covered:** These parks cover an area of approximately **44,378 square kilometers**, which is about **1.35%** of India's geographical area.
 *   **First National Park:** **Jim Corbett National Park** (formerly Hailey National Park), established in 1936 in Uttarakhand.
 *   **Largest National Park:** **Hemis National Park** in Ladakh, covering approximately 4,400 sq km.
-*   **Smallest National Park:** **South Button Island National Park** in Andaman & Nicobar Islands, covering approximately 0.03 sq km.
-*   **Floating National Park:** **Keibul Lamjao National Park** in Manipur, famous for its unique floating phumdis (heterogeneous mass of vegetation, soil, and organic matter).
+*   **Smallest National Park:** **South Button Island National Park** in Andaman & Nicobar [[Islands]], covering approximately 0.03 sq km.
+*   **Floating National Park:** **Keibul Lamjao National Park** in Manipur, famous for its unique floating phumdis (heterogeneous [[mass]] of [[vegetation]], soil, and organic matter).
 *   **State with Maximum National Parks:** **Madhya Pradesh** has the highest number of National Parks (11).
-*   **State with Maximum Wildlife Sanctuaries:** **Andaman & Nicobar Islands** has the highest number of Wildlife Sanctuaries (96).
+*   **State with Maximum Wildlife Sanctuaries:** **Andaman & Nicobar [[Islands]]** has the highest number of Wildlife Sanctuaries (96).
 
 #### **2.3. Evolution and Growth**
 
-The concept of National Parks in India evolved significantly after the enactment of the Wildlife Protection Act, 1972. This Act provided a legal framework for the establishment and management of protected areas, leading to a substantial increase in their numbers over the decades. The focus has shifted from mere protection to holistic ecosystem management, including habitat restoration, anti-poaching measures, and community involvement.
+The concept of National Parks in India evolved significantly after the enactment of the Wildlife Protection Act, 1972. This Act provided a legal framework for the establishment and management of protected areas, leading to a substantial increase in their numbers over the decades. The focus has shifted from mere protection to holistic [[ecosystem]] management, including habitat restoration, anti-poaching measures, and community involvement.
 
 ---
 
@@ -50,22 +47,22 @@ This section provides a comprehensive, state-wise guide to India's National Park
 
 #### **3.1. Andaman & Nicobar Islands**
 
-*   **Unique Feature:** These islands boast a high number of national parks, reflecting their rich marine and island biodiversity.
+*   **Unique Feature:** These [[islands]] boast a high number of national parks, reflecting their rich marine and island [[biodiversity]].
 *   **National Parks:**
     1.  **Campbell Bay National Park:** Great Nicobar Island. Known for Giant Robber Crab, Megapode.
     2.  **Galathea National Park:** Great Nicobar Island. Part of the Great Nicobar Biosphere Reserve.
-    3.  **Mahatma Gandhi Marine National Park (Wandoor):** South Andaman. Protects coral reefs and marine life.
+    3.  **Mahatma Gandhi Marine National Park (Wandoor):** South Andaman. Protects [[coral reefs]] and marine life.
     4.  **Middle Button Island National Park:** Middle Andaman. Smallest marine national park.
-    5.  **Mount Harriet National Park:** South Andaman. Named after Mount Harriet, the third-highest peak in the Andaman Islands.
+    5.  **Mount Harriet National Park:** South Andaman. Named after Mount Harriet, the third-highest peak in the Andaman [[Islands]].
     6.  **North Button Island National Park:** North Andaman. Marine park.
-    7.  **Rani Jhansi Marine National Park:** Ritchie's Archipelago. Protects coral reefs and marine life.
-    8.  **Saddle Peak National Park:** North Andaman. Home to Saddle Peak, the highest point in the Andaman Islands. Known for Andaman Wild Pig, Imperial Pigeon.
+    7.  **Rani Jhansi Marine National Park:** Ritchie's Archipelago. Protects [[coral reefs]] and marine life.
+    8.  **Saddle Peak National Park:** North Andaman. Home to Saddle Peak, the highest point in the Andaman [[Islands]]. Known for Andaman Wild Pig, Imperial Pigeon.
     9.  **South Button Island National Park:** South Andaman. Smallest National Park in India.
 
 #### **3.2. Andhra Pradesh**
 
 *   **National Parks:**
-    1.  **Papikonda National Park:** East and West Godavari districts. Known for Tigers, Leopards, Indian Bison (Gaur).
+    1.  **Papikonda National Park:** East and West [[Godavari]] districts. Known for Tigers, Leopards, Indian Bison (Gaur).
     2.  **Rajiv Gandhi National Park (Rameswaram):** Kadapa district.
     3.  **Sri Venkateswara National Park:** Chittoor and Kadapa districts. Known for Slender Loris, Golden Gecko.
 
@@ -73,17 +70,17 @@ This section provides a comprehensive, state-wise guide to India's National Park
 
 *   **National Parks:**
     1.  **Mouling National Park:** Upper Siang district. Known for Takin, Serow, Goral.
-    2.  **Namdapha National Park:** Changlang district. A Tiger Reserve and a Biodiversity Hotspot. Known for four big cat species (Tiger, Leopard, Clouded Leopard, Snow Leopard).
+    2.  **Namdapha National Park:** Changlang district. A Tiger Reserve and a [[Biodiversity]] Hotspot. Known for four big cat species (Tiger, Leopard, Clouded Leopard, Snow Leopard).
 
 #### **3.4. Assam**
 
-*   **Unique Feature:** Assam is renowned for its conservation efforts for the One-horned Rhinoceros.
+*   **Unique Feature:** Assam is renowned for its [[conservation]] efforts for the One-horned Rhinoceros.
 *   **National Parks:**
     1.  **Dibru-Saikhowa National Park:** Dibrugarh and Tinsukia districts. Known for Feral Horses, White-winged Wood Duck.
     2.  **Kaziranga National Park:** Golaghat and Nagaon districts. A UNESCO World Heritage Site and a Tiger Reserve. Famous for **One-horned Rhinoceros**.
     3.  **Manas National Park:** Baksa and Chirang districts. A UNESCO World Heritage Site, Tiger Reserve, and Elephant Reserve. Known for Golden Langur, Pygmy Hog.
     4.  **Nameri National Park:** Sonitpur district. A Tiger Reserve. Known for Elephants, Tigers, Leopards.
-    5.  **Orang National Park:** Darrang and Sonitpur districts. Known as "Mini Kaziranga" for its One-horned Rhinoceros population.
+    5.  **Orang National Park:** Darrang and Sonitpur districts. Known as "Mini Kaziranga" for its One-horned Rhinoceros [[population]].
 
 #### **3.5. Bihar**
 
@@ -107,7 +104,7 @@ This section provides a comprehensive, state-wise guide to India's National Park
 *   **National Parks:**
     1.  **Gir Forest National Park:** Junagadh district. Famous for **Asiatic Lions**.
     2.  **Blackbuck National Park (Velavadar):** Bhavnagar district. Known for Blackbucks, Wolves, Lesser Florican.
-    3.  **Marine National Park (Gulf of Kutch):** Jamnagar district. India's first marine national park. Protects coral reefs, dugongs, sea turtles.
+    3.  **Marine National Park (Gulf of Kutch):** Jamnagar district. India's first marine national park. Protects [[coral reefs]], dugongs, sea turtles.
     4.  **Vansda National Park:** Navsari district. Known for Leopard, Hyena, Four-horned Antelope.
 
 #### **3.9. Haryana**
@@ -164,7 +161,7 @@ This section provides a comprehensive, state-wise guide to India's National Park
 
 *   **Unique Feature:** Madhya Pradesh has the highest number of National Parks in India, earning it the title "Tiger State."
 *   **National Parks:**
-    1.  **Bandhavgarh National Park:** Umaria district. Known for highest density of Tigers in India.
+    1.  **Bandhavgarh National Park:** Umaria district. Known for highest [[density]] of Tigers in India.
     2.  **Dinosaur Fossils National Park:** Dhar district.
     3.  **Fossil National Park:** Dindori district. Known for plant fossils.
     4.  **Kanha National Park:** Mandla and Balaghat districts. A Tiger Reserve. Famous for Barasingha (Swamp Deer).
@@ -231,7 +228,7 @@ This section provides a comprehensive, state-wise guide to India's National Park
 
 *   **National Parks:**
     1.  **Guindy National Park:** Chennai. Smallest national park in a metropolitan area. Known for Blackbuck, Spotted Deer.
-    2.  **Gulf of Mannar Marine National Park:** Ramanathapuram district. India's first Marine Biosphere Reserve. Protects coral reefs, dugongs.
+    2.  **Gulf of Mannar Marine National Park:** Ramanathapuram district. India's first Marine Biosphere Reserve. Protects [[coral reefs]], dugongs.
     3.  **Indira Gandhi (Annamalai) National Park:** Coimbatore district. A Tiger Reserve.
     4.  **Mudumalai National Park:** Nilgiris district. A Tiger Reserve. Known for Indian Elephant, Gaur, Tiger.
     5.  **Mukkurthi National Park:** Nilgiris district. Part of Nilgiri Biosphere Reserve. Known for Nilgiri Tahr.
@@ -272,36 +269,15 @@ This section provides a comprehensive, state-wise guide to India's National Park
     3.  **Jaldapara National Park:** Alipurduar district. Known for One-horned Rhinoceros.
     4.  **Neora Valley National Park:** Kalimpong district. Known for Red Panda, Clouded Leopard.
     5.  **Singalila National Park:** Darjeeling district. Known for Red Panda, Himalayan Black Bear.
-    6.  **Sundarbans National Park:** South 24 Parganas district. A UNESCO World Heritage Site and Tiger Reserve. Famous for **Royal Bengal Tiger** and Mangrove Forests.
+    6.  **Sundarbans National Park:** South 24 Parganas district. A UNESCO World Heritage Site and Tiger Reserve. Famous for **Royal Bengal Tiger** and Mangrove [[Forests]].
 
 ---
 
 ### **4. Visual Learning Engine: Conceptual Map of National Parks**
 
-\\\mermaid
-graph TD
-    A[National Parks of India] --> B{Key Features}
-    B --> B1[Strict Protection]
-    B --> B2[No Human Habitation/Grazing]
-    B --> B3[Wildlife Protection Act 1972]
-    A --> C{Categorization}
-    C --> C1[By Location: State/UT]
-    C --> C2[By Unique Feature: Marine, Floating, High-Altitude]
-    C --> C3[By Prominent Species: Tiger, Rhino, Lion, Snow Leopard]
-    A --> D{Important Parks & Details}
-    D --> D1[Jim Corbett: First NP, Uttarakhand, Tigers]
-    D --> D2[Hemis: Largest NP, Ladakh, Snow Leopard]
-    D --> D3[South Button: Smallest NP, A&N]
-    D --> D4[Keibul Lamjao: Floating NP, Manipur, Sangai Deer]
-    D --> D5[Gir: Gujarat, Asiatic Lions]
-    D --> D6[Kaziranga: Assam, One-horned Rhino]
-    D --> D7[Bandhavgarh: MP, Highest Tiger Density]
-    D --> D8[Sundarbans: WB, Royal Bengal Tiger, Mangroves]
-    A --> E{Exam Relevance}
-    E --> E1[PYQ Hotspots]
-    E --> E2[Current Affairs Links]
-    E --> E3[Conservation Projects: Project Tiger, Project Elephant]
-\\\
+
+![india-national-parks](assets/diagrams/geography/indian-geography/india-national-parks.png)
+*Diagram for india-national-parks*
 
 ---
 
@@ -313,18 +289,18 @@ graph TD
 *   **Unique features:** Floating park, marine park, highest/lowest altitude, specific geographical characteristics.
 *   **Endangered/Flagship species:** Parks famous for particular animals (e.g., Asiatic Lion, One-horned Rhino, Snow Leopard, Sangai Deer, Nilgiri Tahr, Royal Bengal Tiger).
 *   **First/Largest/Smallest:** Jim Corbett, Hemis, South Button Island.
-*   **Conservation Initiatives:** Parks associated with Project Tiger, Project Elephant, UNESCO World Heritage Sites.
+*   **[[Conservation]] Initiatives:** Parks associated with Project Tiger, Project Elephant, UNESCO World [[Heritage Sites]].
 *   **Differences between Protected Areas:** National Park vs. Wildlife Sanctuary vs. Biosphere Reserve.
 
 #### **5.2. Expected Future Questions**
 
 1.  **Match the following:** National Park with its State/UT.
 2.  **Identify the correct statement(s):** Questions testing specific features, wildlife, or historical facts about a park.
-3.  **Chronological order:** Order of establishment of certain National Parks or related conservation projects.
+3.  **Chronological order:** Order of establishment of certain National Parks or related [[conservation]] projects.
 4.  **Map-based questions:** Identify a National Park marked on a map or locate a park based on its description.
-5.  **Current Affairs based:** Questions linking recent conservation news (e.g., cheetah reintroduction in Kuno, new declarations) to static facts.
+5.  **[[Current]] Affairs based:** Questions linking recent [[conservation]] news (e.g., cheetah reintroduction in Kuno, new declarations) to static facts.
 
-> **Exam Trap:** Do not confuse the state with the highest number of National Parks (Madhya Pradesh) with the UT having the highest number of Wildlife Sanctuaries (Andaman & Nicobar Islands). Also, remember that National Park boundaries are fixed by legislation, unlike Wildlife Sanctuaries where some activities might be permitted.
+> **Exam Trap:** Do not confuse the state with the highest number of National Parks (Madhya Pradesh) with the UT having the highest number of Wildlife Sanctuaries (Andaman & Nicobar [[Islands]]). Also, remember that National Park boundaries are fixed by legislation, unlike Wildlife Sanctuaries where some activities might be permitted.
 
 ---
 
@@ -348,15 +324,15 @@ graph TD
 | :------------------------ | :------------------------ | :----------------------------------------------- |
 | Jim Corbett               | Uttarakhand               | First NP, Tigers                                 |
 | Hemis                     | Ladakh                    | Largest NP, Snow Leopard                         |
-| South Button Island       | A&N Islands               | Smallest NP                                      |
+| South Button Island       | A&N [[Islands]]               | Smallest NP                                      |
 | Keibul Lamjao             | Manipur                   | Floating NP, Sangai Deer                         |
 | Gir Forest                | Gujarat                   | Asiatic Lions                                    |
 | Kaziranga                 | Assam                     | One-horned Rhinoceros                            |
-| Bandhavgarh               | Madhya Pradesh            | Highest Tiger Density                            |
+| Bandhavgarh               | Madhya Pradesh            | Highest Tiger [[Density]]                            |
 | Sundarbans                | West Bengal               | Royal Bengal Tiger, Mangroves                    |
 | Eravikulam                | Kerala                    | Nilgiri Tahr                                     |
 | Kuno                      | Madhya Pradesh            | Cheetah Reintroduction                           |
-| Gulf of Mannar Marine     | Tamil Nadu                | First Marine BR, Coral Reefs, Dugongs            |
+| Gulf of Mannar Marine     | Tamil Nadu                | First Marine BR, [[Coral Reefs]], Dugongs            |
 | Keoladeo Ghana            | Rajasthan                 | Migratory Birds, Siberian Cranes                 |
 | Namdapha                  | Arunachal Pradesh         | Four Big Cats (Tiger, Leopard, Clouded, Snow)    |
 | Khangchendzonga           | Sikkim                    | Mixed UNESCO Site, Snow Leopard                  |
@@ -375,11 +351,11 @@ graph TD
 
 *   **Kuno National Park (Madhya Pradesh):** Continues to be in news for the **reintroduction of Cheetahs** from Namibia and South Africa. This project aims to establish a viable cheetah metapopulation in India.
 *   **New National Parks/Expansions:** While no major new National Parks have been declared in the last year, there are ongoing discussions and proposals for expanding existing protected areas or declaring new ones, particularly in ecologically sensitive regions.
-*   **Conservation Successes:** Continued success in Project Tiger and Project Elephant has led to an increase in their populations, often highlighted in annual census reports.
+*   **[[Conservation]] Successes:** Continued success in Project Tiger and Project Elephant has led to an increase in their populations, often highlighted in annual census reports.
 *   **Climate Change Impact:** National Parks are increasingly being studied for the impacts of climate change on their ecosystems and species, leading to new management strategies.
 
 ---
 
 ### **8. Conclusion: A Living Ecosystem of Knowledge**
 
-National Parks are cornerstones of India's conservation efforts, representing diverse ecosystems and critical habitats for a wide array of flora and fauna. For defence examinations, a thorough understanding of their geographical distribution, unique characteristics, and the species they protect, along with their legal framework and current affairs relevance, is indispensable. PROJECT SARASWATI aims to provide this knowledge in an interconnected, accurate, and revision-friendly format, ensuring comprehensive preparation.
+National Parks are cornerstones of India's [[conservation]] efforts, representing diverse ecosystems and critical habitats for a wide array of flora and fauna. For defence examinations, a thorough understanding of their geographical distribution, unique characteristics, and the species they protect, along with their legal framework and [[current]] affairs relevance, is indispensable. 

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-async function runCurrentAffairsEngine() {
+
 require('dotenv').config();
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
@@ -202,25 +202,25 @@ Your output MUST be a strict JSON Array of objects. Each object must follow this
   }
 }
 
-Return ONLY the raw JSON array. Do not wrap it in markdown fences like \\\`\\\`\\\`json. Ensure it is valid JSON.\`;
+Return ONLY the raw JSON array. Do not wrap it in markdown fences like a JSON block. Ensure it is valid JSON.`;
 
-  const USER_PROMPT = \`
+  const USER_PROMPT = `
 Here is the current state of the database for this month:
 <EXISTING_DB>
-\${JSON.stringify(currentMonthData)}
+${JSON.stringify(currentMonthData)}
 </EXISTING_DB>
 
 Here are the new raw feed items intercepted today:
 <NEW_RAW_FEEDS>
-\${JSON.stringify(rawItems.map(i => ({ title: i.title, desc: i.description, date: i.pubDate })))}
+${JSON.stringify(rawItems.map(i => ({ title: i.title, desc: i.description, date: i.pubDate })))}
 </NEW_RAW_FEEDS>
 
 Follow all system instructions. Output the completely updated, merged, and verified JSON array.
-\`;
+`;
 
   console.log("[GEMINI] Connecting to Gemini 2.5 Flash Intelligence Engine...");
   try {
-    const res = await fetch(\`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=\${GEMINI_API_KEY}\`, {
+    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -242,7 +242,7 @@ Follow all system instructions. Output the completely updated, merged, and verif
     const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
     
     // Clean and Parse
-    const cleaned = rawText.replace(/^\\s*\\\`\\\`\\\`json\\s*/,'').replace(/\\s*\\\`\\\`\\\`\\s*$/,'').trim();
+    const cleaned = rawText.replace(new RegExp('^\\\\s*```json\\\\s*', 'i'), '').replace(new RegExp('\\\\s*```\\\\s*$', 'i'), '').trim();
     const newDbArray = JSON.parse(cleaned);
 
     if (!Array.isArray(newDbArray)) {

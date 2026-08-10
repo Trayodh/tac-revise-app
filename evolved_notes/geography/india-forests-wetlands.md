@@ -1,7 +1,3 @@
-# PROJECT SARASWATI: INDIAN FORESTS, TREES & WETLANDS
-
----
-
 ## 🌿 Chapter 01: Forests, Trees & Wetlands of India
 
 ### 🎯 **Final Objective:**
@@ -11,16 +7,16 @@ To provide a comprehensive, interconnected, and examination-oriented understandi
 
 ### 🌳 **1. Introduction to Forests and Tree Cover in India**
 
-Forests are vital ecological systems, playing a crucial role in maintaining environmental balance, supporting biodiversity, and providing livelihoods. India, with its diverse physiography and climate, exhibits a wide array of forest types. Tree cover refers to all tree patches outside recorded forest areas, including plantations, orchards, and scattered trees.
+[[Forests]] are vital ecological systems, playing a crucial role in maintaining environmental balance, supporting [[biodiversity]], and providing livelihoods. India, with its diverse physiography and climate, exhibits a wide array of forest types. Tree cover refers to all tree patches outside recorded forest areas, including plantations, orchards, and scattered trees.
 
 #### **1.1. Importance of Forests**
-*   **Ecological:** Regulate climate, maintain water cycles, prevent soil erosion, conserve biodiversity, act as carbon sinks.
-*   **Economic:** Provide timber, fuelwood, non-timber forest produce (NTFP), raw materials for industries, and support ecotourism.
+*   **Ecological:** Regulate climate, maintain water cycles, prevent soil [[erosion]], conserve [[biodiversity]], act as [[carbon]] sinks.
+*   **Economic:** Provide timber, fuelwood, non-timber forest produce (NTFP), raw materials for [[industries]], and support ecotourism.
 *   **Social & Cultural:** Home to indigenous communities, cultural significance, recreational value.
-*   **Defence Relevance:** Strategic resources, camouflage, natural barriers, training grounds.
+*   **Defence Relevance:** Strategic [[resources]], camouflage, natural barriers, training grounds.
 
 #### **1.2. Forest Cover vs. Tree Cover**
-*   **Forest Cover:** All lands more than 1 hectare in area, with a tree canopy density of 10 percent or more, irrespective of ownership and legal status. It also includes orchards, bamboo, and palm.
+*   **Forest Cover:** All lands more than 1 hectare in area, with a tree canopy [[density]] of 10 percent or more, irrespective of ownership and legal status. It also includes orchards, bamboo, and palm.
 *   **Tree Cover:** Tree patches outside recorded forest areas, including plantations, orchards, and scattered trees.
 *   **Total Forest and Tree Cover:** The sum of forest cover and tree cover.
 
@@ -49,109 +45,109 @@ The ISFR, published biennially by the Forest Survey of India (FSI), is a crucial
     5.  Nagaland (73.64%)
 *   **Mangrove Cover:** Increased by 17 sq km. Total mangrove cover is 4,992 sq km.
     *   **Top 3 States (Increase in Mangrove Cover):** Odisha (8 sq km), Maharashtra (4 sq km), Karnataka (3 sq km).
-*   **Carbon Stock:** Total carbon stock in India’s forests is estimated to be 7,204 million tonnes, an increase of 79.4 million tonnes since 2019.
+*   **[[Carbon]] Stock:** Total [[carbon]] stock in India’s [[forests]] is estimated to be 7,204 million tonnes, an increase of 79.4 million tonnes since 2019.
 
 ---
 
 ### 🌲 **2. Classification of Forests in India**
 
-Indian forests are broadly classified based on climatic conditions (rainfall, temperature), soil types, and topography.
+Indian [[forests]] are broadly classified based on climatic conditions (rainfall, [[temperature]]), soil types, and topography.
 
 #### **2.1. Tropical Forests**
 These are found in regions with high temperatures.
 
 ##### **2.1.1. Tropical Wet Evergreen Forests**
-*   **Characteristics:** Dense, multi-layered, tall trees (up to 60m), broad-leaved, evergreen. High biodiversity. No distinct dry season.
+*   **Characteristics:** Dense, multi-layered, tall trees (up to 60m), broad-leaved, evergreen. High [[biodiversity]]. No distinct dry season.
 *   **Rainfall:** Exceeds 250 cm annually.
-*   **Temperature:** 25°-27°C.
+*   **[[Temperature]]:** 25°-27°C.
 *   **Humidity:** Above 77%.
 *   **Tree Species:** Rosewood, Ebony, Mahogany, Aini, Mesua, White Cedar.
-*   **Distribution:** Western Ghats (Kerala, Karnataka, Maharashtra), Andaman & Nicobar Islands, North-Eastern India (Assam, Nagaland, Arunachal Pradesh).
+*   **Distribution:** Western Ghats (Kerala, Karnataka, Maharashtra), Andaman & Nicobar [[Islands]], North-Eastern India (Assam, Nagaland, Arunachal Pradesh).
 
 ##### **2.1.2. Tropical Semi-Evergreen Forests**
 *   **Characteristics:** Mixture of evergreen and moist deciduous trees. Less dense than evergreen.
 *   **Rainfall:** 200-250 cm annually.
-*   **Temperature:** 24°-27°C.
+*   **[[Temperature]]:** 24°-27°C.
 *   **Humidity:** Around 75%.
 *   **Tree Species:** Aini, Semul, Kadam, Rosewood, Kusum.
-*   **Distribution:** Western Coast, lower slopes of Eastern Himalayas, Odisha, Andaman & Nicobar.
+*   **Distribution:** Western Coast, lower slopes of Eastern [[Himalayas]], Odisha, Andaman & Nicobar.
 
 ##### **2.1.3. Tropical Moist Deciduous Forests (Monsoon Forests)**
 *   **Characteristics:** Shed leaves during a short dry season (6-8 weeks) to conserve water. Less dense, commercially valuable.
 *   **Rainfall:** 100-200 cm annually.
-*   **Temperature:** Around 27°C.
+*   **[[Temperature]]:** Around 27°C.
 *   **Humidity:** 60-70%.
 *   **Tree Species:** Teak, Sal, Laurel, White Chuglam, Badam, Mahua, Bamboo.
 *   **Distribution:** Along Western Ghats, Shiwalik range (Terai and Bhabar regions), Eastern Madhya Pradesh, Chhattisgarh, Chotanagpur Plateau, parts of Odisha and West Bengal.
 
 ##### **2.1.4. Tropical Dry Deciduous Forests**
-*   **Characteristics:** Shed leaves completely during the dry season. Open forests, less dense.
+*   **Characteristics:** Shed leaves completely during the dry season. Open [[forests]], less dense.
 *   **Rainfall:** 70-100 cm annually.
 *   **Tree Species:** Teak, Axlewood, Tendu, Palas, Bel.
-*   **Distribution:** Rainier parts of Peninsular plateau, plains of Uttar Pradesh and Bihar.
+*   **Distribution:** Rainier parts of [[Peninsular plateau]], plains of Uttar Pradesh and Bihar.
 
 ##### **2.1.5. Tropical Thorn Forests**
-*   **Characteristics:** Thorny trees, shrubs, and grasses. Xerophytic vegetation.
+*   **Characteristics:** Thorny trees, shrubs, and grasses. Xerophytic [[vegetation]].
 *   **Rainfall:** Less than 50 cm annually.
 *   **Tree Species:** Khair, Neem, Babul, Cacti, Palas.
 *   **Distribution:** Arid and semi-arid regions of Rajasthan, Gujarat, Punjab, Haryana, Madhya Pradesh, Uttar Pradesh.
 
 #### **2.2. Montane Forests**
-Found in mountainous regions, vegetation changes with altitude.
+Found in mountainous regions, [[vegetation]] changes with altitude.
 
 ##### **2.2.1. Montane Wet Temperate Forests**
 *   **Characteristics:** Evergreen broad-leaved trees, dense undergrowth.
 *   **Altitude:** 1000-2000 m.
 *   **Rainfall:** 150-300 cm annually.
-*   **Temperature:** 11°-14°C.
+*   **[[Temperature]]:** 11°-14°C.
 *   **Humidity:** Over 80%.
 *   **Tree Species:** Oaks, Chestnuts, Pines (lower), Deodar, Chilauni, Indian Chestnut, Birch, Blue Pine (higher).
-*   **Distribution:** Higher hills of Tamil Nadu, Kerala (Nilgiri, Palni Hills - locally called 'Sholas'), Eastern Himalayas (East of 88°E longitude).
+*   **Distribution:** Higher hills of Tamil Nadu, Kerala (Nilgiri, Palni Hills - locally called 'Sholas'), Eastern [[Himalayas]] (East of 88°E longitude).
 
 ##### **2.2.2. Himalayan Moist Temperate Forests**
 *   **Characteristics:** Coniferous species mixed with broad-leaved trees.
 *   **Altitude:** 1500-3300 m.
 *   **Rainfall:** 150-250 cm annually.
 *   **Tree Species:** Pines, Cedars, Silver Fir, Spruce, Oak.
-*   **Distribution:** Temperate zone of Himalayas.
+*   **Distribution:** Temperate zone of [[Himalayas]].
 
 ##### **2.2.3. Himalayan Dry Temperate Forests**
-*   **Characteristics:** Coniferous forests with xerophytic shrubs.
+*   **Characteristics:** Coniferous [[forests]] with xerophytic shrubs.
 *   **Tree Species:** Deodar, Chilgoza, Oak, Olive.
-*   **Distribution:** Inner dry ranges of the Himalayas.
+*   **Distribution:** Inner dry ranges of the [[Himalayas]].
 
 #### **2.3. Littoral and Swamp Forests (Tidal/Mangrove Forests)**
-*   **Characteristics:** Salt-tolerant vegetation (halophytes). Dense, evergreen. Roots adapted to anaerobic conditions (pneumatophores).
+*   **Characteristics:** Salt-tolerant [[vegetation]] (halophytes). Dense, evergreen. Roots adapted to anaerobic conditions (pneumatophores).
 *   **Location:** Deltas, estuaries, creeks, tidal mudflats, and coastal areas.
 *   **Tree Species:** Sundari, Rhizophora, Screw Pines, Canes, Palms, Nipa.
-*   **Distribution:** Sunderbans (West Bengal), Mahanadi, Godavari, Krishna deltas (Odisha, Andhra Pradesh), Gulf of Kutch (Gujarat), Andaman & Nicobar Islands.
-*   **Importance:** Protect coastlines from erosion, provide breeding grounds for marine life, act as natural barriers against cyclones and tsunamis.
+*   **Distribution:** Sunderbans (West Bengal), Mahanadi, [[Godavari]], [[Krishna]] deltas (Odisha, Andhra Pradesh), Gulf of Kutch (Gujarat), Andaman & Nicobar [[Islands]].
+*   **Importance:** Protect coastlines from [[erosion]], provide breeding grounds for marine life, act as natural barriers against [[cyclones]] and tsunamis.
 
 #### **2.4. Sub-tropical Forests**
 
 ##### **2.4.1. Sub-tropical Broad-leaved Hill Forests**
-*   **Characteristics:** Luxuriant evergreen forests.
+*   **Characteristics:** Luxuriant evergreen [[forests]].
 *   **Rainfall:** 75-125 cm.
-*   **Temperature:** 18°-21°C.
+*   **[[Temperature]]:** 18°-21°C.
 *   **Tree Species:** Oaks, Chestnuts, Sals, Pines.
-*   **Distribution:** Eastern Himalayas (East of 88°E), Nilgiri and Palni Hills.
+*   **Distribution:** Eastern [[Himalayas]] (East of 88°E), Nilgiri and Palni Hills.
 
 ##### **2.4.2. Sub-tropical Moist Pine Forests**
 *   **Characteristics:** Dominated by pine.
 *   **Tree Species:** Chir Pine.
-*   **Distribution:** Western Himalayas (1000-2000 m).
+*   **Distribution:** Western [[Himalayas]] (1000-2000 m).
 
 ##### **2.4.3. Sub-tropical Dry Evergreen Forests**
 *   **Characteristics:** Small evergreen trees and shrubs.
 *   **Rainfall:** 50-100 cm.
 *   **Tree Species:** Olive, Acacia, Modesta, Pistacia.
-*   **Distribution:** Bhabar, Shiwaliks, Western Himalayas (up to 1000 m).
+*   **Distribution:** Bhabar, Shiwaliks, Western [[Himalayas]] (up to 1000 m).
 
 #### **2.5. Forest Types based on Density (ISFR 2021)**
-*   **Very Dense Forest (VDF):** Canopy density > 70%. (3.04% of total geographical area)
-*   **Moderately Dense Forest (MDF):** Canopy density 40-70%. (9.33% of total geographical area)
-*   **Open Forest (OF):** Canopy density 10-40%. (9.34% of total geographical area)
-*   **Scrub:** Canopy density < 10%. (1.42% of total geographical area)
+*   **Very Dense Forest (VDF):** Canopy [[density]] > 70%. (3.04% of total geographical area)
+*   **Moderately Dense Forest (MDF):** Canopy [[density]] 40-70%. (9.33% of total geographical area)
+*   **Open Forest (OF):** Canopy [[density]] 10-40%. (9.34% of total geographical area)
+*   **Scrub:** Canopy [[density]] < 10%. (1.42% of total geographical area)
 
 ---
 
@@ -365,77 +361,15 @@ India is a signatory to several international agreements aimed at environmental 
 
 #### **9.1. Forest Classification Flowchart**
 
-```mermaid
-graph TD
-    A[Indian Forests] --> B{Classification Basis}
-    B --> C[Climatic Conditions: Rainfall, Temp]
-    B --> D[Topography & Soil]
 
-    C --> C1[Tropical Forests]
-    C1 --> C1.1[Wet Evergreen]
-    C1.1 --> C1.1.1[Rainfall > 250cm, Dense, High Biodiversity]
-    C1.1.1 --> C1.1.2[Ex: Western Ghats, A&N, NE India]
-    C1 --> C1.2[Semi-Evergreen]
-    C1.2 --> C1.2.1[Rainfall 200-250cm, Mixed]
-    C1.2.1 --> C1.2.2[Ex: Western Coast, Odisha]
-    C1 --> C1.3[Moist Deciduous]
-    C1.3 --> C1.3.1[Rainfall 100-200cm, Shed leaves, Teak/Sal]
-    C1.3.1 --> C1.3.2[Ex: Shiwaliks, MP, Chhattisgarh]
-    C1 --> C1.4[Dry Deciduous]
-    C1.4 --> C1.4.1[Rainfall 70-100cm, Shed leaves completely]
-    C1.4.1 --> C1.4.2[Ex: Peninsular Plateau, UP/Bihar Plains]
-    C1 --> C1.5[Thorn Forests]
-    C1.5 --> C1.5.1[Rainfall < 50cm, Thorny, Xerophytic]
-    C1.5.1 --> C1.5.2[Ex: Rajasthan, Gujarat, Punjab]
+![india-forests-wetlands](assets/diagrams/geography/indian-geography/india-forests-wetlands.png)
+*Diagram for india-forests-wetlands*
 
-    D --> D1[Montane Forests]
-    D1 --> D1.1[Wet Temperate]
-    D1.1 --> D1.1.1[Altitude 1000-2000m, Evergreen Broad-leaved]
-    D1.1.1 --> D1.1.2[Ex: Nilgiris, Eastern Himalayas]
-    D1 --> D1.2[Moist Temperate]
-    D1.2 --> D1.2.1[Altitude 1500-3300m, Coniferous]
-    D1.2.1 --> D1.2.2[Ex: Himalayan Temperate Zone]
-    D1 --> D1.3[Dry Temperate]
-    D1.3 --> D1.3.1[Xerophytic Conifers]
-    D1.3.1 --> D1.3.2[Ex: Inner Dry Himalayas]
 
-    D --> D2[Littoral & Swamp (Mangroves)]
-    D2 --> D2.1[Salt-tolerant, Pneumatophores]
-    D2.1 --> D2.1.1[Ex: Sunderbans, Mahanadi/Godavari Deltas]
-
-    D --> D3[Sub-tropical Forests]
-    D3 --> D3.1[Broad-leaved Hill]
-    D3.1 --> D3.1.1[Evergreen, 75-125cm Rainfall]
-    D3.1.1 --> D3.1.2[Ex: Eastern Himalayas, Nilgiris]
-    D3 --> D3.2[Moist Pine]
-    D3.2 --> D3.2.1[Chir Pine]
-    D3.2.1 --> D3.2.2[Ex: Western Himalayas]
-    D3 --> D3.3[Dry Evergreen]
-    D3.3 --> D3.3.1[Small Trees/Shrubs, 50-100cm Rainfall]
-    D3.3.1 --> D3.3.2[Ex: Bhabar, Shiwaliks]
-```
 
 #### **9.2. Protected Area Hierarchy**
 
-```mermaid
-graph TD
-    A[Conservation Areas] --> B[Protected Areas]
-    B --> C[National Parks]
-    C --> C1[Strict Protection]
-    C --> C2[Fixed Boundaries by Legislation]
-    C --> C3[No Human Activity]
 
-    B --> D[Wildlife Sanctuaries]
-    D --> D1[Species Specific Protection]
-    D --> D2[Flexible Boundaries]
-    D --> D3[Limited Human Activity Allowed]
-
-    B --> E[Biosphere Reserves]
-    E --> E1[Multi-purpose: Conservation, Development, Logistics]
-    E --> E2[Three Zones: Core, Buffer, Transition]
-    E --> E3[Human Habitation Allowed in Transition Zone]
-    E --> E4[UNESCO MAB Programme]
-```
 
 ---
 
@@ -443,17 +377,17 @@ graph TD
 
 #### **10.1. PYQ Examples (from provided text)**
 
-> **PYQ (CDS 2014-II, Q78):** Which one among the following is the most fundamental difference between Mahayana Buddhism and Hinayana Buddhism?
+> **PYQ (CDS 2014-II, Q78):** Which one among the following is the most fundamental difference between Mahayana [[Buddhism]] and Hinayana [[Buddhism]]?
 > (a) Emphasis on Ahimsa
 > (b) Casteless Society
 > (c) Workship of Gods and Goddesses
 > (d) Worship of the Stupa
-> **Answer:** (c) (This is a history PYQ, not directly related to the current topic, but shows the format.)
+> **Answer:** (c) (This is a history PYQ, not directly related to the [[current]] topic, but shows the format.)
 
-> **PYQ (CDS 2016-I, Q60):** Consider the following statement(s) regarding laterite soils of India
-> 1. Laterite soils are generally red in colour.
-> 2. Laterite soils are rich in nitrogen and potash.
-> 3. Laterite soils are well developed in Rajasthan and Uttar Pradesh.
+> **PYQ (CDS 2016-I, Q60):** Consider the following statement(s) regarding laterite [[soils]] of India
+> 1. Laterite [[soils]] are generally red in colour.
+> 2. Laterite [[soils]] are rich in nitrogen and potash.
+> 3. Laterite [[soils]] are well developed in Rajasthan and Uttar Pradesh.
 > 4. Tapioca and cashewnuts grow well in this soil.
 > Which of the statement(s) given above is/are correct?
 > (a) Only 1
@@ -462,12 +396,12 @@ graph TD
 > (d) 1, 2 and 4
 > **Answer:** (c) (Relates to soil, which influences forest types).
 
-> **PYQ (CDS 2016-I, Q61):** Consider the following map of India. The areas marked in the map given above account for the production of which one of the following cash crops?
+> **PYQ (CDS 2016-I, Q61):** Consider the following map of India. The areas marked in the map given above account for the production of which one of the following cash [[crops]]?
 > (a) Cotton
 > (b) Groundnut
 > (c) Sugarcane
 > (d) Tobacco
-> **Answer:** (a) (Map-based question, relevant to geographical distribution of crops, which can be linked to soil and vegetation).
+> **Answer:** (a) (Map-based question, relevant to geographical distribution of [[crops]], which can be linked to soil and [[vegetation]]).
 
 #### **10.2. Expected Future Questions**
 
@@ -507,7 +441,7 @@ graph TD
         (d) To protect the ozone layer from depletion.
         **Expected Answer:** (b)
 
-4.  **Current Affairs Link:**
+4.  **[[Current]] Affairs Link:**
     *   As of the latest updates, how many Ramsar Sites are there in India?
         (a) 49
         (b) 64
@@ -528,30 +462,30 @@ graph TD
 ### 📚 **11. Advanced Concepts & Interconnections**
 
 #### **11.1. Forest Ecosystem Services**
-Forests provide a wide range of ecosystem services beyond just timber. These include:
-*   **Provisioning Services:** Food, fresh water, wood, fiber, genetic resources.
+[[Forests]] provide a wide range of [[ecosystem]] services beyond just timber. These include:
+*   **Provisioning Services:** Food, fresh water, wood, fiber, genetic [[resources]].
 *   **Regulating Services:** Climate regulation, flood regulation, disease regulation, water purification.
 *   **Cultural Services:** Recreational, aesthetic, spiritual, educational.
 *   **Supporting Services:** Nutrient cycling, soil formation, primary production.
 
 #### **11.2. REDD+ (Reducing Emissions from Deforestation and Forest Degradation)**
 *   An international framework under UNFCCC aimed at reducing greenhouse gas emissions from deforestation and forest degradation in developing countries.
-*   It incentivizes developing countries to conserve their forests by providing financial support for verified emission reductions.
+*   It incentivizes developing countries to conserve their [[forests]] by providing financial support for verified emission reductions.
 
 #### **11.3. Blue Carbon Ecosystems**
-*   Refers to carbon captured by the world's ocean and coastal ecosystems (mangroves, tidal marshes, seagrasses).
-*   These ecosystems sequester carbon at a faster rate and store more carbon per unit area than terrestrial forests. Mangroves are crucial "blue carbon" sinks in India.
+*   Refers to [[carbon]] captured by the world's ocean and coastal ecosystems (mangroves, tidal marshes, seagrasses).
+*   These ecosystems sequester [[carbon]] at a faster rate and store more [[carbon]] per unit area than terrestrial [[forests]]. Mangroves are crucial "blue [[carbon]]" sinks in India.
 
 #### **11.4. Forest Rights Act (FRA) and Conservation Dilemmas**
 *   The FRA aims to empower forest-dwelling communities by recognizing their traditional rights.
-*   However, its implementation has sometimes led to conflicts with traditional conservation approaches, raising questions about balancing human rights with strict wildlife protection. This is a frequently debated topic in environmental policy.
+*   However, its implementation has sometimes led to conflicts with traditional [[conservation]] approaches, raising questions about balancing human rights with strict wildlife protection. This is a frequently debated topic in environmental policy.
 
 #### **11.5. Impact of Climate Change on Forest Types**
-*   Rising temperatures and altered precipitation patterns can lead to shifts in forest distribution. For example, tropical dry deciduous forests might expand into moist deciduous areas, and alpine forests might shift upwards.
-*   Increased frequency of droughts and forest fires can severely impact forest health and regeneration.
+*   Rising temperatures and altered precipitation patterns can lead to shifts in forest distribution. For example, tropical dry deciduous [[forests]] might expand into moist deciduous areas, and alpine [[forests]] might shift upwards.
+*   Increased [[frequency]] of droughts and forest fires can severely impact forest health and regeneration.
 
 ---
 
 ### 📝 **12. Conclusion**
 
-India's forests, trees, and wetlands are indispensable natural assets, critical for ecological stability, biodiversity conservation, and human well-being. The country's diverse forest types, extensive network of protected areas, and growing list of Ramsar sites underscore its commitment to conservation. However, these ecosystems face mounting pressures from developmental activities, pollution, and climate change. A holistic approach, integrating legal frameworks, community participation (e.g., through FRA), and international cooperation, is essential for their sustainable management and long-term survival. Understanding the dynamic nature of these resources and the policies governing them is paramount for defence aspirants.
+India's [[forests]], trees, and wetlands are indispensable natural assets, critical for ecological stability, [[biodiversity]] [[conservation]], and human well-being. The country's diverse forest types, extensive network of protected areas, and growing list of Ramsar sites underscore its commitment to [[conservation]]. However, these ecosystems face mounting pressures from developmental activities, [[pollution]], and climate change. A holistic approach, integrating legal frameworks, community participation (e.g., through FRA), and international cooperation, is essential for their sustainable management and long-term survival. Understanding the dynamic nature of these [[resources]] and the policies governing them is paramount for defence aspirants.

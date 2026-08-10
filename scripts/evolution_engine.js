@@ -103,6 +103,19 @@ async function run() {
         }
     }
 
+    // Add PYQ Banks to Context
+    const pyqBanks = [
+        path.join(baseDir, 'question_banks', 'structured_bank.json'),
+        path.join(baseDir, 'question_banks', `${targetSubject}_bank.json`),
+        path.join(baseDir, 'question_banks', 'cds_pyq_bank.json'),
+        path.join(baseDir, 'question_banks', 'capf_pyq_bank.json')
+    ];
+    for (const bank of pyqBanks) {
+        if (fs.existsSync(bank) && !pdfFiles.includes(bank)) {
+             pdfFiles.push(bank);
+        }
+    }
+
     console.log(`Loading the following PDF contexts for ${targetSubject}:\n`, pdfFiles.map(f => path.basename(f)).join('\n'));
 
     const uploadedFiles = [];
@@ -150,11 +163,11 @@ async function run() {
             continue;
         }
 
-        const promptText = `Please apply the MASTER KNOWLEDGE EVOLUTION DIRECTIVE to the topic: "${topicTitle}".
-Use the uploaded PDFs as your knowledge base.
-Perform a massive gap analysis. What concepts are crucial for Indian Defence Exams (NDA/CDS) regarding this topic?
-Cross-reference the provided Pathfinder and class notes with the Live Internet to ensure all data is up-to-date, verify facts, and pull in the latest developments. Combine all sources.
-Generate the final, evolved Markdown study module. Ensure extreme detail and comprehensiveness. Include Mermaid diagrams and all required sections.`;
+        const promptText = `Please apply the MASTER KNOWLEDGE EVOLUTION DIRECTIVE and the SUPER-NOTES PROTOCOL to the topic: "${topicTitle}".
+Use the uploaded PDFs and Question Bank JSON files as your knowledge base.
+Perform a massive gap analysis. Cross-reference the uploaded PYQs to tag exact years next to facts (🎯 [Asked in NDA/CDS/AFCAT YYYY]).
+Cross-reference the provided Pathfinder and class notes with your Live Google Search tool to ensure all data is up-to-date (2026/2027), verify facts, and pull in the latest developments. Combine all sources.
+Generate the final, evolved Markdown study module. Ensure extreme detail, comprehensiveness, <details> tags for deep dives, and Mermaid diagrams.`;
 
         const contents = [];
         for (const file of uploadedFiles) {

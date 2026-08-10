@@ -1,4 +1,3 @@
-# PROJECT SARASWATI: Transport Routes - Highways & Waterways
 
 ## The Lifelines of a Nation: Highways and Waterways in Indian Defence Examinations
 
@@ -9,7 +8,7 @@
 Transport routes are the arteries and veins of any nation, facilitating the movement of people, goods, and services. For a country like India, with its vast geographical expanse and strategic importance, an efficient transport network is crucial for economic development, social integration, and national security. This module focuses on two critical components of India's transport infrastructure: **Roadways (Highways & Expressways)** and **Waterways (Inland & Oceanic)**.
 
 *   **Roadways:** These are land routes that connect different parts of the country. National Highways form the backbone, connecting major cities, ports, and industrial centers.
-*   **Waterways:** These are routes on water bodies (rivers, canals, seas, oceans) used for transport. They are often the most economical mode for bulky goods.
+*   **Waterways:** These are routes on water bodies ([[rivers]], canals, seas, oceans) used for transport. They are often the most economical mode for bulky goods.
 
 Understanding these networks is vital for Indian Defence Examinations as questions frequently test knowledge of their geographical spread, strategic significance, and ongoing development projects.
 
@@ -29,7 +28,7 @@ The Indian road network is broadly classified into:
 *   **Rural Roads:** Connect villages with each other and with major roads.
 *   **Border Roads:** Maintained by the **Border Roads Organisation (BRO)**, these roads are strategically important for connecting border areas and improving accessibility for defence forces.
 
-**2. National Highways (NHs): Evolution and Key Features**
+**2. National Highways (NHs): [[Evolution]] and Key Features**
 
 *   **Historical Context:** The old numbering system (e.g., NH 1, NH 2) was replaced by a new, more systematic numbering scheme in **2010**.
     *   **New Numbering Scheme (2010):**
@@ -51,7 +50,7 @@ The Indian road network is broadly classified into:
 *   **Bharatmala Pariyojana (Launched 2017):**
     *   **Objective:** A comprehensive program for highways sector, focusing on optimizing efficiency of freight and passenger movement, developing national highway corridors, improving connectivity to economic hubs, border areas, coastal areas, and expressways.
     *   **Components:** Economic corridors, inter-corridor and feeder routes, national corridors efficiency improvements, border and international connectivity roads, coastal and port connectivity roads, expressways.
-*   **Expressways:** These are high-speed, access-controlled roads designed for faster movement of traffic.
+*   **Expressways:** These are high-[[speed]], access-controlled roads designed for faster movement of traffic.
     *   **Yamuna Expressway:** Connects Greater Noida to Agra (Uttar Pradesh).
     *   **Mumbai-Pune Expressway:** India's first access-controlled six-lane expressway.
     *   **Delhi-Mumbai Expressway:** Under construction, aiming to be India's longest expressway (~1,350 km).
@@ -65,11 +64,11 @@ Waterways are a cost-effective and environmentally friendly mode of transport, e
 **1. Inland Waterways:**
 *   **Inland Waterways Authority of India (IWAI):** Established in **1986** under the IWAI Act, 1985, it is responsible for the development and regulation of inland waterways for shipping and navigation.
 *   **National Waterways (NWs):** India has designated several river stretches and canals as National Waterways for navigation. The **Inland Waterways Act, 2016**, declared 111 additional waterways as National Waterways, bringing the total to 111 (though many are still under development).
-    *   **NW-1 (Ganga-Bhagirathi-Hooghly River System):**
+    *   **NW-1 ([[Ganga]]-Bhagirathi-Hooghly River System):**
         *   **Route:** Allahabad (Prayagraj) to Haldia.
         *   **Length:** 1620 km.
         *   **Significance:** Longest NW in India, connecting major cities like Varanasi, Patna, and Kolkata.
-    *   **NW-2 (Brahmaputra River System):**
+    *   **NW-2 ([[Brahmaputra]] River System):**
         *   **Route:** Sadiya to Dhubri.
         *   **Length:** 891 km.
         *   **Significance:** Connects North-East India to the mainland.
@@ -77,12 +76,12 @@ Waterways are a cost-effective and environmentally friendly mode of transport, e
         *   **Route:** Kottapuram to Kollam (Kerala), including Champakara and Udyogmandal canals.
         *   **Length:** 205 km.
         *   **Significance:** Important for backwater tourism and local transport in Kerala.
-    *   **NW-4 (Krishna-Godavari River System):**
-        *   **Route:** Kakinada-Puducherry stretch (Godavari and Krishna rivers with canals).
+    *   **NW-4 ([[Krishna]]-[[Godavari]] River System):**
+        *   **Route:** Kakinada-Puducherry stretch ([[Godavari]] and [[Krishna]] [[rivers]] with canals).
         *   **Length:** 1095 km.
         *   **Significance:** Connects major delta regions in Andhra Pradesh and Tamil Nadu.
     *   **NW-5 (Brahmani-Mahanadi Delta River System):**
-        *   **Route:** Talcher-Dhamra stretch (Brahmani and Mahanadi rivers with canals).
+        *   **Route:** Talcher-Dhamra stretch (Brahmani and Mahanadi [[rivers]] with canals).
         *   **Length:** 588 km.
         *   **Significance:** Connects industrial regions of Odisha.
     *   **NW-6 (Barak River System):**
@@ -107,19 +106,19 @@ Waterways are a cost-effective and environmentally friendly mode of transport, e
 The development of transport routes is deeply intertwined with India's economic and strategic aspirations.
 
 **1. Economic Importance:**
-*   **Cost Reduction:** Waterways offer significant cost advantages for bulk cargo, reducing overall logistics costs. Roadways provide last-mile connectivity, crucial for integrating diverse markets.
+*   **Cost [[Reduction]]:** Waterways offer significant cost advantages for bulk cargo, reducing overall logistics costs. Roadways provide last-mile connectivity, crucial for integrating diverse markets.
 *   **Market Access:** Improved transport infrastructure enhances market access for agricultural produce and industrial goods, boosting economic activity and reducing regional disparities.
 *   **Employment Generation:** Large-scale infrastructure projects create substantial employment opportunities, both directly and indirectly.
 *   **Trade Facilitation:** Efficient ports and well-connected highways are vital for international trade, improving India's competitiveness in global markets.
 
 **2. Strategic Importance:**
-*   **Border Connectivity:** BRO-maintained roads in sensitive border areas (e.g., Himalayas, North-East) are critical for rapid troop movement, supply logistics, and national security.
+*   **Border Connectivity:** BRO-maintained roads in sensitive border areas (e.g., [[Himalayas]], North-East) are critical for rapid troop movement, supply logistics, and national security.
 *   **Disaster Management:** Robust road and waterway networks are essential for quick response during natural disasters, facilitating relief operations and evacuation.
 *   **Defence Logistics:** Seamless connectivity ensures timely deployment of defence equipment and personnel across the country.
 *   **Act East Policy:** Development of roads and waterways connecting India's North-East with Southeast Asian countries (e.g., Kaladan Multi-Modal Transit Transport Project) is crucial for regional integration and strategic influence.
 
 **3. Policy Frameworks:**
-*   **National Logistics Policy (NLP) 2022:** Aims to reduce logistics costs, improve India's ranking in the Logistics Performance Index, and create a data-driven decision support mechanism for an efficient logistics ecosystem.
+*   **National Logistics Policy (NLP) 2022:** Aims to reduce logistics costs, improve India's ranking in the Logistics Performance Index, and create a data-driven decision support mechanism for an efficient logistics [[ecosystem]].
 *   **National Infrastructure Pipeline (NIP):** Outlines significant investments in infrastructure, including transport, to drive economic growth.
 
 **4. Challenges and Future Outlook:**
@@ -142,14 +141,14 @@ The development of transport routes is deeply intertwined with India's economic 
     *   **Shortest NH:** NH 966B (Kundannoor-Willingdon Island, Kochi, ~6 km).
     *   **Max NH Length State:** Uttar Pradesh.
     *   **Key Projects:** Golden Quadrilateral, North-South & East-West Corridors (NHDP), Bharatmala Pariyojana (economic corridors, border roads, coastal roads, expressways).
-    *   **Expressways:** High-speed, access-controlled (e.g., Yamuna, Mumbai-Pune, Delhi-Mumbai, Purvanchal, Samruddhi Mahamarg).
+    *   **Expressways:** High-[[speed]], access-controlled (e.g., Yamuna, Mumbai-Pune, Delhi-Mumbai, Purvanchal, Samruddhi Mahamarg).
 *   **Waterways:**
     *   **Authority:** Inland Waterways Authority of India (IWAI, est. 1986).
     *   **National Waterways (NWs):**
-        *   **NW-1:** Ganga (Prayagraj-Haldia, 1620 km).
-        *   **NW-2:** Brahmaputra (Sadiya-Dhubri, 891 km).
+        *   **NW-1:** [[Ganga]] (Prayagraj-Haldia, 1620 km).
+        *   **NW-2:** [[Brahmaputra]] (Sadiya-Dhubri, 891 km).
         *   **NW-3:** West Coast Canal (Kottapuram-Kollam, 205 km).
-        *   **NW-4:** Krishna-Godavari (Kakinada-Puducherry, 1095 km).
+        *   **NW-4:** [[Krishna]]-[[Godavari]] (Kakinada-Puducherry, 1095 km).
         *   **NW-5:** Brahmani-Mahanadi Delta (Talcher-Dhamra, 588 km).
         *   **NW-6:** Barak (Lakhipur-Bhanga, 121 km).
     *   **Major Ports:** JNPT (largest container), Vizag (largest natural), Kandla (tidal, free trade zone), Mumbai (busiest), Enayam (proposed).
@@ -158,14 +157,14 @@ The development of transport routes is deeply intertwined with India's economic 
 #### **B. Ultra-Short Revision (Layer 5: Ultra-short revision)**
 
 *   **Roads:** 2nd largest network. NH44 longest, NH966B shortest. Bharatmala, NHDP key projects.
-*   **Waterways:** IWAI. NW1 (Ganga), NW2 (Brahmaputra), NW3 (Kerala), NW4 (KG Delta), NW5 (Odisha), NW6 (Barak). Sagarmala for ports.
+*   **Waterways:** IWAI. NW1 ([[Ganga]]), NW2 ([[Brahmaputra]]), NW3 (Kerala), NW4 (KG Delta), NW5 (Odisha), NW6 (Barak). Sagarmala for ports.
 
 #### **C. Flashcards (Layer 6: Flashcards)**
 
 *   **Front:** What is the longest National Highway in India? **Back:** NH 44 (Srinagar to Kanyakumari).
 *   **Front:** Which body is responsible for developing and regulating inland waterways in India? **Back:** Inland Waterways Authority of India (IWAI).
 *   **Front:** What are the four cities connected by the Golden Quadrilateral? **Back:** Delhi, Mumbai, Chennai, Kolkata.
-*   **Front:** What is the old name of NW-1? **Back:** Ganga-Bhagirathi-Hooghly River System.
+*   **Front:** What is the old name of NW-1? **Back:** [[Ganga]]-Bhagirathi-Hooghly River System.
 *   **Front:** Which state has the largest length of National Highways? **Back:** Uttar Pradesh.
 
 #### **D. Memory Tricks (Layer 7: Memory tricks)**
@@ -174,7 +173,7 @@ The development of transport routes is deeply intertwined with India's economic 
     *   **G**anga (NW-1)
     *   **B**rahmaputra (NW-2)
     *   **S**outh Coast Canal (West Coast Canal, NW-3)
-    *   **K**rishna-Godavari (NW-4)
+    *   **K**rishna-[[Godavari]] (NW-4)
     *   **B**rahmani-Mahanadi (NW-5)
     *   **M**izoram (Barak River, NW-6) - *Note: "Mizoram" is a simplification for Barak River's region.*
 
@@ -184,7 +183,7 @@ The development of transport routes is deeply intertwined with India's economic 
     *   **C**hennai
     *   **K**olkata (often remembered as C for Calcutta)
 
-> **Exam Trap:** Don't confuse the old NH numbering with the new one. NH 44 is the current longest, not the old NH 7. Also, remember that the shortest NH 47A is now part of NH 966B.
+> **Exam Trap:** Don't confuse the old NH numbering with the new one. NH 44 is the [[current]] longest, not the old NH 7. Also, remember that the shortest NH 47A is now part of NH 966B.
 
 ---
 
@@ -192,97 +191,19 @@ The development of transport routes is deeply intertwined with India's economic 
 
 #### **A. Road Classification Flowchart**
 
-```mermaid
-graph TD
-    A[Indian Road Network] --> B{Classification}
-    B --> C[National Highways (NHs)]
-    B --> D[State Highways (SHs)]
-    B --> E[District Roads]
-    B --> F[Rural Roads]
-    B --> G[Border Roads]
 
-    C --> C1[Maintained by NHAI/MoRTH]
-    C --> C2[Connects major cities, ports, industrial centres]
-    C --> C3[New Numbering Scheme (2010)]
-    C3 --> C3a[Even: East-West]
-    C3 --> C3b[Odd: North-South]
-    C3 --> C3c[Suffixes: Spur routes]
+![india-transport-routes](assets/diagrams/geography/indian-geography/india-transport-routes.png)
+*Diagram for india-transport-routes*
 
-    D --> D1[Maintained by State PWDs]
-    D --> D2[Connects district HQs to NHs/towns]
 
-    G --> G1[Maintained by BRO]
-    G --> G2[Strategic importance for border areas]
-```
 
 #### **B. Waterway Classification Flowchart**
 
-```mermaid
-graph TD
-    A[Indian Waterways] --> B{Classification}
-    B --> C[Inland Waterways]
-    B --> D[Oceanic Waterways]
 
-    C --> C1[Managed by IWAI (est. 1986)]
-    C --> C2[National Waterways (NWs)]
-    C2 --> C2a[NW-1: Ganga (Prayagraj-Haldia)]
-    C2 --> C2b[NW-2: Brahmaputra (Sadiya-Dhubri)]
-    C2 --> C2c[NW-3: West Coast Canal (Kottapuram-Kollam)]
-    C2 --> C2d[NW-4: Krishna-Godavari (Kakinada-Puducherry)]
-    C2 --> C2e[NW-5: Brahmani-Mahanadi (Talcher-Dhamra)]
-    C2 --> C2f[NW-6: Barak (Lakhipur-Bhanga)]
-
-    D --> D1[Major Ports]
-    D1 --> D1a[JNPT (Largest Container)]
-    D1 --> D1b[Vizag (Largest Natural)]
-    D1 --> D1c[Kandla (Tidal, Free Trade Zone)]
-    D1 --> D1d[Mumbai (Busiest)]
-    D1 --> D1e[Enayam (Proposed)]
-    D --> D2[Sagarmala Project (Port-led development)]
-```
 
 #### **C. Major Road & Waterway Projects Mind Map**
 
-```mermaid
-mindmap
-  root((Indian Transport Infrastructure))
-    Roadways
-      National Highways
-        NHDP
-          Golden Quadrilateral
-          North-South Corridor
-          East-West Corridor
-        Bharatmala Pariyojana
-          Economic Corridors
-          Border Roads
-          Coastal & Port Connectivity
-          Expressways
-      Expressways
-        Yamuna Expressway
-        Delhi-Mumbai Expressway
-        Samruddhi Mahamarg
-    Waterways
-      Inland Waterways
-        National Waterways (NWs)
-          NW-1 (Ganga)
-          NW-2 (Brahmaputra)
-          NW-3 (West Coast Canal)
-          NW-4 (Krishna-Godavari)
-          NW-5 (Brahmani-Mahanadi)
-          NW-6 (Barak)
-        IWAI (Authority)
-      Oceanic Waterways
-        Major Ports
-          JNPT
-          Vizag
-          Kandla
-          Mumbai
-          Enayam (Proposed)
-        Sagarmala Project
-    Policy & Strategy
-      National Logistics Policy (NLP)
-      National Infrastructure Pipeline (NIP)
-```
+
 
 ---
 
@@ -292,7 +213,7 @@ mindmap
 *   **Delhi-Mumbai Expressway (2024-2025):** Several sections of this ambitious expressway have become operational, significantly reducing travel time between Delhi and Mumbai. The full operationalization is expected by late 2025.
 *   **National Waterways Development (2023-2024):** Efforts are ongoing to enhance navigability on existing NWs, particularly NW-1 and NW-2, through dredging, fairway development, and terminal construction. The focus is on increasing cargo movement on these waterways to decongest roads and railways.
 *   **Sagarmala Project Achievements (2023-2024):** The project has led to modernization and capacity enhancement of several major ports, improving turnaround times and reducing logistics costs. New port-led industrial clusters are also being developed.
-*   **National Logistics Policy (NLP) Implementation (2023-2024):** The NLP is driving reforms to integrate various transport modes, digitize logistics processes, and create a unified logistics ecosystem, aiming to reduce logistics costs from ~14% of GDP to global benchmarks.
+*   **National Logistics Policy (NLP) Implementation (2023-2024):** The NLP is driving reforms to integrate various transport modes, digitize logistics processes, and create a unified logistics [[ecosystem]], aiming to reduce logistics costs from ~14% of GDP to global benchmarks.
 
 ---
 
@@ -302,7 +223,7 @@ mindmap
 *   **CDS 2016 (I) Q.64:** "Headquarters of which one among the following Railway Zones in India is situated at the highest elevation from the mean sea level?" (While about railways, it shows the type of specific factual questions asked about transport infrastructure).
 *   **CDS 2015 (I) Q.43:** "'Inclusive growth' is a phrase used in India's... 1. 9th Plan 2. 10th Plan 3. 11th Plan 4. 12th Plan" (This relates to economic planning, which influences infrastructure development).
 *   **CDS 2014 (II) Q.138:** "Consider the following statement(s) 1. Western dedicated freight corridor is from Dadri in Uttar Pradesh to Jawaharlal Nehru Port Trust near Mumbai. 2. Germany is assisting the project. Which of the statement(s) given above is/are correct?" (Directly tests knowledge of major transport corridors and international collaborations).
-*   **NDA 2012 (I) Q.4:** "Which one among the following Indus cities was known for water management?" (While ancient history, it shows the importance of infrastructure in historical contexts).
+*   **NDA 2012 (I) Q.4:** "Which one among the following [[Indus]] cities was known for water management?" (While ancient history, it shows the importance of infrastructure in historical contexts).
 
 **Frequently Tested Concepts:**
 *   Longest/shortest National Highways.
@@ -320,7 +241,7 @@ mindmap
 
 1.  **Statement-based:** "Consider the following statements regarding the Bharatmala Pariyojana: 1. It aims to improve connectivity to border areas and coastal regions. 2. It is primarily focused on developing greenfield expressways. Which of the statements given above is/are correct?"
 2.  **Match the following:** Match National Waterways with their respective river systems or connecting points.
-3.  **Current Affairs Integration:** "The recently inaugurated section of the Delhi-Mumbai Expressway is expected to significantly reduce logistics costs. This aligns with the objectives of which major policy? (a) National Logistics Policy (b) Make in India (c) PM Gati Shakti (d) All of the above."
+3.  **[[Current]] Affairs Integration:** "The recently inaugurated section of the Delhi-Mumbai Expressway is expected to significantly reduce logistics costs. This aligns with the objectives of which major policy? (a) National Logistics Policy (b) Make in India (c) PM Gati Shakti (d) All of the above."
 4.  **Strategic Importance:** "Discuss the strategic importance of the North-South and East-West corridors for India's defence and economic integration."
 5.  **Comparative Analysis:** "Compare and contrast the economic and environmental advantages of roadways versus inland waterways for bulk cargo transport in India."
 
@@ -347,7 +268,7 @@ mindmap
     (d) Mumbai, Ahmedabad, Chennai, Delhi
     > **Answer:** (b) Delhi, Mumbai, Chennai, Kolkata
 
-4.  Which National Waterway connects Sadiya to Dhubri on the Brahmaputra River?
+4.  Which National Waterway connects Sadiya to Dhubri on the [[Brahmaputra]] River?
     (a) NW-1
     (b) NW-2
     (c) NW-3
@@ -358,7 +279,7 @@ mindmap
     (a) Developing inland waterways for tourism
     (b) Promoting port-led development in India
     (c) Constructing new National Highways in coastal areas
-    (d) Enhancing air connectivity to remote islands
+    (d) Enhancing air connectivity to remote [[islands]]
     > **Answer:** (b) Promoting port-led development in India
 
 #### **C. Statement-based Questions (Layer 13: Statement-based questions)**
@@ -385,7 +306,7 @@ mindmap
 
 ### **IX. Knowledge Integration & Self-Improvement Loop**
 
-This module on "Transport Routes: Highways & Waterways" is designed to be a living document. It integrates historical context, current facts, and future policy directions. The interconnectedness with economic development, strategic defence, and environmental considerations highlights its multidisciplinary relevance. Future updates will focus on:
+This module on "Transport Routes: Highways & Waterways" is designed to be a living document. It integrates historical context, [[current]] facts, and future policy directions. The interconnectedness with economic development, strategic defence, and environmental considerations highlights its multidisciplinary relevance. Future updates will focus on:
 *   Latest progress reports on Bharatmala and Sagarmala.
 *   New National Highway declarations or re-alignments.
 *   Increased cargo movement data for National Waterways.

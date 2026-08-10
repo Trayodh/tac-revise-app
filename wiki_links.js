@@ -772,6 +772,9 @@ Keep language strictly formal, highly authoritative, and emoji-free. Return stri
     if (resText.includes("_AI uplink failed")) {
       throw new Error(resText.split("_AI uplink failed")[1].replace(/[\(\)]/g, '').trim() || "Offline mode active.");
     }
+    if (resText.includes("(UPSC Local Engine)") || resText.includes("(Local Mode)")) {
+      throw new Error("Offline mode active. Primary cloud model is rate limited.");
+    }
     
     const result = JSON.parse(cleaned);
     window.DRONACHARYA_CACHE[cacheKey] = result;

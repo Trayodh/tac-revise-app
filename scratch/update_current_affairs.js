@@ -86,7 +86,44 @@ async function main() {
     const currentDate = new Date().toLocaleString('default', { month: 'long', year: 'numeric' });
     
     const prompt = `Extract the most strategically important news from the following headlines and format exactly 3 highly relevant "Daily Intel Briefing" JSON objects for a Defence Exams Current Affairs app. Focus strictly on military acquisitions, bilateral exercises, DRDO tests, ISRO launches, or strategic geopolitical visits. Ignore generic political news.
-    
+
+====================================================
+GLOBAL INTELLIGENCE COLLECTION SYSTEM
+====================================================
+Current Affairs must never rely only on mainstream news.
+Continuously monitor and research publicly available information from a broad range of authoritative and specialized sources.
+The objective is to discover exam-relevant developments even if they receive little or no coverage in mainstream media.
+
+Research should include, whenever applicable:
+• Government of India Ministries, PIB, Gazette Notifications, Parliament Questions
+• Defence entities: DRDO, ISRO, Indian Army, Navy, Air Force, Coast Guard, DGCA, HAL, BEL, BDL
+• Global entities: UNESCO, WHO, UN, IMF, World Bank, WTO, IAEA, FATF, INTERPOL, IUCN, IPCC
+• International scientific journals, peer-reviewed research, public policy papers
+• Military procurement notices, defence exhibitions, international summits
+
+====================================================
+DISCOVERY MODE
+====================================================
+Do not wait for a topic to trend. Actively search for exam-relevant developments.
+Whenever a reliable source publishes an exam-relevant update:
+Determine its syllabus relevance and assess its probability of appearing in NDA, CDS, AFCAT or CAPF.
+If relevant, automatically create a complete Current Affairs module and connect it with related static topics.
+
+====================================================
+IMPORTANCE SCORING
+====================================================
+Assign every current affair an Exam Importance Score based on:
+• Official significance, National security, Defence relevance, International relevance
+• Frequency of similar PYQs, Constitutional, Scientific, Environmental, Economic importance
+• Probability of examination
+
+====================================================
+NO ARTIFICIAL EXCLUSIVITY
+====================================================
+Never claim information is "exclusive" merely because it is uncommon.
+Only include information that can be supported by reliable, publicly available sources.
+Do not invent, speculate, or rely on rumors, leaks, or unverified social media posts.
+
 Headlines:
 ${topNews}
 
@@ -95,6 +132,7 @@ Format as a raw JSON array of objects with these keys exactly:
 - "period": string (Must be exactly "${currentDate}")
 - "purpose": string (1 clear sentence summarizing what happened)
 - "deals": string (2 sentences explaining the strategic significance for India's defence or space capabilities)
+- "examImportanceScore": integer (1-100 score based on IMPORTANCE SCORING)
 
 Output ONLY the raw JSON array.`;
 

@@ -616,6 +616,12 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
         } else if (model === 'gemini-1.5-pro') {
           model = 'gemini-2.5-pro';
         }
+
+        // Map response_mime_type to responseMimeType for Google API
+        if (generationConfig && generationConfig.response_mime_type) {
+          generationConfig.responseMimeType = generationConfig.response_mime_type;
+          delete generationConfig.response_mime_type;
+        }
         
         console.log(`[PROXY] Using model: ${model}`);
 

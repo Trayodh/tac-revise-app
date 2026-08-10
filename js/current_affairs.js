@@ -129,13 +129,20 @@ function renderCurrentAffairsHub() {
   // If no data falls in current cycle, fall back to all keys (graceful degradation)
   const keys = cycleKeys.length > 0 ? cycleKeys : allKeys;
 
-  // Auto-select a month: prefer current month → first month in cycle → fallback first key
+  // Auto-select a month: prefer current month -> first month in cycle -> fallback first key
   if (!keys.includes(activeCaMonth)) {
     const currentMonthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
-    if (keys.includes(currentMonthStr)) {
+    const hasData = (month) => window.CURRENT_AFFAIRS_DB[month] && window.CURRENT_AFFAIRS_DB[month].length > 0;
+    
+    if (keys.includes(currentMonthStr) && hasData(currentMonthStr)) {
       activeCaMonth = currentMonthStr;
     } else if (keys.length > 0) {
-      activeCaMonth = keys[keys.length - 1]; // latest month in cycle
+      const keysWithData = keys.filter(hasData);
+      if (keysWithData.length > 0) {
+        activeCaMonth = keysWithData[keysWithData.length - 1]; // latest month in cycle with data
+      } else {
+        activeCaMonth = keys[keys.length - 1]; 
+      }
     }
   }
 
@@ -257,7 +264,8 @@ function renderCurrentMonthAffairs() {
       <div style="display:flex; gap:5px; flex-wrap:wrap;">
         ${Object.entries(topicCounts).map(([t,c]) => {
           const safeTopic = (t || 'General').toUpperCase().replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
-          return `<span onclick="document.getElementById('topic-${safeTopic}')?.scrollIntoView({behavior: 'smooth', block: 'start'})" onmouseover="this.style.background='rgba(255,255,255,0.12)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'" style="cursor:pointer; font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase; transition:background 0.2s;">${t}&thinsp;·&thinsp;${c}</span>`;
+          const col = getTopicColor(t);
+          return `<span onclick="document.getElementById('topic-${safeTopic}')?.scrollIntoView({behavior: 'smooth', block: 'start'})" onmouseover="this.style.background='${col}33'" onmouseout="this.style.background='${col}15'" style="cursor:pointer; font-family:var(--font-mono); font-size:0.65rem; font-weight:600; padding:2px 7px; border-radius:3px; background:${col}15; border:1px solid ${col}50; color:${col}; letter-spacing:0.4px; white-space:nowrap; text-transform:uppercase; transition:background 0.2s;">${t}&thinsp;·&thinsp;${c}</span>`;
         }).join('')}
       </div>
     </div>

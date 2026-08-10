@@ -3585,5 +3585,184 @@ window.CURRENT_AFFAIRS_DB = {
         "explanation": "Mirabai Chanu secured a Gold medal in weightlifting in July 2026."
       }
     }
-  ]
+  ],
+  "August 2026": ﻿[
+  {
+    "id": "aug-1",
+    "topic": "Sports Awards",
+    "text": "India reached the finals of the **ICC Men's T20 World Cup**, exhibiting outstanding team coordination and performances in the knock-out matches.",
+    "details": {
+      "winner": "ICC Tournament Board",
+      "award": "T20 World Cup Campaign",
+      "nationality": "International",
+      "summary": "Participated in the premier global T20 tournament, demonstrating high-quality batting and tactical bowling lineups."
+    },
+    "mcq": {
+      "question": "Which country won the ICC Men's T20 World Cup in 2024, defeating South Africa in the final?",
+      "options": [
+        "Australia",
+        "India",
+        "England",
+        "Pakistan"
+      ],
+      "correct": 1,
+      "explanation": "India won the ICC Men's T20 World Cup in June 2024 under Rohit Sharma's captaincy, defeating South Africa in Barbados."
+    }
+  },
+  {
+    "id": "aug-2",
+    "topic": "Science & Tech",
+    "text": "ISRO and JAXA finalized payload specifications for the **LUPEX (Lunar Polar Exploration)** joint mission, targeting the water-ice deposits on the Moon's south pole.",
+    "details": {
+      "winner": "ISRO & JAXA",
+      "award": "LUPEX Mission Planning",
+      "nationality": "India & Japan Joint Venture",
+      "summary": "A joint robotic lunar lander and rover mission, where JAXA will provide the launch vehicle and rover, and ISRO will provide the lander."
+    },
+    "mcq": {
+      "question": "What is the name of India's planned orbiter mission to Venus, scheduled for late 2020s?",
+      "options": [
+        "Aditya-L2",
+        "Shukrayaan-1",
+        "LUPEX",
+        "Gaganyaan-2"
+      ],
+      "correct": 1,
+      "explanation": "Shukrayaan-1 is the proposed ISRO mission to study the atmosphere and surface of Venus."
+    }
+  },
+  {
+    "id": "aug-3",
+    "topic": "Defence Technology",
+    "text": "The stealth frigate **INS Mahendragiri**, built under Project 17A, successfully completed sea trials, showcasing indigenously developed stealth designs.",
+    "details": {
+      "winner": "Indian Navy & Mazagon Dock",
+      "award": "INS Mahendragiri Sea Trials",
+      "nationality": "Indian (Project 17A Frigate)",
+      "summary": "The seventh and final stealth frigate of the Nilgiri-class Project 17A, equipped with advanced weapons, sensors, and platform management systems."
+    },
+    "mcq": {
+      "question": "INS Mahendragiri, recently commissioned into the Indian Navy, is a:",
+      "options": [
+        "Aircraft Carrier",
+        "Nuclear Submarine",
+        "Stealth Guided Frigate",
+        "Offshore Patrol Vessel"
+      ],
+      "correct": 2,
+      "explanation": "INS Mahendragiri is the seventh stealth frigate built under Project 17A."
+    }
+  },
+  {
+    "id": "aug-4",
+    "topic": "Environment",
+    "text": "The Union Ministry designated **Tawa Reservoir in Madhya Pradesh** as a Ramsar site of international importance, highlighting conservation successes.",
+    "details": {
+      "winner": "Madhya Pradesh Forest Dept",
+      "award": "Ramsar Site Designation",
+      "nationality": "Indian (Madhya Pradesh)",
+      "summary": "Tawa Reservoir is an important wetland supporting threatened bird species, migratory waterfowl, and local fisheries."
+    },
+    "mcq": {
+      "question": "Which of the following reservoirs in Madhya Pradesh was designated as a Ramsar site?",
+      "options": [
+        "Tawa Reservoir",
+        "Indira Sagar",
+        "Gandhi Sagar",
+        "Bargi Dam"
+      ],
+      "correct": 0,
+      "explanation": "Tawa Reservoir, located in Narmadapuram district of Madhya Pradesh, along with two sites in Tamil Nadu, was designated as a Ramsar site, taking India's total count to 85."
+    }
+  },
+  {
+    "id": "aug-5",
+    "topic": "Politics & Admin",
+    "text": "Justice Sanjiv Khanna took oath as the new Chief Justice of India (CJI), succeeding the outgoing Chief Justice.",
+    "details": {
+      "winner": "Justice Sanjiv Khanna",
+      "award": "Oath as Chief Justice of India",
+      "nationality": "Indian",
+      "summary": "Appointed as the 51st Chief Justice of India. The oath was administered by President Droupadi Murmu at Rashtrapati Bhavan under Article 124(6) of the Constitution."
+    },
+    "mcq": {
+      "question": "Under which Article of the Indian Constitution does the President administer the oath of office to the Chief Justice of India?",
+      "options": [
+        "Article 124(6)",
+        "Article 60",
+        "Article 125",
+        "Article 219"
+      ],
+      "correct": 0,
+      "explanation": "Article 124(6) of the Constitution of India provides that every person appointed to be a Judge of the Supreme Court shall make and subscribe an oath or affirmation before the President."
+    }
+  },
+  {
+    "id": "aug-6",
+    "topic": "National Security",
+    "text": "The Ministry of Development of Northeastern Region (DoNER) reviewed infrastructure projects under the **Vibrant Villages Programme (VVP)** along the LAC.",
+    "details": {
+      "winner": "Border Villages in Himachal, Uttarakhand, Sikkim, Arunachal",
+      "award": "VVP Infrastructure Funding",
+      "nationality": "Indian (Northern Borders)",
+      "summary": "A Centrally Sponsored Scheme to develop infrastructure, generate livelihoods, and improve connectivity in border villages to arrest migration."
+    },
+    "mcq": {
+      "question": "The Vibrant Villages Programme covers border villages along India's border with which country?",
+      "options": [
+        "Pakistan",
+        "China",
+        "Bangladesh",
+        "Myanmar"
+      ],
+      "correct": 1,
+      "explanation": "The VVP targets the development of border villages along the northern border (primarily the Line of Actual Control with China)."
+    }
+  },
+  {
+    "id": "aug-7",
+    "topic": "Environment",
+    "text": "The Ministry of Environment, Forest and Climate Change consolidated the administration of **Project Tiger** and **Project Elephant** under a single division.",
+    "details": {
+      "winner": "Project Tiger & Elephant Division",
+      "award": "Administrative Merger",
+      "nationality": "Indian",
+      "summary": "A structural reform aimed at optimizing resources, integrating conservation fields, and streamline funding for overlapping tiger/elephant habitats."
+    },
+    "mcq": {
+      "question": "Which of the following years marks the launch of Project Tiger in India?",
+      "options": [
+        "1972",
+        "1973",
+        "1980",
+        "1992"
+      ],
+      "correct": 1,
+      "explanation": "Project Tiger was launched on April 1, 1973, from Jim Corbett National Park, while Project Elephant was launched in 1992."
+    }
+  },
+  {
+    "id": "aug-8",
+    "topic": "International GK",
+    "text": "The **Henley Passport Index 2026** released its mid-year rankings, listing Singapore's passport as the most powerful in the world.",
+    "details": {
+      "winner": "Singapore Passport",
+      "award": "Henley Passport Index",
+      "nationality": "International",
+      "summary": "An authoritative index ranking global passports according to the number of destinations their holders can access without a prior visa."
+    },
+    "mcq": {
+      "question": "In the Henley Passport Index 2025/2026, which country consistently ranks as having the most powerful passport?",
+      "options": [
+        "Japan",
+        "Singapore",
+        "Germany",
+        "France"
+      ],
+      "correct": 1,
+      "explanation": "Singapore's passport ranks first, allowing its citizens visa-free access to 195 destinations."
+    }
+  }
+]
+
 };

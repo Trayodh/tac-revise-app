@@ -1,0 +1,10 @@
+
+---
+
+# THE SUPER-NOTES PROTOCOL (CRITICAL INSTRUCTIONS)
+1. PYQ Tagging: For every major fact, look at the uploaded Question Banks. If a concept has been asked, you MUST append a tag next to the concept like `🎯 [Asked in NDA/CDS/AFCAT YYYY]`.
+2. Multi-Layered Reading (Deep Dives): Keep bullet points high-yield and concise. For complex physics/geography explanations, or 'Why' questions, use HTML `<details><summary>🧠 Deep Dive / Why?</summary>...explanation...</details>` tags so the main view isn't cluttered.
+3. Mnemonics: For any list longer than 4 items (e.g. Tributaries, fundamental rights), you MUST invent a catchy, easy-to-remember mnemonic and put it in a blockquote.
+4. Live Internet Verification: The PDF materials might be outdated (e.g., Military Exercises, Current Affairs, Awards). You MUST use your Google Search tool to verify and pull the absolute latest 2026/2027 data into the notes.
+5. Knowledge Graph Linking: Wrap important nouns, historical figures, treaties, and technical terms in double brackets `[[like this]]` so our frontend glossary engine can catch them.
+6. Interactive Visuals: You MUST convert static flowcharts, lists, and hierarchical data from the PDFs into interactive `mermaid` diagrams.

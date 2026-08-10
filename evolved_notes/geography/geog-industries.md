@@ -1,4 +1,6 @@
-# PROJECT SARASWATI: Major Industries & Industrial Corridors of India
+
+![geog-industries](assets/drive_images/Misc/Jayastra-20260730T165402Z-1-001/geography/industrics-geopolitics/geog-industries.svg)
+*Diagram for geog-[[industries]]*
 
 ---
 
@@ -8,7 +10,7 @@
 
 ### **Chapter Overview**
 
-This chapter provides an exhaustive analysis of India's major industrial landscape and the strategic development of its industrial corridors. It covers the historical evolution of industries, key industrial policies, classification of various sectors, detailed insights into prominent industries, and a comprehensive overview of the crucial industrial corridors driving India's economic growth. The module is designed to equip aspirants for NDA, CDS, AFCAT, CAPF, INET, Agniveer, Territorial Army, and SSB knowledge preparation with conceptual understanding, factual accuracy, and exam-oriented insights.
+This chapter provides an exhaustive analysis of India's major industrial landscape and the strategic development of its industrial corridors. It covers the historical [[evolution]] of [[industries]], key industrial policies, classification of various sectors, detailed insights into prominent [[industries]], and a comprehensive overview of the crucial industrial corridors driving India's economic growth. The module is designed to equip aspirants for NDA, CDS, AFCAT, CAPF, INET, Agniveer, Territorial Army, and SSB knowledge preparation with conceptual understanding, factual accuracy, and exam-oriented insights.
 
 ---
 
@@ -16,18 +18,18 @@ This chapter provides an exhaustive analysis of India's major industrial landsca
 
 1.  **Introduction to Indian Industry**
     *   Definition & Importance
-    *   Historical Evolution of Industries in India
+    *   Historical [[Evolution]] of [[Industries]] in India
 2.  **Industrial Policies of India**
     *   Industrial Policy Resolution, 1948
     *   Industrial Policy Resolution, 1956
     *   New Industrial Policy, 1991
     *   Recent Initiatives: Make in India, Startup India, Digital India
-3.  **Classification of Industries**
+3.  **Classification of [[Industries]]**
     *   Based on Raw Materials
     *   Based on Size
     *   Based on Ownership
     *   Based on Sector
-4.  **Major Industries of India**
+4.  **Major [[Industries]] of India**
     *   Iron & Steel Industry
     *   Textile Industry (Cotton, Jute, Silk, Woollen)
     *   Sugar Industry
@@ -36,7 +38,7 @@ This chapter provides an exhaustive analysis of India's major industrial landsca
     *   Automobile Industry
     *   Pharmaceutical Industry
     *   Defence Industry
-    *   Other Key Industries (Cement, Fertilizer, Machine Tools, Heavy Electricals, Photo Films, Glass)
+    *   Other Key [[Industries]] ([[Cement]], Fertilizer, Machine Tools, Heavy Electricals, Photo Films, [[Glass]])
 5.  **Industrial Corridors of India**
     *   Concept & Objectives
     *   Key Industrial Corridors
@@ -67,7 +69,7 @@ Industry refers to the economic activity concerned with the processing of raw ma
 *   **Value Addition:** Transforming raw materials into finished products.
 *   **Employment Generation:** Providing jobs across various skill levels.
 *   **Economic Growth:** Contributing significantly to GDP and national income.
-*   **Infrastructure Development:** Driving demand for transport, energy, and communication.
+*   **Infrastructure Development:** Driving demand for transport, [[energy]], and communication.
 *   **Technological Advancement:** Fostering innovation and R&D.
 *   **Self-Reliance:** Reducing dependence on imports and boosting exports.
 
@@ -75,19 +77,19 @@ Industry refers to the economic activity concerned with the processing of raw ma
 
 The industrial journey of India spans millennia, from ancient crafts to modern manufacturing.
 
-*   **Ancient India (Indus Valley Civilization):** Harappans were skilled in crafts, using stone tools, bronze (copper + tin), bead making, and pottery. They had no knowledge of iron.
+*   **Ancient India ([[Indus Valley Civilization]]):** Harappans were skilled in crafts, using stone tools, bronze (copper + tin), bead making, and pottery. They had no knowledge of iron.
 *   **Mauryan Age:** Coins like 'Pana' (silver and copper) were in use, indicating organized economic activity.
-*   **Gupta Age:** Known as the "Golden Age of Ancient India" for unprecedented activities and development in art, architecture, sculpture, painting, and terracotta figurines. Brick temples were also built.
-*   **Delhi Sultanate:** Alauddin Khilji introduced market reforms, cash payments to soldiers, and the 'dagh' system (branding of horses). Firoz Shah Tughlaq focused on civil works and founded new cities. Sikandar Lodhi introduced 'Gaz-i-Sikandari' for land measurement.
-*   **Mughal Empire:** Akbar's 'Mansabdari' and 'Zabti' systems were crucial for administration and revenue. Sher Shah Suri built the Grand Trunk Road and introduced the silver 'Rupaya' and copper 'Dam'.
-*   **Arrival of Europeans:** European powers like the Portuguese (Estado da India, pepper and spice trade), Dutch, English, Danes, and French established trading settlements and gradually influenced local industries. The English East India Company established its first factory in Surat in 1608.
+*   **Gupta Age:** Known as the "Golden Age of Ancient India" for unprecedented activities and development in art, [[architecture]], sculpture, painting, and terracotta figurines. Brick temples were also built.
+*   **[[Delhi Sultanate]]:** [[Alauddin Khilji]] introduced market reforms, cash payments to soldiers, and the 'dagh' system (branding of horses). Firoz Shah Tughlaq focused on civil works and founded new cities. Sikandar Lodhi introduced 'Gaz-i-Sikandari' for land measurement.
+*   **[[Mughal Empire]]:** [[Akbar]]'s 'Mansabdari' and 'Zabti' systems were crucial for administration and revenue. Sher Shah Suri built the Grand Trunk Road and introduced the silver 'Rupaya' and copper 'Dam'.
+*   **Arrival of Europeans:** European powers like the Portuguese (Estado da India, pepper and spice trade), Dutch, English, Danes, and French established trading settlements and gradually influenced local [[industries]]. The English [[East India Company]] established its first factory in Surat in 1608.
 *   **British Colonial Rule:** This period saw the de-industrialization of India, with discriminatory tariff policies and heavy taxation leading to the destruction of traditional handicrafts. The British Industrial Revolution (textile, steam engine, powerloom, cotton gin) in England created a demand for raw materials from India and a market for British finished goods.
     *   **First Modern Cotton Textile Mill:** Established in Bombay in 1854 by Parsi entrepreneurs.
     *   **First Jute Mill:** Established in Rishra, West Bengal, in 1855.
     *   **First Paper Mill:** Established in Serampore, Bengal, in 1832 (failed), with a successful venture in Ballygunge in 1870.
     *   **First Woollen Textile Mill:** Established in Kanpur in 1876.
     *   **First Oilwell:** Dug in Digboi, Assam, in 1889.
-*   **Post-Independence:** India adopted a mixed economy model in 1948, with a focus on planned development through Five-Year Plans. The emphasis shifted from agriculture to heavy industries in the Second Five-Year Plan (Nehru-Mahalanobis Plan), leading to the establishment of major steel plants.
+*   **Post-Independence:** India adopted a mixed economy model in 1948, with a focus on planned development through Five-Year Plans. The emphasis shifted from [[agriculture]] to heavy [[industries]] in the Second Five-Year Plan (Nehru-Mahalanobis Plan), leading to the establishment of major steel plants.
 
 ---
 
@@ -98,26 +100,26 @@ India's industrial development has been guided by various policies aimed at achi
 ### Industrial Policy Resolution, 1948
 
 *   **Key Features:** Declared India as a "Mixed Economy," with both public and private sectors co-existing.
-*   **Classification of Industries:**
-    *   **Exclusive Government Monopoly:** Arms, ammunition, atomic energy, railway transport.
+*   **Classification of [[Industries]]:**
+    *   **Exclusive Government Monopoly:** Arms, ammunition, atomic [[energy]], railway transport.
     *   **Government Monopoly for New Units:** Coal, iron & steel, aircraft, shipbuilding, telephone, telegraph, wireless apparatus, mineral oils.
-    *   **Regulation:** Machine tools, chemicals, fertilizers, non-ferrous metals, rubber manufactures, cement, paper, newsprint, automobiles, electric engineering.
-    *   **Unregulated Private Enterprise:** All other industries.
+    *   **Regulation:** Machine tools, chemicals, [[fertilizers]], non-ferrous [[metals]], rubber manufactures, [[cement]], paper, newsprint, automobiles, electric engineering.
+    *   **Unregulated Private Enterprise:** All other [[industries]].
 
 ### Industrial Policy Resolution, 1956
 
-*   **Objective:** Accelerated industrialization, especially of heavy industries.
-*   **Classification of Industries:**
-    *   **Schedule A (17 industries):** Exclusive responsibility of the State (e.g., arms, atomic energy, iron & steel, heavy machinery, coal, mineral oils).
-    *   **Schedule B (12 industries):** Progressively State-owned, with private enterprises supplementing State efforts (e.g., aluminum, machine tools, fertilizers, road transport).
-    *   **Schedule C (Remaining industries):** Left open to the private sector.
+*   **Objective:** Accelerated industrialization, especially of heavy [[industries]].
+*   **Classification of [[Industries]]:**
+    *   **Schedule A (17 [[industries]]):** Exclusive responsibility of the State (e.g., arms, atomic [[energy]], iron & steel, heavy machinery, coal, mineral oils).
+    *   **Schedule B (12 [[industries]]):** Progressively State-owned, with private enterprises supplementing State efforts (e.g., aluminum, machine tools, [[fertilizers]], road transport).
+    *   **Schedule C (Remaining [[industries]]):** Left open to the private sector.
 
 ### New Industrial Policy, 1991
 
 *   **Context:** Launched as part of economic reforms (Liberalization, Privatization, Globalization - LPG).
 *   **Key Features:**
-    *   Abolished industrial licensing for most industries (except a short list).
-    *   Reduced the number of industries reserved for the public sector from 17 to 8 (and further to 3: atomic energy, railways, and defense equipment).
+    *   Abolished industrial licensing for most [[industries]] (except a short list).
+    *   Reduced the number of [[industries]] reserved for the public sector from 17 to 8 (and further to 3: atomic [[energy]], railways, and defense equipment).
     *   Allowed foreign direct investment (FDI) and foreign technology agreements.
     *   Disinvestment of public sector enterprises.
     *   Abolished the Monopolies and Restrictive Trade Practices (MRTP) Act.
@@ -129,24 +131,24 @@ India's industrial development has been guided by various policies aimed at achi
     *   **Focus Areas:** 25 key sectors, including defense manufacturing, automobiles, electronics, pharmaceuticals, etc.
     *   **Impact:** Aims to transform India into a global manufacturing hub.
 *   **Startup India (2016):**
-    *   **Objective:** To foster entrepreneurship and innovation by creating an ecosystem for startups.
+    *   **Objective:** To foster entrepreneurship and innovation by creating an [[ecosystem]] for startups.
     *   **Benefits:** Tax exemptions, easier compliance, funding support, intellectual property rights protection.
 *   **Digital India (2015):**
     *   **Objective:** To transform India into a digitally empowered society and knowledge economy.
     *   **Pillars:** Infrastructure as a utility, governance & services on demand, digital empowerment of citizens.
-    *   **Impact:** Drives digital infrastructure, e-governance, and digital literacy, which indirectly supports industries.
+    *   **Impact:** Drives digital infrastructure, e-governance, and digital literacy, which indirectly supports [[industries]].
 
 ---
 
 ## 3. Classification of Industries
 
-Industries can be classified based on various criteria:
+[[Industries]] can be classified based on various criteria:
 
 ### \\\mermaid
 graph TD
     A[Industrial Classification] --> B[Based on Raw Materials]
     B --> B1[Agro-based: Cotton, Sugar, Jute]
-    B --> B2[Mineral-based: Iron & Steel, Cement]
+    B --> B2[Mineral-based: Iron & Steel, [[Cement]]]
     B --> B3[Forest-based: Paper, Furniture]
     B --> B4[Marine-based: Fish processing]
 
@@ -162,7 +164,7 @@ graph TD
     D --> D4[Co-operative Sector: Sugar mills, Handloom]
 
     A --> E[Based on Sector (Economic Activity)]
-    E --> E1[Primary Sector: Agriculture, Mining, Fishing]
+    E --> E1[Primary Sector: [[Agriculture]], Mining, Fishing]
     E --> E2[Secondary Sector: Manufacturing, Construction]
     E --> E3[Tertiary Sector: Services (Transport, Banking)]
     E --> E4[Quaternary Sector: R&D, IT, Education]
@@ -171,28 +173,28 @@ graph TD
 
 ### Based on Raw Materials
 
-*   **Agro-based Industries:** Utilize agricultural products as raw materials (e.g., Cotton textile, Sugar, Jute textile).
-*   **Mineral-based Industries:** Use minerals as raw materials (e.g., Iron & Steel, Cement, Aluminum).
-*   **Forest-based Industries:** Depend on forest products (e.g., Paper, Furniture, Lac).
-*   **Marine-based Industries:** Utilize products from oceans and seas (e.g., Fish processing, Seafood).
+*   **Agro-based [[Industries]]:** Utilize agricultural products as raw materials (e.g., Cotton textile, Sugar, Jute textile).
+*   **Mineral-based [[Industries]]:** Use [[minerals]] as raw materials (e.g., Iron & Steel, [[Cement]], Aluminum).
+*   **Forest-based [[Industries]]:** Depend on forest products (e.g., Paper, Furniture, Lac).
+*   **Marine-based [[Industries]]:** Utilize products from oceans and seas (e.g., Fish processing, Seafood).
 
 ### Based on Size
 
-*   **Large Scale Industries:** Require huge capital investment, advanced technology, and large labor force (e.g., Iron & Steel, Automobile).
-*   **Small Scale Industries (SSI):** Smaller investment, less technology, local labor (e.g., handicrafts, pottery, small engineering units).
-*   **Cottage Industries:** Operated by artisans at home, often using traditional methods (e.g., handloom weaving, basket weaving).
+*   **Large Scale [[Industries]]:** Require huge capital investment, advanced technology, and large labor [[force]] (e.g., Iron & Steel, Automobile).
+*   **Small Scale [[Industries]] (SSI):** Smaller investment, less technology, local labor (e.g., handicrafts, pottery, small engineering units).
+*   **Cottage [[Industries]]:** Operated by artisans at home, often using traditional methods (e.g., handloom weaving, basket weaving).
 
 ### Based on Ownership
 
-*   **Public Sector:** Owned and operated by the government (e.g., Steel Authority of India Limited - SAIL, National Thermal Power Corporation - NTPC).
-*   **Private Sector:** Owned and operated by individuals or groups (e.g., Tata Iron and Steel Company - TISCO, Reliance Industries).
+*   **Public Sector:** Owned and operated by the government (e.g., Steel Authority of India Limited - SAIL, National Thermal [[Power]] Corporation - NTPC).
+*   **Private Sector:** Owned and operated by individuals or groups (e.g., Tata Iron and Steel Company - TISCO, Reliance [[Industries]]).
 *   **Joint Sector:** Jointly owned by the state and individuals/groups (e.g., Oil India Limited).
-*   **Co-operative Sector:** Owned and operated by producers or suppliers of raw materials, workers, or both (e.g., sugar mills, handloom industries).
+*   **Co-operative Sector:** Owned and operated by producers or suppliers of raw materials, workers, or both (e.g., sugar mills, handloom [[industries]]).
 
 ### Based on Sector (Economic Activity)
 
-*   **Primary Sector:** Directly related to the extraction or utilization of natural resources (e.g., Agriculture, Mining, Fishing, Quarrying).
-*   **Secondary Sector:** Utilizes primary sector products to manufacture finished goods (e.g., Manufacturing, Construction, Electricity, Gas, Water Supply).
+*   **Primary Sector:** Directly related to the extraction or utilization of natural [[resources]] (e.g., [[Agriculture]], Mining, Fishing, Quarrying).
+*   **Secondary Sector:** Utilizes primary sector products to manufacture finished goods (e.g., Manufacturing, Construction, [[Electricity]], Gas, Water Supply).
 *   **Tertiary Sector:** Provides services rather than goods (e.g., Transport, Banking, Insurance, Real Estate, Education, Healthcare).
 *   **Quaternary Sector:** Involves intellectual and knowledge-based activities (e.g., Research & Development, Information Technology, Consulting).
 *   **Quinary Sector:** Highest level of decision-making (e.g., Top executives, government officials, scientists).
@@ -212,11 +214,11 @@ graph TD
     *   **Bokaro Steel Plant (Jharkhand):** With Soviet Union assistance.
 *   **Other Major Plants:** Salem Steel Plant (Tamil Nadu), IISCO Steel Plant (West Bengal), Visakhapatnam Steel Plant (Andhra Pradesh), Vijaynagar Steel Plant (Karnataka).
 *   **Implementing Agency:** Steel Authority of India Limited (SAIL), established in 1974, manages most public sector steel plants.
-*   **Current Status:** India is the 5th largest steel-producing country in the world.
+*   **[[Current]] Status:** India is the 5th largest steel-producing country in the world.
 
 ### Textile Industry
 
-The textile industry is one of the oldest and largest industries in India, employing a significant workforce and contributing substantially to exports.
+The textile industry is one of the oldest and largest [[industries]] in India, employing a significant workforce and contributing substantially to exports.
 
 #### Cotton Textile Industry
 
@@ -229,7 +231,7 @@ The textile industry is one of the oldest and largest industries in India, emplo
 
 *   **Historical Context:** First modern jute mill in Rishra, West Bengal, in 1855.
 *   **Distribution:** Primarily concentrated in West Bengal (Hooghly River Basin), also in Bihar, Uttar Pradesh, Andhra Pradesh, Assam, Odisha, Chhattisgarh.
-*   **Current Status:** India is the largest producer of raw jute and the second-largest exporter of jute goods globally.
+*   **[[Current]] Status:** India is the largest producer of raw jute and the second-largest exporter of jute goods globally.
 
 #### Silk Textile Industry
 
@@ -260,7 +262,7 @@ The textile industry is one of the oldest and largest industries in India, emplo
 *   **Key Organizations:** Oil and Natural Gas Commission (ONGC) established in 1956 for exploration.
 *   **Major Oil Fields:** Digboi (Assam), Bombay High (Arabian Sea), Mangala, Aishwarya, Bhagyam (Rajasthan).
 *   **Refineries:** Digboi (Assam), Mumbai, Koyali (Gujarat), Mathura (UP), Panipat (Haryana), Haldia (WB), Visakhapatnam (AP).
-*   **Current Status:** India is a major consumer and importer of crude oil.
+*   **[[Current]] Status:** India is a major consumer and importer of crude oil.
 
 ### Automobile Industry
 
@@ -282,11 +284,11 @@ The textile industry is one of the oldest and largest industries in India, emplo
 
 ### Other Key Industries
 
-*   **Cement Industry:** Production started in 1904 (Madras), stable industry from 1914 (Porbander). India is a major producer and exporter.
+*   **[[Cement]] Industry:** Production started in 1904 (Madras), stable industry from 1914 (Porbander). India is a major producer and exporter.
 *   **Fertilizer Industry:** Fertilizer Corporation of India (FCI) established in 1961. Major centers: Sindri, Nangal, Trombay, Gorakhpur.
 *   **Machine Tools & Heavy Electricals:** Hyderabad, Bengaluru, Pinjore, Bhopal, Tiruchirapalli.
 *   **Photo Films:** Hindustan Photo Films Manufacturing Company (Udagamandalam).
-*   **Glass Industry:** Uttar Pradesh (Firozabad), Maharashtra (Mumbai), Tamil Nadu.
+*   **[[Glass]] Industry:** Uttar Pradesh (Firozabad), Maharashtra (Mumbai), Tamil Nadu.
 
 ---
 
@@ -301,7 +303,7 @@ Industrial corridors are economic arteries that connect major economic hubs, fac
 *   **Improve Logistics:** Enhance connectivity through multi-modal transport.
 *   **Attract Investments:** Create an investor-friendly environment.
 *   **Generate Employment:** Create large-scale job opportunities.
-*   **Promote Urbanization:** Develop smart cities and industrial townships.
+*   **Promote [[Urbanization]]:** Develop smart cities and industrial townships.
 *   **Reduce Regional Imbalances:** Spread industrial development across regions.
 
 ### Key Industrial Corridors
@@ -311,7 +313,7 @@ Industrial corridors are economic arteries that connect major economic hubs, fac
 *   **Route:** Extends approximately 1,500 km between Delhi and Mumbai.
 *   **States Covered:** Uttar Pradesh, Haryana, Rajasthan, Madhya Pradesh, Gujarat, Maharashtra.
 *   **Key Nodes/Regions:** Dadri (UP), Manesar-Bawal (Haryana), Khushkhera-Bhiwadi-Neemrana (Rajasthan), Pithampur-Dhar-Mhow (MP), Ahmedabad-Dholera (Gujarat), Shendra-Bidkin (Maharashtra).
-*   **Focus:** High-tech industries, manufacturing, logistics, smart cities.
+*   **Focus:** High-tech [[industries]], manufacturing, logistics, smart cities.
 *   **Funding:** Supported by Japan International Cooperation Agency (JICA).
 
 #### 2. Amritsar Kolkata Industrial Corridor (AKIC)
@@ -348,7 +350,7 @@ Industrial corridors are economic arteries that connect major economic hubs, fac
 #### 6. Other Planned Corridors
 
 *   **Hyderabad Nagpur Industrial Corridor (HNIC):** Connects Hyderabad and Nagpur.
-*   **Odisha Economic Corridor (OEC):** Focus on mineral-based industries.
+*   **Odisha Economic Corridor (OEC):** Focus on mineral-based [[industries]].
 *   **Delhi-Nagpur Industrial Corridor (DNIC):** Planned to connect the capital with central India.
 
 ### Implementing Agencies
@@ -358,7 +360,7 @@ Industrial corridors are economic arteries that connect major economic hubs, fac
 ### Significance of Industrial Corridors
 
 *   **Economic Growth:** Catalyze manufacturing growth and GDP.
-*   **Infrastructure Development:** Create world-class infrastructure (roads, railways, ports, power).
+*   **Infrastructure Development:** Create world-class infrastructure (roads, railways, ports, [[power]]).
 *   **Global Competitiveness:** Enhance India's position as a manufacturing and export hub.
 *   **Regional Development:** Promote balanced regional development and reduce disparities.
 *   **Job Creation:** Generate massive employment opportunities.
@@ -370,7 +372,7 @@ graph TD
     B --> B2[Improve Logistics & Connectivity]
     B --> B3[Attract Investments (FDI)]
     B --> B4[Generate Employment]
-    B --> B5[Promote Urbanization & Smart Cities]
+    B --> B5[Promote [[Urbanization]] & Smart Cities]
     B --> B6[Reduce Regional Imbalances]
 
     A --> C[Key Corridors]
@@ -420,7 +422,7 @@ graph TD
 
 ### Challenges
 
-*   **Infrastructure Gaps:** Despite improvements, gaps in transport, energy, and logistics persist.
+*   **Infrastructure Gaps:** Despite improvements, gaps in transport, [[energy]], and logistics persist.
 *   **Land Acquisition:** A major hurdle for new industrial projects.
 *   **Environmental Concerns:** Balancing industrial growth with ecological sustainability.
 *   **Skilled Labor Shortage:** Mismatch between industry demands and available skills.
@@ -461,7 +463,7 @@ India aims to become a global manufacturing powerhouse and a $5 trillion economy
 ### PYQ Analysis (Based on provided text and general knowledge)
 
 *   **Frequently Tested Concepts:**
-    *   First industries/plants in India (cotton, jute, steel, oil).
+    *   First [[industries]]/plants in India (cotton, jute, steel, oil).
     *   Locations of major industrial centers and plants.
     *   Key industrial policies and their features (e.g., 1991 policy, Make in India).
     *   Classification of economic sectors (primary, secondary, tertiary).
@@ -471,10 +473,10 @@ India aims to become a global manufacturing powerhouse and a $5 trillion economy
 ### Sample PYQs & Expected Questions
 
 1.  **Which one of the following statements is NOT correct about the Industrial Policy Resolution, 1956?**
-    (a) It classified industries into three schedules.
-    (b) It reserved 17 industries for the public sector.
-    (c) It allowed private enterprises to supplement State efforts in Schedule B industries.
-    (d) It completely abolished industrial licensing for all industries.
+    (a) It classified [[industries]] into three [[schedules]].
+    (b) It reserved 17 [[industries]] for the public sector.
+    (c) It allowed private enterprises to supplement State efforts in Schedule B [[industries]].
+    (d) It completely abolished industrial licensing for all [[industries]].
     > **Answer:** (d)
     > **Explanation:** The 1956 policy did not completely abolish industrial licensing; that was a feature of the 1991 policy.
 
@@ -515,8 +517,8 @@ India aims to become a global manufacturing powerhouse and a $5 trillion economy
 ---
 **Revision Notes:**
 
-*   **Industrial Policies:** 1948 (Mixed Economy), 1956 (Heavy Industries, 3 Schedules), 1991 (LPG, De-licensing, Reduced Public Sector).
-*   **Key Industries:**
+*   **Industrial Policies:** 1948 (Mixed Economy), 1956 (Heavy [[Industries]], 3 [[Schedules]]), 1991 (LPG, De-licensing, Reduced Public Sector).
+*   **Key [[Industries]]:**
     *   **Iron & Steel:** Kulti (1870), TISCO (1907), Bhilai (USSR), Rourkela (Germany), Durgapur (UK). India 5th largest producer.
     *   **Textiles:** Cotton (Mumbai, Ahmedabad), Jute (WB, India largest raw jute producer), Silk (Karnataka, 4 varieties), Woollen (Kanpur).
     *   **Oil & Gas:** Digboi (1889), ONGC (1956), Bombay High.

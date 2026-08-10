@@ -5,6 +5,10 @@ module.exports = async function (req, res) {
 
   try {
     const body = req.body || {};
+    if (body.generationConfig && body.generationConfig.response_mime_type) {
+      body.generationConfig.responseMimeType = body.generationConfig.response_mime_type;
+      delete body.generationConfig.response_mime_type;
+    }
     
     // Parse Gemini request format
     let promptText = "";
@@ -12,6 +16,7 @@ module.exports = async function (req, res) {
     const messages = [];
 
     if (body.systemInstruction && body.systemInstruction.parts && body.systemInstruction.parts[0] && body.systemInstruction.parts[0].text) {
+
         systemInstructionText = body.systemInstruction.parts[0].text;
         messages.push({ role: 'system', content: systemInstructionText });
     }
@@ -99,7 +104,16 @@ module.exports = async function (req, res) {
         ]
     };
     
-    res.status(200).json(fakeGeminiResponse);
+    if (body.stream === true) {
+        res.setHeader('Content-Type', 'text/event-stream');
+        res.setHeader('Cache-Control', 'no-cache');
+        res.setHeader('Connection', 'keep-alive');
+        res.write(`data: ${JSON.stringify(fakeGeminiResponse)}\n\n`);
+        res.write(`data: [DONE]\n\n`);
+        res.end();
+    } else {
+        res.status(200).json(fakeGeminiResponse);
+    }
   } catch (error) {
     console.error("[Vercel Proxy] Internal Error:", error);
     // Fallback response if offline or errored
