@@ -10,6 +10,18 @@
 // The Monthly Feed in the app automatically shows only months within the
 // current cycle — no manual filtering needed. After each exam, the UI
 // self-refreshes to the next cycle on the following month.
+// =============================================================================
+// CURRENT AFFAIRS DATA — SINGLE SOURCE OF TRUTH
+// =============================================================================
+// HOW TO UPDATE THIS FILE:
+//
+// EXAM CYCLE STRUCTURE:
+//   Cycle 1: April → September  (covers NDA I, CDS I, AFCAT I exams)
+//   Cycle 2: October → March    (covers NDA II, CDS II, AFCAT II exams)
+//
+// The Monthly Feed in the app automatically shows only months within the
+// current cycle — no manual filtering needed. After each exam, the UI
+// self-refreshes to the next cycle on the following month.
 //
 // AFTER EACH CDS / NDA / AFCAT EXAM:
 //   1. Update CA_META.examCycle to the next upcoming exam (e.g., "NDA I 2027")
@@ -17,20 +29,14 @@
 //   3. Clear CA_VISITS_DATA and re-populate with visits from the NEW cycle only
 //   4. Keep CA_FTA_DATA — add new FTAs, mark status changes; old ones stay
 //   5. Keep CA_DATES_DATA — only update `theme` fields each year
-//
-// WHEN AI GETS NEW INFO:
-//   - Simply replace the relevant object in the array below
-//   - Old entry out, new entry in — renderers pick up changes automatically
-//
-// STRUCTURE: Each section is a separate exported array/object
 // =============================================================================
 
 window.CA_META = {
-  examCycle: "CDS II 2026",        // UPDATE AFTER EACH EXAM
-  lastRefreshed: "July 2026",      // UPDATE AFTER EACH REFRESH
-  coverageFrom: "April 2026",      // Start of current cycle (Apr–Sep cycle)
-  coverageTo: "September 2026",    // End of current cycle
-  cycleNote: "Exam Cycle: Apr 2026 — Sep 2026 | Covers NDA I, CDS I, AFCAT I 2026",
+  examCycle: "CDS II 2026 & AFCAT 1 2027",
+  lastRefreshed: "August 2026",
+  coverageFrom: "August 2026",
+  coverageTo: "January 2027",
+  cycleNote: "Exam Cycle: Aug 2026 — Jan 2027 | Covers CDS/NDA 2 2026 and AFCAT 1 2027",
 };
 
 // =============================================================================
@@ -38,6 +44,24 @@ window.CA_META = {
 // UPDATE: Clear and re-populate after each CDS exam cycle
 // =============================================================================
 window.CA_VISITS_DATA = [
+  {
+    visit: "Agni-4 Ballistic Missile Test",
+    period: "September 2026",
+    purpose: "India successfully test-fired the Agni-4 Intermediate-Range Ballistic Missile (IRBM) from APJ Abdul Kalam Island, Odisha.",
+    deals: "The successful test reaffirms India's credible minimum deterrence capability. Agni-4 is a nuclear-capable missile with a range of around 4,000 km, strengthening India's strategic strike capabilities and reinforcing national defence.",
+  },
+  {
+    visit: "MALABAR Naval Exercise 2026",
+    period: "August 2026",
+    purpose: "Quad nations (India, US, Japan, Australia) conducted the MALABAR 2026 maritime exercise in the Indian Ocean Region.",
+    deals: "Focused on advanced anti-submarine warfare (ASW), surface warfare, and maritime interdiction operations. The exercise significantly boosts interoperability among the Quad navies, acting as a strategic deterrent and ensuring a free, open, and inclusive Indo-Pacific.",
+  },
+  {
+    visit: "Joint Military Exercise KAZIND-2026",
+    period: "August 2026",
+    purpose: "8th Edition of joint military exercise KAZIND between India and Kazakhstan, focusing on counter-terrorism operations under UN mandate.",
+    deals: "Troops practiced sub-conventional operations, raid drills, and sniper training in semi-urban and mountainous terrain. The exercise deepened bilateral military ties and shared best practices in tactical operations, enhancing regional security.",
+  },
   {
     visit: "India and France joint maritime exercise 'Varuna'",
     period: "June 2026",

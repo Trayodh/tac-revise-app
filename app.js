@@ -2,12 +2,7 @@
 
 // Dependencies: data.js (which contains NOTES_DATABASE, window.CURRENT_AFFAIRS_DB, etc.)
 
-window.parseWikiLinks = function(text) {
-  if (!text) return text;
-  return text.replace(/\[\[(.*?)\]\]/g, (match, p1) => {
-    return `<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(p1.trim().replace(/ /g, '_'))}" target="_blank" class="wiki-link">${p1}</a>`;
-  });
-};
+
 
 // ==========================================
 
@@ -2455,12 +2450,13 @@ function renderTopicView(subjectId, chapterId, topicId) {
               const bodyMatch = expandedHtml.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
 
               const bodyContent = bodyMatch ? bodyMatch[1] : expandedHtml;
-
-              return `<div class="expanded-notes-content">${bodyContent}</div>`;
+              return `<div class="expanded-notes-content">${parseWikiLinks(bodyContent)}</div>`;
 
             }
 
-            return parseWikiLinks(topic.notes || '');
+            const rawNotes = topic.notes || '';
+            const parsedNotes = typeof marked !== 'undefined' ? marked.parse(rawNotes) : rawNotes;
+            return `<div class="expanded-notes-content">${parseWikiLinks(parsedNotes)}</div>`;
 
           })()}
           </div>
@@ -2837,7 +2833,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
             if(typeof marked !== 'undefined') {
 
-               injPoint.innerHTML = marked.parse(mdText);
+               injPoint.innerHTML = typeof window.parseWikiLinks === 'function' ? window.parseWikiLinks(mdText) : marked.parse(mdText);
 
                if(typeof window.MathJax !== 'undefined' && window.MathJax.typesetPromise) {
 
@@ -2864,6 +2860,32 @@ function renderTopicView(subjectId, chapterId, topicId) {
   if (isLocalhost && activeNotesTab === 'notes' && topic.type !== 'intelligence') {
 
     const mdUrl = `evolved_notes/${subjectId}/${topic.id}.md`;
+
+    
+
+    // Inject subject images dynamically based on mapping
+
+    window.currentMapsHtml = '';
+
+    if (window.SUBJECT_IMAGES && window.SUBJECT_IMAGES[subjectId]) {
+
+       const imgs = window.SUBJECT_IMAGES[subjectId];
+
+       // Only show up to 3 images to avoid massive walls of images, 
+
+       // randomly picked or just the first few
+
+       const displayImgs = imgs.slice(0, 3);
+
+       window.currentMapsHtml = `<div style="display: flex; gap: 10px; overflow-x: auto; margin-bottom: 20px; padding-bottom: 10px;">` + 
+
+         displayImgs.map(src => `<img src="${src}" style="max-height: 250px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">`).join('') +
+
+         `</div>`;
+
+    }
+
+      
 
     fetch(mdUrl, { method: 'HEAD' })
 
@@ -3119,11 +3141,11 @@ const CA_CYCLES_CONFIG = {
 
     label: "AFCAT",
 
-    months: ["February", "March", "April", "May", "June", "July", "August"],
+    months: ["August", "September", "October", "November", "December", "January", "February"],
 
-    shortLabel: "FEB '26\n-\nAUG '26",
+    shortLabel: "AUG '26\n-\nFEB '27",
 
-    examDate: new Date("2026-08-08T00:00:00")
+    examDate: new Date("2027-02-20T00:00:00")
 
   },
 
@@ -8428,7 +8450,7 @@ function initCountdownTimer() {
 
   const exams = {
 
-    afcat: { name: "AFCAT 2 2026", date: new Date("2026-08-08T10:00:00").getTime() },
+    afcat: { name: "AFCAT 1 2027", date: new Date("2027-02-20T10:00:00").getTime() },
 
     nda: { name: "NDA 2 2026", date: new Date("2026-09-13T10:00:00").getTime() },
 
@@ -8546,7 +8568,7 @@ function initCountdownTimer() {
 
       color = "#38bdf8"; // sky blue
 
-      name = "AFCAT 2 2026";
+      name = "AFCAT 1 2027";
 
     } else if (val === "cds") {
 
@@ -8789,6 +8811,20 @@ function initCountdownTimer() {
     const distance = targetExam.date - now;
 
 
+
+    if (targetKey === "afcat") {
+      display.innerText = "00d : 00h : 00m : 00s";
+      display.style.color = "var(--text-muted)";
+      
+      const defconCard = document.getElementById('defcon-card');
+      if (defconCard) {
+        document.getElementById('defcon-level').textContent = 'DEFCON 1';
+        document.getElementById('defcon-exam-name').textContent = 'AFCAT 1 2027';
+        document.getElementById('defcon-subtitle').textContent = 'DATE NOT OUT';
+        defconCard.className = 'metric-card defcon-state-1';
+      }
+      return;
+    }
 
     if (distance < 0) {
 
@@ -16431,13 +16467,8 @@ function initDefconWidget() {
 
 
   const exams = [
-
-    { name: "AFCAT II 2026", date: new Date("2026-08-08T10:00:00").getTime() },
-
     { name: "NDA II 2026", date: new Date("2026-09-13T10:00:00").getTime() },
-
     { name: "CDS II 2026", date: new Date("2026-09-13T09:00:00").getTime() }
-
   ];
 
 
@@ -16486,18 +16517,11 @@ function initDefconWidget() {
 
     const daysRemaining = minDiff / (1000 * 60 * 60 * 24);
 
-    
-
-    if (daysRemaining <= 30) {
-
-      setDefconState(3, nearestExam.name, "HIGH READINESS");
-
+    if (daysRemaining <= 45) {
+      setDefconState(3, nearestExam.name, "HIGH READINESS (DEFCON 3)");
     } else {
-
       setDefconState(2, nearestExam.name, "APPLICATION PHASE");
-
     }
-
   }
 
   
@@ -16541,6 +16565,108 @@ document.addEventListener('DOMContentLoaded', initDefconWidget);
 // SHARE APP WIDGET LOGIC
 
 // ==========================================
+
+window.SUBJECT_IMAGES = {
+  "reasoning": [
+    "images/afcat_dot_situation.png",
+    "images/afcat_embedded_figures.png",
+    "images/afcat_venn_diagram.png",
+    "images/reasoning_verbal_nonverbal.png"
+  ],
+  "maths": [
+    "images/algebra_quadratic_complex.png",
+    "images/arithmetic_percentages.png",
+    "images/calculus_limits_derivatives.png",
+    "images/coordinate_geometry.png",
+    "images/statistics_probability.png",
+    "images/trigonometry_unit_circle.png"
+  ],
+  "biology": [
+    "images/animal_plant_kingdoms.png",
+    "images/cell_diagram.png",
+    "images/cell_division_mitosis.png",
+    "images/chromosome_structure.png",
+    "images/flower_parts_diagram.png",
+    "images/human_body_systems.png",
+    "images/human_circulatory_heart.png",
+    "images/human_digestive_system.png",
+    "images/human_eye_prism_diagram.png",
+    "images/human_nervous_system.png",
+    "images/photosynthesis_respiration_diagram.png"
+  ],
+  "geography": [
+    "images/atmospheric-circulation.jpg",
+    "images/clouds_diagram.png",
+    "images/earth-atmosphere.jpg",
+    "images/earth-interior.jpg",
+    "images/geo_atmosphere.png",
+    "images/geo_earth_interior.png",
+    "images/geo_india_national_parks.png",
+    "images/geo_india_rainfall.png",
+    "images/geo_india_rivers.png",
+    "images/geo_india_soils.png",
+    "images/geo_india_vegetation.png",
+    "images/glacial-landforms.jpg",
+    "images/india_dams_map.png",
+    "images/india_dams_rivers_detailed.png",
+    "images/india_highways_map.png",
+    "images/india_latlong_map.png",
+    "images/india_monsoon_patterns.png",
+    "images/india_mountains_map.png",
+    "images/india_parks_map.png",
+    "images/india_plateaus_passes_map.png",
+    "images/india_resources_map.png",
+    "images/india_rivers_map.png",
+    "images/india_soils_map.png",
+    "images/india_transport_map.png",
+    "images/landforms_diagram.png",
+    "images/mountains-formation.jpg",
+    "images/types-of-rainfall.jpg",
+    "images/volcanic-systems.jpg",
+    "images/world_climatic_zones_map.png",
+    "images/world_ocean_currents_map.png",
+    "images/world_tectonics_map.png"
+  ],
+  "chemistry": [
+    "images/atomic_structure_periodic_table.png",
+    "images/chemical_bonding_reactions.png",
+    "images/chemistry_reactions_everyday.png"
+  ],
+  "current_affairs": [
+    "images/current_affairs_india.png",
+    "images/current_affairs_world.png",
+    "images/defence_organisations_weapons.png",
+    "images/space_technology_defence.png"
+  ],
+  "general": [
+    "images/economics_market_gdp_diagram.png",
+    "images/environment_laws_treaties.png"
+  ],
+  "physics": [
+    "images/em_waves_chart.png",
+    "images/mirrors_lens_ray_diagrams.png",
+    "images/newtons_laws_mechanics_diagram.png",
+    "images/physics_circuit_diagram.png",
+    "images/physics_ray_diagram.png",
+    "images/thermodynamics_heat_diagram.png"
+  ],
+  "english": [
+    "images/english_grammar_chart.png",
+    "images/english_sentence_skills.png",
+    "images/english_vocabulary_chart.png"
+  ],
+  "history": [
+    "images/freedom_movement_timeline.png",
+    "images/harappan_civilization_map.png",
+    "images/history_1857_revolt_map.png",
+    "images/history_mauryan_gupta_map.png",
+    "images/mughal_empire_map.png"
+  ],
+  "polity": [
+    "images/indian_constitution_structure.png",
+    "images/polity_elections_constitution.png"
+  ]
+};
 
 document.addEventListener('DOMContentLoaded', () => {
 

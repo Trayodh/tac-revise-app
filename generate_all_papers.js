@@ -160,7 +160,7 @@ function generatePaper(quotaObj, configName, existingQuestions = []) {
 
 // ─── Load existing DB ─────────────────────────────────────────────────────────
 
-const code = fs.readFileSync('data.js', 'utf8') + '\nmodule.exports = { CBT_EXAMS_DATABASE, NOTES_DATABASE, CURRENT_AFFAIRS_DB };';
+const code = fs.readFileSync('data.js', 'utf8') + '\nif (typeof CURRENT_AFFAIRS_DB === "undefined") { var CURRENT_AFFAIRS_DB = {}; }\nmodule.exports = { CBT_EXAMS_DATABASE, NOTES_DATABASE, CURRENT_AFFAIRS_DB };';
 const m = new module.constructor();
 m._compile(code, 'data.js');
 const db    = m.exports.CBT_EXAMS_DATABASE;

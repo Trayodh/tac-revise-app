@@ -1,0 +1,30 @@
+{
+  "topic_name": "string",
+  "subject": "string",
+  "chapter": "string",
+  "exam_tags": ["NDA", "CDS", "AFCAT"],
+  "metadata": {
+    "tags": ["string"],
+    "tables_count": "number",
+    "last_updated": "timestamp"
+  },
+  "content": {
+    "1_INTRODUCTION": "markdown string",
+    "2_FUNDAMENTAL_CONCEPTS": "markdown string",
+    "3_CORE_KNOWLEDGE": "markdown string",
+    "4_DETAILED_EXPLANATION": "markdown string",
+    "5_IMPORTANT_FACTS": "markdown string",
+    "6_CLASSIFICATIONS": "markdown string",
+    "7_CAUSE_MECHANISM_EFFECT": "markdown string",
+    "8_COMPARISONS": "markdown string",
+    "9_EXCEPTIONS": "markdown string",
+    "10_EXAMPLES": "markdown string",
+    "11_MAPS_DIAGRAMS_FLOWCHARTS": "markdown string",
+    "12_ADVANCED_KNOWLEDGE": "markdown string",
+    "13_DEEP_DIVE_KNOWLEDGE": "markdown string",
+    "14_CURRENT_DYNAMIC_INFORMATION": "markdown string",
+    "15_EXAM_TRAPS": "markdown string",
+    "16_PYQ_RELEVANT_INSIGHTS": "markdown string",
+    "17_QUICK_REVISION": "markdown string"
+  }
+}

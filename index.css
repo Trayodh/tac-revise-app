@@ -888,6 +888,10 @@ h2 {
   color: var(--text-secondary);
   font-size: 0.9rem;
   line-height: 1.7;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
 }
 
 .expanded-notes-content h2 {

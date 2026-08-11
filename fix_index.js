@@ -11,20 +11,20 @@ let txt = fs.readFileSync('index.html', 'utf8');
 const replacements = {
   'â‰¡Æ’Ã´Ã‰': '🧮', // Ballistics & Applied Mathematics
   'â‰¡Æ’Ã´Ãœ': '🗣️', // Officer Communication
-  'â‰¡Æ’Ã…Â¢âˆ©â••Ã…': '⚖️', // Constitution & National Security
-  'â‰¡Æ’Ã´Â£': '📜', // Military History
+  'â‰¡Æ’Ã…¢âˆ©â••Ã…': '⚖️', // Constitution & National Security
+  'â‰¡Æ’Ã´£': '📜', // Military History
   'â‰¡Æ’Ã®Ã¬': '🌍', // Strategic Geography
   'â‰¡Æ’Ã´Ãª': '📈', // Defence Economics
-  'Î“ÃœÂ¢âˆ©â••Ã…': '⚛️', // Defence Physics
-  'â‰¡Æ’ÂºÂ¬': '🧪', // Military Chemistry
-  'â‰¡Æ’ÂºÂ¼': '🧬', // Battlefield Science
+  'Î“Ãœ¢âˆ©â••Ã…': '⚛️', // Defence Physics
+  'â‰¡Æ’º¬': '🧪', // Military Chemistry
+  'â‰¡Æ’º¼': '🧬', // Battlefield Science
   
   'â‰¡Æ’Ã±Ã»': '🤖', // Tactical AI Chat
-  'â‰¡Æ’Ã„Â¼': '📽️', // AI Lectures
+  'â‰¡Æ’Ã„¼': '📽️', // AI Lectures
   
   'Î“Ã‡Ã³Î“Ã‡Ã³Î“Ã‡Ã³Î“Ã‡Ã³Î“Ã‡Ã³Î“Ã‡Ã³Î“Ã‡Ã³Î“Ã‡Ã³': '••••••••', // Password dots
   'Î“Ã©â•£ 99 / Forever': '₹ 99 / Forever', // Rupee symbol
-  'Î“Â£Â¿ Tell Me More': '🔍 Tell Me More',
+  'Î“£¿ Tell Me More': '🔍 Tell Me More',
   
   // Try to use a regex for any other corrupted emojis? 
   // It's safer to just let the script do a generic double-decode on text inside HTML tags if possible.
