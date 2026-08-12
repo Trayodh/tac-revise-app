@@ -93,7 +93,7 @@ function copyDirRecursiveSync(src, dest) {
   }
 }
 
-const dirsToCopy = ['images', 'math_notes', 'gs_notes', 'manim_lectures', 'js', 'assets'];
+const dirsToCopy = ['images', 'math_notes', 'gs_notes', 'manim_lectures', 'js', 'assets', 'evolved_notes'];
 dirsToCopy.forEach(dir => {
   const sDir = path.join(srcDir, dir);
   const dDir = path.join(destDir, dir);

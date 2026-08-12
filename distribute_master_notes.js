@@ -29,9 +29,10 @@ async function distributeNotes() {
         for (const topic of Object.keys(topics)) {
             const safeTopicId = topic.toLowerCase().replace(/[^a-z0-9]/g, '_');
             const markdownContent = topics[topic].content;
-            
-            fs.writeFileSync(path.join(chapDir, `${safeTopicId}.md`), markdownContent);
-            written++;
+            if (markdownContent && !markdownContent.includes('Failed to generate')) {
+                fs.writeFileSync(path.join(chapDir, `${safeTopicId}.md`), markdownContent);
+                written++;
+            }
         }
     }
     }

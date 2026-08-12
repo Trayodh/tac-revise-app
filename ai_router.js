@@ -113,11 +113,11 @@ class AIRouter {
                         console.log("[Router] Routing to Groq (Routine Processing)");
                         return await fetchGroq(prompt);
                     case TASK_TYPES.CONTENT:
-                        console.log("[Router] Routing to Cerebras (Content Generation)");
-                        return await fetchCerebras(prompt);
+                        console.log("[Router] Routing to Gemini (Content Generation)");
+                        return await fetchGemini(prompt);
                     case TASK_TYPES.COMPLEX:
-                        console.log("[Router] Routing to Groq (Complex Reasoning/Research - Fallback from Gemini)");
-                        return await fetchGroq(prompt);
+                        console.log("[Router] Routing to Gemini (Complex Reasoning/Review)");
+                        return await fetchGemini(prompt);
                     case TASK_TYPES.VISION:
                         console.log("[Router] Routing to API4AI (Vision/OCR)");
                         let ocrText = await fetchApi4Ai(imagePath);
