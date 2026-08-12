@@ -1,4 +1,4 @@
-window.EXPANDED_NOTES_DATA = String.rawwindow.EXPANDED_NOTES_DATA || {};
+window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
 window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
 <h1>Ratio and Proportion: High-Yield Topic Module</h1>
