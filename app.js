@@ -2808,9 +2808,11 @@ function renderTopicView(subjectId, chapterId, topicId) {
        const contentContainer = document.getElementById('topic-tab-body-container');
 
        if (contentContainer) {
-
-         SmartConceptExplorer.bindContent(contentContainer);
-
+         if (typeof SmartConceptExplorer.attachListeners === 'function') {
+           SmartConceptExplorer.attachListeners(contentContainer);
+         } else if (typeof SmartConceptExplorer.bindContent === 'function') {
+           SmartConceptExplorer.bindContent(contentContainer);
+         }
        }
 
     }, 200);
@@ -2887,31 +2889,23 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
       
 
-    fetch(mdUrl, { method: 'HEAD' })
-
-      .then(res => { if (res.ok) return fetch(mdUrl).then(r => r.text()); return null; })
-
-      .then(mdContent => {
-
-        if (mdContent) {
-
-          const notesContainer = document.getElementById('dynamic-notes-container');
-
-          if (notesContainer && window.marked) {
-
-            const html = typeof parseWikiLinks === 'function' ? parseWikiLinks(mdContent) : marked.parse(mdContent);
-
-            notesContainer.innerHTML = (window.currentMapsHtml || '') + html;
-
-            if (window.mermaid) mermaid.init(undefined, document.querySelectorAll('.mermaid'));
-
+    const hasExpandedNotes = (typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]);
+    
+    if (!hasExpandedNotes) {
+      fetch(mdUrl, { method: 'HEAD' })
+        .then(res => { if (res.ok) return fetch(mdUrl).then(r => r.text()); return null; })
+        .then(mdContent => {
+          if (mdContent) {
+            const notesContainer = document.getElementById('dynamic-notes-container');
+            if (notesContainer && window.marked) {
+              const html = typeof parseWikiLinks === 'function' ? parseWikiLinks(mdContent) : marked.parse(mdContent);
+              notesContainer.innerHTML = (window.currentMapsHtml || '') + html;
+              if (window.mermaid) mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+            }
           }
-
-        }
-
-      })
-
-      .catch(e => console.log('No evolved notes found or error fetching:', e));
+        })
+        .catch(e => console.log('No evolved notes found or error fetching:', e));
+    }
 
   }
 
