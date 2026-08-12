@@ -2455,23 +2455,15 @@ function renderTopicView(subjectId, chapterId, topicId) {
             }
 
             let rawNotes = topic.notes || '';
-            if (rawNotes) {
-              const lines = rawNotes.split('\n');
-              let minIndent = Infinity;
-              for (const line of lines) {
-                if (line.trim().length > 0) {
-                  const match = line.match(/^(\s*)/);
-                  if (match && match[1].length < minIndent) {
-                    minIndent = match[1].length;
-                  }
-                }
-              }
-              if (minIndent !== Infinity && minIndent > 0) {
-                const regex = new RegExp('^' + ' '.repeat(minIndent), 'gm');
-                rawNotes = rawNotes.replace(regex, '');
-              }
+            // If the notes already contain HTML tags, inject directly — do NOT run through marked.parse
+            // because marked treats indented HTML as a <pre><code> block.
+            const isHtmlNotes = rawNotes.trim().startsWith('<') || /<(h[1-6]|ul|ol|li|p|div|table|section)\b/.test(rawNotes);
+            let parsedNotes;
+            if (isHtmlNotes) {
+              parsedNotes = rawNotes;
+            } else {
+              parsedNotes = typeof marked !== 'undefined' ? marked.parse(rawNotes) : rawNotes;
             }
-            const parsedNotes = typeof marked !== 'undefined' ? marked.parse(rawNotes) : rawNotes;
             return `<div class="expanded-notes-content">${parseWikiLinks(parsedNotes)}</div>`;
 
           })()}
