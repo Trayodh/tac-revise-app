@@ -2454,7 +2454,23 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
             }
 
-            const rawNotes = topic.notes || '';
+            let rawNotes = topic.notes || '';
+            if (rawNotes) {
+              const lines = rawNotes.split('\n');
+              let minIndent = Infinity;
+              for (const line of lines) {
+                if (line.trim().length > 0) {
+                  const match = line.match(/^(\s*)/);
+                  if (match && match[1].length < minIndent) {
+                    minIndent = match[1].length;
+                  }
+                }
+              }
+              if (minIndent !== Infinity && minIndent > 0) {
+                const regex = new RegExp('^' + ' '.repeat(minIndent), 'gm');
+                rawNotes = rawNotes.replace(regex, '');
+              }
+            }
             const parsedNotes = typeof marked !== 'undefined' ? marked.parse(rawNotes) : rawNotes;
             return `<div class="expanded-notes-content">${parseWikiLinks(parsedNotes)}</div>`;
 
