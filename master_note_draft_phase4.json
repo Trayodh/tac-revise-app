@@ -64,7 +64,15 @@
     }
   },
   "geography": {
-    "Physical & World Geography": {},
+    "Physical & World Geography": {
+      "The Universe & Solar System": {
+        "content": "Failed to generate due to API errors.",
+        "metadata": {
+          "error": "Groq Error: Rate limit retries exhausted."
+        },
+        "generated_at": "2026-08-12T05:39:01.597Z"
+      }
+    },
     "Indian Geography": {},
     "Industries & Geopolitics": {}
   },
