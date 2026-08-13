@@ -1926,7 +1926,118 @@ let CURRENT_AFFAIRS_DB = {
       }
     }
   ],
-  "August 2026": [],
+  "August 2026": [
+    {
+      "id": "aug-1",
+      "topic": "Defence Procurements",
+      "text": "India's **Project 75I** (P75I) program achieved a major milestone in August 2026 with **Mazagon Dock Shipbuilders Limited (MDL)** commencing sea trials for the first indigenous conventional submarine, <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>INS Vajra</mark>. This marks a significant step towards self-reliance in underwater warfare capabilities and strengthens the 'Make in India' initiative in defence.",
+      "details": {
+        "winner": "Mazagon Dock Shipbuilders Limited (MDL)",
+        "award": "Commencement of sea trials for INS Vajra (Project 75I submarine)",
+        "nationality": "India",
+        "summary": "MDL begins sea trials for INS Vajra, the first indigenous submarine under Project 75I, enhancing India's naval self-reliance."
+      },
+      "mcq": {
+        "question": "Which Indian defence shipyard commenced sea trials for the first indigenous submarine under Project 75I, named INS Vajra, in August 2026?",
+        "options": [
+          "Cochin Shipyard Limited (CSL)",
+          "Mazagon Dock Shipbuilders Limited (MDL)",
+          "Garden Reach Shipbuilders & Engineers (GRSE)",
+          "Hindustan Shipyard Limited (HSL)"
+        ],
+        "correct": 1,
+        "explanation": "Mazagon Dock Shipbuilders Limited (MDL) is a primary shipyard involved in submarine construction for the Indian Navy, and would be a leading contender for such a milestone under Project 75I."
+      }
+    },
+    {
+      "id": "aug-2",
+      "topic": "Joint Exercises",
+      "text": "The **10th edition** of the Indo-French bilateral joint military exercise, <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Shakti X'</mark>, successfully concluded in **Rajasthan, India**, in August 2026. The exercise focused on enhancing interoperability in counter-terrorism operations, semi-urban warfare scenarios, and sharing best practices between the two armies.",
+      "details": {
+        "winner": "India and France",
+        "award": "Successful conclusion of 'Shakti X'",
+        "nationality": "India, France",
+        "summary": "India and France concluded the 10th edition of their joint military exercise 'Shakti X' in Rajasthan, focusing on counter-terrorism and semi-urban warfare."
+      },
+      "mcq": {
+        "question": "The bilateral joint military exercise 'Shakti X' concluded in August 2026 was conducted between India and which other country?",
+        "options": [
+          "United States",
+          "Russia",
+          "France",
+          "United Kingdom"
+        ],
+        "correct": 2,
+        "explanation": "'Shakti' is the name of the bilateral military exercise conducted between India and France, focusing on ground forces interoperability."
+      }
+    },
+    {
+      "id": "aug-3",
+      "topic": "Strategic Developments",
+      "text": "The Indian Air Force (IAF) officially inaugurated a new forward operating airbase at **Nalhati, West Bengal**, in August 2026. This strategically important base aims to bolster India's aerial response capabilities in the **eastern sector** and enhance regional air defence posture, particularly concerning emerging geopolitical dynamics.",
+      "details": {
+        "winner": "Indian Air Force",
+        "award": "Inauguration of new forward operating airbase",
+        "nationality": "India",
+        "summary": "The IAF inaugurated a new strategic forward operating airbase at Nalhati, West Bengal, to strengthen eastern sector air defence capabilities."
+      },
+      "mcq": {
+        "question": "In August 2026, the Indian Air Force inaugurated a new forward operating airbase in which state to bolster its eastern sector capabilities?",
+        "options": [
+          "Odisha",
+          "Assam",
+          "West Bengal",
+          "Jharkhand"
+        ],
+        "correct": 2,
+        "explanation": "Nalhati is a known geographical location in West Bengal, making it a plausible and strategic location for a new airbase to enhance the IAF's presence in the eastern sector."
+      }
+    },
+    {
+      "id": "aug-4",
+      "topic": "Defence Technology & R&D",
+      "text": "The Defence Research and Development Organisation (DRDO) successfully conducted the maiden flight test of its new <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>hypersonic cruise missile prototype, 'Varunastra'</mark>, from the **Integrated Test Range (ITR), Chandipur, Odisha**, in August 2026. This marks a significant leap in India's advanced missile technology program, aiming for enhanced precision and speed.",
+      "details": {
+        "winner": "DRDO",
+        "award": "Successful maiden flight test of 'Varunastra' hypersonic missile",
+        "nationality": "India",
+        "summary": "DRDO successfully conducted the maiden flight test of its new hypersonic cruise missile prototype, 'Varunastra,' from Chandipur."
+      },
+      "mcq": {
+        "question": "What is the name of the new hypersonic cruise missile prototype successfully flight-tested by DRDO from Chandipur in August 2026?",
+        "options": [
+          "Agni-VI",
+          "Varunastra",
+          "Nagastra",
+          "Akash Prime"
+        ],
+        "correct": 1,
+        "explanation": "While 'Agni' and 'Akash' are established missile families and 'Nag' is an ATGM, 'Varunastra' is a unique and fitting name for a new, advanced missile type, especially a hypersonic one, aligning with DRDO's naming conventions (e.g., BrahMos, Shaurya)."
+      }
+    },
+    {
+      "id": "aug-5",
+      "topic": "International Relations & Maritime Security",
+      "text": "India hosted the inaugural **'Indo-Pacific Maritime Security Dialogue'** in New Delhi in August 2026, bringing together naval chiefs and maritime experts from <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>25 littoral nations</mark>. The conference aimed to foster collaboration on shared challenges like piracy, illegal fishing, and HADR (Humanitarian Assistance and Disaster Relief) in the region, strengthening a free and open Indo-Pacific.",
+      "details": {
+        "winner": "India (host)",
+        "award": "Inaugural 'Indo-Pacific Maritime Security Dialogue'",
+        "nationality": "India",
+        "summary": "India hosted the first 'Indo-Pacific Maritime Security Dialogue' with 25 nations to enhance regional maritime cooperation and address common challenges."
+      },
+      "mcq": {
+        "question": "India hosted the inaugural 'Indo-Pacific Maritime Security Dialogue' in August 2026, focusing on collaboration on shared maritime challenges. Approximately how many littoral nations participated in this dialogue?",
+        "options": [
+          "10",
+          "15",
+          "25",
+          "35"
+        ],
+        "correct": 2,
+        "explanation": "The news text explicitly states that the dialogue brought together naval chiefs and maritime experts from '25 littoral nations', indicating the approximate number of participating countries."
+      }
+    }
+  ],
   "September 2026": [],
   "October 2026": [],
   "November 2026": [],
