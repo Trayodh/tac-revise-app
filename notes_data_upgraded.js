@@ -623,7 +623,7 @@ let CURRENT_AFFAIRS_DB = {
         "Subject/Authority: Rakesh Chaurasia",
         "Key Initiative/Event: Dual Grammy Awards",
         "Location/Nationality: Indian",
-        "Honored with Best Global Music Performance and Best Contemporary Instrumental Album, alongside banjo legend BÃ©la Fleck and table maestro Zakir Hussain."
+        "Honored with Best Global Music Performance and Best Contemporary Instrumental Album, alongside banjo legend B\u00c3\u00a9la Fleck and table maestro Zakir Hussain."
       ],
       "institutionalContext": "Rakesh Chaurasia",
       "strategicImportance": "Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri)."
@@ -992,7 +992,7 @@ let CURRENT_AFFAIRS_DB = {
         "Signifies increased focus on <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>space infrastructure for national development and security</mark>."
       ],
       "institutionalContext": "Department of Space (DoS), under the Prime Minister's Office.",
-      "strategicImportance": "This news is highly relevant for UPSC under <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper III: Science and Technology – Developments and their applications and effects in everyday life; Achievements of Indians in science & technology; Indigenization of technology and developing new technology</mark>. It also touches upon <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper II: Government policies and interventions for development in various sectors</mark> and <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper III: Security challenges and their management in border areas</mark> (due to strategic implications).",
+      "strategicImportance": "This news is highly relevant for UPSC under <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper III: Science and Technology \u2013 Developments and their applications and effects in everyday life; Achievements of Indians in science & technology; Indigenization of technology and developing new technology</mark>. It also touches upon <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper II: Government policies and interventions for development in various sectors</mark> and <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper III: Security challenges and their management in border areas</mark> (due to strategic implications).",
       "originalSource": "Department of Space (Government of India)",
       "publicationDate": "2026-06-17",
       "lastUpdatedDate": "2026-06-17",
@@ -1291,7 +1291,7 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "jun-7",
       "topic": "International GK",
-      "text": "The **Global Peace Summit on Ukraine** was hosted in BÃ¼rgenstock, Switzerland, with representatives from over 90 countries discussing sovereignty and nuclear security.",
+      "text": "The **Global Peace Summit on Ukraine** was hosted in B\u00c3\u00bcrgenstock, Switzerland, with representatives from over 90 countries discussing sovereignty and nuclear security.",
       "mcq": {
         "question": "Which of the following major international powers did NOT attend the Swiss peace summit in June 2024?",
         "options": [
@@ -1440,10 +1440,10 @@ let CURRENT_AFFAIRS_DB = {
       "id": "jun-10",
       "topic": "International Relations",
       "topicColor": "#7c3aed",
-      "summary": "Prime Minister Narendra Modi is scheduled to attend the 52nd G7 Summit in Évian-les-Bains, France, from June 15-17, 2026, as an outreach participant.",
-      "text": "Prime Minister Narendra Modi will participate in the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>52nd G7 Summit</mark> in <strong>Évian-les-Bains, France</strong>, from <strong>June 15–17, 2026</strong>. India attends as an invited partner nation, focusing on global supply chains, maritime security, and energy transition.",
+      "summary": "Prime Minister Narendra Modi is scheduled to attend the 52nd G7 Summit in \u00c9vian-les-Bains, France, from June 15-17, 2026, as an outreach participant.",
+      "text": "Prime Minister Narendra Modi will participate in the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>52nd G7 Summit</mark> in <strong>\u00c9vian-les-Bains, France</strong>, from <strong>June 15\u201317, 2026</strong>. India attends as an invited partner nation, focusing on global supply chains, maritime security, and energy transition.",
       "quickSummary": "India has been invited as an outreach country to the 52nd G7 Summit in France. PM Modi will represent India, highlighting maritime security and global governance reforms.",
-      "detailedAnalysis": "The G7 (Group of Seven) consists of the world's leading advanced economies: the US, UK, France, Germany, Italy, Japan, and Canada, along with the European Union. India is not a member but is regularly invited as a guest nation. The 52nd G7 Summit in Évian-les-Bains, France, is occurring against a backdrop of geopolitical challenges, including disruptions to maritime trade in the Red Sea (Bab el-Mandeb) and the Strait of Hormuz. India's outreach participation will highlight the global South's perspective on climate finance, supply chain resilience, and digital public infrastructure. Prime Minister Modi's agenda includes bilateral meetings with President Emmanuel Macron and other world leaders, advancing strategic partnerships in defence, technology transfer, and space cooperation.",
+      "detailedAnalysis": "The G7 (Group of Seven) consists of the world's leading advanced economies: the US, UK, France, Germany, Italy, Japan, and Canada, along with the European Union. India is not a member but is regularly invited as a guest nation. The 52nd G7 Summit in \u00c9vian-les-Bains, France, is occurring against a backdrop of geopolitical challenges, including disruptions to maritime trade in the Red Sea (Bab el-Mandeb) and the Strait of Hormuz. India's outreach participation will highlight the global South's perspective on climate finance, supply chain resilience, and digital public infrastructure. Prime Minister Modi's agenda includes bilateral meetings with President Emmanuel Macron and other world leaders, advancing strategic partnerships in defence, technology transfer, and space cooperation.",
       "backgroundContext": "The G7 was established in the 1970s to facilitate shared macroeconomic management. Over time, it has evolved to address security, environment, and development. India's persistent invitation to the summit reflects its growing status as a major global power and its role as a bridge between the developed world and the Global South.",
       "stakeholders": [
         "G7 Member Nations",
@@ -1476,7 +1476,7 @@ let CURRENT_AFFAIRS_DB = {
       },
       "upscHighlights": [
         "The G7 was originally the G8 until Russia's membership was suspended in 2014 following the annexation of Crimea.",
-        "The 52nd G7 Summit is hosted by France at Évian-les-Bains.",
+        "The 52nd G7 Summit is hosted by France at \u00c9vian-les-Bains.",
         "Key outreach discussions center on artificial intelligence, security of sea lines of communication, and food security."
       ],
       "institutionalContext": "G7 Presidency (France) & Ministry of External Affairs",
@@ -1503,7 +1503,7 @@ let CURRENT_AFFAIRS_DB = {
       "topic": "Economy & Finance",
       "topicColor": "#0891b2",
       "summary": "The RBI Monetary Policy Committee maintained the policy repo rate at 5.25% in its June 2026 meeting, focusing on inflation control.",
-      "text": "The Reserve Bank of India’s <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Monetary Policy Committee (MPC)</mark> concluded its bi-monthly meeting on <strong>June 5, 2026</strong>, keeping the policy <strong>repo rate unchanged at 5.25%</strong>. The decision reflects a balanced approach to supporting GDP growth while steering retail inflation toward the 4% target.",
+      "text": "The Reserve Bank of India\u2019s <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Monetary Policy Committee (MPC)</mark> concluded its bi-monthly meeting on <strong>June 5, 2026</strong>, keeping the policy <strong>repo rate unchanged at 5.25%</strong>. The decision reflects a balanced approach to supporting GDP growth while steering retail inflation toward the 4% target.",
       "quickSummary": "The RBI kept the repo rate steady at 5.25% in its June 2026 meeting. The committee decided to continue with its stance of withdrawal of accommodation.",
       "detailedAnalysis": "The Monetary Policy Committee (MPC) of the Reserve Bank of India (RBI) voted to keep the policy repo rate unchanged at 5.25% during its meeting from June 3-5, 2026. The marginal standing facility (MSF) rate and the bank rate were also maintained at 5.50%, and the standing deposit facility (SDF) rate remained at 5.00%. The committee's stance remains focused on the 'withdrawal of accommodation' to align inflation with the medium-term target of 4.0% while supporting growth. Food inflation risks and global supply chain volatility continue to require close monitoring, although core inflation has shown signs of moderation. RBI projected real GDP growth for the financial year 2026-27 at 7.2%, supported by robust domestic economic activity, rural demand recovery, and sustained private sector investment.",
       "backgroundContext": "The MPC is a statutory body constituted under Section 45ZB of the amended RBI Act, 1934. It is a 6-member committee (3 from RBI, 3 appointed by the Government) chaired by the RBI Governor. The primary goal is to maintain price stability while keeping inflation within the target band of 4% +/- 2%.",
@@ -1627,9 +1627,9 @@ let CURRENT_AFFAIRS_DB = {
       "topic": "International Relations",
       "topicColor": "#7c3aed",
       "summary": "PM Narendra Modi visited France and the Slovak Republic, marking the first-ever state visit by an Indian Prime Minister to Slovakia.",
-      "text": "Prime Minister Narendra Modi undertook a state visit to <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>France and the Slovak Republic</mark> from <strong>June 13–15, 2026</strong>. This marks the <strong>first-ever state visit</strong> by an Indian Prime Minister to Slovakia, establishing new trade and security ties.",
+      "text": "Prime Minister Narendra Modi undertook a state visit to <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>France and the Slovak Republic</mark> from <strong>June 13\u201315, 2026</strong>. This marks the <strong>first-ever state visit</strong> by an Indian Prime Minister to Slovakia, establishing new trade and security ties.",
       "quickSummary": "PM Modi visited France and Slovak Republic, marking a historic diplomatic milestone as the first state visit by an Indian PM to Slovakia, enhancing bilateral and economic cooperation.",
-      "detailedAnalysis": "Prime Minister Narendra Modi's visit to France and the Slovak Republic from June 13–15, 2026, represents a significant diplomatic outreach in Central Europe. In Nice, France, PM Modi and President Emmanuel Macron co-inaugurated the 'Bharat Innovates' event, promoting startups, tech partnerships, and collaborative research. Subsequently, the Prime Minister proceeded to Bratislava, Slovakia, marking a historic first state visit by an Indian PM to the Central European country. The visit focused on expanding economic cooperation, semiconductor supply chains, defense manufacturing, and bilateral trade. Agreements were signed in sectors including renewable energy, cyber security, and cultural exchange, elevating India's diplomatic footprint in Central and Eastern Europe.",
+      "detailedAnalysis": "Prime Minister Narendra Modi's visit to France and the Slovak Republic from June 13\u201315, 2026, represents a significant diplomatic outreach in Central Europe. In Nice, France, PM Modi and President Emmanuel Macron co-inaugurated the 'Bharat Innovates' event, promoting startups, tech partnerships, and collaborative research. Subsequently, the Prime Minister proceeded to Bratislava, Slovakia, marking a historic first state visit by an Indian PM to the Central European country. The visit focused on expanding economic cooperation, semiconductor supply chains, defense manufacturing, and bilateral trade. Agreements were signed in sectors including renewable energy, cyber security, and cultural exchange, elevating India's diplomatic footprint in Central and Eastern Europe.",
       "backgroundContext": "The Slovak Republic (Slovakia) became an independent state after the peaceful dissolution of Czechoslovakia in 1993. India was one of the first countries to recognize Slovakia. The visit aims to diversify India's partnerships within the European Union beyond traditional Western European allies.",
       "stakeholders": [
         "Ministry of External Affairs",
@@ -1681,7 +1681,7 @@ let CURRENT_AFFAIRS_DB = {
           "Poland"
         ],
         "correct": 0,
-        "explanation": "Prime Minister Narendra Modi visited the Slovak Republic from June 13–15, 2026, marking the first-ever state visit by an Indian PM to Slovakia."
+        "explanation": "Prime Minister Narendra Modi visited the Slovak Republic from June 13\u201315, 2026, marking the first-ever state visit by an Indian PM to Slovakia."
       }
     },
     {
@@ -1733,7 +1733,7 @@ let CURRENT_AFFAIRS_DB = {
       "publicationDate": "2026-06-13",
       "lastUpdatedDate": "2026-06-13",
       "verificationStatus": "Verified (Official Primary Source)",
-      "relatedOfficialDocuments": "NITI Aayog Governing Council Official Communiqué, June 2026",
+      "relatedOfficialDocuments": "NITI Aayog Governing Council Official Communiqu\u00e9, June 2026",
       "mcq": {
         "question": "Which of the following statements is/are correct regarding NITI Aayog?\n1. It was established by an Act of Parliament in 2015.\n2. The Governing Council of NITI Aayog is chaired by the Prime Minister and includes all State Chief Ministers.",
         "options": [
@@ -1773,15 +1773,15 @@ let CURRENT_AFFAIRS_DB = {
     {
       "id": "jul-2",
       "topic": "Defence Procurements",
-      "text": "The Defence Acquisition Council (DAC) granted Acceptance of Necessity (AoN) for proposals worth approximately **₹52,000 crore**, including HAMMER missiles and Man-Portable Anti-Tank Guided Missiles (MP-ATGMs).",
+      "text": "The Defence Acquisition Council (DAC) granted Acceptance of Necessity (AoN) for proposals worth approximately **\u20b952,000 crore**, including HAMMER missiles and Man-Portable Anti-Tank Guided Missiles (MP-ATGMs).",
       "details": {
         "winner": "Ministry of Defence",
-        "award": "₹52k Cr DAC Approval",
+        "award": "\u20b952k Cr DAC Approval",
         "nationality": "India",
         "summary": "Approvals were granted for HAMMER precision-guided missiles, MP-ATGMs, and Verba air defence systems."
       },
       "mcq": {
-        "question": "The Defence Acquisition Council recently approved the procurement of which precision-guided missiles under a ₹52,000 crore deal?",
+        "question": "The Defence Acquisition Council recently approved the procurement of which precision-guided missiles under a \u20b952,000 crore deal?",
         "options": [
           "BrahMos",
           "HAMMER",
@@ -1925,7 +1925,14 @@ let CURRENT_AFFAIRS_DB = {
         "explanation": "The 'VIJAY' vision emphasizes technological absorption, indigenous defense production under Atmanirbhar Bharat, and enhanced jointness among the tri-services to modernize the Indian Army."
       }
     }
-  ]
+  ],
+  "August 2026": [],
+  "September 2026": [],
+  "October 2026": [],
+  "November 2026": [],
+  "December 2026": [],
+  "January 2027": [],
+  "February 2027": []
 };
 
 const NOTES_DATABASE = {

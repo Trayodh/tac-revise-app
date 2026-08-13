@@ -3138,31 +3138,18 @@ function toggleFormulaReadStatus(topicId, button) {
 
 
 const CA_CYCLES_CONFIG = {
-
   AFCAT: {
-
     label: "AFCAT",
-
-    months: ["August", "September", "October", "November", "December", "January", "February"],
-
-    shortLabel: "AUG '26\n-\nFEB '27",
-
+    months: ["August 2026", "September 2026", "October 2026", "November 2026", "December 2026", "January 2027"],
+    shortLabel: "AUG '26\n-\nJAN '27",
     examDate: new Date("2027-02-20T00:00:00")
-
   },
-
   NDA_CDS: {
-
     label: "NDA / CDS",
-
-    months: ["April", "May", "June", "July", "August", "September"],
-
+    months: ["April 2026", "May 2026", "June 2026", "July 2026", "August 2026", "September 2026"],
     shortLabel: "APR '26\n-\nSEP '26",
-
     examDate: new Date("2026-09-12T00:00:00")
-
   }
-
 };
 
 
@@ -3204,23 +3191,11 @@ if (!activeCaCycle || !CA_CYCLES_CONFIG[activeCaCycle]) {
  */
 
 function getExamCycleBounds() {
-
   const config = CA_CYCLES_CONFIG[activeCaCycle];
-
-  const year = config.examDate.getFullYear();
-
-  const months = config.months.map(m => `${m} ${year}`);
-
-  
-
   return { 
-
     cycleLabel: config.shortLabel.replace(/\n/g, ' '), 
-
-    months 
-
+    months: config.months
   };
-
 }
 
 window.getExamCycleBounds = getExamCycleBounds;
