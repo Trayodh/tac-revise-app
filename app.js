@@ -3843,7 +3843,7 @@ function renderCurrentMonthAffairs() {
 
       for (const [key, value] of Object.entries(item.details)) {
 
-        if (!value || value === 'N/A' || value === '') continue;
+        if (!value || value === 'N/A' || value === '' || key === 'summary') continue;
 
         const labelMap = {
           'winner': (item.topic === 'Sports' || item.topic === 'Awards & Honours') ? 'WINNER' : 'KEY ENTITY',
