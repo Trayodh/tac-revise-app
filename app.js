@@ -16967,6 +16967,200 @@ function applyGoalGetterTheme() {
       background-size: 60px 60px !important;
       background-repeat: repeat !important;
     }
+  setInterval(updateDefcon, 1000 * 60 * 60);
+
+}
+
+
+
+document.addEventListener('DOMContentLoaded', initDefconWidget);
+
+
+
+// ==========================================
+
+// SHARE APP WIDGET LOGIC
+
+// ==========================================
+
+window.SUBJECT_IMAGES = {
+  "reasoning": [
+    "images/afcat_dot_situation.png",
+    "images/afcat_embedded_figures.png",
+    "images/afcat_venn_diagram.png",
+    "images/reasoning_verbal_nonverbal.png"
+  ],
+  "maths": [
+    "images/algebra_quadratic_complex.png",
+    "images/arithmetic_percentages.png",
+    "images/calculus_limits_derivatives.png",
+    "images/coordinate_geometry.png",
+    "images/statistics_probability.png",
+    "images/trigonometry_unit_circle.png"
+  ],
+  "biology": [
+    "images/animal_plant_kingdoms.png",
+    "images/cell_diagram.png",
+    "images/cell_division_mitosis.png",
+    "images/chromosome_structure.png",
+    "images/flower_parts_diagram.png",
+    "images/human_body_systems.png",
+    "images/human_circulatory_heart.png",
+    "images/human_digestive_system.png",
+    "images/human_eye_prism_diagram.png",
+    "images/human_nervous_system.png",
+    "images/photosynthesis_respiration_diagram.png"
+  ],
+  "geography": [
+    "images/atmospheric-circulation.jpg",
+    "images/clouds_diagram.png",
+    "images/earth-atmosphere.jpg",
+    "images/earth-interior.jpg",
+    "images/geo_atmosphere.png",
+    "images/geo_earth_interior.png",
+    "images/geo_india_national_parks.png",
+    "images/geo_india_rainfall.png",
+    "images/geo_india_rivers.png",
+    "images/geo_india_soils.png",
+    "images/geo_india_vegetation.png",
+    "images/glacial-landforms.jpg",
+    "images/india_dams_map.png",
+    "images/india_dams_rivers_detailed.png",
+    "images/india_highways_map.png",
+    "images/india_latlong_map.png",
+    "images/india_monsoon_patterns.png",
+    "images/india_mountains_map.png",
+    "images/india_parks_map.png",
+    "images/india_plateaus_passes_map.png",
+    "images/india_resources_map.png",
+    "images/india_rivers_map.png",
+    "images/india_soils_map.png",
+    "images/india_transport_map.png",
+    "images/landforms_diagram.png",
+    "images/mountains-formation.jpg",
+    "images/types-of-rainfall.jpg",
+    "images/volcanic-systems.jpg",
+    "images/world_climatic_zones_map.png",
+    "images/world_ocean_currents_map.png",
+    "images/world_tectonics_map.png"
+  ],
+  "chemistry": [
+    "images/atomic_structure_periodic_table.png",
+    "images/chemical_bonding_reactions.png",
+    "images/chemistry_reactions_everyday.png"
+  ],
+  "current_affairs": [
+    "images/current_affairs_india.png",
+    "images/current_affairs_world.png",
+    "images/defence_organisations_weapons.png",
+    "images/space_technology_defence.png"
+  ],
+  "general": [
+    "images/economics_market_gdp_diagram.png",
+    "images/environment_laws_treaties.png"
+  ],
+  "physics": [
+    "images/em_waves_chart.png",
+    "images/mirrors_lens_ray_diagrams.png",
+    "images/newtons_laws_mechanics_diagram.png",
+    "images/physics_circuit_diagram.png",
+    "images/physics_ray_diagram.png",
+    "images/thermodynamics_heat_diagram.png"
+  ],
+  "english": [
+    "images/english_grammar_chart.png",
+    "images/english_sentence_skills.png",
+    "images/english_vocabulary_chart.png"
+  ],
+  "history": [
+    "images/freedom_movement_timeline.png",
+    "images/harappan_civilization_map.png",
+    "images/history_1857_revolt_map.png",
+    "images/history_mauryan_gupta_map.png",
+    "images/mughal_empire_map.png"
+  ],
+  "polity": [
+    "images/indian_constitution_structure.png",
+    "images/polity_elections_constitution.png"
+  ]
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  const shareBtn = document.getElementById('share-app-btn');
+
+  if (shareBtn) {
+
+    shareBtn.addEventListener('click', () => {
+
+      const shareData = {
+
+        title: 'Jayastra - Defence Exams Revision',
+
+        text: 'Check out Jayastra, the AI-powered revision platform for NDA, CDS, and AFCAT!',
+
+        url: window.location.origin
+
+      };
+
+      
+
+      if (navigator.share) {
+
+        navigator.share(shareData).catch((error) => console.log('Error sharing:', error));
+
+      } else {
+
+        // Fallback: copy to clipboard
+
+        navigator.clipboard.writeText(shareData.url).then(() => {
+
+          alert('Link copied to clipboard! Share it with your friends.');
+
+        }).catch(() => {
+
+          alert('Unable to copy link. Please manually copy the URL to share.');
+
+        });
+
+      }
+
+    });
+
+  }
+
+});
+
+// SPECIAL THEME FOR GOALGETTER
+let specialThemeApplied = false;
+setInterval(() => {
+  if (typeof STATE !== 'undefined' && STATE.activeProfile && STATE.activeProfile.email === 'goalgetterrr333@gmail.com' && !specialThemeApplied) {
+    specialThemeApplied = true;
+    applyGoalGetterTheme();
+  }
+}, 1000);
+
+function applyGoalGetterTheme() {
+  const style = document.createElement('style');
+  style.innerHTML = `
+    :root {
+      --bg-primary: #fff0f5 !important;
+      --bg-secondary: #ffe4e1 !important;
+      --bg-tertiary: #ffb6c1 !important;
+      --text-bright: #d11a2a !important;
+      --text-primary: #8b0000 !important;
+      --text-secondary: #c71585 !important;
+      --text-muted: #ff69b4 !important;
+      --accent: #ff1493 !important;
+      --border: #ffb6c1 !important;
+      --surface-dark: #ffe4e1 !important;
+    }
+    body {
+      background-color: var(--bg-primary);
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="%23ffc0cb" fill-opacity="0.5" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>') !important;
+      background-size: 60px 60px !important;
+      background-repeat: repeat !important;
+    }
     .sidebar { background: rgba(255, 228, 225, 0.95) !important; border-right: 2px solid #ffb6c1 !important; }
     .glass-panel, .metric-card, .menu-item { background: rgba(255, 240, 245, 0.9) !important; border: 1px solid #ffb6c1 !important; color: #8b0000 !important; }
     .menu-item:hover { background: #ffb6c1 !important; color: white !important; }
@@ -16977,16 +17171,13 @@ function applyGoalGetterTheme() {
   `;
   document.head.appendChild(style);
 
-  // Background music
-  const audio = document.createElement('audio');
-  audio.src = 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Chopin_-_Nocturne_Op_9_No_2_E_Flat_Major.ogg';
-  audio.loop = true;
-  audio.volume = 0.4;
-  document.body.appendChild(audio);
-
-  // Browsers require interaction to play audio
+  // Background music via YouTube (hidden)
   const startAudio = () => {
-    audio.play().catch(e => console.log('Audio play blocked:', e));
+    const iframe = document.createElement('iframe');
+    iframe.src = 'https://www.youtube.com/embed/Cb6wuzOurPc?autoplay=1&loop=1&playlist=Cb6wuzOurPc';
+    iframe.style.display = 'none';
+    iframe.allow = 'autoplay';
+    document.body.appendChild(iframe);
     document.removeEventListener('click', startAudio);
   };
   document.addEventListener('click', startAudio);
