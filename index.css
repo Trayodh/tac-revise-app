@@ -4035,7 +4035,22 @@ h2 {
   }
 
   /* ---- Layout Flattening ---- */
-  .grid-cols-4,
+  .grid-cols-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 16px;
+    padding-bottom: 8px; /* For scrollbar */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .grid-cols-4::-webkit-scrollbar {
+    display: none;
+  }
+  .grid-cols-4 > * {
+    flex: 0 0 240px;
+  }
+  
   .grid-cols-2 {
     grid-template-columns: 1fr;
     gap: 16px;
