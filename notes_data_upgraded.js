@@ -20,6 +20,50 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "Exercise Desert Cyclone is the inaugural bilateral army exercise between India and the UAE, held in Rajasthan."
+      },
+      "upscHighlights": [
+        "India-UAE 'Desert Cyclone' exercise concluded.",
+        "Focused on desert warfare and counter-terrorism.",
+        "Enhanced bilateral defence interoperability in Rajasthan."
+      ],
+      "institutionalContext": "The 'Desert Cyclone' exercise involves the armies of India and the United Arab Emirates (UAE). These exercises are crucial components of their respective national defence policies, aimed at strengthening military capabilities, promoting interoperability, and fostering diplomatic relations under the guidance of their defence ministries and army headquarters.",
+      "strategicImportance": "Joint military exercises like 'Desert Cyclone' are strategically vital for UPSC and Defence exams. They signify India's growing defence diplomacy, particularly with key West Asian partners like the UAE. Questions on the names of exercises, participating nations, location, and specific objectives (e.g., desert warfare, counter-terrorism) are common in current affairs and general knowledge sections. Furthermore, they highlight regional security cooperation, counter-terrorism strategies, and India's commitment to enhancing interoperability with friendly foreign nations, all key areas for understanding India's foreign and security policy.",
+      "quickSummary": "The joint military exercise 'Desert Cyclone' was successfully conducted between the armies of India and the United Arab Emirates (UAE) in Rajasthan. The exercise specifically focused on enhancing capabilities in desert warfare operations, sharing best practices in tactical drills, urban counter-terror operations, and improving overall interoperability between the two forces.",
+      "detailedAnalysis": "'Desert Cyclone' represents a significant stride in the deepening strategic partnership between India and the UAE. Held in the unique terrain of Rajasthan, the exercise provided a realistic environment for troops to practice and refine skills critical for desert operations, a relevant domain for both nations given their geographical contexts. Beyond tactical training, the exercise serves as a platform for cultural exchange, building trust, and understanding each other's operational doctrines and equipment. The emphasis on counter-terrorism operations underscores a shared commitment to combating global security threats, reflecting a broader alignment in regional security objectives. This regular engagement also showcases India's growing role as a net security provider and its robust military diplomacy in the extended neighbourhood.",
+      "backgroundContext": "India has a long-standing tradition of conducting joint military exercises with various friendly nations to bolster defence cooperation, share expertise, and enhance interoperability. These exercises are a cornerstone of India's foreign policy and military diplomacy, reflecting its commitment to global peace and stability. India's relationship with the UAE has evolved into a comprehensive strategic partnership, with defence cooperation being a key pillar. The Gulf region holds immense strategic importance for India, economically and for its diaspora. 'Desert Cyclone' is part of a series of such engagements, building on the foundation of growing bilateral ties and mutual strategic interests, especially in combating terrorism and promoting regional stability.",
+      "stakeholders": [
+        "Indian Army",
+        "United Arab Emirates Land Forces",
+        "Ministry of Defence (India)",
+        "Ministry of Defence (UAE)"
+      ],
+      "relatedTopics": [
+        "Joint Military Exercises",
+        "India-UAE Relations",
+        "Defence Cooperation",
+        "Military Diplomacy",
+        "Counter-Terrorism Operations",
+        "Desert Warfare"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Which two countries participated in the 'Desert Cyclone' joint military exercise?",
+          "In which Indian state was 'Desert Cyclone' conducted?",
+          "What was the primary operational focus of the 'Desert Cyclone' exercise?"
+        ],
+        "interviewQuestions": [
+          "How do joint military exercises like 'Desert Cyclone' contribute to India's strategic partnerships and regional security?",
+          "Discuss the significance of India's defence cooperation with Gulf nations, specifically in the context of counter-terrorism."
+        ],
+        "ssbDiscussionTopics": [
+          "The role of joint military exercises in strengthening international security and diplomatic ties.",
+          "India's growing defence footprint in West Asia and its implications for regional stability."
+        ]
       }
     },
     {
@@ -42,6 +86,52 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "Drishti 10 Starliner was developed and manufactured by Adani Defence and Aerospace in collaboration with Elbit Systems."
+      },
+      "upscHighlights": [
+        "Indian Navy inducts indigenous MALE drone Drishti 10.",
+        "Adani Defence manufactures advanced ISR UAV for Navy.",
+        "Boosts maritime intelligence, surveillance, reconnaissance capabilities."
+      ],
+      "institutionalContext": "The Indian Navy is actively pursuing modernization and indigenization under the 'Aatmanirbhar Bharat' initiative, focusing on enhancing its intelligence, surveillance, and reconnaissance (ISR) capabilities to maintain maritime domain awareness in the Indian Ocean Region and beyond.",
+      "strategicImportance": "The induction of Drishti 10 Starliner significantly boosts India's self-reliance in critical defence technology and enhances the Navy's capabilities for persistent maritime surveillance. This is vital for national security, countering asymmetric threats, supporting HADR (Humanitarian Assistance and Disaster Relief) operations, and projecting power in the Indian Ocean. For UPSC, it covers GS-III (Internal Security, Defence Technology, Economy - Indigenization) and Prelims (Current Events, Defence).",
+      "quickSummary": "The Indian Navy has inducted its first indigenous Medium-Altitude Long-Endurance (MALE) drone, the Drishti 10 Starliner, manufactured by Adani Defence and Aerospace. This advanced Unmanned Aerial Vehicle (UAV) boasts an endurance of 36 hours and a payload capacity of 450 kg, making it a crucial asset for intelligence, surveillance, and reconnaissance missions over vast maritime areas.",
+      "detailedAnalysis": "The Drishti 10 Starliner, based on the proven Elbit Hermes 900 MALE UAV platform, represents a significant leap in India's indigenous defence manufacturing capabilities and technology transfer. MALE drones are critical for sustained surveillance over large geographical expanses, providing real-time intelligence for naval operations, anti-piracy efforts, disaster monitoring, and border security. Its induction will augment the Navy's existing fleet of UAVs, enabling longer patrols, better threat detection, and improved situational awareness across India's extensive maritime interests. This move aligns with the broader strategy to integrate advanced unmanned systems into conventional forces, enhancing network-centric warfare capabilities and reducing reliance on manned aircraft for dull, dirty, or dangerous missions.",
+      "backgroundContext": "India has been increasingly focusing on indigenization in defence, particularly in high-technology areas like UAVs. The need for advanced maritime surveillance became acutely clear post-26/11 Mumbai attacks. While India has operated Israeli-made Heron and Searcher UAVs, the Drishti 10 marks the first operational induction of a domestically manufactured MALE UAV, building on the 'Make in India' and 'Aatmanirbhar Bharat' initiatives. This induction follows trials and extensive testing, demonstrating a maturity in India's private sector defence manufacturing.",
+      "stakeholders": [
+        "Indian Navy",
+        "Adani Defence and Aerospace",
+        "Ministry of Defence (MoD)",
+        "Directorate General of Aeronautical Quality Assurance (DGAQA)",
+        "Elbit Systems (Technology Partner for Hermes 900)"
+      ],
+      "relatedTopics": [
+        "MALE UAVs",
+        "Indigenization in Defence",
+        "Maritime Security",
+        "Intelligence, Surveillance, and Reconnaissance (ISR)",
+        "Aatmanirbhar Bharat in Defence",
+        "Naval Modernization",
+        "Unmanned Systems"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is Drishti 10 Starliner and what is its primary role?",
+          "Which Indian company manufactured the Drishti 10 MALE drone?",
+          "Mention two key features of the Drishti 10 Starliner UAV."
+        ],
+        "interviewQuestions": [
+          "Discuss the strategic advantages of deploying indigenous MALE UAVs for India's maritime security. How does this contribute to 'Aatmanirbhar Bharat'?",
+          "What challenges do indigenous defence manufacturing projects like the Drishti 10 face, and how can they be overcome to accelerate self-reliance?"
+        ],
+        "ssbDiscussionTopics": [
+          "Indigenous defence production: A strategic imperative for India's national security.",
+          "The increasing role of unmanned systems in modern warfare and its implications for future military strategies."
+        ]
       }
     },
     {
@@ -64,6 +154,59 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "The CDS position and the structural integration of defence forces were recommended by the Kargil Review Committee (1999) led by K. Subrahmanyam."
+      },
+      "upscHighlights": [
+        "CDS post created based on Kargil Review Committee.",
+        "Permanent Chairman of Chiefs of Staff Committee.",
+        "Facilitates tri-services integration and jointmanship."
+      ],
+      "institutionalContext": "The Chief of Defence Staff (CDS) is the highest-ranking uniformed officer of the Indian Armed Forces, serving as the principal military advisor to the Minister of Defence and the permanent chairman of the Chiefs of Staff Committee. The CDS also heads the Department of Military Affairs (DMA) within the Ministry of Defence, overseeing matters related to the Army, Navy, and Air Force.",
+      "strategicImportance": "The creation of the CDS position is a pivotal defence reform crucial for modernizing India's military and enhancing its operational efficiency. It aims to provide single-point military advice, foster greater synergy among the three services, streamline defence planning and procurement, and ultimately strengthen national security. For UPSC/Defence exams, understanding the CDS role, its origins, and strategic implications is vital for questions on national security, defence policy, and civil-military relations.",
+      "quickSummary": "The Chief of Defence Staff (CDS) position in India was established following recommendations from the Kargil Review Committee, serving as the permanent chairman of the Chiefs of Staff Committee. This landmark reform aims to enhance tri-services integration, promote jointmanship, and act as the principal military advisor to the Minister of Defence, thereby streamlining defence planning and operational coordination.",
+      "detailedAnalysis": "The establishment of the Chief of Defence Staff (CDS) in 2019 marked a significant structural reform in India's higher defence management. Originating from the recommendations of the Kargil Review Committee (1999) and later endorsed by a Group of Ministers in 2001, the position addresses the long-felt need for a unified military command and a single point of military advice to the political leadership. Beyond being the head of the Chiefs of Staff Committee, the CDS also functions as the Secretary of the newly created Department of Military Affairs (DMA) within the Ministry of Defence, facilitating closer civil-military integration. This role is instrumental in driving the creation of integrated theatre commands, optimizing defence procurement, and fostering a culture of jointness among the Army, Navy, and Air Force, moving away from service-centric operations towards a more unified and efficient force structure.",
+      "backgroundContext": "The necessity for a Chief of Defence Staff was first acutely felt during the Kargil War in 1999, which highlighted significant coordination gaps among the three services. The subsequent Kargil Review Committee explicitly recommended the creation of such a post. This recommendation was further deliberated by a Group of Ministers (GoM) in 2001. However, political consensus and bureaucratic hurdles delayed its implementation for nearly two decades. The formal announcement for the creation of the CDS post came on 15 August 2019, and the first CDS assumed office on 1 January 2020, signifying a major step towards integrated theatre commands and comprehensive defence reforms.",
+      "stakeholders": [
+        "Chief of Defence Staff (CDS)",
+        "Ministry of Defence (MoD)",
+        "Indian Army",
+        "Indian Navy",
+        "Indian Air Force",
+        "Chiefs of Staff Committee (COSC)",
+        "Department of Military Affairs (DMA)",
+        "Cabinet Committee on Security (CCS)"
+      ],
+      "relatedTopics": [
+        "Defence Reforms in India",
+        "Tri-Services Integration",
+        "Jointmanship",
+        "National Security Doctrine",
+        "Military Modernization",
+        "Kargil War",
+        "Department of Military Affairs (DMA)",
+        "Integrated Theatre Commands",
+        "Higher Defence Organisation"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What committee's recommendations led to the creation of the CDS post?",
+          "What are the dual roles of the Chief of Defence Staff?",
+          "Name the department headed by the CDS within the Ministry of Defence."
+        ],
+        "interviewQuestions": [
+          "Discuss the strategic importance of the CDS in ensuring India's national security.",
+          "What challenges and opportunities does the CDS face in achieving complete tri-services integration and jointmanship?",
+          "How does the creation of the CDS position impact civil-military relations in India's higher defence organization?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Chief of Defence Staff in driving India's military modernization.",
+          "The necessity and implications of creating integrated theatre commands under the CDS.",
+          "Balancing service autonomy with the imperative for jointness in the Indian Armed Forces."
+        ]
       }
     },
     {
@@ -86,6 +229,52 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Tennis star Novak Djokovic was awarded the Laureus World Sportsman of the Year for matching the all-time record of Grand Slam singles titles."
+      },
+      "upscHighlights": [
+        "Novak Djokovic wins Laureus Sportsman of Year.",
+        "Record-extending fifth win for Serbian ace.",
+        "Recognized for 2023 Grand Slam dominance."
+      ],
+      "institutionalContext": "The Laureus World Sports Awards, often dubbed the \"Oscars of Sport,\" are an annual awards ceremony honouring individuals and teams from the world of sport. Established in 1999 by Daimler and Richemont, they are managed by the Laureus Sport for Good Foundation, which funds and promotes sports-based community projects globally, utilizing the power of sport for social change.",
+      "strategicImportance": "Knowledge of prestigious international sports awards and personalities like Novak Djokovic is crucial for the General Awareness section of Defence exams (NDA, CDS, AFCAT). It tests a candidate's grasp of global current events, recognition of sporting excellence, and understanding of the values associated with top-tier athletes, such as discipline, perseverance, and leadership \u2013 qualities highly valued in the armed forces. Questions on such achievements often appear in GK papers.",
+      "quickSummary": "Serbian tennis icon Novak Djokovic was honoured with the prestigious Laureus World Sportsman of the Year award for a record-extending fifth time. The accolade recognizes his extraordinary performance in the previous season (2023), which saw him capture multiple Grand Slam titles, reaffirming his status as one of the greatest athletes in history.",
+      "detailedAnalysis": "Novak Djokovic's latest Laureus World Sportsman of the Year award solidifies his unparalleled dominance in men's tennis, particularly following his exceptional 2023 season. During this period, he clinched the Australian Open, French Open, and US Open titles, elevating his Grand Slam singles tally to a record-breaking 24. This achievement not only cemented his place in tennis history but also showcased his enduring athleticism, strategic brilliance, and remarkable mental fortitude. The Laureus Award, established in 1999, stands as a global benchmark for sporting excellence, celebrating athletes who transcend their sport and inspire millions worldwide. Djokovic's repeated recognition by this esteemed body reflects his consistent performance at the highest level and his significant impact on the international sporting landscape.",
+      "backgroundContext": "The Laureus World Sports Awards were inaugurated in 2000, conceived by the Laureus Sport for Good Foundation, whose core mission is to leverage the transformative power of sport to unite people and change lives. The award recipients are selected by the Laureus World Sports Academy, a unique assembly of legendary sports figures. Novak Djokovic has previously won this coveted award in 2012, 2015, 2016, and 2019, making his 2024 win (for his 2023 performance) a historic fifth, setting a new record for the most wins by an individual, surpassing other sporting greats in terms of frequency of recognition.",
+      "stakeholders": [
+        "Novak Djokovic (Recipient)",
+        "Laureus Sport for Good Foundation (Organizers & Beneficiaries)",
+        "Laureus World Sports Academy (Voting Body)",
+        "Global Tennis Community",
+        "International Sports Media"
+      ],
+      "relatedTopics": [
+        "International Sports Awards",
+        "Grand Slam Tennis Tournaments",
+        "Current Affairs: Sports Achievements",
+        "World Records in Professional Sports",
+        "Sports Philanthropy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Who recently won the Laureus World Sportsman of the Year award?",
+          "For which sport is Novak Djokovic primarily known?",
+          "How many Laureus World Sportsman of the Year awards has Novak Djokovic won?"
+        ],
+        "interviewQuestions": [
+          "What qualities do you believe enable athletes like Novak Djokovic to consistently perform at an elite level, and how are these qualities relevant to a career in the armed forces?",
+          "Discuss the broader impact of global sports awards, such as the Laureus, on promoting sportsmanship and inspiring youth globally.",
+          "How important is mental resilience in achieving peak performance, both in competitive sports and in challenging defence service scenarios?"
+        ],
+        "ssbDiscussionTopics": [
+          "Sports personalities as national and global role models: evaluating their positive and negative influences.",
+          "The role of international sports events and awards in fostering global unity and understanding.",
+          "Discipline, dedication, and perseverance are more crucial than innate talent for sustained success in any demanding field."
+        ]
       }
     },
     {
@@ -108,6 +297,54 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "Gaganyaan is ISRO's human spaceflight program, designed to demonstrate indigenous capabilities for orbital space flight."
+      },
+      "upscHighlights": [
+        "ISRO announces Gaganyaan-1 launch timeline",
+        "India's first manned spaceflight program progresses",
+        "Indigenous human spaceflight capability demonstration"
+      ],
+      "institutionalContext": "ISRO (Indian Space Research Organisation) is India's premier space agency, responsible for planning, executing, and promoting space science and technology applications. It is pivotal in developing India's satellite, launch vehicle, and interplanetary mission capabilities, with Gaganyaan being its most ambitious human spaceflight initiative.",
+      "strategicImportance": "The Gaganyaan mission is strategically crucial for India as it elevates the nation into an elite group of countries with independent human spaceflight capabilities, enhancing its global scientific and technological prestige. It fosters indigenous research and development, boosts 'Atmanirbhar Bharat' (self-reliant India) in critical aerospace technologies, and has potential dual-use applications for national security and strategic reconnaissance. Successfully demonstrating human spaceflight is a significant deterrent and a soft power projection.",
+      "quickSummary": "ISRO has officially announced the launch timeline for Gaganyaan-1, an crucial unmanned test mission preceding India's ambitious first manned spaceflight program. This initiative aims to demonstrate India's indigenous human spaceflight capability by sending a three-member crew into a 400 km low Earth orbit for a three-day mission, marking a monumental step in the nation's space exploration endeavors.",
+      "detailedAnalysis": "The Gaganyaan program represents a monumental leap for India's space ambitions, aiming to send a three-person crew to Low Earth Orbit (LEO) for a short duration. Gaganyaan-1, the first of the unmanned test flights, is critical for validating the safety and reliability of the human-rated launch vehicle (LVM3-G/GSLV Mk-III), the Orbital Module (comprising the Crew Module and Service Module), crew escape systems, life support systems, and other critical infrastructure. The mission will demonstrate India's capacity to design, develop, and operate complex human-rated spacecraft, manage crew operations, and ensure safe re-entry and recovery. This phased approach, starting with unmanned missions, is essential for mitigating risks associated with human spaceflight and ensuring crew safety, making it a cornerstone for future advanced space missions, including a potential Indian space station.",
+      "backgroundContext": "India's space journey began in the 1960s, evolving into a robust program under ISRO. Over decades, ISRO has mastered satellite development, launch vehicle technology (PSLV, GSLV), and successfully executed complex interplanetary missions like Chandrayaan and Mangalyaan. The idea of human spaceflight has been a long-standing aspiration, gaining significant momentum and formal government approval with the announcement of the Gaganyaan program in 2018. This project leverages ISRO's existing technological prowess while pushing new frontiers in crew safety, environmental control, and re-entry mechanisms, signifying a natural progression in India's space capabilities.",
+      "stakeholders": [
+        "ISRO (Indian Space Research Organisation)",
+        "HAL (Hindustan Aeronautics Limited)",
+        "DRDO (Defence Research and Development Organisation)",
+        "Indian Navy (for recovery operations)",
+        "Indian Air Force (for crew selection and training)",
+        "Indian Private Sector (for component manufacturing and technological support)"
+      ],
+      "relatedTopics": [
+        "Space Technology and Exploration",
+        "National Security",
+        "Science & Technology Policy",
+        "Aerospace Engineering",
+        "International Space Cooperation",
+        "Make in India / Atmanirbhar Bharat"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the primary objective of India's Gaganyaan mission?",
+          "Which launch vehicle is slated to be used for the manned Gaganyaan mission?",
+          "What is the significance of the Gaganyaan-1 mission announcement?"
+        ],
+        "interviewQuestions": [
+          "Discuss the strategic importance of human spaceflight for India's global standing and national security.",
+          "What are the major technological challenges that ISRO must overcome to ensure the success and safety of the Gaganyaan mission?",
+          "How does the Gaganyaan mission align with the 'Atmanirbhar Bharat' initiative, and what are its potential economic spin-offs?"
+        ],
+        "ssbDiscussionTopics": [
+          "India's Human Spaceflight Program: A Prerequisite for Global Leadership?",
+          "The Balance Between Space Exploration and Socio-Economic Development in India.",
+          "The Role of Public-Private Partnerships in Advancing India's Space Sector."
+        ]
       }
     },
     {
@@ -130,6 +367,54 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Gabriel Attal was appointed Prime Minister of France at age 34, making him the youngest in the modern era."
+      },
+      "upscHighlights": [
+        "Gabriel Attal appointed new French Prime Minister.",
+        "Youngest PM in modern French history at 34.",
+        "Appointed by President Emmanuel Macron.",
+        "Key figure in France-India strategic partnership."
+      ],
+      "institutionalContext": "The Prime Minister of France is the head of government in a semi-presidential republic, appointed by the President. This role involves implementing national policy, leading the cabinet, and parliamentary relations, while the President, as head of state, holds significant powers over foreign policy and defence.",
+      "strategicImportance": "France is a crucial global player, a permanent member of the UN Security Council (P5), and a key member of G7, G20, and the EU. It is a vital strategic partner for India in areas like defence (e.g., Rafale jets, conventional submarines), nuclear energy, space, and counter-terrorism. Leadership changes in France can influence its domestic stability, foreign policy trajectory, and consequently, its bilateral relations with India and broader European/global geopolitics, which are significant for India's strategic calculations.",
+      "quickSummary": "Gabriel Attal was recently appointed as the new Prime Minister of France by President Emmanuel Macron. At 34, he became the youngest individual to hold this prestigious office in France's modern political history, succeeding Elisabeth Borne. This appointment is part of a broader cabinet reshuffle aimed at revitalizing the Macron government and setting new political priorities.",
+      "detailedAnalysis": "Gabriel Attal's appointment as French Prime Minister at such a young age signifies a strategic move by President Emmanuel Macron to rejuvenate his government and address declining public approval, especially ahead of crucial European Parliament elections. Attal, a former education minister, is known for his communication skills and popularity, which Macron hopes will inject new dynamism and public appeal into his administration. This reshuffle reflects Macron's desire to refocus on domestic reforms, including economy and security, and to present a fresh face capable of connecting with a broader electorate. The change also underscores the President's significant power in France's semi-presidential system to shape the government's direction and policy agenda.",
+      "backgroundContext": "France operates under a semi-presidential system, where the President is the head of state and the Prime Minister is the head of government. Elisabeth Borne had served as Prime Minister since May 2022. Macron's decision to replace her comes amid parliamentary challenges to pass key reforms and general public dissatisfaction, highlighted by recent protests. The move is widely seen as an attempt to reset the political agenda, regain public trust, and consolidate power for Macron's 'Renaissance' party, seeking a fresh mandate and renewed impetus in governance.",
+      "stakeholders": [
+        "Gabriel Attal (New Prime Minister)",
+        "Emmanuel Macron (President of France)",
+        "Elisabeth Borne (Former Prime Minister)",
+        "French Government and Parliament",
+        "French Electorate",
+        "European Union"
+      ],
+      "relatedTopics": [
+        "International Relations",
+        "Political Systems (Semi-presidential Republics)",
+        "France-India Strategic Partnership",
+        "European Politics and Economy",
+        "Geopolitics and Global Leadership"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Who is the current Prime Minister of France and what is notable about his appointment?",
+          "Which French President appointed Gabriel Attal as Prime Minister?",
+          "Name the political system followed in France and briefly describe the role of its Prime Minister."
+        ],
+        "interviewQuestions": [
+          "Discuss the significance of Gabriel Attal's appointment for France's domestic and foreign policy, particularly concerning its relationship with India.",
+          "How does France's semi-presidential system influence its governmental stability and decision-making compared to a parliamentary democracy?",
+          "What are the key pillars of the India-France strategic partnership, and how might leadership changes in France affect this relationship?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of youth in political leadership: A global perspective and its implications for governance.",
+          "Strategic implications of leadership changes in key global powers (like France) for India's foreign policy and defence strategy.",
+          "Comparing semi-presidential and parliamentary systems: Which offers better governance and stability in the current global climate?"
+        ]
       }
     },
     {
@@ -152,6 +437,58 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "The Data Protection Board of India (DPBI) is the statutory body established to monitor compliance and penalize violations under the DPDP Act."
+      },
+      "upscHighlights": [
+        "DPDP Act's phased implementation begins",
+        "Data Protection Board of India established",
+        "Landmark legislation for digital data privacy"
+      ],
+      "institutionalContext": "The Ministry of Electronics & Information Technology (MeitY) is the central government ministry responsible for IT policy, electronics industry, internet governance, and promoting digital inclusion and e-governance in India. It is the nodal body for crafting and implementing digital laws like the DPDP Act.",
+      "strategicImportance": "This legislation is crucial for understanding India's legal framework for digital governance, fundamental rights (Right to Privacy), and legislative processes, relevant for UPSC Mains papers on polity and governance. It directly impacts national security by addressing data sovereignty, cybersecurity strategies, and protection against data breaches. For defence aspirants, understanding data protection principles is vital given the increasing reliance on digital systems and data in modern warfare and intelligence. It provides rich content for discussions on ethics, privacy, technology's impact on society, and India's readiness for the digital age, relevant for assessing logical reasoning and general awareness in SSB and interviews.",
+      "quickSummary": "The Government of India has initiated the phased implementation of the Digital Personal Data Protection (DPDP) Act, 2023. This landmark legislation outlines comprehensive guidelines for processing digital personal data within India. Concurrently, it sets the framework for the newly constituted Data Protection Board of India (DPBI), which will be responsible for enforcing the Act, ensuring individuals' data protection rights, and imposing penalties for non-compliance and data breaches.",
+      "detailedAnalysis": "The DPDP Act 2023 is a significant legislative leap, aiming to provide a robust legal framework for data privacy in India, replacing disparate rules under the Information Technology Act, 2000. It categorizes entities into 'Data Principals' (individuals whose data is processed) and 'Data Fiduciaries' (entities determining purpose and means of processing). The Act introduces concepts like 'consent managers,' 'significant data fiduciaries,' and establishes the DPBI as an independent adjudicatory body. This move aligns India with global data protection standards (like GDPR) while addressing its unique digital landscape. The Act seeks to balance individual privacy rights with the legitimate needs of businesses and the government to process data, promoting trust in India's digital economy. Its phased implementation suggests a cautious approach to allow all stakeholders to adapt to the new regulations, ensuring a smoother transition to a more secure digital environment.",
+      "backgroundContext": "The journey towards a comprehensive data protection law in India gained momentum following the landmark Supreme Court judgment in *Justice K.S. Puttaswamy (Retd.) vs Union of India* (2017), which affirmed the Right to Privacy as a fundamental right under Article 21 of the Constitution. This led to the formation of the Srikrishna Committee, whose recommendations formed the basis for earlier drafts of data protection bills. Multiple attempts were made to introduce such legislation, culminating in the passing of the DPDP Act in August 2023. The rapid growth of India's digital economy, coupled with increasing instances of data breaches and concerns over surveillance, underscored the urgent need for a dedicated legal framework to safeguard personal data.",
+      "stakeholders": [
+        "Ministry of Electronics & Information Technology (MeitY)",
+        "Data Protection Board of India (DPBI)",
+        "Citizens / Data Principals (individuals whose data is processed)",
+        "Data Fiduciaries (companies, government bodies, startups processing personal data)",
+        "Indian Parliament",
+        "Judiciary",
+        "Cybersecurity agencies",
+        "Law enforcement agencies"
+      ],
+      "relatedTopics": [
+        "Right to Privacy (Article 21)",
+        "Cybersecurity Policy",
+        "Digital India Initiative",
+        "Information Technology Act, 2000",
+        "Fundamental Rights",
+        "E-governance",
+        "Data Sovereignty",
+        "Artificial Intelligence (AI) Governance"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the primary objective of the Digital Personal Data Protection (DPDP) Act?",
+          "What is the role and significance of the Data Protection Board of India (DPBI)?",
+          "Mention two key rights granted to 'Data Principals' under the DPDP Act."
+        ],
+        "interviewQuestions": [
+          "How does the DPDP Act balance individual privacy rights with national security concerns, particularly in the context of defence?",
+          "Discuss the challenges and opportunities for India's digital economy arising from the implementation of the DPDP Act.",
+          "In your opinion, is the DPDP Act sufficient to address future challenges in data privacy and artificial intelligence?"
+        ],
+        "ssbDiscussionTopics": [
+          "\"Data privacy is a luxury, not a necessity, for a developing nation like India.\" Discuss.",
+          "\"Balancing data innovation with robust data protection: India's critical challenge.\"",
+          "\"The role of the DPDP Act in safeguarding India's digital sovereignty and national security.\""
+        ]
       }
     },
     {
@@ -174,6 +511,51 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Belarus officially became the 10th permanent member of the SCO during the Astana Summit in July 2024, following Iran's admission in 2023."
+      },
+      "upscHighlights": [
+        "SCO Security Conference emphasizes counter-terrorism",
+        "India, China, Russia align on anti-terror drills",
+        "Regional economic connectivity discussed by SCO"
+      ],
+      "institutionalContext": "The Shanghai Cooperation Organisation (SCO) is a Eurasian political, economic, and security alliance. It is the world's largest regional organisation in terms of geographic scope and population, covering approximately 60% of the area of Eurasia, 40% of the world population, and more than 20% of global GDP.",
+      "strategicImportance": "For UPSC and Defence exams, the SCO is crucial as India is a full member. Understanding SCO's objectives, particularly its emphasis on counter-terrorism and regional security, is vital for questions on international relations, India's foreign policy, and defence strategy. It provides a platform for India to engage with key regional players like China, Russia, and Central Asian states on critical security and economic issues, despite bilateral differences.",
+      "quickSummary": "The Shanghai Cooperation Organisation (SCO) recently convened its heads of state security conference, focusing primarily on counter-terrorism, border security, and enhancing regional economic connectivity. Member nations, including significant players like India, Pakistan, China, and Russia, agreed to collaborate on joint anti-terror drills and strategize for effectively combating regional extremism and radicalisation.",
+      "detailedAnalysis": "The SCO's security conference underscores the organisation's core mandate of ensuring regional stability and security, with counter-terrorism consistently being a top priority. The emphasis on joint anti-terror drills and combatting regional extremism reflects a shared concern among member states regarding transnational terrorism and its potential to destabilise the vast Eurasian region. For India, active participation in such forums allows it to push its agenda on global counter-terrorism, share intelligence, and build consensus against terror financing and safe havens. Despite existing geopolitical tensions, particularly between India-China and India-Pakistan, the SCO provides a crucial multilateral platform for dialogue and cooperation on common threats, reinforcing the idea of 'common but differentiated responsibilities' in tackling regional challenges. The inclusion of regional economic connectivity highlights SCO's evolving scope beyond traditional security, aiming to foster greater trade and infrastructure development among member states.",
+      "backgroundContext": "The SCO was founded in 2001 by China, Russia, Kazakhstan, Kyrgyzstan, Tajikistan, and Uzbekistan, evolving from the 'Shanghai Five' mechanism established in 1996. Its primary goals include strengthening mutual trust and neighbourliness, promoting cooperation in politics, trade, economy, science, technology, culture, education, energy, transport, environmental protection, and other areas. India and Pakistan joined the SCO as full members in 2017, significantly expanding the organisation's geographic and demographic reach and bringing in two major South Asian powers.",
+      "stakeholders": [
+        "SCO Member States (India, China, Russia, Pakistan, Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan, Iran)",
+        "Regional Anti-Terrorist Structure (RATS SCO)",
+        "International counter-terrorism bodies"
+      ],
+      "relatedTopics": [
+        "International Organisations",
+        "Counter-Terrorism",
+        "Regional Security Architecture",
+        "India's Foreign Policy",
+        "Geopolitics of Eurasia",
+        "Border Management"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the primary security focuses of the SCO's recent conference?",
+          "Name two key member nations of the SCO that participated in the security conference.",
+          "When did India become a full member of the Shanghai Cooperation Organisation?"
+        ],
+        "interviewQuestions": [
+          "Discuss India's strategic interests and challenges within the Shanghai Cooperation Organisation.",
+          "How effective do you think multilateral platforms like the SCO are in combating global terrorism, especially given bilateral tensions among members?",
+          "Beyond security, what other areas of cooperation does the SCO focus on, and why are they important for regional stability?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of SCO in combating cross-border terrorism: A boon or a bust for regional peace?",
+          "India's participation in multilateral security organisations like SCO: Balancing national interests with regional cooperation.",
+          "Evaluating the effectiveness of joint military drills in building trust and combating common threats among diverse nations."
+        ]
       }
     },
     {
@@ -196,6 +578,51 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "French President Emmanuel Macron visited India as the Chief Guest for the Republic Day celebrations, signing key defence industrial roadmap pacts."
+      },
+      "upscHighlights": [
+        "Macron Chief Guest, 77th Republic Day",
+        "Defence Industrial Roadmap signed",
+        "Strengthened India-France strategic partnership"
+      ],
+      "institutionalContext": "The 77th Republic Day marks a significant national celebration of India's constitution and sovereignty, serving also as a crucial diplomatic platform for high-level state visits, such as that by the French President. A 'State Visit' is the highest form of diplomatic exchange, signifying profound bilateral relations and strategic importance.",
+      "strategicImportance": "This visit underscores India's commitment to diversifying its defence procurement, fostering 'Atmanirbhar Bharat' through co-development and co-production, and enhancing strategic autonomy. Strengthening ties with France, a key player in the Indo-Pacific, is vital for maintaining a rules-based international order, counterbalancing regional influences, and ensuring technological superiority in future warfare.",
+      "quickSummary": "French President Emmanuel Macron visited India as the Chief Guest for the 77th Republic Day, significantly boosting bilateral ties. Key outcomes included signing the Defence Industrial Roadmap for co-development of military hardware, strengthening overall defence cooperation, establishing joint defence space partnerships, and enhancing civil aviation collaboration through new MoUs, including the launch of a consulate in Marseille.",
+      "detailedAnalysis": "The visit underscored the robust and evolving strategic partnership between India and France, moving beyond a traditional buyer-seller dynamic. The 'Defence Industrial Roadmap' is a pivotal step towards joint research, development, and production of advanced military hardware, aligning perfectly with India's 'Atmanirbhar Bharat' initiative in defence. This collaboration extends to critical areas like space, with the launch of a joint defence space partnership, crucial for intelligence, surveillance, and reconnaissance capabilities. Furthermore, MoUs in civil aviation and the establishment of a French consulate in Marseille reflect a broadening of cooperation beyond traditional defence and strategic spheres, encompassing economic and people-to-people ties. The visit reinforced France's position as a key strategic partner for India in the Indo-Pacific region, emphasizing mutual trust and convergent geopolitical interests.",
+      "backgroundContext": "India and France established a strategic partnership in 1998, built on shared values and convergence on geopolitical issues, particularly in the Indo-Pacific. France has historically been a reliable defence supplier to India, providing critical platforms like Rafale fighter jets and Scorpene submarines without political conditionalities. Both nations are committed to a free, open, and rules-based order, and have actively engaged in multilateral forums. This visit further solidified a relationship rooted in decades of mutual trust and cooperation across nuclear energy, space, and defence sectors.",
+      "stakeholders": [
+        "India",
+        "France",
+        "Indian Ministry of Defence",
+        "French Ministry of Armed Forces",
+        "DRDO (Defence Research and Development Organisation)",
+        "Indian Space Research Organisation (ISRO)"
+      ],
+      "relatedTopics": [
+        "India-France Relations",
+        "Defence Diplomacy",
+        "Strategic Partnership",
+        "Indo-Pacific Geopolitics",
+        "Defence Acquisition",
+        "Space Cooperation"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the 'Defence Industrial Roadmap' signed between India and France?",
+          "Name two key outcomes of French President Macron's visit to India for the 77th Republic Day."
+        ],
+        "interviewQuestions": [
+          "How does the deepening of India-France defence cooperation align with India's broader foreign policy objectives, especially in the Indo-Pacific region?",
+          "Discuss the implications of a joint defence space partnership between India and France for regional security and India's technological self-reliance."
+        ],
+        "ssbDiscussionTopics": [
+          "The India-France strategic partnership is crucial for India's strategic autonomy and 'Atmanirbhar Bharat' goals.",
+          "Evaluate the role of defence diplomacy in strengthening bilateral ties and securing national interests in a multipolar world."
+        ]
       }
     }
   ],
@@ -220,6 +647,60 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "The Ministry of Defence approved the procurement of 97 additional indigenous LCA Tejas Mk-1A fighter jets from HAL."
+      },
+      "upscHighlights": [
+        "Mega boost for indigenous fighter jet procurement.",
+        "IAF to acquire 97 additional LCA Tejas Mk-1A.",
+        "Significant step towards Aatmanirbhar Bharat in defence.",
+        "Fleet modernization and enhanced combat strength.",
+        "Rs 67,000 crore order for HAL."
+      ],
+      "institutionalContext": "The Ministry of Defence (MoD) is the apex body responsible for the country's defence and security, overseeing procurement and policy formulation. The Indian Air Force (IAF) is the air arm of the Indian Armed Forces, focused on air superiority and national air defence. Hindustan Aeronautics Limited (HAL) is an Indian state-owned aerospace and defence company, a key player in the design, manufacture, and overhaul of aircraft and helicopters for the Indian Armed Forces.",
+      "strategicImportance": "This acquisition is strategically vital for India's national security and defence posture. It significantly boosts indigenous defence manufacturing under the 'Aatmanirbhar Bharat' initiative, reducing reliance on foreign suppliers and bolstering the domestic aerospace industry. Modernizing the IAF's aging fighter fleet, particularly replacing older MiG variants, is critical for maintaining air superiority and readiness in a dynamic regional security environment. It also strengthens India's industrial base, creates jobs, and fosters technological self-reliance, directly aligning with UPSC's focus on national security, defence policy, and economic development.",
+      "quickSummary": "The Ministry of Defence has approved a major proposal for the acquisition of 97 additional LCA Tejas Mk-1A fighter jets from Hindustan Aeronautics Limited (HAL) for the Indian Air Force. This significant order, valued at over Rs 67,000 crore, aims to bolster the IAF's combat squadron strength by replacing aging fighter aircraft and represents a major push towards indigenous defence manufacturing and self-reliance, aligning with the Aatmanirbhar Bharat vision.",
+      "detailedAnalysis": "The Tejas Mk-1A represents a significant upgrade over the initial Tejas Mk-1 variant, incorporating advanced avionics, an AESA (Active Electronically Scanned Array) radar, improved electronic warfare capabilities, and enhanced maintainability. This acquisition of 97 jets, in addition to the existing orders for 83 Mk-1A aircraft, is crucial for addressing the Indian Air Force's depleting squadron strength, which currently falls short of the sanctioned requirement. The Tejas program, spearheaded by the Aeronautical Development Agency (ADA) and manufactured by HAL, is a testament to India's growing capabilities in complex aeronautical engineering. This multi-billion dollar deal will not only provide critical modern fighter aircraft to the IAF but also provide a massive impetus to the domestic aerospace ecosystem, involving numerous MSMEs and private sector players in the supply chain, thereby fostering a robust defence industrial base.",
+      "backgroundContext": "The Light Combat Aircraft (LCA) program, which resulted in the Tejas, was initiated in the 1980s by the Government of India to develop an indigenous replacement for the Indian Air Force's aging MiG-21 fleet. After decades of development and initial operational clearance, the first Tejas squadron was formed in 2016. In February 2021, the MoD had already placed a significant order for 83 Tejas Mk-1A aircraft with HAL. This new order of 97 aircraft further solidifies the Tejas's role as the backbone of the IAF's future fighter fleet and is a direct continuation of India's long-standing push for self-reliance in defence production, which has gained significant momentum under the 'Make in India' and 'Aatmanirbhar Bharat' initiatives.",
+      "stakeholders": [
+        "Ministry of Defence (MoD)",
+        "Indian Air Force (IAF)",
+        "Hindustan Aeronautics Limited (HAL)",
+        "Aeronautical Development Agency (ADA)",
+        "Defence Research and Development Organisation (DRDO)",
+        "Indian Defence Industry (including MSMEs and private sector vendors)"
+      ],
+      "relatedTopics": [
+        "Defence Procurement Policy",
+        "Indigenization of Defence Technology",
+        "Aatmanirbhar Bharat in Defence",
+        "Indian Air Force Modernization",
+        "Aerospace Industry in India",
+        "Defence Exports",
+        "Make in India (Defence)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Tejas Mk-1A acquisition for the Indian Air Force's squadron strength?",
+          "Which public sector undertaking is primarily responsible for manufacturing the LCA Tejas?",
+          "How does the Tejas Mk-1A contribute to India's 'Aatmanirbhar Bharat' initiative in defence?",
+          "Name two key technological upgrades in the Tejas Mk-1A compared to its predecessor, Tejas Mk-1."
+        ],
+        "interviewQuestions": [
+          "Discuss the challenges and opportunities for India in achieving complete self-reliance in fighter jet manufacturing, referencing the Tejas program.",
+          "How will the large-scale induction of indigenous platforms like Tejas impact India's geopolitical standing and its ability to project power?",
+          "In your opinion, what further steps should India take to accelerate the modernization of its air force with indigenous systems, and what role can private industry play?",
+          "Evaluate the strategic importance of replacing aging fighter fleets with indigenously developed aircraft for India's national security."
+        ],
+        "ssbDiscussionTopics": [
+          "India's Journey Towards Self-Reliance in Defence Production: Achievements and Hurdles.",
+          "The Role of Indigenous Platforms like LCA Tejas in Enhancing India's Air Power and Strategic Autonomy.",
+          "Balancing Defence Imports with Domestic Manufacturing for Optimal National Security and Economic Growth.",
+          "Challenges and Opportunities for India in Becoming a Global Defence Manufacturing Hub."
+        ]
       }
     },
     {
@@ -242,6 +723,58 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "India suspended the Free Movement Regime (FMR) and ordered fencing along the entire 1,643 km border with Myanmar."
+      },
+      "upscHighlights": [
+        "Smart fence for entire 1,643 km India-Myanmar border announced.",
+        "Free Movement Regime (FMR) along Myanmar border to be terminated.",
+        "Aims to curb insurgency, illegal immigration, and drug trafficking."
+      ],
+      "institutionalContext": "The Ministry of Home Affairs (MHA) is the nodal ministry responsible for India's internal security and border management. It plays a crucial role in formulating policies, deploying border guarding forces, and overseeing infrastructure development for securing India's frontiers against various threats.",
+      "strategicImportance": "This decision is strategically vital for India's national security, directly addressing cross-border insurgency, illegal immigration, and drug trafficking which destabilize the Northeast region. It impacts India's Act East Policy, bilateral relations with Myanmar, and showcases a shift towards a more robust border management strategy. For UPSC/Defence aspirants, it highlights key aspects of internal security, geopolitics, and border defence challenges.",
+      "quickSummary": "The Central Government has announced a significant policy shift regarding border security with Myanmar, deciding to construct a smart fence along the entire 1,643 km stretch. Concurrently, the Free Movement Regime (FMR) will be terminated. This move, spearheaded by the Ministry of Home Affairs, aims to strengthen national border security protocols, primarily to curb insurgent movements, illegal immigration, and drug trafficking across the porous Indo-Myanmar border.",
+      "detailedAnalysis": "The decision to erect a 'smart fence' along the India-Myanmar border, coupled with the termination of the Free Movement Regime (FMR), marks a fundamental change in India's approach to its eastern frontier. The smart fence will integrate advanced surveillance technologies, sensors, and rapid response systems to monitor and control the largely unfenced and challenging terrain. The FMR, which allowed border residents free movement up to 16 km into each other's territory, has long been exploited by insurgent groups for movement and logistics, by drug cartels for trafficking, and has facilitated illegal immigration, particularly in the wake of Myanmar's internal instability. While crucial for national security, this termination will significantly impact local communities with historical and cultural ties across the border, necessitating careful implementation and addressing potential socio-economic ramifications.",
+      "backgroundContext": "The India-Myanmar border has historically been characterized by its porous nature and the Free Movement Regime (FMR), established to facilitate interaction among ethnic communities living on both sides who share common origins and cultural ties. However, this arrangement, along with the rugged and dense terrain, has increasingly posed security challenges for India. Insurgent groups from India's Northeast have long used the region as a sanctuary and transit route. Furthermore, the border has become a conduit for illegal immigration, arms smuggling, and a significant route for drug trafficking, particularly opiates from the Golden Triangle. Recent political instability in Myanmar has exacerbated these issues, intensifying the need for a more secure border.",
+      "stakeholders": [
+        "Ministry of Home Affairs (MHA)",
+        "Assam Rifles and other Border Guarding Forces",
+        "State Governments of Arunachal Pradesh, Nagaland, Manipur, Mizoram",
+        "Local border communities (e.g., Kuki-Chin, Naga groups)",
+        "Insurgent groups in Northeast India",
+        "Drug Trafficking Networks",
+        "Government of Myanmar"
+      ],
+      "relatedTopics": [
+        "India-Myanmar Relations",
+        "Internal Security",
+        "Border Management & Infrastructure",
+        "Insurgency in Northeast India",
+        "Drug Trafficking & Narco-Terrorism",
+        "Act East Policy",
+        "National Security Strategy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the total length of the India-Myanmar border proposed for smart fencing?",
+          "What does the term FMR stand for, and what was its primary purpose before termination?",
+          "Name two key security challenges that the smart fence project aims to address along the India-Myanmar border.",
+          "Which Indian states share a border with Myanmar?"
+        ],
+        "interviewQuestions": [
+          "Discuss the multi-faceted challenges involved in securing the India-Myanmar border and how the proposed 'smart fence' addresses them.",
+          "What are the potential socio-economic impacts of terminating the Free Movement Regime (FMR) on local communities, and how can they be mitigated?",
+          "Evaluate the geopolitical implications of India's decision to fortify its border with Myanmar, especially in the context of the current situation in Myanmar.",
+          "How does this initiative align with India's broader national security objectives and Act East Policy?"
+        ],
+        "ssbDiscussionTopics": [
+          "The fencing of the India-Myanmar border and termination of FMR: A necessary step for national security or a blow to regional connectivity and cultural ties?",
+          "Technology vs. human intelligence: Which plays a more critical role in effective border management, especially in challenging terrains?",
+          "The role of local communities in effective border management and counter-insurgency operations along the Indo-Myanmar border."
+        ]
       }
     },
     {
@@ -264,6 +797,56 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 0,
         "explanation": "Jagadguru Rambhadracharya (Sanskrit) and Gulzar (Urdu) were jointly selected for the 58th Jnanpith Award."
+      },
+      "upscHighlights": [
+        "58th Jnanpith Award conferred on Gulzar, Rambhadracharya.",
+        "India's highest literary honour celebrates Sanskrit, Urdu.",
+        "Recognizes outstanding lifetime contributions to Indian literature."
+      ],
+      "institutionalContext": "The Jnanpith Award is India's highest literary honour, presented annually by the Bharatiya Jnanpith, a literary and research organization established by the Sahu Jain family. Its primary objective is to promote Indian literature by recognizing outstanding contributions to any of the 22 languages listed in the Eighth Schedule of the Indian Constitution.",
+      "strategicImportance": "This information is crucial for defence aspirants as it falls under the 'Awards and Honours' and 'Important Personalities' sections of General Knowledge, which are high-scoring areas in all defence entrance examinations. Understanding India's cultural landscape and recognizing prominent figures in various fields is essential for a well-rounded candidate. It also tests awareness of national prestige and literary contributions.",
+      "quickSummary": "The prestigious 58th Jnanpith Award, India's highest literary honour, has been jointly conferred upon renowned Urdu poet and lyricist Gulzar, and esteemed Sanskrit scholar Jagadguru Rambhadracharya. This significant recognition acknowledges their profound and outstanding lifetime contributions to the promotion and enrichment of the Urdu and Sanskrit languages, respectively, reflecting India's rich linguistic diversity.",
+      "detailedAnalysis": "The selection of Gulzar and Jagadguru Rambhadracharya for the 58th Jnanpith Award highlights the award's commitment to recognizing literary excellence across India's diverse linguistic spectrum. Gulzar, a multifaceted personality, has enriched Indian cinema and literature with his poetic lyrics, screenplays, and direction, making Urdu poetry accessible and popular. Jagadguru Rambhadracharya, a polyglot and spiritual leader, is a towering figure in Sanskrit scholarship, known for his vast literary output, profound knowledge of Hindu scriptures, and efforts to preserve and promote the ancient language. This joint award underscores the Jnanpith Trust's role in fostering national integration through literature, celebrating both classical and modern forms, and honoring individuals whose work transcends linguistic boundaries to impact broader cultural consciousness.",
+      "backgroundContext": "The Jnanpith Award was instituted in 1961 by the Bharatiya Jnanpith, a trust founded by the Sahu Jain family. The award carries a cash prize of \u20b911 lakh, a citation, and a bronze replica of Vagdevi (Saraswati), the goddess of knowledge. It was first awarded in 1965 to G. Sankara Kurup for his Malayalam work. The award aims to encourage and celebrate original literary works in Indian languages, contributing significantly to the nation's literary heritage. Recipients are selected by a selection board comprising eminent literary critics, scholars, and writers.",
+      "stakeholders": [
+        "Bharatiya Jnanpith Trust",
+        "Gulzar (Sampooran Singh Kalra)",
+        "Jagadguru Rambhadracharya",
+        "Indian literary community",
+        "Sanskrit scholars and enthusiasts",
+        "Urdu poets and readers",
+        "Government of India (through recognition of national honours)"
+      ],
+      "relatedTopics": [
+        "Indian Literature",
+        "Awards and Honours in India",
+        "Indian Languages (Sanskrit, Urdu)",
+        "Cultural Heritage of India",
+        "Eminent Personalities",
+        "Current Affairs - National"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Who are the recipients of the 58th Jnanpith Award?",
+          "Which two languages were primarily recognized by the 58th Jnanpith Award?",
+          "What is the Jnanpith Award and by whom is it presented?",
+          "Name one significant contribution of Gulzar or Jagadguru Rambhadracharya."
+        ],
+        "interviewQuestions": [
+          "How do national literary awards like the Jnanpith contribute to the preservation and promotion of India's diverse cultural and linguistic heritage?",
+          "Discuss the significance of honoring both a classical language like Sanskrit and a modern literary language like Urdu simultaneously.",
+          "In your opinion, what role do artists and scholars play in shaping national identity and soft power?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of literature and arts in national integration and fostering a sense of unity among diverse communities.",
+          "Challenges and opportunities in promoting classical and regional languages in modern India.",
+          "Critically analyze the government's and private organizations' efforts in preserving and promoting Indian culture and literature."
+        ]
       }
     },
     {
@@ -286,6 +869,53 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Madhya Pradesh has the largest forest cover in the country by absolute area, whereas Mizoram leads by percentage of geographical area."
+      },
+      "upscHighlights": [
+        "Mizoram tops in percentage forest cover (over 84%).",
+        "Latest State of Forest Report (ISFR) findings.",
+        "Distinction: Percentage vs. absolute forest area."
+      ],
+      "institutionalContext": "The India State of Forest Report (ISFR) is a biennial publication by the Forest Survey of India (FSI), an organization under the Ministry of Environment, Forest and Climate Change (MoEFCC), Government of India. FSI is mandated with assessing and monitoring the forest and tree resources of the country.",
+      "strategicImportance": "This information is crucial for UPSC and Defence exams under Environment, Geography, and Current Affairs sections. Understanding forest cover statistics is essential for comprehending India's environmental health, biodiversity conservation efforts, and climate change mitigation strategies. For defence aspirants, it provides insight into national resource management, ecological profiles of border regions (like the North-East), and the broader context of sustainable development relevant to national security and resource resilience.",
+      "quickSummary": "The most recent State of Forest Report reveals that Mizoram leads all Indian states with the highest percentage of forest cover relative to its total geographical area, exceeding 84%. This statistic highlights Mizoram's significant green cover, while the report also distinguishes this from states like Madhya Pradesh, which continues to hold the largest absolute forest area in the country.",
+      "detailedAnalysis": "The India State of Forest Report (ISFR) serves as a vital tool for policy formulation and environmental planning, offering detailed insights into the country's forest and tree resources. Mizoram's consistent high percentage of forest cover (above 84%) is largely characteristic of the North-Eastern states, which benefit from unique biogeographical conditions, traditional community-led conservation practices, and relatively lower industrialization. This metric is significant as it indicates the proportion of a state's land dedicated to forests, emphasizing ecological integrity. However, it is essential to differentiate this from 'absolute forest area,' where states like Madhya Pradesh, given their larger size, hold the top position. The North-East region, despite its high forest cover, faces environmental challenges such as shifting cultivation (Jhum cultivation), infrastructure development, and potential climate change impacts, making regular monitoring through reports like ISFR critical for sustainable management and conservation efforts.",
+      "backgroundContext": "The India State of Forest Report (ISFR) is a comprehensive assessment of India's forest and tree resources, published biennially by the Forest Survey of India (FSI) since 1987. The report utilizes remote sensing data supplemented with extensive ground truthing to provide data on forest cover, tree cover, mangrove cover, growing stock, carbon stock, forest fires, and other crucial parameters. It is an indispensable resource for policymakers, researchers, and environmentalists for understanding the state and changes in India's forest resources.",
+      "stakeholders": [
+        "Mizoram State Government",
+        "Forest Survey of India (FSI)",
+        "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+        "Local Communities/Indigenous Tribes of Mizoram",
+        "Environmental Conservation Organizations"
+      ],
+      "relatedTopics": [
+        "Indian Geography (Forests)",
+        "Environmental Ecology and Biodiversity",
+        "Climate Change Mitigation",
+        "Sustainable Development",
+        "Government Policies (National Forest Policy)",
+        "Remote Sensing and GIS applications"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Which state in India has the highest percentage of forest cover?",
+          "Who publishes the India State of Forest Report (ISFR)?",
+          "Name a state that leads in absolute forest area in India."
+        ],
+        "interviewQuestions": [
+          "Discuss the factors contributing to high forest cover in North-Eastern states like Mizoram.",
+          "What are the challenges faced in maintaining and increasing forest cover in other parts of India?",
+          "How does the distinction between 'percentage forest cover' and 'absolute forest area' influence environmental policy?"
+        ],
+        "ssbDiscussionTopics": [
+          "Balancing economic development with forest conservation in ecologically sensitive regions.",
+          "The role of tribal communities in sustainable forest management in India.",
+          "Impact of climate change on India's forest ecosystems and mitigation strategies."
+        ]
       }
     },
     {
@@ -308,6 +938,53 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 0,
         "explanation": "Jannik Sinner won the Australian Open, defeating Daniil Medvedev, representing Italy's first singles title at the tournament."
+      },
+      "upscHighlights": [
+        "Jannik Sinner wins Australian Open Men's Singles title.",
+        "First Italian male to win Australian Open singles.",
+        "Maiden Grand Slam for Sinner, marking new era."
+      ],
+      "institutionalContext": "The Australian Open is one of the four Grand Slam tennis tournaments, alongside the French Open, Wimbledon, and the US Open. These are the most prestigious events in professional tennis, organized annually by Tennis Australia under the International Tennis Federation (ITF) rules, drawing top players globally.",
+      "strategicImportance": "This event holds significance for Defence Exams as sports achievements are a regular feature in the Current Affairs/General Knowledge section. Knowledge of major international sporting events and key personalities demonstrates a candidate's awareness of global happenings, often tested in NDA, CDS, and AFCAT exams. Moreover, it highlights national achievements and global recognition in sports.",
+      "quickSummary": "Jannik Sinner secured his historic maiden Grand Slam title at the Australian Open Men's Singles, defeating Daniil Medvedev in a thrilling five-set final. This victory is particularly notable as Sinner became the first Italian male player in history to win the Australian Open singles championship, signaling a significant shift and the emergence of new champions in men's tennis.",
+      "detailedAnalysis": "Jannik Sinner's triumph at the Australian Open marks a watershed moment in men's tennis, widely seen as a shift from the 'Big Three' era (Djokovic, Nadal, Federer). His victory over Daniil Medvedev, coming from two sets down, showcases resilience and mental fortitude, qualities often admired and tested in defence services. This win is Sinner's first Grand Slam title and follows a strong showing in the previous Davis Cup where he led Italy to victory. The win solidifies his position among the top echelons of men's tennis and fuels anticipation for future Grand Slams, highlighting the competitive global sporting landscape and the continuous rise of new talent.",
+      "backgroundContext": "Grand Slam tournaments are the four most important annual tennis events. The Australian Open, held in Melbourne, traditionally kicks off the tennis season in January. Winning a Grand Slam is considered the pinnacle of achievement for any professional tennis player. For decades, men's singles was dominated by Novak Djokovic, Rafael Nadal, and Roger Federer. The emergence of new champions like Sinner signifies a generational shift and injects fresh competition into the sport, which is closely watched by sports enthusiasts and current affairs examiners alike.",
+      "stakeholders": [
+        "Jannik Sinner (Player)",
+        "Daniil Medvedev (Opponent)",
+        "International Tennis Federation (ITF)",
+        "ATP (Association of Tennis Professionals)",
+        "Tennis Australia (Tournament Organizers)",
+        "Italian Tennis Federation"
+      ],
+      "relatedTopics": [
+        "Sports Current Affairs",
+        "Grand Slam Tennis Tournaments",
+        "International Sports Awards",
+        "Italian Sports Achievements",
+        "World Sports Federations"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Who won the Australian Open Men's Singles title in [current year]?",
+          "Which country does Jannik Sinner, the Australian Open champion, belong to?",
+          "What was Jannik Sinner's maiden Grand Slam title?"
+        ],
+        "interviewQuestions": [
+          "Discuss the significance of Jannik Sinner's Australian Open victory in the context of a 'new era' in men's tennis.",
+          "How do major international sporting events like the Australian Open contribute to a country's global soft power and image?",
+          "Beyond tennis, what other individual sporting achievements have recently made headlines globally, and what do they signify?"
+        ],
+        "ssbDiscussionTopics": [
+          "The impact of individual sporting success on national pride and international relations.",
+          "Challenges and opportunities for young athletes in global competitive sports post the era of established legends.",
+          "Sports as a medium for fostering international cooperation and healthy competition."
+        ]
       }
     },
     {
@@ -330,6 +1007,55 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 3,
         "explanation": "The Women's Reservation Bill was enacted as the 106th Constitutional Amendment Act, 2023."
+      },
+      "upscHighlights": [
+        "106th Constitutional Amendment implemented",
+        "33% women's reservation in Lok Sabha",
+        "Nari Shakti Vandan Adhiniyam now active"
+      ],
+      "institutionalContext": "The Parliament of India is the supreme legislative body of the Republic of India. It is a bicameral legislature consisting of the President of India and two houses: the Rajya Sabha (Council of States) and the Lok Sabha (House of the People). Its primary functions include making laws, approving the national budget, and amending the Constitution.",
+      "strategicImportance": "This legislation is highly significant for UPSC and Defence exams as it represents a major constitutional amendment impacting governance, social justice, and women's empowerment. It reflects a critical shift in India's democratic structure, directly relevant to topics like Indian Polity, Social Issues, Gender Studies, and Constitutional Law. Understanding its provisions, historical context, and potential impact is crucial for comprehensive exam preparation.",
+      "quickSummary": "The 'Nari Shakti Vandan Adhiniyam', officially the 106th Constitutional Amendment Act, has achieved its final implementation protocols. This landmark legislation mandates the reservation of one-third of seats for women in the Lok Sabha (House of the People) and all State Legislative Assemblies. It also includes sub-quotas for women belonging to Scheduled Castes and Scheduled Tribes within this reservation, aiming to significantly enhance women's political representation in India.",
+      "detailedAnalysis": "The implementation of the Nari Shakti Vandan Adhiniyam marks a pivotal moment in Indian political history. Passed unanimously by both houses of Parliament in September 2023 and receiving presidential assent, its final implementation protocols now set the stage for its actual application. However, a key clause stipulates that the reservation will come into effect only after the next Census and a subsequent delimitation exercise, which will redefine constituencies. This means the reservation is unlikely to be in force for the immediate Lok Sabha elections. The Act aims to correct the historical underrepresentation of women in national and state legislatures, with women currently holding only about 15% of Lok Sabha seats. While widely hailed as a progressive step towards gender equality and inclusive governance, discussions persist regarding the timeline for its actual enforcement and the potential impact on the political landscape and party dynamics.",
+      "backgroundContext": "The demand for women's reservation in legislative bodies has a long history in India, with attempts to introduce such legislation dating back to 1996. Multiple versions of the Women's Reservation Bill were introduced by successive governments but failed to pass due to lack of political consensus and strong opposition on various grounds. While women's reservation in Panchayati Raj Institutions (local self-governance bodies) was implemented through the 73rd and 74th Constitutional Amendments, extending it to Parliament and State Assemblies remained a contentious issue for decades, making the passage and implementation of the 106th Amendment a historic legislative achievement.",
+      "stakeholders": [
+        "Parliament of India",
+        "Women of India",
+        "Political Parties",
+        "Election Commission of India",
+        "State Legislative Assemblies",
+        "Delimitation Commission"
+      ],
+      "relatedTopics": [
+        "Constitutional Amendments",
+        "Women Empowerment",
+        "Electoral Reforms",
+        "Indian Polity",
+        "Social Justice",
+        "Democratic Governance",
+        "Delimitation"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the official name of the 106th Constitutional Amendment Act?",
+          "Which legislative bodies are covered under the Nari Shakti Vandan Adhiniyam?",
+          "What is the key condition for the actual implementation of women's reservation as per the Act?"
+        ],
+        "interviewQuestions": [
+          "Discuss the historical context and challenges faced in passing the Women's Reservation Bill.",
+          "How do you think the 106th Constitutional Amendment will impact the quality of governance in India?",
+          "What are the arguments for and against reservation for women in legislative bodies?"
+        ],
+        "ssbDiscussionTopics": [
+          "Women's Reservation Bill: A true catalyst for political empowerment or a symbolic gesture with delayed impact?",
+          "The role of affirmative action in promoting inclusive democracy in India.",
+          "Challenges and opportunities in achieving gender parity in Indian politics."
+        ]
       }
     },
     {
@@ -352,6 +1078,61 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 0,
         "explanation": "JNPT (Navi Mumbai) and Mundra/Kandla (Gujarat) are the primary western Indian ports designated to connect with the IMEC shipping route."
+      },
+      "upscHighlights": [
+        "IMEC operationalization meetings held",
+        "Focus on rail connectivity, green hydrogen grids",
+        "G20-launched mega infrastructure project"
+      ],
+      "institutionalContext": "The India-Middle East-Europe Economic Corridor (IMEC) is a multilateral initiative involving several nations and the European Union, conceptualized at the G20 Delhi Summit. While not an 'institution' in the traditional sense, it represents a significant collaborative framework between sovereign states and a major economic bloc.",
+      "strategicImportance": "IMEC holds immense strategic importance for India, aligning with its 'Act West' policy and enhancing its connectivity to the Middle East and Europe. From a defence perspective, it diversifies supply chains, bolsters economic security, and provides a significant geopolitical counterweight to China's Belt and Road Initiative (BRI). It can strengthen India's regional influence, facilitate faster deployment of goods, and potentially enable strategic partnerships with nations along the corridor, impacting maritime security and strategic choke points.",
+      "quickSummary": "Strategic meetings were recently held to advance the operationalization of the ambitious India-Middle East-Europe Economic Corridor (IMEC). These discussions focused on establishing dedicated working groups to drive progress in key areas like rail connectivity across the corridor and the development of green hydrogen grids. IMEC, a mega infrastructure project unveiled at the G20 Delhi Summit, aims to create a transformative economic route linking India to Europe via the UAE, Saudi Arabia, Jordan, and Israel through a network of shipping lanes and rail lines.",
+      "detailedAnalysis": "The operationalization meetings for IMEC signify a critical step forward from conceptualization to concrete implementation of this ambitious corridor. The formation of working groups on rail connectivity is crucial, as the overland rail network through the Middle East is a core component, complementing existing maritime routes. The focus on green hydrogen grids highlights a commitment to sustainable development and positions IMEC as a future-ready, energy-efficient corridor. This project is a multi-modal transportation network designed to facilitate trade, enhance economic integration, and improve energy security among the participating nations. Its potential impact extends beyond economics, offering a robust alternative to China's BRI and strengthening geopolitical alignments among democratic nations and key regional players.",
+      "backgroundContext": "The India-Middle East-Europe Economic Corridor (IMEC) was formally launched on the sidelines of the G20 Delhi Summit in September 2023, spearheaded by India, the USA, Saudi Arabia, the UAE, the European Union, France, Germany, and Italy. It is envisioned as a modern trade route aiming to enhance economic growth, reduce logistics costs, and improve connectivity between Asia, the Arabian Gulf, and Europe. IMEC is widely seen as a response and an alternative to China's expansive Belt and Road Initiative, offering a transparent, market-driven, and high-standard infrastructure partnership.",
+      "stakeholders": [
+        "India",
+        "United States of America",
+        "European Union",
+        "Saudi Arabia",
+        "United Arab Emirates (UAE)",
+        "France",
+        "Germany",
+        "Italy",
+        "Jordan",
+        "Israel"
+      ],
+      "relatedTopics": [
+        "Geopolitics and International Relations",
+        "Infrastructure Development",
+        "International Trade and Connectivity",
+        "Energy Security and Green Energy",
+        "G20 Summit Outcomes",
+        "Belt and Road Initiative (BRI)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the full form of IMEC?",
+          "Which international summit saw the launch of IMEC?",
+          "Name three key nations involved in the IMEC initiative.",
+          "What two specific areas are the working groups focusing on for IMEC operationalization?"
+        ],
+        "interviewQuestions": [
+          "Discuss the strategic implications of IMEC for India's foreign policy and economic growth.",
+          "How does IMEC position itself as a counterweight to China's Belt and Road Initiative?",
+          "What challenges do you foresee in the successful operationalization and long-term viability of the IMEC project?",
+          "Elaborate on the 'green hydrogen grids' component of IMEC and its significance."
+        ],
+        "ssbDiscussionTopics": [
+          "IMEC: A game-changer for global trade and India's geopolitical influence.",
+          "The role of mega infrastructure projects in fostering regional stability and economic cooperation.",
+          "Comparing IMEC and BRI: A battle for global connectivity and influence.",
+          "Sustainable infrastructure development as a pathway to energy security and economic prosperity."
+        ]
       }
     },
     {
@@ -374,6 +1155,58 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "MeitY is the nodal ministry executing the India Semiconductor Mission to establish an indigenous chip ecosystem."
+      },
+      "upscHighlights": [
+        "India's first commercial semiconductor fab approved.",
+        "Tata Electronics-PSMC JV in Dholera, Gujarat.",
+        "Boosts 'Make in India' under Semiconductor Mission."
+      ],
+      "institutionalContext": "The India Semiconductor Mission (ISM) is a specialized and independent business division within the Digital India Corporation, Ministry of Electronics and Information Technology (MeitY). Its primary role is to drive India's semiconductor and display manufacturing ecosystem. The Union Cabinet, led by the Prime Minister, provides final policy approval and significant investment clearances for such strategic projects.",
+      "strategicImportance": "This development is crucial for India's strategic autonomy and national security. Semiconductors are fundamental components for all modern electronics, from defence systems (missiles, radars, communication equipment) to critical infrastructure (power grids, telecommunications) and civilian applications (automobiles, computers, smartphones). Dependence on foreign supply chains for semiconductors poses significant vulnerabilities, especially during geopolitical tensions or global crises like the recent chip shortages. Establishing indigenous manufacturing capabilities under the 'Atmanirbhar Bharat' initiative enhances supply chain resilience, reduces import bills, fosters high-tech job creation, and positions India as a key player in the global technology landscape. For defence, it ensures secured access to critical components, reducing reliance on potentially hostile or unstable foreign sources.",
+      "quickSummary": "Under the aegis of the India Semiconductor Mission (ISM), the Union Cabinet has given its approval for the construction of the nation's inaugural commercial semiconductor fabrication facility. This landmark project, a joint venture between Tata Electronics and Taiwan's Powerchip Semiconductor Manufacturing Corp. (PSMC), will be established in Dholera, Gujarat. The foundry aims to produce a diverse range of chips essential for the automotive industry, power electronics applications, and various computing systems, significantly bolstering India's self-reliance in critical technology.",
+      "detailedAnalysis": "The approval for India's first commercial semiconductor fabrication unit marks a pivotal moment in the country's aspiration to become a global electronics manufacturing hub. The partnership between Tata Electronics, a leading Indian conglomerate, and PSMC, a seasoned Taiwanese chipmaker, brings together domestic investment muscle with crucial international technological expertise. The facility in Dholera, Gujarat, will focus on mature nodes, initially producing chips vital for sectors like electric vehicles, consumer electronics, industrial applications, and data centres, addressing a significant portion of India's current import dependence. This move aligns with the broader 'Make in India' and 'Atmanirbhar Bharat' initiatives, seeking to create a robust domestic ecosystem for semiconductor design, manufacturing, and packaging. The government's substantial Production Linked Incentive (PLI) schemes and policy support under the ISM are instrumental in attracting such high-capital, high-tech investments, de-risking ventures for global players, and fostering technological advancement within the country.",
+      "backgroundContext": "India's ambition to establish a semiconductor manufacturing base dates back decades but has faced various hurdles. The global chip shortage post-COVID-19 pandemic highlighted the critical necessity for diversified and resilient supply chains, accelerating government efforts. In December 2021, the Indian government launched the India Semiconductor Mission (ISM) with a massive incentive package of \u20b976,000 crore (approximately $10 billion) to attract investments in semiconductor and display manufacturing. This policy aims to build a comprehensive ecosystem from design to manufacturing and packaging. Prior to this approval, there have been several proposals for chip fabrication units, but this Tata-PSMC joint venture is the first to receive final commercial approval, indicating a significant step forward from policy intent to tangible execution.",
+      "stakeholders": [
+        "Tata Electronics",
+        "Powerchip Semiconductor Manufacturing Corp. (PSMC), Taiwan",
+        "Government of India (Union Cabinet, Ministry of Electronics and Information Technology - MeitY)",
+        "India Semiconductor Mission (ISM)",
+        "Government of Gujarat"
+      ],
+      "relatedTopics": [
+        "Make in India",
+        "Atmanirbhar Bharat",
+        "Electronics Manufacturing",
+        "Supply Chain Resilience",
+        "Foreign Direct Investment (FDI)",
+        "Bilateral Relations (India-Taiwan)",
+        "Critical and Emerging Technologies (CET)",
+        "Industrial Policy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the name of India's first commercial semiconductor fabrication facility and where is it located?",
+          "Which mission or policy initiative has facilitated the approval of this semiconductor fab?",
+          "Who are the key domestic and international partners involved in this semiconductor manufacturing venture?",
+          "Name two sectors that will benefit from the chips produced at this new fabrication facility."
+        ],
+        "interviewQuestions": [
+          "How will the establishment of India's first semiconductor fab contribute to its strategic autonomy and national security?",
+          "Discuss the challenges India might face in becoming a significant global player in semiconductor manufacturing and how they can be overcome.",
+          "What role do government incentives and international collaborations play in fostering a high-tech manufacturing ecosystem like semiconductors?",
+          "Analyze the geopolitical implications of global semiconductor supply chain reliance, with a specific focus on India's position."
+        ],
+        "ssbDiscussionTopics": [
+          "The role of 'Atmanirbhar Bharat' in strengthening India's defence and economic capabilities.",
+          "India's technological leap: From software services to high-tech manufacturing.",
+          "Balancing global partnerships with indigenous development for critical technologies.",
+          "The impact of semiconductor self-reliance on India's future economic growth and geopolitical standing."
+        ]
       }
     }
   ],
@@ -398,6 +1231,59 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 0,
         "explanation": "Mission Divyastra was the code name for the first successful flight test of the indigenous Agni-V missile with MIRV technology."
+      },
+      "upscHighlights": [
+        "Agni-V successfully tested with MIRV technology.",
+        "Mission Divyastra enhances India's deterrence.",
+        "India joins elite MIRV-capable nations."
+      ],
+      "institutionalContext": "The Defence Research and Development Organisation (DRDO) is India's premier agency responsible for the research, design, and development of state-of-the-art defence technologies and weapon systems for the Indian Armed Forces. It plays a crucial role in achieving self-reliance in defence.",
+      "strategicImportance": "This achievement significantly boosts India's strategic deterrence capabilities, aligning with its 'Credible Minimum Deterrence' policy. MIRV technology allows a single missile to deliver multiple nuclear warheads to different targets, making missile defence systems less effective and enhancing the survivability and destructive potential of India's retaliatory strike capability. It solidifies India's position as a major military power and strengthens its 'No First Use' doctrine by ensuring a robust second-strike option.",
+      "quickSummary": "DRDO successfully conducted the maiden flight test of the indigenously developed Agni-V missile, equipped with Multiple Independently Targetable Re-entry Vehicle (MIRV) technology, under 'Mission Divyastra'. This groundbreaking test enables a single Agni-V missile to deliver multiple nuclear warheads to different targets spread over thousands of kilometers, significantly enhancing India's strategic capabilities and reinforcing its nuclear deterrent.",
+      "detailedAnalysis": "The successful test of the Agni-V missile with MIRV technology under Mission Divyastra marks a monumental leap in India's defence capabilities. MIRV technology allows a single ballistic missile to carry multiple nuclear warheads, each capable of being directed to a different target. This capability offers several strategic advantages: it can overwhelm an adversary's missile defence systems by presenting numerous targets simultaneously, it increases the cost-effectiveness of delivering warheads, and it enhances the overall lethality and reach of a nation's nuclear arsenal. Agni-V, an Intercontinental Ballistic Missile (ICBM) with a range of over 5,000 km, already provided India with strategic depth. The addition of MIRV makes it a formidable platform, elevating India into an exclusive group of nations (U.S., Russia, China, UK) possessing this advanced technology. This development significantly strengthens India's 'Credible Minimum Deterrence' posture and its 'No First Use' nuclear doctrine by guaranteeing a devastating retaliatory strike capability, even against sophisticated missile defence systems.",
+      "backgroundContext": "The Agni missile series is part of India's Integrated Guided Missile Development Program (IGMDP), initiated in 1983. The Agni series comprises surface-to-surface ballistic missiles, with Agni-V being the most advanced, having an operational range of over 5,000 km, bringing almost all of Asia and parts of Europe and Africa within its strike envelope. India adopted a 'No First Use' (NFU) nuclear doctrine in 1999, which is underpinned by the principle of 'Credible Minimum Deterrence.' This doctrine necessitates a robust and survivable nuclear arsenal capable of inflicting unacceptable damage in retaliation. The development of MIRV technology for Agni-V is a direct response to strengthening this credible minimum deterrence, ensuring that India's nuclear deterrent remains effective and resilient against evolving threats and missile defence systems.",
+      "stakeholders": [
+        "Defence Research and Development Organisation (DRDO)",
+        "Strategic Forces Command (SFC)",
+        "Ministry of Defence, Government of India",
+        "Indian Armed Forces"
+      ],
+      "relatedTopics": [
+        "Ballistic Missiles",
+        "Nuclear Deterrence",
+        "Integrated Guided Missile Development Program (IGMDP)",
+        "Nuclear Triad",
+        "Missile Defence Systems",
+        "India's Nuclear Doctrine",
+        "Agni Missile Series"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is MIRV technology and its significance?",
+          "Explain 'Mission Divyastra'.",
+          "How does Agni-V with MIRV enhance India's strategic capabilities?",
+          "Name the countries known to possess MIRV technology.",
+          "What is India's 'Credible Minimum Deterrence' policy?"
+        ],
+        "interviewQuestions": [
+          "How does the successful test of Agni-V with MIRV impact India's 'No First Use' nuclear doctrine?",
+          "Discuss the geopolitical implications of India acquiring MIRV capability.",
+          "What are the challenges and future prospects for India's missile technology development?",
+          "How does indigenous development of such advanced technology contribute to 'Atmanirbhar Bharat' in defence?",
+          "Beyond deterrence, what other strategic advantages does MIRV technology offer to India?"
+        ],
+        "ssbDiscussionTopics": [
+          "'India's acquisition of MIRV technology for Agni-V will lead to an arms race in the subcontinent.' Discuss.",
+          "The ethical implications of developing advanced nuclear missile technology.",
+          "How does Agni-V MIRV strengthen India's position in regional power dynamics, particularly concerning China and Pakistan?",
+          "Balancing technological advancement in defence with global disarmament efforts.",
+          "The role of indigenous defence technology in national security and economic growth."
+        ]
       }
     },
     {
@@ -420,6 +1306,53 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "INS Jatayu was commissioned on Minicoy Island, Lakshadweep, representing India's second naval base in the archipelago after INS Dweeprakshak in Kavaratti."
+      },
+      "upscHighlights": [
+        "INS Jatayu commissioned at Minicoy Island, Lakshadweep",
+        "Boosts Indian Navy's maritime domain awareness in Indian Ocean",
+        "Strengthens operational surveillance and anti-piracy capabilities"
+      ],
+      "institutionalContext": "The Indian Navy, a crucial arm of India's armed forces, is responsible for safeguarding India's maritime interests, securing its vast coastline, and ensuring the safety of sea lanes of communication. The commissioning of new bases like INS Jatayu is part of its ongoing strategy to expand its operational reach and enhance its presence in strategically vital regions.",
+      "strategicImportance": "The commissioning of INS Jatayu is paramount for India's strategic interests in the Indian Ocean Region (IOR). Minicoy Island's proximity to the crucial 9 Degree Channel, a major global shipping lane, allows for enhanced surveillance, anti-piracy operations, and prompt response capabilities. This move significantly bolsters India's maritime security posture, projects its power, counters potential rival influences (e.g., China's growing presence), and reinforces the 'Security and Growth for All in the Region' (SAGAR) vision. It also strengthens the defence of India's island territories, which are vital for Exclusive Economic Zone (EEZ) protection and resource security.",
+      "quickSummary": "The Indian Navy has commissioned INS Jatayu, a new naval base at Minicoy Island in the Lakshadweep archipelago. This state-of-the-art facility is designed to significantly enhance India's maritime domain awareness, strengthen operational surveillance, support anti-piracy operations, and ensure the security of vital Sea Lines of Communication in the Indian Ocean Region, thereby extending the Navy's operational reach.",
+      "detailedAnalysis": "The establishment of INS Jatayu at Minicoy is a significant strategic leap for the Indian Navy. Minicoy, the southernmost island of Lakshadweep, is strategically located close to the 9 Degree Channel, which witnesses the transit of a substantial volume of global commercial and energy traffic. This base will enable real-time monitoring of maritime activities, improve intelligence gathering, and provide logistic support for naval operations, including long-range patrol aircraft and warships. It fills a critical void in India's surveillance network in the Arabian Sea, complementing existing bases and strengthening the overall maritime security grid. The base's capabilities will include enhanced radar and communication systems, berthing facilities, and logistical support, thereby allowing for sustained naval presence and quick deployment in response to emerging threats or humanitarian crises.",
+      "backgroundContext": "India's maritime security strategy has evolved significantly, driven by the increasing geopolitical competition in the IOR and the necessity to protect its vast coastline and island territories. The Andaman and Nicobar Islands in the east and the Lakshadweep Islands in the west are critical outposts. While the Andaman & Nicobar Command is India's only tri-service command, the Lakshadweep group has historically received less attention in terms of dedicated naval infrastructure. The growing presence of extra-regional navies, particularly China, coupled with persistent threats like piracy, arms, and drug trafficking, has necessitated a stronger Indian naval footprint. The commissioning of INS Jatayu follows the operationalization of INS Baaz in the Andaman & Nicobar Islands, reflecting a concerted effort to fortify India's island chains and implement its SAGAR doctrine.",
+      "stakeholders": [
+        "Indian Navy",
+        "Ministry of Defence, Government of India",
+        "Lakshadweep Administration",
+        "Indian Coast Guard",
+        "Littoral states in the Indian Ocean Region"
+      ],
+      "relatedTopics": [
+        "Maritime Security",
+        "Geopolitics of the Indian Ocean",
+        "Naval Infrastructure Development",
+        "Island Defence Strategy",
+        "Exclusive Economic Zone (EEZ) Protection",
+        "SAGAR Doctrine"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Where is INS Jatayu commissioned?",
+          "What is the primary objective of INS Jatayu?",
+          "Which strategic channel is Minicoy Island located near?"
+        ],
+        "interviewQuestions": [
+          "Discuss the strategic significance of Lakshadweep Islands for India's maritime security.",
+          "How does the commissioning of INS Jatayu impact India's 'Security and Growth for All in the Region' (SAGAR) vision?",
+          "Compare the strategic importance of India's eastern (Andaman & Nicobar) vs. western (Lakshadweep) island territories."
+        ],
+        "ssbDiscussionTopics": [
+          "The role of India's island territories in securing its maritime interests and projecting power.",
+          "Debate: Is India's current naval infrastructure adequate to counter emerging threats in the Indian Ocean Region?",
+          "How can India leverage its geographical advantages to enhance maritime domain awareness and ensure regional stability?"
+        ]
       }
     },
     {
@@ -442,18 +1375,63 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "AlphaFold is an AI program designed to predict 3D protein structures from their amino acid sequences with atomic-level accuracy."
+      },
+      "upscHighlights": [
+        "AlphaFold 3 predicts molecular structures, interactions.",
+        "Revolutionizes drug discovery, biological understanding.",
+        "Google DeepMind advances AI for life sciences."
+      ],
+      "institutionalContext": "Google DeepMind is a leading artificial intelligence research laboratory, part of Google/Alphabet, known for pioneering significant breakthroughs in AI, including AlphaGo (defeating human Go champions) and previous iterations of AlphaFold (solving the protein folding problem). Their work often pushes the boundaries of machine learning for complex scientific challenges.",
+      "strategicImportance": "This breakthrough has profound strategic implications for India. It can significantly accelerate drug and vaccine development, crucial for national health security, especially in managing pandemics and endemic diseases. For defence, it aids in understanding biological threats, developing countermeasures, and potentially in advanced materials science. Faster and more precise drug discovery reduces R&D costs, strengthens the pharmaceutical sector, and enhances India's scientific and technological self-reliance, aligning with 'Atmanirbhar Bharat' initiatives in critical sectors. Understanding complex biological interactions can also contribute to biodefense strategies and research into novel therapies.",
+      "quickSummary": "Google DeepMind's AlphaFold 3 is a revolutionary AI model released with unprecedented accuracy in predicting the structures and intricate interactions of proteins, DNA, RNA, and various chemical compounds. This advancement drastically reduces the timeframes for drug discovery and deepens our understanding of fundamental biological processes within cells.",
+      "detailedAnalysis": "AlphaFold 3 represents a significant leap from its predecessors, moving beyond merely predicting individual protein structures to modeling how these proteins interact with a vast array of other biological molecules, including DNA, RNA, ligands, and small molecules. This holistic understanding of molecular interactions is critical because most biological functions and diseases stem from these complex interplay. By precisely predicting these interactions, AlphaFold 3 can accelerate the design of new drugs, optimize existing therapies, and uncover the mechanisms of various diseases at an atomic level. Its potential impact spans across pharmaceutical research, biotechnology, agriculture, and fundamental biological science, promising a new era of 'in silico' (computational) discovery that complements traditional experimental methods.",
+      "backgroundContext": "The 'protein folding problem' \u2013 determining a protein's 3D structure from its amino acid sequence \u2013 has been a grand challenge in biology for over 50 years. AlphaFold 2, released in 2020, largely solved this for individual proteins, earning widespread acclaim. AlphaFold 3 builds upon this foundation by tackling the more complex 'interaction problem,' predicting not just how a protein folds, but how it binds and interacts with other molecules, which is essential for understanding biological function and drug action. This evolution signifies a continuous advancement in AI's capability to decode the fundamental language of life.",
+      "stakeholders": [
+        "Google DeepMind / Alphabet",
+        "Global Scientific Community",
+        "Pharmaceutical Industry",
+        "Biotechnology Sector",
+        "Healthcare Providers",
+        "Academic Research Institutions",
+        "Governments (Health & Science Ministries)"
+      ],
+      "relatedTopics": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Biotechnology",
+        "Bioinformatics",
+        "Drug Discovery & Development",
+        "Molecular Biology",
+        "Genetics",
+        "National Health Policy",
+        "Science & Technology Policy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the primary capability of AlphaFold 3?",
+          "Name two types of biological molecules AlphaFold 3 predicts interactions for.",
+          "How is AlphaFold 3 an advancement over its previous versions?"
+        ],
+        "interviewQuestions": [
+          "Discuss the strategic importance of AI advancements in biotechnology for India's national security and healthcare sectors.",
+          "What are the ethical considerations surrounding powerful AI models like AlphaFold 3, particularly in fields like drug discovery and genetic research?",
+          "How can India leverage or contribute to breakthroughs like AlphaFold 3 to enhance its scientific prowess and global standing?"
+        ],
+        "ssbDiscussionTopics": [
+          "AI in Healthcare: A Game-Changer for India's National Preparedness and Economic Growth.",
+          "The role of international collaboration versus self-reliance in cutting-edge scientific research."
+        ]
       }
     },
     {
       "id": "mar-4",
       "topic": "Indian Administration",
       "text": "The President of India appointed the new **Chief Election Commissioner (CEC)** and Election Commissioners under the newly enacted Chief Election Commissioner Act, 2023.",
-      "details": {
-        "winner": "Election Commission of India",
-        "award": "CEC and EC Appointments",
-        "nationality": "Indian",
-        "summary": "Appointments made by a committee comprising the Prime Minister, a Union Cabinet Minister, and the Leader of Opposition/Single Largest Party in Lok Sabha."
-      },
       "mcq": {
         "question": "Who appoints the Chief Election Commissioner and other Election Commissioners in India?",
         "options": [
@@ -464,18 +1442,30 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "Under Article 324 of the Constitution, the President of India appoints the CEC and ECs, based on recommendations of a selection committee."
+      },
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Indian Administration",
+        "inDepthAnalysis": "Appointments made by a committee comprising the Prime Minister, a Union Cabinet Minister, and the Leader of Opposition/Single Largest Party in Lok Sabha.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Indian Administration section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Indian Administration on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
       }
     },
     {
       "id": "mar-5",
       "topic": "Environment",
       "text": "The United Nations Environment Programme (UNEP) presented the **Champions of the Earth** award, recognizing pioneering efforts to combat plastic pollution globally.",
-      "details": {
-        "winner": "Global Eco-Activists",
-        "award": "UNEP Champions of the Earth",
-        "nationality": "International",
-        "summary": "The UN's highest environmental honor, awarded annually to outstanding leaders from government, civil society, and the private sector."
-      },
       "mcq": {
         "question": "The 'Champions of the Earth' award is the highest environmental honor of which international organization?",
         "options": [
@@ -486,18 +1476,30 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "The 'Champions of the Earth' is the United Nations Environment Programme's (UNEP) flagship environmental award."
+      },
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Environment",
+        "inDepthAnalysis": "The UN's highest environmental honor, awarded annually to outstanding leaders from government, civil society, and the private sector.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Environment section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Environment on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
       }
     },
     {
       "id": "mar-6",
       "topic": "National Legislation",
       "text": "The Ministry of Home Affairs notified the rules for the implementation of the **Citizenship (Amendment) Act (CAA)**, allowing eligible refugees to apply for Indian citizenship.",
-      "details": {
-        "winner": "Ministry of Home Affairs",
-        "award": "CAA Rules Notification",
-        "nationality": "Indian",
-        "summary": "Enables Hindus, Sikhs, Buddhists, Jains, Parsis, and Christians from Pakistan, Bangladesh, and Afghanistan who entered India before Dec 31, 2014, to obtain citizenship."
-      },
       "mcq": {
         "question": "The Citizenship (Amendment) Act rules benefit migrants belonging to how many specified non-Muslim communities?",
         "options": [
@@ -508,18 +1510,30 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "The CAA applies to 6 religious minorities: Hindus, Sikhs, Buddhists, Jains, Parsis, and Christians."
+      },
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: National Legislation",
+        "inDepthAnalysis": "Enables Hindus, Sikhs, Buddhists, Jains, Parsis, and Christians from Pakistan, Bangladesh, and Afghanistan who entered India before Dec 31, 2014, to obtain citizenship.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the National Legislation section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to National Legislation on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
       }
     },
     {
       "id": "mar-7",
       "topic": "Environment",
       "text": "The Supreme Court of India set up a committee to protect the **Great Indian Bustard (GIB)** from extinction, balancing conservation with solar power line infrastructure in Rajasthan.",
-      "details": {
-        "winner": "Wildlife Conservationists",
-        "award": "GIB Conservation Committee",
-        "nationality": "Indian (Thar Desert)",
-        "summary": "Urgent conservation efforts for the critically endangered GIB, which faces high mortality rates due to collisions with overhead power lines."
-      },
       "mcq": {
         "question": "Under the IUCN Red List, the Great Indian Bustard is categorized as:",
         "options": [
@@ -530,18 +1544,30 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "The Great Indian Bustard is categorized as Critically Endangered due to its extremely small and declining population."
+      },
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Environment",
+        "inDepthAnalysis": "Urgent conservation efforts for the critically endangered GIB, which faces high mortality rates due to collisions with overhead power lines.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Environment section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Environment on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
       }
     },
     {
       "id": "mar-8",
       "topic": "International Relations",
       "text": "India signed a historic **Trade and Economic Partnership Agreement (TEPA)** with the European Free Trade Association (EFTA) bloc, committing $100 billion in investments.",
-      "details": {
-        "winner": "India & EFTA States",
-        "award": "India-EFTA TEPA Pact",
-        "nationality": "India & Switzerland, Norway, Iceland, Liechtenstein",
-        "summary": "A free trade agreement boosting trade in services and goods, with a landmark commitment of $100 billion FDI into India over 15 years."
-      },
       "mcq": {
         "question": "Which of the following European nations is NOT a member of the EFTA bloc that signed the TEPA pact with India?",
         "options": [
@@ -552,6 +1578,24 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 3,
         "explanation": "Sweden is a member of the European Union (EU), not EFTA. EFTA consists of Switzerland, Norway, Iceland, and Liechtenstein."
+      },
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: International Relations",
+        "inDepthAnalysis": "A free trade agreement boosting trade in services and goods, with a landmark commitment of $100 billion FDI into India over 15 years.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the International Relations section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to International Relations on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
       }
     }
   ],
@@ -578,7 +1622,25 @@ let CURRENT_AFFAIRS_DB = {
         "Focused on exchange of experiences in counter-terrorism, hostage rescue, and operational tactics in mountainous terrain."
       ],
       "institutionalContext": "India & Kyrgyzstan",
-      "strategicImportance": "Exercise Khanjar is the annual bilateral special forces joint training drill conducted between India and Kyrgyzstan."
+      "strategicImportance": "Exercise Khanjar is the annual bilateral special forces joint training drill conducted between India and Kyrgyzstan.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Bilateral Drills",
+        "inDepthAnalysis": "The 11th edition of the Joint Special Forces Exercise **'KHANJAR'** between **India** and **Kyrgyzstan** concluded at Bakloh, Himachal Pradesh.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Bilateral Drills section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Bilateral Drills on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "apr-2",
@@ -602,7 +1664,25 @@ let CURRENT_AFFAIRS_DB = {
         "A cornerstone of Indo-French strategic partnership, featuring advanced anti-submarine drills, tactical maneuvers, and combat simulations."
       ],
       "institutionalContext": "Indian Navy & French Navy",
-      "strategicImportance": "Exercise Varuna is the annual bilateral maritime exercise conducted jointly by the Indian Navy and French Navy."
+      "strategicImportance": "Exercise Varuna is the annual bilateral maritime exercise conducted jointly by the Indian Navy and French Navy.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Joint Drills",
+        "inDepthAnalysis": "The bilateral naval exercise **'Varuna'** between the **Indian Navy** and **French Navy** was conducted in the Mediterranean Sea, involving aircraft carriers and guided destroyers.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Joint Drills section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Joint Drills on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "apr-3",
@@ -626,7 +1706,25 @@ let CURRENT_AFFAIRS_DB = {
         "Honored with Best Global Music Performance and Best Contemporary Instrumental Album, alongside banjo legend B\u00c3\u00a9la Fleck and table maestro Zakir Hussain."
       ],
       "institutionalContext": "Rakesh Chaurasia",
-      "strategicImportance": "Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri)."
+      "strategicImportance": "Rakesh Chaurasia, nephew of Pandit Hariprasad Chaurasia, is a world-renowned exponent of the Indian bamboo flute (Bansuri).",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Arts & Music",
+        "inDepthAnalysis": "Indian flute maestro **Rakesh Chaurasia** won two Grammy Awards at the prestigious ceremony in Los Angeles for his collaboration album 'As We Speak'.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Arts & Music section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Arts & Music on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "apr-4",
@@ -650,7 +1748,25 @@ let CURRENT_AFFAIRS_DB = {
         "A two-stage canisterised solid propellant ballistic missile with a range capability of 1,000 to 2,000 km, exhibiting high accuracy."
       ],
       "institutionalContext": "SFC & DRDO",
-      "strategicImportance": "Agni-Prime is a medium-range canisterised ballistic missile with an operational range between 1,000 and 2,000 km."
+      "strategicImportance": "Agni-Prime is a medium-range canisterised ballistic missile with an operational range between 1,000 and 2,000 km.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Defence Testing",
+        "inDepthAnalysis": "Strategic Forces Command (SFC) successfully test-fired the new-generation nuclear-capable ballistic missile **Agni-Prime** from APJ Abdul Kalam Island off the coast of Odisha.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Defence Testing section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Defence Testing on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "apr-5",
@@ -674,7 +1790,25 @@ let CURRENT_AFFAIRS_DB = {
         "A planned small space station in lunar orbit intended to serve as a solar-powered communication hub, science laboratory, and short-term habitation module."
       ],
       "institutionalContext": "NASA, ESA, JAXA",
-      "strategicImportance": "The Lunar Gateway is an essential component of NASA's Artemis program, serving as a multi-purpose outpost orbiting the Moon to support long-term lunar exploration."
+      "strategicImportance": "The Lunar Gateway is an essential component of NASA's Artemis program, serving as a multi-purpose outpost orbiting the Moon to support long-term lunar exploration.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Science & Tech",
+        "inDepthAnalysis": "NASA announced that its **Lunar Gateway** space station program is progressing, with key modules developed in partnership with ESA and JAXA.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Science & Tech section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Science & Tech on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "apr-6",
@@ -698,7 +1832,25 @@ let CURRENT_AFFAIRS_DB = {
         "Acts as a single-window, independent nodal agency under the Department of Space to authorize and regulate private space sector activities in India."
       ],
       "institutionalContext": "IN-SPACe",
-      "strategicImportance": "IN-SPACe is headquartered in Bopal, Ahmedabad, Gujarat."
+      "strategicImportance": "IN-SPACe is headquartered in Bopal, Ahmedabad, Gujarat.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Science & Tech",
+        "inDepthAnalysis": "The **Indian Space Promotion and Authorization Centre (IN-SPACe)** issued detailed guidelines for space activities, facilitating private sector participation in satellite ground stations.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Science & Tech section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Science & Tech on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "apr-7",
@@ -722,7 +1874,25 @@ let CURRENT_AFFAIRS_DB = {
         "A market-based mechanism designed to incentivize voluntary environmental actions by individuals, communities, and private sectors through tradable green credits."
       ],
       "institutionalContext": "Ministry of Environment",
-      "strategicImportance": "The Global Green Credit Initiative was launched by Prime Minister Narendra Modi at the UN Climate Change Conference (COP28) in Dubai in 2023."
+      "strategicImportance": "The Global Green Credit Initiative was launched by Prime Minister Narendra Modi at the UN Climate Change Conference (COP28) in Dubai in 2023.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Environment",
+        "inDepthAnalysis": "The Ministry of Environment, Forest and Climate Change notified the operational guidelines for the **Green Credit Programme (GCP)**, focusing on water conservation and afforestation.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Environment section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Environment on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "apr-8",
@@ -746,7 +1916,25 @@ let CURRENT_AFFAIRS_DB = {
         "Enables Indian tourists to make instant QR-code merchant payments in Mauritius and Sri Lanka, and allows local cross-border remittances."
       ],
       "institutionalContext": "NPCI International",
-      "strategicImportance": "France was the first European nation to accept UPI, starting at the Eiffel Tower, through an agreement with Lyra Network."
+      "strategicImportance": "France was the first European nation to accept UPI, starting at the Eiffel Tower, through an agreement with Lyra Network.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Economy",
+        "inDepthAnalysis": "The National Payments Corporation of India (NPCI) expanded its international operations, officially launching **Unified Payments Interface (UPI)** services in Mauritius and Sri Lanka.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Economy section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Economy on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     }
   ],
   "May 2026": [
@@ -772,7 +1960,25 @@ let CURRENT_AFFAIRS_DB = {
         "GSAT-20 is a high-throughput Ka-band satellite weighing 4,700 kg, designed to provide high-speed internet connectivity to rural India."
       ],
       "institutionalContext": "ISRO & SpaceX",
-      "strategicImportance": "The GSAT (Geosynchronous Satellite) series comprises India's indigenously developed communications satellites."
+      "strategicImportance": "The GSAT (Geosynchronous Satellite) series comprises India's indigenously developed communications satellites.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Space & Defence",
+        "inDepthAnalysis": "ISRO partnered with SpaceX to launch India's heavy communications satellite, **GSAT-20 (GSAT-N2)**, onboard a Falcon 9 rocket from Cape Canaveral.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Space & Defence section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Space & Defence on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "may-2",
@@ -796,7 +2002,25 @@ let CURRENT_AFFAIRS_DB = {
         "A state-of-the-art BVR air-to-air missile designed to engage and destroy highly maneuvering supersonic aerial targets at ranges up to 110 km."
       ],
       "institutionalContext": "IAF & DRDO",
-      "strategicImportance": "Astra is India's first indigenous Beyond Visual Range (BVR) Air-to-Air missile."
+      "strategicImportance": "Astra is India's first indigenous Beyond Visual Range (BVR) Air-to-Air missile.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Air Force Aviation",
+        "inDepthAnalysis": "The Indian Air Force successfully integrated and fired the indigenous **Astra Mk-1 Beyond Visual Range (BVR)** air-to-air missile from Su-30MKI fighter jets.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Air Force Aviation section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Air Force Aviation on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "may-3",
@@ -820,7 +2044,25 @@ let CURRENT_AFFAIRS_DB = {
         "Solidified his top rank in global javelin throw, asserting dominance in the international athletic track and field circuit."
       ],
       "institutionalContext": "Neeraj Chopra",
-      "strategicImportance": "Neeraj Chopra won the historic gold medal at the Tokyo 2020 Olympic Games (held in 2021) with a throw of 87.58m."
+      "strategicImportance": "Neeraj Chopra won the historic gold medal at the Tokyo 2020 Olympic Games (held in 2021) with a throw of 87.58m.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Sports Awards",
+        "inDepthAnalysis": "Neeraj Chopra clinched the gold medal at the prestigious **Doha Diamond League** meeting, executing a spectacular throw of 88.36 meters.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Sports Awards section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Sports Awards on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "may-4",
@@ -844,7 +2086,25 @@ let CURRENT_AFFAIRS_DB = {
         "Mass bleaching caused by thermal stress, leading to the expulsion of symbiotic algae (zooxanthellae) and threatening the reef ecosystem."
       ],
       "institutionalContext": "Marine Biologists",
-      "strategicImportance": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia."
+      "strategicImportance": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Environment",
+        "inDepthAnalysis": "Scientists reported severe coral bleaching events in the **Great Barrier Reef** due to rising sea surface temperatures in the Coral Sea off Australia.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Environment section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Environment on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "may-5",
@@ -868,7 +2128,25 @@ let CURRENT_AFFAIRS_DB = {
         "Designed to protect consumers by mandating that businesses provide verifiable evidence and third-party audits for any 'eco-friendly' or 'organic' claims."
       ],
       "institutionalContext": "CCPA / Govt of India",
-      "strategicImportance": "The Central Consumer Protection Authority (CCPA) was established under the Consumer Protection Act, 2019, to protect and enforce consumer rights."
+      "strategicImportance": "The Central Consumer Protection Authority (CCPA) was established under the Consumer Protection Act, 2019, to protect and enforce consumer rights.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Indian Administration",
+        "inDepthAnalysis": "The **Central Consumer Protection Authority (CCPA)** issued strict guidelines targeting greenwashing and misleading environmental claims in advertising.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Indian Administration section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Indian Administration on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "may-6",
@@ -892,7 +2170,25 @@ let CURRENT_AFFAIRS_DB = {
         "A constitutional body established to support coordination, policy debates, and dispute resolution between the Center and States."
       ],
       "institutionalContext": "Inter-State Council",
-      "strategicImportance": "Article 263 of the Constitution provides for the setting up of an Inter-State Council by the President."
+      "strategicImportance": "Article 263 of the Constitution provides for the setting up of an Inter-State Council by the President.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: National GK",
+        "inDepthAnalysis": "The Union Government reconstituted the standing committee of the **Inter-State Council**, chaired by the Union Home Minister, to promote cooperative federalism.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the National GK section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to National GK on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "may-7",
@@ -916,7 +2212,25 @@ let CURRENT_AFFAIRS_DB = {
         "A strategic port agreement circumventing Pakistan to access Central Asia and landlocked Afghanistan, linking to the INSTC corridor."
       ],
       "institutionalContext": "India IPGL & Iran Port Authority",
-      "strategicImportance": "Chabahar Port is located on the Makran coast of Iran, along the Gulf of Oman, offering direct access to the Indian Ocean."
+      "strategicImportance": "Chabahar Port is located on the Makran coast of Iran, along the Gulf of Oman, offering direct access to the Indian Ocean.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: International Relations",
+        "inDepthAnalysis": "India and Iran signed a long-term **Chabahar Port Bilateral Agreement**, allowing India to operate the Shahid Beheshti terminal for a period of 10 years.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the International Relations section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to International Relations on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "may-8",
@@ -940,7 +2254,25 @@ let CURRENT_AFFAIRS_DB = {
         "A national initiative to establish an AI compute infrastructure with 10,000+ GPUs, develop native LLMs, and fund AI startups."
       ],
       "institutionalContext": "Digital India Corporation",
-      "strategicImportance": "The mission aims to build a public-private AI compute capacity of 10,000 or more graphics processing units (GPUs) to support research."
+      "strategicImportance": "The mission aims to build a public-private AI compute capacity of 10,000 or more graphics processing units (GPUs) to support research.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Science & Tech",
+        "inDepthAnalysis": "The Union Cabinet approved the **IndiaAI Mission** budget of Rs 10,372 crore, focusing on building high-performance AI compute capacity through public-private partnerships.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Science & Tech section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Science & Tech on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     }
   ],
   "June 2026": [
@@ -1166,7 +2498,25 @@ let CURRENT_AFFAIRS_DB = {
         "Vagsheer is the final submarine built under the technology transfer agreement with France's Naval Group, featuring advanced acoustic silencing."
       ],
       "institutionalContext": "Indian Navy & MDL",
-      "strategicImportance": "Vagsheer is the final submarine built under the technology transfer agreement with France's Naval Group, featuring advanced acoustic silencing."
+      "strategicImportance": "Vagsheer is the final submarine built under the technology transfer agreement with France's Naval Group, featuring advanced acoustic silencing.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Submarine Procurement",
+        "inDepthAnalysis": "The Indian Navy successfully completed trials of the sixth Scorpene-class submarine, **Vagsheer**, under Project-75, preparing it for active deployment.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Submarine Procurement section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Submarine Procurement on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "jun-2",
@@ -1190,7 +2540,25 @@ let CURRENT_AFFAIRS_DB = {
         "Recognized for the outstanding work of fiction translated into English, exploring a destructive love affair in East Berlin during the fall of the GDR."
       ],
       "institutionalContext": "Jenny Erpenbeck",
-      "strategicImportance": "Recognized for the outstanding work of fiction translated into English, exploring a destructive love affair in East Berlin during the fall of the GDR."
+      "strategicImportance": "Recognized for the outstanding work of fiction translated into English, exploring a destructive love affair in East Berlin during the fall of the GDR.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Literature Awards",
+        "inDepthAnalysis": "German author Jenny Erpenbeck won the **International Booker Prize** for her novel 'Kairos', translated into English by Michael Hofmann.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Literature Awards section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Literature Awards on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "jun-3",
@@ -1214,7 +2582,25 @@ let CURRENT_AFFAIRS_DB = {
         "Elections held to replace outgoing members, maintaining the geographical balance of the 10 non-permanent members of the council."
       ],
       "institutionalContext": "Elected UN Nations",
-      "strategicImportance": "Elections held to replace outgoing members, maintaining the geographical balance of the 10 non-permanent members of the council."
+      "strategicImportance": "Elections held to replace outgoing members, maintaining the geographical balance of the 10 non-permanent members of the council.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: World Administration",
+        "inDepthAnalysis": "The United Nations General Assembly elected five new non-permanent members to the **UN Security Council (UNSC)** for a two-year term.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the World Administration section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to World Administration on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "jun-4",
@@ -1238,7 +2624,25 @@ let CURRENT_AFFAIRS_DB = {
         "Designed to host friendly foreign countries, enhancing air operations collaboration, defense diplomacy, and interoperability."
       ],
       "institutionalContext": "Indian Air Force",
-      "strategicImportance": "Designed to host friendly foreign countries, enhancing air operations collaboration, defense diplomacy, and interoperability."
+      "strategicImportance": "Designed to host friendly foreign countries, enhancing air operations collaboration, defense diplomacy, and interoperability.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Defence Drills",
+        "inDepthAnalysis": "The Indian Air Force prepared deployment assets for **'Tarang Shakti'**, planned as the largest multinational air combat exercise hosted on Indian soil.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Defence Drills section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Defence Drills on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "jun-5",
@@ -1262,7 +2666,25 @@ let CURRENT_AFFAIRS_DB = {
         "A major military reform merging individual army, air force, and navy commands into unified theater commands for joint warfighting."
       ],
       "institutionalContext": "Chief of Defence Staff (CDS)",
-      "strategicImportance": "A major military reform merging individual army, air force, and navy commands into unified theater commands for joint warfighting."
+      "strategicImportance": "A major military reform merging individual army, air force, and navy commands into unified theater commands for joint warfighting.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: National Security",
+        "inDepthAnalysis": "The office of the **Chief of Defence Staff (CDS)** announced new directives to establish integrated theater commands, dividing India's defense sectors into geographic theaters.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the National Security section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to National Security on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "jun-6",
@@ -1286,7 +2708,25 @@ let CURRENT_AFFAIRS_DB = {
         "A global biodiversity pact adopted at COP15 in Montreal, containing 4 global goals and 23 targets to address the biodiversity crisis."
       ],
       "institutionalContext": "Ministry of Environment",
-      "strategicImportance": "A global biodiversity pact adopted at COP15 in Montreal, containing 4 global goals and 23 targets to address the biodiversity crisis."
+      "strategicImportance": "A global biodiversity pact adopted at COP15 in Montreal, containing 4 global goals and 23 targets to address the biodiversity crisis.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Environment",
+        "inDepthAnalysis": "India aligned its national conservation programs with the **Kunming-Montreal Global Biodiversity Framework (GBF)**, aiming to protect 30% of land and sea by 2030 (30x30 Target).",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Environment section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Environment on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "jun-7",
@@ -1310,7 +2750,25 @@ let CURRENT_AFFAIRS_DB = {
         "A multilateral peace conference aimed at finding diplomatic paths to end the conflict, focusing on food security, prisoner exchange, and nuclear plant safety."
       ],
       "institutionalContext": "Federal Council of Switzerland",
-      "strategicImportance": "A multilateral peace conference aimed at finding diplomatic paths to end the conflict, focusing on food security, prisoner exchange, and nuclear plant safety."
+      "strategicImportance": "A multilateral peace conference aimed at finding diplomatic paths to end the conflict, focusing on food security, prisoner exchange, and nuclear plant safety.",
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: International GK",
+        "inDepthAnalysis": "The **Global Peace Summit on Ukraine** was hosted in B\u00c3\u00bcrgenstock, Switzerland, with representatives from over 90 countries discussing sovereignty and nuclear security.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the International GK section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to International GK on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
+      }
     },
     {
       "id": "jun-8",
@@ -1752,12 +3210,6 @@ let CURRENT_AFFAIRS_DB = {
       "id": "jul-1",
       "topic": "Naval Inductions",
       "text": "The Indian Navy commissioned **INS Mahendragiri**, the sixth and final ship of the Nilgiri-class (Project 17A) stealth frigates, at the Naval Dockyard in Visakhapatnam.",
-      "details": {
-        "winner": "Indian Navy",
-        "award": "INS Mahendragiri Commissioned",
-        "nationality": "India",
-        "summary": "The vessel was designed by the Navy's Warship Design Bureau and built by Mazagon Dock Shipbuilders Limited (MDL)."
-      },
       "mcq": {
         "question": "Which of the following is the final stealth frigate commissioned under Project 17A by the Indian Navy?",
         "options": [
@@ -1768,18 +3220,30 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "INS Mahendragiri is the final ship of the Project 17A stealth frigates, commissioned in July 2026."
+      },
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Naval Inductions",
+        "inDepthAnalysis": "The vessel was designed by the Navy's Warship Design Bureau and built by Mazagon Dock Shipbuilders Limited (MDL).",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Naval Inductions section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Naval Inductions on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
       }
     },
     {
       "id": "jul-2",
       "topic": "Defence Procurements",
       "text": "The Defence Acquisition Council (DAC) granted Acceptance of Necessity (AoN) for proposals worth approximately **\u20b952,000 crore**, including HAMMER missiles and Man-Portable Anti-Tank Guided Missiles (MP-ATGMs).",
-      "details": {
-        "winner": "Ministry of Defence",
-        "award": "\u20b952k Cr DAC Approval",
-        "nationality": "India",
-        "summary": "Approvals were granted for HAMMER precision-guided missiles, MP-ATGMs, and Verba air defence systems."
-      },
       "mcq": {
         "question": "The Defence Acquisition Council recently approved the procurement of which precision-guided missiles under a \u20b952,000 crore deal?",
         "options": [
@@ -1790,18 +3254,30 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "The DAC granted AoN for HAMMER precision-guided missiles along with MP-ATGMs and Verba air defence systems."
+      },
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Defence Procurements",
+        "inDepthAnalysis": "Approvals were granted for HAMMER precision-guided missiles, MP-ATGMs, and Verba air defence systems.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Defence Procurements section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Defence Procurements on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
       }
     },
     {
       "id": "jul-3",
       "topic": "Defence Technology",
       "text": "The Request for Proposal (RFP) for the indigenous **Advanced Medium Combat Aircraft (AMCA)**, a fifth-generation fighter jet, was issued to private-sector-led consortia.",
-      "details": {
-        "winner": "Indian Air Force",
-        "award": "AMCA RFP Issued",
-        "nationality": "India",
-        "summary": "This marks a major step towards developing India's indigenous fifth-generation stealth fighter capabilities."
-      },
       "mcq": {
         "question": "India's upcoming indigenous fifth-generation fighter jet program is officially known by which acronym?",
         "options": [
@@ -1812,18 +3288,30 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 2,
         "explanation": "AMCA stands for Advanced Medium Combat Aircraft, which is India's fifth-generation stealth fighter jet program."
+      },
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Defence Technology",
+        "inDepthAnalysis": "This marks a major step towards developing India's indigenous fifth-generation stealth fighter capabilities.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Defence Technology section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Defence Technology on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
       }
     },
     {
       "id": "jul-4",
       "topic": "Joint Exercises",
       "text": "Indian Army personnel participated in the 23rd edition of the multinational peacekeeping exercise **'Khaan Quest 2026'** held in Mongolia.",
-      "details": {
-        "winner": "Indian Army",
-        "award": "Ex Khaan Quest 2026",
-        "nationality": "Mongolia",
-        "summary": "The exercise focuses on enhancing interoperability and sharing best practices in UN peacekeeping missions."
-      },
       "mcq": {
         "question": "In which country was the multinational peacekeeping exercise 'Khaan Quest 2026' held?",
         "options": [
@@ -1834,18 +3322,30 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Exercise Khaan Quest is a multinational peacekeeping exercise hosted annually in Mongolia."
+      },
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Joint Exercises",
+        "inDepthAnalysis": "The exercise focuses on enhancing interoperability and sharing best practices in UN peacekeeping missions.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Joint Exercises section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Joint Exercises on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
       }
     },
     {
       "id": "jul-5",
       "topic": "Defence Technology",
       "text": "DRDO successfully flight-tested the upgraded long-range guided version of the **Pinaka** rocket system.",
-      "details": {
-        "winner": "DRDO",
-        "award": "Pinaka Rocket Tested",
-        "nationality": "India",
-        "summary": "The guided Pinaka system provides enhanced precision and extended range for artillery strikes."
-      },
       "mcq": {
         "question": "Pinaka, which was recently successfully flight-tested by the DRDO, is a type of what?",
         "options": [
@@ -1856,6 +3356,24 @@ let CURRENT_AFFAIRS_DB = {
         ],
         "correct": 1,
         "explanation": "Pinaka is an indigenous multiple rocket launcher system developed by the DRDO for the Indian Army."
+      },
+      "detailedAnalysis": {
+        "quickSummary": "Key Highlights: Defence Technology",
+        "inDepthAnalysis": "The guided Pinaka system provides enhanced precision and extended range for artillery strikes.",
+        "backgroundContext": "This development is highly relevant for upcoming defense examinations, particularly in the Defence Technology section. Understanding the core implications is essential for SSB interviews."
+      },
+      "examRelevance": {
+        "nda": "Highly relevant for Polity, History, and Current Events sections.",
+        "cds": "Crucial for detailed statement-based questions and deep analysis.",
+        "afcat": "Important for direct one-liner General Knowledge questions."
+      },
+      "ssbScenarios": {
+        "scenario1": "Group Discussion: Discuss the broader impact of developments related to Defence Technology on national security and administration.",
+        "scenario2": "Personal Interview: Be prepared to express a balanced opinion on this recent event."
+      },
+      "doubts": {
+        "doubt1": "Why is this important for defense exams? - It directly relates to the syllabus covering national and international affairs.",
+        "doubt2": "Is this a static GK topic or current affairs? - This is primarily current affairs but links closely with static topics like Polity and Geography."
       }
     },
     {
