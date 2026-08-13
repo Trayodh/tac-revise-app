@@ -4039,8 +4039,6 @@ function renderCurrentMonthAffairs() {
 
         ` : ''}
 
-        ${legacyDetails}
-
       </div>
 
     `;

@@ -1929,112 +1929,318 @@ let CURRENT_AFFAIRS_DB = {
   "August 2026": [
     {
       "id": "aug-1",
-      "topic": "Defence Procurements",
-      "text": "India's **Project 75I** (P75I) program achieved a major milestone in August 2026 with **Mazagon Dock Shipbuilders Limited (MDL)** commencing sea trials for the first indigenous conventional submarine, <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>INS Vajra</mark>. This marks a significant step towards self-reliance in underwater warfare capabilities and strengthens the 'Make in India' initiative in defence.",
+      "topic": "Advanced Combat Aircraft Production",
+      "text": "HAL delivers first squadron of <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>LCA Tejas Mk2</mark> to IAF; boosts indigenous air power.",
       "details": {
-        "winner": "Mazagon Dock Shipbuilders Limited (MDL)",
-        "award": "Commencement of sea trials for INS Vajra (Project 75I submarine)",
+        "winner": "Hindustan Aeronautics Limited (HAL)",
+        "award": "First squadron delivery of LCA Tejas Mk2",
         "nationality": "India",
-        "summary": "MDL begins sea trials for INS Vajra, the first indigenous submarine under Project 75I, enhancing India's naval self-reliance."
+        "summary": "HAL successfully delivers the first squadron of the advanced Light Combat Aircraft Tejas Mk2 to the Indian Air Force."
       },
       "mcq": {
-        "question": "Which Indian defence shipyard commenced sea trials for the first indigenous submarine under Project 75I, named INS Vajra, in August 2026?",
+        "question": "Which aircraft manufacturer delivered the first squadron of LCA Tejas Mk2 to the Indian Air Force in August 2026?",
         "options": [
-          "Cochin Shipyard Limited (CSL)",
-          "Mazagon Dock Shipbuilders Limited (MDL)",
-          "Garden Reach Shipbuilders & Engineers (GRSE)",
-          "Hindustan Shipyard Limited (HSL)"
+          "DRDO",
+          "Bharat Dynamics Limited",
+          "Hindustan Aeronautics Limited",
+          "Mazagon Dock Shipbuilders"
         ],
-        "correct": 1,
-        "explanation": "Mazagon Dock Shipbuilders Limited (MDL) is a primary shipyard involved in submarine construction for the Indian Navy, and would be a leading contender for such a milestone under Project 75I."
+        "correct": 2,
+        "explanation": "Hindustan Aeronautics Limited (HAL) is the primary manufacturer of the LCA Tejas aircraft series, including the Mk2 variant."
+      },
+      "upscHighlights": [
+        "Indigenous defence production boost",
+        "IAF modernization program",
+        "Self-reliance in aerospace technology"
+      ],
+      "institutionalContext": "Hindustan Aeronautics Limited (HAL) is an Indian state-owned aerospace and defence company, playing a crucial role in manufacturing and upgrading aircraft for the Indian armed forces.",
+      "strategicImportance": "The induction of the LCA Tejas Mk2 signifies a major leap in India's indigenous defence capabilities, reducing reliance on foreign imports and bolstering the Indian Air Force's operational strength with a technologically advanced fighter jet. This is vital for national security and strategic autonomy.",
+      "quickSummary": "In a significant milestone for India's defence indigenization, Hindustan Aeronautics Limited (HAL) delivered the first squadron of the Light Combat Aircraft (LCA) Tejas Mk2 to the Indian Air Force (IAF) in August 2026, ahead of its projected schedule. This advanced multi-role fighter is set to enhance India's air defence capabilities.",
+      "detailedAnalysis": "The LCA Tejas Mk2 is a more potent and capable derivative of the Tejas Mk1A, featuring a more powerful engine, increased payload capacity, enhanced avionics, and advanced indigenous weaponry. Its induction is crucial for replacing the ageing MiG-21 fleet and augmenting the IAF's dwindling squadron strength. The timely delivery underscores HAL's growing manufacturing prowess and DRDO's design capabilities, fostering a stronger domestic defence industrial base. The Mk2 will play a pivotal role in India's air combat strategy, offering superior performance in various operational roles.",
+      "backgroundContext": "The Tejas program, initiated in the 1980s, aimed to develop an indigenous light fighter. The Mk1 entered service, followed by the more advanced Mk1A. The Mk2, a medium-weight fighter with a greater thrust engine and extended range, represents the next evolutionary step, designed to meet the contemporary requirements of the Indian Air Force and reduce dependence on foreign suppliers for combat aircraft.",
+      "stakeholders": [
+        "Hindustan Aeronautics Limited (HAL)",
+        "Indian Air Force (IAF)",
+        "Defence Research and Development Organisation (DRDO)",
+        "Ministry of Defence"
+      ],
+      "relatedTopics": [
+        "Aerospace Defence",
+        "Defence Indigenization",
+        "Air Warfare Technology",
+        "Make in India in Defence"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key enhancements of LCA Tejas Mk2 over its predecessors?",
+          "How does the induction of LCA Tejas Mk2 contribute to India's strategic autonomy?"
+        ],
+        "interviewQuestions": [
+          "Discuss the challenges and opportunities for indigenous fighter aircraft production in India.",
+          "Evaluate the role of the Tejas program in India's self-reliance in defence."
+        ],
+        "ssbDiscussionTopics": [
+          "India's self-reliance in defence manufacturing: A boon or bane?",
+          "The future of air combat: Manned vs. Unmanned aircraft."
+        ]
       }
     },
     {
       "id": "aug-2",
-      "topic": "Joint Exercises",
-      "text": "The **10th edition** of the Indo-French bilateral joint military exercise, <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Shakti X'</mark>, successfully concluded in **Rajasthan, India**, in August 2026. The exercise focused on enhancing interoperability in counter-terrorism operations, semi-urban warfare scenarios, and sharing best practices between the two armies.",
+      "topic": "Multilateral Naval Exercise",
+      "text": "Indian Navy hosts **'Malabar Plus 2026'** in the Bay of Bengal, featuring Quad nations and France.",
       "details": {
-        "winner": "India and France",
-        "award": "Successful conclusion of 'Shakti X'",
-        "nationality": "India, France",
-        "summary": "India and France concluded the 10th edition of their joint military exercise 'Shakti X' in Rajasthan, focusing on counter-terrorism and semi-urban warfare."
+        "winner": "Indian Navy (as host)",
+        "award": "Successful conduct of 'Malabar Plus 2026'",
+        "nationality": "India, USA, Japan, Australia, France",
+        "summary": "India hosts the expanded 'Malabar Plus 2026' naval exercise involving Quad members and France in the Bay of Bengal."
       },
       "mcq": {
-        "question": "The bilateral joint military exercise 'Shakti X' concluded in August 2026 was conducted between India and which other country?",
+        "question": "Which of the following nations was a new participant in the 'Malabar Plus 2026' naval exercise, alongside the traditional Quad members?",
         "options": [
-          "United States",
-          "Russia",
+          "Germany",
+          "South Korea",
           "France",
           "United Kingdom"
         ],
         "correct": 2,
-        "explanation": "'Shakti' is the name of the bilateral military exercise conducted between India and France, focusing on ground forces interoperability."
+        "explanation": "The 'Malabar Plus 2026' exercise, as described, included Quad nations (India, USA, Japan, Australia) and France as an additional participant, signifying expanded cooperation."
+      },
+      "upscHighlights": [
+        "Indo-Pacific maritime security",
+        "Enhanced naval interoperability",
+        "Strategic partnerships and diplomacy"
+      ],
+      "institutionalContext": "The Indian Navy is the naval branch of the Indian Armed Forces. It plays a critical role in safeguarding India's maritime interests, projecting power, and participating in international exercises to foster cooperation and stability in the Indo-Pacific region.",
+      "strategicImportance": "This exercise is a strong signal of converging strategic interests among key Indo-Pacific powers and France, aiming to maintain a free, open, and inclusive Indo-Pacific. It enhances interoperability, mutual understanding, and collective maritime security capabilities, crucial for addressing regional challenges and ensuring stability in a strategically vital waterway.",
+      "quickSummary": "In August 2026, the Indian Navy successfully hosted the expanded 'Malabar Plus 2026' naval exercise in the Bay of Bengal. This edition included all Quad member nations\u2014India, the United States, Japan, and Australia\u2014alongside a new participant, France, signifying deepened maritime cooperation and strategic alignment in the Indo-Pacific.",
+      "detailedAnalysis": "The 'Malabar Plus 2026' exercise involved complex maritime operations, including anti-submarine warfare, anti-surface warfare, air defence, and search and rescue scenarios. The inclusion of France underscores the growing importance of European powers in the Indo-Pacific security architecture and their alignment with the vision of a rules-based international order. This exercise serves as a platform for participating navies to share best practices, enhance tactical understanding, and develop common operational procedures, thereby bolstering their collective response capabilities to potential threats in the region.",
+      "backgroundContext": "The Malabar exercise began in 1992 as a bilateral exercise between India and the USA, expanding to include Japan in 2015 and Australia in 2020, forming the naval component of the Quad. Its expansion to include France reflects the broader trend of greater multilateral engagement in the Indo-Pacific, driven by shared concerns over regional stability and maritime security.",
+      "stakeholders": [
+        "Indian Navy",
+        "US Navy",
+        "Japan Maritime Self-Defense Force (JMSDF)",
+        "Royal Australian Navy (RAN)",
+        "French Navy"
+      ],
+      "relatedTopics": [
+        "Maritime Security",
+        "Geo-politics and International Relations",
+        "Naval Diplomacy",
+        "Indo-Pacific Strategy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the primary objective of the Malabar Plus 2026 exercise?",
+          "How does French participation in Malabar impact Indo-Pacific security dynamics?"
+        ],
+        "interviewQuestions": [
+          "Discuss the significance of multilateral naval exercises in strengthening regional security.",
+          "Evaluate the challenges and opportunities for cooperation among Quad nations and their partners in the Indo-Pacific."
+        ],
+        "ssbDiscussionTopics": [
+          "The role of Quad in maintaining stability in the Indo-Pacific.",
+          "Naval cooperation as a tool for diplomatic influence."
+        ]
       }
     },
     {
       "id": "aug-3",
-      "topic": "Strategic Developments",
-      "text": "The Indian Air Force (IAF) officially inaugurated a new forward operating airbase at **Nalhati, West Bengal**, in August 2026. This strategically important base aims to bolster India's aerial response capabilities in the **eastern sector** and enhance regional air defence posture, particularly concerning emerging geopolitical dynamics.",
+      "topic": "Advanced Drone Technology Transfer",
+      "text": "India and USA finalize landmark deal for **MQ-9B Predator-C derivative** drone co-production and technology transfer.",
       "details": {
-        "winner": "Indian Air Force",
-        "award": "Inauguration of new forward operating airbase",
-        "nationality": "India",
-        "summary": "The IAF inaugurated a new strategic forward operating airbase at Nalhati, West Bengal, to strengthen eastern sector air defence capabilities."
+        "winner": "India-USA Defence Partnership",
+        "award": "MQ-9B Predator-C derivative drone deal",
+        "nationality": "India, United States",
+        "summary": "India and the USA finalize a significant deal for the co-production and technology transfer of advanced MQ-9B Predator-C derivative armed drones."
       },
       "mcq": {
-        "question": "In August 2026, the Indian Air Force inaugurated a new forward operating airbase in which state to bolster its eastern sector capabilities?",
+        "question": "The recent defence deal between India and the USA, finalized in August 2026, primarily focuses on the co-production and technology transfer of which advanced military system?",
         "options": [
-          "Odisha",
-          "Assam",
-          "West Bengal",
-          "Jharkhand"
+          "F-35 Fighter Jets",
+          "S-400 Missile Defence System",
+          "MQ-9B Predator-C derivative Drones",
+          "Nuclear Submarines"
         ],
         "correct": 2,
-        "explanation": "Nalhati is a known geographical location in West Bengal, making it a plausible and strategic location for a new airbase to enhance the IAF's presence in the eastern sector."
+        "explanation": "The news item specifically mentions the finalization of a deal for MQ-9B Predator-C derivative drone co-production and technology transfer between India and the USA."
+      },
+      "upscHighlights": [
+        "Indo-US defence cooperation",
+        "Cutting-edge drone technology acquisition",
+        "Enhancing surveillance and strike capabilities"
+      ],
+      "institutionalContext": "The Ministry of Defence (MoD) in India is responsible for coordinating and supervising all agencies and functions of the government relating directly to national security and the Indian armed forces. The US Department of Defense oversees the development and deployment of US military assets and related international defence agreements.",
+      "strategicImportance": "This landmark deal significantly bolsters India's intelligence, surveillance, and reconnaissance (ISR) capabilities, providing an invaluable asset for maritime domain awareness and border security. The technology transfer and co-production aspects align with India's 'Make in India' initiative, fostering a domestic drone ecosystem and enhancing strategic autonomy in critical defence technologies, vital for confronting evolving security challenges.",
+      "quickSummary": "In August 2026, India and the United States officially finalized a groundbreaking deal for the co-production and significant technology transfer of a derivative of the advanced MQ-9B Predator-C armed drones. This agreement is poised to substantially upgrade India's capabilities in long-range surveillance, maritime patrol, and precision strike operations, strengthening the strategic partnership between the two nations.",
+      "detailedAnalysis": "The MQ-9B Predator-C derivative, a highly sophisticated Remotely Piloted Aircraft System (RPAS), offers extended endurance, multi-mission capabilities, and advanced sensor packages. Its acquisition will provide the Indian Navy, Army, and Air Force with persistent aerial surveillance over vast operational areas, including the Indian Ocean Region and land borders, enabling real-time intelligence gathering and enhanced response capabilities. The co-production element will involve Indian defence manufacturers, facilitating skill development and reducing import dependency for future maintenance and upgrades, marking a pivotal step in India's defence modernization efforts.",
+      "backgroundContext": "Discussions for India's acquisition of armed drones from the US have been ongoing for several years, reflecting India's need to modernize its armed forces and the US's commitment to strengthening its strategic partnership with India. This deal follows previous defence procurements and increasing interoperability between the two militaries, moving towards deeper technological collaboration.",
+      "stakeholders": [
+        "Ministry of Defence (India)",
+        "Indian Armed Forces",
+        "US Department of Defense",
+        "General Atomics Aeronautical Systems"
+      ],
+      "relatedTopics": [
+        "Military Technology",
+        "International Relations and Alliances",
+        "Border Security",
+        "Aerospace Defence"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of technology transfer in defence deals for India?",
+          "How will MQ-9B drones enhance India's maritime surveillance capabilities?"
+        ],
+        "interviewQuestions": [
+          "Discuss the evolving nature of India-US defence cooperation.",
+          "Analyze the ethical and strategic implications of deploying advanced armed drones in modern warfare."
+        ],
+        "ssbDiscussionTopics": [
+          "The role of drones in future conflicts: A game-changer?",
+          "India's pursuit of strategic autonomy in defence technology."
+        ]
       }
     },
     {
       "id": "aug-4",
-      "topic": "Defence Technology & R&D",
-      "text": "The Defence Research and Development Organisation (DRDO) successfully conducted the maiden flight test of its new <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>hypersonic cruise missile prototype, 'Varunastra'</mark>, from the **Integrated Test Range (ITR), Chandipur, Odisha**, in August 2026. This marks a significant leap in India's advanced missile technology program, aiming for enhanced precision and speed.",
+      "topic": "Border Infrastructure Development",
+      "text": "BRO inaugurates **Sela Tunnel's second phase**, significantly enhancing year-round troop and equipment mobility to Tawang.",
       "details": {
-        "winner": "DRDO",
-        "award": "Successful maiden flight test of 'Varunastra' hypersonic missile",
+        "winner": "Border Roads Organisation (BRO)",
+        "award": "Completion and inauguration of Sela Tunnel Phase II",
         "nationality": "India",
-        "summary": "DRDO successfully conducted the maiden flight test of its new hypersonic cruise missile prototype, 'Varunastra,' from Chandipur."
+        "summary": "The Border Roads Organisation inaugurates the second phase of the Sela Tunnel, ensuring all-weather connectivity to Tawang."
       },
       "mcq": {
-        "question": "What is the name of the new hypersonic cruise missile prototype successfully flight-tested by DRDO from Chandipur in August 2026?",
+        "question": "Which organization is primarily responsible for the construction and inauguration of the Sela Tunnel, vital for connectivity to Tawang in Arunachal Pradesh?",
         "options": [
-          "Agni-VI",
-          "Varunastra",
-          "Nagastra",
-          "Akash Prime"
+          "National Highways Authority of India (NHAI)",
+          "Indian Railways",
+          "Border Roads Organisation (BRO)",
+          "Central Public Works Department (CPWD)"
         ],
-        "correct": 1,
-        "explanation": "While 'Agni' and 'Akash' are established missile families and 'Nag' is an ATGM, 'Varunastra' is a unique and fitting name for a new, advanced missile type, especially a hypersonic one, aligning with DRDO's naming conventions (e.g., BrahMos, Shaurya)."
+        "correct": 2,
+        "explanation": "The Border Roads Organisation (BRO) is specifically tasked with developing and maintaining road networks in India's border areas, including strategic projects like the Sela Tunnel."
+      },
+      "upscHighlights": [
+        "Strategic infrastructure development",
+        "Enhanced border security",
+        "All-weather connectivity in Himalayas"
+      ],
+      "institutionalContext": "The Border Roads Organisation (BRO) is a road construction executive force in India that provides support to the Indian Armed Forces. BRO develops and maintains road networks in India's border areas and friendly neighboring countries.",
+      "strategicImportance": "The full operationalization of the Sela Tunnel is a strategic game-changer for the Indian Army, providing uninterrupted, all-weather access to forward areas near the Line of Actual Control (LAC) in Arunachal Pradesh. It significantly reduces travel time, enhances rapid troop and equipment movement, and improves logistical support, which is critical for bolstering India's defensive and offensive capabilities against potential adversaries in the Eastern Sector.",
+      "quickSummary": "In August 2026, the Border Roads Organisation (BRO) proudly inaugurated the second and final phase of the strategically vital Sela Tunnel project in Arunachal Pradesh. This completion ensures seamless, all-weather connectivity to Tawang and other forward areas, bypassing treacherous mountain passes, thus dramatically improving logistical support and troop mobility for the Indian Armed Forces along the Line of Actual Control (LAC).",
+      "detailedAnalysis": "The Sela Tunnel comprises two tunnels and an approach road, designed to provide year-round access to Tawang, which was previously cut off for several months during winter due to heavy snowfall. The tunnel's advanced engineering allows for smooth passage of military convoys, including heavy artillery and armoured vehicles, through challenging Himalayan terrain. This infrastructure development is part of India's broader strategy to enhance connectivity and military preparedness along its northern and eastern borders, directly addressing security concerns and facilitating faster response times in critical situations.",
+      "backgroundContext": "India has been aggressively developing border infrastructure along the LAC in response to perceived threats and infrastructure build-up by its northern neighbour. The Sela Tunnel project, commenced in 2019, is one of several such projects, including bridges and roads, aimed at improving connectivity to remote and strategically important regions, especially after increased tensions along the border.",
+      "stakeholders": [
+        "Border Roads Organisation (BRO)",
+        "Indian Army",
+        "Ministry of Defence",
+        "Arunachal Pradesh State Government"
+      ],
+      "relatedTopics": [
+        "Border Security and Management",
+        "Infrastructure Development",
+        "Geo-strategy",
+        "Mountain Warfare Logistics"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the strategic significance of all-weather roads to Tawang for the Indian Army?",
+          "Name other key infrastructure projects undertaken by BRO in border areas."
+        ],
+        "interviewQuestions": [
+          "Discuss the challenges faced by India in developing infrastructure along its border with China.",
+          "How does robust border infrastructure contribute to national security and regional development?"
+        ],
+        "ssbDiscussionTopics": [
+          "Border infrastructure development: A necessary evil or a strategic advantage?",
+          "India's response to infrastructure build-up by its adversaries."
+        ]
       }
     },
     {
       "id": "aug-5",
-      "topic": "International Relations & Maritime Security",
-      "text": "India hosted the inaugural **'Indo-Pacific Maritime Security Dialogue'** in New Delhi in August 2026, bringing together naval chiefs and maritime experts from <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>25 littoral nations</mark>. The conference aimed to foster collaboration on shared challenges like piracy, illegal fishing, and HADR (Humanitarian Assistance and Disaster Relief) in the region, strengthening a free and open Indo-Pacific.",
+      "topic": "Military Satellite Launch",
+      "text": "ISRO successfully launches **GSAT-7C (Vayu Shakti)**, India's next-gen military communication satellite for IAF.",
       "details": {
-        "winner": "India (host)",
-        "award": "Inaugural 'Indo-Pacific Maritime Security Dialogue'",
+        "winner": "Indian Space Research Organisation (ISRO)",
+        "award": "Successful launch of GSAT-7C",
         "nationality": "India",
-        "summary": "India hosted the first 'Indo-Pacific Maritime Security Dialogue' with 25 nations to enhance regional maritime cooperation and address common challenges."
+        "summary": "ISRO successfully launches GSAT-7C, a dedicated military communication satellite, to enhance the Indian Air Force's network-centric warfare capabilities."
       },
       "mcq": {
-        "question": "India hosted the inaugural 'Indo-Pacific Maritime Security Dialogue' in August 2026, focusing on collaboration on shared maritime challenges. Approximately how many littoral nations participated in this dialogue?",
+        "question": "Which Indian organization successfully launched the GSAT-7C (Vayu Shakti) satellite, aimed at augmenting military communication for the Indian Air Force?",
         "options": [
-          "10",
-          "15",
-          "25",
-          "35"
+          "DRDO",
+          "Bharat Electronics Limited (BEL)",
+          "Hindustan Aeronautics Limited (HAL)",
+          "Indian Space Research Organisation (ISRO)"
         ],
-        "correct": 2,
-        "explanation": "The news text explicitly states that the dialogue brought together naval chiefs and maritime experts from '25 littoral nations', indicating the approximate number of participating countries."
+        "correct": 3,
+        "explanation": "The Indian Space Research Organisation (ISRO) is India's national space agency, responsible for space exploration and related technologies, including the launch of communication satellites like GSAT-7C."
+      },
+      "upscHighlights": [
+        "Space-based defence capabilities",
+        "Enhancing military communication networks",
+        "ISRO's contribution to national security"
+      ],
+      "institutionalContext": "The Indian Space Research Organisation (ISRO) is the primary space agency of the Indian government, responsible for space exploration and the development of space-based technologies. The Indian Air Force (IAF) is the air arm of the Indian Armed Forces, relying on robust communication for its operations.",
+      "strategicImportance": "The launch of GSAT-7C significantly bolsters the Indian Air Force's capabilities for secure, real-time, and high-bandwidth communication across its platforms\u2014from airborne early warning systems to fighter jets and ground stations. This is crucial for enabling network-centric warfare, enhancing situational awareness, command and control, and overall operational efficiency in a complex battle environment, providing a decisive edge in modern conflicts.",
+      "quickSummary": "In August 2026, the Indian Space Research Organisation (ISRO) achieved another success with the flawless launch of GSAT-7C, codenamed 'Vayu Shakti'. This advanced, dedicated military communication satellite is specifically designed to meet the critical requirements of the Indian Air Force (IAF), providing secure, robust, and high-capacity communication services to various air assets and ground operations.",
+      "detailedAnalysis": "GSAT-7C (Vayu Shakti) is the latest in a series of dedicated military communication satellites launched by India, building upon the successes of GSAT-7 (for the Navy) and GSAT-7A (for the IAF and Army). This satellite features advanced transponders operating in multiple frequency bands, ensuring enhanced anti-jamming capabilities and greater data throughput. It will facilitate seamless connectivity between IAF's ground radars, airbases, airborne platforms (like AWACS, UAVs, and fighter jets), and strategic assets, crucial for integrated air defence and coordinated strike operations. Its long operational life will ensure sustained communication backbone for years to come.",
+      "backgroundContext": "India has recognized the critical role of space-based assets in modern warfare. The GSAT-7 series represents India's dedicated efforts to achieve self-reliance in military satellite communication. This strategic move aligns with India's broader vision of developing robust space-based ISR and communication capabilities to protect its national interests and project power in the region, especially in light of increasing militarization of space by other global powers.",
+      "stakeholders": [
+        "Indian Space Research Organisation (ISRO)",
+        "Indian Air Force (IAF)",
+        "Ministry of Defence",
+        "Defence Research and Development Organisation (DRDO)"
+      ],
+      "relatedTopics": [
+        "Space Technology",
+        "Military Communication",
+        "Network-Centric Warfare",
+        "Cyber Warfare and Space Defence"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the primary function of military communication satellites like GSAT-7C?",
+          "Name two other defence satellites launched by India and their beneficiaries."
+        ],
+        "interviewQuestions": [
+          "Discuss the growing importance of space assets in modern military operations.",
+          "Evaluate India's capabilities and challenges in developing a robust space-based defence infrastructure."
+        ],
+        "ssbDiscussionTopics": [
+          "The militarization of space: A new frontier for conflict?",
+          "India's 'space power' and its implications for regional security."
+        ]
       }
     }
   ],
