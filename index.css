@@ -348,6 +348,7 @@ body {
   flex-shrink: 1;
   min-height: 0;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .nav-item {
@@ -3999,7 +4000,7 @@ h2 {
 
   .nav-links {
     flex-direction: column;
-    overflow-x: visible;
+    overflow-x: hidden;
     overflow-y: auto;
     padding: 8px 0;
     margin: 0;
