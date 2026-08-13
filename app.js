@@ -16977,16 +16977,13 @@ function applyGoalGetterTheme() {
   `;
   document.head.appendChild(style);
 
-  // Background music
-  const audio = document.createElement('audio');
-  audio.src = 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Chopin_-_Nocturne_Op_9_No_2_E_Flat_Major.ogg';
-  audio.loop = true;
-  audio.volume = 0.4;
-  document.body.appendChild(audio);
-
-  // Browsers require interaction to play audio
+  // Background music via YouTube (hidden)
   const startAudio = () => {
-    audio.play().catch(e => console.log('Audio play blocked:', e));
+    const iframe = document.createElement('iframe');
+    iframe.src = 'https://www.youtube.com/embed/Cb6wuzOurPc?autoplay=1&loop=1&playlist=Cb6wuzOurPc';
+    iframe.style.display = 'none';
+    iframe.allow = 'autoplay';
+    document.body.appendChild(iframe);
     document.removeEventListener('click', startAudio);
   };
   document.addEventListener('click', startAudio);
