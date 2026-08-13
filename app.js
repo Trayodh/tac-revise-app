@@ -3845,7 +3845,13 @@ function renderCurrentMonthAffairs() {
 
         if (!value || value === 'N/A' || value === '') continue;
 
-        let displayKey = key.replace(/_/g, ' ').toUpperCase();
+        const labelMap = {
+          'winner': (item.topic === 'Sports' || item.topic === 'Awards & Honours') ? 'WINNER' : 'KEY ENTITY',
+          'award': (item.topic === 'Sports' || item.topic === 'Awards & Honours') ? 'AWARD' : 'FOCUS / EVENT',
+          'nationality': (item.topic === 'Sports' || item.topic === 'Awards & Honours') ? 'NATIONALITY' : 'REGION',
+          'summary': 'SUMMARY'
+        };
+        let displayKey = labelMap[key] || key.replace(/_/g, ' ').toUpperCase();
 
         let displayValue = Array.isArray(value) ? value.join(', ') : String(value);
 
