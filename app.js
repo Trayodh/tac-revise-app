@@ -16937,3 +16937,57 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+// SPECIAL THEME FOR GOALGETTER
+let specialThemeApplied = false;
+setInterval(() => {
+  if (typeof STATE !== 'undefined' && STATE.activeProfile && STATE.activeProfile.email === 'goalgetterrr333@gmail.com' && !specialThemeApplied) {
+    specialThemeApplied = true;
+    applyGoalGetterTheme();
+  }
+}, 1000);
+
+function applyGoalGetterTheme() {
+  const style = document.createElement('style');
+  style.innerHTML = `
+    :root {
+      --bg-primary: #fff0f5 !important;
+      --bg-secondary: #ffe4e1 !important;
+      --bg-tertiary: #ffb6c1 !important;
+      --text-bright: #d11a2a !important;
+      --text-primary: #8b0000 !important;
+      --text-secondary: #c71585 !important;
+      --text-muted: #ff69b4 !important;
+      --accent: #ff1493 !important;
+      --border: #ffb6c1 !important;
+      --surface-dark: #ffe4e1 !important;
+    }
+    body {
+      background-color: var(--bg-primary);
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="%23ffc0cb" fill-opacity="0.5" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>') !important;
+      background-size: 60px 60px !important;
+      background-repeat: repeat !important;
+    }
+    .sidebar { background: rgba(255, 228, 225, 0.95) !important; border-right: 2px solid #ffb6c1 !important; }
+    .glass-panel, .metric-card, .menu-item { background: rgba(255, 240, 245, 0.9) !important; border: 1px solid #ffb6c1 !important; color: #8b0000 !important; }
+    .menu-item:hover { background: #ffb6c1 !important; color: white !important; }
+    .menu-item.active { background: #ff1493 !important; color: white !important; }
+    #app-header h1 { color: #ff1493 !important; text-shadow: 2px 2px 4px rgba(255,105,180,0.3) !important; }
+    #defcon-card, .progress-bar-fill, .token-buy-btn { border-color: #ff1493 !important; background: #ff1493 !important; }
+    * { font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif !important; }
+  `;
+  document.head.appendChild(style);
+
+  // Background music
+  const audio = document.createElement('audio');
+  audio.src = 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Chopin_-_Nocturne_Op_9_No_2_E_Flat_Major.ogg';
+  audio.loop = true;
+  audio.volume = 0.4;
+  document.body.appendChild(audio);
+
+  // Browsers require interaction to play audio
+  const startAudio = () => {
+    audio.play().catch(e => console.log('Audio play blocked:', e));
+    document.removeEventListener('click', startAudio);
+  };
+  document.addEventListener('click', startAudio);
+}
