@@ -11824,6 +11824,179 @@ window.openVocabMode = function(mode, pushState = true) {
 
     }
 
+  } else if (mode === 'dictionary') {
+    const dictView = document.getElementById('vocab-view-dictionary');
+
+    if (dictView) {
+
+      dictView.style.display = 'block';
+
+      dictView.classList.add('active');
+
+      setTimeout(() => {
+
+        const input = document.getElementById('dict-search-input');
+
+        if(input) input.focus();
+
+      }, 100);
+
+    }
+
+  }
+
+};
+
+
+
+window.searchDictionary = async function() {
+
+  const inputEl = document.getElementById('dict-search-input');
+
+  const term = inputEl.value.trim();
+
+  if (!term) return;
+
+  
+
+  const loading = document.getElementById('dict-loading');
+
+  const results = document.getElementById('dict-results');
+
+  const errorEl = document.getElementById('dict-error');
+
+  
+
+  loading.style.display = 'block';
+
+  results.style.display = 'none';
+
+  errorEl.style.display = 'none';
+
+  
+
+  try {
+
+    if (window.location.protocol === 'file:') {
+
+      throw new Error("Local file:// detected. AI features require a backend server. Please run 'npm start' and visit http://localhost:3000 to use this feature.");
+
+    }
+
+    const prompt = `You are an expert English dictionary and vocab builder.
+
+Provide the exact meaning, part of speech, 3-5 synonyms, and 3-5 antonyms for the word or idiom: "${term}". 
+
+If it is an idiom, for part of speech put "Idiom", and for synonyms/antonyms provide related phrases or words.
+
+Return the output strictly as a JSON object with the exact keys:
+
+{
+
+  "word": "The actual word/idiom properly capitalized",
+
+  "pos": "Part of speech (e.g. Noun, Verb, Idiom)",
+
+  "meaning": "Clear and detailed meaning",
+
+  "synonyms": ["syn1", "syn2", "syn3"],
+
+  "antonyms": ["ant1", "ant2", "ant3"]
+
+}
+
+Do not return any markdown formatting outside the JSON, just the raw JSON object.`;
+
+
+
+    const response = await fetch('/api/gemini', {
+
+      method: 'POST',
+
+      headers: { 'Content-Type': 'application/json' },
+
+      body: JSON.stringify({
+
+        model: 'gemini-1.5-flash',
+
+        contents: [{ parts: [{ text: prompt }] }],
+
+        generationConfig: { temperature: 0.1 }
+
+      })
+
+    });
+
+
+
+    if (!response.ok) throw new Error("Failed to contact AI.");
+
+
+
+    const data = await response.json();
+
+    let jsonStr = data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "";
+
+    jsonStr = jsonStr.replace(/\`\`\`json/g, "").replace(/\`\`\`/g, "").trim();
+
+    
+
+    let resultObj;
+
+    try {
+
+      resultObj = JSON.parse(jsonStr);
+
+    } catch (e) {
+
+      throw new Error("AI returned an invalid format. Please try again.");
+
+    }
+
+    
+
+    document.getElementById('dict-word').textContent = resultObj.word || term;
+
+    document.getElementById('dict-pos').textContent = resultObj.pos ? `Part of Speech: ${resultObj.pos}` : "";
+
+    document.getElementById('dict-meaning').textContent = resultObj.meaning || "No meaning found.";
+
+    
+
+    document.getElementById('dict-synonyms').innerHTML = (resultObj.synonyms && resultObj.synonyms.length > 0) 
+
+      ? resultObj.synonyms.join(', ') : "<em>None</em>";
+
+      
+
+    document.getElementById('dict-antonyms').innerHTML = (resultObj.antonyms && resultObj.antonyms.length > 0) 
+
+      ? resultObj.antonyms.join(', ') : "<em>None</em>";
+
+      
+
+    loading.style.display = 'none';
+
+    results.style.display = 'flex';
+
+    
+
+  } catch (e) {
+
+    if (e.message.includes("Failed to fetch") || e.name === "TypeError") {
+
+        errorEl.textContent = "Network error: Failed to fetch. If you are testing locally, please run 'npm start' to start the backend server.";
+
+    } else {
+
+        errorEl.textContent = e.message;
+
+    }
+
+    errorEl.style.display = 'block';
+
+    loading.style.display = 'none';
+
   }
 
 };

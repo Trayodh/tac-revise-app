@@ -1120,6 +1120,11 @@
               <h3 style="margin-bottom: 4px; font-size: 1.1rem;">Vocab Drill</h3>
               <div style="font-size: 0.8rem; color: var(--text-muted);">5-Question Practice</div>
             </div>
+            <div class="subject-card" onclick="openVocabMode('dictionary')" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+              <div style="font-size: 2.5rem; margin-bottom: 12px;">🔍</div>
+              <h3 style="margin-bottom: 4px; font-size: 1.1rem;">AI Dictionary</h3>
+              <div style="font-size: 0.8rem; color: var(--text-muted);">Search words & idioms</div>
+            </div>
           </div>
         </div>
 
@@ -1187,6 +1192,59 @@
                 <button class="btn-primary" onclick="startVocabQuiz()" style="width: auto; padding: 12px 32px; font-size: 1.1rem;">Start Daily Drill</button>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div id="vocab-view-dictionary" class="full-page-view" style="display: none;">
+          <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <button class="btn-secondary" onclick="backToVocabModes()" style="padding: 8px 16px; border-radius: 6px;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 4px;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+              </svg>
+              Back
+            </button>
+          </div>
+          
+          <div class="panel glow" style="border-left: 4px solid var(--accent); display: flex; flex-direction: column; max-width: 600px; margin: 0 auto;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+              <div class="panel-title" style="margin-bottom: 0;">AI Dictionary</div>
+            </div>
+            
+            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 20px;">
+              Search for the exact meaning, synonyms, and antonyms of any word or idiom using AI.
+            </p>
+            
+            <div style="display: flex; gap: 8px; margin-bottom: 24px;">
+              <input type="text" id="dict-search-input" placeholder="Enter a word or idiom..." style="flex: 1; padding: 12px 16px; border-radius: 6px; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.2); color: #fff; font-size: 1.1rem; outline: none;" onkeypress="if(event.key === 'Enter') searchDictionary()">
+              <button class="btn-primary" onclick="searchDictionary()" style="padding: 12px 24px; width: auto; flex-shrink: 0; font-size: 1.1rem;">Search</button>
+            </div>
+            
+            <div id="dict-loading" style="display: none; text-align: center; padding: 40px; color: var(--text-muted);">
+              <div class="spinner" style="border-top-color: var(--accent); width: 30px; height: 30px; margin: 0 auto 16px;"></div>
+              <div>Consulting AI...</div>
+            </div>
+            
+            <div id="dict-results" style="display: none; text-align: center; padding: 24px 16px; background: rgba(0,0,0,0.2); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); flex: 1; flex-direction: column; justify-content: center;">
+              <h2 id="dict-word" style="font-size: 2.2rem; color: var(--text-primary); margin-bottom: 8px; font-family: var(--font-logo); letter-spacing: 1px;">Word</h2>
+              <div style="font-size: 1rem; color: var(--accent); margin-bottom: 16px; font-weight: 600;" id="dict-pos"></div>
+              
+              <div style="background: rgba(255,255,255,0.03); padding: 12px; border-radius: 6px; margin-bottom: 16px; text-align: left;">
+                <div style="color: var(--text-secondary); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;">Meaning</div>
+                <div id="dict-meaning" style="font-size: 1.1rem; color: var(--text-primary);"></div>
+              </div>
+              
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; text-align: left;">
+                <div style="background: rgba(14, 165, 233, 0.05); padding: 12px; border-radius: 6px; border: 1px solid rgba(14, 165, 233, 0.1);">
+                  <div style="color: var(--info); font-size: 0.75rem; font-weight: 700; margin-bottom: 4px;">SYNONYMS</div>
+                  <div id="dict-synonyms" style="color: var(--text-secondary); font-size: 0.9rem;"></div>
+                </div>
+                <div style="background: rgba(239, 68, 68, 0.05); padding: 12px; border-radius: 6px; border: 1px solid rgba(239, 68, 68, 0.1);">
+                  <div style="color: var(--danger); font-size: 0.75rem; font-weight: 700; margin-bottom: 4px;">ANTONYMS</div>
+                  <div id="dict-antonyms" style="color: var(--text-secondary); font-size: 0.9rem;"></div>
+                </div>
+              </div>
+            </div>
+            <div id="dict-error" style="display: none; text-align: center; padding: 20px; color: var(--danger); background: rgba(239, 68, 68, 0.1); border-radius: 6px; margin-top: 16px;"></div>
           </div>
         </div>
       </section>
