@@ -16741,7 +16741,7 @@ function initDefconWidget() {
     const daysRemaining = minDiff / (1000 * 60 * 60 * 24);
 
     if (daysRemaining <= 45) {
-      setDefconState(3, nearestExam.name, "HIGH READINESS (DEFCON 3)");
+      setDefconState(3, nearestExam.name, "HIGH READINESS");
     } else {
       setDefconState(2, nearestExam.name, "APPLICATION PHASE");
     }
