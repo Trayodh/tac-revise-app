@@ -5288,6 +5288,54 @@ document.getElementById("cbt-btn-submit-exam").addEventListener("click", () => {
 
   }
 
+
+
+  // Global double-click handler for AI explanation (Wiki Link style)
+
+  document.addEventListener('dblclick', function(e) {
+
+    // Ignore inputs and textareas so we don't interrupt typing/editing
+
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.isContentEditable) {
+
+      return;
+
+    }
+
+    
+
+    const selection = window.getSelection();
+
+    const selectedText = selection.toString().trim();
+
+    
+
+    // Check if it's a valid word/phrase (2-40 chars, contains letters)
+
+    if (selectedText.length > 1 && selectedText.length < 40 && /[a-zA-Z]/.test(selectedText)) {
+
+      // Remove trailing/leading punctuation
+
+      const cleanWord = selectedText.replace(/^[^\w]+|[^\w]+$/g, '');
+
+      if (cleanWord.length > 1 && typeof window.triggerDoubtExplain === 'function') {
+
+        window.triggerDoubtExplain(cleanWord, e.target);
+
+        // Clear selection to avoid visual clutter
+
+        if (selection.removeAllRanges) {
+
+          selection.removeAllRanges();
+
+        }
+
+      }
+
+    }
+
+  });
+
 });
 
 
