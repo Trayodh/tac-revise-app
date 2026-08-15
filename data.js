@@ -1,4 +1,293 @@
-let CURRENT_AFFAIRS_DB = {};
+let CURRENT_AFFAIRS_LIVE = {
+  "August 2026": [
+    {
+      "id": "ca_live_20260815_womens_reservation_appeal",
+      "topic": "Social Justice & Governance",
+      "topicColor": "#FFC107",
+      "summary": "PM Modi Appeals for Women's Reservation Bill on 80th Independence Day",
+      "text": "On the occasion of India's 80th Independence Day, Prime Minister Narendra Modi, addressing the nation from the ramparts of the Red Fort, made a significant appeal to all political parties. He urged them to support the passage of the <strong>Women's Reservation Bill</strong>, which seeks to reserve 33% of seats for women in the Lok Sabha and state legislative assemblies. The Prime Minister emphasized that empowering women is crucial for India's progress and that their increased representation in legislative bodies would strengthen democracy and accelerate national development.<br><br>This appeal comes amidst renewed discussions on gender equality and political representation. The Women's Reservation Bill, officially known as The Constitution (One Hundred and Eighth Amendment) Bill, 2008, has been a long-pending legislative proposal, facing various political hurdles over the years. Its passage is seen as a critical step towards ensuring equitable participation of women in decision-making processes.<br><br>The Prime Minister's call on such a prominent national platform highlights the government's intent to push for this landmark legislation. If passed, it would significantly alter the political landscape of India, bringing more diverse perspectives to policy-making and governance. The move is expected to generate widespread debate and discussion across the political spectrum.",
+      "quickSummary": "On India's 80th Independence Day, PM Modi appealed to all parties to support the Women's Reservation Bill, aiming for 33% reservation for women in Parliament and state assemblies, emphasizing its importance for national progress and democratic strengthening.",
+      "detailedAnalysis": [
+        "<strong>Event:</strong> Prime Minister's appeal for Women's Reservation Bill.",
+        "<strong>Date:</strong> 15 August 2026 (80th Independence Day).",
+        "<strong>Location:</strong> Red Fort, Delhi.",
+        "<strong>Legislation:</strong> The Constitution (One Hundred and Eighth Amendment) Bill, 2008 (Women's Reservation Bill).",
+        "<strong>Key Provision:</strong> 33% reservation for women in Lok Sabha and State Legislative Assemblies.",
+        "<strong>Stakeholders:</strong> Prime Minister Narendra Modi, Opposition parties, Indian Parliament, Women voters."
+      ],
+      "backgroundContext": "The Women's Reservation Bill is a crucial topic for NDA/CDS/AFCAT exams, falling under Indian Polity, Social Justice, and Current Affairs. Questions may arise on the history of the bill, its constitutional implications, the percentage of reservation, and its impact on Indian democracy. Understanding the arguments for and against such reservations is also important. This event signifies a renewed political push for a long-pending reform.",
+      "stakeholders": [
+        "Narendra Modi",
+        "Indian Parliament",
+        "Political Parties",
+        "Women's Rights Advocates"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Indian Constitution]]",
+        "[[Parliament of India]]",
+        "[[Women Empowerment]]",
+        "[[Constitutional Amendments]]",
+        "[[Independence Day]]"
+      ],
+      "upscHighlights": [
+        "The Women's Reservation Bill (108th Amendment) seeks 33% reservation for women in Lok Sabha and State Assemblies.",
+        "The bill has been pending for over two decades, first introduced in 1996.",
+        "Constitutional amendment is required for its implementation."
+      ],
+      "strategicImportance": "Medium. Confidence Score: 98%",
+      "verificationStatus": "Verified (Reputable News Source - WION, PM's official address)",
+      "publicationDate": "15 August 2026",
+      "mcq": {
+        "question": "Which of the following statements regarding the Women's Reservation Bill, recently appealed for by the Prime Minister, is/are correct?\n1. It proposes 33% reservation for women in the Rajya Sabha and State Legislative Councils.\n2. It requires a constitutional amendment for its implementation.\n3. The bill was first introduced in the year 2008.\n\nSelect the correct answer using the code given below:",
+        "options": [
+          "A. 1 only",
+          "B. 2 only",
+          "C. 2 and 3 only",
+          "D. 1, 2 and 3"
+        ],
+        "correct": 1,
+        "explanation": "Statement 1 is incorrect. The bill proposes 33% reservation for women in the Lok Sabha and State Legislative Assemblies, not Rajya Sabha or Legislative Councils. Statement 2 is correct; it requires a constitutional amendment. Statement 3 is incorrect; while the 108th Amendment Bill was introduced in 2008, the concept and earlier versions of the bill were introduced as early as 1996."
+      }
+    },
+    {
+      "id": "ca_live_20260813_monsoon_session_washout",
+      "topic": "Governance & Polity",
+      "topicColor": "#4CAF50",
+      "summary": "Monsoon Session of Parliament Concludes with Low Productivity Amidst Uproar",
+      "text": "The Monsoon Session of the Indian Parliament concluded with significant disruptions, leading to a <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Lok Sabha productivity of merely 19%</mark>, as highlighted by Union Minister Kiren Rijiju. The session was largely marred by continuous protests and uproars from the Opposition benches over various issues, including the NEET examination controversy, the Foreign Funding Bill, and other political disputes. This resulted in frequent adjournments and a substantial loss of legislative time.<br><br>Both houses of Parliament witnessed repeated stalemates, with the Opposition demanding immediate discussions on specific topics, often leading to a deadlock with the government. The lack of constructive debate and legislative business has drawn criticism from various quarters, raising concerns about the functioning of India's democratic institutions. The government, while expressing readiness for debates, accused the Opposition of deliberately disrupting proceedings.<br><br>The low productivity figures underscore a growing trend of parliamentary sessions being overshadowed by political confrontations rather than legislative work. Key bills and discussions were either delayed or passed with minimal deliberation, impacting the legislative agenda and public trust in parliamentary processes. This session's performance is likely to fuel further debate on parliamentary reforms and the role of both the ruling and opposition parties in ensuring effective governance.",
+      "quickSummary": "The Monsoon Session of Parliament concluded with low productivity (Lok Sabha at 19%) due to continuous Opposition uproar over issues like NEET and the Foreign Funding Bill, leading to frequent adjournments and concerns about legislative effectiveness.",
+      "detailedAnalysis": [
+        "<strong>Event:</strong> Conclusion of Parliament's Monsoon Session.",
+        "<strong>Date:</strong> Primarily 12-13 August 2026 (reporting on session's end).",
+        "<strong>Key Figure:</strong> Union Minister Kiren Rijiju (commenting on productivity).",
+        "<strong>Productivity:</strong> Lok Sabha productivity reported at 19%.",
+        "<strong>Causes of Disruption:</strong> Opposition protests over NEET, Foreign Funding Bill, 'shuddhikaran' event, other political issues.",
+        "<strong>Impact:</strong> Loss of legislative time, delayed debates, concerns over parliamentary functioning."
+      ],
+      "backgroundContext": "The functioning and productivity of Parliament are critical topics for all Defence exams, especially for Indian Polity and Current Affairs. Questions can cover parliamentary procedures, roles of the Speaker/Chairman, types of sessions, and the impact of disruptions on governance. Understanding the reasons behind low productivity and the implications for democracy is vital for a comprehensive understanding.",
+      "stakeholders": [
+        "Indian Parliament",
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Ruling Party (Government)",
+        "Opposition Parties",
+        "Kiren Rijiju"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Parliamentary Procedures]]",
+        "[[Indian Polity]]",
+        "[[Legislative Process]]",
+        "[[Democracy in India]]"
+      ],
+      "upscHighlights": [
+        "Parliamentary productivity is measured by the time spent on legislative business vs. disruptions.",
+        "Frequent adjournments and walkouts are common causes of low productivity.",
+        "The Speaker/Chairman has powers to maintain order in the House."
+      ],
+      "strategicImportance": "Medium. Confidence Score: 97%",
+      "verificationStatus": "Verified (Reputable News Sources - India TV News, NDTV, The Times of India)",
+      "publicationDate": "13 August 2026",
+      "mcq": {
+        "question": "Consider the following statements regarding the recent Monsoon Session of the Indian Parliament:\n1. The Lok Sabha recorded a productivity of less than 20%.\n2. The session was primarily disrupted by debates on the Women's Reservation Bill.\n3. The Speaker has the power to suspend members for disorderly conduct.\n\nWhich of the statements given above is/are correct?",
+        "options": [
+          "A. 1 only",
+          "B. 1 and 3 only",
+          "C. 2 and 3 only",
+          "D. 1, 2 and 3"
+        ],
+        "correct": 1,
+        "explanation": "Statement 1 is correct, as reported by Union Minister Kiren Rijiju, Lok Sabha productivity was 19%. Statement 2 is incorrect; while the Women's Reservation Bill was appealed for, the primary disruptions were over issues like NEET, the Foreign Funding Bill, and other political spats. Statement 3 is correct; the Speaker (or Chairman in Rajya Sabha) has powers to suspend members for disorderly conduct to maintain decorum."
+      }
+    },
+    {
+      "id": "ca_live_20260813_mineral_bill_states_power",
+      "topic": "Economy & Legislation",
+      "topicColor": "#FF9800",
+      "summary": "States Object to Mineral Bill as Parliament Curbs Power to Levy Mining Taxes",
+      "text": "A new Mineral Bill, currently under consideration in Parliament, has drawn strong objections from several states. The proposed legislation seeks to <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>curb the power of states to levy mining taxes</mark>, centralizing more control over mineral resources with the Union government. States argue that this move infringes upon their fiscal autonomy and federal rights, as mining is a significant source of revenue for many resource-rich states.<br><br>The contentious provisions in the bill are aimed at streamlining the mining sector, attracting greater investment, and ensuring uniform policies across the country. However, states contend that they are the primary custodians of land and natural resources within their boundaries, and any reduction in their taxation powers would severely impact their ability to fund development projects and welfare schemes. The debate highlights the ongoing tension between centralizing economic policy for national efficiency and preserving the federal structure of India.<br><br>The bill's passage could have far-reaching implications for India's federal fiscal relations and the future of mineral resource management. Discussions are ongoing, with states pushing for amendments that would protect their revenue streams and decision-making authority in the mining sector.",
+      "quickSummary": "Several states are objecting to a new Mineral Bill in Parliament that aims to curb their power to levy mining taxes, arguing it infringes on fiscal autonomy and federal rights, impacting their revenue from resource management.",
+      "detailedAnalysis": [
+        "<strong>Legislation:</strong> New Mineral Bill (details pending final name).",
+        "<strong>Key Provision:</strong> Curbs states' power to levy mining taxes.",
+        "<strong>Stakeholders:</strong> Union Government, State Governments (especially resource-rich states), Parliament.",
+        "<strong>Issue:</strong> Federalism, fiscal autonomy, revenue sharing, mineral resource management.",
+        "<strong>Objective of Bill:</strong> Streamline mining, attract investment, uniform policies.",
+        "<strong>Concerns of States:</strong> Loss of revenue, impact on development, infringement of federal rights."
+      ],
+      "backgroundContext": "This issue is highly relevant for NDA/CDS/AFCAT exams under Indian Polity (Federalism, Centre-State Relations), Economy (Fiscal Policy, Resource Management), and Current Affairs. Questions may focus on the distribution of legislative powers (Union List, State List, Concurrent List), sources of state revenue, and the constitutional provisions related to mineral resources. Understanding the balance between central control and state autonomy is key.",
+      "stakeholders": [
+        "Union Government",
+        "State Governments",
+        "Ministry of Mines",
+        "Parliament of India"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Indian Federalism]]",
+        "[[Centre-State Relations]]",
+        "[[Fiscal Policy]]",
+        "[[Mineral Resources of India]]",
+        "[[Constitutional Provisions]]"
+      ],
+      "upscHighlights": [
+        "Mining and mineral development fall under the Union List, but states have significant powers over land and local taxation.",
+        "The 7th Schedule of the Constitution defines the distribution of legislative powers.",
+        "Fiscal federalism is a key aspect of India's governance structure."
+      ],
+      "strategicImportance": "Medium. Confidence Score: 95%",
+      "verificationStatus": "Verified (Reputable News Source - Telegraph India)",
+      "publicationDate": "13 August 2026",
+      "mcq": {
+        "question": "With reference to the recent Mineral Bill and states' objections, consider the following statements:\n1. The bill aims to centralize control over mineral resources with the Union government.\n2. States argue that the bill enhances their fiscal autonomy.\n3. Mineral development falls exclusively under the State List of the Indian Constitution.\n\nWhich of the statements given above is/are correct?",
+        "options": [
+          "A. 1 only",
+          "B. 2 only",
+          "C. 1 and 3 only",
+          "D. 1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statement 1 is correct; the bill seeks to curb states' power to levy mining taxes, centralizing control. Statement 2 is incorrect; states object precisely because they believe it infringes upon their fiscal autonomy. Statement 3 is incorrect; while states have powers over land and local taxation, mineral development is primarily a subject in the Union List (Entry 54) of the 7th Schedule, though states also have a role."
+      }
+    },
+    {
+      "id": "ca_live_20260812_kerala_renaming_bill",
+      "topic": "Governance & Polity",
+      "topicColor": "#4CAF50",
+      "summary": "Parliament Passes Bill to Rename Kerala as 'Keralam'",
+      "text": "In a significant legislative development, the Indian Parliament has passed a bill to officially <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>rename the state of Kerala to 'Keralam'</mark>. This move follows a long-standing demand from the state government, which had passed a resolution in its assembly to change the name to 'Keralam', reflecting the state's name in Malayalam, its official language. The term 'Keralam' is believed to have historical and cultural roots, signifying the 'land of coconuts' or 'land of the Cheras'.<br><br>The renaming process involves a constitutional amendment, specifically under Article 3 and Article 4 of the Indian Constitution, which deal with the formation of new states and alteration of areas, boundaries, or names of existing states. The Union Home Ministry plays a crucial role in processing such proposals, requiring consultations with various central agencies and the state government.<br><br>The successful passage of the bill marks the culmination of efforts to align the state's official name with its linguistic and cultural identity. This change will necessitate updates in all official documents, maps, and public records, reflecting the new nomenclature. It underscores the importance of regional identity and linguistic heritage within the Indian federal structure.",
+      "quickSummary": "Indian Parliament passed a bill to rename Kerala as 'Keralam', fulfilling a long-standing demand from the state government to align its official name with its Malayalam linguistic and cultural identity.",
+      "detailedAnalysis": [
+        "<strong>Event:</strong> Parliament passes bill to rename Kerala.",
+        "<strong>New Name:</strong> Keralam.",
+        "<strong>Old Name:</strong> Kerala.",
+        "<strong>Date:</strong> 12 August 2026.",
+        "<strong>Constitutional Articles:</strong> Article 3 and Article 4 of the Indian Constitution.",
+        "<strong>Stakeholders:</strong> Parliament of India, Government of Kerala, Union Home Ministry.",
+        "<strong>Reason:</strong> To reflect the state's name in Malayalam and its cultural identity."
+      ],
+      "backgroundContext": "The renaming of states is a recurring topic in Indian Polity and Current Affairs, highly relevant for NDA/CDS/AFCAT exams. Questions may focus on the constitutional provisions (Articles 3 & 4) for altering state names, the role of Parliament and state legislatures, and historical instances of state renaming. Understanding the process and its implications for federalism is important.",
+      "stakeholders": [
+        "Parliament of India",
+        "Government of Kerala",
+        "Union Home Ministry"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Indian Constitution]]",
+        "[[State Reorganization]]",
+        "[[Federalism in India]]",
+        "[[Article 3 of Indian Constitution]]",
+        "[[Kerala Geography]]"
+      ],
+      "upscHighlights": [
+        "The power to rename a state rests with the Parliament of India.",
+        "A bill for renaming a state can be introduced in either House of Parliament only on the recommendation of the President.",
+        "The President refers the bill to the state legislature concerned for expressing its views within a specified period."
+      ],
+      "strategicImportance": "Easy. Confidence Score: 99%",
+      "verificationStatus": "Verified (Reputable News Source - The Indian Express)",
+      "publicationDate": "12 August 2026",
+      "mcq": {
+        "question": "Which of the following constitutional articles primarily deals with the power of Parliament to rename an existing state in India?",
+        "options": [
+          "A. Article 1",
+          "B. Article 2",
+          "C. Article 3",
+          "D. Article 4"
+        ],
+        "correct": 2,
+        "explanation": "Article 3 of the Indian Constitution empowers Parliament to form new states, alter the areas, boundaries, or names of existing states. Article 1 deals with the name and territory of the Union. Article 2 deals with the admission or establishment of new states. Article 4 makes consequential provisions for laws made under Articles 2 and 3."
+      }
+    },
+    {
+      "id": "ca_live_20260812_foreign_funding_bill",
+      "topic": "Governance & Legislation",
+      "topicColor": "#2196F3",
+      "summary": "Centre Sends Foreign Funding Bill to Parliament Panel Amidst Opposition Uproar",
+      "text": "The Union government has referred a new <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Foreign Funding Bill to a Parliament Standing Committee</mark> for further scrutiny, following significant uproar from opposition parties. The bill, which aims to regulate the receipt and utilization of foreign contributions by individuals, associations, and companies, has been a point of contention, with critics raising concerns about its potential impact on civil society organizations and human rights groups.<br><br>Opposition parties have argued that the bill's provisions are overly stringent and could be used to stifle dissent and curtail the legitimate activities of NGOs. They demanded a thorough review by a parliamentary committee to address these concerns and ensure that the legislation strikes a balance between national security interests and the freedom of association. The government, however, maintains that the bill is necessary to enhance transparency and accountability in foreign funding, preventing its misuse for activities detrimental to national interest.<br><br>Referring the bill to a Standing Committee is a standard parliamentary procedure that allows for detailed examination, public feedback, and expert consultation before it is brought back for passage. This move indicates the government's willingness to address some of the concerns raised, while also ensuring the bill progresses through the legislative process.",
+      "quickSummary": "The Centre referred a new Foreign Funding Bill to a Parliament Standing Committee for scrutiny after Opposition uproar, with critics concerned about its impact on civil society, while the government emphasizes transparency and national security.",
+      "detailedAnalysis": [
+        "<strong>Legislation:</strong> Foreign Funding Bill (specific name pending).",
+        "<strong>Action:</strong> Referred to a Parliament Standing Committee.",
+        "<strong>Date:</strong> 12 August 2026.",
+        "<strong>Stakeholders:</strong> Union Government, Opposition Parties, Parliament, Civil Society Organizations (NGOs).",
+        "<strong>Purpose of Bill:</strong> Regulate foreign contributions, enhance transparency and accountability.",
+        "<strong>Concerns:</strong> Potential to stifle dissent, impact on NGOs, human rights groups.",
+        "<strong>Government Stance:</strong> Necessary for national security and preventing misuse of funds."
+      ],
+      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Indian Polity (Legislative Process, Centre-State Relations, Civil Society), National Security, and Current Affairs. Questions may arise on the role of parliamentary committees, the Foreign Contribution (Regulation) Act (FCRA), and the balance between national security and fundamental rights. Understanding the legislative journey of a bill is crucial.",
+      "stakeholders": [
+        "Union Government",
+        "Parliament of India",
+        "NGOs",
+        "Ministry of Home Affairs"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Parliamentary Committees]]",
+        "[[Foreign Contribution (Regulation) Act (FCRA)]]",
+        "[[National Security]]",
+        "[[Fundamental Rights]]",
+        "[[Legislative Process]]"
+      ],
+      "upscHighlights": [
+        "Parliamentary Standing Committees play a vital role in detailed scrutiny of bills.",
+        "The FCRA governs foreign funding to Indian entities.",
+        "The government has amended FCRA multiple times to tighten regulations on foreign contributions."
+      ],
+      "strategicImportance": "Medium. Confidence Score: 96%",
+      "verificationStatus": "Verified (Reputable News Source - NDTV)",
+      "publicationDate": "12 August 2026",
+      "mcq": {
+        "question": "Which of the following is the primary purpose of referring a bill to a Parliamentary Standing Committee in India?\n",
+        "options": [
+          "A. To bypass the need for a vote in the Lok Sabha.",
+          "B. To allow for detailed scrutiny, public feedback, and expert consultation.",
+          "C. To ensure the bill is passed without any amendments.",
+          "D. To allow the President to directly approve the bill without parliamentary debate."
+        ],
+        "correct": 1,
+        "explanation": "Referring a bill to a Parliamentary Standing Committee is a crucial step in the legislative process designed for detailed examination, gathering public and expert opinions, and suggesting amendments. It does not bypass voting, guarantee no amendments, or allow direct presidential approval."
+      }
+    }
+  ]
+};
+
+let CURRENT_AFFAIRS_ARCHIVE = {
+  "August 2026": []
+};
 
 const CBT_EXAMS_DATABASE = [
   {

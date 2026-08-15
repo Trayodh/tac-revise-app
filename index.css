@@ -220,6 +220,30 @@
   --danger: #dc2626;          
 }
 
+[data-theme="dark-love"] {
+  /* DARK ROSE */
+  --bg-primary: #0d0406;
+  --bg-secondary: #1a080d;
+  --bg-tertiary: #2e0f18;
+  --bg-hover: #4a1827;
+  
+  --border: rgba(225, 29, 72, 0.3); 
+  --border-glow: rgba(225, 29, 72, 0.7);
+  
+  --text-primary: #fff1f2;
+  --text-secondary: #fecdd3;
+  --text-muted: #fda4af;
+  
+  --accent: #e11d48;
+  --accent-rgb: 225, 29, 72;
+  --accent-dark: #be123c;
+  --accent-light: #f43f5e;
+  
+  --info: #0ea5e9;
+  --warning: #f59e0b;
+  --danger: #9f1239;
+}
+
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -1071,6 +1095,7 @@ h2 {
 
 /* Tables inside Revision Cards */
 .revision-card table {
+  display: table !important;
   width: 100% !important;
   border-collapse: collapse !important;
   margin: 20px 0 !important;
