@@ -17011,29 +17011,29 @@ function applyGoalGetterTheme() {
   const style = document.createElement('style');
   style.innerHTML = `
     :root {
-      --bg-primary: #fff0f5 !important;
-      --bg-secondary: #ffe4e1 !important;
-      --bg-tertiary: #ffb6c1 !important;
-      --text-bright: #d11a2a !important;
-      --text-primary: #8b0000 !important;
-      --text-secondary: #c71585 !important;
-      --text-muted: #ff69b4 !important;
-      --accent: #ff1493 !important;
-      --border: #ffb6c1 !important;
-      --surface-dark: #ffe4e1 !important;
+      --bg-primary: #120309 !important;
+      --bg-secondary: #210611 !important;
+      --bg-tertiary: #3a0a1e !important;
+      --text-bright: #ff4d6d !important;
+      --text-primary: #ffb3c6 !important;
+      --text-secondary: #ff8fa3 !important;
+      --text-muted: #c9184a !important;
+      --accent: #ff4d6d !important;
+      --border: #590d22 !important;
+      --surface-dark: #210611 !important;
     }
     body {
       background-color: var(--bg-primary);
-      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="%23ffc0cb" fill-opacity="0.5" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>') !important;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="%234a1528" fill-opacity="0.5" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>') !important;
       background-size: 60px 60px !important;
       background-repeat: repeat !important;
     }
-    .sidebar { background: rgba(255, 228, 225, 0.95) !important; border-right: 2px solid #ffb6c1 !important; }
-    .glass-panel, .metric-card, .menu-item { background: rgba(255, 240, 245, 0.9) !important; border: 1px solid #ffb6c1 !important; color: #8b0000 !important; }
-    .menu-item:hover { background: #ffb6c1 !important; color: white !important; }
-    .menu-item.active { background: #ff1493 !important; color: white !important; }
-    #app-header h1 { color: #ff1493 !important; text-shadow: 2px 2px 4px rgba(255,105,180,0.3) !important; }
-    #defcon-card, .progress-bar-fill, .token-buy-btn { border-color: #ff1493 !important; background: #ff1493 !important; }
+    .sidebar { background: rgba(33, 6, 17, 0.95) !important; border-right: 2px solid #590d22 !important; }
+    .glass-panel, .metric-card, .menu-item { background: rgba(58, 10, 30, 0.9) !important; border: 1px solid #590d22 !important; color: #ffb3c6 !important; }
+    .menu-item:hover { background: #590d22 !important; color: white !important; }
+    .menu-item.active { background: #ff4d6d !important; color: white !important; }
+    #app-header h1 { color: #ff4d6d !important; text-shadow: 2px 2px 4px rgba(255,77,109,0.3) !important; }
+    #defcon-card, .progress-bar-fill, .token-buy-btn { border-color: #ff4d6d !important; background: #ff4d6d !important; }
     * { font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif !important; }
   `;
   document.head.appendChild(style);
@@ -17041,7 +17041,7 @@ function applyGoalGetterTheme() {
   // Background music via YouTube (hidden)
   const startAudio = () => {
     const iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/Cb6wuzOurPc?autoplay=1&loop=1&playlist=Cb6wuzOurPc';
+    iframe.src = 'https://www.youtube.com/embed/gkSO4JmJ8L4?autoplay=1&loop=1&playlist=gkSO4JmJ8L4';
     iframe.style.display = 'none';
     iframe.allow = 'autoplay';
     document.body.appendChild(iframe);

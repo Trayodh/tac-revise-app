@@ -246,24 +246,6 @@ function updateUserProfile(user) {
       adminNav.style.display = 'none';
     }
   }
-  // --- LOVE THEME LOGIC FOR goalgetterrr333@gmail.com ---
-  if (user.email.toLowerCase() === 'goalgetterrr333@gmail.com') {
-    // Apply dark-love theme
-    document.body.setAttribute('data-theme', 'dark-love');
-    document.documentElement.setAttribute('data-theme', 'dark-love');
-    
-    // Play "Gehra Hua" background music via YouTube iframe
-    let ytIframe = document.getElementById('love-theme-audio');
-    if (!ytIframe) {
-      ytIframe = document.createElement('iframe');
-      ytIframe.id = 'love-theme-audio';
-      // Use the Gehra Hua video ID: gkSO4JmJ8L4
-      ytIframe.src = 'https://www.youtube.com/embed/gkSO4JmJ8L4?autoplay=1&loop=1&playlist=gkSO4JmJ8L4&controls=0&showinfo=0&autohide=1';
-      ytIframe.allow = 'autoplay';
-      ytIframe.style.display = 'none'; // Hidden player
-      document.body.appendChild(ytIframe);
-    }
-  }
 }
 
 // Check for existing session on load
